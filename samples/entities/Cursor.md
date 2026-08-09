@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(07:35起):本集提到:一家代码助手公司,为了不依赖闭源 API,开始基于开源模型做自己的后训练微调。
 - **[[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]]**(07:35起):本集把它说成:选择底层深深依赖开源模型,而不是只当 OpenAI 外面套壳的包装层的明星应用公司之一。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:53起):本集把它说成:主打 AI 辅助编程的代码编辑器，可作为智能体驱动 Paper 画布生成排版变体，是构建「新智能体栈」的核心工具之一。
+- **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(01:41起):本集嘉宾 Adam Ward 现任该公司的负责人才高管,节目中详细分享了 Cursor 如何用「把每次招聘当高管招」的方式组建极高人才密度的团队。
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
@@ -38,14 +39,15 @@ unlisted: true
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
+- [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Meta]] · [[Lenny]] · [[护栏]] · [[Claude Code]] · [[Anthropic]] · [[Codex]] · [[Lovable]] · [[OpenAI]] · [[Figma]]
+[[智能体]] · [[Meta]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[护栏]] · [[Codex]] · [[Lovable]] · [[OpenAI]] · [[前置部署工程师]]
 
-<script type="application/json" class="pd-epn">{"智能体":65,"Meta":12,"Lenny":33,"护栏":12,"Claude Code":17,"Anthropic":36,"Codex":14,"Lovable":3,"OpenAI":30,"Figma":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":67,"Meta":12,"Lenny":34,"Anthropic":38,"Claude Code":18,"护栏":13,"Codex":14,"Lovable":3,"OpenAI":30,"前置部署工程师":4}</script>
 
 <script>
 (function(){

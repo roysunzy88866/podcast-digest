@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
+[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":65,"LLM":5,"推荐系统":1,"监督学习":1,"强化学习":6,"transformer":2,"创造性破坏":1,"Anthropic":36}</script>
+<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":67,"LLM":6,"推荐系统":1,"监督学习":1,"强化学习":6,"transformer":2,"创造性破坏":1,"Anthropic":38}</script>
 
 <script>
 (function(){

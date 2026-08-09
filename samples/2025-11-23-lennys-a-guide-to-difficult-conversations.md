@@ -35,33 +35,79 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>高管教练拆解领导者的辅导技能、倦怠根源与人际关系处理，附现场演示和实用框架。</div>
 
-科技公司的高管教练 [[Rachel Lockett|Rachel Lockett]] 说，大多数领导者之所以越做越累，是因为他们总觉得必须成为房间里最聪明、能给所有答案的人。但这恰恰是在训练团队把难题全抛给你——越能干，越被淹没。她的解法很简单：少给答案，多提问。而且这是一项能学会的具体技能。这一集里，她和 [[Lenny|Lenny]] 聊了五件事：怎么判断什么时候该直接给建议、什么时候该[[辅导|辅导]]，怎么做「[[积极倾听|积极倾听]]」和「提有力的问题」，为什么把80%的时间花在你的天赋上是对抗[[职业倦怠|职业倦怠]]的唯一解，怎么用「[[非暴力沟通|非暴力沟通]]」框架处理高难度冲突和[[联合创始人|联合创始人]]关系，以及怎么用[[一页纸计划|一页纸计划]]对齐全公司。中途 Rachel 还两次把麦克风抛回给 Lenny，现场演示了这套教练方法怎么在不到十分钟里，让一个人自己看清现状并找出下一步。结尾的闪电问答里，她分享了自己作为教练如何用 AI 工具提效，以及正在搭建的一个用 AI 在辅导空档期支持客户的系统。
+科技公司的高管教练 [[Rachel Lockett|Rachel Lockett]] 说，大多数领导者之所以越做越累，是因为他们总觉得必须成为房间里最聪明、能给所有答案的人。但这恰恰是在训练团队把难题全抛给你——越能干，越被淹没。
 
-Rachel 指出，技术人员晋升为领导者后，最大的坎就是改不掉「我有所有答案」的习惯 <button class="pd-ts" data-t="09:24" data-who="Rachel Lockett" data-en="Talk about what you see there, why this is so important, and how you help people develop the skill. I think that most leaders, especially technical leaders, assume they have to have all the answers." aria-label="回原文"></button>。你以前靠聪明和靠谱爬上来的，但在快速扩张的公司里，你的背景信息已经不如周围的人多了，不可能再亲自深挖每一个问题。有些时候给建议是对的：事情紧急、对方缺技能、或者你已经知道正确答案、就是需要团队去执行 <button class="pd-ts" data-t="12:43" data-who="Rachel Lockett" data-en="Yeah, it's an urgent issue and you actually have an answer that you want to drive. So, don't coach and make it a game. You want your person on your team to guess what's in your mind. That's not a good time to coach. You have something you absolutely want them to do. You know the right answer. You want them to be motivated to go do it. Advise them. Help them see the path. But most leaders over-index on that solution. So, I want to share. Maybe Lenny, I can teach you two skills that I think are the basics of leader coaching-" aria-label="回原文"></button>。但 Rachel 说，问题在于大多数领导者在这个解法上「用力过猛」——假设自己招来的专家还非得靠自己去解决问题。
+她的解法很简单：少给答案，多提问。而且这是一项能学会的具体技能。
 
-顺着「怎么帮」这个思路，她给出了领导者辅导的两项基本功。第一项是积极倾听，她把它拆成了三层 <button class="pd-ts" data-t="14:09" data-who="Rachel Lockett" data-en="So, there's actually three levels to listening. So, the first level listening, level one is internal. Let's say you're talking to me about a problem." aria-label="回原文"></button>。第一层是内在倾听：表面上在听你说话，脑子里其实在想「这事对我有什么影响」，大多数人在日常中都被困在这一层；第二层是专注倾听：能复述对方的话、一起解决问题，一般好的一对一会议就是这个状态；第三层是全局倾听：不只在听字面意思，而是在听话语背后的情绪、肢体语言、语调，能听出对方自己都没意识到的深层信息。她随即拿 Lenny 演示了一遍——她问 Lenny「当爸爸是什么感觉」，然后精准地复述了 Lenny 言语中那股既充满极大喜悦、又因为要设定边界而感到疲惫的复杂情绪，整个过程不到一分钟 <button class="pd-ts" data-t="16:15" data-who="Rachel Lockett" data-en="That's something I've been dealing with recently, but it's like everything people tell you it is basically in every way except the joy is so much higher, so much higher than you hear from other people because people always talk about all the downsides, all the pain and challenges." aria-label="回原文"></button>。Lenny 听完直呼「被这样看见的感觉真好」。Rachel 强调，积极倾听不是让你跟每个人开一小时的会，而是在已有的时间里，真正把注意力交给对方。
+这一集里，她和 [[Lenny|Lenny]] 聊了五件事：怎么判断什么时候该直接给建议、什么时候该[[辅导|辅导]]，怎么做「[[积极倾听|积极倾听]]」和「提有力的问题」，为什么把80%的时间花在你的天赋上是对抗[[职业倦怠|职业倦怠]]的唯一解，怎么用「[[非暴力沟通|非暴力沟通]]」框架处理高难度冲突和[[联合创始人|联合创始人]]关系，以及怎么用[[一页纸计划|一页纸计划]]对齐全公司。中途 Rachel 还两次把麦克风抛回给 Lenny，现场演示了这套教练方法怎么在不到十分钟里，让一个人自己看清现状并找出下一步。结尾的闪电问答里，她分享了自己作为教练如何用 AI 工具提效，以及正在搭建的一个用 AI 在辅导空档期支持客户的系统。
 
-说完了怎么听，接下来是怎么问——第二项基本功是「有力的问题」。Rachel 借用了教练领域经典的 [[GROW 模型|GROW 模型]]，把它解释为四类用来启发洞察、而不是诱导对方的问题 <button class="pd-ts" data-t="19:17" data-who="Rachel Lockett" data-en="So, something that I like to equip leaders with is four kinds of questions that you can ask to unlock insight. So, the first kind is I use a GROW model. So, the GROW model just is four different categories of kinds of powerful questions." aria-label="回原文"></button>。G（Goal，目标）问的是「成功长什么样」「你想要什么结果」；R（Reality，现实）问的是「现在卡在哪了」「已经试过什么」；O（Options，选项）问的是「有哪些可走的路」；W（Way forward，前进道路）问的是「你下一步打算做什么」。为了展示这套框架怎么落地，Rachel 现场辅导了 Lenny 那句「工作多得像印第安纳·琼斯身后追来的巨石」的焦虑 <button class="pd-ts" data-t="27:53" data-who="Lenny" data-en="Whoa. The main thing I struggle with these days is just endless work. I feel like this newsletter, I started this newsletter six, seven years ago at this point, and originally it was like, I'm just going to build this chill newsletter, do this on the side." aria-label="回原文"></button>。她没有丢给 Lenny 一堆待办建议，而是用 GROW 模型一步步问：六个月后理想状态是什么？现在的什么习惯挡了路？结果 Lenny 自己发现，他本来就已经决定要降低发刊频率，但一有闲工夫他就会像上瘾一样用新项目填满——这正是症结。最后他自己定下行动：两周后停发一期通讯，并重新审视自己答应新事情的原则。
+Rachel 指出，技术人员晋升为领导者后，最大的坎就是改不掉「我有所有答案」的习惯 <button class="pd-ts" data-t="09:24" data-who="Rachel Lockett" data-en="Talk about what you see there, why this is so important, and how you help people develop the skill. I think that most leaders, especially technical leaders, assume they have to have all the answers." aria-label="回原文"></button>。你以前靠聪明和靠谱爬上来的，但在快速扩张的公司里，你的背景信息已经不如周围的人多了，不可能再亲自深挖每一个问题。
+
+有些时候给建议是对的：事情紧急、对方缺技能、或者你已经知道正确答案、就是需要团队去执行 <button class="pd-ts" data-t="12:43" data-who="Rachel Lockett" data-en="Yeah, it's an urgent issue and you actually have an answer that you want to drive. So, don't coach and make it a game. You want your person on your team to guess what's in your mind. That's not a good time to coach. You have something you absolutely want them to do. You know the right answer. You want them to be motivated to go do it. Advise them. Help them see the path. But most leaders over-index on that solution. So, I want to share. Maybe Lenny, I can teach you two skills that I think are the basics of leader coaching-" aria-label="回原文"></button>。但 Rachel 说，问题在于大多数领导者在这个解法上「用力过猛」——假设自己招来的专家还非得靠自己去解决问题。
+
+顺着「怎么帮」这个思路，她给出了领导者辅导的两项基本功。第一项是积极倾听，她把它拆成了三层 <button class="pd-ts" data-t="14:09" data-who="Rachel Lockett" data-en="So, there's actually three levels to listening. So, the first level listening, level one is internal. Let's say you're talking to me about a problem." aria-label="回原文"></button>。
+
+第一层是内在倾听：表面上在听你说话，脑子里其实在想「这事对我有什么影响」，大多数人在日常中都被困在这一层；第二层是专注倾听：能复述对方的话、一起解决问题，一般好的一对一会议就是这个状态；第三层是全局倾听：不只在听字面意思，而是在听话语背后的情绪、肢体语言、语调，能听出对方自己都没意识到的深层信息。她随即拿 Lenny 演示了一遍——她问 Lenny「当爸爸是什么感觉」，然后精准地复述了 Lenny 言语中那股既充满极大喜悦、又因为要设定边界而感到疲惫的复杂情绪，整个过程不到一分钟 <button class="pd-ts" data-t="16:15" data-who="Rachel Lockett" data-en="That's something I've been dealing with recently, but it's like everything people tell you it is basically in every way except the joy is so much higher, so much higher than you hear from other people because people always talk about all the downsides, all the pain and challenges." aria-label="回原文"></button>。
+
+Lenny 听完直呼「被这样看见的感觉真好」。Rachel 强调，积极倾听不是让你跟每个人开一小时的会，而是在已有的时间里，真正把注意力交给对方。
+
+说完了怎么听，接下来是怎么问——第二项基本功是「有力的问题」。Rachel 借用了教练领域经典的 [[GROW 模型|GROW 模型]]，把它解释为四类用来启发洞察、而不是诱导对方的问题 <button class="pd-ts" data-t="19:17" data-who="Rachel Lockett" data-en="So, something that I like to equip leaders with is four kinds of questions that you can ask to unlock insight. So, the first kind is I use a GROW model. So, the GROW model just is four different categories of kinds of powerful questions." aria-label="回原文"></button>。
+
+G（Goal，目标）问的是「成功长什么样」「你想要什么结果」；R（Reality，现实）问的是「现在卡在哪了」「已经试过什么」；O（Options，选项）问的是「有哪些可走的路」；W（Way forward，前进道路）问的是「你下一步打算做什么」。为了展示这套框架怎么落地，Rachel 现场辅导了 Lenny 那句「工作多得像印第安纳·琼斯身后追来的巨石」的焦虑 <button class="pd-ts" data-t="27:53" data-who="Lenny" data-en="Whoa. The main thing I struggle with these days is just endless work. I feel like this newsletter, I started this newsletter six, seven years ago at this point, and originally it was like, I'm just going to build this chill newsletter, do this on the side." aria-label="回原文"></button>。
+
+她没有丢给 Lenny 一堆待办建议，而是用 GROW 模型一步步问：六个月后理想状态是什么？现在的什么习惯挡了路？
+
+结果 Lenny 自己发现，他本来就已经决定要降低发刊频率，但一有闲工夫他就会像上瘾一样用新项目填满——这正是症结。最后他自己定下行动：两周后停发一期通讯，并重新审视自己答应新事情的原则。
 
 > 【背景】GROW 模型是内部教练常用的经典框架，由约翰·惠特默在 1980 年代推广普及，用于结构化地启发被教练者自己找答案。
 
-Rachel 特别点出了辅导和直接给建议的一个关键区别：人对自己想出来的主意，执行力远高于别人塞给他的清单。如果她一开始就给 Lenny 列一堆「少做事」的建议，效果绝对不如让 Lenny 自己绕一圈得出结论。聊到这，自然会引出另一个话题：如果你自己都觉得被这股工作洪流卷着走，到底该怎么办？这正是下一个主题——职业倦怠。
+Rachel 特别点出了辅导和直接给建议的一个关键区别：人对自己想出来的主意，执行力远高于别人塞给他的清单。如果她一开始就给 Lenny 列一堆「少做事」的建议，效果绝对不如让 Lenny 自己绕一圈得出结论。
 
-Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那批极具创造力的人有多疲惫时，非常痛心 <button class="pd-ts" data-t="43:05" data-who="Rachel Lockett" data-en="And I created a program with my team for the top 50 executives in the tech side of the house. And we looked at their engagement scores, we did coaching circles. And it was so sad to see how exhausted that group of incredibly creative and committed leaders was in that moment." aria-label="回原文"></button>。但她也看到另一类人，在同样的高压下依然充满能量。她的结论很反直觉：这类人未必是更能吃苦，而是他们把自己生活和工作设计成了「80% 的时间都在做自己的天赋」<button class="pd-ts" data-t="44:25" data-who="Rachel Lockett" data-en="We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing. So I try to help my leaders see that they can design their lives so they're spending 80% of their time in their gifts." aria-label="回原文"></button>。她给了一个非常具体的工具：连续两周，每晚写下今天哪五件事给了你能量、哪五件事最消耗你，然后找出模式。配合「翻看日历找出让你期待和让你恐惧的事」、「发邮件问最了解你的 5 到 10 个人你的优势是什么」，你就能定位自己的「天才领域」。Rachel 自己就是个例子——她本以为自己会做产品战略，但被同事直言点醒「你的天赋不是战略，是搞定人」后，她才转向了高管教练这条路 <button class="pd-ts" data-t="53:16" data-who="Rachel Lockett" data-en="So I want to tell you why I'm passionate about this topic because it actually is how I ended up as an Executive Coach. So 10 years ago, I was working at a small company called Remind, and I was running the UX Research team." aria-label="回原文"></button>。
+聊到这，自然会引出另一个话题：如果你自己都觉得被这股工作洪流卷着走，到底该怎么办？这正是下一个主题——职业倦怠。
+
+Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那批极具创造力的人有多疲惫时，非常痛心 <button class="pd-ts" data-t="43:05" data-who="Rachel Lockett" data-en="And I created a program with my team for the top 50 executives in the tech side of the house. And we looked at their engagement scores, we did coaching circles. And it was so sad to see how exhausted that group of incredibly creative and committed leaders was in that moment." aria-label="回原文"></button>。但她也看到另一类人，在同样的高压下依然充满能量。
+
+她的结论很反直觉：这类人未必是更能吃苦，而是他们把自己生活和工作设计成了「80% 的时间都在做自己的天赋」<button class="pd-ts" data-t="44:25" data-who="Rachel Lockett" data-en="We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing. So I try to help my leaders see that they can design their lives so they're spending 80% of their time in their gifts." aria-label="回原文"></button>。她给了一个非常具体的工具：连续两周，每晚写下今天哪五件事给了你能量、哪五件事最消耗你，然后找出模式。
+
+配合「翻看日历找出让你期待和让你恐惧的事」、「发邮件问最了解你的 5 到 10 个人你的优势是什么」，你就能定位自己的「天才领域」。Rachel 自己就是个例子——她本以为自己会做产品战略，但被同事直言点醒「你的天赋不是战略，是搞定人」后，她才转向了高管教练这条路 <button class="pd-ts" data-t="53:16" data-who="Rachel Lockett" data-en="So I want to tell you why I'm passionate about this topic because it actually is how I ended up as an Executive Coach. So 10 years ago, I was working at a small company called Remind, and I was running the UX Research team." aria-label="回原文"></button>。
 
 > 【背景】所谓的「天才领域」概念通常指一个人天赋、热情和最高生产力交汇的区域，这个概念因 Gary McPherson 盖洛普优势教练等人的推广而在管理界流行。
 
-知道了天赋在哪，怎么围绕它重塑工作？Rachel 强调了一个很多人都有的盲区：帮你活在自己的天赋里，不是你经理的工作；他的工作是帮你在被雇佣的岗位上做好绩效 <button class="pd-ts" data-t="57:19" data-who="Rachel Lockett" data-en="Yeah. Well, it's no one else's job to help you live in your gifts. And what I notice in big companies is people are often annoyed or frustrated with their management for not making their job more interesting." aria-label="回原文"></button>。经营你的职业生涯是你自己的事。这包括主动跟经理摊牌、横向调岗，甚至像她提到的 Superhuman 的创始人那样，直接招个总裁来接管自己不擅长的运营，或者像 HubSpot 联合创始人那样立下「我永远不带直接下属」的规矩 <button class="pd-ts" data-t="57:57" data-who="Lenny" data-en="This reminds me, there's a couple of guests I've had on the podcast who did this. They're both founders, so this is specific to founders, but Rahul Vohra at Superhuman, he realized he's not the best executor operations person, so he hired a president that took all that office plate." aria-label="回原文"></button>。她也给出更轻量的起步建议：别一上来就想着辞职或大改，从明天起，少去参加那些消耗能量的可有可无的会议，在两个消耗性任务之间给自己留个 30 分钟散步去「加油」<button class="pd-ts" data-t="58:53" data-who="Rachel Lockett" data-en="I would start small. You don't have to leave your job and redesign your life. You can stop going to the optional things that are exhausting." aria-label="回原文"></button>。关键前提是，你要对自己诚实，只有你知道什么事是共鸣的、什么事是消耗的。
+知道了天赋在哪，怎么围绕它重塑工作？Rachel 强调了一个很多人都有的盲区：帮你活在自己的天赋里，不是你经理的工作；他的工作是帮你在被雇佣的岗位上做好绩效 <button class="pd-ts" data-t="57:19" data-who="Rachel Lockett" data-en="Yeah. Well, it's no one else's job to help you live in your gifts. And what I notice in big companies is people are often annoyed or frustrated with their management for not making their job more interesting." aria-label="回原文"></button>。
 
-把视线从「管理自己」拉到「和他人协作」，Rachel 最出名的工作之一是帮联合创始人修复关系。她打了个比方，联合创始人关系就是一场没有性吸引力的婚姻。这层关系出了问题很难办，因为他们很少向董事会公开，而且 65% 的创业失败都栽在这上面 <button class="pd-ts" data-t="61:50" data-who="Rachel Lockett" data-en="It's very normal. In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood." aria-label="回原文"></button>。Rachel 观察到一个经典张力：技术出身的 CTO（怀疑论者、重事实、爱自给自足）和 CEO（愿景派、爱卖大图、习惯超出实际进度的乐观主义），这两种角色的内在矛盾是一支必跳的舞。她给的解法分三步：第一步是建立自我认知，可以用九型人格等工具给你们之间的互动一种通用语言；第二步是立下「联合创始人誓言」，明确我们要怎么一起做决策、怎么处理冲突；第三步是定期「下到阳台看舞池」，即不管多忙，每双周吃个饭、每季度做一次深度对齐，问问彼此「这还有什么在让你抓狂」。这些方法不仅适用于联合创始人，对任何需要处理艰难对话的人都管用。
+经营你的职业生涯是你自己的事。这包括主动跟经理摊牌、横向调岗，甚至像她提到的 Superhuman 的创始人那样，直接招个总裁来接管自己不擅长的运营，或者像 HubSpot 联合创始人那样立下「我永远不带直接下属」的规矩 <button class="pd-ts" data-t="57:57" data-who="Lenny" data-en="This reminds me, there's a couple of guests I've had on the podcast who did this. They're both founders, so this is specific to founders, but Rahul Vohra at Superhuman, he realized he's not the best executor operations person, so he hired a president that took all that office plate." aria-label="回原文"></button>。
 
-顺着「处理冲突」这个话题，Rachel 给出了一个可以立刻上手的框架——非暴力沟通（NVC）。她指出，进入艰难对话时，人们往往全副武装准备证明对方错了；但任何冲突的真正目标不是说服，而是创造相互理解 <button class="pd-ts" data-t="73:17" data-who="Rachel Lockett" data-en="You finally get to the point of engaging, and often there's a misguided view that the goal is to convince the other person that what they're doing is wrong. Actually, the goal of any conflict is to create mutual understanding." aria-label="回原文"></button>。她的四步法是：第一步，陈述观察到的事实（只说照片能拍下来的客观现象）；第二步，表达你的感受（必须是情绪词，不能说「我觉得你在像混蛋」这种伪感受）；第三步，说出未被满足的普遍人类需求（比如对清晰、协作或连接的需求）；第四步，提出一个具体、微小、对方容易做到的请求。整个过程中最关键的是，只要你展示出脆弱，对方也会分享他的脆弱和不同视角。这能把你拉出无休止的互相指责。Rachel 的那句「专业人士是有感情的，我们在科技行业假装这纯粹是逻辑，完全不是真的，它完全是情感」<button class="pd-ts" data-t="77:40" data-who="Rachel Lockett" data-en="It also acknowledges that professionals have feelings. I think that we operate in tech. We're supposed to give all of ourselves, all of our time, all of our energy to this endeavor." aria-label="回原文"></button>，点破了为什么这套方法在技术团队里特别有效。
+她也给出更轻量的起步建议：别一上来就想着辞职或大改，从明天起，少去参加那些消耗能量的可有可无的会议，在两个消耗性任务之间给自己留个 30 分钟散步去「加油」<button class="pd-ts" data-t="58:53" data-who="Rachel Lockett" data-en="I would start small. You don't have to leave your job and redesign your life. You can stop going to the optional things that are exhausting." aria-label="回原文"></button>。关键前提是，你要对自己诚实，只有你知道什么事是共鸣的、什么事是消耗的。
 
-跟艰难对话紧密相关的一个场景，是处理表现不佳的人。Rachel 给了一把非常锋利的尺子——这是她们在 Stripe 必问的问题：「如果重来一次，你会热情地重新雇佣这个人来做这个角色吗？」<button class="pd-ts" data-t="87:27" data-who="Rachel Lockett" data-en="They need to just keep plowing forward. And when we really take space to think about their feelings and needs, they realize, I ask them, &quot;Would you enthusiastically rehire this person for the same role?&quot;" aria-label="回原文"></button>。这个问题之所以有用，是因为它把模糊的纠结变成了一刀切的二元答案。如果答案是「不」，并不意味着立刻开除，而是意味着你该采取行动了：跟他谈、启动绩效改进计划，或者干脆把他挪到更合适的岗位上。在快速扩张的公司里，一个人去年还很合适的 CFO，今年可能已经跟不上了——这很正常。但你必须面对它，而不是在黑暗中继续和令人沮丧的人际动态瞎耗。
+把视线从「管理自己」拉到「和他人协作」，Rachel 最出名的工作之一是帮联合创始人修复关系。她打了个比方，联合创始人关系就是一场没有性吸引力的婚姻。
 
-对齐了人，接下来就是对齐事。Rachel 介绍了一个从 Alpine Investors 借鉴来的「一页纸计划」<button class="pd-ts" data-t="93:14" data-who="Rachel Lockett" data-en="And how do we communicate it, so that the whole company has clarity, and knows how the work they're doing ladders up to our big picture vision that we're all committed to?&quot;" aria-label="回原文"></button>。它把公司的愿景和价值观放第一列、战略意图和 KPI 放第二列、年度目标放第三列、季度目标放第四列。不管哪个层级的员工，一眼就能看清自己的季度目标是怎么向上一步一步连到公司大愿景的。但 Rachel 特别提醒，比这张纸更重要的是配套的「运营节奏」。高管团队必须定期「走出舞池，上到阳台」，停下来反思：什么是我们一直没说但必须说的「不便的真相」？什么是有效的，什么是无效的？这套节奏给团队带来的，是清晰、对齐，以及那种久违的人际连接。
+这层关系出了问题很难办，因为他们很少向董事会公开，而且 65% 的创业失败都栽在这上面 <button class="pd-ts" data-t="61:50" data-who="Rachel Lockett" data-en="It's very normal. In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood." aria-label="回原文"></button>。Rachel 观察到一个经典张力：技术出身的 CTO（怀疑论者、重事实、爱自给自足）和 CEO（愿景派、爱卖大图、习惯超出实际进度的乐观主义），这两种角色的内在矛盾是一支必跳的舞。
 
-在最后的 AI 环节，Rachel 分享了她作为教练怎么用 AI 工具。她用 Granola 帮自己在辅导会议中记笔记，这让她能 100% 在场陪伴客户，会后还能从长期笔记里洞察反复出现的模式；她用 ChatGPT 帮自己策划女性领导力静修活动，激发创意。她正在搭建一个更有野心的系统：把客户的背景、发展计划、她的核心框架、以及所有 Granola 辅导笔记喂给一个 AI，让客户在两次辅导期间的空档里，有个「懂他们」的 AI 可以随时支招——比如「明天那个让我焦虑的团队会议我该怎么开场」<button class="pd-ts" data-t="99:09" data-who="Rachel Lockett" data-en="I'm available to them. But I think they want to be really respectful of my time, and so some people do reach out and ask me questions, and other people wait for our session." aria-label="回原文"></button>。但她强调，AI 处理的是战术支持，关于「你的人生愿景是什么」「你该怎么重塑核心行为」这类根本问题，依然需要人与人的深度教练。Rachel 的最后一句话也是整集的一个注脚：不管 AI 多发达，创业本质上是一项人类活动，而领导者必须主动对抗这个时代默认的「盲目、苦干和孤独」状态，去创造真实的连接。
+她给的解法分三步：第一步是建立自我认知，可以用九型人格等工具给你们之间的互动一种通用语言；第二步是立下「联合创始人誓言」，明确我们要怎么一起做决策、怎么处理冲突；第三步是定期「下到阳台看舞池」，即不管多忙，每双周吃个饭、每季度做一次深度对齐，问问彼此「这还有什么在让你抓狂」。这些方法不仅适用于联合创始人，对任何需要处理艰难对话的人都管用。
+
+顺着「处理冲突」这个话题，Rachel 给出了一个可以立刻上手的框架——非暴力沟通（NVC）。她指出，进入艰难对话时，人们往往全副武装准备证明对方错了；但任何冲突的真正目标不是说服，而是创造相互理解 <button class="pd-ts" data-t="73:17" data-who="Rachel Lockett" data-en="You finally get to the point of engaging, and often there's a misguided view that the goal is to convince the other person that what they're doing is wrong. Actually, the goal of any conflict is to create mutual understanding." aria-label="回原文"></button>。
+
+她的四步法是：第一步，陈述观察到的事实（只说照片能拍下来的客观现象）；第二步，表达你的感受（必须是情绪词，不能说「我觉得你在像混蛋」这种伪感受）；第三步，说出未被满足的普遍人类需求（比如对清晰、协作或连接的需求）；第四步，提出一个具体、微小、对方容易做到的请求。整个过程中最关键的是，只要你展示出脆弱，对方也会分享他的脆弱和不同视角。
+
+这能把你拉出无休止的互相指责。Rachel 的那句「专业人士是有感情的，我们在科技行业假装这纯粹是逻辑，完全不是真的，它完全是情感」<button class="pd-ts" data-t="77:40" data-who="Rachel Lockett" data-en="It also acknowledges that professionals have feelings. I think that we operate in tech. We're supposed to give all of ourselves, all of our time, all of our energy to this endeavor." aria-label="回原文"></button>，点破了为什么这套方法在技术团队里特别有效。
+
+跟艰难对话紧密相关的一个场景，是处理表现不佳的人。Rachel 给了一把非常锋利的尺子——这是她们在 Stripe 必问的问题：「如果重来一次，你会热情地重新雇佣这个人来做这个角色吗？
+
+」<button class="pd-ts" data-t="87:27" data-who="Rachel Lockett" data-en="They need to just keep plowing forward. And when we really take space to think about their feelings and needs, they realize, I ask them, &quot;Would you enthusiastically rehire this person for the same role?&quot;" aria-label="回原文"></button>。这个问题之所以有用，是因为它把模糊的纠结变成了一刀切的二元答案。
+
+如果答案是「不」，并不意味着立刻开除，而是意味着你该采取行动了：跟他谈、启动绩效改进计划，或者干脆把他挪到更合适的岗位上。在快速扩张的公司里，一个人去年还很合适的 CFO，今年可能已经跟不上了——这很正常。但你必须面对它，而不是在黑暗中继续和令人沮丧的人际动态瞎耗。
+
+对齐了人，接下来就是对齐事。Rachel 介绍了一个从 Alpine Investors 借鉴来的「一页纸计划」<button class="pd-ts" data-t="93:14" data-who="Rachel Lockett" data-en="And how do we communicate it, so that the whole company has clarity, and knows how the work they're doing ladders up to our big picture vision that we're all committed to?&quot;" aria-label="回原文"></button>。
+
+它把公司的愿景和价值观放第一列、战略意图和 KPI 放第二列、年度目标放第三列、季度目标放第四列。不管哪个层级的员工，一眼就能看清自己的季度目标是怎么向上一步一步连到公司大愿景的。
+
+但 Rachel 特别提醒，比这张纸更重要的是配套的「运营节奏」。高管团队必须定期「走出舞池，上到阳台」，停下来反思：什么是我们一直没说但必须说的「不便的真相」？
+
+什么是有效的，什么是无效的？这套节奏给团队带来的，是清晰、对齐，以及那种久违的人际连接。
+
+在最后的 AI 环节，Rachel 分享了她作为教练怎么用 AI 工具。她用 Granola 帮自己在辅导会议中记笔记，这让她能 100% 在场陪伴客户，会后还能从长期笔记里洞察反复出现的模式；她用 ChatGPT 帮自己策划女性领导力静修活动，激发创意。
+
+她正在搭建一个更有野心的系统：把客户的背景、发展计划、她的核心框架、以及所有 Granola 辅导笔记喂给一个 AI，让客户在两次辅导期间的空档里，有个「懂他们」的 AI 可以随时支招——比如「明天那个让我焦虑的团队会议我该怎么开场」<button class="pd-ts" data-t="99:09" data-who="Rachel Lockett" data-en="I'm available to them. But I think they want to be really respectful of my time, and so some people do reach out and ask me questions, and other people wait for our session." aria-label="回原文"></button>。但她强调，AI 处理的是战术支持，关于「你的人生愿景是什么」「你该怎么重塑核心行为」这类根本问题，依然需要人与人的深度教练。Rachel 的最后一句话也是整集的一个注脚：不管 AI 多发达，创业本质上是一项人类活动，而领导者必须主动对抗这个时代默认的「盲目、苦干和孤独」状态，去创造真实的连接。
 
 ## 本集带走
 最后收个尾，这一集值得带走的是这么几条。第一，不要老想着当「答案机器」，你得学会区分什么时候该直接给指令（事情紧急、你确实知道正确答案、对方就是没那个技能），什么时候该退后一步用辅导的方式——用积极倾听去接住对方的情绪，用 GROW 模型去问一些没有标准答案的问题，帮他自己找出下一步，因为只有他自己想出来的方案，他才会真正去执行。第二，真正对抗职业倦怠的方法不是更拼命，而是搞清楚你的天赋到底在哪，想尽办法把 80% 的时间安排在这些给你充电的事情上，少做那些像油箱漏油一样消耗你的事——前提是，只有你自己才知道什么在消耗你。第三，任何冲突的终极目标不是说服对方，而是相互理解；用非暴力沟通的方法，只讲事实、诚实表达感受、说出底层需求、提出一个小而具体的请求，你能把刺刀战变成真正的对话。第四，想认清团队里的人行不行，就用 Stripe 的那把尺子问自己：你会不会「热情地重新雇佣他做这个角色」？如果答案是斩钉截铁的不，那就别再拖，去采取行动。第五，不管是对联合创始人关系，还是对全公司对齐，你都得定期走出日常执行的舞池，上到阳台去看看彼此，创造一个安全的空间去谈那些被掩盖的真实情绪和「不便的真相」。
@@ -111,15 +157,12 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
 
 **换个口味**
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]] —— 同概念:联合创始人 (co-founder)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]] —— 同概念:职业倦怠 (burnout)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同概念:联合创始人 (co-founder)</span>
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同概念:职业倦怠 (burnout)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 </div>
-
-*本集关键词:高管教练 · 领导力 · 沟通框架 · 冲突处理 · 组织运营*
-
 <script>
 (function(){
   function move(){

@@ -44,21 +44,37 @@ tags:
 
 讲她最近做的世界模型之前,得先回到这场 AI 革命到底是怎么起来的。李飞飞把时间线拉回到了上世纪 50 年代,在 1956 年的达特茅斯研讨会上,后来到了斯坦福的 John McCarthy 教授创造了「[[人工智能|人工智能]]」这个词。从 50 年代到 80 年代,专家们在摸索逻辑系统和早期的[[神经网络|神经网络]];到了 80 年代末至 21 世纪初,[[机器学习|机器学习]](让计算机编程和统计学习结合,用机器去学规律,而不是死守人工写的规则)登场了。
 
-她在 2000 年进入加州理工学院读博,正好卡在所谓的「AI 寒冬」——公众不关注、没多少经费,但她选择了一个北极星难题:物体识别。因为我们感知世界的基础就是物体,而不是分子。但她碰到了一个死胡同:那时的模型根本没有足够的数据可练。她突然意识到,人类的学习、甚至动物的进化,本质上都是在大规模的经验数据里泡大的。于是 2006、2007 年左右,她和几个学生硬是把互联网上 1500 万张图片扒下来,分了 22,000 个概念类目,做出了 ImageNet 数据集开源给全世界。
+她在 2000 年进入加州理工学院读博,正好卡在所谓的「AI 寒冬」——公众不关注、没多少经费,但她选择了一个北极星难题:物体识别。因为我们感知世界的基础就是物体,而不是分子。
 
-火种有了,什么时候炸的?她说 2012 年才是现代 AI 真正的诞生时刻。当时多伦多大学的 Geoff Hinton 带队参加 ImageNet 挑战赛,用了 ImageNet 的数据和两张 NVIDIA 的游戏 [[GPU|GPU]],成功跑通了第一个能大幅解决物体识别的神经网络算法。李飞飞把这叫做现代 AI 的「黄金配方」:大数据、神经网络、GPU 这三件套。哪怕是后来刷爆全网的 [[ChatGPT|ChatGPT]],底层依然是这三样东西的放大版。
+但她碰到了一个死胡同:那时的模型根本没有足够的数据可练。她突然意识到,人类的学习、甚至动物的进化,本质上都是在大规模的经验数据里泡大的。于是 2006、2007 年左右,她和几个学生硬是把互联网上 1500 万张图片扒下来,分了 22,000 个概念类目,做出了 ImageNet 数据集开源给全世界。
 
-顺着历史往下说,既然现在的技术配方这么猛,我们是不是快摸到所谓的 AGI(通用人工智能)了?恰恰相反,她觉得这更像是个营销术语。作为科学家,她认为我们离真正的智能还差得很远 <button class="pd-ts" data-t="26:47" data-who="Dr. Fei-Fei Li" data-en="Oh no, I definitely think we need more innovations. I think scaling loss of more data, more GPUs, and bigger current model architecture is there's still a lot to be done there, but I absolutely think we need to innovate more." aria-label="回原文"></button>。她举了个例子:你拿现在最先进的模型,让它看一段办公室的视频去数椅子,连小学生都能干的事,AI 做不到。更别提让 AI 像牛顿那样,看着天体运动就推导出一套物理方程,或者去处理那种需要极高情感认知的师生对话。光靠堆数据堆算力是撞墙的,必须有全新的创新。
+火种有了,什么时候炸的?她说 2012 年才是现代 AI 真正的诞生时刻。
 
-既然语言模型撞了墙,她的解法是什么?这正是她最近把全部精力投入的方向:世界模型和空间智能。在她看来,人是深度依赖视觉的动物,很多时候光靠语言是无法描述世界的。比如说一个火灾现场的急救场景,人们怎么分工救人、怎么扑灭火,这些全是对三维空间和态势的自发理解,你光靠跟 AI 说几句对话是灭不了火的 <button class="pd-ts" data-t="33:15" data-who="Dr. Fei-Fei Li" data-en="And if you immerse yourself in those scene and think about how people organize themselves to rescue people, to stop further disasters, to put down fires, a lot of that is movements is spontaneous understanding of objects, worlds, human situational awareness." aria-label="回原文"></button>。她创办的 World Labs 就是为了解决「让机器理解并生成三维世界」这个问题。她还提到了 DNA 双螺旋结构的发现:当年科学家就是从一张 2D 的 X 射线衍射照片里,凭借人脑的空间想象力推导出了 3D 的双螺旋结构,这种空间推理能力是连科学发现都不可或缺的 <button class="pd-ts" data-t="38:43" data-who="Dr. Fei-Fei Li" data-en="But with that 2D flat photo, the humans, especially two important humans, James Watson and Francis Crick, in addition to their other information, was able to reason in 3D space and deduce a highly three-dimensional double helix structure of the DNA." aria-label="回原文"></button>。
+当时多伦多大学的 Geoff Hinton 带队参加 ImageNet 挑战赛,用了 ImageNet 的数据和两张 NVIDIA 的游戏 [[GPU|GPU]],成功跑通了第一个能大幅解决物体识别的神经网络算法。李飞飞把这叫做现代 AI 的「黄金配方」:大数据、神经网络、GPU 这三件套。哪怕是后来刷爆全网的 [[ChatGPT|ChatGPT]],底层依然是这三样东西的放大版。
 
-那么空间智能具体落地成什么样?就在这期播客上线前夕,World Labs 推出了全球首个大型世界模型 Marble。简单说,你输入一句话或一张图,它就能凭空生成一个你可以走进去、走动、互动的 3D 世界。李飞飞提到,他们合作的一家虚拟制作公司用 Marble 拍视频,硬是把制作时间缩短了 40 倍 <button class="pd-ts" data-t="53:59" data-who="Dr. Fei-Fei Li" data-en="40X? Yes, in fact it has to, because we only had one month to work on this project and there were so many things they were trying to shoot. So using Marble really, really significantly accelerated the virtual production for VFX and movies." aria-label="回原文"></button>。更神奇的是,有心理学家团队找上门,想用 Marble 快速生成各种沉浸式场景,比如凌乱的房间或干净的空间,来测试精神病患者大脑的反应;这甚至还能被用来做恐高症或蜘蛛恐惧症的暴露疗法。
+顺着历史往下说,既然现在的技术配方这么猛,我们是不是快摸到所谓的 AGI(通用人工智能)了?恰恰相反,她觉得这更像是个营销术语。
+
+作为科学家,她认为我们离真正的智能还差得很远 <button class="pd-ts" data-t="26:47" data-who="Dr. Fei-Fei Li" data-en="Oh no, I definitely think we need more innovations. I think scaling loss of more data, more GPUs, and bigger current model architecture is there's still a lot to be done there, but I absolutely think we need to innovate more." aria-label="回原文"></button>。她举了个例子:你拿现在最先进的模型,让它看一段办公室的视频去数椅子,连小学生都能干的事,AI 做不到。
+
+更别提让 AI 像牛顿那样,看着天体运动就推导出一套物理方程,或者去处理那种需要极高情感认知的师生对话。光靠堆数据堆算力是撞墙的,必须有全新的创新。
+
+既然语言模型撞了墙,她的解法是什么?这正是她最近把全部精力投入的方向:世界模型和空间智能。
+
+在她看来,人是深度依赖视觉的动物,很多时候光靠语言是无法描述世界的。比如说一个火灾现场的急救场景,人们怎么分工救人、怎么扑灭火,这些全是对三维空间和态势的自发理解,你光靠跟 AI 说几句对话是灭不了火的 <button class="pd-ts" data-t="33:15" data-who="Dr. Fei-Fei Li" data-en="And if you immerse yourself in those scene and think about how people organize themselves to rescue people, to stop further disasters, to put down fires, a lot of that is movements is spontaneous understanding of objects, worlds, human situational awareness." aria-label="回原文"></button>。
+
+她创办的 World Labs 就是为了解决「让机器理解并生成三维世界」这个问题。她还提到了 DNA 双螺旋结构的发现:当年科学家就是从一张 2D 的 X 射线衍射照片里,凭借人脑的空间想象力推导出了 3D 的双螺旋结构,这种空间推理能力是连科学发现都不可或缺的 <button class="pd-ts" data-t="38:43" data-who="Dr. Fei-Fei Li" data-en="But with that 2D flat photo, the humans, especially two important humans, James Watson and Francis Crick, in addition to their other information, was able to reason in 3D space and deduce a highly three-dimensional double helix structure of the DNA." aria-label="回原文"></button>。
+
+那么空间智能具体落地成什么样?就在这期播客上线前夕,World Labs 推出了全球首个大型世界模型 Marble。
+
+简单说,你输入一句话或一张图,它就能凭空生成一个你可以走进去、走动、互动的 3D 世界。李飞飞提到,他们合作的一家虚拟制作公司用 Marble 拍视频,硬是把制作时间缩短了 40 倍 <button class="pd-ts" data-t="53:59" data-who="Dr. Fei-Fei Li" data-en="40X? Yes, in fact it has to, because we only had one month to work on this project and there were so many things they were trying to shoot. So using Marble really, really significantly accelerated the virtual production for VFX and movies." aria-label="回原文"></button>。更神奇的是,有心理学家团队找上门,想用 Marble 快速生成各种沉浸式场景,比如凌乱的房间或干净的空间,来测试精神病患者大脑的反应;这甚至还能被用来做恐高症或蜘蛛恐惧症的暴露疗法。
 
 说完了她的新产品,这位 AI 教母对个人有什么建议?她从 19 岁开干洗店、到后来放弃终身教职去硅谷、再到创办 World Labs,反复强调自己最大的特质是「在智力上非常无畏」,她劝年轻人找工作别把所有维度都算死了,关键看你的激情在哪、使命对不对 <button class="pd-ts" data-t="69:50" data-who="Dr. Fei-Fei Li" data-en="Not necessarily recruiting or not recruiting, but just in mentoring mode when I see an incredible young talent who is over-focusing on every minute dimension and aspect of considering a job, when maybe the most important thing is where's your passion?" aria-label="回原文"></button>。面对大众对 AI 抢饭碗的恐慌,她最后的回答很动人:不管你是艺术家、护士还是快退休的农民,没有任何技术应该剥夺人的尊严,每个人都有自己拥抱 AI 的方式,世界依然需要你用独特的方式去讲故事 <button class="pd-ts" data-t="76:22" data-who="Dr. Fei-Fei Li" data-en="But no technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment, as well as the governance of every technology." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的核心是三句话。第一,AI 不是魔法,它的起飞是因为三件套凑齐了——海量数据、神经网络和 GPU 算力,李飞飞的 ImageNet 补上了最关键的数据缺口。第二,别迷信 AGI 这个词,现在的模型连数椅子和推导物理定律都做不好,光靠堆数据已经不够,真正的下一个前沿是跳出语言,去攻克空间智能和三维世界模型。第三,无论你是谁,别被 AI 焦虑裹挟,人的尊严和主观能动性才是技术的核心,找到你的热情,把 AI 当成工具去放大你的独特性,这才是最靠谱的应对方式。
+最后收个尾,这一集值得带走的核心是三句话。第一,AI 不是魔法,它的起飞是因为三件套凑齐了——海量数据、神经网络和 GPU 算力,李飞飞的 ImageNet 补上了最关键的数据缺口。
+
+第二,别迷信 AGI 这个词,现在的模型连数椅子和推导物理定律都做不好,光靠堆数据已经不够,真正的下一个前沿是跳出语言,去攻克空间智能和三维世界模型。第三,无论你是谁,别被 AI 焦虑裹挟,人的尊严和主观能动性才是技术的核心,找到你的热情,把 AI 当成工具去放大你的独特性,这才是最靠谱的应对方式。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -89,24 +105,21 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
-- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同公司:NVIDIA · 同概念:GPU、人工智能 (artificial intelligence)、深度学习 (deep learning)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同公司:NVIDIA · 同概念:GPU、人工智能 (artificial intelligence)、深度学习 (deep learning)</span>
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:ChatGPT、Waymo</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同公司:ChatGPT · 同概念:主观能动性 (agency)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同公司:ChatGPT
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同概念:主观能动性 (agency)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT · 同概念:主观能动性 (agency)</span>
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:ChatGPT</span>
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 历史 · 空间智能 · 世界模型 · 具身智能 · 3D 生成模型*
-
 <script>
 (function(){
   function move(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Walden]]
+[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":1,"智能体":65,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":1,"Cognition":5,"OpenRouter":1}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":1,"智能体":67,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":1,"Cognition":5,"OpenRouter":1}</script>
 
 <script>
 (function(){

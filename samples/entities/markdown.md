@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>markdown</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="markdown">MA</div><div class="pi"><h1 class="pt">markdown</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="markdown">MA</div><div class="pi"><h1 class="pt">markdown</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(05:45起):本集反复提及,由 Markdown 文件组成的劳动力构成了新型公司组织,技能文件、解析器表等本质上都是它
+- **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(06:18起):本集把它说成:智能体工作流的源代码,用自然语言书写任务指令;未来甚至能作为捕捉系统真相的共享计划文档,让 AI 负责把文档变为现实。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为概念
+- [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]]
+[[Garry Tan]] · [[Idan Gazit]] · [[智能体]] · [[GitHub Next]] · [[技能文件]] · [[Copilot]] · [[上下文工程]] · [[ACE]] · [[公司大脑]] · [[Dependabot]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":65,"技能文件":1,"上下文工程":2,"公司大脑":1,"RAG":2,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":1,"Idan Gazit":1,"智能体":67,"GitHub Next":1,"技能文件":1,"Copilot":1,"上下文工程":2,"ACE":1,"公司大脑":1,"Dependabot":1}</script>
 
 <script>
 (function(){

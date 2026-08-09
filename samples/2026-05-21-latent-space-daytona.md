@@ -41,31 +41,65 @@ tags:
 
 这一集对话里,他讲了几件事:为什么智能体要干活,就非得配一台随开随关的「专属计算机」,而不能简单用传统的虚拟机凑合;他那「快得像 2008 年的旧办法」的[[裸金属|裸金属]]架构是怎么做到毫秒级启动的;新兴的强化学习工作负载给计算提供商出了哪些前所未有的尖峰难题;以及为什么在 Windows 甚至 macOS 上让智能体去操作传统软件,可能是下一个十万亿级的「上帝应用」。
 
-要理解 Daytona 为什么坚持做底层,得先看他们做这次转向的起点。Ivan 回忆,2024 年底他们本来只是想把开发环境自动化叠在一个叫 OpenDevin 的开源智能体上做成服务。结果没什么人来用,倒是一堆做智能体的开发者跑来问:你这套东西能不能直接给我的智能体当计算[[沙箱|沙箱]](一种隔离的代码执行环境)?他们赶紧拿原来的基础设施去对接 20、30 个潜在客户,结果所有人都说:这东西用不了,它老崩。问题到底出在哪?他们发现,大多数人当时以为「人用的基础架构,智能体拿来就能用」,觉得反正有 EC2、有虚拟机,有什么不一样。但智能体的使用逻辑根本不是这样:它要随时能暂停、回来接着干,它还极度渴求速度。而传统方案中,硬盘不是沙箱自带的、机器随时可能被抢占清空。找准了「智能体也需要像人一样有台能合盖休眠的电脑」这个痛点,他们的 CTO 带着十几年前重写调度器的经验,干脆从第一性原理出发,直奔裸金属。
+要理解 Daytona 为什么坚持做底层,得先看他们做这次转向的起点。Ivan 回忆,2024 年底他们本来只是想把开发环境自动化叠在一个叫 OpenDevin 的开源智能体上做成服务。
 
-为什么裸金属反而成了最快的路?Ivan 揭示了这里的门道。大多数云服务商是在虚拟机上面再套一层安全隔离来跑沙箱,而 Daytona 是直接把沙箱跑在裸金属机器上,并且用自己写的调度器。关键的秘诀在于快照(特定时间点的系统状态存档)和模板都预加载在裸金属机器的本地 NVMe 硬盘上。你要启动沙箱时,系统直接把你定向到那个本地硬盘,然后「啪」地一下开机。因为绕过了网络读取的延迟,启动速度就快得不可思议。
+结果没什么人来用,倒是一堆做智能体的开发者跑来问:你这套东西能不能直接给我的智能体当计算[[沙箱|沙箱]](一种隔离的代码执行环境)?他们赶紧拿原来的基础设施去对接 20、30 个潜在客户,结果所有人都说:这东西用不了,它老崩。
+
+问题到底出在哪?他们发现,大多数人当时以为「人用的基础架构,智能体拿来就能用」,觉得反正有 EC2、有虚拟机,有什么不一样。
+
+但智能体的使用逻辑根本不是这样:它要随时能暂停、回来接着干,它还极度渴求速度。而传统方案中,硬盘不是沙箱自带的、机器随时可能被抢占清空。找准了「智能体也需要像人一样有台能合盖休眠的电脑」这个痛点,他们的 CTO 带着十几年前重写调度器的经验,干脆从第一性原理出发,直奔裸金属。
+
+为什么裸金属反而成了最快的路?Ivan 揭示了这里的门道。
+
+大多数云服务商是在虚拟机上面再套一层安全隔离来跑沙箱,而 Daytona 是直接把沙箱跑在裸金属机器上,并且用自己写的调度器。关键的秘诀在于快照(特定时间点的系统状态存档)和模板都预加载在裸金属机器的本地 NVMe 硬盘上。
+
+你要启动沙箱时,系统直接把你定向到那个本地硬盘,然后「啪」地一下开机。因为绕过了网络读取的延迟,启动速度就快得不可思议。
 
 直接用数字说话最有说服力。Ivan 给出了他们关注的三项硬指标:一是启动单个沙箱的耗时,算上网络往返只要 60 毫秒;二是并发启动能力,一次拉起 5 万个沙箱只需 75 秒,而业内有些方案要花 30 分钟;三是持续运行上限,他们最大的客户目前每天要跑大约 85 万次,甚至还有人提出了五十万并发的需求 <button class="pd-ts" data-t="16:27" data-who="Ivan Burazin" data-en="And so one is like time to spin up one. And so our time to spin up one is 60 milliseconds with network agency. So requests, spin up, reply, the whole thing, 60 milliseconds." aria-label="回原文"></button>。他坦言,基准测试只是入场的桌前筹码,真正解决大问题的是工程架构。
 
-不过,基准测试可不管你怎么应付那些古怪的流量。那这么极端的性能,到底在扛什么样的活?Ivan 把目前的工作负载分成两大类,这正好能解释前面提到的市场奇观。一类是后台智能体(比如像 Cognition、Harvey 这种长跑的编程或业务智能体),它们的使用节奏跟人类上班族一样是「日出而作」的,中午达峰、午夜回落;另一类则是用于 RL(强化学习,通过奖励信号训练模型的方法)和评测的任务,这类任务一跑就是全力拉满,然后骤停,用量的图形呈现出很极端的方形尖峰。因为不同地区的工作时间不同,这种差异其实也折射到了用户分布上:Ivan 发现他们的用户数按城市排,第一名竟然是新加坡,东京也名列前茅,这在过去的科技周期里是很少见的 <button class="pd-ts" data-t="19:26" data-who="Ivan Burazin" data-en="I talked to you about this, our number one city by user is Singapore. Oh, wow." aria-label="回原文"></button>。更要命的是,这种午夜发任务、睡醒看结果的研究员节奏,让负载更加无法预测。
+不过,基准测试可不管你怎么应付那些古怪的流量。那这么极端的性能,到底在扛什么样的活?
 
-面对不可预测的极端尖峰,这就是计算提供商最头疼的新难题了。Daytona 目前的平均利用率只有 15%,但峰值会冲到 90%。如果客户全都突然爆发,怎么兜得住?Ivan 解释说,要么超额配置硬件硬扛,要么搞即时计算——流量溢出时赶紧去别的云厂商那开通机器。但这招一慢就会出事:做 RL 训练时,最贵的是 GPU,你绝不能让 GPU 停在那等 CPU 启动。所以大家都在想办法,像 Cloudflare 那样靠地理调度来错峰填谷,或者干脆自己囤硬件。Ivan 还专门办了场大会,发现做智能体基础建设的同行们(比如做数据库的 Neon)全在为这破天荒的尖峰负载发愁。
+Ivan 把目前的工作负载分成两大类,这正好能解释前面提到的市场奇观。一类是后台智能体(比如像 Cognition、Harvey 这种长跑的编程或业务智能体),它们的使用节奏跟人类上班族一样是「日出而作」的,中午达峰、午夜回落;另一类则是用于 RL(强化学习,通过奖励信号训练模型的方法)和评测的任务,这类任务一跑就是全力拉满,然后骤停,用量的图形呈现出很极端的方形尖峰。
 
-顺带一提,如果你好奇智能体为什么这么费底层资源, Ivan 打了个很直观的比方。为什么现在连数据库、CI(持续集成)这些原本跟 AI 八竿子打不着的环节都开始缺资源了?Ivan 说,你想啊,现在全球有 80 亿人,假设未来平均每个人手头有 2 个智能体在帮着干活,那每一次任务都需要一个专属的计算环境。人手一台电脑的市场规模,已经跟整个云计算市场差不多了;智能体遍地跑的时候,CPU 甚至连网络带宽都会成为扼杀增长的瓶颈 <button class="pd-ts" data-t="46:33" data-who="Ivan Burazin" data-en="was also talking about how CPUs will now be a bottleneck because it will be the constraint. You won't be able to grow or we won't be able to have enough of these because there" aria-label="回原文"></button>。
+因为不同地区的工作时间不同,这种差异其实也折射到了用户分布上:Ivan 发现他们的用户数按城市排,第一名竟然是新加坡,东京也名列前茅,这在过去的科技周期里是很少见的 <button class="pd-ts" data-t="19:26" data-who="Ivan Burazin" data-en="I talked to you about this, our number one city by user is Singapore. Oh, wow." aria-label="回原文"></button>。更要命的是,这种午夜发任务、睡醒看结果的研究员节奏,让负载更加无法预测。
 
-但想要让智能体遍地跑,光给它们提供 Linux 环境是远远不够的,这也是 Ivan 目前最看重的押注:computer use(让智能体像人一样操作电脑图形界面)。Ivan 的洞察是:很多传统的知识工作依然锁死在 Windows 上的老软件里,没人会给这些破烂老系统重写 API。他算了一笔账:如果智能体能像 RPA(机器人流程自动化)那样,替代掉 40% 的这部分知识工作,那就是一个每年十万亿美元的市场 <button class="pd-ts" data-t="34:12" data-who="Ivan Burazin" data-en="And so if you take 40% of that, you get to essentially like $10 trillion a year. That's your time. So that's the time of the models, right?" aria-label="回原文"></button>。他自己就深有体会:为了做个董事会报告,因为各种财务系统不开放 API,他只能给智能体分配一台带界面操作的虚拟计算机,让它自己去各个网站登录、导出数据。连最前沿的初创公司都要靠操作界面才能搞定数据整合,何况高盛这种老牌大行。
+面对不可预测的极端尖峰,这就是计算提供商最头疼的新难题了。Daytona 目前的平均利用率只有 15%,但峰值会冲到 90%。
 
-Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Ivan 吐槽了 macOS 的授权限制:每台机器最多跑两个虚拟机,而且授权后必须绑定 24 小时,这意味着没法按秒计费。更致命的是它的安全机制不允许内存快照跨机器迁移,这直接锁死了负载均衡的可能性。他甚至开玩笑说,得有人出用「直觉编程」搞一套全新的操作系统出来,才能彻底解决这个困境。
+如果客户全都突然爆发,怎么兜得住?Ivan 解释说,要么超额配置硬件硬扛,要么搞即时计算——流量溢出时赶紧去别的云厂商那开通机器。
 
-聊到商业层面,开源是绕不开的话题,但 Ivan 的视角很务实。虽然 Daytona 采用了 AGPL 3.0(一种带传染性保护的开源协议)来防止白嫖,但他发现,现在 AI 市场的拉力实在太猛了。过去小公司想进大企业的供应商名单,走采购安全审计要花几个月,最后还可能被嫌弃;现在巨头们因为急需,反而主动推动流程,5 天就能过关 <button class="pd-ts" data-t="51:33" data-who="Ivan Burazin" data-en="Whereas today we've had these large companies push us, like they would push us through. Like usually when you would go through procurement to become a vendor of large" aria-label="回原文"></button>。开源更多是成了方便智能体读取代码上下文的工具,而真正驱动增长的,是企业客户不惜血本消耗资源的 B2B 模式。
+但这招一慢就会出事:做 RL 训练时,最贵的是 GPU,你绝不能让 GPU 停在那等 CPU 启动。所以大家都在想办法,像 Cloudflare 那样靠地理调度来错峰填谷,或者干脆自己囤硬件。Ivan 还专门办了场大会,发现做智能体基础建设的同行们(比如做数据库的 Neon)全在为这破天荒的尖峰负载发愁。
 
-但并非所有打着 AI 旗号的生意都逻辑通顺。Ivan 对当下的 AI 创业生态抛出了一个非常犀利的观点:那些靠转卖大模型 token 来堆高收入的 SaaS 公司,根本配不上传统 SaaS 的估值倍数。逻辑很简单,传统 SaaS 利润率极高且有很强的客户粘性,而中间商赚差价的模式,利润率要糟糕得多。他个人的诉求很明确:与其给我套层壳的封闭智能体,不如直接把数据 API 开放出来,我自己有智能体来处理 <button class="pd-ts" data-t="61:51" data-who="Ivan Burazin" data-en="Yes. And I think that's incorrect. Why?" aria-label="回原文"></button>。
+顺带一提,如果你好奇智能体为什么这么费底层资源, Ivan 打了个很直观的比方。为什么现在连数据库、CI(持续集成)这些原本跟 AI 八竿子打不着的环节都开始缺资源了?
 
-这种对底层逻辑的极致追求,背后是 Ivan 刻入骨髓的极客奋斗文化。Daytona 的 25 人团队里,有 13 个是跟了他七年的老战友。公司最大的卖点甚至不是技术多牛,而是「疯狂的响应速度」——客户有难题,五分钟内上 Slack 语音碰头。他自己在两地奔波、缺席家庭时光,他坦言创业「本就该是痛苦的,一切有价值的事都会痛」。
+Ivan 说,你想啊,现在全球有 80 亿人,假设未来平均每个人手头有 2 个智能体在帮着干活,那每一次任务都需要一个专属的计算环境。人手一台电脑的市场规模,已经跟整个云计算市场差不多了;智能体遍地跑的时候,CPU 甚至连网络带宽都会成为扼杀增长的瓶颈 <button class="pd-ts" data-t="46:33" data-who="Ivan Burazin" data-en="was also talking about how CPUs will now be a bottleneck because it will be the constraint. You won't be able to grow or we won't be able to have enough of these because there" aria-label="回原文"></button>。
+
+但想要让智能体遍地跑,光给它们提供 Linux 环境是远远不够的,这也是 Ivan 目前最看重的押注:computer use(让智能体像人一样操作电脑图形界面)。Ivan 的洞察是:很多传统的知识工作依然锁死在 Windows 上的老软件里,没人会给这些破烂老系统重写 API。
+
+他算了一笔账:如果智能体能像 RPA(机器人流程自动化)那样,替代掉 40% 的这部分知识工作,那就是一个每年十万亿美元的市场 <button class="pd-ts" data-t="34:12" data-who="Ivan Burazin" data-en="And so if you take 40% of that, you get to essentially like $10 trillion a year. That's your time. So that's the time of the models, right?" aria-label="回原文"></button>。他自己就深有体会:为了做个董事会报告,因为各种财务系统不开放 API,他只能给智能体分配一台带界面操作的虚拟计算机,让它自己去各个网站登录、导出数据。连最前沿的初创公司都要靠操作界面才能搞定数据整合,何况高盛这种老牌大行。
+
+Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Ivan 吐槽了 macOS 的授权限制:每台机器最多跑两个虚拟机,而且授权后必须绑定 24 小时,这意味着没法按秒计费。
+
+更致命的是它的安全机制不允许内存快照跨机器迁移,这直接锁死了负载均衡的可能性。他甚至开玩笑说,得有人出用「直觉编程」搞一套全新的操作系统出来,才能彻底解决这个困境。
+
+聊到商业层面,开源是绕不开的话题,但 Ivan 的视角很务实。虽然 Daytona 采用了 AGPL 3.0(一种带传染性保护的开源协议)来防止白嫖,但他发现,现在 AI 市场的拉力实在太猛了。
+
+过去小公司想进大企业的供应商名单,走采购安全审计要花几个月,最后还可能被嫌弃;现在巨头们因为急需,反而主动推动流程,5 天就能过关 <button class="pd-ts" data-t="51:33" data-who="Ivan Burazin" data-en="Whereas today we've had these large companies push us, like they would push us through. Like usually when you would go through procurement to become a vendor of large" aria-label="回原文"></button>。开源更多是成了方便智能体读取代码上下文的工具,而真正驱动增长的,是企业客户不惜血本消耗资源的 B2B 模式。
+
+但并非所有打着 AI 旗号的生意都逻辑通顺。Ivan 对当下的 AI 创业生态抛出了一个非常犀利的观点:那些靠转卖大模型 token 来堆高收入的 SaaS 公司,根本配不上传统 SaaS 的估值倍数。
+
+逻辑很简单,传统 SaaS 利润率极高且有很强的客户粘性,而中间商赚差价的模式,利润率要糟糕得多。他个人的诉求很明确:与其给我套层壳的封闭智能体,不如直接把数据 API 开放出来,我自己有智能体来处理 <button class="pd-ts" data-t="61:51" data-who="Ivan Burazin" data-en="Yes. And I think that's incorrect. Why?" aria-label="回原文"></button>。
+
+这种对底层逻辑的极致追求,背后是 Ivan 刻入骨髓的极客奋斗文化。Daytona 的 25 人团队里,有 13 个是跟了他七年的老战友。
+
+公司最大的卖点甚至不是技术多牛,而是「疯狂的响应速度」——客户有难题,五分钟内上 Slack 语音碰头。他自己在两地奔波、缺席家庭时光,他坦言创业「本就该是痛苦的,一切有价值的事都会痛」。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的核心,是理解智能体时代基础设施的剧变。第一,给智能体配算力,不能拿给人用的虚拟机凑合,它要的是能随时暂停、毫秒级唤醒、还能动态扩容的「可组合计算机」,这是 Daytona 从第一性原理重新造轮子的起点。第二,突破性能瓶颈往往要靠回归底层,他们抛弃了层层叠加的虚拟化,直接上裸金属加自研调度器,把模板预加载到本地硬盘,这才有了并发拉起五万个沙箱只需 75 秒的极限速度。第三,智能体的爆发带来了前所未有的方形尖峰工作负载,传统云靠时间差调配流量的打法开始失灵,未来谁能提前锁住 CPU 产能,谁就握住了主动权。第四,真正的十万亿级大市场,藏在让智能体去操控那些没有 API 的 Windows 老软件里,与其等公司重构系统,不如直接给智能体一台带界面的电脑让它自己点。最后,在这个狂飙突进的增量市场里,不要被「转卖 token 凑收入」的 SaaS 幻象给骗了,真正的价值依然在于谁能成为专门为智能体服务、具备全套新原语的那个全新的云。
+最后收个尾,这一集值得带走的核心,是理解智能体时代基础设施的剧变。第一,给智能体配算力,不能拿给人用的虚拟机凑合,它要的是能随时暂停、毫秒级唤醒、还能动态扩容的「可组合计算机」,这是 Daytona 从第一性原理重新造轮子的起点。
+
+第二,突破性能瓶颈往往要靠回归底层,他们抛弃了层层叠加的虚拟化,直接上裸金属加自研调度器,把模板预加载到本地硬盘,这才有了并发拉起五万个沙箱只需 75 秒的极限速度。第三,智能体的爆发带来了前所未有的方形尖峰工作负载,传统云靠时间差调配流量的打法开始失灵,未来谁能提前锁住 CPU 产能,谁就握住了主动权。
+
+第四,真正的十万亿级大市场,藏在让智能体去操控那些没有 API 的 Windows 老软件里,与其等公司重构系统,不如直接给智能体一台带界面的电脑让它自己点。最后,在这个狂飙突进的增量市场里,不要被「转卖 token 凑收入」的 SaaS 幻象给骗了,真正的价值依然在于谁能成为专门为智能体服务、具备全套新原语的那个全新的云。
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
@@ -100,24 +134,21 @@ Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Iva
 
 **顺着「智能体」挖下去**
 
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同概念:智能体 (agent)、计算机使用 (computer use)
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:智能体 (agent)、计算机使用 (computer use)</span>
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:智能体基础设施 · 计算沙箱 · 突发负载 · RPA与计算机使用 · 开源策略*
-
 <script>
 (function(){
   function move(){

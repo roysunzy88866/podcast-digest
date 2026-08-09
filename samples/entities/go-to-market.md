@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>go-to-market</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(00:00起):本集的核心概念，指产品推向市场的全过程。被描述为涵盖任何接触客户或产生收入的职能，并强调应当像打磨产品一样去打磨被推销的体验。
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:04起):本集指出，传统的策略如发冷邮件、播客、线下活动依然有效，真正失效的是旧的「剧本」，因为 B2B 市场已经两极分化，需要用 AI 智能体来提效或处理海量需求。
+- **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(51:15起):本集提到招聘中的 Go to Market(市场推广/商业化)团队也会做面试挑战项目,让他们一起解决棘手客户的问题来作为评估。
 
 ## ① 提到它的金句
 
@@ -24,18 +25,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
+- [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Vercel]] · [[智能体]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Stripe]] · [[SaaStr]] · [[Gong]] · [[Replit]] · [[OpenAI]]
+[[Lenny]] · [[智能体]] · [[Vercel]] · [[前置部署工程师]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Adam Ward]] · [[Stripe]] · [[SaaStr]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Vercel":5,"智能体":65,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Stripe":10,"SaaStr":1,"Gong":1,"Replit":4,"OpenAI":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"智能体":67,"Vercel":5,"前置部署工程师":4,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Adam Ward":1,"Stripe":10,"SaaStr":1,"Cursor":8}</script>
 
 <script>
 (function(){

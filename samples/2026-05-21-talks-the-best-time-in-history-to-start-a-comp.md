@@ -39,23 +39,51 @@ tags:
 
 在这场对谈里，他和另一家科技公司 [[Replit|Replit]] 的创始人 Amjad，一起梳理了 AI 正在如何重塑创业版图。你会听到他们聊三件事：首先是 Stripe 平台上的真实数据，为什么说创业大爆发不仅没有注水、反而全是干货；其次是从溜冰场软件到十亿美元公司，那些最赚钱的 AI 应用为什么往往出自硅谷看不上眼的边缘领域；最后是两位在探讨一个所有人都在焦虑的问题——如果大模型把写代码的边际成本压到零，那初创公司的[[护城河|护城河]]到底还在不在。
 
-先来看 Stripe 眼里的这场大爆发到底有多真实。Patrick 提到，创业率的猛增是在疫情之后维持高位的基础上的二次飙升。很多人可能会怀疑，这种翻倍的增长是不是因为 AI 工具好用，导致一堆没有实质内容的轻量级小项目（也就是所谓的 vibe coding，指那种随心所欲、不讲究工程严谨性的编程项目）大量涌现？但 Patrick 给出的数据恰恰相反：不仅新企业的平均成功率和收入略有增加，而且那些真正跑出来的「突围型」公司，其收入爬坡的速度比过去任何时代都要陡峭 <button class="pd-ts" data-t="03:11" data-who="Patrick" data-en="That's happening a lot quicker as well, right? Yeah. Two things I think are pretty interesting here." aria-label="回原文"></button>。如果把当今的 AI 公司跟当年 SaaS（软件即服务，指通过互联网提供软件服务的模式）繁荣期的公司放在一起比，达到 100 万美元、1000 万美元甚至 1 亿美元收入里程碑的时间，整整缩短了一半。更有意思的是，现在有 20% 的初创公司在成立的 30 天内就开始向首批客户收费了 <button class="pd-ts" data-t="04:41" data-who="Patrick" data-en="I don't know the exact numbers offhand, but what we've looked at is comparing SaaS companies to the SaaS boom era and marketplaces from the marketplace boom era." aria-label="回原文"></button>。
+先来看 Stripe 眼里的这场大爆发到底有多真实。Patrick 提到，创业率的猛增是在疫情之后维持高位的基础上的二次飙升。
 
-数据虽然惊艳，但具体的创业机会究竟长什么样？这正是 Amjad 天天在 Replit 平台上看到的。他发现，硅谷程序员的视角往往局限在科技圈，但世界很大，软件甚至还没触及大部分普通行业。比如他提到一位欧洲创业者，专门为溜冰场开发管理软件，一个人就做成了一门数百万美元的生意——这绝对不是硅谷大佬们会去想的点子 <button class="pd-ts" data-t="06:38" data-who="Amjad" data-en="But no, if you're an entrepreneur in Dubai or if you're an entrepreneur in Thailand or Japan or Germany or what have you, it is a much better time now than it was 12 months ago." aria-label="回原文"></button>。Patrick 也深有同感，他说过去七八年，别人问他最看好什么科技领域，他总是半开玩笑地回答「[[垂直 SaaS|垂直 SaaS]]」。因为不管 AI 还是其他什么底层技术多酷炫，现实中依然有大量传统的、身处具体行业的人，急需软件去改造他们糟糕的工作流 <button class="pd-ts" data-t="07:22" data-who="Patrick" data-en="Well, actually, so I want to come back to that in a second and ask about some kind of representative entrepreneurs to kind of tease that out. But the ice skating rink is a nice example of how, sort of tongue in cheek for the last seven or eight years, when people have asked me what sector of technology I'm excited about, is it drones, is it AI, is it crypto, whatever, I've said it's vertical SaaS." aria-label="回原文"></button>。
+很多人可能会怀疑，这种翻倍的增长是不是因为 AI 工具好用，导致一堆没有实质内容的轻量级小项目（也就是所谓的 vibe coding，指那种随心所欲、不讲究工程严谨性的编程项目）大量涌现？但 Patrick 给出的数据恰恰相反：不仅新企业的平均成功率和收入略有增加，而且那些真正跑出来的「突围型」公司，其收入爬坡的速度比过去任何时代都要陡峭 <button class="pd-ts" data-t="03:11" data-who="Patrick" data-en="That's happening a lot quicker as well, right? Yeah. Two things I think are pretty interesting here." aria-label="回原文"></button>。
 
-这种边缘领域的爆发，背后是像 [[Magic School|Magic School]] 这样极具代表性的案例。Amjad 讲了一位老师的故事：他在疫情期间看到大批同行辞职，于是利用 AI 在 Replit 上做出了一个能帮老师快速创建和批改作业的工具。这位老师懂教育系统的真实痛点，结果产品几个月内就从零做到了 1000 万美元的 ARR（年度经常性收入），如今已是一家估值 5 亿美元的公司 <button class="pd-ts" data-t="09:27" data-who="Amjad" data-en="that allows teachers to create assignments, grade assignments very quickly, and all of that. And because he knows how the education system works, a lot of the dogma in Silicon Valley tends to be like, don't attack businesses because they're terrible." aria-label="回原文"></button>。顺着这个思路，Amjad 认为 Replit 这类平台接下来的价值，不再仅仅是帮人写代码，而是要消除从「点子」到「部署并赚到钱」之间的所有摩擦。他甚至设想，未来在 Replit 的控制面板上，你能直接一键拉起营销活动、自动化处理销售流程。他借用游戏主机任天堂来做比喻：买一台拼装电脑可能各种折腾还老死机，但买一台任天堂，从像素到游戏体验全是深度集成、保证顺滑的——这也是 Replit 追求的垂直整合体验 <button class="pd-ts" data-t="13:49" data-who="Amjad" data-en="And so the structural advantage where you can instantly provision and essentially guarantee that these things will work, just because, again, you have that full control and visibility." aria-label="回原文"></button>。
+如果把当今的 AI 公司跟当年 SaaS（软件即服务，指通过互联网提供软件服务的模式）繁荣期的公司放在一起比，达到 100 万美元、1000 万美元甚至 1 亿美元收入里程碑的时间，整整缩短了一半。更有意思的是，现在有 20% 的初创公司在成立的 30 天内就开始向首批客户收费了 <button class="pd-ts" data-t="04:41" data-who="Patrick" data-en="I don't know the exact numbers offhand, but what we've looked at is comparing SaaS companies to the SaaS boom era and marketplaces from the marketplace boom era." aria-label="回原文"></button>。
 
-工具越强大，一个老生常谈的焦虑就越是萦绕不去：如果模型这么厉害，人类在未来的商业里还能干什么？Amjad 的判断是，至少在当前的大语言模型（LLM）技术范式下，模型本质上依然是训练数据的函数。这就意味着，它们极其擅长模仿和执行人类已经做过的事，却很难去创造那些处于文化边缘、尚未存在的新东西，比如给一个全新的潮流命名或者做营销。他举了个例子，有人开发了一款「容貌优化（looks maxing）」的应用，这是一种极其新颖的青年亚文化现象，ChatGPT 根本无从知晓，但这恰恰是人类创业者敏锐捕捉到的文化脉搏 <button class="pd-ts" data-t="15:34" data-who="Amjad" data-en="Like, what is special about humans? My view is that at least the current era of LLMs, and it doesn't look like, it looks like LLMs will just continue to scale with almost the same properties, which is" aria-label="回原文"></button>。
+数据虽然惊艳，但具体的创业机会究竟长什么样？这正是 Amjad 天天在 Replit 平台上看到的。
 
-顺着「模型能不能无中生有」这个话题，Patrick 进一步把它引向了更深的哲学甚至科学史层面。他提到了科学哲学家 Thomas Kuhn 的「范式转换」概念——AI 也许能极其高效地执行现有的科学研究计划，但它能不能像爱因斯坦那样，凭空产生打破旧框架的跃迁式灵感？现有的 AI 很难做到，因为训练它跳出固有分布的「奖励函数」根本无从定义——你很难去奖励一个「尚未存在」的东西 <button class="pd-ts" data-t="17:46" data-who="Patrick" data-en="So yeah, I think this creativity breaking out of distribution problem is really a deep one. You probably think a lot about it with regards to science, too, because Thomas Kuhn, the philosopher of science, talked about this concept of paradigm shifts." aria-label="回原文"></button>。这也正是人类在创业和商业世界里无可替代的独特性：去感知那些机器数据里还不存在的需求。
+他发现，硅谷程序员的视角往往局限在科技圈，但世界很大，软件甚至还没触及大部分普通行业。比如他提到一位欧洲创业者，专门为溜冰场开发管理软件，一个人就做成了一门数百万美元的生意——这绝对不是硅谷大佬们会去想的点子 <button class="pd-ts" data-t="06:38" data-who="Amjad" data-en="But no, if you're an entrepreneur in Dubai or if you're an entrepreneur in Thailand or Japan or Germany or what have you, it is a much better time now than it was 12 months ago." aria-label="回原文"></button>。
 
-既然人类的直觉和洞察依然有价值，那面对 [[OpenAI|OpenAI]] 这样强悍的基础模型实验室，普通创业者还有活路吗？这是很多想下场的人最大的心理障碍。Patrick 用了一个非常巧妙的类比来打消这种疑虑：食物显然是人类生存和经济运转绝对必需的底层要素，但整个经济体里，真正攫取大部分利润的并不是食品生产者。同理，AI 在未来会变得极其重要且供给丰富，但这绝不意味着所有的价值都会被那几家大模型实验室通吃 <button class="pd-ts" data-t="24:24" data-who="Patrick" data-en="Historically, well, I think it's difficult to reason about the economics and the marginal value of these products and the pricing of these products as distinct from their underlying aggregate quantities." aria-label="回原文"></button>。而且从商业模式上看，任何一家公司的价值，都取决于它的客户能付给它多少钱。如果世界上最后只剩一家独大的 AI 公司，其他实体经济都不存在了，那这家公司本身也就失去价值了 <button class="pd-ts" data-t="25:27" data-who="Patrick" data-en="And I'm not sure it's even what the labs themselves would want. And of course, there's a second consideration, which is the value of any company is in proportion to what its customers can pay it." aria-label="回原文"></button>。Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底层的、甚至可在手机端运行和商品化的技术。人们总是需要各种富有创意的交互界面的，不可能永远只对着一个对话框输入指令 <button class="pd-ts" data-t="27:40" data-who="Amjad" data-en="Perhaps it doesn't feel like it right now, but it's hard for me to imagine a world where it's only a few companies that are controlling these AGI-like models that could do everything" aria-label="回原文"></button>。
+Patrick 也深有同感，他说过去七八年，别人问他最看好什么科技领域，他总是半开玩笑地回答「[[垂直 SaaS|垂直 SaaS]]」。因为不管 AI 还是其他什么底层技术多酷炫，现实中依然有大量传统的、身处具体行业的人，急需软件去改造他们糟糕的工作流 <button class="pd-ts" data-t="07:22" data-who="Patrick" data-en="Well, actually, so I want to come back to that in a second and ask about some kind of representative entrepreneurs to kind of tease that out. But the ice skating rink is a nice example of how, sort of tongue in cheek for the last seven or eight years, when people have asked me what sector of technology I'm excited about, is it drones, is it AI, is it crypto, whatever, I've said it's vertical SaaS." aria-label="回原文"></button>。
 
-说完了大模型会不会通吃，最后来看看当软件的生产成本逼近零时，创业的「护城河」（企业抵御竞争的持续核心优势）究竟在哪。Patrick 认为，他最喜欢的一本关于这个话题的书是 Hamilton 的《 Seven Powers》，书中提到的七种护城河在 AI 时代其实并不会发生本质改变 <button class="pd-ts" data-t="30:04" data-who="Patrick" data-en="One of my favorite books on the subject is Hamilton, Hamler's Seven Powers. Great book. Yeah." aria-label="回原文"></button>。要理解这一点，最直白的例子就是交易所：写出一个交易所的代码并不难，真正的难点在于说服所有人来你这里交易，这种「网络协调效应」才是无法被轻易复制的核心价值 <button class="pd-ts" data-t="29:13" data-who="Patrick" data-en="I think the simplest demonstration of this is an exchange. An exchange is just a software program. But the value is in the coordination, that everyone has chosen to trade there." aria-label="回原文"></button>。不过，Amjad 也指出，AI 确实加快了竞争和颠覆的速度。你一旦做出一个好东西，竞争对手涌入的速度会比以往都快，这会让硅谷的创业者感到痛苦。但对于那些扎根在长尾市场里的小微创业者——比如那个做溜冰场软件的人——没人会为了这么垂直的蝇头小利去跟你死磕 <button class="pd-ts" data-t="31:36" data-who="Amjad" data-en="That being said, I think this is particularly important for Silicon Valley, but I think for the small-time entrepreneur. like the ice rink founder will probably be OK." aria-label="回原文"></button>。
+这种边缘领域的爆发，背后是像 [[Magic School|Magic School]] 这样极具代表性的案例。Amjad 讲了一位老师的故事：他在疫情期间看到大批同行辞职，于是利用 AI 在 Replit 上做出了一个能帮老师快速创建和批改作业的工具。
+
+这位老师懂教育系统的真实痛点，结果产品几个月内就从零做到了 1000 万美元的 ARR（年度经常性收入），如今已是一家估值 5 亿美元的公司 <button class="pd-ts" data-t="09:27" data-who="Amjad" data-en="that allows teachers to create assignments, grade assignments very quickly, and all of that. And because he knows how the education system works, a lot of the dogma in Silicon Valley tends to be like, don't attack businesses because they're terrible." aria-label="回原文"></button>。顺着这个思路，Amjad 认为 Replit 这类平台接下来的价值，不再仅仅是帮人写代码，而是要消除从「点子」到「部署并赚到钱」之间的所有摩擦。
+
+他甚至设想，未来在 Replit 的控制面板上，你能直接一键拉起营销活动、自动化处理销售流程。他借用游戏主机任天堂来做比喻：买一台拼装电脑可能各种折腾还老死机，但买一台任天堂，从像素到游戏体验全是深度集成、保证顺滑的——这也是 Replit 追求的垂直整合体验 <button class="pd-ts" data-t="13:49" data-who="Amjad" data-en="And so the structural advantage where you can instantly provision and essentially guarantee that these things will work, just because, again, you have that full control and visibility." aria-label="回原文"></button>。
+
+工具越强大，一个老生常谈的焦虑就越是萦绕不去：如果模型这么厉害，人类在未来的商业里还能干什么？Amjad 的判断是，至少在当前的大语言模型（LLM）技术范式下，模型本质上依然是训练数据的函数。
+
+这就意味着，它们极其擅长模仿和执行人类已经做过的事，却很难去创造那些处于文化边缘、尚未存在的新东西，比如给一个全新的潮流命名或者做营销。他举了个例子，有人开发了一款「容貌优化（looks maxing）」的应用，这是一种极其新颖的青年亚文化现象，ChatGPT 根本无从知晓，但这恰恰是人类创业者敏锐捕捉到的文化脉搏 <button class="pd-ts" data-t="15:34" data-who="Amjad" data-en="Like, what is special about humans? My view is that at least the current era of LLMs, and it doesn't look like, it looks like LLMs will just continue to scale with almost the same properties, which is" aria-label="回原文"></button>。
+
+顺着「模型能不能无中生有」这个话题，Patrick 进一步把它引向了更深的哲学甚至科学史层面。他提到了科学哲学家 Thomas Kuhn 的「范式转换」概念——AI 也许能极其高效地执行现有的科学研究计划，但它能不能像爱因斯坦那样，凭空产生打破旧框架的跃迁式灵感？
+
+现有的 AI 很难做到，因为训练它跳出固有分布的「奖励函数」根本无从定义——你很难去奖励一个「尚未存在」的东西 <button class="pd-ts" data-t="17:46" data-who="Patrick" data-en="So yeah, I think this creativity breaking out of distribution problem is really a deep one. You probably think a lot about it with regards to science, too, because Thomas Kuhn, the philosopher of science, talked about this concept of paradigm shifts." aria-label="回原文"></button>。这也正是人类在创业和商业世界里无可替代的独特性：去感知那些机器数据里还不存在的需求。
+
+既然人类的直觉和洞察依然有价值，那面对 [[OpenAI|OpenAI]] 这样强悍的基础模型实验室，普通创业者还有活路吗？这是很多想下场的人最大的心理障碍。
+
+Patrick 用了一个非常巧妙的类比来打消这种疑虑：食物显然是人类生存和经济运转绝对必需的底层要素，但整个经济体里，真正攫取大部分利润的并不是食品生产者。同理，AI 在未来会变得极其重要且供给丰富，但这绝不意味着所有的价值都会被那几家大模型实验室通吃 <button class="pd-ts" data-t="24:24" data-who="Patrick" data-en="Historically, well, I think it's difficult to reason about the economics and the marginal value of these products and the pricing of these products as distinct from their underlying aggregate quantities." aria-label="回原文"></button>。
+
+而且从商业模式上看，任何一家公司的价值，都取决于它的客户能付给它多少钱。如果世界上最后只剩一家独大的 AI 公司，其他实体经济都不存在了，那这家公司本身也就失去价值了 <button class="pd-ts" data-t="25:27" data-who="Patrick" data-en="And I'm not sure it's even what the labs themselves would want. And of course, there's a second consideration, which is the value of any company is in proportion to what its customers can pay it." aria-label="回原文"></button>。
+
+Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底层的、甚至可在手机端运行和商品化的技术。人们总是需要各种富有创意的交互界面的，不可能永远只对着一个对话框输入指令 <button class="pd-ts" data-t="27:40" data-who="Amjad" data-en="Perhaps it doesn't feel like it right now, but it's hard for me to imagine a world where it's only a few companies that are controlling these AGI-like models that could do everything" aria-label="回原文"></button>。
+
+说完了大模型会不会通吃，最后来看看当软件的生产成本逼近零时，创业的「护城河」（企业抵御竞争的持续核心优势）究竟在哪。Patrick 认为，他最喜欢的一本关于这个话题的书是 Hamilton 的《 Seven Powers》，书中提到的七种护城河在 AI 时代其实并不会发生本质改变 <button class="pd-ts" data-t="30:04" data-who="Patrick" data-en="One of my favorite books on the subject is Hamilton, Hamler's Seven Powers. Great book. Yeah." aria-label="回原文"></button>。
+
+要理解这一点，最直白的例子就是交易所：写出一个交易所的代码并不难，真正的难点在于说服所有人来你这里交易，这种「网络协调效应」才是无法被轻易复制的核心价值 <button class="pd-ts" data-t="29:13" data-who="Patrick" data-en="I think the simplest demonstration of this is an exchange. An exchange is just a software program. But the value is in the coordination, that everyone has chosen to trade there." aria-label="回原文"></button>。不过，Amjad 也指出，AI 确实加快了竞争和颠覆的速度。
+
+你一旦做出一个好东西，竞争对手涌入的速度会比以往都快，这会让硅谷的创业者感到痛苦。但对于那些扎根在长尾市场里的小微创业者——比如那个做溜冰场软件的人——没人会为了这么垂直的蝇头小利去跟你死磕 <button class="pd-ts" data-t="31:36" data-who="Amjad" data-en="That being said, I think this is particularly important for Silicon Valley, but I think for the small-time entrepreneur. like the ice rink founder will probably be OK." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三个核心认知。第一，别再被「大停滞」的叙事束缚了，Stripe 的数据显示，在 AI 的推动下，全球新企业的创建率和赚钱速度都在以前所未有的倍率飙升，哪怕是路边一个不被硅谷看见的垂直小需求，现在也能迅速长成几百万甚至几千万美元的生意。第二，别被「大模型实验室将通吃一切」的焦虑吓退，就像食物虽然是必需品但农民拿不走全行业利润一样，AI 会变成底层的通用基础设施，真正稀缺且能捕获价值的，永远是具体的场景应用、网络效应和人类对文化趋势的敏锐嗅觉。第三，写代码的边际成本确实在逼近于零，传统的技术壁垒在被快速抹平，这意味着未来的创业机会不再是死磕高深技术，而是去寻找那些在年轻人中流行但地位低、尚未被软件改造的传统角落，放手去给这些长尾需求做好用的界面和垂直体验，这才是接下来一代人最稳妥的押注。
+最后收个尾，这一集值得带走的是三个核心认知。第一，别再被「大停滞」的叙事束缚了，Stripe 的数据显示，在 AI 的推动下，全球新企业的创建率和赚钱速度都在以前所未有的倍率飙升，哪怕是路边一个不被硅谷看见的垂直小需求，现在也能迅速长成几百万甚至几千万美元的生意。
+
+第二，别被「大模型实验室将通吃一切」的焦虑吓退，就像食物虽然是必需品但农民拿不走全行业利润一样，AI 会变成底层的通用基础设施，真正稀缺且能捕获价值的，永远是具体的场景应用、网络效应和人类对文化趋势的敏锐嗅觉。第三，写代码的边际成本确实在逼近于零，传统的技术壁垒在被快速抹平，这意味着未来的创业机会不再是死磕高深技术，而是去寻找那些在年轻人中流行但地位低、尚未被软件改造的传统角落，放手去给这些长尾需求做好用的界面和垂直体验，这才是接下来一代人最稳妥的押注。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -86,24 +114,21 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]] —— 同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe、OpenAI · 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:护城河 (moat)、智能体 (agent)
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)</span>
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:护城河 (moat)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe、OpenAI · 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同公司:Replit · 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 创业 · 商业护城河 · 垂直 SaaS · 大模型商品化 · 互联网经济*
-
 <script>
 (function(){
   function move(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Marble]] · [[空间智能]] · [[Waymo]] · [[Lenny]] · [[Fei-Fei Li]] · [[Dr. Fei-Fei Li]] · [[Martin Cassaro]] · [[ImageNet]] · [[Yunzhu Li]] · [[世界模型]]
 
-<script type="application/json" class="pd-epn">{"Marble":2,"空间智能":2,"Waymo":7,"Lenny":33,"Fei-Fei Li":1,"Dr. Fei-Fei Li":1,"Martin Cassaro":1,"ImageNet":1,"Yunzhu Li":1,"世界模型":1}</script>
+<script type="application/json" class="pd-epn">{"Marble":2,"空间智能":2,"Waymo":7,"Lenny":34,"Fei-Fei Li":1,"Dr. Fei-Fei Li":1,"Martin Cassaro":1,"ImageNet":1,"Yunzhu Li":1,"世界模型":1}</script>
 
 <script>
 (function(){

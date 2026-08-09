@@ -43,11 +43,19 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 ## 「过去六个月,一切才真正汇聚到了一起」
 
-对话开场,黄仁勋没有先讲技术,而是先感谢了 LangChain 的工作。他的核心判断是:虽然 AI 和大语言模型已经发展了 15 年,但真正的爆发点出现在过去六个月。技术扩展、多模态、Omni 模型这些单点突破都不错,但只是基础。真正的转折是:智能体系统终于成形了 <button class="pd-ts" data-t="01:09" data-who="Jensen" data-en="All the scaling, all of the breakthroughs, all the omni models, multimodality stuff, you know, all that stuff is fantastic. But in the end, it was the last six months that where everything kind of came together." aria-label="回原文"></button>。这个系统有四个要素——它基于知识、能用工具搜索、能管理自己的记忆,还有[[护栏|护栏]]保证安全,并且能不断迭代直到把活干完 <button class="pd-ts" data-t="02:07" data-who="Jensen" data-en="And really what happened in the last six months, the big breakthrough are these agentic systems that are grounded on knowledge that can use tools to do search and has memory that it manages." aria-label="回原文"></button>。以前这些要素是散的,模型能力不够串不起来;直到 Claude Code 这样的产品出来,大家突然看到了智能体系统的想象力 <button class="pd-ts" data-t="02:22" data-who="Jensen" data-en="But it ultimately needed some models that have reached a level of capability where everything comes together into that flashpoint. And that's where Claude Code really kind of brought the imagination of agentic systems." aria-label="回原文"></button>。
+对话开场,黄仁勋没有先讲技术,而是先感谢了 LangChain 的工作。他的核心判断是:虽然 AI 和大语言模型已经发展了 15 年,但真正的爆发点出现在过去六个月。
+
+技术扩展、多模态、Omni 模型这些单点突破都不错,但只是基础。真正的转折是:智能体系统终于成形了 <button class="pd-ts" data-t="01:09" data-who="Jensen" data-en="All the scaling, all of the breakthroughs, all the omni models, multimodality stuff, you know, all that stuff is fantastic. But in the end, it was the last six months that where everything kind of came together." aria-label="回原文"></button>。
+
+这个系统有四个要素——它基于知识、能用工具搜索、能管理自己的记忆,还有[[护栏|护栏]]保证安全,并且能不断迭代直到把活干完 <button class="pd-ts" data-t="02:07" data-who="Jensen" data-en="And really what happened in the last six months, the big breakthrough are these agentic systems that are grounded on knowledge that can use tools to do search and has memory that it manages." aria-label="回原文"></button>。以前这些要素是散的,模型能力不够串不起来;直到 Claude Code 这样的产品出来,大家突然看到了智能体系统的想象力 <button class="pd-ts" data-t="02:22" data-who="Jensen" data-en="But it ultimately needed some models that have reached a level of capability where everything comes together into that flashpoint. And that's where Claude Code really kind of brought the imagination of agentic systems." aria-label="回原文"></button>。
 
 ## 聪明人需要好工具:模型之外的「harness」是什么
 
-模型变好了,光有模型就够吗?顺着主持人的追问,黄仁勋抛出了一个贯穿全场的概念:[[测试框架|harness]](驾驭机制)。你可以把 harness 理解为套在模型外面的一整套系统——框架、上下文、工具、记忆、护栏。他的核心比喻是:「一个聪明人变得超级有用,是当我们给了他获取重要信息的权限时」<button class="pd-ts" data-t="05:07" data-who="Jensen" data-en="And an intelligent person becomes super useful when we give them access to particularly important information. And so access to information is important. Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it." aria-label="回原文"></button>。模型也一样,光聪明不行,得配上领域信息、配上工具,还得用飞轮不断打磨它。飞轮的意思是:你用得越多,它越聪明;它越聪明,你用得越多,就像人的学习一样 <button class="pd-ts" data-t="03:41" data-who="Jensen" data-en="Or it's because we believe that AI becomes ultimately great, become a super agent. When we put it into a flywheel where we use it, it gets smarter, it becomes more useful, we use it even more, it gets even smarter, kind of like us, kind of like humans." aria-label="回原文"></button>。
+模型变好了,光有模型就够吗?顺着主持人的追问,黄仁勋抛出了一个贯穿全场的概念:[[测试框架|harness]](驾驭机制)。
+
+你可以把 harness 理解为套在模型外面的一整套系统——框架、上下文、工具、记忆、护栏。他的核心比喻是:「一个聪明人变得超级有用,是当我们给了他获取重要信息的权限时」<button class="pd-ts" data-t="05:07" data-who="Jensen" data-en="And an intelligent person becomes super useful when we give them access to particularly important information. And so access to information is important. Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it." aria-label="回原文"></button>。
+
+模型也一样,光聪明不行,得配上领域信息、配上工具,还得用飞轮不断打磨它。飞轮的意思是:你用得越多,它越聪明;它越聪明,你用得越多,就像人的学习一样 <button class="pd-ts" data-t="03:41" data-who="Jensen" data-en="Or it's because we believe that AI becomes ultimately great, become a super agent. When we put it into a flywheel where we use it, it gets smarter, it becomes more useful, we use it even more, it gets even smarter, kind of like us, kind of like humans." aria-label="回原文"></button>。
 
 主持人随即用数据印证了这个判断。他们做了很多工作,把 NVIDIA 的[[开放权重模型|开放权重模型]] [[Nemotron|Nemotron]] 3 Ultra 放进 LangChain 的深度智能体框架里,结果是:内部基准测试达到 86 分,作为对比的 Claude Opus 是 87 分,而成本只有 Opus 的十分之一 <button class="pd-ts" data-t="06:13" data-who="LangChain / 06:33 LangChain" data-en="And with that tweaking, we managed to get Nemotron 3 Ultra in deep agents. We have an internal benchmark and it managed to get up to like 86% on that. Claude Opus for comparisons at 87." aria-label="回原文"></button>。主持人的感悟是:「我认为开放权重模型开始真正在性能和成本之间取得良好的平衡」<button class="pd-ts" data-t="06:38" data-who="LangChain" data-en="The just as important thing is it's 10 times as cheap as Opus. And I think open weight models are starting to really strike a good balance between performance and cost." aria-label="回原文"></button>。
 
@@ -55,23 +63,41 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 聊到便宜和快的好处,话题自然转到了企业该怎么用模型。黄仁勋的判断非常鲜明:「大多数公司现在是建立在业务流程之上;未来,大多数公司将建立在 harnesses 之上」<button class="pd-ts" data-t="13:10" data-who="Jensen" data-en="I'm curious, how do you see... And just to add on that, just, you know, today, most companies are built on business processes. In the future, most companies will be built on harnesses." aria-label="回原文"></button>。到那时,像 LangChain 这样的框架,就会变成帮公司打造操作系统的工具 <button class="pd-ts" data-t="13:15" data-who="Jensen" data-en="In the future, most companies will be built on harnesses. And so the idea, LangChain would just become the tool that creates the operating system for the company." aria-label="回原文"></button>。
 
-面对主持人的提问——企业该什么时候开始做专门化?黄仁勋的回答是:「一旦它变得足够好」。他给的具体做法是:从 Claude Code 和 Codex 开始用,能用多久就用多久,因为它们一直在变好 <button class="pd-ts" data-t="11:29" data-who="Jensen" data-en="As soon as it gets good enough. So I would start with Claude Code and Codex and use it for as long as I can. And frankly, for a lot of things, you never have to replace because they're getting better all the time and they're on a trajectory that's going to bring capabilities insanely fast." aria-label="回原文"></button>。但有些事不能一直外包。他把企业的核心智能比作公司的命脉:「一家公司基本上都建立在特定领域的专门知识产权之上」<button class="pd-ts" data-t="15:09" data-who="Jensen" data-en="So I'm curious if you can touch on how you see OpenStacks really empowering enterprises going further with AI. Every company is built fundamentally on domain specific or some specialized intellectual property." aria-label="回原文"></button>。「以某种方式外包那种智力,无论你是一个人、公司还是国家,对我来说都毫无意义」<button class="pd-ts" data-t="15:50" data-who="Jensen" data-en="You can't possibly not continue to control it, improve it, make it better, right? And somehow outsourcing that intelligence, whether you're a person, company, country, makes no sense to me." aria-label="回原文"></button>。他的分工建议很清晰:像写代码、写文章这种通用能力,交给云端前沿模型;但真正专有的工作流智能体,必须用开放工具自己造、自己控。
+面对主持人的提问——企业该什么时候开始做专门化?黄仁勋的回答是:「一旦它变得足够好」。
+
+他给的具体做法是:从 Claude Code 和 Codex 开始用,能用多久就用多久,因为它们一直在变好 <button class="pd-ts" data-t="11:29" data-who="Jensen" data-en="As soon as it gets good enough. So I would start with Claude Code and Codex and use it for as long as I can. And frankly, for a lot of things, you never have to replace because they're getting better all the time and they're on a trajectory that's going to bring capabilities insanely fast." aria-label="回原文"></button>。但有些事不能一直外包。
+
+他把企业的核心智能比作公司的命脉:「一家公司基本上都建立在特定领域的专门知识产权之上」<button class="pd-ts" data-t="15:09" data-who="Jensen" data-en="So I'm curious if you can touch on how you see OpenStacks really empowering enterprises going further with AI. Every company is built fundamentally on domain specific or some specialized intellectual property." aria-label="回原文"></button>。「以某种方式外包那种智力,无论你是一个人、公司还是国家,对我来说都毫无意义」<button class="pd-ts" data-t="15:50" data-who="Jensen" data-en="You can't possibly not continue to control it, improve it, make it better, right? And somehow outsourcing that intelligence, whether you're a person, company, country, makes no sense to me." aria-label="回原文"></button>。他的分工建议很清晰:像写代码、写文章这种通用能力,交给云端前沿模型;但真正专有的工作流智能体,必须用开放工具自己造、自己控。
 
 ## 智能体不是人:它是电子,不是原子
 
-既然要给企业引入「超级员工」,该怎么管理这些智能体?黄仁勋再次打了个很妙的比方:雇佣智能体就像雇佣新员工。你得给它入职、给它匹配访问控制权限,不给他们访问每个文件的权限;你给它们任务文档、连接其他同事和工具。这套系统本质上是在为 AI 建一个「HR 系统」<button class="pd-ts" data-t="20:09" data-who="Jensen" data-en="And so in a lot of ways, we are creating an HR system, if you will. You know, for AI that allows the IT organizations and all of the different business units inside the companies to be able to build, improve, and deploy these agents inside companies." aria-label="回原文"></button>。
+既然要给企业引入「超级员工」,该怎么管理这些智能体?黄仁勋再次打了个很妙的比方:雇佣智能体就像雇佣新员工。
 
-既然管理得像人,那智能体到底算什么?主持人在这里提了个有哲学意味的问题:智能体有没有意识、该不该把它拟人化?黄仁勋的回答非常干脆:「它是电子,不是原子。而且它不是生物学的。它没有意识。它不是醒着的。」<button class="pd-ts" data-t="20:47" data-who="Jensen" data-en="Well, it's electrons. It's electrons, not atoms. And it's not biological." aria-label="回原文"></button>。它就是工具,就像自动扫地机或自动割草机。现在人们太容易给它赋予人类属性了,「它一点也不接近那个」,而且「如果我们不理解某样东西是如何工作的,我们要如何每次都让它变得更好?」<button class="pd-ts" data-t="22:03" data-who="Jensen" data-en="If we don't understand how something works, how do we make it better every time? If we don't understand how something works, how do we improve it? How do we fix it?" aria-label="回原文"></button>。所以别神化它,理解它、改进它才是正事。
+你得给它入职、给它匹配访问控制权限,不给他们访问每个文件的权限;你给它们任务文档、连接其他同事和工具。这套系统本质上是在为 AI 建一个「HR 系统」<button class="pd-ts" data-t="20:09" data-who="Jensen" data-en="And so in a lot of ways, we are creating an HR system, if you will. You know, for AI that allows the IT organizations and all of the different business units inside the companies to be able to build, improve, and deploy these agents inside companies." aria-label="回原文"></button>。
+
+既然管理得像人,那智能体到底算什么?主持人在这里提了个有哲学意味的问题:智能体有没有意识、该不该把它拟人化?
+
+黄仁勋的回答非常干脆:「它是电子,不是原子。而且它不是生物学的。
+
+它没有意识。它不是醒着的。
+
+」<button class="pd-ts" data-t="20:47" data-who="Jensen" data-en="Well, it's electrons. It's electrons, not atoms. And it's not biological." aria-label="回原文"></button>。它就是工具,就像自动扫地机或自动割草机。
+
+现在人们太容易给它赋予人类属性了,「它一点也不接近那个」,而且「如果我们不理解某样东西是如何工作的,我们要如何每次都让它变得更好?」<button class="pd-ts" data-t="22:03" data-who="Jensen" data-en="If we don't understand how something works, how do we make it better every time? If we don't understand how something works, how do we improve it? How do we fix it?" aria-label="回原文"></button>。所以别神化它,理解它、改进它才是正事。
 
 ## 用得越多,招的人越多
 
-智能体既然是电子工具,为什么用得越多反而要招更多人?黄仁勋解释,因为构建智能体本身就是全新的工程岗位。他公司的软件工程师,现在更喜欢造智能体而不是敲代码——「编写代码就像打字」,大家更愿意做系统工程师,去搭评估、建基准、设护栏 <button class="pd-ts" data-t="22:40" data-who="Jensen" data-en="If you ask me, every one of my software engineers prefer to be building agents than to be writing Python code. Coding is like typing. And so they're going to do less typing." aria-label="回原文"></button>。也就是说,这是一项创造大量新岗位的技术。
+智能体既然是电子工具,为什么用得越多反而要招更多人?黄仁勋解释,因为构建智能体本身就是全新的工程岗位。
+
+他公司的软件工程师,现在更喜欢造智能体而不是敲代码——「编写代码就像打字」,大家更愿意做系统工程师,去搭评估、建基准、设护栏 <button class="pd-ts" data-t="22:40" data-who="Jensen" data-en="If you ask me, every one of my software engineers prefer to be building agents than to be writing Python code. Coding is like typing. And so they're going to do less typing." aria-label="回原文"></button>。也就是说,这是一项创造大量新岗位的技术。
 
 顺着这个话题,主持人指出,解锁企业内部智能体使用的一个关键,是建立评估机制——这事最好由懂业务的领域专家来做。黄仁勋深表赞同:「无论你是医生、设计师还是软件工程师,你都在创建一个智能体,把平凡的工作拿走」,然后让智能体帮人类做以前做不到的事,这需要想象力和创造力 <button class="pd-ts" data-t="23:32" data-who="Jensen" data-en="That's right. In a lot of ways, whether you're a doctor or a designer or a software engineer, You are creating an agent and you're taking all the mundane work and you're trying to get this agent to do it." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三层认知。第一,模型能力过了及格线,突破点就来了——智能体系统把知识、工具、记忆和护栏粘合在一起,让 AI 变得真正有用。第二,企业不该把核心智能外包,像 LangChain 框架这样的 harness,就是未来公司的操作系统,需要用开放工具把前沿大模型和私有数据拼成自己的超级智能体,再通过[[后训练|后训练]]不断迭代。第三,智能体不是人,它是没有意识的工具,关键在于你要像招新员工一样给它建权限、给上下文、设护栏;拥抱它不但不会让人失业,反而会催生更多构建智能体的系统工程师岗位。
+最后收个尾,这一集值得带走的是三层认知。第一,模型能力过了及格线,突破点就来了——智能体系统把知识、工具、记忆和护栏粘合在一起,让 AI 变得真正有用。
+
+第二,企业不该把核心智能外包,像 LangChain 框架这样的 harness,就是未来公司的操作系统,需要用开放工具把前沿大模型和私有数据拼成自己的超级智能体,再通过[[后训练|后训练]]不断迭代。第三,智能体不是人,它是没有意识的工具,关键在于你要像招新员工一样给它建权限、给上下文、设护栏;拥抱它不但不会让人失业,反而会催生更多构建智能体的系统工程师岗位。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -102,24 +128,21 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]] —— 同公司:LangChain · 同概念:harness、护栏 (guardrails)
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同公司:LangChain · 同概念:harness、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Nemotron、NVIDIA、Anthropic、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]] —— 同公司:NVIDIA、Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同概念:护栏 (guardrails)、智能体 (agent)
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Nemotron、NVIDIA、Anthropic、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)</span>
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 基础设施 · 智能体 · 开源模型 · 开放生态 · 智能体安全*
-
 <script>
 (function(){
   function move(){

@@ -43,19 +43,47 @@ tags:
 
 在这一集播客里，他拿起自己真实的 Codex 界面，不带任何演示包装，给所有想从产品经理转型为创始人的人做了一次深度拆解。你会听到三件事：为什么他认为像 OpenAI Codex（OpenAI 推出的智能体应用环境）这样的本地化工具会彻底改变你管理项目的方式；怎么通过插件（后端深度集成的官方扩展）、技能（任何人都可以编写的提示词或工作流配置）和权限设置，把一个 AI 调教成听话的 10 倍速团队；以及当 AI 帮你包揽了写代码、排版、做幻灯片甚至生成视频后，作为一个人类，你真正剩下的核心护城河到底是什么。
 
-说完了 Meng To 为什么重要，接下来是他怎么把这些 AI 工具真正连成一条线的。Meng To 在开篇直接亮出了他的观点：那些困在 ChatGPT 对话框里的人，根本没有意识到 AI 现在可以连接到你所有的现有应用程序中 <button class="pd-ts" data-t="00:39" data-who="Akash" data-en="and he's gonna break down i think that people who are stuck in chat gpt haven't realized that this can connect to all of your existing apps if you're using it in codex" aria-label="回原文"></button>。在 Meng To 看来，如今的工具生态已经分成了非常清晰的层级。在最底层，你需要把一切都放在本地。他举了 OpenClaw 的例子，这个项目今年初席卷世界时，最大的问题是安全性，很多人担心如果它读了邮件，别人就可以注入提示词从而黑入电脑 <button class="pd-ts" data-t="16:40" data-who="Meng To" data-en="for like a month and i until i got into codex but the biggest problem with openclaw was security a lot of people were worried including myself that if it reads my email someone can inject" aria-label="回原文"></button>。但他现在敢于在 Codex 里给予 AI 全天候的完全访问权限，因为他相信像 OpenAI 这样的受信任通道能提供足够的[[护栏|护栏]]，会主动请求用户许可 <button class="pd-ts" data-t="17:03" data-who="Meng To" data-en="the time but now it's a lot better and thanks to things like Codex you have something that is within a trusted channel which is Codex or an open AI and since they have" aria-label="回原文"></button>。本地化的超能力在于，你所有的文档、知识库和[[上下文|上下文]]都以文件夹的形式存在你自己的电脑上，AI 不依赖云端就能拥有极强的能力。配合像 Obsidian（一款强大的本地知识管理软件）这样的工具，你就能把 Codex 生成的大量 .md 文件组织成自己的脑树 <button class="pd-ts" data-t="10:05" data-who="Meng To" data-en="and you're not always going to go back to your codecs to find these documents so you need a way to organize all of these documents somewhere because codex yes it does a lot of this stuff but obsidian is going to allow you" aria-label="回原文"></button>。
+说完了 Meng To 为什么重要，接下来是他怎么把这些 AI 工具真正连成一条线的。Meng To 在开篇直接亮出了他的观点：那些困在 ChatGPT 对话框里的人，根本没有意识到 AI 现在可以连接到你所有的现有应用程序中 <button class="pd-ts" data-t="00:39" data-who="Akash" data-en="and he's gonna break down i think that people who are stuck in chat gpt haven't realized that this can connect to all of your existing apps if you're using it in codex" aria-label="回原文"></button>。
 
-既然 AI 已经掌握了你的所有本地上下文，那它具体怎么替你干活？这正是下一个话题。Meng To 拆解了 Codex 的两大核心机制：插件和技能。插件更像是传统的 Figma 或 Photoshop 插件，背后有整个团队做深度集成，比如 Slack、Linear 或 Gmail <button class="pd-ts" data-t="13:56" data-who="Meng To" data-en="you get into the plugins and the skills right the difference between the plugin and the skill is just how deeply integrated it is usually a plugin is more like it has you know the whole backend stuff" aria-label="回原文"></button>。特别值得一提的是 computer use（让 AI 像人类一样直接操作你电脑屏幕的功能），它不需要别人专门构建 API，而是能直接在你的浏览器里点击、登录、走完整个流程，甚至帮你找出并修复页面里的 Bug <button class="pd-ts" data-t="15:10" data-who="Meng To" data-en="iagents and it does all of these tasks but then you have computer use which works on everything right? It doesn't require someone to build something. It's going to just use your" aria-label="回原文"></button>。而技能则是另一回事，它比插件更轻量，更像是一种高度自定义的提示词集。Meng To 在构建他的 SwiftUI 应用时，发现 AI 缺乏关于性能优化的知识，他就会去网上寻找专门的 Mac 开发性能技能包下载下来 <button class="pd-ts" data-t="20:15" data-who="Meng To" data-en="a lack of understanding that my my ai agents have so for example no you know when i was building my swift ui apps i was noticing is missing some knowledge about performance and stuff like that so I would go on" aria-label="回原文"></button>。他特别推荐了一个名为 taste 的技能（用于提升前端和图像生成设计审美的技能集），它能让 AI 生成的幻灯片看起来像资深设计师做的，拥有更好的字体和排版 <button class="pd-ts" data-t="45:04" data-who="Meng To" data-en="and you know we have uh stats we have these beautiful slides i'm also using the taste skill that gives me better design skills and better fonts and typography" aria-label="回原文"></button>。此外，他还使用 WhisperFlow（一种高准确度的语音输入工具），因为人类思考的速度远快于打字，用语音能给 AI 提供远超打字的上下文量 <button class="pd-ts" data-t="05:00" data-who="Meng To" data-en="the tools i think it's super important to give you an idea so also whisper flow which i you know i'm sure a lot of people use it i heard about it basically instead" aria-label="回原文"></button>。
+在 Meng To 看来，如今的工具生态已经分成了非常清晰的层级。在最底层，你需要把一切都放在本地。
 
-工具的机制清楚了，那真正上手启动一个新项目时该怎么做？这是整集最具实操性的部分。Meng To 强调，如今我们正在从以 VS Code 和 Figma 为中心的文件时代，转向以聊天为中心的时代 <button class="pd-ts" data-t="26:04" data-who="Meng To" data-en="in the past six months and and i've heard a lot of engineers do that as well um so where where are we right now if nobody's writing code right so we're moving from vs code and figma" aria-label="回原文"></button>。一个新项目其实就是一个新文件夹。你告诉 AI 我想构建一个扫描二维码并自动把内容发送到我邮箱的应用，但你绝对不能让它直接开始写代码。第一步永远是使用规划模式，你要提出一个问题，比如「我们能否详细谈谈邮件部分的功能，我们真的能附上一张网站截图吗？」，让 AI 先把架构、MVP 功能和安全特性都规划好，等你审批了再动手 <button class="pd-ts" data-t="35:13" data-who="Meng To" data-en="okay so this is great and then i can start building or if i have a new question for example i can say can we expand on the email and can we actually have an image like maybe a screenshot of the qr code" aria-label="回原文"></button>。而在生成图像或网页设计时，他分享了一个杀手锏：截图。因为一图胜千言，你可以用快捷键截取当前浏览器的屏幕，AI 瞬间就能获得你所指的确切视觉上下文，然后在几秒钟内做出修正 <button class="pd-ts" data-t="42:37" data-who="Meng To" data-en="than your typing and the third best the the even better than that is taking a screenshot because taking a screenshot you have this new you know you select for example the browser and" aria-label="回原文"></button>。通过在手机 ChatGPT 应用里打开 Codex 移动端，他甚至能在等外卖时用手机调度电脑上正在同时运行的多条任务线 <button class="pd-ts" data-t="43:13" data-who="Meng To" data-en="this is incredible okay just to give you an idea of how incredible this is when i go outside or i go commuting or you know i take a taxi or i'm waiting for my food to be delivered to be served at the restaurant" aria-label="回原文"></button>。
+他举了 OpenClaw 的例子，这个项目今年初席卷世界时，最大的问题是安全性，很多人担心如果它读了邮件，别人就可以注入提示词从而黑入电脑 <button class="pd-ts" data-t="16:40" data-who="Meng To" data-en="for like a month and i until i got into codex but the biggest problem with openclaw was security a lot of people were worried including myself that if it reads my email someone can inject" aria-label="回原文"></button>。但他现在敢于在 Codex 里给予 AI 全天候的完全访问权限，因为他相信像 OpenAI 这样的受信任通道能提供足够的[[护栏|护栏]]，会主动请求用户许可 <button class="pd-ts" data-t="17:03" data-who="Meng To" data-en="the time but now it's a lot better and thanks to things like Codex you have something that is within a trusted channel which is Codex or an open AI and since they have" aria-label="回原文"></button>。
 
-这些具体的构建技巧，最终引向了一个更宏观的职场议题。主持人提到，最近大厂的产品经理正在成批被裁。Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术型产品经理都留下来了 <button class="pd-ts" data-t="00:15" data-who="Meng To" data-en="when we say that pm are getting fired i think it's it's important to clarify that it's the non-technical pms that are getting fired the technical pms are actually staying at those companies" aria-label="回原文"></button>。但他对「技术」的定义非常超前——过去六个月他没写过一行代码，所谓的技术不再是做公司里的官僚主义政治玩家，而是理解所有的行话，知道当别人谈论 GPT image 2.0 时它到底是什么 <button class="pd-ts" data-t="66:32" data-who="Meng To" data-en="at those companies uh and and this gives us a very important message which is that as a as a pm you need to get more technical and when we say technical it doesn't mean that you're going to write the line" aria-label="回原文"></button>。他认为，在 AI 时代，最后的 8% 或者 10% 才是人类真正的护城河。你的工作是质量保证，是确保交给 AI 的计划合理，是运用你独有的领域知识和人类品味去编排这支智能体舰队 <button class="pd-ts" data-t="68:56" data-who="Meng To" data-en="the marketing stuff it can do a lot of that stuff for you so at the end of the day the last 10% or the last 8% is you kind of being" aria-label="回原文"></button>。他将这比作 Airbnb CEO 提过的体验标准：AI 会把质量的基线越拉越高，而你的工作是要在这个五星基线之上，不断去思考如何达到 11 星 <button class="pd-ts" data-t="72:00" data-who="Meng To" data-en="the ceiling of quality is also getting higher so your job is always to get to if this is a five star which is by the way is a podcast I listened from the CEO of Airbnb you want to get to 11 star but at the minimum should be the five star and" aria-label="回原文"></button>。最后，他给出了一条极其鼓励人的出路：既然 AI 能帮你搞定开公司所有的文书、会计和营销，你完全可以成为自己的老板，去挖掘属于自己的那套制胜公式 <button class="pd-ts" data-t="68:33" data-who="Meng To" data-en="because i love doing what i'm doing and i want to keep doing that so um you will probably the end goal the end game is probably that you starting your own company because ai you don't need to be scared" aria-label="回原文"></button>。
+本地化的超能力在于，你所有的文档、知识库和[[上下文|上下文]]都以文件夹的形式存在你自己的电脑上，AI 不依赖云端就能拥有极强的能力。配合像 Obsidian（一款强大的本地知识管理软件）这样的工具，你就能把 Codex 生成的大量 .md 文件组织成自己的脑树 <button class="pd-ts" data-t="10:05" data-who="Meng To" data-en="and you're not always going to go back to your codecs to find these documents so you need a way to organize all of these documents somewhere because codex yes it does a lot of this stuff but obsidian is going to allow you" aria-label="回原文"></button>。
+
+既然 AI 已经掌握了你的所有本地上下文，那它具体怎么替你干活？这正是下一个话题。
+
+Meng To 拆解了 Codex 的两大核心机制：插件和技能。插件更像是传统的 Figma 或 Photoshop 插件，背后有整个团队做深度集成，比如 Slack、Linear 或 Gmail <button class="pd-ts" data-t="13:56" data-who="Meng To" data-en="you get into the plugins and the skills right the difference between the plugin and the skill is just how deeply integrated it is usually a plugin is more like it has you know the whole backend stuff" aria-label="回原文"></button>。
+
+特别值得一提的是 computer use（让 AI 像人类一样直接操作你电脑屏幕的功能），它不需要别人专门构建 API，而是能直接在你的浏览器里点击、登录、走完整个流程，甚至帮你找出并修复页面里的 Bug <button class="pd-ts" data-t="15:10" data-who="Meng To" data-en="iagents and it does all of these tasks but then you have computer use which works on everything right? It doesn't require someone to build something. It's going to just use your" aria-label="回原文"></button>。而技能则是另一回事，它比插件更轻量，更像是一种高度自定义的提示词集。
+
+Meng To 在构建他的 SwiftUI 应用时，发现 AI 缺乏关于性能优化的知识，他就会去网上寻找专门的 Mac 开发性能技能包下载下来 <button class="pd-ts" data-t="20:15" data-who="Meng To" data-en="a lack of understanding that my my ai agents have so for example no you know when i was building my swift ui apps i was noticing is missing some knowledge about performance and stuff like that so I would go on" aria-label="回原文"></button>。他特别推荐了一个名为 taste 的技能（用于提升前端和图像生成设计审美的技能集），它能让 AI 生成的幻灯片看起来像资深设计师做的，拥有更好的字体和排版 <button class="pd-ts" data-t="45:04" data-who="Meng To" data-en="and you know we have uh stats we have these beautiful slides i'm also using the taste skill that gives me better design skills and better fonts and typography" aria-label="回原文"></button>。此外，他还使用 WhisperFlow（一种高准确度的语音输入工具），因为人类思考的速度远快于打字，用语音能给 AI 提供远超打字的上下文量 <button class="pd-ts" data-t="05:00" data-who="Meng To" data-en="the tools i think it's super important to give you an idea so also whisper flow which i you know i'm sure a lot of people use it i heard about it basically instead" aria-label="回原文"></button>。
+
+工具的机制清楚了，那真正上手启动一个新项目时该怎么做？这是整集最具实操性的部分。
+
+Meng To 强调，如今我们正在从以 VS Code 和 Figma 为中心的文件时代，转向以聊天为中心的时代 <button class="pd-ts" data-t="26:04" data-who="Meng To" data-en="in the past six months and and i've heard a lot of engineers do that as well um so where where are we right now if nobody's writing code right so we're moving from vs code and figma" aria-label="回原文"></button>。一个新项目其实就是一个新文件夹。
+
+你告诉 AI 我想构建一个扫描二维码并自动把内容发送到我邮箱的应用，但你绝对不能让它直接开始写代码。第一步永远是使用规划模式，你要提出一个问题，比如「我们能否详细谈谈邮件部分的功能，我们真的能附上一张网站截图吗？
+
+」，让 AI 先把架构、MVP 功能和安全特性都规划好，等你审批了再动手 <button class="pd-ts" data-t="35:13" data-who="Meng To" data-en="okay so this is great and then i can start building or if i have a new question for example i can say can we expand on the email and can we actually have an image like maybe a screenshot of the qr code" aria-label="回原文"></button>。而在生成图像或网页设计时，他分享了一个杀手锏：截图。
+
+因为一图胜千言，你可以用快捷键截取当前浏览器的屏幕，AI 瞬间就能获得你所指的确切视觉上下文，然后在几秒钟内做出修正 <button class="pd-ts" data-t="42:37" data-who="Meng To" data-en="than your typing and the third best the the even better than that is taking a screenshot because taking a screenshot you have this new you know you select for example the browser and" aria-label="回原文"></button>。通过在手机 ChatGPT 应用里打开 Codex 移动端，他甚至能在等外卖时用手机调度电脑上正在同时运行的多条任务线 <button class="pd-ts" data-t="43:13" data-who="Meng To" data-en="this is incredible okay just to give you an idea of how incredible this is when i go outside or i go commuting or you know i take a taxi or i'm waiting for my food to be delivered to be served at the restaurant" aria-label="回原文"></button>。
+
+这些具体的构建技巧，最终引向了一个更宏观的职场议题。主持人提到，最近大厂的产品经理正在成批被裁。
+
+Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术型产品经理都留下来了 <button class="pd-ts" data-t="00:15" data-who="Meng To" data-en="when we say that pm are getting fired i think it's it's important to clarify that it's the non-technical pms that are getting fired the technical pms are actually staying at those companies" aria-label="回原文"></button>。但他对「技术」的定义非常超前——过去六个月他没写过一行代码，所谓的技术不再是做公司里的官僚主义政治玩家，而是理解所有的行话，知道当别人谈论 GPT image 2.0 时它到底是什么 <button class="pd-ts" data-t="66:32" data-who="Meng To" data-en="at those companies uh and and this gives us a very important message which is that as a as a pm you need to get more technical and when we say technical it doesn't mean that you're going to write the line" aria-label="回原文"></button>。
+
+他认为，在 AI 时代，最后的 8% 或者 10% 才是人类真正的护城河。你的工作是质量保证，是确保交给 AI 的计划合理，是运用你独有的领域知识和人类品味去编排这支智能体舰队 <button class="pd-ts" data-t="68:56" data-who="Meng To" data-en="the marketing stuff it can do a lot of that stuff for you so at the end of the day the last 10% or the last 8% is you kind of being" aria-label="回原文"></button>。
+
+他将这比作 Airbnb CEO 提过的体验标准：AI 会把质量的基线越拉越高，而你的工作是要在这个五星基线之上，不断去思考如何达到 11 星 <button class="pd-ts" data-t="72:00" data-who="Meng To" data-en="the ceiling of quality is also getting higher so your job is always to get to if this is a five star which is by the way is a podcast I listened from the CEO of Airbnb you want to get to 11 star but at the minimum should be the five star and" aria-label="回原文"></button>。最后，他给出了一条极其鼓励人的出路：既然 AI 能帮你搞定开公司所有的文书、会计和营销，你完全可以成为自己的老板，去挖掘属于自己的那套制胜公式 <button class="pd-ts" data-t="68:33" data-who="Meng To" data-en="because i love doing what i'm doing and i want to keep doing that so um you will probably the end goal the end game is probably that you starting your own company because ai you don't need to be scared" aria-label="回原文"></button>。
 
 > 【背景】转写稿中频繁出现的 codec / codecs，实际指代的是 OpenAI 推出的 Codex（智能体编码工具）；原稿的 cloud code / cloud design 多为 Claude Code（Anthropic 的竞品工具）的转写误识别。为便于理解，导读已按正确名称 Codex 与 Claude Code 呈现。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三句话。第一，不要停留在单纯的聊天对话框里，把一切都本地化，用 Obsidian 和语音输入工具管理好上下文，给 AI 配上像 taste 这样的技能包，让它真正连接你的工作流。第二，启动任何新项目时，坚决使用规划模式，用提问和截图来精准引导 AI，你可以随时在手机上指挥电脑里成百上千个智能体同时开工，这才是真正的工作流 10 倍速。第三，无论你是产品经理还是创始人，真正的护城河不是写代码或搞办公室政治，而是你懂行懂到能驾驭 AI，运用你那最后百分之八的人类品味去把控质量，把基线推到五星甚至十一星——这就是在 AI 时代创办自己公司的终极公式。
+最后收个尾，这一集值得带走的是三句话。第一，不要停留在单纯的聊天对话框里，把一切都本地化，用 Obsidian 和语音输入工具管理好上下文，给 AI 配上像 taste 这样的技能包，让它真正连接你的工作流。
+
+第二，启动任何新项目时，坚决使用规划模式，用提问和截图来精准引导 AI，你可以随时在手机上指挥电脑里成百上千个智能体同时开工，这才是真正的工作流 10 倍速。第三，无论你是产品经理还是创始人，真正的护城河不是写代码或搞办公室政治，而是你懂行懂到能驾驭 AI，运用你那最后百分之八的人类品味去把控质量，把基线推到五星甚至十一星——这就是在 AI 时代创办自己公司的终极公式。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -86,24 +114,21 @@ tags:
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:cursor · 同概念:codex、智能体 (agent)
-- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]] —— 同公司:cursor、figma · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:cursor · 同概念:codex、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:cursor · 同概念:codex、智能体 (agent)</span>
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:cursor、figma · 同概念:智能体 (agent)</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:cursor · 同概念:codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)、智能体 (agent)、codex
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:codex、智能体 (agent)、mcp
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]] —— 同嘉宾:Akash · 同概念:智能体 (agent)、codex
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、codex</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:codex、智能体 (agent)、mcp</span>
+- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)、codex</span>
 
 </div>
 </div>
-
-*本集关键词:AI 工作流 · Codex · 智能体 · 技术型 PM · 数字分身*
-
 <script>
 (function(){
   function move(){

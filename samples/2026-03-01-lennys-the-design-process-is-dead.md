@@ -38,33 +38,57 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>Claude 设计负责人 Jenny Wen 谈 AI 如何把设计师从做图工具人,逼成写代码、定方向的跨职能操盘手。</div>
 
-「设计师花几个月画精美原型图、再交接给工程师实现」——这套被当圣经的流程,现在基本死了。杀它的不是设计师自己,而是 AI 编程工具。现在工程师同时开七个[[智能体|智能体]],一天能交付几十版功能,设计师连做图的时间都没了。说这话的人是 [[Jenny Wen|Jenny Wen]],她曾是 [[Figma|Figma]] 的设计总监,现在是 [[Anthropic|Anthropic]](做 [[Claude|Claude]] 的公司)的设计负责人,管 Claude 和 [[Claude Cowork|Claude Cowork]] 等产品的设计。<button class="pd-ts" data-t="05:50" data-who="Jenny Wen" data-en="And it's like this process that we sort of treated as gospel and tried so hard to preserve and we were like, &quot;Trust the process.&quot; That's basically dead. I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process." aria-label="回原文"></button>
+「设计师花几个月画精美原型图、再交接给工程师实现」——这套被当圣经的流程,现在基本死了。杀它的不是设计师自己,而是 AI 编程工具。
+
+现在工程师同时开七个[[智能体|智能体]],一天能交付几十版功能,设计师连做图的时间都没了。说这话的人是 [[Jenny Wen|Jenny Wen]],她曾是 [[Figma|Figma]] 的设计总监,现在是 [[Anthropic|Anthropic]](做 [[Claude|Claude]] 的公司)的设计负责人,管 Claude 和 [[Claude Cowork|Claude Cowork]] 等产品的设计。<button class="pd-ts" data-t="05:50" data-who="Jenny Wen" data-en="And it's like this process that we sort of treated as gospel and tried so hard to preserve and we were like, &quot;Trust the process.&quot; That's basically dead. I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process." aria-label="回原文"></button>
 
 在这一集 [[Lenny|Lenny]] 的播客对谈里,她讲了设计这份工作正在经历的几件大事:为什么旧流程会死、新流程长什么样;在 AI 跑得比人快的团队里,设计师到底该干什么、不该干什么;以及如果 AI 未来连「审美和品味」都能搞定,人类还有哪些活儿剩下来。
 
 **被工程甩下之后,设计正在变成两类活**
 
-说完了开场那个惊人结论,接下来看看她认为设计被逼成了什么样。Jenny 把现在的设计工作分成两类。第一类是「陪工程师执行」。现在的工程师用 AI 工具(比如能自动写代码的 [[Claude Code|Claude Code]])一天到晚产出各种功能,设计师如果不放手让他们先跑,自己就会变成堵在管道中间的瓶颈。与其拦着,不如让他们发挥,设计师转为随时给反馈、把发散的想法收拢成连贯体验的角色 <button class="pd-ts" data-t="09:01" data-who="Jenny Wen" data-en="It's engineering and the fact that you can build so quickly, just forces the role of a designer to change because as you said, engineers can just ship, ship, ship, ship, ship." aria-label="回原文"></button>。第二类是「定方向、做愿景」。以前设计师动不动做五年、十年的产品愿景;现在技术变得太快,两年后什么样根本看不清,所以愿景缩水成三个月到半年的。而且交付物不再是一份精美幻灯片,往往只是一个能指明方向的原型 <button class="pd-ts" data-t="07:49" data-who="Jenny Wen" data-en="But the way that the technology is changing now, we don't know what's going to happen in two years. There's too much changing, and it usually becomes a vision that's three to six months out, and isn't necessarily something that is creating this beautiful deck that's beautifully story told." aria-label="回原文"></button>。
+说完了开场那个惊人结论,接下来看看她认为设计被逼成了什么样。Jenny 把现在的设计工作分成两类。
+
+第一类是「陪工程师执行」。现在的工程师用 AI 工具(比如能自动写代码的 [[Claude Code|Claude Code]])一天到晚产出各种功能,设计师如果不放手让他们先跑,自己就会变成堵在管道中间的瓶颈。
+
+与其拦着,不如让他们发挥,设计师转为随时给反馈、把发散的想法收拢成连贯体验的角色 <button class="pd-ts" data-t="09:01" data-who="Jenny Wen" data-en="It's engineering and the fact that you can build so quickly, just forces the role of a designer to change because as you said, engineers can just ship, ship, ship, ship, ship." aria-label="回原文"></button>。第二类是「定方向、做愿景」。
+
+以前设计师动不动做五年、十年的产品愿景;现在技术变得太快,两年后什么样根本看不清,所以愿景缩水成三个月到半年的。而且交付物不再是一份精美幻灯片,往往只是一个能指明方向的原型 <button class="pd-ts" data-t="07:49" data-who="Jenny Wen" data-en="But the way that the technology is changing now, we don't know what's going to happen in two years. There's too much changing, and it usually becomes a vision that's three to six months out, and isn't necessarily something that is creating this beautiful deck that's beautifully story told." aria-label="回原文"></button>。
 
 这背后还有个技术现实:AI 模型是不确定的(你没法在设计图里穷举它所有的对话状态),你必须拿真实模型跑、看真用户怎么用,才知道它到底好不好。所以「先做精美模型图再开发」的老路子,在 AI 产品上根本走不通了 <button class="pd-ts" data-t="12:27" data-who="Jenny Wen" data-en="I think you sort of have to choose and use your discretion as to when to actually ship something, but I think the ability to execute, try something out and try it with real data, and a real user's kind of mindset in the product, I think that does lead to a better product, especially as we're all working with these new developing AI models that are non-deterministic, you can't mock up all the states, and you can't theorize and you can't even make a clickable prototype with it." aria-label="回原文"></button>。
 
 **她现在的一天:写代码、读 Slack、做愿景**
 
-明白了工作内容怎么变,再看看她自己每天怎么干活。作为管理者,Jenny 过去一年特意把自己退回到一线独立贡献者( [[IC|IC]],即直接干活不做管理的人)的位置。她现在的时间分配是这样的:以前做样机和原型占 60-70%,现在缩到 30-40%;和工程师结对工作(一起即兴讨论、看代码、给反馈)的时间涨到 30-40%;剩下的时间她甚至亲自上手写代码、做产品最后的视觉打磨 <button class="pd-ts" data-t="18:24" data-who="Jenny Wen" data-en="I think as a designer a few years ago, I would say maybe 60 to 70% of it was mocking and prototyping stuff up, and then spending some of the last 20 or so doing the sort of jamming with engineers, consulting with them, and the last 10% maybe doing coordination meetings, et cetera." aria-label="回原文"></button>。她用的工具全是 Claude 家的:Claude 聊天、Claude Cowork(能自主操作电脑、处理多步任务的智能体版 Claude)、以及 Claude Code。她还在用集成开发环境(IDE,写代码的软件)配合 Claude Code 改前端细节,觉得改个颜色值这种事,自己动手比指挥智能体快得多 <button class="pd-ts" data-t="19:37" data-who="Jenny Wen" data-en="I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well." aria-label="回原文"></button>。当然,她还在用 Figma——Figma 擅长同时铺开对比几十种方案,写代码是线性的、只能死磕一个方向,两者目前还无法互相替代 <button class="pd-ts" data-t="20:39" data-who="Jenny Wen" data-en="And it still fills a very good gap for me. I think a lot of that is actually just, one is exploring a lot of different options. I think that's a really important part of the design process, to be able to just think about 8 to 10 different ways to do something." aria-label="回原文"></button>。
+明白了工作内容怎么变,再看看她自己每天怎么干活。作为管理者,Jenny 过去一年特意把自己退回到一线独立贡献者( [[IC|IC]],即直接干活不做管理的人)的位置。
+
+她现在的时间分配是这样的:以前做样机和原型占 60-70%,现在缩到 30-40%;和工程师结对工作(一起即兴讨论、看代码、给反馈)的时间涨到 30-40%;剩下的时间她甚至亲自上手写代码、做产品最后的视觉打磨 <button class="pd-ts" data-t="18:24" data-who="Jenny Wen" data-en="I think as a designer a few years ago, I would say maybe 60 to 70% of it was mocking and prototyping stuff up, and then spending some of the last 20 or so doing the sort of jamming with engineers, consulting with them, and the last 10% maybe doing coordination meetings, et cetera." aria-label="回原文"></button>。她用的工具全是 Claude 家的:Claude 聊天、Claude Cowork(能自主操作电脑、处理多步任务的智能体版 Claude)、以及 Claude Code。
+
+她还在用集成开发环境(IDE,写代码的软件)配合 Claude Code 改前端细节,觉得改个颜色值这种事,自己动手比指挥智能体快得多 <button class="pd-ts" data-t="19:37" data-who="Jenny Wen" data-en="I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well." aria-label="回原文"></button>。当然,她还在用 Figma——Figma 擅长同时铺开对比几十种方案,写代码是线性的、只能死磕一个方向,两者目前还无法互相替代 <button class="pd-ts" data-t="20:39" data-who="Jenny Wen" data-en="And it still fills a very good gap for me. I think a lot of that is actually just, one is exploring a lot of different options. I think that's a really important part of the design process, to be able to just think about 8 to 10 different ways to do something." aria-label="回原文"></button>。
 
 有意思的是,在 Anthropic 做设计,很大一部分日常是「追内部消息」。公司的 Slack(内部聊天软件)里全是各种研究进展和代号原型的讨论,她觉得这里的情报比外部新闻好得多,忍不住天天追 <button class="pd-ts" data-t="15:15" data-who="Jenny Wen" data-en="It feels like I have this front row seat to so much that's happening in the industry. And so a lot of it is like, yeah, our Slack is a goldmine. I'm just excited to read through the things that people are working on, they're saying." aria-label="回原文"></button>。
 
 **怎么管质量:敢发半成品,但必须持续修**
 
-工作流变了,人的角色变了,那产品质量怎么保证?这正是下一个大问题。如果工程师一天发布成百上千次,设计师根本看不过来,怎么保证工艺水准?Jenny 的解法是:把产品分阶段。早期版本明确标成「[[研究预览版|研究预览版]]」(research preview),告诉用户它还不完美但有价值。但关键在于:你必须持续迭代、快速响应反馈。真正毁品牌的不是「发得早」,而是「发了之后就没动静」;只要你在不断修,就能「通过速度建立信任」 <button class="pd-ts" data-t="26:23" data-who="Jenny Wen" data-en="Because I think the way that you really lose trust around quality and releasing something early, is if you release it early and then nothing ever happens. That is something that degrades a brand." aria-label="回原文"></button>。Claude Cowork 当初就是这么用 10 天从内部原型打磨成对外发布的(虽然内部探索远不止 10 天) <button class="pd-ts" data-t="42:00" data-who="Jenny Wen" data-en="It was 10 days to get it from what we had internally to something that we were ready to ship externally. So we'd been building it for a while, but we weren't really sure about the actual form it was going to take." aria-label="回原文"></button>。
+工作流变了,人的角色变了,那产品质量怎么保证?这正是下一个大问题。
+
+如果工程师一天发布成百上千次,设计师根本看不过来,怎么保证工艺水准?Jenny 的解法是:把产品分阶段。
+
+早期版本明确标成「[[研究预览版|研究预览版]]」(research preview),告诉用户它还不完美但有价值。但关键在于:你必须持续迭代、快速响应反馈。
+
+真正毁品牌的不是「发得早」,而是「发了之后就没动静」;只要你在不断修,就能「通过速度建立信任」 <button class="pd-ts" data-t="26:23" data-who="Jenny Wen" data-en="Because I think the way that you really lose trust around quality and releasing something early, is if you release it early and then nothing ever happens. That is something that degrades a brand." aria-label="回原文"></button>。Claude Cowork 当初就是这么用 10 天从内部原型打磨成对外发布的(虽然内部探索远不止 10 天) <button class="pd-ts" data-t="42:00" data-who="Jenny Wen" data-en="It was 10 days to get it from what we had internally to something that we were ready to ship externally. So we'd been building it for a while, but we weren't really sure about the actual form it was going to take." aria-label="回原文"></button>。
 
 **当 AI 有了品味,人还干嘛:拍板和担责**
 
-质量的问题解决了,一个更扎心的问题来了:如果 AI 以后连审美都懂了,人还干嘛?Jenny 很坦诚——她觉得 AI 在品味和设计上会越来越强,大家现在死守「人类更懂审美」可能只是不愿放手 <button class="pd-ts" data-t="28:33" data-who="Jenny Wen" data-en="I think it will get better at taste and judgment and design. Yeah, I think we might be holding onto that a little bit too much and saying, &quot;Oh yeah, a designer or somebody will always know the best thing to ship or the best version of this.&quot;" aria-label="回原文"></button>。但她认为,有一件事仍然会落在人身上:拍板决定到底做什么,并为此承担责任。就像即使 Claude 能写所有代码,出问题了担责的还是工程师;以后 AI 能给一堆方案和建议,但总得有个人按下确认键,并为结果负责 <button class="pd-ts" data-t="30:51" data-who="Jenny Wen" data-en="I think someone will still have to decide, oh, we want to build this kind of product. Or given what the AI is presenting us, someone still needs to be accountable for the decision." aria-label="回原文"></button>。
+质量的问题解决了,一个更扎心的问题来了:如果 AI 以后连审美都懂了,人还干嘛?Jenny 很坦诚——她觉得 AI 在品味和设计上会越来越强,大家现在死守「人类更懂审美」可能只是不愿放手 <button class="pd-ts" data-t="28:33" data-who="Jenny Wen" data-en="I think it will get better at taste and judgment and design. Yeah, I think we might be holding onto that a little bit too much and saying, &quot;Oh yeah, a designer or somebody will always know the best thing to ship or the best version of this.&quot;" aria-label="回原文"></button>。
+
+但她认为,有一件事仍然会落在人身上:拍板决定到底做什么,并为此承担责任。就像即使 Claude 能写所有代码,出问题了担责的还是工程师;以后 AI 能给一堆方案和建议,但总得有个人按下确认键,并为结果负责 <button class="pd-ts" data-t="30:51" data-who="Jenny Wen" data-en="I think someone will still have to decide, oh, we want to build this kind of product. Or given what the AI is presenting us, someone still needs to be accountable for the decision." aria-label="回原文"></button>。
 
 **想入行:别再背理论,去动手造东西**
 
-既然人还得担责,那招什么样的人?这正是最后一个实操话题。Jenny 说她现在最想要三类人。第一类是「强通才」(技能像方块,而不是只有一个深的 T 型),设计、产品、工程样样都能打 80 分,在这个边界模糊的时代特别吃香 <button class="pd-ts" data-t="47:09" data-who="Jenny Wen" data-en="So the first one I would call is strong generalists. So not just regular generalists where they're kind of good at a lot of things, but people that are almost block shaped, in that T-shaped framework, where it's like they're really good at a few core skills, like 80th percentile good." aria-label="回原文"></button>。第二类是「深专家」(T 型里那一竖特别深的人),比如同时是半个软件工程师的设计师,或者视觉设计做到行业前 10% 的人,他们的不可替代性能帮产品拉开差距 <button class="pd-ts" data-t="48:09" data-who="Jenny Wen" data-en="And then the other person that's really exciting to me, is in that T-shaped framework, a deep specialist, someone who is T-shaped, but the tip of the T probably goes down farther than most other people." aria-label="回原文"></button>。第三类是她觉得最被低估的——「出色的应届生」:经验虽然是一张白纸,但学习快、没被旧流程框住、有初生牛犊的闯劲 <button class="pd-ts" data-t="48:33" data-who="Jenny Wen" data-en="And then my last one is probably the one that I think we're all overlooking, which is what I call the craft new grad. It's just somebody who's early career and feels, like, wise and experienced beyond their years, but is also just very humble and very eager to learn." aria-label="回原文"></button>。给年轻设计师的建议很简单:别局限于理论,直接上手用 AI 工具去造真实的东西,并分享出去,这是让你脱颖而出的唯一捷径 <button class="pd-ts" data-t="50:56" data-who="Jenny Wen" data-en="If someone's a young designer trying to break in, trying to be successful, what would your advice be to them to help them have a shot at joining Anthropic, for example?" aria-label="回原文"></button>。
+既然人还得担责,那招什么样的人?这正是最后一个实操话题。
+
+Jenny 说她现在最想要三类人。第一类是「强通才」(技能像方块,而不是只有一个深的 T 型),设计、产品、工程样样都能打 80 分,在这个边界模糊的时代特别吃香 <button class="pd-ts" data-t="47:09" data-who="Jenny Wen" data-en="So the first one I would call is strong generalists. So not just regular generalists where they're kind of good at a lot of things, but people that are almost block shaped, in that T-shaped framework, where it's like they're really good at a few core skills, like 80th percentile good." aria-label="回原文"></button>。
+
+第二类是「深专家」(T 型里那一竖特别深的人),比如同时是半个软件工程师的设计师,或者视觉设计做到行业前 10% 的人,他们的不可替代性能帮产品拉开差距 <button class="pd-ts" data-t="48:09" data-who="Jenny Wen" data-en="And then the other person that's really exciting to me, is in that T-shaped framework, a deep specialist, someone who is T-shaped, but the tip of the T probably goes down farther than most other people." aria-label="回原文"></button>。第三类是她觉得最被低估的——「出色的应届生」:经验虽然是一张白纸,但学习快、没被旧流程框住、有初生牛犊的闯劲 <button class="pd-ts" data-t="48:33" data-who="Jenny Wen" data-en="And then my last one is probably the one that I think we're all overlooking, which is what I call the craft new grad. It's just somebody who's early career and feels, like, wise and experienced beyond their years, but is also just very humble and very eager to learn." aria-label="回原文"></button>。给年轻设计师的建议很简单:别局限于理论,直接上手用 AI 工具去造真实的东西,并分享出去,这是让你脱颖而出的唯一捷径 <button class="pd-ts" data-t="50:56" data-who="Jenny Wen" data-en="If someone's a young designer trying to break in, trying to be successful, what would your advice be to them to help them have a shot at joining Anthropic, for example?" aria-label="回原文"></button>。
 
 顺带一提,作为管理者,Jenny 有两个很反直觉的做法。一是她会刻意去做那些被管理学视为「低杠杆」(谁都能干的琐碎事)的活,比如亲自复现产品 Bug——她觉得老板肯下场干脏活,反而能拉近距离、树立极高标准,这其实是最高杠杆的管理动作 <button class="pd-ts" data-t="56:00" data-who="Jenny Wen" data-en="But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it." aria-label="回原文"></button>。二是她鼓励团队互相吐槽(roast),因为人只会在充满心理安全感(觉得开玩笑不会被开除的环境)时才敢互相调侃,这其实是团队默契和高标准的最佳试金石 <button class="pd-ts" data-t="58:45" data-who="Jenny Wen" data-en="You're roasting your friends a lot, but you actually might not be roasting your coworkers a lot, because it's all just about comfort and safety. So it's not that I'm like, &quot;Oh, I want my teams to roast each other.&quot;" aria-label="回原文"></button>。
 
@@ -72,7 +96,11 @@ tags:
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是几句话。第一,旧的[[设计流程|设计流程]]已经死了,不是因为设计师自己想变,而是 AI 让工程师一天能跑几十版功能,设计师拦不住,只能从「画图交接」变成「放手让他们跑、随时给反馈」。第二,设计工作现在分两头:一头是陪工程师执行,一头是做三个月到半年的近期愿景,再也不做五年规划了。第三,想在这个时代活下来,不管你是老手还是新人,都得把 AI 编码工具纳入你的工具箱,亲手去造真实的东西。第四,真正管质量的方法,是敢发半成品、但必须用极快的迭代速度去建立信任。第五,AI 以后在审美上会越来越强,但人还有个不可替代的活儿:拍板决定到底做什么,并为这个决定承担责任。最后,如果带团队,别端着——下场干点脏活,让团队敢于吐槽你,心理安全感加上高标准,才是现在带团队的解药。
+最后收个尾,这一集值得带走的是几句话。第一,旧的[[设计流程|设计流程]]已经死了,不是因为设计师自己想变,而是 AI 让工程师一天能跑几十版功能,设计师拦不住,只能从「画图交接」变成「放手让他们跑、随时给反馈」。
+
+第二,设计工作现在分两头:一头是陪工程师执行,一头是做三个月到半年的近期愿景,再也不做五年规划了。第三,想在这个时代活下来,不管你是老手还是新人,都得把 AI 编码工具纳入你的工具箱,亲手去造真实的东西。
+
+第四,真正管质量的方法,是敢发半成品、但必须用极快的迭代速度去建立信任。第五,AI 以后在审美上会越来越强,但人还有个不可替代的活儿:拍板决定到底做什么,并为这个决定承担责任。最后,如果带团队,别端着——下场干点脏活,让团队敢于吐槽你,心理安全感加上高标准,才是现在带团队的解药。
 
 <div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
@@ -99,24 +127,21 @@ tags:
 
 **顺着「产品方法」挖下去**
 
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:研究预览版 (research preview)
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
-- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、IC
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:研究预览版 (research preview)</span>
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude</span>
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、IC</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic、Claude Code、Slack · 同概念:Claude
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC</span>
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code</span>
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code、Slack · 同概念:Claude</span>
 
 </div>
 </div>
-
-*本集关键词:设计流程演变 · AI 工作流 · 设计师角色 · 管理层退回一线 · 招聘原型*
-
 <script>
 (function(){
   function move(){

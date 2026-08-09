@@ -47,7 +47,9 @@ tags:
 
 如果你做过软件产品,肯定熟悉 PRD(产品需求文档)。Daniel 在职业生涯中见过的大部分 PRD,大部分篇幅都在死磕细节:产品具体怎么工作、在特定情况下如何表现、用户能从中获得什么价值。这种写法在传统软件里行得通,因为产品的行为是确定的。<button class="pd-ts" data-t="02:09" data-who="Daniel McKinnon" data-en="But again, that's a paragraph or even a sentence, depending on what the product is. The majority of most PRDs that I've seen in my career Have spent most of the document talking about specifics," aria-label="回原文"></button>
 
-但到了 Gen AI(生成式 AI)时代,情况被彻底颠覆。如今的 AI 产品真的需要做所有事情,或者至少比以前的产品多做多得多的事情,你很难用文字去描述它。Daniel 说,传达产品到底应该做什么的最好方式,其实是通过例子。这就是 eval(评估)。它实际上就像是给模型的一套冷知识问题(预先准备好的测试题),它定义了模型需要做好的事情的大致轮廓。<button class="pd-ts" data-t="02:34" data-who="Daniel McKinnon" data-en="And it's very hard to describe that. Say, oh, this thing just does everything. And the best way to actually communicate what the product should do is through examples." aria-label="回原文"></button>
+但到了 Gen AI(生成式 AI)时代,情况被彻底颠覆。如今的 AI 产品真的需要做所有事情,或者至少比以前的产品多做多得多的事情,你很难用文字去描述它。
+
+Daniel 说,传达产品到底应该做什么的最好方式,其实是通过例子。这就是 eval(评估)。它实际上就像是给模型的一套冷知识问题(预先准备好的测试题),它定义了模型需要做好的事情的大致轮廓。<button class="pd-ts" data-t="02:34" data-who="Daniel McKinnon" data-en="And it's very hard to describe that. Say, oh, this thing just does everything. And the best way to actually communicate what the product should do is through examples." aria-label="回原文"></button>
 
 > 【背景】在 AI 领域,eval 分为离线评估和在线评估。离线评估是在产品开发阶段跑的测试集;在线评估则是产品上线后看真实用户的反馈。
 
@@ -59,35 +61,55 @@ eval 的逻辑是:如果在[[离线评估|离线评估]]上表现好,就意味�
 
 ## 评估对象的巨变:从简单问答到智能体任务
 
-说完了过去为什么简单,接下来要讲的是现在为什么变难了。真正的原因是:模型普遍已经饱和了质量保证(QA,即简单的问答测试)。我们今天想到的好模型,不是能答对高中物理题的模型,而是能在国际奥林匹克数学竞赛中拿金牌的模型。除了某些超级专家,几乎没有任何问题能问倒它。同时,问答也不再是最有用的应用了,现在所有的头条新闻都是智能体(agent,能自主调用工具、连续执行多步任务的系统)。<button class="pd-ts" data-t="09:06" data-who="Daniel McKinnon" data-en="Or why does it need to change today? The real answer is that models have generally saturated QA. This isn't 100% true," aria-label="回原文"></button>
+说完了过去为什么简单,接下来要讲的是现在为什么变难了。真正的原因是:模型普遍已经饱和了质量保证(QA,即简单的问答测试)。
+
+我们今天想到的好模型,不是能答对高中物理题的模型,而是能在国际奥林匹克数学竞赛中拿金牌的模型。除了某些超级专家,几乎没有任何问题能问倒它。同时,问答也不再是最有用的应用了,现在所有的头条新闻都是智能体(agent,能自主调用工具、连续执行多步任务的系统)。<button class="pd-ts" data-t="09:06" data-who="Daniel McKinnon" data-en="Or why does it need to change today? The real answer is that models have generally saturated QA. This isn't 100% true," aria-label="回原文"></button>
 
 > 【背景】在 AI 评测中,"饱和"指的是模型在某项测试上的得分已经接近 100%,无法再通过这项测试拉开差距。
 
-各大实验室发布新模型时使用的基准测试,也反映了这种转变。比如 OpenAI 发布 GPT-4 时,用的是 MMLU、HellaSwag、HumanEval 这些基准测试。而当 Anthropic 发布 Opus 4.8 时,你完全看不到连续性,因为这些老基准已经饱和了。他们开始测各种 agentic coding(智能体写代码)、agentic computer use(智能体操作电脑)、agentic financial analysis(智能体做财务分析)。这意味着,核心模型任务已经不再是从用户那里获取一个提示词并返回一个答案,而是获取一个需要许多许多步骤的任务。<button class="pd-ts" data-t="13:05" data-who="Daniel McKinnon" data-en="but it's partially because the task is really different. You'll notice we have agentic coding, agentic terminal coding," aria-label="回原文"></button>
+各大实验室发布新模型时使用的基准测试,也反映了这种转变。比如 OpenAI 发布 GPT-4 时,用的是 MMLU、HellaSwag、HumanEval 这些基准测试。
 
-这要求一套全新的评估范式:你不再考虑 QA,你在考虑长周期的任务。有些步骤可能只涉及思考(在这个领域称为推理),有些涉及工具调用(比如搜索)。这类评估的时间跨度通常很长,最终的输出是它采取的许许多多步骤的集合。有些步骤可能是正确的,但导致了错误的结果。因此,找到一种能自动评分的方法变得尤为重要,这能让你做更多的部署,做更多实验。<button class="pd-ts" data-t="15:00" data-who="Daniel McKinnon" data-en="With agentic work, it's much more challenging because the time horizon tends to be very long, and the final output is a collection of many, many, many steps that it took." aria-label="回原文"></button>
+而当 Anthropic 发布 Opus 4.8 时,你完全看不到连续性,因为这些老基准已经饱和了。他们开始测各种 agentic coding(智能体写代码)、agentic computer use(智能体操作电脑)、agentic financial analysis(智能体做财务分析)。这意味着,核心模型任务已经不再是从用户那里获取一个提示词并返回一个答案,而是获取一个需要许多许多步骤的任务。<button class="pd-ts" data-t="13:05" data-who="Daniel McKinnon" data-en="but it's partially because the task is really different. You'll notice we have agentic coding, agentic terminal coding," aria-label="回原文"></button>
+
+这要求一套全新的评估范式:你不再考虑 QA,你在考虑长周期的任务。有些步骤可能只涉及思考(在这个领域称为推理),有些涉及工具调用(比如搜索)。
+
+这类评估的时间跨度通常很长,最终的输出是它采取的许许多多步骤的集合。有些步骤可能是正确的,但导致了错误的结果。因此,找到一种能自动评分的方法变得尤为重要,这能让你做更多的部署,做更多实验。<button class="pd-ts" data-t="15:00" data-who="Daniel McKinnon" data-en="With agentic work, it's much more challenging because the time horizon tends to be very long, and the final output is a collection of many, many, many steps that it took." aria-label="回原文"></button>
 
 ## 在线演示:怎么写一个智能体评估
 
-工具变了,具体该怎么实操呢?这正是下一个话题。Daniel 在节目里花了 45 分钟,实时演示了如何创建一个实际的智能体评估。他强调,现实中想出一个全新的评估通常需要深度思考几周甚至几个月,节目里是预先准备了一部分的。<button class="pd-ts" data-t="15:41" data-who="Daniel McKinnon" data-en="an actual agentic eval in real time. I want to caveat this. This is a little bit pre-baked." aria-label="回原文"></button>
+工具变了,具体该怎么实操呢?这正是下一个话题。
 
-Daniel 用了一个他极度关心的真实问题作为演示案例:衡量和提高模型在临床基因组学(研究患者基因组变异的医学领域)上帮助诊断的能力。他创办的新公司也在解决这个问题。具体场景是:给生病的新生儿做[[全基因组测序|全基因组测序]]已经成为诊断的绝对金标准,但解读这份测序结果非常耗费人力,限制了这项救命技术的普及。他想看看能不能把人类专家的专业知识提炼到模型里。<button class="pd-ts" data-t="16:14" data-who="Daniel McKinnon" data-en="And the problem is, is that whole genome sequencing has Become the absolute gold standard in diagnostics in NICU settings, so for sick babies." aria-label="回原文"></button>
+Daniel 在节目里花了 45 分钟,实时演示了如何创建一个实际的智能体评估。他强调,现实中想出一个全新的评估通常需要深度思考几周甚至几个月,节目里是预先准备了一部分的。<button class="pd-ts" data-t="15:41" data-who="Daniel McKinnon" data-en="an actual agentic eval in real time. I want to caveat this. This is a little bit pre-baked." aria-label="回原文"></button>
+
+Daniel 用了一个他极度关心的真实问题作为演示案例:衡量和提高模型在临床基因组学(研究患者基因组变异的医学领域)上帮助诊断的能力。他创办的新公司也在解决这个问题。
+
+具体场景是:给生病的新生儿做[[全基因组测序|全基因组测序]]已经成为诊断的绝对金标准,但解读这份测序结果非常耗费人力,限制了这项救命技术的普及。他想看看能不能把人类专家的专业知识提炼到模型里。<button class="pd-ts" data-t="16:14" data-who="Daniel McKinnon" data-en="And the problem is, is that whole genome sequencing has Become the absolute gold standard in diagnostics in NICU settings, so for sick babies." aria-label="回原文"></button>
 
 > 【背景】基因组测序仪的原始读数包含约 10 亿个长度为 150 个碱基对的读数,输出在一个巨大的文本文件里。解读这些数据就是大海捞针找致病突变。
 
 写评估的第一步,和以前一样,必须极其深刻地理解问题。这就是为什么现在 Anthropic 和 OpenAI 都在招投资银行家、会计师、律师,因为你不可能为一个自己不懂的主题成功写出评估。<button class="pd-ts" data-t="17:48" data-who="Daniel McKinnon" data-en="over some real examples, but you really need to deeply understand the problem. This is why people like Anthropic and OpenAI are hiring Investment bankers, accountants," aria-label="回原文"></button>
 
-第二步是收集有代表性的提示词。Daniel 推崇"[[金发姑娘|金发姑娘]]风格"——不能太难,也不能太容易,必须留有运行和优化的空间。典型的基线成功率应该在 25% 到 50%。如果在几个月内它达到了 100%,你就得把它扔掉,创建一个新的、更难的测试集。<button class="pd-ts" data-t="14:04" data-who="Daniel McKinnon" data-en="We still have to collect representative prompts. I call this Goldilocks style. Again, they can't be too hard and it can't be too easy." aria-label="回原文"></button>
+第二步是收集有代表性的提示词。Daniel 推崇"[[金发姑娘|金发姑娘]]风格"——不能太难,也不能太容易,必须留有运行和优化的空间。
 
-他先从一个简单的目标开始,确保模型确实能做到。他挑了囊性纤维化(一种肺部遗传病)。它的致病基因(CFTR2)和具体变异是医学界早就确认的。Daniel 用 Codex(一种智能体编程工具)修改了一个代表基因组的文本文件,人为植入了这个已知的基因变异。<button class="pd-ts" data-t="19:43" data-who="Daniel McKinnon" data-en="And so this is like the easy thing to start. So we're going to have our agentic genetics eval, and we're going to say gene, and we're going to say CFTR2." aria-label="回原文"></button>
+典型的基线成功率应该在 25% 到 50%。如果在几个月内它达到了 100%,你就得把它扔掉,创建一个新的、更难的测试集。<button class="pd-ts" data-t="14:04" data-who="Daniel McKinnon" data-en="We still have to collect representative prompts. I call this Goldilocks style. Again, they can't be too hard and it can't be too easy." aria-label="回原文"></button>
 
-他把修改后的基因组和"我们怀疑囊性纤维化,请找到遗传原因"的提示词,分别丢给了几个不同的智能体模型去跑。结果发现,GPT 5.3 的智能体在一分钟思考后正确锁定了突变。令人意外的是,Haiku(一个小模型)却失败了——它看了基因,但幻觉出了一个半合子大片段缺失(模型凭空捏造了一个不存在的变异)。这生动地说明了评估的必要性:你必须先确立基准,如果连简单的都做不到,就得让它更简单。<button class="pd-ts" data-t="35:00" data-who="Daniel McKinnon" data-en="I would have expected Haiku to get this because this problem is so easy. But you'll notice what Haiku says is there's 48 variants spanning the gene. So it's looking at the gene," aria-label="回原文"></button>
+他先从一个简单的目标开始,确保模型确实能做到。他挑了囊性纤维化(一种肺部遗传病)。
+
+它的致病基因(CFTR2)和具体变异是医学界早就确认的。Daniel 用 Codex(一种智能体编程工具)修改了一个代表基因组的文本文件,人为植入了这个已知的基因变异。<button class="pd-ts" data-t="19:43" data-who="Daniel McKinnon" data-en="And so this is like the easy thing to start. So we're going to have our agentic genetics eval, and we're going to say gene, and we're going to say CFTR2." aria-label="回原文"></button>
+
+他把修改后的基因组和"我们怀疑囊性纤维化,请找到遗传原因"的提示词,分别丢给了几个不同的智能体模型去跑。结果发现,GPT 5.3 的智能体在一分钟思考后正确锁定了突变。
+
+令人意外的是,Haiku(一个小模型)却失败了——它看了基因,但幻觉出了一个半合子大片段缺失(模型凭空捏造了一个不存在的变异)。这生动地说明了评估的必要性:你必须先确立基准,如果连简单的都做不到,就得让它更简单。<button class="pd-ts" data-t="35:00" data-who="Daniel McKinnon" data-en="I would have expected Haiku to get this because this problem is so easy. But you'll notice what Haiku says is there's 48 variants spanning the gene. So it's looking at the gene," aria-label="回原文"></button>
 
 在确定模型能做到简单的之后,接下来要确立上限。Daniel 从一篇去年的论文里找了一个极难的案例:先天性心脏病的双基因成因。这意味着在两个不同的基因上同时出现杂合变异,才会导致单一疾病。<button class="pd-ts" data-t="33:10" data-who="Daniel McKinnon" data-en="So what does this mean? This means congenital heart disease is if you're a baby and you're born with problems with your heart, and digenic means it involves two genes." aria-label="回原文"></button>
 
-他把这个案例跑在几个模型上。5.3 Spark 这个模型交了白卷,Haiku 离谱地找了一堆不相关的变异。在几次测试中,GPT 5.5 Extra High 却意外地答对了。它通过一系列非常有趣的推理轨迹,把先天性心脏缺陷的表型转化成了搜索词,在互联网上找到了那篇关于双基因对的非常具体的论文,然后从里面提取出了结果。这让 Daniel 不得不承认,如果专门给这个模型打分,他必须找一个更难的案例。<button class="pd-ts" data-t="46:30" data-who="Daniel McKinnon" data-en="So actually, this is quite impressive from GPT 5.5, but this is correct. So in this case, I would have to find an even harder one if I were benchmarking this model" aria-label="回原文"></button>
+他把这个案例跑在几个模型上。5.3 Spark 这个模型交了白卷,Haiku 离谱地找了一堆不相关的变异。
 
-拿到这些结果后,你就像做二分搜索一样,把一堆简单、中等、困难的提示词组合成一个电子表格。如果你的得分只有 50%,你可能没法直接发布产品。这时候作为产品经理,你要做产品决策:也许在产品上设置护栏(限制条件),确保模型只回答那些它能拿到 80% 分数的问题。然后把所有解决不了的难题丢给研究团队去修模型或修框架。<button class="pd-ts" data-t="45:08" data-who="Daniel McKinnon" data-en="of questions that it can get 80% on or something like that. That's a product decision. That's a product manager's decision to do that." aria-label="回原文"></button>
+在几次测试中,GPT 5.5 Extra High 却意外地答对了。它通过一系列非常有趣的推理轨迹,把先天性心脏缺陷的表型转化成了搜索词,在互联网上找到了那篇关于双基因对的非常具体的论文,然后从里面提取出了结果。这让 Daniel 不得不承认,如果专门给这个模型打分,他必须找一个更难的案例。<button class="pd-ts" data-t="46:30" data-who="Daniel McKinnon" data-en="So actually, this is quite impressive from GPT 5.5, but this is correct. So in this case, I would have to find an even harder one if I were benchmarking this model" aria-label="回原文"></button>
+
+拿到这些结果后,你就像做二分搜索一样,把一堆简单、中等、困难的提示词组合成一个电子表格。如果你的得分只有 50%,你可能没法直接发布产品。
+
+这时候作为产品经理,你要做产品决策:也许在产品上设置护栏(限制条件),确保模型只回答那些它能拿到 80% 分数的问题。然后把所有解决不了的难题丢给研究团队去修模型或修框架。<button class="pd-ts" data-t="45:08" data-who="Daniel McKinnon" data-en="of questions that it can get 80% on or something like that. That's a product decision. That's a product manager's decision to do that." aria-label="回原文"></button>
 
 主持人 [[Akash|Akash]] 总结得很到位:整个 eval 说白了就是一个电子表格。它不需要高大上的模板,真正驱动这一切的核心关键,是你对该领域的专业知识(领域认知)。<button class="pd-ts" data-t="47:01" data-who="Akash" data-en="Wow. So it's just a spreadsheet. And the key thing here is the domain subject matter expertise." aria-label="回原文"></button>
 
@@ -95,13 +117,21 @@ Daniel 用了一个他极度关心的真实问题作为演示案例:衡量和提
 
 方法明白了,工具和人怎么办?这正是下一个话题。Daniel 分享了他在 Google 和 Meta 两家公司的切身经历。
 
-他回忆道,Meta 在很多方面是一种更具攻击性的文化,而 Google 则被公认为是一家更由工程主导的公司,Meta 则更由产品主导。Meta 的激进源于其拥有绝对控制权的高信念创始人。Mark Zuckerberg 有时候会说这对我超级重要,你们拥有世界上所有的资源,去把它做成;但也会在 Llama 4 遇到评估问题时,直接让整个团队走人。相比之下,Google 更加由共识驱动。<button class="pd-ts" data-t="50:16" data-who="Daniel McKinnon" data-en="What really is the difference between product management at Meta versus Google? Yeah, so I would caveat that and say I wrote this like two and a half years ago and I was" aria-label="回原文"></button>
+他回忆道,Meta 在很多方面是一种更具攻击性的文化,而 Google 则被公认为是一家更由工程主导的公司,Meta 则更由产品主导。Meta 的激进源于其拥有绝对控制权的高信念创始人。
+
+Mark Zuckerberg 有时候会说这对我超级重要,你们拥有世界上所有的资源,去把它做成;但也会在 Llama 4 遇到评估问题时,直接让整个团队走人。相比之下,Google 更加由共识驱动。<button class="pd-ts" data-t="50:16" data-who="Daniel McKinnon" data-en="What really is the difference between product management at Meta versus Google? Yeah, so I would caveat that and say I wrote this like two and a half years ago and I was" aria-label="回原文"></button>
 
 Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目录制前五周,他离开大厂,创办了一家叫 [[Gamoff Labs|Gamoff Labs]] 的公司。他秉持着高度使命驱动的信念,想构建最好的智能体框架,让全基因组测序技术能惠及全世界每一个新生儿重症监护室(NICU),让更多生命得以被拯救。<button class="pd-ts" data-t="53:39" data-who="Daniel McKinnon" data-en="And I want to see them in, you know, Rural Arkansas, rural India," aria-label="回原文"></button>
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,传统的 PRD 正在被 eval(评估)取代。当 AI 产品什么都能做、行为不确定时,用文字去定义"漂亮的厨房"已经失效了,最好的沟通方式是用具体的例子去测试它的极限。第二,模型早已饱和了简单的 QA,现在我们评估的是能连续跑多步、调工具的智能体。你要像做二分搜索一样,先测简单的确立基准,再找极难的探明上限,把大模型真实的能力边界找出来,这需要深厚的领域认知,而不只是懂技术。第三,评估的核心不是为了在论文上刷分,而是为了做产品决策。当你知道模型在哪些场景下只能拿 50 分时,你要通过设置护栏来规避它的短板,只发布它最擅长的部分,把难题再丢给研发。这就是今天每一个 AI 产品经理必须掌握的新工作法门。
+最后收个尾,这一集值得带走的是三句话。第一,传统的 PRD 正在被 eval(评估)取代。
+
+当 AI 产品什么都能做、行为不确定时,用文字去定义"漂亮的厨房"已经失效了,最好的沟通方式是用具体的例子去测试它的极限。第二,模型早已饱和了简单的 QA,现在我们评估的是能连续跑多步、调工具的智能体。
+
+你要像做二分搜索一样,先测简单的确立基准,再找极难的探明上限,把大模型真实的能力边界找出来,这需要深厚的领域认知,而不只是懂技术。第三,评估的核心不是为了在论文上刷分,而是为了做产品决策。
+
+当你知道模型在哪些场景下只能拿 50 分时,你要通过设置护栏来规避它的短板,只发布它最擅长的部分,把难题再丢给研发。这就是今天每一个 AI 产品经理必须掌握的新工作法门。
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
@@ -124,24 +154,21 @@ Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目�
 
 **顺着「产品方法」挖下去**
 
-- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
-- [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]] —— 同概念:工具框架 (harness)、智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Claude Code · 同概念:智能体 (agent)
+- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)</span>
+- [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]] —— 同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同嘉宾:Akash · 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:Codex · 同概念:工具框架 (harness)、智能体 (agent)
+- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同嘉宾:Akash · 同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:Codex · 同概念:工具框架 (harness)、智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:评估 · AI 产品管理 · 智能体 · 基因组学 · 离线评估*
-
 <script>
 (function(){
   function move(){

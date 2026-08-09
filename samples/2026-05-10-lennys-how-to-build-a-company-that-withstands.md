@@ -45,41 +45,77 @@ tags:
 
 ## 不是贪婪,是结构:一门被遗忘的工程学
 
-很多人觉得公司变坏是「人性贪婪」,Eric 说这种解释就像有人问「桥为什么塌了」,你回答「因为重力」——技术上没错,但毫无用处。真正的工程学问题是:为什么有的桥不塌?你用什么材料(比喻公司治理结构)能防腐蚀?他用「金融重力」来形容那股把所有公司往下拖的力量:公司越成功(他原话叫「金鹅越金贵」),各方就越有动机把它杀掉分肉——私募股权进来削成本、激进投资者逼短期利润、董事会为下一季财报换掉创始人 <button class="pd-ts" data-t="08:25" data-who="Eric Ries" data-en="It was not someone else came up with a better product. No. Their very success became a liability because the more golden the goose, the greater the temptation to butcher." aria-label="回原文"></button>。这不是道德问题,是结构问题:你公司注册时用的那份标准章程,默认股东利益高于一切。
+很多人觉得公司变坏是「人性贪婪」,Eric 说这种解释就像有人问「桥为什么塌了」,你回答「因为重力」——技术上没错,但毫无用处。真正的工程学问题是:为什么有的桥不塌?
 
-Eric 讲了一个让人脊背发凉的例子:一家叫 [[Vectura|Vectura]] 的英国医药公司,专门做哮喘吸入器。真正的 Philip Morris(菲利普·莫里斯烟草公司)跑来收购他们,出价每股 165 便士,比另一家私募的 155 便士高一点点。公众愤怒,英国胸科学会求他们别卖——但董事会说「我们有信托责任(法律上要求管理者必须为受益人利益行事)接受最高出价」,于是卖了 <button class="pd-ts" data-t="31:10" data-who="Eric Ries" data-en="So here were the three choices that were facing the Vectura board. They had this bid from Philip Morris for 165 pence per share. They had a bid from an American private equity firm for 155 pence per share." aria-label="回原文"></button>。三年内,Philip Morris 计提了 9 亿美元减值,把公司拆解出售,Vectura 这个名字消失了 <button class="pd-ts" data-t="32:08" data-who="Eric Ries" data-en="Philip Morris spent £1.1 billion to buy Vectura. Within three years, they had taken a $900 million write down and disposed of the company for peace parts, it doesn't exist anymore." aria-label="回原文"></button>。Eric 的关键判断是:董事会的双手被「股东利益最大化」这条默认规则绑死了,哪怕所有人都知道这是在毁掉一家好公司。
+你用什么材料(比喻公司治理结构)能防腐蚀?他用「金融重力」来形容那股把所有公司往下拖的力量:公司越成功(他原话叫「金鹅越金贵」),各方就越有动机把它杀掉分肉——私募股权进来削成本、激进投资者逼短期利润、董事会为下一季财报换掉创始人 <button class="pd-ts" data-t="08:25" data-who="Eric Ries" data-en="It was not someone else came up with a better product. No. Their very success became a liability because the more golden the goose, the greater the temptation to butcher." aria-label="回原文"></button>。这不是道德问题,是结构问题:你公司注册时用的那份标准章程,默认股东利益高于一切。
+
+Eric 讲了一个让人脊背发凉的例子:一家叫 [[Vectura|Vectura]] 的英国医药公司,专门做哮喘吸入器。真正的 Philip Morris(菲利普·莫里斯烟草公司)跑来收购他们,出价每股 165 便士,比另一家私募的 155 便士高一点点。
+
+公众愤怒,英国胸科学会求他们别卖——但董事会说「我们有信托责任(法律上要求管理者必须为受益人利益行事)接受最高出价」,于是卖了 <button class="pd-ts" data-t="31:10" data-who="Eric Ries" data-en="So here were the three choices that were facing the Vectura board. They had this bid from Philip Morris for 165 pence per share. They had a bid from an American private equity firm for 155 pence per share." aria-label="回原文"></button>。三年内,Philip Morris 计提了 9 亿美元减值,把公司拆解出售,Vectura 这个名字消失了 <button class="pd-ts" data-t="32:08" data-who="Eric Ries" data-en="Philip Morris spent £1.1 billion to buy Vectura. Within three years, they had taken a $900 million write down and disposed of the company for peace parts, it doesn't exist anymore." aria-label="回原文"></button>。Eric 的关键判断是:董事会的双手被「股东利益最大化」这条默认规则绑死了,哪怕所有人都知道这是在毁掉一家好公司。
 
 ## 「股东至上」其实很年轻:你的祖父母不这么想
 
-很多人觉得「公司为股东赚钱天经地义」。Eric 提醒:这套股东至上理论(认为公司唯一合法目的就是为股东创造最大财务回报)只有 40 年历史。在 19 世纪,你要开公司得向州立法机构证明这东西对公众有益——比如「两地之间修条运河对公众有利」;你要是敢把一家铁路公司改成「纯粹为最大化股东价值」,法院会直接废除你的公司章程,这叫「公司死刑」(因越权导致公司注册资格被吊销)<button class="pd-ts" data-t="59:35" data-who="Eric Ries" data-en="But the second thing, let's say you succeeded anyway. You took the company over and you said, &quot;I'm going to change its purpose from make a railroad to maximize shareholder value.&quot;" aria-label="回原文"></button>。亚当·斯密、你的曾祖父母,都觉得公司该服务于一个「有益目的」(法律术语,指公司章程里写明的具体公益或商业使命)。只有过去 40 年,我们才把「为股东赚钱」当成了自然法。
+很多人觉得「公司为股东赚钱天经地义」。Eric 提醒:这套股东至上理论(认为公司唯一合法目的就是为股东创造最大财务回报)只有 40 年历史。
+
+在 19 世纪,你要开公司得向州立法机构证明这东西对公众有益——比如「两地之间修条运河对公众有利」;你要是敢把一家铁路公司改成「纯粹为最大化股东价值」,法院会直接废除你的公司章程,这叫「公司死刑」(因越权导致公司注册资格被吊销)<button class="pd-ts" data-t="59:35" data-who="Eric Ries" data-en="But the second thing, let's say you succeeded anyway. You took the company over and you said, &quot;I'm going to change its purpose from make a railroad to maximize shareholder value.&quot;" aria-label="回原文"></button>。亚当·斯密、你的曾祖父母,都觉得公司该服务于一个「有益目的」(法律术语,指公司章程里写明的具体公益或商业使命)。只有过去 40 年,我们才把「为股东赚钱」当成了自然法。
 
 ## 「难即易」:Cloudflare 怎么把 SSL 免费送出去
 
 说完结构性腐败,这一节聊操作层:在日常经营里怎么挡住诱惑。Eric 用 [[Cloudflare|Cloudflare]] 的故事来讲他叫「难即易」(做艰难决定反而让后续更省力)的原则。
 
-Cloudflare 早期根本没有使命声明——几个哈佛商学院出来的创始人特别烦「咨询废话」,觉得「做个防火墙放云端,有什么好谈使命的」<button class="pd-ts" data-t="36:36" data-who="Eric Ries" data-en="So let me actually tell the Cloudflare story. I like Cloudflare because Matthew Prince and his co-founders, they were really anti-consulting BS talk. In the early days, they came out of Harvard Business School and so they were traumatized." aria-label="回原文"></button>。但他们的实际行为已经形成了使命:有一批争取民主的示威者网站被国家级黑客攻击,硅谷大公司(包括 Google)都不敢帮忙,Cloudflare 这家小公司站出来免费保护——「我们愿意承受国家级黑客的愤怒,因为这是正确的事,没有任何回报」<button class="pd-ts" data-t="38:12" data-who="Eric Ries" data-en="And so Cloudflare, the tiny startup is like, &quot;We'll do it.&quot; These were free tier customers. They weren't even paying any money." aria-label="回原文"></button>。几年后,一位工程师吃饭时说:「我觉得这是我们工作过的第一个地方,我们在努力让互联网变得更好。」这句话后来从员工嘴里反复冒出来,成了自下而上的使命,创始人最后才正式采纳。
+Cloudflare 早期根本没有使命声明——几个哈佛商学院出来的创始人特别烦「咨询废话」,觉得「做个防火墙放云端,有什么好谈使命的」<button class="pd-ts" data-t="36:36" data-who="Eric Ries" data-en="So let me actually tell the Cloudflare story. I like Cloudflare because Matthew Prince and his co-founders, they were really anti-consulting BS talk. In the early days, they came out of Harvard Business School and so they were traumatized." aria-label="回原文"></button>。但他们的实际行为已经形成了使命:有一批争取民主的示威者网站被国家级黑客攻击,硅谷大公司(包括 Google)都不敢帮忙,Cloudflare 这家小公司站出来免费保护——「我们愿意承受国家级黑客的愤怒,因为这是正确的事,没有任何回报」<button class="pd-ts" data-t="38:12" data-who="Eric Ries" data-en="And so Cloudflare, the tiny startup is like, &quot;We'll do it.&quot; These were free tier customers. They weren't even paying any money." aria-label="回原文"></button>。
 
-高潮来了:又一位初级工程师跑去问 CEO Matthew Prince——「我们的使命不是让互联网更好吗?那为什么 SSL 加密(让网站数据在传输中不被窃取的技术)还要收费?更美好的互联网难道不该是加密的吗?」<button class="pd-ts" data-t="39:44" data-who="Eric Ries" data-en="So you're like, &quot;What is it now?&quot; It's like, &quot;Well, you were saying at the board meeting that our number one driver of revenue, the thing that causes people to upgrade from our free to premium plans,&quot; this is a few years ago now, &quot;Is web encryption, SSL encryption." aria-label="回原文"></button> 这是 Cloudflare 当时最赚钱的产品、收入头号驱动,一个初级工程师要 CEO 把它免费送出去。Matthew 的反应是三个字:「搞清楚怎么做。」<button class="pd-ts" data-t="41:02" data-who="Eric Ries" data-en="And he uttered the three keywords, he said, &quot;Let's figure it out.&quot; Figure it out. This is the leadership principle I think is so powerful, the figure it out principle." aria-label="回原文"></button> Eric 称之为「figure it out(搞清楚)」原则——最好的领导者遇到「坚持原则 vs. 省事赚钱」的困境,会陶醉于这种困难,因为它是一次教全公司「我们到底信什么」的机会。
+几年后,一位工程师吃饭时说:「我觉得这是我们工作过的第一个地方,我们在努力让互联网变得更好。」这句话后来从员工嘴里反复冒出来,成了自下而上的使命,创始人最后才正式采纳。
+
+高潮来了:又一位初级工程师跑去问 CEO Matthew Prince——「我们的使命不是让互联网更好吗?那为什么 SSL 加密(让网站数据在传输中不被窃取的技术)还要收费?
+
+更美好的互联网难道不该是加密的吗?」<button class="pd-ts" data-t="39:44" data-who="Eric Ries" data-en="So you're like, &quot;What is it now?&quot; It's like, &quot;Well, you were saying at the board meeting that our number one driver of revenue, the thing that causes people to upgrade from our free to premium plans,&quot; this is a few years ago now, &quot;Is web encryption, SSL encryption." aria-label="回原文"></button> 这是 Cloudflare 当时最赚钱的产品、收入头号驱动,一个初级工程师要 CEO 把它免费送出去。
+
+Matthew 的反应是三个字:「搞清楚怎么做。」<button class="pd-ts" data-t="41:02" data-who="Eric Ries" data-en="And he uttered the three keywords, he said, &quot;Let's figure it out.&quot; Figure it out. This is the leadership principle I think is so powerful, the figure it out principle." aria-label="回原文"></button> Eric 称之为「figure it out(搞清楚)」原则——最好的领导者遇到「坚持原则 vs. 省事赚钱」的困境,会陶醉于这种困难,因为它是一次教全公司「我们到底信什么」的机会。
 
 团队手写了汇编语言、跟证书机构谈下复杂合作,硬把成本压下来,免费开放了 SSL。短期高级产品转化率确实下降,但他们咬牙坚持。长期结果是漏斗顶端流量涨了一个数量级,信任沉淀成了今天 700 亿美元市值的底座 <button class="pd-ts" data-t="42:17" data-who="Eric Ries" data-en="Now, of course, it's a happy ending story. The top of funnel increased by an order of magnitude. In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet." aria-label="回原文"></button>。
 
 ## 对照组:Groupon 为什么被邮件频率毁掉
 
-为了让对比更刺眼,Eric 讲了 [[Groupon|Groupon]] 的反面故事。这家公司靠「每天给你发一封优惠邮件」上市,创始人 Andrew Mason 跟 Eric 讲:员工开始来磨他——「老板,我们做成这一季,要不要试试每天两封?」他说不。人家拿「我们是不是该做个实验」「数据怎么说」「ROI 算过吗」一遍遍磨他,他最终同意做实验。两封确实赚更多,他没法说不。然后变成三封、四封、八封 <button class="pd-ts" data-t="43:43" data-who="Eric Ries" data-en="So he couldn't say no. And everything was fine for several months until someone came to his office and said, &quot;You know, boss, you know what'd be better than two email?" aria-label="回原文"></button>。邮件频率是「先锋问题」——它暴露了一个组织根本没有能力捍卫「对客户做对的事」,因为 ROI 框架永远站在「多发一封」那一边。公司就这么被吃干抹净了。
+为了让对比更刺眼,Eric 讲了 [[Groupon|Groupon]] 的反面故事。这家公司靠「每天给你发一封优惠邮件」上市,创始人 Andrew Mason 跟 Eric 讲:员工开始来磨他——「老板,我们做成这一季,要不要试试每天两封?
+
+」他说不。人家拿「我们是不是该做个实验」「数据怎么说」「ROI 算过吗」一遍遍磨他,他最终同意做实验。
+
+两封确实赚更多,他没法说不。然后变成三封、四封、八封 <button class="pd-ts" data-t="43:43" data-who="Eric Ries" data-en="So he couldn't say no. And everything was fine for several months until someone came to his office and said, &quot;You know, boss, you know what'd be better than two email?" aria-label="回原文"></button>。
+
+邮件频率是「先锋问题」——它暴露了一个组织根本没有能力捍卫「对客户做对的事」,因为 ROI 框架永远站在「多发一封」那一边。公司就这么被吃干抹净了。
 
 ## 使命不是声明:它得让你「没法靠背叛赚钱」
 
-回到「怎么做」。Eric 反复强调:写一份漂亮的使命声明毫无价值,关键是他叫「[[使命驱动|使命驱动]]」的审计——你得设计一套机制,让公司里任何人都无法通过背叛使命来获利。他举了 Google 的例子:曾经有句著名的「Don't be evil(不作恶)」,如今从网站撤下、员工手册里也删了,还因违反这条两次被起诉并和解 <button class="pd-ts" data-t="52:48" data-who="Eric Ries" data-en="Now it's not even in the employee handbook anymore. And in fact, Google's been sued twice now for breaking the don't be evil pledge, and they've had to settle both lawsuits." aria-label="回原文"></button>。他问一位待了 13 年的前 Google 人:「Google 按时提交季度财报的概率是多少?」对方说 100%。他又问:「Google 意外害死一个人并掩盖的概率是多少?」对方说 90%、95% <button class="pd-ts" data-t="53:17" data-who="Eric Ries" data-en="And yet, I said, &quot;Okay, answer me this hypothetical just real quick. What is the probability that Google will file its next quarterly report on time?&quot; He was like, &quot;That's a dumb question, Eric." aria-label="回原文"></button>。荒诞对比出来了:为什么季度财报是铁定的?因为公司花大价钱建了一整套机制确保它发生。「不作恶」呢?只是一句口号,没有任何配套机制。Eric 的判据很干脆:如果有人告诉你他对某事很认真,那你问他「机制在哪?承诺在哪?」——拿不出来,不管初衷多好,他都在对你撒谎 <button class="pd-ts" data-t="54:46" data-who="Eric Ries" data-en="And if you don't have one, then they are lying to you no matter how good their intentions are. And this might be a good segue to the second bucket of stuff. So the way you described it earlier, I think is a really helpful way of framing it." aria-label="回原文"></button>。
+回到「怎么做」。Eric 反复强调:写一份漂亮的使命声明毫无价值,关键是他叫「[[使命驱动|使命驱动]]」的审计——你得设计一套机制,让公司里任何人都无法通过背叛使命来获利。
+
+他举了 Google 的例子:曾经有句著名的「Don't be evil(不作恶)」,如今从网站撤下、员工手册里也删了,还因违反这条两次被起诉并和解 <button class="pd-ts" data-t="52:48" data-who="Eric Ries" data-en="Now it's not even in the employee handbook anymore. And in fact, Google's been sued twice now for breaking the don't be evil pledge, and they've had to settle both lawsuits." aria-label="回原文"></button>。他问一位待了 13 年的前 Google 人:「Google 按时提交季度财报的概率是多少?
+
+」对方说 100%。他又问:「Google 意外害死一个人并掩盖的概率是多少?
+
+」对方说 90%、95% <button class="pd-ts" data-t="53:17" data-who="Eric Ries" data-en="And yet, I said, &quot;Okay, answer me this hypothetical just real quick. What is the probability that Google will file its next quarterly report on time?&quot; He was like, &quot;That's a dumb question, Eric." aria-label="回原文"></button>。荒诞对比出来了:为什么季度财报是铁定的?
+
+因为公司花大价钱建了一整套机制确保它发生。「不作恶」呢?
+
+只是一句口号,没有任何配套机制。Eric 的判据很干脆:如果有人告诉你他对某事很认真,那你问他「机制在哪?
+
+承诺在哪?」——拿不出来,不管初衷多好,他都在对你撒谎 <button class="pd-ts" data-t="54:46" data-who="Eric Ries" data-en="And if you don't have one, then they are lying to you no matter how good their intentions are. And this might be a good segue to the second bucket of stuff. So the way you described it earlier, I think is a really helpful way of framing it." aria-label="回原文"></button>。
 
 ## 最低限度的事:公益公司(PBC)和「董事誓言」
 
-这一节讲创始人具体能做什么。Eric 说最简单的一件,是改成公益公司(PBC,一种在章程里必须写明公共使命的公司法律形态)。区别在于:普通公司章程里写的「任何合法行为或目的」,在今天的股东至上法律框架下被解读成「为股东最大化回报」;PBC 则让你明确写下「这家公司通过创造安全负责的 AI 系统来促进人类繁荣」之类的具体使命 <button class="pd-ts" data-t="60:48" data-who="Eric Ries" data-en="You just say, &quot;This is the purpose of this company, not any lawful act or purpose.&quot; And said, &quot;No, this is a company designed to advance human flourishing by creating safe and responsible AI systems." aria-label="回原文"></button>。好处非常具体:哪天有人告你违背对股东的信托责任,你可以拿出章程说「投资者早就同意我们做这件事」。Anthropic 从第一天就是 PBC,还把「[[长期利益信托|长期利益信托]]」(一组由不持股权的 AI 安全专家任命的董事,负责监督公司是否偏离安全使命)写进了章程 <button class="pd-ts" data-t="74:59" data-who="Eric Ries" data-en="And so even today, Anthropic has directors on its for profit board who are appointed by and are accountable to an outside group of trustees who are AI safety experts who do not have equity in Anthropic." aria-label="回原文"></button>。Eric 强调:这没有任何权衡,「真的没有任何权衡」,唯一的「成本」就是会有投资者或律师浪费时间劝你别做 <button class="pd-ts" data-t="64:27" data-who="Eric Ries" data-en="No. This is the one thing that has no trade, truly no trade-offs at all. I mean, maybe you'll meet an investor who's suspicious about or doesn't like it." aria-label="回原文"></button>。
+这一节讲创始人具体能做什么。Eric 说最简单的一件,是改成公益公司(PBC,一种在章程里必须写明公共使命的公司法律形态)。
+
+区别在于:普通公司章程里写的「任何合法行为或目的」,在今天的股东至上法律框架下被解读成「为股东最大化回报」;PBC 则让你明确写下「这家公司通过创造安全负责的 AI 系统来促进人类繁荣」之类的具体使命 <button class="pd-ts" data-t="60:48" data-who="Eric Ries" data-en="You just say, &quot;This is the purpose of this company, not any lawful act or purpose.&quot; And said, &quot;No, this is a company designed to advance human flourishing by creating safe and responsible AI systems." aria-label="回原文"></button>。好处非常具体:哪天有人告你违背对股东的信托责任,你可以拿出章程说「投资者早就同意我们做这件事」。
+
+Anthropic 从第一天就是 PBC,还把「[[长期利益信托|长期利益信托]]」(一组由不持股权的 AI 安全专家任命的董事,负责监督公司是否偏离安全使命)写进了章程 <button class="pd-ts" data-t="74:59" data-who="Eric Ries" data-en="And so even today, Anthropic has directors on its for profit board who are appointed by and are accountable to an outside group of trustees who are AI safety experts who do not have equity in Anthropic." aria-label="回原文"></button>。Eric 强调:这没有任何权衡,「真的没有任何权衡」,唯一的「成本」就是会有投资者或律师浪费时间劝你别做 <button class="pd-ts" data-t="64:27" data-who="Eric Ries" data-en="No. This is the one thing that has no trade, truly no trade-offs at all. I mean, maybe you'll meet an investor who's suspicious about or doesn't like it." aria-label="回原文"></button>。
 
 第二件他推荐的具体做法叫「董事誓言」:要求所有董事(公司最高决策层)在入董事会前签一份希波克拉底式誓言(像医生「首先不伤害」那样的职业承诺),写进章程作为前置条件 <button class="pd-ts" data-t="86:52" data-who="Eric Ries" data-en="Second thing that's super easy, we didn't get a chance to talk about, I call it the director's oath. This came up obviously because there's this big fight going on between Anthropic and Figma and a reporter I text just got reported, reported on the idea." aria-label="回原文"></button>。他补充说:今天董事的决策后果比护士重得多,我们却对护士的要求比董事高,这说不通。Eric 还提到自己参与创办了一家叫 Virgil 的律师事务所,不按小时收费,专门帮创业者处理这类治理问题 <button class="pd-ts" data-t="88:43" data-who="Eric Ries" data-en="If your lawyer's kind of being a drag or you don't like having to pay them by the hour, I actually helped start a law firm just because this drives me crazy. So there's a law firm called Virgil." aria-label="回原文"></button>。
 
 ## 「文化银行」:只存款,不取款
 
-最后一块拼图是组织文化。Eric 引用 Devoted Health 创始人 Todd Park 从星巴克 Howard Schultz 那里学来的「[[文化银行|文化银行]]」规则:每次公司为了捍卫价值观付出代价,就是往文化银行里「存款」;每次做贪婪自利的事就是「取款」。规则简单粗暴——「只存款,绝不取款」<button class="pd-ts" data-t="71:49" data-who="Eric Ries" data-en="Only make deposits, never make withdrawals. That's it. Because you're going to make withdrawals by accident sometimes because you can make mistakes, but you never intentionally make a withdrawal." aria-label="回原文"></button>。他讲了个 H-E-B 超市的故事:德州冰暴停电、销售点系统崩了,经理直接让顾客把杂货拿回家,不收钱——这不是经理临场发挥,而是 H-E-B 系统训练的结果:做对的事就是在文化银行存款 <button class="pd-ts" data-t="71:14" data-who="Eric Ries" data-en="But if you do something, I tell a story about this grocery store in Texas called H-E-B, where the power went out, there was an ice storm, and the manager let all the customers just take their groceries home." aria-label="回原文"></button>。背后的逻辑:信任是商业里最被低估的资产,它必须通过一次次「宁可吃亏也要做对」的累积才能沉淀下来。
+最后一块拼图是组织文化。Eric 引用 Devoted Health 创始人 Todd Park 从星巴克 Howard Schultz 那里学来的「[[文化银行|文化银行]]」规则:每次公司为了捍卫价值观付出代价,就是往文化银行里「存款」;每次做贪婪自利的事就是「取款」。
+
+规则简单粗暴——「只存款,绝不取款」<button class="pd-ts" data-t="71:49" data-who="Eric Ries" data-en="Only make deposits, never make withdrawals. That's it. Because you're going to make withdrawals by accident sometimes because you can make mistakes, but you never intentionally make a withdrawal." aria-label="回原文"></button>。他讲了个 H-E-B 超市的故事:德州冰暴停电、销售点系统崩了,经理直接让顾客把杂货拿回家,不收钱——这不是经理临场发挥,而是 H-E-B 系统训练的结果:做对的事就是在文化银行存款 <button class="pd-ts" data-t="71:14" data-who="Eric Ries" data-en="But if you do something, I tell a story about this grocery store in Texas called H-E-B, where the power went out, there was an ice storm, and the manager let all the customers just take their groceries home." aria-label="回原文"></button>。背后的逻辑:信任是商业里最被低估的资产,它必须通过一次次「宁可吃亏也要做对」的累积才能沉淀下来。
 
 他还提到一个常被忽视的洞察:使命一致的公司像个人处于「心流」状态——不用开会、不用扯皮、没人拿 ROI 电子表格来磨你。他引述已故管理学者 Clayton Christensen 的话:「100% 做正确的事比 98% 容易」——因为一旦到了 98%,你就得为剩下那 2% 开无数的会 <button class="pd-ts" data-t="70:00" data-who="Eric Ries" data-en="There's no need. The late great Clayton Christensen once said that it's easier to do the right thing 100% of the time than 98% of the time. Just like because now you don't have to have a meeting about it." aria-label="回原文"></button>。Claude Code 团队那期里,产品负责人 Kat 也说过类似的话:他们能每周发布大量功能,核心原因就是「使命高度一致」,决定做不做某件事几乎不耗时间 <button class="pd-ts" data-t="68:30" data-who="Eric Ries" data-en="Essentially, they were going through a period of force every day. And a big part of our answer was exactly what you're describing, which is we are so mission aligned." aria-label="回原文"></button>。
 
@@ -87,21 +123,29 @@ Cloudflare 早期根本没有使命声明——几个哈佛商学院出来的创
 
 Eric 把前面所有结构统称为「[[精神控股公司|精神控股公司]]」(他自创的统称,涵盖非营利基金会、目的信托、员工持股信托等各种「持有公司灵魂」的法律实体)。它的核心功能是提供一个「[[使命守护者|使命守护者]]」——某个不持股的人或实体,专门负责确保公司不偏离使命 <button class="pd-ts" data-t="76:29" data-who="Eric Ries" data-en="But to kind of answer your question, the critical thing we need, if we're going to really resist outside pressure, we need what I call a mission guardian. It has to be somebody or some entity's job to make sure that the thing remains mission locked or mission aligned." aria-label="回原文"></button>。
 
-他用 OpenAI 和 Anthropic 的对比来讲这一点。Anthropic 创始人 Dario 离开 OpenAI 创业时,还是个首次创业者、不是顶级风投追捧的明星公司、ChatGPT 还没出现——但他们是 AI 安全使命的「真正信徒」,通过投资人介绍来找 Eric 这位「另类治理想法的古怪收藏家」请教 <button class="pd-ts" data-t="73:50" data-who="Eric Ries" data-en="So the mass psychosis we're all living through had not occurred yet. Nonetheless, they were true believers in this safety mission and so one of their investors suggested they come talk to me." aria-label="回原文"></button>。Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就是 PBC,并在章程里写明有权设立长期利益信托。两年后 C 轮融资时才真正落地,但法律权利和意图从公司创立第一天就在文件里了 <button class="pd-ts" data-t="74:48" data-who="Eric Ries" data-en="And they had to defend it for two years because they didn't actually implement what's called now the long-term benefit trust until their series C, but they had the right and the intention to do it in all their legal documents from inception." aria-label="回原文"></button>。结果是:Anthropic 今天的董事会里有董事,由外部一组不持 Anthropic 股权的 AI 安全专家任命并对其负责——这些人没有经济激励,只有「看着这事被做对」的激励 <button class="pd-ts" data-t="75:02" data-who="Eric Ries" data-en="The experts who do not have equity in Anthropic. So they do not have a financial incentive. In its growth, they have an incentive to see it done properly." aria-label="回原文"></button>。
+他用 OpenAI 和 Anthropic 的对比来讲这一点。Anthropic 创始人 Dario 离开 OpenAI 创业时,还是个首次创业者、不是顶级风投追捧的明星公司、ChatGPT 还没出现——但他们是 AI 安全使命的「真正信徒」,通过投资人介绍来找 Eric 这位「另类治理想法的古怪收藏家」请教 <button class="pd-ts" data-t="73:50" data-who="Eric Ries" data-en="So the mass psychosis we're all living through had not occurred yet. Nonetheless, they were true believers in this safety mission and so one of their investors suggested they come talk to me." aria-label="回原文"></button>。
+
+Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就是 PBC,并在章程里写明有权设立长期利益信托。两年后 C 轮融资时才真正落地,但法律权利和意图从公司创立第一天就在文件里了 <button class="pd-ts" data-t="74:48" data-who="Eric Ries" data-en="And they had to defend it for two years because they didn't actually implement what's called now the long-term benefit trust until their series C, but they had the right and the intention to do it in all their legal documents from inception." aria-label="回原文"></button>。结果是:Anthropic 今天的董事会里有董事,由外部一组不持 Anthropic 股权的 AI 安全专家任命并对其负责——这些人没有经济激励,只有「看着这事被做对」的激励 <button class="pd-ts" data-t="75:02" data-who="Eric Ries" data-en="The experts who do not have equity in Anthropic. So they do not have a financial incentive. In its growth, they have an incentive to see it done properly." aria-label="回原文"></button>。
 
 这给了 Anthropic 一种罕见的勇气:他们曾拒绝一份 2 亿美元的合同、承受了世界上最大军队和政府的愤怒——不是因为宣传好,而是因为投资者没法临时把 Dario 赶下台 <button class="pd-ts" data-t="76:02" data-who="Eric Ries" data-en="And here they turn down... Say what you want about them, but they turned down a $200 million contract and bore the wrath of the world's largest army and government." aria-label="回原文"></button>。Eric 的判断很明确:这种结构比「创始人控制」(创始人通过双重股权等机制独揽控制权)更稳定。创始人控制下的人往往「非常痛苦,基本每天在社交媒体上当众精神崩溃,因为你成了阿特拉斯,连耸肩都不行」<button class="pd-ts" data-t="78:47" data-who="Eric Ries" data-en="That's okay. But a lot of founders who have founder control wind up really miserable, as you can see by the fact they're having a mental health breakdown right in front of us, all of us on social media basically every day." aria-label="回原文"></button>。
 
 ## 为什么这和 AI 对齐是同一件事
 
-最后 Eric 把整集拉到一个更高的层面。他说公司/组织是地球上最古老的人工智能——一种「涌现智能」(大量简单个体协作后产生出超越个体能力的智能,就像一千只蚂蚁能解开一只蚂蚁解不开的谜题)<button class="pd-ts" data-t="91:31" data-who="Eric Ries" data-en="They are an example of this emergent intelligence. The same scientific principle that makes the transformer architecture work and appear intelligent, that same principle is at work in organizations." aria-label="回原文"></button>。而 Conway 定律(软件架构会镜像制造它的组织结构)告诉我们:人类价值观从上到下流进软件,组织里的对齐问题会原封不动地变成 AI 系统的对齐问题 <button class="pd-ts" data-t="90:54" data-who="Eric Ries" data-en="It's really weird actually. We don't think about it that much, but the org chart is visible in the architecture diagram. Why?" aria-label="回原文"></button>。所以「谁来对齐对齐者」(AI 界头号未解难题)的答案,得先从组织治理开始找:你得先想清楚要 AI 对齐到什么人类价值观,否则技术再强也是白搭。
+最后 Eric 把整集拉到一个更高的层面。他说公司/组织是地球上最古老的人工智能——一种「涌现智能」(大量简单个体协作后产生出超越个体能力的智能,就像一千只蚂蚁能解开一只蚂蚁解不开的谜题)<button class="pd-ts" data-t="91:31" data-who="Eric Ries" data-en="They are an example of this emergent intelligence. The same scientific principle that makes the transformer architecture work and appear intelligent, that same principle is at work in organizations." aria-label="回原文"></button>。
 
-他最后留了一个彩蛋——一位被遗忘的先驱 Mary Parker Follett。这位 1920 年就写下「权力与共而不是权力凌驾」「领导者的标志是创造更多领导者」的女学者,提出了一个比任何当代管理概念都锋利的词:「隐形领导者」<button class="pd-ts" data-t="95:46" data-who="Eric Ries" data-en="So one of her most important concepts is what she called the invisible leader. And I just love this. Just imagine someone, a woman in 1920 going around saying this to people, how it would blow their minds." aria-label="回原文"></button>。她说:工厂真正的领导者不是老板,而是那个被灌输进每个人心中的「共同目标」——因为老板不可能每次都在场,真正决定公司命运的是成千上万个没人盯着时做出的微小决策。Eric 用一句话收尾:你作为领导者的承诺,只有在没人盯着的时候还在被兑现,才算数。
+而 Conway 定律(软件架构会镜像制造它的组织结构)告诉我们:人类价值观从上到下流进软件,组织里的对齐问题会原封不动地变成 AI 系统的对齐问题 <button class="pd-ts" data-t="90:54" data-who="Eric Ries" data-en="It's really weird actually. We don't think about it that much, but the org chart is visible in the architecture diagram. Why?" aria-label="回原文"></button>。所以「谁来对齐对齐者」(AI 界头号未解难题)的答案,得先从组织治理开始找:你得先想清楚要 AI 对齐到什么人类价值观,否则技术再强也是白搭。
+
+他最后留了一个彩蛋——一位被遗忘的先驱 Mary Parker Follett。这位 1920 年就写下「权力与共而不是权力凌驾」「领导者的标志是创造更多领导者」的女学者,提出了一个比任何当代管理概念都锋利的词:「隐形领导者」<button class="pd-ts" data-t="95:46" data-who="Eric Ries" data-en="So one of her most important concepts is what she called the invisible leader. And I just love this. Just imagine someone, a woman in 1920 going around saying this to people, how it would blow their minds." aria-label="回原文"></button>。
+
+她说:工厂真正的领导者不是老板,而是那个被灌输进每个人心中的「共同目标」——因为老板不可能每次都在场,真正决定公司命运的是成千上万个没人盯着时做出的微小决策。Eric 用一句话收尾:你作为领导者的承诺,只有在没人盯着的时候还在被兑现,才算数。
 
 > 【背景】Philip Morris(菲利普·莫里斯)是全球最大的烟草公司之一,旗下拥有万宝路等品牌,在公众认知中常被视为「反面典型公司」;文中 Vectura 案例里,他们收购一家健康医药公司的行为引发广泛争议。BlackRock 是全球最大的资产管理公司之一,常因收购品牌后追求利润被提及。这两家公司的背景,都是 Eric 在书中用作「金融重力吞噬好公司」的现实标本。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,「股东至上」不是商业规律,它只是过去 40 年才冒出来的一种理论,而且它正在系统性毁掉好公司——你的祖父母、你的曾祖父母都不这么想,19 世纪的法院会把这种操作判成犯罪。第二,有解,而且解法有上百年验证:1920 年丹麦那家胰岛素公司如今变成了 [[Novo Nordisk|Novo Nordisk]](世界最大药企之一),Cloudflare 靠免费送 SSL 成了 700 亿美元公司,Anthropic 靠长期利益信托扛住了 2 亿美元的合同——共同点是他们都用了某种「精神控股公司」结构,让使命本身拥有主权。第三,作为创始人,你下周就能做的三件具体事:注册成公益公司、跟联合创始人做一次「能不能靠背叛使命赚钱」的对抗性提示测试、让所有董事签一份「首先不伤害」的誓言。Eric 反复强调:这一步没有任何权衡、没有任何权衡、没有任何权衡——你唯一会失去的,是那种「随时可能被一份标准章程绑住双手、眼睁睁看着公司被拆分出售」的命运。
+最后收个尾,这一集值得带走的是三句话。第一,「股东至上」不是商业规律,它只是过去 40 年才冒出来的一种理论,而且它正在系统性毁掉好公司——你的祖父母、你的曾祖父母都不这么想,19 世纪的法院会把这种操作判成犯罪。
+
+第二,有解,而且解法有上百年验证:1920 年丹麦那家胰岛素公司如今变成了 [[Novo Nordisk|Novo Nordisk]](世界最大药企之一),Cloudflare 靠免费送 SSL 成了 700 亿美元公司,Anthropic 靠长期利益信托扛住了 2 亿美元的合同——共同点是他们都用了某种「精神控股公司」结构,让使命本身拥有主权。第三,作为创始人,你下周就能做的三件具体事:注册成公益公司、跟联合创始人做一次「能不能靠背叛使命赚钱」的对抗性提示测试、让所有董事签一份「首先不伤害」的誓言。Eric 反复强调:这一步没有任何权衡、没有任何权衡、没有任何权衡——你唯一会失去的,是那种「随时可能被一份标准章程绑住双手、眼睁睁看着公司被拆分出售」的命运。
 
 <div class="pd-sec">全部金句 <span>14 条(中英对照,已过机器闸门)</span></div>
 
@@ -168,24 +212,21 @@ Eric 把前面所有结构统称为「[[精神控股公司|精神控股公司]]�
 
 **顺着「创业与行业」挖下去**
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]] —— 同嘉宾:Lenny
+- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
+- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:公益公司 (Public Benefit Corporation)
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:公益公司 (Public Benefit Corporation)</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
 
 </div>
 </div>
-
-*本集关键词:公司治理 · 使命驱动 · 公益公司 · 结构完整性 · AI 安全*
-
 <script>
 (function(){
   function move(){

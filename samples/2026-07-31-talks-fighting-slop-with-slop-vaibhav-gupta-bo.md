@@ -31,33 +31,91 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>一家八人团队靠 AI 写出稳定的编程语言 BAML，秘诀是放下审查、拥抱「slop」，并重写编程的底层地基。</div>
 
-做一门编程语言——而且要做对，通常需要八个人干上两年。但一个团队不仅没花这么久，还干脆废掉了[[代码审查|代码审查]]，允许每个工程师随便用自己喜欢的 AI 工具。他们的秘诀反直觉得很：既然垃圾代码（slop，指那些不读、不维护、堆积如山的代码）打不败，不如反过来用它、甚至主动造它。说这话的人叫 Vaibhav，他做的事是造了一门给 AI 用的编程语言 [[BAML|BAML]]。
+做一门编程语言——而且要做对，通常需要八个人干上两年。但一个团队不仅没花这么久，还干脆废掉了[[代码审查|代码审查]]，允许每个工程师随便用自己喜欢的 AI 工具。
+
+他们的秘诀反直觉得很：既然垃圾代码（slop，指那些不读、不维护、堆积如山的代码）打不败，不如反过来用它、甚至主动造它。说这话的人叫 Vaibhav，他做的事是造了一门给 AI 用的编程语言 [[BAML|BAML]]。
 
 这一集里，Vaibhav 完整分享了他的团队三年来的工程实践，主要聊了三块。第一块是管理上怎么放手：既然管不住工程师用哪个 AI，不如换个[[不变量|不变量]]来管；第二块是工具上怎么补位：既然人不再逐行读代码，就造出一堆「sloppy 工具」让系统和[[智能体|智能体]]互相监督；第三块最核心，他提出真正要赢这场仗，得重写编程语言本身的地基——让[[类型系统|类型系统]]替你把住信任关，这也是他造 BAML 的初衷。
 
-先说他们团队的第一仗：标准之争。招来的顶尖工程师个个有主见，有人爱用 Claude，有人爱用 Codex，有人天天上 Hacker News 追新工具，你根本管不住他们用什么。Vaibhav 的团队没有硬性统一，而是立了一个不变量：一个极小的 architecture.md 文件（描述系统架构的文本，放在仓库根目录）。这个文件只写那些几个月甚至几年都不会变的底层规则，比如编译器分几层；至于具体怎么实现、用什么模型，完全不管。但文件加了一条要求：智能体在编译器深处改东西之前，必须先去跟至少一个活人聊聊。这一下就把进度天然拖慢了一点，防止 AI 莽撞改动核心代码 <button class="pd-ts" data-t="02:10" data-who="Vaibhav" data-en="So instead of trying to hold standards in our code base, we did something that is an invariant. We built an architecture.md file. Instead of using ClaudeMD, just pick something that every model can just understand." aria-label="回原文"></button>。
+先说他们团队的第一仗：标准之争。招来的顶尖工程师个个有主见，有人爱用 Claude，有人爱用 Codex，有人天天上 Hacker News 追新工具，你根本管不住他们用什么。
 
-标准的问题刚摁下去，真正的硬仗来了：设计。Vaibhav 团队有一条铁律——代码可以是 slop，写作不能。意思是代码写得糙点 AI 能补，但设计文档必须写清楚，因为它决定了整个系统的方向。可光有规则没人执行。他们先是做了一个内部的设计文档工具，能版本控制、能评论，想替代 Notion 和 GitHub 在这块的用途——结果没人用。于是他们又在这工具之上加了个 Slack 集成，每次有人改文档，一个频道就自动推送。没想到这个频道迅速成了全公司最热闹的地方：凌晨两点有人发了个新设计文档，立刻有三个人爬起来围观，因为有意思 <button class="pd-ts" data-t="03:15" data-who="Vaibhav" data-en="Every time a design doc got updated, this channel got notifications. And what ended up happening is this channel became the most popular channel in our company really fast." aria-label="回原文"></button>。最后再加一条硬规则：你要发设计文档，就必须逼着人去读。这几板斧下去，文档质量稳了。
+Vaibhav 的团队没有硬性统一，而是立了一个不变量：一个极小的 architecture.md 文件（描述系统架构的文本，放在仓库根目录）。这个文件只写那些几个月甚至几年都不会变的底层规则，比如编译器分几层；至于具体怎么实现、用什么模型，完全不管。
 
-文档稳了，代码怎么自己稳下来？这是架构之战。Vaibhav 的团队造了一个可视化内部[[依赖图|依赖图]]（dependency graph，代码模块之间谁依赖谁的网状关系）的工具，能实时盯着代码库怎么变。更重要的是，他们在上面叠了一层 CLI（命令行界面）脚本，保证某些架构不变量绝对不能被打破。一旦 AI 试图加一个有问题的依赖，或者建一个漏掉边界的新包，CI（持续集成，代码一提交就自动跑测试的流程）或者 git 提交历史立刻就会标红报警。结果是：他们已经三四个月没动过整体架构了 <button class="pd-ts" data-t="04:33" data-who="Vaibhav" data-en="And by this, we're actually able to make our architecture change. We haven't changed our architecture in the last three or four months. But as much as we might do design docs, and as much as we might have stable code, would you genuinely ship code without reading it?" aria-label="回原文"></button>。
+但文件加了一条要求：智能体在编译器深处改东西之前，必须先去跟至少一个活人聊聊。这一下就把进度天然拖慢了一点，防止 AI 莽撞改动核心代码 <button class="pd-ts" data-t="02:10" data-who="Vaibhav" data-en="So instead of trying to hold standards in our code base, we did something that is an invariant. We built an architecture.md file. Instead of using ClaudeMD, just pick something that every model can just understand." aria-label="回原文"></button>。
 
-可是，再稳的架构、再好的设计文档，真能不读代码就发布吗？尤其他们做的可是编程语言——这种东西有泛型（generics，允许代码处理多种类型的机制）、闭包（closures，能记住外部变量的函数）、内存分配、FFI 边界（外部函数接口，让不同语言互相调用的边界）等等一堆绕不过的死规矩，错一个全盘崩。Python 25 年了还有 bug。谁敢不读代码就放出去？这就是他们玩法最不一样的地方：让智能体去读、去测、甚至去改。他们搭了一套系统，让智能体不停地用 BAML 写程序、从零搭东西，然后把 Claude 做事的全过程对话记录摊开看。不光人看，更主要的是派另一批智能体去查这些记录，找出哪里出错了、哪里本来一次[[工具调用|工具调用]]能搞定却用了三次。找出问题后，再让智能体试着修，人负责复核哪些是真 bug、哪些是 AI 的幻觉。最激进的一步是：找到新的语言特性后，不是靠猜它好不好用，而是直接拿它去做 A/B 测试，看哪个方案用的工具调用更少、错误更少，拿数据说话 <button class="pd-ts" data-t="06:00" data-who="Vaibhav" data-en="And most importantly, instead of trying to just detect these issues, we can go one step further. What if you could find language features, and instead of guessing what was good, guessing what skill was good, you could go and A-B test it." aria-label="回原文"></button>。这一套下来，Vaibhav 算了笔账：搁以前，做这门语言得八个人、干两年、耗成千上万个工时，最后搞不好还是个破系统；现在他们烧几十亿个 token（AI 处理文本的基本计费单位），就能跑通、还能稳 <button class="pd-ts" data-t="06:48" data-who="Vaibhav" data-en="And today, we can just spend billions of tokens and make it work, and we can make it stable. And you too can go home and build these internal tools and these sloppy tools to make sure that your code bases can ship without really having to read necessarily every single line of code, because your engineers aren't going to." aria-label="回原文"></button>。
+标准的问题刚摁下去，真正的硬仗来了：设计。Vaibhav 团队有一条铁律——代码可以是 slop，写作不能。
 
-但 Vaibhav 话锋一转，泼了盆冷水：他觉得这场仗他们能赢，但整个行业会输掉这场战争。为什么？因为大家天天用的底层工具本身早就坏了。他拿 [[TypeScript|TypeScript]]（一种给 [[JavaScript|JavaScript]] 加类型的语言）举例，说它的设计目标是平衡正确性和生产力，但这里有个星号——它说的是人类的生产力。JavaScript（一门网页开发最常用的语言）当年为了图省事，留下了一堆 baked-in 的 slop。比如它在排序时会偷偷把东西转成字符串处理，这种行为在 AI 写代码的时代就是埋雷：不管你乐意不乐意，只要在这些语言上盖楼， slop 就会一直在 <button class="pd-ts" data-t="08:14" data-who="Vaibhav" data-en="Why do we turn things to strings when we sort them? This is just slop baked into the language, whether you like it or not. What about this?" aria-label="回原文"></button>。人类后来为了打补丁，弄出了 CoffeeScript、TypeScript，现在又想弄 Effect，可底下的地基本来就是裂的。Vaibhav 的问题是：我们写代码的方式都变了，干嘛还要补这个破烂？
+意思是代码写得糙点 AI 能补，但设计文档必须写清楚，因为它决定了整个系统的方向。可光有规则没人执行。
 
-顺着这个问题，他展示了 BAML 到底想怎么从第一性原理重做地基。核心是一个很颠覆的思路：人根本不用读所有代码。他做了个原型——每次点开代码，看到的不是一堆字符，而是一个能自动把代码可视化的视图，你想看哪段就展开哪段，不想看的整块直接丢给 slop 算了。在一个不读代码的世界里，怎么理解程序？靠[[执行跟踪|执行跟踪]]（execution trace，程序一步步跑下来的完整记录）。在 Python 或 TypeScript 里想完整跟踪每一步慢得要命，根本不现实。但 BAML 从头设计，把跟踪做到几乎零性能开销。而且因为一切都是为智能体准备的，每个文件都自带跟踪系统，Claude 可以自己顺着它找 bug、找低效的地方，自己就把代码优化了 <button class="pd-ts" data-t="10:52" data-who="Vaibhav" data-en="In a world where we don't read all the code, the only way to understand the code is actually by the execution trace and actually by seeing exactly how much time was spent on what parts of my program at any given time." aria-label="回原文"></button>。
+他们先是做了一个内部的设计文档工具，能版本控制、能评论，想替代 Notion 和 GitHub 在这块的用途——结果没人用。于是他们又在这工具之上加了个 Slack 集成，每次有人改文档，一个频道就自动推送。
+
+没想到这个频道迅速成了全公司最热闹的地方：凌晨两点有人发了个新设计文档，立刻有三个人爬起来围观，因为有意思 <button class="pd-ts" data-t="03:15" data-who="Vaibhav" data-en="Every time a design doc got updated, this channel got notifications. And what ended up happening is this channel became the most popular channel in our company really fast." aria-label="回原文"></button>。最后再加一条硬规则：你要发设计文档，就必须逼着人去读。这几板斧下去，文档质量稳了。
+
+文档稳了，代码怎么自己稳下来？这是架构之战。
+
+Vaibhav 的团队造了一个可视化内部[[依赖图|依赖图]]（dependency graph，代码模块之间谁依赖谁的网状关系）的工具，能实时盯着代码库怎么变。更重要的是，他们在上面叠了一层 CLI（命令行界面）脚本，保证某些架构不变量绝对不能被打破。
+
+一旦 AI 试图加一个有问题的依赖，或者建一个漏掉边界的新包，CI（持续集成，代码一提交就自动跑测试的流程）或者 git 提交历史立刻就会标红报警。结果是：他们已经三四个月没动过整体架构了 <button class="pd-ts" data-t="04:33" data-who="Vaibhav" data-en="And by this, we're actually able to make our architecture change. We haven't changed our architecture in the last three or four months. But as much as we might do design docs, and as much as we might have stable code, would you genuinely ship code without reading it?" aria-label="回原文"></button>。
+
+可是，再稳的架构、再好的设计文档，真能不读代码就发布吗？尤其他们做的可是编程语言——这种东西有泛型（generics，允许代码处理多种类型的机制）、闭包（closures，能记住外部变量的函数）、内存分配、FFI 边界（外部函数接口，让不同语言互相调用的边界）等等一堆绕不过的死规矩，错一个全盘崩。
+
+Python 25 年了还有 bug。谁敢不读代码就放出去？
+
+这就是他们玩法最不一样的地方：让智能体去读、去测、甚至去改。他们搭了一套系统，让智能体不停地用 BAML 写程序、从零搭东西，然后把 Claude 做事的全过程对话记录摊开看。
+
+不光人看，更主要的是派另一批智能体去查这些记录，找出哪里出错了、哪里本来一次[[工具调用|工具调用]]能搞定却用了三次。找出问题后，再让智能体试着修，人负责复核哪些是真 bug、哪些是 AI 的幻觉。
+
+最激进的一步是：找到新的语言特性后，不是靠猜它好不好用，而是直接拿它去做 A/B 测试，看哪个方案用的工具调用更少、错误更少，拿数据说话 <button class="pd-ts" data-t="06:00" data-who="Vaibhav" data-en="And most importantly, instead of trying to just detect these issues, we can go one step further. What if you could find language features, and instead of guessing what was good, guessing what skill was good, you could go and A-B test it." aria-label="回原文"></button>。这一套下来，Vaibhav 算了笔账：搁以前，做这门语言得八个人、干两年、耗成千上万个工时，最后搞不好还是个破系统；现在他们烧几十亿个 token（AI 处理文本的基本计费单位），就能跑通、还能稳 <button class="pd-ts" data-t="06:48" data-who="Vaibhav" data-en="And today, we can just spend billions of tokens and make it work, and we can make it stable. And you too can go home and build these internal tools and these sloppy tools to make sure that your code bases can ship without really having to read necessarily every single line of code, because your engineers aren't going to." aria-label="回原文"></button>。
+
+但 Vaibhav 话锋一转，泼了盆冷水：他觉得这场仗他们能赢，但整个行业会输掉这场战争。为什么？
+
+因为大家天天用的底层工具本身早就坏了。他拿 [[TypeScript|TypeScript]]（一种给 [[JavaScript|JavaScript]] 加类型的语言）举例，说它的设计目标是平衡正确性和生产力，但这里有个星号——它说的是人类的生产力。
+
+JavaScript（一门网页开发最常用的语言）当年为了图省事，留下了一堆 baked-in 的 slop。比如它在排序时会偷偷把东西转成字符串处理，这种行为在 AI 写代码的时代就是埋雷：不管你乐意不乐意，只要在这些语言上盖楼， slop 就会一直在 <button class="pd-ts" data-t="08:14" data-who="Vaibhav" data-en="Why do we turn things to strings when we sort them? This is just slop baked into the language, whether you like it or not. What about this?" aria-label="回原文"></button>。
+
+人类后来为了打补丁，弄出了 CoffeeScript、TypeScript，现在又想弄 Effect，可底下的地基本来就是裂的。Vaibhav 的问题是：我们写代码的方式都变了，干嘛还要补这个破烂？
+
+顺着这个问题，他展示了 BAML 到底想怎么从第一性原理重做地基。核心是一个很颠覆的思路：人根本不用读所有代码。
+
+他做了个原型——每次点开代码，看到的不是一堆字符，而是一个能自动把代码可视化的视图，你想看哪段就展开哪段，不想看的整块直接丢给 slop 算了。在一个不读代码的世界里，怎么理解程序？
+
+靠[[执行跟踪|执行跟踪]]（execution trace，程序一步步跑下来的完整记录）。在 Python 或 TypeScript 里想完整跟踪每一步慢得要命，根本不现实。
+
+但 BAML 从头设计，把跟踪做到几乎零性能开销。而且因为一切都是为智能体准备的，每个文件都自带跟踪系统，Claude 可以自己顺着它找 bug、找低效的地方，自己就把代码优化了 <button class="pd-ts" data-t="10:52" data-who="Vaibhav" data-en="In a world where we don't read all the code, the only way to understand the code is actually by the execution trace and actually by seeing exactly how much time was spent on what parts of my program at any given time." aria-label="回原文"></button>。
 
 > 【背景】BAML 是 Vaibhav 团队做的编程语言，全称是「Boundary Abstract Markup Language」，最初主要用来帮开发者更结构化地写 AI 应用里的提示词和函数调用，后来逐渐演变成一门完整语言。
 
-顺着这条线，他重新定义了「以智能体优先」的工具长什么样。比如现在我们查代码还用 grep 或 ripgrep（两种搜索源代码的命令行工具），搜出来一堆匹配行。他提议：干嘛不直接用自然语言问「给我描述一下 calculate 这个函数」？系统不仅给源码，还自带文档字符串、还列出底层所有调用点。原本要 AI 来回调用好几次工具才能拼出来的信息，现在一次调用全齐 <button class="pd-ts" data-t="12:28" data-who="Vaibhav" data-en="If I wanted to grep through my code base and understand what it was, I would ripgrep say something like calculate, and it would give me a bunch of code where everything was being used, and maybe it would be somewhat useful." aria-label="回原文"></button>。更进一步，每个函数写完，立刻就能变成一个独立的 CLI 命令直接跑——add 函数就变成一个能接 A、B 两个参数、双击即用的程序，不需要你真去搭环境执行。所有东西都是类型安全、确定性的，智能体不用再费劲去猜去搜，直接拿结果。而且它能编译到任何架构，跨 Windows、Mac、Linux 完全不用操心部署，甚至能编成 Wasm（一种能在浏览器里跑的二进制格式）<button class="pd-ts" data-t="14:00" data-who="Vaibhav" data-en="And I can just run it really quickly and see what happens. What if every single CLI tool I had could be packed into a CLI that's complete standalone that I can just run without ever having to actually execute any of the code?" aria-label="回原文"></button>。工程师一下被解放了，能动得跟智能体一样快。
+顺着这条线，他重新定义了「以智能体优先」的工具长什么样。比如现在我们查代码还用 grep 或 ripgrep（两种搜索源代码的命令行工具），搜出来一堆匹配行。
 
-地基重写的另一个重头戏，是错误处理。Vaibhav 问了个扎心的问题：除了 Rust（一门以严格著称的语言），谁见过好看的错误处理？AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一层，再套一层，最后干脆放弃，直接打个 `console.log` 说「出错了」拉倒 <button class="pd-ts" data-t="15:15" data-who="Vaibhav" data-en="Have you seen error handling be beautiful ever? Other than Rust? What I see agents do over here is you do try-catch, and then they keep nesting try-catch after try-catch after try-catch, and eventually they give up and say console.log, some error happened, and deal with it." aria-label="回原文"></button>。BAML 想从根上治这个病。他演示了 divide（除法）这个容易出事的函数：它不仅会抛「除以零」的错误，而且系统自己知道它可能抛这个错——函数自己清楚自己的错误类型，不需要程序员写半个字去声明。更妙的是，谁调用了 divide，调用者也会自动继承这个错误类型。于是编译器能拿出铁证：你到底处理没处理这个错？如果你想发布一个保证绝不抛异常的 API，而代码里还藏着两个没处理的错误，编译直接拦下。如果你想让某个函数不再抛某个错，写两行 catch，编译器立刻能证明它已经被摁住了，不会再逃出去。没有猜测，没有未知，一切都被证明 <button class="pd-ts" data-t="16:10" data-who="Vaibhav" data-en="So error types now get inferred without you ever having to do any guesswork. That means if you catch or handle errors, we can do exhaustive guarantees, and the compiler can prove that you have handled the error or not handled the error." aria-label="回原文"></button>。代码的本质是信任，我们今天之所以不敢闭眼用 AI 写的代码，就是因为底下的系统不够刚性、给不了这种保证。
+他提议：干嘛不直接用自然语言问「给我描述一下 calculate 这个函数」？系统不仅给源码，还自带文档字符串、还列出底层所有调用点。
 
-但这又引出个现实问题：让全世界把已有代码都重写成 BAML，那是痴人说梦。于是他们的解法是让 BAML 能嵌进任何你已经在用的语言里。你可以直接在 Python 里调 BAML 写的 calculate 函数，完全是类型安全的；不仅有同步版，还白送你一个异步版。更野的是，你可以把 Python 的 lambda（匿名函数）、泛型、闭包（closures，能记住外部变量的函数）跨语言边界传给 BAML 那头，它能接住、能跑通 <button class="pd-ts" data-t="18:44" data-who="Vaibhav" data-en="But what if you went a little bit sillier? What if you started passing around lambdas? Across language boundaries." aria-label="回原文"></button>。工程师完全不用操心这背后的桥是怎么搭的。更重要的是，这样一来，类型系统就成了唯一的、绝对不撒谎的真理中心，专门负责把住不变量的门 <button class="pd-ts" data-t="19:10" data-who="Vaibhav" data-en="It should just work so engineers don't have to go fuss with it. And more importantly, so when the agent does something, the type system never lies. The type system becomes the absolute center of truth that prevents invariants from entering your code base." aria-label="回原文"></button>。
+原本要 AI 来回调用好几次工具才能拼出来的信息，现在一次调用全齐 <button class="pd-ts" data-t="12:28" data-who="Vaibhav" data-en="If I wanted to grep through my code base and understand what it was, I would ripgrep say something like calculate, and it would give me a bunch of code where everything was being used, and maybe it would be somewhat useful." aria-label="回原文"></button>。更进一步，每个函数写完，立刻就能变成一个独立的 CLI 命令直接跑——add 函数就变成一个能接 A、B 两个参数、双击即用的程序，不需要你真去搭环境执行。
+
+所有东西都是类型安全、确定性的，智能体不用再费劲去猜去搜，直接拿结果。而且它能编译到任何架构，跨 Windows、Mac、Linux 完全不用操心部署，甚至能编成 Wasm（一种能在浏览器里跑的二进制格式）<button class="pd-ts" data-t="14:00" data-who="Vaibhav" data-en="And I can just run it really quickly and see what happens. What if every single CLI tool I had could be packed into a CLI that's complete standalone that I can just run without ever having to actually execute any of the code?" aria-label="回原文"></button>。工程师一下被解放了，能动得跟智能体一样快。
+
+地基重写的另一个重头戏，是错误处理。Vaibhav 问了个扎心的问题：除了 Rust（一门以严格著称的语言），谁见过好看的错误处理？
+
+AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一层，再套一层，最后干脆放弃，直接打个 `console.log` 说「出错了」拉倒 <button class="pd-ts" data-t="15:15" data-who="Vaibhav" data-en="Have you seen error handling be beautiful ever? Other than Rust? What I see agents do over here is you do try-catch, and then they keep nesting try-catch after try-catch after try-catch, and eventually they give up and say console.log, some error happened, and deal with it." aria-label="回原文"></button>。BAML 想从根上治这个病。
+
+他演示了 divide（除法）这个容易出事的函数：它不仅会抛「除以零」的错误，而且系统自己知道它可能抛这个错——函数自己清楚自己的错误类型，不需要程序员写半个字去声明。更妙的是，谁调用了 divide，调用者也会自动继承这个错误类型。
+
+于是编译器能拿出铁证：你到底处理没处理这个错？如果你想发布一个保证绝不抛异常的 API，而代码里还藏着两个没处理的错误，编译直接拦下。
+
+如果你想让某个函数不再抛某个错，写两行 catch，编译器立刻能证明它已经被摁住了，不会再逃出去。没有猜测，没有未知，一切都被证明 <button class="pd-ts" data-t="16:10" data-who="Vaibhav" data-en="So error types now get inferred without you ever having to do any guesswork. That means if you catch or handle errors, we can do exhaustive guarantees, and the compiler can prove that you have handled the error or not handled the error." aria-label="回原文"></button>。代码的本质是信任，我们今天之所以不敢闭眼用 AI 写的代码，就是因为底下的系统不够刚性、给不了这种保证。
+
+但这又引出个现实问题：让全世界把已有代码都重写成 BAML，那是痴人说梦。于是他们的解法是让 BAML 能嵌进任何你已经在用的语言里。
+
+你可以直接在 Python 里调 BAML 写的 calculate 函数，完全是类型安全的；不仅有同步版，还白送你一个异步版。更野的是，你可以把 Python 的 lambda（匿名函数）、泛型、闭包（closures，能记住外部变量的函数）跨语言边界传给 BAML 那头，它能接住、能跑通 <button class="pd-ts" data-t="18:44" data-who="Vaibhav" data-en="But what if you went a little bit sillier? What if you started passing around lambdas? Across language boundaries." aria-label="回原文"></button>。
+
+工程师完全不用操心这背后的桥是怎么搭的。更重要的是，这样一来，类型系统就成了唯一的、绝对不撒谎的真理中心，专门负责把住不变量的门 <button class="pd-ts" data-t="19:10" data-who="Vaibhav" data-en="It should just work so engineers don't have to go fuss with it. And more importantly, so when the agent does something, the type system never lies. The type system becomes the absolute center of truth that prevents invariants from entering your code base." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三层意思。第一，传统那套代码审查和流程标准化，在 AI 时代不一定是唯一答案——既然管不住工程师用什么工具、也读不完他们写的代码，不如换个思路：定一个极小的架构不变量，用工具和智能体互相监督来兜底，甚至主动用 slop 对抗 slop。第二，要赢这场仗光靠管理不够，得重写工具地基。既然人不再逐行读代码，就要让代码可视化、让程序能自带执行跟踪、让函数变成立刻能跑的独立命令，甚至重做类型推断和错误处理，把信任问题从「靠人看」变成「靠编译器证明」。第三，这也是最狠的一层：我们今天用的很多语言和系统，底层早就 baked-in 了 slop，越打补丁越碎；真正想以智能体的速度发布软件，可能得有人硬着头皮去重造 Git、重造数据库、甚至重造编程语言。Vaibhav 自己就选了最难的那条路——他在做 BAML。
+最后收个尾，这一集值得带走的是三层意思。第一，传统那套代码审查和流程标准化，在 AI 时代不一定是唯一答案——既然管不住工程师用什么工具、也读不完他们写的代码，不如换个思路：定一个极小的架构不变量，用工具和智能体互相监督来兜底，甚至主动用 slop 对抗 slop。
+
+第二，要赢这场仗光靠管理不够，得重写工具地基。既然人不再逐行读代码，就要让代码可视化、让程序能自带执行跟踪、让函数变成立刻能跑的独立命令，甚至重做类型推断和错误处理，把信任问题从「靠人看」变成「靠编译器证明」。
+
+第三，这也是最狠的一层：我们今天用的很多语言和系统，底层早就 baked-in 了 slop，越打补丁越碎；真正想以智能体的速度发布软件，可能得有人硬着头皮去重造 Git、重造数据库、甚至重造编程语言。Vaibhav 自己就选了最难的那条路——他在做 BAML。
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
@@ -100,24 +158,21 @@ tags:
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Codex · 同概念:智能体 (agent)、劣质代码 (slop)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、劣质代码 (slop)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、CI/CD
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:智能体 (agent)、CI/CD</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 编程 · 编程语言 · 类型系统 · 工程实践 · 智能体优先*
-
 <script>
 (function(){
   function move(){

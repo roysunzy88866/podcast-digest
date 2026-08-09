@@ -26,7 +26,7 @@ unlisted: true
 
 [[AWS]] · [[Benedict Evans]] · [[Philip Johnston]] · [[Lenny]] · [[StarCloud]] · [[OpenAI]] · [[数据中心]] · [[Anthropic]] · [[SpaceX]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"AWS":4,"Benedict Evans":1,"Philip Johnston":1,"Lenny":33,"StarCloud":1,"OpenAI":30,"数据中心":2,"Anthropic":36,"SpaceX":5,"Google":15}</script>
+<script type="application/json" class="pd-epn">{"AWS":4,"Benedict Evans":1,"Philip Johnston":1,"Lenny":34,"StarCloud":1,"OpenAI":30,"数据中心":2,"Anthropic":38,"SpaceX":5,"Google":15}</script>
 
 <script>
 (function(){

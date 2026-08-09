@@ -39,23 +39,51 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>一家 2018 年成立的公司如何重构成 AI 原生组织，让产品和客服团队都能用 AI 智能体端到端交付功能。</div>
 
-一家成立于 2018 年的公司，在 AI 大模型爆发后，由 CEO 拍板重构了整个产品和组织架构。结果是什么？他们的产品经理甚至客户成功人员，现在能直接用 AI [[智能体|智能体]]在 [[GitHub|GitHub]] 上提交前后端代码，端到端地交付功能。说这话的人是 [[Jiaona Zhang|Jiaona Zhang]]，[[Laurel|Laurel]] 的首席产品官，大家叫她 Jay-Z。
+一家成立于 2018 年的公司，在 AI 大模型爆发后，由 CEO 拍板重构了整个产品和组织架构。结果是什么？
+
+他们的产品经理甚至客户成功人员，现在能直接用 AI [[智能体|智能体]]在 [[GitHub|GitHub]] 上提交前后端代码，端到端地交付功能。说这话的人是 [[Jiaona Zhang|Jiaona Zhang]]，[[Laurel|Laurel]] 的首席产品官，大家叫她 Jay-Z。
 
 这一集 [[Akash|Akash]] 的对谈里，她带着主持人实地投屏了 Laurel 的「公司操作系统」（公司 OS），拆解了这套系统怎么从零开始建、怎么落地到客服和销售这些非技术岗的日常工作里；她还聊了在这个新世界里，团队该怎么重新定义角色、产品经理该怎么招、面试该怎么面。
 
-先来看 Laurel 到底造了个什么东西。他们没有在各处零散地用 AI，而是直接在 GitHub（一个代码托管平台）里建了一个全公司范围的操作系统。简单来说，就是把公司每个职能部门（比如销售、客户成功、工程、产品）的日常工作和流程，拆解成一个个文件夹，每个文件夹里装的不再是死板的文档，而是「[[技能|技能]]」文件 <button class="pd-ts" data-t="03:05" data-who="Jiaona Zhang" data-en="your folder structure. And so going to customer success, you can see that each of these folders have a series of folders that are the are the activities that they do and then within" aria-label="回原文"></button>。这些技能直接挂在 Claude（一款 AI 模型）的组织设置里。这样一来，不管你在哪个部门，遇到写邮件、做客户交接、准备会议这些日常活儿，AI 都能调出专门对应的技能来帮你干。目的是解决一个普遍的痛点：公司里往往只有 1% 的极客员工在琢磨怎么用 AI 提效，剩下 90% 的人根本不知道什么时候该用什么工具。通过这个集中分发的系统，最优秀员工的最佳实践就被铺平给了全公司 <button class="pd-ts" data-t="05:37" data-who="Jiaona Zhang" data-en="It is actually something you know exactly what skill to use when. And I think that's the biggest thing that companies struggle with, which is you got these people who are these 1% AI users." aria-label="回原文"></button>。
+先来看 Laurel 到底造了个什么东西。他们没有在各处零散地用 AI，而是直接在 GitHub（一个代码托管平台）里建了一个全公司范围的操作系统。
 
-看懂了这套系统能干嘛，接下来是她建议普通公司怎么从零开始建。Jay-Z 给出了一条循序渐进的路子。第一步非常接地气：从小处着手，找一件你或团队每天都在做、极其繁琐且完全没必要重复的活儿，把它自动化。比如，销售团队老在聊天软件里问产品经理要某个功能的细节、要客户录音，来回扯皮。他们就把这个收集信息、分类分配、建工单跟踪的流程，用 [[Slack|Slack]] 自动化做成了一个简单的小工作流 <button class="pd-ts" data-t="12:50" data-who="Jiaona Zhang" data-en="And so the very small workflow that we did, and I'll go all the way down, is we created a Slack automation that essentially said," aria-label="回原文"></button>。
+简单来说，就是把公司每个职能部门（比如销售、客户成功、工程、产品）的日常工作和流程，拆解成一个个文件夹，每个文件夹里装的不再是死板的文档，而是「[[技能|技能]]」文件 <button class="pd-ts" data-t="03:05" data-who="Jiaona Zhang" data-en="your folder structure. And so going to customer success, you can see that each of these folders have a series of folders that are the are the activities that they do and then within" aria-label="回原文"></button>。这些技能直接挂在 Claude（一款 AI 模型）的组织设置里。
 
-把这些零散的工作流铺开后，第二步就是系统性地把团队的工作地图画出来。Jay-Z 把这叫做「[[本体|本体]]」——也就是列出每个部门该干的所有事。很多公司都有厚达 50 页、55 页的工作手册（Playbook），但从来没人看。现在用 Claude，这种手册不到一分钟就能生成初稿。关键是，拿到手册后要明确标注：哪些事情必须由人来干（比如飞到现场见客户、请人吃饭），哪些可以直接打包交给智能体去自动执行 <button class="pd-ts" data-t="14:58" data-who="Jiaona Zhang" data-en="into these organizations, helping them use Laurel as a product. And so what we've done is we've essentially created a playbook. And again, this is very, very long." aria-label="回原文"></button>。曾经有一阵子，Laurel 用 [[Dust|Dust]] 或 Glean 这类专门构建智能体的工具来搭这些自动化。但如今 Claude 的能力已经赶了上来，他们正把技能直接作为文件放进 Claude 里，不用再跨平台折腾了 <button class="pd-ts" data-t="19:34" data-who="Jiaona Zhang" data-en="And in fact, you can just build them in clod. and this is actually a little bit where we're going which is if I go back to the operating system that I was showing you earlier and all of these no longer have to" aria-label="回原文"></button>。另外，Jay-Z 还特别提醒：不要给员工堆砌一堆定时任务的自动化推送，这会造成严重的信息过载，最后大家只会被淹没。正确做法是把工具融入到他们原本的工作流里，在需要时及时触发 <button class="pd-ts" data-t="20:44" data-who="Jiaona Zhang" data-en="only see a couple of these pinned and what I found was that it was almost overkill it was like I sat there I was like oh I might automate this and so I built it I was" aria-label="回原文"></button>。
+这样一来，不管你在哪个部门，遇到写邮件、做客户交接、准备会议这些日常活儿，AI 都能调出专门对应的技能来帮你干。目的是解决一个普遍的痛点：公司里往往只有 1% 的极客员工在琢磨怎么用 AI 提效，剩下 90% 的人根本不知道什么时候该用什么工具。通过这个集中分发的系统，最优秀员工的最佳实践就被铺平给了全公司 <button class="pd-ts" data-t="05:37" data-who="Jiaona Zhang" data-en="It is actually something you know exactly what skill to use when. And I think that's the biggest thing that companies struggle with, which is you got these people who are these 1% AI users." aria-label="回原文"></button>。
 
-工具和流程都就位了，人怎么办？这正是下一个核心议题。这里最颠覆认知的一点是：在 Laurel，非技术人员可以直接发布产品功能。比如一位名叫 Nick 的产品经理，自我认同更偏设计而非工程，但他利用内部的赋能指南，配合名叫 [[Devon|Devon]] 的 AI 智能体工程师，独立完成了一个涉及前后端深度改动的「临时工时」功能；连客户成功团队的 Ashley 也能参与构建内部工具 <button class="pd-ts" data-t="23:17" data-who="Jiaona Zhang" data-en="everywhere in the company not just in engineering so with this um what we did is we did two things one we did um training and so what we did is we actually did a lot of training around like how do you" aria-label="回原文"></button>。当然，这不意味着乱来。他们的组织里有一种「双轨制」评审模式：如果你做的功能很小，你作为「[[船长|船长]]」全权端到端负责到底，包括测试，不需要走繁重的评审；但如果你的改动涉及核心交互（比如彻底改变用户查看一天时间线的方式），那就需要进行严格的产品战略评审和架构评审，确保局部优化不破坏全局 <button class="pd-ts" data-t="37:50" data-who="Jiaona Zhang" data-en="right level of collaboration on bigger features Yeah the same way we have this captain's model I think about a framework where we call it two tracks so there's one track which is much smaller if you have something" aria-label="回原文"></button>。值得一提的是，Laurel 非常看重一种叫「无微不至的接待」的客户体验价值观。为了把这种主观的关怀标准化，他们把规则写进系统：系统会自动从客户录音里提取客户喜好，给员工推送送礼或关怀的具体建议，而不是空喊口号 <button class="pd-ts" data-t="42:45" data-who="Jiaona Zhang" data-en="somewhere people read it and then they forget about it and what we do instead is we say well what does that actually mean we actually want to make sure that no matter" aria-label="回原文"></button>。
+看懂了这套系统能干嘛，接下来是她建议普通公司怎么从零开始建。Jay-Z 给出了一条循序渐进的路子。
 
-既然一个人加上 AI 能爆发出这么大的能量，团队结构自然也得变。Jay-Z 经历过管几百号人的庞大团队，但今天她的产品团队只有 5 名产品经理和 4 名设计师，而且她觉得没有理由再扩张 <button class="pd-ts" data-t="57:30" data-who="Jiaona Zhang" data-en="I think so yeah I mean I've had hundreds of people and today I have five PMs and four designers and there isn't a real reason to grow that because again like when" aria-label="回原文"></button>。因为人越多，沟通和协调的隐性成本就越高。她把这种人少但极度精锐的模式视为未来。这种模式催生了全新的招聘标准：寻找「超级资深的独立产品经理（ICPM）」。她在面试别人时，根本不看出身，而是直接要求对方共享屏幕，现场演示平时怎么用 AI。她把 AI 使用能力分为四级：第一级是只会用聊天框问问题；第二级是能自动化单个工作流；第三级是开始构建应用；第四级是能构建面向全公司的共享应用 <button class="pd-ts" data-t="58:51" data-who="Jiaona Zhang" data-en="function not just product or design or so you know so and so forth um is I do ask people to screen share and what I found is it is so easy to say hey we are you know" aria-label="回原文"></button>。屏幕一开，到底是在真用 AI 还是只拿网上的概念糊弄人，一目了然。而且，那些曾经带过大团队、因为不用再管人而感到无比兴奋、且依然保持极高产品判断力的资深人员，成了她眼里的香饽饽 <button class="pd-ts" data-t="56:29" data-who="Jiaona Zhang" data-en="the judgment and the reps is really, really important. And so again, this is not necessarily by design, but what I found really interesting was You know," aria-label="回原文"></button>。
+第一步非常接地气：从小处着手，找一件你或团队每天都在做、极其繁琐且完全没必要重复的活儿，把它自动化。比如，销售团队老在聊天软件里问产品经理要某个功能的细节、要客户录音，来回扯皮。他们就把这个收集信息、分类分配、建工单跟踪的流程，用 [[Slack|Slack]] 自动化做成了一个简单的小工作流 <button class="pd-ts" data-t="12:50" data-who="Jiaona Zhang" data-en="And so the very small workflow that we did, and I'll go all the way down, is we created a Slack automation that essentially said," aria-label="回原文"></button>。
+
+把这些零散的工作流铺开后，第二步就是系统性地把团队的工作地图画出来。Jay-Z 把这叫做「[[本体|本体]]」——也就是列出每个部门该干的所有事。
+
+很多公司都有厚达 50 页、55 页的工作手册（Playbook），但从来没人看。现在用 Claude，这种手册不到一分钟就能生成初稿。
+
+关键是，拿到手册后要明确标注：哪些事情必须由人来干（比如飞到现场见客户、请人吃饭），哪些可以直接打包交给智能体去自动执行 <button class="pd-ts" data-t="14:58" data-who="Jiaona Zhang" data-en="into these organizations, helping them use Laurel as a product. And so what we've done is we've essentially created a playbook. And again, this is very, very long." aria-label="回原文"></button>。曾经有一阵子，Laurel 用 [[Dust|Dust]] 或 Glean 这类专门构建智能体的工具来搭这些自动化。
+
+但如今 Claude 的能力已经赶了上来，他们正把技能直接作为文件放进 Claude 里，不用再跨平台折腾了 <button class="pd-ts" data-t="19:34" data-who="Jiaona Zhang" data-en="And in fact, you can just build them in clod. and this is actually a little bit where we're going which is if I go back to the operating system that I was showing you earlier and all of these no longer have to" aria-label="回原文"></button>。另外，Jay-Z 还特别提醒：不要给员工堆砌一堆定时任务的自动化推送，这会造成严重的信息过载，最后大家只会被淹没。正确做法是把工具融入到他们原本的工作流里，在需要时及时触发 <button class="pd-ts" data-t="20:44" data-who="Jiaona Zhang" data-en="only see a couple of these pinned and what I found was that it was almost overkill it was like I sat there I was like oh I might automate this and so I built it I was" aria-label="回原文"></button>。
+
+工具和流程都就位了，人怎么办？这正是下一个核心议题。
+
+这里最颠覆认知的一点是：在 Laurel，非技术人员可以直接发布产品功能。比如一位名叫 Nick 的产品经理，自我认同更偏设计而非工程，但他利用内部的赋能指南，配合名叫 [[Devon|Devon]] 的 AI 智能体工程师，独立完成了一个涉及前后端深度改动的「临时工时」功能；连客户成功团队的 Ashley 也能参与构建内部工具 <button class="pd-ts" data-t="23:17" data-who="Jiaona Zhang" data-en="everywhere in the company not just in engineering so with this um what we did is we did two things one we did um training and so what we did is we actually did a lot of training around like how do you" aria-label="回原文"></button>。
+
+当然，这不意味着乱来。他们的组织里有一种「双轨制」评审模式：如果你做的功能很小，你作为「[[船长|船长]]」全权端到端负责到底，包括测试，不需要走繁重的评审；但如果你的改动涉及核心交互（比如彻底改变用户查看一天时间线的方式），那就需要进行严格的产品战略评审和架构评审，确保局部优化不破坏全局 <button class="pd-ts" data-t="37:50" data-who="Jiaona Zhang" data-en="right level of collaboration on bigger features Yeah the same way we have this captain's model I think about a framework where we call it two tracks so there's one track which is much smaller if you have something" aria-label="回原文"></button>。
+
+值得一提的是，Laurel 非常看重一种叫「无微不至的接待」的客户体验价值观。为了把这种主观的关怀标准化，他们把规则写进系统：系统会自动从客户录音里提取客户喜好，给员工推送送礼或关怀的具体建议，而不是空喊口号 <button class="pd-ts" data-t="42:45" data-who="Jiaona Zhang" data-en="somewhere people read it and then they forget about it and what we do instead is we say well what does that actually mean we actually want to make sure that no matter" aria-label="回原文"></button>。
+
+既然一个人加上 AI 能爆发出这么大的能量，团队结构自然也得变。Jay-Z 经历过管几百号人的庞大团队，但今天她的产品团队只有 5 名产品经理和 4 名设计师，而且她觉得没有理由再扩张 <button class="pd-ts" data-t="57:30" data-who="Jiaona Zhang" data-en="I think so yeah I mean I've had hundreds of people and today I have five PMs and four designers and there isn't a real reason to grow that because again like when" aria-label="回原文"></button>。
+
+因为人越多，沟通和协调的隐性成本就越高。她把这种人少但极度精锐的模式视为未来。
+
+这种模式催生了全新的招聘标准：寻找「超级资深的独立产品经理（ICPM）」。她在面试别人时，根本不看出身，而是直接要求对方共享屏幕，现场演示平时怎么用 AI。
+
+她把 AI 使用能力分为四级：第一级是只会用聊天框问问题；第二级是能自动化单个工作流；第三级是开始构建应用；第四级是能构建面向全公司的共享应用 <button class="pd-ts" data-t="58:51" data-who="Jiaona Zhang" data-en="function not just product or design or so you know so and so forth um is I do ask people to screen share and what I found is it is so easy to say hey we are you know" aria-label="回原文"></button>。屏幕一开，到底是在真用 AI 还是只拿网上的概念糊弄人，一目了然。而且，那些曾经带过大团队、因为不用再管人而感到无比兴奋、且依然保持极高产品判断力的资深人员，成了她眼里的香饽饽 <button class="pd-ts" data-t="56:29" data-who="Jiaona Zhang" data-en="the judgment and the reps is really, really important. And so again, this is not necessarily by design, but what I found really interesting was You know," aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是几个核心洞察。第一，想把公司变成 AI 原生，第一步别贪大，找一个最让人头疼的琐碎工作流，把它自动化，然后梳理你们的工作手册，明确哪些活归人，哪些归 AI。第二，不要害怕非技术人员写代码，只要给足 AI 工具、赋能指南，配合「双轨制」的代码审查与战略评审，产品经理甚至客服都能端到端地交付完整功能。第三，团队规模不再是实力的象征，人越多协调成本越高，未来的理想团队是小而精的，你要找的是那些拥抱 AI、自带产品判断力、执行细节到位的超级资深个体贡献者。最后，正如 Jay-Z 所说，无论工具跑得多快、组织怎么重构，产品经理贴近客户、先搞清问题再想方案的基础原则不仅没变，反而比以往任何时候都更重要。
+最后收个尾，这一集值得带走的是几个核心洞察。第一，想把公司变成 AI 原生，第一步别贪大，找一个最让人头疼的琐碎工作流，把它自动化，然后梳理你们的工作手册，明确哪些活归人，哪些归 AI。
+
+第二，不要害怕非技术人员写代码，只要给足 AI 工具、赋能指南，配合「双轨制」的代码审查与战略评审，产品经理甚至客服都能端到端地交付完整功能。第三，团队规模不再是实力的象征，人越多协调成本越高，未来的理想团队是小而精的，你要找的是那些拥抱 AI、自带产品判断力、执行细节到位的超级资深个体贡献者。最后，正如 Jay-Z 所说，无论工具跑得多快、组织怎么重构，产品经理贴近客户、先搞清问题再想方案的基础原则不仅没变，反而比以往任何时候都更重要。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -94,24 +122,21 @@ tags:
 
 **顺着「产品方法」挖下去**
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
-- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]] —— 同公司:GitHub、Slack · 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
+- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)</span>
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub、Slack · 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)</span>
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 原生公司 · 公司操作系统 · 非工程师写代码 · PM 角色演变 · 智能体自动化*
-
 <script>
 (function(){
   function move(){

@@ -43,11 +43,15 @@ tags:
 
 聊完那组翻三倍的数字,先要回答的问题是:既然 AI 在数字世界已经那么成功,为什么迟迟没有铺到物理世界?Sanjit 的判断是,这完全合理:数字世界有几十年的数据沉淀,训练 AI 需要的数万亿个 token(语言模型处理文本的基本单位)唾手可得;物理世界则既混乱又涉及硬件,设备得在恶劣环境里扛得住、通过不靠谱的网络传数据、还要让数百万一线工人真正用起来 <button class="pd-ts" data-t="05:04" data-who="Sanjit Biswas" data-en="Or is the physical world just like a different set of challenges altogether? I think it makes complete sense where all of this AI wave has started, which is in the digital world." aria-label="回原文"></button>。门槛高,但回报也大——这些行业占了全球 GDP 的 40% 到 50% <button class="pd-ts" data-t="05:53" data-who="Sanjit Biswas" data-en="All that being said, it's a massive part of the global economy, right? All these industries, they make up about 40, 50% of world GDP. And so it's an area where you can have tremendous impact, but you have to really roll up your sleeves and get much more involved than kind of connecting to a large database that may have already existed." aria-label="回原文"></button>。
 
-更关键的是,物理世界错了代价极高。建筑工地里到处是多吨位的土方设备,能见度又低,操作员和现场人员都在承担真实风险 <button class="pd-ts" data-t="06:44" data-who="Sanjit Biswas" data-en="But really practically, the physical world is a pretty dangerous place. Think about a construction job site, right? There's a lot of like earth moving equipment, multi-ton, right?" aria-label="回原文"></button>。所以 Sanjit 他们的出发点是:风险本身不是拦路虎,而是机会——能不能用数据让它不那么危险?他给了一组直观的数字:光去年,他们的系统帮助避免了约 38 万起车祸 <button class="pd-ts" data-t="09:15" data-who="Sanjit Biswas" data-en="And in terms of impact, that's the other sort of set of data points we look at, which is like, well, how is all this technology having impact in the world? we believe we helped prevent about 380,000 car crashes, road accidents in the last year." aria-label="回原文"></button>,手段包括检测司机是否疲劳、是否在看手机,甚至提醒那大约 10% 不系安全带的美国司机系上安全带 <button class="pd-ts" data-t="10:40" data-who="Sanjit Biswas" data-en="of when we see, you know, kind of the risk increasing, we can provide some real-time feedback and that helps them be much more alert, much more aware. And we can also coach away some of the bad habits that people develop." aria-label="回原文"></button>。
+更关键的是,物理世界错了代价极高。建筑工地里到处是多吨位的土方设备,能见度又低,操作员和现场人员都在承担真实风险 <button class="pd-ts" data-t="06:44" data-who="Sanjit Biswas" data-en="But really practically, the physical world is a pretty dangerous place. Think about a construction job site, right? There's a lot of like earth moving equipment, multi-ton, right?" aria-label="回原文"></button>。
+
+所以 Sanjit 他们的出发点是:风险本身不是拦路虎,而是机会——能不能用数据让它不那么危险?他给了一组直观的数字:光去年,他们的系统帮助避免了约 38 万起车祸 <button class="pd-ts" data-t="09:15" data-who="Sanjit Biswas" data-en="And in terms of impact, that's the other sort of set of data points we look at, which is like, well, how is all this technology having impact in the world? we believe we helped prevent about 380,000 car crashes, road accidents in the last year." aria-label="回原文"></button>,手段包括检测司机是否疲劳、是否在看手机,甚至提醒那大约 10% 不系安全带的美国司机系上安全带 <button class="pd-ts" data-t="10:40" data-who="Sanjit Biswas" data-en="of when we see, you know, kind of the risk increasing, we can provide some real-time feedback and that helps them be much more alert, much more aware. And we can also coach away some of the bad habits that people develop." aria-label="回原文"></button>。
 
 说完了「为什么做」,接下来是他具体怎么做。主持人把 Samsara 的架构拆成了三层:传感器是耳朵和眼睛(硬件层),AI 是大脑,智能体(agentic layer,能自主规划并执行任务的 AI 层)是手臂。Sanjit 基本认同,但补了一句:每一层都有「连接组织」 <button class="pd-ts" data-t="16:28" data-who="Sanjit Biswas" data-en="Yeah. And I would say, you know, every single one of those layers has some connective tissue attached to it. So if you think about the hardware, I've got hardware on my desk, of course." aria-label="回原文"></button>。
 
-硬件层里,他在镜头前举了两个例子。一个是[[资产标签|资产标签]](asset tag),贴在建筑设备上,里面有加速度计和工业级蓝牙,用电池能撑三年,「你用卡车从它上面碾过去,它会继续运行」 <button class="pd-ts" data-t="17:02" data-who="Sanjit Biswas" data-en="It's got a battery inside, and then it's built to be super tough. So you can beat this thing up. You can drive over it with the truck, and it'll continue to operate." aria-label="回原文"></button>。另一个是刚发布的一次性追踪贴纸,像贴纸一样薄,能持续约 45 天,够走完一趟单向运输,里面不用锂电池,用完即弃 <button class="pd-ts" data-t="19:52" data-who="Sanjit Biswas" data-en="That's the one you just launched in Vegas a few weeks ago. Exactly. So these last about 45 days or so." aria-label="回原文"></button>。这些标签怎么联网?他的答案是「社区效应」:数百万辆跑着 Samsara 系统的车和数千万部手机,会互相中继信号——就像 Apple AirTag 的消费端逻辑,但做成了工业级 <button class="pd-ts" data-t="20:55" data-who="Sanjit Biswas" data-en="And then we have the network, which is essentially, think about the millions of vehicles on the road, all the people running the Samsara stack. They form a community and relay signals for each other." aria-label="回原文"></button>。
+硬件层里,他在镜头前举了两个例子。一个是[[资产标签|资产标签]](asset tag),贴在建筑设备上,里面有加速度计和工业级蓝牙,用电池能撑三年,「你用卡车从它上面碾过去,它会继续运行」 <button class="pd-ts" data-t="17:02" data-who="Sanjit Biswas" data-en="It's got a battery inside, and then it's built to be super tough. So you can beat this thing up. You can drive over it with the truck, and it'll continue to operate." aria-label="回原文"></button>。
+
+另一个是刚发布的一次性追踪贴纸,像贴纸一样薄,能持续约 45 天,够走完一趟单向运输,里面不用锂电池,用完即弃 <button class="pd-ts" data-t="19:52" data-who="Sanjit Biswas" data-en="That's the one you just launched in Vegas a few weeks ago. Exactly. So these last about 45 days or so." aria-label="回原文"></button>。这些标签怎么联网?他的答案是「社区效应」:数百万辆跑着 Samsara 系统的车和数千万部手机,会互相中继信号——就像 Apple AirTag 的消费端逻辑,但做成了工业级 <button class="pd-ts" data-t="20:55" data-who="Sanjit Biswas" data-en="And then we have the network, which is essentially, think about the millions of vehicles on the road, all the people running the Samsara stack. They form a community and relay signals for each other." aria-label="回原文"></button>。
 
 数据进来后要清洗、组织,才能喂给 AI;否则「给 AI 提供非常嘈杂的数据,信噪比就低了」 <button class="pd-ts" data-t="17:44" data-who="Sanjit Biswas" data-en="And that's what's going to feed the AI. Because if you give the AI pretty noisy data, you'll get, you know, it's like less signal noise ratio. So we need to get clean data in." aria-label="回原文"></button>。这里他用了一个很生动的例子说明智能体层怎么「动手」:如果纽约下雨了,系统可以自动要求当地整个车队增加跟车距离,天晴再调回来;这种事以前需要人工盯几千辆车的设置,根本不现实,现在 AI 能大规模、一致地完成 <button class="pd-ts" data-t="18:15" data-who="Sanjit Biswas" data-en="right like that's where we we store it we operate on it um you can surface those insights to the end user or the agentic pieces you can just take an action right um maybe change a safety setting right like say hey we're gonna ask our entire fleet in uh new york because it's raining to increase the following distance versus on a bright sunny day" aria-label="回原文"></button>。
 
@@ -55,9 +59,15 @@ tags:
 
 > 【背景】Sanjit 在 42:21 和 44:36 提到「Fable 5」「GPT-SOL」「Gemma 4」等模型名,均属语音识别对 Llama 5、GPT-o1、Gemma 2 等模型的误写。按规则,正文中不专门标注纠正,金句英文侧照转写稿原样保留。此处提示一次,帮读者对齐。
 
-[[生成式 AI|生成式 AI]] 的到来,让原本必须人工的环节被大规模替代。Sanjit 举例:司机猛踩刹车,想当然的判断是他分心了;但如果看视频片段,可能发现他其实是在躲避一头鹿——这就从批评变成了表扬 <button class="pd-ts" data-t="34:25" data-who="Sanjit Biswas" data-en="and that's the kind of work that might have been done overseas in lower-cost geos or something like that, you can now do at much more volume in the cloud using these models." aria-label="回原文"></button>。这类原本要靠海外低成本人工审核员逐条看的工作,现在用视频大模型(VLM)在云端就能更高吞吐地完成 <button class="pd-ts" data-t="34:06" data-who="Sanjit Biswas" data-en="We use generative in a few different ways. I would say if we think about the overall class of models, yes, you can now reason about video. So what would have required a human-in-the-loop reviewer..." aria-label="回原文"></button>。更进一步,他们还能用生成式 AI 生成教练视频,化身可以是那家公司真实的安全副总裁,用来给司机做每周辅导——因为「大多数客户受限于能进行的人际互动数量」 <button class="pd-ts" data-t="35:25" data-who="Sanjit Biswas" data-en="On the generative side of actually being able to create video, that's also very interesting because from a coaching perspective, most of our customers are bottlenecked on the number of human-to-human interactions they can have." aria-label="回原文"></button>。
+[[生成式 AI|生成式 AI]] 的到来,让原本必须人工的环节被大规模替代。Sanjit 举例:司机猛踩刹车,想当然的判断是他分心了;但如果看视频片段,可能发现他其实是在躲避一头鹿——这就从批评变成了表扬 <button class="pd-ts" data-t="34:25" data-who="Sanjit Biswas" data-en="and that's the kind of work that might have been done overseas in lower-cost geos or something like that, you can now do at much more volume in the cloud using these models." aria-label="回原文"></button>。
 
-工具变了,人怎么办?这正是下一个话题。主持人追问:装个时刻盯着司机的摄像头,不就是「老大哥在看着你」吗?Sanjit 的回答很反直觉:行车记录仪最主要、最大的用途,其实是帮司机洗脱嫌疑。比如家得宝这种知名品牌,常被碰瓷说卡车撞了人;有了高清视频证据,谁对谁错一目了然。他强调,司机 90% 的时间都在好好开车却没人看见,这套系统反而是在放大正向行为 <button class="pd-ts" data-t="46:47" data-who="Sanjit Biswas" data-en="Something people don't often think of is, you know, if you have a dash camera, what is it used for? The majority use case is actually exoneration. So what I mean by that is helping explain what happened if there was an accident." aria-label="回原文"></button>。关键在于透明:摄像头不是隐藏式的,要一开始就跟一线讲清楚它做什么、不做什么、数据怎么用——这是赢得整个组织信任的方式 <button class="pd-ts" data-t="49:36" data-who="Sanjit Biswas" data-en="And by the way, our cameras are not hidden cameras. They're quite visible. So it's not like a secret sort of recording device." aria-label="回原文"></button>。
+这类原本要靠海外低成本人工审核员逐条看的工作,现在用视频大模型(VLM)在云端就能更高吞吐地完成 <button class="pd-ts" data-t="34:06" data-who="Sanjit Biswas" data-en="We use generative in a few different ways. I would say if we think about the overall class of models, yes, you can now reason about video. So what would have required a human-in-the-loop reviewer..." aria-label="回原文"></button>。更进一步,他们还能用生成式 AI 生成教练视频,化身可以是那家公司真实的安全副总裁,用来给司机做每周辅导——因为「大多数客户受限于能进行的人际互动数量」 <button class="pd-ts" data-t="35:25" data-who="Sanjit Biswas" data-en="On the generative side of actually being able to create video, that's also very interesting because from a coaching perspective, most of our customers are bottlenecked on the number of human-to-human interactions they can have." aria-label="回原文"></button>。
+
+工具变了,人怎么办?这正是下一个话题。
+
+主持人追问:装个时刻盯着司机的摄像头,不就是「老大哥在看着你」吗?Sanjit 的回答很反直觉:行车记录仪最主要、最大的用途,其实是帮司机洗脱嫌疑。
+
+比如家得宝这种知名品牌,常被碰瓷说卡车撞了人;有了高清视频证据,谁对谁错一目了然。他强调,司机 90% 的时间都在好好开车却没人看见,这套系统反而是在放大正向行为 <button class="pd-ts" data-t="46:47" data-who="Sanjit Biswas" data-en="Something people don't often think of is, you know, if you have a dash camera, what is it used for? The majority use case is actually exoneration. So what I mean by that is helping explain what happened if there was an accident." aria-label="回原文"></button>。关键在于透明:摄像头不是隐藏式的,要一开始就跟一线讲清楚它做什么、不做什么、数据怎么用——这是赢得整个组织信任的方式 <button class="pd-ts" data-t="49:36" data-who="Sanjit Biswas" data-en="And by the way, our cameras are not hidden cameras. They're quite visible. So it's not like a secret sort of recording device." aria-label="回原文"></button>。
 
 最后,把视角拉远。Sanjit 对自动驾驶卡车的判断比 Robotaxi 谨慎得多:Robotaxi 区域化、场景相似,会更快普及;但路上跑的大多数商用车其实是 HVAC 技术员、水管工、建筑队这些「极其混乱的长尾」 <button class="pd-ts" data-t="55:31" data-who="Sanjit Biswas" data-en="And so that's, I think, where you're going to see the biggest sort of like visible impact of autonomous vehicles. On the trucking side, it's also important to realize like there's long haul trucking and kind of like moving stuff from point A to point B." aria-label="回原文"></button>,水泥搅拌车、垃圾车这些特种设备的高度定制化,注定了自动驾驶向这些边缘渗透的扩散曲线会更长,「可能需要 10 年、20 年」 <button class="pd-ts" data-t="56:05" data-who="Sanjit Biswas" data-en="It's like the really messy long tail. So for that reason, we think the adoption might be a bit slower, but it's not like a no, it's just, it might take 10, 20 years." aria-label="回原文"></button>。
 
@@ -65,7 +75,9 @@ tags:
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三层认知。第一,物理 AI 是一片跟数字 AI 完全不同的战场:这里没有现成的海量文本可训练,设备要在恶劣环境里扛住,错误代价极高,但正因为苦,它锁住了全球 GDP 四到五成的价值,谁把数据采上来、洗干净、喂给模型,谁就拿到了别人抢不走的护城河——毕竟建筑工地上发生了什么,你没法从网上爬到。第二,真正的杠杆不是单点自动化,而是硬件、云端和智能体拼成闭环:从能被卡车碾过的资产标签,到边缘实时提醒司机,再到云端自动调全城的跟车距离,最后由智能体把保修索赔这种原本一两个小时的人工活压到一分钟以内。第三,在物理世界部署 AI,最难的不是算法,而是信任:司机接受时刻盯着自己的摄像头,不是因为监控,而是因为这套系统 90% 的时间在帮他们证明「我做对了」,把正向行为放大,用透明换一线的买单。
+最后收个尾,这一集值得带走的是三层认知。第一,物理 AI 是一片跟数字 AI 完全不同的战场:这里没有现成的海量文本可训练,设备要在恶劣环境里扛住,错误代价极高,但正因为苦,它锁住了全球 GDP 四到五成的价值,谁把数据采上来、洗干净、喂给模型,谁就拿到了别人抢不走的护城河——毕竟建筑工地上发生了什么,你没法从网上爬到。
+
+第二,真正的杠杆不是单点自动化,而是硬件、云端和智能体拼成闭环:从能被卡车碾过的资产标签,到边缘实时提醒司机,再到云端自动调全城的跟车距离,最后由智能体把保修索赔这种原本一两个小时的人工活压到一分钟以内。第三,在物理世界部署 AI,最难的不是算法,而是信任:司机接受时刻盯着自己的摄像头,不是因为监控,而是因为这套系统 90% 的时间在帮他们证明「我做对了」,把正向行为放大,用透明换一线的买单。
 
 <div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
@@ -92,24 +104,21 @@ tags:
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:Meta · 同概念:智能体 (agents)
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)</span>
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agents)</span>
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:护栏 (guardrails)、智能体 (agents)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同概念:智能体 (agents)、护栏 (guardrails)
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agents)</span>
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)</span>
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同概念:智能体 (agents)、护栏 (guardrails)</span>
 
 </div>
 </div>
-
-*本集关键词:物理 AI · 智能体 · 传统行业数字化 · 数据护城河 · 自动化卡车*
-
 <script>
 (function(){
   function move(){

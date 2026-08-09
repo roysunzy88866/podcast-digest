@@ -59,12 +59,16 @@ tags:
 
 > 【背景】Jason 提到这些智能体目前底层大多跑在 Claude 4 上。Claude 4 是 Anthropic 在 2025 年中发布的大模型，Jason 认为 2024 年那些 AI 销售工具之所以不好用，很大程度是因为模型能力没到位，而 2025 年越过这个门槛后，能力终于足够撑起真实的业务场景了 <button class="pd-ts" data-t="35:26" data-who="Jason Lemkin" data-en="At the end of the day, Lenny, these are all running on Claude 4. They're all basically using a bunch of APIs mashed together. That's not new to software, mashing a bunch of APIs under the hood." aria-label="回原文"></button>。
 
-既然必须亲自下场，选工具的逻辑就全变了。别再列个功能对比表去比哪家技术强了。你得多问一句：谁能派一个 FDE（Forward Deployed Engineer，前线部署工程师）来手把手陪我上线？Jason 当初选 Artisan，不是因为它是当时绝对的第一名，而是因为另一家大厂的 CRO 跟他开口就要 10 万美元才肯帮，还有家怕做砸了影响名声直接拒绝，只有 Artisan 愿意陪着他们一行一行地改邮件 <button class="pd-ts" data-t="33:09" data-who="Jason Lemkin" data-en="So we didn't know what to use. And I'll tell you some learning. So we picked a YC company called Artisan." aria-label="回原文"></button>。在必须重训的前提下，最牛的软件如果不帮你落地，对你就是零价值。
+既然必须亲自下场，选工具的逻辑就全变了。别再列个功能对比表去比哪家技术强了。
+
+你得多问一句：谁能派一个 FDE（Forward Deployed Engineer，前线部署工程师）来手把手陪我上线？Jason 当初选 Artisan，不是因为它是当时绝对的第一名，而是因为另一家大厂的 CRO 跟他开口就要 10 万美元才肯帮，还有家怕做砸了影响名声直接拒绝，只有 Artisan 愿意陪着他们一行一行地改邮件 <button class="pd-ts" data-t="33:09" data-who="Jason Lemkin" data-en="So we didn't know what to use. And I'll tell you some learning. So we picked a YC company called Artisan." aria-label="回原文"></button>。在必须重训的前提下，最牛的软件如果不帮你落地，对你就是零价值。
 
 ## 别自己造轮子，但也不是所有环节都该交给 AI
 工具变了，人对工具的幻想也得掐灭。很多公司（哪怕是市值百亿的上市巨头）想搞 AI 销售，居然只是买个工具，然后直接扔给那帮连产品是啥都没搞懂的年轻 SDR，指望奇迹发生 <button class="pd-ts" data-t="24:54" data-who="Jason Lemkin" data-en="And we did a call with their team and they're like, &quot;We want to figure out this AI SDR stuff.&quot; We're like, &quot;Great. We think we're just going to buy this tool and just give it to our SDRs to figure it out on their own.&quot;" aria-label="回原文"></button>。
 
-更实际的问题是：到底什么该交给 AI，什么不该碰？Jason 的原则非常清晰。首先，别自己造智能体。哪怕你是 [[Replit|Replit]] 的重度用户（Jason 自己就在上面用纯自然语言敲了 12 个应用），也别为了省钱去自己写一个专门用来搞销售开发的智能体。这块技术迭代太快，你花大价钱养人写出来的东西，几个月就过时了 <button class="pd-ts" data-t="29:21" data-who="Jason Lemkin" data-en="Could all this stuff be built yourself? It's the same idea of building your own Notion. You could do it, but don't do it." aria-label="回原文"></button>。
+更实际的问题是：到底什么该交给 AI，什么不该碰？Jason 的原则非常清晰。
+
+首先，别自己造智能体。哪怕你是 [[Replit|Replit]] 的重度用户（Jason 自己就在上面用纯自然语言敲了 12 个应用），也别为了省钱去自己写一个专门用来搞销售开发的智能体。这块技术迭代太快，你花大价钱养人写出来的东西，几个月就过时了 <button class="pd-ts" data-t="29:21" data-who="Jason Lemkin" data-en="Could all this stuff be built yourself? It's the same idea of building your own Notion. You could do it, but don't do it." aria-label="回原文"></button>。
 
 其次，对那些客单价极高、可能带来几百万美元收入的大单，不要用 AI。如果你只有 50 个绝对要拿下的核心客户，你在白板上列出名字，派你最顶尖的三个销售去「死磕」，这才是正道。如果需要，顶多让 Claude 帮你把写给大客户的邮件润色一下，但绝不能让智能体替你去跑量 <button class="pd-ts" data-t="47:55" data-who="Jason Lemkin" data-en="Is this just where go-to-market salespeople still can exist, this much better email, or is that also going to go away? Look, if you have a high-performing human team hunting high dollar value logos, and this is classic stuff, Lenny and I and Jen are in a conference room, we put a whiteboard of the 50 best folks that we want to sponsor Lenny's podcast." aria-label="回原文"></button>。
 
@@ -75,7 +79,9 @@ tags:
 
 在这种大环境下，那个刚毕业、只会按话术发邮件的初级 SDR，以及那个专门在后台给人做资格审查的 BDR，一年内会大面积消失 <button class="pd-ts" data-t="20:37" data-who="Jason Lemkin" data-en="It doesn't feel good to be qualified, does it? They will be mostly extinct next year. I'm guessing with your ... Now the AE, the classic human doing the sales, most of the tools aren't there yet for the most part." aria-label="回原文"></button>。更狠的是，那个总在绩效考核表上写自己「善于交际、很会来事儿销售老哥」也危险了。Jason 反问：当你购买一款 AI 产品，指望它在试点期间就必须出成果时，光靠「会跟人称兄道弟」已经不够看了，真正值钱的是能解答最难技术异议的人 <button class="pd-ts" data-t="70:38" data-who="Jason Lemkin" data-en="What are the toughest technical objections you have at your product? What? What?" aria-label="回原文"></button>。
 
-不过，这不代表销售这行要绝迹。随着那些增长极快的 AI 公司（比如 ElevenLabs 50% 的营收已经来自企业客户）不可避免地走向企业级市场，他们仍然在疯狂招人。只是未来的好职位，不再属于只会发邮件的「人肉发信机」，而是属于那种能管好 10 个智能体、帮公司赚几百万美元的编排者。这样的 SDR 一年能拿 25 万美元，因为他们顶得上过去 10 个人 <button class="pd-ts" data-t="77:54" data-who="Jason Lemkin" data-en="And I believe, I hope, actually be better paid. I've talked about that we should have $250,000 a year SDRs, but they'd be like at Vercel, they'd be managing 10 agents, not 10 people." aria-label="回原文"></button>。
+不过，这不代表销售这行要绝迹。随着那些增长极快的 AI 公司（比如 ElevenLabs 50% 的营收已经来自企业客户）不可避免地走向企业级市场，他们仍然在疯狂招人。
+
+只是未来的好职位，不再属于只会发邮件的「人肉发信机」，而是属于那种能管好 10 个智能体、帮公司赚几百万美元的编排者。这样的 SDR 一年能拿 25 万美元，因为他们顶得上过去 10 个人 <button class="pd-ts" data-t="77:54" data-who="Jason Lemkin" data-en="And I believe, I hope, actually be better paid. I've talked about that we should have $250,000 a year SDRs, but they'd be like at Vercel, they'd be managing 10 agents, not 10 people." aria-label="回原文"></button>。
 
 那么，在这场巨变中，无论是想保住饭碗的打工人，还是想抢市场的创业公司，到底该怎么做？这正是接下来要说的实操建议。
 
@@ -90,7 +96,9 @@ tags:
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三层认知。第一，别再把智能体当成一个即插即用的工具软件，它是个需要你拿最好的销售话术去喂养、每天盯着一两个小时纠错的数字员工，熬过一个月，它就是你最高效的分身；而当你买工具时，别看功能参数，要看谁的工程师愿意手把手陪你上线。第二，销售的洗牌已经开始了，那个只会发邮件、只会套近乎的岗位正在消亡，真正值钱的是能统筹调教智能体、或者能搞定复杂大客户的顶尖高手。第三，也是给所有创业者的当头棒喝：不管你的产品多牛，如果客户在试点阶段看不到 ROI，这单就成不了，你得把人派到现场去，保证客户掏钱之前你的智能体已经在替他赚钱了。
+最后收个尾，这一集值得带走的是三层认知。第一，别再把智能体当成一个即插即用的工具软件，它是个需要你拿最好的销售话术去喂养、每天盯着一两个小时纠错的数字员工，熬过一个月，它就是你最高效的分身；而当你买工具时，别看功能参数，要看谁的工程师愿意手把手陪你上线。
+
+第二，销售的洗牌已经开始了，那个只会发邮件、只会套近乎的岗位正在消亡，真正值钱的是能统筹调教智能体、或者能搞定复杂大客户的顶尖高手。第三，也是给所有创业者的当头棒喝：不管你的产品多牛，如果客户在试点阶段看不到 ROI，这单就成不了，你得把人派到现场去，保证客户掏钱之前你的智能体已经在替他赚钱了。
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
@@ -133,22 +141,19 @@ tags:
 
 **顺着「增长与销售」挖下去**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Vercel · 同概念:推向市场 (go-to market)、智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Vercel · 同概念:推向市场 (go-to market)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Replit · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:前置部署工程师 (Forward Deployed Engineer)、智能体 (agent)
-- [[2026-07-08-talks-everything-we-knew-about-software-has-ch|别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖]] —— 同公司:Vercel · 同概念:编排 (orchestration)
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:前置部署工程师 (Forward Deployed Engineer)、智能体 (agent)</span>
+- [[2026-07-08-talks-everything-we-knew-about-software-has-ch|别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖]]<span class="pd-rz">同公司:Vercel · 同概念:编排 (orchestration)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 销售 · GTM 自动化 · 智能体部署 · 销售职业前景 · AI 时代创业*
-
 <script>
 (function(){
   function move(){

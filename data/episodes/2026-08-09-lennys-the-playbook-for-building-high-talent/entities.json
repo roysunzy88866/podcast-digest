@@ -1,0 +1,860 @@
+{
+  "episode_id": "2026-08-09-lennys-the-playbook-for-building-high-talent",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-09",
+  "tags": [
+    "顶尖人才招聘",
+    "厄运漏斗",
+    "前置部署工程师(FDE)",
+    "候选人体验",
+    "人才密度"
+  ],
+  "categories": [
+    "组织与领导力",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            39.751,
+            44.853
+          ],
+          "quote": "The mistake that most companies make is they'll say, \"Hey, Lenny, who's the best product engineer you know?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 14,
+          "t": [
+            46.814,
+            62
+          ],
+          "quote": "The better question to ask is, \"Hey, Lenny, of all the product engineers you've worked with, who stands out to you as the person who's most collaborative with designers or who can translate a framework into a product better than anyone you've ever seen?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            167.152,
+            178.917
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a free year of the hottest and most beautifully crafted AI products in the world available exclusively to Lenny's Newsletter subscribers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1250.844,
+            1261.688
+          ],
+          "quote": "But I think the mistake though, and that's an obvious point, but the mistake that most companies make is they'll say, \"Hey, Lenny, who's the best product engineer you know?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1265.449,
+            1282.515
+          ],
+          "quote": "The better question to ask is, \"Hey, Lenny, of all the product engineers you worked with, who stands out to you as the person who's most collaborative with designers or who can translate a framework into a product better than anyone you've ever seen?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1311.953,
+            1315.897
+          ],
+          "quote": "You're like, \"Ah, Lenny mentioned them, but so did Sally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 892,
+          "t": [
+            4639.805,
+            4653.273
+          ],
+          "quote": "And so when I would go out to my network and I'm like, \"Hey Lenny, who are three people you know that are excellent humans and excellent recruiters, they just have this natural drive or chip on their shoulder, and they put team above themselves?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "adam-ward",
+      "type": "person",
+      "role": "cohost",
+      "name": "Adam Ward",
+      "file": "Adam Ward",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            93,
+            94.401
+          ],
+          "quote": "Today, my guest is Adam Ward.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            179.538,
+            181.699
+          ],
+          "quote": "With that, I bring you Adam Ward.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集嘉宾 Adam Ward 现任该公司的负责人才高管,节目中详细分享了 Cursor 如何用「把每次招聘当高管招」的方式组建极高人才密度的团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            101.744,
+            117.05
+          ],
+          "quote": "He co-founded an independent recruiting firm called Growth by Design, which Cursor acquired fully last year, which is not something that you often hear and is a testament to how good he and his team are and how important talent is right now in today's market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            117.51,
+            123.053
+          ],
+          "quote": "Adam is now head of talent at Cursor, helping them scale and build one of the most talent-dense teams in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 61,
+          "t": [
+            338.782,
+            345.544
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 73,
+          "t": [
+            410.087,
+            417.053
+          ],
+          "quote": "And you have a really unique perspective because not only you're at Cursor now, but before that you had your own independent agency working with a ton of different companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 85,
+          "t": [
+            503.131,
+            524.78
+          ],
+          "quote": "So I think the people who are maybe very narrow, very deep and overly specialized in a way are waning in the same way along that vein might also be the new grad who just hasn't had enough experience to be able to do that, where a product like Cursor or others can do some of that work right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1775.503,
+            1783.651
+          ],
+          "quote": "Luckily, there's this incredible post out there about how Cursor approaches hiring by Brie Wolfson that was very helpful in helping me prep for this talk.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1784.111,
+            1790.417
+          ],
+          "quote": "And another tactic that she shared of how Cursor finds the best people is there's a Slack channel called Hiring Ideas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2070.02,
+            2075.585
+          ],
+          "quote": "When you reach out to someone, imagine working at Cursor now as part of SpaceX, it's like, \"Oh, this is interesting and cool.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2523.641,
+            2529.287
+          ],
+          "quote": "We want people to feel that when they walk into the offices of Cursor and that is a priceless moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2560.481,
+            2569.436
+          ],
+          "quote": "Along these lines of breaking bread in home court, I know this might be one of the reasons you guys have a Cafe Cursor right there near the office, and now it's happening all over the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2588.529,
+            2593.732
+          ],
+          "quote": "And if you've been in the Cursor offices, it almost feels like you're in a Hogwarts Library.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2618.168,
+            2621.391
+          ],
+          "quote": "That is sometimes how I describe Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2925.621,
+            2931.194
+          ],
+          "quote": "I just remembered actually, I had a friend applying for a job at Cursor and he said it was the best candidate experience he's ever had.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3993.379,
+            3996.16
+          ],
+          "quote": "And so when we met Cursor, we're like, \"This could be fun.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3997.08,
+            4005.447
+          ],
+          "quote": "Cursor is actually such a great example of exactly what you're describing because it feels like throughout the entire history of Cursor, it was always just like, how are they going to survive?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 769,
+          "t": [
+            4011.693,
+            4020
+          ],
+          "quote": "And it's been incredible to watch Cursor execute and get ahead of each of these shifts whenever people doubt that there's an opportunity here and it just keeps growing and killing it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4085.91,
+            4090.891
+          ],
+          "quote": "The Cursor team hired their first 80 people, roughly 80 people on their own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4528.364,
+            4532.625
+          ],
+          "quote": "And so the Cursor way demanded a different type of team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 916,
+          "t": [
+            4756.449,
+            4761.513
+          ],
+          "quote": "We'll send them a Cursor laptop, because it feels like a presumptive you've joined kind of way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4818.535,
+            4825.6
+          ],
+          "quote": "The things that recruiters now have at their fingertips that they could build in Cursor or other tools is really phenomenal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            5043.63,
+            5047
+          ],
+          "quote": "Your favorite product you've recently discovered that you really love other than Cursor?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            5087,
+            5088
+          ],
+          "quote": "Subscribers to my newsletter get a year free of not only Cursor, but also Granola and Wispr Flow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1031,
+          "t": [
+            5110.201,
+            5114.413
+          ],
+          "quote": "It's just we have all the best products for free for a freaking year, including Cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            5310.521,
+            5315.923
+          ],
+          "quote": "I mean, I would love people to try Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            5351.521,
+            5361.511
+          ],
+          "quote": "Just to plug Cursor a little bit, not only is just the design and experience of Cursor awesome, the best feature for a lot of people is you could just switch between models extremely easily.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            5361.871,
+            5370.8
+          ],
+          "quote": "So instead of getting hooked on Codex or Claude Code, you use Cursor and then a new Opus comes out, a new GPT comes out and you could switch and just play around with it immediately versus switching the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            5393.775,
+            5401.98
+          ],
+          "quote": "And so it really comes around optimization of using the right model for the right task, and so that's just landing it to Cursor's sweet spot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            5409,
+            5409
+          ],
+          "quote": "A whole new world for Cursor, holy moly.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "growth-by-design",
+      "type": "company",
+      "role": "company",
+      "name": "Growth by Design",
+      "file": "Growth by Design",
+      "primary": true,
+      "how_described": "本集嘉宾 Adam Ward 联合创办的独立招聘公司,后来被 Cursor 全资收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            101.744,
+            117.05
+          ],
+          "quote": "He co-founded an independent recruiting firm called Growth by Design, which Cursor acquired fully last year, which is not something that you often hear and is a testament to how good he and his team are and how important talent is right now in today's market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3931.98,
+            3937.402
+          ],
+          "quote": "And we had this thesis when I was at Growth by Design around, we think there's this different way to do this.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它在当前极度激烈的招聘市场里是 Cursor 竞争对手,会给候选人开出天价薪资 offer,且传闻不让候选人谈判薪酬。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            338.782,
+            345.544
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3263.827,
+            3273.314
+          ],
+          "quote": "Okay, so say you made an offer to one of these top 50 people and they're like, \"Okay, but I also got this offer from Anthropic for a bazillion dollars.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3337.837,
+            3344.92
+          ],
+          "quote": "So we might think about how we would differentiate against Anthropic size wise or the role or the team or the people you work with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3474.2,
+            3481.149
+          ],
+          "quote": "Something that I've heard Anthropic does that I've never heard anyone do, similar to Tesla, they don't let you negotiate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3483.412,
+            3487.677
+          ],
+          "quote": "Do you feel like that's an only Anthropic thing that they could do because they're just Anthropic?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集提到嘉宾 Adam Ward 曾在此领导全球招聘团队,帮助其技术组织从 1000 人扩展到超过 10000 人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            130.876,
+            139.06
+          ],
+          "quote": "And before that, he led a global team of 65 recruiters across 10 offices at Facebook, helping them scale Facebook's tech org from 1,000 to over 10,000 employees.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3660.02,
+            3670.764
+          ],
+          "quote": "And I remember I helped build out the research group at Facebook before... they'd just not hire PhDs, even advanced degrees really much at all.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pinterest",
+      "type": "company",
+      "role": "company",
+      "name": "Pinterest",
+      "file": "Pinterest",
+      "primary": false,
+      "how_described": "本集提到嘉宾 Adam Ward 曾在此负责全球招聘,将公司从 200 人发展到超过 2000 名员工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            123.553,
+            130.436
+          ],
+          "quote": "Prior to starting his own firm, Adam led global recruiting at Pinterest, growing the company from 200 to over 2,000 employees.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "funnel-of-doom",
+      "type": "concept",
+      "role": "concept",
+      "name": "厄运漏斗 (funnel of doom)",
+      "file": "厄运漏斗",
+      "primary": true,
+      "how_described": "本集把它说成:传统招聘中广撒网不断筛人的模式,由于回复的只是刚好那天心情不好的人,最后只能录用次优平庸的剩下货。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.996,
+            9.699
+          ],
+          "quote": "Something you call the funnel of doom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            32.489,
+            39.511
+          ],
+          "quote": "And you relentlessly pursue and you focus your energy on activating those people, not trying to find them out of the funnel of doom.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 129,
+          "t": [
+            712.556,
+            716.318
+          ],
+          "quote": "Let's start with something you call the funnel of doom hiring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 130,
+          "t": [
+            716.739,
+            717.919
+          ],
+          "quote": "Talk about the funnel of doom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 131,
+          "t": [
+            717.959,
+            719
+          ],
+          "quote": "What is the funnel of doom?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            827.538,
+            831.54
+          ],
+          "quote": "So this remainder hiring is the output of the funnel of doom.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2195.262,
+            2206.668
+          ],
+          "quote": "It's the extra intentionality that you take that I think in a very somewhat feeling like transactional business, like recruiting, if you're doing this step-by-step funnel of doom, you get caught up in the steps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2251.564,
+            2261.229
+          ],
+          "quote": "And I think the other thing that often happens when you get into this funnel of doom mentality is I think you become overly consistent in your hiring approach.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3711.843,
+            3716.96
+          ],
+          "quote": "Kind of along those lines to close out the funnel of, let's call it the funnel of joy instead of the funnel of doom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3898.04,
+            3901.582
+          ],
+          "quote": "Which is hard to do when you're doing at scale at the funnel of doom.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (forward-deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "本集把它说成:当下需求最旺的角色,一种能跟客户和销售直接对接、帮忙落地复杂技术产品的技术人员。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            424.28,
+            448.99
+          ],
+          "quote": "Yeah, I think one thing that's really in demand is this, and there's lots of different names for it, but this forward-deployed engineer, this technical person who can partner with a sales team and partner with a customer to deploy what can be for some audiences in a company, a very technical and maybe overwhelming product or helping companies think about moving from token maxing to optimizing, maxing to optimizing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 91,
+          "t": [
+            545.442,
+            554.528
+          ],
+          "quote": "It is that person who maybe was a full stack engineer in three to five years ago, is now maybe actually that forward-deployed engineer.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "talent-density",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才密度 (talent density)",
+      "file": "人才密度",
+      "primary": true,
+      "how_described": "本集把它说成:衡量团队卓越程度的集体性质,嘉宾认为它不是个人单项的叠加,而是互补团队拼图带来的整体 10 倍效能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.1,
+            5.912
+          ],
+          "quote": "You have built and are known as someone that can build the most elite, high-talent density teams.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            94.841,
+            101.223
+          ],
+          "quote": "Adam is known in the Valley as the most effective recruiting leader at building elite, high-talent density teams.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 125,
+          "t": [
+            693.225,
+            699.308
+          ],
+          "quote": "You have built and are known as someone that can build the most elite, high-talent density teams.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            704.431,
+            708.254
+          ],
+          "quote": "This is every company's and founder's dream, build the highest talent density team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            779.1,
+            790.945
+          ],
+          "quote": "But if you think about for a lot of companies who think about talent density, typically referrals and sourcing or activation of passive talent is really the focus.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1769,
+            1769.99
+          ],
+          "quote": "Funnel of talent density.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 812,
+          "t": [
+            4217.508,
+            4223.01
+          ],
+          "quote": "And so talent density is not a single piece, unless the numerator and denominator are both one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4227.371,
+            4232.113
+          ],
+          "quote": "And so talent density is actually a collective nature of individuals and humans.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "work-samples",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作样本 (work samples)",
+      "file": "工作样本",
+      "primary": true,
+      "how_described": "本集把它说成:研究已证明这是预测候选人能否胜任公司工作的最强信号,因此 Cursor 会安排候选人实地做长期的现场项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            2724.12,
+            2740.509
+          ],
+          "quote": "Yeah, some of it's a little fundamental, which is research has shown that work samples are the highest predictor of success at a company, but yet most companies are still spending a lot of time doing one-to-one across the table assessments.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "talent-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才工程师 (talent engineer)",
+      "file": "人才工程师",
+      "primary": true,
+      "how_described": "本集把它说成:招聘团队中可能是前工程师、专门构建内部工具的职能角色,嘉宾主张每个招聘人员未来都应该成为人才工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 932,
+          "t": [
+            4796.72,
+            4800.083
+          ],
+          "quote": "I think maybe the other trend, I think we see the rise of the talent engineer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4811.39,
+            4818.295
+          ],
+          "quote": "And my warm take, not a hot take, my warm take is every recruiter should be a talent engineer.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集提到 Cursor 已经从早期的 Tab 自动补全发展到了完全的云智能体,并提到其智能体允许用户为不同任务选择合适的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 674,
+          "t": [
+            3462.08,
+            3470.84
+          ],
+          "quote": "You should build an agent that helps you decide and figure that out, which company is the right fit for me right now in this time because that sounds really valuable to check that price.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            5383.448,
+            5388.651
+          ],
+          "quote": "And so our agent allows you to choose the right model.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "go-to-market",
+      "file": "go-to-market",
+      "primary": false,
+      "how_described": "本集提到招聘中的 Go to Market(市场推广/商业化)团队也会做面试挑战项目,让他们一起解决棘手客户的问题来作为评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 596,
+          "t": [
+            3075.04,
+            3078.176
+          ],
+          "quote": "What do you do for PMs or, I don't know, go-to-market or ops people?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3081.221,
+            3090.007
+          ],
+          "quote": "And so the go-to-market team does a challenge where they work through a challenge together, a challenging customer, things like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 944,
+          "t": [
+            4855.208,
+            4856.19
+          ],
+          "quote": "There's go-to-market engineers.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

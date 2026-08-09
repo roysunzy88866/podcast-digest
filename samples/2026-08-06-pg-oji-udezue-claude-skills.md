@@ -39,29 +39,65 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。</div>
 
-做了 25 年产品经理、当过 Typeform 和 Calendly 的 CPO,他最近才头一回觉得编程值得自己花时间——因为他发现 AI 现在不只能帮你写代码,还能在写代码之前就替你把关:这个产品到底该不该做。说这话的人是 [[Oji Udezue|Oji Udezue]],这一集 [[Aakash|Aakash]] 请他来现场演示怎么做到的。Oji 在 [[Product Mind|Product Mind]] 做咨询,帮助企业把产品改造成 [[AI 原生|AI 原生]]的。他聊了三件事:他做的一套给 [[Claude Code|Claude Code]] 用的产品判断技能,特别是其中最核心的「[[项目脚手架技能|项目脚手架技能]]」;怎么用这套技能做市场调研、可行性判断,甚至让 AI 直接告诉你某个点子不值得做;以及怎么进一步做原型、客户发现计划,把原本散落在 Notion、Figma 和 [[GitHub|GitHub]] 里的团队工作收拢到一个共享仓库里。结尾他还回答了一个很实际的问题:企业团队想这么干,最大的坑是什么。
+做了 25 年产品经理、当过 Typeform 和 Calendly 的 CPO,他最近才头一回觉得编程值得自己花时间——因为他发现 AI 现在不只能帮你写代码,还能在写代码之前就替你把关:这个产品到底该不该做。说这话的人是 [[Oji Udezue|Oji Udezue]],这一集 [[Aakash|Aakash]] 请他来现场演示怎么做到的。
 
-要说为什么这件事重要,先得看清 Oji 眼下的行业格局判断。GitHub 上充斥着给 AI 用的代码技能,要么帮你省 token,要么帮你改成本,全在代码层打转。但一家成功的科技公司其实有三层:软件、产品(关于客户和商业模式)、商业。Oji 在给大小公司做 AI 原生改造时,立刻看到一个现象:开发者如果用 AI 用得熟,提速非常快;但其他所有人——尤其产品经理——都成了瓶颈。PM 的产品判断和编排技能没跟上工程师的新速度 <button class="pd-ts" data-t="03:24" data-who="Oji Udezue" data-en="surely if they're early adopters, and then we see everyone else being a bottleneck. And particularly we see PMs who are not speeding up their product judgment, speeding up their orchestration skills to match the new speed of the engineers." aria-label="回原文"></button>。他管这叫「[[三速问题|三速问题]]」:过去四五十年,最慢的环节一直是开发,现在 AI 把开发提速了 10 倍甚至 20 倍,但「为什么做」和「交付给谁」这两头是受限于人的——你得跟客户聊,得跟市场打交道。中间突然变快,两头没变快,等式就失衡了 <button class="pd-ts" data-t="52:00" data-who="Oji Udezue" data-en="Correct. So what we, there's something we call the three speed problem. Which is for the past 40," aria-label="回原文"></button>。
+Oji 在 [[Product Mind|Product Mind]] 做咨询,帮助企业把产品改造成 [[AI 原生|AI 原生]]的。他聊了三件事:他做的一套给 [[Claude Code|Claude Code]] 用的产品判断技能,特别是其中最核心的「[[项目脚手架技能|项目脚手架技能]]」;怎么用这套技能做市场调研、可行性判断,甚至让 AI 直接告诉你某个点子不值得做;以及怎么进一步做原型、客户发现计划,把原本散落在 Notion、Figma 和 [[GitHub|GitHub]] 里的团队工作收拢到一个共享仓库里。结尾他还回答了一个很实际的问题:企业团队想这么干,最大的坑是什么。
 
-失衡怎么办?这正是 Oji 做这套技能要解决的。他的思路是给 AI 编程工具装上产品判断和商业技能。最典型的就是一个叫「项目脚手架技能」(scaffolding skill,脚手架指帮你自动搭起项目结构和流程的工具)的东西。它从一个商业问题描述开始,然后干一件你平时得跨部门才能干完的事:做市场调研,判断这问题值不值得解,做架构决策,设置测试,最后连持续集成(一种每次提交代码都自动跑测试的机制,英文缩写 CI)都替你配好 <button class="pd-ts" data-t="04:18" data-who="Oji Udezue" data-en="But the scaffolding skill is special because it starts with you describing a business problem. And then it really makes decisions, helps you make decisions," aria-label="回原文"></button>。主持人 Aakash 一眼看穿了它的本质:它就是个编排器,调用一堆其他技能、创建文档、走完一套 11 步的流程 <button class="pd-ts" data-t="11:30" data-who="Aakash" data-en="CodeMemo's core is an LLM Analyze and Repos are wired for clog with correct current model IDs. So the scaffolding skill is basically an orchestrator skill. It seems like it's calling some of these other skills," aria-label="回原文"></button>。Oji 自己做 CodeMemo 第一个版本时,就是用这套技能起的头 <button class="pd-ts" data-t="40:46" data-who="Oji Udezue" data-en="And then we will generate a set of X prototypes to evaluate what direction to take this in." aria-label="回原文"></button>。
+要说为什么这件事重要,先得看清 Oji 眼下的行业格局判断。GitHub 上充斥着给 AI 用的代码技能,要么帮你省 token,要么帮你改成本,全在代码层打转。
+
+但一家成功的科技公司其实有三层:软件、产品(关于客户和商业模式)、商业。Oji 在给大小公司做 AI 原生改造时,立刻看到一个现象:开发者如果用 AI 用得熟,提速非常快;但其他所有人——尤其产品经理——都成了瓶颈。
+
+PM 的产品判断和编排技能没跟上工程师的新速度 <button class="pd-ts" data-t="03:24" data-who="Oji Udezue" data-en="surely if they're early adopters, and then we see everyone else being a bottleneck. And particularly we see PMs who are not speeding up their product judgment, speeding up their orchestration skills to match the new speed of the engineers." aria-label="回原文"></button>。他管这叫「[[三速问题|三速问题]]」:过去四五十年,最慢的环节一直是开发,现在 AI 把开发提速了 10 倍甚至 20 倍,但「为什么做」和「交付给谁」这两头是受限于人的——你得跟客户聊,得跟市场打交道。中间突然变快,两头没变快,等式就失衡了 <button class="pd-ts" data-t="52:00" data-who="Oji Udezue" data-en="Correct. So what we, there's something we call the three speed problem. Which is for the past 40," aria-label="回原文"></button>。
+
+失衡怎么办?这正是 Oji 做这套技能要解决的。
+
+他的思路是给 AI 编程工具装上产品判断和商业技能。最典型的就是一个叫「项目脚手架技能」(scaffolding skill,脚手架指帮你自动搭起项目结构和流程的工具)的东西。
+
+它从一个商业问题描述开始,然后干一件你平时得跨部门才能干完的事:做市场调研,判断这问题值不值得解,做架构决策,设置测试,最后连持续集成(一种每次提交代码都自动跑测试的机制,英文缩写 CI)都替你配好 <button class="pd-ts" data-t="04:18" data-who="Oji Udezue" data-en="But the scaffolding skill is special because it starts with you describing a business problem. And then it really makes decisions, helps you make decisions," aria-label="回原文"></button>。主持人 Aakash 一眼看穿了它的本质:它就是个编排器,调用一堆其他技能、创建文档、走完一套 11 步的流程 <button class="pd-ts" data-t="11:30" data-who="Aakash" data-en="CodeMemo's core is an LLM Analyze and Repos are wired for clog with correct current model IDs. So the scaffolding skill is basically an orchestrator skill. It seems like it's calling some of these other skills," aria-label="回原文"></button>。Oji 自己做 CodeMemo 第一个版本时,就是用这套技能起的头 <button class="pd-ts" data-t="40:46" data-who="Oji Udezue" data-en="And then we will generate a set of X prototypes to evaluate what direction to take this in." aria-label="回原文"></button>。
 
 脚手架技能干的第一件事,也是最反直觉的一件事,是帮你拦下不该做的项目。它内嵌了一个叫「[[可行性闸门|可行性闸门]]」(viability gate,在正式开工前用一套框架筛掉烂点子的关卡)的子技能,沿着收入、技术可行性、差异化、竞争格局、目标用户定义、问题清晰度和紧迫性这六个维度系统评估。Oji 拿自己的 CodeMemo 点子做演示:可行性闸门过了,但三个维度被标为中等风险,需要你留意 <button class="pd-ts" data-t="08:35" data-who="Oji Udezue" data-en="Let's run that. So what does it tell us, actually, with the Viability Gate? Viability gate passed, proceed." aria-label="回原文"></button>。
 
-演示完一个通过的,他紧接着演示了一个被拦下的。他给了脚手架一个新问题:用 Slack 评论自动生成每日站会摘要。这回跑出来的结果大不一样:竞争格局非常强(这其实是坏事,说明挤满了人),差异化不强,问题的清晰度和紧迫性也不够。技能明确告诉他,这市场很难进,不可防御,别人都能做一模一样的东西 <button class="pd-ts" data-t="37:34" data-who="Oji Udezue" data-en="So it's weak, right? So this is the real sort of alpha from using a skill like this. It's going to help you separate out which features," aria-label="回原文"></button>。Oji 说,这正是这种技能的真正价值——普通 LLM 很少会跟你说「不」,它总爱顺着你的话;但这个技能有内置的责任感,会基于一套框架告诉你,你的点子到底合不合理 <button class="pd-ts" data-t="22:18" data-who="Oji Udezue" data-en="of LLMs, what you're going to see is it will tell you that you have a good idea. The thing about this is that It's built in, it has a built in sort of responsibility to tell you whether you're smoking crack" aria-label="回原文"></button>。当然,他不建议大家把它当福音。你真得仔细看它产出的每一份文档,判断它合不合你的实际 <button class="pd-ts" data-t="17:43" data-who="Oji Udezue" data-en="but you can do a lot, 60%, 70% with LLMs before you go find real sources. And I want to step back and also tell people the danger in this kind of workflow is that You take it as gospel, right?" aria-label="回原文"></button>。
+演示完一个通过的,他紧接着演示了一个被拦下的。他给了脚手架一个新问题:用 Slack 评论自动生成每日站会摘要。
 
-说完了脚手架为什么重要、能替你拦下烂点子,接下来看它具体怎么在产品和代码层帮你的忙。一旦某个点子通过了可行性闸门,脚手架真正强大的地方就显出来了:它落地成实际的东西,而且是全套。它会扫市场、看竞品定价,生成一份像 Perplexity 那样高质量的市场调研包,有市场概览、趋势、竞品和相邻产品分析 <button class="pd-ts" data-t="10:11" data-who="Oji Udezue" data-en="It's done your market research package for you. I set it so that it's not narrating itself in full. What you can see has a market overview." aria-label="回原文"></button>。然后它写产品简报,把点子编成问题、目标客户、核心价值主张和成功标准 <button class="pd-ts" data-t="10:41" data-who="Oji Udezue" data-en="We have tools that help you write a PRD. This is literally your new project brief where it codifies that into a problem, into target customers," aria-label="回原文"></button>。到了代码层,它会自动生成一个完美的 ClaudeMD(给 Claude 看的项目说明文件),里面规定了文件夹怎么放、原型放哪、怎么找 bug、怎么分类,基本上就是一个自组织的代码仓库 <button class="pd-ts" data-t="18:08" data-who="Oji Udezue" data-en="So if you go here for, okay, we're still in skills, so let's finish that and we can see. So it will generate the perfect Claude MD for you for this project. So if you look," aria-label="回原文"></button>。它还设好测试文件夹、配好 CI,关键的是帮你忽略掉密码这种敏感信息,避免推到 GitHub 时泄露 <button class="pd-ts" data-t="19:01" data-who="Oji Udezue" data-en="It creates a test folder for you. And then crucially, it sets up your continuous integration, your quality system. So every time you check in, All your code is tested and it sets up security." aria-label="回原文"></button>。
+这回跑出来的结果大不一样:竞争格局非常强(这其实是坏事,说明挤满了人),差异化不强,问题的清晰度和紧迫性也不够。技能明确告诉他,这市场很难进,不可防御,别人都能做一模一样的东西 <button class="pd-ts" data-t="37:34" data-who="Oji Udezue" data-en="So it's weak, right? So this is the real sort of alpha from using a skill like this. It's going to help you separate out which features," aria-label="回原文"></button>。
 
-代码搭好了,工具变了,人的工作方式怎么办?这正是下一个话题。演示完脚手架的基础能力,Oji 现场在 Claude Code 里用「调查技能」跟它对话。他一遍让技能生成三种独立的交互原型——问的问题是:这是聊天界面还是仪表板?判决结果怎么呈现?——另一遍并行启动「[[客户发现周|客户发现周]]」(一套标准化的客户访谈流程)技能 <button class="pd-ts" data-t="42:00" data-who="Oji Udezue" data-en="For example, the interesting one that I would do right after this is a customer discovery week. Okay. I'm going to ask it to use this skill to tell me how to get to better confidence and" aria-label="回原文"></button>。客户发现周产出的计划非常硬核:技能明确告诉他,计划能执行,但缺一样东西——一份真实目标用户的确认名单,不能是你创始人网络里的边缘人。如果你找不够 5 个真实目标用户,技能就把这视为验证信号不够,你可能根本接触不到这个市场 <button class="pd-ts" data-t="49:34" data-who="Oji Udezue" data-en="What is missing is a one input. The skill will not let a plan proceed. A confirmed list of recruitable people with real target cohorts," aria-label="回原文"></button>。整个流程照着书里的三步访谈法走:先弄清楚该问什么开放问题,把问题固定下来,最后扩成量化问卷 <button class="pd-ts" data-t="50:28" data-who="Oji Udezue" data-en="So it walks through. In the book, we talk about this three-step process where" aria-label="回原文"></button>。Oji 说,这其实就是强迫你做 PM 的基本功——但以工程速度来做 <button class="pd-ts" data-t="51:37" data-who="Aakash" data-en="All right. So what I'm really hearing from these skills is that they're forcing you to do the PM fundamentals." aria-label="回原文"></button>。
+Oji 说,这正是这种技能的真正价值——普通 LLM 很少会跟你说「不」,它总爱顺着你的话;但这个技能有内置的责任感,会基于一套框架告诉你,你的点子到底合不合理 <button class="pd-ts" data-t="22:18" data-who="Oji Udezue" data-en="of LLMs, what you're going to see is it will tell you that you have a good idea. The thing about this is that It's built in, it has a built in sort of responsibility to tell you whether you're smoking crack" aria-label="回原文"></button>。当然,他不建议大家把它当福音。你真得仔细看它产出的每一份文档,判断它合不合你的实际 <button class="pd-ts" data-t="17:43" data-who="Oji Udezue" data-en="but you can do a lot, 60%, 70% with LLMs before you go find real sources. And I want to step back and also tell people the danger in this kind of workflow is that You take it as gospel, right?" aria-label="回原文"></button>。
 
-Oji 的这套做法,本质上是要把团队的工作方式整个重塑。过去 PM 的活儿散落在各种工具里:产品经理待在 Notion,设计师待在 Figma,程序员待在代码编辑器。现在 Oji 把这些全塌缩成一个共享的 GitHub 仓库,商业、产品和代码技能都在同一个地方,团队里每个人都能看到、用上 <button class="pd-ts" data-t="54:55" data-who="Oji Udezue" data-en="So we are seeing people essentially collapse the separation of tasks of PM, live in Notion, designers live in Figma, and collapsing it into one GitHub repo. With everything." aria-label="回原文"></button>。这意味着哪怕你是个 [[vibe coder|vibe coder]](靠跟 AI 对话来写代码的人),你交付给开发者的不再是口头描述,而是一个带 CI、带测试、架构定好了、文档齐全的代码库。这不需要特定工具,Oji 演示用的是 anti-gravity,但这只是个 VS Code 的分支(别人改出来的版本),换成别的编辑器跑 Claude Code 也完全一样 <button class="pd-ts" data-t="59:00" data-who="Oji Udezue" data-en="or can you use any harness for Claude Code? No, it's any harness. I don't even particularly." aria-label="回原文"></button>。
+说完了脚手架为什么重要、能替你拦下烂点子,接下来看它具体怎么在产品和代码层帮你的忙。一旦某个点子通过了可行性闸门,脚手架真正强大的地方就显出来了:它落地成实际的东西,而且是全套。
 
-团队协作搞定了,那企业落地时最容易踩什么坑?Oji 看过不少团队失败,给出的教训非常明确:最重要的事是保持共享上下文。他拿 Claude Code 的作者 Boris 举例:Boris 自己的配置文件只有六行,但它引用的是一个全公司共享的版本。每个人学到的任何新东西,都汇总到那个中央文件里;它很短、只含精髓,但能把所有人连到组织内正确的工具上 <button class="pd-ts" data-t="59:51" data-who="Oji Udezue" data-en="I think that the most important thing A shared context. You know, I heard Boris from Claude talk about the fact that his Claude.md is a very thin," aria-label="回原文"></button>。Oji 的警告是:不要让团队里的人随意去 fork(分叉,指把代码或文件复制一份自己改自己的)这些技能。他曾帮一家企业落地:他们有自己的工作方式文档和软件开发生命周期(SDLC),Oji 的做法是把技能跟这家企业要求的产出物对齐——产品简报为什么要跟产品营销团队想要的不一样?因此,改造好的技能要集中放,让产出的东西符合组织需求,防止每个人自己搞一套 <button class="pd-ts" data-t="60:54" data-who="Oji Udezue" data-en="an enterprise is don't let people fork these things willy-nilly. For example, I was working with an enterprise that had a ways of working document and" aria-label="回原文"></button>。当然他喜欢那种鼓励创新的文化,但创新也要往一个中心位置创新,让一个人的学习等于所有人的学习 <button class="pd-ts" data-t="62:04" data-who="Oji Udezue" data-en="Well, if they innovate, they should innovate into a central place so everyone gets the innovation, if that makes any sense." aria-label="回原文"></button>。Oji 甚至把这件事上升到一个高度:人类能在几个世纪里存活下来,靠的就是互相学习,我们才是最初的蜂巢思维(科幻里常用来形容群体意识共享的词);把 AI 引入企业,也得强制纳入这种结构里 <button class="pd-ts" data-t="62:31" data-who="Oji Udezue" data-en="We're afraid of AIs collaborating because they'll kill us. But it turns out that we are the original hive mind. The only reason that we've survived through the centuries as humans is" aria-label="回原文"></button>。
+它会扫市场、看竞品定价,生成一份像 Perplexity 那样高质量的市场调研包,有市场概览、趋势、竞品和相邻产品分析 <button class="pd-ts" data-t="10:11" data-who="Oji Udezue" data-en="It's done your market research package for you. I set it so that it's not narrating itself in full. What you can see has a market overview." aria-label="回原文"></button>。然后它写产品简报,把点子编成问题、目标客户、核心价值主张和成功标准 <button class="pd-ts" data-t="10:41" data-who="Oji Udezue" data-en="We have tools that help you write a PRD. This is literally your new project brief where it codifies that into a problem, into target customers," aria-label="回原文"></button>。
+
+到了代码层,它会自动生成一个完美的 ClaudeMD(给 Claude 看的项目说明文件),里面规定了文件夹怎么放、原型放哪、怎么找 bug、怎么分类,基本上就是一个自组织的代码仓库 <button class="pd-ts" data-t="18:08" data-who="Oji Udezue" data-en="So if you go here for, okay, we're still in skills, so let's finish that and we can see. So it will generate the perfect Claude MD for you for this project. So if you look," aria-label="回原文"></button>。它还设好测试文件夹、配好 CI,关键的是帮你忽略掉密码这种敏感信息,避免推到 GitHub 时泄露 <button class="pd-ts" data-t="19:01" data-who="Oji Udezue" data-en="It creates a test folder for you. And then crucially, it sets up your continuous integration, your quality system. So every time you check in, All your code is tested and it sets up security." aria-label="回原文"></button>。
+
+代码搭好了,工具变了,人的工作方式怎么办?这正是下一个话题。
+
+演示完脚手架的基础能力,Oji 现场在 Claude Code 里用「调查技能」跟它对话。他一遍让技能生成三种独立的交互原型——问的问题是:这是聊天界面还是仪表板?
+
+判决结果怎么呈现?——另一遍并行启动「[[客户发现周|客户发现周]]」(一套标准化的客户访谈流程)技能 <button class="pd-ts" data-t="42:00" data-who="Oji Udezue" data-en="For example, the interesting one that I would do right after this is a customer discovery week. Okay. I'm going to ask it to use this skill to tell me how to get to better confidence and" aria-label="回原文"></button>。
+
+客户发现周产出的计划非常硬核:技能明确告诉他,计划能执行,但缺一样东西——一份真实目标用户的确认名单,不能是你创始人网络里的边缘人。如果你找不够 5 个真实目标用户,技能就把这视为验证信号不够,你可能根本接触不到这个市场 <button class="pd-ts" data-t="49:34" data-who="Oji Udezue" data-en="What is missing is a one input. The skill will not let a plan proceed. A confirmed list of recruitable people with real target cohorts," aria-label="回原文"></button>。
+
+整个流程照着书里的三步访谈法走:先弄清楚该问什么开放问题,把问题固定下来,最后扩成量化问卷 <button class="pd-ts" data-t="50:28" data-who="Oji Udezue" data-en="So it walks through. In the book, we talk about this three-step process where" aria-label="回原文"></button>。Oji 说,这其实就是强迫你做 PM 的基本功——但以工程速度来做 <button class="pd-ts" data-t="51:37" data-who="Aakash" data-en="All right. So what I'm really hearing from these skills is that they're forcing you to do the PM fundamentals." aria-label="回原文"></button>。
+
+Oji 的这套做法,本质上是要把团队的工作方式整个重塑。过去 PM 的活儿散落在各种工具里:产品经理待在 Notion,设计师待在 Figma,程序员待在代码编辑器。
+
+现在 Oji 把这些全塌缩成一个共享的 GitHub 仓库,商业、产品和代码技能都在同一个地方,团队里每个人都能看到、用上 <button class="pd-ts" data-t="54:55" data-who="Oji Udezue" data-en="So we are seeing people essentially collapse the separation of tasks of PM, live in Notion, designers live in Figma, and collapsing it into one GitHub repo. With everything." aria-label="回原文"></button>。这意味着哪怕你是个 [[vibe coder|vibe coder]](靠跟 AI 对话来写代码的人),你交付给开发者的不再是口头描述,而是一个带 CI、带测试、架构定好了、文档齐全的代码库。这不需要特定工具,Oji 演示用的是 anti-gravity,但这只是个 VS Code 的分支(别人改出来的版本),换成别的编辑器跑 Claude Code 也完全一样 <button class="pd-ts" data-t="59:00" data-who="Oji Udezue" data-en="or can you use any harness for Claude Code? No, it's any harness. I don't even particularly." aria-label="回原文"></button>。
+
+团队协作搞定了,那企业落地时最容易踩什么坑?Oji 看过不少团队失败,给出的教训非常明确:最重要的事是保持共享上下文。
+
+他拿 Claude Code 的作者 Boris 举例:Boris 自己的配置文件只有六行,但它引用的是一个全公司共享的版本。每个人学到的任何新东西,都汇总到那个中央文件里;它很短、只含精髓,但能把所有人连到组织内正确的工具上 <button class="pd-ts" data-t="59:51" data-who="Oji Udezue" data-en="I think that the most important thing A shared context. You know, I heard Boris from Claude talk about the fact that his Claude.md is a very thin," aria-label="回原文"></button>。
+
+Oji 的警告是:不要让团队里的人随意去 fork(分叉,指把代码或文件复制一份自己改自己的)这些技能。他曾帮一家企业落地:他们有自己的工作方式文档和软件开发生命周期(SDLC),Oji 的做法是把技能跟这家企业要求的产出物对齐——产品简报为什么要跟产品营销团队想要的不一样?
+
+因此,改造好的技能要集中放,让产出的东西符合组织需求,防止每个人自己搞一套 <button class="pd-ts" data-t="60:54" data-who="Oji Udezue" data-en="an enterprise is don't let people fork these things willy-nilly. For example, I was working with an enterprise that had a ways of working document and" aria-label="回原文"></button>。当然他喜欢那种鼓励创新的文化,但创新也要往一个中心位置创新,让一个人的学习等于所有人的学习 <button class="pd-ts" data-t="62:04" data-who="Oji Udezue" data-en="Well, if they innovate, they should innovate into a central place so everyone gets the innovation, if that makes any sense." aria-label="回原文"></button>。Oji 甚至把这件事上升到一个高度:人类能在几个世纪里存活下来,靠的就是互相学习,我们才是最初的蜂巢思维(科幻里常用来形容群体意识共享的词);把 AI 引入企业,也得强制纳入这种结构里 <button class="pd-ts" data-t="62:31" data-who="Oji Udezue" data-en="We're afraid of AIs collaborating because they'll kill us. But it turns out that we are the original hive mind. The only reason that we've survived through the centuries as humans is" aria-label="回原文"></button>。
 
 Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用进 Claude Code 就直接跟技能聊天;他们的 GitHub 技能库里有这次演示的脚手架技能,以及审查功能、Vibe Memo(一个在你写代码时捕捉「为什么这么决定」的日志系统)、从战略生成路线图、倾听机器、削减范围、定价设计等一整套技能 <button class="pd-ts" data-t="55:57" data-who="Oji Udezue" data-en="to collect these things. Some of them are private. They're not available yet." aria-label="回原文"></button>。Oji 个人的判断是:单纯的代码技能正在过时,因为模型本身越来越强;但商业和产品层面的判断技能,依然是让我们能造对东西的关键,这是新的前沿 <button class="pd-ts" data-t="58:31" data-who="Oji Udezue" data-en="We think this is the new frontier. I think code skills alone are becoming passe. The other day I saw someone remove superhuman skills from their repo because" aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是这么几件事。第一,行业格局已经变成「三速问题」:AI 让写代码这一环提速了 10 倍甚至 20 倍,但「为什么做」和「交付给谁」这两头仍然受限于人,如果你是产品经理却没提升自己的编排和判断速度,你就是那个拖慢全队的瓶颈。第二,Oji Udezue 用一套开源的 Claude Code 技能证明了,你不必只会让 AI 写代码——你可以让它在写代码前先用一套框架替你做市场调研、用可行性闸门拦下不该做的烂点子。第三,真正强大的做法是把商业、产品和代码三层的技能全塞进一个共享的 GitHub 仓库里,让产品经理、设计师、开发者全在同一个上下文里干活,省掉跨工具交付的损耗。第四,落地这种工作方式时,最大的坑是让团队随意 fork 技能和配置;你得保持共享上下文,一个人学到的经验要汇总到中央文件里,让全组织一起变聪明。
+最后收个尾,这一集值得带走的是这么几件事。第一,行业格局已经变成「三速问题」:AI 让写代码这一环提速了 10 倍甚至 20 倍,但「为什么做」和「交付给谁」这两头仍然受限于人,如果你是产品经理却没提升自己的编排和判断速度,你就是那个拖慢全队的瓶颈。
+
+第二,Oji Udezue 用一套开源的 Claude Code 技能证明了,你不必只会让 AI 写代码——你可以让它在写代码前先用一套框架替你做市场调研、用可行性闸门拦下不该做的烂点子。第三,真正强大的做法是把商业、产品和代码三层的技能全塞进一个共享的 GitHub 仓库里,让产品经理、设计师、开发者全在同一个上下文里干活,省掉跨工具交付的损耗。第四,落地这种工作方式时,最大的坑是让团队随意 fork 技能和配置;你得保持共享上下文,一个人学到的经验要汇总到中央文件里,让全组织一起变聪明。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -92,24 +128,21 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub · 同概念:Claude Code
-- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]] —— 同公司:Figma、GitHub · 同概念:Claude Code
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:Claude Code
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub · 同概念:Claude Code</span>
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:Figma、GitHub · 同概念:Claude Code</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:Claude Code</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:GitHub、Figma、Notion
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Figma · 同概念:Claude Code
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:GitHub、Figma、Notion</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Figma · 同概念:Claude Code</span>
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code</span>
 
 </div>
 </div>
-
-*本集关键词:AI 编程 · 产品判断技能 · 可行性闸门 · Builder PM · Claude Code*
-
 <script>
 (function(){
   function move(){

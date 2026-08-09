@@ -41,21 +41,51 @@ tags:
 
 说这话的是 [[Matei Zaharia|Matei Zaharia]] 和 [[Reynold Xin|Reynold Xin]],他们联合创立了 Databricks。在这场对谈里,他们讲了三件事:为什么编程[[智能体|智能体]]满天飞,我们却需要一个开源的「智能体操作系统」来统一管理;那个让数据工程师凌晨三点惊醒的噩梦数据管道([[CDC|CDC]]),怎么被一种叫 [[LTAP|LTAP]] 的新思路终结;以及他们为什么敢把运行了十年的核心数据库引擎推倒重写。中间还穿插了他们怎么赢下与 [[Snowflake|Snowflake]] 的关键一战,以及买下 Mosaic 之后对模型路线的重新判断。
 
-先从最贴近当下开发者体验的智能体说起。Databricks 内部原本散落着五六个不同的智能体框架,高级工程师们各自搭了一套 vibe coding(凭感觉编程)的环境,用得很爽,但没法分享给团队。Matei 发现,不管是给程序员用的编程智能体,还是给业务用分析数据的智能体,底层碰壁的都是同一批问题:你需要一个[[云沙箱|云沙箱]](隔离的运行环境)、需要权限控制、需要历史记录来协作 <button class="pd-ts" data-t="02:22" data-who="Matei Zaharia" data-en="What led you to it? Yeah, there were actually a couple of like converging lines, which I think is a good sign that you need something new." aria-label="回原文"></button>。这促成了 Omnigens 的诞生——它是一个开源平台,核心是一个通用 API。无论你底层用的是云端运行的代码,还是别的工具,都被映射到同一个接口上 <button class="pd-ts" data-t="14:11" data-who="Matei Zaharia" data-en="Just to be clear, I would say the core of this is this common API on top of all the harnesses. So the API is basically like you've got an agent session and you can send in" aria-label="回原文"></button>。开源的好处立竿见影:周六刚发布,没几天就有了 400 个合并请求,外界自发补齐了在 Kubernetes 上运行和各种云沙箱的支持 <button class="pd-ts" data-t="11:56" data-who="Matei Zaharia" data-en="Yeah, you can look at the merge runs. I actually asked Somnijen this morning about the- 400 merge already? Yeah." aria-label="回原文"></button>。
+先从最贴近当下开发者体验的智能体说起。Databricks 内部原本散落着五六个不同的智能体框架,高级工程师们各自搭了一套 vibe coding(凭感觉编程)的环境,用得很爽,但没法分享给团队。
 
-光统一接口还不够,安全与失控是悬在智能体头上的两把刀。作为 CTO,Matei 最怕一觉醒来登上头条,说因为装了个可疑的 NPM 包把公司代码全泄露了 <button class="pd-ts" data-t="21:46" data-who="Matei Zaharia" data-en="I spend a lot of time being annoyed by coding agents and getting prompts. And also as the CTO, I don't want to end up on the front page as like I installed some weird NPM package" aria-label="回原文"></button>。传统的安全策略太死板:要么允许推送到营销网站,要么禁止。但这会造成死结——如果智能体既要读取机密文档,又要给网站写代码呢?Omnigens 的解法是「[[上下文策略|上下文策略]]」:它会记住智能体在这个会话里干过什么。如果它刚装了一个才一天的生僻包,或者刚读完了一千份机密文档,那想再往外发数据时就会被拦下;如果没干这些危险动作,也许就可以放行 <button class="pd-ts" data-t="19:20" data-who="Matei Zaharia" data-en="So the thing we decided we need is stateful or what we call contextual policies where you keep track of the state of that session. It's not like, is it allowed to push to the marketing site or not?" aria-label="回原文"></button>。同样被精确追踪的还有开销——你可以直接给子智能体下死命令:「花不准超过 5 美元,超了就停下来问我」,它读日志烧 token 到限额就会自动弹窗请示 <button class="pd-ts" data-t="21:02" data-who="Matei Zaharia" data-en="One of the states we track is how much you spent in that session. So I can, I've had like," aria-label="回原文"></button>。
+Matei 发现,不管是给程序员用的编程智能体,还是给业务用分析数据的智能体,底层碰壁的都是同一批问题:你需要一个[[云沙箱|云沙箱]](隔离的运行环境)、需要权限控制、需要历史记录来协作 <button class="pd-ts" data-t="02:22" data-who="Matei Zaharia" data-en="What led you to it? Yeah, there were actually a couple of like converging lines, which I think is a good sign that you need something new." aria-label="回原文"></button>。这促成了 Omnigens 的诞生——它是一个开源平台,核心是一个通用 API。
 
-把智能体的运行环境安顿好,接下来要解决的就是它们赖以生存的数据底座。这就引出了这集的重头戏:LTAP。要理解它,得先聊聊 OLTP(联机交易处理,管高并发的日常流水)和 OLAP(联机分析处理,算海量的历史数据)的分家 <button class="pd-ts" data-t="28:22" data-who="Reynold Xin" data-en="But the world of databases is effectively split into roughly two halves. There's what we call OLTP databases, which are transactional. And think of your Postgres, your MySQL, your Oracle databases." aria-label="回原文"></button>。三十年前大家做数据库的终极梦想(被称为 [[HTAP|HTAP]]),就是造一个单引擎把两者都包圆。但现实是,硬塞在一起往往两边都干不好,所以大家干脆把数据分家:用 CDC(变更数据捕获,持续把数据库的变动抽出来)把交易数据复制到专门的分析系统里 <button class="pd-ts" data-t="29:51" data-who="Reynold Xin" data-en="A lot of our customers obviously get into Databricks to run more sophisticated things. And there's this term called CDC. to change data capture." aria-label="回原文"></button>。Reynold 坦言,CDC 简直是现代社会的数字噩梦,脆弱到被工程师戏称为「持续数据损坏」,只要源头的表结构改一点,管道就会崩掉,让人半夜爬起来修 <button class="pd-ts" data-t="30:37" data-who="Reynold Xin" data-en="but one of the most fundamental operations powering modern society. But it's so brittle that a weak joke that it should be called continuous data corruption" aria-label="回原文"></button>。Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎那么难,那咱就只统一存储。只要交易数据库在写入数据湖时,顺手把行式数据(适合单条交易)转码成列式数据(适合批量分析),分析引擎就能直接去读,零延迟 <button class="pd-ts" data-t="32:00" data-who="Reynold Xin" data-en="And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP. It's that we think this is HTAP done, right? HTAP wants to build a single engine for both." aria-label="回原文"></button>。
+无论你底层用的是云端运行的代码,还是别的工具,都被映射到同一个接口上 <button class="pd-ts" data-t="14:11" data-who="Matei Zaharia" data-en="Just to be clear, I would say the core of this is this common API on top of all the harnesses. So the API is basically like you've got an agent session and you can send in" aria-label="回原文"></button>。开源的好处立竿见影:周六刚发布,没几天就有了 400 个合并请求,外界自发补齐了在 Kubernetes 上运行和各种云沙箱的支持 <button class="pd-ts" data-t="11:56" data-who="Matei Zaharia" data-en="Yeah, you can look at the merge runs. I actually asked Somnijen this morning about the- 400 merge already? Yeah." aria-label="回原文"></button>。
 
-更魔幻的是,这个如此战略级的架构突变,竟然没什么正规的启动流程。Ali 和 Reynold 为「到底能不能直接写成列式格式」辩论了无数个会议。直到某天,一位工程师直接跑去敲桌子说:「我顺手做了个原型,跑通了。」他发现存储集群反正有大量闲置的 CPU,顺手拿来做个格式转换毫无压力,而且列式数据压缩率更高,写入速度反而更快 <button class="pd-ts" data-t="35:01" data-who="Reynold Xin" data-en="hey, can we actually just change that to write in column-oriented format? And we're just debating. And one day, one of our engineers was super smart came in." aria-label="回原文"></button>。这种不拿许可、直接动手干的文化,被 Matei 视为珍宝 <button class="pd-ts" data-t="36:23" data-who="Matei Zaharia" data-en="from first principle and then somebody just did it. Yeah, I mean, if you set yourself up so people do that, that'll be great. That happened a bit with Omnigent, too." aria-label="回原文"></button>。他们还把这种迭代哲学用到了 [[Dream Engine|Dream Engine]] 上。市面上主流的分析数据库引擎大多十年没推倒重来了,打满各种补丁。Databricks 雇佣了顶尖工程师,试图从零造一个新引擎。他们甚至建了个「数据库工厂」:用十年来积累的百万级数据点训练了一个机器学习模型,专门用来预测哪种算法配哪种查询跑得最快 <button class="pd-ts" data-t="45:45" data-who="Reynold Xin" data-en="Many of them have built more than two in the past. But they were still worried about this, hey, building a database engine from scratch," aria-label="回原文"></button>。为了避开软件工程里声名狼藉的「[[第二系统综合征|第二系统综合征]]」(因为野心太大而永远难产的陷阱),他们小心翼翼地规划,让新引擎能逐步接管能力,而不是硬切换 <button class="pd-ts" data-t="49:54" data-who="Reynold Xin" data-en="I feel like Databricks is doing a really good job of the incremental evolution. Do you have to hard cut to a new system at any point? We designed it in a way that it can be incremental." aria-label="回原文"></button>。
+光统一接口还不够,安全与失控是悬在智能体头上的两把刀。作为 CTO,Matei 最怕一觉醒来登上头条,说因为装了个可疑的 NPM 包把公司代码全泄露了 <button class="pd-ts" data-t="21:46" data-who="Matei Zaharia" data-en="I spend a lot of time being annoyed by coding agents and getting prompts. And also as the CTO, I don't want to end up on the front page as like I installed some weird NPM package" aria-label="回原文"></button>。
 
-聊完系统,还得交代一下 Databricks 的两条战略岔路。第一是赢 Snowflake。两家的云架构其实差不多,但 Reynold 指出最致命的差异在于开放——Databricks 从一开始就坚持用 Parquet 等开放数据格式,而对手曾死抱专有格式 <button class="pd-ts" data-t="53:04" data-who="Reynold Xin" data-en="Probably the biggest fundamental difference. Both companies started around the same time. Both went to the cloud." aria-label="回原文"></button>。经历过被 Oracle 锁定恐惧的传统企业,特别吃这一套。第二是关于模型。当年 Databricks 买下 Mosaic(早期开源大模型团队)后,很多人以为他们要下场拼通用大模型。但 Matei 澄清,通用模型太烧钱且同质化,他们转而用专门的模型解决具体痛点,比如解析文档——专门做的视觉模型比前沿通用模型便宜 100 倍,效果反而更好 <button class="pd-ts" data-t="60:09" data-who="Matei Zaharia" data-en="And there's a few places where we're doing it. One is there are many high volume use cases where if you If you have a specialized model," aria-label="回原文"></button>。底层的核心判断是:通用智能体的推理能力越来越强,未来很多传统软件的逻辑,只要数据放对了位置,扣上个智能体就能跑出魔法 <button class="pd-ts" data-t="66:16" data-who="Reynold Xin" data-en="Going back to your original question, I think one of the theses we have is actually once you can get the data in the right place, the AI models are becoming pretty good." aria-label="回原文"></button>。
+传统的安全策略太死板:要么允许推送到营销网站,要么禁止。但这会造成死结——如果智能体既要读取机密文档,又要给网站写代码呢?
+
+Omnigens 的解法是「[[上下文策略|上下文策略]]」:它会记住智能体在这个会话里干过什么。如果它刚装了一个才一天的生僻包,或者刚读完了一千份机密文档,那想再往外发数据时就会被拦下;如果没干这些危险动作,也许就可以放行 <button class="pd-ts" data-t="19:20" data-who="Matei Zaharia" data-en="So the thing we decided we need is stateful or what we call contextual policies where you keep track of the state of that session. It's not like, is it allowed to push to the marketing site or not?" aria-label="回原文"></button>。同样被精确追踪的还有开销——你可以直接给子智能体下死命令:「花不准超过 5 美元,超了就停下来问我」,它读日志烧 token 到限额就会自动弹窗请示 <button class="pd-ts" data-t="21:02" data-who="Matei Zaharia" data-en="One of the states we track is how much you spent in that session. So I can, I've had like," aria-label="回原文"></button>。
+
+把智能体的运行环境安顿好,接下来要解决的就是它们赖以生存的数据底座。这就引出了这集的重头戏:LTAP。
+
+要理解它,得先聊聊 OLTP(联机交易处理,管高并发的日常流水)和 OLAP(联机分析处理,算海量的历史数据)的分家 <button class="pd-ts" data-t="28:22" data-who="Reynold Xin" data-en="But the world of databases is effectively split into roughly two halves. There's what we call OLTP databases, which are transactional. And think of your Postgres, your MySQL, your Oracle databases." aria-label="回原文"></button>。三十年前大家做数据库的终极梦想(被称为 [[HTAP|HTAP]]),就是造一个单引擎把两者都包圆。
+
+但现实是,硬塞在一起往往两边都干不好,所以大家干脆把数据分家:用 CDC(变更数据捕获,持续把数据库的变动抽出来)把交易数据复制到专门的分析系统里 <button class="pd-ts" data-t="29:51" data-who="Reynold Xin" data-en="A lot of our customers obviously get into Databricks to run more sophisticated things. And there's this term called CDC. to change data capture." aria-label="回原文"></button>。Reynold 坦言,CDC 简直是现代社会的数字噩梦,脆弱到被工程师戏称为「持续数据损坏」,只要源头的表结构改一点,管道就会崩掉,让人半夜爬起来修 <button class="pd-ts" data-t="30:37" data-who="Reynold Xin" data-en="but one of the most fundamental operations powering modern society. But it's so brittle that a weak joke that it should be called continuous data corruption" aria-label="回原文"></button>。
+
+Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎那么难,那咱就只统一存储。只要交易数据库在写入数据湖时,顺手把行式数据(适合单条交易)转码成列式数据(适合批量分析),分析引擎就能直接去读,零延迟 <button class="pd-ts" data-t="32:00" data-who="Reynold Xin" data-en="And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP. It's that we think this is HTAP done, right? HTAP wants to build a single engine for both." aria-label="回原文"></button>。
+
+更魔幻的是,这个如此战略级的架构突变,竟然没什么正规的启动流程。Ali 和 Reynold 为「到底能不能直接写成列式格式」辩论了无数个会议。
+
+直到某天,一位工程师直接跑去敲桌子说:「我顺手做了个原型,跑通了。」他发现存储集群反正有大量闲置的 CPU,顺手拿来做个格式转换毫无压力,而且列式数据压缩率更高,写入速度反而更快 <button class="pd-ts" data-t="35:01" data-who="Reynold Xin" data-en="hey, can we actually just change that to write in column-oriented format? And we're just debating. And one day, one of our engineers was super smart came in." aria-label="回原文"></button>。
+
+这种不拿许可、直接动手干的文化,被 Matei 视为珍宝 <button class="pd-ts" data-t="36:23" data-who="Matei Zaharia" data-en="from first principle and then somebody just did it. Yeah, I mean, if you set yourself up so people do that, that'll be great. That happened a bit with Omnigent, too." aria-label="回原文"></button>。他们还把这种迭代哲学用到了 [[Dream Engine|Dream Engine]] 上。
+
+市面上主流的分析数据库引擎大多十年没推倒重来了,打满各种补丁。Databricks 雇佣了顶尖工程师,试图从零造一个新引擎。
+
+他们甚至建了个「数据库工厂」:用十年来积累的百万级数据点训练了一个机器学习模型,专门用来预测哪种算法配哪种查询跑得最快 <button class="pd-ts" data-t="45:45" data-who="Reynold Xin" data-en="Many of them have built more than two in the past. But they were still worried about this, hey, building a database engine from scratch," aria-label="回原文"></button>。为了避开软件工程里声名狼藉的「[[第二系统综合征|第二系统综合征]]」(因为野心太大而永远难产的陷阱),他们小心翼翼地规划,让新引擎能逐步接管能力,而不是硬切换 <button class="pd-ts" data-t="49:54" data-who="Reynold Xin" data-en="I feel like Databricks is doing a really good job of the incremental evolution. Do you have to hard cut to a new system at any point? We designed it in a way that it can be incremental." aria-label="回原文"></button>。
+
+聊完系统,还得交代一下 Databricks 的两条战略岔路。第一是赢 Snowflake。
+
+两家的云架构其实差不多,但 Reynold 指出最致命的差异在于开放——Databricks 从一开始就坚持用 Parquet 等开放数据格式,而对手曾死抱专有格式 <button class="pd-ts" data-t="53:04" data-who="Reynold Xin" data-en="Probably the biggest fundamental difference. Both companies started around the same time. Both went to the cloud." aria-label="回原文"></button>。经历过被 Oracle 锁定恐惧的传统企业,特别吃这一套。
+
+第二是关于模型。当年 Databricks 买下 Mosaic(早期开源大模型团队)后,很多人以为他们要下场拼通用大模型。
+
+但 Matei 澄清,通用模型太烧钱且同质化,他们转而用专门的模型解决具体痛点,比如解析文档——专门做的视觉模型比前沿通用模型便宜 100 倍,效果反而更好 <button class="pd-ts" data-t="60:09" data-who="Matei Zaharia" data-en="And there's a few places where we're doing it. One is there are many high volume use cases where if you If you have a specialized model," aria-label="回原文"></button>。底层的核心判断是:通用智能体的推理能力越来越强,未来很多传统软件的逻辑,只要数据放对了位置,扣上个智能体就能跑出魔法 <button class="pd-ts" data-t="66:16" data-who="Reynold Xin" data-en="Going back to your original question, I think one of the theses we have is actually once you can get the data in the right place, the AI models are becoming pretty good." aria-label="回原文"></button>。
 
 > 【背景】转写稿中提及的 Ali,指 Databricks 的 CEO Ali Ghodsi。Matei 提到的 Mosaic,是指 Databricks 在 2023 年收购的 AI 创企 MosaicML。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,智能体要想从单机玩具变成团队基建,必须有统一的开源接口和云沙箱来管协作;而且安全不能靠简单的是非题,得靠追踪它干过啥的上下文策略来动态拦截。第二,别再为了搬运数据修管道了,把交易和分析硬揉进一个引擎是死路,但只统一底下的存储层、顺手转个格式,就能拿到那个数据库界三十年的终极梦想。第三,十年老系统难免变烂,重写不一定要等五年大爆炸,拿真实业务跑通的代码去迭代,用机器学习模型来挑算法,照样能平稳换上新引擎。说到底,在数据这件事上,开放格式永远会赢。
+最后收个尾,这一集值得带走的是三句话。第一,智能体要想从单机玩具变成团队基建,必须有统一的开源接口和云沙箱来管协作;而且安全不能靠简单的是非题,得靠追踪它干过啥的上下文策略来动态拦截。
+
+第二,别再为了搬运数据修管道了,把交易和分析硬揉进一个引擎是死路,但只统一底下的存储层、顺手转个格式,就能拿到那个数据库界三十年的终极梦想。第三,十年老系统难免变烂,重写不一定要等五年大爆炸,拿真实业务跑通的代码去迭代,用机器学习模型来挑算法,照样能平稳换上新引擎。说到底,在数据这件事上,开放格式永远会赢。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -94,24 +124,21 @@ tags:
 
 **顺着「智能体」挖下去**
 
-- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同公司:Neon · 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同公司:Snowflake · 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、Kubernetes
+- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]]<span class="pd-rz">同公司:Neon · 同概念:智能体 (agent)</span>
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:智能体 (agent)、Kubernetes</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:智能体管理 · 开源托管底座 · LTAP与存储统一 · 数据库引擎重写 · AI与数据战略*
-
 <script>
 (function(){
   function move(){

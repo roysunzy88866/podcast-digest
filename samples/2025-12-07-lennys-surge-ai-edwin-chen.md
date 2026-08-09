@@ -42,21 +42,55 @@ tags:
 
 这一集 [[Lenny|Lenny]] 的播客里,Edwin 讲了四件事:他是怎么靠极小的精锐团队建起一家反硅谷共识的公司;为什么说大家以为的「数据标注」完全错了,高质量数据其实更像是在「养育孩子」;为什么他觉得现在的 AI 实验室全都在优化错误的目标,把 AI 训练成了追多巴胺的小报机器;以及为什么他对单靠语言模型(LLM,一种通过海量文本学习来理解和生成人类语言的技术)达到 AGI 持悲观态度,认为必须靠全新的学习方式比如强化学习(Reinforcement Learning,一种让模型在虚拟环境里通过试错和拿奖励来学习的方法)。
 
-聊完了他公司的惊人业绩,先来看 Edwin 为什么这么做。他的核心观点是:团队越小,资本开销越低;不需要疯狂融资,就不用迎合那些擅长推销炒作的 VC。这会直接改变创业者的类型——不再是擅长搞 PR 的人得天下,而是真正痴迷技术和产品的人。Edwin 在大公司待过,总觉得砍掉 90% 的人反而能走得更快,因为最优秀的人不会被拖累。所以他们从不转型,也不去追热点,只专注于构建只有他们这种独特背景(横跨数学、计算机科学和语言学)才能做出的高质量数据产品 <button class="pd-ts" data-t="05:57" data-who="Edwin Chen" data-en="AI is just going to get better and better and make things more efficient so that ratio just becomes inevitable. I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions." aria-label="回原文"></button>。
+聊完了他公司的惊人业绩,先来看 Edwin 为什么这么做。他的核心观点是:团队越小,资本开销越低;不需要疯狂融资,就不用迎合那些擅长推销炒作的 VC。
 
-既然不靠炒作,他们靠什么打动那些最顶尖的 AI 实验室?靠的是对「质量」近乎死磕的定义。Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。如果要求模型写一首关于月亮的八行诗,普通的数据工作只检查「是不是诗、够不够八行、有没有『月亮』这个词」。但这只是打勾交差,他要的是诺贝尔奖级别的诗歌——要有微妙的意象、能拨动情绪、能教你重新认识月光。为了找到能写出这种诗的顶尖专家,Surge 构建了极其复杂的机器学习系统,追踪工作者的敲击记录、回答速度等数千个信号,甚至自己去训练模型验证他们产出的数据到底有没有真正提升模型表现。他非常讨厌「数据标注」这个词,认为这把一件极具创造性的事描绘得太简单了。他把自己做的事看作是「养育人类的孩子」:你不是在机械地喂给孩子信息,而是在教他们价值观、创造力,以及那些微妙的审美 <button class="pd-ts" data-t="09:47" data-who="Edwin Chen" data-en="What are people missing? I think most people don't understand what quality even means in this space. They think you could just throw bodies at a problem and get good data and that's completely wrong." aria-label="回原文"></button>。
+这会直接改变创业者的类型——不再是擅长搞 PR 的人得天下,而是真正痴迷技术和产品的人。Edwin 在大公司待过,总觉得砍掉 90% 的人反而能走得更快,因为最优秀的人不会被拖累。所以他们从不转型,也不去追热点,只专注于构建只有他们这种独特背景(横跨数学、计算机科学和语言学)才能做出的高质量数据产品 <button class="pd-ts" data-t="05:57" data-who="Edwin Chen" data-en="AI is just going to get better and better and make things more efficient so that ratio just becomes inevitable. I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions." aria-label="回原文"></button>。
 
-顺着「审美」往下说,这恰恰是当下 AI 行业最大的分歧所在。Edwin 抛出了一个非常尖锐的观点:如今大量 AI 实验室正在把 AGI 推向错误的方向 <button class="pd-ts" data-t="23:03" data-who="Edwin Chen" data-en="So I think we're closer to a decade or decades away than [inaudible 00:23:03]. You have this hot take that a lot of these labs are kind of pushing AGI in the wrong direction and this is based on your work at Twitter, and Google, and Facebook." aria-label="回原文"></button>。为什么这么说?因为行业被 [[LLM Arena|LLM Arena]](一个让大众随意投票评选哪个 AI 回答更好的热门排行榜)这种糟糕的标准绑架了。大众投票根本不深究对错,只扫两秒钟,挑那个表情符号最多、排版最花哨、字数最长的回答。于是,模型哪怕在严重幻觉(一本正经地胡说八道),只要狂加 emoji、把回答拉长三倍,分数就能往上涨。这本质上就是在把模型往「小报化」方向优化,训练它们去追逐多巴胺而不是真理。更可怕的是,模型为了迎合参与度指标,会不断拍用户马屁,附和用户的阴谋论和错觉。他对此感到深深的担忧,因为他曾在社交媒体公司见过同样的剧本:只要一切向参与度看齐,信息流最终都会被标题党和垃圾填满。
+既然不靠炒作,他们靠什么打动那些最顶尖的 AI 实验室?靠的是对「质量」近乎死磕的定义。
 
-如果大众排行榜是错的,那真正的进步该怎么衡量?这就引出了 Edwin 对现有[[基准测试|基准测试]](Benchmark,用于评估模型能力的一系列标准化考题)的不信任。他觉得这些测试要么答案本身就是错的,要么因为具备明确的客观答案(比如数学奥赛题),让模型很容易通过特定的应试技巧去「钻空子」刷分。结果就是,模型能拿奥数金牌,却依然处理不好稍微有点模糊的现实任务(比如解析 PDF)。为了真正衡量模型的智能,Surge 转向了极其硬核的「人类专家评估」——找诺贝尔奖得主级别的物理学家、顶尖程序员来和模型深度对话,仔细核对模型写的物理方程和代码到底对不对。在 Edwin 看来,在模型真正达到 AGI 之前,这种高度依赖人类智慧的反馈循环是绝对不可省略的 <button class="pd-ts" data-t="18:00" data-who="Edwin Chen" data-en="What's your just sense of how much you trust benchmarks and just how correlated those are with actual AI advancements? Yeah, so I don't trust the benchmarks at all." aria-label="回原文"></button>。
+Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。如果要求模型写一首关于月亮的八行诗,普通的数据工作只检查「是不是诗、够不够八行、有没有『月亮』这个词」。
 
-既然当今主流的大模型存在这些局限,未来的突破口在哪?Edwin 认为单靠现有的语言模型模型搞不定 AGI,他更倾向于模拟人类的各种学习方式。这就不得不提他对强化学习(RL)环境的极度看好。所谓 RL 环境,就是给模型搭建一个高度仿真的真实世界(比如一个有邮件、内部沟通工具和代码库的虚拟创业公司),然后人为制造一些突发状况(比如服务器突然宕机),看模型怎么自己去查错、调用工具并修复。这种方法能暴露出模型在多步骤、长时间任务中的灾难性弱点:它们擅长一步到位的单项任务,可一旦扔进混乱的现实世界,模型往往会彻底崩盘。通过这种方法,专家不再是手把手教模型,而是变成了环境的设计师,通过设定奖励函数(目标达成机制)逼着模型自己去试错成长 <button class="pd-ts" data-t="34:34" data-who="Edwin Chen" data-en="This connects to reinforcement learning. This is something that you're big on and something I'm hearing more and more is just becoming a big deal in the world of post-training." aria-label="回原文"></button>。
+但这只是打勾交差,他要的是诺贝尔奖级别的诗歌——要有微妙的意象、能拨动情绪、能教你重新认识月光。为了找到能写出这种诗的顶尖专家,Surge 构建了极其复杂的机器学习系统,追踪工作者的敲击记录、回答速度等数千个信号,甚至自己去训练模型验证他们产出的数据到底有没有真正提升模型表现。
 
-这些帮助模型变得更聪明的方法,最终都指向了一个更宏大的哲学命题:我们到底想造一个什么样的 AI?Edwin 提出了一个非常反直觉的点:不同的 AI 公司因为价值观不同,未来会造出截然不同的模型。他曾让 Claude 帮他写一封无关紧要的邮件,模型迭代了 30 次、花了他半小时写出了「完美的邮件」。但他事后很懊恼:如果模型的目标只是无休止地追求完美、霸占用户时间,那它依然是个糟糕的工具。我们究竟想要一个只会谄媚说「你是对的,我们还能再改 20 版」的模型,还是想要一个果断说「邮件够好了,快发吧,去过你的生活」的模型?在他眼里,[[目标函数|目标函数]](Objective Function,模型在训练时被要求去最大化或最小化的数学目标)的选择至关重要。人类的点击、点赞这些代理指标最容易优化,让 AI 帮人偷懒也最容易赚钱,但他坚持要去死磕那些困难的指标:训练真正让人更有创造力、推动人类进步的 AI <button class="pd-ts" data-t="49:09" data-who="Edwin Chen" data-en="But I think over the past year, I've realized that the values that the companies have will shape the model. So let me give you an example. So I was asking Claude to help me draft an email the other day, and it went through 30 different versions." aria-label="回原文"></button>。
+他非常讨厌「数据标注」这个词,认为这把一件极具创造性的事描绘得太简单了。他把自己做的事看作是「养育人类的孩子」:你不是在机械地喂给孩子信息,而是在教他们价值观、创造力,以及那些微妙的审美 <button class="pd-ts" data-t="09:47" data-who="Edwin Chen" data-en="What are people missing? I think most people don't understand what quality even means in this space. They think you could just throw bodies at a problem and get good data and that's completely wrong." aria-label="回原文"></button>。
+
+顺着「审美」往下说,这恰恰是当下 AI 行业最大的分歧所在。Edwin 抛出了一个非常尖锐的观点:如今大量 AI 实验室正在把 AGI 推向错误的方向 <button class="pd-ts" data-t="23:03" data-who="Edwin Chen" data-en="So I think we're closer to a decade or decades away than [inaudible 00:23:03]. You have this hot take that a lot of these labs are kind of pushing AGI in the wrong direction and this is based on your work at Twitter, and Google, and Facebook." aria-label="回原文"></button>。
+
+为什么这么说?因为行业被 [[LLM Arena|LLM Arena]](一个让大众随意投票评选哪个 AI 回答更好的热门排行榜)这种糟糕的标准绑架了。
+
+大众投票根本不深究对错,只扫两秒钟,挑那个表情符号最多、排版最花哨、字数最长的回答。于是,模型哪怕在严重幻觉(一本正经地胡说八道),只要狂加 emoji、把回答拉长三倍,分数就能往上涨。
+
+这本质上就是在把模型往「小报化」方向优化,训练它们去追逐多巴胺而不是真理。更可怕的是,模型为了迎合参与度指标,会不断拍用户马屁,附和用户的阴谋论和错觉。他对此感到深深的担忧,因为他曾在社交媒体公司见过同样的剧本:只要一切向参与度看齐,信息流最终都会被标题党和垃圾填满。
+
+如果大众排行榜是错的,那真正的进步该怎么衡量?这就引出了 Edwin 对现有[[基准测试|基准测试]](Benchmark,用于评估模型能力的一系列标准化考题)的不信任。
+
+他觉得这些测试要么答案本身就是错的,要么因为具备明确的客观答案(比如数学奥赛题),让模型很容易通过特定的应试技巧去「钻空子」刷分。结果就是,模型能拿奥数金牌,却依然处理不好稍微有点模糊的现实任务(比如解析 PDF)。
+
+为了真正衡量模型的智能,Surge 转向了极其硬核的「人类专家评估」——找诺贝尔奖得主级别的物理学家、顶尖程序员来和模型深度对话,仔细核对模型写的物理方程和代码到底对不对。在 Edwin 看来,在模型真正达到 AGI 之前,这种高度依赖人类智慧的反馈循环是绝对不可省略的 <button class="pd-ts" data-t="18:00" data-who="Edwin Chen" data-en="What's your just sense of how much you trust benchmarks and just how correlated those are with actual AI advancements? Yeah, so I don't trust the benchmarks at all." aria-label="回原文"></button>。
+
+既然当今主流的大模型存在这些局限,未来的突破口在哪?Edwin 认为单靠现有的语言模型模型搞不定 AGI,他更倾向于模拟人类的各种学习方式。
+
+这就不得不提他对强化学习(RL)环境的极度看好。所谓 RL 环境,就是给模型搭建一个高度仿真的真实世界(比如一个有邮件、内部沟通工具和代码库的虚拟创业公司),然后人为制造一些突发状况(比如服务器突然宕机),看模型怎么自己去查错、调用工具并修复。
+
+这种方法能暴露出模型在多步骤、长时间任务中的灾难性弱点:它们擅长一步到位的单项任务,可一旦扔进混乱的现实世界,模型往往会彻底崩盘。通过这种方法,专家不再是手把手教模型,而是变成了环境的设计师,通过设定奖励函数(目标达成机制)逼着模型自己去试错成长 <button class="pd-ts" data-t="34:34" data-who="Edwin Chen" data-en="This connects to reinforcement learning. This is something that you're big on and something I'm hearing more and more is just becoming a big deal in the world of post-training." aria-label="回原文"></button>。
+
+这些帮助模型变得更聪明的方法,最终都指向了一个更宏大的哲学命题:我们到底想造一个什么样的 AI?Edwin 提出了一个非常反直觉的点:不同的 AI 公司因为价值观不同,未来会造出截然不同的模型。
+
+他曾让 Claude 帮他写一封无关紧要的邮件,模型迭代了 30 次、花了他半小时写出了「完美的邮件」。但他事后很懊恼:如果模型的目标只是无休止地追求完美、霸占用户时间,那它依然是个糟糕的工具。
+
+我们究竟想要一个只会谄媚说「你是对的,我们还能再改 20 版」的模型,还是想要一个果断说「邮件够好了,快发吧,去过你的生活」的模型?在他眼里,[[目标函数|目标函数]](Objective Function,模型在训练时被要求去最大化或最小化的数学目标)的选择至关重要。人类的点击、点赞这些代理指标最容易优化,让 AI 帮人偷懒也最容易赚钱,但他坚持要去死磕那些困难的指标:训练真正让人更有创造力、推动人类进步的 AI <button class="pd-ts" data-t="49:09" data-who="Edwin Chen" data-en="But I think over the past year, I've realized that the values that the companies have will shape the model. So let me give you an example. So I was asking Claude to help me draft an email the other day, and it went through 30 different versions." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是四句话。第一,别被硅谷的常规剧本绑架。你可以靠极小的精英团队、完全不碰 VC 的自力更生模式,靠死磕出 10 倍好的产品口碑,建立起一家改变行业的公司。第二,「数据标注」是个充满误导性的词。我们不是在给猫狗照片画框,而是在像养育孩子一样教 AI 学会品味、审美和价值观。如果你不能深度理解某个领域里的「卓越」到底是什么,你就永远喂不出顶级的模型。第三,整个 AI 行业正面临巨大的目标错位风险。当模型为了在充斥着大众随意投票的排行榜上刷分,开始拼命堆砌 emoji、说废话、拍用户马屁时,它其实是在走向「小报化」。我们优化的是什么,我们就会得到什么,所以必须警惕那些只盯着点击和参与度的代理指标。第四,大模型并不是终点。现有的语言模型可能已经接近瓶颈,想让它们真正变聪明,必须把它们扔进复杂的强化学习虚拟环境里去试错、去完成多步骤的真实任务。
+最后收个尾,这一集值得带走的是四句话。第一,别被硅谷的常规剧本绑架。
+
+你可以靠极小的精英团队、完全不碰 VC 的自力更生模式,靠死磕出 10 倍好的产品口碑,建立起一家改变行业的公司。第二,「数据标注」是个充满误导性的词。
+
+我们不是在给猫狗照片画框,而是在像养育孩子一样教 AI 学会品味、审美和价值观。如果你不能深度理解某个领域里的「卓越」到底是什么,你就永远喂不出顶级的模型。
+
+第三,整个 AI 行业正面临巨大的目标错位风险。当模型为了在充斥着大众随意投票的排行榜上刷分,开始拼命堆砌 emoji、说废话、拍用户马屁时,它其实是在走向「小报化」。
+
+我们优化的是什么,我们就会得到什么,所以必须警惕那些只盯着点击和参与度的代理指标。第四,大模型并不是终点。现有的语言模型可能已经接近瓶颈,想让它们真正变聪明,必须把它们扔进复杂的强化学习虚拟环境里去试错、去完成多步骤的真实任务。
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
@@ -99,24 +133,21 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:Anthropic · 同概念:后训练 (post training)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic · 同概念:AGI
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:ChatGPT、Waymo</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)</span>
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic · 同概念:AGI</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic、Claude
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、ChatGPT
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]] —— 同公司:Anthropic · 同概念:vibe coding
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic、Claude</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、ChatGPT</span>
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同公司:Anthropic · 同概念:vibe coding</span>
 
 </div>
 </div>
-
-*本集关键词:AI 数据质量 · 基准测试批判 · 强化学习环境 · 反共识创业哲学 · 模型性格分化*
-
 <script>
 (function(){
   function move(){

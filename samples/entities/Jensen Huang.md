@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
+[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":15,"深度学习":3,"智能体":65,"沙箱":13,"Condi Rice":1,"测试框架":8,"Jerry":1,"GPU":2,"前沿模型":2,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":15,"深度学习":3,"智能体":67,"沙箱":13,"Condi Rice":1,"测试框架":8,"Jerry":1,"GPU":2,"前沿模型":2,"Sega":1}</script>
 
 <script>
 (function(){

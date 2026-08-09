@@ -39,15 +39,35 @@ tags:
 
 这一集 The Light Cone 的对谈里，他完整复盘了这条硬核路径：他如何从McKinsey 跳出来，预判「[[发射成本|发射成本]]暴跌」将开启太空商业新纪元；从被上百个投资人拒之门外，一路走到成为 YC 历史上增长最快的独角兽（1.7 亿美元融资由 Benchmark 领投）。你会听到他们如何在没做热真空测试的极限情况下，靠冰浴和吹风机把 H100 塞进卫星送上太空；又是如何拆解真空散热、高[[辐射|辐射]]抗扰这两个核心工程生死劫；以及他们打算如何在太空中组一个 8.8 万颗卫星的算力星座，解锁比全美电网还要大得多的算力。
 
-话题的起点，源于一个非常具体的外部大趋势：AI 算力带来的能源危机。Philip 指出，我们在地球上能新建能源项目的地方已经快耗尽了 <button class="pd-ts" data-t="01:10" data-who="Philip Johnston" data-en="So to start off, why data centers in space? So we are very quickly running up on constraints on where we can build new energy projects terrestrially. And so by building them in space, we get access to this almost unlimited low-cost energy in the form of solar." aria-label="回原文"></button>。而把目光投向太空，最大的红利就是近乎无限、低成本的太阳能。阻碍这个梦想的唯一瓶颈是发射成本，但他去了一趟德州的星舰基地，看到 [[SpaceX|SpaceX]] 正在建造每天能出厂三枚星舰的超级工厂后，他算明白了一笔账：只要发射成本降到可预见的范围内，太空数据中心就能成立 <button class="pd-ts" data-t="02:07" data-who="Philip Johnston" data-en="And I could see that they were just building enormous capacity. So they're building these two Starship gigafactories that are designed to produce something like three Starships per day." aria-label="回原文"></button>。顺着这条线，他还试想过小行星采矿、太空酒店，甚至一开始公司的名字还叫 Lumen Orbit，主攻天基太阳能。但他发现把太阳能传回地球会损耗 95% 的能量，而太空中发出来的电，归根结底最直接的消耗者就是数据中心。于是他果断调转船头。
+话题的起点，源于一个非常具体的外部大趋势：AI 算力带来的能源危机。Philip 指出，我们在地球上能新建能源项目的地方已经快耗尽了 <button class="pd-ts" data-t="01:10" data-who="Philip Johnston" data-en="So to start off, why data centers in space? So we are very quickly running up on constraints on where we can build new energy projects terrestrially. And so by building them in space, we get access to this almost unlimited low-cost energy in the form of solar." aria-label="回原文"></button>。
 
-想要把商用算力送上天，最难的不是找火箭，而是搞定疯狂的工程极限。Philip 讲了一个极其硬核的「创业公司名场面」。为了测试用来冷却 H100 的[[相变材料|相变材料]]（一种吸热放热的特种蜡）在极冷极热交替下会不会裂开，他们没时间预订正规的热真空室。于是在发货前天凌晨 5 点，两位联合创始人 Adi 和 Ezra 把塞满电子元件的硬件直接浸入冰浴，拿出来再用吹风机和热风枪烤化蜡块 <button class="pd-ts" data-t="05:40" data-who="Philip Johnston" data-en="And so at like 5 a.m. the day we had to ship it down, we were working through the night. Adi and Ezra are dunking this thing in an ice bath. to cool it down." aria-label="回原文"></button>。Philip 直呼「它最后能工作简直是个奇迹」。也正是因为这种极客作风，他们把传统航天大厂报价 7500 万到 1 亿美元的活，硬生生用 200 万美元全包了 <button class="pd-ts" data-t="06:07" data-who="Philip Johnston" data-en="Yeah, this is the kind of thing you can do as a startup. Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million." aria-label="回原文"></button>。这颗卫星上天后也历经坎坷，系统因为 20 多个故障触发器每两小时重启一次，团队只能守着每天几次的地面站过境窗口，一条条手动排查，花了三天才解决问题 <button class="pd-ts" data-t="08:24" data-who="Philip Johnston" data-en="and we didn't know which one it was and we can only get a ground station pass every like at least every hour and a half maybe longer and so we had to manually turn off each one turn back on everything else and wait for a ground station pass to know which one it was so that took like" aria-label="回原文"></button>。
+而把目光投向太空，最大的红利就是近乎无限、低成本的太阳能。阻碍这个梦想的唯一瓶颈是发射成本，但他去了一趟德州的星舰基地，看到 [[SpaceX|SpaceX]] 正在建造每天能出厂三枚星舰的超级工厂后，他算明白了一笔账：只要发射成本降到可预见的范围内，太空数据中心就能成立 <button class="pd-ts" data-t="02:07" data-who="Philip Johnston" data-en="And I could see that they were just building enormous capacity. So they're building these two Starship gigafactories that are designed to produce something like three Starships per day." aria-label="回原文"></button>。
 
-搞定了第一颗卫星，接下来他们必须攻克阻碍太空计算的两大核心技术壁垒。第一大难关是热管理——真空中没有空气对流，热量散不出去。Philip 说，他们正在造一种低成本、轻量化的可展开式散热器（液冷回路），每瓦散热成本只有国际空间站同类设备的五百分之一 <button class="pd-ts" data-t="11:57" data-who="Philip Johnston" data-en="and 500 times less cost per watt of dissipation than the ISS radiator. So very easy benchmark to beat on cost for the ISS. And then on radiation, it's just a lot of ground testing in different particle accelerators." aria-label="回原文"></button>。第二大难关是辐射——太空粒子会导致芯片比特翻转甚至烧毁。为了省下昂贵到离谱的「宇航级」元器件，他们采用了和 SpaceX 类似的策略：买汽车级的现成商用组件，然后拉去粒子加速器里狂轰滥炸，硬测出 H100、B-200 等顶级 AI 芯片在太空中的真实抗辐射底线 <button class="pd-ts" data-t="12:41" data-who="Philip Johnston" data-en="And then all of that telemetry and data then informs our choice on both shielding and software to mitigate bit flips. I think we're the only people in the world now that know where both an H-100, a B-200, H-200 will fail if you blast it with high velocity protons and heavy irons." aria-label="回原文"></button>。为了解决数据传输，他们还跟 SpaceX 签了合同，给后续的 20 颗卫星装上 Starlink 激光终端，实现太宇宙级的高带宽低延迟组网 <button class="pd-ts" data-t="11:06" data-who="Philip Johnston" data-en="Some of the other problems are being solved by other people. The interconnect, we've just signed a contract with SpaceX for our next 20 satellites to have a Starlink laser terminal." aria-label="回原文"></button>。
+顺着这条线，他还试想过小行星采矿、太空酒店，甚至一开始公司的名字还叫 Lumen Orbit，主攻天基太阳能。但他发现把太阳能传回地球会损耗 95% 的能量，而太空中发出来的电，归根结底最直接的消耗者就是数据中心。于是他果断调转船头。
 
-工程问题咬着牙总能解，但真正考验创始人的，是全世界都认为你疯了的那段暗黑岁月。Philip 透露，他们申请 YC 被拒过，想以 1000 万美元估值融 200 万美元，结果被至少 100 家 VC 拒绝 <button class="pd-ts" data-t="14:13" data-who="Philip Johnston" data-en="So we actually applied to YC once and we got rejected. We then tried to raise, and we tried to raise $2 million at 10 posts on a safe. It took us three months and we got rejected from at least 100 VCs." aria-label="回原文"></button>。投资人不买账的原因，是他们无法想象「发射成本大幅下降」的世界。但转机来得极快。随着 AI 耗电狂魔化，纽约等多个州直接下达了新建数据中心的禁令。Philip 认为，正是「地面发射成本骤降」与「地面基建政策锁死」这两大宏观因素的碰撞，让这个昔日太科幻的点子变得极具投资价值 <button class="pd-ts" data-t="15:26" data-who="Philip Johnston" data-en="Those two things, I think, converge to make it more investable, essentially. And I think the other thing, after hearing you explain all the engineering and physics, it actually is doable." aria-label="回原文"></button>。哪怕是后来领投他们 1.7 亿美元的 Benchmark，中途也遭遇了 SpaceX 宣布进军太空数据中心的冲击波，导致一堆有利害冲突的机构直接退出。最终打动 Benchmark 合伙人 Chathan 的，是他们硬核到极致的工程团队背景 <button class="pd-ts" data-t="26:57" data-who="Philip Johnston" data-en="I think he was like, okay, this is a good enough team that they can figure it out. How did you build such an awesome team? So my co-founders, Adi and Ezra, well, with Ezra, I reached out to him after I'd been down to Starbase, Texas, and I was like, have you got any ideas that would make money if..." aria-label="回原文"></button>。
+想要把商用算力送上天，最难的不是找火箭，而是搞定疯狂的工程极限。Philip 讲了一个极其硬核的「创业公司名场面」。
 
-这种「身处未来」的前瞻性判断，正在彻底改变行业的叙事逻辑。Philip 指出，过去人们总以「每单位算力成本」来衡量一切，但现在情况变了——算力已经成为国家安全的核心，但 AI 数据中心在政治上正变得极度不受欢迎，哪怕是消耗极少水的闭环系统也面临民众的情绪化抵制 <button class="pd-ts" data-t="32:29" data-who="Philip Johnston" data-en="And this has moved faster than I was expecting as well, to be honest. We've just seen New York now blocking data centers construction. For reasons which are not grounded in science, really, it seems more like vibes than anything else." aria-label="回原文"></button>。把数据中心彻底搬出地球，规避所有地缘政治与环保审批的泥潭，这才是 StarCloud 最大的杠杆。他们的野心极其庞大：下一步要发射的 StarCloud 3 是一颗重达 3 吨的 200 千瓦航天器，一枚星舰能装 50 颗。他们甚至已经向 FCC（美国联邦通信委员会）申请了高达 8.8 万颗卫星的星座阵列，总计能提供约 20 吉瓦的新计算容量 <button class="pd-ts" data-t="19:25" data-who="Philip Johnston" data-en="So about 10 megawatts of new compute capacity per starship. And we've just filed with the FCC for a constellation of 88,000 of those. So that means on the order of 20 gigawatts of new compute capacity." aria-label="回原文"></button>。
+为了测试用来冷却 H100 的[[相变材料|相变材料]]（一种吸热放热的特种蜡）在极冷极热交替下会不会裂开，他们没时间预订正规的热真空室。于是在发货前天凌晨 5 点，两位联合创始人 Adi 和 Ezra 把塞满电子元件的硬件直接浸入冰浴，拿出来再用吹风机和热风枪烤化蜡块 <button class="pd-ts" data-t="05:40" data-who="Philip Johnston" data-en="And so at like 5 a.m. the day we had to ship it down, we were working through the night. Adi and Ezra are dunking this thing in an ice bath. to cool it down." aria-label="回原文"></button>。
+
+Philip 直呼「它最后能工作简直是个奇迹」。也正是因为这种极客作风，他们把传统航天大厂报价 7500 万到 1 亿美元的活，硬生生用 200 万美元全包了 <button class="pd-ts" data-t="06:07" data-who="Philip Johnston" data-en="Yeah, this is the kind of thing you can do as a startup. Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million." aria-label="回原文"></button>。这颗卫星上天后也历经坎坷，系统因为 20 多个故障触发器每两小时重启一次，团队只能守着每天几次的地面站过境窗口，一条条手动排查，花了三天才解决问题 <button class="pd-ts" data-t="08:24" data-who="Philip Johnston" data-en="and we didn't know which one it was and we can only get a ground station pass every like at least every hour and a half maybe longer and so we had to manually turn off each one turn back on everything else and wait for a ground station pass to know which one it was so that took like" aria-label="回原文"></button>。
+
+搞定了第一颗卫星，接下来他们必须攻克阻碍太空计算的两大核心技术壁垒。第一大难关是热管理——真空中没有空气对流，热量散不出去。
+
+Philip 说，他们正在造一种低成本、轻量化的可展开式散热器（液冷回路），每瓦散热成本只有国际空间站同类设备的五百分之一 <button class="pd-ts" data-t="11:57" data-who="Philip Johnston" data-en="and 500 times less cost per watt of dissipation than the ISS radiator. So very easy benchmark to beat on cost for the ISS. And then on radiation, it's just a lot of ground testing in different particle accelerators." aria-label="回原文"></button>。第二大难关是辐射——太空粒子会导致芯片比特翻转甚至烧毁。
+
+为了省下昂贵到离谱的「宇航级」元器件，他们采用了和 SpaceX 类似的策略：买汽车级的现成商用组件，然后拉去粒子加速器里狂轰滥炸，硬测出 H100、B-200 等顶级 AI 芯片在太空中的真实抗辐射底线 <button class="pd-ts" data-t="12:41" data-who="Philip Johnston" data-en="And then all of that telemetry and data then informs our choice on both shielding and software to mitigate bit flips. I think we're the only people in the world now that know where both an H-100, a B-200, H-200 will fail if you blast it with high velocity protons and heavy irons." aria-label="回原文"></button>。为了解决数据传输，他们还跟 SpaceX 签了合同，给后续的 20 颗卫星装上 Starlink 激光终端，实现太宇宙级的高带宽低延迟组网 <button class="pd-ts" data-t="11:06" data-who="Philip Johnston" data-en="Some of the other problems are being solved by other people. The interconnect, we've just signed a contract with SpaceX for our next 20 satellites to have a Starlink laser terminal." aria-label="回原文"></button>。
+
+工程问题咬着牙总能解，但真正考验创始人的，是全世界都认为你疯了的那段暗黑岁月。Philip 透露，他们申请 YC 被拒过，想以 1000 万美元估值融 200 万美元，结果被至少 100 家 VC 拒绝 <button class="pd-ts" data-t="14:13" data-who="Philip Johnston" data-en="So we actually applied to YC once and we got rejected. We then tried to raise, and we tried to raise $2 million at 10 posts on a safe. It took us three months and we got rejected from at least 100 VCs." aria-label="回原文"></button>。
+
+投资人不买账的原因，是他们无法想象「发射成本大幅下降」的世界。但转机来得极快。
+
+随着 AI 耗电狂魔化，纽约等多个州直接下达了新建数据中心的禁令。Philip 认为，正是「地面发射成本骤降」与「地面基建政策锁死」这两大宏观因素的碰撞，让这个昔日太科幻的点子变得极具投资价值 <button class="pd-ts" data-t="15:26" data-who="Philip Johnston" data-en="Those two things, I think, converge to make it more investable, essentially. And I think the other thing, after hearing you explain all the engineering and physics, it actually is doable." aria-label="回原文"></button>。
+
+哪怕是后来领投他们 1.7 亿美元的 Benchmark，中途也遭遇了 SpaceX 宣布进军太空数据中心的冲击波，导致一堆有利害冲突的机构直接退出。最终打动 Benchmark 合伙人 Chathan 的，是他们硬核到极致的工程团队背景 <button class="pd-ts" data-t="26:57" data-who="Philip Johnston" data-en="I think he was like, okay, this is a good enough team that they can figure it out. How did you build such an awesome team? So my co-founders, Adi and Ezra, well, with Ezra, I reached out to him after I'd been down to Starbase, Texas, and I was like, have you got any ideas that would make money if..." aria-label="回原文"></button>。
+
+这种「身处未来」的前瞻性判断，正在彻底改变行业的叙事逻辑。Philip 指出，过去人们总以「每单位算力成本」来衡量一切，但现在情况变了——算力已经成为国家安全的核心，但 AI 数据中心在政治上正变得极度不受欢迎，哪怕是消耗极少水的闭环系统也面临民众的情绪化抵制 <button class="pd-ts" data-t="32:29" data-who="Philip Johnston" data-en="And this has moved faster than I was expecting as well, to be honest. We've just seen New York now blocking data centers construction. For reasons which are not grounded in science, really, it seems more like vibes than anything else." aria-label="回原文"></button>。
+
+把数据中心彻底搬出地球，规避所有地缘政治与环保审批的泥潭，这才是 StarCloud 最大的杠杆。他们的野心极其庞大：下一步要发射的 StarCloud 3 是一颗重达 3 吨的 200 千瓦航天器，一枚星舰能装 50 颗。他们甚至已经向 FCC（美国联邦通信委员会）申请了高达 8.8 万颗卫星的星座阵列，总计能提供约 20 吉瓦的新计算容量 <button class="pd-ts" data-t="19:25" data-who="Philip Johnston" data-en="So about 10 megawatts of new compute capacity per starship. And we've just filed with the FCC for a constellation of 88,000 of those. So that means on the order of 20 gigawatts of new compute capacity." aria-label="回原文"></button>。
 
 ## 本集带走
 最后收个尾，这一集值得带走的核心脉络其实很清晰。第一，极其疯狂的技术构想，往往建立在极其严密的宏观趋势推演之上——Philip 算准了火箭可回收技术将引发发射成本暴跌，提前卡位。第二，真正的极客精神不是等条件完美，而是在发货前凌晨用冰浴和吹风机搞定热循环测试，用汽车级零件硬扛粒子加速器，靠这些非常规操作把上亿的成本压到几百万。第三，创始人必须有直面周期的定力，StarCloud 从被一百多家 VC 拒绝，到被 Benchmark 追捧，中间的差异只是时间走到了算力变成国家安全命脉、地面基建全面停摆的那一天。太空不再是卫星通讯的专属，它是下一代算力基础设施的终极避风港。
@@ -101,23 +121,20 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:NVIDIA、SpaceX
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:NVIDIA、SpaceX
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同公司:NVIDIA
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同公司:NVIDIA
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]] —— 同公司:Benchmark
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
+- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同公司:Benchmark</span>
 
 </div>
 </div>
-
-*本集关键词:太空数据中心 · 硬科技创业 · 太空工程 · AI 算力 · 基础设施*
-
 <script>
 (function(){
   function move(){

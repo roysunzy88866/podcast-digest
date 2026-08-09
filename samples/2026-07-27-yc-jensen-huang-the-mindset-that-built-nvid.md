@@ -41,37 +41,67 @@ tags:
 
 这一集的对谈里,他讲了几个方面:创业初期怎么承认错误、靠几本教科书从头学起,把一家快要关门的公司拉回来;怎么从 AlexNet 看出[[深度学习|深度学习]]的本质,确立公司的独特视角;他当 CEO 的方式为什么和传统管理学完全不一样——他不觉得 CEO 要脱离一线,反而要像个 F1 赛车手一样把车调到最贴合自己;以及 AI 对就业到底意味着什么、[[物理 AI|物理 AI]] 的机会在哪里、年轻人该学什么。
 
-从选错技术到靠教科书救命,这是 NVIDIA 创业最关键的一课。故事发生在 1993 年,当时黄仁勋和几个创始人决定重新发明 3D 图形,要把每一台 PC 都变成游戏机。他们满怀信心地去融资、开公司、设计算法。但结果证明,他们选的那套技术路线从头到尾就是错的——到了 1995 年,市面上已经有三四十家公司在做 PC 上的 3D 图形,而 NVIDIA 的方案根本行不通 <button class="pd-ts" data-t="01:19" data-who="Jensen Huang" data-en="Well, for the students who only know NVIDIA as a company at the center of AI, what part of the early NVIDIA story do they most need to understand? The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong." aria-label="回原文"></button>。更扎心的是,他后来才发现,团队里根本没有人知道正确做法是什么。
+从选错技术到靠教科书救命,这是 NVIDIA 创业最关键的一课。故事发生在 1993 年,当时黄仁勋和几个创始人决定重新发明 3D 图形,要把每一台 PC 都变成游戏机。
 
-他的应对方式很反直觉:没有硬撑,而是直接跑去电子零售店买了三本讲 OpenGL 的教科书,带回公司交给工程师。就这样,他们从教科书开始重新学,最终成了现代计算机图形学的世界领导者 <button class="pd-ts" data-t="03:56" data-who="Jensen Huang" data-en="And here we are. We reinvented computer graphics. We're the world leader in modern computer graphics." aria-label="回原文"></button>。他给这段经历总结的教训是:技术本身一直在变,只要你能直面现实、愿意学习,选错技术并不可怕。这句「能有多难呢」(how hard can it be),后来成了他面对所有新领域的口头禅,虽然结果总是比想象的难得多 <button class="pd-ts" data-t="04:53" data-who="Jensen Huang" data-en="And we approach everything with the same attitude. If it's important to do, we're going to go learn it, and how hard can it be? And it always turns out to be much, much harder than..." aria-label="回原文"></button>。
+他们满怀信心地去融资、开公司、设计算法。但结果证明,他们选的那套技术路线从头到尾就是错的——到了 1995 年,市面上已经有三四十家公司在做 PC 上的 3D 图形,而 NVIDIA 的方案根本行不通 <button class="pd-ts" data-t="01:19" data-who="Jensen Huang" data-en="Well, for the students who only know NVIDIA as a company at the center of AI, what part of the early NVIDIA story do they most need to understand? The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong." aria-label="回原文"></button>。更扎心的是,他后来才发现,团队里根本没有人知道正确做法是什么。
 
-这家公司真正的底层信念,其实不是芯片,而是[[加速计算|加速计算]]这套理念。说完了创业初期的技术错误,黄仁勋接着讲了 NVIDIA 能走到今天的核心:一个他们从一开始就押对的大判断。他们最早的洞见是:通用 CPU 虽然有用,但有些问题它解决不了,必须靠加速器(一种专门用来给 CPU 打下手、处理特定高强度计算的硬件)来增强。3D 图形只是第一个应用领域,后来分子动力学、图像处理、深度学习全都成了他们加速的对象 <button class="pd-ts" data-t="05:43" data-who="Jensen Huang" data-en="that you created the thing that people want, like the end product that people want to pay a lot of money for. The big idea of the company that was spot on is that it is possible to augment the CPU to solve problems that otherwise are too difficult to solve." aria-label="回原文"></button>。
+他的应对方式很反直觉:没有硬撑,而是直接跑去电子零售店买了三本讲 OpenGL 的教科书,带回公司交给工程师。就这样,他们从教科书开始重新学,最终成了现代计算机图形学的世界领导者 <button class="pd-ts" data-t="03:56" data-who="Jensen Huang" data-en="And here we are. We reinvented computer graphics. We're the world leader in modern computer graphics." aria-label="回原文"></button>。
+
+他给这段经历总结的教训是:技术本身一直在变,只要你能直面现实、愿意学习,选错技术并不可怕。这句「能有多难呢」(how hard can it be),后来成了他面对所有新领域的口头禅,虽然结果总是比想象的难得多 <button class="pd-ts" data-t="04:53" data-who="Jensen Huang" data-en="And we approach everything with the same attitude. If it's important to do, we're going to go learn it, and how hard can it be? And it always turns out to be much, much harder than..." aria-label="回原文"></button>。
+
+这家公司真正的底层信念,其实不是芯片,而是[[加速计算|加速计算]]这套理念。说完了创业初期的技术错误,黄仁勋接着讲了 NVIDIA 能走到今天的核心:一个他们从一开始就押对的大判断。
+
+他们最早的洞见是:通用 CPU 虽然有用,但有些问题它解决不了,必须靠加速器(一种专门用来给 CPU 打下手、处理特定高强度计算的硬件)来增强。3D 图形只是第一个应用领域,后来分子动力学、图像处理、深度学习全都成了他们加速的对象 <button class="pd-ts" data-t="05:43" data-who="Jensen Huang" data-en="that you created the thing that people want, like the end product that people want to pay a lot of money for. The big idea of the company that was spot on is that it is possible to augment the CPU to solve problems that otherwise are too difficult to solve." aria-label="回原文"></button>。
 
 黄仁勋强调,成就伟大公司的往往不是技术本身,也不是单纯的市场,而是一种你对未来的独特视角,而且你深信不疑,别人还很难做到 <button class="pd-ts" data-t="06:17" data-who="Jensen Huang" data-en="In order to create the company that we have today, we realized early on that it's not about building a great chip, it's about accelerating an algorithm domain. And so one of the things that I've always believed in is what makes great companies is a unique perspective about the world that you deeply believe in." aria-label="回原文"></button>。对 NVIDIA 来说,这个视角就是「加速计算很重要」,而且关键在算法,不在芯片 <button class="pd-ts" data-t="07:00" data-who="Jensen Huang" data-en="And accelerated computing turns out to be very important. And our realization is everything to do with algorithm, not the chip, turns out to be exactly right. So you've said a lot about, I guess, the hardships of a founder." aria-label="回原文"></button>。
 
 AlexNet 一出来,他立刻判断这比所有人想的都大。接着话题转到了 NVIDIA 是怎么抓住 AI 这个机会的。黄仁勋说,他像所有人一样看到了 AlexNet,但因为他一直在用「寻找算法」的视角看世界,所以他立刻意识到,这不仅仅是一个图像识别模型,而是一种叫「[[通用函数近似器|通用函数近似器]]」的东西——简单说,就是只要你给它足够的数据,它就能学会模拟几乎任何事物的规律 <button class="pd-ts" data-t="11:27" data-who="Jensen Huang" data-en="And if you were to scale algorithms and scale it beyond that, what could it solve that otherwise you can't solve today? And the breakthrough for us was realizing that AlexNet was not AlexNet, that AlexNet was an approach with deep learning that allows you to learn any function." aria-label="回原文"></button>。
 
-这种思维方式让他能顺着一条线索推演出整个行业的未来:一旦确认了深度学习可以学习任意函数,他马上开始追问:这会怎么改变计算架构?会催生哪些新行业?几乎紧接着,他们就投入了计算机视觉、机器人和自动驾驶的研究 <button class="pd-ts" data-t="12:28" data-who="Jensen Huang" data-en="So on and so forth. Almost right away, we started working on computer vision. Almost right away, we started working on robotics, self-driving cars, because..." aria-label="回原文"></button>。他把这种从第一性原理出发思考的方式称为对整个计算工业栈的「五层蛋糕」式的重新想象 <button class="pd-ts" data-t="12:54" data-who="Jensen Huang" data-en="This is a way of doing software. and the implications to the processor, the middleware, the algorithms, the applications, what I now describe as the five-layer cake." aria-label="回原文"></button>。
+这种思维方式让他能顺着一条线索推演出整个行业的未来:一旦确认了深度学习可以学习任意函数,他马上开始追问:这会怎么改变计算架构?会催生哪些新行业?
 
-CEO 该不该深入一线细节?他的答案是把公司当成一辆给自己定制的赛车。既然聊到了第一性原理的思考方式,主持人自然问到了一个很多人都好奇的问题:黄仁勋出了名地喜欢深入技术细节、直接跟首席科学家交流,这和传统大公司 CEO 委托下属做汇报的风格很不一样。他怎么在这种「创始人模式」和庞大的组织架构之间取得平衡? <button class="pd-ts" data-t="13:30" data-who="Jensen Huang" data-en="Asking all of the basic questions about something that you observe, that's really impactful. I mean, one of the things that really jumps out at me is to what degree you go all the way into the weeds." aria-label="回原文"></button>
+几乎紧接着,他们就投入了计算机视觉、机器人和自动驾驶的研究 <button class="pd-ts" data-t="12:28" data-who="Jensen Huang" data-en="So on and so forth. Almost right away, we started working on computer vision. Almost right away, we started working on robotics, self-driving cars, because..." aria-label="回原文"></button>。他把这种从第一性原理出发思考的方式称为对整个计算工业栈的「五层蛋糕」式的重新想象 <button class="pd-ts" data-t="12:54" data-who="Jensen Huang" data-en="This is a way of doing software. and the implications to the processor, the middleware, the algorithms, the applications, what I now describe as the five-layer cake." aria-label="回原文"></button>。
 
-黄仁勋的回答是,这一切的原点其实是好奇心——他想搞懂问题,就会自己去找答案。如果这个领域对公司很重要,他就会尽可能学透,然后把 insight 分享给全公司 <button class="pd-ts" data-t="14:52" data-who="Jensen Huang" data-en="And so my first inclination is to go discover the answers to my own curiosity. My second is, if I find that the information and that the domain of information or a particular field could be really important to somebody and could be important to our company, then my next inclination is, how can I learn as much as possible so that I could be of service to the company and share it with everybody else?" aria-label="回原文"></button>。他特别指出,在技术飞速变化的行业里,如果你对底层没有「触觉感知」,一切对你来说都会快得无法理解;但如果你理解了第一性原理,一切就变得合理。他把做 CEO 比作冲浪:你必须亲自下水,学会读懂海浪和风,否则没法保持平衡 <button class="pd-ts" data-t="16:18" data-who="Jensen Huang" data-en="and especially when it's changing fast like our world, unless you have a tactile sensation of what is actually happening, it could either, to you, feel like it's just moving way too fast to understand, but if you understand the first principles of it over time, then everything kind of makes sense." aria-label="回原文"></button>。
+CEO 该不该深入一线细节?他的答案是把公司当成一辆给自己定制的赛车。
+
+既然聊到了第一性原理的思考方式,主持人自然问到了一个很多人都好奇的问题:黄仁勋出了名地喜欢深入技术细节、直接跟首席科学家交流,这和传统大公司 CEO 委托下属做汇报的风格很不一样。他怎么在这种「创始人模式」和庞大的组织架构之间取得平衡? <button class="pd-ts" data-t="13:30" data-who="Jensen Huang" data-en="Asking all of the basic questions about something that you observe, that's really impactful. I mean, one of the things that really jumps out at me is to what degree you go all the way into the weeds." aria-label="回原文"></button>
+
+黄仁勋的回答是,这一切的原点其实是好奇心——他想搞懂问题,就会自己去找答案。如果这个领域对公司很重要,他就会尽可能学透,然后把 insight 分享给全公司 <button class="pd-ts" data-t="14:52" data-who="Jensen Huang" data-en="And so my first inclination is to go discover the answers to my own curiosity. My second is, if I find that the information and that the domain of information or a particular field could be really important to somebody and could be important to our company, then my next inclination is, how can I learn as much as possible so that I could be of service to the company and share it with everybody else?" aria-label="回原文"></button>。
+
+他特别指出,在技术飞速变化的行业里,如果你对底层没有「触觉感知」,一切对你来说都会快得无法理解;但如果你理解了第一性原理,一切就变得合理。他把做 CEO 比作冲浪:你必须亲自下水,学会读懂海浪和风,否则没法保持平衡 <button class="pd-ts" data-t="16:18" data-who="Jensen Huang" data-en="and especially when it's changing fast like our world, unless you have a tactile sensation of what is actually happening, it could either, to you, feel like it's just moving way too fast to understand, but if you understand the first principles of it over time, then everything kind of makes sense." aria-label="回原文"></button>。
 
 对于「不按传统管理学来会怎样」的质疑,他打了一个很妙的比方:CEO 就像 F1 赛车手,你是在造一辆自己要开的车,当然要把车调整到完全贴合你的驾驶习惯和体型。公司就是那辆车,下任 CEO 来了,自然可以根据他自己的性格重新调校 <button class="pd-ts" data-t="17:32" data-who="Jensen Huang" data-en="And one of the things that I learned a long time ago, and I have no idea where I saw this, but the CEO or the founders You're building a car that you are going to race." aria-label="回原文"></button>。在他看来,所谓的「创始人模式」是可以从零扩展到万亿美元规模、沿用几十年的 <button class="pd-ts" data-t="19:00" data-who="Jensen Huang" data-en="Yeah, founder mode. Founder mode could scale for 34 years. That's right." aria-label="回原文"></button>。
 
-最大的新机会不在写代码,而在系统和物理 AI。聊完了他的管理哲学,对谈的后半段进入了更硬核的技术前景探讨。黄仁勋抛出了一个很明确的观点:在 AI 时代,最值钱的能力不再是具体的底层实现,而是「[[系统思维|系统思维]]」。因为那些写代码、做芯片合成的底层工作,未来都会被[[智能体|智能体]](能自己规划任务、调用工具的 AI)自动化掉 <button class="pd-ts" data-t="20:14" data-who="Jensen Huang" data-en="And in fact, just in listening to you talk about technology and your use of it, one of the most important things is systems understanding, systems awareness, system design, system organization, but systems thinking." aria-label="回原文"></button>。人要做的,是更抽象地思考:一个系统的输入输出是什么?信息怎么流动?瓶颈在哪?
+最大的新机会不在写代码,而在系统和物理 AI。聊完了他的管理哲学,对谈的后半段进入了更硬核的技术前景探讨。
 
-他说了一句很妙的话:文本就是智能,言语即思想,你没法脱离语言来思考。这意味着智能体的记忆和自我改进,本质上就是在处理和沉淀这些思想 <button class="pd-ts" data-t="30:06" data-who="Jensen Huang" data-en="I feel like all the alpha is in building your own AI. I mean, if someone else is using whatever is off the shelf, but you have a thing that can recursively self-improve, and it is, you know, I mean, people are very flippant about Markdown files." aria-label="回原文"></button>。但他也指出,目前的智能体最缺的不是变得更聪明,而是「可控制性」——我们能不能在计划文件里精确改一个词,它就只产生增量、特定的差异,而不是推翻重来?在他看来,可控制性是智能体在各个层面最需要的突破 <button class="pd-ts" data-t="23:19" data-who="Jensen Huang" data-en="And then we help it the rest of the way, or it could be 99% we help it the rest of the way. And so I think controllability is probably the single biggest breakthrough that we need for agents at every single level." aria-label="回原文"></button>。
+黄仁勋抛出了一个很明确的观点:在 AI 时代,最值钱的能力不再是具体的底层实现,而是「[[系统思维|系统思维]]」。因为那些写代码、做芯片合成的底层工作,未来都会被[[智能体|智能体]](能自己规划任务、调用工具的 AI)自动化掉 <button class="pd-ts" data-t="20:14" data-who="Jensen Huang" data-en="And in fact, just in listening to you talk about technology and your use of it, one of the most important things is systems understanding, systems awareness, system design, system organization, but systems thinking." aria-label="回原文"></button>。
 
-顺着 AI 的逻辑,他谈到了物理 AI。当他看到生成式 AI 能凭空生成手指移动、手拿杯子的视频时,他立刻意识到:既然能生成视频,为什么不能让机器人照着做?这就是 NVIDIA 押注物理 AI 的起点 <button class="pd-ts" data-t="34:57" data-who="Jensen Huang" data-en="and completely generated by neural networks. And so the moment I saw us generating articulation, if I can generate video of a finger moving, if I could generate video of a hand picking up a glass, why can't I cause a robot to do the same?" aria-label="回原文"></button>。他判断,机器人的「ChatGPT 时刻」其实几年前就已经发生了,接下来要做的是把模拟环境、强化学习(让 AI 通过不断试错来学习的训练方法)和真实物理世界打通 <button class="pd-ts" data-t="36:02" data-who="Jensen Huang" data-en="I would say the ChatGPT moment of robots happened a couple of years ago already. And the reason for that is, remember when ChatGPT first came out, it didn't do anything productive." aria-label="回原文"></button>。他透露,这块业务目前规模已经接近 100 亿美元,未来会成长为全球最大的行业之一 <button class="pd-ts" data-t="38:38" data-who="Jensen Huang" data-en="And so we're working with autonomous vehicles in all kinds of different places. Our robotics business, autonomous vehicle business, basically physical AI business, is probably almost like $10 billion." aria-label="回原文"></button>。而他们选择把自动驾驶技术栈开源,是因为农业、仓储、邮件投递等太多长尾场景都需要它,一家公司吃不下 <button class="pd-ts" data-t="38:10" data-who="Jensen Huang" data-en="We worked on Alpamayo and we open sourced it. And the reason why we open sourced the self-driving car stack is because you need it for agriculture, you need it for mail delivery, you need it for warehouse AMRs." aria-label="回原文"></button>。
+人要做的,是更抽象地思考:一个系统的输入输出是什么?信息怎么流动?瓶颈在哪?
 
-AI 到底消灭工作还是创造工作?看积压的雄心就知道了。话题转到了公众最焦虑的问题。黄仁勋的看法很明确:关于 AI 毁灭工作的叙事是本末倒置的。AI 消除的是「任务」,不是「工作」。一份工作是由许多任务组成的,有些能自动化,有些不能 <button class="pd-ts" data-t="31:47" data-who="Jensen Huang" data-en="The bottom line is this. The evidence would show that, and it makes perfect sense, that AI and automation is creating jobs everywhere. The narrative about AI destroying jobs is exactly backwards." aria-label="回原文"></button>。
+他说了一句很妙的话:文本就是智能,言语即思想,你没法脱离语言来思考。这意味着智能体的记忆和自我改进,本质上就是在处理和沉淀这些思想 <button class="pd-ts" data-t="30:06" data-who="Jensen Huang" data-en="I feel like all the alpha is in building your own AI. I mean, if someone else is using whatever is off the shelf, but you have a thing that can recursively self-improve, and it is, you know, I mean, people are very flippant about Markdown files." aria-label="回原文"></button>。
+
+但他也指出,目前的智能体最缺的不是变得更聪明,而是「可控制性」——我们能不能在计划文件里精确改一个词,它就只产生增量、特定的差异,而不是推翻重来?在他看来,可控制性是智能体在各个层面最需要的突破 <button class="pd-ts" data-t="23:19" data-who="Jensen Huang" data-en="And then we help it the rest of the way, or it could be 99% we help it the rest of the way. And so I think controllability is probably the single biggest breakthrough that we need for agents at every single level." aria-label="回原文"></button>。
+
+顺着 AI 的逻辑,他谈到了物理 AI。当他看到生成式 AI 能凭空生成手指移动、手拿杯子的视频时,他立刻意识到:既然能生成视频,为什么不能让机器人照着做?
+
+这就是 NVIDIA 押注物理 AI 的起点 <button class="pd-ts" data-t="34:57" data-who="Jensen Huang" data-en="and completely generated by neural networks. And so the moment I saw us generating articulation, if I can generate video of a finger moving, if I could generate video of a hand picking up a glass, why can't I cause a robot to do the same?" aria-label="回原文"></button>。他判断,机器人的「ChatGPT 时刻」其实几年前就已经发生了,接下来要做的是把模拟环境、强化学习(让 AI 通过不断试错来学习的训练方法)和真实物理世界打通 <button class="pd-ts" data-t="36:02" data-who="Jensen Huang" data-en="I would say the ChatGPT moment of robots happened a couple of years ago already. And the reason for that is, remember when ChatGPT first came out, it didn't do anything productive." aria-label="回原文"></button>。
+
+他透露,这块业务目前规模已经接近 100 亿美元,未来会成长为全球最大的行业之一 <button class="pd-ts" data-t="38:38" data-who="Jensen Huang" data-en="And so we're working with autonomous vehicles in all kinds of different places. Our robotics business, autonomous vehicle business, basically physical AI business, is probably almost like $10 billion." aria-label="回原文"></button>。而他们选择把自动驾驶技术栈开源,是因为农业、仓储、邮件投递等太多长尾场景都需要它,一家公司吃不下 <button class="pd-ts" data-t="38:10" data-who="Jensen Huang" data-en="We worked on Alpamayo and we open sourced it. And the reason why we open sourced the self-driving car stack is because you need it for agriculture, you need it for mail delivery, you need it for warehouse AMRs." aria-label="回原文"></button>。
+
+AI 到底消灭工作还是创造工作?看积压的雄心就知道了。
+
+话题转到了公众最焦虑的问题。黄仁勋的看法很明确:关于 AI 毁灭工作的叙事是本末倒置的。
+
+AI 消除的是「任务」,不是「工作」。一份工作是由许多任务组成的,有些能自动化,有些不能 <button class="pd-ts" data-t="31:47" data-who="Jensen Huang" data-en="The bottom line is this. The evidence would show that, and it makes perfect sense, that AI and automation is creating jobs everywhere. The narrative about AI destroying jobs is exactly backwards." aria-label="回原文"></button>。
 
 他举了几个扎实的例子:编程任务被自动化了,但软件工程师的岗位数量每年还在增长 10%;AI 能读放射学扫描了,但因为患者积压太多,医院反而能收治更多病人,于是放射科医生的岗位几年内增加了约 20%;AI 渗透了法律行业,律师助理的数量却在疯涨,因为积压的诉讼太多了 <button class="pd-ts" data-t="32:23" data-who="Jensen Huang" data-en="Many of those tasks cannot be. And so the evidence suggests that here we are, we've automated coding, which is a task, but the job of a software engineer appears to be growing, right?" aria-label="回原文"></button>。他的结论是,人类积压的雄心和想法太多了,生产力提升反而会推动增长、带来更多就业。简单的东西会被自动化掉,但硬科学、交叉领域的难题永远在那儿,需要更有野心的人去解 <button class="pd-ts" data-t="41:18" data-who="Jensen Huang" data-en="And the thing that the big takeaway is, of course, the simple stuff is going to get automated away. And when I say simple stuff, I mean software coding. The idea that you would solve a problem by sitting in front of a computer and you're actually writing code, that concept is obviously going to get automated away." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是几句话。第一,创业之初选错技术并不可怕,可怕的是不敢面对现实;只要保持「能有多难」的心态去学,教科书也能教出世界领导者。第二,成就伟大公司的关键,是对未来有独特且深信不疑的洞见,而不是单纯的技术或市场。第三,别被「CEO 该不该管细节」这种传统管理学教条困住,你就是 F1 赛车手,把公司这辆车调到最贴合你的性格和习惯,才是跑得快的关键。第四,AI 消灭的是任务不是工作,因为人类积压的雄心太多了,自动化反而会打开增长和就业的空间。第五,在这个底层代码都会被 AI 写掉的时代,系统思维——也就是能编排成百上千万个智能体、抽象地看清输入输出和瓶颈在哪的能力——才是真正值得年轻人去学的超能力。归根结底,最重要的特质是韧性,别被想象出来的焦虑吓倒,只要挺过今天,一路学下去,剩下的交给时间。
+最后收个尾,这一集值得带走的是几句话。第一,创业之初选错技术并不可怕,可怕的是不敢面对现实;只要保持「能有多难」的心态去学,教科书也能教出世界领导者。
+
+第二,成就伟大公司的关键,是对未来有独特且深信不疑的洞见,而不是单纯的技术或市场。第三,别被「CEO 该不该管细节」这种传统管理学教条困住,你就是 F1 赛车手,把公司这辆车调到最贴合你的性格和习惯,才是跑得快的关键。
+
+第四,AI 消灭的是任务不是工作,因为人类积压的雄心太多了,自动化反而会打开增长和就业的空间。第五,在这个底层代码都会被 AI 写掉的时代,系统思维——也就是能编排成百上千万个智能体、抽象地看清输入输出和瓶颈在哪的能力——才是真正值得年轻人去学的超能力。归根结底,最重要的特质是韧性,别被想象出来的焦虑吓倒,只要挺过今天,一路学下去,剩下的交给时间。
 
 <div class="pd-sec">全部金句 <span>11 条(中英对照,已过机器闸门)</span></div>
 
@@ -126,24 +156,21 @@ AI 到底消灭工作还是创造工作?看积压的雄心就知道了。话题�
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]] —— 同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:NVIDIA · 同概念:智能体 (agents)
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:NVIDIA
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)</span>
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agents)</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT
-- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同公司:NVIDIA · 同概念:深度学习 (deep learning)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:智能体 (agents)、系统思维 (systems thinking)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT</span>
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同公司:NVIDIA · 同概念:深度学习 (deep learning)</span>
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:智能体 (agents)、系统思维 (systems thinking)</span>
 
 </div>
 </div>
-
-*本集关键词:加速计算 · 智能体 · 物理 AI · 系统思维 · 开源模型*
-
 <script>
 (function(){
   function move(){

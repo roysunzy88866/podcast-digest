@@ -39,23 +39,49 @@ tags:
 
 在这场面向数千名 AI 工程师的对谈中，OpenAI 的 Alexander 和 Romain 讲了他们如何看待工程的未来，以及产品该怎么随之进化；随后登台的 [[Peter Steinberger|Peter Steinberger]]（开发者圈子里被称为 Claw Father）则用亲身经历，勾勒出了一套与智能体大军协作的全新工作范式。你会听到三块内容：第一，OpenAI 为什么坚信「工程师不但不会消失，反而迎来了最好的时代」，以及他们怎么把 [[Codex|Codex]]（OpenAI 的代码智能体）做成一个彻底开放、任何人都能在其上搭建生态的底层平台；第二，当模型跑得足够快、足够便宜时，人受限于「注意力」这个终极瓶颈该怎么办；第三，一组关于未来的具体预测——未来的编程长什么样、智能体以何种形态存在、以及工程师该把精力投向何处。
 
-说完了这一集大概在讲什么，接下来先看 OpenAI 团队抛出的核心主张。现场抛出的一个反共识判断是：编程的抽象程度越来越高，但这绝不意味着工程师会被淘汰，相反，现在恰恰是做工程师最好的时候。理由很简单：工程的核心从来不是把代码敲出来，而是用科学、设计和想象力去解决问题。当模型把「写代码并自我验证」这件事包揽后，人反而能腾出手来，做更多的原型尝试，花更多时间去真正理解用户，从而在「该建什么」这种核心决策上做得更好 <button class="pd-ts" data-t="05:04" data-who="Alexander" data-en="So with all of this, of course we can move much faster, but to me as a product person, the most exciting thing is actually that we make better decisions around what to build." aria-label="回原文"></button>。注意这里提到的 Codex，它是 OpenAI 推出的代码智能体，核心能力是不仅能写代码，还能在沙箱（一种与主系统隔离的安全执行环境）里运行代码、做测试验证，甚至自己跑完整的「构建-测试」闭环。两年前，模型还无法运行自己写的代码，演示时必须祈祷一切顺利；而到了现在，模型已经能独立承担起长周期、高难度的目标，直到把任务彻底跑完。
+说完了这一集大概在讲什么，接下来先看 OpenAI 团队抛出的核心主张。现场抛出的一个反共识判断是：编程的抽象程度越来越高，但这绝不意味着工程师会被淘汰，相反，现在恰恰是做工程师最好的时候。
 
-既然模型这么强了，产品该怎么顺势进化？这正是接下来的话题。OpenAI 团队认为，未来的 AI 协作产品应该有两种核心模式：一种是随时随地的「聊天」，另一种是让人能随时介入细节的「[[协作界面|协作界面]]」。这个理念背后的洞察是：就像和真人团队共事一样，大多数时候你只需要聊几句，放手让队友去干；只有偶尔遇到棘手问题，你才需要凑到工作台前一起死磕细节 <button class="pd-ts" data-t="07:34" data-who="Alexander" data-en="You don't actually want to watch over the shoulder or have to walk over to the workbench of your teammate for every single unit of work. Mostly, you just want to talk and let them cook." aria-label="回原文"></button>。为此他们专门打造了 Codex 应用——你可以通过简单的聊天下达指令，也可以随时进入协作界面，指着具体的某行代码做调整。有意思的是，这个产品刚提出时，被不少坚持只在终端（黑框命令行）里敲代码的资深工程师嗤之以鼻；但现在，那些曾经信誓旦旦绝不离开终端的人，却成了这款应用的重度用户。因为在终端里很难做复杂协作，而传统的集成开发环境（IDE，写代码的专用软件）顺序又错了——它让人一上来就陷进代码里，而不是先跟「队友」沟通需求。
+理由很简单：工程的核心从来不是把代码敲出来，而是用科学、设计和想象力去解决问题。当模型把「写代码并自我验证」这件事包揽后，人反而能腾出手来，做更多的原型尝试，花更多时间去真正理解用户，从而在「该建什么」这种核心决策上做得更好 <button class="pd-ts" data-t="05:04" data-who="Alexander" data-en="So with all of this, of course we can move much faster, but to me as a product person, the most exciting thing is actually that we make better decisions around what to build." aria-label="回原文"></button>。
 
-讲完了产品理念，那么这套生态具体是怎么搭起来的？OpenAI 给出的答案是「彻底的开放与分层」。从最底层的模型 API，到中间层的 Codex [[测试框架|harness]]（控制智能体行为的核心调度框架），再到上层的应用服务，OpenAI 都选择了开源或对外开放。这意味着，他们用来构建 Codex 应用的工具，和交给全体开发者的工具是完全一样的。每当 Codex 需要什么新功能——比如处理长任务的「上下文[[压缩|压缩]]」（为了适应长时间运行的任务，把冗长的背景对话信息浓缩存储），他们都会先把它做进 API 里，让所有开发者都能平等使用 <button class="pd-ts" data-t="10:30" data-who="Romain" data-en="Codex needed a way to compact long contexts for long-running tasks, and so we built that into the API. So that means your agents can use the same primitives that we built for ourselves." aria-label="回原文"></button>。不仅如此，为了让生态繁荣，他们甚至开发了特定角色（比如数据科学、设计）的插件，并且全都是开源的。这样做的结果是，任何人都可以用现有的订阅，在各种第三方工具（如 OpenCode、Xcode、JetBrains）里无缝接入这个智能体生态。
+注意这里提到的 Codex，它是 OpenAI 推出的代码智能体，核心能力是不仅能写代码，还能在沙箱（一种与主系统隔离的安全执行环境）里运行代码、做测试验证，甚至自己跑完整的「构建-测试」闭环。两年前，模型还无法运行自己写的代码，演示时必须祈祷一切顺利；而到了现在，模型已经能独立承担起长周期、高难度的目标，直到把任务彻底跑完。
+
+既然模型这么强了，产品该怎么顺势进化？这正是接下来的话题。
+
+OpenAI 团队认为，未来的 AI 协作产品应该有两种核心模式：一种是随时随地的「聊天」，另一种是让人能随时介入细节的「[[协作界面|协作界面]]」。这个理念背后的洞察是：就像和真人团队共事一样，大多数时候你只需要聊几句，放手让队友去干；只有偶尔遇到棘手问题，你才需要凑到工作台前一起死磕细节 <button class="pd-ts" data-t="07:34" data-who="Alexander" data-en="You don't actually want to watch over the shoulder or have to walk over to the workbench of your teammate for every single unit of work. Mostly, you just want to talk and let them cook." aria-label="回原文"></button>。
+
+为此他们专门打造了 Codex 应用——你可以通过简单的聊天下达指令，也可以随时进入协作界面，指着具体的某行代码做调整。有意思的是，这个产品刚提出时，被不少坚持只在终端（黑框命令行）里敲代码的资深工程师嗤之以鼻；但现在，那些曾经信誓旦旦绝不离开终端的人，却成了这款应用的重度用户。因为在终端里很难做复杂协作，而传统的集成开发环境（IDE，写代码的专用软件）顺序又错了——它让人一上来就陷进代码里，而不是先跟「队友」沟通需求。
+
+讲完了产品理念，那么这套生态具体是怎么搭起来的？OpenAI 给出的答案是「彻底的开放与分层」。
+
+从最底层的模型 API，到中间层的 Codex [[测试框架|harness]]（控制智能体行为的核心调度框架），再到上层的应用服务，OpenAI 都选择了开源或对外开放。这意味着，他们用来构建 Codex 应用的工具，和交给全体开发者的工具是完全一样的。
+
+每当 Codex 需要什么新功能——比如处理长任务的「上下文[[压缩|压缩]]」（为了适应长时间运行的任务，把冗长的背景对话信息浓缩存储），他们都会先把它做进 API 里，让所有开发者都能平等使用 <button class="pd-ts" data-t="10:30" data-who="Romain" data-en="Codex needed a way to compact long contexts for long-running tasks, and so we built that into the API. So that means your agents can use the same primitives that we built for ourselves." aria-label="回原文"></button>。不仅如此，为了让生态繁荣，他们甚至开发了特定角色（比如数据科学、设计）的插件，并且全都是开源的。这样做的结果是，任何人都可以用现有的订阅，在各种第三方工具（如 OpenCode、Xcode、JetBrains）里无缝接入这个智能体生态。
 
 说完了 OpenAI 的平台蓝图，接下来有请特别嘉宾 Peter Steinberger 登台，讲讲一个顶级开发者的真实工作流演变。Peter 在社区里被称为 Claw Father，他几个月前还在同时管理 10 多个终端窗口，像一个调度器一样，时刻盯着哪个智能体干完了活，好赶紧给它派新任务。但他后来意识到，自己以为在做系统编排（指挥多任务协同），其实是在做轮询（不停挨个去问状态、等结果），这不仅低效，而且把自己变成了系统的路由器和内存 <button class="pd-ts" data-t="19:33" data-who="Peter" data-en="I was the scheduler, the router, and the memory. You know, at first, I paired with one agent. With 10 terminals, I was no longer pairing." aria-label="回原文"></button>。
 
-这种困境怎么破？这正是 Peter 接着要讲的核心方法论。如今，他的工作方式变了：他主要只跟一个长期在线的「管理者」智能体对话，由这个管理者把任务分派给底下的多个工作者智能体去执行。这种跨级管理之所以能跑通，是因为三个关键能力的成熟：第一是「[[持久化上下文|持久化上下文]]」（让智能体在长时间待命时记住背景信息和历史决策）；第二是「[[委托|委托]]」（一个中枢线程能创建并引导具体的子任务）；第三是「触发器」（比如有新需求提交时，自动唤醒对应的管理者）<button class="pd-ts" data-t="20:32" data-who="Peter" data-en="So we have persistent context, delegation, and triggers. There's your loop. And once the loop starts working, you discover the next problem." aria-label="回原文"></button>。
+这种困境怎么破？这正是 Peter 接着要讲的核心方法论。
 
-放手让智能体去干，听起来美好，但人该怎么配合？这正是下一个话题。Peter 发现，随着这套系统跑起来，瓶颈也在不断转移。一开始他受限于模型消耗的额度；后来额度管够，计算力又成了瓶颈（本地的电脑跑得像喷气发动机）；再后来，算力也解决了，他发现自己受限于「注意力」——与算力不同，人的注意力是没法简单扩容的。过去人必须死盯着屏幕，一旦模型跑偏就立刻按 Escape 打断重导；但现在的模型已经足够聪明，会自己理解意图，再盯着它敲代码纯属浪费时间。所以他现在的做法是：有需求提交时，管理者智能体醒来判断是否合理，然后交给工作者去实现、跑测试，最后再由审查智能体复核。在这个过程中，人完全不需要去看那些中间过程。只有当管理者真正需要决策时，才会给 Peter 返回一个包含提议改动、运行视频甚至可以实时远程登录查看的构建结果。此时人只做一次最终审查和决策即可。一句话总结：智能体跑内部执行[[循环|循环]]，人只负责设定方向和做外部决策 <button class="pd-ts" data-t="23:14" data-who="Peter" data-en="I set the direction and I make decisions in the outer loop. You know, Paul Salt is already running a version of this. He pinned his chief of staff, it wakes up every 10 minutes and it coordinates his GitHub work." aria-label="回原文"></button>。
+如今，他的工作方式变了：他主要只跟一个长期在线的「管理者」智能体对话，由这个管理者把任务分派给底下的多个工作者智能体去执行。这种跨级管理之所以能跑通，是因为三个关键能力的成熟：第一是「[[持久化上下文|持久化上下文]]」（让智能体在长时间待命时记住背景信息和历史决策）；第二是「[[委托|委托]]」（一个中枢线程能创建并引导具体的子任务）；第三是「触发器」（比如有新需求提交时，自动唤醒对应的管理者）<button class="pd-ts" data-t="20:32" data-who="Peter" data-en="So we have persistent context, delegation, and triggers. There's your loop. And once the loop starts working, you discover the next problem." aria-label="回原文"></button>。
 
-这套工作流已经很极致了，那未来的终点又在哪里？这正是下一个话题。Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑死在某台笔记本或某个具体的 App 里。它应该是一个随时可调用的实体——你可以给它发短信、在 Slack 里引导它，或者在世界任何角落听到它的汇报。更进一步，你甚至不需要操心这活儿是在本地机器上跑还是在云端跑，智能体自己会判断环境需求，并知道该去哪里获取算力。
+放手让智能体去干，听起来美好，但人该怎么配合？这正是下一个话题。
+
+Peter 发现，随着这套系统跑起来，瓶颈也在不断转移。一开始他受限于模型消耗的额度；后来额度管够，计算力又成了瓶颈（本地的电脑跑得像喷气发动机）；再后来，算力也解决了，他发现自己受限于「注意力」——与算力不同，人的注意力是没法简单扩容的。
+
+过去人必须死盯着屏幕，一旦模型跑偏就立刻按 Escape 打断重导；但现在的模型已经足够聪明，会自己理解意图，再盯着它敲代码纯属浪费时间。所以他现在的做法是：有需求提交时，管理者智能体醒来判断是否合理，然后交给工作者去实现、跑测试，最后再由审查智能体复核。
+
+在这个过程中，人完全不需要去看那些中间过程。只有当管理者真正需要决策时，才会给 Peter 返回一个包含提议改动、运行视频甚至可以实时远程登录查看的构建结果。
+
+此时人只做一次最终审查和决策即可。一句话总结：智能体跑内部执行[[循环|循环]]，人只负责设定方向和做外部决策 <button class="pd-ts" data-t="23:14" data-who="Peter" data-en="I set the direction and I make decisions in the outer loop. You know, Paul Salt is already running a version of this. He pinned his chief of staff, it wakes up every 10 minutes and it coordinates his GitHub work." aria-label="回原文"></button>。
+
+这套工作流已经很极致了，那未来的终点又在哪里？这正是下一个话题。
+
+Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑死在某台笔记本或某个具体的 App 里。它应该是一个随时可调用的实体——你可以给它发短信、在 Slack 里引导它，或者在世界任何角落听到它的汇报。更进一步，你甚至不需要操心这活儿是在本地机器上跑还是在云端跑，智能体自己会判断环境需求，并知道该去哪里获取算力。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三句话。第一，别再担心工程师会消失，既然 AI 已经把「构建-测试」的闭环跑通了，人就能从写代码的劳作中解放出来，把精力全放在理解用户和决定「该建什么」这种真正需要品味和判断力的事情上。第二，想要把智能体大军的威力真正发挥出来，必须从微操思维切换到委派思维，给目标、给护栏、给验证标准，然后彻底放手，让人只做那一次最重要的外部审查和决策。第三，无论多强的智能体，最后都会撞上人类「注意力有限」这个无法扩容的终极瓶颈，所以今天最值钱的能力，就是果断决定把你的注意力花在哪里。别忘了，工具再强也只是内部循环，设定方向的那个外部循环，永远属于你。
+最后收个尾，这一集值得带走的是三句话。第一，别再担心工程师会消失，既然 AI 已经把「构建-测试」的闭环跑通了，人就能从写代码的劳作中解放出来，把精力全放在理解用户和决定「该建什么」这种真正需要品味和判断力的事情上。
+
+第二，想要把智能体大军的威力真正发挥出来，必须从微操思维切换到委派思维，给目标、给护栏、给验证标准，然后彻底放手，让人只做那一次最重要的外部审查和决策。第三，无论多强的智能体，最后都会撞上人类「注意力有限」这个无法扩容的终极瓶颈，所以今天最值钱的能力，就是果断决定把你的注意力花在哪里。别忘了，工具再强也只是内部循环，设定方向的那个外部循环，永远属于你。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -94,24 +120,21 @@ tags:
 
 **顺着「智能体」挖下去**
 
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同嘉宾:Peter Steinberger · 同概念:Codex、智能体 (agent)
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:OpenAI · 同概念:harness、智能体 (agent)
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]] —— 同概念:harness、智能体 (agent)、Codex
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同嘉宾:Peter Steinberger · 同概念:Codex、智能体 (agent)</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:harness、智能体 (agent)</span>
+- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:harness、智能体 (agent)、Codex</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同公司:OpenAI · 同概念:Codex、智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:Codex、智能体 (agent)
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、智能体 (agent)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:Codex、智能体 (agent)</span>
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 工程师 · 智能体 · 编程范式 · 人机协作 · 注意力瓶颈*
-
 <script>
 (function(){
   function move(){

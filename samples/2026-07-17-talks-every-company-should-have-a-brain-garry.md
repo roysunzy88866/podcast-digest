@@ -52,21 +52,31 @@ tags:
 
 他把计算分为两类空间。第一类是「潜在空间(latent space,即大语言模型内部的概率空间)」,也就是大模型本身,你用它来处理品味、判断力,以及理解人类说一些模糊的话时真正想要什么 <button class="pd-ts" data-t="09:04" data-who="Garry" data-en="It's happening almost always in two different places, and all of the bugs, all of the AI engineering that we run into that's a problem, it's usually because something is happening in one side of the equation that should be in the other." aria-label="回原文"></button>。第二类是「[[确定性空间|确定性空间]]」,也就是传统工程师熟悉的领域,比如让智能体去写 TypeScript <button class="pd-ts" data-t="09:22" data-who="Garry" data-en="The non-deterministic calls the computation that lives in the model, and you steer it with the markdown file. And then deterministic space is what engineers know, like your code agents go off and write TypeScript, or maybe they're writing Erlang if you're using Elixir." aria-label="回原文"></button>。
 
-Garry 举了他们办活动遇到的真实难题:要把 800 个人完美地聚在一起安排座位,让每个人左右两边都是最该认识的人。这种对多维数组的海量计算,绝对不能放在模型的「上下文窗口」里去做,而是要放在确定性空间。模型只负责像人类一样去判断和匹配 <button class="pd-ts" data-t="10:02" data-who="Garry" data-en="We have to do that in deterministic space combined with latent space. This computation, this actual storage of where everyone is inside this multidimensional array of 800 seats," aria-label="回原文"></button>。结果呢?原本可能需要一个月的体力活,现在大概花几百美元的 token(模型处理信息的计费单位)和 10 分钟就能搞定 <button class="pd-ts" data-t="10:35" data-who="Garry" data-en="Only now it can all happen in your computer. And instead of taking a month, you might be able to do it couple hundred dollars worth of tokens and probably 10 minutes." aria-label="回原文"></button>。
+Garry 举了他们办活动遇到的真实难题:要把 800 个人完美地聚在一起安排座位,让每个人左右两边都是最该认识的人。这种对多维数组的海量计算,绝对不能放在模型的「上下文窗口」里去做,而是要放在确定性空间。
+
+模型只负责像人类一样去判断和匹配 <button class="pd-ts" data-t="10:02" data-who="Garry" data-en="We have to do that in deterministic space combined with latent space. This computation, this actual storage of where everyone is inside this multidimensional array of 800 seats," aria-label="回原文"></button>。结果呢?原本可能需要一个月的体力活,现在大概花几百美元的 token(模型处理信息的计费单位)和 10 分钟就能搞定 <button class="pd-ts" data-t="10:35" data-who="Garry" data-en="Only now it can all happen in your computer. And instead of taking a month, you might be able to do it couple hundred dollars worth of tokens and probably 10 minutes." aria-label="回原文"></button>。
 
 ### 工作记忆与公司大脑:决定智能体是天才还是金鱼
 
-明确了任务边界,接下来的核心问题是:我们如何管理智能体所知道的信息?这就引出了 Garry 最喜欢的一个类比。认知心理学里有个著名理论,人类的[[工作记忆|工作记忆]]一次只能在大脑里存住大约七样东西(7 加减 2),这就是为什么电话号码通常是七位数 <button class="pd-ts" data-t="10:53" data-who="Garry" data-en="These are things that you couldn't do even, I don't know, six months ago. Which brings me to working memory and that's sort of my favorite way to understand it is you and I, human beings, we only hold about seven things in our head at once." aria-label="回原文"></button>。他感慨道,人类历史上建立的每一个机构、清单和档案柜,本质上都是为了弥补这个七位数大脑的缺陷而制造的假肢 <button class="pd-ts" data-t="11:22" data-who="Garry" data-en="That's the entire working memory, generally, of a human being. And every institution humanity has ever built, every checklist, every org chart, every filing cabinet is a prosthetic for that limit." aria-label="回原文"></button>。
+明确了任务边界,接下来的核心问题是:我们如何管理智能体所知道的信息?这就引出了 Garry 最喜欢的一个类比。
+
+认知心理学里有个著名理论,人类的[[工作记忆|工作记忆]]一次只能在大脑里存住大约七样东西(7 加减 2),这就是为什么电话号码通常是七位数 <button class="pd-ts" data-t="10:53" data-who="Garry" data-en="These are things that you couldn't do even, I don't know, six months ago. Which brings me to working memory and that's sort of my favorite way to understand it is you and I, human beings, we only hold about seven things in our head at once." aria-label="回原文"></button>。他感慨道,人类历史上建立的每一个机构、清单和档案柜,本质上都是为了弥补这个七位数大脑的缺陷而制造的假肢 <button class="pd-ts" data-t="11:22" data-who="Garry" data-en="That's the entire working memory, generally, of a human being. And every institution humanity has ever built, every checklist, every org chart, every filing cabinet is a prosthetic for that limit." aria-label="回原文"></button>。
 
 > 【背景】演讲中提到的 OpenClaw、OpenClan、cloud code 均为语音识别对 Claude Code(知名 AI 编程工具)的误写;Hermes 是搭配使用的智能体框架。演讲者自研的知识工具实际名称为 Gbrain。
 
 但 Garry 指出,一个 AI 智能体能装下一百万个 token,这大约相当于 1000 页书,或者像三本《哈利·波特》同时摊开在脑子里,它能在几秒钟内从中找到线索并综合分析 <button class="pd-ts" data-t="11:35" data-who="Garry" data-en="It's kind of a wild thing to think about. But an AI agent holds a million tokens. That's about 1,000 pages." aria-label="回原文"></button>。这是否意味着已经是通用人工智能(AGI)了?也许不是,但已经是一个完全不同的运行机制了。
 
-然而,挑战在于「三本书虽然很多,但远远不够」。你的整个公司就是一座巨大的图书馆,包含每一封邮件、会议和决策。Garry 一针见血地指出:决定你的智能体是天才还是金鱼的,是谁来决定在那张桌子上打开哪三本书 <button class="pd-ts" data-t="12:39" data-who="Garry" data-en="Every email, every meeting, every decision, it's reasoning, every customer, every conversation, every postmortem. The question that determines whether your agents are geniuses or goldfish is who decides which three books" aria-label="回原文"></button>。这就是「[[上下文工程|上下文工程]](context engineering,设计和管理喂给模型的背景信息的技术)」的核心。
+然而,挑战在于「三本书虽然很多,但远远不够」。你的整个公司就是一座巨大的图书馆,包含每一封邮件、会议和决策。
 
-他引出了「公司大脑」的概念:它不只是图书馆,更是「图书馆加图书管理员」 <button class="pd-ts" data-t="12:53" data-who="Garry" data-en="That's context engineering. And this is what a company brain is. It's the library plus the librarian." aria-label="回原文"></button>。虽然这听起来很像企业界熟知的 [[RAG|RAG]](检索增强生成,一种让模型先检索外部知识再回答的技术),但 Garry 认为,检索只是原语,最难的是「值得被检索」。什么内容该写进知识库?什么是热内存,什么是冷参考?新旧信息冲突时谁来仲裁?
+Garry 一针见血地指出:决定你的智能体是天才还是金鱼的,是谁来决定在那张桌子上打开哪三本书 <button class="pd-ts" data-t="12:39" data-who="Garry" data-en="Every email, every meeting, every decision, it's reasoning, every customer, every conversation, every postmortem. The question that determines whether your agents are geniuses or goldfish is who decides which three books" aria-label="回原文"></button>。这就是「[[上下文工程|上下文工程]](context engineering,设计和管理喂给模型的背景信息的技术)」的核心。
 
-Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的检索层,专门负责决定加载哪三本书)最初只是一满屋子的书,现在已经长成了一个拥有 22 万页的巨大仓库,主要由他的智能体从过去 20 年的笔记、邮件和会议中提炼编写 <button class="pd-ts" data-t="13:28" data-who="Garry" data-en="from is the product. So I've been building mine in the open, it's called gbrain, it works with any harness, but it loves OpenClan Hermes agent, it's effectively Postgres for agents, a retrieval layer whose job is to figure out for any task, what three books should be loaded into the agent's head." aria-label="回原文"></button>。现在,只要有一位创始人给他发邮件求助,还没等他读完邮件,智能体就已经拉取了这位创始人的所有过往对话、撞过同一堵墙的其他三家被投公司,以及当时真正奏效的方法 <button class="pd-ts" data-t="14:00" data-who="Garry" data-en="And that's the point, it's my second brain. And when a founder emails me about a crisis, before I start reading this, before I even finish reading that email, My agent has already pulled every prior conversation with that founder, three portfolio companies that hit the same wall, and what actually worked for those people." aria-label="回原文"></button>。「它做每一件事都知道我已经知道什么,这就是助手和同事的区别。」
+他引出了「公司大脑」的概念:它不只是图书馆,更是「图书馆加图书管理员」 <button class="pd-ts" data-t="12:53" data-who="Garry" data-en="That's context engineering. And this is what a company brain is. It's the library plus the librarian." aria-label="回原文"></button>。虽然这听起来很像企业界熟知的 [[RAG|RAG]](检索增强生成,一种让模型先检索外部知识再回答的技术),但 Garry 认为,检索只是原语,最难的是「值得被检索」。
+
+什么内容该写进知识库?什么是热内存,什么是冷参考?新旧信息冲突时谁来仲裁?
+
+Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的检索层,专门负责决定加载哪三本书)最初只是一满屋子的书,现在已经长成了一个拥有 22 万页的巨大仓库,主要由他的智能体从过去 20 年的笔记、邮件和会议中提炼编写 <button class="pd-ts" data-t="13:28" data-who="Garry" data-en="from is the product. So I've been building mine in the open, it's called gbrain, it works with any harness, but it loves OpenClan Hermes agent, it's effectively Postgres for agents, a retrieval layer whose job is to figure out for any task, what three books should be loaded into the agent's head." aria-label="回原文"></button>。现在,只要有一位创始人给他发邮件求助,还没等他读完邮件,智能体就已经拉取了这位创始人的所有过往对话、撞过同一堵墙的其他三家被投公司,以及当时真正奏效的方法 <button class="pd-ts" data-t="14:00" data-who="Garry" data-en="And that's the point, it's my second brain. And when a founder emails me about a crisis, before I start reading this, before I even finish reading that email, My agent has already pulled every prior conversation with that founder, three portfolio companies that hit the same wall, and what actually worked for those people." aria-label="回原文"></button>。
+
+「它做每一件事都知道我已经知道什么,这就是助手和同事的区别。」
 
 公司大脑显然也有失败模式:一个没人精心维护的大脑会变成垃圾场,糟糕的搜索会极度自信地检索出一个早已过时的陈旧事实 <button class="pd-ts" data-t="14:30" data-who="Garry" data-en="Company brains do have failure modes. A brain nobody curates becomes a garbage dump with great search retrieval will surface a stale fact with total confidence." aria-label="回原文"></button>。因此,这个系统不仅是记忆,还必须加上卫生:每个事实都要有来源,新旧信息冲突要核查,还需要一个由人和智能体共同担任的图书管理员来做修剪 <button class="pd-ts" data-t="14:49" data-who="Garry" data-en="So the primitive is not memory. It's memory plus hygiene, provenance on every fact, contradiction checks when new information collides with the old, and a librarian, human plus agent, whose actual job is pruning." aria-label="回原文"></button>。
 
@@ -74,11 +84,15 @@ Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的
 
 维护公司大脑的方法论听起来宏大,具体落实到个人习惯该怎么做?Garry 给出了一个极简的操作指令:永远不要做一次性工作 <button class="pd-ts" data-t="15:23" data-who="Garry" data-en="That's my signature. move, and it's what I say to every YC company and everyone inside YC, which is never do one-off work. You can open OpenClaw, you can open your harness, you do some work, but then when you're happy, and it'll come back, it's kind of a bad job, it's kind of like an intern that's not that good, but the great thing is you can just say, hey, I didn't like that, fix it, right?" aria-label="回原文"></button>。
 
-你可以打开工具,让智能体去干活,如果干得不好你可以让它重修。但关键是:当你对结果满意时,绝不能止步于此,而是要把它 Skillify([[技能化|技能化]]) <button class="pd-ts" data-t="15:52" data-who="Garry" data-en="You actually need to, at the end of that task, Skillify it. And so I have a blog post on X about that." aria-label="回原文"></button>。你可以搜索 Skillify it 获取他公开的技能文件,把刚刚做完的零散工作直接变成一个可复用的技能加载进你的系统。因为如果同一件事你必须让 AI 做两次,你就失败了。只有像这样捕捉学习成果的组织,每一天都在复利增长;否则,无论模型多好,你的公司每天早上醒来都在失忆 <button class="pd-ts" data-t="16:29" data-who="Garry" data-en="The organization that captures what it learns like this gets smarter every single day. The one that doesn't wakes up every morning with amnesia, no matter how good the model is." aria-label="回原文"></button>。
+你可以打开工具,让智能体去干活,如果干得不好你可以让它重修。但关键是:当你对结果满意时,绝不能止步于此,而是要把它 Skillify([[技能化|技能化]]) <button class="pd-ts" data-t="15:52" data-who="Garry" data-en="You actually need to, at the end of that task, Skillify it. And so I have a blog post on X about that." aria-label="回原文"></button>。
+
+你可以搜索 Skillify it 获取他公开的技能文件,把刚刚做完的零散工作直接变成一个可复用的技能加载进你的系统。因为如果同一件事你必须让 AI 做两次,你就失败了。只有像这样捕捉学习成果的组织,每一天都在复利增长;否则,无论模型多好,你的公司每天早上醒来都在失忆 <button class="pd-ts" data-t="16:29" data-who="Garry" data-en="The organization that captures what it learns like this gets smarter every single day. The one that doesn't wakes up every morning with amnesia, no matter how good the model is." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,别再当 2 倍产出的工程师了,同样的模型能产生 100 倍的杠杆,秘诀不在于死磕权重,而在于你如何组织工作——把技能文件当员工,把规则表当组织架构,把评估当绩效考核。第二,人类的工作记忆只有七位数,而智能体能装下三本书,但你的公司是一座图书馆,决定智能体水平的关键是谁来担任图书管理员,精心维护事实的来源和新旧更替。第三,每次让 AI 完成一项满意的工作后,永远记住把它技能化(Skillify),绝不重复做一次性工作。如果你 25 岁,他给的最大机会就是去建造那个记忆层——每一家公司都将需要的大脑。
+最后收个尾,这一集值得带走的是三句话。第一,别再当 2 倍产出的工程师了,同样的模型能产生 100 倍的杠杆,秘诀不在于死磕权重,而在于你如何组织工作——把技能文件当员工,把规则表当组织架构,把评估当绩效考核。
+
+第二,人类的工作记忆只有七位数,而智能体能装下三本书,但你的公司是一座图书馆,决定智能体水平的关键是谁来担任图书管理员,精心维护事实的来源和新旧更替。第三,每次让 AI 完成一项满意的工作后,永远记住把它技能化(Skillify),绝不重复做一次性工作。如果你 25 岁,他给的最大机会就是去建造那个记忆层——每一家公司都将需要的大脑。
 
 <div class="pd-sec">全部金句 <span>14 条(中英对照,已过机器闸门)</span></div>
 
@@ -145,24 +159,21 @@ Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)、Codex
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:智能体 (agent)、Codex
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同概念:智能体 (agent)、Codex
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:智能体 (agent)、Codex</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:智能体 (agent)、Codex</span>
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:智能体 (agent)、Codex</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]] —— 同概念:RAG、智能体 (agent)
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:智能体 (agent)、Codex
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
+- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同概念:RAG、智能体 (agent)</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:智能体 (agent)、Codex</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 原生公司 · 智能体 · 上下文工程 · 技能化 · 公司大脑*
-
 <script>
 (function(){
   function move(){

@@ -44,17 +44,25 @@ Yelp 上排名第一的牙医,每个月要花 200 个小时亲手处理保险理
 
 ## 软件的真相:从存文件柜到直接干活
 
-要理解 Lassie 为什么是个大机会,得先听 Alex Rampell 讲的一段「软件史」。他的判断很反直觉:过去几十年的企业软件,其实没让世界变得多高效 <button class="pd-ts" data-t="08:28" data-who="Alex Rampell" data-en="But people still had to do the work. So I would actually argue that the world didn't get that much more efficient with software. Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?" aria-label="回原文"></button>。理由是,早期的软件做的事情只是「把纸质文件柜变成数字数据库」——比如航空公司的订座系统、人力资源档案、财务账本。信息存进去了,但活儿还得人来干。1950 年一家公司 HR 部门的人数,跟 2000 年同样规模的公司差不多 <button class="pd-ts" data-t="08:49" data-who="Alex Rampell" data-en="Like, I don't think so, because the same number of people worked in HR for the exact same size company in 1950 as probably 2000. And instead of using filing cabinets that are guarded by Stein and Frederick, you know..." aria-label="回原文"></button>。
+要理解 Lassie 为什么是个大机会,得先听 Alex Rampell 讲的一段「软件史」。他的判断很反直觉:过去几十年的企业软件,其实没让世界变得多高效 <button class="pd-ts" data-t="08:28" data-who="Alex Rampell" data-en="But people still had to do the work. So I would actually argue that the world didn't get that much more efficient with software. Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?" aria-label="回原文"></button>。
 
-但现在的 AI 改变了游戏规则:软件不再只是「存数据的笨管道」,它能直接去执行操作了——比如自动跑去做员工背景调查、自动打电话催款。Alex 的判断是:干活的劳动力市场,比存信息的市场要大好几个数量级 <button class="pd-ts" data-t="09:48" data-who="Alex Rampell" data-en="So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on. So that's been the thesis. And you need the technology to catch up so it can actually do it." aria-label="回原文"></button>。更关键的一点是,在很多时候你根本找不到人来干这个活。美国有大约 16 万家牙科诊所,每家每年在行政上花约 20 万美元,但老板就是招不到人 <button class="pd-ts" data-t="14:33" data-who="Stein Pella" data-en="And we also see that. So, like, there are about, like, 160,000 dental practices in the U.S. alone. And, like, they spend roughly $200,000 a year on, like, administrative costs." aria-label="回原文"></button>。一个全美第一的牙医被文书活逼得要退休,不是因为 AI 抢饭碗,是因为没人愿意干这些活 <button class="pd-ts" data-t="12:46" data-who="Alex Rampell" data-en="And now he's out of the dentistry business. So he saw this announcement. He's like, oh my God, this is amazing." aria-label="回原文"></button>。
+理由是,早期的软件做的事情只是「把纸质文件柜变成数字数据库」——比如航空公司的订座系统、人力资源档案、财务账本。信息存进去了,但活儿还得人来干。1950 年一家公司 HR 部门的人数,跟 2000 年同样规模的公司差不多 <button class="pd-ts" data-t="08:49" data-who="Alex Rampell" data-en="Like, I don't think so, because the same number of people worked in HR for the exact same size company in 1950 as probably 2000. And instead of using filing cabinets that are guarded by Stein and Frederick, you know..." aria-label="回原文"></button>。
+
+但现在的 AI 改变了游戏规则:软件不再只是「存数据的笨管道」,它能直接去执行操作了——比如自动跑去做员工背景调查、自动打电话催款。Alex 的判断是:干活的劳动力市场,比存信息的市场要大好几个数量级 <button class="pd-ts" data-t="09:48" data-who="Alex Rampell" data-en="So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on. So that's been the thesis. And you need the technology to catch up so it can actually do it." aria-label="回原文"></button>。
+
+更关键的一点是,在很多时候你根本找不到人来干这个活。美国有大约 16 万家牙科诊所,每家每年在行政上花约 20 万美元,但老板就是招不到人 <button class="pd-ts" data-t="14:33" data-who="Stein Pella" data-en="And we also see that. So, like, there are about, like, 160,000 dental practices in the U.S. alone. And, like, they spend roughly $200,000 a year on, like, administrative costs." aria-label="回原文"></button>。一个全美第一的牙医被文书活逼得要退休,不是因为 AI 抢饭碗,是因为没人愿意干这些活 <button class="pd-ts" data-t="12:46" data-who="Alex Rampell" data-en="And now he's out of the dentistry business. So he saw this announcement. He's like, oh my God, this is amazing." aria-label="回原文"></button>。
 
 理解了「软件从存数据变成直接干活」这个前提,接下来的问题是:Lassie 是怎么把这件事做出来的。
 
 ## 从亲手干杂活开始的笨办法
 
-工具变了,具体怎么做?Lassie 的起点非常反直觉:两个毫无医疗背景的硅谷工程师,跑去牙医诊所当起了行政杂工 <button class="pd-ts" data-t="04:26" data-who="Stein Pella" data-en="How did you convince them to let you in and to kind of look through the heart of the business and get into the financials? Yeah, it's a little weird, right? It's like, hello, I work at Robinhood on growth on the referral program." aria-label="回原文"></button>。Stein 在 Robinhood 做增长,Frederick 在做邮箱产品 Superhuman。他们问医生能不能进来「接管财务」,本来以为会被轰出去,结果医生们不仅答应,还直接把他们安排在后台办公桌,要什么数据给什么数据 <button class="pd-ts" data-t="05:21" data-who="Stein Pella" data-en="What about HIPAA and security reasons that you have access to all this information? So I think the first sign to us that these people said, yes, Dr. Kwan said, just come and sit here night five." aria-label="回原文"></button>。
+工具变了,具体怎么做?Lassie 的起点非常反直觉:两个毫无医疗背景的硅谷工程师,跑去牙医诊所当起了行政杂工 <button class="pd-ts" data-t="04:26" data-who="Stein Pella" data-en="How did you convince them to let you in and to kind of look through the heart of the business and get into the financials? Yeah, it's a little weird, right? It's like, hello, I work at Robinhood on growth on the referral program." aria-label="回原文"></button>。
 
-这个笨办法是他们能做到 98% 自动化的关键。Frederick 的原话是:如果自己不知道这份工作怎么干,就根本造不出能干好它的产品 <button class="pd-ts" data-t="17:55" data-who="Frederick Rankin" data-en="Yeah, I think a big part of it was us actually spending the time in offices doing the work ourselves. I don't think we could have built a product that works as well as it does if we didn't know how to do the job." aria-label="回原文"></button>。早期模型还不够聪明时,他们自己当「人肉 API」——把所有活儿接过来手工干,一边干一边把上下文数据和工具系统搭起来。等推理模型(一种擅长逻辑推理的 AI)成熟了,他们直接把智能层换掉,产品就自动变强了 <button class="pd-ts" data-t="06:54" data-who="Frederick Rankin" data-en="Like the most basic kind of automation didn't require that much reasoning. But then as the models got really good, we had this kind of huge tailwind because we had all this context already built, all the tools already built, and we could kind of, as the models got better, just replace our intelligence and the product would just get smarter over time." aria-label="回原文"></button>。他们的原则是:不给小企业造「要他们自己去用的工具」,因为小企业根本没专人去操作软件;他们要造的是「能接管整个工作的智能体」,这就要求做到「无人在环」(没有人工干预)的自主运行 <button class="pd-ts" data-t="16:35" data-who="Stein Pella" data-en="Like we can't do that. So we needed to build an agent. It's why it took us years." aria-label="回原文"></button>。
+Stein 在 Robinhood 做增长,Frederick 在做邮箱产品 Superhuman。他们问医生能不能进来「接管财务」,本来以为会被轰出去,结果医生们不仅答应,还直接把他们安排在后台办公桌,要什么数据给什么数据 <button class="pd-ts" data-t="05:21" data-who="Stein Pella" data-en="What about HIPAA and security reasons that you have access to all this information? So I think the first sign to us that these people said, yes, Dr. Kwan said, just come and sit here night five." aria-label="回原文"></button>。
+
+这个笨办法是他们能做到 98% 自动化的关键。Frederick 的原话是:如果自己不知道这份工作怎么干,就根本造不出能干好它的产品 <button class="pd-ts" data-t="17:55" data-who="Frederick Rankin" data-en="Yeah, I think a big part of it was us actually spending the time in offices doing the work ourselves. I don't think we could have built a product that works as well as it does if we didn't know how to do the job." aria-label="回原文"></button>。
+
+早期模型还不够聪明时,他们自己当「人肉 API」——把所有活儿接过来手工干,一边干一边把上下文数据和工具系统搭起来。等推理模型(一种擅长逻辑推理的 AI)成熟了,他们直接把智能层换掉,产品就自动变强了 <button class="pd-ts" data-t="06:54" data-who="Frederick Rankin" data-en="Like the most basic kind of automation didn't require that much reasoning. But then as the models got really good, we had this kind of huge tailwind because we had all this context already built, all the tools already built, and we could kind of, as the models got better, just replace our intelligence and the product would just get smarter over time." aria-label="回原文"></button>。他们的原则是:不给小企业造「要他们自己去用的工具」,因为小企业根本没专人去操作软件;他们要造的是「能接管整个工作的智能体」,这就要求做到「无人在环」(没有人工干预)的自主运行 <button class="pd-ts" data-t="16:35" data-who="Stein Pella" data-en="Like we can't do that. So we needed to build an agent. It's why it took us years." aria-label="回原文"></button>。
 
 这种做到 98% 就敢放手的策略之所以行得通,是因为小企业市场有一个特殊结构:这里根本没有巨头。
 
@@ -74,9 +82,13 @@ Alex 提出了一个非常经典的判断:初创公司和巨头的较量,就在�
 
 ## 最后一公里:把 AI 卖给爱荷华州
 
-工具变了,人怎么办?这正是下一个话题。Stein 有一句精准的判断:AI 在硅谷被过度炒作,但在爱荷华州被严重低估了 <button class="pd-ts" data-t="30:25" data-who="Stein Pella" data-en="But, like, there's a lot of, like, these systems and processes are very manual. And I kind of think, like, AI is overhyped in Silicon Valley but underhyped in Iowa." aria-label="回原文"></button>。把 AI 卖给主流小企业,是跟企业级销售完全两码事。卖企业软件,搞定几个关键决策者吃几顿牛排,可能就签下千万美元合同;但 Lassie 得去触达成千上万个零散分布的诊所 <button class="pd-ts" data-t="56:01" data-who="Stein Pella" data-en="Yeah, this is a very different playbook than where currently I think the cutting edge is. It's like you have these models good enough and apply them in enterprises and you do like a few steak dinners and then you sign a contract and then you have like 10 million in ARR booked, right?" aria-label="回原文"></button>。
+工具变了,人怎么办?这正是下一个话题。
 
-这里考验的是怎么把复杂的配置做成消费级体验。他们借鉴了在 Robinhood 和 Superhuman 的经验——给用户 48 小时时间,产品不出核心价值就走人 <button class="pd-ts" data-t="31:03" data-who="Stein Pella" data-en="Because at Robinhood or Superhuman, you get the time window 48 hours. If the thing doesn't work and you provide core product value, you're out, right? And these doctors are very much the same." aria-label="回原文"></button>。所以他们得把接入银行账户、打通保险公司门户网站这些极其繁琐的事,做成像 Stripe(一家提供在线支付接口的公司)或 Reppling 那样几近自助的流程 <button class="pd-ts" data-t="31:46" data-who="Stein Pella" data-en="They then... go to almost like a Stripe-like checkout or a Reppling-like onboarding, like Flow, where they hook up the bank account of the practice in the product." aria-label="回原文"></button>。Stein 期待的未来是:每个小企业都应该能自己运转,忙碌的杂活全由智能体接管,最终小企业的智能体甚至能直接跟消费者的个人智能体对接 <button class="pd-ts" data-t="33:58" data-who="Stein Pella" data-en="And the busy work is done by agents. we want to build an agent for the business that then will interface with the personal agent of a consumer, highly likely, that then will interface with an agent at the insurance company or other parties that the business needs to interface and interact with." aria-label="回原文"></button>。
+Stein 有一句精准的判断:AI 在硅谷被过度炒作,但在爱荷华州被严重低估了 <button class="pd-ts" data-t="30:25" data-who="Stein Pella" data-en="But, like, there's a lot of, like, these systems and processes are very manual. And I kind of think, like, AI is overhyped in Silicon Valley but underhyped in Iowa." aria-label="回原文"></button>。把 AI 卖给主流小企业,是跟企业级销售完全两码事。卖企业软件,搞定几个关键决策者吃几顿牛排,可能就签下千万美元合同;但 Lassie 得去触达成千上万个零散分布的诊所 <button class="pd-ts" data-t="56:01" data-who="Stein Pella" data-en="Yeah, this is a very different playbook than where currently I think the cutting edge is. It's like you have these models good enough and apply them in enterprises and you do like a few steak dinners and then you sign a contract and then you have like 10 million in ARR booked, right?" aria-label="回原文"></button>。
+
+这里考验的是怎么把复杂的配置做成消费级体验。他们借鉴了在 Robinhood 和 Superhuman 的经验——给用户 48 小时时间,产品不出核心价值就走人 <button class="pd-ts" data-t="31:03" data-who="Stein Pella" data-en="Because at Robinhood or Superhuman, you get the time window 48 hours. If the thing doesn't work and you provide core product value, you're out, right? And these doctors are very much the same." aria-label="回原文"></button>。
+
+所以他们得把接入银行账户、打通保险公司门户网站这些极其繁琐的事,做成像 Stripe(一家提供在线支付接口的公司)或 Reppling 那样几近自助的流程 <button class="pd-ts" data-t="31:46" data-who="Stein Pella" data-en="They then... go to almost like a Stripe-like checkout or a Reppling-like onboarding, like Flow, where they hook up the bank account of the practice in the product." aria-label="回原文"></button>。Stein 期待的未来是:每个小企业都应该能自己运转,忙碌的杂活全由智能体接管,最终小企业的智能体甚至能直接跟消费者的个人智能体对接 <button class="pd-ts" data-t="33:58" data-who="Stein Pella" data-en="And the busy work is done by agents. we want to build an agent for the business that then will interface with the personal agent of a consumer, highly likely, that then will interface with an agent at the insurance company or other parties that the business needs to interface and interact with." aria-label="回原文"></button>。
 
 那么,如果所有小企业都能随手「召唤」出一个能干的智能体,会发生什么?这引出了最后一个深刻的问题。
 
@@ -84,13 +96,23 @@ Alex 提出了一个非常经典的判断:初创公司和巨头的较量,就在�
 
 如果说前半场聊的是机会,后半场两位创始人面对的是两个扎心的追问。
 
-第一个关于竞争。如果开公司、管公司变得极其容易,开小公司会不会变得反而更难?Alex 用了棒球名宿 Yogi Berra 的一句名言「这里太挤了,没人再来了」来形容这种悖论 <button class="pd-ts" data-t="42:42" data-who="Alex Rampell" data-en="Quoted often, right? And one of my favorite ones, it's so crowded, nobody goes here anymore. It doesn't make sense." aria-label="回原文"></button>。Stein 给出了一个相当乐观的判断:这是基于「需求有上限」的假设。但现实是,找一个好牙医、好水管工的需求,永远是供给的两倍。如果能用智能体解放时间,现有诊所能多看一倍的病人,或者让更多人能开起诊所,这是把蛋糕做大 <button class="pd-ts" data-t="43:24" data-who="Stein Pella" data-en="And if you just look at the dental practice, but the same applies to try to find a good plumber. There's just like twice as much demand that currently can be supplied." aria-label="回原文"></button>。
+第一个关于竞争。如果开公司、管公司变得极其容易,开小公司会不会变得反而更难?
 
-第二个关于技术瓶颈。模型到底还缺什么?Frederick 的发现很出人意料:现在的模型在海量数据上训练,体型巨大,但实际上它们并不知道这些具体的工作流程怎么走 <button class="pd-ts" data-t="46:29" data-who="Frederick Rankin" data-en="You know, what do you need and where are we on that curve if you had to estimate? I think one thing that's interesting is that the models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work." aria-label="回原文"></button>。互联网上找不到那些行业惯例和潜规则——它们藏在办公室经理的脑子里和没数字化的 ERP(企业资源计划系统)数据里 <button class="pd-ts" data-t="47:10" data-who="Frederick Rankin" data-en="But there's also a big amount of just, like, human knowledge that is encoded in, say, these office managers, and they just, like, know how to do this work. That's weirdly not that accessible on the internet." aria-label="回原文"></button>。所以现实里还有一个别扭的现状:美国有大约 70% 的小企业依然靠纸质支票付款 <button class="pd-ts" data-t="53:34" data-who="Stein Pella" data-en="And we are also writing that like till when. So you will see that like a lot of these small businesses, I think the stats are 70% are still paid on paper. And it's going through this massive like digitization revolution right now because federal inflection point that's regulatory." aria-label="回原文"></button>。哪怕 AI 模型五年前就这么强,只要数据还在纸质的文件柜里,这活就根本没法自动化 <button class="pd-ts" data-t="54:47" data-who="Stein Pella" data-en="So yeah, it's super interesting to think about what other industries like still have that. Because that's, I think, even a more interesting mode where it's like, okay, you can apply these models, bring them to Main Street is super hard." aria-label="回原文"></button>。
+Alex 用了棒球名宿 Yogi Berra 的一句名言「这里太挤了,没人再来了」来形容这种悖论 <button class="pd-ts" data-t="42:42" data-who="Alex Rampell" data-en="Quoted often, right? And one of my favorite ones, it's so crowded, nobody goes here anymore. It doesn't make sense." aria-label="回原文"></button>。Stein 给出了一个相当乐观的判断:这是基于「需求有上限」的假设。
+
+但现实是,找一个好牙医、好水管工的需求,永远是供给的两倍。如果能用智能体解放时间,现有诊所能多看一倍的病人,或者让更多人能开起诊所,这是把蛋糕做大 <button class="pd-ts" data-t="43:24" data-who="Stein Pella" data-en="And if you just look at the dental practice, but the same applies to try to find a good plumber. There's just like twice as much demand that currently can be supplied." aria-label="回原文"></button>。
+
+第二个关于技术瓶颈。模型到底还缺什么?
+
+Frederick 的发现很出人意料:现在的模型在海量数据上训练,体型巨大,但实际上它们并不知道这些具体的工作流程怎么走 <button class="pd-ts" data-t="46:29" data-who="Frederick Rankin" data-en="You know, what do you need and where are we on that curve if you had to estimate? I think one thing that's interesting is that the models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work." aria-label="回原文"></button>。互联网上找不到那些行业惯例和潜规则——它们藏在办公室经理的脑子里和没数字化的 ERP(企业资源计划系统)数据里 <button class="pd-ts" data-t="47:10" data-who="Frederick Rankin" data-en="But there's also a big amount of just, like, human knowledge that is encoded in, say, these office managers, and they just, like, know how to do this work. That's weirdly not that accessible on the internet." aria-label="回原文"></button>。
+
+所以现实里还有一个别扭的现状:美国有大约 70% 的小企业依然靠纸质支票付款 <button class="pd-ts" data-t="53:34" data-who="Stein Pella" data-en="And we are also writing that like till when. So you will see that like a lot of these small businesses, I think the stats are 70% are still paid on paper. And it's going through this massive like digitization revolution right now because federal inflection point that's regulatory." aria-label="回原文"></button>。哪怕 AI 模型五年前就这么强,只要数据还在纸质的文件柜里,这活就根本没法自动化 <button class="pd-ts" data-t="54:47" data-who="Stein Pella" data-en="So yeah, it's super interesting to think about what other industries like still have that. Because that's, I think, even a more interesting mode where it's like, okay, you can apply these models, bring them to Main Street is super hard." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三个判断。第一,传统软件只是把文件柜变成了数据库,真正干活还得靠人,而当 AI 能直接去执行操作时,它打开的劳动力市场比软件市场要大好几个数量级。第二,Lassie 的笨办法恰恰是它最强的护城河——创始人自己泡在诊所里当人肉杂工去理解业务,磨出了能做到 98% 自动化、无人在环的智能体,这个在一线趟出来的 know-how,是大公司想抄都抄不来的。第三,把 AI 卖给爱荷华州的小诊所和卖给大企业是两码事,这里的对手不是 Workday 而是那个两周前刚辞职的员工 Betty,但这同时也意味着你要把极度复杂的系统对接,封装成像消费级 App 一样开箱即用的体验。
+最后收个尾,这一集值得带走的是三个判断。第一,传统软件只是把文件柜变成了数据库,真正干活还得靠人,而当 AI 能直接去执行操作时,它打开的劳动力市场比软件市场要大好几个数量级。
+
+第二,Lassie 的笨办法恰恰是它最强的护城河——创始人自己泡在诊所里当人肉杂工去理解业务,磨出了能做到 98% 自动化、无人在环的智能体,这个在一线趟出来的 know-how,是大公司想抄都抄不来的。第三,把 AI 卖给爱荷华州的小诊所和卖给大企业是两码事,这里的对手不是 Workday 而是那个两周前刚辞职的员工 Betty,但这同时也意味着你要把极度复杂的系统对接,封装成像消费级 App 一样开箱即用的体验。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -121,24 +143,21 @@ Alex 提出了一个非常经典的判断:初创公司和巨头的较量,就在�
 
 **顺着「智能体」挖下去**
 
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe · 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:智能体 (agent)
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe · 同概念:智能体 (agent)
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Stripe · 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 智能体 · 自动化行政工作 · 中小企业市场 · 垂直 SaaS · 创业护城河*
-
 <script>
 (function(){
   function move(){

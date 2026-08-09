@@ -35,7 +35,11 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>四次创始人 Jason Cohen 用四个按顺序排查的问题，帮你精准定位 SaaS 增长卡壳的真正瓶颈。</div>
 
-你的产品早期一路增长，突然有一天踩了刹车。很多人的第一直觉是「去催营销部门搞更多流量」，或者干脆觉得产品不行了要转型——但 [[Jason Cohen|Jason Cohen]] 说，这些都是没诊断清楚就乱开药。他创过四次业，做出过两家独角兽，还投资了大约 60 家初创公司 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。在这一集里，他给出了一个按顺序排查的四步诊断框架：[[客户流失率|客户流失率]]、[[定价|定价]]与[[定位|定位]]、净收入留存（[[NRR|NRR]]，即现有客户带给你的收入增减），最后才是营销渠道是否已经打满。核心逻辑很像修漏斗——如果上层最大的漏洞没堵上，你在下层怎么微调都没用 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。结尾他还抛出了一个最扎心的问题：如果怎么折腾都不长了，你真的还需要它长吗？
+你的产品早期一路增长，突然有一天踩了刹车。很多人的第一直觉是「去催营销部门搞更多流量」，或者干脆觉得产品不行了要转型——但 [[Jason Cohen|Jason Cohen]] 说，这些都是没诊断清楚就乱开药。
+
+他创过四次业，做出过两家独角兽，还投资了大约 60 家初创公司 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。在这一集里，他给出了一个按顺序排查的四步诊断框架：[[客户流失率|客户流失率]]、[[定价|定价]]与[[定位|定位]]、净收入留存（[[NRR|NRR]]，即现有客户带给你的收入增减），最后才是营销渠道是否已经打满。
+
+核心逻辑很像修漏斗——如果上层最大的漏洞没堵上，你在下层怎么微调都没用 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。结尾他还抛出了一个最扎心的问题：如果怎么折腾都不长了，你真的还需要它长吗？
 
 说完了这一集要聊什么，我们先从第一个、也是最容易让人忽视的致命漏洞开始：客户正在大批离开。
 
@@ -43,21 +47,33 @@ tags:
 
 Jason 说，诊断增长放缓的第一件事，不是去看怎么获客，而是先看有多少客户在流失（即「Logo 流失」，指纯客户数量的流失）。很多 [[SaaS|SaaS]]（软件即服务）公司觉得每月流失 2% 客户很正常，甚至 5%、7% 也无所谓。为了让大家有切肤之痛，他给了一个非常反直觉的算法：用你「每月新增的客户数」除以你的「月流失率」，得出的数字就是你这家公司的「规模上限」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
-这意味着什么？假设你每月新增 100 个客户，流失率是 5%，100 除以 5% 等于 2000——这家公司无论怎么努力，客户规模永远也超不过 2000 个 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。为什么会这样？因为营销带来的新增是线性的，但流失是按你现有客户基数的百分比计算的，是指数级的。当你规模越大，每月流失的绝对人数就越多；总有那么一个临界点，你每月新增的人赶不上流失的人，增长就彻底停滞了 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+这意味着什么？假设你每月新增 100 个客户，流失率是 5%，100 除以 5% 等于 2000——这家公司无论怎么努力，客户规模永远也超不过 2000 个 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
-更糟的是，客户离开时往往不会告诉你真话。他们在退订表单里填的「太贵了」或「项目结束」，绝大多数是敷衍。想想他们为了用你的产品经历了什么：看到广告、没被首页吓跑、看了价格觉得能接受、付了钱、花时间搞懂了怎么用。他们费这么大劲表示原本是想要这个东西的，最后却说「不，拜拜」——在情绪上你必须意识到：这太糟了，说明产品根本没兑现承诺 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。如果他们嘴上说「太贵」，真相往往是产品缺少了关键集成（比如不支持 Linear 只支持 Jira），或者你选错了目标客户群 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。所以，别简单搞个多选项的下拉菜单去问，而要问开放式问题，甚至别问「你为什么取消」，改问「是什么让你取消了」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+为什么会这样？因为营销带来的新增是线性的，但流失是按你现有客户基数的百分比计算的，是指数级的。当你规模越大，每月流失的绝对人数就越多；总有那么一个临界点，你每月新增的人赶不上流失的人，增长就彻底停滞了 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+更糟的是，客户离开时往往不会告诉你真话。他们在退订表单里填的「太贵了」或「项目结束」，绝大多数是敷衍。
+
+想想他们为了用你的产品经历了什么：看到广告、没被首页吓跑、看了价格觉得能接受、付了钱、花时间搞懂了怎么用。他们费这么大劲表示原本是想要这个东西的，最后却说「不，拜拜」——在情绪上你必须意识到：这太糟了，说明产品根本没兑现承诺 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+如果他们嘴上说「太贵」，真相往往是产品缺少了关键集成（比如不支持 Linear 只支持 Jira），或者你选错了目标客户群 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。所以，别简单搞个多选项的下拉菜单去问，而要问开放式问题，甚至别问「你为什么取消」，改问「是什么让你取消了」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
 堵住了客户流失的漏洞，接下来要看的是钱给对了吗。这就是诊断的第二步：定价与定位。
 
 ### 第二步：你可能严重低估了价格
 
-如果客户流失率没到致命程度，接下来要看定价。这里有个反直觉的真相：很多创业公司的定价太低了。拥有 4200 个初创公司数据点的 Patrick Campbell 有句名言：「你的价格太低了，因为你只是瞎猜了一个数，而且再也没动过」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。人们通常不敢涨价，是因为脑子里有根深蒂固的微观经济学「需求曲线」：价格上涨，需求就会下降。但 Jason 说，在真实的 SaaS 商业世界里，曲线根本不是一条简单的下滑直线 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+如果客户流失率没到致命程度，接下来要看定价。这里有个反直觉的真相：很多创业公司的定价太低了。
 
-如果你卖 2 美元或 100 美元一个月，稍微大一点的公司（比如一千名员工、四亿美金营收）根本不会考虑，因为这看起来太便宜，「不够成熟」，连考虑的资格都没有。一旦你把价格提到符合他们预期的区间，他们的需求反而上升了 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。他讲了一个真实的极端案例：一个做企业级产品的创业者，原来一年收费 300 美金，Jason 让他改成一个月收 300 美金（涨价 12 倍），结果每周的注册量依然是一两个，完全没变 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。定价不仅在筛选客户，更是在筛选市场。
+拥有 4200 个初创公司数据点的 Patrick Campbell 有句名言：「你的价格太低了，因为你只是瞎猜了一个数，而且再也没动过」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。人们通常不敢涨价，是因为脑子里有根深蒂固的微观经济学「需求曲线」：价格上涨，需求就会下降。但 Jason 说，在真实的 SaaS 商业世界里，曲线根本不是一条简单的下滑直线 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+如果你卖 2 美元或 100 美元一个月，稍微大一点的公司（比如一千名员工、四亿美金营收）根本不会考虑，因为这看起来太便宜，「不够成熟」，连考虑的资格都没有。一旦你把价格提到符合他们预期的区间，他们的需求反而上升了 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+他讲了一个真实的极端案例：一个做企业级产品的创业者，原来一年收费 300 美金，Jason 让他改成一个月收 300 美金（涨价 12 倍），结果每周的注册量依然是一两个，完全没变 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。定价不仅在筛选客户，更是在筛选市场。
 
 > 【背景】定价不仅是个数字，更是战略决策。提价去打中端或大企业市场（上探市场），意味着你需要 SOC2 安全认证、更好的客户成功服务等，这牵扯到整个公司战略，不能随便只改网页上的数字。
 
-Jason 自己就用过一个极其高明的重新定位招数：假设有个产品能把 AdWords 广告成本减半。面对每月花 4 万美金广告费的客户，如果你卖「帮你省钱」，客户顶多愿意付你 5000 美金（因为要真省下钱）。但如果你换个说法：「用同样的 4 万预算，我帮你把销售线索翻倍」。客户愿意为了线索翻倍支付那 4 万美金——同一个产品，换个说法，收入直接翻了 8 倍 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。所以，别卖「省了多少」，去卖「增长了多少」。
+Jason 自己就用过一个极其高明的重新定位招数：假设有个产品能把 AdWords 广告成本减半。面对每月花 4 万美金广告费的客户，如果你卖「帮你省钱」，客户顶多愿意付你 5000 美金（因为要真省下钱）。
+
+但如果你换个说法：「用同样的 4 万预算，我帮你把销售线索翻倍」。客户愿意为了线索翻倍支付那 4 万美金——同一个产品，换个说法，收入直接翻了 8 倍 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。所以，别卖「省了多少」，去卖「增长了多少」。
 
 ### 第三步：现有客户能自己长大吗
 
@@ -65,23 +81,35 @@ Jason 自己就用过一个极其高明的重新定位招数：假设有个产�
 
 为什么 NRR 这么关键？回看第一步的逻辑，流失是按比例增长的，唯一的对抗办法就是让留下的客户付更多钱，而且这个增长也必须能随规模同步放大 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。数据也印证了这一点：上市的 SaaS 公司里，大概只有两家的 NRR 低于 100%，而且它们的财务和估值都很惨；而那些成功 IPO 的 SaaS 公司，上市时的 NRR 中位数高达 119% <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
-但 Jason 也提醒了一个容易踩的坑：很多人把 NRR 当作唯一的「黄金指标」，甚至觉得只要 NRR 大于 100% 就高枕无忧了，这也是错的。因为客户总数（N）的下降和收入的下降，在数学上并不是等比例的——如果你的 100 块钱亏了 20%，剩下 80 块，再涨 20% 是回不到 100 块的（只能到 96） <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。如果客户群萎缩得太快，基数没了，你连可以「升级加购」的对象都没了。所以 NRR 要看，Logo 流失率更要盯。
+但 Jason 也提醒了一个容易踩的坑：很多人把 NRR 当作唯一的「黄金指标」，甚至觉得只要 NRR 大于 100% 就高枕无忧了，这也是错的。因为客户总数（N）的下降和收入的下降，在数学上并不是等比例的——如果你的 100 块钱亏了 20%，剩下 80 块，再涨 20% 是回不到 100 块的（只能到 96） <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+如果客户群萎缩得太快，基数没了，你连可以「升级加购」的对象都没了。所以 NRR 要看，Logo 流失率更要盯。
 
 ### 第四步：是不是营销渠道已经打满了
 
-如果前面三步都没大问题，增长还是停滞，这时候你才可以去问营销部门：是不是我们所有的获客渠道都已经饱和了？Jason 提出了一个「[[大象曲线|大象曲线]]」理论（而不是传统说的 S 曲线）：任何营销渠道（无论是 AdWords、SEO 还是展会）都会经历从发掘红利、拼命优化，到最后衰退、下垂的过程 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。受众会审美疲劳，平台本身也会没落（比如曾经火热的杂志广告或行业展会最后悄无声息地倒闭）。更糟的是，渠道往往不是维持在高位，而是会逐渐下垂 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+如果前面三步都没大问题，增长还是停滞，这时候你才可以去问营销部门：是不是我们所有的获客渠道都已经饱和了？Jason 提出了一个「[[大象曲线|大象曲线]]」理论（而不是传统说的 S 曲线）：任何营销渠道（无论是 AdWords、SEO 还是展会）都会经历从发掘红利、拼命优化，到最后衰退、下垂的过程 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
-这时候，常规的「加个小功能让营销去推」根本没用 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。你必须去寻找真正全新的渠道。比如 Constant Contact 当年为了卖每个月 20 美金的邮件营销工具给小企业，居然跑到各个城市去办线下研讨会，带着餐厅老板和牙医手把手教，反而成功重启了增长 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。HubSpot 测试通过代理机构来销售（而不是纯直销），几年后这部分间接渠道占了总收入的 50% <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。如果现有渠道真的榨干了，你甚至得考虑给同一批客户卖第二款产品，或者进入新市场。
+受众会审美疲劳，平台本身也会没落（比如曾经火热的杂志广告或行业展会最后悄无声息地倒闭）。更糟的是，渠道往往不是维持在高位，而是会逐渐下垂 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+这时候，常规的「加个小功能让营销去推」根本没用 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。你必须去寻找真正全新的渠道。
+
+比如 Constant Contact 当年为了卖每个月 20 美金的邮件营销工具给小企业，居然跑到各个城市去办线下研讨会，带着餐厅老板和牙医手把手教，反而成功重启了增长 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。HubSpot 测试通过代理机构来销售（而不是纯直销），几年后这部分间接渠道占了总收入的 50% <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。如果现有渠道真的榨干了，你甚至得考虑给同一批客户卖第二款产品，或者进入新市场。
 
 ### 最后的问题：你真的还需要长吗
 
 如果前面这四步都试遍了，增长依然像个死结，Jason 抛出了最后一个略带哲学意味的问题：你真的需要增长吗？我们都听过那句老话「不增长，就在消亡」（If you're not growing, you're dying），但这到底是真的商业规律，还是投资人用来逼迫创始人的话术 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>？
 
-Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司完全可以不追求规模，转而最大化利润。每年安稳分几百万美金的红利也挺好 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。但话说回来，如果你作为一个创始人、一个产品人，在这家公司里已经好几年没有任何创新和个人成长，天天只做重复劳动，那这句话可能就不是在说公司，而是在说你本人——「如果你不成长，你就在消亡」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。当所有增量办法都已失效，也许该考虑的不是怎么硬拧增长，而是换个工作、卖掉公司，或者干脆开启人生的下一章 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司完全可以不追求规模，转而最大化利润。每年安稳分几百万美金的红利也挺好 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
+
+但话说回来，如果你作为一个创始人、一个产品人，在这家公司里已经好几年没有任何创新和个人成长，天天只做重复劳动，那这句话可能就不是在说公司，而是在说你本人——「如果你不成长，你就在消亡」 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。当所有增量办法都已失效，也许该考虑的不是怎么硬拧增长，而是换个工作、卖掉公司，或者干脆开启人生的下一章 <button class="pd-ts" data-t="01:07" data-who="Jason Cohen" data-en="What comes next? The last question is, do you need to grow? We all have heard the phrase, &quot;If you're not growing, you're dying.&quot;" aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是一个按顺序排查增长问题的诊断框架。第一，先算你的「规模天花板」，用每月新增客户数除以月流失率，这个数字会告诉你，如果客户继续这么流失，你永远也长不过这条线；所以别信客户退订时填的「太贵了」，去挖出背后产品没兑现承诺的真问题，并在他们彻底走之前抢救。第二，重新审视你的定价，因为大部分公司定价靠猜，但价格不仅筛选客户，更是在筛选市场——别只卖「帮你省时间或省钱」，试着重新定位成「帮你赚更多增长」，同样的产品或许能多收八倍的钱。第三步看 NRR（净收入留存），确保留下的客户能持续为你贡献更多收入，但前提是你盯着绝对客户数没掉。第四步，如果前三个都没问题，承认你的营销渠道可能已经「大象曲线」衰退打满了，去做点真正不同的渠道拓展，别再逼着营销部门死磕老渠道。最后，如果这一切都试过了还是不长，停下来问自己一句：我真的还需要它长吗？也许换个赛道才是对自己最好的决定。
+最后收个尾，这一集值得带走的是一个按顺序排查增长问题的诊断框架。第一，先算你的「规模天花板」，用每月新增客户数除以月流失率，这个数字会告诉你，如果客户继续这么流失，你永远也长不过这条线；所以别信客户退订时填的「太贵了」，去挖出背后产品没兑现承诺的真问题，并在他们彻底走之前抢救。
+
+第二，重新审视你的定价，因为大部分公司定价靠猜，但价格不仅筛选客户，更是在筛选市场——别只卖「帮你省时间或省钱」，试着重新定位成「帮你赚更多增长」，同样的产品或许能多收八倍的钱。第三步看 NRR（净收入留存），确保留下的客户能持续为你贡献更多收入，但前提是你盯着绝对客户数没掉。
+
+第四步，如果前三个都没问题，承认你的营销渠道可能已经「大象曲线」衰退打满了，去做点真正不同的渠道拓展，别再逼着营销部门死磕老渠道。最后，如果这一切都试过了还是不长，停下来问自己一句：我真的还需要它长吗？也许换个赛道才是对自己最好的决定。
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
@@ -116,15 +144,12 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 **换个口味**
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:SaaS
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:SaaS
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]] —— 同概念:LLM
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:SaaS</span>
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS</span>
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同概念:LLM</span>
 
 </div>
 </div>
-
-*本集关键词:SaaS 增长 · 客户流失 · 定价策略 · 净收入留存 · 营销渠道*
-
 <script>
 (function(){
   function move(){

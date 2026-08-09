@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Dan Shipper]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
+[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Dan Shipper]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"AI":2,"LLM":5,"智能体":65,"Skip":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"AI":2,"LLM":6,"智能体":67,"Skip":1}</script>
 
 <script>
 (function(){

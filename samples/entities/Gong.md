@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Lenny":33,"Vercel":5,"Stripe":10,"OpenAI":30,"go-to-market":2,"智能体":65,"GTM 工程师":1,"市场细分":1,"PLG":1}</script>
+<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Lenny":34,"Vercel":5,"Stripe":10,"OpenAI":30,"go-to-market":3,"智能体":67,"GTM 工程师":1,"市场细分":1,"PLG":1}</script>
 
 <script>
 (function(){

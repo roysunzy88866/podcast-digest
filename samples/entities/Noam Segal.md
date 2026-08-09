@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Dan Shipper]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
+[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Dan Shipper]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"NPS":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"NPS":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":5}</script>
 
 <script>
 (function(){

@@ -46,23 +46,37 @@ tags:
 
 除了安全和质量，很多人一听自动化审批就会抛出合规问题的质疑。对此 Claire 强调，即便你身处 SOC 2（一种企业数据安全合规标准）环境，只要在风险策略和代码审查策略中明确规定，保证整个审查过程是可审计、可查询且可辩护的，你依然能在合规框架内实现自动审批 <button class="pd-ts" data-t="05:00" data-who="Claire" data-en="But in fact, there are frameworks as long as it's in your risk policies, as long as it's in your code review policies," aria-label="回原文"></button>。Intercom 正是通过这种做法，满足了包括 SOC 2 和 HIPAA（医疗数据隐私保护法案）在内的各种合规要求。
 
-明确了合规性与可行性的前提，接下来看看 Claire 是如何具体打造这套系统的。她为 ChatPRD 构建了这个机器人，当时大量低风险的 PR（比如自动生成的文档更新）堆积在队列里，她和同事根本没时间看 <button class="pd-ts" data-t="05:50" data-who="Claire" data-en="I knew that I wanted to do this for chat PRD. I knew we had a lot of low risk PRS that were just sitting in the queue because my colleague and I were not getting to review them." aria-label="回原文"></button>。她选中了 Vercel 的 Eve 框架。她之所以极力推荐 Eve，是因为它是她在 Slack 和 GitHub 上部署 AI 智能体最简单的方式。创建一个 Slack 机器人或 GitHub 应用通常需要在后台点过无数个配置屏幕、挑选一堆权限，极其繁琐。但 Eve 提供了连接器向导，把这些刷新令牌之类的痛苦全接管了 <button class="pd-ts" data-t="07:42" data-who="Claire" data-en="and connecting it to enterprise data is super easy. So because Vercel has shipped a Vercel connectors, which are like managed connections inside your Vercel account," aria-label="回原文"></button>。此外，它底层使用开源的 chat SDK（聊天软件开发工具包），专门抹平了跨平台管理多渠道智能体的复杂性。
+明确了合规性与可行性的前提，接下来看看 Claire 是如何具体打造这套系统的。她为 ChatPRD 构建了这个机器人，当时大量低风险的 PR（比如自动生成的文档更新）堆积在队列里，她和同事根本没时间看 <button class="pd-ts" data-t="05:50" data-who="Claire" data-en="I knew that I wanted to do this for chat PRD. I knew we had a lot of low risk PRS that were just sitting in the queue because my colleague and I were not getting to review them." aria-label="回原文"></button>。
 
-搭建工具选好了，但配置外部服务依然是个麻烦事，于是 Claire 动用了一个堪称「魔法」的技巧。她让 Codex 接管了 Chrome 浏览器的操作（即 Chrome browser use），让 AI 自己去点击 Slack 和 GitHub 的配置页面 <button class="pd-ts" data-t="10:31" data-who="Claire" data-en="You have to do all this stuff. And so what I did is my favorite hack is I had it use Chrome browser use and I let it navigate Slack bot setup." aria-label="回原文"></button>。人类只负责按下双因素认证（2FA）的按钮和最后确认保存。这个技巧完美解决了「代码能写但不想碰第三方 SaaS 配置」的痛点。
+她选中了 Vercel 的 Eve 框架。她之所以极力推荐 Eve，是因为它是她在 Slack 和 GitHub 上部署 AI 智能体最简单的方式。
 
-配置全部搞定后，这个被命名为「Merge Mommy」的机器人具体是怎么干活的？它的技术流程非常精简：一旦所有 CI（持续集成）检查通过，GitHub 就会触发事件，Vercel 接管后启动一个[[沙箱|沙箱]]（一种隔离代码的安全运行环境），检出代码库并查看具体的 diff（代码差异）<button class="pd-ts" data-t="12:33" data-who="Claire" data-en="Keys off an event after all of the PR changes are done. Vercel's GitHub integration picks that up in the GitHub Vercel channel and it sends it a little bit of information." aria-label="回原文"></button>。它通过几个技能来评估风险和质量，最后输出一个结论。如果是低风险，它会直接提交批准；如果需要人工介入，它就会在 Slack 里 ping 你 <button class="pd-ts" data-t="12:58" data-who="Claire" data-en="And then on the end, it outputs like a thumbs up check, like it needs changes and a comment. And then one fun thing that it does is after it does that review, it pings my colleague and I in Slack to say this PR is ready for review" aria-label="回原文"></button>。
+创建一个 Slack 机器人或 GitHub 应用通常需要在后台点过无数个配置屏幕、挑选一堆权限，极其繁琐。但 Eve 提供了连接器向导，把这些刷新令牌之类的痛苦全接管了 <button class="pd-ts" data-t="07:42" data-who="Claire" data-en="and connecting it to enterprise data is super easy. So because Vercel has shipped a Vercel connectors, which are like managed connections inside your Vercel account," aria-label="回原文"></button>。此外，它底层使用开源的 chat SDK（聊天软件开发工具包），专门抹平了跨平台管理多渠道智能体的复杂性。
+
+搭建工具选好了，但配置外部服务依然是个麻烦事，于是 Claire 动用了一个堪称「魔法」的技巧。她让 Codex 接管了 Chrome 浏览器的操作（即 Chrome browser use），让 AI 自己去点击 Slack 和 GitHub 的配置页面 <button class="pd-ts" data-t="10:31" data-who="Claire" data-en="You have to do all this stuff. And so what I did is my favorite hack is I had it use Chrome browser use and I let it navigate Slack bot setup." aria-label="回原文"></button>。
+
+人类只负责按下双因素认证（2FA）的按钮和最后确认保存。这个技巧完美解决了「代码能写但不想碰第三方 SaaS 配置」的痛点。
+
+配置全部搞定后，这个被命名为「Merge Mommy」的机器人具体是怎么干活的？它的技术流程非常精简：一旦所有 CI（持续集成）检查通过，GitHub 就会触发事件，Vercel 接管后启动一个[[沙箱|沙箱]]（一种隔离代码的安全运行环境），检出代码库并查看具体的 diff（代码差异）<button class="pd-ts" data-t="12:33" data-who="Claire" data-en="Keys off an event after all of the PR changes are done. Vercel's GitHub integration picks that up in the GitHub Vercel channel and it sends it a little bit of information." aria-label="回原文"></button>。
+
+它通过几个技能来评估风险和质量，最后输出一个结论。如果是低风险，它会直接提交批准；如果需要人工介入，它就会在 Slack 里 ping 你 <button class="pd-ts" data-t="12:58" data-who="Claire" data-en="And then on the end, it outputs like a thumbs up check, like it needs changes and a comment. And then one fun thing that it does is after it does that review, it pings my colleague and I in Slack to say this PR is ready for review" aria-label="回原文"></button>。
 
 这个智能体最难写的部分，其实就是一段自然语言写成的指令，连半页纸都不到，Claire 坦言这些指令是她自己写出来并做微调的 <button class="pd-ts" data-t="15:31" data-who="Claire" data-en="Maybe one page of text. I did not write any of this. I refined it." aria-label="回原文"></button>。它的核心是一个打分脚本，会考察 6 个维度：变更表面和爆炸半径（影响范围）有多大、是否容易逆转（比如大型数据迁移就很难撤回）、是否涉及数据安全、是否改变了系统运营方式，以及测试和 CI 是否完整 <button class="pd-ts" data-t="15:53" data-who="Claire" data-en="And so it looks at six things. How big is the change surface and blast radius? Is it easily reversible, right?" aria-label="回原文"></button>。
 
 这套打分机制会给出一个具体分数：低于 24 分的是低风险，25 到 64 分是中风险，65 分及以上是高风险 <button class="pd-ts" data-t="16:20" data-who="Claire" data-en="And then it has sort of like a script that it runs to calculate a score. And then anything under 24 points, again, I did not like choose these thresholds. Anything below 24 points is low risk." aria-label="回原文"></button>。Claire 展示了三个实际案例：一个只改了文档的 PR 拿了 6 分，低风险但因为存在合并冲突被拦截了；另一个纯文档 PR 拿了 7 分顺利自动批准；而一个涉及废弃旧版 API、包含 35 处删除的大红色差异 PR，因为改变了服务器 API 行为，被判定为 45 分的中风险，机器人果断拒绝自动批准，把决定权交还给了人类 <button class="pd-ts" data-t="19:55" data-who="Claire" data-en="I'm sorry, I can't take myself seriously when I say it, but I'm gonna say it anyways. Merge Mommy gave it a 45 out of 100," aria-label="回原文"></button>。
 
-有了自动评分，最后一步怎么把人类和 AI 的动作顺畅地接起来？这就涉及操作流程的设计。由于代码仓库的规则通常不允许 bot（机器人）满足必需批准的硬性要求，所以 Merge Mommy 会在 PR 上留一个小灰勾作为信号，然后把消息推送到 Slack 频道里。Claire 和同事只需在 Slack 里看一眼，一键点击批准并合并即可。这个机制完美诠释了 Claire 说的一句话：我们可以让 AI 为我们工作，也可以让 AI 让我们工作，而这个流程让你两方面都做到了 <button class="pd-ts" data-t="20:36" data-who="Claire" data-en="hey, this can be approved or this requires human review. Again, I like to say this thing where we can put AI to work for us or we can have AI put us" aria-label="回原文"></button>。
+有了自动评分，最后一步怎么把人类和 AI 的动作顺畅地接起来？这就涉及操作流程的设计。
 
-最后，对于这种触碰核心代码的内部智能体，持续的评估和改进是必不可少的。正如 Intercom 在流程中所做的，他们把每一次机器人的审查结果都记录在内部的评估平台上，让工程师定期核对：智能体这次判对了吗？我们的评分机制还准吗 <button class="pd-ts" data-t="22:57" data-who="Claire" data-en="especially the folks at Intercom do as part of this process, is they run evals on this internal agent. So every time this review is run," aria-label="回原文"></button>？就像你会用评估来改进面向客户的 AI 产品一样，面对内部关键系统的机器人，这套闭环检验同样不可或缺。
+由于代码仓库的规则通常不允许 bot（机器人）满足必需批准的硬性要求，所以 Merge Mommy 会在 PR 上留一个小灰勾作为信号，然后把消息推送到 Slack 频道里。Claire 和同事只需在 Slack 里看一眼，一键点击批准并合并即可。这个机制完美诠释了 Claire 说的一句话：我们可以让 AI 为我们工作，也可以让 AI 让我们工作，而这个流程让你两方面都做到了 <button class="pd-ts" data-t="20:36" data-who="Claire" data-en="hey, this can be approved or this requires human review. Again, I like to say this thing where we can put AI to work for us or we can have AI put us" aria-label="回原文"></button>。
+
+最后，对于这种触碰核心代码的内部智能体，持续的评估和改进是必不可少的。正如 Intercom 在流程中所做的，他们把每一次机器人的审查结果都记录在内部的评估平台上，让工程师定期核对：智能体这次判对了吗？
+
+我们的评分机制还准吗 <button class="pd-ts" data-t="22:57" data-who="Claire" data-en="especially the folks at Intercom do as part of this process, is they run evals on this internal agent. So every time this review is run," aria-label="回原文"></button>？就像你会用评估来改进面向客户的 AI 产品一样，面对内部关键系统的机器人，这套闭环检验同样不可或缺。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是这几层意思。第一，面对成堆的 AI 生成 PR，人类大可不必逐行死磕，只要策略清晰、可审计，你完全可以安全地跳过低风险代码的人工审查。第二，写一个代码审查智能体没你想的那么难，用 Vercel 的 Eve 框架，配上一页纸不到的打分指令，甚至让 AI 自己去操纵浏览器搞定复杂的配置，一个下午就能搭出来。第三，真正的杠杆不只是让 AI 全自动干活，而是让它做好评风控、递出信号，最后由人类在 Slack 里点一下按钮完成合并，既榨取了速度，又守住了底线。别忘了，哪怕是内部代码机器人，也要像对待外部产品一样，持续跑评估闭环，才能保证它一直不会作妖。
+最后收个尾，这一集值得带走的是这几层意思。第一，面对成堆的 AI 生成 PR，人类大可不必逐行死磕，只要策略清晰、可审计，你完全可以安全地跳过低风险代码的人工审查。
+
+第二，写一个代码审查智能体没你想的那么难，用 Vercel 的 Eve 框架，配上一页纸不到的打分指令，甚至让 AI 自己去操纵浏览器搞定复杂的配置，一个下午就能搭出来。第三，真正的杠杆不只是让 AI 全自动干活，而是让它做好评风控、递出信号，最后由人类在 Slack 里点一下按钮完成合并，既榨取了速度，又守住了底线。别忘了，哪怕是内部代码机器人，也要像对待外部产品一样，持续跑评估闭环，才能保证它一直不会作妖。
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
@@ -85,24 +99,21 @@ tags:
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同公司:Codex · 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Vercel · 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同公司:Vercel · 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Vercel · 同概念:智能体 (agent)</span>
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Vercel · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 编程 · 代码审查 · PR 自动审批 · 智能体 · 合规*
-
 <script>
 (function(){
   function move(){

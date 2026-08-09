@@ -56,9 +56,13 @@ tags:
 
 顺着「做更多事需要更多手」的逻辑，就能看懂一个最近让很多人意外的趋势：OpenAI 和 Anthropic 这些 AI 实验室，正在疯狂投资专业服务和前向部署工程师 [09:45]。
 
-原因其实极其朴素：当你想让一家大公司用 AI 重构其全部内部工作流时，这需要 5 到 10 个人坐下来花一两个月去规划，然后还要把旧系统拔掉、训练员工——这是一个极其庞大的落地项目 [11:30]。任何在大公司干过的人都明白，公司里根本没有一帮闲人随时等着搞这种新项目。这通常是你去雇佣 Bain（贝恩）、[[McKinsey|McKinsey]]（麦金赛）或 Accenture（埃森哲）这类咨询公司来干的事。所以，AI 公司买下咨询团队，并不是为了证明「AI 搞不定」，而是因为给企业部署 AI 这件事本身，就是一项极其庞大的重体力活。
+原因其实极其朴素：当你想让一家大公司用 AI 重构其全部内部工作流时，这需要 5 到 10 个人坐下来花一两个月去规划，然后还要把旧系统拔掉、训练员工——这是一个极其庞大的落地项目 [11:30]。任何在大公司干过的人都明白，公司里根本没有一帮闲人随时等着搞这种新项目。
 
-这套逻辑也给普通人的职业前景投下了一束理性之光：你所做的工作中，「难的那部分」到底是什么？是逐行敲代码，还是搞清楚客户到底想要什么、怎么把产品推向市场？Claude Code 能帮你写代码，但它没法替你决定「该写什么代码」[15:19]。这个决策与洞察的向上跃升，正是普通人在 AI 时代要卡位的地方。
+这通常是你去雇佣 Bain（贝恩）、[[McKinsey|McKinsey]]（麦金赛）或 Accenture（埃森哲）这类咨询公司来干的事。所以，AI 公司买下咨询团队，并不是为了证明「AI 搞不定」，而是因为给企业部署 AI 这件事本身，就是一项极其庞大的重体力活。
+
+这套逻辑也给普通人的职业前景投下了一束理性之光：你所做的工作中，「难的那部分」到底是什么？是逐行敲代码，还是搞清楚客户到底想要什么、怎么把产品推向市场？
+
+Claude Code 能帮你写代码，但它没法替你决定「该写什么代码」[15:19]。这个决策与洞察的向上跃升，正是普通人在 AI 时代要卡位的地方。
 
 ## 模型公司赚不到暴利，价值都在「更上层」
 
@@ -70,7 +74,9 @@ tags:
 
 ## AI 会导致职场末日吗？
 
-既然价值还在创造，那工作机会呢？很多听众最焦虑的，莫过于「职场末日」。对此，Benedict 的回答是：每一波新技术都会自动化掉一批工作，然后解锁一批现在还不存在的新工作，我们在过去两百年里一直在经历这个过程 [18:54]。1800 年时 90% 的人是农民，天天担心庄稼歉收；今天这些工作被自动化了，我们却有了铁路工程师这种当年听起来极其荒谬的职业。
+既然价值还在创造，那工作机会呢？很多听众最焦虑的，莫过于「职场末日」。
+
+对此，Benedict 的回答是：每一波新技术都会自动化掉一批工作，然后解锁一批现在还不存在的新工作，我们在过去两百年里一直在经历这个过程 [18:54]。1800 年时 90% 的人是农民，天天担心庄稼歉收；今天这些工作被自动化了，我们却有了铁路工程师这种当年听起来极其荒谬的职业。
 
 当然，每次转型都会伴随「摩擦性痛苦」——有的人失业、有的小镇被掏空，这一切确实很糟糕。但在另一头，我们整体上更富裕了，不再担心饿肚子 [19:41]。他认为，当下那些天天喊着大公司明天就会买 ChatGPT、两周后开除所有员工的「末日论者」，根本不懂企业运转的常识：大公司的企业软件采购周期长达 18 个月以上，全面替换核心系统（比如替换掉 SAP）并改变员工习惯，至少需要 5 到 10 年 [21:34]。
 
@@ -84,7 +90,11 @@ tags:
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是四句话。第一，区分「任务」和「工作」——AI 能把你工作中的某项任务变成一键搞定的按钮，但这不代表你整个岗位没价值了，难的部分往往是你对业务的理解和决策，就像 Claude Code 能写代码，但写什么代码还得你来定。第二，模型本身大概率会变成「大宗商品」，卖基础模型的公司未必能攫取行业最大的利润，真正赚钱的机会在更靠上层、直接解决具体问题的应用里。第三，历史上每一次技术变革都会消灭旧岗位、解锁新岗位，过程会有阵痛，但宏观上我们总会变得更富有；与其被末日论吓倒，不如认清企业采购和转型的周期是以「年」甚至「十年」计的。第四，别把头埋进沙子里、站在道德高地上抗拒 AI，完全沉浸进去搞懂它、内化它，是你在这个变革期唯一能做的、也最务实的选择——正如 Benedict 反复强调的那句座右铭：「视情况而定，但大概会没事的。」
+最后收个尾，这一集值得带走的是四句话。第一，区分「任务」和「工作」——AI 能把你工作中的某项任务变成一键搞定的按钮，但这不代表你整个岗位没价值了，难的部分往往是你对业务的理解和决策，就像 Claude Code 能写代码，但写什么代码还得你来定。
+
+第二，模型本身大概率会变成「大宗商品」，卖基础模型的公司未必能攫取行业最大的利润，真正赚钱的机会在更靠上层、直接解决具体问题的应用里。第三，历史上每一次技术变革都会消灭旧岗位、解锁新岗位，过程会有阵痛，但宏观上我们总会变得更富有；与其被末日论吓倒，不如认清企业采购和转型的周期是以「年」甚至「十年」计的。
+
+第四，别把头埋进沙子里、站在道德高地上抗拒 AI，完全沉浸进去搞懂它、内化它，是你在这个变革期唯一能做的、也最务实的选择——正如 Benedict 反复强调的那句座右铭：「视情况而定，但大概会没事的。」
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -115,24 +125,21 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Anthropic、Google、Meta、OpenAI、Apple、Microsoft · 同概念:AGI
-- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]] —— 同公司:Anthropic、Google、OpenAI、Apple、Microsoft
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、Meta、OpenAI、Apple、Microsoft · 同概念:AGI</span>
+- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、Apple、Microsoft</span>
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI · 同概念:AGI</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI、Apple
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:Claude Code
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI、Apple</span>
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:Claude Code</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code</span>
 
 </div>
 </div>
-
-*本集关键词:AI 行业趋势 · 价值链与定价权 · 自动化与就业 · 基础模型 · 分发与护城河*
-
 <script>
 (function(){
   function move(){

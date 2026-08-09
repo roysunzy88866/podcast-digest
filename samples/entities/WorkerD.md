@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kenton Varda]] · [[Cloudflare Workers]] · [[Apple]] · [[Google]] · [[智能体]] · [[沙箱]] · [[无服务器]] · [[云基础设施]] · [[vibe coding]] · [[蓝图]]
 
-<script type="application/json" class="pd-epn">{"Kenton Varda":1,"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":65,"沙箱":13,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1}</script>
+<script type="application/json" class="pd-epn">{"Kenton Varda":1,"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":67,"沙箱":13,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/Z-c11pV_uvU.m4a",
+  "duration_sec": 1192.919,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 234,
+  "asr": true,
+  "title_en": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley",
+  "podcast": "精选演讲",
+  "date": "2026-08-08",
+  "added": "2026-08-09",
+  "speaker_map": {
+    "SPEAKER_00": "Frank Coyle"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Frank Coyle"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "别迷信大上下文：拆解 Claude 认证架构师考试的反模式",
+  "guest_name": "Frank Coyle",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

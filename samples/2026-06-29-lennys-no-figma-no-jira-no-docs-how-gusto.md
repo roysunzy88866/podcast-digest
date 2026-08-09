@@ -41,33 +41,59 @@ tags:
 
 一家一千多人的公司,四名工程师加一名设计师,不用技术规格、不用 Figma、不开站会——十天半个月交付了一条全新的产品线。这事 [[Gusto|Gusto]] 的联合创始人 [[Eddie Kim|Eddie Kim]] 真做出来了,他说靠的是一句指令就能跑起来的 [[Claude Code|Claude Code]],以及一种把好代码直接丢进垃圾桶的底气 <button class="pd-ts" data-t="00:29" data-who="Eddie Kim" data-en="It's really not that scary and complicated. Co-founder was primarily built by five folks over the course of 10 weeks from initial idea, zero code to a tier one launch at Gusto." aria-label="回原文"></button>。
 
-这是 How I AI 播客的一集,主持人 [[Claire Vo|Claire Vo]] 请来了 Gusto 的 CTO 兼联合创始人 Eddie Kim。Gusto 是一家做薪资和人力资源服务的公司。这一集里,Eddie 完整复盘了他怎么带着五个人在十周内造出 Gusto [[联合创始人|Co-Founder]] 这个[[智能体|智能体]]产品。你会听到四块内容:这个产品怎么从一次航班的五小时延误里偶然诞生;他们怎么把传统开发流程里的文档、会议、排期全砍掉;一个原本不写代码的设计师怎么成了团队里代码产出前百分之六的「奇才」;以及作为高管,该怎么带头下场,自己用 AI 工具去造生产级的代码。
+这是 How I AI 播客的一集,主持人 [[Claire Vo|Claire Vo]] 请来了 Gusto 的 CTO 兼联合创始人 Eddie Kim。Gusto 是一家做薪资和人力资源服务的公司。
 
-说起这个产品的起点,Eddie 讲了一个特别有意思的细节。二月份他从马德里飞旧金山,在伦敦转机,前一趟航班延误,刚好错过下一趟,硬生生在机场多待了五个小时 <button class="pd-ts" data-t="05:15" data-who="Eddie Kim" data-en="of just came about because I was actually on vacation in February and I was flying back from Madrid my flight had a layover in London and the flight from Madrid to London was delayed" aria-label="回原文"></button>。这五个小时里,他掏出电脑,用当时刚开始流行的 Cloud Code(一种凭感觉编程的工具),把脑子里酝酿已久的一个想法直接写出了原型。等飞机落地旧金山,他已经拿着一个能用的演示版本了 <button class="pd-ts" data-t="06:31" data-who="Eddie Kim" data-en="with it. And by the time I had actually landed in San Francisco, I had this like prototype of what ultimately became Gusto co-founder." aria-label="回原文"></button>。主持人 Claire 顺势抛出一个观察:她身边好几个朋友,都是在休育儿假或者长途飞行的时候,用 AI 编程工具做出了惊人成果 <button class="pd-ts" data-t="07:18" data-who="Claire Vo" data-en="Just a little bit more time off. Parental leave and long flights. That is where I have heard the vibe coding magic happens over and over again." aria-label="回原文"></button>。这背后的逻辑其实很直白——只要给技术人一段不开会、不被打断的整块时间,他们就能靠这些新工具,把产品往前推一大步。
+这一集里,Eddie 完整复盘了他怎么带着五个人在十周内造出 Gusto [[联合创始人|Co-Founder]] 这个[[智能体|智能体]]产品。你会听到四块内容:这个产品怎么从一次航班的五小时延误里偶然诞生;他们怎么把传统开发流程里的文档、会议、排期全砍掉;一个原本不写代码的设计师怎么成了团队里代码产出前百分之六的「奇才」;以及作为高管,该怎么带头下场,自己用 AI 工具去造生产级的代码。
 
-这段孤军奋战的假期搞出了原型,但真正变成产品,还得靠团队。接下来就是 Eddie 怎么把这五个人攒到一起的。三月份公司有个叫 Anchor Week 的季度聚会,高级主管和资深技术骨干会在丹佛办公室碰头 <button class="pd-ts" data-t="09:15" data-who="Eddie Kim" data-en="That's pretty cool. And then so we have at our company this thing called Anchor Week, which happens quarterly. We all like kind of the senior leaders and senior ICs across the company," aria-label="回原文"></button>。Eddie 把几个对这个想法感兴趣的资深工程师和设计师叫到一个屋子里,在白板上画了一版粗糙的界面草图。这块白板,成了整个十周开发过程里,团队产出的唯一一份「文档」 <button class="pd-ts" data-t="11:05" data-who="Eddie Kim" data-en="And that whiteboard, which I took a photo of, was like literally the only documentation that we ever produced" aria-label="回原文"></button>。
+说起这个产品的起点,Eddie 讲了一个特别有意思的细节。二月份他从马德里飞旧金山,在伦敦转机,前一趟航班延误,刚好错过下一趟,硬生生在机场多待了五个小时 <button class="pd-ts" data-t="05:15" data-who="Eddie Kim" data-en="of just came about because I was actually on vacation in February and I was flying back from Madrid my flight had a layover in London and the flight from Madrid to London was delayed" aria-label="回原文"></button>。
 
-Eddie 对这套流程最自豪的,反而是他们「没做」的事。这五个人砍掉了所有传统开发流程里的标配:没有技术规格文档,没有 Figma 设计稿,不用 Jira(一种追踪任务的软件)看板,不开站会,也不开项目回顾会 <button class="pd-ts" data-t="10:10" data-who="Eddie Kim" data-en="by like what we didn't do versus what we did we actually just zeroed everything out we had no meetings we had no tech specs We had no figmas." aria-label="回原文"></button>。整个团队唯一的「基础设施」,就是一个全天候挂着的[[永久 Zoom|永久 Zoom]] 会议。大家平时就挂着这个会议,有人喜欢在里面静静干活,有人遇到问题就随时跳进来找人讨论 <button class="pd-ts" data-t="10:27" data-who="Eddie Kim" data-en="We had nothing. The only thing we decided to keep was a 24-7 perma-zoom, which is basically a Zoom room that we just keep because everybody's remote" aria-label="回原文"></button>。
+这五个小时里,他掏出电脑,用当时刚开始流行的 Cloud Code(一种凭感觉编程的工具),把脑子里酝酿已久的一个想法直接写出了原型。等飞机落地旧金山,他已经拿着一个能用的演示版本了 <button class="pd-ts" data-t="06:31" data-who="Eddie Kim" data-en="with it. And by the time I had actually landed in San Francisco, I had this like prototype of what ultimately became Gusto co-founder." aria-label="回原文"></button>。
 
-没有文档和会议,那产品决策怎么做?Eddie 的方法是「[[垃圾桶法|垃圾桶法]]」:写代码的成本已经被 AI 拉得极低,所以遇到犹豫要不要做的功能,直接让 Cloud Code 写一版完整的代码,提交一个准备好评审的拉取请求,然后团队在 Zoom 里讨论:这到底是不是我们要的?如果不是,立刻关掉删掉 <button class="pd-ts" data-t="13:27" data-who="Eddie Kim" data-en="the team how did you approach product decisions across this team of five yeah I would say everybody was kind of a product manager we would We would build features and we would go in that permazoom and sort of share it with each other." aria-label="回原文"></button>。主持人 Claire 非常认同这个做法,她进一步把这个思路拆成了两种模式:一种是通过 PR 来验证单个小功能,另一种是 V1 版本上线收到反馈后,干脆把整个代码库丢掉,从零开始写 V2 版本。因为 AI 让写代码的边际成本变得太低,这种「推倒重来」在经济上完全划算 <button class="pd-ts" data-t="14:50" data-who="Claire Vo" data-en="And whereas I think you couldn't do that, you know, six months ago. Yeah, I call this the trashcan method of software engineering right now where you build code and you're like actually literally OK with throwing it in" aria-label="回原文"></button>。
+主持人 Claire 顺势抛出一个观察:她身边好几个朋友,都是在休育儿假或者长途飞行的时候,用 AI 编程工具做出了惊人成果 <button class="pd-ts" data-t="07:18" data-who="Claire Vo" data-en="Just a little bit more time off. Parental leave and long flights. That is where I have heard the vibe coding magic happens over and over again." aria-label="回原文"></button>。这背后的逻辑其实很直白——只要给技术人一段不开会、不被打断的整块时间,他们就能靠这些新工具,把产品往前推一大步。
 
-说完了这套「没有规矩的规矩」,接下来是这套流程里最硬核的技术细节。Eddie 坦言,这个智能体产品的技术栈简单到让人难以置信。他们只用了 [[Cloudflare Worker|Cloudflare Worker]](一种云端无服务器运行环境)来跑智能体的主循环,再加上 [[Vercel AI SDK|Vercel AI SDK]](一个开发套件),就没有别的了 <button class="pd-ts" data-t="17:44" data-who="Eddie Kim" data-en="that architecture our stack is surprisingly simple we build on we use cloudflare worker for the actual agent loop and versell ai sdk that's it we don't have any other harness on top of" aria-label="回原文"></button>。主持人 Claire 自己也是开发智能体的,她补了一句大实话:别被「构建智能体」这个词吓到,它本质上就是一个跑在云端、能查文件、能用工具的 SDK,随时可以换底层的语言模型,真没那么玄乎 <button class="pd-ts" data-t="18:39" data-who="Claire Vo" data-en="So it's good to hear that, you know, people get really intimidated by the idea of building an agent. And I'm like, literally, it's an agent SDK running somewhere in the cloud." aria-label="回原文"></button>。
+这段孤军奋战的假期搞出了原型,但真正变成产品,还得靠团队。接下来就是 Eddie 怎么把这五个人攒到一起的。
 
-既然连技术栈都这么简单,那开发流程是不是也该变变?接下来就是这套打法最反常识的地方:让设计师去写生产环境的代码。团队里的设计师 Katie,开始时只是用一个假的、写死响应的纯前端页面放到生产环境里当占位符。接着,工程师并行开发真正的后台功能,再一点点把这个「假骨架」替换成真实运转的代码,像雕琢大理石一样逐渐成形 <button class="pd-ts" data-t="20:10" data-who="Eddie Kim" data-en="a piece of art over time and we're doing that in production in place so one of the really cool things that we did which I would highly recommend is Katie our designer she actually shipped started" aria-label="回原文"></button>。
+三月份公司有个叫 Anchor Week 的季度聚会,高级主管和资深技术骨干会在丹佛办公室碰头 <button class="pd-ts" data-t="09:15" data-who="Eddie Kim" data-en="That's pretty cool. And then so we have at our company this thing called Anchor Week, which happens quarterly. We all like kind of the senior leaders and senior ICs across the company," aria-label="回原文"></button>。Eddie 把几个对这个想法感兴趣的资深工程师和设计师叫到一个屋子里,在白板上画了一版粗糙的界面草图。这块白板,成了整个十周开发过程里,团队产出的唯一一份「文档」 <button class="pd-ts" data-t="11:05" data-who="Eddie Kim" data-en="And that whiteboard, which I took a photo of, was like literally the only documentation that we ever produced" aria-label="回原文"></button>。
 
-Eddie 拿团队的代码统计工具一查,结果让人大跌眼镜:这位没有任何软件工程背景的设计师,在过去三个月里的代码产出量,在整个一千人的研发组织里排在前百分之六 <button class="pd-ts" data-t="22:37" data-who="Eddie Kim" data-en="into this incredible engineer And I was just looking at our PR stats, which we use this tool called DX for it. She, across our entire R&amp;D org," aria-label="回原文"></button>。Eddie 专门去问了 Katie 怎么做到的。Katie 的回答很简单:一是自己本身对技术好奇,二是团队里有三四个工程师愿意花时间,坐在她旁边,教她怎么给 AI 写提示词,教她怎么判断 AI 生成的代码好坏 <button class="pd-ts" data-t="23:18" data-who="Eddie Kim" data-en="And her answer was basically twofold. One is that she's not an engineer, she's not a software developer," aria-label="回原文"></button>。Eddie 强调,很多工程师觉得指导非技术人员写代码是拖慢进度,但只要短期投点资,这种做法的长期回报极其惊人 <button class="pd-ts" data-t="24:08" data-who="Eddie Kim" data-en="and yeah that's true in the short term but like now I think once you make that investment you have a support event software developer around her or any designer I think dividends dividends pay off really really quickly this makes" aria-label="回原文"></button>。Claire 对此深有感触,她建议所有工程团队:把审查非工程师提交的 PR,放到和审查工程师 PR 一样高的优先级上 <button class="pd-ts" data-t="25:12" data-who="Claire Vo" data-en="to their non-engineering partners and this is a stress test I give to a lot of teams because I hear a lot of teams being really overwhelmed by code review" aria-label="回原文"></button>。Eddie 透露,这个小团队拉取请求的中位审查时间,只有九分钟 <button class="pd-ts" data-t="26:05" data-who="Eddie Kim" data-en="And our priority has always been PR reviews. I think we did an analysis and I think our median PR review time was nine minutes. On this team?" aria-label="回原文"></button>。
+Eddie 对这套流程最自豪的,反而是他们「没做」的事。这五个人砍掉了所有传统开发流程里的标配:没有技术规格文档,没有 Figma 设计稿,不用 Jira(一种追踪任务的软件)看板,不开站会,也不开项目回顾会 <button class="pd-ts" data-t="10:10" data-who="Eddie Kim" data-en="by like what we didn't do versus what we did we actually just zeroed everything out we had no meetings we had no tech specs We had no figmas." aria-label="回原文"></button>。
 
-聊完了具体的团队和技术,最后还有两个高管们最关心的话题。既然要推广这种新做法,就得面对一个现实问题:普通员工没有联合创始人的特权,怎么给他们「破坏规矩」的底气?Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但如果是其他团队想这么干,领导者必须主动、明确地给他们授权,甚至要下死命令:如果你们在这个项目里写了文档或者画了 Figma,反而要挨批 <button class="pd-ts" data-t="41:25" data-who="Eddie Kim" data-en="difference here that like applies to this particular project that may not apply to others. Right. And it's," aria-label="回原文"></button>。Claire 还分享了她听过的最极端的实验:Coinbase 的一个工程团队直接禁止工程师碰 AI 生成的代码,只能修改输入的提示词,以此逼迫大家适应新的工作方式 <button class="pd-ts" data-t="42:37" data-who="Claire Vo" data-en="Yeah. This reminds me of what my friend Chinton at Coinbase did is he actually, he does these extreme experiments with his engineering team." aria-label="回原文"></button>。
+整个团队唯一的「基础设施」,就是一个全天候挂着的[[永久 Zoom|永久 Zoom]] 会议。大家平时就挂着这个会议,有人喜欢在里面静静干活,有人遇到问题就随时跳进来找人讨论 <button class="pd-ts" data-t="10:27" data-who="Eddie Kim" data-en="We had nothing. The only thing we decided to keep was a 24-7 perma-zoom, which is basically a Zoom room that we just keep because everybody's remote" aria-label="回原文"></button>。
+
+没有文档和会议,那产品决策怎么做?Eddie 的方法是「[[垃圾桶法|垃圾桶法]]」:写代码的成本已经被 AI 拉得极低,所以遇到犹豫要不要做的功能,直接让 Cloud Code 写一版完整的代码,提交一个准备好评审的拉取请求,然后团队在 Zoom 里讨论:这到底是不是我们要的?
+
+如果不是,立刻关掉删掉 <button class="pd-ts" data-t="13:27" data-who="Eddie Kim" data-en="the team how did you approach product decisions across this team of five yeah I would say everybody was kind of a product manager we would We would build features and we would go in that permazoom and sort of share it with each other." aria-label="回原文"></button>。主持人 Claire 非常认同这个做法,她进一步把这个思路拆成了两种模式:一种是通过 PR 来验证单个小功能,另一种是 V1 版本上线收到反馈后,干脆把整个代码库丢掉,从零开始写 V2 版本。因为 AI 让写代码的边际成本变得太低,这种「推倒重来」在经济上完全划算 <button class="pd-ts" data-t="14:50" data-who="Claire Vo" data-en="And whereas I think you couldn't do that, you know, six months ago. Yeah, I call this the trashcan method of software engineering right now where you build code and you're like actually literally OK with throwing it in" aria-label="回原文"></button>。
+
+说完了这套「没有规矩的规矩」,接下来是这套流程里最硬核的技术细节。Eddie 坦言,这个智能体产品的技术栈简单到让人难以置信。
+
+他们只用了 [[Cloudflare Worker|Cloudflare Worker]](一种云端无服务器运行环境)来跑智能体的主循环,再加上 [[Vercel AI SDK|Vercel AI SDK]](一个开发套件),就没有别的了 <button class="pd-ts" data-t="17:44" data-who="Eddie Kim" data-en="that architecture our stack is surprisingly simple we build on we use cloudflare worker for the actual agent loop and versell ai sdk that's it we don't have any other harness on top of" aria-label="回原文"></button>。主持人 Claire 自己也是开发智能体的,她补了一句大实话:别被「构建智能体」这个词吓到,它本质上就是一个跑在云端、能查文件、能用工具的 SDK,随时可以换底层的语言模型,真没那么玄乎 <button class="pd-ts" data-t="18:39" data-who="Claire Vo" data-en="So it's good to hear that, you know, people get really intimidated by the idea of building an agent. And I'm like, literally, it's an agent SDK running somewhere in the cloud." aria-label="回原文"></button>。
+
+既然连技术栈都这么简单,那开发流程是不是也该变变?接下来就是这套打法最反常识的地方:让设计师去写生产环境的代码。
+
+团队里的设计师 Katie,开始时只是用一个假的、写死响应的纯前端页面放到生产环境里当占位符。接着,工程师并行开发真正的后台功能,再一点点把这个「假骨架」替换成真实运转的代码,像雕琢大理石一样逐渐成形 <button class="pd-ts" data-t="20:10" data-who="Eddie Kim" data-en="a piece of art over time and we're doing that in production in place so one of the really cool things that we did which I would highly recommend is Katie our designer she actually shipped started" aria-label="回原文"></button>。
+
+Eddie 拿团队的代码统计工具一查,结果让人大跌眼镜:这位没有任何软件工程背景的设计师,在过去三个月里的代码产出量,在整个一千人的研发组织里排在前百分之六 <button class="pd-ts" data-t="22:37" data-who="Eddie Kim" data-en="into this incredible engineer And I was just looking at our PR stats, which we use this tool called DX for it. She, across our entire R&amp;D org," aria-label="回原文"></button>。Eddie 专门去问了 Katie 怎么做到的。
+
+Katie 的回答很简单:一是自己本身对技术好奇,二是团队里有三四个工程师愿意花时间,坐在她旁边,教她怎么给 AI 写提示词,教她怎么判断 AI 生成的代码好坏 <button class="pd-ts" data-t="23:18" data-who="Eddie Kim" data-en="And her answer was basically twofold. One is that she's not an engineer, she's not a software developer," aria-label="回原文"></button>。Eddie 强调,很多工程师觉得指导非技术人员写代码是拖慢进度,但只要短期投点资,这种做法的长期回报极其惊人 <button class="pd-ts" data-t="24:08" data-who="Eddie Kim" data-en="and yeah that's true in the short term but like now I think once you make that investment you have a support event software developer around her or any designer I think dividends dividends pay off really really quickly this makes" aria-label="回原文"></button>。
+
+Claire 对此深有感触,她建议所有工程团队:把审查非工程师提交的 PR,放到和审查工程师 PR 一样高的优先级上 <button class="pd-ts" data-t="25:12" data-who="Claire Vo" data-en="to their non-engineering partners and this is a stress test I give to a lot of teams because I hear a lot of teams being really overwhelmed by code review" aria-label="回原文"></button>。Eddie 透露,这个小团队拉取请求的中位审查时间,只有九分钟 <button class="pd-ts" data-t="26:05" data-who="Eddie Kim" data-en="And our priority has always been PR reviews. I think we did an analysis and I think our median PR review time was nine minutes. On this team?" aria-label="回原文"></button>。
+
+聊完了具体的团队和技术,最后还有两个高管们最关心的话题。既然要推广这种新做法,就得面对一个现实问题:普通员工没有联合创始人的特权,怎么给他们「破坏规矩」的底气?
+
+Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但如果是其他团队想这么干,领导者必须主动、明确地给他们授权,甚至要下死命令:如果你们在这个项目里写了文档或者画了 Figma,反而要挨批 <button class="pd-ts" data-t="41:25" data-who="Eddie Kim" data-en="difference here that like applies to this particular project that may not apply to others. Right. And it's," aria-label="回原文"></button>。Claire 还分享了她听过的最极端的实验:Coinbase 的一个工程团队直接禁止工程师碰 AI 生成的代码,只能修改输入的提示词,以此逼迫大家适应新的工作方式 <button class="pd-ts" data-t="42:37" data-who="Claire Vo" data-en="Yeah. This reminds me of what my friend Chinton at Coinbase did is he actually, he does these extreme experiments with his engineering team." aria-label="回原文"></button>。
 
 > 【背景】Coinbase 是一家知名的加密货币交易平台。
 
-第二个话题是给所有高管的硬核建议:别再只做战略规划了,必须亲自下场写代码。Eddie 在这十周里,几乎是进入了全职写代码的状态,自己的代码产出量也排进了全公司的前百分之九十五 <button class="pd-ts" data-t="46:30" data-who="Eddie Kim" data-en="in like merging real reviewed like high quality code and in my case I kind of took it to an extreme where I like went into almost icy mode for the past 10 weeks and I was like literally building I'm like 95th percentile on DDX" aria-label="回原文"></button>。他说,高管如果只停留在做个原型给团队看,就会严重低估把一个产品真正做成生产级所需的工作量。Claire 也赞同:如果你自己不整天泡在 AI 工具里使用它,你根本做不好 AI 产品的战略。Eddie 还专门提到,Gusto Co-Founder 这个产品最核心的灵感——跨平台通过 SMS 和 Slack 与用户交互——就是他自己在家折腾 OpenClaw(一种个人 AI 智能体)时,切身感受到多渠道通信的巨大威力才悟出来的 <button class="pd-ts" data-t="47:49" data-who="Eddie Kim" data-en="Yeah, I think so. One thing like that I'll disclose is that the original, original idea for Gusto co-founder came" aria-label="回原文"></button>。
+第二个话题是给所有高管的硬核建议:别再只做战略规划了,必须亲自下场写代码。Eddie 在这十周里,几乎是进入了全职写代码的状态,自己的代码产出量也排进了全公司的前百分之九十五 <button class="pd-ts" data-t="46:30" data-who="Eddie Kim" data-en="in like merging real reviewed like high quality code and in my case I kind of took it to an extreme where I like went into almost icy mode for the past 10 weeks and I was like literally building I'm like 95th percentile on DDX" aria-label="回原文"></button>。
+
+他说,高管如果只停留在做个原型给团队看,就会严重低估把一个产品真正做成生产级所需的工作量。Claire 也赞同:如果你自己不整天泡在 AI 工具里使用它,你根本做不好 AI 产品的战略。Eddie 还专门提到,Gusto Co-Founder 这个产品最核心的灵感——跨平台通过 SMS 和 Slack 与用户交互——就是他自己在家折腾 OpenClaw(一种个人 AI 智能体)时,切身感受到多渠道通信的巨大威力才悟出来的 <button class="pd-ts" data-t="47:49" data-who="Eddie Kim" data-en="Yeah, I think so. One thing like that I'll disclose is that the original, original idea for Gusto co-founder came" aria-label="回原文"></button>。
 
 > 【背景】OpenClaw 是用户可以在本地或家用设备上部署的个人 AI 智能体框架。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是几句话。第一,当写代码的成本被 AI 拉到足够低,文档和会议就成了拖慢进度的负担,试试用全天候的 Zoom 加直接丢进垃圾桶的 PR 来替代传统的开发流程。第二,给非技术人员——比如设计师和产品经理——配 AI 工具和愿意带他们的工程师,他们能爆发出你想象不到的生产力。第三,作为高管,如果你想真正理解 AI 能做什么,做出正确的战略决策,就必须亲自下场,用这些工具去写、去改、去发布生产环境的代码。最后,不要让审批流程和季度规划毁了团队的热情,十个五人小队同时去试错,哪怕全军覆没,成本也远低于一次传统的失败立项,而一旦跑通一个,就能改变公司的轨迹。
+最后收个尾,这一集值得带走的是几句话。第一,当写代码的成本被 AI 拉到足够低,文档和会议就成了拖慢进度的负担,试试用全天候的 Zoom 加直接丢进垃圾桶的 PR 来替代传统的开发流程。
+
+第二,给非技术人员——比如设计师和产品经理——配 AI 工具和愿意带他们的工程师,他们能爆发出你想象不到的生产力。第三,作为高管,如果你想真正理解 AI 能做什么,做出正确的战略决策,就必须亲自下场,用这些工具去写、去改、去发布生产环境的代码。最后,不要让审批流程和季度规划毁了团队的热情,十个五人小队同时去试错,哪怕全军覆没,成本也远低于一次传统的失败立项,而一旦跑通一个,就能改变公司的轨迹。
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
@@ -102,24 +128,21 @@ Eddie 拿团队的代码统计工具一查,结果让人大跌眼镜:这位没有
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、vibe coding</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 产品开发 · 直觉编程 · 极简技术栈 · 高管下场 · 无文档工作法*
-
 <script>
 (function(){
   function move(){

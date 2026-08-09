@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
+[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Cursor":7,"Claude Code":17,"Bolt":1,"Lovable":3,"Linear":2,"Anthropic":36,"Composer":1,"Codex":14,"智能体":65}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Cursor":8,"Claude Code":18,"Bolt":1,"Lovable":3,"Linear":2,"Anthropic":38,"Composer":1,"Codex":14,"智能体":67}</script>
 
 <script>
 (function(){

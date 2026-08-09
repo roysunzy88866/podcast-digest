@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,10 +16,11 @@ unlisted: true
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(01:48起):本集把 LLM 说成是 OpenAI 和 Anthropic 等初创公司为了尽快盈利而必须重金押注的路线，并指出 Demis 认为仅靠 LLM 不足以达成真正的通用人工智能。
+- **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(08:48起):本集强调它只是个概率上的下一个词预测器,自己没法执行工具,它真正做的是把工具需要的参数提取出来交给你去执行。
 
 ## ① 提到它的金句
 
-*4 条,均已过机器闸门*
+*6 条,均已过机器闸门*
 
 ![[2025-12-07-lennys-surge-ai-edwin-chen#^q6]]
 
@@ -29,15 +30,20 @@ unlisted: true
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q4]]
 
+![[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo#^q1]]
+
+![[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo#^q2]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为概念
+- [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
 
 ## ③ 关联
 
@@ -45,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[Claude]] · [[OpenAI]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":65,"Anthropic":36,"Lenny":33,"Google":15,"Stripe":10,"Claude":12,"OpenAI":30,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":67,"Anthropic":38,"Lenny":34,"Google":15,"Stripe":10,"Claude":12,"OpenAI":30,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
 
 <script>
 (function(){

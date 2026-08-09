@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tom Verrilli]] · [[Lenny]] · [[Twitch]] · [[Twitter]] · [[Anthropic]] · [[Claude]] · [[PM]] · [[IC]] · [[数据科学]] · [[直播购物]]
 
-<script type="application/json" class="pd-epn">{"Tom Verrilli":1,"Lenny":33,"Twitch":1,"Twitter":4,"Anthropic":36,"Claude":12,"PM":3,"IC":4,"数据科学":1,"直播购物":1}</script>
+<script type="application/json" class="pd-epn">{"Tom Verrilli":1,"Lenny":34,"Twitch":1,"Twitter":4,"Anthropic":38,"Claude":12,"PM":3,"IC":4,"数据科学":1,"直播购物":1}</script>
 
 <script>
 (function(){

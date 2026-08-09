@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Simon Willison]] · [[Anish]] · [[Cat Wu]] · [[Raj]] · [[Thariq Shihipar]] · [[Harrison]] · [[Anthropic]] · [[Traversal]]
 
-<script type="application/json" class="pd-epn">{"智能体":65,"评估":6,"Simon Willison":1,"Anish":1,"Cat Wu":1,"Raj":1,"Thariq Shihipar":1,"Harrison":1,"Anthropic":36,"Traversal":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":67,"评估":6,"Simon Willison":1,"Anish":1,"Cat Wu":1,"Raj":1,"Thariq Shihipar":1,"Harrison":1,"Anthropic":38,"Traversal":1}</script>
 
 <script>
 (function(){

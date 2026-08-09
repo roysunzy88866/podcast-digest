@@ -38,41 +38,75 @@ tags:
 
 ## 从极客玩具到数万亿生意
 
-时间回到 2014 年,Mark 在《纽约时报》写了篇题为 Why Bitcoin Matters 的评论文章,试图向公众解释这项技术到底在说什么。那时候[[加密货币|加密货币]]还只是个亚文化,参与者主要是爱好者和超级发烧友,技术上有不少性能和扩展性的瓶颈 <button class="pd-ts" data-t="06:17" data-who="Chris Dixon" data-en="How have things changed from the early days to now? as mark was saying it at the time way back sort of 2014 in the early days it was mostly kind of hobbyists and uh you know super enthusiasts and kind of a kind of a subculture cultish thing um the technology was um big you know bitcoin was sophisticated but a lot of the things mark alluded to like kind of the newer blockchains" aria-label="回原文"></button>。他当时的一个判断如今看来很准:我们仍处于采用曲线的起点,大多数人还没开始了解和接触它。唯一需要修正的,是文章里每次写到的 Bitcoin(比特币),如今都该换成整个加密行业——那时候它基本是镇上唯一的游戏,后来才有了以太坊和各种新区块链平台 <button class="pd-ts" data-t="05:35" data-who="Mark Andreessen" data-en="And so I think if you read that piece, you'll see that I projected many of the use cases and the future development of the technology, but it took a different path." aria-label="回原文"></button>。
+时间回到 2014 年,Mark 在《纽约时报》写了篇题为 Why Bitcoin Matters 的评论文章,试图向公众解释这项技术到底在说什么。那时候[[加密货币|加密货币]]还只是个亚文化,参与者主要是爱好者和超级发烧友,技术上有不少性能和扩展性的瓶颈 <button class="pd-ts" data-t="06:17" data-who="Chris Dixon" data-en="How have things changed from the early days to now? as mark was saying it at the time way back sort of 2014 in the early days it was mostly kind of hobbyists and uh you know super enthusiasts and kind of a kind of a subculture cultish thing um the technology was um big you know bitcoin was sophisticated but a lot of the things mark alluded to like kind of the newer blockchains" aria-label="回原文"></button>。
 
-快进到今天,情况已经完全不同。每一天你都能看到大银行或金融科技公司宣布涉足[[稳定币|稳定币]]或[[代币化|代币化]]资产的平台。稳定币(锚定法币价值、发行在区块链上的加密货币)现在的交易规模已经可以和 Visa 网络媲美,一个具体场景是:你可以打开 WhatsApp 用它给世界任何地方几乎免费地汇款,就像发一条短信那样 <button class="pd-ts" data-t="07:05" data-who="Chris Dixon" data-en="The stablecoin volume, so, you know, stablecoins, for those who don't know, are basically what Mark described with Bitcoin, except they're dollars on blockchains." aria-label="回原文"></button>。三年前同样一笔链上交易可能要花几美元甚至几十美元,而现在在主流区块链上,结算不到一秒、花费不到一美分。更关键的是,比特币和以太坊这些主流链本身从未被黑客攻破过——出事的往往是内部安全松懈的使用机构。底层基础设施已经高度成熟。
+他当时的一个判断如今看来很准:我们仍处于采用曲线的起点,大多数人还没开始了解和接触它。唯一需要修正的,是文章里每次写到的 Bitcoin(比特币),如今都该换成整个加密行业——那时候它基本是镇上唯一的游戏,后来才有了以太坊和各种新区块链平台 <button class="pd-ts" data-t="05:35" data-who="Mark Andreessen" data-en="And so I think if you read that piece, you'll see that I projected many of the use cases and the future development of the technology, but it took a different path." aria-label="回原文"></button>。
+
+快进到今天,情况已经完全不同。每一天你都能看到大银行或金融科技公司宣布涉足[[稳定币|稳定币]]或[[代币化|代币化]]资产的平台。
+
+稳定币(锚定法币价值、发行在区块链上的加密货币)现在的交易规模已经可以和 Visa 网络媲美,一个具体场景是:你可以打开 WhatsApp 用它给世界任何地方几乎免费地汇款,就像发一条短信那样 <button class="pd-ts" data-t="07:05" data-who="Chris Dixon" data-en="The stablecoin volume, so, you know, stablecoins, for those who don't know, are basically what Mark described with Bitcoin, except they're dollars on blockchains." aria-label="回原文"></button>。三年前同样一笔链上交易可能要花几美元甚至几十美元,而现在在主流区块链上,结算不到一秒、花费不到一美分。
+
+更关键的是,比特币和以太坊这些主流链本身从未被黑客攻破过——出事的往往是内部安全松懈的使用机构。底层基础设施已经高度成熟。
 
 ## 为什么不能再没有规则
 
 技术成熟了,大机构进来了,那为什么现在非要有规则?Chris 把当下的监管状态拆成了两部分:占总市值约 15% 的稳定币,和占另外 85% 的其他市场 <button class="pd-ts" data-t="09:35" data-who="Chris Dixon" data-en="So for a variety of reasons, kind of for political and policy reasons, the regulation around crypto was broken into two components, stablecoins and the rest of the market." aria-label="回原文"></button>。
 
-去年通过并签署的《天才法案》刚好补上了稳定币这一块的联邦框架。它的核心机制是:如果你持有一美元的合规稳定币,发行方银行的账上就有一美元趴在那里,并且这些钱只能放在短期国债里——这基本上是金融系统能提供的安全上限。你知道这一美元就在那儿,它不是 FTX 那样随时蒸发的资金盘,也不是那种背后根本没有真实资产支撑、明天就可能清零的 Terra Luna <button class="pd-ts" data-t="10:21" data-who="Chris Dixon" data-en="If you're an American consumer and you use USDC or another genius-compliant stablecoin, you know that if you have a dollar of that stablecoin, there is a dollar sitting in the bank, because that's the genius regulation, that that bank is audited and that's sitting in short-term treasuries, which is basically the safest thing the financial system can offer." aria-label="回原文"></button>。这种确定性给了消费者信心,给了 Stripe、PayPal 这样的机构敢于大举进入的底气,也让创业者有了明确努力的方向。一旦监管的清晰度落地,稳定币在过去一年就成了整个行业发展最快的领域。
+去年通过并签署的《天才法案》刚好补上了稳定币这一块的联邦框架。它的核心机制是:如果你持有一美元的合规稳定币,发行方银行的账上就有一美元趴在那里,并且这些钱只能放在短期国债里——这基本上是金融系统能提供的安全上限。
+
+你知道这一美元就在那儿,它不是 FTX 那样随时蒸发的资金盘,也不是那种背后根本没有真实资产支撑、明天就可能清零的 Terra Luna <button class="pd-ts" data-t="10:21" data-who="Chris Dixon" data-en="If you're an American consumer and you use USDC or another genius-compliant stablecoin, you know that if you have a dollar of that stablecoin, there is a dollar sitting in the bank, because that's the genius regulation, that that bank is audited and that's sitting in short-term treasuries, which is basically the safest thing the financial system can offer." aria-label="回原文"></button>。这种确定性给了消费者信心,给了 Stripe、PayPal 这样的机构敢于大举进入的底气,也让创业者有了明确努力的方向。一旦监管的清晰度落地,稳定币在过去一年就成了整个行业发展最快的领域。
 
 但问题在于,剩下那 85% 的市场——包括区块链本身以及一大堆数字资产——目前还没有一个全面的联邦监管框架。Chris 打了个比方:这就像我们给手机立了规矩,却没有给信号塔立规矩,一半的技术受监管,另一半却悬在不确定的灰色地带 <button class="pd-ts" data-t="11:43" data-who="Chris Dixon" data-en="because that's sort of the other 85% of the market. So you can kind of imagine it's like as if we had a regulatory framework for cell phones, but not for cell towers or something." aria-label="回原文"></button>。这正是《清晰法案》要解决的:它要让那些构成整个行业地基的部分,拥有像股票、债券那样的立法级确定性和坚实地面。
 
-这种无规则的状态到底有多伤行业?Mark 直言,过去几年美国对加密行业实行的是一种他称为「无政府暴政」的政策:一边让海外的破坏规则者彻底放飞自我,最终酿成了像 FTX 那样公然窃取客户资金的灾难;一边又对美国国内那些守规矩的创业者进行残酷的惩罚和起诉,让他们根本没有合法途径去安全地做生意 <button class="pd-ts" data-t="52:04" data-who="Mark Andreessen" data-en="And the one that I think everybody agrees on is there's a specific degenerate form of government called anarcho-tyranny. So anarcho from anarchy and then tyranny." aria-label="回原文"></button>。Chris 补充了一个让他非常沮丧的现象:监管的灰色地带会引发一场逐底竞争 <button class="pd-ts" data-t="21:00" data-who="Chris Dixon" data-en="And so what you have is essentially a dynamic. What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom. Because you'll have, look, I was on the board of Coinbase for a long time." aria-label="回原文"></button>。像 Coinbase 这样认真合规的美国公司,每年要花大价钱、拖慢产品进度来满足要求;但每一年都会冒出一个不搞合规的海外竞争对手,因为手续费更低、迭代更快而抢走市场。模棱两可的规则,到头来只会把好玩家逼死,给坏玩家发红利。
+这种无规则的状态到底有多伤行业?Mark 直言,过去几年美国对加密行业实行的是一种他称为「无政府暴政」的政策:一边让海外的破坏规则者彻底放飞自我,最终酿成了像 FTX 那样公然窃取客户资金的灾难;一边又对美国国内那些守规矩的创业者进行残酷的惩罚和起诉,让他们根本没有合法途径去安全地做生意 <button class="pd-ts" data-t="52:04" data-who="Mark Andreessen" data-en="And the one that I think everybody agrees on is there's a specific degenerate form of government called anarcho-tyranny. So anarcho from anarchy and then tyranny." aria-label="回原文"></button>。
+
+Chris 补充了一个让他非常沮丧的现象:监管的灰色地带会引发一场逐底竞争 <button class="pd-ts" data-t="21:00" data-who="Chris Dixon" data-en="And so what you have is essentially a dynamic. What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom. Because you'll have, look, I was on the board of Coinbase for a long time." aria-label="回原文"></button>。像 Coinbase 这样认真合规的美国公司,每年要花大价钱、拖慢产品进度来满足要求;但每一年都会冒出一个不搞合规的海外竞争对手,因为手续费更低、迭代更快而抢走市场。模棱两可的规则,到头来只会把好玩家逼死,给坏玩家发红利。
 
 ## 一一拆解五大争议
 
 既然立法这么重要,那为什么法案推了七年还没落地?因为围绕这部六百多页的法案有太多激烈的利益交锋。
 
-第一个大争议是所谓的非法金融。参议员伊丽莎白·沃伦指责这个法案是逃避制裁的门票,说朝鲜、恐怖分子和勒索软件黑客会借此横行无忌 <button class="pd-ts" data-t="20:32" data-who="Chris Dixon" data-en="And in fact, one of the biggest opponents to the bill is Senator Elizabeth Warren. Her and her camp, she's called it a ticket to sanctions evasion. That's a quote from her." aria-label="回原文"></button>。Mark 在国家安全领域花了很多时间,他接触的那些专业人士的看法截然相反。具有讽刺意味的是,他们其实希望更多罪犯使用加密货币,因为区块链上有清晰的资金轨迹,恰恰方便日后追溯和起诉。他把现在的加密货币戏称为「起诉期货」 <button class="pd-ts" data-t="24:43" data-who="Mark Andreessen" data-en="a lot of terror plots are financed. And so it would be, there was actually a term a while ago that national security people were kicking around, they called crypto, they called it prosecution futures, which is if we could just get the bad guys to use crypto instead of using the other methods, like we would actually be able to then mine the blockchain to be able to prosecute down the road." aria-label="回原文"></button>。相比之下,现实里很多恐怖融资走的是一个叫 Hawala 的古老点对点系统——钱根本不在边境流动,也没有任何数字记录,完全无法追踪。反对者说加密货币天然匿名没法查的说法,完全是颠倒黑白的。法案其实把适用于其他金融市场的反洗钱、制裁和财政部规则同样套用到了加密中介头上。全美最大的执法组织——警官兄弟会公开表态支持这个法案,恰恰是它具备执法能力的一个证明 <button class="pd-ts" data-t="19:40" data-who="Chris Dixon" data-en="you know, treasury, other kind of treasury rules to crypto intermediaries that are applied in other markets. The Fraternal Order of Police just came out with their endorsement of the Clarity Act, the largest law enforcement organization in the country." aria-label="回原文"></button>。
+第一个大争议是所谓的非法金融。参议员伊丽莎白·沃伦指责这个法案是逃避制裁的门票,说朝鲜、恐怖分子和勒索软件黑客会借此横行无忌 <button class="pd-ts" data-t="20:32" data-who="Chris Dixon" data-en="And in fact, one of the biggest opponents to the bill is Senator Elizabeth Warren. Her and her camp, she's called it a ticket to sanctions evasion. That's a quote from her." aria-label="回原文"></button>。
 
-第二个争议是官员道德问题。因为现任总统的家族有加密业务利益,批评者说这个法案是在让最积极支持它的人中饱私囊。Chris 认为这里需要厘清两点:一是政府官员该不该有针对加密资产的道德规则?当然应该,就像他们对股票和其他金融资产应该有规矩一样;二是即使没有专门条款,《清晰法案》其实对任何持仓加密资产的人(包括官员)都增加了披露和锁仓的要求,限制比目前的股票交易更严 <button class="pd-ts" data-t="32:20" data-who="Chris Dixon" data-en="The Clarity Act, even without specific ethics provisions, will add significant restrictions to anyone in crypto, including requirements for disclosures around the risks and holdings of a crypto asset." aria-label="回原文"></button>。更无奈的是,目前这个法案是美国历史上第一个把行业监管和针对官员的特定道德条款绑在一起的法案,这在立法惯例上极不寻常。
+Mark 在国家安全领域花了很多时间,他接触的那些专业人士的看法截然相反。具有讽刺意味的是,他们其实希望更多罪犯使用加密货币,因为区块链上有清晰的资金轨迹,恰恰方便日后追溯和起诉。
 
-第三个争议来自银行业游说。像摩根大通这样的巨头特别不满消费者可能从稳定币上赚取利息,担心引发存款大搬家 <button class="pd-ts" data-t="35:37" data-who="Chris Dixon" data-en="You mentioned stablecoins again just now, and one of the big fights has been over the treatment of stablecoins in this bill, in particular the banking lobby. Most notably, JPMorgan Chase has been very vocal about this." aria-label="回原文"></button>。Chris 透露,经过一番漫长的博弈,银行业基本如愿以偿:法案明确规定你不能像银行那样直接基于余额支付类似于利息的收益。唯一能做的是像信用卡积分那种复杂的奖励计划,比如沃尔玛奖励你每月用稳定币钱包消费两次。有趣的是,这些大银行本身却在暗中大力推进自己的区块链业务,他们内部积攒了大量已经准备好上线的部署。因为银行现有的底层技术非常陈旧,甚至还有大量 COBOL 程序员在维护几十年的老代码。区块链恰好给了他们一个统一的现代化框架,让他们可以一起迈入 21 世纪,解决的不只是技术问题,更是行业间的协调问题 <button class="pd-ts" data-t="39:02" data-who="Chris Dixon" data-en="These systems are very complex and very intertwined with each other, but a lot of the technology is very antiquated. It's sort of a joke in Silicon Valley that they still have COBOL programmers at banks, but it's actually true because a lot of them have very old code bases." aria-label="回原文"></button>。
+他把现在的加密货币戏称为「起诉期货」 <button class="pd-ts" data-t="24:43" data-who="Mark Andreessen" data-en="a lot of terror plots are financed. And so it would be, there was actually a term a while ago that national security people were kicking around, they called crypto, they called it prosecution futures, which is if we could just get the bad guys to use crypto instead of using the other methods, like we would actually be able to then mine the blockchain to be able to prosecute down the road." aria-label="回原文"></button>。相比之下,现实里很多恐怖融资走的是一个叫 Hawala 的古老点对点系统——钱根本不在边境流动,也没有任何数字记录,完全无法追踪。
 
-第四个争议关乎开发者责任。有前白宫网络安全官员提出,应该让写代码的开发者为软件被滥用的后果承担更多责任,并担心不这么做会给 AI 领域开坏头。Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工程师要为抢劫犯用车作案担责来打比方,这完全不合逻辑 <button class="pd-ts" data-t="42:19" data-who="Mark Andreessen" data-en="Like, it's just, like, it's impossible. It makes software development impossible because how can any software developer anticipate the use of the software down the road?" aria-label="回原文"></button>。如果他杀下跌游责任,[[开源|开源软件]]必死无疑——车库里的五个开源开发者根本承担不起无限责任。接着,计算机科学的学术研究会死,因为完全依赖开源;风险投资不敢投了,初创公司和大公司都会在无限责任下集体覆灭。他认为这不是误解,就是有人在故意要弄死整个行业。
+反对者说加密货币天然匿名没法查的说法,完全是颠倒黑白的。法案其实把适用于其他金融市场的反洗钱、制裁和财政部规则同样套用到了加密中介头上。全美最大的执法组织——警官兄弟会公开表态支持这个法案,恰恰是它具备执法能力的一个证明 <button class="pd-ts" data-t="19:40" data-who="Chris Dixon" data-en="you know, treasury, other kind of treasury rules to crypto intermediaries that are applied in other markets. The Fraternal Order of Police just came out with their endorsement of the Clarity Act, the largest law enforcement organization in the country." aria-label="回原文"></button>。
 
-最后一个争议是会不会在证券法上开个大口子。Chris 给出了明确的解释:现有的股票如果通证化,依然由证券交易委员会(SEC)像证券一样监管 <button class="pd-ts" data-t="46:15" data-who="Chris Dixon" data-en="What's your response to that? So if you take a stock, and this is in the bill, if you take a stock and you tokenize it, that's a security, and it's regulated by the SEC like a security is." aria-label="回原文"></button>。核心在于,新法案做了一个明确的路径划分:一个区块链项目刚起步时必然是中心化的,背后有人控盘,这时候它受 SEC 监管,有锁仓和披露等证券法常规要求;随着时间推移,当它的去中心化程度达到特定门槛,没有单一中心能控制它时,它就由商品期货交易委员会(CFTC)作为大宗商品来监管 <button class="pd-ts" data-t="47:37" data-who="Chris Dixon" data-en="They have all the kinds of things you expect from securities laws. Over time, when you hit certain thresholds of decentralization and start to look more like a Bitcoin of today or an Ethereum of today, where there is no central actor that controls it, has inside information and so forth, the Clarity Act designates that the CFTC oversees that token, so it's regulated as a commodity and not a security." aria-label="回原文"></button>。这其实是过去十年两党法院判决和监管机构共识的法律化和硬编码,不会开任何口子。
+第二个争议是官员道德问题。因为现任总统的家族有加密业务利益,批评者说这个法案是在让最积极支持它的人中饱私囊。
+
+Chris 认为这里需要厘清两点:一是政府官员该不该有针对加密资产的道德规则?当然应该,就像他们对股票和其他金融资产应该有规矩一样;二是即使没有专门条款,《清晰法案》其实对任何持仓加密资产的人(包括官员)都增加了披露和锁仓的要求,限制比目前的股票交易更严 <button class="pd-ts" data-t="32:20" data-who="Chris Dixon" data-en="The Clarity Act, even without specific ethics provisions, will add significant restrictions to anyone in crypto, including requirements for disclosures around the risks and holdings of a crypto asset." aria-label="回原文"></button>。更无奈的是,目前这个法案是美国历史上第一个把行业监管和针对官员的特定道德条款绑在一起的法案,这在立法惯例上极不寻常。
+
+第三个争议来自银行业游说。像摩根大通这样的巨头特别不满消费者可能从稳定币上赚取利息,担心引发存款大搬家 <button class="pd-ts" data-t="35:37" data-who="Chris Dixon" data-en="You mentioned stablecoins again just now, and one of the big fights has been over the treatment of stablecoins in this bill, in particular the banking lobby. Most notably, JPMorgan Chase has been very vocal about this." aria-label="回原文"></button>。
+
+Chris 透露,经过一番漫长的博弈,银行业基本如愿以偿:法案明确规定你不能像银行那样直接基于余额支付类似于利息的收益。唯一能做的是像信用卡积分那种复杂的奖励计划,比如沃尔玛奖励你每月用稳定币钱包消费两次。
+
+有趣的是,这些大银行本身却在暗中大力推进自己的区块链业务,他们内部积攒了大量已经准备好上线的部署。因为银行现有的底层技术非常陈旧,甚至还有大量 COBOL 程序员在维护几十年的老代码。区块链恰好给了他们一个统一的现代化框架,让他们可以一起迈入 21 世纪,解决的不只是技术问题,更是行业间的协调问题 <button class="pd-ts" data-t="39:02" data-who="Chris Dixon" data-en="These systems are very complex and very intertwined with each other, but a lot of the technology is very antiquated. It's sort of a joke in Silicon Valley that they still have COBOL programmers at banks, but it's actually true because a lot of them have very old code bases." aria-label="回原文"></button>。
+
+第四个争议关乎开发者责任。有前白宫网络安全官员提出,应该让写代码的开发者为软件被滥用的后果承担更多责任,并担心不这么做会给 AI 领域开坏头。
+
+Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工程师要为抢劫犯用车作案担责来打比方,这完全不合逻辑 <button class="pd-ts" data-t="42:19" data-who="Mark Andreessen" data-en="Like, it's just, like, it's impossible. It makes software development impossible because how can any software developer anticipate the use of the software down the road?" aria-label="回原文"></button>。
+
+如果他杀下跌游责任,[[开源|开源软件]]必死无疑——车库里的五个开源开发者根本承担不起无限责任。接着,计算机科学的学术研究会死,因为完全依赖开源;风险投资不敢投了,初创公司和大公司都会在无限责任下集体覆灭。他认为这不是误解,就是有人在故意要弄死整个行业。
+
+最后一个争议是会不会在证券法上开个大口子。Chris 给出了明确的解释:现有的股票如果通证化,依然由证券交易委员会(SEC)像证券一样监管 <button class="pd-ts" data-t="46:15" data-who="Chris Dixon" data-en="What's your response to that? So if you take a stock, and this is in the bill, if you take a stock and you tokenize it, that's a security, and it's regulated by the SEC like a security is." aria-label="回原文"></button>。
+
+核心在于,新法案做了一个明确的路径划分:一个区块链项目刚起步时必然是中心化的,背后有人控盘,这时候它受 SEC 监管,有锁仓和披露等证券法常规要求;随着时间推移,当它的去中心化程度达到特定门槛,没有单一中心能控制它时,它就由商品期货交易委员会(CFTC)作为大宗商品来监管 <button class="pd-ts" data-t="47:37" data-who="Chris Dixon" data-en="They have all the kinds of things you expect from securities laws. Over time, when you hit certain thresholds of decentralization and start to look more like a Bitcoin of today or an Ethereum of today, where there is no central actor that controls it, has inside information and so forth, the Clarity Act designates that the CFTC oversees that token, so it's regulated as a commodity and not a security." aria-label="回原文"></button>。这其实是过去十年两党法院判决和监管机构共识的法律化和硬编码,不会开任何口子。
 
 ## 不立法的代价
 
-如果法案最终没通过呢?Chris 说他们会继续努力,总有一天会过 <button class="pd-ts" data-t="50:17" data-who="Chris Dixon" data-en="Well, one is we'll keep working on it and someday it will pass. Number one, it will pass. Number two, a lot of these things can and are being done at the agency level, meaning the agencies, the SEC, CFTC, Treasury, and so forth." aria-label="回原文"></button>。很多规则其实也可以在 SEC、CFTC 这些机构层面一点点推进。但最大的问题在于,机构规则不如立法来得稳固。如果你想让一家公司敢于花好几年时间和大量金钱去构建一个系统,你就不能让他们在流沙上建东西——政策来回变动的迷宫对企业家来说简直是噩梦。
+如果法案最终没通过呢?Chris 说他们会继续努力,总有一天会过 <button class="pd-ts" data-t="50:17" data-who="Chris Dixon" data-en="Well, one is we'll keep working on it and someday it will pass. Number one, it will pass. Number two, a lot of these things can and are being done at the agency level, meaning the agencies, the SEC, CFTC, Treasury, and so forth." aria-label="回原文"></button>。
+
+很多规则其实也可以在 SEC、CFTC 这些机构层面一点点推进。但最大的问题在于,机构规则不如立法来得稳固。如果你想让一家公司敢于花好几年时间和大量金钱去构建一个系统,你就不能让他们在流沙上建东西——政策来回变动的迷宫对企业家来说简直是噩梦。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是这么几层意思。第一,规则和创新并不对立,没有规则带来的不是自由而是无政府暴政——好人被监管弄死,坏人放飞自我酿成大祸,最终把整个行业拖入深渊。第二,围绕这个法案的各种争议,无论是洗钱漏洞还是证券法口子,大部分经不起推敲,因为法案其实只是把现有的共识和市场机制以法律形式固定下来。第三,区块链本质上是一台去中介化机器,让点对点的金融交易像发短信一样几乎零成本,下一代金融基础设施会首先在稳定币和各类代币化资产上爆发。第四,谁先把规则定下来,谁就能留住这些大机构和新技术,美国不能在关键技术领域失去一百年来的领导地位。第五,真正值得警惕的不是技术被滥用,而是用无限责任把开发者和开源生态一棍子打死——那才是对整个行业的致命一击。
+最后收个尾,这一集值得带走的是这么几层意思。第一,规则和创新并不对立,没有规则带来的不是自由而是无政府暴政——好人被监管弄死,坏人放飞自我酿成大祸,最终把整个行业拖入深渊。
+
+第二,围绕这个法案的各种争议,无论是洗钱漏洞还是证券法口子,大部分经不起推敲,因为法案其实只是把现有的共识和市场机制以法律形式固定下来。第三,区块链本质上是一台去中介化机器,让点对点的金融交易像发短信一样几乎零成本,下一代金融基础设施会首先在稳定币和各类代币化资产上爆发。
+
+第四,谁先把规则定下来,谁就能留住这些大机构和新技术,美国不能在关键技术领域失去一百年来的领导地位。第五,真正值得警惕的不是技术被滥用,而是用无限责任把开发者和开源生态一棍子打死——那才是对整个行业的致命一击。
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
@@ -119,22 +153,19 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同概念:开源软件 (open source)
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Stripe
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同概念:开源软件 (open source)</span>
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe</span>
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 </div>
-
-*本集关键词:加密货币 · 区块链 · 稳定币 · 监管政策 · 金融基础设施*
-
 <script>
 (function(){
   function move(){

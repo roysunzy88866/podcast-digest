@@ -43,21 +43,31 @@ tags:
 
 ## 真用起来才知道:从死盯权限,到追求更高目标
 
-Claude Code 是去年二月发布的,当时它只是模型发布时的一个附加功能。Thariq 回忆说,刚开始那会儿,用智能体干活其实挺累的:你给它一个任务,必须盯着它的一举一动,仔细阅读每一个权限提示,还得频繁地纠正它。现在,随着新一代模型能力提升,人终于可以退后一步了。大家把繁琐的实现细节交给智能体,腾出时间去思考真正有创造性的工作 <button class="pd-ts" data-t="01:22" data-who="Thariq" data-en="How has what you do on a day-to-day basis changed in the past year, now that we have these coding agents that actually work for us? I remember when we first came out with Cloud Code and Sonnet 3.7, you would give it this task and you would have to closely monitor every single little thing that it tried to do." aria-label="回原文"></button>。
+Claude Code 是去年二月发布的,当时它只是模型发布时的一个附加功能。Thariq 回忆说,刚开始那会儿,用智能体干活其实挺累的:你给它一个任务,必须盯着它的一举一动,仔细阅读每一个权限提示,还得频繁地纠正它。
 
-Kat 的感受更直接,他说之前试用 Opus 4 模型时,意识到自己得去 Anthropic 工作了。而面对全新的 [[Fable|Fable]] 模型,他觉得不仅是工具变快了,更是逼着人去做以前做不到的高质量工作。他经常拿自己剪视频的例子说事:以前几天才能搞定的活,现在几个小时就得达到品牌团队的苛刻标准,因为智能体的输出质量极高,人对自己的期望也跟着水涨船高 <button class="pd-ts" data-t="02:21" data-who="Kat" data-en="So it's been amazing to see the transition and to go through this with all of you in the community. Yeah, I mean, I think I remember the first text I got about Cloud Code." aria-label="回原文"></button>。主持人也深有同感:软件工程变难了,因为能干的事更多了,野心也更大了 <button class="pd-ts" data-t="03:21" data-who="主持人" data-en="I've certainly been finding that myself. Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up. I have such higher expectations of myself now that I have these tools to back me up, which is fun, but it's a lot of work." aria-label="回原文"></button>。
+现在,随着新一代模型能力提升,人终于可以退后一步了。大家把繁琐的实现细节交给智能体,腾出时间去思考真正有创造性的工作 <button class="pd-ts" data-t="01:22" data-who="Thariq" data-en="How has what you do on a day-to-day basis changed in the past year, now that we have these coding agents that actually work for us? I remember when we first came out with Cloud Code and Sonnet 3.7, you would give it this task and you would have to closely monitor every single little thing that it tried to do." aria-label="回原文"></button>。
+
+Kat 的感受更直接,他说之前试用 Opus 4 模型时,意识到自己得去 Anthropic 工作了。而面对全新的 [[Fable|Fable]] 模型,他觉得不仅是工具变快了,更是逼着人去做以前做不到的高质量工作。
+
+他经常拿自己剪视频的例子说事:以前几天才能搞定的活,现在几个小时就得达到品牌团队的苛刻标准,因为智能体的输出质量极高,人对自己的期望也跟着水涨船高 <button class="pd-ts" data-t="02:21" data-who="Kat" data-en="So it's been amazing to see the transition and to go through this with all of you in the community. Yeah, I mean, I think I remember the first text I got about Cloud Code." aria-label="回原文"></button>。主持人也深有同感:软件工程变难了,因为能干的事更多了,野心也更大了 <button class="pd-ts" data-t="03:21" data-who="主持人" data-en="I've certainly been finding that myself. Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up. I have such higher expectations of myself now that I have these tools to back me up, which is fun, but it's a lot of work." aria-label="回原文"></button>。
 
 ## 那些被推翻的工程老规矩:从半年写规范到干脆重写
 
 工具变了,传统软件工程的方法论自然也得跟着变。Thariq 观察到一个巨大的反转:放在两年前,产品经理得花半年时间写详尽的 PRD(产品需求文档)和规范;但现在,从有想法到做出东西可能只要一周。这意味着工程师不能再光顾着埋头执行了,得把精力往前提,培养商业判断和产品品味,想清楚到底什么才值得做 <button class="pd-ts" data-t="03:49" data-who="Thariq" data-en="And so what's a piece of conventional software engineering that was true a year ago that you don't think holds anymore in this new world? I think one of the biggest shifts that we're seeing in the Eng skill set is I think two years ago, it was pretty typical for a product manager to go talk to a bunch of customers and over the course of six months align with cross-functional teams on some PRD and then write this thorough spec." aria-label="回原文"></button>。
 
-更要命的是,在编程界有一本很经典叫《人月神话》的书,里面有条老经验叫「永远不要[[重写|重写]]」。但 Kat 觉得,现在重写反而成了好事。代码库本身就是唯一的规格说明书,如果你有个好的测试套件,完全可以一口气让智能体跑出三个不同的实现版本,看哪个最准就留哪个。他还透露,内部已经用 [[Bun|Bun]] 和 [[Rust|Rust]] 把代码重写了,效果很好 <button class="pd-ts" data-t="05:09" data-who="Kat" data-en="Of course, for infra, there's still a very heavy emphasis on making sure all the details are right. Yeah, I think for me, it's like rewrites are now good. You know what I mean?" aria-label="回原文"></button>。
+更要命的是,在编程界有一本很经典叫《人月神话》的书,里面有条老经验叫「永远不要[[重写|重写]]」。但 Kat 觉得,现在重写反而成了好事。
+
+代码库本身就是唯一的规格说明书,如果你有个好的测试套件,完全可以一口气让智能体跑出三个不同的实现版本,看哪个最准就留哪个。他还透露,内部已经用 [[Bun|Bun]] 和 [[Rust|Rust]] 把代码重写了,效果很好 <button class="pd-ts" data-t="05:09" data-who="Kat" data-en="Of course, for infra, there's still a very heavy emphasis on making sure all the details are right. Yeah, I think for me, it's like rewrites are now good. You know what I mean?" aria-label="回原文"></button>。
 
 ## 团队协作的正确姿势:进 Slack 当队友
 
-明白了工具怎么改变个人习惯,接下来的问题是:怎么在团队里用?Kat 解释了刚推出一周的 ClaudeTag(它扎根在团队协作工具里)。跟单干的 Claude Code 不一样,ClaudeTag 默认就是多人参与的。把它加进 Slack 频道后,它不只是被动等你提问,而是主动出击:你可以让它监控频道里的每一条 bug 报告,自动提 PR 修复,并艾特负责那块代码的工程师,全程不用人手动干预。它还有[[团队记忆|团队记忆]],你只要用自然语言告诉它一次偏好,以后它就都记住了 <button class="pd-ts" data-t="06:51" data-who="Thariq" data-en="What kind of things are non-engineers doing with ClaudeTag? So CloudTag is a cloud that lives in your team's collaboration tools. We launched it last week within Slack." aria-label="回原文"></button>。
+明白了工具怎么改变个人习惯,接下来的问题是:怎么在团队里用?Kat 解释了刚推出一周的 ClaudeTag(它扎根在团队协作工具里)。
 
-这套机制带来的数字很惊人:在 Anthropic 内部,这套工具帮产品工程团队处理了高达 65% 的 PR <button class="pd-ts" data-t="07:59" data-who="Thariq" data-en="So if you always wanted to debug outages, but you don't want it to debug warnings, just tell it that in natural language in the channel, and it will remember it for you and everyone else on your team." aria-label="回原文"></button>。对非程序员来说,它也是个神器:营销团队可以直接让它克隆代码库、查功能、甚至做操作录屏 <button class="pd-ts" data-t="09:22" data-who="Kat" data-en="So as a search engine for your company is really valuable. It has all the context for your product. So you can ask it like metrics related questions." aria-label="回原文"></button>。人在里面就像流水线作业一样顺畅:一个人让 Claude 写初版,让设计调样式,再丢给工程收尾 <button class="pd-ts" data-t="10:19" data-who="Thariq" data-en="Exactly. And a large percentage of our sessions are actually multiplayer right now. So that means maybe I say, hey, I think we should implement this new feature in co-work." aria-label="回原文"></button>。因为大家都在明面上用它,甚至无形中提升了使用水平——谁也不好意思在公开场合给智能体下个极其敷衍的指令 <button class="pd-ts" data-t="11:10" data-who="Kat" data-en="And it's actually been pretty easy for us, pretty intuitive for us to integrate CloudTag into our teams. Yeah, I think it's great for teaching people and also kind of reducing slop." aria-label="回原文"></button>。
+跟单干的 Claude Code 不一样,ClaudeTag 默认就是多人参与的。把它加进 Slack 频道后,它不只是被动等你提问,而是主动出击:你可以让它监控频道里的每一条 bug 报告,自动提 PR 修复,并艾特负责那块代码的工程师,全程不用人手动干预。它还有[[团队记忆|团队记忆]],你只要用自然语言告诉它一次偏好,以后它就都记住了 <button class="pd-ts" data-t="06:51" data-who="Thariq" data-en="What kind of things are non-engineers doing with ClaudeTag? So CloudTag is a cloud that lives in your team's collaboration tools. We launched it last week within Slack." aria-label="回原文"></button>。
+
+这套机制带来的数字很惊人:在 Anthropic 内部,这套工具帮产品工程团队处理了高达 65% 的 PR <button class="pd-ts" data-t="07:59" data-who="Thariq" data-en="So if you always wanted to debug outages, but you don't want it to debug warnings, just tell it that in natural language in the channel, and it will remember it for you and everyone else on your team." aria-label="回原文"></button>。对非程序员来说,它也是个神器:营销团队可以直接让它克隆代码库、查功能、甚至做操作录屏 <button class="pd-ts" data-t="09:22" data-who="Kat" data-en="So as a search engine for your company is really valuable. It has all the context for your product. So you can ask it like metrics related questions." aria-label="回原文"></button>。
+
+人在里面就像流水线作业一样顺畅:一个人让 Claude 写初版,让设计调样式,再丢给工程收尾 <button class="pd-ts" data-t="10:19" data-who="Thariq" data-en="Exactly. And a large percentage of our sessions are actually multiplayer right now. So that means maybe I say, hey, I think we should implement this new feature in co-work." aria-label="回原文"></button>。因为大家都在明面上用它,甚至无形中提升了使用水平——谁也不好意思在公开场合给智能体下个极其敷衍的指令 <button class="pd-ts" data-t="11:10" data-who="Kat" data-en="And it's actually been pretty easy for us, pretty intuitive for us to integrate CloudTag into our teams. Yeah, I think it's great for teaching people and also kind of reducing slop." aria-label="回原文"></button>。
 
 ## 如何教智能体干活:让大模型给小模型写提示词
 
@@ -67,7 +77,13 @@ Thariq 的回答很坦诚:核心变更依然有代码所有者严格把关,但�
 
 那怎么放心新模型不会搞砸旧模型能搞定的事?靠的是积累了大量内外评估库:把整套测试跑一遍,只要新模型严格优于旧模型,就直接替换 <button class="pd-ts" data-t="17:47" data-who="Thariq" data-en="Is that something that you have to think about much, those new model, like, how does the new model affect your intuition for what it can do and what it can't do?" aria-label="回原文"></button>。除了能力评估,他们还在搞「行为评估」,专治那些让用户抓狂的行为(比如动不动就问「我要继续吗」) <button class="pd-ts" data-t="19:32" data-who="Thariq" data-en="the bugs and pass all the tests. So that's the starting point. And that's the thing that we optimize for because it is most directly what users want." aria-label="回原文"></button>。
 
-但这还不是最反直觉的。因为 Fable 和 Opus 4.8 这类前沿模型变聪明了,Anthropic 干脆把给 Claude Code 的系统提示词删掉了 80% <button class="pd-ts" data-t="21:22" data-who="主持人" data-en="And yeah, I think it's been a productive partnership. And so, Tariq, this morning you mentioned that the system prompt for Claude Code has been reduced by 80% because of Claude Fable." aria-label="回原文"></button>。为什么?因为他们发现以前是在「过度约束」模型。比如以前大家总爱在提示词里塞例子,但前沿模型本身比例子更有创造力,删掉例子反而更好;以前总爱写「不要做这个」,结果跟用户的后续指令冲突,把模型搞糊涂了 <button class="pd-ts" data-t="21:35" data-who="Thariq" data-en="What kind of things have you been able to drop? Yeah, so it wasn't just Fable. It was Opus 4.8 as well." aria-label="回原文"></button>。Thariq 还拿「验证」举了个很生动的例子:以前死板规定「改了前端就必须验证」,但如果是改了个错别字呢?所以现在改成告诉模型「大多数时候你改了用户体验,最好在本地跑一下应用」,让它自己凭判断力决定。这种放手的底气,正是因为前沿模型有了足够的判断力——当然,针对判断力较弱的老模型,他们依然保留着完整的系统提示词 <button class="pd-ts" data-t="23:34" data-who="Thariq" data-en="Yes, this statement is 90% true, but there's a real 10% of cases where this is not true, and we didn't want to constrain the model or confuse it into thinking, hey, it should always do this." aria-label="回原文"></button>。
+但这还不是最反直觉的。因为 Fable 和 Opus 4.8 这类前沿模型变聪明了,Anthropic 干脆把给 Claude Code 的系统提示词删掉了 80% <button class="pd-ts" data-t="21:22" data-who="主持人" data-en="And yeah, I think it's been a productive partnership. And so, Tariq, this morning you mentioned that the system prompt for Claude Code has been reduced by 80% because of Claude Fable." aria-label="回原文"></button>。
+
+为什么?因为他们发现以前是在「过度约束」模型。
+
+比如以前大家总爱在提示词里塞例子,但前沿模型本身比例子更有创造力,删掉例子反而更好;以前总爱写「不要做这个」,结果跟用户的后续指令冲突,把模型搞糊涂了 <button class="pd-ts" data-t="21:35" data-who="Thariq" data-en="What kind of things have you been able to drop? Yeah, so it wasn't just Fable. It was Opus 4.8 as well." aria-label="回原文"></button>。Thariq 还拿「验证」举了个很生动的例子:以前死板规定「改了前端就必须验证」,但如果是改了个错别字呢?
+
+所以现在改成告诉模型「大多数时候你改了用户体验,最好在本地跑一下应用」,让它自己凭判断力决定。这种放手的底气,正是因为前沿模型有了足够的判断力——当然,针对判断力较弱的老模型,他们依然保留着完整的系统提示词 <button class="pd-ts" data-t="23:34" data-who="Thariq" data-en="Yes, this statement is 90% true, but there's a real 10% of cases where this is not true, and we didn't want to constrain the model or confuse it into thinking, hey, it should always do this." aria-label="回原文"></button>。
 
 顺着这个话题,Kat 抛出了个很有意思的观察:现在大模型特别擅长写提示词,他自己的很多提示词都是模型写的。Claude 甚至能给一堆子智能体分配非常详尽的提示词来协同干活 <button class="pd-ts" data-t="26:19" data-who="Kat" data-en="That's something I found fascinating. I feel like a year ago, I did not trust a model to write a prompt. Today, the good models are very good at prompting." aria-label="回原文"></button>。顺着聊下去,他们还提到了如何精简工具(刻意保持工具数量少、功能界限清晰),以及为了支持多人共享身份而引入的[[凭证注入|凭证注入]](代理替换真实令牌,智能体只能用不能看)等工程细节 <button class="pd-ts" data-t="28:48" data-who="Kat" data-en="Ant-fooding is our ant version of that. But yeah, I think overall, we've been trying to trend towards fewer tools. I think the last set of tools we introduced were the task tool, I think, and try and give Cloud more general versions to do this." aria-label="回原文"></button> <button class="pd-ts" data-t="37:12" data-who="Thariq" data-en="And for all of our remote environments, we support credential injection. So if you want like quad codes to be able to access Datadog, but you don't want Cloud Code itself to hold the Datadog credential, you can set up our identity credential management system so that the Datadog credentials are only usable by the agent but not accessible by the agent." aria-label="回原文"></button>。
 
@@ -75,15 +91,21 @@ Thariq 的回答很坦诚:核心变更依然有代码所有者严格把关,但�
 
 工具链理顺了,下一个绕不开的担忧就是安全。主持人坦言自己经常在 YOLO(无视警告直接跑)模式下用,很内疚又不懂怎么搞。
 
-Thariq 解释说,Anthropic 内部几乎全员默认使用[[自动模式|自动模式]]。这个模式不是拍脑袋放权,而是配了成千上万个评估,还专门雇了外部[[红队|红队]]做对抗测试,基本上防住了[[提示词注入|提示词注入]](别人在数据里藏指令骗智能体)等主要风险 <button class="pd-ts" data-t="31:32" data-who="Thariq" data-en="But yeah, as of maybe three weeks ago, I'm defaulting to auto mode. OK. So broadly within Anthropic, almost every single person uses auto mode." aria-label="回原文"></button>。机制上,它在每个动作发生时,用一个分类器实时评判这次操作跟你的指令上下文搭不搭,还跟[[沙箱|沙箱]](限制程序行动范围的安全环境)无缝配合,判断该不该放行网络请求 <button class="pd-ts" data-t="32:46" data-who="Kat" data-en="But for the main categories of risks that we're concerned about, like prompt injection, data exfiltration, the risks are far lower than the average human reviewer." aria-label="回原文"></button>。为了让外部信任,他们还预告未来几周会发布相关的评估报告 <button class="pd-ts" data-t="32:04" data-who="Thariq" data-en="And so we're going to publish some evals in the coming weeks. We've pretty much mitigated every attack. That is a big claim." aria-label="回原文"></button>。
+Thariq 解释说,Anthropic 内部几乎全员默认使用[[自动模式|自动模式]]。这个模式不是拍脑袋放权,而是配了成千上万个评估,还专门雇了外部[[红队|红队]]做对抗测试,基本上防住了[[提示词注入|提示词注入]](别人在数据里藏指令骗智能体)等主要风险 <button class="pd-ts" data-t="31:32" data-who="Thariq" data-en="But yeah, as of maybe three weeks ago, I'm defaulting to auto mode. OK. So broadly within Anthropic, almost every single person uses auto mode." aria-label="回原文"></button>。
+
+机制上,它在每个动作发生时,用一个分类器实时评判这次操作跟你的指令上下文搭不搭,还跟[[沙箱|沙箱]](限制程序行动范围的安全环境)无缝配合,判断该不该放行网络请求 <button class="pd-ts" data-t="32:46" data-who="Kat" data-en="But for the main categories of risks that we're concerned about, like prompt injection, data exfiltration, the risks are far lower than the average human reviewer." aria-label="回原文"></button>。为了让外部信任,他们还预告未来几周会发布相关的评估报告 <button class="pd-ts" data-t="32:04" data-who="Thariq" data-en="And so we're going to publish some evals in the coming weeks. We've pretty much mitigated every attack. That is a big claim." aria-label="回原文"></button>。
 
 ## 人的价值在哪:去干更有野心的事
 
 安全和流程都靠技术解决了,那人干嘛呢?主持人问出了一个扎心问题:很多工程师面对被模型抢走工作,有很强的失落感。
 
-Kat 觉得,失落是真的:如果你还死守着以前的活,确实会很悲伤。解药只有一个:去做更有野心的事 <button class="pd-ts" data-t="38:38" data-who="Kat" data-en="I think that that's kind of like a constant reminder for me where I'm like, anytime I'm like, kind of slow on something, I'm like, OK, can I do it faster? Can I be more ambitious here?" aria-label="回原文"></button>。Thariq 也说,每次他想偷懒,就会被团队提醒:还能不能干快点?还能不能再搞大点?软件工程没变简单,只是以前那些「简单」的部分被吃掉了,留给人的是更大的挑战 <button class="pd-ts" data-t="38:19" data-who="Thariq" data-en="Firstly, how has the past year and a half changed the way you think about your own craft and the value that you add? Yeah, I think for me, and I think Cat is always such a good reminder." aria-label="回原文"></button>。
+Kat 觉得,失落是真的:如果你还死守着以前的活,确实会很悲伤。解药只有一个:去做更有野心的事 <button class="pd-ts" data-t="38:38" data-who="Kat" data-en="I think that that's kind of like a constant reminder for me where I'm like, anytime I'm like, kind of slow on something, I'm like, OK, can I do it faster? Can I be more ambitious here?" aria-label="回原文"></button>。
 
-从产品经理的角度看,Kat 觉得角色界限彻底模糊了:PM、工程师、设计师的活经常搅在一起,现在团队里的 PM 大多是工程师出身,缺啥补啥。有了点子没人写代码?自己用 Claude 写个原型去说服别人。需要发周报?直接让 Workflows 自动化搞定 <button class="pd-ts" data-t="40:00" data-who="Kat" data-en="And I think now it's like, let's do it. And Cap, what does that look like from a sort of product management perspective? I feel like the product role just changes every single month." aria-label="回原文"></button>。
+Thariq 也说,每次他想偷懒,就会被团队提醒:还能不能干快点?还能不能再搞大点?软件工程没变简单,只是以前那些「简单」的部分被吃掉了,留给人的是更大的挑战 <button class="pd-ts" data-t="38:19" data-who="Thariq" data-en="Firstly, how has the past year and a half changed the way you think about your own craft and the value that you add? Yeah, I think for me, and I think Cat is always such a good reminder." aria-label="回原文"></button>。
+
+从产品经理的角度看,Kat 觉得角色界限彻底模糊了:PM、工程师、设计师的活经常搅在一起,现在团队里的 PM 大多是工程师出身,缺啥补啥。有了点子没人写代码?
+
+自己用 Claude 写个原型去说服别人。需要发周报?直接让 Workflows 自动化搞定 <button class="pd-ts" data-t="40:00" data-who="Kat" data-en="And I think now it's like, let's do it. And Cap, what does that look like from a sort of product management perspective? I feel like the product role just changes every single month." aria-label="回原文"></button>。
 
 > 【背景】Workflows 是 Claude Code 体系下的一个功能,官方多将其定位为代码与多智能体编排工具,但在实际使用中被团队频繁用于自动化各种非编码任务。
 
@@ -93,11 +115,17 @@ Thariq 还分享了个有意思的细节:团队本来以为大家更喜欢直接
 
 ## 观众提问时间
 
-节目接近尾声时,现场观众抛出了两个具体问题。有人问会不会出官方的评估工具,帮大家构建测试数据集。Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所需的技能和经验,这是他们打算重点投入并外部分享的方向 <button class="pd-ts" data-t="49:40" data-who="Thariq" data-en="My question is that do you have a near plan to build more eval tools for us to build eval data set or anything like that and more ability tools to monitor the performance of agents and workflows?" aria-label="回原文"></button>。还有人好奇多人协作时的记忆(持久化信息)怎么设计的。Kat 解释说,目前 ClaudeTag 在每个 Slack 频道里维护一个共享的 Markdown 文件作为记忆,虽然看起来简单,但他们内部一直在做各种更优的记忆机制实验 <button class="pd-ts" data-t="50:31" data-who="Kat" data-en="So I think that's my question. Yeah, right now for CloudTag, the memory is channel-specific. So every clod in that channel has a shared memory." aria-label="回原文"></button>。
+节目接近尾声时,现场观众抛出了两个具体问题。有人问会不会出官方的评估工具,帮大家构建测试数据集。
+
+Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所需的技能和经验,这是他们打算重点投入并外部分享的方向 <button class="pd-ts" data-t="49:40" data-who="Thariq" data-en="My question is that do you have a near plan to build more eval tools for us to build eval data set or anything like that and more ability tools to monitor the performance of agents and workflows?" aria-label="回原文"></button>。还有人好奇多人协作时的记忆(持久化信息)怎么设计的。Kat 解释说,目前 ClaudeTag 在每个 Slack 频道里维护一个共享的 Markdown 文件作为记忆,虽然看起来简单,但他们内部一直在做各种更优的记忆机制实验 <button class="pd-ts" data-t="50:31" data-who="Kat" data-en="So I think that's my question. Yeah, right now for CloudTag, the memory is channel-specific. So every clod in that channel has a shared memory." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是这么几个实在的点。首先,写代码不再只是写代码了,变成了做产品决策——从花半年写规范,变成一周内出东西,这意味着人的核心价值得往判断力、产品品味和野心这些方向挪。其次,别死守着以前那些老规矩,比如代码不能重写、提示词必须塞满例子。相反,把系统提示词里那些「不要做什么」删掉,给足上下文,让模型自己去判断,效果反而更好。再者,对智能体不要光停留在提防,真正的杠杆是像 Anthropic 内部那样,通过积累大量评估和测试,把代码审查和自主运行的安全性一步步交出去,让团队成百上千个 PR 自动跑起来。最后,真碰到了失落感,别硬扛,去找个更大更野心的项目干,不管是剪视频还是做个属于自己的格斗游戏,让智能体做那些脏活累活,把人的精力省下来去体验做事情的纯粹快乐。
+最后收个尾,这一集值得带走的是这么几个实在的点。首先,写代码不再只是写代码了,变成了做产品决策——从花半年写规范,变成一周内出东西,这意味着人的核心价值得往判断力、产品品味和野心这些方向挪。
+
+其次,别死守着以前那些老规矩,比如代码不能重写、提示词必须塞满例子。相反,把系统提示词里那些「不要做什么」删掉,给足上下文,让模型自己去判断,效果反而更好。
+
+再者,对智能体不要光停留在提防,真正的杠杆是像 Anthropic 内部那样,通过积累大量评估和测试,把代码审查和自主运行的安全性一步步交出去,让团队成百上千个 PR 自动跑起来。最后,真碰到了失落感,别硬扛,去找个更大更野心的项目干,不管是剪视频还是做个属于自己的格斗游戏,让智能体做那些脏活累活,把人的精力省下来去体验做事情的纯粹快乐。
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
@@ -120,24 +148,21 @@ Thariq 还分享了个有意思的细节:团队本来以为大家更喜欢直接
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic · 同概念:Fable、提示词 (prompt)、智能体 (agent)
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、Slack
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Anthropic · 同概念:Fable、提示词 (prompt)、智能体 (agent)</span>
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)</span>
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、Slack</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、系统提示词 (system prompt)、Slack
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)、Slack
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、系统提示词 (system prompt)、Slack</span>
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)、Slack</span>
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>
-
-*本集关键词:智能体 · 系统提示词 · 代码审查 · AI 安全 · AI 编程*
-
 <script>
 (function(){
   function move(){

@@ -36,13 +36,21 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>Chamath 驳斥 AI 末日论，视其为博取眼球的公关手段，主张用 KYC 式实名认证监管，并批评硅谷资本僵化。</div>
 
-把 AI 的负责人比作「喊狼来了的男孩」，说他们为了融资竞争，故意把这项技术塑造成可能毁灭人类的威胁——但在硅谷摸爬滚打 25 年的 [[Chamath|Chamath]] 看来，这是极其自私且糟糕的策略。说这话的人是 Chamath，前 Facebook 高管，如今的 VC 和 [[SPAC|SPAC]]（特殊目的收购公司，一种让企业借壳上市的金融工具）推手。在这一集对话里，他围绕 AI 的未来，讲了三件事：为什么他不信 AI 会毁灭人类，反而认为这是实现「真正平等」的终极工具；AI 领域的巨头们为什么会因为炒作[[末日论|末日论]]而失去公众信任，甚至招来反 AI 的政治阻力；以及为什么面对闭源大模型、[[开放权重模型|开源权重模型]]和「叛军」的混战，我们需要一种类似金融界 [[KYC|KYC]]（了解你的客户，即实名身份验证）的分层监管方式。最后他还复盘了当年搞砸 SPAC 的教训，以及想把打破华尔街 IPO 寡头垄断作为自己毕生修行的执念。
+把 AI 的负责人比作「喊狼来了的男孩」，说他们为了融资竞争，故意把这项技术塑造成可能毁灭人类的威胁——但在硅谷摸爬滚打 25 年的 [[Chamath|Chamath]] 看来，这是极其自私且糟糕的策略。说这话的人是 Chamath，前 Facebook 高管，如今的 VC 和 [[SPAC|SPAC]]（特殊目的收购公司，一种让企业借壳上市的金融工具）推手。
+
+在这一集对话里，他围绕 AI 的未来，讲了三件事：为什么他不信 AI 会毁灭人类，反而认为这是实现「真正平等」的终极工具；AI 领域的巨头们为什么会因为炒作[[末日论|末日论]]而失去公众信任，甚至招来反 AI 的政治阻力；以及为什么面对闭源大模型、[[开放权重模型|开源权重模型]]和「叛军」的混战，我们需要一种类似金融界 [[KYC|KYC]]（了解你的客户，即实名身份验证）的分层监管方式。最后他还复盘了当年搞砸 SPAC 的教训，以及想把打破华尔街 IPO 寡头垄断作为自己毕生修行的执念。
 
 ## AI 不是毁灭者，是终极平衡器
 
-要理解 Chamath 对 AI 的乐观，得先看他对硅谷历史周期的判断。他经历过互联网泡沫、移动浪潮和加密货币泡沫，认为当前的 AI 是第三个大周期。但在前两个周期，硅谷的极客们像动物园里被观赏的珍奇动物，受人喜欢；而这一次，硅谷却面临着巨大的信任危机，一半人钦佩，另一半人沮丧、不再信任这个群体。Chamath 认为这是一个巨大的问题，因为 AI 的潜力远超以往任何技术 <button class="pd-ts" data-t="01:53" data-who="Chamath" data-en="And I think that is hugely problematic considering what this technology is capable of. which far exceeds what anything we've done in the past. So this is why I mean by we're sort of, it's a tale of two cities." aria-label="回原文"></button>。
+要理解 Chamath 对 AI 的乐观，得先看他对硅谷历史周期的判断。他经历过互联网泡沫、移动浪潮和加密货币泡沫，认为当前的 AI 是第三个大周期。
 
-为什么这么重要？Chamath 给出了一个非常宏大的定义。他认为，只要能顺利推向市场，AI 是我们一生中最重要的经济平衡器。它能让任何人追随梦想、建立生活，不再受限于社会的传统阶层 <button class="pd-ts" data-t="02:09" data-who="Chamath" data-en="Yeah, I really don't. I want to be non-hyperbolic about this, but I think it's true what I'm about to say, which is it's the most important economic leveler of our lifetime." aria-label="回原文"></button>。过去的互联网虽然把全世界的知识装进了我们的口袋，但知识（知道去哪搜）和专业知识（知道怎么做）是两回事。Chamath 打了个比方：过去你能 Google 出 PN 结（半导体核心结构单元）的图纸，但看不懂；现在的 AI 则能直接帮你设计一个晶体管，并把可执行的规格说明书交给你 <button class="pd-ts" data-t="04:53" data-who="Chamath" data-en="Now, though, what you can say is, design me a transistor. And you have a spec that you can now mail to somebody and they can actually tape that out for you and you can get back in the mail an actual functional thing." aria-label="回原文"></button>。
+但在前两个周期，硅谷的极客们像动物园里被观赏的珍奇动物，受人喜欢；而这一次，硅谷却面临着巨大的信任危机，一半人钦佩，另一半人沮丧、不再信任这个群体。Chamath 认为这是一个巨大的问题，因为 AI 的潜力远超以往任何技术 <button class="pd-ts" data-t="01:53" data-who="Chamath" data-en="And I think that is hugely problematic considering what this technology is capable of. which far exceeds what anything we've done in the past. So this is why I mean by we're sort of, it's a tale of two cities." aria-label="回原文"></button>。
+
+为什么这么重要？Chamath 给出了一个非常宏大的定义。
+
+他认为，只要能顺利推向市场，AI 是我们一生中最重要的经济平衡器。它能让任何人追随梦想、建立生活，不再受限于社会的传统阶层 <button class="pd-ts" data-t="02:09" data-who="Chamath" data-en="Yeah, I really don't. I want to be non-hyperbolic about this, but I think it's true what I'm about to say, which is it's the most important economic leveler of our lifetime." aria-label="回原文"></button>。
+
+过去的互联网虽然把全世界的知识装进了我们的口袋，但知识（知道去哪搜）和专业知识（知道怎么做）是两回事。Chamath 打了个比方：过去你能 Google 出 PN 结（半导体核心结构单元）的图纸，但看不懂；现在的 AI 则能直接帮你设计一个晶体管，并把可执行的规格说明书交给你 <button class="pd-ts" data-t="04:53" data-who="Chamath" data-en="Now, though, what you can say is, design me a transistor. And you have a spec that you can now mail to somebody and they can actually tape that out for you and you can get back in the mail an actual functional thing." aria-label="回原文"></button>。
 
 这种将知识转化为行动力的突破，才是 AI 的真正价值所在。正因如此，他坚信真正的平等即将实现——也就是让每个人都拥有天才级别的联合创始人，和最聪明、最富有、最有关系的人一样聪明和有能力 <button class="pd-ts" data-t="08:39" data-who="Chamath" data-en="So go back to this. So this is why I think it's so important for everybody to realize we have the ability to put a genius level co-founder beside every single human, man, woman, child, independent of age, creed, country, sexual orientation." aria-label="回原文"></button>。
 
@@ -50,7 +58,9 @@ tags:
 
 既然 AI 如此强大，为什么还有那么多人害怕它？话题自然引向了硅谷 AI 圈的「末日论」叙事。主持人问，为什么 AI 行业的头头们（比如各家大模型公司的 CEO）总是自己跳出来要求被监管，甚至声称「可能毁灭人类」？
 
-在 Chamath 看里，这根本不是为了安全，而是一种极其自私且糟糕的竞争策略。他从心理层面进行了拆解：硅谷的很多创始人都带着深层的个人不安全感，甚至把工作当成填补内心空洞的痴迷。这种特质驱动了创新，但也溢出成了个人恩怨和派系斗争。AI 领域的起源故事充斥着谎言、歪曲、抢人与解雇，内部关系极度紧张 <button class="pd-ts" data-t="10:29" data-who="Chamath" data-en="And specifically in AI, what you find is a very complicated origin story. where there are factions, there are hurt feelings, there are people that have been lied to, there are people that have lied, there's misrepresentations, there's hirings, there's firings, there's complicated cap table." aria-label="回原文"></button>。
+在 Chamath 看里，这根本不是为了安全，而是一种极其自私且糟糕的竞争策略。他从心理层面进行了拆解：硅谷的很多创始人都带着深层的个人不安全感，甚至把工作当成填补内心空洞的痴迷。
+
+这种特质驱动了创新，但也溢出成了个人恩怨和派系斗争。AI 领域的起源故事充斥着谎言、歪曲、抢人与解雇，内部关系极度紧张 <button class="pd-ts" data-t="10:29" data-who="Chamath" data-en="And specifically in AI, what you find is a very complicated origin story. where there are factions, there are hurt feelings, there are people that have been lied to, there are people that have lied, there's misrepresentations, there's hirings, there's firings, there's complicated cap table." aria-label="回原文"></button>。
 
 当两家公司（这里暗指 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]]）在激烈争夺巨额融资时，他们会把对方的路搞砸。Chamath 观察到一个明显的周期：在发布新模型或融资之前，人们就开始大肆渲染 AI 的末世特征；等钱到手了，又把叙事翻转回来，吹嘘即将发布一个能解决一切问题的神话版本 <button class="pd-ts" data-t="12:36" data-who="Chamath" data-en="You would see... People talking about the insanely apocalyptic characteristics of AI leading up to a model release, which usually was leading up to a fundraising." aria-label="回原文"></button>。
 
@@ -78,21 +88,31 @@ Chamath 主张，随着模型变得越来越强大，不要削弱它们，而是
 
 所谓叛军同盟，是指一群追求完全[[分布式计算|分布式计算]]、分布式训练和分布式推理的人。Chamath 描述道：只要你装一点软件，我装一点，大家连起来，就能形成一个没人能插手干预的共享社区 <button class="pd-ts" data-t="39:32" data-who="Chamath" data-en="So if you think that this is this incredibly powerful tool, who are the rebels? There's a group of people that are like, you know what? We want completely distributed compute." aria-label="回原文"></button>。他认为这种去中心化的理念极具说服力。
 
-这种百花齐放的生态极其重要，因为 AI 模型正在变成黑箱。Chamath 举了自己的例子：他最近在为自己的公司 8090 筹集 A 轮融资，压力大到睡不好觉。他把 Apple Watch 的数据喂给 ChatGPT，让它分析自己 HRV（心率变异性）偏低的原因。他后怕地想到：如果有人故意篡改了结果，把他引向去吃某种奇怪的药，那就完蛋了 <button class="pd-ts" data-t="29:22" data-who="Chamath" data-en="And it was so funny to me. So I went to chat GPT and I uploaded my, you know, Apple Watch stuff. And I said, you know, what's going on?" aria-label="回原文"></button>。因此，我们需要基于信任的行动者。
+这种百花齐放的生态极其重要，因为 AI 模型正在变成黑箱。Chamath 举了自己的例子：他最近在为自己的公司 8090 筹集 A 轮融资，压力大到睡不好觉。
+
+他把 Apple Watch 的数据喂给 ChatGPT，让它分析自己 HRV（心率变异性）偏低的原因。他后怕地想到：如果有人故意篡改了结果，把他引向去吃某种奇怪的药，那就完蛋了 <button class="pd-ts" data-t="29:22" data-who="Chamath" data-en="And it was so funny to me. So I went to chat GPT and I uploaded my, you know, Apple Watch stuff. And I said, you know, what's going on?" aria-label="回原文"></button>。因此，我们需要基于信任的行动者。
 
 ## 从 H-1B 到 SPAC：撕开僵化的系统
 
 谈及美国创新生态的底层土壤，话题转向了移民政策和资本市场。当前白宫对合法移民和基础研发资金的一系列削减，引发了关于美国是否在自我设限的担忧。
 
-Chamath 自己是拿 H-1B 签证（特殊专业人员临时工作签证）来的美国。他承认现在这个系统确实被滥用了：曾经有大量名额没人申请，如今却是 2 万个名额涌入 80 万份申请。但他认为，不能假装这种滥用不存在。由于少数公司在系统里疯狂钻空子，导致下一个 Elon 或顶尖科学家早就被拒之门外了。他甚至直言，如果按现在的运作方式，自己绝对拿不到签证 <button class="pd-ts" data-t="41:14" data-who="Chamath" data-en="Let me explain to you what's happening. I came out on an H-1B visa. Elon came out on an H-1B visa, okay?" aria-label="回原文"></button>。他认为当务之急是先止血、重建美国民众的信任，然后再谈如何继续吸引全球最优秀的大脑。
+Chamath 自己是拿 H-1B 签证（特殊专业人员临时工作签证）来的美国。他承认现在这个系统确实被滥用了：曾经有大量名额没人申请，如今却是 2 万个名额涌入 80 万份申请。
+
+但他认为，不能假装这种滥用不存在。由于少数公司在系统里疯狂钻空子，导致下一个 Elon 或顶尖科学家早就被拒之门外了。
+
+他甚至直言，如果按现在的运作方式，自己绝对拿不到签证 <button class="pd-ts" data-t="41:14" data-who="Chamath" data-en="Let me explain to you what's happening. I came out on an H-1B visa. Elon came out on an H-1B visa, okay?" aria-label="回原文"></button>。他认为当务之急是先止血、重建美国民众的信任，然后再谈如何继续吸引全球最优秀的大脑。
 
 而在资本市场，Chamath 则将矛头直指华尔街的寡头垄断。他反思了自己几年前搞砸 SPAC 的经历，坦诚自己当时「激励严重错位」——即使交易做砸了，他依然能拿到钱 <button class="pd-ts" data-t="44:22" data-who="Chamath" data-en="I think it's important, like, what did I learn I think is important? Probably the most important thing I learned, which I fought from accepting for a while, was that my incentives were grossly misaligned." aria-label="回原文"></button>。如今他重启了新的 SPAC（美国主义收购公司），并修正了规则：如果项目不暴涨，他就一分钱不赚 <button class="pd-ts" data-t="45:17" data-who="Chamath" data-en="And I wanted to change the fundamental flaw. that I took advantage of before that I could fix now, which is now the incentives are such where I make nothing unless the thing rips." aria-label="回原文"></button>。
 
-但他更想打破的是整个系统。他指出美国的资本市场已经完全僵化，被四家大银行把控着 IPO 的命脉。像 Michael Dell 当年那样以 8500 万美元估值上市、让普通人分享红利的日子一去不复返了。现在的公司都是养到极为成熟才上市，结果是少数人赚走大头，财富进一步集中，这反过来加剧了社会的不满情绪 <button class="pd-ts" data-t="45:31" data-who="Chamath" data-en="The second class of problem, which I have not fixed yet, must be fixed. The capital markets in America have gotten totally sclerotic. There are a few gatekeepers." aria-label="回原文"></button>。Chamath 立志要继续撞这扇墙，为更多公司提供尽早上市的路径。
+但他更想打破的是整个系统。他指出美国的资本市场已经完全僵化，被四家大银行把控着 IPO 的命脉。
+
+像 Michael Dell 当年那样以 8500 万美元估值上市、让普通人分享红利的日子一去不复返了。现在的公司都是养到极为成熟才上市，结果是少数人赚走大头，财富进一步集中，这反过来加剧了社会的不满情绪 <button class="pd-ts" data-t="45:31" data-who="Chamath" data-en="The second class of problem, which I have not fixed yet, must be fixed. The capital markets in America have gotten totally sclerotic. There are a few gatekeepers." aria-label="回原文"></button>。Chamath 立志要继续撞这扇墙，为更多公司提供尽早上市的路径。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三句话。第一，别被 AI 末日论吓倒，那多半是巨头们为了发新模型、融大钱而刻意制造的公关噪音，真正该做的是像管金融、管航空一样，对强大的 AI 模型引入 KYC（了解你的客户）式的实名分层监管。第二，AI 市场的未来绝不是少数寡头的天下，闭源大厂超额获利必然引来竞争，未来将是美国闭源、中国开源、美国本土开源以及追求去中心化的「叛军同盟」四分天下的格局。第三，美国的创新土壤正在被僵化的系统卡住，无论是被滥用的 H-1B 签证，还是被四家大行垄断的 IPO 市场，都在加剧财富的不平等；我们要重建信任，打破门阀，让普通人也能尽早分享到伟大公司的成长红利。
+最后收个尾，这一集值得带走的是三句话。第一，别被 AI 末日论吓倒，那多半是巨头们为了发新模型、融大钱而刻意制造的公关噪音，真正该做的是像管金融、管航空一样，对强大的 AI 模型引入 KYC（了解你的客户）式的实名分层监管。
+
+第二，AI 市场的未来绝不是少数寡头的天下，闭源大厂超额获利必然引来竞争，未来将是美国闭源、中国开源、美国本土开源以及追求去中心化的「叛军同盟」四分天下的格局。第三，美国的创新土壤正在被僵化的系统卡住，无论是被滥用的 H-1B 签证，还是被四家大行垄断的 IPO 市场，都在加剧财富的不平等；我们要重建信任，打破门阀，让普通人也能尽早分享到伟大公司的成长红利。
 
 <div class="pd-sec">全部金句 <span>13 条(中英对照,已过机器闸门)</span></div>
 
@@ -155,24 +175,21 @@ Chamath 自己是拿 H-1B 签证（特殊专业人员临时工作签证）来的
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、NVIDIA、OpenAI
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Anthropic、NVIDIA、OpenAI
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:NVIDIA、Anthropic、OpenAI · 同概念:开源权重模型 (open-weight models)
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI</span>
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:开源权重模型 (open-weight models)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同公司:Anthropic、OpenAI
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同公司:Anthropic、OpenAI
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
 
 </div>
 </div>
-
-*本集关键词:AI 末日论 · 闭源与开源 · AI 监管 · 去中心化 · 资本市场*
-
 <script>
 (function(){
   function move(){

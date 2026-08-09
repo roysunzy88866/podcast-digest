@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>75</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>77</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*75 条,均已过机器闸门*
+*77 条,均已过机器闸门*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
@@ -167,6 +167,10 @@ unlisted: true
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q2]]
 
+![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q5]]
+
+![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q6]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -179,7 +183,7 @@ unlisted: true
 
 [[Matt Turk]] · [[Sanjit Biswas]] · [[Samsara]] · [[物理 AI]] · [[护栏]] · [[智能体]] · [[数据网络效应]] · [[Agents Studio]] · [[AI 行车记录仪]] · [[资产标签]]
 
-<script type="application/json" class="pd-epn">{"Matt Turk":1,"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":12,"智能体":65,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":1,"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":13,"智能体":67,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

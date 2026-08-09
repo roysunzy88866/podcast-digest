@@ -38,25 +38,43 @@ tags:
 
 说完了这周引发震动的人事变动,接下来先看被巨头军备竞赛意外击中的 Apple。
 
-受 AI 驱动的数据中心热潮影响,全球内存供应链正被严重抽干。矛盾在于,Apple 既没有像同行那样花几千亿美元重金押注 AI 基础设施,却又偏偏离不开这些核心组件。主持人指出,以供应链运作闻名的 CEO 蒂姆·库克甚至用「百年一遇的风暴」来形容当前的内存短缺。MG 认为,库克当年没能料到 AI 引爆的算力需求会持续这么久,导致 Apple 如今只能被迫在 iPhone 这类命根子设备上陷入被动。
+受 AI 驱动的数据中心热潮影响,全球内存供应链正被严重抽干。矛盾在于,Apple 既没有像同行那样花几千亿美元重金押注 AI 基础设施,却又偏偏离不开这些核心组件。
 
-面对成本上涨,Apple 似乎在酝酿一套分阶段的涨价策略。MG 观察到,从库克放风,到给 Mac 等设备提价,再到将最核心的 iPhone 涨价留到最后,这层层铺垫非常精明。他还提出了一个相当反直觉的猜想:高调渲染内存短缺,会不会其实是 Apple 为了名正言顺提高硬件利润率而找的完美借口?如果后续财报显示其整体利润率(目前超 50%)还在逆势大涨,那这套「内存背锅论」或许就真成了阳谋。不过目前 iPhone 18 涨价 100 到 200 美元大概率已是板上钉钉。
+主持人指出,以供应链运作闻名的 CEO 蒂姆·库克甚至用「百年一遇的风暴」来形容当前的内存短缺。MG 认为,库克当年没能料到 AI 引爆的算力需求会持续这么久,导致 Apple 如今只能被迫在 iPhone 这类命根子设备上陷入被动。
 
-设备被迫涨价是一记重拳,接下来看 Apple 准备怎么用「订阅制」来接招。MG 重点关注了刚推出的 Apple Upgrade 服务——一种让用户按月付费换新机的订阅模式。这套与 Klarna 合作的模式不仅限于手机,未来可能覆盖 Mac 等全线产品。MG 认为,这堪称 Apple 版的 [[Amazon|Amazon]] Prime,既能用每个月只需几十美元的账单来巧妙掩饰硬件的大幅涨价,又能把用户更深地锁死在生态里。
+面对成本上涨,Apple 似乎在酝酿一套分阶段的涨价策略。MG 观察到,从库克放风,到给 Mac 等设备提价,再到将最核心的 iPhone 涨价留到最后,这层层铺垫非常精明。
 
-巨头们的算盘打得都精,接下来的 Microsoft 甚至把算盘打到了财报的会计科目里。Microsoft 最近被华尔街称赞在 AI 资本开支上表现得十分克制,但 MG 揭露了这背后的障眼法:他们悄悄将部分数据中心资产的折旧年限从 15 年拉长到了 25 年。这一「拉长」直接把原本应计入资本支出的钱挪进了运营支出,人为做低了资本开支的数字。主持人毫不客气地戳破了这层窗户纸:众所周知 GPU 可能三年就得淘汰,把充满 NVIDIA 芯片的数据中心按 25 年算账根本经不起推敲,甚至著名投资者 Michael Burry(电影《大空头》的原型)就因此做空了这些公司。
+他还提出了一个相当反直觉的猜想:高调渲染内存短缺,会不会其实是 Apple 为了名正言顺提高硬件利润率而找的完美借口?如果后续财报显示其整体利润率(目前超 50%)还在逆势大涨,那这套「内存背锅论」或许就真成了阳谋。不过目前 iPhone 18 涨价 100 到 200 美元大概率已是板上钉钉。
 
-看穿了账面戏法,接下来审视[[云计算|云]]收入狂飙背后真正的驱动力。尽管云巨头们迎来了惊人的同比增长——Google 增长 82%、Azure 增长 43%——但主持人提出了一个令华尔街集体回避的尖锐问题:这些疯涨到底有多少真实需求?他指出,云收入的大头很可能只是 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 拿着融来的巨资又回投到了云上。最魔幻的是,Amazon 刚在 2026 年大举投入 500 亿美元,全额结清了投资 OpenAI 的额度。这些来回倒手的「循环融资」人为撑大了云业务的繁荣。
+设备被迫涨价是一记重拳,接下来看 Apple 准备怎么用「订阅制」来接招。MG 重点关注了刚推出的 Apple Upgrade 服务——一种让用户按月付费换新机的订阅模式。
 
-正因为云收入存在这种循环风险,接下来这场巨头间的博弈就更有意思了。MG 指出,Satya Nadella 现在在公开场合把 Microsoft 定位为「瑞士」,急于摆脱对 OpenAI 和 Anthropic 的重度依赖。他甚至提到,如果 AI 双寡头出点什么波折,这种连锁反应将波及整个云市场。相比之下,没有云业务的 Meta 反而可能因祸得福,而一直没有在 AI 基建上盲目烧钱的 Apple 无疑是最安稳的。
+这套与 Klarna 合作的模式不仅限于手机,未来可能覆盖 Mac 等全线产品。MG 认为,这堪称 Apple 版的 [[Amazon|Amazon]] Prime,既能用每个月只需几十美元的账单来巧妙掩饰硬件的大幅涨价,又能把用户更深地锁死在生态里。
 
-聊完了 Microsoft 的财务腾挪,最后把目光转回 Google。Google 的旗舰模型 3.5 Pro 陷入了难产,在编码智能体竞赛中更是几乎销声匿迹。对此,《The Algorithmic Bridge》的一篇文章提供了一个视角:这未必是能力问题,而是路线分歧。文章认为,以 Anthropic 和 OpenAI 为代表的初创公司必须靠押注大型语言模型([[LLM|LLM]])来尽快盈利;而 Google 作为垂直整合巨头,对短期利润没那么敏感,于是把重注押在了理解物理现实的「[[世界模型|世界模型]]」上。Demis 在采访中多次强调,LLM 不足以达成真正的通用人工智能,还需要其他突破。
+巨头们的算盘打得都精,接下来的 Microsoft 甚至把算盘打到了财报的会计科目里。Microsoft 最近被华尔街称赞在 AI 资本开支上表现得十分克制,但 MG 揭露了这背后的障眼法:他们悄悄将部分数据中心资产的折旧年限从 15 年拉长到了 25 年。
 
-然而,这种对世界模型的执念加上内部派系的争斗,让 Google 付出了代价。MG 透露,Google 内部山头林立,多支团队为抢夺资源在智能体编码等方向上内耗严重。虽然 Demis 一直力推他眼中的未来,甚至公开贬低其他项目,但迟迟拿不出能在市场上打赢的模型。MG 预测,如果 Google 想跳过难产的 3.5 Pro 直接发布 Gemini 4,那它必须展现出碾压级的实力,否则公司将彻底失去市场的信任。
+这一「拉长」直接把原本应计入资本支出的钱挪进了运营支出,人为做低了资本开支的数字。主持人毫不客气地戳破了这层窗户纸:众所周知 GPU 可能三年就得淘汰,把充满 NVIDIA 芯片的数据中心按 25 年算账根本经不起推敲,甚至著名投资者 Michael Burry(电影《大空头》的原型)就因此做空了这些公司。
+
+看穿了账面戏法,接下来审视[[云计算|云]]收入狂飙背后真正的驱动力。尽管云巨头们迎来了惊人的同比增长——Google 增长 82%、Azure 增长 43%——但主持人提出了一个令华尔街集体回避的尖锐问题:这些疯涨到底有多少真实需求?
+
+他指出,云收入的大头很可能只是 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 拿着融来的巨资又回投到了云上。最魔幻的是,Amazon 刚在 2026 年大举投入 500 亿美元,全额结清了投资 OpenAI 的额度。这些来回倒手的「循环融资」人为撑大了云业务的繁荣。
+
+正因为云收入存在这种循环风险,接下来这场巨头间的博弈就更有意思了。MG 指出,Satya Nadella 现在在公开场合把 Microsoft 定位为「瑞士」,急于摆脱对 OpenAI 和 Anthropic 的重度依赖。
+
+他甚至提到,如果 AI 双寡头出点什么波折,这种连锁反应将波及整个云市场。相比之下,没有云业务的 Meta 反而可能因祸得福,而一直没有在 AI 基建上盲目烧钱的 Apple 无疑是最安稳的。
+
+聊完了 Microsoft 的财务腾挪,最后把目光转回 Google。Google 的旗舰模型 3.5 Pro 陷入了难产,在编码智能体竞赛中更是几乎销声匿迹。
+
+对此,《The Algorithmic Bridge》的一篇文章提供了一个视角:这未必是能力问题,而是路线分歧。文章认为,以 Anthropic 和 OpenAI 为代表的初创公司必须靠押注大型语言模型([[LLM|LLM]])来尽快盈利;而 Google 作为垂直整合巨头,对短期利润没那么敏感,于是把重注押在了理解物理现实的「[[世界模型|世界模型]]」上。Demis 在采访中多次强调,LLM 不足以达成真正的通用人工智能,还需要其他突破。
+
+然而,这种对世界模型的执念加上内部派系的争斗,让 Google 付出了代价。MG 透露,Google 内部山头林立,多支团队为抢夺资源在智能体编码等方向上内耗严重。
+
+虽然 Demis 一直力推他眼中的未来,甚至公开贬低其他项目,但迟迟拿不出能在市场上打赢的模型。MG 预测,如果 Google 想跳过难产的 3.5 Pro 直接发布 Gemini 4,那它必须展现出碾压级的实力,否则公司将彻底失去市场的信任。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是这几条判断。第一,Demis 辞任是因为科研理想和公司的商业变现诉求对不上,他想造「人工细胞」这种偏底层和物理现实的 AI,而不是继续卷大型语言模型。第二,别被 Apple 和 Microsoft 的表面功夫骗了:Apple 一边喊内存短缺,一边顺势酝酿全线涨价和按月付费的订阅制来锁定用户;Microsoft 则靠拉长折旧年限做低资本开支,云收入的狂飙里也掺杂了 AI 公司左右倒手的循环资金。第三,科技巨头内部绝不是铁板一块,Google 之所以在模型发布上掉队,不仅是世界模型和语言模型的技术路线之争,更是庞大组织内派系抢夺资源导致的必然内耗。
+最后收个尾,这一集值得带走的是这几条判断。第一,Demis 辞任是因为科研理想和公司的商业变现诉求对不上,他想造「人工细胞」这种偏底层和物理现实的 AI,而不是继续卷大型语言模型。
+
+第二,别被 Apple 和 Microsoft 的表面功夫骗了:Apple 一边喊内存短缺,一边顺势酝酿全线涨价和按月付费的订阅制来锁定用户;Microsoft 则靠拉长折旧年限做低资本开支,云收入的狂飙里也掺杂了 AI 公司左右倒手的循环资金。第三,科技巨头内部绝不是铁板一块,Google 之所以在模型发布上掉队,不仅是世界模型和语言模型的技术路线之争,更是庞大组织内派系抢夺资源导致的必然内耗。
 
 <div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
@@ -83,24 +101,21 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Amazon、Anthropic、Apple、Google、Microsoft、OpenAI、NVIDIA · 同概念:CapEx、AGI
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:CapEx、AGI
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:Apple、Microsoft、OpenAI、Amazon、Anthropic、Google、NVIDIA
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Microsoft、OpenAI、NVIDIA · 同概念:CapEx、AGI</span>
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI · 同概念:CapEx、AGI</span>
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Apple、Microsoft、OpenAI、Amazon、Anthropic、Google、NVIDIA</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、Apple、OpenAI
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同公司:Anthropic、Google、OpenAI
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:Anthropic、Microsoft
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、Apple、OpenAI</span>
+- [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI</span>
 
 </div>
 </div>
-
-*本集关键词:AI 基础设施 · 科技巨头财报 · 云收入循环 · 世界模型 · 硬件涨价与订阅制*
-
 <script>
 (function(){
   function move(){

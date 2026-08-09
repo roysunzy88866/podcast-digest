@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
+[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":65,"vibe coding":7,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":67,"vibe coding":7,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

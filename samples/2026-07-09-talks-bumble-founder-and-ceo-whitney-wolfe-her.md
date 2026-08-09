@@ -39,17 +39,31 @@ tags:
 
 这一集 The Axios Show 的对谈里，她把这场「重置」拆成了三件事：为什么 Bumble 必须抛弃滑动机制、换上全新的[[交互模型|交互模型]]；为什么[[付费用户|付费用户]]数量的短期下滑是故意为之的「清洗」而不是溃败；以及人工智能（也就是 [[AI|AI]]，指让机器模拟人类智能来辅助完成任务）在约会软件里到底该扮演什么角色。她还在结尾谈了自己离开又回归后，作为创始人最痛的领悟。
 
-说完了她为什么要重置，接下来看她要怎么动刀子。她指出，如今用户对约会软件的普遍感受是「筋疲力尽」——滑动这个动作已经「降低了他们的爱情生活质量」<button class="pd-ts" data-t="02:30" data-who="Whitney Wolfe Herd" data-en="They're feeling fatigued. They feel like the swipe has degraded their love lives. I saw something posted on your Instagram this morning that Bumble is maybe getting rid of the swipe." aria-label="回原文"></button>。Bumble 当年让女性先开口的设定是革命性的，但如今革命性已经消退，旧的技术基础设施拖了后腿。她的解法是在第四季度于特定市场彻底移除滑动，换上她称之为「下一个 Bumble」的全新交互模型 <button class="pd-ts" data-t="03:57" data-who="Whitney Wolfe Herd" data-en="In select markets, in Q4, the swipe will be gone. Fascinating. And let's talk a little bit about why we're doing this reset." aria-label="回原文"></button>。至于新产品到底长什么样，她因为商业竞争保密没明说，但承诺这个新交互会保留当年「女性先迈出第一步」的核心精神——即一种自信、安全的体验——而不会硬性规定某个性别必须先行动 <button class="pd-ts" data-t="19:17" data-who="Whitney Wolfe Herd" data-en="And we want to be delicate with how we roll this out towards the end of the year. We will not force one gender over another to do something first. But we will be basically bottling the essence of what was always meant to be women making the first move." aria-label="回原文"></button>。
+说完了她为什么要重置，接下来看她要怎么动刀子。她指出，如今用户对约会软件的普遍感受是「筋疲力尽」——滑动这个动作已经「降低了他们的爱情生活质量」<button class="pd-ts" data-t="02:30" data-who="Whitney Wolfe Herd" data-en="They're feeling fatigued. They feel like the swipe has degraded their love lives. I saw something posted on your Instagram this morning that Bumble is maybe getting rid of the swipe." aria-label="回原文"></button>。
 
-产品形态变了，商业模式和用户盘子怎么调？这正是下一个话题。Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 Whitney 的态度很硬：并非所有付费用户都是等价的 <button class="pd-ts" data-t="04:21" data-who="Whitney Wolfe Herd" data-en="But is losing paid users really the way to get there? So not all paid customers are created equal. I think this is something that is very lost on the investment community, frankly." aria-label="回原文"></button>。她直言，流失的付费用户里，有一部分是「低质量的、像垃圾邮件一样的行为」。她宁可承受短期数字上的难看，也要把这些拉低体验（尤其对女性而言）的人清理出去，从而打造一个更高质量的会员库 <button class="pd-ts" data-t="04:55" data-who="Whitney Wolfe Herd" data-en="was low quality spam-like behavior. Why would we want a payer in the system that is degrading the experience, particularly for women? So we would much rather take a short-term hit on total payer numbers to really do the job that we set out to do as a very multi-stage process, which we're now entering phase two of." aria-label="回原文"></button>。她认为华尔街没看懂的是：人们为了寻找真爱，愿意付出的金钱和精力远高于现在的订阅费 <button class="pd-ts" data-t="06:01" data-who="Whitney Wolfe Herd" data-en="And so that's the way I think about payers. The other interesting thing about payers and what I think a lot of the investment community fails to realize as well is people will go to the ends of the world for love." aria-label="回原文"></button>。基于这种判断，她甚至暗示不排除未来在合适的时机将公司私有化，因为她自认在几年上市公司 CEO 的历练下，已经练就了「刀枪不入」的定力，股价波动再也无法动摇她的长期专注 <button class="pd-ts" data-t="07:17" data-who="Whitney Wolfe Herd" data-en="So we are always exploring what's best for the shareholders. I obviously cannot comment on what the structural future of the company would or would not be. But what I will say is I think the benefit that I have garnered" aria-label="回原文"></button>。
+Bumble 当年让女性先开口的设定是革命性的，但如今革命性已经消退，旧的技术基础设施拖了后腿。她的解法是在第四季度于特定市场彻底移除滑动，换上她称之为「下一个 Bumble」的全新交互模型 <button class="pd-ts" data-t="03:57" data-who="Whitney Wolfe Herd" data-en="In select markets, in Q4, the swipe will be gone. Fascinating. And let's talk a little bit about why we're doing this reset." aria-label="回原文"></button>。至于新产品到底长什么样，她因为商业竞争保密没明说，但承诺这个新交互会保留当年「女性先迈出第一步」的核心精神——即一种自信、安全的体验——而不会硬性规定某个性别必须先行动 <button class="pd-ts" data-t="19:17" data-who="Whitney Wolfe Herd" data-en="And we want to be delicate with how we roll this out towards the end of the year. We will not force one gender over another to do something first. But we will be basically bottling the essence of what was always meant to be women making the first move." aria-label="回原文"></button>。
 
-商业大盘稳住了，技术工具怎么用？这是接下来的交锋。她重点推介了公司的 AI 约会助手「Bee」。她观察到，用户极度渴望「被了解」，愿意花大量时间跟这个 [[AI 助手|AI 助手]]聊天，好让系统真正明白自己想要什么 <button class="pd-ts" data-t="11:21" data-who="Whitney Wolfe Herd" data-en="And the willingness that we've already seen through testing has been extremely encouraging and illuminating. People are willing to spend such a deep amount of time talking to our AI assistant, getting to know" aria-label="回原文"></button>。但面对主持人「是否要走向高端化、远离大众」的追问，她澄清说「必须为了增长而缩小」<button class="pd-ts" data-t="20:22" data-who="Whitney Wolfe Herd" data-en="That's certainly not the goal. We had to shrink to grow. That's always been the plan." aria-label="回原文"></button>——清洗只是为了在门口设定好「穿好衬衫和鞋子」的基准门槛，一旦底座干净了，追求规模和全球化扩张依然是终极目标 <button class="pd-ts" data-t="20:47" data-who="Whitney Wolfe Herd" data-en="Set those standards and really make sure that we've reset that. Once we do that, it's all systems scale. We are going for scale." aria-label="回原文"></button>。
+产品形态变了，商业模式和用户盘子怎么调？这正是下一个话题。
 
-工具用得再溜，最终还是要回答人的问题。她在这部分做了一个极其明确的切割：Bumble 绝不允许用 AI 伪造照片、也不允许用 AI 替用户去给别人发消息 <button class="pd-ts" data-t="17:01" data-who="Whitney Wolfe Herd" data-en="We will not let you falsify who you are with AI. You cannot have falsified photos with AI. You cannot use AI to message people." aria-label="回原文"></button>。她把 AI 的作用严格限制在「催化剂」层面——比如帮那些不擅长展示自己的人把个人档案弄得好一点、给点挑照片的建议，而不是用机器去替代人与人之间真实的连接。顺着「[[真实性|真实性]]」的逻辑，她把眼光投向了更广的社会现实：她认为尤其是美国市场，饱受社交媒体「这山望着那山高」的反社交氛围毒害，人们感到极度疲惫 <button class="pd-ts" data-t="25:25" data-who="Whitney Wolfe Herd" data-en="It's funny how these markets do differ. I would say that there seems to be more cultural burnout in America and fatigue than there is in the rest of the world. I'm not entirely sure what to attribute this to." aria-label="回原文"></button>。所以 Bumble 接下来要做的，是用群体约会、线下 meetup（线下聚会）以及主打友谊的 BFF 模式，把人们从手机屏幕后拽出来，去现实世界里建立社交图谱。
+Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 Whitney 的态度很硬：并非所有付费用户都是等价的 <button class="pd-ts" data-t="04:21" data-who="Whitney Wolfe Herd" data-en="But is losing paid users really the way to get there? So not all paid customers are created equal. I think this is something that is very lost on the investment community, frankly." aria-label="回原文"></button>。
+
+她直言，流失的付费用户里，有一部分是「低质量的、像垃圾邮件一样的行为」。她宁可承受短期数字上的难看，也要把这些拉低体验（尤其对女性而言）的人清理出去，从而打造一个更高质量的会员库 <button class="pd-ts" data-t="04:55" data-who="Whitney Wolfe Herd" data-en="was low quality spam-like behavior. Why would we want a payer in the system that is degrading the experience, particularly for women? So we would much rather take a short-term hit on total payer numbers to really do the job that we set out to do as a very multi-stage process, which we're now entering phase two of." aria-label="回原文"></button>。
+
+她认为华尔街没看懂的是：人们为了寻找真爱，愿意付出的金钱和精力远高于现在的订阅费 <button class="pd-ts" data-t="06:01" data-who="Whitney Wolfe Herd" data-en="And so that's the way I think about payers. The other interesting thing about payers and what I think a lot of the investment community fails to realize as well is people will go to the ends of the world for love." aria-label="回原文"></button>。基于这种判断，她甚至暗示不排除未来在合适的时机将公司私有化，因为她自认在几年上市公司 CEO 的历练下，已经练就了「刀枪不入」的定力，股价波动再也无法动摇她的长期专注 <button class="pd-ts" data-t="07:17" data-who="Whitney Wolfe Herd" data-en="So we are always exploring what's best for the shareholders. I obviously cannot comment on what the structural future of the company would or would not be. But what I will say is I think the benefit that I have garnered" aria-label="回原文"></button>。
+
+商业大盘稳住了，技术工具怎么用？这是接下来的交锋。
+
+她重点推介了公司的 AI 约会助手「Bee」。她观察到，用户极度渴望「被了解」，愿意花大量时间跟这个 [[AI 助手|AI 助手]]聊天，好让系统真正明白自己想要什么 <button class="pd-ts" data-t="11:21" data-who="Whitney Wolfe Herd" data-en="And the willingness that we've already seen through testing has been extremely encouraging and illuminating. People are willing to spend such a deep amount of time talking to our AI assistant, getting to know" aria-label="回原文"></button>。但面对主持人「是否要走向高端化、远离大众」的追问，她澄清说「必须为了增长而缩小」<button class="pd-ts" data-t="20:22" data-who="Whitney Wolfe Herd" data-en="That's certainly not the goal. We had to shrink to grow. That's always been the plan." aria-label="回原文"></button>——清洗只是为了在门口设定好「穿好衬衫和鞋子」的基准门槛，一旦底座干净了，追求规模和全球化扩张依然是终极目标 <button class="pd-ts" data-t="20:47" data-who="Whitney Wolfe Herd" data-en="Set those standards and really make sure that we've reset that. Once we do that, it's all systems scale. We are going for scale." aria-label="回原文"></button>。
+
+工具用得再溜，最终还是要回答人的问题。她在这部分做了一个极其明确的切割：Bumble 绝不允许用 AI 伪造照片、也不允许用 AI 替用户去给别人发消息 <button class="pd-ts" data-t="17:01" data-who="Whitney Wolfe Herd" data-en="We will not let you falsify who you are with AI. You cannot have falsified photos with AI. You cannot use AI to message people." aria-label="回原文"></button>。
+
+她把 AI 的作用严格限制在「催化剂」层面——比如帮那些不擅长展示自己的人把个人档案弄得好一点、给点挑照片的建议，而不是用机器去替代人与人之间真实的连接。顺着「[[真实性|真实性]]」的逻辑，她把眼光投向了更广的社会现实：她认为尤其是美国市场，饱受社交媒体「这山望着那山高」的反社交氛围毒害，人们感到极度疲惫 <button class="pd-ts" data-t="25:25" data-who="Whitney Wolfe Herd" data-en="It's funny how these markets do differ. I would say that there seems to be more cultural burnout in America and fatigue than there is in the rest of the world. I'm not entirely sure what to attribute this to." aria-label="回原文"></button>。所以 Bumble 接下来要做的，是用群体约会、线下 meetup（线下聚会）以及主打友谊的 BFF 模式，把人们从手机屏幕后拽出来，去现实世界里建立社交图谱。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是三句话。第一，别被「滑动」绑架，当用户开始感到疲惫时，哪怕这是你的发家本领，也得敢于推翻它，用全新的交互模型去解决「滑动疲劳」。第二，别被华尔街短期的数字绑架，为了长远的高端化和健康的生态，主动洗掉劣质付费用户、承受「为了增长而缩小」的阵痛，是创始人该有的定力。第三，在 AI 时代，技术只能当催化剂，绝不能当替代品——守住「真实性」的底线，帮用户在线下建立真实的连接，才是这家公司的立身之本。顺带一提，她作为创始人离任又回归的最深感触是：千万别被周围的「职业经理人」规训，硬把自己塞进「企业化 CEO」的模子里；找回那种敢于拆墙的「[[创始人模式|创始人模式]]」能量，才是把公司救回来的关键。
+最后收个尾，这一集值得带走的是三句话。第一，别被「滑动」绑架，当用户开始感到疲惫时，哪怕这是你的发家本领，也得敢于推翻它，用全新的交互模型去解决「滑动疲劳」。
+
+第二，别被华尔街短期的数字绑架，为了长远的高端化和健康的生态，主动洗掉劣质付费用户、承受「为了增长而缩小」的阵痛，是创始人该有的定力。第三，在 AI 时代，技术只能当催化剂，绝不能当替代品——守住「真实性」的底线，帮用户在线下建立真实的连接，才是这家公司的立身之本。顺带一提，她作为创始人离任又回归的最深感触是：千万别被周围的「职业经理人」规训，硬把自己塞进「企业化 CEO」的模子里；找回那种敢于拆墙的「[[创始人模式|创始人模式]]」能量，才是把公司救回来的关键。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -88,23 +102,20 @@ tags:
 
 **顺着「产品方法」挖下去**
 
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]] —— 同概念:AI
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Apple
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:AI</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:Apple
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Apple
-- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]] —— 同公司:Apple
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Apple</span>
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Apple</span>
+- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Apple</span>
 
 </div>
 </div>
-
-*本集关键词:产品重置 · 交互模型 · AI 助手 · 商业化与订阅 · 创始人回归*
-
 <script>
 (function(){
   function move(){

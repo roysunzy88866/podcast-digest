@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
+[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Codex":14,"Cursor":7,"obsidian":1,"hey gen":1,"智能体":65,"上下文":4,"护栏":12,"Figma":6,"playwright":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Codex":14,"Cursor":8,"obsidian":1,"hey gen":1,"智能体":67,"上下文":4,"护栏":13,"Figma":6,"playwright":1}</script>
 
 <script>
 (function(){

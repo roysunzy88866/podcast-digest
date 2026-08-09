@@ -1,0 +1,1874 @@
+[
+ {
+  "seg": 0,
+  "start": 12.468,
+  "end": 14.951,
+  "speaker": "Unknown",
+  "en": "Okay, we're getting rolling, and welcome aboard.",
+  "zh": "好的，我们要开始了，欢迎登船。"
+ },
+ {
+  "seg": 1,
+  "start": 15.211,
+  "end": 18.354,
+  "speaker": "Unknown",
+  "en": "Just had a little technical issues, but we'll resolve them.",
+  "zh": "刚才遇到了一些技术问题，但我们会解决它们。"
+ },
+ {
+  "seg": 2,
+  "start": 18.454,
+  "end": 19.696,
+  "speaker": "Unknown",
+  "en": "So my name is Frank Coyle.",
+  "zh": "所以我的名字是 Frank Coyle。"
+ },
+ {
+  "seg": 3,
+  "start": 21.057,
+  "end": 23.7,
+  "speaker": "Unknown",
+  "en": "I am a computer science guy.",
+  "zh": "我是一个计算机科学领域的人。"
+ },
+ {
+  "seg": 4,
+  "start": 23.72,
+  "end": 28.345,
+  "speaker": "Unknown",
+  "en": "I've been teaching computer science for over 30 years, and I'm now teaching at Berkeley.",
+  "zh": "我教授计算机科学已经超过 30 年了，我现在在伯克利教书。"
+ },
+ {
+  "seg": 5,
+  "start": 28.886,
+  "end": 31.208,
+  "speaker": "Unknown",
+  "en": "And one of the problems that all my students",
+  "zh": "我所有学生面临的一个问题"
+ },
+ {
+  "seg": 6,
+  "start": 32.109,
+  "end": 40.235,
+  "speaker": "Unknown",
+  "en": "Past and present are having is AI because computer science is no longer the magic pathway to a job.",
+  "zh": "过去和现在的，就是 AI，因为计算机科学不再是通往工作的神奇路径了。"
+ },
+ {
+  "seg": 7,
+  "start": 40.775,
+  "end": 49.021,
+  "speaker": "Unknown",
+  "en": "So I've been trying to figure out ways to help them, come up with schemes to help them get ready for this world of agentic AI.",
+  "zh": "所以我一直在想办法帮助他们，想出一些方案来帮助他们为这个智能体 AI 的世界做好准备。"
+ },
+ {
+  "seg": 8,
+  "start": 49.541,
+  "end": 58.388,
+  "speaker": "Unknown",
+  "en": "And one of the things that sort of dropped into my plate was something called the Claude Certified Architect Exam.",
+  "zh": "其中一件落到我盘子上的事情是叫做 Claude Certified Architect Exam 的东西。"
+ },
+ {
+  "seg": 9,
+  "start": 59.028,
+  "end": 78.972,
+  "speaker": "Unknown",
+  "en": "Which I will be talking about today and it has a number of aspects to it and I think if you're interested in a career in agentic AI to certainly take a look at least what the exam is about because I feel that Anthropic knows how people are using their system and what the issues are going to be.",
+  "zh": "我今天会谈到它，它有很多方面，我认为如果你对智能体 AI 的职业生涯感兴趣，至少要看一下考试是关于什么的，因为我觉得 Anthropic 知道人们如何使用他们的系统以及问题会是什么。"
+ },
+ {
+  "seg": 10,
+  "start": 79.632,
+  "end": 84.793,
+  "speaker": "Unknown",
+  "en": "So before we jump into that I want to give a little bit of my philosophy.",
+  "zh": "所以在进入那之前，我想先讲一点我的哲学。"
+ },
+ {
+  "seg": 11,
+  "start": 93.103,
+  "end": 94.884,
+  "speaker": "Unknown",
+  "en": "May have to do this manually, getting stuck.",
+  "zh": "可能得手动做这个，卡住了。"
+ },
+ {
+  "seg": 12,
+  "start": 96.485,
+  "end": 101.908,
+  "speaker": "Unknown",
+  "en": "So, this is a quote from a woman named Sister Corita Kent.",
+  "zh": "所以，这是一位名叫 Sister Corita Kent 的女性的名言。"
+ },
+ {
+  "seg": 13,
+  "start": 102.628,
+  "end": 103.769,
+  "speaker": "Unknown",
+  "en": "Nothing is a mistake.",
+  "zh": "没有什么是错误。"
+ },
+ {
+  "seg": 14,
+  "start": 104.389,
+  "end": 105.89,
+  "speaker": "Unknown",
+  "en": "There's no win and no fail.",
+  "zh": "没有赢也没有输。"
+ },
+ {
+  "seg": 15,
+  "start": 106.39,
+  "end": 107.751,
+  "speaker": "Unknown",
+  "en": "There's only make.",
+  "zh": "只有制作。"
+ },
+ {
+  "seg": 16,
+  "start": 108.712,
+  "end": 112.153,
+  "speaker": "Unknown",
+  "en": "Bottom line here is experiment, experiment, experiment.",
+  "zh": "这里的底线是实验，实验，实验。"
+ },
+ {
+  "seg": 17,
+  "start": 112.574,
+  "end": 115.955,
+  "speaker": "Unknown",
+  "en": "Not only should you read, but you should do, you should make stuff.",
+  "zh": "你不仅应该读，你还应该做，你应该制作东西。"
+ },
+ {
+  "seg": 18,
+  "start": 116.216,
+  "end": 118.877,
+  "speaker": "Unknown",
+  "en": "Now, what happens when you make stuff?",
+  "zh": "现在，当你制作东西时会发生什么？"
+ },
+ {
+  "seg": 19,
+  "start": 119.477,
+  "end": 122.219,
+  "speaker": "Unknown",
+  "en": "A lot of times, things don't work.",
+  "zh": "很多时候，事情不起作用。"
+ },
+ {
+  "seg": 20,
+  "start": 123.795,
+  "end": 126.802,
+  "speaker": "Unknown",
+  "en": "Thomas Edison said, I have not failed.",
+  "zh": "托马斯·爱迪生说过，我没有失败。"
+ },
+ {
+  "seg": 21,
+  "start": 127.162,
+  "end": 130.369,
+  "speaker": "Unknown",
+  "en": "I've only found 10,000 ways that don't work.",
+  "zh": "我只是找到了 10,000 种行不通的方法。"
+ },
+ {
+  "seg": 22,
+  "start": 133.242,
+  "end": 162.672,
+  "speaker": "Unknown",
+  "en": "What I want to emphasize here is that what this shows us are something that in the design patterns movement, which came around in the early 1990s with object-oriented programming, we had patterns for objects, we now have patterns for agents, but there's also anti-patterns, and I think anti-patterns are a key to understanding what you should not do, because understanding what you should not do is the key to leading you to what you should do.",
+  "zh": "我想在这里强调的是，这向我们展示了在设计模式运动中的某些东西，它在 1990 年代初随面向对象编程出现，我们有针对对象的模式，现在我们有针对智能体的模式，但也有反模式，我认为反模式是理解你不该做什么的关键，因为理解你不该做什么是引导你去做你该做的事的关键。"
+ },
+ {
+  "seg": 23,
+  "start": 164.912,
+  "end": 170.193,
+  "speaker": "Unknown",
+  "en": "So, a little bit about the Claude certified exam, released in March, so it's brand new.",
+  "zh": "所以，关于 Claude 认证考试的一点介绍，它在 3 月发布，所以它是全新的。"
+ },
+ {
+  "seg": 24,
+  "start": 170.973,
+  "end": 190.556,
+  "speaker": "Unknown",
+  "en": "It is based on scenarios, it is timed, it is proctored, it is available to companies in the Claude ecosystem, the Anthropic ecosystem, but individuals can pay $99 and take the exam once every six months.",
+  "zh": "它是基于场景的，它是计时的，它是监考的，它对 Claude 生态系统的公司、Anthropic 生态系统可用，但个人可以支付 99 美元并每六个月参加一次考试。"
+ },
+ {
+  "seg": 25,
+  "start": 191.557,
+  "end": 192.917,
+  "speaker": "Unknown",
+  "en": "And it's not just,",
+  "zh": "而且不仅仅是，"
+ },
+ {
+  "seg": 26,
+  "start": 194.015,
+  "end": 202.903,
+  "speaker": "Unknown",
+  "en": "Multiple choice questions, it is multiple choice, but they are based on realistic constraints and realistic scenarios.",
+  "zh": "多项选择题，它是多项选择，但它们是基于现实的约束和现实的场景。"
+ },
+ {
+  "seg": 27,
+  "start": 204.625,
+  "end": 205.586,
+  "speaker": "Unknown",
+  "en": "The five domains.",
+  "zh": "五个领域。"
+ },
+ {
+  "seg": 28,
+  "start": 206.75,
+  "end": 209.832,
+  "speaker": "Unknown",
+  "en": "There are five domains that are covered and they give you the percentages of each.",
+  "zh": "有五个涵盖的领域，它们给你每个的百分比。"
+ },
+ {
+  "seg": 29,
+  "start": 210.253,
+  "end": 212.914,
+  "speaker": "Unknown",
+  "en": "So, agentic architecture, 27%.",
+  "zh": "所以，智能体架构，27%。"
+ },
+ {
+  "seg": 30,
+  "start": 213.415,
+  "end": 219.779,
+  "speaker": "Unknown",
+  "en": "Claude Code, how to configure the Claude Code system and workflow, 20%.",
+  "zh": "Claude Code，如何配置 Claude Code 系统和工作流，20%。"
+ },
+ {
+  "seg": 31,
+  "start": 220.34,
+  "end": 226.424,
+  "speaker": "Unknown",
+  "en": "Doing prompt engineering, structuring your output using JSON all over the place.",
+  "zh": "进行提示词工程，使用 JSON 构建你的输出到处都是。"
+ },
+ {
+  "seg": 32,
+  "start": 227.585,
+  "end": 231.449,
+  "speaker": "Unknown",
+  "en": "Tool design, model context protocol integration.",
+  "zh": "工具设计，模型上下文协议集成。"
+ },
+ {
+  "seg": 33,
+  "start": 231.849,
+  "end": 235.653,
+  "speaker": "Unknown",
+  "en": "These are topics that you should understand and know whether you're going to take the exam or not.",
+  "zh": "这些是你应该理解和知道的主题，无论你是否要去参加考试。"
+ },
+ {
+  "seg": 34,
+  "start": 236.093,
+  "end": 242.359,
+  "speaker": "Unknown",
+  "en": "This is going to help you get ready for whatever the agentic world is going to throw at you.",
+  "zh": "这将帮助你为智能体世界会抛给你的任何东西做好准备。"
+ },
+ {
+  "seg": 35,
+  "start": 242.78,
+  "end": 246.443,
+  "speaker": "Unknown",
+  "en": "And then there's going to be context management and reliability.",
+  "zh": "然后会有上下文管理和可靠性。"
+ },
+ {
+  "seg": 36,
+  "start": 246.583,
+  "end": 251.328,
+  "speaker": "Unknown",
+  "en": "So these are the areas of the kind of questions you're going to run into.",
+  "zh": "所以这些是你会遇到的问题的领域。"
+ },
+ {
+  "seg": 37,
+  "start": 253.27,
+  "end": 268.848,
+  "speaker": "Unknown",
+  "en": "Then there are, and they provide you with six production scenarios, and the exam will randomly choose four, and all the questions will be centered around the four that they choose.",
+  "zh": "然后，他们给你提供六个生产场景，考试会随机选择四个，所有的问题都会围绕他们选择的这四个展开。"
+ },
+ {
+  "seg": 38,
+  "start": 269.869,
+  "end": 271.531,
+  "speaker": "Unknown",
+  "en": "And what I'm gonna do is walk you through",
+  "zh": "而我将要做的是带你"
+ },
+ {
+  "seg": 39,
+  "start": 274.425,
+  "end": 287.03,
+  "speaker": "Unknown",
+  "en": "The production scenarios and give you some anti-patterns to be aware of because there's a number of ways you can solve the problem but one of the big things is what not to do and that often can be the key to getting these questions right.",
+  "zh": "浏览这些生产场景，并给你一些需要注意的反模式，因为有很多方法可以解决问题，但其中一件大事是不该做什么，这通常是答对这些问题的关键。"
+ },
+ {
+  "seg": 40,
+  "start": 287.65,
+  "end": 290.631,
+  "speaker": "Unknown",
+  "en": "So number one, customer support resolution agent.",
+  "zh": "所以第一，客户支持解决智能体。"
+ },
+ {
+  "seg": 41,
+  "start": 290.751,
+  "end": 292.352,
+  "speaker": "Unknown",
+  "en": "So we have agentic loops.",
+  "zh": "所以我们有智能体循环。"
+ },
+ {
+  "seg": 42,
+  "start": 293.012,
+  "end": 305.02,
+  "speaker": "Unknown",
+  "en": "Control, something called stop reason which is what Claude Code has every time something happens, there's a stop reason and you need to take a look at that because that can give you a lot of information about what's going on.",
+  "zh": "控制，一种叫做停止原因的东西，这是 Claude Code 每次发生事情时都有的，都有一个停止原因，你需要看一下，因为它能给你很多关于正在发生的事情的信息。"
+ },
+ {
+  "seg": 43,
+  "start": 305.921,
+  "end": 307.482,
+  "speaker": "Unknown",
+  "en": "Scenario two, code generation.",
+  "zh": "场景二，代码生成。"
+ },
+ {
+  "seg": 44,
+  "start": 308.322,
+  "end": 312.405,
+  "speaker": "Unknown",
+  "en": "Three, multi-agent research system, which we'll look at.",
+  "zh": "三，多智能体研究系统，我们稍后会看。"
+ },
+ {
+  "seg": 45,
+  "start": 313.006,
+  "end": 315.648,
+  "speaker": "Unknown",
+  "en": "How do you distribute your agents?",
+  "zh": "你如何分配你的智能体？"
+ },
+ {
+  "seg": 46,
+  "start": 316.088,
+  "end": 320.352,
+  "speaker": "Unknown",
+  "en": "Hub and spoke, who's the orchestrator, how much information should they know?",
+  "zh": "中心辐射型，谁是编排者，他们应该知道多少信息？"
+ },
+ {
+  "seg": 47,
+  "start": 320.752,
+  "end": 322.513,
+  "speaker": "Unknown",
+  "en": "All these are important factors.",
+  "zh": "所有这些都是重要因素。"
+ },
+ {
+  "seg": 48,
+  "start": 323.994,
+  "end": 325.415,
+  "speaker": "Unknown",
+  "en": "Scenario four, developer...",
+  "zh": "场景四，开发者..."
+ },
+ {
+  "seg": 49,
+  "start": 326.389,
+  "end": 327.51,
+  "speaker": "Unknown",
+  "en": "Productivity with code.",
+  "zh": "代码生产力。"
+ },
+ {
+  "seg": 50,
+  "start": 327.75,
+  "end": 330.171,
+  "speaker": "Unknown",
+  "en": "So how do you do subtask isolation?",
+  "zh": "那么你如何做子任务隔离？"
+ },
+ {
+  "seg": 51,
+  "start": 330.311,
+  "end": 333.072,
+  "speaker": "Unknown",
+  "en": "Keep your tasks in their little universes.",
+  "zh": "把你的任务留在它们的小宇宙里。"
+ },
+ {
+  "seg": 52,
+  "start": 333.112,
+  "end": 338.415,
+  "speaker": "Unknown",
+  "en": "And this harkens back to what we learn in computer science from doing multi-threaded programming.",
+  "zh": "这让人回想起我们在计算机科学中学到的关于多线程编程的知识。"
+ },
+ {
+  "seg": 53,
+  "start": 339.055,
+  "end": 345.058,
+  "speaker": "Unknown",
+  "en": "When you have multiple threads operating and sharing memory, then you get into issues with synchronization.",
+  "zh": "当你有多个线程在运行并共享内存时，你就会遇到同步问题。"
+ },
+ {
+  "seg": 54,
+  "start": 345.358,
+  "end": 346.398,
+  "speaker": "Unknown",
+  "en": "You got to put locks in.",
+  "zh": "你得加上锁。"
+ },
+ {
+  "seg": 55,
+  "start": 347.339,
+  "end": 349.42,
+  "speaker": "Unknown",
+  "en": "Keep the little threads independent.",
+  "zh": "保持这些小线程的独立性。"
+ },
+ {
+  "seg": 56,
+  "start": 350.24,
+  "end": 351.981,
+  "speaker": "Unknown",
+  "en": "Keep your agents independent.",
+  "zh": "保持你的智能体的独立性。"
+ },
+ {
+  "seg": 57,
+  "start": 354.598,
+  "end": 357.379,
+  "speaker": "Unknown",
+  "en": "And then some Claude Code for continuous integration.",
+  "zh": "然后是一些用于持续集成的 Claude Code。"
+ },
+ {
+  "seg": 58,
+  "start": 358.079,
+  "end": 362.941,
+  "speaker": "Unknown",
+  "en": "And then we'll look at some patterns for structured data extraction.",
+  "zh": "然后我们将看一些用于结构化数据提取的模式。"
+ },
+ {
+  "seg": 59,
+  "start": 363.421,
+  "end": 365.222,
+  "speaker": "Unknown",
+  "en": "Okay, that's kind of where we're gonna go.",
+  "zh": "好的，这就是我们要去的地方。"
+ },
+ {
+  "seg": 60,
+  "start": 366.862,
+  "end": 369.663,
+  "speaker": "Unknown",
+  "en": "Now here's something that I'd like to point out.",
+  "zh": "现在这里有一点我想指出来。"
+ },
+ {
+  "seg": 61,
+  "start": 370.364,
+  "end": 372.344,
+  "speaker": "Unknown",
+  "en": "Everybody's talking about loops, right?",
+  "zh": "每个人都在谈论循环，对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 372.445,
+  "end": 373.885,
+  "speaker": "Unknown",
+  "en": "The loop is the new thing.",
+  "zh": "循环是新鲜事。"
+ },
+ {
+  "seg": 63,
+  "start": 377.143,
+  "end": 381.344,
+  "speaker": "Unknown",
+  "en": "Boris Cherny says he doesn't write code, but his job is to write loops.",
+  "zh": "Boris Cherny 说他不写代码，但他的工作是写循环。"
+ },
+ {
+  "seg": 64,
+  "start": 382.324,
+  "end": 388.325,
+  "speaker": "Unknown",
+  "en": "And Peter Steinberger, master of OpenClaw, says, I don't code anymore.",
+  "zh": "Peter Steinberger，OpenClaw 的大师，说，我不再写代码了。"
+ },
+ {
+  "seg": 65,
+  "start": 388.785,
+  "end": 391.586,
+  "speaker": "Unknown",
+  "en": "I just design loops that prompt your agents.",
+  "zh": "我只是设计循环来提示你的智能体。"
+ },
+ {
+  "seg": 66,
+  "start": 392.306,
+  "end": 394.647,
+  "speaker": "Unknown",
+  "en": "So loops are the new big thing, right?",
+  "zh": "所以循环是新的热门事物，对吧？"
+ },
+ {
+  "seg": 67,
+  "start": 394.867,
+  "end": 397.787,
+  "speaker": "Unknown",
+  "en": "Well, no, they're not, okay?",
+  "zh": "嗯，不，它们不是，好吗？"
+ },
+ {
+  "seg": 68,
+  "start": 398.568,
+  "end": 399.528,
+  "speaker": "Unknown",
+  "en": "Back in the day,",
+  "zh": "回溯过去，"
+ },
+ {
+  "seg": 69,
+  "start": 401.289,
+  "end": 405.312,
+  "speaker": "Unknown",
+  "en": "Early days of computing, we had programming languages were exploding.",
+  "zh": "在计算的早期，编程语言层出不穷。"
+ },
+ {
+  "seg": 70,
+  "start": 405.552,
+  "end": 410.256,
+  "speaker": "Unknown",
+  "en": "We had Fortran, we had COBOL, and there were big fights.",
+  "zh": "我们有 Fortran，我们有 COBOL，而且有过激烈的争论。"
+ },
+ {
+  "seg": 71,
+  "start": 410.597,
+  "end": 413.259,
+  "speaker": "Unknown",
+  "en": "My programming language is better than yours.",
+  "zh": "我的编程语言比你的好。"
+ },
+ {
+  "seg": 72,
+  "start": 413.799,
+  "end": 414.48,
+  "speaker": "Unknown",
+  "en": "It can do more.",
+  "zh": "它能做得更多。"
+ },
+ {
+  "seg": 73,
+  "start": 414.56,
+  "end": 415.2,
+  "speaker": "Unknown",
+  "en": "No, it can't.",
+  "zh": "不，它不能。"
+ },
+ {
+  "seg": 74,
+  "start": 415.261,
+  "end": 415.921,
+  "speaker": "Unknown",
+  "en": "We can do this.",
+  "zh": "我们能做到这个。"
+ },
+ {
+  "seg": 75,
+  "start": 416.622,
+  "end": 417.763,
+  "speaker": "Unknown",
+  "en": "Beam and Giacoppini, 1966.",
+  "zh": "Beam 和 Giacoppini，1966 年。"
+ },
+ {
+  "seg": 76,
+  "start": 419.634,
+  "end": 432.441,
+  "speaker": "Unknown",
+  "en": "Proved that if you want a language to be Turing complete, which means can compute anything that computers are possibly able to compute, then you need only three things.",
+  "zh": "证明了如果你想要一种语言是图灵完备的，这意味着可以计算出计算机可能能够计算的任何东西，那么你只需要三样东西。"
+ },
+ {
+  "seg": 77,
+  "start": 433.322,
+  "end": 443.548,
+  "speaker": "Unknown",
+  "en": "The ability to write statements sequentially, to have if-then conditionals, and the third piece is the loop.",
+  "zh": "顺序编写语句的能力，拥有 if-then 条件判断，以及第三部分是循环。"
+ },
+ {
+  "seg": 78,
+  "start": 444.588,
+  "end": 445.569,
+  "speaker": "Unknown",
+  "en": "If you add the loop,",
+  "zh": "如果你加上循环，"
+ },
+ {
+  "seg": 79,
+  "start": 446.516,
+  "end": 448.597,
+  "speaker": "Unknown",
+  "en": "You have Turing computability.",
+  "zh": "你就拥有了图灵可计算性。"
+ },
+ {
+  "seg": 80,
+  "start": 448.977,
+  "end": 462.022,
+  "speaker": "Unknown",
+  "en": "And now we are seeing this being resurrected in the agentic world with the focus on loops, because up to now we've had sort of sequences, you have prompts, you have maybe if-then, but now we have a loop.",
+  "zh": "现在我们看到这一点在智能体世界中复苏，焦点在循环上，因为到现在为止我们大概有了序列，你有提示词，你可能有 if-then，但现在我们有了循环。"
+ },
+ {
+  "seg": 81,
+  "start": 462.442,
+  "end": 464.363,
+  "speaker": "Unknown",
+  "en": "And now this is what's giving us the power.",
+  "zh": "现在这正是给了我们力量的东西。"
+ },
+ {
+  "seg": 82,
+  "start": 464.443,
+  "end": 467.764,
+  "speaker": "Unknown",
+  "en": "This is where the agentic stuff is getting very exciting.",
+  "zh": "这就是智能体相关的东西变得非常令人兴奋的地方。"
+ },
+ {
+  "seg": 83,
+  "start": 468.965,
+  "end": 469.165,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 84,
+  "start": 470.985,
+  "end": 475.047,
+  "speaker": "Unknown",
+  "en": "Start with scenario one, customer support resolution.",
+  "zh": "从场景一开始，客户支持解决。"
+ },
+ {
+  "seg": 85,
+  "start": 476.239,
+  "end": 483.984,
+  "speaker": "Unknown",
+  "en": "So here we have a loop operating and I'm gonna jump to the anti-pattern.",
+  "zh": "所以这里有一个循环在运行，我要跳到反模式。"
+ },
+ {
+  "seg": 86,
+  "start": 484.304,
+  "end": 492.328,
+  "speaker": "Unknown",
+  "en": "What you don't want is just to let the agent go and do something and get the response back and use it, okay?",
+  "zh": "你不想要的是仅仅让智能体去执行某事并得到回应并使用它，好吗？"
+ },
+ {
+  "seg": 87,
+  "start": 492.649,
+  "end": 496.631,
+  "speaker": "Unknown",
+  "en": "What you wanna do is you want to loop with something called the stop reason.",
+  "zh": "你想要做的是使用叫做停止原因的东西来循环。"
+ },
+ {
+  "seg": 88,
+  "start": 496.691,
+  "end": 497.912,
+  "speaker": "Unknown",
+  "en": "So I'm gonna show you a little code here.",
+  "zh": "所以我要在这里展示一点代码。"
+ },
+ {
+  "seg": 89,
+  "start": 499.645,
+  "end": 502.507,
+  "speaker": "Unknown",
+  "en": "So here we have wild loop, it's a wild true, it's a loop.",
+  "zh": "所以这里有一个 while 循环，它是一个 while true，它是一个循环。"
+ },
+ {
+  "seg": 90,
+  "start": 503.108,
+  "end": 504.589,
+  "speaker": "Unknown",
+  "en": "We're looping right here, okay?",
+  "zh": "我们就在这里循环，好吗？"
+ },
+ {
+  "seg": 91,
+  "start": 504.989,
+  "end": 509.753,
+  "speaker": "Unknown",
+  "en": "So the first little block is where we call the model, okay?",
+  "zh": "所以第一个小块是我们调用模型的地方，好吗？"
+ },
+ {
+  "seg": 92,
+  "start": 510.074,
+  "end": 518.42,
+  "speaker": "Unknown",
+  "en": "And we pass it the messages, the messages are essentially the sequence of prompts that exist in the context window, okay?",
+  "zh": "并且我们传递消息，这些消息本质上是存在于上下文窗口中的提示词序列，好吗？"
+ },
+ {
+  "seg": 93,
+  "start": 519.021,
+  "end": 527.327,
+  "speaker": "Unknown",
+  "en": "And we are asking the, and we have a prompt, and we have the context, and we have a tool.",
+  "zh": "并且我们在询问，我们有一个提示词，我们有一个上下文，我们有一个工具。"
+ },
+ {
+  "seg": 94,
+  "start": 528.048,
+  "end": 533.293,
+  "speaker": "Unknown",
+  "en": "And we're asking the LLM to do something with this tool and help us out.",
+  "zh": "并且我们在要求 LLM 用这个工具做些什么来帮助我们。"
+ },
+ {
+  "seg": 95,
+  "start": 533.573,
+  "end": 536.636,
+  "speaker": "Unknown",
+  "en": "The problem is the LLM can't do anything.",
+  "zh": "问题是 LLM 做不了任何事。"
+ },
+ {
+  "seg": 96,
+  "start": 537.196,
+  "end": 541.18,
+  "speaker": "Unknown",
+  "en": "It is just a probabilistic next word predictor.",
+  "zh": "它只是一个概率性的下一个词预测器。"
+ },
+ {
+  "seg": 97,
+  "start": 541.92,
+  "end": 543.222,
+  "speaker": "Unknown",
+  "en": "It can't execute tools.",
+  "zh": "它不能执行工具。"
+ },
+ {
+  "seg": 98,
+  "start": 543.522,
+  "end": 546.705,
+  "speaker": "Unknown",
+  "en": "So what it does though is it can figure out",
+  "zh": "所以它所做的是它可以弄清楚"
+ },
+ {
+  "seg": 99,
+  "start": 548.401,
+  "end": 556.529,
+  "speaker": "Unknown",
+  "en": "If you point it to a tool, it can figure out how to set things up so that you or your code can execute it.",
+  "zh": "如果你给它指向一个工具，它可以弄清楚如何设置东西，以便你或你的代码可以执行它。"
+ },
+ {
+  "seg": 100,
+  "start": 557.109,
+  "end": 560.272,
+  "speaker": "Unknown",
+  "en": "So it's important to understand that the LLM is not executing these tools.",
+  "zh": "所以重要的是要理解，LLM 并没有在执行这些工具。"
+ },
+ {
+  "seg": 101,
+  "start": 560.312,
+  "end": 566.338,
+  "speaker": "Unknown",
+  "en": "It can't do anything except talk back to you very intelligently sometimes, but all it can do is talk back to you.",
+  "zh": "除了有时候能非常智能地回复你之外，它做不了任何事，但它能做的只是回复你。"
+ },
+ {
+  "seg": 102,
+  "start": 568.235,
+  "end": 588.764,
+  "speaker": "Unknown",
+  "en": "When it finishes this task and has a result, which is basically, here is, I know what you want, I know what the tool can do, here's how, it sets up the parameters that can then be, then used to actually execute the tool.",
+  "zh": "当它完成这个任务并有一个结果时，基本上就是，这是，我知道你想要什么，我知道这个工具能做什么，这是方法，它设置了参数，然后可以被，然后用来实际执行该工具。"
+ },
+ {
+  "seg": 103,
+  "start": 588.784,
+  "end": 592.606,
+  "speaker": "Unknown",
+  "en": "So this second block, you see, why did,",
+  "zh": "所以这第二个区块，你看，为什么，"
+ },
+ {
+  "seg": 104,
+  "start": 593.798,
+  "end": 595.079,
+  "speaker": "Unknown",
+  "en": "The LLM come back to us.",
+  "zh": "LLM 回到了我们这里。"
+ },
+ {
+  "seg": 105,
+  "start": 595.66,
+  "end": 596.621,
+  "speaker": "Unknown",
+  "en": "That's our stop reason.",
+  "zh": "那是我们的停止原因。"
+ },
+ {
+  "seg": 106,
+  "start": 597.441,
+  "end": 597.982,
+  "speaker": "Unknown",
+  "en": "Tool use.",
+  "zh": "工具使用。"
+ },
+ {
+  "seg": 107,
+  "start": 598.262,
+  "end": 598.803,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦，好的。"
+ },
+ {
+  "seg": 108,
+  "start": 599.403,
+  "end": 602.947,
+  "speaker": "Unknown",
+  "en": "We've stopped because the LLM wants to use the tool.",
+  "zh": "我们停止是因为 LLM 想要使用该工具。"
+ },
+ {
+  "seg": 109,
+  "start": 603.587,
+  "end": 605.389,
+  "speaker": "Unknown",
+  "en": "So let's just run the tool.",
+  "zh": "所以我们就直接运行该工具。"
+ },
+ {
+  "seg": 110,
+  "start": 605.569,
+  "end": 606.87,
+  "speaker": "Unknown",
+  "en": "So that's what the second block is.",
+  "zh": "所以这就是第二个区块的含义。"
+ },
+ {
+  "seg": 111,
+  "start": 607.411,
+  "end": 608.031,
+  "speaker": "Unknown",
+  "en": "Run tool.",
+  "zh": "运行工具。"
+ },
+ {
+  "seg": 112,
+  "start": 608.392,
+  "end": 616.499,
+  "speaker": "Unknown",
+  "en": "The response is what the LLM said and it's basically the parameters that it has extracted from the data that you provided it.",
+  "zh": "响应是 LLM 所说的内容，基本上就是它从你提供的数据中提取出的参数。"
+ },
+ {
+  "seg": 113,
+  "start": 617.36,
+  "end": 617.58,
+  "speaker": "Unknown",
+  "en": "Okay?",
+  "zh": "好吗？"
+ },
+ {
+  "seg": 114,
+  "start": 617.86,
+  "end": 618.881,
+  "speaker": "Unknown",
+  "en": "Then it executes that.",
+  "zh": "然后它执行那个。"
+ },
+ {
+  "seg": 115,
+  "start": 619.601,
+  "end": 620.242,
+  "speaker": "Unknown",
+  "en": "Then it goes back.",
+  "zh": "然后它返回。"
+ },
+ {
+  "seg": 116,
+  "start": 621.142,
+  "end": 621.903,
+  "speaker": "Unknown",
+  "en": "Then it continues.",
+  "zh": "然后它继续。"
+ },
+ {
+  "seg": 117,
+  "start": 622.363,
+  "end": 627.566,
+  "speaker": "Unknown",
+  "en": "Continues means the LLM sees it and says, oh, successful run, so okay.",
+  "zh": "继续意味着 LLM 看到了它并说，哦，运行成功，所以好的。"
+ },
+ {
+  "seg": 118,
+  "start": 628.707,
+  "end": 629.407,
+  "speaker": "Unknown",
+  "en": "Come back down.",
+  "zh": "回到下面来。"
+ },
+ {
+  "seg": 119,
+  "start": 631.128,
+  "end": 632.329,
+  "speaker": "Unknown",
+  "en": "We're not running a tool anymore.",
+  "zh": "我们不再运行工具了。"
+ },
+ {
+  "seg": 120,
+  "start": 632.649,
+  "end": 633.91,
+  "speaker": "Unknown",
+  "en": "We've ended our loop.",
+  "zh": "我们已经结束了我们的循环。"
+ },
+ {
+  "seg": 121,
+  "start": 634.43,
+  "end": 634.811,
+  "speaker": "Unknown",
+  "en": "Bingo.",
+  "zh": "搞定。"
+ },
+ {
+  "seg": 122,
+  "start": 635.591,
+  "end": 641.975,
+  "speaker": "Unknown",
+  "en": "Now, then we take the answer, and this is an opportunity for you to have a human in the loop, potentially.",
+  "zh": "现在，然后我们获取答案，这是你让人类加入循环的一个机会，潜在的。"
+ },
+ {
+  "seg": 123,
+  "start": 643.377,
+  "end": 644.337,
+  "speaker": "Unknown",
+  "en": "You check the confidence.",
+  "zh": "你检查置信度。"
+ },
+ {
+  "seg": 124,
+  "start": 644.998,
+  "end": 646.458,
+  "speaker": "Unknown",
+  "en": "If it looks good, you keep it.",
+  "zh": "如果看起来不错，你就保留它。"
+ },
+ {
+  "seg": 125,
+  "start": 646.678,
+  "end": 650.219,
+  "speaker": "Unknown",
+  "en": "If you don't, then you escalate to a human.",
+  "zh": "如果你不，那么你升级给人类。"
+ },
+ {
+  "seg": 126,
+  "start": 650.88,
+  "end": 655.241,
+  "speaker": "Unknown",
+  "en": "Now, there's another reason why you need to make sure you check your stop reason.",
+  "zh": "现在，还有另一个原因你需要确保检查你的停止原因。"
+ },
+ {
+  "seg": 127,
+  "start": 655.461,
+  "end": 665.265,
+  "speaker": "Unknown",
+  "en": "One of the stop reasons may be you have run out of tokens, and this response is based on partial when the LLM had to stop.",
+  "zh": "停止原因之一可能是你用完了 tokens，而这个响应是基于 LLM 被迫停止时的部分内容。"
+ },
+ {
+  "seg": 128,
+  "start": 666.538,
+  "end": 671.939,
+  "speaker": "Unknown",
+  "en": "And it's gonna give you a response, but if you have run out of tokens, then you need to take action.",
+  "zh": "它会给你一个响应，但如果你用完了 tokens，那么你需要采取行动。"
+ },
+ {
+  "seg": 129,
+  "start": 672.64,
+  "end": 673.82,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 130,
+  "start": 675.58,
+  "end": 677.461,
+  "speaker": "Unknown",
+  "en": "Next scenario.",
+  "zh": "下一个场景。"
+ },
+ {
+  "seg": 131,
+  "start": 677.661,
+  "end": 678.941,
+  "speaker": "Unknown",
+  "en": "Code generation with Claude.",
+  "zh": "使用 Claude 进行代码生成。"
+ },
+ {
+  "seg": 132,
+  "start": 679.181,
+  "end": 686.943,
+  "speaker": "Unknown",
+  "en": "So Claude Code has this concept of the ClaudeMD file, a markdown file, where you put all the things you wanted to know.",
+  "zh": "所以 Claude Code 有这个 ClaudeMD 文件的概念，一个 markdown 文件，你在那里放所有你想知道的东西。"
+ },
+ {
+  "seg": 133,
+  "start": 687.983,
+  "end": 693.785,
+  "speaker": "Unknown",
+  "en": "What Anthropic recommends is you have three levels of Claude.",
+  "zh": "Anthropic 推荐的是你有三个级别的 Claude。"
+ },
+ {
+  "seg": 134,
+  "start": 694.998,
+  "end": 707.884,
+  "speaker": "Unknown",
+  "en": "One that you have at the top level of your project, the other that you have inside your sort of the project folder, and then within directories you can also specify.",
+  "zh": "一个在项目的顶层，另一个在你的项目文件夹内部，然后你在目录内也可以指定。"
+ },
+ {
+  "seg": 135,
+  "start": 708.204,
+  "end": 717.509,
+  "speaker": "Unknown",
+  "en": "So the idea is to have a hierarchical set of rules that could then control how the system is gonna respond.",
+  "zh": "所以主意是拥有一组分层规则，可以控制系统将如何响应。"
+ },
+ {
+  "seg": 136,
+  "start": 720.819,
+  "end": 724.762,
+  "speaker": "Unknown",
+  "en": "Moving right along, we have a multi-agent research system.",
+  "zh": "继续向右，我们有一个多智能体研究系统。"
+ },
+ {
+  "seg": 137,
+  "start": 725.142,
+  "end": 736.09,
+  "speaker": "Unknown",
+  "en": "So here, we're gonna have, the problem is, how do I get my agents to go off and do stuff and bring the answers back in a reasonable way?",
+  "zh": "所以在这里，我们将会有，问题是，我如何让我的智能体离开去做事情并以合理的方式带回答案？"
+ },
+ {
+  "seg": 138,
+  "start": 736.41,
+  "end": 737.391,
+  "speaker": "Unknown",
+  "en": "The anti-pattern.",
+  "zh": "反模式。"
+ },
+ {
+  "seg": 139,
+  "start": 738.636,
+  "end": 742.337,
+  "speaker": "Unknown",
+  "en": "You have one agent, and you load it up with tools.",
+  "zh": "你有一个智能体，你给它加载了工具。"
+ },
+ {
+  "seg": 140,
+  "start": 742.917,
+  "end": 746.258,
+  "speaker": "Unknown",
+  "en": "So I like to think about you hire somebody to come to your house.",
+  "zh": "所以我愿意这样想，你雇佣某人来你家。"
+ },
+ {
+  "seg": 141,
+  "start": 746.278,
+  "end": 747.959,
+  "speaker": "Unknown",
+  "en": "You hire a carpenter to come to the house.",
+  "zh": "你雇佣一个木匠来家里。"
+ },
+ {
+  "seg": 142,
+  "start": 748.519,
+  "end": 754.341,
+  "speaker": "Unknown",
+  "en": "And the guy shows up with plumbing tools, carpenter tools, electrical tools.",
+  "zh": "那家伙带着水管工工具、木匠工具、电工工具出现了。"
+ },
+ {
+  "seg": 143,
+  "start": 754.361,
+  "end": 755.821,
+  "speaker": "Unknown",
+  "en": "He says, I can do anything.",
+  "zh": "他说，我什么都能做。"
+ },
+ {
+  "seg": 144,
+  "start": 755.841,
+  "end": 757.082,
+  "speaker": "Unknown",
+  "en": "Well, maybe you don't want this guy.",
+  "zh": "嗯，也许你不想要这家伙。"
+ },
+ {
+  "seg": 145,
+  "start": 757.122,
+  "end": 759.483,
+  "speaker": "Unknown",
+  "en": "Maybe you want a professional carpenter.",
+  "zh": "也许你想要一个专业的木匠。"
+ },
+ {
+  "seg": 146,
+  "start": 759.563,
+  "end": 761.223,
+  "speaker": "Unknown",
+  "en": "So that's the kind of idea.",
+  "zh": "所以这就是那种想法。"
+ },
+ {
+  "seg": 147,
+  "start": 761.303,
+  "end": 765.965,
+  "speaker": "Unknown",
+  "en": "And this takes us back to some of the functional programming",
+  "zh": "这带我们回到一些函数式编程"
+ },
+ {
+  "seg": 148,
+  "start": 767.405,
+  "end": 769.607,
+  "speaker": "Unknown",
+  "en": "The other part of this is don't let your agents",
+  "zh": "这另一部分是不要让你的智能体"
+ },
+ {
+  "seg": 149,
+  "start": 791.829,
+  "end": 807.28,
+  "speaker": "Unknown",
+  "en": "Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer.",
+  "zh": "上下文溢出到主上下文，因为上下文意味着 tokens，tokens 意味着钱，而且你有越多的上下文，LLM 在给你答案时就会越困惑。"
+ },
+ {
+  "seg": 150,
+  "start": 807.44,
+  "end": 812.324,
+  "speaker": "Unknown",
+  "en": "So even though, oh, a million token context window, I can put everything in there.",
+  "zh": "所以即便,哦,一百万 token 的上下文窗口,我可以把所有东西都放进去。"
+ },
+ {
+  "seg": 151,
+  "start": 812.424,
+  "end": 814.005,
+  "speaker": "Unknown",
+  "en": "No, no, don't put everything in there.",
+  "zh": "不,不,别把所有东西都放进去。"
+ },
+ {
+  "seg": 152,
+  "start": 814.805,
+  "end": 819.649,
+  "speaker": "Unknown",
+  "en": "Limit what's gonna go in there because then you're gonna get a much more accurate system.",
+  "zh": "限制要放进去的东西,因为那样你会得到一个准确得多的系统。"
+ },
+ {
+  "seg": 153,
+  "start": 822.025,
+  "end": 827.509,
+  "speaker": "Unknown",
+  "en": "So here's an example of a specialized subagents.",
+  "zh": "这是一个专门的子智能体的例子。"
+ },
+ {
+  "seg": 154,
+  "start": 828.25,
+  "end": 832.013,
+  "speaker": "Unknown",
+  "en": "You're giving it, so this would be the critic.",
+  "zh": "你给它,所以这将是评论者。"
+ },
+ {
+  "seg": 155,
+  "start": 832.213,
+  "end": 837.657,
+  "speaker": "Unknown",
+  "en": "So let's say you've run some stuff, now you want to get an agent to look at what's happened.",
+  "zh": "假设你运行了一些东西,现在你想让一个智能体看看发生了什么。"
+ },
+ {
+  "seg": 156,
+  "start": 838.017,
+  "end": 843.721,
+  "speaker": "Unknown",
+  "en": "What you want to do is just give it what it needs to solve that critic problem.",
+  "zh": "你需要做的是只给它解决那个评论者问题所需的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 843.861,
+  "end": 847.884,
+  "speaker": "Unknown",
+  "en": "I'm only giving it here the, we're passing it,",
+  "zh": "我在这里只给它,我们正在传递,"
+ },
+ {
+  "seg": 158,
+  "start": 848.845,
+  "end": 850.506,
+  "speaker": "Unknown",
+  "en": "The claim and the evidence.",
+  "zh": "主张和证据。"
+ },
+ {
+  "seg": 159,
+  "start": 850.827,
+  "end": 853.929,
+  "speaker": "Unknown",
+  "en": "So your claim is sort of how we're going to solve the problem.",
+  "zh": "所以你的主张是我们如何解决问题。"
+ },
+ {
+  "seg": 160,
+  "start": 854.169,
+  "end": 855.31,
+  "speaker": "Unknown",
+  "en": "Here's the evidence.",
+  "zh": "这是证据。"
+ },
+ {
+  "seg": 161,
+  "start": 855.67,
+  "end": 864.076,
+  "speaker": "Unknown",
+  "en": "But you're not giving it the thought processes that went into creating this claim.",
+  "zh": "但你没有给它创建这个主张时的思维过程。"
+ },
+ {
+  "seg": 162,
+  "start": 864.596,
+  "end": 864.897,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么?"
+ },
+ {
+  "seg": 163,
+  "start": 865.957,
+  "end": 874.724,
+  "speaker": "Unknown",
+  "en": "When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think.",
+  "zh": "当你把一群智能体聚集在一起协作并互相交谈时,会有一种群体思维的趋势。"
+ },
+ {
+  "seg": 164,
+  "start": 876.028,
+  "end": 881.455,
+  "speaker": "Unknown",
+  "en": "And all the agents seem to kind of devolve into one idea.",
+  "zh": "所有的智能体似乎都退化为一个想法。"
+ },
+ {
+  "seg": 165,
+  "start": 881.835,
+  "end": 887.722,
+  "speaker": "Unknown",
+  "en": "I mean, it's like, you know, you're in a group, you know, you're at a party, and everybody wants pizza except you.",
+  "zh": "我的意思是,就像,你知道,你在一个群体里,你知道,你在派对上,除了你每个人都想要披萨。"
+ },
+ {
+  "seg": 166,
+  "start": 887.963,
+  "end": 892.048,
+  "speaker": "Unknown",
+  "en": "But then people talk you into, you know, you don't want to be...",
+  "zh": "然后人们说服你,你知道,你不想..."
+ },
+ {
+  "seg": 167,
+  "start": 893.326,
+  "end": 895.087,
+  "speaker": "Unknown",
+  "en": "You don't want to spoil the party, so you go along.",
+  "zh": "你不想扫兴,所以你就顺从了。"
+ },
+ {
+  "seg": 168,
+  "start": 895.208,
+  "end": 897.329,
+  "speaker": "Unknown",
+  "en": "And it seems that agents kind of work in the same way.",
+  "zh": "智能体似乎也是以这种方式工作的。"
+ },
+ {
+  "seg": 169,
+  "start": 898.13,
+  "end": 904.595,
+  "speaker": "Unknown",
+  "en": "So you're going to return, basically you're going to give each agent only a slice.",
+  "zh": "所以你会返回,基本上你会给每个智能体只一部分。"
+ },
+ {
+  "seg": 170,
+  "start": 904.696,
+  "end": 911.802,
+  "speaker": "Unknown",
+  "en": "I didn't think about the pizza analogy, but yes, every agent gets its own slice and it should come through.",
+  "zh": "我没想过那个披萨的类比,但是是的,每个智能体得到它自己的部分,它应该能通过。"
+ },
+ {
+  "seg": 171,
+  "start": 912.923,
+  "end": 913.223,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 172,
+  "start": 917.246,
+  "end": 918.007,
+  "speaker": "Unknown",
+  "en": "Fourth scenario.",
+  "zh": "第四个场景。"
+ },
+ {
+  "seg": 173,
+  "start": 919.202,
+  "end": 921.11,
+  "speaker": "Unknown",
+  "en": "Developer productivity.",
+  "zh": "开发者生产力。"
+ },
+ {
+  "seg": 174,
+  "start": 921.733,
+  "end": 923.079,
+  "speaker": "Unknown",
+  "en": "So the anti-pattern",
+  "zh": "所以这个反模式"
+ },
+ {
+  "seg": 175,
+  "start": 925.189,
+  "end": 930.513,
+  "speaker": "Unknown",
+  "en": "Let every subtask dump its full output into the primary thread, crowding out the context.",
+  "zh": "让每个子任务把它的完整输出都倾倒到主线程中,挤占上下文。"
+ },
+ {
+  "seg": 176,
+  "start": 930.573,
+  "end": 932.735,
+  "speaker": "Unknown",
+  "en": "Again, this is what I was just talking about.",
+  "zh": "同样,这就是我刚才在讲的。"
+ },
+ {
+  "seg": 177,
+  "start": 933.435,
+  "end": 934.136,
+  "speaker": "Unknown",
+  "en": "This is bad.",
+  "zh": "这很糟糕。"
+ },
+ {
+  "seg": 178,
+  "start": 934.757,
+  "end": 936.978,
+  "speaker": "Unknown",
+  "en": "Let the context grow unbounded.",
+  "zh": "让上下文无限制地增长。"
+ },
+ {
+  "seg": 179,
+  "start": 937.699,
+  "end": 940.261,
+  "speaker": "Unknown",
+  "en": "Bad, right, for the reasons we just talked about.",
+  "zh": "很糟糕,对吧,出于我们刚才谈论的那些原因。"
+ },
+ {
+  "seg": 180,
+  "start": 940.841,
+  "end": 947.186,
+  "speaker": "Unknown",
+  "en": "You want to isolate your subtask output and you want to compact long sessions.",
+  "zh": "你想要隔离你的子任务输出并且你想要压缩长会话。"
+ },
+ {
+  "seg": 181,
+  "start": 947.466,
+  "end": 949.588,
+  "speaker": "Unknown",
+  "en": "I'm going to take a second to talk about that.",
+  "zh": "我要花一点时间来讲讲这个。"
+ },
+ {
+  "seg": 182,
+  "start": 950.069,
+  "end": 954.112,
+  "speaker": "Unknown",
+  "en": "So here's an example of a pattern.",
+  "zh": "所以这是一个模式的例子。"
+ },
+ {
+  "seg": 183,
+  "start": 955.958,
+  "end": 958.091,
+  "speaker": "Unknown",
+  "en": "You want to have your agent",
+  "zh": "你想要让你的智能体"
+ },
+ {
+  "seg": 184,
+  "start": 960.264,
+  "end": 966.968,
+  "speaker": "Unknown",
+  "en": "Look at the logs and create a summary of where the problems are in the log.",
+  "zh": "查看日志并创建一个关于日志中问题所在的摘要。"
+ },
+ {
+  "seg": 185,
+  "start": 967.008,
+  "end": 967.788,
+  "speaker": "Unknown",
+  "en": "Here's your task.",
+  "zh": "这是你的任务。"
+ },
+ {
+  "seg": 186,
+  "start": 967.989,
+  "end": 969.71,
+  "speaker": "Unknown",
+  "en": "Scan all the logs for error.",
+  "zh": "扫描所有日志寻找错误。"
+ },
+ {
+  "seg": 187,
+  "start": 970.51,
+  "end": 972.492,
+  "speaker": "Unknown",
+  "en": "Context fork.",
+  "zh": "上下文分叉。"
+ },
+ {
+  "seg": 188,
+  "start": 972.532,
+  "end": 986.861,
+  "speaker": "Unknown",
+  "en": "You're forking the agent into a separate thread where whatever the agent does and thinks and adds tokens to does not come back and pollute the main context.",
+  "zh": "你将智能体分叉到一个单独的线程,在这个线程中,无论智能体做什么、想什么以及添加什么 token 都不会返回并污染主上下文。"
+ },
+ {
+  "seg": 189,
+  "start": 990.215,
+  "end": 991.176,
+  "speaker": "Unknown",
+  "en": "You see here what happens.",
+  "zh": "你在这里看到了发生了什么。"
+ },
+ {
+  "seg": 190,
+  "start": 991.396,
+  "end": 1000.445,
+  "speaker": "Unknown",
+  "en": "Then you take this summation and then you add that summation without all the other stuff into the overriding context.",
+  "zh": "然后你获取这个摘要,然后将这个摘要连同没有所有其他东西一起添加到覆盖上下文中。"
+ },
+ {
+  "seg": 191,
+  "start": 1001.085,
+  "end": 1012.916,
+  "speaker": "Unknown",
+  "en": "Now, this last little block is kind of interesting, I think, because you can check your token count and you can determine how big the token count is.",
+  "zh": "现在,这最后一个小块我认为有点意思,因为你可以检查你的 token 计数并且你可以确定 token 计数有多大。"
+ },
+ {
+  "seg": 192,
+  "start": 1015.25,
+  "end": 1022.954,
+  "speaker": "Unknown",
+  "en": "If you can set some limit, if you have more than 150,000 tokens, then what you want to do is you can run a compact.",
+  "zh": "如果你可以设置一些限制,如果你有超过 150,000 个 token,那么你想要做的是你可以运行一次压缩。"
+ },
+ {
+  "seg": 193,
+  "start": 1023.374,
+  "end": 1032.499,
+  "speaker": "Unknown",
+  "en": "So Anthropic and Claude have these compaction algorithms that take this giant context and compact it in some way, shape, or form.",
+  "zh": "所以 Anthropic 和 Claude 有这些压缩算法,可以获取这个巨大的上下文并以某种形式、某种方式或某种形状对其进行压缩。"
+ },
+ {
+  "seg": 194,
+  "start": 1032.899,
+  "end": 1037.762,
+  "speaker": "Unknown",
+  "en": "Not quite sure how the implementation is of that, but there is compaction.",
+  "zh": "不太确定那个的实现是怎样的,但是存在压缩。"
+ },
+ {
+  "seg": 195,
+  "start": 1038.022,
+  "end": 1040.844,
+  "speaker": "Unknown",
+  "en": "Now, a little side effect, a little side channel.",
+  "zh": "现在,一点小副作用,一个小旁道。"
+ },
+ {
+  "seg": 196,
+  "start": 1041.544,
+  "end": 1042.385,
+  "speaker": "Unknown",
+  "en": "I've been walking around.",
+  "zh": "我一直在四处走动。"
+ },
+ {
+  "seg": 197,
+  "start": 1042.685,
+  "end": 1047.189,
+  "speaker": "Unknown",
+  "en": "When you walk outside, you see these guys handing out these books, okay?",
+  "zh": "当你走到外面时,你会看到这些人在分发这些书,好吗?"
+ },
+ {
+  "seg": 198,
+  "start": 1047.63,
+  "end": 1049.491,
+  "speaker": "Unknown",
+  "en": "Anybody see these guys handing out these books?",
+  "zh": "有人看到这些人在分发这些书吗?"
+ },
+ {
+  "seg": 199,
+  "start": 1049.572,
+  "end": 1050.653,
+  "speaker": "Unknown",
+  "en": "Take them.",
+  "zh": "拿着它们。"
+ },
+ {
+  "seg": 200,
+  "start": 1050.793,
+  "end": 1052.254,
+  "speaker": "Unknown",
+  "en": "This is actually a pretty good little book.",
+  "zh": "这其实是一本非常好的小书。"
+ },
+ {
+  "seg": 201,
+  "start": 1052.294,
+  "end": 1060.742,
+  "speaker": "Unknown",
+  "en": "In fact, I was looking at it last night, and one of the things it had in it was, this is by this guy, Sam Bagua.",
+  "zh": "事实上，我昨晚就在看它，其中提到的一点是，这是由这家伙 Sam Bagua 写的。"
+ },
+ {
+  "seg": 202,
+  "start": 1060.762,
+  "end": 1061.563,
+  "speaker": "Unknown",
+  "en": "I have no connection.",
+  "zh": "我没有任何关联。"
+ },
+ {
+  "seg": 203,
+  "start": 1061.603,
+  "end": 1062.423,
+  "speaker": "Unknown",
+  "en": "I don't even know Sam.",
+  "zh": "我甚至都不认识 Sam。"
+ },
+ {
+  "seg": 204,
+  "start": 1062.864,
+  "end": 1064.986,
+  "speaker": "Unknown",
+  "en": "But there's a, on line page 32,",
+  "zh": "但是在第 32 页上有一行，"
+ },
+ {
+  "seg": 205,
+  "start": 1066.412,
+  "end": 1073.518,
+  "speaker": "Unknown",
+  "en": "It says his company provides custom logic for compression of context.",
+  "zh": "它说他的公司为上下文压缩提供自定义逻辑。"
+ },
+ {
+  "seg": 206,
+  "start": 1073.939,
+  "end": 1075.66,
+  "speaker": "Unknown",
+  "en": "And you can write your own.",
+  "zh": "而且你可以自己写。"
+ },
+ {
+  "seg": 207,
+  "start": 1076.921,
+  "end": 1082.866,
+  "speaker": "Unknown",
+  "en": "You can extend this base class and have your own compression of your data, whatever you think is important.",
+  "zh": "你可以扩展这个基类并拥有你自己的数据压缩，无论你认为什么重要。"
+ },
+ {
+  "seg": 208,
+  "start": 1082.886,
+  "end": 1086.65,
+  "speaker": "Unknown",
+  "en": "So I think that's kind of an interesting spin on this whole thing.",
+  "zh": "所以我认为这整个事情有点意思。"
+ },
+ {
+  "seg": 209,
+  "start": 1087.851,
+  "end": 1088.111,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 210,
+  "start": 1090.013,
+  "end": 1093.476,
+  "speaker": "Unknown",
+  "en": "Claude Code for continuous integration.",
+  "zh": "Claude Code 用于持续集成。"
+ },
+ {
+  "seg": 211,
+  "start": 1096.618,
+  "end": 1097.339,
+  "speaker": "Unknown",
+  "en": "Anti-pattern.",
+  "zh": "反模式。"
+ },
+ {
+  "seg": 212,
+  "start": 1098.319,
+  "end": 1100.5,
+  "speaker": "Unknown",
+  "en": "Always have interactive modes in a pipeline.",
+  "zh": "在流水线中始终要有交互模式。"
+ },
+ {
+  "seg": 213,
+  "start": 1100.901,
+  "end": 1109.545,
+  "speaker": "Unknown",
+  "en": "No, no, no, because interactive modes mean Claude will stop and ask you, you want to do this, you want to do that, can I have permission for that?",
+  "zh": "不，不，不，因为交互模式意味着 Claude 会停下来问你，你想做这个，你想做那个，我可以得到许可吗？"
+ },
+ {
+  "seg": 214,
+  "start": 1109.745,
+  "end": 1114.227,
+  "speaker": "Unknown",
+  "en": "So there are ways to set it up so that it'll just run straight through, okay?",
+  "zh": "所以有一些方法可以设置它，让它直接运行到底，好吗？"
+ },
+ {
+  "seg": 215,
+  "start": 1115.448,
+  "end": 1123.932,
+  "speaker": "Unknown",
+  "en": "The other tip that I'll give you here is there's something called the...",
+  "zh": "我在这里给你的另一个提示是有一个叫做……"
+ },
+ {
+  "seg": 216,
+  "start": 1125.598,
+  "end": 1126.098,
+  "speaker": "Unknown",
+  "en": "The batch.",
+  "zh": "批处理的东西。"
+ },
+ {
+  "seg": 217,
+  "start": 1126.538,
+  "end": 1140.465,
+  "speaker": "Unknown",
+  "en": "So you can take your prompts, you can take your work, and you can put them in a batch, and for 50% fewer token cost, you will get the result they promise in at least 24 hours.",
+  "zh": "所以你可以拿你的提示词，你可以拿你的工作，你可以把它们放在一个批处理中，以 50% 更低的 token 成本，你将得到他们承诺的在 24 小时内的结果。"
+ },
+ {
+  "seg": 218,
+  "start": 1140.725,
+  "end": 1150.049,
+  "speaker": "Unknown",
+  "en": "So if you're gonna go take a nap, you're gonna go on vacation, you're gonna go out, take a day off, run your stuff in batch mode, and you're gonna have less to pay.",
+  "zh": "所以如果你要去睡个午觉，你要去度假，你要出去，休一天假，以批处理模式运行你的东西，你会付得更少。"
+ },
+ {
+  "seg": 219,
+  "start": 1153.93,
+  "end": 1154.531,
+  "speaker": "Unknown",
+  "en": "Where am I here?",
+  "zh": "我讲到哪儿了？"
+ },
+ {
+  "seg": 220,
+  "start": 1155.84,
+  "end": 1161.683,
+  "speaker": "Unknown",
+  "en": "All right, I've only got a few minutes left, a few seconds left, but I want to conclude with this.",
+  "zh": "好的，我只剩下几分钟了，剩下几秒钟了，但我想以此总结。"
+ },
+ {
+  "seg": 221,
+  "start": 1162.583,
+  "end": 1164.544,
+  "speaker": "Unknown",
+  "en": "Remember, nothing is a mistake.",
+  "zh": "记住，没有什么是个错误。"
+ },
+ {
+  "seg": 222,
+  "start": 1165.045,
+  "end": 1167.586,
+  "speaker": "Unknown",
+  "en": "There's no win, there's no fail, there's no exam.",
+  "zh": "没有赢，没有输，没有考试。"
+ },
+ {
+  "seg": 223,
+  "start": 1168.546,
+  "end": 1169.067,
+  "speaker": "Unknown",
+  "en": "Only make.",
+  "zh": "只有做。"
+ },
+ {
+  "seg": 224,
+  "start": 1169.327,
+  "end": 1171.168,
+  "speaker": "Unknown",
+  "en": "You do it, and you make it, and...",
+  "zh": "你去做它，你去制造它，然后……"
+ },
+ {
+  "seg": 225,
+  "start": 1171.928,
+  "end": 1172.708,
+  "speaker": "Unknown",
+  "en": "You're going to succeed.",
+  "zh": "你会成功的。"
+ },
+ {
+  "seg": 226,
+  "start": 1173.029,
+  "end": 1176.611,
+  "speaker": "Unknown",
+  "en": "If you want to reach out to me, reach out to me, Coyle at Berkeley.",
+  "zh": "如果你想联系我，联系我，Coyle at Berkeley。"
+ },
+ {
+  "seg": 227,
+  "start": 1177.031,
+  "end": 1178.251,
+  "speaker": "Unknown",
+  "en": "Look at my websites.",
+  "zh": "看看我的网站。"
+ },
+ {
+  "seg": 228,
+  "start": 1178.271,
+  "end": 1180.092,
+  "speaker": "Unknown",
+  "en": "I've got a website, Code Supreme AI.",
+  "zh": "我有一个网站，Code Supreme AI。"
+ },
+ {
+  "seg": 229,
+  "start": 1180.553,
+  "end": 1183.634,
+  "speaker": "Unknown",
+  "en": "I'm a big jazz fan, and I named this website after John Coltrane.",
+  "zh": "我是个大爵士迷，我用 John Coltrane 的名字给这个网站命名。"
+ },
+ {
+  "seg": 230,
+  "start": 1183.694,
+  "end": 1185.135,
+  "speaker": "Unknown",
+  "en": "Love Supreme, if you know that song.",
+  "zh": "Love Supreme，如果你知道那首歌的话。"
+ },
+ {
+  "seg": 231,
+  "start": 1185.475,
+  "end": 1185.695,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 232,
+  "start": 1186.076,
+  "end": 1189.758,
+  "speaker": "Unknown",
+  "en": "Anyway, that's my story, and I'm sticking to it, and I'm about to zero time.",
+  "zh": "无论如何，这就是我的故事，而且我坚持这个说法，我也快没时间了。"
+ },
+ {
+  "seg": 233,
+  "start": 1190.418,
+  "end": 1192.919,
+  "speaker": "Unknown",
+  "en": "Okay, thank you.",
+  "zh": "好的，谢谢。"
+ }
+]

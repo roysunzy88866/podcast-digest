@@ -42,23 +42,79 @@ tags:
 
 在这一集播客里,他讲了三件事:为什么当 AI 让写代码变得极度廉价时,产品流程整个「倒过来了」,不再是写文档,而是做一堆[[原型|原型]]再做选择;为什么真正决定产品好坏的是「[[品味|品味]]」这种难以量化的能力,以及 AI 为什么唯独在设计上依然栽跟头;还有他们怎么用「区域防守」的组织方式来应对旧分工的瓦解。结尾他还分享了一个关于失败的真实感受:在走到这一步之前,他其实失败了十到十五年。
 
-说到了为什么形态没变、生死却变了,这背后的根本原因其实是 Andrew 眼中整个产品开发流程的「倒置」。Andrew 解释说,过去很长一段时间,产品开发的核心假设是「实现(也就是把代码写出来)很贵」。因为贵,所以你要在动手写代码之前,用写文档、做用户调研、画原型的方式去把风险降到最低。但现在,如果你跟这些模型对话,你可以很轻易地搭建出任何你想要的功能。实现不再昂贵了,真正昂贵的是什么?Andrew 的结论是:是品味。这就导致了一个很奇特的现象:在 OpenAI 内部,如果有一个大家觉得非做不可的功能,可能会有 90 个互不协调的小团队同时在用 AI 做原型。而领导者的工作,不再是指派谁来写代码,而是去这 90 个探索里做[[策展|策展]],挑出哪些细节是好的,该怎么把它们融合,以及判断这到底是不是产品该走的方向 <button class="pd-ts" data-t="03:09" data-who="Andrew Ambrosino" data-en="What does the shape of product team look like now versus a couple years ago? One of the hardest things to do right now as a leader building these products is just sort of the inversion of the process in my mind, which I think a lot of people have talked about, which is that anybody can build anything." aria-label="回原文"></button>。这并不是说写文档或 PRD(产品需求文档)彻底没用了, Andrew 认为这完全是误解。如果是为了理清模糊的思路,文档依然是对的媒介;如果是为了测试一种具体的交互手感,那就直接做原型。关键在于,你要根据目标去选择媒介,而不是盲目跟风喊「原型当道」。
+说到了为什么形态没变、生死却变了,这背后的根本原因其实是 Andrew 眼中整个产品开发流程的「倒置」。Andrew 解释说,过去很长一段时间,产品开发的核心假设是「实现(也就是把代码写出来)很贵」。
 
-既然提到了选择媒介和挑方向,这就引出了一个更核心的问题:到底什么是好的品味?这个词听起来很虚,很多工程师甚至觉得它就是设计师对审美的矫情。Andrew 并不这么认为。他强调,品味确实包含审美,比如一个动画的节奏是不是太突兀了;但比审美更重要的是系统思维和更宽广的语境。比如面对一个功能,真正的品味是能回答:这个东西在系统里处在什么位置?它符合我们公司未来的主题吗?在我们什么都能做的情况下,到底为什么要做它?Andrew 甚至开了一个玩笑,说提到品味大家总是想到穿搭,但 Paul Graham(知名程序员、投资人)显然品味极佳,哪怕他总穿工装短裤 <button class="pd-ts" data-t="10:48" data-who="Andrew Ambrosino" data-en="Yeah. It's funny. There was a tweet, I'm too online." aria-label="回原文"></button>。这就带出了一个让很多人好奇的疑问:既然模型已经这么聪明了,为什么 AI 在写代码上突飞猛进,在做实际的设计时却依然很糟糕?Andrew 觉得有两个原因。首先是「打分」的难度不一样。代码好不好,看它能不能编译、能不能跑通就行;但设计好不好,是需要人类的主观品味作为反馈机制来介入的,这让训练模型变得非常繁琐。其次,各大 AI 实验室一直以来的重心,是让模型擅长那些能「加速 AI 研究本身」的事情。在代码模型早期,模型能写出正确的代码,直接就能加速研究,但设计并不直接在这个飞轮里。更难的是,设计天然需要新颖性,而软件工程更希望模型去套用已知的安全模式。此外还有一种抽象能力的缺失:如果一个模型要改一个视觉组件,它往往只能做最浅层的处理;但真正的设计是语义层面的抽象——如果明天公司换了品牌,模型能否理解两个看起来不同的东西其实属于同一种交互模式?目前的模型在这方面依然无能为力 <button class="pd-ts" data-t="12:40" data-who="Andrew Ambrosino" data-en="Do you think we'll get to a place of like, &quot;Holy moly, we're done.&quot; Yeah. I tend to think that there are some practical reasons why it's lagged and also some harder problems to crack." aria-label="回原文"></button>。
+因为贵,所以你要在动手写代码之前,用写文档、做用户调研、画原型的方式去把风险降到最低。但现在,如果你跟这些模型对话,你可以很轻易地搭建出任何你想要的功能。
+
+实现不再昂贵了,真正昂贵的是什么?Andrew 的结论是:是品味。
+
+这就导致了一个很奇特的现象:在 OpenAI 内部,如果有一个大家觉得非做不可的功能,可能会有 90 个互不协调的小团队同时在用 AI 做原型。而领导者的工作,不再是指派谁来写代码,而是去这 90 个探索里做[[策展|策展]],挑出哪些细节是好的,该怎么把它们融合,以及判断这到底是不是产品该走的方向 <button class="pd-ts" data-t="03:09" data-who="Andrew Ambrosino" data-en="What does the shape of product team look like now versus a couple years ago? One of the hardest things to do right now as a leader building these products is just sort of the inversion of the process in my mind, which I think a lot of people have talked about, which is that anybody can build anything." aria-label="回原文"></button>。
+
+这并不是说写文档或 PRD(产品需求文档)彻底没用了, Andrew 认为这完全是误解。如果是为了理清模糊的思路,文档依然是对的媒介;如果是为了测试一种具体的交互手感,那就直接做原型。关键在于,你要根据目标去选择媒介,而不是盲目跟风喊「原型当道」。
+
+既然提到了选择媒介和挑方向,这就引出了一个更核心的问题:到底什么是好的品味?这个词听起来很虚,很多工程师甚至觉得它就是设计师对审美的矫情。
+
+Andrew 并不这么认为。他强调,品味确实包含审美,比如一个动画的节奏是不是太突兀了;但比审美更重要的是系统思维和更宽广的语境。
+
+比如面对一个功能,真正的品味是能回答:这个东西在系统里处在什么位置?它符合我们公司未来的主题吗?
+
+在我们什么都能做的情况下,到底为什么要做它?Andrew 甚至开了一个玩笑,说提到品味大家总是想到穿搭,但 Paul Graham(知名程序员、投资人)显然品味极佳,哪怕他总穿工装短裤 <button class="pd-ts" data-t="10:48" data-who="Andrew Ambrosino" data-en="Yeah. It's funny. There was a tweet, I'm too online." aria-label="回原文"></button>。
+
+这就带出了一个让很多人好奇的疑问:既然模型已经这么聪明了,为什么 AI 在写代码上突飞猛进,在做实际的设计时却依然很糟糕?Andrew 觉得有两个原因。
+
+首先是「打分」的难度不一样。代码好不好,看它能不能编译、能不能跑通就行;但设计好不好,是需要人类的主观品味作为反馈机制来介入的,这让训练模型变得非常繁琐。
+
+其次,各大 AI 实验室一直以来的重心,是让模型擅长那些能「加速 AI 研究本身」的事情。在代码模型早期,模型能写出正确的代码,直接就能加速研究,但设计并不直接在这个飞轮里。
+
+更难的是,设计天然需要新颖性,而软件工程更希望模型去套用已知的安全模式。此外还有一种抽象能力的缺失:如果一个模型要改一个视觉组件,它往往只能做最浅层的处理;但真正的设计是语义层面的抽象——如果明天公司换了品牌,模型能否理解两个看起来不同的东西其实属于同一种交互模式?目前的模型在这方面依然无能为力 <button class="pd-ts" data-t="12:40" data-who="Andrew Ambrosino" data-en="Do you think we'll get to a place of like, &quot;Holy moly, we're done.&quot; Yeah. I tend to think that there are some practical reasons why it's lagged and also some harder problems to crack." aria-label="回原文"></button>。
 
 > 【背景】PRD 即产品需求文档,瀑布流是传统软件开发中高度线性、按阶段推进的开发模型,都强调在写代码前做大量前置规划。
 
-工具变了,流程和组织该怎么变?这正是 Andrew 接下来聊到的第二个重点:角色的崩塌。设计师、产品经理、工程师之间的界限正在模糊,尤其是在 Codex 团队内部。Andrew 有一套非常生动的理论:你的角色不再是你名片上的头衔,而是你「花时间做的事情的平均值」。如果你这周大部分时间在做工程,那你现在就是工程师;下周如果主要在理清产品逻辑,那你就是产品经理。这种角色的流动,很大程度上是因为过去那种所谓的「守门人」文化被消解了——过去你觉得自己不能当软件工程师,可能只是因为你不想背汇编语言或死记硬背语法,而现在这些工具门槛被抹平了。但 Andrew 也警告说,不要走极端。他听到很多公司说「我们要取消产品角色,大家都只管做建造者」,他认为这是个极其糟糕的主意。每个学科都有它沉淀下来的最佳实践和专业技能,不是写了两行代码就能取代的。为了应对这种新形态,Codex 的产品团队采用了一种叫做「区域防守」的协作模式。意思是说,产品经理们不能挤在一起,而是要像打球一样主动散开,去填补整个产品视野中的「空白区」。毕竟在现在这种充满混沌、到处都是大家在扔想法的环境里,自上而下的年度规划已经失效了。你需要那些有品味的人散布在全公司,引导各种点子从萌芽走向成熟 <button class="pd-ts" data-t="28:47" data-who="Andrew Ambrosino" data-en="It's mostly ICs and I think that's good. You use this term zone defense for product work and that's really interesting. It kind of maps to the design kind of shift also, just like you're there to manage and coordinate." aria-label="回原文"></button>。
+工具变了,流程和组织该怎么变?这正是 Andrew 接下来聊到的第二个重点:角色的崩塌。
 
-既然组织都要这么灵活了,那做长期规划还有意义吗?这正是话题顺理成章的延伸。Andrew 坦言,他在规划这件事上经常让人感到挫败。他们现在的做法是:越是短期的事,规划必须越细;但如果是九个月以后的规划,那就只能保持非常模糊的轮廓。因为在这个时间尺度上,你加进去的任何精确细节,都是「虚假精度」,纯粹是浪费时间。他举了 Codex 应用本身的故事:如果他们二月份发布的那款产品,在十一月份就准备好了并推向市场,绝对会惨败。因为产品的形态完全没变,唯一改变的是十一月至二月之间模型变聪明了。这就催生了一种全新的做事逻辑:去原型化所有你们感兴趣的想法,看哪些在当前模型能力下已经跑通了,就直接上;跑不通的就让它们在那里放着酝酿。每次模型有一次新的飞跃,就把那些积压的想法拿出来重新试一遍。但这也带来一个新麻烦:很多人有肌肉记忆,觉得「我给这东西写了代码,所以我们必须发出去」。Andrew 必须不断提醒团队:不,你只是做出了一个工件,它能帮我们测试未来的模型,不代表它现在就该面世。
+设计师、产品经理、工程师之间的界限正在模糊,尤其是在 Codex 团队内部。Andrew 有一套非常生动的理论:你的角色不再是你名片上的头衔,而是你「花时间做的事情的平均值」。
 
-说完了团队怎么折腾产品,那 Andrew 自己每天又是怎么用 Codex 的呢?这就进入了他个人的工作流。作为要管理成千上万条线索的负责人,他早上起床会看到 Codex 自动整理的一份每日简报。这份简报汇总了他所在的三千个 Slack 频道里的重点,并提示哪些需要他关注。如果简报有偏差,他不需要去改底层代码,只要直接跟应用说:「下次运行时多关注这个,弱化那个」。他还让 Codex 帮他过滤垃圾邮件。为了配置过滤所需的触发器,Codex 竟然直接接管了他的电脑,自己去点开那些烦人的 Google Cloud 控制台界面,自己搞定了 API 设置。更夸张的是 OpenAI 内部的一位视频制作师 Brent。Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它能看懂 Brent 用的 Premiere Pro 软件。于是,Codex 自己写了一个扩展程序,装进了 Premiere Pro 里,然后通过这个扩展来指挥软件改标记点 <button class="pd-ts" data-t="57:21" data-who="Andrew Ambrosino" data-en="It's, &quot;This thing should be a home for you where you start work, you end work, you automate work, and it uses whatever you need to do.&quot; There's a great story about, we had some videos that we shot in this room for the original launch of the Codex app." aria-label="回原文"></button>。在这个过程中,Codex 不是一个孤立的聊天框,而是一个可以连接 Excel、连接 Slack、甚至操控浏览器的主基地。
+如果你这周大部分时间在做工程,那你现在就是工程师;下周如果主要在理清产品逻辑,那你就是产品经理。这种角色的流动,很大程度上是因为过去那种所谓的「守门人」文化被消解了——过去你觉得自己不能当软件工程师,可能只是因为你不想背汇编语言或死记硬背语法,而现在这些工具门槛被抹平了。
 
-光鲜产品的背后总是不断的试错,这也是 Andrew 最后最想传递的真实感受。当被问到有什么失败经历时,他笑着说,这大概是他第一次不觉得自己在失败。在来到 OpenAI 之前,他做了很久的创业者,卖掉过一家公司,也曾在受高度监管的行业里做 AI 工具,那十几年感觉就像是一场接一场的失败。把 Codex 的经验跟 [[ChatGPT|ChatGPT]] 结合起来的这个大项目,他也不知道经历了多少次微小的失败——很多时候他们在 Slack 里发一个新设计,会立刻收到两千条消息嘲笑他们有多蠢。他认为,失败十到十五年然后突然遇到技能、热情和市场时机都对齐的那一刻,才是真相。而在节目的最末尾,当被问到工程师、设计师、产品经理这三个角色哪个最难时,Andrew 没有选任何一个。他觉得引入这种角色的流动性是件好事,尤其是对那些[[主观能动性|主观能动性]]强、就想把事情做成的人。但他也坚持,每个角色的核心技能不该被抛弃,人们应该去找那些真正值得做的事情,而不是死守着某一种旧流程。
+但 Andrew 也警告说,不要走极端。他听到很多公司说「我们要取消产品角色,大家都只管做建造者」,他认为这是个极其糟糕的主意。
+
+每个学科都有它沉淀下来的最佳实践和专业技能,不是写了两行代码就能取代的。为了应对这种新形态,Codex 的产品团队采用了一种叫做「区域防守」的协作模式。
+
+意思是说,产品经理们不能挤在一起,而是要像打球一样主动散开,去填补整个产品视野中的「空白区」。毕竟在现在这种充满混沌、到处都是大家在扔想法的环境里,自上而下的年度规划已经失效了。你需要那些有品味的人散布在全公司,引导各种点子从萌芽走向成熟 <button class="pd-ts" data-t="28:47" data-who="Andrew Ambrosino" data-en="It's mostly ICs and I think that's good. You use this term zone defense for product work and that's really interesting. It kind of maps to the design kind of shift also, just like you're there to manage and coordinate." aria-label="回原文"></button>。
+
+既然组织都要这么灵活了,那做长期规划还有意义吗?这正是话题顺理成章的延伸。
+
+Andrew 坦言,他在规划这件事上经常让人感到挫败。他们现在的做法是:越是短期的事,规划必须越细;但如果是九个月以后的规划,那就只能保持非常模糊的轮廓。
+
+因为在这个时间尺度上,你加进去的任何精确细节,都是「虚假精度」,纯粹是浪费时间。他举了 Codex 应用本身的故事:如果他们二月份发布的那款产品,在十一月份就准备好了并推向市场,绝对会惨败。
+
+因为产品的形态完全没变,唯一改变的是十一月至二月之间模型变聪明了。这就催生了一种全新的做事逻辑:去原型化所有你们感兴趣的想法,看哪些在当前模型能力下已经跑通了,就直接上;跑不通的就让它们在那里放着酝酿。
+
+每次模型有一次新的飞跃,就把那些积压的想法拿出来重新试一遍。但这也带来一个新麻烦:很多人有肌肉记忆,觉得「我给这东西写了代码,所以我们必须发出去」。Andrew 必须不断提醒团队:不,你只是做出了一个工件,它能帮我们测试未来的模型,不代表它现在就该面世。
+
+说完了团队怎么折腾产品,那 Andrew 自己每天又是怎么用 Codex 的呢?这就进入了他个人的工作流。
+
+作为要管理成千上万条线索的负责人,他早上起床会看到 Codex 自动整理的一份每日简报。这份简报汇总了他所在的三千个 Slack 频道里的重点,并提示哪些需要他关注。
+
+如果简报有偏差,他不需要去改底层代码,只要直接跟应用说:「下次运行时多关注这个,弱化那个」。他还让 Codex 帮他过滤垃圾邮件。
+
+为了配置过滤所需的触发器,Codex 竟然直接接管了他的电脑,自己去点开那些烦人的 Google Cloud 控制台界面,自己搞定了 API 设置。更夸张的是 OpenAI 内部的一位视频制作师 Brent。
+
+Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它能看懂 Brent 用的 Premiere Pro 软件。于是,Codex 自己写了一个扩展程序,装进了 Premiere Pro 里,然后通过这个扩展来指挥软件改标记点 <button class="pd-ts" data-t="57:21" data-who="Andrew Ambrosino" data-en="It's, &quot;This thing should be a home for you where you start work, you end work, you automate work, and it uses whatever you need to do.&quot; There's a great story about, we had some videos that we shot in this room for the original launch of the Codex app." aria-label="回原文"></button>。在这个过程中,Codex 不是一个孤立的聊天框,而是一个可以连接 Excel、连接 Slack、甚至操控浏览器的主基地。
+
+光鲜产品的背后总是不断的试错,这也是 Andrew 最后最想传递的真实感受。当被问到有什么失败经历时,他笑着说,这大概是他第一次不觉得自己在失败。
+
+在来到 OpenAI 之前,他做了很久的创业者,卖掉过一家公司,也曾在受高度监管的行业里做 AI 工具,那十几年感觉就像是一场接一场的失败。把 Codex 的经验跟 [[ChatGPT|ChatGPT]] 结合起来的这个大项目,他也不知道经历了多少次微小的失败——很多时候他们在 Slack 里发一个新设计,会立刻收到两千条消息嘲笑他们有多蠢。
+
+他认为,失败十到十五年然后突然遇到技能、热情和市场时机都对齐的那一刻,才是真相。而在节目的最末尾,当被问到工程师、设计师、产品经理这三个角色哪个最难时,Andrew 没有选任何一个。
+
+他觉得引入这种角色的流动性是件好事,尤其是对那些[[主观能动性|主观能动性]]强、就想把事情做成的人。但他也坚持,每个角色的核心技能不该被抛弃,人们应该去找那些真正值得做的事情,而不是死守着某一种旧流程。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,产品开发流程已经倒过来了:因为 AI 把写代码、做原型的成本打到了谷底,所以不再是「先写死文档、再花大钱做一次」,而是「做几十个原型,用品味去策展和做减法」,PRD 没死,只是你要学会根据目标灵活选媒介。第二,短期规划必须细,长期规划必须虚,不要给九个月后的计划加什么精确细节,那都是虚假精度;很多时候产品成不成,不看形态好不好,只看模型有没有跨越那条能力的及格线,所以做不出来的功能就先放着酝酿,等模型升级了再试。第三,职位头衔不再定义你的工作,你花时间的平均值才是;在这个新世界里,最值钱的是高主观能动性和高品味的人,他能凭直觉把一个混沌的想法一路引导成惊艳的产品,而那些有专业沉淀的最佳实践和技能,非但不会过时,反而是支撑这种流动的底座。
+最后收个尾,这一集值得带走的是三句话。第一,产品开发流程已经倒过来了:因为 AI 把写代码、做原型的成本打到了谷底,所以不再是「先写死文档、再花大钱做一次」,而是「做几十个原型,用品味去策展和做减法」,PRD 没死,只是你要学会根据目标灵活选媒介。
+
+第二,短期规划必须细,长期规划必须虚,不要给九个月后的计划加什么精确细节,那都是虚假精度;很多时候产品成不成,不看形态好不好,只看模型有没有跨越那条能力的及格线,所以做不出来的功能就先放着酝酿,等模型升级了再试。第三,职位头衔不再定义你的工作,你花时间的平均值才是;在这个新世界里,最值钱的是高主观能动性和高品味的人,他能凭直觉把一个混沌的想法一路引导成惊艳的产品,而那些有专业沉淀的最佳实践和技能,非但不会过时,反而是支撑这种流动的底座。
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
@@ -89,24 +145,21 @@ tags:
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny · 同公司:Codex、Linear · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同嘉宾:Lenny · 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:Codex、OpenAI · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、Linear · 同概念:智能体 (agent)</span>
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:Codex、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:OpenAI、ChatGPT · 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)</span>
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI、ChatGPT · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:AI 编程 · 产品开发流程 · 品味与策展 · 角色边界 · 桌面应用*
-
 <script>
 (function(){
   function move(){

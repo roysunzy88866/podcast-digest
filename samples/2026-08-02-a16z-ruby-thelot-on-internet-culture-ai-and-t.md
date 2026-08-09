@@ -32,25 +32,45 @@ tags:
 
 <div class="pd-tldr"><b>一句话</b>用数据穿透互联网文化迷雾:真正的趋势往往比算法呈现的小,而品味正在成为对抗数字丰饶的唯一美德。</div>
 
-当代码、[[算法|算法]]和[[机器人|机器人]]开始主导互联网的日常互动时,谁来系统研究人们在其中到底是怎么生活的?Ruby Justice Thurlow 就是干这个的,他称之为「[[网络民族志学|网络民族志学]]」。但他的研究不是为了证明技术多可怕,恰恰相反,他发现人们实际使用技术的方式远比媒体呈现的要温和、务实。在这个数字飞地越来越细碎的时代,他要用数据和访谈重建我们对网络文化、在线身份乃至「[[品味|品味]]」的真实理解。
+当代码、[[算法|算法]]和[[机器人|机器人]]开始主导互联网的日常互动时,谁来系统研究人们在其中到底是怎么生活的?Ruby Justice Thurlow 就是干这个的,他称之为「[[网络民族志学|网络民族志学]]」。
+
+但他的研究不是为了证明技术多可怕,恰恰相反,他发现人们实际使用技术的方式远比媒体呈现的要温和、务实。在这个数字飞地越来越细碎的时代,他要用数据和访谈重建我们对网络文化、在线身份乃至「[[品味|品味]]」的真实理解。
 
 这一集来自 A16Z 播客的推荐聆听列表(原由 MTS 播客制作),嘉宾 Ruby Justice Thurlow 是纽约大学的教授,也是一位设计师和艺术家。他长期研究从互联网亚文化到 AI 伴侣的各类数字行为。在这一集里,他和两位主持人聊了三件互相勾连的事:第一,面对层出不穷的网络热点(比如所谓的「异性恋悲观主义」),如何用数据去甄别这只是「[[响亮的少数派|响亮的少数派]]」制造的信息幻觉;第二,当受众变成一半人一半机器人时,网络美学如何被「[[机械品味|机械品味]]」重塑,以及我们为何在今天重新需要一种近乎道德意义上的「品味」来对抗这种洪流;最后,他分享了作为一个非美国人走遍美国、观察普通人(尤其是那些不关心[[生存风险|生存风险]]只关心饭碗的人)如何与 AI 真实共处的田野发现。
 
-要理解 Ruby 的工作,首先要搞清楚他怎么判断一个网络现象到底「是不是真的」。作为研究者,他经常面临一个困境:某个看起来声势浩大的网络趋势,到底是真社会变迁,还是只是一小群人在特定算法下被放大了的声音?他有一个非常形象的比喻:你要分清,这到底是一个真实现象,还是「三个 TikTok 短视频穿着风衣装成一个人」。意思是,有些看似宏大的社会行为,其实只是极微小群体的偶然聚集 <button class="pd-ts" data-t="04:54" data-who="Ruby Justice Thurlow" data-en="So this is one of the hardest things to do on the internet. I like to say, is this a real thing? Or is this three TikToks in a trench coat?" aria-label="回原文"></button>。
+要理解 Ruby 的工作,首先要搞清楚他怎么判断一个网络现象到底「是不是真的」。作为研究者,他经常面临一个困境:某个看起来声势浩大的网络趋势,到底是真社会变迁,还是只是一小群人在特定算法下被放大了的声音?
 
-为了搞清楚这一点,他所在的机构会对社交媒体做大量定量分析,而不是仅凭直觉或几个热门帖子下结论。他举了一个典型的例子:所谓的「异性恋悲观主义」,也就是某些异性恋女性对与男性约会表现出的强烈厌恶或回避。媒体大肆报道,让人感觉这简直成了一股席卷全美的潮流。为了验证真伪,他的团队抓取了 TikTok 上关于约会、浏览量超过一百万的热门视频,分析了大约 2000 个样本,并用脚本识别这一情绪自 2020 年以来是否真的在增长 <button class="pd-ts" data-t="05:50" data-who="Ruby Justice Thurlow" data-en="So we went, what did we do? We took a look at the top posts about dating on TikTok. Anything over a million views, take a look at 2,000 videos, and then, you know..." aria-label="回原文"></button>。
+他有一个非常形象的比喻:你要分清,这到底是一个真实现象,还是「三个 TikTok 短视频穿着风衣装成一个人」。意思是,有些看似宏大的社会行为,其实只是极微小群体的偶然聚集 <button class="pd-ts" data-t="04:54" data-who="Ruby Justice Thurlow" data-en="So this is one of the hardest things to do on the internet. I like to say, is this a real thing? Or is this three TikToks in a trench coat?" aria-label="回原文"></button>。
 
-结果出乎意料:约会内容总体上其实是积极的,大约有 40% 到 50% 是正面表达,而且那种极端的厌恶情绪随时间推移实际上是在减少的。那为什么媒体和大众会觉得这是个普遍现象?Ruby 指出,这是一种「响亮的少数派」现象 <button class="pd-ts" data-t="06:33" data-who="主持人" data-en="Yeah, that's fascinating. So there is like a sort of loud minority phenomenon happening with content. How many of the trends do you see are like entirely sort of like the proportion of them is just like wrong, like erroneous?" aria-label="回原文"></button>。写报道的记者们自身的算法信息流被这类内容集中轰炸了,他们误以为自己看到的就是全貌,然后把它当成全国性趋势报道出来。Ruby 强调,当你在网上看到一个热点时,永远要问一句:这真的在美国其他地方也普遍存在吗,还是仅仅局限于某个特定圈层的信息茧房?
+为了搞清楚这一点,他所在的机构会对社交媒体做大量定量分析,而不是仅凭直觉或几个热门帖子下结论。他举了一个典型的例子:所谓的「异性恋悲观主义」,也就是某些异性恋女性对与男性约会表现出的强烈厌恶或回避。
+
+媒体大肆报道,让人感觉这简直成了一股席卷全美的潮流。为了验证真伪,他的团队抓取了 TikTok 上关于约会、浏览量超过一百万的热门视频,分析了大约 2000 个样本,并用脚本识别这一情绪自 2020 年以来是否真的在增长 <button class="pd-ts" data-t="05:50" data-who="Ruby Justice Thurlow" data-en="So we went, what did we do? We took a look at the top posts about dating on TikTok. Anything over a million views, take a look at 2,000 videos, and then, you know..." aria-label="回原文"></button>。
+
+结果出乎意料:约会内容总体上其实是积极的,大约有 40% 到 50% 是正面表达,而且那种极端的厌恶情绪随时间推移实际上是在减少的。那为什么媒体和大众会觉得这是个普遍现象?
+
+Ruby 指出,这是一种「响亮的少数派」现象 <button class="pd-ts" data-t="06:33" data-who="主持人" data-en="Yeah, that's fascinating. So there is like a sort of loud minority phenomenon happening with content. How many of the trends do you see are like entirely sort of like the proportion of them is just like wrong, like erroneous?" aria-label="回原文"></button>。写报道的记者们自身的算法信息流被这类内容集中轰炸了,他们误以为自己看到的就是全貌,然后把它当成全国性趋势报道出来。Ruby 强调,当你在网上看到一个热点时,永远要问一句:这真的在美国其他地方也普遍存在吗,还是仅仅局限于某个特定圈层的信息茧房?
 
 说完了如何甄别单一热点的真伪,接下来是一个更宏观的判断:整个互联网文化正在发生怎样的结构性变迁?Ruby 的核心判断是,我们已经从过去那种大家共享几大频道的「单一文化」,进入了一个他所谓的「[[多元文化|多元文化]](Pluriculture)」时代 <button class="pd-ts" data-t="08:24" data-who="Ruby Justice Thurlow" data-en="Like they start emanating out of there. Yeah, we're definitely in a period of what I would call a pluriculture, right? Where before we had ten, five channels, we all watched the same things." aria-label="回原文"></button>。在这个时代里,存在着许多非常强大、活跃但彼此隔离的文化震中。
 
-他和朋友曾合写过一篇论文,探讨互联网的「[[巴尔干化|巴尔干化]]和巴别塔化」。巴尔干化指的是,原本统一的主流文化分裂成了一个个细小的数字飞地。而在这些孤立的信息岛上,人们开始像加拉帕戈斯群岛上的海龟一样发生「物种形成」:他们发展出自己独有的、怪异的微语言 <button class="pd-ts" data-t="09:23" data-who="Ruby Justice Thurlow" data-en="So the Balkanization is this splitting of our monoculture into these small digital enclaves you know they've been balkanized and on our little insular digital islands what do we do we have speciation we develop our own languages much like the turtles on the galapagos islands right our own specific vernacular our own specific language and the problem with containment with uh being so insular is that when we have something like" aria-label="回原文"></button>。结果就是可怕的「巴别塔化」:当你我在网上对话,哪怕使用的是同一个词,因为身处不同的数字泡沫(比如高端时尚圈和某些边缘亚文化圈),我们赋予它的含义可能截然不同,彼此完全听不懂。这种语言分化还不止是自发的,背后有商业推手。Ruby 指出,把人精准地切割进特定的小部落,能让算法更容易识别他们,品牌也更容易向他们精准营销 <button class="pd-ts" data-t="10:31" data-who="Ruby Justice Thurlow" data-en="And, you know, even on Spotify, it's like, oh, you are a pink pony princess pop girl. And then everyone's like, oh, this is the... My culture, these are the people I identify with." aria-label="回原文"></button>。
+他和朋友曾合写过一篇论文,探讨互联网的「[[巴尔干化|巴尔干化]]和巴别塔化」。巴尔干化指的是,原本统一的主流文化分裂成了一个个细小的数字飞地。
 
-文化部落化了,新的美学又从何而来?主持人提到一个普遍困惑:为什么感觉现在没有全新的、震撼性的美学风格出现了?Ruby 澄清说,新美学其实一直在涌现,只是很难再形成大规模效应,因为大众文化已经被高度金融化,决策者更愿意投资稳赚不赔的电影续集或者挑自带粉丝的网红。但他坚信新美学仍在发生,而且往往来自意想不到的综合,他举了一个例子:现在有孩子一边玩着《反恐精英》游戏,一边同时听着巴西放克音乐和动漫配乐,这种三线并行的屏幕生活方式,最终混合出了一种全新的「巴西放克动漫」音乐风格 <button class="pd-ts" data-t="15:40" data-who="Ruby Justice Thurlow" data-en="Yeah. Brazilian funk anime. But it's happening." aria-label="回原文"></button>。
+而在这些孤立的信息岛上,人们开始像加拉帕戈斯群岛上的海龟一样发生「物种形成」:他们发展出自己独有的、怪异的微语言 <button class="pd-ts" data-t="09:23" data-who="Ruby Justice Thurlow" data-en="So the Balkanization is this splitting of our monoculture into these small digital enclaves you know they've been balkanized and on our little insular digital islands what do we do we have speciation we develop our own languages much like the turtles on the galapagos islands right our own specific vernacular our own specific language and the problem with containment with uh being so insular is that when we have something like" aria-label="回原文"></button>。结果就是可怕的「巴别塔化」:当你我在网上对话,哪怕使用的是同一个词,因为身处不同的数字泡沫(比如高端时尚圈和某些边缘亚文化圈),我们赋予它的含义可能截然不同,彼此完全听不懂。
 
-讨论至此,对话自然引向了更深层的哲学追问:既然我们处于这样一个算法主导、内容泛滥的数字丰饶时代,那么在这个时代,什么叫有「品味」?这不仅仅是个审美问题,更是 Ruby 研究中最核心的洞见。他追溯历史指出,在 17 和 18 世纪的英国,随着贵族权力被限制(比如 1688 年的光荣革命)和殖民财富暴增,出现了一批暴富的新兴资产阶级 <button class="pd-ts" data-t="17:49" data-who="Ruby Justice Thurlow" data-en="The question of taste... emerged in the 17th century at a time where people needed guidance as to how to consume properly. So in 1688, the Bill of Rights happens in England after the Glorious Revolution, and the nobility's powers are restrained." aria-label="回原文"></button>。当时人们非常担心,过度的奢侈品消费会毁掉社会道德。
+这种语言分化还不止是自发的,背后有商业推手。Ruby 指出,把人精准地切割进特定的小部落,能让算法更容易识别他们,品牌也更容易向他们精准营销 <button class="pd-ts" data-t="10:31" data-who="Ruby Justice Thurlow" data-en="And, you know, even on Spotify, it's like, oh, you are a pink pony princess pop girl. And then everyone's like, oh, this is the... My culture, these are the people I identify with." aria-label="回原文"></button>。
 
-正是在那种对财富泛滥的恐慌中,「品味」这个词应运而生。它原本的意思,是一种让人能够「有德行地消费」的自我约束机制。早期思想家如 Shaftesbury 伯爵认为,品味就是与自然和宇宙秩序的和谐统一。没有品味的人,往往会因为财富太多而把一切都弄得过大、失控(比如把私人湖泊挖得像海一样大),毫无节制 <button class="pd-ts" data-t="20:03" data-who="Ruby Justice Thurlow" data-en="And that is his perspective on taste. And so the nouveau riche, the person who's tasteless, you know, I think the way Pope says like his house looks like no proportions, like a big, big gate." aria-label="回原文"></button>。Ruby 深刻地指出,我们现在正处在一波类似的财富与技术大爆发中——我们拥有了泛滥的智能(AI)和内容。品味在今天之所以重新变得至关重要,正是因为我们需要一套机制来处理这种泛滥的丰盛,以免它反噬我们的社会。所谓的好品味,在今天就是保持自然的克制,拒绝被算法规训,主动去搜寻那些真正新颖的东西,从而让自己变得「不可被算法治理」。
+文化部落化了,新的美学又从何而来?主持人提到一个普遍困惑:为什么感觉现在没有全新的、震撼性的美学风格出现了?
+
+Ruby 澄清说,新美学其实一直在涌现,只是很难再形成大规模效应,因为大众文化已经被高度金融化,决策者更愿意投资稳赚不赔的电影续集或者挑自带粉丝的网红。但他坚信新美学仍在发生,而且往往来自意想不到的综合,他举了一个例子:现在有孩子一边玩着《反恐精英》游戏,一边同时听着巴西放克音乐和动漫配乐,这种三线并行的屏幕生活方式,最终混合出了一种全新的「巴西放克动漫」音乐风格 <button class="pd-ts" data-t="15:40" data-who="Ruby Justice Thurlow" data-en="Yeah. Brazilian funk anime. But it's happening." aria-label="回原文"></button>。
+
+讨论至此,对话自然引向了更深层的哲学追问:既然我们处于这样一个算法主导、内容泛滥的数字丰饶时代,那么在这个时代,什么叫有「品味」?这不仅仅是个审美问题,更是 Ruby 研究中最核心的洞见。
+
+他追溯历史指出,在 17 和 18 世纪的英国,随着贵族权力被限制(比如 1688 年的光荣革命)和殖民财富暴增,出现了一批暴富的新兴资产阶级 <button class="pd-ts" data-t="17:49" data-who="Ruby Justice Thurlow" data-en="The question of taste... emerged in the 17th century at a time where people needed guidance as to how to consume properly. So in 1688, the Bill of Rights happens in England after the Glorious Revolution, and the nobility's powers are restrained." aria-label="回原文"></button>。当时人们非常担心,过度的奢侈品消费会毁掉社会道德。
+
+正是在那种对财富泛滥的恐慌中,「品味」这个词应运而生。它原本的意思,是一种让人能够「有德行地消费」的自我约束机制。
+
+早期思想家如 Shaftesbury 伯爵认为,品味就是与自然和宇宙秩序的和谐统一。没有品味的人,往往会因为财富太多而把一切都弄得过大、失控(比如把私人湖泊挖得像海一样大),毫无节制 <button class="pd-ts" data-t="20:03" data-who="Ruby Justice Thurlow" data-en="And that is his perspective on taste. And so the nouveau riche, the person who's tasteless, you know, I think the way Pope says like his house looks like no proportions, like a big, big gate." aria-label="回原文"></button>。
+
+Ruby 深刻地指出,我们现在正处在一波类似的财富与技术大爆发中——我们拥有了泛滥的智能(AI)和内容。品味在今天之所以重新变得至关重要,正是因为我们需要一套机制来处理这种泛滥的丰盛,以免它反噬我们的社会。所谓的好品味,在今天就是保持自然的克制,拒绝被算法规训,主动去搜寻那些真正新颖的东西,从而让自己变得「不可被算法治理」。
 
 品味是为了对抗泛滥,那么普通人对这种泛滥(尤其是 AI)的真实感受是什么?这正是 Ruby 走访各地的田野调查要回答的问题。作为一个加拿大人,他以一种类似托克维尔观察美国的视角,走访了德州、迈阿密、洛杉矶等地。
 
@@ -58,13 +78,21 @@ tags:
 
 > 【背景】这里的 Chat 特指人们日常使用的对话式 AI 助手(如 ChatGPT),人们往往并不把这种好用的小工具跟那个抽象、宏大的概念「人工智能(AI)」画等号。
 
-Ruby 发现,普通人对 AI 有一种强烈的割裂感。当他在德州 Bryan 镇和当地母亲们聊天时,她们会兴奋地分享自己如何拍了一张漏水水龙头的照片,用 AI 工具在一两个小时内就修好了它,而且她们觉得这工具用起来就像用搜索引擎一样自然、有用 <button class="pd-ts" data-t="25:49" data-who="Ruby Justice Thurlow" data-en="But, you know, if you take a look at Anthropic Survey, they surveyed 85,000 people to ask how they were using their AI for career advancements, like at work or life management." aria-label="回原文"></button>。但对她们来说,这只是一个好用的工具,绝不是那个会上全国电视、扬言要抢走她们工作饭碗的恐怖怪物。Ruby 指出,普通人其实并不太关心什么 AI 导致人类灭绝的生存风险,他们最在意、最担心的非常实在:我会不会失业?
+Ruby 发现,普通人对 AI 有一种强烈的割裂感。当他在德州 Bryan 镇和当地母亲们聊天时,她们会兴奋地分享自己如何拍了一张漏水水龙头的照片,用 AI 工具在一两个小时内就修好了它,而且她们觉得这工具用起来就像用搜索引擎一样自然、有用 <button class="pd-ts" data-t="25:49" data-who="Ruby Justice Thurlow" data-en="But, you know, if you take a look at Anthropic Survey, they surveyed 85,000 people to ask how they were using their AI for career advancements, like at work or life management." aria-label="回原文"></button>。
 
-那么,在这个充斥着 AI、算法和机器人的网络世界里,我们到底是变得更懂社交了,还是更尴尬了?主持人提到了一个普遍感受:线上要追踪的社交线索越来越多(比如 Story 的点赞代表什么),但线下大家却变得更尴尬了。Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线上平台礼仪。比如,短信多久回算合适?有人觉得 24 小时内必须回,有人觉得 72 小时也无所谓,把短信当邮件处理;不仅如此,不同平台(比如 X、Instagram)还各自孕育出了完全不同的沟通文化和幽默感。这套混乱的、跨平台跨场域的社交规则,目前还没有任何指南手册。Ruby 提出一个有趣的小建议:大家都应该「魅力最大化(Charm-maxing)」,也就是在真实的人际互动中,多一些小招手、眨眼这样纯粹的线下人情味 <button class="pd-ts" data-t="29:22" data-who="Ruby Justice Thurlow" data-en="So what do you think? I think everyone should be charm-maxing, you know? I think we should lean... Charm-max." aria-label="回原文"></button>。
+但对她们来说,这只是一个好用的工具,绝不是那个会上全国电视、扬言要抢走她们工作饭碗的恐怖怪物。Ruby 指出,普通人其实并不太关心什么 AI 导致人类灭绝的生存风险,他们最在意、最担心的非常实在:我会不会失业?
+
+那么,在这个充斥着 AI、算法和机器人的网络世界里,我们到底是变得更懂社交了,还是更尴尬了?主持人提到了一个普遍感受:线上要追踪的社交线索越来越多(比如 Story 的点赞代表什么),但线下大家却变得更尴尬了。
+
+Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线上平台礼仪。比如,短信多久回算合适?
+
+有人觉得 24 小时内必须回,有人觉得 72 小时也无所谓,把短信当邮件处理;不仅如此,不同平台(比如 X、Instagram)还各自孕育出了完全不同的沟通文化和幽默感。这套混乱的、跨平台跨场域的社交规则,目前还没有任何指南手册。Ruby 提出一个有趣的小建议:大家都应该「魅力最大化(Charm-maxing)」,也就是在真实的人际互动中,多一些小招手、眨眼这样纯粹的线下人情味 <button class="pd-ts" data-t="29:22" data-who="Ruby Justice Thurlow" data-en="So what do you think? I think everyone should be charm-maxing, you know? I think we should lean... Charm-max." aria-label="回原文"></button>。
 
 ## 本集带走
 
-这一集值得带走的可以收拢成三句话。第一,别太信你信息流里的「大势所趋」,很多被媒体放大的现象(比如某种社会情绪)往往只是算法喂养给特定人群的信息茧房,真正判断一个趋势要看海量数据和它是否溢出到了现实世界。第二,互联网正在巴尔干化,我们分裂成无数个有自己行话的小部落,用着同样的词却彼此听不懂;而在这个一半流量可能都是机器人的时代,网络文化正在被算法和 AI 塑造出一种独特的「机械品味」。第三,面对这种内容与智能极度泛滥的局面,历史上关于「品味」的智慧重新生效了——品味不只是个人审美偏好,它原本就是一种在财富与技术爆炸中,为了防止社会堕落而进行的自我克制与主动选择;在今天,拥有好品味意味着有意识地去搜寻新事物,不被算法框死,保持一份不可被轻易规训的独立性。
+这一集值得带走的可以收拢成三句话。第一,别太信你信息流里的「大势所趋」,很多被媒体放大的现象(比如某种社会情绪)往往只是算法喂养给特定人群的信息茧房,真正判断一个趋势要看海量数据和它是否溢出到了现实世界。
+
+第二,互联网正在巴尔干化,我们分裂成无数个有自己行话的小部落,用着同样的词却彼此听不懂;而在这个一半流量可能都是机器人的时代,网络文化正在被算法和 AI 塑造出一种独特的「机械品味」。第三,面对这种内容与智能极度泛滥的局面,历史上关于「品味」的智慧重新生效了——品味不只是个人审美偏好,它原本就是一种在财富与技术爆炸中,为了防止社会堕落而进行的自我克制与主动选择;在今天,拥有好品味意味着有意识地去搜寻新事物,不被算法框死,保持一份不可被轻易规训的独立性。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -103,24 +131,21 @@ Ruby 发现,普通人对 AI 有一种强烈的割裂感。当他在德州 Bryan 
 
 **顺着「产品方法」挖下去**
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同概念:品味 (taste)、智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同概念:品味 (taste)、智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:网络民族志学 · 响亮的少数派 · 巴尔干化 · 机械品味 · 生存风险*
-
 <script>
 (function(){
   function move(){

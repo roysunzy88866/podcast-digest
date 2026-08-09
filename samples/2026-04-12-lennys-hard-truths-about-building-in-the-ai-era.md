@@ -49,17 +49,27 @@ tags:
 
 很多初创公司融到 A 轮、B 轮后会疯狂招人，但 CEO 很快会发现：烧的钱多了，大家每天每周每月看着却没干出更多事。Keith 说，他在听过无数 CEO 抱怨后意识到，这背后的根本原因是：任何公司里，能独立推动一个项目从构想到成功的人（他称之为「桶」，barrels）是非常稀缺的 <button class="pd-ts" data-t="16:44" data-who="Keith Rabois" data-en="After years of sitting through these conversations at dinner with other CEOs or COOs, I realized that the fundamental driver of this is that the number of people that can independently drive an initiative from beginning, from inception to success is very limited within any company." aria-label="回原文"></button>。如果不增加「桶」的数量，只顾着招人，你只是在同一个项目后面堆人，白白增加了协作和协调的成本。
 
-被收购时，被誉为科技史最强人才网络之一的 PayPal 大约有 254 人，但 Keith 估计其中只有 12 到 17 个真正的「桶」<button class="pd-ts" data-t="17:13" data-who="Keith Rabois" data-en="Of those people, depending on how strict you really want to be. And this is considered one of the best talent rich networks of all time in technology, there's between 12 to 17 barrels in the organization." aria-label="回原文"></button>。他甚至问过一家相当大的公司的高管，对方说全公司只有两个桶。那么，怎么判断一个人是不是桶？Keith 的标准是：你指一座山头，他能不管不顾、想尽办法动员资源和人手，最终把公司带过那座山 <button class="pd-ts" data-t="19:02" data-who="Keith Rabois" data-en="Can they take an idea and make it happen? Basically, we're going up that, there's a hill over there, that's the hill. Get us over that hill." aria-label="回原文"></button>。简单说，就是具备极度主观能动性、能实现「发射后不管」的人。
+被收购时，被誉为科技史最强人才网络之一的 PayPal 大约有 254 人，但 Keith 估计其中只有 12 到 17 个真正的「桶」<button class="pd-ts" data-t="17:13" data-who="Keith Rabois" data-en="Of those people, depending on how strict you really want to be. And this is considered one of the best talent rich networks of all time in technology, there's between 12 to 17 barrels in the organization." aria-label="回原文"></button>。他甚至问过一家相当大的公司的高管，对方说全公司只有两个桶。
 
-那么，怎么才能抢到这样的人才？Keith 的建议并不是去市场上去抢那些所有人都想要的人。他主张去寻找「未被发现的才华」 <button class="pd-ts" data-t="25:06" data-who="Keith Rabois" data-en="So I think that can be extremely helpful. My more important arc in this is I think you have to build a company on undiscovered talent. I don't think you really want to compete for the people that everybody else wants." aria-label="回原文"></button>。初创公司的资金往往只有竞争对手的十分之一，就像在工资帽的限制下打球，必须用更少的资源撬动更大的成功 <button class="pd-ts" data-t="26:06" data-who="Keith Rabois" data-en="Most sports these days have salary caps. And when you're a startup, not only do you have a salary cap, you probably have one 10th the salary cap of the people you're competing with." aria-label="回原文"></button>。怎么找？去寻找那些会被大公司的「同质化黑盒招聘机器」漏掉的人。有时候年轻人反而有优势，因为他们职业生涯的数据点少，黑盒机器没法像处理三十多岁的人那样轻易给他们打分归类 <button class="pd-ts" data-t="27:07" data-who="Keith Rabois" data-en="So sometimes it's just lack of information. Sometimes it's controversial to say this, but one of the reasons why the net impact of my higher undiscovered talent is you wind up skewing younger." aria-label="回原文"></button>。
+那么，怎么判断一个人是不是桶？Keith 的标准是：你指一座山头，他能不管不顾、想尽办法动员资源和人手，最终把公司带过那座山 <button class="pd-ts" data-t="19:02" data-who="Keith Rabois" data-en="Can they take an idea and make it happen? Basically, we're going up that, there's a hill over there, that's the hill. Get us over that hill." aria-label="回原文"></button>。简单说，就是具备极度主观能动性、能实现「发射后不管」的人。
+
+那么，怎么才能抢到这样的人才？Keith 的建议并不是去市场上去抢那些所有人都想要的人。
+
+他主张去寻找「未被发现的才华」 <button class="pd-ts" data-t="25:06" data-who="Keith Rabois" data-en="So I think that can be extremely helpful. My more important arc in this is I think you have to build a company on undiscovered talent. I don't think you really want to compete for the people that everybody else wants." aria-label="回原文"></button>。初创公司的资金往往只有竞争对手的十分之一，就像在工资帽的限制下打球，必须用更少的资源撬动更大的成功 <button class="pd-ts" data-t="26:06" data-who="Keith Rabois" data-en="Most sports these days have salary caps. And when you're a startup, not only do you have a salary cap, you probably have one 10th the salary cap of the people you're competing with." aria-label="回原文"></button>。
+
+怎么找？去寻找那些会被大公司的「同质化黑盒招聘机器」漏掉的人。有时候年轻人反而有优势，因为他们职业生涯的数据点少，黑盒机器没法像处理三十多岁的人那样轻易给他们打分归类 <button class="pd-ts" data-t="27:07" data-who="Keith Rabois" data-en="So sometimes it's just lack of information. Sometimes it's controversial to say this, but one of the reasons why the net impact of my higher undiscovered talent is you wind up skewing younger." aria-label="回原文"></button>。
 
 ## 别去和客户交谈
 
 说完了怎么组建团队，接下来是 Keith 最惹人争议的一个观点：除非你做的是硬核的企业级生意，否则绝对不要去和客户交谈。
 
-Keith 坦言自己讨厌和客户交谈，甚至拒绝让同事去 <button class="pd-ts" data-t="52:17" data-who="Keith Rabois" data-en="So one that I think people still just would disagree with is that your advice is for, unless you're building an enterprise company, you don't actually want to be talking to customers." aria-label="回原文"></button>。为什么？因为消费决策往往是潜意识的，而当你有意识地去回答别人关于潜意识的提问时，给出的往往是误导信息。他举例说，如果你问一个开着保时捷或兰博基尼的人为什么买这辆车，99% 的时间里，他们会告诉你除了真实原因以外的所有理由 <button class="pd-ts" data-t="53:02" data-who="Keith Rabois" data-en="The proverbial example I like to use, but it's instructive is ask anybody who drives a super fancy car like a Porsche or a Lamborghini, why they bought the car." aria-label="回原文"></button>。
+Keith 坦言自己讨厌和客户交谈，甚至拒绝让同事去 <button class="pd-ts" data-t="52:17" data-who="Keith Rabois" data-en="So one that I think people still just would disagree with is that your advice is for, unless you're building an enterprise company, you don't actually want to be talking to customers." aria-label="回原文"></button>。为什么？
 
-把东西放在客户面前做测试，并不是真实世界的代理人。在现实里，你得在客户去健身、带孩子、乘地铁的繁杂日常中抓住他们的注意力 <button class="pd-ts" data-t="45:00" data-who="Keith Rabois" data-en="I mean, when people are pitching me as an investor, it's one of the things I'm dialing into immediately is how the hell is this going to cut through the clutter?" aria-label="回原文"></button>。如果是做企业级生意，你能找到真正的决策者，去聊是有价值的；但如果是做面向消费者或小企业的产品，听[[客户反馈|客户反馈]]往往是一场灾难。当团队里的人信誓旦旦地说「我和八个客户聊过」并以此高谈阔论时，这些先入为主的偏见就会被锁在每个人的脑子里，把产品带偏方向 <button class="pd-ts" data-t="55:03" data-who="Keith Rabois" data-en="And then people will say, &quot;Yeah, I've sat in so many meetings,&quot; and this would infuriate me, but where people will be like, &quot;I talked to eight customers, blah, blah, blah, blah, blah, and I know that this isn't statistically represented,&quot; but then they pontificate for an hour." aria-label="回原文"></button>。
+因为消费决策往往是潜意识的，而当你有意识地去回答别人关于潜意识的提问时，给出的往往是误导信息。他举例说，如果你问一个开着保时捷或兰博基尼的人为什么买这辆车，99% 的时间里，他们会告诉你除了真实原因以外的所有理由 <button class="pd-ts" data-t="53:02" data-who="Keith Rabois" data-en="The proverbial example I like to use, but it's instructive is ask anybody who drives a super fancy car like a Porsche or a Lamborghini, why they bought the car." aria-label="回原文"></button>。
+
+把东西放在客户面前做测试，并不是真实世界的代理人。在现实里，你得在客户去健身、带孩子、乘地铁的繁杂日常中抓住他们的注意力 <button class="pd-ts" data-t="45:00" data-who="Keith Rabois" data-en="I mean, when people are pitching me as an investor, it's one of the things I'm dialing into immediately is how the hell is this going to cut through the clutter?" aria-label="回原文"></button>。
+
+如果是做企业级生意，你能找到真正的决策者，去聊是有价值的；但如果是做面向消费者或小企业的产品，听[[客户反馈|客户反馈]]往往是一场灾难。当团队里的人信誓旦旦地说「我和八个客户聊过」并以此高谈阔论时，这些先入为主的偏见就会被锁在每个人的脑子里，把产品带偏方向 <button class="pd-ts" data-t="55:03" data-who="Keith Rabois" data-en="And then people will say, &quot;Yeah, I've sat in so many meetings,&quot; and this would infuriate me, but where people will be like, &quot;I talked to eight customers, blah, blah, blah, blah, blah, and I know that this isn't statistically represented,&quot; but then they pontificate for an hour." aria-label="回原文"></button>。
 
 他的解法是：相信你自己的直觉和洞察。你可以去压力测试业务逻辑，比如去问餐厅愿不愿意贴个配送牌，或者算一算每小时的配送密度能不能盈亏平衡 <button class="pd-ts" data-t="56:15" data-who="Keith Rabois" data-en="So for example, let's go to DoorDash. I don't think customers told us that, &quot;We want a button on our phone to click to deliver food,&quot; but you could talk to restaurants and say, &quot;Hey, would you put this placard here so that people walking into your store know in the future that they can get delivered?&quot;" aria-label="回原文"></button>，但不要指望从客户嘴里直接问出「我该造什么」。
 
@@ -69,23 +79,37 @@ Keith 坦言自己讨厌和客户交谈，甚至拒绝让同事去 <button class
 
 Keith 被 Peter Fenn 的观点说服：传统的产品经理在未来是没有意义的 <button class="pd-ts" data-t="35:33" data-who="Keith" data-en="Well, I saw this podcast or I listened to this podcast that Peter Fenn did. And he convinced me that the idea of a PM makes no sense basically in the future. If you think about decomposing the logic is what does PM usually do?" aria-label="回原文"></button>。过去产品经理的拿手好戏是收集客户输入，制定一张安排得井井有条的一年期路线图。但在基础模型能力快速进化的今天，几个月前还做不到的事，很快就变得很容易了，一年期的路线图彻底失效。
 
-现在的关键是能随时在跑动中改变路线图：有人需要敏锐地注意到「这周有些事变得可行了」，然后下周就立刻利用它为客户创造新价值。在这个新的现实里，传统的中间层（比如只做传达和规划的产品经理）失去了意义。真正的核心能力变成了像 CEO 一样思考：我们在构建什么？以及为什么？
+现在的关键是能随时在跑动中改变路线图：有人需要敏锐地注意到「这周有些事变得可行了」，然后下周就立刻利用它为客户创造新价值。在这个新的现实里，传统的中间层（比如只做传达和规划的产品经理）失去了意义。
 
-这不仅是产品经理的进化方向，也是工程师和设计师的进化方向。因为工具越来越强大，实际把东西做出来的难度越来越低，真正的艺术在于知道该构建什么。Keith 观察到，[[Ramp|Ramp]] 的工程总监在管理 20 人团队的同时，自己写的代码量和当年做个人贡献者时一样多——因为他把 AI 当成了自己的第二支团队在指挥 <button class="pd-ts" data-t="40:30" data-who="Keith Rabois" data-en="Another example is a good friend of mine is director of engineering at Ramp. He ships as much code personally. So he has a team of about 20 people." aria-label="回原文"></button>。这种具备极强商业直觉、懂业务、还能用 AI 放大杠杆的工程师，将会享受极高的溢价。此外，设计和工程也正在融合，比如 Shopify 两年前就不让产品经理拿静态的 PowerPoint 演示文稿去做产品演示了，高管们只看能跑的 Demo <button class="pd-ts" data-t="43:19" data-who="Keith Rabois" data-en="So at Shopify, the way they develop, they've been doing this for over two years now. So this may seem normal, but they have not let PMs provide PowerPoint or keynote presentations on product for two years." aria-label="回原文"></button>。
+真正的核心能力变成了像 CEO 一样思考：我们在构建什么？以及为什么？
+
+这不仅是产品经理的进化方向，也是工程师和设计师的进化方向。因为工具越来越强大，实际把东西做出来的难度越来越低，真正的艺术在于知道该构建什么。
+
+Keith 观察到，[[Ramp|Ramp]] 的工程总监在管理 20 人团队的同时，自己写的代码量和当年做个人贡献者时一样多——因为他把 AI 当成了自己的第二支团队在指挥 <button class="pd-ts" data-t="40:30" data-who="Keith Rabois" data-en="Another example is a good friend of mine is director of engineering at Ramp. He ships as much code personally. So he has a team of about 20 people." aria-label="回原文"></button>。这种具备极强商业直觉、懂业务、还能用 AI 放大杠杆的工程师，将会享受极高的溢价。此外，设计和工程也正在融合，比如 Shopify 两年前就不让产品经理拿静态的 PowerPoint 演示文稿去做产品演示了，高管们只看能跑的 Demo <button class="pd-ts" data-t="43:19" data-who="Keith Rabois" data-en="So at Shopify, the way they develop, they've been doing this for over two years now. So this may seem normal, but they have not let PMs provide PowerPoint or keynote presentations on product for two years." aria-label="回原文"></button>。
 
 ## 逆向判断与公开批评
 
 说完了角色的变化，最后回到 Keith 的管理与投资哲学。在这集里，他抛出了几个极为反直觉的判断，最典型的就是关于如何给团队施压和给反馈。
 
-Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地施加力量 <button class="pd-ts" data-t="28:32" data-who="Keith Rabois" data-en="So a friend of mine who's a CEO once asked Mike Moore, it's like, &quot;What's the most common denominator of the best CEOs ever?&quot; And he said, &quot;It's the relentless application of force.&quot;" aria-label="回原文"></button>。人一旦取得成功就会变得自满，而 CEO 的唯一角色就是抵消这种自满。你做得越好，CEO 就越该狠命推着你往前走。有意思的是，他的施压时机很特别：当公司陷入困境时，他反而像个教练一样提供支持，绝不乱挑刺，因为创始人自己已经很清楚自己在挣扎；但当公司蓬勃发展、全员自满时，他反而会变得极度挑剔，去揪出那些最终会成为隐患的问题 <button class="pd-ts" data-t="29:49" data-who="Keith Rabois" data-en="Maybe what's less intuitive, and you may picked up on this in your research and interviews of people who know me, when a company's struggling, I'm actually usually very non-critical and more like a coach and supporter." aria-label="回原文"></button>。因为真正顶尖的人才就像顶尖的运动员，赢了比赛时反而最能听得进反馈去打磨细节，真要让他们闲下来喘口气，士气反而会下降 <button class="pd-ts" data-t="31:53" data-who="Keith Rabois" data-en="It's not that exciting.&quot; Yeah. Brian and I are usually in sync a lot." aria-label="回原文"></button>。
+Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地施加力量 <button class="pd-ts" data-t="28:32" data-who="Keith Rabois" data-en="So a friend of mine who's a CEO once asked Mike Moore, it's like, &quot;What's the most common denominator of the best CEOs ever?&quot; And he said, &quot;It's the relentless application of force.&quot;" aria-label="回原文"></button>。人一旦取得成功就会变得自满，而 CEO 的唯一角色就是抵消这种自满。
 
-在具体的反馈方式上，Keith 和很多推崇[[心理安全感|心理安全感]]的管理者完全相反——他主张公开批评。他的逻辑是：如果你只是私下把负面反馈给到个人，你只是在优化一个局部，而不是整个系统 <button class="pd-ts" data-t="73:09" data-who="Keith Rabois" data-en="And when you decompose the logic of it's so obviously true, but almost no one does this and very few people talk about it even if they do it. So if you think about it, when you give people feedback negative individually, you're optimizing for the atomic unit, not the system." aria-label="回原文"></button>。公开批评能让所有同事知道有个问题正在被解决，消除大家暗中的猜忌；同时也让其他人有机会伸出援手，把「你有缺陷，自己去改」变成一次团队协作。他直言不讳地说，高性能机器不需要心理安全感，它们唯一的目的就是赢 <button class="pd-ts" data-t="74:41" data-who="Keith Rabois" data-en="No, no, I don't believe in that at all. High performance machines don't have psychological safety. They're about winning." aria-label="回原文"></button>。
+你做得越好，CEO 就越该狠命推着你往前走。有意思的是，他的施压时机很特别：当公司陷入困境时，他反而像个教练一样提供支持，绝不乱挑刺，因为创始人自己已经很清楚自己在挣扎；但当公司蓬勃发展、全员自满时，他反而会变得极度挑剔，去揪出那些最终会成为隐患的问题 <button class="pd-ts" data-t="29:49" data-who="Keith Rabois" data-en="Maybe what's less intuitive, and you may picked up on this in your research and interviews of people who know me, when a company's struggling, I'm actually usually very non-critical and more like a coach and supporter." aria-label="回原文"></button>。因为真正顶尖的人才就像顶尖的运动员，赢了比赛时反而最能听得进反馈去打磨细节，真要让他们闲下来喘口气，士气反而会下降 <button class="pd-ts" data-t="31:53" data-who="Keith Rabois" data-en="It's not that exciting.&quot; Yeah. Brian and I are usually in sync a lot." aria-label="回原文"></button>。
 
-这种哲学也延伸到了他的投资上。他判断早期公司的核心信号就是「执行速度」：在这次董事会上提出的问题，下次开会前就已经发布了解决方案并测了效果 <button class="pd-ts" data-t="67:31" data-who="Keith Rabois" data-en="And he's like, &quot;At board meeting X, you guys identify an opportunity or problem. And by the next board meeting, you've shipped solutions, addressed it, featured just constantly, consistently.&quot;" aria-label="回原文"></button>。比如 Ramp 当时发卡，行业里通常要 9 到 12 个月，他们 3 个月就干到了临门一脚，这让 Keith 在产品还没正式发布前就决定抢投他们的 A 轮 <button class="pd-ts" data-t="69:06" data-who="Keith Rabois" data-en="Best case, nine. Ramp was on the precipice in three months. And I was like, &quot;Oh my God, I've just never seen that velocity.&quot;" aria-label="回原文"></button>。而那些最优秀的公司，往往会把内部培养人才变成一种战略——不去外招资深高管，而是通过幕僚长等角色用一两年的耳濡目染，把年轻有野心的人训练成资深的成功领导者 <button class="pd-ts" data-t="71:30" data-who="Keith Rabois" data-en="I mean, I've watched people use even chief of staff roles to groom talent. The one company board meeting I was at this week that is phenomenal on any metric. And the last two, his CMO, who's fantastic, is performing miraculously, was his last chief of staff and his new head of product probably is his current chief of staff." aria-label="回原文"></button>。
+在具体的反馈方式上，Keith 和很多推崇[[心理安全感|心理安全感]]的管理者完全相反——他主张公开批评。他的逻辑是：如果你只是私下把负面反馈给到个人，你只是在优化一个局部，而不是整个系统 <button class="pd-ts" data-t="73:09" data-who="Keith Rabois" data-en="And when you decompose the logic of it's so obviously true, but almost no one does this and very few people talk about it even if they do it. So if you think about it, when you give people feedback negative individually, you're optimizing for the atomic unit, not the system." aria-label="回原文"></button>。
+
+公开批评能让所有同事知道有个问题正在被解决，消除大家暗中的猜忌；同时也让其他人有机会伸出援手，把「你有缺陷，自己去改」变成一次团队协作。他直言不讳地说，高性能机器不需要心理安全感，它们唯一的目的就是赢 <button class="pd-ts" data-t="74:41" data-who="Keith Rabois" data-en="No, no, I don't believe in that at all. High performance machines don't have psychological safety. They're about winning." aria-label="回原文"></button>。
+
+这种哲学也延伸到了他的投资上。他判断早期公司的核心信号就是「执行速度」：在这次董事会上提出的问题，下次开会前就已经发布了解决方案并测了效果 <button class="pd-ts" data-t="67:31" data-who="Keith Rabois" data-en="And he's like, &quot;At board meeting X, you guys identify an opportunity or problem. And by the next board meeting, you've shipped solutions, addressed it, featured just constantly, consistently.&quot;" aria-label="回原文"></button>。
+
+比如 Ramp 当时发卡，行业里通常要 9 到 12 个月，他们 3 个月就干到了临门一脚，这让 Keith 在产品还没正式发布前就决定抢投他们的 A 轮 <button class="pd-ts" data-t="69:06" data-who="Keith Rabois" data-en="Best case, nine. Ramp was on the precipice in three months. And I was like, &quot;Oh my God, I've just never seen that velocity.&quot;" aria-label="回原文"></button>。而那些最优秀的公司，往往会把内部培养人才变成一种战略——不去外招资深高管，而是通过幕僚长等角色用一两年的耳濡目染，把年轻有野心的人训练成资深的成功领导者 <button class="pd-ts" data-t="71:30" data-who="Keith Rabois" data-en="I mean, I've watched people use even chief of staff roles to groom talent. The one company board meeting I was at this week that is phenomenal on any metric. And the last two, his CMO, who's fantastic, is performing miraculously, was his last chief of staff and his new head of product probably is his current chief of staff." aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是这几句话。第一，不要只顾着招人，公司能并行推进多少件重要的事，取决于你有多少个「桶」——也就是那种你指一座山头，他能想尽一切办法带你越过去的人，招再多「弹药」也无法替代「桶」的作用。第二，招人要去寻找未被大厂黑盒机器发现的才华，尤其是那些资历数据点不多但极具主观能动性的年轻人。第三，如果是做面向消费者的产品，别去和客户交谈，潜意识的选择问不出真话，你要相信自己的洞察，去压力测试业务逻辑，而不是依赖几个人的伪反馈。第四，在 AI 时代，传统的产品经理角色会消亡，取而代之的是那种懂商业、像 CEO 一样思考、能随时应对变化的人，而最吃香的是具备[[商业头脑|商业头脑]]、能把 AI 当第二团队指挥的工程师。第五，想要打造高性能团队就不要迷信心理安全感，当公司一帆风顺、大家开始自满时，反而要狠命地公开挑刺，因为高性能机器的唯一目标就是赢。
+最后收个尾，这一集值得带走的是这几句话。第一，不要只顾着招人，公司能并行推进多少件重要的事，取决于你有多少个「桶」——也就是那种你指一座山头，他能想尽一切办法带你越过去的人，招再多「弹药」也无法替代「桶」的作用。
+
+第二，招人要去寻找未被大厂黑盒机器发现的才华，尤其是那些资历数据点不多但极具主观能动性的年轻人。第三，如果是做面向消费者的产品，别去和客户交谈，潜意识的选择问不出真话，你要相信自己的洞察，去压力测试业务逻辑，而不是依赖几个人的伪反馈。
+
+第四，在 AI 时代，传统的产品经理角色会消亡，取而代之的是那种懂商业、像 CEO 一样思考、能随时应对变化的人，而最吃香的是具备[[商业头脑|商业头脑]]、能把 AI 当第二团队指挥的工程师。第五，想要打造高性能团队就不要迷信心理安全感，当公司一帆风顺、大家开始自满时，反而要狠命地公开挑刺，因为高性能机器的唯一目标就是赢。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
@@ -124,24 +148,21 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 **顺着「组织与领导力」挖下去**
 
-- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同嘉宾:Lenny · 同概念:PM
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再当「答案机器」：高管教练Rachel Lockett的领导力实操课]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]] —— 同嘉宾:Lenny
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同概念:PM</span>
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再当「答案机器」：高管教练Rachel Lockett的领导力实操课]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同嘉宾:Lenny · 同公司:Ramp · 同概念:PM
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Ramp · 同概念:PM</span>
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Airbnb、Ramp</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)</span>
 
 </div>
 </div>
-
-*本集关键词:人才密度 · 招聘哲学 · AI 时代组织变局 · 反直觉管理 · 早期投资心法*
-
 <script>
 (function(){
   function move(){

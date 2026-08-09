@@ -1,0 +1,503 @@
+{
+  "episode_id": "2026-08-08-talks-realtime-multiplayer-automation-and-you",
+  "podcast": "精选演讲",
+  "date": "2026-08-08",
+  "tags": [
+    "AI 编程",
+    "智能体工作流",
+    "自动化",
+    "实时协作",
+    "开发者生产力"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "idan-gazit",
+      "type": "person",
+      "role": "guest",
+      "name": "Idan Gazit",
+      "file": "Idan Gazit",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "github-next",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub Next",
+      "file": "GitHub Next",
+      "primary": true,
+      "how_described": "本集把它说成:GitHub 探索未来软件开发方式的实验室团队,创建了 Copilot 并在本集演示了 Agentic Workflows 和 ACE 两个原型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.203,
+            29.464
+          ],
+          "quote": "I lead GitHub Next, which is the labs team of GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            270.14,
+            274.924
+          ],
+          "quote": "So today I'll give you a quick tour of two prototypes that we're working on at GitHub Next in each of these themes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "本集把它说成:GitHub Next 团队创建的 AI 助手,能根据几句自然语言提示自动梳理生成完整的智能体工作流手册。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            36.265,
+            40.446
+          ],
+          "quote": "We're the team that created Copilot and pioneered a ton of areas since then, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            334.048,
+            341.993
+          ],
+          "quote": "And because I'm lazy and I like not doing work, I used Copilot to create an agentic workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            380.638,
+            386.583
+          ],
+          "quote": "Like if GitHub Actions and Copilot had a baby together and it ran on Markdown, this is what it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            410.615,
+            418.741
+          ],
+          "quote": "I didn't ask for any of this that explicitly, but it turns out that Copilot's pretty good at sussing out my little three-line message into a full playbook.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ace",
+      "type": "company",
+      "role": "company",
+      "name": "ACE",
+      "file": "ACE",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            280.688,
+            289.934
+          ],
+          "quote": "Agentic workflows is our take on how automations should work in an agentic world, and ACE is a prototype that explores what real-time multiplayer software development looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            891.373,
+            892.314
+          ],
+          "quote": "This is ACE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            894.677,
+            896.921
+          ],
+          "quote": "So ACE looks an awful lot like Slack, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            977.65,
+            980.293
+          ],
+          "quote": "Instead, I just want to be like, yo, Ace, do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1130.532,
+            1132.474
+          ],
+          "quote": "This is actually work that we're doing on ACE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1161.196,
+            1162.397
+          ],
+          "quote": "So that's a short ACE demo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1251.286,
+            1254.25
+          ],
+          "quote": "So that's ACE and that's the genetic workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1265.321,
+            1271.866
+          ],
+          "quote": "So if any of this resonates and you're interested in it and you want to give it a shot, ACE is going to be in technical preview hopefully later this month.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dependabot",
+      "type": "company",
+      "role": "company",
+      "name": "Dependabot",
+      "file": "Dependabot",
+      "primary": true,
+      "how_described": "本集把它说成:GitHub 旗下能在依赖过期时发出提醒的工具,但无法帮你修复升级带来的代码报错(因此催生了超级 Dependabot 需求)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            313.446,
+            317.19
+          ],
+          "quote": "Get a product called Dependabot, which notifies me when my stuff is out of date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            323.397,
+            332.707
+          ],
+          "quote": "So what I really want is a kind of super Dependabot that's always there, automatically looking in the background at my dependencies and figuring out how to upgrade me, including the code changes, the breaking changes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github-actions",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub Actions",
+      "file": "GitHub Actions",
+      "primary": true,
+      "how_described": "本集把它说成:智能体工作流的底层执行引擎,AI 会自动把 Markdown 编译成底层的 Actions 工作流(对开发者完全透明不可见)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            380.638,
+            386.583
+          ],
+          "quote": "Like if GitHub Actions and Copilot had a baby together and it ran on Markdown, this is what it is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "markdown",
+      "type": "concept",
+      "role": "concept",
+      "name": "Markdown",
+      "file": "Markdown",
+      "primary": true,
+      "how_described": "本集把它说成:智能体工作流的源代码,用自然语言书写任务指令;未来甚至能作为捕捉系统真相的共享计划文档,让 AI 负责把文档变为现实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            378.717,
+            380.258
+          ],
+          "quote": "They look like Markdown documents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            380.638,
+            386.583
+          ],
+          "quote": "Like if GitHub Actions and Copilot had a baby together and it ran on Markdown, this is what it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            618.81,
+            621.494
+          ],
+          "quote": "Now, it's just Markdown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            621.594,
+            623.296
+          ],
+          "quote": "It's easy to iterate on that Markdown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            630.326,
+            631.628
+          ],
+          "quote": "The Markdown is the source code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1038.23,
+            1041.173
+          ],
+          "quote": "And that plan comes as a markdown document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1041.873,
+            1047.818
+          ],
+          "quote": "But this markdown document is not just for me to look at and edit, it's for us to look at and edit together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1069.896,
+            1081.143
+          ],
+          "quote": "And as we see now, we're moving to this future where more and more of the work that we're doing with AI results in documents, like markdown documents in a docs folder that capture sort of the truth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:系统层面、确定性的安全规定(如规定智能体能读什么文件、发什么网络请求、只能创建单个 PR)。必须在系统层硬性注入,绝不能只用提示词约束。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            432.262,
+            443.669
+          ],
+          "quote": "This is where we stick the guardrails, because if we're going to be not supervising agents doing things, then we're going to need much stronger guardrails around what they're allowed to do, what they're allowed to read, what they're allowed to write.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            457.756,
+            465.601
+          ],
+          "quote": "So any of the guardrails, if you're prompting the guardrails at the agent, you're effectively letting the fox loose in the henhouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            711.164,
+            718.007
+          ],
+          "quote": "The security guardrails, we have sort of four principles that we believe everybody should burn into their brains.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它说成:一种通过恶意输入篡改 AI 指令的攻击手法,能把智能体带向意想不到的方向(比如引狼入室,让它去比特币网站)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            452.233,
+            457.376
+          ],
+          "quote": "That's not enough, because somebody else can prompt inject the agent and take it in a direction that you don't expect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "astro",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astro",
+      "file": "Astro",
+      "primary": false,
+      "how_described": "本集把它说成:Idan 个人网站使用的 Web 框架,因每月大量发布新版本而成为了演示自动升级等智能体工作流的绝佳测试对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            302.381,
+            304.822
+          ],
+          "quote": "And my personal website is built with this framework called Astro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            304.922,
+            306.283
+          ],
+          "quote": "Astro is a great web framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            482.987,
+            494.811
+          ],
+          "quote": "In fact, it's only allowed to go to some specified set of default websites, the NPM ecosystem, because it's got to check for what's new, GitHub, and of course, the Astro Docs, which I specified in my original prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            576.874,
+            585.501
+          ],
+          "quote": "At a major upgrading change, and actually I'm lucky that Astro just released Astro 7 because this is actually jumping two major revisions from five to seven.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            586.062,
+            596.291
+          ],
+          "quote": "And so now it's saying like, okay, Astro 7 has brought me all of these things, and Astro 6 would have brought me all of that stuff, but I neglected to do the upgrade so I could have a cool demo for you all.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集把它说成:Idan 部署个人网站的平台,支持预览部署,让智能体能直观验证代码升级后网站没有发生破坏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            558.675,
+            560.817
+          ],
+          "quote": "And because I happen to have this deployed to Cloudflare,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集把它说成:为普通办公设计的通讯工具(非专为软件开发),被当作比喻用来解释智能体工作流指令和 ACE 协作界面的外在形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            350.637,
+            357.502
+          ],
+          "quote": "And then what comes below that is something a lot like a Slack message that I'd send to a junior developer on my team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            830.501,
+            834.502
+          ],
+          "quote": "Slack was designed to be better than email for the average office worker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            894.677,
+            896.921
+          ],
+          "quote": "So ACE looks an awful lot like Slack, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

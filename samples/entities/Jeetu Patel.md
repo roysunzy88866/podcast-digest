@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Dr. Becky Kennedy]]
+[[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Cisco":1,"NVIDIA":15,"ChatGPT":11,"主观能动性":8,"AI 优先":1,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Cisco":1,"NVIDIA":15,"ChatGPT":11,"主观能动性":8,"AI 优先":1,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){

@@ -48,11 +48,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]]
+[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":9,"智能体":65,"Saragawa":1,"Kwindla Kramer":1,"Azure":1,"Pipecat":1,"GitHub":8,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":9,"智能体":67,"Saragawa":1,"Kwindla Kramer":1,"Azure":1,"Pipecat":1,"GitHub":8,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
 
 <script>
 (function(){

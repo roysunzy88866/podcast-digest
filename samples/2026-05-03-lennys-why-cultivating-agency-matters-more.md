@@ -42,21 +42,45 @@ tags:
 
 在这一集访谈里，他聊了五件事：为什么在 AI 时代，驱使一个人主动干活的「[[主观能动性|主观能动性]]」比具体技能更稀缺；为什么 Notion 的设计师和产品经理开始用终端写代码，而不再只用 [[Figma|Figma]] 画图；他怎么用一个精妙的比喻，把 AI 时代「软件工程」的真问题给讲明白了；伟大产品的共同点到底是什么；以及为什么他不觉得「[[SaaS 末日|SaaS 末日]]」真的会来。
 
-说完了这一集大概在讲什么，接下来先从他眼里当下最稀缺的能力聊起。Max 认为，以前人遇到做不了的事，总爱拿「我技能不够」当借口；但现在有了接近 AGI（通用人工智能）水平的模型帮忙，技能门槛被大幅拉低，真正拉开差距的变成了「主观能动性」——也就是你认不认为周围的世界是可塑的、你能不能不等别人下指令就主动去改变它。他拿 Notion 内部一位叫 Brian 的同事举例：Brian 模糊了工程和设计的边界，还会主动跑去帮公司招人。Max 甚至有个内部的说法叫「你开 Notion 这辆车，能不能开出偷来的感觉」<button class="pd-ts" data-t="12:31" data-who="Lenny" data-en="You should cut this one short and have him on. I think the way I would describe it is, and I tell this to myself as well, which is like, okay, do you drive Notion like it's stolen, which is we're not the founders." aria-label="回原文"></button>，意思就是：你不是创始人，照样可以像创业一样推动事情发生。
+说完了这一集大概在讲什么，接下来先从他眼里当下最稀缺的能力聊起。Max 认为，以前人遇到做不了的事，总爱拿「我技能不够」当借口；但现在有了接近 AGI（通用人工智能）水平的模型帮忙，技能门槛被大幅拉低，真正拉开差距的变成了「主观能动性」——也就是你认不认为周围的世界是可塑的、你能不能不等别人下指令就主动去改变它。
 
-顺着「人该怎么变」这个话题，自然会落到具体的工具和工作流上。很多人问：AI 这么强，还需要 Figma 吗？Max 觉得问错了重点。他不在乎设计师写的代码会不会上线，他在乎的是：只有亲自写代码，你才能理解「[[智能体循环|智能体循环]]」（agent loop，也就是模型自己观察、思考、调用工具再执行的周而复始的过程）这个新材料 <button class="pd-ts" data-t="09:23" data-who="Max Schoening" data-en="So, for example, I think the two extremes would be if a PM or a designer knows how to tweak with, pick your favorite, they're all the same, Codex, Claude Code or whatever." aria-label="回原文"></button>。在 Notion，设计师和产品经理真的开始抛弃部分图形界面，直接用终端和文本界面（TUI）跑 Claude Code 这样的工具 <button class="pd-ts" data-t="39:53" data-who="Max Schoening" data-en="I think the terminal is actually surprising, which is it's initially scary for people and you could do so much, but now PMs are slowly ... Once they're in Claude Code or Codex, everything is fine." aria-label="回原文"></button>。为什么鼓励用终端？因为只有钻进底层，他们才会像开发者一样去拉扯系统的其他线头，真正弄懂计算机的运作原理。现在的共识是：「每个项目的前 10% 已经免费了」<button class="pd-ts" data-t="28:47" data-who="Max Schoening" data-en="What part is most not something you don't do anymore or you do a lot more of now with AI emerging as a big part of your process? I think the first 10% of every project are now free." aria-label="回原文"></button>——以前要写长篇文档论证的想法，现在直接让 AI 做个能点能用的粗糙原型，拿去给别人看就好。GitHub 以前有个说法叫「演示而不是备忘录」，现在做到这点简直轻而易举。
+他拿 Notion 内部一位叫 Brian 的同事举例：Brian 模糊了工程和设计的边界，还会主动跑去帮公司招人。Max 甚至有个内部的说法叫「你开 Notion 这辆车，能不能开出偷来的感觉」<button class="pd-ts" data-t="12:31" data-who="Lenny" data-en="You should cut this one short and have him on. I think the way I would describe it is, and I tell this to myself as well, which is like, okay, do you drive Notion like it's stolen, which is we're not the founders." aria-label="回原文"></button>，意思就是：你不是创始人，照样可以像创业一样推动事情发生。
 
-工具变了，软件工程的本质变了吗？这正是 Max 最反直觉的一个观点。他非常反感现在的行业 discourse（公开讨论）总是吹嘘「烧了多少 token、产出了多少功能」。Max 用了一个非常漂亮的物理隐喻：如果你我要开一家硬件公司，一开始会用 3D 打印做满身层纹的粗糙外壳，谁都知道这不能卖钱；真正的「工程」，是那条漫长曲折的路，是你去优化工厂，让产品能为一亿人甚至十亿人造出来，还要保证良品率和精度 <button class="pd-ts" data-t="14:34" data-who="Max Schoening" data-en="And so the way I would describe this is, I sometimes like to think about software in terms of physical metaphors, right? And physical metaphors somehow make it so much clearer what a prototype is versus what an engineered thing is." aria-label="回原文"></button>。他觉得现在的软件界完全丢掉了这种「为一亿人造东西」的工程追求，把 Apple 式那种一体成型、精工细作的质感给丢了，连顶级大模型实验室出的工具也经常出现两周一回归的 bug <button class="pd-ts" data-t="54:02" data-who="Max Schoening" data-en="And so I think something that I'm still very much struggling with is software quality. And I will also say I don't think the labs are exempt from this. I love their tools." aria-label="回原文"></button>。
+顺着「人该怎么变」这个话题，自然会落到具体的工具和工作流上。很多人问：AI 这么强，还需要 Figma 吗？
 
-既然软件的质量不取决于数量，那到底什么决定了产品的成败？这就来到了 Max 关于「[[品味|品味]]」和「核心」的判断。伟大产品的成功，从来不靠功能叠加——拼命想「再加一个功能就好了」是最大的陷阱。真正的好产品，都有一个微小但极其出色的核心 <button class="pd-ts" data-t="61:24" data-who="Max Schoening" data-en="I think one of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it'll be finally great. If I really look at the truly great products, they all have one tiny core that is so exceptionally good." aria-label="回原文"></button>。手机是多点触控，GitHub 是拉取请求，Notion 是块和斜杠命令，Heroku 当年就靠一句 `git push heroku master` 让人陶醉，Dropbox 靠一个小小的菜单栏图标把同步做到极致 <button class="pd-ts" data-t="62:25" data-who="Max Schoening" data-en="Because this is really interesting, just like what's the tiny core that makes everything else work? At Heroku, for sure, I think it was the Git Push Heroku master of ... at the time it was really hard to deploy apps." aria-label="回原文"></button>。至于怎么建立「品味」（在脑子里跑个虚拟机，精准预测特定人群会不会喜欢某个东西）？Max 说只能靠海量练习，增加带反馈的迭代频率，就像训练一个模型一样。
+Max 觉得问错了重点。他不在乎设计师写的代码会不会上线，他在乎的是：只有亲自写代码，你才能理解「[[智能体循环|智能体循环]]」（agent loop，也就是模型自己观察、思考、调用工具再执行的周而复始的过程）这个新材料 <button class="pd-ts" data-t="09:23" data-who="Max Schoening" data-en="So, for example, I think the two extremes would be if a PM or a designer knows how to tweak with, pick your favorite, they're all the same, Codex, Claude Code or whatever." aria-label="回原文"></button>。
 
-带着对单一产品核心的理解，如果把视角放大到整个软件行业，AI 会摧毁现有的 SaaS（软件即服务）吗？很多激进的观点认为，大家以后自己写工具，不需要 Salesforce 或 Notion 了。Max 觉得这种「SaaS 末日论」被严重夸大 <button class="pd-ts" data-t="26:55" data-who="Max Schoening" data-en="So I think to some degree the SaaS apocalypse is greatly exaggerated. At the same time, are things going to stay the same? Of course not." aria-label="回原文"></button>。他承认 2010 年代很多 SaaS 只是给电子表格套了个漂亮的固定表单，确实会被淘汰。但软件就像花园，需要人不断修剪维护；大多数人根本不想从头维护一整套软件，而是想要「开箱即用」。他甚至自曝曾在一个周末试图重建 Notion，最后发现没人想干这种苦力活。他判断，未来软件会倒退回 90 年代的通用工具形态（文字处理器、电子表格），但因为有了 AI 导师，上手门槛会大幅降低。
+在 Notion，设计师和产品经理真的开始抛弃部分图形界面，直接用终端和文本界面（TUI）跑 Claude Code 这样的工具 <button class="pd-ts" data-t="39:53" data-who="Max Schoening" data-en="I think the terminal is actually surprising, which is it's initially scary for people and you could do so much, but now PMs are slowly ... Once they're in Claude Code or Codex, everything is fine." aria-label="回原文"></button>。为什么鼓励用终端？
 
-聊完了产品的变与不变，最后是对个人心态的寄语。Max 对硅谷当下蔓延的「错失恐惧」很反感——他觉得现在的硅谷挤满了并不真正热爱电脑、只怕赶不上末班车赚不到钱的人 <button class="pd-ts" data-t="76:40" data-who="Max Schoening" data-en="It's so funny to say that, but younger people in Silicon Valley. Right now, I think that Silicon Valley is uncharacteristically full of people who don't actually love computers." aria-label="回原文"></button>。当主持人问他如果有了 AGI 不用工作了他干嘛，Max 说自己会像现在一样捣鼓东西。他开玩笑说，那些担心被 AI 淘汰的人其实早已在享受一种变相的「全民基本收入」——坐在空调房里对着电脑敲字就能拿高薪。与其焦虑不可控的未来，不如去散步，去仔细观察周围的一切，你会发现世界都是由不比你聪明的人造出来的，去捣鼓、去创造，这才是对抗焦虑的终极武器。
+因为只有钻进底层，他们才会像开发者一样去拉扯系统的其他线头，真正弄懂计算机的运作原理。现在的共识是：「每个项目的前 10% 已经免费了」<button class="pd-ts" data-t="28:47" data-who="Max Schoening" data-en="What part is most not something you don't do anymore or you do a lot more of now with AI emerging as a big part of your process? I think the first 10% of every project are now free." aria-label="回原文"></button>——以前要写长篇文档论证的想法，现在直接让 AI 做个能点能用的粗糙原型，拿去给别人看就好。GitHub 以前有个说法叫「演示而不是备忘录」，现在做到这点简直轻而易举。
+
+工具变了，软件工程的本质变了吗？这正是 Max 最反直觉的一个观点。
+
+他非常反感现在的行业 discourse（公开讨论）总是吹嘘「烧了多少 token、产出了多少功能」。Max 用了一个非常漂亮的物理隐喻：如果你我要开一家硬件公司，一开始会用 3D 打印做满身层纹的粗糙外壳，谁都知道这不能卖钱；真正的「工程」，是那条漫长曲折的路，是你去优化工厂，让产品能为一亿人甚至十亿人造出来，还要保证良品率和精度 <button class="pd-ts" data-t="14:34" data-who="Max Schoening" data-en="And so the way I would describe this is, I sometimes like to think about software in terms of physical metaphors, right? And physical metaphors somehow make it so much clearer what a prototype is versus what an engineered thing is." aria-label="回原文"></button>。他觉得现在的软件界完全丢掉了这种「为一亿人造东西」的工程追求，把 Apple 式那种一体成型、精工细作的质感给丢了，连顶级大模型实验室出的工具也经常出现两周一回归的 bug <button class="pd-ts" data-t="54:02" data-who="Max Schoening" data-en="And so I think something that I'm still very much struggling with is software quality. And I will also say I don't think the labs are exempt from this. I love their tools." aria-label="回原文"></button>。
+
+既然软件的质量不取决于数量，那到底什么决定了产品的成败？这就来到了 Max 关于「[[品味|品味]]」和「核心」的判断。
+
+伟大产品的成功，从来不靠功能叠加——拼命想「再加一个功能就好了」是最大的陷阱。真正的好产品，都有一个微小但极其出色的核心 <button class="pd-ts" data-t="61:24" data-who="Max Schoening" data-en="I think one of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it'll be finally great. If I really look at the truly great products, they all have one tiny core that is so exceptionally good." aria-label="回原文"></button>。
+
+手机是多点触控，GitHub 是拉取请求，Notion 是块和斜杠命令，Heroku 当年就靠一句 `git push heroku master` 让人陶醉，Dropbox 靠一个小小的菜单栏图标把同步做到极致 <button class="pd-ts" data-t="62:25" data-who="Max Schoening" data-en="Because this is really interesting, just like what's the tiny core that makes everything else work? At Heroku, for sure, I think it was the Git Push Heroku master of ... at the time it was really hard to deploy apps." aria-label="回原文"></button>。至于怎么建立「品味」（在脑子里跑个虚拟机，精准预测特定人群会不会喜欢某个东西）？Max 说只能靠海量练习，增加带反馈的迭代频率，就像训练一个模型一样。
+
+带着对单一产品核心的理解，如果把视角放大到整个软件行业，AI 会摧毁现有的 SaaS（软件即服务）吗？很多激进的观点认为，大家以后自己写工具，不需要 Salesforce 或 Notion 了。
+
+Max 觉得这种「SaaS 末日论」被严重夸大 <button class="pd-ts" data-t="26:55" data-who="Max Schoening" data-en="So I think to some degree the SaaS apocalypse is greatly exaggerated. At the same time, are things going to stay the same? Of course not." aria-label="回原文"></button>。他承认 2010 年代很多 SaaS 只是给电子表格套了个漂亮的固定表单，确实会被淘汰。
+
+但软件就像花园，需要人不断修剪维护；大多数人根本不想从头维护一整套软件，而是想要「开箱即用」。他甚至自曝曾在一个周末试图重建 Notion，最后发现没人想干这种苦力活。他判断，未来软件会倒退回 90 年代的通用工具形态（文字处理器、电子表格），但因为有了 AI 导师，上手门槛会大幅降低。
+
+聊完了产品的变与不变，最后是对个人心态的寄语。Max 对硅谷当下蔓延的「错失恐惧」很反感——他觉得现在的硅谷挤满了并不真正热爱电脑、只怕赶不上末班车赚不到钱的人 <button class="pd-ts" data-t="76:40" data-who="Max Schoening" data-en="It's so funny to say that, but younger people in Silicon Valley. Right now, I think that Silicon Valley is uncharacteristically full of people who don't actually love computers." aria-label="回原文"></button>。
+
+当主持人问他如果有了 AGI 不用工作了他干嘛，Max 说自己会像现在一样捣鼓东西。他开玩笑说，那些担心被 AI 淘汰的人其实早已在享受一种变相的「全民基本收入」——坐在空调房里对着电脑敲字就能拿高薪。与其焦虑不可控的未来，不如去散步，去仔细观察周围的一切，你会发现世界都是由不比你聪明的人造出来的，去捣鼓、去创造，这才是对抗焦虑的终极武器。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的是几句话。第一，AI 把技能门槛拉平后，真正稀缺的是主观能动性，是你坚信世界可塑、不待别人发号施令就去干的劲头。第二，别迷信功能数量或烧了多少 token，软件工程的尊严在于像造一亿人用的硬件那样，打磨出精工细作的质量；一个项目最廉价的往往是前 10%，那最后把东西做可靠的 10% 依然是 90% 的工作量。第三，别掉进不断加功能的死亡螺旋，所有伟大的产品都靠一个微小但做到极致的核心存活。第四，SaaS 末日不会轻易到来，因为大多数人只想要有人替他们把花园维护好，而不是自己去刨土。最后，别让时代的狂热裹挟你，去找你真正热爱的事，然后像训练模型一样，在带反馈的高频迭代中建立起属于你的品味。
+最后收个尾，这一集值得带走的是几句话。第一，AI 把技能门槛拉平后，真正稀缺的是主观能动性，是你坚信世界可塑、不待别人发号施令就去干的劲头。
+
+第二，别迷信功能数量或烧了多少 token，软件工程的尊严在于像造一亿人用的硬件那样，打磨出精工细作的质量；一个项目最廉价的往往是前 10%，那最后把东西做可靠的 10% 依然是 90% 的工作量。第三，别掉进不断加功能的死亡螺旋，所有伟大的产品都靠一个微小但做到极致的核心存活。
+
+第四，SaaS 末日不会轻易到来，因为大多数人只想要有人替他们把花园维护好，而不是自己去刨土。最后，别让时代的狂热裹挟你，去找你真正热爱的事，然后像训练模型一样，在带反馈的高频迭代中建立起属于你的品味。
 
 <div class="pd-sec">全部金句 <span>12 条(中英对照,已过机器闸门)</span></div>
 
@@ -115,24 +139,21 @@ tags:
 
 **顺着「产品方法」挖下去**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]] —— 同公司:Figma、GitHub、Notion · 同概念:智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同公司:Figma、GitHub、Notion · 同概念:智能体 (agent)</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma、Anthropic</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub、Anthropic · 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)</span>
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)</span>
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
-
-*本集关键词:产品哲学 · AI 时代工作流 · 可塑软件 · 设计师与代码 · 主观能动性*
-
 <script>
 (function(){
   function move(){
