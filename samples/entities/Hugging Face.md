@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[开源权重]] · [[Mistral]] · [[推理]] · [[蒸馏]] · [[护栏]] · [[Anthropic]] · [[Theo Jaffe]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":63,"OpenAI":30,"开源权重":3,"Mistral":4,"推理":1,"蒸馏":6,"护栏":11,"Anthropic":35,"Theo Jaffe":2,"NVIDIA":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":65,"OpenAI":30,"开源权重":3,"Mistral":4,"推理":1,"蒸馏":6,"护栏":12,"Anthropic":36,"Theo Jaffe":2,"NVIDIA":15}</script>
 
 <script>
 (function(){

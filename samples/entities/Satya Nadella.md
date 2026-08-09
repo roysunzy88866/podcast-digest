@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Satya Nadella">SA</div><div class="pi"><h1 class="pt">Satya Nadella</h1><div class="byl">Latent Space 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Satya Nadella">SA</div><div class="pi"><h1 class="pt">Satya Nadella</h1><div class="byl">Latent Space 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -33,25 +33,26 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为联合主持
+- [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Saragawa]] · [[Microsoft]] · [[Azure]] · [[GitHub]] · [[Microsoft 365]] · [[MAI]] · [[私有评估]] · [[测试框架]] · [[轨迹]] · [[智能体]]
+[[Microsoft]] · [[智能体]] · [[Saragawa]] · [[Kwindla Kramer]] · [[Azure]] · [[Pipecat]] · [[GitHub]] · [[Daily]] · [[Microsoft 365]] · [[AI 原生软件]]
 
-## ④ 也在聊「创业与行业」的人
+## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Saragawa":1,"Microsoft":8,"Azure":1,"GitHub":8,"Microsoft 365":1,"MAI":1,"私有评估":1,"测试框架":6,"轨迹":1,"智能体":63}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":9,"智能体":65,"Saragawa":1,"Kwindla Kramer":1,"Azure":1,"Pipecat":1,"GitHub":8,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":4,"Stripe":10,"OpenAI":30,"智能体":63,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
+<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":4,"Stripe":10,"OpenAI":30,"智能体":65,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
 
 <script>
 (function(){

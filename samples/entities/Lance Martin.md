@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":35,"OpenAI":30,"任务视界":1,"Managed Agents":2,"测试框架":6,"沙箱":12,"验证器":1,"做梦":1,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":36,"OpenAI":30,"任务视界":1,"Managed Agents":2,"测试框架":8,"沙箱":13,"验证器":1,"做梦":1,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

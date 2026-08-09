@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Apple]] · [[Microsoft]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[NVIDIA]] · [[LLM]] · [[世界模型]] · [[云]]
+[[Apple]] · [[Microsoft]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[NVIDIA]] · [[LLM]] · [[世界模型]] · [[云计算]]
 
-<script type="application/json" class="pd-epn">{"Apple":8,"Microsoft":8,"Google":15,"OpenAI":30,"Anthropic":35,"Amazon":5,"NVIDIA":14,"LLM":5,"世界模型":1,"云":1}</script>
+<script type="application/json" class="pd-epn">{"Apple":9,"Microsoft":9,"Google":15,"OpenAI":30,"Anthropic":36,"Amazon":5,"NVIDIA":15,"LLM":5,"世界模型":1,"云计算":2}</script>
 
 <script>
 (function(){

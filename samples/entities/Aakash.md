@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":16,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":8,"Notion":5,"Figma":6}</script>
+<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":17,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":8,"Notion":5,"Figma":6}</script>
 
 <script>
 (function(){

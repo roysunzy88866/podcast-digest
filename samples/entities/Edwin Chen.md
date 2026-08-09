@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
+[[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Surge AI":1,"Anthropic":35,"ChatGPT":11,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":12,"基准测试":3,"后训练":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Surge AI":1,"Anthropic":36,"ChatGPT":11,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":12,"基准测试":3,"后训练":3}</script>
 
 <script>
 (function(){

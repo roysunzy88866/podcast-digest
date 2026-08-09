@@ -1,0 +1,81 @@
+{
+  "title_zh": "从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游",
+  "tldr": "回顾八十年计算史,指出 AI 原生软件之于智能体,正如移动互联网之于网页。",
+  "digest_md": "如果把整个计算史压缩成一句话,那就是:从机器到人,现在轮到智能体来找我们了——它能看、能听、能记、能替你跑腿。说这话的人是 Quindle,他是开源语音智能体框架 Pipecat 背后的开发者,在这次 AI Engineer World's Fair 的语音专场上,他带大家做了一场贯穿八十年计算史的思想漫游,试图回答一个问题:我们正在大干快上的智能体之后,下一代的 AI 原生软件到底是什么样?\n\n故事要从 1945 年说起。工程师 Vannevar Bush 写了一篇叫《As We May Think》的文章,精准预言了文档扫描、语音转文本、超文本、搜索引擎、脑机接口等一系列技术。Quindle 觉得,今天的我们就站在那个节点上——就像 Bush 当时站在计算时代的起点,我们也站在智能时代的起点 [01:53]。\n\n带着这层历史感,他梳理了一条技术演进的主线。从算盘到 1940 年代的存储程序计算机,再到个人计算机,每一步都在解决一个核心瓶颈。1950 年代要解决的是「怎么把人的意图传给机器」,于是有了第一批编程语言和编译器。到了 1960 年代,焦点变成了「怎么让机器能跟人对话」,交互式计算和图形化编程应运而生 [06:54]。这十年也是科幻的黄金期,《星际迷航》和《2001 太空漫游》里的 HAL 9000 让大众对会说话的计算机有了具体想象。\n\n顺着这股科幻和交互的浪潮,硬件终于迎来了消费级爆发。1970 年代孕育了关系型数据库和面向对象编程等关键抽象 [08:40],到了 1980 年代,个人计算机正式登场。1984 年 Macintosh 发货,1985 年 Windows 1.0 发货,微软「让每张办公桌和每个家庭都有一台计算机」的愿景,因为机器确实能带来实实在在的好处而得以实现 [09:25]。\n\n说完个人电脑怎么落地,他话锋一转,讲了个很反直觉的例子。拿电子表格 VisiCalc 来说,这项变革性的新技术,并没有像很多人担心的那样让会计师失业;恰恰相反,它把过去需要满屋子人才能算完的账,浓缩到了一块屏幕上,反而催生了大量以前根本无法想象的新工作 [10:23]。这是一个绝佳的历史镜鉴,也是对今天「AI 会导致大规模失业」担忧的有力反驳。\n\n硬件普及了,想象力也就打开了,人机交互的终极愿景开始成型。1987 年苹果拍了一支叫《Knowledge Navigator》的概念视频,里面出现了可折叠平板、实时视频生成,甚至一个个性极强的对话式语音助手 [11:21]。Quindle 认为,这支视频非常清晰地预示了我们今天正在经历的 AI 智能体时代。\n\n带着对这段交互史的回顾,视野从单机转向了网络。1990 年代是互联网的时代,在 Quindle 看来,Web 诞生之初最被低估的颠覆性,在于它从一开始就是多模态的——它打破了文本、音频、视频和数据必须在不同程序里处理的旧规矩,把它们融为了一体 [12:42]。这其实是许多早期互联网建设者,有意识地把《Knowledge Navigator》里的愿景变成现实的一次集体努力。\n\n进入新千年,多模态网络开始装进每个人的口袋,科幻电影里的界面也对这种移动化、多屏幕的未来给出了具象的想象。《少数派报告》里的手势界面,以及《钢铁侠》里的智能管家系统,都出自 MIT 专家 John Underkoffler 之手。而 Quindle 自己,早在 2006 年就跟 John 创立了一家初创公司,试图把电影里的手势界面变成商业产品 [15:37]。\n\n硬件、网络、交互方式铺垫了几十年,终于迎来了大模型的爆发。2010 年代建立的云计算,为后来的 AI 训练和推理铺平了基础设施的道路 [17:20]。到了今天,大家都在热火朝天地做智能体,但 Quindle 借微软 CEO Satya Nadella 的观点指出,真正的下一步是组织级的、能调用多种模型和工具的「Agents++」(智能体的进阶版) [02:39]。\n\n工具变了,人怎么办?这正是下一个话题。Quindle 认为技术演进的脉络极其清晰:就像当年我们从单一网页,发展出了成熟的移动互联网应用一样,我们马上要从孤立的智能体,走向全新的 AI 原生软件 [04:57]。这种软件之于智能体,就像今天的互联网之于 1995 年的网页。\n\n科幻电影里的设定,现在已经成了工程现实。几周前,有个团队基于当下真实可用的技术,重做了 1987 年的《Knowledge Navigator》视频,一镜到底,里面的助手不仅能流畅对话,还能帮你梳理满档的日程 [18:31]。Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目来当试验田,游戏的每一个交互底层都在疯狂调用 LLM(大语言模型),里面跑着几百个实时的推理调用,有能够持续运行并共享上下文的子智能体(能自己拆分任务、独立干活的 AI),以及动态生成的操作界面。这些在一年前都是根本做不到的 [19:25]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三个核心判断。第一,把时间线拉长来看,我们正处于智能时代的开端,就像 1945 年站在计算时代的起点,每一次人机交互的飞跃都在为下一步铺路。第二,对 AI 导致失业的担忧,历史早就给出了答案,真正具有变革性的技术只会催生出过去无法想象的新工作类别,只会把活儿做大,不会把人淘汰。第三,我们马上要迈过孤立的智能体阶段,走向融合了多模态、多设备、实时调用大模型能力的全新 AI 原生软件——今天科幻电影里的界面,明天就是我们的日常产品。",
+  "quotes": [
+    {
+      "en": "I think VisiCalc is potentially a counterargument to the argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business.",
+      "zh": "我认为 VisiCalc 潜在的是一个反驳，反驳这种论点或恐惧或担忧，即 AI 将导致大规模失业，因为 VisiCalc 并没有让会计师失业。",
+      "timestamp": "10:11",
+      "speaker": "Kwindla Kramer"
+    },
+    {
+      "en": "With the benefit of hindsight, I now think that the single most important thing about the web was that it was multimodal from the very beginning.",
+      "zh": "事后诸葛亮来看，我现在认为 Web 最重要的一点是，它从一开始就是多模态的。",
+      "timestamp": "12:32",
+      "speaker": "Kwindla Kramer"
+    },
+    {
+      "en": "But I think we can also start to think about the next thing, the AI-native software that is to agents what today's internet is to the web pages of 1995.",
+      "zh": "但我认为我们也开始思考下一件事，那种 AI 原生软件之于智能体，正如今天的互联网之于 1995 年的网页。",
+      "timestamp": "17:38",
+      "speaker": "Kwindla Kramer"
+    },
+    {
+      "en": "At every moment in the game, there are hundreds of inference calls happening, and we couldn't have built anything like this even a year ago.",
+      "zh": "在游戏的每一刻，都有数百个推理调用正在发生，即使是一年前我们也无法构建任何这样的东西。",
+      "timestamp": "19:25",
+      "speaker": "Kwindla Kramer"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I think it feels to most of us like we're working right at the beginning of a new age, the intelligence age.",
+      "zh": "我觉得对我们大多数人来说，我们正工作在一个新时代的开端，即智能时代。",
+      "timestamp": "02:03",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "So in some sense, you kind of want the harness to define the models, the data, and the tools.",
+      "zh": "所以在某种意义上，你想要套索来定义模型、数据和工具。",
+      "timestamp": "02:39",
+      "speaker": "Satya Nadella"
+    },
+    {
+      "en": "Just like we went from web pages to full-blown web and native mobile, clearly, we're going to chart a path to a new fully AI-native software that comes after Agents and Agents++.",
+      "zh": "就像我们从网页发展到成熟的网络和原生移动一样，显然，我们将绘制一条通往全新的 AI 原生软件的路径，它将出现在智能体和 Agents++ 之后。",
+      "timestamp": "04:57",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "I think VisiCalc is potentially a counterargument to the argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business.",
+      "zh": "我认为 VisiCalc 潜在的是一个反驳，反驳这种论点或恐惧或担忧，即 AI 将导致大规模失业，因为 VisiCalc 并没有让会计师失业。",
+      "timestamp": "10:15",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "With the benefit of hindsight, I now think that the single most important thing about the web was that it was multimodal from the very beginning.",
+      "zh": "事后诸葛亮来看，我现在认为 Web 最重要的一点是，它从一开始就是多模态的。",
+      "timestamp": "12:32",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "But I think we can also start to think about the next thing, the AI-native software that is to agents what today's internet is to the web pages of 1995.",
+      "zh": "但我认为我们也开始思考下一件事，那种 AI 原生软件之于智能体，正如今天的互联网之于 1995 年的网页。",
+      "timestamp": "17:38",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "This game is built from the ground up with LLMs as the core of every interaction.",
+      "zh": "这个游戏是从零开始构建的，LLM 是每个交互的核心。",
+      "timestamp": "19:20",
+      "speaker": "Quindle"
+    },
+    {
+      "en": "At every moment in the game, there are hundreds of inference calls happening, and we couldn't have built anything like this even a year ago.",
+      "zh": "在游戏的每一刻，都有数百个推理调用正在发生，即使是一年前我们也无法构建任何这样的东西。",
+      "timestamp": "19:25",
+      "speaker": "Quindle"
+    }
+  ]
+}

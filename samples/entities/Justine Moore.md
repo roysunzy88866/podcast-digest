@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
+[[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":63,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":5,"OpenAI":30,"Anthropic":35,"Google":15}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":65,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":5,"OpenAI":30,"Anthropic":36,"Google":15}</script>
 
 <script>
 (function(){

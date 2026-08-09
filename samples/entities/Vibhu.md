@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":63,"AX":1,"DX":2,"沙箱":12,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":65,"AX":1,"DX":2,"沙箱":13,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

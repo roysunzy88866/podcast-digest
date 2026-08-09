@@ -7,25 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangChain</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(01:21起):本集把它说成:帮企业把大语言模型变成可用产品的框架,把 Nemotron 模型放进它的深度智能体框架后性能接近前沿模型且只需十分之一成本;黄仁勋说它将成为创建未来公司操作系统的工具
+- **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(04:18起):讲者所在的公司,开源了 DeepAgents 和 LangGraph 等框架,为构建智能体提供基础工具调用基础设施,并提供 LangSmith 部署作为打包方案。
+- **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(00:35起):本集在举例时顺带提到它，用以说明 Scout 能够处理像「谁是 LangChain 的 CEO」这样的简单查询。
 
 ## ② 出现在这些集
 
-*1 集*
+*3 集*
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
+- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为被讨论公司
+- [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jensen Huang]] · [[智能体]] · [[测试框架]] · [[前沿模型]] · [[开放权重模型]] · [[护栏]] · [[沙箱]] · [[后训练]] · [[NVIDIA]] · [[Nemotron]]
+[[测试框架]] · [[智能体]] · [[Deep Agents]] · [[护栏]] · [[LangGraph]] · [[沙箱]] · [[中间件]] · [[文件系统]] · [[Jensen Huang]] · [[LangSmith 部署]]
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"智能体":63,"测试框架":6,"前沿模型":1,"开放权重模型":3,"护栏":11,"沙箱":12,"后训练":3,"NVIDIA":14,"Nemotron":3}</script>
+<script type="application/json" class="pd-epn">{"测试框架":8,"智能体":65,"Deep Agents":3,"护栏":12,"LangGraph":3,"沙箱":13,"中间件":2,"文件系统":3,"Jensen Huang":3,"LangSmith 部署":1}</script>
 
 <script>
 (function(){

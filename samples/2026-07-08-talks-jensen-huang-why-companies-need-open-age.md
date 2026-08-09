@@ -104,7 +104,7 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]] —— 同概念:后训练 (post-training)、护栏 (guardrails)、智能体 (agent)
+- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]] —— 同公司:LangChain · 同概念:harness、护栏 (guardrails)
 
 </div>
 <div class="pd-ex">

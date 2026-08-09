@@ -1,0 +1,1386 @@
+[
+ {
+  "seg": 0,
+  "start": 6.922,
+  "end": 12.267,
+  "speaker": "Unknown",
+  "en": "So for those unfamiliar with Harmonic, we are a real-time database of basically the startup ecosystem.",
+  "zh": "所以对于那些不熟悉 Harmonic 的人来说，我们基本上是一个创业生态系统的实时数据库。"
+ },
+ {
+  "seg": 1,
+  "start": 12.287,
+  "end": 18.654,
+  "speaker": "Unknown",
+  "en": "We track 37 million companies, 200 million people, 220,000 investors, and more getting added each week.",
+  "zh": "我们追踪 3700 万家公司、2 亿人、22 万投资者，并且每周都在增加更多。"
+ },
+ {
+  "seg": 2,
+  "start": 18.814,
+  "end": 23.419,
+  "speaker": "Unknown",
+  "en": "Most of the VCs that you have heard of rely on Harmonic for their sourcing.",
+  "zh": "大多数你听说过的 VC 都依赖 Harmonic 进行寻源。"
+ },
+ {
+  "seg": 3,
+  "start": 23.439,
+  "end": 26.202,
+  "speaker": "Unknown",
+  "en": "I think nine out of the top 10 current VCs.",
+  "zh": "我认为目前前 10 名的 VC 中有 9 家。"
+ },
+ {
+  "seg": 4,
+  "start": 26.842,
+  "end": 27.562,
+  "speaker": "Unknown",
+  "en": "I use Harmonic.",
+  "zh": "我使用 Harmonic。"
+ },
+ {
+  "seg": 5,
+  "start": 27.602,
+  "end": 31.323,
+  "speaker": "Unknown",
+  "en": "So Scout is basically the layer that sits on top of this whole ecosystem.",
+  "zh": "所以 Scout 基本上是位于整个生态系统之上的那一层。"
+ },
+ {
+  "seg": 6,
+  "start": 31.363,
+  "end": 35.465,
+  "speaker": "Unknown",
+  "en": "It's a natural language interface that runs on deep agents and connects to the data.",
+  "zh": "它是一个运行在 deep agents 上并连接到数据的自然语言接口。"
+ },
+ {
+  "seg": 7,
+  "start": 35.505,
+  "end": 52.31,
+  "speaker": "Unknown",
+  "en": "So I can handle simple queries like who is the CEO of LangChain, as well as really complicated stuff like map out the landscape of this industry, create a visualization of how the market map looks, and rank the team on a scale from 1 to 10 based on this rubric.",
+  "zh": "所以我可以处理像谁是 LangChain 的 CEO 这样的简单查询，也可以处理真正复杂的事情，比如绘制这个行业的格局图，创建市场地图的可视化，并根据这个标准在 1 到 10 的范围内对团队进行排名。"
+ },
+ {
+  "seg": 8,
+  "start": 52.73,
+  "end": 55.631,
+  "speaker": "Unknown",
+  "en": "What it'll do in the background is basically run through a tool loop.",
+  "zh": "它在后台所做的基本上就是运行一个工具循环。"
+ },
+ {
+  "seg": 9,
+  "start": 56.311,
+  "end": 59.616,
+  "speaker": "Unknown",
+  "en": "Execute it and then render the response to the user.",
+  "zh": "执行它，然后将响应呈现给用户。"
+ },
+ {
+  "seg": 10,
+  "start": 60.925,
+  "end": 73.552,
+  "speaker": "Unknown",
+  "en": "And this is both the combination of a chat interface that you would see with something like Claude Code or ChatGPT, but we also have some custom-built UX, which I'll get into in a bit, that makes it integrate really nicely with the ecosystem.",
+  "zh": "这既包含你在类似 Claude Code 或 ChatGPT 中看到的聊天界面的组合，我们也有一些自定义构建的 UX，我稍后会讲到，这使得它与生态系统的集成非常好。"
+ },
+ {
+  "seg": 11,
+  "start": 73.572,
+  "end": 79.555,
+  "speaker": "Unknown",
+  "en": "So you can click on the companies here and add them to lists and pull up sidebars and whatnot.",
+  "zh": "所以你可以点击这里的公司并将它们添加到列表中，拉出侧边栏等等。"
+ },
+ {
+  "seg": 12,
+  "start": 79.655,
+  "end": 84.658,
+  "speaker": "Unknown",
+  "en": "So it's interactive, but also kind of keeps to the conversational flow that the agent wants to.",
+  "zh": "所以它是交互式的，但也保持了智能体想要的对话流程。"
+ },
+ {
+  "seg": 13,
+  "start": 85.098,
+  "end": 88.68,
+  "speaker": "Unknown",
+  "en": "And just to kind of demonstrate how successful Scout has been since we switched to deep agents,",
+  "zh": "为了展示 Scout 自从我们切换到 deep agents 以来有多成功，"
+ },
+ {
+  "seg": 14,
+  "start": 89.688,
+  "end": 90.529,
+  "speaker": "Unknown",
+  "en": "You know, metrics are fun.",
+  "zh": "你知道，指标很有趣。"
+ },
+ {
+  "seg": 15,
+  "start": 90.749,
+  "end": 94.692,
+  "speaker": "Unknown",
+  "en": "We have four times the retention from week one to week four since we switched over to deep agents.",
+  "zh": "自从我们切换到 deep agents 以来，我们从第一周到第四周的留存率提高了四倍。"
+ },
+ {
+  "seg": 16,
+  "start": 95.272,
+  "end": 97.734,
+  "speaker": "Unknown",
+  "en": "But we've also gotten some really great qualitative feedback.",
+  "zh": "但我们也得到了一些非常好的定性反馈。"
+ },
+ {
+  "seg": 17,
+  "start": 98.135,
+  "end": 101.397,
+  "speaker": "Unknown",
+  "en": "And I always love this because it's not just like, you know, yeah, it's pretty good.",
+  "zh": "我一直很喜欢这一点，因为它不仅仅是像，你知道，是啊，它挺好的。"
+ },
+ {
+  "seg": 18,
+  "start": 101.557,
+  "end": 102.598,
+  "speaker": "Unknown",
+  "en": "We enjoyed using it.",
+  "zh": "我们喜欢使用它。"
+ },
+ {
+  "seg": 19,
+  "start": 102.758,
+  "end": 103.539,
+  "speaker": "Unknown",
+  "en": "We'll probably use it again.",
+  "zh": "我们可能会再次使用它。"
+ },
+ {
+  "seg": 20,
+  "start": 103.559,
+  "end": 106.982,
+  "speaker": "Unknown",
+  "en": "But people are saying literally, like, I talked to some colleagues from other firms.",
+  "zh": "但人们真的在说，我跟其他公司的一些同事聊过。"
+ },
+ {
+  "seg": 21,
+  "start": 107.182,
+  "end": 109.043,
+  "speaker": "Unknown",
+  "en": "I think everyone's secret weapon is becoming Scout.",
+  "zh": "我认为每个人的秘密武器正在变成 Scout。"
+ },
+ {
+  "seg": 22,
+  "start": 109.464,
+  "end": 110.725,
+  "speaker": "Unknown",
+  "en": "One person said it's like my heaven.",
+  "zh": "一个人说这就像我的天堂。"
+ },
+ {
+  "seg": 23,
+  "start": 111.445,
+  "end": 112.726,
+  "speaker": "Unknown",
+  "en": "So that's always good to hear.",
+  "zh": "所以听到这些总是好事。"
+ },
+ {
+  "seg": 24,
+  "start": 113.987,
+  "end": 117.23,
+  "speaker": "Unknown",
+  "en": "Scout 1.0, this was our initial version.",
+  "zh": "Scout 1.0，这是我们的初始版本。"
+ },
+ {
+  "seg": 25,
+  "start": 117.41,
+  "end": 121.974,
+  "speaker": "Unknown",
+  "en": "I think it was cutting edge like a year and a half ago, and it very quickly became not cutting edge.",
+  "zh": "我认为它在一年半前处于前沿地位，但很快就不再处于前沿地位了。"
+ },
+ {
+  "seg": 26,
+  "start": 122.674,
+  "end": 132.303,
+  "speaker": "Unknown",
+  "en": "And the concept here was basically how do we take a natural language query someone's looking up, show me all the fintech SaaS companies in New York that have raised money in the last two months.",
+  "zh": "这里的概念基本上是我们如何处理某人正在查询的自然语言，向我展示过去两个月内筹集资金的纽约金融科技 SaaS 公司。"
+ },
+ {
+  "seg": 27,
+  "start": 132.843,
+  "end": 140.487,
+  "speaker": "Unknown",
+  "en": "We had this query parsing graph that would take it, extract out the semantic portion, fintech sass, run that against embeddings.",
+  "zh": "我们有一个查询解析图，它接收它，提取语义部分，fintech sass，针对嵌入运行它。"
+ },
+ {
+  "seg": 28,
+  "start": 140.848,
+  "end": 142.649,
+  "speaker": "Unknown",
+  "en": "It would take the location.",
+  "zh": "它会获取位置。"
+ },
+ {
+  "seg": 29,
+  "start": 142.669,
+  "end": 148.112,
+  "speaker": "Unknown",
+  "en": "It would take the funding portion and route that to our own custom search language.",
+  "zh": "它会获取资金部分并将其路由到我们自己的自定义搜索语言。"
+ },
+ {
+  "seg": 30,
+  "start": 149.272,
+  "end": 154.435,
+  "speaker": "Unknown",
+  "en": "And each one of these nodes in LangGraph had their own models, had their own evals.",
+  "zh": "LangGraph 中的每个节点都有自己的模型、自己的评估。"
+ },
+ {
+  "seg": 31,
+  "start": 154.555,
+  "end": 160.319,
+  "speaker": "Unknown",
+  "en": "We would tweak them like crazy to make sure that they were passing the evals and required a ton of maintenance.",
+  "zh": "我们疯狂地调整它们以确保它们通过评估，并且需要大量的维护。"
+ },
+ {
+  "seg": 32,
+  "start": 161.362,
+  "end": 163.904,
+  "speaker": "Unknown",
+  "en": "Fast forward to the models become a little bit better.",
+  "zh": "快进到模型变得好一点。"
+ },
+ {
+  "seg": 33,
+  "start": 163.964,
+  "end": 166.226,
+  "speaker": "Unknown",
+  "en": "The harnesses start to come out.",
+  "zh": "Harness 开始出现。"
+ },
+ {
+  "seg": 34,
+  "start": 167.146,
+  "end": 168.487,
+  "speaker": "Unknown",
+  "en": "And we switched over to deep agents.",
+  "zh": "我们切换到了 deep agents。"
+ },
+ {
+  "seg": 35,
+  "start": 168.507,
+  "end": 170.389,
+  "speaker": "Unknown",
+  "en": "So the graph is a lot simpler here.",
+  "zh": "所以这里的图简单多了。"
+ },
+ {
+  "seg": 36,
+  "start": 171.189,
+  "end": 174.272,
+  "speaker": "Unknown",
+  "en": "Essentially, we have just a tool call loop in the middle.",
+  "zh": "本质上，我们在中间有一个工具调用循环。"
+ },
+ {
+  "seg": 37,
+  "start": 174.372,
+  "end": 174.952,
+  "speaker": "Unknown",
+  "en": "You have the model.",
+  "zh": "你有模型。"
+ },
+ {
+  "seg": 38,
+  "start": 175.152,
+  "end": 176.113,
+  "speaker": "Unknown",
+  "en": "You have tools.",
+  "zh": "你有工具。"
+ },
+ {
+  "seg": 39,
+  "start": 176.753,
+  "end": 185.62,
+  "speaker": "Unknown",
+  "en": "And then you have middleware that Robert kind of alluded to that runs before the model, after the model, and before the agent and after the agent, which is the entire tool calling loop.",
+  "zh": "然后你有中间件，Robert 之前提到的，在模型之前、模型之后、智能体之前和智能体之后运行，也就是整个工具调用循环。"
+ },
+ {
+  "seg": 40,
+  "start": 186.823,
+  "end": 191.886,
+  "speaker": "Unknown",
+  "en": "So we basically switched entirely over to this version, which is simply a model and tools.",
+  "zh": "所以我们基本上完全切换到了这个版本，它只是一个模型和工具。"
+ },
+ {
+  "seg": 41,
+  "start": 191.986,
+  "end": 195.107,
+  "speaker": "Unknown",
+  "en": "And then we created a bunch of tools that connect into our ecosystem.",
+  "zh": "然后我们创建了一系列连接到我们生态系统的工具。"
+ },
+ {
+  "seg": 42,
+  "start": 195.147,
+  "end": 207.213,
+  "speaker": "Unknown",
+  "en": "So everything from searching entities, searching the web using Tavili, and then other stuff, enriching by ID, enriching by URL, as well as kind of interfacing with the user CRM.",
+  "zh": "所以从搜索实体、使用 Tavili 搜索网络开始，以及其他东西，通过 ID 丰富、通过 URL 丰富，以及与用户 CRM 交互。"
+ },
+ {
+  "seg": 43,
+  "start": 207.233,
+  "end": 209.714,
+  "speaker": "Unknown",
+  "en": "They can add it to lists, manipulate lists, move things around.",
+  "zh": "他们可以将其添加到列表、操作列表、四处移动东西。"
+ },
+ {
+  "seg": 44,
+  "start": 209.794,
+  "end": 212.456,
+  "speaker": "Unknown",
+  "en": "So we found that using frontier models and the harness",
+  "zh": "所以我们发现使用 frontier 模型和 harness"
+ },
+ {
+  "seg": 45,
+  "start": 213.216,
+  "end": 221.083,
+  "speaker": "Unknown",
+  "en": "Giving it a bunch of tools, even 50 tools, it's able to kind of choose the right tool, execute really complicated, long composite tasks really well.",
+  "zh": "给它一堆工具，即使是 50 个工具，它也能够选择正确的工具，非常好地执行非常复杂的、长期组合任务。"
+ },
+ {
+  "seg": 46,
+  "start": 222.965,
+  "end": 226.308,
+  "speaker": "Unknown",
+  "en": "So we talked about the agent is model plus harness.",
+  "zh": "所以我们谈到了智能体是模型加上 harness。"
+ },
+ {
+  "seg": 47,
+  "start": 226.828,
+  "end": 231.072,
+  "speaker": "Unknown",
+  "en": "Again, in this case, we are using a frontier model and we're using deep agents as the harness.",
+  "zh": "同样，在这种情况下，我们使用 frontier 模型，我们使用 deep agents 作为 harness。"
+ },
+ {
+  "seg": 48,
+  "start": 232.253,
+  "end": 233.895,
+  "speaker": "Unknown",
+  "en": "And a little bit why we chose deep agents here.",
+  "zh": "还有一点关于我们为什么在这里选择 deep agents。"
+ },
+ {
+  "seg": 49,
+  "start": 236.543,
+  "end": 240.024,
+  "speaker": "Unknown",
+  "en": "We had these really, again, we had 50 tools, a lot of different interactions.",
+  "zh": "我们有这些真的，再次，我们有 50 个工具，很多不同的交互。"
+ },
+ {
+  "seg": 50,
+  "start": 241.105,
+  "end": 243.645,
+  "speaker": "Unknown",
+  "en": "Some of the threads can get very long.",
+  "zh": "有些对话线程会变得非常长。"
+ },
+ {
+  "seg": 51,
+  "start": 244.226,
+  "end": 254.389,
+  "speaker": "Unknown",
+  "en": "If you're conducting a company search where there's 1,000 results coming back, each one of those companies might have nested team members and funding information and all this other stuff.",
+  "zh": "如果你正在执行一次公司搜索，有 1,000 条结果返回，这些公司中的每一家都可能包含嵌套的团队成员信息和资金信息以及所有其他这些东西。"
+ },
+ {
+  "seg": 52,
+  "start": 254.409,
+  "end": 260.851,
+  "speaker": "Unknown",
+  "en": "The actual response that comes back could be thousands or tens of thousands of lines long, depending on what the model chooses to pull in.",
+  "zh": "实际返回的响应可能会有数千行甚至数万行长，这取决于模型选择引入什么内容。"
+ },
+ {
+  "seg": 53,
+  "start": 261.291,
+  "end": 266.293,
+  "speaker": "Unknown",
+  "en": "And if you're just passing that into a model through a messages list, that can get very crowded very quickly.",
+  "zh": "如果你只是通过消息列表将其传递给模型，那很快就会变得非常拥挤。"
+ },
+ {
+  "seg": 54,
+  "start": 266.833,
+  "end": 272.854,
+  "speaker": "Unknown",
+  "en": "So deep agents, I think one of the core benefits of it is it handles, it basically manages context.",
+  "zh": "所以对于 Deep Agents（深度智能体），我认为它的核心好处之一就是它能够处理，它基本上管理上下文。"
+ },
+ {
+  "seg": 55,
+  "start": 272.874,
+  "end": 278.536,
+  "speaker": "Unknown",
+  "en": "So if the messages list gets long, it'll run compaction, so it can keep going pretty much infinitely.",
+  "zh": "所以如果消息列表变长了，它会运行压缩，这样它几乎可以无限地继续下去。"
+ },
+ {
+  "seg": 56,
+  "start": 279.616,
+  "end": 294.58,
+  "speaker": "Unknown",
+  "en": "And in tool call eviction, so that company search call that returned thousands of lines, it would actually pull that into the file system and return a pointer to how to basically pull in chunks of that file so that the model can continue without getting polluted by the entire response.",
+  "zh": "而在工具调用驱逐方面，那个返回了数千行的公司搜索调用，它实际上会将其拉入文件系统，并返回一个指针，指向如何基本上拉取该文件的块，以便模型可以继续而不会被整个响应污染。"
+ },
+ {
+  "seg": 57,
+  "start": 294.62,
+  "end": 295.94,
+  "speaker": "Unknown",
+  "en": "And I'll get into that a bit later.",
+  "zh": "我稍后再详细讲那个。"
+ },
+ {
+  "seg": 58,
+  "start": 296.86,
+  "end": 303.962,
+  "speaker": "Unknown",
+  "en": "As well as skills and custom middleware lets us pull in prompt information at runtime rather than having it all included in every single call.",
+  "zh": "还有技能和自定义中间件，让我们可以在运行时引入提示信息，而不必在每次调用中都包含所有内容。"
+ },
+ {
+  "seg": 59,
+  "start": 304.903,
+  "end": 311.105,
+  "speaker": "Unknown",
+  "en": "File system abstractions, which lets us arbitrarily read and write different artifacts into the agent.",
+  "zh": "文件系统抽象，这让我们可以任意地向智能体读取和写入不同的产物。"
+ },
+ {
+  "seg": 60,
+  "start": 312.005,
+  "end": 316.708,
+  "speaker": "Unknown",
+  "en": "And most importantly, we were already on LangSmith deployment with our previous agent, the spaghetti graph.",
+  "zh": "最重要的是，我们已经通过之前的智能体“Spaghetti Graph”在 LangSmith 上进行了部署。"
+ },
+ {
+  "seg": 61,
+  "start": 316.948,
+  "end": 328.636,
+  "speaker": "Unknown",
+  "en": "So it was so simple for us to basically take this new framework, plug it into the existing graph, the user still saw the same chat interface, and we were able to kind of incrementally A-B test and move people over.",
+  "zh": "所以我们要采用这个新框架并将其插入现有图非常简单，用户看到的仍然是相同的聊天界面，我们能够基本上进行增量 A-B 测试并将人员迁移过去。"
+ },
+ {
+  "seg": 62,
+  "start": 331.043,
+  "end": 342.93,
+  "speaker": "Unknown",
+  "en": "So if the agent is model and harness, I kind of want to talk about how we take the agent, which contains a lot of technical primitives, and actually build it into a product that people can use.",
+  "zh": "所以如果智能体是模型和机具，我有点想谈谈我们如何获取包含许多技术原语的智能体，并将其实际构建成人们可以使用的产品。"
+ },
+ {
+  "seg": 63,
+  "start": 343.55,
+  "end": 352.475,
+  "speaker": "Unknown",
+  "en": "So in this model, if the agent is model plus harness, the product means that you're adding some sort of UX on top of it so that the users can interact with it in a nice way.",
+  "zh": "所以在这个模型中，如果智能体是模型加上机具，产品意味着你在其上添加了某种 UX（用户体验），以便用户能够以一种好的方式与之交互。"
+ },
+ {
+  "seg": 64,
+  "start": 353.535,
+  "end": 361.357,
+  "speaker": "Unknown",
+  "en": "In this case, Scout, again, frontier model, deep agents as a harness, and then a web interface that we built to kind of fit into that, to plug into that harness.",
+  "zh": "在这个案例中，Scout，同样是前沿模型，Deep Agents 作为机具，然后是我们构建的一个 Web 接口来适配它，来接入那个机具。"
+ },
+ {
+  "seg": 65,
+  "start": 363.703,
+  "end": 368.207,
+  "speaker": "Unknown",
+  "en": "And the central tension that we found is that these agents love things that feel like code.",
+  "zh": "我们发现的核心张力在于，这些智能体喜欢看起来像代码的东西。"
+ },
+ {
+  "seg": 66,
+  "start": 368.327,
+  "end": 372.791,
+  "speaker": "Unknown",
+  "en": "Like the models are trained on coding tasks, tool calling, structured JSON.",
+  "zh": "比如模型是在编码任务、工具调用、结构化 JSON 上训练的。"
+ },
+ {
+  "seg": 67,
+  "start": 373.172,
+  "end": 378.076,
+  "speaker": "Unknown",
+  "en": "They love to structure things as XML or JSON or whatever in the response.",
+  "zh": "它们喜欢在响应中将事物构建为 XML 或 JSON 或其他任何形式。"
+ },
+ {
+  "seg": 68,
+  "start": 378.317,
+  "end": 379.197,
+  "speaker": "Unknown",
+  "en": "And then also the harness.",
+  "zh": "然后还有机具。"
+ },
+ {
+  "seg": 69,
+  "start": 379.217,
+  "end": 381.5,
+  "speaker": "Unknown",
+  "en": "We have things like the file system primitives.",
+  "zh": "我们有像文件系统原语这样的东西。"
+ },
+ {
+  "seg": 70,
+  "start": 381.52,
+  "end": 383.281,
+  "speaker": "Unknown",
+  "en": "And it's going to write things to markdown.",
+  "zh": "它会将内容写入 markdown。"
+ },
+ {
+  "seg": 71,
+  "start": 383.341,
+  "end": 386.304,
+  "speaker": "Unknown",
+  "en": "And it might output, hey, I wrote this file to this path.",
+  "zh": "它可能会输出，嘿，我把这个文件写到了这个路径。"
+ },
+ {
+  "seg": 72,
+  "start": 386.644,
+  "end": 389.087,
+  "speaker": "Unknown",
+  "en": "And the user doesn't want to see that unless they're actually an engineer.",
+  "zh": "除非用户真的是工程师，否则他们不想看到那个。"
+ },
+ {
+  "seg": 73,
+  "start": 390.307,
+  "end": 406.775,
+  "speaker": "Unknown",
+  "en": "Most of our users are non-technical, so we had to basically fight this tension of how do we leverage the full benefit of this harness that is extremely capable with a correct model and then build it into a product that is generally useful to people without compromising some of that power.",
+  "zh": "我们的大多数用户都是非技术人员，所以我们不得不基本上对抗这种张力，即如何利用这个极其强大且拥有正确模型的机具的全部好处，然后将其构建成一个对人们普遍有用的产品，而不牺牲某些力量。"
+ },
+ {
+  "seg": 74,
+  "start": 407.275,
+  "end": 421.863,
+  "speaker": "Unknown",
+  "en": "So again, the tension between making sure the model has agency to reason and act freely with building a UX that's kind of nicely interactive, has rich elements that are rendered in a predictable and deterministic way.",
+  "zh": "所以再次强调，这是在确保智能体拥有主观能动性来自由推理和行动与构建一个 UX 之间的张力，这个 UX 需要具有很好的交互性，具有以可预测和确定性方式渲染的丰富元素。"
+ },
+ {
+  "seg": 75,
+  "start": 424.544,
+  "end": 430.628,
+  "speaker": "Unknown",
+  "en": "So the way I think about the context that the harness manages, it basically has a contract with the model.",
+  "zh": "所以我思考机具管理的上下文的方式，它基本上与模型有一个契约。"
+ },
+ {
+  "seg": 76,
+  "start": 432.408,
+  "end": 438.392,
+  "speaker": "Unknown",
+  "en": "The model is always just getting a list of messages, assistant message, human messages, tool messages.",
+  "zh": "模型总是只得到一个消息列表，助手消息，人类消息，工具消息。"
+ },
+ {
+  "seg": 77,
+  "start": 439.292,
+  "end": 440.853,
+  "speaker": "Unknown",
+  "en": "And that's essentially all that's happening.",
+  "zh": "这基本上就是发生的所有事情。"
+ },
+ {
+  "seg": 78,
+  "start": 440.873,
+  "end": 442.874,
+  "speaker": "Unknown",
+  "en": "Every time you call a model, you're passing in a list of messages.",
+  "zh": "每次你调用模型时，你都在传递一个消息列表。"
+ },
+ {
+  "seg": 79,
+  "start": 443.335,
+  "end": 445.396,
+  "speaker": "Unknown",
+  "en": "It's streaming back whatever comes next.",
+  "zh": "它流式传回接下来出现的任何内容。"
+ },
+ {
+  "seg": 80,
+  "start": 446.016,
+  "end": 457.183,
+  "speaker": "Unknown",
+  "en": "So the harness's job is to basically pull stuff out of that messages list to make room and make sure that you're not hitting the context window or hitting context rot.",
+  "zh": "所以机具的工作基本上是从那个消息列表中提取东西来腾出空间，并确保你没有达到上下文窗口或遭遇上下文腐烂。"
+ },
+ {
+  "seg": 81,
+  "start": 458.844,
+  "end": 462.345,
+  "speaker": "Unknown",
+  "en": "In this case, everything that's in the messages list is always visible to the model.",
+  "zh": "在这种情况下，消息列表中的所有内容始终对模型可见。"
+ },
+ {
+  "seg": 82,
+  "start": 463.326,
+  "end": 471.749,
+  "speaker": "Unknown",
+  "en": "Everything that's offloaded by the harness kind of exists in the purview of the agent, but might not necessarily be directly available to the model at every call.",
+  "zh": "被机具卸载的东西某种程度上存在于智能体的范围内，但不一定在每次调用时直接对模型可用。"
+ },
+ {
+  "seg": 83,
+  "start": 472.209,
+  "end": 480.133,
+  "speaker": "Unknown",
+  "en": "But the contract is that anything that the harness kind of pulls out of the messages list, it has to make available to the model through tools.",
+  "zh": "但契约在于，机具从消息列表中提取的任何东西，必须通过工具使其对模型可用。"
+ },
+ {
+  "seg": 84,
+  "start": 481.273,
+  "end": 502.583,
+  "speaker": "Unknown",
+  "en": "if it's pulling out a file it returns a pointer to the file saying you can access it at this this path and it will give tools to kind of read chunks in at a time so the concept of progressive disclosure you have kind of a an initial like lightweight one-liner of what what exists and some tools and then the model can kind of choose to build up context in chunks as needed",
+  "zh": "如果它提取一个文件，它会返回一个指向该文件的指针，说你可以在这个路径访问它，并且它会提供工具来一次读取块，所以这是一种渐进式披露的概念，你有一个初始的关于存在内容的轻量级单行摘要和一些工具，然后模型可以根据需要选择以块的方式建立上下文。"
+ },
+ {
+  "seg": 85,
+  "start": 503.363,
+  "end": 512.226,
+  "speaker": "Unknown",
+  "en": "But the important thing here with regard to UX is that anything that sits outside of those two layers, the message list and the harness, is basically invisible to the model.",
+  "zh": "但关于 UX 重要的一点是，任何位于这两层（消息列表和机具）之外的东西，基本上对模型是不可见的。"
+ },
+ {
+  "seg": 86,
+  "start": 512.386,
+  "end": 526.05,
+  "speaker": "Unknown",
+  "en": "So if you're building a UX and you have something that's nicely rendered side by side with the conversation, but it doesn't exist either in the message list or offloaded by the harness with a way to discover it, it'll be essentially invisible to the agent.",
+  "zh": "所以如果你正在构建一个 UX，并且有一些东西与对话并排很好渲染，但它既不存在于消息列表中，也没有被机具卸载并提供发现它的方式，那么它对智能体来说本质上就是不可见的。"
+ },
+ {
+  "seg": 87,
+  "start": 527.698,
+  "end": 538.24,
+  "speaker": "Unknown",
+  "en": "So to make this a little bit more concrete, with Scout, one of the most interesting use cases that kind of emerged as we built this up and monitored outcomes was visualizations.",
+  "zh": "为了让这更具体一点，对于 Scout，当我们构建它并监控结果时出现的最有趣的用例之一是可视化。"
+ },
+ {
+  "seg": 88,
+  "start": 538.34,
+  "end": 543.801,
+  "speaker": "Unknown",
+  "en": "People started asking, you know, can you make me a chart of this or a market map graphic of, you know, this industry?",
+  "zh": "人们开始问，你能帮我制作这个的图表吗，或者这个行业的市场地图图形吗？"
+ },
+ {
+  "seg": 89,
+  "start": 544.221,
+  "end": 551.543,
+  "speaker": "Unknown",
+  "en": "And we didn't really have any way to display it, but the model would try to kind of print out, you know, SVG code or like HTML and CSS and stuff.",
+  "zh": "我们真的没有任何方式来显示它，但模型会尝试打印出，你知道的，SVG 代码或者像 HTML 和 CSS 的东西。"
+ },
+ {
+  "seg": 90,
+  "start": 551.583,
+  "end": 552.863,
+  "speaker": "Unknown",
+  "en": "And we're like, huh, that's kind of cool.",
+  "zh": "我们想，嗯，这有点酷。"
+ },
+ {
+  "seg": 91,
+  "start": 553.383,
+  "end": 556.787,
+  "speaker": "Unknown",
+  "en": "So we basically try to figure out, OK, these actually look pretty good out of the box.",
+  "zh": "所以我们基本上试图弄清楚，好吧，这些开箱即用的东西看起来真的很好。"
+ },
+ {
+  "seg": 92,
+  "start": 556.927,
+  "end": 559.85,
+  "speaker": "Unknown",
+  "en": "How do we turn that into an actual product surface?",
+  "zh": "我们如何将其转化为实际的产品表面？"
+ },
+ {
+  "seg": 93,
+  "start": 560.872,
+  "end": 568.139,
+  "speaker": "Unknown",
+  "en": "So I could talk about the wrong way and the right way to approach this based on that Harness contract.",
+  "zh": "所以我可以谈谈基于那个机具契约的错误方式和正确方式。"
+ },
+ {
+  "seg": 94,
+  "start": 569.032,
+  "end": 575.858,
+  "speaker": "Unknown",
+  "en": "The improper way would be to basically expose a tool that says, render this data.",
+  "zh": "不当的方式是基本上暴露一个说“渲染这个数据”的工具。"
+ },
+ {
+  "seg": 95,
+  "start": 576.038,
+  "end": 582.324,
+  "speaker": "Unknown",
+  "en": "So you pass in some arguments, and then it would return something like success true or some sort of no op.",
+  "zh": "所以你传入一些参数，然后它会返回类似成功 true 或某种无操作（no op）。"
+ },
+ {
+  "seg": 96,
+  "start": 583.364,
+  "end": 591.031,
+  "speaker": "Unknown",
+  "en": "The problem with this is it knows, or it would call that to one in the front end, would intercept that call and render something based on that data.",
+  "zh": "这样做的问题在于，它知道，或者它会调用前端来拦截那个调用并根据该数据渲染某些东西。"
+ },
+ {
+  "seg": 97,
+  "start": 591.411,
+  "end": 592.352,
+  "speaker": "Unknown",
+  "en": "The problem with this is that",
+  "zh": "这样做的问题在于"
+ },
+ {
+  "seg": 98,
+  "start": 593.533,
+  "end": 599.38,
+  "speaker": "Unknown",
+  "en": "The agent has no idea what actually happens because it's kind of just firing something into the void, getting back some success message.",
+  "zh": "智能体根本不知道实际发生了什么，因为它基本上只是向虚空发射东西，然后得到一些成功消息。"
+ },
+ {
+  "seg": 99,
+  "start": 599.4,
+  "end": 611.634,
+  "speaker": "Unknown",
+  "en": "But if the user says, why is that company on the left-hand side, it doesn't have any context on what the front end is doing because it's completely outside of the purview of the harness.",
+  "zh": "但如果用户说，为什么那家公司放在左侧，它对前端正在做的事情没有任何上下文，因为这完全超出了机具的范围。"
+ },
+ {
+  "seg": 100,
+  "start": 612.9,
+  "end": 616.845,
+  "speaker": "Unknown",
+  "en": "And again, going back to this diagram, it's on the bottom.",
+  "zh": "再次回到这张图，它在底部。"
+ },
+ {
+  "seg": 101,
+  "start": 616.925,
+  "end": 623.052,
+  "speaker": "Unknown",
+  "en": "There's no way for the model to develop progressive disclosure to access that information.",
+  "zh": "模型无法开发出渐进式披露来访问该信息。"
+ },
+ {
+  "seg": 102,
+  "start": 624.794,
+  "end": 627.697,
+  "speaker": "Unknown",
+  "en": "The easier way to do this",
+  "zh": "更简单的方法"
+ },
+ {
+  "seg": 103,
+  "start": 629.392,
+  "end": 632.794,
+  "speaker": "Unknown",
+  "en": "is to basically have it live entirely in the messages list.",
+  "zh": "是基本上让它完全存在于消息列表中。"
+ },
+ {
+  "seg": 104,
+  "start": 633.254,
+  "end": 640.237,
+  "speaker": "Unknown",
+  "en": "So with things like visualizations, generally they're small enough that it's not a huge deal to just have it directly in the assistant message.",
+  "zh": "因此对于像可视化这样的东西，通常它们足够小，直接放在助手消息里没什么大不了的。"
+ },
+ {
+  "seg": 105,
+  "start": 640.737,
+  "end": 652.803,
+  "speaker": "Unknown",
+  "en": "So you could do something, basically prompt the agent to use some sort of delimiter, in this case an XML tag, HTML visualization that wraps whatever HTML it's going to use to print out the visualization.",
+  "zh": "所以你可以做类似的事情，基本上提示智能体使用某种定界符，在这种情况下是一个 XML 标签，HTML 可视化，包裹它将要用来输出可视化的任何 HTML。"
+ },
+ {
+  "seg": 106,
+  "start": 653.683,
+  "end": 656.304,
+  "speaker": "Unknown",
+  "en": "The front end can intercept that as part of the output.",
+  "zh": "前端可以拦截它作为输出的一部分。"
+ },
+ {
+  "seg": 107,
+  "start": 656.644,
+  "end": 658.765,
+  "speaker": "Unknown",
+  "en": "It can render the graphic in real time.",
+  "zh": "它可以实时渲染图形。"
+ },
+ {
+  "seg": 108,
+  "start": 660.065,
+  "end": 663.186,
+  "speaker": "Unknown",
+  "en": "But most importantly, the model has full visibility into what's happening.",
+  "zh": "但最重要的是，模型完全了解正在发生什么。"
+ },
+ {
+  "seg": 109,
+  "start": 663.206,
+  "end": 665.007,
+  "speaker": "Unknown",
+  "en": "If you say, why is that company on the left?",
+  "zh": "如果你说，为什么那家公司在左边？"
+ },
+ {
+  "seg": 110,
+  "start": 665.507,
+  "end": 666.567,
+  "speaker": "Unknown",
+  "en": "It knows why, because it did it.",
+  "zh": "它知道为什么，因为它是它做的。"
+ },
+ {
+  "seg": 111,
+  "start": 667.407,
+  "end": 677.951,
+  "speaker": "Unknown",
+  "en": "If you ask it, can you regenerate this and move these three things to the right-hand side and change the background color, it has full agency to kind of modify it, and it's fully living inside the messages list.",
+  "zh": "如果你问它，你能重新生成这个并把这三样东西移到右边并更改背景颜色吗，它完全有能力去修改它，并且它完全存在于消息列表中。"
+ },
+ {
+  "seg": 112,
+  "start": 678.971,
+  "end": 688.079,
+  "speaker": "Unknown",
+  "en": "So this is easy enough when it's something small like a visualization because we could just make sure it's always visible to the model by being in the messages list.",
+  "zh": "所以当它像可视化这样小的东西时这很容易，因为我们可以通过在消息列表中来确保它对模型始终可见。"
+ },
+ {
+  "seg": 113,
+  "start": 688.46,
+  "end": 691.422,
+  "speaker": "Unknown",
+  "en": "But one of the biggest use cases for Harmonic is searching companies.",
+  "zh": "但是 Harmonic 最大的用例之一是搜索公司。"
+ },
+ {
+  "seg": 114,
+  "start": 691.522,
+  "end": 695.626,
+  "speaker": "Unknown",
+  "en": "And someone might want to do that search from earlier, find fintech companies in New York.",
+  "zh": "有人可能想要做之前的那个搜索，找到纽约的金融科技公司。"
+ },
+ {
+  "seg": 115,
+  "start": 695.666,
+  "end": 697.988,
+  "speaker": "Unknown",
+  "en": "And there's probably, I don't know, tens of thousands of them.",
+  "zh": "那里可能有，我不知道，数万家。"
+ },
+ {
+  "seg": 116,
+  "start": 699.069,
+  "end": 699.589,
+  "speaker": "Unknown",
+  "en": "So it's...",
+  "zh": "所以它是..."
+ },
+ {
+  "seg": 117,
+  "start": 700.41,
+  "end": 709.636,
+  "speaker": "Unknown",
+  "en": "We have to basically expose a way to conduct that search in the front end and make sure that the agent has awareness of what the results are.",
+  "zh": "我们必须基本上公开一种在前端进行该搜索的方法，并确保智能体知道结果是什么。"
+ },
+ {
+  "seg": 118,
+  "start": 710.037,
+  "end": 717.582,
+  "speaker": "Unknown",
+  "en": "But it's probably too big to have 10,000 lines in the messages list just kind of thrown into a human message or a tool message.",
+  "zh": "但在消息列表里放 10,000 行可能太多了，只是简单地扔进一条人类消息或工具消息里。"
+ },
+ {
+  "seg": 119,
+  "start": 719.233,
+  "end": 722.795,
+  "speaker": "Unknown",
+  "en": "Again, the kind of naive way to do this would be to fire and forget.",
+  "zh": "同样，做这件事的某种幼稚方式是发后即忘。"
+ },
+ {
+  "seg": 120,
+  "start": 722.815,
+  "end": 724.716,
+  "speaker": "Unknown",
+  "en": "The model would trigger a search.",
+  "zh": "模型会触发一个搜索。"
+ },
+ {
+  "seg": 121,
+  "start": 724.856,
+  "end": 729.278,
+  "speaker": "Unknown",
+  "en": "And by the way, when I say naive, this is what we did at the beginning, and it caused a bunch of issues.",
+  "zh": "顺便说一句，当我说天真时，这是我们一开始做的，它导致了一堆问题。"
+ },
+ {
+  "seg": 122,
+  "start": 729.758,
+  "end": 731.119,
+  "speaker": "Unknown",
+  "en": "The model would trigger a search.",
+  "zh": "模型会触发一个搜索。"
+ },
+ {
+  "seg": 123,
+  "start": 731.859,
+  "end": 733.46,
+  "speaker": "Unknown",
+  "en": "It would call some sort of search service.",
+  "zh": "它会调用某种搜索服务。"
+ },
+ {
+  "seg": 124,
+  "start": 733.48,
+  "end": 736.862,
+  "speaker": "Unknown",
+  "en": "The front end would intercept that call and start to render that side by side.",
+  "zh": "前端会拦截那个调用并开始并行渲染它。"
+ },
+ {
+  "seg": 125,
+  "start": 737.502,
+  "end": 738.183,
+  "speaker": "Unknown",
+  "en": "But there would be no...",
+  "zh": "但是不会有..."
+ },
+ {
+  "seg": 126,
+  "start": 739.003,
+  "end": 761.508,
+  "speaker": "Unknown",
+  "en": "information making it back to the model so a user would follow up and be like great there's you know five results at the top i don't know why they're showing up here or like can you tell me more about the ceo of the second company the model doesn't have any context and doesn't have any way to even like build up context to know what uh exists there so the user's seeing this great thing but then the the agent loses ability to build up that context",
+  "zh": "信息传回给模型，所以用户会跟进说很好有你知道五个结果在顶部我不知道它们为什么显示在这里或者像你能告诉我更多关于第二家公司 CEO 的事吗模型没有任何上下文并且没有任何方式甚至像建立上下文来知道那里存在什么所以用户看到了这个很棒的东西但随后智能体失去了建立该上下文的能力"
+ },
+ {
+  "seg": 127,
+  "start": 762.858,
+  "end": 771.124,
+  "speaker": "Unknown",
+  "en": "A better approach here would be to create a tool that returns some sort of identifier and then tools to explore that artifact a bit.",
+  "zh": "这里一个更好的方法是创建一个返回某种标识符的工具，然后有工具来探索该工件。"
+ },
+ {
+  "seg": 128,
+  "start": 771.184,
+  "end": 774.366,
+  "speaker": "Unknown",
+  "en": "So the model would call something like start company search.",
+  "zh": "所以模型会调用类似开始公司搜索的东西。"
+ },
+ {
+  "seg": 129,
+  "start": 775.167,
+  "end": 782.613,
+  "speaker": "Unknown",
+  "en": "It would execute the search and return back like an ID of the search, some sort of status, the count of results.",
+  "zh": "它会执行搜索并返回搜索的 ID，某种状态，结果的计数。"
+ },
+ {
+  "seg": 130,
+  "start": 784.113,
+  "end": 787.735,
+  "speaker": "Unknown",
+  "en": "And then the front end would intercept that, start to render the results as they come in.",
+  "zh": "然后前端会拦截它，开始渲染结果，因为它们进来了。"
+ },
+ {
+  "seg": 131,
+  "start": 788.915,
+  "end": 793.197,
+  "speaker": "Unknown",
+  "en": "But then the model has the search ID and it has tools to inspect the artifacts.",
+  "zh": "但随后模型有了搜索 ID 并且它有工具来检查工件。"
+ },
+ {
+  "seg": 132,
+  "start": 793.217,
+  "end": 796.218,
+  "speaker": "Unknown",
+  "en": "So it could say something like, get the search status for this search ID.",
+  "zh": "所以它可以说类似，获取这个搜索 ID 的搜索状态。"
+ },
+ {
+  "seg": 133,
+  "start": 796.998,
+  "end": 803.16,
+  "speaker": "Unknown",
+  "en": "Or it could say fetch the first 10 results or the second batch of results from this search.",
+  "zh": "或者它可以说获取该搜索的前 10 个结果或第二批结果。"
+ },
+ {
+  "seg": 134,
+  "start": 803.461,
+  "end": 804.901,
+  "speaker": "Unknown",
+  "en": "And it's able to build up that context.",
+  "zh": "并且它能够建立那个上下文。"
+ },
+ {
+  "seg": 135,
+  "start": 804.921,
+  "end": 806.442,
+  "speaker": "Unknown",
+  "en": "So if the user then asks,",
+  "zh": "所以如果用户随后问，"
+ },
+ {
+  "seg": 136,
+  "start": 807.362,
+  "end": 809.606,
+  "speaker": "Unknown",
+  "en": "You know, why are these five companies at the top?",
+  "zh": "你知道，为什么这五家公司在顶部？"
+ },
+ {
+  "seg": 137,
+  "start": 810.187,
+  "end": 811.95,
+  "speaker": "Unknown",
+  "en": "It's able to be like, let me take a look.",
+  "zh": "它能够说，让我看一下。"
+ },
+ {
+  "seg": 138,
+  "start": 811.97,
+  "end": 814.694,
+  "speaker": "Unknown",
+  "en": "It's not directly in the messages list, but it could say, let me take a look.",
+  "zh": "它不直接在消息列表中，但它可以说，让我看一下。"
+ },
+ {
+  "seg": 139,
+  "start": 814.754,
+  "end": 820.324,
+  "speaker": "Unknown",
+  "en": "It'll fire off a tool call for fetch the first 10 results, and then it'll be able to answer the user.",
+  "zh": "它会为获取前 10 个结果发射一个工具调用，然后它将能够回答用户。"
+ },
+ {
+  "seg": 140,
+  "start": 821.644,
+  "end": 822.525,
+  "speaker": "Unknown",
+  "en": "So this is the better version.",
+  "zh": "所以这是更好的版本。"
+ },
+ {
+  "seg": 141,
+  "start": 823.105,
+  "end": 838.355,
+  "speaker": "Unknown",
+  "en": "The best version is a DeepAgent's native version, which is basically using the file system as a shared storage space for basically the agent, the front end, and any other kind of deterministic processes that you want to run.",
+  "zh": "最好的版本是 DeepAgent 的原生版本，基本上是使用文件系统作为智能体、前端以及你想运行的任何其他类型确定性进程的共享存储空间。"
+ },
+ {
+  "seg": 142,
+  "start": 838.955,
+  "end": 844.399,
+  "speaker": "Unknown",
+  "en": "So the main agent as part of the DeepAgent's framework has file system tools.",
+  "zh": "所以作为 DeepAgent 框架一部分的主智能体有文件系统工具。"
+ },
+ {
+  "seg": 143,
+  "start": 844.539,
+  "end": 848.562,
+  "speaker": "Unknown",
+  "en": "So it has the ability to kind of navigate this scoped file system that gets created.",
+  "zh": "所以它有能力导航这个被创建的范围文件系统。"
+ },
+ {
+  "seg": 144,
+  "start": 848.982,
+  "end": 850.003,
+  "speaker": "Unknown",
+  "en": "It can do, you know,",
+  "zh": "它可以做，你知道，"
+ },
+ {
+  "seg": 145,
+  "start": 850.923,
+  "end": 854.206,
+  "speaker": "Unknown",
+  "en": "Read files, LS, CD, grep.",
+  "zh": "读取文件，LS，CD，grep。"
+ },
+ {
+  "seg": 146,
+  "start": 855.087,
+  "end": 863.794,
+  "speaker": "Unknown",
+  "en": "And then we would be able to basically create, fire off a second search agent that would mount to that same file system that the main agent's running on.",
+  "zh": "然后我们基本上可以创建，发射第二个搜索智能体，它将挂载到主智能体运行的同一个文件系统上。"
+ },
+ {
+  "seg": 147,
+  "start": 863.814,
+  "end": 867.117,
+  "speaker": "Unknown",
+  "en": "It would be able to kind of fire off a search that might run for a while.",
+  "zh": "它能够发射一个可能运行一段时间的搜索。"
+ },
+ {
+  "seg": 148,
+  "start": 867.137,
+  "end": 870.62,
+  "speaker": "Unknown",
+  "en": "It might run some kind of custom evaluation and rank them and sort them and whatever.",
+  "zh": "它可能运行某种自定义评估并对它们排名和排序等等。"
+ },
+ {
+  "seg": 149,
+  "start": 871.001,
+  "end": 872.502,
+  "speaker": "Unknown",
+  "en": "But it's writing to the same file system.",
+  "zh": "但它写入同一个文件系统。"
+ },
+ {
+  "seg": 150,
+  "start": 872.562,
+  "end": 878.067,
+  "speaker": "Unknown",
+  "en": "So while that's happening, the main agent has the ability to kind of arbitrarily inspect the output and the status.",
+  "zh": "所以当这种情况发生时，主智能体有能力随意检查输出和状态。"
+ },
+ {
+  "seg": 151,
+  "start": 878.567,
+  "end": 881.308,
+  "speaker": "Unknown",
+  "en": "The front end can still kind of connect to that same file system.",
+  "zh": "前端仍然可以连接到同一个文件系统。"
+ },
+ {
+  "seg": 152,
+  "start": 881.328,
+  "end": 884.329,
+  "speaker": "Unknown",
+  "en": "We expose an API to render the results directly from there.",
+  "zh": "我们暴露了一个 API 来直接从那里渲染结果。"
+ },
+ {
+  "seg": 153,
+  "start": 885.269,
+  "end": 886.61,
+  "speaker": "Unknown",
+  "en": "So then everything is kind of in harmony.",
+  "zh": "所以一切都是和谐一致的。"
+ },
+ {
+  "seg": 154,
+  "start": 886.65,
+  "end": 893.973,
+  "speaker": "Unknown",
+  "en": "The front end can view the results as they come in, like up to tens of thousands of results, ranked, sorted, with annotations.",
+  "zh": "前端可以在结果进来时查看它们，比如多达数万个结果，经过排序、排序，带有注释。"
+ },
+ {
+  "seg": 155,
+  "start": 894.553,
+  "end": 899.895,
+  "speaker": "Unknown",
+  "en": "The search agent is kind of continuously pumping data in by just writing it to this file system.",
+  "zh": "搜索智能体通过将数据写入这个文件系统来持续泵送数据。"
+ },
+ {
+  "seg": 156,
+  "start": 900.615,
+  "end": 904.337,
+  "speaker": "Unknown",
+  "en": "And then the user can still ask something like, why are these five companies at the top?",
+  "zh": "然后用户仍然可以问类似这样的问题，为什么这五家公司在最上面？"
+ },
+ {
+  "seg": 157,
+  "start": 904.417,
+  "end": 905.097,
+  "speaker": "Unknown",
+  "en": "Or, you know...",
+  "zh": "或者，你知道……"
+ },
+ {
+  "seg": 158,
+  "start": 905.857,
+  "end": 908.559,
+  "speaker": "Unknown",
+  "en": "Draft outreach emails for the top five companies.",
+  "zh": "为前五家公司撰写外联邮件。"
+ },
+ {
+  "seg": 159,
+  "start": 909.799,
+  "end": 912.961,
+  "speaker": "Unknown",
+  "en": "And the main agent would be able to be like, okay, let me read this file.",
+  "zh": "主智能体能够像这样，好的，让我读一下这个文件。"
+ },
+ {
+  "seg": 160,
+  "start": 912.981,
+  "end": 914.782,
+  "speaker": "Unknown",
+  "en": "I know the path of where this is being stored.",
+  "zh": "我知道它存储位置的路径。"
+ },
+ {
+  "seg": 161,
+  "start": 914.822,
+  "end": 916.003,
+  "speaker": "Unknown",
+  "en": "Let me read the first 10 lines.",
+  "zh": "让我读一下前 10 行。"
+ },
+ {
+  "seg": 162,
+  "start": 916.023,
+  "end": 917.204,
+  "speaker": "Unknown",
+  "en": "Let me read the next 10 lines.",
+  "zh": "让我读一下接下来的 10 行。"
+ },
+ {
+  "seg": 163,
+  "start": 917.424,
+  "end": 919.045,
+  "speaker": "Unknown",
+  "en": "And it's able to kind of piece it together.",
+  "zh": "并且它能够把它拼凑在一起。"
+ },
+ {
+  "seg": 164,
+  "start": 922.202,
+  "end": 927.606,
+  "speaker": "Unknown",
+  "en": "So final kind of just tip of what we've learned as a kind of a heuristic for if you're going in the right direction or not.",
+  "zh": "最后是一个我们学到的技巧，作为一种启发式方法，用来判断你是否走在正确的方向上。"
+ },
+ {
+  "seg": 165,
+  "start": 927.946,
+  "end": 942.757,
+  "speaker": "Unknown",
+  "en": "If you find yourself kind of fighting against the model, if you find yourself saying like, trust that this is being rendered, like after you call this tool, the user will see this, like believe me, like don't respond, don't include this in your response.",
+  "zh": "如果你发现自己正在与模型对抗，如果你发现自己说类似这样的话，相信这是被渲染了的，就像在你调用这个工具之后，用户会看到这个，相信我，不要响应，不要把这个包含在你的响应中。"
+ },
+ {
+  "seg": 166,
+  "start": 943.477,
+  "end": 956.904,
+  "speaker": "Unknown",
+  "en": "Like it's kind of a sniff test that something might be invisible to the model or it might be something that could be better solved by kind of designing better first principles like flow of context between the harness and the model.",
+  "zh": "这就像是一个嗅觉测试，看看某些东西对模型来说可能是不可见的，或者通过设计更好的第一原则，比如鞍座和模型之间的上下文流，可以更好地解决它。"
+ },
+ {
+  "seg": 167,
+  "start": 958.844,
+  "end": 961.166,
+  "speaker": "Unknown",
+  "en": "So to recap, Agent is a model and harness.",
+  "zh": "所以回顾一下，Agent 是一个模型和鞍座。"
+ },
+ {
+  "seg": 168,
+  "start": 961.566,
+  "end": 963.867,
+  "speaker": "Unknown",
+  "en": "The product adds UX on top of it.",
+  "zh": "产品在上面增加了 UX。"
+ },
+ {
+  "seg": 169,
+  "start": 964.977,
+  "end": 969.24,
+  "speaker": "Unknown",
+  "en": "The UX has to play by the rules of how the harness shares context with the model.",
+  "zh": "UX 必须遵守鞍座如何与模型共享上下文的规则。"
+ },
+ {
+  "seg": 170,
+  "start": 970.161,
+  "end": 976.365,
+  "speaker": "Unknown",
+  "en": "And the model needs to have progressive visibility into any artifacts shown to the user or else it's invisible to the model.",
+  "zh": "并且模型需要对展示给用户的任何工件具有渐进的可见性，否则它对模型来说是不可见的。"
+ },
+ {
+  "seg": 171,
+  "start": 977.546,
+  "end": 977.787,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 172,
+  "start": 978.127,
+  "end": 978.387,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

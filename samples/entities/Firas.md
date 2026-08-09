@@ -46,7 +46,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan":2,"Joel de la Garza":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":1,"软件供应链":2,"零日漏洞":2,"NPM 蠕虫":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan":2,"Joel de la Garza":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":2,"软件供应链":2,"零日漏洞":2,"NPM 蠕虫":2}</script>
 
 <script>
 (function(){

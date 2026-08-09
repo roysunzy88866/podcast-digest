@@ -1,0 +1,1754 @@
+[
+ {
+  "seg": 0,
+  "start": 12.899,
+  "end": 13.86,
+  "speaker": "Unknown",
+  "en": "Good morning.",
+  "zh": "早上好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.18,
+  "end": 15.942,
+  "speaker": "Unknown",
+  "en": "I know a lot of you in this room.",
+  "zh": "我认识在座很多人。"
+ },
+ {
+  "seg": 2,
+  "start": 16.102,
+  "end": 17.143,
+  "speaker": "Unknown",
+  "en": "It's great to see you.",
+  "zh": "很高兴见到你们。"
+ },
+ {
+  "seg": 3,
+  "start": 17.243,
+  "end": 20.226,
+  "speaker": "Unknown",
+  "en": "Welcome to the voice track at AI Engineer World's Fair.",
+  "zh": "欢迎来到 AI Engineer World's Fair 的语音专场。"
+ },
+ {
+  "seg": 4,
+  "start": 21.027,
+  "end": 23.769,
+  "speaker": "Unknown",
+  "en": "For those of you who don't know me, my name is Quindle Holtmann-Kramer.",
+  "zh": "对于不认识我的人，我的名字是 Quindle Holtmann-Kramer。"
+ },
+ {
+  "seg": 5,
+  "start": 24.63,
+  "end": 25.871,
+  "speaker": "Unknown",
+  "en": "I work at a company called Daily.",
+  "zh": "我在一家叫做 Daily 的公司工作。"
+ },
+ {
+  "seg": 6,
+  "start": 26.092,
+  "end": 30.696,
+  "speaker": "Unknown",
+  "en": "We make developer infrastructure for real-time audio, video, and AI.",
+  "zh": "我们为实时音频、视频和 AI 制作开发者基础设施。"
+ },
+ {
+  "seg": 7,
+  "start": 31.096,
+  "end": 36.561,
+  "speaker": "Unknown",
+  "en": "And we're the team behind Pipecat, which is the most widely used framework for building voice agents today.",
+  "zh": "我们是 Pipecat 背后的团队，它是目前构建语音智能体使用最广泛的框架。"
+ },
+ {
+  "seg": 8,
+  "start": 37.182,
+  "end": 39.104,
+  "speaker": "Unknown",
+  "en": "Pipecat is open source and vendor neutral.",
+  "zh": "Pipecat 是开源且中立的。"
+ },
+ {
+  "seg": 9,
+  "start": 39.844,
+  "end": 47.651,
+  "speaker": "Unknown",
+  "en": "It's used by companies like AWS and NVIDIA and Anthropic and thousands of startups and scale-ups and enterprises.",
+  "zh": "它被 AWS 和 NVIDIA 以及 Anthropic 等公司以及数千家初创公司和扩张期企业和大型企业使用。"
+ },
+ {
+  "seg": 10,
+  "start": 48.391,
+  "end": 58.039,
+  "speaker": "Unknown",
+  "en": "And today I'm going to talk about what kind of agents we're building today, including voice agents, but not just voice agents, and what I'm interested in building next.",
+  "zh": "今天我将讨论我们现在正在构建什么类型的智能体，包括语音智能体，但不仅仅是语音智能体，以及我接下来有兴趣构建什么。"
+ },
+ {
+  "seg": 11,
+  "start": 58.56,
+  "end": 65.405,
+  "speaker": "Unknown",
+  "en": "And I'm going to try to put all this in the context of the roughly 80-year history of digital computing so far.",
+  "zh": "我将尝试把所有这些放在迄今为止大约 80 年的数字计算历史的背景下。"
+ },
+ {
+  "seg": 12,
+  "start": 66.166,
+  "end": 67.667,
+  "speaker": "Unknown",
+  "en": "So we've got a lot to cover.",
+  "zh": "所以我们有很多要涵盖的内容。"
+ },
+ {
+  "seg": 13,
+  "start": 67.687,
+  "end": 69.007,
+  "speaker": "Unknown",
+  "en": "We're going to go fast.",
+  "zh": "我们会讲得很快。"
+ },
+ {
+  "seg": 14,
+  "start": 69.827,
+  "end": 79.011,
+  "speaker": "Unknown",
+  "en": "But we're going to start in 1945 with an essay called As We May Think written by an engineer, an academic, a civil servant named Vannevar Bush.",
+  "zh": "但我们将从 1945 年开始，谈谈一篇名为 As We May Think 的文章，由一位名为 Vannevar Bush 的工程师、学者、公务员撰写。"
+ },
+ {
+  "seg": 15,
+  "start": 79.991,
+  "end": 86.214,
+  "speaker": "Unknown",
+  "en": "Bush deeply understood technologies ranging from analog computers to photography to radio to radar.",
+  "zh": "Bush 深刻理解了从模拟计算机到摄影再到无线电再到雷达的各种技术。"
+ },
+ {
+  "seg": 16,
+  "start": 87.054,
+  "end": 112.954,
+  "speaker": "Unknown",
+  "en": "And as we may think is an extraordinary piece of writing, the essay predicts the development of, among other things, document display on a screen, and document scanning in OCR, and speech-to-text, and text-to-speech, and programming languages, and hypertext, and search engines, and data networks, something like the GoPro camera, something weirdly like the Amazon Kindle store, and voice interfaces, and brain computer interfaces.",
+  "zh": "而 As We May Think 是一篇非凡的文学作品，这篇文章预测了屏幕上的文档显示、OCR 文档扫描、语音转文本、文本转语音、编程语言、超文本、搜索引擎、数据网络、类似 GoPro 相机的东西、奇怪地类似 Amazon Kindle 商店的东西、语音接口以及脑机接口等事物的发展。"
+ },
+ {
+  "seg": 17,
+  "start": 113.895,
+  "end": 122.224,
+  "speaker": "Unknown",
+  "en": "And I've been thinking a lot about, as we may think lately, because Bush wrote this essay right at the very beginning of the computing age.",
+  "zh": "我最近一直在思考 As We May Think，因为 Bush 正是在计算时代最开始的时候写了这篇文章。"
+ },
+ {
+  "seg": 18,
+  "start": 123.345,
+  "end": 129.091,
+  "speaker": "Unknown",
+  "en": "And I think it feels to most of us like we're working right at the beginning of a new age, the intelligence age.",
+  "zh": "我觉得对我们大多数人来说，我们正工作在一个新时代的开端，即智能时代。"
+ },
+ {
+  "seg": 19,
+  "start": 129.731,
+  "end": 132.054,
+  "speaker": "Unknown",
+  "en": "So what will we build?",
+  "zh": "所以我们将构建什么？"
+ },
+ {
+  "seg": 20,
+  "start": 133.31,
+  "end": 138.337,
+  "speaker": "Unknown",
+  "en": "Well, at the moment, we're building agents, and we're having a lot of fun doing it.",
+  "zh": "嗯，目前，我们正在构建智能体，我们在这个过程中乐在其中。"
+ },
+ {
+  "seg": 21,
+  "start": 139.198,
+  "end": 146.969,
+  "speaker": "Unknown",
+  "en": "And a lot of the AI engineering work we're all talking about this week is focused on building a full, coherent software stack for AI agents.",
+  "zh": "我们本周都在谈论的许多 AI 工程工作都专注于为 AI 智能体构建一个完整的、连贯的软件栈。"
+ },
+ {
+  "seg": 22,
+  "start": 148.163,
+  "end": 157.388,
+  "speaker": "Unknown",
+  "en": "Here is Satya Nadella talking a couple weeks ago on a crossover episode of the no priors and latent space pod about the challenges of building agents in 2026.",
+  "zh": "这里是 Satya Nadella 几周前在 no priors 和 latent space 播客的交叉节目上谈论 2026 年构建智能体的挑战。"
+ },
+ {
+  "seg": 23,
+  "start": 157.428,
+  "end": 159.389,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 24,
+  "start": 159.489,
+  "end": 168.414,
+  "speaker": "Unknown",
+  "en": "So in some sense, you kind of want the harness to define the models, the data, and the tools.",
+  "zh": "所以在某种意义上，你想要套索来定义模型、数据和工具。"
+ },
+ {
+  "seg": 25,
+  "start": 169.154,
+  "end": 171.455,
+  "speaker": "Unknown",
+  "en": "And so that you have a loop across those three.",
+  "zh": "这样你就可以在这三者之间建立一个循环。"
+ },
+ {
+  "seg": 26,
+  "start": 171.935,
+  "end": 183.857,
+  "speaker": "Unknown",
+  "en": "And so what we are trying to, first of all, make sure is each of our products that we build, right, whether it's GitHub Copilot or the security stuff we showed with MDash, or even the discovery for science, it doesn't matter.",
+  "zh": "因此，我们要做的首先是确保我们构建的每一个产品，无论是 GitHub Copilot 还是我们用 MDash 展示的安全相关的东西，甚至科学的发现，都无关紧要。"
+ },
+ {
+  "seg": 27,
+  "start": 184.358,
+  "end": 194.48,
+  "speaker": "Unknown",
+  "en": "All of them are multi-model harnesses with tools access so that you can do this progressive disclosure of tools even so that they're token efficient.",
+  "zh": "它们都是带有工具访问权限的多模型套索，这样你就可以做这种工具的渐进式披露，甚至使它们对 token 高效。"
+ },
+ {
+  "seg": 28,
+  "start": 195.26,
+  "end": 198.821,
+  "speaker": "Unknown",
+  "en": "And then you're feeding it with very rich context.",
+  "zh": "然后你用非常丰富的上下文来喂养它。"
+ },
+ {
+  "seg": 29,
+  "start": 200.341,
+  "end": 213.645,
+  "speaker": "Unknown",
+  "en": "So if you were here last year at AI Engineer World's Fair, you could draw a through line from the things we were talking about last year to loops and tool calls and context engineering and the stuff we're focused on this year to some emerging ideas.",
+  "zh": "所以如果你去年在 AI Engineer World's Fair，你可以从去年我们谈论的事情到循环和工具调用和上下文工程以及我们今年关注的东西，画出一条线索到一些新兴的想法。"
+ },
+ {
+  "seg": 30,
+  "start": 214.085,
+  "end": 217.826,
+  "speaker": "Unknown",
+  "en": "You can hear that in Nadella's clip just there.",
+  "zh": "你可以在刚才 Nadella 的片段中听到这一点。"
+ },
+ {
+  "seg": 31,
+  "start": 218.026,
+  "end": 220.967,
+  "speaker": "Unknown",
+  "en": "I think of this as kind of Agents++, like multi...",
+  "zh": "我将其视为一种 Agents++，像是多..."
+ },
+ {
+  "seg": 32,
+  "start": 221.227,
+  "end": 224.972,
+  "speaker": "Unknown",
+  "en": "Model harnesses and software copilots embedded in every single piece of software.",
+  "zh": "嵌入在每一件软件中的模型套索和软件副驾驶。"
+ },
+ {
+  "seg": 33,
+  "start": 225.552,
+  "end": 226.874,
+  "speaker": "Unknown",
+  "en": "Organization level harnesses.",
+  "zh": "组织级别的套索。"
+ },
+ {
+  "seg": 34,
+  "start": 227.755,
+  "end": 233.022,
+  "speaker": "Unknown",
+  "en": "So how do we go from agents to Agents++ to the next thing beyond agents?",
+  "zh": "那么我们如何从智能体到 Agents++ 再到智能体之外的下一件事物？"
+ },
+ {
+  "seg": 35,
+  "start": 234.29,
+  "end": 243.372,
+  "speaker": "Unknown",
+  "en": "Well, the last time we had this kind of massive change in how we write software and what we write software for and to do was the early days of the World Wide Web.",
+  "zh": "嗯，上一次我们在编写软件的方式和编写软件的目的方面发生这种巨大变化是在万维网的早期。"
+ },
+ {
+  "seg": 36,
+  "start": 244.032,
+  "end": 246.193,
+  "speaker": "Unknown",
+  "en": "And I was around for the early days of the World Wide Web.",
+  "zh": "我经历了万维网的早期。"
+ },
+ {
+  "seg": 37,
+  "start": 246.233,
+  "end": 248.553,
+  "speaker": "Unknown",
+  "en": "I was a baby programmer in 1995.",
+  "zh": "我在 1995 年是个婴儿程序员。"
+ },
+ {
+  "seg": 38,
+  "start": 248.753,
+  "end": 254.595,
+  "speaker": "Unknown",
+  "en": "And the thing we talked about all the time in 1995, the way we talk about agents today, is web pages.",
+  "zh": "我们在 1995 年一直谈论的事情，就像我们今天谈论智能体一样，是网页。"
+ },
+ {
+  "seg": 39,
+  "start": 255.315,
+  "end": 266.847,
+  "speaker": "Unknown",
+  "en": "I spent a lot of time writing HTML by hand and building web server software in C and indexing and search software in C and authoring tooling and management infrastructure for web pages in Perl.",
+  "zh": "我花了很多时间手写 HTML，并用 C 构建网络服务器软件，用 C 构建索引和搜索软件，并用 Perl 编写网页的工具和管理基础设施。"
+ },
+ {
+  "seg": 40,
+  "start": 267.668,
+  "end": 272.553,
+  "speaker": "Unknown",
+  "en": "I was as excited about HTML in 1995 as I am about agents today.",
+  "zh": "我在 1995 年对 HTML 的兴奋程度就像我今天对智能体的兴奋程度一样。"
+ },
+ {
+  "seg": 41,
+  "start": 274.273,
+  "end": 277.296,
+  "speaker": "Unknown",
+  "en": "And the web page is still with us, and it's still important and useful.",
+  "zh": "网页仍然存在，它仍然重要且有用。"
+ },
+ {
+  "seg": 42,
+  "start": 277.916,
+  "end": 283.541,
+  "speaker": "Unknown",
+  "en": "But today, we talk a lot more about web applications and native mobile applications than we talk about web pages.",
+  "zh": "但是今天，我们谈论网络应用程序和原生移动应用程序比谈论网页多得多。"
+ },
+ {
+  "seg": 43,
+  "start": 284.422,
+  "end": 295.952,
+  "speaker": "Unknown",
+  "en": "So just like we went from web pages to full-blown web and native mobile, clearly, we're going to chart a path to a new fully AI-native software that comes after Agents and Agents++.",
+  "zh": "就像我们从网页发展到成熟的网络和原生移动一样，显然，我们将绘制一条通往全新的 AI 原生软件的路径，它将出现在智能体和 Agents++ 之后。"
+ },
+ {
+  "seg": 44,
+  "start": 297.76,
+  "end": 301.881,
+  "speaker": "Unknown",
+  "en": "So let's keep going back in time in order to think about this future.",
+  "zh": "所以让我们继续回顾过去，以思考这个未来。"
+ },
+ {
+  "seg": 45,
+  "start": 302.721,
+  "end": 305.542,
+  "speaker": "Unknown",
+  "en": "Here's a timeline Vannevar Bush lays out in As We May Think.",
+  "zh": "这里是 Vannevar Bush 在 As We May Think 中列出的时间线。"
+ },
+ {
+  "seg": 46,
+  "start": 305.702,
+  "end": 321.746,
+  "speaker": "Unknown",
+  "en": "He talks about the abacus, which was both an immensely useful device for doing practical everyday mathematical calculations and also an incredibly important theoretical tool that led to ideas like numeric place value and the concept of zero.",
+  "zh": "他谈到了算盘，它既是一个用于实际日常数学计算的极其实用的设备，也是一个导致数字位值和零的概念等想法的极其重要的理论工具。"
+ },
+ {
+  "seg": 47,
+  "start": 322.686,
+  "end": 332.996,
+  "speaker": "Unknown",
+  "en": "And Bush talks about the massive jump from the abacus to the state-of-the-art electromechanical keyboard calculating machines that he had in 1945.",
+  "zh": "Bush 谈到了从算盘到他在 1945 年拥有的最先进的机电键盘计算机的巨大飞跃。"
+ },
+ {
+  "seg": 48,
+  "start": 333.777,
+  "end": 337.701,
+  "speaker": "Unknown",
+  "en": "And then he posits that we're about, or he is about to",
+  "zh": "然后他假设我们即将，或者他即将"
+ },
+ {
+  "seg": 49,
+  "start": 340.35,
+  "end": 347.693,
+  "speaker": "Unknown",
+  "en": "Witness and help create an equally large leap to what he calls the arithmetical machine.",
+  "zh": "见证并帮助创建一个同样巨大的飞跃，进入他所谓的算术机器。"
+ },
+ {
+  "seg": 50,
+  "start": 348.173,
+  "end": 354.956,
+  "speaker": "Unknown",
+  "en": "And then he goes a step even further than that, and he invents or designs in that essay a device he calls the mimics.",
+  "zh": "然后他甚至比那更进了一步，他在那篇文章中发明或设计了一种他称为 mimics 的装置。"
+ },
+ {
+  "seg": 51,
+  "start": 356.216,
+  "end": 359.638,
+  "speaker": "Unknown",
+  "en": "And we have a little bit of an advantage over Bush in 1945.",
+  "zh": "我们相比 1945 年的 Bush 有一点优势。"
+ },
+ {
+  "seg": 52,
+  "start": 359.678,
+  "end": 361.519,
+  "speaker": "Unknown",
+  "en": "We've seen 80 years of computing play out.",
+  "zh": "我们见证了 80 年计算的演变。"
+ },
+ {
+  "seg": 53,
+  "start": 362.319,
+  "end": 364.08,
+  "speaker": "Unknown",
+  "en": "So we can modify his timeline a little bit.",
+  "zh": "所以我们可以稍微修改他的时间线。"
+ },
+ {
+  "seg": 54,
+  "start": 364.1,
+  "end": 367.101,
+  "speaker": "Unknown",
+  "en": "We can go from the abacus to the stored program computer.",
+  "zh": "我们可以从算盘讲到存储程序计算机。"
+ },
+ {
+  "seg": 55,
+  "start": 368.402,
+  "end": 378.09,
+  "speaker": "Unknown",
+  "en": "To 40 years later, the personal computer, and 40 years after that, this AI agents era that we're all collectively helping to invent and create and bring into being.",
+  "zh": "讲到 40 年后，个人计算机的出现，以及再 40 年后，我们都在共同帮助发明、创造并实现的这个 AI 智能体时代。"
+ },
+ {
+  "seg": 56,
+  "start": 379.091,
+  "end": 387.197,
+  "speaker": "Unknown",
+  "en": "So the question for me is, what did we build to go from those very first digital computers in the 1940s to the personal computer in the 1980s?",
+  "zh": "所以对我来说，问题是，我们要建造什么才能从 1940 年代最早的那些数字计算机走到 1980 年代的个人计算机？"
+ },
+ {
+  "seg": 57,
+  "start": 388.918,
+  "end": 395.56,
+  "speaker": "Unknown",
+  "en": "Well, in the 1950s, the big job was to figure out more effective ways of transmitting human intent to these new computing machines.",
+  "zh": "嗯，在 1950 年代，主要任务是找出更有效的方法来将人类意图传递给这些新的计算机器。"
+ },
+ {
+  "seg": 58,
+  "start": 396.3,
+  "end": 397.86,
+  "speaker": "Unknown",
+  "en": "We built the first programming languages.",
+  "zh": "我们构建了第一批编程语言。"
+ },
+ {
+  "seg": 59,
+  "start": 398.021,
+  "end": 399.821,
+  "speaker": "Unknown",
+  "en": "We wrote the first compilers.",
+  "zh": "我们编写了第一批编译器。"
+ },
+ {
+  "seg": 60,
+  "start": 400.501,
+  "end": 410.424,
+  "speaker": "Unknown",
+  "en": "And the theoretical underpinnings here were figuring out how to combine the elegance of mathematical formalisms with something a little bit more like natural language.",
+  "zh": "这里的理论基础是，如何将数学形式化的优雅性与某种更接近自然语言的东西结合起来。"
+ },
+ {
+  "seg": 61,
+  "start": 411.604,
+  "end": 412.905,
+  "speaker": "Unknown",
+  "en": "And then building on that, in the 1960s,",
+  "zh": "然后在此基础上，在 1960 年代，"
+ },
+ {
+  "seg": 62,
+  "start": 414.875,
+  "end": 420.338,
+  "speaker": "Unknown",
+  "en": "The challenge was to make these machines interactive, make these machines capable of a two-way dialogue with humans.",
+  "zh": "挑战在于让这些机器变得互动，让这些机器能够与人类进行双向对话。"
+ },
+ {
+  "seg": 63,
+  "start": 422.279,
+  "end": 427.542,
+  "speaker": "Unknown",
+  "en": "The 60s also saw the birth of graphical programming with systems like Ivan Sutherland's Sketchpad.",
+  "zh": "60 年代也见证了像 Ivan Sutherland 的 Sketchpad 这样的系统的图形化编程的诞生。"
+ },
+ {
+  "seg": 64,
+  "start": 429.363,
+  "end": 431.785,
+  "speaker": "Unknown",
+  "en": "And the 60s were an amazing era for science fiction.",
+  "zh": "60 年代也是科幻小说的黄金时代。"
+ },
+ {
+  "seg": 65,
+  "start": 432.965,
+  "end": 435.447,
+  "speaker": "Unknown",
+  "en": "Even though almost nobody had access to a computer,",
+  "zh": "尽管几乎没有人能接触到计算机，"
+ },
+ {
+  "seg": 66,
+  "start": 436.448,
+  "end": 439.889,
+  "speaker": "Unknown",
+  "en": "The computer became a big part of the popular imagination.",
+  "zh": "但计算机成为了大众想象中的重要组成部分。"
+ },
+ {
+  "seg": 67,
+  "start": 439.909,
+  "end": 443.55,
+  "speaker": "Unknown",
+  "en": "The idea of a computer really resonated with people, and ideas matter.",
+  "zh": "计算机的概念确实引起了人们的共鸣，思想很重要。"
+ },
+ {
+  "seg": 68,
+  "start": 444.27,
+  "end": 449.092,
+  "speaker": "Unknown",
+  "en": "For example, here is the idea of the computer in Star Trek.",
+  "zh": "例如，这是《星际迷航》中计算机的概念。"
+ },
+ {
+  "seg": 69,
+  "start": 449.472,
+  "end": 450.712,
+  "speaker": "Unknown",
+  "en": "...on record.",
+  "zh": "……已记录。"
+ },
+ {
+  "seg": 70,
+  "start": 451.453,
+  "end": 452.113,
+  "speaker": "Unknown",
+  "en": "Recording.",
+  "zh": "正在记录。"
+ },
+ {
+  "seg": 71,
+  "start": 454.474,
+  "end": 454.694,
+  "speaker": "Unknown",
+  "en": "Come.",
+  "zh": "来吧。"
+ },
+ {
+  "seg": 72,
+  "start": 457.054,
+  "end": 458.315,
+  "speaker": "Unknown",
+  "en": "Captain's log supplemental.",
+  "zh": "船长日志，补充记录。"
+ },
+ {
+  "seg": 73,
+  "start": 459.875,
+  "end": 465.457,
+  "speaker": "Unknown",
+  "en": "Engineering Officer Scott informs warp engines damaged but can be made operational and re-energized.",
+  "zh": "轮机长 Scott 报告称曲速引擎受损，但可以使其恢复运行并重新充能。"
+ },
+ {
+  "seg": 74,
+  "start": 465.99,
+  "end": 467.911,
+  "speaker": "Unknown",
+  "en": "Computed and recorded, dear.",
+  "zh": "已计算并记录，亲爱的。"
+ },
+ {
+  "seg": 75,
+  "start": 469.932,
+  "end": 471.452,
+  "speaker": "Unknown",
+  "en": "Computer, you will not address me in that manner.",
+  "zh": "Computer，你不许这样跟我说话。"
+ },
+ {
+  "seg": 76,
+  "start": 472.032,
+  "end": 472.433,
+  "speaker": "Unknown",
+  "en": "Computed.",
+  "zh": "已计算。"
+ },
+ {
+  "seg": 77,
+  "start": 473.793,
+  "end": 476.794,
+  "speaker": "Unknown",
+  "en": "Computed, dear.",
+  "zh": "已计算，亲爱的。"
+ },
+ {
+  "seg": 78,
+  "start": 480.956,
+  "end": 489.7,
+  "speaker": "Unknown",
+  "en": "I love the background sound of punch cards going through a punch card reader so you know the computer is working even though it's talking to you about what it's actually computing.",
+  "zh": "我喜欢这种穿孔卡片穿过穿孔卡片阅读器的背景声音，这样你就知道计算机正在工作，尽管它正在跟你对话，讲它实际在计算什么。"
+ },
+ {
+  "seg": 79,
+  "start": 491.204,
+  "end": 503.068,
+  "speaker": "Unknown",
+  "en": "There were, of course, a bunch of other talking computers in science fiction of the 60s, and the next year after this, the Kubrick movie, it was an interpretation of Arthur C. Clarke's 2001 A Space Odyssey, had the HAL 9000 computer.",
+  "zh": "当然，在 60 年代的科幻小说中还有很多其他会说话的计算机，而在那之后的一年，Kubrick 的电影，那是 Arthur C. Clarke 的《2001 太空漫游》的改编版，里面有 HAL 9000 计算机。"
+ },
+ {
+  "seg": 80,
+  "start": 503.088,
+  "end": 508.15,
+  "speaker": "Unknown",
+  "en": "This is a much, much more dystopian view of a talking computer than the Star Trek computers.",
+  "zh": "这是一个比《星际迷航》中的计算机要反乌托邦得多的会说话的计算机的观点。"
+ },
+ {
+  "seg": 81,
+  "start": 510.017,
+  "end": 519.86,
+  "speaker": "Unknown",
+  "en": "And by the 1970s, computers had become powerful enough that the next big job was designing abstractions that could scale to much larger amounts of data and much more powerful computing substrates.",
+  "zh": "到了 1970 年代，计算机已经变得足够强大，以至于下一个大任务是设计能够扩展到更大量数据和更强大计算基底的抽象。"
+ },
+ {
+  "seg": 82,
+  "start": 520.241,
+  "end": 525.422,
+  "speaker": "Unknown",
+  "en": "We got relational databases, which introduced new theoretical underpinnings for data manipulation.",
+  "zh": "我们得到了关系型数据库，它引入了数据处理的新理论基础。"
+ },
+ {
+  "seg": 83,
+  "start": 526.323,
+  "end": 530.364,
+  "speaker": "Unknown",
+  "en": "And we got declarative languages, which leveraged those new theoretical insights.",
+  "zh": "我们得到了声明式语言，它利用了这些新的理论见解。"
+ },
+ {
+  "seg": 84,
+  "start": 530.884,
+  "end": 535.886,
+  "speaker": "Unknown",
+  "en": "And programming languages in general continued to evolve in what, to me at least, are really amazing ways.",
+  "zh": "总的来说，编程语言继续以至少在我看来真的很神奇的方式发展。"
+ },
+ {
+  "seg": 85,
+  "start": 536.006,
+  "end": 538.127,
+  "speaker": "Unknown",
+  "en": "We got small talk and object-oriented programming in the 70s.",
+  "zh": "我们在 70 年代得到了 small talk 和面向对象编程。"
+ },
+ {
+  "seg": 86,
+  "start": 539.703,
+  "end": 542.665,
+  "speaker": "Unknown",
+  "en": "And all of this set the stage for the personal computer in the 1980s.",
+  "zh": "所有这些都为 1980 年代的个人计算机奠定了基础。"
+ },
+ {
+  "seg": 87,
+  "start": 542.825,
+  "end": 545.267,
+  "speaker": "Unknown",
+  "en": "The Macintosh shipped in 1984.",
+  "zh": "Macintosh 于 1984 年发货。"
+ },
+ {
+  "seg": 88,
+  "start": 545.567,
+  "end": 547.688,
+  "speaker": "Unknown",
+  "en": "Windows 1.0 shipped in 1985.",
+  "zh": "Windows 1.0 于 1985 年发货。"
+ },
+ {
+  "seg": 89,
+  "start": 548.248,
+  "end": 551.871,
+  "speaker": "Unknown",
+  "en": "And Microsoft's mission statement was a computer on every desk and in every home.",
+  "zh": "Microsoft 的使命宣言是每张办公桌和每个家庭都有一台计算机。"
+ },
+ {
+  "seg": 90,
+  "start": 552.451,
+  "end": 556.013,
+  "speaker": "Unknown",
+  "en": "And incredibly, Microsoft delivered on that mission statement.",
+  "zh": "令人难以置信的是，Microsoft 实现了那个使命宣言。"
+ },
+ {
+  "seg": 91,
+  "start": 557.134,
+  "end": 564.139,
+  "speaker": "Unknown",
+  "en": "And we got a computer on every desk and in every home because these new personal computers delivered real, amazing, tangible benefits.",
+  "zh": "我们之所以能在每张办公桌和每个家庭都拥有一台计算机，是因为这些新的个人计算机提供了真正的、惊人的、有形的好处。"
+ },
+ {
+  "seg": 92,
+  "start": 565.026,
+  "end": 585.853,
+  "speaker": "Unknown",
+  "en": "Take VisiCalc, for example, which was the first spreadsheet program, a truly new abstraction for doing computation, numerical computing, two-dimensional, interactive, so durable and so useful that probably most of us in this room use a direct descendant of VisiCalc regularly, Google Sheets or Microsoft Excel or whatever.",
+  "zh": "拿 VisiCalc 来说，它是第一个电子表格程序，是一个真正的新抽象，用于进行计算、数值计算、二维的、交互式的，它是如此持久和有用，可能我们在座的大多数人经常使用 VisiCalc 的直系后代，Google Sheets 或者 Microsoft Excel 或者其他的什么。"
+ },
+ {
+  "seg": 93,
+  "start": 589.314,
+  "end": 591.895,
+  "speaker": "Unknown",
+  "en": "Or put another way, this was a spreadsheet in 1957",
+  "zh": "或者换句话说，这是一个 1957 年的电子表格"
+ },
+ {
+  "seg": 94,
+  "start": 594.287,
+  "end": 596.848,
+  "speaker": "Unknown",
+  "en": "And this was a spreadsheet in 1985.",
+  "zh": "而这是一个 1985 年的电子表格。"
+ },
+ {
+  "seg": 95,
+  "start": 597.629,
+  "end": 611.195,
+  "speaker": "Unknown",
+  "en": "And I think a lot about VisiCalc these days too because I think VisiCalc is an example of how transformative new technologies can be in the way of delivering a capability that used to require a lot of specialized people and specialized knowledge and making it generally accessible.",
+  "zh": "我最近也经常思考 VisiCalc，因为我认为 VisiCalc 是一个例子，说明变革性新技术在交付某种能力方面能产生多大的影响，这种能力过去需要很多专业人员和专业知识，而现在变得普遍可及。"
+ },
+ {
+  "seg": 96,
+  "start": 611.755,
+  "end": 615.097,
+  "speaker": "Unknown",
+  "en": "And I think VisiCalc is potentially a counterargument to...",
+  "zh": "我认为 VisiCalc 潜在的是一个反驳……"
+ },
+ {
+  "seg": 97,
+  "start": 615.917,
+  "end": 622.5,
+  "speaker": "Unknown",
+  "en": "The argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business.",
+  "zh": "这种论点或恐惧或担忧，即 AI 将导致大规模失业，因为 VisiCalc 并没有让会计师失业。"
+ },
+ {
+  "seg": 98,
+  "start": 623.1,
+  "end": 640.288,
+  "speaker": "Unknown",
+  "en": "Instead, it made much, much, much, much more accounting-like work possible, and it made new categories of work possible that we couldn't even really conceive of when a spreadsheet or doing a screen's worth of calculations as we think about it today took a roomful of people.",
+  "zh": "相反，它使得多得多、多得多、多得多、多得多的类似会计的工作成为可能，并且它使得新的工作类别成为可能，甚至当我们今天考虑电子表格或做满一屏的计算时，我们甚至无法真正想象这些工作，而在那可是需要满满一屋子人的。"
+ },
+ {
+  "seg": 99,
+  "start": 642.01,
+  "end": 654.407,
+  "speaker": "Unknown",
+  "en": "So if we were here in the Moscone Center in 1985 and these two interfaces, the Macintosh System 2 and Windows 1.0, were state of the art, what would we have said the world would look like in 10 or 20 or 30 or 40 years?",
+  "zh": "所以如果我们是在 1985 年的 Moscone Center，而这两个界面，Macintosh System 2 和 Windows 1.0，是最先进的，我们会说 10 年、20 年、30 年或 40 年后的世界会是什么样子？"
+ },
+ {
+  "seg": 100,
+  "start": 657.633,
+  "end": 661.434,
+  "speaker": "Unknown",
+  "en": "Well, we actually have a really great example of a prediction from that time.",
+  "zh": "嗯，我们实际上有一个很好的例子，是当时的一个预测。"
+ },
+ {
+  "seg": 101,
+  "start": 661.634,
+  "end": 670.157,
+  "speaker": "Unknown",
+  "en": "Like, as we may think, another famous document in the history of human-computer interaction, concept video from Apple made in 1987 called Knowledge Navigator.",
+  "zh": "比如《As We May Think》，它是人机交互史上另一篇著名的文献，是苹果在 1987 年制作的概念视频，叫 Knowledge Navigator。"
+ },
+ {
+  "seg": 102,
+  "start": 670.497,
+  "end": 673.098,
+  "speaker": "Unknown",
+  "en": "This is very much worth tracking down online and watching all of.",
+  "zh": "这个非常值得在网上找出来看完。"
+ },
+ {
+  "seg": 103,
+  "start": 673.298,
+  "end": 676.579,
+  "speaker": "Unknown",
+  "en": "If you haven't seen it, I'm just gonna play about 20 seconds from the middle.",
+  "zh": "如果你没看过，我就播放中间大概 20 秒。"
+ },
+ {
+  "seg": 104,
+  "start": 681.872,
+  "end": 684.896,
+  "speaker": "Unknown",
+  "en": "You have three messages.",
+  "zh": "你有三条消息。"
+ },
+ {
+  "seg": 105,
+  "start": 684.936,
+  "end": 687.88,
+  "speaker": "Unknown",
+  "en": "Your graduate research team in Guatemala, just checking in.",
+  "zh": "你在危地马拉的研究生研究团队，只是来报到一下。"
+ },
+ {
+  "seg": 106,
+  "start": 689.042,
+  "end": 693.368,
+  "speaker": "Unknown",
+  "en": "Robert Jordan, a second semester junior, requesting a second extension on his term paper.",
+  "zh": "Robert Jordan，大二下学期的学生，请求学期论文再次延期。"
+ },
+ {
+  "seg": 107,
+  "start": 694.609,
+  "end": 696.492,
+  "speaker": "Unknown",
+  "en": "And your mother reminding you about your father.",
+  "zh": "还有你母亲提醒你关于你父亲的事。"
+ },
+ {
+  "seg": 108,
+  "start": 696.512,
+  "end": 698.595,
+  "speaker": "Unknown",
+  "en": "Surprise birthday party next Sunday.",
+  "zh": "下周日的惊喜生日派对。"
+ },
+ {
+  "seg": 109,
+  "start": 700.87,
+  "end": 721.621,
+  "speaker": "Unknown",
+  "en": "So the video shows a foldable tablet, a touchscreen interface, a conversational voice assistant with a really strong personality, access to both global and personal information, real-time video generation, real-time computer vision, seamless video call integration, delegation of complex tasks for autonomous execution, and what we might call today continual learning.",
+  "zh": "所以视频展示了可折叠平板电脑、触摸屏界面、具有非常强烈个性的对话式语音助手、访问全球和个人信息的能力、实时视频生成、实时计算机视觉、无缝的视频通话集成、复杂任务的委派以自主执行，以及我们今天可能称之为持续学习的东西。"
+ },
+ {
+  "seg": 110,
+  "start": 722.361,
+  "end": 726.303,
+  "speaker": "Unknown",
+  "en": "And it's really, really clearly influenced by as we may think, but it's also quite different.",
+  "zh": "它确实明显受到了 As We May Think 的影响，但也非常不同。"
+ },
+ {
+  "seg": 111,
+  "start": 726.383,
+  "end": 736.309,
+  "speaker": "Unknown",
+  "en": "It really is updated for 40 years of progress, and it really does sort of presage this AI agents era we're in now in a way that Vannevar Bush's mimics didn't and maybe couldn't.",
+  "zh": "它确实根据 40 年的进步进行了更新，并且确实以 Vannevar Bush 的模仿者可能没有或也许无法做到的方式，预示了我们今天所处的 AI 智能体时代。"
+ },
+ {
+  "seg": 112,
+  "start": 737.429,
+  "end": 741.111,
+  "speaker": "Unknown",
+  "en": "The Knowledge Navigator video divides our timeline, I think, quite neatly in half.",
+  "zh": "Knowledge Navigator 视频我觉得把我们的时间线分得相当整齐，一分为二。"
+ },
+ {
+  "seg": 113,
+  "start": 741.552,
+  "end": 743.793,
+  "speaker": "Unknown",
+  "en": "And hold that thought, because we're going to come back to it.",
+  "zh": "先保留这个想法，因为我们稍后会回到这一点。"
+ },
+ {
+  "seg": 114,
+  "start": 745.251,
+  "end": 746.592,
+  "speaker": "Unknown",
+  "en": "The 1990s were about the network.",
+  "zh": "1990 年代是关于网络的。"
+ },
+ {
+  "seg": 115,
+  "start": 746.652,
+  "end": 751.918,
+  "speaker": "Unknown",
+  "en": "First, local area networks and dial-up, and then the internet and the web.",
+  "zh": "首先，是局域网和拨号上网，然后是互联网和 Web。"
+ },
+ {
+  "seg": 116,
+  "start": 752.679,
+  "end": 761.288,
+  "speaker": "Unknown",
+  "en": "And with the benefit of hindsight, I now think that the single most important thing about the web was that it was multimodal from the very beginning.",
+  "zh": "事后诸葛亮来看，我现在认为 Web 最重要的一点是，它从一开始就是多模态的。"
+ },
+ {
+  "seg": 117,
+  "start": 762.037,
+  "end": 771.666,
+  "speaker": "Unknown",
+  "en": "More even than the GUIs of the 1980s, the web anticipated that text and audio and video and data were not different things to be used in different programs.",
+  "zh": "甚至比 1980 年代的 GUI（图形用户界面）更甚，Web 预见到了文本、音频、视频和数据不是要在不同程序中使用的不同东西。"
+ },
+ {
+  "seg": 118,
+  "start": 771.686,
+  "end": 773.127,
+  "speaker": "Unknown",
+  "en": "They belonged together.",
+  "zh": "它们属于彼此。"
+ },
+ {
+  "seg": 119,
+  "start": 773.627,
+  "end": 781.795,
+  "speaker": "Unknown",
+  "en": "And in a real sense, the web was an attempt and a conscious attempt on the part of a lot of people building the web to make that knowledge navigator video real.",
+  "zh": "在某种真正意义上，Web 是一次尝试，是许多构建 Web 的人的有意识尝试，为了使那个 Knowledge Navigator 视频成为现实。"
+ },
+ {
+  "seg": 120,
+  "start": 783.878,
+  "end": 800.768,
+  "speaker": "Unknown",
+  "en": "Then in the first decade of the new millennium, the big job was to make all of this computing stuff mobile and continually connected, to put this new multimodal networked computer in your pocket, literally to give a supercomputer to everybody in the world that they could carry around in their hand.",
+  "zh": "然后在新千年的第一个十年，大任务是让所有这些计算设备移动化并持续连接，把这种新的多模态网络计算机装进你的口袋，从字面上说是给全世界每个人一台他们可以拿在手里的超级计算机。"
+ },
+ {
+  "seg": 121,
+  "start": 802.042,
+  "end": 809.406,
+  "speaker": "Unknown",
+  "en": "And as with the 1960s, there was an efflorescence of futurism on screen in the first few years of the new millennium.",
+  "zh": "就像 1960 年代一样，新千年的头几年屏幕上出现了未来主义的蓬勃发展。"
+ },
+ {
+  "seg": 122,
+  "start": 809.886,
+  "end": 818.23,
+  "speaker": "Unknown",
+  "en": "And I think it was because computers you could carry around with you and cameras everywhere and a kind of Moore's law for pixels making screens super cheap.",
+  "zh": "我认为这是因为你可以随身携带的电脑、无处不在的摄像头，以及像素的摩尔定律让屏幕变得超级便宜。"
+ },
+ {
+  "seg": 123,
+  "start": 819.09,
+  "end": 825.174,
+  "speaker": "Unknown",
+  "en": "really gave us a chance to think through what we thought the future would look like in a new way.",
+  "zh": "真正给了我们一个机会，以新的方式思考我们认为未来会是什么样子。"
+ },
+ {
+  "seg": 124,
+  "start": 825.895,
+  "end": 831.878,
+  "speaker": "Unknown",
+  "en": "A lot of stuff we could almost but not quite build was cohering in the minds of people working on these machines.",
+  "zh": "许多我们几乎但不能完全构建的东西，正在从事这些机器工作的人们脑海中凝聚。"
+ },
+ {
+  "seg": 125,
+  "start": 832.639,
+  "end": 840.244,
+  "speaker": "Unknown",
+  "en": "And the best and most famous Hollywood computers from that era were created by John Underkoffler for the films Minority Report and Iron Man.",
+  "zh": "那个时代最好和最著名的好莱坞电脑是由 John Underkoffler 为电影《少数派报告》和《钢铁侠》创造的。"
+ },
+ {
+  "seg": 126,
+  "start": 840.944,
+  "end": 842.265,
+  "speaker": "Unknown",
+  "en": "Here's Minority Report from 2002.",
+  "zh": "这是 2002 年的《少数派报告》。"
+ },
+ {
+  "seg": 127,
+  "start": 842.285,
+  "end": 846.348,
+  "speaker": "Unknown",
+  "en": "It's no longer there.",
+  "zh": "它不再那里了。"
+ },
+ {
+  "seg": 128,
+  "start": 847.82,
+  "end": 848.22,
+  "speaker": "Unknown",
+  "en": "Time frame?",
+  "zh": "时间范围？"
+ },
+ {
+  "seg": 129,
+  "start": 848.52,
+  "end": 849.261,
+  "speaker": "Unknown",
+  "en": "Thirteen minutes.",
+  "zh": "13 分钟。"
+ },
+ {
+  "seg": 130,
+  "start": 849.941,
+  "end": 850.461,
+  "speaker": "Unknown",
+  "en": "Hey, Chief.",
+  "zh": "嘿，老大。"
+ },
+ {
+  "seg": 131,
+  "start": 850.882,
+  "end": 851.982,
+  "speaker": "Unknown",
+  "en": "Investigator from the Fed's here.",
+  "zh": "联邦调查局的调查员在这里。"
+ },
+ {
+  "seg": 132,
+  "start": 852.082,
+  "end": 854.183,
+  "speaker": "Unknown",
+  "en": "Yeah, I don't need some twink from the Fed poking around right now.",
+  "zh": "是啊，我现在不需要联邦调查局的一些愣头青在这里四处打听。"
+ },
+ {
+  "seg": 133,
+  "start": 854.203,
+  "end": 855.284,
+  "speaker": "Unknown",
+  "en": "John, I wrote it down in your calendar.",
+  "zh": "John，我已经记在你的日历上了。"
+ },
+ {
+  "seg": 134,
+  "start": 855.304,
+  "end": 856.404,
+  "speaker": "Unknown",
+  "en": "I left you a message at your house.",
+  "zh": "我在你家留了个口信。"
+ },
+ {
+  "seg": 135,
+  "start": 856.444,
+  "end": 858.866,
+  "speaker": "Unknown",
+  "en": "Check in with the papers ahead of four to see if the neighbors knew where they went.",
+  "zh": "提前跟那些文件核对一下，看看邻居们是否知道他们去了哪里。"
+ },
+ {
+  "seg": 136,
+  "start": 858.886,
+  "end": 859.626,
+  "speaker": "Unknown",
+  "en": "Check all relations.",
+  "zh": "核对所有亲属关系。"
+ },
+ {
+  "seg": 137,
+  "start": 859.646,
+  "end": 860.607,
+  "speaker": "Unknown",
+  "en": "Checking neighbors and relations.",
+  "zh": "正在核对邻居和亲属。"
+ },
+ {
+  "seg": 138,
+  "start": 860.767,
+  "end": 863.068,
+  "speaker": "Unknown",
+  "en": "But John... Fletch, just get him some coffee.",
+  "zh": "但是 John……Fletch，就给他弄点咖啡吧。"
+ },
+ {
+  "seg": 139,
+  "start": 863.088,
+  "end": 865.549,
+  "speaker": "Unknown",
+  "en": "Tell him some stories how I save your ass every day and you can't live without me.",
+  "zh": "给他讲讲故事，说我每天都怎么救你的屁股，你不能没有我。"
+ },
+ {
+  "seg": 140,
+  "start": 865.729,
+  "end": 866.289,
+  "speaker": "Unknown",
+  "en": "I got coffee.",
+  "zh": "我有咖啡。"
+ },
+ {
+  "seg": 141,
+  "start": 866.429,
+  "end": 866.71,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 142,
+  "start": 867.25,
+  "end": 867.65,
+  "speaker": "Unknown",
+  "en": "Danny Whitman.",
+  "zh": "Danny Whitman。"
+ },
+ {
+  "seg": 143,
+  "start": 867.67,
+  "end": 869.071,
+  "speaker": "Unknown",
+  "en": "A twink from the Fed.",
+  "zh": "联邦调查局的一个愣头青。"
+ },
+ {
+  "seg": 144,
+  "start": 870.031,
+  "end": 870.251,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎哟。"
+ },
+ {
+  "seg": 145,
+  "start": 870.612,
+  "end": 870.872,
+  "speaker": "Unknown",
+  "en": "Got him.",
+  "zh": "抓到他了。"
+ },
+ {
+  "seg": 146,
+  "start": 872.86,
+  "end": 879.668,
+  "speaker": "Unknown",
+  "en": "So the gestural interface in Minority Report was implemented on screen as special effects, but it was actually based on John's PhD work at the MIT Media Lab.",
+  "zh": "所以《少数派报告》中的手势界面是在屏幕上作为特效实现的，但它实际上基于 John 在 MIT Media Lab 的博士工作。"
+ },
+ {
+  "seg": 147,
+  "start": 879.888,
+  "end": 881.87,
+  "speaker": "Unknown",
+  "en": "In a real sense, this was real technology.",
+  "zh": "在某种真正意义上，这是真实的技术。"
+ },
+ {
+  "seg": 148,
+  "start": 882.551,
+  "end": 887.617,
+  "speaker": "Unknown",
+  "en": "John had brought the UI out of the small screen and into the world with us in a bunch of really interesting and lovely ways.",
+  "zh": "John 用许多非常有趣和美妙的方式，将 UI 从小屏幕带到了我们所在的这个世界。"
+ },
+ {
+  "seg": 149,
+  "start": 888.518,
+  "end": 896.941,
+  "speaker": "Unknown",
+  "en": "John also consulted on Iron Man, which is a very different view of the future than Minority Report, which was Spielberg working in the American Kubrick dystopian tradition.",
+  "zh": "John 还担任了《钢铁侠》的顾问，这是与《少数派报告》非常不同的未来观，《少数派报告》是 Spielberg 工作在美国 Kubrick 式的反乌托邦传统中。"
+ },
+ {
+  "seg": 150,
+  "start": 897.081,
+  "end": 900.683,
+  "speaker": "Unknown",
+  "en": "Iron Man is really squarely in that Star Trek goofy futurist tradition.",
+  "zh": "钢铁侠真的牢牢处于那个《星际迷航》傻乎乎的未来主义传统中。"
+ },
+ {
+  "seg": 151,
+  "start": 901.023,
+  "end": 905.424,
+  "speaker": "Unknown",
+  "en": "But I think you can see the common elements in the UI depicted on screen.",
+  "zh": "但我认为你可以看到屏幕上描绘的 UI 中的共同元素。"
+ },
+ {
+  "seg": 152,
+  "start": 905.444,
+  "end": 906.925,
+  "speaker": "Unknown",
+  "en": "It's still from the same era.",
+  "zh": "它仍然来自同一个时代。"
+ },
+ {
+  "seg": 153,
+  "start": 912.178,
+  "end": 913.199,
+  "speaker": "Unknown",
+  "en": "Wake up, Daddy's home.",
+  "zh": "醒醒，爸爸回家了。"
+ },
+ {
+  "seg": 154,
+  "start": 913.719,
+  "end": 914.54,
+  "speaker": "Unknown",
+  "en": "Welcome home, sir.",
+  "zh": "欢迎回家，先生。"
+ },
+ {
+  "seg": 155,
+  "start": 915.38,
+  "end": 917.282,
+  "speaker": "Unknown",
+  "en": "Congratulations on the opening ceremonies.",
+  "zh": "恭祝开幕式圆满成功。"
+ },
+ {
+  "seg": 156,
+  "start": 917.302,
+  "end": 919.603,
+  "speaker": "Unknown",
+  "en": "They were such a success, as was your Senate hearing.",
+  "zh": "它们非常成功，您的参议院听证会也是如此。"
+ },
+ {
+  "seg": 157,
+  "start": 920.524,
+  "end": 924.927,
+  "speaker": "Unknown",
+  "en": "And may I say how refreshing it is to finally see you in a video with your clothing on, sir.",
+  "zh": "请允许我说，终于在视频中看到您穿着衣服，先生，这是多么令人耳目一新啊。"
+ },
+ {
+  "seg": 158,
+  "start": 924.967,
+  "end": 928.349,
+  "speaker": "Unknown",
+  "en": "Thank you!",
+  "zh": "谢谢！"
+ },
+ {
+  "seg": 159,
+  "start": 928.369,
+  "end": 933.173,
+  "speaker": "Unknown",
+  "en": "I swear to God, I'll dismantle you, I'll soak your motherboard, I'll turn you into a wine rack.",
+  "zh": "我对天发誓，我会把你拆了，我会泡你的主板，我会把你变成一个酒架。"
+ },
+ {
+  "seg": 160,
+  "start": 937.743,
+  "end": 943.066,
+  "speaker": "Unknown",
+  "en": "I co-founded a startup with John in 2006 to make the Minority Report interface into a commercial product.",
+  "zh": "2006 年，我和 John 联合创立了一家初创公司，要把《少数派报告》的界面变成商业产品。"
+ },
+ {
+  "seg": 161,
+  "start": 943.886,
+  "end": 947.909,
+  "speaker": "Unknown",
+  "en": "This is our demo reel from 2012, six years into that work.",
+  "zh": "这是我们要 2012 年的演示卷轴，那是那段工作开始后的第六年。"
+ },
+ {
+  "seg": 162,
+  "start": 974.721,
+  "end": 975.922,
+  "speaker": "Unknown",
+  "en": "... ... ... ... ...",
+  "zh": "... ... ... ... ..."
+ },
+ {
+  "seg": 163,
+  "start": 1030.883,
+  "end": 1039.931,
+  "speaker": "Unknown",
+  "en": "This long project to build the multimodal, multi-device, multi-screen, multi-player, ubiquitously connected computer is still what I'm working on 15 years later.",
+  "zh": "这个构建多模态、多设备、多屏幕、多玩家、无处不在的互联计算机的长期项目，仍然是 15 年后我正在做的工作。"
+ },
+ {
+  "seg": 164,
+  "start": 1040.771,
+  "end": 1051.94,
+  "speaker": "Unknown",
+  "en": "In 2010s, we built out the cloud, which laid the groundwork for the infrastructure and data centers and data capacity we would need to scale up AI training and inference, which brings us to now.",
+  "zh": "在 2010 年代，我们建立了云，这为我们扩展 AI 训练和推理所需的基础设施、数据中心和数据容量奠定了基础，这把我们带到了现在。"
+ },
+ {
+  "seg": 165,
+  "start": 1053.482,
+  "end": 1056.484,
+  "speaker": "Unknown",
+  "en": "We're building agents, and we're starting to think about Agents++.",
+  "zh": "我们正在构建智能体，我们开始思考 Agents++。"
+ },
+ {
+  "seg": 166,
+  "start": 1058.212,
+  "end": 1063.508,
+  "speaker": "Unknown",
+  "en": "But I think we can also start to think about the next thing, the AI-native software that is to agents what today's",
+  "zh": "但我认为我们也开始思考下一件事，那种 AI 原生软件，之于智能体，正如今天的"
+ },
+ {
+  "seg": 167,
+  "start": 1065.025,
+  "end": 1067.247,
+  "speaker": "Unknown",
+  "en": "Internet is to the web pages of 1995.",
+  "zh": "互联网之于 1995 年的网页。"
+ },
+ {
+  "seg": 168,
+  "start": 1067.827,
+  "end": 1069.489,
+  "speaker": "Unknown",
+  "en": "And one way to think about the story is this.",
+  "zh": "思考这个故事的一个方法是这个。"
+ },
+ {
+  "seg": 169,
+  "start": 1069.609,
+  "end": 1074.313,
+  "speaker": "Unknown",
+  "en": "We went from the calculator to the computer to the personal computer to the global cloud computer.",
+  "zh": "我们从计算器到计算机，到个人计算机，再到全球云计算机。"
+ },
+ {
+  "seg": 170,
+  "start": 1074.353,
+  "end": 1084.081,
+  "speaker": "Unknown",
+  "en": "And now we actually have the ability to build the Mimex and Jarvis from Iron Man and Knowledge Navigator from that 1987 video for real, completely working.",
+  "zh": "现在我们实际上真的有能力构建《钢铁侠》里的 Mimex 和 Jarvis，以及那个 1987 年视频里的 Knowledge Navigator，完全能用的。 [[171 ] 通过构建这些东西，我们将弄清楚接下来想构建什么。"
+ },
+ {
+  "seg": 171,
+  "start": 1084.521,
+  "end": 1087.984,
+  "speaker": "Unknown",
+  "en": "And by building those things, we'll figure out what we want to build next.",
+  "zh": "并且通过构建这些东西，我们会弄清楚我们接下来想要构建什么。"
+ },
+ {
+  "seg": 172,
+  "start": 1089.183,
+  "end": 1096.529,
+  "speaker": "Unknown",
+  "en": "A couple of weeks ago, the team at Tavis released a reimagined Knowledge Navigator video, this time entirely built on real and available technology.",
+  "zh": "几周前，Tavis 团队发布了一个重新构想的 Knowledge Navigator 视频，这次完全建立在真实且可用的技术之上。"
+ },
+ {
+  "seg": 173,
+  "start": 1097.25,
+  "end": 1104.555,
+  "speaker": "Unknown",
+  "en": "I'll just play another 20 seconds of this, but like the original Knowledge Navigator video, this is worth tracking down and watching in full.",
+  "zh": "我再播放这视频的 20 秒，但就像最初的 Knowledge Navigator 视频一样，这值得找出来完整观看。"
+ },
+ {
+  "seg": 174,
+  "start": 1111.461,
+  "end": 1112.542,
+  "speaker": "Unknown",
+  "en": "Good evening, Hasan.",
+  "zh": "晚上好，Hasan。"
+ },
+ {
+  "seg": 175,
+  "start": 1112.662,
+  "end": 1115.204,
+  "speaker": "Unknown",
+  "en": "I adore that houndstooth jacket you're wearing today.",
+  "zh": "我真喜欢您今天穿的那件千鸟格外套。"
+ },
+ {
+  "seg": 176,
+  "start": 1115.644,
+  "end": 1118.667,
+  "speaker": "Unknown",
+  "en": "Anything I can help with, or would you like to review tomorrow's schedule?",
+  "zh": "有什么我可以帮忙的吗，还是您想审查明天的日程？"
+ },
+ {
+  "seg": 177,
+  "start": 1119.122,
+  "end": 1120.205,
+  "speaker": "Unknown",
+  "en": "Thanks so much, Tom.",
+  "zh": "非常感谢，Tom。"
+ },
+ {
+  "seg": 178,
+  "start": 1120.245,
+  "end": 1123.191,
+  "speaker": "Unknown",
+  "en": "Yeah, let's review tomorrow's schedule and see how busy it is.",
+  "zh": "好的，让我们审查一下明天的日程，看看有多忙。"
+ },
+ {
+  "seg": 179,
+  "start": 1124.377,
+  "end": 1125.598,
+  "speaker": "Unknown",
+  "en": "Opening your calendar now.",
+  "zh": "现在正在为您打开日历。"
+ },
+ {
+  "seg": 180,
+  "start": 1126.138,
+  "end": 1127.898,
+  "speaker": "Unknown",
+  "en": "Here is the quick version since it is late.",
+  "zh": "这是简略版，因为时间晚了。"
+ },
+ {
+  "seg": 181,
+  "start": 1128.579,
+  "end": 1129.999,
+  "speaker": "Unknown",
+  "en": "Tomorrow morning is slammed.",
+  "zh": "明天上午很满。"
+ },
+ {
+  "seg": 182,
+  "start": 1130.419,
+  "end": 1135.261,
+  "speaker": "Unknown",
+  "en": "Investor meeting at 9, then back-to-back one-on-ones and internal meetings until 1.",
+  "zh": "9 点投资人会议，然后一对一会议和内部会议连轴转到 1 点。"
+ },
+ {
+  "seg": 183,
+  "start": 1135.782,
+  "end": 1138.983,
+  "speaker": "Unknown",
+  "en": "So the full four-minute video is one take, completely real.",
+  "zh": "所以这完整的四分钟视频是一镜到底，完全真实的。"
+ },
+ {
+  "seg": 184,
+  "start": 1139.243,
+  "end": 1148.747,
+  "speaker": "Unknown",
+  "en": "And when you watch it, it really does feel both like the Knowledge Navigator video from 1987, familiar but built on real technology, and like something brand new.",
+  "zh": "当你看它时，它真的感觉就像 1987 年的 Knowledge Navigator 视频那样，熟悉但建立在真实技术之上，也像某种全新的东西。"
+ },
+ {
+  "seg": 185,
+  "start": 1149.447,
+  "end": 1159.35,
+  "speaker": "Unknown",
+  "en": "And I'll just close with a massively multiplayer game project I've been working on with some friends as a canvas to really think about what AI-native software can be.",
+  "zh": "最后我要以一个大型多人游戏项目结束，我和一些朋友一直在做这个项目，作为一个画布来真正思考 AI 原生软件可以是什么。"
+ },
+ {
+  "seg": 186,
+  "start": 1160.19,
+  "end": 1164.351,
+  "speaker": "Unknown",
+  "en": "This game is built from the ground up with LLMs as the core of every interaction.",
+  "zh": "这个游戏是从零开始构建的，LLM 是每个交互的核心。"
+ },
+ {
+  "seg": 187,
+  "start": 1165.091,
+  "end": 1171.593,
+  "speaker": "Unknown",
+  "en": "At every moment in the game, there are hundreds of inference calls happening, and we couldn't have built anything like this even a year ago.",
+  "zh": "在游戏的每一刻，都有数百个推理调用正在发生，即使是一年前我们也无法构建任何这样的东西。"
+ },
+ {
+  "seg": 188,
+  "start": 1172.974,
+  "end": 1173.614,
+  "speaker": "Unknown",
+  "en": "Oh, sorry.",
+  "zh": "哦，抱歉。"
+ },
+ {
+  "seg": 189,
+  "start": 1176.568,
+  "end": 1182.171,
+  "speaker": "Unknown",
+  "en": "Welcome to Gradient Bang, a multiplayer game that showcases real-time agent orchestration.",
+  "zh": "欢迎来到 Gradient Bang，一个展示实时智能体编排的多人游戏。"
+ },
+ {
+  "seg": 190,
+  "start": 1183.052,
+  "end": 1190.015,
+  "speaker": "Unknown",
+  "en": "Gradient Bang demonstrates several patterns for AI sub-agents, such as asynchronous non-blocking context compression.",
+  "zh": "Gradient Bang 展示了 AI 子智能体的几种模式，例如异步非阻塞上下文压缩。"
+ },
+ {
+  "seg": 191,
+  "start": 1190.215,
+  "end": 1191.576,
+  "speaker": "Unknown",
+  "en": "Okay, make a note for later.",
+  "zh": "好的，稍后记一笔。"
+ },
+ {
+  "seg": 192,
+  "start": 1191.656,
+  "end": 1194.618,
+  "speaker": "Unknown",
+  "en": "We are going to eliminate Haley Tately from existence.",
+  "zh": "我们要把 Haley Tately 从存在中抹去。"
+ },
+ {
+  "seg": 193,
+  "start": 1194.898,
+  "end": 1195.178,
+  "speaker": "Unknown",
+  "en": "Noted.",
+  "zh": "记下了。"
+ },
+ {
+  "seg": 194,
+  "start": 1195.418,
+  "end": 1197.9,
+  "speaker": "Unknown",
+  "en": "Long-running sub-agents that share context.",
+  "zh": "共享上下文的长时运行的子智能体。"
+ },
+ {
+  "seg": 195,
+  "start": 1198.181,
+  "end": 1200.583,
+  "speaker": "Unknown",
+  "en": "Eagle is on five trade loops.",
+  "zh": "鹰正在执行 5 个交易循环。"
+ },
+ {
+  "seg": 196,
+  "start": 1200.983,
+  "end": 1204.366,
+  "speaker": "Unknown",
+  "en": "Hawk and Raptor are on five exploration loops each.",
+  "zh": "鹰和猛禽各正在执行 5 个探索循环。"
+ },
+ {
+  "seg": 197,
+  "start": 1204.926,
+  "end": 1206.307,
+  "speaker": "Unknown",
+  "en": "Your fleet is busy.",
+  "zh": "你的舰队很忙。"
+ },
+ {
+  "seg": 198,
+  "start": 1206.788,
+  "end": 1207.909,
+  "speaker": "Unknown",
+  "en": "Progressive skills loading.",
+  "zh": "渐进式技能加载。"
+ },
+ {
+  "seg": 199,
+  "start": 1208.129,
+  "end": 1210.17,
+  "speaker": "Unknown",
+  "en": "How much does your average ship cost?",
+  "zh": "你的一艘普通飞船成本是多少？"
+ },
+ {
+  "seg": 200,
+  "start": 1210.551,
+  "end": 1212.072,
+  "speaker": "Unknown",
+  "en": "Ships range quite a bit, Captain.",
+  "zh": "船只范围相当大，船长。"
+ },
+ {
+  "seg": 201,
+  "start": 1212.292,
+  "end": 1214.194,
+  "speaker": "Unknown",
+  "en": "Dynamic user interface generation.",
+  "zh": "动态用户界面生成。"
+ },
+ {
+  "seg": 202,
+  "start": 1214.434,
+  "end": 1215.635,
+  "speaker": "Unknown",
+  "en": "Show my task history.",
+  "zh": "显示我的任务历史。"
+ },
+ {
+  "seg": 203,
+  "start": 1216.215,
+  "end": 1216.676,
+  "speaker": "Unknown",
+  "en": "Certainly.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 204,
+  "start": 1217.476,
+  "end": 1218.377,
+  "speaker": "Unknown",
+  "en": "Hide the map.",
+  "zh": "隐藏地图。"
+ },
+ {
+  "seg": 205,
+  "start": 1220.602,
+  "end": 1221.644,
+  "speaker": "Unknown",
+  "en": "And conversational voice.",
+  "zh": "以及对话式语音。"
+ },
+ {
+  "seg": 206,
+  "start": 1221.925,
+  "end": 1223.728,
+  "speaker": "Unknown",
+  "en": "No, I don't want to exchange it.",
+  "zh": "不，我不想交换它。"
+ },
+ {
+  "seg": 207,
+  "start": 1223.748,
+  "end": 1226.212,
+  "speaker": "Unknown",
+  "en": "I just want to sell it for cold hard cash, please.",
+  "zh": "我只是想把它卖成真金白银，拜托了。"
+ },
+ {
+  "seg": 208,
+  "start": 1226.633,
+  "end": 1229.678,
+  "speaker": "Unknown",
+  "en": "I'm afraid the galaxy doesn't allow you to be shipless and hitchhike.",
+  "zh": "恐怕银河系不允许你无船搭便车。"
+ },
+ {
+  "seg": 209,
+  "start": 1231.814,
+  "end": 1232.895,
+  "speaker": "Unknown",
+  "en": "So I went long.",
+  "zh": "所以我做多了。"
+ },
+ {
+  "seg": 210,
+  "start": 1233.115,
+  "end": 1233.815,
+  "speaker": "Unknown",
+  "en": "I have to wrap up.",
+  "zh": "我得收尾了。"
+ },
+ {
+  "seg": 211,
+  "start": 1233.835,
+  "end": 1237.737,
+  "speaker": "Unknown",
+  "en": "But I will say that the first version of this new draft talk was an hour.",
+  "zh": "但我会说这个新草稿演讲的第一个版本是一个小时。"
+ },
+ {
+  "seg": 212,
+  "start": 1237.817,
+  "end": 1241.5,
+  "speaker": "Unknown",
+  "en": "So I have a lot more things I'm super excited to talk about with all of you.",
+  "zh": "所以我还有更多事情非常兴奋能与你们所有人讨论。"
+ },
+ {
+  "seg": 213,
+  "start": 1241.52,
+  "end": 1243.921,
+  "speaker": "Unknown",
+  "en": "So if you are interested in this stuff, come find me.",
+  "zh": "所以如果你对这些东西感兴趣，来找我。"
+ },
+ {
+  "seg": 214,
+  "start": 1244.261,
+  "end": 1245.522,
+  "speaker": "Unknown",
+  "en": "We have a booth on the show floor.",
+  "zh": "我们在展区有一个展位。"
+ },
+ {
+  "seg": 215,
+  "start": 1245.962,
+  "end": 1247.383,
+  "speaker": "Unknown",
+  "en": "I'm online everywhere.",
+  "zh": "我在网上随处可见。"
+ },
+ {
+  "seg": 216,
+  "start": 1247.843,
+  "end": 1253.607,
+  "speaker": "Unknown",
+  "en": "And I'm excited to build agents, because agents are awesome, but also to build the next next thing too.",
+  "zh": "而我很兴奋去构建智能体，因为智能体很棒，但也去构建下一个下一个东西。"
+ },
+ {
+  "seg": 217,
+  "start": 1253.847,
+  "end": 1254.167,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 218,
+  "start": 1263.622,
+  "end": 1264.286,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

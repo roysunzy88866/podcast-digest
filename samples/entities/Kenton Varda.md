@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":8,"Google":15,"智能体":63,"沙箱":12,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":65,"沙箱":13,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

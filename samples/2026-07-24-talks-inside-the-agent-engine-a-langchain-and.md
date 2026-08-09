@@ -104,9 +104,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]] —— 同概念:上下文 (context)、护栏 (harness)、文件系统 (file system)、智能体 (agent)、Deep Agents
 - [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]] —— 同概念:护栏 (harness)、智能体 (agent)、评估 (eval)
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Datadog · 同概念:智能体 (agent)、评估 (eval)
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:护栏 (harness)、智能体 (agent)
 
 </div>
 <div class="pd-ex">

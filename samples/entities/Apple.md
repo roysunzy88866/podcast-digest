@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,11 +18,12 @@ unlisted: true
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(60:25起):本集说它虽然交出了亮眼财报，但受困于内存短缺引发的供应链限制，且在 AI 时代面临手机重要性减弱、围墙花园失效的长期危机。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(47:33起):本集把它说成:什么都不做、不在 CapEx 上花钱的策略,如果未来模型真的被彻底商品化,十年后看起来会像天才
 - **[[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]]**(04:13起):本集批评它与 Google 在过去 15 年里对移动端系统严防死守,封禁了绝大多数人,导致用户很难在手机上安装未经签名的软件。
+- **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(11:01起):本集提到苹果在 1987 年制作了著名的人机交互概念视频《Knowledge Navigator》,预示了可折叠平板、实时视频生成、有性格的对话式语音助手等
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(06:40起):本集讨论 Apple 因 AI 基建热潮引发内存短缺而受到严重反噬，被迫酝酿全线硬件涨价（特别是 iPhone 18 预计上涨 100-200 美元），并推出与 Klarna 合作的按月付费订阅模式（Apple Upgrade）来掩盖涨价、锁定用户生态。
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
@@ -31,15 +32,16 @@ unlisted: true
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]] — 作为被讨论公司(提及)
+- [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[Lenny]] · [[Meta]] · [[智能体]] · [[NVIDIA]] · [[AGI]] · [[Amazon]]
+[[Anthropic]] · [[OpenAI]] · [[Google]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Lenny]] · [[Meta]] · [[Amazon]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":30,"Anthropic":35,"Google":15,"Microsoft":8,"Lenny":33,"Meta":12,"智能体":63,"NVIDIA":14,"AGI":8,"Amazon":5}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":36,"OpenAI":30,"Google":15,"Microsoft":9,"智能体":65,"NVIDIA":15,"Lenny":33,"Meta":12,"Amazon":5,"AGI":8}</script>
 
 <script>
 (function(){

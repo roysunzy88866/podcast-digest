@@ -1,0 +1,861 @@
+{
+  "episode_id": "2026-07-31-talks-building-deep-agents-and-deploying-in-pr",
+  "podcast": "精选演讲",
+  "date": "2026-07-31",
+  "tags": [
+    "智能体",
+    "智能体基础设施",
+    "上下文管理",
+    "持久化执行",
+    "AI 框架"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集核心概念。指围绕基础模型搭建的全部代码(包括提示词、记忆、工具、基础设施、钩子与中间件等),旨在让模型在给定任务下表现最好;如果智能体 = 模型 + harness,只要不是模型本身,你写的围绕它的代码就是 harness。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            27.907,
+            29.828
+          ],
+          "quote": "And deep agents are a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            30.489,
+            36.332
+          ],
+          "quote": "If you've been following the AI space, you've probably heard the word harness thrown around a lot in the last couple of months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            37.153,
+            40.715
+          ],
+          "quote": "And the first question that you might have is, what is a harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            52.465,
+            53.507
+          ],
+          "quote": "Plus a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            54.348,
+            60.797
+          ],
+          "quote": "And so again, the easiest way to think about this equation is that if you're not the model, you're the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            61.518,
+            66.906
+          ],
+          "quote": "And so the harness is everything that's built around the model to make it useful, to make it reliable, to make it good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            75.929,
+            79.549
+          ],
+          "quote": "All of those 500,000 lines are part of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            94.433,
+            99.875
+          ],
+          "quote": "Well, there's a couple of different classes of sort of primitives that we see building up the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            123.622,
+            129.244
+          ],
+          "quote": "All of these things that are normally part of your agent, your orchestration, are also considered part of your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            129.664,
+            141.528
+          ],
+          "quote": "So any of the infrastructure that you use, any of the orchestration, so file system, sandboxes, your browser, anything that the agent interacts with as part of the interface is also part of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            168.54,
+            171.901
+          ],
+          "quote": "So what's included in DeepAgent's harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            188.726,
+            202.28
+          ],
+          "quote": "And so what that means is that you can tune DeepAgent as a harness to your specific use case, your specific task, and it includes a few core primitives that allow you to pull different levers and again, adjust your performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            436.908,
+            445.272
+          ],
+          "quote": "But in general, the direction that we're heading is that models are getting better, and the basic deep agent harness is also getting better in terms of performance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度智能体 (deep agents)",
+      "file": "深度智能体",
+      "primary": true,
+      "how_described": "本集主题。开源的 harness 框架,封装了构建智能体的最佳实践;它引入了钩子和中间件概念,支持拦截对模型的调用以注入自定义逻辑,被视为最高级别的抽象,构建在 LangChain 之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            9.262,
+            15.147
+          ],
+          "quote": "We're going to talk a little bit about deep agents for the people here that are here for the first time, not familiar with them as a concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            15.488,
+            20.852
+          ],
+          "quote": "And then we'll talk about what it takes to actually take deep agents and effectively deploy them into production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            22.514,
+            26.658
+          ],
+          "quote": "So gonna start at the basics where we normally do, which is what are deep agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            27.907,
+            29.828
+          ],
+          "quote": "And deep agents are a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            272.407,
+            275.528
+          ],
+          "quote": "So deep agents is the highest level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.322,
+            305.353
+          ],
+          "quote": "So deep agents is the highest level of abstraction, and it's the way that you can get started the quickest if you want to get an agent up and running in production as soon as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            307.803,
+            315.97
+          ],
+          "quote": "And so now that I've explained what deep agents are, I'll talk a little bit about why they're useful before we get into the production considerations of running deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            316.891,
+            325.798
+          ],
+          "quote": "Again, I want to reemphasize at this point that deep agents give you the tool calling framework that is kind of a standard these days with best practices built in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            326.759,
+            336.503
+          ],
+          "quote": "And so one of the most convenient things about deep agents is that it is very easy to extend any of your existing tool calling agents and turn them into a deep agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            421.908,
+            429.555
+          ],
+          "quote": "And so really, no matter what your use case is, you can find the right way to mix and match deep agents with more deterministic LangGraph code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            513.222,
+            515.184
+          ],
+          "quote": "It's not really built for deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            565.915,
+            571.797
+          ],
+          "quote": "And so your runtime needs to accommodate deep tasks or complex tasks or deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            674.555,
+            681.617
+          ],
+          "quote": "And this is how agents today using our open source, using deep agents, are able to remember what you said in previous turns of a conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            698.543,
+            708.708
+          ],
+          "quote": "So deep agents, when we put them into production, we always include a long-term memory store in which we will extract insights that we want to have persist across many different sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            852.373,
+            858.995
+          ],
+          "quote": "So with deep agents and with LangGraph and our open source, this is a core primitive that you always have accessible to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            859.455,
+            865.117
+          ],
+          "quote": "And so if you deploy anything in production with deep agents or any of your own agents, you should consider",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "讲者所在的公司,开源了 DeepAgents 和 LangGraph 等框架,为构建智能体提供基础工具调用基础设施,并提供 LangSmith 部署作为打包方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            258.785,
+            271.847
+          ],
+          "quote": "And so if you're familiar with LangChain, which I hope you are attending this event, when compared to the rest of our open source packages, you can kind of think of the layers of abstraction as follows here on the screen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            279.709,
+            286.17
+          ],
+          "quote": "It's built on top of LangChain, which gives you that basic tool calling infrastructure that people refer to as agents today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            286.83,
+            293.278
+          ],
+          "quote": "And under the hood of LangChain, everything is built on LangGraph, which is the core Lego pieces that you use to put everything together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            336.943,
+            345.987
+          ],
+          "quote": "So if you have a tool calling agent using that classic React architecture, an example might be here up above if you're using LangChain, it's very easy to turn this into a deep agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            391.16,
+            401.93
+          ],
+          "quote": "And because everything under the hood is built on top of LangGraph, this also means that DeepAgents is deeply composable with any of your existing LangChain or LangGraph agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            576.763,
+            586.707
+          ],
+          "quote": "And so let's take a look at some of the specific considerations, zooming in on some of those from the list that we found most important when we were building our production agents at LangChain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": true,
+      "how_described": "LangChain 底层的开源框架,提供核心的节点、边和状态原语(像乐高积木),支持在执行的每一步设置检查点以实现断点恢复与短期/长期记忆,并可与确定性工作流深度组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            286.83,
+            293.278
+          ],
+          "quote": "And under the hood of LangChain, everything is built on LangGraph, which is the core Lego pieces that you use to put everything together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            391.16,
+            401.93
+          ],
+          "quote": "And because everything under the hood is built on top of LangGraph, this also means that DeepAgents is deeply composable with any of your existing LangChain or LangGraph agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            402.39,
+            408.076
+          ],
+          "quote": "You can have a fully deterministic LangGraph workflow utilize a DeepAgent as one of its nodes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            421.908,
+            429.555
+          ],
+          "quote": "And so really, no matter what your use case is, you can find the right way to mix and match deep agents with more deterministic LangGraph code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            636.709,
+            641.27
+          ],
+          "quote": "And so this is something that is supported within our open source frameworks, LangGraph and DeepAgents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            852.373,
+            858.995
+          ],
+          "quote": "So with deep agents and with LangGraph and our open source, this is a core primitive that you always have accessible to you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith-deployments",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangSmith 部署 (LangSmith deployments)",
+      "file": "LangSmith 部署",
+      "primary": true,
+      "how_described": "LangChain 提供的打包部署方案。如果你不想自己从头解决持久化执行、动态权限等复杂智能体生产难题,可以把构建好的智能体自动部署到该平台上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            902.015,
+            907.961
+          ],
+          "quote": "So I do have to throw in this little pitch at the end where we say, we do have these problems solved with LangSmith deployments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandboxes",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandboxes)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集将其描述为智能体与之交互的基础设施之一,作为 harness 的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            129.664,
+            141.528
+          ],
+          "quote": "So any of the infrastructure that you use, any of the orchestration, so file system, sandboxes, your browser, anything that the agent interacts with as part of the interface is also part of the harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "限制模型行为的规则;讲者提到在 DeepAgents 中,你可以通过定义中间件在模型执行前后注入护栏等自定义逻辑以获得最佳性能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            149.071,
+            166.499
+          ],
+          "quote": "DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic, things like guardrails, things like extra pre-processing or post-processing, or whatever you need to get that optimal performance for your given task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "middleware",
+      "type": "concept",
+      "role": "concept",
+      "name": "中间件 (middleware)",
+      "file": "中间件",
+      "primary": true,
+      "how_described": "DeepAgents 引入的独有概念,允许开发者拦截对模型的调用,在执行前后添加护栏、预处理或后处理等自定义逻辑,也可以用来增加对文件系统和规划模块的支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            142.148,
+            149.011
+          ],
+          "quote": "Now, the last thing that is a little bit unique to DeepAgents and is useful is the idea of hooks and middleware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            149.071,
+            166.499
+          ],
+          "quote": "DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic, things like guardrails, things like extra pre-processing or post-processing, or whatever you need to get that optimal performance for your given task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            370.599,
+            373.42
+          ],
+          "quote": "So it'll add middleware that adds support for a file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            373.76,
+            376.402
+          ],
+          "quote": "It will add middleware that adds support for a planning module.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "智能体的核心限制之一。讲者指出构建复杂智能体必然会把上下文窗口推向极限,导致模型更容易产生幻觉或失败,因此需要文件系统、摘要、子智能体等上下文管理手段来扩展窗口并保持模型专注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            238.242,
+            257.232
+          ],
+          "quote": "Now, there's a lot of other things like summarization, subagents, and planning that are really centered around context management that DeepAgent exposes to you so that you can effectively control what information makes it to your model, and so only the minimal amount of information passes to your model as needed, so you can extend your context window and you can keep your model focused.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            600.852,
+            604.834
+          ],
+          "quote": "One of the core patterns of agents, again, is still that they're limited by their context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            604.994,
+            609.817
+          ],
+          "quote": "And a lot of the innovation around harnesses today is about maximizing your context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            610.277,
+            615.9
+          ],
+          "quote": "So by nature of building a complex agent, you are likely going to be pushing your context window to the limit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "file-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "文件系统 (file system)",
+      "file": "文件系统",
+      "primary": true,
+      "how_described": "本集称之为「目前上下文管理的最先进技术」,智能体利用它作为便签本存储参考信息。因为模型在训练编程智能体时接受了海量文件系统数据训练,以文件形式喂数据往往能直接提升表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            129.664,
+            141.528
+          ],
+          "quote": "So any of the infrastructure that you use, any of the orchestration, so file system, sandboxes, your browser, anything that the agent interacts with as part of the interface is also part of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            202.8,
+            208.847
+          ],
+          "quote": "So one of the biggest ones that you've probably heard me talk a lot about if you've been at previous meetups is the file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            209.327,
+            210.608
+          ],
+          "quote": "The file system is...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            211.349,
+            220.153
+          ],
+          "quote": "Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            220.794,
+            229.218
+          ],
+          "quote": "And because foundational models have been trained on so much file system data in the course of optimizing Claude Code and Codex and coding agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            229.898,
+            237.662
+          ],
+          "quote": "Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            370.599,
+            373.42
+          ],
+          "quote": "So it'll add middleware that adds support for a file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            376.682,
+            380.144
+          ],
+          "quote": "And it will also add prebuilt tools to navigate that file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "讲者将其归类为编排层和 harness 的一部分,也是上下文管理的模块之一;DeepAgents 会在工具调用循环中动态启动子智能体来处理任务,深度智能体也可在底层协调确定性流作为子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            119.801,
+            123.182
+          ],
+          "quote": "Same thing with tools, skills, MCP, and sub-agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "智能体生产环境的核心挑战之一。长时间运行的复杂任务必然面临失败,需要通过在执行每一步设置检查点(checkpointing)来支持断点恢复,避免任务崩溃后从头重跑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            587.227,
+            590.268
+          ],
+          "quote": "So one of the first ones that I mentioned was durable execution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "checkpointing",
+      "type": "concept",
+      "role": "concept",
+      "name": "检查点 (checkpointing)",
+      "file": "检查点",
+      "primary": true,
+      "how_described": "DeepAgents 和 LangGraph 在执行的每一步设置检查点，支持在某一步失败时从上一步恢复；串联检查点状态即可构建出智能体的短期记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            641.63,
+            644.451
+          ],
+          "quote": "We have checkpointing basically every step of your execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            652.394,
+            663.505
+          ],
+          "quote": "Another thing that checkpointing allows and basically storing the state at every step of execution is that if you link together all of these different associated states, you can start building this concept of memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人工在环 (human in the loop)",
+      "file": "人工在环",
+      "primary": true,
+      "how_described": "大多数重要任务绕不开的基础设施需求,要求运行时支持人类用户中断、停止或批准智能体的动作,并能将长任务的实时进度流式传输回前端持续更新状态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            551.17,
+            557.012
+          ],
+          "quote": "Same thing with autoscaling or parallel fanout, resuming drop sessions and incorporating human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            825.562,
+            835.886
+          ],
+          "quote": "Now, the last thing that is important that I want to call out is interfacing with users because as of today, most tasks that are important still involve some degree of human in the loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "讲者以它为例说明 harness 有多庞大:其源码有约 50 万行代码,全是为了让模型在执行任务时表现最好而构建的;另外提到模型在优化这类编程智能体时接受了大量文件系统数据训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.587,
+            75.289
+          ],
+          "quote": "So if you use Claude Code, Claude Code has something like 500,000 lines of code as part of its source code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            180.644,
+            188.166
+          ],
+          "quote": "So Claude Code is closed sourced if you don't count the leaks, but DeepAgent's are fully open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            220.794,
+            229.218
+          ],
+          "quote": "And because foundational models have been trained on so much file system data in the course of optimizing Claude Code and Codex and coding agents,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "讲者顺带提到的基础模型优化的编程智能体之一,说明模型在接受这些智能体训练时吸收了大量的文件系统数据,因此非常擅长利用文件系统接口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            220.794,
+            229.218
+          ],
+          "quote": "And because foundational models have been trained on so much file system data in the course of optimizing Claude Code and Codex and coding agents,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            119.801,
+            123.182
+          ],
+          "quote": "Same thing with tools, skills, MCP, and sub-agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,1156 @@
+{
+  "episode_id": "2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil",
+  "podcast": "精选演讲",
+  "date": "2026-08-07",
+  "tags": [
+    "AI 智能体",
+    "上下文管理",
+    "产品 UX",
+    "智能体架构",
+    "前端与模型契约"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "harmonic",
+      "type": "company",
+      "role": "company",
+      "name": "Harmonic",
+      "file": "Harmonic",
+      "primary": true,
+      "how_described": "本集说它是一个提供创业生态系统的实时数据库公司，追踪了 3700 万家公司和 2 亿人，大多数顶级 VC 都依赖它进行寻源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            6.922,
+            12.267
+          ],
+          "quote": "So for those unfamiliar with Harmonic, we are a real-time database of basically the startup ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            18.814,
+            23.419
+          ],
+          "quote": "Most of the VCs that you have heard of rely on Harmonic for their sourcing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            26.842,
+            27.562
+          ],
+          "quote": "I use Harmonic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            688.46,
+            691.422
+          ],
+          "quote": "But one of the biggest use cases for Harmonic is searching companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scout",
+      "type": "company",
+      "role": "company",
+      "name": "Scout",
+      "file": "Scout",
+      "primary": true,
+      "how_described": "本集说它是位于 Harmonic 数据生态系统之上的自然语言接口，运行在 Deep Agents 上，切换架构后留存率提升了四倍，被用户称为「秘密武器」和「天堂」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.602,
+            31.323
+          ],
+          "quote": "So Scout is basically the layer that sits on top of this whole ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            85.098,
+            88.68
+          ],
+          "quote": "And just to kind of demonstrate how successful Scout has been since we switched to deep agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            107.182,
+            109.043
+          ],
+          "quote": "I think everyone's secret weapon is becoming Scout.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            113.987,
+            117.23
+          ],
+          "quote": "Scout 1.0, this was our initial version.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            353.535,
+            361.357
+          ],
+          "quote": "In this case, Scout, again, frontier model, deep agents as a harness, and then a web interface that we built to kind of fit into that, to plug into that harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            527.698,
+            538.24
+          ],
+          "quote": "So to make this a little bit more concrete, with Scout, one of the most interesting use cases that kind of emerged as we built this up and monitored outcomes was visualizations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": false,
+      "how_described": "本集在举例时顺带提到它，用以说明 Scout 能够处理像「谁是 LangChain 的 CEO」这样的简单查询。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            35.505,
+            52.31
+          ],
+          "quote": "So I can handle simple queries like who is the CEO of LangChain, as well as really complicated stuff like map out the landscape of this industry, create a visualization of how the market map looks, and rank the team on a scale from 1 to 10 based on this rubric.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其定义为「模型加上机具」，讨论了智能体天生偏爱结构化代码，以及如何调和这种天性与非技术用户的 UX 需求之间的张力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            79.655,
+            84.658
+          ],
+          "quote": "So it's interactive, but also kind of keeps to the conversational flow that the agent wants to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            176.753,
+            185.62
+          ],
+          "quote": "And then you have middleware that Robert kind of alluded to that runs before the model, after the model, and before the agent and after the agent, which is the entire tool calling loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            222.965,
+            226.308
+          ],
+          "quote": "So we talked about the agent is model plus harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            304.903,
+            311.105
+          ],
+          "quote": "File system abstractions, which lets us arbitrarily read and write different artifacts into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            312.005,
+            316.708
+          ],
+          "quote": "And most importantly, we were already on LangSmith deployment with our previous agent, the spaghetti graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            331.043,
+            342.93
+          ],
+          "quote": "So if the agent is model and harness, I kind of want to talk about how we take the agent, which contains a lot of technical primitives, and actually build it into a product that people can use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            343.55,
+            352.475
+          ],
+          "quote": "So in this model, if the agent is model plus harness, the product means that you're adding some sort of UX on top of it so that the users can interact with it in a nice way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            463.326,
+            471.749
+          ],
+          "quote": "Everything that's offloaded by the harness kind of exists in the purview of the agent, but might not necessarily be directly available to the model at every call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            512.386,
+            526.05
+          ],
+          "quote": "So if you're building a UX and you have something that's nicely rendered side by side with the conversation, but it doesn't exist either in the message list or offloaded by the harness with a way to discover it, it'll be essentially invisible to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            593.533,
+            599.38
+          ],
+          "quote": "The agent has no idea what actually happens because it's kind of just firing something into the void, getting back some success message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            640.737,
+            652.803
+          ],
+          "quote": "So you could do something, basically prompt the agent to use some sort of delimiter, in this case an XML tag, HTML visualization that wraps whatever HTML it's going to use to print out the visualization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            700.41,
+            709.636
+          ],
+          "quote": "We have to basically expose a way to conduct that search in the front end and make sure that the agent has awareness of what the results are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            739.003,
+            761.508
+          ],
+          "quote": "information making it back to the model so a user would follow up and be like great there's you know five results at the top i don't know why they're showing up here or like can you tell me more about the ceo of the second company the model doesn't have any context and doesn't have any way to even like build up context to know what uh exists there so the user's seeing this great thing but then the the agent loses ability to build up that context",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            823.105,
+            838.355
+          ],
+          "quote": "The best version is a DeepAgent's native version, which is basically using the file system as a shared storage space for basically the agent, the front end, and any other kind of deterministic processes that you want to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            838.955,
+            844.399
+          ],
+          "quote": "So the main agent as part of the DeepAgent's framework has file system tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            855.087,
+            863.794
+          ],
+          "quote": "And then we would be able to basically create, fire off a second search agent that would mount to that same file system that the main agent's running on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            872.562,
+            878.067
+          ],
+          "quote": "So while that's happening, the main agent has the ability to kind of arbitrarily inspect the output and the status.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            894.553,
+            899.895
+          ],
+          "quote": "The search agent is kind of continuously pumping data in by just writing it to this file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            909.799,
+            912.961
+          ],
+          "quote": "And the main agent would be able to be like, okay, let me read this file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            958.844,
+            961.166
+          ],
+          "quote": "So to recap, Agent is a model and harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "deep agents",
+      "file": "deep agents",
+      "primary": true,
+      "how_described": "本集把它当作管理和调度模型、工具与上下文的「机具」框架，指出其核心优势是管理上下文，能自动运行压缩，并将工具调用的海量结果转存到文件系统里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            31.363,
+            35.465
+          ],
+          "quote": "It's a natural language interface that runs on deep agents and connects to the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            85.098,
+            88.68
+          ],
+          "quote": "And just to kind of demonstrate how successful Scout has been since we switched to deep agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            90.749,
+            94.692
+          ],
+          "quote": "We have four times the retention from week one to week four since we switched over to deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.146,
+            168.487
+          ],
+          "quote": "And we switched over to deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            226.828,
+            231.072
+          ],
+          "quote": "Again, in this case, we are using a frontier model and we're using deep agents as the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            232.253,
+            233.895
+          ],
+          "quote": "And a little bit why we chose deep agents here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            266.833,
+            272.854
+          ],
+          "quote": "So deep agents, I think one of the core benefits of it is it handles, it basically manages context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            353.535,
+            361.357
+          ],
+          "quote": "In this case, Scout, again, frontier model, deep agents as a harness, and then a web interface that we built to kind of fit into that, to plug into that harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集提到随着前沿模型能力的提升，Harmonic 果断抛弃了旧的解析图架构，将前沿模型与 Deep Agents 组合作为新架构的核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            226.828,
+            231.072
+          ],
+          "quote": "Again, in this case, we are using a frontier model and we're using deep agents as the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            353.535,
+            361.357
+          ],
+          "quote": "In this case, Scout, again, frontier model, deep agents as a harness, and then a web interface that we built to kind of fit into that, to plug into that harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "机具 (harness)",
+      "file": "机具",
+      "primary": true,
+      "how_described": "本集说它的职责是与模型维持「上下文契约」，确保传入模型的消息列表不触及容量上限或发生上下文腐烂，通过工具按需给模型提供被卸载的数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            209.794,
+            212.456
+          ],
+          "quote": "So we found that using frontier models and the harness",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            222.965,
+            226.308
+          ],
+          "quote": "So we talked about the agent is model plus harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            226.828,
+            231.072
+          ],
+          "quote": "Again, in this case, we are using a frontier model and we're using deep agents as the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            331.043,
+            342.93
+          ],
+          "quote": "So if the agent is model and harness, I kind of want to talk about how we take the agent, which contains a lot of technical primitives, and actually build it into a product that people can use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            343.55,
+            352.475
+          ],
+          "quote": "So in this model, if the agent is model plus harness, the product means that you're adding some sort of UX on top of it so that the users can interact with it in a nice way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            353.535,
+            361.357
+          ],
+          "quote": "In this case, Scout, again, frontier model, deep agents as a harness, and then a web interface that we built to kind of fit into that, to plug into that harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            378.317,
+            379.197
+          ],
+          "quote": "And then also the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            390.307,
+            406.775
+          ],
+          "quote": "Most of our users are non-technical, so we had to basically fight this tension of how do we leverage the full benefit of this harness that is extremely capable with a correct model and then build it into a product that is generally useful to people without compromising some of that power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            424.544,
+            430.628
+          ],
+          "quote": "So the way I think about the context that the harness manages, it basically has a contract with the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            446.016,
+            457.183
+          ],
+          "quote": "So the harness's job is to basically pull stuff out of that messages list to make room and make sure that you're not hitting the context window or hitting context rot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            463.326,
+            471.749
+          ],
+          "quote": "Everything that's offloaded by the harness kind of exists in the purview of the agent, but might not necessarily be directly available to the model at every call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            472.209,
+            480.133
+          ],
+          "quote": "But the contract is that anything that the harness kind of pulls out of the messages list, it has to make available to the model through tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            503.363,
+            512.226
+          ],
+          "quote": "But the important thing here with regard to UX is that anything that sits outside of those two layers, the message list and the harness, is basically invisible to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            512.386,
+            526.05
+          ],
+          "quote": "So if you're building a UX and you have something that's nicely rendered side by side with the conversation, but it doesn't exist either in the message list or offloaded by the harness with a way to discover it, it'll be essentially invisible to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            560.872,
+            568.139
+          ],
+          "quote": "So I could talk about the wrong way and the right way to approach this based on that Harness contract.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            599.4,
+            611.634
+          ],
+          "quote": "But if the user says, why is that company on the left-hand side, it doesn't have any context on what the front end is doing because it's completely outside of the purview of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            943.477,
+            956.904
+          ],
+          "quote": "Like it's kind of a sniff test that something might be invisible to the model or it might be something that could be better solved by kind of designing better first principles like flow of context between the harness and the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            958.844,
+            961.166
+          ],
+          "quote": "So to recap, Agent is a model and harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            964.977,
+            969.24
+          ],
+          "quote": "The UX has to play by the rules of how the harness shares context with the model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集重点讨论了上下文管理，指出如果直接把成千上万行的搜索结果塞进消息列表，上下文很快就会爆炸，导致模型被海量数据污染。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            266.833,
+            272.854
+          ],
+          "quote": "So deep agents, I think one of the core benefits of it is it handles, it basically manages context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            424.544,
+            430.628
+          ],
+          "quote": "So the way I think about the context that the harness manages, it basically has a contract with the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            446.016,
+            457.183
+          ],
+          "quote": "So the harness's job is to basically pull stuff out of that messages list to make room and make sure that you're not hitting the context window or hitting context rot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            481.273,
+            502.583
+          ],
+          "quote": "if it's pulling out a file it returns a pointer to the file saying you can access it at this this path and it will give tools to kind of read chunks in at a time so the concept of progressive disclosure you have kind of a an initial like lightweight one-liner of what what exists and some tools and then the model can kind of choose to build up context in chunks as needed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            599.4,
+            611.634
+          ],
+          "quote": "But if the user says, why is that company on the left-hand side, it doesn't have any context on what the front end is doing because it's completely outside of the purview of the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            739.003,
+            761.508
+          ],
+          "quote": "information making it back to the model so a user would follow up and be like great there's you know five results at the top i don't know why they're showing up here or like can you tell me more about the ceo of the second company the model doesn't have any context and doesn't have any way to even like build up context to know what uh exists there so the user's seeing this great thing but then the the agent loses ability to build up that context",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            803.461,
+            804.901
+          ],
+          "quote": "And it's able to build up that context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            943.477,
+            956.904
+          ],
+          "quote": "Like it's kind of a sniff test that something might be invisible to the model or it might be something that could be better solved by kind of designing better first principles like flow of context between the harness and the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            964.977,
+            969.24
+          ],
+          "quote": "The UX has to play by the rules of how the harness shares context with the model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": true,
+      "how_described": "本集将其作为核心设计法则，强调对于最终呈现给用户的 UX，模型必须具备渐进式可见性，要么直接放在消息列表里，要么提供工具让模型能探查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            481.273,
+            502.583
+          ],
+          "quote": "if it's pulling out a file it returns a pointer to the file saying you can access it at this this path and it will give tools to kind of read chunks in at a time so the concept of progressive disclosure you have kind of a an initial like lightweight one-liner of what what exists and some tools and then the model can kind of choose to build up context in chunks as needed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            616.925,
+            623.052
+          ],
+          "quote": "There's no way for the model to develop progressive disclosure to access that information.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具 (tools)",
+      "file": "工具",
+      "primary": true,
+      "how_described": "本集说新架构就是由模型和工具组成的工具调用循环，他们给智能体配了 50 个连接生态的工具，智能体不仅能准确选对，还能极好地执行复杂组合任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            175.152,
+            176.113
+          ],
+          "quote": "You have tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            186.823,
+            191.886
+          ],
+          "quote": "So we basically switched entirely over to this version, which is simply a model and tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            191.986,
+            195.107
+          ],
+          "quote": "And then we created a bunch of tools that connect into our ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            213.216,
+            221.083
+          ],
+          "quote": "Giving it a bunch of tools, even 50 tools, it's able to kind of choose the right tool, execute really complicated, long composite tasks really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            236.543,
+            240.024
+          ],
+          "quote": "We had these really, again, we had 50 tools, a lot of different interactions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            472.209,
+            480.133
+          ],
+          "quote": "But the contract is that anything that the harness kind of pulls out of the messages list, it has to make available to the model through tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            481.273,
+            502.583
+          ],
+          "quote": "if it's pulling out a file it returns a pointer to the file saying you can access it at this this path and it will give tools to kind of read chunks in at a time so the concept of progressive disclosure you have kind of a an initial like lightweight one-liner of what what exists and some tools and then the model can kind of choose to build up context in chunks as needed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            762.858,
+            771.124
+          ],
+          "quote": "A better approach here would be to create a tool that returns some sort of identifier and then tools to explore that artifact a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            788.915,
+            793.197
+          ],
+          "quote": "But then the model has the search ID and it has tools to inspect the artifacts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            838.955,
+            844.399
+          ],
+          "quote": "So the main agent as part of the DeepAgent's framework has file system tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "middleware",
+      "type": "concept",
+      "role": "concept",
+      "name": "中间件 (middleware)",
+      "file": "中间件",
+      "primary": false,
+      "how_described": "本集提到中间件运行在模型和智能体调用循环的前后，允许他们运行自定义逻辑或在运行时拉取提示词信息，而不用在每次调用中都塞进去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            176.753,
+            185.62
+          ],
+          "quote": "And then you have middleware that Robert kind of alluded to that runs before the model, after the model, and before the agent and after the agent, which is the entire tool calling loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            296.86,
+            303.962
+          ],
+          "quote": "As well as skills and custom middleware lets us pull in prompt information at runtime rather than having it all included in every single call.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "file-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "文件系统 (file system)",
+      "file": "文件系统",
+      "primary": true,
+      "how_described": "本集称其最优雅的用法是，将其作为主智能体、前端以及后台搜索进程之间的「共享存储空间」，各方可以和谐地同时读写数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            279.616,
+            294.58
+          ],
+          "quote": "And in tool call eviction, so that company search call that returned thousands of lines, it would actually pull that into the file system and return a pointer to how to basically pull in chunks of that file so that the model can continue without getting polluted by the entire response.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            304.903,
+            311.105
+          ],
+          "quote": "File system abstractions, which lets us arbitrarily read and write different artifacts into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            379.217,
+            381.5
+          ],
+          "quote": "We have things like the file system primitives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            823.105,
+            838.355
+          ],
+          "quote": "The best version is a DeepAgent's native version, which is basically using the file system as a shared storage space for basically the agent, the front end, and any other kind of deterministic processes that you want to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            838.955,
+            844.399
+          ],
+          "quote": "So the main agent as part of the DeepAgent's framework has file system tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            844.539,
+            848.562
+          ],
+          "quote": "So it has the ability to kind of navigate this scoped file system that gets created.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            855.087,
+            863.794
+          ],
+          "quote": "And then we would be able to basically create, fire off a second search agent that would mount to that same file system that the main agent's running on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            871.001,
+            872.502
+          ],
+          "quote": "But it's writing to the same file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            878.567,
+            881.308
+          ],
+          "quote": "The front end can still kind of connect to that same file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            894.553,
+            899.895
+          ],
+          "quote": "The search agent is kind of continuously pumping data in by just writing it to this file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "query-parsing-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "查询解析图 (query parsing graph)",
+      "file": "查询解析图",
+      "primary": false,
+      "how_described": "本集说这是 Scout 1.0 使用的繁杂的图架构，把用户查询拆解给不同节点处理，需要疯狂调优且维护成本极高，后来被果断抛弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            132.843,
+            140.487
+          ],
+          "quote": "We had this query parsing graph that would take it, extract out the semantic portion, fintech sass, run that against embeddings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "embeddings",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入 (embeddings)",
+      "file": "嵌入",
+      "primary": false,
+      "how_described": "本集提到旧架构会提取自然语言的语义部分（如金融科技 SaaS），并针对嵌入进行处理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            132.843,
+            140.487
+          ],
+          "quote": "We had this query parsing graph that would take it, extract out the semantic portion, fintech sass, run that against embeddings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": false,
+      "how_described": "本集提到旧版的 Scout 1.0 解析图就是在这个框架下构建的，图里的每个节点都有各自的模型和评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            149.272,
+            154.435
+          ],
+          "quote": "And each one of these nodes in LangGraph had their own models, had their own evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": false,
+      "how_described": "本集提到他们之前的智能体就已经部署在 LangSmith 上了，这使得他们能很方便地插入新框架并做 A/B 测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            312.005,
+            316.708
+          ],
+          "quote": "And most importantly, we were already on LangSmith deployment with our previous agent, the spaghetti graph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-rot",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文腐烂 (context rot)",
+      "file": "上下文腐烂",
+      "primary": false,
+      "how_described": "本集指上下文过长导致模型理解能力下降的现象，指出机具的职责之一就是确保消息列表不发生上下文腐烂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            446.016,
+            457.183
+          ],
+          "quote": "So the harness's job is to basically pull stuff out of that messages list to make room and make sure that you're not hitting the context window or hitting context rot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": false,
+      "how_described": "本集讨论了如何调和张力：既要给模型自由推理和行动的主观能动性，又要构建高度可预测的交互式 UX。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            407.275,
+            421.863
+          ],
+          "quote": "So again, the tension between making sure the model has agency to reason and act freely with building a UX that's kind of nicely interactive, has rich elements that are rendered in a predictable and deterministic way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            667.407,
+            677.951
+          ],
+          "quote": "If you ask it, can you regenerate this and move these three things to the right-hand side and change the background color, it has full agency to kind of modify it, and it's fully living inside the messages list.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fire-and-forget",
+      "type": "concept",
+      "role": "concept",
+      "name": "发后即忘 (fire and forget)",
+      "file": "发后即忘",
+      "primary": false,
+      "how_described": "本集指一种错误的搜索处理方式：模型触发搜索后，前端直接渲染结果，但结果信息压根没传回给模型，导致模型无法建立上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            719.233,
+            722.795
+          ],
+          "quote": "Again, the kind of naive way to do this would be to fire and forget.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

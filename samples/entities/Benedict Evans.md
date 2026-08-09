@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
+[[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"OpenAI":30,"Anthropic":35,"Google":15,"Meta":12,"Apple":8,"Microsoft":8,"AWS":3,"McKinsey":2,"Claude Code":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"OpenAI":30,"Anthropic":36,"Google":15,"Meta":12,"Apple":9,"Microsoft":9,"AWS":4,"McKinsey":2,"Claude Code":17}</script>
 
 <script>
 (function(){

@@ -1,0 +1,469 @@
+{
+  "episode_id": "2026-08-07-talks-the-new-primitives-building-ai-native-so",
+  "podcast": "精选演讲",
+  "date": "2026-08-07",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "计算史",
+    "AI 原生软件",
+    "多模态"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "satya-nadella",
+      "type": "person",
+      "role": "host",
+      "name": "Satya Nadella",
+      "file": "Satya Nadella",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            148.163,
+            157.388
+          ],
+          "quote": "Here is Satya Nadella talking a couple weeks ago on a crossover episode of the no priors and latent space pod about the challenges of building agents in 2026.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "kwindla-kramer",
+      "type": "person",
+      "role": "guest",
+      "name": "Kwindla Kramer",
+      "file": "Kwindla Kramer",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "pipecat",
+      "type": "company",
+      "role": "company",
+      "name": "Pipecat",
+      "file": "Pipecat",
+      "primary": true,
+      "how_described": "本集说它是目前构建语音智能体使用最广泛的开源、供应商中立框架,被 AWS、NVIDIA、Anthropic 及数千家企业使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            31.096,
+            36.561
+          ],
+          "quote": "And we're the team behind Pipecat, which is the most widely used framework for building voice agents today.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 8,
+          "t": [
+            37.182,
+            39.104
+          ],
+          "quote": "Pipecat is open source and vendor neutral.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "type": "company",
+      "role": "company",
+      "name": "Daily",
+      "file": "Daily",
+      "primary": true,
+      "how_described": "本集说它是一家为实时音频、视频和 AI 制作开发者基础设施的公司,也是 Pipecat 框架背后的团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.63,
+            25.871
+          ],
+          "quote": "I work at a company called Daily.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:我们当前正在热火朝天大干快上的对象(包含语音智能体),但未来将从孤立的智能体迈向融合多模态、多设备的 AI 原生软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            1176.568,
+            1182.171
+          ],
+          "quote": "Welcome to Gradient Bang, a multiplayer game that showcases real-time agent orchestration.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ai-native-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生软件 (AI-native software)",
+      "file": "AI 原生软件",
+      "primary": true,
+      "how_described": "本集把它说成:继智能体和 Agents++ 之后的「下一个下一个东西」,之于今天的智能体就像今天的互联网之于 1995 年的网页",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            284.422,
+            295.952
+          ],
+          "quote": "So just like we went from web pages to full-blown web and native mobile, clearly, we're going to chart a path to a new fully AI-native software that comes after Agents and Agents++.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1058.212,
+            1063.508
+          ],
+          "quote": "But I think we can also start to think about the next thing, the AI-native software that is to agents what today's",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1149.447,
+            1159.35
+          ],
+          "quote": "And I'll just close with a massively multiplayer game project I've been working on with some friends as a canvas to really think about what AI-native software can be.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 2010 年代的云计算为扩展 AI 推理所需的基础设施奠定了基础;在嘉宾的大型多人游戏项目中,每一刻都有数百个实时推理调用在发生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            1040.771,
+            1051.94
+          ],
+          "quote": "In 2010s, we built out the cloud, which laid the groundwork for the infrastructure and data centers and data capacity we would need to scale up AI training and inference, which brings us to now.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1165.091,
+            1171.593
+          ],
+          "quote": "At every moment in the game, there are hundreds of inference calls happening, and we couldn't have built anything like this even a year ago.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "primary": true,
+      "how_described": "本集说 Web 最被低估的颠覆性在于它从一开始就是多模态的,打破了文本、音频、视频和数据必须在不同程序里处理的旧规矩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            752.679,
+            761.288
+          ],
+          "quote": "And with the benefit of hindsight, I now think that the single most important thing about the web was that it was multimodal from the very beginning.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 120,
+          "t": [
+            783.878,
+            800.768
+          ],
+          "quote": "Then in the first decade of the new millennium, the big job was to make all of this computing stuff mobile and continually connected, to put this new multimodal networked computer in your pocket, literally to give a supercomputer to everybody in the world that they could carry around in their hand.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1030.883,
+            1039.931
+          ],
+          "quote": "This long project to build the multimodal, multi-device, multi-screen, multi-player, ubiquitously connected computer is still what I'm working on 15 years later.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "云计算 (cloud)",
+      "file": "云计算",
+      "primary": true,
+      "how_described": "本集说 2010 年代建立的云计算,为后来扩展 AI 训练和推理所需的基础设施、数据中心和数据容量铺平了道路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            1040.771,
+            1051.94
+          ],
+          "quote": "In 2010s, we built out the cloud, which laid the groundwork for the infrastructure and data centers and data capacity we would need to scale up AI training and inference, which brings us to now.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1069.609,
+            1074.313
+          ],
+          "quote": "We went from the calculator to the computer to the personal computer to the global cloud computer.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": false,
+      "how_described": "本集在谈到丰富的上下文喂养时提到;在子智能体部分提到了异步非阻塞上下文压缩与共享上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.56,
+            65.405
+          ],
+          "quote": "And I'm going to try to put all this in the context of the roughly 80-year history of digital computing so far.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 28,
+          "t": [
+            195.26,
+            198.821
+          ],
+          "quote": "And then you're feeding it with very rich context.",
+          "speaker": "SPEAKER_14"
+        },
+        {
+          "seg": 29,
+          "t": [
+            200.341,
+            213.645
+          ],
+          "quote": "So if you were here last year at AI Engineer World's Fair, you could draw a through line from the things we were talking about last year to loops and tool calls and context engineering and the stuff we're focused on this year to some emerging ideas.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1183.052,
+            1190.015
+          ],
+          "quote": "Gradient Bang demonstrates several patterns for AI sub-agents, such as asynchronous non-blocking context compression.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1195.418,
+            1197.9
+          ],
+          "quote": "Long-running sub-agents that share context.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集顺带提及,说它是 Pipecat 开源框架的使用公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.844,
+            47.651
+          ],
+          "quote": "It's used by companies like AWS and NVIDIA and Anthropic and thousands of startups and scale-ups and enterprises.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集顺带提及,说它是 Pipecat 开源框架的使用公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.844,
+            47.651
+          ],
+          "quote": "It's used by companies like AWS and NVIDIA and Anthropic and thousands of startups and scale-ups and enterprises.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集顺带提及,说它是 Pipecat 开源框架的使用公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.844,
+            47.651
+          ],
+          "quote": "It's used by companies like AWS and NVIDIA and Anthropic and thousands of startups and scale-ups and enterprises.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集提到苹果在 1987 年制作了著名的人机交互概念视频《Knowledge Navigator》,预示了可折叠平板、实时视频生成、有性格的对话式语音助手等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            661.634,
+            670.157
+          ],
+          "quote": "Like, as we may think, another famous document in the history of human-computer interaction, concept video from Apple made in 1987 called Knowledge Navigator.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集说微软的使命宣言曾是「让每张办公桌和每个家庭都有一台计算机」,且令人难以置信地实现了它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            548.248,
+            551.871
+          ],
+          "quote": "And Microsoft's mission statement was a computer on every desk and in every home.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 90,
+          "t": [
+            552.451,
+            556.013
+          ],
+          "quote": "And incredibly, Microsoft delivered on that mission statement.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 92,
+          "t": [
+            565.026,
+            585.853
+          ],
+          "quote": "Take VisiCalc, for example, which was the first spreadsheet program, a truly new abstraction for doing computation, numerical computing, two-dimensional, interactive, so durable and so useful that probably most of us in this room use a direct descendant of VisiCalc regularly, Google Sheets or Microsoft Excel or whatever.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub Copilot",
+      "file": "GitHub Copilot",
+      "primary": false,
+      "how_described": "本集在播放 Satya Nadella 的片段时提及,说它是带工具访问权限的多模型套索之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            171.935,
+            183.857
+          ],
+          "quote": "And so what we are trying to, first of all, make sure is each of our products that we build, right, whether it's GitHub Copilot or the security stuff we showed with MDash, or even the discovery for science, it doesn't matter.",
+          "speaker": "SPEAKER_14"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "voice agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "sub-agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

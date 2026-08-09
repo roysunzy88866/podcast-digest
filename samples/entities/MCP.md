@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:50起):本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(00:45起):被描述为让大模型与 Slack、Gmail 等外部系统安全通信的集成编织层标准。嘉宾将私有知识库部署为本地 MCP 服务器，从而随时通过桌面端安全调用。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
+- **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
@@ -27,21 +28,22 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为概念(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
+- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Figma]] · [[Codex]] · [[Claude]] · [[Make]] · [[技能]] · [[Nico]] · [[Meng To]] · [[Aakash Gupta]]
+[[智能体]] · [[Claude Code]] · [[Codex]] · [[Figma]] · [[护栏]] · [[Claude]] · [[Make]] · [[技能]] · [[Nico]] · [[Meng To]]
 
-<script type="application/json" class="pd-epn">{"智能体":63,"Claude Code":16,"Figma":6,"Codex":13,"Claude":12,"Make":2,"技能":3,"Nico":1,"Meng To":1,"Aakash Gupta":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":65,"Claude Code":17,"Codex":14,"Figma":6,"护栏":12,"Claude":12,"Make":2,"技能":3,"Nico":1,"Meng To":1}</script>
 
 <script>
 (function(){

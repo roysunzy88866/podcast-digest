@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":12,"Claude Code":16,"智能体":63,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":7,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":12,"Claude Code":17,"智能体":65,"对抗性智能体":1,"MCP":6,"知识库":1,"技能":3,"vibe coding":7,"红队测试":2}</script>
 
 <script>
 (function(){
