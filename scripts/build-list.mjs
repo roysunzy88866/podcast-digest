@@ -274,8 +274,16 @@ ${scriptBlock()}
   // 组标兜底:date 缺了就从 id 前缀取,但**必须真长得像日期**才用 —— 否则会把 id 的前
   // 10 个字符当日期显示出来(实测 `2026-singju-openclaw-80apps` 这类 id 会切出「2026-singj」)。
   // 今天没露是因为 40 集 meta.date 都在;不钉住就是等着以后出个垃圾组标。
+  // 用户 2026-08-09:「最新」按**入库时间**(内容真正被加进站的日期)分组/排序,而不是原视频/播客发布日。
+  // 病根:演讲带的是 YouTube 原视频旧日期,处理好入库时按内容日排会埋在列表中间、顶部不动 → 用户以为「没新增」。
+  // 入库日 = meta.added(run-pipeline 首次处理时钉一次;backfill-added.mjs 给存量集回填 git 首提日);
+  // 缺 added 的回落 meta.date(过渡期自然收敛)。added 若是完整时间戳,只取前 10 位日期段。
   const dateKey = (meta) => {
-    if (meta.date) return String(meta.date);
+    const raw = meta.added || meta.date;
+    if (raw) {
+      const d = String(raw).slice(0, 10);
+      if (/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
+    }
     const head = String(meta.id ?? "").slice(0, 10);
     return /^\d{4}-\d{2}-\d{2}$/.test(head) ? head : "日期未知";
   };

@@ -514,6 +514,9 @@ function processEpisode(item, id, source) {
   if (source) {
     const metaPath = join(ROOT, dir, "meta.json");
     const meta = { ...JSON.parse(readFileSync(metaPath, "utf8")), ...sourceMetaFields(item, source) };
+    // 入库日(用户 2026-08-09:「最新」按加进站的时间排,让新处理的旧日期演讲冒到顶部)。
+    // 首次处理时钉一次、之后不覆盖(重跑/refresh 不改),UTC 日期段与 meta.date 同格式好分组。
+    if (!meta.added) meta.added = new Date().toISOString().slice(0, 10);
     writeFileSync(metaPath, JSON.stringify(meta, null, 2));
   }
   // 无人值守补人工缺口:GLM 推说话人真名 + grounding 机器校(drift #23),传 RSS 标题当候选名源

@@ -112,6 +112,34 @@ describe("C13a 场景1 · 卡片承载判断所需的信息", () => {
   });
 });
 
+describe("入库时间排序(用户 2026-08-09:最新按 added 入库日分组,不是内容原始日期)", () => {
+  const o = { categoriesBySlug: {}, hasCover: () => true };
+
+  it("★ 有 added → 组标用 added(入库日),不用 meta.date(内容日)", () => {
+    const md = renderList([ep({ meta: { id: "talk-x", date: "2026-06-05", added: "2026-08-09" } })], o);
+    expect(md).toContain('<div class="dateh">2026-08-09</div>');
+    expect(md).not.toContain('<div class="dateh">2026-06-05</div>');
+  });
+
+  it("★★ 旧视频今天入库 → 冒到顶部,压过内容更新但入库更早的集(正是本次要解的病)", () => {
+    const freshTalk = ep({ meta: { id: "fresh", date: "2026-06-01", added: "2026-08-09" } }); // 旧 YouTube 视频,今天入库
+    const olderAdded = ep({ meta: { id: "older", date: "2026-08-08", added: "2026-08-08" } }); // 内容更新,但昨天入库
+    const md = renderList([olderAdded, freshTalk], o);
+    expect(md.indexOf("2026-08-09")).toBeLessThan(md.indexOf("2026-08-08"));
+    expect(md.indexOf('data-slug="fresh"')).toBeLessThan(md.indexOf('data-slug="older"'));
+  });
+
+  it("★ 缺 added 回落 meta.date(存量集没回填也不塌)", () => {
+    const md = renderList([ep({ meta: { id: "legacy", date: "2026-07-19", added: undefined } })], o);
+    expect(md).toContain('<div class="dateh">2026-07-19</div>');
+  });
+
+  it("★ added 是完整时间戳时只取前 10 位日期段分组", () => {
+    const md = renderList([ep({ meta: { id: "ts", date: "2026-06-01", added: "2026-08-09T14:30:00.000Z" } })], o);
+    expect(md).toContain('<div class="dateh">2026-08-09</div>');
+  });
+});
+
 describe("C13a 场景2 · 金句与嘉宾的呈现规格", () => {
   const md = renderList([ep()], opts);
   const card = cardOf(md, "2026-07-19-x-netflix");
