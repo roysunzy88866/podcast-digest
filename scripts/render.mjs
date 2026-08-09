@@ -103,7 +103,11 @@ export function renderRelatedEpisodes(related, cats = []) {
     const reasons = ["guests", "companies", "concepts"]
       .filter((k) => r.shared?.[k]?.length)
       .map((k) => `${DIM[k]}:${r.shared[k].map((x) => x.name).join("、")}`);
-    return `- [[${r.epId}|${r.epTitle}]] —— ${reasons.join(" · ")}`;
+    // C20:关联原因(US-7 P0 + 第22轮 🔒,逐字不删)由行内「—— 原因」改为包进 span 挂点,
+    //      CSS 把它收成标题下方一行小灰字(对齐设计稿 .ex 卡片;注释本意「小灰字」终落地)。
+    return reasons.length
+      ? `- [[${r.epId}|${r.epTitle}]]<span class="pd-rz">${reasons.join(" · ")}</span>`
+      : `- [[${r.epId}|${r.epTitle}]]`;
   };
   const main = (cats ?? []).filter((c) => c && c !== "未分类")[0] ?? null;
   const same = main ? related.filter((r) => (r.epCats ?? []).includes(main)) : [];
@@ -756,6 +760,99 @@ function renderFrontmatter(meta, digest, entities) {
 }
 
 /** meta + digest(+ entities)→ 集页 markdown(纯函数;gate-all 复用它做「重渲染比对」) */
+/**
+ * C19 · 正文按句分段(US-4/US-11):把过长的正文自然段按中文句末标点切成每 2-3 句一段,
+ * 更适合手机阅读。**只拆长段(>3 句),保留 GLM 已分好的短段**;分句时跳过 [[双链]] /
+ * `行内代码` / <标签>(含 pd-ts 回原文按钮 data-en 里的英文标点),绝不从中间截断;
+ * 标题 / 引用块(callout)/ 列表 / 表格 / HTML 块 / 代码围栏整段不动。
+ * 只重排段落边界、逐字不动 —— 防失真闸门对的是内容,分段不改一个字。
+ */
+export function segmentBody(md) {
+  return String(md)
+    .split(/\n{2,}/)
+    .map((blk) => {
+      const t = blk.trimStart();
+      // 非正文段(结构块:标题/引用/列表/有序列表/表格/HTML块/图片/代码围栏)原样返回
+      if (!t || /^(#{1,6}\s|>|[-*+]\s|\d+\.\s|\||<|!\[|```|~~~)/.test(t)) return blk;
+      const sents = splitSentences(blk);
+      if (sents.length <= 3) return blk; // 短段不动
+      return groupSentences(sents)
+        .map((g) => g.join(""))
+        .join("\n\n");
+    })
+    .join("\n\n");
+}
+
+// 全角句末 + 半角 !? ;半角句号 . 不算(英文缩写/小数/网址会误切)
+const SENT_END = "。！？…!?";
+
+/** 按句末标点切句,跳过 [[双链]]/`代码`/<标签>;句末紧跟的 pd-ts 按钮吸附进前一句。 */
+function splitSentences(text) {
+  const out = [];
+  let cur = "";
+  let i = 0;
+  const n = text.length;
+  while (i < n) {
+    const ch = text[i];
+    if (ch === "[" && text[i + 1] === "[") {
+      const e = text.indexOf("]]", i);
+      if (e >= 0) { cur += text.slice(i, e + 2); i = e + 2; continue; }
+    }
+    if (ch === "`") {
+      const e = text.indexOf("`", i + 1);
+      if (e >= 0) { cur += text.slice(i, e + 1); i = e + 1; continue; }
+    }
+    if (ch === "<") {
+      // pd-ts 等 button 的属性值(data-en 英文原话)可能含 `>`,必须用闭合标签整体跳过,
+      // 不能用 indexOf(">") 在属性内的 `>` 处提前截断(GLM 20260809-005[1] 加固)。
+      if (text.startsWith("<button", i)) {
+        const e = text.indexOf("</button>", i);
+        if (e >= 0) { cur += text.slice(i, e + 9); i = e + 9; continue; }
+      }
+      const e = text.indexOf(">", i);
+      if (e >= 0) { cur += text.slice(i, e + 1); i = e + 1; continue; }
+    }
+    cur += ch;
+    if (SENT_END.includes(ch)) {
+      i++;
+      // 句末标点后紧跟的空白 + <button pd-ts>(回原文按钮)吸附进当前句,不落到下一段开头
+      while (i < n) {
+        if (/\s/.test(text[i])) { cur += text[i]; i++; continue; }
+        if (text.startsWith("<button", i)) {
+          const e = text.indexOf("</button>", i);
+          if (e >= 0) { cur += text.slice(i, e + 9); i = e + 9; continue; }
+        }
+        break;
+      }
+      out.push(cur);
+      cur = "";
+      continue;
+    }
+    i++;
+  }
+  if (cur.trim()) out.push(cur);
+  return out;
+}
+
+/** 每 2-3 句一组,不留落单(末尾不足 min 并入上一组)。 */
+function groupSentences(sents, min = 2, max = 3) {
+  const groups = [];
+  let cur = [];
+  for (let k = 0; k < sents.length; k++) {
+    cur.push(sents[k]);
+    const remaining = sents.length - 1 - k;
+    if (cur.length >= max || (cur.length >= min && remaining >= min)) {
+      groups.push(cur);
+      cur = [];
+    }
+  }
+  if (cur.length) {
+    if (groups.length && cur.length < min) groups[groups.length - 1].push(...cur);
+    else groups.push(cur);
+  }
+  return groups;
+}
+
 export function renderEpisode(meta, digest, entities = null, related = null, transcript = null) {
   const dur = mmss(meta.duration_sec);
   const fm = renderFrontmatter(meta, digest, entities);
@@ -777,6 +874,8 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
   //    而补链已被教会跳过 HTML 标签内部,所以英文原话里的词不会被误链(linkSpans 第二条禁区)。
   digestMd = renderOrigRefs(digestMd, transcript, meta);
   const bodyMd = entities ? linkPrimaryEntities(digestMd, entities) : digestMd;
+  // C19:正文按句分段(长段拆成每 2-3 句更适合手机读;保护 pd-ts/双链/代码,逐字不动)
+  const bodySeg = segmentBody(bodyMd);
 
   const quoteBlocks = (digest.quotes || [])
     .map(
@@ -792,9 +891,8 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
     )
     .join("\n\n");
 
-  // C10:自由细标签降级为页底关键词(纯文本,不带 #,不进图谱/首页/标签页)
-  const keywords = (entities?.tags ?? (Array.isArray(digest.tags) ? digest.tags : [])).filter(Boolean);
-  const keywordsLine = keywords.length ? `\n*本集关键词:${keywords.join(" · ")}*\n` : "";
+  // C20(2026-08-09 用户拍板 drift #48):删「本集关键词」页底斜体行(改 C10 决策)——
+  // 与右栏「这一集涉及」概念标签重叠、设计稿本无此块;知识点仍在右栏 + 正文双链,不丢信息。
 
   const body = `
 ${renderTopBar(meta)}
@@ -811,12 +909,11 @@ ${top}
 
 ${renderTldr(digest)}
 
-${bodyMd.trim()}
+${bodySeg.trim()}
 
 ${secLabel("全部金句", `${(digest.quotes || []).length} 条(中英对照,已过机器闸门)`)}
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
-${keywordsLine}
 ${renderSidebarScript()}
 
 ${renderOrigScript()}

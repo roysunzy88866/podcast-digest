@@ -1314,9 +1314,12 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   font-weight: 700;
 }
 .pd-ex ul { margin: 0; padding: 0; list-style: none; }
-.pd-ex li { padding: 5px 0; font-size: 14px; line-height: 1.5; }
-.pd-ex li a { font-weight: 500; }
+.pd-ex li { padding: 6px 0; font-size: 14px; line-height: 1.5; }
+.pd-ex li a { display: block; font-weight: 500; }
 .pd-ex li a:hover { color: var(--pd-accent); }
+/* C20(用户拍板 drift #48):关联原因(US-7 + 第22轮 🔒,逐字保留)收成标题下方一行小灰字,
+   对齐设计稿 .ex 卡片(标题独占一行 + 原因小灰字),不再和标题挤同一行。 */
+.pd-ex li .pd-rz { display: block; margin-top: 2px; font-size: 12px; color: var(--B5); line-height: 1.4; }
 @media (max-width: 1023px) { .pd-exit { grid-template-columns: 1fr; } }
 
 /* 关系图谱搬到正文底部(ADR 0016:留一跳邻域,但不占右栏) */
