@@ -40,6 +40,9 @@
 
 | C17 | **Mac mini 订阅巡航**(2026-07-31 用户拍板「订阅驱动自动化,不靠口头点名」· ADR 0018):`patrol-talks.mjs`(4 频道发现:feed 优先、非 200 或零条自动切 /videos 页备胎;GLM 品味判官逐条留痕 `patrol-log.jsonl` 可人工纠偏;三层去重;自动 seed + pull-rebase-push 重试与崩溃自愈)+ `talk-subscriptions.json`(过滤规则全数据化)+ launchd plist + `docs/macmini-巡航安装.md`;云端 `autoTalks`(cron 见新种子自动进场殿后,无种子时与 C16 行为逐字一致) | US-4, US-11 | 🟡 代码全落 799 单测/verify-c5/plist/YAML 绿 + 变异四刀 + GLM 20260731-008 save;四频道发现真拉全通(实测 feed 端点还会 500,备胎条件已加宽)+ 判官 5 条烟测合口径;**待:push → Mac mini 照安装清单装机(gh auth/git 凭证=用户手动步)→ 首轮真巡航验收** |
 
+| C18 | **详情页净化+全站字体+顶栏吸顶**(2026-08-09 用户 AskUserQuestion 四拍板):全站正文字体统一系统栈(接 UI 字体片「同步做」全站)+ 全站彻底去知识图谱 + 整个去默认页脚(Created with Quartz/GitHub/Discord)+ 详情页顶栏(← 返回+分享)吸顶(改 C13f「不吸顶」仅限详情页)。纯 CSS(custom.scss)+ config(patch-site.mjs 加刀),deploy-site 独立通道,不碰 pipeline。Gherkin 见 user-stories C18 | US-1, US-2 | ⏳ |
+| C19 | **正文每2-3句自动分段**(2026-08-09 用户拍板,存量+新集全生效):render.mjs:779 后处理按句重切(保护 pd-ts 按钮/双链/行内代码,只拆长段不合并短段,不碰结构块),存量走云端 refresh=all 重刷(读缓存 digest_md 不重跑 GLM)。内容线,与并行 [1301] 有竞态,排 C18 后错开。Gherkin 见 user-stories C19 | US-4, US-11 | ⏳ |
+
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 
 **里程碑规矩(业务级 E2E)**:每个里程碑收口前,真跑一集完整流水线(真 RSS→真转写→真闸门→真发布),用户亲手点验收,不认 mock 绿。

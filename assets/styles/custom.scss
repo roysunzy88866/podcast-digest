@@ -880,6 +880,10 @@ body:has(.pd-play) {
     }
   }
   .left.sidebar { display: none; }
+  /* C18(2026-08-09 用户拍板):详情页顶栏吸顶 —— 向下滚动时「← 返回」与「分享/收藏」保持可见。
+     只详情页(此块 body:has(.pd-play) 内),首页/大类页顶栏仍 static(C13f 第八批「不吸顶」不变)。
+     吸顶后正文从其下穿过,原「靠留白分隔」失效 → 补一条 1px 分隔线找回边界感;z-index 抬到正文之上。 */
+  .pd-top { position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 0 var(--B2); }
   /* 设计稿第八批 #2「详情页顶部收拾干净」:只留标题 + 一条统一灰度 meta。
      框架页头(面包屑 + 又一遍标题 + 自动阅读时长)与 Properties 表都不在设计里。
      正文里那个 # 标题才是真标题,留着。 */
@@ -989,12 +993,14 @@ body:has(.pd-play) article a.internal {
    写死浅色的 #252525 深色模式下会瞎。
    ⚠️ `:not(blockquote p)` 不能省 —— 金句块(下面那条)自己是 17px/1.7,
    `article p` 会直接命中它里面的 p、把 17px 压成 16.5px。【背景】引用块同理。 */
-/* 正文字体走系统原生栈(用户 2026-08-08 规范):article 里的 markdown 正文本来继承 body 的
-   --bodyFont = Source Sans Pro(Google Fonts 西文,中文靠 fallback、不受控)→ 显式改回 --pd-font。
+/* 正文字体走系统原生栈(用户 2026-08-08 规范 + 2026-08-09「同步做」全站 · C18):article 里的
+   markdown 正文本来继承 body 的 --bodyFont = Source Sans Pro(Google Fonts 西文,中文靠 fallback、
+   不受控)→ 显式改回 --pd-font。**C18 去掉 body:has(.pd-play) 前缀 → 全站正文页(详情页+实体页+
+   人物页)正文字体统一系统栈**;下面 16.5px/1.95、justify 等是详情页阅读排版专属,仍留前缀不动。
    标题 h1/h2(--puhui)与金句 .qz(--puhui)各自有更高优先级规则,普惠体品牌字不受影响。 */
-body:has(.pd-play) article { font-family: var(--pd-font); }
+article { font-family: var(--pd-font); }
 /* article 整体改字体后,行内代码/代码块要恢复等宽(否则被 --pd-font 波及成非等宽;GLM 20260808-003[2])。 */
-body:has(.pd-play) article :is(code, pre, kbd, samp) { font-family: var(--codeFont); }
+article :is(code, pre, kbd, samp) { font-family: var(--codeFont); }
 body:has(.pd-play) article p:not(blockquote p) {
   font-size: 16.5px;
   line-height: 1.95;

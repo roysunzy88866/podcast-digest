@@ -1976,3 +1976,84 @@ Scenario: 词表缺失不阻断转写(fail-safe)
 2. ✅ whisperX args 条件注入 `--initial_prompt`(flag 名对 whisperX 官方源核实无误)。
 3. ✅ 单测 3 条(含卡过 Jensen 的真专名在词表、剔注释、缺文件 fail-safe);全量 822 绿。
 4. ⛔ 真转写效果待云端实跑验证:Jensen×LangChain 去账本重跑,看专名是否进稿、D17 是否过(债:landing 后触发)。
+
+---
+
+## C18 · 详情页净化 + 全站字体统一 + 顶栏吸顶(UI 线)
+
+> 2026-08-09 用户拍板(AskUserQuestion 四选):①全站正文字体统一走系统栈(接上次只改详情页,这次「同步做」全站)②全站彻底去掉知识图谱 ③整个默认页脚去掉 ④详情页顶栏(← 返回 + 分享/收藏)向下滚动时吸顶(改当年 C13f「顶栏不吸顶」的决定,仅限详情页)。**纯 CSS(assets/styles/custom.scss)+ config(scripts/patch-site.mjs 加刀),走 deploy-site 独立通道,不碰内容 pipeline** —— 与并行内容线零冲突。
+
+```gherkin
+Feature: 详情页净化 + 全站字体统一 + 顶栏吸顶(US-1, US-2)
+
+Scenario: 全站正文字体统一系统栈
+  Given 非详情页(实体页/人物页)正文原继承 Quartz --bodyFont=Source Sans Pro(西文,中文不受控)
+  When 把 custom.scss 的 article 字体规则去掉 body:has(.pd-play) 前缀改为全局 article
+  Then 全站所有正文页(详情页+实体页+人物页)正文都走 --pd-font 系统栈
+  And 标题/金句的普惠体、行内代码等宽不受影响
+
+Scenario: 全站彻底去掉知识图谱
+  Given Quartz graph 组件配在 quartz.config.yaml:150-154 挂全站右栏
+  When patch-site.mjs 加刀把 graph 插件 enabled 改 false(找不到锚点硬错)
+  Then 全站任何页面(桌面右栏 + 手机端)都不再出现节点关系图
+  And 正文双链与「关联」栏的知识关联不受影响
+
+Scenario: 整个默认页脚去掉
+  Given footer 组件含 Created with Quartz + GitHub/Discord 链接(quartz.config.yaml:214-219)
+  When patch-site.mjs 加刀把 footer 插件 enabled 改 false
+  Then 全站页面底部不再显示 Quartz 归属和外部链接
+  And 仓库 LICENSE 中的开源版权声明仍保留(MIT 许可合规)
+
+Scenario: 详情页顶栏向下滚动时吸顶
+  Given 详情页顶栏 .pd-top 原 position:static(C13f 第八批用户当时定的不吸顶),滚动即消失
+  When 只对详情页 body:has(.pd-play) .pd-top 设 position:sticky; top:0; z-index 抬高 + 背景不透明
+  Then 手机与桌面详情页向下滚动时,← 返回 和 分享/收藏 保持在顶部可见
+  And 首页/大类页/必读页等其它页顶栏行为不变(仍不吸顶)
+```
+
+### DoD(C18)
+1. custom.scss:article 字体规则去 body:has(.pd-play) 前缀(含 code 恢复那条)+ 详情页 .pd-top 加 sticky;patch-site.mjs 加两刀(graph/footer enabled:false,仿 bases-page 刀,锚点找不到硬错)。
+2. sass 编译干净 + 全量单测绿。
+3. 浏览器实测(375 宽 + 桌面):全站字体系统栈、全站无图谱、全站无页脚、详情页滚动顶栏吸顶且不遮正文;部署后线上 grep 真产物坐实。
+4. GLM 冷喂复核 + adjudicate。
+
+---
+
+## C19 · 正文每2-3句自动分段,存量+新集全生效(内容线)
+
+> 2026-08-09 用户拍板:正文段落太长不适合手机阅读,要「每隔 2-3 句分段」,且**已发布全部集也要立即生效**(选项 A)。实现层由我定=**render.mjs 后处理**(scripts/render.mjs:779 之后对 bodyMd 按句重切;项目自持脚本、持久、不受 site/ 重建影响,优于新写 Quartz 本地插件)。存量集靠云端 **refresh=all 重刷**(读缓存 digest_md,不重跑 GLM=不烧钱;有 C15 存量回刷先例)。**改 render.mjs 属内容线,与并行会话 [1301] 有竞态,排在 C18 之后并错开。**
+
+```gherkin
+Feature: 正文每2-3句自动分段,存量+新集全生效(US-4, US-11)
+
+Scenario: 长段按句重切成短段
+  Given GLM digest_md 某正文自然段含 5+ 句(中文句末标点 。!?…)
+  When render.mjs 生成 md 前对该段按句重切,每 2-3 句组一个自然段
+  Then 该段被拆成多个 2-3 句短段,更适合手机阅读
+
+Scenario: 尊重 GLM 已有的短段边界(只拆长不合并短)
+  Given 某段已是 1-2 句(GLM 语义已分好)
+  Then 该段保持不动,不与相邻段合并
+
+Scenario: 分段不破坏正文内嵌交互元素
+  Given 正文段落里嵌有 <button class="pd-ts"> 回原文按钮 / [[双链]] / 行内代码
+  When 按句重切
+  Then 这些元素随其所在句子完整保留,绝不被从中间截断
+
+Scenario: 只作用正文自然段,不动结构块
+  Given 标题(##)、引用块(>)、【背景】块、关联块([!info])、列表
+  Then 分段只作用于正文散文段,这些块结构一字不动
+
+Scenario: 存量集立即生效
+  Given 已发布 40+ 集
+  When 云端 refresh=all 重刷(读缓存 digest_md,不重跑 GLM)
+  Then 全部存量集重新生成 md 并分好段;新集经正常流水线也分好段
+```
+
+### DoD(C19)
+1. render.mjs 加「按句分段」纯函数(保护 pd-ts/双链/行内代码;只拆长段不合并短段;不碰结构块)+ 单测(长段拆/短段不动/元素不断/结构块不动)。
+2. 全量单测绿。
+3. 本地对样本集 dry-run 验证分段效果(不烧钱,不动线上)。
+4. GLM 冷喂复核 + adjudicate。
+5. 存量重刷云端跑(错开并行会话内容线,查 run 竞态后再触发)。
+6. 用户验收分段后手机阅读效果。

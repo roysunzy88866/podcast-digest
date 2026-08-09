@@ -59,6 +59,25 @@ patch(
   "关掉 bases-page 插件(C13a 首页改真卡片流,不再渲染 base 代码块)",
 );
 
+// ── C18 两刀(2026-08-09 用户 AskUserQuestion 拍板)──
+// ① 全站彻底去掉知识图谱(节点关系图):用户「全站彻底去掉」。知识关联仍靠正文双链 + 「关联」栏,不受影响。
+patch(
+  `  - source: github:quartz-community/graph
+    enabled: true`,
+  `  - source: github:quartz-community/graph
+    enabled: false`,
+  "关掉知识图谱 graph(C18 用户拍板全站去关系图)",
+);
+// ② 整个默认页脚去掉:用户「整个默认页脚去掉」——不再显示 Created with Quartz + GitHub/Discord 外链。
+//    MIT 许可允许(页面归属非强制,仓库 LICENSE 版权声明仍保留)。
+patch(
+  `  - source: github:quartz-community/footer
+    enabled: true`,
+  `  - source: github:quartz-community/footer
+    enabled: false`,
+  "关掉默认页脚 footer(C18 用户拍板去 Quartz 归属 + GitHub/Discord 外链)",
+);
+
 // ── C11 ④ 主题色:暖红亮暗双套(少数派暖调中性 + 红 accent)──
 patch(
   `      lightMode:
