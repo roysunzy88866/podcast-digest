@@ -120,6 +120,7 @@ tags:
 
 **换个口味**
 
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同公司:NVIDIA
 - [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:并行计算 (parallel)
 
 </div>

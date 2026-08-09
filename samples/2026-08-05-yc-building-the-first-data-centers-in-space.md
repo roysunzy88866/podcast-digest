@@ -110,6 +110,7 @@ tags:
 
 **换个口味**
 
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同公司:NVIDIA
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]] —— 同公司:Benchmark
 
 </div>

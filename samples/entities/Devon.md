@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Devon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Devon">DE</div><div class="pi"><h1 class="pt">Devon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Devon">DE</div><div class="pi"><h1 class="pt">Devon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(23:29起):本集把它描述为一款「智能体工程师」工具，目前已达到合格软件工程师的水平。Laurel 团队（包括非技术背景的 PM 和客户成功人员）都使用它来端到端地交付前端和后端代码功能。
+- **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(01:06起):Cognition 公司构建的 AI 软件工程师产品,其价值在于发现跨行业的各种厄运循环以及从中恢复的最佳方法。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jiaona Zhang]] · [[Akash]] · [[Laurel]] · [[GitHub]] · [[Slack]] · [[Dust]] · [[智能体]] · [[剧本]] · [[技能]] · [[本体]]
+[[智能体]] · [[Jiaona Zhang]] · [[Tane]] · [[Akash]] · [[Carter]] · [[Laurel]] · [[Walden]] · [[GitHub]] · [[模型路由]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Jiaona Zhang":1,"Akash":3,"Laurel":1,"GitHub":8,"Slack":13,"Dust":1,"智能体":61,"剧本":2,"技能":3,"本体":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":63,"Jiaona Zhang":1,"Tane":1,"Akash":3,"Carter":1,"Laurel":1,"Walden":1,"GitHub":8,"模型路由":1,"Slack":13}</script>
 
 <script>
 (function(){

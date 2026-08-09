@@ -93,7 +93,7 @@ tags:
 
 - [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]] —— 同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)、蒸馏 (distillation)
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]] —— 同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同概念:智能体 (agent)、蒸馏 (distillation)
 
 </div>
 </div>

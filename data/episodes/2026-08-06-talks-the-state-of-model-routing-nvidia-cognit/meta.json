@@ -1,0 +1,27 @@
+{
+  "id": "2026-08-06-talks-the-state-of-model-routing-nvidia-cognit",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/QHBjufYK8TA.m4a",
+  "duration_sec": 2882.436,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 487,
+  "asr": true,
+  "title_en": "The State of Model Routing — NVIDIA, Cognition, OpenRouter",
+  "podcast": "精选演讲",
+  "date": "2026-08-06",
+  "speaker_map": {
+    "SPEAKER_00": "Tane",
+    "SPEAKER_02": "Carter",
+    "SPEAKER_03": "Walden"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Tane",
+  "cohosts": [
+    "Carter",
+    "Walden"
+  ],
+  "title_zh": "不靠一个模型打天下:多模型路由的早期探索与实战权衡",
+  "guest_name": "Walden",
+  "guest_title": "Cognition 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

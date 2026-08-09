@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]]
+[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":61,"技能文件":1,"上下文工程":2,"公司大脑":1,"RAG":2,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":63,"技能文件":1,"上下文工程":2,"公司大脑":1,"RAG":2,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
 
 <script>
 (function(){

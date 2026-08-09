@@ -1,0 +1,129 @@
+{
+  "title_zh": "不靠一个模型打天下:多模型路由的早期探索与实战权衡",
+  "tldr": "几位实战派拆解模型路由:大模型当总指挥、小模型打配合,是降本增效的核心打法。",
+  "digest_md": "最顶尖的前沿大模型,其实比小模型更擅长把活儿派出去——你用一群便宜的小模型协同干活,算下来反而比单用大模型效果更好、成本更低。这正是目前 AI 应用落地里最炙手可热的技术方向:模型路由(一种根据任务和预算,把请求分发给不同大小、不同特长模型的调度机制)。\n\n这一集 NVIDIA 的小组讨论里,四位一线操盘手围坐拆解了这个话题:做 AI 软件工程师 Devon 的 Cognition 联合创始人 Walden,讲了他怎么用前沿大模型当\"监工\"、小模型当\"苦力\",把智能成本砍掉四成;OpenRouter 的 Alex 透露了路由器爆火的意外转折,以及大模型做外部编排还是小模型做编排的关键取舍;NVIDIA 的 Carter 和 Tanay 则从底层算力、模型蒸馏(把大模型的知识浓缩进小模型的技术)和模型互补性出发,补充了硬件和训练视角的洞察。你会听到一场非常前沿、充满踩坑经验的方法论碰撞。\n\n聊完了这四位的来头,先把目光聚焦在 Walden 刚发布的成果上。Cognition 做了一件反直觉的事:他们把 Fable 级别(前沿级别)模型的智能成本降低了 40% [04:34 Walden]。怎么做到的?不是硬去压缩模型,而是分摊任务。他们让昂贵的 Fable 模型只做规划和拍板这种\"高难度动作\",然后把具体的执行工作,委派给一个便宜得多的小型开源模型 [04:37 Walden]。\n\n为什么这招不仅没掉链子,反而更全面?反直觉的地方就在这里:便宜的小模型按 token(模型处理的基本计费和运作单位)算钱更便宜,所以你可以在同样的预算下,让小模型撒开了跑。比如,与其让大模型凭借有限的上下文去一条路摸到底,不如直接派生出三个子智能体去并行探索整个代码库,挖得反而更深 [05:01 Walden]。谭毅(Tanay)也把这套逻辑拉到了一个更本质的维度:模型的能力是\"参差不齐\"的 [05:48 Tanay]。编码本身就是一个大筐,里面装着数据可视化、模型构建等千差万别的细分活儿。一个在通用编码跑分上傲视群雄的模型,未必在某个具体的子任务上打得过专精的小模型。所以路由的本质,就是摸透每个模型在不同子任务上的脾气,然后把它们编排在一起套利 [06:42 Tanay]。\n\n方法论听起来很美,但真要让一群大小模型协同干活,第一个致命的坑就是上下文(模型思考所需的背景信息)爆炸。一旦多个模型一起上阵,最糟糕的情况就是读同一个文件、每个模型都要收一遍钱,成本瞬间翻三倍 [11:23 Walden]。Walden 他们花大力气解决的,就是默认情况下只把上下文喂给小模型。而那个处于监视地位的大模型,只需知道小模型读了什么、大概在想什么就行 [11:37 Walden]。这背后依赖的核心技术叫上下文压缩,也就是把一大堆冗长的历史记录,浓缩成模型能看懂的精华再传回去 [12:03 Walden]。谭毅从代码的底层结构补充了一个视角:压缩天然是有损的,但代码库本身就像硬盘,你可以让模型只记住关键表征,真要细节了再去文件系统里捞 [22:06 Tanay]。Alex 也点破了大家容易忽略的现实:别信那些号称百万上下文窗口的宣传,模型在超过 20 万 token 后,智能水平就会掉下悬崖 [32:16 Alex]。压缩更多时候不是为了省吞吐量,而是为了保住模型的智商。\n\n工具和编排逻辑有了,人该怎么把这套路由系统真正跑通?说完了技术机制,接下来是怎么把它做成产品。Alex 透露了一个极具时代特征的细节:OpenRouter 的自动路由器其实躺了快两年没人用。直到今年一月左右 OpenClaw 爆火,路由需求才迎来了拐点 [26:47 Alex]。为什么?因为这类智能体应用每 10 分钟就会发一次心跳去检测客户端是否存活,如果你把昂贵的 Opus 设为默认模型,光维持心跳就会烧掉一大笔冤枉钱 [27:14 Alex]。这就逼着系统必须学会:简单的维持指令交给最便宜的模型,复杂的高难度任务才交给前沿模型。\n\n这就引出了更深一层的架构辩论:到底谁来当这个系统的总指挥?是让大模型做编排,还是让小模型做编排?Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪明的模型当\"包装模型\"(在外层做总控)效果最好 [17:38 Alex]。Walden 则更进一步,为了省下昂贵的缓存命中成本,他们抛弃了传统的\"主智能体+子智能体\"结构,搞出了一个叫\"助手\"的机制。它是一个持续带着运行上下文的智能体,所有缓存的 token 成本能便宜 10 倍,大模型和小模型还能随时互换主次位置 [18:42 Walden]。除了来回切换,Cognition 甚至在用强化学习(通过奖励信号让模型自己试错学规律的方法)专门训练大模型如何更好地去委派任务,他们认为这是多模型编排下一步的巨大提升 [19:20 Walden]。\n\n那么,这种让模型来回路由、切换的成本边界到底在哪?谭毅和 Carter 从硬件底层补全了最后一块拼图。他们提到了 NVIDIA 的 FlexTron 技术:把一个大模型蒸馏出不同大小、不同占用空间的版本,然后根据当前任务的复杂度,在同一个模型构件里动态切换做解码的权重 [20:23 Tanay]。更关键的是,怎么判断一个任务是否超出了小模型的能力?谭毅抛出了一个很前沿的思路:现在有很多幻觉探测头和线性探针,可以直接读取模型内部状态的向量,以此评估模型是不是已经开始\"胡说八道\"或者迷失了方向 [38:28 Tanay],这比单纯看生成 token 的数量要准得多。同时,自托管模型和买 API 的经济学截然不同:买 API 是服务商在摊销所有人的使用情况给你定价,自托管则完全可以根据自己负载的形状,比如具体缓存多长、输入输出多少,做到极致优化并省下一大笔钱 [36:30 Tanay]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,多模型协同是降本增效的核心打法:让最贵的前沿模型只做规划和拍板,把高强度的探索和执行交给一群便宜的小模型去跑,算下来反而比单用大模型更全面、更便宜。第二,别被理论上百万的上下文窗口忽悠了,模型超载会变蠢,多模型协同的生死线就在于精细的上下文管理——压缩、只给关键信息、利用廉价的缓存 token 互换主次角色。第三,路由器本身正在从一个默默无闻的底层管道,变成智能体时代的刚需产品,未来的终极形态,不仅是靠外部规则硬性调度,而是要用强化学习专门训练模型学会怎么把活儿派给最合适的另一个模型。",
+  "quotes": [
+    {
+      "en": "I think actually there's this really unintuitive dynamic where smarter models actually get better and better at delegating work.",
+      "zh": "我认为实际上这是一种非常反直觉的动态,更智能的模型实际上在委派工作方面变得越来越擅长。",
+      "timestamp": "03:54",
+      "speaker": "Walden"
+    },
+    {
+      "en": "If you run terminal bench on Opus and Haiku, Opus will do about three times better at one-tenth the cost of Haiku, even though Haiku is significantly cheaper per token.",
+      "zh": "如果你在 Opus 和 Haiku 上运行 terminal bench,Opus 的表现会好大约三倍,成本却是 Haiku 的十分之一,尽管 Haiku 每个 token 的价格要便宜得多。",
+      "timestamp": "15:26",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "The intelligence just kind of falls off a cliff at some point.",
+      "zh": "智能在某个点就会从悬崖上掉下来。",
+      "timestamp": "32:23",
+      "speaker": "Walden"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I think actually there's this really unintuitive dynamic where smarter models actually get better and better at delegating work.",
+      "zh": "我认为实际上这是一种非常反直觉的动态,更智能的模型实际上在委派工作方面变得越来越擅长。",
+      "timestamp": "03:48",
+      "speaker": "Walden"
+    },
+    {
+      "en": "We're reducing the cost of Fable level intelligence by 40%.",
+      "zh": "我们将 Fable 级别智能的成本降低了 40%。",
+      "timestamp": "04:34",
+      "speaker": "Walden"
+    },
+    {
+      "en": "You can spin off three sub-agents to go and explore the code base, and maybe that's actually more comprehensive than if you had just let Fable explore the code base itself.",
+      "zh": "你可以派生出三个子智能体去探索代码库,这实际上可能比如果你只是让 Fable 自己探索代码库更全面。",
+      "timestamp": "05:01",
+      "speaker": "Walden"
+    },
+    {
+      "en": "I would also like to encourage everyone to think there are jagged capabilities in most models, right?",
+      "zh": "我还想鼓励大家思考,大多数模型都有参差不齐的能力,对吧?",
+      "timestamp": "05:48",
+      "speaker": "Tanay"
+    },
+    {
+      "en": "So routing is a task of intimately understanding the behavior and strengths and weaknesses of different models and then applying them thusly.",
+      "zh": "所以路由是一项需要深入了解不同模型的行为和优缺点的任务,然后据此应用它们。",
+      "timestamp": "06:42",
+      "speaker": "Tanay"
+    },
+    {
+      "en": "The challenge is, how do you get a small model to know that it's out of its depth and you need to now go switch to another model or go to a smarter model?",
+      "zh": "所以挑战在于,你如何让小模型知道它超出了它的深度,你现在需要去切换到另一个模型或者去一个更聪明的模型?",
+      "timestamp": "10:16",
+      "speaker": "Walden"
+    },
+    {
+      "en": "Our solution to this is you kind of just always have this main frontier agent that's watching, even if it's not the one doing the work.",
+      "zh": "我们对这个问题的解决方案是,你基本上总是有一个主要的边缘智能体在监视,即使它不是正在做工作的那个。",
+      "timestamp": "10:26",
+      "speaker": "Walden"
+    },
+    {
+      "en": "If you run terminal bench on Opus and Haiku, Opus will do about three times better at one-tenth the cost of Haiku, even though Haiku is significantly cheaper per token.",
+      "zh": "如果你在 Opus 和 Haiku 上运行 terminal bench,Opus 的表现会好大约三倍,成本却是 Haiku 的十分之一,尽管 Haiku 每个 token 的价格要便宜得多。",
+      "timestamp": "15:26",
+      "speaker": "Alex"
+    },
+    {
+      "en": "So being able to understand in-domain, out-of-domain is a lot of work that we're doing for open router fusion.",
+      "zh": "所以能够理解领域内、领域外是我们为 open router fusion 所做的很多工作。",
+      "timestamp": "16:04",
+      "speaker": "Alex"
+    },
+    {
+      "en": "I think the results that we published, which are a couple weeks ago, which were focused on deep research, not coding, we had the smart model be the wrapper model, be the outer model, and we got the best results from doing that.",
+      "zh": "我认为我们几周前发布的结果,重点是深度研究,而不是编码,我们让智能模型成为包装模型,成为外部模型,我们从中得到了最好的结果。",
+      "timestamp": "17:38",
+      "speaker": "Alex"
+    },
+    {
+      "en": "We use what we call a sidekick, which is one subagent that continually has a running context.",
+      "zh": "我们使用的是所谓的 sidekick,它是一个持续拥有运行上下文的 subagent。",
+      "timestamp": "18:42",
+      "speaker": "Walden"
+    },
+    {
+      "en": "Don't just take models as they are and orchestrate them, but can you actually co-design your models with the orchestration system?",
+      "zh": "不仅仅是按原样使用模型并协调它们,而是你可以真正与协调系统共同设计你的模型吗?",
+      "timestamp": "19:48",
+      "speaker": "Walden"
+    },
+    {
+      "en": "The reason it exploded is because there was this fundamental idiosyncrasy in OpenClaw where it sends heartbeats every 10 minutes to your model of choice just to see if the client was still active.",
+      "zh": "它爆发的原因是因为 OpenClaw 中有一个基本的特质,它每 10 分钟向你选择的模型发送一次心跳,只是为了看看客户端是否仍然活跃。",
+      "timestamp": "27:14",
+      "speaker": "Alex"
+    },
+    {
+      "en": "The intelligence just kind of falls off a cliff at some point.",
+      "zh": "智能在某个点就会从悬崖上掉下来。",
+      "timestamp": "32:23",
+      "speaker": "Alex"
+    },
+    {
+      "en": "When we started Cognition and we were working on the first agents, I think one reason why no one else worked on agents is they were just extremely expensive.",
+      "zh": "当我们开始 Cognition 并且我们在研究第一批智能体时,我认为没有人研究智能体的一个原因是它们非常昂贵。",
+      "timestamp": "36:46",
+      "speaker": "Walden"
+    },
+    {
+      "en": "I think it's very clear that new frontier models like the Fable models and GPT 5.5, 5.6 models are themselves naturally collaborative and better at delegation.",
+      "zh": "我认为很明显,像 Fable 模型和 GPT 5.5、5.6 模型这样的新前沿模型,本身自然是协作性的,并且更擅长委派。",
+      "timestamp": "44:17",
+      "speaker": "Walden"
+    },
+    {
+      "en": "There's not gonna be a thing as like a really great harness that is in absence of a really great model and vice versa.",
+      "zh": "不会有这样一件事,比如一个非常好的框架在没有一个非常好的模型的情况下存在,反之亦然。",
+      "timestamp": "45:03",
+      "speaker": "Alex"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title_zh": "AI 想给每个人定制 App,但云架构 25 年前就走错了路",
+  "tldr": "Cloudflare Workers 之父指出,想要实现每人一个专属 App 的 AI 未来,必须抛弃为单一版本设计的传统云架构。",
+  "digest_md": "如果每个人都想让 AI 给自己定制 App,今天整个云架构的底子都得掀掉——这是我们过去 25 年跑错方向的结果。说这话的人是 Kenton Varda,他造了 Cloudflare Workers [07:18 Kenton Varda]。\n\n他是 Cloudflare Workers 的创始人和首席工程师,这个无服务器应用托管平台每天处理数万亿个请求 [07:18 Kenton Varda]。这一集的演讲里,他讲了三件事:为什么 AI 时代必须让用户自己改软件、为什么现有云基础设施根本做不到、以及他为此做的一个把代码彻底关进「沙箱」(一种隔离环境,让程序跑不出自己的地盘)的探索项目。\n\n软件分发的痛点是他展开论述的起点。在传统的开发模式下,开发者高高在上地写好一个 App 发给所有人 [01:18 Kenton Varda]。用户不满足,就提需求;产品经理把需求扔进 JIRA(一款项目管理软件)里再也不管 [01:47 Kenton Varda]。就算排上日程去开发,为了满足各路用户的碎需求,代码里塞满了判断逻辑,最后变成一团乱麻,逼得开发者只能推倒重写 [02:09 Kenton Varda]。\n\nAI 的出现似乎给了条出路:开发者只管把干净的初版扔出来,用户缺啥功能,直接让自己的 AI 智能体现场写一个加进去 [03:34 Kenton Varda]。但这个想法一落地就撞上了两堵墙。第一堵是移动端的应用商店。Apple 和 Google 在过去 15 年里把系统管得死死的,封禁了绝大多数人,让你搞到一把枪都比给自己的手机装个未经签名的软件容易 [04:28 Kenton Varda]。唯一的出路是 Web,但这里横着第二堵墙——过去 25 年的云架构 [05:07 Kenton Varda]。\n\n说完了为什么移动端被封死,接下来就是为什么 Web 也出了问题。今天的 Web 应用都跑在开发者的服务器上,全世界的用户连过来,跑的都是同一个经过核准的版本 [05:25 Kenton Varda]。开发者是省心了,但这从根上剥夺了用户自己改软件的可能 [05:46 Kenton Varda]。市面上绝大多数 vibe coding(指用自然语言指挥 AI 随手写代码)平台瞄准的正是这种旧架构,所以方向全错了 [05:55 Kenton Varda]。\n\n既然旧路不通,他又是怎么做的呢?这就引出了他在 Workers 基础上做的探索项目。别把它当成又一个让 AI 部署网页应用的平台,它的逻辑更像 Google Docs 这样的办公套件 [08:46 Kenton Varda]。在 Google Docs 里你面对的是一个个文档,在这里你面对的是一个个「gadget」(小玩意)——每个小玩意就是一份自带代码的独立 App [09:11 Kenton Varda]。你可以自己动手 vibe coding,也可以从别人导出的「蓝图」(Blueprint)里直接复制代码实例化一个 [09:54 Kenton Varda]。\n\n这些小玩意最反直觉的地方,在于极度克制的实例化逻辑:你想要十份不同的幻灯片,就得实例化十个独立的小玩意,一个对应一份 [10:59 Kenton Varda]。这么做只有一个目的——确保每个小玩意都只为你当下的这件事服务,进而让平台能直接从底层接管分享和权限控制,彻底杜绝单个 App 自己犯安全错误 [11:13 Kenton Varda]。他自己在做演讲幻灯片时,就把需求扔给 Claude,让智能体去读懂代码,自己顺手把「居中」「插入 SVG(一种矢量图格式)」这些原本没有的功能给加上 [12:39 Kenton Varda]。\n\n功能让 AI 随便加,不怕出乱子吗?这正是整套架构最精妙的地方。每一个 App 的前端界面都跑在一个设置严格的内容安全策略的 iframe(网页中的隔离区块)沙箱里,它碰不到任何外部信息 [14:18 Kenton Varda];而它的后端代码则跑在服务器端隔离的动态 worker 沙箱里 [15:01 Kenton Varda]。前后端被彻底切断与外界的联系,只能在一个封闭通道里互相对话 [15:23 Kenton Varda]。\n\n说完了怎么做隔离,接下来是这套架构最硬核的底气:就算代码里满是安全漏洞,在它面前也根本不算事。因为这个环境里的代码根本没有任何秘密可偷,什么跨站脚本攻击在这种物理隔绝面前都是毫无意义的 [15:30 Kenton Varda]。他还顺带澄清了一个常见的误区:这一切都不需要启动庞大的容器,也不用配数据库,完全跑在 Cloudflare 的无服务器环境里 [16:35 Kenton Varda]。\n\n这套系统甚至不依赖云端服务器,它跑在开源的 WorkerD 运行时上,完全能在你自己的笔记本甚至地下室里离线运转 [16:53 Kenton Varda]。虽然 Kenton 在演讲结尾略带抱歉地表示,因为 Cloudflare 内部最近几周对这个项目燃起了极大的热情,CTO Dane 叫停了他原本打算当场开源的计划,决定更慎重地打磨发布 [17:50 Kenton Varda],但这套让用户彻底掌控自己软件的架构,已经勾勒出了 AI 时代应用该有的样子。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,AI 带来的真正颠覆不是代码写得多快,而是让每个用户都能拥有为自己量身定制的软件,但这套愿景和今天「开发者管服务器、所有人跑同一版本」的云架构水火不容。第二,想要真正安全地放手让 AI 现场改软件,唯一的出路是重写隔离规则,把每个独立实例的前后端都死死锁在无法与外界通信的沙箱里,这样代码里就算全是漏洞也漏不出任何东西。第三,未来的个人应用不该像一个个沉重的容器,而该像办公套件里的文档一样轻量,加上彻底的开源本地化,让算力和数据真正回到每个人的手里。",
+  "quotes": [
+    {
+      "en": "My key point is personal AI code gen breaks traditional cloud infrastructure.",
+      "zh": "我的核心观点是个人 AI 代码生成打破了传统的云基础设施。",
+      "timestamp": "00:37",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "And it's almost easier in the United States to buy a gun than it is to get access to your own phone to install unsigned software.",
+      "zh": "在美国,搞到一把枪几乎比获得你自己手机的访问权限以安装未签名的软件还要容易。",
+      "timestamp": "04:28",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "So you can build whatever you want on the web, but there's a different problem on the web, which is that for the past 25 years of cloud architecture, we've been running in the wrong direction.",
+      "zh": "所以你可以在网络上构建你想要的任何东西,但网络有一个不同的问题,那就是在过去的 25 年云架构中,我们一直在错误的方向上奔跑。",
+      "timestamp": "05:07",
+      "speaker": "Kenton Varda"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "My key point is personal AI code gen breaks traditional cloud infrastructure.",
+      "zh": "我的核心观点是个人 AI 代码生成打破了传统的云基础设施。",
+      "timestamp": "00:37",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "And it's almost easier in the United States to buy a gun than it is to get access to your own phone to install unsigned software.",
+      "zh": "在美国,搞到一把枪几乎比获得你自己手机的访问权限以安装未签名的软件还要容易。",
+      "timestamp": "04:28",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "So you can build whatever you want on the web, but there's a different problem on the web, which is that for the past 25 years of cloud architecture, we've been running in the wrong direction.",
+      "zh": "所以你可以在网络上构建你想要的任何东西,但网络有一个不同的问题,那就是在过去的 25 年云架构中,我们一直在错误的方向上奔跑。",
+      "timestamp": "05:07",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "You run it on your own server. Put it on your server and then users send requests to your server where the one version of your app, the one blessed version, runs for every single user.",
+      "zh": "你在你自己的服务器上运行它。把它放在你的服务器上,然后用户向你的服务器发送请求,在那里,你的应用程序的一个版本,那个经过核准的版本,为每一个用户运行。",
+      "timestamp": "05:25",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "And they're all targeting this existing infrastructure, which is actually not the right way to do it.",
+      "zh": "它们都针对这种现有的基础设施,这实际上不是做这件事的正确方式。",
+      "timestamp": "06:02",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "You open one, you edit it, you share it with people. This is the same thing, except instead of documents, you have gadgets.",
+      "zh": "你打开一个,你编辑它,你与人分享它。这是同一件事,除了不是文档,你有小玩意。",
+      "timestamp": "09:03",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "And the sharing model is implemented by the platform instead of by the app itself.",
+      "zh": "分享模型是由平台实现的,而不是由应用本身实现的。",
+      "timestamp": "11:13",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "if you need to add any new features to the Slides app itself to support some of these slides, feel free to do so.",
+      "zh": "如果你需要向幻灯片应用本身添加任何新功能来支持其中一些幻灯片,请随意做。",
+      "timestamp": "12:39",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "The only thing it can do is post message to the parent frame.",
+      "zh": "它唯一能做的就是向父 frame 发送消息。",
+      "timestamp": "14:35",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "So if you have an XSS bug, it actually doesn't end up mattering because these can't leak anything.",
+      "zh": "所以如果你有一个 XSS 漏洞,它实际上并不重要,因为这些无法泄露任何东西。",
+      "timestamp": "15:23",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "There are no containers involved here. There's just dynamic workers. There's no database involved.",
+      "zh": "这里不涉及容器。只有动态 workers。这里不涉及数据库。",
+      "timestamp": "16:35",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "The Cloudflare Workers runtime is open source. You can self-host it.",
+      "zh": "Cloudflare Workers 运行时是开源的。你可以自行托管它。",
+      "timestamp": "16:58",
+      "speaker": "Kenton Varda"
+    },
+    {
+      "en": "I don't think you should yeet this. I don't think this is yeet material.",
+      "zh": "我不认为你应该把这个 yeet 出去。我不认为这是适合 yeet 的材料。",
+      "timestamp": "17:57",
+      "speaker": "Kenton Varda"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(12:01起):开源的智能体框架，Every 公司曾试用但发现维护成本极高，Dan 发现需要时刻盯着的「个人智能体」走不通，最终转向了公司级的单一智能体模式。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(45:55起):本集把它说成:攻击面非常大的通用智能体/计算机使用环境。由于它会直接作为用户去操作,Gray Swan 专门为它开发了大量的刹车和护栏。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(31:56起):本集提到的一款需要自行购买硬件(如 Mac mini)并本地部署的开源个人智能体，嘉宾受其切身体验启发，决定把 Co-Founder 做成全云端运行并把短信作为第一交互入口。
+- **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(27:05起):一款爆火的智能体应用,它每10分钟向模型发一次心跳检测存活状态,这种奇特机制导致 OpenRouter 的自动路由器迎来了使用量的爆发式增长。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -27,12 +28,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念(提及)
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
@@ -41,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Codex]] · [[Lenny]] · [[CLI]] · [[Claire Vo]] · [[提示词注入]] · [[ChatGPT]] · [[上下文过载]] · [[Dan Shipper]]
 
-<script type="application/json" class="pd-epn">{"智能体":61,"Claude Code":16,"Codex":13,"Lenny":33,"CLI":2,"Claire Vo":2,"提示词注入":4,"ChatGPT":11,"上下文过载":1,"Dan Shipper":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":63,"Claude Code":16,"Codex":13,"Lenny":33,"CLI":2,"Claire Vo":2,"提示词注入":4,"ChatGPT":11,"上下文过载":1,"Dan Shipper":1}</script>
 
 <script>
 (function(){

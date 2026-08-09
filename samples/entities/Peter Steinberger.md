@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":61,"Codex":13,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":30,"OpenClaw":5,"循环":1,"Claude Code":16,"协作界面":1,"MCP":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":63,"Codex":13,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":30,"OpenClaw":6,"循环":1,"Claude Code":16,"协作界面":1,"MCP":5}</script>
 
 <script>
 (function(){

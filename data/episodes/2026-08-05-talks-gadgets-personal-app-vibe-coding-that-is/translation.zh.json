@@ -1,0 +1,1546 @@
+[
+ {
+  "seg": 0,
+  "start": 23.676,
+  "end": 24.737,
+  "speaker": "Unknown",
+  "en": "OK, hi.",
+  "zh": "好的,嗨。"
+ },
+ {
+  "seg": 1,
+  "start": 25.557,
+  "end": 29.24,
+  "speaker": "Unknown",
+  "en": "All right, I've got a lot to talk about, so I'm going to launch right into it here.",
+  "zh": "好了,我有很多要讲的内容,所以我这就直接开始了。"
+ },
+ {
+  "seg": 2,
+  "start": 29.96,
+  "end": 35.244,
+  "speaker": "Unknown",
+  "en": "So SWIX says that you only get to make one point at every talk, one key takeaway.",
+  "zh": "SWIX 说,你在每次演讲中只能讲一个点,一个关键要点。"
+ },
+ {
+  "seg": 3,
+  "start": 35.384,
+  "end": 37.425,
+  "speaker": "Unknown",
+  "en": "And so I figured I'd just lead with that.",
+  "zh": "所以我想我就以此开场。"
+ },
+ {
+  "seg": 4,
+  "start": 37.706,
+  "end": 42.869,
+  "speaker": "Unknown",
+  "en": "My key point is personal AI code gen breaks traditional cloud infrastructure.",
+  "zh": "我的核心观点是个人 AI 代码生成打破了传统的云基础设施。"
+ },
+ {
+  "seg": 5,
+  "start": 43.129,
+  "end": 48.953,
+  "speaker": "Unknown",
+  "en": "And to clarify what I mean about that, the word personal here is doing a lot of work.",
+  "zh": "为了澄清我的意思,这里的「个人」一词承担了大量工作。"
+ },
+ {
+  "seg": 6,
+  "start": 49.314,
+  "end": 51.275,
+  "speaker": "Unknown",
+  "en": "It's load-bearing, as Claude would say.",
+  "zh": "它是承重的,正如 Claude 会说的那样。"
+ },
+ {
+  "seg": 7,
+  "start": 53.075,
+  "end": 69.583,
+  "speaker": "Unknown",
+  "en": "My point is that if we want to see this future where everyone has personal apps and can personalize the apps that they run, the infrastructure we're using today for software in general is not the right thing and we need something completely different.",
+  "zh": "我的观点是,如果我们想要看到这样一个未来,每个人都拥有个人应用程序并且可以个性化他们运行的应用程序,那么我们今天通用的软件基础设施就不是正确的东西,我们需要完全不同的东西。"
+ },
+ {
+  "seg": 8,
+  "start": 69.683,
+  "end": 71.403,
+  "speaker": "Unknown",
+  "en": "So to explain what I mean.",
+  "zh": "所以为了解释我的意思。"
+ },
+ {
+  "seg": 9,
+  "start": 73.673,
+  "end": 78.257,
+  "speaker": "Unknown",
+  "en": "Think about the way that software is produced and distributed today.",
+  "zh": "思考一下软件今天的生产和分发方式。"
+ },
+ {
+  "seg": 10,
+  "start": 78.397,
+  "end": 87.785,
+  "speaker": "Unknown",
+  "en": "You have a developer in an ivory tower who builds an app and then sends it down to the people, the users who use the app.",
+  "zh": "你有一个身处象牙塔中的开发者构建了一个应用程序,然后把它发送给人们,使用该应用程序的用户。"
+ },
+ {
+  "seg": 11,
+  "start": 88.065,
+  "end": 90.888,
+  "speaker": "Unknown",
+  "en": "And many of them are happy with it, but some of them are not.",
+  "zh": "他们中的许多人对此很满意,但有些人不满意。"
+ },
+ {
+  "seg": 12,
+  "start": 91.628,
+  "end": 96.813,
+  "speaker": "Unknown",
+  "en": "Some of them say, this app needs some additional features for my use case.",
+  "zh": "有些人说,这个应用程序需要针对我的用例增加一些额外功能。"
+ },
+ {
+  "seg": 13,
+  "start": 97.314,
+  "end": 103.239,
+  "speaker": "Unknown",
+  "en": "And so they go to the developer and they say, oh, great developer, will you please grant my feature request?",
+  "zh": "于是他们去找开发者并说,哦,伟大的开发者,请你批准我的功能请求好吗?"
+ },
+ {
+  "seg": 14,
+  "start": 103.56,
+  "end": 107.083,
+  "speaker": "Unknown",
+  "en": "Your app is literally unusable without it.",
+  "zh": "没有它你的应用程序简直无法使用。"
+ },
+ {
+  "seg": 15,
+  "start": 107.103,
+  "end": 115.651,
+  "speaker": "Unknown",
+  "en": "And so then the developer's representative, the product manager, takes these feature requests and files them into JIRA where they are never seen again.",
+  "zh": "然后开发者的代表,产品经理,接收这些功能请求并将它们归档到 JIRA 中,从此它们就再也没人看过了。"
+ },
+ {
+  "seg": 16,
+  "start": 117.666,
+  "end": 122.81,
+  "speaker": "Unknown",
+  "en": "But sometimes, sometimes the product manager sees the feature request and says, ah, you know, I want that too.",
+  "zh": "但有时,有时产品经理看到了功能请求并说,啊,你知道,我也想要那个。"
+ },
+ {
+  "seg": 17,
+  "start": 123.03,
+  "end": 129.115,
+  "speaker": "Unknown",
+  "en": "And then that feature request goes onto the roadmap and the developer works on it.",
+  "zh": "然后那个功能请求就进入了路线图,开发者开始着手处理它。"
+ },
+ {
+  "seg": 18,
+  "start": 129.635,
+  "end": 136.981,
+  "speaker": "Unknown",
+  "en": "And the developer is implementing all these features, features that, you know, each one is only used by a small subset of users.",
+  "zh": "开发者正在实现所有这些功能,这些功能,你知道,每一个都只被一小部分用户使用。"
+ },
+ {
+  "seg": 19,
+  "start": 137.661,
+  "end": 141.803,
+  "speaker": "Unknown",
+  "en": "And each one is adding all these if statements, their code, and making things messy.",
+  "zh": "每一个都在代码中添加了所有的这些 if 语句,使事情变得混乱。"
+ },
+ {
+  "seg": 20,
+  "start": 142.204,
+  "end": 145.385,
+  "speaker": "Unknown",
+  "en": "And they don't like it because the code base is becoming a mess.",
+  "zh": "他们不喜欢这样,因为代码库变得一团糟。"
+ },
+ {
+  "seg": 21,
+  "start": 145.406,
+  "end": 147.747,
+  "speaker": "Unknown",
+  "en": "And each of these features are really kind of boring to implement.",
+  "zh": "这些功能中的每一个实现起来都真的很无聊。"
+ },
+ {
+  "seg": 22,
+  "start": 148.347,
+  "end": 151.629,
+  "speaker": "Unknown",
+  "en": "And the developer says, ah, I know what I need to do.",
+  "zh": "开发者说,啊,我知道我需要做什么。"
+ },
+ {
+  "seg": 23,
+  "start": 152.91,
+  "end": 154.07,
+  "speaker": "Unknown",
+  "en": "We need a rewrite.",
+  "zh": "我们需要一次重写。"
+ },
+ {
+  "seg": 24,
+  "start": 155.411,
+  "end": 159.694,
+  "speaker": "Unknown",
+  "en": "We need a new architecture that has a plugin system.",
+  "zh": "我们需要一个新的具有插件系统的架构。"
+ },
+ {
+  "seg": 25,
+  "start": 160.606,
+  "end": 167.89,
+  "speaker": "Unknown",
+  "en": "And then every one of these features can be a plugin and it can be nice and clean and easy to build and the core can stay clean.",
+  "zh": "然后这些功能中的每一个都可以是一个插件,它可以变得整洁、干净且易于构建,核心也能保持整洁。"
+ },
+ {
+  "seg": 26,
+  "start": 168.49,
+  "end": 173.433,
+  "speaker": "Unknown",
+  "en": "And so the developer goes off and starts working on the new architecture with the plugin system.",
+  "zh": "所以开发者离开并开始研究带有插件系统的新架构。"
+ },
+ {
+  "seg": 27,
+  "start": 173.793,
+  "end": 176.955,
+  "speaker": "Unknown",
+  "en": "And there are still feature requests coming in.",
+  "zh": "功能请求仍然源源不断。"
+ },
+ {
+  "seg": 28,
+  "start": 177.355,
+  "end": 183.178,
+  "speaker": "Unknown",
+  "en": "And the developer says, well, we can't do those features yet because we need the plugin system.",
+  "zh": "开发者说,嗯,我们还不能做这些功能,因为我们需要插件系统。"
+ },
+ {
+  "seg": 29,
+  "start": 183.198,
+  "end": 185.699,
+  "speaker": "Unknown",
+  "en": "This will be so much easier once we have the plugin system.",
+  "zh": "一旦我们有了插件系统,这就容易多了。"
+ },
+ {
+  "seg": 30,
+  "start": 186.24,
+  "end": 189.582,
+  "speaker": "Unknown",
+  "en": "And if we do it now, we're just delaying that and we'll just have to redo it later anyway.",
+  "zh": "如果我们现在做,只是在推迟这件事,而且反正以后我们也得重做一遍。"
+ },
+ {
+  "seg": 31,
+  "start": 192.323,
+  "end": 201.869,
+  "speaker": "Unknown",
+  "en": "The years go by, and the new architecture is not ready yet, and none of the features are being implemented, and people are saying, what are they doing?",
+  "zh": "几年过去了,新架构还没准备好,没有任何功能被实现,人们都在说,他们在做什么?"
+ },
+ {
+  "seg": 32,
+  "start": 201.929,
+  "end": 206.011,
+  "speaker": "Unknown",
+  "en": "This developer has given up their product, and everybody is sad.",
+  "zh": "这个开发者已经放弃了他们的产品,每个人都很伤心。"
+ },
+ {
+  "seg": 33,
+  "start": 207.532,
+  "end": 213.695,
+  "speaker": "Unknown",
+  "en": "So, AI seems to present a new alternative to this.",
+  "zh": "所以,AI 似乎为此提供了一个新的替代方案。"
+ },
+ {
+  "seg": 34,
+  "start": 214.536,
+  "end": 217.578,
+  "speaker": "Unknown",
+  "en": "What if the developer could",
+  "zh": "如果开发者能够"
+ },
+ {
+  "seg": 35,
+  "start": 218.653,
+  "end": 231.303,
+  "speaker": "Unknown",
+  "en": "Create their app, the first version of their app, give it to the users, and the users, if they need a new feature, could say, I could ask their AI agent to write that feature just for them, add it to the app.",
+  "zh": "创建他们的应用程序,应用程序的第一个版本,把它交给用户,如果用户需要新功能,可以说,我可以让他们的 AI 智能体专门为他们编写那个功能,将其添加到应用程序中。"
+ },
+ {
+  "seg": 36,
+  "start": 232.103,
+  "end": 241.611,
+  "speaker": "Unknown",
+  "en": "Then everyone gets the features they need, no one is bogged down in everyone else's features, and the developer gets to keep the core app nice and clean and beautiful.",
+  "zh": "这样每个人都得到了他们需要的功能,没有人被其他人的功能拖累,开发者也能保持核心应用程序的整洁、干净和美观。"
+ },
+ {
+  "seg": 37,
+  "start": 243.324,
+  "end": 253.271,
+  "speaker": "Unknown",
+  "en": "But there's a problem with this, which is that none of the infrastructure we build software on today is remotely designed for this.",
+  "zh": "但这有一个问题,那就是我们今天构建软件所用的基础设施都不是为此设计的。"
+ },
+ {
+  "seg": 38,
+  "start": 253.911,
+  "end": 267.38,
+  "speaker": "Unknown",
+  "en": "You've got Apple and Google for the past 15 years gatekeeping their systems to the point where there's five companies that can build mobile apps now because everyone else has been banned.",
+  "zh": "你看看 Apple 和 Google,在过去 15 年里严防死守他们的系统,以至于现在只有五家公司能构建移动应用程序,因为其他人都被封禁了。"
+ },
+ {
+  "seg": 39,
+  "start": 268.521,
+  "end": 276.306,
+  "speaker": "Unknown",
+  "en": "And it's almost easier in the United States to buy a gun than it is to get access to your own phone to install unsigned software.",
+  "zh": "在美国,搞到一把枪几乎比获得你自己手机的访问权限以安装未签名的软件还要容易。"
+ },
+ {
+  "seg": 40,
+  "start": 276.346,
+  "end": 278.908,
+  "speaker": "Unknown",
+  "en": "You go to Google and you say, I want to install unsigned software.",
+  "zh": "你去找 Google 并说,我想安装未签名的软件。"
+ },
+ {
+  "seg": 41,
+  "start": 278.928,
+  "end": 281.81,
+  "speaker": "Unknown",
+  "en": "And now they're going to say, oh, whoa, hold on, buddy.",
+  "zh": "然后他们会说,哦,哇,等一下,伙计。"
+ },
+ {
+  "seg": 42,
+  "start": 283.17,
+  "end": 284.291,
+  "speaker": "Unknown",
+  "en": "You seem upset.",
+  "zh": "你看起来很激动。"
+ },
+ {
+  "seg": 43,
+  "start": 284.391,
+  "end": 286.833,
+  "speaker": "Unknown",
+  "en": "You should go home and think about this.",
+  "zh": "你应该回家先冷静一下。"
+ },
+ {
+  "seg": 44,
+  "start": 287.213,
+  "end": 291.676,
+  "speaker": "Unknown",
+  "en": "If you still want that unsigned software in 24 hours, then you can come back and talk to us.",
+  "zh": "如果你在 24 小时后仍然想要那个未签名的软件,那你再回来找我们谈。"
+ },
+ {
+  "seg": 45,
+  "start": 294.978,
+  "end": 298.02,
+  "speaker": "Unknown",
+  "en": "Fortunately, we have a workaround for all of that, which is the web.",
+  "zh": "幸运的是,我们针对所有这一切有一个变通方法,那就是网络。"
+ },
+ {
+  "seg": 46,
+  "start": 298.74,
+  "end": 302.822,
+  "speaker": "Unknown",
+  "en": "On the web, everyone can build whatever they want, and it turns out it's fine.",
+  "zh": "在网络上,每个人都可以构建他们想要的任何东西,结果证明这没问题。"
+ },
+ {
+  "seg": 47,
+  "start": 302.882,
+  "end": 306.744,
+  "speaker": "Unknown",
+  "en": "It's not the security disaster that Apple and Google keep telling us would happen.",
+  "zh": "这并没有发生 Apple 和 Google 一直告诉我们会发生的那些安全灾难。"
+ },
+ {
+  "seg": 48,
+  "start": 307.604,
+  "end": 320.151,
+  "speaker": "Unknown",
+  "en": "So you can build whatever you want on the web, but there's a different problem on the web, which is that for the past 25 years of cloud architecture, we've been running in the wrong direction.",
+  "zh": "所以你可以在网络上构建你想要的任何东西,但网络有一个不同的问题,那就是在过去的 25 年云架构中,我们一直在错误的方向上奔跑。"
+ },
+ {
+  "seg": 49,
+  "start": 322.912,
+  "end": 324.333,
+  "speaker": "Unknown",
+  "en": "When you distribute a web app,",
+  "zh": "当你分发一个网络应用程序时,"
+ },
+ {
+  "seg": 50,
+  "start": 325.599,
+  "end": 327.1,
+  "speaker": "Unknown",
+  "en": "You run it on your own server.",
+  "zh": "你在你自己的服务器上运行它。"
+ },
+ {
+  "seg": 51,
+  "start": 328.28,
+  "end": 338.245,
+  "speaker": "Unknown",
+  "en": "Put it on your server and then users send requests to your server where the one version of your app, the one blessed version, runs for every single user.",
+  "zh": "把它放在你的服务器上,然后用户向你的服务器发送请求,在那里,你的应用程序的一个版本,那个经过核准的版本,为每一个用户运行。"
+ },
+ {
+  "seg": 52,
+  "start": 339.165,
+  "end": 341.866,
+  "speaker": "Unknown",
+  "en": "And so that's convenient for developers.",
+  "zh": "所以这对开发者来说很方便。"
+ },
+ {
+  "seg": 53,
+  "start": 341.886,
+  "end": 346.208,
+  "speaker": "Unknown",
+  "en": "That's why we've done it is so the developer can make sure things stay updated and everyone's on the same version.",
+  "zh": "这就是我们这样做的原因,以便开发者可以确保事物保持更新,并且每个人都在同一个版本上。"
+ },
+ {
+  "seg": 54,
+  "start": 346.288,
+  "end": 351.731,
+  "speaker": "Unknown",
+  "en": "But it obviously means that users cannot customize their apps.",
+  "zh": "但这显然意味着用户无法定制他们的应用程序。"
+ },
+ {
+  "seg": 55,
+  "start": 353.932,
+  "end": 354.192,
+  "speaker": "Unknown",
+  "en": "So...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 56,
+  "start": 355.992,
+  "end": 373.561,
+  "speaker": "Unknown",
+  "en": "You know, last year, vibe coding comes along, and we have all these vibe coding platforms out there, and most of them are targeting web apps because that's the easy thing to target, but they're all targeting this existing infrastructure, which is actually not the right way to do it.",
+  "zh": "你知道,去年,vibe coding 出现了,我们那里有所有这些 vibe coding 平台,其中大多数都针对 Web 应用程序,因为那是很容易针对的目标,但它们都针对这种现有的基础设施,这实际上不是做这件事的正确方式。"
+ },
+ {
+  "seg": 57,
+  "start": 376.042,
+  "end": 380.464,
+  "speaker": "Unknown",
+  "en": "We need something entirely different, and hence my point.",
+  "zh": "我们需要一些完全不同的东西,因此我有这个观点。"
+ },
+ {
+  "seg": 58,
+  "start": 381.985,
+  "end": 384.366,
+  "speaker": "Unknown",
+  "en": "Do you like how the word breaks kind of wiggles every now and then?",
+  "zh": "你喜欢单词换行时不时摆动的方式吗?"
+ },
+ {
+  "seg": 59,
+  "start": 385.678,
+  "end": 390.921,
+  "speaker": "Unknown",
+  "en": "That was something Claude put in there, and it was so stupid, I just had to keep it.",
+  "zh": "那是 Claude 放在那里的东西,太愚蠢了,我只好保留它。"
+ },
+ {
+  "seg": 60,
+  "start": 393.342,
+  "end": 408.269,
+  "speaker": "Unknown",
+  "en": "I want to know where in Claude's training data it learned that you could make words wiggle to give them emphasis, because I understand the red, I understand the underline, but the wiggle, I don't think that's from humans.",
+  "zh": "我想知道在 Claude 的训练数据中的哪里,它学会了你可以让单词摆动来强调它们,因为我理解红色,我理解下划线,但是摆动,我不认为那是来自人类的。"
+ },
+ {
+  "seg": 61,
+  "start": 408.729,
+  "end": 409.99,
+  "speaker": "Unknown",
+  "en": "I think that's an AI original.",
+  "zh": "我认为那是 AI 的原创。"
+ },
+ {
+  "seg": 62,
+  "start": 413.574,
+  "end": 414.675,
+  "speaker": "Unknown",
+  "en": "This is ASI, folks.",
+  "zh": "这是 ASI,各位。"
+ },
+ {
+  "seg": 63,
+  "start": 414.775,
+  "end": 419.277,
+  "speaker": "Unknown",
+  "en": "It's beyond my puny human brain's ability to comprehend.",
+  "zh": "这超出了我微小的人类大脑的理解能力。"
+ },
+ {
+  "seg": 64,
+  "start": 421.418,
+  "end": 436.885,
+  "speaker": "Unknown",
+  "en": "Anyway, so you might be wondering at this point, who is this guy who hasn't introduced himself up on stage giving a Richard Stallman-esque rant about how we should have the freedom to modify our own software, and what does he know about cloud infrastructure?",
+  "zh": "无论如何,所以你此时可能在想,这个还没有自我介绍就在舞台上发表像 Richard Stallman 风格的关于我们应该有修改自己软件的自由的咆哮的人是谁,他对云基础设施了解多少?"
+ },
+ {
+  "seg": 65,
+  "start": 438.205,
+  "end": 439.026,
+  "speaker": "Unknown",
+  "en": "I'm Kenton Varda.",
+  "zh": "我是 Kenton Varda。"
+ },
+ {
+  "seg": 66,
+  "start": 439.626,
+  "end": 441.468,
+  "speaker": "Unknown",
+  "en": "I created Cloudflare Workers.",
+  "zh": "我创建了 Cloudflare Workers。"
+ },
+ {
+  "seg": 67,
+  "start": 441.708,
+  "end": 445.472,
+  "speaker": "Unknown",
+  "en": "I started the project back in 2017 when I joined Cloudflare.",
+  "zh": "我在 2017 年加入 Cloudflare 时启动了这个项目。"
+ },
+ {
+  "seg": 68,
+  "start": 445.732,
+  "end": 447.253,
+  "speaker": "Unknown",
+  "en": "I am still the lead engineer today.",
+  "zh": "我今天仍然是首席工程师。"
+ },
+ {
+  "seg": 69,
+  "start": 448.494,
+  "end": 452.458,
+  "speaker": "Unknown",
+  "en": "It now is a serverless application hosting platform.",
+  "zh": "它现在是一个无服务器应用程序托管平台。"
+ },
+ {
+  "seg": 70,
+  "start": 452.478,
+  "end": 453.799,
+  "speaker": "Unknown",
+  "en": "We have millions of developers.",
+  "zh": "我们有数百万开发者。"
+ },
+ {
+  "seg": 71,
+  "start": 453.819,
+  "end": 455.261,
+  "speaker": "Unknown",
+  "en": "We serve trillions of requests per day.",
+  "zh": "我们每天服务数万亿个请求。"
+ },
+ {
+  "seg": 72,
+  "start": 456.502,
+  "end": 463.688,
+  "speaker": "Unknown",
+  "en": "But what I'm going to talk to you a little bit about today is sort of a side project I've been working on on top of Workers, which is",
+  "zh": "但我今天要稍微谈谈的是我一直在 Workers 之上做的一个副项目,也就是"
+ },
+ {
+  "seg": 73,
+  "start": 466.501,
+  "end": 470.506,
+  "speaker": "Unknown",
+  "en": "It's my exploration in how to solve this problem.",
+  "zh": "这是我对如何解决这个问题的探索。"
+ },
+ {
+  "seg": 74,
+  "start": 472.148,
+  "end": 477.756,
+  "speaker": "Unknown",
+  "en": "So this thing you're looking at right now is actually a little app that I created in this platform.",
+  "zh": "所以你现在看到的这个小东西实际上是我在这个平台上创建的一个小应用程序。"
+ },
+ {
+  "seg": 75,
+  "start": 478.517,
+  "end": 483.063,
+  "speaker": "Unknown",
+  "en": "But going to the front page here,",
+  "zh": "但来到首页这里,"
+ },
+ {
+  "seg": 76,
+  "start": 484.379,
+  "end": 487.842,
+  "speaker": "Unknown",
+  "en": "So you have your vibe code prompt.",
+  "zh": "所以你有你的 vibe code 提示词。"
+ },
+ {
+  "seg": 77,
+  "start": 487.882,
+  "end": 489.042,
+  "speaker": "Unknown",
+  "en": "These things are a dime a dozen.",
+  "zh": "这些东西多得很。"
+ },
+ {
+  "seg": 78,
+  "start": 489.062,
+  "end": 493.205,
+  "speaker": "Unknown",
+  "en": "You've all seen this before, but I'm just going to put in a little prompt to show that it works.",
+  "zh": "你们以前都见过这个,但我只是要输入一个小提示词来展示它是有效的。"
+ },
+ {
+  "seg": 79,
+  "start": 494.366,
+  "end": 496.828,
+  "speaker": "Unknown",
+  "en": "Make a silly counter app.",
+  "zh": "制作一个愚蠢的计数器应用程序。"
+ },
+ {
+  "seg": 80,
+  "start": 497.808,
+  "end": 498.949,
+  "speaker": "Unknown",
+  "en": "Silly max it.",
+  "zh": "Silly max 它。"
+ },
+ {
+  "seg": 81,
+  "start": 501.471,
+  "end": 501.911,
+  "speaker": "Unknown",
+  "en": "Silly.",
+  "zh": "Silly."
+ },
+ {
+  "seg": 82,
+  "start": 503.012,
+  "end": 503.272,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 83,
+  "start": 503.592,
+  "end": 505.254,
+  "speaker": "Unknown",
+  "en": "But I'm not actually going to sit here and watch it.",
+  "zh": "但我不会真的坐在这里看它。"
+ },
+ {
+  "seg": 84,
+  "start": 505.514,
+  "end": 506.755,
+  "speaker": "Unknown",
+  "en": "Oh, no, it said error.",
+  "zh": "哦,不,它说错误。"
+ },
+ {
+  "seg": 85,
+  "start": 509.145,
+  "end": 511.126,
+  "speaker": "Unknown",
+  "en": "Yep, the internet doesn't work.",
+  "zh": "是的,网络不工作。"
+ },
+ {
+  "seg": 86,
+  "start": 511.367,
+  "end": 514.389,
+  "speaker": "Unknown",
+  "en": "That's OK. That's not the most important part of my talk.",
+  "zh": "没关系。那不是我演讲中最重要的部分。"
+ },
+ {
+  "seg": 87,
+  "start": 520.013,
+  "end": 523.315,
+  "speaker": "Unknown",
+  "en": "So what I want you to understand about this environment",
+  "zh": "所以我希望你理解关于这个环境"
+ },
+ {
+  "seg": 88,
+  "start": 526.523,
+  "end": 532.907,
+  "speaker": "Unknown",
+  "en": "This is not like your typical vibe coding environment where you're deploying apps to a web page.",
+  "zh": "这不像你典型的 vibe coding 环境,你在那里将应用程序部署到网页。"
+ },
+ {
+  "seg": 89,
+  "start": 534.928,
+  "end": 538.431,
+  "speaker": "Unknown",
+  "en": "You need to think about it more like an office suite.",
+  "zh": "你需要更多地把它想象成一个办公套件。"
+ },
+ {
+  "seg": 90,
+  "start": 538.451,
+  "end": 539.492,
+  "speaker": "Unknown",
+  "en": "So think about Google Docs.",
+  "zh": "想象一下 Google Docs。"
+ },
+ {
+  "seg": 91,
+  "start": 539.712,
+  "end": 543.514,
+  "speaker": "Unknown",
+  "en": "You open Google Docs, you have a bunch of documents, hundreds, maybe thousands of documents.",
+  "zh": "你打开 Google Docs,你有一堆文档,数百个,也许数千个文档。"
+ },
+ {
+  "seg": 92,
+  "start": 543.654,
+  "end": 546.917,
+  "speaker": "Unknown",
+  "en": "You open one, you edit it, you share it with people.",
+  "zh": "你打开一个,你编辑它,你与人分享它。"
+ },
+ {
+  "seg": 93,
+  "start": 547.657,
+  "end": 551.099,
+  "speaker": "Unknown",
+  "en": "This is the same thing, except instead of documents, you have gadgets.",
+  "zh": "这是同一件事,除了不是文档,你有小玩意。"
+ },
+ {
+  "seg": 94,
+  "start": 551.639,
+  "end": 554.301,
+  "speaker": "Unknown",
+  "en": "And each gadget is an application with code.",
+  "zh": "每个小玩意都是一个带有代码的应用程序。"
+ },
+ {
+  "seg": 95,
+  "start": 554.341,
+  "end": 555.582,
+  "speaker": "Unknown",
+  "en": "They can all be different code.",
+  "zh": "它们都可以是不同的代码。"
+ },
+ {
+  "seg": 96,
+  "start": 555.742,
+  "end": 556.162,
+  "speaker": "Unknown",
+  "en": "I have...",
+  "zh": "我有……"
+ },
+ {
+  "seg": 97,
+  "start": 558.201,
+  "end": 562.082,
+  "speaker": "Unknown",
+  "en": "I have an app here which is like a collaborative whiteboard app.",
+  "zh": "我这里有一个应用程序,它就像一个协作白板应用程序。"
+ },
+ {
+  "seg": 98,
+  "start": 562.122,
+  "end": 563.302,
+  "speaker": "Unknown",
+  "en": "This is a one-shot prompt.",
+  "zh": "这是一个单次提示词。"
+ },
+ {
+  "seg": 99,
+  "start": 564.643,
+  "end": 569.304,
+  "speaker": "Unknown",
+  "en": "I have an app here which, so I get a lot of email in Spanish.",
+  "zh": "我这里有一个应用程序,所以我收到很多西班牙语的电子邮件。"
+ },
+ {
+  "seg": 100,
+  "start": 569.364,
+  "end": 570.144,
+  "speaker": "Unknown",
+  "en": "It's a long story.",
+  "zh": "这说来话长。"
+ },
+ {
+  "seg": 101,
+  "start": 570.204,
+  "end": 577.566,
+  "speaker": "Unknown",
+  "en": "I don't know Spanish, but I need help filtering all the Spanish emails, so I made a little app to help me do that, a gadget.",
+  "zh": "我不懂西班牙语，但我需要帮助过滤所有西班牙语邮件，所以我做了一个小程序来帮我做到这一点，一个小工具。"
+ },
+ {
+  "seg": 102,
+  "start": 577.626,
+  "end": 583.447,
+  "speaker": "Unknown",
+  "en": "I have a gadget to help me sort pull requests that I need to review on GitHub.",
+  "zh": "我有一个小工具帮助我整理我在 GitHub 上需要审查的 pull requests。"
+ },
+ {
+  "seg": 103,
+  "start": 584.971,
+  "end": 590.794,
+  "speaker": "Unknown",
+  "en": "And but those are things that I just like vibe coded from scratch.",
+  "zh": "但是这些东西都是我 vibe coded 从零开始做出来的。"
+ },
+ {
+  "seg": 104,
+  "start": 591.594,
+  "end": 593.995,
+  "speaker": "Unknown",
+  "en": "But we also have this concept over here of blueprints.",
+  "zh": "但我们在蓝图的这个概念。"
+ },
+ {
+  "seg": 105,
+  "start": 594.435,
+  "end": 610.903,
+  "speaker": "Unknown",
+  "en": "And a blueprint is someone made a gadget and they decided that it was useful and they took a blueprint of it, which is just taking the code, exporting the code without the data, which they can then share with someone else and then other people can instantiate gadgets from these blueprints.",
+  "zh": "蓝图就是有人做了一个小工具，他们觉得它很有用，然后他们拍了张蓝图，也就是提取代码，导出不带数据的代码，然后他们可以与其他人分享，其他人就可以从这些蓝图实例化小工具。"
+ },
+ {
+  "seg": 106,
+  "start": 612.353,
+  "end": 619.997,
+  "speaker": "Unknown",
+  "en": "So we have a document editor app here, a Kanban board, and a slide builder.",
+  "zh": "所以我们这里有一个文档编辑器应用，一个看板，和一个幻灯片构建器。"
+ },
+ {
+  "seg": 107,
+  "start": 620.077,
+  "end": 624.18,
+  "speaker": "Unknown",
+  "en": "So typical Office apps.",
+  "zh": "所以是典型的办公应用。"
+ },
+ {
+  "seg": 108,
+  "start": 624.3,
+  "end": 631.444,
+  "speaker": "Unknown",
+  "en": "So this slide builder was built by my colleague, Philip, here, who's a product manager at Cloudflare.",
+  "zh": "这个幻灯片构建器是由我在这里的同事 Philip 建立的，他是 Cloudflare 的产品经理。"
+ },
+ {
+  "seg": 109,
+  "start": 631.464,
+  "end": 634.846,
+  "speaker": "Unknown",
+  "en": "And of course, these days, all product managers are also prolific engineers.",
+  "zh": "当然，如今，所有产品经理也是多产的工程师。"
+ },
+ {
+  "seg": 110,
+  "start": 636.486,
+  "end": 639.307,
+  "speaker": "Unknown",
+  "en": "So he vibed this in an afternoon, I believe.",
+  "zh": "我相信他是在一个下午把它 vibe 出来的。"
+ },
+ {
+  "seg": 111,
+  "start": 639.568,
+  "end": 645.39,
+  "speaker": "Unknown",
+  "en": "But if I instantiate this gadget, I get this nice little slide deck.",
+  "zh": "但如果我实例化这个小工具，我会得到这个漂亮的小幻灯片组。"
+ },
+ {
+  "seg": 112,
+  "start": 645.55,
+  "end": 648.871,
+  "speaker": "Unknown",
+  "en": "It has things I can edit it and so on, yay.",
+  "zh": "它有我可以编辑的东西等等，耶。"
+ },
+ {
+  "seg": 113,
+  "start": 649.211,
+  "end": 650.792,
+  "speaker": "Unknown",
+  "en": "And if I shared it, well,",
+  "zh": "如果我分享它，嗯，"
+ },
+ {
+  "seg": 114,
+  "start": 652.302,
+  "end": 659.09,
+  "speaker": "Unknown",
+  "en": "So an important point here is that when I instantiate this app, it is only for one slide deck.",
+  "zh": "所以这里重要的一点是，当我实例化这个应用时，它只针对一个幻灯片组。"
+ },
+ {
+  "seg": 115,
+  "start": 659.29,
+  "end": 664.676,
+  "speaker": "Unknown",
+  "en": "If I want multiple slide decks, I make multiple instances of the gadget, one for each.",
+  "zh": "如果我想要多个幻灯片组，我会制作这个小工具的多个实例，每个一个。"
+ },
+ {
+  "seg": 116,
+  "start": 664.716,
+  "end": 672.164,
+  "speaker": "Unknown",
+  "en": "And the reason for that is that all gadgets are shareable and you can collaborate with other people on them.",
+  "zh": "这样做的原因是所有小工具都是可共享的，你可以与其他人协作。"
+ },
+ {
+  "seg": 117,
+  "start": 673.402,
+  "end": 677.805,
+  "speaker": "Unknown",
+  "en": "And the sharing model is implemented by the platform instead of by the app itself.",
+  "zh": "分享模型是由平台实现的，而不是由应用本身实现的。"
+ },
+ {
+  "seg": 118,
+  "start": 678.306,
+  "end": 683.229,
+  "speaker": "Unknown",
+  "en": "So if I click up here, I get sort of a share dialogue, kind of like a Google Docs share dialogue.",
+  "zh": "所以如果我在这里点击，我会得到一个分享对话框，有点像 Google Docs 的分享对话框。"
+ },
+ {
+  "seg": 119,
+  "start": 683.249,
+  "end": 685.11,
+  "speaker": "Unknown",
+  "en": "I can create a share link and send it to people.",
+  "zh": "我可以创建一个分享链接并发送给人们。"
+ },
+ {
+  "seg": 120,
+  "start": 685.791,
+  "end": 698.68,
+  "speaker": "Unknown",
+  "en": "And because each gadget is just the one thing that you want to share, that means that the platform can implement the sharing model and the access control such that the gadget itself can't possibly get that wrong.",
+  "zh": "而且因为每个小工具只是你想要分享的一件事，这意味着平台可以实现分享模型和访问控制，这样小工具本身就不可能搞错。"
+ },
+ {
+  "seg": 121,
+  "start": 700.212,
+  "end": 704.354,
+  "speaker": "Unknown",
+  "en": "So I'm going to go over to actually another instance of the same slides app.",
+  "zh": "所以我要去实际上同一个幻灯片应用的另一个实例。"
+ },
+ {
+  "seg": 122,
+  "start": 704.414,
+  "end": 714.22,
+  "speaker": "Unknown",
+  "en": "This is the slides I originally wrote for this talk, which yesterday I decided these slides were trash, and I threw them all away and rewrote it.",
+  "zh": "这是 我最初为这次演讲写的幻灯片，昨天我决定这些幻灯片很烂，我把它们都扔掉重写了。"
+ },
+ {
+  "seg": 123,
+  "start": 715.661,
+  "end": 718.842,
+  "speaker": "Unknown",
+  "en": "But the reason they're bad is entirely my fault.",
+  "zh": "但它们不好的原因完全是我的错。"
+ },
+ {
+  "seg": 124,
+  "start": 718.862,
+  "end": 719.923,
+  "speaker": "Unknown",
+  "en": "It's not Philip's fault.",
+  "zh": "这不是 Philip 的错。"
+ },
+ {
+  "seg": 125,
+  "start": 720.083,
+  "end": 721.704,
+  "speaker": "Unknown",
+  "en": "It's not the software's fault.",
+  "zh": "这不是软件的错。"
+ },
+ {
+  "seg": 126,
+  "start": 722.645,
+  "end": 728.588,
+  "speaker": "Unknown",
+  "en": "But this can still serve as an example to demonstrate some of what you can do on this platform.",
+  "zh": "但这仍然可以作为例子来展示你可以在这个平台上做的一些事情。"
+ },
+ {
+  "seg": 127,
+  "start": 730.103,
+  "end": 733.386,
+  "speaker": "Unknown",
+  "en": "So if I click on here, I can see the conversation.",
+  "zh": "所以如果我点击这里，我可以看到对话。"
+ },
+ {
+  "seg": 128,
+  "start": 733.406,
+  "end": 736.448,
+  "speaker": "Unknown",
+  "en": "You know, of course, I didn't edit the slides myself by hand.",
+  "zh": "你知道，当然，我没有手动编辑幻灯片。"
+ },
+ {
+  "seg": 129,
+  "start": 736.528,
+  "end": 738.649,
+  "speaker": "Unknown",
+  "en": "I asked the agent to make them for me, right?",
+  "zh": "我让智能体为我制作它们，对吧？"
+ },
+ {
+  "seg": 130,
+  "start": 739.85,
+  "end": 745.455,
+  "speaker": "Unknown",
+  "en": "And every app in this platform automatically integrates with agents so that you can do that.",
+  "zh": "这个平台上的每个应用都会自动集成智能体，以便你可以这样做。"
+ },
+ {
+  "seg": 131,
+  "start": 746.716,
+  "end": 758.364,
+  "speaker": "Unknown",
+  "en": "And so what I did is I gave Claude a link to this document, this Google Doc, where I had described all of the gadgets that I wanted, or all the slides that I wanted in my",
+  "zh": "所以我所做的是给 Claude 一个这个文档的链接，这个 Google Doc，我在其中描述了我想要的所有小工具，或者我在我演示文稿中想要的所有幻灯片"
+ },
+ {
+  "seg": 132,
+  "start": 759.847,
+  "end": 773.524,
+  "speaker": "Unknown",
+  "en": "In my presentation, and crucially though, this is the interesting point, I said, if you need to add any new features to the Slides app itself to support some of these slides, feel free to do so.",
+  "zh": "在我的演示文稿中，但关键的是，这是有趣的一点，我说，如果你需要向幻灯片应用本身添加任何新功能来支持其中一些幻灯片，请随意做。"
+ },
+ {
+  "seg": 133,
+  "start": 774.445,
+  "end": 774.966,
+  "speaker": "Unknown",
+  "en": "And it did.",
+  "zh": "它做到了。"
+ },
+ {
+  "seg": 134,
+  "start": 776.067,
+  "end": 776.408,
+  "speaker": "Unknown",
+  "en": "Claude",
+  "zh": "Claude"
+ },
+ {
+  "seg": 135,
+  "start": 777.045,
+  "end": 785.307,
+  "speaker": "Unknown",
+  "en": "Read all the code for the app and read my doc and said, yes, actually, let's see, slide three needs a strikethrough formatting.",
+  "zh": "阅读了应用的所有代码并阅读了我的文档，并说，是的，实际上，让我们看看，第三张幻灯片需要删除线格式。"
+ },
+ {
+  "seg": 136,
+  "start": 785.427,
+  "end": 786.507,
+  "speaker": "Unknown",
+  "en": "That's not implemented.",
+  "zh": "那没有实现。"
+ },
+ {
+  "seg": 137,
+  "start": 787.187,
+  "end": 788.748,
+  "speaker": "Unknown",
+  "en": "We can add that.",
+  "zh": "我们可以添加那个。"
+ },
+ {
+  "seg": 138,
+  "start": 788.768,
+  "end": 801.131,
+  "speaker": "Unknown",
+  "en": "Some of the slides require things to be centered, and I guess Philip's design taste is too good for centering text, but my more pedestrian taste called for some centering, and that's okay.",
+  "zh": "一些幻灯片要求东西居中，我猜 Philip 的设计品味太高了，不适合居中文本，但我更平民化的品味需要一些居中，这没关系。"
+ },
+ {
+  "seg": 139,
+  "start": 801.431,
+  "end": 802.271,
+  "speaker": "Unknown",
+  "en": "Claude can add that.",
+  "zh": "Claude 可以添加那个。"
+ },
+ {
+  "seg": 140,
+  "start": 804.384,
+  "end": 811.316,
+  "speaker": "Unknown",
+  "en": "More interestingly, slides five and six here, so I asked for this really crappy diagram of the cloud, right?",
+  "zh": "更有趣的是，这里的第五和第六张幻灯片，所以我要求了这个非常糟糕的云图，对吧？"
+ },
+ {
+  "seg": 141,
+  "start": 812.277,
+  "end": 814.02,
+  "speaker": "Unknown",
+  "en": "And the app...",
+  "zh": "而应用..."
+ },
+ {
+  "seg": 142,
+  "start": 816.412,
+  "end": 818.113,
+  "speaker": "Unknown",
+  "en": "Didn't support sort of like arbitrary diagrams.",
+  "zh": "不支持像这样的任意图表。"
+ },
+ {
+  "seg": 143,
+  "start": 818.153,
+  "end": 823.957,
+  "speaker": "Unknown",
+  "en": "It supported box diagrams and arrows and such, but not an arbitrary drawing like this.",
+  "zh": "它支持框图和箭头等，但不支持像这样的任意绘图。"
+ },
+ {
+  "seg": 144,
+  "start": 824.578,
+  "end": 826.559,
+  "speaker": "Unknown",
+  "en": "And so Claude said, okay, that's okay.",
+  "zh": "所以 Claude 说，好的，没关系。"
+ },
+ {
+  "seg": 145,
+  "start": 826.599,
+  "end": 827.66,
+  "speaker": "Unknown",
+  "en": "We can add a feature.",
+  "zh": "我们可以添加一个功能。"
+ },
+ {
+  "seg": 146,
+  "start": 828.04,
+  "end": 832.103,
+  "speaker": "Unknown",
+  "en": "We'll add a feature that allows you to insert a bunch of SVG.",
+  "zh": "我们将添加一个功能，允许你插入一堆 SVG。"
+ },
+ {
+  "seg": 147,
+  "start": 832.423,
+  "end": 836.586,
+  "speaker": "Unknown",
+  "en": "Just paste it into this box here, and now it becomes part of the slide.",
+  "zh": "只需把它粘贴到这里的这个框中，现在它就成了幻灯片的一部分。"
+ },
+ {
+  "seg": 148,
+  "start": 836.606,
+  "end": 842.33,
+  "speaker": "Unknown",
+  "en": "And now that's not very useful for any human, but it was perfectly useful for Claude, who then generated the SVG.",
+  "zh": "现在这对任何人类都不是很有用，但对 Claude 来说非常有用，Claude 然后生成了 SVG。"
+ },
+ {
+  "seg": 149,
+  "start": 843.618,
+  "end": 847.221,
+  "speaker": "Unknown",
+  "en": "Now, at this point, you might be looking at this and saying, that's a little scary.",
+  "zh": "现在，在这一点上，你可能会看着这个说，这有点可怕。"
+ },
+ {
+  "seg": 150,
+  "start": 847.481,
+  "end": 849.543,
+  "speaker": "Unknown",
+  "en": "SVG can contain JavaScript.",
+  "zh": "SVG 可以包含 JavaScript。"
+ },
+ {
+  "seg": 151,
+  "start": 850.583,
+  "end": 852.004,
+  "speaker": "Unknown",
+  "en": "Are there XSS bugs here?",
+  "zh": "这里存在 XSS 漏洞吗？"
+ },
+ {
+  "seg": 152,
+  "start": 853.153,
+  "end": 857.716,
+  "speaker": "Unknown",
+  "en": "And the answer to that is it doesn't really matter because of the way this environment is set up.",
+  "zh": "答案是这其实并不重要，因为这个环境的设置方式。"
+ },
+ {
+  "seg": 153,
+  "start": 858.036,
+  "end": 874.487,
+  "speaker": "Unknown",
+  "en": "So the UI that you see for the app here is running inside a null origin iframe sandbox with content security policy set so that it basically cannot talk to anything, any of the rest of the world, can't access any cookies, so on.",
+  "zh": "所以你在这里为应用看到的 UI 运行在一个 null origin iframe 沙箱中，并设置了内容安全策略，因此它基本上无法与任何事物、世界的其余部分对话，无法访问任何 cookie，等等。"
+ },
+ {
+  "seg": 154,
+  "start": 875.927,
+  "end": 878.888,
+  "speaker": "Unknown",
+  "en": "The only thing it can do is post message to the parent frame.",
+  "zh": "它唯一能做的就是向父 frame 发送消息。"
+ },
+ {
+  "seg": 155,
+  "start": 879.829,
+  "end": 899.656,
+  "speaker": "Unknown",
+  "en": "And through that post message channel, we set up a Captain Web RPC session, which forwards onto the server and all the way back to the server code for this gadget, which is this code here, which is written as a durable object on Cloudflare Workers.",
+  "zh": "并且通过那个消息通道，我们建立了一个 Captain Web RPC 会话，它转发到服务器并一直传回这个小工具的服务器代码，也就是这里的这段代码，它是作为 Cloudflare Workers 上的 durable object 编写的。"
+ },
+ {
+  "seg": 156,
+  "start": 901.184,
+  "end": 912.933,
+  "speaker": "Unknown",
+  "en": "And basically that means, so this server code runs in a dynamic worker sandbox on the server side where it too is prevented from talking to any of the rest of the world.",
+  "zh": "基本上这意味着，所以这个服务器代码运行在服务器端的动态 worker 沙箱中，在那里它也被禁止与世界的其余部分对话。"
+ },
+ {
+  "seg": 157,
+  "start": 913.353,
+  "end": 922.16,
+  "speaker": "Unknown",
+  "en": "So now we've set up this environment where there's a vibe-coded client and a vibe-coded server, and they can only talk to each other and produce the UI for the user.",
+  "zh": "所以现在我们建立了一个环境，其中有一个 vibe coding 的客户端和一个 vibe coding 的服务器，它们只能彼此对话并为用户生成 UI。"
+ },
+ {
+  "seg": 158,
+  "start": 923.755,
+  "end": 929.638,
+  "speaker": "Unknown",
+  "en": "And so if you have an XSS bug, it actually doesn't end up mattering because these can't leak anything.",
+  "zh": "所以如果你有一个 XSS 漏洞，它实际上并不重要，因为这些无法泄露任何东西。"
+ },
+ {
+  "seg": 159,
+  "start": 930.318,
+  "end": 931.519,
+  "speaker": "Unknown",
+  "en": "They're prevented from doing so.",
+  "zh": "它们被禁止这样做。"
+ },
+ {
+  "seg": 160,
+  "start": 931.579,
+  "end": 936.942,
+  "speaker": "Unknown",
+  "en": "And basically, there is no security bug you can have in this code that matters.",
+  "zh": "基本上，在这段代码中你不可能有任何重要的安全漏洞。"
+ },
+ {
+  "seg": 161,
+  "start": 938.042,
+  "end": 942.025,
+  "speaker": "Unknown",
+  "en": "And that makes it safe to go and do things.",
+  "zh": "这使得去做事情是安全的。"
+ },
+ {
+  "seg": 162,
+  "start": 944.206,
+  "end": 952.13,
+  "speaker": "Unknown",
+  "en": "So there's a whole lot that I would like to talk about that I won't have time for here, unfortunately.",
+  "zh": "所以有很多我想谈论的内容，但遗憾的是我在这里没有时间了。"
+ },
+ {
+  "seg": 163,
+  "start": 960.144,
+  "end": 970.728,
+  "speaker": "Unknown",
+  "en": "For instance, we created a whole system by which these apps can talk to external services in a safe way, but I could give two more talks about that.",
+  "zh": "例如，我们创建了一整套系统，通过这些应用可以安全地与外部服务对话，但我可以就那个主题再讲两场。"
+ },
+ {
+  "seg": 164,
+  "start": 976.371,
+  "end": 978.652,
+  "speaker": "Unknown",
+  "en": "There's a lot of stuff here.",
+  "zh": "这里有很多东西。"
+ },
+ {
+  "seg": 165,
+  "start": 978.772,
+  "end": 981.273,
+  "speaker": "Unknown",
+  "en": "The points that I want to make in the time that I have left though is,",
+  "zh": "不过，在我剩下的时间里我想表达的点是，"
+ },
+ {
+  "seg": 166,
+  "start": 983.077,
+  "end": 990.183,
+  "speaker": "Unknown",
+  "en": "So everything you see here is built on, everything except for the LLM is built on Cloudflare workers.",
+  "zh": "所以你在这里看到的一切都是基于……除了 LLM 之外的一切都是基于 Cloudflare workers 构建的。"
+ },
+ {
+  "seg": 167,
+  "start": 991.063,
+  "end": 995.286,
+  "speaker": "Unknown",
+  "en": "A lot of people don't know this, but you can actually build complex apps on workers.",
+  "zh": "很多人不知道这一点，但你实际上可以在 workers 上构建复杂的应用。"
+ },
+ {
+  "seg": 168,
+  "start": 995.447,
+  "end": 997.248,
+  "speaker": "Unknown",
+  "en": "There are no containers involved here.",
+  "zh": "这里不涉及容器。"
+ },
+ {
+  "seg": 169,
+  "start": 997.568,
+  "end": 998.989,
+  "speaker": "Unknown",
+  "en": "There's just dynamic workers.",
+  "zh": "只有动态 workers。"
+ },
+ {
+  "seg": 170,
+  "start": 999.189,
+  "end": 1001.691,
+  "speaker": "Unknown",
+  "en": "There's no database involved.",
+  "zh": "这里不涉及数据库。"
+ },
+ {
+  "seg": 171,
+  "start": 1001.731,
+  "end": 1003.313,
+  "speaker": "Unknown",
+  "en": "It just uses durable objects.",
+  "zh": "它只使用 durable objects。"
+ },
+ {
+  "seg": 172,
+  "start": 1005.804,
+  "end": 1012.547,
+  "speaker": "Unknown",
+  "en": "And furthermore, all of this is actually running locally on my laptop, which is why it doesn't matter that the internet didn't work.",
+  "zh": "此外，所有这些都实际上运行在本地我的笔记本电脑上，这就是为什么网络断了也没关系。"
+ },
+ {
+  "seg": 173,
+  "start": 1013.147,
+  "end": 1017.089,
+  "speaker": "Unknown",
+  "en": "So this is all running on WorkerD, which is our open source runtime.",
+  "zh": "所以这一切都运行在 WorkerD 上，这是我们的开源运行时。"
+ },
+ {
+  "seg": 174,
+  "start": 1017.209,
+  "end": 1018.37,
+  "speaker": "Unknown",
+  "en": "A lot of people don't know this.",
+  "zh": "很多人不知道这一点。"
+ },
+ {
+  "seg": 175,
+  "start": 1018.51,
+  "end": 1021.131,
+  "speaker": "Unknown",
+  "en": "The Cloudflare Workers runtime is open source.",
+  "zh": "Cloudflare Workers 运行时是开源的。"
+ },
+ {
+  "seg": 176,
+  "start": 1021.311,
+  "end": 1022.312,
+  "speaker": "Unknown",
+  "en": "You can self-host it.",
+  "zh": "你可以自行托管它。"
+ },
+ {
+  "seg": 177,
+  "start": 1023.072,
+  "end": 1033.077,
+  "speaker": "Unknown",
+  "en": "And I'm excited about that because we have in here a Home Assistant connector and a Spotify connector, and I want to run this in my basement.",
+  "zh": "我对此感到兴奋，因为这里面有一个 Home Assistant 连接器和一个 Spotify 连接器，我想在我的地下室里运行这个。"
+ },
+ {
+  "seg": 178,
+  "start": 1033.797,
+  "end": 1039.018,
+  "speaker": "Unknown",
+  "en": "And use it to do home automation tasks.",
+  "zh": "并用它来执行家庭自动化任务。"
+ },
+ {
+  "seg": 179,
+  "start": 1039.038,
+  "end": 1043.479,
+  "speaker": "Unknown",
+  "en": "So this is where, though, I have to give a little bit of an apology.",
+  "zh": "不过，这是我不得不稍微道歉的地方。"
+ },
+ {
+  "seg": 180,
+  "start": 1043.98,
+  "end": 1053.662,
+  "speaker": "Unknown",
+  "en": "So a couple of months ago when I submitted the proposal for this talk, this was like a side project I was working on.",
+  "zh": "所以几个月前当我提交这次演讲的提案时，这是我正在做的一个副项目。"
+ },
+ {
+  "seg": 181,
+  "start": 1053.962,
+  "end": 1061.624,
+  "speaker": "Unknown",
+  "en": "And the plan was I was going to come here and I was going to present it, and then I was just, at the end of the talk, going to yeet it onto GitHub so that everyone could go and download it and play with it themselves.",
+  "zh": "计划是我来这里展示它，然后在演讲结束时，把它扔到 GitHub 上，这样大家都可以去下载并亲自试用。"
+ },
+ {
+  "seg": 182,
+  "start": 1063.239,
+  "end": 1070.51,
+  "speaker": "Unknown",
+  "en": "In the last couple of weeks, there's been a lot of excitement inside Cloudflare, and this has become a more serious project.",
+  "zh": "在过去几周里，Cloudflare 内部有很多兴奋，这已经变成了一个更严肃的项目。"
+ },
+ {
+  "seg": 183,
+  "start": 1070.73,
+  "end": 1076.459,
+  "speaker": "Unknown",
+  "en": "And so last Thursday, Dane, our CTO, pulled me into a room and said, Kenton,",
+  "zh": "所以上周四，我们的 CTO Dane 把我叫进一个房间说，Kenton，"
+ },
+ {
+  "seg": 184,
+  "start": 1077.998,
+  "end": 1079.319,
+  "speaker": "Unknown",
+  "en": "I don't think you should yeet this.",
+  "zh": "我不认为你应该把这个 yeet 出去。"
+ },
+ {
+  "seg": 185,
+  "start": 1079.639,
+  "end": 1081.561,
+  "speaker": "Unknown",
+  "en": "I don't think this is yeet material.",
+  "zh": "我不认为这是适合 yeet 的材料。"
+ },
+ {
+  "seg": 186,
+  "start": 1081.841,
+  "end": 1088.066,
+  "speaker": "Unknown",
+  "en": "I think we need to be more careful and disciplined and intentional about how we release this.",
+  "zh": "我认为我们需要更小心、更有纪律、更有意地对待我们发布这个的方式。"
+ },
+ {
+  "seg": 187,
+  "start": 1088.126,
+  "end": 1089.828,
+  "speaker": "Unknown",
+  "en": "So let's hold it off for a few weeks.",
+  "zh": "所以让我们把它推迟几周。"
+ },
+ {
+  "seg": 188,
+  "start": 1089.968,
+  "end": 1095.653,
+  "speaker": "Unknown",
+  "en": "And I was pretty upset about that because I promised in the abstract that I was going to open source it.",
+  "zh": "我对此相当不高兴，因为我在摘要中承诺我会将其开源。"
+ },
+ {
+  "seg": 189,
+  "start": 1095.733,
+  "end": 1098.735,
+  "speaker": "Unknown",
+  "en": "But sorry, that's not happening today.",
+  "zh": "但抱歉，今天不会发生。"
+ },
+ {
+  "seg": 190,
+  "start": 1098.895,
+  "end": 1099.936,
+  "speaker": "Unknown",
+  "en": "It will happen soon, though.",
+  "zh": "不过它很快就会发生。"
+ },
+ {
+  "seg": 191,
+  "start": 1103.748,
+  "end": 1109.97,
+  "speaker": "Unknown",
+  "en": "And I wish the silly counter worked because GPT makes some silly counters, but oh well, it's not a big deal.",
+  "zh": "我希望那个愚蠢的计数器能用，因为 GPT 会做一些愚蠢的计数器，但是噢，这没什么大不了的。"
+ },
+ {
+  "seg": 192,
+  "start": 1111.49,
+  "end": 1112.59,
+  "speaker": "Unknown",
+  "en": "And that's all I got.",
+  "zh": "这就是我的全部内容。"
+ }
+]

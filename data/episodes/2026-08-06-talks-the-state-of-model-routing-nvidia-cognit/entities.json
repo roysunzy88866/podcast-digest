@@ -1,0 +1,990 @@
+{
+  "episode_id": "2026-08-06-talks-the-state-of-model-routing-nvidia-cognit",
+  "podcast": "精选演讲",
+  "date": "2026-08-06",
+  "tags": [
+    "模型路由",
+    "多模型编排",
+    "上下文压缩",
+    "智能体",
+    "成本优化"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tane",
+      "type": "person",
+      "role": "host",
+      "name": "Tane",
+      "file": "Tane",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            141.565,
+            142.806
+          ],
+          "quote": "I'm Tane.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "carter",
+      "type": "person",
+      "role": "cohost",
+      "name": "Carter",
+      "file": "Carter",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            93.95,
+            94.451
+          ],
+          "quote": "I'm Carter.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "walden",
+      "type": "person",
+      "role": "cohost",
+      "name": "Walden",
+      "file": "Walden",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            64.102,
+            64.562
+          ],
+          "quote": "I'm Walden.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            195.567,
+            197.408
+          ],
+          "quote": "And I think, Walden, I want to kind of ask you.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集核心主线:一种根据任务复杂度和预算,把请求分发给不同大小、不同特长模型(大小模型协同)的调度机制,以达到降本增效甚至提升效果的目的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.893,
+            25.696
+          ],
+          "quote": "If you guys were here for the first panel, one of the things that we talked about was model routing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.493,
+            53.859
+          ],
+          "quote": "And so this panel is really exciting because we're going to talk specifically about model routing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 19,
+          "t": [
+            89.348,
+            92.369
+          ],
+          "quote": "And so that's why we're also thinking a lot more about multi-model routing nowadays.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            178.196,
+            181.638
+          ],
+          "quote": "I think what's really interesting is model routing itself is pretty new still.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            258.799,
+            267.424
+          ],
+          "quote": "In general, we think a lot of the existing model routing systems out there are probably the same ones people have been using like a year ago and so we really wanted to put out a new framework that actually lets people",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            439.194,
+            456.315
+          ],
+          "quote": "So the way that you're thinking through model routing, it's not even just delegating to necessarily a smaller model, but like, and maybe this is kind of what you're saying, is can you put essentially a swarm of agents to accomplish the same task and suddenly routing the task between them is a problem to solve in and of itself?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 140,
+          "t": [
+            733.454,
+            750.026
+          ],
+          "quote": "Context compaction is something that I'm familiar with, but I hadn't really thought about as you're doing model routing and as you're trying to share context across now potentially many models, you're expanding the amount of what could be seen as wasteful tokens or redundant tokens just because you have to process that across the many models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 141,
+          "t": [
+            751.34,
+            758.922
+          ],
+          "quote": "Yeah, I think there's, the way I describe it is I think we are early in the model routing domain.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1538.49,
+            1548.494
+          ],
+          "quote": "What we do for model routing is we try to find the best model or best combination of models for the prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1590.783,
+            1593.347
+          ],
+          "quote": "What is next for you guys in terms of your model routing?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1732.253,
+            1741.018
+          ],
+          "quote": "I feel like it's super interesting how much of a perfect storm there is for model routing right now, because on one hand, ignore agents, ignore OpenClaw for a second.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1783.652,
+            1792.187
+          ],
+          "quote": "And suddenly, that is its own need for model routing, and it feels like hearing the different solutions to kind of tackle each of those is very interesting.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1793.732,
+            1799.636
+          ],
+          "quote": "Well, I was just going to say, I think that, yeah, the use cases for model routing, there are many of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1860.85,
+            1866.072
+          ],
+          "quote": "And I think that's a whole other area of model routing that I know that we're doing some work with at NVIDIA,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2391.029,
+            2403.873
+          ],
+          "quote": "So as you're doing model routing, how do you handle, essentially, if you're going to a different model architecture, what do you have to do to the prompt and how much is that a factor into either of your guys' model routing solution?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集大量讨论智能体如何处理复杂任务,指出智能体应用(如 OpenClaw)每10分钟发一次心跳、产生持续的计算需求,并探讨了主智能体、子智能体和编排系统如何配合工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            583.099,
+            587.981
+          ],
+          "quote": "So, for example, a real developer, you might ask your agent first, oh, how does this code base work?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 120,
+          "t": [
+            626.635,
+            632.999
+          ],
+          "quote": "And our solution to this is you kind of just always have this main frontier agent that's watching, even if it's not the one doing the work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 122,
+          "t": [
+            636.04,
+            638.063
+          ],
+          "quote": "The agent I delegated to now is out of its depth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            661.98,
+            667.705
+          ],
+          "quote": "Of course, you don't want to have the entire trace of that smaller agent be passed back to the larger model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            723.587,
+            733.034
+          ],
+          "quote": "And so this problem of taking long context, compacting it in a way that is now understandable is one that you can also apply to this domain and just kind of give the compacted context back to the main agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1032.63,
+            1048.683
+          ],
+          "quote": "When you're describing whether the main agent should be the local model or the cloud model, is that a decision that's then dependent on whether the task is something that's in domain or not?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1103.666,
+            1107.127
+          ],
+          "quote": "One thing you said earlier is like, oh, you get the caching benefit from the mainline agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1107.147,
+            1110.048
+          ],
+          "quote": "You actually can get the caching benefit from the side agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1110.468,
+            1120.292
+          ],
+          "quote": "And this is actually one of the key things we talked about with our Dev Infusion launch is that you kind of are leaving a lot on the table if you do a main agent and subagent type system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1129.213,
+            1132.394
+          ],
+          "quote": "So the main agent doesn't need to re-provide context from earlier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1427.365,
+            1430.966
+          ],
+          "quote": "I've seen cases where the sidekick agent does a bunch of work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2418.924,
+            2431.687
+          ],
+          "quote": "The value of an agent company, like the value of Devon, is all these doom loops that you've discovered that are across all industries and the best ways to recover from them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2434.028,
+            2461.315
+          ],
+          "quote": "It manifests big time in what the prompts are going to be, both for how the advisor model gets called, the smart friend, how the subtask agents get called, and the best thing is that any engineer or any agent can inspect the traces and adjust the prompt and then see the live accuracy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2477.554,
+            2494.562
+          ],
+          "quote": "One thing I'd love to do with our Fusion product, and we don't have this yet, and so this is maybe a preview of some things we work on, is you can tune it against a data set, but the real thing you want when you're building a real agent someone uses is to just tune it against what actual people use it for and what actual models they get routed to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2567.058,
+            2579.127
+          ],
+          "quote": "Sometimes you can do something as dumb as asking the model, why did you do this instead of this, and cite the prompts, and then just have your agent, your dev, and just go and update the prompts, rerun the test as a regression, make sure it changes.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context-compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文压缩 (context compaction)",
+      "file": "上下文压缩",
+      "primary": true,
+      "how_described": "多模型协同时的关键技术:把长上下文和历史轨迹浓缩成模型能看懂的精华再传回去,不仅是为了省吞吐量或省钱,更是为了防止模型在超长上下文下智商掉下悬崖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            713.597,
+            723.127
+          ],
+          "quote": "And actually, a lot of these problems already have been well-studied in many domains already, like context compaction is something you already have to solve if you want to do really long-running agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 140,
+          "t": [
+            733.454,
+            750.026
+          ],
+          "quote": "Context compaction is something that I'm familiar with, but I hadn't really thought about as you're doing model routing and as you're trying to share context across now potentially many models, you're expanding the amount of what could be seen as wasteful tokens or redundant tokens just because you have to process that across the many models.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "Cognition 正在用强化学习专门训练大模型如何更好地去委派任务和与其他模型协作,认为这是多模型编排下一步的巨大提升方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            895.968,
+            903.04
+          ],
+          "quote": "The data and its understanding of the data, both its compute and the quality of its RL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1155.407,
+            1159.771
+          ],
+          "quote": "Actually, I think there's a lot of literature out there on how you RL one model to do a task end-to-end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1160.091,
+            1162.193
+          ],
+          "quote": "How can you RL a model to also be good at collaboration?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1163.094,
+            1172.243
+          ],
+          "quote": "And when we think about it, we actually try both of these setups where let's RL the model being the orchestrator and the one deciding what gets delegated to other models, see how well that performs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "NVIDIA 的 FlexTron 技术采用的方法:将一个大模型蒸馏成不同大小、不同占用空间的版本,以便根据当前任务的复杂度进行动态切换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1282.003,
+            1294.255
+          ],
+          "quote": "Again, if you have studies from when it was trained, you can also see how much was your distillation gap across teachers and the artifact that you trained, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "系统中决定成本的关键因素;Cognition 的 sidekick 机制因为能让上下文保持在 KV 缓存中,使得所有缓存 token 的成本便宜 10 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            1133.294,
+            1134.814
+          ],
+          "quote": "It's all still in the KV cache.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1533.207,
+            1537.989
+          ],
+          "quote": "But in terms of KV cache optimizations, we can't do any specific work there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "Walden 联合创立的公司,构建 AI 软件工程师 Devon;他们近期发布了能把 Fable 级别模型智能成本降低 40% 的模型路由系统 Fusion。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.582,
+            65.843
+          ],
+          "quote": "I'm the co-founder of Cognition.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 36,
+          "t": [
+            197.508,
+            201.111
+          ],
+          "quote": "So Cognition just released Fusion, your guys' model router.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2206.197,
+            2212.179
+          ],
+          "quote": "When we started Cognition and we were working on the first agents, I think one reason why no one else worked on agents is they were just extremely expensive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2652.867,
+            2656.651
+          ],
+          "quote": "At Cognition, we're training our models to be able to be good collaborators.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "Alex 所属的语言模型市场公司,提供自动路由器等产品;他们发现路由需求在今年一月 OpenClaw 爆火后迎来了真正的使用拐点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            431.246,
+            432.608
+          ],
+          "quote": "I'm Alex from OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1507.434,
+            1513.517
+          ],
+          "quote": "So OpenRouter is a marketplace for language models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1683.372,
+            1690.214
+          ],
+          "quote": "And now a whole bunch of agents and apps on OpenRouter use the different routers that we have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本场讨论的主办方,Carter 和 Tanay 是其员工;他们发布了包含数据集和权重的 Nemotron 模型,并研发了能动态切换解码权重的 FlexTron 模型蒸馏技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.705,
+            39.726
+          ],
+          "quote": "That's why we released these Nemotron models at NVIDIA.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 22,
+          "t": [
+            94.471,
+            108.552
+          ],
+          "quote": "You guys heard from me a little bit earlier, but if you weren't here, I'm a developer tech engineer at NVIDIA, and ultimately, I spend a lot of time thinking about how to get intelligence into as many developers' hands as possible, and something that is continually becoming",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            174.093,
+            177.936
+          ],
+          "quote": "Yeah, I love a lot of the research that you're doing at NVIDIA as we kind of see the space through.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1206.542,
+            1211.646
+          ],
+          "quote": "Are you guys thinking a lot about kind of, like, model training at NVIDIA for these kind of purposes?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1860.85,
+            1866.072
+          ],
+          "quote": "And I think that's a whole other area of model routing that I know that we're doing some work with at NVIDIA,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fusion",
+      "file": "Fusion",
+      "primary": true,
+      "how_described": "本集提到的路由产品名称,分别由 Cognition(用于大小模型委派) 和 OpenRouter(用于编排多个模型给出融合结果) 各自发布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            197.508,
+            201.111
+          ],
+          "quote": "So Cognition just released Fusion, your guys' model router.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 168,
+          "t": [
+            964.402,
+            971.671
+          ],
+          "quote": "So being able to understand in-domain, out-of-domain is a lot of work that we're doing for open router fusion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            985.145,
+            991.83
+          ],
+          "quote": "Most research on model fusion has not been very detailed, not been very optimistic sometimes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1086.594,
+            1102.526
+          ],
+          "quote": "Fusion is not super well optimized for coding, and it might be that a smaller model ends up being a higher efficiency, fewer dollars per successfully completed task, but it's kind of early to say.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1700.896,
+            1705.417
+          ],
+          "quote": "We have Fusion, which orchestrates multiple models and gives you a fused result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2477.554,
+            2494.562
+          ],
+          "quote": "One thing I'd love to do with our Fusion product, and we don't have this yet, and so this is maybe a preview of some things we work on, is you can tune it against a data set, but the real thing you want when you're building a real agent someone uses is to just tune it against what actual people use it for and what actual models they get routed to.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "flextron",
+      "type": "concept",
+      "role": "concept",
+      "name": "FlexTron",
+      "file": "FlexTron",
+      "primary": true,
+      "how_described": "NVIDIA 开发的一种技术:把一个大模型蒸馏成不同大小的版本,然后根据当前任务复杂度,在同一个模型构件里动态切换做解码的权重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1212.326,
+            1214.288
+          ],
+          "quote": "Yeah, so we have a technology called FlexTron.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devon",
+      "type": "concept",
+      "role": "concept",
+      "name": "Devon",
+      "file": "Devon",
+      "primary": true,
+      "how_described": "Cognition 公司构建的 AI 软件工程师产品,其价值在于发现跨行业的各种厄运循环以及从中恢复的最佳方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            66.043,
+            68.083
+          ],
+          "quote": "We build Devon, AI software engineer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2418.924,
+            2431.687
+          ],
+          "quote": "The value of an agent company, like the value of Devon, is all these doom loops that you've discovered that are across all industries and the best ways to recover from them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nemotron",
+      "type": "concept",
+      "role": "concept",
+      "name": "Nemotron",
+      "file": "Nemotron",
+      "primary": true,
+      "how_described": "NVIDIA 发布的一系列模型,从数据集到权重都与配方一起公开发布,旨在让用户能够轻松进行定制化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.705,
+            39.726
+          ],
+          "quote": "That's why we released these Nemotron models at NVIDIA.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1194.112,
+            1200.257
+          ],
+          "quote": "I mean, with Nemotron and, you know, with all the foundational models, we're essentially post-training them for the harnesses that they're getting used.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sidekick",
+      "type": "concept",
+      "role": "concept",
+      "name": "sidekick",
+      "file": "sidekick",
+      "primary": true,
+      "how_described": "Cognition 抛弃了传统的主智能体+子智能体结构,改用这种持续带有运行上下文的副手机制,所有缓存的 token 成本能便宜 10 倍,大模型和小模型还能随时互换主次位置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            1122.972,
+            1129.193
+          ],
+          "quote": "We use what we call a sidekick, which is one subagent that continually has a running context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1427.365,
+            1430.966
+          ],
+          "quote": "I've seen cases where the sidekick agent does a bunch of work.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hallucination-probes",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉探测头 (hallucination probes)",
+      "file": "幻觉探测头",
+      "primary": true,
+      "how_described": "前沿的探测工具:直接读取模型内部状态的向量,评估模型是不是已经开始胡说八道或迷失了方向,这比单纯看生成 token 的数量来判断更准确。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            2300.895,
+            2308.362
+          ],
+          "quote": "So just to add on that, you have a lot of, like these days, there are a lot of hallucination probes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "一款爆火的智能体应用,它每10分钟向模型发一次心跳检测存活状态,这种奇特机制导致 OpenRouter 的自动路由器迎来了使用量的爆发式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1625.743,
+            1634.486
+          ],
+          "quote": "And then around January this year, with OpenClaw, it exploded.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1634.506,
+            1651.712
+          ],
+          "quote": "And the reason it exploded is because there was this fundamental idiosyncrasy in OpenClaw where it sends heartbeats every 10 minutes to your model of choice just to see if the client was still active.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1732.253,
+            1741.018
+          ],
+          "quote": "I feel like it's super interesting how much of a perfect storm there is for model routing right now, because on one hand, ignore agents, ignore OpenClaw for a second.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "dgx-spark",
+      "type": "concept",
+      "role": "concept",
+      "name": "DGX Spark",
+      "file": "DGX Spark",
+      "primary": false,
+      "how_described": "NVIDIA 提到的一款边缘硬件产品;在本地推理时如果内存满载,可以通过生成多个协同工作的智能体来充分利用这台设备的计算能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            2600.959,
+            2607.923
+          ],
+          "quote": "The ways and the needs that you need routing for, you know, even on a DGX Spark, when you're doing local inference, you have more compute.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "在本集中作为成本低廉的实现模型被反复讨论,被大模型当作探索代码库的苦力派去执行具体任务,并在今年改进到了足以在市场上细分使用的程度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            287.095,
+            291.818
+          ],
+          "quote": "And the implementation model can be one of these open source models, be it a cheaper mini model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1669.598,
+            1673.12
+          ],
+          "quote": "And the models, the open source models have improved to a point where",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "最昂贵但最智能的大模型;本集核心论点是它们更擅长委派工作,因此应该只做规划和拍板这种高难度动作,同时始终在场监视小模型的工作进度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            201.511,
+            208.318
+          ],
+          "quote": "And when you guys released it, you, in your blog, said that you're actually getting better performance than Fable, than these frontier models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 110,
+          "t": [
+            547.758,
+            558.465
+          ],
+          "quote": "Actually, I want to riff on something that Tamay was saying, which is a lot of times when you look at these different benchmarks, you'll see that the small models will perform better than even the frontier models in certain cases.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            604.966,
+            615.229
+          ],
+          "quote": "I think this is why people like frontier models so much is they're just generally intelligent and they're capable of shifting between various different domains, even if you can eke out better performance in very specific tasks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2657.171,
+            2666.181
+          ],
+          "quote": "I think it's very clear that new frontier models like the Fable models and GPT 5.5, 5.6 models are themselves naturally collaborative and better at delegation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

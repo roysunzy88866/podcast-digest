@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]]
+[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":61,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":63,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
 
 <script>
 (function(){

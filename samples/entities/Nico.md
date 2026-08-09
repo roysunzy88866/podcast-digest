@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]]
+[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan Field":1,"Figma":6,"GitHub":8,"Notion":5,"Slack":13,"智能体":61,"提示词":2,"代码":1,"代码层":1,"Make":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":1,"Figma":6,"GitHub":8,"Notion":5,"Slack":13,"智能体":63,"提示词":2,"代码":1,"代码层":1,"Make":2}</script>
 
 <script>
 (function(){

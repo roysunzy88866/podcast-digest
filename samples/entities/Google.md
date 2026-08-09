@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(24:25起):本集指出其云营收大涨了 82% 且开始卖自研 TPU 芯片，但因市场感知其模型在编程上落后，曾因巨额开支挨锤，几天后又涨了回来。
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(02:44起):本集把它说成：Jeff 工作的地方，从处理器到产品全栈联合设计；大厂会继续造能干几乎任何事的超通用 Gemini 模型，这恰恰给两三人的小团队留下了做小众精准产品的机会。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(15:36起):本集把它说成:手握搜索印钞机和自研 TPU 两大王牌,但却在囤积 TPU 亲自下场追逐 AGI,战略执行看起来有些脱节
+- **[[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]]**(04:13起):本集批评它与 Apple 在过去 15 年里对移动端系统严防死守,封禁了绝大多数人,导致用户很难在手机上安装未经签名的软件。
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(00:46起):本集重点讨论 Google 在 AI 竞赛中掉队：旗舰模型 3.5 Pro 难产，内部派系为争夺资源严重内耗；同时因其作为垂直整合巨头对短期利润不敏感，而把重注押在理解物理现实的「世界模型」上，在编码智能体上销声匿迹。
 
 ## ① 提到它的金句
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -49,15 +50,16 @@ unlisted: true
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司(提及)
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
+- [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[AGI]] · [[Lenny]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Microsoft]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[AGI]] · [[Lenny]] · [[Apple]] · [[NVIDIA]] · [[Microsoft]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":30,"Anthropic":35,"智能体":61,"Meta":12,"AGI":8,"Lenny":33,"NVIDIA":13,"Apple":7,"Amazon":5,"Microsoft":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":30,"Anthropic":35,"智能体":63,"Meta":12,"AGI":8,"Lenny":33,"Apple":8,"NVIDIA":14,"Microsoft":8,"Amazon":5}</script>
 
 <script>
 (function(){

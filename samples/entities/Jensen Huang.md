@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Tane]] [[Carter]] [[Walden]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":13,"深度学习":3,"智能体":61,"沙箱":11,"Condi Rice":1,"测试框架":6,"Jerry":1,"GPU":2,"前沿模型":1,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":14,"深度学习":3,"智能体":63,"沙箱":12,"Condi Rice":1,"测试框架":6,"Jerry":1,"GPU":2,"前沿模型":1,"Sega":1}</script>
 
 <script>
 (function(){

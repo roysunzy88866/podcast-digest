@@ -156,7 +156,7 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)、评估 (evals)
+- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]] —— 同概念:开源模型 (open source models)、智能体 (agent)
 
 </div>
 </div>

@@ -1,0 +1,63 @@
+```json
+{
+  "title_zh": "智能体不只是模型：DeepAgents 如何编排生产环境",
+  "tldr": "拆解 DeepAgents 智能体框架原理，与把复杂智能体推向生产环境的四大痛点解法。",
+  "digest_md": "你以为智能体就是个大模型？其实模型只占一小部分——以 Claude Code 为例，它身上有大约 50 万行代码负责把模型能力「逼」出来，这些「非模型」部分的专业名词叫 harness（套件/挽具），而 DeepAgents 就是一个开源的 harness 框架。说这话的是 LangChain 团队的成员，这一集里他讲了三件事：harness 到底由什么构成、开源的 DeepAgents 怎么把这些最佳实践打包好让你开箱即用；以及为什么我们日常的基础设施根本撑不住长时间的复杂智能体，要把它推上生产环境必须解决哪些硬核工程问题。结尾他还抛出了一个大问题：如果放任智能体自主干活，传统的权限管理（OAuth）为什么彻底失效了。\n\n知道了智能体是「模型 + harness」，接下来的问题是：harness 里到底装了什么？这位嘉宾给出了拆解。harness 包含系统提示词（让模型理解任务的主要接口）、记忆（让模型能记住你的偏好并持续学习），以及工具、子智能体、文件系统、沙箱（一种隔离程序运行的安全环境）等编排基础设施。DeepAgents 框架的独特之处在于支持钩子和中间件（一种能拦截模型调用、在执行前后注入自定义逻辑的机制），让你能轻松加上护栏（guardrails，限制模型乱来的边界）或做预处理。最值得一提的是文件系统——嘉宾指出，由于基础模型在训练时看了大量代码智能体（如 Claude Code、Codex）使用文件系统的数据，它们对文件系统接口极其熟练。所以，DeepAgents 让智能体把草稿、笔记都存进虚拟文件系统，不仅能完美管理上下文，还能最大化利用模型原有的训练优势。这套做法属于高阶抽象，底层基于 LangGraph 搭建，方便与现有的工作流深度嵌套组合。\n\n工具和套件讲明白了，那到底怎么上手？答案可能出乎意料。LangChain 团队给出的建议是：总是从 deep agent 开始。因为代码写起来极度省事——如果你已经有一个经典的工具调用智能体，只需把代码里的 `create agent` 改成 `create deep agent`，框架就会自动为你挂载文件系统、规划模块（planning）和子智能体工具。模型现在越来越聪明，基本套件的性能也在提升。过去你得在「可靠性」和「主观能动性（agency，模型自主决策和灵活应对任务的能力）」之间做残酷的取舍权衡，而现在你大可放手让它灵活发挥。那么，把这种灵活发挥的智能体丢进真实业务，会怎样？这正是接下来要谈的挑战。\n\n真把复杂智能体丢进生产环境，你会发现传统的标准基础设施根本扛不住。核心矛盾在于：复杂任务通常是长时间、多步骤的。如果你的智能体跑到了第 67 步突然崩溃，重启时却不得不从第 1 步重新跑，这体验绝对是灾难。为了解决持久化执行的问题，LangGraph 和 DeepAgents 在底层为每一步都设了检查点（checkpointing）[10:41 Unknown]。这就好比你玩游戏每过一关就存一次盘，失败了直接从第 66 步重新读档。更巧妙的是，把这些跨步骤的存档点连起来，就构成了短期记忆；把不同会话的存档提取出规律，就成了长期记忆——比如你的编码智能体会永远记住你偏爱 Python。除了存档，你还得处理好身份验证的悖论：你授权智能体用 OAuth（一种常用的开放授权协议）代你发邮件，发了 1 封你觉得挺好，但如果它发了 1000 封呢？这种「模糊的权限边界」是传统确定性程序没有的，目前行业还在摸索新的权限控制标准。最后，绝大多数重要任务依然需要「人在回路（human-in-the-loop）」中随时喊停或审批。你的运行时必须支持流式输出进度，把人的监督无缝缝进智能体的执行流里。\n\n最后收个尾，这一集值得带走的是三句话。第一，别再把智能体等同于大模型了，它本质上是「模型 + harness」，你能否让模型发挥出百分之百的威力，全看你围绕它搭建的套件、工具和文件系统基建够不够硬。第二，构建之初别纠结，直接用高阶抽象的 DeepAgents 起步，用一句 `create deep agent` 把文件系统和规划能力挂上，随着模型变强，它会回报你足够的灵活性。第三，把智能体推上生产环境是一场硬仗，标准基础设施根本不是为这种多步骤、长流程设计的，你必须从零规划好「每一步存档（持久化）、长短记忆、新型动态权限、以及随时让人接管」，只有把这四个地基打牢，你的智能体才不会在跑到第 67 步时彻底失控。",
+  "quotes": [
+    {
+      "en": "And the easiest way to think about this equation is that if you're not the model, you're the harness.",
+      "zh": "理解这个等式最简单的方法是，如果你不是模型，你就是 harness（套件）。",
+      "timestamp": "00:54",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And all of those 500,000 lines are part of the harness.",
+      "zh": "所有这 50 万行代码都是 harness 的一部分。",
+      "timestamp": "01:15",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+      "zh": "可能是目前上下文管理中最先进的，agents 将利用文件系统来存储它们可能需要参考的信息，比如草稿本。",
+      "timestamp": "03:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And it'll add things like a subagent tool too so that your core LLM can dynamically spin up subagents.",
+      "zh": "并且它还会添加诸如子智能体工具之类的东西，以便你的核心 LLM 可以动态启动子智能体。",
+      "timestamp": "06:23",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Standard infrastructure in short is not really built for long running complex agents.",
+      "zh": "简而言之，标准基础设施并不是为长时间运行的复杂智能体而构建的。",
+      "timestamp": "08:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.",
+      "zh": "你的任务越长，智能体在某个时刻失败的可能性就越大，如果你在 123 步中的第 67 步失败，重启任务时还必须重新执行所有这 67 步，那感觉真的很糟糕。",
+      "timestamp": "08:54",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And so it's very important to be able to recover from exactly that same spot where you had the error occur and not have to restart the task all the way from the very beginning.",
+      "zh": "因此，能够从发生错误的确切位置恢复，而不必从头重新开始任务，是非常重要的。",
+      "timestamp": "10:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And you can again extend this across sessions to what we call long-term memory.",
+      "zh": "你同样可以将其跨会话扩展到我们所谓的长期记忆。",
+      "timestamp": "11:33",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf.",
+      "zh": "例如，你可能对智能体代表你发送一封电子邮件感到没问题，但如果你看到那个智能体代表你发送一千封电子邮件，你可能会认为出问题了并想要调查一下。",
+      "timestamp": "13:15",
+      "speaker": "Unknown"
+    }
+  ]
+}
+```
