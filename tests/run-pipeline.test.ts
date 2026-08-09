@@ -163,6 +163,13 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(a16z.feedUrl).toBe("https://feeds.simplecast.com/JGE3yC0V");
     expect(a16z.asr).toBe("whisperx"); // processEpisode 据此直走 ASR(a16z 实测无官方稿,不空跑 fetch-source)
   });
+  it("★ 2026-08-09 扩 3 源(AI & I / No Priors / The Peel):齐、feedUrl 对、均 whisperX(无平台官方稿)", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    expect(by.aiandi?.feedUrl).toBe("https://feeds.transistor.fm/how-do-you-use-chatgpt");
+    expect(by.nopriors?.feedUrl).toBe("https://feeds.megaphone.fm/nopriors");
+    expect(by.thepeel?.feedUrl).toBe("https://anchor.fm/s/e231a4ec/podcast/rss");
+    for (const k of ["aiandi", "nopriors", "thepeel"]) expect(by[k]?.asr).toBe("whisperx");
+  });
   it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {
     for (const s of SOURCES) {
       expect(s.key).toBeTruthy();

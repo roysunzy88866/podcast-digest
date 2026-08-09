@@ -41,6 +41,11 @@ export const SOURCES = [
   { key: "trainingdata", name: "Training Data", feedUrl: "https://feeds.megaphone.fm/trainingdata", asr: "whisperx" },
   { key: "bigtech", name: "Big Technology Podcast", feedUrl: "https://feeds.megaphone.fm/LI3617121267", asr: "whisperx" },
   { key: "aia16z", name: "AI + a16z", feedUrl: "https://feeds.simplecast.com/Hb_IuXOo", asr: "whisperx" },
+  // 2026-08-09 用户拍板扩 3 源(真相源 需求共创/调研-新源候选-2026-08-09.md;iTunes lookup 实测活跃 + 有音频 enclosure):
+  // 均无平台官方稿(Transistor/Megaphone/Anchor)→ whisperX。加源前须 --seed 设基线(只向前看,drift #22)。
+  { key: "aiandi", name: "AI & I", feedUrl: "https://feeds.transistor.fm/how-do-you-use-chatgpt", asr: "whisperx" },
+  { key: "nopriors", name: "No Priors", feedUrl: "https://feeds.megaphone.fm/nopriors", asr: "whisperx" },
+  { key: "thepeel", name: "The Peel", feedUrl: "https://anchor.fm/s/e231a4ec/podcast/rss", asr: "whisperx" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
