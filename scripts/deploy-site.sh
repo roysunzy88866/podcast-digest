@@ -83,5 +83,9 @@ printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n' > p
 feed_n=$(grep -c '<enclosure' public/feed.xml || true)
 echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3 2>/dev/null | wc -l | tr -d ' '))"
 [ "${feed_n:-0}" -gt 0 ] || { echo "::error::public/feed.xml 无 enclosure,拒绝部署(drift #29 回归:feed 必须随站点上线,不放行只剩 CDN 幽灵的站)"; exit 1; }
+# 3.6) C22 · llms.txt(给 AI/Agent 的站点说明书)随站点部署 → 站点根 /llms.txt。
+#      ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/;只列已发布集,自动同步。
+node ../scripts/build-llms.mjs --out public/llms.txt
+echo "public/llms.txt lines=$(wc -l < public/llms.txt | tr -d ' ')"
 # 4) 部署(CF API token,非交互;项目 voice-solomind)
 npx wrangler pages deploy public --project-name voice-solomind --branch main

@@ -2120,3 +2120,55 @@ Scenario: PC 端不受影响
 3. mirror 手机端实测:无吸顶目录、只 1 个「这一集涉及」(页尾)、无右栏 toc 冒出;PC 端不变。
 4. GLM 冷喂复核 + adjudicate。
 5. tech-debt 记 render 端 mtoc() 目录建造冗余(下次 render 改动时清)。
+
+## C22 · SEO meta + 结构化数据(JSON-LD + llms.txt)
+
+> 2026-08-10 用户拍板「核心 + llms.txt」;robots 保持 Cloudflare 现状(挡训练/放检索)不碰。研究核实(2026-08):JSON-LD 优先级最高——帮机器正确理解页面实体/结构;但「加 schema 就更被 AI 引用」的量化说法全来自 SEO 厂商自述、无同行评审,按【未验证】,故只求「正确解析 + 富媒体资格」,不神化。llms.txt 仅 Perplexity 会读、Google 明确不用(对 Search 零影响),只因能零维护自动生成才顺手做。agentic-llms.txt(= Wix 营销、无交易动作可指)+ MCP(需常开服务、逆本项目「无常开机器」)已排除。全构建期改动、零新基建。**版权红线**:JSON-LD 按「我们的中文精华摘要」建模(文章类),不冒充原播客本体。**schema 铁律**:字段须与页面可见内容一致、宁缺毋滥(残缺/泛化 schema 会被判「声称与实际不符」反而有害)。
+
+```gherkin
+Feature: SEO meta + 结构化数据(US-1, US-2)
+
+Scenario: 每页有规范 canonical
+  Given 全站页面此前无 <link rel="canonical">
+  When 构建期按 baseUrl + slug 注入 canonical
+  Then 首页/集页/大类页/实体页各带一个指向自身规范 URL 的 canonical
+
+Scenario: 集页社交图是真封面(修坏 og:image)
+  Given 集页 og:image 曾是坏的颜色占位 /static/#64748b(cover 色值被 Quartz 当社交图)
+  When 有源封面的集显式指向 /covers/<id>.jpg、无源图的集指向站点默认图
+  Then 集页 og:image 是可打开的真图片,分享到社交/AI 带封面
+
+Scenario: 首页有人写的简介
+  Given 首页 description 曾是「全部102创业与行业46…」导航计数拼串
+  When 首页 frontmatter 写入一句站点简介
+  Then 首页 meta description / og:description 是通顺的站点简介
+
+Scenario: 集页标为文章类型
+  Given 集页 og:type 曾是 website
+  Then 集页 og:type = article
+
+Scenario: 集页带与内容一致的 JSON-LD
+  Given 集页此前无结构化数据(全站 0 块)
+  When 构建期从 frontmatter 注入 JSON-LD(标题/中文摘要/日期/主持·嘉宾/大类)+ BreadcrumbList
+  Then 集页有一段合法 application/ld+json,类型为文章类(BlogPosting/Article)
+  And 字段全部来自页面可见内容、不虚报,且不声称是原播客本体(版权红线)
+
+Scenario: /llms.txt 自动生成且与内容同步
+  Given 站点无 llms.txt
+  When 构建期从内容索引自动生成 /llms.txt(站点摘要 + 核心页面链接)
+  Then 请求 /llms.txt 得到与当前已发布集同步的 Markdown 说明,无需人工维护
+
+Scenario: robots / agentic 项按拍板不动
+  Given 用户拍板 robots 保持 CF 现状、agentic-llms.txt 与 MCP 排除
+  Then 本片不新增/不改 robots.txt,不建 MCP,不出 agentic-llms.txt
+```
+
+### DoD(C22)
+1. patch-site.mjs 扩 Head.tsx 补丁:canonical + JSON-LD + og:type=article(按 fileData 分页类型:集页=文章类,首页=WebSite)。
+2. 集页社交图修复:frontmatter 显式 socialImage 指真封面(有 /covers/<id>.jpg 用之,无则站点默认图),不再落到 cover 色值;**本地 Quartz build 验 Quartz 实际认哪个字段(不靠猜)**。
+3. build-list.mjs 首页 frontmatter 加 description。
+4. 自动产 llms.txt(新脚本或并进 build-list),接线 deploy-site.sh + pipeline 全库重建;内容随已发布集自动同步、零人工维护。
+5. 红绿:JSON-LD 字段映射 / canonical 生成 / llms.txt 生成各有单测;全量单测绿。
+6. 本地 build + curl-mirror 实测逐条对上:canonical、og:image 真图、og:type=article、JSON-LD 结构合法且字段与可见内容一致、/llms.txt 与已发布集同步。
+7. GLM 冷喂复核(--kind code)+ adjudicate。
+8. robots 不碰(CF managed 保持);agentic-llms.txt / MCP 明确不做,排除理由已记 story-map C22。

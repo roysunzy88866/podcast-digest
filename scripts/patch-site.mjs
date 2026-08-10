@@ -146,6 +146,27 @@ patchFile(
   "默认浅色种子脚本(Head)",
 );
 
+// ── C22 · SEO:canonical + JSON-LD + og:type=article(集页)──
+// 复用 Head 已算好的 socialUrl(本页 URL);jsonLd 由 render.mjs(集页)/ build-list.mjs(首页)按页写进 frontmatter。
+// 锚点 = 上游原始 og:title/og:type 两行,上游若挪 replaceOnce 会硬报错。
+patchFile(
+  resolve(SITE, "quartz/components/Head.tsx"),
+  `        <meta property="og:title" content={title} />
+        <meta property="og:type" content="website" />`,
+  `        <meta property="og:title" content={title} />
+        <meta property="og:type" content={(fileData.frontmatter as any)?.type === "episode" ? "article" : "website"} />
+        {/* C22 · SEO:canonical(复用本页 URL)*/}
+        <link rel="canonical" href={socialUrl} />
+        {/* C22 · SEO:结构化数据(frontmatter.jsonLd 由 render/build-list 按页写好,YAML 字面块承接单行 JSON)*/}
+        {(fileData.frontmatter as any)?.jsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: String((fileData.frontmatter as any).jsonLd) }}
+          />
+        )}`,
+  "SEO:canonical + JSON-LD + og:type=article(Head)",
+);
+
 // ── C11 ⑥ 注入自定义样式 + 自托管普惠体子集 ──
 copyFileSync(resolve(ROOT, "assets/styles/custom.scss"), resolve(SITE, "quartz/styles/custom.scss"));
 console.log("  ✔ custom.scss → site/quartz/styles/");

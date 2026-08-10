@@ -13,6 +13,7 @@
 import { readFileSync, writeFileSync, existsSync, realpathSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { episodeJsonLd, socialImagePath } from "./seo.mjs"; // C22:集页社交图 + JSON-LD
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -755,6 +756,26 @@ function renderFrontmatter(meta, digest, entities) {
   const cats = episodeCategories(meta, entities);
   lines.push(`category: ${yamlScalar(cats[0])}`);
   lines.push("tags:", ...cats.map((t) => `  - ${t}`));
+  // C22:社交图(og:image)显式指真封面/站点默认,不再让 cover 色值被 Quartz 当社交图落成坏图
+  lines.push(`socialImage: "${socialImagePath(meta)}"`);
+  // C22:JSON-LD(文章类 BlogPosting + 面包屑;isBasedOn 指原播客,守版权红线)。
+  // 存进 frontmatter 用 YAML 字面块 | 承接单行 JSON(无需转义),Head.tsx 侧原样吐进 <script ld+json>。
+  const g = entities ? groupByRole(entities) : null;
+  const enames = (arr) => (arr || []).map((x) => x.name);
+  const ld = episodeJsonLd({
+    title: displayTitle(meta),
+    description: digest.tldr,
+    date: displayDate(meta),
+    slug: meta.id,
+    image: meta.cover_image?.file ? `/covers/${meta.id}.jpg` : undefined, // JSON-LD image 只用真图,无图则省
+    sourceUrl: meta.source_url,
+    people: g ? [...enames(g.host), ...enames(g.guests), ...enames(g.cohosts)]
+              : (meta.host ? [meta.host, ...(meta.guests || [])] : meta.guests || []),
+    companies: g ? enames(g.companies) : [],
+    concepts: g ? enames(g.concepts) : [],
+    category: cats[0],
+  });
+  lines.push("jsonLd: |", "  " + JSON.stringify(ld));
   lines.push("---");
   return lines.join("\n");
 }

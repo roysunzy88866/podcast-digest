@@ -22,6 +22,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEpisodes } from "./build-entities.mjs";
 import { displayTitle, episodeCategories } from "./render.mjs";
+import { SITE_NAME, SITE_DESC, websiteJsonLd } from "./seo.mjs"; // C22:首页 description + WebSite JSON-LD
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -251,7 +252,9 @@ export const topBar = (active = "home", mtitle = "") =>
  * @param opts.hasCover (id)=>bool 封面文件是否真存在(默认查磁盘;测试可注入)
  */
 export function renderList(episodes, opts = {}) {
-  const fm = `---\ntitle: 跨国深谈\n---\n`;
+  // C22:首页 frontmatter 补真 description(此前空 → Quartz 拿导航计数当简介)+ WebSite JSON-LD
+  // description 用 JSON.stringify 生成 YAML 安全的引号标量(YAML 是 JSON 超集;防 SITE_DESC 未来含引号/冒号破 YAML,GLM 20260811-001[1])
+  const fm = `---\ntitle: ${SITE_NAME}\ndescription: ${JSON.stringify(SITE_DESC)}\njsonLd: |\n  ${JSON.stringify(websiteJsonLd())}\n---\n`;
   // 测试可注入 categoriesBySlug;生产走 render.mjs 的权威函数(同源,不另立一套)
   const catsOf = opts.categoriesBySlug
     ? (ep) => opts.categoriesBySlug[ep.meta.id] ?? []
