@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条,均已过机器闸门*
+*7 条,均已过机器闸门*
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
 
@@ -19,27 +19,28 @@ unlisted: true
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q3]]
 
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q1]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q2]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q3]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q4]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为主持
+- [[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Intercom]] · [[ChatPRD]] · [[Vercel]] · [[Codex]] · [[Eve]] · [[智能体]] · [[风险评分]] · [[沙箱]] · [[Slack]] · [[GitHub]]
+[[Intercom]] · [[Vercel]] · [[Codex]] · [[Eve]] · [[智能体]] · [[风险评分]] · [[沙箱]] · [[Slack]] · [[GitHub]] · [[ChatPRD]]
 
-## ④ 也在聊「AI 编程」的人
-
-<div class="pd-peers">
-
-[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Intercom":1,"ChatPRD":2,"Vercel":5,"Codex":14,"Eve":1,"智能体":67,"风险评分":1,"沙箱":13,"Slack":14,"GitHub":8}</script>
+<script type="application/json" class="pd-epn">{"Intercom":2,"Vercel":6,"Codex":15,"Eve":2,"智能体":68,"风险评分":2,"沙箱":14,"Slack":15,"GitHub":9,"ChatPRD":2}</script>
 
 <script>
 (function(){

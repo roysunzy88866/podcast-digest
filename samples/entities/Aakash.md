@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]]
+[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":18,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":8,"Notion":5,"Figma":6}</script>
+<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":18,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":9,"Notion":5,"Figma":6}</script>
 
 <script>
 (function(){

@@ -28,7 +28,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[swyx]] · [[Vaibhav Gupta]] · [[Akshat Bubna]] · [[BAML]] · [[Vibhu]] · [[垃圾话]] · [[Modal]] · [[代码审查]] · [[AX]]
 
-<script type="application/json" class="pd-epn">{"智能体":67,"swyx":1,"Vaibhav Gupta":1,"Akshat Bubna":1,"BAML":1,"Vibhu":1,"垃圾话":2,"Modal":1,"代码审查":1,"AX":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":68,"swyx":1,"Vaibhav Gupta":1,"Akshat Bubna":1,"BAML":1,"Vibhu":1,"垃圾话":2,"Modal":1,"代码审查":1,"AX":1}</script>
 
 <script>
 (function(){

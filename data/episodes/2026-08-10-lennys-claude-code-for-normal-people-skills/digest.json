@@ -1,0 +1,129 @@
+{
+  "title_zh": "不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记",
+  "tldr": "用 Vercel 的 Eve 框架搭一个自动审查 PR 并给风险打分的智能体，让低风险代码直接通过。",
+  "digest_md": "既然公司已经让 AI 写代码了，为什么还得人工一个个去审这些 AI 提交的代码？答案其实很简单：你不需要。只要用 AI 搭一个机器人去评分、自动批准那些低风险的 PR，就能省下大把时间。说这话的人是 Claire，她在这一集里手把手演示了怎么搭这样一个系统 [00:33 Claire]。\n\n这一集来自 How I AI 栏目，主讲人 Claire 完整演示了如何搭建一个 PR 审查机器人。你会听到这样几块内容：别人是怎么用 AI 自动审代码的；Claire 喜欢用哪个框架来搭机器人，以及它是怎么工作的；她具体是怎么给风险算分、决定哪些 PR 能自动放行的；以及她做这个项目踩了什么坑、有什么意外收获。带着这张地图，我们进正文。\n\n先说别人怎么干的，这也正是启发了 Claire 的源头。很多人觉得 AI 写的代码肯定得人盯着，不然不安全。但 Intercom 的实践给出了反直觉的结论：他们发现 AI 审查和批准的 PR，实际上比纯人工审查的还要安全，质量也更高 [03:47 Claire]。这套打分审查系统给他们带来了实打实的效率提升——AI 批准的 PR 速度比人工快了足足 5 倍，而且代码上线后的回滚率（也就是代码上线后出问题、必须被撤销的比例）也更低 [04:19 Claire]。更重要的是，这种做法还能满足合规要求，不管是 SOC 2 还是 HIPAA 的框架，只要你把这套逻辑写进风险策略里，保证每一步都是可审计、可查询的，就完全合规 [04:52 Claire]。\n\n说完了别人怎么做，接下来是 Claire 自己的实操。她搭这个机器人，核心选用了 Vercel 的 Eve 框架。她特别推荐这个框架，因为搭建企业级智能体最痛苦的部分——配置 Slack、GitHub 权限、管理各种 token 和连接器——在 Eve 里几乎都是现成的。你只需要用向导点几下，就能把 Slack 和 GitHub 连接好，智能体还可以自带一个能直接跑代码的沙箱（sandbox，一种隔离的安全执行环境，保证程序运行不会把系统搞坏）[06:30 Claire]。有了基础设施，接下来就是定义机器人的行为。Claire 写的指令其实很短，也就是四五段文字，根本不需要过度设计 [13:42 Claire]。机器人的核心技能是读取 PR 的代码差异（diff，即修改了哪些内容），然后根据六大维度来评估风险：变更面和影响范围有多大、是否容易回滚、是否涉及数据安全、是否改变了运营方式、测试验证是否完整等 [15:53 Claire]。算出一个总分后，24 分以下判为低风险自动放行，25 到 64 分属于中风险，65 分以上是高风险，中高风险的 PR 必须交由人工来审批 [16:20 Claire]。\n\n机器人搭好了，具体工作流程是怎么样的？这正是她接下来演示的重点。她把这个机器人取名叫 Merge Mommy。当一个 PR 准备好后，机器人就会自动运行：如果只是改了文档，它打出低分（比如 6/100 分），但如果代码有合并冲突，它就会亮红灯拦截 [18:09 Claire]。如果遇到那种清理废弃代码的大型改动，因为它修改了服务器的 API 行为，机器人就会打出 45/100 分的中风险，并果断拒绝自动合并 [19:58 Claire]。Claire 特别提到一个小细节：因为 GitHub 的规则要求必须有人类审查通过，机器人没法代替人类点最终的按钮，所以机器人其实是在 Slack 频道里通知人类：「这个低风险代码我审过了，没问题，你直接点同意合并就行。」这就把审查工作变成了一秒钟的点击活儿 [12:22 Claire]。\n\n工作流打通了，人怎么省事？这正是搭建这个机器人最让人爽的地方。Claire 坦言她本来很怕搭建这种 GitHub App 和 Slack 机器人，以为要配各种复杂的权限折腾好几天 [21:10 Claire]。但她用了 Codex 的 Chrome 浏览器自动化功能，直接让 AI 操控浏览器去点各种配置按钮，她自己只在旁边管一下二次验证，把最烦人的部分外包给了 AI [10:31 Claire]。结果是，不仅审查时间大大缩短了，AI 还顺带给人类派了活儿：AI 把风险都查清楚，人只要在 Slack 上点个确认就行 [20:36 Claire]。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是这几件事。第一，既然是 AI 写的代码，完全可以把审查工作也交给 AI，只要系统做得好，它甚至比人工审查更安全、合规也不在话下。第二，搭这样一个智能体一点都不复杂，用 Vercel 的 Eve 这种框架，你只要写几段简短的规则，给六个维度的打分标准，它就能自己干活。第三，即使机器人不能直接按 GitHub 的最终通过键，也能通过 Slack 把审查变成只需点击两下的流程，大幅提升速度。第四，那些繁琐的第三方服务配置，你可以直接让 AI 去操控浏览器替你点，最后别忘了像对待面向客户的产品一样，持续在内部跑评估，看看机器人到底打分打得准不准。",
+  "quotes": [
+    {
+      "en": "AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.",
+      "zh": "AI 批准的 PR 以及 AI 编写的代码总体上甚至可能更安全，并且比你仅在流程中使用人类的质量更高。",
+      "timestamp": "03:47",
+      "speaker": "Claire"
+    },
+    {
+      "en": "AI approved PRs are approved faster, actually five times faster than their human PRs.",
+      "zh": "AI 批准的 PR 批准得更快，实际上比他们人类 PR 快 5 倍。",
+      "timestamp": "04:16",
+      "speaker": "Claire"
+    },
+    {
+      "en": "you can safely not review PRs by putting AI in the loop.",
+      "zh": "你可以安全地不审查 PR，方法是将 AI 加入流程中。",
+      "timestamp": "02:55",
+      "speaker": "Claire"
+    },
+    {
+      "en": "we can put AI to work for us or we can have AI put us to work.",
+      "zh": "我们可以让 AI 为我们工作，或者我们可以让 AI 让我们工作。",
+      "timestamp": "20:37",
+      "speaker": "Claire"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "You do not actually have to review one-on-one by a human, all those PRs.",
+      "zh": "你实际上不需要由人类一对一地审查所有那些 PR。",
+      "timestamp": "00:42",
+      "speaker": "Claire"
+    },
+    {
+      "en": "AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.",
+      "zh": "AI 批准的 PR 以及 AI 编写的代码总体上甚至可能更安全，并且比你仅在流程中使用人类的质量更高。",
+      "timestamp": "03:47",
+      "speaker": "Claire"
+    },
+    {
+      "en": "AI approved PRs are approved faster, actually five times faster than their human PRs.",
+      "zh": "AI 批准的 PR 批准得更快，实际上比他们人类 PR 快 5 倍。",
+      "timestamp": "04:14",
+      "speaker": "Claire"
+    },
+    {
+      "en": "you can safely not review PRs by putting AI in the loop.",
+      "zh": "你可以安全地不审查 PR，方法是将 AI 加入流程中。",
+      "timestamp": "02:54",
+      "speaker": "Claire"
+    },
+    {
+      "en": "I want to make an internal GitHub bot slash app that reviews PRs after all checks are green and grades low, medium, high risk and approves the low-risk PRs automatically.",
+      "zh": "我想做一个内部的 GitHub 机器人/应用，在所有检查都变绿了之后审查 PR，评定低、中、高风险，并自动批准低风险的 PR。",
+      "timestamp": "09:29",
+      "speaker": "Claire"
+    },
+    {
+      "en": "you do not need to over-engineer this. It's like four or five paragraphs, a couple of bullet points, and it's ready to go.",
+      "zh": "你不需要过度设计这个。它就是四五段文字，几个要点，就可以准备好了。",
+      "timestamp": "14:03",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Diff size does not set risk.",
+      "zh": "Diff 大小不设定风险。",
+      "timestamp": "15:21",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Docs are low risk, feature logic is medium risk, and then like authentication billings, high risk.",
+      "zh": "文档是低风险，功能逻辑是中风险，然后像认证、计费是高风险。",
+      "timestamp": "15:14",
+      "speaker": "Claire"
+    },
+    {
+      "en": "How big is the change surface and blast radius?",
+      "zh": "变更面和爆炸半径有多大？",
+      "timestamp": "15:53",
+      "speaker": "Claire"
+    },
+    {
+      "en": "A huge data migrations may be harder to reverse.",
+      "zh": "巨大的数据迁移可能更难回滚。",
+      "timestamp": "15:58",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Anything below 24 points is low risk. Medium risk is 25 to 64. And then 65 and above is high risk.",
+      "zh": "低于 24 分的任何情况都是低风险。中等风险是 25 到 64 分。然后 65 分及以上是高风险。",
+      "timestamp": "16:24",
+      "speaker": "Claire"
+    },
+    {
+      "en": "A bot cannot actually meet our repository rules for required approval.",
+      "zh": "一个机器人实际上无法满足我们仓库所需的审批规则。",
+      "timestamp": "19:12",
+      "speaker": "Claire"
+    },
+    {
+      "en": "we can put AI to work for us or we can have AI put us to work.",
+      "zh": "我们可以让 AI 为我们工作，或者我们可以让 AI 让我们工作。",
+      "timestamp": "20:36",
+      "speaker": "Claire"
+    },
+    {
+      "en": "If you're just sort of like MetaTip, if you ever have to do like complex SaaS configuration, set up an app, you're like, oh, I'm fine writing code, but I don't want to do the configuration in somebody's third party service. Using Chrome browser use is such a useful hack to get that stuff done.",
+      "zh": "如果你只是像 MetaTip，如果你必须做像复杂的 SaaS 配置，搭建一个应用，你会想，噢，我写代码没问题，但我不想在别人的第三方服务里做配置。使用 Chrome 浏览器是一个非常有用的技巧来搞定这些事情。",
+      "timestamp": "11:02",
+      "speaker": "Claire"
+    },
+    {
+      "en": "this was something that I was really intimidated to build. I thought this was going to take me like days and days and days.",
+      "zh": "这是我真的很害怕构建的东西。我以为这会花费我一天又一天的时间。",
+      "timestamp": "21:10",
+      "speaker": "Claire"
+    },
+    {
+      "en": "very similar to how you'd use evals to improve your customer facing AI products, you're going to want to use evals to improve your internally facing AI bots, especially ones that touch really critical things like code.",
+      "zh": "非常类似于你如何使用评估来改进你面向客户的 AI 产品，你会想要使用评估来改进你面向内部的 AI 机器人，特别是那些接触代码等真正关键事务的机器人。",
+      "timestamp": "23:14",
+      "speaker": "Claire"
+    }
+  ]
+}

@@ -37,9 +37,9 @@
   },
   "blocked": {},
   "cutoffs": {
-    "lennys": "2026-08-09T12:31:29.000Z",
+    "lennys": "2026-08-10T12:01:44.000Z",
     "pg": "2026-08-06T20:17:48.000Z",
-    "a16z": "2026-08-04T14:56:48.000Z",
+    "a16z": "2026-08-10T10:00:00.000Z",
     "yc": "2026-08-06T19:28:24.000Z",
     "mad": "2026-08-07T18:38:32.000Z",
     "trainingdata": "2026-08-04T09:00:00.000Z",
@@ -283,6 +283,12 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Building Turbopuffer: Gergely Orosz (@pragmaticengineer ) × Simon Eskildsen (CEO)",
       "pubDate": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "id": "2026-08-10-a16z-how-kavak-rebuilt-itself-around-ai-agent",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+      "pubDate": "2026-08-10T10:00:00.000Z"
     }
   ]
 }

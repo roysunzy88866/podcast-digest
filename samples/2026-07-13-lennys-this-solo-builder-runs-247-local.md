@@ -106,8 +106,8 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
 **顺着「智能体」挖下去**
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:anthropic · 同概念:fable、提示词 (prompt)、智能体 (agent)</span>
+- [[2026-08-10-lennys-claude-code-for-normal-people-skills|不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记]]<span class="pd-rz">同公司:chat prd · 同概念:codex、智能体 (agent)、浏览器使用 (browser use)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:soul、智能体 (agent)、浏览器使用 (browser use)</span>
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同概念:codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
