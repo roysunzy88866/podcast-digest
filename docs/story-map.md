@@ -44,6 +44,7 @@
 | C19 | **正文每2-3句自动分段**(2026-08-09 用户拍板,存量+新集全生效):render.mjs:779 后处理按句重切(保护 pd-ts 按钮/双链/行内代码,只拆长段不合并短段,不碰结构块),存量走云端 refresh=all 重刷(读缓存 digest_md 不重跑 GLM)。内容线,与并行 [1301] 有竞态,排 C18 后错开。Gherkin 见 user-stories C19 | US-4, US-11 | 🟡 代码全落(render.mjs segmentBody:按句切、只拆长段、保护 pd-ts/双链/代码,GLM005[1] button 含>加固)+838 测绿(+8)+本地 render daytona 实测(正文全 1-3 句)+GLM 20260809-005;**待云端重刷存量+用户验收** |
 
 | C20 | **详情页内容回归设计稿·两处**(2026-08-09 用户拍板,drift #48):①删「本集关键词」页底斜体行(改 C10 决策,与右栏「这一集涉及」重叠)②「接着看」**保留 US-7+第22轮 🔒 关联原因**、只把排版优化成设计稿干净分组卡片(我曾误判走样,核共识后纠正)。render.mjs(+可能 CSS);内容线需云端重刷 + 错开并行会话 [1301]。Gherkin 见 user-stories C20 | US-1, US-7 | 🟡 代码全落(render.mjs 删 keywordsLine + 接着看 line() 关联原因包 pd-rz span 守 🔒;custom.scss li a 块级+pd-rz 小灰字)+838 测绿+本地 render 实测(本集关键词=0);**待云端重刷存量+用户验收** |
+| C21 | **手机端详情页收尾**(2026-08-10 用户拍板):①去手机吸顶目录 .mtoc(C15 口语体正文无小节 → 目录退化成「本集带走/全部金句/接着看」尾部锚点无导航价值)②「这一集涉及」手机端去重(窄屏右栏原框 .pd-rel 掉正文下 + 页尾克隆 .mrel = 2 个 → 隐藏右栏留克隆)。**纯 CSS(custom.scss),deploy-site 即生效不重渲染**;render 端 mtoc() 目录建造冗余记 tech-debt D51。Gherkin 见 user-stories C21 | US-1 | 🟡 CSS 落 + 838 测绿 + mirror 手机 computed 实测(mtoc/右栏 none、mrel block、可见涉及=1)+ GLM 20260810-007 noise;**待部署+用户验收** |
 
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 

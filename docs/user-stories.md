@@ -2088,3 +2088,35 @@ Scenario: 接着看保留关联原因(守 🔒)、排版对齐设计稿卡片
 4. 本地 build 浏览器实测「接着看」卡片观感对齐设计稿 + 无本集关键词。
 5. GLM 冷喂复核 + adjudicate。
 6. 存量重刷云端跑(与 C19 同批,错开并行会话)。
+
+---
+
+## C21 · 手机端详情页收尾(去吸顶目录 + 涉及去重)
+
+> 2026-08-10 用户拍板:①手机吸顶目录(.mtoc)去掉 —— C15 口语体正文已无小节标题,目录退化成只剩「本集带走/全部金句/接着看」3 个尾部锚点、从尾节开始很奇怪、无正文导航价值;②「这一集涉及」手机端 2 入口去重 —— 窄屏右栏原框 .pd-rel 掉到正文下 + 页尾克隆 .mrel = 2 个,隐藏右栏原框只留页尾克隆。**纯 CSS(custom.scss),deploy-site 即生效,不重渲染**;render 端 mtoc() 仍建隐藏的 .mtoc DOM(+滚动监听)属冗余,记 tech-debt 待清。PC 端本就只右栏 1 个涉及、无 .mtoc/.mrel(PC @media 已 display:none),不受影响。
+
+```gherkin
+Feature: 手机端详情页收尾(US-1)
+
+Scenario: 手机端去掉吸顶折叠目录
+  Given C15 口语体正文无小节标题,手机吸顶目录(.mtoc)只剩「本集带走/全部金句/接着看」尾部锚点
+  When 手机端 CSS 隐藏 .mtoc
+  Then 手机详情页不再出现吸顶折叠目录
+
+Scenario: 「这一集涉及」手机端只留一个入口
+  Given 手机端右栏原框 .pd-rel(窄屏掉到正文下)+ 页尾克隆 .mrel = 2 个「这一集涉及」
+  When 手机端 CSS 隐藏 body:has(.pd-play) .right.sidebar .pd-rel
+  Then 手机详情页只剩页尾克隆 .mrel 一个「这一集涉及」
+  And 页尾克隆源(render.mjs 读 .pd-rel blockquote)不受 display:none 影响(DOM 在,cloneNode 正常)
+
+Scenario: PC 端不受影响
+  Given .mtoc/.mrel 在 @media(min-width:1024) 已 display:none,PC 只右栏 .pd-rel 一个涉及
+  Then PC 端目录/涉及保持原样,只手机端两处生效
+```
+
+### DoD(C21)
+1. custom.scss 手机 @media 块加两条:`.mtoc{display:none}` + `body:has(.pd-play) .right.sidebar .pd-rel{display:none}`。
+2. sass 编译干净 + 全量单测绿。
+3. mirror 手机端实测:无吸顶目录、只 1 个「这一集涉及」(页尾)、无右栏 toc 冒出;PC 端不变。
+4. GLM 冷喂复核 + adjudicate。
+5. tech-debt 记 render 端 mtoc() 目录建造冗余(下次 render 改动时清)。

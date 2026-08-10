@@ -1542,6 +1542,14 @@ body[data-slug^="entities/"] {
   /* 阅读进度:9600px 的长页在手机上必须给进度感 */
   .mtbar { position: absolute; left: 0; bottom: -1px; height: 2px; background: var(--pd-accent); width: 0; transition: width 0.1s linear; }
 
+  /* C21(2026-08-10 用户拍板):①去掉手机吸顶目录 —— C15 口语体正文已无小节标题,目录退化成只剩
+     「本集带走/全部金句/接着看」尾部锚点、无正文导航价值(render 端 mtoc() 仍建隐藏的 .mtoc DOM +
+     滚动监听,属冗余,记 tech-debt 待清);②「这一集涉及」手机端去重 —— 窄屏右栏原框 .pd-rel 掉到
+     正文下 + 页尾克隆 .mrel = 2 个,隐藏详情页手机端右栏只留页尾克隆(克隆源 DOM 仍在,display:none
+     不影响 render.mjs cloneNode)。此前 1545 注释以为右栏手机已隐藏,实测未生效,这里补上。 */
+  .mtoc { display: none; }
+  body:has(.pd-play) .right.sidebar { display: none; }
+
   /* 页尾「这一集涉及」(桌面右栏在手机是 display:none,克隆到页尾同源不漂移) */
   .mrel { display: block; margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--B2); }
   .mrel h3 { font-size: 12px; font-weight: 700; color: #a09a94; letter-spacing: 0.6px; margin: 0 0 10px; }
