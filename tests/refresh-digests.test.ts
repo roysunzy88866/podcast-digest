@@ -18,20 +18,23 @@ import { styleErrs, validate } from "../scripts/condense.mjs";
 const PAD = "这里补足正文长度:嘉宾把增长拆成渠道、产品与耐心三层,并用自己带队十年的例子逐层讲透,中间穿插了三次反直觉的转折。".repeat(4);
 const QUOTES = [1, 2, 3, 4].map((i) => ({ en: `Quote ${i}.`, zh: `金句${i}。`, timestamp: "01:0" + i, speaker: "嘉宾" }));
 
+// 合规稿 = 实质优先新格式:钩子段开头(非标题)+ 本集带走用要点列表(ADR 0020 起列表放行)
 const conformantDigest = {
   title_zh: "标题",
   tldr: "一句话。",
   digest_md:
-    "如果你以为增长靠砸钱,这一集会颠覆你的直觉。\n\n接下来你会听到嘉宾是谁、在聊什么、以及三个最反直觉的判断。\n\n## 主线\n\n" +
+    "如果你以为增长靠砸钱,这一集会颠覆你的直觉。\n\n## 主线\n\n" +
     PAD +
-    "\n\n## 本集带走\n\n一句话收拢:增长的本质是杠杆,渠道、产品、耐心三件事串起来,才是这一集真正想说的。",
+    "\n\n## 本集带走\n\n- 渠道优先:先把一条渠道做透再铺第二条。\n- 产品是杠杆:留存不行,再多流量也漏光。\n- 给耐心:复利按季度看,别按周砍预算。",
   quotes: QUOTES,
 };
 
+// 老腔稿 = 开头就是小节标题、没有钩子段(闸门⑤抓)—— 这才是「待刷」信号;
+// 注意:带走列表腔本身已不再是老腔(ADR 0020 放开),故老腔靠「无钩子」判定。
 const legacyDigest = {
   title_zh: "标题",
   tldr: "一句话。",
-  digest_md: "## 主线\n\n" + PAD + "\n\n## 本集带走\n\n1. 第一点\n2. 第二点\n3. 第三点",
+  digest_md: "## 主线\n\n" + PAD + "\n\n## 本集带走\n\n把三件事串起来就是这一集的答案。",
   quotes: QUOTES,
 };
 
@@ -43,7 +46,7 @@ it("fixture 自检:合规稿 styleErrs 全零且结构合格;老腔稿必被卡�
 });
 
 describe("alreadyConformant · 断点续跑判据(与 C15 浓缩卡点同一份代码,零新增状态)", () => {
-  it("★ C15 腔 digest → true;存量老腔(带走列表腔)→ false", () => {
+  it("★ 合规腔 digest(钩子开头+带走要点)→ true;老腔(开头即小节标题、无钩子)→ false", () => {
     expect(alreadyConformant(conformantDigest)).toBe(true);
     expect(alreadyConformant(legacyDigest)).toBe(false);
   });

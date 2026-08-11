@@ -36,7 +36,8 @@ describe("extractJson", () => {
 });
 
 // ── C15 · 文稿规范升级:开场钩子 + 口语导览 + 口语收尾(docs/user-stories.md「C15」,2026-07-30 用户拍板)──
-// 机器只卡客观项(标签字样/书面自称/工程备注/带走列表腔);「钩子好不好」主观项不机器卡。
+// 机器只卡客观项(标签字样/书面自称/工程备注/带走小节缺失);「钩子好不好」主观项不机器卡。
+// ADR 0020「实质优先」:带走「列表腔」原也卡,已放开 —— 带走=可带走的几条具体要点,允许列表。
 // 存量实证(57 集):「本文将…」6 集、正文工程备注「转写稿/误写为」4 集、带走列表腔 55 集、【】标记只有【背景】一种。
 import { styleErrs, condenseWithRetry } from "../scripts/condense.mjs";
 
@@ -75,9 +76,9 @@ describe("styleErrs · C15 口语体机器卡点", () => {
     expect(styleErrs(md).join()).toContain("工程备注");
     expect(styleErrs(okMd)).toEqual([]); // okMd 的背景块里就带着「转写稿」字样,不拦
   });
-  it("★ 「本集带走」编号列表腔 → 拦;整节缺失 → 拦", () => {
-    const listy = okMd.replace(/最后收个尾[\s\S]*$/, "1. 新模型一出先敢删\n2. 给目标给护栏\n3. 编排一群智能体");
-    expect(styleErrs(listy).join()).toContain("列表");
+  it("★ 「本集带走」现允许要点列表(ADR 0020 放开列表腔);整节缺失 → 仍拦", () => {
+    const listy = okMd.replace(/最后收个尾[\s\S]*$/, "- 新模型一出先敢删\n- 给目标给护栏\n- 编排一群智能体");
+    expect(styleErrs(listy)).toEqual([]);
     const missing = okMd.replace(/## 本集带走[\s\S]*$/, "");
     expect(styleErrs(missing).join()).toContain("本集带走");
   });
