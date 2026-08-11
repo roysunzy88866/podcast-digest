@@ -7,36 +7,43 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Joel de la Garza</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Joel de la Garza">JO</div><div class="pi"><h1 class="pt">Joel de la Garza</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Joel de la Garza">JO</div><div class="pi"><h1 class="pt">Joel de la Garza</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*1 条,均已过机器闸门*
+*4 条,均已过机器闸门*
 
 ![[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t#^q9]]
 
+![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q2]]
+
+![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q3]]
+
+![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q7]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为联合主持
 - [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]] — 作为联合主持
+- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Dylan]] · [[Firas]] · [[Truffle Security]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[软件供应链]] · [[零日漏洞]] · [[NPM 蠕虫]]
+[[软件供应链]] · [[智能体]] · [[Dylan]] · [[Firas]] · [[Truffle Security]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[零日漏洞]]
 
 ## ④ 也在聊「AI 安全」的人
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]] [[Dan]]
+[[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan":2,"Firas":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":2,"软件供应链":2,"零日漏洞":2,"NPM 蠕虫":2}</script>
+<script type="application/json" class="pd-epn">{"软件供应链":3,"智能体":69,"Dylan":2,"Firas":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":2,"零日漏洞":2}</script>
 
 <script>
 (function(){

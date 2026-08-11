@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/7ea50811-6563-4656-abeb-05535ef9cfd6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=7ea50811-6563-4656-abeb-05535ef9cfd6&feed=JGE3yC0V",
+  "duration_sec": 1361.517,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 318,
+  "asr": true,
+  "title_en": "The CISO Playbook for AI Agents | Datadog",
+  "podcast": "The a16z Show",
+  "date": "2026-08-11",
+  "added": "2026-08-11",
+  "speaker_map": {
+    "SPEAKER_01": "Joel de la Garza",
+    "SPEAKER_02": "Emilio Escobar"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Joel de la Garza",
+  "cohosts": [
+    "Emilio Escobar"
+  ],
+  "title_zh": "AI失控了别慌,先盯紧漏洞数量爆炸",
+  "guest_name": "Emilio Escobar",
+  "guest_title": "Datadog CISO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

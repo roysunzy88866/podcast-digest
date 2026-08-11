@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Codex]] · [[智能体]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[Cursor]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Bolt]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Codex":15,"智能体":68,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Cursor":8,"OpenAI":30,"Claude Code":18,"ChatGPT":11,"Bolt":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Codex":15,"智能体":69,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Cursor":9,"OpenAI":30,"Claude Code":18,"ChatGPT":11,"Bolt":1}</script>
 
 <script>
 (function(){

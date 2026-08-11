@@ -124,7 +124,7 @@ AI 甚至会凭空捏造不存在的代码包,而在公开的 AI 训练集里,�
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]]<span class="pd-rz">同嘉宾:Firas、Joel de la Garza · 同公司:Hugging Face、NPM、Socket、Truffle Security · 同概念:NPM 蠕虫 (NPM worm)、前沿模型 (frontier models)、奖励函数 (reward function)、软件供应链 (software supply chain)、零日漏洞 (zero day)、智能体 (agents)</span>
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agents)</span>
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同公司:Hugging Face</span>
+- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同概念:软件供应链 (software supply chain)</span>
 
 </div>
 <div class="pd-ex">
