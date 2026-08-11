@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":69,"沙箱":15,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":70,"沙箱":15,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

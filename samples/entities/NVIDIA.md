@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(00:37起):本场讨论的主办方,Carter 和 Tanay 是其员工;他们发布了包含数据集和权重的 Nemotron 模型,并研发了能动态切换解码权重的 FlexTron 模型蒸馏技术。
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(11:00起):本集提到充满 NVIDIA 芯片的数据中心根本经不起 25 年折旧的推敲，因为 GPU 可能三年就得淘汰，且芯片占数据中心建设成本的 50%。
+- **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(21:41起):本集把它说成:在早期介入并伸出援手的捐赠公司,他们主动询问需求并派人接手了项目大部分的安全研究工作。
 
 ## ① 提到它的金句
 
@@ -39,7 +40,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -56,14 +57,15 @@ unlisted: true
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为被讨论公司
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司(提及)
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[Google]] · [[护栏]] · [[Apple]] · [[ChatGPT]] · [[Jensen Huang]] · [[沙箱]]
+[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[Google]] · [[护栏]] · [[Apple]] · [[ChatGPT]] · [[Jensen Huang]] · [[开放权重模型]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":39,"OpenAI":30,"智能体":69,"Microsoft":9,"Google":15,"护栏":13,"Apple":9,"ChatGPT":11,"Jensen Huang":3,"沙箱":15}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":40,"OpenAI":31,"智能体":70,"Microsoft":9,"Google":15,"护栏":13,"Apple":9,"ChatGPT":11,"Jensen Huang":3,"开放权重模型":4}</script>
 
 <script>
 (function(){

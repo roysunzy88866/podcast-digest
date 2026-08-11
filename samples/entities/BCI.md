@@ -33,7 +33,7 @@ unlisted: true
 
 [[Max Hodak]] · [[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[迭代速度]] · [[AI 基础设施]] · [[归因]] · [[深科技]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":1,"Science":1,"Neuralink":1,"SpaceX":6,"Anthropic":39,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":1,"深科技":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":1,"Science":1,"Neuralink":1,"SpaceX":6,"Anthropic":40,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":1,"深科技":1}</script>
 
 <script>
 (function(){

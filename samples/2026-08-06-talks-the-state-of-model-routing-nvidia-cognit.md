@@ -106,8 +106,8 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA · 同概念:Nemotron、前沿模型 (frontier models)、智能体 (agent)</span>
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:NVIDIA · 同概念:KV 缓存 (KV cache)、OpenClaw、智能体 (agent)</span>
 - [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:OpenClaw、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

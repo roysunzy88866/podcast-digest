@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]]
+[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Incorruptible":1,"Cloudflare":2,"Novo Nordisk":1,"Anthropic":39,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Incorruptible":1,"Cloudflare":2,"Novo Nordisk":1,"Anthropic":40,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

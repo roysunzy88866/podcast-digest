@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]]
+[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":9,"Azure":1,"GitHub":10,"Microsoft 365":1,"MAI":1,"私有评估":1,"测试框架":8,"轨迹":1,"智能体":69}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":9,"Azure":1,"GitHub":10,"Microsoft 365":1,"MAI":1,"私有评估":1,"测试框架":8,"轨迹":1,"智能体":70}</script>
 
 <script>
 (function(){

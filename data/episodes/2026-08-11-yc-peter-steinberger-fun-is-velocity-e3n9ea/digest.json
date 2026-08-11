@@ -1,0 +1,123 @@
+{
+  "title_zh": "OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么",
+  "tldr": "OpenClaw 作者自述八个月从爆红到差点崩溃的全过程、安全维护教训与智能体开发方法。",
+  "digest_md": "一个 39 岁、本已退休的开发者,因为「恼火」花几小时做了个手机控制智能体的工具,八个月后,超过 18,000 人给这个项目提过代码,他的收件箱被记者、VC 和谩骂淹没,他差点一键删掉这整个项目。\n\n这就是 OpenClaw(一个让你能通过 WhatsApp 或 Discord 等聊天软件指挥 AI 智能体执行任务的工具)的诞生与现实。这是它的创造者 Peter 的复盘。\n\n## 灵感来自「恼火」,验证靠「给朋友玩」\n\nPeter 的创意源泉很朴素:被日常摩擦力惹恼。2025 年初(那时 AI 智能体还很慢),他饿了,去厨房找吃的,回来发现智能体因为蠢问题卡住了。他烦的是:当时竟然没有好办法能从手机给电脑发个提示词,去看看他的智能体怎么了。\n\n他把想法嘟囔进终端,让模型自己发挥。一小时后,他做出了一个能从手机通过 WhatsApp 中继控制电脑智能体的原型。为了向 Twitter 上的人证明这玩意儿多神奇,他把朋友们拉进群聊体验。结果发现:技术圈外的人反而反应最强烈,有的惊叹,有的害怕,甚至因为他说「这还不适合你」而生气。他意识到,这就是产品市场契合度。后来有人给这个 WhatsApp 中继工具发了 PR 要加 Discord 支持,他索性把它重命名为 OpenClaw,并在 Discord 上公开构建。第一晚通宵后,项目就病毒式传播了。[05:11 Peter]\n\n## 被爆红压垮:安全报告、配置地狱与平台依赖\n\n热潮的代价是惨痛的。成名的冲击让他差点删库跑路:电话号码被泄露,收件箱成了瀑布,一个月收到的播客邀请比前 39 年加起来还多。但他扛住的压力不只是名声。\n\n最致命的是「功能与配置的失控」。这是个开源项目,维护者免费干活,Peter 觉得自己没资格严格管束大家,于是不断合并新功能。由于每个新功能都要带个配置开关以免破坏老用户的设置,最终全项目的配置排列组合膨胀到了大约 9,500 个。这导致测试根本覆盖不全,经常改崩东西。[16:49 Peter]\n\n接着是安全研究员的狂轰滥炸。媒体曾宣称 OpenClaw 有 20% 的技能是恶意的。Peter 他们扫了全部 67,000 个技能,写了论文证明实际恶意率只有 0.3%。但恐慌跑得永远比辟谣快。为了堵漏,他拼命加沙箱(隔离程序运行环境的机制)、白名单、防符号链接逃逸,甚至为了 TypeScript 缺少某些文件操作原语而去调用 Python。结果呢?用户根本不在乎这些深层的安防措施,反而抱怨更新把东西变慢了、搞坏了他们依赖的功能。[14:11 Peter]\n\n真正让项目「受伤」的,是他过度依赖单一模型平台。OpenClaw 最初是为 Opus 模型优化的。当 Anthropic(该公司)提前 24 小时通知他将禁用所有人的订阅时,他根本没有足够时间转向其他模型。他得出一条血泪教训:你的依赖项的业务模式,就是你的业务模式。[18:45 Peter]\n\n## 活下去的法宝:别跟一个「图个乐」的人竞争\n\n大约在 2 月,Peter 崩溃了,发现自己同时干着两份工作,而且最糟糕的是——他自己都不用 OpenClaw 了,因为他在为了「所有人」做产品。直到他遇到了靠谱的维护者、成立了非营利组织、并获得了 NVIDIA 派人接手安全工作后,他才缓过来。[21:41 Peter]\n\n他重新想通了:为什么要跟别人竞争?如果别人只是为了好玩在做一件事情,你是很难竞争过他的。因为「乐趣就是速度」:在他享受构建的那几周,产品肉眼可见地变好;在不享受的那几周,大家只是在堆砌配置选项。[22:55 Peter] 他强调,开发者最该做的事是听从直觉、修复那些让你恼火的摩擦力,它可能就是下一个大事件。\n\n## 智能体工程的现状与坑\n\n在随后的问答中,Peter 分享了当前用 AI 写代码的实战心法。\n\n关于工作流演进:现在他不再频繁清理会话,因为积累的上下文能帮智能体;最大的转变是让智能体做「主动工作」。比如面对新功能,他会让智能体去启动 12 个子智能体,把项目拆解、写代码、互相做代码审查和压力测试,最后只把做完的功能交给他拍板。[30:14 Peter]\n\n关于代码审查:他现在不再读所有代码,而是把审查当作「风险管理」。改 UI 他不看怎么写的,看一眼效果对就行。但如果一个小改动(比如改拖拽)花了三小时,凭直觉就知道出问题了,才会去细看。[31:25 Peter]\n\n关于最大瓶颈:他认为是可靠性,尤其是算力管理。如果在本地跑测试开 16 个线程,10 个会话一起跑就会有两个超时。做 Web 的云会话很容易,但一旦涉及 macOS 或调用本机依赖,99% 的工具都会失效。他现在甚至还得靠屏幕共享(Jump Desktop)连到工作室机器去跑任务,因为没有好用的系统能可靠地调度这批机器。[35:00 Peter]\n\n关于「始终在线」的智能体:技术上今天就能做,卡点在于 Token 成本和调度逻辑。他早期的「心跳检查」机制太蠢:如果一小时内对整个大会话做一次心跳检查,由于 KV 缓存(大模型存放上下文的地方)已被清空,系统会把 60 万个 Token 重新发回服务器,花巨资做无用功。[37:31 Peter]\n\n## 本集带走\n\n- **别给开源项目无脑加功能**:合并新功能等于领养一堆你看不懂的代码,配置项一旦组合爆炸(如 9,500 个),项目就会因测试覆盖不全而崩塌。\n- **警惕平台依赖**:如果你深度绑定某个闭源模型 API,对方改一次政策就能在你 24 小时内要你的命;你的依赖项的业务模式,就是你的业务模式。\n- **安全加固要克制**:用户喜欢「安全」这个词,但如果你为了加沙箱和安防层,把东西变慢、改崩了用户的设置,用户只会骂你。\n- **把代码审查当风险管理**:不必逐行读。凭直觉判断耗时是否异常,核心危险系统细看,无关紧要的(如 UI 实现)扫一眼即可。\n- **用「子智能体」分担脑力**:面对复杂任务,启动十几个子智能体去拆解、测试和审查,人只做最后拍板的那一下。\n- **乐趣是最高效的生产力**:当你为了好玩去构建时,产品进步最快;一旦变成纯责任的苦差事,产出质量直线下降。\n- **做产品先找自己和朋友**:第一号用户必须是你自己,第 2 到 20 号用户找朋友;如果连你自己都对它兴奋不起来,这产品就做不下去。",
+  "quotes": [
+    {
+      "en": "Everything you can build can be forked or cloned, but your name cannot.",
+      "zh": "你构建的任何东西都可以被复刻或克隆,但你的名字不能。",
+      "timestamp": "12:49",
+      "speaker": "Peter Steinberger"
+    },
+    {
+      "en": "your dependencies business model is your business model",
+      "zh": "你的依赖项的业务模式就是你的业务模式。",
+      "timestamp": "18:45",
+      "speaker": "Peter Steinberger"
+    },
+    {
+      "en": "It's hard to compete with someone who's just there having fun.",
+      "zh": "很难与一个只是在那儿享乐的人竞争。",
+      "timestamp": "22:50",
+      "speaker": "Peter Steinberger"
+    },
+    {
+      "en": "User number one should be you.",
+      "zh": "第一号用户应该是你自己。",
+      "timestamp": "32:32",
+      "speaker": "Peter Steinberger"
+    },
+    {
+      "en": "Fun is the ultimate driver so you can get the best ideas.",
+      "zh": "乐趣是终极驱动力,这样你才能获得最好的想法。",
+      "timestamp": "26:34",
+      "speaker": "Peter Steinberger"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "You know, my source of inspiration is usually being annoyed.",
+      "zh": "你知道,我的灵感来源通常是被惹恼。",
+      "timestamp": "01:18",
+      "speaker": "Peter"
+    },
+    {
+      "en": "So if that's not an indicator to have product market fit, I don't know what is.",
+      "zh": "所以如果这不是产品市场契合度的指标,我不知道什么才是。",
+      "timestamp": "05:11",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Be careful what you wish for.",
+      "zh": "小心你许下的愿望。",
+      "timestamp": "10:17",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Everything you can build can be forked or cloned, but your name cannot.",
+      "zh": "你构建的任何东西都可以被复刻或克隆,但你的名字不能。",
+      "timestamp": "12:49",
+      "speaker": "Peter"
+    },
+    {
+      "en": "your dependencies business model is your business model",
+      "zh": "你的依赖项的业务模式就是你的业务模式。",
+      "timestamp": "18:45",
+      "speaker": "Peter"
+    },
+    {
+      "en": "A hype is like the weather.",
+      "zh": "炒作就像天气。",
+      "timestamp": "19:26",
+      "speaker": "Peter"
+    },
+    {
+      "en": "It's hard to compete with someone who's just there having fun.",
+      "zh": "很难与一个只是在那儿享乐的人竞争。",
+      "timestamp": "22:50",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Fun is velocity.",
+      "zh": "乐趣就是速度。",
+      "timestamp": "22:55",
+      "speaker": "Peter"
+    },
+    {
+      "en": "The weeks I enjoyed building, the product got visibly better.",
+      "zh": "我享受构建的那几周,产品明显变得更好了。",
+      "timestamp": "22:58",
+      "speaker": "Peter"
+    },
+    {
+      "en": "The weeks I didn't, we shared config options.",
+      "zh": "那些我不享受的几周,我们分享了配置选项。",
+      "timestamp": "23:03",
+      "speaker": "Peter"
+    },
+    {
+      "en": "I see code review more as risk management.",
+      "zh": "我更多地看待代码审查为风险管理。",
+      "timestamp": "31:25",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Reliability.",
+      "zh": "可靠性。",
+      "timestamp": "34:58",
+      "speaker": "Peter"
+    },
+    {
+      "en": "User number one should be you.",
+      "zh": "第一号用户应该是你自己。",
+      "timestamp": "32:32",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Fun is the ultimate driver so you can get the best ideas.",
+      "zh": "乐趣是终极驱动力,这样你才能获得最好的想法。",
+      "timestamp": "26:34",
+      "speaker": "Peter"
+    }
+  ]
+}

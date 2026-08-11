@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish":1,"Harrison":1,"Traversal":1,"智能体":69,"生产世界模型":1,"可观测性":1,"遥测数据":1,"上下文":4,"文件系统":3,"评估":6}</script>
+<script type="application/json" class="pd-epn">{"Anish":1,"Harrison":1,"Traversal":1,"智能体":70,"生产世界模型":1,"可观测性":1,"遥测数据":1,"上下文":4,"文件系统":3,"评估":6}</script>
 
 <script>
 (function(){

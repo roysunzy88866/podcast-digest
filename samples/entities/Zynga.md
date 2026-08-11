@@ -31,7 +31,7 @@ unlisted: true
 
 [[Mark Pincus]] · [[Lenny]] · [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Mark Pincus":1,"Lenny":34,"已验证、更好、全新":1,"产品市场契合度":4,"留存率":1,"分发":3,"智能体":69,"社交网络":1,"微管理":2,"OpenAI":30}</script>
+<script type="application/json" class="pd-epn">{"Mark Pincus":1,"Lenny":34,"已验证、更好、全新":1,"产品市场契合度":4,"留存率":1,"分发":3,"智能体":70,"社交网络":1,"微管理":2,"OpenAI":31}</script>
 
 <script>
 (function(){

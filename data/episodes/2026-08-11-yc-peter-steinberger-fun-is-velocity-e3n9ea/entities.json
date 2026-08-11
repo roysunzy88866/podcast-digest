@@ -1,0 +1,538 @@
+{
+  "episode_id": "2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-11",
+  "tags": [
+    "开源项目",
+    "AI 智能体",
+    "产品哲学",
+    "代码审查",
+    "平台依赖风险"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "peter-steinberger",
+      "type": "person",
+      "role": "host",
+      "name": "Peter Steinberger",
+      "file": "Peter Steinberger",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集把它说成:一个让你能通过 WhatsApp 或 Discord 等聊天软件指挥 AI 智能体执行任务的开源工具。八个月内获得超 18,000 人贡献代码,经历过病毒式爆红与 Anthropic 政策变动的生死考验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            67.199,
+            70.142
+          ],
+          "quote": "How is OpenClaw only eight months old?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            545.68,
+            546.181
+          ],
+          "quote": "OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            878.617,
+            880.337
+          ],
+          "quote": "Discovered OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1081.481,
+            1090.428
+          ],
+          "quote": "I built OpenClaw with Codex and GPT, but the harness for a long time really worked the best and was optimized for Opus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1412.179,
+            1415.18
+          ],
+          "quote": "I'm proud of one thing that OpenClaw achieved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1527.813,
+            1530.615
+          ],
+          "quote": "And this is kind of what matters why OpenClaw exists at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1558.645,
+            1568.094
+          ],
+          "quote": "So we also finally are building OpenClaw with OpenClaw again, but this time with a twist where everyone sees each other's session on a team server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1716.907,
+            1718.128
+          ],
+          "quote": "And what's next for OpenClaw?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2021.274,
+            2026.957
+          ],
+          "quote": "If you could back and change one thing about OpenClaw, what would you change?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成:要求 OpenClaw 改名的公司,也是因为提前 24 小时通知禁用所有人的模型订阅,导致过度依赖其 Opus 模型的 OpenClaw 受到重创的平台方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            529.092,
+            535.558
+          ],
+          "quote": "Anthropic sent an email demanding the name change and, like, dropped the lobster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1065.948,
+            1068.951
+          ],
+          "quote": "Really hurt the project was Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾选择合作的大模型实验室。他们为嘉宾的项目提供了 Token 支持,且嘉宾自己也在此工作(拥有与开源项目不同的代码审查风险管理标准)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            131.33,
+            137.955
+          ],
+          "quote": "OpenAI had 03, which was the most impressive one, but also really slow and expensive at times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            808.39,
+            811.552
+          ],
+          "quote": "And my gut told me that I like OpenAI the most.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            953.407,
+            960.792
+          ],
+          "quote": "I worked on my own one and you know OpenAI is its own world that is interesting and demanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1115.186,
+            1119.368
+          ],
+          "quote": "And the early OpenAI models simply lacked character.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1239.036,
+            1247.039
+          ],
+          "quote": "And because all these people were like giving the rumor mill, oh, OpenCloud is owned by OpenAI, I didn't want to take too much help from OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2394.171,
+            2401.557
+          ],
+          "quote": "It's a different risk management than if I do software at OpenAI, where we do still read all of the code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成:在早期介入并伸出援手的捐赠公司,他们主动询问需求并派人接手了项目大部分的安全研究工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1301.627,
+            1307.51
+          ],
+          "quote": "I also need to give NVIDIA a special shout out because they were very early and they simply asked me what I need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能自主执行任务(如写代码、互相代码审查、压力测试)的程序。可以通过 WhatsApp/Discord 或语音来控制,目前最大的基础设施瓶颈是可靠性与计算资源管理,下一步愿景是实现始终在线、多模态的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            104.013,
+            107.695
+          ],
+          "quote": "So some agent could check up how my agent's actually doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            138.615,
+            142.438
+          ],
+          "quote": "And I got a dopamine hit when my agent did something right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            154.492,
+            158.335
+          ],
+          "quote": "Did I not give my agent everything they need to verify their work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            166.179,
+            171.082
+          ],
+          "quote": "So I came back from the kitchen and my coding agent stopped because of something silly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            469.448,
+            473.87
+          ],
+          "quote": "So while I was walking into the bedroom, my agent happily started answering God and the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            576.733,
+            577.673
+          ],
+          "quote": "My agent did the math.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            911.313,
+            917.537
+          ],
+          "quote": "To ensure your agent stays in the workspace, it doesn't follow symlinks, and that the configuration files are written atomically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1218.898,
+            1220.278
+          ],
+          "quote": "One of them had a grocery agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1358.792,
+            1366.678
+          ],
+          "quote": "These days, I get annoyed when I have to use software where I can't just send a prompt to my agent to change it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1475.652,
+            1480.516
+          ],
+          "quote": "We still don't have an agent that's always on, always syncing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1531.716,
+            1533.818
+          ],
+          "quote": "Every lab will sell you an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1548.172,
+            1551.214
+          ],
+          "quote": "Your agent, your machine, your life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1579.87,
+            1588.975
+          ],
+          "quote": "Slowly, this weird blip in the future where people work in terminals and run around with their laptops open because the agent needs to keep working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1658.724,
+            1664.989
+          ],
+          "quote": "Clearing your session sometimes is even a disadvantage because there's so much information in there that helps the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1667.652,
+            1676.097
+          ],
+          "quote": "But the big thing that shifted is I try to make the agent do more proactive work for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1699.236,
+            1706.08
+          ],
+          "quote": "It's so easy that you just discuss the feature deal with an agent, you build it, you make screenshots, you let me play with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1838.2,
+            1845.365
+          ],
+          "quote": "Each sub-agent would stress test a feature or code review a feature and then inform the other session where to focus testing on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2057.122,
+            2062.787
+          ],
+          "quote": "And most of them really sent reports that their agent produced without actually even testing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2379.406,
+            2382.387
+          ],
+          "quote": "Otherwise, you'll fight with the agent for the mouse cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open-weight models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集把它说成:项目早期支持的模型方案,但当时表现还不够好;如今质量已经大幅提升,被印证是可以让数据不离开本地设备的替代方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1104.881,
+            1107.442
+          ],
+          "quote": "I mean, sure, we support open-weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1134.916,
+            1136.777
+          ],
+          "quote": "Open weight models are actually good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集把它说成:一种风险管理手段。主张不再逐行读所有代码:无关紧要的 UI 实现扫一眼即可,核心危险系统细看;同时也可凭直觉判断耗时是否异常来决定是否深查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            1838.2,
+            1845.365
+          ],
+          "quote": "Each sub-agent would stress test a feature or code review a feature and then inform the other session where to focus testing on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1885.54,
+            1890.301
+          ],
+          "quote": "I see code review more as risk management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1927.839,
+            1933.702
+          ],
+          "quote": "But otherwise, part of code review is simply like observing, looking how big a change is and trusting your gut.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subagents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集把它说成:分担脑力和主动工作的工具。面对新功能时,可启动 12 个子智能体,让它们各自拆解项目、写代码、互相做代码审查和压力测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 426,
+          "t": [
+            1814.089,
+            1836.592
+          ],
+          "quote": "orchestration trained into models so they really understand and know to use subagents we have computer use we have browser use like all of that together is like your perfect Q&A environment like i did that yesterday where i spin up codex use 12 subagents understand my project break it down into features and then each",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "本集把它说成:大模型存放上下文的地方。如果在大型会话中做心跳检查,缓存已被清空,系统会把 60 万个 Token 重新发回服务器,导致成本浪费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 503,
+          "t": [
+            2299.178,
+            2314.087
+          ],
+          "quote": "And that means you send 600,000 tokens back to the server after the KV cache cleared, and you pay a stupidly amount of money for a lot of not useful work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

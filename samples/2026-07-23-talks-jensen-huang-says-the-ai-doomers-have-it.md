@@ -115,8 +115,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:Nemotron、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Microsoft</span>
-- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI</span>
 
 </div>
 <div class="pd-ex">

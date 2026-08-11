@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]]
+[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":1,"智能体":69,"开源模型":4,"微调":1,"业务逻辑":1,"前置部署工程师":4,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":1,"智能体":70,"开源模型":4,"微调":1,"业务逻辑":1,"前置部署工程师":4,"Duet":1}</script>
 
 <script>
 (function(){

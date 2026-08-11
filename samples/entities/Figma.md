@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[GitHub]] · [[Claude Code]] · [[Notion]] · [[Lenny]] · [[MCP]] · [[Cursor]] · [[Anthropic]] · [[Slack]] · [[Jenny Wen]]
 
-<script type="application/json" class="pd-epn">{"智能体":69,"GitHub":10,"Claude Code":18,"Notion":5,"Lenny":34,"MCP":6,"Cursor":9,"Anthropic":39,"Slack":15,"Jenny Wen":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":70,"GitHub":10,"Claude Code":18,"Notion":5,"Lenny":34,"MCP":6,"Cursor":9,"Anthropic":40,"Slack":15,"Jenny Wen":1}</script>
 
 <script>
 (function(){

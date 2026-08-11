@@ -31,7 +31,7 @@ unlisted: true
 
 [[Anthropic]] · [[NVIDIA]] · [[Apple]] · [[Microsoft]] · [[McKinsey]] · [[Benedict Evans]] · [[Theo Browne]] · [[Philip Johnston]] · [[Satya Nadella]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":39,"NVIDIA":15,"Apple":9,"Microsoft":9,"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Philip Johnston":1,"Satya Nadella":2,"Lenny":34}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":40,"NVIDIA":16,"Apple":9,"Microsoft":9,"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Philip Johnston":1,"Satya Nadella":2,"Lenny":34}</script>
 
 <script>
 (function(){

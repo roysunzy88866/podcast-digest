@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>39</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>40</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -50,6 +50,7 @@ unlisted: true
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(00:59起):本集提到它推出了 Claude 认证架构师考试,并且知道人们如何使用他们的系统以及会遇到什么问题。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(05:38起):本集提到它在当前极度激烈的招聘市场里是 Cursor 竞争对手,会给候选人开出天价薪资 offer,且传闻不让候选人谈判薪酬。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(04:39起):本集两次提到:一次说员工在那不会为 3000 美元采购被纠缠;一次说它有 GPU 内核优化这种抗 AI 作业
+- **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(08:49起):本集把它说成:要求 OpenClaw 改名的公司,也是因为提前 24 小时通知禁用所有人的模型订阅,导致过度依赖其 Opus 模型的 OpenClaw 受到重创的平台方。
 
 ## ① 提到它的金句
 
@@ -65,7 +66,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*39 集*
+*40 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
@@ -106,14 +107,15 @@ unlisted: true
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为被讨论公司
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司(提及)
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司(提及)
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Google]] · [[Claude]] · [[NVIDIA]] · [[Claude Code]] · [[Microsoft]] · [[AGI]] · [[Meta]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[Claude]] · [[Claude Code]] · [[Microsoft]] · [[AGI]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":69,"OpenAI":30,"Lenny":34,"Google":15,"Claude":12,"NVIDIA":15,"Claude Code":18,"Microsoft":9,"AGI":8,"Meta":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":70,"OpenAI":31,"Lenny":34,"Google":15,"NVIDIA":16,"Claude":12,"Claude Code":18,"Microsoft":9,"AGI":8,"Meta":12}</script>
 
 <script>
 (function(){

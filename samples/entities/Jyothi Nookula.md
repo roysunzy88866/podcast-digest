@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":12,"Claude Code":18,"智能体":69,"对抗性智能体":1,"MCP":6,"知识库":1,"技能":3,"vibe coding":7,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":12,"Claude Code":18,"智能体":70,"对抗性智能体":1,"MCP":6,"知识库":1,"技能":3,"vibe coding":7,"红队测试":2}</script>
 
 <script>
 (function(){

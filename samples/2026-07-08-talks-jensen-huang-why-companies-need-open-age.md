@@ -132,8 +132,8 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 **顺着「智能体」挖下去**
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)、智能体 (agent)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同公司:LangChain · 同概念:harness、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

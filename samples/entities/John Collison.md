@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":69,"LLM":6,"推荐系统":1,"监督学习":1,"强化学习":7,"transformer":2,"创造性破坏":1,"Anthropic":39}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":70,"LLM":6,"推荐系统":1,"监督学习":1,"强化学习":7,"transformer":2,"创造性破坏":1,"Anthropic":40}</script>
 
 <script>
 (function(){

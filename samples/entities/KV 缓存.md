@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>KV 缓存 (KV cache)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="KV 缓存">KV</div><div class="pi"><h1 class="pt">KV 缓存 (KV cache)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="KV 缓存">KV</div><div class="pi"><h1 class="pt">KV 缓存 (KV cache)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(18:53起):系统中决定成本的关键因素;Cognition 的 sidekick 机制因为能让上下文保持在 KV 缓存中,使得所有缓存 token 的成本便宜 10 倍。
+- **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(38:19起):本集把它说成:大模型存放上下文的地方。如果在大型会话中做心跳检查,缓存已被清空,系统会把 60 万个 Token 重新发回服务器,导致成本浪费。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
+- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tane]] · [[Carter]] · [[Walden]] · [[模型路由]] · [[智能体]] · [[上下文压缩]] · [[RL]] · [[蒸馏]] · [[Cognition]] · [[OpenRouter]]
+[[智能体]] · [[NVIDIA]] · [[OpenClaw]] · [[Tane]] · [[Peter Steinberger]] · [[Carter]] · [[Anthropic]] · [[Walden]] · [[OpenAI]] · [[模型路由]]
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"Walden":1,"模型路由":1,"智能体":69,"上下文压缩":1,"RL":1,"蒸馏":6,"Cognition":5,"OpenRouter":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":70,"NVIDIA":16,"OpenClaw":7,"Tane":1,"Peter Steinberger":3,"Carter":1,"Anthropic":40,"Walden":1,"OpenAI":31,"模型路由":1}</script>
 
 <script>
 (function(){

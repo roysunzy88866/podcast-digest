@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":3,"Snowflake":2,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":69}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":3,"Snowflake":2,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":70}</script>
 
 <script>
 (function(){

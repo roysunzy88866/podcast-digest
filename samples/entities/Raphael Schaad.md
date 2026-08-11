@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenClaw":6,"智能体":69,"Codex":15,"Claude Code":18,"MCP":6,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":7,"智能体":70,"Codex":15,"Claude Code":18,"MCP":6,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
 
 <script>
 (function(){

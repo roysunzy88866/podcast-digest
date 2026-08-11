@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[品味]] · [[Edwin Chen]] · [[Andrew Ambrosino]]
 
-<script type="application/json" class="pd-epn">{"智能体":69,"Lenny":34,"Anthropic":39,"ChatGPT":11,"OpenAI":30,"Claude Code":18,"Claude":12,"品味":4,"Edwin Chen":1,"Andrew Ambrosino":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":70,"Lenny":34,"Anthropic":40,"ChatGPT":11,"OpenAI":31,"Claude Code":18,"Claude":12,"品味":4,"Edwin Chen":1,"Andrew Ambrosino":1}</script>
 
 <script>
 (function(){
