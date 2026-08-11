@@ -107,3 +107,10 @@
   - 背景:C21 用户拍板去掉手机吸顶目录,当前用 CSS `.mtoc{display:none}` 隐藏(快、deploy-site 即生效、不重渲染)。但 `scripts/render.mjs` 的 mtoc()(内联客户端脚本)仍在**建 .mtoc DOM + insertBefore 到第一节前 + mtocScroll 滚动监听**(监听操作已隐藏元素,浪费;正文按 C15 口语体已无小节 → 目录本就退化)。
   - 还债:把 mtoc() 拆成「只建页尾 .mrel 克隆」—— 删目录建造(.mtoc/.mtt/.mtm/.mtbar)与 mtocScroll,并让 .mrel 克隆**独立**(不再受 `if(items.length<2) return` 影响,总是尝试克隆右栏 .pd-rel)。
   - **还债时机**:需重渲染所有 samples(build-pages),故攒到**下次 render.mjs 改动**一起做,避免为清冗余单独跑一轮重渲染+竞态推送。CSS 隐藏在此之前一直有效,用户无感。
+
+- **D52 · 集页配图/分享图不对**(2026-08-11,C22 结项遗留,用户报)
+  - 背景:用户验收 C22 时指出「图片不对」,并说打算**统一重做内容图片**,故暂不单独修、记债。当前两处可疑(确切症状待用户重做时坐实,本条未逐一核死):
+    - **① 无源封面的集**:C22 把 og:image(socialImage)兜底成**首页默认卡片图** `index-og-image.webp`(seo.mjs `DEFAULT_OG_IMAGE` + `socialImagePath`)→ 分享这类集时卡片图是「首页那张」、非本集专属,观感不对。
+    - **② 有源封面的集**:og:image 指 `/covers/<id>.jpg`(cover.mjs 从源站 og:image 抓的图)—— 图本身是否准确/清晰/与内容相配,待核。
+  - 还债:用户「内容图片」方案定了后,一并复核 C22 socialImage 逻辑 —— 无源封面时是否改成**生成本集专属 og 卡片**(og-image 插件的 satori 生成路径,首页已在用 `<slug>-og-image.webp`)而非套首页图;有源封面时确认 /covers 抓图质量。
+  - **还债时机**:随用户重做内容图片方案一起做(涉及 render.mjs 重渲染全部 samples,攒一起避免单独重渲染 + 竞态推送)。当前 SEO 其余五项(canonical/og:type/首页简介/JSON-LD/llms.txt)不受此影响,已线上生效。
