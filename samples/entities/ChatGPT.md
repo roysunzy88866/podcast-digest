@@ -55,7 +55,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[Waymo]] · [[OpenAI]] · [[主观能动性]] · [[NVIDIA]] · [[Anthropic]] · [[强化学习]] · [[Google]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":68,"Lenny":34,"Waymo":7,"OpenAI":30,"主观能动性":8,"NVIDIA":15,"Anthropic":38,"强化学习":6,"Google":15,"Claude":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":68,"Lenny":34,"Waymo":7,"OpenAI":30,"主观能动性":8,"NVIDIA":15,"Anthropic":39,"强化学习":7,"Google":15,"Claude":12}</script>
 
 <script>
 (function(){

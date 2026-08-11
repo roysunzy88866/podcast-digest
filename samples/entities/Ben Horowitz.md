@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]]
+[[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":15,"Andreessen Horowitz":1,"Anthropic":38,"Hugging Face":7,"DeepSeq":1,"Thinking Machines":1,"Mistral":4,"开源":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":15,"Andreessen Horowitz":1,"Anthropic":39,"Hugging Face":7,"DeepSeq":1,"Thinking Machines":1,"Mistral":4,"开源":2}</script>
 
 <script>
 (function(){

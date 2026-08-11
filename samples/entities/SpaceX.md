@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SpaceX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,24 +16,26 @@ unlisted: true
 - **[[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]]**(04:00起):本集将其作为海洋探索的标杆（希望 Ulysses 成为海洋的 SpaceX），并提到它是 Radiant 创始人曾工作 12 年并参与火星燃料设计的地方。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(45:55起):本集把它说成:Elon 旗下的公司,追求目前对人类最宏大的使命,拥有最乐观、亲人类的愿景
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(00:15起):嘉宾指出 SpaceX 生产的 Starship 正在将发射成本大幅降低，并提到 SpaceX 自身也宣布了在太空中建立数据中心的计划，此外双方签了激光终端的合同。
+- **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(25:40起):本集说它内部有一个叫 Warp Speed 的庞大软件跑制造和研发流程,且 20% 是火星殖民狂热者、80% 是严肃工程师
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司
+- [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[Alex]] · [[Microsoft]] · [[Google]] · [[AGI]] · [[资本支出]] · [[蒸馏]] · [[Ranjan Roy]]
+[[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Alex]] · [[Microsoft]] · [[强化学习]] · [[Google]] · [[AGI]] · [[资本支出]] · [[蒸馏]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":30,"NVIDIA":15,"Anthropic":38,"Alex":2,"Microsoft":9,"Google":15,"AGI":8,"资本支出":3,"蒸馏":6,"Ranjan Roy":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":39,"OpenAI":30,"NVIDIA":15,"Alex":2,"Microsoft":9,"强化学习":7,"Google":15,"AGI":8,"资本支出":3,"蒸馏":6}</script>
 
 <script>
 (function(){

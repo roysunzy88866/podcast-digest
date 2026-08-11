@@ -1,0 +1,912 @@
+{
+  "episode_id": "2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-10",
+  "tags": [
+    "深科技创业",
+    "基础设施",
+    "招聘漏斗",
+    "脑机接口",
+    "vibe coding"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "max-hodak",
+      "type": "person",
+      "role": "host",
+      "name": "Max Hodak",
+      "file": "Max Hodak",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.313,
+            8.755
+          ],
+          "quote": "My name is Max Hodak.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "type": "company",
+      "role": "company",
+      "name": "Science",
+      "file": "Science",
+      "primary": true,
+      "how_described": "本集说它是 Max Hodak 创办的脑机接口深科技公司,主要产品是视网膜假体,内部构建了名为 Helix 的软件系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.716,
+            11.679
+          ],
+          "quote": "I'm the CEO of a company called Science.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            47.545,
+            51.288
+          ],
+          "quote": "At our company, Science, our main product is a retinal prosthesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3006.686,
+            3008.866
+          ],
+          "quote": "That material science is a very open-ended field.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3008.886,
+            3013.027
+          ],
+          "quote": "If you're interested in material science, that is a thing that we need progress in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3200.964,
+            3205.206
+          ],
+          "quote": "Science, the company, very special is that it has both of those cultures and is able to integrate them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neuralink",
+      "type": "company",
+      "role": "company",
+      "name": "Neuralink",
+      "file": "Neuralink",
+      "primary": true,
+      "how_described": "本集说 Max 曾在这里为 CEO 工作 5 年,学到了靠口述传统和强化学习校准判断力的经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1754.83,
+            1756.892
+          ],
+          "quote": "What did you take away from your experience at Neuralink?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1762.022,
+            1768.928
+          ],
+          "quote": "I spent five years running a company for my CEO at Neuralink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1791.566,
+            1799.093
+          ],
+          "quote": "And so I think one of the most valuable things for me at Neuralink was I was working with someone who has empirically excellent judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3050.233,
+            3053.514
+          ],
+          "quote": "So when we started the company, I came from Neuralink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3053.554,
+            3055.855
+          ],
+          "quote": "Four of my five co-founders came from Neuralink.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集说它内部有一个叫 Warp Speed 的庞大软件跑制造和研发流程,且 20% 是火星殖民狂热者、80% 是严肃工程师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            1540.872,
+            1544.593
+          ],
+          "quote": "And the best rocket scientists are at SpaceX and Blue Origin and others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2299.782,
+            2307.387
+          ],
+          "quote": "SpaceX and Tesla internally have a pretty giant piece of software called Warp Speed that runs a lot of their manufacturing and R&D processes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3145.118,
+            3158.181
+          ],
+          "quote": "So in my time hanging out around the periphery of SpaceX, I observed that like at least circa seven or eight years ago, probably like 20% of that company is what you might characterize as committed Martian colonists.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集两次提到:一次说员工在那不会为 3000 美元采购被纠缠;一次说它有 GPU 内核优化这种抗 AI 作业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            279.669,
+            282.991
+          ],
+          "quote": "And if they were at Anthropic, they're not going to be getting hassled over a $3,000 purchase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            853.629,
+            864.234
+          ],
+          "quote": "Anthropic had a really interesting take on the AI-resistant homework where they've had a couple of tasks where there's like, it's like the GPU kernel optimization, like what is the minimum number of cycles you can get it down to?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "netsuite",
+      "type": "company",
+      "role": "company",
+      "name": "NetSuite",
+      "file": "NetSuite",
+      "primary": false,
+      "how_described": "本集拿它当难用的商业 ERP 反面教材:没人想花更多时间在 NetSuite 里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 469,
+          "t": [
+            2274.775,
+            2278.638
+          ],
+          "quote": "I don't know there's anyone who's really like, I want to spend more time in NetSuite.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "type": "company",
+      "role": "company",
+      "name": "Greenhouse",
+      "file": "Greenhouse",
+      "primary": false,
+      "how_described": "本集说 Science 最初用的商业 ATS,后来被内部软件取代,因为它在第一漏斗阶段会制造瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 484,
+          "t": [
+            2339.135,
+            2342.737
+          ],
+          "quote": "But like I said, it's like we previously had used, we used Greenhouse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2344.078,
+            2349.561
+          ],
+          "quote": "Greenhouse required us to have a small number of people as a bottleneck at that first funnel stage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "helix",
+      "type": "concept",
+      "role": "concept",
+      "name": "Helix",
+      "file": "Helix",
+      "primary": true,
+      "how_described": "本集说它是 Science 公司内部构建的一套软件系统:采购、制造每一步、招聘投票全在里面,并把一切信息塞进一个数据库交给 AI 智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            469.638,
+            472.322
+          ],
+          "quote": "We call it Helix, including stuff like purchasing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1011.845,
+            1018.21
+          ],
+          "quote": "Every couple of weeks, every four to six weeks, it's not that often, people around the company get pinged with a question through the software, through Helix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2130.489,
+            2133.149
+          ],
+          "quote": "So for us in Helix, really everything goes in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "iteration",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代速度 (iteration)",
+      "file": "迭代速度",
+      "primary": true,
+      "how_described": "本集核心判断:rate of iteration 把成功和失败区分开;若你每周学一件事对手每月才学一件,复利效应下对手永远无关紧要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            482.675,
+            490.482
+          ],
+          "quote": "And these like, again, so it turns out that for every iteration of a wafer that we make, in this case, for this protocol, it costs $40,000.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1073.839,
+            1081.603
+          ],
+          "quote": "For example, we apply dropout where we'll run a thousand iterations where we'll randomly remove some percentage of the edges each iteration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1127.78,
+            1131.141
+          ],
+          "quote": "is that rate of iteration separates success from failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1131.941,
+            1137.023
+          ],
+          "quote": "And if you can get a fast iteration loop, that really overcomes many other things you're going to run into.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1147.887,
+            1167.029
+          ],
+          "quote": "Overwhelmingly, if you're looking at two different approaches to solve a problem, if there's one that allows you to compound in a much shorter amount of time than the other, even if the other approach has significant redeeming characteristics, you should really consider going with the shorter iteration cycle because the compounding effect is just so dramatic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1212.713,
+            1219.458
+          ],
+          "quote": "So we heavily lean towards things that have shorter iteration cycles, kind of all else equal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础设施 (infrastructure)",
+      "file": "基础设施",
+      "primary": true,
+      "how_described": "本集说采购、招聘、预算、安全、质量等支持系统就是公司的操作系统,基础设施决定速度,速度决定成败",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            12.58,
+            16.125
+          ],
+          "quote": "We're going to talk a little bit about infrastructure at startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            112.623,
+            115.085
+          ],
+          "quote": "We're going to talk about infrastructure and lessons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            534.885,
+            538.507
+          ],
+          "quote": "This is a thing that actually, this infrastructure actually determines success or failure in many companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1169.053,
+            1172.554
+          ],
+          "quote": "So speed determines success and failure and speed is determined by infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1198.182,
+            1205.568
+          ],
+          "quote": "They fail because once you end up with this organization of hundreds of people and hundreds of thousands of square feet of physical infrastructure, you haven't built the systems to manage that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1452.414,
+            1455.995
+          ],
+          "quote": "So speed is determined by infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2262.806,
+            2265.748
+          ],
+          "quote": "Why build your own infrastructure platforms rather than just buying them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2775.789,
+            2788.617
+          ],
+          "quote": "I mean, I think other than speed being the basis of success and infrastructure determines your speed, it is important to appreciate that there are no general principles.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "attribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "归因 (attribution)",
+      "file": "归因",
+      "primary": true,
+      "how_described": "本集说深科技真正的难题不是采购而是成本归因:大批量进货再分发给几十个实验,导致没人知道单个实验真实花多少钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            371.122,
+            371.982
+          ],
+          "quote": "The problem is attribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            412.03,
+            415.933
+          ],
+          "quote": "Now, when you do this, this attribution is pretty difficult.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "深科技 (deep tech)",
+      "file": "深科技",
+      "primary": true,
+      "how_described": "本集说深科技公司因技术不工作而失败的情况并不常见,失败通常是因为数百人和物理基础设施扩张后没建起管理系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            160.687,
+            171.557
+          ],
+          "quote": "Very repeatedly coming up that are universal experiences, at least for deep tech companies, which is the thing that I know most of my experiences in, not just pure software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1194.741,
+            1197.842
+          ],
+          "quote": "It's uncommon that these deep tech companies fail because the technology doesn't work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1632.084,
+            1639.508
+          ],
+          "quote": "There's a bunch of Silicon Valley deep tech companies that are basically built out of formula SAE winners from college.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2706.114,
+            2714.959
+          ],
+          "quote": "For us, even though we are seen as this, I think, very open-ended, deep tech company with a very long roadmap, which is true, we are also relentlessly focused on revenue at this point.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bci",
+      "type": "concept",
+      "role": "concept",
+      "name": "BCI",
+      "file": "BCI",
+      "primary": true,
+      "how_described": "本集说 BCI 短期内其实是个激进的长寿故事而非 AI 故事:大脑是唯一无法移植的器官,直接把它当计算机来调能产生传统药物给不了的效应量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            1888.117,
+            1898.56
+          ],
+          "quote": "If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1915.751,
+            1925.923
+          ],
+          "quote": "Now, if we had a magical BCI that allowed me to see the instant state of every neuron in the brain and drive them, I think we'd figure out consciousness pretty fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1937.753,
+            1941.556
+          ],
+          "quote": "I think that it is possible that you could use a BCI to prove it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2406.044,
+            2410.285
+          ],
+          "quote": "So there's this meme that BCI is an artificial intelligence adjacent story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2411.485,
+            2421.448
+          ],
+          "quote": "Like eventually, like if AI is building super intelligent machines and BCI labs are building conscious machines and we're building brain to brain connections so that the boundaries between those things become less meaningful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2427.981,
+            2431.201
+          ],
+          "quote": "I think in the near term, BCI is really a longevity story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2446.426,
+            2451.227
+          ],
+          "quote": "And in neural engineering, the people here at BCI, I think they think of,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": true,
+      "how_described": "本集说创业没有通用算法,就是一长系列判断决策;判断力校准靠口述传统和真实博弈的强化学习,创始人绝对无法把自己的判断外包",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            727.824,
+            732.309
+          ],
+          "quote": "And it's also you want to, I think, average over judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            746.268,
+            751.053
+          ],
+          "quote": "But even beyond that, you want ways to average over the judgment of the rest of your team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            780.511,
+            785.46
+          ],
+          "quote": "This is a company-wide bar really looking for three things, judgment, horsepower, and agency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1089.527,
+            1101.176
+          ],
+          "quote": "But as a whole, this is, it distributes the judgment across the company, updates more or less continuously with about a month lag, and gives you just way better insight into what's going on really around the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1232.26,
+            1239.466
+          ],
+          "quote": "And one of the harder lessons as a startup founder, one of the harder things I think to really deal with is the fact that you cannot delegate your judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1271.042,
+            1273.823
+          ],
+          "quote": "In order to succeed, your judgment has to be differentiatedly good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1274.543,
+            1276.904
+          ],
+          "quote": "Now, the reality might be that you don't know if your judgment is good yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1316.373,
+            1320.155
+          ],
+          "quote": "And at that point, you must have a really good sense of the limits and boundaries of your judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1785.842,
+            1787.583
+          ],
+          "quote": "It is a long series of judgment calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1791.566,
+            1799.093
+          ],
+          "quote": "And so I think one of the most valuable things for me at Neuralink was I was working with someone who has empirically excellent judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1865.726,
+            1875.633
+          ],
+          "quote": "But it's working with the people that have that judgment so that you can get that reinforcement learning as its long series of facts is really important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2851.948,
+            2857.534
+          ],
+          "quote": "And so I would try to rely less on things that feel like startup advice and more on how good is your judgment?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "type": "concept",
+      "role": "concept",
+      "name": "招聘 (hiring)",
+      "file": "招聘",
+      "primary": true,
+      "how_described": "本集说招聘区分公司成败:最好的人来自创始人网络,但要填满公司必须从大众招,不能让一两个人卡在漏斗口当瓶颈,要设计四步流程平均判断力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            540.928,
+            542.669
+          ],
+          "quote": "Another universal experience is hiring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            546.321,
+            549.343
+          ],
+          "quote": "Hiring also, I think, really separates the successes from the failures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            572.103,
+            573.844
+          ],
+          "quote": "So the best hiring comes from within your network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            732.349,
+            737.776
+          ],
+          "quote": "I think there's different people that are better or worse at hiring and have different perspectives on what you're looking for at that stage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            915.486,
+            919.729
+          ],
+          "quote": "So you're hiring people, they're coming into work, they're starting, they're incurring payroll.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            922.01,
+            927.313
+          ],
+          "quote": "Like eventually you'll get feedback from the market on how good you are at hiring because the company will work or it won't.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pagerank",
+      "type": "concept",
+      "role": "concept",
+      "name": "PageRank",
+      "file": "PageRank",
+      "primary": false,
+      "how_described": "本集说 Science 的 eigenreviews 绩效系统用的就是 Google 原始 PageRank 算法里特征向量中心性的思路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1047.625,
+            1059.167
+          ],
+          "quote": "And the astute may notice that this looks a lot like the original Google algorithm PageRank, which is an idea called eigenvector centrality, where you can create a weight over the graph by looking at how the graph points together.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retinal-prosthesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "视网膜假体 (retinal prosthesis)",
+      "file": "视网膜假体",
+      "primary": false,
+      "how_described": "本集说它是 Science 公司的主产品:植入视网膜下方的芯片,配合带红外激光投影仪的眼镜绕过坏死的视杆视锥细胞直接打电信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.545,
+            51.288
+          ],
+          "quote": "At our company, Science, our main product is a retinal prosthesis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "longevity",
+      "type": "concept",
+      "role": "concept",
+      "name": "长寿 (longevity)",
+      "file": "长寿",
+      "primary": false,
+      "how_described": "本集说 Max 真正关心的不是用 BCI 增强 AI,而是把它看作一个激进的长寿故事:一种延长和改善所有人生活的方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 499,
+          "t": [
+            2427.981,
+            2431.201
+          ],
+          "quote": "I think in the near term, BCI is really a longevity story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2431.221,
+            2433.142
+          ],
+          "quote": "And I view longevity as really just healthcare.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2530.603,
+            2542.731
+          ],
+          "quote": "And so if you can deal with the brain directly, I think this is more of a radical longevity story than it is an AI one for the moment, although all of these things will come together over some period of time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说与拥有卓越判断力的人一起工作能获得一种强化学习,这是创业者教育中被严重低估的组成部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            1865.726,
+            1875.633
+          ],
+          "quote": "But it's working with the people that have that judgment so that you can get that reinforcement learning as its long series of facts is really important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

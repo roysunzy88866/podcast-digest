@@ -1,0 +1,5570 @@
+[
+ {
+  "seg": 0,
+  "start": 7.313,
+  "end": 8.755,
+  "speaker": "Unknown",
+  "en": "My name is Max Hodak.",
+  "zh": "我叫 Max Hodak。"
+ },
+ {
+  "seg": 1,
+  "start": 9.716,
+  "end": 11.679,
+  "speaker": "Unknown",
+  "en": "I'm the CEO of a company called Science.",
+  "zh": "我是一家名为 Science 的公司的 CEO。"
+ },
+ {
+  "seg": 2,
+  "start": 12.58,
+  "end": 16.125,
+  "speaker": "Unknown",
+  "en": "We're going to talk a little bit about infrastructure at startups.",
+  "zh": "我们要稍微谈谈初创公司的基础设施。"
+ },
+ {
+  "seg": 3,
+  "start": 16.685,
+  "end": 19.289,
+  "speaker": "Unknown",
+  "en": "So I've spent most of my life working on brain-computer interfaces.",
+  "zh": "所以我一生中大部分时间都在研究脑机接口。"
+ },
+ {
+  "seg": 4,
+  "start": 19.409,
+  "end": 21.231,
+  "speaker": "Unknown",
+  "en": "This is almost 20 years ago now.",
+  "zh": "这几乎是 20 年前的事了。"
+ },
+ {
+  "seg": 5,
+  "start": 21.592,
+  "end": 24.095,
+  "speaker": "Unknown",
+  "en": "I started my career as an undergrad working in a lab at Duke.",
+  "zh": "我的职业生涯始于在杜克大学实验室工作的本科生。"
+ },
+ {
+  "seg": 6,
+  "start": 24.692,
+  "end": 27.414,
+  "speaker": "Unknown",
+  "en": "This is from our very first Society for Neuroscience conference.",
+  "zh": "这是我们第一次参加神经科学学会会议。"
+ },
+ {
+  "seg": 7,
+  "start": 27.714,
+  "end": 41.862,
+  "speaker": "Unknown",
+  "en": "The experiment I was working on back then was if you put electrodes in the brain of a monkey and then give a monkey a joystick and you record the neural activity as it's playing a game, if you make the cursor go sideways when you push forward on the joystick, which does the brain do?",
+  "zh": "我当时正在做的实验是，如果你把电极放入猴子的大脑，然后给猴子一个操纵杆，并记录它玩游戏时的神经活动，如果你在操纵杆上向前推时光标向侧面移动，大脑会怎么做？"
+ },
+ {
+  "seg": 8,
+  "start": 41.882,
+  "end": 44.283,
+  "speaker": "Unknown",
+  "en": "Does the brain represent the joystick or the screen or something else?",
+  "zh": "大脑是代表操纵杆还是屏幕还是其他东西？"
+ },
+ {
+  "seg": 9,
+  "start": 45.184,
+  "end": 46.705,
+  "speaker": "Unknown",
+  "en": "It turns out that there are neurons that do both.",
+  "zh": "结果发现有神经元两者都做。"
+ },
+ {
+  "seg": 10,
+  "start": 47.545,
+  "end": 51.288,
+  "speaker": "Unknown",
+  "en": "At our company, Science, our main product is a retinal prosthesis.",
+  "zh": "在我们公司 Science，我们的主要产品是视网膜假体。"
+ },
+ {
+  "seg": 11,
+  "start": 51.388,
+  "end": 58.273,
+  "speaker": "Unknown",
+  "en": "It's a chip that's implanted under the retina in the back of the eye to restore vision to patients that have gone blind due to loss of the rods and cones in their eye.",
+  "zh": "它是植入眼球后方视网膜下的芯片，用于恢复因眼部视杆细胞和视锥细胞丧失而失明的患者的视力。"
+ },
+ {
+  "seg": 12,
+  "start": 59.554,
+  "end": 62.857,
+  "speaker": "Unknown",
+  "en": "This is one of our patients on the cover of Time last November.",
+  "zh": "这是去年十一月《时代》周刊封面上的一位我们的患者。"
+ },
+ {
+  "seg": 13,
+  "start": 62.877,
+  "end": 66.56,
+  "speaker": "Unknown",
+  "en": "On the right, you can see there's a picture of the implant with the glasses.",
+  "zh": "在右边，你可以看到一张带有眼镜的植入物的图片。"
+ },
+ {
+  "seg": 14,
+  "start": 67.06,
+  "end": 71.363,
+  "speaker": "Unknown",
+  "en": "So every little one of those hex grids that you see on the implant is essentially a solar cell.",
+  "zh": "所以你在植入物上看到的每一个小六边形网格本质上都是一个太阳能电池。"
+ },
+ {
+  "seg": 15,
+  "start": 71.944,
+  "end": 73.485,
+  "speaker": "Unknown",
+  "en": "So when this is implanted under the retina,",
+  "zh": "所以当这被植入视网膜下方时，"
+ },
+ {
+  "seg": 16,
+  "start": 73.905,
+  "end": 78.786,
+  "speaker": "Unknown",
+  "en": "The patient wears glasses that have a camera that sees the world and a laser projector that projects onto the implant.",
+  "zh": "患者佩戴的眼镜上有观察世界的摄像头和向植入物投射的激光投影仪。"
+ },
+ {
+  "seg": 17,
+  "start": 79.286,
+  "end": 93.85,
+  "speaker": "Unknown",
+  "en": "And when it projects the image in infrared, wherever the light is absorbed on the implant, it creates a little electric field to excite the retina, thereby directly bypassing the dead rods and cones to stimulate this visual signal back into the retina at the first possible opportunity.",
+  "zh": "当它以红外线投射图像时，植入物上吸收光线的地方，会产生一个小电场来刺激视网膜，从而直接绕过死亡的视杆细胞和视锥细胞，在最早的机会刺激视觉信号回到视网膜中。"
+ },
+ {
+  "seg": 18,
+  "start": 94.51,
+  "end": 96.652,
+  "speaker": "Unknown",
+  "en": "And this is a pretty cool product.",
+  "zh": "这是一个很酷的产品。"
+ },
+ {
+  "seg": 19,
+  "start": 96.672,
+  "end": 99.534,
+  "speaker": "Unknown",
+  "en": "It finished major clinical trials last year.",
+  "zh": "它去年完成了主要的临床试验。"
+ },
+ {
+  "seg": 20,
+  "start": 99.574,
+  "end": 100.975,
+  "speaker": "Unknown",
+  "en": "It's been in three clinical trials now.",
+  "zh": "它现在已经进行了三项临床试验。"
+ },
+ {
+  "seg": 21,
+  "start": 100.995,
+  "end": 104.117,
+  "speaker": "Unknown",
+  "en": "It was covered in the BBC last fall.",
+  "zh": "去年秋天 BBC 报道过它。"
+ },
+ {
+  "seg": 22,
+  "start": 104.197,
+  "end": 108.02,
+  "speaker": "Unknown",
+  "en": "One of our patients finished a 300-page novel with the device and mailed us the book.",
+  "zh": "我们的一位患者用该设备完成了一本 300 页的小说，并把书寄给了我们。"
+ },
+ {
+  "seg": 23,
+  "start": 108.58,
+  "end": 112.143,
+  "speaker": "Unknown",
+  "en": "But I'm not going to talk about this work for the most part for the next 30 minutes.",
+  "zh": "但在接下来的 30 分钟里，我大部分时间不会谈论这项工作。"
+ },
+ {
+  "seg": 24,
+  "start": 112.623,
+  "end": 115.085,
+  "speaker": "Unknown",
+  "en": "We're going to talk about infrastructure and lessons.",
+  "zh": "我们将谈论基础设施和经验教训。"
+ },
+ {
+  "seg": 25,
+  "start": 115.125,
+  "end": 116.006,
+  "speaker": "Unknown",
+  "en": "I mean, this is startup school.",
+  "zh": "我的意思是，这是创业学校。"
+ },
+ {
+  "seg": 26,
+  "start": 116.046,
+  "end": 118.248,
+  "speaker": "Unknown",
+  "en": "Maybe there's some things that you'll find useful in your company.",
+  "zh": "也许有一些东西你会在你的公司中发现有用。"
+ },
+ {
+  "seg": 27,
+  "start": 118.968,
+  "end": 126.314,
+  "speaker": "Unknown",
+  "en": "So Picasso was noted for saying that when art critics get together, they talk about form and structure and meaning.",
+  "zh": "毕加索曾有一句名言，当艺术评论家聚在一起时，他们谈论形式、结构和意义。"
+ },
+ {
+  "seg": 28,
+  "start": 126.614,
+  "end": 129.616,
+  "speaker": "Unknown",
+  "en": "And when artists get together, they talk about where to buy cheap turpentine.",
+  "zh": "而当艺术家聚在一起时，他们谈论去哪里买便宜的松节油。"
+ },
+ {
+  "seg": 29,
+  "start": 130.437,
+  "end": 135.021,
+  "speaker": "Unknown",
+  "en": "This is also often phrased as amateurs talk strategy, professionals talk logistics.",
+  "zh": "这通常也被表述为业余人士谈战略，专业人士谈后勤。"
+ },
+ {
+  "seg": 30,
+  "start": 135.641,
+  "end": 137.863,
+  "speaker": "Unknown",
+  "en": "A quote from a guy that the United States named a tank after.",
+  "zh": "这句话出自一个被美国用坦克命名的人（注：指巴顿）。"
+ },
+ {
+  "seg": 31,
+  "start": 139.222,
+  "end": 144.563,
+  "speaker": "Unknown",
+  "en": "And there are surprisingly few lessons that are really broad across companies.",
+  "zh": "跨公司真正广泛的教训出奇地少。"
+ },
+ {
+  "seg": 32,
+  "start": 144.983,
+  "end": 155.106,
+  "speaker": "Unknown",
+  "en": "Typically, the experience of running a startup is you're just looking at kind of a continual stream of facts that hit your desk every day, and you're trying to make the best local decision that you can for those facts.",
+  "zh": "通常，经营初创公司的体验是你只是看着每天到达你办公桌上的连续不断的事实流，并试图为这些事实做出你能做的最好的局部决策。"
+ },
+ {
+  "seg": 33,
+  "start": 155.166,
+  "end": 158.227,
+  "speaker": "Unknown",
+  "en": "And if it looks inconsistent over weeks, that's usually the way to go.",
+  "zh": "如果几周内看起来不一致，这通常是要走的路。"
+ },
+ {
+  "seg": 34,
+  "start": 158.247,
+  "end": 159.867,
+  "speaker": "Unknown",
+  "en": "But there are a couple topics that keep...",
+  "zh": "但有几个话题一直保持……"
+ },
+ {
+  "seg": 35,
+  "start": 160.687,
+  "end": 171.557,
+  "speaker": "Unknown",
+  "en": "Very repeatedly coming up that are universal experiences, at least for deep tech companies, which is the thing that I know most of my experiences in, not just pure software.",
+  "zh": "非常重复地出现，这些是普遍的经历，至少对于深科技公司是这样，这是我最熟悉的领域，不仅仅是纯软件。"
+ },
+ {
+  "seg": 36,
+  "start": 172.197,
+  "end": 175.08,
+  "speaker": "Unknown",
+  "en": "And so there are things that keep coming up like buying things.",
+  "zh": "所以有一些事情不断出现，比如买东西。"
+ },
+ {
+  "seg": 37,
+  "start": 177.062,
+  "end": 181.826,
+  "speaker": "Unknown",
+  "en": "So your first reaction might be that if you do software, you don't need to buy things.",
+  "zh": "所以你的第一反应可能是，如果你做软件，你不需要买东西。"
+ },
+ {
+  "seg": 38,
+  "start": 182.675,
+  "end": 188.861,
+  "speaker": "Unknown",
+  "en": "It will be me alone in an empty room with some computers writing software, and this is going to be how we build a company.",
+  "zh": "我会独自在空房间里用一些电脑写软件，这就是我们要建立公司的方式。"
+ },
+ {
+  "seg": 39,
+  "start": 189.302,
+  "end": 195.448,
+  "speaker": "Unknown",
+  "en": "And if this is you, yes, you have figured out a reason why VCs love funding software and why they've done so much of it for the last 25 years.",
+  "zh": "如果是你，是的，你已经弄清楚了为什么 VC 喜欢资助软件，以及为什么他们在过去 25 年里做了这么多。"
+ },
+ {
+  "seg": 40,
+  "start": 196.089,
+  "end": 200.113,
+  "speaker": "Unknown",
+  "en": "But if you do anything other than pure software, you'll be buying many, many thousands of things.",
+  "zh": "但如果你做纯软件以外的任何事情，你将购买许多、成千上万的东西。"
+ },
+ {
+  "seg": 41,
+  "start": 200.213,
+  "end": 200.694,
+  "speaker": "Unknown",
+  "en": "This is us.",
+  "zh": "这是我们。"
+ },
+ {
+  "seg": 42,
+  "start": 201.848,
+  "end": 203.49,
+  "speaker": "Unknown",
+  "en": "I think about six months into the company.",
+  "zh": "我想是公司成立六个月左右的时候。"
+ },
+ {
+  "seg": 43,
+  "start": 204.27,
+  "end": 205.391,
+  "speaker": "Unknown",
+  "en": "And it's a little tough to make out.",
+  "zh": "有点难看清。"
+ },
+ {
+  "seg": 44,
+  "start": 205.411,
+  "end": 206.292,
+  "speaker": "Unknown",
+  "en": "There are a lot of computers.",
+  "zh": "有很多电脑。"
+ },
+ {
+  "seg": 45,
+  "start": 206.692,
+  "end": 211.996,
+  "speaker": "Unknown",
+  "en": "There's also a bunch of microscopes and other electronics and 3D printers and resin and PCBs.",
+  "zh": "还有一堆显微镜和其他电子产品以及 3D 打印机、树脂和 PCB。"
+ },
+ {
+  "seg": 46,
+  "start": 212.476,
+  "end": 214.197,
+  "speaker": "Unknown",
+  "en": "You're buying things really continuously.",
+  "zh": "你真的在持续不断地买东西。"
+ },
+ {
+  "seg": 47,
+  "start": 214.978,
+  "end": 219.681,
+  "speaker": "Unknown",
+  "en": "And so it might sound really obvious, like a really basic question, like you surely just buy things.",
+  "zh": "所以这可能听起来非常明显，一个非常基本的问题，就像你肯定只是买东西。"
+ },
+ {
+  "seg": 48,
+  "start": 220.642,
+  "end": 222.863,
+  "speaker": "Unknown",
+  "en": "So for you as the founder, you can use a credit card.",
+  "zh": "所以对于作为创始人的你来说，你可以使用信用卡。"
+ },
+ {
+  "seg": 49,
+  "start": 223.244,
+  "end": 224.124,
+  "speaker": "Unknown",
+  "en": "Credit cards work great.",
+  "zh": "信用卡效果很好。"
+ },
+ {
+  "seg": 50,
+  "start": 224.144,
+  "end": 225.545,
+  "speaker": "Unknown",
+  "en": "You can buy lots of things with credit cards.",
+  "zh": "你可以用信用卡买很多东西。"
+ },
+ {
+  "seg": 51,
+  "start": 226.186,
+  "end": 227.487,
+  "speaker": "Unknown",
+  "en": "You can also send a wire transfer.",
+  "zh": "你也可以发送电汇。"
+ },
+ {
+  "seg": 52,
+  "start": 228.761,
+  "end": 231.583,
+  "speaker": "Unknown",
+  "en": "The question is, how does your 17th employee buy things?",
+  "zh": "问题是，你的第 17 名员工怎么买东西？"
+ },
+ {
+  "seg": 53,
+  "start": 232.263,
+  "end": 233.204,
+  "speaker": "Unknown",
+  "en": "Do they have a credit card?",
+  "zh": "他们有信用卡吗？"
+ },
+ {
+  "seg": 54,
+  "start": 233.904,
+  "end": 238.587,
+  "speaker": "Unknown",
+  "en": "Let's say you hand out credit cards to all of your employees and tell them to buy what they need.",
+  "zh": "假设你给所有员工发了信用卡，告诉他们买自己需要的东西。"
+ },
+ {
+  "seg": 55,
+  "start": 239.208,
+  "end": 241.87,
+  "speaker": "Unknown",
+  "en": "So you start getting messages like this.",
+  "zh": "于是你开始收到这样的消息。"
+ },
+ {
+  "seg": 56,
+  "start": 245.062,
+  "end": 247.763,
+  "speaker": "Unknown",
+  "en": "The, and you think like, you know, I care about burn.",
+  "zh": "然后，你觉得像，你知道，我在意烧钱率。"
+ },
+ {
+  "seg": 57,
+  "start": 247.823,
+  "end": 248.804,
+  "speaker": "Unknown",
+  "en": "We have to spend efficiently.",
+  "zh": "我们必须高效地花钱。"
+ },
+ {
+  "seg": 58,
+  "start": 248.864,
+  "end": 251.625,
+  "speaker": "Unknown",
+  "en": "I'm going to approve all of the purchases as they happen.",
+  "zh": "我要在所有购买发生时都审批它们。"
+ },
+ {
+  "seg": 59,
+  "start": 252.106,
+  "end": 256.808,
+  "speaker": "Unknown",
+  "en": "And you get a message like this, and then you think $3,000 sounds like a lot for a power supply.",
+  "zh": "然后你收到这样一条消息，然后你会觉得，对于一个电源来说，3000 美元听起来很多。"
+ },
+ {
+  "seg": 60,
+  "start": 257.148,
+  "end": 258.729,
+  "speaker": "Unknown",
+  "en": "Do we need a $3,000 power supply?",
+  "zh": "我们需要一个 3000 美元的电源吗？"
+ },
+ {
+  "seg": 61,
+  "start": 259.009,
+  "end": 260.13,
+  "speaker": "Unknown",
+  "en": "What if we get one from an auction?",
+  "zh": "如果我们从拍卖会上买一个会怎么样？"
+ },
+ {
+  "seg": 62,
+  "start": 260.71,
+  "end": 262.291,
+  "speaker": "Unknown",
+  "en": "Like in three days, there's an auction.",
+  "zh": "比如三天后有一场拍卖会。"
+ },
+ {
+  "seg": 63,
+  "start": 262.391,
+  "end": 263.512,
+  "speaker": "Unknown",
+  "en": "Maybe we'll get it for half off.",
+  "zh": "也许我们可以半价买到它。"
+ },
+ {
+  "seg": 64,
+  "start": 263.572,
+  "end": 264.532,
+  "speaker": "Unknown",
+  "en": "We can get it in two weeks.",
+  "zh": "我们可以在两周后拿到它。"
+ },
+ {
+  "seg": 65,
+  "start": 264.973,
+  "end": 269.095,
+  "speaker": "Unknown",
+  "en": "But then you also remember that you've hired some very highly paid and talented employees.",
+  "zh": "但随后你也记得，你雇佣了一些薪水非常高且有才华的员工。"
+ },
+ {
+  "seg": 66,
+  "start": 269.295,
+  "end": 271.016,
+  "speaker": "Unknown",
+  "en": "And are you saying they can't get the tools that they need?",
+  "zh": "你是在说他们不能买到自己需要的工具吗？"
+ },
+ {
+  "seg": 67,
+  "start": 271.964,
+  "end": 274.025,
+  "speaker": "Unknown",
+  "en": "That you're spending $100,000 a week.",
+  "zh": "你每周要花费 10 万美元。"
+ },
+ {
+  "seg": 68,
+  "start": 274.486,
+  "end": 279.309,
+  "speaker": "Unknown",
+  "en": "If you wait a week to get a power supply half off, you have certainly dwarfed any possible benefit from getting it.",
+  "zh": "如果你等一周去半价买一个电源，你肯定会盖过由此产生的任何可能的好处。"
+ },
+ {
+  "seg": 69,
+  "start": 279.669,
+  "end": 282.991,
+  "speaker": "Unknown",
+  "en": "And if they were at Anthropic, they're not going to be getting hassled over a $3,000 purchase.",
+  "zh": "如果他们在 Anthropic，他们不会因为一笔 3000 美元的采购而被纠缠。"
+ },
+ {
+  "seg": 70,
+  "start": 283.011,
+  "end": 284.592,
+  "speaker": "Unknown",
+  "en": "They're just going to have a power supply.",
+  "zh": "他们只会拥有一个电源。"
+ },
+ {
+  "seg": 71,
+  "start": 285.012,
+  "end": 288.555,
+  "speaker": "Unknown",
+  "en": "And so what you realize is not only is this very hard to keep burn under control,",
+  "zh": "所以你意识到，这不仅很难把烧钱率控制在控制之下，"
+ },
+ {
+  "seg": 72,
+  "start": 289.295,
+  "end": 292.817,
+  "speaker": "Unknown",
+  "en": "But also, it's just this is the inappropriate place to exercise spending review.",
+  "zh": "而且，这仅仅是在不恰当的地方进行支出审查。"
+ },
+ {
+  "seg": 73,
+  "start": 293.217,
+  "end": 294.618,
+  "speaker": "Unknown",
+  "en": "Spending review has to come earlier.",
+  "zh": "支出审查必须来得更早。"
+ },
+ {
+  "seg": 74,
+  "start": 294.638,
+  "end": 296.019,
+  "speaker": "Unknown",
+  "en": "You have to have some concept of budgeting.",
+  "zh": "你必须有一些预算的概念。"
+ },
+ {
+  "seg": 75,
+  "start": 296.039,
+  "end": 298.46,
+  "speaker": "Unknown",
+  "en": "It's not really about even just the payment rail of buying a thing.",
+  "zh": "这甚至不是真正关于购买东西的支付通道。"
+ },
+ {
+  "seg": 76,
+  "start": 298.48,
+  "end": 300.942,
+  "speaker": "Unknown",
+  "en": "It's how do you understand the bucket of money that you have?",
+  "zh": "而是你如何理解你拥有的一桶钱？"
+ },
+ {
+  "seg": 77,
+  "start": 301.302,
+  "end": 305.284,
+  "speaker": "Unknown",
+  "en": "And I don't want to be making the $1,500 power supply versus $3,000 power supply trade-off.",
+  "zh": "我不想做 1500 美元的电源还是 3000 美元的电源的权衡。"
+ },
+ {
+  "seg": 78,
+  "start": 305.625,
+  "end": 309.527,
+  "speaker": "Unknown",
+  "en": "They need to understand the resources that they have so that they can make trade-offs within those oil resources.",
+  "zh": "他们需要了解他们拥有的资源，以便他们可以在这些石油资源内做出权衡。"
+ },
+ {
+  "seg": 79,
+  "start": 310.642,
+  "end": 312.003,
+  "speaker": "Unknown",
+  "en": "So you set up a procurement system.",
+  "zh": "所以你建立了一个采购系统。"
+ },
+ {
+  "seg": 80,
+  "start": 312.823,
+  "end": 316.665,
+  "speaker": "Unknown",
+  "en": "And now your highly paid employees are spending their days clicking around B2B enterprise SaaS.",
+  "zh": "现在你高薪的员工整天都在点击 B2B 企业 SaaS。"
+ },
+ {
+  "seg": 81,
+  "start": 317.025,
+  "end": 322.787,
+  "speaker": "Unknown",
+  "en": "And it turns out that from the time that they place an order for a power supply, it takes two weeks to arrive because you can't actually buy that with a credit card.",
+  "zh": "结果发现，从他们订购电源的那一刻起，需要两周时间才能到货，因为你实际上无法用信用卡购买那个。"
+ },
+ {
+  "seg": 82,
+  "start": 322.847,
+  "end": 327.79,
+  "speaker": "Unknown",
+  "en": "You have to set up an account with the vendor and deal with insurance and certification paperwork and get an account set up.",
+  "zh": "你必须与供应商建立一个账户，并处理保险和认证文书工作，并建立一个账户。"
+ },
+ {
+  "seg": 83,
+  "start": 328.23,
+  "end": 332.252,
+  "speaker": "Unknown",
+  "en": "And they have to generate a quote so that you can generate a purchase order, so that you can generate an invoice.",
+  "zh": "他们必须生成一份报价单，以便你生成一份采购订单，以便你生成一张发票。"
+ },
+ {
+  "seg": 84,
+  "start": 332.712,
+  "end": 335.353,
+  "speaker": "Unknown",
+  "en": "And now everyone's upset that things are taking super long to get ordered.",
+  "zh": "现在每个人都很生气，因为订购东西需要超级长的时间。"
+ },
+ {
+  "seg": 85,
+  "start": 336.193,
+  "end": 339.515,
+  "speaker": "Unknown",
+  "en": "And so this actually really requires, like this is a living organism.",
+  "zh": "所以这实际上真的需要，像这是一个活的有机体。"
+ },
+ {
+  "seg": 86,
+  "start": 340.055,
+  "end": 347.984,
+  "speaker": "Unknown",
+  "en": "Like when people move from academia to startups, I think one of the reactions that people often have is like, why are there people whose job there is to purchase things?",
+  "zh": "就像当人们从学术界转移到初创公司时，我认为人们经常有的反应之一是，为什么会有人的工作是购买东西？"
+ },
+ {
+  "seg": 87,
+  "start": 348.024,
+  "end": 349.145,
+  "speaker": "Unknown",
+  "en": "Surely I can just buy things.",
+  "zh": "我当然可以买东西。"
+ },
+ {
+  "seg": 88,
+  "start": 349.546,
+  "end": 351.768,
+  "speaker": "Unknown",
+  "en": "But absolutely there are people whose job is to buy things.",
+  "zh": "但绝对有人的工作是买东西。"
+ },
+ {
+  "seg": 89,
+  "start": 352.349,
+  "end": 358.136,
+  "speaker": "Unknown",
+  "en": "From the time that you submit the order, going back and forth with the vendor to set all of this up is very time consuming and it can easily stretch out.",
+  "zh": "从你提交订单开始，与供应商来回建立所有这些设置是非常耗时的，它很容易拖延。"
+ },
+ {
+  "seg": 90,
+  "start": 358.156,
+  "end": 360.198,
+  "speaker": "Unknown",
+  "en": "It takes like active management to metrics.",
+  "zh": "它需要像积极的指标管理。"
+ },
+ {
+  "seg": 91,
+  "start": 360.478,
+  "end": 361.839,
+  "speaker": "Unknown",
+  "en": "So now people can buy things.",
+  "zh": "所以现在人们可以买东西了。"
+ },
+ {
+  "seg": 92,
+  "start": 361.859,
+  "end": 364.66,
+  "speaker": "Unknown",
+  "en": "At least you can keep overall burn under control.",
+  "zh": "至少你可以把总体烧钱率保持在控制之下。"
+ },
+ {
+  "seg": 93,
+  "start": 364.68,
+  "end": 368.101,
+  "speaker": "Unknown",
+  "en": "Now you know that you're not going to exceed some large amount of spending every month.",
+  "zh": "现在你知道你不会超过每个月的某个大额支出。"
+ },
+ {
+  "seg": 94,
+  "start": 368.141,
+  "end": 369.742,
+  "speaker": "Unknown",
+  "en": "And then you realize that that wasn't really the problem.",
+  "zh": "然后你意识到那并不是真正的问题。"
+ },
+ {
+  "seg": 95,
+  "start": 370.042,
+  "end": 371.102,
+  "speaker": "Unknown",
+  "en": "You could figure out your runway.",
+  "zh": "你可以算出你的跑道。"
+ },
+ {
+  "seg": 96,
+  "start": 371.122,
+  "end": 371.982,
+  "speaker": "Unknown",
+  "en": "The problem is attribution.",
+  "zh": "问题是归因。"
+ },
+ {
+  "seg": 97,
+  "start": 387.413,
+  "end": 399.644,
+  "speaker": "Unknown",
+  "en": "Because when you're doing, whether you're working on rockets or cars or drugs or brain-computer interfaces or anything that involves dealing with the real world, you realize that one of your other problems is that you're buying stuff in bulk.",
+  "zh": "因为当你正在做，无论你是在研究火箭、汽车、药物还是脑机接口，还是任何涉及与现实世界打交道的事情时，你意识到你的另一个问题是你正在批量购买东西。"
+ },
+ {
+  "seg": 98,
+  "start": 399.664,
+  "end": 406.43,
+  "speaker": "Unknown",
+  "en": "Like we buy gases from argon to silane to nitrogen to resins to media.",
+  "zh": "就像我们从氩气到硅烷到氮气到树脂到介质购买气体。"
+ },
+ {
+  "seg": 99,
+  "start": 406.671,
+  "end": 410.134,
+  "speaker": "Unknown",
+  "en": "And then we buy these things in bulk and we part them out to lots of different experiments.",
+  "zh": "然后我们批量购买这些东西，并把它们分配给许多不同的实验。"
+ },
+ {
+  "seg": 100,
+  "start": 412.03,
+  "end": 415.933,
+  "speaker": "Unknown",
+  "en": "Now, when you do this, this attribution is pretty difficult.",
+  "zh": "现在，当你做这件事时，这种归因是相当困难的。"
+ },
+ {
+  "seg": 101,
+  "start": 416.113,
+  "end": 425.541,
+  "speaker": "Unknown",
+  "en": "And so if nobody knows how much an experiment costs, like every time you grow up a new cell line or every time we make a new probe in the fab, how much does that loop cost?",
+  "zh": "所以如果没人知道一个实验的成本是多少，就像每次你培育一个新的细胞系，或者每次我们在 fab 制造一个新的探针时，那个循环要花多少钱？"
+ },
+ {
+  "seg": 102,
+  "start": 426.322,
+  "end": 426.883,
+  "speaker": "Unknown",
+  "en": "Nobody knows.",
+  "zh": "没人知道。"
+ },
+ {
+  "seg": 103,
+  "start": 427.463,
+  "end": 428.784,
+  "speaker": "Unknown",
+  "en": "Therefore, experiments are free.",
+  "zh": "因此，实验是免费的。"
+ },
+ {
+  "seg": 104,
+  "start": 429.905,
+  "end": 430.866,
+  "speaker": "Unknown",
+  "en": "It doesn't cost dollars.",
+  "zh": "它不花费美元。"
+ },
+ {
+  "seg": 105,
+  "start": 430.886,
+  "end": 432.688,
+  "speaker": "Unknown",
+  "en": "It costs media, and media comes from the fridge.",
+  "zh": "它花费培养基（media），而培养基来自冰箱。"
+ },
+ {
+  "seg": 106,
+  "start": 433.77,
+  "end": 436.612,
+  "speaker": "Unknown",
+  "en": "And we want to know, how do we price a thing that we make?",
+  "zh": "我们想知道，我们要如何为我们制造的东西定价？"
+ },
+ {
+  "seg": 107,
+  "start": 436.632,
+  "end": 438.433,
+  "speaker": "Unknown",
+  "en": "We make a bunch of things in volume in the Foundry.",
+  "zh": "我们在 Foundry 批量制造很多东西。"
+ },
+ {
+  "seg": 108,
+  "start": 438.773,
+  "end": 440.134,
+  "speaker": "Unknown",
+  "en": "We want to know, what can we sell that for?",
+  "zh": "我们想知道，我们可以把那个卖多少钱？"
+ },
+ {
+  "seg": 109,
+  "start": 440.434,
+  "end": 444.036,
+  "speaker": "Unknown",
+  "en": "That requires all of these spreadsheets to get an estimate of the pricing.",
+  "zh": "这需要所有这些电子表格来获得一个定价估算。"
+ },
+ {
+  "seg": 110,
+  "start": 444.516,
+  "end": 445.477,
+  "speaker": "Unknown",
+  "en": "And there's opinions in here.",
+  "zh": "这里面有观点。"
+ },
+ {
+  "seg": 111,
+  "start": 445.497,
+  "end": 446.437,
+  "speaker": "Unknown",
+  "en": "These are not all facts.",
+  "zh": "这不全是事实。"
+ },
+ {
+  "seg": 112,
+  "start": 446.477,
+  "end": 447.478,
+  "speaker": "Unknown",
+  "en": "How much do you include rent?",
+  "zh": "你把租金算进去多少？"
+ },
+ {
+  "seg": 113,
+  "start": 447.518,
+  "end": 449.159,
+  "speaker": "Unknown",
+  "en": "How much do you include depreciation of the tools?",
+  "zh": "你把工具的折旧算进去多少？"
+ },
+ {
+  "seg": 114,
+  "start": 449.219,
+  "end": 451.18,
+  "speaker": "Unknown",
+  "en": "This comes with opinions about your future volume.",
+  "zh": "这伴随着关于你未来批量的观点。"
+ },
+ {
+  "seg": 115,
+  "start": 451.66,
+  "end": 455.863,
+  "speaker": "Unknown",
+  "en": "All of this is required to understand not just what you should charge, but also what you're spending and what your runway is.",
+  "zh": "所有这些都需要理解，不仅要理解你应该收取什么费用，还要理解你在花费什么以及你的跑道是什么。"
+ },
+ {
+  "seg": 116,
+  "start": 456.563,
+  "end": 457.844,
+  "speaker": "Unknown",
+  "en": "And so to deal with this, we've built...",
+  "zh": "所以为了处理这个问题，我们已经建立了……"
+ },
+ {
+  "seg": 117,
+  "start": 458.784,
+  "end": 463.67,
+  "speaker": "Unknown",
+  "en": "A huge amount of internal software at the company for managing this.",
+  "zh": "公司内部大量的软件来管理这个。"
+ },
+ {
+  "seg": 118,
+  "start": 464.291,
+  "end": 469.618,
+  "speaker": "Unknown",
+  "en": "One of the first things that we did is almost everything that you can do in the company is a button somewhere in the software.",
+  "zh": "我们做的第一件事之一是，你在公司里几乎能做的每件事都是软件里的一个按钮。"
+ },
+ {
+  "seg": 119,
+  "start": 469.638,
+  "end": 472.322,
+  "speaker": "Unknown",
+  "en": "We call it Helix, including stuff like purchasing.",
+  "zh": "我们称之为 Helix，包括像采购这样的东西。"
+ },
+ {
+  "seg": 120,
+  "start": 473.527,
+  "end": 482.635,
+  "speaker": "Unknown",
+  "en": "But because this extends all the way through to manufacturing, where we have every step that happens in the lab, in the database, we can correlate all of this through and get this information.",
+  "zh": "但因为这一直延伸到制造领域，我们在数据库里有实验室里发生的每一步，我们可以把所有这些关联起来并获取这些信息。"
+ },
+ {
+  "seg": 121,
+  "start": 482.675,
+  "end": 490.482,
+  "speaker": "Unknown",
+  "en": "And these like, again, so it turns out that for every iteration of a wafer that we make, in this case, for this protocol, it costs $40,000.",
+  "zh": "这些就像，再次，所以事实证明，对于我们制造的每一次晶圆迭代，在这个案例中，对于这个协议，它要花费 40,000 美元。"
+ },
+ {
+  "seg": 122,
+  "start": 490.902,
+  "end": 492.083,
+  "speaker": "Unknown",
+  "en": "This is like a lot of money.",
+  "zh": "这就像很多钱。"
+ },
+ {
+  "seg": 123,
+  "start": 492.944,
+  "end": 497.687,
+  "speaker": "Unknown",
+  "en": "And you might have raised, let's say you raised $20 million in a Series A.",
+  "zh": "你可能已经筹集了，比方说你在 Series A 筹集了 20 million 美元。"
+ },
+ {
+  "seg": 124,
+  "start": 498.167,
+  "end": 500.828,
+  "speaker": "Unknown",
+  "en": "You think you need four years, you need 20 people.",
+  "zh": "你认为你需要四年，你需要 20 个人。"
+ },
+ {
+  "seg": 125,
+  "start": 500.848,
+  "end": 504.03,
+  "speaker": "Unknown",
+  "en": "In my experience, about half the burn is headcount.",
+  "zh": "在我的经验中，大约一半的烧钱率是人力成本。"
+ },
+ {
+  "seg": 126,
+  "start": 504.611,
+  "end": 509.593,
+  "speaker": "Unknown",
+  "en": "So let's say 20 people, that's probably three, three and a half, that's like three million a year in revenue.",
+  "zh": "所以假设是 20 个人，那大概是 300 万、350 万，这就像每年 300 万的收入。"
+ },
+ {
+  "seg": 127,
+  "start": 509.613,
+  "end": 511.294,
+  "speaker": "Unknown",
+  "en": "That's half of your burn.",
+  "zh": "那是你烧钱率的一半。"
+ },
+ {
+  "seg": 128,
+  "start": 512.435,
+  "end": 515.036,
+  "speaker": "Unknown",
+  "en": "You need 20,000 square feet, about $4 a square foot.",
+  "zh": "你需要 20,000 平方英尺，大约每平方英尺 4 美元。"
+ },
+ {
+  "seg": 129,
+  "start": 515.096,
+  "end": 516.297,
+  "speaker": "Unknown",
+  "en": "That's another 750,000 to a million a year.",
+  "zh": "那是另外每年 750,000 到 100 万。"
+ },
+ {
+  "seg": 130,
+  "start": 518.038,
+  "end": 522.3,
+  "speaker": "Unknown",
+  "en": "So now suddenly you've got really, it's a $3 million a year research budget for three or four years.",
+  "zh": "所以现在突然你真的有了，这是一个 300 万美元的年度研究预算，持续三到四年。"
+ },
+ {
+  "seg": 131,
+  "start": 522.5,
+  "end": 524.121,
+  "speaker": "Unknown",
+  "en": "That goes way faster than you think.",
+  "zh": "这比你想象的要快得多。"
+ },
+ {
+  "seg": 132,
+  "start": 524.521,
+  "end": 532.924,
+  "speaker": "Unknown",
+  "en": "But again, your team just saw that you raised a larger amount of money than they've ever seen in their lives, and they think that the $3,000 power supplies are free.",
+  "zh": "但同样，你的团队只是看到你筹集了一笔比他们一生中见过的都多的钱，他们认为那些 3,000 美元的电源是免费的。"
+ },
+ {
+  "seg": 133,
+  "start": 534.005,
+  "end": 534.865,
+  "speaker": "Unknown",
+  "en": "This is pretty important.",
+  "zh": "这相当重要。"
+ },
+ {
+  "seg": 134,
+  "start": 534.885,
+  "end": 538.507,
+  "speaker": "Unknown",
+  "en": "This is a thing that actually, this infrastructure actually determines success or failure in many companies.",
+  "zh": "这是实际上的一件事，这种基础设施实际上决定了许多公司的成功或失败。"
+ },
+ {
+  "seg": 135,
+  "start": 540.928,
+  "end": 542.669,
+  "speaker": "Unknown",
+  "en": "Another universal experience is hiring.",
+  "zh": "另一个普遍的体验是招聘。"
+ },
+ {
+  "seg": 136,
+  "start": 542.689,
+  "end": 542.749,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "所以，"
+ },
+ {
+  "seg": 137,
+  "start": 546.321,
+  "end": 549.343,
+  "speaker": "Unknown",
+  "en": "Hiring also, I think, really separates the successes from the failures.",
+  "zh": "招聘也，我认为，真的把成功者和失败者区分开来。"
+ },
+ {
+  "seg": 138,
+  "start": 549.923,
+  "end": 551.584,
+  "speaker": "Unknown",
+  "en": "Startups usually don't come out of nowhere.",
+  "zh": "初创公司通常不会凭空出现。"
+ },
+ {
+  "seg": 139,
+  "start": 551.784,
+  "end": 556.788,
+  "speaker": "Unknown",
+  "en": "I think the best companies, in my experience, come from what might be characterized as scenes.",
+  "zh": "我认为最好的公司，以我的经验，来自可以被描述为圈子（scenes）的地方。"
+ },
+ {
+  "seg": 140,
+  "start": 556.848,
+  "end": 564.012,
+  "speaker": "Unknown",
+  "en": "There's a moment that enables a new company to be born, and there's a bunch that comes together that really creates this unique nucleation for the new company.",
+  "zh": "有一个时刻促成了一家新公司的诞生，有一群人聚集在一起，真正为这家新公司创造了这种独特的核心（nucleation）。"
+ },
+ {
+  "seg": 141,
+  "start": 564.472,
+  "end": 570.396,
+  "speaker": "Unknown",
+  "en": "And once that moment has passed, because some company has executed on it or just the time has gone, it's kind of tough to get back.",
+  "zh": "一旦那个时刻过去了，因为某家公司执行了它，或者只是时间流逝了，再回到那种状态就很难了。"
+ },
+ {
+  "seg": 142,
+  "start": 572.103,
+  "end": 573.844,
+  "speaker": "Unknown",
+  "en": "So the best hiring comes from within your network.",
+  "zh": "所以最好的招聘来自你的网络内部。"
+ },
+ {
+  "seg": 143,
+  "start": 573.964,
+  "end": 576.346,
+  "speaker": "Unknown",
+  "en": "People that you've worked with before, you know are good.",
+  "zh": "你以前共事过的人，你知道他们是好的。"
+ },
+ {
+  "seg": 144,
+  "start": 577.567,
+  "end": 581.349,
+  "speaker": "Unknown",
+  "en": "And the extended version of that is to hire from the network that produced the startup.",
+  "zh": "那个的扩展版本是从产生初创公司的网络中招聘。"
+ },
+ {
+  "seg": 145,
+  "start": 581.629,
+  "end": 583.971,
+  "speaker": "Unknown",
+  "en": "There's usually some extended scene that the thing came out of.",
+  "zh": "通常有一些该事物从中涌现出的延伸圈子（extended scene）。"
+ },
+ {
+  "seg": 146,
+  "start": 584.231,
+  "end": 587.213,
+  "speaker": "Unknown",
+  "en": "There's a bunch of co-founders that come together that crystallize out of that.",
+  "zh": "有一群联合创始人聚在一起，从那个圈子中结晶出来。"
+ },
+ {
+  "seg": 147,
+  "start": 587.613,
+  "end": 590.995,
+  "speaker": "Unknown",
+  "en": "But then there's an extended community, and that should really be the target of your initial marketing.",
+  "zh": "但然后有一个延伸的社区，那真的应该是你初始营销的目标。"
+ },
+ {
+  "seg": 148,
+  "start": 591.536,
+  "end": 593.917,
+  "speaker": "Unknown",
+  "en": "These are the people that already speak your language, are already familiar with it.",
+  "zh": "这些是已经说你的语言，已经熟悉它的人。"
+ },
+ {
+  "seg": 149,
+  "start": 594.397,
+  "end": 597.74,
+  "speaker": "Unknown",
+  "en": "But there's never enough of them to really fill an entire company.",
+  "zh": "但从来没有足够多的人来真正填满一家公司。"
+ },
+ {
+  "seg": 150,
+  "start": 597.92,
+  "end": 599.261,
+  "speaker": "Unknown",
+  "en": "You have to hire from the general public.",
+  "zh": "你必须从普通大众中招聘。"
+ },
+ {
+  "seg": 151,
+  "start": 601.884,
+  "end": 603.785,
+  "speaker": "Unknown",
+  "en": "Different companies hire in different ways.",
+  "zh": "不同的公司以不同的方式招聘。"
+ },
+ {
+  "seg": 152,
+  "start": 603.825,
+  "end": 606.426,
+  "speaker": "Unknown",
+  "en": "There's different processes that make sense to different founders.",
+  "zh": "不同的流程对不同的创始人来说是有意义的。"
+ },
+ {
+  "seg": 153,
+  "start": 606.466,
+  "end": 610.387,
+  "speaker": "Unknown",
+  "en": "This is the thing that really is going to be matched to who the founders are and how they view the world.",
+  "zh": "这件事真的要和创始人们是谁以及他们如何看待世界相匹配。"
+ },
+ {
+  "seg": 154,
+  "start": 611.067,
+  "end": 612.428,
+  "speaker": "Unknown",
+  "en": "And there's no one right answer.",
+  "zh": "没有一个唯一的正确答案。"
+ },
+ {
+  "seg": 155,
+  "start": 613.168,
+  "end": 615.389,
+  "speaker": "Unknown",
+  "en": "But this is a thing where you need a really defined process.",
+  "zh": "但在这个方面，你需要一个非常确定的流程。"
+ },
+ {
+  "seg": 156,
+  "start": 615.969,
+  "end": 621.851,
+  "speaker": "Unknown",
+  "en": "There is no right answer, but a wrong answer for sure is not having something that you do very religiously as a company.",
+  "zh": "没有正确的答案，但错误的答案肯定是没有任何作为公司会非常虔诚地坚持做的事情。"
+ },
+ {
+  "seg": 157,
+  "start": 622.919,
+  "end": 625.5,
+  "speaker": "Unknown",
+  "en": "And this is an area where reality has a surprising amount of detail.",
+  "zh": "在这个领域，现实有惊人的细节量。"
+ },
+ {
+  "seg": 158,
+  "start": 625.84,
+  "end": 630.222,
+  "speaker": "Unknown",
+  "en": "It seems really straightforward, like, oh, you'll have a job board, you'll get applications, you'll review them.",
+  "zh": "这看起来真的很直接，比如，噢，你会有一个招聘公告牌，你会收到申请，你会审核它们。"
+ },
+ {
+  "seg": 159,
+  "start": 630.562,
+  "end": 634.624,
+  "speaker": "Unknown",
+  "en": "This very quickly becomes a huge, huge drag on the rest of your team.",
+  "zh": "这很快就会变成对团队其余部分的巨大的、巨大的拖累。"
+ },
+ {
+  "seg": 160,
+  "start": 634.644,
+  "end": 639.846,
+  "speaker": "Unknown",
+  "en": "You can easily spend almost all of your time recruiting if you're not doing it efficiently to get to some optimal outcome.",
+  "zh": "如果你在高效地达到某种最佳结果这方面做得不好，你很容易花费几乎所有的时间在招聘上。"
+ },
+ {
+  "seg": 161,
+  "start": 641.026,
+  "end": 643.647,
+  "speaker": "Unknown",
+  "en": "And so for us, again, we've built a lot of software to do this.",
+  "zh": "所以对我们来说，同样地，我们构建了很多软件来做这件事。"
+ },
+ {
+  "seg": 162,
+  "start": 644.027,
+  "end": 645.488,
+  "speaker": "Unknown",
+  "en": "There are four steps to our process.",
+  "zh": "我们的流程有四个步骤。"
+ },
+ {
+  "seg": 163,
+  "start": 646.482,
+  "end": 654.747,
+  "speaker": "Unknown",
+  "en": "The first is that we've built a software interface for users to apply, for applicants to apply online where we can capture some structured information from them upfront.",
+  "zh": "首先，我们构建了一个软件界面供用户申请，供申请者在线申请，我们可以提前从他们那里获取一些结构化的信息。"
+ },
+ {
+  "seg": 164,
+  "start": 656.063,
+  "end": 659.486,
+  "speaker": "Unknown",
+  "en": "Including the ability to apply to multiple jobs in parallel.",
+  "zh": "包括并行申请多个工作的能力。"
+ },
+ {
+  "seg": 165,
+  "start": 660.226,
+  "end": 663.849,
+  "speaker": "Unknown",
+  "en": "So we originally used a commercial applicant tracking system.",
+  "zh": "所以我们最初使用的是一个商业的申请人追踪系统。"
+ },
+ {
+  "seg": 166,
+  "start": 664.129,
+  "end": 666.11,
+  "speaker": "Unknown",
+  "en": "We've moved this to our internal tools.",
+  "zh": "我们已经把这部分转移到了我们的内部工具。"
+ },
+ {
+  "seg": 167,
+  "start": 666.851,
+  "end": 671.293,
+  "speaker": "Unknown",
+  "en": "And one of the reasons we did that is because this allowed us to do something that we couldn't find in any of the commercial ATSs.",
+  "zh": "我们这样做的原因之一是，这允许我们做一些我们在任何商业 ATS 中都找不到的事情。"
+ },
+ {
+  "seg": 168,
+  "start": 671.834,
+  "end": 676.077,
+  "speaker": "Unknown",
+  "en": "So the first step of our process when users apply is it goes to company-wide voting.",
+  "zh": "所以当我们流程的第一步，当用户申请时，它会进入全公司投票。"
+ },
+ {
+  "seg": 169,
+  "start": 677.557,
+  "end": 684.261,
+  "speaker": "Unknown",
+  "en": "This is a heavily redacted version of the internal interface, but hopefully you can make out the idea of what's going on here.",
+  "zh": "这是内部界面的一个经过大量删减的版本，但希望你能看懂这里发生了什么。"
+ },
+ {
+  "seg": 170,
+  "start": 684.781,
+  "end": 687.903,
+  "speaker": "Unknown",
+  "en": "So the applicant's resume is in the middle.",
+  "zh": "所以申请者的简历在中间。"
+ },
+ {
+  "seg": 171,
+  "start": 688.203,
+  "end": 689.924,
+  "speaker": "Unknown",
+  "en": "We collect a little bit of other structured information.",
+  "zh": "我们收集一些其他的结构化信息。"
+ },
+ {
+  "seg": 172,
+  "start": 690.224,
+  "end": 694.466,
+  "speaker": "Unknown",
+  "en": "But the most important thing is on the far right, you see this, there's a question.",
+  "zh": "但最重要的是在最右边，你看到这个，有一个问题。"
+ },
+ {
+  "seg": 173,
+  "start": 695.347,
+  "end": 696.927,
+  "speaker": "Unknown",
+  "en": "Like, how would you vote for this candidate?",
+  "zh": "比如，你会如何为这个候选人投票？"
+ },
+ {
+  "seg": 174,
+  "start": 697.027,
+  "end": 699.689,
+  "speaker": "Unknown",
+  "en": "Are they known good, strong yes, yes, no, strong no?",
+  "zh": "他们是已知的优秀、强烈的赞同、赞同、不、强烈的不？"
+ },
+ {
+  "seg": 175,
+  "start": 700.917,
+  "end": 708.564,
+  "speaker": "Unknown",
+  "en": "And so when a person applies, the system picks out seven or eight current employees that it thinks look something like their backgrounds, and it pings them all for votes.",
+  "zh": "所以当一个人申请时，系统会挑选出七或八个看起来像他们背景的现任员工，然后 ping 他们所有人进行投票。"
+ },
+ {
+  "seg": 176,
+  "start": 709.145,
+  "end": 718.754,
+  "speaker": "Unknown",
+  "en": "And so we can distribute the voting across a lot of the company for this initial review, which is essential because if you're doing anything cool, by the time you get a couple years into it, that top of funnel is overwhelming.",
+  "zh": "所以我们可以把投票分配给公司的很多人来进行这次初步审核，这是必不可少的，因为如果你在做很酷的事情，当你做了几年，那个漏斗顶端会是压倒性的。"
+ },
+ {
+  "seg": 177,
+  "start": 719.414,
+  "end": 727.023,
+  "speaker": "Unknown",
+  "en": "And if you place any small group of employees or any one person in the way as a bottleneck on this, they will absolutely bottleneck the whole rest of the organization.",
+  "zh": "如果你把任何一小群员工或任何一个人放在这个瓶颈的位置上，他们绝对会成为整个组织其余部分的瓶颈。"
+ },
+ {
+  "seg": 178,
+  "start": 727.824,
+  "end": 732.309,
+  "speaker": "Unknown",
+  "en": "And it's also you want to, I think, average over judgment.",
+  "zh": "而且你也想要，我认为，平均判断力。"
+ },
+ {
+  "seg": 179,
+  "start": 732.349,
+  "end": 737.776,
+  "speaker": "Unknown",
+  "en": "I think there's different people that are better or worse at hiring and have different perspectives on what you're looking for at that stage.",
+  "zh": "我认为有不同的人更擅长或更不擅长招聘，并且对你在这个阶段寻找的东西有不同的看法。"
+ },
+ {
+  "seg": 180,
+  "start": 739.86,
+  "end": 742.323,
+  "speaker": "Unknown",
+  "en": "So in the beginning, as the founder, you can meet with everybody.",
+  "zh": "所以在开始时，作为创始人，你可以见每一个人。"
+ },
+ {
+  "seg": 181,
+  "start": 742.703,
+  "end": 743.544,
+  "speaker": "Unknown",
+  "en": "That will take you quite far.",
+  "zh": "那会让你走得相当远。"
+ },
+ {
+  "seg": 182,
+  "start": 743.564,
+  "end": 745.687,
+  "speaker": "Unknown",
+  "en": "You should definitely interview everybody for quite a while.",
+  "zh": "你绝对应该在相当长的一段时间里面试每一个人。"
+ },
+ {
+  "seg": 183,
+  "start": 746.268,
+  "end": 751.053,
+  "speaker": "Unknown",
+  "en": "But even beyond that, you want ways to average over the judgment of the rest of your team.",
+  "zh": "但除此之外，你还需要方法来平均团队其他成员的判断力。"
+ },
+ {
+  "seg": 184,
+  "start": 751.434,
+  "end": 753.816,
+  "speaker": "Unknown",
+  "en": "And voting mechanisms are usually a really good way to do that.",
+  "zh": "投票机制通常是一个非常好的方法。"
+ },
+ {
+  "seg": 185,
+  "start": 754.569,
+  "end": 758.153,
+  "speaker": "Unknown",
+  "en": "So these are our actual statistics over the last couple of years.",
+  "zh": "所以这些是我们过去几年的实际统计数据。"
+ },
+ {
+  "seg": 186,
+  "start": 758.773,
+  "end": 763.298,
+  "speaker": "Unknown",
+  "en": "So 17% of the top of funnel applications that we get go to a phone screen.",
+  "zh": "所以我们收到的漏斗顶端申请中有 17% 会进入电话筛选。"
+ },
+ {
+  "seg": 187,
+  "start": 763.859,
+  "end": 774.79,
+  "speaker": "Unknown",
+  "en": "Again, that first initial voting stage is drawn from a company-wide pool so that we can get the voting done quickly within usually 24 or 48 hours and not bottleneck that on any small group of people.",
+  "zh": "同样，第一次初始投票阶段是从全公司库中抽取的，这样我们可以在通常 24 或 48 小时内完成投票，而不会把它瓶颈在任何一小群人身上。"
+ },
+ {
+  "seg": 188,
+  "start": 775.663,
+  "end": 778.969,
+  "speaker": "Unknown",
+  "en": "The phone screen is again drawn from a company-wide pool of people.",
+  "zh": "电话筛选同样是从全公司人员库中抽取的。"
+ },
+ {
+  "seg": 189,
+  "start": 779.009,
+  "end": 780.191,
+  "speaker": "Unknown",
+  "en": "This is not team specific.",
+  "zh": "这不是特定于团队的。"
+ },
+ {
+  "seg": 190,
+  "start": 780.511,
+  "end": 785.46,
+  "speaker": "Unknown",
+  "en": "This is a company-wide bar really looking for three things, judgment, horsepower, and agency.",
+  "zh": "这实际上是一个全公司的标准，真的在寻找三件事，判断力、马力（horsepower）和主观能动性。"
+ },
+ {
+  "seg": 191,
+  "start": 786.717,
+  "end": 793.22,
+  "speaker": "Unknown",
+  "en": "If we throw you into a complex, vaguely defined situation, will you tend to make good decisions or will you create diplomatic incidents?",
+  "zh": "如果我们把你扔进一个复杂的、定义模糊的境地，你会倾向于做出好的决定还是你会制造外交事件？"
+ },
+ {
+  "seg": 192,
+  "start": 793.24,
+  "end": 799.803,
+  "speaker": "Unknown",
+  "en": "Do you meet just a basic hurdle for technical competence and demonstrated ability to learn things?",
+  "zh": "你是否达到了技术能力和证明学习能力的基本门槛？"
+ },
+ {
+  "seg": 193,
+  "start": 800.603,
+  "end": 804.264,
+  "speaker": "Unknown",
+  "en": "And are you effective at causing the world to look like you wish it were?",
+  "zh": "你是否擅长让世界看起来像你希望的那样？"
+ },
+ {
+  "seg": 194,
+  "start": 804.945,
+  "end": 808.606,
+  "speaker": "Unknown",
+  "en": "How does your life look or not like whatever ambitions you had?",
+  "zh": "你的生活看起来像或不像你曾经有的任何野心？"
+ },
+ {
+  "seg": 195,
+  "start": 808.626,
+  "end": 810.427,
+  "speaker": "Unknown",
+  "en": "And do you have specific ambitions for your life?",
+  "zh": "你的生活有具体的野心吗？"
+ },
+ {
+  "seg": 196,
+  "start": 811.114,
+  "end": 813.075,
+  "speaker": "Unknown",
+  "en": "And so this we can distribute over the entire company.",
+  "zh": "所以这个我们可以分配给全公司。"
+ },
+ {
+  "seg": 197,
+  "start": 813.815,
+  "end": 816.977,
+  "speaker": "Unknown",
+  "en": "And then half of those tend to go to homework.",
+  "zh": "然后其中一半倾向于进入家庭作业。"
+ },
+ {
+  "seg": 198,
+  "start": 817.518,
+  "end": 820.899,
+  "speaker": "Unknown",
+  "en": "Ideally, we'd be using entirely AI-resistant homeworks now.",
+  "zh": "理想情况下，我们现在会使用完全抗 AI 的家庭作业。"
+ },
+ {
+  "seg": 199,
+  "start": 820.939,
+  "end": 830.465,
+  "speaker": "Unknown",
+  "en": "So our favorite types of homeworks are things that don't saturate, have a very high ceiling, and are naturally scorable to two or three numbers that we can put on a plot.",
+  "zh": "所以我们最喜欢的家庭作业类型是那些不会饱和、有非常高的上限、并且天然可以评分到两个或三个我们可以放在图表上的数字的事情。"
+ },
+ {
+  "seg": 200,
+  "start": 831.225,
+  "end": 833.851,
+  "speaker": "Unknown",
+  "en": "So that when we get responses to homeworks, we can just plot them all.",
+  "zh": "这样当我们收到作业的回复时，我们就可以把它们都绘制出来。"
+ },
+ {
+  "seg": 201,
+  "start": 833.871,
+  "end": 841.507,
+  "speaker": "Unknown",
+  "en": "And then it's very obvious when someone has really beaten the Pareto frontier and we otherwise don't care whatever AI models they use, like that can make you better.",
+  "zh": "然后当有人真正突破了帕累托边界时，这就非常明显，否则我们根本不在乎他们使用什么 AI 模型，就像那个可以让你做得更好。"
+ },
+ {
+  "seg": 202,
+  "start": 842.283,
+  "end": 848.967,
+  "speaker": "Unknown",
+  "en": "In cases where that's not possible for homework right now, we're doing increasing number of technical phone calls or on-site practical tests.",
+  "zh": "在目前针对作业不可能做到这一点的情况下，我们正在进行越来越多的技术电话面试或现场实操测试。"
+ },
+ {
+  "seg": 203,
+  "start": 849.307,
+  "end": 853.009,
+  "speaker": "Unknown",
+  "en": "But ideally, we would have an AI-resistant take home for each of these.",
+  "zh": "但理想情况下，我们针对每一项都会有一个抗 AI 的居家作业。"
+ },
+ {
+  "seg": 204,
+  "start": 853.629,
+  "end": 864.234,
+  "speaker": "Unknown",
+  "en": "Anthropic had a really interesting take on the AI-resistant homework where they've had a couple of tasks where there's like, it's like the GPU kernel optimization, like what is the minimum number of cycles you can get it down to?",
+  "zh": "Anthropic 有一种非常有趣的抗 AI 作业的方法，他们有几项任务，就像 GPU 内核优化，就像你能把它降到最低的周期数是多少？"
+ },
+ {
+  "seg": 205,
+  "start": 864.715,
+  "end": 869.297,
+  "speaker": "Unknown",
+  "en": "And this is naturally adjusting, like the hurdle for a while was, I think it was Sonnet's performance.",
+  "zh": "而这是自然调整的，比如有一段时间的门槛是，我认为是 Sonnet 的性能。"
+ },
+ {
+  "seg": 206,
+  "start": 869.337,
+  "end": 871.238,
+  "speaker": "Unknown",
+  "en": "If you could beat that, then you could get an interview.",
+  "zh": "如果你能打败那个，那你就能得到面试机会。"
+ },
+ {
+  "seg": 207,
+  "start": 871.608,
+  "end": 874.309,
+  "speaker": "Unknown",
+  "en": "I think that there's a bunch of ways to construct AI-resistant homeworks.",
+  "zh": "我认为有很多种构建抗 AI 作业的方法。"
+ },
+ {
+  "seg": 208,
+  "start": 875.649,
+  "end": 888.353,
+  "speaker": "Unknown",
+  "en": "And then, by the time you get to the interview, it is important that you have, from there, a reasonably high, like at least 25% conversion to an offer, because otherwise it is just you're gonna waste too much of your time doing onsites for employees that don't convert.",
+  "zh": "然后，当你到了面试环节时，重要的是你从那里有一个合理的高转化率，比如至少 25% 转化为录用，否则你只是会在那些无法转化的员工身上浪费太多的现场面试时间。"
+ },
+ {
+  "seg": 209,
+  "start": 888.734,
+  "end": 889.534,
+  "speaker": "Unknown",
+  "en": "You can't get that down.",
+  "zh": "你没法降低那个。"
+ },
+ {
+  "seg": 210,
+  "start": 891.441,
+  "end": 893.202,
+  "speaker": "Unknown",
+  "en": "And so there's four steps to this.",
+  "zh": "所以这个过程有四个步骤。"
+ },
+ {
+  "seg": 211,
+  "start": 893.702,
+  "end": 896.744,
+  "speaker": "Unknown",
+  "en": "Initial voting, the phone screen, homework, and a full interview.",
+  "zh": "初步投票，电话筛选，作业，以及完整的面试。"
+ },
+ {
+  "seg": 212,
+  "start": 897.744,
+  "end": 906.83,
+  "speaker": "Unknown",
+  "en": "And this is, as far as from my experience, this is the minimum set of information that we need to make a full decision.",
+  "zh": "这是，据我的经验，这是我们做出完整决策所需的最少信息集。"
+ },
+ {
+  "seg": 213,
+  "start": 907.31,
+  "end": 911.213,
+  "speaker": "Unknown",
+  "en": "And I don't think that there's a more efficient way to elicit this.",
+  "zh": "而且我不认为有更有效的方法来引出这些信息。"
+ },
+ {
+  "seg": 214,
+  "start": 911.273,
+  "end": 913.254,
+  "speaker": "Unknown",
+  "en": "I don't think there's a smaller number of steps that we could use.",
+  "zh": "我不认为我们可以使用更少的步骤。"
+ },
+ {
+  "seg": 215,
+  "start": 913.534,
+  "end": 914.575,
+  "speaker": "Unknown",
+  "en": "So this has become our process.",
+  "zh": "所以这已经成为了我们的流程。"
+ },
+ {
+  "seg": 216,
+  "start": 915.486,
+  "end": 919.729,
+  "speaker": "Unknown",
+  "en": "So you're hiring people, they're coming into work, they're starting, they're incurring payroll.",
+  "zh": "所以你在雇佣人，他们来工作，他们开始入职，他们产生薪资支出。"
+ },
+ {
+  "seg": 217,
+  "start": 920.869,
+  "end": 921.99,
+  "speaker": "Unknown",
+  "en": "But how do you know that you're good at this?",
+  "zh": "但你怎么知道你擅长这个呢？"
+ },
+ {
+  "seg": 218,
+  "start": 922.01,
+  "end": 927.313,
+  "speaker": "Unknown",
+  "en": "Like eventually you'll get feedback from the market on how good you are at hiring because the company will work or it won't.",
+  "zh": "就像最终你会从市场获得关于你招聘得有多好的反馈，因为公司会运作或者不会运作。"
+ },
+ {
+  "seg": 219,
+  "start": 927.333,
+  "end": 931.816,
+  "speaker": "Unknown",
+  "en": "Like your team will be capable of accomplishing the stuff that you've set out and they'll help you course correct through that.",
+  "zh": "就像你的团队将能够完成你设定的那些事情，并且他们会帮助你通过那个过程进行航向修正。"
+ },
+ {
+  "seg": 220,
+  "start": 932.316,
+  "end": 936.559,
+  "speaker": "Unknown",
+  "en": "But this is a very, very long feedback and it's very poorly behaved loss function.",
+  "zh": "但这是一个非常、非常漫长的反馈，并且是一个非常表现不佳的损失函数。"
+ },
+ {
+  "seg": 221,
+  "start": 937.64,
+  "end": 944.544,
+  "speaker": "Unknown",
+  "en": "And so it's kind of your job as management to design synthetic gradients that allow you to find out earlier and along the way how recruiting is going and if you need a course correction.",
+  "zh": "所以作为管理层，你的工作有点像是设计合成梯度，让你能够更早地并在过程中了解招聘进行得如何，以及是否需要航向修正。"
+ },
+ {
+  "seg": 222,
+  "start": 946.903,
+  "end": 950.245,
+  "speaker": "Unknown",
+  "en": "A conventional answer to this is the 360 review process.",
+  "zh": "对此一个常规的答案是 360 度评估流程。"
+ },
+ {
+  "seg": 223,
+  "start": 950.366,
+  "end": 952.727,
+  "speaker": "Unknown",
+  "en": "So once a year, you send out a lot of forms.",
+  "zh": "所以一年一次，你会发出很多表格。"
+ },
+ {
+  "seg": 224,
+  "start": 953.068,
+  "end": 956.11,
+  "speaker": "Unknown",
+  "en": "You gather up a bunch of feedback around each employee.",
+  "zh": "你收集围绕每位员工的大量反馈。"
+ },
+ {
+  "seg": 225,
+  "start": 956.43,
+  "end": 959.212,
+  "speaker": "Unknown",
+  "en": "You set up a bunch of meetings with HR and with the various managers.",
+  "zh": "你安排一系列与 HR 以及各位经理的会议。"
+ },
+ {
+  "seg": 226,
+  "start": 959.272,
+  "end": 962.614,
+  "speaker": "Unknown",
+  "en": "And you can do the conventional performance review cycle, which",
+  "zh": "你可以做常规的绩效评估周期，这"
+ },
+ {
+  "seg": 227,
+  "start": 963.735,
+  "end": 978.022,
+  "speaker": "Unknown",
+  "en": "Based on my experiences, this is a very disruptive process that doesn't tend to surface issues that you don't already know about but have enacted on because you knew that thing was there but firing people is hard and so people drag their feet on it and this is kind of reinforcing things you already knew.",
+  "zh": "根据我的经验，这是一个非常破坏性的过程，它并不倾向于暴露你不知道的问题，但你已经采取了行动，因为你知道那个东西在那里，但解雇人是很难的，所以人们会拖着不办，而且这有点是在强化你已经知道的事情。"
+ },
+ {
+  "seg": 228,
+  "start": 978.622,
+  "end": 979.783,
+  "speaker": "Unknown",
+  "en": "And it only happens once a year.",
+  "zh": "而且这只发生一年一次。"
+ },
+ {
+  "seg": 229,
+  "start": 980.863,
+  "end": 983.725,
+  "speaker": "Unknown",
+  "en": "Maybe twice a year if you split up the company into cohorts.",
+  "zh": "也许一年两次，如果你把公司分成不同队列的话。"
+ },
+ {
+  "seg": 230,
+  "start": 984.005,
+  "end": 988.007,
+  "speaker": "Unknown",
+  "en": "But I think really what would be nice to have is a signal that...",
+  "zh": "但我认为真正拥有一个信号会是很好的，那个..."
+ },
+ {
+  "seg": 231,
+  "start": 988.687,
+  "end": 997.69,
+  "speaker": "Unknown",
+  "en": "It gives you this kind of natural feedback from across the company about who's good and who isn't and what's working and what's not in a way that is largely unbiased and is more continuous.",
+  "zh": "它以一种基本无偏见且更连续的方式，为你提供来自整个公司的关于谁好谁不好以及什么有效什么无效的自然反馈。"
+ },
+ {
+  "seg": 232,
+  "start": 997.77,
+  "end": 1002.752,
+  "speaker": "Unknown",
+  "en": "Imagine if you could get feedback kind of every few weeks on where there are issues and where things are going well.",
+  "zh": "想象一下，如果你能每隔几周就获得关于哪里有问题以及哪里进展顺利的反馈。"
+ },
+ {
+  "seg": 233,
+  "start": 1003.793,
+  "end": 1010.115,
+  "speaker": "Unknown",
+  "en": "And so the process that I had developed, which I've now used for the last six or seven years, is every...",
+  "zh": "所以我开发的流程，我在过去六七年里一直使用的，就是每个..."
+ },
+ {
+  "seg": 234,
+  "start": 1011.845,
+  "end": 1018.21,
+  "speaker": "Unknown",
+  "en": "Every couple of weeks, every four to six weeks, it's not that often, people around the company get pinged with a question through the software, through Helix.",
+  "zh": "每隔几周，每四到六周，并不是那么频繁，公司里的人会通过软件，通过 Helix 收到一个问题的提示。"
+ },
+ {
+  "seg": 235,
+  "start": 1018.851,
+  "end": 1027.438,
+  "speaker": "Unknown",
+  "en": "And there's a form, but there's only one question that really matters, which is knowing how this person turned out, would you vote again today for their hire?",
+  "zh": "有一个表格，但真正重要的问题只有一个，就是知道这个人最终表现如何，你今天还会再次投票雇佣他们吗？"
+ },
+ {
+  "seg": 236,
+  "start": 1027.538,
+  "end": 1029.36,
+  "speaker": "Unknown",
+  "en": "It's the same questions we use on the initial voting.",
+  "zh": "这和我们在初步投票中使用的问题是一样的。"
+ },
+ {
+  "seg": 237,
+  "start": 1029.98,
+  "end": 1033.983,
+  "speaker": "Unknown",
+  "en": "And so you'll get a prompt to say, this person you work with, how would you vote for their hire today?",
+  "zh": "所以你会收到一个提示说，这个和你一起工作的人，你今天会如何投票雇佣他们？"
+ },
+ {
+  "seg": 238,
+  "start": 1034.924,
+  "end": 1039.208,
+  "speaker": "Unknown",
+  "en": "And then what we can do is we construct a graph over the company of all of the feedback.",
+  "zh": "然后我们可以做的是，我们构建一个覆盖全公司的所有反馈的图谱。"
+ },
+ {
+  "seg": 239,
+  "start": 1040.003,
+  "end": 1046.344,
+  "speaker": "Unknown",
+  "en": "And so the basic intuition is that your vote should be weighted more highly if everybody else is rated you highly.",
+  "zh": "所以基本的直觉是，如果其他每个人都给你很高的评价，你的投票应该被赋予更高的权重。"
+ },
+ {
+  "seg": 240,
+  "start": 1047.625,
+  "end": 1059.167,
+  "speaker": "Unknown",
+  "en": "And the astute may notice that this looks a lot like the original Google algorithm PageRank, which is an idea called eigenvector centrality, where you can create a weight over the graph by looking at how the graph points together.",
+  "zh": "敏锐的人可能会注意到，这看起来非常像 Google 的原始算法 PageRank，这是一个叫做特征向量中心性的概念，你可以通过观察图谱如何连接在一起来在图谱上创建权重。"
+ },
+ {
+  "seg": 241,
+  "start": 1059.188,
+  "end": 1063.469,
+  "speaker": "Unknown",
+  "en": "This is a little bit different than literally eigenvector centrality, but it's very similar.",
+  "zh": "这跟字面上的特征向量中心性有点不同，但它非常相似。"
+ },
+ {
+  "seg": 242,
+  "start": 1063.809,
+  "end": 1065.349,
+  "speaker": "Unknown",
+  "en": "And so we call this technique eigenreviews.",
+  "zh": "所以我们称这种技术为 eigenreviews。"
+ },
+ {
+  "seg": 243,
+  "start": 1066.375,
+  "end": 1070.137,
+  "speaker": "Unknown",
+  "en": "And I've become convinced that this is more or less the right way to do performance reviews.",
+  "zh": "我已经确信这或多或是是进行绩效评估的正确方式。"
+ },
+ {
+  "seg": 244,
+  "start": 1070.717,
+  "end": 1073.399,
+  "speaker": "Unknown",
+  "en": "There's some other tricks that you have to apply to get this to work really well.",
+  "zh": "你必须应用一些其他的技巧才能让它真正运作良好。"
+ },
+ {
+  "seg": 245,
+  "start": 1073.839,
+  "end": 1081.603,
+  "speaker": "Unknown",
+  "en": "For example, we apply dropout where we'll run a thousand iterations where we'll randomly remove some percentage of the edges each iteration.",
+  "zh": "例如，我们应用 dropout，我们会运行一千次迭代，每次迭代我们会随机移除一定比例的边。"
+ },
+ {
+  "seg": 246,
+  "start": 1082.143,
+  "end": 1088.907,
+  "speaker": "Unknown",
+  "en": "And then when you look at the distribution of scores that you get out of that, if you see additional peaks, for example, this is a clue that there could be voting clicks that need further investigation.",
+  "zh": "然后当你查看由此产生的分数分布时，如果你看到额外的峰值，例如，这是一个线索，表明可能存在需要进一步调查的投票小集团。"
+ },
+ {
+  "seg": 247,
+  "start": 1089.527,
+  "end": 1101.176,
+  "speaker": "Unknown",
+  "en": "But as a whole, this is, it distributes the judgment across the company, updates more or less continuously with about a month lag, and gives you just way better insight into what's going on really around the company.",
+  "zh": "但总的来说，这会将判断分散在整个公司中，以大约一个月的滞后或多或少地持续更新，并且给你提供关于公司周围真正发生的事情的更好的洞察。"
+ },
+ {
+  "seg": 248,
+  "start": 1102.457,
+  "end": 1109.202,
+  "speaker": "Unknown",
+  "en": "So this is, and it also totally gets rid of that kind of traumatic, super heavy, one CRHR driven performance review process.",
+  "zh": "所以这，而且它完全摆脱了那种创伤性的、超级繁重的、由单一 HR 驱动的绩效评估流程。"
+ },
+ {
+  "seg": 249,
+  "start": 1111.644,
+  "end": 1118.409,
+  "speaker": "Unknown",
+  "en": "So the point of this talk is not that you should use this in particular, although you should consider it.",
+  "zh": "所以这个演讲的重点不是说你必须特别使用这个，尽管你应该考虑它。"
+ },
+ {
+  "seg": 250,
+  "start": 1118.429,
+  "end": 1124.754,
+  "speaker": "Unknown",
+  "en": "And if you actually roll this out at your company, you can email me and I'll send you a doc with more specific tricks on how to actually get this to work well.",
+  "zh": "如果你真的在你的公司推出了这个，你可以给我发邮件，我会发给你一份文档，里面有关于如何真正让它运作良好的更具体的技巧。"
+ },
+ {
+  "seg": 251,
+  "start": 1125.455,
+  "end": 1126.916,
+  "speaker": "Unknown",
+  "en": "But the real theme of the talk...",
+  "zh": "但这次演讲的真正主题……"
+ },
+ {
+  "seg": 252,
+  "start": 1127.78,
+  "end": 1131.141,
+  "speaker": "Unknown",
+  "en": "is that rate of iteration separates success from failure.",
+  "zh": "是迭代速度决定了成败。"
+ },
+ {
+  "seg": 253,
+  "start": 1131.941,
+  "end": 1137.023,
+  "speaker": "Unknown",
+  "en": "And if you can get a fast iteration loop, that really overcomes many other things you're going to run into.",
+  "zh": "如果你能够获得一个快速的迭代循环，那真的会克服你会遇到的许多其他事情。"
+ },
+ {
+  "seg": 254,
+  "start": 1137.483,
+  "end": 1138.784,
+  "speaker": "Unknown",
+  "en": "And this effect is so severe.",
+  "zh": "而且这种效应是如此严重。"
+ },
+ {
+  "seg": 255,
+  "start": 1138.804,
+  "end": 1145.946,
+  "speaker": "Unknown",
+  "en": "I mean, if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter.",
+  "zh": "我是说，如果你能每周学到一件事，而有一个竞争对手每月才学到一件事，他们就永远无关紧要了。"
+ },
+ {
+  "seg": 256,
+  "start": 1147.887,
+  "end": 1167.029,
+  "speaker": "Unknown",
+  "en": "Overwhelmingly, if you're looking at two different approaches to solve a problem, if there's one that allows you to compound in a much shorter amount of time than the other, even if the other approach has significant redeeming characteristics, you should really consider going with the shorter iteration cycle because the compounding effect is just so dramatic.",
+  "zh": "压倒性地，如果你在看解决问题的两种不同方法，如果有一种允许你在比另一种短得多的时间内进行复利，即使另一种方法有显著的值得称道的特征，你也真的应该考虑选择更短的迭代周期，因为复利效应实在是太戏剧化了。"
+ },
+ {
+  "seg": 257,
+  "start": 1169.053,
+  "end": 1172.554,
+  "speaker": "Unknown",
+  "en": "So speed determines success and failure and speed is determined by infrastructure.",
+  "zh": "所以速度决定成败，而速度是由基础设施决定的。"
+ },
+ {
+  "seg": 258,
+  "start": 1172.834,
+  "end": 1177.356,
+  "speaker": "Unknown",
+  "en": "This is driven by really boring sounding things like how well do your purchasing and recruiting and spending processes work.",
+  "zh": "这是由真正听起来很无聊的事情驱动的，比如你的采购、招聘和支出流程运作得如何。"
+ },
+ {
+  "seg": 259,
+  "start": 1177.796,
+  "end": 1183.277,
+  "speaker": "Unknown",
+  "en": "This is as important as how well do you understand the object level technical content of the thing that you're building.",
+  "zh": "这与你对正在构建的事物的对象级技术内容的理解程度同等重要。"
+ },
+ {
+  "seg": 260,
+  "start": 1183.898,
+  "end": 1193.941,
+  "speaker": "Unknown",
+  "en": "I see companies founded by just like stellar pedigree scientists and engineers all the time that die on the vine because this execution is tough to follow through and your job is to organize.",
+  "zh": "我一直看到由拥有非凡血统的科学家和工程师创立的公司，它们半途而废，因为这个执行很难跟进到底，而你的工作是组织。"
+ },
+ {
+  "seg": 261,
+  "start": 1194.741,
+  "end": 1197.842,
+  "speaker": "Unknown",
+  "en": "It's uncommon that these deep tech companies fail because the technology doesn't work.",
+  "zh": "这些深科技公司因为技术不工作而失败的情况并不常见。"
+ },
+ {
+  "seg": 262,
+  "start": 1198.182,
+  "end": 1205.568,
+  "speaker": "Unknown",
+  "en": "They fail because once you end up with this organization of hundreds of people and hundreds of thousands of square feet of physical infrastructure, you haven't built the systems to manage that.",
+  "zh": "它们失败是因为一旦你最终拥有了这个由数百人和数十万平方英尺的物理基础设施组成的组织，你还没有建立系统来管理它。"
+ },
+ {
+  "seg": 263,
+  "start": 1205.588,
+  "end": 1206.428,
+  "speaker": "Unknown",
+  "en": "It becomes unwieldy.",
+  "zh": "它变得难以驾驭。"
+ },
+ {
+  "seg": 264,
+  "start": 1206.869,
+  "end": 1210.351,
+  "speaker": "Unknown",
+  "en": "And then you can't connect strategy to execution.",
+  "zh": "然后你就无法将战略与执行联系起来。"
+ },
+ {
+  "seg": 265,
+  "start": 1212.713,
+  "end": 1219.458,
+  "speaker": "Unknown",
+  "en": "So we heavily lean towards things that have shorter iteration cycles, kind of all else equal.",
+  "zh": "所以我们严重倾向于具有更短迭代周期的事情，在其他条件相同的情况下。"
+ },
+ {
+  "seg": 266,
+  "start": 1221.572,
+  "end": 1223.174,
+  "speaker": "Unknown",
+  "en": "But that's not a blanket rule.",
+  "zh": "但这并不是一条普遍规则。"
+ },
+ {
+  "seg": 267,
+  "start": 1223.194,
+  "end": 1224.354,
+  "speaker": "Unknown",
+  "en": "There are no blanket rules in startups.",
+  "zh": "创业公司中没有普遍规则。"
+ },
+ {
+  "seg": 268,
+  "start": 1224.374,
+  "end": 1231.52,
+  "speaker": "Unknown",
+  "en": "You're looking at each new fact pattern that comes in as its own unique thing and then making decisions that make sense to you.",
+  "zh": "你是把每一个进来的新事实模式看作它自己独特的事情，然后做出对你来说有意义的决定。"
+ },
+ {
+  "seg": 269,
+  "start": 1232.26,
+  "end": 1239.466,
+  "speaker": "Unknown",
+  "en": "And one of the harder lessons as a startup founder, one of the harder things I think to really deal with is the fact that you cannot delegate your judgment.",
+  "zh": "作为创业公司创始人更难的课程之一，我认为真正更难处理的事情之一是，你不能委托你的判断。"
+ },
+ {
+  "seg": 270,
+  "start": 1240.187,
+  "end": 1247.03,
+  "speaker": "Unknown",
+  "en": "As the CEO, you must always make decisions that make sense to you, no matter how much momentum or inertia the alternatives seem to have.",
+  "zh": "作为 CEO，你必须始终做出对你来说有意义的决定，无论替代方案看起来具有多大的动量或惯性。"
+ },
+ {
+  "seg": 271,
+  "start": 1248.391,
+  "end": 1253.993,
+  "speaker": "Unknown",
+  "en": "So in school, let's say there's somebody sitting next to you and you cheat on the test by looking over at them.",
+  "zh": "所以在学校里，假设有一个人坐在你旁边，你通过看他们的卷子在考试中作弊。"
+ },
+ {
+  "seg": 272,
+  "start": 1254.933,
+  "end": 1257.715,
+  "speaker": "Unknown",
+  "en": "All else equal, your grade will be dragged towards the average of the class.",
+  "zh": "在其他条件相同的情况下，你的成绩会被拖向班级的平均水平。"
+ },
+ {
+  "seg": 273,
+  "start": 1258.735,
+  "end": 1260.816,
+  "speaker": "Unknown",
+  "en": "That is not good enough to succeed in startups.",
+  "zh": "这对于在创业公司中成功是不够好的。"
+ },
+ {
+  "seg": 274,
+  "start": 1260.836,
+  "end": 1263.577,
+  "speaker": "Unknown",
+  "en": "You have to do things that are at the long tail.",
+  "zh": "你必须做处于长尾的事情。"
+ },
+ {
+  "seg": 275,
+  "start": 1263.777,
+  "end": 1269.02,
+  "speaker": "Unknown",
+  "en": "The successful companies are the exceptions by becoming an average that is not good enough.",
+  "zh": "成功的公司是通过成为一个不够好的平均水平而成为例外的。"
+ },
+ {
+  "seg": 276,
+  "start": 1271.042,
+  "end": 1273.823,
+  "speaker": "Unknown",
+  "en": "In order to succeed, your judgment has to be differentiatedly good.",
+  "zh": "为了成功，你的判断必须是差异化地好。"
+ },
+ {
+  "seg": 277,
+  "start": 1274.543,
+  "end": 1276.904,
+  "speaker": "Unknown",
+  "en": "Now, the reality might be that you don't know if your judgment is good yet.",
+  "zh": "现实可能是你还不知道你的判断是否好。"
+ },
+ {
+  "seg": 278,
+  "start": 1277.425,
+  "end": 1281.726,
+  "speaker": "Unknown",
+  "en": "And so one way or another, you will have to find out.",
+  "zh": "所以无论如何，你必须弄清楚。"
+ },
+ {
+  "seg": 279,
+  "start": 1282.306,
+  "end": 1287.749,
+  "speaker": "Unknown",
+  "en": "And that means making decisions that make sense to you, even when you are totally alone in that realization.",
+  "zh": "这意味着做出对你来说有意义的决定，即使你在那个领悟中是完全孤独的。"
+ },
+ {
+  "seg": 280,
+  "start": 1288.889,
+  "end": 1291.23,
+  "speaker": "Unknown",
+  "en": "That is the only way to get to the really big outcomes.",
+  "zh": "这是获得真正大结果的唯一途径。"
+ },
+ {
+  "seg": 281,
+  "start": 1291.97,
+  "end": 1296.134,
+  "speaker": "Unknown",
+  "en": "Now, it's not that often that everyone else will think one thing and you'll be like, you're all totally wrong.",
+  "zh": "并不是经常其他人都认为一件事，而你会觉得，你们都完全错了。"
+ },
+ {
+  "seg": 282,
+  "start": 1296.575,
+  "end": 1298.737,
+  "speaker": "Unknown",
+  "en": "But it is a really eerie feeling.",
+  "zh": "但这是一种非常怪异的感觉。"
+ },
+ {
+  "seg": 283,
+  "start": 1298.757,
+  "end": 1305.925,
+  "speaker": "Unknown",
+  "en": "You'll get to a point four or five years into the company when there's hundreds of millions of dollars on the line and there's some really high stakes decision and only you can make it.",
+  "zh": "你会达到公司四五年时的一个时刻，那时有几亿美元的风险，有一个非常高风险的决定，只有你能做。"
+ },
+ {
+  "seg": 284,
+  "start": 1306.285,
+  "end": 1307.666,
+  "speaker": "Unknown",
+  "en": "And then you will look around for advice.",
+  "zh": "然后你会四处寻找建议。"
+ },
+ {
+  "seg": 285,
+  "start": 1308.147,
+  "end": 1309.608,
+  "speaker": "Unknown",
+  "en": "Because in the beginning, you'll get lots of it.",
+  "zh": "因为在开始的时候，你会得到很多建议。"
+ },
+ {
+  "seg": 286,
+  "start": 1309.628,
+  "end": 1316.292,
+  "speaker": "Unknown",
+  "en": "There's a bunch of things that are easily advised or easily figured out, but you'll get to a key point years in, and you'll look for advice, and there is nobody to ask.",
+  "zh": "有很多事情很容易被建议或很容易弄清楚，但你会达到几年后的一个关键时刻，你会寻找建议，却没有人可以问。"
+ },
+ {
+  "seg": 287,
+  "start": 1316.373,
+  "end": 1320.155,
+  "speaker": "Unknown",
+  "en": "And at that point, you must have a really good sense of the limits and boundaries of your judgment.",
+  "zh": "那时，你必须对你的判断的局限和边界有一个非常好的感觉。"
+ },
+ {
+  "seg": 288,
+  "start": 1320.175,
+  "end": 1323.537,
+  "speaker": "Unknown",
+  "en": "That is a very eerie feeling, and you have to be able to commit to it regardless.",
+  "zh": "这是一种非常怪异的感觉，你必须能够无论如何都坚持它。"
+ },
+ {
+  "seg": 289,
+  "start": 1324.398,
+  "end": 1328.981,
+  "speaker": "Unknown",
+  "en": "Now, the good news is that in my experience, it's very difficult to actually get stuck.",
+  "zh": "好消息是，根据我的经验，实际上很难陷入困境。"
+ },
+ {
+  "seg": 290,
+  "start": 1329.021,
+  "end": 1334.305,
+  "speaker": "Unknown",
+  "en": "You can get yourself into trouble, and the action space is always larger than it appears.",
+  "zh": "你可能会让自己陷入麻烦，而行动空间总是比它看起来要大。"
+ },
+ {
+  "seg": 291,
+  "start": 1336.84,
+  "end": 1343.442,
+  "speaker": "Unknown",
+  "en": "No matter what happens, I think it's very easy to try and anticipate all kinds of problems that you'll never actually run into.",
+  "zh": "无论发生什么，我认为很容易去尝试预测你永远不会遇到的各种问题。"
+ },
+ {
+  "seg": 292,
+  "start": 1344.862,
+  "end": 1349.363,
+  "speaker": "Unknown",
+  "en": "And then you go and do it, and then you get to a point where you've run into some real limitation.",
+  "zh": "然后你去做了，你达到了一个遇到了真正局限的点。"
+ },
+ {
+  "seg": 293,
+  "start": 1349.383,
+  "end": 1351.384,
+  "speaker": "Unknown",
+  "en": "There's always 100 ideas about how to make it better.",
+  "zh": "总有 100 个关于如何让它变得更好的想法。"
+ },
+ {
+  "seg": 294,
+  "start": 1351.984,
+  "end": 1355.545,
+  "speaker": "Unknown",
+  "en": "This is sometimes phrased as action produces information.",
+  "zh": "这有时被表述为行动产生信息。"
+ },
+ {
+  "seg": 295,
+  "start": 1357.077,
+  "end": 1360.04,
+  "speaker": "Unknown",
+  "en": "This idea is, I think, much deeper than it sounds.",
+  "zh": "这个想法，我认为，比它听起来要深刻得多。"
+ },
+ {
+  "seg": 296,
+  "start": 1360.34,
+  "end": 1362.742,
+  "speaker": "Unknown",
+  "en": "So in physics, there's this quantity called action.",
+  "zh": "所以在物理学中，有这个量叫做作用量。"
+ },
+ {
+  "seg": 297,
+  "start": 1363.243,
+  "end": 1375.773,
+  "speaker": "Unknown",
+  "en": "And so if I throw a ball and it follows a ballistic, like a parabolic trajectory, that trajectory is totally set when it leaves my hand, unless it gets blown by wind, some other action is exerted on it.",
+  "zh": "如果我扔一个球，它遵循弹道，比如抛物线轨迹，那个轨迹当它离开我的手时就完全设定了，除非它被风吹动，有其他作用量施加在它上面。"
+ },
+ {
+  "seg": 298,
+  "start": 1376.093,
+  "end": 1380.356,
+  "speaker": "Unknown",
+  "en": "It will follow this ballistic trajectory, which is, in a sense, kind of an information-minimizing trajectory.",
+  "zh": "它将遵循这个弹道轨迹，这在某种意义上，是一种最小化信息的轨迹。"
+ },
+ {
+  "seg": 299,
+  "start": 1380.376,
+  "end": 1381.297,
+  "speaker": "Unknown",
+  "en": "I can say it just followed.",
+  "zh": "我可以说它只是遵循了。"
+ },
+ {
+  "seg": 300,
+  "start": 1381.337,
+  "end": 1382.038,
+  "speaker": "Unknown",
+  "en": "It was ballistic.",
+  "zh": "那是弹道式的。"
+ },
+ {
+  "seg": 301,
+  "start": 1382.498,
+  "end": 1383.539,
+  "speaker": "Unknown",
+  "en": "That totally determines it.",
+  "zh": "那完全决定了它。"
+ },
+ {
+  "seg": 302,
+  "start": 1385.143,
+  "end": 1409.144,
+  "speaker": "Unknown",
+  "en": "something else happens you had to spend some energy time to cause that cause that to happen and so when whenever you exert and like action into the universe that creates information like in a like in a very fundamental sense and whenever you get stuck like you have to have to start like projecting action producing entropy um and this is this produces some fairly counterintuitive effects like i've seen situations where",
+  "zh": "别的事情发生了你必须花费一些精力时间去导致那导致那发生所以当每当你施加并且就像行动到宇宙中那创造了信息就像在就像在一个非常基本的意义上并且每当你被困住就像你必须必须开始就像投射行动产生熵嗯这这产生了一些相当反直觉的效果就像我见过的情况其中"
+ },
+ {
+  "seg": 303,
+  "start": 1409.925,
+  "end": 1424.341,
+  "speaker": "Unknown",
+  "en": "The company is stuck in a deep local minimum and there's someone who is great in many ways but it's just the wrong fit for what that company needs at the time and removing them even though they individually are very strong unblocks the company and allows it to kind of enter a new phase.",
+  "zh": "公司陷于一个深的局部极小值并且有一个人在许多方面很棒但这只是不适合那个公司在那个时候需要的东西即使他们个人非常强移除他们解除了公司的阻碍并允许它有点进入一个新阶段。"
+ },
+ {
+  "seg": 304,
+  "start": 1425.322,
+  "end": 1427.705,
+  "speaker": "Unknown",
+  "en": "When you get stuck you have to start doing things.",
+  "zh": "当你被困住你必须开始做事情。"
+ },
+ {
+  "seg": 305,
+  "start": 1428.606,
+  "end": 1428.947,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以..."
+ },
+ {
+  "seg": 306,
+  "start": 1430.408,
+  "end": 1439.471,
+  "speaker": "Unknown",
+  "en": "The thing underneath the object level content of what the product you are building is, you've got this, you have all these support systems.",
+  "zh": "在你正在构建的产品对象级别内容之下的东西你有这个你有所有这些支持系统。"
+ },
+ {
+  "seg": 307,
+  "start": 1440.311,
+  "end": 1446.393,
+  "speaker": "Unknown",
+  "en": "How the company does purchasing and accounting and recruiting and performance reviews and budgeting and safety and quality is the operating system of the company.",
+  "zh": "公司如何做采购和会计和招聘和绩效评估和预算以及安全和质量是公司的操作系统。"
+ },
+ {
+  "seg": 308,
+  "start": 1447.133,
+  "end": 1451.334,
+  "speaker": "Unknown",
+  "en": "And that has a huge impact on how far you can take it.",
+  "zh": "那对你能把这件事做成什么样有巨大的影响。"
+ },
+ {
+  "seg": 309,
+  "start": 1452.414,
+  "end": 1455.995,
+  "speaker": "Unknown",
+  "en": "So speed is determined by infrastructure.",
+  "zh": "所以速度是由基础设施决定的。"
+ },
+ {
+  "seg": 310,
+  "start": 1456.415,
+  "end": 1457.936,
+  "speaker": "Unknown",
+  "en": "Speed determines success and failure.",
+  "zh": "速度决定成功和失败。"
+ },
+ {
+  "seg": 311,
+  "start": 1459.08,
+  "end": 1462.221,
+  "speaker": "Unknown",
+  "en": "You need to put more thought into getting these foundations right.",
+  "zh": "你需要投入更多的思考来把这些基础弄对。"
+ },
+ {
+  "seg": 312,
+  "start": 1462.241,
+  "end": 1465.322,
+  "speaker": "Unknown",
+  "en": "If you do them right at the beginning, everything else is much easier.",
+  "zh": "如果你在一开始就把它们做对其他一切事情都会容易得多。"
+ },
+ {
+  "seg": 313,
+  "start": 1465.342,
+  "end": 1471.464,
+  "speaker": "Unknown",
+  "en": "If you get them wrong, you'll end up spending $5 million a month and feel like you have very little control over it.",
+  "zh": "如果你把它们做错你最终每个月会花费五百万美元并且感觉你对它几乎没有控制权。"
+ },
+ {
+  "seg": 314,
+  "start": 1472.124,
+  "end": 1477.065,
+  "speaker": "Unknown",
+  "en": "And then you're forced into coarser levers and harder decisions.",
+  "zh": "然后你被迫使用更粗的杠杆和更艰难的决定。"
+ },
+ {
+  "seg": 315,
+  "start": 1479.906,
+  "end": 1481.307,
+  "speaker": "Unknown",
+  "en": "Thank you for coming to my TED Talk.",
+  "zh": "谢谢大家来听我的 TED 演讲。"
+ },
+ {
+  "seg": 316,
+  "start": 1491.14,
+  "end": 1497.224,
+  "speaker": "Unknown",
+  "en": "Do you have advice for people trying to choose between industry and academia, starting a company now versus getting a PhD first?",
+  "zh": "对于那些试图在业界和学术界之间选择现在创业还是先攻读博士学位的人你有什么建议吗？"
+ },
+ {
+  "seg": 317,
+  "start": 1498.505,
+  "end": 1502.748,
+  "speaker": "Unknown",
+  "en": "So it really, it depends on specifically what you're doing.",
+  "zh": "所以这真的这取决于具体你在做什么。"
+ },
+ {
+  "seg": 318,
+  "start": 1504.609,
+  "end": 1513.856,
+  "speaker": "Unknown",
+  "en": "If your field only exists in basic research, then getting a PhD might be very reasonable.",
+  "zh": "如果你的领域只存在于基础研究中那么攻读博士学位可能是非常合理的。"
+ },
+ {
+  "seg": 319,
+  "start": 1517.839,
+  "end": 1519.56,
+  "speaker": "Unknown",
+  "en": "So when things really start to work,",
+  "zh": "所以当事情真的开始起作用的时候"
+ },
+ {
+  "seg": 320,
+  "start": 1523.178,
+  "end": 1529.623,
+  "speaker": "Unknown",
+  "en": "20 years ago, the best computer scientists were at CMU and Harvard, and 50 years ago, the best...",
+  "zh": "20 年前最好的计算机科学家在 CMU 和哈佛 50 年前最好的..."
+ },
+ {
+  "seg": 321,
+  "start": 1530.284,
+  "end": 1536.068,
+  "speaker": "Unknown",
+  "en": "If you wanted to work on rocket engines, you were at NASA, you were at a university, you were at University of Maryland or somewhere.",
+  "zh": "如果你想研究火箭引擎你在 NASA 你在大学你在马里兰大学或某个地方。"
+ },
+ {
+  "seg": 322,
+  "start": 1536.088,
+  "end": 1539.571,
+  "speaker": "Unknown",
+  "en": "And now the best computer scientists are at Google and Apple and OpenAI.",
+  "zh": "现在最好的计算机科学家在谷歌和苹果和 OpenAI。"
+ },
+ {
+  "seg": 323,
+  "start": 1540.872,
+  "end": 1544.593,
+  "speaker": "Unknown",
+  "en": "And the best rocket scientists are at SpaceX and Blue Origin and others.",
+  "zh": "最好的火箭科学家在 SpaceX 和蓝色起源和其他地方。"
+ },
+ {
+  "seg": 324,
+  "start": 1544.974,
+  "end": 1550.956,
+  "speaker": "Unknown",
+  "en": "So when a field really starts to work, industry can just marshal such larger levels of resources and can just move so much faster.",
+  "zh": "所以当一个领域真的开始起作用时业界可以只召集更大规模的资源并且可以只移动得快得多。"
+ },
+ {
+  "seg": 325,
+  "start": 1551.756,
+  "end": 1555.617,
+  "speaker": "Unknown",
+  "en": "And so the question has been, why has academia stayed so relevant in the life sciences?",
+  "zh": "所以问题一直是为什么学术界在生命科学中保持了如此的相关性？"
+ },
+ {
+  "seg": 326,
+  "start": 1556.158,
+  "end": 1559.799,
+  "speaker": "Unknown",
+  "en": "And the reality is that it doesn't work that well for most things.",
+  "zh": "现实是它对大多数事情并不是那么有效。"
+ },
+ {
+  "seg": 327,
+  "start": 1559.919,
+  "end": 1561.379,
+  "speaker": "Unknown",
+  "en": "Humans just aren't that good at drug discovery.",
+  "zh": "人类并不是那么擅长药物发现。"
+ },
+ {
+  "seg": 328,
+  "start": 1561.98,
+  "end": 1565.861,
+  "speaker": "Unknown",
+  "en": "And so if your field is really only in academia, then it can make total sense to get a PhD.",
+  "zh": "所以如果你的领域真的只在学术界那么攻读博士学位是完全有意义的。"
+ },
+ {
+  "seg": 329,
+  "start": 1570.58,
+  "end": 1576.305,
+  "speaker": "Unknown",
+  "en": "I think it is uncommon that startups don't get the technology to work.",
+  "zh": "我认为初创公司没有让技术起作用的情况是不常见的。"
+ },
+ {
+  "seg": 330,
+  "start": 1576.325,
+  "end": 1580.068,
+  "speaker": "Unknown",
+  "en": "It is more common that they can't organize the human organizations to accomplish their goals.",
+  "zh": "更常见的是他们无法组织人类组织来完成他们的目标。"
+ },
+ {
+  "seg": 331,
+  "start": 1580.468,
+  "end": 1582.95,
+  "speaker": "Unknown",
+  "en": "And learning, that is also a skill set, the only way to learn it.",
+  "zh": "学习那也是一个技能集学习它的唯一途径。"
+ },
+ {
+  "seg": 332,
+  "start": 1583.11,
+  "end": 1584.111,
+  "speaker": "Unknown",
+  "en": "I think it's an oral tradition.",
+  "zh": "我认为这是一种口述传统。"
+ },
+ {
+  "seg": 333,
+  "start": 1584.131,
+  "end": 1584.751,
+  "speaker": "Unknown",
+  "en": "You have to do it.",
+  "zh": "你必须去实践。"
+ },
+ {
+  "seg": 334,
+  "start": 1585.232,
+  "end": 1591.937,
+  "speaker": "Unknown",
+  "en": "And so if the choice is working at a really high-performing company adjacent to where you want to be versus getting a PhD, I'd probably recommend the company.",
+  "zh": "所以如果选择是在一个非常高绩效的与你想要的地方相邻的公司工作 versus 攻读博士学位我可能会推荐这家公司。"
+ },
+ {
+  "seg": 335,
+  "start": 1592.358,
+  "end": 1594.639,
+  "speaker": "Unknown",
+  "en": "But it's not an absolute rule, and it really depends on the field.",
+  "zh": "但这不是一个绝对的规则这真的取决于领域。"
+ },
+ {
+  "seg": 336,
+  "start": 1596.241,
+  "end": 1598.763,
+  "speaker": "Unknown",
+  "en": "What counts as evidence of exceptional ability to you?",
+  "zh": "什么算作对你来说卓越能力的证明？"
+ },
+ {
+  "seg": 337,
+  "start": 1600.535,
+  "end": 1607.797,
+  "speaker": "Unknown",
+  "en": "Anything that concretely you can put your finger on that separates that person from their high school class.",
+  "zh": "任何具体的东西你可以把手指放在上面把那个人和他们的高中班级区分开来。"
+ },
+ {
+  "seg": 338,
+  "start": 1607.817,
+  "end": 1614.199,
+  "speaker": "Unknown",
+  "en": "If you have your average high school student, we just want some concrete fact that...",
+  "zh": "如果你有一个普通的高中生我们只是想要一个具体的事实那个..."
+ },
+ {
+  "seg": 339,
+  "start": 1617.941,
+  "end": 1624.243,
+  "speaker": "Unknown",
+  "en": "I mean, ideally, the best evidence of exceptional ability is our winning at legible competitive games.",
+  "zh": "我的意思是理想情况下卓越能力的最好证明是我们赢在可读的竞争性游戏中。"
+ },
+ {
+  "seg": 340,
+  "start": 1624.763,
+  "end": 1625.503,
+  "speaker": "Unknown",
+  "en": "So this could be...",
+  "zh": "所以这可能是..."
+ },
+ {
+  "seg": 341,
+  "start": 1625.94,
+  "end": 1631.263,
+  "speaker": "Unknown",
+  "en": "Being like a chess grandmaster, it could be winning design build fly or formula SAE competitions.",
+  "zh": "像是一个国际象棋特级大师可能赢得设计建造飞行或方程式 SAE 比赛。"
+ },
+ {
+  "seg": 342,
+  "start": 1632.084,
+  "end": 1639.508,
+  "speaker": "Unknown",
+  "en": "There's a bunch of Silicon Valley deep tech companies that are basically built out of formula SAE winners from college.",
+  "zh": "有一群硅谷深科技公司基本上是建立在大学的方程式 SAE 获胜者之上的。"
+ },
+ {
+  "seg": 343,
+  "start": 1639.548,
+  "end": 1642.97,
+  "speaker": "Unknown",
+  "en": "People that just spent their college experience building things and racing them and finding out.",
+  "zh": "那些只是把他们的大学经历花在建造东西和比赛它们并发现的人。"
+ },
+ {
+  "seg": 344,
+  "start": 1643.811,
+  "end": 1646.012,
+  "speaker": "Unknown",
+  "en": "You have to have that type of competitive feedback.",
+  "zh": "你必须有那种类型的竞争反馈。"
+ },
+ {
+  "seg": 345,
+  "start": 1646.192,
+  "end": 1651.195,
+  "speaker": "Unknown",
+  "en": "It is tough to know if you're exceptional without having some legible competitive game.",
+  "zh": "如果没有一些可读的竞争性游戏很难知道你是否卓越。"
+ },
+ {
+  "seg": 346,
+  "start": 1656.622,
+  "end": 1658.003,
+  "speaker": "Unknown",
+  "en": "How do we hire engineers now?",
+  "zh": "我们现在如何招聘工程师？"
+ },
+ {
+  "seg": 347,
+  "start": 1658.564,
+  "end": 1660.485,
+  "speaker": "Unknown",
+  "en": "Do we still use leet code or do we have better ways?",
+  "zh": "我们还使用 leet code 还是我们有更好的方法？"
+ },
+ {
+  "seg": 348,
+  "start": 1660.645,
+  "end": 1663.467,
+  "speaker": "Unknown",
+  "en": "If we allow AI use, how do you understand the skills of the applicant?",
+  "zh": "如果我们允许 AI 使用你如何理解申请人的技能？"
+ },
+ {
+  "seg": 349,
+  "start": 1665.549,
+  "end": 1667.811,
+  "speaker": "Unknown",
+  "en": "So we've never, I don't think we've ever really used leet code.",
+  "zh": "所以我们从来没有我不认为我们真的使用过 leet code。"
+ },
+ {
+  "seg": 350,
+  "start": 1668.011,
+  "end": 1672.274,
+  "speaker": "Unknown",
+  "en": "Maybe some other people on the team do it in secret, but I've never asked it.",
+  "zh": "也许团队里其他人是秘密进行的，但我从没问过它。"
+ },
+ {
+  "seg": 351,
+  "start": 1677.118,
+  "end": 1679.64,
+  "speaker": "Unknown",
+  "en": "So software in particular,",
+  "zh": "特别是软件，"
+ },
+ {
+  "seg": 352,
+  "start": 1681.047,
+  "end": 1689.453,
+  "speaker": "Unknown",
+  "en": "But the rewards to horsepower are so great that it really is just, it's a field that attracts really smart people because it gives you this very rapid feedback.",
+  "zh": "但算力的回报是如此巨大，以至于它真的就是一个吸引非常聪明的人的领域，因为它给了你这种非常快速的反馈。"
+ },
+ {
+  "seg": 353,
+  "start": 1689.493,
+  "end": 1696.638,
+  "speaker": "Unknown",
+  "en": "Like if you think about, like there's a lot of really smart people in biology, but when you have a biological idea, it can take you many months to find out if it's a good one.",
+  "zh": "就像如果你想想，生物学里也有很多非常聪明的人，但当你有一个生物学想法时，可能需要好几个月才能发现它是不是个好主意。"
+ },
+ {
+  "seg": 354,
+  "start": 1697.258,
+  "end": 1701.281,
+  "speaker": "Unknown",
+  "en": "In software, if you have an idea, you can often build it in a couple hours or you can get feedback within days.",
+  "zh": "在软件领域，如果你有一个想法，通常可以在几小时内构建出来，或者在几天内得到反馈。"
+ },
+ {
+  "seg": 355,
+  "start": 1701.301,
+  "end": 1706.344,
+  "speaker": "Unknown",
+  "en": "And so it has this really addictive feedback loop, kind of like high frequency trading that just draws in really smart people.",
+  "zh": "所以它有着这种真正令人上瘾的反馈循环，有点像高频交易，就是吸引非常聪明的人。"
+ },
+ {
+  "seg": 356,
+  "start": 1709.641,
+  "end": 1717.665,
+  "speaker": "Unknown",
+  "en": "And so we look for, over your life, what signals do we have that you have done something interesting?",
+  "zh": "所以我们要寻找的是，在你的生活中，有什么信号表明你做过有趣的事情？"
+ },
+ {
+  "seg": 357,
+  "start": 1718.105,
+  "end": 1725.568,
+  "speaker": "Unknown",
+  "en": "It's uncommon for someone to get into their mid-20s without there being some thing in their background that they went out and sought out and did.",
+  "zh": "一个人到了二十几岁中期，背景中还没有他们主动寻求并完成的某件事，这是很少见的。"
+ },
+ {
+  "seg": 358,
+  "start": 1728.39,
+  "end": 1730.771,
+  "speaker": "Unknown",
+  "en": "But this is such an open-ended criteria.",
+  "zh": "但这是一个非常开放的标准。"
+ },
+ {
+  "seg": 359,
+  "start": 1731.671,
+  "end": 1732.672,
+  "speaker": "Unknown",
+  "en": "It can really be anything.",
+  "zh": "它真的可以是任何东西。"
+ },
+ {
+  "seg": 360,
+  "start": 1736.695,
+  "end": 1739.557,
+  "speaker": "Unknown",
+  "en": "More directly to the question, we increasingly don't directly evaluate programming.",
+  "zh": "更直接地回答这个问题，我们越来越不直接评估编程了。"
+ },
+ {
+  "seg": 361,
+  "start": 1739.577,
+  "end": 1740.958,
+  "speaker": "Unknown",
+  "en": "We try to evaluate thinking.",
+  "zh": "我们试图评估的是思维。"
+ },
+ {
+  "seg": 362,
+  "start": 1740.998,
+  "end": 1744.802,
+  "speaker": "Unknown",
+  "en": "So this is design questions, like if we give you a domain, how do you break it down?",
+  "zh": "所以这是设计问题，就像如果我们给你一个领域，你会如何分解它？"
+ },
+ {
+  "seg": 363,
+  "start": 1745.122,
+  "end": 1747.584,
+  "speaker": "Unknown",
+  "en": "Can you understand the decomposition of the problem clearly?",
+  "zh": "你能清晰地理解问题的分解吗？"
+ },
+ {
+  "seg": 364,
+  "start": 1748.385,
+  "end": 1751.407,
+  "speaker": "Unknown",
+  "en": "It's really measures of can you think clearly rather than can you write code?",
+  "zh": "这真的是衡量你能否清晰思考，而不是你能否写代码。"
+ },
+ {
+  "seg": 365,
+  "start": 1754.83,
+  "end": 1756.892,
+  "speaker": "Unknown",
+  "en": "What did you take away from your experience at Neuralink?",
+  "zh": "你从 Neuralink 的经历中学到了什么？"
+ },
+ {
+  "seg": 366,
+  "start": 1758.139,
+  "end": 1760.241,
+  "speaker": "Unknown",
+  "en": "So the question of should you go get a PhD?",
+  "zh": "所以关于你应该去读博士的问题。"
+ },
+ {
+  "seg": 367,
+  "start": 1760.661,
+  "end": 1761.522,
+  "speaker": "Unknown",
+  "en": "I don't have a PhD.",
+  "zh": "我没有博士学位。"
+ },
+ {
+  "seg": 368,
+  "start": 1762.022,
+  "end": 1768.928,
+  "speaker": "Unknown",
+  "en": "I spent five years running a company for my CEO at Neuralink.",
+  "zh": "我花了五年时间在 Neuralink 为我的 CEO 经营一家公司。"
+ },
+ {
+  "seg": 369,
+  "start": 1770.65,
+  "end": 1773.973,
+  "speaker": "Unknown",
+  "en": "One of the biggest lessons, I think, is that there are few really generic",
+  "zh": "我认为最大的教训之一是，很少有真正通用的"
+ },
+ {
+  "seg": 370,
+  "start": 1776.614,
+  "end": 1778.956,
+  "speaker": "Unknown",
+  "en": "There's no generic algorithm for how to succeed at a startup.",
+  "zh": "在初创公司如何成功上没有通用的算法。"
+ },
+ {
+  "seg": 371,
+  "start": 1778.976,
+  "end": 1785.321,
+  "speaker": "Unknown",
+  "en": "There's no set of five bullet points that can be conveyed that if you just turn the crank, your company will be successful.",
+  "zh": "没有一套五个要点可以传达，如果你只是照章办事，你的公司就会成功。"
+ },
+ {
+  "seg": 372,
+  "start": 1785.842,
+  "end": 1787.583,
+  "speaker": "Unknown",
+  "en": "It is a long series of judgment calls.",
+  "zh": "它是一长系列的判断决策。"
+ },
+ {
+  "seg": 373,
+  "start": 1788.184,
+  "end": 1791.086,
+  "speaker": "Unknown",
+  "en": "And so the most important thing is that those filters are tuned really well.",
+  "zh": "所以最重要的是这些过滤器调校得非常好。"
+ },
+ {
+  "seg": 374,
+  "start": 1791.566,
+  "end": 1799.093,
+  "speaker": "Unknown",
+  "en": "And so I think one of the most valuable things for me at Neuralink was I was working with someone who has empirically excellent judgment.",
+  "zh": "所以我认为在 Neuralink 对我最有价值的事情之一是，我在与一个经验上拥有卓越判断力的人共事。"
+ },
+ {
+  "seg": 375,
+  "start": 1799.113,
+  "end": 1801.475,
+  "speaker": "Unknown",
+  "en": "We could get into trouble together and there'd be all...",
+  "zh": "我们可能会一起遇到麻烦，然后会有各种……"
+ },
+ {
+  "seg": 376,
+  "start": 1802.136,
+  "end": 1805.682,
+  "speaker": "Unknown",
+  "en": "Something would happen and there'd be two possible solutions that would make sense.",
+  "zh": "发生了一些事情，会有两种合理的解决方案。"
+ },
+ {
+  "seg": 377,
+  "start": 1806.083,
+  "end": 1808.527,
+  "speaker": "Unknown",
+  "en": "And I'd go to him and say, like, is it option A or is it option B?",
+  "zh": "我会去找他说，是选项 A 还是选项 B？"
+ },
+ {
+  "seg": 378,
+  "start": 1808.547,
+  "end": 1810.15,
+  "speaker": "Unknown",
+  "en": "He'd look at it and be like, oh, it's definitely option B.",
+  "zh": "他会看一看然后说，哦，肯定是选项 B。"
+ },
+ {
+  "seg": 379,
+  "start": 1810.39,
+  "end": 1811.372,
+  "speaker": "Unknown",
+  "en": "The problem would never recur.",
+  "zh": "那个问题再也不会出现了。"
+ },
+ {
+  "seg": 380,
+  "start": 1811.872,
+  "end": 1822.763,
+  "speaker": "Unknown",
+  "en": "And having been in those situations where I was trying to make these bets with stakes attached, looking forward in time, not getting feedback until later, with that advice was incredibly useful for fitting those filters.",
+  "zh": "而身处在那些情况下，我试图做出这些有利益攸关的决策，展望未来，直到后来才得到反馈，那个建议对于调整这些过滤器非常有用。"
+ },
+ {
+  "seg": 381,
+  "start": 1823.124,
+  "end": 1824.565,
+  "speaker": "Unknown",
+  "en": "And I don't know that there was really a shortcut.",
+  "zh": "我不知道真的有什么捷径。"
+ },
+ {
+  "seg": 382,
+  "start": 1824.585,
+  "end": 1832.153,
+  "speaker": "Unknown",
+  "en": "And I think that just hearing the stories when you're not there, really thinking about it because there are real stakes, and then getting that feedback.",
+  "zh": "我认为只是当你不在现场时听取这些故事，真正地思考它，因为有真实的利害关系，然后得到那个反馈。"
+ },
+ {
+  "seg": 383,
+  "start": 1833.96,
+  "end": 1838.202,
+  "speaker": "Unknown",
+  "en": "That is an essential part of the education of an entrepreneur that I think many people underrate.",
+  "zh": "我认为这是创业者教育的重要组成部分，而很多人低估了它。"
+ },
+ {
+  "seg": 384,
+  "start": 1838.562,
+  "end": 1845.926,
+  "speaker": "Unknown",
+  "en": "I think it is really worth working for a company that has an excellent culture that you respect before jumping right into your own startup.",
+  "zh": "我认为在直接创办自己的初创公司之前，为一家拥有你尊重的优秀文化的公司工作是非常值得的。"
+ },
+ {
+  "seg": 385,
+  "start": 1846.406,
+  "end": 1850.468,
+  "speaker": "Unknown",
+  "en": "It is relatively uncommon that startup cultures get rediscovered entirely from first principles.",
+  "zh": "初创公司的文化完全从第一性原理重新被发现是相对罕见的。"
+ },
+ {
+  "seg": 386,
+  "start": 1851.008,
+  "end": 1857.351,
+  "speaker": "Unknown",
+  "en": "Usually they're passed down as, again, oral traditions because there's a founding team that worked at another company which worked at another company and so they inherited it.",
+  "zh": "通常它们是作为口述传统传承下来的，因为有一个创始团队在另一家公司工作，那家公司又在另一家公司工作，所以他们继承了它。"
+ },
+ {
+  "seg": 387,
+  "start": 1857.871,
+  "end": 1862.013,
+  "speaker": "Unknown",
+  "en": "Or in some cases where there's really a breakout or there's just some market dislocation that it really enables.",
+  "zh": "或者在某些真正突破的情况下，或者有一些市场错位确实促成了它。"
+ },
+ {
+  "seg": 388,
+  "start": 1862.483,
+  "end": 1863.804,
+  "speaker": "Unknown",
+  "en": "A team kind of out of nowhere to build it.",
+  "zh": "一个不知从哪冒出来的团队去构建它。"
+ },
+ {
+  "seg": 389,
+  "start": 1863.824,
+  "end": 1865.145,
+  "speaker": "Unknown",
+  "en": "They'll often get it from the VCs.",
+  "zh": "他们通常会从风险投资人那里得到它。"
+ },
+ {
+  "seg": 390,
+  "start": 1865.726,
+  "end": 1875.633,
+  "speaker": "Unknown",
+  "en": "But it's working with the people that have that judgment so that you can get that reinforcement learning as its long series of facts is really important.",
+  "zh": "但与拥有那种判断力的人一起工作，这样你就能得到那种强化学习，因为它是一长系列的事实，这真的很重要。"
+ },
+ {
+  "seg": 391,
+  "start": 1879.336,
+  "end": 1883.159,
+  "speaker": "Unknown",
+  "en": "Could BCIs or neural interfaces help us figure out what consciousness actually is?",
+  "zh": "脑机接口或神经接口能帮助我们弄清意识到底是什么吗？"
+ },
+ {
+  "seg": 392,
+  "start": 1883.279,
+  "end": 1883.539,
+  "speaker": "Unknown",
+  "en": "How?",
+  "zh": "怎么帮？"
+ },
+ {
+  "seg": 393,
+  "start": 1884.1,
+  "end": 1884.64,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对可以。"
+ },
+ {
+  "seg": 394,
+  "start": 1888.117,
+  "end": 1898.56,
+  "speaker": "Unknown",
+  "en": "If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines.",
+  "zh": "如果人工智能探索的终点是超级智能机器，我认为脑机接口探索的终点是有意识的机器。"
+ },
+ {
+  "seg": 395,
+  "start": 1899.421,
+  "end": 1904.302,
+  "speaker": "Unknown",
+  "en": "The brain is composed of ordinary matter arranged according to the rules of chemistry, only things found on the periodic table.",
+  "zh": "大脑是由普通物质组成的，按照化学规则排列，只有周期表上能找到的东西。"
+ },
+ {
+  "seg": 396,
+  "start": 1904.502,
+  "end": 1908.143,
+  "speaker": "Unknown",
+  "en": "It seems tough to believe that there's some new physics going on in there.",
+  "zh": "很难相信里面有什么新的物理学在发生。"
+ },
+ {
+  "seg": 397,
+  "start": 1908.804,
+  "end": 1909.164,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 398,
+  "start": 1910.085,
+  "end": 1915.251,
+  "speaker": "Unknown",
+  "en": "We're looking for some mapping between the substrate activity and the phenomenal content.",
+  "zh": "我们正在寻找底物活动与现象内容之间的一些映射。"
+ },
+ {
+  "seg": 399,
+  "start": 1915.751,
+  "end": 1925.923,
+  "speaker": "Unknown",
+  "en": "Now, if we had a magical BCI that allowed me to see the instant state of every neuron in the brain and drive them, I think we'd figure out consciousness pretty fast.",
+  "zh": "现在，如果我们有一个神奇的脑机接口，能让我看到大脑中每个神经元的瞬时状态并驱动它们，我认为我们会很快弄清楚意识。"
+ },
+ {
+  "seg": 400,
+  "start": 1925.983,
+  "end": 1928.546,
+  "speaker": "Unknown",
+  "en": "I think this is a practical problem, not a philosophical problem.",
+  "zh": "我认为这是一个实际问题，而不是哲学问题。"
+ },
+ {
+  "seg": 401,
+  "start": 1930.768,
+  "end": 1934.471,
+  "speaker": "Unknown",
+  "en": "But to prove it, but first of all, that practical problem is real, and we'll have to do this stuff in humans.",
+  "zh": "但为了证明这一点，但首先，那个实际问题是真实的，我们将不得不在人类身上做这些事情。"
+ },
+ {
+  "seg": 402,
+  "start": 1935.192,
+  "end": 1937.293,
+  "speaker": "Unknown",
+  "en": "And to prove any of this, we'll have to do it in humans.",
+  "zh": "而为了证明其中任何一点，我们都将不得不在人类身上做这些事情。"
+ },
+ {
+  "seg": 403,
+  "start": 1937.753,
+  "end": 1941.556,
+  "speaker": "Unknown",
+  "en": "I think that it is possible that you could use a BCI to prove it.",
+  "zh": "我认为有可能你可以使用 BCI 来证明它。"
+ },
+ {
+  "seg": 404,
+  "start": 1941.576,
+  "end": 1949.743,
+  "speaker": "Unknown",
+  "en": "We have some ideas about how to do these experiments, but they are, they're still some number of years off, right?",
+  "zh": "我们对如何做这些实验有一些想法，但它们，它们仍然还要几年时间才能实现，对吧？"
+ },
+ {
+  "seg": 405,
+  "start": 1950.263,
+  "end": 1954.026,
+  "speaker": "Unknown",
+  "en": "Things going into humans now are not designed to study consciousness.",
+  "zh": "现在进入人体的东西并不是设计用来研究意识的。"
+ },
+ {
+  "seg": 406,
+  "start": 1954.326,
+  "end": 1956.608,
+  "speaker": "Unknown",
+  "en": "But I do think that that is further down this path.",
+  "zh": "但我确实认为那是这条路径更远端的事情。"
+ },
+ {
+  "seg": 407,
+  "start": 1959.157,
+  "end": 1962.818,
+  "speaker": "Unknown",
+  "en": "What should I study to contribute to BCIs?",
+  "zh": "我应该学习什么来为 BCI 做贡献？"
+ },
+ {
+  "seg": 408,
+  "start": 1967.84,
+  "end": 1970.601,
+  "speaker": "Unknown",
+  "en": "This really depends on your background.",
+  "zh": "这真的取决于你的背景。"
+ },
+ {
+  "seg": 409,
+  "start": 1970.621,
+  "end": 1974.143,
+  "speaker": "Unknown",
+  "en": "Neural interfaces are a very interdisciplinary problem.",
+  "zh": "神经接口是一个非常跨学科的问题。"
+ },
+ {
+  "seg": 410,
+  "start": 1974.183,
+  "end": 1985.267,
+  "speaker": "Unknown",
+  "en": "It uses everything from stem cell biology to materials and microfabrication to software to animal behavior to surgery.",
+  "zh": "它使用了从干细胞生物学到材料和微制造，再到软件、动物行为学和外科手术的所有东西。"
+ },
+ {
+  "seg": 411,
+  "start": 1986.307,
+  "end": 1987.948,
+  "speaker": "Unknown",
+  "en": "So there are many different entry points in it.",
+  "zh": "所以它有很多不同的切入点。"
+ },
+ {
+  "seg": 412,
+  "start": 1989.137,
+  "end": 1996.361,
+  "speaker": "Unknown",
+  "en": "One of the things that we found is that it's better to have a smaller team that can fit more of the problem in their heads and then compress it together.",
+  "zh": "我们发现的一件事是，拥有一个更小的团队会更好，这个团队可以把更多的问题装在脑子里，然后一起压缩它。"
+ },
+ {
+  "seg": 413,
+  "start": 1997.242,
+  "end": 2006.567,
+  "speaker": "Unknown",
+  "en": "Contrast this to how academia usually handles interdisciplinary problems, where they'll have an interdisciplinary center that pulls in very deep verticalized experts who are kind of meet at the center.",
+  "zh": "将此与学术界通常处理跨学科问题的方式对比一下，它们会有一个跨学科中心，召集非常深入的垂直领域的专家，他们有点在中心汇合。"
+ },
+ {
+  "seg": 414,
+  "start": 2006.967,
+  "end": 2008.868,
+  "speaker": "Unknown",
+  "en": "And the problem is that they're all speaking different languages.",
+  "zh": "问题在于他们都在说不同的语言。"
+ },
+ {
+  "seg": 415,
+  "start": 2008.988,
+  "end": 2015.252,
+  "speaker": "Unknown",
+  "en": "And so it's often hard to really, like even when they can communicate, typically you end up shipping the interfaces of those departments.",
+  "zh": "所以通常很难真正，就像即使他们能够沟通，通常你最终会运送这些部门之间的接口。"
+ },
+ {
+  "seg": 416,
+  "start": 2015.752,
+  "end": 2021.674,
+  "speaker": "Unknown",
+  "en": "Whereas for us, if we can kind of hold the problem in the head of a smaller number of people, we can shift around where the bottlenecks are.",
+  "zh": "而对于我们要说，如果我们能在更少人的脑子里掌握这个问题，我们就能转移瓶颈所在的位置。"
+ },
+ {
+  "seg": 417,
+  "start": 2022.434,
+  "end": 2033.178,
+  "speaker": "Unknown",
+  "en": "Specific example of this is our protein engineering group has been able to develop much more sensitive, like much better proteins for some things that we need to do, which has allowed us to relax some electronics requirements.",
+  "zh": "这方面的一个具体例子是我们的蛋白质工程小组能够开发出更敏感的，比如为我们需要做的一些事情开发出更好的蛋白质，这让我们能够放宽一些电子学要求。"
+ },
+ {
+  "seg": 418,
+  "start": 2033.758,
+  "end": 2038.94,
+  "speaker": "Unknown",
+  "en": "So if we have, so specifically we have proteins called opsins, they allow us to make neurons light sensitive.",
+  "zh": "所以如果我们有，具体来说我们有叫作视蛋白的蛋白质，它们让我们能让神经元对光敏感。"
+ },
+ {
+  "seg": 419,
+  "start": 2039.28,
+  "end": 2041.602,
+  "speaker": "Unknown",
+  "en": "So that if we shine light on them, we can fire a neuron.",
+  "zh": "所以如果我们用光照射它们，我们就能激发一个神经元。"
+ },
+ {
+  "seg": 420,
+  "start": 2042.303,
+  "end": 2049.71,
+  "speaker": "Unknown",
+  "en": "The problem was that you needed to hit a neuron with a lot of light to fire it, which means that you can't have that many light sources because it gets too hot.",
+  "zh": "问题在于你需要用大量的光击中神经元才能激发它，这意味着你不能有那么多光源，因为会变得太热。"
+ },
+ {
+  "seg": 421,
+  "start": 2050.21,
+  "end": 2054.174,
+  "speaker": "Unknown",
+  "en": "So we've been able to make the protein more sensitive, which means that we can have more LEDs because each one can be dimmer.",
+  "zh": "所以我们能够让蛋白质更敏感，这意味着我们可以有更多的 LED，因为每一个都可以更暗一些。"
+ },
+ {
+  "seg": 422,
+  "start": 2054.494,
+  "end": 2059.218,
+  "speaker": "Unknown",
+  "en": "And so we've turned this electronics problem into a biology problem that allowed us to relax those constraints.",
+  "zh": "所以我们把这个电子学问题变成了一个生物学问题，这让我们放宽了那些约束。"
+ },
+ {
+  "seg": 423,
+  "start": 2059.599,
+  "end": 2064.964,
+  "speaker": "Unknown",
+  "en": "You don't get that as much when you have these interdisciplinary centers where there's one group focused on one thing, there's another group focused on another thing.",
+  "zh": "当你有这些跨学科中心，其中一个小组专注于一件事，另一个小组专注于另一件事时，你就没那么容易得到那种结果。"
+ },
+ {
+  "seg": 424,
+  "start": 2066.164,
+  "end": 2072.725,
+  "speaker": "Unknown",
+  "en": "And so I would say being able to have a broader perspective of more of the problem is really valuable.",
+  "zh": "所以我会说，能够对更多的问题有更广阔的视角真的非常有价值。"
+ },
+ {
+  "seg": 425,
+  "start": 2073.045,
+  "end": 2080.187,
+  "speaker": "Unknown",
+  "en": "And then just really as deep and clear an understanding of the system as you can get.",
+  "zh": "然后只要尽可能对系统有深入而清晰的理解。"
+ },
+ {
+  "seg": 426,
+  "start": 2080.207,
+  "end": 2081.807,
+  "speaker": "Unknown",
+  "en": "I think there's no substitute for being hands-on.",
+  "zh": "我认为没有什么能替代亲手实践。"
+ },
+ {
+  "seg": 427,
+  "start": 2081.927,
+  "end": 2082.787,
+  "speaker": "Unknown",
+  "en": "It doesn't really matter.",
+  "zh": "这真的不重要。"
+ },
+ {
+  "seg": 428,
+  "start": 2084.147,
+  "end": 2091.148,
+  "speaker": "Unknown",
+  "en": "You want some hard skill to get you in the door, software, electronics, mechanical materials, something.",
+  "zh": "你需要一些硬技能来让你入门，软件、电子、机械材料，之类的。"
+ },
+ {
+  "seg": 429,
+  "start": 2091.668,
+  "end": 2093.969,
+  "speaker": "Unknown",
+  "en": "And then from there, I would try to learn as much of it as you can.",
+  "zh": "然后从那里开始，我会尝试尽可能多地学习它。"
+ },
+ {
+  "seg": 430,
+  "start": 2097.127,
+  "end": 2099.17,
+  "speaker": "Unknown",
+  "en": "What doesn't AI replace in scientific research?",
+  "zh": "AI 在科学研究中不会取代什么？"
+ },
+ {
+  "seg": 431,
+  "start": 2100.312,
+  "end": 2102.616,
+  "speaker": "Unknown",
+  "en": "Where are humans still necessary, if anywhere?",
+  "zh": "如果说还有哪里需要人类的话，人类在哪里仍然是必要的？"
+ },
+ {
+  "seg": 432,
+  "start": 2107.263,
+  "end": 2110.088,
+  "speaker": "Unknown",
+  "en": "We still definitely need humans.",
+  "zh": "我们肯定仍然需要人类。"
+ },
+ {
+  "seg": 433,
+  "start": 2112.045,
+  "end": 2114.566,
+  "speaker": "Unknown",
+  "en": "And in scientific research in particular, I mean, it's tough to predict.",
+  "zh": "特别是在科学研究中，我的意思是，很难预测。"
+ },
+ {
+  "seg": 434,
+  "start": 2114.686,
+  "end": 2116.466,
+  "speaker": "Unknown",
+  "en": "AI is clearly advancing very rapidly.",
+  "zh": "AI 显然正在非常快速地进步。"
+ },
+ {
+  "seg": 435,
+  "start": 2116.966,
+  "end": 2130.149,
+  "speaker": "Unknown",
+  "en": "I do think that you need to think about how to have your company be AI native in the sense that you want to gather all of the context, all of the stuff happening in your company, and be able to make that available efficiently to agents, because those are clearly a big part of the future.",
+  "zh": "我确实认为你需要思考如何让你的公司成为 AI 原生的，也就是说是你想收集公司所有的背景，公司发生的所有事情，并且能够高效地让智能体获得这些信息，因为那些显然是未来的很大一部分。"
+ },
+ {
+  "seg": 436,
+  "start": 2130.489,
+  "end": 2133.149,
+  "speaker": "Unknown",
+  "en": "So for us in Helix, really everything goes in there.",
+  "zh": "所以对于我们在 Helix 来说，真的所有东西都放在那里。"
+ },
+ {
+  "seg": 437,
+  "start": 2133.169,
+  "end": 2134.93,
+  "speaker": "Unknown",
+  "en": "And one of the reasons that we did that was because",
+  "zh": "我们这样做的其中一个原因是"
+ },
+ {
+  "seg": 438,
+  "start": 2136.01,
+  "end": 2146.517,
+  "speaker": "Unknown",
+  "en": "Not just is it powerful to have everything in one database to link together purchasing to quality to batch records and manufacturing so that we can trace stuff more efficiently, but also so that we could give it all to agents.",
+  "zh": "不仅因为把所有东西放在一个数据库里以便将采购与质量、批次记录和制造联系起来，这样我们就能更高效地追踪事物是很强大的，而且也是为了我们可以把所有东西都给智能体。"
+ },
+ {
+  "seg": 439,
+  "start": 2148.378,
+  "end": 2152.86,
+  "speaker": "Unknown",
+  "en": "And so we found them to be a multiplier for the team, not a replacement.",
+  "zh": "所以我们发现它们是团队的倍增器，而不是替代品。"
+ },
+ {
+  "seg": 440,
+  "start": 2154.401,
+  "end": 2158.464,
+  "speaker": "Unknown",
+  "en": "The three biggest areas that AI has had an impact for us so far are...",
+  "zh": "到目前为止，AI 对我们影响最大的三个领域是……"
+ },
+ {
+  "seg": 441,
+  "start": 2159.921,
+  "end": 2160.662,
+  "speaker": "Unknown",
+  "en": "First of all, coding.",
+  "zh": "首先，编码。"
+ },
+ {
+  "seg": 442,
+  "start": 2163.723,
+  "end": 2164.904,
+  "speaker": "Unknown",
+  "en": "I've written a lot of code in my life.",
+  "zh": "我这辈子写了很多代码。"
+ },
+ {
+  "seg": 443,
+  "start": 2165.004,
+  "end": 2169.306,
+  "speaker": "Unknown",
+  "en": "I don't think I've looked at the source very much the last six months.",
+  "zh": "我不认为我在过去六个月里看过多少源代码。"
+ },
+ {
+  "seg": 444,
+  "start": 2170.006,
+  "end": 2170.987,
+  "speaker": "Unknown",
+  "en": "That is getting really good.",
+  "zh": "这真的变得非常好。"
+ },
+ {
+  "seg": 445,
+  "start": 2172.687,
+  "end": 2174.768,
+  "speaker": "Unknown",
+  "en": "Regulations.",
+  "zh": "监管。"
+ },
+ {
+  "seg": 446,
+  "start": 2176.389,
+  "end": 2182.072,
+  "speaker": "Unknown",
+  "en": "If you're doing anything really interesting, you're going to end up regulated, and then you'll probably end up dealing with these things called quality systems.",
+  "zh": "如果你在做任何真正有趣的事情，你最终会被监管，然后你可能最终要处理这些叫作质量系统的事情。"
+ },
+ {
+  "seg": 447,
+  "start": 2182.802,
+  "end": 2190.066,
+  "speaker": "Unknown",
+  "en": "And so a quality system, I think, triggers a lot of scar tissue for people because it's just the quintessential heavy bureaucracy, slow everything down.",
+  "zh": "所以质量系统，我认为，会触发人们很多的心理阴影，因为它只是典型的繁文缛节，把一切拖慢。"
+ },
+ {
+  "seg": 448,
+  "start": 2190.667,
+  "end": 2194.129,
+  "speaker": "Unknown",
+  "en": "But the idea of quality itself is actually not a problem.",
+  "zh": "但质量本身的想法实际上并不是问题。"
+ },
+ {
+  "seg": 449,
+  "start": 2194.149,
+  "end": 2196.911,
+  "speaker": "Unknown",
+  "en": "The problem is that humans are bad at reading and interpreting these things.",
+  "zh": "问题在于人类不擅长阅读和解释这些事情。"
+ },
+ {
+  "seg": 450,
+  "start": 2197.271,
+  "end": 2201.754,
+  "speaker": "Unknown",
+  "en": "And so when we make a product, one of the things we have to do is identify all of the standards that might apply.",
+  "zh": "所以当我们制造一个产品时，我们必须做的一件事就是识别所有可能适用的标准。"
+ },
+ {
+  "seg": 451,
+  "start": 2201.774,
+  "end": 2202.674,
+  "speaker": "Unknown",
+  "en": "And there's standards for everything.",
+  "zh": "而且万物皆有标准。"
+ },
+ {
+  "seg": 452,
+  "start": 2202.694,
+  "end": 2206.336,
+  "speaker": "Unknown",
+  "en": "There's standards for how the lithium ion batteries plug into a PCB.",
+  "zh": "有关于锂离子电池如何连接到 PCB 的标准。"
+ },
+ {
+  "seg": 453,
+  "start": 2206.356,
+  "end": 2207.037,
+  "speaker": "Unknown",
+  "en": "There's standards for",
+  "zh": "有关于"
+ },
+ {
+  "seg": 454,
+  "start": 2207.493,
+  "end": 2208.953,
+  "speaker": "Unknown",
+  "en": "Electrical installation of the boards.",
+  "zh": "电路板电气安装的标准。"
+ },
+ {
+  "seg": 455,
+  "start": 2208.973,
+  "end": 2211.674,
+  "speaker": "Unknown",
+  "en": "There's standards for shipping label.",
+  "zh": "有关于运输标签的标准。"
+ },
+ {
+  "seg": 456,
+  "start": 2211.974,
+  "end": 2220.937,
+  "speaker": "Unknown",
+  "en": "At some point, you'll have to take your shipping packaging, print a label on it, and put it in a Vibe box and show that the corners of the label don't curl in a way that might cause it to detach.",
+  "zh": "在某个时候，你必须拿你的运输包装，在上面打印一个标签，把它放进一个 Vibe box 里，并证明标签的角不会卷曲到可能导致其脱落的程度。"
+ },
+ {
+  "seg": 457,
+  "start": 2221.357,
+  "end": 2230.4,
+  "speaker": "Unknown",
+  "en": "And so you hire regulatory experts to go find all of the standards that might apply, make a list of them, and then have a spreadsheet which is like all of the evidence that you comply with all of the standards.",
+  "zh": "所以你聘请监管专家去找出所有可能适用的标准，列一个清单，然后有一个电子表格，就像你遵守所有标准的所有证据。"
+ },
+ {
+  "seg": 458,
+  "start": 2230.78,
+  "end": 2232.041,
+  "speaker": "Unknown",
+  "en": "So you have this...",
+  "zh": "所以你拥有这个..."
+ },
+ {
+  "seg": 459,
+  "start": 2232.761,
+  "end": 2234.702,
+  "speaker": "Unknown",
+  "en": "This thing can take many, many months historically.",
+  "zh": "这件事在历史上可能需要很多很多个月。"
+ },
+ {
+  "seg": 460,
+  "start": 2234.842,
+  "end": 2236.243,
+  "speaker": "Unknown",
+  "en": "AI has totally transformed it.",
+  "zh": "AI 已经彻底改变了它。"
+ },
+ {
+  "seg": 461,
+  "start": 2236.283,
+  "end": 2238.124,
+  "speaker": "Unknown",
+  "en": "I mean, we can very quickly look up all the standards.",
+  "zh": "我的意思是，我们可以非常快地查找所有标准。"
+ },
+ {
+  "seg": 462,
+  "start": 2238.144,
+  "end": 2240.325,
+  "speaker": "Unknown",
+  "en": "We can very quickly generate the evidence tables.",
+  "zh": "我们可以非常快地生成证据表。"
+ },
+ {
+  "seg": 463,
+  "start": 2241.005,
+  "end": 2253.272,
+  "speaker": "Unknown",
+  "en": "And I think that to the degree that there's kind of over, I mean, there is, we definitely need to deregulate some things, but I think that the combination of AI and regulation is a better fit than people think.",
+  "zh": "我认为在某种程度上存在过度，我的意思是，确实，我们肯定需要解除对一些事情管制，但我认为 AI 和监管的结合比人们认为的要更合适。"
+ },
+ {
+  "seg": 464,
+  "start": 2253.292,
+  "end": 2258.034,
+  "speaker": "Unknown",
+  "en": "And you can use it to smooth a lot of stuff where the regulations are written in blood and largely good ideas.",
+  "zh": "你可以用它来理顺很多事情，而这些法规是用鲜血写成的，并且大体上是好主意。"
+ },
+ {
+  "seg": 465,
+  "start": 2258.055,
+  "end": 2259.175,
+  "speaker": "Unknown",
+  "en": "It's just hard for humans to do it.",
+  "zh": "只是人类很难做到。"
+ },
+ {
+  "seg": 466,
+  "start": 2262.806,
+  "end": 2265.748,
+  "speaker": "Unknown",
+  "en": "Why build your own infrastructure platforms rather than just buying them?",
+  "zh": "为什么要构建你自己的基础设施平台，而不是直接购买它们？"
+ },
+ {
+  "seg": 467,
+  "start": 2266.529,
+  "end": 2268.85,
+  "speaker": "Unknown",
+  "en": "I mean, you can't really buy these things.",
+  "zh": "我的意思是，你无法真正购买这些东西。"
+ },
+ {
+  "seg": 468,
+  "start": 2269.631,
+  "end": 2274.194,
+  "speaker": "Unknown",
+  "en": "There are ERP systems out there, but there's no company that loves their ERP system.",
+  "zh": "外面有 ERP 系统，但没有哪家公司喜欢他们的 ERP 系统。"
+ },
+ {
+  "seg": 469,
+  "start": 2274.775,
+  "end": 2278.638,
+  "speaker": "Unknown",
+  "en": "I don't know there's anyone who's really like, I want to spend more time in NetSuite.",
+  "zh": "我不知道是否真的有人想花更多时间在 NetSuite 里。"
+ },
+ {
+  "seg": 470,
+  "start": 2279.098,
+  "end": 2287.004,
+  "speaker": "Unknown",
+  "en": "And on the contrary, there are a bunch of examples now of companies that grow up around a piece of software that's really fit just for them.",
+  "zh": "相反，现在有很多这样的例子，公司围绕一件真正适合他们的软件成长起来。"
+ },
+ {
+  "seg": 471,
+  "start": 2287.464,
+  "end": 2291.487,
+  "speaker": "Unknown",
+  "en": "Like YC, famously, has a lot of internal software that I think really makes YC work.",
+  "zh": "比如 YC，著名地拥有很多我认为真正让 YC 运转起来的内部软件。"
+ },
+ {
+  "seg": 472,
+  "start": 2292.257,
+  "end": 2298.341,
+  "speaker": "Unknown",
+  "en": "Facebook also very famously invested heavily in internal tools and now has, I think, gets a lot of efficiency from that.",
+  "zh": "Facebook 也非常著名地在内部工具上投入巨资，并且我认为现在从中获得了很多效率。"
+ },
+ {
+  "seg": 473,
+  "start": 2299.782,
+  "end": 2307.387,
+  "speaker": "Unknown",
+  "en": "SpaceX and Tesla internally have a pretty giant piece of software called Warp Speed that runs a lot of their manufacturing and R&D processes.",
+  "zh": "SpaceX 和 Tesla 内部有一个名为 Warp Speed 的相当庞大的软件，运行着他们很多制造和研发流程。"
+ },
+ {
+  "seg": 474,
+  "start": 2307.948,
+  "end": 2313.191,
+  "speaker": "Unknown",
+  "en": "And so when one company grows up around a harness fit to it, it can be very powerful.",
+  "zh": "所以当一家公司围绕一件适合它的工具成长起来时，它可能非常强大。"
+ },
+ {
+  "seg": 475,
+  "start": 2313.231,
+  "end": 2315.753,
+  "speaker": "Unknown",
+  "en": "It is powerful in a way that the software that you can buy isn't.",
+  "zh": "它以一种你能买到的软件做不到的方式强大。"
+ },
+ {
+  "seg": 476,
+  "start": 2316.941,
+  "end": 2322.685,
+  "speaker": "Unknown",
+  "en": "But this requires you to really look into the future, because certainly, especially at the seed stage, this is not the thing that you would think you should be focusing on.",
+  "zh": "但这需要你真正展望未来，因为当然，特别是在种子阶段，这不是你认为你应该关注的事情。"
+ },
+ {
+  "seg": 477,
+  "start": 2322.705,
+  "end": 2323.666,
+  "speaker": "Unknown",
+  "en": "And historically, it has not been.",
+  "zh": "而在历史上，也确实不是。"
+ },
+ {
+  "seg": 478,
+  "start": 2323.686,
+  "end": 2325.066,
+  "speaker": "Unknown",
+  "en": "And this is a thing that has changed with agents.",
+  "zh": "而这是随着智能体改变的一件事。"
+ },
+ {
+  "seg": 479,
+  "start": 2325.467,
+  "end": 2329.349,
+  "speaker": "Unknown",
+  "en": "The fact that you can vibe code this now makes it a reasonable thing to think about.",
+  "zh": "事实上你现在可以 vibe code 这使得思考这件事变得合理。"
+ },
+ {
+  "seg": 480,
+  "start": 2330.17,
+  "end": 2332.791,
+  "speaker": "Unknown",
+  "en": "Historically, software has been so expensive, you would have had to buy it.",
+  "zh": "历史上，软件一直非常昂贵，你不得不购买它。"
+ },
+ {
+  "seg": 481,
+  "start": 2333.151,
+  "end": 2334.752,
+  "speaker": "Unknown",
+  "en": "And that's what everybody did for a long time.",
+  "zh": "而且这也是大家长期以来所做的。"
+ },
+ {
+  "seg": 482,
+  "start": 2334.812,
+  "end": 2337.154,
+  "speaker": "Unknown",
+  "en": "That was, I think, a worse world, and that world has changed.",
+  "zh": "我认为那是一个更糟糕的世界，而那个世界已经改变了。"
+ },
+ {
+  "seg": 483,
+  "start": 2337.214,
+  "end": 2338.775,
+  "speaker": "Unknown",
+  "en": "And so now there are better options available.",
+  "zh": "所以现在有更好的选择可用。"
+ },
+ {
+  "seg": 484,
+  "start": 2339.135,
+  "end": 2342.737,
+  "speaker": "Unknown",
+  "en": "But like I said, it's like we previously had used, we used Greenhouse.",
+  "zh": "但就像我说的，就像我们以前用过，我们用过 Greenhouse。"
+ },
+ {
+  "seg": 485,
+  "start": 2344.078,
+  "end": 2349.561,
+  "speaker": "Unknown",
+  "en": "Greenhouse required us to have a small number of people as a bottleneck at that first funnel stage.",
+  "zh": "Greenhouse 要求我们在这个第一漏斗阶段有少数人作为瓶颈。"
+ },
+ {
+  "seg": 486,
+  "start": 2350.561,
+  "end": 2362.006,
+  "speaker": "Unknown",
+  "en": "Placing that with software, we were able to explore voting mechanisms and fairly detailed voting mechanisms that can make smart inferences about who would know about an applicant, things that you can't really do with the commercial software.",
+  "zh": "用软件取代它，我们能够探索投票机制和相当详细的投票机制，它们可以对谁了解申请人做出聪明的推断，而这些是你无法真正用商业软件做到的。"
+ },
+ {
+  "seg": 487,
+  "start": 2362.567,
+  "end": 2366.728,
+  "speaker": "Unknown",
+  "en": "And so for a lot of these processes, you should think about how you want it to work for you.",
+  "zh": "所以对于很多这样的流程，你应该思考你希望它如何为你工作。"
+ },
+ {
+  "seg": 488,
+  "start": 2371.392,
+  "end": 2375.716,
+  "speaker": "Unknown",
+  "en": "These are human organizations, these human processes that have to be staffed.",
+  "zh": "这些是必须配备人员的人类组织，这些是人类流程。"
+ },
+ {
+  "seg": 489,
+  "start": 2375.756,
+  "end": 2377.697,
+  "speaker": "Unknown",
+  "en": "And if they aren't done routinely, we'll atrophy.",
+  "zh": "如果不是常规性地做，我们就会萎缩。"
+ },
+ {
+  "seg": 490,
+  "start": 2377.998,
+  "end": 2381.521,
+  "speaker": "Unknown",
+  "en": "And there's things that make sense for different teams and founders in the way that they view the world and think about it.",
+  "zh": "对于不同的团队和创始人，在看待世界和思考的方式上，有些事情是有道理的。"
+ },
+ {
+  "seg": 491,
+  "start": 2381.541,
+  "end": 2382.562,
+  "speaker": "Unknown",
+  "en": "It really is all very different.",
+  "zh": "真的是非常不同。"
+ },
+ {
+  "seg": 492,
+  "start": 2383.102,
+  "end": 2392.13,
+  "speaker": "Unknown",
+  "en": "But if you build a thing that works for you and then you bake that into the company so when you put something there, it stays there, it can be very, very useful.",
+  "zh": "但是如果你构建了一个对你有用的东西，然后你把它固化到公司中，所以当你把某样东西放在那里时，它就留在那里，它可能非常有用。"
+ },
+ {
+  "seg": 493,
+  "start": 2394.412,
+  "end": 2396.494,
+  "speaker": "Unknown",
+  "en": "What changes should we expect in the world",
+  "zh": "我们应该期待世界发生什么变化"
+ },
+ {
+  "seg": 494,
+  "start": 2397.742,
+  "end": 2402.543,
+  "speaker": "Unknown",
+  "en": "As BCIs start to work and get widely adopted, do intelligence differences no longer matter?",
+  "zh": "随着 BCI 开始工作并被广泛采用，智力差异不再重要了吗？"
+ },
+ {
+  "seg": 495,
+  "start": 2406.044,
+  "end": 2410.285,
+  "speaker": "Unknown",
+  "en": "So there's this meme that BCI is an artificial intelligence adjacent story.",
+  "zh": "所以有一个梗说 BCI 是一个人工智能的相邻故事。"
+ },
+ {
+  "seg": 496,
+  "start": 2410.785,
+  "end": 2411.465,
+  "speaker": "Unknown",
+  "en": "And there's some of that.",
+  "zh": "其中有一部分是。"
+ },
+ {
+  "seg": 497,
+  "start": 2411.485,
+  "end": 2421.448,
+  "speaker": "Unknown",
+  "en": "Like eventually, like if AI is building super intelligent machines and BCI labs are building conscious machines and we're building brain to brain connections so that the boundaries between those things become less meaningful.",
+  "zh": "就像最终，如果 AI 正在构建超级智能机器，而 BCI 实验室正在构建有意识的机器，而我们正在构建脑对脑连接，以便这些事物之间的边界变得不那么有意义。"
+ },
+ {
+  "seg": 498,
+  "start": 2422.339,
+  "end": 2427.42,
+  "speaker": "Unknown",
+  "en": "Like at some point you want a super intelligent conscious machine that we can participate in, but that actually feels further away to me.",
+  "zh": "就像在某个时候你想要一个我们可以参与其中的超级智能有意识的机器，但这实际上对我来说感觉更遥远。"
+ },
+ {
+  "seg": 499,
+  "start": 2427.981,
+  "end": 2431.201,
+  "speaker": "Unknown",
+  "en": "I think in the near term, BCI is really a longevity story.",
+  "zh": "我认为在短期内，BCI 真的只是一个长寿的故事。"
+ },
+ {
+  "seg": 500,
+  "start": 2431.221,
+  "end": 2433.142,
+  "speaker": "Unknown",
+  "en": "And I view longevity as really just healthcare.",
+  "zh": "我把长寿看作真的只是医疗保健。"
+ },
+ {
+  "seg": 501,
+  "start": 2433.402,
+  "end": 2434.342,
+  "speaker": "Unknown",
+  "en": "I mean, just biotech.",
+  "zh": "我是说，只是生物科技。"
+ },
+ {
+  "seg": 502,
+  "start": 2434.362,
+  "end": 2442.164,
+  "speaker": "Unknown",
+  "en": "It's just that it hasn't, like, I think it is not right to say that the pharma companies or any of these like past healthcare companies are not interested in cures.",
+  "zh": "只是，它还没有，比如，我认为说制药公司或任何这些过去的医疗保健公司不想治愈是不对的。"
+ },
+ {
+  "seg": 503,
+  "start": 2442.184,
+  "end": 2443.565,
+  "speaker": "Unknown",
+  "en": "I think that that is what all of them want.",
+  "zh": "我认为那是所有它们想要的。"
+ },
+ {
+  "seg": 504,
+  "start": 2444.025,
+  "end": 2445.745,
+  "speaker": "Unknown",
+  "en": "It's just that that's been beyond our capabilities.",
+  "zh": "只是那一直超出了我们的能力。"
+ },
+ {
+  "seg": 505,
+  "start": 2446.426,
+  "end": 2451.227,
+  "speaker": "Unknown",
+  "en": "And in neural engineering, the people here at BCI, I think they think of,",
+  "zh": "而在神经工程中，BCI 这里的人，我认为他们考虑的是，"
+ },
+ {
+  "seg": 506,
+  "start": 2451.708,
+  "end": 2452.108,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 507,
+  "start": 2452.128,
+  "end": 2452.449,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 508,
+  "start": 2452.469,
+  "end": 2452.729,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 509,
+  "start": 2466.757,
+  "end": 2469.438,
+  "speaker": "Unknown",
+  "en": "This, I think, is a contrarian take on all of healthcare.",
+  "zh": "这，我认为，是对整个医疗保健的一个逆向观点。"
+ },
+ {
+  "seg": 510,
+  "start": 2469.958,
+  "end": 2472.358,
+  "speaker": "Unknown",
+  "en": "It gives you these effect sizes that you just don't really see in medicine.",
+  "zh": "它给你这些效应大小，你在医学中真的看不到。"
+ },
+ {
+  "seg": 511,
+  "start": 2472.378,
+  "end": 2479.42,
+  "speaker": "Unknown",
+  "en": "Like if you have a patient on a dopaminergic drug for Parkinson's that works for some period of time, but it's a relatively small effect after a little while.",
+  "zh": "就像如果你有一个帕金森病患者服用多巴胺能药物，它在一段时间内有效，但过一会儿这是一个相对较小的效果。"
+ },
+ {
+  "seg": 512,
+  "start": 2479.98,
+  "end": 2486.382,
+  "speaker": "Unknown",
+  "en": "You turn on a deep brain stimulator and a patient goes from not being able to hold a cup of water to being able to write cursive in like 10 seconds.",
+  "zh": "你打开一个深部脑刺激器，病人从无法握住一杯水变成能够在 10 秒内写草书。"
+ },
+ {
+  "seg": 513,
+  "start": 2487.962,
+  "end": 2492.203,
+  "speaker": "Unknown",
+  "en": "If you want to talk about strong patient testimonials, you should see a newborn having their cochlear implant turned on.",
+  "zh": "如果你想谈论强有力的患者证言，你应该看看新生儿打开他们的耳蜗植入物。"
+ },
+ {
+  "seg": 514,
+  "start": 2492.78,
+  "end": 2511.692,
+  "speaker": "Unknown",
+  "en": "These are just, when you deal directly with the brain as a computer, not only do you not have to solve some of these really hard biology problems that are just beyond humanity's capabilities, but you get these results pretty readily that, again, are just, you can get an engineering gradient, you can get them more reliably, and they're just large effects.",
+  "zh": "这些只是，当你直接将大脑作为计算机来处理时，你不仅不必解决一些真的超出人类能力的非常难的生物学问题，而且你会相当容易地得到这些结果，再次强调，只是，你可以获得工程梯度，你可以更可靠地获得它们，而且它们只是大效果。"
+ },
+ {
+  "seg": 515,
+  "start": 2512.273,
+  "end": 2518.197,
+  "speaker": "Unknown",
+  "en": "And so I see this as a way to extend and improve the life of everybody.",
+  "zh": "因此我把这看作一种延长和改善每个人生活的方式。"
+ },
+ {
+  "seg": 516,
+  "start": 2520.336,
+  "end": 2521.757,
+  "speaker": "Unknown",
+  "en": "The brain is the thing that makes you you.",
+  "zh": "大脑是让你成为你的东西。"
+ },
+ {
+  "seg": 517,
+  "start": 2521.817,
+  "end": 2523.979,
+  "speaker": "Unknown",
+  "en": "It's the only thing that in principle you can't transplant.",
+  "zh": "它是原则上你不能移植的唯一东西。"
+ },
+ {
+  "seg": 518,
+  "start": 2524.039,
+  "end": 2526.12,
+  "speaker": "Unknown",
+  "en": "You can get a new heart or a new liver.",
+  "zh": "你可以得到一颗新的心脏或一个新的肝脏。"
+ },
+ {
+  "seg": 519,
+  "start": 2526.24,
+  "end": 2528.101,
+  "speaker": "Unknown",
+  "en": "You cannot even in principle get a new brain.",
+  "zh": "你甚至在原则上不能得到一个新的大脑。"
+ },
+ {
+  "seg": 520,
+  "start": 2528.121,
+  "end": 2530.383,
+  "speaker": "Unknown",
+  "en": "And the brain is usually not the thing that fails.",
+  "zh": "而且大脑通常不是那个失败的东西。"
+ },
+ {
+  "seg": 521,
+  "start": 2530.603,
+  "end": 2542.731,
+  "speaker": "Unknown",
+  "en": "And so if you can deal with the brain directly, I think this is more of a radical longevity story than it is an AI one for the moment, although all of these things will come together over some period of time.",
+  "zh": "因此如果你可以直接处理大脑，我认为这更多是一个激进的长期的故事，而不是 AI 的故事，尽管所有这些事情会在一段时间内走到一起。"
+ },
+ {
+  "seg": 522,
+  "start": 2545.361,
+  "end": 2551.744,
+  "speaker": "Unknown",
+  "en": "For your eigenreview performance system, how do you prevent employees from colluding on their votes or downvoting somebody on purpose?",
+  "zh": "对于你的 eigenreview 绩效系统，你如何防止员工在投票时串通或故意降级某人的票？"
+ },
+ {
+  "seg": 523,
+  "start": 2552.625,
+  "end": 2553.726,
+  "speaker": "Unknown",
+  "en": "So as I mentioned, there are some tricks.",
+  "zh": "正如我提到的，有一些技巧。"
+ },
+ {
+  "seg": 524,
+  "start": 2553.786,
+  "end": 2559.969,
+  "speaker": "Unknown",
+  "en": "So for example, applying Markov chain Monte Carlo dropout allows us to detect things like voting clicks.",
+  "zh": "例如，应用马尔可夫链蒙特卡洛 dropout 让我们能够检测到诸如投票点击之类的事情。"
+ },
+ {
+  "seg": 525,
+  "start": 2560.029,
+  "end": 2562.27,
+  "speaker": "Unknown",
+  "en": "Because now, instead of seeing one peak, you'll see two peaks.",
+  "zh": "因为现在，不再是看到一个峰值，你会看到两个峰值。"
+ },
+ {
+  "seg": 526,
+  "start": 2563.091,
+  "end": 2565.352,
+  "speaker": "Unknown",
+  "en": "That is a clue to look into that.",
+  "zh": "那是深入调查的一个线索。"
+ },
+ {
+  "seg": 527,
+  "start": 2566.873,
+  "end": 2570.395,
+  "speaker": "Unknown",
+  "en": "I mean, it's designed to be tolerant of these things.",
+  "zh": "我的意思是，它被设计为对这些事情具有容错性。"
+ },
+ {
+  "seg": 528,
+  "start": 2570.455,
+  "end": 2572.396,
+  "speaker": "Unknown",
+  "en": "I think it is really fairly transparent.",
+  "zh": "我认为它是相当透明的。"
+ },
+ {
+  "seg": 529,
+  "start": 2572.416,
+  "end": 2573.616,
+  "speaker": "Unknown",
+  "en": "It's also not our only signal.",
+  "zh": "它也不是我们唯一的信号。"
+ },
+ {
+  "seg": 530,
+  "start": 2573.656,
+  "end": 2574.417,
+  "speaker": "Unknown",
+  "en": "It's one of several.",
+  "zh": "它是几个信号中的一个。"
+ },
+ {
+  "seg": 531,
+  "start": 2578.866,
+  "end": 2584.288,
+  "speaker": "Unknown",
+  "en": "If anybody is interested in this, send me an email and I will share a document with the specific tricks.",
+  "zh": "如果有人对此感兴趣，给我发邮件，我会分享一个带有具体技巧的文档。"
+ },
+ {
+  "seg": 532,
+  "start": 2584.368,
+  "end": 2587.529,
+  "speaker": "Unknown",
+  "en": "But I want to understand a little more about how you were going to deploy it first.",
+  "zh": "但我想先多了解一下你打算如何部署它。"
+ },
+ {
+  "seg": 533,
+  "start": 2587.709,
+  "end": 2588.77,
+  "speaker": "Unknown",
+  "en": "Some of this is tradecraft.",
+  "zh": "其中一些是诀窍。"
+ },
+ {
+  "seg": 534,
+  "start": 2595.712,
+  "end": 2602.095,
+  "speaker": "Unknown",
+  "en": "When you're building something as long horizon as neurotech, how do you figure out how much runway you actually need to keep the company alive?",
+  "zh": "当你建立像神经科技这样长周期的东西时，你如何弄清楚你实际需要多少跑道来维持公司生存？"
+ },
+ {
+  "seg": 535,
+  "start": 2602.455,
+  "end": 2604.096,
+  "speaker": "Unknown",
+  "en": "And how do you get investors to fund that much?",
+  "zh": "以及你如何让投资者资助那么多？"
+ },
+ {
+  "seg": 536,
+  "start": 2605.999,
+  "end": 2619.545,
+  "speaker": "Unknown",
+  "en": "So sometimes, I mean, you often see founders, especially more experienced ones, pitching VCs for what they think is reasonable to ask for rather than what they need to run the experiment.",
+  "zh": "所以有时候，我是说，你经常看到创始人，尤其是更有经验的那些，向 VC 们推销他们认为合理的要求，而不是他们运行实验所需要的。"
+ },
+ {
+  "seg": 537,
+  "start": 2620.165,
+  "end": 2622.606,
+  "speaker": "Unknown",
+  "en": "You're raising some amount of money to go find out some answer.",
+  "zh": "你正在筹集一定数量的钱去找出某个答案。"
+ },
+ {
+  "seg": 538,
+  "start": 2622.626,
+  "end": 2623.806,
+  "speaker": "Unknown",
+  "en": "The answer to that might be no.",
+  "zh": "那个答案可能是否定的。"
+ },
+ {
+  "seg": 539,
+  "start": 2623.846,
+  "end": 2626.688,
+  "speaker": "Unknown",
+  "en": "The investors understand this, depending on what business you're in.",
+  "zh": "投资者理解这一点，取决于你从事什么业务。"
+ },
+ {
+  "seg": 540,
+  "start": 2627.208,
+  "end": 2628.648,
+  "speaker": "Unknown",
+  "en": "But you have to actually run the experiment.",
+  "zh": "但你必须实际运行实验。"
+ },
+ {
+  "seg": 541,
+  "start": 2629.049,
+  "end": 2630.189,
+  "speaker": "Unknown",
+  "en": "And one of the things...",
+  "zh": "而其中一件事……"
+ },
+ {
+  "seg": 542,
+  "start": 2633.533,
+  "end": 2639.001,
+  "speaker": "Unknown",
+  "en": "There are definitely some ideas that are worth funding with $50 million or $0, but not $5 million.",
+  "zh": "绝对有一些想法值得用 5000 万美元或 0 美元资助，但不值得 500 万美元。"
+ },
+ {
+  "seg": 543,
+  "start": 2639.702,
+  "end": 2640.623,
+  "speaker": "Unknown",
+  "en": "You won't run the experiment.",
+  "zh": "你不会运行那个实验。"
+ },
+ {
+  "seg": 544,
+  "start": 2640.663,
+  "end": 2641.824,
+  "speaker": "Unknown",
+  "en": "It'll be a really frustrating experience.",
+  "zh": "那将是一个非常令人沮丧的体验。"
+ },
+ {
+  "seg": 545,
+  "start": 2641.845,
+  "end": 2642.886,
+  "speaker": "Unknown",
+  "en": "You'll get an ambiguous outcome.",
+  "zh": "你会得到一个模棱两可的结果。"
+ },
+ {
+  "seg": 546,
+  "start": 2643.25,
+  "end": 2648.272,
+  "speaker": "Unknown",
+  "en": "And so my first piece of advice is you should figure out what you think it's going to take to actually run the experiment, which is not the whole company.",
+  "zh": "所以我的第一个建议是，你应该弄清楚你认为实际运行实验需要什么，这并不是整个公司。"
+ },
+ {
+  "seg": 547,
+  "start": 2648.292,
+  "end": 2650.514,
+  "speaker": "Unknown",
+  "en": "That is, what is your next value inflection point?",
+  "zh": "也就是说，你的下一个价值拐点是什么？"
+ },
+ {
+  "seg": 548,
+  "start": 2650.814,
+  "end": 2657.237,
+  "speaker": "Unknown",
+  "en": "No matter how ambitious and open-ended of your plan is, you should have some sense of what is your next key value inflection point?",
+  "zh": "无论你的计划多么宏大和开放式，你应该有一些概念什么是你的下一个关键价值拐点？"
+ },
+ {
+  "seg": 549,
+  "start": 2657.557,
+  "end": 2659.298,
+  "speaker": "Unknown",
+  "en": "What are the experiments that need to go into that?",
+  "zh": "哪些实验需要进入那个拐点？"
+ },
+ {
+  "seg": 550,
+  "start": 2660.678,
+  "end": 2662.559,
+  "speaker": "Unknown",
+  "en": "Price that out, and then raise twice the money.",
+  "zh": "把那个价格算出来，然后筹集两倍的钱。"
+ },
+ {
+  "seg": 551,
+  "start": 2665.641,
+  "end": 2666.521,
+  "speaker": "Unknown",
+  "en": "There's some amount of waste.",
+  "zh": "总有一些浪费。"
+ },
+ {
+  "seg": 552,
+  "start": 2666.541,
+  "end": 2669.583,
+  "speaker": "Unknown",
+  "en": "I think if you can get waste down to 20% or 30%, that's pretty good.",
+  "zh": "我认为如果你能把浪费降到 20% 或 30%，那就相当不错了。"
+ },
+ {
+  "seg": 553,
+  "start": 2672.97,
+  "end": 2680.576,
+  "speaker": "Unknown",
+  "en": "Anyway, the advice is figure out what it costs to actually run the experiment, raise twice that, and raise that or not.",
+  "zh": "无论如何，建议是弄清楚实际运行实验的成本，筹集两倍的资金，然后筹集或不筹集。"
+ },
+ {
+  "seg": 554,
+  "start": 2681.737,
+  "end": 2685.14,
+  "speaker": "Unknown",
+  "en": "Beyond that, you'll always discover new things.",
+  "zh": "除此之外，你总是会发现新事物。"
+ },
+ {
+  "seg": 555,
+  "start": 2685.18,
+  "end": 2687.882,
+  "speaker": "Unknown",
+  "en": "There's usually some path through the mess.",
+  "zh": "在混乱中通常有一条路。"
+ },
+ {
+  "seg": 556,
+  "start": 2689.524,
+  "end": 2697.108,
+  "speaker": "Unknown",
+  "en": "But when you start the company, you're not going to get a guarantee that you won't be on a bridge to nowhere or that it will work on the funding that you have.",
+  "zh": "但是当你创办公司时，你不会得到保证说你不会走上通往无何有之乡的桥梁，也不会保证它能在你拥有的资金上运作。"
+ },
+ {
+  "seg": 557,
+  "start": 2697.128,
+  "end": 2700.19,
+  "speaker": "Unknown",
+  "en": "You're going to have to get in there and figure it out halfway through.",
+  "zh": "你将不得不深入其中，并在中途弄清楚。"
+ },
+ {
+  "seg": 558,
+  "start": 2700.21,
+  "end": 2705.453,
+  "speaker": "Unknown",
+  "en": "I think that people should push for profitability sooner than they often think that they need to.",
+  "zh": "我认为人们应该比他们通常认为需要的更早追求盈利能力。"
+ },
+ {
+  "seg": 559,
+  "start": 2706.114,
+  "end": 2714.959,
+  "speaker": "Unknown",
+  "en": "For us, even though we are seen as this, I think, very open-ended, deep tech company with a very long roadmap, which is true, we are also relentlessly focused on revenue at this point.",
+  "zh": "对我们来说，即使我们在某种意义上被视为一家非常开放式的、拥有很长路线图的深度技术公司，这是真的，但我们在这一点上也无情地专注于收入。"
+ },
+ {
+  "seg": 560,
+  "start": 2715.607,
+  "end": 2717.088,
+  "speaker": "Unknown",
+  "en": "We are trying to get to sustainability.",
+  "zh": "我们正在努力实现可持续性。"
+ },
+ {
+  "seg": 561,
+  "start": 2717.568,
+  "end": 2725.391,
+  "speaker": "Unknown",
+  "en": "It feels like the company is kind of constantly dying slowly of this money cancer that we can beat into remission every couple of years with the fundraising.",
+  "zh": "感觉公司就像是在慢慢死于这种金钱癌症，我们每过几年就可以通过融资将其击退进入缓解期。"
+ },
+ {
+  "seg": 562,
+  "start": 2725.712,
+  "end": 2728.273,
+  "speaker": "Unknown",
+  "en": "But then it eventually comes back and I want that feeling to be over.",
+  "zh": "但它最终会复发，我希望那种感觉结束。"
+ },
+ {
+  "seg": 563,
+  "start": 2728.833,
+  "end": 2743.639,
+  "speaker": "Unknown",
+  "en": "And so no matter how big of a problem or big of a vision it feels, you do need to think about how do you get to revenue so that not just you can do it forever, but then you'll be valued on your long-term roadmap, not valued on your probability of dying.",
+  "zh": "所以，无论问题或愿景感觉有多大，你确实需要思考如何获得收入，这样不仅你可以永远做下去，而且你会基于你的长期路线图被估值，而不是基于你死亡的概率被估值。"
+ },
+ {
+  "seg": 564,
+  "start": 2744.06,
+  "end": 2744.86,
+  "speaker": "Unknown",
+  "en": "And it really opens up.",
+  "zh": "这确实打开了局面。"
+ },
+ {
+  "seg": 565,
+  "start": 2745.417,
+  "end": 2749.72,
+  "speaker": "Unknown",
+  "en": "Another set of investors that wouldn't be relevant otherwise.",
+  "zh": "另一批原本不相关的投资者。"
+ },
+ {
+  "seg": 566,
+  "start": 2754.363,
+  "end": 2756.964,
+  "speaker": "Unknown",
+  "en": "What is the best piece of advice you've received?",
+  "zh": "你收到的最好的建议是什么？"
+ },
+ {
+  "seg": 567,
+  "start": 2762.127,
+  "end": 2762.568,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 568,
+  "start": 2763.648,
+  "end": 2768.191,
+  "speaker": "Unknown",
+  "en": "I've acquired way too much brain damage over the last 20 years to have a memory capable of picking that out.",
+  "zh": "在过去的 20 年里，我遭受了太多的脑损伤，导致我的记忆无法挑选出那个。"
+ },
+ {
+  "seg": 569,
+  "start": 2775.789,
+  "end": 2788.617,
+  "speaker": "Unknown",
+  "en": "I mean, I think other than speed being the basis of success and infrastructure determines your speed, it is important to appreciate that there are no general principles.",
+  "zh": "我的意思是，我认为除了速度是成功的基础以及基础设施决定你的速度之外，重要的是要 appreciate（意识到）不存在一般原则。"
+ },
+ {
+  "seg": 570,
+  "start": 2788.637,
+  "end": 2790.057,
+  "speaker": "Unknown",
+  "en": "I think people are looking for shortcuts.",
+  "zh": "我认为人们在寻找捷径。"
+ },
+ {
+  "seg": 571,
+  "start": 2790.137,
+  "end": 2791.198,
+  "speaker": "Unknown",
+  "en": "People are looking for...",
+  "zh": "人们在寻找……"
+ },
+ {
+  "seg": 572,
+  "start": 2793.035,
+  "end": 2795.816,
+  "speaker": "Unknown",
+  "en": "Like a pithy set of instructions that are like, oh, I figured it out.",
+  "zh": "就像一套简洁的指令，比如，哦，我搞明白了。"
+ },
+ {
+  "seg": 573,
+  "start": 2796.377,
+  "end": 2797.257,
+  "speaker": "Unknown",
+  "en": "And that doesn't exist.",
+  "zh": "但那是不存在的。"
+ },
+ {
+  "seg": 574,
+  "start": 2797.297,
+  "end": 2798.798,
+  "speaker": "Unknown",
+  "en": "Like every one of these things is different.",
+  "zh": "就像这些事情中的每一件都是不同的。"
+ },
+ {
+  "seg": 575,
+  "start": 2798.818,
+  "end": 2801.119,
+  "speaker": "Unknown",
+  "en": "When you get to that moment in history, you're doing something new.",
+  "zh": "当你到达历史上的那个时刻，你正在做一些新的事情。"
+ },
+ {
+  "seg": 576,
+  "start": 2801.499,
+  "end": 2807.222,
+  "speaker": "Unknown",
+  "en": "And I mean, we can reflect for a second on how crazy it is that this is possible.",
+  "zh": "我的意思是，我们可以花一点时间反思一下，这是可能的这件事有多疯狂。"
+ },
+ {
+  "seg": 577,
+  "start": 2807.803,
+  "end": 2820.369,
+  "speaker": "Unknown",
+  "en": "Like for the vast majority of human history, if you were a smart 20-year-old that had an idea to make your society better and you raise this to the people with capital, the reaction was like, you should pay attention to the harvest.",
+  "zh": "就像在人类历史的绝大部分时间里，如果你是一个聪明的 20 岁年轻人，有一个让你的社会变得更好的想法，你向拥有资本的人提出这一点，反应会是，你应该关注收成。"
+ },
+ {
+  "seg": 578,
+  "start": 2821.467,
+  "end": 2824.089,
+  "speaker": "Unknown",
+  "en": "The fact that it is not widely available.",
+  "zh": "这一事并非广泛可用的。"
+ },
+ {
+  "seg": 579,
+  "start": 2824.109,
+  "end": 2830.914,
+  "speaker": "Unknown",
+  "en": "It's not universally available, but it's not widely available that if you're a really smart 20-year-old, you can come to San Francisco and make the case.",
+  "zh": "这并非普遍可用的，但并非广泛可用的是，如果你是一个非常聪明的 20 岁年轻人，你可以来到旧金山并提出理由。"
+ },
+ {
+  "seg": 580,
+  "start": 2830.954,
+  "end": 2833.937,
+  "speaker": "Unknown",
+  "en": "And if it's an interesting idea, you'll get millions of dollars to find out.",
+  "zh": "如果这是一个有趣的想法，你将获得数百万美元来找出答案。"
+ },
+ {
+  "seg": 581,
+  "start": 2833.957,
+  "end": 2837.88,
+  "speaker": "Unknown",
+  "en": "This is not the case for most of the world today, and it's certainly not the case for most of history anywhere.",
+  "zh": "对于今天世界的大部分地区来说，情况并非如此，而且对于历史上任何地方的大部分历史来说，肯定也不是这样。"
+ },
+ {
+  "seg": 582,
+  "start": 2837.9,
+  "end": 2844.045,
+  "speaker": "Unknown",
+  "en": "But that shouldn't feel normal.",
+  "zh": "但这不应该感觉正常。"
+ },
+ {
+  "seg": 583,
+  "start": 2844.185,
+  "end": 2846.146,
+  "speaker": "Unknown",
+  "en": "This is given to push the frontier out.",
+  "zh": "这是为了推动前沿发展而给予的。"
+ },
+ {
+  "seg": 584,
+  "start": 2846.166,
+  "end": 2847.948,
+  "speaker": "Unknown",
+  "en": "And when you're on the frontier, they're like,",
+  "zh": "当你处于前沿时，他们就像，"
+ },
+ {
+  "seg": 585,
+  "start": 2848.905,
+  "end": 2850.767,
+  "speaker": "Unknown",
+  "en": "You're figuring it out as you go.",
+  "zh": "你在摸索中弄明白。"
+ },
+ {
+  "seg": 586,
+  "start": 2851.167,
+  "end": 2851.888,
+  "speaker": "Unknown",
+  "en": "That is the job.",
+  "zh": "那就是工作。"
+ },
+ {
+  "seg": 587,
+  "start": 2851.948,
+  "end": 2857.534,
+  "speaker": "Unknown",
+  "en": "And so I would try to rely less on things that feel like startup advice and more on how good is your judgment?",
+  "zh": "所以我会尝试少依赖那些感觉像是初创企业建议的东西，而更多依赖你的判断力有多好？"
+ },
+ {
+  "seg": 588,
+  "start": 2857.574,
+  "end": 2859.175,
+  "speaker": "Unknown",
+  "en": "How well is that refined in your domain?",
+  "zh": "这在你的领域内磨练得有多好？"
+ },
+ {
+  "seg": 589,
+  "start": 2859.455,
+  "end": 2861.778,
+  "speaker": "Unknown",
+  "en": "And remembering that you have to think for yourself.",
+  "zh": "并且记住你必须独立思考。"
+ },
+ {
+  "seg": 590,
+  "start": 2866.903,
+  "end": 2870.987,
+  "speaker": "Unknown",
+  "en": "What are some of the hardest remaining engineering challenges involved in getting BCIs to work?",
+  "zh": "在让 BCI 工作的过程中，剩下的一些最困难的工程挑战是什么？"
+ },
+ {
+  "seg": 591,
+  "start": 2873.509,
+  "end": 2877.912,
+  "speaker": "Unknown",
+  "en": "So in BCIs, we often feel very limited by power and thermal constraints on the implants.",
+  "zh": "所以在 BCI 中，我们经常感觉到受限于植入物的功率和热约束。"
+ },
+ {
+  "seg": 592,
+  "start": 2878.693,
+  "end": 2883.737,
+  "speaker": "Unknown",
+  "en": "And so this creates a strong pressure to implant as little as possible and do the rest off the body.",
+  "zh": "因此这产生了强烈的压力，要求尽可能少地植入，其余的在体外完成。"
+ },
+ {
+  "seg": 593,
+  "start": 2884.397,
+  "end": 2888,
+  "speaker": "Unknown",
+  "en": "You can't pass a wire through the skin because the skin is a very important immune barrier.",
+  "zh": "你不能穿过皮肤穿一根线，因为皮肤是一个非常重要的免疫屏障。"
+ },
+ {
+  "seg": 594,
+  "start": 2888.641,
+  "end": 2890.182,
+  "speaker": "Unknown",
+  "en": "And the skin won't fully heal around it.",
+  "zh": "皮肤不会完全围绕它愈合。"
+ },
+ {
+  "seg": 595,
+  "start": 2890.202,
+  "end": 2896.607,
+  "speaker": "Unknown",
+  "en": "If you have any connectors through the scalp, you're constantly at risk of a bacteria crawling down that and into the brain, and then the patient's going to have a really bad time.",
+  "zh": "如果你有任何穿过头皮的连接器，你将始终面临细菌顺着它爬下来进入大脑的风险，然后病人的处境会非常糟糕。"
+ },
+ {
+  "seg": 596,
+  "start": 2897.187,
+  "end": 2898.889,
+  "speaker": "Unknown",
+  "en": "And so you really have to be able to close the skin.",
+  "zh": "所以你真的必须能够闭合皮肤。"
+ },
+ {
+  "seg": 597,
+  "start": 2899.59,
+  "end": 2904.156,
+  "speaker": "Unknown",
+  "en": "That requires you to have implanted a radio or transceiver of some sort.",
+  "zh": "这要求你植入某种无线电或收发器。"
+ },
+ {
+  "seg": 598,
+  "start": 2904.977,
+  "end": 2910.183,
+  "speaker": "Unknown",
+  "en": "And getting the power on that down, there's a frontier at low power electronics, which is really important.",
+  "zh": "降低其功耗，在低功耗电子设备方面有一个前沿，这非常重要。"
+ },
+ {
+  "seg": 599,
+  "start": 2910.563,
+  "end": 2915.809,
+  "speaker": "Unknown",
+  "en": "More, as I mentioned earlier, a lot of this is now becoming increasingly biology as our biological engineering capabilities increase.",
+  "zh": "更重要的是，正如我之前提到的，随着我们的生物工程能力的提高，其中很多东西现在正变得越来越成为生物学问题。"
+ },
+ {
+  "seg": 600,
+  "start": 2917.211,
+  "end": 2923.715,
+  "speaker": "Unknown",
+  "en": "But then on those implants, ironically, one of the harder, more open problems is what we call packaging.",
+  "zh": "但接着讽刺的是，关于那些植入物，一个更难、更开放的问题是我们所谓的封装。"
+ },
+ {
+  "seg": 601,
+  "start": 2924.635,
+  "end": 2926.576,
+  "speaker": "Unknown",
+  "en": "Our colleagues in Europe call it tropicalization.",
+  "zh": "我们在欧洲的同事称之为热带化。"
+ },
+ {
+  "seg": 602,
+  "start": 2927.557,
+  "end": 2934.041,
+  "speaker": "Unknown",
+  "en": "This is your ability to keep your device in and the body out of an implant that you put in the body.",
+  "zh": "这是你保持你的设备在里面，而身体不进入你放入体内的植入物的能力。"
+ },
+ {
+  "seg": 603,
+  "start": 2934.461,
+  "end": 2937.643,
+  "speaker": "Unknown",
+  "en": "So there are no truly passive surfaces anywhere in the body.",
+  "zh": "所以在身体的任何地方都没有真正被动的表面。"
+ },
+ {
+  "seg": 604,
+  "start": 2937.663,
+  "end": 2939.544,
+  "speaker": "Unknown",
+  "en": "Even bone is constantly getting remolded.",
+  "zh": "即使是骨头也在不断地重塑。"
+ },
+ {
+  "seg": 605,
+  "start": 2940.104,
+  "end": 2945.187,
+  "speaker": "Unknown",
+  "en": "And so if I put a device in, it's going to be getting attacked by the body and it's not regenerating itself.",
+  "zh": "所以如果我放入一个设备，它将会受到身体的攻击，而且它不会自我再生。"
+ },
+ {
+  "seg": 606,
+  "start": 2945.527,
+  "end": 2949.329,
+  "speaker": "Unknown",
+  "en": "And so you need a material that is going to survive that for an extended period of time.",
+  "zh": "所以你需要一种能够在很长一段时间内经受住这种情况的材料。"
+ },
+ {
+  "seg": 607,
+  "start": 2950.75,
+  "end": 2958.594,
+  "speaker": "Unknown",
+  "en": "The classic example of this is the laser welded titanium can, which if you've seen a pacemaker or a deep brain stimulator, they've got this big titanium box.",
+  "zh": "一个经典的例子是激光焊接钛罐，如果你见过起搏器或深部脑刺激器，它们都有这个大的钛盒。"
+ },
+ {
+  "seg": 608,
+  "start": 2959.014,
+  "end": 2961.075,
+  "speaker": "Unknown",
+  "en": "Obviously, we can't put a big titanium box in the eye.",
+  "zh": "显然，我们不能在眼睛里放一个大钛盒。"
+ },
+ {
+  "seg": 609,
+  "start": 2962.056,
+  "end": 2965.038,
+  "speaker": "Unknown",
+  "en": "Interestingly, one of the earlier retinal prostheses before",
+  "zh": "有趣的是，早期的一个视网膜假体，在"
+ },
+ {
+  "seg": 610,
+  "start": 2966.223,
+  "end": 2972.588,
+  "speaker": "Unknown",
+  "en": "Before us, 10 years ago, was a device that did have a titanium box that they attached to the eyeball.",
+  "zh": "我们之前，10 年前，是一个确实有钛盒的设备，他们把它附着在眼球上。"
+ },
+ {
+  "seg": 611,
+  "start": 2972.608,
+  "end": 2974.169,
+  "speaker": "Unknown",
+  "en": "So it was a four and a half hour surgery.",
+  "zh": "所以那是一个四个半小时的手术。"
+ },
+ {
+  "seg": 612,
+  "start": 2974.189,
+  "end": 2979.353,
+  "speaker": "Unknown",
+  "en": "They had a little belt that went around the eyeball with a little titanium box on the side of the eye with a battery and a little PCB.",
+  "zh": "他们有一条带子绕着眼球，眼睛侧面有一个小钛盒，里面有一个电池和一个小 PCB。"
+ },
+ {
+  "seg": 613,
+  "start": 2980.073,
+  "end": 2980.674,
+  "speaker": "Unknown",
+  "en": "This didn't work.",
+  "zh": "这没有奏效。"
+ },
+ {
+  "seg": 614,
+  "start": 2980.714,
+  "end": 2981.534,
+  "speaker": "Unknown",
+  "en": "This was not good enough.",
+  "zh": "这不够好。"
+ },
+ {
+  "seg": 615,
+  "start": 2982.075,
+  "end": 2983.456,
+  "speaker": "Unknown",
+  "en": "They needed to get rid of that somehow.",
+  "zh": "他们需要以某种方式摆脱它。"
+ },
+ {
+  "seg": 616,
+  "start": 2984.737,
+  "end": 2989,
+  "speaker": "Unknown",
+  "en": "In our case, we've solved this with the laser projection trick where we power it wirelessly.",
+  "zh": "在我们的案例中，我们通过激光投影技巧解决了这个问题，我们通过无线方式为其供电。"
+ },
+ {
+  "seg": 617,
+  "start": 2990.763,
+  "end": 3006.586,
+  "speaker": "Unknown",
+  "en": "Having this next generation packaging, some type of conformal coding that we can use to protect the implant that is not degraded by the body, is also not harmful to the body, and is resistant to all of the ways the body will try and kill it.",
+  "zh": "拥有这种下一代封装，某种我们可以用来保护植入物的保形涂层，它既不会被身体降解，也对身体无害，并且能抵御身体试图杀死它的所有方式。"
+ },
+ {
+  "seg": 618,
+  "start": 3006.686,
+  "end": 3008.866,
+  "speaker": "Unknown",
+  "en": "That material science is a very open-ended field.",
+  "zh": "那个材料科学是一个非常开放的领域。"
+ },
+ {
+  "seg": 619,
+  "start": 3008.886,
+  "end": 3013.027,
+  "speaker": "Unknown",
+  "en": "If you're interested in material science, that is a thing that we need progress in.",
+  "zh": "如果你对材料科学感兴趣，那是我们需要进步的一件事。"
+ },
+ {
+  "seg": 620,
+  "start": 3016.107,
+  "end": 3019.388,
+  "speaker": "Unknown",
+  "en": "How did you approach interacting with the medical field to build your retinal implant?",
+  "zh": "你是如何处理与医疗领域的互动以构建你的视网膜植入物的？"
+ },
+ {
+  "seg": 621,
+  "start": 3023.056,
+  "end": 3031.528,
+  "speaker": "Unknown",
+  "en": "I mean, business is just like a fancy word for talking to people and doing things.",
+  "zh": "我的意思是，商业只是与人交谈和做事的一个花哨词藻。"
+ },
+ {
+  "seg": 622,
+  "start": 3031.548,
+  "end": 3032.529,
+  "speaker": "Unknown",
+  "en": "You talk to them.",
+  "zh": "你和他们交谈。"
+ },
+ {
+  "seg": 623,
+  "start": 3032.549,
+  "end": 3033.25,
+  "speaker": "Unknown",
+  "en": "You send them emails.",
+  "zh": "你给他们发邮件。"
+ },
+ {
+  "seg": 624,
+  "start": 3037.709,
+  "end": 3044.311,
+  "speaker": "Unknown",
+  "en": "So for our retinal implant, it was originally invented by a professor at Stanford almost 15 years ago, I think.",
+  "zh": "所以对于我们的视网膜植入物，它最初是由斯坦福大学的一位教授在大约 15 年前发明的，我想。"
+ },
+ {
+  "seg": 625,
+  "start": 3044.331,
+  "end": 3048.292,
+  "speaker": "Unknown",
+  "en": "It was licensed to a European company that we were tracking.",
+  "zh": "它被授权给了一家我们一直在跟踪的欧洲公司。"
+ },
+ {
+  "seg": 626,
+  "start": 3049.473,
+  "end": 3050.213,
+  "speaker": "Unknown",
+  "en": "Let me back up a second.",
+  "zh": "让我退后一步。"
+ },
+ {
+  "seg": 627,
+  "start": 3050.233,
+  "end": 3053.514,
+  "speaker": "Unknown",
+  "en": "So when we started the company, I came from Neuralink.",
+  "zh": "所以当我们创办公司时，我来自 Neuralink。"
+ },
+ {
+  "seg": 628,
+  "start": 3053.554,
+  "end": 3055.855,
+  "speaker": "Unknown",
+  "en": "Four of my five co-founders came from Neuralink.",
+  "zh": "我的五位联合创始人中有四位来自 Neuralink。"
+ },
+ {
+  "seg": 629,
+  "start": 3056.975,
+  "end": 3072.564,
+  "speaker": "Unknown",
+  "en": "We took a look around the world in early 2021 and asked, what is the most valuable thing that we can do that would be likely to work in the near future that may have a big impact to patients and allow us to be the foundation for the type of scalable medical device company that we wanted to build?",
+  "zh": "我们在 2021 年初环顾世界，问自己，我们可以做的最有价值的事情是什么，它可能在不久的将来奏效，可能会对患者产生重大影响，并允许我们成为我们想要建立的那种可扩展医疗设备公司的基础？"
+ },
+ {
+  "seg": 630,
+  "start": 3072.864,
+  "end": 3077.567,
+  "speaker": "Unknown",
+  "en": "And we came to the conclusion that restoring vision to the blind by stimulating the retina was the thing.",
+  "zh": "我们得出的结论是，通过刺激视网膜来恢复盲人的视力就是那件事。"
+ },
+ {
+  "seg": 631,
+  "start": 3078.783,
+  "end": 3083.825,
+  "speaker": "Unknown",
+  "en": "In that, you kind of have a choice of two types of cells in the retina that you can stimulate.",
+  "zh": "在那方面，你有点可以选择你可以刺激的视网膜中的两种类型的细胞。"
+ },
+ {
+  "seg": 632,
+  "start": 3083.985,
+  "end": 3085.825,
+  "speaker": "Unknown",
+  "en": "These things called bipolar cells or the optic nerve.",
+  "zh": "这些叫做双极细胞的东西或者视神经。"
+ },
+ {
+  "seg": 633,
+  "start": 3086.185,
+  "end": 3088.066,
+  "speaker": "Unknown",
+  "en": "And you could do that electrically or you could do that optically.",
+  "zh": "你可以电气化地做到这一点，或者你可以光学地做到这一点。"
+ },
+ {
+  "seg": 634,
+  "start": 3088.866,
+  "end": 3090.947,
+  "speaker": "Unknown",
+  "en": "We explored all four quadrants of that.",
+  "zh": "我们探索了所有四个象限。"
+ },
+ {
+  "seg": 635,
+  "start": 3091.087,
+  "end": 3095.269,
+  "speaker": "Unknown",
+  "en": "We developed internally a state-of-the-art gene therapy that optically stimulated one of those cells.",
+  "zh": "我们在内部开发了一种最先进的基因疗法，光学地刺激那些细胞中的一个。"
+ },
+ {
+  "seg": 636,
+  "start": 3095.849,
+  "end": 3099.83,
+  "speaker": "Unknown",
+  "en": "And we identified this French company as being the state-of-the-art in electrical stimulation.",
+  "zh": "我们确定了这家法国公司是电气刺激方面最先进的。"
+ },
+ {
+  "seg": 637,
+  "start": 3100.55,
+  "end": 3102.811,
+  "speaker": "Unknown",
+  "en": "And so we, I mean, it's a small community.",
+  "zh": "所以我们，我的意思是，这是一个很小的圈子。"
+ },
+ {
+  "seg": 638,
+  "start": 3102.831,
+  "end": 3104.372,
+  "speaker": "Unknown",
+  "en": "You can meet people, you can talk to them.",
+  "zh": "你可以见人，你可以和他们交谈。"
+ },
+ {
+  "seg": 639,
+  "start": 3106.065,
+  "end": 3109.507,
+  "speaker": "Unknown",
+  "en": "It eventually made sense for us to acquire them.",
+  "zh": "最终我们收购他们是有意义的。"
+ },
+ {
+  "seg": 640,
+  "start": 3109.727,
+  "end": 3115.331,
+  "speaker": "Unknown",
+  "en": "We ended up with the license, the technology, and we work with surgeons and doctors all the time.",
+  "zh": "我们最终获得了许可和技术，我们一直与外科医生和医生合作。"
+ },
+ {
+  "seg": 641,
+  "start": 3116.832,
+  "end": 3128.158,
+  "speaker": "Unknown",
+  "en": "If there's a new surgery that you want to figure out, I mean, typically this is best going through networks so that people are more likely to respond to your email, but we cold email surgeons all the time saying like, hey, we have a weird surgery to develop.",
+  "zh": "如果你有一项新手术想要弄清楚，我的意思是，通常最好通过网络进行，这样人们更有可能回复你的邮件，但我们一直冷邮件给外科医生说，嘿，我们有一项奇怪的手术要开发。"
+ },
+ {
+  "seg": 642,
+  "start": 3128.579,
+  "end": 3129.579,
+  "speaker": "Unknown",
+  "en": "Do you want to be a consultant?",
+  "zh": "你想成为顾问吗？"
+ },
+ {
+  "seg": 643,
+  "start": 3129.879,
+  "end": 3130.7,
+  "speaker": "Unknown",
+  "en": "And people reply.",
+  "zh": "人们会回复。"
+ },
+ {
+  "seg": 644,
+  "start": 3136.049,
+  "end": 3143.295,
+  "speaker": "Unknown",
+  "en": "Before I get to the next question, there is a real cultural thing here.",
+  "zh": "在我问下一个问题之前，这里有一个真正的文化问题。"
+ },
+ {
+  "seg": 645,
+  "start": 3145.118,
+  "end": 3158.181,
+  "speaker": "Unknown",
+  "en": "So in my time hanging out around the periphery of SpaceX, I observed that like at least circa seven or eight years ago, probably like 20% of that company is what you might characterize as committed Martian colonists.",
+  "zh": "所以在我在 SpaceX 周围闲逛的时间里，我观察到，至少在大约七八年前，可能该公司 20% 的人是你可能形容为致力于的火星殖民者。"
+ },
+ {
+  "seg": 646,
+  "start": 3158.781,
+  "end": 3165.283,
+  "speaker": "Unknown",
+  "en": "And 80% are serious engineers that think that those people are lunatics and they just want to work on the highest performance method locks engines in the world.",
+  "zh": "而 80% 是严肃的工程师，他们认为那些人是疯子，他们只是想致力于世界上最高性能的梅林引擎。"
+ },
+ {
+  "seg": 647,
+  "start": 3166.123,
+  "end": 3169.207,
+  "speaker": "Unknown",
+  "en": "And you need both of those cultures to be really successful long term.",
+  "zh": "要真正获得长期成功，你需要这两种文化。"
+ },
+ {
+  "seg": 648,
+  "start": 3169.828,
+  "end": 3173.132,
+  "speaker": "Unknown",
+  "en": "And that's especially tricky in medicine, right?",
+  "zh": "这在医学中尤其棘手，对吧？"
+ },
+ {
+  "seg": 649,
+  "start": 3173.172,
+  "end": 3177.317,
+  "speaker": "Unknown",
+  "en": "Because that's a very, very conservative, arguably very authoritarian culture for the most part.",
+  "zh": "因为那是一种非常、非常保守的，可以说非常威权的文化，大多数情况下。"
+ },
+ {
+  "seg": 650,
+  "start": 3178.098,
+  "end": 3180.962,
+  "speaker": "Unknown",
+  "en": "And similarly, at our company, we have, I'd say, 30%",
+  "zh": "同样地，在我们公司，我想说，有 30%"
+ },
+ {
+  "seg": 651,
+  "start": 3183.945,
+  "end": 3185.587,
+  "speaker": "Unknown",
+  "en": "I mean, it's an overtly transhumanist mission.",
+  "zh": "我的意思是，这是一个公开的超人类主义使命。"
+ },
+ {
+  "seg": 652,
+  "start": 3186.228,
+  "end": 3198.461,
+  "speaker": "Unknown",
+  "en": "And then 70% like serious clinicians and scientists and researchers and people who think that those guys are crazy, but we're gonna build some really valuable medical devices for critical unmet needs in the process.",
+  "zh": "然后有 70% 是严肃的临床医生、科学家和研究人员，以及那些认为这些人疯了的人，但我们要在这个过程中为关键未满足的需求构建一些真正有价值的医疗设备。"
+ },
+ {
+  "seg": 653,
+  "start": 3198.481,
+  "end": 3200.203,
+  "speaker": "Unknown",
+  "en": "I think one of the things that makes...",
+  "zh": "我认为让……"
+ },
+ {
+  "seg": 654,
+  "start": 3200.964,
+  "end": 3205.206,
+  "speaker": "Unknown",
+  "en": "Science, the company, very special is that it has both of those cultures and is able to integrate them.",
+  "zh": "Science 这家公司非常特别的一点之一是，它同时拥有这两种文化，并且能够将它们融合。"
+ },
+ {
+  "seg": 655,
+  "start": 3205.567,
+  "end": 3218.154,
+  "speaker": "Unknown",
+  "en": "And we're able to simultaneously do some really cool research that I think is really at the edge of the Overton window while simultaneously running clinical trials in six countries, now with an approved medical device in Europe and clinical trial results in the New England Journal of Medicine.",
+  "zh": "我们能够同时做一些非常酷的研究，我认为这些研究真的处于奥弗顿窗口的边缘，同时在六个国家开展临床试验，现在在欧洲有一款获批的医疗设备，并在《新英格兰医学杂志》上发表了临床试验结果。"
+ },
+ {
+  "seg": 656,
+  "start": 3218.634,
+  "end": 3223.337,
+  "speaker": "Unknown",
+  "en": "You have to be able to navigate both of those things, I think, to really reshape the future.",
+  "zh": "我认为，要真正重塑未来，你必须能够驾驭这两件事。"
+ },
+ {
+  "seg": 657,
+  "start": 3226.559,
+  "end": 3230.281,
+  "speaker": "Unknown",
+  "en": "Has biotech gotten easier to break into for earlier stage founders?",
+  "zh": "对于早期阶段的创始人来说，进入生物技术领域是否变得更容易了？"
+ },
+ {
+  "seg": 658,
+  "start": 3232.614,
+  "end": 3237.042,
+  "speaker": "Unknown",
+  "en": "Um, biotech remains capital intensive.",
+  "zh": "嗯，生物技术仍然是资本密集型的。"
+ },
+ {
+  "seg": 659,
+  "start": 3237.463,
+  "end": 3243.012,
+  "speaker": "Unknown",
+  "en": "Um, and so that is like, I don't know that I'd recommend biotech if you have a choice of other stuff to do.",
+  "zh": "所以这就像是，如果你有其他事情可以选择，我不知道我会不会推荐生物技术。"
+ },
+ {
+  "seg": 660,
+  "start": 3243.032,
+  "end": 3246.078,
+  "speaker": "Unknown",
+  "en": "I think for me, this was, I got like,",
+  "zh": "对我来说，我想这就像是，我就像，"
+ },
+ {
+  "seg": 661,
+  "start": 3248.711,
+  "end": 3254.436,
+  "speaker": "Unknown",
+  "en": "I realized almost 30 years ago that if you could engineer, like if you could alter the brain, you could alter reality.",
+  "zh": "我在近 30 年前意识到，如果你能够工程化，就像如果你能够改变大脑，你就能够改变现实。"
+ },
+ {
+  "seg": 662,
+  "start": 3254.677,
+  "end": 3260.462,
+  "speaker": "Unknown",
+  "en": "Like this was one of the biggest missions of the next 30, 40 years was building these things.",
+  "zh": "就像这是未来 30 年、40 年最大的使命之一，就是构建这些东西。"
+ },
+ {
+  "seg": 663,
+  "start": 3260.802,
+  "end": 3269.911,
+  "speaker": "Unknown",
+  "en": "And so for me, I think it's like every now and then I think that my life would be way easier if I had just gone into AI instead of VCI, but somebody has to do it.",
+  "zh": "所以对我来说，这就像是每隔一段时间我就想，如果我当初选择了 AI 而不是 VCI，我的生活会容易得多，但总得有人去做这件事。"
+ },
+ {
+  "seg": 664,
+  "start": 3270.271,
+  "end": 3272.373,
+  "speaker": "Unknown",
+  "en": "And I think it's important to...",
+  "zh": "我认为重要的是……"
+ },
+ {
+  "seg": 665,
+  "start": 3274.49,
+  "end": 3275.811,
+  "speaker": "Unknown",
+  "en": "Biotech is hard.",
+  "zh": "生物技术很难。"
+ },
+ {
+  "seg": 666,
+  "start": 3275.931,
+  "end": 3278.492,
+  "speaker": "Unknown",
+  "en": "It is a much harder path than many other things that you can do.",
+  "zh": "这是一条比你可以做的许多其他事情都要艰难得多的道路。"
+ },
+ {
+  "seg": 667,
+  "start": 3278.532,
+  "end": 3283.814,
+  "speaker": "Unknown",
+  "en": "But when you're successful, it has an impact on really what you see elsewhere.",
+  "zh": "但当你成功时，它对你所见到的其他事物有着真正的影响。"
+ },
+ {
+  "seg": 668,
+  "start": 3283.834,
+  "end": 3287.336,
+  "speaker": "Unknown",
+  "en": "I think increasingly, there's...",
+  "zh": "我认为越来越多地，有……"
+ },
+ {
+  "seg": 669,
+  "start": 3289.647,
+  "end": 3298.57,
+  "speaker": "Unknown",
+  "en": "I mean, it was Paul Graham that wrote a long time ago that you get vibes in different cities and like the vibe in Cambridge, Massachusetts is you should be smarter or the vibe in New York is you should be wealthier.",
+  "zh": "我是说，很久以前 Paul Graham 就写过，不同的城市有不同的氛围，就像马萨诸塞州剑桥市的氛围是你应该更聪明，或者纽约的氛围是你应该更富有。"
+ },
+ {
+  "seg": 670,
+  "start": 3298.59,
+  "end": 3303.752,
+  "speaker": "Unknown",
+  "en": "The vibe in San Francisco is you should be more powerful, especially with the rise of things like artificial intelligence.",
+  "zh": "旧金山的氛围是你应该更强大，尤其是随着人工智能等事物的兴起。"
+ },
+ {
+  "seg": 671,
+  "start": 3303.772,
+  "end": 3305.773,
+  "speaker": "Unknown",
+  "en": "I think people realize that this isn't just about money.",
+  "zh": "我认为人们意识到这不仅仅是关于钱。"
+ },
+ {
+  "seg": 672,
+  "start": 3307.053,
+  "end": 3307.714,
+  "speaker": "Unknown",
+  "en": "And this is not about money.",
+  "zh": "这不是关于钱。"
+ },
+ {
+  "seg": 673,
+  "start": 3307.734,
+  "end": 3308.414,
+  "speaker": "Unknown",
+  "en": "This is about power.",
+  "zh": "这是关于力量。"
+ },
+ {
+  "seg": 674,
+  "start": 3308.454,
+  "end": 3310.056,
+  "speaker": "Unknown",
+  "en": "And there are many different types of power.",
+  "zh": "而且有许多不同类型的力量。"
+ },
+ {
+  "seg": 675,
+  "start": 3310.516,
+  "end": 3311.977,
+  "speaker": "Unknown",
+  "en": "There's economic power.",
+  "zh": "有经济力量。"
+ },
+ {
+  "seg": 676,
+  "start": 3311.997,
+  "end": 3312.598,
+  "speaker": "Unknown",
+  "en": "There's military power.",
+  "zh": "有军事力量。"
+ },
+ {
+  "seg": 677,
+  "start": 3312.618,
+  "end": 3314.019,
+  "speaker": "Unknown",
+  "en": "But the power to heal the sick is a very dramatic one.",
+  "zh": "但是治愈疾病的力量是一种非常惊人的力量。"
+ },
+ {
+  "seg": 678,
+  "start": 3314.459,
+  "end": 3315.92,
+  "speaker": "Unknown",
+  "en": "And when you get that, not only is that",
+  "zh": "当你获得这种力量时，不仅它是"
+ },
+ {
+  "seg": 679,
+  "start": 3337.018,
+  "end": 3338.719,
+  "speaker": "Unknown",
+  "en": "Is that a real force to reshape the world?",
+  "zh": "那是一种重塑世界的真正力量吗？"
+ },
+ {
+  "seg": 680,
+  "start": 3338.739,
+  "end": 3340.301,
+  "speaker": "Unknown",
+  "en": "It's one that can be shared very readily.",
+  "zh": "它是一种可以非常容易地分享的力量。"
+ },
+ {
+  "seg": 681,
+  "start": 3340.321,
+  "end": 3347.567,
+  "speaker": "Unknown",
+  "en": "You can't share military power or economic power, but you can share the power of restoring sight to the blind or of giving life to the cancer patient.",
+  "zh": "你无法分享军事力量或经济力量，但你可以分享恢复盲人视力的力量，或者给予癌症患者生命的力量。"
+ },
+ {
+  "seg": 682,
+  "start": 3348.127,
+  "end": 3354.873,
+  "speaker": "Unknown",
+  "en": "And I think that the world is getting more complicated, and there's big impacts of all the things that are being worked on by the people in this room.",
+  "zh": "我认为世界变得越来越复杂，在这个房间里的人们正在研究的所有事情都产生着巨大的影响。"
+ },
+ {
+  "seg": 683,
+  "start": 3355.553,
+  "end": 3357.295,
+  "speaker": "Unknown",
+  "en": "And biotech is hard.",
+  "zh": "生物技术很难。"
+ },
+ {
+  "seg": 684,
+  "start": 3357.395,
+  "end": 3358.356,
+  "speaker": "Unknown",
+  "en": "It's very capital intensive.",
+  "zh": "它是非常资本密集的。"
+ },
+ {
+  "seg": 685,
+  "start": 3358.396,
+  "end": 3359.236,
+  "speaker": "Unknown",
+  "en": "It's a long road.",
+  "zh": "这是一条漫长的道路。"
+ },
+ {
+  "seg": 686,
+  "start": 3359.296,
+  "end": 3364.601,
+  "speaker": "Unknown",
+  "en": "When you start a company in this space, you're committing to a decade of your life that you will never get back, no matter how it turns out.",
+  "zh": "当你在这个领域创立一家公司时，你是在承诺投入你生命中十年的时光，无论结果如何，你都无法收回这十年。"
+ },
+ {
+  "seg": 687,
+  "start": 3367.845,
+  "end": 3374.552,
+  "speaker": "Unknown",
+  "en": "The results of that when it works, the impact that this has on patients and their families is really unlike really any other sector.",
+  "zh": "当它成功时，结果对病人及其家庭的影响，真的与其他任何领域都不同。"
+ },
+ {
+  "seg": 688,
+  "start": 3376.314,
+  "end": 3381.659,
+  "speaker": "Unknown",
+  "en": "So the last question, what's a popular belief in tech that you think is wrong?",
+  "zh": "所以最后一个问题，科技界有一个流行的观点你认为它是错的？"
+ },
+ {
+  "seg": 689,
+  "start": 3382.86,
+  "end": 3385.123,
+  "speaker": "Unknown",
+  "en": "And I don't even know what the popular beliefs in tech are now.",
+  "zh": "我甚至不知道现在科技界有哪些流行观点。"
+ },
+ {
+  "seg": 690,
+  "start": 3386.27,
+  "end": 3389.832,
+  "speaker": "Unknown",
+  "en": "Well, I mean, OK, even the whole basis of building Elix is contrarian.",
+  "zh": "好的，我是说，好吧，即便是构建 Elix 的整个基础都是逆向的。"
+ },
+ {
+  "seg": 691,
+  "start": 3390.453,
+  "end": 3399.999,
+  "speaker": "Unknown",
+  "en": "I think that if you raise a series A and then you tell your investors that you're going to vibe code a purchasing system, I think that any reasonable board is going to ask you what you're thinking.",
+  "zh": "我认为如果你筹集了 A 轮融资，然后你告诉你的投资者你要用 vibe code 构建一个采购系统，我认为任何理性的董事会都会问你在想什么。"
+ },
+ {
+  "seg": 692,
+  "start": 3401.781,
+  "end": 3408.705,
+  "speaker": "Unknown",
+  "en": "And we were able to do that because I never got those questions because I control the company.",
+  "zh": "我们之所以能够做到这一点，是因为我从未被问到那些问题，因为我控制着公司。"
+ },
+ {
+  "seg": 693,
+  "start": 3409.346,
+  "end": 3413.829,
+  "speaker": "Unknown",
+  "en": "But that's one narrow example, I guess.",
+  "zh": "但我想那只是一个狭隘的例子。"
+ },
+ {
+  "seg": 694,
+  "start": 3415.658,
+  "end": 3415.941,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 695,
+  "start": 3417.532,
+  "end": 3417.875,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

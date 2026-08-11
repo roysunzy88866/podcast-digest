@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
+[[Max Hodak]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Cursor":8,"Growth by Design":1,"Anthropic":38,"厄运漏斗":1,"前置部署工程师":4,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":68}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Cursor":8,"Growth by Design":1,"Anthropic":39,"厄运漏斗":1,"前置部署工程师":4,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":68}</script>
 
 <script>
 (function(){

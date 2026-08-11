@@ -57,7 +57,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[资本支出]] · [[Microsoft]] · [[ChatGPT]] · [[Alex]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":38,"OpenAI":30,"Google":15,"Lenny":34,"Meta":12,"Apple":9,"资本支出":3,"Microsoft":9,"ChatGPT":11,"Alex":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":39,"OpenAI":30,"Google":15,"Lenny":34,"Meta":12,"Apple":9,"资本支出":3,"Microsoft":9,"ChatGPT":11,"Alex":2}</script>
 
 <script>
 (function(){

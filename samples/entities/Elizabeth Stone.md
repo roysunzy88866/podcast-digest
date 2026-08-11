@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
+[[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
 
 </div>
 

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
+[[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"instagram":1,"TikTok":1,"Anthropic":38,"open ai":2,"Twitter":4,"reels":1,"pods":1,"产品人员":1,"news feed":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"instagram":1,"TikTok":1,"Anthropic":39,"open ai":2,"Twitter":4,"reels":1,"pods":1,"产品人员":1,"news feed":1}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
+[[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Anthropic":38,"Claude Code":18,"Co-work":2,"智能体":68,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Anthropic":39,"Claude Code":18,"Co-work":2,"智能体":68,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

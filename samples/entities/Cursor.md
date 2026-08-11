@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[护栏]] · [[Codex]] · [[Lovable]] · [[OpenAI]] · [[前置部署工程师]]
 
-<script type="application/json" class="pd-epn">{"智能体":68,"Meta":12,"Lenny":34,"Anthropic":38,"Claude Code":18,"护栏":13,"Codex":15,"Lovable":3,"OpenAI":30,"前置部署工程师":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":68,"Meta":12,"Lenny":34,"Anthropic":39,"Claude Code":18,"护栏":13,"Codex":15,"Lovable":3,"OpenAI":30,"前置部署工程师":4}</script>
 
 <script>
 (function(){

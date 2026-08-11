@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 基础设施 (infrastructure)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>81</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>81</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(25:49起):本集把它说成:人类在能源、公路、铁路和互联网之上,正在铺设的一层全新的「智能层」,这是由工业驱动而非季节性消费拉动的底层重构。
+- **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(00:12起):本集说采购、招聘、预算、安全、质量等支持系统就是公司的操作系统,基础设施决定速度,速度决定成败
 
 ## ① 提到它的金句
 
@@ -181,17 +182,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为概念
+- [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
+[[Anthropic]] · [[Jensen Wong]] · [[Max Hodak]] · [[Mike Allen]] · [[Science]] · [[NVIDIA]] · [[Neuralink]] · [[OpenAI]] · [[SpaceX]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":15,"OpenAI":30,"Anthropic":38,"Microsoft":9,"开放模型":1,"封闭模型":1,"沙箱":14,"智能体":68}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":39,"Jensen Wong":1,"Max Hodak":1,"Mike Allen":1,"Science":1,"NVIDIA":15,"Neuralink":1,"OpenAI":30,"SpaceX":6,"Microsoft":9}</script>
 
 <script>
 (function(){

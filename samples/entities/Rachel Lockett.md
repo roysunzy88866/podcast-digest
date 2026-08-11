@@ -45,7 +45,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
+[[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]]
 
 </div>
 
