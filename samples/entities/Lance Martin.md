@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
+[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":42,"OpenAI":32,"任务视界":1,"Managed Agents":2,"测试框架":10,"沙箱":17,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":42,"OpenAI":32,"任务视界":1,"Managed Agents":2,"测试框架":10,"沙箱":18,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

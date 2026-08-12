@@ -27,7 +27,7 @@ unlisted: true
 
 [[Codex]] · [[智能体]] · [[浏览器使用]] · [[Alex Finn]] · [[Claire]] · [[系统提示词]] · [[PR 审查智能体]] · [[gpt 5.6]] · [[沙箱]] · [[Fable]]
 
-<script type="application/json" class="pd-epn">{"Codex":16,"智能体":73,"浏览器使用":3,"Alex Finn":1,"Claire":2,"系统提示词":3,"PR 审查智能体":1,"gpt 5.6":1,"沙箱":17,"Fable":3}</script>
+<script type="application/json" class="pd-epn">{"Codex":16,"智能体":75,"浏览器使用":3,"Alex Finn":1,"Claire":2,"系统提示词":3,"PR 审查智能体":1,"gpt 5.6":1,"沙箱":18,"Fable":3}</script>
 
 <script>
 (function(){

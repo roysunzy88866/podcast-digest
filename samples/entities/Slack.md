@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(06:56起):本集把它说成:团队协作工具,ClaudeTag 扎根其中,让整个团队在同一频道里共同指挥智能体干活
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:39起):本集中作为通知渠道，智能体审查完 PR 后会在这里 ping 相关人员采取最终行动。
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(05:50起):本集把它说成:为普通办公设计的通讯工具(非专为软件开发),被当作比喻用来解释智能体工作流指令和 ACE 协作界面的外在形态。
+- **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(11:59起):本集强调的工程师日常交互的主要阵地。智能体可以在 Slack 里被消息触发、被动监听频道回答问题，甚至给工程师发私信确认答案，是智能体集成的第一方体验。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(03:12起):本集把它说成:团队工作与接入智能体的重要接口之一;但强调仅靠 Slack bot 还不够,只是把智能体「从笔记本搬到了聊天软件里」,仍受限。
 - **[[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]]**(06:39起):本集把它说成:智能体通知人类的通讯渠道。智能体将已打分的 PR 在此升级通知，使繁琐的代码审查变成只需点击两下的简单工作。
 
@@ -36,7 +37,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司(提及)
@@ -52,6 +53,7 @@ unlisted: true
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司(提及)
+- [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]] — 作为被讨论公司(提及)
 
@@ -59,9 +61,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[GitHub]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[提示词注入]] · [[Vercel]] · [[Codex]]
+[[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[提示词注入]] · [[Vercel]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":73,"Lenny":34,"Anthropic":42,"GitHub":11,"Claude Code":20,"沙箱":17,"Claude":12,"提示词注入":5,"Vercel":6,"Codex":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":75,"Lenny":34,"GitHub":12,"Anthropic":42,"Claude Code":20,"沙箱":18,"Claude":12,"提示词注入":5,"Vercel":6,"Codex":16}</script>
 
 <script>
 (function(){

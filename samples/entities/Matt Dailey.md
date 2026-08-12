@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Bhat]] [[Isabella Kai He]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]]
+[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":73,"决策层":1,"上下文工程":4,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":75,"决策层":1,"上下文工程":4,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
 
 <script>
 (function(){

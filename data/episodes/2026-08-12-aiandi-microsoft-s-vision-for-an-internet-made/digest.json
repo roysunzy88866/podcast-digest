@@ -1,67 +1,129 @@
 {
-  "title_zh": "微软 CTO 谈智能体网络：MCP 是新 HTTP，别用「太贵」做等待的借口",
-  "tldr": "Kevin Scott 断言智能体网络正在成型，MCP 将扮演 HTTP 的角色，安全与创新可以兼得。",
-  "digest_md": "扩展定律还在生效，但真正的爆发点已经不在模型本身——让智能体能真正替你干活的那套基础设施（他称之为「智能体网络」）才是今年的核心叙事 [03:30]。微软 CTO Kevin Scott 判断：智能体要发挥作用，必须能调用各种工具、改动系统、查询丰富的信息源，这需要一套像互联网当年那样开放的协议和生态 [04:36]。\n\n## 智能体网络的「HTTP 与 HTML」\n如果智能体要在现实世界里替你做事，整个生态就得像几十年前的互联网一样，铺好标准化的底层管道 [05:08]。Kevin 抛出了两个核心类比：MCP（一种让智能体连接外部信息源的开放协议）扮演的角色，正是 HTTP 在互联网里的角色；而 NLWeb 扮演的角色，则是 HTML 在互联网里的角色 [05:27]。这套简单、可组合、分层的开放协议，是让智能体能真正「行动起来」的地基 [05:53]。\n\nKevin 解释了为什么这对一家平台型公司至关重要 [09:16]。首先是自用：微软自己在为企业构建智能体。作为 CTO，他在微软内部大力推动的一件事，就是让内部所有系统都对智能体说同一种标准协议 [07:02]。他引用了康威定律（组织架构会映射到系统架构上）——「你交付的是你的组织架构图」——如果没有全公司通用的标准协议，智能体的构建就会变成内部团队各自为政的低效灾难 [07:30]。其次是平台：微软五十年来一直在构建平台层，他们希望为这个新生态解决涌现出来的基础问题 [09:16]。\n\n## 开放必然牺牲安全？可能是「错误的二分法」\n随着微软将 MCP 接入整个 Windows 生态，安全模型成了焦点 [09:42]。主持人指出，互联网有「同源策略」确保网站代码只能在自有数据上执行，而 MCP 目前缺乏这类机制 [09:59]。\n\nKevin 认为这并非死局。MCP 的最大优势恰恰是「连贯地简单」，这让社区相对容易在它之上达成安全共识 [10:34]。他设想了具体的实现路径：赋予智能体「身份」（identity），从而建立授权系统，让系统能识别出「这个智能体在代表哪个人、有权查看哪些资源」；当智能体需要跨系统调用时，它可以主动列出所需权限，向人类用户请求许可，并向管理员报备 [10:56]。重要的是，这些机制要以开放方式构建，不专属于某家公司的系统 [11:48]。\n\n面对「垂直封闭模式（如 iPhone）更安全」与「开放模式更利于创新」的传统对立，Kevin 认为这是一种「错误的二分法」 [12:47]。开放系统的「无许可创新」（无需任何人批准就能把产品分发给用户）是最令人兴奋的特质 [13:07]。同时，他预测我们完全可以利用如今的 AI 能力来构建极强的安全防御：比如让一个智能体同时监控你所有的通讯渠道，一旦发现有人在你的双重认证上动手脚，它能立刻调动各种资源去交叉验证这是合法操作还是异常入侵 [15:14]。\n\n## 老程序员的工具观：别把工具当成信仰\n作为一名写了 41 年代码的老程序员，Kevin 观察到软件开发本质的重大变革发生过很多次，每次都伴随着开发者对工具的强烈执念 [17:05]。他自己就是个活生生的矛盾体：尽管微软开发了 Visual Studio Code，他个人至今仍拒绝换掉极其古老的 VI 编辑器，哪怕明知这在拖低效率，但他就是要保留这份选择权 [17:47]。\n\n他用自己做木工的经历打比方——今天木工界依然在争论「用数控电动工具算不算真正的木工」 [19:10]。如果重视过程胜过结果，人就会做出不同的选择。他的核心建议是：永远对手艺保持强烈的个人观点，但在工具变革时必须保持开放的心态 [20:00]。他坦言自己曾经故意抗拒学习 3D 打印机，拖了很久才上手，事后非常后悔，因为 3D 打印对他做的几乎每一件事都极其有用 [20:24]。结论很简单：保持好奇，去试，好用就用，不好用就不用 [20:46]。\n\n## 智能体的终局：百花齐放而非一统天下\n软件工程智能体不会出现「一个智能体统领一切」的局面 [21:01]。即便微软会为了 GitHub Copilot 和 GitHub 智能体去激烈厮杀，争取成为大多数人的首选，但 Kevin 认为那种「全球开发者突然只用同一个工具」的设想完全不切实际 [21:07]。开发者之所以享受写代码，一部分原因就在于拥有选择权，可以去摆弄各种不同的工具，做理性的或非理性的决定。决定智能体差异化的核心，将是它们解决具体产品问题的能力 [22:02]。因为现在理解用户的细微痛点、并顺手拿起工具去解决它的门槛大大降低了，我们会看到大量公司涌入，构建出各种侧重点不同的智能体 [23:00]。\n\n## 一年后的预判：别用「太贵」做等待的借口\n那些至今仍以「太贵了」或「能力勉强」为借口、拒绝拥抱智能体技术的人，一年后会彻底掉队——因为每年一切都会变得更便宜、更强大 [24:31]。Kevin 断言，在 2025 年，「技术还没准备好」已经不是一个难以接受的命题，以前那些高喊「进步即将停止、所有人都会失望」的声音，现在已经没人在意了 [24:53]。关注唱反调的怪人没有任何好处，你等于是在押注失败 [25:13]。\n\n一年后真正的改变，在于智能体解决复杂问题的「雄心水平」会大幅提升 [25:32]。更重要的是交互模式的变化：现在人们用 AI 还是「发个提示词、干等结果」的一问一答；到明年，智能体会变成真正能接手长任务的「执行者」——你对它说「去把这个搞定」，它会自主向多个外部系统发出大量调用，等待各种结果返回，整合后反复迭代，然后在很长一段时间后回来告诉你：「这是我的进度，现在轮到你采取行动了。」 [26:06]\n\n## 本集带走\n- **押注智能体网络，而非单点模型**：扩展定律依然有效，但让智能体能跨系统调用的开放协议生态，才是接下来的爆发点。\n- **MCP 是新时代的 HTTP**：简单、可组合的开放协议是地基；企业在内部推动「同一种标准协议」说话，能彻底打破内部团队割裂带来的低效。\n- **安全的解法是叠加 AI 能力**：开放不等于不安全。给智能体上身份和授权系统（主动申请权限），并用 AI 智能体跨渠道交叉验证异常行为，能实现创新与安全兼得。\n- **别让「太贵、不够好」成为借口**：技术只会越来越便宜、越来越强。在 2025 年还用这种理由推迟拥抱新技术，等于主动押注失败。\n- **工具变革时保持开放**：对新工具保持好奇，不要像他抗拒 3D 打印机那样固步自封；但对工艺的执着本身依然值得保留。\n- **未来的智能体形态是长任务执行者**：它会从「你问我答」进化为自主向外部系统发起成百上千次调用、反复迭代，最终回来向你汇报进度的「执行者」。",
+  "title_zh": "微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP",
+  "tldr": "Kevin Scott 系统阐述智能体网络的架构、安全与软件工艺的未来。",
+  "digest_md": "微软的 CTO 认为，随着智能体数量的爆发，真正的问题已经从模型推理能力，转移到如何为智能体建立一个像互联网一样运作的生态系统。在这个生态里，智能体需要拥有持久的记忆，更要能代替你使用工具、去各大系统里查询信息或做出改动。为了让这一切真正发生，必须有统一的标准协议来支撑 [03:53 Kevin]。这正是他在微软内部大力推动底层系统改造的根本原因。\n\n## 建设智能体网络：MCP 是智能体时代的 HTTP\n去年行业的焦点还集中在缩放定律（认为模型越大性能越好）上，事实证明这些定律今天依然在起作用。但今年的核心已经变成了「智能体网络」(agentic web) [03:11 Kevin]。\n\n智能体若想真正有用，它得有身份，能去查询一堆系统并声明：「为了完成你交代的这件事，我需要接触这些系统，请求这些权限。」[10:56 Kevin]。这就要求所有系统的激励必须对齐。Kevin 认为，就像 HTTP 协议奠定了早期互联网的基础，MCP 正在智能体网络中发挥一模一样的作用 [05:27 Kevin]。\n\nMCP（一种简单的开放协议）解决了一个至关重要的问题：它让内容提供方能轻易把自己的网站或 API 接入智能体，也让平台方不必重复造轮子。\n\n## 打破组织架构的壁垒\n一旦缺乏标准协议和服务，组织内部的开发就会陷入低效。Kevin 引用了著名的康威定律：编译器里的处理步骤数量，往往取决于你们有多少个参与开发的团队——你最终交付的其实是你的组织架构图 [07:30 Kevin]。\n\n他在微软内部极力推动所有系统讲同一种标准协议，就是为了让公司数千名开发者在构建企业智能体时，不至于因为部门壁垒而交付出一个极其割裂的产品 [07:12 Kevin]。\n\n## 关于开放与安全的伪命题\n有人质疑，MCP 这样的开放系统缺乏像互联网「同源策略」那样的原生安全机制，无法像封闭的应用商店那样保证安全。\n\nKevin 直言这是一种错误的二分法 [12:50 Kevin]。开放系统的最大红利，是创造者无需任何人的许可就能把创新分发给受众，去掉了复杂的把关人 [13:09 Kevin]。他认为，利用现有的 AI 能力，你完全可以在开放系统中拥有强大的安全性——比如当智能体察觉到异常行为时，它可以调动多种通信方式和资源，去三角测量、判断这是合法还是非法操作 [15:14 Kevin]。\n\n## 软件工程的技艺与选择\n作为写了 41 年代码的老程序员，同时也是个老木匠，Kevin 对「工艺」有极深的执念。他认为，不管你是程序员还是木匠，只要热爱这事，就必然会对使用的工具和材料有极其强烈的看法 [16:49 Kevin]。\n\n木工界至今还在争论用数控（CNC）工具的人算不算「真木工」，软件界也有类似的鄙视链。Kevin 承认自己极其固执，至今还在用极为古老的 VI 编辑器写代码，哪怕他深知这在拖慢效率——但他这么做的核心逻辑是：作为创造者，他有权选择看重过程还是看重结果 [19:33 Kevin]。有时你看重过程，就会固执己见；有时你只想尽快拿到结果，就会动用最强大的工具。\n\n他的建议很简单：当工具发生变革时，保持开放心态。他曾因为各种复杂原因死活不愿学 3D 打印机，拖了很久，学会后深感后悔——因为这对几乎所有的制造工作都太有用了 [20:24 Kevin]。保持好奇，多去尝试，好用就用，不好用就不用 [20:46 Kevin]。\n\n## 智能体不会一家独大\n针对未来会不会出现「一个智能体统御一切」的局面，Kevin 认为不可能，智能体注定会百花齐放 [21:01 Kevin]。\n\n开发者的乐趣之一就在于拥有选择权，去尝试各种不同的工具，甚至做些非理性的组合。他预判，目前最有趣的初创公司，正是依靠对具体痛点的细腻理解去打造专用智能体产品。只要你对用户的问题理解足够透，用户对你的容错率其实非常高 [23:36 Kevin]。\n\n## 一年后的预测：别拿成本当借口观望\n距离上一届 Build 大会仅仅过了一年，如果你还在拿「技术还不够好、稍微有点贵」当借口推迟入场，一年后你将被远远甩在身后。因为每一年，所有的能力都在变强，所有的成本都在变得更低 [24:31 Kevin]。\n\n到明年，智能体的使用范式也会发生质变。现在人们还是输入提示词然后干等结果；到明年，你可以直接让智能体「去把这事搞定」。它会自动去调用外部系统、等待响应、完成多轮整合，可能在一段不短的时间后，才回来告诉你：「这是我目前做到的程度，接下来交给你了。」 [26:06 Kevin]\n\n## 本集带走\n- **底层逻辑对标互联网**：智能体网络要真正运转，需要像 HTTP 对互联网那样的标准协议支撑，目前 MCP 正在承担这个历史角色。\n- **警惕组织架构外溢**：如果没有统一协议，各部门闭门造车，你交付的产品架构最终只会镜像公司的组织架构图（康威定律）。\n- **开放与安全不冲突**：开放系统的无需许可能带来最大创新；通过赋予 AI 去跨模态验证异常行为，开放架构同样能实现强大的安全性。\n- **分清过程与结果**：对工具有强烈偏好是工匠的本能，但必须想清楚你在乎的是打磨过程，还是拿到最终结果，据此选择合适的工具。\n- **对新工具保持开放**：不要因为傲慢或偏见拒绝新工具，早拥抱像 3D 打印、AI 辅助编程这类变革性技术，能极大提升产出。\n- **别拿成本当观望借口**：技术的性价比每年都在跃升，现在以「太贵、不够完美」为由拒绝入局，一年后将被彻底甩开。",
   "quotes": [
     {
-      "en": "We're going to be talking about things like NLWeb that are like serving, you know, the same moral equivalent purpose as HTML does on the Internet.",
-      "zh": "我们将谈论像 NLWeb 这样的事情，它们服务于与 HTML 在互联网上相同的道德等价目的。",
-      "timestamp": "05:44",
+      "en": "you know, this guy Conway said that the number of stages or passes in your compiler is going to be dictated by the number of teams you have working on the compiler.",
+      "zh": "你知道，有个叫 Conway 的人说过，编译器中的阶段或处理步骤的数量将由你参与编译器工作的团队数量来决定。",
+      "timestamp": "07:30",
       "speaker": "Kevin Scott"
     },
     {
-      "en": "And like even having a way for an agent to sort of go query a bunch of systems and say, like, These, here's the thing that I would like to do. These are the systems I need to touch in order to do the thing.",
-      "zh": "甚至有一种方式让智能体去查询一堆系统并说，这些，这是我想做的事情，这些是我为了做这件事需要接触的系统。",
-      "timestamp": "10:56",
+      "en": "As an individual that excites me most about what's happening right now is the extent to which you can go innovate and build things without having to seek someone's permission,",
+      "zh": "作为个人，现在发生的事情中最让我兴奋的是，你可以去创新和构建东西而无需寻求某人许可的程度。",
+      "timestamp": "13:09",
       "speaker": "Kevin Scott"
     },
     {
-      "en": "I think it might be a false dichotomy.",
-      "zh": "我认为这可能是一种错误的二分法。",
-      "timestamp": "12:47",
+      "en": "I know for sure that that is sub-optimizing a part of what I'm doing, but I make the decision anyway because I get to choose.",
+      "zh": "我确切知道那样做是在次优化我做事情的一部分，但我还是做了这个决定，因为我可以自己选择。",
+      "timestamp": "18:13",
       "speaker": "Kevin Scott"
     },
     {
-      "en": "The important thing here is not the way that I'm doing this particular part of it. It's the outcome that I'm trying to get to.",
-      "zh": "这里重要的不是我做这特定部分的方式，而是我试图达成的结果。",
-      "timestamp": "18:29",
-      "speaker": "Kevin Scott"
-    },
-    {
-      "en": "Like I waited forever to learn how to use 3D printers. And like, I regret it. Like I should have started earlier.",
-      "zh": "比如我等了很久才学会如何使用 3D 打印机。我后悔了。我应该早点开始的。",
-      "timestamp": "20:28",
-      "speaker": "Kevin Scott"
-    },
-    {
-      "en": "And so, you know, just like be curious, try stuff. Like, and if it works for you, use it. And if it doesn't, don't.",
-      "zh": "所以，你知道，就像保持好奇，尝试东西。如果它对你有用，就用它。如果没用，就不要用。",
-      "timestamp": "20:46",
-      "speaker": "Kevin Scott"
-    },
-    {
-      "en": "Like I think anyone who is using those as excuses to wait to get started are going to be super behind because everything's going to get cheaper and everything's going to get more capable every year.",
-      "zh": "我认为任何用这些作为借口等待开始的人都会超级落后，因为一切都会变得更便宜，一切都会变得更能干。",
-      "timestamp": "24:31",
+      "en": "I think anyone who is using those as excuses to wait to get started are going to be super behind because everything's going to get cheaper and everything's going to get more capable every year.",
+      "zh": "我认为任何把这些当作等待开始的借口的人，都将远远落后，因为一切都会变得更便宜，一切都会变得更有能力，每一年都是如此。",
+      "timestamp": "24:32",
       "speaker": "Kevin Scott"
     },
     {
       "en": "You're sort of betting on failure and the cost of betting on failure versus betting on optimism is a real big difference there.",
-      "zh": "你几乎是在押注失败，而押注失败的成本与押注乐观的成本是一个真正的巨大差异。",
+      "zh": "你某种程度上是在押注失败，而押注失败与押注乐观的成本相比，那里的差别真的很大。",
       "timestamp": "25:21",
       "speaker": "Kevin Scott"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "There are a lot of graphs of like we're building big infrastructure, we're building these bigger models, and every two years we're going to get these big performance improvements.",
+      "zh": "有很多图表，比如我们正在建设大型基础设施，我们正在构建这些更大的模型，每两年我们将获得这些巨大的性能提升。",
+      "timestamp": "02:03",
+      "speaker": "Unknown"
     },
     {
-      "en": "You know, at some non-trivial amount of time later, you're going to sort of say, okay, like, here's as far as I got. Like, now it's your turn. Like, go take some action now.",
-      "zh": "你知道，在一段非平凡的时间之后，你会某种程度说，好吧，这是我的进度。现在轮到你了。去采取行动吧。",
-      "timestamp": "26:41",
-      "speaker": "Kevin Scott"
+      "en": "you know, this guy Conway said that the number of stages or passes in your compiler is going to be dictated by the number of teams you have working on the compiler.",
+      "zh": "你知道，有个叫 Conway 的人说过，编译器中的阶段或处理步骤的数量将由你参与编译器工作的团队数量来决定。",
+      "timestamp": "07:30",
+      "speaker": "Unknown"
     },
     {
-      "en": "there are two big themes. One was agents are going to be everywhere. That's one of the things you said, which I think really came true. That was very prescient.",
-      "zh": "有两个大主题。一个是智能体将无处不在。这是你说过的其中一件事，我认为真的实现了。那是非常有先见之明的。",
-      "timestamp": "01:51",
-      "speaker": "主持人"
+      "en": "You ship your org chart.",
+      "zh": "你交付的是你的组织结构图。",
+      "timestamp": "07:41",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think it might be a false dichotomy.",
+      "zh": "我认为这可能是一个错误的二分法。",
+      "timestamp": "12:50",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "As an individual that excites me most about what's happening right now is the extent to which you can go innovate and build things without having to seek someone's permission,",
+      "zh": "作为个人，现在发生的事情中最让我兴奋的是，你可以去创新和构建东西而无需寻求某人许可的程度。",
+      "timestamp": "13:09",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I'm such an old recalcitrant fart that I still use VI.",
+      "zh": "我是个如此固执的老家伙，我仍然使用 VI。",
+      "timestamp": "17:54",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I know for sure that that is sub-optimizing a part of what I'm doing, but I make the decision anyway because I get to choose.",
+      "zh": "我确切知道那样做是在次优化我做事情的一部分，但我还是做了这个决定，因为我可以自己选择。",
+      "timestamp": "18:13",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "There's still a little bit of that debate today, but the real debate is, are you a real woodworker if you use CNC tools, like computer-controlled power tools, versus just power tools?",
+      "zh": "今天仍然有一点那样的争论，但真正的争论是，如果你使用数控工具，比如计算机控制的电动工具，而不仅仅是电动工具，你还是个真正的木工吗？",
+      "timestamp": "19:10",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And so, you know, just like be curious, try stuff.",
+      "zh": "所以，你知道，就像保持好奇，尝试东西。",
+      "timestamp": "20:46",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Like, if it works for you, use it. And if it doesn't, don't.",
+      "zh": "如果它对你有用，就用它。如果没有，就不要。",
+      "timestamp": "20:49",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Like, I waited forever to learn how to use 3D printers.",
+      "zh": "像我永远等着才学会如何使用 3D 打印机。",
+      "timestamp": "20:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think anyone who is using those as excuses to wait to get started are going to be super behind because everything's going to get cheaper and everything's going to get more capable every year.",
+      "zh": "我认为任何把这些当作等待开始的借口的人，都将远远落后，因为一切都会变得更便宜，一切都会变得更有能力，每一年都是如此。",
+      "timestamp": "24:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You're sort of betting on failure and the cost of betting on failure versus betting on optimism is a real big difference there.",
+      "zh": "你某种程度上是在押注失败，而押注失败与押注乐观的成本相比，那里的差别真的很大。",
+      "timestamp": "25:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And then I think modalities that are going to be really different is this agentic web starts to get more complete, more plumbed out, and the models",
+      "zh": "然后我认为将会真正不同的模式是，这个智能体网络开始变得更完整，更铺设开来，而且模型",
+      "timestamp": "25:45",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Like what we've seen is if you've got some kind of nuanced understanding of what someone needs, like, people have, like, high tolerance and, like, high interest in, like, giving things a try.",
+      "zh": "比如，我们所看到的是，如果你对某人的需求有某种细致入微的理解，人们就会有很大的容忍度，以及很高的兴趣去尝试一下。",
+      "timestamp": "23:36",
+      "speaker": "Unknown"
     }
   ]
 }

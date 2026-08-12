@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Bhat]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]]
+[[Kevin Scott]] [[Gagan Bhat]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":42,"智能体":73,"测试框架":10,"沙箱":17,"智能体循环":1,"上下文工程":4,"会话日志/追踪":1,"泄露的凭证":3,"可观测性":2}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":42,"智能体":75,"测试框架":10,"沙箱":18,"智能体循环":1,"上下文工程":4,"会话日志/追踪":1,"泄露的凭证":3,"可观测性":3}</script>
 
 <script>
 (function(){

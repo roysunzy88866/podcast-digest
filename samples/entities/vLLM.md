@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[Anthropic]] · [[Elena Berger]] · [[OpenAI]] · [[Simon Mo]] · [[Matt Bornstein]] · [[开源权重]] · [[护栏]] · [[K3]]
 
-<script type="application/json" class="pd-epn">{"智能体":73,"推理":1,"Anthropic":42,"Elena Berger":2,"OpenAI":32,"Simon Mo":2,"Matt Bornstein":2,"开源权重":3,"护栏":13,"K3":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":75,"推理":1,"Anthropic":42,"Elena Berger":2,"OpenAI":32,"Simon Mo":2,"Matt Bornstein":2,"开源权重":3,"护栏":13,"K3":2}</script>
 
 <script>
 (function(){

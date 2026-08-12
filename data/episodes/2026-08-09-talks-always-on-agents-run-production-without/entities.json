@@ -1,0 +1,739 @@
+{
+  "episode_id": "2026-08-09-talks-always-on-agents-run-production-without",
+  "podcast": "精选演讲",
+  "date": "2026-08-09",
+  "tags": [
+    "AI 智能体",
+    "生产环境",
+    "可观测性",
+    "DevOps",
+    "后台任务"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "justin-smith",
+      "type": "person",
+      "role": "guest",
+      "name": "Justin Smith",
+      "file": "Justin Smith",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.71,
+            27.434
+          ],
+          "quote": "My name is Justin Smith, one of the founding product engineers at Resolve AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "resolve-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Resolve AI",
+      "file": "Resolve AI",
+      "primary": true,
+      "how_described": "本集讨论的智能体平台公司，提供值班智能体和后台智能体，用来应对生产环境日益增加的复杂性，并具备学习和记忆系统来理解生产上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.71,
+            27.434
+          ],
+          "quote": "My name is Justin Smith, one of the founding product engineers at Resolve AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "splunk",
+      "type": "company",
+      "role": "company",
+      "name": "Splunk",
+      "file": "Splunk",
+      "primary": false,
+      "how_described": "本集嘉宾 Justin Smith 曾工作过一段时间的老东家，他当时是那里可观测性套件的架构师之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.677,
+            39.538
+          ],
+          "quote": "Was at Splunk for a while.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vmware",
+      "type": "company",
+      "role": "company",
+      "name": "VMware",
+      "file": "VMware",
+      "primary": false,
+      "how_described": "本集嘉宾 Justin Smith 曾度过很长任期的一家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            42.518,
+            44.139
+          ],
+          "quote": "Spent a good tenure at VMware.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集演示中提到，当有人在 Slack 频道发布一个 GitHub 标签时，智能体就会识别出那是一次发布并开始监视它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1063.358,
+            1071.027
+          ],
+          "quote": "So here, anytime somebody posts a sort of GitHub tag, our agent's going to sort of see that and say, oh, I should, that's a release?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "type": "company",
+      "role": "company",
+      "name": "Kafka",
+      "file": "Kafka",
+      "primary": false,
+      "how_described": "本集演示中提到的一个流水线组件。智能体在监控「结账服务替换货币服务」的部署时，会顺着因果链去查 Kafka 流水线是否健康。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1142.928,
+            1145.469
+          ],
+          "quote": "Well, let's take a look at the Kafka pipeline because that sort of involves.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集强调的工程师日常交互的主要阵地。智能体可以在 Slack 里被消息触发、被动监听频道回答问题，甚至给工程师发私信确认答案，是智能体集成的第一方体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            719.099,
+            721.3
+          ],
+          "quote": "There's other sort of Slack-based, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            721.32,
+            725.121
+          ],
+          "quote": "We get a lot of Slack things, messages coming through, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            952.132,
+            957.416
+          ],
+          "quote": "And this one's kind of fun a little bit because the trigger for this is actually just a Slack message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            959.857,
+            972.301
+          ],
+          "quote": "One of my biggest, like, let's call it responsibilities as an engineer is watching all my Slack channels and trying to make sure everyone's kind of happy and like that nobody has any burning questions or anything like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            977.103,
+            987.211
+          ],
+          "quote": "You know, eventual sort of Slack notification comes in that like this channel, somebody asked this sort of kind of important question and I just need to jump in there and try to provide context, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1012.008,
+            1016.67
+          ],
+          "quote": "And one of the fun things is our agents have access to Slack DMs and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1046.467,
+            1050.91
+          ],
+          "quote": "So this is our sort of demo application running in our sort of demo sort of Slack environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1315.177,
+            1329.745
+          ],
+          "quote": "So you get a lot of visibility into what the agent is doing, but we think the surface area, being where you live, so Slack is this kind of, or MS Teams if you're on MS Teams, has this kind of first party experience to sort of integrate the agent into is incredibly important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ms-teams",
+      "type": "company",
+      "role": "company",
+      "name": "MS Teams",
+      "file": "MS Teams",
+      "primary": false,
+      "how_described": "与 Slack 并列提及，是智能体理想的交互界面之一，即「工程师本来就在那里工作的地方」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1315.177,
+            1329.745
+          ],
+          "quote": "So you get a lot of visibility into what the agent is doing, but we think the surface area, being where you live, so Slack is this kind of, or MS Teams if you're on MS Teams, has this kind of first party experience to sort of integrate the agent into is incredibly important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主要讨论的对象，即能在生产环境里帮你跑运维、盯系统、做长尾后台工作的 AI。它由执行引擎和生产上下文组成，拥有自主性，并且带有跨任务共享的知识和记忆系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            294.112,
+            295.573
+          ],
+          "quote": "One of them is just an on-call agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325.158,
+            330.263
+          ],
+          "quote": "And having an AI agent that's able to come support you and pull that context together is incredibly, incredibly valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            384.675,
+            392.88
+          ],
+          "quote": "Underneath all that, we have an agent architecture, deals with models and context and reasoning and actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            467.946,
+            471.349
+          ],
+          "quote": "I'm gonna focus a lot more just on the background agent stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            482.742,
+            484.364
+          ],
+          "quote": "But today we're gonna focus on the background agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            676.209,
+            681.93
+          ],
+          "quote": "So every background agent, you know, there's a few different principles that we like to think about with our background agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            685.471,
+            686.531
+          ],
+          "quote": "When does the agent work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            698.994,
+            705.195
+          ],
+          "quote": "And so a lot of the work that our agent does is sort of prepare, like what are the kind of interesting trends from the last week?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            780.799,
+            782.581
+          ],
+          "quote": "So how does the agent know what to do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            836.254,
+            843.436
+          ],
+          "quote": "And so having an agent that's able to watch as all these change events come in just to do a sanity check of,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            931.61,
+            938.897
+          ],
+          "quote": "Let me just kind of set an agent to kind of watch that maybe for the next week just to make sure everything is kind of stable and then that agent can sort of stop its job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            996.319,
+            1000.963
+          ],
+          "quote": "And what we found is like our agent actually has access to a lot of information that people ask questions about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1002.644,
+            1011.948
+          ],
+          "quote": "And so we actually have an agent that can watch all of these sort of critical channels and determine whether it has enough sort of confidence to answer the question or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1017.15,
+            1022.252
+          ],
+          "quote": "And so you can have an agent that basically will DM you to say, I think I know the answer to this, but I'm not sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1063.358,
+            1071.027
+          ],
+          "quote": "So here, anytime somebody posts a sort of GitHub tag, our agent's going to sort of see that and say, oh, I should, that's a release?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1085.562,
+            1104.895
+          ],
+          "quote": "But what the agent is able to do is actually look at the changes that are going in, understand what telemetry might help us evaluate whether those changes are good or not good or putting the system in an abnormal state, and build a sort of customized plan that is going to check just for this specific release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1130.144,
+            1133.685
+          ],
+          "quote": "So now the agent can come and actually do a lot of that sort of dynamic understanding of,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1162.396,
+            1167.999
+          ],
+          "quote": "Again, the agent has a bit more autonomy, and you get to guide it a bit on how much autonomy you want it to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1200.255,
+            1209.523
+          ],
+          "quote": "So this is just a summarization of all of the work that was done over the last day that the agent is kind of just summarizing up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1243.997,
+            1253.162
+          ],
+          "quote": "The agent is able to update its task underneath and able to sort of give you the answer, like update, so that the next time it fires, it's not going to...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1271.282,
+            1273.625
+          ],
+          "quote": "I've set up this agent to sort of passively watch this channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1310.275,
+            1314.897
+          ],
+          "quote": "You can see all the work that the agent has done underneath to sort of accomplish that task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1315.177,
+            1329.745
+          ],
+          "quote": "So you get a lot of visibility into what the agent is doing, but we think the surface area, being where you live, so Slack is this kind of, or MS Teams if you're on MS Teams, has this kind of first party experience to sort of integrate the agent into is incredibly important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1336.014,
+            1337.834
+          ],
+          "quote": "It's really just through talking with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1343.756,
+            1357.259
+          ],
+          "quote": "So the agent's going to take a look at my environment, it's gonna explore my environment a little bit, and eventually likely come back and ask me a couple questions about what I want to see, what kind of report do I want, how verbose do I want it, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1357.659,
+            1365.121
+          ],
+          "quote": "The agent's gonna go ahead and do all that, and it's gonna set up that sort of initial thing for me so that I can test it out, make sure it's working, and then share it with the rest of my team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1408.092,
+            1418.536
+          ],
+          "quote": "Also, just to call out, if you have an agent harness internally, if you're building your own, everything that I showed is accessible through kind of MCP servers, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "background-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "后台智能体 (background agent)",
+      "file": "后台智能体",
+      "primary": true,
+      "how_described": "本集最核心的概念。专门处理那些「不是起火、但总得有人干」的长尾工作。它永远在云端、沙箱里运行，通过按计划、事件流或消息三种方式触发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            467.946,
+            471.349
+          ],
+          "quote": "I'm gonna focus a lot more just on the background agent stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            482.742,
+            484.364
+          ],
+          "quote": "But today we're gonna focus on the background agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            676.209,
+            681.93
+          ],
+          "quote": "So every background agent, you know, there's a few different principles that we like to think about with our background agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "on-call-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "值班智能体 (on-call agent)",
+      "file": "值班智能体",
+      "primary": false,
+      "how_described": "Resolve 最早切入的智能体类型，专门接警报、查根因，并协调跨团队的紧急事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            294.112,
+            295.573
+          ],
+          "quote": "One of them is just an on-call agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "production-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产上下文 (production context)",
+      "file": "生产上下文",
+      "primary": true,
+      "how_described": "本集定义的「任务」的核心组成部分。如果说执行引擎能帮你打开仪表盘，那生产上下文就是能告诉你「这个指标感觉不对劲」的关键。两者缺一不可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            635.393,
+            642.694
+          ],
+          "quote": "Obviously very important to do, but we think the production context is just way more important because it's one thing to go check a dashboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            649.517,
+            652.94
+          ],
+          "quote": "It's the production context that's going to say, this feels wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            668.43,
+            672.913
+          ],
+          "quote": "But you really need that production context that tells you, is this important or not important?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1418.556,
+            1431.982
+          ],
+          "quote": "So you can really graph resolve into kind of any system that you have as just kind of an extension of learning to kind of do deeper work or to sort of pull production context a bit more efficiently or even augmented with all that learning stuff that we've done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "嘉宾深耕 15 年以上的老本行。本集指出，由于 AI 让代码发布变快，生产系统复杂性增加，仅靠现有的大型可观测性工具已不足以应对，必须用 AI 智能体来辅助。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.855,
+            36.877
+          ],
+          "quote": "Been in the space for about 15 plus years in the sort of monitoring, observability, how do you kind of operate production systems space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            39.558,
+            41.818
+          ],
+          "quote": "I was one of the architects on the observability suite there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集描述后台智能体运行时的隔离环境。它底下自带文件系统，让智能体在干活时能自我组织，并且即便你合上笔记本，它也能一直在云端运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            745.072,
+            747.593
+          ],
+          "quote": "Runs inside of a sandbox, so it has kind of a file system underneath it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deployment-monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "部署监控 (deployment monitoring)",
+      "file": "部署监控",
+      "primary": true,
+      "how_described": "本集最重的一个工作负载。指出标准 CI/CD 检查不够详尽，而智能体能针对具体变更定专属计划，甚至顺着因果链查相关组件，还能自主决定「再盯一小时」或三天后复查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            827.752,
+            828.672
+          ],
+          "quote": "So deployment monitoring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            892.822,
+            898.126
+          ],
+          "quote": "And so deployment monitoring is actually a really big use case that we suggest people sort of go through.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "功能开关 (feature flag)",
+      "file": "功能开关",
+      "primary": false,
+      "how_described": "本集提及的一种不用改代码就能开关功能的机制。这类基础设施变更往往不走 CI/CD 也没有监控，是造成系统出岔子的重要原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            875.39,
+            886.138
+          ],
+          "quote": "Oftentimes you have change systems that you're not piping through a CI CD system, like a feature flag, or maybe some infra changes that might happen, which maybe don't get any monitoring at all.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emergent-behavior",
+      "type": "concept",
+      "role": "concept",
+      "name": "涌现行为 (emergent behavior)",
+      "file": "涌现行为",
+      "primary": false,
+      "how_described": "本集演示的有趣现象：作为第一响应者的智能体会被动监听 Slack 频道，在不确定答案时，它非预设地主动私信提问者确认，然后再公开回复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1025.413,
+            1029.635
+          ],
+          "quote": "So this kind of emergent behavior gets kind of fun and interesting as you kind of build these things out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "MCP server",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

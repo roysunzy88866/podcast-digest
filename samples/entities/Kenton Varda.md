@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
+[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":73,"沙箱":17,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":9,"Google":15,"智能体":75,"沙箱":18,"无服务器":1,"云基础设施":1,"vibe coding":7,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

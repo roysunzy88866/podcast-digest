@@ -29,7 +29,7 @@
   "end": 22.829,
   "speaker": "Unknown",
   "en": "Welcome to this talk, always on agents around production without the on call text.",
-  "zh": "欢迎来到这次演讲，关于没有随叫随到文本的围绕生产环境的智能体。"
+  "zh": "欢迎来到这次讲座，关于始终运行在生产中的智能体，而没有待命文本。"
  },
  {
   "seg": 4,
@@ -45,7 +45,7 @@
   "end": 36.877,
   "speaker": "Unknown",
   "en": "Been in the space for about 15 plus years in the sort of monitoring, observability, how do you kind of operate production systems space.",
-  "zh": "我在这个领域大约有 15 年以上的经验，在监控、可观测性、如何运营生产系统这类领域。"
+  "zh": "我在这个领域大约有 15 年以上的经验，是在监控、可观测性以及如何运营生产系统这类领域。"
  },
  {
   "seg": 6,
@@ -53,7 +53,7 @@
   "end": 39.538,
   "speaker": "Unknown",
   "en": "Was at Splunk for a while.",
-  "zh": "我在 Splunk 待过一段时间。"
+  "zh": "曾在 Splunk 工作过一段时间。"
  },
  {
   "seg": 7,
@@ -69,7 +69,7 @@
   "end": 44.139,
   "speaker": "Unknown",
   "en": "Spent a good tenure at VMware.",
-  "zh": "在 VMware 度过了一段很长的任期。"
+  "zh": "在 VMware 度过了很长的任期。"
  },
  {
   "seg": 9,
@@ -77,7 +77,7 @@
   "end": 49.06,
   "speaker": "Unknown",
   "en": "Really, really enjoy product design and front-end architecture.",
-  "zh": "我真的非常喜欢产品设计和前端架构。"
+  "zh": "非常非常喜欢产品设计和前端架构。"
  },
  {
   "seg": 10,
@@ -93,7 +93,7 @@
   "end": 57.202,
   "speaker": "Unknown",
   "en": "That's the stuff I like to dabble in.",
-  "zh": "这就是我喜欢涉足的东西。"
+  "zh": "这就是我喜欢钻研的东西。"
  },
  {
   "seg": 12,
@@ -109,7 +109,7 @@
   "end": 66.049,
   "speaker": "Unknown",
   "en": "And it's been a fun one.",
-  "zh": "这是一波很有趣的浪潮。"
+  "zh": "这一波很有趣。"
  },
  {
   "seg": 14,
@@ -117,7 +117,7 @@
   "end": 71.196,
   "speaker": "Unknown",
   "en": "I think the first big wave, and I'm sure we've all experienced this, is just how we build software.",
-  "zh": "我认为第一波大浪潮，我相信我们都经历过，就是我们如何构建软件。"
+  "zh": "我认为第一波大浪潮，我相信我们都经历过，仅仅是我们如何构建软件。"
  },
  {
   "seg": 15,
@@ -133,7 +133,7 @@
   "end": 77.96,
   "speaker": "Unknown",
   "en": "It's a lot of bigger PRs that are coming through.",
-  "zh": "有很多更大的 PR 正在通过。"
+  "zh": "这是有很多更大的 PR 正在涌来。"
  },
  {
   "seg": 17,
@@ -141,7 +141,7 @@
   "end": 80.742,
   "speaker": "Unknown",
   "en": "We definitely see a lot of this a lot more frequently.",
-  "zh": "我们肯定更频繁地看到很多这种情况。"
+  "zh": "我们确实看到这种情况发生得频繁得多。"
  },
  {
   "seg": 18,
@@ -149,7 +149,7 @@
   "end": 94.492,
   "speaker": "Unknown",
   "en": "So people are shipping code at a much faster rate from developers and we're beginning to see maybe from even non-developers that maybe don't actually know the code or what it's doing or the sort of like operating principles behind it.",
-  "zh": "所以人们从开发者那里发布代码的速度快得多，而且我们开始看到，甚至可能来自非开发者，他们可能实际上并不知道代码，或者代码在做什么，或者类似其背后的操作原则。"
+  "zh": "所以开发者发布代码的速度要快得多，而且我们开始看到，甚至可能来自非开发者，他们可能实际上并不了解代码或它在做什么，也不了解其背后的运营原则。"
  },
  {
   "seg": 19,
@@ -157,7 +157,7 @@
   "end": 98.415,
   "speaker": "Unknown",
   "en": "But we're getting developer productivity.",
-  "zh": "但我们正在获得开发者生产力。"
+  "zh": "但我们获得了开发者生产力。"
  },
  {
   "seg": 20,
@@ -173,7 +173,7 @@
   "end": 103.904,
   "speaker": "Unknown",
   "en": "That's a good thing that we're all able to produce more and faster.",
-  "zh": "我们都能生产更多、更快，这是一件好事。"
+  "zh": "这是一件好事，我们都能够生产得更多、更快。"
  },
  {
   "seg": 22,
@@ -181,7 +181,7 @@
   "end": 106.063,
   "speaker": "Unknown",
   "en": "Kind of, sort of.",
-  "zh": "某种意义上，算是吧。"
+  "zh": "算是吧，某种意义上。"
  },
  {
   "seg": 23,
@@ -189,7 +189,7 @@
   "end": 116.229,
   "speaker": "Unknown",
   "en": "What we actually found out, and this was a survey study done, is that 70% of the time from an engineer is actually not just like, is not focused just on writing code.",
-  "zh": "我们实际发现的，这是一项调查研究，是工程师 70% 的时间实际上不只是像，不仅仅是专注于写代码。"
+  "zh": "我们实际发现的，这是一项调查研究，工程师 70% 的时间实际上不仅仅，不仅仅是专注于编写代码。"
  },
  {
   "seg": 24,
@@ -197,7 +197,7 @@
   "end": 119.971,
   "speaker": "Unknown",
   "en": "It's actually spent on actually running the code that is actually shipped into production.",
-  "zh": "它实际上是花在了实际运行实际发布到生产环境的代码上。"
+  "zh": "它实际上是花在实际运行已发布到生产环境的代码上。"
  },
  {
   "seg": 25,
@@ -205,7 +205,7 @@
   "end": 128.877,
   "speaker": "Unknown",
   "en": "Maintaining all the platforms, scaling the infrastructure, debugging all the incidents and being on call, shipping hot fixes, dealing with alerts,",
-  "zh": "维护所有平台，扩展基础设施，调试所有事件和随叫随到，发布热修复，处理警报，"
+  "zh": "维护所有平台，扩展基础设施，调试所有事件以及待命，发布热修复补丁，处理警报，"
  },
  {
   "seg": 26,
@@ -213,7 +213,7 @@
   "end": 140.185,
   "speaker": "Unknown",
   "en": "Updating all the sort of run books and operating procedures, restoring services, dealing with escalations, dealing with sort of like questions from other teams and things like that.",
-  "zh": "更新所有的运行手册和操作程序，恢复服务，处理升级，处理来自其他团队的问题和类似的事情。"
+  "zh": "更新所有的运行手册和操作程序，恢复服务，处理升级，处理来自其他团队的各种问题等等。"
  },
  {
   "seg": 27,
@@ -221,7 +221,7 @@
   "end": 144.508,
   "speaker": "Unknown",
   "en": "So really coding was never the big bottleneck, right?",
-  "zh": "所以写代码从来不是大的瓶颈，对吧？"
+  "zh": "所以编码从来都不是巨大的瓶颈，对吧？"
  },
  {
   "seg": 28,
@@ -229,7 +229,7 @@
   "end": 151.934,
   "speaker": "Unknown",
   "en": "A lot of it was really around, thank you Granola, a lot of it was really around like how do we actually run these things sort of in production?",
-  "zh": "很大一部分实际上是关于，谢谢你 Granola，很大一部分实际上是关于我们如何在生产环境中实际运行这些东西？"
+  "zh": "很大一部分实际上是关于，谢谢 Granola，很大一部分实际上是关于我们实际上如何在生产中运行这些东西？"
  },
  {
   "seg": 29,
@@ -237,7 +237,7 @@
   "end": 156.466,
   "speaker": "Unknown",
   "en": "And that's getting harder and harder and harder.",
-  "zh": "这变得越来越难。"
+  "zh": "而这变得越来越难。"
  },
  {
   "seg": 30,
@@ -245,7 +245,7 @@
   "end": 162.555,
   "speaker": "Unknown",
   "en": "AI is creating a lot more issues in production as AI code goes through.",
-  "zh": "随着 AI 代码通过，AI 在生产环境中制造了更多问题。"
+  "zh": "当 AI 代码通过时，AI 在生产中制造了更多问题。 [[31] 我们不清楚是否有正确的结构来处理正在通过的变更量。"
  },
  {
   "seg": 31,
@@ -253,7 +253,7 @@
   "end": 168.504,
   "speaker": "Unknown",
   "en": "It's not clear we have the right structures in place to deal with the amount of changes that are coming through.",
-  "zh": "目前还不清楚我们是否有合适的结构来应对正在通过的大量变更。"
+  "zh": "目前尚不清楚我们是否具备合适的结构来应对即将到来的巨量变革。"
  },
  {
   "seg": 32,
@@ -261,7 +261,7 @@
   "end": 171.686,
   "speaker": "Unknown",
   "en": "Unlimited tokens is sort of coming to an end.",
-  "zh": "无限 Token 即将结束。"
+  "zh": "无限 token 的时代即将结束。"
  },
  {
   "seg": 33,
@@ -269,7 +269,7 @@
   "end": 173.926,
   "speaker": "Unknown",
   "en": "The token max, right, they're starting to clamp down.",
-  "zh": "Token 上限，对吧，他们开始限制。"
+  "zh": "Token 上限，对，他们开始限制了。"
  },
  {
   "seg": 34,
@@ -277,7 +277,7 @@
   "end": 175.086,
   "speaker": "Unknown",
   "en": "Prices are going up.",
-  "zh": "价格正在上涨。"
+  "zh": "价格在上涨。"
  },
  {
   "seg": 35,
@@ -301,7 +301,7 @@
   "end": 183.289,
   "speaker": "Unknown",
   "en": "It's not just about the models anymore.",
-  "zh": "这不再仅仅是关于模型了。"
+  "zh": "这不再仅仅关于模型。"
  },
  {
   "seg": 38,
@@ -309,7 +309,7 @@
   "end": 188.07,
   "speaker": "Unknown",
   "en": "It's about the context around the models and what the models can do inside of a specific domain.",
-  "zh": "这是关于模型周围的上下文以及模型在特定领域内能做什么。"
+  "zh": "这是关于模型周围的上下文以及模型在特定域内能做什么。"
  },
  {
   "seg": 39,
@@ -317,7 +317,7 @@
   "end": 191.951,
   "speaker": "Unknown",
   "en": "These become the problem areas that we need to sort of focus and tackle on.",
-  "zh": "这些成为我们需要集中关注和解决的问题领域。"
+  "zh": "这些成为我们需要重点关注和解决的问题领域。"
  },
  {
   "seg": 40,
@@ -325,7 +325,7 @@
   "end": 195.364,
   "speaker": "Unknown",
   "en": "And this is true today, right?",
-  "zh": "这是今天的事实，对吧？"
+  "zh": "如今这确是如此，对吧？"
  },
  {
   "seg": 41,
@@ -333,7 +333,7 @@
   "end": 199.928,
   "speaker": "Unknown",
   "en": "So it's creating more sort of complexity inside of our environment.",
-  "zh": "所以它在我们的环境中创造了更多的复杂性。"
+  "zh": "所以它在我们的环境中制造了更多复杂性。"
  },
  {
   "seg": 42,
@@ -349,7 +349,7 @@
   "end": 208.315,
   "speaker": "Unknown",
   "en": "That's why we have these big tools that can try to give us insights into these systems.",
-  "zh": "这就是为什么我们有这些大工具可以尝试给我们对这些系统的洞察。"
+  "zh": "这就是为什么我们有这些大工具试图为我们提供对这些系统的洞察。"
  },
  {
   "seg": 44,
@@ -357,7 +357,7 @@
   "end": 216.982,
   "speaker": "Unknown",
   "en": "There are multiple teams, there's multiple systems that are all having to work together, and they all have their own goals that they're trying to deliver towards, but you have organizational goals.",
-  "zh": "有多个团队，有多个系统必须一起工作，它们都有自己的目标，它们试图交付，但你有组织目标。"
+  "zh": "有多个团队，有多个系统必须协同工作，它们都有自己努力实现的目标，但你有组织目标。"
  },
  {
   "seg": 45,
@@ -365,7 +365,7 @@
   "end": 218.923,
   "speaker": "Unknown",
   "en": "And how do you keep all of this sort of in,",
-  "zh": "你如何保持所有这些，"
+  "zh": "以及你如何保持所有这一切，"
  },
  {
   "seg": 46,
@@ -373,7 +373,7 @@
   "end": 225.614,
   "speaker": "Unknown",
   "en": "How do you keep all of this in balance?",
-  "zh": "你如何保持所有这些平衡？"
+  "zh": "你如何保持所有这一切平衡？"
  },
  {
   "seg": 47,
@@ -381,7 +381,7 @@
   "end": 234.461,
   "speaker": "Unknown",
   "en": "How do you pull all of this stuff together in a way that actually helps you and facilitates your organization?",
-  "zh": "你如何把所有这些东西以一种实际上帮助你和促进你的组织的方式结合在一起？"
+  "zh": "你如何把所有这些东西整合在一起，实际上帮助你并促进你的组织？"
  },
  {
   "seg": 48,
@@ -389,7 +389,7 @@
   "end": 246.41,
   "speaker": "Unknown",
   "en": "And the answer is, well, you've got to use AI inside of production to deal with the amount of increase of complexity that AI is putting into your product or into your system.",
-  "zh": "答案是，你必须在生产环境内部使用 AI 来应对 AI 放入你的产品或系统中的复杂性增加。"
+  "zh": "答案是，嗯，你必须在生产内部使用 AI 来应对 AI 带入你的产品或系统的复杂性增加。"
  },
  {
   "seg": 49,
@@ -397,7 +397,7 @@
   "end": 261.651,
   "speaker": "Unknown",
   "en": "And so that's where Resolve, this was our hypothesis from the beginning, was we're going to see an influx in issues coming out of coding, just the increase in coding velocity.",
-  "zh": "这就是 Resolve 的所在，这是我们从一开始的假设，我们将看到来自编码的问题涌入，这只是编码速度的增加。"
+  "zh": "这就是 Resolve 的切入点，这是我们从一开始的假设，我们将看到编码中涌现出的问题增加，仅仅是编码速度的增加。"
  },
  {
   "seg": 50,
@@ -413,7 +413,7 @@
   "end": 272.602,
   "speaker": "Unknown",
   "en": "We're lucky to work with some world-class engineering teams that are solving really difficult problems.",
-  "zh": "我们很幸运能与一些世界级的工程团队合作，他们正在解决非常困难的问题。"
+  "zh": "我们很幸运能与一些世界级的工程团队合作，他们正在解决真正困难的问题。"
  },
  {
   "seg": 52,
@@ -421,7 +421,7 @@
   "end": 283.5,
   "speaker": "Unknown",
   "en": "At crazy scale and that gives us insight into a lot of how bigger organizations are having to deal with the influx of AI, et cetera.",
-  "zh": "规模疯狂宏大，这让我们能够深入了解大型组织如何应对 AI 的涌入等等。"
+  "zh": "规模大得疯狂，这让我们深入了解许多大型组织是如何必须应对 AI 的涌入，等等。"
  },
  {
   "seg": 53,
@@ -429,7 +429,7 @@
   "end": 289.45,
   "speaker": "Unknown",
   "en": "Resolve itself hosts a bunch of different sort of capabilities.",
-  "zh": "Resolve 本身托管了许多不同的能力。"
+  "zh": "Resolve 本身承载着一系列不同的能力。"
  },
  {
   "seg": 54,
@@ -437,7 +437,7 @@
   "end": 293.832,
   "speaker": "Unknown",
   "en": "We have a number of agents that sort of, you know, you get to kind of experience.",
-  "zh": "我们有许多智能体，你知道，你可以去体验。"
+  "zh": "我们有许多智能体，你知道，你可以体验一下。"
  },
  {
   "seg": 55,
@@ -445,7 +445,7 @@
   "end": 295.573,
   "speaker": "Unknown",
   "en": "One of them is just an on-call agent.",
-  "zh": "其中之一就是一个待命智能体。"
+  "zh": "其中之一就是一个值班智能体。"
  },
  {
   "seg": 56,
@@ -453,7 +453,7 @@
   "end": 297.334,
   "speaker": "Unknown",
   "en": "This is kind of where we started, right?",
-  "zh": "这是我们起步的地方，对吧？"
+  "zh": "这是我们开始的地方，对吧？"
  },
  {
   "seg": 57,
@@ -461,7 +461,7 @@
   "end": 301.697,
   "speaker": "Unknown",
   "en": "So for every alert that comes in, we can do a triage of that alert.",
-  "zh": "所以对于每一个进来的警报，我们可以对其进行检伤分类。"
+  "zh": "所以对于每一个进来的警报，我们可以对其进行分类。"
  },
  {
   "seg": 58,
@@ -469,7 +469,7 @@
   "end": 304.939,
   "speaker": "Unknown",
   "en": "We can do kind of a full root cause investigation of that alert.",
-  "zh": "我们可以对该警报进行某种根本原因的全量调查。"
+  "zh": "我们可以对该警报进行全面的根本原因调查。"
  },
  {
   "seg": 59,
@@ -477,7 +477,7 @@
   "end": 308.983,
   "speaker": "Unknown",
   "en": "And this is for anybody that's had to be on call before.",
-  "zh": "这适用于任何以前不得不待命的人。"
+  "zh": "这对于任何以前必须值过班的人来说都是。"
  },
  {
   "seg": 60,
@@ -485,7 +485,7 @@
   "end": 312.406,
   "speaker": "Unknown",
   "en": "On call, it's a nightmare, right?",
-  "zh": "待命是一场噩梦，对吧？"
+  "zh": "值班是一场噩梦，对吧？"
  },
  {
   "seg": 61,
@@ -493,7 +493,7 @@
   "end": 315.108,
   "speaker": "Unknown",
   "en": "You're often only going on call every few weeks.",
-  "zh": "你通常每隔几周才待命一次。"
+  "zh": "你通常只是每隔几周才值一次班。"
  },
  {
   "seg": 62,
@@ -525,7 +525,7 @@
   "end": 330.263,
   "speaker": "Unknown",
   "en": "And having an AI agent that's able to come support you and pull that context together is incredibly, incredibly valuable.",
-  "zh": "拥有一个能够来支持你并将上下文汇集起来的 AI 智能体是非常非常有价值的。"
+  "zh": "拥有一个能够来支持你并将上下文汇总在一起的 AI 智能体是非常非常有价值的。"
  },
  {
   "seg": 66,
@@ -533,7 +533,7 @@
   "end": 340.249,
   "speaker": "Unknown",
   "en": "And so that can often grow from just sort of getting a single page into a much larger incident across many different teams across an organization.",
-  "zh": "所以这通常会从仅仅是收到一个单页通知发展为一个跨组织中许多不同团队的更大事件。"
+  "zh": "所以这通常可以从仅仅获得单个页面发展为一个跨组织许多不同团队的更大的事件。"
  },
  {
   "seg": 67,
@@ -541,7 +541,7 @@
   "end": 353.958,
   "speaker": "Unknown",
   "en": "And we have agents there to come support the much larger activity of all of this kind of cross collaboration, et cetera, keeping everybody in sync and aligned on where the incident is happening, what the impact of that is, et cetera.",
-  "zh": "我们有智能体来支持所有这种跨协作的更大活动，等等，保持每个人在事件发生的地方同步并保持一致，以及影响是什么等等。"
+  "zh": "我们有智能体来支持所有这种跨协作的更广泛的活动，等等，保持每个人同步并一致地了解事件发生在哪里，其影响是什么，等等。"
  },
  {
   "seg": 68,
@@ -557,7 +557,7 @@
   "end": 364.532,
   "speaker": "Unknown",
   "en": "And this is sort of covering the long tail of what happens when there's not a fire brewing or going on at any one point.",
-  "zh": "这这涵盖了当没有紧急情况正在酝酿或发生时的长尾需求。"
+  "zh": "这有点涵盖了当没有火灾正在酝酿或发生时的长尾情况。"
  },
  {
   "seg": 70,
@@ -565,7 +565,7 @@
   "end": 380.654,
   "speaker": "Unknown",
   "en": "There's still lots of operational work that you as an engineer or an engineering team have to do and a lot of ceremonies of passing context off or dealing with kind of one-off issues or kind of having to scratch that itch in the back of your head of like, is that part of the system okay or not okay?",
-  "zh": "仍然有大量的操作工作，你作为工程师或工程团队必须做，还有大量的仪式要传递上下文或处理一次性问题，或者不得不解决你脑海中那种痒，比如系统的那个部分是正常还是不正常？"
+  "zh": "作为工程师或工程团队，你仍然有许多运维工作要做，还有许多仪式要传递上下文或处理一次性问题，或者必须解决你脑后那种痒，比如系统的那个部分是正常还是不正常？"
  },
  {
   "seg": 71,
@@ -573,7 +573,7 @@
   "end": 383.575,
   "speaker": "Unknown",
   "en": "And you're constantly having to sort of bounce across all these different things.",
-  "zh": "你必须不断地在所有这些不同的事情之间来回跳动。"
+  "zh": "你经常必须在这些不同的事情之间跳来跳去。"
  },
  {
   "seg": 72,
@@ -581,7 +581,7 @@
   "end": 392.88,
   "speaker": "Unknown",
   "en": "Underneath all that, we have an agent architecture, deals with models and context and reasoning and actions.",
-  "zh": "在所有这些之下，我们有一个智能体架构，处理模型和上下文以及推理和行动。"
+  "zh": "在所有这些之下，我们有一个智能体架构，处理模型、上下文、推理和行动。"
  },
  {
   "seg": 73,
@@ -589,7 +589,7 @@
   "end": 395.661,
   "speaker": "Unknown",
   "en": "Learning is, I'll sort of like half pause on that one.",
-  "zh": "学习，我会在那个上稍微停顿一下。"
+  "zh": "学习，我会在那个问题上稍微停顿一下。"
  },
  {
   "seg": 74,
@@ -597,7 +597,7 @@
   "end": 403.606,
   "speaker": "Unknown",
   "en": "I think some of the biggest issues that we've seen, it's not that a model by itself is not smart or whatever.",
-  "zh": "我认为我们看到的一些最大问题，并不是模型本身不聪明或者别的什么。"
+  "zh": "我认为我们看到的一些最大的问题，并不是模型本身不聪明或者别的什么。"
  },
  {
   "seg": 75,
@@ -605,7 +605,7 @@
   "end": 408.509,
   "speaker": "Unknown",
   "en": "I mean, models have gotten incredibly capable over the last year, let's say, right?",
-  "zh": "我的意思是，在过去一年里，模型已经变得非常强大，比如说，对吧？"
+  "zh": "我是说，在过去一年里，模型已经变得非常强大，比如说，对吧？"
  },
  {
   "seg": 76,
@@ -621,7 +621,7 @@
   "end": 426.397,
   "speaker": "Unknown",
   "en": "But the idea of understanding, like truly understanding your environment and the way that your services interact and where the hotspots are, keeping track of all of that sort of understanding is incredibly difficult, but it's incredibly important for any model to be successful at the task that it needs to do.",
-  "zh": "但是理解的想法，真正理解你的环境以及你的服务交互的方式以及热点在哪里，跟踪所有这些理解是非常困难的，但它对于任何模型在其需要完成的任务上取得成功来说是极其重要的。"
+  "zh": "但是理解的概念，真正理解你的环境、你的服务交互的方式、热点在哪里，跟踪所有这些理解是非常困难的，但对于任何模型在其需要完成的任务上取得成功来说，这非常重要。"
  },
  {
   "seg": 78,
@@ -629,7 +629,7 @@
   "end": 434.061,
   "speaker": "Unknown",
   "en": "It has to have an underlying sort of learning system to be able to capture that knowledge and that sort of understanding of how your system operates.",
-  "zh": "它必须有一个底层的某种学习系统来能够捕获这些知识和对你的系统如何运作的这种理解。"
+  "zh": "它必须有一个底层的某种学习系统，以便能够捕获这些知识和对你的系统如何运作的那种理解。"
  },
  {
   "seg": 79,
@@ -637,7 +637,7 @@
   "end": 440.144,
   "speaker": "Unknown",
   "en": "So we spent a lot of time thinking about how do we have systems that not just can understand your environment at any one point,",
-  "zh": "所以我们花了很多时间思考我们要如何拥有不仅能在任何一点理解你的环境的系统，"
+  "zh": "所以我们花了很多时间思考如何拥有这样的系统：不仅仅能在任何单一时刻理解你的环境，"
  },
  {
   "seg": 80,
@@ -645,7 +645,7 @@
   "end": 445.047,
   "speaker": "Unknown",
   "en": "But grow as your system evolves because, again, your system is evolving faster and faster.",
-  "zh": "而且随着你的系统的演变而成长，因为同样，你的系统演变得越来越快。"
+  "zh": "而且随着你的系统的演变而增长，因为同样，你的系统演变得越来越快。"
  },
  {
   "seg": 81,
@@ -653,7 +653,7 @@
   "end": 452.153,
   "speaker": "Unknown",
   "en": "We need to keep up with learning about what's the current state, what's the current sort of causal change that we need to be sort of keeping an eye on.",
-  "zh": "我们需要跟上关于当前状态的学习，我们需要关注的当前因果变化是什么。"
+  "zh": "我们需要跟上学习当前状态是什么，我们需要关注的当前因果变化是什么。"
  },
  {
   "seg": 82,
@@ -661,7 +661,7 @@
   "end": 456.516,
   "speaker": "Unknown",
   "en": "And then, of course, all the enterprise stuff sort of underneath.",
-  "zh": "然后，当然，所有的企业级东西都在底下。"
+  "zh": "然后，当然，所有企业级的东西都在底下。"
  },
  {
   "seg": 83,
@@ -669,7 +669,7 @@
   "end": 461.099,
   "speaker": "Unknown",
   "en": "And so this is that same view kind of packed out.",
-  "zh": "所以这就是同样的视图被打包出来了。"
+  "zh": "所以这是同样的观点，有点展开讲了。"
  },
  {
   "seg": 84,
@@ -677,7 +677,7 @@
   "end": 464.562,
   "speaker": "Unknown",
   "en": "Come on, okay.",
-  "zh": "来吧，好的。"
+  "zh": "来吧，好吧。"
  },
  {
   "seg": 85,
@@ -685,7 +685,7 @@
   "end": 467.906,
   "speaker": "Unknown",
   "en": "But so today, so we do a lot at Resolve, the on-call and the incident stuff.",
-  "zh": "所以今天，我们在 Resolve 做很多事，待命和事件相关的事情。"
+  "zh": "所以今天，我们在 Resolve 做了很多事情，值班和事件相关的那些。"
  },
  {
   "seg": 86,
@@ -693,7 +693,7 @@
   "end": 471.349,
   "speaker": "Unknown",
   "en": "I'm gonna focus a lot more just on the background agent stuff.",
-  "zh": "我要更多地关注后台智能体的事情。"
+  "zh": "我会更多地关注后台智能体的东西。"
  },
  {
   "seg": 87,
@@ -701,7 +701,7 @@
   "end": 474.953,
   "speaker": "Unknown",
   "en": "So how do we deal with the things that maybe aren't sort of immediate fires?",
-  "zh": "所以我们要如何处理那些可能不是紧急火灾的事情？"
+  "zh": "那么我们要如何处理那些可能不是即时火灾的事情？"
  },
  {
   "seg": 88,
@@ -709,7 +709,7 @@
   "end": 479.338,
   "speaker": "Unknown",
   "en": "If you have questions about the immediate fire stuff, we have a booth down in the expo.",
-  "zh": "如果你有关于紧急火灾的事情的问题，我们在下面的展台有一个展位。"
+  "zh": "如果你有关于即时火灾的事情的问题，我们在展厅的展台有一个展位。"
  },
  {
   "seg": 89,
@@ -717,7 +717,7 @@
   "end": 480.419,
   "speaker": "Unknown",
   "en": "Please come check it out.",
-  "zh": "请过来看看，等等。"
+  "zh": "欢迎来看看，等等。"
  },
  {
   "seg": 90,
@@ -733,7 +733,7 @@
   "end": 484.364,
   "speaker": "Unknown",
   "en": "But today we're gonna focus on the background agent.",
-  "zh": "但今天我们要关注后台智能体。"
+  "zh": "但今天我们将关注后台智能体。"
  },
  {
   "seg": 92,
@@ -741,7 +741,7 @@
   "end": 487.594,
   "speaker": "Unknown",
   "en": "So kind of a little pop quiz.",
-  "zh": "所以稍微来个小测验。"
+  "zh": "所以有点像一个小测验。"
  },
  {
   "seg": 93,
@@ -749,7 +749,7 @@
   "end": 488.976,
   "speaker": "Unknown",
   "en": "Feel free to raise your hands.",
-  "zh": "欢迎举手。"
+  "zh": "请随意举手。"
  },
  {
   "seg": 94,
@@ -757,7 +757,7 @@
   "end": 492.118,
   "speaker": "Unknown",
   "en": "Is anybody using agents as part of your daily workflow?",
-  "zh": "有任何人在你的日常工作流中使用智能体吗？"
+  "zh": "有没有人将智能体作为日常工作流程的一部分使用？"
  },
  {
   "seg": 95,
@@ -765,7 +765,7 @@
   "end": 493.119,
   "speaker": "Unknown",
   "en": "Maybe outside of the coding.",
-  "zh": "也许在编码之外。"
+  "zh": "也许除了编码之外。"
  },
  {
   "seg": 96,
@@ -773,7 +773,7 @@
   "end": 495.481,
   "speaker": "Unknown",
   "en": "I'm assuming everybody's doing coding agents these days.",
-  "zh": "我假设大家现在都在做编码智能体。"
+  "zh": "我假设如今每个人都在用编码智能体。"
  },
  {
   "seg": 97,
@@ -781,7 +781,7 @@
   "end": 499.904,
   "speaker": "Unknown",
   "en": "Is anybody doing like actually running sort of agents that are sort of helping in other ways?",
-  "zh": "有任何人在做实际运行那种以其他方式提供帮助的智能体吗？"
+  "zh": "有没有人在实际运行某种智能体，以其他方式提供帮助？"
  },
  {
   "seg": 98,
@@ -805,7 +805,7 @@
   "end": 504.387,
   "speaker": "Unknown",
   "en": "Any fun stuff that anybody has?",
-  "zh": "有人有什么有趣的东西吗？"
+  "zh": "有什么好玩的东西吗，谁有？"
  },
  {
   "seg": 101,
@@ -845,7 +845,7 @@
   "end": 514.508,
   "speaker": "Unknown",
   "en": "Market research, I do a lot of.",
-  "zh": "我做很多市场调研。"
+  "zh": "市场调研，我做得很多。"
  },
  {
   "seg": 106,
@@ -853,7 +853,7 @@
   "end": 515.909,
   "speaker": "Unknown",
   "en": "Let's have a good conversation about it.",
-  "zh": "我们就这个好好聊聊吧。"
+  "zh": "我们来好好聊聊这个。"
  },
  {
   "seg": 107,
@@ -861,7 +861,7 @@
   "end": 516.849,
   "speaker": "Unknown",
   "en": "Yeah, yeah, I do that all the time.",
-  "zh": "是的，是的，我一直都在做那个。"
+  "zh": "是的，是的，我一直在做这个。"
  },
  {
   "seg": 108,
@@ -877,7 +877,7 @@
   "end": 518.23,
   "speaker": "Unknown",
   "en": "Maybe one more.",
-  "zh": "也许再来一个。"
+  "zh": "也许还有一个。"
  },
  {
   "seg": 110,
@@ -885,7 +885,7 @@
   "end": 519.971,
   "speaker": "Unknown",
   "en": "What's the one?",
-  "zh": "那一个是什么？"
+  "zh": "那个是什么？"
  },
  {
   "seg": 111,
@@ -893,7 +893,7 @@
   "end": 522.512,
   "speaker": "Unknown",
   "en": "I can't hear it.",
-  "zh": "我听不到。"
+  "zh": "我听不见。"
  },
  {
   "seg": 112,
@@ -909,7 +909,7 @@
   "end": 525.834,
   "speaker": "Unknown",
   "en": "That's a fantastic one, actually.",
-  "zh": "这其实是个很棒的选择。"
+  "zh": "这其实是一个非常棒的选择。"
  },
  {
   "seg": 114,
@@ -917,7 +917,7 @@
   "end": 527.975,
   "speaker": "Unknown",
   "en": "We are humans here today.",
-  "zh": "我们今天在这里都是人。"
+  "zh": "我们今天这里都是人类。"
  },
  {
   "seg": 115,
@@ -925,7 +925,7 @@
   "end": 528.896,
   "speaker": "Unknown",
   "en": "This is very important.",
-  "zh": "这很重要。"
+  "zh": "这非常重要。"
  },
  {
   "seg": 116,
@@ -933,7 +933,7 @@
   "end": 532.038,
   "speaker": "Unknown",
   "en": "That's actually, that's a very good one.",
-  "zh": "实际上，这真是一个很好的选择。"
+  "zh": "其实，这真的很好。"
  },
  {
   "seg": 117,
@@ -941,7 +941,7 @@
   "end": 534.739,
   "speaker": "Unknown",
   "en": "Okay, so people are having some stuff going on.",
-  "zh": "好的，所以大家都在经历一些事情。"
+  "zh": "好的，所以大家正在经历一些事情。"
  },
  {
   "seg": 118,
@@ -949,7 +949,7 @@
   "end": 546.998,
   "speaker": "Unknown",
   "en": "So, you know, and this kind of recaps a little bit, again, a lot of production work is not about, there's not a sort of big ceremony that everyone is focused on for the type of work that we have to do.",
-  "zh": "所以，你知道，这稍微回顾了一下，大量的生产工作并不是关于，对于我们必须要做的这类工作来说，并没有某种大家都专注于的大型仪式。"
+  "zh": "所以，你知道，这稍微回顾了一下，很多生产工作其实不是关于那种大家都会关注的盛大仪式，针对我们必须做的那类工作。"
  },
  {
   "seg": 119,
@@ -957,7 +957,7 @@
   "end": 550.598,
   "speaker": "Unknown",
   "en": "On call, you've got a page that goes off, you know somebody's gonna receive that.",
-  "zh": "值班，你收到了一个页面，你知道有人会收到那个。"
+  "zh": "值班，你会收到一个警报页面，你知道有人会收到那个。"
  },
  {
   "seg": 120,
@@ -965,7 +965,7 @@
   "end": 553.659,
   "speaker": "Unknown",
   "en": "Incidents, you create a bridge, you invite people in, that's great.",
-  "zh": "事故，你创建了一个桥接，你邀请人们进来，那很好。"
+  "zh": "事故，你创建一个桥接，邀请人们进来，这很好。"
  },
  {
   "seg": 121,
@@ -973,7 +973,7 @@
   "end": 565.082,
   "speaker": "Unknown",
   "en": "But there's just a long tail of other things that we are accountable for that doesn't have sort of a thing that's gonna show up in your sort of job description of like, this is what you're gonna be responsible for.",
-  "zh": "但是还有一长串我们要负责的其他事情，它们并没有某种东西会出现在你的那种工作描述中，比如，这就是你将要负责的事情。"
+  "zh": "但我们要负责的事情还有很长的长尾，这些事情没有什么东西会出现在你的职位描述里，比如，这就是你要负责的事情。"
  },
  {
   "seg": 122,
@@ -981,7 +981,7 @@
   "end": 569.324,
   "speaker": "Unknown",
   "en": "Watching deploys that go out and make sure that they're actually getting out healthy.",
-  "zh": "监控发布的部署并确保它们实际上健康地发出去了。"
+  "zh": "监控部署，确保它们真正健康地发布。"
  },
  {
   "seg": 123,
@@ -989,7 +989,7 @@
   "end": 576.408,
   "speaker": "Unknown",
   "en": "A morning report or incident digest of just like, what's the state of my system today so that we're all on the same page?",
-  "zh": "一个晨间报告或事故摘要，就像，我的系统今天处于什么状态，以便我们都达成共识？"
+  "zh": "一份晨报或事故摘要，就像今天我的系统状态如何，这样我们都处于同一认知层面。"
  },
  {
   "seg": 124,
@@ -997,7 +997,7 @@
   "end": 579.469,
   "speaker": "Unknown",
   "en": "Hey, that P99 drift kind of came back.",
-  "zh": "嘿，那个 P99 漂移有点回来了。"
+  "zh": "嘿，那个 P99 漂移又回来了。"
  },
  {
   "seg": 125,
@@ -1005,7 +1005,7 @@
   "end": 582.01,
   "speaker": "Unknown",
   "en": "Is somebody looking at that or not?",
-  "zh": "有人正在看那个吗？"
+  "zh": "有人正在看那个吗，还是没看？"
  },
  {
   "seg": 126,
@@ -1013,7 +1013,7 @@
   "end": 586.113,
   "speaker": "Unknown",
   "en": "And this is pulling people in to try to figure out what's going on.",
-  "zh": "这是把人拉进来试图弄清楚发生了什么。"
+  "zh": "这就是把人拉进来试图搞清楚发生了什么。"
  },
  {
   "seg": 127,
@@ -1021,7 +1021,7 @@
   "end": 587.333,
   "speaker": "Unknown",
   "en": "This may not be paging, right?",
-  "zh": "这可能不是寻呼，对吧？"
+  "zh": "这可能不算是在呼叫值班，对吧？"
  },
  {
   "seg": 128,
@@ -1029,7 +1029,7 @@
   "end": 589.654,
   "speaker": "Unknown",
   "en": "Because we're not going to alert on everything.",
-  "zh": "因为我们不会对所有事情都发出警报。"
+  "zh": "因为我们不会对所有事情都发警报。"
  },
  {
   "seg": 129,
@@ -1045,7 +1045,7 @@
   "end": 594.918,
   "speaker": "Unknown",
   "en": "Like are we tracking okay, right?",
-  "zh": "就像我们的跟踪还好吗，对吧？"
+  "zh": "比如我们的进度还好吗，对吧？"
  },
  {
   "seg": 131,
@@ -1061,7 +1061,7 @@
   "end": 599.261,
   "speaker": "Unknown",
   "en": "Are we tracking against that?",
-  "zh": "我们是在针对那个进行跟踪吗？"
+  "zh": "我们是按计划推进的吗？"
  },
  {
   "seg": 133,
@@ -1069,7 +1069,7 @@
   "end": 601.642,
   "speaker": "Unknown",
   "en": "Somebody's gonna have to be responsible for doing that.",
-  "zh": "必须有人负责做那个。"
+  "zh": "总得有人负责做那个。"
  },
  {
   "seg": 134,
@@ -1077,7 +1077,7 @@
   "end": 607.787,
   "speaker": "Unknown",
   "en": "The recurring health check and just kind of checking and making sure things are kind of running okay and not waiting for a customer to complain for.",
-  "zh": "周期性的健康检查，以及只是检查并确保事情运行得还算正常，而不是等待客户来抱怨。"
+  "zh": "周期性的健康检查，只是检查并确保事情运行正常，而不是等着客户来投诉。"
  },
  {
   "seg": 135,
@@ -1085,7 +1085,7 @@
   "end": 612.87,
   "speaker": "Unknown",
   "en": "So this work doesn't have like an obvious like, oh, this now needs to go be done.",
-  "zh": "所以这项工作没有一个明显的，噢，这个现在需要去做的。"
+  "zh": "所以这些工作没有那种明显的，噢，这个现在需要去做了。"
  },
  {
   "seg": 136,
@@ -1109,7 +1109,7 @@
   "end": 624.151,
   "speaker": "Unknown",
   "en": "A task is just execution and the context to understand how to actually execute the task.",
-  "zh": "任务只是执行和理解如何实际执行任务的上下文。"
+  "zh": "任务就是执行以及理解如何实际执行任务的上下文。"
  },
  {
   "seg": 139,
@@ -1117,7 +1117,7 @@
   "end": 627.932,
   "speaker": "Unknown",
   "en": "Execution is very, very important.",
-  "zh": "执行非常，非常重要。"
+  "zh": "执行非常非常重要。"
  },
  {
   "seg": 140,
@@ -1125,7 +1125,7 @@
   "end": 634.573,
   "speaker": "Unknown",
   "en": "It's understanding what to do and being able to execute that, maybe having access to the tools, et cetera, right?",
-  "zh": "它是理解做什么并能够执行那个，可能有权访问工具等等，对吧？"
+  "zh": "它是理解要做什么并且能够执行那个，可能有权访问工具等等，对吧？"
  },
  {
   "seg": 141,
@@ -1133,7 +1133,7 @@
   "end": 642.694,
   "speaker": "Unknown",
   "en": "Obviously very important to do, but we think the production context is just way more important because it's one thing to go check a dashboard.",
-  "zh": "做那个显然很重要，但我们认为生产上下文要重要得多，因为去查看仪表板是一回事。"
+  "zh": "显然做这件事非常重要，但我们认为生产上下文重要得多，因为去检查仪表盘是一回事。"
  },
  {
   "seg": 142,
@@ -1141,7 +1141,7 @@
   "end": 645.635,
   "speaker": "Unknown",
   "en": "It's another thing to say that metric smells off.",
-  "zh": "说那个指标闻起来不对劲是另一回事。"
+  "zh": "说那个指标看起来不对劲是另一回事。"
  },
  {
   "seg": 143,
@@ -1149,7 +1149,7 @@
   "end": 649.417,
   "speaker": "Unknown",
   "en": "And the execution can load the dashboard.",
-  "zh": "执行可以加载仪表板。"
+  "zh": "而执行部分可以加载仪表盘。"
  },
  {
   "seg": 144,
@@ -1157,7 +1157,7 @@
   "end": 652.94,
   "speaker": "Unknown",
   "en": "It's the production context that's going to say, this feels wrong.",
-  "zh": "是生产上下文会说，这感觉不对。"
+  "zh": "是生产上下文会说明，这感觉不对。"
  },
  {
   "seg": 145,
@@ -1165,7 +1165,7 @@
   "end": 656.022,
   "speaker": "Unknown",
   "en": "And I don't know if I can even explain why it feels wrong.",
-  "zh": "我不知道我甚至能否解释为什么它感觉不对。"
+  "zh": "我不知道我甚至能不能解释为什么感觉不对。"
  },
  {
   "seg": 146,
@@ -1173,7 +1173,7 @@
   "end": 660.264,
   "speaker": "Unknown",
   "en": "It just feels wrong, and I want to dig into the next layer of understanding of that.",
-  "zh": "它就是感觉不对，我想深入研究它的下一层理解。"
+  "zh": "它就是感觉不对，我想深入研究下一层的理解。"
  },
  {
   "seg": 147,
@@ -1197,7 +1197,7 @@
   "end": 667.969,
   "speaker": "Unknown",
   "en": "That's great.",
-  "zh": "那很好。"
+  "zh": "那很棒。"
  },
  {
   "seg": 150,
@@ -1205,7 +1205,7 @@
   "end": 672.913,
   "speaker": "Unknown",
   "en": "But you really need that production context that tells you, is this important or not important?",
-  "zh": "但你真的需要那个生产环境上下文来告诉你，这是重要的还是不重要的？"
+  "zh": "但你真的需要那个告诉你这重要还是不重要的生产环境上下文？"
  },
  {
   "seg": 151,
@@ -1213,7 +1213,7 @@
   "end": 681.93,
   "speaker": "Unknown",
   "en": "So every background agent, you know, there's a few different principles that we like to think about with our background agents.",
-  "zh": "所以每一个后台智能体，你知道，我们在我们的后台智能体上喜欢思考有几个不同的原则。"
+  "zh": "所以每一个后台智能体，你知道，我们喜欢在思考后台智能体时考虑几个不同的原则。"
  },
  {
   "seg": 152,
@@ -1253,7 +1253,7 @@
   "end": 688.492,
   "speaker": "Unknown",
   "en": "It can work in a bunch of different ways.",
-  "zh": "它可以通过很多不同的方式工作。"
+  "zh": "它可以通过多种方式工作。"
  },
  {
   "seg": 157,
@@ -1261,7 +1261,7 @@
   "end": 689.592,
   "speaker": "Unknown",
   "en": "It can just do it on a schedule.",
-  "zh": "它可以只是按计划做。"
+  "zh": "它可以按计划来做。"
  },
  {
   "seg": 158,
@@ -1277,7 +1277,7 @@
   "end": 694.653,
   "speaker": "Unknown",
   "en": "Just kind of do some summarization for me kind of on an ongoing basis.",
-  "zh": "只是要为我做一些持续的总结。"
+  "zh": "就是在持续的基础上为我做一些总结。"
  },
  {
   "seg": 160,
@@ -1285,7 +1285,7 @@
   "end": 696.393,
   "speaker": "Unknown",
   "en": "Maybe it's a weekly event, right?",
-  "zh": "也许这是一个每周活动，对吧？"
+  "zh": "也许这是一个每周事件，对吧？"
  },
  {
   "seg": 161,
@@ -1293,7 +1293,7 @@
   "end": 698.974,
   "speaker": "Unknown",
   "en": "We do an on-call handover every Thursday.",
-  "zh": "我们每个周四进行一次待命交接。"
+  "zh": "我们每个周四进行一次值班交接。"
  },
  {
   "seg": 162,
@@ -1301,7 +1301,7 @@
   "end": 705.195,
   "speaker": "Unknown",
   "en": "And so a lot of the work that our agent does is sort of prepare, like what are the kind of interesting trends from the last week?",
-  "zh": "所以我们的智能体做的很多工作是准备，比如上周有哪些有趣的趋势？"
+  "zh": "所以我们智能体做的很多工作就是准备，比如上周有哪些有趣的趋势？"
  },
  {
   "seg": 163,
@@ -1309,7 +1309,7 @@
   "end": 708.256,
   "speaker": "Unknown",
   "en": "That the next on-caller needs to sort of understand as they pick up the rotation.",
-  "zh": "也就是下一个待命人员在接手轮班时需要理解的事情。"
+  "zh": "这是下一个值班人员在接手轮班时需要理解的。"
  },
  {
   "seg": 164,
@@ -1325,7 +1325,7 @@
   "end": 714.858,
   "speaker": "Unknown",
   "en": "So, you know, there's lots of systems that will sort of push events as kind of key things happen.",
-  "zh": "所以，你知道，有很多系统会在发生关键事情时推送事件。"
+  "zh": "所以，你知道，有很多系统会在关键事情发生时推送事件。"
  },
  {
   "seg": 166,
@@ -1333,7 +1333,7 @@
   "end": 718.099,
   "speaker": "Unknown",
   "en": "So deployments go through ICD pipeline.",
-  "zh": "所以部署通过 ICD 流水线。"
+  "zh": "所以部署通过了 ICD 流水线。"
  },
  {
   "seg": 167,
@@ -1357,7 +1357,7 @@
   "end": 732.763,
   "speaker": "Unknown",
   "en": "And these are things that we can sort of pick up and trigger and say, oh, if this event happens, let me sort of understand what that event is and go do some work.",
-  "zh": "这些是我们可以获取并触发的事情，比如说，哦，如果这个事件发生，让我理解一下那个事件是什么，然后去做一些工作。"
+  "zh": "这些是我们可以拾取并触发的东西，说哦，如果这个事件发生，让我理解一下那个事件是什么，然后去做一些工作。"
  },
  {
   "seg": 170,
@@ -1365,7 +1365,7 @@
   "end": 737.026,
   "speaker": "Unknown",
   "en": "And then message-based, so I can just tell it, hey, go do some work, and it will go do some work.",
-  "zh": "然后是基于消息的，所以我可以只是告诉它，嘿，去做一些工作，然后它就会去工作。"
+  "zh": "然后是基于消息的，所以我可以直接告诉它，嘿，去做一些工作，然后它就会去做一些工作。"
  },
  {
   "seg": 171,
@@ -1389,7 +1389,7 @@
   "end": 741.269,
   "speaker": "Unknown",
   "en": "Always runs.",
-  "zh": "总是运行。"
+  "zh": "它总是运行。"
  },
  {
   "seg": 174,
@@ -1413,7 +1413,7 @@
   "end": 752.397,
   "speaker": "Unknown",
   "en": "This allows it to sort of self-organize a lot of its work, et cetera, as it's doing things.",
-  "zh": "这允许它在做事情时自我组织很多工作，等等。"
+  "zh": "这使它能够自我组织很多工作，等等，当它在做事情的时候。"
  },
  {
   "seg": 177,
@@ -1429,7 +1429,7 @@
   "end": 777.891,
   "speaker": "Unknown",
   "en": "So that idea of knowledge and sort of a memory system underneath that to really understand your systems and as it's doing a task, able to sort of reflect on that task and do a better job next time or the things that it learned from one task, it can sort of apply into a different task because again, this sort of shared sort of knowledge system works across all the different tasks that we have.",
-  "zh": "所以那个知识和底层的记忆系统的想法，真正理解你的系统，当它在做一个任务时，能够反思那个任务并在下次做得更好，或者它从一个任务中学到的东西，它可以应用到另一个不同的任务中，因为同样，这种共享的知识系统在我们所有不同的任务中工作。"
+  "zh": "所以那个知识和记忆系统的概念在它下面，真正理解你的系统，当它在做一个任务时，能够反思那个任务并在下次做得更好，或者它从一个任务中学到的东西，它可以应用到另一个任务中，因为同样，这个共享的知识系统在我们所有的不同任务中都有效。"
  },
  {
   "seg": 179,
@@ -1437,7 +1437,7 @@
   "end": 782.581,
   "speaker": "Unknown",
   "en": "So how does the agent know what to do?",
-  "zh": "那么智能体知道做什么？"
+  "zh": "那么智能体怎么知道要做什么？"
  },
  {
   "seg": 180,
@@ -1461,7 +1461,7 @@
   "end": 788.607,
   "speaker": "Unknown",
   "en": "That's fine, you can connect those.",
-  "zh": "这很好，你可以连接那些。"
+  "zh": "那很好，你可以连接那些。"
  },
  {
   "seg": 183,
@@ -1469,7 +1469,7 @@
   "end": 791.39,
   "speaker": "Unknown",
   "en": "And it's got obviously the integrations that it's gonna plug into.",
-  "zh": "它显然有它要插入的集成。"
+  "zh": "而且它显然有它要插入的集成。"
  },
  {
   "seg": 184,
@@ -1477,7 +1477,7 @@
   "end": 796.415,
   "speaker": "Unknown",
   "en": "So let's talk a little bit about what types of things you can hand over.",
-  "zh": "所以让我们谈谈你可以移交什么类型的东西。"
+  "zh": "所以让我们稍微谈谈你可以移交什么样的东西。"
  },
  {
   "seg": 185,
@@ -1485,7 +1485,7 @@
   "end": 799.117,
   "speaker": "Unknown",
   "en": "And we've got four sort of workloads that we're gonna talk about.",
-  "zh": "我们有四种将要谈论的工作负载。"
+  "zh": "我们有四种我们要讨论的工作负载。"
  },
  {
   "seg": 186,
@@ -1493,7 +1493,7 @@
   "end": 802.521,
   "speaker": "Unknown",
   "en": "But if you think about the previous couple slides,",
-  "zh": "但如果你想想之前的几张幻灯片，"
+  "zh": "但如果你考虑之前几张幻灯片，"
  },
  {
   "seg": 187,
@@ -1509,7 +1509,7 @@
   "end": 808.164,
   "speaker": "Unknown",
   "en": "You can get very creative.",
-  "zh": "你可以变得非常有创造力。"
+  "zh": "你可以变得很有创意。"
  },
  {
   "seg": 189,
@@ -1517,7 +1517,7 @@
   "end": 814.328,
   "speaker": "Unknown",
   "en": "We have a number of people inside of Resolve that have gotten very creative with the type of background activities that they have.",
-  "zh": "我们在 Resolve 内部有很多人在他们拥有的后台活动类型上变得非常有创造力。"
+  "zh": "我们在 Resolve 内部有很多人在他们拥有的后台活动类型上变得非常有创意。"
  },
  {
   "seg": 190,
@@ -1533,7 +1533,7 @@
   "end": 823.791,
   "speaker": "Unknown",
   "en": "These are things we've seen be very successful inside of Resolve, but also with a number of our customers.",
-  "zh": "这些是我们在 Resolve 内部看到非常成功的事情，也是我们许多客户看到的。"
+  "zh": "这些是我们在 Resolve 内部看到非常成功的东西，但也包括我们的许多客户。"
  },
  {
   "seg": 192,
@@ -1541,7 +1541,7 @@
   "end": 827.492,
   "speaker": "Unknown",
   "en": "But the sky's the limit, and you can get really creative.",
-  "zh": "但天是极限，你可以真的很有创造力。"
+  "zh": "但天空是极限，你可以变得非常有创意。"
  },
  {
   "seg": 193,
@@ -1557,7 +1557,7 @@
   "end": 829.453,
   "speaker": "Unknown",
   "en": "So this is a big one.",
-  "zh": "这是一个大项。"
+  "zh": "这是一个大头。"
  },
  {
   "seg": 195,
@@ -1565,7 +1565,7 @@
   "end": 835.194,
   "speaker": "Unknown",
   "en": "Any change inside of your environment is an opportunity for something to go wonky.",
-  "zh": "你的环境中的任何变化都是出现故障的机会。"
+  "zh": "你环境中的任何变化都是出岔子的机会。"
  },
  {
   "seg": 196,
@@ -1573,7 +1573,7 @@
   "end": 843.436,
   "speaker": "Unknown",
   "en": "And so having an agent that's able to watch as all these change events come in just to do a sanity check of,",
-  "zh": "所以拥有一个智能体，能够看着所有这些变更事件进来，只是做一个健全性检查，"
+  "zh": "所以拥有一个智能体能够在所有这些变更事件进来时进行监视，做一个健全性检查，"
  },
  {
   "seg": 197,
@@ -1589,7 +1589,7 @@
   "end": 851.064,
   "speaker": "Unknown",
   "en": "And, you know, a lot of people have a decent CI CD system.",
-  "zh": "你知道，很多人有一个像样的 CI CD 系统。"
+  "zh": "而且，你知道，很多人有一个不错的 CI CD 系统。"
  },
  {
   "seg": 199,
@@ -1597,7 +1597,7 @@
   "end": 854.928,
   "speaker": "Unknown",
   "en": "I mean, this is like tried and true stuff that we've had as an industry for quite a while.",
-  "zh": "我的意思是，这是我们行业很久以来就有的经过验证的东西。"
+  "zh": "我的意思是，这是我们作为行业拥有的一段时间以来经得起考验的东西。"
  },
  {
   "seg": 200,
@@ -1605,7 +1605,7 @@
   "end": 859.613,
   "speaker": "Unknown",
   "en": "But we noticed a couple of gaps, you know, from in most of our customers.",
-  "zh": "但我们要注意到了几个差距，你知道，在我们大多数客户那里。"
+  "zh": "但我们注意到一些差距，你知道，在我们大多数客户中。"
  },
  {
   "seg": 201,
@@ -1613,7 +1613,7 @@
   "end": 863.497,
   "speaker": "Unknown",
   "en": "Typically, the checks that it does are good.",
-  "zh": "通常情况下，它所做的检查是不错的。"
+  "zh": "通常情况下，它执行的检查是好的。"
  },
  {
   "seg": 202,
@@ -1621,7 +1621,7 @@
   "end": 868.803,
   "speaker": "Unknown",
   "en": "They're good baselines, but it's not exhaustive based on the type of changes that are going in, et cetera.",
-  "zh": "它们是不错的基准，但根据正在进行的更改类型等来看，它并不详尽。"
+  "zh": "它们是不错的基准，但并非详尽无遗，基于正在进行的变更类型等等。"
  },
  {
   "seg": 203,
@@ -1629,7 +1629,7 @@
   "end": 873.869,
   "speaker": "Unknown",
   "en": "There's certain signals you'd want to watch or not want to watch, and so every rollout is a bit unique.",
-  "zh": "有些信号你可能想要监视或不想要监视，所以每次发布都有点独特。"
+  "zh": "有些信号是你想要监视或不想要监视的，所以每次发布都有点独特。"
  },
  {
   "seg": 204,
@@ -1637,7 +1637,7 @@
   "end": 886.138,
   "speaker": "Unknown",
   "en": "Oftentimes you have change systems that you're not piping through a CI CD system, like a feature flag, or maybe some infra changes that might happen, which maybe don't get any monitoring at all.",
-  "zh": "通常，你有某些变更系统并没有通过 CI CD 系统进行管道传输，比如特性开关，或者可能会发生的一些基础设施变更，这些可能根本没有任何监控。"
+  "zh": "通常你有一些没有通过 CI CD 系统传递的变更系统，比如功能开关，或者可能发生的一些基础设施变更，这些可能根本没有任何监控。"
  },
  {
   "seg": 205,
@@ -1645,7 +1645,7 @@
   "end": 892.062,
   "speaker": "Unknown",
   "en": "And you're sort of just trusting that an alert might fire and an on-caller will wake up and say, who changed what, right?",
-  "zh": "而且你有点只是相信一个警报可能会触发，一个值班者会醒来说，谁改了什么，对吧？"
+  "zh": "而且你有点只是寄希望于警报可能会触发，值班人员会醒来并说，谁改了什么，对吧？"
  },
  {
   "seg": 206,
@@ -1653,7 +1653,7 @@
   "end": 898.126,
   "speaker": "Unknown",
   "en": "And so deployment monitoring is actually a really big use case that we suggest people sort of go through.",
-  "zh": "因此部署监控实际上是我们建议人们去做的非常重要的一个用例。"
+  "zh": "所以部署监控实际上是我们建议人们进行的一个非常大的用例。"
  },
  {
   "seg": 207,
@@ -1669,7 +1669,7 @@
   "end": 902.369,
   "speaker": "Unknown",
   "en": "Schedule health and anomaly checks.",
-  "zh": "定期健康检查和异常检查。"
+  "zh": "计划的健康检查和异常检查。"
  },
  {
   "seg": 209,
@@ -1677,7 +1677,7 @@
   "end": 907.492,
   "speaker": "Unknown",
   "en": "So this is just sort of the ongoing periodic checking of some of your systems.",
-  "zh": "这只是对某些系统进行持续的、周期性的检查。"
+  "zh": "所以这只是对你某些系统进行持续定期检查。"
  },
  {
   "seg": 210,
@@ -1685,7 +1685,7 @@
   "end": 914.776,
   "speaker": "Unknown",
   "en": "And this is maybe something where it's like, go check sort of my general dashboards on a routine basis.",
-  "zh": "这可能类似于，定期去检查一下我的通用仪表盘。"
+  "zh": "这可能就像，去定期检查我的一般仪表盘。"
  },
  {
   "seg": 211,
@@ -1693,7 +1693,7 @@
   "end": 920.539,
   "speaker": "Unknown",
   "en": "Maybe every morning just kind of do a casual check just to make sure there's nothing kind of weird from last night that I might need to be aware of.",
-  "zh": "也许每天早上只是做一个随意的检查，以确保昨晚没有任何奇怪的事情是我需要知道的。"
+  "zh": "也许每天早上只是做一个随意的检查，以确保昨晚没有什么奇怪的事情是我需要知道的。"
  },
  {
   "seg": 212,
@@ -1701,7 +1701,7 @@
   "end": 924.383,
   "speaker": "Unknown",
   "en": "But this can also just be sort of a time-based thing.",
-  "zh": "但这也可能只是一种基于时间的事情。"
+  "zh": "但这也可能只是基于时间的事情。"
  },
  {
   "seg": 213,
@@ -1709,7 +1709,7 @@
   "end": 926.685,
   "speaker": "Unknown",
   "en": "Like I made a change in part of our system.",
-  "zh": "比如我在我们系统的某个部分做了一个更改。"
+  "zh": "比如我在我们系统的某个部分做了一个变更。"
  },
  {
   "seg": 214,
@@ -1717,7 +1717,7 @@
   "end": 931.309,
   "speaker": "Unknown",
   "en": "I'm worried about this third-party service that I'm kind of interacting with.",
-  "zh": "我担心我正在交互的某个第三方服务。"
+  "zh": "我担心我正在交互的那个第三方服务。"
  },
  {
   "seg": 215,
@@ -1725,7 +1725,7 @@
   "end": 938.897,
   "speaker": "Unknown",
   "en": "Let me just kind of set an agent to kind of watch that maybe for the next week just to make sure everything is kind of stable and then that agent can sort of stop its job.",
-  "zh": "让我只是设置一个智能体在接下来的一周里监视它，以确保一切都很稳定，然后那个智能体就可以停止它的工作。"
+  "zh": "让我设置一个智能体去监视那个，也许就在下周，以确保一切都很稳定，然后那个智能体可以停止它的工作。"
  },
  {
   "seg": 216,
@@ -1741,7 +1741,7 @@
   "end": 942.826,
   "speaker": "Unknown",
   "en": "I talked a little bit about this.",
-  "zh": "我稍微谈到了一点这个。"
+  "zh": "我稍微谈了一点这个。"
  },
  {
   "seg": 218,
@@ -1749,7 +1749,7 @@
   "end": 949.13,
   "speaker": "Unknown",
   "en": "These are the sort of ceremonial things that we might want to do just to spread information, summarize things, kind of bring things to the fore.",
-  "zh": "这些是我们可能想要做的某种仪式性的事情，只是为了传播信息、总结事情、把事情带到前台。"
+  "zh": "这些是我们可能想要做的一些仪式性的事情，只是为了传播信息，总结事情，把事情带到前台。"
  },
  {
   "seg": 219,
@@ -1757,7 +1757,7 @@
   "end": 952.092,
   "speaker": "Unknown",
   "en": "And then a first responder to engineering questions.",
-  "zh": "然后是工程问题的第一响应者。"
+  "zh": "然后是对工程问题的第一响应者。"
  },
  {
   "seg": 220,
@@ -1765,7 +1765,7 @@
   "end": 957.416,
   "speaker": "Unknown",
   "en": "And this one's kind of fun a little bit because the trigger for this is actually just a Slack message.",
-  "zh": "这个有点有趣，因为它的触发实际上只是一个 Slack 消息。"
+  "zh": "这一个有点有趣，因为触发这个的实际上只是一个 Slack 消息。"
  },
  {
   "seg": 221,
@@ -1773,7 +1773,7 @@
   "end": 958.356,
   "speaker": "Unknown",
   "en": "And I will say...",
-  "zh": "我想说……"
+  "zh": "我想说的是……"
  },
  {
   "seg": 222,
@@ -1781,7 +1781,7 @@
   "end": 972.301,
   "speaker": "Unknown",
   "en": "One of my biggest, like, let's call it responsibilities as an engineer is watching all my Slack channels and trying to make sure everyone's kind of happy and like that nobody has any burning questions or anything like that.",
-  "zh": "作为一名工程师，我最大的、让我们称之为责任的事情之一就是关注我所有的 Slack 频道，并尽量确保每个人都开心，没有人有任何紧急问题之类的事情。"
+  "zh": "我作为工程师最大的，让我们称之为责任之一，就是看我所有的 Slack 频道，并尽量确保每个人都满意，没有人有任何紧迫的问题或类似的事情。"
  },
  {
   "seg": 223,
@@ -1789,7 +1789,7 @@
   "end": 976.803,
   "speaker": "Unknown",
   "en": "And so I can be sort of heads down trying to build something and then, you know,",
-  "zh": "所以我可以埋头尝试构建某些东西，然后，你知道，"
+  "zh": "所以我可能会埋头尝试构建某些东西，然后，你知道，"
  },
  {
   "seg": 224,
@@ -1797,7 +1797,7 @@
   "end": 987.211,
   "speaker": "Unknown",
   "en": "You know, eventual sort of Slack notification comes in that like this channel, somebody asked this sort of kind of important question and I just need to jump in there and try to provide context, et cetera.",
-  "zh": "你知道，最终的 Slack 通知进来了，说在这个频道里，有人问了这个相当重要的问题，我只需要跳进去并提供背景信息等。"
+  "zh": "你知道，最终的 Slack 通知来了，说这个频道里有人问了一个相当重要的问题，我只需要跳进去尝试提供背景等等。"
  },
  {
   "seg": 225,
@@ -1813,7 +1813,7 @@
   "end": 992.276,
   "speaker": "Unknown",
   "en": "It's not hard for me to go answer questions, but it's disrupting me.",
-  "zh": "对我去回答问题来说并不难，但它打断了我。"
+  "zh": "对我来说去回答问题并不难，但它正在打断我。"
  },
  {
   "seg": 227,
@@ -1821,7 +1821,7 @@
   "end": 996.039,
   "speaker": "Unknown",
   "en": "And if I don't go answer it, they won't get an answer for a while.",
-  "zh": "如果我不去回答，他们在一段时间内得不到答案。"
+  "zh": "如果我不去回答，他们暂时不会得到答案。"
  },
  {
   "seg": 228,
@@ -1829,7 +1829,7 @@
   "end": 1000.963,
   "speaker": "Unknown",
   "en": "And what we found is like our agent actually has access to a lot of information that people ask questions about.",
-  "zh": "我们发现的是，我们的智能体实际上可以访问人们询问的很多信息。"
+  "zh": "我们发现的是，我们的智能体实际上可以访问人们询问的大量信息。"
  },
  {
   "seg": 229,
@@ -1837,7 +1837,7 @@
   "end": 1002.284,
   "speaker": "Unknown",
   "en": "At least this is true internally.",
-  "zh": "至少在公司内部是这样。"
+  "zh": "至少这在内部是真的。"
  },
  {
   "seg": 230,
@@ -1845,7 +1845,7 @@
   "end": 1011.948,
   "speaker": "Unknown",
   "en": "And so we actually have an agent that can watch all of these sort of critical channels and determine whether it has enough sort of confidence to answer the question or not.",
-  "zh": "所以我们实际上有一个智能体可以监视所有这些关键频道，并确定它是否有足够的信心来回答这个问题。"
+  "zh": "所以我们实际上有一个智能体可以监视所有这些关键频道，并确定它是否有足够的信心来回答问题。"
  },
  {
   "seg": 231,
@@ -1853,7 +1853,7 @@
   "end": 1016.67,
   "speaker": "Unknown",
   "en": "And one of the fun things is our agents have access to Slack DMs and things like that.",
-  "zh": "有趣的事情之一是，我们的智能体可以访问 Slack 直接消息之类的东西。"
+  "zh": "有趣的一件事是，我们的智能体可以访问 Slack DM 和类似的东西。"
  },
  {
   "seg": 232,
@@ -1861,7 +1861,7 @@
   "end": 1022.252,
   "speaker": "Unknown",
   "en": "And so you can have an agent that basically will DM you to say, I think I know the answer to this, but I'm not sure.",
-  "zh": "所以你可以有一个智能体，基本上会给你发私信说，我想我知道这个问题的答案，但我不确定。"
+  "zh": "所以你可以有一个智能体，基本上会 DM 你说，我想我知道这个问题的答案，但我不确定。"
  },
  {
   "seg": 233,
@@ -1869,7 +1869,7 @@
   "end": 1024.793,
   "speaker": "Unknown",
   "en": "Can you confirm this for me before I respond back?",
-  "zh": "你能在我回复之前为我确认一下这个吗？"
+  "zh": "我回复之前你能为我确认这个吗？"
  },
  {
   "seg": 234,
@@ -1877,7 +1877,7 @@
   "end": 1029.635,
   "speaker": "Unknown",
   "en": "So this kind of emergent behavior gets kind of fun and interesting as you kind of build these things out.",
-  "zh": "所以这种随着你构建这些东西而产生的紧急行为变得有点有趣和有意思。"
+  "zh": "所以当你构建这些东西时，这种涌现的行为变得有点有趣和有意思。"
  },
  {
   "seg": 235,
@@ -1885,7 +1885,7 @@
   "end": 1036.688,
   "speaker": "Unknown",
   "en": "Okay, so I'm gonna flip over and hope all of this works.",
-  "zh": "好的，所以我打算翻过去，希望所有这一切都能正常工作。"
+  "zh": "好的，所以我准备切换过去，希望这一切都能正常工作。"
  },
  {
   "seg": 236,
@@ -1901,7 +1901,7 @@
   "end": 1045.353,
   "speaker": "Unknown",
   "en": "So, let me see if I can find the one.",
-  "zh": "那么，让我看看我能不能找到那个。"
+  "zh": "所以，让我看看能不能找到那个。"
  },
  {
   "seg": 238,
@@ -1909,7 +1909,7 @@
   "end": 1050.91,
   "speaker": "Unknown",
   "en": "So this is our sort of demo application running in our sort of demo sort of Slack environment.",
-  "zh": "这是运行在我们的演示 Slack 环境中的我们的演示应用程序。"
+  "zh": "所以这是运行在我们的演示 Slack 环境中的我们的演示应用程序。"
  },
  {
   "seg": 239,
@@ -1917,7 +1917,7 @@
   "end": 1058.295,
   "speaker": "Unknown",
   "en": "And what I wanted to show off was some of our deployment stuff and talk a little bit more about what's kind of going on under the hood.",
-  "zh": "我想展示的是我们的一些部署相关的东西，并多谈谈幕后发生了什么。"
+  "zh": "我想要展示的是我们的一些部署方面的东西，并多谈谈幕后正在发生的事情。"
  },
  {
   "seg": 240,
@@ -1925,7 +1925,7 @@
   "end": 1062.898,
   "speaker": "Unknown",
   "en": "So this is sort of a fake environment just to kind of showcase some things.",
-  "zh": "所以这只是一个虚假的环境，只是为了展示一些东西。"
+  "zh": "所以这只是一个假的环境，只是为了展示一些东西。"
  },
  {
   "seg": 241,
@@ -1933,7 +1933,7 @@
   "end": 1071.027,
   "speaker": "Unknown",
   "en": "So here, anytime somebody posts a sort of GitHub tag, our agent's going to sort of see that and say, oh, I should, that's a release?",
-  "zh": "所以在这里，任何时候有人发布某种 GitHub 标签，我们的智能体都会看到那个并说，哦，我应该，那是发布吗？"
+  "zh": "在这里，任何时候有人发布一个 GitHub 标签，我们的智能体就会看到那个并说，哦，我应该，那是发布吗？"
  },
  {
   "seg": 242,
@@ -1965,7 +1965,7 @@
   "end": 1076.292,
   "speaker": "Unknown",
   "en": "But it's not just going to watch it.",
-  "zh": "但它不只是去监视它。"
+  "zh": "但它不仅会监视它。"
  },
  {
   "seg": 246,
@@ -1973,7 +1973,7 @@
   "end": 1078.434,
   "speaker": "Unknown",
   "en": "It's going to do something that's slightly more intelligent.",
-  "zh": "它会做稍微更智能一点的事情。"
+  "zh": "它将做稍微更智能的事情。"
  },
  {
   "seg": 247,
@@ -1981,7 +1981,7 @@
   "end": 1081.197,
   "speaker": "Unknown",
   "en": "Because like I said before, everybody kind of has a CI CD system.",
-  "zh": "因为正如我之前所说，每个人都有某种 CI CD 系统。"
+  "zh": "就像我之前说的，每个人都有一个 CI CD 系统。"
  },
  {
   "seg": 248,
@@ -1989,7 +1989,7 @@
   "end": 1084.341,
   "speaker": "Unknown",
   "en": "It will do the sort of standard checks on certain KPIs.",
-  "zh": "它会对某些 KPI 进行标准的检查。"
+  "zh": "它将对某些 KPI 进行标准检查。"
  },
  {
   "seg": 249,
@@ -1997,7 +1997,7 @@
   "end": 1104.895,
   "speaker": "Unknown",
   "en": "But what the agent is able to do is actually look at the changes that are going in, understand what telemetry might help us evaluate whether those changes are good or not good or putting the system in an abnormal state, and build a sort of customized plan that is going to check just for this specific release.",
-  "zh": "但是智能体能够做的是实际查看正在进行的更改，理解哪些遥测技术可能帮助我们要评估这些更改是好还是不好，或者使系统处于异常状态，并构建一个定制的计划，只针对这个特定发布进行检查。"
+  "zh": "但智能体能够做的是查看正在进行的变更，理解什么遥测技术可能帮助我们评估这些变更是好还是坏，或者使系统处于异常状态，并构建一个定制的计划，只为这个特定发布进行检查。"
  },
  {
   "seg": 250,
@@ -2005,7 +2005,7 @@
   "end": 1106.897,
   "speaker": "Unknown",
   "en": "And this is why I kind of go back to like,",
-  "zh": "这就是我为什么要回到，"
+  "zh": "这就是我为什么有点回到像,"
  },
  {
   "seg": 251,
@@ -2013,7 +2013,7 @@
   "end": 1112.098,
   "speaker": "Unknown",
   "en": "Our goal is not to sit here and say, we're going to replace an entire CI, CD pipeline.",
-  "zh": "我们的目标不是坐在这里说，我们要取代整个 CI、CD 流水线。"
+  "zh": "我们的目标不是坐在这里说,我们要取代整个 CI、CD 流水线。"
  },
  {
   "seg": 252,
@@ -2021,7 +2021,7 @@
   "end": 1113.759,
   "speaker": "Unknown",
   "en": "You've spent time organizing that.",
-  "zh": "你花时间组织了它。"
+  "zh": "你花时间组织了那个。"
  },
  {
   "seg": 253,
@@ -2029,7 +2029,7 @@
   "end": 1120.221,
   "speaker": "Unknown",
   "en": "But this can sort of patch a lot of parts of your system that may not be as robust as they should be.",
-  "zh": "但这可以修补你的系统中很多可能不够健壮的部分。"
+  "zh": "但这可以修补你的系统中可能不够健壮的许多部分。"
  },
  {
   "seg": 254,
@@ -2037,7 +2037,7 @@
   "end": 1125.442,
   "speaker": "Unknown",
   "en": "And it would be great if you had a single engineer just focused on watching all the things on every release.",
-  "zh": "如果你能有一个专门的工程师只关注每次发布时的所有事情，那就太好了。"
+  "zh": "如果你有一位单一的工程师只专注于观察每次发布的所有事情,那会很棒。"
  },
  {
   "seg": 255,
@@ -2069,7 +2069,7 @@
   "end": 1133.685,
   "speaker": "Unknown",
   "en": "So now the agent can come and actually do a lot of that sort of dynamic understanding of,",
-  "zh": "所以现在智能体可以进来，实际上做很多那种动态的理解，"
+  "zh": "所以现在智能体可以进来并真正做很多那种动态理解,"
  },
  {
   "seg": 259,
@@ -2093,7 +2093,7 @@
   "end": 1139.307,
   "speaker": "Unknown",
   "en": "And so here, the checkout replaces currency service.",
-  "zh": "所以在这里，结账取代了货币服务。"
+  "zh": "所以在这里,结账取代了货币服务。"
  },
  {
   "seg": 262,
@@ -2109,7 +2109,7 @@
   "end": 1145.469,
   "speaker": "Unknown",
   "en": "Well, let's take a look at the Kafka pipeline because that sort of involves.",
-  "zh": "好吧，让我们看看 Kafka 流水线，因为那涉及到了。"
+  "zh": "好吧,让我们看看 Kafka 流水线,因为这涉及到。"
  },
  {
   "seg": 264,
@@ -2117,7 +2117,7 @@
   "end": 1150.131,
   "speaker": "Unknown",
   "en": "This is the sort of causal chain I want to sort of say I want to make sure is healthy.",
-  "zh": "这就是我想要说的那种因果链，我想确保它是健康的。"
+  "zh": "这是我想要确保健康的因果链。"
  },
  {
   "seg": 265,
@@ -2133,7 +2133,7 @@
   "end": 1155.553,
   "speaker": "Unknown",
   "en": "And it can check it not just once, but sort of on an ongoing basis.",
-  "zh": "而且它不仅可以检查一次，还可以在持续的基础上检查。"
+  "zh": "它可以检查它不止一次,而是持续地。"
  },
  {
   "seg": 267,
@@ -2149,7 +2149,7 @@
   "end": 1161.516,
   "speaker": "Unknown",
   "en": "It's not like, oh, let's just wait for 15 minutes and then try this again, and then we'll be done.",
-  "zh": "不像是，哦，我们就等 15 分钟然后再试一次，然后我们就完成了。"
+  "zh": "这不是像,哦,让我们等 15 分钟然后再试一次,然后我们就完成了。"
  },
  {
   "seg": 269,
@@ -2157,7 +2157,7 @@
   "end": 1167.999,
   "speaker": "Unknown",
   "en": "Again, the agent has a bit more autonomy, and you get to guide it a bit on how much autonomy you want it to have.",
-  "zh": "同样，智能体有更多的自主权，你可以稍微引导一下你希望它拥有多少自主权。"
+  "zh": "同样,智能体有更多的自主性,你可以稍微引导它你想要它有多少自主性。"
  },
  {
   "seg": 270,
@@ -2165,7 +2165,7 @@
   "end": 1176.403,
   "speaker": "Unknown",
   "en": "But it could decide, I want to wait for another hour because this type of issue might only hit every so often, so I really want to spend a little bit more time focused on this.",
-  "zh": "但它可以决定，我想再等一小时，因为这类问题可能只是偶尔出现，所以我真的想花更多时间专注于这个。"
+  "zh": "但它可以决定,我想再等一小时,因为这类问题可能只是偶尔出现,所以我真的想花更多时间专注于这个。"
  },
  {
   "seg": 271,
@@ -2173,7 +2173,7 @@
   "end": 1180.425,
   "speaker": "Unknown",
   "en": "Maybe I'll come back in three days and say, is this deploy still kind of healthy?",
-  "zh": "也许我会在三天后回来说，这个部署是否还算健康？"
+  "zh": "也许我会在三天后回来并说,这个部署还健康吗?"
  },
  {
   "seg": 272,
@@ -2181,7 +2181,7 @@
   "end": 1184.466,
   "speaker": "Unknown",
   "en": "Are we seeing the change in the effect that I expected to see out of this?",
-  "zh": "我们是否看到了我期望看到的效果变化？"
+  "zh": "我们是否看到了我期望从中看到的变化影响?"
  },
  {
   "seg": 273,
@@ -2189,7 +2189,7 @@
   "end": 1192.777,
   "speaker": "Unknown",
   "en": "So this is the type of thing that we can bring, and this again works for feature flags, for info changes, sort of any sort of eventing system that you can think of.",
-  "zh": "所以这是我们可以带来的那种东西，这同样适用于功能标志、信息变更，基本上你能想到的任何事件系统。"
+  "zh": "所以这是我们可以带来的那种东西,这同样适用于功能标志,用于信息变更,几乎任何你可以想到的事件系统。"
  },
  {
   "seg": 274,
@@ -2213,7 +2213,7 @@
   "end": 1209.523,
   "speaker": "Unknown",
   "en": "So this is just a summarization of all of the work that was done over the last day that the agent is kind of just summarizing up.",
-  "zh": "所以这只是对智能体刚刚总结的过去一天所做的所有工作的总结。"
+  "zh": "所以这只是对智能体刚刚总结的过去一天完成的所有工作的总结。"
  },
  {
   "seg": 277,
@@ -2221,7 +2221,7 @@
   "end": 1220.292,
   "speaker": "Unknown",
   "en": "And this one's a little bit verbose, but you can see a bunch of different sort of investigation summaries that we did, some notable changes, et cetera, were completed.",
-  "zh": "这个有点冗长，但你可以看到我们做的一系列不同的调查总结，一些值得注意的变更等，都已完成。"
+  "zh": "这有点冗长,但你可以看到我们做的各种不同的调查摘要,一些显著的变化等,已经完成。"
  },
  {
   "seg": 278,
@@ -2229,7 +2229,7 @@
   "end": 1222.9,
   "speaker": "Unknown",
   "en": "Etc, critical open.",
-  "zh": "等等，关键开放问题。"
+  "zh": "等等,关键的未处理。"
  },
  {
   "seg": 279,
@@ -2237,7 +2237,7 @@
   "end": 1226.002,
   "speaker": "Unknown",
   "en": "I guess that's the on-call handoff.",
-  "zh": "我猜这就是值班交接。"
+  "zh": "我想这就是值班交接。"
  },
  {
   "seg": 280,
@@ -2245,7 +2245,7 @@
   "end": 1235.466,
   "speaker": "Unknown",
   "en": "But one of the nice things, and I don't know if I'll be able to watch it go all the way, but you can always just come back in this thread and, you know, this is too verbose.",
-  "zh": "但其中一件好事，我不知道我能不能看着它一直跑下去，但你总是可以回到这个线程里，你知道，这太冗长了。"
+  "zh": "但好处之一,我不知道我能否一直看着它完成,但你总是可以回到这个线程里,然后,你知道,这太冗长了。"
  },
  {
   "seg": 281,
@@ -2253,7 +2253,7 @@
   "end": 1238.073,
   "speaker": "Unknown",
   "en": "Those make it shorter.",
-  "zh": "那些让它短一点。"
+  "zh": "那让它变短点。"
  },
  {
   "seg": 282,
@@ -2261,7 +2261,7 @@
   "end": 1243.336,
   "speaker": "Unknown",
   "en": "And I'm not gonna be, unfortunately, no time to watch this actually go, but this works.",
-  "zh": "而且我不会，不幸的是，没时间看着它实际运行，但这行得通。"
+  "zh": "我不会,不幸的是,没时间看着它实际运行,但这行得通。"
  },
  {
   "seg": 283,
@@ -2269,7 +2269,7 @@
   "end": 1253.162,
   "speaker": "Unknown",
   "en": "The agent is able to update its task underneath and able to sort of give you the answer, like update, so that the next time it fires, it's not going to...",
-  "zh": "智能体能够在底下更新它的任务，并能够给你答案，比如更新，这样下次它触发时，它就不会……"
+  "zh": "智能体能够在底下更新它的任务并能够给你答案,像更新,这样下次它触发时,它不会..."
  },
  {
   "seg": 284,
@@ -2277,7 +2277,7 @@
   "end": 1257.406,
   "speaker": "Unknown",
   "en": "And I can tell it explicitly what I want, et cetera.",
-  "zh": "而且我可以明确地告诉我想要什么，等等。"
+  "zh": "我可以明确地告诉我想要什么,等等。"
  },
  {
   "seg": 285,
@@ -2317,7 +2317,7 @@
   "end": 1270.742,
   "speaker": "Unknown",
   "en": "I don't have to at mention Resolve, whatever.",
-  "zh": "我不必 @ 提到 Resolve，不管怎样。"
+  "zh": "我不必在提及时提到 Resolve,不管怎样。"
  },
  {
   "seg": 290,
@@ -2325,7 +2325,7 @@
   "end": 1273.625,
   "speaker": "Unknown",
   "en": "I've set up this agent to sort of passively watch this channel.",
-  "zh": "我已经设置了这个智能体来被动地监视这个频道。"
+  "zh": "我已经设置了这个智能体来被动地观察这个频道。"
  },
  {
   "seg": 291,
@@ -2333,7 +2333,7 @@
   "end": 1275.187,
   "speaker": "Unknown",
   "en": "If you see something that you think",
-  "zh": "如果你看到你认为的东西"
+  "zh": "如果你看到你认为..."
  },
  {
   "seg": 292,
@@ -2341,7 +2341,7 @@
   "end": 1281.008,
   "speaker": "Unknown",
   "en": "If you have an answer for that somebody's kind of digging into, go ahead and respond.",
-  "zh": "如果你对某人正在深入研究的事情有答案，就继续回应。"
+  "zh": "如果你有某人正在深入研究的问题的答案,请继续并回应。"
  },
  {
   "seg": 293,
@@ -2349,7 +2349,7 @@
   "end": 1282.029,
   "speaker": "Unknown",
   "en": "Otherwise, don't.",
-  "zh": "否则，不要。"
+  "zh": "否则,不要。"
  },
  {
   "seg": 294,
@@ -2357,7 +2357,7 @@
   "end": 1286.77,
   "speaker": "Unknown",
   "en": "So here's a message that I posted that it's decided I don't need to respond to this.",
-  "zh": "所以这是我发布的一条消息，它决定我不需要对此回应。"
+  "zh": "所以这是我发布的一条消息,它决定我不需要回应这个。"
  },
  {
   "seg": 295,
@@ -2365,7 +2365,7 @@
   "end": 1290.851,
   "speaker": "Unknown",
   "en": "So again, very kind of flexible system that can kind of adapt to a bunch of different things.",
-  "zh": "所以同样，非常灵活的系统，可以适应各种不同的事情。"
+  "zh": "所以同样,非常灵活的系统,可以适应许多不同的事情。"
  },
  {
   "seg": 296,
@@ -2373,7 +2373,7 @@
   "end": 1303.531,
   "speaker": "Unknown",
   "en": "We have, in the UI, there's a bunch of stuff that you can do.",
-  "zh": "在 UI 中，你可以做很多事情。"
+  "zh": "我们在 UI 中,有一堆你可以做的事情。"
  },
  {
   "seg": 297,
@@ -2381,7 +2381,7 @@
   "end": 1309.935,
   "speaker": "Unknown",
   "en": "You can always go down and inspect all the different tasks that you have and view their reports, view previous runs.",
-  "zh": "你总是可以下去检查你拥有的所有不同任务，查看它们的报告，查看之前的运行。"
+  "zh": "你总是可以下去检查你拥有的所有不同任务并查看它们的报告,查看以前的运行。"
  },
  {
   "seg": 298,
@@ -2389,7 +2389,7 @@
   "end": 1314.897,
   "speaker": "Unknown",
   "en": "You can see all the work that the agent has done underneath to sort of accomplish that task.",
-  "zh": "你可以看到智能体在底下为了完成该任务所做的所有工作。"
+  "zh": "你可以看到智能体在底下做的所有工作以完成那个任务。"
  },
  {
   "seg": 299,
@@ -2397,7 +2397,7 @@
   "end": 1329.745,
   "speaker": "Unknown",
   "en": "So you get a lot of visibility into what the agent is doing, but we think the surface area, being where you live, so Slack is this kind of, or MS Teams if you're on MS Teams, has this kind of first party experience to sort of integrate the agent into is incredibly important.",
-  "zh": "所以你可以清楚地看到智能体在做什么，但我们认为界面，也就是你生活的地方，所以 Slack 是这种，或者如果你用 MS Teams，那种将智能体集成进来的第一方体验是极其重要的。"
+  "zh": "所以你对智能体正在做的事情有很多可见性,但我们认为表面积,也就是你生活的地方,所以 Slack 是这种,或者 MS Teams 如果你在 MS Teams 上,有这种第一方体验可以将智能体集成进去,这非常重要。"
  },
  {
   "seg": 300,
@@ -2405,7 +2405,7 @@
   "end": 1333.674,
   "speaker": "Unknown",
   "en": "And so how would you get this stuff sort of set up?",
-  "zh": "所以你会如何把这东西设置好？"
+  "zh": "所以你会怎么把这东西设置好呢？"
  },
  {
   "seg": 301,
@@ -2413,7 +2413,7 @@
   "end": 1337.834,
   "speaker": "Unknown",
   "en": "It's really just through talking with the agent.",
-  "zh": "真的只是通过与智能体交谈。"
+  "zh": "这真的只是通过与智能体对话来完成的。"
  },
  {
   "seg": 302,
@@ -2421,7 +2421,7 @@
   "end": 1343.716,
   "speaker": "Unknown",
   "en": "And so here, this is me sort of saying, hey, I wanna do a new recurring health summary for my team.",
-  "zh": "所以在这里，这有点像我说的，嘿，我想为我的团队做一个新的定期健康摘要。"
+  "zh": "在这里，这就像是我说，嘿，我想为我的团队做一个新的定期健康摘要。"
  },
  {
   "seg": 303,
@@ -2429,7 +2429,7 @@
   "end": 1357.259,
   "speaker": "Unknown",
   "en": "So the agent's going to take a look at my environment, it's gonna explore my environment a little bit, and eventually likely come back and ask me a couple questions about what I want to see, what kind of report do I want, how verbose do I want it, et cetera.",
-  "zh": "所以智能体会查看我的环境，它会稍微探索一下我的环境，最终可能会回来问我几个关于我想看什么的问题，我想要什么样的报告，我想要多详细等等。"
+  "zh": "所以智能体将会查看我的环境，它会稍微探索一下我的环境，最终可能会回来问我几个问题，关于我想看什么，我想要什么样的报告，我想要多详细等等。"
  },
  {
   "seg": 304,
@@ -2437,7 +2437,7 @@
   "end": 1365.121,
   "speaker": "Unknown",
   "en": "The agent's gonna go ahead and do all that, and it's gonna set up that sort of initial thing for me so that I can test it out, make sure it's working, and then share it with the rest of my team.",
-  "zh": "智能体将会继续去做所有这些，它会为我设置那种初始的东西，这样我就可以测试它，确保它工作，然后把它分享给我的团队其余成员。"
+  "zh": "智能体会继续做所有这些，它会为我设置那个初始的东西，这样我就可以测试它，确保它工作，然后与我的团队其他人分享它。"
  },
  {
   "seg": 305,
@@ -2445,7 +2445,7 @@
   "end": 1373.034,
   "speaker": "Unknown",
   "en": "In the interest of time, I don't think we'll get to this, but come by the booth and you can see more.",
-  "zh": "为了节省时间，我想我们不会展示这个，但欢迎来展位，你可以看到更多。"
+  "zh": "为了时间考虑，我想我们不会展示这个，但来看看展位，你可以看到更多。"
  },
  {
   "seg": 306,
@@ -2453,7 +2453,7 @@
   "end": 1376.4,
   "speaker": "Unknown",
   "en": "Cool.",
-  "zh": "酷。"
+  "zh": "很酷。"
  },
  {
   "seg": 307,
@@ -2461,7 +2461,7 @@
   "end": 1383.22,
   "speaker": "Unknown",
   "en": "So that's background agents.",
-  "zh": "这就是后台智能体。"
+  "zh": "所以这就是后台智能体。"
  },
  {
   "seg": 308,
@@ -2469,7 +2469,7 @@
   "end": 1387.082,
   "speaker": "Unknown",
   "en": "And again, I sort of lean back on be creative.",
-  "zh": "同样，我有点倾向于发挥创意。"
+  "zh": "同样，我有点倾向于要发挥创意。"
  },
  {
   "seg": 309,
@@ -2477,7 +2477,7 @@
   "end": 1388.743,
   "speaker": "Unknown",
   "en": "Everyone has unique work.",
-  "zh": "每个人的工作都是独特的。"
+  "zh": "每个人都有独特的工作。"
  },
  {
   "seg": 310,
@@ -2485,7 +2485,7 @@
   "end": 1393.425,
   "speaker": "Unknown",
   "en": "As a company, we believe that every company is a unique place.",
-  "zh": "作为一家公司，我们相信每家公司都是一个独特的场所。"
+  "zh": "作为一家公司，我们认为每家公司都是一个独特的地方。"
  },
  {
   "seg": 311,
@@ -2493,7 +2493,7 @@
   "end": 1396.867,
   "speaker": "Unknown",
   "en": "That's why we spend so much time on our knowledge system, et cetera.",
-  "zh": "这就是为什么我们在我们的知识系统等事情上花费这么多时间。"
+  "zh": "这就是为什么我们在我们的知识系统等方面花了这么多时间。"
  },
  {
   "seg": 312,
@@ -2501,7 +2501,7 @@
   "end": 1406.972,
   "speaker": "Unknown",
   "en": "Truly understanding what your environment looks like, what your needs are, et cetera, that begins to kind of tell you where the biggest benefit from having these agents begin to pick up work would be.",
-  "zh": "真正理解你的环境是什么样的，你的需求是什么等等，这开始告诉你从让这些智能体开始接手工作中获得最大好处的地方在哪里。"
+  "zh": "真正了解你的环境是什么样子的，你的需求是什么等等，这开始会告诉你，从让这些智能体开始接手工作中获得最大好处的地方在哪里。"
  },
  {
   "seg": 313,
@@ -2509,7 +2509,7 @@
   "end": 1418.536,
   "speaker": "Unknown",
   "en": "Also, just to call out, if you have an agent harness internally, if you're building your own, everything that I showed is accessible through kind of MCP servers, et cetera.",
-  "zh": "另外，值得一提的是，如果你内部有智能体安全带，如果你正在构建你自己的，我展示的所有内容都可以通过 MCP 服务器等访问。"
+  "zh": "另外，只是提一下，如果你内部有智能体束具，如果你正在构建自己的，我展示的所有东西都可以通过 MCP 服务器等访问。"
  },
  {
   "seg": 314,
@@ -2517,7 +2517,7 @@
   "end": 1431.982,
   "speaker": "Unknown",
   "en": "So you can really graph resolve into kind of any system that you have as just kind of an extension of learning to kind of do deeper work or to sort of pull production context a bit more efficiently or even augmented with all that learning stuff that we've done.",
-  "zh": "所以你可以真正地图解析到你拥有的任何系统中，作为学习的一种延伸，以便做更深入的工作，或者更高效地提取生产上下文，甚至用我们要做的所有学习内容来增强。"
+  "zh": "所以你真的可以将图解析到你拥有的任何系统中，就像作为学习的一种扩展，以做更深入的工作，或者更有效地提取生产上下文，甚至用我们做的所有学习东西来增强它。"
  },
  {
   "seg": 315,
@@ -2525,7 +2525,7 @@
   "end": 1435.903,
   "speaker": "Unknown",
   "en": "And then, obviously, bring your own skills along for the ride.",
-  "zh": "然后，显然，带上你自己的技能一起参与。"
+  "zh": "然后，显然，把你自己的技能也带上。"
  },
  {
   "seg": 316,
@@ -2533,7 +2533,7 @@
   "end": 1437.584,
   "speaker": "Unknown",
   "en": "Don't go duplicate a bunch of stuff.",
-  "zh": "不要去复制一堆东西。"
+  "zh": "不要去重复一堆东西。"
  },
  {
   "seg": 317,
@@ -2541,7 +2541,7 @@
   "end": 1448.71,
   "speaker": "Unknown",
   "en": "So really, the biggest things to take away, cost of operational work, it's not navigating, it's not just in the task execution, it's in the environment complexity, right?",
-  "zh": "所以，真正要记住的最大事情是，运营工作的成本，不在于导航，不仅仅在于任务执行，而在于环境的复杂性，对吧？"
+  "zh": "所以真正要带走的最重要的事情是，运营工作的成本，不在于导航，不仅仅在于任务执行，而在于环境的复杂性，对吧？"
  },
  {
   "seg": 318,
@@ -2549,7 +2549,7 @@
   "end": 1450.631,
   "speaker": "Unknown",
   "en": "That's where the biggest issue is going to happen.",
-  "zh": "这就是最大的问题将会发生的地方。"
+  "zh": "那就是最大的问题会发生的地方。"
  },
  {
   "seg": 319,
@@ -2557,7 +2557,7 @@
   "end": 1458.215,
   "speaker": "Unknown",
   "en": "Background agents, they run on schedules, they run on triggers, they're very composable, you can sort of graph them into lots of different use cases.",
-  "zh": "后台智能体，它们按计划运行，它们按触发器运行，它们非常可组合，你可以把它们图解到很多不同的用例中。"
+  "zh": "后台智能体，它们按计划运行，它们按触发器运行，它们是非常可组合的，你可以把它们绘制到很多不同的用例中。"
  },
  {
   "seg": 320,
@@ -2565,7 +2565,7 @@
   "end": 1459.916,
   "speaker": "Unknown",
   "en": "It's fun to see people explore that.",
-  "zh": "看到人们探索这一点很有趣。"
+  "zh": "看到人们探索那个很有趣。"
  },
  {
   "seg": 321,
@@ -2573,7 +2573,7 @@
   "end": 1466.798,
   "speaker": "Unknown",
   "en": "Yeah, you open Resolve just to kind of see what the top findings are, et cetera.",
-  "zh": "是的，你打开 Resolve 只是为了看看最大的发现是什么等等。"
+  "zh": "是的，你打开 Resolve 只是想看看最重要的发现是什么等等。"
  },
  {
   "seg": 322,
@@ -2581,7 +2581,7 @@
   "end": 1471.36,
   "speaker": "Unknown",
   "en": "But ideally, a lot of your interaction is kind of in the places that you're already kind of doing work.",
-  "zh": "但理想情况下，你的很多互动是发生在那些你已经在工作的场所中。"
+  "zh": "但理想情况下，你的很多互动发生在你已经做工作的那些地方。"
  },
  {
   "seg": 323,
@@ -2589,7 +2589,7 @@
   "end": 1477.002,
   "speaker": "Unknown",
   "en": "So if you have any questions, you can find me down at the booth or just meet me out in the hall.",
-  "zh": "所以如果你有任何问题，你可以在展位找到我，或者就在大厅找我。"
+  "zh": "如果你有什么问题，你可以在下面的展位找到我，或者就在大厅里见我。"
  },
  {
   "seg": 324,
@@ -2597,7 +2597,7 @@
   "end": 1477.862,
   "speaker": "Unknown",
   "en": "But thanks for coming.",
-  "zh": "但感谢光临。"
+  "zh": "但谢谢光临。"
  },
  {
   "seg": 325,
@@ -2605,6 +2605,6 @@
   "end": 1481.243,
   "speaker": "Unknown",
   "en": "Appreciate it.",
-  "zh": "谢谢。"
+  "zh": "非常感激。"
  }
 ]

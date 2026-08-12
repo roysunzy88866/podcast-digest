@@ -1,0 +1,416 @@
+{
+  "episode_id": "2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made",
+  "podcast": "AI & I",
+  "date": "2026-08-12",
+  "tags": [
+    "智能体网络",
+    "MCP",
+    "智能体",
+    "康威定律",
+    "工匠精神"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "kevin-scott",
+      "type": "person",
+      "role": "host",
+      "name": "Kevin Scott",
+      "file": "Kevin Scott",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说它是一家平台公司，CTO 正在内部大力推动所有系统讲同一种标准协议，避免各部门交付出割裂的组织架构图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            75.096,
+            87.445
+          ],
+          "quote": "One of the things as CTO that I've been pushing for at Microsoft is I want all of our systems internally to speak a standard protocol to all of the agents that we're writing inside of Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            401.812,
+            404.856
+          ],
+          "quote": "I guess, why is that important to Microsoft?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            422.352,
+            431.159
+          ],
+          "quote": "And like, even if you sort of scope it down narrowly to enterprise agents, like one of the things as CTO that I've been pushing for at Microsoft is like, I want all of our",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            464.32,
+            474.325
+          ],
+          "quote": "And so, you know, you certainly inside of the confines of a company like Microsoft, like you don't want to be shipping your org chart when you are building your agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            556.258,
+            574.062
+          ],
+          "quote": "Even more important than the agents that we're going to write ourselves, like that platform layer that Microsoft has been building in technology for 50 years, like we just want to make sure that we are helping solve the problems that are emerging as this agentic web is happening.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub Copilot",
+      "file": "GitHub Copilot",
+      "primary": false,
+      "how_described": "本集提到微软会依托它及相关的 GitHub 智能体，非常努力地参与竞争，成为众多开发者选择的工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            1267.613,
+            1280.755
+          ],
+          "quote": "And, like, we certainly with GitHub Copilot and the, you know, GitHub agent stuff that we're working on, like, I think we will compete very hard to, like, be a tool that lots of people will choose because it's very useful to them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：要变得真正有用，就必须有持久的记忆、有身份、能代表用户去调用各种系统查询信息并采取行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            643.196,
+            655.645
+          ],
+          "quote": "So, like, we need agents to have identities so that you can build entitlement systems so you can say this agent is acting on behalf of this person and like they are entitled to see these resources in this system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            656.926,
+            664.252
+          ],
+          "quote": "And like even having a way for an agent to sort of go query a bunch of systems and say, like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            860.48,
+            862.401
+          ],
+          "quote": "Like if you have an agent that you",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1255.111,
+            1257.431
+          ],
+          "quote": "Like, is there going to be, like, one agent to rule them all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1267.613,
+            1280.755
+          ],
+          "quote": "And, like, we certainly with GitHub Copilot and the, you know, GitHub agent stuff that we're working on, like, I think we will compete very hard to, like, be a tool that lots of people will choose because it's very useful to them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1584.738,
+            1586.038
+          ],
+          "quote": "And like the agent is going to take.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-web",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体网络 (agentic web)",
+      "file": "智能体网络",
+      "primary": true,
+      "how_described": "本集把它描述为今年的核心主题：一个像互联网一样的生态系统，需要依靠标准协议支撑，让智能体能实际去完成多步骤的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            131.153,
+            134.597
+          ],
+          "quote": "This year the emphasis is really on the agentic web.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            327.405,
+            344.776
+          ],
+          "quote": "It's like you've seen the first glimmers of like real progress with like super awesome, simple open protocols like MCP that are serving the same purpose in this agentic web as HTTP does on the Internet and where you have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            512.321,
+            534.647
+          ],
+          "quote": "So it is a really simple protocol that solves a really important problem, not just for people who are making agents and building platform infrastructure, but for users of these systems who want them to be more useful and for people who are providers who are like, hey, I want to be participating in this new agentic web.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            556.258,
+            574.062
+          ],
+          "quote": "Even more important than the agents that we're going to write ourselves, like that platform layer that Microsoft has been building in technology for 50 years, like we just want to make sure that we are helping solve the problems that are emerging as this agentic web is happening.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1545.308,
+            1555.635
+          ],
+          "quote": "And then I think modalities that are going to be really different is this agentic web starts to get more complete, more plumbed out, and the models",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            327.405,
+            344.776
+          ],
+          "quote": "It's like you've seen the first glimmers of like real progress with like super awesome, simple open protocols like MCP that are serving the same purpose in this agentic web as HTTP does on the Internet and where you have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            394.224,
+            400.991
+          ],
+          "quote": "And then MCP, which allows you to connect into the wider internet to get more information into agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            510.28,
+            512.221
+          ],
+          "quote": "MCP is like a really great example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            575.103,
+            581.291
+          ],
+          "quote": "It's really cool to see you guys leaning really hard into MCP and integrating it into all of Windows and all that kind of stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            582.613,
+            590.904
+          ],
+          "quote": "And it brings up for me, I've been starting to hear rumblings from people who are thinking a lot about MCP that the security model needs a lot of work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            610.505,
+            611.786
+          ],
+          "quote": "And MCP doesn't really have that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            614.769,
+            633.873
+          ],
+          "quote": "Well, look, I don't know that I know what exactly the right security model is, but the interesting thing about MCP is it is so coherently simple that it's going to be relatively easy for the community to decide what the security model is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            634.313,
+            640.955
+          ],
+          "quote": "We have a bunch of enterprise things that we care a lot about and that we're doing really good work with the MCP",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            700.613,
+            703.974
+          ],
+          "quote": "Not easy, but relatively straightforward to do on top of MCP.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": false,
+      "how_described": "本集提到去年大家还在怀疑它能否持续有效，但事实证明它依然完好无损并在起作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            118.14,
+            122.664
+          ],
+          "quote": "Another thing is I noticed a big emphasis last year on scaling laws.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            145.388,
+            154.298
+          ],
+          "quote": "People were like really in this state of mind that they were doubting that the scaling laws were going to continue to work really well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "conway",
+      "type": "concept",
+      "role": "concept",
+      "name": "康威定律 (Conway)",
+      "file": "康威定律",
+      "primary": true,
+      "how_described": "本集引用它来说明问题：编译器的处理步骤数取决于参与团队数，如果没有统一协议，你交付的产品架构就会是公司的组织架构图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            450.472,
+            461.118
+          ],
+          "quote": "You know, this guy Conway said that the number of stages or passes in your compiler is going to be dictated by the number of teams you have working on the compiler.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "same-origin-policy",
+      "type": "concept",
+      "role": "concept",
+      "name": "同源策略 (same origin policy)",
+      "file": "同源策略",
+      "primary": false,
+      "how_described": "本集提到它是互联网安全模型的一部分，确保网站提供的代码只能在其自身数据上执行，而目前的 MCP 缺少类似机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            599.053,
+            609.964
+          ],
+          "quote": "And the internet has a bunch of things in its security model, like the same origin policy that makes sure that if a website is serving you code, it's only able to execute on its own data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nlweb",
+      "type": "concept",
+      "role": "concept",
+      "name": "NLWeb",
+      "file": "NLWeb",
+      "primary": false,
+      "how_described": "本集提到它在智能体网络中发挥的作用，等同于 HTML 当年对互联网所起的作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            344.976,
+            352.64
+          ],
+          "quote": "We're going to be talking about things like NLWeb that are like serving, you know, the same moral equivalent purpose as HTML does on the Internet.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

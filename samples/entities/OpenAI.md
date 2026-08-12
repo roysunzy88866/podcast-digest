@@ -95,7 +95,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[AGI]] · [[Meta]] · [[Microsoft]] · [[Stripe]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":42,"智能体":73,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":9,"Meta":13,"Microsoft":9,"Stripe":10,"Apple":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":42,"智能体":75,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":9,"Meta":13,"Microsoft":10,"Stripe":10,"Apple":9}</script>
 
 <script>
 (function(){

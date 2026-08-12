@@ -1,0 +1,51 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "07:30",
+      "speaker": "Kevin Scott",
+      "trimmed": false,
+      "tsWas": "07:30",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "13:09",
+      "speaker": "Kevin Scott",
+      "trimmed": false,
+      "tsWas": "13:09",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "18:13",
+      "speaker": "Kevin Scott",
+      "trimmed": false,
+      "tsWas": "18:13",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 5,
+      "timestamp": "24:32",
+      "speaker": "Kevin Scott",
+      "trimmed": false,
+      "tsWas": "24:31",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 6,
+      "timestamp": "25:21",
+      "speaker": "Kevin Scott",
+      "trimmed": false,
+      "tsWas": "25:21",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "短句(3词<6)在转写稿命中 2 处,无法唯一锚定时间戳/说话人,不猜",
+      "en": "You ship your org chart."
+    }
+  ]
+}

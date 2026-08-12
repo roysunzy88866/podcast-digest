@@ -25,7 +25,7 @@ unlisted: true
 
 [[Elena Berger]] · [[Simon Mo]] · [[Matt Bornstein]] · [[vLLM]] · [[开源权重]] · [[推理]] · [[智能体]] · [[后训练]] · [[护栏]] · [[K3]]
 
-<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":73,"后训练":4,"护栏":13,"K3":2}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":75,"后训练":4,"护栏":13,"K3":2}</script>
 
 <script>
 (function(){

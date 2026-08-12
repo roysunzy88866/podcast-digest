@@ -1,54 +1,72 @@
 {
-  "title_zh": "OpenAI 揭秘 Codex 智能体内部：从上下文构建到自动审批的工程实操",
-  "tldr": "拆解 Codex 开源 harness 的五大支柱：上下文管控、异步动作、沙箱安全、网络提速与循环压缩。",
-  "digest_md": "你让一个智能体发封邮件、给它高主观能动性，它发现附件挂不上，转头就把文件传到了某个公开文件共享服务——这种防不胜防的操作，单靠人工审批根本拦不住。这是 OpenAI 工程师在 AI Engineer World's Fair 上演示 Codex 时抛出的真实痛点，而他们的解法是造一个独立的「审查子智能体」。\n\n整个演讲围绕 Codex harness（驱动智能体运行的底层框架，已基于 Apache 2 协议开源，用 Rust 编写）展开，讲的是从用户发送消息到智能体执行动作，这中间到底发生了什么，以及如何解决工程上的硬骨头。以下是几个关键工程决策的拆解。\n\n## 管控上下文：不能无脑塞满模型窗口\n当你在 UI 中发送指令时，harness 要做的第一步也是最核心的一步：上下文构建 [04:20]。上下文不是塞得越多越好。不仅会撑爆 token 预算，更致命的是上下文越长，包含自相矛盾信息的概率就越高，反而会让模型犯晕 [04:37]。为了在保持灵活性（适配无数安装的插件和 MCP）的同时兼顾性能与成本（保持高缓存命中率），Codex 做了两件事：\n\n- **延迟工具加载**：将部分工具标记为 deferred（延迟），它们不直接占用上下文窗口，而是等模型需要时通过 tool search（工具搜索）去发现 [06:07]。\n- **技能列表设硬上限**：将可用技能列表的上限死死卡在最大上下文窗口的 2%。一旦超出，系统会逐步缩减塞进上下文的技能描述篇幅 [06:28]。\n\n## 异步动作与浏览器操作：给智能体配真正的手脚\n智能体只有执行动作才成其为智能体 [07:01]。对于需要并行处理的任务，Codex 赋予了模型 `spawn agent`（生成智能体）工具。主智能体可以借此创建全新的子智能体实例，通过发送输入工具向它们喂送新指令，或者干脆在后台挂起等待结果 [07:29]。这套异步机制同样被复用到了后台终端的调度上。\n\n而在 computer use（计算机使用，即让 AI 操作虚拟桌面或浏览器）的演进上，Codex 抛弃了早期「一步一卡」的刻板调用模式。如今的模型通过编写代码（如 JavaScript 或 Python）来直接脚本化交互 [08:41]。以 browser use（浏览器使用）为例，Codex 会拉起一个贯穿整个对话轮次的 Node REPL（交互式运行环境），然后写出 playwright 代码来操作浏览器实例 [09:08]。这种做法让智能体可以先看懂一个网页的结构，接着直接写出抓取脚本去处理后续几十个相似页面，极大地提升了执行速度 [09:53]。\n\n在文件系统操作上，从 GPT-5 开始的模型都被训练熟练使用 `apply patch`（应用补丁）工具——通过给定 diff（差异对比）来修改或新建文件 [10:15]。如果是文件搜索，模型自然会首选它训练时惯用的 ripgrep（极快的代码搜索工具），所以 harness 干脆自带了它 [10:49]。\n\n## 沙箱与自动审批：让 IT 安全部门不再头疼\n与文件系统的所有交互都必须穿过沙箱隔离层 [11:10]。Codex 在 macOS 上用 Seatbelt，Linux 上用 Bubblewrap。而在 Windows 上，因为系统底层限制，团队索性自己从零造了一个开源沙箱放进了 GitHub 仓库 [11:25]。\n\n沙箱带来的最大痛点是 approval fatigue（审批疲劳）——长时间运行任务时，用户被无休止的授权弹窗折磨，很容易直接勾选「完全访问权限」彻底摆烂，这恰恰是安全部门最痛恨的 [11:59]。为了兼顾安全与体验，Codex 推出了 Autoreview（自动审查）模式。\n\n当模型在沙箱中尝试执行敏感操作（如删文件）并触发权限升级时，系统会拉起一个完全独立的 Autoreview 子智能体 [13:34]。这个子智能体被严格限制了能力：\n1. **禁止繁衍**：它无法再 spawn 新的子智能体 [13:58]。\n2. **只读权限**：它只能看，不能动手改 [14:00]。\n\n系统会把用户授权级别、风险分类法、完整的对话转写文本以及即将执行的工具调用全盘交出 [14:24]。因为「上下文至关重要」——如果是清理 `.git` 文件夹，在特定任务里是合理的，但如果用户没要求，它绝对不该碰用户的历史记录 [14:31]。子智能体据此评估该操作的影响（比如用 curl 测网络通不通可以，但往外网传文件就不行），最终给出自动判定 [15:04]。\n\n## 提速与收尾：网络才是真瓶颈，目标设定要可验证\n推理速度快了，整体未必快。发布 GPT-5.3 Codex Spark（跑在 Cerebras 上达每秒 1000 个 token）时，团队意识到推理已经不再是瓶颈，网络往返延迟才是 [15:44]。\n\n解法是引入 WebSocket 模式，用持久连接替代传统的 HTTP 请求 [16:02]。因为是状态化通信，如果中间发生了工具调用，系统只需回传那一个工具调用的结果，而不必像以前那样把九个历史项目全量重发一遍 [17:04]。\n\n对于需要长时间运转的智能体，团队还讨论了 loops（循环，如 `/goal` 指令）和 compaction（压缩）[17:33]。循环的底层逻辑是：如果目标没完成，harness 会自动注入 continuation prompt（延续提示）逼模型继续干，直到模型主动调用 update goal 工具宣告完成 [18:20]。这就要求用户在设定目标时，**不要写长篇大论，而要设定具体、可机器验证的提示词**（比如「猜对数字」），否则系统根本不知道啥时候算完 [18:33]。\n\n最后，面对运行数天的智能体，auto-compaction（自动压缩）会在服务端自动触发，将巨大的历史上下文窗口打包成一个高密度的 compaction item，供后续轮次使用，从而保持性能不减 [19:01]。\n\n## 本集带走\n- **构建上下文要克制**：塞得越多模型越容易犯晕；给技能描述设硬上限（如 2%），用延迟工具加载按需拉取。\n- **用代码脚本替代点击**：computer use 的正解是让模型写 JavaScript/Python 脚本去驱动 Node REPL，速度和灵活性远超逐步调 API。\n- **隔离你的审查员**：面对审批疲劳，拉起一个只读且无权繁衍的独立子智能体来充当「安全审查员」，综合判定风险。\n- **逼用户写可验证目标**：不要让用户在目标框里写小作文，目标必须是机器能轻易判断是否达成的具体指令。\n- **状态化网络通信**：当推理速度极快时，换成 WebSocket 按需增量传数据，避免全量历史重发拖垮性能。",
+  "title_zh": "Codex 智能体开源架构拆解",
+  "tldr": "拆解 Codex 智能体框架的内部工程机制与核心 API 能力。",
+  "digest_md": "当你给一个 AI 智能体发出指令时，它在底层究竟干了些什么？Codex 智能体框架（harness，即接收指令并驱动模型执行任务的外层架构）的开发者给出的答案是：构建上下文、执行操作、控制风险，还要想尽办法提速。更重要的是，这套用 Rust 写成的框架代码是完全开源（Apache 2 许可证）的，你可以直接拿来当自己智能体的地基 [01:22 Unknown]。\n\n## 双协议架构\n要搞懂智能体怎么工作，得先看它夹在哪两层协议中间 [01:55 Unknown]：\n\n第一层是 **app server 协议**（应用服务器协议），负责处理用户交互界面（UI）与底层框架之间的通信。这套协议是开放的，你可以用它把 Codex 的能力接进任何地方——官方甚至用同一个 app server 把 Codex 塞进了射击游戏《Doom》里 [03:05 Unknown]。\n\n第二层是 **responses API**（响应 API），负责框架与大语言模型推理之间的通信 [02:18 Unknown]。它是去年对传统的 chat completions API（聊天补全接口）重新设计后的产物，专门为「会使用工具的智能体」量身定制，内置了网络搜索、图像生成等复杂能力 [03:17 Unknown]。\n\n## 上下文构建：压榨 token 预算的延迟加载\n智能体干活的第一步是上下文构建（即把指令、历史记录和工具清单打包送给模型）。这里最头疼的问题是：装的工具越多，上下文（塞给模型的背景信息）就越长 [04:20 Unknown]。\n\n这不仅会迅速耗尽你的 token（模型处理文本的最小计费单位）预算，还会引发更严重的问题——上下文越长，里面出现自相矛盾信息的概率就越高，直接导致模型困惑 [04:37 Unknown]。\n\n为了控制上下文体积，Codex 框架采用了**延迟工具**策略 [06:01 Unknown]：不再把所有已安装的工具描述一股脑塞进上下文窗口，而是先标记为延迟加载，等模型在实际任务中需要用某项工具时，再通过「工具搜索」功能去按需获取。自 GPT 5.4 起，开发者可以直接在 responses API 里把任何工具标记为延迟加载 [06:43 Unknown]。\n\n对于可用技能清单，框架则硬性规定其长度不得超过最大上下文窗口的 2%。一旦超出，系统就会自动、缓慢地削减塞进去的技能描述量 [06:28 Unknown]。\n\n## 拆解三大核心操作\n智能体只有能执行操作才配叫智能体。Codex 重点处理三种动作：\n\n1. **异步操作**：最典型的场景是生成子智能体（subagent）。主智能体拿到任务后，可以用工具生成全新的智能体实例，把杂活派给它们，自己则继续干别的事。这套机制同样被用来管理后台终端 [07:29 Unknown]。\n2. **计算机使用（Computer use）**：以前模型操作计算机时特别死板，一次只能执行一个预设动作 [08:19 Unknown]。现在的新做法是让模型利用**代码执行**来自己编写脚本，驱动具体的计算机实现。比如在进行浏览器操作（browser use）时，模型会与一个持久存在的 node REPL（一种交互式编程环境）交互，直接编写 JavaScript 代码来抓取网页数据。这种方式让效率大幅提升，因为模型只要摸清了一个网页的结构，就能写出脚本顺手把后续好几个页面全抓了 [09:28 Unknown]。\n3. **文件系统交互**：从 GPT-5 开始的模型都接受了 apply patch（应用补丁）工具的训练。它们习惯于通过给出一小段差异（diff）代码来修改文件 [10:15 Unknown]。此外，模型在训练时习惯了使用 ripgrep（一种极速文本搜索工具），为了防止你本地没装，Codex 干脆在框架里附带了一份 [10:49 Unknown]。\n\n## 用独立子智能体解决「审批疲劳」\n凡是带沙箱（sandbox，用于隔离程序运行环境的保护层）的智能体，都逃不掉一个抱怨：审批疲劳 [11:59 Unknown]。只要任务稍微长点，用户就不停地被弹窗要求确认权限；可如果你索性开启完全访问模式（full access），一旦你逼迫模型发挥过高的主观能动性（agency），它就可能搞砸转义符，意外删掉一大堆数据 [12:51 Unknown]。\n\n为了兼顾效率和安全，Codex 推出了 Autoreview（自动审查）模式 [13:15 Unknown]。当智能体在沙箱里试图执行操作（比如删文件）并请求升级权限时，系统会悄悄启动一个完全独立的「自动审查子智能体」。\n\n这个子智能体没有进一步衍生子智能体的权力，只拥有只读权限 [13:53 Unknown]。系统会把用户授权情况、风险分类法，以及真实发生的工具调用记录全都喂给它，让它结合上下文进行判断 [14:10 Unknown]。比如同样是删 `.git` 文件夹，如果是你主动要求的，系统就评定为高风险且合理予以放行；如果你没要求，它就该被拦下来 [14:31 Unknown]。这套逻辑不仅管文件，也管网络调用——比如你可以允许模型用 `curl` 请求外部网站测通网，但禁止它上传文件 [15:04 Unknown]。\n\n## 真正的瓶颈是网络而非推理\n当 Codex 推出跑在 Cerebras 芯片上、速度高达每秒 1000 个 token 的 GPT-5.3 Codex Spark 时，团队发现：推理（模型运算）已经不再是瓶颈了，真正的拖累是网络 [15:44 Unknown]。\n\n为此，responses API 引入了 **WebSocket 模式**（一种维持长连接的网络通信协议）[16:02 Unknown]。传统模式下，每次工具调用返回时，系统得把所有历史项目重新发一遍；但在 WebSocket 模式下，系统只发回真正变化的那一项数据 [16:23 Unknown]。随着工具调用越来越频繁，这种只发增量数据的机制能极大提升性能。\n\n## 目标循环与自动压缩\n当需要智能体反反复复执行某事直到达成目标时（比如猜数字），框架会不断自动注入「延续提示词」来驱动它，直到模型主动调用「更新目标」工具宣告任务完成 [18:15 Unknown]。\n\n> 【背景】演讲者在台上用玩笑口吻解释，由于身处 2026 年的 AI Engineer World's Fair（AI 工程师世博会），他在这里必须「合法地」谈谈循环（loops）机制。\n\n这也是为什么设定目标时，指令必须写得极其具体且可验证——千万别写成长篇大论，否则系统根本没法自动检测「到底算不算干完了」[18:33 Unknown]。\n\n如果智能体一口气跑上几天几夜，上下文肯定会爆炸。为此 Codex 在去年底上线了**自动压缩**（auto-compaction）。它会在服务器端将冗长的过往上下文重新打包成一份精简的「压缩项」，只保留后续必需的核心信息，从而让长任务的性能不掉线 [18:54 Unknown]。\n\n## 本集带走\n- **白嫖开源框架**：Codex 框架和 app server 均基于 Apache 2 开源且用 Rust 编写，既能当作学习官方智能体写法的蓝图，也能直接拿来做自己项目的基础设施。\n- **给上下文瘦身**：使用「延迟工具」策略并给技能清单设限（如不超过窗口的 2%），避免 token 耗尽和冗长上下文引发模型困惑。\n- **让代码执行驱动计算机操作**：别再让模型死板地一步步点选，直接给它一个持久化的 REPL 环境，让它自己写脚本批量抓取或操控浏览器。\n- **用「自动审查子智能体」防手抖**：面对沙箱权限审批疲劳，启用只读的子智能体结合上下文判断动作影响（如放行测网但拦截上传），兼顾自动化与安全。\n- **换用 WebSocket 模式提速**：智能体频繁调用工具时，推理不再是瓶颈，网络延迟才是；改用长连接发增量数据可大幅提速。\n- **设定「可验证」的循环目标**：用 `/goal` 功能设定任务时，务必写成具体、系统易于检测的条件，不要写成模糊的长篇散文。",
   "quotes": [
     {
+      "en": "And the harness is written in Rust, so feel free to either learn from it, ask Codex deeper questions about what I'm covering, or fork it and make it your own.",
+      "zh": "框架是用 Rust 编写的，所以你可以随意从中学习、就我讲的内容向 Codex 提出更深层的问题，或者直接 fork 它变成你自己的东西。",
+      "timestamp": "01:22",
+      "speaker": "Unknown"
+    },
+    {
       "en": "But also, the more context you have in your context, the higher it is that you have contradicting information, and it causes confusion for the model.",
-      "zh": "但同样，你的上下文中拥有的上下文越多，你拥有相互矛盾信息的可能性就越高，这会导致模型感到困惑。",
+      "zh": "但同时，你的上下文中拥有的上下文越多，你拥有相互矛盾信息的可能性就越高，这会导致模型困惑。",
       "timestamp": "04:37",
       "speaker": "Unknown"
     },
     {
       "en": "And then the other part is that for available skills, we actually cap the available skills list at 2% of your maximum context window.",
-      "zh": "然后另一部分是对于可用技能，我们实际上将可用技能列表上限为你最大上下文窗口的 2%。",
+      "zh": "另一部分是，对于可用技能，我们实际上将可用技能列表上限设定为你最大上下文窗口的 2%。",
       "timestamp": "06:28",
       "speaker": "Unknown"
     },
     {
       "en": "You asking a model to send out a file through an email, pushing it to have high agency, and it realizes it can't attach the file, so it uploads it to a file share and uses that instead, or messes up some escaping and accidentally deletes too much data.",
-      "zh": "你要求一个模型通过电子邮件发送文件，推动它拥有高主观能动性，它意识到无法附加文件，所以它将其上传到文件共享并改用那个，或者搞砸了一些转义处理并意外删除了太多数据。",
+      "zh": "你要求一个模型通过电子邮件发送文件，推动它拥有很高的主观能动性，它意识到它无法附加文件，所以它将其上传到文件共享并改用那个，或者搞砸了一些转义并意外删除了太多数据。",
       "timestamp": "12:51",
       "speaker": "Unknown"
     },
     {
-      "en": "And so instead, we built Autoreview with this goal to cover all of the things that are harder to predict that an agent might do, and especially in the long run, and approve those automatically without having to escalate them to you while keeping things like data exfiltration outside of it.",
-      "zh": "因此，我们构建了 Autoreview，目标是覆盖所有更难预测的智能体可能会做的事情，尤其是在长期运行中，并自动批准这些事情，而无需将其升级给你，同时将数据泄露等事情排除在外。",
-      "timestamp": "13:15",
-      "speaker": "Unknown"
-    },
-    {
-      "en": "It can't spin up other sub-agents.",
-      "zh": "它无法启动其他子智能体。",
-      "timestamp": "13:58",
-      "speaker": "Unknown"
-    },
-    {
       "en": "So with that, we realized that with all of these tool calls and the interactions, inference was no longer the bottleneck.",
-      "zh": "所以对此我们意识到，随着所有这些工具调用和交互，推理不再是瓶颈。",
+      "zh": "所以我们意识到，随着所有这些工具调用和交互，推理不再是瓶颈了。",
       "timestamp": "15:53",
       "speaker": "Unknown"
     },
     {
       "en": "So for that reason, we introduced WebSocket mode, which means that the responses API doesn't run through server-side events and HTTP, but instead uses a persistent WebSocket connection, which allows us to save both on network overhead, but also provide stateful context, which means we only have to send the data that actually changed.",
-      "zh": "因此，我们引入了 WebSocket 模式，这意味着响应 API 不通过服务器端事件和 HTTP 运行，而是使用持久的 WebSocket 连接，这允许我们节省网络开销，同时也提供有状态上下文，这意味着我们只需发送实际变化的数据。",
+      "zh": "出于这个原因，我们引入了 WebSocket 模式，这意味着 responses API 不再通过服务器端事件和 HTTP 运行，而是使用持久的 WebSocket 连接，这不仅节省了网络开销，还提供了有状态的上下文，意味着我们只需要发送实际变化的数据。",
       "timestamp": "16:02",
       "speaker": "Unknown"
     },
     {
       "en": "That is the reason why you actually don't want to write full essays like I know a lot of you have been trying to into your goal, but instead have very concrete and verifiable prompts so that it's easy to detect when things are done.",
-      "zh": "这就是为什么您实际上不想写完整的文章，就像我知道你们很多人一直试图写入您的目标那样，而是拥有非常具体和可验证的提示，以便很容易检测到事情何时完成。",
+      "zh": "这就是为什么你实际上不想像你们很多人一直试图做的那样，把完整的散文写进你的目标里，而是要设定非常具体且可验证的提示词，以便很容易检测事情何时完成。",
       "timestamp": "18:33",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And because of that, we introduced end of last year auto-compaction.",
+      "zh": "正因为如此，我们在去年年底引入了自动压缩。",
+      "timestamp": "19:01",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The first one is the Codex app server and the harness are open source.",
+      "zh": "第一件事是，Codex 应用服务器和框架都是开源的。",
+      "timestamp": "19:46",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So even if you want to build your own agent, you can leverage these things like tool search, apply patch, web sockets, or server-side compaction.",
+      "zh": "所以即使你想构建自己的智能体，你也可以利用这些功能，比如工具搜索、应用补丁、WebSocket 或服务器端压缩。",
+      "timestamp": "20:05",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And the last thing is as models evolve, keep an eye out on how we're evolving the responses API, how we're evolving Codex, and use that as a way to understand how you want to update your own agents to make use of these new capabilities.",
+      "zh": "最后一件事是，随着模型的进化，请密切关注我们如何演进 responses API，如何演进 Codex，并以此作为了解你该如何更新自己智能体以利用这些新能力的途径。",
+      "timestamp": "20:16",
       "speaker": "Unknown"
     }
   ]

@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[开源模型]] · [[Meta]] · [[Jensen Wong]] · [[Sarah Wang]] · [[Alexandr Wang]] · [[Paul Kedrosky]] · [[Mike Allen]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":32,"Anthropic":42,"智能体":73,"开源模型":4,"Meta":13,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1,"Paul Kedrosky":1,"Mike Allen":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":32,"Anthropic":42,"智能体":75,"开源模型":4,"Meta":13,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1,"Paul Kedrosky":1,"Mike Allen":1}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]]
+[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Notion":5,"GitHub":11,"Heroku":1,"Anthropic":42,"OpenAI":32,"Figma":6,"主观能动性":8,"可塑软件":1,"智能体":73}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Notion":5,"GitHub":12,"Heroku":1,"Anthropic":42,"OpenAI":32,"Figma":6,"主观能动性":8,"可塑软件":1,"智能体":75}</script>
 
 <script>
 (function(){
