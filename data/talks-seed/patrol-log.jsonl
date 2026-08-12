@@ -113,3 +113,4 @@
 {"ts":"2026-08-11T13:40:37.742Z","action":"rejected","channel":"langchain","videoId":"O0hkpChFBkM","title":"Create an agent that can browse the web with Managed Deep Agents and Browserbase's Stagehand","durationSec":638,"verdict":"不对味","reason":"11分钟产品集成demo，属频道特有提示里提到的自家产品宣传/功能教程类，非企业客户实操案例或创始人对谈。"}
 {"ts":"2026-08-12T01:40:44.151Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-12T01:41:09.058Z","action":"meta-failed","channel":"langchain","videoId":"oK_wPTUshRc","title":"How Toyota Uses Deep Agents to Speed Up R&D and Manufacturing Research","error":"yt-dlp --no-download 失败(exit null):WARNING: ffmpeg not found. The downloaded format may not be the best available. Installing ffmpeg is strongly recommended: https://github.com/yt-dlp/yt-dlp#dependencies\n"}
+{"ts":"2026-08-12T01:45:10.003Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
