@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
+[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chamath":1,"OpenAI":31,"Anthropic":40,"NVIDIA":16,"SPAC":1,"闭源模型":1,"开放权重模型":4,"分布式计算":1,"末日论":1,"KYC":1}</script>
+<script type="application/json" class="pd-epn">{"Chamath":1,"OpenAI":32,"Anthropic":42,"NVIDIA":16,"SPAC":1,"闭源模型":1,"开放权重模型":5,"分布式计算":1,"末日论":1,"KYC":1}</script>
 
 <script>
 (function(){

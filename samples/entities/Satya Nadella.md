@@ -48,11 +48,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Kwindla Kramer]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":9,"智能体":71,"Saragawa":1,"Kwindla Kramer":1,"Azure":1,"Pipecat":1,"GitHub":10,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":9,"智能体":73,"Saragawa":1,"Kwindla Kramer":1,"Azure":1,"Pipecat":1,"GitHub":11,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
 
 <script>
 (function(){

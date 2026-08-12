@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Daniel McKinnon]] [[Dianne Penn]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Whatnot":1,"Twitch":1,"Twitter":4,"Anthropic":40,"Claude":12,"PM":3,"IC":4,"数据科学":1,"直播购物":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Whatnot":1,"Twitch":1,"Twitter":4,"Anthropic":42,"Claude":12,"PM":3,"IC":4,"数据科学":1,"直播购物":1}</script>
 
 <script>
 (function(){

@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Opus 4.5</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Opus 4.5">OP</div><div class="pi"><h1 class="pt">Opus 4.5</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Opus 4.5">OP</div><div class="pi"><h1 class="pt">Opus 4.5</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(01:18起):本集把它说成:能完成数小时长流程任务并自己收尾测试的模型,让演讲者开始感到 AI 精神病。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q2]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Theo Browne]] · [[Sonnet 3.5]] · [[Mythos]] · [[编排]] · [[拟物化]] · [[沉没成本心态]] · [[AWS]] · [[Vercel]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Theo Browne":1,"Sonnet 3.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":4,"Vercel":6,"Slack":15}</script>
+<script type="application/json" class="pd-epn">{"Theo Browne":1,"Sonnet 3.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":4,"Vercel":6,"Slack":16}</script>
 
 <script>
 (function(){

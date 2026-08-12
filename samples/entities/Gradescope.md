@@ -1,35 +1,31 @@
 ---
-title: Raphael Schaad
-entity_type: 人物
+title: Gradescope
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Raphael Schaad</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gradescope</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Raphael Schaad">RA</div><div class="pi"><h1 class="pt">Raphael Schaad</h1><div class="byl">SingjuPost 转录 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gradescope">GR</div><div class="pi"><h1 class="pt">Gradescope</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## 集里怎么说它
+
+- **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(00:54起):本集把它说成:Arjun 和联合创始人此前共同创办的一家公司,其作业评分工具被全球数千所大学的数百万学生使用。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为嘉宾
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 
-## ③ 他谈到的
+## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Arjun Singh]] · [[Superconductor]] · [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开放权重模型]] · [[Slack]] · [[Claude Code]] · [[Codex]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":7,"智能体":71,"Codex":15,"Claude Code":18,"MCP":6,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
+<script type="application/json" class="pd-epn">{"Arjun Singh":1,"Superconductor":1,"智能体":73,"沙箱":17,"基准测试":4,"上下文":5,"开放权重模型":5,"Slack":16,"Claude Code":20,"Codex":16}</script>
 
 <script>
 (function(){

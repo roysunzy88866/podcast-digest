@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(19:20起):本集说它最初是游戏玩家用的显卡,后来被发现极其擅长做相关的数学运算,在 2012 年配合大数据与神经网络算法取得了突破,是现代 AI 黄金配方的三要素之一。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(28:16起):本集把它说成：为并行模拟（如图形、大脑思考）而设计的处理器；它具有指令集且可编程，最终成为了今天 AI 计算的基石。
+- **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(14:39起):本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
+- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[人工智能]] · [[NVIDIA]] · [[深度学习]] · [[Lenny]] · [[Condi Rice]] · [[Dr. Fei-Fei Li]] · [[Jensen Huang]] · [[World Labs]] · [[Parallel]] · [[Marble]]
+[[人工智能]] · [[NVIDIA]] · [[深度学习]] · [[Lenny]] · [[Condi Rice]] · [[Paul Kedrosky]] · [[Dr. Fei-Fei Li]] · [[Jensen Huang]] · [[数据中心]] · [[World Labs]]
 
-<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":16,"深度学习":3,"Lenny":34,"Condi Rice":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"World Labs":2,"Parallel":2,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":16,"深度学习":3,"Lenny":34,"Condi Rice":1,"Paul Kedrosky":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"数据中心":2,"World Labs":2}</script>
 
 <script>
 (function(){

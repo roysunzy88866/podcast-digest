@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>金门大桥版 Claude (Golden Gate Claude)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="金门大桥版 Claude">金门</div><div class="pi"><h1 class="pt">金门大桥版 Claude (Golden Gate Claude)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="金门大桥版 Claude">金门</div><div class="pi"><h1 class="pt">金门大桥版 Claude (Golden Gate Claude)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*8 条,均已过机器闸门*
+*9 条,均已过机器闸门*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -33,6 +33,8 @@ unlisted: true
 
 ![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q5]]
 
+![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q4]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -45,7 +47,7 @@ unlisted: true
 
 [[Dianne Penn]] · [[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[前沿模型]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":34,"Anthropic":40,"OpenAI":31,"Claude":12,"Claude Code":18,"评估":6,"涌现能力":1,"前沿模型":2,"技能":3}</script>
+<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":34,"Anthropic":42,"OpenAI":32,"Claude":12,"Claude Code":20,"评估":6,"涌现能力":1,"前沿模型":3,"技能":3}</script>
 
 <script>
 (function(){

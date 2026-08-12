@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]]
 
 </div>
 

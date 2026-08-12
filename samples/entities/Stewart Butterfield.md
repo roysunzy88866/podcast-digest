@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Slack":15,"Salesforce":2,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Slack":16,"Salesforce":2,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
 
 <script>
 (function(){

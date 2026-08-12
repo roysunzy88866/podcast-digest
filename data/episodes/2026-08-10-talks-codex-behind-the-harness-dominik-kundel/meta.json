@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-10-talks-codex-behind-the-harness-dominik-kundel",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/shRR1e2HXMk.m4a",
+  "duration_sec": 1244.603,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 189,
+  "asr": true,
+  "title_en": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
+  "podcast": "精选演讲",
+  "date": "2026-08-10",
+  "added": "2026-08-12",
+  "speaker_map": {
+    "SPEAKER_00": "Dominik Kundel"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Dominik Kundel"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "OpenAI 揭秘 Codex 智能体内部：从上下文构建到自动审批的工程实操"
+}

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
+[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":4,"Vercel":6,"Slack":15}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":4,"Vercel":6,"Slack":16}</script>
 
 <script>
 (function(){

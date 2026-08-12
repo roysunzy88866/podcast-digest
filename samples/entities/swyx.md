@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akshat Bubna":1,"Vibhu":1,"Modal":1,"智能体":71,"AX":1,"DX":2,"沙箱":15,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Akshat Bubna":1,"Vibhu":1,"Modal":1,"智能体":73,"AX":1,"DX":2,"沙箱":17,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

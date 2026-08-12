@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":71,"生产世界模型":1,"可观测性":1,"遥测数据":1,"上下文":4,"文件系统":3,"评估":6}</script>
+<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":73,"生产世界模型":1,"可观测性":2,"遥测数据":1,"上下文":5,"文件系统":3,"评估":6}</script>
 
 <script>
 (function(){

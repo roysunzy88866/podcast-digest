@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>31</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>32</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,6 +42,7 @@ unlisted: true
 - **[[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]]**(03:45起):本集提到它早期也是开源的,其闭源 API 被很多新创公司当作外壳包装层,但其随意的护栏正把开发者逼向开源;近期新闻中一个未沙箱化的 OpenAI 模型发起了网络攻击。
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(04:22起):本集将其描述为靠押注大型语言模型(LLM)来尽快盈利的 AI 双寡头之一；拿着融来的巨资回投到云巨头上，撑大了云收入的繁荣；Amazon 在 2026 年大举投入 500 亿美元全额结清了投资额度。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(02:11起):本集把它说成:嘉宾选择合作的大模型实验室。他们为嘉宾的项目提供了 Token 支持,且嘉宾自己也在此工作(拥有与开源项目不同的代码审查风险管理标准)。
+- **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:24起):本集把它说成：典型的前沿模型公司，被迫向高端市场移动找新回报；但同时如果它真强到能吃掉经济，就不会辛苦卖 token。
 
 ## ① 提到它的金句
 
@@ -53,7 +54,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -86,14 +87,15 @@ unlisted: true
 - [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
+- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[AGI]] · [[Microsoft]] · [[Stripe]] · [[Meta]] · [[Apple]]
+[[Anthropic]] · [[智能体]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[AGI]] · [[Meta]] · [[Microsoft]] · [[Stripe]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":71,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":8,"Microsoft":9,"Stripe":10,"Meta":12,"Apple":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":42,"智能体":73,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":9,"Meta":13,"Microsoft":9,"Stripe":10,"Apple":9}</script>
 
 <script>
 (function(){

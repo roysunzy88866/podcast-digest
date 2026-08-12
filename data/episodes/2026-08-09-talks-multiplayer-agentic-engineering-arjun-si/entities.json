@@ -1,0 +1,695 @@
+{
+  "episode_id": "2026-08-09-talks-multiplayer-agentic-engineering-arjun-si",
+  "podcast": "精选演讲",
+  "date": "2026-08-09",
+  "tags": [
+    "智能体工程",
+    "AI 编程",
+    "工作流",
+    "团队协作",
+    "基准测试"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "arjun-singh",
+      "type": "person",
+      "role": "guest",
+      "name": "Arjun Singh",
+      "file": "Arjun Singh",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.838,
+            14.518
+          ],
+          "quote": "I'm Arjun Singh.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superconductor",
+      "type": "company",
+      "role": "company",
+      "name": "Superconductor",
+      "file": "Superconductor",
+      "primary": true,
+      "how_described": "本集把它说成:Arjun Singh 团队目前正在做的产品,核心是把工作流、代码库搬进隔离的云端环境,支撑智能体与人的协作工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            64.991,
+            68.915
+          ],
+          "quote": "And pretty much the entire team working on Superconductor used to work together on Gradescope.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            200.765,
+            203.746
+          ],
+          "quote": "You can say add superconductor, do x, y, z, it does it, somebody else can talk to it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能完成代码编写、修复 bug、改产品的工作实体,贯穿多端会话,可以承接非技术人员直接下达的修 bug 指令,处理后的代码由工程师人工审查合并。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            178.027,
+            182.628
+          ],
+          "quote": "So the next one is to turn every human interface into an agent and human interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            189.95,
+            191.15
+          ],
+          "quote": "Nobody else can talk to that agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            238.763,
+            246.387
+          ],
+          "quote": "And the important thing here is it's the exact same agent session, so it's like the agent didn't forget what you did in one place in Slack when you go and talk to it from GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            250.589,
+            256.152
+          ],
+          "quote": "And the second lesson builds on top of that, which is to make the agent work visible and collaborative across the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            292.88,
+            299.303
+          ],
+          "quote": "And again, because it's the same agent session, I don't need to wait for Sergey to kind of get my notification on GitHub and respond to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            303.985,
+            307.247
+          ],
+          "quote": "I also don't want to read the entire thread, so I can just ask the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            317.8,
+            322.602
+          ],
+          "quote": "The agent can show you the work it's doing as a screenshot or a video or other, and you can see it from everywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            371.544,
+            379.311
+          ],
+          "quote": "People hook them together with MCPs, so now your coding agent can check the email or check Notion or whatever it might be, but how does it know what to work on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            450.095,
+            462.839
+          ],
+          "quote": "And so it's kind of nice, because the last idea that was here was saying, hey, when I work with coding agents, I want to make sure that the agent has clear criteria to evaluate whether it did a good job on the work before it tells me that it's done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            815.146,
+            818.187
+          ],
+          "quote": "It could be agent-created, it could be human-created, it could be a hybrid, doesn't matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            959.548,
+            967.15
+          ],
+          "quote": "So what that kind of turned into for us is essentially 100%, like 99.9% of our pull requests are heavily agent-generated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:在隔离的云端环境中运行智能体与代码的安全地基,用来防止智能体误用本地生产令牌或泄露代码机密,也是非技术人员能够触发真实工作的关键前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            637.782,
+            648.426
+          ],
+          "quote": "You're either approving a bunch of stuff or you're hoping that your auto-approval flow or your YOLO mode or whatever is configured properly and your sandbox is configured properly and doesn't read a bunch of stuff on your laptop that it should have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            698.623,
+            702.765
+          ],
+          "quote": "And so you have a configurable network sandbox and you say, look, these are the places you're allowed to access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            780.315,
+            784.798
+          ],
+          "quote": "Getting your full thing set up in this kind of sandbox environment used to be really, really painful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1035.965,
+            1039.387
+          ],
+          "quote": "So first, get your code base and agents working in a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集把它说成:不能只信公开基准,而应在自家的真实代码库上,拿代表优秀工程水准的 PR 让不同智能体去跑,以此得到质量、成本与时间的细分数据对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            805.403,
+            808.924
+          ],
+          "quote": "And the last lesson is to benchmark agents on your code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            819.067,
+            820.708
+          ],
+          "quote": "You pick the agents you want to use and benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1066.977,
+            1076.643
+          ],
+          "quote": "And lastly, find a way to benchmark and become model agnostic, so you're not tied to anybody and you can just constantly stay at that right part on the frontier of cost, speed, quality.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把它说成:一个智能体会话自带的完整工作状态;强调要同一个 session 贯穿 Slack、桌面应用、GitHub 等多端,不让智能体因切换环境而丢失上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            246.407,
+            248.208
+          ],
+          "quote": "It's the same session, it's got the same context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1044.928,
+            1054.972
+          ],
+          "quote": "Second, integrate agents into the relevant human interfaces so your team and your agents can work together and don't have to context switch and copy context back and forth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型 (open weight models)",
+      "file": "开源权重模型",
+      "primary": true,
+      "how_described": "本集把它说成:现在已经相当好用且价格便宜得多的模型选项,团队应对模型与工具链保持「不可知」,以便随时自由切换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            123.913,
+            126.234
+          ],
+          "quote": "The other thing is that open weight models are actually pretty good now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集把它说成:团队工作与接入智能体的重要接口之一;但强调仅靠 Slack bot 还不够,只是把智能体「从笔记本搬到了聊天软件里」,仍受限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            192.82,
+            196.842
+          ],
+          "quote": "So the first place people go to kind of expose more interfaces for them is Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            197.083,
+            199.884
+          ],
+          "quote": "Claude has a Slack bot, Codex has a Slack bot, we have a Slack bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            204.587,
+            209.27
+          ],
+          "quote": "But it's not enough, because now we've taken it from trapped on somebody's laptop to kind of trapped in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            210.05,
+            214.993
+          ],
+          "quote": "And a lot of work happens in Slack, so that's better than nothing, but certainly not all work happens in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            222.038,
+            224.88
+          ],
+          "quote": "Could be Slack, could be our app, could be GitHub, could be elsewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            225.681,
+            235.667
+          ],
+          "quote": "And so one possible flow is you start and collaborate on a session in Slack, and then maybe you continue in a kind of more engineer-focused environment in the desktop app or the mobile app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            238.763,
+            246.387
+          ],
+          "quote": "And the important thing here is it's the exact same agent session, so it's like the agent didn't forget what you did in one place in Slack when you go and talk to it from GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            256.452,
+            258.113
+          ],
+          "quote": "And so obviously Slack makes it more collaborative.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            325.603,
+            328.344
+          ],
+          "quote": "I gotta go to GitHub to see the image, or I gotta go to Slack to see the image.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            353.521,
+            355.042
+          ],
+          "quote": "So it could be Slack conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            746.545,
+            759.231
+          ],
+          "quote": "But we've gotten our support people, our growth people, to actually be meaningfully impacting the product by just talking to users, seeing bugs, experiencing themselves, and just go to Slack or the app itself and say, hey, fix this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 的编码智能体,在其代码库基准测试中质量虽好但较慢且明显更贵;团队上个月跑了 3300 次该会话,折合 1 万美元 token 价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            575.583,
+            578.404
+          ],
+          "quote": "Last year, I started working with Claude Code a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            793.223,
+            799.527
+          ],
+          "quote": "But honestly, whether you use us or not, I highly recommend you get your project working this way, and you can just get Claude Code or Codex to do this for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            984.542,
+            990.907
+          ],
+          "quote": "It's a little small, so I apologize, but we had 3,300 Claude code runs that cost $10,000 in token value.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集把它说成:一款在质量、速度与成本上又快又好的编码智能体;实测后已成为该团队默认工具,其会话量是 Claude Code 的四倍,且总体更便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            197.083,
+            199.884
+          ],
+          "quote": "Claude has a Slack bot, Codex has a Slack bot, we have a Slack bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            793.223,
+            799.527
+          ],
+          "quote": "But honestly, whether you use us or not, I highly recommend you get your project working this way, and you can just get Claude Code or Codex to do this for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            871.639,
+            874.541
+          ],
+          "quote": "The Codex agents and Cursor are actually pretty fast and quite good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            888.695,
+            890.477
+          ],
+          "quote": "And the Codex stuff has been cheaper for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            904.091,
+            906.013
+          ],
+          "quote": "We switched our default to Codex at that time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            909.461,
+            913.262
+          ],
+          "quote": "Kind of switched our default to that for the few days we had it, and then it went away and switched back to Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            994.57,
+            998.393
+          ],
+          "quote": "And Codex had four times as many sessions, and it was cheaper overall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            999.52,
+            1003.143
+          ],
+          "quote": "And so again, the vast majority of our work currently is merged through Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它说成:一款 AI 代码编辑器,在他们的代码库实测对比中表现出又快又好且更便宜的特点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            871.639,
+            874.541
+          ],
+          "quote": "The Codex agents and Cursor are actually pretty fast and quite good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gradescope",
+      "type": "company",
+      "role": "company",
+      "name": "Gradescope",
+      "file": "Gradescope",
+      "primary": true,
+      "how_described": "本集把它说成:Arjun 和联合创始人此前共同创办的一家公司,其作业评分工具被全球数千所大学的数百万学生使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            54.569,
+            56.992
+          ],
+          "quote": "And during that, we co-founded a company called Gradescope.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            64.991,
+            68.915
+          ],
+          "quote": "And pretty much the entire team working on Superconductor used to work together on Gradescope.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集把它说成:多端工作流中的一环,用于最终完成和审查同一个智能体会话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            222.038,
+            224.88
+          ],
+          "quote": "Could be Slack, could be our app, could be GitHub, could be elsewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            236.922,
+            238.003
+          ],
+          "quote": "And then you can finish it up in GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            238.763,
+            246.387
+          ],
+          "quote": "And the important thing here is it's the exact same agent session, so it's like the agent didn't forget what you did in one place in Slack when you go and talk to it from GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            292.88,
+            299.303
+          ],
+          "quote": "And again, because it's the same agent session, I don't need to wait for Sergey to kind of get my notification on GitHub and respond to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            325.603,
+            328.344
+          ],
+          "quote": "I gotta go to GitHub to see the image, or I gotta go to Slack to see the image.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "glm-5-2",
+      "type": "company",
+      "role": "company",
+      "name": "GLM 5.2",
+      "file": "GLM 5.2",
+      "primary": false,
+      "how_described": "本集把它说成:一款开源权重模型,团队对其很满意且打算继续投入,目前通过它合并的工作份额在持续增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            126.274,
+            128.655
+          ],
+          "quote": "We've been really happy with GLM 5.2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1005.805,
+            1007.706
+          ],
+          "quote": "More and more is happening through GLM 5.2.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "pull request",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

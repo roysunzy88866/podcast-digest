@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":71,"回路中的人类":2,"现有巨头":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":73,"回路中的人类":2,"现有巨头":1,"Stripe":10}</script>
 
 <script>
 (function(){

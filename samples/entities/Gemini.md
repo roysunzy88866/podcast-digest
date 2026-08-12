@@ -29,7 +29,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[Google]] · [[Claude Code]] · [[Benedict Evans]] · [[Simon Willison]] · [[Jeff Dean]] · [[Lenny]] · [[Cat Wu]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":71,"Google":15,"Claude Code":18,"Benedict Evans":1,"Simon Willison":1,"Jeff Dean":1,"Lenny":34,"Cat Wu":1,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":42,"智能体":73,"Google":15,"Claude Code":20,"Benedict Evans":1,"Simon Willison":1,"Jeff Dean":1,"Lenny":34,"Cat Wu":1,"多智能体系统":1}</script>
 
 <script>
 (function(){

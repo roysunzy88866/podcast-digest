@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Anthropic":40,"OpenAI":31,"Claude":12,"Claude Code":18,"评估":6,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":2,"技能":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":34,"Anthropic":42,"OpenAI":32,"Claude":12,"Claude Code":20,"评估":6,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":3,"技能":3}</script>
 
 <script>
 (function(){

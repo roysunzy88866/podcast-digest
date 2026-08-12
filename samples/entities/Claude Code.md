@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,6 +27,8 @@ unlisted: true
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:07起):讲者以它为例说明 harness 有多庞大:其源码有约 50 万行代码,全是为了让模型在执行任务时表现最好而构建的;另外提到模型在优化这类编程智能体时接受了大量文件系统数据训练。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:27起):本集把它说成:直接在终端里写代码的 AI 智能体，它的爆火让原本远离终端的设计师也学起了 GitHub，催生了设计工具向桌面端的进化。
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(03:33起):本集说它是一个系统,涉及如何配置工作流(如使用 ClaudeMD 文件设定分层规则),并且可以被配置在持续集成流水线中运行。
+- **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(09:35起):本集把它说成:Anthropic 的编码智能体,在其代码库基准测试中质量虽好但较慢且明显更贵;团队上个月跑了 3300 次该会话,折合 1 万美元 token 价值。
+- **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：一个使用 bash 和 grep 等终端工具的激动人心的智能体产品,被封装进 Agent SDK 中作为内置循环。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
 
 ## ① 提到它的金句
@@ -37,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*20 集*
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
@@ -56,15 +58,17 @@ unlisted: true
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为概念
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
+- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Codex]] · [[Slack]] · [[Claude]] · [[OpenClaw]] · [[评估]] · [[MCP]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Slack]] · [[Cursor]] · [[Claude]] · [[OpenClaw]] · [[评估]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":71,"Lenny":34,"Anthropic":40,"Codex":15,"Slack":15,"Claude":12,"OpenClaw":7,"评估":6,"MCP":6,"Cursor":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":73,"Anthropic":42,"Lenny":34,"Codex":16,"Slack":16,"Cursor":10,"Claude":12,"OpenClaw":7,"评估":6,"MCP":6}</script>
 
 <script>
 (function(){

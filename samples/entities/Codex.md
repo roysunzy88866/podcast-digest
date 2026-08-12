@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(21:49起):本集把它说成:嘉宾在终端演示中使用的智能体工具,用于修改基因组文件,并在评估测试中于简单任务上快速锁定了正确的囊性纤维化突变区域。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(03:40起):讲者顺带提到的基础模型优化的编程智能体之一,说明模型在接受这些智能体训练时吸收了大量的文件系统数据,因此非常擅长利用文件系统接口。
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(01:59起):本集提到:招来的顶尖工程师有人爱用 Codex,团队不硬性统一,允许每人挑自己喜欢的 AI 工具。
+- **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(03:17起):本集把它说成:一款在质量、速度与成本上又快又好的编码智能体;实测后已成为该团队默认工具,其会话量是 Claude Code 的四倍,且总体更便宜。
 - **[[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]]**(06:11起):本集把它说成:OpenAI 的编码工具，被用于编写机器人的代码。它还利用 Chrome 浏览器自动化能力，替人类完成了繁琐的第三方 SaaS 权限配置。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
@@ -38,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -53,6 +54,7 @@ unlisted: true
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为被讨论公司(提及)
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
@@ -60,9 +62,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Lenny]] · [[沙箱]] · [[Anthropic]] · [[Meta]] · [[Cursor]] · [[Claude]] · [[OpenClaw]] · [[护栏]]
+[[智能体]] · [[Claude Code]] · [[沙箱]] · [[Lenny]] · [[Cursor]] · [[Anthropic]] · [[Meta]] · [[Claude]] · [[OpenClaw]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":71,"Claude Code":18,"Lenny":34,"沙箱":15,"Anthropic":40,"Meta":12,"Cursor":9,"Claude":12,"OpenClaw":7,"护栏":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":73,"Claude Code":20,"沙箱":17,"Lenny":34,"Cursor":10,"Anthropic":42,"Meta":13,"Claude":12,"OpenClaw":7,"护栏":13}</script>
 
 <script>
 (function(){

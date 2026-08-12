@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Josh]]
+[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":6,"NVIDIA":16,"发射成本":1,"H100":1,"基准测试":3,"相变材料":1,"辐射":1,"McKinsey":2}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":6,"NVIDIA":16,"发射成本":1,"H100":1,"基准测试":4,"相变材料":1,"辐射":1,"McKinsey":2}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenRouter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(07:11起):Alex 所属的语言模型市场公司,提供自动路由器等产品;他们发现路由需求在今年一月 OpenClaw 爆火后迎来了真正的使用拐点。
+- **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(19:58起):本集一笔带过，提到它是一个用于对比模型差异的网站表格，并指出该榜单正日益被中国模型主导。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为被讨论公司
+- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tane]] · [[Carter]] · [[Walden]] · [[模型路由]] · [[智能体]] · [[上下文压缩]] · [[RL]] · [[蒸馏]] · [[KV 缓存]] · [[Cognition]]
+[[Tane]] · [[Paul Kedrosky]] · [[Carter]] · [[数据中心]] · [[Walden]] · [[token]] · [[模型路由]] · [[GPU]] · [[智能体]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"Walden":1,"模型路由":1,"智能体":71,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":5}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Paul Kedrosky":1,"Carter":1,"数据中心":2,"Walden":1,"token":1,"模型路由":1,"GPU":3,"智能体":73,"推理":1}</script>
 
 <script>
 (function(){

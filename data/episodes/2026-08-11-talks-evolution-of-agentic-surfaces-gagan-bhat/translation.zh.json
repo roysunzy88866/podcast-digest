@@ -1,0 +1,2258 @@
+[
+ {
+  "seg": 0,
+  "start": 13.21,
+  "end": 13.43,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.251,
+  "end": 14.771,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.371,
+  "end": 16.552,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us today.",
+  "zh": "感谢大家今天加入我们。"
+ },
+ {
+  "seg": 3,
+  "start": 17.292,
+  "end": 17.793,
+  "speaker": "Unknown",
+  "en": "I'm Gagan.",
+  "zh": "我是 Gagan。"
+ },
+ {
+  "seg": 4,
+  "start": 18.373,
+  "end": 19.053,
+  "speaker": "Unknown",
+  "en": "And I'm Isabella.",
+  "zh": "我是 Isabella。"
+ },
+ {
+  "seg": 5,
+  "start": 19.434,
+  "end": 23.196,
+  "speaker": "Unknown",
+  "en": "We're both members of technical staff here at Anthropic at the Applied AI team.",
+  "zh": "我们都是 Anthropic 应用 AI 团队的技术人员。"
+ },
+ {
+  "seg": 6,
+  "start": 23.896,
+  "end": 34.723,
+  "speaker": "Unknown",
+  "en": "Our team sits at the intersection of product, research, and go-to-market, and we spend a lot of our daytime building agents, evaluating Claude, and finding ways to make it better in different use cases.",
+  "zh": "我们的团队位于产品、研究和推向市场的交叉点，我们白天的大部分时间都在构建智能体、评估 Claude，并寻找在不同的用例中改进它的方法。"
+ },
+ {
+  "seg": 7,
+  "start": 35.823,
+  "end": 46.545,
+  "speaker": "Unknown",
+  "en": "We're here today to talk about how the surfaces for building agents has evolved in the last three years and what our teams have learned building agents both internally at Anthropic and externally with our enterprise customers along the way.",
+  "zh": "我们今天在这里谈谈过去三年中构建智能体的界面是如何演变的，以及我们的团队在 Anthropic 内部与外部企业客户一起构建智能体时学到了什么。"
+ },
+ {
+  "seg": 8,
+  "start": 46.965,
+  "end": 48.385,
+  "speaker": "Unknown",
+  "en": "I'll hand it off to Gagan to kick us off.",
+  "zh": "我把它交给 Gagan 来开始我们的话题。"
+ },
+ {
+  "seg": 9,
+  "start": 49.285,
+  "end": 50.445,
+  "speaker": "Unknown",
+  "en": "So here's the plan.",
+  "zh": "那么这就是计划。"
+ },
+ {
+  "seg": 10,
+  "start": 51.106,
+  "end": 59.007,
+  "speaker": "Unknown",
+  "en": "We'll first start off by talking about how we've seen agentic surfaces evolve all the way from the Messages API to Cloud Managed Agents.",
+  "zh": "我们将首先谈谈我们如何看待智能体界面从 Messages API 到 Cloud Managed Agents 的演变。"
+ },
+ {
+  "seg": 11,
+  "start": 59.627,
+  "end": 65.028,
+  "speaker": "Unknown",
+  "en": "Isabella will then cover the engineering principles behind Cloud Managed Agents and how it works under the hood.",
+  "zh": "Isabella 将随后介绍 Cloud Managed Agents 背后的工程原理及其内部工作原理。"
+ },
+ {
+  "seg": 12,
+  "start": 65.968,
+  "end": 70.071,
+  "speaker": "Unknown",
+  "en": "We'll share a demo that kind of shows what it feels like to build with this latest service.",
+  "zh": "我们将分享一个演示，展示使用这项最新服务进行构建的感觉。"
+ },
+ {
+  "seg": 13,
+  "start": 70.952,
+  "end": 75.175,
+  "speaker": "Unknown",
+  "en": "And then we'll talk about lessons that we've learned from the field by taking this to customers.",
+  "zh": "然后我们将谈谈通过将其带给客户而从现场学到的经验教训。"
+ },
+ {
+  "seg": 14,
+  "start": 75.935,
+  "end": 81.62,
+  "speaker": "Unknown",
+  "en": "And finally, we'll close with what it feels like to build at the frontier as model capabilities evolve dramatically.",
+  "zh": "最后，我们将以随着模型能力的大幅发展，在前沿进行构建的感觉作为结束。"
+ },
+ {
+  "seg": 15,
+  "start": 82.861,
+  "end": 85.883,
+  "speaker": "Unknown",
+  "en": "Okay, with that, let's talk about how agentic services have evolved.",
+  "zh": "好的，让我们开始谈谈智能体服务是如何演变的。"
+ },
+ {
+  "seg": 16,
+  "start": 87.055,
+  "end": 91.737,
+  "speaker": "Unknown",
+  "en": "To set the stage, it's important to realize that AI progress is accelerating.",
+  "zh": "为了奠定基础，重要的是要意识到 AI 的进步正在加速。"
+ },
+ {
+  "seg": 17,
+  "start": 92.477,
+  "end": 100.701,
+  "speaker": "Unknown",
+  "en": "From back in the days when the transformer architecture was first defined, to the scaling laws discovered by our founders, to the models that have been released today.",
+  "zh": "从最初定义 Transformer 架构的日子，到我们的创始人发现的缩放定律，再到今天发布的模型。"
+ },
+ {
+  "seg": 18,
+  "start": 101.621,
+  "end": 109.045,
+  "speaker": "Unknown",
+  "en": "Every model release, and we all feel it, every model release improves capabilities that the previous model did not have.",
+  "zh": "每一次模型发布，我们都感受到了，每一次模型发布都改进了以前模型不具备的能力。"
+ },
+ {
+  "seg": 19,
+  "start": 109.885,
+  "end": 113.607,
+  "speaker": "Unknown",
+  "en": "And we see this translate over to the tasks that we give models as well.",
+  "zh": "我们也看到这种情况转化到了我们给模型的任务中。"
+ },
+ {
+  "seg": 20,
+  "start": 114.45,
+  "end": 116.85,
+  "speaker": "Unknown",
+  "en": "The complexity of these have grown dramatically.",
+  "zh": "这些任务的复杂性急剧增长。"
+ },
+ {
+  "seg": 21,
+  "start": 117.691,
+  "end": 120.891,
+  "speaker": "Unknown",
+  "en": "Initially, we used to only give them questions, simple Q&A.",
+  "zh": "最初，我们过去只问它们问题，简单的问答。"
+ },
+ {
+  "seg": 22,
+  "start": 121.531,
+  "end": 123.612,
+  "speaker": "Unknown",
+  "en": "We then started delegating tasks to them.",
+  "zh": "然后我们开始将任务委托给它们。"
+ },
+ {
+  "seg": 23,
+  "start": 124.392,
+  "end": 127.353,
+  "speaker": "Unknown",
+  "en": "And now we let agents own entire outcomes.",
+  "zh": "现在我们让智能体拥有整个结果。"
+ },
+ {
+  "seg": 24,
+  "start": 128.413,
+  "end": 136.874,
+  "speaker": "Unknown",
+  "en": "What this means is that as task complexity and model capability has improved, the agentic surfaces has to evolve with them.",
+  "zh": "这意味着随着任务复杂性和模型能力的提高，智能体界面必须随之演变。"
+ },
+ {
+  "seg": 25,
+  "start": 137.315,
+  "end": 139.395,
+  "speaker": "Unknown",
+  "en": "And we're going to talk about that in this section.",
+  "zh": "我们将在本节讨论这一点。"
+ },
+ {
+  "seg": 26,
+  "start": 140.707,
+  "end": 143.59,
+  "speaker": "Unknown",
+  "en": "So go back in time to when we first launched Claude 3.",
+  "zh": "让我们回到我们首次发布 Claude 3 的时候。"
+ },
+ {
+  "seg": 27,
+  "start": 144.33,
+  "end": 148.955,
+  "speaker": "Unknown",
+  "en": "We launched it alongside the first agentic surface called the Messages API.",
+  "zh": "我们在发布它的同时发布了第一个智能体界面，称为 Messages API。"
+ },
+ {
+  "seg": 28,
+  "start": 149.895,
+  "end": 153.319,
+  "speaker": "Unknown",
+  "en": "This Messages API was simply tokens in and tokens out.",
+  "zh": "这个 Messages API 只是简单的输入 tokens 和输出 tokens。"
+ },
+ {
+  "seg": 29,
+  "start": 153.799,
+  "end": 156.762,
+  "speaker": "Unknown",
+  "en": "You gave information in and you got information and text completions out.",
+  "zh": "你输入信息，然后得到信息和文本补全作为输出。"
+ },
+ {
+  "seg": 30,
+  "start": 158.044,
+  "end": 161.168,
+  "speaker": "Unknown",
+  "en": "As I mentioned earlier, task complexity grew over time.",
+  "zh": "正如我之前提到的，任务的复杂性随时间增长。"
+ },
+ {
+  "seg": 31,
+  "start": 161.648,
+  "end": 167.896,
+  "speaker": "Unknown",
+  "en": "And there was a need for the model to fetch information and manage its context as it runs for longer and longer.",
+  "zh": "模型需要获取信息并管理其上下文，因为它运行的时间越来越长。"
+ },
+ {
+  "seg": 32,
+  "start": 168.476,
+  "end": 171.199,
+  "speaker": "Unknown",
+  "en": "And so we saw the invention of the agentic loop.",
+  "zh": "所以我们看到了智能体循环的发明。"
+ },
+ {
+  "seg": 33,
+  "start": 172.067,
+  "end": 180.271,
+  "speaker": "Unknown",
+  "en": "This loop is something that every customer started building manually from scratch that calls Claude, runs the tools, and manages its context.",
+  "zh": "这个循环是每个客户开始从零手动构建的东西，它调用 Claude，运行工具，并管理其上下文。"
+ },
+ {
+  "seg": 34,
+  "start": 180.891,
+  "end": 181.792,
+  "speaker": "Unknown",
+  "en": "And it was painstaking.",
+  "zh": "这是艰苦的。"
+ },
+ {
+  "seg": 35,
+  "start": 182.532,
+  "end": 188.855,
+  "speaker": "Unknown",
+  "en": "And on top of that lived their product where it had the AI feature and it would call the agentic loop to accomplish some sort of task.",
+  "zh": "在此之上是他们的产品，它拥有 AI 功能，并会调用智能体循环来完成某种任务。"
+ },
+ {
+  "seg": 36,
+  "start": 189.455,
+  "end": 190.496,
+  "speaker": "Unknown",
+  "en": "But this was not all.",
+  "zh": "但这还不是全部。"
+ },
+ {
+  "seg": 37,
+  "start": 191.176,
+  "end": 200.801,
+  "speaker": "Unknown",
+  "en": "In order to take this to production, there was a whole slew of production infrastructure challenges like session management, observability, credentials,",
+  "zh": "为了将其投入生产，还存在一系列生产基础设施挑战，如会话管理、可观测性、凭证，"
+ },
+ {
+  "seg": 38,
+  "start": 202.109,
+  "end": 205.792,
+  "speaker": "Unknown",
+  "en": "Hosting infrastructure, sandboxing, and more.",
+  "zh": "托管基础设施、沙箱，以及更多。"
+ },
+ {
+  "seg": 39,
+  "start": 206.533,
+  "end": 213.458,
+  "speaker": "Unknown",
+  "en": "These challenges were tedious to deal with, and it didn't allow teams to focus on building what mattered most, their product.",
+  "zh": "这些挑战处理起来很繁琐，并且不允许团队专注于构建最重要的东西，即他们的产品。"
+ },
+ {
+  "seg": 40,
+  "start": 214.319,
+  "end": 217.001,
+  "speaker": "Unknown",
+  "en": "One of the core challenges here was the agentic loop.",
+  "zh": "这里的核心挑战之一是智能体循环。"
+ },
+ {
+  "seg": 41,
+  "start": 217.542,
+  "end": 222.466,
+  "speaker": "Unknown",
+  "en": "It was surprisingly complex to maintain, which brings me to the second part.",
+  "zh": "维护它的复杂性出奇地高，这让我进入第二部分。"
+ },
+ {
+  "seg": 42,
+  "start": 223.006,
+  "end": 227.81,
+  "speaker": "Unknown",
+  "en": "The second evolution of the agentic surface was the Claude Asian SDK.",
+  "zh": "智能体界面的第二次演变是 Claude Asian SDK。"
+ },
+ {
+  "seg": 43,
+  "start": 228.818,
+  "end": 242.416,
+  "speaker": "Unknown",
+  "en": "This agent SDK essentially packaged the harness that we know and love, which is Claude Code, and it shipped with a built-in agentic loop, along with file system access, tools, and a system for doing sandboxing.",
+  "zh": "这个 agent SDK 本质上打包了我们熟知和喜爱的工具，即 Claude Code，它带有内置的智能体循环，以及文件系统访问、工具和一个用于沙箱的系统。"
+ },
+ {
+  "seg": 44,
+  "start": 242.996,
+  "end": 245.419,
+  "speaker": "Unknown",
+  "en": "Your product would then embed the SDK,",
+  "zh": "然后你的产品会嵌入该 SDK，"
+ },
+ {
+  "seg": 45,
+  "start": 246.409,
+  "end": 257.371,
+  "speaker": "Unknown",
+  "en": "And there are some primitives already provided for session management, observability, but you still had to hand roll things like credentials and hosting infrastructure and much more.",
+  "zh": "并且已经为会话管理、可观测性提供了一些原语，但你仍然需要手工制作诸如凭证和托管基础设施之类的东西以及更多。"
+ },
+ {
+  "seg": 46,
+  "start": 257.771,
+  "end": 261.932,
+  "speaker": "Unknown",
+  "en": "You had to figure out how to put this in a box and scale it for your customers.",
+  "zh": "你必须弄清楚如何把它放入一个盒子中并为你的客户扩展它。"
+ },
+ {
+  "seg": 47,
+  "start": 262.712,
+  "end": 265.753,
+  "speaker": "Unknown",
+  "en": "And I want to double tap on these production infrastructure challenges.",
+  "zh": "我想再次强调这些生产基础设施挑战。"
+ },
+ {
+  "seg": 48,
+  "start": 266.433,
+  "end": 269.794,
+  "speaker": "Unknown",
+  "en": "And I'm going to enumerate some of these as questions to thought provoke.",
+  "zh": "我将列举其中一些作为问题来引起思考。"
+ },
+ {
+  "seg": 49,
+  "start": 271.05,
+  "end": 272.691,
+  "speaker": "Unknown",
+  "en": "First, hosting and scaling.",
+  "zh": "首先，托管和扩展。"
+ },
+ {
+  "seg": 50,
+  "start": 273.231,
+  "end": 277.213,
+  "speaker": "Unknown",
+  "en": "Where does the agent run and how long does the process live for?",
+  "zh": "智能体在哪里运行，进程存活多久？"
+ },
+ {
+  "seg": 51,
+  "start": 277.653,
+  "end": 279.194,
+  "speaker": "Unknown",
+  "en": "What scales under load and what doesn't?",
+  "zh": "在负载下什么能扩展，什么不能？"
+ },
+ {
+  "seg": 52,
+  "start": 279.994,
+  "end": 280.775,
+  "speaker": "Unknown",
+  "en": "Session management.",
+  "zh": "会话管理。"
+ },
+ {
+  "seg": 53,
+  "start": 281.295,
+  "end": 283.836,
+  "speaker": "Unknown",
+  "en": "Where does the history and progress of sessions live?",
+  "zh": "会话的历史记录和进度存在哪里？"
+ },
+ {
+  "seg": 54,
+  "start": 283.956,
+  "end": 286.857,
+  "speaker": "Unknown",
+  "en": "How can you have multiple concurrent agents running at scale?",
+  "zh": "你如何能够拥有多个并发的、大规模运行的智能体？"
+ },
+ {
+  "seg": 55,
+  "start": 287.818,
+  "end": 288.438,
+  "speaker": "Unknown",
+  "en": "File system.",
+  "zh": "文件系统。"
+ },
+ {
+  "seg": 56,
+  "start": 288.938,
+  "end": 294.001,
+  "speaker": "Unknown",
+  "en": "How does Claude actually have access to create files and edit files?",
+  "zh": "Claude 实际上如何获得权限来创建文件和编辑文件？"
+ },
+ {
+  "seg": 57,
+  "start": 294.688,
+  "end": 296.651,
+  "speaker": "Unknown",
+  "en": "Fourth, execution isolation.",
+  "zh": "第四，执行隔离。"
+ },
+ {
+  "seg": 58,
+  "start": 296.971,
+  "end": 301.176,
+  "speaker": "Unknown",
+  "en": "Where does Claude actually run the code that it writes and how do we keep it secure?",
+  "zh": "Claude 实际上在哪里运行它编写的代码，我们如何保持它的安全？"
+ },
+ {
+  "seg": 59,
+  "start": 302.057,
+  "end": 304.24,
+  "speaker": "Unknown",
+  "en": "Fifth, credentials.",
+  "zh": "第五，凭证。"
+ },
+ {
+  "seg": 60,
+  "start": 304.961,
+  "end": 311.549,
+  "speaker": "Unknown",
+  "en": "How does Claude reach into your sensitive systems without actually getting exposed to the security tokens that you want to protect?",
+  "zh": "Claude 如何深入你的敏感系统，而实际上不会暴露给你想要保护的安全令牌？"
+ },
+ {
+  "seg": 61,
+  "start": 312.292,
+  "end": 313.833,
+  "speaker": "Unknown",
+  "en": "And finally, observability.",
+  "zh": "最后，可观测性。"
+ },
+ {
+  "seg": 62,
+  "start": 314.473,
+  "end": 320.675,
+  "speaker": "Unknown",
+  "en": "With all the complex agent orchestration going on, how do you figure out what's actually happening under the hood?",
+  "zh": "鉴于所有复杂的智能体编排都在进行，你如何确定引擎盖下实际上发生了什么？"
+ },
+ {
+  "seg": 63,
+  "start": 321.435,
+  "end": 334.24,
+  "speaker": "Unknown",
+  "en": "These were production infrastructure challenges that most teams spent significant portions of their time doing instead of being able to focus on just their product, their task, and their context, which is why we built Claude Managed Agents.",
+  "zh": "这些是生产基础设施挑战，大多数团队花大部分时间来做这些，而不是能够只专注于他们的产品、他们的任务和他们的上下文，这就是我们构建 Claude Managed Agents 的原因。"
+ },
+ {
+  "seg": 64,
+  "start": 334.9,
+  "end": 336.741,
+  "speaker": "Unknown",
+  "en": "The idea of cloud-managed agents is simple.",
+  "zh": "云托管智能体的想法很简单。"
+ },
+ {
+  "seg": 65,
+  "start": 337.402,
+  "end": 346.688,
+  "speaker": "Unknown",
+  "en": "You own the product, you own the task, you own your context, and you call cloud-managed agents to get production-grade infrastructure for your agents.",
+  "zh": "你拥有产品，你拥有任务，你拥有你的上下文，并且你调用云托管智能体来为你的智能体获得生产级基础设施。"
+ },
+ {
+  "seg": 66,
+  "start": 347.507,
+  "end": 365.143,
+  "speaker": "Unknown",
+  "en": "So your product would call Claude-managed agents and get a brain, which is the agentic loop and Claude itself, and all the custom harnesses and evolutions built inside of it, along with the hands, which is a sandbox that spins up just in time for things like file system access and code execution.",
+  "zh": "所以你的产品会调用 Claude 托管智能体并获得一个大脑，它是智能体循环和 Claude 本身，以及在其中构建的所有自定义安全带和演进，以及双手，它是一个只是为了文件系统访问和代码执行等事情而即时启动的沙箱。"
+ },
+ {
+  "seg": 67,
+  "start": 365.824,
+  "end": 370.468,
+  "speaker": "Unknown",
+  "en": "And of course, all the bells and whistles that were difficult to maintain before with production infrastructure.",
+  "zh": "当然，还有以前用生产基础设施很难维护的所有花里胡哨的功能。"
+ },
+ {
+  "seg": 68,
+  "start": 371.408,
+  "end": 378.292,
+  "speaker": "Unknown",
+  "en": "Like credentials, session management, observability, hosting infrastructure, all of this is run by Anthropic.",
+  "zh": "像凭证、会话管理、可观测性、托管基础设施，所有这些都由 Anthropic 运行。"
+ },
+ {
+  "seg": 69,
+  "start": 378.932,
+  "end": 383.915,
+  "speaker": "Unknown",
+  "en": "And what's yours to build and run is your task, your context, and your domain knowledge.",
+  "zh": "而你要构建和运行的是你的任务、你的上下文和你的领域知识。"
+ },
+ {
+  "seg": 70,
+  "start": 385.256,
+  "end": 390.219,
+  "speaker": "Unknown",
+  "en": "So if you step back and look at how this has evolved, we can kind of see the evolution over time.",
+  "zh": "所以如果你退后一步看看这是如何演变的，我们可以随时间看到演变。"
+ },
+ {
+  "seg": 71,
+  "start": 391.065,
+  "end": 397.992,
+  "speaker": "Unknown",
+  "en": "The Messages API introduced the ability for you to interact with the model with tokens in and tokens out.",
+  "zh": "Messages API 引入了你与模型进行交互的能力，输入 tokens 并输出 tokens。"
+ },
+ {
+  "seg": 72,
+  "start": 398.653,
+  "end": 402.898,
+  "speaker": "Unknown",
+  "en": "The Claude Agent SDK brought in a built-in agent harness for tasks.",
+  "zh": "Claude Agent SDK 引入了用于任务的内置智能体安全带。"
+ },
+ {
+  "seg": 73,
+  "start": 403.538,
+  "end": 409.465,
+  "speaker": "Unknown",
+  "en": "And Claude Managed Agents covers everything that you need from your product and everything under that stack.",
+  "zh": "Claude Managed Agents 涵盖了你的产品所需的所有东西以及该堆栈下的所有东西。"
+ },
+ {
+  "seg": 74,
+  "start": 410.903,
+  "end": 417.286,
+  "speaker": "Unknown",
+  "en": "So now I will hand it over to Isabella to talk a bit more about the engineering principles that drove how we built Cloud Managed Agents.",
+  "zh": "所以现在我要把它交给 Isabella，来谈谈更多关于推动我们如何构建 Cloud Managed Agents 的工程原则。"
+ },
+ {
+  "seg": 75,
+  "start": 417.786,
+  "end": 418.126,
+  "speaker": "Unknown",
+  "en": "Over to you.",
+  "zh": "交给你。"
+ },
+ {
+  "seg": 76,
+  "start": 418.686,
+  "end": 419.046,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 77,
+  "start": 419.546,
+  "end": 419.907,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 78,
+  "start": 420.527,
+  "end": 425.509,
+  "speaker": "Unknown",
+  "en": "And as Gagan walked through, a takeaway from that entire last section is that models evolve quickly.",
+  "zh": "正如 Gagan 所讲的那样，整个最后一部分的一个要点是模型演变很快。"
+ },
+ {
+  "seg": 79,
+  "start": 426.549,
+  "end": 437.674,
+  "speaker": "Unknown",
+  "en": "And so when our team set out to build Managed Agents, we drew inspiration from the lessons that our teams learned building effective agents and harnesses for these models to capture that evolution as it rapidly advances alongside us.",
+  "zh": "所以当我们的团队着手构建 Managed Agents 时，我们从我们的团队在为这些模型构建有效智能体和安全带时吸取的教训中汲取了灵感，以在它随着我们一起快速进步时捕获这种演变。"
+ },
+ {
+  "seg": 80,
+  "start": 438.634,
+  "end": 449.585,
+  "speaker": "Unknown",
+  "en": "So for the next few minutes here, I want to talk you through some of the fundamentals that underpin the design of Claude Managed Agents and the lessons that our team learned along the way as we went about engineering this harness built for model evolution.",
+  "zh": "所以在接下来的几分钟里，我想带你了解一些支撑 Claude Managed Agents 设计的基本原理，以及我们的团队在这一路上吸取的教训，当时我们正在工程化这个为模型演变而构建的安全带。"
+ },
+ {
+  "seg": 81,
+  "start": 451.767,
+  "end": 455.791,
+  "speaker": "Unknown",
+  "en": "Let's start with one of the very core principles that inspired our team to build Managed Agents.",
+  "zh": "让我们从激励我们团队构建 Managed Agents 的核心原则之一开始。"
+ },
+ {
+  "seg": 82,
+  "start": 456.692,
+  "end": 461.317,
+  "speaker": "Unknown",
+  "en": "And that is that harnesses and code assumptions about what Claude cannot do on its own.",
+  "zh": "那就是安全带和代码假设了 Claude 不能独自做什么。"
+ },
+ {
+  "seg": 83,
+  "start": 462.337,
+  "end": 467.823,
+  "speaker": "Unknown",
+  "en": "This is things like resetting context and managing compaction and some of the other core primitives that you see here on the screen.",
+  "zh": "这就像重置上下文和管理压缩以及你在屏幕上这里看到的其他一些核心原语。"
+ },
+ {
+  "seg": 84,
+  "start": 469.004,
+  "end": 473.969,
+  "speaker": "Unknown",
+  "en": "The thing about these assumptions is that they have to be questioned frequently because they go stale as models improve.",
+  "zh": "关于这些假设的事情是，必须经常质疑它们，因为它们会随着模型的改进而变得陈旧。"
+ },
+ {
+  "seg": 85,
+  "start": 476.331,
+  "end": 477.792,
+  "speaker": "Unknown",
+  "en": "Let's dive into one concrete example.",
+  "zh": "让我们深入研究一个具体的例子。"
+ },
+ {
+  "seg": 86,
+  "start": 478.312,
+  "end": 483.496,
+  "speaker": "Unknown",
+  "en": "Back when Sonnet 4.5 came out, it exhibited an interesting behavior that came to be known as context anxiety.",
+  "zh": "早在 Sonnet 4.5 出来的时候，它表现出一种有趣的行为，后来被称为上下文焦虑。"
+ },
+ {
+  "seg": 87,
+  "start": 484.356,
+  "end": 488.619,
+  "speaker": "Unknown",
+  "en": "What this is is that the agent literally got anxious at his approach to its context window limit.",
+  "zh": "这就是智能体在接近其上下文窗口限制时实际上变得焦虑。"
+ },
+ {
+  "seg": 88,
+  "start": 489.039,
+  "end": 494.583,
+  "speaker": "Unknown",
+  "en": "It started to wrap up tasks early, it started to terminate work, even when it actually had room left to spare in its context window.",
+  "zh": "它开始提前结束任务，它开始终止工作，即使它在上下文窗口中实际上还有剩余空间。"
+ },
+ {
+  "seg": 89,
+  "start": 495.543,
+  "end": 505.59,
+  "speaker": "Unknown",
+  "en": "In order to accommodate for this behavior, what our team did is built in fixes into the harness itself, adding in context resets so that Sonnet 4.5 would be able to reset its context and continue working.",
+  "zh": "为了适应这种行为，我们的团队所做的是将修复程序构建到安全带本身中，添加上下文重置以便 Sonnet 4.5 能够重置其上下文并继续工作。"
+ },
+ {
+  "seg": 90,
+  "start": 507.57,
+  "end": 512.873,
+  "speaker": "Unknown",
+  "en": "But when Opus 4.5 came out, the interesting thing here was that this behavior went away entirely.",
+  "zh": "但是当 Opus 4.5 出来的时候，这里有趣的是这种行为完全消失了。"
+ },
+ {
+  "seg": 91,
+  "start": 513.493,
+  "end": 519.897,
+  "speaker": "Unknown",
+  "en": "Opus 4.5 no longer exhibited context anxiety, which means that the fixes that we had added into the harness itself became dead weight.",
+  "zh": "Opus 4.5 不再表现出上下文焦虑，这意味着我们已经添加到安全带中的修复程序变成了死重。"
+ },
+ {
+  "seg": 92,
+  "start": 520.578,
+  "end": 527.121,
+  "speaker": "Unknown",
+  "en": "In fact, it became pure overhead, adding things like latency and causing issues with the cache being discarded incorrectly at times.",
+  "zh": "事实上，它变成了纯粹的开销，增加了诸如延迟之类的东西，并导致缓存有时被不正确地丢弃的问题。"
+ },
+ {
+  "seg": 93,
+  "start": 528.302,
+  "end": 534.606,
+  "speaker": "Unknown",
+  "en": "The takeaway here is that we saw that the harness fixes were no longer needed and were actually detracting from model performance with Opus 4.5.",
+  "zh": "这里的要点是，我们看到安全带修复程序不再被需要，并且实际上在 Opus 4.5 的模型性能中起反作用。"
+ },
+ {
+  "seg": 94,
+  "start": 537.722,
+  "end": 541.645,
+  "speaker": "Unknown",
+  "en": "So when the model moves and the harness doesn't, it degrades the agent.",
+  "zh": "所以当模型移动而安全带不移动时，它会降低智能体的性能。"
+ },
+ {
+  "seg": 95,
+  "start": 543.266,
+  "end": 550.59,
+  "speaker": "Unknown",
+  "en": "What we've seen across these last couple of examples is that there's significant maintenance burden that comes with maintaining a harness that can keep up with Claude's rapid evolution.",
+  "zh": "我们在过去几个例子中看到的是，维护一个能够跟得上 Claude 快速演变的安全带存在巨大的维护负担。"
+ },
+ {
+  "seg": 96,
+  "start": 551.771,
+  "end": 558.375,
+  "speaker": "Unknown",
+  "en": "As we work with a range of enterprise teams that are building on top of Claude, we also see a range in the harnesses that are ready for this level of adaptation.",
+  "zh": "当我们与一系列在 Claude 之上构建的企业团队一起工作时，我们也看到了安全带在为这种级别的适应性做准备方面存在一系列差异。"
+ },
+ {
+  "seg": 97,
+  "start": 559.176,
+  "end": 565.04,
+  "speaker": "Unknown",
+  "en": "Some of the harnesses that we see from customers are more agile and others are more rigid because they were built around older Claude models.",
+  "zh": "我们从客户那里看到的一些安全带更加敏捷，而另一些则更加僵硬，因为它们是围绕较旧的 Claude 模型构建的。"
+ },
+ {
+  "seg": 98,
+  "start": 566.565,
+  "end": 575.451,
+  "speaker": "Unknown",
+  "en": "What you don't want to do is have a stale harness that takes weeks or even months to migrate to a new model, especially with how model release cycles have been coming out shorter and shorter.",
+  "zh": "你不想做的是拥有一个陈旧的安全带，需要几周甚至几个月的时间才能迁移到新模型，特别是考虑到模型发布周期变得越来越短。"
+ },
+ {
+  "seg": 99,
+  "start": 577.232,
+  "end": 587.86,
+  "speaker": "Unknown",
+  "en": "Now, to build an effective harness, what this means is that you have to be designing for the model capabilities of tomorrow, anticipating what the future Claude models will be able to accomplish and building your harnesses for that capability.",
+  "zh": "现在，要构建一个有效的安全带，这意味着你必须为明天的模型能力进行设计，预测未来的 Claude 模型将能够实现什么，并为此能力构建你的安全带。"
+ },
+ {
+  "seg": 100,
+  "start": 588.42,
+  "end": 594.845,
+  "speaker": "Unknown",
+  "en": "It also means that your harnesses have to be agile, making it easy to iterate for the model capabilities to capture them quickly as soon as they're ready.",
+  "zh": "这也意味着你的 harness 必须敏捷，便于迭代，以便在模型能力就绪后立即快速捕获它们。"
+ },
+ {
+  "seg": 101,
+  "start": 597.145,
+  "end": 611.878,
+  "speaker": "Unknown",
+  "en": "That brings me to Claude Manage Agents, which is a harness designed around a small set of primitives with individual components that you see here on the screen that are independent, making it easy to swap them out and iterate upon them as individual pieces while keeping the overall architecture stable.",
+  "zh": "这就引出了 Claude Manage Agents，它是一个围绕一小组原语设计的 harness，你在屏幕上看到的这些独立组件，使其易于替换和作为单独的部分进行迭代，同时保持整体架构稳定。"
+ },
+ {
+  "seg": 102,
+  "start": 613.7,
+  "end": 617.343,
+  "speaker": "Unknown",
+  "en": "Another key thing that Claude managed agents is designed around is long-running agents.",
+  "zh": "Claude 管理 agents 设计围绕的另一个关键是长期运行的 agents。"
+ },
+ {
+  "seg": 103,
+  "start": 618.163,
+  "end": 638.117,
+  "speaker": "Unknown",
+  "en": "Now, when I look to internal products that are exciting and anthropic like Claude Code and Claude Tag, which our team is really excited about, and as I work with other enterprise teams who are also building exciting, truly agentic products, a common pattern that I see is that these agents are becoming increasingly asynchronous and are tackling tasks that are increasingly complex and challenging.",
+  "zh": "现在，当我查看内部产品时，比如像 Claude Code 和 Claude Tag 这样令人兴奋的 anthropic 产品，我们团队对此感到非常兴奋，以及当我与其他企业团队合作构建令人兴奋的、真正具有 agentic 属性的产品时，我看到的一个共同模式是，这些 agents 正变得越来越异步，并处理越来越复杂和具有挑战性的任务。"
+ },
+ {
+  "seg": 104,
+  "start": 639.078,
+  "end": 643.999,
+  "speaker": "Unknown",
+  "en": "In order to design a harness that's actually able to capture those level of work, it needs to have a couple of things.",
+  "zh": "为了设计一个能够真正捕获这些工作级别的 harness，它需要具备几样东西。"
+ },
+ {
+  "seg": 105,
+  "start": 644.699,
+  "end": 649.841,
+  "speaker": "Unknown",
+  "en": "It needs to be good at context engineering as the context will accumulate over those long horizon and bodies of work.",
+  "zh": "它需要善于进行上下文工程，因为上下文会在那些长时间的工作和任务体量中积累。"
+ },
+ {
+  "seg": 106,
+  "start": 650.461,
+  "end": 654.942,
+  "speaker": "Unknown",
+  "en": "It needs to be good at giving the agent a sandbox that's secure so the agent can actually take action within an environment.",
+  "zh": "它需要善于为 agent 提供一个安全的沙箱，以便 agent 能够真正在环境中采取行动。"
+ },
+ {
+  "seg": 107,
+  "start": 655.742,
+  "end": 659.163,
+  "speaker": "Unknown",
+  "en": "It has to be reliable so the agent can run on hours or even days at a time.",
+  "zh": "它必须是可靠的，以便 agent 能够运行数小时甚至数天。"
+ },
+ {
+  "seg": 108,
+  "start": 659.703,
+  "end": 666.385,
+  "speaker": "Unknown",
+  "en": "And it also has to be able to do things like parallelize workflows so the agent can tackle multiple parts of a complex problem at once and many, many more.",
+  "zh": "它还必须能够做诸如并行化工作流之类的事情，以便 agent 能够同时处理复杂问题的多个部分，以及许多更多的事情。"
+ },
+ {
+  "seg": 109,
+  "start": 667.445,
+  "end": 673.85,
+  "speaker": "Unknown",
+  "en": "So now what I want to do is dive into some of the engineering fundamentals that go into Managed Agents to make it possible to tackle some of those challenges.",
+  "zh": "所以现在我想做的是深入探讨一些进入 Managed Agents 的工程基础，使其能够应对其中一些挑战。"
+ },
+ {
+  "seg": 110,
+  "start": 676.533,
+  "end": 686.021,
+  "speaker": "Unknown",
+  "en": "One of the core architectural decisions that went into Managed Agents that sets the foundation for the rest of the slides that we're going to walk through is the decision to decouple the brain from the hands of the agent.",
+  "zh": "进入 Managed Agents 的核心架构决策之一，为我们接下来要浏览的其余幻灯片奠定了基础，那就是将 agent 的大脑与双手解耦的决策。"
+ },
+ {
+  "seg": 111,
+  "start": 687.462,
+  "end": 693.547,
+  "speaker": "Unknown",
+  "en": "When our team first set out to build Managed Agents, we started by putting the agent loop and the tool execution in the same box in the same environment.",
+  "zh": "当我们的团队最初开始构建 Managed Agents 时，我们首先将 agent 循环和工具执行放在同一个盒子里的同一个环境中。"
+ },
+ {
+  "seg": 112,
+  "start": 695,
+  "end": 701.266,
+  "speaker": "Unknown",
+  "en": "What this meant was that the agent loop would be able to easily able to call tools and read into results because it had it right there in the same container.",
+  "zh": "这意味着 agent 循环能够轻松地调用工具并读入结果，因为它就在同一个容器中。"
+ },
+ {
+  "seg": 113,
+  "start": 702.167,
+  "end": 704.349,
+  "speaker": "Unknown",
+  "en": "But then we ran into a series of limitations.",
+  "zh": "但后来我们遇到了一系列限制。"
+ },
+ {
+  "seg": 114,
+  "start": 704.949,
+  "end": 712.136,
+  "speaker": "Unknown",
+  "en": "This being that the container was blocking the agent being able to start its model reasoning, so the agent wouldn't be able to kick off until the container was fully set up.",
+  "zh": "具体来说，容器阻碍了 agent 能够启动其模型推理，因此 agent 直到容器完全设置好之后才能启动。"
+ },
+ {
+  "seg": 115,
+  "start": 712.737,
+  "end": 719.043,
+  "speaker": "Unknown",
+  "en": "It also meant challenges for reliability because if one part of this component went down, the entire box of the agent would go down.",
+  "zh": "这也给可靠性带来了挑战，因为这个组件的一部分如果宕机，整个 agent 的盒子也会宕机。"
+ },
+ {
+  "seg": 116,
+  "start": 720.35,
+  "end": 728.116,
+  "speaker": "Unknown",
+  "en": "Our solution to this was to decouple the two elements, separating the brain or the agent loop from the hands or the tool execution environment of the agent.",
+  "zh": "我们对此的解决方案是将这两个元素解耦，将大脑或 agent 循环与 agent 的双手或工具执行环境分离开来。"
+ },
+ {
+  "seg": 117,
+  "start": 728.996,
+  "end": 730.017,
+  "speaker": "Unknown",
+  "en": "This meant several things.",
+  "zh": "这意味着几件事。"
+ },
+ {
+  "seg": 118,
+  "start": 730.217,
+  "end": 736.221,
+  "speaker": "Unknown",
+  "en": "It meant improved reliability, and it also meant that the brain could only spin up sessions when it actually needed it on demand.",
+  "zh": "这意味着提高了可靠性，这也意味着大脑只能在实际需要时按需启动会话。"
+ },
+ {
+  "seg": 119,
+  "start": 740.024,
+  "end": 744.808,
+  "speaker": "Unknown",
+  "en": "And now let's dive into how some of these replaceable components meant keeping long-running agents safe.",
+  "zh": "现在让我们深入探讨这些可替换组件是如何使长期运行的 agents 保持安全的。"
+ },
+ {
+  "seg": 120,
+  "start": 745.825,
+  "end": 755.874,
+  "speaker": "Unknown",
+  "en": "First of all, if the sandbox or the hands of the agent died, because the brain was in a separate component, the brain could just spin up a new sandbox and retry and then continue as it left off.",
+  "zh": "首先，如果沙箱或 agent 的双手死掉了，由于大脑处于一个独立的组件中，大脑可以启动一个新的沙箱并重试，然后从它停止的地方继续。"
+ },
+ {
+  "seg": 121,
+  "start": 756.875,
+  "end": 772.589,
+  "speaker": "Unknown",
+  "en": "If the brain of the agent dies, we're actually gonna walk through something in just a moment here about how everything that the agent does is logged into a durable session resource in a session log, which means that the brain of the agent can actually just read from that session log, go back into context, and resume exactly where it left off as well.",
+  "zh": "如果 agent 的大脑死掉了，我们实际上稍后会过一遍一些内容，关于 agent 所做的一切如何被记录到持久的会话资源中的会话日志里，这意味着 agent 的大脑实际上可以只从该会话日志中读取，回到上下文中，并精确地从它停止的地方恢复。"
+ },
+ {
+  "seg": 122,
+  "start": 775.261,
+  "end": 785.385,
+  "speaker": "Unknown",
+  "en": "This means that Managed Agents is designed around three core primitives, and that is the agent, and that is what your agent is, especially defining what your agent does for your use case.",
+  "zh": "这意味着 Managed Agents 围绕三个核心原语设计，那就是 agent，也就是你的 agent 是什么，特别是根据你的用例定义你的 agent 做什么。"
+ },
+ {
+  "seg": 123,
+  "start": 785.785,
+  "end": 792.187,
+  "speaker": "Unknown",
+  "en": "This is a thing like the model that goes into your agent, the prompts, the tools, the skills, everything that makes your agent work for your particular use case.",
+  "zh": "这就像进入你的 agent 的模型、提示词、工具、技能，所有使你的 agent 为你的特定用例工作的东西。"
+ },
+ {
+  "seg": 124,
+  "start": 793.167,
+  "end": 797.249,
+  "speaker": "Unknown",
+  "en": "Next up is the environment, and this is the container that the agent actually runs in.",
+  "zh": "接下来是环境，这是 agent 实际运行的容器。"
+ },
+ {
+  "seg": 125,
+  "start": 798.383,
+  "end": 807.812,
+  "speaker": "Unknown",
+  "en": "You can actually have multiple sessions run on the same environment definition, and you can even attach multiple sessions to run in the same environment at once, but each with its own isolated container instance.",
+  "zh": "你实际上可以让多个会话在同一个环境定义上运行，你甚至可以附加多个会话同时在同一个环境中运行，但每个都有自己独立的容器实例。"
+ },
+ {
+  "seg": 126,
+  "start": 808.953,
+  "end": 812.115,
+  "speaker": "Unknown",
+  "en": "When you combine an agent with an environment, you get a session.",
+  "zh": "当你将 agent 与环境结合时，你会得到一个会话。"
+ },
+ {
+  "seg": 127,
+  "start": 812.916,
+  "end": 824.847,
+  "speaker": "Unknown",
+  "en": "What a session is, is it's a durable resource persisted in the cloud of every single interaction that you have with the agent, which unlocks several things like observability, a long-running instance, reliability, all through this core architectural decisions.",
+  "zh": "会话是什么，它是云中持久化的资源，记录你与 agent 的每一次交互，这解锁了几样东西，如可观测性、长期运行的实例、可靠性，所有这些都通过这个核心架构决策实现。"
+ },
+ {
+  "seg": 128,
+  "start": 827.722,
+  "end": 838.069,
+  "speaker": "Unknown",
+  "en": "Now, when I work with many teams that are bringing an agent from a prototyping phase all the way to a production phase, one of the main challenges that we see is that reliability is a core concern.",
+  "zh": "现在，当我与许多团队合作将 agent 从原型阶段一直带到生产阶段时，我们看到的主要挑战之一是可靠性是一个核心关注点。"
+ },
+ {
+  "seg": 129,
+  "start": 838.71,
+  "end": 848.917,
+  "speaker": "Unknown",
+  "en": "It's a different story to build an agent that runs in your laptop and serves you as a single user compared to when you actually want to deploy it in production and run it at scale for hundreds of thousands or even millions of users.",
+  "zh": "构建一个在你的笔记本电脑上运行并为你作为单个用户服务的 agent，与当你实际想要在生产环境中部署它并为数十万甚至数百万用户大规模运行它，是两回事。"
+ },
+ {
+  "seg": 130,
+  "start": 849.798,
+  "end": 856.863,
+  "speaker": "Unknown",
+  "en": "You need to make sure, especially if your agent is going to run for long hours at a time, that it's going to be reliable and can actually recover from tool failures.",
+  "zh": "你需要确保，特别是如果你的 agent 要连续长时间运行，它必须是可靠的，并且能够真正从工具故障中恢复。"
+ },
+ {
+  "seg": 131,
+  "start": 858.32,
+  "end": 874.684,
+  "speaker": "Unknown",
+  "en": "Managed Agents, because of the way it's designed around those three primitives that we just walked over, is able to have four distinct session states, and that is idle, when your agent is waiting on user input, running when it's actually executing, rescheduling when it encounters an error and it's going to retry, or terminated if it's unrecoverable.",
+  "zh": "Managed Agents，由于其围绕我们刚刚浏览过的三个原语的设计方式，能够具有四种不同的会话状态，那就是空闲，当你的 agent 等待用户输入时；运行，当它实际执行时；重调度，当它遇到错误并将要重试时；或者终止，如果它是不可恢复的。"
+ },
+ {
+  "seg": 132,
+  "start": 875.945,
+  "end": 883.767,
+  "speaker": "Unknown",
+  "en": "This means that the agent can always go back to an existing session and resume where it left off, and it also has a mechanism for it to recover from those failures in production.",
+  "zh": "这意味着 agent 总是可以回到一个现有的会话并从它停止的地方恢复，它也有一种机制从生产中的那些故障中恢复。"
+ },
+ {
+  "seg": 133,
+  "start": 886.74,
+  "end": 893.167,
+  "speaker": "Unknown",
+  "en": "Another common theme that we see with designing effective agents, especially as model capabilities evolve, is context engineering.",
+  "zh": "我们在设计有效的 agents 时看到的另一个共同主题，特别是随着模型能力的发展，是上下文工程。"
+ },
+ {
+  "seg": 134,
+  "start": 894.348,
+  "end": 903.077,
+  "speaker": "Unknown",
+  "en": "Now, context engineering is something that our team has done a ton of research into because it is one of the things that separates an effective agent from an agent that gets lost in context rot.",
+  "zh": "现在，上下文工程是我们团队进行了大量研究的事情，因为它是区分有效的 agent 和在上下文腐化中迷失的 agent 的一件事。"
+ },
+ {
+  "seg": 135,
+  "start": 904.233,
+  "end": 924.3,
+  "speaker": "Unknown",
+  "en": "Context engineering is also difficult, and with many traditional harness implementations, the context window and the session are one and the same, which means that Claude, if it wants to come in and discard portions of the context that it's in in current session run, it doesn't have a mechanism to be able to recover pieces of that context back into its window if it loses it at one point in its current session run.",
+  "zh": "上下文工程也是困难的，并且在许多传统的 harness 实现中，上下文窗口和会话是一回事，这意味着 Claude，如果它想要进入并丢弃其在当前会话运行中所处的上下文部分，它没有一种机制能够将该上下文的部分恢复到其窗口中，如果它在当前会话运行的某个点丢失了它。"
+ },
+ {
+  "seg": 136,
+  "start": 925.513,
+  "end": 937.544,
+  "speaker": "Unknown",
+  "en": "However, because everything in Managed Agents is logged to a durable, persisted session log resource, what this unlocks is that the harness can actually just read in slices of that context from the session log into its current window.",
+  "zh": "然而，因为 Managed Agents 中的所有东西都被记录到一个持久的、持久化的会话日志资源中，这解锁的是 harness 实际可以只从会话日志中读取该上下文的切片到其当前窗口中。"
+ },
+ {
+  "seg": 137,
+  "start": 938.325,
+  "end": 947.434,
+  "speaker": "Unknown",
+  "en": "If it then has Claude coming in and editing or discarding portions of that run, it can simply recover it by just rereading it from the session log because everything is persisted in that log resource.",
+  "zh": "如果它随后有 Claude 进入并编辑或丢弃该运行的部分，它可以简单地通过从会话日志中重新读取它来恢复它，因为所有东西都持久化在该日志资源中。"
+ },
+ {
+  "seg": 138,
+  "start": 950.89,
+  "end": 958.573,
+  "speaker": "Unknown",
+  "en": "What this means is that what we see is increasingly developers are able to rely on portions of the managed agent harness that come with the harness itself.",
+  "zh": "这意味着我们看到的是越来越多的开发者能够依赖 managed agent harness 的部分，这些部分随 harness 本身而来。"
+ },
+ {
+  "seg": 139,
+  "start": 958.954,
+  "end": 964.596,
+  "speaker": "Unknown",
+  "en": "This is things like the agent loop, memory, observability, all that comes alongside building with Claude managed agents.",
+  "zh": "这比如 agent 循环、内存、可观测性，所有这些都伴随着使用 Claude managed agents 的构建而来。"
+ },
+ {
+  "seg": 140,
+  "start": 965.436,
+  "end": 972.359,
+  "speaker": "Unknown",
+  "en": "It also exposes key areas for the developer to be able to customize, and this is context management and domain expertise.",
+  "zh": "它还向开发者暴露了可定制的关键领域，这就是上下文管理和领域专业知识。"
+ },
+ {
+  "seg": 141,
+  "start": 973.36,
+  "end": 980.263,
+  "speaker": "Unknown",
+  "en": "This is what separates a coding agent from a legal agent or a go-to-market agent, and again, is what makes your agent truly ready for your users.",
+  "zh": "这就是区分代码 agent 和法律 agent 或 go-to-market agent 的原因，同样，这也是使你的 agent 真正为你的用户做好准备的原因。"
+ },
+ {
+  "seg": 142,
+  "start": 981.47,
+  "end": 988.514,
+  "speaker": "Unknown",
+  "en": "For instance, with Claude Code, Claude Code uses a set of tools like bash and grep on your laptop, just like how developers do when they open up their terminal.",
+  "zh": "例如，对于 Claude Code，Claude Code 使用一组工具，比如你的笔记本电脑上的 bash 和 grep，就像开发者打开终端时所做的那样。"
+ },
+ {
+  "seg": 143,
+  "start": 989.134,
+  "end": 992.636,
+  "speaker": "Unknown",
+  "en": "But a go-to-market agent or a legal agent would need a vastly different set of tools.",
+  "zh": "但是 go-to-market agent 或法律 agent 将需要一组非常不同的工具。"
+ },
+ {
+  "seg": 144,
+  "start": 993.616,
+  "end": 1005.883,
+  "speaker": "Unknown",
+  "en": "So by having this part of the managed agent harness managed by Anthropic, what that means is that the developer can focus on their time designing the right system prompts, the right skills, and the right tools to make their agent truly work for their users.",
+  "zh": "因此，通过让 managed agent harness 的这部分由 Anthropic 管理，这意味着开发者可以专注于他们的时间来设计正确的系统提示词、正确的技能和正确的工具，以使他们的 agent 真正为他们的用户工作。"
+ },
+ {
+  "seg": 145,
+  "start": 1007.377,
+  "end": 1018.086,
+  "speaker": "Unknown",
+  "en": "Now what I want to do is hand it over back to Gagan to walk you through one example in a live demo where you can see a customized agent for a production use case and how simple it is to build a production-ready agent with managed agents.",
+  "zh": "现在我想做的是把它交还给 Gagan，带你过一遍一个现场演示中的例子，你可以在那里看到一个针对生产用例的定制化的 agent，以及使用 managed agents 构建一个生产就绪的 agent 是多么简单。"
+ },
+ {
+  "seg": 146,
+  "start": 1019.728,
+  "end": 1020.108,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 147,
+  "start": 1020.549,
+  "end": 1021.269,
+  "speaker": "Unknown",
+  "en": "Thank you, Isabella.",
+  "zh": "谢谢你，Isabella。"
+ },
+ {
+  "seg": 148,
+  "start": 1022.23,
+  "end": 1022.911,
+  "speaker": "Unknown",
+  "en": "Let's switch over.",
+  "zh": "让我们切换过去。"
+ },
+ {
+  "seg": 149,
+  "start": 1022.931,
+  "end": 1025.433,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 150,
+  "start": 1028.596,
+  "end": 1035.325,
+  "speaker": "Unknown",
+  "en": "So now that you heard from Isabella how Managed Agents works under the hood, let's look at what it feels like to actually build with it.",
+  "zh": "那么现在既然你听了 Isabella 讲解托管智能体在底层是如何工作的，让我们来看看实际使用它进行开发是什么感觉。"
+ },
+ {
+  "seg": 151,
+  "start": 1035.886,
+  "end": 1039.411,
+  "speaker": "Unknown",
+  "en": "What does it feel like to actually create your own production-grade agent from scratch?",
+  "zh": "从头实际创建你自己的生产级智能体是什么感觉？"
+ },
+ {
+  "seg": 152,
+  "start": 1040.032,
+  "end": 1044.418,
+  "speaker": "Unknown",
+  "en": "This is a semi-interactive demo, so please bear with me here and follow along.",
+  "zh": "这是一个半交互式演示，所以请耐心听我讲并跟上。"
+ },
+ {
+  "seg": 153,
+  "start": 1045.69,
+  "end": 1052.452,
+  "speaker": "Unknown",
+  "en": "So imagine that you're an engineer and you own a dashboard that basically contains all the key metrics for the services that you own.",
+  "zh": "所以想象一下你是一名工程师，你拥有一个仪表盘，其中基本上包含你所拥有服务的所有关键指标。"
+ },
+ {
+  "seg": 154,
+  "start": 1052.912,
+  "end": 1053.572,
+  "speaker": "Unknown",
+  "en": "It's called Atlas.",
+  "zh": "它叫作 Atlas。"
+ },
+ {
+  "seg": 155,
+  "start": 1054.332,
+  "end": 1061.234,
+  "speaker": "Unknown",
+  "en": "And one day, you're just enjoying life, and you start to see that the P99 latency suddenly starts spiking.",
+  "zh": "有一天，你正在享受生活，突然开始看到 P99 延迟开始飙升。"
+ },
+ {
+  "seg": 156,
+  "start": 1061.734,
+  "end": 1063.075,
+  "speaker": "Unknown",
+  "en": "It's 10x over baseline.",
+  "zh": "它是基线的 10 倍。"
+ },
+ {
+  "seg": 157,
+  "start": 1063.615,
+  "end": 1064.935,
+  "speaker": "Unknown",
+  "en": "So you have an incident on your hands.",
+  "zh": "所以你手头有了一个事故。"
+ },
+ {
+  "seg": 158,
+  "start": 1065.495,
+  "end": 1070.997,
+  "speaker": "Unknown",
+  "en": "You see your logs, you see a bunch of text, and you have to figure out what exactly is going wrong.",
+  "zh": "你看到你的日志，看到一堆文本，你必须弄清楚到底出了什么问题。"
+ },
+ {
+  "seg": 159,
+  "start": 1071.883,
+  "end": 1082.392,
+  "speaker": "Unknown",
+  "en": "Wouldn't it be nice if there was a site reliability engineering agent that could investigate all these tedious data points and come back to you with the root cause before even you open your dashboard?",
+  "zh": "如果有一个站点可靠性工程智能体能调查所有这些繁琐的数据点，并在你甚至还没打开仪表盘之前就向你返回根本原因，那不是很好吗？"
+ },
+ {
+  "seg": 160,
+  "start": 1083.212,
+  "end": 1084.473,
+  "speaker": "Unknown",
+  "en": "Well, that's what we're gonna implement today.",
+  "zh": "好吧，这就是我们要在今天实现的。"
+ },
+ {
+  "seg": 161,
+  "start": 1084.493,
+  "end": 1091.079,
+  "speaker": "Unknown",
+  "en": "We're gonna build this from scratch using Claude-managed agents, and it'll walk you through the steps using the primitives that Isabella shared earlier.",
+  "zh": "我们将使用 Claude 托管智能体从头开始构建它，它将使用 Isabella 之前分享的原语一步步指导你。"
+ },
+ {
+  "seg": 162,
+  "start": 1092.58,
+  "end": 1093.861,
+  "speaker": "Unknown",
+  "en": "Okay, so let's build it.",
+  "zh": "好的，让我们开始构建吧。"
+ },
+ {
+  "seg": 163,
+  "start": 1094.641,
+  "end": 1098.424,
+  "speaker": "Unknown",
+  "en": "The first primitive, as mentioned earlier, is the agent definition.",
+  "zh": "第一个原语，正如前面提到的，是智能体定义。"
+ },
+ {
+  "seg": 164,
+  "start": 1099.045,
+  "end": 1100.906,
+  "speaker": "Unknown",
+  "en": "You define what the agent does,",
+  "zh": "你定义智能体做什么，"
+ },
+ {
+  "seg": 165,
+  "start": 1101.778,
+  "end": 1104.999,
+  "speaker": "Unknown",
+  "en": "And everything that it needs to accomplish that task.",
+  "zh": "以及完成该任务所需的一切。"
+ },
+ {
+  "seg": 166,
+  "start": 1105.719,
+  "end": 1108.98,
+  "speaker": "Unknown",
+  "en": "So in this case, I define the name as the SRE investigator.",
+  "zh": "所以在这个例子中，我把名称定义为 SRE 调查员。"
+ },
+ {
+  "seg": 167,
+  "start": 1109.52,
+  "end": 1111.401,
+  "speaker": "Unknown",
+  "en": "I give a model as Claude Opus 4.8.",
+  "zh": "我指定模型为 Claude Opus 4.8。"
+ },
+ {
+  "seg": 168,
+  "start": 1111.921,
+  "end": 1118.723,
+  "speaker": "Unknown",
+  "en": "I have a system prompt that kind of defines the instructions for the agent on how to behave and tools.",
+  "zh": "我有一个系统提示词，它定义了智能体关于如何表现和工具的指令。"
+ },
+ {
+  "seg": 169,
+  "start": 1119.383,
+  "end": 1124.429,
+  "speaker": "Unknown",
+  "en": "The agent toolset gives it a standard set of tools like bash, grep, and blob, et cetera.",
+  "zh": "智能体工具集给它提供了一套标准工具，比如 bash、grep 和 blob 等等。"
+ },
+ {
+  "seg": 170,
+  "start": 1125.13,
+  "end": 1131.859,
+  "speaker": "Unknown",
+  "en": "And there's an MCP toolset that connects to my dashboard and allows it to pull specific things like deploys and the metrics that I showed earlier.",
+  "zh": "还有一个 MCP 工具集连接到我的仪表盘，并允许它拉取特定的东西，比如我之前展示的部署和指标。"
+ },
+ {
+  "seg": 171,
+  "start": 1132.46,
+  "end": 1134.562,
+  "speaker": "Unknown",
+  "en": "That's step one, agent definition.",
+  "zh": "这是第一步，智能体定义。"
+ },
+ {
+  "seg": 172,
+  "start": 1135.764,
+  "end": 1136.365,
+  "speaker": "Unknown",
+  "en": "Step number two.",
+  "zh": "第二步。"
+ },
+ {
+  "seg": 173,
+  "start": 1137.49,
+  "end": 1139.451,
+  "speaker": "Unknown",
+  "en": "Let's now define where does it run.",
+  "zh": "现在让我们定义它在哪里运行。"
+ },
+ {
+  "seg": 174,
+  "start": 1140.051,
+  "end": 1142.511,
+  "speaker": "Unknown",
+  "en": "This is the environment that we were mentioning before.",
+  "zh": "这就是我们之前提到的环境。"
+ },
+ {
+  "seg": 175,
+  "start": 1143.032,
+  "end": 1155.095,
+  "speaker": "Unknown",
+  "en": "Here, we create an environment that is SRE Sandbox, and I configure it to run on the Anthropic Cloud with the networking limited and Allaudos hosts only being the MCP server that I wanted to communicate to.",
+  "zh": "在这里，我们创建了一个名为 SRE Sandbox 的环境，我将其配置为在 Anthropic Cloud 上运行，网络受限，并且只有我想要通信的 MCP 服务器作为 Allaudos 主机。"
+ },
+ {
+  "seg": 176,
+  "start": 1155.735,
+  "end": 1161.277,
+  "speaker": "Unknown",
+  "en": "This environment effectively stops Claude from doing things that you didn't intend, so you can control boundaries here.",
+  "zh": "这个环境有效地阻止 Claude 做你不想让它做的事情，所以你可以在这里控制边界。"
+ },
+ {
+  "seg": 177,
+  "start": 1162.708,
+  "end": 1166.31,
+  "speaker": "Unknown",
+  "en": "Next, let's give it the logistics and the details that it needs to solve this task.",
+  "zh": "接下来，让我们给它提供解决这个任务所需的后勤和细节。"
+ },
+ {
+  "seg": 178,
+  "start": 1166.73,
+  "end": 1169.231,
+  "speaker": "Unknown",
+  "en": "And one of the key things is the application logs I showed earlier.",
+  "zh": "关键的事情之一是我之前展示的应用程序日志。"
+ },
+ {
+  "seg": 179,
+  "start": 1169.571,
+  "end": 1174.533,
+  "speaker": "Unknown",
+  "en": "You can upload files and skills just like this, and you can set it up so that it reads from those.",
+  "zh": "你可以像这样上传文件和技能，你可以设置它从这些文件中读取。"
+ },
+ {
+  "seg": 180,
+  "start": 1175.374,
+  "end": 1187.139,
+  "speaker": "Unknown",
+  "en": "So now we have the agent definition, so what it is, we have the environment, which is where it runs, we have relevant evidence, and so now we set it up so we can kickstart a session.",
+  "zh": "所以现在我们有了智能体定义，也就是它是什么，我们有了环境，也就是它在哪里运行，我们有相关证据，现在我们进行设置以便我们可以启动一个会话。"
+ },
+ {
+  "seg": 181,
+  "start": 1187.839,
+  "end": 1192.041,
+  "speaker": "Unknown",
+  "en": "The session combines these durable resources into a new session,",
+  "zh": "会话将这些持久资源组合到一个新会话中，"
+ },
+ {
+  "seg": 182,
+  "start": 1192.86,
+  "end": 1197.903,
+  "speaker": "Unknown",
+  "en": "And it specifies the log point as a resource, and it allows the agent to kick off.",
+  "zh": "它将日志点指定为资源，并允许智能体开始执行。"
+ },
+ {
+  "seg": 183,
+  "start": 1198.664,
+  "end": 1199.004,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 184,
+  "start": 1199.685,
+  "end": 1202.827,
+  "speaker": "Unknown",
+  "en": "What you have defined here is now living in the Anthropic Cloud.",
+  "zh": "你在这里定义的一切现在都存在于 Anthropic Cloud 中。"
+ },
+ {
+  "seg": 185,
+  "start": 1202.987,
+  "end": 1205.128,
+  "speaker": "Unknown",
+  "en": "And this can be dynamic as needed in your application.",
+  "zh": "这可以根据需要在你的应用程序中动态化。"
+ },
+ {
+  "seg": 186,
+  "start": 1206.089,
+  "end": 1208.811,
+  "speaker": "Unknown",
+  "en": "So once we do this, we kickstarted the session.",
+  "zh": "所以一旦我们这样做，我们就启动了会话。"
+ },
+ {
+  "seg": 187,
+  "start": 1209.131,
+  "end": 1212.973,
+  "speaker": "Unknown",
+  "en": "And let's go back to the investigator agent earlier and say, hey, I have an incident.",
+  "zh": "让我们回到之前的调查员智能体说，嘿，我有一个事故。"
+ },
+ {
+  "seg": 188,
+  "start": 1213.374,
+  "end": 1215.455,
+  "speaker": "Unknown",
+  "en": "My checkout is super high.",
+  "zh": "我的结账量超级高。"
+ },
+ {
+  "seg": 189,
+  "start": 1215.535,
+  "end": 1216.436,
+  "speaker": "Unknown",
+  "en": "Can you please investigate?",
+  "zh": "你能调查一下吗？"
+ },
+ {
+  "seg": 190,
+  "start": 1217.295,
+  "end": 1221.178,
+  "speaker": "Unknown",
+  "en": "Claude immediately spins up, the brain spins up in Claude-managed agents in the cloud.",
+  "zh": "Claude 立即启动，大脑在云端的 Claude 托管智能体中启动。"
+ },
+ {
+  "seg": 191,
+  "start": 1221.719,
+  "end": 1226.683,
+  "speaker": "Unknown",
+  "en": "It uses the hands, which is a sandbox, to grep and find specific details in the application logs.",
+  "zh": "它使用双手，也就是沙箱，去 grep 并在应用程序日志中找到具体的细节。"
+ },
+ {
+  "seg": 192,
+  "start": 1227.344,
+  "end": 1234.57,
+  "speaker": "Unknown",
+  "en": "It uses relevant metrics using MCP tools and finds the recent deploys and isolates where the incident started.",
+  "zh": "它使用 MCP 工具获取相关指标，找到最近的部署，并分离出事故开始的地方。"
+ },
+ {
+  "seg": 193,
+  "start": 1236.031,
+  "end": 1244.018,
+  "speaker": "Unknown",
+  "en": "It does further investigation, finds the code diff, and synthesizes this information to figure out a final root cause.",
+  "zh": "它做进一步的调查，找到代码差异，并综合这些信息以找出最终的根本原因。"
+ },
+ {
+  "seg": 194,
+  "start": 1244.886,
+  "end": 1247.647,
+  "speaker": "Unknown",
+  "en": "Just like that, Cloud Managed Agents was able to run in the cloud.",
+  "zh": "就像那样，Cloud 托管智能体能够在云端运行。"
+ },
+ {
+  "seg": 195,
+  "start": 1247.687,
+  "end": 1251.969,
+  "speaker": "Unknown",
+  "en": "We were able to define it in code and have everything running end-to-end.",
+  "zh": "我们能够用代码定义它，并让所有事情端到端地运行。 [[196] ]需要澄清的是，这只是一个会话。"
+ },
+ {
+  "seg": 196,
+  "start": 1252.729,
+  "end": 1255.39,
+  "speaker": "Unknown",
+  "en": "And to clarify, this is just one session.",
+  "zh": "需要澄清的是，这只是一次会议。"
+ },
+ {
+  "seg": 197,
+  "start": 1256.391,
+  "end": 1258.071,
+  "speaker": "Unknown",
+  "en": "All of this is production infrastructure.",
+  "zh": "所有这些都是生产基础设施。"
+ },
+ {
+  "seg": 198,
+  "start": 1258.592,
+  "end": 1265.134,
+  "speaker": "Unknown",
+  "en": "So you can imagine multiple sessions kicked off by all of your users ready to go immediately.",
+  "zh": "所以你可以想象由你所有用户启动的多个会话，准备立即开始。"
+ },
+ {
+  "seg": 199,
+  "start": 1265.995,
+  "end": 1270.857,
+  "speaker": "Unknown",
+  "en": "And we have a beautiful observability dashboard that allows you to see all of these sessions on demand.",
+  "zh": "我们有一个漂亮的可观测性仪表盘，允许你按需查看所有这些会话。"
+ },
+ {
+  "seg": 200,
+  "start": 1271.763,
+  "end": 1285.488,
+  "speaker": "Unknown",
+  "en": "If I click into one of the observability dashboards on the Claude console, you will find the exact event trace, the session logs for that event, including the tools that it used, the results of it, and any other agent messages that came into picture.",
+  "zh": "如果我点击 Claude 控制台上某个可观测性仪表板，你会找到确切的事件追踪、该事件的会话日志，包括它使用的工具、结果，以及任何其他浮现出来的智能体消息。"
+ },
+ {
+  "seg": 201,
+  "start": 1286.708,
+  "end": 1294.331,
+  "speaker": "Unknown",
+  "en": "With that, we were able to walk through what it feels like to build a Claude-managed agent from scratch with just a few lines of code.",
+  "zh": "有了这个，我们得以演示从头开始构建一个 Claude 托管智能体的感觉，只需要几行代码。"
+ },
+ {
+  "seg": 202,
+  "start": 1296.272,
+  "end": 1296.552,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 203,
+  "start": 1299.055,
+  "end": 1299.415,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 204,
+  "start": 1300.036,
+  "end": 1302.957,
+  "speaker": "Unknown",
+  "en": "So with that, let's go into the next section.",
+  "zh": "那么，让我们进入下一部分。"
+ },
+ {
+  "seg": 205,
+  "start": 1304.338,
+  "end": 1307.6,
+  "speaker": "Unknown",
+  "en": "We've learned now how Cloud Managed Agents works under the hood.",
+  "zh": "我们现在已经了解了 Cloud Managed Agents 在底层是如何工作的。"
+ },
+ {
+  "seg": 206,
+  "start": 1308.16,
+  "end": 1312.163,
+  "speaker": "Unknown",
+  "en": "We've learned what it feels like to build a production-grade agent at scale using it.",
+  "zh": "我们了解了使用它大规模构建生产级智能体是什么样的感觉。"
+ },
+ {
+  "seg": 207,
+  "start": 1312.883,
+  "end": 1319.487,
+  "speaker": "Unknown",
+  "en": "Now let's talk about what we've learned from taking this to the field, what we've heard from customers, and what we've learned generally building production-scale agents.",
+  "zh": "现在让我们谈谈我们将此推向实地所学到的，我们从客户那里听到的，以及我们通常构建生产级智能体所学到的。"
+ },
+ {
+  "seg": 208,
+  "start": 1320.719,
+  "end": 1322.9,
+  "speaker": "Unknown",
+  "en": "There's four lessons here, and I'll start off with the first one.",
+  "zh": "这里有四个教训，我将从第一个开始。"
+ },
+ {
+  "seg": 209,
+  "start": 1323.401,
+  "end": 1327.103,
+  "speaker": "Unknown",
+  "en": "The first lesson is to keep the credentials away from your agent.",
+  "zh": "第一个教训是让凭证远离你的智能体。"
+ },
+ {
+  "seg": 210,
+  "start": 1327.843,
+  "end": 1335.768,
+  "speaker": "Unknown",
+  "en": "A lot of customers ask me, how do I make sure my agent doesn't read or see the environment file that contains all my security tokens?",
+  "zh": "许多客户问我，如何确保我的智能体不会读取或看到包含我所有安全令牌的环境文件？"
+ },
+ {
+  "seg": 211,
+  "start": 1336.168,
+  "end": 1337.549,
+  "speaker": "Unknown",
+  "en": "This is a very important aspect.",
+  "zh": "这是一个非常重要的方面。"
+ },
+ {
+  "seg": 212,
+  "start": 1338.31,
+  "end": 1344.674,
+  "speaker": "Unknown",
+  "en": "We already get some of this because we, as Isabelle mentioned earlier, we separated the brain from the hands.",
+  "zh": "我们已经获得了一些这样的好处，因为，正如 Isabelle 早些时候提到的，我们将大脑与双手分开了。"
+ },
+ {
+  "seg": 213,
+  "start": 1344.954,
+  "end": 1349.617,
+  "speaker": "Unknown",
+  "en": "So where the agentic loop runs is separate from where the tool execution happens.",
+  "zh": "所以智能体循环运行的地方与工具执行发生的地方是分开的。"
+ },
+ {
+  "seg": 214,
+  "start": 1350.476,
+  "end": 1361.203,
+  "speaker": "Unknown",
+  "en": "We took it a step further by introducing the concept of vaults, where you can store security credentials in a secure way, and they're decrypted only when needed at tool execution runtime.",
+  "zh": "我们通过引入 vaults（保险库）的概念更进一步，你可以以安全的方式存储安全凭证，并且它们仅在工具执行运行时需要时才被解密。"
+ },
+ {
+  "seg": 215,
+  "start": 1361.864,
+  "end": 1367.467,
+  "speaker": "Unknown",
+  "en": "This way, you can effectively keep credentials away from your agent, and the model never sees your security tokens.",
+  "zh": "这样，你可以有效地让凭证远离你的智能体，模型永远不会看到你的安全令牌。"
+ },
+ {
+  "seg": 216,
+  "start": 1370.589,
+  "end": 1372.19,
+  "speaker": "Unknown",
+  "en": "Perfect, now time for lesson two.",
+  "zh": "完美，现在是教训二的时间。"
+ },
+ {
+  "seg": 217,
+  "start": 1373.151,
+  "end": 1378.935,
+  "speaker": "Unknown",
+  "en": "And I'm sure if any of you in this room have built a production-ready agent, latency has been one of the things that's top of mind for you.",
+  "zh": "我敢打赌，如果在座的各位中有人构建过生产就绪的智能体，延迟一直是你们最关心的事情之一。"
+ },
+ {
+  "seg": 218,
+  "start": 1379.99,
+  "end": 1389.095,
+  "speaker": "Unknown",
+  "en": "What we realized when we decoupled the brain from the hands of the agent, as we talked about, is that this actually unlocked a key benefit that really mattered for a lot of our customers building on managed agents out in the wild.",
+  "zh": "当我们将智能体的大脑与双手解耦时，正如我们所谈论的，我们意识到这实际上解锁了一个关键好处，这对很多在现实世界中构建托管智能体的客户真的很重要。"
+ },
+ {
+  "seg": 219,
+  "start": 1389.696,
+  "end": 1396.6,
+  "speaker": "Unknown",
+  "en": "And that is that it improved latency significantly because the agent was no longer blocked on reasoning based on container setup.",
+  "zh": "这就是它显著改善了延迟，因为智能体不再被基于容器设置的推理所阻塞。"
+ },
+ {
+  "seg": 220,
+  "start": 1397.571,
+  "end": 1412.76,
+  "speaker": "Unknown",
+  "en": "So if we go back to the first version with the coupled design where we had the harness in the same container in one single box, essentially the model wouldn't be able to start reasoning or outputting its first token until that container setup was fully complete, which meant that it had delays in the latency, especially for time to first token.",
+  "zh": "如果我们回到具有耦合设计的第一个版本，我们在一个单一盒子中将工具带放在同一个容器中，基本上模型无法开始推理或输出其第一个令牌，直到容器设置完全完成，这意味着它有延迟，特别是对于首字延迟。"
+ },
+ {
+  "seg": 221,
+  "start": 1414.221,
+  "end": 1417.423,
+  "speaker": "Unknown",
+  "en": "When we then decoupled the brain from the hands of the agent, this is what we get.",
+  "zh": "当我们将智能体的大脑与双手解耦时，这就是我们得到的。"
+ },
+ {
+  "seg": 222,
+  "start": 1418.103,
+  "end": 1422.466,
+  "speaker": "Unknown",
+  "en": "Now we can have model reasons start immediately, and we can run container setup in parallel.",
+  "zh": "现在我们可以立即让模型推理开始，并且我们可以并行运行容器设置。"
+ },
+ {
+  "seg": 223,
+  "start": 1423.44,
+  "end": 1437.171,
+  "speaker": "Unknown",
+  "en": "What this means is that the model can then run container setup so that the brain of the agent actually has the hands when it needs it, or we can actually skip the container setup entirely if for this particular task, we actually don't need the container setup in the first place.",
+  "zh": "这意味着模型可以运行容器设置，以便智能体的大脑实际上在需要时拥有双手，或者如果我们实际上首先不需要容器设置，我们可以完全跳过容器设置，针对此特定任务。"
+ },
+ {
+  "seg": 224,
+  "start": 1439.172,
+  "end": 1453.043,
+  "speaker": "Unknown",
+  "en": "What we then saw when we tested this is that we saw 60% faster time to first token for P50 use cases or median use cases, and over 90% improvements in latency for time to first token in P95 use cases.",
+  "zh": "然后当我们测试这个时，我们看到的是，对于 P50 用例或中位用例，首字延迟快了 60%，而在 P95 用例中，首字延迟的延迟改善了超过 90%。"
+ },
+ {
+  "seg": 225,
+  "start": 1457.852,
+  "end": 1459.794,
+  "speaker": "Unknown",
+  "en": "Lesson three is about session logs.",
+  "zh": "教训三是关于会话日志。"
+ },
+ {
+  "seg": 226,
+  "start": 1460.534,
+  "end": 1469.782,
+  "speaker": "Unknown",
+  "en": "A lot of customers asked us the question, how can I figure out what's actually going on in my agent under the hood and how can I make my agent better over time?",
+  "zh": "许多客户问我们这个问题，我如何弄清楚我的智能体在底层实际发生了什么，以及我如何随着时间的推移让我的智能体变得更好？"
+ },
+ {
+  "seg": 227,
+  "start": 1470.522,
+  "end": 1475.846,
+  "speaker": "Unknown",
+  "en": "Turns out the answer to both of these questions lies in something that we call the session log or traces.",
+  "zh": "结果证明，这两个问题的答案都存在于我们称之为会话日志或追踪的东西中。"
+ },
+ {
+  "seg": 228,
+  "start": 1476.547,
+  "end": 1481.571,
+  "speaker": "Unknown",
+  "en": "The session log essentially contains events of everything that happened during an agent execution.",
+  "zh": "会话日志本质上包含智能体执行期间发生的所有事件。"
+ },
+ {
+  "seg": 229,
+  "start": 1481.951,
+  "end": 1482.872,
+  "speaker": "Unknown",
+  "en": "So the user message,",
+  "zh": "所以用户消息，"
+ },
+ {
+  "seg": 230,
+  "start": 1483.279,
+  "end": 1488.12,
+  "speaker": "Unknown",
+  "en": "The model response, the tool executions, the results, everything is written play-by-play.",
+  "zh": "模型响应、工具执行、结果，一切都是逐场记录的。"
+ },
+ {
+  "seg": 231,
+  "start": 1489.221,
+  "end": 1494.842,
+  "speaker": "Unknown",
+  "en": "Now, if you surface a session log in a UI that users can see, it provides observability.",
+  "zh": "现在，如果你在用户可以看到的 UI 中展示会话日志，它提供了可观测性。"
+ },
+ {
+  "seg": 232,
+  "start": 1496.083,
+  "end": 1502.245,
+  "speaker": "Unknown",
+  "en": "It turns out that the same session log also improves memory and provides self-improvement for the agent.",
+  "zh": "结果证明，同样的会话日志也改善了记忆，并为智能体提供了自我改进。"
+ },
+ {
+  "seg": 233,
+  "start": 1503.245,
+  "end": 1506.646,
+  "speaker": "Unknown",
+  "en": "Memory essentially allows the agent to remember things about the user.",
+  "zh": "记忆本质上允许智能体记住关于用户的事情。"
+ },
+ {
+  "seg": 234,
+  "start": 1507.625,
+  "end": 1511.346,
+  "speaker": "Unknown",
+  "en": "And session logs gives a history of past executions.",
+  "zh": "会话日志给出过去执行的历史。"
+ },
+ {
+  "seg": 235,
+  "start": 1512.047,
+  "end": 1518.649,
+  "speaker": "Unknown",
+  "en": "And if you combine that with something that we call dreaming, it allows memory to be updated and improved over time.",
+  "zh": "如果你将其与我们要称之为 dreaming（做梦）的东西结合起来，它允许记忆随着时间的推移被更新和改善。"
+ },
+ {
+  "seg": 236,
+  "start": 1519.029,
+  "end": 1521.31,
+  "speaker": "Unknown",
+  "en": "So the next time your agent runs, it gets better.",
+  "zh": "所以下次你的智能体运行时，它会变得更好。"
+ },
+ {
+  "seg": 237,
+  "start": 1521.67,
+  "end": 1523.131,
+  "speaker": "Unknown",
+  "en": "We'll talk a bit more about this later.",
+  "zh": "我们稍后会多谈论一点这个。"
+ },
+ {
+  "seg": 238,
+  "start": 1525.973,
+  "end": 1530.334,
+  "speaker": "Unknown",
+  "en": "And now for the last lesson that we have for you today, that is security for tool execution.",
+  "zh": "现在是今天我们要给你的最后一个教训，那就是工具执行的安全性。"
+ },
+ {
+  "seg": 239,
+  "start": 1531.274,
+  "end": 1540.036,
+  "speaker": "Unknown",
+  "en": "And this is something that we heard from a lot of enterprise teams that were wanting to build on managed agents is that it really mattered to them how they were able to control the environment where they ran tool execution.",
+  "zh": "这是我们从许多希望构建托管智能体的企业团队那里听到的事情，他们真的很在意如何控制他们运行工具执行的环境。"
+ },
+ {
+  "seg": 240,
+  "start": 1540.896,
+  "end": 1546.098,
+  "speaker": "Unknown",
+  "en": "For a lot of teams that were very security conscious, they wanted to be able to have everything controlled in their own virtual private cloud.",
+  "zh": "对于许多非常有安全意识的团队，他们希望能够将所有事物控制在他们自己的虚拟私有云中。"
+ },
+ {
+  "seg": 241,
+  "start": 1547.018,
+  "end": 1555.4,
+  "speaker": "Unknown",
+  "en": "And because of the key decision that we made, decoupling the brain from the hands of the agent, what we actually get is that the hands can run anywhere, including in your virtual private cloud.",
+  "zh": "因为我们做出的关键决定，将智能体的大脑与双手解耦，我们实际得到的是双手可以在任何地方运行，包括在你的虚拟私有云中。"
+ },
+ {
+  "seg": 242,
+  "start": 1556.506,
+  "end": 1571.797,
+  "speaker": "Unknown",
+  "en": "So the feature that we released called self-hosted sandboxes, we built this from an engineering perspective because of the feedback that we heard and essentially made it available to have customers control their sandbox control plan exactly for their own execution environments and to have tools run exactly under their own policies.",
+  "zh": "因此，我们发布的称为 self-hosted sandboxes（自托管沙箱）的功能，我们从工程角度构建这个是因为我们听到的反馈，本质上使其可用，让客户完全针对他们自己的执行环境控制他们的沙箱控制平面，并让工具完全在他们自己的策略下运行。"
+ },
+ {
+  "seg": 243,
+  "start": 1572.818,
+  "end": 1575.139,
+  "speaker": "Unknown",
+  "en": "Another feature that we unblocked is MCP tunnels.",
+  "zh": "我们解锁的另一个功能是 MCP tunnels（MCP 隧道）。"
+ },
+ {
+  "seg": 244,
+  "start": 1575.72,
+  "end": 1582.585,
+  "speaker": "Unknown",
+  "en": "And this is from teams that were saying that they wanted to expose MCP servers to their agent, but didn't want to have their MCP servers running over the public internet.",
+  "zh": "这是来自那些说他们想要向他们的智能体暴露 MCP 服务器但不想让他们的 MCP 服务器在公共互联网上运行的团队。"
+ },
+ {
+  "seg": 245,
+  "start": 1583.905,
+  "end": 1591.855,
+  "speaker": "Unknown",
+  "en": "For those teams, essentially with MCP tunnels, they can have their MCP servers run only within their private network and only making outbound calls to the Claude agent loop.",
+  "zh": "对于这些团队，本质上使用 MCP tunnels，他们可以让他们的 MCP 服务器仅在他们的私有网络内运行，并且仅向 Claude 智能体循环发起出站调用。"
+ },
+ {
+  "seg": 246,
+  "start": 1594.843,
+  "end": 1604.869,
+  "speaker": "Unknown",
+  "en": "And so with everything that we've talked through and those four lessons that Gagan and I just walked over, we talked about how Managed Agents is helping you build for this iterative capability and helping you follow along with model evolution.",
+  "zh": "因此，通过我们要讨论的所有内容以及 Gagan 和我刚刚回顾的四个教训，我们谈论了 Managed Agents 如何帮助你构建这种迭代能力并帮助你跟随模型演进。"
+ },
+ {
+  "seg": 247,
+  "start": 1605.57,
+  "end": 1616.817,
+  "speaker": "Unknown",
+  "en": "What I now also want to talk you through is how those fundamentals are built and expanded upon with some of our most exciting frontier features to show you how Cloud Managed Agents will continue to evolve and capture the model capabilities of tomorrow.",
+  "zh": "我现在还想带你了解的是，这些基础是如何构建的，并随着我们一些最激动人心的前沿功能而扩展，以向你展示 Cloud Managed Agents 将如何继续演进并捕获明天的模型能力。"
+ },
+ {
+  "seg": 248,
+  "start": 1621.482,
+  "end": 1626.604,
+  "speaker": "Unknown",
+  "en": "Cloud-managed regions, we touched on just the tip of the iceberg of the features that are available today.",
+  "zh": "Cloud-managed regions（云托管区域），我们只是触及了当今可用功能的冰山一角。"
+ },
+ {
+  "seg": 249,
+  "start": 1626.764,
+  "end": 1628.204,
+  "speaker": "Unknown",
+  "en": "And these cover the fundamentals.",
+  "zh": "这些涵盖了基础。"
+ },
+ {
+  "seg": 250,
+  "start": 1628.885,
+  "end": 1633.606,
+  "speaker": "Unknown",
+  "en": "But we're also excited to see how the harness evolves as model capabilities evolve.",
+  "zh": "但我们也兴奋地看到，harness 如何随着模型能力的演变而演变。"
+ },
+ {
+  "seg": 251,
+  "start": 1634.347,
+  "end": 1641.049,
+  "speaker": "Unknown",
+  "en": "And I'm excited for some of the new features that we've been experimenting with, like scheduled deployments, self-hosted sandboxes,",
+  "zh": "我对我们一直在试验的一些新功能感到兴奋，比如 scheduled deployments、self-hosted sandboxes、"
+ },
+ {
+  "seg": 252,
+  "start": 1641.62,
+  "end": 1646.942,
+  "speaker": "Unknown",
+  "en": "Multi-agent orchestration, dreaming, outcomes, memory, and more.",
+  "zh": "Multi-agent orchestration、dreaming、outcomes、memory 以及更多。"
+ },
+ {
+  "seg": 253,
+  "start": 1647.642,
+  "end": 1654.065,
+  "speaker": "Unknown",
+  "en": "We won't have time to cover all of them, so I'm gonna talk about two of our favorites, which is dreaming and outcomes.",
+  "zh": "我们没有时间涵盖所有这些功能，所以我打算谈谈我们最喜欢的两个功能，也就是 dreaming 和 outcomes。"
+ },
+ {
+  "seg": 254,
+  "start": 1654.83,
+  "end": 1655.691,
+  "speaker": "Unknown",
+  "en": "Let's start with dreaming.",
+  "zh": "让我们从 dreaming 开始。"
+ },
+ {
+  "seg": 255,
+  "start": 1656.511,
+  "end": 1665.018,
+  "speaker": "Unknown",
+  "en": "As I mentioned before, we have access to the transcripts or the session logs from the agent's daily sessions, and the agent also has a current memory state.",
+  "zh": "如我之前提到的，我们有权访问来自智能体每日会话的逐字稿或会话日志，而且智能体也有一个当前的 memory state。"
+ },
+ {
+  "seg": 256,
+  "start": 1665.959,
+  "end": 1677.008,
+  "speaker": "Unknown",
+  "en": "What we found is that as models have evolved and become more capable, if you feed the transcripts and the memory state as a periodic batch process with what we call dreaming,",
+  "zh": "我们发现的是，随着模型演变得更有能力，如果你将逐字稿和 memory state 作为一个周期性批处理过程，并使用我们所谓的 dreaming，"
+ },
+ {
+  "seg": 257,
+  "start": 1677.728,
+  "end": 1690.394,
+  "speaker": "Unknown",
+  "en": "It allows us to extract new insights and new organized structures that essentially feedback and edit the memory as needed to make the next day's agent sessions automatically much more intelligent.",
+  "zh": "它允许我们提取新的洞察和新的组织结构，这基本上会反馈并编辑 memory，从而让第二天的智能体会话自动地变得更加智能。"
+ },
+ {
+  "seg": 258,
+  "start": 1691.134,
+  "end": 1695.996,
+  "speaker": "Unknown",
+  "en": "This is how we're seeing self-improving agents as they execute more and more over time.",
+  "zh": "这就是我们看到的自我改进的智能体，随着时间的推移它们执行得越来越多。"
+ },
+ {
+  "seg": 259,
+  "start": 1698.317,
+  "end": 1704.44,
+  "speaker": "Unknown",
+  "en": "Dreaming and memory, we feel, are just two cornerstones of a new frontier unified memory system.",
+  "zh": "Dreaming 和 memory，我们认为，只是一个新前沿统一 memory system 的两个基石。"
+ },
+ {
+  "seg": 260,
+  "start": 1705.357,
+  "end": 1708.959,
+  "speaker": "Unknown",
+  "en": "Memory gives the agent the ability to remember things across the user.",
+  "zh": "Memory 给智能体提供了在用户之间记住事物的能力。"
+ },
+ {
+  "seg": 261,
+  "start": 1709.42,
+  "end": 1711.621,
+  "speaker": "Unknown",
+  "en": "That's specific to its use case.",
+  "zh": "这特定于其用例。"
+ },
+ {
+  "seg": 262,
+  "start": 1712.162,
+  "end": 1714.103,
+  "speaker": "Unknown",
+  "en": "Dreaming allows agents to self-improve.",
+  "zh": "Dreaming 允许智能体自我改进。"
+ },
+ {
+  "seg": 263,
+  "start": 1714.803,
+  "end": 1718.806,
+  "speaker": "Unknown",
+  "en": "But we see a new form of memory emerge that is organizational scale.",
+  "zh": "但我们看到一种新形式的 memory 出现，它是组织规模的。"
+ },
+ {
+  "seg": 264,
+  "start": 1719.266,
+  "end": 1723.409,
+  "speaker": "Unknown",
+  "en": "And that kind of illustrates and stores the team's runbooks and details.",
+  "zh": "这种 memory 说明并存储了团队的 runbooks 和细节。"
+ },
+ {
+  "seg": 265,
+  "start": 1725.41,
+  "end": 1732.595,
+  "speaker": "Unknown",
+  "en": "And we believe that this is just the initial areas in which we can see harnesses evolve towards as models become more capable.",
+  "zh": "我们相信，这只是我们能看到 harness 随着模型变得更有能力而演变的初步领域。"
+ },
+ {
+  "seg": 266,
+  "start": 1735.583,
+  "end": 1739.244,
+  "speaker": "Unknown",
+  "en": "I also love dreaming, but one of my other favorite features is something called outcomes.",
+  "zh": "我也喜欢 dreaming，但我另一个最喜欢的功能叫做 outcomes。"
+ },
+ {
+  "seg": 267,
+  "start": 1740.404,
+  "end": 1745.746,
+  "speaker": "Unknown",
+  "en": "What you get with an outcome is that what we allow users to essentially define is success criterias for their agents.",
+  "zh": "你通过 outcome 得到的是，我们允许用户本质上是定义他们的智能体的 success criterias。"
+ },
+ {
+  "seg": 268,
+  "start": 1746.066,
+  "end": 1747.146,
+  "speaker": "Unknown",
+  "en": "You define a rubric.",
+  "zh": "你定义一个 rubric。"
+ },
+ {
+  "seg": 269,
+  "start": 1747.166,
+  "end": 1750.547,
+  "speaker": "Unknown",
+  "en": "You say what means that the agent is actually able to complete the task successfully.",
+  "zh": "你说智能体实际上能够成功完成任务意味着什么。"
+ },
+ {
+  "seg": 270,
+  "start": 1750.867,
+  "end": 1751.927,
+  "speaker": "Unknown",
+  "en": "You define failure cases.",
+  "zh": "你定义 failure cases。"
+ },
+ {
+  "seg": 271,
+  "start": 1752.727,
+  "end": 1762.91,
+  "speaker": "Unknown",
+  "en": "And then outcomes essentially starts a separate grader agent that runs alongside your agent loop and looks at whether that agent was actually able to accomplish the task based on your defined success criteria.",
+  "zh": "然后 outcomes 本质上启动一个单独的 grader agent，它与你智能体循环并行运行，并查看该智能体是否真的能够根据你定义的 success criteria 完成任务。"
+ },
+ {
+  "seg": 272,
+  "start": 1764.015,
+  "end": 1766.979,
+  "speaker": "Unknown",
+  "en": "What this then does is that the agent will execute the task at hand.",
+  "zh": "这样做的结果是，智能体将执行手头的任务。"
+ },
+ {
+  "seg": 273,
+  "start": 1767.459,
+  "end": 1770.223,
+  "speaker": "Unknown",
+  "en": "It will then look at that grader and check across the rubric that you defined.",
+  "zh": "然后它会查看那个 grader，并根据你定义的 rubric 进行检查。"
+ },
+ {
+  "seg": 274,
+  "start": 1770.884,
+  "end": 1778.273,
+  "speaker": "Unknown",
+  "en": "If the grader determines that the agent was not able to complete the task, it'll keep trying until it reaches that success criteria that you have defined for your agent.",
+  "zh": "如果 grader 判定智能体未能完成任务，它将不断尝试，直到达到你为智能体定义的 success criteria。"
+ },
+ {
+  "seg": 275,
+  "start": 1779.29,
+  "end": 1791.856,
+  "speaker": "Unknown",
+  "en": "What really excites me about outcomes is that we're moving more towards a world where we can have an agent understand what success actually means for a task and have a mechanism to keep iterating it, which gives us more reliability that the agent can actually complete the outcomes.",
+  "zh": "真正让我对 outcomes 感到兴奋的是，我们正朝着这样一个世界迈进：我们可以让一个智能体理解任务的成功实际上意味着什么，并有一种机制不断迭代它，这给了我们更多的可靠性，即智能体实际上能够完成 outcomes。"
+ },
+ {
+  "seg": 276,
+  "start": 1792.497,
+  "end": 1804.603,
+  "speaker": "Unknown",
+  "en": "And we can start to unlock a new set of tasks that were not possible just a couple of months ago as models continue to evolve and can accomplish outcomes or tasks that are increasingly complex, especially as Claude achieves new levels of intelligence.",
+  "zh": "我们可以开始解锁一套新的任务，这在几个月前是不可能的，随着模型继续演变并完成 outcomes 或任务，这些任务越来越复杂，特别是随着 Claude 达到新的智能水平。"
+ },
+ {
+  "seg": 277,
+  "start": 1807.704,
+  "end": 1820.531,
+  "speaker": "Unknown",
+  "en": "So across everything that Gagan and I have talked about today, what Manage Agents is trying to do is to close the gap between what products offer today on many surfaces with static harnesses and what models can actually do.",
+  "zh": "所以纵观 Gagan 和我今天谈到的所有内容，Manage Agents 试图做的是，缩小今天许多表面上产品提供的 static harnesses 与模型实际上能做的之间的差距。"
+ },
+ {
+  "seg": 278,
+  "start": 1822.533,
+  "end": 1831.338,
+  "speaker": "Unknown",
+  "en": "What we see as Claude models and other models essentially evolve alongside this exponential trajectory is that harnesses have become the limiting factor to what models can achieve.",
+  "zh": "我们看到 Claude 模型和其他模型本质上是沿着这个指数轨迹演变的，harnesses 已经成为模型能够实现什么的限制因素。"
+ },
+ {
+  "seg": 279,
+  "start": 1832.648,
+  "end": 1846.115,
+  "speaker": "Unknown",
+  "en": "And so with Managed Agents, with the core architectural foundation that we offer to developers, as long as with all of these new exciting features that we're continuing to build, what we're trying to do is to close that gap so that products can get closer to what models can actually achieve today.",
+  "zh": "因此，通过 Managed Agents，通过我们提供给开发者的核心架构基础，以及我们继续构建的所有这些令人兴奋的新功能，我们要做的就是缩小这一差距，以便产品能更接近模型今天实际能实现的目标。"
+ },
+ {
+  "seg": 280,
+  "start": 1847.596,
+  "end": 1861.924,
+  "speaker": "Unknown",
+  "en": "And so with that, I hope all of you walk out of this room learning something new about how our team went about building Managed Agents and how Cloud Managed Agents is structured to capture frontier intelligence as models continue to evolve and be a harness that's production ready for real workloads.",
+  "zh": "因此，我希望在座的各位走出这个房间时，能学到一些关于我们团队如何构建 Managed Agents 以及 Cloud Managed Agents 如何构建以捕获 frontier intelligence 的新知识，因为模型继续演变并成为一个可用于真实工作负载的生产就绪 harness。"
+ },
+ {
+  "seg": 281,
+  "start": 1863.622,
+  "end": 1866.363,
+  "speaker": "Unknown",
+  "en": "Thank you all so much today for being here and for listening to our talk.",
+  "zh": "非常感谢大家今天的光临和聆听我们的演讲。"
+ }
+]

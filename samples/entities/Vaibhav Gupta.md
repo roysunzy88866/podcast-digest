@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]]
+[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Boris Cherny]] [[Garry Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":71,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":73,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
 
 <script>
 (function(){

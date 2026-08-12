@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]]
+[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":1,"Claude Code":18,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":10,"Notion":5,"Figma":6}</script>
+<script type="application/json" class="pd-epn">{"Aakash":1,"Claude Code":20,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":11,"Notion":5,"Figma":6}</script>
 
 <script>
 (function(){

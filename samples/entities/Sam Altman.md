@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
+[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":8,"智能体":71,"沙箱":15,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":8,"OpenAI":31,"YC":4}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":9,"智能体":73,"沙箱":17,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":8,"OpenAI":32,"YC":4}</script>
 
 <script>
 (function(){

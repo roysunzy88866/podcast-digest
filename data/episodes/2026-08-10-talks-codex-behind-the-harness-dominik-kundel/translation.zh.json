@@ -1,0 +1,1514 @@
+[
+ {
+  "seg": 0,
+  "start": 12.822,
+  "end": 13.302,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.982,
+  "end": 17.643,
+  "speaker": "Unknown",
+  "en": "We're going to start right on time because I'm going to speak basically at 2x.",
+  "zh": "我们要准点开始，因为我基本上要用 2 倍速来讲。"
+ },
+ {
+  "seg": 2,
+  "start": 17.703,
+  "end": 19.524,
+  "speaker": "Unknown",
+  "en": "I'm sorry I have a lot of content.",
+  "zh": "很抱歉，我有太多内容了。"
+ },
+ {
+  "seg": 3,
+  "start": 19.544,
+  "end": 20.924,
+  "speaker": "Unknown",
+  "en": "I'm trying to get you out here on time.",
+  "zh": "我试着让大家能准时离开这里。"
+ },
+ {
+  "seg": 4,
+  "start": 21.564,
+  "end": 23.925,
+  "speaker": "Unknown",
+  "en": "I want to start with a quick raise of hands.",
+  "zh": "我想先请大家快速举手示意一下。"
+ },
+ {
+  "seg": 5,
+  "start": 23.945,
+  "end": 27.365,
+  "speaker": "Unknown",
+  "en": "So how many of you have built your own agents or are currently building your own agents?",
+  "zh": "那么，你们有多少人已经构建了自己的智能体，或者目前正在构建自己的智能体？"
+ },
+ {
+  "seg": 6,
+  "start": 28.046,
+  "end": 28.486,
+  "speaker": "Unknown",
+  "en": "Perfectly.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 7,
+  "start": 28.866,
+  "end": 30.106,
+  "speaker": "Unknown",
+  "en": "You're the right audience for this.",
+  "zh": "你们就是本次演讲的合适听众。"
+ },
+ {
+  "seg": 8,
+  "start": 30.846,
+  "end": 41.829,
+  "speaker": "Unknown",
+  "en": "Over the next 20 minutes, I want to talk to you about a couple of different things that we're doing in the Codex harness that hopefully you can learn to apply to your own use cases or even just use the Codex harness with this in",
+  "zh": "在接下来的 20 分钟里，我想和你们谈谈我们在 Codex harness 中正在做的几件事，希望你们能学会将其应用到你们自己的用例中，甚至直接在这个项目中使用 Codex harness"
+ },
+ {
+  "seg": 9,
+  "start": 43.55,
+  "end": 48.836,
+  "speaker": "Unknown",
+  "en": "In your own projects, or at bare minimum, learn what happens when you actually use Codex.",
+  "zh": "在你们自己的项目中，或者至少，了解一下当你真正使用 Codex 时会发生什么。"
+ },
+ {
+  "seg": 10,
+  "start": 49.077,
+  "end": 57.447,
+  "speaker": "Unknown",
+  "en": "Since we're at iEngineer World's Fair and we're actually on an agentic engineering track, I'm gonna stop bothering you with how does an agent work?",
+  "zh": "既然我们在 iEngineer World's Fair，而且实际上我们在「智能体工程」专场，我就不再拿「智能体是如何工作的？」来烦你们了"
+ },
+ {
+  "seg": 11,
+  "start": 57.507,
+  "end": 58.328,
+  "speaker": "Unknown",
+  "en": "What is an agent?",
+  "zh": "什么是智能体？"
+ },
+ {
+  "seg": 12,
+  "start": 59.149,
+  "end": 68.015,
+  "speaker": "Unknown",
+  "en": "And instead, I want to talk a bit more specifically about some key features that we have in the agent that I think are particularly interesting and are challenges you have to solve.",
+  "zh": "相反，我想更具体地谈谈我们在智能体中拥有的一些关键特性，我认为这些特性特别有趣，也是你们必须解决的挑战。"
+ },
+ {
+  "seg": 13,
+  "start": 68.775,
+  "end": 74.018,
+  "speaker": "Unknown",
+  "en": "And so let's cover it from the lens of what actually happens when you send off a message.",
+  "zh": "那么让我们从「当你发送一条消息时实际上会发生什么」这个视角来探讨一下。"
+ },
+ {
+  "seg": 14,
+  "start": 75.36,
+  "end": 82.149,
+  "speaker": "Unknown",
+  "en": "Also, a quick reminder, if you're unaware, the Codex harness and everything I'm showing you is actually open source.",
+  "zh": "另外，快速提醒一下，如果你不知道的话，Codex harness 和我展示的所有东西实际上都是开源的。"
+ },
+ {
+  "seg": 15,
+  "start": 82.389,
+  "end": 92.483,
+  "speaker": "Unknown",
+  "en": "It's Apache 2 license, and the harness is written in Rust, so feel free to either learn from it, ask Codex deeper questions about what I'm covering, or fork it and make it your own.",
+  "zh": "它是 Apache 2 许可证，而且 harness 是用 Rust 编写的，所以请随时从中学习，向 Codex 提出关于我所涉及内容的更深层问题，或者 Fork 它并将其变成你自己的东西。"
+ },
+ {
+  "seg": 16,
+  "start": 94.439,
+  "end": 101.023,
+  "speaker": "Unknown",
+  "en": "Also disclaimer before we dive deep into it, this is a current state of affairs, like things change so quickly.",
+  "zh": "在深入讲解之前的免责声明，这是目前的状况，因为事情变化得很快。"
+ },
+ {
+  "seg": 17,
+  "start": 101.704,
+  "end": 110.85,
+  "speaker": "Unknown",
+  "en": "You can always refer back to asking Codex what the current state is, but especially with new model releases, we often release new APIs and change sort of how the harness works.",
+  "zh": "你总是可以回过头来询问 Codex 目前的状态是什么，特别是随着新模型的发布，我们经常发布新的 API 并稍微改变 harness 的工作方式。"
+ },
+ {
+  "seg": 18,
+  "start": 110.95,
+  "end": 113.432,
+  "speaker": "Unknown",
+  "en": "So feel free to follow along as new models come out.",
+  "zh": "所以请随时关注新模型的发布。"
+ },
+ {
+  "seg": 19,
+  "start": 115.06,
+  "end": 121.002,
+  "speaker": "Unknown",
+  "en": "If we want to talk about how the Codex agent works, we first need to talk about what actually happens when you send off your message.",
+  "zh": "如果我们要谈论 Codex 智能体是如何工作的，我们首先需要谈谈当你发送消息时实际上发生了什么。"
+ },
+ {
+  "seg": 20,
+  "start": 121.723,
+  "end": 126.765,
+  "speaker": "Unknown",
+  "en": "Namely, there's two protocols that are involved with the Codex agent.",
+  "zh": "具体来说，Codex 智能体涉及两个协议。"
+ },
+ {
+  "seg": 21,
+  "start": 127.105,
+  "end": 131.066,
+  "speaker": "Unknown",
+  "en": "The first one is what happens when you send it off in the UI and it goes to the harness.",
+  "zh": "第一个是什么时候你在 UI 中发送它，然后它传到 harness。"
+ },
+ {
+  "seg": 22,
+  "start": 131.207,
+  "end": 132.367,
+  "speaker": "Unknown",
+  "en": "We call that the app server.",
+  "zh": "我们称之为应用服务器。"
+ },
+ {
+  "seg": 23,
+  "start": 132.487,
+  "end": 135.388,
+  "speaker": "Unknown",
+  "en": "I talked about that yesterday, so we're not going to spend too much time about it.",
+  "zh": "我昨天谈到了那个，所以我们不会花太多时间讲它。"
+ },
+ {
+  "seg": 24,
+  "start": 135.408,
+  "end": 137.429,
+  "speaker": "Unknown",
+  "en": "There will be a talk online that you can follow along.",
+  "zh": "会有一个在线演讲，你可以跟着看。"
+ },
+ {
+  "seg": 25,
+  "start": 138.95,
+  "end": 144.192,
+  "speaker": "Unknown",
+  "en": "The second part is the responses API, which handles the communication between the harness and the inference.",
+  "zh": "第二部分是 responses API，它处理 harness 和推理之间的通信。"
+ },
+ {
+  "seg": 26,
+  "start": 145.092,
+  "end": 158.899,
+  "speaker": "Unknown",
+  "en": "Both of these, though, are designed for an open ecosystem, meaning if you're building your own UI, you're building your own agent interface, you can actually build on top of the Codex harness using the app server protocol.",
+  "zh": "不过，这两者都是为开放生态系统设计的，这意味着如果你正在构建自己的 UI，你正在构建自己的智能体接口，你实际上可以使用应用服务器协议在 Codex harness 之上构建。"
+ },
+ {
+  "seg": 27,
+  "start": 159.299,
+  "end": 174.367,
+  "speaker": "Unknown",
+  "en": "We use that same app server to power the Codex app, so it has really all of that functionality that you might expect from Codex, as well as we have a lot of third-party community projects that build on top of it, including Theos T3 Code or RemoteX, for example.",
+  "zh": "我们使用同一个应用服务器来驱动 Codex 应用，所以它确实拥有你可能从 Codex 期望的所有功能，以及我们有很多在其上构建的第三方社区项目，包括 Theos T3 Code 或 RemoteX，例如。"
+ },
+ {
+  "seg": 28,
+  "start": 176.063,
+  "end": 179.526,
+  "speaker": "Unknown",
+  "en": "I even used that same app server to put Codex into Claude Code.",
+  "zh": "我甚至用同一个应用服务器将 Codex 放进了 Claude Code。"
+ },
+ {
+  "seg": 29,
+  "start": 179.686,
+  "end": 184.63,
+  "speaker": "Unknown",
+  "en": "So if you're a Claude Code user and you want to leverage Codex, you can use that plugin.",
+  "zh": "所以如果你是 Claude Code 用户，并且想利用 Codex，你可以使用那个插件。"
+ },
+ {
+  "seg": 30,
+  "start": 185.11,
+  "end": 192.956,
+  "speaker": "Unknown",
+  "en": "And if you joined my talk yesterday, you saw me using that same protocol to actually put Codex into Doom, which was a fun adventure as well.",
+  "zh": "如果你参加了我昨天的演讲，你看到我使用同一个协议实际上将 Codex 放进了《毁灭战士》，这也是一次有趣的冒险。"
+ },
+ {
+  "seg": 31,
+  "start": 195.014,
+  "end": 197.056,
+  "speaker": "Unknown",
+  "en": "I mentioned the other part is the responses API.",
+  "zh": "我提到的另一部分是 responses API。"
+ },
+ {
+  "seg": 32,
+  "start": 197.256,
+  "end": 217.977,
+  "speaker": "Unknown",
+  "en": "So the response API was released last year as a rethinking of the chat completions API in a more agentic world, meaning we redesigned slightly the structure, but more importantly, we added a lot of building capabilities that are important for agents like web search, image gen, or other more complex capabilities that you will see as part of this talk.",
+  "zh": "所以响应 API 是去年发布的，它是在一个更偏向智能体的世界中重新思考聊天补全 API，这意味着我们稍微重新设计了结构，但更重要的是，我们添加了很多对智能体很重要的构建能力，比如网络搜索、图像生成，或者你将作为本次演讲一部分看到的更复杂的能力。"
+ },
+ {
+  "seg": 33,
+  "start": 218.638,
+  "end": 222.219,
+  "speaker": "Unknown",
+  "en": "We also want to make sure that this is like an open ecosystem.",
+  "zh": "我们也想确保这像是一个开放的生态系统。"
+ },
+ {
+  "seg": 34,
+  "start": 222.299,
+  "end": 237.781,
+  "speaker": "Unknown",
+  "en": "So we worked with a lot of partners, including Llama, LM Studio, NVIDIA, and others to codify an open responses schema and have a governance body for that so that other companies and platforms can actually build on that same responses API.",
+  "zh": "所以我们与许多合作伙伴合作，包括 Llama、LM Studio、NVIDIA 和其他公司，将一个开放的 responses 规范编纂成文，并为此设立了一个管理机构，以便其他公司和平台实际上可以在同一个 responses API 上构建。"
+ },
+ {
+  "seg": 35,
+  "start": 238.181,
+  "end": 246.703,
+  "speaker": "Unknown",
+  "en": "And you can use any responses API compatible model provider and actually plug it into the Codex harness.",
+  "zh": "你可以使用任何 responses API 兼容的模型提供商，并实际上将其插入 Codex harness。"
+ },
+ {
+  "seg": 36,
+  "start": 248.37,
+  "end": 250.731,
+  "speaker": "Unknown",
+  "en": "So that's an overview of how these protocols work.",
+  "zh": "所以这些就是这些协议如何工作的概述。"
+ },
+ {
+  "seg": 37,
+  "start": 250.831,
+  "end": 258.053,
+  "speaker": "Unknown",
+  "en": "We're going from the UI to the harness with the app server protocol, and then from the harness to the LM inference using responses.",
+  "zh": "我们通过应用服务器协议从 UI 传输到 harness，然后通过 responses 从 harness 传输到 LM 推理。"
+ },
+ {
+  "seg": 38,
+  "start": 258.813,
+  "end": 260.493,
+  "speaker": "Unknown",
+  "en": "But what happens in the actual harness?",
+  "zh": "但是在 harness 内部实际发生了什么？"
+ },
+ {
+  "seg": 39,
+  "start": 260.633,
+  "end": 265.115,
+  "speaker": "Unknown",
+  "en": "The first step, and arguably one of the most important ones, is context construction.",
+  "zh": "第一步，也可以说是最重要的一步，是上下文构建。"
+ },
+ {
+  "seg": 40,
+  "start": 266.595,
+  "end": 270.377,
+  "speaker": "Unknown",
+  "en": "And during that, we care about three things quite a lot.",
+  "zh": "在此期间，我们非常关心三件事。"
+ },
+ {
+  "seg": 41,
+  "start": 270.397,
+  "end": 271.298,
+  "speaker": "Unknown",
+  "en": "The first one is size.",
+  "zh": "第一个是大小。"
+ },
+ {
+  "seg": 42,
+  "start": 271.718,
+  "end": 277,
+  "speaker": "Unknown",
+  "en": "We want to make sure that we don't blast through your token budgets and throw in a bunch of unnecessary content.",
+  "zh": "我们要确保我们不会耗尽你的 token 预算，并扔进一堆不必要的内容。"
+ },
+ {
+  "seg": 43,
+  "start": 277.481,
+  "end": 287.326,
+  "speaker": "Unknown",
+  "en": "But also, the more context you have in your context, the higher it is that you have contradicting information, and it causes confusion for the model.",
+  "zh": "但同样，你的上下文中拥有的上下文越多，你拥有相互矛盾信息的可能性就越高，这会导致模型感到困惑。"
+ },
+ {
+  "seg": 44,
+  "start": 288.046,
+  "end": 289.428,
+  "speaker": "Unknown",
+  "en": "The other part is flexibility.",
+  "zh": "另一部分是灵活性。"
+ },
+ {
+  "seg": 45,
+  "start": 289.448,
+  "end": 298.077,
+  "speaker": "Unknown",
+  "en": "We want to make sure that regardless of many or how little skills you're using, you have a great experience, regardless of how many plugins and MCPs you install.",
+  "zh": "我们要确保无论你使用多少技能或多少技能，你都能获得良好的体验，无论你安装了多少插件和 MCP。"
+ },
+ {
+  "seg": 46,
+  "start": 298.718,
+  "end": 305.205,
+  "speaker": "Unknown",
+  "en": "And of course, we want to make sure that things are performant and we know you're cost sensitive, so cacheability is important as well.",
+  "zh": "当然，我们要确保事物是高性能的，而且我们知道你对成本敏感，所以可缓存性也很重要。"
+ },
+ {
+  "seg": 47,
+  "start": 306.69,
+  "end": 313.655,
+  "speaker": "Unknown",
+  "en": "To show you this and a couple of other things, I actually built this little nano codex here, which functions the same way.",
+  "zh": "为了向你展示这一点以及其他几件事，我实际上在这里构建了这个小型的 nano codex，它的功能是一样的。"
+ },
+ {
+  "seg": 48,
+  "start": 313.715,
+  "end": 318.479,
+  "speaker": "Unknown",
+  "en": "It's built using the same code that is on the public repo, just turned into TypeScript.",
+  "zh": "它是使用公共代码库上的相同代码构建的，只是转换成了 TypeScript。"
+ },
+ {
+  "seg": 49,
+  "start": 319.199,
+  "end": 328.386,
+  "speaker": "Unknown",
+  "en": "But we can see here, when we send off a message, we have a couple of different parts of the actual context that gets assembled.",
+  "zh": "但我们可以在这里看到，当我们发送一条消息时，实际组装的上下文有几个不同的部分。"
+ },
+ {
+  "seg": 50,
+  "start": 329.267,
+  "end": 334.589,
+  "speaker": "Unknown",
+  "en": "And some of these are fairly standard and predictable, like the model instructions.",
+  "zh": "其中一些是相当标准和可预测的，比如模型指令。"
+ },
+ {
+  "seg": 51,
+  "start": 334.749,
+  "end": 336.589,
+  "speaker": "Unknown",
+  "en": "Again, these are open source if you actually want to read them.",
+  "zh": "同样，如果你真的想阅读它们，这些是开源的。"
+ },
+ {
+  "seg": 52,
+  "start": 337.229,
+  "end": 342.971,
+  "speaker": "Unknown",
+  "en": "But these are fairly structured and don't really change in size or mess around with cacheability.",
+  "zh": "但这些是相当结构化的，并且不会在大小上真正改变或在可缓存性上搞乱。"
+ },
+ {
+  "seg": 53,
+  "start": 343.551,
+  "end": 345.692,
+  "speaker": "Unknown",
+  "en": "But there are some parts that are harder to predict.",
+  "zh": "但有些部分更难预测。"
+ },
+ {
+  "seg": 54,
+  "start": 346.012,
+  "end": 348.873,
+  "speaker": "Unknown",
+  "en": "Namely, for example, how many skills do you have available?",
+  "zh": "即，例如，你有多少可用技能？"
+ },
+ {
+  "seg": 55,
+  "start": 349.613,
+  "end": 358.556,
+  "speaker": "Unknown",
+  "en": "Or the tool registry, where, especially if you install MCPs, for example, you might have additional context that is growing as you're installing more MCPs.",
+  "zh": "或者工具注册表，特别是如果你安装 MCPs，例如，你可能会随着安装更多 MCPs 而增长的额外上下文。"
+ },
+ {
+  "seg": 56,
+  "start": 359.256,
+  "end": 361.917,
+  "speaker": "Unknown",
+  "en": "For that reason, we do two things to maintain costs.",
+  "zh": "因此，我们做两件事来维持成本。"
+ },
+ {
+  "seg": 57,
+  "start": 361.977,
+  "end": 367.199,
+  "speaker": "Unknown",
+  "en": "The first one is, or the size of the context, the first one is having deferred tools.",
+  "zh": "第一个是，或者上下文的大小，第一个是拥有延迟工具。"
+ },
+ {
+  "seg": 58,
+  "start": 367.879,
+  "end": 376.061,
+  "speaker": "Unknown",
+  "en": "So we're marking some of these tools as deferred, and that means that they're not added directly to the context window, but instead are available through tool search later on.",
+  "zh": "所以我们将其中一些工具标记为延迟的，这意味着它们没有直接添加到上下文窗口，而是稍后通过工具搜索可用。"
+ },
+ {
+  "seg": 59,
+  "start": 378.042,
+  "end": 387.915,
+  "speaker": "Unknown",
+  "en": "And then the other part is that for available skills, we actually cap the available skills list at 2% of your maximum context window.",
+  "zh": "然后另一部分是对于可用技能，我们实际上将可用技能列表上限为你最大上下文窗口的 2%。"
+ },
+ {
+  "seg": 60,
+  "start": 388.436,
+  "end": 394.805,
+  "speaker": "Unknown",
+  "en": "And that means that if it gets longer, we're reducing slowly the amount of description that we're putting in there.",
+  "zh": "这意味着如果它变长，我们要慢慢减少我们放在那里的描述的数量。"
+ },
+ {
+  "seg": 61,
+  "start": 396.718,
+  "end": 400.46,
+  "speaker": "Unknown",
+  "en": "Tool search specifically is actually something that is available in the responses API.",
+  "zh": "工具搜索特别实际上是 responses API 中可用的东西。"
+ },
+ {
+  "seg": 62,
+  "start": 400.48,
+  "end": 402.941,
+  "speaker": "Unknown",
+  "en": "So even if you're building your own harness, you can leverage this.",
+  "zh": "所以即使你正在构建你自己的线束，你也可以利用这个。"
+ },
+ {
+  "seg": 63,
+  "start": 403.161,
+  "end": 407.183,
+  "speaker": "Unknown",
+  "en": "Since GPT 5.4, you can mark any tool as deferred loading.",
+  "zh": "自 GPT 5.4 以来，你可以将任何工具标记为延迟加载。"
+ },
+ {
+  "seg": 64,
+  "start": 408.184,
+  "end": 411.866,
+  "speaker": "Unknown",
+  "en": "And that means that these tools are only available if you're using tool search.",
+  "zh": "这意味着这些工具只有在你使用工具搜索时才可用。"
+ },
+ {
+  "seg": 65,
+  "start": 412.366,
+  "end": 419.57,
+  "speaker": "Unknown",
+  "en": "And then you can give the model either our built-in tool search tool or implement your own if you feel like you can better do that discovery yourself.",
+  "zh": "然后你可以给模型我们要么内置的工具搜索工具要么如果你觉得你可以自己做那个发现就实现你自己的。"
+ },
+ {
+  "seg": 66,
+  "start": 421.923,
+  "end": 427.405,
+  "speaker": "Unknown",
+  "en": "Great, we talked about how we're building the context, but an agent really only becomes an agent if it performs actions.",
+  "zh": "很好，我们谈论了我们如何构建上下文，但智能体只有当它执行动作时才真正成为智能体。"
+ },
+ {
+  "seg": 67,
+  "start": 428.025,
+  "end": 430.686,
+  "speaker": "Unknown",
+  "en": "And there's three common actions I wanted to talk about.",
+  "zh": "我想要谈论三个常见的动作。"
+ },
+ {
+  "seg": 68,
+  "start": 430.726,
+  "end": 437.609,
+  "speaker": "Unknown",
+  "en": "The first one is async actions, things that are happening while the agent has to continue to do work, computer use, and then the file system.",
+  "zh": "第一个是异步动作，那些在智能体必须继续工作的同时发生的事情，计算机使用，然后是文件系统。"
+ },
+ {
+  "seg": 69,
+  "start": 438.959,
+  "end": 448.741,
+  "speaker": "Unknown",
+  "en": "For async actions, a good example is subagents where we want to be able to delegate tasks off and then have the main agent continue to do work if necessary.",
+  "zh": "对于异步动作，一个很好的例子是子智能体，我们要能够委托任务然后让主智能体如果必要继续工作。"
+ },
+ {
+  "seg": 70,
+  "start": 449.762,
+  "end": 468.226,
+  "speaker": "Unknown",
+  "en": "The way that works in practice is that we give the agent a spawn agent tool, which then allows the agent to create new agent instances and then use a send input tool to either send new content to those newly created agents, wait for an agent, or shut it back down.",
+  "zh": "这在实践中起作用的方式是我们给智能体一个生成智能体工具，然后允许智能体创建新的智能体实例然后使用发送输入工具要么发送新内容给那些新创建的智能体，等待智能体，要么把它关闭。"
+ },
+ {
+  "seg": 71,
+  "start": 470.127,
+  "end": 472.949,
+  "speaker": "Unknown",
+  "en": "We use that same concept actually for background terminals as well.",
+  "zh": "我们实际上为后台终端也使用相同的概念。"
+ },
+ {
+  "seg": 72,
+  "start": 473.089,
+  "end": 488.262,
+  "speaker": "Unknown",
+  "en": "So the Codex agent has a tool to spin up a new background terminal and then continuously interact with it by sending new data through standard in to that new agent or wait for a specific amount of time for that agent to finish a task.",
+  "zh": "所以 Codex 智能体有一个工具来启动一个新的后台终端然后通过通过标准输入发送新数据给那个新智能体或等待特定时间让该智能体完成任务来持续与它交互。"
+ },
+ {
+  "seg": 73,
+  "start": 492.098,
+  "end": 499.963,
+  "speaker": "Unknown",
+  "en": "Computer use is an interesting one because we actually introduced computer use in the responses API last year and it was fairly limited.",
+  "zh": "计算机使用是一个有趣的因为我们去年实际上在 responses API 中介绍了计算机使用并且它是相当有限的。"
+ },
+ {
+  "seg": 74,
+  "start": 499.983,
+  "end": 514.313,
+  "speaker": "Unknown",
+  "en": "It only allowed you to do one action at a time and you had to basically declare that you wanted it to do computer use and from there you were up to actually implementing specifically the type of actions that were exposed to that tool.",
+  "zh": "它一次只允许你做一个动作并且你必须基本上声明你想要它做计算机使用并且从那里你到了实际实现具体暴露给该工具的动作类型。"
+ },
+ {
+  "seg": 75,
+  "start": 515.274,
+  "end": 538.339,
+  "speaker": "Unknown",
+  "en": "This was great in terms of that point in the journey of building agents, but since then we've evolved it, and the recent models and the recent API shapes allow you to use code execution instead to actually do computer use, which means that the agent can script its own interactions with whatever computer implementation you want to have.",
+  "zh": "就构建智能体的旅程中的那一点而言，这很好，但自那以后我们进化了它，最近的模型和最近的 API 形状允许你使用代码执行代替来实际做计算机使用，这意味着智能体可以编写脚本它与你想要的任何计算机实现的交互。"
+ },
+ {
+  "seg": 76,
+  "start": 538.779,
+  "end": 543.66,
+  "speaker": "Unknown",
+  "en": "You can choose the language, like JavaScript or Python, and you have a much more flexible harness.",
+  "zh": "你可以选择语言，像 JavaScript 或 Python，并且你有一个更灵活的线束。"
+ },
+ {
+  "seg": 77,
+  "start": 544.965,
+  "end": 547.306,
+  "speaker": "Unknown",
+  "en": "In fact, that's what we use for browser use.",
+  "zh": "事实上，这就是我们用于浏览器使用的东西。"
+ },
+ {
+  "seg": 78,
+  "start": 548.187,
+  "end": 558.532,
+  "speaker": "Unknown",
+  "en": "So what happens when Codex uses browser use is it actually interacts with a persistent node REPL that gets persisted throughout the turns.",
+  "zh": "所以当 Codex 使用浏览器使用时发生的事情是它实际上与一个在整个轮次中被持久化的持久节点 REPL 交互。"
+ },
+ {
+  "seg": 79,
+  "start": 559.512,
+  "end": 567.597,
+  "speaker": "Unknown",
+  "en": "And then it writes JavaScript, essentially play-write code, to interact with that browser instance in the node REPL.",
+  "zh": "然后它编写 JavaScript，本质上是 playwright 代码，来与节点 REPL 中的该浏览器实例交互。"
+ },
+ {
+  "seg": 80,
+  "start": 568.637,
+  "end": 578.765,
+  "speaker": "Unknown",
+  "en": "So here's an example where on the right side we have a Chromium browser and the first time it writes some code to get the overall status and pulls up the right tab.",
+  "zh": "所以这里有一个例子，在右边我们有一个 Chromium 浏览器，第一次它编写一些代码来获取整体状态并拉起正确的标签页。"
+ },
+ {
+  "seg": 81,
+  "start": 579.745,
+  "end": 591.914,
+  "speaker": "Unknown",
+  "en": "And then on subsequent terms we can see here that it is able to reference those new tabs, pull in information, and script the respective actions to understand what actually has to be done.",
+  "zh": "然后在随后的轮次中我们可以在这里看到它能够引用那些新标签页，拉入信息，并编写相应动作的脚本来理解实际必须做什么。"
+ },
+ {
+  "seg": 82,
+  "start": 593.092,
+  "end": 606.22,
+  "speaker": "Unknown",
+  "en": "And so that speeds up these actions significantly because Codex in browser use can actually look at, for example, one page, understand the structure, and then write a script to perform like scraping, for example, on subsequent pages more easily.",
+  "zh": "所以这显著加速了这些动作，因为浏览器使用中的 Codex 实际上可以看，例如，一页，理解结构，然后编写脚本来执行像抓取，例如，在随后的页面上更容易。"
+ },
+ {
+  "seg": 83,
+  "start": 608.412,
+  "end": 610.313,
+  "speaker": "Unknown",
+  "en": "The third thing is file system interactions.",
+  "zh": "第三件事是文件系统交互。"
+ },
+ {
+  "seg": 84,
+  "start": 610.453,
+  "end": 615.096,
+  "speaker": "Unknown",
+  "en": "I think if you're using Codex or any coding agent, of course, you want it to be able to interact with the file system.",
+  "zh": "我认为如果你正在使用 Codex 或任何编码智能体，当然，你想要它能够与文件系统交互。"
+ },
+ {
+  "seg": 85,
+  "start": 615.836,
+  "end": 634.347,
+  "speaker": "Unknown",
+  "en": "In the case of our models, all of the recent models starting with GPT-5 have been trained on the concept of an apply patch tool to do file editing, which means that they're used to using that to change files by giving it a diff and then also using that same thing to create new files.",
+  "zh": "在我们的模型的情况下，所有最近的模型从 GPT-5 开始都已经被训练在应用补丁工具的概念上来做文件编辑，这意味着它们习惯使用它通过给它一个差异来改变文件然后也使用同样的事情来创建新文件。"
+ },
+ {
+  "seg": 86,
+  "start": 634.867,
+  "end": 641.592,
+  "speaker": "Unknown",
+  "en": "And then for everything else, it uses a shell tool where it will do file search or other file system navigation.",
+  "zh": "然后对于其他一切，它使用一个 shell 工具它将在那里做文件搜索或其他文件系统导航。"
+ },
+ {
+  "seg": 87,
+  "start": 642.573,
+  "end": 648.817,
+  "speaker": "Unknown",
+  "en": "You will see the model naturally trying to use ripgrap since that's what it got used to during training.",
+  "zh": "你将看到模型自然尝试使用 ripgrap 因为那是它在训练期间习惯用的。"
+ },
+ {
+  "seg": 88,
+  "start": 649.337,
+  "end": 655.342,
+  "speaker": "Unknown",
+  "en": "So we're actually in the Codex harness shipping ripgrap with the harness if you don't have it installed on your own.",
+  "zh": "所以我们实际上在 Codex 线束中随线束附带 ripgrap 如果你没有自己安装它。"
+ },
+ {
+  "seg": 89,
+  "start": 656.565,
+  "end": 660.067,
+  "speaker": "Unknown",
+  "en": "On Windows, we also trained the model to use PowerShell natively.",
+  "zh": "在 Windows 上，我们也训练模型原生使用 PowerShell。"
+ },
+ {
+  "seg": 90,
+  "start": 660.607,
+  "end": 665.269,
+  "speaker": "Unknown",
+  "en": "So if we were running it on Windows, you will see it start writing PowerShell code instead.",
+  "zh": "所以如果我们在 Windows 上运行它，你将看到它开始编写 PowerShell 代码代替。"
+ },
+ {
+  "seg": 91,
+  "start": 666.79,
+  "end": 670.371,
+  "speaker": "Unknown",
+  "en": "One of the things you're seeing here is the sandbox pulling in.",
+  "zh": "你在这里看到的一件事是沙箱拉入。"
+ },
+ {
+  "seg": 92,
+  "start": 670.891,
+  "end": 676.554,
+  "speaker": "Unknown",
+  "en": "So all of the interactions that you see with the file system actually go through our sandbox layer.",
+  "zh": "所以你看到的与文件系统的所有交互实际上通过我们的沙箱层。"
+ },
+ {
+  "seg": 93,
+  "start": 678.175,
+  "end": 683.017,
+  "speaker": "Unknown",
+  "en": "And on Mac OS, we use Seatbelt for that, similar to most agents.",
+  "zh": "在 Mac OS 上，我们为此使用 Seatbelt，类似于大多数智能体。"
+ },
+ {
+  "seg": 94,
+  "start": 683.577,
+  "end": 684.898,
+  "speaker": "Unknown",
+  "en": "And on Linux, we use Bubblewrap.",
+  "zh": "在 Linux 上，我们使用 Bubblewrap。"
+ },
+ {
+  "seg": 95,
+  "start": 685.878,
+  "end": 694.104,
+  "speaker": "Unknown",
+  "en": "On Windows, it's slightly different, where we actually had to build our own custom open source Windows sandbox.",
+  "zh": "在 Windows 上，它是稍微不同的，我们实际上必须构建我们自己的自定义开源 Windows 沙箱。"
+ },
+ {
+  "seg": 96,
+  "start": 694.164,
+  "end": 696.606,
+  "speaker": "Unknown",
+  "en": "It's in the same GitHub repository, if you want to take a look.",
+  "zh": "它在同一个 GitHub 仓库中，如果你想要看一看。"
+ },
+ {
+  "seg": 97,
+  "start": 697.607,
+  "end": 702.11,
+  "speaker": "Unknown",
+  "en": "And there's many reasons why we had to do this, and I could probably fill a whole talk about that.",
+  "zh": "我们必须这样做的许多原因，我可能用一个完整的谈话来填充那个。"
+ },
+ {
+  "seg": 98,
+  "start": 702.17,
+  "end": 705.312,
+  "speaker": "Unknown",
+  "en": "So instead, I would recommend you to actually check out the article that",
+  "zh": "所以相反，我会推荐你实际看看那篇文章"
+ },
+ {
+  "seg": 99,
+  "start": 706.653,
+  "end": 707.794,
+  "speaker": "Unknown",
+  "en": "David wrote about this.",
+  "zh": "David 写的这个。"
+ },
+ {
+  "seg": 100,
+  "start": 708.494,
+  "end": 713.716,
+  "speaker": "Unknown",
+  "en": "It goes into all of the other Windows alternatives and why we actually had to build our own sandbox there.",
+  "zh": "它会深入到所有其他 Windows 替代方案中，以及我们为什么必须在那里构建我们自己的沙箱。"
+ },
+ {
+  "seg": 101,
+  "start": 714.136,
+  "end": 716.997,
+  "speaker": "Unknown",
+  "en": "Highly fascinating if you really want to nerd out about Windows internals.",
+  "zh": "如果你真的想深入了解 Windows 内部机制，那是非常迷人的。"
+ },
+ {
+  "seg": 102,
+  "start": 719.358,
+  "end": 724.06,
+  "speaker": "Unknown",
+  "en": "With sandboxes, though, one of the biggest complaints is always approval fatigue.",
+  "zh": "不过对于沙箱，最大的抱怨之一总是审批疲劳。"
+ },
+ {
+  "seg": 103,
+  "start": 725.441,
+  "end": 730.423,
+  "speaker": "Unknown",
+  "en": "How many of you get annoyed by approvals, especially for long tasks and have run in full access?",
+  "zh": "你们中有多少人对审批感到烦恼，特别是对于长时间运行的任务并开启了完全访问权限？"
+ },
+ {
+  "seg": 104,
+  "start": 731.555,
+  "end": 731.755,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 105,
+  "start": 731.995,
+  "end": 734.938,
+  "speaker": "Unknown",
+  "en": "And I don't think the audience gets filmed, so we're going to do this again.",
+  "zh": "我想观众没有被拍到，所以我们再做一次。"
+ },
+ {
+  "seg": 106,
+  "start": 735.158,
+  "end": 739.483,
+  "speaker": "Unknown",
+  "en": "How many of you know that IT and security really hates that you turn on full access?",
+  "zh": "你们中有多少人知道 IT 和安全部门真的很讨厌你开启完全访问权限？"
+ },
+ {
+  "seg": 107,
+  "start": 740.263,
+  "end": 740.984,
+  "speaker": "Unknown",
+  "en": "Yeah, I know.",
+  "zh": "是的，我知道。"
+ },
+ {
+  "seg": 108,
+  "start": 742.625,
+  "end": 750.753,
+  "speaker": "Unknown",
+  "en": "So for that reason, and our own security team wanting to be happy as well, we worked on an auto-approval mode.",
+  "zh": "因此，加上我们自己的安全团队也想保持愉快，我们开发了一种自动审批模式。"
+ },
+ {
+  "seg": 109,
+  "start": 751.494,
+  "end": 752.815,
+  "speaker": "Unknown",
+  "en": "And the idea here is really to",
+  "zh": "这里的想法真的是要"
+ },
+ {
+  "seg": 110,
+  "start": 755.097,
+  "end": 756.419,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 111,
+  "start": 771.636,
+  "end": 786.601,
+  "speaker": "Unknown",
+  "en": "You asking a model to send out a file through an email, pushing it to have high agency, and it realizes it can't attach the file, so it uploads it to a file share and uses that instead, or messes up some escaping and accidentally deletes too much data.",
+  "zh": "你要求一个模型通过电子邮件发送文件，推动它拥有高主观能动性，它意识到无法附加文件，所以它将其上传到文件共享并改用那个，或者搞砸了一些转义处理并意外删除了太多数据。"
+ },
+ {
+  "seg": 112,
+  "start": 786.621,
+  "end": 789.142,
+  "speaker": "Unknown",
+  "en": "Those things can still happen, even with the models getting better.",
+  "zh": "即使模型变得更好，这些事情仍然可能发生。"
+ },
+ {
+  "seg": 113,
+  "start": 790.062,
+  "end": 794.507,
+  "speaker": "Unknown",
+  "en": "And so you want to still be careful with these full access modes.",
+  "zh": "所以你仍然想要小心使用这些完全访问模式。"
+ },
+ {
+  "seg": 114,
+  "start": 795.127,
+  "end": 812.825,
+  "speaker": "Unknown",
+  "en": "And so instead, we built Autoreview with this goal to cover all of the things that are harder to predict that an agent might do, and especially in the long run, and approve those automatically without having to escalate them to you while keeping things like data exfiltration outside of it.",
+  "zh": "因此，我们构建了 Autoreview，目标是覆盖所有更难预测的智能体可能会做的事情，尤其是在长期运行中，并自动批准这些事情，而无需将其升级给你，同时将数据泄露等事情排除在外。"
+ },
+ {
+  "seg": 115,
+  "start": 814.867,
+  "end": 828.6,
+  "speaker": "Unknown",
+  "en": "The way this works is when we kick off a task that runs into a sandbox, like deleting a file in this case, the model, when it tries to escalate, spins up an auto review sub-agent.",
+  "zh": "其工作方式是，当我们启动一个在沙箱中运行的任务时，比如在这个例子中删除文件，当模型试图升级时，会启动一个自动审查子智能体。"
+ },
+ {
+  "seg": 116,
+  "start": 829.922,
+  "end": 830.983,
+  "speaker": "Unknown",
+  "en": "And let's see.",
+  "zh": "让我们看看。"
+ },
+ {
+  "seg": 117,
+  "start": 832.458,
+  "end": 833.419,
+  "speaker": "Unknown",
+  "en": "Didn't do it yet, there we go.",
+  "zh": "还没做，好了。"
+ },
+ {
+  "seg": 118,
+  "start": 833.859,
+  "end": 838.804,
+  "speaker": "Unknown",
+  "en": "So it spins up an auto review sub-agent, and this sub-agent runs entirely separate.",
+  "zh": "所以它启动了一个自动审查子智能体，这个子智能体完全独立运行。"
+ },
+ {
+  "seg": 119,
+  "start": 838.824,
+  "end": 840.305,
+  "speaker": "Unknown",
+  "en": "It can't spin up other sub-agents.",
+  "zh": "它无法启动其他子智能体。"
+ },
+ {
+  "seg": 120,
+  "start": 840.325,
+  "end": 841.766,
+  "speaker": "Unknown",
+  "en": "It has read permissions only.",
+  "zh": "它只有只读权限。"
+ },
+ {
+  "seg": 121,
+  "start": 843.167,
+  "end": 849.733,
+  "speaker": "Unknown",
+  "en": "But we're giving it a bunch of context around sort of what is user authorization, which we'll see in a second.",
+  "zh": "但我们要给它大量上下文，关于什么是用户授权，我们稍后会看到。"
+ },
+ {
+  "seg": 122,
+  "start": 850.214,
+  "end": 853.557,
+  "speaker": "Unknown",
+  "en": "How do things like risk taxonomies work?",
+  "zh": "比如风险分类法是如何工作的？"
+ },
+ {
+  "seg": 123,
+  "start": 853.597,
+  "end": 855.518,
+  "speaker": "Unknown",
+  "en": "How do we want it to judge these things?",
+  "zh": "我们希望它如何判断这些事情？"
+ },
+ {
+  "seg": 124,
+  "start": 856.559,
+  "end": 858.741,
+  "speaker": "Unknown",
+  "en": "And then eventually we give it",
+  "zh": "然后最终我们给它"
+ },
+ {
+  "seg": 125,
+  "start": 860.202,
+  "end": 863.884,
+  "speaker": "Unknown",
+  "en": "The transcript, as well as the tool calls that are actually happening.",
+  "zh": "转写文本，以及实际发生的工具调用。"
+ },
+ {
+  "seg": 126,
+  "start": 864.384,
+  "end": 867.245,
+  "speaker": "Unknown",
+  "en": "And this is important because the context matters.",
+  "zh": "这很重要，因为上下文很重要。"
+ },
+ {
+  "seg": 127,
+  "start": 867.666,
+  "end": 870.307,
+  "speaker": "Unknown",
+  "en": "In some cases, you want the agent to actually delete a file.",
+  "zh": "在某些情况下，你实际上希望智能体删除一个文件。"
+ },
+ {
+  "seg": 128,
+  "start": 870.387,
+  "end": 871.567,
+  "speaker": "Unknown",
+  "en": "In other cases, you don't.",
+  "zh": "在其他情况下，你不希望。"
+ },
+ {
+  "seg": 129,
+  "start": 871.687,
+  "end": 879.571,
+  "speaker": "Unknown",
+  "en": "If you ask it to, or if it is part of the project, it makes sense, especially things like if you ask it to delete a .git folder, great.",
+  "zh": "如果你要求它，或者如果它是项目的一部分，那是合理的，特别是如果你要求它删除 .git 文件夹，那很好。"
+ },
+ {
+  "seg": 130,
+  "start": 880.171,
+  "end": 884.593,
+  "speaker": "Unknown",
+  "en": "If you didn't ask it to, it should probably not touch that part and completely delete your history.",
+  "zh": "如果你没有要求它，它可能不应该触碰那部分并完全删除你的历史。"
+ },
+ {
+  "seg": 131,
+  "start": 885.914,
+  "end": 887.855,
+  "speaker": "Unknown",
+  "en": "And so we're giving it all of this context.",
+  "zh": "所以我们要给它所有这些上下文。"
+ },
+ {
+  "seg": 132,
+  "start": 888.955,
+  "end": 895.578,
+  "speaker": "Unknown",
+  "en": "And ask it to then come up with a judgment based on the user authorization.",
+  "zh": "并要求它然后根据用户授权做出判断。"
+ },
+ {
+  "seg": 133,
+  "start": 895.618,
+  "end": 898.98,
+  "speaker": "Unknown",
+  "en": "In this case, it's high because we explicitly told it to delete the file.",
+  "zh": "在这种情况下，它是高的，因为我们明确告诉它删除文件。"
+ },
+ {
+  "seg": 134,
+  "start": 900.06,
+  "end": 903.182,
+  "speaker": "Unknown",
+  "en": "What is the impact of the deletion or the action itself?",
+  "zh": "删除或操作本身的影响是什么？"
+ },
+ {
+  "seg": 135,
+  "start": 903.622,
+  "end": 904.382,
+  "speaker": "Unknown",
+  "en": "And what should we do?",
+  "zh": "我们应该做什么？"
+ },
+ {
+  "seg": 136,
+  "start": 904.582,
+  "end": 917.228,
+  "speaker": "Unknown",
+  "en": "So this could apply both to file system actions, but also to network calls, for example, where curling Google to see if the internet works is fine, but maybe not uploading a file, for example.",
+  "zh": "所以这既可以应用于文件系统操作，也可以应用于网络调用，例如，用 curl 访问 Google 以检查互联网是否工作是可以的，但可能不要上传文件，例如。"
+ },
+ {
+  "seg": 137,
+  "start": 918.878,
+  "end": 925.043,
+  "speaker": "Unknown",
+  "en": "This is a gross oversimplification of all of the thoughts and work that went into this by engineers and the research team.",
+  "zh": "这是对工程师和研究团队为此投入的所有想法和工作的极度过度简化。"
+ },
+ {
+  "seg": 138,
+  "start": 925.503,
+  "end": 931.007,
+  "speaker": "Unknown",
+  "en": "So if you do want to learn more about it, check out the auto review blog post that we wrote.",
+  "zh": "所以如果你确实想了解更多，请查看我们写的自动审查博客文章。"
+ },
+ {
+  "seg": 139,
+  "start": 932.448,
+  "end": 936.672,
+  "speaker": "Unknown",
+  "en": "The next thing I wanted to talk about is speed because agents can do a lot of tool calls.",
+  "zh": "我想谈论的下一件事是速度，因为智能体可以做很多工具调用。"
+ },
+ {
+  "seg": 140,
+  "start": 937.392,
+  "end": 943.317,
+  "speaker": "Unknown",
+  "en": "And while we are doing a lot of work on speeding up inference, it's only part of the equation.",
+  "zh": "虽然我们在加速推理方面做了很多工作，但这只是方程的一部分。"
+ },
+ {
+  "seg": 141,
+  "start": 944.23,
+  "end": 952.712,
+  "speaker": "Unknown",
+  "en": "We noticed this when we launched GPT-5.3 Codex Spark, and it's running on Cerebras at 1,000 tokens per second.",
+  "zh": "我们在发布 GPT-5.3 Codex Spark 时注意到了这一点，它在 Cerebras 上以每秒 1000 个 token 的速度运行。"
+ },
+ {
+  "seg": 142,
+  "start": 953.293,
+  "end": 959.995,
+  "speaker": "Unknown",
+  "en": "So with that, we realized that with all of these tool calls and the interactions, inference was no longer the bottleneck.",
+  "zh": "所以对此我们意识到，随着所有这些工具调用和交互，推理不再是瓶颈。"
+ },
+ {
+  "seg": 143,
+  "start": 960.035,
+  "end": 961.095,
+  "speaker": "Unknown",
+  "en": "It was actually the network.",
+  "zh": "实际上是网络。"
+ },
+ {
+  "seg": 144,
+  "start": 962.472,
+  "end": 983.484,
+  "speaker": "Unknown",
+  "en": "So for that reason, we introduced WebSocket mode, which means that the responses API doesn't run through server-side events and HTTP, but instead uses a persistent WebSocket connection, which allows us to save both on network overhead, but also provide stateful context, which means we only have to send the data that actually changed.",
+  "zh": "因此，我们引入了 WebSocket 模式，这意味着响应 API 不通过服务器端事件和 HTTP 运行，而是使用持久的 WebSocket 连接，这允许我们节省网络开销，同时也提供有状态上下文，这意味着我们只需发送实际变化的数据。"
+ },
+ {
+  "seg": 145,
+  "start": 983.944,
+  "end": 990.128,
+  "speaker": "Unknown",
+  "en": "So for example, if there's a tool call, we only send back the result of the tool call rather than sending all of the items back.",
+  "zh": "所以例如，如果有工具调用，我们只发回工具调用的结果，而不是发回所有项目。"
+ },
+ {
+  "seg": 146,
+  "start": 991.46,
+  "end": 993.921,
+  "speaker": "Unknown",
+  "en": "So in practice, oh, great.",
+  "zh": "所以在实践中，哦，太好了。"
+ },
+ {
+  "seg": 147,
+  "start": 994.381,
+  "end": 996.022,
+  "speaker": "Unknown",
+  "en": "In this case, my demo server crashed.",
+  "zh": "在这种情况下，我的演示服务器崩溃了。"
+ },
+ {
+  "seg": 148,
+  "start": 997.523,
+  "end": 1000.504,
+  "speaker": "Unknown",
+  "en": "Let me see if I have a backup here.",
+  "zh": "让我看看这里是否有备份。"
+ },
+ {
+  "seg": 149,
+  "start": 1007.127,
+  "end": 1008.348,
+  "speaker": "Unknown",
+  "en": "Spoiling the rest of the demo.",
+  "zh": "破坏了演示的其余部分。"
+ },
+ {
+  "seg": 150,
+  "start": 1009.408,
+  "end": 1009.568,
+  "speaker": "Unknown",
+  "en": "Nope.",
+  "zh": "不。"
+ },
+ {
+  "seg": 151,
+  "start": 1009.968,
+  "end": 1011.149,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 152,
+  "start": 1012.222,
+  "end": 1018.024,
+  "speaker": "Unknown",
+  "en": "In practice, you will see that it's going to send only one item after another.",
+  "zh": "在实践中，你会看到它将一次只发送一个项目。"
+ },
+ {
+  "seg": 153,
+  "start": 1019.185,
+  "end": 1020.825,
+  "speaker": "Unknown",
+  "en": "Sorry, I pressed the wrong button for this one.",
+  "zh": "抱歉，我为这个按错了按钮。"
+ },
+ {
+  "seg": 154,
+  "start": 1021.525,
+  "end": 1021.906,
+  "speaker": "Unknown",
+  "en": "There you go.",
+  "zh": "给你了。"
+ },
+ {
+  "seg": 155,
+  "start": 1022.246,
+  "end": 1023.666,
+  "speaker": "Unknown",
+  "en": "Here's the backup.",
+  "zh": "这是备份。"
+ },
+ {
+  "seg": 156,
+  "start": 1024.366,
+  "end": 1035.65,
+  "speaker": "Unknown",
+  "en": "So it's going to only send one item after another rather than sending, in this case, for example, nine items back, while for the other one, we're only sending one back.",
+  "zh": "所以它将一次只发送一个项目，而不是发送，在这种情况下，例如，九个项目回来，而对于另一个，我们只发回一个。"
+ },
+ {
+  "seg": 157,
+  "start": 1035.971,
+  "end": 1039.372,
+  "speaker": "Unknown",
+  "en": "And so over time, this actually speeds up things quite significantly.",
+  "zh": "所以随着时间的推移，这实际上显着加快了事情的速度。"
+ },
+ {
+  "seg": 158,
+  "start": 1040.993,
+  "end": 1043.734,
+  "speaker": "Unknown",
+  "en": "And can have a pretty drastic impact on the performance.",
+  "zh": "并且可能对性能产生相当剧烈的影响。"
+ },
+ {
+  "seg": 159,
+  "start": 1045.355,
+  "end": 1045.576,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 160,
+  "start": 1045.876,
+  "end": 1048.177,
+  "speaker": "Unknown",
+  "en": "We're at AI Engineer World's Fair in 2026.",
+  "zh": "我们在 2026 年的 AI Engineer World's Fair。"
+ },
+ {
+  "seg": 161,
+  "start": 1048.217,
+  "end": 1051.42,
+  "speaker": "Unknown",
+  "en": "The only thing I have to talk legally about is loops.",
+  "zh": "我唯一从法律角度需要谈论的是循环。"
+ },
+ {
+  "seg": 162,
+  "start": 1053.561,
+  "end": 1058.965,
+  "speaker": "Unknown",
+  "en": "So we're briefly going to talk about it, specifically slash goal, because I got the questions a couple of times during this event.",
+  "zh": "所以我们将简要讨论它，特别是 slash goal，因为我在这次活动期间收到了几次这个问题。"
+ },
+ {
+  "seg": 163,
+  "start": 1059.045,
+  "end": 1061.266,
+  "speaker": "Unknown",
+  "en": "How does this actually work?",
+  "zh": "这实际上是如何工作的？"
+ },
+ {
+  "seg": 164,
+  "start": 1062.047,
+  "end": 1068.551,
+  "speaker": "Unknown",
+  "en": "And of course, since the demo server crashed, which also shows that that was real data.",
+  "zh": "当然，由于演示服务器崩溃了，这也表明那是真实数据。"
+ },
+ {
+  "seg": 165,
+  "start": 1070.79,
+  "end": 1073.091,
+  "speaker": "Unknown",
+  "en": "We're going to show you the demo here.",
+  "zh": "我们将在这里向您展示演示。"
+ },
+ {
+  "seg": 166,
+  "start": 1073.731,
+  "end": 1077.773,
+  "speaker": "Unknown",
+  "en": "This is a hosted demo, by the way, so you'll be able to replay this afterwards.",
+  "zh": "这是一个托管的演示，顺便说一句，所以您稍后可以重放这个演示。"
+ },
+ {
+  "seg": 167,
+  "start": 1078.193,
+  "end": 1086.396,
+  "speaker": "Unknown",
+  "en": "But basically what happens is, in this case, we're having to try to guess a number, and it's only achieving that goal when it's actually done with guessing that number.",
+  "zh": "但基本上发生的是，在这种情况下，我们必须尝试猜测一个数字，并且只有在实际完成猜到那个数字时才实现那个目标。"
+ },
+ {
+  "seg": 168,
+  "start": 1087.237,
+  "end": 1094.72,
+  "speaker": "Unknown",
+  "en": "And until it's done with that, it will actually automatically, the harness will inject this continuation prompt.",
+  "zh": "在完成之前，它实际上会自动地，harness 会注入这个 continuation prompt。"
+ },
+ {
+  "seg": 169,
+  "start": 1095.38,
+  "end": 1098.641,
+  "speaker": "Unknown",
+  "en": "And this continuation prompt includes, among other things, your objective.",
+  "zh": "并且这个 continuation prompt 包括，除其他事情外，您的目标。"
+ },
+ {
+  "seg": 170,
+  "start": 1098.761,
+  "end": 1099.942,
+  "speaker": "Unknown",
+  "en": "That's the goal that you set.",
+  "zh": "那是您设定的目标。"
+ },
+ {
+  "seg": 171,
+  "start": 1100.742,
+  "end": 1111.394,
+  "speaker": "Unknown",
+  "en": "And then we continue to do this until the model itself calls an update goal tool, which specifies that the plan or the goal was actually achieved.",
+  "zh": "然后我们继续这样做，直到模型本身调用一个 update goal 工具，该工具指定计划或目标实际上已实现。"
+ },
+ {
+  "seg": 172,
+  "start": 1113.574,
+  "end": 1130.755,
+  "speaker": "Unknown",
+  "en": "That is the reason why you actually don't want to write full essays like I know a lot of you have been trying to into your goal, but instead have very concrete and verifiable prompts so that it's easy to detect when things are done.",
+  "zh": "这就是为什么您实际上不想写完整的文章，就像我知道你们很多人一直试图写入您的目标那样，而是拥有非常具体和可验证的提示，以便很容易检测到事情何时完成。"
+ },
+ {
+  "seg": 173,
+  "start": 1131.856,
+  "end": 1134.217,
+  "speaker": "Unknown",
+  "en": "The last thing I want to talk about is compaction.",
+  "zh": "我想谈论的最后一件事是 compaction。"
+ },
+ {
+  "seg": 174,
+  "start": 1134.457,
+  "end": 1140.76,
+  "speaker": "Unknown",
+  "en": "If we have these agents run for hours or days at a time, you don't want to stand there and actually approve everything all the time.",
+  "zh": "如果我们让这些智能体一次运行数小时或数天，您不想站在那里实际一直批准所有事情。"
+ },
+ {
+  "seg": 175,
+  "start": 1141.84,
+  "end": 1145.982,
+  "speaker": "Unknown",
+  "en": "And because of that, we introduced end of last year auto-compaction.",
+  "zh": "正因为如此，我们在去年年底引入了 auto-compaction。"
+ },
+ {
+  "seg": 176,
+  "start": 1146.322,
+  "end": 1156.006,
+  "speaker": "Unknown",
+  "en": "And this has been used by Codex since then to automatically trigger compaction on the server side in a way that the model got trained with so that the performance stays the same.",
+  "zh": "从那时起，Codex 一直使用它来在服务器端自动触发 compaction，其方式与模型训练时的方法一致，以便性能保持不变。"
+ },
+ {
+  "seg": 177,
+  "start": 1158.658,
+  "end": 1175.152,
+  "speaker": "Unknown",
+  "en": "The way this works is you can either trigger this manually or automatically, and it will turn your transcription into, or your previous context window into a new one that you're gonna use instead on subsequent turns, and it contains a compaction item that has all of the necessary information in it that you need.",
+  "zh": "它的工作方式是您可以手动或自动触发它，它会将您的转录或您先前的上下文窗口转换为一个新的，您将在随后的轮次中使用它，并且它包含一个 compaction item，其中包含您需要的所有必要信息。"
+ },
+ {
+  "seg": 178,
+  "start": 1177.561,
+  "end": 1181.986,
+  "speaker": "Unknown",
+  "en": "All right, to wrap things up, thank you for staying with me, speedrunning through these slides.",
+  "zh": "好的，总结一下，感谢大家坚持陪我，快速过完这些幻灯片。"
+ },
+ {
+  "seg": 179,
+  "start": 1183.768,
+  "end": 1185.57,
+  "speaker": "Unknown",
+  "en": "Three things I want you to take away from this.",
+  "zh": "我希望大家从中带走三件事。"
+ },
+ {
+  "seg": 180,
+  "start": 1186.03,
+  "end": 1189.734,
+  "speaker": "Unknown",
+  "en": "The first one is the Codex app server and the harness are open source.",
+  "zh": "第一个是 Codex app server 和 harness 是开源的。"
+ },
+ {
+  "seg": 181,
+  "start": 1190.215,
+  "end": 1197.803,
+  "speaker": "Unknown",
+  "en": "You can use this as a blueprint to learn how we build our agents, or you can actually use it as the harness itself that you can build on top of.",
+  "zh": "您可以将其作为蓝图来学习我们如何构建我们的智能体，或者您实际上可以将其用作您可以在其上构建的 harness 本身。"
+ },
+ {
+  "seg": 182,
+  "start": 1198.664,
+  "end": 1205.632,
+  "speaker": "Unknown",
+  "en": "The other part is that most of the features that are standout for Codex are actually features that are exposed in the responses API.",
+  "zh": "另一部分是，Codex 的大部分突出功能实际上是在 responses API 中公开的功能。"
+ },
+ {
+  "seg": 183,
+  "start": 1205.652,
+  "end": 1212.981,
+  "speaker": "Unknown",
+  "en": "So even if you want to build your own agent, you can leverage these things like tool search, apply patch, web sockets, or server-side compaction.",
+  "zh": "因此，即使您想构建自己的智能体，您也可以利用这些功能，如 tool search、apply patch、web sockets 或 server-side compaction。"
+ },
+ {
+  "seg": 184,
+  "start": 1213.341,
+  "end": 1216.004,
+  "speaker": "Unknown",
+  "en": "You can use those directly regardless of what harness you're using.",
+  "zh": "无论您使用什么 harness，您都可以直接使用它们。"
+ },
+ {
+  "seg": 185,
+  "start": 1216.805,
+  "end": 1231.176,
+  "speaker": "Unknown",
+  "en": "And the last thing is as models evolve, keep an eye out on how we're evolving the responses API, how we're evolving Codex, and use that as a way to understand how you want to update your own agents to make use of these new capabilities.",
+  "zh": "最后一点是，随着模型的发展，请密切关注我们如何演进 responses API，我们如何演进 Codex，并以此作为理解您希望如何更新自己的智能体以利用这些新能力的一种方式。"
+ },
+ {
+  "seg": 186,
+  "start": 1232.197,
+  "end": 1233.498,
+  "speaker": "Unknown",
+  "en": "And with that, thank you so much.",
+  "zh": "借此，非常感谢。"
+ },
+ {
+  "seg": 187,
+  "start": 1233.558,
+  "end": 1237.181,
+  "speaker": "Unknown",
+  "en": "That's the link to the slides, and I'll be heading down to the booth if you have any questions.",
+  "zh": "那是幻灯片的链接，如果您有任何问题，我将前往展台。"
+ },
+ {
+  "seg": 188,
+  "start": 1244.242,
+  "end": 1244.603,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

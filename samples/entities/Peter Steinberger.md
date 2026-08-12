@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":71,"OpenAI":31,"OpenClaw":7,"Codex":15,"Romain Huet":1,"Anthropic":40,"Raphael Schaad":1,"循环":2,"NVIDIA":16,"Claude Code":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":73,"OpenAI":32,"OpenClaw":7,"Codex":16,"Romain Huet":1,"Anthropic":42,"Raphael Schaad":1,"循环":2,"NVIDIA":16,"Claude Code":20}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":71,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":3,"TPU":2,"MapReduce":1,"蒸馏":6,"AlphaFold":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":73,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":4,"TPU":2,"MapReduce":1,"蒸馏":6,"AlphaFold":1,"Gemini":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,925 @@
+{
+  "episode_id": "2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-12",
+  "tags": [
+    "AI 泡沫",
+    "AI 基础设施",
+    "数据中心",
+    "资本支出",
+    "投资回报"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "paul-kedrosky",
+      "type": "person",
+      "role": "guest",
+      "name": "Paul Kedrosky",
+      "file": "Paul Kedrosky",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集把它说成：更像非受监管的公用事业，前期巨额资本开支后，每 4 到 7 年还需周期性地把大部分硬件和冷却系统整体换掉，持续吃资本稀释回报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            909.833,
+            916.435
+          ],
+          "quote": "And so, therefore, these expenses in the data centers aren't just like you invest $100 billion in a data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            918.676,
+            926.979
+          ],
+          "quote": "The investment is you have to continually feed that data center with more money in order to make it work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1056.618,
+            1059.561
+          ],
+          "quote": "In its adolescent years inside the data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2196.259,
+            2200.96
+          ],
+          "quote": "Some of the largest purchasers of data center-related data are insurance companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2626.977,
+            2633.701
+          ],
+          "quote": "Nowhere else on earth can you write it other than these giant data center campuses like the Meta project in Louisiana or take your pick.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3107.414,
+            3112.899
+          ],
+          "quote": "Well, then all of a sudden, data center projects with their deflating underlying token pricing looks much less competitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3112.959,
+            3120.726
+          ],
+          "quote": "So that changes things dramatically, given that more than half of data center projects now or half of the capital for data center projects now are external financing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3879.476,
+            3887.598
+          ],
+          "quote": "And alongside that, we have a data center build out that is getting a ton of money based on the promise that it will pay off",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集把它说成：数据中心这个工厂生产的、史上贬值最快的商品，在恒定性能下每年跌价 70% 到 80%，持续至少四年没有停下来的迹象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            960.366,
+            964.088
+          ],
+          "quote": "What you used to pay for a token is much cheaper now than it was previously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1099.92,
+            1112.544
+          ],
+          "quote": "So yes, there's no question that if a chip is used exclusively for inference, which is to say token completion in response to prompts, then the lifespan will, all else being equal, likely be longer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1273.503,
+            1279.868
+          ],
+          "quote": "And now you're competing with sovereigns who have state-subsidized token prices, as China is probably the canonical example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1349.888,
+            1367.557
+          ],
+          "quote": "And so that's going to have collateral damage in terms of them being seen as fair and unbiased players, which will then play into the likelihood of companies going down the path of sovereign data centers and doing token inference generation inside their own organizations as that becomes increasingly possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2544.162,
+            2549.765
+          ],
+          "quote": "The fact that, okay, we've talked about you have to replace the GPUs, token prices are going down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3107.414,
+            3112.899
+          ],
+          "quote": "Well, then all of a sudden, data center projects with their deflating underlying token pricing looks much less competitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3927.879,
+            3939.304
+          ],
+          "quote": "So that's all a long way of saying that we should expect token deflation to continue and even accelerate in future because of how quickly this stuff came to market and how many opportunities there are to drive efficiencies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            879.799,
+            889.045
+          ],
+          "quote": "So the depreciation that you're talking about is because 50%, I think you've said 50% of the cost of data centers is in the GPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            889.565,
+            894.627
+          ],
+          "quote": "And the GPU has a lifespan, you know, some people say three years, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1046.91,
+            1056.218
+          ],
+          "quote": "The lifespan of a GPU in terms of just looking at it from an MTBF standpoint, I mean time between failure standpoint, depends very much on what it was used for in the...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把它说成：响应提示词的 token 完成。专门用于推理的芯片，其寿命比用于高强度的训练的芯片长得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            765.027,
+            769.628
+          ],
+          "quote": "There'll be increasingly inference-specific ASICs, and we're seeing lots of that going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1098.52,
+            1099.88
+          ],
+          "quote": "Then inference-specific usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1099.92,
+            1112.544
+          ],
+          "quote": "So yes, there's no question that if a chip is used exclusively for inference, which is to say token completion in response to prompts, then the lifespan will, all else being equal, likely be longer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1118.146,
+            1119.027
+          ],
+          "quote": "To be used for inference?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1120.248,
+            1128.876
+          ],
+          "quote": "But in aggregate, there is this problem that the failure rates of chips that were used for training is very different from the failure rates that were used for inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1349.888,
+            1367.557
+          ],
+          "quote": "And so that's going to have collateral damage in terms of them being seen as fair and unbiased players, which will then play into the likelihood of companies going down the path of sovereign data centers and doing token inference generation inside their own organizations as that becomes increasingly possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "commercial-real-estate",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业地产 (commercial real estate)",
+      "file": "商业地产",
+      "primary": true,
+      "how_described": "本集把它说成：外部资本给数据中心定价时的类比对象（问投入 1000 亿能拿到的资本化率能否跟同类地产比），但这个幼稚类比因忽略了通缩商品与持续资本消耗而极其危险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            550.024,
+            559.067
+          ],
+          "quote": "So the right way to think about it, for better or worse, is to analogize it to commercial real estate and ask yourself what kind of cap rates they could get on comparable projects, and that is really the answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            723.482,
+            729.768
+          ],
+          "quote": "So that's problem number one in terms of thinking or making the direct analogy to commercial real estate back to data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            791.053,
+            817.577
+          ],
+          "quote": "is this thing we euphemistically call tokens and these tokens are among the most rapidly depreciating assets we've ever seen in a modern economy that they've continually been falling 70 to 80 percent year over year on a constant performance basis for at least the last four years and there's no reason to expect that to change so we've got at least three different problems here in terms of making that naive comparison to commercial real estate and saying okay everything's going to be fine look look these guys are good for it and we've got these long duration contracts",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            849.266,
+            862.35
+          ],
+          "quote": "So all of this is really unusual and makes the naive analogy to commercial real estate that brings in those kinds of investors who have showed up in huge numbers because they see this analogy incredibly fraught and probably perilous for them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集把它说成：正在快速趋同（百事可乐盲测都喝不出区别），差异从「能力」转向纯价格战。还在辛苦卖 token，本身就证明它们知道自己强不到能直接吃掉整个经济。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            1156.105,
+            1166.87
+          ],
+          "quote": "I often joke that the most valuable frontier model company in the future will be the one that stops pretending to train models and actually just moves on to harnesses and moves up the stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1720.362,
+            1729.006
+          ],
+          "quote": "So what that tells you is, in the same way that these companies launching hedge fund tools don't actually have things that can do that, the frontier model companies know perfectly well they can't do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "挽具 (harness)",
+      "file": "挽具",
+      "primary": true,
+      "how_described": "本集把它说成：模型上层的编排工具（如 Claude Code、OpenCode），像高功能保姆管住顽童。过去 18 个月的能力提升很大部分来自挽具与后训练，而非动辄十亿美元的预训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1176.075,
+            1182.998
+          ],
+          "quote": "And I often do this kind of Pepsi Coke test where I'll put a couple of different models in front of people using some kind of a harness like OpenCode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "本集把它说成：动辄花费十亿美元的大型训练运行。一旦投资者看穿模型收益多来自挽具和后训练，预训练的这笔庞大开支就守不住了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 632,
+          "t": [
+            3399.717,
+            3406.36
+          ],
+          "quote": "Once investors look under the hood and see more and more of this, they'll be questioning, why are we spending so much on pre-training?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集把它说成：在基础模型预训练之后引入的工具，如带人类反馈的强化学习（RLHF）。它是过去 18 个月收益的主要来源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 631,
+          "t": [
+            3388.511,
+            3399.596
+          ],
+          "quote": "And most of the gains we're seeing are harnesses and post-training, things like what are called reinforcement learning with human feedback, RLHF, all of these other tools that are now coming in after the fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3406.42,
+            3416.885
+          ],
+          "quote": "Why are you doing billion-dollar training runs anymore if most of the gains and models are coming from post-training and RLHF and some of these other tools or even like quantization and whatever else?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成：当所有经济论据失效时的万能牌（像永生的看涨期权一样无穷大），被当作「填补空白的上帝」插进所有算不过账的空白里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1848.684,
+            1859.709
+          ],
+          "quote": "It still feels to me like we're in the, I don't know, iPhone version four era when people get all excited about a new release and then everyone whines because they say, well, this didn't change the world and it's not AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2310.423,
+            2312.265
+          ],
+          "quote": "Paul, it is AGI, man.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2317.292,
+            2318.533
+          ],
+          "quote": "Feel the AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2319.514,
+            2323.779
+          ],
+          "quote": "So the question then that turns into this one of what would you pay for a call option on AGI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2335.173,
+            2341.761
+          ],
+          "quote": "Similarly, a call option on AGI, there's no discountable net present value that is too large.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2344.004,
+            2355.047
+          ],
+          "quote": "So once you start down that path, once I accept that premise that this is, you know, fuel the AGI or fuel the immortality, then again, I'm into this trap of, well, yeah, absolutely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2380.701,
+            2382.402
+          ],
+          "quote": "What are you willing to pay for a call option on AGI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2403.371,
+            2412.015
+          ],
+          "quote": "I'm inserting AGI because now that allows me to create an undiscountable call option that I can't price, therefore I should be willing to spend anything, and I reject that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2413.699,
+            2438.362
+          ],
+          "quote": "Don't you think that all the money that's going towards this AGI or AI build out, the people writing the checks have been told the AGI argument and therefore despite all of the economic weaknesses that you've pointed out in our discussion are basically writing that check for a call option on AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2465.545,
+            2468.509
+          ],
+          "quote": "In terms of promoting it, sure, we can call these AGI factories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2468.529,
+            2475.918
+          ],
+          "quote": "I was talking to a regional economic development official in New Mexico recently who had a hyperscaler show up and tell him, don't you want to be part of AGI factories?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2479.348,
+            2485.391
+          ],
+          "quote": "Because you're signing up for the future, because now you can help us build the factories that dictate the future of AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3236.515,
+            3239.597
+          ],
+          "quote": "And the way it doesn't break is if it's actually a call option on AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3956.076,
+            3965.298
+          ],
+          "quote": "Do you think, I mean, you know, I know that investing based off of a call option on AGI might be unwise, but do you think that there's a chance that that is where this technology goes?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jevons-paradox",
+      "type": "concept",
+      "role": "concept",
+      "name": "杰文斯悖论 (Jevons paradox)",
+      "file": "杰文斯悖论",
+      "primary": true,
+      "how_described": "本集把它说成：乐观派的标准反驳（token 越便宜大家用得越多总收入就涨），但 80% 的复合价格下降需要在另一端补回一亿倍的 token 用量增长才行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1202.763,
+            1214.471
+          ],
+          "quote": "We're rapidly seeing this move away from any kind of premium pricing in terms of the models themselves, which is, and I'm trying to get to the point about this kind of Jevons paradox, which is really what you're pointing to, this idea that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1253.109,
+            1256.752
+          ],
+          "quote": "To throw out this and say, but Jevons Paradox,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成：典型的前沿模型公司，被迫向高端市场移动找新回报；但同时如果它真强到能吃掉经济，就不会辛苦卖 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1404.287,
+            1419.076
+          ],
+          "quote": "Right, because they're going to go and they have these, you know, Palantir has forward deployed engineers, now OpenAI and Anthropic have forward deployed engineers, and they have effectively the intelligence underlying a lot of what Palantir is doing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1434.831,
+            1440.596
+          ],
+          "quote": "So to me, seeing Karp on CNBC, yes, he was sounding concerned about what OpenAI",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1553.542,
+            1559.763
+          ],
+          "quote": "Is that the route to having the business, OpenAI and Anthropic, having the business",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3192.032,
+            3197.934
+          ],
+          "quote": "So we're talking already about Anthropic, or I guess it was OpenAI, having potentially a 5% US share in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3273.399,
+            3276.64
+          ],
+          "quote": "Mark Zuckerberg probably sees it to his advantage to not have OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3296.372,
+            3298.153
+          ],
+          "quote": "Well, you're going to have a super app from OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4009.385,
+            4012.566
+          ],
+          "quote": "So the OpenAI and anthropics of the world, their future is?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成：另一家典型前沿模型公司，与 OpenAI 一样部署了前沿工程师并向上游市场进发，在卖 token 与吃掉垂直应用市场之间面临悖论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1404.287,
+            1419.076
+          ],
+          "quote": "Right, because they're going to go and they have these, you know, Palantir has forward deployed engineers, now OpenAI and Anthropic have forward deployed engineers, and they have effectively the intelligence underlying a lot of what Palantir is doing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1506.41,
+            1532.338
+          ],
+          "quote": "Absolutely right and you know on this show all the time we talk about how like we we think that this technology is real um and you know you gotta question the economics because of many of the things we're talking about uh all right but let's just go back to this argument so they're coming out let's say they're coming after palantir anthropic is coming after figma right and you know sort of the list goes on as you know there's always been this like is does the entire economy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1553.542,
+            1559.763
+          ],
+          "quote": "Is that the route to having the business, OpenAI and Anthropic, having the business",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1749.599,
+            1754.781
+          ],
+          "quote": "You could argue that it's because Dario at Anthropic is so darn ethical that he refuses to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1781.781,
+            1787.403
+          ],
+          "quote": "And a case in point is a Claude design where like Anthropic has been watching the design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1791.605,
+            1798.289
+          ],
+          "quote": "And that's led to this whole issue and made Dylan Field one of Anthropic's biggest critics, the Figma CEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3192.032,
+            3197.934
+          ],
+          "quote": "So we're talking already about Anthropic, or I guess it was OpenAI, having potentially a 5% US share in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3277.283,
+            3280.044
+          ],
+          "quote": "And Anthropic dominate this next paradigm and he's already trying.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3298.173,
+            3299.914
+          ],
+          "quote": "You'll have a super app from Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集把它说成：一家投了 1000 亿美元在数据中心的大型科技公司，每季度利润约三四百亿；同时也在推出成本极低的专有新模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            444.364,
+            454.748
+          ],
+          "quote": "So increasingly, the providers of capital for these things look at it in that context and say, well, what's the yield in terms of I'm contributing $100 billion to some massive meta project?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            605.727,
+            606.148
+          ],
+          "quote": "I'm Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            625.65,
+            630.531
+          ],
+          "quote": "And now that I'm thinking about it, I'm like, well, Meta makes what, like 30, 40 billion a quarter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2626.977,
+            2633.701
+          ],
+          "quote": "Nowhere else on earth can you write it other than these giant data center campuses like the Meta project in Louisiana or take your pick.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3979.052,
+            3984.677
+          ],
+          "quote": "And Yann LeCun and others, the former researcher at Meta who's now off doing his own world model thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": true,
+      "how_described": "本集把它说成：有前沿部署工程师的企业软件公司，受到前沿模型公司向高端市场进发的威胁，其 CEO Alex Karp 在电视上抱怨这些 AI 公司不可信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1402.033,
+            1404.014
+          ],
+          "quote": "Obviously, they're competing with Palantir.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1404.287,
+            1419.076
+          ],
+          "quote": "Right, because they're going to go and they have these, you know, Palantir has forward deployed engineers, now OpenAI and Anthropic have forward deployed engineers, and they have effectively the intelligence underlying a lot of what Palantir is doing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1506.41,
+            1532.338
+          ],
+          "quote": "Absolutely right and you know on this show all the time we talk about how like we we think that this technology is real um and you know you gotta question the economics because of many of the things we're talking about uh all right but let's just go back to this argument so they're coming out let's say they're coming after palantir anthropic is coming after figma right and you know sort of the list goes on as you know there's always been this like is does the entire economy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1576.08,
+            1578.141
+          ],
+          "quote": "Palantir can burn or not burn, it doesn't matter to me.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pimco",
+      "type": "company",
+      "role": "company",
+      "name": "PIMCO",
+      "file": "PIMCO",
+      "primary": true,
+      "how_described": "本集把它说成：机构投资者，相关的高评级超大规模企业债务最先出现在它那里，然后被转手卖掉，最终落在保险公司和欧洲银行手里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 645,
+          "t": [
+            3532.143,
+            3555.142
+          ],
+          "quote": "um so you even by trying to diversify you're still you're still in it but it's even more insidious than that because it's sitting inside of what we euphemistically might think of as high um higher grade investment um bonds that are increasingly being taken up by hyperscaler related debt and then that in turn is rapidly it shows up at a place like PIMCO first and then they'll flip it and it ends up inside of",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": false,
+      "how_described": "本集一笔带过，提到它是一个用于对比模型差异的网站表格，并指出该榜单正日益被中国模型主导。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1198.26,
+            1202.623
+          ],
+          "quote": "Tables like OpenRouter or whatever else, it's now dominated by Chinese models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

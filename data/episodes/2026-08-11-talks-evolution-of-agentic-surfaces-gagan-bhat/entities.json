@@ -1,0 +1,1851 @@
+{
+  "episode_id": "2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat",
+  "podcast": "精选演讲",
+  "date": "2026-08-11",
+  "tags": [
+    "智能体基础设施",
+    "安全带/harness",
+    "上下文工程",
+    "生产级可靠性",
+    "大脑与双手解耦"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "gagan-bhat",
+      "type": "person",
+      "role": "guest",
+      "name": "Gagan Bhat",
+      "file": "Gagan Bhat",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "isabella-kai-he",
+      "type": "person",
+      "role": "guest",
+      "name": "Isabella Kai He",
+      "file": "Isabella Kai He",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成：应用 AI 团队打造 Claude Managed Agents、负责底层托管基础设施的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            19.434,
+            23.196
+          ],
+          "quote": "We're both members of technical staff here at Anthropic at the Applied AI team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            35.823,
+            46.545
+          ],
+          "quote": "We're here today to talk about how the surfaces for building agents has evolved in the last three years and what our teams have learned building agents both internally at Anthropic and externally with our enterprise customers along the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            371.408,
+            378.292
+          ],
+          "quote": "Like credentials, session management, observability, hosting infrastructure, all of this is run by Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            618.163,
+            638.117
+          ],
+          "quote": "Now, when I look to internal products that are exciting and anthropic like Claude Code and Claude Tag, which our team is really excited about, and as I work with other enterprise teams who are also building exciting, truly agentic products, a common pattern that I see is that these agents are becoming increasingly asynchronous and are tackling tasks that are increasingly complex and challenging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            993.616,
+            1005.883
+          ],
+          "quote": "So by having this part of the managed agent harness managed by Anthropic, what that means is that the developer can focus on their time designing the right system prompts, the right skills, and the right tools to make their agent truly work for their users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1143.032,
+            1155.095
+          ],
+          "quote": "Here, we create an environment that is SRE Sandbox, and I configure it to run on the Anthropic Cloud with the networking limited and Allaudos hosts only being the MCP server that I wanted to communicate to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1199.685,
+            1202.827
+          ],
+          "quote": "What you have defined here is now living in the Anthropic Cloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：能拥有整个任务结果、可长时间独立运行(数小时甚至数天)的自主系统，核心是拥有推理的大脑和执行工具的双手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            228.818,
+            242.416
+          ],
+          "quote": "This agent SDK essentially packaged the harness that we know and love, which is Claude Code, and it shipped with a built-in agentic loop, along with file system access, tools, and a system for doing sandboxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            273.231,
+            277.213
+          ],
+          "quote": "Where does the agent run and how long does the process live for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            314.473,
+            320.675
+          ],
+          "quote": "With all the complex agent orchestration going on, how do you figure out what's actually happening under the hood?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            398.653,
+            402.898
+          ],
+          "quote": "The Claude Agent SDK brought in a built-in agent harness for tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            484.356,
+            488.619
+          ],
+          "quote": "What this is is that the agent literally got anxious at his approach to its context window limit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            537.722,
+            541.645
+          ],
+          "quote": "So when the model moves and the harness doesn't, it degrades the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            650.461,
+            654.942
+          ],
+          "quote": "It needs to be good at giving the agent a sandbox that's secure so the agent can actually take action within an environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            655.742,
+            659.163
+          ],
+          "quote": "It has to be reliable so the agent can run on hours or even days at a time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            659.703,
+            666.385
+          ],
+          "quote": "And it also has to be able to do things like parallelize workflows so the agent can tackle multiple parts of a complex problem at once and many, many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            676.533,
+            686.021
+          ],
+          "quote": "One of the core architectural decisions that went into Managed Agents that sets the foundation for the rest of the slides that we're going to walk through is the decision to decouple the brain from the hands of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            687.462,
+            693.547
+          ],
+          "quote": "When our team first set out to build Managed Agents, we started by putting the agent loop and the tool execution in the same box in the same environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            695,
+            701.266
+          ],
+          "quote": "What this meant was that the agent loop would be able to easily able to call tools and read into results because it had it right there in the same container.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            704.949,
+            712.136
+          ],
+          "quote": "This being that the container was blocking the agent being able to start its model reasoning, so the agent wouldn't be able to kick off until the container was fully set up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            712.737,
+            719.043
+          ],
+          "quote": "It also meant challenges for reliability because if one part of this component went down, the entire box of the agent would go down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            720.35,
+            728.116
+          ],
+          "quote": "Our solution to this was to decouple the two elements, separating the brain or the agent loop from the hands or the tool execution environment of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            745.825,
+            755.874
+          ],
+          "quote": "First of all, if the sandbox or the hands of the agent died, because the brain was in a separate component, the brain could just spin up a new sandbox and retry and then continue as it left off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            756.875,
+            772.589
+          ],
+          "quote": "If the brain of the agent dies, we're actually gonna walk through something in just a moment here about how everything that the agent does is logged into a durable session resource in a session log, which means that the brain of the agent can actually just read from that session log, go back into context, and resume exactly where it left off as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            775.261,
+            785.385
+          ],
+          "quote": "This means that Managed Agents is designed around three core primitives, and that is the agent, and that is what your agent is, especially defining what your agent does for your use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            785.785,
+            792.187
+          ],
+          "quote": "This is a thing like the model that goes into your agent, the prompts, the tools, the skills, everything that makes your agent work for your particular use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            793.167,
+            797.249
+          ],
+          "quote": "Next up is the environment, and this is the container that the agent actually runs in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            808.953,
+            812.115
+          ],
+          "quote": "When you combine an agent with an environment, you get a session.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            812.916,
+            824.847
+          ],
+          "quote": "What a session is, is it's a durable resource persisted in the cloud of every single interaction that you have with the agent, which unlocks several things like observability, a long-running instance, reliability, all through this core architectural decisions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            827.722,
+            838.069
+          ],
+          "quote": "Now, when I work with many teams that are bringing an agent from a prototyping phase all the way to a production phase, one of the main challenges that we see is that reliability is a core concern.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            838.71,
+            848.917
+          ],
+          "quote": "It's a different story to build an agent that runs in your laptop and serves you as a single user compared to when you actually want to deploy it in production and run it at scale for hundreds of thousands or even millions of users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            849.798,
+            856.863
+          ],
+          "quote": "You need to make sure, especially if your agent is going to run for long hours at a time, that it's going to be reliable and can actually recover from tool failures.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            858.32,
+            874.684
+          ],
+          "quote": "Managed Agents, because of the way it's designed around those three primitives that we just walked over, is able to have four distinct session states, and that is idle, when your agent is waiting on user input, running when it's actually executing, rescheduling when it encounters an error and it's going to retry, or terminated if it's unrecoverable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            875.945,
+            883.767
+          ],
+          "quote": "This means that the agent can always go back to an existing session and resume where it left off, and it also has a mechanism for it to recover from those failures in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            894.348,
+            903.077
+          ],
+          "quote": "Now, context engineering is something that our team has done a ton of research into because it is one of the things that separates an effective agent from an agent that gets lost in context rot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            950.89,
+            958.573
+          ],
+          "quote": "What this means is that what we see is increasingly developers are able to rely on portions of the managed agent harness that come with the harness itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            958.954,
+            964.596
+          ],
+          "quote": "This is things like the agent loop, memory, observability, all that comes alongside building with Claude managed agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            973.36,
+            980.263
+          ],
+          "quote": "This is what separates a coding agent from a legal agent or a go-to-market agent, and again, is what makes your agent truly ready for your users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            989.134,
+            992.636
+          ],
+          "quote": "But a go-to-market agent or a legal agent would need a vastly different set of tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            993.616,
+            1005.883
+          ],
+          "quote": "So by having this part of the managed agent harness managed by Anthropic, what that means is that the developer can focus on their time designing the right system prompts, the right skills, and the right tools to make their agent truly work for their users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            1007.377,
+            1018.086
+          ],
+          "quote": "Now what I want to do is hand it over back to Gagan to walk you through one example in a live demo where you can see a customized agent for a production use case and how simple it is to build a production-ready agent with managed agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1035.886,
+            1039.411
+          ],
+          "quote": "What does it feel like to actually create your own production-grade agent from scratch?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1071.883,
+            1082.392
+          ],
+          "quote": "Wouldn't it be nice if there was a site reliability engineering agent that could investigate all these tedious data points and come back to you with the root cause before even you open your dashboard?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1094.641,
+            1098.424
+          ],
+          "quote": "The first primitive, as mentioned earlier, is the agent definition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1099.045,
+            1100.906
+          ],
+          "quote": "You define what the agent does,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1111.921,
+            1118.723
+          ],
+          "quote": "I have a system prompt that kind of defines the instructions for the agent on how to behave and tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1119.383,
+            1124.429
+          ],
+          "quote": "The agent toolset gives it a standard set of tools like bash, grep, and blob, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1132.46,
+            1134.562
+          ],
+          "quote": "That's step one, agent definition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1175.374,
+            1187.139
+          ],
+          "quote": "So now we have the agent definition, so what it is, we have the environment, which is where it runs, we have relevant evidence, and so now we set it up so we can kickstart a session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1192.86,
+            1197.903
+          ],
+          "quote": "And it specifies the log point as a resource, and it allows the agent to kick off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1209.131,
+            1212.973
+          ],
+          "quote": "And let's go back to the investigator agent earlier and say, hey, I have an incident.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1271.763,
+            1285.488
+          ],
+          "quote": "If I click into one of the observability dashboards on the Claude console, you will find the exact event trace, the session logs for that event, including the tools that it used, the results of it, and any other agent messages that came into picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1286.708,
+            1294.331
+          ],
+          "quote": "With that, we were able to walk through what it feels like to build a Claude-managed agent from scratch with just a few lines of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1308.16,
+            1312.163
+          ],
+          "quote": "We've learned what it feels like to build a production-grade agent at scale using it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1323.401,
+            1327.103
+          ],
+          "quote": "The first lesson is to keep the credentials away from your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1327.843,
+            1335.768
+          ],
+          "quote": "A lot of customers ask me, how do I make sure my agent doesn't read or see the environment file that contains all my security tokens?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1361.864,
+            1367.467
+          ],
+          "quote": "This way, you can effectively keep credentials away from your agent, and the model never sees your security tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1373.151,
+            1378.935
+          ],
+          "quote": "And I'm sure if any of you in this room have built a production-ready agent, latency has been one of the things that's top of mind for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1379.99,
+            1389.095
+          ],
+          "quote": "What we realized when we decoupled the brain from the hands of the agent, as we talked about, is that this actually unlocked a key benefit that really mattered for a lot of our customers building on managed agents out in the wild.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1389.696,
+            1396.6
+          ],
+          "quote": "And that is that it improved latency significantly because the agent was no longer blocked on reasoning based on container setup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1414.221,
+            1417.423
+          ],
+          "quote": "When we then decoupled the brain from the hands of the agent, this is what we get.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1423.44,
+            1437.171
+          ],
+          "quote": "What this means is that the model can then run container setup so that the brain of the agent actually has the hands when it needs it, or we can actually skip the container setup entirely if for this particular task, we actually don't need the container setup in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1460.534,
+            1469.782
+          ],
+          "quote": "A lot of customers asked us the question, how can I figure out what's actually going on in my agent under the hood and how can I make my agent better over time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1476.547,
+            1481.571
+          ],
+          "quote": "The session log essentially contains events of everything that happened during an agent execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1496.083,
+            1502.245
+          ],
+          "quote": "It turns out that the same session log also improves memory and provides self-improvement for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1503.245,
+            1506.646
+          ],
+          "quote": "Memory essentially allows the agent to remember things about the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1519.029,
+            1521.31
+          ],
+          "quote": "So the next time your agent runs, it gets better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1547.018,
+            1555.4
+          ],
+          "quote": "And because of the key decision that we made, decoupling the brain from the hands of the agent, what we actually get is that the hands can run anywhere, including in your virtual private cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1575.72,
+            1582.585
+          ],
+          "quote": "And this is from teams that were saying that they wanted to expose MCP servers to their agent, but didn't want to have their MCP servers running over the public internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1583.905,
+            1591.855
+          ],
+          "quote": "For those teams, essentially with MCP tunnels, they can have their MCP servers run only within their private network and only making outbound calls to the Claude agent loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1641.62,
+            1646.942
+          ],
+          "quote": "Multi-agent orchestration, dreaming, outcomes, memory, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1656.511,
+            1665.018
+          ],
+          "quote": "As I mentioned before, we have access to the transcripts or the session logs from the agent's daily sessions, and the agent also has a current memory state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1677.728,
+            1690.394
+          ],
+          "quote": "It allows us to extract new insights and new organized structures that essentially feedback and edit the memory as needed to make the next day's agent sessions automatically much more intelligent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1705.357,
+            1708.959
+          ],
+          "quote": "Memory gives the agent the ability to remember things across the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1747.166,
+            1750.547
+          ],
+          "quote": "You say what means that the agent is actually able to complete the task successfully.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1752.727,
+            1762.91
+          ],
+          "quote": "And then outcomes essentially starts a separate grader agent that runs alongside your agent loop and looks at whether that agent was actually able to accomplish the task based on your defined success criteria.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1764.015,
+            1766.979
+          ],
+          "quote": "What this then does is that the agent will execute the task at hand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1770.884,
+            1778.273
+          ],
+          "quote": "If the grader determines that the agent was not able to complete the task, it'll keep trying until it reaches that success criteria that you have defined for your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1779.29,
+            1791.856
+          ],
+          "quote": "What really excites me about outcomes is that we're moving more towards a world where we can have an agent understand what success actually means for a task and have a mechanism to keep iterating it, which gives us more reliability that the agent can actually complete the outcomes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全带/harness (harness)",
+      "file": "安全带/harness",
+      "primary": true,
+      "how_described": "本集把它说成：围绕模型构建的外部控制框架。当模型进步而安全带不跟着变时,它会变成拖累性能的死重;必须模块化以便随模型演进快速迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            228.818,
+            242.416
+          ],
+          "quote": "This agent SDK essentially packaged the harness that we know and love, which is Claude Code, and it shipped with a built-in agentic loop, along with file system access, tools, and a system for doing sandboxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            398.653,
+            402.898
+          ],
+          "quote": "The Claude Agent SDK brought in a built-in agent harness for tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            438.634,
+            449.585
+          ],
+          "quote": "So for the next few minutes here, I want to talk you through some of the fundamentals that underpin the design of Claude Managed Agents and the lessons that our team learned along the way as we went about engineering this harness built for model evolution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            495.543,
+            505.59
+          ],
+          "quote": "In order to accommodate for this behavior, what our team did is built in fixes into the harness itself, adding in context resets so that Sonnet 4.5 would be able to reset its context and continue working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            513.493,
+            519.897
+          ],
+          "quote": "Opus 4.5 no longer exhibited context anxiety, which means that the fixes that we had added into the harness itself became dead weight.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            528.302,
+            534.606
+          ],
+          "quote": "The takeaway here is that we saw that the harness fixes were no longer needed and were actually detracting from model performance with Opus 4.5.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            537.722,
+            541.645
+          ],
+          "quote": "So when the model moves and the harness doesn't, it degrades the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            543.266,
+            550.59
+          ],
+          "quote": "What we've seen across these last couple of examples is that there's significant maintenance burden that comes with maintaining a harness that can keep up with Claude's rapid evolution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            566.565,
+            575.451
+          ],
+          "quote": "What you don't want to do is have a stale harness that takes weeks or even months to migrate to a new model, especially with how model release cycles have been coming out shorter and shorter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            577.232,
+            587.86
+          ],
+          "quote": "Now, to build an effective harness, what this means is that you have to be designing for the model capabilities of tomorrow, anticipating what the future Claude models will be able to accomplish and building your harnesses for that capability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            597.145,
+            611.878
+          ],
+          "quote": "That brings me to Claude Manage Agents, which is a harness designed around a small set of primitives with individual components that you see here on the screen that are independent, making it easy to swap them out and iterate upon them as individual pieces while keeping the overall architecture stable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            639.078,
+            643.999
+          ],
+          "quote": "In order to design a harness that's actually able to capture those level of work, it needs to have a couple of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            904.233,
+            924.3
+          ],
+          "quote": "Context engineering is also difficult, and with many traditional harness implementations, the context window and the session are one and the same, which means that Claude, if it wants to come in and discard portions of the context that it's in in current session run, it doesn't have a mechanism to be able to recover pieces of that context back into its window if it loses it at one point in its current session run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            925.513,
+            937.544
+          ],
+          "quote": "However, because everything in Managed Agents is logged to a durable, persisted session log resource, what this unlocks is that the harness can actually just read in slices of that context from the session log into its current window.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            950.89,
+            958.573
+          ],
+          "quote": "What this means is that what we see is increasingly developers are able to rely on portions of the managed agent harness that come with the harness itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            993.616,
+            1005.883
+          ],
+          "quote": "So by having this part of the managed agent harness managed by Anthropic, what that means is that the developer can focus on their time designing the right system prompts, the right skills, and the right tools to make their agent truly work for their users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1397.571,
+            1412.76
+          ],
+          "quote": "So if we go back to the first version with the coupled design where we had the harness in the same container in one single box, essentially the model wouldn't be able to start reasoning or outputting its first token until that container setup was fully complete, which meant that it had delays in the latency, especially for time to first token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1628.885,
+            1633.606
+          ],
+          "quote": "But we're also excited to see how the harness evolves as model capabilities evolve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1847.596,
+            1861.924
+          ],
+          "quote": "And so with that, I hope all of you walk out of this room learning something new about how our team went about building Managed Agents and how Cloud Managed Agents is structured to capture frontier intelligence as models continue to evolve and be a harness that's production ready for real workloads.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成：智能体的「双手」、安全的代码执行环境。如果它意外死掉,大脑可以起新的沙箱重试;为满足企业安全也可自托管在客户自己的私有云里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            347.507,
+            365.143
+          ],
+          "quote": "So your product would call Claude-managed agents and get a brain, which is the agentic loop and Claude itself, and all the custom harnesses and evolutions built inside of it, along with the hands, which is a sandbox that spins up just in time for things like file system access and code execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            650.461,
+            654.942
+          ],
+          "quote": "It needs to be good at giving the agent a sandbox that's secure so the agent can actually take action within an environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            745.825,
+            755.874
+          ],
+          "quote": "First of all, if the sandbox or the hands of the agent died, because the brain was in a separate component, the brain could just spin up a new sandbox and retry and then continue as it left off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1143.032,
+            1155.095
+          ],
+          "quote": "Here, we create an environment that is SRE Sandbox, and I configure it to run on the Anthropic Cloud with the networking limited and Allaudos hosts only being the MCP server that I wanted to communicate to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1221.719,
+            1226.683
+          ],
+          "quote": "It uses the hands, which is a sandbox, to grep and find specific details in the application logs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1556.506,
+            1571.797
+          ],
+          "quote": "So the feature that we released called self-hosted sandboxes, we built this from an engineering perspective because of the feedback that we heard and essentially made it available to have customers control their sandbox control plan exactly for their own execution environments and to have tools run exactly under their own policies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体循环 (agentic loop)",
+      "file": "智能体循环",
+      "primary": true,
+      "how_described": "本集把它说成：让模型不断调用工具、获取结果、再推理的闭环。它是最初与 Messages API 并存的方案,但维护极其繁琐,现已被 Managed Agents 接管由 Anthropic 托管。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            168.476,
+            171.199
+          ],
+          "quote": "And so we saw the invention of the agentic loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            182.532,
+            188.855
+          ],
+          "quote": "And on top of that lived their product where it had the AI feature and it would call the agentic loop to accomplish some sort of task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            214.319,
+            217.001
+          ],
+          "quote": "One of the core challenges here was the agentic loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            228.818,
+            242.416
+          ],
+          "quote": "This agent SDK essentially packaged the harness that we know and love, which is Claude Code, and it shipped with a built-in agentic loop, along with file system access, tools, and a system for doing sandboxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            347.507,
+            365.143
+          ],
+          "quote": "So your product would call Claude-managed agents and get a brain, which is the agentic loop and Claude itself, and all the custom harnesses and evolutions built inside of it, along with the hands, which is a sandbox that spins up just in time for things like file system access and code execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1344.954,
+            1349.617
+          ],
+          "quote": "So where the agentic loop runs is separate from where the tool execution happens.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集把它说成：区分有效智能体和在「上下文腐化」中迷失的智能体的关键。Managed Agents 通过把交互全记在持久化日志中,让模型可随时从日志切回丢掉的上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            644.699,
+            649.841
+          ],
+          "quote": "It needs to be good at context engineering as the context will accumulate over those long horizon and bodies of work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            886.74,
+            893.167
+          ],
+          "quote": "Another common theme that we see with designing effective agents, especially as model capabilities evolve, is context engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            894.348,
+            903.077
+          ],
+          "quote": "Now, context engineering is something that our team has done a ton of research into because it is one of the things that separates an effective agent from an agent that gets lost in context rot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            904.233,
+            924.3
+          ],
+          "quote": "Context engineering is also difficult, and with many traditional harness implementations, the context window and the session are one and the same, which means that Claude, if it wants to come in and discard portions of the context that it's in in current session run, it doesn't have a mechanism to be able to recover pieces of that context back into its window if it loses it at one point in its current session run.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "session-log",
+      "type": "concept",
+      "role": "concept",
+      "name": "会话日志/追踪 (session log)",
+      "file": "会话日志/追踪",
+      "primary": true,
+      "how_described": "本集把它说成：持久化记录每次交互(用户消息/模型响应/工具执行结果)的云端资源。同一份日志既解决可观测性(前端展示),又构成记忆,还支持做梦以提炼洞察实现自我改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            756.875,
+            772.589
+          ],
+          "quote": "If the brain of the agent dies, we're actually gonna walk through something in just a moment here about how everything that the agent does is logged into a durable session resource in a session log, which means that the brain of the agent can actually just read from that session log, go back into context, and resume exactly where it left off as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            925.513,
+            937.544
+          ],
+          "quote": "However, because everything in Managed Agents is logged to a durable, persisted session log resource, what this unlocks is that the harness can actually just read in slices of that context from the session log into its current window.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            938.325,
+            947.434
+          ],
+          "quote": "If it then has Claude coming in and editing or discarding portions of that run, it can simply recover it by just rereading it from the session log because everything is persisted in that log resource.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1470.522,
+            1475.846
+          ],
+          "quote": "Turns out the answer to both of these questions lies in something that we call the session log or traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1476.547,
+            1481.571
+          ],
+          "quote": "The session log essentially contains events of everything that happened during an agent execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1489.221,
+            1494.842
+          ],
+          "quote": "Now, if you surface a session log in a UI that users can see, it provides observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1496.083,
+            1502.245
+          ],
+          "quote": "It turns out that the same session log also improves memory and provides self-improvement for the agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "credentials",
+      "type": "concept",
+      "role": "concept",
+      "name": "凭证隔离 (credentials)",
+      "file": "凭证隔离",
+      "primary": true,
+      "how_described": "本集把它说成：企业极其担心的安全痛点。Managed Agents 引入「保险库」概念,凭证仅在工具执行瞬间解密,模型全程无法看到令牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            191.176,
+            200.801
+          ],
+          "quote": "In order to take this to production, there was a whole slew of production infrastructure challenges like session management, observability, credentials,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            246.409,
+            257.371
+          ],
+          "quote": "And there are some primitives already provided for session management, observability, but you still had to hand roll things like credentials and hosting infrastructure and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            302.057,
+            304.24
+          ],
+          "quote": "Fifth, credentials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            371.408,
+            378.292
+          ],
+          "quote": "Like credentials, session management, observability, hosting infrastructure, all of this is run by Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1323.401,
+            1327.103
+          ],
+          "quote": "The first lesson is to keep the credentials away from your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1350.476,
+            1361.203
+          ],
+          "quote": "We took it a step further by introducing the concept of vaults, where you can store security credentials in a secure way, and they're decrypted only when needed at tool execution runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1361.864,
+            1367.467
+          ],
+          "quote": "This way, you can effectively keep credentials away from your agent, and the model never sees your security tokens.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集把它说成：复杂智能体编排下,搞清引擎盖下到底发生了什么的能力。Managed Agents 把会话日志呈现给用户的 UI 仪表盘就天然提供了可观测性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            191.176,
+            200.801
+          ],
+          "quote": "In order to take this to production, there was a whole slew of production infrastructure challenges like session management, observability, credentials,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            246.409,
+            257.371
+          ],
+          "quote": "And there are some primitives already provided for session management, observability, but you still had to hand roll things like credentials and hosting infrastructure and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            312.292,
+            313.833
+          ],
+          "quote": "And finally, observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            371.408,
+            378.292
+          ],
+          "quote": "Like credentials, session management, observability, hosting infrastructure, all of this is run by Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            812.916,
+            824.847
+          ],
+          "quote": "What a session is, is it's a durable resource persisted in the cloud of every single interaction that you have with the agent, which unlocks several things like observability, a long-running instance, reliability, all through this core architectural decisions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            958.954,
+            964.596
+          ],
+          "quote": "This is things like the agent loop, memory, observability, all that comes alongside building with Claude managed agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1265.995,
+            1270.857
+          ],
+          "quote": "And we have a beautiful observability dashboard that allows you to see all of these sessions on demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1271.763,
+            1285.488
+          ],
+          "quote": "If I click into one of the observability dashboards on the Claude console, you will find the exact event trace, the session logs for that event, including the tools that it used, the results of it, and any other agent messages that came into picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1489.221,
+            1494.842
+          ],
+          "quote": "Now, if you surface a session log in a UI that users can see, it provides observability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dreaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "做梦 (dreaming)",
+      "file": "做梦",
+      "primary": true,
+      "how_described": "本集把它说成:一种离线批处理机制,定期把逐字稿与当前记忆状态喂给模型,提炼新洞察并自动更新记忆,让智能体在下次运行时变得更智能(自改进)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1512.047,
+            1518.649
+          ],
+          "quote": "And if you combine that with something that we call dreaming, it allows memory to be updated and improved over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1641.62,
+            1646.942
+          ],
+          "quote": "Multi-agent orchestration, dreaming, outcomes, memory, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1647.642,
+            1654.065
+          ],
+          "quote": "We won't have time to cover all of them, so I'm gonna talk about two of our favorites, which is dreaming and outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1654.83,
+            1655.691
+          ],
+          "quote": "Let's start with dreaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1665.959,
+            1677.008
+          ],
+          "quote": "What we found is that as models have evolved and become more capable, if you feed the transcripts and the memory state as a periodic batch process with what we call dreaming,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1698.317,
+            1704.44
+          ],
+          "quote": "Dreaming and memory, we feel, are just two cornerstones of a new frontier unified memory system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1712.162,
+            1714.103
+          ],
+          "quote": "Dreaming allows agents to self-improve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1735.583,
+            1739.244
+          ],
+          "quote": "I also love dreaming, but one of my other favorite features is something called outcomes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Managed Agents",
+      "file": "Claude Managed Agents",
+      "primary": true,
+      "how_described": "本集把它说成：由 Anthropic 托管的智能体基础设施服务。把生产级循环、托管、会话日志、可观测性全包,让开发者只需专注产品、任务和领域知识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            321.435,
+            334.24
+          ],
+          "quote": "These were production infrastructure challenges that most teams spent significant portions of their time doing instead of being able to focus on just their product, their task, and their context, which is why we built Claude Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            347.507,
+            365.143
+          ],
+          "quote": "So your product would call Claude-managed agents and get a brain, which is the agentic loop and Claude itself, and all the custom harnesses and evolutions built inside of it, along with the hands, which is a sandbox that spins up just in time for things like file system access and code execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            403.538,
+            409.465
+          ],
+          "quote": "And Claude Managed Agents covers everything that you need from your product and everything under that stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            438.634,
+            449.585
+          ],
+          "quote": "So for the next few minutes here, I want to talk you through some of the fundamentals that underpin the design of Claude Managed Agents and the lessons that our team learned along the way as we went about engineering this harness built for model evolution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            613.7,
+            617.343
+          ],
+          "quote": "Another key thing that Claude managed agents is designed around is long-running agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            958.954,
+            964.596
+          ],
+          "quote": "This is things like the agent loop, memory, observability, all that comes alongside building with Claude managed agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1084.493,
+            1091.079
+          ],
+          "quote": "We're gonna build this from scratch using Claude-managed agents, and it'll walk you through the steps using the primitives that Isabella shared earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1217.295,
+            1221.178
+          ],
+          "quote": "Claude immediately spins up, the brain spins up in Claude-managed agents in the cloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "messages-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Messages API",
+      "file": "Messages API",
+      "primary": false,
+      "how_described": "本集把它说成：最早与 Claude 3 一同发布的智能体界面,tokens 进 tokens 出的简单文本补全交互。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            51.106,
+            59.007
+          ],
+          "quote": "We'll first start off by talking about how we've seen agentic surfaces evolve all the way from the Messages API to Cloud Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            144.33,
+            148.955
+          ],
+          "quote": "We launched it alongside the first agentic surface called the Messages API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            149.895,
+            153.319
+          ],
+          "quote": "This Messages API was simply tokens in and tokens out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            391.065,
+            397.992
+          ],
+          "quote": "The Messages API introduced the ability for you to interact with the model with tokens in and tokens out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decouple",
+      "type": "concept",
+      "role": "concept",
+      "name": "大脑与双手解耦 (decouple)",
+      "file": "大脑与双手解耦",
+      "primary": true,
+      "how_described": "本集把它说成:Managed Agents 最核心的架构决策——把智能体的模型推理(大脑)与工具执行(双手)分进不同容器,带来韧性、恢复力,且让推理无需等容器设置即可开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            676.533,
+            686.021
+          ],
+          "quote": "One of the core architectural decisions that went into Managed Agents that sets the foundation for the rest of the slides that we're going to walk through is the decision to decouple the brain from the hands of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            720.35,
+            728.116
+          ],
+          "quote": "Our solution to this was to decouple the two elements, separating the brain or the agent loop from the hands or the tool execution environment of the agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-anxiety",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文焦虑 (context anxiety)",
+      "file": "上下文焦虑",
+      "primary": false,
+      "how_described": "本集把它说成：Sonnet 4.5 表现出的行为——还没到上下文窗口极限就提前草草结束任务。Opus 4.5 出现后这种行为完全消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            478.312,
+            483.496
+          ],
+          "quote": "Back when Sonnet 4.5 came out, it exhibited an interesting behavior that came to be known as context anxiety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            513.493,
+            519.897
+          ],
+          "quote": "Opus 4.5 no longer exhibited context anxiety, which means that the fixes that we had added into the harness itself became dead weight.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它说成：一个使用 bash 和 grep 等终端工具的激动人心的智能体产品,被封装进 Agent SDK 中作为内置循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            228.818,
+            242.416
+          ],
+          "quote": "This agent SDK essentially packaged the harness that we know and love, which is Claude Code, and it shipped with a built-in agentic loop, along with file system access, tools, and a system for doing sandboxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            618.163,
+            638.117
+          ],
+          "quote": "Now, when I look to internal products that are exciting and anthropic like Claude Code and Claude Tag, which our team is really excited about, and as I work with other enterprise teams who are also building exciting, truly agentic products, a common pattern that I see is that these agents are becoming increasingly asynchronous and are tackling tasks that are increasingly complex and challenging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            981.47,
+            988.514
+          ],
+          "quote": "For instance, with Claude Code, Claude Code uses a set of tools like bash and grep on your laptop, just like how developers do when they open up their terminal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vaults",
+      "type": "concept",
+      "role": "concept",
+      "name": "保险库 (vaults)",
+      "file": "保险库",
+      "primary": false,
+      "how_described": "本集把它说成：一种凭证存储机制。安全凭证在其中加密保存,只在工具执行运行时的那一刻才被解密。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1350.476,
+            1361.203
+          ],
+          "quote": "We took it a step further by introducing the concept of vaults, where you can store security credentials in a secure way, and they're decrypted only when needed at tool execution runtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-hosted-sandboxes",
+      "type": "concept",
+      "role": "concept",
+      "name": "自托管沙箱 (self-hosted sandboxes)",
+      "file": "自托管沙箱",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1556.506,
+            1571.797
+          ],
+          "quote": "So the feature that we released called self-hosted sandboxes, we built this from an engineering perspective because of the feedback that we heard and essentially made it available to have customers control their sandbox control plan exactly for their own execution environments and to have tools run exactly under their own policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1634.347,
+            1641.049
+          ],
+          "quote": "And I'm excited for some of the new features that we've been experimenting with, like scheduled deployments, self-hosted sandboxes,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-tunnels",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 隧道 (MCP tunnels)",
+      "file": "MCP 隧道",
+      "primary": false,
+      "how_described": "本集把它说成：让企业的 MCP 服务器只运行在私有网络内,仅向 Claude 智能体循环发出站调用,彻底避免在公网暴露服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1572.818,
+            1575.139
+          ],
+          "quote": "Another feature that we unblocked is MCP tunnels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1583.905,
+            1591.855
+          ],
+          "quote": "For those teams, essentially with MCP tunnels, they can have their MCP servers run only within their private network and only making outbound calls to the Claude agent loop.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "outcomes",
+      "type": "concept",
+      "role": "concept",
+      "name": "结果评估机制 (outcomes)",
+      "file": "结果评估机制",
+      "primary": false,
+      "how_described": "本集把它说成：让智能体理解「成功意味着什么」的机制。它启动一个独立的「评分智能体」与主智能体并行运行,如未达标就迫使其不断迭代重试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            124.392,
+            127.353
+          ],
+          "quote": "And now we let agents own entire outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1641.62,
+            1646.942
+          ],
+          "quote": "Multi-agent orchestration, dreaming, outcomes, memory, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1647.642,
+            1654.065
+          ],
+          "quote": "We won't have time to cover all of them, so I'm gonna talk about two of our favorites, which is dreaming and outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1735.583,
+            1739.244
+          ],
+          "quote": "I also love dreaming, but one of my other favorite features is something called outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1752.727,
+            1762.91
+          ],
+          "quote": "And then outcomes essentially starts a separate grader agent that runs alongside your agent loop and looks at whether that agent was actually able to accomplish the task based on your defined success criteria.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1779.29,
+            1791.856
+          ],
+          "quote": "What really excites me about outcomes is that we're moving more towards a world where we can have an agent understand what success actually means for a task and have a mechanism to keep iterating it, which gives us more reliability that the agent can actually complete the outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1792.497,
+            1804.603
+          ],
+          "quote": "And we can start to unlock a new set of tasks that were not possible just a couple of months ago as models continue to evolve and can accomplish outcomes or tasks that are increasingly complex, especially as Claude achieves new levels of intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

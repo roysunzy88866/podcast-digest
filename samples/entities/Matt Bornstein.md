@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]]
+[[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":71,"护栏":13,"K3":2,"Hugging Face":7,"Mistral":4}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":73,"护栏":13,"K3":2,"Hugging Face":7,"Mistral":4}</script>
 
 <script>
 (function(){

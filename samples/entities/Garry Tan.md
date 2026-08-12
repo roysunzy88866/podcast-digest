@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Simon Willison]]
+[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":71,"技能文件":1,"上下文工程":3,"公司大脑":1,"RAG":2,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":73,"技能文件":1,"上下文工程":4,"公司大脑":1,"RAG":2,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
 
 <script>
 (function(){

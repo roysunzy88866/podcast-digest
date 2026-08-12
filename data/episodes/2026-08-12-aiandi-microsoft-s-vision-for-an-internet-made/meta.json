@@ -1,0 +1,20 @@
+{
+  "id": "2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made",
+  "audio_mp3": "https://pscrb.fm/rss/p/media.transistor.fm/51318a36/8cb3b502.mp3",
+  "duration_sec": 1681.874,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 244,
+  "asr": true,
+  "title_en": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+  "podcast": "AI & I",
+  "date": "2026-08-12",
+  "added": "2026-08-12",
+  "speaker_map": {
+    "SPEAKER_02": "Kevin Scott"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Kevin Scott",
+  "cohosts": [],
+  "title_zh": "微软 CTO 谈智能体网络：MCP 是新 HTTP，别用「太贵」做等待的借口"
+}

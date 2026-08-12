@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]] · [[护栏]]
+[[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Palantir]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
+[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":16,"OpenAI":31,"Anthropic":40,"Microsoft":9,"开放模型":1,"封闭模型":1,"沙箱":15,"智能体":71,"护栏":13}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":16,"OpenAI":32,"Anthropic":42,"Microsoft":9,"Palantir":4,"开放模型":1,"封闭模型":1,"沙箱":17,"智能体":73}</script>
 
 <script>
 (function(){

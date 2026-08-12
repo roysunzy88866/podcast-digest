@@ -1,31 +1,45 @@
 ---
-title: 提示注入 (prompt inject)
-entity_type: 概念
+title: Arjun Singh
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>提示注入 (prompt inject)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Arjun Singh</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="提示注入">提示</div><div class="pi"><h1 class="pt">提示注入 (prompt inject)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Arjun Singh">AR</div><div class="pi"><h1 class="pt">Arjun Singh</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:25起):一种通过伪装输入来诱导 AI 偏离原定指令的攻击手法。集里提到嘉宾在公开 Discord 中放出不限安全的机器人，公众进来交互时曾试图提示注入它并黑掉它，但被带有性格的智能体嘲笑。
+*3 条,均已过机器闸门*
+
+![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q1]]
+
+![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q2]]
+
+![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q3]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为嘉宾
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Raphael Schaad]] · [[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Superconductor]] · [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开放权重模型]] · [[Slack]] · [[Claude Code]] · [[Codex]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Raphael Schaad":1,"Peter Steinberger":3,"OpenClaw":7,"智能体":71,"Codex":15,"Claude Code":18,"MCP":6,"CLI":2,"护城河":3,"ChatGPT":11}</script>
+## ④ 也在聊「AI 编程」的人
+
+<div class="pd-peers">
+
+[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":73,"沙箱":17,"基准测试":4,"上下文":5,"开放权重模型":5,"Slack":16,"Claude Code":20,"Codex":16,"Cursor":10}</script>
 
 <script>
 (function(){

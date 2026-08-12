@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]]
+[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":1,"Meta":12,"MuseSpark":1,"开源模型":4,"智能体":71,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":8,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":1,"Meta":13,"MuseSpark":1,"开源模型":4,"智能体":73,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":8,"Spark API":1}</script>
 
 <script>
 (function(){
