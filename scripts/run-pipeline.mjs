@@ -685,9 +685,11 @@ async function main() {
     totalSkipped += r.skipped;
   }
 
-  // C23 每日顶量(ADR 0021):真新集+补活之后当天仍不足 → 倒序补历史到 ~DAILY_TARGET。
-  // 守卫:只日常 cron 默认路径触发;--backfill(手动评估批)/--talks/--source 各入口不顶量。
-  if (backfillN === 0 && !onlyKey && !flags.has("--talks")) {
+  // C23 每日顶量(ADR 0021):当天(UTC)入库不足 → 倒序补历史到 ~DAILY_TARGET。
+  // **只在当天末班 cron 触发**(pipeline.yml 给 20:00 UTC 那班传 --daily-topup):真新集要一整天时间流入,
+  // 末班收口才判「今天够不够」——早班(02:00 UTC 天刚开始)一数总是空、会天天狂补(用户 2026-08-12 指出)。
+  // 叠加守卫:--backfill(手动评估批)/--talks/--source 各入口即便误传也不顶量。
+  if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
     const r = backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: new Date().toISOString().slice(0, 10) });
     totalClean += r.clean;
     totalSkipped += r.skipped;

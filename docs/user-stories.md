@@ -2187,12 +2187,13 @@ Scenario: robots / agentic 项按拍板不动
 ```gherkin
 Feature: 每日补历史·把当天新增顶到 ~5(C23)(US-4, US-5)
 
-Scenario: 每日顶量(软目标 ~5,不抢真新)
-  Given 当天(按 meta.added 日期)已入库的干净集有 k 集
-  When 日常 cron 跑完真新集处理 + 补活、k < 5
+Scenario: 每日顶量(软目标 ~5,只在当天末班判,不抢真新)
+  Given 当天(按 meta.added UTC 日)已入库的干净集有 k 集
+  When 当天末班 cron(20:00 UTC,传 --daily-topup)跑完真新集处理 + 补活、k < 5
   Then 从带 archiveFile 的源倒序补 (5-k) 集,补进来的标 added=当天
   When k ≥ 5
   Then 不补(真新够了不挤);补只发生在真新集/补活之后
+  And 早班(02/08/14 UTC)不顶量——真新集要一整天才流入完,早班一数总是空会天天狂补
 
 Scenario: 倒序往回补(从库内该源最旧那期再往旧)
   Given 库内该源现有最旧一期日期为 D
@@ -2214,7 +2215,7 @@ Scenario: 只带归档的源能补 + 归档见底
 
 Scenario: 失败不污染 + 只走日常 cron
   Then 补集失真→隔离 data/skipped、[1301]→按 BLOCK_CAP 放弃、转瞬失败→留半成品(与真新同口径)
-  And 顶量只在日常 cron 默认路径触发;--backfill/--talks/--source/--seed/--ensure-audio 各入口不触发
+  And 顶量只在当天末班 cron(20:00 UTC,--daily-topup)触发;早班/手动 dispatch/--backfill/--talks/--source/--seed/--ensure-audio 各入口不触发
 ```
 
 ### DoD(C23)

@@ -11,7 +11,9 @@ on:
     # 每天 4 巡(用户 2026-07-25「多定几个时间」):UTC 2/8/14/20 = 北京 10:00/16:00/22:00/04:00。
     # 覆盖美国源发布窗口(a16z ~10:00 UTC、Lenny's ~13:30 UTC、Megaphone 系 09-19 UTC),新集最迟 6h 被抓。
     # 无新集的巡只花 ~3 分钟装机即退(免费);并发组串行,撞上长跑自动排队(pending 位只 1 个,连发会顶掉——排队靠人时序别靠它)。
-    - cron: "0 2,8,14,20 * * *"
+    # C23:20:00 UTC 独立成一行 = 当天末班,给它传 --daily-topup 补历史顶量(见下方 run 步);其余三班不补。
+    - cron: "0 2,8,14 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:        # 手动触发(验骨架 / 需要时手动补跑)
     inputs:
       backfill:
@@ -171,7 +173,11 @@ jobs:
             # 多源配置下编排器强制回填必须点名源(C9 防呆);不点名会响亮 exit 2
             node scripts/run-pipeline.mjs --backfill "$BACKFILL" $SRC_ARGS
           else
-            node scripts/run-pipeline.mjs $SRC_ARGS
+            # C23:只有当天末班(20:00 UTC 那条 cron)才顶量补历史(真新集需一整天流入,末班收口才判够不够 5)。
+            # 早班(02/08/14)与手动 dispatch(schedule 为空)= 不传,不补。
+            TOPUP=""
+            [ "${{ github.event.schedule }}" = "0 20 * * *" ] && TOPUP="--daily-topup"
+            node scripts/run-pipeline.mjs $SRC_ARGS $TOPUP
           fi
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
