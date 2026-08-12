@@ -1,7 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, SOURCES, needsReseed, appendSkip } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -290,6 +290,61 @@ describe("selectBackfill · 一次性回填最近 N 集(C8 评估批,override �
       source: LENNYS,
     });
     expect(picks.map((p) => deriveId(p, LENNYS))).toEqual(["2026-07-08-lennys-how-i-run-coding-agents"]);
+  });
+});
+
+describe("selectBackfillBackward · C23 每日顶量倒序补(ADR 0021)", () => {
+  // 归档 fixture:三条访谈 + 一条无音频(isInterview 排掉)
+  const ARCH = [
+    { title: "Growth loops that scale", link: "https://www.lennysnewsletter.com/p/growth-loops", pubDateISO: "2026-06-01T10:00:00.000Z", hasAudio: true },
+    { title: "Building AI agents in production", link: "https://www.lennysnewsletter.com/p/ai-agents-prod", pubDateISO: "2026-05-15T10:00:00.000Z", hasAudio: true },
+    { title: "The craft of design systems", link: "https://www.lennysnewsletter.com/p/design-systems", pubDateISO: "2026-04-10T10:00:00.000Z", hasAudio: true },
+    { title: "No audio teaser", link: "https://www.lennysnewsletter.com/p/teaser", pubDateISO: "2026-05-20T10:00:00.000Z", hasAudio: false },
+  ];
+  const before = "2026-06-15T00:00:00.000Z"; // 假设库内该源最旧一期 = 06-15
+
+  it("★ 只补比 beforeISO 更旧的访谈,倒序(紧挨边界先补),无音频被排", () => {
+    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: before, existingIds: [], source: LENNYS });
+    expect(picks.map((p) => p.pubDateISO)).toEqual([
+      "2026-06-01T10:00:00.000Z",
+      "2026-05-15T10:00:00.000Z",
+      "2026-04-10T10:00:00.000Z",
+    ]);
+  });
+
+  it("beforeISO 把不够旧的挡在外(≥ 边界不补)", () => {
+    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: "2026-05-01T00:00:00.000Z", existingIds: [], source: LENNYS });
+    expect(picks.map((p) => p.pubDateISO)).toEqual(["2026-04-10T10:00:00.000Z"]);
+  });
+
+  it("n 限制:只取紧挨边界的前 n 集", () => {
+    const picks = selectBackfillBackward(ARCH, { n: 1, beforeISO: before, existingIds: [], source: LENNYS });
+    expect(picks.map((p) => p.pubDateISO)).toEqual(["2026-06-01T10:00:00.000Z"]);
+  });
+
+  it("★ ID 去重:已在库/已隔离的集不重复补", () => {
+    const seenId = deriveId(ARCH[0], LENNYS); // 06-01 那条
+    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: before, existingIds: [seenId], source: LENNYS });
+    expect(picks.map((p) => p.pubDateISO)).toEqual([
+      "2026-05-15T10:00:00.000Z",
+      "2026-04-10T10:00:00.000Z",
+    ]);
+  });
+
+  it("★ 跨源标题查重:疑似跨源重复直接跳过(不补,ADR 0021 从简)", () => {
+    // 库内已有同名集(如来自 talks 源)→ findTitleDuplicate 命中 → 05-15 那条跳过
+    const picks = selectBackfillBackward(ARCH, {
+      n: 5, beforeISO: before, existingIds: [], source: LENNYS,
+      libraryTitles: ["Building AI agents in production"],
+    });
+    expect(picks.map((p) => p.pubDateISO)).toEqual([
+      "2026-06-01T10:00:00.000Z",
+      "2026-04-10T10:00:00.000Z",
+    ]);
+  });
+
+  it("DAILY_TARGET 是 5(软目标)", () => {
+    expect(DAILY_TARGET).toBe(5);
   });
 });
 

@@ -2175,3 +2175,52 @@ Scenario: robots / agentic 项按拍板不动
 6. 本地 build + curl-mirror 实测逐条对上:canonical、og:image 真图、og:type=article、JSON-LD 结构合法且字段与可见内容一致、/llms.txt 与已发布集同步。
 7. GLM 冷喂复核(--kind code)+ adjudicate。
 8. robots 不碰(CF managed 保持);agentic-llms.txt / MCP 明确不做,排除理由已记 story-map C22。
+
+---
+
+## C23 · 每日补历史·把当天新增顶到 ~5(2026-08-12 用户拍板)
+
+> 起因:头部播客不每天更,干旱日站上「最新」空着。用户要「一天没内容就别停,补历史存货」,并细化为**每天把新增总量顶到 ~5**。
+> 放开 drift #22「历史 backlog 不碰」为**有条件放开**(只在当天不足时补、只倒序往回补),记 ADR 0021。
+> 补的集走完整管线 → 自动新格式(ADR 0020 实质优先);标 `added=当天` → 冒到「最新」顶(drift #47)。
+
+```gherkin
+Feature: 每日补历史·把当天新增顶到 ~5(C23)(US-4, US-5)
+
+Scenario: 每日顶量(软目标 ~5,不抢真新)
+  Given 当天(按 meta.added 日期)已入库的干净集有 k 集
+  When 日常 cron 跑完真新集处理 + 补活、k < 5
+  Then 从带 archiveFile 的源倒序补 (5-k) 集,补进来的标 added=当天
+  When k ≥ 5
+  Then 不补(真新够了不挤);补只发生在真新集/补活之后
+
+Scenario: 倒序往回补(从库内该源最旧那期再往旧)
+  Given 库内该源现有最旧一期日期为 D
+  Then 补的是归档里「pubDate < D」的集,按日期倒序(紧挨 D 的先补),逐日往更旧扩
+  And 不消费 data/backfill-pending 那批旧存货(忽略)
+
+Scenario: 补的集 = 完整管线 = 新格式
+  Then 补的集经 浓缩(实质优先 ADR 0020)→ 判官 → 防失真闸门 → 出稿 → TTS,与真新集同链
+  And added=当天 → 在「最新」冒到顶部
+
+Scenario: 去重与跨源查重(疑似即跳过,不多做)
+  Then 已完成/已隔离集不重复补(ID 去重 deriveId)
+  And 每个候选过跨源标题查重(复用 ADR 0017 findTitleDuplicate:候选标题 vs 库内所有源 title_en)
+  And 命中疑似跨源重复 → 直接跳过该集(不补、不登记、倒序自然取下一集);不做人工待裁那套
+
+Scenario: 只带归档的源能补 + 归档见底
+  Then 只有配了 archiveFile 的源(现状=只有 Lenny's,353 集)参与补;其他源无归档不补
+  And 该源可补的都补完(倒序到底)→ 当天补量=0(回到只靠真新),不报错
+
+Scenario: 失败不污染 + 只走日常 cron
+  Then 补集失真→隔离 data/skipped、[1301]→按 BLOCK_CAP 放弃、转瞬失败→留半成品(与真新同口径)
+  And 顶量只在日常 cron 默认路径触发;--backfill/--talks/--source/--seed/--ensure-audio 各入口不触发
+```
+
+### DoD(C23)
+1. `selectBackfillBackward` 纯函数:older-than-anchor 过滤 + ID 去重 + 跨源标题查重(疑似跳过)+ 倒序 + slice n;单测覆盖。
+2. `countAddedToday` + `backfillTopUpPass`:当天 added 计数、need=max(0,5-k)、逐集处理(复用 processEpisode + 隔离/审查口径)。
+3. main() 默认 cron 路径接顶量阶段(守卫:非 --backfill/--talks/--source);现有 selectNew/processSource 一行不改。
+4. 红绿:选集器 + need 计算单测;full suite 绿。
+5. ADR 0021 记「有条件放开 drift #22」;story-map C23 行。
+6. GLM 冷喂复核(--kind code)+ adjudicate。

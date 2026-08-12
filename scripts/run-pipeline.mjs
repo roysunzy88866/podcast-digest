@@ -178,6 +178,26 @@ export function selectBackfill(items, { n, existingIds, source }) {
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO)); // 处理按旧→新(与 selectNew 一致)
 }
 
+/** C23 每日新增软目标:当天入库不足它,就倒序补历史顶量(ADR 0021)。~5「上下即可」,软目标不硬凑。 */
+export const DAILY_TARGET = 5;
+
+/**
+ * C23 每日顶量选集(纯逻辑,ADR 0021):从归档补「比库内该源现有最旧一期(beforeISO)更旧」的集,
+ * 倒序(紧挨边界先补)取 n。**有条件放开 drift #22**——只往回、有上限,非无边界跑全 backlog。
+ * 去重两层:① ID(deriveId vs existingIds) ② 跨源标题(findTitleDuplicate vs libraryTitles)。
+ * 疑似跨源重复 = **直接跳过**(不补/不登记/不待裁,ADR 0021 用户拍板从简);倒序自然取下一集,不卡住。
+ */
+export function selectBackfillBackward(items, { n, beforeISO, existingIds, source, libraryTitles = [] }) {
+  const seen = new Set(existingIds);
+  return items
+    .filter(isInterview)
+    .filter((it) => it.pubDateISO < beforeISO) // 只比库内最旧的更旧
+    .filter((it) => !seen.has(deriveId(it, source))) // ① ID 去重
+    .filter((it) => !findTitleDuplicate(it.title, libraryTitles)) // ② 跨源标题查重,疑似即跳过
+    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 倒序:紧挨边界的先补
+    .slice(0, n);
+}
+
 // ── C16 · talks 源纯逻辑(演讲精选通道,ADR 0017)──────────
 
 /**
@@ -665,6 +685,14 @@ async function main() {
     totalSkipped += r.skipped;
   }
 
+  // C23 每日顶量(ADR 0021):真新集+补活之后当天仍不足 → 倒序补历史到 ~DAILY_TARGET。
+  // 守卫:只日常 cron 默认路径触发;--backfill(手动评估批)/--talks/--source 各入口不顶量。
+  if (backfillN === 0 && !onlyKey && !flags.has("--talks")) {
+    const r = backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: new Date().toISOString().slice(0, 10) });
+    totalClean += r.clean;
+    totalSkipped += r.skipped;
+  }
+
   if (totalClean > 0) {
     rebuildAll();
     console.log("\n▶ gate-all(全闸门,全过才允许发布)");
@@ -806,6 +834,126 @@ function revivePass(state, { onlyKey, dryRun }) {
     }
   }
   console.log(`🔔 补活收账:成功 ${clean} / 失败或隔离 ${skipped} / 停手 ${parked.length}`);
+  return { clean, skipped };
+}
+
+// ══ C23 · 每日补历史顶量(ADR 0021)══
+// 干旱日站空 → 当天(added)入库不足 DAILY_TARGET,就从带 archiveFile 的源倒序往回补到 ~目标。
+// 放在真新集+补活之后:绝不挤真新;只日常 cron 默认路径触发(main 守卫)。
+
+/** 当天(UTC added 日期)已入库的干净集数——真新+补活+已补历史都算(顶量判据,跨 cron 班次幂等)。 */
+function countAddedToday(todayISO) {
+  return completedIds().filter((id) => {
+    try {
+      return JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")).added === todayISO;
+    } catch {
+      return false;
+    }
+  }).length;
+}
+
+/** 库内标题(已完成集 meta.title_en),跨源标题查重用(与 processTalksSource 同口径,读不到的过滤掉)。 */
+function libraryTitlesFromCompleted(completed) {
+  return completed
+    .map((id) => {
+      try {
+        return JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")).title_en ?? "";
+      } catch {
+        return "";
+      }
+    })
+    .filter(Boolean);
+}
+
+/** 逐集处理顶量选中的集:与 processSource 同口径(失真隔离 / [1301] 放弃 / 转瞬留半成品),但无 cutoff。 */
+function processBackfillPicks(picks, state, source) {
+  let clean = 0;
+  let skipped = 0;
+  for (const item of picks) {
+    const id = deriveId(item, source);
+    let res;
+    try {
+      res = processEpisode(item, id, source);
+    } catch (e) {
+      if (isContentBlocked(e.message)) {
+        const n = noteBlockFail(state, id);
+        if (n >= BLOCK_CAP) {
+          parkSkipped(state, id, item, source, `内容审查拦下([1301],连拦 ${n} 次已放弃)`);
+          console.log(`   ⛔ ${id} 内容审查放弃`);
+        } else {
+          writeState(state);
+          console.error(`   ⚠️ ${id} 内容审查拦下(第 ${n}/${BLOCK_CAP} 次,再试一轮):${e.message}`);
+        }
+        skipped += 1;
+        continue;
+      }
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
+      skipped += 1;
+      continue;
+    }
+    if (res.ok) {
+      clean += 1;
+      clearBlocked(state, id);
+    } else {
+      mkdirSync(SKIPPED_DIR, { recursive: true });
+      const to = join(SKIPPED_DIR, id);
+      if (existsSync(to)) rmSync(to, { recursive: true, force: true });
+      renameSync(join(EPISODES_DIR, id), to);
+      writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n${item.link ?? ""}\n`);
+      appendSkip(state, { id, reason: res.reason, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
+      console.log(`   ⛔ ${id} 隔离:${res.reason}`);
+    }
+  }
+  writeState(state);
+  return { clean, skipped };
+}
+
+/** 每日顶量一轮:当天入库 <target 时,从带 archiveFile 的源倒序补历史(比库内该源最旧一期更旧)。返回 {clean, skipped}。 */
+function backfillTopUpPass(state, { target, dryRun, todayISO }) {
+  const have = countAddedToday(todayISO);
+  const need = Math.max(0, target - have);
+  if (need === 0) {
+    console.log(`\n✅ 每日顶量:当天已入库 ${have} 集(≥ 目标 ${target}),不补历史。`);
+    return { clean: 0, skipped: 0 };
+  }
+  const completed = completedIds();
+  const libTitles = libraryTitlesFromCompleted(completed);
+  const seen = [...completed, ...state.skipped.map((s) => s.id)];
+  let clean = 0;
+  let skipped = 0;
+  let remaining = need;
+  console.log(`\n▶ 每日顶量(ADR 0021):当天 ${have}/${target} → 需补 ${need} 集(倒序往回)`);
+  for (const source of SOURCES.filter((s) => s.archiveFile)) {
+    if (remaining <= 0) break;
+    // 库内该源现有最旧一期(id 前 10 位 = YYYY-MM-DD)→ 补比它更旧的
+    const heldDates = completed
+      .filter((id) => sourceForId(id)?.key === source.key)
+      .map((id) => String(id).slice(0, 10))
+      .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d));
+    const beforeISO = heldDates.length ? `${heldDates.sort()[0]}T00:00:00.000Z` : new Date().toISOString();
+    let items;
+    try {
+      items = readArchiveItems(source.archiveFile);
+    } catch (e) {
+      console.error(`   ⚠️ ${source.key} 归档读取失败,跳过顶量:${e.message}`);
+      continue;
+    }
+    const picks = selectBackfillBackward(items, { n: remaining, beforeISO, existingIds: seen, source, libraryTitles: libTitles });
+    console.log(`   ${source.key}:早于 ${beforeISO.slice(0, 10)} 的候选实得 ${picks.length}:`);
+    picks.forEach((p) => console.log(`      - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
+    if (!picks.length) continue;
+    if (dryRun) {
+      console.log("      （--dry-run:仅列出,不真补)");
+      continue;
+    }
+    const r = processBackfillPicks(picks, state, source);
+    clean += r.clean;
+    skipped += r.skipped;
+    remaining -= r.clean; // 按成功数计:失真/跳过的不占目标额度(多归档源时才有别,单源等价;GLM 20260812-003[1])
+    // 同轮多归档源(未来)防重:补过的 id 进 seen(ID 去重)、标题进 libTitles(跨源同内容此轮也拦;GLM 003[2])
+    picks.forEach((p) => { seen.push(deriveId(p, source)); libTitles.push(p.title); });
+  }
   return { clean, skipped };
 }
 
