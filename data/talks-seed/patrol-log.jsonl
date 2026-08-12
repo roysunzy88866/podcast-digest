@@ -123,3 +123,7 @@
 {"ts":"2026-08-12T07:47:55.920Z","action":"seeded","channel":"aie","videoId":"Kz4QJmNrVXU","title":"Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster — Matt Dailey, Ref.","durationSec":1237,"verdict":"对味","reason":"团队使用 agent 的实操反思与架构方法论（决策层与执行层分离），命中‘AI编程/agent实操’及‘工程团队真实案例’。"}
 {"ts":"2026-08-12T07:49:13.583Z","action":"seeded","channel":"aie","videoId":"vSx5IULvBns","title":"Always-on agents run production without the on-call tax — Justin Smith, Resolve AI","durationSec":1496,"verdict":"对味","reason":"典型的 AI agent 生产环境实操案例，讲述了如何自动监控部署、编写检查计划以解决生产环境的运维痛点，命中品味档案的「AI编程/agent实操」类别。"}
 {"ts":"2026-08-12T07:49:33.560Z","action":"prefilter-skip","channel":"langchain","videoId":"oK_wPTUshRc","title":"How Toyota Uses Deep Agents to Speed Up R&D and Manufacturing Research","reason":"时长 132s < 下限 600s"}
+{"ts":"2026-08-12T13:40:07.712Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-12T13:40:12.718Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-12T13:40:17.722Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-12T13:40:22.726Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
