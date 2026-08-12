@@ -64,6 +64,8 @@
   --B0: #fff;
   --pd-accent: #b8443c;
   --pd-accent-soft: #fdf5f4;
+  /* 正文阅读色:比 Quartz --darkgray(#252525)软一档,减「太黑」(用户 2026-08-13)。深色模式仍沿用亮灰。 */
+  --pd-read: #33353a;
 
   /* 8 大类色(浅)—— chip 与无封面兜底块按 data-cat 取用 */
   --c-智能体: #3e938a;
@@ -89,6 +91,7 @@
   --B0: #1c1b1a;
   --pd-accent: #e0776a;
   --pd-accent-soft: #2e2422;
+  --pd-read: #cfcdcb; /* 深色模式正文=亮灰(同 --darkgray 深档),不受浅色软化影响 */
 
   --c-智能体: #52b3a8;
   --c-AI安全: #e0776a;
@@ -1007,17 +1010,26 @@ body:has(.pd-play) article a.internal {
    不受控)→ 显式改回 --pd-font。**C18 去掉 body:has(.pd-play) 前缀 → 全站正文页(详情页+实体页+
    人物页)正文字体统一系统栈**;下面 16.5px/1.95、justify 等是详情页阅读排版专属,仍留前缀不动。
    标题 h1/h2(--puhui)与金句 .qz(--puhui)各自有更高优先级规则,普惠体品牌字不受影响。 */
-article { font-family: var(--pd-font); }
+article { font-family: var(--pd-font); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } /* 抗锯齿:Mac/Retina 上笔画更轻更清,治「粗」(用户 2026-08-13) */
 /* article 整体改字体后,行内代码/代码块要恢复等宽(否则被 --pd-font 波及成非等宽;GLM 20260808-003[2])。 */
 article :is(code, pre, kbd, samp) { font-family: var(--codeFont); }
 body:has(.pd-play) article p:not(blockquote p) {
   font-size: 16.5px;
   line-height: 1.95;
+  color: var(--pd-read);
+}
+/* 本集带走 = <article> 直接子级的 ul>li(接着看的列表在 .pd-ex 里,> 直接子选择器天然不误伤)。
+   与正文 p 统一:字号/行高/字重/颜色一致(用户 2026-08-13:本集带走行高字重要跟其他地方统一)。 */
+body:has(.pd-play) article > ul > li {
+  font-size: 16.5px;
+  line-height: 1.95;
+  font-weight: 400;
+  color: var(--pd-read);
 }
 /* 设计稿 .mid h2:全站正文黑体,小节标题走普惠体(与卡片标题同一套) */
 body:has(.pd-play) article h2 {
   font-family: var(--puhui);
-  font-size: 20px;
+  font-size: 24px; /* 20→24:小标题放大,与正文拉开层级(用户 2026-08-13) */
   line-height: 1.45;
 }
 
@@ -1031,6 +1043,7 @@ body:has(.pd-play) article h2 {
   /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
      中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
   body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
+  body:has(.pd-play) article > ul > li { font-size: 16px; line-height: 1.8; } /* 本集带走手机端与正文 p 一致 */
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
 }
 
