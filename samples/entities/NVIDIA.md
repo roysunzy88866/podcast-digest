@@ -65,7 +65,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[Google]] · [[护栏]] · [[Apple]] · [[ChatGPT]] · [[Jensen Huang]] · [[开放权重模型]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":40,"OpenAI":31,"智能体":70,"Microsoft":9,"Google":15,"护栏":13,"Apple":9,"ChatGPT":11,"Jensen Huang":3,"开放权重模型":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":40,"OpenAI":31,"智能体":71,"Microsoft":9,"Google":15,"护栏":13,"Apple":9,"ChatGPT":11,"Jensen Huang":3,"开放权重模型":4}</script>
 
 <script>
 (function(){

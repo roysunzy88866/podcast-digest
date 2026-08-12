@@ -45,7 +45,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
+[[Matt Dailey]] [[Frank Coyle]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]]
 
 </div>
 

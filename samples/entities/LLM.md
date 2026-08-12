@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[Claude]] · [[OpenAI]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":70,"Anthropic":40,"Lenny":34,"Google":15,"Stripe":10,"Claude":12,"OpenAI":31,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":71,"Anthropic":40,"Lenny":34,"Google":15,"Stripe":10,"Claude":12,"OpenAI":31,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
 
 <script>
 (function(){

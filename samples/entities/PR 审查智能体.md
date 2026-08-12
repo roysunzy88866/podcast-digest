@@ -31,7 +31,7 @@ unlisted: true
 
 [[Claire]] · [[智能体]] · [[沙箱]] · [[风险评分]] · [[Intercom]] · [[Vercel]] · [[Eve]] · [[Codex]] · [[浏览器使用]] · [[chat prd]]
 
-<script type="application/json" class="pd-epn">{"Claire":2,"智能体":70,"沙箱":15,"风险评分":2,"Intercom":2,"Vercel":6,"Eve":2,"Codex":15,"浏览器使用":3,"chat prd":2}</script>
+<script type="application/json" class="pd-epn">{"Claire":2,"智能体":71,"沙箱":15,"风险评分":2,"Intercom":2,"Vercel":6,"Eve":2,"Codex":15,"浏览器使用":3,"chat prd":2}</script>
 
 <script>
 (function(){

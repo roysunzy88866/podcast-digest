@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":3,"Datadog":3,"Cursor":9,"GitHub":10,"智能体":70,"沙箱":15,"泄露的凭证":2,"权限":1,"软件供应链":3,"漏洞":1}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":3,"Datadog":3,"Cursor":9,"GitHub":10,"智能体":71,"沙箱":15,"泄露的凭证":2,"权限":1,"软件供应链":3,"漏洞":1}</script>
 
 <script>
 (function(){

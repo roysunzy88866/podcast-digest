@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]]
+[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Garry Tan]] [[Simon Willison]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloud Code":3,"Opus 5":1,"智能体":70,"提示词注入":5,"系统提示词":3,"产品冗余":1,"动态工作流":1,"测试时计算":1,"消融":1,"例程":1}</script>
+<script type="application/json" class="pd-epn">{"Cloud Code":3,"Opus 5":1,"智能体":71,"提示词注入":5,"系统提示词":3,"产品冗余":1,"动态工作流":1,"测试时计算":1,"消融":1,"例程":1}</script>
 
 <script>
 (function(){

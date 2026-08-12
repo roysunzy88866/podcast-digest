@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":70,"OpenAI":31,"OpenClaw":7,"Codex":15,"Romain Huet":1,"Anthropic":40,"Raphael Schaad":1,"循环":2,"NVIDIA":16,"Claude Code":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":71,"OpenAI":31,"OpenClaw":7,"Codex":15,"Romain Huet":1,"Anthropic":40,"Raphael Schaad":1,"循环":2,"NVIDIA":16,"Claude Code":18}</script>
 
 <script>
 (function(){

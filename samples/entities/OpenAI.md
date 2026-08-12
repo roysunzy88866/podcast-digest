@@ -93,7 +93,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[AGI]] · [[Microsoft]] · [[Stripe]] · [[Meta]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":70,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":8,"Microsoft":9,"Stripe":10,"Meta":12,"Apple":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":71,"Google":15,"Lenny":34,"NVIDIA":16,"AGI":8,"Microsoft":9,"Stripe":10,"Meta":12,"Apple":9}</script>
 
 <script>
 (function(){

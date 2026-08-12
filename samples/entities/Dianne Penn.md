@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Adam Mosseri]]
+[[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]]
 
 </div>
 

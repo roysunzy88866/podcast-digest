@@ -1,0 +1,2058 @@
+[
+ {
+  "seg": 0,
+  "start": 12.606,
+  "end": 14.366,
+  "speaker": "Unknown",
+  "en": "Thank you so much for coming later in the week here.",
+  "zh": "非常感谢你本周晚些时候来到这里。"
+ },
+ {
+  "seg": 1,
+  "start": 16.227,
+  "end": 16.567,
+  "speaker": "Unknown",
+  "en": "I'm Matt.",
+  "zh": "我是 Matt。"
+ },
+ {
+  "seg": 2,
+  "start": 17.587,
+  "end": 20.168,
+  "speaker": "Unknown",
+  "en": "I'm the CEO and founder of REF.",
+  "zh": "我是 REF 的 CEO 兼创始人。"
+ },
+ {
+  "seg": 3,
+  "start": 21.148,
+  "end": 30.59,
+  "speaker": "Unknown",
+  "en": "The problem we work on at REF is one you might be familiar with, where individual engineers are going really fast with AI, but the team as a whole is not, and we're working to help close that gap.",
+  "zh": "我们在 REF 解决的问题是你们可能熟悉的一个问题，即个别工程师用 AI 进展得非常快，但团队作为一个整体却没有，我们致力于帮助缩小这一差距。"
+ },
+ {
+  "seg": 4,
+  "start": 32.11,
+  "end": 37.371,
+  "speaker": "Unknown",
+  "en": "What I'm gonna be talking about today is what happens when your whole team gets 10 times faster.",
+  "zh": "今天我要讲的是，当你的整个团队速度提升 10 倍时会发生什么。"
+ },
+ {
+  "seg": 5,
+  "start": 38.452,
+  "end": 39.492,
+  "speaker": "Unknown",
+  "en": "All the things that don't go well",
+  "zh": "所有那些进展不顺利的事情"
+ },
+ {
+  "seg": 6,
+  "start": 41.043,
+  "end": 50.134,
+  "speaker": "Unknown",
+  "en": "And my goal is to give you a blueprint for how to get through those issues and have the whole team move faster together.",
+  "zh": "我的目标是给你一个蓝图，说明如何通过这些问题，让整个团队一起更快地行动。"
+ },
+ {
+  "seg": 7,
+  "start": 51.896,
+  "end": 60.746,
+  "speaker": "Unknown",
+  "en": "The way I want to accomplish that is first talk about those issues, define some terms, then we'll talk about how did we get here, where are we at now,",
+  "zh": "我想实现这一点的方法是首先谈论这些问题，定义一些术语，然后我们将讨论我们是如何走到这一步的，我们现在在哪里，"
+ },
+ {
+  "seg": 8,
+  "start": 62.067,
+  "end": 65.048,
+  "speaker": "Unknown",
+  "en": "And we'll use that to triangulate on some solutions.",
+  "zh": "我们将用它来推断一些解决方案。"
+ },
+ {
+  "seg": 9,
+  "start": 65.229,
+  "end": 71.612,
+  "speaker": "Unknown",
+  "en": "We'll start high level and we'll work down and get more and more practical until we leave with a couple of things you can leave here and do immediately.",
+  "zh": "我们将从高层次开始，然后深入工作，变得越来越实用，直到我们带着一些你可以在这里离开后立即去做的事情离开。"
+ },
+ {
+  "seg": 10,
+  "start": 73.152,
+  "end": 73.613,
+  "speaker": "Unknown",
+  "en": "How's that sound?",
+  "zh": "这听起来怎么样？"
+ },
+ {
+  "seg": 11,
+  "start": 74.013,
+  "end": 74.793,
+  "speaker": "Unknown",
+  "en": "Any thumbs up?",
+  "zh": "有人点赞吗？"
+ },
+ {
+  "seg": 12,
+  "start": 75.013,
+  "end": 75.653,
+  "speaker": "Unknown",
+  "en": "All right, awesome.",
+  "zh": "好的，太棒了。"
+ },
+ {
+  "seg": 13,
+  "start": 76.054,
+  "end": 77.154,
+  "speaker": "Unknown",
+  "en": "Great, that was great.",
+  "zh": "很好，那很好。"
+ },
+ {
+  "seg": 14,
+  "start": 77.754,
+  "end": 80.656,
+  "speaker": "Unknown",
+  "en": "All right, so let's get into it.",
+  "zh": "好的，让我们开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 82.505,
+  "end": 86.166,
+  "speaker": "Unknown",
+  "en": "These are some of the problems you might be experiencing right now.",
+  "zh": "这些是你现在可能遇到的一些问题。"
+ },
+ {
+  "seg": 16,
+  "start": 86.206,
+  "end": 93.408,
+  "speaker": "Unknown",
+  "en": "These are problems that affect individuals and are actually magnified at the team level, once the entire team starts experiencing them.",
+  "zh": "这些问题影响个人，并且实际上在团队层面被放大了，一旦整个团队开始经历它们。"
+ },
+ {
+  "seg": 17,
+  "start": 94.489,
+  "end": 97.15,
+  "speaker": "Unknown",
+  "en": "So the first one, too many PRs to merge.",
+  "zh": "所以第一个问题，有太多的 PR 需要合并。"
+ },
+ {
+  "seg": 18,
+  "start": 97.17,
+  "end": 101.551,
+  "speaker": "Unknown",
+  "en": "This is the classic first problem you hit when you start adopting AI as an engineer.",
+  "zh": "这是当你作为工程师开始采用 AI 时遇到的典型的第一个问题。"
+ },
+ {
+  "seg": 19,
+  "start": 101.571,
+  "end": 104.512,
+  "speaker": "Unknown",
+  "en": "You're like, great, I'm shipping stuff, and you push up those PRs and you're like,",
+  "zh": "你就像，太好了，我正在发布东西，你推送这些 PR，然后你想，"
+ },
+ {
+  "seg": 20,
+  "start": 105.624,
+  "end": 106.725,
+  "speaker": "Unknown",
+  "en": "There's no way I can merge all these.",
+  "zh": "没有办法我可以合并所有这些。"
+ },
+ {
+  "seg": 21,
+  "start": 107.766,
+  "end": 110.208,
+  "speaker": "Unknown",
+  "en": "And this is obviously magnified when the whole team does this.",
+  "zh": "当整个团队都这样做时，这显然被放大了。"
+ },
+ {
+  "seg": 22,
+  "start": 111.069,
+  "end": 113.791,
+  "speaker": "Unknown",
+  "en": "Merge conflicts, merge queue breaks down, things get bad.",
+  "zh": "合并冲突，合并队列崩溃，事情变得很糟糕。"
+ },
+ {
+  "seg": 23,
+  "start": 113.811,
+  "end": 118.715,
+  "speaker": "Unknown",
+  "en": "The second problem is that you're moving in too many directions at once.",
+  "zh": "第二个问题是你同时朝太多的方向移动。"
+ },
+ {
+  "seg": 24,
+  "start": 119.375,
+  "end": 122.218,
+  "speaker": "Unknown",
+  "en": "This is also both individual and a team problem.",
+  "zh": "这既是个人问题也是团队问题。"
+ },
+ {
+  "seg": 25,
+  "start": 122.258,
+  "end": 128.223,
+  "speaker": "Unknown",
+  "en": "Individually, this is where you have a bunch of agents doing different things, you're trying to remember who's doing what, and your brain gets fried.",
+  "zh": "在个人层面上，这就是你有一群智能体做不同的事情，你试图记住谁在做什么，你的大脑就崩溃了。"
+ },
+ {
+  "seg": 26,
+  "start": 129.718,
+  "end": 143.882,
+  "speaker": "Unknown",
+  "en": "At the organizational level, this is your engineers picking up things and running in a certain direction, another engineer's running over here, maybe some are bumping into each other, and you're not moving cohesively with focus because you're just sprinting in all sorts of directions.",
+  "zh": "在组织层面上，这是你的工程师拿起东西向某个方向跑去，另一个工程师在这里跑，也许有些会互相碰撞，而且你没有专注地 cohesive 移动，因为你只是向各个方向冲刺。"
+ },
+ {
+  "seg": 27,
+  "start": 145.883,
+  "end": 149.524,
+  "speaker": "Unknown",
+  "en": "The third problem you might be experiencing is declaring agent bankruptcy.",
+  "zh": "你可能遇到的第三个问题是宣布智能体破产。"
+ },
+ {
+  "seg": 28,
+  "start": 149.804,
+  "end": 152.325,
+  "speaker": "Unknown",
+  "en": "This is a common pattern I see engineers get into where",
+  "zh": "我看到工程师陷入的一种常见模式是"
+ },
+ {
+  "seg": 29,
+  "start": 153.788,
+  "end": 155.97,
+  "speaker": "Unknown",
+  "en": "You're cranking, you have your 12 terminals open.",
+  "zh": "你在疯狂工作，你打开了 12 个终端。"
+ },
+ {
+  "seg": 30,
+  "start": 156.531,
+  "end": 158.192,
+  "speaker": "Unknown",
+  "en": "At the end of the day, you're like, yeah, I did a lot of work.",
+  "zh": "在一天结束时，你就像，是的，我做了很多工作。"
+ },
+ {
+  "seg": 31,
+  "start": 158.793,
+  "end": 162.796,
+  "speaker": "Unknown",
+  "en": "You step away from your laptop, spend time with your friends and family.",
+  "zh": "你离开你的笔记本电脑，花时间和你的朋友和家人在一起。"
+ },
+ {
+  "seg": 32,
+  "start": 163.437,
+  "end": 167.32,
+  "speaker": "Unknown",
+  "en": "Next morning, you come back, and it's like walking into just a room of strangers.",
+  "zh": "第二天早上，你回来，就像走进一个陌生人的房间。"
+ },
+ {
+  "seg": 33,
+  "start": 167.481,
+  "end": 168.241,
+  "speaker": "Unknown",
+  "en": "Who are these people?",
+  "zh": "这些人是谁？"
+ },
+ {
+  "seg": 34,
+  "start": 168.281,
+  "end": 169.042,
+  "speaker": "Unknown",
+  "en": "What are they doing here?",
+  "zh": "他们在那里做什么？"
+ },
+ {
+  "seg": 35,
+  "start": 169.562,
+  "end": 174.427,
+  "speaker": "Unknown",
+  "en": "But no problem, they're agents, so you just get rid of them and start over again.",
+  "zh": "但没问题，他们是智能体，所以你只是摆脱它们并重新开始。"
+ },
+ {
+  "seg": 36,
+  "start": 175.847,
+  "end": 183.369,
+  "speaker": "Unknown",
+  "en": "The problem, though, is it feels like you're doing a lot of work, but you're doing the same work, and you're spending tokens twice.",
+  "zh": "然而，问题在于感觉你做了很多工作，但你在做同样的工作，而且你花费了两次的 token。"
+ },
+ {
+  "seg": 37,
+  "start": 183.389,
+  "end": 185.43,
+  "speaker": "Unknown",
+  "en": "You're doing the same problems over again.",
+  "zh": "你在重复解决同样的问题。"
+ },
+ {
+  "seg": 38,
+  "start": 187.17,
+  "end": 193.272,
+  "speaker": "Unknown",
+  "en": "And if you think about that organizationally, that's your team not being efficient with both their time and their token resources.",
+  "zh": "如果你从组织的角度考虑，那就是你的团队在他们的时间和 token 资源上没有效率。"
+ },
+ {
+  "seg": 39,
+  "start": 196.153,
+  "end": 198.953,
+  "speaker": "Unknown",
+  "en": "Problem four, though, is actually the most important one.",
+  "zh": "但是问题四实际上是最重要的一环。"
+ },
+ {
+  "seg": 40,
+  "start": 200.034,
+  "end": 202.814,
+  "speaker": "Unknown",
+  "en": "It's critical decisions being made by agents.",
+  "zh": "那就是关键决策是由智能体做出的。"
+ },
+ {
+  "seg": 41,
+  "start": 203.015,
+  "end": 204.035,
+  "speaker": "Unknown",
+  "en": "Once you have agents",
+  "zh": "一旦你有了智能体"
+ },
+ {
+  "seg": 42,
+  "start": 205.072,
+  "end": 212.199,
+  "speaker": "Unknown",
+  "en": "Doing a lot of your work, if you as an engineer are letting an agent make a critical decision, you are ceding control of your code.",
+  "zh": "做你的很多工作，如果你作为工程师让智能体做出关键决策，你就是在放弃你的代码的控制权。"
+ },
+ {
+  "seg": 43,
+  "start": 212.459,
+  "end": 215.522,
+  "speaker": "Unknown",
+  "en": "You are no longer the owner of that code, the agent is.",
+  "zh": "你不再是该代码的所有者，智能体才是。"
+ },
+ {
+  "seg": 44,
+  "start": 216.043,
+  "end": 223.33,
+  "speaker": "Unknown",
+  "en": "And if you imagine that at scale at your company, if the engineers across your team are giving up ownership of the code, you no longer own the product.",
+  "zh": "如果你想象在你的公司中大规模地这样，如果你的团队中的工程师正在放弃代码的所有权，你就不再拥有该产品。"
+ },
+ {
+  "seg": 45,
+  "start": 226.564,
+  "end": 230.61,
+  "speaker": "Unknown",
+  "en": "These are a bunch of problems you might be experiencing at different degrees at different days.",
+  "zh": "这些是你可能在不同的日子不同程度地遇到的一堆问题。"
+ },
+ {
+  "seg": 46,
+  "start": 232.112,
+  "end": 235.597,
+  "speaker": "Unknown",
+  "en": "The way I like to bundle it up is into this term velocity sickness.",
+  "zh": "我喜欢把它打包成这个术语速度病。"
+ },
+ {
+  "seg": 47,
+  "start": 236.358,
+  "end": 239.282,
+  "speaker": "Unknown",
+  "en": "This is the stress caused by sudden output",
+  "zh": "这是由突然的输出引起的压力"
+ },
+ {
+  "seg": 48,
+  "start": 240.343,
+  "end": 241.503,
+  "speaker": "Unknown",
+  "en": "Increases thanks to AI.",
+  "zh": "归功于 AI 的增加。"
+ },
+ {
+  "seg": 49,
+  "start": 242.464,
+  "end": 244.484,
+  "speaker": "Unknown",
+  "en": "It affects individuals or teams.",
+  "zh": "它影响个人或团队。"
+ },
+ {
+  "seg": 50,
+  "start": 245.504,
+  "end": 248.965,
+  "speaker": "Unknown",
+  "en": "And the result is output without impact.",
+  "zh": "结果是输出没有产生影响。"
+ },
+ {
+  "seg": 51,
+  "start": 249.185,
+  "end": 256.327,
+  "speaker": "Unknown",
+  "en": "So this is that feeling of like, we're moving really fast, this should feel great, this should feel awesome, but for some reason it doesn't feel awesome.",
+  "zh": "所以这就是那种感觉，就像，我们移动得非常快，这应该感觉棒极了，这应该感觉很棒，但由于某种原因，这感觉并不棒。"
+ },
+ {
+  "seg": 52,
+  "start": 256.707,
+  "end": 263.329,
+  "speaker": "Unknown",
+  "en": "We're not having the like, the things you expect to be happening are not happening, despite this feeling of being so productive.",
+  "zh": "我们没有那种，你预期会发生的事情并没有发生，尽管有这种如此高产的感觉。"
+ },
+ {
+  "seg": 53,
+  "start": 266.17,
+  "end": 269.354,
+  "speaker": "Unknown",
+  "en": "So that's to define that term, but I want to tell a little story.",
+  "zh": "所以这是为了定义那个术语，但我想讲一个小故事。"
+ },
+ {
+  "seg": 54,
+  "start": 270.996,
+  "end": 273.059,
+  "speaker": "Unknown",
+  "en": "My talk is happening now.",
+  "zh": "我的演讲正在进行。"
+ },
+ {
+  "seg": 55,
+  "start": 277.345,
+  "end": 280.81,
+  "speaker": "Unknown",
+  "en": "I want to tell a little story about somebody, to make this very real.",
+  "zh": "我想讲一个关于某人的小故事，让这个变得非常真实。"
+ },
+ {
+  "seg": 56,
+  "start": 284.944,
+  "end": 289.966,
+  "speaker": "Unknown",
+  "en": "This is a story about somebody who's actually not an engineer, but I think it parallels our engineering workflows a lot.",
+  "zh": "这是一个关于某个实际上不是工程师的人的故事，但我认为它与我们的工程工作流程有很多相似之处。"
+ },
+ {
+  "seg": 57,
+  "start": 290.226,
+  "end": 295.888,
+  "speaker": "Unknown",
+  "en": "Part of my job is I get to go find and talk to people who are really pushing the forefront and try and learn from them, and I love that part of it.",
+  "zh": "我工作的一部分是我去寻找并与那些真正推动前沿的人交谈，并尝试向他们学习，我喜欢那部分。"
+ },
+ {
+  "seg": 58,
+  "start": 296.388,
+  "end": 302.15,
+  "speaker": "Unknown",
+  "en": "And so this is somebody, and I'm talking through their agentic workflows, and this is somebody who writes a newsletter.",
+  "zh": "所以这里有一个人，我正在梳理他们的智能体工作流程，这是一个写通讯的人。"
+ },
+ {
+  "seg": 59,
+  "start": 303.691,
+  "end": 314.958,
+  "speaker": "Unknown",
+  "en": "Their workflow is around how do I have my ideas and then they're doing research and exploration and then cohesion between those ideas and editorial to make sure it's in their voice.",
+  "zh": "他们的工作流程是关于我如何产生想法，然后他们进行研究和探索，然后在这些想法之间建立凝聚力，并进行编辑工作，以确保它符合他们的语调。"
+ },
+ {
+  "seg": 60,
+  "start": 314.978,
+  "end": 321.422,
+  "speaker": "Unknown",
+  "en": "They're walking me through their system for how they manage this whole pipeline and really scale out their efficacy.",
+  "zh": "他们正在向我展示他们如何管理整个整个流水线并真正扩大他们的效能的系统。"
+ },
+ {
+  "seg": 61,
+  "start": 321.642,
+  "end": 323.983,
+  "speaker": "Unknown",
+  "en": "This is very much not slop.",
+  "zh": "这绝对不是垃圾。"
+ },
+ {
+  "seg": 62,
+  "start": 324.003,
+  "end": 329.606,
+  "speaker": "Unknown",
+  "en": "This is somebody who is using agents to amplify their own voice in a way that's very impressive.",
+  "zh": "这是一个正在使用智能体以一种令人印象深刻的方式放大自己声音的人。"
+ },
+ {
+  "seg": 63,
+  "start": 329.647,
+  "end": 330.927,
+  "speaker": "Unknown",
+  "en": "I'm like, wow, that is so cool.",
+  "zh": "我就像，哇，那太酷了。"
+ },
+ {
+  "seg": 64,
+  "start": 332.539,
+  "end": 333.68,
+  "speaker": "Unknown",
+  "en": "I'm soaking it in.",
+  "zh": "我正在全神贯注地听着。"
+ },
+ {
+  "seg": 65,
+  "start": 333.7,
+  "end": 338.703,
+  "speaker": "Unknown",
+  "en": "And then they're like, yeah, I'm basically writing a book every week.",
+  "zh": "然后他们说，是的，我基本上每周都在写一本书。"
+ },
+ {
+  "seg": 66,
+  "start": 339.424,
+  "end": 343.847,
+  "speaker": "Unknown",
+  "en": "I'm like, oh, okay, is your audience reading a book every week?",
+  "zh": "我就像，哦，好吧，你的听众每周都在读一本书吗？"
+ },
+ {
+  "seg": 67,
+  "start": 344.748,
+  "end": 346.109,
+  "speaker": "Unknown",
+  "en": "And they're like, no, they're probably not.",
+  "zh": "他们说，不，他们可能没有。"
+ },
+ {
+  "seg": 68,
+  "start": 346.329,
+  "end": 347.71,
+  "speaker": "Unknown",
+  "en": "They're not.",
+  "zh": "他们没有。"
+ },
+ {
+  "seg": 69,
+  "start": 347.77,
+  "end": 353.274,
+  "speaker": "Unknown",
+  "en": "This is a person who's writing a lot, but those pages that they're writing are going unread.",
+  "zh": "这是一个写了很多人，但那些他们写的页面没有被阅读的人。"
+ },
+ {
+  "seg": 70,
+  "start": 354.615,
+  "end": 358.938,
+  "speaker": "Unknown",
+  "en": "I think that's part of this experience of velocity sickness is we're building things that are not",
+  "zh": "我认为这是速度病体验的一部分，因为我们正在构建不"
+ },
+ {
+  "seg": 71,
+  "start": 360.26,
+  "end": 364.041,
+  "speaker": "Unknown",
+  "en": "Mattering for the people we want them to matter for, the people we're trying to reach.",
+  "zh": "对我们希望其重要的人重要的事情，我们要试图触达到的人。"
+ },
+ {
+  "seg": 72,
+  "start": 365.142,
+  "end": 369.863,
+  "speaker": "Unknown",
+  "en": "So instead of unread pages, what we want is we want to write words that matter.",
+  "zh": "所以代替未读的页面，我们要的是我们要写下重要的文字。"
+ },
+ {
+  "seg": 73,
+  "start": 369.883,
+  "end": 371.424,
+  "speaker": "Unknown",
+  "en": "We want to write words that connect with people.",
+  "zh": "我们想要写下能与人们建立连接的文字。"
+ },
+ {
+  "seg": 74,
+  "start": 372.404,
+  "end": 380.327,
+  "speaker": "Unknown",
+  "en": "And the parallel to us as software builders and product builders is that we want to build products that connect with people.",
+  "zh": "对我们作为软件开发者和产品构建者的平行类比是，我们想要构建能与人们建立连接的产品。"
+ },
+ {
+  "seg": 75,
+  "start": 380.407,
+  "end": 385.669,
+  "speaker": "Unknown",
+  "en": "We want to build products that change the way people live and work and make their lives better.",
+  "zh": "我们想要构建能改变人们生活和工作方式并使他们的生活更美好的产品。"
+ },
+ {
+  "seg": 76,
+  "start": 385.689,
+  "end": 388.19,
+  "speaker": "Unknown",
+  "en": "And we have more ability to do that than ever with AI.",
+  "zh": "我们现在比以往任何时候都更有能力做到这一点，有了 AI。"
+ },
+ {
+  "seg": 77,
+  "start": 389.526,
+  "end": 393.988,
+  "speaker": "Unknown",
+  "en": "But we have this feeling of velocity sickness where it feels like we should be doing that, but it's not quite landing.",
+  "zh": "但我们有这种速度病的感觉，感觉我们应该在这样做，但它并没有真正落地。"
+ },
+ {
+  "seg": 78,
+  "start": 395.928,
+  "end": 397.029,
+  "speaker": "Unknown",
+  "en": "So let's talk about how we got here.",
+  "zh": "所以让我们来谈谈我们是如何走到这一步的。"
+ },
+ {
+  "seg": 79,
+  "start": 399.97,
+  "end": 404.412,
+  "speaker": "Unknown",
+  "en": "This is what the software engineering process used to look like before AI.",
+  "zh": "这就是软件工程流程在 AI 之前的样子。"
+ },
+ {
+  "seg": 80,
+  "start": 404.592,
+  "end": 415.336,
+  "speaker": "Unknown",
+  "en": "We'd do some planning up front, we'd sit down and build, we'd implement, it'd be iterative, we'd be exploring, but largely we're sitting down building in isolation, implementing something, and at the end we'd sort of polish it up and ship it out the door.",
+  "zh": "我们会预先做一些计划，我们会坐下来构建，我们会实施，它是迭代的，我们会探索，但很大程度上我们是独自坐着构建，实施某样东西，最后我们会对其进行打磨并将其运送出门。"
+ },
+ {
+  "seg": 81,
+  "start": 415.865,
+  "end": 416.405,
+  "speaker": "Unknown",
+  "en": "And this was great.",
+  "zh": "这很棒。"
+ },
+ {
+  "seg": 82,
+  "start": 416.905,
+  "end": 417.686,
+  "speaker": "Unknown",
+  "en": "We all knew how to do this.",
+  "zh": "我们都知道如何做这个。"
+ },
+ {
+  "seg": 83,
+  "start": 417.706,
+  "end": 418.666,
+  "speaker": "Unknown",
+  "en": "We had a lot of systems for this.",
+  "zh": "我们为此有很多系统。"
+ },
+ {
+  "seg": 84,
+  "start": 419.406,
+  "end": 420.427,
+  "speaker": "Unknown",
+  "en": "And it was good.",
+  "zh": "而且它是好的。"
+ },
+ {
+  "seg": 85,
+  "start": 420.467,
+  "end": 422.267,
+  "speaker": "Unknown",
+  "en": "And then AI came along.",
+  "zh": "然后 AI 出现了。"
+ },
+ {
+  "seg": 86,
+  "start": 423.308,
+  "end": 427.489,
+  "speaker": "Unknown",
+  "en": "But at this time, our tools were built for this.",
+  "zh": "但在那个时候，我们的工具是为这个而构建的。"
+ },
+ {
+  "seg": 87,
+  "start": 427.629,
+  "end": 430.73,
+  "speaker": "Unknown",
+  "en": "All our history of coding tools were built for this style of work.",
+  "zh": "我们所有编码工具的历史都是为这种工作风格而构建的。"
+ },
+ {
+  "seg": 88,
+  "start": 431.43,
+  "end": 441.314,
+  "speaker": "Unknown",
+  "en": "Our IDE, our workhorse, it was built for implementation and polish to be done by an individual, to be heads down, building as a software engineer, writing code.",
+  "zh": "我们的 IDE，我们的主力工具，它是为个人进行实施和打磨而构建的，是埋头苦干，作为软件工程师构建，编写代码。"
+ },
+ {
+  "seg": 89,
+  "start": 442.914,
+  "end": 445.855,
+  "speaker": "Unknown",
+  "en": "And that's a tool built for how we used to work.",
+  "zh": "这是一个为我们以前的工作方式而构建的工具。"
+ },
+ {
+  "seg": 90,
+  "start": 447.576,
+  "end": 449.497,
+  "speaker": "Unknown",
+  "en": "So let's look at how we work now.",
+  "zh": "所以让我们看看我们现在是如何工作的。"
+ },
+ {
+  "seg": 91,
+  "start": 450.417,
+  "end": 456.76,
+  "speaker": "Unknown",
+  "en": "Our work looks a lot more like this, where you do some planning up front, you start thinking about, what am I trying to do here?",
+  "zh": "我们的工作看起来更像这样，你在预先做一些计划，你开始思考，我在这里试图做什么？"
+ },
+ {
+  "seg": 92,
+  "start": 457.26,
+  "end": 459.421,
+  "speaker": "Unknown",
+  "en": "You take this idea in your head and start to flesh it out.",
+  "zh": "你把这个想法在你脑海中开始充实它。"
+ },
+ {
+  "seg": 93,
+  "start": 460.701,
+  "end": 465.383,
+  "speaker": "Unknown",
+  "en": "At some point, an agent takes that idea and implements it.",
+  "zh": "在某个时刻，一个智能体接管那个想法并实施它。"
+ },
+ {
+  "seg": 94,
+  "start": 465.423,
+  "end": 469.945,
+  "speaker": "Unknown",
+  "en": "This is arguably should not even be on this slide, because it's not our human work anymore, it's done by the agent.",
+  "zh": "这可以说甚至不应该出现在这张幻灯片上，因为它不再是我们要人工工作了，它是由智能体完成的。"
+ },
+ {
+  "seg": 95,
+  "start": 471.994,
+  "end": 478.96,
+  "speaker": "Unknown",
+  "en": "And then in the end we do some polishing where we take back that thing the agent has made for us and we hold it in our hands and we say, is this what I wanted?",
+  "zh": "最后我们会做一些打磨，我们收回智能体为我们制作的东西，我们把它握在手中，我们说，这是否是我想要的？"
+ },
+ {
+  "seg": 96,
+  "start": 480.781,
+  "end": 482.803,
+  "speaker": "Unknown",
+  "en": "This is a very different shape of work.",
+  "zh": "这是一种非常不同形状的工作。"
+ },
+ {
+  "seg": 97,
+  "start": 483.624,
+  "end": 486.446,
+  "speaker": "Unknown",
+  "en": "We're no longer doing this heads down building.",
+  "zh": "我们不再做这种埋头构建的工作。"
+ },
+ {
+  "seg": 98,
+  "start": 487.407,
+  "end": 492.411,
+  "speaker": "Unknown",
+  "en": "These are the two creative and collaborative parts of our work as engineers.",
+  "zh": "这些是我们作为工程师工作中两个创造性和协作性的部分。"
+ },
+ {
+  "seg": 99,
+  "start": 492.431,
+  "end": 495.774,
+  "speaker": "Unknown",
+  "en": "This is where we express our craft as an engineer.",
+  "zh": "这是我们作为工程师表达我们技艺的地方。"
+ },
+ {
+  "seg": 100,
+  "start": 495.974,
+  "end": 498.176,
+  "speaker": "Unknown",
+  "en": "And the one that's most different is the planning stage.",
+  "zh": "其中最不同的是规划阶段。"
+ },
+ {
+  "seg": 101,
+  "start": 498.676,
+  "end": 500.378,
+  "speaker": "Unknown",
+  "en": "So I wanna zoom in on that just a little bit.",
+  "zh": "所以我想稍微放大讲讲这一点。"
+ },
+ {
+  "seg": 102,
+  "start": 502.282,
+  "end": 515.795,
+  "speaker": "Unknown",
+  "en": "That's the exploratory, creative, collaborative part where we're thinking about, I have this vague idea, I have this complex system, I need to understand the contours of this system, apply this idea, and really understand it.",
+  "zh": "那是探索性的、创造性的、协作性的部分，我们在思考，我有这个模糊的想法，我有这个复杂的系统，我需要理解这个系统的轮廓，应用这个想法，并真正理解它。"
+ },
+ {
+  "seg": 103,
+  "start": 516.135,
+  "end": 522.341,
+  "speaker": "Unknown",
+  "en": "And I need to pull out what's relevant and express my taste as an engineer as to where do I want this system to go.",
+  "zh": "我需要提取出相关的内容，并表达我作为工程师的品味，关于我希望这个系统往哪个方向发展。"
+ },
+ {
+  "seg": 104,
+  "start": 524.163,
+  "end": 528.184,
+  "speaker": "Unknown",
+  "en": "This is the kind of work that's creative and needs to be done together.",
+  "zh": "这是那种需要创造性且需要一起完成的工作。"
+ },
+ {
+  "seg": 105,
+  "start": 528.264,
+  "end": 542.486,
+  "speaker": "Unknown",
+  "en": "I think the shape of engineering teams and product teams is changing with AI, but we're always gonna have this thing where we have a group of people responsible for managing a complex system and sort of deciding the future of that system, and that's this planning work.",
+  "zh": "我认为工程团队和产品团队的形态正在随着 AI 改变，但我们总会有这样的情况，有一群人负责管理一个复杂的系统，并决定这个系统的未来，这就是规划工作。"
+ },
+ {
+  "seg": 106,
+  "start": 543.247,
+  "end": 548.668,
+  "speaker": "Unknown",
+  "en": "And so we're starting to see some of the hints of like, okay, we had tools built for a certain type of work.",
+  "zh": "所以我们开始看到一些迹象，比如，好吧，我们为某种类型的工作构建了工具。"
+ },
+ {
+  "seg": 107,
+  "start": 549.488,
+  "end": 550.528,
+  "speaker": "Unknown",
+  "en": "Our work looks different now.",
+  "zh": "我们的工作现在看起来不一样了。"
+ },
+ {
+  "seg": 108,
+  "start": 552.302,
+  "end": 554.265,
+  "speaker": "Unknown",
+  "en": "Let's start to think about that a little bit more.",
+  "zh": "让我们开始多思考一点这个问题。"
+ },
+ {
+  "seg": 109,
+  "start": 554.926,
+  "end": 557.59,
+  "speaker": "Unknown",
+  "en": "So we used to have the IDE as our main tool.",
+  "zh": "所以我们以前把 IDE 作为我们的主要工具。"
+ },
+ {
+  "seg": 110,
+  "start": 558.01,
+  "end": 559.052,
+  "speaker": "Unknown",
+  "en": "It was used for implementation.",
+  "zh": "它被用于实现。"
+ },
+ {
+  "seg": 111,
+  "start": 560.113,
+  "end": 561.435,
+  "speaker": "Unknown",
+  "en": "But now we're doing this different kind of work.",
+  "zh": "但现在我们正在做这种不同类型的工作。"
+ },
+ {
+  "seg": 112,
+  "start": 561.976,
+  "end": 566.202,
+  "speaker": "Unknown",
+  "en": "So at the very high level, we can start to think about solutions like, okay, we have a tool built for this type of work.",
+  "zh": "所以在非常高的层面上，我们可以开始思考解决方案，比如，好吧，我们有一个为这种类型的工作构建的工具。"
+ },
+ {
+  "seg": 113,
+  "start": 566.602,
+  "end": 567.524,
+  "speaker": "Unknown",
+  "en": "We have a new type of work.",
+  "zh": "我们有一种新类型的工作。"
+ },
+ {
+  "seg": 114,
+  "start": 567.544,
+  "end": 568.185,
+  "speaker": "Unknown",
+  "en": "Let's think about...",
+  "zh": "让我们思考一下……"
+ },
+ {
+  "seg": 115,
+  "start": 569.76,
+  "end": 571.081,
+  "speaker": "Unknown",
+  "en": "What this new layer of our work is.",
+  "zh": "我们工作的新这一层是什么。"
+ },
+ {
+  "seg": 116,
+  "start": 571.121,
+  "end": 572.862,
+  "speaker": "Unknown",
+  "en": "This is the decision layer.",
+  "zh": "这是决策层。"
+ },
+ {
+  "seg": 117,
+  "start": 572.902,
+  "end": 579.946,
+  "speaker": "Unknown",
+  "en": "This is where we're thinking through what are the key decisions, doing that craft of engineering, and expressing our taste as engineers.",
+  "zh": "这里是我们思考关键决策的地方，进行那种工程技艺，并表达我们作为工程师的品味。"
+ },
+ {
+  "seg": 118,
+  "start": 580.887,
+  "end": 582.648,
+  "speaker": "Unknown",
+  "en": "Ultimately a different thing than implementation.",
+  "zh": "归根结底这与实现是不同的。"
+ },
+ {
+  "seg": 119,
+  "start": 583.909,
+  "end": 586.75,
+  "speaker": "Unknown",
+  "en": "And it's a different gear as an engineer.",
+  "zh": "作为工程师，这是不同的档位。"
+ },
+ {
+  "seg": 120,
+  "start": 586.97,
+  "end": 589.172,
+  "speaker": "Unknown",
+  "en": "The skill now is what gear am I in?",
+  "zh": "现在的技能在于我处于什么档位？"
+ },
+ {
+  "seg": 121,
+  "start": 589.472,
+  "end": 595.576,
+  "speaker": "Unknown",
+  "en": "Am I using the appropriate tools for the gear, what I'm trying to accomplish right now?",
+  "zh": "我是否使用了适合该档位的工具，为了我现在想要完成的事情？"
+ },
+ {
+  "seg": 122,
+  "start": 596.156,
+  "end": 599.198,
+  "speaker": "Unknown",
+  "en": "So let's think about what a tool built for the decision layer would look like.",
+  "zh": "所以让我们思考一下为决策层构建的工具会是什么样子。"
+ },
+ {
+  "seg": 123,
+  "start": 601.678,
+  "end": 604.56,
+  "speaker": "Unknown",
+  "en": "It'd be a tool built for docs and not chat.",
+  "zh": "它会是一个为文档而不是聊天构建的工具。"
+ },
+ {
+  "seg": 124,
+  "start": 604.921,
+  "end": 606.642,
+  "speaker": "Unknown",
+  "en": "And that's like a short sentence.",
+  "zh": "这就像是一个短句。"
+ },
+ {
+  "seg": 125,
+  "start": 606.802,
+  "end": 608.023,
+  "speaker": "Unknown",
+  "en": "There's a lot to unpack here though.",
+  "zh": "但这里有很多东西需要拆解。"
+ },
+ {
+  "seg": 126,
+  "start": 608.584,
+  "end": 609.925,
+  "speaker": "Unknown",
+  "en": "So I'm gonna spend a lot of time on this slide.",
+  "zh": "所以我要在这个幻灯片上花很多时间。"
+ },
+ {
+  "seg": 127,
+  "start": 611.266,
+  "end": 617.411,
+  "speaker": "Unknown",
+  "en": "The problem with chats is that they are the relic of building for implementation.",
+  "zh": "聊天的问题是它们是为实现而建的遗留物。"
+ },
+ {
+  "seg": 128,
+  "start": 617.812,
+  "end": 622.716,
+  "speaker": "Unknown",
+  "en": "So they're default isolated and ephemeral and brain off.",
+  "zh": "所以它们默认是孤立的、短暂的且无需动脑的。"
+ },
+ {
+  "seg": 129,
+  "start": 623.837,
+  "end": 627.1,
+  "speaker": "Unknown",
+  "en": "They're made to build things and get stuff done.",
+  "zh": "它们是为了构建东西和完成任务而制造的。"
+ },
+ {
+  "seg": 130,
+  "start": 627.22,
+  "end": 629.261,
+  "speaker": "Unknown",
+  "en": "And that's not really the same type of work we're doing",
+  "zh": "这并不是我们现在正在做的同类型的工作"
+ },
+ {
+  "seg": 131,
+  "start": 630.162,
+  "end": 632.764,
+  "speaker": "Unknown",
+  "en": "At the decision layer, we're doing this creative exploratory work.",
+  "zh": "在决策层，我们正在做这种创造性的探索性工作。"
+ },
+ {
+  "seg": 132,
+  "start": 633.385,
+  "end": 654.621,
+  "speaker": "Unknown",
+  "en": "So being in this isolated environment where I'm working with an agent, maybe I start with my vague idea and I'm exploring it and asking questions, but decisions are being made in that chat that are not shared with my team that are gonna disappear as long, I'm gonna result in some code being output where those important decisions are not being made clear and shared with the team.",
+  "zh": "所以处于这种孤立的环境中，我正在与一个智能体一起工作，也许我从我的模糊想法开始并探索它并提问，但是在这个聊天中做出的决定并没有与我的团队分享，只要这些决定会消失，我将输出一些代码，其中那些重要的决定没有被弄清楚并与团队分享。"
+ },
+ {
+  "seg": 133,
+  "start": 654.981,
+  "end": 656.743,
+  "speaker": "Unknown",
+  "en": "And you're also in this mode where the agent's saying,",
+  "zh": "而且你也处于这种模式，智能体在说，"
+ },
+ {
+  "seg": 134,
+  "start": 658.092,
+  "end": 659.192,
+  "speaker": "Unknown",
+  "en": "Okay, this is what I want to do.",
+  "zh": "好的，这就是我想做的。"
+ },
+ {
+  "seg": 135,
+  "start": 659.212,
+  "end": 659.873,
+  "speaker": "Unknown",
+  "en": "Is that okay?",
+  "zh": "那样可以吗？"
+ },
+ {
+  "seg": 136,
+  "start": 660.053,
+  "end": 660.433,
+  "speaker": "Unknown",
+  "en": "Let's go.",
+  "zh": "我们走吧。"
+ },
+ {
+  "seg": 137,
+  "start": 660.773,
+  "end": 668.655,
+  "speaker": "Unknown",
+  "en": "Or sometimes it'll say, it'll ask you a question and it'll be like, you know, this is the recommended option, and then you're like, great, I don't need to think about this.",
+  "zh": "或者有时它会问，它会问你一个问题，就像，你知道的，这是推荐的选项，然后你会说，太好了，我不需要思考这个。"
+ },
+ {
+  "seg": 138,
+  "start": 668.675,
+  "end": 670.076,
+  "speaker": "Unknown",
+  "en": "I'll just hit that one and we keep going.",
+  "zh": "我就点那个然后我们继续。"
+ },
+ {
+  "seg": 139,
+  "start": 672.716,
+  "end": 673.917,
+  "speaker": "Unknown",
+  "en": "Docs start to solve this problem.",
+  "zh": "文档开始解决这个问题。"
+ },
+ {
+  "seg": 140,
+  "start": 673.937,
+  "end": 678.058,
+  "speaker": "Unknown",
+  "en": "So when you're, if you center your work around working in docs,",
+  "zh": "所以当你，如果你围绕在文档中工作来展开你的工作，"
+ },
+ {
+  "seg": 141,
+  "start": 681.197,
+  "end": 683.298,
+  "speaker": "Unknown",
+  "en": "They're meant to bring forward the key decisions.",
+  "zh": "它们旨在提出关键决策。"
+ },
+ {
+  "seg": 142,
+  "start": 683.318,
+  "end": 685.219,
+  "speaker": "Unknown",
+  "en": "This is what our work is now.",
+  "zh": "这就是我们现在的工作。"
+ },
+ {
+  "seg": 143,
+  "start": 685.479,
+  "end": 694.042,
+  "speaker": "Unknown",
+  "en": "Our work now is figure out what decisions matter, and then make those decisions, and then get out of the way while the agents fill in the rest.",
+  "zh": "我们现在的工作是弄清楚哪些决策重要，然后做出这些决策，然后在智能体填补其余部分时让开。"
+ },
+ {
+  "seg": 144,
+  "start": 695.723,
+  "end": 698.584,
+  "speaker": "Unknown",
+  "en": "Working in docs is the classic way we would create alignment.",
+  "zh": "在文档中工作是我们达成一致的经典方式。"
+ },
+ {
+  "seg": 145,
+  "start": 700.401,
+  "end": 710.585,
+  "speaker": "Unknown",
+  "en": "If you think back to being a manager or a lead on a team before AI, if your team was struggling with alignment, you would not tell them, like, let's go all work in Slack DMs.",
+  "zh": "如果你回想一下在 AI 之前做经理或团队负责人的时候，如果你的团队在达成一致方面很挣扎，你不会告诉他们，比如，让我们都在 Slack 私信里工作吧。"
+ },
+ {
+  "seg": 146,
+  "start": 710.685,
+  "end": 712.066,
+  "speaker": "Unknown",
+  "en": "Let's go direct message each other.",
+  "zh": "让我们互发私信吧。"
+ },
+ {
+  "seg": 147,
+  "start": 712.086,
+  "end": 720.769,
+  "speaker": "Unknown",
+  "en": "You'd say, let's bring forward key decisions, align on them, spend time on these, find a way that we can really spend time getting our decisions right.",
+  "zh": "你会说，让我们提出关键决策，对它们达成一致，在这些上面花时间，找到一种方法让我们真的能花时间把我们的决策做对。"
+ },
+ {
+  "seg": 148,
+  "start": 723.918,
+  "end": 728.462,
+  "speaker": "Unknown",
+  "en": "So there are two things you might be thinking looking at this that are not what I'm talking about here.",
+  "zh": "所以有两件事你看到这里时可能会想到，但这并不是我在这里谈论的。"
+ },
+ {
+  "seg": 149,
+  "start": 729.002,
+  "end": 730.383,
+  "speaker": "Unknown",
+  "en": "The first one is plan mode.",
+  "zh": "第一个是计划模式。"
+ },
+ {
+  "seg": 150,
+  "start": 730.984,
+  "end": 731.624,
+  "speaker": "Unknown",
+  "en": "That's a great tool.",
+  "zh": "那是一个很棒的工具。"
+ },
+ {
+  "seg": 151,
+  "start": 732.625,
+  "end": 735.507,
+  "speaker": "Unknown",
+  "en": "The other one is like full-on factory spectrum development.",
+  "zh": "另一个就像是全方位的开发工厂体系。"
+ },
+ {
+  "seg": 152,
+  "start": 735.888,
+  "end": 736.648,
+  "speaker": "Unknown",
+  "en": "That's a great tool too.",
+  "zh": "那也是一个很棒的工具。"
+ },
+ {
+  "seg": 153,
+  "start": 737.269,
+  "end": 738.65,
+  "speaker": "Unknown",
+  "en": "I'm talking about something in the middle.",
+  "zh": "我说的是介于两者之间的东西。"
+ },
+ {
+  "seg": 154,
+  "start": 740.529,
+  "end": 750.394,
+  "speaker": "Unknown",
+  "en": "Plan mode is great, but it's largely a rich chat message where the agent is saying, hey, here's a better visualization of what I'm trying to express to you.",
+  "zh": "计划模式很棒，但它主要是一条丰富的聊天消息，智能体在其中说，嘿，这是我试图向你表达的内容的更好的可视化。"
+ },
+ {
+  "seg": 155,
+  "start": 751.035,
+  "end": 751.435,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "那很棒。"
+ },
+ {
+  "seg": 156,
+  "start": 752.335,
+  "end": 754.336,
+  "speaker": "Unknown",
+  "en": "But it's still in this isolated, ephemeral environment.",
+  "zh": "但它仍然处于这种孤立的、临时的环境中。"
+ },
+ {
+  "seg": 157,
+  "start": 755.197,
+  "end": 761.08,
+  "speaker": "Unknown",
+  "en": "And what I'm suggesting is something more durable, more shared, more long-lived that you and your team are spending time on.",
+  "zh": "我建议的是某种更持久、更共享、寿命更长的东西，是你和你的团队在上面花时间的东西。"
+ },
+ {
+  "seg": 158,
+  "start": 763.31,
+  "end": 771.478,
+  "speaker": "Unknown",
+  "en": "Similarly, the spectrum in development where we just define the behaviors, we operate at the product level, is a little far away from the engineering reality.",
+  "zh": "同样，在我们只定义行为、我们在产品层面运作的开发领域，有点远离工程现实。"
+ },
+ {
+  "seg": 159,
+  "start": 772.158,
+  "end": 781.187,
+  "speaker": "Unknown",
+  "en": "The engineering reality is that I need to understand my system and have a tool that helps me understand that system and lay out those key decisions in a technical sense.",
+  "zh": "工程现实是，我需要理解我的系统，并有一个工具帮助我理解该系统，并在技术层面上梳理出那些关键决策。"
+ },
+ {
+  "seg": 160,
+  "start": 782.228,
+  "end": 786.092,
+  "speaker": "Unknown",
+  "en": "The way I like to conceptualize this is as the portal to the software system.",
+  "zh": "我喜欢将此概念化的方式是将其视为通往软件系统的入口。"
+ },
+ {
+  "seg": 161,
+  "start": 786.712,
+  "end": 789.354,
+  "speaker": "Unknown",
+  "en": "Where you are like Tony Stark and you're like, show me what matters.",
+  "zh": "在那里你就像 Tony Stark 一样，你说，给我展示重要的东西。"
+ },
+ {
+  "seg": 162,
+  "start": 789.394,
+  "end": 790.455,
+  "speaker": "Unknown",
+  "en": "And you're like, I'm working on this.",
+  "zh": "你说，我正在做这个。"
+ },
+ {
+  "seg": 163,
+  "start": 790.856,
+  "end": 792.077,
+  "speaker": "Unknown",
+  "en": "Pull out the bits that are relevant.",
+  "zh": "提取相关的片段。"
+ },
+ {
+  "seg": 164,
+  "start": 792.317,
+  "end": 798.823,
+  "speaker": "Unknown",
+  "en": "And AI is amazing at finding things that are related to other things, helping you find what's relevant, and lay them out on the table in front of you.",
+  "zh": "AI 在发现与其他事物相关的事物、帮助你找到相关的内容并把它们摆在你面前方面非常出色。"
+ },
+ {
+  "seg": 165,
+  "start": 799.443,
+  "end": 802.726,
+  "speaker": "Unknown",
+  "en": "Organize the pieces in the way you want to represent how you want the system to grow.",
+  "zh": "以你想要表示系统想要发展的方式来组织这些片段。"
+ },
+ {
+  "seg": 166,
+  "start": 805.913,
+  "end": 810.415,
+  "speaker": "Unknown",
+  "en": "But the big conceptual flip here is actually that we're pulling out the state.",
+  "zh": "但这里最大的概念翻转实际上是我们提取了状态。"
+ },
+ {
+  "seg": 167,
+  "start": 810.735,
+  "end": 819.559,
+  "speaker": "Unknown",
+  "en": "So when you're living and working in a long-lived session with an agent, there's this implicit context being built up over that work, and that's great.",
+  "zh": "所以当你与智能体在一个长生命周期的会话中生活和工作时，会有这种在该工作过程中建立起来的隐式上下文，这很棒。"
+ },
+ {
+  "seg": 168,
+  "start": 821.78,
+  "end": 824.681,
+  "speaker": "Unknown",
+  "en": "But you're also doing actions, and it's not shared.",
+  "zh": "但你也在执行操作，而它不是共享的。"
+ },
+ {
+  "seg": 169,
+  "start": 824.941,
+  "end": 831.184,
+  "speaker": "Unknown",
+  "en": "What you want is to separate the agent as the action and the doc as the state.",
+  "zh": "你想要的是将智能体作为操作，将文档作为状态分离开来。"
+ },
+ {
+  "seg": 170,
+  "start": 831.264,
+  "end": 834.946,
+  "speaker": "Unknown",
+  "en": "And so you can spawn new agents that have this same context, that are starting from the same place,",
+  "zh": "这样你就可以生成具有相同上下文、从同一点出发的新智能体，"
+ },
+ {
+  "seg": 171,
+  "start": 835.957,
+  "end": 841.482,
+  "speaker": "Unknown",
+  "en": "That are able to collaborate and work on this same piece of context and state.",
+  "zh": "它们能够协作并在同一个上下文和状态片段上工作。"
+ },
+ {
+  "seg": 172,
+  "start": 841.502,
+  "end": 843.363,
+  "speaker": "Unknown",
+  "en": "You're ultimately doing context engineering in this doc.",
+  "zh": "你实际上是在这个文档中进行上下文工程。"
+ },
+ {
+  "seg": 173,
+  "start": 843.804,
+  "end": 848.988,
+  "speaker": "Unknown",
+  "en": "So that every agent is largely stateless and starts from this place, the same place.",
+  "zh": "所以每个智能体在很大程度上是无状态的，并从这个地方，同一个地方开始。"
+ },
+ {
+  "seg": 174,
+  "start": 849.028,
+  "end": 855.874,
+  "speaker": "Unknown",
+  "en": "And what that gives you is your team and yourself can look into this and understand what actually is in here.",
+  "zh": "这给你带来的是，你的团队和你自己可以查看这个并理解这里面到底有什么。"
+ },
+ {
+  "seg": 175,
+  "start": 855.894,
+  "end": 857.095,
+  "speaker": "Unknown",
+  "en": "What are the decisions that are being made?",
+  "zh": "正在制定的是什么决策？"
+ },
+ {
+  "seg": 176,
+  "start": 857.115,
+  "end": 860.678,
+  "speaker": "Unknown",
+  "en": "And have a clear understanding of what the key decisions are.",
+  "zh": "并对关键决策是什么有清晰的理解。"
+ },
+ {
+  "seg": 177,
+  "start": 863.41,
+  "end": 869.657,
+  "speaker": "Unknown",
+  "en": "So this is a different way of working where your core atom of your work is a doc rather than a chat.",
+  "zh": "所以这是一种不同的工作方式，你的工作核心原子是文档而不是聊天。"
+ },
+ {
+  "seg": 178,
+  "start": 870.618,
+  "end": 872.46,
+  "speaker": "Unknown",
+  "en": "What happens when you actually start to implement this?",
+  "zh": "当你真正开始实施它时会发生什么？"
+ },
+ {
+  "seg": 179,
+  "start": 873.961,
+  "end": 879.027,
+  "speaker": "Unknown",
+  "en": "Well the first thing we see happen actually is that people start to plan and then not implement their plan.",
+  "zh": "实际上，我们首先看到发生的事情是，人们开始计划然后不实施他们的计划。"
+ },
+ {
+  "seg": 180,
+  "start": 880.208,
+  "end": 881.73,
+  "speaker": "Unknown",
+  "en": "And this is actually a really good sign.",
+  "zh": "这实际上是一个非常好的迹象。"
+ },
+ {
+  "seg": 181,
+  "start": 883.325,
+  "end": 885.467,
+  "speaker": "Unknown",
+  "en": "Because what that means is they're thinking through ideas.",
+  "zh": "因为这意味着他们正在思考想法。"
+ },
+ {
+  "seg": 182,
+  "start": 885.487,
+  "end": 886.388,
+  "speaker": "Unknown",
+  "en": "They're saying, I have this idea.",
+  "zh": "他们说，我有这个想法。"
+ },
+ {
+  "seg": 183,
+  "start": 886.428,
+  "end": 887.208,
+  "speaker": "Unknown",
+  "en": "Let me explore it.",
+  "zh": "让我探索一下。"
+ },
+ {
+  "seg": 184,
+  "start": 887.909,
+  "end": 888.89,
+  "speaker": "Unknown",
+  "en": "Let me start to flesh it out.",
+  "zh": "让我开始充实它。"
+ },
+ {
+  "seg": 185,
+  "start": 888.91,
+  "end": 889.731,
+  "speaker": "Unknown",
+  "en": "I have this vague thought.",
+  "zh": "我有这个模糊的想法。"
+ },
+ {
+  "seg": 186,
+  "start": 890.311,
+  "end": 891.032,
+  "speaker": "Unknown",
+  "en": "Don't just give me some code.",
+  "zh": "不要只是给我一些代码。"
+ },
+ {
+  "seg": 187,
+  "start": 891.052,
+  "end": 895.616,
+  "speaker": "Unknown",
+  "en": "Don't go off and build it for me, but help me understand the idea that I'm talking about.",
+  "zh": "不要跑去为我构建它，而是帮助我理解我所说的想法。"
+ },
+ {
+  "seg": 188,
+  "start": 897.898,
+  "end": 901.261,
+  "speaker": "Unknown",
+  "en": "And then they have a bunch of these, and then some of them are getting built and some of them aren't.",
+  "zh": "然后他们有一堆这样的想法，其中一些被构建了，一些没有。"
+ },
+ {
+  "seg": 189,
+  "start": 901.601,
+  "end": 909.668,
+  "speaker": "Unknown",
+  "en": "So that means they're prioritizing the ideas that after they've explored them are the ones that are worth building and going into the next step with.",
+  "zh": "这意味着他们正在优先考虑那些在探索之后值得构建并进入下一步的想法。"
+ },
+ {
+  "seg": 190,
+  "start": 911.02,
+  "end": 916.963,
+  "speaker": "Unknown",
+  "en": "One way I like to frame this is that you're shifting from code velocity to idea velocity.",
+  "zh": "我喜欢描述这一点的一种方式是，你正在从代码速度转向想法速度。"
+ },
+ {
+  "seg": 191,
+  "start": 917.023,
+  "end": 922.546,
+  "speaker": "Unknown",
+  "en": "So going back to our problem statement, how are we dealing with velocity sickness?",
+  "zh": "所以回到我们的问题陈述，我们要如何应对速度病？"
+ },
+ {
+  "seg": 192,
+  "start": 923.086,
+  "end": 926.728,
+  "speaker": "Unknown",
+  "en": "The velocity sickness is we're shipping too much code that's not going anywhere.",
+  "zh": "速度病就是我们正在运送太多没有结果的代码。"
+ },
+ {
+  "seg": 193,
+  "start": 926.748,
+  "end": 927.768,
+  "speaker": "Unknown",
+  "en": "The solution...",
+  "zh": "解决方案……"
+ },
+ {
+  "seg": 194,
+  "start": 929.322,
+  "end": 952.894,
+  "speaker": "Unknown",
+  "en": "is to shift that velocity to ideas so that rather than getting stuck in prototype gravity where we build something and we're so excited to just ship that thing and we're going down one path of the idea maze, we can now more effectively explore that whole maze and find that gold that's around the corner and really impact the people we're trying to help.",
+  "zh": "是将这种速度转移到想法上，这样我们就不会陷入原型重力，即我们构建某样东西并非常兴奋地只想运送那个东西，我们沿着想法迷宫的一条路径走下去，我们现在可以更有效地探索整个迷宫并发现角落里的金子，真正影响我们试图帮助的人。"
+ },
+ {
+  "seg": 195,
+  "start": 955.828,
+  "end": 959.67,
+  "speaker": "Unknown",
+  "en": "So let's go back, hear those problems, those velocity sickness problems I talked about at the beginning.",
+  "zh": "所以让我们回去，听听我在开始时谈到的那些问题，那些速度病问题。"
+ },
+ {
+  "seg": 196,
+  "start": 960.75,
+  "end": 962.111,
+  "speaker": "Unknown",
+  "en": "Let's see how this starts to address those.",
+  "zh": "让我们看看这如何开始解决这些问题。"
+ },
+ {
+  "seg": 197,
+  "start": 964.091,
+  "end": 966.292,
+  "speaker": "Unknown",
+  "en": "First, too many PRs.",
+  "zh": "第一，太多的 PR。"
+ },
+ {
+  "seg": 198,
+  "start": 967.213,
+  "end": 972.255,
+  "speaker": "Unknown",
+  "en": "We've moved the review point earlier into the process, so we're aligning on the key decisions up front.",
+  "zh": "我们将审查点提前到了流程的更早阶段，所以我们预先在关键决策上保持一致。"
+ },
+ {
+  "seg": 199,
+  "start": 973.875,
+  "end": 979.077,
+  "speaker": "Unknown",
+  "en": "That means the code review's easier, because the hardest part of any code review is what actually matters here.",
+  "zh": "这意味着代码审查更容易，因为任何代码审查最困难的部分是什么真正重要。"
+ },
+ {
+  "seg": 200,
+  "start": 979.097,
+  "end": 980.978,
+  "speaker": "Unknown",
+  "en": "That's the first step is like, what do I care about here?",
+  "zh": "第一步就像，我在这里关心什么？"
+ },
+ {
+  "seg": 201,
+  "start": 982.294,
+  "end": 985.054,
+  "speaker": "Unknown",
+  "en": "If you move that earlier, we've aligned on that, the code review becomes much simpler.",
+  "zh": "如果你把那一步提前，我们就对齐了，代码审查就会变得更简单。"
+ },
+ {
+  "seg": 202,
+  "start": 987.191,
+  "end": 988.712,
+  "speaker": "Unknown",
+  "en": "Number two, moving in too many directions.",
+  "zh": "第二，在太多方向上移动。"
+ },
+ {
+  "seg": 203,
+  "start": 989.213,
+  "end": 990.294,
+  "speaker": "Unknown",
+  "en": "Again, we're aligning early.",
+  "zh": "同样，我们要尽早对齐。"
+ },
+ {
+  "seg": 204,
+  "start": 990.534,
+  "end": 995.638,
+  "speaker": "Unknown",
+  "en": "As a team and individually, I'm understanding what I'm working on across many agents.",
+  "zh": "作为一个团队和作为一个个体，我正在理解我在许多智能体上正在做什么。"
+ },
+ {
+  "seg": 205,
+  "start": 996.219,
+  "end": 1000.523,
+  "speaker": "Unknown",
+  "en": "If I'm working on a large thing, I've understood it initially.",
+  "zh": "如果我在做一个很大的东西，我最初已经理解了它。"
+ },
+ {
+  "seg": 206,
+  "start": 1001.123,
+  "end": 1002.965,
+  "speaker": "Unknown",
+  "en": "As a team, we're sharing these plans and we're aligning.",
+  "zh": "作为一个团队，我们正在分享这些计划并且正在对齐。"
+ },
+ {
+  "seg": 207,
+  "start": 1002.985,
+  "end": 1013.294,
+  "speaker": "Unknown",
+  "en": "This is what we're trying to build, and it's easy before someone has spent even a day in AI going deep on some idea, building a prototype, we can talk about it early and make sure we're aligned on where are we actually taking the system.",
+  "zh": "这就是我们正在试图构建的东西，而且这很容易，甚至在有人在 AI 上花一整天去深入研究某个想法、构建原型之前，我们可以尽早谈论它并确保我们在系统实际走向何处上是对齐的。"
+ },
+ {
+  "seg": 208,
+  "start": 1015.476,
+  "end": 1021.899,
+  "speaker": "Unknown",
+  "en": "Declaring agent bankruptcy is just not a thing because you've made your agent stateless, so the result of their work is in this doc.",
+  "zh": "宣告智能体破产根本就不是一件事，因为你已经让你的智能体无状态了，所以他们工作的结果就在这个文档里。"
+ },
+ {
+  "seg": 209,
+  "start": 1021.939,
+  "end": 1025.1,
+  "speaker": "Unknown",
+  "en": "If you need to rebuild your human context, you just read the doc.",
+  "zh": "如果你需要重建你的人类上下文，你只需要阅读文档。"
+ },
+ {
+  "seg": 210,
+  "start": 1025.16,
+  "end": 1029.102,
+  "speaker": "Unknown",
+  "en": "Now you understand the state of this project and you can pick up from there.",
+  "zh": "现在你理解了这个项目的状态，你可以从那里接手。"
+ },
+ {
+  "seg": 211,
+  "start": 1030.823,
+  "end": 1034.185,
+  "speaker": "Unknown",
+  "en": "And the most important one, humans own the decisions.",
+  "zh": "最重要的一点是，人类拥有决策。"
+ },
+ {
+  "seg": 212,
+  "start": 1034.565,
+  "end": 1035.545,
+  "speaker": "Unknown",
+  "en": "That's what we're solving for.",
+  "zh": "这就是我们正在解决的问题。"
+ },
+ {
+  "seg": 213,
+  "start": 1035.905,
+  "end": 1037.246,
+  "speaker": "Unknown",
+  "en": "Humans need to own the decisions.",
+  "zh": "人类需要拥有决策。"
+ },
+ {
+  "seg": 214,
+  "start": 1038.867,
+  "end": 1041.648,
+  "speaker": "Unknown",
+  "en": "That's how we retain ownership of our software and our product.",
+  "zh": "这就是我们如何保留对软件和产品的所有权。"
+ },
+ {
+  "seg": 215,
+  "start": 1043.027,
+  "end": 1046.89,
+  "speaker": "Unknown",
+  "en": "And make it a true expression of what we're trying to create in the world.",
+  "zh": "并使其成为我们试图在世界中创造的真实表达。"
+ },
+ {
+  "seg": 216,
+  "start": 1049.492,
+  "end": 1063.522,
+  "speaker": "Unknown",
+  "en": "There are also some other benefits, so when you have this state extracted and you're working from a shared context, you get more parallel agents, it's easier to work with parallel agents, you get this durable decision log, so something that's really powerful.",
+  "zh": "还有一些其他好处，所以当你提取了这个状态并且你正从共享上下文工作时，你会得到更多的并行智能体，更容易与并行智能体一起工作，你会得到这个持久的决策日志，所以这真的很强大。"
+ },
+ {
+  "seg": 217,
+  "start": 1063.862,
+  "end": 1067.845,
+  "speaker": "Unknown",
+  "en": "I think a lot of people are thinking about how do we capture all the decisions going into these sessions?",
+  "zh": "我认为很多人在思考如何捕捉进入这些会议的所有决策？"
+ },
+ {
+  "seg": 218,
+  "start": 1069.524,
+  "end": 1081.107,
+  "speaker": "Unknown",
+  "en": "A really great solution to that is let's pull out all the decisions upfront and agree to them and put them in a place that's durable so that we don't have to have some LLM summarizing it and maybe picking the wrong things later on.",
+  "zh": "一个非常好的解决方案是，让我们把所有决策提前提取出来，并达成一致，把它们放在一个持久的地方，这样我们就不必让某个 LLM 总结它，并且可能在以后选错了东西。"
+ },
+ {
+  "seg": 219,
+  "start": 1081.127,
+  "end": 1084.568,
+  "speaker": "Unknown",
+  "en": "We wanna bring that forward so we can save it and refer to it later.",
+  "zh": "我们想把那带到前面，这样我们就可以保存它并在以后参考它。"
+ },
+ {
+  "seg": 220,
+  "start": 1085.909,
+  "end": 1089.87,
+  "speaker": "Unknown",
+  "en": "And then my favorite one is actually more collaboration.",
+  "zh": "然后我最喜欢的一点实际上是更多的协作。"
+ },
+ {
+  "seg": 221,
+  "start": 1091.664,
+  "end": 1097.947,
+  "speaker": "Unknown",
+  "en": "This process, we're doing more work that is creative, which means we should be collaborating more as engineers.",
+  "zh": "这个过程，我们正在做更多创造性的工作，这意味着作为工程师我们应该更多地协作。"
+ },
+ {
+  "seg": 222,
+  "start": 1097.967,
+  "end": 1100.348,
+  "speaker": "Unknown",
+  "en": "I think the future of engineering is multiplayer.",
+  "zh": "我认为工程学的未来是多人游戏。"
+ },
+ {
+  "seg": 223,
+  "start": 1101.108,
+  "end": 1104.47,
+  "speaker": "Unknown",
+  "en": "It's gonna be multiplayer by default sooner than we think.",
+  "zh": "它会比我们想象的更早默认成为多人游戏。"
+ },
+ {
+  "seg": 224,
+  "start": 1106.531,
+  "end": 1110.913,
+  "speaker": "Unknown",
+  "en": "And it's more important than ever because we're in this moment with AI where everything's moving faster than ever.",
+  "zh": "这比以往任何时候都更重要，因为我们处于 AI 的这个时刻，一切都比以往任何时候移动得更快。"
+ },
+ {
+  "seg": 225,
+  "start": 1111.473,
+  "end": 1112.033,
+  "speaker": "Unknown",
+  "en": "There's a pressure.",
+  "zh": "有一种压力。"
+ },
+ {
+  "seg": 226,
+  "start": 1112.333,
+  "end": 1114.734,
+  "speaker": "Unknown",
+  "en": "Everyone's company feels existential, small or big.",
+  "zh": "每个人的公司都感觉是存在主义的，无论大小。"
+ },
+ {
+  "seg": 227,
+  "start": 1115.354,
+  "end": 1116.215,
+  "speaker": "Unknown",
+  "en": "You need to deliver.",
+  "zh": "你需要交付。"
+ },
+ {
+  "seg": 228,
+  "start": 1116.675,
+  "end": 1120.757,
+  "speaker": "Unknown",
+  "en": "And the way we get through that as humans is by working together, and we need tools that help us do that.",
+  "zh": "我们作为人类度过难关的方式是一起工作，我们需要帮助我们这样做的工具。"
+ },
+ {
+  "seg": 229,
+  "start": 1123.237,
+  "end": 1126.84,
+  "speaker": "Unknown",
+  "en": "So here are three concrete things you can leave this room and do right now.",
+  "zh": "所以这里有你可以离开这个房间并立即做的三件具体的事情。"
+ },
+ {
+  "seg": 230,
+  "start": 1128.441,
+  "end": 1131.863,
+  "speaker": "Unknown",
+  "en": "The first one is to think of your work in terms of planning and polish.",
+  "zh": "第一是根据规划和打磨来思考你的工作。"
+ },
+ {
+  "seg": 231,
+  "start": 1132.724,
+  "end": 1142.031,
+  "speaker": "Unknown",
+  "en": "So recognizing that there are two gears I'm working in, there's no longer this one focus of implementation, there's plan and then polish.",
+  "zh": "所以认识到我在使用两个档位，不再只有实现这一个焦点，有规划然后打磨。"
+ },
+ {
+  "seg": 232,
+  "start": 1142.471,
+  "end": 1145.314,
+  "speaker": "Unknown",
+  "en": "And notice when you're in a single session and...",
+  "zh": "并且注意当你在单个会话中时……"
+ },
+ {
+  "seg": 233,
+  "start": 1146.272,
+  "end": 1147.693,
+  "speaker": "Unknown",
+  "en": "You're doing both of these in one session.",
+  "zh": "你在一个会话中做这两件事。"
+ },
+ {
+  "seg": 234,
+  "start": 1147.713,
+  "end": 1154.597,
+  "speaker": "Unknown",
+  "en": "Notice when you drift from the planning phase into the polish phase, and is your tool serving you for what you're trying to do at that moment?",
+  "zh": "注意你何时从规划阶段漂移到打磨阶段，以及你的工具是否为你此刻试图做的事情服务？"
+ },
+ {
+  "seg": 235,
+  "start": 1156.958,
+  "end": 1160.761,
+  "speaker": "Unknown",
+  "en": "Number two is to start to treat your plan as a portal to the software system.",
+  "zh": "第二是开始把你的计划视为通往软件系统的入口。"
+ },
+ {
+  "seg": 236,
+  "start": 1160.921,
+  "end": 1171.427,
+  "speaker": "Unknown",
+  "en": "So really treating it as this powerful, malleable tool to say what matters to me for what I'm working on right now, and asking it to show that to you so that you can make the best decisions possible.",
+  "zh": "所以真正把它视为这个强大的、可塑的工具，来说明我现在正在做的事情对我来说什么是重要的，并要求它向你展示这一点，以便你可以做出尽可能最好的决策。"
+ },
+ {
+  "seg": 237,
+  "start": 1173.488,
+  "end": 1175.429,
+  "speaker": "Unknown",
+  "en": "And number three is share a plan.",
+  "zh": "第三是分享一个计划。"
+ },
+ {
+  "seg": 238,
+  "start": 1176.049,
+  "end": 1179.73,
+  "speaker": "Unknown",
+  "en": "Don't just write the plan, give it to your agent, have them implement it.",
+  "zh": "不要只写计划，把它给你的智能体，让他们实现它。"
+ },
+ {
+  "seg": 239,
+  "start": 1180.53,
+  "end": 1181.49,
+  "speaker": "Unknown",
+  "en": "Give it to someone on your team.",
+  "zh": "把它给你团队中的某个人。"
+ },
+ {
+  "seg": 240,
+  "start": 1181.93,
+  "end": 1184.691,
+  "speaker": "Unknown",
+  "en": "This is, I feel like, very unnatural for a lot of people.",
+  "zh": "这，我觉得，对很多人来说是非常不自然的。"
+ },
+ {
+  "seg": 241,
+  "start": 1185.091,
+  "end": 1189.653,
+  "speaker": "Unknown",
+  "en": "We think we know what's going on, but it's always valuable.",
+  "zh": "我们认为我们知道正在发生什么，但它总是有价值的。"
+ },
+ {
+  "seg": 242,
+  "start": 1189.873,
+  "end": 1190.733,
+  "speaker": "Unknown",
+  "en": "You have smart teammates.",
+  "zh": "你有聪明的队友。"
+ },
+ {
+  "seg": 243,
+  "start": 1190.753,
+  "end": 1192.674,
+  "speaker": "Unknown",
+  "en": "They have great context in their heads.",
+  "zh": "他们头脑中有很好的上下文。"
+ },
+ {
+  "seg": 244,
+  "start": 1192.694,
+  "end": 1193.494,
+  "speaker": "Unknown",
+  "en": "You should tap into that.",
+  "zh": "你应该利用这一点。"
+ },
+ {
+  "seg": 245,
+  "start": 1193.534,
+  "end": 1194.614,
+  "speaker": "Unknown",
+  "en": "They will give you good feedback.",
+  "zh": "他们会给你好的反馈。"
+ },
+ {
+  "seg": 246,
+  "start": 1196.015,
+  "end": 1197.015,
+  "speaker": "Unknown",
+  "en": "It's a really valuable thing to do.",
+  "zh": "这是一件非常有价值的事情。"
+ },
+ {
+  "seg": 247,
+  "start": 1199.442,
+  "end": 1199.943,
+  "speaker": "Unknown",
+  "en": "That's my talk.",
+  "zh": "这就是我的演讲。"
+ },
+ {
+  "seg": 248,
+  "start": 1200.183,
+  "end": 1200.503,
+  "speaker": "Unknown",
+  "en": "I'm Matt.",
+  "zh": "我是 Matt。"
+ },
+ {
+  "seg": 249,
+  "start": 1201.064,
+  "end": 1202.205,
+  "speaker": "Unknown",
+  "en": "I'm the CEO of Ref.",
+  "zh": "我是 Ref 的 CEO。"
+ },
+ {
+  "seg": 250,
+  "start": 1202.245,
+  "end": 1205.608,
+  "speaker": "Unknown",
+  "en": "If you want to talk about any of this stuff, this has all my connection information.",
+  "zh": "如果你想谈论这些事情，这里有我所有的联系信息。"
+ },
+ {
+  "seg": 251,
+  "start": 1206.169,
+  "end": 1207.851,
+  "speaker": "Unknown",
+  "en": "Ref is a tool built for the decision layer.",
+  "zh": "Ref 是为决策层构建的工具。"
+ },
+ {
+  "seg": 252,
+  "start": 1208.852,
+  "end": 1211.374,
+  "speaker": "Unknown",
+  "en": "We work with all of your existing implementation tools.",
+  "zh": "我们与你所有现有的实施工具协同工作。"
+ },
+ {
+  "seg": 253,
+  "start": 1212.916,
+  "end": 1215.419,
+  "speaker": "Unknown",
+  "en": "If you want to see a demo, you can come by our booth or just see me out there.",
+  "zh": "如果你想看演示，你可以来我们的展位，或者直接在那里找我。"
+ },
+ {
+  "seg": 254,
+  "start": 1216.4,
+  "end": 1218.462,
+  "speaker": "Unknown",
+  "en": "And I love to talk about this stuff, so come say hi.",
+  "zh": "我很乐意讨论这些事情，所以过来打个招呼吧。"
+ },
+ {
+  "seg": 255,
+  "start": 1219.123,
+  "end": 1219.283,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 256,
+  "start": 1226.692,
+  "end": 1227.455,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

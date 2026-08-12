@@ -66,7 +66,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Claude Code]] · [[Slack]] · [[Codex]] · [[OpenAI]] · [[沙箱]] · [[ChatGPT]] · [[IC]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":70,"Lenny":34,"Claude Code":18,"Slack":15,"Codex":15,"OpenAI":31,"沙箱":15,"ChatGPT":11,"IC":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":40,"智能体":71,"Lenny":34,"Claude Code":18,"Slack":15,"Codex":15,"OpenAI":31,"沙箱":15,"ChatGPT":11,"IC":4}</script>
 
 <script>
 (function(){

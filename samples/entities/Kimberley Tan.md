@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":70,"开源模型":4,"微调":1,"业务逻辑":1,"前置部署工程师":4,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":71,"开源模型":4,"微调":1,"业务逻辑":1,"前置部署工程师":4,"Duet":1}</script>
 
 <script>
 (function(){

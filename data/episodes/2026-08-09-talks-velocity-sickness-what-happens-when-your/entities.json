@@ -1,0 +1,518 @@
+{
+  "episode_id": "2026-08-09-talks-velocity-sickness-what-happens-when-your",
+  "podcast": "精选演讲",
+  "date": "2026-08-09",
+  "tags": [
+    "速度病",
+    "AI 编程工作流",
+    "决策层",
+    "状态与动作分离",
+    "团队协作"
+  ],
+  "categories": [
+    "产品方法",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "matt-dailey",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Dailey",
+      "file": "Matt Dailey",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ref",
+      "type": "company",
+      "role": "company",
+      "name": "REF",
+      "file": "REF",
+      "primary": true,
+      "how_described": "本集说它是为「决策层」构建的工具，能与现有的代码实现工具协同工作，解决团队用 AI 产生的「速度病」问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.587,
+            20.168
+          ],
+          "quote": "I'm the CEO and founder of REF.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            21.148,
+            30.59
+          ],
+          "quote": "The problem we work on at REF is one you might be familiar with, where individual engineers are going really fast with AI, but the team as a whole is not, and we're working to help close that gap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1201.064,
+            1202.205
+          ],
+          "quote": "I'm the CEO of Ref.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1206.169,
+            1207.851
+          ],
+          "quote": "Ref is a tool built for the decision layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "velocity-sickness",
+      "type": "concept",
+      "role": "concept",
+      "name": "速度病 (velocity sickness)",
+      "file": "速度病",
+      "primary": true,
+      "how_described": "本集把它定义为：因 AI 导致产出突然暴增而引发的压力，结果是「有产出却没影响」，让人感觉很快却没真正触达用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            232.112,
+            235.597
+          ],
+          "quote": "The way I like to bundle it up is into this term velocity sickness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            354.615,
+            358.938
+          ],
+          "quote": "I think that's part of this experience of velocity sickness is we're building things that are not",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            389.526,
+            393.988
+          ],
+          "quote": "But we have this feeling of velocity sickness where it feels like we should be doing that, but it's not quite landing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            917.023,
+            922.546
+          ],
+          "quote": "So going back to our problem statement, how are we dealing with velocity sickness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            923.086,
+            926.728
+          ],
+          "quote": "The velocity sickness is we're shipping too much code that's not going anywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            955.828,
+            959.67
+          ],
+          "quote": "So let's go back, hear those problems, those velocity sickness problems I talked about at the beginning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成是执行具体工作的工具，但若让它在聊天框里孤立地做关键决策，就会剥夺人类对代码的所有权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            145.883,
+            149.524
+          ],
+          "quote": "The third problem you might be experiencing is declaring agent bankruptcy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            205.072,
+            212.199
+          ],
+          "quote": "Doing a lot of your work, if you as an engineer are letting an agent make a critical decision, you are ceding control of your code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            212.459,
+            215.522
+          ],
+          "quote": "You are no longer the owner of that code, the agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            460.701,
+            465.383
+          ],
+          "quote": "At some point, an agent takes that idea and implements it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            465.423,
+            469.945
+          ],
+          "quote": "This is arguably should not even be on this slide, because it's not our human work anymore, it's done by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            471.994,
+            478.96
+          ],
+          "quote": "And then in the end we do some polishing where we take back that thing the agent has made for us and we hold it in our hands and we say, is this what I wanted?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            633.385,
+            654.621
+          ],
+          "quote": "So being in this isolated environment where I'm working with an agent, maybe I start with my vague idea and I'm exploring it and asking questions, but decisions are being made in that chat that are not shared with my team that are gonna disappear as long, I'm gonna result in some code being output where those important decisions are not being made clear and shared with the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            654.981,
+            656.743
+          ],
+          "quote": "And you're also in this mode where the agent's saying,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            740.529,
+            750.394
+          ],
+          "quote": "Plan mode is great, but it's largely a rich chat message where the agent is saying, hey, here's a better visualization of what I'm trying to express to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            810.735,
+            819.559
+          ],
+          "quote": "So when you're living and working in a long-lived session with an agent, there's this implicit context being built up over that work, and that's great.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            824.941,
+            831.184
+          ],
+          "quote": "What you want is to separate the agent as the action and the doc as the state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            843.804,
+            848.988
+          ],
+          "quote": "So that every agent is largely stateless and starts from this place, the same place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1015.476,
+            1021.899
+          ],
+          "quote": "Declaring agent bankruptcy is just not a thing because you've made your agent stateless, so the result of their work is in this doc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1176.049,
+            1179.73
+          ],
+          "quote": "Don't just write the plan, give it to your agent, have them implement it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decision-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "决策层 (decision layer)",
+      "file": "决策层",
+      "primary": true,
+      "how_described": "本集把它说成是新的工作形态中「思考关键决策、发挥工程品味」的一层，与旧时代专注于埋头实现的 IDE 相对",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            571.121,
+            572.862
+          ],
+          "quote": "This is the decision layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            596.156,
+            599.198
+          ],
+          "quote": "So let's think about what a tool built for the decision layer would look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            630.162,
+            632.764
+          ],
+          "quote": "At the decision layer, we're doing this creative exploratory work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1206.169,
+            1207.851
+          ],
+          "quote": "Ref is a tool built for the decision layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集把它说成是在文档中精细管理共享上下文的方法，让多个新智能体基于同一份状态无状态地工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            841.502,
+            843.363
+          ],
+          "quote": "You're ultimately doing context engineering in this doc.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "type": "concept",
+      "role": "concept",
+      "name": "状态 (state)",
+      "file": "状态",
+      "primary": true,
+      "how_described": "本集提出「状态与动作分离」，把智能体当作动作、把文档当作共享且持久的状态，以取代孤立的聊天上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            805.913,
+            810.415
+          ],
+          "quote": "But the big conceptual flip here is actually that we're pulling out the state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            824.941,
+            831.184
+          ],
+          "quote": "What you want is to separate the agent as the action and the doc as the state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            835.957,
+            841.482
+          ],
+          "quote": "That are able to collaborate and work on this same piece of context and state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1025.16,
+            1029.102
+          ],
+          "quote": "Now you understand the state of this project and you can pick up from there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1049.492,
+            1063.522
+          ],
+          "quote": "There are also some other benefits, so when you have this state extracted and you're working from a shared context, you get more parallel agents, it's easier to work with parallel agents, you get this durable decision log, so something that's really powerful.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prototype-gravity",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型重力 (prototype gravity)",
+      "file": "原型重力",
+      "primary": true,
+      "how_described": "本集把它说成是做出一点东西就兴奋地想赶紧发布的惯性；解法是从代码速度转向想法速度，多探索几条路径再发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            929.322,
+            952.894
+          ],
+          "quote": "is to shift that velocity to ideas so that rather than getting stuck in prototype gravity where we build something and we're so excited to just ship that thing and we're going down one path of the idea maze, we can now more effectively explore that whole maze and find that gold that's around the corner and really impact the people we're trying to help.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-bankruptcy",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体破产 (agent bankruptcy)",
+      "file": "智能体破产",
+      "primary": true,
+      "how_described": "本集把它描述为工程师同时开十几个终端跑任务、隔天面对一堆陌生上下文只能推倒重来的现象，既做重样工作又浪费 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            145.883,
+            149.524
+          ],
+          "quote": "The third problem you might be experiencing is declaring agent bankruptcy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1015.476,
+            1021.899
+          ],
+          "quote": "Declaring agent bankruptcy is just not a thing because you've made your agent stateless, so the result of their work is in this doc.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ide",
+      "type": "concept",
+      "role": "concept",
+      "name": "IDE",
+      "file": "IDE",
+      "primary": false,
+      "how_described": "本集说它是 AI 出现前的主力工具，专为「埋头苦干写代码」的实现阶段而设计，已不再匹配当下的决策层工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            431.43,
+            441.314
+          ],
+          "quote": "Our IDE, our workhorse, it was built for implementation and polish to be done by an individual, to be heads down, building as a software engineer, writing code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            554.926,
+            557.59
+          ],
+          "quote": "So we used to have the IDE as our main tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plan-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "计划模式 (plan mode)",
+      "file": "计划模式",
+      "primary": false,
+      "how_described": "本集提到它是个好工具，但本质上只是一条更丰富的聊天消息，依然处于孤立、转瞬即逝的环境中",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            729.002,
+            730.383
+          ],
+          "quote": "The first one is plan mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            740.529,
+            750.394
+          ],
+          "quote": "Plan mode is great, but it's largely a rich chat message where the agent is saying, hey, here's a better visualization of what I'm trying to express to you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

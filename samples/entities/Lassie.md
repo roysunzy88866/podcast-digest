@@ -25,7 +25,7 @@ unlisted: true
 
 [[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[智能体]] · [[回路中的人类]] · [[现有巨头]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"智能体":70,"回路中的人类":2,"现有巨头":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"智能体":71,"回路中的人类":2,"现有巨头":1,"Stripe":10}</script>
 
 <script>
 (function(){

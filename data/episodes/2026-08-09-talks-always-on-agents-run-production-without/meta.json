@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-09-talks-always-on-agents-run-production-without",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/vSx5IULvBns.m4a",
+  "duration_sec": 1481.243,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 326,
+  "asr": true,
+  "title_en": "Always-on agents run production without the on-call tax — Justin Smith, Resolve AI",
+  "podcast": "精选演讲",
+  "date": "2026-08-09",
+  "added": "2026-08-12",
+  "speaker_map": {
+    "SPEAKER_00": "Justin Smith"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Justin Smith"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "用 AI 运维 AI：Resolve 如何用后台智能体接管生产环境"
+}
