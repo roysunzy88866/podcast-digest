@@ -529,6 +529,8 @@ body[data-slug^="tags/"] {
     min-height: calc(105px + 80px);
     overflow: hidden;
     transition: background 0.15s;
+    position: relative; /* 整卡点击(拉伸链接)的定位容器 —— 设计稿 .row data-go 整块进详情的意图,
+                           真站用标题 <a> 的 ::after 铺满实现(留住 <a> 的 SEO/SPA/新标签,不改成纯 JS) */
   }
   .grid > .card:last-child { border-bottom: none; }
   /* hover 只给真有指针悬停的设备 —— 触屏上 :hover 会「点完粘住」不消失(issue:手机点完卡片
@@ -558,6 +560,11 @@ body[data-slug^="tags/"] {
     -webkit-line-clamp: 2;
   }
   .card .t a { color: inherit; }
+  /* 拉伸链接:标题 <a> 的伪元素铺满整卡 → 卡上任意 hover 区点击都进详情页(设计稿整卡点击意图)。
+     标题 <a> 保留(SEO 爬取入口 C22 / Quartz SPA / 桌面新标签),只是把可点区域撑到整卡。
+     ⚠️ 卡内今后若加别的可点元素(分享/收藏/外链…),必须给它 position:relative + z-index≥2 抬到本层之上,
+        否则会被整卡跳转吞掉(现状卡内可点的只有标题 + 标签,标签已在下方抬到 z-index:2)。 */
+  .card .t a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
   /* 金句:斜体 + 引号由样式生成(设计稿 L359-363);内容里不写标点 */
   .card .q {
     font-size: 15px;
@@ -599,6 +606,8 @@ body[data-slug^="tags/"] {
     overflow-x: auto;
     scrollbar-width: none;
     min-height: 34px;
+    position: relative; /* 抬到拉伸链接之上,让标签各自可点(去标签页),不被整卡点击吞掉 */
+    z-index: 2;
   }
   .card .tags::-webkit-scrollbar { display: none; }
   .chip {
