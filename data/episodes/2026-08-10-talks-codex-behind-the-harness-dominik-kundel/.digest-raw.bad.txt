@@ -1,0 +1,75 @@
+```json
+{
+  "title_zh": "Codex 智能体内部:从上下文构建到自动审查的工程拆解",
+  "tldr": "一场 20 分钟高速拆解 Codex 智能体内部运作的实操分享。",
+  "digest_md": "Codex 智能体的整套代码是开源的(Apache 2 许可证、用 Rust 写成),你可以直接拿它当蓝图,照着学怎么造自己的智能体。本场分享直接跳过"什么是智能体"的基础,专讲 Codex 在上下文构建、执行动作、速度优化和循环控制上解决过的硬问题——这些都是你做自己的智能体绕不开的挑战。
+
+## 两条协议,串起从 UI 到推理的整条链路
+
+当你在界面上发出一条消息,中间其实有两段协议:**应用服务器协议**负责 UI 和 harness(驱动智能体运行的"挽具")之间的通信;**responses API** 负责 harness 和模型推理之间的通信 [02:07]。responses API 是去年对传统聊天完成 API 的重新设计,专门针对智能体场景加了网络搜索、图像生成等内置能力,而且它是开放的——你可以把任何兼容 responses API 的模型提供商接入 Codex harness [03:58]。应用服务器协议同样开放,Codex 应用本身、不少第三方社区项目,甚至把 Codex 塞进 Claude Code 的插件,用的都是同一套 [02:56]。
+
+## 上下文构建:既要小、又要全、还要省
+
+这是 harness 接管后最重要的一步。上下文越大,不仅 token 花费越多,还越容易出现互相矛盾的信息让模型困惑 [04:37]。但装少了又不够用——你装了一堆插件和工具,描述自然就越攒越长。Codex 的解法是两手抓:
+
+- **延迟工具(deferred tools)**:从 GPT 5.4 起,responses API 允许把工具标记为"延迟加载",它们不会直接塞进上下文窗口,而是等智能体用"工具搜索"去按需发现 [06:07]。你既可以用内置的工具搜索工具,也可以自己实现一个发现机制。
+- **可用技能列表封顶 2%**:把所有可用技能的描述上限设为最大上下文窗口的 2%;一旦超长,就逐步削减每条描述的详细程度 [06:28]。
+
+> 【背景】MCP(Model Context Protocol)是一种让智能体接入外部工具和数据源的协议。转写稿原文多次出现"MCPs"或被识别为"MCP's"。
+
+## 让智能体真正动起来:异步、计算机使用、文件系统
+
+**异步动作**(async actions)的典型场景是"子智能体"。harness 给智能体一个"孵化智能体"工具,它能造出新的智能体实例,把任务委派出去,自己继续干活;之后可以通过"发送输入"工具往子智能体塞新内容、等它跑完、或者把它关掉 [07:29]。后台终端也是同一套机制——启动一个终端,持续通过标准输入喂数据或等它跑完 [07:53]。
+
+**计算机使用**(computer use)的实现经历了一次进化。最早在 responses API 里引入时,它一次只能做一个动作,而且得你提前声明、手动实现动作类型 [08:19]。后来改用**代码执行**来实现:让智能体用 JavaScript 或 Python 自己写脚本,去驱动你提供的任何计算机环境 [08:58]。Codex 的浏览器功能就是这么做的——它启动一个持久化的 Node REPL(一种交互式运行环境),在其中写 Playwright 代码来操作一个 Chromium 浏览器实例 [09:08]。智能体可以先看一页摸清结构,再写脚本对后续页面批量抓取,速度显著提升 [09:53]。
+
+**文件系统交互**上,从 GPT-5 起的模型都专门训练过一个叫"应用补丁"的工具,用给差异(diffs)的方式改文件、建文件 [10:15]。其他文件操作则走 shell 工具,模型会自然而然地用 ripgrep 做文件搜索(这是训练时养成的习惯),harness 也顺手把 ripgrep 打包进去了 [10:42]。在 Windows 上,模型则被训练为原生使用 PowerShell [10:56]。
+
+## 沙箱与自动审查:治好"审批疲劳"
+
+所有文件系统交互都要过沙箱层。Codex 在 Mac OS 上用 Seatbelt,在 Linux 上用 Bubblewrap [11:18]。Windows 上比较特殊,团队自己造了一个开源的 Windows 沙箱,放在同一个 GitHub 仓库里(细节可以看 David 写的深入文章)[11:25]。
+
+但沙箱有个老大难:**审批疲劳**。长任务跑起来,动不动就要你点同意;很多人干脆开"完全访问"模式——可 IT 和安全部门恨透了这个,而且风险实打实:你让模型发封邮件、它发现附件挂不上,可能自作主张把文件传到公共网盘;或者转义搞错、数据删多了,这种事哪怕模型再强也可能发生 [12:51]。Codex 的对策是 Autoreview(自动审查)。当主智能体想在沙箱里做需要升级权限的操作时,harness 会启动一个**完全独立的子智能体**来审 [13:34]。这个审查智能体不能再生子智能体、只有只读权限,但手里拿着用户授权范围、风险分类法、完整转写稿和待执行的工具调用 [14:20]。删一个文件:是你明确要求的吗?删的是 .git 文件夹吗?上下文不同,判决完全不同 [14:31]。这套机制也管网络调用——curl 一下 Google 试试通不通通常没问题,但上传文件就另说了 [15:04]。
+
+## 网络才是真正的瓶颈
+
+推出 GPT-5.3 Codex Spark(在 Cerebras 上跑到每秒 1000 个 token)之后,团队发现:推理已经不是瓶颈了,**网络才是** [15:53]。于是引入了 **WebSocket 模式**:不用传统的服务器端事件加 HTTP,而是走一条持久化的 WebSocket 连接,既省网络开销,又支持有状态的上下文——只有真正变动的数据才传输 [16:02]。比如一次工具调用完成,只回传那一条结果,而不是把一堆历史项重发一遍;时间一长,提速非常明显 [17:04]。
+
+## 循环:让智能体自己跑,但要能收住
+
+`/goal`(斜杠目标)指令背后的机制是:harness 会不断向智能体注入"继续提示",其中包含你设定的目标,直到智能体自己调用"更新目标"工具、声明目标已达成才停 [18:07]。正因如此,你写目标时别写成长篇大论,要写得**具体且可验证**,这样系统才好判断"做完了没有" [18:33]。
+
+## 压缩:跑几天的长任务也得撑住
+
+为了让智能体能连续跑几小时甚至几天,去年底加入了**自动压缩**机制:在服务器端自动把先前的上下文窗口压成一个"压缩项",保留后续轮次需要的必要信息,而且是用模型训练时见过的方式做的,性能不打折 [19:06]。
+
+## 本集带走
+
+- **延迟工具 + 技能列表封顶 2%**:给上下文瘦身、控成本的两招,延迟工具从 GPT 5.4 起在 responses API 原生支持。
+- **异步靠子智能体**:给智能体一个"孵化"工具,让它造实例、派活、收结果;后台终端同理。
+- **计算机用代码执行驱动**:别再逐个声明动作,让智能体自己写 JavaScript/Python 脚本去操作环境;浏览器场景特别见效。
+- **文件编辑用 apply patch**:从 GPT-5 起模型专门训练过这个工具,其他文件操作走 shell,搜索会自然倾向 ripgrep。
+- **沙箱跨平台**:Mac 用 Seatbelt、Linux 用 Bubblewrap、Windows 需自建开源沙箱。
+- **Autoreview 治审批疲劳**:独立只读子智能体审权限升级,结合用户授权、风险分类和上下文做判决,把数据泄露挡在外面。
+- **WebSocket 模式省网络**:推理够快之后,网络才是瓶颈;走持久连接、只传变动数据,能大幅提速。
+- **目标要具体可验证**:`/goal` 靠模型自调"更新目标"收尾,目标写得越像可测的断言,越好判断是否完成。
+- **自动压缩撑长任务**:在服务器端按模型训练过的方式压缩上下文,性能不打折。",
+  "quotes": [
+    {"en": "We use that same app server to power the Codex app, so it has really all of that functionality that you might expect from Codex, as well as we have a lot of third-party community projects that build on top of it", "zh": "我们使用同样的应用服务器来驱动 Codex 应用,所以它实际上具有你可能期望从 Codex 获得的所有功能,以及我们有很多第三方社区项目在上面构建", "timestamp": "02:39", "speaker": "Unknown"},
+    {"en": "the more context you have in your context, the higher it is that you have contradicting information, and it causes confusion for the model.", "zh": "你的上下文中的上下文越多,你拥有相互矛盾的信息的可能性就越高,这会导致模型产生困惑。", "timestamp": "04:37", "speaker": "Unknown"},
+    {"en": "for available skills, we actually cap the available skills list at 2% of your maximum context window.", "zh": "对于可用的技能,我们实际上将可用技能列表上限设为你最大上下文窗口的 2%。", "timestamp": "06:28", "speaker": "Unknown"},
+    {"en": "the agent can script its own interactions with whatever computer implementation you want to have.", "zh": "智能体可以编写它与任何你想要的计算机实现的交互脚本。", "timestamp": "08:58", "speaker": "Unknown"},
+    {"en": "what happens when Codex uses browser use is it actually interacts with a persistent node REPL that gets persisted throughout the turns.", "zh": "当 Codex 使用浏览器使用时发生的是,它实际上与一个持久化的节点 REPL 交互,它贯穿于轮次之间。", "timestamp": "09:08", "speaker": "Unknown"},
+    {"en": "we actually had to build our own custom open source Windows sandbox.", "zh": "我们实际上必须构建我们自己的自定义开源 Windows 沙箱。", "timestamp": "11:25", "speaker": "Unknown"},
+    {"en": "with sandboxes, though, one of the biggest complaints is always approval fatigue.", "zh": "然而,对于沙箱,最大的抱怨之一始终是审批疲劳。", "timestamp": "11:59", "speaker": "Unknown"},
+    {"en": "You asking a model to send out a file through an email, pushing it to have high agency, and it realizes it can't attach the file, so it uploads it to a file share and uses that instead, or messes up some escaping and accidentally deletes too much data.", "zh": "你要求一个模型通过电子邮件发送一个文件,推动它拥有高度的主观能动性,并且它意识到它无法附加该文件,所以它将其上传到文件共享并使用该文件来代替,或者搞砸了一些转义处理并意外删除了太多数据。", "timestamp": "12:51", "speaker": "Unknown"},
+    {"en": "we built Autoreview with this goal to cover all of the things that are harder to predict that an agent might do, and especially in the long run, and approve those automatically without having to escalate them to you while keeping things like data exfiltration outside of it.", "zh": "我们构建了 Autoreview,其目标是覆盖所有那些更难预测的智能体可能会做的事情,尤其是在长期运行中,并自动批准这些事情,而无需将其升级给你,同时将数据泄露之类的事情排除在外。", "timestamp": "13:15", "speaker": "Unknown"},
+    {"en": "the model, when it tries to escalate, spins up an auto review sub-agent.", "zh": "当模型试图升级时,会启动一个自动审查子智能体。", "timestamp": "13:34", "speaker": "Unknown"},
+    {"en": "in some cases, you want the agent to actually delete a file. In other cases, you don't.", "zh": "在某些情况下,你希望智能体真正删除一个文件。在其他情况下,你不希望。", "timestamp": "14:27", "speaker": "Unknown"},
+    {"en": "we realized that with all of these tool calls and the interactions, inference was no longer the bottleneck. It was actually the network.", "zh": "我们意识到,随着所有这些工具调用和交互,推理不再是瓶颈。实际上是网络。", "timestamp": "15:53", "speaker": "Unknown"},
+    {"en": "the responses API doesn't run through server-side events and HTTP, but instead uses a persistent WebSocket connection, which allows us to save both on network overhead, but also provide stateful context, which means we only have to send the data that actually changed.", "zh": "responses API 不再通过服务器端事件和 HTTP 运行,而是使用持久化的 WebSocket 连接,这允许我们节省网络开销,同时也提供有状态的上下文,这意味着我们只需要发送实际变化的数据。", "timestamp": "16:02", "speaker": "Unknown"},
+    {"en": "you actually don't want to write full essays like I know a lot of you have been trying to into your goal, but instead have very concrete and verifiable prompts so that it's easy to detect when things are done.", "zh": "你实际上不想写完整的文章,就像我知道你们许多人一直试图写进你的目标中,而是有非常具体和可验证的提示,以便很容易检测到事情何时完成。", "timestamp": "18:33", "speaker": "Unknown"},
+    {"en": "most of the features that are standout for Codex are actually features that are exposed in the responses API.", "zh": "Codex 的大多数突出功能实际上是在 responses API 中公开的功能。", "timestamp": "19:58", "speaker": "Unknown"}
+  ]
+}
+```
