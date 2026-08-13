@@ -93,8 +93,10 @@ describe("C13g · 集页正文照设计稿排", () => {
     expect(bodyRule).toMatch(/line-height:\s*1\.95/);
   });
 
-  it("★ 正文颜色不写死 —— 交给主题,深色模式才不瞎", () => {
-    expect(bodyRule).not.toMatch(/color:/);
+  it("★ 正文颜色用主题变量不硬编 —— 深色模式才不瞎", () => {
+    // 2026-08-13 正文软化色:走主题感知变量 --pd-read(浅#33353a/深#cfcdcb),不许硬编 hex。
+    expect(bodyRule).not.toMatch(/color:\s*#/); // 不许硬编 hex
+    expect(bodyRule).toMatch(/color:\s*var\(--pd-read\)/); // 用主题变量
   });
 
   it("★ 金句块不被正文那条吃掉(它自己是 17px / 1.7)", () => {
@@ -103,8 +105,8 @@ describe("C13g · 集页正文照设计稿排", () => {
     expect(scss).toMatch(/blockquote:has\(> p\[id\^="q"\]\)\s*\{[^}]*font-size:\s*17px/);
   });
 
-  it("★ 小节标题 20px / 行距 1.45 / 普惠体", () => {
-    expect(h2Rule).toMatch(/font-size:\s*20px/);
+  it("★ 小节标题 24px / 行距 1.45 / 普惠体", () => {
+    expect(h2Rule).toMatch(/font-size:\s*24px/); // 20→24 小标题放大(用户 2026-08-13)
     expect(h2Rule).toMatch(/line-height:\s*1\.45/);
     expect(h2Rule).toMatch(/font-family:\s*var\(--puhui\)/);
   });

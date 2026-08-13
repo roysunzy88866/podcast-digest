@@ -10,7 +10,7 @@
 //   · 出现在这些集:列所有相关集 + 角色(嘉宾/被提及)
 //   · 关联实体:常一起出现的、且**有页的**实体(避免死链)
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpathSync, rmSync } from "node:fs";
-import { resolve, dirname, join } from "node:path";
+import { resolve, dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm } from "./gate.mjs";
 import { blockId, episodeCategories, renderSiteTopBar, renderSidebarScript } from "./render.mjs";
@@ -488,7 +488,16 @@ function main() {
   // 本地一直靠手动 rm -rf 才没撞上,云端没这步 → 收进代码,根除整类。
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
-  for (const [file, md] of pages) writeFileSync(join(outDir, `${file}.md`), md);
+  // ⚠️ 实体名偶发含「/」(GLM 抽取失误,如「会话日志/追踪」)→ 被当子目录路径,父目录不存在则
+  //    writeFileSync 抛 ENOENT、崩掉整个 build-entities → 全库重建挂 → 新内容永远发不出去
+  //    (2026-08-13 实测:08-11/08-12 连续 cron 阻断部署的根因)。写前建父目录兜底,任何名字都不再崩。
+  for (const [file, md] of pages) {
+    const p = join(outDir, `${file}.md`);
+    // 防路径穿越:实体名含 ../ 等会 join 到 outDir 外(GLM 脏数据)→ 响亮跳过、绝不越界写(GLM 20260813-006[1])
+    if (relative(outDir, p).startsWith("..")) { console.warn(`⚠️ 跳过越界实体名「${file}」(疑路径穿越,不写)`); continue; }
+    mkdirSync(dirname(p), { recursive: true });
+    writeFileSync(p, md);
+  }
 
   const eps = canonicalizeEpisodes(episodes, buildCanonMap(aliasById), aliasById);
   const aggs = aggregate(eps, aliasById);
