@@ -1,0 +1,3618 @@
+[
+ {
+  "seg": 0,
+  "start": 0.211,
+  "end": 1.191,
+  "speaker": "Unknown",
+  "en": "COVID happened.",
+  "zh": "COVID 爆发了。"
+ },
+ {
+  "seg": 1,
+  "start": 1.291,
+  "end": 2.532,
+  "speaker": "Unknown",
+  "en": "Queen's Gambit happened.",
+  "zh": "《后翼弃兵》火了。"
+ },
+ {
+  "seg": 2,
+  "start": 2.592,
+  "end": 3.912,
+  "speaker": "Unknown",
+  "en": "Some news cycles happened.",
+  "zh": "一些新闻周期发生了。"
+ },
+ {
+  "seg": 3,
+  "start": 4.092,
+  "end": 8.313,
+  "speaker": "Unknown",
+  "en": "And we're like, oh, this might just be a flash in the pan like treadmills and sourdough bread.",
+  "zh": "我们就想，哦，这可能只是像跑步机和酸面团面包一样的昙花一现。"
+ },
+ {
+  "seg": 4,
+  "start": 8.473,
+  "end": 18.435,
+  "speaker": "Unknown",
+  "en": "But then in 2023, we had another crazy wave where all these kids started playing in schools because of short form content and the Mittens bot and the cheating scandal.",
+  "zh": "但随后在 2023 年，我们又迎来了一波疯狂浪潮，所有这些孩子因为短视频内容和 Mittens 机器人以及作弊丑闻开始在学校里下棋。"
+ },
+ {
+  "seg": 5,
+  "start": 18.455,
+  "end": 19.995,
+  "speaker": "Unknown",
+  "en": "And we just spiked again.",
+  "zh": "然后我们再次激增。"
+ },
+ {
+  "seg": 6,
+  "start": 20.015,
+  "end": 24.356,
+  "speaker": "Unknown",
+  "en": "And then when we came down again, we were so much higher and we maintained this baseline.",
+  "zh": "而当我们再次回落时，我们的水平已经高得多，并维持了这个基准线。"
+ },
+ {
+  "seg": 7,
+  "start": 24.556,
+  "end": 29.157,
+  "speaker": "Unknown",
+  "en": "How do you think about like how to design a rating system for poker?",
+  "zh": "你觉得应该要怎么为扑克设计一个评级系统？"
+ },
+ {
+  "seg": 8,
+  "start": 29.417,
+  "end": 57.764,
+  "speaker": "Unknown",
+  "en": "we're bringing the chess playbook which is like how good are you really not just can you buy the most chips or can you use a bot or can you steal the most money whatever it is we've all played those games where you're playing for m ms and someone's just like all in all the time and they just rebuy more m ms as people get used to like wait i actually care about my poker rating people are going to care about it as much as money because it's a reflection of like the value and their skill as a player i think this is going to be quite an interesting uh innovation for for poker",
+  "zh": "我们正在引入国际象棋的策略思路，也就是你到底有多强，而不仅仅是你能买最多的筹码还是能使用机器人或者能偷最多的钱，不管是什么，我们都玩过那些用 M&M 豆糖来玩的游戏，有人总是 All in，一直 All in，当人们开始习惯于说等等，我真的很在乎我的扑克评级，人们就会像在乎钱一样在乎它，因为这是对玩家价值和技能的一种反映，我认为这将是扑克领域相当有趣的创新"
+ },
+ {
+  "seg": 9,
+  "start": 65.228,
+  "end": 65.849,
+  "speaker": "Unknown",
+  "en": "Hi, listeners.",
+  "zh": "大家好，听众朋友们。"
+ },
+ {
+  "seg": 10,
+  "start": 66.029,
+  "end": 67.15,
+  "speaker": "Unknown",
+  "en": "Welcome back to No Priors.",
+  "zh": "欢迎回到 No Priors。"
+ },
+ {
+  "seg": 11,
+  "start": 67.691,
+  "end": 80.084,
+  "speaker": "Unknown",
+  "en": "Today, I'm here with Eric Alivest, who bought the chess.com domain out of bankruptcy auction in 2005 for 55 grand when almost every investor told him it was an uninvestable niche passion project.",
+  "zh": "今天，我和 Eric Alivest 在一起，他在 2005 年花了 5.5 万美元从破产拍卖中买下了 chess.com 域名，当时几乎每个投资者都告诉他这是一项不可投资的小众激情项目。"
+ },
+ {
+  "seg": 12,
+  "start": 80.264,
+  "end": 89.286,
+  "speaker": "Unknown",
+  "en": "Two decades later, he's built the dominant chess platform with more than 250 million members, 200 million a year in revenue, and a mission to get a billion people to play chess.",
+  "zh": "二十年后，他建立了占据主导地位的国际象棋平台，拥有超过 2.5 亿会员，年收入 2 亿美元，使命是让 10 亿人下国际象棋。"
+ },
+ {
+  "seg": 13,
+  "start": 89.466,
+  "end": 94.987,
+  "speaker": "Unknown",
+  "en": "It's a game that's more popular than ever, despite computers outclassing humans at it for the last 30 years.",
+  "zh": "尽管在过去 30 年里计算机在国际象棋上的表现已经超越了人类，但这仍然是一项比以往任何时候都更受欢迎的游戏。"
+ },
+ {
+  "seg": 14,
+  "start": 95.767,
+  "end": 103.248,
+  "speaker": "Unknown",
+  "en": "We talk about what AI means for games, the future of chess.com, how to build a rating system for poker, and the future of human skills.",
+  "zh": "我们谈论了 AI 对游戏意味着什么，chess.com 的未来，如何为扑克构建评级系统，以及人类技能的未来。"
+ },
+ {
+  "seg": 15,
+  "start": 103.648,
+  "end": 104.368,
+  "speaker": "Unknown",
+  "en": "Welcome, Eric.",
+  "zh": "欢迎，Eric。"
+ },
+ {
+  "seg": 16,
+  "start": 105.008,
+  "end": 106.969,
+  "speaker": "Unknown",
+  "en": "Eric, it's great to have you on No Priors.",
+  "zh": "Eric，很高兴你能来 No Priors。"
+ },
+ {
+  "seg": 17,
+  "start": 107.009,
+  "end": 107.369,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎。"
+ },
+ {
+  "seg": 18,
+  "start": 107.729,
+  "end": 108.909,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me.",
+  "zh": "非常感谢你们邀请我。"
+ },
+ {
+  "seg": 19,
+  "start": 109.389,
+  "end": 117.735,
+  "speaker": "Unknown",
+  "en": "So I'd love to just make sure our listeners have a little bit of the backstory of Chess.com and how you built this business.",
+  "zh": "所以我想确保我们的听众对 Chess.com 的背景故事以及你如何建立这项业务有一点了解。"
+ },
+ {
+  "seg": 20,
+  "start": 117.795,
+  "end": 125.541,
+  "speaker": "Unknown",
+  "en": "But could you paint a little bit of a picture of just, you know, usage and both the company and the user base and product today first?",
+  "zh": "但首先你能描绘一下现在的使用情况，以及公司、用户群和产品的概况吗？"
+ },
+ {
+  "seg": 21,
+  "start": 125.901,
+  "end": 126.422,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "好的，当然。"
+ },
+ {
+  "seg": 22,
+  "start": 126.542,
+  "end": 126.962,
+  "speaker": "Unknown",
+  "en": "We are",
+  "zh": "我们的规模"
+ },
+ {
+  "seg": 23,
+  "start": 128.665,
+  "end": 131.546,
+  "speaker": "Unknown",
+  "en": "We are much larger than I ever thought we would be.",
+  "zh": "我们的规模比我曾想象的要大得多。"
+ },
+ {
+  "seg": 24,
+  "start": 131.766,
+  "end": 134.227,
+  "speaker": "Unknown",
+  "en": "So it's kind of wild to say these numbers for me.",
+  "zh": "所以对我来说，说这些数字有点疯狂。"
+ },
+ {
+  "seg": 25,
+  "start": 134.867,
+  "end": 139.989,
+  "speaker": "Unknown",
+  "en": "We're about 10 million daily active users, about 40 or 50 million monthly active users.",
+  "zh": "我们大约有 1000 万日活跃用户，大约 4000 或 5000 万月活跃用户。"
+ },
+ {
+  "seg": 26,
+  "start": 140.589,
+  "end": 145.27,
+  "speaker": "Unknown",
+  "en": "It's always a little slower in the summertime as people are in the northern hemisphere out and about.",
+  "zh": "夏天总是稍微慢一点，因为北半球的人们都在外面活动。"
+ },
+ {
+  "seg": 27,
+  "start": 147.095,
+  "end": 155.38,
+  "speaker": "Unknown",
+  "en": "We have more than 250 million registered members and more revenue than I thought we would end up with as a chess company.",
+  "zh": "我们有超过 2.5 亿注册会员，收入也比我曾以为一家国际象棋公司能达到的要多。"
+ },
+ {
+  "seg": 28,
+  "start": 156.661,
+  "end": 161.524,
+  "speaker": "Unknown",
+  "en": "I think this year we'll do a little over 200 million, which is frankly, again, surprising.",
+  "zh": "我认为今年我们会稍微超过 2 亿，坦率地说，这再次令人惊讶。"
+ },
+ {
+  "seg": 29,
+  "start": 161.764,
+  "end": 172.832,
+  "speaker": "Unknown",
+  "en": "We have about 650 people on our team who love chess, are passionate about the game, and are working hard to make our members happy and to grow the game and to be the best possible place to work.",
+  "zh": "我们团队大约有 650 人，他们热爱国际象棋，对这项游戏充满热情，努力工作让我们的成员开心，并发展这项游戏，并成为最好的工作场所。"
+ },
+ {
+  "seg": 30,
+  "start": 172.872,
+  "end": 175.313,
+  "speaker": "Unknown",
+  "en": "Those are the three areas of our mission.",
+  "zh": "这些是我们使命的三个领域。"
+ },
+ {
+  "seg": 31,
+  "start": 175.813,
+  "end": 176.274,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 32,
+  "start": 177.417,
+  "end": 184.484,
+  "speaker": "Unknown",
+  "en": "And you took a, I guess, somewhat unconventional startup path or founder CEO path to get here.",
+  "zh": "而你走的是，我想，一条有点非传统的初创公司道路或者创始人 CEO 道路才走到这里的。"
+ },
+ {
+  "seg": 33,
+  "start": 184.504,
+  "end": 186.005,
+  "speaker": "Unknown",
+  "en": "I certainly think of you as founder.",
+  "zh": "我当然把你视为创始人。"
+ },
+ {
+  "seg": 34,
+  "start": 188.728,
+  "end": 190.349,
+  "speaker": "Unknown",
+  "en": "How did you end up owning the business?",
+  "zh": "你是怎么最终拥有这家公司的？"
+ },
+ {
+  "seg": 35,
+  "start": 191.47,
+  "end": 193.913,
+  "speaker": "Unknown",
+  "en": "Well, we didn't start by owning a business.",
+  "zh": "嗯，我们并不是从拥有一家公司开始的。"
+ },
+ {
+  "seg": 36,
+  "start": 193.933,
+  "end": 199.298,
+  "speaker": "Unknown",
+  "en": "We just started by owning a domain name that we got from a bankruptcy auction in 2005.",
+  "zh": "我们只是从拥有一个域名开始的，那是我们 2005 年从破产拍卖中得到的。"
+ },
+ {
+  "seg": 37,
+  "start": 201.152,
+  "end": 217.766,
+  "speaker": "Unknown",
+  "en": "someone else owned the domain name they were building chess software but they um you know couldn't pay their their debts and and the money they'd raised a little bit of money to try to do that and ended up with a failed business and so uh a friend and i bought the chess.com domain name for 56 000 um",
+  "zh": "别人拥有那个域名，他们正在构建国际象棋软件，但他们你知道，无法偿还他们的债务和他们筹集的一点点钱来尝试做那件事，最终导致生意失败，所以一位朋友和我花了 56000 美元买下了 chess.com 域名"
+ },
+ {
+  "seg": 38,
+  "start": 220.268,
+  "end": 221.789,
+  "speaker": "Unknown",
+  "en": "And we were going to build a chess community.",
+  "zh": "我们打算建立一个国际象棋社区。"
+ },
+ {
+  "seg": 39,
+  "start": 221.829,
+  "end": 230.052,
+  "speaker": "Unknown",
+  "en": "We wanted to be like Myspace and build a chess community where people could kind of come and express themselves and learn and share.",
+  "zh": "我们想像 Myspace 一样，建立一个国际象棋社区，人们可以来这里表达自己，学习和分享。"
+ },
+ {
+  "seg": 40,
+  "start": 230.252,
+  "end": 232.973,
+  "speaker": "Unknown",
+  "en": "We bought the domain name and started building.",
+  "zh": "我们买下域名并开始构建。"
+ },
+ {
+  "seg": 41,
+  "start": 233.414,
+  "end": 237.755,
+  "speaker": "Unknown",
+  "en": "And we'll bridge the gap from that to the scale of community you have today.",
+  "zh": "我们要弥合从那时到今天社区规模之间的差距。"
+ },
+ {
+  "seg": 42,
+  "start": 237.795,
+  "end": 238.976,
+  "speaker": "Unknown",
+  "en": "Like, how did you grow?",
+  "zh": "比如，你是怎么增长的？"
+ },
+ {
+  "seg": 43,
+  "start": 239.076,
+  "end": 240.977,
+  "speaker": "Unknown",
+  "en": "How did you think about fundraising?",
+  "zh": "你是怎么思考融资的？"
+ },
+ {
+  "seg": 44,
+  "start": 241.733,
+  "end": 244.415,
+  "speaker": "Unknown",
+  "en": "Yeah, so we did think about fundraising.",
+  "zh": "是的，所以我们确实考虑过融资。"
+ },
+ {
+  "seg": 45,
+  "start": 245.075,
+  "end": 252.479,
+  "speaker": "Unknown",
+  "en": "Obviously, I was at Stanford Business School at the time, so Sand Hill Road was right there, and I had access to a lot of venture capitalists.",
+  "zh": "显然，我当时在斯坦福商学院，Sand Hill Road 就在那边，我可以接触到很多风险投资家。"
+ },
+ {
+  "seg": 46,
+  "start": 252.539,
+  "end": 256.122,
+  "speaker": "Unknown",
+  "en": "They were teachers and were guests in classrooms I was in.",
+  "zh": "他们是老师，是我所在课堂的嘉宾。"
+ },
+ {
+  "seg": 47,
+  "start": 257.222,
+  "end": 263.406,
+  "speaker": "Unknown",
+  "en": "So I had a lot of meetings, and basically, most of them said, this is uninvestable, you should get a real job.",
+  "zh": "所以我开了很多会，基本上，他们中的大多数人说，这是不可投资的，你应该找份正经工作。"
+ },
+ {
+  "seg": 48,
+  "start": 263.766,
+  "end": 264.427,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "谢谢你们加入我们。"
+ },
+ {
+  "seg": 49,
+  "start": 280.664,
+  "end": 281.565,
+  "speaker": "Unknown",
+  "en": "Thank you for watching!",
+  "zh": "谢谢收看！"
+ },
+ {
+  "seg": 50,
+  "start": 299.527,
+  "end": 323.235,
+  "speaker": "Unknown",
+  "en": "we launched in 2007 right as i graduated from school and then i think within like 18 months we were starting to charge memberships for like online chess learning and we pretty quickly became profitable and then we just grew you know as we had more revenue we would just hire somebody new whether it was a community manager a developer a system assist admin uh you know eventually designers and",
+  "zh": "我们于 2007 年上线，正好是我毕业的时候，然后我想在大概 18 个月内，我们开始对在线国际象棋学习收取会员费，我们很快就盈利了，然后我们就增长了，你知道，随着我们有更多收入，我们会雇佣新人，无论是社区经理、开发者、系统管理员，你知道，最终还有设计师和"
+ },
+ {
+  "seg": 51,
+  "start": 323.915,
+  "end": 328.876,
+  "speaker": "Unknown",
+  "en": "It just kind of grew as we had money for it to grow.",
+  "zh": "它只是随着资金支持其增长而增长。"
+ },
+ {
+  "seg": 52,
+  "start": 329.016,
+  "end": 331.657,
+  "speaker": "Unknown",
+  "en": "And we never then again considered raising money.",
+  "zh": "而我们后来再也没有考虑过筹集资金。"
+ },
+ {
+  "seg": 53,
+  "start": 332.177,
+  "end": 334.158,
+  "speaker": "Unknown",
+  "en": "It never crossed our minds.",
+  "zh": "这从未出现在我们的脑海中。"
+ },
+ {
+  "seg": 54,
+  "start": 334.598,
+  "end": 335.998,
+  "speaker": "Unknown",
+  "en": "We just thought, hey, we're profitable.",
+  "zh": "我们只是想，嘿，我们要盈利了。"
+ },
+ {
+  "seg": 55,
+  "start": 336.098,
+  "end": 337.399,
+  "speaker": "Unknown",
+  "en": "Let's just keep growing.",
+  "zh": "让我们继续增长。"
+ },
+ {
+  "seg": 56,
+  "start": 337.839,
+  "end": 342.54,
+  "speaker": "Unknown",
+  "en": "And we always thought like, oh, when we hit like 50 people, we're like, we're never going to have more than 50 people on our team.",
+  "zh": "我们总是想，哦，当我们达到 50 人时，我们就像，我们的团队永远不会超过 50 人。"
+ },
+ {
+  "seg": 57,
+  "start": 343.02,
+  "end": 346.122,
+  "speaker": "Unknown",
+  "en": "And of course, we're never going to have more than 100 people on our team.",
+  "zh": "当然，我们的团队永远不会超过 100 人。"
+ },
+ {
+  "seg": 58,
+  "start": 346.142,
+  "end": 352.224,
+  "speaker": "Unknown",
+  "en": "And then we just stopped saying that because chess just continued to surprise us as to how big it got.",
+  "zh": "然后我们就不再那样说了，因为国际象棋持续在它变得多大方面让我们感到惊讶。"
+ },
+ {
+  "seg": 59,
+  "start": 352.505,
+  "end": 353.785,
+  "speaker": "Unknown",
+  "en": "And it still surprises me.",
+  "zh": "它现在仍让我感到惊讶。"
+ },
+ {
+  "seg": 60,
+  "start": 354.025,
+  "end": 361.409,
+  "speaker": "Unknown",
+  "en": "But what's interesting is now, I'm like, if 250 million people have said they want to play chess at some point on chess.com,",
+  "zh": "但有趣的是，现在，我想，如果有 2.5 亿人说过他们想在某个时候在 chess.com 上下国际象棋，"
+ },
+ {
+  "seg": 61,
+  "start": 362.029,
+  "end": 365.171,
+  "speaker": "Unknown",
+  "en": "Why don't we have 50 million daily active users?",
+  "zh": "为什么我们没有 5000 万日活跃用户？"
+ },
+ {
+  "seg": 62,
+  "start": 365.372,
+  "end": 367.033,
+  "speaker": "Unknown",
+  "en": "A billion people should be playing chess.",
+  "zh": "十亿人应该在下国际象棋。"
+ },
+ {
+  "seg": 63,
+  "start": 367.053,
+  "end": 369.575,
+  "speaker": "Unknown",
+  "en": "So now our ambitions are pretty big.",
+  "zh": "所以现在我们的野心相当大。"
+ },
+ {
+  "seg": 64,
+  "start": 369.615,
+  "end": 378.722,
+  "speaker": "Unknown",
+  "en": "And we see the good that chess does in the world and brings people together and gives them confidence and teaches them that you never really lose if you learn.",
+  "zh": "我们看到了国际象棋在世界上的好处，把人们聚集在一起，给他们信心，教会他们如果学习了就真的不会输。"
+ },
+ {
+  "seg": 65,
+  "start": 378.782,
+  "end": 382.345,
+  "speaker": "Unknown",
+  "en": "And it's a great game for learning and spending time.",
+  "zh": "这是一个用于学习和消磨时间的很棒的游戏。"
+ },
+ {
+  "seg": 66,
+  "start": 382.385,
+  "end": 383.906,
+  "speaker": "Unknown",
+  "en": "So now our mission is huge.",
+  "zh": "所以现在我们的使命非常巨大。"
+ },
+ {
+  "seg": 67,
+  "start": 383.946,
+  "end": 387.189,
+  "speaker": "Unknown",
+  "en": "And we're like, we're going to be bigger than we are today.",
+  "zh": "我们就像，我们将比今天更大。"
+ },
+ {
+  "seg": 68,
+  "start": 387.229,
+  "end": 388.79,
+  "speaker": "Unknown",
+  "en": "So we're quite excited about our mission.",
+  "zh": "所以我们要对我们的使命感到非常兴奋。"
+ },
+ {
+  "seg": 69,
+  "start": 389.374,
+  "end": 396.5,
+  "speaker": "Unknown",
+  "en": "How did you think about competition and the rate of growth you needed to have?",
+  "zh": "你是如何考虑竞争以及你需要拥有的增长率的？"
+ },
+ {
+  "seg": 70,
+  "start": 397.921,
+  "end": 399.242,
+  "speaker": "Unknown",
+  "en": "And how do you think about it today?",
+  "zh": "你今天又是如何看待它的？"
+ },
+ {
+  "seg": 71,
+  "start": 399.282,
+  "end": 410.711,
+  "speaker": "Unknown",
+  "en": "Because there are, I don't know if you can say the words, but there are platforms like Lee Chess out there amongst the menary drivers of people raising a huge amount of capital.",
+  "zh": "因为有，我不知道你能不能说出这些名字，但有一些像 Lee Chess 这样的平台，在人们筹集大量资金的主要驱动力之中。"
+ },
+ {
+  "seg": 72,
+  "start": 410.771,
+  "end": 415.454,
+  "speaker": "Unknown",
+  "en": "Some businesses are more CapEx intensive than others, but even when they're not naturally",
+  "zh": "有些企业比其他企业资本密集度更高，但即使它们本质上不是"
+ },
+ {
+  "seg": 73,
+  "start": 416.637,
+  "end": 424.668,
+  "speaker": "Unknown",
+  "en": "The desire to be the dominant player in a market, the way chess.com is, is, I think, a common driver.",
+  "zh": "想要成为市场主导者的愿望，就像 chess.com 这样，我认为是一个共同的驱动力。"
+ },
+ {
+  "seg": 74,
+  "start": 425.169,
+  "end": 426.55,
+  "speaker": "Unknown",
+  "en": "Yeah, and I think that's fair.",
+  "zh": "是的，我认为这是公平的。"
+ },
+ {
+  "seg": 75,
+  "start": 426.63,
+  "end": 433.935,
+  "speaker": "Unknown",
+  "en": "And I want to, you know, give the caveat that the chess, you know, the chess industry, as we call it today, didn't exist, you know, 20 years ago.",
+  "zh": "我想，你知道，给出一个警告，即国际象棋，你知道，我们今天所谓的国际象棋行业，你知道，并不存在，你知道，20 年前。"
+ },
+ {
+  "seg": 76,
+  "start": 433.975,
+  "end": 439.278,
+  "speaker": "Unknown",
+  "en": "It was like some apps and like one kind of, you know, a couple of players.",
+  "zh": "它就像一些应用程序，就像一种，你知道，几个参与者。"
+ },
+ {
+  "seg": 77,
+  "start": 439.298,
+  "end": 441.119,
+  "speaker": "Unknown",
+  "en": "There was Free Internet Chess Server Fix.",
+  "zh": "有 Free Internet Chess Server Fix。"
+ },
+ {
+  "seg": 78,
+  "start": 441.139,
+  "end": 442.74,
+  "speaker": "Unknown",
+  "en": "There was ICC Chess Club.",
+  "zh": "有 ICC Chess Club。"
+ },
+ {
+  "seg": 79,
+  "start": 443.341,
+  "end": 444.742,
+  "speaker": "Unknown",
+  "en": "Those were the two major players.",
+  "zh": "那是两个主要参与者。"
+ },
+ {
+  "seg": 80,
+  "start": 445.382,
+  "end": 446.603,
+  "speaker": "Unknown",
+  "en": "There's Yahoo Chess and...",
+  "zh": "还有雅虎国际象棋和……"
+ },
+ {
+  "seg": 81,
+  "start": 447.103,
+  "end": 451.85,
+  "speaker": "Unknown",
+  "en": "You know, we came on and we just relentlessly focused on what we wanted as players ourselves.",
+  "zh": "你知道，我们来了，我们只是无情地专注于我们自己作为玩家想要的东西。"
+ },
+ {
+  "seg": 82,
+  "start": 451.89,
+  "end": 453.552,
+  "speaker": "Unknown",
+  "en": "We wanted a product that felt great.",
+  "zh": "我们想要一个感觉很棒的产品。"
+ },
+ {
+  "seg": 83,
+  "start": 453.573,
+  "end": 455.135,
+  "speaker": "Unknown",
+  "en": "We wanted it to be free to play.",
+  "zh": "我们希望它是免费玩的。"
+ },
+ {
+  "seg": 84,
+  "start": 455.195,
+  "end": 456.537,
+  "speaker": "Unknown",
+  "en": "We wanted it to be in the browser.",
+  "zh": "我们希望它在浏览器中。"
+ },
+ {
+  "seg": 85,
+  "start": 456.577,
+  "end": 457.859,
+  "speaker": "Unknown",
+  "en": "We wanted it to feel great.",
+  "zh": "我们希望它感觉很棒。"
+ },
+ {
+  "seg": 86,
+  "start": 458.299,
+  "end": 459.862,
+  "speaker": "Unknown",
+  "en": "You know, we wanted it to be a wonderful experience.",
+  "zh": "你知道，我们希望它是一种美妙的体验。"
+ },
+ {
+  "seg": 87,
+  "start": 459.882,
+  "end": 461.404,
+  "speaker": "Unknown",
+  "en": "So we really just focused on...",
+  "zh": "所以我们真的只是专注于……"
+ },
+ {
+  "seg": 88,
+  "start": 462.145,
+  "end": 463.766,
+  "speaker": "Unknown",
+  "en": "The user experience above all.",
+  "zh": "首先是用户体验。"
+ },
+ {
+  "seg": 89,
+  "start": 464.506,
+  "end": 467.388,
+  "speaker": "Unknown",
+  "en": "And, you know, over time, you know, that wins out.",
+  "zh": "而且，你知道，随着时间的推移，你知道，那会胜出。"
+ },
+ {
+  "seg": 90,
+  "start": 467.828,
+  "end": 471.55,
+  "speaker": "Unknown",
+  "en": "And so, you know, most of the others kind of fell by the wayside.",
+  "zh": "所以，你知道，大多数其他人有点被淘汰了。"
+ },
+ {
+  "seg": 91,
+  "start": 471.83,
+  "end": 473.351,
+  "speaker": "Unknown",
+  "en": "Obviously, LeeChess exists today.",
+  "zh": "显然，LeeChess 今天存在。"
+ },
+ {
+  "seg": 92,
+  "start": 473.391,
+  "end": 478.494,
+  "speaker": "Unknown",
+  "en": "They're kind of the, I would say, the Linux of, you know, they exist for a really important reason.",
+  "zh": "它们是那种，我会说，Linux，你知道，它们因一个非常重要的原因而存在。"
+ },
+ {
+  "seg": 93,
+  "start": 478.534,
+  "end": 479.714,
+  "speaker": "Unknown",
+  "en": "It's great for the community.",
+  "zh": "这对社区很有好处。"
+ },
+ {
+  "seg": 94,
+  "start": 479.774,
+  "end": 480.715,
+  "speaker": "Unknown",
+  "en": "It's open source.",
+  "zh": "它是开源的。"
+ },
+ {
+  "seg": 95,
+  "start": 480.775,
+  "end": 481.815,
+  "speaker": "Unknown",
+  "en": "It does what it does.",
+  "zh": "它做它该做的事。"
+ },
+ {
+  "seg": 96,
+  "start": 482.015,
+  "end": 483.096,
+  "speaker": "Unknown",
+  "en": "And we coexist here.",
+  "zh": "我们在这里共存。"
+ },
+ {
+  "seg": 97,
+  "start": 483.496,
+  "end": 486.338,
+  "speaker": "Unknown",
+  "en": "And, you know, we drive the growth of the game through what we do.",
+  "zh": "你知道，我们通过我们所做的事情推动这项游戏的增长。"
+ },
+ {
+  "seg": 98,
+  "start": 487.178,
+  "end": 487.779,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 99,
+  "start": 505.635,
+  "end": 509.957,
+  "speaker": "Unknown",
+  "en": "You know, at the end of the day, really product is going to win out and community and content.",
+  "zh": "你知道，归根结底，真正产品会胜出，还有社区和内容。"
+ },
+ {
+  "seg": 100,
+  "start": 510.017,
+  "end": 515.159,
+  "speaker": "Unknown",
+  "en": "And so it's just really this relentless focus on creating the best possible experience.",
+  "zh": "所以它真的就是这种对于创造尽可能最佳体验的无止境的关注。"
+ },
+ {
+  "seg": 101,
+  "start": 515.599,
+  "end": 522.442,
+  "speaker": "Unknown",
+  "en": "I do think there's other markets and businesses where you need to raise money, whether to move at speed.",
+  "zh": "我确实认为在其他市场和业务中，你需要筹集资金，无论是为了快速行动。"
+ },
+ {
+  "seg": 102,
+  "start": 522.842,
+  "end": 524.323,
+  "speaker": "Unknown",
+  "en": "Again, we've built this for 20 years.",
+  "zh": "再说一次，我们已经为此建立了 20 年。"
+ },
+ {
+  "seg": 103,
+  "start": 524.963,
+  "end": 551.568,
+  "speaker": "Unknown",
+  "en": "So others need to move faster or more at speed or there's more investment in certain areas or obviously if there's like hardware or inventory those are different types of businesses but for a pure software and content business like ours you know and one where we didn't have like you know no major tech company was bearing down on us we were able to kind of take a little bit of the slower a slower road there which was great developed a great culture and allowed us to you know not not need outside capital.",
+  "zh": "所以其他人需要走得更快或者更快速前进，或者在某些领域有更多的投资，或者显然如果有硬件或库存，那些是不同类型的业务，但对于像我们这样的纯软件和内容业务，你知道，而且我们在其中没有像没有大型科技公司向我们施压，我们能够稍微走一点慢路，那条路，这很棒，培养了一种很棒的文化，并让我们能够不需要外部资本。"
+ },
+ {
+  "seg": 104,
+  "start": 552.284,
+  "end": 568.328,
+  "speaker": "Unknown",
+  "en": "So you said that part of why you were able to grow in the way you did was there were not a lot of people who believed that, you know, the business would be as big as it is or the industry would actually be an industry.",
+  "zh": "所以你说过，你能够以这种方式成长的部分原因是，并没有很多人相信，你知道，业务会像现在这么大，或者该行业实际上会成为一个行业。"
+ },
+ {
+  "seg": 105,
+  "start": 569.388,
+  "end": 571.769,
+  "speaker": "Unknown",
+  "en": "At what point was it a progressive thing?",
+  "zh": "这是一个渐进的事情吗？"
+ },
+ {
+  "seg": 106,
+  "start": 571.789,
+  "end": 579.471,
+  "speaker": "Unknown",
+  "en": "At what point did you think like, oh, this is actually going to be a big business versus, you know, it's something I'm personally passionate about?",
+  "zh": "在什么点你会觉得，哦，这实际上会是一门大生意，而不是，你知道，这只是我个人热衷的事情？"
+ },
+ {
+  "seg": 107,
+  "start": 580.171,
+  "end": 580.471,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 108,
+  "start": 581.512,
+  "end": 587.279,
+  "speaker": "Unknown",
+  "en": "I think 2024 was when we thought this would be a big business.",
+  "zh": "我认为 2024 年是我们认为这将是一门大生意的时候。"
+ },
+ {
+  "seg": 109,
+  "start": 587.299,
+  "end": 590.202,
+  "speaker": "Unknown",
+  "en": "That was not that long ago.",
+  "zh": "那并不久以前。"
+ },
+ {
+  "seg": 110,
+  "start": 590.242,
+  "end": 597.451,
+  "speaker": "Unknown",
+  "en": "Because before COVID and Queen's Gambit, we had like a million daily active users and we were shocked at that.",
+  "zh": "因为在 COVID 和《女王的棋局》之前，我们有大约一百万日活跃用户，我们对此感到震惊。"
+ },
+ {
+  "seg": 111,
+  "start": 600.075,
+  "end": 612.74,
+  "speaker": "Unknown",
+  "en": "But then when COVID happened, Queen's Gambit happened, some news cycles happened, and we're like, oh, this might just be a flash in the pan, like treadmills and sourdough bread and other things that people did during COVID.",
+  "zh": "但是随后当 COVID 发生了，《女王的棋局》发生了，一些新闻周期发生了，我们就像，哦，这可能只是昙花一现，就像跑步机、酸种面包和其他人们在 COVID 期间做的事情。"
+ },
+ {
+  "seg": 112,
+  "start": 613.36,
+  "end": 615.581,
+  "speaker": "Unknown",
+  "en": "And we might just come back down to where we were.",
+  "zh": "我们可能会回到我们原来的地方。"
+ },
+ {
+  "seg": 113,
+  "start": 616.041,
+  "end": 619.122,
+  "speaker": "Unknown",
+  "en": "But we actually stayed really high after that.",
+  "zh": "但实际上在那之后我们保持得非常高。"
+ },
+ {
+  "seg": 114,
+  "start": 619.902,
+  "end": 623.344,
+  "speaker": "Unknown",
+  "en": "A little bit lower than our peak in 2022.",
+  "zh": "比 2022 年的峰值略低。"
+ },
+ {
+  "seg": 115,
+  "start": 624.465,
+  "end": 636.313,
+  "speaker": "Unknown",
+  "en": "But then in 2023, we had another crazy wave where all these kids started playing in schools because of short form content and the Mittens bot and the cheating scandal and all these other things in 2023.",
+  "zh": "但是随后在 2023 年，我们有另一波疯狂的浪潮，所有这些孩子开始在学校里玩，因为短视频内容和 Mittens 机器人以及作弊丑闻以及 2023 年的所有这些其他事情。"
+ },
+ {
+  "seg": 116,
+  "start": 636.593,
+  "end": 638.074,
+  "speaker": "Unknown",
+  "en": "And we just spiked again.",
+  "zh": "我们又激增了。"
+ },
+ {
+  "seg": 117,
+  "start": 638.094,
+  "end": 642.417,
+  "speaker": "Unknown",
+  "en": "And then when we came down again, we were so much higher and we maintained this baseline.",
+  "zh": "然后当我们再次回落时，我们要高得多，并且我们保持了这个基准线。"
+ },
+ {
+  "seg": 118,
+  "start": 643.077,
+  "end": 647.2,
+  "speaker": "Unknown",
+  "en": "And so kind of in 2024, we're like, oh my gosh, like this thing is actually sticking around.",
+  "zh": "所以大概在 2024 年，我们就像，天哪，这东西实际上会一直存在。"
+ },
+ {
+  "seg": 119,
+  "start": 647.24,
+  "end": 649.402,
+  "speaker": "Unknown",
+  "en": "It's actually growing and compounding over time.",
+  "zh": "它实际上在增长并且随着时间的推移复利增长。"
+ },
+ {
+  "seg": 120,
+  "start": 650.722,
+  "end": 655.526,
+  "speaker": "Unknown",
+  "en": "I think this is a lot bigger than we thought it was gonna be, which was, you know, fascinating.",
+  "zh": "我认为这比我们想象的要大得多，这很迷人。"
+ },
+ {
+  "seg": 121,
+  "start": 655.546,
+  "end": 658.288,
+  "speaker": "Unknown",
+  "en": "It's also terrifying in some ways because...",
+  "zh": "这在某些方面也令人害怕，因为……"
+ },
+ {
+  "seg": 122,
+  "start": 658.908,
+  "end": 674.241,
+  "speaker": "Unknown",
+  "en": "you know it's always like if your business is shrinking it's scary because how do you make it grow if your business is flat it's scary because you know how do you make it grow if your business is going up it's scary because like how do you maintain that growth or how do you deal with it you know we were like literally just like",
+  "zh": "你知道总是像如果你的业务在萎缩这很可怕因为你如何让它增长如果你的业务持平这很可怕因为你知道你如何让它增长如果你的业务在上升这很可怕因为就像你如何维持那种增长或者你如何应对它你知道我们实际上就像"
+ },
+ {
+  "seg": 123,
+  "start": 674.801,
+  "end": 690.537,
+  "speaker": "Unknown",
+  "en": "you know we had issues with scalability across the product and the tech and all those things and so it's been pretty white knuckle um i think for the last year it's actually been more calm than it ever has been just because we've had the team in place and you know our growth is more predictable",
+  "zh": "知道我们在产品和技术以及所有这些方面存在可扩展性问题，所以这真的是令人手心出汗的我想去年它实际上比以往任何时候都更平静只是因为我们有了合适的团队你知道我们的增长更可预测"
+ },
+ {
+  "seg": 124,
+  "start": 691.177,
+  "end": 697.72,
+  "speaker": "Unknown",
+  "en": "And we've finally kind of gotten our hands around organizationally what it means to be a 650 person, fully remote company.",
+  "zh": "我们最终在组织上明白了作为一家 650 人的全远程公司意味着什么。"
+ },
+ {
+  "seg": 125,
+  "start": 698.861,
+  "end": 701.142,
+  "speaker": "Unknown",
+  "en": "So it's been pretty, it's been pretty smooth.",
+  "zh": "所以它一直相当，它一直相当顺利。"
+ },
+ {
+  "seg": 126,
+  "start": 701.182,
+  "end": 709.305,
+  "speaker": "Unknown",
+  "en": "And we're now focused on a lot of experimentation and product improvements and, you know, infrastructure and tech and obviously the integration of AI and what that's meaning.",
+  "zh": "我们现在专注于大量的实验和产品改进，以及你知道，基础设施和技术，显然还有 AI 的集成以及那意味着什么。"
+ },
+ {
+  "seg": 127,
+  "start": 709.345,
+  "end": 712.927,
+  "speaker": "Unknown",
+  "en": "And so it's been an interesting last 12 months for sure.",
+  "zh": "所以过去 12 个月一直很有趣。"
+ },
+ {
+  "seg": 128,
+  "start": 713.107,
+  "end": 720.335,
+  "speaker": "Unknown",
+  "en": "I want to ask about two more business-y topics and then talk about AI in the context of chess and sort of your reflections on that.",
+  "zh": "我想再问两个更偏商业的话题，然后在国际象棋的背景下谈谈 AI 以及你对此的反思。"
+ },
+ {
+  "seg": 129,
+  "start": 720.915,
+  "end": 733.689,
+  "speaker": "Unknown",
+  "en": "The first would just be, how do you, like, the Queen's Gambit and sort of the, you know, increasing cultural relevance of chess, like, what's your reflection of that?",
+  "zh": "首先是，就像，《女王的棋局》以及你知道国际象棋日益增长的文化相关性，你对那有什么反思？"
+ },
+ {
+  "seg": 130,
+  "start": 734.474,
+  "end": 749.835,
+  "speaker": "Unknown",
+  "en": "Yeah, honestly, it's like, it's incredible because when I was, you know, I got into chess a little bit late in life, I was 18, you know, so going to college and getting into the game and I'm like, nobody plays chess, no one talks about chess, like...",
+  "zh": "是的，老实说，这很不可思议，因为当我，你知道，我稍微晚了一点接触国际象棋，我 18 岁，所以去上大学并接触这个游戏，我就像，没人下国际象棋，没人谈论国际象棋，像……"
+ },
+ {
+  "seg": 131,
+  "start": 750.921,
+  "end": 751.561,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 132,
+  "start": 766.449,
+  "end": 788.831,
+  "speaker": "Unknown",
+  "en": "So that's what I grew up with and then now to have my own kids where you know all their friends are playing chess and like chess is cool and like the jocks play chess and the nerds play chess and like everybody plays chess and then you've got like you know Louis Vuitton centers their whole you know fashion shoot around chess and like it just blows my mind it's like how you know and I do feel partly",
+  "zh": "所以那就是我长大的环境，现在有了我自己的孩子，你知道他们所有的朋友都在下国际象棋，而且国际象棋很酷，而且运动员下国际象棋，书呆子下国际象棋，每个人都在下国际象棋，然后你有像路易威登把他们的整个时尚拍摄都围绕国际象棋，这简直让我炸毛，这就像多么你知道，我确实感觉部分"
+ },
+ {
+  "seg": 133,
+  "start": 789.752,
+  "end": 813.122,
+  "speaker": "Unknown",
+  "en": "just along for that ride but i also feel that we've been partly responsible for that that we've kind of revolutionized what it means to be a chess player chess can be in your pocket you can do it anytime the content is funny and relevant and interesting and we also just redefined what it meant to be a chess player because previously you know it was like you weren't really a chess player until you were 2000 or above right rated",
+  "zh": "只是搭了这趟便车，我也觉得我们要对此负部分责任，我们彻底改变了成为国际象棋棋手意味着什么，国际象棋可以在你的口袋里，你可以随时做这件事，内容是有趣的、相关的、有趣的，我们还重新定义了成为国际象棋棋手意味着什么，因为以前你知道就像你直到 2000 分或以上才算真正的棋手，评级"
+ },
+ {
+  "seg": 134,
+  "start": 813.703,
+  "end": 817.828,
+  "speaker": "Unknown",
+  "en": "And if you weren't that, you weren't really there and you weren't really a chess player.",
+  "zh": "如果你不是那样，你不是真正在那里，你不是真正的棋手。"
+ },
+ {
+  "seg": 135,
+  "start": 817.868,
+  "end": 822.375,
+  "speaker": "Unknown",
+  "en": "But now everybody, you know, we kind of change the narrative and we celebrate your mistakes.",
+  "zh": "但现在每个人，你知道，我们稍微改变了叙述，我们庆祝你的错误。"
+ },
+ {
+  "seg": 136,
+  "start": 822.415,
+  "end": 826.34,
+  "speaker": "Unknown",
+  "en": "And when you hang your queen and when you, you know, if you're rated 500, that's fine.",
+  "zh": "当你送掉你的后，当你，你知道，如果你是 500 分，那没关系。"
+ },
+ {
+  "seg": 137,
+  "start": 826.38,
+  "end": 827.402,
+  "speaker": "Unknown",
+  "en": "You're still a chess player.",
+  "zh": "你仍然是一个棋手。"
+ },
+ {
+  "seg": 138,
+  "start": 827.422,
+  "end": 829.304,
+  "speaker": "Unknown",
+  "en": "You're still part of the community and you're on your journey.",
+  "zh": "你仍然是社区的一部分，你在你的旅程上。"
+ },
+ {
+  "seg": 139,
+  "start": 829.925,
+  "end": 837.569,
+  "speaker": "Unknown",
+  "en": "So I think that it's been honestly one of the great honors of my life to be a part of that and to see that we kind of culturally changed what it means.",
+  "zh": "所以我认为，能够成为其中的一部分并看到我们在文化上改变了它的意义，实际上是我生命中最大的荣誉之一。"
+ },
+ {
+  "seg": 140,
+  "start": 837.649,
+  "end": 845.574,
+  "speaker": "Unknown",
+  "en": "And when you see pictures of Lewis Hamilton flying in his private jet, playing chess on his phone, it blows my mind.",
+  "zh": "当你看到刘易斯·汉密尔顿在他的私人飞机上玩国际象棋的照片时，我的大脑炸开了。"
+ },
+ {
+  "seg": 141,
+  "start": 845.654,
+  "end": 847.375,
+  "speaker": "Unknown",
+  "en": "So it's been wild.",
+  "zh": "所以这很疯狂。"
+ },
+ {
+  "seg": 142,
+  "start": 847.894,
+  "end": 848.814,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 143,
+  "start": 849.014,
+  "end": 858.057,
+  "speaker": "Unknown",
+  "en": "I was the, you know, high school nerd that played chess, but my kids now are eight-year-old plays and teaches chess.",
+  "zh": "我是那个，你知道，下国际象棋的高中书呆子，但我的孩子现在是 8 岁的玩家并教国际象棋。"
+ },
+ {
+  "seg": 144,
+  "start": 858.658,
+  "end": 867.921,
+  "speaker": "Unknown",
+  "en": "And it's like very, I mean, they're in a nerdy town, but it's like common enough that, you know, I don't know, 20% of the kids do afterschool chess, right?",
+  "zh": "这很非常，我的意思是，他们在一个书呆子小镇，但这足够普遍，你知道，我不知道，20% 的孩子参加课后国际象棋，对吧？"
+ },
+ {
+  "seg": 145,
+  "start": 867.941,
+  "end": 869.721,
+  "speaker": "Unknown",
+  "en": "Which is a totally wild thing to think about.",
+  "zh": "想起来这完全是件疯狂的事情。"
+ },
+ {
+  "seg": 146,
+  "start": 869.781,
+  "end": 870.382,
+  "speaker": "Unknown",
+  "en": "Sucks soccer.",
+  "zh": "踢足球 sucks。"
+ },
+ {
+  "seg": 147,
+  "start": 870.942,
+  "end": 871.402,
+  "speaker": "Unknown",
+  "en": "Seriously.",
+  "zh": "说真的。"
+ },
+ {
+  "seg": 148,
+  "start": 872.252,
+  "end": 877.998,
+  "speaker": "Unknown",
+  "en": "You had a huge announcement recently, and that's a big change in terms of the CBC investment.",
+  "zh": "你最近有一个巨大的公告，那就是 CBC 投资方面的重大变化。"
+ },
+ {
+  "seg": 149,
+  "start": 878.238,
+  "end": 886.887,
+  "speaker": "Unknown",
+  "en": "Tell us about that, what it means to the business, how you thought about working with a private equity firm after so many years of just being a bootstrap business.",
+  "zh": "告诉我们相关情况，这对业务意味着什么，在做了这么多年的独资企业后，你是如何考虑与私募股权公司合作的。"
+ },
+ {
+  "seg": 150,
+  "start": 887.477,
+  "end": 896.38,
+  "speaker": "Unknown",
+  "en": "Yeah, well, I'll tell you, we're still a bootstrap business because CVC came in, but they still, you know, they came in and bought secondary.",
+  "zh": "是的，好吧，我要告诉你，我们仍然是一家自举业务，因为 CVC 进来了，但他们仍然，你知道，他们进来并购买了二级股份。"
+ },
+ {
+  "seg": 151,
+  "start": 897.121,
+  "end": 898.601,
+  "speaker": "Unknown",
+  "en": "That was part of the fundraising cycle.",
+  "zh": "那是融资周期的一部分。"
+ },
+ {
+  "seg": 152,
+  "start": 898.641,
+  "end": 905.064,
+  "speaker": "Unknown",
+  "en": "Obviously, General Atlantic was really the first private equity to believe in us, you know, back in 2020 or 2021.",
+  "zh": "显然，General Atlantic 真的是第一家相信我们的私募股权公司，你知道，早在 2020 年或 2021 年。"
+ },
+ {
+  "seg": 153,
+  "start": 908.225,
+  "end": 929.548,
+  "speaker": "Unknown",
+  "en": "you know they saw our growing business and they had conviction that we you know we're we're a strong player in an interesting market and and they came in and you know we had another investor you know it's kind of interesting because if you go back in time like we were just this privately entirely privately held and then um you know someone comes along and is like oh i love chess i want to invest and we're like",
+  "zh": "你知道他们看到了我们不断发展的业务，并且他们深信我们，你知道，我们是一个有趣市场中的强大参与者，然后他们进来了，你知道我们还有另一个投资者，你知道这有点有趣，因为如果你回头看，就像我们完全是私人持有的，然后嗯，你知道有人过来说，哦，我爱国际象棋，我想投资，我们就说"
+ },
+ {
+  "seg": 154,
+  "start": 930.068,
+  "end": 931.509,
+  "speaker": "Unknown",
+  "en": "No, no, no.",
+  "zh": "不，不，不。"
+ },
+ {
+  "seg": 155,
+  "start": 931.589,
+  "end": 933.19,
+  "speaker": "Unknown",
+  "en": "And finally, we said yes.",
+  "zh": "最后，我们答应了。"
+ },
+ {
+  "seg": 156,
+  "start": 933.231,
+  "end": 934.291,
+  "speaker": "Unknown",
+  "en": "And they bought like a little bit.",
+  "zh": "然后他们买了一点。"
+ },
+ {
+  "seg": 157,
+  "start": 934.632,
+  "end": 936.213,
+  "speaker": "Unknown",
+  "en": "And they're like, I'll hold on to this forever.",
+  "zh": "他们说，我会永远持有这个。"
+ },
+ {
+  "seg": 158,
+  "start": 936.273,
+  "end": 937.274,
+  "speaker": "Unknown",
+  "en": "I just want to be a part of this.",
+  "zh": "我只想成为其中的一部分。"
+ },
+ {
+  "seg": 159,
+  "start": 937.574,
+  "end": 939.996,
+  "speaker": "Unknown",
+  "en": "And then like five years later, like, I need to get out of this.",
+  "zh": "然后就像五年后，就像，我得退出了。"
+ },
+ {
+  "seg": 160,
+  "start": 940.036,
+  "end": 941.096,
+  "speaker": "Unknown",
+  "en": "I need to sell.",
+  "zh": "我需要卖掉。"
+ },
+ {
+  "seg": 161,
+  "start": 941.257,
+  "end": 941.477,
+  "speaker": "Unknown",
+  "en": "What?",
+  "zh": "什么？"
+ },
+ {
+  "seg": 162,
+  "start": 941.517,
+  "end": 942.858,
+  "speaker": "Unknown",
+  "en": "You said you were going to be here forever.",
+  "zh": "你说你会永远在这里的。"
+ },
+ {
+  "seg": 163,
+  "start": 942.898,
+  "end": 943.538,
+  "speaker": "Unknown",
+  "en": "Like, don't worry.",
+  "zh": "就像，别担心。"
+ },
+ {
+  "seg": 164,
+  "start": 943.558,
+  "end": 944.379,
+  "speaker": "Unknown",
+  "en": "I got another guy.",
+  "zh": "我找到了另一个人。"
+ },
+ {
+  "seg": 165,
+  "start": 944.959,
+  "end": 946.841,
+  "speaker": "Unknown",
+  "en": "So then this other investor came in.",
+  "zh": "所以这另一个投资者进来了。"
+ },
+ {
+  "seg": 166,
+  "start": 946.861,
+  "end": 948.662,
+  "speaker": "Unknown",
+  "en": "He's like, no, but I want to own X percent.",
+  "zh": "他就像，不，但我想拥有 X%。"
+ },
+ {
+  "seg": 167,
+  "start": 948.702,
+  "end": 951.484,
+  "speaker": "Unknown",
+  "en": "And like, we're like, reluctantly let him a little bit more in.",
+  "zh": "就像，我们就说，不情愿地让他多进了一点。"
+ },
+ {
+  "seg": 168,
+  "start": 951.845,
+  "end": 952.986,
+  "speaker": "Unknown",
+  "en": "And he's like, but I love chess.",
+  "zh": "他就说，但我爱国际象棋。"
+ },
+ {
+  "seg": 169,
+  "start": 953.006,
+  "end": 953.966,
+  "speaker": "Unknown",
+  "en": "I'll be here forever.",
+  "zh": "我会永远在这里。"
+ },
+ {
+  "seg": 170,
+  "start": 954.427,
+  "end": 957.189,
+  "speaker": "Unknown",
+  "en": "And then, you know, three years later, he's like, I got to sell.",
+  "zh": "然后，你知道，三年后，他就说，我得卖掉。"
+ },
+ {
+  "seg": 171,
+  "start": 957.369,
+  "end": 957.569,
+  "speaker": "Unknown",
+  "en": "What?",
+  "zh": "什么？"
+ },
+ {
+  "seg": 172,
+  "start": 957.849,
+  "end": 978.687,
+  "speaker": "Unknown",
+  "en": "So then we were at such a scale that like we had to like find a different scale of investor and so we did the rounds with all the private equity and you know really just did not enjoy that process and really didn't enjoy most of the people that I that I met during that time um you know really were focused on I thought the wrong things but when I met",
+  "zh": "所以那时我们的规模已经到了，就像我们必须寻找不同规模的投资者，所以我们与所有私募股权进行了融资轮，你知道真的只是不喜欢那个过程，真的不喜欢那时我遇到的大多数人，你知道他们真的专注于，我认为是错误的事情，但是当我遇到"
+ },
+ {
+  "seg": 173,
+  "start": 979.107,
+  "end": 999.567,
+  "speaker": "Unknown",
+  "en": "you know general atlantic and and tanzine there um you know they really believed in our mission and they believed that if we focused on our mission that we would we would build a wonderful business um and that was that aligned with with what we felt and so they made an investment but again secondary buying shares from existing investors no no infusion of capital",
+  "zh": "你知道 General Atlantic 和 Tanzine，嗯，你知道他们真的相信我们的使命，他们相信如果我们专注于我们的使命，我们将会建立一个美好的业务，嗯，这与我们的感觉是一致的，所以他们进行了投资，但同样是二级市场，从现有投资者那里购买股份，没有，没有资本注入"
+ },
+ {
+  "seg": 174,
+  "start": 999.907,
+  "end": 1003.348,
+  "speaker": "Unknown",
+  "en": "And then eventually they came to their fundraising cycle times.",
+  "zh": "然后最终他们到了他们的融资周期。"
+ },
+ {
+  "seg": 175,
+  "start": 1003.388,
+  "end": 1008.631,
+  "speaker": "Unknown",
+  "en": "They've got to make returns to partners and do their thing.",
+  "zh": "他们必须向合伙人汇报回报并做他们的事情。"
+ },
+ {
+  "seg": 176,
+  "start": 1008.651,
+  "end": 1011.992,
+  "speaker": "Unknown",
+  "en": "And so then we, again, had to now look for another person to come in.",
+  "zh": "所以那时我们，再次，必须寻找另一个人进来。"
+ },
+ {
+  "seg": 177,
+  "start": 1012.672,
+  "end": 1013.713,
+  "speaker": "Unknown",
+  "en": "And we found CVC.",
+  "zh": "我们找到了 CVC。"
+ },
+ {
+  "seg": 178,
+  "start": 1013.773,
+  "end": 1017.774,
+  "speaker": "Unknown",
+  "en": "We were very, very happy to be working with CVC.",
+  "zh": "我们非常非常高兴能与 CVC 合作。"
+ },
+ {
+  "seg": 179,
+  "start": 1017.834,
+  "end": 1022.916,
+  "speaker": "Unknown",
+  "en": "They have such a deep experience in gaming, in sports, in community businesses.",
+  "zh": "他们在游戏、体育和社区业务方面拥有如此深厚的经验。"
+ },
+ {
+  "seg": 180,
+  "start": 1023.256,
+  "end": 1028.378,
+  "speaker": "Unknown",
+  "en": "And we really just felt like a bond and an alignment that when you take care of your community and your product,",
+  "zh": "我们真的感觉到了一种纽带和一致性，当你照顾好你的社区和产品时，"
+ },
+ {
+  "seg": 181,
+  "start": 1029.739,
+  "end": 1031.42,
+  "speaker": "Unknown",
+  "en": "That you'll build a great business.",
+  "zh": "你会建立一个伟大的业务。"
+ },
+ {
+  "seg": 182,
+  "start": 1031.46,
+  "end": 1036.684,
+  "speaker": "Unknown",
+  "en": "So they invested in buying out different shares from different people.",
+  "zh": "所以他们投资从不同人那里收购了不同的股份。"
+ },
+ {
+  "seg": 183,
+  "start": 1037.365,
+  "end": 1039.326,
+  "speaker": "Unknown",
+  "en": "General Atlantic reinvested as well.",
+  "zh": "General Atlantic 也进行了再投资。"
+ },
+ {
+  "seg": 184,
+  "start": 1039.386,
+  "end": 1043.35,
+  "speaker": "Unknown",
+  "en": "So they're still with us in the new venture together.",
+  "zh": "所以他们仍然在新企业中与我们在一起。"
+ },
+ {
+  "seg": 185,
+  "start": 1043.71,
+  "end": 1048.473,
+  "speaker": "Unknown",
+  "en": "And we're as committed as ever to continue to grow the game and to follow our mission.",
+  "zh": "我们一如既往地致力于发展这项游戏并遵循我们的使命。"
+ },
+ {
+  "seg": 186,
+  "start": 1049.694,
+  "end": 1054.178,
+  "speaker": "Unknown",
+  "en": "But yeah, we're still, no capital needed to grow this business.",
+  "zh": "但是是的，我们仍然，不需要资本来发展这项业务。"
+ },
+ {
+  "seg": 187,
+  "start": 1054.677,
+  "end": 1055.758,
+  "speaker": "Unknown",
+  "en": "How does it change?",
+  "zh": "它是如何改变的？"
+ },
+ {
+  "seg": 188,
+  "start": 1055.958,
+  "end": 1061.002,
+  "speaker": "Unknown",
+  "en": "Has it changed the way you run the business to have these increasingly at scale outside of masters?",
+  "zh": "拥有这些越来越大规模的投资者，除了大师赛之外，是否改变了你经营业务的方式？"
+ },
+ {
+  "seg": 189,
+  "start": 1061.643,
+  "end": 1064.585,
+  "speaker": "Unknown",
+  "en": "Yeah, it actually has, but in a wonderful way.",
+  "zh": "是的，确实如此，但是以一种美好的方式。"
+ },
+ {
+  "seg": 190,
+  "start": 1064.605,
+  "end": 1070.149,
+  "speaker": "Unknown",
+  "en": "OK, this is like, you know, against the conventional wisdom of like private equity be involved.",
+  "zh": "好的，这就像，你知道，这违背了关于私募股权介入的传统智慧。"
+ },
+ {
+  "seg": 191,
+  "start": 1070.169,
+  "end": 1070.75,
+  "speaker": "Unknown",
+  "en": "So say more.",
+  "zh": "所以多说一点。"
+ },
+ {
+  "seg": 192,
+  "start": 1071.21,
+  "end": 1073.932,
+  "speaker": "Unknown",
+  "en": "Yeah, I can recognize that like a lot.",
+  "zh": "是的，我可以认识到这一点，很多。"
+ },
+ {
+  "seg": 193,
+  "start": 1073.953,
+  "end": 1081.158,
+  "speaker": "Unknown",
+  "en": "You know, you kind of hear the tropes about private equity and, you know, where they where they give you money and then just say work harder or whatever, do better.",
+  "zh": "你知道，你多少听说过私募股权的老套路，你知道，他们给你钱然后就说更努力工作之类的，做得更好。"
+ },
+ {
+  "seg": 194,
+  "start": 1082.259,
+  "end": 1086.862,
+  "speaker": "Unknown",
+  "en": "It hasn't been like that at all with General Atlantic or with CVC at all.",
+  "zh": "这在 General Atlantic 或 CVC 身上完全不是那样的。"
+ },
+ {
+  "seg": 195,
+  "start": 1086.962,
+  "end": 1092.465,
+  "speaker": "Unknown",
+  "en": "Really, it's great knowledge sharing across what they've seen in the industry and what we do.",
+  "zh": "真的，这是关于他们在行业中看到的我们所做的事情之间的知识共享。"
+ },
+ {
+  "seg": 196,
+  "start": 1092.505,
+  "end": 1097.988,
+  "speaker": "Unknown",
+  "en": "They're in the weeds on the product and the community, and they've really been great at pushing us to be our best.",
+  "zh": "他们深入参与产品和社区的细节，并且真的在推动我们要做到最好方面做得很好。"
+ },
+ {
+  "seg": 197,
+  "start": 1098.308,
+  "end": 1122.692,
+  "speaker": "Unknown",
+  "en": "not just saying you know do better but like here's some areas have you looked at this and it's all it's just made us stronger and then all the operational stuff all the forecasting and all the kind of operational excellence that that we've really brought to bear that we've needed to do to kind of grow up and do this it's been wonderful um and has made us better and stronger and as our reporting gets better we learn more about things and uh you",
+  "zh": "不仅仅是说你知道做得更好，而是这里有一些领域，你看过这个吗，这一切只是让我们变得更强大，然后所有的运营事情，所有的预测，以及所有我们需要做的运营卓越，为了成长并做到这一点，这很棒，嗯，让我们变得更好和更强，随着我们的报告变得更好，我们学到更多东西，然后你"
+ },
+ {
+  "seg": 198,
+  "start": 1122.792,
+  "end": 1129.476,
+  "speaker": "Unknown",
+  "en": "You know, we experiment and we learn and all those things like really matter, not just for reporting to investors, but actually operating the business.",
+  "zh": "你知道，我们实验并学习，所有这些事情真的很重要，不仅是为了向投资者报告，而是为了实际运营业务。"
+ },
+ {
+  "seg": 199,
+  "start": 1129.556,
+  "end": 1135.04,
+  "speaker": "Unknown",
+  "en": "So, yeah, I actually have really enjoyed our time with General Atlantic, made us great.",
+  "zh": "所以，是的，我真的非常享受我们与 General Atlantic 的时光，让我们变得很棒。"
+ },
+ {
+  "seg": 200,
+  "start": 1135.12,
+  "end": 1145.887,
+  "speaker": "Unknown",
+  "en": "I've learned so much as a CEO, you know, being an entrepreneur, you know, with two to five other people on your team or 10, that's one thing, but being the CEO of like a, you know,",
+  "zh": "作为一名 CEO 我学到了很多，你知道，作为一名企业家，你知道，你的团队里有两到五个人或者 10 个人，这是一回事，但作为一名，你知道，的 CEO，"
+ },
+ {
+  "seg": 201,
+  "start": 1146.347,
+  "end": 1153.251,
+  "speaker": "Unknown",
+  "en": "You know, many hundreds of people and, you know, many billions of valuations or whatever, like it changes the landscape of what I do.",
+  "zh": "你知道，拥有数百人以及，你知道，数十亿美元的估值之类的，这改变了我所做事情的格局。"
+ },
+ {
+  "seg": 202,
+  "start": 1154.011,
+  "end": 1160.915,
+  "speaker": "Unknown",
+  "en": "And I'm just grateful that they've been there to help kind of help me learn to grow into these different roles.",
+  "zh": "我真的很感激他们一直都在那里，帮助我学会成长以适应这些不同的角色。"
+ },
+ {
+  "seg": 203,
+  "start": 1161.075,
+  "end": 1166.738,
+  "speaker": "Unknown",
+  "en": "And, you know, that has kind of progressed along my own path as we, you know, as I lead this company.",
+  "zh": "而且，你知道，这随着我自己的路径有所进展，当我们，你知道，当我领导这家公司时。"
+ },
+ {
+  "seg": 204,
+  "start": 1167.338,
+  "end": 1169.82,
+  "speaker": "Unknown",
+  "en": "And so we've matured a lot and it's been great.",
+  "zh": "所以我们成熟了很多，这很棒。"
+ },
+ {
+  "seg": 205,
+  "start": 1170.527,
+  "end": 1171.087,
+  "speaker": "Unknown",
+  "en": "Super cool.",
+  "zh": "超级酷。"
+ },
+ {
+  "seg": 206,
+  "start": 1171.848,
+  "end": 1187.058,
+  "speaker": "Unknown",
+  "en": "One of the reasons I was excited to talk to you, besides being excited about chess, was that chess is probably our longest running experiment in what happens to a human activity after the machines become superhuman.",
+  "zh": "我很高兴与你交谈的原因之一，除了对国际象棋感到兴奋之外，是国际象棋可能是我们运行时间最长的实验，关于在机器变得超人之后人类活动会发生什么。"
+ },
+ {
+  "seg": 207,
+  "start": 1187.298,
+  "end": 1187.838,
+  "speaker": "Unknown",
+  "en": "Thanks for watching!",
+  "zh": "感谢观看！"
+ },
+ {
+  "seg": 208,
+  "start": 1208.917,
+  "end": 1214.382,
+  "speaker": "Unknown",
+  "en": "I think there were a lot of predictions when Deep Blue beat Kasparov that chess was over.",
+  "zh": "我认为当 Deep Blue 击败 Kasparov 时有很多预测说国际象棋完了。"
+ },
+ {
+  "seg": 209,
+  "start": 1214.983,
+  "end": 1220.148,
+  "speaker": "Unknown",
+  "en": "What did people misunderstand about why humans play games or what do you think happened instead?",
+  "zh": "人们误解了人类为什么要玩游戏，或者你认为发生了什么？"
+ },
+ {
+  "seg": 210,
+  "start": 1220.848,
+  "end": 1223.609,
+  "speaker": "Unknown",
+  "en": "Yeah, it's so interesting.",
+  "zh": "是的，这太有趣了。"
+ },
+ {
+  "seg": 211,
+  "start": 1224.589,
+  "end": 1227.71,
+  "speaker": "Unknown",
+  "en": "Fundamentally, humans want to do human stuff.",
+  "zh": "从根本上说，人类想做人类的事情。"
+ },
+ {
+  "seg": 212,
+  "start": 1227.77,
+  "end": 1230.05,
+  "speaker": "Unknown",
+  "en": "That's humans competing against other humans.",
+  "zh": "那是人与其他人的竞争。"
+ },
+ {
+  "seg": 213,
+  "start": 1230.11,
+  "end": 1231.39,
+  "speaker": "Unknown",
+  "en": "It's humans making things.",
+  "zh": "那是人在制造东西。"
+ },
+ {
+  "seg": 214,
+  "start": 1231.731,
+  "end": 1233.331,
+  "speaker": "Unknown",
+  "en": "It's humans solving problems.",
+  "zh": "那是人在解决问题。"
+ },
+ {
+  "seg": 215,
+  "start": 1233.991,
+  "end": 1239.512,
+  "speaker": "Unknown",
+  "en": "And there's certain areas where machines have gotten better than humans at things.",
+  "zh": "在某些领域，机器在事情上比人类做得更好。"
+ },
+ {
+  "seg": 216,
+  "start": 1239.592,
+  "end": 1248.174,
+  "speaker": "Unknown",
+  "en": "But it really, in the case of chess, has pushed humans to be better and to do better in their field.",
+  "zh": "但实际上，在国际象棋的例子中，它推动了人类变得更好，并在他们的领域做得更好。"
+ },
+ {
+  "seg": 217,
+  "start": 1248.434,
+  "end": 1250.395,
+  "speaker": "Unknown",
+  "en": "And it's really interesting because",
+  "zh": "这真的很有趣，因为"
+ },
+ {
+  "seg": 218,
+  "start": 1251.536,
+  "end": 1260.104,
+  "speaker": "Unknown",
+  "en": "You know, grandmasters and world champions were using early versions of computers to kind of help them with ideas that they would then take into the human versus human realm.",
+  "zh": "你知道，特级大师和世界冠军使用早期版本的计算机来帮助他们产生想法，然后他们会把这些想法带入人与人之间的领域。"
+ },
+ {
+  "seg": 219,
+  "start": 1260.885,
+  "end": 1263.728,
+  "speaker": "Unknown",
+  "en": "And then at some point, the computers got so much better.",
+  "zh": "然后在某个时候，计算机变得好得多了。"
+ },
+ {
+  "seg": 220,
+  "start": 1263.868,
+  "end": 1266.991,
+  "speaker": "Unknown",
+  "en": "And there was like Stockfish as this kind of chess engine, it was called.",
+  "zh": "有像 Stockfish 这样的国际象棋引擎，它被称为。"
+ },
+ {
+  "seg": 221,
+  "start": 1267.351,
+  "end": 1269.433,
+  "speaker": "Unknown",
+  "en": "And that chess computer, like...",
+  "zh": "那个国际象棋计算机，就像……"
+ },
+ {
+  "seg": 222,
+  "start": 1270.47,
+  "end": 1286.358,
+  "speaker": "Unknown",
+  "en": "actually made chess pretty boring for a little while because it was so perfect and all these players tried to play like the best computer they were like grinding out these boring end games and it like kind of just got boring but then neural nets came along",
+  "zh": "实际上让国际象棋在一段时间里变得相当无聊，因为它是如此完美，所有这些棋手试图像最好的计算机那样下棋，他们像是在磨这些无聊的残局，它有点变得无聊了，但后来神经网络出现了"
+ },
+ {
+  "seg": 223,
+  "start": 1286.998,
+  "end": 1310.71,
+  "speaker": "Unknown",
+  "en": "And so that was the next iteration of AI, which is like where early in the game of Go with Leela and these neural nets came along and they started training chess on different chess positions and they let this self-reinforcing learning come out and they ended up with Leela Chess Zero, the chess engine, and that started beating Stockfish in ways that was like unexpected.",
+  "zh": "所以那是 AI 的下一个迭代，就像是在围棋游戏的早期，Leela 和这些神经网络出现了，它们开始在不同的国际象棋位置上训练国际象棋，它们让这种自我强化学习出现了，它们最终得到了 Leela Chess Zero，那个国际象棋引擎，它开始以意想不到的方式击败 Stockfish。"
+ },
+ {
+  "seg": 224,
+  "start": 1311.51,
+  "end": 1317.134,
+  "speaker": "Unknown",
+  "en": "And it was actually aggressive and it did unconventional things and really pushed the game forward.",
+  "zh": "它实际上很具有攻击性，并且做了一些非传统的事情，真正推动了游戏的发展。"
+ },
+ {
+  "seg": 225,
+  "start": 1317.154,
+  "end": 1326,
+  "speaker": "Unknown",
+  "en": "And so what was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.",
+  "zh": "所以有趣的是，计算机起初让国际象棋变得有点无聊，但后来让它变得令人兴奋得多，我们看到的国际象棋比以往任何时候都更令人兴奋。"
+ },
+ {
+  "seg": 226,
+  "start": 1326.721,
+  "end": 1328.242,
+  "speaker": "Unknown",
+  "en": "And the players have gotten better.",
+  "zh": "而且棋手们变得更好了。"
+ },
+ {
+  "seg": 227,
+  "start": 1328.542,
+  "end": 1346.189,
+  "speaker": "Unknown",
+  "en": "And really, computers are now able to help us unlock the game in ways that make our enjoyment of the game better, whether it's the AI kind of coach on game review that reviews your game and helps you learn from it, or playing against the computer or generating puzzles that are specific for you.",
+  "zh": "实际上，计算机现在能够帮助我们以某种方式解锁游戏，使我们对游戏的享受更好，无论是作为游戏评论上的 AI 教练回顾你的游戏并帮助你从中学习，还是与计算机对战或生成专门针对你的谜题。"
+ },
+ {
+  "seg": 228,
+  "start": 1346.289,
+  "end": 1350.271,
+  "speaker": "Unknown",
+  "en": "So AI has just really helped humans enjoy chess more.",
+  "zh": "所以 AI 确实帮助人类更多地享受国际象棋。"
+ },
+ {
+  "seg": 229,
+  "start": 1350.691,
+  "end": 1352.712,
+  "speaker": "Unknown",
+  "en": "I don't know exactly how that's going to play out.",
+  "zh": "我不确定那会如何发展。"
+ },
+ {
+  "seg": 230,
+  "start": 1352.792,
+  "end": 1356.172,
+  "speaker": "Unknown",
+  "en": "I know that right now, AI and mathematics is a big deal.",
+  "zh": "我知道现在，AI 和数学是一件大事。"
+ },
+ {
+  "seg": 231,
+  "start": 1356.232,
+  "end": 1357.793,
+  "speaker": "Unknown",
+  "en": "Is it solving too many problems?",
+  "zh": "它解决了太多问题吗？"
+ },
+ {
+  "seg": 232,
+  "start": 1358.133,
+  "end": 1361.794,
+  "speaker": "Unknown",
+  "en": "But then you've got AI that's unfolding proteins and solving for cancer.",
+  "zh": "但你有 AI 在解析蛋白质并解决癌症问题。"
+ },
+ {
+  "seg": 233,
+  "start": 1362.194,
+  "end": 1364.094,
+  "speaker": "Unknown",
+  "en": "But humans are doing the research too.",
+  "zh": "但人类也在做研究。"
+ },
+ {
+  "seg": 234,
+  "start": 1364.154,
+  "end": 1372.957,
+  "speaker": "Unknown",
+  "en": "So it's really this kind of hand-in-hand partnership where the best of human creativity, the best of AI can help move humans further.",
+  "zh": "所以这真的是一种携手合作，人类创造力的精华，AI 的精华可以帮助人类走得更远。"
+ },
+ {
+  "seg": 235,
+  "start": 1374.317,
+  "end": 1376.017,
+  "speaker": "Unknown",
+  "en": "So I don't know.",
+  "zh": "所以我不知道。"
+ },
+ {
+  "seg": 236,
+  "start": 1376.037,
+  "end": 1378.158,
+  "speaker": "Unknown",
+  "en": "I'm pretty optimistic about the future, honestly.",
+  "zh": "老实说，我对未来相当乐观。"
+ },
+ {
+  "seg": 237,
+  "start": 1378.61,
+  "end": 1388.482,
+  "speaker": "Unknown",
+  "en": "I'm very inspired by the idea that AI can help humans get better at things much faster than they used to or technology in general.",
+  "zh": "我受到这个想法的鼓舞，AI 可以帮助人类比过去更快地变强，或者一般来说技术也是如此。"
+ },
+ {
+  "seg": 238,
+  "start": 1388.522,
+  "end": 1398.414,
+  "speaker": "Unknown",
+  "en": "Like if you took a talented 10 year old today versus 30 years ago, like how much faster do you think they could reach ELO 2000 or master or something?",
+  "zh": "就像如果你今天拿一个有天赋的 10 岁孩子和 30 年前相比，你觉得他们能多快达到 ELO 2000 或大师之类的水平？"
+ },
+ {
+  "seg": 239,
+  "start": 1398.833,
+  "end": 1400.714,
+  "speaker": "Unknown",
+  "en": "I mean, we're seeing it already.",
+  "zh": "我的意思是，我们已经看到了。"
+ },
+ {
+  "seg": 240,
+  "start": 1401.134,
+  "end": 1402.835,
+  "speaker": "Unknown",
+  "en": "There's just younger and younger players.",
+  "zh": "只有越来越年轻的棋手。"
+ },
+ {
+  "seg": 241,
+  "start": 1402.855,
+  "end": 1412.919,
+  "speaker": "Unknown",
+  "en": "There's seven-year-olds who are giving a run to grandmasters and 10-year-old, I'm gonna butcher her name so I'm not even gonna say it, but from India, from England, she's crushing everybody.",
+  "zh": "有 7 岁的孩子正在给特级大师制造麻烦，还有一个 10 岁的孩子，我会念错她的名字所以我甚至不会说，但是来自印度，来自英国，她正在击败所有人。"
+ },
+ {
+  "seg": 242,
+  "start": 1412.999,
+  "end": 1413.82,
+  "speaker": "Unknown",
+  "en": "She's incredible.",
+  "zh": "她令人难以置信。"
+ },
+ {
+  "seg": 243,
+  "start": 1414.16,
+  "end": 1418.141,
+  "speaker": "Unknown",
+  "en": "And to your point, take the 10-year-old and give them the tools and see where they come out.",
+  "zh": "照你的说法，拿那个 10 岁的孩子并给他们工具，看看他们会发展到哪里。"
+ },
+ {
+  "seg": 244,
+  "start": 1418.502,
+  "end": 1425.205,
+  "speaker": "Unknown",
+  "en": "When my son was younger than 10, he obviously had access to YouTube and he had access to different things.",
+  "zh": "当我儿子不到 10 岁的时候，他显然可以使用 YouTube，他可以接触到不同的东西。"
+ },
+ {
+  "seg": 245,
+  "start": 1425.265,
+  "end": 1427.205,
+  "speaker": "Unknown",
+  "en": "And now he's 18 years old and he,",
+  "zh": "现在他 18 岁了，他，"
+ },
+ {
+  "seg": 246,
+  "start": 1429.146,
+  "end": 1440.855,
+  "speaker": "Unknown",
+  "en": "is a better video game creator than I ever would have been because he self-learned everything on YouTube and with different AI tools.",
+  "zh": "是一个比我曾经可能的更好的电子游戏创作者，因为他在 YouTube 和不同的 AI 工具上自学了一切。"
+ },
+ {
+  "seg": 247,
+  "start": 1440.875,
+  "end": 1445.818,
+  "speaker": "Unknown",
+  "en": "He doesn't use AI in the creative side, but he uses it for research on how to solve problems.",
+  "zh": "他不在创作方面使用 AI，但他用它来研究如何解决问题。"
+ },
+ {
+  "seg": 248,
+  "start": 1446.218,
+  "end": 1455.385,
+  "speaker": "Unknown",
+  "en": "And so this access to information, this access to superhuman intelligence really is making people learn faster.",
+  "zh": "所以这种获取信息的途径，这种获取超人智能的途径确实让人学习得更快。"
+ },
+ {
+  "seg": 249,
+  "start": 1456.005,
+  "end": 1456.425,
+  "speaker": "Unknown",
+  "en": "And better.",
+  "zh": "并且更好。"
+ },
+ {
+  "seg": 250,
+  "start": 1456.685,
+  "end": 1463.928,
+  "speaker": "Unknown",
+  "en": "And so to your point, who knows what's going to be coming next in the next generation for those who are young now.",
+  "zh": "所以说到你的观点，谁知道下一代对于现在年轻的人来说接下来会发生什么。"
+ },
+ {
+  "seg": 251,
+  "start": 1464.248,
+  "end": 1467.93,
+  "speaker": "Unknown",
+  "en": "As they learn faster, what will they create?",
+  "zh": "随着他们学得更快，他们会创造什么？"
+ },
+ {
+  "seg": 252,
+  "start": 1468.29,
+  "end": 1475.433,
+  "speaker": "Unknown",
+  "en": "I think the downside and the scare that everybody has is like, well, when there's a super intelligent AI that knows everything, like...",
+  "zh": "我认为坏处和每个人的恐惧就像是这样，好吧，当有一个知道一切的超智能 AI 时，就像……"
+ },
+ {
+  "seg": 253,
+  "start": 1476.133,
+  "end": 1477.514,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining us.",
+  "zh": "非常感谢你加入我们。"
+ },
+ {
+  "seg": 254,
+  "start": 1503.694,
+  "end": 1509.118,
+  "speaker": "Unknown",
+  "en": "Again, I think it's going to push people further into learning and creating better things.",
+  "zh": "同样，我认为这将推动人们进一步去学习和创造更好的东西。"
+ },
+ {
+  "seg": 255,
+  "start": 1509.518,
+  "end": 1518.704,
+  "speaker": "Unknown",
+  "en": "If everyone has this information access that you describe, why aren't we all equally good at chess?",
+  "zh": "如果每个人都拥有你所描述的这种信息获取权限，为什么我们没有同样擅长国际象棋？"
+ },
+ {
+  "seg": 256,
+  "start": 1518.805,
+  "end": 1523.668,
+  "speaker": "Unknown",
+  "en": "What is having access to this due to the skill distribution in your data or in your experience?",
+  "zh": "由于你数据或你经验中的技能分布，拥有这种权限意味着什么？"
+ },
+ {
+  "seg": 257,
+  "start": 1524.157,
+  "end": 1533.181,
+  "speaker": "Unknown",
+  "en": "I mean, like anything, you know, you've got to do the repetitions to put it in your brain, you know, just because we have access to it on the computer.",
+  "zh": "我的意思是，就像任何事情一样，你知道，你必须做重复练习来把它放进你的脑子里，你知道，仅仅因为我们可以通过计算机获取它。"
+ },
+ {
+  "seg": 258,
+  "start": 1533.461,
+  "end": 1533.661,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 259,
+  "start": 1533.861,
+  "end": 1534.121,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 260,
+  "start": 1534.461,
+  "end": 1537.662,
+  "speaker": "Unknown",
+  "en": "So it's really about people putting in a little bit of work.",
+  "zh": "所以这实际上是关于人们付出一点点努力。"
+ },
+ {
+  "seg": 261,
+  "start": 1538.202,
+  "end": 1549.147,
+  "speaker": "Unknown",
+  "en": "And one thing that I really love is the concept that if you just take any given day in your life and multiply that by a thousand, that's kind of what your life looks like.",
+  "zh": "我真正喜欢的一件事是这样一个概念，如果你只是拿你生活中的任何一天并把它乘以一千，这就是你的生活样子的大概样子。"
+ },
+ {
+  "seg": 262,
+  "start": 1549.967,
+  "end": 1561.23,
+  "speaker": "Unknown",
+  "en": "So if you do five chess puzzles a day, multiply that by 1,000, you've done 5,000 chess puzzles, you're gonna be much better, right?",
+  "zh": "所以如果你每天做五个国际象棋谜题，乘以 1,000，你就做了 5,000 个谜题，你会变得好得多，对吧？"
+ },
+ {
+  "seg": 263,
+  "start": 1561.41,
+  "end": 1564.691,
+  "speaker": "Unknown",
+  "en": "Now if you wanna do 100 puzzles a day, multiply that by 1,000, right?",
+  "zh": "现在如果你想每天做 100 个谜题，乘以 1,000，对吧？"
+ },
+ {
+  "seg": 264,
+  "start": 1564.711,
+  "end": 1571.592,
+  "speaker": "Unknown",
+  "en": "Or play 10 chess games a day, or do yoga every day for 10,000 years, 10,000 days, or 1,000 days.",
+  "zh": "或者每天下 10 盘国际象棋，或者每天做瑜伽，做 10,000 年，10,000 天，或者 1,000 天。"
+ },
+ {
+  "seg": 265,
+  "start": 1571.652,
+  "end": 1578.794,
+  "speaker": "Unknown",
+  "en": "It's not the actual individual one thing that you do on one day, but it's your habits that really compound over time.",
+  "zh": "重要的不是你在某一天做的实际的那一件单一的事，而是你的习惯真正随时间复合增长。"
+ },
+ {
+  "seg": 266,
+  "start": 1579.014,
+  "end": 1580.954,
+  "speaker": "Unknown",
+  "en": "You can put that into any field, right?",
+  "zh": "你可以把这个应用到任何领域，对吧？"
+ },
+ {
+  "seg": 267,
+  "start": 1580.994,
+  "end": 1586.275,
+  "speaker": "Unknown",
+  "en": "Whether you do one sketch a day or you go for one small run every day.",
+  "zh": "无论你是每天画一幅草图，还是每天都进行一次小小的跑步。"
+ },
+ {
+  "seg": 268,
+  "start": 1586.295,
+  "end": 1588.836,
+  "speaker": "Unknown",
+  "en": "And it's the same in any field, right?",
+  "zh": "这在任何领域都是一样的，对吧？"
+ },
+ {
+  "seg": 269,
+  "start": 1588.896,
+  "end": 1591.837,
+  "speaker": "Unknown",
+  "en": "If you do research into any topic.",
+  "zh": "如果你对任何主题进行研究。"
+ },
+ {
+  "seg": 270,
+  "start": 1592.257,
+  "end": 1607.98,
+  "speaker": "Unknown",
+  "en": "And that's one thing that I do think AI is so great at is you can literally get into whatever AI program you're using and you can start researching something and it can walk you through and it can help you get exposure to ideas, refine ideas.",
+  "zh": "我认为 AI 真正棒的一点是，你实际上可以进入你正在使用的任何 AI 程序，你可以开始研究一些东西，它可以引导你，它可以帮助你接触想法，完善想法。"
+ },
+ {
+  "seg": 271,
+  "start": 1608.86,
+  "end": 1618.746,
+  "speaker": "Unknown",
+  "en": "You know, you can walk through and have these conversations and access to like walking into a professor's office and, you know, starting to ask questions, but you get it in your pocket all the time.",
+  "zh": "你知道，你可以进行这些对话，获得这种访问权限，就像走进一位教授的办公室，你知道，开始问问题，但你在口袋里就能随时拥有它。"
+ },
+ {
+  "seg": 272,
+  "start": 1619.026,
+  "end": 1625.509,
+  "speaker": "Unknown",
+  "en": "And of course there's issues with biases and with like, it tells you what you want to hear and it like over inflates your ego and there's all these problems with it.",
+  "zh": "当然，偏见存在问题，还有比如，它告诉你你想听的东西，它过度膨胀你的自我，它有所有这些问题。"
+ },
+ {
+  "seg": 273,
+  "start": 1625.889,
+  "end": 1632.453,
+  "speaker": "Unknown",
+  "en": "But honestly, for people who use it well, like you can deep dive into subjects and learn and train like at a tremendous pace.",
+  "zh": "但老实说，对于那些善用它的人来说，你可以深入研究科目并学习和训练，速度惊人。"
+ },
+ {
+  "seg": 274,
+  "start": 1632.953,
+  "end": 1642.021,
+  "speaker": "Unknown",
+  "en": "You have this incredible data set with Chess.com of humans learning millions of people at every rating, making mistakes and improving.",
+  "zh": "你拥有 Chess.com 上令人难以置信的数据集，数百万人类在各个等级段学习，犯错误并进步。"
+ },
+ {
+  "seg": 275,
+  "start": 1642.601,
+  "end": 1649.888,
+  "speaker": "Unknown",
+  "en": "What can you tell us about how humans acquire expertise or how to get them up that ramp faster?",
+  "zh": "关于人类如何获得专业知识或如何让他们更快地爬上那个坡度，你能告诉我们要什么？"
+ },
+ {
+  "seg": 276,
+  "start": 1650.588,
+  "end": 1654.752,
+  "speaker": "Unknown",
+  "en": "Fortunately and unfortunately, it's actually, again, quite an easy answer.",
+  "zh": "幸运的是也不幸的是，实际上，再次强调，这是一个非常简单的答案。"
+ },
+ {
+  "seg": 277,
+  "start": 1654.772,
+  "end": 1655.373,
+  "speaker": "Unknown",
+  "en": "Oh, no.",
+  "zh": "噢，不。"
+ },
+ {
+  "seg": 278,
+  "start": 1656.862,
+  "end": 1661.826,
+  "speaker": "Unknown",
+  "en": "Yeah, it's just repetition of like the small building blocks.",
+  "zh": "是的，这只是像小的积木一样的重复。"
+ },
+ {
+  "seg": 279,
+  "start": 1662.546,
+  "end": 1664.148,
+  "speaker": "Unknown",
+  "en": "And so it is doing puzzles.",
+  "zh": "所以这就是做谜题。"
+ },
+ {
+  "seg": 280,
+  "start": 1664.268,
+  "end": 1666.009,
+  "speaker": "Unknown",
+  "en": "It is reviewing your mistakes.",
+  "zh": "这是在回顾你的错误。"
+ },
+ {
+  "seg": 281,
+  "start": 1666.509,
+  "end": 1670.132,
+  "speaker": "Unknown",
+  "en": "It is, you know, if you want to play certain openings, just training.",
+  "zh": "这是，你知道，如果你想玩特定的开局，只是训练。"
+ },
+ {
+  "seg": 282,
+  "start": 1670.793,
+  "end": 1674.435,
+  "speaker": "Unknown",
+  "en": "And so there's really not shortcuts to the process.",
+  "zh": "所以这个过程真的没有捷径。"
+ },
+ {
+  "seg": 283,
+  "start": 1674.675,
+  "end": 1676.016,
+  "speaker": "Unknown",
+  "en": "There are shortcuts in the tools.",
+  "zh": "工具有捷径。"
+ },
+ {
+  "seg": 284,
+  "start": 1677.509,
+  "end": 1682.472,
+  "speaker": "Unknown",
+  "en": "We've tried to make it as easy as possible to do your puzzles and to train on your different elements.",
+  "zh": "我们已试图尽可能让做谜题和在不同元素上训练变得容易。"
+ },
+ {
+  "seg": 285,
+  "start": 1682.492,
+  "end": 1686.995,
+  "speaker": "Unknown",
+  "en": "And we have a whole set of tools coming later this year, which is going to make it even easier.",
+  "zh": "我们有一整套工具今年晚些时候推出，这将使其变得更容易。"
+ },
+ {
+  "seg": 286,
+  "start": 1687.075,
+  "end": 1690.077,
+  "speaker": "Unknown",
+  "en": "But you have to put in the repetitions into your brain.",
+  "zh": "但你必须把重复练习放进你的大脑。"
+ },
+ {
+  "seg": 287,
+  "start": 1690.097,
+  "end": 1691.258,
+  "speaker": "Unknown",
+  "en": "You have to store that.",
+  "zh": "你必须存储那个。"
+ },
+ {
+  "seg": 288,
+  "start": 1691.578,
+  "end": 1694.02,
+  "speaker": "Unknown",
+  "en": "It's the same as when you train a neural net, right?",
+  "zh": "这就像当你训练一个神经网络时一样，对吧？"
+ },
+ {
+  "seg": 289,
+  "start": 1694.08,
+  "end": 1695.44,
+  "speaker": "Unknown",
+  "en": "You give it a bunch of data.",
+  "zh": "你给它一堆数据。"
+ },
+ {
+  "seg": 290,
+  "start": 1695.761,
+  "end": 1701.484,
+  "speaker": "Unknown",
+  "en": "And of course, it can train it in parallel, where it can do all these different memory channels at once, training on these things.",
+  "zh": "当然，它可以并行训练，它可以一次做所有这些不同的记忆通道，在这些东西上训练。"
+ },
+ {
+  "seg": 291,
+  "start": 1701.764,
+  "end": 1703.385,
+  "speaker": "Unknown",
+  "en": "Our brains don't work quite that way.",
+  "zh": "我们的大脑并不是那样工作的。"
+ },
+ {
+  "seg": 292,
+  "start": 1703.485,
+  "end": 1705.827,
+  "speaker": "Unknown",
+  "en": "But we have to put in the repetitions.",
+  "zh": "但我们必须进行重复练习。"
+ },
+ {
+  "seg": 293,
+  "start": 1706.207,
+  "end": 1718.963,
+  "speaker": "Unknown",
+  "en": "And I think a lot of people these days, because of the immediacy of social media and the immediacy of our lives in general, kind of forget that practice is, you know, you can't really shortcut practice.",
+  "zh": "我认为现在很多人，因为社交媒体的即时性以及我们生活的普遍即时性，有点忘记练习是，你知道，你真的无法走捷径去练习。"
+ },
+ {
+  "seg": 294,
+  "start": 1718.983,
+  "end": 1719.944,
+  "speaker": "Unknown",
+  "en": "You have to put in the time.",
+  "zh": "你必须投入时间。"
+ },
+ {
+  "seg": 295,
+  "start": 1720.508,
+  "end": 1722.769,
+  "speaker": "Unknown",
+  "en": "I'm going to ask kind of a funny question.",
+  "zh": "我要问一个有点好笑的问题。"
+ },
+ {
+  "seg": 296,
+  "start": 1722.809,
+  "end": 1724.389,
+  "speaker": "Unknown",
+  "en": "Feel free to not answer.",
+  "zh": "你可以不回答。"
+ },
+ {
+  "seg": 297,
+  "start": 1725.089,
+  "end": 1728.03,
+  "speaker": "Unknown",
+  "en": "How do you guys think about cheating at chess.com?",
+  "zh": "你们在 chess.com 是如何考虑作弊的？"
+ },
+ {
+  "seg": 298,
+  "start": 1728.09,
+  "end": 1735.692,
+  "speaker": "Unknown",
+  "en": "Because you have also dealt with an issue that I think a lot of the world is dealing with now.",
+  "zh": "因为你们也处理了一个我认为现在世界上很多人都在处理的问题。"
+ },
+ {
+  "seg": 299,
+  "start": 1735.712,
+  "end": 1737.973,
+  "speaker": "Unknown",
+  "en": "Maybe they will call it cheating or not, but it is.",
+  "zh": "也许他们会称之为作弊或不作弊，但这确实是。"
+ },
+ {
+  "seg": 300,
+  "start": 1738.913,
+  "end": 1758.972,
+  "speaker": "Unknown",
+  "en": "machines can create superhuman output and it can pass off as human performance right it's tough right i i wish humans didn't have this drive that like to take advantage of someone else or you know put themselves above somebody or steal from them but there's some segment of the population where",
+  "zh": "机器可以产生超人类的输出，并且它可以冒充成人类的表现，对吧，这很难，对吧，我希望人类没有这种驱动力，就像利用别人或者你知道把自己置于别人之上或者从别人那里偷窃，但是有一部分人群"
+ },
+ {
+  "seg": 301,
+  "start": 1759.572,
+  "end": 1784.129,
+  "speaker": "Unknown",
+  "en": "you know either for you know financial gain where they're using AI tools and and and technology to steal from people or even if they're just getting on to online chess and use you know loading up a computer and to steal rating points or boost their ego or whatever it is it is sad you know it's um and it bums me out that that humans can't just you know get in there and and be honest and full of integrity at all times um",
+  "zh": "你知道，无论是为了经济利益，他们正在使用 AI 工具和技术从人们那里偷窃，或者即使他们只是登录国际象棋并使用你知道加载电脑来窃取积分点或提升他们的自尊或无论是什么，这很令人悲伤你知道它是嗯，这让我很难过，人类不能只是你知道参与其中并始终保持诚实和正直嗯"
+ },
+ {
+  "seg": 302,
+  "start": 1784.949,
+  "end": 1794.151,
+  "speaker": "Unknown",
+  "en": "That said, chess has been dealing with cheating for a very long time, much, much longer than AI as we've had these chess computers.",
+  "zh": "话虽如此，国际象棋长期以来一直在应对作弊，比 AI 长得多，就像我们拥有这些国际象棋电脑一样。"
+ },
+ {
+  "seg": 303,
+  "start": 1794.972,
+  "end": 1800.393,
+  "speaker": "Unknown",
+  "en": "And so a lot of people thought it was an existential threat to the game and that it would end the game.",
+  "zh": "所以很多人认为这是对游戏的生存威胁，它将结束这项游戏。"
+ },
+ {
+  "seg": 304,
+  "start": 1800.493,
+  "end": 1803.414,
+  "speaker": "Unknown",
+  "en": "But unfortunately, we also have technology to fight the cheating.",
+  "zh": "但不幸的是，我们也有技术来对抗作弊。 [[305]】 所以我们花了很多时间、很多钱、很多资源在"
+ },
+ {
+  "seg": 305,
+  "start": 1804.294,
+  "end": 1810.036,
+  "speaker": "Unknown",
+  "en": "And so we spend a lot of time, a lot of money, a lot of resources on",
+  "zh": "所以我们花了很多时间、很多钱、很多资源在"
+ },
+ {
+  "seg": 306,
+  "start": 1811.416,
+  "end": 1812.737,
+  "speaker": "Unknown",
+  "en": "Anti-cheating, basically.",
+  "zh": "反作弊上，基本上。"
+ },
+ {
+  "seg": 307,
+  "start": 1813.197,
+  "end": 1819.262,
+  "speaker": "Unknown",
+  "en": "And we have a whole set of tools, which I'm not going to get into because I don't like to give ideas to people on how we do it.",
+  "zh": "我们有一整套工具，我不打算深入探讨，因为我不想给人们提供关于我们如何做的想法。"
+ },
+ {
+  "seg": 308,
+  "start": 1819.662,
+  "end": 1821.483,
+  "speaker": "Unknown",
+  "en": "But we track a lot of stuff.",
+  "zh": "但我们要追踪很多东西。"
+ },
+ {
+  "seg": 309,
+  "start": 1821.523,
+  "end": 1822.524,
+  "speaker": "Unknown",
+  "en": "We have more data.",
+  "zh": "我们有更多的数据。"
+ },
+ {
+  "seg": 310,
+  "start": 1822.544,
+  "end": 1829.169,
+  "speaker": "Unknown",
+  "en": "We have more statistical models, machine learning models, and that really kind of track how people play chess.",
+  "zh": "我们有更多的统计模型、机器学习模型，它们实际上追踪人们如何下国际象棋。"
+ },
+ {
+  "seg": 311,
+  "start": 1829.229,
+  "end": 1830.81,
+  "speaker": "Unknown",
+  "en": "And again, we have access to all this data.",
+  "zh": "同样，我们可以访问所有这些数据。"
+ },
+ {
+  "seg": 312,
+  "start": 1830.85,
+  "end": 1832.671,
+  "speaker": "Unknown",
+  "en": "We know what it's like when humans play chess.",
+  "zh": "我们知道人类下国际象棋是什么样子的。"
+ },
+ {
+  "seg": 313,
+  "start": 1832.951,
+  "end": 1834.973,
+  "speaker": "Unknown",
+  "en": "We know what it's like when computers play chess.",
+  "zh": "我们知道电脑下国际象棋是什么样子的。"
+ },
+ {
+  "seg": 314,
+  "start": 1835.633,
+  "end": 1837.414,
+  "speaker": "Unknown",
+  "en": "And we just get better and better all the time.",
+  "zh": "而且我们一直都在变得越来越好。"
+ },
+ {
+  "seg": 315,
+  "start": 1838.375,
+  "end": 1847.182,
+  "speaker": "Unknown",
+  "en": "It's definitely an incredibly important thing that we think about often is to protect the integrity of the game, both at the casual level and at the professional level.",
+  "zh": "这绝对是一件非常重要的事情，我们要经常思考，就是为了保护比赛的完整性，无论是在休闲层面还是在职业层面。"
+ },
+ {
+  "seg": 316,
+  "start": 1847.482,
+  "end": 1850.004,
+  "speaker": "Unknown",
+  "en": "And we kind of actually have two different work streams that do that.",
+  "zh": "我们实际上有两条不同的工作流来做这件事。"
+ },
+ {
+  "seg": 317,
+  "start": 1850.064,
+  "end": 1852.346,
+  "speaker": "Unknown",
+  "en": "Like, you know, how do we just detect it in general?",
+  "zh": "就像，你知道，我们要如何大致检测它？"
+ },
+ {
+  "seg": 318,
+  "start": 1852.366,
+  "end": 1856.809,
+  "speaker": "Unknown",
+  "en": "And then when we have prize money on the line and professional events, how do we deal with that?",
+  "zh": "然后，当我们有奖金摆在桌面上并且在职业赛事中时，我们要如何处理？"
+ },
+ {
+  "seg": 319,
+  "start": 1858.01,
+  "end": 1865.372,
+  "speaker": "Unknown",
+  "en": "It's something we spend a lot of time on and we feel really great about our role to protect the game and we feel very confident that we're doing a great job.",
+  "zh": "这是我们花了很多时间的事情，我们对保护比赛的角色感觉非常好，我们非常有信心我们做得很好。"
+ },
+ {
+  "seg": 320,
+  "start": 1866.113,
+  "end": 1877.296,
+  "speaker": "Unknown",
+  "en": "Cheating can't be prevented because you can't put a webcam in every single person's home, but we do do a really good job at catching it and banning people who do that and trying to educate them as well.",
+  "zh": "作弊无法被预防，因为你不可能在每个人家里都放一个网络摄像头，但我们确实在做发现它的工作，并禁止这样做的人，并试图教育他们。"
+ },
+ {
+  "seg": 321,
+  "start": 1877.396,
+  "end": 1880.077,
+  "speaker": "Unknown",
+  "en": "So definitely something I'm very passionate about.",
+  "zh": "所以绝对是我非常热衷的事情。"
+ },
+ {
+  "seg": 322,
+  "start": 1880.56,
+  "end": 1889.283,
+  "speaker": "Unknown",
+  "en": "Because you are super passionate about it and the craft of chess, what do you think makes chess special as a game?",
+  "zh": "因为你对它和国际象棋的技艺充满热情，你认为是什么让国际象棋作为一种游戏特别？"
+ },
+ {
+  "seg": 323,
+  "start": 1889.323,
+  "end": 1894.045,
+  "speaker": "Unknown",
+  "en": "Why should a billion people play chess versus the many other games that are out there?",
+  "zh": "为什么十亿人应该下国际象棋，而不是市面上许多其他的游戏？"
+ },
+ {
+  "seg": 324,
+  "start": 1894.605,
+  "end": 1901.888,
+  "speaker": "Unknown",
+  "en": "There's something special about chess, especially in a world where",
+  "zh": "国际象棋有一些特别之处，尤其是在这样一个世界里，那里"
+ },
+ {
+  "seg": 325,
+  "start": 1903.84,
+  "end": 1905.584,
+  "speaker": "Unknown",
+  "en": "Anything is possible these days.",
+  "zh": "如今一切皆有可能。"
+ },
+ {
+  "seg": 326,
+  "start": 1906.025,
+  "end": 1911.696,
+  "speaker": "Unknown",
+  "en": "I mean, you could give an AI a prompt and you could have 10,000 new board games tomorrow.",
+  "zh": "我是说，你可以给 AI 一个提示词，明天你就能拥有 10,000 个新的棋盘游戏。"
+ },
+ {
+  "seg": 327,
+  "start": 1913.713,
+  "end": 1935.678,
+  "speaker": "Unknown",
+  "en": "you know we've seen this with the explosion of music right like over the last you know several decades that like there's infinite music and when there's infinite music sometimes people go back to like the beatles and led zeppelin because it's like the classics that everyone can kind of rally around and have a shared experience um and i think that's the same about chess is like",
+  "zh": "你知道我们在音乐的爆炸中看到了这一点，对吧，就像在过去你知道几十年里，就像有无限的音乐，当有无限的音乐时，有时人们会回到披头士和齐柏林飞艇，因为它是经典，每个人都可以团结在一起并拥有共同的体验，嗯，我认为国际象棋也是一样的，就像"
+ },
+ {
+  "seg": 328,
+  "start": 1936.595,
+  "end": 1952.687,
+  "speaker": "Unknown",
+  "en": "you know there's no loot boxes there's no new skins that dropped there's no like changes to the rules there's no new heroes to learn it's like the simplest set of rules um it's a full you know information game and you know there's no luck involved",
+  "zh": "你知道没有战利品箱，没有掉落的新皮肤，没有规则的变化，没有需要学习的新英雄，这是最简单的一套规则，嗯，这是一个完全你知道的信息游戏，你知道不涉及运气"
+ },
+ {
+  "seg": 329,
+  "start": 1953.447,
+  "end": 1977.269,
+  "speaker": "Unknown",
+  "en": "and you just can load up a game on your on your device or or get your chessboard out of the drawer and set it up and you're having the same shared experience um forever and it has enough complexity that can just like blow your mind but enough simplicity that you can like learn it um and so it just kind of fits that sweet spot between complex and basic and you know um timeless and",
+  "zh": "你只需要在你的设备上加载一个游戏或者从抽屉里拿出你的棋盘并摆好，你就拥有了同样的共同体验，嗯永远，而且它有足够的复杂性可以让你大吃一惊，但也有足够的简单性让你可以学习它，嗯所以它只是符合复杂和基本以及你知道嗯永恒和"
+ },
+ {
+  "seg": 330,
+  "start": 1978.587,
+  "end": 1979.727,
+  "speaker": "Unknown",
+  "en": "So I don't know.",
+  "zh": "所以我不知道。"
+ },
+ {
+  "seg": 331,
+  "start": 1980.348,
+  "end": 1986.97,
+  "speaker": "Unknown",
+  "en": "Evolutionarily, it just became the king of games, we can say, because of its many attributes.",
+  "zh": "从进化上讲，它只是成为了游戏之王，我们可以这么说，因为它有很多属性。"
+ },
+ {
+  "seg": 332,
+  "start": 1987.05,
+  "end": 1997.274,
+  "speaker": "Unknown",
+  "en": "And I think a lot of people in today's world are looking for things that they can hold onto in a world of increasing, exploding proliferation of everything.",
+  "zh": "我认为当今世界很多人都在寻找他们可以紧紧抓住的东西，在这个一切日益激增、爆炸性扩散的世界里。"
+ },
+ {
+  "seg": 333,
+  "start": 1997.899,
+  "end": 2014.832,
+  "speaker": "Unknown",
+  "en": "Do you think of, like when you look forward, do you think of chess.com as like a game company or an education company or a social network or, you know, you have like creators and influencers, like a media company, like how do you, how do you frame the business besides the mission of get everyone to play chess?",
+  "zh": "你认为，比如当你向前看时，你认为 chess.com 是像一家游戏公司还是一家教育公司还是社交网络，或者，你知道，你有创作者和网红，像一家媒体公司，你如何，除了让每个人下棋的使命之外，你如何定义这项业务？"
+ },
+ {
+  "seg": 334,
+  "start": 2015.343,
+  "end": 2037.447,
+  "speaker": "Unknown",
+  "en": "we're just definitely a chess company i'll say that um the the easy answer is we all love chess we love playing it so we're a chess company but that does have many facets to it um you know we have said like we're a gaming company we're a content company we're a social network we are all of those things because chess the game encompasses all of those things more recently we have branched out",
+  "zh": "我们绝对是一家国际象棋公司，我会这么说，嗯简单的答案是我们都热爱国际象棋，我们喜欢下它，所以我们是一家国际象棋公司，但这确实有很多面，你知道我们说过我们是一家游戏公司，我们是一家内容公司，我们是一个社交网络，我们是所有这些东西，因为国际象棋这项游戏包含了所有这些东西，最近我们扩展了"
+ },
+ {
+  "seg": 335,
+  "start": 2037.807,
+  "end": 2057.678,
+  "speaker": "Unknown",
+  "en": "not that we're like oh we're now a games company but a lot of us do love a lot of different games um so even though chess is like you know 99.99 of what we do we recently launched gambit at gambit.com which is our poker um site and you can play gambit on your phone as well but we're doing poker in a different way too we're bringing the chess playbook which is like",
+  "zh": "不是说我们像哦我们现在是一家游戏公司，但我们很多人确实喜欢很多不同的游戏，嗯所以即使国际象棋就像你知道我们所做事情的 99.99%，我们最近在 gambit.com 上推出了 Gambit，这是我们的扑克，嗯网站，你也可以在手机上玩 Gambit，但我们也在以不同的方式做扑克，我们正在带来国际象棋的打法，就像"
+ },
+ {
+  "seg": 336,
+  "start": 2058.298,
+  "end": 2059.239,
+  "speaker": "Unknown",
+  "en": "Poker for ratings.",
+  "zh": "为了积分打扑克。"
+ },
+ {
+  "seg": 337,
+  "start": 2059.56,
+  "end": 2060.801,
+  "speaker": "Unknown",
+  "en": "How good are you really?",
+  "zh": "你实际上有多强？"
+ },
+ {
+  "seg": 338,
+  "start": 2060.981,
+  "end": 2069.752,
+  "speaker": "Unknown",
+  "en": "Not just can you buy the most chips or can you use a bot or can you steal the most money, whatever it is, but how good are you really?",
+  "zh": "不仅仅是你能买最多的筹码或者你能使用机器人或者你能偷最多的钱，不管是什么，而是你实际上有多强？"
+ },
+ {
+  "seg": 339,
+  "start": 2070.312,
+  "end": 2074.958,
+  "speaker": "Unknown",
+  "en": "And we're going to roll out other games as well because we like the playbook of what we've done.",
+  "zh": "我们还将推出其他游戏，因为我们喜欢我们所做的事情的打法。"
+ },
+ {
+  "seg": 340,
+  "start": 2075.018,
+  "end": 2077.381,
+  "speaker": "Unknown",
+  "en": "So we're cooking up a bunch of other classic games.",
+  "zh": "所以我们正在准备一堆其他的经典游戏。"
+ },
+ {
+  "seg": 341,
+  "start": 2078.582,
+  "end": 2079.923,
+  "speaker": "Unknown",
+  "en": "And we're gonna be launching those out there.",
+  "zh": "我们将要在那里推出这些游戏。"
+ },
+ {
+  "seg": 342,
+  "start": 2079.963,
+  "end": 2086.949,
+  "speaker": "Unknown",
+  "en": "We have our take on how we feel like gaming should be done and can be done in like a pure and wholesome and great learning and educational way.",
+  "zh": "我们有我们对游戏应该如何做以及可以如何以纯粹和健康以及很好的学习和教育方式来完成的看法。"
+ },
+ {
+  "seg": 343,
+  "start": 2087.009,
+  "end": 2091.533,
+  "speaker": "Unknown",
+  "en": "So you'll see us rolling out more games in the future, but it doesn't, it's a small team that's doing it.",
+  "zh": "所以你会看到我们在未来推出更多游戏，但这并不，这是一个小团队在做这件事。"
+ },
+ {
+  "seg": 344,
+  "start": 2091.553,
+  "end": 2095.476,
+  "speaker": "Unknown",
+  "en": "It doesn't really take away from our mission of chess, but we are branching out.",
+  "zh": "这并不会真正削弱我们国际象棋的使命，但我们正在扩展。"
+ },
+ {
+  "seg": 345,
+  "start": 2095.828,
+  "end": 2098.911,
+  "speaker": "Unknown",
+  "en": "Okay, I have two more questions for you about the future.",
+  "zh": "好的，关于未来我还有两个问题要问你。"
+ },
+ {
+  "seg": 346,
+  "start": 2099.751,
+  "end": 2113.383,
+  "speaker": "Unknown",
+  "en": "One for founders who are trying to figure out if they're in the right market, in a niche market, too early, or just wrong.",
+  "zh": "一个是给那些试图弄清楚他们是否处于正确的市场、利基市场、太早或者只是错了的创始人。"
+ },
+ {
+  "seg": 347,
+  "start": 2113.543,
+  "end": 2117.947,
+  "speaker": "Unknown",
+  "en": "What wisdom do you have for folks thinking about those questions?",
+  "zh": "对于思考这些问题的人，你有什么智慧？"
+ },
+ {
+  "seg": 348,
+  "start": 2118.007,
+  "end": 2119.629,
+  "speaker": "Unknown",
+  "en": "Because when you did this,",
+  "zh": "因为当你做这件事时，"
+ },
+ {
+  "seg": 349,
+  "start": 2123.311,
+  "end": 2126.213,
+  "speaker": "Unknown",
+  "en": "A lot of people told you it was too small.",
+  "zh": "很多人告诉你它太小了。"
+ },
+ {
+  "seg": 350,
+  "start": 2126.753,
+  "end": 2133.737,
+  "speaker": "Unknown",
+  "en": "I think one of the curses of being a founder today is just how much founder advice there is out there.",
+  "zh": "我认为作为当今创始人的一大诅咒，就是外界的创始人建议太多了。"
+ },
+ {
+  "seg": 351,
+  "start": 2134.758,
+  "end": 2150.667,
+  "speaker": "Unknown",
+  "en": "At the time when I was getting into doing this 20 years ago, the playbook was like, hire a technical founder from Stanford, raise a bunch of money, get an office, go after a big market, spend a bunch of money on customer acquisition.",
+  "zh": "回想我 20 年前刚入行的时候，那个剧本就像是，从斯坦福雇一位技术创始人，筹集一大笔钱，搞个办公室，冲进一个大市场，在客户获取上花一大笔钱。"
+ },
+ {
+  "seg": 352,
+  "start": 2151.387,
+  "end": 2153.729,
+  "speaker": "Unknown",
+  "en": "And we literally just did like all the opposite of that.",
+  "zh": "而我们实际上恰恰做了相反的事。"
+ },
+ {
+  "seg": 353,
+  "start": 2153.749,
+  "end": 2156.071,
+  "speaker": "Unknown",
+  "en": "Like I hired my friend from San Jose State.",
+  "zh": "比如我雇了我来自圣何塞州立大学的朋友。"
+ },
+ {
+  "seg": 354,
+  "start": 2156.351,
+  "end": 2157.512,
+  "speaker": "Unknown",
+  "en": "We worked remotely.",
+  "zh": "我们远程工作。"
+ },
+ {
+  "seg": 355,
+  "start": 2157.612,
+  "end": 2158.973,
+  "speaker": "Unknown",
+  "en": "We didn't raise any money.",
+  "zh": "我们没有融任何资。"
+ },
+ {
+  "seg": 356,
+  "start": 2159.093,
+  "end": 2161.775,
+  "speaker": "Unknown",
+  "en": "We didn't pay any money for customer acquisition.",
+  "zh": "我们没有在客户获取上花任何钱。"
+ },
+ {
+  "seg": 357,
+  "start": 2161.855,
+  "end": 2163.216,
+  "speaker": "Unknown",
+  "en": "We picked a tiny market.",
+  "zh": "我们选择了一个很小的市场。"
+ },
+ {
+  "seg": 358,
+  "start": 2163.817,
+  "end": 2165.739,
+  "speaker": "Unknown",
+  "en": "So I don't know.",
+  "zh": "所以我不知道。"
+ },
+ {
+  "seg": 359,
+  "start": 2165.879,
+  "end": 2170.262,
+  "speaker": "Unknown",
+  "en": "Like I think people should listen to their heart and listen to like what they want to do.",
+  "zh": "我觉得人们应该听从自己的内心，倾听他们想做什么。"
+ },
+ {
+  "seg": 360,
+  "start": 2170.302,
+  "end": 2173.745,
+  "speaker": "Unknown",
+  "en": "And they should think of what do they want to see exist out there in the world?",
+  "zh": "他们应该思考他们想看到世上存在什么东西？"
+ },
+ {
+  "seg": 361,
+  "start": 2174.145,
+  "end": 2177.028,
+  "speaker": "Unknown",
+  "en": "And then just relentlessly go after that more than",
+  "zh": "然后只是 relentless 地去追求那个，而不是"
+ },
+ {
+  "seg": 362,
+  "start": 2177.688,
+  "end": 2179.189,
+  "speaker": "Unknown",
+  "en": "You know, what does the market saying?",
+  "zh": "你知道，市场怎么说？"
+ },
+ {
+  "seg": 363,
+  "start": 2179.209,
+  "end": 2180.07,
+  "speaker": "Unknown",
+  "en": "What are these different things?",
+  "zh": "这些不同的东西是什么？"
+ },
+ {
+  "seg": 364,
+  "start": 2180.11,
+  "end": 2183.193,
+  "speaker": "Unknown",
+  "en": "Now, of course, if you've got to listen to your customer, right?",
+  "zh": "当然，如果你必须倾听你的客户，对吧？"
+ },
+ {
+  "seg": 365,
+  "start": 2183.213,
+  "end": 2184.914,
+  "speaker": "Unknown",
+  "en": "And you've got to pivot if it's not working.",
+  "zh": "如果行不通，你也必须转型。"
+ },
+ {
+  "seg": 366,
+  "start": 2184.934,
+  "end": 2186.996,
+  "speaker": "Unknown",
+  "en": "But like, what's your vision for the world?",
+  "zh": "但是，你对世界的愿景是什么？"
+ },
+ {
+  "seg": 367,
+  "start": 2187.096,
+  "end": 2190.279,
+  "speaker": "Unknown",
+  "en": "What is the minimum amount of resources you need to go prove that out?",
+  "zh": "你需要多少最少的资源去证明这一点？"
+ },
+ {
+  "seg": 368,
+  "start": 2190.82,
+  "end": 2192.661,
+  "speaker": "Unknown",
+  "en": "Who are the great people you want to work with?",
+  "zh": "你想共事的优秀人选是谁？"
+ },
+ {
+  "seg": 369,
+  "start": 2193.322,
+  "end": 2194.563,
+  "speaker": "Unknown",
+  "en": "None of the rest of it matters.",
+  "zh": "其余的一切都不重要。"
+ },
+ {
+  "seg": 370,
+  "start": 2194.623,
+  "end": 2199.768,
+  "speaker": "Unknown",
+  "en": "Just go execute and put something beautiful into the world that's unique and that creates value for people.",
+  "zh": "去执行吧，把一些美好的东西放入这个世界，它是独特的，并为人们创造价值。"
+ },
+ {
+  "seg": 371,
+  "start": 2200.308,
+  "end": 2201.649,
+  "speaker": "Unknown",
+  "en": "And you'll figure the rest of it out.",
+  "zh": "其余的你会弄明白的。"
+ },
+ {
+  "seg": 372,
+  "start": 2203.507,
+  "end": 2206.868,
+  "speaker": "Unknown",
+  "en": "And stop listening to people just giving you advice on what to do.",
+  "zh": "别再听那些给你建议告诉你该做什么的人的话。"
+ },
+ {
+  "seg": 373,
+  "start": 2206.988,
+  "end": 2207.688,
+  "speaker": "Unknown",
+  "en": "Just go do it.",
+  "zh": "去做就是了。"
+ },
+ {
+  "seg": 374,
+  "start": 2208.829,
+  "end": 2210.149,
+  "speaker": "Unknown",
+  "en": "Okay, last question for you.",
+  "zh": "好的，问最后一个问题。"
+ },
+ {
+  "seg": 375,
+  "start": 2211.83,
+  "end": 2213.47,
+  "speaker": "Unknown",
+  "en": "Do you believe in AGI?",
+  "zh": "你相信 AGI 吗？"
+ },
+ {
+  "seg": 376,
+  "start": 2213.49,
+  "end": 2217.411,
+  "speaker": "Unknown",
+  "en": "Do you believe in its like, or ASI and its imminent arrival?",
+  "zh": "你相信它的，或者 ASI 及其即将到来吗？"
+ },
+ {
+  "seg": 377,
+  "start": 2217.431,
+  "end": 2221.032,
+  "speaker": "Unknown",
+  "en": "And what's one thing you believe about the world if that is true?",
+  "zh": "如果那是真的，关于世界你相信的一件事是什么？"
+ },
+ {
+  "seg": 378,
+  "start": 2221.873,
+  "end": 2229.435,
+  "speaker": "Unknown",
+  "en": "I do believe in superhuman intelligence and that it will move at a faster and faster pace.",
+  "zh": "我确实相信超人类智能，并且它会以越来越快的速度发展。"
+ },
+ {
+  "seg": 379,
+  "start": 2230.527,
+  "end": 2238.631,
+  "speaker": "Unknown",
+  "en": "I think it will be a little bit scary if we don't put guard rules, guard rails around that and rules for how it should engage with humans.",
+  "zh": "我认为如果我们不围绕它设立保护规则、护栏以及它应该如何与人类互动的规则，那会有点可怕。"
+ },
+ {
+  "seg": 380,
+  "start": 2238.751,
+  "end": 2239.612,
+  "speaker": "Unknown",
+  "en": "I hope we can do that.",
+  "zh": "我希望我们能做到。"
+ },
+ {
+  "seg": 381,
+  "start": 2239.952,
+  "end": 2243.274,
+  "speaker": "Unknown",
+  "en": "I would say I'm more optimistic than pessimistic about the impact of that though.",
+  "zh": "我想说，关于它的影响，我比悲观更乐观。"
+ },
+ {
+  "seg": 382,
+  "start": 2243.474,
+  "end": 2254.079,
+  "speaker": "Unknown",
+  "en": "I would hope that it can help us solve some of the biggest problems around climate, biggest problems around even politics and education and create a more equitable world.",
+  "zh": "我希望它能帮助我们解决气候方面的一些最大问题，甚至是政治和教育方面的最大问题，并创造一个更公平的世界。"
+ },
+ {
+  "seg": 383,
+  "start": 2254.44,
+  "end": 2257.361,
+  "speaker": "Unknown",
+  "en": "I worry that it can have the opposite effect.",
+  "zh": "我担心它可能产生相反的效果。"
+ },
+ {
+  "seg": 384,
+  "start": 2257.481,
+  "end": 2258.562,
+  "speaker": "Unknown",
+  "en": "I think we're already seeing,",
+  "zh": "我想我们已经看到了，"
+ },
+ {
+  "seg": 385,
+  "start": 2259.282,
+  "end": 2262.365,
+  "speaker": "Unknown",
+  "en": "So I think this is less a technology problem and more a cultural problem.",
+  "zh": "所以我认为这与其说是一个技术问题，不如说是一个文化问题。"
+ },
+ {
+  "seg": 386,
+  "start": 2275.958,
+  "end": 2286.227,
+  "speaker": "Unknown",
+  "en": "And I hope that we can solve that by, you know, loving one another, by sharing with one another, by connecting and feeling that we have a greater stewardship and responsibility to this world.",
+  "zh": "我希望我们能通过爱彼此、通过分享、通过连接并感到我们对这个世界拥有更重要的管家身份和责任来解决它。"
+ },
+ {
+  "seg": 387,
+  "start": 2286.647,
+  "end": 2296.215,
+  "speaker": "Unknown",
+  "en": "I think the technology is somewhat irrelevant to that, meaning we've had, you know, nuclear technology and we've had guns and we've had, you know, an economic system for a long time.",
+  "zh": "我认为技术对此有些无关紧要，意思是我们要有核技术，我们有枪支，你知道，我们有一个经济体系很久了。"
+ },
+ {
+  "seg": 388,
+  "start": 2296.235,
+  "end": 2301.039,
+  "speaker": "Unknown",
+  "en": "And it's really what we do with that as a culture more than what the tool is itself.",
+  "zh": "真正重要的是我们作为一个文化用它来做什么，而不是工具本身是什么。"
+ },
+ {
+  "seg": 389,
+  "start": 2301.879,
+  "end": 2307.402,
+  "speaker": "Unknown",
+  "en": "So a superhuman intelligence, an AGI, ASI can be used for good or for evil.",
+  "zh": "所以超人类智能、AGI、ASI 可以被用于善或恶。"
+ },
+ {
+  "seg": 390,
+  "start": 2307.762,
+  "end": 2310.423,
+  "speaker": "Unknown",
+  "en": "It's going to depend on the people who are in charge.",
+  "zh": "这将取决于掌权的人。"
+ },
+ {
+  "seg": 391,
+  "start": 2311.264,
+  "end": 2318.667,
+  "speaker": "Unknown",
+  "en": "I wish I felt more confidence around the people who are in charge of this world right now, whether that's the super billionaires or politicians.",
+  "zh": "我希望我对目前负责这个世界的人更有信心，无论是超级亿万富翁还是政客。"
+ },
+ {
+  "seg": 392,
+  "start": 2319.307,
+  "end": 2327.711,
+  "speaker": "Unknown",
+  "en": "I don't know how we got into a place where the people who should probably not be in charge of the world are in charge of the world and the people who should be are not.",
+  "zh": "我不知道我们是怎么到了一个不该负责世界的人负责着世界，而该负责的人却不负责的地步。"
+ },
+ {
+  "seg": 393,
+  "start": 2329.272,
+  "end": 2332.939,
+  "speaker": "Unknown",
+  "en": "I don't know if we're going to get out of that, but we are where we are.",
+  "zh": "我不知道我们能不能摆脱那个，但我们就在我们所在的地方。"
+ },
+ {
+  "seg": 394,
+  "start": 2332.999,
+  "end": 2338.27,
+  "speaker": "Unknown",
+  "en": "So I'm hopeful we can make some cultural changes and put some things in place to protect us.",
+  "zh": "所以我有希望我们能做出一些文化改变，并采取一些措施来保护我们。"
+ },
+ {
+  "seg": 395,
+  "start": 2338.848,
+  "end": 2346.81,
+  "speaker": "Unknown",
+  "en": "I think the interest and growth of chess is actually a solution to all the world's problems.",
+  "zh": "我认为国际象棋的兴趣和增长实际上是世界上所有问题的解决方案。"
+ },
+ {
+  "seg": 396,
+  "start": 2346.85,
+  "end": 2356.692,
+  "speaker": "Unknown",
+  "en": "But it's incredibly optimistic to me because it is so clear that people, they want to acquire human skills, even when the machine can outperform them.",
+  "zh": "但这对我来说非常乐观，因为很明显，人们，他们想要获得人类技能，即使机器的表现能超过他们。"
+ },
+ {
+  "seg": 397,
+  "start": 2356.772,
+  "end": 2363.173,
+  "speaker": "Unknown",
+  "en": "And they want to watch, they appreciate exceptional human skill, even when the machine could do much better, right?",
+  "zh": "他们想要观看，他们欣赏杰出的人类技能，即使机器可以做得更好，对吧？"
+ },
+ {
+  "seg": 398,
+  "start": 2363.993,
+  "end": 2377.741,
+  "speaker": "Unknown",
+  "en": "Maybe you limit that to gaming, though I think in a world where you believe there is more capability and more abundance, I do think people are going to spend a lot of time playing games.",
+  "zh": "也许你会把这局限于游戏，虽然我认为在你相信有更多能力和更多富足的世界里，我认为人们会花很多时间玩游戏。"
+ },
+ {
+  "seg": 399,
+  "start": 2378.222,
+  "end": 2388.828,
+  "speaker": "Unknown",
+  "en": "But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.",
+  "zh": "但我认为人类技能在超人类 AI 的世界里不再相关的想法，仅仅作为技术本身的一个产物，是无稽之谈。"
+ },
+ {
+  "seg": 400,
+  "start": 2389.128,
+  "end": 2401.514,
+  "speaker": "Unknown",
+  "en": "Right, so there I think we're super aligned and there's a bunch of complexity around the guardrails and distribution of the fruits of that technology still.",
+  "zh": "对，所以在这一点上我认为我们非常一致，围绕护栏和该技术成果的分配仍然存在很多复杂性。"
+ },
+ {
+  "seg": 401,
+  "start": 2401.975,
+  "end": 2402.215,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 402,
+  "start": 2402.715,
+  "end": 2410.199,
+  "speaker": "Unknown",
+  "en": "What are you investing in at chess.com from an AI perspective, like if it's tools or how the product changes?",
+  "zh": "你们从 AI 角度在 chess.com 上投资了什么，比如是工具还是产品如何变化？"
+ },
+ {
+  "seg": 403,
+  "start": 2410.702,
+  "end": 2421.978,
+  "speaker": "Unknown",
+  "en": "Yeah, we use AI extensively across, as a business, as an organization, all across many different facets.",
+  "zh": "是的，我们在整个业务、组织的许多不同方面广泛使用 AI。"
+ },
+ {
+  "seg": 404,
+  "start": 2422.178,
+  "end": 2425.983,
+  "speaker": "Unknown",
+  "en": "It powers a bunch of our support team",
+  "zh": "它为我们支持团队提供动力"
+ },
+ {
+  "seg": 405,
+  "start": 2426.784,
+  "end": 2427.485,
+  "speaker": "Unknown",
+  "en": "We've built...",
+  "zh": "我们已经构建了……"
+ },
+ {
+  "seg": 406,
+  "start": 2452.825,
+  "end": 2472.079,
+  "speaker": "Unknown",
+  "en": "Our CTO, Josh, sees the future and he long ago started building kind of what everyone else is like, wait a minute, we need this, which is we have our own internal system called GNS, which is like an authentication and knowledge layer that goes across our whole organization with all the right permissions and things and stores it.",
+  "zh": "我们的 CTO Josh 看到了未来，他很久以前就开始构建那种其他人都在像「等等，我们需要这个」的东西，也就是我们拥有自己的内部系统 GNS，它就像是横跨我们整个组织的认证和知识层，拥有所有正确的权限和东西并存储它。"
+ },
+ {
+  "seg": 407,
+  "start": 2472.799,
+  "end": 2478.483,
+  "speaker": "Unknown",
+  "en": "We're building our own MarTech technology so that we can more deeply integrate with our users and our data.",
+  "zh": "我们正在构建我们自己的 MarTech 技术，以便我们能够与我们的用户和我们的数据更深度地集成。"
+ },
+ {
+  "seg": 408,
+  "start": 2478.603,
+  "end": 2493.206,
+  "speaker": "Unknown",
+  "en": "And then, of course, we're also using it in our development and product lifecycle as we build specs, as we do more agentic development where, as I like to say, have an idea or see a problem, fix a problem.",
+  "zh": "然后，当然，我们也在我们的开发和产品生命周期中使用它，正如我们在构建规格时，我们做更多的智能体开发，正如我喜欢说的，有一个想法或看到一个问题，解决一个问题。"
+ },
+ {
+  "seg": 409,
+  "start": 2493.907,
+  "end": 2503.149,
+  "speaker": "Unknown",
+  "en": "And we're just trying to shorten the timeline between when something is either an opportunity or a problem, and we push code live to our users.",
+  "zh": "我们只是试图缩短当某事是一个机会或问题，与我们向用户推送实时代码之间的时间线。"
+ },
+ {
+  "seg": 410,
+  "start": 2503.349,
+  "end": 2505.429,
+  "speaker": "Unknown",
+  "en": "Because ultimately, that's really what matters.",
+  "zh": "因为归根结底，这才是真正重要的。"
+ },
+ {
+  "seg": 411,
+  "start": 2506.289,
+  "end": 2508.11,
+  "speaker": "Unknown",
+  "en": "And software development cycles,",
+  "zh": "而软件开发周期，"
+ },
+ {
+  "seg": 412,
+  "start": 2508.69,
+  "end": 2533.713,
+  "speaker": "Unknown",
+  "en": "can can get really long by the time you oh let's do an in-depth product scope let's get it on the roadmap let's let's you know build it let's build it again let's test it let's queue like you know all those different handoffs and all those different pieces make it sometimes very long to get something out to users and so we're really trying to shorten that down um and you know we're seeing great success with that and that's ultimately what we're here to do",
+  "zh": "可能会变得非常长，等到你哦，让我们做一个深入的产品范围，让我们把它放到路线图上，让我们，你知道，构建它，让我们再次构建它，让我们测试它，让我们排队，就像你知道，所有那些不同的交接和所有那些不同的部分有时使得将东西推向用户变得非常漫长，所以我们真的试图缩短它，嗯，你知道我们在这方面看到了巨大的成功，这最终也是我们要在这里做的"
+ },
+ {
+  "seg": 413,
+  "start": 2534.108,
+  "end": 2538.591,
+  "speaker": "Unknown",
+  "en": "What do you think is the biggest way AI could change the product at chess.com?",
+  "zh": "你认为 AI 改变 chess.com 产品的最大方式是什么？"
+ },
+ {
+  "seg": 414,
+  "start": 2539.031,
+  "end": 2546.916,
+  "speaker": "Unknown",
+  "en": "Well, we're also using it in our product research and in the output of what users are getting on their chess journey.",
+  "zh": "嗯，我们也将其用于我们的产品研究中，以及用户在其国际象棋之旅中获得的产出中。"
+ },
+ {
+  "seg": 415,
+  "start": 2546.976,
+  "end": 2556.762,
+  "speaker": "Unknown",
+  "en": "So we're working on things like getting all of your aggregated stats into your advanced stats and then comparing those to other users like you or users right above you.",
+  "zh": "所以我们正在致力于诸如将你所有的汇总统计数据放入你的高级统计数据中，然后将这些与像你一样的其他用户或在你之上的用户进行比较。"
+ },
+ {
+  "seg": 416,
+  "start": 2557.103,
+  "end": 2559.404,
+  "speaker": "Unknown",
+  "en": "What do you need to improve on to get to the next level?",
+  "zh": "你需要改进什么才能达到下一个水平？"
+ },
+ {
+  "seg": 417,
+  "start": 2559.664,
+  "end": 2563.727,
+  "speaker": "Unknown",
+  "en": "We do a lot of that analysis through a lot of different research methodologies, including",
+  "zh": "我们通过许多不同的研究方法做了很多这样的分析，包括"
+ },
+ {
+  "seg": 418,
+  "start": 2563.867,
+  "end": 2566.789,
+  "speaker": "Unknown",
+  "en": "Including using LLMs and AI.",
+  "zh": "包括使用 LLM 和 AI。"
+ },
+ {
+  "seg": 419,
+  "start": 2567.03,
+  "end": 2571.913,
+  "speaker": "Unknown",
+  "en": "We're working on AI technology for doing, you know, so you can have a chess coach in your pocket.",
+  "zh": "我们正在致力于 AI 技术以做，你知道，所以你可以在口袋里有一个国际象棋教练。"
+ },
+ {
+  "seg": 420,
+  "start": 2572.194,
+  "end": 2574.095,
+  "speaker": "Unknown",
+  "en": "Obviously, it's not a replacement for a human.",
+  "zh": "显然，它不能取代人类。"
+ },
+ {
+  "seg": 421,
+  "start": 2574.115,
+  "end": 2579.159,
+  "speaker": "Unknown",
+  "en": "If you really want to have a sit down with a human, you should go hire a great chess coach near you or online.",
+  "zh": "如果你真的想坐下来和人类交流，你应该去雇请附近或线上的一位伟大的国际象棋教练。"
+ },
+ {
+  "seg": 422,
+  "start": 2579.5,
+  "end": 2584.804,
+  "speaker": "Unknown",
+  "en": "But if you want a little bit more of a casual experience or an on-demand coach, you have your AI coach in your pocket.",
+  "zh": "但如果你想要一种更随意的体验或按需教练，你在口袋里就有你的 AI 教练。"
+ },
+ {
+  "seg": 423,
+  "start": 2585.404,
+  "end": 2587.466,
+  "speaker": "Unknown",
+  "en": "We're working on future products also right now.",
+  "zh": "我们目前正在致力于未来的产品。"
+ },
+ {
+  "seg": 424,
+  "start": 2587.506,
+  "end": 2589.888,
+  "speaker": "Unknown",
+  "en": "We're prototyping, having more of an interactive",
+  "zh": "我们正在原型设计，拥有更多互动性"
+ },
+ {
+  "seg": 425,
+  "start": 2589.888,
+  "end": 2590.688,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢收看。"
+ },
+ {
+  "seg": 426,
+  "start": 2607.478,
+  "end": 2608.619,
+  "speaker": "Unknown",
+  "en": "I'm going to ask one more question.",
+  "zh": "我要再问一个问题。"
+ },
+ {
+  "seg": 427,
+  "start": 2608.639,
+  "end": 2615.583,
+  "speaker": "Unknown",
+  "en": "I don't know if there's a good answer, but I'm just curious because my three games are chess, Go, and poker.",
+  "zh": "我不知道是否有好的答案，但我只是好奇，因为我的三项游戏是国际象棋、围棋和扑克。"
+ },
+ {
+  "seg": 428,
+  "start": 2615.963,
+  "end": 2620.945,
+  "speaker": "Unknown",
+  "en": "And poker is very different from the other two, and I play them very differently as I think most humans would.",
+  "zh": "而扑克与其他两项非常不同，而且我玩它们的方式也非常不同，就像我认为大多数人类会做的那样。"
+ },
+ {
+  "seg": 429,
+  "start": 2621.686,
+  "end": 2629.73,
+  "speaker": "Unknown",
+  "en": "How do you think about how to design a rating system for poker when so much of it is interpersonal?",
+  "zh": "当扑克很大程度上涉及人际关系时，你如何考虑为扑克设计评级系统？"
+ },
+ {
+  "seg": 430,
+  "start": 2630.091,
+  "end": 2636.154,
+  "speaker": "Unknown",
+  "en": "And also, if you play poker for money, it depends on how you think about financial risk.",
+  "zh": "此外，如果你为钱玩扑克，这取决于你如何考虑财务风险。"
+ },
+ {
+  "seg": 431,
+  "start": 2636.716,
+  "end": 2637.516,
+  "speaker": "Unknown",
+  "en": "This is a great question.",
+  "zh": "这是一个很好的问题。"
+ },
+ {
+  "seg": 432,
+  "start": 2637.536,
+  "end": 2641.938,
+  "speaker": "Unknown",
+  "en": "We're still evolving this as to how we're doing ratings in poker.",
+  "zh": "我们仍在改进我们在扑克中进行评级的方式。"
+ },
+ {
+  "seg": 433,
+  "start": 2642.879,
+  "end": 2649.061,
+  "speaker": "Unknown",
+  "en": "It does have to do with, again, the rating of the other people at the table and how many chips you win and how many hands you've played.",
+  "zh": "这确实与，同样，桌上其他人的评级以及你赢得了多少筹码以及你打了多少手牌有关。"
+ },
+ {
+  "seg": 434,
+  "start": 2649.081,
+  "end": 2652.843,
+  "speaker": "Unknown",
+  "en": "And so we do have a rating algorithm that I'm sure we will adjust over time.",
+  "zh": "所以我们确实有一个评级算法，我相信我们随着时间的推移会调整它。"
+ },
+ {
+  "seg": 435,
+  "start": 2653.743,
+  "end": 2663.013,
+  "speaker": "Unknown",
+  "en": "Um, as to like how people play versus when there's like, you know, playing a hundred dollar game of poker versus a thousand dollar game of poker, like things change a lot.",
+  "zh": "嗯，关于人们怎么玩 versus 当有，你知道，玩一百美元的扑克局 versus 一千美元的扑克局，就像事情变化很大。"
+ },
+ {
+  "seg": 436,
+  "start": 2663.073,
+  "end": 2672.043,
+  "speaker": "Unknown",
+  "en": "Or if you're playing for, you know, peanuts or M&Ms on the table, we've all played those games where you're playing for M&Ms and someone's just like all in all the time and they just rebuy more M&Ms.",
+  "zh": "或者如果你在玩，你知道，花生米或桌上的 M&M 巧克力豆，我们都玩过那些游戏，你在玩 M&M 豆而某人就像总是全进，他们只是重新买入更多 M&M 豆。"
+ },
+ {
+  "seg": 437,
+  "start": 2672.643,
+  "end": 2675.506,
+  "speaker": "Unknown",
+  "en": "So it, it does matter, but I think that, um,",
+  "zh": "所以这确实很重要，但我认为，嗯，"
+ },
+ {
+  "seg": 438,
+  "start": 2676.387,
+  "end": 2700.024,
+  "speaker": "Unknown",
+  "en": "as people get used to like wait i actually care about my poker rating and i treat this as like something important um i think people are going to care about it as much as money because it's a reflection of like the value and their skill as a player and of course even in chess your rating goes up and it goes down and you have your wins and your losses but we think that people are going to care a lot about their poker rating i certainly do um",
+  "zh": "当人们习惯于像等等我实际上在意我的扑克评级而且我把它当作像重要的东西嗯我认为人们会像在意金钱一样在意它因为它是价值和他们作为玩家技能的反映而且当然即使在国际象棋中你的评级上升它下降你有你的胜利和你的损失但我们认为人们会在意很多他们的扑克评级我肯定会嗯"
+ },
+ {
+  "seg": 439,
+  "start": 2701.025,
+  "end": 2715.212,
+  "speaker": "Unknown",
+  "en": "you know losing 100 bucks at a table it's not my favorite thing but i don't care that much but honestly losing you 100 rating points on my on poker that just like really bothers me so um i think this is going to be quite an interesting uh innovation for for poker",
+  "zh": "你知道在桌上输掉 100 美元这不是我最喜欢的事情但我没那么在意但说实话在我的扑克评级上输掉 100 个分点真的让我很困扰所以嗯我认为这将是一个非常有趣的嗯创新针对扑克"
+ },
+ {
+  "seg": 440,
+  "start": 2715.636,
+  "end": 2717.097,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's super exciting.",
+  "zh": "是的，我认为这非常令人兴奋。"
+ },
+ {
+  "seg": 441,
+  "start": 2717.777,
+  "end": 2733.945,
+  "speaker": "Unknown",
+  "en": "I am excited to start trying to work on my rating here because I think it will be a very equalizing thing for people who play poker to say like, well, is Eric better than I am or does he just have more M&Ms and is he a bully?",
+  "zh": "我很兴奋开始尝试在这里提升我的评级，因为我认为这将对玩扑克的人来说是一个非常平等的事情，比如说，嗯，Eric 是比我强还是他只是有更多 M&M 豆而且他是个恶霸？"
+ },
+ {
+  "seg": 442,
+  "start": 2735.006,
+  "end": 2736.286,
+  "speaker": "Unknown",
+  "en": "That's a great way of putting it.",
+  "zh": "这是一个很好的表达方式。"
+ },
+ {
+  "seg": 443,
+  "start": 2736.827,
+  "end": 2738.267,
+  "speaker": "Unknown",
+  "en": "Eric, thank you so much for doing this.",
+  "zh": "Eric，非常感谢你做这次节目。"
+ },
+ {
+  "seg": 444,
+  "start": 2738.327,
+  "end": 2742.65,
+  "speaker": "Unknown",
+  "en": "Super interesting and congratulations on the business that you have passionately built.",
+  "zh": "非常有趣，并祝贺你所充满激情地建立的业务。"
+ },
+ {
+  "seg": 445,
+  "start": 2742.69,
+  "end": 2743.39,
+  "speaker": "Unknown",
+  "en": "It's great to talk.",
+  "zh": "很高兴交谈。"
+ },
+ {
+  "seg": 446,
+  "start": 2743.622,
+  "end": 2746.245,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me and for this great conversation.",
+  "zh": "非常感谢你们邀请我以及这次很棒的对话。"
+ },
+ {
+  "seg": 447,
+  "start": 2749.809,
+  "end": 2751.951,
+  "speaker": "Unknown",
+  "en": "Find us on Twitter at nopriorspod.",
+  "zh": "在 Twitter 上关注我们 @nopriorspod。"
+ },
+ {
+  "seg": 448,
+  "start": 2752.391,
+  "end": 2754.894,
+  "speaker": "Unknown",
+  "en": "Subscribe to our YouTube channel if you want to see our faces.",
+  "zh": "如果你想看我们的脸，请订阅我们的 YouTube 频道。"
+ },
+ {
+  "seg": 449,
+  "start": 2755.415,
+  "end": 2758.918,
+  "speaker": "Unknown",
+  "en": "Follow the show on Apple Podcasts, Spotify, or wherever you listen.",
+  "zh": "在 Apple Podcasts、Spotify 或你收听的任何地方关注节目。"
+ },
+ {
+  "seg": 450,
+  "start": 2759.119,
+  "end": 2760.72,
+  "speaker": "Unknown",
+  "en": "That way you get a new episode every week.",
+  "zh": "这样你每周都能收到新的一期。"
+ },
+ {
+  "seg": 451,
+  "start": 2761.221,
+  "end": 2765.666,
+  "speaker": "Unknown",
+  "en": "And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "zh": "并在 no-priors.com 注册邮件或查找每一期的文字记录。"
+ }
+]

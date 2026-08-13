@@ -40,7 +40,7 @@ unlisted: true
 
 [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[AGI]] · [[资本支出]] · [[Ranjan Roy]] · [[David Cahn]] · [[Tesla]] · [[AI ROI]]
 
-<script type="application/json" class="pd-epn">{"Google":15,"OpenAI":33,"Anthropic":44,"SpaceX":6,"AGI":9,"资本支出":3,"Ranjan Roy":1,"David Cahn":1,"Tesla":5,"AI ROI":1}</script>
+<script type="application/json" class="pd-epn">{"Google":15,"OpenAI":33,"Anthropic":44,"SpaceX":6,"AGI":10,"资本支出":3,"Ranjan Roy":1,"David Cahn":1,"Tesla":5,"AI ROI":1}</script>
 
 <script>
 (function(){

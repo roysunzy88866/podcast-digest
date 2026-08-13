@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[Philip Johnston]]
+[[Erik Allebest]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":2,"AGI":9,"资本支出":3,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":44,"OpenAI":33,"Google":15,"TPU":2}</script>
+<script type="application/json" class="pd-epn">{"Alex":2,"AGI":10,"资本支出":3,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":44,"OpenAI":33,"Google":15,"TPU":2}</script>
 
 <script>
 (function(){

@@ -38,7 +38,7 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]]
+[[Erik Allebest]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]]
 
 </div>
 

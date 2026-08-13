@@ -52,7 +52,7 @@
     "bigtech": "2026-08-12T10:00:00.000Z",
     "aia16z": "2026-08-07T16:32:00.000Z",
     "aiandi": "2026-08-05T16:02:39.000Z",
-    "nopriors": "2026-08-06T10:00:00.000Z",
+    "nopriors": "2026-08-13T10:00:00.000Z",
     "thepeel": "2026-08-07T10:00:00.000Z"
   },
   "skipped": [
@@ -319,6 +319,12 @@
       "reason": "内容审查拦下([1301] GLM 拒译敏感内容,连拦 2 次已放弃)",
       "title": "An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
       "pubDate": "2026-04-02T12:32:28.000Z"
+    },
+    {
+      "id": "2026-07-22-lennys-computer-and-browser-use-in-codex",
+      "reason": "补活重验被拦:导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Computer and browser use in Codex (5 real examples)",
+      "pubDate": "2026-07-22T00:00:00.000Z"
     }
   ]
 }

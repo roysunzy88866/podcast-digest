@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
+[[Erik Allebest]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":2,"Google":15,"OpenAI":33,"Anthropic":44,"SpaceX":6,"Tesla":5,"AGI":9,"次级数据中心危机":1,"资本支出":3,"财富效应":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":2,"Google":15,"OpenAI":33,"Anthropic":44,"SpaceX":6,"Tesla":5,"AGI":10,"次级数据中心危机":1,"资本支出":3,"财富效应":1}</script>
 
 <script>
 (function(){

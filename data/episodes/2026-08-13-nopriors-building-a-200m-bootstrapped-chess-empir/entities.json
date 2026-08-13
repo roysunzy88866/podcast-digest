@@ -1,0 +1,536 @@
+{
+  "episode_id": "2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir",
+  "podcast": "No Priors",
+  "date": "2026-08-13",
+  "tags": [
+    "自举创业",
+    "反共识",
+    "国际象棋",
+    "AI 作弊检测",
+    "评级系统"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "erik-allebest",
+      "type": "person",
+      "role": "host",
+      "name": "Erik Allebest",
+      "file": "Erik Allebest",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "chess-com",
+      "type": "company",
+      "role": "company",
+      "name": "chess.com",
+      "file": "chess.com",
+      "primary": true,
+      "how_described": "本集把它说成:全球最大的国际象棋平台,拥有 2.5 亿会员、千万级日活,靠早期收费学习会员实现正向现金流,自举 20 年后才引入私募股权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            67.691,
+            80.084
+          ],
+          "quote": "Today, I'm here with Eric Alivest, who bought the chess.com domain out of bankruptcy auction in 2005 for 55 grand when almost every investor told him it was an uninvestable niche passion project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            95.767,
+            103.248
+          ],
+          "quote": "We talk about what AI means for games, the future of chess.com, how to build a rating system for poker, and the future of human skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            109.389,
+            117.735
+          ],
+          "quote": "So I'd love to just make sure our listeners have a little bit of the backstory of Chess.com and how you built this business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            201.152,
+            217.766
+          ],
+          "quote": "someone else owned the domain name they were building chess software but they um you know couldn't pay their their debts and and the money they'd raised a little bit of money to try to do that and ended up with a failed business and so uh a friend and i bought the chess.com domain name for 56 000 um",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            354.025,
+            361.409
+          ],
+          "quote": "But what's interesting is now, I'm like, if 250 million people have said they want to play chess at some point on chess.com,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            416.637,
+            424.668
+          ],
+          "quote": "The desire to be the dominant player in a market, the way chess.com is, is, I think, a common driver.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1632.953,
+            1642.021
+          ],
+          "quote": "You have this incredible data set with Chess.com of humans learning millions of people at every rating, making mistakes and improving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1725.089,
+            1728.03
+          ],
+          "quote": "How do you guys think about cheating at chess.com?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1997.899,
+            2014.832
+          ],
+          "quote": "Do you think of, like when you look forward, do you think of chess.com as like a game company or an education company or a social network or, you know, you have like creators and influencers, like a media company, like how do you, how do you frame the business besides the mission of get everyone to play chess?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2402.715,
+            2410.199
+          ],
+          "quote": "What are you investing in at chess.com from an AI perspective, like if it's tools or how the product changes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2534.108,
+            2538.591
+          ],
+          "quote": "What do you think is the biggest way AI could change the product at chess.com?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-blue",
+      "type": "concept",
+      "role": "concept",
+      "name": "Deep Blue",
+      "file": "Deep Blue",
+      "primary": true,
+      "how_described": "本集把它说成:当年击败卡斯帕罗夫的 AI,当时许多人预测国际象棋将走向死亡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1208.917,
+            1214.382
+          ],
+          "quote": "I think there were a lot of predictions when Deep Blue beat Kasparov that chess was over.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stockfish",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stockfish",
+      "file": "Stockfish",
+      "primary": true,
+      "how_described": "本集把它说成:过于完美的早期国际象棋引擎,导致顶级棋手纷纷模仿电脑下出无聊的平局残局,一度扼杀比赛观赏性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1263.868,
+            1266.991
+          ],
+          "quote": "And there was like Stockfish as this kind of chess engine, it was called.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1286.998,
+            1310.71
+          ],
+          "quote": "And so that was the next iteration of AI, which is like where early in the game of Go with Leela and these neural nets came along and they started training chess on different chess positions and they let this self-reinforcing learning come out and they ended up with Leela Chess Zero, the chess engine, and that started beating Stockfish in ways that was like unexpected.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "leela-chess-zero",
+      "type": "concept",
+      "role": "concept",
+      "name": "Leela Chess Zero",
+      "file": "Leela Chess Zero",
+      "primary": true,
+      "how_described": "本集把它说成:基于神经网络和自我强化学习的国际象棋引擎,极具攻击性且不按套路出牌,重新点燃了棋手的创造力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1286.998,
+            1310.71
+          ],
+          "quote": "And so that was the next iteration of AI, which is like where early in the game of Go with Leela and these neural nets came along and they started training chess on different chess positions and they let this self-reinforcing learning come out and they ended up with Leela Chess Zero, the chess engine, and that started beating Stockfish in ways that was like unexpected.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anti-cheating",
+      "type": "concept",
+      "role": "concept",
+      "name": "反作弊 (anti-cheating)",
+      "file": "反作弊",
+      "primary": true,
+      "how_described": "本集把它说成:用统计模型、机器学习模型、以及海量的人机对局模式数据来追踪和封禁作弊账号的技术防线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1811.416,
+            1812.737
+          ],
+          "quote": "Anti-cheating, basically.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rating-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "评级系统 (rating system)",
+      "file": "评级系统",
+      "primary": true,
+      "how_described": "本集把它说成:衡量玩家绝对技能水平的体系,Chess.com 正将这种剥离财力优势的评级思路引入扑克等新游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.556,
+            29.157
+          ],
+          "quote": "How do you think about like how to design a rating system for poker?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            95.767,
+            103.248
+          ],
+          "quote": "We talk about what AI means for games, the future of chess.com, how to build a rating system for poker, and the future of human skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2621.686,
+            2629.73
+          ],
+          "quote": "How do you think about how to design a rating system for poker when so much of it is interpersonal?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成:超人类智能,它能用于善也能用于恶,走向取决于掌权者的选择,因此更需要设立护栏和互动规则。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 375,
+          "t": [
+            2211.83,
+            2213.47
+          ],
+          "quote": "Do you believe in AGI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2301.879,
+            2307.402
+          ],
+          "quote": "So a superhuman intelligence, an AGI, ASI can be used for good or for evil.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "asi",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASI",
+      "file": "ASI",
+      "primary": true,
+      "how_described": "本集把它说成:即将以极快速度降临的超人类智能,其引发的问题与其说是技术问题,不如说是深刻的文化问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            2213.49,
+            2217.411
+          ],
+          "quote": "Do you believe in its like, or ASI and its imminent arrival?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2301.879,
+            2307.402
+          ],
+          "quote": "So a superhuman intelligence, an AGI, ASI can be used for good or for evil.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sand-hill-road",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙丘路 (Sand Hill Road)",
+      "file": "沙丘路",
+      "primary": false,
+      "how_described": "本集把它说成:硅谷风险投资机构聚集地,主持人曾在此寻求融资却被所有 VC 告知项目不可投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            245.075,
+            252.479
+          ],
+          "quote": "Obviously, I was at Stanford Business School at the time, so Sand Hill Road was right there, and I had access to a lot of venture capitalists.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "general-atlantic",
+      "type": "company",
+      "role": "company",
+      "name": "General Atlantic",
+      "file": "General Atlantic",
+      "primary": false,
+      "how_described": "本集把它说成:2020/2021 年首家相信 Chess.com 使命的私募股权机构,以二级市场交易方式投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            898.641,
+            905.064
+          ],
+          "quote": "Obviously, General Atlantic was really the first private equity to believe in us, you know, back in 2020 or 2021.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            979.107,
+            999.567
+          ],
+          "quote": "you know general atlantic and and tanzine there um you know they really believed in our mission and they believed that if we focused on our mission that we would we would build a wonderful business um and that was that aligned with with what we felt and so they made an investment but again secondary buying shares from existing investors no no infusion of capital",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1037.365,
+            1039.326
+          ],
+          "quote": "General Atlantic reinvested as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1082.259,
+            1086.862
+          ],
+          "quote": "It hasn't been like that at all with General Atlantic or with CVC at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1129.556,
+            1135.04
+          ],
+          "quote": "So, yeah, I actually have really enjoyed our time with General Atlantic, made us great.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cvc",
+      "type": "company",
+      "role": "company",
+      "name": "CVC",
+      "file": "CVC",
+      "primary": false,
+      "how_described": "本集把它说成:在游戏、体育和社区业务上拥有深厚经验的私募股权机构,通过买断老股投资了 Chess.com。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            887.477,
+            896.38
+          ],
+          "quote": "Yeah, well, I'll tell you, we're still a bootstrap business because CVC came in, but they still, you know, they came in and bought secondary.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1012.672,
+            1013.713
+          ],
+          "quote": "And we found CVC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1013.773,
+            1017.774
+          ],
+          "quote": "We were very, very happy to be working with CVC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1082.259,
+            1086.862
+          ],
+          "quote": "It hasn't been like that at all with General Atlantic or with CVC at all.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gambit",
+      "type": "company",
+      "role": "company",
+      "name": "Gambit",
+      "file": "Gambit",
+      "primary": false,
+      "how_described": "本集把它说成:Chess.com 推出的扑克产品,创新点在于引入国际象棋的评级思路来衡量真实技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.291,
+            2.532
+          ],
+          "quote": "Queen's Gambit happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            590.242,
+            597.451
+          ],
+          "quote": "Because before COVID and Queen's Gambit, we had like a million daily active users and we were shocked at that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            600.075,
+            612.74
+          ],
+          "quote": "But then when COVID happened, Queen's Gambit happened, some news cycles happened, and we're like, oh, this might just be a flash in the pan, like treadmills and sourdough bread and other things that people did during COVID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            720.915,
+            733.689
+          ],
+          "quote": "The first would just be, how do you, like, the Queen's Gambit and sort of the, you know, increasing cultural relevance of chess, like, what's your reflection of that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2037.807,
+            2057.678
+          ],
+          "quote": "not that we're like oh we're now a games company but a lot of us do love a lot of different games um so even though chess is like you know 99.99 of what we do we recently launched gambit at gambit.com which is our poker um site and you can play gambit on your phone as well but we're doing poker in a different way too we're bringing the chess playbook which is like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kasparov",
+      "type": "concept",
+      "role": "concept",
+      "name": "卡斯帕罗夫 (Kasparov)",
+      "file": "卡斯帕罗夫",
+      "primary": false,
+      "how_described": "本集把他提及为:当年被 Deep Blue 击败的人类国际象棋世界冠军。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1208.917,
+            1214.382
+          ],
+          "quote": "I think there were a lot of predictions when Deep Blue beat Kasparov that chess was over.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

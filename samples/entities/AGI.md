@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(13:13起):本集把它说成:只有 AGI（通用人工智能）能填平 AI 行业 4 万亿美元的资本支出窟窿,八大科技巨头都在为争夺 AGI 的控制权而下注
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(01:48起):本集提到 Demis 等人认为当前的 LLM 技术不足以直达 AGI，要达到人类水平的 AI 还需要另外几个突破。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(30:48起):本集把它说成：当所有经济论据失效时的万能牌（像永生的看涨期权一样无穷大），被当作「填补空白的上帝」插进所有算不过账的空白里。
+- **[[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]]**(36:51起):本集把它说成:超人类智能,它能用于善也能用于恶,走向取决于掌权者的选择,因此更需要设立护栏和互动规则。
 
 ## ① 提到它的金句
 
@@ -43,7 +44,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
@@ -54,6 +55,7 @@ unlisted: true
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为概念(提及)
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
+- [[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]] — 作为概念
 
 ## ③ 关联
 

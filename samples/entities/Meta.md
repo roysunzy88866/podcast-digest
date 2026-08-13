@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[Lenny]] · [[AGI]] · [[护栏]] · [[Codex]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Anthropic":44,"OpenAI":33,"Google":15,"Cursor":12,"Lenny":40,"AGI":9,"护栏":13,"Codex":16,"Claude Code":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"Anthropic":44,"OpenAI":33,"Google":15,"Cursor":12,"Lenny":40,"AGI":10,"护栏":13,"Codex":16,"Claude Code":20}</script>
 
 <script>
 (function(){
