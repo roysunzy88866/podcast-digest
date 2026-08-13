@@ -10,14 +10,14 @@ description: "Decagon 畅谈为何九成工作流转用开源模型,以及企业
 host: "[[Sarah Wang]]"
 cohosts: ["[[Kimberley Tan]]", "[[Jesse Zhang]]", "[[Ashwin Srinivas]]"]
 companies: ["[[Decagon]]"]
-concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前置部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理]]"]
+concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前向部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris#post","headline":"Decagon 的 AI 寺庙:开源、Duet 与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","description":"Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sarah Wang"},{"@type":"Person","name":"Kimberley Tan"},{"@type":"Person","name":"Jesse Zhang"},{"@type":"Person","name":"Ashwin Srinivas"},{"@type":"Organization","name":"Decagon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"微调 (fine-tune)"},{"@type":"Thing","name":"业务逻辑 (business logic)"},{"@type":"Thing","name":"前置部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"Duet"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"推理 (reasoning)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Decagon 的 AI 寺庙:开源、Duet 与护城河","item":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris#post","headline":"Decagon 的 AI 寺庙:开源、Duet 与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","description":"Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sarah Wang"},{"@type":"Person","name":"Kimberley Tan"},{"@type":"Person","name":"Jesse Zhang"},{"@type":"Person","name":"Ashwin Srinivas"},{"@type":"Organization","name":"Decagon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"微调 (fine-tune)"},{"@type":"Thing","name":"业务逻辑 (business logic)"},{"@type":"Thing","name":"前向部署工程师 (forward deployed engineer)"},{"@type":"Thing","name":"Duet"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"推理 (reasoning)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Decagon 的 AI 寺庙:开源、Duet 与护城河","item":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon 的 AI 寺庙:开源、Duet 与护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Decagon]]
 >
-> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]] · [[延迟]] · [[推理]]
+> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]] · [[Duet]] · [[延迟]] · [[推理]]
 
 <div class="pd-tldr"><b>一句话</b>Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。</div>
 
@@ -83,7 +83,7 @@ AGI 智能体同样需要个地方来存放工作、拉取信息并[[推理|推�
 
 ## 前向部署工程师:是真需求还是咨询陷阱
 
-现在科技圈很流行一个词叫「[[前置部署工程师|前向部署工程师]](FDE)」,很多公司甚至以此为卖点,声称要招一大堆人驻扎在客户公司。Ashwin 曾是 Palantir 的部署策略师,对这套打法再熟悉不过。他警告说,把做产品和免费咨询混为一谈是非常危险的 <button class="pd-ts" data-t="25:24" data-who="Ashwin" data-en="Because I do think people use the term FDE very loosely in Silicon Valley. Yeah, and I think it's dangerous to mix the two of free consulting work versus actually doing product." aria-label="回原文"></button>。
+现在科技圈很流行一个词叫「[[前向部署工程师|前向部署工程师]](FDE)」,很多公司甚至以此为卖点,声称要招一大堆人驻扎在客户公司。Ashwin 曾是 Palantir 的部署策略师,对这套打法再熟悉不过。他警告说,把做产品和免费咨询混为一谈是非常危险的 <button class="pd-ts" data-t="25:24" data-who="Ashwin" data-en="Because I do think people use the term FDE very loosely in Silicon Valley. Yeah, and I think it's dangerous to mix the two of free consulting work versus actually doing product." aria-label="回原文"></button>。
 
 他引用了 Palantir 现任 CTO Shyam 的一句名言:「前向部署工程师吞食痛苦并排泄产品」。Ashwin 解释说,在 AI 产品的早期,前向部署工程师确实是必需的,因为没人知道全新的工作流长什么样。
 

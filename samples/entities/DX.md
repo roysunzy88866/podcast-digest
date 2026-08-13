@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DX">DX</div><div class="pi"><h1 class="pt">DX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DX">DX</div><div class="pi"><h1 class="pt">DX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]]**(37:00起):本集提到 Abi Noda 创办的这家围绕开发者体验的公司，刚以十亿美元的估值卖给了 Atlassian，这印证了改善开发者体验具有巨大的商业价值。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(22:37起):本集提到的一款工程效率分析工具，团队用它来统计全公司代码合并的真实吞吐量并计算百分位数排名。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(03:39起):本集把它描述为早期 Modal 的主打牌：解决传统工作流编排工具难用的问题，让开发者不用写复杂的 YAML，而是通过在代码里加装饰器来定义基础设施需求。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]] — 作为被讨论公司(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claire Vo]] · [[swyx]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[Gusto]] · [[Vibhu]] · [[联合创始人]] · [[Modal]] · [[vibe coding]]
+[[智能体]] · [[Lenny]] · [[Claire Vo]] · [[swyx]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[代码行数]] · [[Gusto]] · [[Vibhu]]
 
-<script type="application/json" class="pd-epn">{"智能体":75,"Claire Vo":2,"swyx":1,"Eddie Kim":1,"Akshat Bubna":1,"Gusto":1,"Vibhu":1,"联合创始人":2,"Modal":1,"vibe coding":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"Lenny":40,"Claire Vo":2,"swyx":1,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"代码行数":1,"Gusto":1,"Vibhu":1}</script>
 
 <script>
 (function(){

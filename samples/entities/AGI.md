@@ -61,7 +61,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Meta]] · [[Lenny]] · [[Apple]] · [[资本支出]] · [[Microsoft]] · [[ChatGPT]] · [[杰文斯悖论]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":43,"OpenAI":33,"Google":15,"Meta":13,"Lenny":36,"Apple":9,"资本支出":3,"Microsoft":10,"ChatGPT":11,"杰文斯悖论":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":44,"OpenAI":33,"Google":15,"Meta":13,"Lenny":40,"Apple":9,"资本支出":3,"Microsoft":10,"ChatGPT":12,"杰文斯悖论":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1547 @@
+{
+  "episode_id": "2025-10-26-lennys-how-block-is-becoming-the-most-ai-native",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-10-26",
+  "tags": [
+    "AI 原生转型",
+    "智能体",
+    "组织重构",
+    "MCP",
+    "生产力"
+  ],
+  "categories": [
+    "组织与领导力",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            246.48,
+            255.967
+          ],
+          "quote": "Sinch is already helping major bands send RCS messages around the world and they're helping Lenny's podcast listeners get registered first before the rush hits the US market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            256.447,
+            260.31
+          ],
+          "quote": "Learn more and get started at sinch.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            260.51,
+            264.173
+          ],
+          "quote": "That's S-I-N-C-H .com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 56,
+          "t": [
+            324.894,
+            326.976
+          ],
+          "quote": "Check it out at figma.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            334.181,
+            334.926
+          ],
+          "quote": "Thank you Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2627.19,
+            2645.46
+          ],
+          "quote": "This is why leading platforms like Etsy, LinkedIn, Square and Lyft trust Persona to secure their platform persona is also offering my listeners 500 free services per month for one full year, just head to withpersona.com/lenny to get started, that's withpersona.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 773,
+          "t": [
+            5171.483,
+            5172.107
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dhanji-prasanna",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dhanji Prasanna",
+      "file": "Dhanji Prasanna",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            97.18,
+            99.042
+          ],
+          "quote": "Today my guest is Dhanji Prasanna.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            186.616,
+            191.86
+          ],
+          "quote": "With that, I bring you Dhanji Prasanna after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "type": "company",
+      "role": "company",
+      "name": "Block",
+      "file": "Block",
+      "primary": true,
+      "how_described": "本集讨论的核心公司,在 CTO 带领下从 GM 结构重组为职能型架构,成功转型为 AI 原生的大型科技公司,内部全员使用自研智能体提升生产力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            99.303,
+            104.268
+          ],
+          "quote": "Dhanji is Chief Technology Officer at Block, where he oversees a team of over 3,500 people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            104.709,
+            114.86
+          ],
+          "quote": "With Dhanji's leadership, Block has become one of the most AI-native large companies in the world and has basically achieved what many eng and product leaders are trying to achieve within their companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            337.18,
+            348.19
+          ],
+          "quote": "I want to start with a letter that I hear you wrote to Jack Dorsey to convince him that he and that Block needed to take AI a lot more seriously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            454.264,
+            461.73
+          ],
+          "quote": "So what were some of the bigger changes that you made after Jack is on board and Block execs are on board of are, \"Cool, this is completely right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            473.76,
+            479.904
+          ],
+          "quote": "At the start, my main focus was to get block to think like a technology company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 151,
+          "t": [
+            963,
+            972.865
+          ],
+          "quote": "Our number one priority is through automate Block, which means getting AI and getting AI forms of automation through our entire company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1086.145,
+            1121.68
+          ],
+          "quote": "So this has been one of the most surprising and energizing uses of Goose within Block is we'll have our enterprise risk management team build a whole system for self-servicing enterprise risk, and this is compressing weeks of work into hours, or ordinarily, they would be waiting for an internal apps team or something to go and build that and they would put that on their Q2 roadmap and everyone would be twiddling their thumbs until it all clicked into place, but now you can just go and do it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1531.481,
+            1538.918
+          ],
+          "quote": "So essentially at Block, instead of using Claude or ChatGPT directly or even Cursor and all these apps, they use Goose?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1677.08,
+            1691.214
+          ],
+          "quote": "We want to build things that not only are good for us and our customers, but that outlast Block and outgrow Block, that's certainly a core value for us and has been from the beginning even long before this whole AI phase.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1921.484,
+            1926.009
+          ],
+          "quote": "He's someone that I've worked with for a long time and he's been at Block for a long time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1941.727,
+            1944.791
+          ],
+          "quote": "You're very ahead of the curve in a lot of ways at Block.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3591.661,
+            3594.084
+          ],
+          "quote": "What a cool team to be on building Goose at Block.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3675.18,
+            3684.715
+          ],
+          "quote": "Looking back at your time at Block, I keep trying to, I almost say Square because I'm so used to that over the air, but I know Block is the name of the broader company and Square is just one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3684.735,
+            3688
+          ],
+          "quote": "Just so people understand, Square is one business unit, one product within Block.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3708.625,
+            3721.56
+          ],
+          "quote": "So reflecting back on your time at Block, what's maybe the most counterintuitive lesson you've learned about building products or building teams that goes against what most people believe, say common startup wisdom?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 567,
+          "t": [
+            4046.321,
+            4057.139
+          ],
+          "quote": "Speaking of controlled chaos, one of your titles during your time at Block, I guess this was while you were actually at Square, was Mad Scientist for four and a half years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            4079.634,
+            4087.52
+          ],
+          "quote": "And yeah, I'm really grateful to Block that they afforded me the freedom to have that role in my career as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            5074.529,
+            5080.797
+          ],
+          "quote": "Where can folks find you online if they want to reach out, learn more about say Goose or anything else going on at Block?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            5083.44,
+            5090.607
+          ],
+          "quote": "Check out our GitHub pages for Goose and all of the other open source projects we have at Block.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            5125.653,
+            5130.176
+          ],
+          "quote": "At Block, we always ask, \"Can we default to making this open source?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "goose",
+      "type": "concept",
+      "role": "concept",
+      "name": "Goose",
+      "file": "Goose",
+      "primary": true,
+      "how_described": "本集说它是 Block 开发并开源的通用桌面 AI 智能体程序,基于 MCP 协议构建,能给大模型装上手脚去跨系统编排任务、自动写代码甚至连续数小时做实验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            27.442,
+            31
+          ],
+          "quote": "There's a story I heard you share on a different podcast where there's an engineer who has Goose watching.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 9,
+          "t": [
+            38.392,
+            43
+          ],
+          "quote": "Now a few hours later, he'll find that Goose has already tried to build that feature and opened a PR for it on Git.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            115.38,
+            132.192
+          ],
+          "quote": "In our conversation, we chat about their internal open source agent called Goose, that by their measure is saving employees on average eight to 10 hours a week of work time, and that number is going up, how AI specifically making their teams more productive and the teams that are benefiting most.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            930.045,
+            934.569
+          ],
+          "quote": "You guys built your own agent I think is how you describe Goose.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            987.152,
+            1000.038
+          ],
+          "quote": "But even now, we find engineering teams that are very, very AI forward that are using Goose every day are reporting about eight to 10 hours saved per week, and this is self-reported.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1086.145,
+            1121.68
+          ],
+          "quote": "So this has been one of the most surprising and energizing uses of Goose within Block is we'll have our enterprise risk management team build a whole system for self-servicing enterprise risk, and this is compressing weeks of work into hours, or ordinarily, they would be waiting for an internal apps team or something to go and build that and they would put that on their Q2 roadmap and everyone would be twiddling their thumbs until it all clicked into place, but now you can just go and do it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1122.18,
+            1138.632
+          ],
+          "quote": "And so a lot of these kinds of use cases we're seeing an enormous amount of productivity gain in the other area, which I'm really excited about is we have this other tool called Gosling, which is a goose for mobile effectively.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1298.473,
+            1302.516
+          ],
+          "quote": "Okay, the other thing that you talked about is Goose, you haven't explained what Goose is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1305.258,
+            1308.34
+          ],
+          "quote": "Explain what Goose is and how important this has become to you guys.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1309.2,
+            1313.742
+          ],
+          "quote": "So Goose is a general purpose AI agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1324.848,
+            1342.676
+          ],
+          "quote": "You can talk to it just like a chatbot and you can say anything from, \"Hey Goose, organize my photos by category, and it has the ability to look within your photos and if there are a lot of trees, it'll organize them as nature photos.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1396.9,
+            1418.852
+          ],
+          "quote": "So until that point, the LLMs were not really able to do much other than chat, but Goose gives these brains arms and legs to go out and act in our digital world, and that's where we find it's had most impact and it's built on this fairly open protocol that anyone can implement.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1421.874,
+            1434
+          ],
+          "quote": "Goose is entirely open source, by the way, so any of you can download it and extend it, write your own MCPs, and that's been our core successes through Goose.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1482.5,
+            1494.349
+          ],
+          "quote": "So one example that I really like is you can ask Goose to go and build your marketing report and it has MCPs to connect to Snowflake and Tableau and Looker.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1531.481,
+            1538.918
+          ],
+          "quote": "So essentially at Block, instead of using Claude or ChatGPT directly or even Cursor and all these apps, they use Goose?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1548.263,
+            1559.246
+          ],
+          "quote": "Goose is the one that's most well-integrated into all of our systems because it's built on the MCP and it's so easy to create an MCP for an existing system.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1560.166,
+            1585.775
+          ],
+          "quote": "So for example, if you're using a issue tracking tool and you want some AI automation added to it, before Goose, our teams would have to wait for the vendor to build that AI capability in there, or maybe there's some way in which OpenAI or Anthropic or Google would provide a general purpose capability where we could plug those in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1586.875,
+            1593.617
+          ],
+          "quote": "But with Goose, that's no longer necessary with a few lines of code that an MCP represents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1594.497,
+            1600.619
+          ],
+          "quote": "All these systems are orchestratable with AI basically overnight, and Goose can write its own MCPs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1611.14,
+            1615.123
+          ],
+          "quote": "Yeah, and we have a lot of companies using Goose pretty actively.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1615.143,
+            1626.433
+          ],
+          "quote": "I don't want to name too many names, but from our competitors to our close partners, a lot of them are using Goose pretty regularly on their teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1626.493,
+            1634.7
+          ],
+          "quote": "I know Databricks talks about it a lot, but everyone you can think of in this mid-tech tier is using Goose in some form.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1691.814,
+            1697.6
+          ],
+          "quote": "So yeah, Goose follows in that proud tradition and yeah, we're very excited that its had the success it's had.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1698.322,
+            1699.651
+          ],
+          "quote": "What's the story with the name Goose, by the way?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1701.42,
+            1704.564
+          ],
+          "quote": "Goose is a Top Gun reference.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1707.987,
+            1721
+          ],
+          "quote": "He also looks exactly like Goose, so it's kind of crazy if you put them side to side, he's going to be really embarrassed with my sharing this, but that's the reason why they call it Goose, and then we lent into the whole bird theme after that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1722.624,
+            1728.236
+          ],
+          "quote": "There's a story I heard you share on a different podcast where there's an engineer who takes this to the extreme and has Goose watch him.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1732.121,
+            1755.433
+          ],
+          "quote": "So he is very, very AI-focused and he's trying to extract all these crazy ideas from Goose and Goose can do all of the things that I described through specific interactions with tools, but it can also just watch your screen so it understands how to process images and process the things that it's looking at through screenshots.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1770.36,
+            1780.825
+          ],
+          "quote": "And then a few hours later he'll find that Goose has already tried to build that feature and opened a PR for it on Git and all sorts of other wacky things like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1851.529,
+            1860.677
+          ],
+          "quote": "I would say that this is mostly an experiment, given that he's on our core Goose team and he contributes to Goose, so he has a day job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1864.3,
+            1879.591
+          ],
+          "quote": "So once this evolves into more of a native feature of Goose itself or other tools that we use in the enterprise, I think it can have a lot of legs, but it's already pretty good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1892.581,
+            1899.427
+          ],
+          "quote": "And Goose will automatically reschedule that meeting without him ever sitting in front of his calendar and clicking through 10 times.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1926.029,
+            1936
+          ],
+          "quote": "He just loves experimenting and he embodies that culture of experimentation just like our creator of Goose who did the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1995.849,
+            2015.42
+          ],
+          "quote": "So where we're working on a couple of experiments with Goose, with the next version of Goose where we're really trying to push it to work not just for two or three or five minutes at a time, our median session length is five minutes and on average, seven, but we're trying to push it to hours.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2206.168,
+            2214.317
+          ],
+          "quote": "And so I have this new version of Goose that we're working on and I was asking it to come up with ideas to improve itself and implement it overnight.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2346.068,
+            2354.431
+          ],
+          "quote": "Another team will say, \"No, no, no, we can just use Goose to build an app that will do the same thing for us in half the time or less.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2812.776,
+            2814.98
+          ],
+          "quote": "I don't need to use Cursor or Goose or all these things.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2884.52,
+            2900.11
+          ],
+          "quote": "But it's early days yet I would say that it's not clear to me that necessarily how someone knows how to use, be it Goose or Cursor or any of these other tools matters that much to whether they're a good engineer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 427,
+          "t": [
+            3144.182,
+            3160.013
+          ],
+          "quote": "So here's another really interesting example where we are trying to improve our build times and you were using Goose and a lot of other tools to help us with this too, and they've done remarkable things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3249.604,
+            3271
+          ],
+          "quote": "So the way in which I think we've been able to drive most of the adoption is Jack uses Goose, I use Goose, our executive team all have used Goose and use it regularly and use other AI programming tools and assistance as well, and we do it every single day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            3367.942,
+            3381.353
+          ],
+          "quote": "So I asked Goose to do this and it was all sitting on my laptop and Goose figured out that it could put all of these receipts into my Apple Notes app into a single note.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            3412.205,
+            3415.639
+          ],
+          "quote": "So did you just go to Goose and be like, \"Here's the problem I have, how would you solve it?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 464,
+          "t": [
+            3437.692,
+            3451.699
+          ],
+          "quote": "And then the thing about Goose that I think a lot of the other AI agents learn from us as well is if it tries a few things and fails, it'll back up and it'll try a different route and it'll just keep going until it makes some progress.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 469,
+          "t": [
+            3483.465,
+            3486.033
+          ],
+          "quote": "I love the, by the way, can you run Goose as a regular person?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3486.054,
+            3488
+          ],
+          "quote": "Can you just download Goose and use that instead of Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 479,
+          "t": [
+            3516.749,
+            3518.792
+          ],
+          "quote": "What's the simplest way to compare Goose to something else?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            3523.22,
+            3530.565
+          ],
+          "quote": "I think it's a bit different than Claude Code because at its core, Goose is a platform that implements MCPs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3591.661,
+            3594.084
+          ],
+          "quote": "What a cool team to be on building Goose at Block.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 584,
+          "t": [
+            4163.7,
+            4165.441
+          ],
+          "quote": "Yeah, Goose started small.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 586,
+          "t": [
+            4175.307,
+            4187.894
+          ],
+          "quote": "So Brad, our creator of Goose, believed very early on, I think long before we heard the buzzword going around that agents would be how we unlock value from LLMs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            5074.529,
+            5080.797
+          ],
+          "quote": "Where can folks find you online if they want to reach out, learn more about say Goose or anything else going on at Block?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            5083.44,
+            5090.607
+          ],
+          "quote": "Check out our GitHub pages for Goose and all of the other open source projects we have at Block.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将它描述为从大语言模型中释放价值的核心方式;它能执行跨系统编排、做 UI 测试,甚至监视屏幕、自动写代码并提交 PR,展示了高自主性运行的巨大潜力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            115.38,
+            132.192
+          ],
+          "quote": "In our conversation, we chat about their internal open source agent called Goose, that by their measure is saving employees on average eight to 10 hours a week of work time, and that number is going up, how AI specifically making their teams more productive and the teams that are benefiting most.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            930.045,
+            934.569
+          ],
+          "quote": "You guys built your own agent I think is how you describe Goose.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1309.2,
+            1313.742
+          ],
+          "quote": "So Goose is a general purpose AI agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            2185.04,
+            2196.997
+          ],
+          "quote": "Also, the point you made about this agent, just you give it a bunch of ideas that builds them overnight and then you could see, I imagine it goes even further up the stack and comes up with the ideas and then starts building them and then you're like, \"Okay, oh, that was a great idea.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集解释它是 Anthropic 提出的模型上下文协议,本质上是一套包装器,能将 Salesforce、Snowflake 等企业工具暴露给大语言模型,让模型直接操作,实现跨系统的自动化编排。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1350,
+            1362.265
+          ],
+          "quote": "So it can do all of these tasks, and the way we've been able to do this is through something called a model context protocol or the MCP, which a lot of your listeners might've heard.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1378.732,
+            1396
+          ],
+          "quote": "So if you have tools that you use in the enterprise, be it Salesforce or be it Snowflake or SQL, any of these things, you can wrap them in the MCP and then it exposes them to your LLM to be able to manipulate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1548.263,
+            1559.246
+          ],
+          "quote": "Goose is the one that's most well-integrated into all of our systems because it's built on the MCP and it's so easy to create an MCP for an existing system.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1586.875,
+            1593.617
+          ],
+          "quote": "But with Goose, that's no longer necessary with a few lines of code that an MCP represents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 466,
+          "t": [
+            3454.261,
+            3471.673
+          ],
+          "quote": "Then it picked Apple Script as a way to do it because it had the MCP extension to control my computer, and this is the same thing that our engineer, we were talking about the other day uses to watch his screen and things like that, but this was a very focused problem and it managed to do that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "conway-s-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "康威定律 (Conway's Law)",
+      "file": "康威定律",
+      "primary": true,
+      "how_described": "本集引用它说明「你交付的其实是你的组织结构」,强调要让公司真正 AI 化,必须先把割裂的业务线整合为统一的职能型组织架构,这是比买 AI 工具更重要的地基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            739.544,
+            748.129
+          ],
+          "quote": "I think that one of the things that I learned the most throughout this process is that Conway's Law can be really, really powerful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3617.302,
+            3621.605
+          ],
+          "quote": "One is just the power of Conway's Law, like we talked about before.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "functional-structure",
+      "type": "concept",
+      "role": "concept",
+      "name": "职能型架构 (functional structure)",
+      "file": "职能型架构",
+      "primary": true,
+      "how_described": "本集说这是 Block 做出的最关键且痛苦的重组:让全公司工程师和设计师分别向同一个负责人汇报,以统一技术语言和评级标准,彻底扫清推进 AI 的组织障碍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            2691.91,
+            2700.395
+          ],
+          "quote": "I think what's changed for us is much different and it has nothing to do with AI, it's what we talked about earlier is moving from our GM structure to a functional structure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2720.988,
+            2737.9
+          ],
+          "quote": "And I think that moving to a functional structure completely changes that and you're like, \"Well, we can leverage common platforms, common modules, we can bring in experts from across the company to advise us on how better to do this.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            3132,
+            3138.254
+          ],
+          "quote": "I love this hot take of if you're trying to be more productive, forget AI, just re-org into a functional structure.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集提到它们在夜间和周末往往处于闲置状态,应该被推向连续数小时乃至整夜的高自主性运行,去完成人类睡觉前描述好的多个实验方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1378.732,
+            1396
+          ],
+          "quote": "So if you have tools that you use in the enterprise, be it Salesforce or be it Snowflake or SQL, any of these things, you can wrap them in the MCP and then it exposes them to your LLM to be able to manipulate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1952.52,
+            1966.17
+          ],
+          "quote": "I think a lot of it is dependent on the improvement of LLM performance, but I can tell you the way I'm trying to change how I work and how I'm trying to change our immediate team's way of working.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gm-structure",
+      "type": "concept",
+      "role": "concept",
+      "name": "GM 结构 (GM structure)",
+      "file": "GM 结构",
+      "primary": false,
+      "how_described": "本集说这是 Block 过去各业务线各自为政、像独立公司组合运营的架构,导致技术焦点割裂,把工程师当成可盲目扩招的商品,阻碍了前沿技术变革的深入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            543.027,
+            558.94
+          ],
+          "quote": "And that's how it started, and then there were a whole number of steps after that where we went from a GM structure to a functional org structure, which was I think the key to making our transformation into being more of an AI-native company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 97,
+          "t": [
+            578.488,
+            583.411
+          ],
+          "quote": "We had spun them out almost as what we call a GM structure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2691.91,
+            2700.395
+          ],
+          "quote": "I think what's changed for us is much different and it has nothing to do with AI, it's what we talked about earlier is moving from our GM structure to a functional structure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2701.256,
+            2709
+          ],
+          "quote": "And in our GM structure, our incentives were always to think of engineering headcount as a commodity.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "legacy-code-bases",
+      "type": "concept",
+      "role": "concept",
+      "name": "遗留代码库 (legacy code bases)",
+      "file": "遗留代码库",
+      "primary": false,
+      "how_described": "本集指出 AI 目前在全新代码库中收益惊人,但在历史包袱沉重、复杂的遗留代码库中收益还不明显,这正是大公司普遍面临的落地难点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            880.536,
+            886.9
+          ],
+          "quote": "So that's dramatically different in teams that are still working with very heavy legacy code bases.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集提到 Goose 拥有可插拔的模型提供商系统,除了 Claude、OpenAI 模型外,用户也可下载开源模型通过 Ollama 等工具直接使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            1435.162,
+            1445.259
+          ],
+          "quote": "So essentially like Claude code with a UI, desktop app sort of thing built on top of Claude and OpenAI ChatGPT and a bunch of open source models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1448.822,
+            1481.98
+          ],
+          "quote": "So we have a pluggable provider system and you can either bring your own API keys and use the Claude family models or OpenAI's family models, or you can use open source models and you can download them and use them directly or via Ollama and other, there are several tools that help you do that, but essentially it's taking the capability of these models to generate text and to interpret text and applying them to real world situations.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            3586.281,
+            3589.095
+          ],
+          "quote": "Yeah, there's not like an open source models which-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它是 MCP(模型上下文协议)的提出者,并且是 Block 分享 Goose 概念验证时让其感到兴奋、共同探讨的早期合作方之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1363.286,
+            1368.088
+          ],
+          "quote": "And this is something that Anthropic came up with that we were a very early contributor to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1560.166,
+            1585.775
+          ],
+          "quote": "So for example, if you're using a issue tracking tool and you want some AI automation added to it, before Goose, our teams would have to wait for the vendor to build that AI capability in there, or maybe there's some way in which OpenAI or Anthropic or Google would provide a general purpose capability where we could plug those in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            4193.457,
+            4198.78
+          ],
+          "quote": "He shared it with Databricks and Anthropic, got them excited and learned a lot from them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到它是经常公开谈论并活跃使用 Goose 的中技术梯队公司之一,也是早期接触 Goose 概念验证的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1626.493,
+            1634.7
+          ],
+          "quote": "I know Databricks talks about it a lot, but everyone you can think of in this mid-tech tier is using Goose in some form.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            4193.457,
+            4198.78
+          ],
+          "quote": "He shared it with Databricks and Anthropic, got them excited and learned a lot from them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cash-app",
+      "type": "company",
+      "role": "company",
+      "name": "Cash App",
+      "file": "Cash App",
+      "primary": false,
+      "how_described": "本集说它是 Block 旗下的主要品牌之一,曾在早期作为黑客周点子起步,并在看似混乱的受控环境下迅速成长并大获成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            144.661,
+            150.726
+          ],
+          "quote": "Also, lessons from building Google Wave and Google Plus and Cash app and so much more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            564.181,
+            577.408
+          ],
+          "quote": "So when we were in our mature phase, so when Square was working quite well, it was a very large business, and then we had started Cash App and that also followed suit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 118,
+          "t": [
+            765.7,
+            781.949
+          ],
+          "quote": "And so I think that that was essentially the biggest change is we had a lot of momentum in each of these silos, be it Cash App, be it Afterpay, be it Square or even TIDAL or music streaming service.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2674.28,
+            2690.97
+          ],
+          "quote": "I don't think that things have progressed far enough that it's really impacted in a fundamental way how many people you would need to build an app of the scale of Cash App, for example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2738.84,
+            2752.848
+          ],
+          "quote": "And so those kinds of things I think have made it much different and how we hire and we no longer see engineers as a commodity to just add 100 people to go and build the next product in Cash App.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            3098.901,
+            3121.394
+          ],
+          "quote": "So like I said, we were looking at as a commodity in the GM era, and now that we're functional, it's much less about how many engineers we need as a function of the number of features we have in Square or Cash App and in the functional org structure, we think of it much more as what are the areas of optimization?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3688.821,
+            3704
+          ],
+          "quote": "Correct, yeah, we have Square, Afterpay, Cash App and TIDAL are four major brands, and then we also have Bitkey and Proto that are focused on Bitcoin for us and we chip hardware in those two brands.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3932.92,
+            3935.722
+          ],
+          "quote": "I think on Cash App we had that as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3935.822,
+            3950.489
+          ],
+          "quote": "So in the early days of Cash App, I was head of engineering from when we were about 10 engineers to 200 plus and took us to about 10 plus or 20 million users thereabouts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 591,
+          "t": [
+            4207.544,
+            4216.809
+          ],
+          "quote": "Cash App itself was like that and Cash App started more or less as a hack week sort of idea and grew into a bigger and bigger and bigger thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 630,
+          "t": [
+            4383.382,
+            4388
+          ],
+          "quote": "I had a colleague of yours on the podcast back in the day, IO, who worked with you on Cash App.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 634,
+          "t": [
+            4402.836,
+            4406
+          ],
+          "quote": "And I imagine that was really important with Building Cash App and Cash Card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4501.4,
+            4512.086
+          ],
+          "quote": "And so Cash App was probably the big success for me that a product that I worked on that was very early on and grew to be this giant business and product that people love.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 665,
+          "t": [
+            4602.7,
+            4615.186
+          ],
+          "quote": "I remember even in the early days, people used it to pay each other as a peer-to-peer money transfer system and that's why we built Cash App and that was really successful on the back of that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "square",
+      "type": "company",
+      "role": "company",
+      "name": "Square",
+      "file": "Square",
+      "primary": false,
+      "how_described": "本集说它是 Block 旗下的主要品牌(业务单元),在成熟期采用过各自为政的 GM 结构,后来被统一重组进全公司的职能型架构中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            496.695,
+            504.88
+          ],
+          "quote": "But when I started working at what was then known as Square, we were always thought of as a technology company just like Google or Facebook or any of the others.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 96,
+          "t": [
+            564.181,
+            577.408
+          ],
+          "quote": "So when we were in our mature phase, so when Square was working quite well, it was a very large business, and then we had started Cash App and that also followed suit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 118,
+          "t": [
+            765.7,
+            781.949
+          ],
+          "quote": "And so I think that that was essentially the biggest change is we had a lot of momentum in each of these silos, be it Cash App, be it Afterpay, be it Square or even TIDAL or music streaming service.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2627.19,
+            2645.46
+          ],
+          "quote": "This is why leading platforms like Etsy, LinkedIn, Square and Lyft trust Persona to secure their platform persona is also offering my listeners 500 free services per month for one full year, just head to withpersona.com/lenny to get started, that's withpersona.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            3098.901,
+            3121.394
+          ],
+          "quote": "So like I said, we were looking at as a commodity in the GM era, and now that we're functional, it's much less about how many engineers we need as a function of the number of features we have in Square or Cash App and in the functional org structure, we think of it much more as what are the areas of optimization?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3675.18,
+            3684.715
+          ],
+          "quote": "Looking back at your time at Block, I keep trying to, I almost say Square because I'm so used to that over the air, but I know Block is the name of the broader company and Square is just one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3684.735,
+            3688
+          ],
+          "quote": "Just so people understand, Square is one business unit, one product within Block.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3688.821,
+            3704
+          ],
+          "quote": "Correct, yeah, we have Square, Afterpay, Cash App and TIDAL are four major brands, and then we also have Bitkey and Proto that are focused on Bitcoin for us and we chip hardware in those two brands.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3818.935,
+            3827.559
+          ],
+          "quote": "So in our case, it's for a square merchant to make a sale, to sell coffee to you or to sell something they've made.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 567,
+          "t": [
+            4046.321,
+            4057.139
+          ],
+          "quote": "Speaking of controlled chaos, one of your titles during your time at Block, I guess this was while you were actually at Square, was Mad Scientist for four and a half years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 582,
+          "t": [
+            4150.614,
+            4158.98
+          ],
+          "quote": "And so that I think is really important and that's one of our core tenets and always has been even when we were just Square in the early days, start small.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4599.559,
+            4601.58
+          ],
+          "quote": "So anyone can become a Square seller.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 740,
+          "t": [
+            5012.024,
+            5014.668
+          ],
+          "quote": "So you were a mad scientist at Square for many years.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": false,
+      "how_described": "本集以它作经典反例:早期被 Google 收购时其代码和架构饱受诟病(甚至把视频当 blob 塞进 MySQL),却凭借解决用户痛点成为极其成功的产品,证明了代码质量与产品成功无关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            159.255,
+            163.679
+          ],
+          "quote": "If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3737.908,
+            3742.47
+          ],
+          "quote": "The two have nothing to do with each other, but my favorite example is YouTube.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3743.111,
+            3760.8
+          ],
+          "quote": "I was working at Google around the time YouTube was acquired and I just remember there was this whole wash of angst about how horrible the YouTube code base is and how terrible their architecture is, and they're storing videos as blobs in MySQL and whatnot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3761.941,
+            3772.268
+          ],
+          "quote": "And you could argue that YouTube is the most successful product at Google by a long way, maybe more successful than many of their others combined.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3773.148,
+            3786.797
+          ],
+          "quote": "And so it really has very little to do with how well it was architected because the flip side of that Google video, which is product that I don't know if people remember, it existed before YouTube.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3791.52,
+            3796.943
+          ],
+          "quote": "You could upload hour long videos, YouTube had none of this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3861.063,
+            3865.128
+          ],
+          "quote": "This YouTube story is so fun and such a good example.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集说它是可通过 MCP 包装暴露给大模型操作的企业工具之一,作为数据源被智能体调用以生成营销分析报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1378.732,
+            1396
+          ],
+          "quote": "So if you have tools that you use in the enterprise, be it Salesforce or be it Snowflake or SQL, any of these things, you can wrap them in the MCP and then it exposes them to your LLM to be able to manipulate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1482.5,
+            1494.349
+          ],
+          "quote": "So one example that I really like is you can ask Goose to go and build your marketing report and it has MCPs to connect to Snowflake and Tableau and Looker.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

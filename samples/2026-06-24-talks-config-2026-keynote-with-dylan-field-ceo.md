@@ -126,8 +126,8 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
 **换个口味**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:Figma、GitHub、Notion · 同概念:智能体 (agent)</span>
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
+- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同嘉宾:Dylan Field · 同公司:Figma</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
 
 </div>
 </div>

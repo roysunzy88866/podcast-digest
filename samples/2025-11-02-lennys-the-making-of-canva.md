@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-making-of-canva
 duration: "66:06"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-02-lennys-the-making-of-canva.jpg"
 description: "Canva CEO 讲她的「Column B」规划法:先想象疯狂的未来,再一步步把它造出来。"
 host: "[[Lenny]]"
 cohosts: ["[[Melanie Perkins]]"]
@@ -15,9 +16,9 @@ category: 产品方法
 tags:
   - 产品方法
   - 创业与行业
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2025-11-02-lennys-the-making-of-canva.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva#post","headline":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","mainEntityOfPage":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","description":"Canva CEO 讲她的「Column B」规划法:先想象疯狂的未来,再一步步把它造出来。","datePublished":"2025-11-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/the-making-of-canva","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Melanie Perkins"},{"@type":"Organization","name":"Canva"},{"@type":"Thing","name":"Column B"},{"@type":"Thing","name":"疯狂大目标 (Crazy Big Goals)"},{"@type":"Thing","name":"从混乱到清晰 (chaos to clarity)"},{"@type":"Thing","name":"使命支柱 (mission pillars)"},{"@type":"Thing","name":"两步计划 (two-step plan)"},{"@type":"Thing","name":"前端重写 (front-end rewrite)"},{"@type":"Thing","name":"AI"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","item":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva#post","headline":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","mainEntityOfPage":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","description":"Canva CEO 讲她的「Column B」规划法:先想象疯狂的未来,再一步步把它造出来。","datePublished":"2025-11-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-02-lennys-the-making-of-canva.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-making-of-canva","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Melanie Perkins"},{"@type":"Organization","name":"Canva"},{"@type":"Thing","name":"Column B"},{"@type":"Thing","name":"疯狂大目标 (Crazy Big Goals)"},{"@type":"Thing","name":"从混乱到清晰 (chaos to clarity)"},{"@type":"Thing","name":"使命支柱 (mission pillars)"},{"@type":"Thing","name":"两步计划 (two-step plan)"},{"@type":"Thing","name":"前端重写 (front-end rewrite)"},{"@type":"Thing","name":"AI"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","item":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -149,6 +150,20 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
 > <span class="qz">我认为这是孤独的关键答案之一,实际上是致力于比你自身更宏大的事情。</span>  
 > *I think that is one of the key answers to loneliness is actually working towards something bigger than yourself.*  
 > <span class="qm">—— Melanie Perkins · [58:56]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「产品方法」挖下去**
+
+- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
+- [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|Bumble 大重置：挥别「滑动」，重塑约会软件]]<span class="pd-rz">同概念:AI</span>
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:AI</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

@@ -1,0 +1,896 @@
+{
+  "episode_id": "2025-10-19-lennys-how-to-measure-ai-developer-productivity",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-10-19",
+  "tags": [
+    "开发者生产力",
+    "开发者体验",
+    "AI 编码",
+    "DevEx",
+    "度量框架"
+  ],
+  "categories": [
+    "组织与领导力",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1998.53,
+            2004.794
+          ],
+          "quote": "To try it for yourself, go to coda.io/lenny today and get six months free of the team plan for startups.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2005.055,
+            2011.819
+          ],
+          "quote": "That's C-O-D-A-dot-I-O-slash-Lenny to get started for free and get six months of the team plan, coda.io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 823,
+          "t": [
+            4037.525,
+            4038.232
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "nicole-forsgren",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nicole Forsgren",
+      "file": "Nicole Forsgren",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            72.68,
+            74.501
+          ],
+          "quote": "Today, my guest is Nicole Forsgren.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            177.799,
+            180.6
+          ],
+          "quote": "With that, I bring Nicole Forsgren.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lines-of-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码行数 (lines of code)",
+      "file": "代码行数",
+      "primary": true,
+      "how_described": "本集说它作为生产力指标一直很糟糕，而在 AI 时代彻底失效：因为大模型天生输出冗长，用它做指标极容易被系统操纵，进而引入复杂性和技术债；但现在它有了新用途——用来区分人写的代码和 AI 生成的代码，以此追踪代码存活率和质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.045,
+            9.474
+          ],
+          "quote": "If the goal is more lines of code, I can prompt something to write the longest piece of code ever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 148,
+          "t": [
+            749.029,
+            756.84
+          ],
+          "quote": "It's really tricky because, historically... Now, look, lines of code has always been a bad metric, but many folks still use lines of code-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 151,
+          "t": [
+            764.222,
+            775.166
+          ],
+          "quote": "Well, now, for many of the systems, that they would sometimes whisper and not super talk about that uses lines of code, it's just blown out of the water because, \"What do you mean by lines of code?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            776.686,
+            784.249
+          ],
+          "quote": "If the goal is more lines of code, I can prompt something to write the longest piece of code ever and add tons of comments.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 154,
+          "t": [
+            798.653,
+            809.217
+          ],
+          "quote": "I will say there are some things that we can kind of watch and pay attention to because... So lines of code as a productivity metric isn't great, it's pretty bad.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 193,
+          "t": [
+            983.351,
+            993.454
+          ],
+          "quote": "Yes, in some ways, lines of code and number of PRs can be useful for something, or number of alerts or number of things, activities or counts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2076.34,
+            2078.661
+          ],
+          "quote": "I hate lines of code, but I'm going to use the lines of code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2601.691,
+            2606.093
+          ],
+          "quote": "If it's only about productivity, then it's just lines of code or number PRs or whatever.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dora",
+      "type": "concept",
+      "role": "concept",
+      "name": "DORA",
+      "file": "DORA",
+      "primary": true,
+      "how_described": "本集说它是一个由部署频率、交付周期（衡量速度）、MTTR 和变更失败率（衡量稳定性）组成的规定性指标框架，用于评估整体交付流水线的表现；但在 AI 时代，它的反馈循环显得太慢了，不能盲目套用而错过工作方式的新变化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            91.368,
+            96.29
+          ],
+          "quote": "She created the most used frameworks for measuring developer experience called DORA and SPACE.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            845.089,
+            847.389
+          ],
+          "quote": "I'll even say the same for DORA.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            847.81,
+            851.211
+          ],
+          "quote": "I have done DORA metrics, their speed metrics, their stability metrics.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            862.135,
+            866.396
+          ],
+          "quote": "Now, what DORA's meant for, kind of assessing the pipeline overall in terms of speed and stability.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            879.542,
+            884.187
+          ],
+          "quote": "You invented DORA, that was kind of the main framework people used for a long time to measure productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 175,
+          "t": [
+            901.46,
+            903.881
+          ],
+          "quote": "DORA 4, there are four key metrics.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3128.217,
+            3135.84
+          ],
+          "quote": "And then velocity, I imagine that's where things like DORA come in of just speed of engineering, shipping, or... What would you think about there for velocity?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "type": "concept",
+      "role": "concept",
+      "name": "SPACE",
+      "file": "SPACE",
+      "primary": true,
+      "how_described": "本集说它是一个包含满意度、绩效、活动、沟通与协作、效率/心流的缩写框架；它不规定具体测什么，而是提供视角，因此在 AI 带来的新语境下显得比 DORA 更契合；本集还建议给它增加一个「信任」维度来评估大模型的幻觉与可靠性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            87.486,
+            90.968
+          ],
+          "quote": "Nicole has been at the forefront of this space longer than anyone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            91.368,
+            96.29
+          ],
+          "quote": "She created the most used frameworks for measuring developer experience called DORA and SPACE.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            96.67,
+            108.015
+          ],
+          "quote": "She wrote the most important book in the space called Accelerate and is about to publish her newest book called Frictionless, which gives you a guide to helping your team move faster and do more in this emerging AI world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            409.61,
+            417.678
+          ],
+          "quote": "I want to start with just this term DevEx, it's something that comes up a lot in this whole space, and we're going to hear this term a bunch in this conversation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 94,
+          "t": [
+            454.42,
+            462.51
+          ],
+          "quote": "Within DevEx is productivity, and I think the key insight that you had and other folks in the space of that is not just productivity, but there's also engineering happiness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            486.587,
+            501.474
+          ],
+          "quote": "Or if it's super high cognitive load, if it's hard to even think about what you're doing because concentrating on the mechanics of... the plumbing of something, then you don't have the brain space left to come up with really innovative solutions and questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            884.568,
+            888.673
+          ],
+          "quote": "And then there's SPACE, there's Core 4, there's probably others.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 185,
+          "t": [
+            955.521,
+            958.382
+          ],
+          "quote": "When we think about SPACE, SPACE is a framework.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 189,
+          "t": [
+            967.185,
+            976.808
+          ],
+          "quote": "We're actually seeing that SPACE applies fairly well in these new emerging contexts like AI because we still want to look at... SPACE is an acronym.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1929.297,
+            1936.4
+          ],
+          "quote": "So they can start those key stakeholder discussions from a much more informed kind of filled out space.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2224.784,
+            2226.945
+          ],
+          "quote": "He has incredible experience in the space.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2314.465,
+            2325.248
+          ],
+          "quote": "But if you haven't kind of been in this space and thinking about it this way, it's hard to know where to start or it's easy to make simple mistakes up front that mean you kind of need to start over later.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "devex",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevEx",
+      "file": "DevEx",
+      "primary": true,
+      "how_described": "本集把它等同于「开发者体验」，指开发者日常构建软件时面临的摩擦、工作流程和支持；其核心由心流状态、认知负荷和反馈循环三个互相强化的要素组成，当 DevEx 很差时，任何好工具或流程都不会起作用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            409.61,
+            417.678
+          ],
+          "quote": "I want to start with just this term DevEx, it's something that comes up a lot in this whole space, and we're going to hear this term a bunch in this conversation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            417.698,
+            419.98
+          ],
+          "quote": "Can you just explain what is DevEx, this term DevEx?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 89,
+          "t": [
+            420.7,
+            423.942
+          ],
+          "quote": "DevEx is developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            441.112,
+            445.795
+          ],
+          "quote": "It's important because when DevEx is poor, everything else just isn't going to help.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            445.815,
+            453.58
+          ],
+          "quote": "The best processes, the best tools, the best... whatever magic you have, if the DevEx is bad, everything kind of takes-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 94,
+          "t": [
+            454.42,
+            462.51
+          ],
+          "quote": "Within DevEx is productivity, and I think the key insight that you had and other folks in the space of that is not just productivity, but there's also engineering happiness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 111,
+          "t": [
+            547.82,
+            549.801
+          ],
+          "quote": "Well, there are lots of different ways to talk about DevEx.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1317.269,
+            1325.873
+          ],
+          "quote": "And I think DevEx is important because it enables all of that software creation, it enables all of that problem solving.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2232.149,
+            2243.418
+          ],
+          "quote": "Also, thanks to all of the engineering leads and DevEx leads, and CTOs, and engineers that we talked to to make sure that our smells were right.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2330.449,
+            2342.872
+          ],
+          "quote": "It's for anyone that cares about DevEx, so definitely technology leaders, anyone who's trying to kick off a DevEx program, or is working on a DevEx DevEx improvement program.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2344.473,
+            2356.136
+          ],
+          "quote": "I think it's particularly relevant for PMs because if you're PMing something that involves software building and creating software, improving DevEx will only help your team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2356.796,
+            2369.92
+          ],
+          "quote": "And also, you have key skills and insights and instincts that are so important to DevEx that many times, I will say, I've seen engineering teams just miss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3162.172,
+            3163.212
+          ],
+          "quote": "Was it the DevEx or was it AI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3167.935,
+            3169.535
+          ],
+          "quote": "We also had this effort in DevEx.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3174.397,
+            3179.5
+          ],
+          "quote": "If we had AI tools without the DevEx improvements, we probably would've had some improvements, but not nearly as much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3562.64,
+            3575.025
+          ],
+          "quote": "I think something that's important to think about in general is to bring a product mindset to any type of DevEx improvements that are happening, and also the metrics that we collect and capture.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "flow-state",
+      "type": "concept",
+      "role": "concept",
+      "name": "心流状态 (flow state)",
+      "file": "心流状态",
+      "primary": true,
+      "how_described": "本集说 AI 让写代码变成了充满中断的工作（写提示词、读代码、做整合），资深工程师通过规划架构并把模块拆分给多个智能体并行写来保持心流；如今进入心流被部分移交给了机器，连 45 分钟的工作块也能被有效利用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            514.5,
+            518.863
+          ],
+          "quote": "I was going to get to this later, but I want to actually get to this right now, this idea of flow state for engineers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 107,
+          "t": [
+            524.186,
+            530.07
+          ],
+          "quote": "The best part of the job for me was just this flow state you enter when you're coding and building, and just things feel like so fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 109,
+          "t": [
+            538.375,
+            545.299
+          ],
+          "quote": "Talk about just the importance of flow state to a developer, happiness, developer productivity, and just what you've seen AI impacting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 113,
+          "t": [
+            558.744,
+            562.646
+          ],
+          "quote": "Flow state is one of them, cognitive load is another, and then feedback loops are another.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            563.526,
+            570.909
+          ],
+          "quote": "I think when you touch on this... Your question about flow state is a really good one, and I'll admit we're just a few years into this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 115,
+          "t": [
+            571.589,
+            583.173
+          ],
+          "quote": "We're still figuring out what the best flow state and cognitive requirements are for people in this because, to your point, sometimes we're getting interrupted all the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1095.265,
+            1097.127
+          ],
+          "quote": "We were talking about flow state and cognitive load.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "feedback-loops",
+      "type": "concept",
+      "role": "concept",
+      "name": "反馈循环 (feedback loops)",
+      "file": "反馈循环",
+      "primary": true,
+      "how_described": "本集说 AI 时代反馈循环被大幅前置，不仅发生在本地构建或测试阶段，甚至贯穿于整个流水线中间；DORA 等旧指标由于隐含的反馈循环太慢已显局限，需要利用这些极快的新反馈循环来优化工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            558.744,
+            562.646
+          ],
+          "quote": "Flow state is one of them, cognitive load is another, and then feedback loops are another.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 119,
+          "t": [
+            612.346,
+            615.068
+          ],
+          "quote": "The fast feedback loops really, really work well for them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 164,
+          "t": [
+            852.351,
+            860.654
+          ],
+          "quote": "If that's all you're looking at, it's not going to be sufficient anymore because AI has now changed the way we think about feedback loops.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 180,
+          "t": [
+            921.228,
+            927.35
+          ],
+          "quote": "If you're trying to use those to understand... Because implied in that is feedback loops, right, because you used to kind of get feedback from customers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 181,
+          "t": [
+            930.011,
+            939.035
+          ],
+          "quote": "But we can't just use that blindly now when we're using AI, as an example, because we have feedback loops much earlier and not even just at the local build and test phase.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 182,
+          "t": [
+            939.075,
+            950.439
+          ],
+          "quote": "We have feedback loops throughout, and even sometimes in the middle of some of the pipeline, that we really want to leverage in ways that weren't as useful before.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3964.886,
+            3992.86
+          ],
+          "quote": "It's focused on Google and all their properties and their underlying infrastructure, how can we improve developer experience, developer productivity, velocity, all of these things we've been talking about and, because kind of the numbers person, how do we want to think about measuring it, how does measurement change, how do feedback loops change, how can we improve the experience throughout and then kind of drive that change through an organization in ways that are meaningful and impactful and faster than they've been before.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-load",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知负荷 (cognitive load)",
+      "file": "认知负荷",
+      "primary": true,
+      "how_described": "本集把它描述为 DevEx 的三个核心要素之一；如果开发者把脑力都耗在应对高摩擦的系统管道机制上，就没有剩余的脑力空间去想出真正创新的解决方案，并指出并非所有的速度提升都一定是好事，要警惕认知负荷过高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            486.587,
+            501.474
+          ],
+          "quote": "Or if it's super high cognitive load, if it's hard to even think about what you're doing because concentrating on the mechanics of... the plumbing of something, then you don't have the brain space left to come up with really innovative solutions and questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 113,
+          "t": [
+            558.744,
+            562.646
+          ],
+          "quote": "Flow state is one of them, cognitive load is another, and then feedback loops are another.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1095.265,
+            1097.127
+          ],
+          "quote": "We were talking about flow state and cognitive load.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1641.062,
+            1646.943
+          ],
+          "quote": "Also, given what we know about cognitive load, not all speed gains are necessarily good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2611.696,
+            2620.68
+          ],
+          "quote": "And that involves, yes, making them more productive and removing friction because then, they have the flow and the cognitive load and the things that we kind of talked about.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "technical-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债 (technical debt)",
+      "file": "技术债",
+      "primary": true,
+      "how_described": "本集警告说，如果用代码行数当生产力指标，太容易被大模型冗长的天性操纵，系统性地诱导产出极长代码，最终会在所有工作中引入复杂性和技术债。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            784.529,
+            797.213
+          ],
+          "quote": "We know that agents and LLMs tend to be very verbose by definition, and so it's just too easy to gain that system and then introduce complexity and technical debt into all of the work that you're doing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinations)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集指出因为大模型是非确定性的，不能输入命令就直接接受返回结果，必须持续评估是否出现了幻觉、可靠性如何、代码是否符合团队通常的编写风格与规范。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            37.451,
+            38.473
+          ],
+          "quote": "Are we seeing hallucinations?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1039.392,
+            1042.774
+          ],
+          "quote": "We really need to evaluate it, so, \"Are we seeing hallucinations?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体描述为可以并行写代码、写单元测试、清理文档的异步 AI 工程师；指出它们依赖高质量的文档和数据才能产出好结果，且工程师的工作本质正在向指挥这些智能体的「工程经理」转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            530.59,
+            537.654
+          ],
+          "quote": "It feels like AI is making that harder in a lot of ways because there's all these agents you're working with now, there's all this code that's kind of being written for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            615.088,
+            618.13
+          ],
+          "quote": "They can kind of assign out different pieces to agents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            784.529,
+            797.213
+          ],
+          "quote": "We know that agents and LLMs tend to be very verbose by definition, and so it's just too easy to gain that system and then introduce complexity and technical debt into all of the work that you're doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1801.006,
+            1803.968
+          ],
+          "quote": "You're going to have all these asynchronous agents, engineers working for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2163.467,
+            2164.247
+          ],
+          "quote": "Well, we have agents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2168.069,
+            2176.734
+          ],
+          "quote": "It turns out, agents rely on good data because it's all about how they've been trained or how they've been grounded.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集提到，在把机器生成的代码反喂给系统做微调或本地微调时，需要警惕它可能会在无意中引入什么样的新模式或偏见。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            826.702,
+            834.405
+          ],
+          "quote": "And for that code that's retraining systems later, especially if we're doing fine-tuning and local tuning, how much of that is machine generated?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
+      "primary": false,
+      "how_described": "本集提到 Abi Noda 创办的这家围绕开发者体验的公司，刚以十亿美元的估值卖给了 Atlassian，这印证了改善开发者体验具有巨大的商业价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 429,
+          "t": [
+            2220.34,
+            2224.744
+          ],
+          "quote": "I will say, I also wrote this with Abi Noda who has just... of DX.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2246,
+            2246
+          ],
+          "quote": "Let me take a tangent on Abi, and DX, since you mentioned him. This is super interesting, and I think it connects so directly with this conversation. Abi started this company called DX, which is such a great name for a company around developer experience. They just sold the company for a billion dollars to Atlassian. It's a very high multiple on their ARR. It, to me, shows exactly why this conversation is so valuable, just how much value companies are putting into improving developer experience. Atlassian would spend a billion dollars on this. It's an early stage-ish startup. It was doing really well and people loved it, but it was like early stage-ish, a billion dollars. And the idea is they have all these companies working using Jira and all their products. They're all trying to figure out how do we measure productivity. It's worth a lot of money to them. And I know you were an early advisor to them too, so-",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

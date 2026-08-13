@@ -127,9 +127,9 @@ Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code · 同概念:基准测试 (benchmark)、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

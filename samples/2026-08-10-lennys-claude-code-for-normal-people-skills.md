@@ -102,7 +102,7 @@ Claire 坦言她本来很怕搭建这种 GitHub App 和 Slack 机器人，以为
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Intercom、Vercel · 同概念:Codex、Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:chat PRD · 同概念:Codex、智能体 (agent)、浏览器自动化 (browser use)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Slack · 同概念:Codex、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

@@ -9,14 +9,14 @@ cover: "#64748b"
 description: "把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。"
 guests: ["[[Gagan Bhat]]", "[[Isabella Kai He]]"]
 companies: ["[[Anthropic]]"]
-concepts: ["[[智能体]]", "[[安全带/harness]]", "[[沙箱]]", "[[智能体循环]]", "[[上下文工程]]", "[[会话日志/追踪]]", "[[凭证隔离]]", "[[可观测性]]", "[[做梦]]", "[[Claude Managed Agents]]", "[[大脑与双手解耦]]"]
+concepts: ["[[智能体]]", "[[测试框架]]", "[[沙箱]]", "[[智能体循环]]", "[[上下文工程]]", "[[会话日志/追踪]]", "[[泄露的凭证]]", "[[可观测性]]", "[[做梦]]", "[[Claude Managed Agents]]", "[[大脑与双手解耦]]"]
 category: 智能体
 tags:
   - 智能体
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#post","headline":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","description":"把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。","datePublished":"2026-08-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Gagan Bhat"},{"@type":"Person","name":"Isabella Kai He"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"安全带/harness (harness)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体循环 (agentic loop)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"会话日志/追踪 (session log)"},{"@type":"Thing","name":"凭证隔离 (credentials)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"Claude Managed Agents"},{"@type":"Thing","name":"大脑与双手解耦 (decouple)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","item":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#post","headline":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","description":"把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。","datePublished":"2026-08-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Gagan Bhat"},{"@type":"Person","name":"Isabella Kai He"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体循环 (agentic loop)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"会话日志/追踪 (session log)"},{"@type":"Thing","name":"泄露的凭证 (credentials)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"Claude Managed Agents"},{"@type":"Thing","name":"大脑与双手解耦 (decouple)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","item":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Anthropic]]
 >
-> **概念** [[智能体]] · [[安全带/harness]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志/追踪]] · [[凭证隔离]] · [[可观测性]] · [[做梦]] · [[Claude Managed Agents]] · [[大脑与双手解耦]]
+> **概念** [[智能体]] · [[测试框架]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志/追踪]] · [[泄露的凭证]] · [[可观测性]] · [[做梦]] · [[Claude Managed Agents]] · [[大脑与双手解耦]]
 
 <div class="pd-tldr"><b>一句话</b>把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。</div>
 
@@ -64,7 +64,7 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 
 在将智能体推向企业的过程中,团队学到了几个关键的生产实战教训:
 
-首先是**[[凭证隔离|凭证隔离]]**。企业极其担心模型会读到敏感的安全令牌。
+首先是**[[泄露的凭证|凭证隔离]]**。企业极其担心模型会读到敏感的安全令牌。
 
 通过将大脑和双手解耦,再加上「保险库(vaults,一种凭证存储机制)」,安全凭证只有在工具真正执行运行的那一刻才会被解密。模型本身永远无法看到这些令牌 <button class="pd-ts" data-t="22:07" data-who="Gagan" data-en="The first lesson is to keep the credentials away from your agent. A lot of customers ask me, how do I make sure my agent doesn't read or see the environment file that contains all my security tokens?" aria-label="回原文"></button>。
 
@@ -105,6 +105,29 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 > <span class="qz">我们看到 Claude 模型和其他模型本质上是沿着这个指数轨迹演变的,安全带已经成为模型能够实现什么的限制因素。</span>  
 > *What we see as Claude models and other models essentially evolve alongside this exponential trajectory is that harnesses have become the limiting factor to what models can achieve.*  
 > <span class="qm">—— Isabella Kai He · [30:22]</span> ^q4
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
+- [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|Claude 异步智能体架构的四块基石]]<span class="pd-rz">同公司:Anthropic · 同概念:做梦 (dreaming)、安全带/harness (harness)、沙箱 (sandbox)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:凭证隔离 (credentials)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、Claude Code</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

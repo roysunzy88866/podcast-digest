@@ -147,7 +147,7 @@ L0 是纯手动排查；L1 是有固定操作手册，靠规则执行；L2 是 L
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:上下文 (context)、护栏 (harness)、文件系统 (file system)、智能体 (agent)、Deep Agents</span>
 - [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:护栏 (harness)、智能体 (agent)、评估 (eval)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Datadog · 同概念:智能体 (agent)、评估 (eval)</span>
+- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (harness)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

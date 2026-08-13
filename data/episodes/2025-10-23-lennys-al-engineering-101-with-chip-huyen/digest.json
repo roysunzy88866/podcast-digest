@@ -1,0 +1,147 @@
+{
+  "title_zh": "Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事",
+  "tldr": "拆解构建 AI 应用最常见的认知陷阱，把精力放回数据准备、评估和系统思维。",
+  "digest_md": "很多团队不断追问「如何跟上最新 AI 新闻」「该选哪个技术栈」——但 Chip Huyen 拿出的对比清单很扎心：人们以为能提升 AI 应用的，是追最新动态、换框架、纠结数据库；而**真正**提升应用的，是和用户交谈、准备更好的数据、优化端到端工作流、写更好的提示词 [05:11 Lenny]。如果你纠结的两个技术方案对最终性能影响很小，就不值得花大量时间去辩论 [06:10 Chip Huyen]。\n\n## 预训练、后训练与「采样」被低估的力量\n模型本质上是在编码语言的统计信息：模型读了海量数据后，就能基于已输入的内容，预测下一个最可能出现的词（token，介于字符与词之间的语言单位）[10:07 Chip Huyen]。**预训练**（Pre-training）用大规模数据提升模型的「通用能力容量」；但如今大家面临的瓶颈是，互联网上的高质量文本数据已经基本被耗尽，各家实验室获取的预训练数据高度同质化 [15:03 Chip Huyen]。因此，真正拉开差距的战场转移到了**后训练**（Post-training）。\n\n后训练的一种常见方式是**监督微调**：让专家写出高质量的问答范例，或者让已有的大模型生成答案，再训练小模型去模仿（这个过程也叫蒸馏）[07:54 Chip Huyen]。另一种方式是强化学习，通过收集信号来奖励模型的正确输出。信号可以是人类反馈（让人类在两个回答中做相对比较，比打绝对分数更容易），也可以是可验证的奖励（比如做数学题，答案等于特定数值才算对）[16:44 Chip Huyen]。\n\n此外，**采样策略**（决定模型是永远选概率最高的词，还是选一些概率稍低但更有创意的词）是一个能极大提升性能、却被极度低估的杠杆 [12:44 Chip Huyen]。\n\n## 评估（Evals）：不是写不写，而是投资回报率\n围绕评估（evals，指衡量 AI 产品表现的方法）有个争论：有些顶尖公司主张凭感觉（vibe check），有些则追求严密测试。Chip Huyen 给出了非常务实的判断框架：**算投资回报率** [25:13 Chip Huyen]。如果你的产品已经运转、用户在增长，抽调两名工程师花大量时间写评估，可能只把指标从 80% 提升到 85%；但如果把同样的精力用来上线一个全新功能，收益往往大得多 [25:33 Chip Huyen]。所以，非核心功能做到「足够好」就行。但如果你在运营大规模业务、出错会带来灾难性后果，或者产品本身就以准确率为核心竞争力，那你就必须对评估极其严苛 [26:38 Chip Huyen]。\n\n评估的数量也没有标准答案，核心是「覆盖度」。比如评估一个**深度研究**应用，你不能只看最终报告。你要拆解它的每一步：它生成的搜索查询够多样吗？抓取的网页有重叠吗？有相关性吗？每一步都需要不同的评估方法 [31:06 Chip Huyen]。\n\n## RAG 的最大性能提升不在选数据库，而在数据准备\nRAG（检索增强生成）就是为模型提供相关的外部上下文来辅助回答 [32:46 Chip Huyen]。很多人在 RAG 上纠结该用什么向量数据库，但 Chip Huyen 观察到，决定答案纯质量的最大因素是**数据准备**（当然，如果你对延迟有极致要求，数据库依然重要）[34:39 Chip Huyen]。\n\n具体怎么做数据准备？\n- **切块设计**：文档切块不能太长（否则抓取不到足够多样的上下文），也不能太短（导致每个块信息量不足）[35:28 Chip Huyen]。\n- **改写文档格式**：有人直接把播客内容重写成「问答（Q&A）」格式，大幅提升了检索效果 [36:19 Chip Huyen]。\n- **为 AI 加注释**：人类专家看文档有常识和上下文，但 AI 没有。比如文档写着某个参数输出是 1 或 -1，人类懂尺度，AI 却不知所云。加上一层专门给 AI 看的注释，能让它真正理解信息 [37:17 Chip Huyen]。\n\n## 公司引入 AI：生产力难衡量，人才结构剧变\n企业内部引入 AI 工具（比如编码智能体）最大的痛点是很难衡量生产力 [43:36 Chip Huyen]。Chip Huyen 经常抛给管理层一个问题：你是宁愿给团队买很贵的编码智能体订阅，还是多招一个人头（head count）？基层主管往往选人头，因为扩充编制对他们在组织内的成长更有利；但高管会选 AI 助手，因为他们更关心实际的业务指标 [44:28 Chip Huyen]。\n\n> 【背景】head count 指企业正式员工的招聘名额/编制。\n\n不同水平的工程师从 AI 工具中的获益也不同。一家公司做了随机试验：把工程师分为高、中、低三档，只给各组一半人使用编码工具 Cursor。结果发现：表现最好的高级工程师获益最大（因为他们最懂如何解决问题，能把 AI 当作无限兵力的初级工程师）；表现最差的人则完全无感 [46:30 Chip Huyen]。不过也有公司反馈，资深工程师恰恰是最抗拒 AI 的群体，因为他们对代码标准更有主见 [47:30 Chip Huyen]。为此，有公司直接重组了工程团队：让高级工程师专注写规范、把关代码审查；让初级工程师和 AI 产出代码 [50:12 Chip Huyen]。\n\n但 Chip Huyen 指出，**系统思维**（理解各个组件如何协同工作、全局定位问题根源）是 AI 难以替代的核心能力。她举了自己部署应用时的例子：AI 遇到报错，只会不停地在代码、环境变量、语言之间盲目试错；但真正的问题其实是她所在的付费层级不支持该功能——AI 缺乏跳出局部、审视全局系统的能力 [54:22 Chip Huyen]。\n\n## 接下来会发生什么：界限模糊、推理计算与多模态\n未来几年组织结构会大改：工程、产品、营销等原本泾渭分明的职能会打通（因为评估需要同时懂架构和用户），大量非核心的外包职能会被 AI 自动化替代 [58:11 Chip Huyen]。同时，基础模型那种跨代际的狂飙突进可能会放缓，真正的提升将来自后训练阶段和应用构建 [60:24 Chip Huyen]。\n\n一个非常关键的趋势是**测试时计算**（test time compute，指把更多算力花在让模型做推理和生成上，而不是花在训练上）。比如面对一个数学题，让模型生成四个答案，做「多数投票」；或者让模型在给出最终答案前，先生成更多「思考」的内容。基础模型本身没变，但花更多算力去探索和思考，就能得到好得多的结果 [67:05 Chip Huyen]。\n\n## 面对工具，却不知道该造什么？\n很多团队手握能写代码、做设计的强大 AI 工具，却陷入了「想法危机」——不知道该构建什么 [69:16 Chip Huyen]。Chip Huyen 的实用建议是：花一周时间关注自己的日常工作，留意那些让你感到沮丧、烦躁的瞬间，问一句「这事能不能换个方式做？」[70:12 Chip Huyen]。解决自己的小痛点，就是学习和应用 AI 最好的切入点。\n\n## 本集带走\n- **别陷入技术选型的陷阱**：如果两个技术方案对最终性能影响很小，就不值得花时间去辩论。先评估「最优方案」与「非最优方案」的差距到底有多大。\n- **后训练与采样策略更重要**：预训练数据已被耗尽，真正拉开模型差距的是后训练；同时，调整采样策略（权衡最高概率与创意）能极大提升性能且经常被忽视。\n- **评估（eval）看投资回报率**：不是所有功能都要写严密评估。非核心功能做到「足够好」就行；但如果是高风险的大规模业务或以准确率为卖点的核心功能，就必须严苛对待评估。\n- **RAG 的核心是数据准备**：别纠结向量数据库。重点应放在：合理设计切块大小、将文档改写为问答格式、为 AI 补充人类常识性的注释。\n- **重组工程团队**：适应 AI 时代的做法是，让资深工程师专注系统架构设计与代码审查，让初级工程师与 AI 负责产出代码。\n- **用系统思维破局**：AI 在处理定义明确的局部任务时很强，但在跨组件排查故障时容易盲目试错。全局理解系统如何协同运作，是无法被替代的能力。\n- **用「测试时计算」提升效果**：同样的基础模型，如果在推理时生成多个备选答案进行投票，或让它生成更多思考过程，就能显著提升最终表现。\n- **从日常沮丧中找点子**：不知道用 AI 做什么？观察自己工作中最让人烦躁的小痛点，造个小工具解决它。",
+  "quotes": [
+    {
+      "en": "I was like, Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?",
+      "zh": "我就会说，好吧，如果改进不多，那你为什么要花那么多时间去辩论那些对你的性能没有多大影响的事情？",
+      "timestamp": "06:10",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "So I think my sampling strategy, I think is something extremely important. It can have you boost a performance in a huge way and very, very underrated.",
+      "zh": "所以我认为采样策略是极其重要的。它可以让你以巨大的方式提升性能，而且非常、非常被低估。",
+      "timestamp": "12:40",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "At some point, we are actually have kind of maxed out on the internet data.",
+      "zh": "在某个时刻，我们在互联网数据上实际上已经有点达到极限了。",
+      "timestamp": "14:58",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "where like post-trading, but middle course of this is more of everyone have very similar pre-training data, is that post-training is where they make a big difference nowadays.",
+      "zh": "在这个中间过程中，既然每个人都有非常相似的预训练数据，那后训练就是如今他们做出大差异的地方。",
+      "timestamp": "15:10",
+      "speaker": "Chip Huyen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Why do you need to keep up to date with the latest AI news?",
+      "zh": "你为什么需要跟上最新的 AI 新闻？",
+      "timestamp": "00:05",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "What people think will improve AI apps, staying up to date with the latest AI news, adopting the newest agentic framework, agonizing about what vector databases to use, constantly evaluating what model is smarter, fine-tuning a model.",
+      "zh": "人们认为能改进 AI 应用的是：了解最新的 AI 新闻动态、采用最新的 agentic 框架、纠结使用什么向量数据库、不断评估哪个模型更聪明、对模型进行微调。",
+      "timestamp": "04:58",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "What actually improves AI apps, talking to users, building more reliable platforms, preparing better data, optimizing end-to-end workflows, writing better prompts.",
+      "zh": "实际上能改进 AI 应用的是：与用户交谈、构建更可靠的平台、准备更好的数据、优化端到端的工作流、编写更好的提示词。",
+      "timestamp": "05:11",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "I was like, Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?",
+      "zh": "我就会说，好吧，如果改进不多，那你为什么要花那么多时间去辩论那些对你的性能没有多大影响的事情？",
+      "timestamp": "06:10",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "I think that most likely is the most simple way of doing it because it's more building a distribution of, okay, so the next token could be more 90% of the the time it could be a color, 10% of the time could be something else.",
+      "zh": "我认为预测最可能是做这件事最简单的方法，因为它更多地是在构建一个分布，好吧，所以下一个 token 可能有 90% 的时间是一种颜色，10% 的时间可能是其他东西。",
+      "timestamp": "12:14",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "So I think my sampling strategy, I think is something extremely important. It can have you boost a performance in a huge way and very, very underrated.",
+      "zh": "所以我认为采样策略是极其重要的。它可以让你以巨大的方式提升性能，而且非常、非常被低估。",
+      "timestamp": "12:44",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "At some point, we are actually have kind of maxed out on the internet data.",
+      "zh": "在某个时刻，我们在互联网数据上实际上已经有点达到极限了。",
+      "timestamp": "15:01",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "And where like post-trading, but middle course of this is more of everyone have very similar pre-training data, is that post-training is where they make a big difference nowadays.",
+      "zh": "在这个中间过程中，既然每个人都有非常相似的预训练数据，那后训练就是如今他们做出大差异的地方。",
+      "timestamp": "15:03",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "And it was like, Okay, how much effort do we need to go into eval? And they were like, Okay, maybe two engineers, this much, this much. And it could maybe would improve that and it was like, Okay, so how much expected gain can I get from it?",
+      "zh": "然后就像，好的，我们需要在 eval 上投入多少精力？他们就说，好的，也许两个工程师，这么多，这么多。这也许能带来改善，然后高管就会问，好的，那么我能从中获得多少预期收益？",
+      "timestamp": "25:17",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "So I do think eval is very, very important if you have, if you operate a scale and where failures can have catastrophic consequences.",
+      "zh": "所以我确实认为，如果你在规模上运营并且故障可能带来灾难性后果，评估是非常非常重要的。",
+      "timestamp": "26:24",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "So I don't think it's how many eval should I get, but how many eval do I need to get a good coverage, a high confidence in my application's performance and also to help me understand where it is not performing well so that I can fix it.",
+      "zh": "所以我不认为是我应该获得多少评估，而是我需要多少评估来获得良好的覆盖率，对我的应用程序性能有很高的信心，并帮助我了解它在哪些方面表现不佳，以便我可以修复它。",
+      "timestamp": "31:25",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "I would say this in a lot of the companies that I have seen, that's the biggest performance, in their RAG solutions coming from better data preparations, not agonizing over what databases to use",
+      "zh": "我想说的是，在我见过的许多公司中，那是最大的性能，在他们的 RAG 解决方案中来自更好的数据准备，而不是纠结于使用什么数据库",
+      "timestamp": "34:39",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "But in term of pure quality answers, I think the data preparation is just",
+      "zh": "但在纯质量答案方面，我认为数据准备就是决定性的",
+      "timestamp": "35:03",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "Would you rather give everyone on the team very expensive coding agent subscriptions or you get an extra headcount?",
+      "zh": "你宁愿给团队里的每个人非常昂贵的编码智能体订阅，还是你得到一个额外的人头？",
+      "timestamp": "44:28",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "The biggest performance boost the senior engineer, the highest performing.",
+      "zh": "最大的性能提升来自于资深工程师，表现最高的人。",
+      "timestamp": "46:39",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "CS is about system thinking, using coding to solve actual problem and problem solving will never go away because what AI can automate more stuff.",
+      "zh": "计算机科学是关于系统思维，使用编码来解决实际问题，而解决问题永远不会消失，因为 AI 可以自动化更多的东西。",
+      "timestamp": "52:27",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "Base models we have probably not quite maxed out, but we're unlikely to see really, really strong, crazily strong model.",
+      "zh": "基础模型我们可能还没有完全达到极限，但我们不太可能看到非常非常强、疯狂强大的模型。",
+      "timestamp": "60:24",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "But the base model itself does not change.",
+      "zh": "但基础模型本身并不改变。",
+      "timestamp": "68:12",
+      "speaker": "Chip Huyen"
+    },
+    {
+      "en": "And it shocked me why I feel like we are in some kind of an idea crisis, right?",
+      "zh": "这让我感到震惊，为什么我觉得我们正处于某种想法危机中，对吧？",
+      "timestamp": "69:16",
+      "speaker": "Chip Huyen"
+    }
+  ]
+}

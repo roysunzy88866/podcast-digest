@@ -2,6 +2,14 @@
   "kept": [
     {
       "i": 1,
+      "timestamp": "21:20",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "21:19",
+      "spkWas": "Dhanji Prasanna"
+    },
+    {
+      "i": 2,
       "timestamp": "33:38",
       "speaker": "Dhanji Prasanna",
       "trimmed": false,
@@ -10,18 +18,44 @@
     },
     {
       "i": 3,
-      "timestamp": "41:12",
+      "timestamp": "81:55",
       "speaker": "Dhanji Prasanna",
       "trimmed": false,
-      "tsWas": "41:12",
+      "tsWas": "81:55",
+      "spkWas": "Dhanji Prasanna"
+    },
+    {
+      "i": 4,
+      "timestamp": "50:53",
+      "speaker": "Dhanji Prasanna",
+      "trimmed": true,
+      "tsWas": "50:58",
+      "spkWas": "Dhanji Prasanna"
+    },
+    {
+      "i": 5,
+      "timestamp": "35:21",
+      "speaker": "Dhanji Prasanna",
+      "trimmed": true,
+      "tsWas": "35:20",
+      "spkWas": "Dhanji Prasanna"
+    },
+    {
+      "i": 6,
+      "timestamp": "45:01",
+      "speaker": "Dhanji Prasanna",
+      "trimmed": false,
+      "tsWas": "45:09",
+      "spkWas": "Dhanji Prasanna"
+    },
+    {
+      "i": 7,
+      "timestamp": "85:51",
+      "speaker": "Dhanji Prasanna",
+      "trimmed": false,
+      "tsWas": "85:51",
       "spkWas": "Dhanji Prasanna"
     }
   ],
-  "dropped": [
-    {
-      "i": 2,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "I think that the companies that aren't feeling the success in AI are trying to just throw these tools at their giant code bases and hoping good things will happen, and that's not how it's playing out."
-    }
-  ]
+  "dropped": []
 }

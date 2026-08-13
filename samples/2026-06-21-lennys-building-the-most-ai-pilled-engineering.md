@@ -110,8 +110,8 @@ Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，�
 **顺着「组织与领导力」挖下去**
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:Anthropic · 同概念:IC</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 <div class="pd-ex">

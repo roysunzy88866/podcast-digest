@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-
 duration: "81:31"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m.jpg"
 description: JJELLYFISH 联合创始人 Jen Abel 讲透初创公司如何向 Tier 1 大企业销售并做到 10 万美元级交易。
 host: "[[Jen Abel]]"
 cohosts: ["[[Lenny]]"]
@@ -15,9 +16,9 @@ category: 增长与销售
 tags:
   - 增长与销售
   - 创业与行业
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m#post","headline":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","mainEntityOfPage":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","description":"JJELLYFISH 联合创始人 Jen Abel 讲透初创公司如何向 Tier 1 大企业销售并做到 10 万美元级交易。","datePublished":"2025-11-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr","about":[{"@type":"Person","name":"Jen Abel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"JJELLYFISH"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"企业销售 (enterprise sales)"},{"@type":"Thing","name":"愿景描绘 (vision casting)"},{"@type":"Thing","name":"超额收益 (alpha)"},{"@type":"Thing","name":"第一梯队 (tier one)"},{"@type":"Thing","name":"交易设计 (deal crafting)"},{"@type":"Thing","name":"设计合作伙伴 (design partners)"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"ACV"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","item":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m#post","headline":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","mainEntityOfPage":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","description":"JJELLYFISH 联合创始人 Jen Abel 讲透初创公司如何向 Tier 1 大企业销售并做到 10 万美元级交易。","datePublished":"2025-11-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr","about":[{"@type":"Person","name":"Jen Abel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"JJELLYFISH"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"企业销售 (enterprise sales)"},{"@type":"Thing","name":"愿景描绘 (vision casting)"},{"@type":"Thing","name":"超额收益 (alpha)"},{"@type":"Thing","name":"第一梯队 (tier one)"},{"@type":"Thing","name":"交易设计 (deal crafting)"},{"@type":"Thing","name":"设计合作伙伴 (design partners)"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"ACV"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","item":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -143,6 +144,29 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 > <span class="qz">大多数创始人宁愿做 10 个 1 万美元的交易，也不愿输掉 9 个并做 1 个 10 万美元的交易。</span>  
 > *Most founders would rather get 10, 10K deals than lose nine and get one 100K deal.*  
 > <span class="qm">—— Lenny · [15:56]</span> ^q10
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「增长与销售」挖下去**
+
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Stripe · 同概念:PLG</span>
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Cursor</span>
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同概念:前向部署工程师 (Forward Deployed Engineer)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor、Lovable</span>
+- [[2026-08-09-lennys-the-playbook-for-building-high-talent|Cursor 人才负责人：别再掉进招聘的厄运漏斗]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor · 同概念:前向部署工程师 (Forward Deployed Engineer)</span>
+- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

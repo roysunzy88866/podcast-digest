@@ -9,14 +9,14 @@ cover: "#64748b"
 description: 六条实操经验，让智能体不再困在单人笔记本，而是成为全团队(含非技术人员)都能用的工程力量。
 guests: ["[[Arjun Singh]]"]
 companies: ["[[Superconductor]]", "[[Slack]]", "[[Claude Code]]", "[[Codex]]", "[[Cursor]]", "[[Gradescope]]"]
-concepts: ["[[智能体]]", "[[沙箱]]", "[[基准测试]]", "[[上下文]]", "[[开源权重模型]]"]
+concepts: ["[[智能体]]", "[[沙箱]]", "[[基准测试]]", "[[上下文]]", "[[开放权重模型]]"]
 category: AI 编程
 tags:
   - AI 编程
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#post","headline":"让非工程师也能下指令：Superconductor 的多人智能体协作法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si","description":"六条实操经验，让智能体不再困在单人笔记本，而是成为全团队(含非技术人员)都能用的工程力量。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Arjun Singh"},{"@type":"Organization","name":"Superconductor"},{"@type":"Organization","name":"Slack"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Gradescope"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"基准测试 (benchmark)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"开源权重模型 (open weight models)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让非工程师也能下指令：Superconductor 的多人智能体协作法","item":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#post","headline":"让非工程师也能下指令：Superconductor 的多人智能体协作法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si","description":"六条实操经验，让智能体不再困在单人笔记本，而是成为全团队(含非技术人员)都能用的工程力量。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Arjun Singh"},{"@type":"Organization","name":"Superconductor"},{"@type":"Organization","name":"Slack"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Gradescope"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"基准测试 (benchmark)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"开放权重模型 (open-weight models)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让非工程师也能下指令：Superconductor 的多人智能体协作法","item":"https://talk.solomind.cc/2026-08-09-talks-multiplayer-agentic-engineering-arjun-si"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让非工程师也能下指令：Superconductor 的多人智能体协作法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Superconductor]] · [[Slack]] · [[Claude Code]] · [[Codex]] · [[Cursor]] · [[Gradescope]]
 >
-> **概念** [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开源权重模型]]
+> **概念** [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开放权重模型]]
 
 <div class="pd-tldr"><b>一句话</b>六条实操经验，让智能体不再困在单人笔记本，而是成为全团队(含非技术人员)都能用的工程力量。</div>
 
@@ -46,7 +46,7 @@ jsonLd: |
 
 这里说的「不可知」(agnostic),意思是别把工作流绑死在任何单一模型或配套工具上 <button class="pd-ts" data-t="01:45" data-who="Arjun Singh" data-en="And in the talk description I mentioned five lessons and I'm gonna be an engineer and start from zero and add a sixth one in there. The first one I'm gonna start with is just to be model and harness agnostic." aria-label="回原文"></button>。原因很实在:最好的模型可能每周都在变——可能是新模型发布,也可能是某个模型突然下线。
 
-加上[[开源权重模型|开源权重模型]](开放权重的模型)现在相当好用,价格也便宜得多,必须随时能切换 <button class="pd-ts" data-t="02:03" data-who="Arjun Singh" data-en="Things happen and you don't want that to disrupt your entire team's flow. The other thing is that open weight models are actually pretty good now. We've been really happy with GLM 5.2." aria-label="回原文"></button>。更关键的是,卖给你 token(模型计费的文本单元)的厂商,利益跟你并不一致——他们想让你烧更多,你要的是刚好够用 <button class="pd-ts" data-t="02:16" data-who="Arjun Singh" data-en="They're much cheaper, and you want to be able to kind of explore with them and integrate them without, again, having to change the entire workflow. The last thing I'll mention on this is that the incentives of the people selling you tokens aren't really aligned with yours." aria-label="回原文"></button>。能自由切换,你才能始终掌握主动权。
+加上[[开放权重模型|开源权重模型]](开放权重的模型)现在相当好用,价格也便宜得多,必须随时能切换 <button class="pd-ts" data-t="02:03" data-who="Arjun Singh" data-en="Things happen and you don't want that to disrupt your entire team's flow. The other thing is that open weight models are actually pretty good now. We've been really happy with GLM 5.2." aria-label="回原文"></button>。更关键的是,卖给你 token(模型计费的文本单元)的厂商,利益跟你并不一致——他们想让你烧更多,你要的是刚好够用 <button class="pd-ts" data-t="02:16" data-who="Arjun Singh" data-en="They're much cheaper, and you want to be able to kind of explore with them and integrate them without, again, having to change the entire workflow. The last thing I'll mention on this is that the incentives of the people selling you tokens aren't really aligned with yours." aria-label="回原文"></button>。能自由切换,你才能始终掌握主动权。
 
 ## 第二条:把每个「人机接口」都变成「团队+智能体」的共享接口
 
@@ -113,6 +113,29 @@ Arjun 提到自己去年大量使用 [[Claude Code|Claude Code]] 时刚有了孩
 > <span class="qz">对于我们相对较小的团队,我们在过去一个月有 105 亿个 token</span>  
 > *for our relatively small team, we had 10.5 billion tokens over the past month*  
 > <span class="qm">—— Arjun Singh · [16:17]</span> ^q3
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、Slack、GitHub · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:上下文 (context)、智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:开源权重模型 (open weight models)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
+- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同公司:Claude Code · 同概念:基准测试 (benchmark)、智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

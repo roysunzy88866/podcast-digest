@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Pipecat":1,"Daily":1,"智能体":75,"AI 原生软件":1,"推理":1,"多模态":1,"云计算":2,"上下文":5,"AWS":4}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Pipecat":1,"Daily":1,"智能体":77,"AI 原生软件":1,"推理":1,"多模态":1,"云计算":2,"上下文":5,"AWS":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2605 @@
+{
+  "episode_id": "2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-10-16",
+  "tags": [
+    "产品哲学",
+    "设计品味",
+    "工作流",
+    "价值实现时间",
+    "AI 原型"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dylan-field",
+      "type": "person",
+      "role": "host",
+      "name": "Dylan Field",
+      "file": "Dylan Field",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            82.32,
+            83.961
+          ],
+          "quote": "Today, my guest is Dylan Field.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            163.962,
+            167.663
+          ],
+          "quote": "With that, I bring you Dylan Field.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            246,
+            247.711
+          ],
+          "quote": "Hey, Lenny, thank you for having me back.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2871.667,
+            2875.232
+          ],
+          "quote": "Then, I made a, make a landing page for a Dylan and Lenny podcast episode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 869,
+          "t": [
+            4825.353,
+            4830.439
+          ],
+          "quote": "Okay, so I'll ask you instead, is there a podcast, a podcast you really enjoyed other than Lenny's Podcast?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集把它说成：一款世界知名、拥有众多产品线（Design, FigJam, Slides, Dev Mode, Make 等）且深具设计基因的设计与产品协作平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            13.16,
+            17.409
+          ],
+          "quote": "We started the company August 2012, started working hardcore at Figma in June 2013.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            23.02,
+            27.036
+          ],
+          "quote": "Is there a counterintuitive decision you made along the journey of Figma?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 20,
+          "t": [
+            44.02,
+            50.94
+          ],
+          "quote": "Let's talk about Figma Make, the use cases that seem to be emerging in this world of AI and app prototyping are prototypes for product teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            84.201,
+            88.824
+          ],
+          "quote": "Dylan is the CEO and co-founder of Figma, one of the most beloved and used products in the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 31,
+          "t": [
+            89.184,
+            94.487
+          ],
+          "quote": "I don't know a single product team that doesn't use and love Figma, which is extremely rare.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 32,
+          "t": [
+            94.947,
+            107.854
+          ],
+          "quote": "In our chat, we talk about how Dylan kept the company focused and motivated after the Adobe deal fell through, how he's most evolved as a leader over the past 13 years, his vision for Figma Make, and how it's different from the other products out there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            216.284,
+            225.569
+          ],
+          "quote": "Enterprises like Atlassian, Figma, and Urban use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 97,
+          "t": [
+            463.257,
+            471.68
+          ],
+          "quote": "Then, coming back from break, and one thing we did was a program we called Detach, which is a Figma pun for detaching components.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 99,
+          "t": [
+            483.885,
+            487.266
+          ],
+          "quote": "Or, maybe after a long time of working at Figma you're tired.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 114,
+          "t": [
+            562.359,
+            563
+          ],
+          "quote": "How old is Figma at this point?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 118,
+          "t": [
+            570.008,
+            575.538
+          ],
+          "quote": "From an outsider's perspective, it feels very much like a startup and everyone I meet from Figma feels like they work at a startup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            818.06,
+            823.784
+          ],
+          "quote": "Something that I always feel also about Figma is the culture is incredibly fun and interesting and unique and just good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 154,
+          "t": [
+            824.265,
+            826.747
+          ],
+          "quote": "Imagine a lot of people just joined Figma because the culture is so good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            866.129,
+            885.096
+          ],
+          "quote": "I think that consistently, possibly because of the problem domain that we tackle and how creative and design-forward the product is, we attract an extremely creative group of folks applying to Figma that are very maker-oriented.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            924.073,
+            934.077
+          ],
+          "quote": "Make a Reek is an example of that where like a week long company hackathon and the only prompt is, make Figma better in some way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            946.683,
+            951.245
+          ],
+          "quote": "It's pushing the frontiers of what's possible for Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            951.445,
+            962.091
+          ],
+          "quote": "We talked about Mihika earlier, before we started recording I think, and she had gathered a group of people to create Figma slides that came out of Make a Reek.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 177,
+          "t": [
+            982.02,
+            991.185
+          ],
+          "quote": "We have an awesome guest post by Mihika that I'll point to in the show notes, where she describes the whole process of building Figma slides, also an awesome podcast episode, if folks aren't familiar with her.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1014.836,
+            1017.078
+          ],
+          "quote": "Just look at the success of Figma in the business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1054.332,
+            1065.256
+          ],
+          "quote": "Prior to Figma, yeah, I definitely care very much about doing well for just that own sense of competition that we have, but also for the company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1126.246,
+            1129.791
+          ],
+          "quote": "Figma has been around for 13 years, as we've been talking about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1480.167,
+            1484.771
+          ],
+          "quote": "Is there a counterintuitive decision you made along the journey of Figma?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1492.158,
+            1494.98
+          ],
+          "quote": "Then, proved out to be really, really important to the success of Figma.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1533.675,
+            1546.72
+          ],
+          "quote": "First of all, I had been noticing the diagramming, white-boarding case in Figma for, Figma Design that is, for years and kept pushing on, \"Hey, we got to make a simpler product surface here and this is important.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1553.023,
+            1556.884
+          ],
+          "quote": "Well, we haven't made Figma Design everything that it needs to be at, why go into this other area?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1799.815,
+            1802.957
+          ],
+          "quote": "I don't think all the things that we've done in FigJam apply to Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1803.937,
+            1808.259
+          ],
+          "quote": "Figma Design is like a, we don't want to get in your way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1816.305,
+            1820.949
+          ],
+          "quote": "We can do more there on the play side than we can do in Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1820.969,
+            1827.895
+          ],
+          "quote": "In Figma Design, if we get in people's ways with some quirky thing, they might get annoyed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1908.711,
+            1921.456
+          ],
+          "quote": "We have Dev Mode and also Dev Mode MCP now, where you can use basically the context from Figma via Dev Mode MCP in your ID, your agent development environment whatever, of choice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1962.446,
+            1965.307
+          ],
+          "quote": "Go design, hop in Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2022.452,
+            2032.757
+          ],
+          "quote": "What are people doing in Figma Design and what are they asking for that it is probably best to actually take out a Figma Design instead make its own surface?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2056.487,
+            2064.79
+          ],
+          "quote": "You could try to pack all of that in Figma Design, but it would be complex for the marketing use case and it would add complexity on the brand use case.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2065.911,
+            2073.014
+          ],
+          "quote": "Just like we noticed there's slides made in Figma Design, pulled it out and made Figma Slides, white-boarding, pulled that out in FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2181.241,
+            2200.191
+          ],
+          "quote": "I would say you can't constrain by always sorting, descending by TAM, but we're not very much, from Figma Design, there is no reason, no data that we could look at that said, there are enough designers in the world for Figma Design to be a big market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2225.067,
+            2226.769
+          ],
+          "quote": "That expands the market for Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2237.782,
+            2244.98
+          ],
+          "quote": "That is such a good insight and it comes from exactly what you said, which is no one thought Figma was a large TAM, and you proved them wrong.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2245.481,
+            2251.189
+          ],
+          "quote": "Yeah, I think we looked to the Bureau of Labor Statistics at the start of Figma, and it was like 250,000 designers in the world was what it said.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2380.869,
+            2383.992
+          ],
+          "quote": "I heard this a lot this term when I was talking to people that work at Figma.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2406.726,
+            2414.369
+          ],
+          "quote": "If they're not able to go, for example, you go into Figma Design, you see a blank canvas, how do we get you to create something as fast as possible?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2415.87,
+            2421.612
+          ],
+          "quote": "If you go into Figma Make, how do we get you to prompt and have an awesome experience very quickly?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2432.136,
+            2436.778
+          ],
+          "quote": "For example, in Figma Design, can we get you to have a collaborative multiplayer moment?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2520.817,
+            2526.94
+          ],
+          "quote": "But from Figma, I think he's learned that removing the blockers is as important for retaining users as adding cool new stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2535.064,
+            2543.768
+          ],
+          "quote": "The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2620.722,
+            2622.963
+          ],
+          "quote": "Started working hardcore in Figma June 2013.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2671.746,
+            2681.931
+          ],
+          "quote": "Enterprises like Atlassian, Figma, and Urban Outfitters use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2715.032,
+            2718.235
+          ],
+          "quote": "Speaking of moving fast and not waiting too long, let's talk about Figma Make.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2718.775,
+            2723.6
+          ],
+          "quote": "For people that don't know what Figma Make is, you've mentioned it a couple of times, but just what's the simplest way to understand what is Figma Make?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2808.594,
+            2816.697
+          ],
+          "quote": "Once you take a screen from Figma Make, bring it into Figma Design, because sometimes the right thing to do is to prompt your way with iteration.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2823.841,
+            2826.263
+          ],
+          "quote": "Then, you got to bring that context right back into Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2845.545,
+            2847.609
+          ],
+          "quote": "I was playing with Figma Make the past week.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2847.649,
+            2850.675
+          ],
+          "quote": "I asked it to just clone Figma at the app and it's very good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2866.28,
+            2871.647
+          ],
+          "quote": "I was like, update the branding to look more like Figma, and it worked.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2924.075,
+            2929.498
+          ],
+          "quote": "Another is just like you said, design, thinking through ideas, and then moving it to Figma and then building something.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2929.978,
+            2933
+          ],
+          "quote": "Where do you see Figma Make in that, and where do you think this evolves over time?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3022.396,
+            3030.2
+          ],
+          "quote": "Another thing to mention is I think it's super important that people are able to use the design system and be consistent in Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3082.09,
+            3091.96
+          ],
+          "quote": "Figma, being at the forefront of design, is there anything you've done differently in how you create this product to make the designs look really good and different?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3119.525,
+            3125.388
+          ],
+          "quote": "Bringing stuff from Make into Figma Design, completing that loop, but also exposing Make in all the other places that it can live.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 585,
+          "t": [
+            3173.432,
+            3178.935
+          ],
+          "quote": "Yeah, it's exciting and cool to see Figma Make in an academic paper.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3517.291,
+            3533.177
+          ],
+          "quote": "I think that with Figma Make, the more we can do to help you get to a great starting point, then also iterate, refine from there, tour something excellent, and also go wide, explore the option space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3547.703,
+            3563.073
+          ],
+          "quote": "I've been really proud of how fast we've been able to grow Figma Make's abilities, and also just make it more and more excellent for our users still on that journey.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3877,
+            3878.781
+          ],
+          "quote": "We have a lot of people with great taste at Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3899.468,
+            3905.57
+          ],
+          "quote": "Just came over from Meta and still getting to know her in the Figma context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 749,
+          "t": [
+            4158.796,
+            4169.94
+          ],
+          "quote": "Right now at least we're nowhere near, at least at Figma, to the point where our demand for development for example is satiated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4419.144,
+            4422.31
+          ],
+          "quote": "Very much Jevons paradox in action happening at Figma.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4428.62,
+            4445.429
+          ],
+          "quote": "We're hiring for most roles, but I would say, first of all, if you love hard problems and if you are really interested in how to make, if you're a user of Figma and you're thinking yourself, \"Man, they could do so much better.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4448.51,
+            4457.655
+          ],
+          "quote": "We want people who have a bold point of view on how we can always be improving, and vision for where they want to take Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4872.04,
+            4886.632
+          ],
+          "quote": "Yeah, I think for Figma, looking in the past, collaboration was the first big change that made it so that there was a differentiated product for us to go build in the browser.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4964,
+            4973.631
+          ],
+          "quote": "Probably the phrase I repeat the most is not mine, but one I talk about a lot in Figma is like, keep simple things simple, make the complex things possible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 908,
+          "t": [
+            4979.697,
+            4981.139
+          ],
+          "quote": "It's a thing I repeat a lot at Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 943,
+          "t": [
+            5104.54,
+            5123.132
+          ],
+          "quote": "@zoink on X is one way to reach me, but if you tweet about Figma, if you share on any social media about Figma or write into support or post on our Figma forum or just talk to me at an event, I'm looking for your feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 944,
+          "t": [
+            5123.172,
+            5131.417
+          ],
+          "quote": "I'm looking to make Figma better and I'm always trying to push us and our product to a place of excellence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 946,
+          "t": [
+            5136.441,
+            5146.219
+          ],
+          "quote": "Along those lines, I didn't mention this, but I remember during the IPO you were replying to people on Twitter that were complaining about Figma bugs, and you were helping them solve their Figma problem the day you were going public.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "figma-make",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma Make",
+      "file": "Figma Make",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 推出的 AI 应用生成工具。用户输入提示词即可快速生成原型，目标是把它转化为令人自豪的成熟产品，且强调要缩短用户感受到价值的时间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            44.02,
+            50.94
+          ],
+          "quote": "Let's talk about Figma Make, the use cases that seem to be emerging in this world of AI and app prototyping are prototypes for product teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 32,
+          "t": [
+            94.947,
+            107.854
+          ],
+          "quote": "In our chat, we talk about how Dylan kept the company focused and motivated after the Adobe deal fell through, how he's most evolved as a leader over the past 13 years, his vision for Figma Make, and how it's different from the other products out there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2415.87,
+            2421.612
+          ],
+          "quote": "If you go into Figma Make, how do we get you to prompt and have an awesome experience very quickly?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2715.032,
+            2718.235
+          ],
+          "quote": "Speaking of moving fast and not waiting too long, let's talk about Figma Make.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2718.775,
+            2723.6
+          ],
+          "quote": "For people that don't know what Figma Make is, you've mentioned it a couple of times, but just what's the simplest way to understand what is Figma Make?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2808.594,
+            2816.697
+          ],
+          "quote": "Once you take a screen from Figma Make, bring it into Figma Design, because sometimes the right thing to do is to prompt your way with iteration.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2823.841,
+            2826.263
+          ],
+          "quote": "Then, you got to bring that context right back into Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2845.545,
+            2847.609
+          ],
+          "quote": "I was playing with Figma Make the past week.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2929.978,
+            2933
+          ],
+          "quote": "Where do you see Figma Make in that, and where do you think this evolves over time?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3022.396,
+            3030.2
+          ],
+          "quote": "Another thing to mention is I think it's super important that people are able to use the design system and be consistent in Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 585,
+          "t": [
+            3173.432,
+            3178.935
+          ],
+          "quote": "Yeah, it's exciting and cool to see Figma Make in an academic paper.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3517.291,
+            3533.177
+          ],
+          "quote": "I think that with Figma Make, the more we can do to help you get to a great starting point, then also iterate, refine from there, tour something excellent, and also go wide, explore the option space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3547.703,
+            3563.073
+          ],
+          "quote": "I've been really proud of how fast we've been able to grow Figma Make's abilities, and also just make it more and more excellent for our users still on that journey.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "figjam",
+      "type": "concept",
+      "role": "concept",
+      "name": "FigJam",
+      "file": "FigJam",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 的数字白板工具。这是 Figma 从单一产品走向两款产品的关键转折，团队在发布前决定通过让它变得「有趣」来实现差异化，推出了光标聊天等标志性功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            28,
+            28.12
+          ],
+          "quote": "FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 13,
+          "t": [
+            28.14,
+            32.606
+          ],
+          "quote": "About a month before the launch of FigJam at Config, it was like, \"Okay, we built a thing.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 16,
+          "t": [
+            35.95,
+            37.892
+          ],
+          "quote": "Let's go differentiate by making FigJam fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1495.76,
+            1505.104
+          ],
+          "quote": "Looking back, one thing that was definitely unpopular and controversial at the time and now we look back on and it's like, duh, FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1506.624,
+            1512.267
+          ],
+          "quote": "FigJam is our white-boarding, diagramming, brainstorming tool and it's basically a digital whiteboard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1526.692,
+            1532.614
+          ],
+          "quote": "The entire process of getting FigJam out to market going from one product to two products was hard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1610.667,
+            1615.309
+          ],
+          "quote": "I think we built FigJam in, it was around six-ish months.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1616.369,
+            1632.155
+          ],
+          "quote": "The end of it was super interesting because about a month before the launch of FigJam at Config, we had this big event and we know when we're going to launch it and it was like, \"Okay, we built a thing.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1662.847,
+            1672.551
+          ],
+          "quote": "Because we don't have much time, and where we came out of was, at that board meeting, was let's go differentiate by making FigJam fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1696,
+            1701.863
+          ],
+          "quote": "A few of them made it to FigJam and have became I think very definitional.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1762.4,
+            1769.683
+          ],
+          "quote": "I think FigJam is in particular a great place to emphasize fun and play, because what are you trying to do in a brainstorm?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1799.815,
+            1802.957
+          ],
+          "quote": "I don't think all the things that we've done in FigJam apply to Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1811.32,
+            1815.484
+          ],
+          "quote": "It's been a cool place to experiment with fun and playful concepts in FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1828.576,
+            1832.419
+          ],
+          "quote": "In FigJam, they're like, cool, so the context matters.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1833.461,
+            1837.106
+          ],
+          "quote": "I love that you are the person being like, \"Guys, I think we should make FigJam.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1870.347,
+            1874.094
+          ],
+          "quote": "You have FigJam, you have Slides, Sites is a separate product I believe.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1952.882,
+            1960.625
+          ],
+          "quote": "If you've got an idea, go express it through Slides or hop in FigJam and brainstorm with your team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2065.911,
+            2073.014
+          ],
+          "quote": "Just like we noticed there's slides made in Figma Design, pulled it out and made Figma Slides, white-boarding, pulled that out in FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2436.858,
+            2440.78
+          ],
+          "quote": "Same with FigJam, that's super important to see what this could unlock for you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dev-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dev Mode",
+      "file": "Dev Mode",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 产品矩阵中用于连接设计与代码的工具。它帮助开发者通过上下文（如 Dev Mode MCP）从设计直接进入开发环境，补全了用户的工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            323.2,
+            336.77
+          ],
+          "quote": "Because we're able to exit this deal that didn't work out and go into launching Dev Mode and really pushing on how do we expand our platform in a big way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1899.888,
+            1907.21
+          ],
+          "quote": "Then, also Dev Mode, of course, going from design to code is something that we're always trying to make better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1908.711,
+            1921.456
+          ],
+          "quote": "We have Dev Mode and also Dev Mode MCP now, where you can use basically the context from Figma via Dev Mode MCP in your ID, your agent development environment whatever, of choice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1967.228,
+            1971.99
+          ],
+          "quote": "If you need to go to development after that, Dev Mode will help you take you there, Dev Mode MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2073.034,
+            2078.676
+          ],
+          "quote": "Did the same thing for Buzz, same thing for Dev Mode, Sites as well.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 扩充产品线的核心指导原则。嘉宾主张顺着用户完成任务的上下游链条（如从想法到幻灯片、设计图，再到开发和发布网站）去开发新应用，而不是盯着市场规模(TAM)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 335,
+          "t": [
+            1887.183,
+            1889.284
+          ],
+          "quote": "Buzz is a production graphics workflow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1947,
+            1951.642
+          ],
+          "quote": "I think for us we had a framing of, we're going to go trace a workflow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2014.948,
+            2022.372
+          ],
+          "quote": "Buzz is an example of, I think like all the others we've talked about, following the workflow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2169.661,
+            2173.81
+          ],
+          "quote": "I love this just strategy of following the workflow as a way to think about where to expand to.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集把它说成：开发卓越产品的核心能力。它不是玄学，而是一种通过不断接触跨领域知识、追问事物背后的历史脉络、并在脑海中建立交叉关联来反复迭代的系统性循环机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            108.215,
+            117.98
+          ],
+          "quote": "How he expects product building to look in five years, what good product taste looks like, his strategy for launching new product lines, and how market size is the wrong way to think about it, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3593.505,
+            3594.446
+          ],
+          "quote": "This idea of taste.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3595.386,
+            3598.308
+          ],
+          "quote": "You talk a lot about the importance of taste in developing great products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3598.508,
+            3601.891
+          ],
+          "quote": "It's something that people hear, they're like, \"What the hell is taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3601.911,
+            3602.571
+          ],
+          "quote": "Do I have taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3604.172,
+            3606.334
+          ],
+          "quote": "How would you describe just what is taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3606.394,
+            3613.839
+          ],
+          "quote": "What's the simplest way for someone to understand taste, and is there a test that you find is helpful for people to see if they actually have good taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3616.02,
+            3617.186
+          ],
+          "quote": "You mean a taste test?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3622,
+            3632.404
+          ],
+          "quote": "I think starting with taste, there's a million definitions of taste just like design, but I come back to what's your point of view on things and how do you develop your point of view.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3689.126,
+            3695.009
+          ],
+          "quote": "I think the more you go through this loop and the more you're exposed to, the more you can refine your taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3696.389,
+            3698.79
+          ],
+          "quote": "I don't think that leads everyone to becoming a taste maker.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3699.01,
+            3710.234
+          ],
+          "quote": "I think that is a 0.01% skill to be a true taste maker, to be able to interpolate between the different directions people have explored historically or expand into something that's brand new.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3726.601,
+            3739.873
+          ],
+          "quote": "But I think that for those who can create and then articulate a framework around what is taste for us, that is really an important skill.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3751.925,
+            3757.331
+          ],
+          "quote": "One is just, is there some taste tests that you find of like you're just, \"Okay, I think this person has a great taste.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3761.236,
+            3764.539
+          ],
+          "quote": "What's one tip for someone that wants to develop their taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3814.579,
+            3816.4
+          ],
+          "quote": "That's what leads to great taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3821.022,
+            3823.763
+          ],
+          "quote": "Implied in taste is that some things are good and some things are bad.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3840.77,
+            3844.732
+          ],
+          "quote": "They can go, \"I have my own taste, I know what I like.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3863.34,
+            3871.092
+          ],
+          "quote": "Not to put you on the spot, but is there someone that comes to mind when you think of, this person has great taste, that maybe isn't an obvious, like a Steve Jobs, maybe another leader?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3872.313,
+            3876.96
+          ],
+          "quote": "There won't be an exhaustive list of all people that have amazing taste, but just anyone comes to mind that's a good example?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3877,
+            3878.781
+          ],
+          "quote": "We have a lot of people with great taste at Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3892.885,
+            3899.408
+          ],
+          "quote": "But also, one person we've recently hired that I think has incredible taste is Loredana, she's our new chief design officer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3907.15,
+            3919.815
+          ],
+          "quote": "We recruited her on the 26th of September, but already I've just seen so many examples where her taste is really, really strong.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 895,
+          "t": [
+            4933.342,
+            4935.638
+          ],
+          "quote": "Speaking of taste, what a well-designed app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5017.402,
+            5018.427
+          ],
+          "quote": "What does it taste like to you?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 928,
+          "t": [
+            5061.452,
+            5062.154
+          ],
+          "quote": "What does it taste like?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "time-to-value",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值实现时间 (time to value)",
+      "file": "价值实现时间",
+      "primary": true,
+      "how_described": "本集把它说成：产品上线时最看重的指标。指用户打开产品后，多快能体验到那个让他觉得「太棒了」的魔法时刻（如多人实时协作快感或惊艳的视觉反馈）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2372.46,
+            2380.669
+          ],
+          "quote": "I want to talk about making all this stuff that you talked about, because it connects really well, but I have another question I want to get to before we do that, which is around this idea of time to value.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2384.012,
+            2387.896
+          ],
+          "quote": "That you're obsessed with this idea of time to value, especially when a product is about to launch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2387.916,
+            2389.838
+          ],
+          "quote": "You're just like, \"Let's increase time to value.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2390.318,
+            2391.139
+          ],
+          "quote": "What is time to value?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2567.922,
+            2575.174
+          ],
+          "quote": "Okay, so this is connected to this whole idea of time to value, of just like, if something is keeping you from even using the thing and finding value.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 902,
+          "t": [
+            4956,
+            4956
+          ],
+          "quote": "Time to value.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "blockers",
+      "type": "concept",
+      "role": "concept",
+      "name": "Blockers(障碍) (Blockers)",
+      "file": "Blockers(障碍)",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 内部曾专门成立的一个团队。该团队不开发酷炫新功能，只做一件事：挨个排查并解决阻碍用户激活和留存的基础痛点，从而有效提升图表上的留存率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            2520.817,
+            2526.94
+          ],
+          "quote": "But from Figma, I think he's learned that removing the blockers is as important for retaining users as adding cool new stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2545.949,
+            2549.531
+          ],
+          "quote": "We literally at some point had a team that was called Blockers.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "detach",
+      "type": "concept",
+      "role": "concept",
+      "name": "Detach 计划 (Detach)",
+      "file": "Detach 计划",
+      "primary": true,
+      "how_described": "本集把它说成：Figma 在与 Adobe 交易告吹后主动推出的一项内部计划。如果员工累了或原本是冲着大厂来的，可以拿三个月遣散费离开，半年后还能再申请，借此精准重置团队士气。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            463.257,
+            471.68
+          ],
+          "quote": "Then, coming back from break, and one thing we did was a program we called Detach, which is a Figma pun for detaching components.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor-chat",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cursor Chat",
+      "file": "Cursor Chat",
+      "primary": true,
+      "how_described": "本集把它说成：FigJam 为了变得「有趣」而在设计冲刺中想出的标志性功能。用户可以直接在画布上输入临时文字与其他人的光标互动，在疫情居家背景下成功激发了人们的创造精神。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1702.563,
+            1704.564
+          ],
+          "quote": "For example, Cursor Chat came out that day.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把它说成：正在重塑软件开发边界的技术。它让任何人都能轻松做出平均水平的东西，但也使得设计师、PM、工程师的界限开始融合，大家都变成了「产品构建者」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            44.02,
+            50.94
+          ],
+          "quote": "Let's talk about Figma Make, the use cases that seem to be emerging in this world of AI and app prototyping are prototypes for product teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            186.171,
+            196.055
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest growing enterprises, including 78% of the Forbes AI 50 and more than half of the Fortune 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2111.809,
+            2114.09
+          ],
+          "quote": "AI won't get you there alone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2114.15,
+            2122.213
+          ],
+          "quote": "AI is still in the realm of law of averages, and better prompting can help, of course.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2339.89,
+            2346.994
+          ],
+          "quote": "I think this is happening now too, even more in the age of AI, and the value is moving up the stack even more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2490.082,
+            2492.964
+          ],
+          "quote": "I have all these errors and I'm like, \"Just fix it for me, AI.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2660.861,
+            2670.966
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest growing enterprises, including 78% of the Forbes AI 50, and more than half of the Fortune 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2837.034,
+            2840.297
+          ],
+          "quote": "Because the Make is really just a starting point when you have an AI output.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2910.126,
+            2917.19
+          ],
+          "quote": "Right now, the use cases that seem to be emerging in this world of AI app prototyping are prototypes through product teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3073,
+            3082.03
+          ],
+          "quote": "Along those lines, a lot of the AI building apps all look alike and everyone's just getting tired of seeing those sorts of products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3218,
+            3221.346
+          ],
+          "quote": "I want to talk about when you guys first launched your AI product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3258.524,
+            3276.932
+          ],
+          "quote": "It was really a starting point and we knew that, and this was early on in our AI journey, and the approach was basically nothing with fancy training or user data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3299,
+            3314.786
+          ],
+          "quote": "I think that the industry then, even though it wasn't that long ago, was in a very different place in terms of the conversation around AI than we are today, but also, people put us through as paces in the ways that we hadn't fully done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3418.863,
+            3420.986
+          ],
+          "quote": "That's a big problem for a lot of AI companies these days.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3426.393,
+            3430.98
+          ],
+          "quote": "Do you work with someone else that does a bunch of work for you or is it a team that just is really good at AI QA?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 725,
+          "t": [
+            4001.453,
+            4014.857
+          ],
+          "quote": "So, 72% of respondents said AI powered tools like Make are one of the top reasons behind the expansion of roles and responsibilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            4015.978,
+            4021.56
+          ],
+          "quote": "I think part of that is that AI makes everyone feel the need to be more of a generalist too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 730,
+          "t": [
+            4045.848,
+            4057.572
+          ],
+          "quote": "From 44% to 56%, and 53% of respondents said that they agree that even with AI you still need deep knowledge to do a task well, which I thought was fascinating that it was at 53%.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 731,
+          "t": [
+            4058.853,
+            4069.937
+          ],
+          "quote": "Both indicates that I think there's some amount of, \"Okay, you can do something with AI and be done.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4233,
+            4244.107
+          ],
+          "quote": "On the point about job displacement, there's someone who's just tweeting, OpenAI released this whole evals, GDP eval, which measures progress of AI towards replacing actual jobs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 760,
+          "t": [
+            4244.507,
+            4254.973
+          ],
+          "quote": "Like an eval of a bunch of 40 different actual jobs, and a few of them were like, the AI is a few percentage points away from humans, it turns out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4317.296,
+            4330.219
+          ],
+          "quote": "It's interesting for that survey we ran, I think it was 16% or 17% of respondents that were designers who said, the developments in tech tools, AI, are a threat to my role.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4376.898,
+            4382.6
+          ],
+          "quote": "Every conversation, I'm asking about AI efficiency, what internal tools can we build to make ourselves more efficient?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 779,
+          "t": [
+            4386.162,
+            4396.048
+          ],
+          "quote": "You can either see AI as an opportunity for your company to grow and do more, or you can look at it as cost-cutting efficiency, but I think the growth part's way more exciting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 794,
+          "t": [
+            4477.821,
+            4480.823
+          ],
+          "quote": "Before we get to a very exciting lightning round, I want to take us to AI Corner.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4482.185,
+            4489.111
+          ],
+          "quote": "What's a way you've found to use AI in your day-to-day life or work that's really interesting, maybe helpful for people to learn from?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 797,
+          "t": [
+            4494.216,
+            4498.099
+          ],
+          "quote": "I don't know, is there anything along those lines or just something you can share about AI in your life?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4505.402,
+            4521.448
+          ],
+          "quote": "I definitely oftentimes will ask an AI model about a legal question now before I call a lawyer, because I find it's not replacing my call with a great lawyer, but it does inform my point of view.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4524.669,
+            4536.673
+          ],
+          "quote": "Your conversation with AI is not the same as your conversation with a lawyer, but I think that any place where you're going to consult an expert but can come in more informed, that is interesting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 833,
+          "t": [
+            4698.546,
+            4709.279
+          ],
+          "quote": "A lot of them don't work anymore, but there's still a lot of stuff that does work and it's interesting to probe and play AI psychologist.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4886.892,
+            4891.916
+          ],
+          "quote": "But then, the second one that is something that obviously we're thinking about now is AI.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计 (design)",
+      "file": "设计",
+      "primary": true,
+      "how_described": "本集把它说成：软件竞争的胜负手。在软件创建成本趋近于零的时代，决定胜负的将纯粹是设计品味和手艺打磨，设计师也将成为未来的领导者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            5.151,
+            8.318
+          ],
+          "quote": "If you want to win in the game of software, you need to differentiate through design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            866.129,
+            885.096
+          ],
+          "quote": "I think that consistently, possibly because of the problem domain that we tackle and how creative and design-forward the product is, we attract an extremely creative group of folks applying to Figma that are very maker-oriented.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 165,
+          "t": [
+            889.778,
+            894.76
+          ],
+          "quote": "It's not just design, engineering, product, research, it's the entire company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1076.42,
+            1083.766
+          ],
+          "quote": "The same change they want to make in the world, around empowering folks and advocating for design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1533.675,
+            1546.72
+          ],
+          "quote": "First of all, I had been noticing the diagramming, white-boarding case in Figma for, Figma Design that is, for years and kept pushing on, \"Hey, we got to make a simpler product surface here and this is important.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1553.023,
+            1556.884
+          ],
+          "quote": "Well, we haven't made Figma Design everything that it needs to be at, why go into this other area?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1684.796,
+            1692.679
+          ],
+          "quote": "We did a design sprint where we were able to rapidly explore all these different ideas for features and ways to shape the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1799.815,
+            1802.957
+          ],
+          "quote": "I don't think all the things that we've done in FigJam apply to Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1803.937,
+            1808.259
+          ],
+          "quote": "Figma Design is like a, we don't want to get in your way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1816.305,
+            1820.949
+          ],
+          "quote": "We can do more there on the play side than we can do in Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1820.969,
+            1827.895
+          ],
+          "quote": "In Figma Design, if we get in people's ways with some quirky thing, they might get annoyed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1899.888,
+            1907.21
+          ],
+          "quote": "Then, also Dev Mode, of course, going from design to code is something that we're always trying to make better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1962.446,
+            1965.307
+          ],
+          "quote": "Go design, hop in Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2022.452,
+            2032.757
+          ],
+          "quote": "What are people doing in Figma Design and what are they asking for that it is probably best to actually take out a Figma Design instead make its own surface?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2056.487,
+            2064.79
+          ],
+          "quote": "You could try to pack all of that in Figma Design, but it would be complex for the marketing use case and it would add complexity on the brand use case.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2065.911,
+            2073.014
+          ],
+          "quote": "Just like we noticed there's slides made in Figma Design, pulled it out and made Figma Slides, white-boarding, pulled that out in FigJam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2181.241,
+            2200.191
+          ],
+          "quote": "I would say you can't constrain by always sorting, descending by TAM, but we're not very much, from Figma Design, there is no reason, no data that we could look at that said, there are enough designers in the world for Figma Design to be a big market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2201.851,
+            2209.635
+          ],
+          "quote": "But we've got the trend right, and the number of designers rapidly increased, the number of people that care about design, because design is now the differentiator.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2219.2,
+            2224.226
+          ],
+          "quote": "Now, we're in a world where design is how you win or lose, so then more people care to be part of the design process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2225.067,
+            2226.769
+          ],
+          "quote": "That expands the market for Figma Design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2266.853,
+            2270.76
+          ],
+          "quote": "Is there something there about design that you saw that, okay, we can actually make this a massive market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2321.56,
+            2328.884
+          ],
+          "quote": "You have to make your product better and really improve your design and that led to design hiring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2333.346,
+            2335.087
+          ],
+          "quote": "How do you keep design consistent on scale?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2335.548,
+            2338.889
+          ],
+          "quote": "How do you make sure there's efficiency at scale when you're leading a large design team?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2347.594,
+            2353.137
+          ],
+          "quote": "That's why the design is the differentiator more than ever because it's not just dev tools are a little better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2406.726,
+            2414.369
+          ],
+          "quote": "If they're not able to go, for example, you go into Figma Design, you see a blank canvas, how do we get you to create something as fast as possible?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2432.136,
+            2436.778
+          ],
+          "quote": "For example, in Figma Design, can we get you to have a collaborative multiplayer moment?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2535.064,
+            2543.768
+          ],
+          "quote": "The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2743.887,
+            2761.174
+          ],
+          "quote": "The ways that people have both up-level craft on the side of design by exploring more dynamic prototyping, but also how they've been able to create prototypes when normally they wouldn't otherwise.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2808.594,
+            2816.697
+          ],
+          "quote": "Once you take a screen from Figma Make, bring it into Figma Design, because sometimes the right thing to do is to prompt your way with iteration.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2924.075,
+            2929.498
+          ],
+          "quote": "Another is just like you said, design, thinking through ideas, and then moving it to Figma and then building something.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2966.13,
+            2969.471
+          ],
+          "quote": "I think this is additive to the design process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3022.396,
+            3030.2
+          ],
+          "quote": "Another thing to mention is I think it's super important that people are able to use the design system and be consistent in Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3082.09,
+            3091.96
+          ],
+          "quote": "Figma, being at the forefront of design, is there anything you've done differently in how you create this product to make the designs look really good and different?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3119.525,
+            3125.388
+          ],
+          "quote": "Bringing stuff from Make into Figma Design, completing that loop, but also exposing Make in all the other places that it can live.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3201.16,
+            3203.086
+          ],
+          "quote": "It was like, which of these is a better design?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3247.38,
+            3254.883
+          ],
+          "quote": "We had this feature that internally we called First Draft, and for some reason we changed the name to Make Design, which first of all, by the way, wrong name.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3255.103,
+            3257.684
+          ],
+          "quote": "We never intended it to be like, here's your design, you're done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3491.642,
+            3495.804
+          ],
+          "quote": "If you want to win in the game of software, you need to differentiate through design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3622,
+            3632.404
+          ],
+          "quote": "I think starting with taste, there's a million definitions of taste just like design, but I come back to what's your point of view on things and how do you develop your point of view.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3855.757,
+            3862.2
+          ],
+          "quote": "Yeah, it's an entirely different conversation maybe about product design and how to build it too, but that's the more general answer maybe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3882.562,
+            3891.965
+          ],
+          "quote": "I think Damien, our creative director, Marcin on our product design team, Amber, our editor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3892.885,
+            3899.408
+          ],
+          "quote": "But also, one person we've recently hired that I think has incredible taste is Loredana, she's our new chief design officer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3920.495,
+            3925.897
+          ],
+          "quote": "It's interesting actually, she grew up as a musician and then went into the field of design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4024.241,
+            4035.625
+          ],
+          "quote": "56% of non-designers said that they engage a lot or a great deal in at least one design centric task, like prototyping or visual brand exploration.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 733,
+          "t": [
+            4079.02,
+            4088
+          ],
+          "quote": "The takeaway is role boundaries will merge and it'll be less engineer design PM, it'll be people do many things and can fill in?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 739,
+          "t": [
+            4105.391,
+            4113.017
+          ],
+          "quote": "For example, do you think engineers and PMs will become, engineers and designers will become more PM-y, PMs will become more design-y?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 754,
+          "t": [
+            4193.31,
+            4198.792
+          ],
+          "quote": "Design I think grows only more important in this role, in this world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4200.353,
+            4208.556
+          ],
+          "quote": "I think in this world where software can be created more easily, design matters so much and designers matter so much.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4218.501,
+            4224.389
+          ],
+          "quote": "More PMs and developers and researchers also need to be willing to engage with design as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4468.1,
+            4477
+          ],
+          "quote": "Whether they're ICs or managers, and people that are going to get in the details and perfect their craft because we know that's how we're going to win, is by having the best craft, the best design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4974.872,
+            4978.616
+          ],
+          "quote": "Old design adage, but it's not a life motto.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品构建者 (product builder)",
+      "file": "产品构建者",
+      "primary": true,
+      "how_described": "本集把它说成：在 AI 时代，传统产品经理、设计师、工程师等角色界限融合后的新身份。随着模型能力变强，大家都需要演变为全面参与产品构建的角色。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 736,
+          "t": [
+            4092.621,
+            4095.023
+          ],
+          "quote": "I've been using the word product builder a lot more actually too.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集把它说成：一家处理着世界快速增长企业（含 Figma 等）大规模支付复杂性的支付平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            172.945,
+            176.547
+          ],
+          "quote": "Stripe processed just over $1.4 trillion last year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            186.171,
+            196.055
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest growing enterprises, including 78% of the Forbes AI 50 and more than half of the Fortune 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 48,
+          "t": [
+            197.075,
+            201.217
+          ],
+          "quote": "There's a reason I've had more leaders from Stripe on this podcast than any other company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            205.719,
+            208
+          ],
+          "quote": "Stripe is also a lot more than just payments.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            216.284,
+            225.569
+          ],
+          "quote": "Enterprises like Atlassian, Figma, and Urban use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            226.09,
+            233.974
+          ],
+          "quote": "Join the ranks of industry leaders like Salesforce, OpenAI, and Pepsi that are using Stripe to grow faster and grow GDP.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 54,
+          "t": [
+            234.514,
+            238.556
+          ],
+          "quote": "Learn how Stripe can help your business grow at Stripe.com.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2660.861,
+            2670.966
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest growing enterprises, including 78% of the Forbes AI 50, and more than half of the Fortune 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2671.746,
+            2681.931
+          ],
+          "quote": "Enterprises like Atlassian, Figma, and Urban Outfitters use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2682.411,
+            2686.593
+          ],
+          "quote": "There's a reason I've had more leaders from Stripe on this podcast than any other company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2691.155,
+            2692.856
+          ],
+          "quote": "Stripe is a lot more than payments.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2701.761,
+            2710.228
+          ],
+          "quote": "Join the ranks of industry leaders like Salesforce, OpenAI, and Pepsi that are using Stripe to grow faster and to grow the world's GDP.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2710.668,
+            2714.191
+          ],
+          "quote": "Learn how Stripe can help your business grow at Stripe.com.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe",
+      "file": "Adobe",
+      "primary": false,
+      "how_described": "本集把它说成：一家不可思议的大公司。它曾计划斥巨资收购 Figma，但最终因各国监管委员会的反对而导致这场长达 16 个月的交易告吹。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            94.947,
+            107.854
+          ],
+          "quote": "In our chat, we talk about how Dylan kept the company focused and motivated after the Adobe deal fell through, how he's most evolved as a leader over the past 13 years, his vision for Figma Make, and how it's different from the other products out there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 59,
+          "t": [
+            250.821,
+            254.764
+          ],
+          "quote": "The last time we chatted, this was right after the Adobe deal didn't work out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 61,
+          "t": [
+            260.448,
+            266.091
+          ],
+          "quote": "Specifically, post-Adobe deal falling through, the journey you guys have taken, it was quite unusual.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 62,
+          "t": [
+            266.372,
+            271.775
+          ],
+          "quote": "You almost sold the company to Adobe for a lot of money and then the deal fell through.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            292.206,
+            308.874
+          ],
+          "quote": "Adobe is an incredible company, a lot of respect for that team, and very interesting to, even in this constrained context where you can't plan out a road map or they can't give you instructions and stuff like that of, here's what you should do or not do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 98,
+          "t": [
+            472.38,
+            482.844
+          ],
+          "quote": "But it was just a way for us to say, \"Hey, look, maybe you joined and you thought you were joining Adobe, and surprise, you're at this hard charging startup.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1341.2,
+            1350.595
+          ],
+          "quote": "It's interesting how this connects to the answer you gave around how you kept everyone focused and moralized, the opposite of demoralized, during the whole Adobe thing is communication.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集把它说成：Figma Dev Mode 等产品用于连接其他生态系统的一项技术协议。它能帮助开发者在自己的智能体开发环境中直接拉取并使用 Figma 的上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            1908.711,
+            1921.456
+          ],
+          "quote": "We have Dev Mode and also Dev Mode MCP now, where you can use basically the context from Figma via Dev Mode MCP in your ID, your agent development environment whatever, of choice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1967.228,
+            1971.99
+          ],
+          "quote": "If you need to go to development after that, Dev Mode will help you take you there, Dev Mode MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3128.029,
+            3134.132
+          ],
+          "quote": "Then, MCP as well, making it so that you can go use MCP to pull from Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3139.555,
+            3150.34
+          ],
+          "quote": "We need to create an ecosystem that talks to other ecosystems, and so we've been putting a lot of effort into our MCP in general and that includes Make too.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

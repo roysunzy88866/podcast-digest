@@ -11,14 +11,14 @@ description: "Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,
 host: "[[Lenny]]"
 cohosts: ["[[Dan Shipper]]"]
 companies: ["[[Codex]]", "[[Claude Code]]", "[[Cowork]]", "[[OpenClaw]]"]
-concepts: ["[[智能体]]", "[[SaaS]]", "[[前置部署工程师]]", "[[PM]]", "[[CLI]]", "[[高级工程师基准测试]]"]
+concepts: ["[[智能体]]", "[[SaaS]]", "[[前向部署工程师]]", "[[PM]]", "[[CLI]]", "[[高级工程师基准测试]]"]
 category: 职业与个人成长
 tags:
   - 职业与个人成长
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper#post","headline":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","description":"Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,SaaS 将迎来增长,而驾驭模型的 PM 和设计师将脱颖而出。","datePublished":"2026-05-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Cowork"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"前置部署工程师 (forward deployed engineer)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"高级工程师基准测试 (senior engineer benchmark)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","item":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper#post","headline":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","description":"Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,SaaS 将迎来增长,而驾驭模型的 PM 和设计师将脱颖而出。","datePublished":"2026-05-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Cowork"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"高级工程师基准测试 (senior engineer benchmark)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","item":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Codex]] · [[Claude Code]] · [[Cowork]] · [[OpenClaw]]
 >
-> **概念** [[智能体]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
+> **概念** [[智能体]] · [[SaaS]] · [[前向部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
 
@@ -72,7 +72,7 @@ Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关�
 
 既然需求变了,那到底什么角色会吃香?Dan 又抛出了一个反直觉的观点:尽管自动化大行其道,但「每个智能体都需要一个人类」 [00:30]。
 
-他管这种新岗位叫「[[前置部署工程师|前置部署工程师]]」(forward deployed engineer)。他们的日常不是埋头写传统代码,而是大部分时间泡在 Slack 里,像当经理一样管理公司内部的智能体(比如 Every 那个负责整个咨询业务的 Claudy)[55:20]。自动化不仅没消灭岗位,反而造出了一堆给 AI 当保姆、搭系统的新工作。
+他管这种新岗位叫「[[前向部署工程师|前置部署工程师]]」(forward deployed engineer)。他们的日常不是埋头写传统代码,而是大部分时间泡在 Slack 里,像当经理一样管理公司内部的智能体(比如 Every 那个负责整个咨询业务的 Claudy)[55:20]。自动化不仅没消灭岗位,反而造出了一堆给 AI 当保姆、搭系统的新工作。
 
 顺着这个逻辑,Dan 观察到工作流正在被 AI 文档全面接管的趋势。他自己公司 2025 年底的季度规划,全靠 Notion 智能体去盘问每个员工,最后自动生成高质量的战略报告 [64:02]。
 
@@ -161,8 +161,8 @@ Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关�
 **换个口味**
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex、OpenClaw · 同概念:CLI、智能体 (agent)</span>
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code、OpenClaw · 同概念:智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:OpenClaw、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

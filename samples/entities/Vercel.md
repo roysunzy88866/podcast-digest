@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[GitHub]] · [[Lenny]] · [[编排]] · [[Claire]] · [[go-to-market]] · [[Intercom]] · [[Codex]] · [[Eve]]
 
-<script type="application/json" class="pd-epn">{"智能体":75,"Slack":17,"GitHub":12,"Lenny":36,"编排":2,"Claire":2,"go-to-market":3,"Intercom":2,"Codex":16,"Eve":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"Slack":17,"GitHub":12,"Lenny":40,"编排":2,"Claire":2,"go-to-market":3,"Intercom":2,"Codex":16,"Eve":2}</script>
 
 <script>
 (function(){

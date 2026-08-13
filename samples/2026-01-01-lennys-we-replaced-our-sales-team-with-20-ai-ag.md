@@ -11,14 +11,14 @@ description: SaaStr 创始人分享如何用智能体取代大半个销售团队
 host: "[[Lenny]]"
 cohosts: ["[[Jason Lemkin]]"]
 companies: ["[[SaaStr]]", "[[Replit]]", "[[Vercel]]", "[[Salesforce]]", "[[Artisan]]", "[[Qualified]]", "[[Delphi]]"]
-concepts: ["[[智能体]]", "[[编排]]", "[[go-to-market]]", "[[前置部署工程师]]", "[[剧本]]", "[[AI 泡沫]]", "[[CRM]]"]
+concepts: ["[[智能体]]", "[[编排]]", "[[go-to-market]]", "[[前向部署工程师]]", "[[剧本]]", "[[AI 泡沫]]", "[[CRM]]"]
 category: 增长与销售
 tags:
   - 增长与销售
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#post","headline":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","description":"SaaStr 创始人分享如何用智能体取代大半个销售团队，详解选型、训练与避坑方法。","datePublished":"2026-01-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Jason Lemkin"},{"@type":"Organization","name":"SaaStr"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Salesforce"},{"@type":"Organization","name":"Artisan"},{"@type":"Organization","name":"Qualified"},{"@type":"Organization","name":"Delphi"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"前置部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"剧本 (playbooks)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"CRM"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","item":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#post","headline":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","description":"SaaStr 创始人分享如何用智能体取代大半个销售团队，详解选型、训练与避坑方法。","datePublished":"2026-01-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Jason Lemkin"},{"@type":"Organization","name":"SaaStr"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Salesforce"},{"@type":"Organization","name":"Artisan"},{"@type":"Organization","name":"Qualified"},{"@type":"Organization","name":"Delphi"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"剧本 (playbooks)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"CRM"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","item":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]]
 >
-> **概念** [[智能体]] · [[编排]] · [[go-to-market]] · [[前置部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
+> **概念** [[智能体]] · [[编排]] · [[go-to-market]] · [[前向部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
 
@@ -145,6 +145,7 @@ jsonLd: |
 **顺着「增长与销售」挖下去**
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Vercel · 同概念:推向市场 (go-to market)、智能体 (agent)</span>
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:前置部署工程师 (Forward Deployed Engineer)</span>
 
 </div>
 <div class="pd-ex">

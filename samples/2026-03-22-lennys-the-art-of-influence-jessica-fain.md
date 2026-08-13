@@ -155,8 +155,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack · 同概念:智能体 (agents)</span>
+- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agents)</span>
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack</span>
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
 
 </div>
 </div>

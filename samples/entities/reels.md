@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[pods]] · [[产品人员]] · [[news feed]]
 
-<script type="application/json" class="pd-epn">{"Lenny":36,"Adam Mosseri":1,"instagram":1,"TikTok":1,"Anthropic":43,"open ai":2,"Twitter":4,"pods":1,"产品人员":1,"news feed":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"Adam Mosseri":1,"instagram":1,"TikTok":1,"Anthropic":44,"open ai":2,"Twitter":4,"pods":1,"产品人员":1,"news feed":1}</script>
 
 <script>
 (function(){

@@ -123,6 +123,13 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「增长与销售」挖下去**
+
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同公司:Anthropic、Cursor</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:Anthropic · 同概念:公益公司 (public benefit corporation)</span>

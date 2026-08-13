@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Stripe]] · [[OpenAI]] · [[Jen Abel]] · [[Jeanne DeWitt Grosser]] · [[企业销售]] · [[Vercel]] · [[愿景描绘]] · [[Gong]] · [[超额收益]]
 
-<script type="application/json" class="pd-epn">{"Lenny":36,"Stripe":11,"OpenAI":33,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"企业销售":1,"Vercel":6,"愿景描绘":1,"Gong":1,"超额收益":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"Stripe":12,"OpenAI":33,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"企业销售":1,"Vercel":6,"愿景描绘":1,"Gong":1,"超额收益":1}</script>
 
 <script>
 (function(){

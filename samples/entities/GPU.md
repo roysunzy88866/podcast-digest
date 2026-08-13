@@ -29,7 +29,7 @@ unlisted: true
 
 [[人工智能]] · [[NVIDIA]] · [[深度学习]] · [[Lenny]] · [[Condi Rice]] · [[Paul Kedrosky]] · [[Dr. Fei-Fei Li]] · [[Jensen Huang]] · [[数据中心]] · [[World Labs]]
 
-<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":16,"深度学习":3,"Lenny":36,"Condi Rice":1,"Paul Kedrosky":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"数据中心":2,"World Labs":2}</script>
+<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":16,"深度学习":3,"Lenny":40,"Condi Rice":1,"Paul Kedrosky":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"数据中心":2,"World Labs":2}</script>
 
 <script>
 (function(){

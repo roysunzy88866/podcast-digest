@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Square</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Square">SQ</div><div class="pi"><h1 class="pt">Square</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Square">SQ</div><div class="pi"><h1 class="pt">Square</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(08:16起):本集说它是 Block 旗下的主要品牌(业务单元),在成熟期采用过各自为政的 GM 结构,后来被统一重组进全公司的职能型架构中。
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:31起):本集说它是 Keith 曾担任首席运营官的公司，Jack Dorsey 当时用 iPad 运营公司；Keith 在此学到了「团队即公司」的理念，并在此验证了他的招聘与管理心法。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Keith Rabois]] · [[Lenny]] · [[PayPal]] · [[Faire]] · [[Ramp]] · [[Airbnb]] · [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]]
+[[Lenny]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Block]] · [[PayPal]] · [[Goose]] · [[Faire]] · [[智能体]] · [[Ramp]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Keith Rabois":1,"Lenny":36,"PayPal":1,"Faire":1,"Ramp":3,"Airbnb":4,"桶和弹药":1,"人才密度":3,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"Dhanji Prasanna":1,"Keith Rabois":1,"Block":1,"PayPal":1,"Goose":1,"Faire":1,"智能体":77,"Ramp":3,"MCP":9}</script>
 
 <script>
 (function(){

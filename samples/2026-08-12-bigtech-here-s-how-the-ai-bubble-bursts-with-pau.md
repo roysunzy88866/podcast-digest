@@ -9,13 +9,13 @@ cover: "#64748b"
 description: "投资人 Paul 拆解 AI 算力基建:token 在超级通缩、硬件要持续换血,资本却在靠群体惯性狂奔。"
 guests: ["[[Paul Kedrosky]]"]
 companies: ["[[OpenAI]]", "[[Anthropic]]", "[[Meta]]", "[[Palantir]]", "[[PIMCO]]"]
-concepts: ["[[数据中心]]", "[[token]]", "[[GPU]]", "[[推理]]", "[[商业地产]]", "[[前沿模型]]", "[[挽具]]", "[[预训练]]", "[[后训练]]", "[[AGI]]", "[[杰文斯悖论]]"]
+concepts: ["[[数据中心]]", "[[token]]", "[[GPU]]", "[[推理]]", "[[商业地产]]", "[[前沿模型]]", "[[测试框架]]", "[[预训练]]", "[[后训练]]", "[[AGI]]", "[[杰文斯悖论]]"]
 category: 创业与行业
 tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#post","headline":"AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau","mainEntityOfPage":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau","description":"投资人 Paul 拆解 AI 算力基建:token 在超级通缩、硬件要持续换血,资本却在靠群体惯性狂奔。","datePublished":"2026-08-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Paul Kedrosky"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Palantir"},{"@type":"Organization","name":"PIMCO"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"商业地产 (commercial real estate)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"挽具 (harness)"},{"@type":"Thing","name":"预训练 (pre-training)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"杰文斯悖论 (Jevons paradox)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱","item":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#post","headline":"AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau","mainEntityOfPage":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau","description":"投资人 Paul 拆解 AI 算力基建:token 在超级通缩、硬件要持续换血,资本却在靠群体惯性狂奔。","datePublished":"2026-08-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Paul Kedrosky"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Palantir"},{"@type":"Organization","name":"PIMCO"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"商业地产 (commercial real estate)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"预训练 (pre-training)"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"杰文斯悖论 (Jevons paradox)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱","item":"https://talk.solomind.cc/2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -33,7 +33,7 @@ jsonLd: |
 >
 > **公司** [[OpenAI]] · [[Anthropic]] · [[Meta]] · [[Palantir]] · [[PIMCO]]
 >
-> **概念** [[数据中心]] · [[token]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[挽具]] · [[预训练]] · [[后训练]] · [[AGI]] · [[杰文斯悖论]]
+> **概念** [[数据中心]] · [[token]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[测试框架]] · [[预训练]] · [[后训练]] · [[AGI]] · [[杰文斯悖论]]
 
 <div class="pd-tldr"><b>一句话</b>投资人 Paul 拆解 AI 算力基建:token 在超级通缩、硬件要持续换血,资本却在靠群体惯性狂奔。</div>
 
@@ -89,7 +89,7 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 
 ## 音乐怎么停:超定事件——多条引信,迟早一根先燃
 
-崩盘不需要某个戏剧性单点事件,它在统计学上是「超定」的(overdetermined,即引爆路径太多,总会有一条先触发):① 宏观利率一变,外部资本要求的门槛利率抬到高个位数,数据中心的回报立刻显得没有竞争力 [51:43];② AI 公司 IPO 后被公开市场按通缩商品估值,投资者发现向高端市场走也没救,继续重金 capex 就撑不住;③ 国家博弈导致市场割裂,禁用对方模型,可用市场瞬间缩水;④ 政府入股(如美方可能持有 OpenAI 股份),这种资本结构让商业投资者重新评估估值 [53:12];⑤ 市场终于看穿:模型的大部分增益其实来自「[[挽具|挽具]]」(harness,指 Claude Code、OpenCode 这类在模型上层编排调用的工具框架,就像高功能保姆管住顽童 [55:14])和[[后训练|后训练]](RLHF 等事后调整),而不是动辄十亿美元的[[预训练|预训练]]——那预训练的开支就守不住了 [56:03]。
+崩盘不需要某个戏剧性单点事件,它在统计学上是「超定」的(overdetermined,即引爆路径太多,总会有一条先触发):① 宏观利率一变,外部资本要求的门槛利率抬到高个位数,数据中心的回报立刻显得没有竞争力 [51:43];② AI 公司 IPO 后被公开市场按通缩商品估值,投资者发现向高端市场走也没救,继续重金 capex 就撑不住;③ 国家博弈导致市场割裂,禁用对方模型,可用市场瞬间缩水;④ 政府入股(如美方可能持有 OpenAI 股份),这种资本结构让商业投资者重新评估估值 [53:12];⑤ 市场终于看穿:模型的大部分增益其实来自「[[测试框架|挽具]]」(harness,指 Claude Code、OpenCode 这类在模型上层编排调用的工具框架,就像高功能保姆管住顽童 [55:14])和[[后训练|后训练]](RLHF 等事后调整),而不是动辄十亿美元的[[预训练|预训练]]——那预训练的开支就守不住了 [56:03]。
 
 ## 真崩了长什么样:2008 式的债务散播
 
@@ -157,6 +157,29 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 > <span class="qz">它是一种公用事业。它将成为底层支撑一直发生的许多其他事情,我不再会知道谁提供我的代币,就像我不知道给我 MacBook 供电的电是来自哪个水电站一样。</span>  
 > *It's a utility. It will become underlying a host of other things that go on all the time, and I will no more know who provides my tokens than I do from which hydroelectric dam the power came from that's powering my MacBook right now.*  
 > <span class="qm">—— Paul Kedrosky · [66:37]</span> ^q12
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:杰文斯悖论 (Jevons paradox)、AGI</span>
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:AGI、预训练 (pre-training)</span>
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:AGI</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:前沿模型 (frontier model)</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:OpenAI · 同概念:挽具 (harness)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

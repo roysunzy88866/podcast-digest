@@ -7,11 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dylan Field</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Dylan Field">DY</div><div class="pi"><h1 class="pt">Dylan Field</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Dylan Field">DY</div><div class="pi"><h1 class="pt">Dylan Field</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*4 条,均已过机器闸门*
+*8 条,均已过机器闸门*
+
+![[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#^q1]]
+
+![[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#^q2]]
+
+![[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#^q3]]
+
+![[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#^q4]]
 
 ![[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo#^q1]]
 
@@ -23,15 +31,16 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为主持
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Nico]] · [[Figma]] · [[GitHub]] · [[Notion]] · [[Slack]] · [[智能体]] · [[提示词]] · [[代码]] · [[代码层]] · [[Make]]
+[[Figma]] · [[MCP]] · [[Lenny]] · [[Nico]] · [[Figma Make]] · [[GitHub]] · [[FigJam]] · [[Notion]] · [[Dev Mode]] · [[Slack]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -41,7 +50,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nico":1,"Figma":6,"GitHub":12,"Notion":5,"Slack":17,"智能体":75,"提示词":2,"代码":1,"代码层":1,"Make":2}</script>
+<script type="application/json" class="pd-epn">{"Figma":7,"MCP":9,"Lenny":40,"Nico":1,"Figma Make":1,"GitHub":12,"FigJam":1,"Notion":5,"Dev Mode":1,"Slack":17}</script>
 
 <script>
 (function(){

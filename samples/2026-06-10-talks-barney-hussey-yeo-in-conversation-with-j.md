@@ -131,8 +131,8 @@ Barney 坦言，目前的技术确实只能把文本作为核心载体。但只�
 **顺着「智能体」挖下去**
 
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:anthropic · 同概念:LLM、智能体 (agent)</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:anthropic · 同概念:智能体 (agent)、Fable、Slack</span>
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:anthropic · 同概念:智能体 (agent)、Fable</span>
 
 </div>
 <div class="pd-ex">

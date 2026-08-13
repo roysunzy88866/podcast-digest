@@ -109,6 +109,29 @@ Kevin 直言这是一种错误的二分法 <button class="pd-ts" data-t="12:50" 
 > <span class="qz">你某种程度上是在押注失败，而押注失败与押注乐观的成本相比，那里的差别真的很大。</span>  
 > *You're sort of betting on failure and the cost of betting on failure versus betting on optimism is a real big difference there.*  
 > <span class="qm">—— Kevin Scott · [25:21]</span> ^q5
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP、智能体 (agent)</span>
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)</span>
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:MCP、智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)</span>
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

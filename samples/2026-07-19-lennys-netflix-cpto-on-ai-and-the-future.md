@@ -149,9 +149,9 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
 
 **顺着「组织与领导力」挖下去**
 
+- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同概念:系统思维 (systems thinking)</span>
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|Cursor 人才负责人：别再掉进招聘的厄运漏斗]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]]<span class="pd-rz">同概念:护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

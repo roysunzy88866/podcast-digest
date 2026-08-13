@@ -1,0 +1,147 @@
+{
+  "title_zh": "AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎",
+  "tldr": "AI在加速写代码,但开发者体验不只看代码行数;核心是减少摩擦、选对指标、先去倾听。",
+  "digest_md": "「大多数生产力指标都是谎言。」说这话的 Nicole Forsgren 是 DORA 和 SPACE 两大开发者度量框架的创建者。她在这一集里直言:AI 确实在加速编码,但如果团队仍被损坏的构建、不可靠的测试和冗长的流程拖住,开发者根本没有你想象中那么快。更危险的是,如果你还用代码行数来衡量生产力,只会被 AI(因为大模型天生输出冗长)系统性地操纵,引入一堆技术债 [12:23 Nicole Forsgren]。\n\n## 代码行数已彻底失效,SPACE 框架重获用武之地\n\n用代码行数当生产力指标一直都不好,但在 AI 时代它彻底失效了。「如果目标是更多代码行,我直接让模型写出史上最长的代码再加一堆注释就行了。」这正是 LLM 的天性——冗长。\n\n不过 Nicole 提供了一个新视角:代码行数现在有了新用法,即**区分哪些代码是人写的,哪些是 AI 生成的**。据此可以追踪「代码存活率(多久会被删掉或重写)」「代码质量」,并警惕「机器生成的代码被反喂回训练或微调系统时,会不会引入新的模式或偏见」[13:29 Nicole Forsgren]。\n\n至于她亲手创建的 DORA(用部署频率、交付周期来衡量速度,用平均恢复时间 MTTR、变更失败率来衡量稳定性的四个经典指标),如今也暴露了局限:它最初评估的是整条交付流水线,但它隐含的反馈循环太慢了。AI 时代反馈循环大幅前置,在本地构建甚至流水线半途都在即时发生,「如果我们只盲目套用以前的指标,就会错过人们工作方式中极其重要的新现象」[14:27 Nicole Forsgren]。\n\n相比之下,SPACE 框架显得更契合当下。SPACE 是 Satisfaction(满意度)、Performance(绩效)、Activity(活动)、Communication(沟通)、Efficiency/Flow(效率/心流)的缩写。它不规定具体测什么,而是提供一个框架。如今可以审视:工作被卸载给聊天机器人的比例有多大?人有没有时间进入心流状态?Nicole 还建议给 SPACE 加一个新维度:**信任**。因为大模型是非确定性的,你「不能只输入一个命令就接受它返回的东西」,必须持续评估有没有幻觉、可不可靠、代码符不符合团队规范 [16:50 Nicole Forsgren]。\n\n## 被打断的心流,与新的工作日结构\n\nDevEx(开发者体验)的核心是三个互相强化的要素:心流状态、认知负荷、反馈循环。\n\nNicole 观察到,AI 改变了写代码的本质,让它变成了一项「充满中断」的工作:你不再锁定状态敲击成千上万行代码,而是写提示词、读返回的代码、做整合。但这未必会摧毁心流。她见过一些资深工程师搭出了极强的工作流:先花时间系统性地规划「我要构建什么、需要什么架构、遵循什么惯例」,然后把不同模块拆给多个智能体去并行写。这种做法「更接近生产代码,而不是 vibe coding 凭感觉的产物」[11:16 Nicole Forsgren]。\n\n这种工作流的变化甚至改变了工作日的结构。研究注意力的学者发现,人类每天大约只有四个小时的深度工作时间。过去你需要划出两三个小时的不被打扰的整块时间才能进入心流;而现在,「进入心流这件事被部分移交给了机器」——机器能帮你恢复上下文、生成系统图表。这意味着,现在哪怕只有 45 分钟的工作块,也能被有效利用:工程师的本质正在向工程经理转变,在短时间里指挥、疏通多个正在异步跑任务的 AI 工程师 [19:07 Nicole Forsgren]。\n\n## 你的团队还能更快吗?怎么衡量 AI 的回报?\n\n创始人最爱问:我的团队到底够不够快?Nicole 的答案很简单:大多数团队都能更快。\n\n判断有没有摩擦的信号(她称为 smells)很具体 [27:41 Nicole Forsgren]:\n- 构建一直中断、测试不稳定(经常出现误报)。\n- 配置新环境、请求新系统异常困难。\n- 切换项目或任务的成本极高,有人宁可待在原地也不换组,因为系统的切换税跟新员工入职一样重。\n\n但「快」本身不是目的,关键是为谁而快、在运什么。「我们可以每天更快地运送垃圾。我们需要策略和真正聪明的决策来知道要交付什么。」[29:05 Nicole Forsgren] AI 只解决了「怎么造」的问题,解决不了「该造什么」的内部对齐。\n\n那公司砸了这么多钱买 AI 工具,到底怎么衡量回报?Nicole 的建议极其务实:**别纠结归因,顺着领导关心的话语体系去测**。\n\n- 如果领导老在说**市场份额/竞争力** → 测速度。追踪一个功能从想法到客户/到实验的时间有多短,反馈循环是怎样的。\n- 如果领导老在说**利润率** → 测省钱。比如清理掉那些总是失败的测试,能省下云端算力成本;砍掉冗余流程能少买几个供应商的账号,把这些折算成省下的等价人力成本。\n- **不要怕混在一起讲**:直接披露「我们上了 AI 工具,同时也在改 DevEx,它们紧密配合」。如果没有 DevEx 的改进,单靠 AI 工具远达不到现在的效果 [52:47 Nicole Forsgren]。\n\n## 想改善 DevEx?第一件事是去问,而不是去建工具\n\n不管是刚开始组建开发者体验团队,还是想给现有团队找突破口,Nicole 的第一步建议都是:**去和人交谈并倾听,不要从造工具或自动化开始**。\n\n直接去问开发者:「想想昨天,走一遍流程。哪些地方很顺?哪些地方被拖慢了?哪里让你感到沮丧?」相信我,大多数开发者会非常乐意告诉你哪里坏了 [22:39 Nicole Forsgren]。\n\n> 【背景】转写稿此处原词组为「smells」(嗅觉/迹象),软件工程语境里常用来指代代码或流程中预示问题的不良征兆,这里是 Nicole 的习惯用法。\n\n一家公司曾有个折磨所有人的流程:必须把文件打印出来,走下三四层楼让人签字批准,再有人走回去。所有人对此痛恨不已,却以为是老旧主机系统的死结,没人敢碰。最终的解决方案没动任何代码和平台:他们改成了发邮件。有时候你只需改变一个流程 [23:55 Nicole Forsgren]。\n\n如果要铺数据,先做**问卷调查**(而不是上来就搞复杂的埋点)。她推荐一套极简问卷设计:让开发者从一组工具或流程里选出影响生产力的前三大障碍,并追问发生频率(每小时/每天/每季度)。务必限定选三个,「让他们选所有东西会让数据变得超级乱」[53:48 Nicole Forsgren]。\n\n她特别提醒:不要用「幸福感调查」。影响幸福感的因素太多(家庭、周末、爱好),它太大也太包罗万象。要问就问**满意度**:「你对这个工具满意吗?」这更具体也更可操作 [56:54 Nicole Forsgren]。\n\n最后,把 PM 的产品思维带进 DevEx:把内部开发者当目标用户,做 MVP、快速迭代、设计沟通策略,甚至要考虑哪些用 10 年的指标该被淘汰。这种思维在 AI 飞速变化时尤为重要:你需要时不时停下半拍问自己,「我现在解决的到底是个什么问题?」\n\n## 本集带走\n\n- **废弃代码行数**:AI(如大语言模型)输出天生冗长,用它做生产力指标不仅无效,还会被系统操纵,引入技术债。\n- **给 SPACE 加「信任」维度**:AI 生成代码后必须持续评估可靠性、幻觉风险和是否符合团队规范。\n- **善用「区分来源的代码行数」**:区分人与 AI 生成的代码后,可追踪代码存活率、质量,以及反喂给训练系统时潜在的偏见。\n- **追踪团队摩擦的具体信号**:构建老中断、测试不稳定、配置新环境难、跨组切换成本过高,这些都是存在摩擦的明确迹象。\n- **测指标前先听领导的话术**:领导关心利润率就测省钱(如清理无效测试省云端成本),关心市场份额就测交付速度。\n- **别搞「幸福感调查」**:幸福感太大,家庭周末都算;要问具体的「满意度」(如对特定工具满不满意)。\n- **问卷设计强制收敛**:让人选影响生产力的障碍时,强制只选三个并标明频率,数据才有效。\n- **先倾听,别先造工具**:遇到老大难问题(如漫长审批),有时换掉纸质人工流程发封邮件就解决了,不必重构系统。\n- **高级 AI 工作流先规划再并行**:向智能体下达指令前,系统性规划整体架构、技术栈、组件协作和 API 规范,产物会远比凭感觉写(vibe coding)的更接近生产级代码。",
+  "quotes": [
+    {
+      "en": "I'll say most productivity metrics are a lie.",
+      "zh": "我会说大多数生产力指标都是一个谎言。",
+      "timestamp": "12:23",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "If the goal is more lines of code, I can prompt something to write the longest piece of code ever and add tons of comments.",
+      "zh": "如果目标是更多的代码行，我可以提示某物写出有史以来最长的代码并添加大量的注释。",
+      "timestamp": "12:56",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "Most productivity metrics are a lie.",
+      "zh": "大多数生产力指标都是谎言。",
+      "timestamp": "00:03",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "So much of the time is now going to be spent reviewing code versus writing code.",
+      "zh": "现在这么多时间将花在审查代码而不是编写代码上。",
+      "timestamp": "00:42",
+      "speaker": "Lenny"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I'll say most productivity metrics are a lie.",
+      "zh": "我会说大多数生产力指标都是一个谎言。",
+      "timestamp": "12:23",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "If the goal is more lines of code, I can prompt something to write the longest piece of code ever and add tons of comments.",
+      "zh": "如果目标是更多的代码行，我可以提示某物写出有史以来最长的代码并添加大量的注释。",
+      "timestamp": "12:56",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "It's just too easy to gain that system and then introduce complexity and technical debt into all of the work that you're doing.",
+      "zh": "操纵那个系统太容易了，然后在你做的所有工作中引入复杂性和技术债务。",
+      "timestamp": "13:04",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "But we can't just blindly apply the existing metrics we've used before because we'll miss super important phenomenon and changes in the way people work.",
+      "zh": "但我们不能只是盲目应用我们以前使用的现有指标，因为我们会错过人们工作方式中超级重要的现象和变化。",
+      "timestamp": "14:27",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "Because they were so systematic about it upfront, they're much closer to something that looks like production code.",
+      "zh": "因为他们在一开始就对此如此系统化，他们更接近看起来像生产代码的东西。",
+      "timestamp": "11:44",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "We can't just put in a command and guess something back and accept it. We really need to evaluate it, so, \"Are we seeing hallucinations?",
+      "zh": "我们不能只是输入一个命令然后猜回一些东西并接受它。我们真的需要评估它，所以，「我们是否看到了幻觉？」",
+      "timestamp": "17:15",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "Honestly, I think the best thing you can do is go talk to people and listen.",
+      "zh": "老实说，我认为你能做的最好的事情就是去和人交谈并倾听。",
+      "timestamp": "22:35",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "And they changed it so that instead of... I think someone had to print it out and walk it down three or four flights, and they get approval.",
+      "zh": "他们改变了它，以至于……我想某人必须把它打印出来并走下三四个楼层去获得批准。",
+      "timestamp": "24:16",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "We can ship trash faster every single day. We need strategy and really smart decisions to know what to ship, what to experiment with, what features we want to do in what order and what rollout.",
+      "zh": "我们可以每天更快地运送垃圾。我们需要策略和真正聪明的决策来知道要运送什么，要实验什么，我们要按什么顺序做什么功能以及什么发布。",
+      "timestamp": "29:09",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "Now, we can also make a 45-minute work block useful because getting into the flow is actually kind of handed off, at least, in part to the machine or the machine can help us get back into the flow by reminding us of context and generating diagrams of the system and all the things.",
+      "zh": "现在，我们也可以让一个 45 分钟的工作模块变得有用，因为进入心流状态实际上被部分移交给了机器，或者机器可以通过提醒我们上下文和生成系统图表以及所有事情来帮助我们重新进入心流状态。",
+      "timestamp": "20:21",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "By making folks prioritize the top three things... Let them pick everything, it makes the data super, super messy.",
+      "zh": "通过让人们将前三件事优先级排序……让他们选择所有东西，这会让数据变得超级、超级乱。",
+      "timestamp": "54:34",
+      "speaker": "Nicole Forsgren"
+    },
+    {
+      "en": "Most productivity metrics are a lie.",
+      "zh": "大多数生产力指标都是谎言。",
+      "timestamp": "00:03",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If the goal is more lines of code, I can prompt something to write the longest piece of code ever.",
+      "zh": "如果目标是更多的代码行数，我可以提示某种东西写出有史以来最长的代码。",
+      "timestamp": "00:05",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's just too easy to gain that system.",
+      "zh": "操纵那个系统太容易了。",
+      "timestamp": "00:09",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "But faster for what?",
+      "zh": "但是为了什么而更快？",
+      "timestamp": "00:20",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "We can ship trash faster every single day.",
+      "zh": "我们每天都可以更快地运送垃圾。",
+      "timestamp": "00:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So much of the time is now going to be spent reviewing code versus writing code.",
+      "zh": "现在这么多时间将花在审查代码而不是编写代码上。",
+      "timestamp": "00:42",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "There's some real opportunity there to not just rethink workflows, but rethink how we structure our days and how we structure our work.",
+      "zh": "那里有一些真正的机会，不仅是重新思考工作流程，而且重新思考我们如何构建我们的一天以及我们如何构建我们的工作。",
+      "timestamp": "00:45",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Now, we can also make a 45-minute work block useful because getting into the flow is actually kind of handed off, at least, in part to the machine or the machine can help us get back into the flow by, reminding us of context and generating diagrams of the system.",
+      "zh": "现在，我们也可以让一个 45 分钟的工作块变得有用，因为进入心流状态实际上被部分移交给了机器，或者机器可以通过提醒我们上下文和生成系统图来帮助我们重新进入心流状态。",
+      "timestamp": "00:50",
+      "speaker": "Unknown"
+    }
+  ]
+}

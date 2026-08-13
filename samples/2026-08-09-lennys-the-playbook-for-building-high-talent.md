@@ -11,14 +11,14 @@ description: 把招人当成找高管，锁定全世界最顶尖的 50 个人死
 host: "[[Lenny]]"
 cohosts: ["[[Adam Ward]]"]
 companies: ["[[Cursor]]", "[[Growth by Design]]"]
-concepts: ["[[厄运漏斗]]", "[[前置部署工程师]]", "[[人才密度]]", "[[工作样本]]", "[[人才工程师]]"]
+concepts: ["[[厄运漏斗]]", "[[前向部署工程师]]", "[[人才密度]]", "[[工作样本]]", "[[人才工程师]]"]
 category: 组织与领导力
 tags:
   - 组织与领导力
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-08-09-lennys-the-playbook-for-building-high-talent.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent#post","headline":"Cursor 人才负责人：别再掉进招聘的厄运漏斗","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent","description":"把招人当成找高管，锁定全世界最顶尖的 50 个人死磕到底，而不是用宽漏斗慢慢筛剩饭。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-09-lennys-the-playbook-for-building-high-talent.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Adam Ward"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Growth by Design"},{"@type":"Thing","name":"厄运漏斗 (funnel of doom)"},{"@type":"Thing","name":"前置部署工程师 (forward-deployed engineer)"},{"@type":"Thing","name":"人才密度 (talent density)"},{"@type":"Thing","name":"工作样本 (work samples)"},{"@type":"Thing","name":"人才工程师 (talent engineer)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Cursor 人才负责人：别再掉进招聘的厄运漏斗","item":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent#post","headline":"Cursor 人才负责人：别再掉进招聘的厄运漏斗","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent","description":"把招人当成找高管，锁定全世界最顶尖的 50 个人死磕到底，而不是用宽漏斗慢慢筛剩饭。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-09-lennys-the-playbook-for-building-high-talent.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Adam Ward"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Growth by Design"},{"@type":"Thing","name":"厄运漏斗 (funnel of doom)"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"人才密度 (talent density)"},{"@type":"Thing","name":"工作样本 (work samples)"},{"@type":"Thing","name":"人才工程师 (talent engineer)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Cursor 人才负责人：别再掉进招聘的厄运漏斗","item":"https://talk.solomind.cc/2026-08-09-lennys-the-playbook-for-building-high-talent"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor 人才负责人：别再掉进招聘的厄运漏斗</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Cursor]] · [[Growth by Design]]
 >
-> **概念** [[厄运漏斗]] · [[前置部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]]
+> **概念** [[厄运漏斗]] · [[前向部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent)
 
@@ -68,7 +68,7 @@ jsonLd: |
 
 Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一方面，蓝筹公司（指业内最成熟、最稳妥的大企业）在裁员，另一方面，AI 公司给博士应届生开 NBA 级别的天价薪水，这在市场里形成了一个巨大的鸿沟。
 
-在这种极端行情下，什么人在涨、什么人在跌？Adam 观察到，需求最旺的是一种叫[[前置部署工程师|前置部署工程师]]（FDE，一种能跟客户和销售直接对接，帮忙落地复杂技术产品的角色）的人。
+在这种极端行情下，什么人在涨、什么人在跌？Adam 观察到，需求最旺的是一种叫[[前向部署工程师|前置部署工程师]]（FDE，一种能跟客户和销售直接对接，帮忙落地复杂技术产品的角色）的人。
 
 三五年前的全栈工程师，现在很适合转型做这个 <button class="pd-ts" data-t="09:02" data-who="Adam Ward" data-en="So what's kind of the, I don't know, the look of a person that can become an FDE? Yeah, I actually think it is that engineer. It is that person who maybe was a full stack engineer in three to five years ago, is now maybe actually that forward-deployed engineer." aria-label="回原文"></button>。与此同时，他认为在这个时代，最聪明的人都在从追求产出量，转向追求事情的技艺与品味（泛指对事物好坏的审美与判断力）。过去那种过度专精的窄领域专家正在贬值，因为像 [[Cursor|Cursor]] 这样的产品已经能替他们做很多机械的活儿。
 
@@ -129,7 +129,7 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:Anthropic</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
@@ -138,7 +138,7 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:前置部署工程师 (forward-deployed engineer)、go-to-market、智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Cursor · 同概念:前置部署工程师 (forward-deployed engineer)、智能体 (agent)</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)</span>
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同公司:Cursor · 同概念:前置部署工程师 (forward-deployed engineer)</span>
 
 </div>
 </div>

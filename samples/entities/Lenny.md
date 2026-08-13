@@ -7,11 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lenny</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lenny">LE</div><div class="pi"><h1 class="pt">Lenny</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>36</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lenny">LE</div><div class="pi"><h1 class="pt">Lenny</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>40</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*13 条,均已过机器闸门*
+*15 条,均已过机器闸门*
+
+![[2025-10-19-lennys-how-to-measure-ai-developer-productivity#^q4]]
+
+![[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native#^q1]]
 
 ![[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m#^q9]]
 
@@ -41,8 +45,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*36 集*
+*40 集*
 
+- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为联合主持
+- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|《AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎》]] — 作为主持
+- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为联合主持
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为主持
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为主持
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为联合主持
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为主持
@@ -84,9 +92,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Slack]] · [[Claude]] · [[Cursor]] · [[Google]] · [[主观能动性]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Claude Code]] · [[Slack]] · [[Cursor]] · [[Claude]] · [[Google]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":75,"Anthropic":43,"OpenAI":33,"Claude Code":20,"ChatGPT":11,"Slack":17,"Claude":12,"Cursor":11,"Google":15,"主观能动性":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"Anthropic":44,"OpenAI":33,"ChatGPT":12,"Claude Code":20,"Slack":17,"Cursor":12,"Claude":12,"Google":15,"主观能动性":8}</script>
 
 <script>
 (function(){

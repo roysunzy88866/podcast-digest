@@ -131,7 +131,7 @@ Satya 认为这套打包方式现在行不通了。企业不会丢弃底层数�
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)、开放权重模型 (open-weight models)</span>
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游]]<span class="pd-rz">同嘉宾:Satya Nadella · 同公司:Microsoft · 同概念:智能体 (agent)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)</span>
+- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:数据中心 (data center)、测试框架 (harness)</span>
 
 </div>
 <div class="pd-ex">

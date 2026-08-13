@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":36,"Cursor":11,"Growth by Design":1,"Anthropic":43,"厄运漏斗":1,"前向部署工程师":5,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":75}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"Cursor":12,"Growth by Design":1,"Anthropic":44,"厄运漏斗":1,"前向部署工程师":5,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":77}</script>
 
 <script>
 (function(){
