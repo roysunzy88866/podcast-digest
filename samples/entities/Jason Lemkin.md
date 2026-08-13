@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jeanne DeWitt Grosser]]
+[[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"SaaStr":1,"Replit":4,"Vercel":6,"Salesforce":2,"Artisan":1,"Qualified":1,"Delphi":1,"智能体":75,"编排":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"SaaStr":1,"Replit":4,"Vercel":6,"Salesforce":2,"Artisan":1,"Qualified":1,"Delphi":1,"智能体":75,"编排":2}</script>
 
 <script>
 (function(){

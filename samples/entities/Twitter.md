@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[Claude]] · [[Dr. Fei-Fei Li]] · [[Zico Kolter]] · [[Adam Mosseri]] · [[Tom Verrilli]] · [[World Labs]] · [[Matt Fredrikson]] · [[instagram]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Anthropic":42,"Claude":12,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1,"World Labs":2,"Matt Fredrikson":1,"instagram":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Anthropic":43,"Claude":12,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1,"World Labs":2,"Matt Fredrikson":1,"instagram":1}</script>
 
 <script>
 (function(){

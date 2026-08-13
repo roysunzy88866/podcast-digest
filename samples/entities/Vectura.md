@@ -31,7 +31,7 @@ unlisted: true
 
 [[Eric Ries]] · [[Lenny]] · [[Incorruptible]] · [[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Groupon]] · [[结构完整性]] · [[公益公司]] · [[金融重力]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":34,"Incorruptible":1,"Cloudflare":2,"Novo Nordisk":1,"Anthropic":42,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":36,"Incorruptible":1,"Cloudflare":2,"Novo Nordisk":1,"Anthropic":43,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

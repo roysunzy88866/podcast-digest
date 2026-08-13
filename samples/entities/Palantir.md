@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(41:15起):本集把它说成:Forward Deployed Engineer 模式的践行者，是大企业最懂怎么买的服务和外部咨询预算的代表。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(13:12起):本集提及它的 CEO 曾走红警告过:不要把你最核心的 Alpha(知识产权/智能)外包给前沿大模型实验室。
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(25:09起):本集提到它推广了前向部署工程师（FDE）模式（CTO Shyam 名言：FDE 吞食痛苦排泄产品），靠该策略拿下大单。嘉宾曾任其部署策略师。
 - **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(01:23起):本集说这是嘉宾那个热衷编程的朋友高中毕业后在硅谷找的第一份实习所在的公司。
@@ -18,8 +19,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司(提及)
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为被讨论公司(提及)
@@ -29,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[开源模型]] · [[Meta]] · [[Jensen Wong]] · [[Sarah Wang]] · [[Alexandr Wang]] · [[Paul Kedrosky]] · [[Mike Allen]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[前向部署工程师]] · [[开源模型]] · [[Meta]] · [[Jen Abel]] · [[Jensen Wong]] · [[Sarah Wang]] · [[Alexandr Wang]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":32,"Anthropic":42,"智能体":75,"开源模型":4,"Meta":13,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1,"Paul Kedrosky":1,"Mike Allen":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":33,"Anthropic":43,"智能体":75,"前向部署工程师":5,"开源模型":4,"Meta":13,"Jen Abel":1,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1}</script>
 
 <script>
 (function(){

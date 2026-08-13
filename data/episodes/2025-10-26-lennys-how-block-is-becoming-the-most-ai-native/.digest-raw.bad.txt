@@ -1,0 +1,163 @@
+{
+  "title_zh": "Block 的 AI 变革：CTO 谈智能体、组织重构与代码质量",
+  "tldr": "Block CTO 分享如何借职能化重组与内部 AI 智能体实现产能跃升，并反思代码质量与产品成败的真实关系。",
+  "digest_md": "许多工程师认为代码质量是产品成功的关键，但这二者实际上毫无关系——这是 Block（原 Square）CTO Dhanji Prasanna 从业多年来最反直觉的教训 [01:29 Dhanji Prasanna]。通过开源智能体 Goose 和深度的组织变革，他将这家拥有超过 3,500 名员工的支付巨头打造成了高度 AI 原生的公司，非技术团队甚至都能自己写工具。
+
+## 启动 AI 变革前，先改组织架构
+
+大约两年半前，Dhanji 还是公司的兼职人员，他观察到公司的高管们在讨论各种深度业务议题，却唯独没人关注 AI。于是他写了一封信（后来被称为「AI 宣言」）递交给 CEO Jack Dorsey，主张公司必须集中力量、成为 AI 原生公司 [06:26 Dhanji Prasanna]。两人在悉尼进行了两天长距离散步深谈后，Jack 直接把转型的重担交给了他 [07:17 Dhanji Prasanna]。
+
+但他上任后发现，推动 AI 遇到的最大阻力并非技术本身，而是康威定律（Conway's Law：你设计出的系统架构会映射你的组织架构）在起作用 [12:19 Dhanji Prasanna]。当时 Block 旗下有 Cash App、Square、TIDAL 等多个业务，各业务像独立公司一样在「GM（总经理）结构」下各自为战，拥有独立的工程和设计团队，彼此互不交流，连五年后的技术战略都无法对齐 [09:43 Dhanji Prasanna]。
+
+为了真正在技术上深入，Block 采取了类似乔布斯当年重回苹果时的做法：重组为**职能型组织**。现在所有的工程师统一向同一个工程负责人汇报，全公司共享相同的工具、政策和工程师定级标准，人员可以随时调配到最需要的领域 [10:32 Dhanji Prasanna]。这是他们能够全面推进 AI 的根本前提。
+
+## 借助 MCP 赋能非技术人员，全员每周省 8 小时
+
+Block 推动 AI 的核心武器是他们打造的开源智能体 **Goose**（通用 AI 智能体，名字来源于电影《壮志凌云》里的代号）。不同于只能在对话框里聊天的 LLM，Goose 基于 Anthropic 最早提出、Block 参与贡献的 **MCP**（Model Context Protocol，模型上下文协议，一种把现有企业工具标准化封装、暴露给大模型调用的协议）[22:30 Dhanji Prasanna]。这让 AI 拥有了「手臂和腿」，能够跨系统执行操作。
+
+目前，那些极度 AI 前卫、每天使用 Goose 的工程团队，报告说**每周节省了 8 到 10 个小时** [16:27 Dhanji Prasanna]。衡量这些收益不仅要看自评，还要看 PR 吞吐量等多项数据指标 [16:45 Dhanji Prasanna]。但最让他感到惊喜和振奋的是：**非技术人员成为了使用 AI 建构工具的主力**。例如，企业风险管理团队直接用 Goose 为自己构建了整套企业风险自助系统，把原本要排队等内部应用团队排期数周的工作，压缩到了几小时内完成 [18:06 Dhanji Prasanna]。
+
+工程师们甚至把 Goose 玩到了极致。有一位核心工程师让 Goose 时刻「监视」他的屏幕、听他说话。当他在 Slack 或邮件里和同事讨论某个有用的功能，几小时后他会发现 Goose 已经自行尝试写好代码，并在 Git 上开好了 PR [29:16 Dhanji Prasanna]。如果开会超时，Goose 还会自动帮他改签日历。虽然这听起来有些疯狂、需要极大的心理承受力，但这正是未来人机协作的雏形。
+
+## AI 时代的工程法则：一次开十个实验，直接全量重写
+
+展望未来的工程工作模式，Dhanji 认为目前的 vibe coding（一种通过自然语言与聊天机器人对话来生成代码的开发模式）非常局限——像打乒乓球一样，你等它几分钟吐出一个半成品，再不断手动微调 [32:59 Dhanji Prasanna]。
+
+他正在推动下一个阶段的自主性：让 LLM 不只是工作几分钟，而是**通宵达旦地连续工作数小时**。人类的带宽有限，做实验时通常只能谨慎挑一条「最佳路径」去试错；但有了 AI，你可以描述多个实验，然后去睡觉。第二天早上起来，十种实现方案都已经跑完，你只要丢掉其中五六个糟糕的就行 [34:26 Dhanji Prasanna]。
+
+这彻底颠覆了软件工程的「反重写」金科玉律。以往全盘重写代码是大忌，因为会丢掉无数累积的边缘补丁，可能要花一年才能回到原点 [35:42 Dhanji Prasanna]。但 Dhanji 认为，诀窍在于**让 AI 把这些增量改进作为规格说明书的一部分固化下来**，未来更新应用不再做缓慢的重构，而是每一次发布都直接删掉整个应用从头重写 [35:20 Dhanji Prasanna]。
+
+当然，AI 依然有明显短板：它缺乏跨领域的全局判断力。当一个团队请求购买新工具，另一个团队说能用 Goose 半天做出来时，人类需要介入反问：「如果改变流程，我们真的还需要做这个吗？」这种全局性的取舍判断，目前仍是 AI 无法取代的人类护城河 [39:06 Dhanji Prasanna]。
+
+## 收益最大的，是那些拥抱工具解决自身痛点的人
+
+既然结构比工具的功效更重要，Dhanji 给其他试图拥抱 AI 的公司的最实用建议是：**高管必须亲自下场用工具**。从 CEO Jack Dorsey 到他本人，每天都在用 Goose，切实感受工作流的改变。与其在社交媒体上读一堆分析文章，不如找一个自己生活中的痛点（比如从 Google Doc 里提取照片，或整理医保收据）丢给 AI 去解决 [54:09 Dhanji Prasanna]。
+
+> 【背景】文中多次提及的 Block 与 Square 的关系：Block（原名 Square Inc.）是母公司，旗下拥有 Square、Cash App、Afterpay、TIDAL 等品牌。Dhanji 曾在 Cash App 早期担任工程负责人。
+
+## 本集带走
+- **推动 AI 前先审视组织架构**：如果各业务线各自为战、技术栈互不相通（受制于康威定律），AI 工具就无从规模化。转向全公司统一的职能型架构，是实现技术普惠的地基。
+- **拥抱 MCP 协议以赋予 AI 执行力**：与其让 AI 仅仅回答问题，不如用标准化协议封装现有工具（数据库、日历、工单系统），让 AI 真正在数字世界中跨系统操作。
+- **放手让非技术人员建构工具**：法务、风控等团队最懂自己的痛点，给他们提供智能体，能省下几周的跨部门沟通排期时间。
+- **用 AI 改变实验逻辑**：不再纠结于「选出唯一最佳路径去谨慎试错」，而是让 AI 一夜并行跑完多个全量实现，第二天筛选丢弃。
+- **用人类全局判断锚定 AI 边界**：AI 擅长执行和打补丁，但在判断「这件事到底该不该做」、「是否偏离公司核心目标」上，仍需人类 portfolio 判断。
+- **高管必须亲自当重度用户**：想要改变组织工作流，决策者必须自己先用起来，去解决自己日常真实的具体痛点。
+- **反思代码质量与产品成功的迷信**：不要为了优雅而过度重构，YouTube 早期用糟糕的架构大获全胜，说明真正重要的是「有没有解决人的问题」。"
+  ],
+  "quotes": [
+    {
+      "en": "A lot of engineers think that code quality is important to building a successful product.",
+      "zh": "许多工程师认为代码质量对于构建成功的产品很重要。",
+      "timestamp": "01:29",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "And the two have nothing to do with each other.",
+      "zh": "这两者彼此没有任何关系。",
+      "timestamp": "01:33",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "We find engineering teams that are very, very AI forward are reporting about eight to 10 hours save per week.",
+      "zh": "我们发现非常非常 AI 前卫的工程团队报告说每周节省大约 8 到 10 小时。",
+      "timestamp": "00:09",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "Whenever I hear a stat like this, I think an important element is this is the worst it will ever be.",
+      "zh": "每当我听到这样的统计数据时，我认为一个重要的要素是这是它曾经最糟糕的状态。",
+      "timestamp": "00:16",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "And we feel across the whole company, we're probably trending towards 20 to 25% of manual hours saved.",
+      "zh": "我们感觉在整个公司范围内，我们可能正朝着节省 20% 到 25% 的人工工时的趋势发展。",
+      "timestamp": "16:57",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "And the truth is the value is changing every day, so you need to ride that wave along with it.",
+      "zh": "真相是价值每天都在变化，所以你需要随着它一起驾驭那个浪潮。",
+      "timestamp": "00:22",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "So this has been one of the most surprising and energizing uses of Goose within Block is we'll have our enterprise risk management team build a whole system for self-servicing enterprise risk, and this is compressing weeks of work into hours",
+      "zh": "所以这是 Goose 在 Block 内部最令人惊讶和振奋的用途之一，我们的企业风险管理团队构建了一个用于自助式企业风险的完整系统，这将几周的工作压缩到了几个小时",
+      "timestamp": "18:06",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "All these LLMs are sitting idle overnight and on weekends, while humans aren't there.",
+      "zh": "所有这些 LLM 晚上和周末闲置在那里，而人类不在那里。",
+      "timestamp": "01:12",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "They should be working all the time.",
+      "zh": "它们应该一直工作。",
+      "timestamp": "01:19",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "They should be trying to build in anticipation of what we want.",
+      "zh": "它们应该尝试预先构建我们想要的东西。",
+      "timestamp": "01:20",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "I think that one of the things that I learned the most throughout this process is that Conway's Law can be really, really powerful.",
+      "zh": "我认为我在整个过程中学到的最重要的一件事之一是，康威定律真的非常非常强大。",
+      "timestamp": "12:19",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "So it's the law that basically says you ship your org structure.",
+      "zh": "这条定律基本上说你发布的软件就是你的组织架构。",
+      "timestamp": "12:28",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "What's been surprising and really amazing, the non-technical people using AI agents and programming tools to build things, the people that are able to embrace it to optimize for their particular workday and their particular set of tasks are really showing the most impact from these tools.",
+      "zh": "令人惊讶且真正惊人的一件事是，非技术人员使用 AI 智能体和编程工具来构建东西，那些能够拥抱它以针对他们特定的工作日和特定的一组任务进行优化的人，真正展示了来自这些工具的最多影响。",
+      "timestamp": "00:47",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "I think that the trick is getting the AI to respect all of those incremental improvements, yeah, and sort of bake those in as a part of the specification, if you will.",
+      "zh": "我认为诀窍在于让 AI 尊重所有那些增量改进，是的，并如果你愿意的话，把它们作为规范的一部分融入进去。",
+      "timestamp": "36:10",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "This is just one of our core tenets and always has been even when we were just Square in the early days, start small.",
+      "zh": "这也是我们的核心宗旨之一，而且一直以来都是，即使在我们早期只是 Square 的时候，也要从小处着手。",
+      "timestamp": "69:10",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "So I think just keeping that front and center is why are we building these tools or these apps or these products?",
+      "zh": "所以我认为只是把这一点放在首位：我们为什么要构建这些工具或应用程序或产品？",
+      "timestamp": "63:24",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "The savings and costs that there might be in replacing a vendor tool by something you build in-house is probably not worth it in the mental bandwidth that you've lost and the amount of the team's technical focus that's being taken away.",
+      "zh": "通过用内部构建的东西取代供应商工具可能带来的节省和成本，可能是不值得的，考虑到你失去的精神带宽和被占用团队技术专注力的数量。",
+      "timestamp": "41:12",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "If you're not waking up in the morning feeling energized about what you're going to do that day in your professional life, then change something, quit if that's what it comes down to, or find a new way of doing what you're doing.",
+      "zh": "如果你早上醒来没有对你那天在职业生活中要做的事情感到充满活力，那就改变点什么，如果到了那一步就辞职，或者找到一种做你正在做的新方式。",
+      "timestamp": "81:55",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "The internet was created as a promise for open sharing of information to the benefit of all, and I think that AI should realize that for us.",
+      "zh": "互联网的创建是作为为了所有人的利益而开放共享信息的承诺，我认为 AI 应该为我们实现这一点。",
+      "timestamp": "85:51",
+      "speaker": "Dhanji Prasanna"
+    }
+  ]
+}

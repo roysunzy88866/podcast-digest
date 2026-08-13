@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NRR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NRR">NR</div><div class="pi"><h1 class="pt">NRR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NRR">NR</div><div class="pi"><h1 class="pt">NRR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(24:48起):本集把它说成:衡量客户扩张的指标。嘉宾提到,即使从 1 万扩张到 10 万会有惊人的 NRR 数据,但这通常是不可辩护的,客户根本不会买单这么夸张的阶跃式涨价。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(53:11起):本集将它作为诊断框架的第三步，指出若 NRR 大于 100% 才能抵消流失做大公司；但同时也提出反直觉警示——因为基数（logo 数）流失时，剩下的老客户再怎么升级套餐也很难填补窟窿，不能被漂亮的 NRR 掩盖了大批客户逃离的事实
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Jason Cohen]] · [[客户流失率]] · [[定价]] · [[渠道饱和]] · [[入职引导]] · [[定位]] · [[大象曲线]] · [[SaaS]] · [[营销漏斗]]
+[[Lenny]] · [[Jen Abel]] · [[Jason Cohen]] · [[企业销售]] · [[客户流失率]] · [[愿景描绘]] · [[定价]] · [[超额收益]] · [[渠道饱和]] · [[第一梯队]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Jason Cohen":1,"客户流失率":1,"定价":1,"渠道饱和":1,"入职引导":1,"定位":1,"大象曲线":1,"SaaS":4,"营销漏斗":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Jen Abel":1,"Jason Cohen":1,"企业销售":1,"客户流失率":1,"愿景描绘":1,"定价":1,"超额收益":1,"渠道饱和":1,"第一梯队":1}</script>
 
 <script>
 (function(){

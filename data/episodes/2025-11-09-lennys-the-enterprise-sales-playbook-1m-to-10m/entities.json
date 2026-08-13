@@ -1,0 +1,1303 @@
+{
+  "episode_id": "2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-09",
+  "tags": [
+    "企业销售",
+    "定价策略",
+    "创始人主导销售",
+    "B2B 销售",
+    "Land and Expand"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jen-abel",
+      "type": "person",
+      "role": "host",
+      "name": "Jen Abel",
+      "file": "Jen Abel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            93.941,
+            101.947
+          ],
+          "quote": "Today, my guest is Jen Abel, co-founder of JJELLYFISH where she and her team help early stage founders learn how to sell and now GM of Enterprise at State Affairs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            162.897,
+            166.58
+          ],
+          "quote": "With that, I bring you Jen Abel after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            285.644,
+            287.698
+          ],
+          "quote": "Lenny, it's starting to feel familiar and I like it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1446.675,
+            1451.978
+          ],
+          "quote": "So they're going to quickly say, \"Oh wait, you spent a thousand dollars with Lenny and now Lenny is asking you for a 100K.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2586.41,
+            2598.798
+          ],
+          "quote": "To try it for yourself, go to coda.io/lenny today and get six months free of the team plan for startups, that's C-O-D-A.io/lenny to get started for free and get six months of the team plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2599.218,
+            2599.698
+          ],
+          "quote": "Coda.io/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4153.14,
+            4156.382
+          ],
+          "quote": "It's so weird, Lenny, I have no process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4560.685,
+            4562.839
+          ],
+          "quote": "Lenny, the day I have time to read a book.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            4866.545,
+            4867.374
+          ],
+          "quote": "Thank you so much, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业销售 (enterprise sales)",
+      "file": "企业销售",
+      "primary": true,
+      "how_described": "本集把它说成:一种极具创意的艺术而非刻板的科学;核心在于推销愿景、进行创造性的交易设计(或把产品包装成服务),以及和客户高管建立深厚的信任关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            48.422,
+            51.899
+          ],
+          "quote": "Something else that you talk about is that enterprise sales is very creative.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 62,
+          "t": [
+            296.086,
+            315.919
+          ],
+          "quote": "Clearly, there is a lot of confusion and a lot of need for learning how to get better at the stuff, we're going to talk about sales, enterprise sales to frame the discussion, our first chat, which we're going to point people to if they want to start there, we focused on founder-led sales, which is essentially the beginning phases of a startup, kind of going from zero to about 100 million ARR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            317.54,
+            324.746
+          ],
+          "quote": "This discussion is on the next phase, which is going from about a million ARR to about 10 million ARR in enterprise sales, not like PLG or anything like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1015.211,
+            1034
+          ],
+          "quote": "So this is why I love enterprise sales is they're not going to do the hard work of bringing you in if it's not critical or if it's not, when I say critical, it's going to impact them in a way that they're going to make it successful, that's what I love about enterprise sales.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2215.822,
+            2222.92
+          ],
+          "quote": "There's something else that you talk about that I love that I don't think people talk much about, which is that enterprise sales is very creative.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3040.873,
+            3045.679
+          ],
+          "quote": "Taking someone from small business and expecting them to do enterprise sales, big no-no, it's a different game, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3059.566,
+            3086.54
+          ],
+          "quote": "People will bring in super junior enterprise sales reps and I'm like, \"You're looking to sell to an executive and you have this person that's five years out of school with no corporate experience doing it, again, unless they have some extremely deep experience in the industry or are just a unicorn in terms of, wow, this person can sell ice to an Eskimo kind of thing.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vision-casting",
+      "type": "concept",
+      "role": "concept",
+      "name": "愿景描绘 (vision casting)",
+      "file": "愿景描绘",
+      "primary": true,
+      "how_described": "本集把它说成:向大企业高管推销时的核心打法。不要去抠痛点卖问题,而是描绘机会,卖给他们能获得超额收益、变成超级英雄的愿景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            693.26,
+            703.749
+          ],
+          "quote": "When you're selling to a leader, you need to be vision casting and you need to be selling an opportunity which is they are here, here's where we can take you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            830.881,
+            845.557
+          ],
+          "quote": "And that's why founders are so good at selling because they naturally go to vision selling and vision casting versus a typical trained salesperson is find the problem, ask these questions and it just kills the vibe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            870.621,
+            879.151
+          ],
+          "quote": "So just to make this more concrete for people, Sam, like sales person at Cursor, what would be an example of vision casting?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2936.862,
+            2940.325
+          ],
+          "quote": "Next piece of advice is this idea of vision casting instead of problem solving.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "alpha",
+      "type": "concept",
+      "role": "concept",
+      "name": "超额收益 (alpha)",
+      "file": "超额收益",
+      "primary": true,
+      "how_described": "本集把它说成:你能为客户带来的、略胜竞争对手的边际优势。大企业的高管正是不想被颠覆、渴望这种超额收益,才会愿意买单并为你背书。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            530.152,
+            544.96
+          ],
+          "quote": "So those number one logos are like if you can give me just a slight bit of alpha, just a tiny bit, that's where I get promoted, that's where I get the pat on the back because we are the world's leader in our industry and we cannot be disrupted there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            743.24,
+            759.867
+          ],
+          "quote": "We have an ability to deliver alpha, meaning, we have information, we have data, we have a way of working that no one else can do or is going to unlock a new way of thinking for you or an ability to deliver to a customer or an ability to solve a problem.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 144,
+          "t": [
+            787.097,
+            789.258
+          ],
+          "quote": "We're giving you one second of alpha before everyone else.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            794.221,
+            799.454
+          ],
+          "quote": "I like this phrasing of just giving them alpha, that's such a simple way to imagine what this should feel like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            828.496,
+            830
+          ],
+          "quote": "Here's how this alpha will help you become more successful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 161,
+          "t": [
+            852.864,
+            865.256
+          ],
+          "quote": "And in the age of AI where a lot of it is Alpha, it's about speed, it's about getting access to information, it's about training data, and look at how the market is reacting to it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            865.296,
+            869.96
+          ],
+          "quote": "It's all opportunity and it's all about the alpha.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1085.834,
+            1095.6
+          ],
+          "quote": "It's going to impact our ability to capture some form of alpha, however you want to define that for them and it's sticky because of that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2253.54,
+            2276.537
+          ],
+          "quote": "From one to 10, I think it's more of an art, which is how do I take my learning and how do I package it up where I own the framing, I can speak to very specific alpha, I can vision cast and where I better understand the problem over time better than the market does.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2940.645,
+            2948.753
+          ],
+          "quote": "So the advice here is instead of here's your problem, here's how our product solves it is here's how you will achieve alpha in the market by adopting the software.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 826,
+          "t": [
+            4242.526,
+            4246.715
+          ],
+          "quote": "Just like is the alpha essentially just become human?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4435.481,
+            4437.324
+          ],
+          "quote": "This is why it's sell to the alpha.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "tier-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一梯队 (tier one)",
+      "file": "第一梯队",
+      "primary": true,
+      "how_described": "本集把它说成:像沃尔玛、麦当劳、英伟达这样各领域的全球第一。嘉宾反直觉地指出,这些巨头为了保住第一最愿冒险,才是真正的早期采用者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            545.841,
+            555.348
+          ],
+          "quote": "So there's this running joke where not a running joke, there's this running statement where a lot of VCs will say, \"Don't go after tier one logos, go learn down market.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 113,
+          "t": [
+            612.241,
+            616
+          ],
+          "quote": "Just so folks understand what we're talking about here, when you say tier one, what's a good way to think about what tier one is?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            616.2,
+            634.98
+          ],
+          "quote": "Tier one is like your Walmarts, your McDonald's, your NVIDIAs, your Tesla, your ExxonMobil, your UnitedHealthcare, the logos that are the leader in their space, their job is to stay in the number one spot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 133,
+          "t": [
+            720.063,
+            732.896
+          ],
+          "quote": "That's what gets the tier one logos excited and that is the best thing for a founder to sell, selling the vision versus the problem, and also it's what gets them to want to take a swing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2697.652,
+            2708.56
+          ],
+          "quote": "So advice one is go for tier one logos earlier than you think you should because they're early adopters, they can move fast, they can pull you in the right direction.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 845,
+          "t": [
+            4322.581,
+            4326.645
+          ],
+          "quote": "Also, the most strategic people, some of the most strategic executives are at these tier one logos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 846,
+          "t": [
+            4326.665,
+            4331.27
+          ],
+          "quote": "That's why they're tier one because they've got super smart, really capable folks.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "deal-crafting",
+      "type": "concept",
+      "role": "concept",
+      "name": "交易设计 (deal crafting)",
+      "file": "交易设计",
+      "primary": true,
+      "how_described": "本集把它说成:企业销售中极具创造性的一环。每一单都根据客户的独特需求来定制和共同起草,通过打包定价、框架和服务来提供远超成本的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            52.901,
+            54.722
+          ],
+          "quote": "It's all about deal crafting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2278.679,
+            2280
+          ],
+          "quote": "And it's all about deal crafting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3273.32,
+            3280.147
+          ],
+          "quote": "You have to figure out, you're doing a lot of convincing, you're doing a lot of educating, you're doing a lot of creative deal crafting.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design-partners",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计合作伙伴 (design partners)",
+      "file": "设计合作伙伴",
+      "primary": true,
+      "how_described": "本集把它说成:帮你打磨早期产品的客户(首选财富 1000 强里的科技公司)。但他们很难转化为付费客户,创始人需用 80/20 法则过滤掉他们基于旧工作方式的噪音反馈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 281,
+          "t": [
+            1511,
+            1512
+          ],
+          "quote": "Let's talk about design partners.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1519.251,
+            1521.876
+          ],
+          "quote": "What's your advice on when to start finding design partners?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1521.916,
+            1524
+          ],
+          "quote": "How to find design partners, what a good relationship looks like?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1524.741,
+            1526.982
+          ],
+          "quote": "Design partners are incredible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1538.371,
+            1549.54
+          ],
+          "quote": "Expect these people to be the guide, to help you understand, maybe design partners could be a technology company in the Fortune 1,000.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1556.446,
+            1557.707
+          ],
+          "quote": "Those make really good design partners.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1557.887,
+            1562.271
+          ],
+          "quote": "Most of the design partners that I've closed are usually technology based.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1591.909,
+            1613.72
+          ],
+          "quote": "But those are great types of logos to be early design partners because one, they want to make sure they continue to stay on the cutting edge, but two is they are, to try and build something without that guidance is really, really, really hard because they're not using it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1771,
+            1772.98
+          ],
+          "quote": "They oversell the initial kind of design partners phase over the product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2982.841,
+            2988.567
+          ],
+          "quote": "And then there's a bunch of advice you shared about design partners, of just how to select them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2990.029,
+            2993.453
+          ],
+          "quote": "Your advice is definitely have design partners because they will help you build the right thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": true,
+      "how_described": "本集把它说成:产品驱动增长的模式(即小企业游戏)。嘉宾警告:如果是 PLG 公司遇到大企业主动上门,绝不能按小企业的低价卖给他们,否则会毁掉企业级扩张的可能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            317.54,
+            324.746
+          ],
+          "quote": "This discussion is on the next phase, which is going from about a million ARR to about 10 million ARR in enterprise sales, not like PLG or anything like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1300.06,
+            1308.526
+          ],
+          "quote": "Let's say you're PLG, and a big company like Walmart comes to and is like, \"Hey, can we get access for three of our users?\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "acv",
+      "type": "concept",
+      "role": "concept",
+      "name": "ACV",
+      "file": "ACV",
+      "primary": true,
+      "how_described": "本集把它说成:衡量企业销售合同金额的指标。嘉宾强调,做企业销售必须把 ACV 定在 7.5 万到 15 万美元之间,长期停留在 1 万美元的 ACV 会搞垮你的商业模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            430.324,
+            441.631
+          ],
+          "quote": "Know the type of people you need to hire, the type of ACV they need because it makes it a lot easier than trying to have this middle ground that catches everything that doesn't distinctly define SMB and enterprise.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2846.847,
+            2850.273
+          ],
+          "quote": "The other is move your ACV average up quickly.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前向部署工程师 (Forward Deployed Engineer)",
+      "file": "前向部署工程师",
+      "primary": false,
+      "how_described": "本集把它说成:Palantir 等公司采用的一种派人驻场服务模式;嘉宾建议初创公司效仿,以此作为敲开大企业大门、卖「服务」的落地策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 443,
+          "t": [
+            2475.661,
+            2479.524
+          ],
+          "quote": "Palantir, this Forward Deployed Engineer, that's exactly what they're doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4519.806,
+            4524.229
+          ],
+          "quote": "They try and mimic what everyone, they try and mimic a forward deployed engineer.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "nrr",
+      "type": "concept",
+      "role": "concept",
+      "name": "NRR",
+      "file": "NRR",
+      "primary": false,
+      "how_described": "本集把它说成:衡量客户扩张的指标。嘉宾提到,即使从 1 万扩张到 10 万会有惊人的 NRR 数据,但这通常是不可辩护的,客户根本不会买单这么夸张的阶跃式涨价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1488.381,
+            1494.671
+          ],
+          "quote": "And so you may see in theory if you land a 10K go to 100K, that's an amazing NRR, everyone's going to be really impressed.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "arr",
+      "type": "concept",
+      "role": "concept",
+      "name": "ARR",
+      "file": "ARR",
+      "primary": false,
+      "how_described": "本集把它说成:标志公司发展阶段的指标。整集探讨的是如何跨越从 100 万 ARR 做到 1000 万 ARR 这个阶段的企业销售打法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            112.795,
+            118.54
+          ],
+          "quote": "Our first conversation was focused around getting from zero to 1 million ARR, essentially founder led sales.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            119.02,
+            124.164
+          ],
+          "quote": "This conversation is part two going from around one million in ARR to around 10 million.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 62,
+          "t": [
+            296.086,
+            315.919
+          ],
+          "quote": "Clearly, there is a lot of confusion and a lot of need for learning how to get better at the stuff, we're going to talk about sales, enterprise sales to frame the discussion, our first chat, which we're going to point people to if they want to start there, we focused on founder-led sales, which is essentially the beginning phases of a startup, kind of going from zero to about 100 million ARR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            317.54,
+            324.746
+          ],
+          "quote": "This discussion is on the next phase, which is going from about a million ARR to about 10 million ARR in enterprise sales, not like PLG or anything like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2687.605,
+            2692.969
+          ],
+          "quote": "And this is specifically for folks trying to go from about a million ARR to about 10 million ARR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3490.973,
+            3492.98
+          ],
+          "quote": "Is it around the 1 million ARR mark usually?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3493.16,
+            3511.598
+          ],
+          "quote": "Yeah, it's around that 1 million ARR, mark and I, and it's usually when you have your first seven to 10 customers and there's some pattern recognition around it that you can share with somebody else, there's some consistencies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3552.28,
+            3563.236
+          ],
+          "quote": "So the advice here is make yourself sell up until around a million ARR, especially if you're trying to go enterprise selling to enterprises yourself as a founder, which is really hard.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 849,
+          "t": [
+            4340.24,
+            4344.905
+          ],
+          "quote": "For someone that isn't Jen and has all this experience, say their founder, they're hit a million ARR.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "jjellyfish",
+      "type": "company",
+      "role": "company",
+      "name": "JJELLYFISH",
+      "file": "JJELLYFISH",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾 Jen Abel 联合创立的咨询公司,专门帮助 0 到 1 阶段的早期创始人学习如何做企业销售。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            93.941,
+            101.947
+          ],
+          "quote": "Today, my guest is Jen Abel, co-founder of JJELLYFISH where she and her team help early stage founders learn how to sell and now GM of Enterprise at State Affairs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4356.838,
+            4358.78
+          ],
+          "quote": "So one crowd is go hire JJELLYFISH to help them through this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            4820,
+            4822.859
+          ],
+          "quote": "And the J is for JJELLYFISH, is that where the extra J is for?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4827.347,
+            4830
+          ],
+          "quote": "By the way, just tell people what JJELLYFISH is in case that might be helpful to them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它说成:一款 AI 编程工具。主持人以此为例,说明向企业高管做愿景销售时,卖的不是让团队快一点点,而是卖「只有用了它,你才能招到那些原本根本不理你的 10 倍工程师」的愿景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            168.861,
+            174.905
+          ],
+          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Platt, and hundreds of other winning companies have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            870.621,
+            879.151
+          ],
+          "quote": "So just to make this more concrete for people, Sam, like sales person at Cursor, what would be an example of vision casting?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            898.568,
+            912.277
+          ],
+          "quote": "It's about letting them get differentiated talent or that's probably more of what I would anchor to of this is the 10X engineers use cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            916.384,
+            917.98
+          ],
+          "quote": "They won't even join your company if you're not using Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2948.993,
+            2954.739
+          ],
+          "quote": "We talked about the example of cursor where if you adopt cursor, you're going to draw the 10X engineers that are joining other companies right now.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集把它说成:Forward Deployed Engineer 模式的践行者，是大企业最懂怎么买的服务和外部咨询预算的代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 443,
+          "t": [
+            2475.661,
+            2479.524
+          ],
+          "quote": "Palantir, this Forward Deployed Engineer, that's exactly what they're doing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集把它说成:典型的富有创新精神且受创业氛围驱动的科技巨头,因此被推荐为初创公司首选去敲门的早期设计合作伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            206.527,
+            208.888
+          ],
+          "quote": "They're essentially Stripe for enterprise features.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1572.8,
+            1578.983
+          ],
+          "quote": "So if you're a large massive corporation like Stripe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1579.544,
+            1591.429
+          ],
+          "quote": "Stripe doesn't get that startup vibe as much like that 50 person startup vibe, but this can be a gift to give them that lens and give them that voice and give them that excitement that they don't get as a larger company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1702.03,
+            1707.174
+          ],
+          "quote": "There's the obvious companies that everyone is always trying to get these days, OpenAI and Anthropic and Stripe I think is one.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集把它说成:早期通过直接与 CTO 交流、提供教育来建立信任并打开企业市场的典范;其产品因不需要触碰底层数据,从而更容易敲开企业大门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            168.861,
+            174.905
+          ],
+          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Platt, and hundreds of other winning companies have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1702.03,
+            1707.174
+          ],
+          "quote": "There's the obvious companies that everyone is always trying to get these days, OpenAI and Anthropic and Stripe I think is one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2163.801,
+            2175.332
+          ],
+          "quote": "It's interesting this distinction between OpenAI right now, and Anthropic, I don't know if you've been seeing their growth, it feels like OpenAI is very consumer first and Anthropic is more and more winning on B2B.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2175.653,
+            2180.077
+          ],
+          "quote": "I saw this chart recently where they're overtaking OpenAI now on B2B.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2481.946,
+            2491.213
+          ],
+          "quote": "There's a lot of companies out, I'm sure OpenAI, and this is what someone told me they were in and talking to CTOs and helping them better understand how AI and their organization can better work together.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集把它说成:在 B2B 领域增长迅速、甚至在某些图表中超越 OpenAI 的公司;但也指出,在一线企业销售代表的实际接触中,听到的往往是 Gemini 而非 Anthropic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1702.03,
+            1707.174
+          ],
+          "quote": "There's the obvious companies that everyone is always trying to get these days, OpenAI and Anthropic and Stripe I think is one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2163.801,
+            2175.332
+          ],
+          "quote": "It's interesting this distinction between OpenAI right now, and Anthropic, I don't know if you've been seeing their growth, it feels like OpenAI is very consumer first and Anthropic is more and more winning on B2B.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2193.304,
+            2196.389
+          ],
+          "quote": "So I don't hear much about Anthropic to be honest.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集把它说成:本集赞助商,为 SaaS 提供单点登录、审计日志等企业级即插即用 API,帮助初创公司快速具备面向企业的就绪能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            175.506,
+            178.928
+          ],
+          "quote": "The answer is they're all powered by today's sponsor, WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            189.155,
+            195.92
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            196.46,
+            206.126
+          ],
+          "quote": "Whether you're a seed-stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unlocking growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            209.408,
+            216.373
+          ],
+          "quote": "Visit workos.com to get started or just hit up their Slack support where they have real engineers in there who answer your questions superfast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            216.713,
+            223.597
+          ],
+          "quote": "WorkOS allows you to build like the best with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 46,
+          "t": [
+            224.018,
+            227.28
+          ],
+          "quote": "Go to Workos.com to make your app enterprise ready today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集把它说成:本集赞助商,被描述为史上增长最快的公司,可以通过与 AI 聊天来快速构建真实可用的应用和网站。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            142.801,
+            159.214
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get 17 incredible products for free for an entire year, including Devin, Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD and Mobbin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            228.32,
+            230.362
+          ],
+          "quote": "This episode is brought to you by Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            237.547,
+            242.01
+          ],
+          "quote": "If you've ever had an idea for an app, but didn't know where to start, Lovable is for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            242.43,
+            245.972
+          ],
+          "quote": "Lovable lets you build working apps and websites by simply chatting with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            257.54,
+            260.803
+          ],
+          "quote": "Unlike no-code tools, Lovable isn't about static pages.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 57,
+          "t": [
+            273.051,
+            277.995
+          ],
+          "quote": "Get started for free at lovable.dev, that's lovable.dev.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "coda",
+      "type": "company",
+      "role": "company",
+      "name": "Coda",
+      "file": "Coda",
+      "primary": false,
+      "how_described": "本集把它说成:本集赞助商,一个集文档、表格和应用于一体的一体化协作工作空间,主持人每天用它来管理播客和工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 455,
+          "t": [
+            2525,
+            2527.163
+          ],
+          "quote": "Today's episode is brought to you by Coda.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2527.483,
+            2532.57
+          ],
+          "quote": "I personally use Coda every single day to manage my podcast and also to manage my community.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2540.6,
+            2541.881
+          ],
+          "quote": "Here's how Coda can help you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2550.066,
+            2559.572
+          ],
+          "quote": "In fact, you don't have to waste time searching for anything because everything your team needs from project trackers and OKRs, the documents and spreadsheets lives in one tab all in Coda.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2560.073,
+            2571.56
+          ],
+          "quote": "With Coda's collaborative all in one workspace, you get the flexibility of docs, the structure of spreadsheets, the power of applications, and the intelligence of AI, all in one easy to organize tab.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2572.2,
+            2574.742
+          ],
+          "quote": "Like I mentioned earlier, I use Coda every single day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2575.102,
+            2579.205
+          ],
+          "quote": "And more than 50,000 teams trust Coda to keep them more aligned and focused.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2579.685,
+            2585.929
+          ],
+          "quote": "If you're a startup team looking to increase alignment and agility, Coda can help you move from planning to execution in record time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2586.41,
+            2598.798
+          ],
+          "quote": "To try it for yourself, go to coda.io/lenny today and get six months free of the team plan for startups, that's C-O-D-A.io/lenny to get started for free and get six months of the team plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2599.218,
+            2599.698
+          ],
+          "quote": "Coda.io/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Land and Expand",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

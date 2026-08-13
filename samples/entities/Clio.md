@@ -25,7 +25,7 @@ unlisted: true
 
 [[Barney Hussey-Yeo]] · [[John Collison]] · [[智能体]] · [[LLM]] · [[推荐系统]] · [[监督学习]] · [[强化学习]] · [[transformer]] · [[创造性破坏]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"John Collison":1,"智能体":75,"LLM":6,"推荐系统":1,"监督学习":1,"强化学习":7,"transformer":2,"创造性破坏":1,"Anthropic":42}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"John Collison":1,"智能体":75,"LLM":6,"推荐系统":1,"监督学习":1,"强化学习":7,"transformer":2,"创造性破坏":1,"Anthropic":43}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Ramp]] · [[Lenny Rachitsky]] · [[Keith Rabois]] · [[Meng To]] · [[Noam Segal]] · [[Michelle Rial]] · [[PayPal]] · [[Akash]] · [[职业倦怠]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Ramp":3,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1,"Noam Segal":1,"Michelle Rial":1,"PayPal":1,"Akash":3,"职业倦怠":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Ramp":3,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1,"Noam Segal":1,"Michelle Rial":1,"PayPal":1,"Akash":3,"职业倦怠":2}</script>
 
 <script>
 (function(){

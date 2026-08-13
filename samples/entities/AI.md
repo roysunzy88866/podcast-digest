@@ -7,16 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>85</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>86</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]]**(01:14起):本集把它说成:Canva 从 2012 年的演示文稿里就在尝试的、贯穿全产品套件(如演示文稿、视频、邮件、网站)的技术,能在核心编辑器里帮用户直接生成或修改设计。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(00:43起):本集描述为引发本次行业大洗牌的根本原因。它接管了产品开发中人们不喜欢的机械性工作，大幅降低了变更和测试成本，迫使所有人的工作方式必须现代化。
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:34起):本集把 AI 定位为「催化剂」而非替代品:用于帮用户优化档案、给挑照片的建议,但绝不允许伪造照片或替用户发消息,目标是让爱与连接更人性化
 
 ## ① 提到它的金句
 
-*85 条,均已过机器闸门*
+*86 条,均已过机器闸门*
+
+![[2025-11-02-lennys-the-making-of-canva#^q5]]
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
@@ -190,8 +193,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为概念
 
@@ -199,9 +203,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Whitney Wolfe Herd]] · [[Nikhyl Singhal]] · [[Bumble]] · [[产品经理]] · [[滑动]] · [[构建者]] · [[AI 助手]] · [[信息搬运工]] · [[推荐引擎]]
+[[Lenny]] · [[Melanie Perkins]] · [[Nikhyl Singhal]] · [[Whitney Wolfe Herd]] · [[Canva]] · [[产品经理]] · [[Bumble]] · [[Column B]] · [[构建者]] · [[滑动]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Whitney Wolfe Herd":1,"Nikhyl Singhal":1,"Bumble":1,"产品经理":2,"滑动":1,"构建者":1,"AI 助手":1,"信息搬运工":1,"推荐引擎":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Melanie Perkins":1,"Nikhyl Singhal":1,"Whitney Wolfe Herd":1,"Canva":1,"产品经理":2,"Bumble":1,"Column B":1,"构建者":1,"滑动":1}</script>
 
 <script>
 (function(){

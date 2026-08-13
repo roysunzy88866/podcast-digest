@@ -35,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Vercel]] · [[前置部署工程师]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Adam Ward]] · [[Stripe]] · [[SaaStr]] · [[Cursor]]
+[[Lenny]] · [[智能体]] · [[Vercel]] · [[前向部署工程师]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Adam Ward]] · [[Stripe]] · [[SaaStr]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"智能体":75,"Vercel":6,"前置部署工程师":4,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Adam Ward":1,"Stripe":10,"SaaStr":1,"Cursor":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"智能体":75,"Vercel":6,"前向部署工程师":5,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Adam Ward":1,"Stripe":11,"SaaStr":1,"Cursor":11}</script>
 
 <script>
 (function(){

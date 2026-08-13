@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[Cowork]] · [[OpenClaw]] · [[CLI]]
+[[Lenny]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[SaaS]] · [[前向部署工程师]] · [[PM]] · [[Cowork]] · [[OpenClaw]] · [[CLI]]
 
 ## ④ 也在聊「职业与个人成长」的人
 
@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"智能体":75,"Codex":16,"Claude Code":20,"SaaS":4,"前置部署工程师":4,"PM":3,"Cowork":1,"OpenClaw":7,"CLI":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"智能体":75,"Codex":16,"Claude Code":20,"SaaS":4,"前向部署工程师":5,"PM":3,"Cowork":1,"OpenClaw":7,"CLI":2}</script>
 
 <script>
 (function(){

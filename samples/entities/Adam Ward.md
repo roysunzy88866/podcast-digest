@@ -35,7 +35,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cursor]] · [[Growth by Design]] · [[Anthropic]] · [[厄运漏斗]] · [[前置部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]] · [[智能体]]
+[[Lenny]] · [[Cursor]] · [[Growth by Design]] · [[Anthropic]] · [[厄运漏斗]] · [[前向部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]] · [[智能体]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Cursor":10,"Growth by Design":1,"Anthropic":42,"厄运漏斗":1,"前置部署工程师":4,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":75}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Cursor":11,"Growth by Design":1,"Anthropic":43,"厄运漏斗":1,"前向部署工程师":5,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":75}</script>
 
 <script>
 (function(){

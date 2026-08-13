@@ -1,0 +1,135 @@
+{
+  "title_zh": "Block CTO 谈 AI 原生公司：组织架构和写代码一样重要",
+  "tldr": "Block 用一个开源智能体 Goose 给全员省了大量时间，但真正的杠杆是重构组织架构。",
+  "digest_md": "很多公司想拥抱 AI，只是把这些工具扔给庞大的遗留代码库，指望奇迹发生——但这行不通。说这话的人是 Dhanji Prasanna，Block 的 CTO，他监督着超过 3500 人的团队。他这一集分享的，是一家大型公司真正把 AI 融入日常工作时踩过的坑和摸出的门道。\n\n## Block 的「真正杠杆」：把组织架构改成职能型\n\nDhanji 拿到 Jack Dorsey 的授权后，做的第一件事不是引入某个 AI 工具，而是让 Block 「回到一家技术公司的思考方式」。两年半前，Block 像很多成熟公司一样，旗下 Square、Cash App、Afterpay、TIDAL 等业务各自为政，采用了 GM（总经理）结构。这意味着每个业务线就像独立公司，有各自的 CEO、工程师和设计师，工程人力往往被当成「人头商品」看待——想做更多功能，就单纯增加更多工程师，陷入经典的人月神话陷阱 [45:09 Dhanji Prasanna]。\n\nDhanji 主导的变革，是把公司从 GM 结构转变成**职能型组织**：所有工程师汇报给同一个工程负责人，所有设计师汇报给同一个设计负责人 [10:32 Dhanji Prasanna]。\n\n这不是一次无痛的改组。「这是一个相当痛苦的转型。」但他认为这是重中之重，核心在于**康威定律（组织设计的经典经验法则：你设计的系统结构，必然会映射你公司的沟通组织结构）**。「在不改变组织内人际关系结构的情况下改变结果是极其困难的。」Dhanji 后来反复强调，这是他担任 CTO 期间学到的最深刻的教训 [12:28 Dhanji Prasanna]。架构改完后，不同业务线之间终于能对齐技术战略，工程师和设计师可以被灵活调配到最需要的地方，而非被困在孤岛里。\n\n## 改造工作流：Goose 智能体与 MCP 协议\n\n文化理顺后，主力工具登场了。Block 做了一个完全开源的通用 AI 智能体（Agent，指能自主感知环境、做出决策并执行任务的程序）叫 **Goose**。它本质上是一个桌面程序，可以接入任意大模型，但它真正强大的地方在于基于 MCP（Model Context Protocol，模型上下文协议，Anthropic 提出的一种开放协议，用于规范大模型如何与外部工具或系统交互）。\n\nGoose 通过编写一层层的 MCP 封装，就能获得操作各种企业内部系统（如 Snowflake、SQL）以及本地电脑的能力 [22:58 Dhanji Prasanna]。Dhanji 给了个具体例子：你可以给 Goose 下指令，让它自己去 Snowflake 提取数据、写 Python 做数据分析、用 JavaScript 生成图表，最后打包成邮件发出去——全流程自动编排 [24:54 Dhanji Prasanna]。只要写几行代码的 MCP，原本割裂的系统一夜之间就能被 AI 调度。\n\n## 实测生产力：非技术人员反而带来最大惊喜\n\nBlock 内部使用 Goose 最头部的工程团队，自报每周节省 8 到 10 小时的工作时间。综合整个公司（包含支持、法务、风控等非工程团队）的检查指标来看，他们正朝着节省 20% 到 25% 人工工时的趋势发展 [16:45 Dhanji Prasanna]。\n\n> 【背景】由于转写稿中说话人均统一标记为 Unknown，正文中的时间戳主要依据该内容出现的区间定位。\n\n但最大的惊喜并非来自工程师。「非技术人员使用 AI 智能体和编程工具来构建东西，这确实是真正令人惊讶和真正了不起的一件事。」Dhanji 分享道，Block 的**企业风险管理团队**用 Goose 给自己造了一整套自助式企业风险管理系统，把原本要排期排到第二季度路线图上的需求，压缩到了几个小时内完成 [18:06 Dhanji Prasanna]。另一个工具 Gosling（移动端的 Goose）则通过无障碍 API 操控 Android OS，自动化 UI 测试，替代了过去需要庞大外包 QA 队伍手动点击屏幕的工作 [18:58 Dhanji Prasanna]。\n\n不过，AI 目前也有明确的边界。当涉及系统架构、竞态条件和复杂的全局编排时，AI 依然不如人类 [19:45 Dhanji Prasanna]。它还缺乏跨领域的组合判断力——比如评估某件事「到底值不值得做」。\n\n## 工作流的新极限：让智能体整夜自我实验\n\n当下流行的 vibe coding（凭感觉用对话生成代码）在 Dhanji 看来「非常像打乒乓球」：你输入一句，等它返回个半成品，来回拉扯，局限性很大。他正在用 Goose 的下一个版本做实验，试图把智能体一次连续工作的时间从平均 7 分钟推向几个小时。\n\n他的核心主张是：**不要再替 AI 选择最佳实验路径了。** LLM 晚上和周末都在闲置，没必要浪费。与其费尽心机挑一条路，不如把多种不同的实验路径极其详尽地描述给智能体，然后去睡觉。「到了早上，所有这些实验都构建好了，我们可以大概丢弃其中的五六个。」Dhanji 每天自己都在践行这种做法，构建大量代码然后果断丢弃重新来过 [34:26 Dhanji Prasanna]。他甚至要求团队思考：如果每一次版本发布，都像是执行一句 `rm -rf`（删除整个应用）然后从头重建，我们的世界会是什么样 [35:34 Dhanji Prasanna]？这不是开玩笑，而是 AI 让重写变得成本极低后的必然趋势。\n\n## 真正的护城河：质疑基本假设与人类品味\n\n有了这么强大的工具，是不是所有的流程都该自动化？Dhanji 认为这里有个陷阱：不要偏离公司的核心目标。如果内部自己造一个工具替换掉外部供应商，表面上省了钱，但占用了团队的技术专注力和精神带宽，通常并不划算 [41:12 Dhanji Prasanna]。\n\n他经常提醒团队（尤其是 InfoSec 安全团队）：**在自动化或者保护某个流程之前，先质疑最底层的假设——我们到底需不需要做这件事？** [39:40 Dhanji Prasanna] \n\nAI 还无法具备这种全局判断力。这就像 Dhanji 提到的一个反直觉观点：**代码质量和产品成功毫无关系**。YouTube 刚被收购时，代码库被公认一团糟，视频被当成 blob 数据塞在 MySQL 里，但它却成了远超 Google Video 的产品 [62:11 Dhanji Prasanna]。AI 能帮你快速堆砌功能和代码，但真正决定胜负的，是人类自身对品味的把控，以及锚定「解决真实问题」的判断力。\n\n## 本集带走\n- **结构大于工具**：想让 AI 真正发挥作用，先审视公司架构。打破各自为政的业务孤岛，建立共享技术栈的职能型组织。\n- **拥抱 MCP**：不要等供应商慢慢给旧系统加 AI。用模型上下文协议给现有企业系统写一层薄薄的封装，让大模型立刻获得跨系统调度能力。\n- **解放非技术团队**：别把 AI 工具局限在研发部。法务、风控等业务团队自建小工具的潜力极大，能省掉大量跨部门排期。\n- **放弃单点实验，拥抱批量重写**：不要再替 AI 规划唯一的最佳实现路径。用详尽描述同时派发多个实验任务，让智能体整夜自己跑，第二天在成品里挑一个，大不了全删重来。\n- **先问「要不要做」，再谈「怎么自动化」**：在做流程自动化或重构前，先质疑基本假设——如果砍掉这个流程本身，就不需要费心去造工具或做安全防护了。\n- **放下代码质量包袱**：代码写得再漂亮也不代表产品能赢。只要底线（如不会导致重大资金损失）兜住了，容忍一定程度的混乱，去专注解决用户真正的问题。",
+  "quotes": [
+    {
+      "en": "All these LLMs are sitting idle overnight and on weekends, while humans aren't there.",
+      "zh": "所有这些 LLM 晚上和周末闲置在那里，而人类不在那里。",
+      "timestamp": "33:36",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "I think that the companies that aren't feeling the success in AI are trying to just throw these tools at their giant code bases and hoping good things will happen, and that's not how it's playing out.",
+      "zh": "我认为那些没有在 AI 中感受到成功的公司，试图只是将这些工具扔给他们庞大的代码库并希望发生好事，而这并不是正在发生的方式。",
+      "timestamp": "20:00",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "The savings and costs that there might be in replacing a vendor tool by something you build in-house is probably not worth it in the mental bandwidth that you've lost and the amount of the team's technical focus that's being taken away.",
+      "zh": "通过用内部构建的东西取代供应商工具可能带来的节省和成本，可能是不值得的，考虑到你失去的精神带宽和被占用团队技术专注力的数量。",
+      "timestamp": "41:12",
+      "speaker": "Dhanji Prasanna"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "A lot of engineers think that code quality is important to building a successful product.",
+      "zh": "许多工程师认为代码质量对于构建成功的产品很重要。",
+      "timestamp": "62:11",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "The two have nothing to do with each other.",
+      "zh": "这两者彼此没有任何关系。",
+      "timestamp": "62:17",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "All these LLMs are sitting idle overnight and on weekends, while humans aren't there.",
+      "zh": "所有这些 LLM 晚上和周末闲置在那里，而人类不在那里。",
+      "timestamp": "33:36",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "There's no need for that.",
+      "zh": "没有必要那样做。",
+      "timestamp": "33:45",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "They should be working all the time.",
+      "zh": "它们应该一直工作。",
+      "timestamp": "33:45",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "They should be trying to build in anticipation of what we want.",
+      "zh": "它们应该尝试预先构建我们想要的东西。",
+      "timestamp": "33:47",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "I think that the companies that aren't feeling the success in AI are trying to just throw these tools at their giant code bases and hoping good things will happen, and that's not how it's playing out.",
+      "zh": "我认为那些没有在 AI 中感受到成功的公司，试图只是将这些工具扔给他们庞大的代码库并希望发生好事，而这并不是正在发生的方式。",
+      "timestamp": "20:00",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "What's been surprising and really amazing, the non-technical people using AI agents and programming tools to build things, the people that are able to embrace it to optimize for their particular workday and their particular set of tasks are really showing the most impact from these tools.",
+      "zh": "令人惊讶且真正惊人的一件事是，非技术人员使用 AI 智能体和编程工具来构建东西，那些能够拥抱它以针对他们特定的工作日和特定的一组任务进行优化的人，真正展示了来自这些工具的最多影响。",
+      "timestamp": "49:50",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "Whenever I hear a stat like this, I think an important element that people need to think about is this is the worst it will ever be.",
+      "zh": "每当我听到这样的统计数据时，我认为人们需要考虑的一个重要因素是，这是它有史以来最糟糕的状态。",
+      "timestamp": "21:19",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "This is the lowest, this is now the baseline.",
+      "zh": "这是最低点，这是现在的基线。",
+      "timestamp": "21:26",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "And so it may not sound that crazy yet, but it's going to get crazy.",
+      "zh": "所以它现在听起来可能没那么疯狂，但它会变得疯狂。",
+      "timestamp": "21:31",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "The savings and costs that there might be in replacing a vendor tool by something you build in-house is probably not worth it in the mental bandwidth that you've lost and the amount of the team's technical focus that's being taken away.",
+      "zh": "通过用内部构建的东西取代供应商工具可能带来的节省和成本，可能是不值得的，考虑到你失去的精神带宽和被占用团队技术专注力的数量。",
+      "timestamp": "41:12",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "if we just change the process, do we even need to think about building tools?",
+      "zh": "如果我们只是改变流程，我们甚至还需要考虑构建工具吗？",
+      "timestamp": "39:23",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "So one of the things that I learned the most throughout this process is that Conway's Law can be really, really powerful.",
+      "zh": "我认为我在整个过程中学到的最重要的一件事之一是，康威定律真的非常非常强大。",
+      "timestamp": "12:19",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "you only hear about it when things are going wrong.",
+      "zh": "你只在事情出错时才会听到反馈。",
+      "timestamp": "60:40",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "If you're not waking up in the morning feeling energized about what you're going to do that day in your professional life, then change something, quit if that's what it comes down to, or find a new way of doing what you're doing.",
+      "zh": "如果你早上醒来没有对你那天在职业生活中要做的事情感到充满活力，那就改变点什么，如果到了那一步就辞职，或者找到一种做你正在做的新方式。",
+      "timestamp": "81:55",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "If you try to boil the ocean to make a cup of tea, I don't know who said that, but it's a really a useful phrase that I keep coming back to.",
+      "zh": "如果你想煮沸整个海洋来泡一杯茶，我不知道是谁说的，但这真的是一个我一直回想起来的非常有用的短语。",
+      "timestamp": "68:28",
+      "speaker": "Dhanji Prasanna"
+    },
+    {
+      "en": "we default to, can we make this open source?",
+      "zh": "在 Block，我们总是问，我们可以默认将其开源吗？",
+      "timestamp": "85:25",
+      "speaker": "Dhanji Prasanna"
+    }
+  ]
+}

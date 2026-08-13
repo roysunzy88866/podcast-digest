@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":11}</script>
 
 <script>
 (function(){

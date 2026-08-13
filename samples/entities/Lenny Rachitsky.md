@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amol Avasare]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
+[[Amol Avasare]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":1,"Airbnb":4,"Medium":1,"Stripe":10,"简报":1,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":1,"Airbnb":4,"Medium":1,"Stripe":11,"简报":1,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

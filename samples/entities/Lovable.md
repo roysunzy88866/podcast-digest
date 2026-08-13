@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lovable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(02:22起):本集把它说成:本集赞助商,被描述为史上增长最快的公司,可以通过与 AI 聊天来快速构建真实可用的应用和网站。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:11起):本集把它和 Bolt 归为一类降低开发门槛的 AI 构建工具,指出它们的共同痛点是:为了让非技术用户省心而在中间层做大量决策,好处是简单省事,代价是失去控制权。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(38:23起):本集在广告中提到它号称是历史上增长最快的公司,能让用户仅通过与 AI 聊天就能构建具有真实功能的应用程序和网站。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(31:38起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first 的企业应该将更多精力投入到大的赌注上。
@@ -23,8 +24,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
@@ -33,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Meta]] · [[Zevi Arnovitz]] · [[Qasar Younis]] · [[Amol Avasare]]
+[[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Google]] · [[Meta]] · [[Jen Abel]] · [[Zevi Arnovitz]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Cursor":10,"OpenAI":32,"Anthropic":42,"Google":15,"智能体":75,"Meta":13,"Zevi Arnovitz":1,"Qasar Younis":1,"Amol Avasare":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Cursor":11,"OpenAI":33,"Anthropic":43,"智能体":75,"Google":15,"Meta":13,"Jen Abel":1,"Zevi Arnovitz":1,"Qasar Younis":1}</script>
 
 <script>
 (function(){

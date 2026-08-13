@@ -1,0 +1,1307 @@
+{
+  "episode_id": "2025-11-02-lennys-the-making-of-canva",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-02",
+  "tags": [
+    "疯狂大目标",
+    "愿景规划",
+    "融资拒绝",
+    "产品迭代",
+    "公益与社会影响"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            225.177,
+            226.218
+          ],
+          "quote": "Get $1,000 off at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3938.442,
+            3941.698
+          ],
+          "quote": "Thank you so much, Lenny, for having me and your great well-researched questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3959.85,
+            3964.638
+          ],
+          "quote": "You can find all past episodes or learn more about the show at Lenny'sPodcasts.com.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "melanie-perkins",
+      "type": "person",
+      "role": "cohost",
+      "name": "Melanie Perkins",
+      "file": "Melanie Perkins",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            90.88,
+            94.662
+          ],
+          "quote": "Today my guest is Melanie Perkins, CEO and co-founder of Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 36,
+          "t": [
+            171.111,
+            174.893
+          ],
+          "quote": "With that, I bring you Melanie Perkins after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "type": "company",
+      "role": "company",
+      "name": "Canva",
+      "file": "Canva",
+      "primary": true,
+      "how_described": "本集把它说成:由 Melanie Perkins 创立、估值超 420 亿美元、年收入超 33 亿美元的设计平台,旨在赋能世界去设计;曾经历两年代码重写发不出产品,以及被 100 多位投资人拒绝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.02,
+            1.706
+          ],
+          "quote": "There's a very famous story about Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 19,
+          "t": [
+            74.381,
+            83.86
+          ],
+          "quote": "A lot of people think of Canva as like design graphics for social media and marketing and things like that, but you also have spreadsheets, whiteboards, charts, AI coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            90.88,
+            94.662
+          ],
+          "quote": "Today my guest is Melanie Perkins, CEO and co-founder of Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            103.305,
+            109.067
+          ],
+          "quote": "Canva is currently valued at over $42 billion, making over $3.3 billion in revenue a year.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 28,
+          "t": [
+            120.912,
+            137.138
+          ],
+          "quote": "Their team spent two years rewriting their entire code base and were unable to ship any new features for over two years, something they expected to just take six months, and they even went through a big pivot early on from a yearbook publishing platform to the Canva that you know today, Melanie does not do a lot of podcasts.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 65,
+          "t": [
+            301.963,
+            309.947
+          ],
+          "quote": "Also just everyone I meet from Canva is just so nice and so awesome and so smart, and so clearly you've built something really special.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            318.672,
+            324.675
+          ],
+          "quote": "I asked you what you believe has been the biggest factor in the success of Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            415.209,
+            426.76
+          ],
+          "quote": "So clearly this is an important lesson in the example of Canva, just what would've been column A for what Canva could have been and how did you think about the column B approach of what Canva in a dreamland could be?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 97,
+          "t": [
+            483.879,
+            487.72
+          ],
+          "quote": "And then we applied it to Canva where we wanted to take it much, much bigger.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 174,
+          "t": [
+            890.461,
+            900.171
+          ],
+          "quote": "I talked to Melissa, I talked to a bunch of other people that work at Canva, that have worked at Canva, and something else I heard along these lines is this phrase, Crazy Big Goals, which I think is one of your values.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 180,
+          "t": [
+            908.2,
+            912.482
+          ],
+          "quote": "Yeah, so right from the start of Canva, it was truly a crazy-big goal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1325.027,
+            1332.45
+          ],
+          "quote": "People hear these stories, they hear your story, they see Canva over the years and it's just this up into the right huge success story, one of the most successful companies in history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1340.154,
+            1351.619
+          ],
+          "quote": "So let me just ask you this over the course of building Canva, once it started to click and started to feel like it was going to be a thing, was there a point where it started to again feel like, \"Wow, maybe this may not work out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1590.941,
+            1595.483
+          ],
+          "quote": "Speaking of investors, speaking of other hard times, there's a very famous story about Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1595.503,
+            1601.947
+          ],
+          "quote": "Early on you pitched over a hundred investors and over a hundred investors said no to you when you were just starting Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1821.771,
+            1831.615
+          ],
+          "quote": "I remember pitching an investor that had the lean startup book behind them when I was pitching them and they were never going to like Canva.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1847.22,
+            1856.798
+          ],
+          "quote": "As an investor, this is really interesting to hear because it tells you there are companies like Canva there that everyone's turning down, a hundred investors passed on, that you might still be able to invest in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1858.461,
+            1870.639
+          ],
+          "quote": "Talking about your growth as a leader, say if you compare Melanie of today to Melanie of, I don't know, 12, 13 years ago when you were just starting Canva, what would you say is most different in terms of leadership?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2180.625,
+            2185.587
+          ],
+          "quote": "And in the early days of Canva, we certainly were working all weekend, all hours of the day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2403.281,
+            2408
+          ],
+          "quote": "Wow, that must be really stressful for someone looking at a test of Canva, trying to try something when you're in the room.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2438.383,
+            2443.771
+          ],
+          "quote": "Something else that I know is really important to you and also really unique to Canva is something that's called the two-step plan.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2470.809,
+            2474.691
+          ],
+          "quote": "And so that's been a really big part of Canva for some years now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2491.639,
+            2494.88
+          ],
+          "quote": "We also knew that Canva's equity was obviously going to be a really key part of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2495,
+            2502.982
+          ],
+          "quote": "So Cliff and I owned a little over 30% of Canva, and so we decided we were going to take 30% of Canva and use it to do the most good we can do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2506.043,
+            2508.384
+          ],
+          "quote": "So we're doing all of our donating through the Canva Foundation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2624.996,
+            2627.617
+          ],
+          "quote": "What I hear from folks at Canva is something you talk about all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2635.921,
+            2640.982
+          ],
+          "quote": "I wouldn't do Canva if it wasn't going to have a positive impact on the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2727.441,
+            2730.963
+          ],
+          "quote": "I guess the whole mission of Canva is to empower the world to design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2750.211,
+            2763.316
+          ],
+          "quote": "We are launching email, which has been one of our most hotly requested features from enterprise customers around the world and business customers around the world who want to be able to design with Canva's drag and drop ease and to be able to create an email.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2838.706,
+            2850.156
+          ],
+          "quote": "I think a lot of people think of Canva as a design graphics for social media and marketing and things like that, but you also have spreadsheets, docs, whiteboards, charts, code, AI coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2858.64,
+            2868.626
+          ],
+          "quote": "100 million people design a presentation in Canva each month now and it's pretty fascinating to see that when you speak to, I saw a tweet some time ago.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2876.351,
+            2890.64
+          ],
+          "quote": "Gen Z, the way they design a presentation is in Canva, but it's not just generational for those with other generational ilk, but it is been fascinating to see that come to life.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2981.503,
+            2985.051
+          ],
+          "quote": "So if someone's like, \"Oh, will Canva come for my space?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3002.547,
+            3012.039
+          ],
+          "quote": "And what Canva really does is we're literally smack bang in the middle of that Venn diagram of creativity and productivity, rather than making our customers have to make a choice between those two suites.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3016.243,
+            3021.287
+          ],
+          "quote": "There's always this Figma and Adobe and then there's Canva and there's kind of a bunch of places we could go with this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3072.6,
+            3079.123
+          ],
+          "quote": "And then when we were thinking about Canva, a few years into that, actually one of the schools said, \"I love this product so much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3169.833,
+            3176
+          ],
+          "quote": "Do you have just a philosophy of, \"Here's how we integrate AI into Canva,\" where it ends up being really helpful and people love it?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3259.944,
+            3268.007
+          ],
+          "quote": "And now with Canva, and you can just tag Canva, I can say, \"Give me more ideas of this,\" and it's shockingly great because it has all of the context from the design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3304.06,
+            3314.377
+          ],
+          "quote": "Yeah, I might use Apple Notes or directly into Canva Docs, and then I actually just do the brain dump into Canva Docs and then just summarize them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3491.696,
+            3504.42
+          ],
+          "quote": "Something that we're doing at our Canva world to a keynote in two weeks time, which I think is going to be after this is released, we've been asking people what is one goal you'd like to see the world achieved in our lifetime?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3545.384,
+            3551.832
+          ],
+          "quote": "I was thinking as you're talking, just considering how wildly successful Canva has been and just how ambitious that was when you started.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3654.797,
+            3655.258
+          ],
+          "quote": "Not Canva.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3673.948,
+            3686.139
+          ],
+          "quote": "So excluding Canva, what's a product you'd love to work on someday, whether it's like an existing other company like, \"Oh, I wish I could work on that thing,\" or just a new product you'd love to build maybe after the Canva chapter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3687,
+            3687
+          ],
+          "quote": "I feel like my Canva chapter's going to go on for a long time, so I don't know, because we've got-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3765.351,
+            3775.337
+          ],
+          "quote": "So everything is good because once imagined is a quote you're going to be seeing from Canva all the time now because it is true that if you don't imagine it, you can't will it into existence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3810.817,
+            3815.86
+          ],
+          "quote": "Is there something you learned from that period of your life that was helpful in building Canva?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3845.211,
+            3852
+          ],
+          "quote": "Two final questions: where can folks find you if they want to maybe reach out, send you feedback on Canvas or join Canva, and how can listeners be useful to you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3873.574,
+            3875.855
+          ],
+          "quote": "Use Canva, spread Canva, teach Canva.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3877.336,
+            3882.24
+          ],
+          "quote": "We're doing a Canva World Tour through October, which is probably going to be updated when this is posted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3929.027,
+            3932.599
+          ],
+          "quote": "Are you going to have the rap dancers at the next Canva event?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "fusion-books",
+      "type": "company",
+      "role": "company",
+      "name": "Fusion Books",
+      "file": "Fusion Books",
+      "primary": false,
+      "how_described": "本集把它说成:Melanie Perkins 在澳大利亚创立的第一家公司,把在线设计的概念应用于校刊市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            477.036,
+            483.619
+          ],
+          "quote": "And so starting from that, we then took that concept and applied it to the school yearbook market in Australia with our first company Fusion Books.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "canva-foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Canva Foundation",
+      "file": "Canva Foundation",
+      "primary": false,
+      "how_described": "本集把它说成:Canva 进行所有捐赠的机构,已向马拉维极端贫困人口捐赠了 5000 万美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 455,
+          "t": [
+            2506.043,
+            2508.384
+          ],
+          "quote": "So we're doing all of our donating through the Canva Foundation.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "1-pledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "1% 承诺 (1% pledge)",
+      "file": "1% 承诺",
+      "primary": false,
+      "how_described": "本集把它说成:Canva 早期加入的公益项目,承诺捐出公司 1% 的时间、金钱、股权和利润。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2475.511,
+            2478.733
+          ],
+          "quote": "In the early days we took the 1% pledge, which I think is an incredible program.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3889.963,
+            3896.026
+          ],
+          "quote": "And if you are in a company, starting a company, try and do the 1% pledge.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "givedirectly",
+      "type": "company",
+      "role": "company",
+      "name": "GiveDirectly",
+      "file": "GiveDirectly",
+      "primary": false,
+      "how_described": "本集把它说成:Canva 基金会的合作机构,负责把钱直接发给马拉维极端贫困人口的机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            2508.424,
+            2526.97
+          ],
+          "quote": "We've just, over the last few years, we've donated $50 million to GiveDirectly, where they give money directly to people in Malawi who are in extreme poverty and then they can use that money on their family to go to school, to get healthcare, to start small businesses, to get a roof so they can sleep in without being wet.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "column-b",
+      "type": "concept",
+      "role": "concept",
+      "name": "Column B",
+      "file": "Column B",
+      "primary": true,
+      "how_described": "本集把它说成:一种思维与规划方式,指先想象那个疯狂的、理想化的未来,再反推第一步怎么迈,而不是基于现有资源(看手里的砖)往前走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            324.855,
+            331.658
+          ],
+          "quote": "You described something called building a Column B company and Column B thinking, I've never heard of this before, so let us start there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 70,
+          "t": [
+            331.938,
+            334.72
+          ],
+          "quote": "What is building Column B company, what does that mean?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 81,
+          "t": [
+            383.916,
+            393.539
+          ],
+          "quote": "And so I guess the column B thinking is thinking about what is that magical wonderful future that you then want to invest years and decades of your life actually building?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            394.179,
+            396.58
+          ],
+          "quote": "And so that's column A and column B in a nutshell.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 84,
+          "t": [
+            400.57,
+            404
+          ],
+          "quote": "Column B is work from this dream reality and work backwards from how to achieve that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            415.209,
+            426.76
+          ],
+          "quote": "So clearly this is an important lesson in the example of Canva, just what would've been column A for what Canva could have been and how did you think about the column B approach of what Canva in a dreamland could be?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 90,
+          "t": [
+            443.525,
+            448.287
+          ],
+          "quote": "And so it was all column B, it was all thinking about the wild future that we wanted to create.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            488.361,
+            491.287
+          ],
+          "quote": "Let's talk about just how to actually go about building a Column B company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3604.007,
+            3605.477
+          ],
+          "quote": "A column B world, you might say.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "crazy-big-goals",
+      "type": "concept",
+      "role": "concept",
+      "name": "疯狂大目标 (Crazy Big Goals)",
+      "file": "疯狂大目标",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 的价值观之一,指那种大到让你感到完全不胜任、一遇障碍也不会放弃的宏大目标,必须配以庆祝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            33,
+            34.455
+          ],
+          "quote": "One of your values, Crazy Big Goals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            890.461,
+            900.171
+          ],
+          "quote": "I talked to Melissa, I talked to a bunch of other people that work at Canva, that have worked at Canva, and something else I heard along these lines is this phrase, Crazy Big Goals, which I think is one of your values.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 175,
+          "t": [
+            900.251,
+            900.892
+          ],
+          "quote": "Crazy Big Goals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 179,
+          "t": [
+            904.756,
+            907.539
+          ],
+          "quote": "And just talk about the power of having Crazy Big Goals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1101.903,
+            1111.94
+          ],
+          "quote": "There's this big crazy ambitious vision and below there are the mission pillars that are feeding into this vision and then the Crazy Big Goals within each of those mission pillars to measure your progress towards all these components of the mission.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1186.334,
+            1191.036
+          ],
+          "quote": "We might think something's actually going to take our entire lifetime as some of those really truly Crazy Big Goals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1218.74,
+            1224.504
+          ],
+          "quote": "So when we have these Crazy Big Goals, we also have couple them with really fun celebrations.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1224.684,
+            1227.726
+          ],
+          "quote": "And so we attempt to make the Crazy Big Goals happen in a moment in time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1313.182,
+            1320.165
+          ],
+          "quote": "So it's set these Crazy Big Goals, confine the component of the goals, set numbers there and then figure out the kind of steps you take to achieve these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2450.16,
+            2456.723
+          ],
+          "quote": "Yeah, so when you were asking about Crazy Big Goals, I think this is our most macro, most crazy biggest goal.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chaos-to-clarity",
+      "type": "concept",
+      "role": "concept",
+      "name": "从混乱到清晰 (chaos to clarity)",
+      "file": "从混乱到清晰",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 把模糊想法变实在的一套流程,从写下来到做演示文稿再到做原型,每一步都增加清晰度,让更多人能看见、能参与。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            59.18,
+            61.283
+          ],
+          "quote": "So we have this concept of chaos to clarity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            724.66,
+            732.983
+          ],
+          "quote": "So we have this concept of chaos to clarity and every idea starts in the chaos side, and then you have to work all the way to the other side, which is clarity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 150,
+          "t": [
+            741.385,
+            745.986
+          ],
+          "quote": "I'm not sure if you will, but how do you go from chaos to clarity?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            748.887,
+            755.389
+          ],
+          "quote": "And so the idea is that each little step from chaos to clarity is the very first step might be literally writing it down.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            767.753,
+            773.174
+          ],
+          "quote": "And then as it kind of goes from chaos to clarity, it starts to become more and more real and more and more people can see it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1680.943,
+            1682.863
+          ],
+          "quote": "And it was sort of from that chaos to clarity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1795.142,
+            1796.603
+          ],
+          "quote": "Or chaos to clarity, let's go with that one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3372.956,
+            3381.3
+          ],
+          "quote": "And so I sat with that feeling for a little and then I kind of got to work on my 2050 walls and back to the chaos to clarity.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mission-pillars",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命支柱 (mission pillars)",
+      "file": "使命支柱",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 把「赋能世界去设计」的总使命拆成的具体支柱,如设计任何东西、在每种语言中、在每台设备上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1015.181,
+            1020.323
+          ],
+          "quote": "So we have our mission to empower the world to design and we break it down into mission pillars.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1101.903,
+            1111.94
+          ],
+          "quote": "There's this big crazy ambitious vision and below there are the mission pillars that are feeding into this vision and then the Crazy Big Goals within each of those mission pillars to measure your progress towards all these components of the mission.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1281.352,
+            1295.897
+          ],
+          "quote": "And the mission is often each of the different mission pillars, they're obviously a long area of investment that's going to take a long time to get to, but being able to celebrate each of the rungs on that on the way there I think is extraordinarily important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2091.501,
+            2106.206
+          ],
+          "quote": "So the mission, actually breaking that down into the mission pillars, breaking those mission pillars down into the goals that we're then pursuing and then celebrating those goals when we do achieve them, I think is a deeply underloved way of building a company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2120.811,
+            2127.753
+          ],
+          "quote": "And I think the magic is when you can bring those two things together and so you can have your mission, you can have your mission pillars that actually are helping to achieve that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2358.985,
+            2363.547
+          ],
+          "quote": "One is building the future and towards the mission and the mission pillars as I was saying before.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "two-step-plan",
+      "type": "concept",
+      "role": "concept",
+      "name": "两步计划 (two-step plan)",
+      "file": "两步计划",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 的宏观计划,第一步是建成世界上最有价值的公司之一,第二步是尽其所能做最多的好事,两步可以互相推动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            930.368,
+            936.07
+          ],
+          "quote": "And if we macro out even further, we've got this two-step plan, build one of the world's most valuable companies and do the most good we can do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2438.383,
+            2443.771
+          ],
+          "quote": "Something else that I know is really important to you and also really unique to Canva is something that's called the two-step plan.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2447.316,
+            2448.298
+          ],
+          "quote": "What is the two-step plan?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2586.294,
+            2587.995
+          ],
+          "quote": "But back to the two-step plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3896.266,
+            3905.03
+          ],
+          "quote": "Try and figure out your own version of the two-step plan and try and build products and in every decision that you make that actually makes the world that you want to live in.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "front-end-rewrite",
+      "type": "concept",
+      "role": "concept",
+      "name": "前端重写 (front-end rewrite)",
+      "file": "前端重写",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 耗时两年的代码库整体重写工程,期间产品公司整整两年发不出任何新产品,为之后的跨平台和协作能力打下地基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1422.229,
+            1430.232
+          ],
+          "quote": "Or back to your earlier point about timing of things, we were doing a front-end rewrite and we thought it would take about six months.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把它说成:Canva 从 2012 年的演示文稿里就在尝试的、贯穿全产品套件(如演示文稿、视频、邮件、网站)的技术,能在核心编辑器里帮用户直接生成或修改设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            74.381,
+            83.86
+          ],
+          "quote": "A lot of people think of Canva as like design graphics for social media and marketing and things like that, but you also have spreadsheets, whiteboards, charts, AI coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 21,
+          "t": [
+            86.107,
+            88.455
+          ],
+          "quote": "We were trying to do AI before AI was actually a thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            186.237,
+            193.7
+          ],
+          "quote": "Vanta helps companies of all sizes get compliant fast and stay that way with industry leading AI, automation and continuous monitoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 52,
+          "t": [
+            244.345,
+            257.469
+          ],
+          "quote": "Used by 78% of the Forbes AI-50 Stripe provides financial infrastructure for payments, billing and software to platforms and marketplaces so they can monetize faster, experiment with pricing and grow revenue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2336.537,
+            2343
+          ],
+          "quote": "In the early days with our AI products, we didn't release them to teachers because we knew there was a lot of hesitancy for teachers using AI in the classroom.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2731.443,
+            2736.885
+          ],
+          "quote": "And so what has been enabled by new technology with all of AI has been just really profound.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2763.697,
+            2772
+          ],
+          "quote": "We are launching forms, we are launching, probably one of the most exciting things is the way we're embedding AI across the entire product suite.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2772.78,
+            2781.943
+          ],
+          "quote": "And so you can actually use AI to design a presentation, a video, a email, a website.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2793.627,
+            2800.83
+          ],
+          "quote": "And then on our elements tab, which is used 900 million times a month, we are also embedding AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2838.706,
+            2850.156
+          ],
+          "quote": "I think a lot of people think of Canva as a design graphics for social media and marketing and things like that, but you also have spreadsheets, docs, whiteboards, charts, code, AI coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3159,
+            3162.564
+          ],
+          "quote": "Something I can't not ask about is just how you think about AI in your product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3162.584,
+            3167.029
+          ],
+          "quote": "You mentioned how you integrated or all through the product, just you guys are doing really good stuff with AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3169.833,
+            3176
+          ],
+          "quote": "Do you have just a philosophy of, \"Here's how we integrate AI into Canva,\" where it ends up being really helpful and people love it?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3197.047,
+            3208.231
+          ],
+          "quote": "Just because AI is all the rage and investors really like AI doesn't necessarily mean it should be front and center, but if it can genuinely help your customers to achieve their goals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3208.651,
+            3220.615
+          ],
+          "quote": "So the thing that I was mentioning before, enabling people to communicate their ideas and have little friction between those two points, AI is just kind of naturally a very critical part of that equation for us.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3223.896,
+            3231.638
+          ],
+          "quote": "We were trying to do AI before AI was actually a thing because it really was critical to what we were trying to do even in our 2012 deck.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3231.658,
+            3237
+          ],
+          "quote": "You can kind of imagine how AI very much fit into the equation because of exactly what we're trying to do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3237.02,
+            3242.688
+          ],
+          "quote": "I'm going to keep us on the AI thread and take us to AI Corner, which is a recurring segment on this podcast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3243.129,
+            3251
+          ],
+          "quote": "So here's the question: what's a way you've found in your personal life and work life to use AI where it ends up being really helpful, something really interesting that people might find useful?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3253.321,
+            3255.042
+          ],
+          "quote": "So AI is often the first.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3270.928,
+            3285.694
+          ],
+          "quote": "Another really fun thing I do is an AI walk and it's when I just put my ear pods in and then I go for a walk and I just say everything on my mind and I use that to then kind of filter out my thoughts and figure out what are the things I need to action.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "magicwrite",
+      "type": "concept",
+      "role": "concept",
+      "name": "MagicWrite",
+      "file": "MagicWrite",
+      "primary": false,
+      "how_described": "本集把它说成:Canva 早期的 AI 产品,一开始没向教师开放,后因收到大量老师请求而解锁,并加上了针对教师的安全控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            2343.12,
+            2348.222
+          ],
+          "quote": "And we got so many requests from teachers saying, \"Can I please use this MagicWrite in the classroom?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sheets",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sheets",
+      "file": "Sheets",
+      "primary": false,
+      "how_described": "本集把它说成:Canva 的电子表格产品,是来自社区功能请求闭环的一个成功例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            2326.473,
+            2333.376
+          ],
+          "quote": "So many things from gradient text, like little things like gradient text to really big things like our Sheets product.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

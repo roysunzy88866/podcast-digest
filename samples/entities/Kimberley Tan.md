@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[Decagon]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]]
+[[Sarah Wang]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[Decagon]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]] · [[Duet]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":75,"开源模型":4,"微调":1,"业务逻辑":1,"前置部署工程师":4,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":75,"开源模型":4,"微调":1,"业务逻辑":1,"前向部署工程师":5,"Duet":1}</script>
 
 <script>
 (function(){

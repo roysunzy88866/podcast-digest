@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]]
+[[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":34,"Vercel":6,"Stripe":10,"Gong":1,"OpenAI":32,"go-to-market":3,"智能体":75,"GTM 工程师":1,"市场细分":1,"PLG":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":36,"Vercel":6,"Stripe":11,"Gong":1,"OpenAI":33,"go-to-market":3,"智能体":75,"GTM 工程师":1,"市场细分":1,"PLG":2}</script>
 
 <script>
 (function(){
