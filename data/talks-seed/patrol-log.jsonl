@@ -127,3 +127,4 @@
 {"ts":"2026-08-12T13:40:12.718Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-12T13:40:17.722Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-12T13:40:22.726Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-13T01:41:19.436Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server\n"}
