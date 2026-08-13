@@ -160,8 +160,8 @@ AI 消除的是「任务」,不是「工作」。一份工作是由许多任务�
 **顺着「智能体」挖下去**
 
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)</span>
+- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)、ChatGPT、强化学习 (reinforcement learning)</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agents)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 <div class="pd-ex">

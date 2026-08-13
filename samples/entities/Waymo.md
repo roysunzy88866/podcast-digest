@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Waymo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,13 +21,15 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*1 条,均已过机器闸门*
+*2 条,均已过机器闸门*
 
 ![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q3]]
 
+![[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar#^q1]]
+
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
@@ -36,14 +38,15 @@ unlisted: true
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为被讨论公司(提及)
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
+- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[Marble]] · [[空间智能]] · [[NVIDIA]]
+[[ChatGPT]] · [[Lenny]] · [[物理 AI]] · [[智能体]] · [[强化学习]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[Marble]] · [[空间智能]]
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"智能体":77,"ChatGPT":12,"物理 AI":3,"Tesla":5,"World Labs":2,"Anthropic":44,"Marble":2,"空间智能":2,"NVIDIA":16}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":13,"Lenny":40,"物理 AI":4,"智能体":77,"强化学习":9,"Tesla":5,"World Labs":2,"Anthropic":44,"Marble":2,"空间智能":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,3970 @@
+[
+ {
+  "seg": 0,
+  "start": 7.336,
+  "end": 13.46,
+  "speaker": "Unknown",
+  "en": "Today I'm going to be talking about the state of the art of physical intelligence.",
+  "zh": "今天我将要谈论物理智能的最前沿技术。"
+ },
+ {
+  "seg": 1,
+  "start": 14.581,
+  "end": 19.985,
+  "speaker": "Unknown",
+  "en": "And in particular, two years ago, I founded a company called Physical Intelligence.",
+  "zh": "特别是，两年前，我创办了一家名为 Physical Intelligence 的公司。"
+ },
+ {
+  "seg": 2,
+  "start": 20.785,
+  "end": 30.372,
+  "speaker": "Unknown",
+  "en": "And we're really interested in how we can basically develop any robot or allow any robot to do any task in the real world.",
+  "zh": "我们真的很感兴趣我们如何基本上开发任何机器人或允许任何机器人在现实世界中做任何任务。"
+ },
+ {
+  "seg": 3,
+  "start": 31.783,
+  "end": 35.726,
+  "speaker": "Unknown",
+  "en": "And I actually spoke at this event a year ago last year.",
+  "zh": "其实我去年在这个活动上讲过话。"
+ },
+ {
+  "seg": 4,
+  "start": 36.307,
+  "end": 48.757,
+  "speaker": "Unknown",
+  "en": "And at the event last year, I shared some of our progress at the company, at Physical Intelligence, where we could do things, really complicated tasks, like unloading and folding laundry.",
+  "zh": "在去年的活动中，我分享了我们公司在 Physical Intelligence 的一些进展，在那我们可以做事情，真正复杂的任务，像卸货和折叠衣物。"
+ },
+ {
+  "seg": 5,
+  "start": 49.477,
+  "end": 59.105,
+  "speaker": "Unknown",
+  "en": "And I also talked about how, for the first time, we showed how robots can do useful tasks in environments and rooms they've never been in before.",
+  "zh": "我也谈到了，我们第一次展示了机器人如何在它们以前从未去过的环境和房间中做有用的任务。"
+ },
+ {
+  "seg": 6,
+  "start": 60.602,
+  "end": 66.928,
+  "speaker": "Unknown",
+  "en": "Now, since then, since one year ago, we have gotten robots to do a lot of other really cool things.",
+  "zh": "现在，从那时起，从一年前开始，我们已经让机器人做了许多其他真的很酷的事情。"
+ },
+ {
+  "seg": 7,
+  "start": 67.628,
+  "end": 82.402,
+  "speaker": "Unknown",
+  "en": "So for example, we've gotten robots to be able to wash a greasy pan in the top right, or peel a carrot in the video below that, or make a grilled cheese sandwich in the video below that, or slice a zucchini, and so forth.",
+  "zh": "所以例如，我们已经让机器人能够洗一个油腻的平底锅，在右上角那个视频里，或者刮胡萝卜在下面的视频里，或者在再下面的视频里做烤芝士三明治，或者切片西葫芦，等等。"
+ },
+ {
+  "seg": 8,
+  "start": 83.349,
+  "end": 95.372,
+  "speaker": "Unknown",
+  "en": "But what I'd really like to focus on today isn't cool videos of robots doing lots of different things, but what it actually takes to get robots to be useful in the real world.",
+  "zh": "但我今天真正想关注的不是机器人做各种各样很酷的视频，而是让机器人在现实世界中有用到底需要什么。"
+ },
+ {
+  "seg": 9,
+  "start": 96.493,
+  "end": 101.394,
+  "speaker": "Unknown",
+  "en": "And specifically, how can we develop general purpose robots that are useful in the real world?",
+  "zh": "具体来说，我们如何开发在现实世界中有用的通用机器人？"
+ },
+ {
+  "seg": 10,
+  "start": 102.514,
+  "end": 103.895,
+  "speaker": "Unknown",
+  "en": "Now, there are two aspects of this.",
+  "zh": "现在，这有两个方面。"
+ },
+ {
+  "seg": 11,
+  "start": 103.935,
+  "end": 104.895,
+  "speaker": "Unknown",
+  "en": "The first is...",
+  "zh": "首先是……"
+ },
+ {
+  "seg": 12,
+  "start": 105.883,
+  "end": 108.367,
+  "speaker": "Unknown",
+  "en": "General purpose, how we can develop general purpose models.",
+  "zh": "通用，我们如何开发通用模型。"
+ },
+ {
+  "seg": 13,
+  "start": 108.728,
+  "end": 115.119,
+  "speaker": "Unknown",
+  "en": "And the second is actually bringing those models to the real world so that they can actually have an impact and be useful to people.",
+  "zh": "第二个实际上是把这些模型带到现实世界，以便它们真正产生影响并造福人类。"
+ },
+ {
+  "seg": 14,
+  "start": 116.281,
+  "end": 119.547,
+  "speaker": "Unknown",
+  "en": "And in the first part, I'll talk about being useful in the real world.",
+  "zh": "在第一部分，我将谈论在现实世界中有用。"
+ },
+ {
+  "seg": 15,
+  "start": 120.795,
+  "end": 129.322,
+  "speaker": "Unknown",
+  "en": "So to actually bring a technology to the real world, I think we need to figure out, it's helpful to actually look at what people have done in the past to bring AI into the real world.",
+  "zh": "所以要把一项技术真正带到现实世界，我认为我们需要弄明白，看看过去人们是如何把 AI 带入现实世界的，这是很有帮助的。"
+ },
+ {
+  "seg": 16,
+  "start": 129.382,
+  "end": 138.269,
+  "speaker": "Unknown",
+  "en": "And if we look at a timeline of major production launches that are leveraging technology like machine learning, we can see a timeline like this.",
+  "zh": "如果我们看看利用像机器学习这样技术的主要产品发布的时间线，我们可以看到像这样的时间线。"
+ },
+ {
+  "seg": 17,
+  "start": 138.289,
+  "end": 146.957,
+  "speaker": "Unknown",
+  "en": "So I think really the first early examples of machine learning being used in the real world were for things like product recommendations and ad ranking.",
+  "zh": "所以我认为真正机器学习在现实世界早期使用的例子是为了像产品推荐和广告排名这样的事情。"
+ },
+ {
+  "seg": 18,
+  "start": 148.205,
+  "end": 158.092,
+  "speaker": "Unknown",
+  "en": "And then five years later we started to see not just machine learning being used but deep learning being used for the same sorts of applications.",
+  "zh": "然后五年后，我们开始看到不仅机器学习被使用，而且深度学习被用于同样的应用。"
+ },
+ {
+  "seg": 19,
+  "start": 158.632,
+  "end": 173.622,
+  "speaker": "Unknown",
+  "en": "And this was a really exciting advance because deep learning is an algorithm that actually isn't like you can kind of really apply it out of the box to scenarios that involve really complex like inputs and outputs and so forth and it makes it easier to translate to other applications.",
+  "zh": "这是一个非常令人兴奋的进步，因为深度学习是一种算法，实际上它不像你可以真正开箱即用地把它应用于涉及像真正的复杂输入和输出等等的场景，这使得它更容易转化为其他应用。"
+ },
+ {
+  "seg": 20,
+  "start": 174.71,
+  "end": 185.12,
+  "speaker": "Unknown",
+  "en": "But from there, I think that even more exciting moment in time that we saw in terms of machine learning and AI in production was in 2022 with the launch of ChatGPT.",
+  "zh": "但从那里开始，我认为就生产和部署中的机器学习和 AI 而言，我们看到的一个更激动人心的时刻是在 2022 年随着 ChatGPT 的发布。"
+ },
+ {
+  "seg": 21,
+  "start": 185.921,
+  "end": 192.808,
+  "speaker": "Unknown",
+  "en": "And this was the first time where we saw a general purpose model truly being used by many different people in the real world.",
+  "zh": "这是我们第一次看到通用模型真正被现实世界中许多不同的用户使用。"
+ },
+ {
+  "seg": 22,
+  "start": 193.348,
+  "end": 196.491,
+  "speaker": "Unknown",
+  "en": "Within five days, ChatGPT had reached a million users.",
+  "zh": "在五天内，ChatGPT 达到了一百万用户。"
+ },
+ {
+  "seg": 23,
+  "start": 197.312,
+  "end": 206.162,
+  "speaker": "Unknown",
+  "en": "And then of course more recently we've seen things like Claude Code also be incredibly useful hopefully to many of us in the real world and other coding agents.",
+  "zh": "然后当然最近我们看到像 Claude Code 这样的东西也真的非常有用，希望对现实世界中的我们中的许多人和其他编码智能体也是如此。"
+ },
+ {
+  "seg": 24,
+  "start": 207.464,
+  "end": 214.492,
+  "speaker": "Unknown",
+  "en": "Now if we look at how AI has been used in the real world and kind of look at this, I think there's a few different takeaways we could make.",
+  "zh": "现在如果我们看看 AI 是如何在现实世界中被使用的，大概看看这个，我认为我们可以得出几个不同的结论。"
+ },
+ {
+  "seg": 25,
+  "start": 214.532,
+  "end": 215.172,
+  "speaker": "Unknown",
+  "en": "The first is that",
+  "zh": "首先是"
+ },
+ {
+  "seg": 26,
+  "start": 216.257,
+  "end": 219.439,
+  "speaker": "Unknown",
+  "en": "Generalist models are increasingly being used for real-world problems.",
+  "zh": "通用模型正越来越多地用于现实世界的问题。"
+ },
+ {
+  "seg": 27,
+  "start": 220.139,
+  "end": 227.123,
+  "speaker": "Unknown",
+  "en": "And so we're actually seeing generalist AI models that can do many, many different things actually be used in the real world.",
+  "zh": "所以我们实际上看到可以做许多许多不同事情的通用 AI 模型在现实世界中被使用。"
+ },
+ {
+  "seg": 28,
+  "start": 227.183,
+  "end": 229.585,
+  "speaker": "Unknown",
+  "en": "And we see that transition from the left to the right.",
+  "zh": "而且我们看到从左边到右边的这种转变。"
+ },
+ {
+  "seg": 29,
+  "start": 230.766,
+  "end": 236.249,
+  "speaker": "Unknown",
+  "en": "But I also think that there's a more nuanced observation that we can make from looking at these applications.",
+  "zh": "但我也认为，通过观察这些应用程序，我们可以得出一个更微妙的观察。"
+ },
+ {
+  "seg": 30,
+  "start": 237.472,
+  "end": 257.106,
+  "speaker": "Unknown",
+  "en": "And in particular, if we look at all of these different applications that are used, where machine learning has actually been useful in the real world and actually been profitable and so forth, in all of these applications, the customer is making a decision based off of the recommendation of the AI model, more or less.",
+  "zh": "特别是，如果我们看看所有这些被使用的不同应用程序，机器学习实际上在现实世界中有用并且有利可图等等，在所有这些应用程序中，客户或多或少是根据 AI 模型的推荐来做决定的。"
+ },
+ {
+  "seg": 31,
+  "start": 258.407,
+  "end": 259.288,
+  "speaker": "Unknown",
+  "en": "And this means that...",
+  "zh": "这意味着……"
+ },
+ {
+  "seg": 32,
+  "start": 260.422,
+  "end": 272.071,
+  "speaker": "Unknown",
+  "en": "If the customer is ultimately like kind of making the decision, this means that if the system makes a mistake, that's okay because usually the person can kind of recognize that or decide what to do even despite that mistake.",
+  "zh": "如果客户最终像是做决定的那种人，这意味着如果系统犯了错误，那没关系，因为通常人们可以意识到那一点或决定做什么，尽管有那个错误。"
+ },
+ {
+  "seg": 33,
+  "start": 272.091,
+  "end": 280.138,
+  "speaker": "Unknown",
+  "en": "So even when these sorts of systems aren't perfect, they're still incredibly useful to different people and there's less pressure on them to be completely perfect.",
+  "zh": "所以即使当这类系统不完美时，它们对不同的人仍然非常有用，而且对它们要完全完美的压力较小。"
+ },
+ {
+  "seg": 34,
+  "start": 281.56,
+  "end": 293.502,
+  "speaker": "Unknown",
+  "en": "And I think that actually physical AI and robotics is pretty different from this, where if we think about physical AI that are actually operating in the physical world, they have to be directly making decisions that affect the physical world.",
+  "zh": "而且我认为实际上物理 AI 和机器人技术与这一点非常不同，在那里如果我们考虑实际上在物理世界中运行的物理 AI，它们必须直接做出影响物理世界的决定。"
+ },
+ {
+  "seg": 35,
+  "start": 294.062,
+  "end": 298.583,
+  "speaker": "Unknown",
+  "en": "And this means that they're going to be far more useful when they're operating fully autonomously.",
+  "zh": "这意味着当它们完全自主运行时，它们会更有用。"
+ },
+ {
+  "seg": 36,
+  "start": 299.923,
+  "end": 308.625,
+  "speaker": "Unknown",
+  "en": "And as a result, this requires us to develop physical AI systems that make far fewer mistakes than the machine learning systems that have been deployed thus far.",
+  "zh": "结果，这要求我们开发物理 AI 系统，它们犯的错误比迄今为止部署的机器学习系统少得多。"
+ },
+ {
+  "seg": 37,
+  "start": 310.028,
+  "end": 328.692,
+  "speaker": "Unknown",
+  "en": "Now, one really exciting thing to kind of highlight that has happened recently is a year ago Waymo passed the quarter of a million weekly autonomous rides, suggesting that it is really possible to develop a machine learning based system that can operate in a trustworthy and autonomous way directly in the physical world.",
+  "zh": "现在，一件真正令人兴奋的事情来强调最近发生的事情是一年前 Waymo 经过了每周二十五万次自主行程，这表明确实有可能开发一种基于机器学习的系统，可以直接以值得信赖的和自主的方式在物理世界中运行。"
+ },
+ {
+  "seg": 38,
+  "start": 329.192,
+  "end": 336.234,
+  "speaker": "Unknown",
+  "en": "And I think that brings a lot of hope and optimism for actually doing the same with the rest of AI in the physical world.",
+  "zh": "我认为这给在物理世界的其余部分真正做同样的事情带来了很多希望和乐观。"
+ },
+ {
+  "seg": 39,
+  "start": 337.709,
+  "end": 353.916,
+  "speaker": "Unknown",
+  "en": "So if we want to develop general purpose robots in the real world, I think we need to think about how we're going to make them autonomous for long periods of time so that they're actually useful rather than something where a human is basing decisions on the predictions of the model.",
+  "zh": "所以如果我们想在现实世界开发通用机器人，我认为我们需要思考如何让它们长时间自主，以便它们真正有用，而不是那种人类基于模型的预测做决定的东西。"
+ },
+ {
+  "seg": 40,
+  "start": 355.681,
+  "end": 362.202,
+  "speaker": "Unknown",
+  "en": "So to think about long-term autonomy, I want to ground this in a specific example and say that we wanted a robot to make espresso.",
+  "zh": "所以为了思考长期自主，我想把它建立在一个具体的例子中，并说我们要一个机器人来做浓缩咖啡。"
+ },
+ {
+  "seg": 41,
+  "start": 362.222,
+  "end": 373.544,
+  "speaker": "Unknown",
+  "en": "If we want it to actually be useful for us, we need it to make espresso reliably so that we don't have to babysit the robot very frequently in order for it to help serve drinks.",
+  "zh": "如果我们希望它真的对我们有用，我们需要它可靠地做浓缩咖啡，这样我们就不用经常盯着机器人以帮助它提供饮料。"
+ },
+ {
+  "seg": 42,
+  "start": 373.584,
+  "end": 375.505,
+  "speaker": "Unknown",
+  "en": "Even on its own, this task is really difficult.",
+  "zh": "即使它自己，这项任务也是非常困难的。"
+ },
+ {
+  "seg": 43,
+  "start": 375.825,
+  "end": 382.566,
+  "speaker": "Unknown",
+  "en": "So actually operating the portafilter requires very precise and forceful control to insert it appropriately.",
+  "zh": "所以实际上操作无底把手需要非常精确和有力的控制来适当地插入它。"
+ },
+ {
+  "seg": 44,
+  "start": 383.69,
+  "end": 388.751,
+  "speaker": "Unknown",
+  "en": "It also needs to smoothly handle cups with liquid in it and not spill those cups.",
+  "zh": "它还需要平稳地处理装有液体的杯子而不洒出那些杯子。"
+ },
+ {
+  "seg": 45,
+  "start": 389.431,
+  "end": 394.833,
+  "speaker": "Unknown",
+  "en": "And it also needs to have an accurate sense of timing, which often isn't actually an issue in other areas of machine learning.",
+  "zh": "它还需要有准确的时机感，这通常在机器学习的其他领域实际上不是问题。"
+ },
+ {
+  "seg": 46,
+  "start": 396.273,
+  "end": 401.354,
+  "speaker": "Unknown",
+  "en": "And not only do we want to do this pretty challenging task, we want to do it with over 90% reliability.",
+  "zh": "而且不仅我们想完成这个相当具有挑战性的任务，我们要以超过 90% 的可靠性来完成它。"
+ },
+ {
+  "seg": 47,
+  "start": 403.015,
+  "end": 403.835,
+  "speaker": "Unknown",
+  "en": "So how can we do this?",
+  "zh": "那么我们要怎么做呢？"
+ },
+ {
+  "seg": 48,
+  "start": 404.975,
+  "end": 411.757,
+  "speaker": "Unknown",
+  "en": "So the first step in machine learning is always to collect some data set, train a model, and evaluate how good your model is.",
+  "zh": "所以机器学习的第一步总是收集一些数据集，训练一个模型，并评估你的模型有多好。"
+ },
+ {
+  "seg": 49,
+  "start": 413.295,
+  "end": 417.497,
+  "speaker": "Unknown",
+  "en": "And unfortunately, this rarely works reliably on the very first try.",
+  "zh": "遗憾的是，这在第一次尝试时很少能可靠地工作。"
+ },
+ {
+  "seg": 50,
+  "start": 419.111,
+  "end": 438.746,
+  "speaker": "Unknown",
+  "en": "Now, in practice, then, it's a bit better to then iterate on the model that you've developed, where you will try to collect more data, or improve the quality of the labels in your dataset, or make the labels more detailed, collect more data of the edge cases, the scenarios where it's not working well, adjust the balancing of the dataset, and so forth.",
+  "zh": "那么，在实践中，最好是对你开发的模型进行迭代，在此过程中你会尝试收集更多数据，或者提高数据集中标签的质量，或者让标签更详细，收集更多边缘情况的数据，即那些表现不佳的场景，调整数据集的平衡，等等。"
+ },
+ {
+  "seg": 51,
+  "start": 438.806,
+  "end": 447.773,
+  "speaker": "Unknown",
+  "en": "And while this generally improves the reliability of the model, people eventually get tired, and it's hard to get really, really high reliability with a person that's manually tuning this.",
+  "zh": "虽然这通常能提高模型的可靠性，但人们最终会感到厌倦，而且通过人工微调很难获得非常非常高的可靠性。"
+ },
+ {
+  "seg": 52,
+  "start": 449.095,
+  "end": 461.4,
+  "speaker": "Unknown",
+  "en": "And so what would be even better is if the AI system itself can iterate on the scenario in which you want it to have high reliability, where it on its own automatically seeks out places where it needs more data, where it needs more supervision.",
+  "zh": "因此，更好的办法是 AI 系统本身可以在你希望其具有高可靠性的场景上进行迭代，让它自动独立地寻找需要更多数据的地方，以及需要更多监督的地方。"
+ },
+ {
+  "seg": 53,
+  "start": 462.481,
+  "end": 474.546,
+  "speaker": "Unknown",
+  "en": "And if we can do this for many, many more iterations because it's automatic rather than a person doing it, then this might be the way to get really, really high, like 99 plus percent reliability from physical AI systems.",
+  "zh": "如果我们能进行非常非常多次这样的迭代，因为它是自动的而不是人工做的，那么这可能是让物理 AI 系统获得真正非常高的，比如 99% 以上可靠性的途径。"
+ },
+ {
+  "seg": 54,
+  "start": 474.986,
+  "end": 477.207,
+  "speaker": "Unknown",
+  "en": "And so this is the approach that we'll take.",
+  "zh": "所以这就是我们要采用的方法。"
+ },
+ {
+  "seg": 55,
+  "start": 477.607,
+  "end": 483.949,
+  "speaker": "Unknown",
+  "en": "And this looks a lot like a reinforcement learning algorithm that's trying to attempt the task, learn from its failures, and get better and better on its own.",
+  "zh": "这看起来很像一种强化学习算法，试图尝试任务，从失败中学习，并自行变得越来越好。"
+ },
+ {
+  "seg": 56,
+  "start": 485.73,
+  "end": 489.751,
+  "speaker": "Unknown",
+  "en": "So then how do we develop a scalable reinforcement learning recipe for robotics?",
+  "zh": "那么，我们要如何为机器人开发可扩展的强化学习方案呢？"
+ },
+ {
+  "seg": 57,
+  "start": 491.312,
+  "end": 494.333,
+  "speaker": "Unknown",
+  "en": "Well, in language models, we have algorithms like PPO and GRPO.",
+  "zh": "嗯，在语言模型中，我们有像 PPO 和 GRPO 这样的算法。"
+ },
+ {
+  "seg": 58,
+  "start": 494.993,
+  "end": 498.754,
+  "speaker": "Unknown",
+  "en": "And these have scaled to large language models and have enabled really complex reasoning.",
+  "zh": "这些算法已经扩展到大语言模型，并实现了真正复杂的推理。"
+ },
+ {
+  "seg": 59,
+  "start": 500.515,
+  "end": 502.676,
+  "speaker": "Unknown",
+  "en": "But there's a bit of a challenge in applying this to robotics.",
+  "zh": "但将其应用于机器人技术有一点挑战。"
+ },
+ {
+  "seg": 60,
+  "start": 503.685,
+  "end": 512.166,
+  "speaker": "Unknown",
+  "en": "Which is that these algorithms have been trained with millions of attempts, or sometimes even tens of millions of attempts, by scaling up the compute.",
+  "zh": "也就是说，这些算法已经通过扩展算力，在数百万次尝试中进行了训练，有时甚至高达数千万次尝试。"
+ },
+ {
+  "seg": 61,
+  "start": 512.206,
+  "end": 518.528,
+  "speaker": "Unknown",
+  "en": "Because each attempt is simply running the language model in a data center just by using compute.",
+  "zh": "因为每次尝试只是在数据中心运行语言模型，只需使用算力。"
+ },
+ {
+  "seg": 62,
+  "start": 520.548,
+  "end": 529.57,
+  "speaker": "Unknown",
+  "en": "And if we were to translate this very, very approximately to robotics, say we had maybe not millions or tens of millions, but just one million trajectories of a one-minute robot task.",
+  "zh": "如果我们将其非常粗略地转换到机器人技术领域，假设我们可能没有数百万或数千万次尝试，而是一百万个一分钟机器人任务的轨迹。"
+ },
+ {
+  "seg": 63,
+  "start": 529.59,
+  "end": 531.85,
+  "speaker": "Unknown",
+  "en": "This is even shorter than the Espresso task that I talked about.",
+  "zh": "这甚至比我之前提到的 Espresso 任务还要短。"
+ },
+ {
+  "seg": 64,
+  "start": 533.149,
+  "end": 538.012,
+  "speaker": "Unknown",
+  "en": "This would correspond to 700 robot days to get high reliability for that task.",
+  "zh": "这将对应于 700 个机器人天数来获得该任务的高可靠性。"
+ },
+ {
+  "seg": 65,
+  "start": 538.893,
+  "end": 543.596,
+  "speaker": "Unknown",
+  "en": "Now, maybe this isn't completely out of the question, but this would be quite challenging to do.",
+  "zh": "现在，也许这并非完全不可能，但这做起来会相当具有挑战性。"
+ },
+ {
+  "seg": 66,
+  "start": 544.297,
+  "end": 547.859,
+  "speaker": "Unknown",
+  "en": "And that's because the calculus is a little bit different.",
+  "zh": "这是因为计算方式有点不同。"
+ },
+ {
+  "seg": 67,
+  "start": 547.879,
+  "end": 551.221,
+  "speaker": "Unknown",
+  "en": "We're not just running compute to optimize for a use case.",
+  "zh": "我们不只是运行算力来针对用例进行优化。"
+ },
+ {
+  "seg": 68,
+  "start": 551.842,
+  "end": 556.845,
+  "speaker": "Unknown",
+  "en": "We're actually running the robot in the real world and using the hardware and attempting the task in the real world.",
+  "zh": "我们实际上是在现实世界中运行机器人，使用硬件，并在现实世界中尝试任务。"
+ },
+ {
+  "seg": 69,
+  "start": 558.266,
+  "end": 561.769,
+  "speaker": "Unknown",
+  "en": "And so we'd like to have an algorithm that can iterate much more efficiently.",
+  "zh": "因此，我们需要一种能够更高效地进行迭代的算法。"
+ },
+ {
+  "seg": 70,
+  "start": 562.808,
+  "end": 565.81,
+  "speaker": "Unknown",
+  "en": "And there are actually ways that we can make these algorithms a lot more efficient.",
+  "zh": "实际上有一些方法可以让这些算法效率高得多。"
+ },
+ {
+  "seg": 71,
+  "start": 566.871,
+  "end": 572.935,
+  "speaker": "Unknown",
+  "en": "So there's a couple inefficiencies, like large inefficiencies in these reinforcement learning algorithms for language models.",
+  "zh": "所以在这些用于语言模型的强化学习算法中存在一些低效之处，比如很大的低效性。"
+ },
+ {
+  "seg": 72,
+  "start": 574.156,
+  "end": 578.038,
+  "speaker": "Unknown",
+  "en": "The first is that they spend a lot of time on dead end trajectories.",
+  "zh": "首先是它们在死胡同轨迹上花费了大量时间。"
+ },
+ {
+  "seg": 73,
+  "start": 578.138,
+  "end": 583.302,
+  "speaker": "Unknown",
+  "en": "And maybe this is okay if you're just spending compute on it, but this would cost a lot in the physical world.",
+  "zh": "如果你只是为此花费算力，这也许还可以，但在现实世界中这会代价高昂。"
+ },
+ {
+  "seg": 74,
+  "start": 584.01,
+  "end": 585.251,
+  "speaker": "Unknown",
+  "en": "So we can look at a concrete example.",
+  "zh": "所以我们可以看一个具体的例子。"
+ },
+ {
+  "seg": 75,
+  "start": 585.271,
+  "end": 589.375,
+  "speaker": "Unknown",
+  "en": "Say that we want our robot to construct cardboard boxes and stack them on the right.",
+  "zh": "假设我们要让机器人制作纸箱并将它们堆叠在右边。"
+ },
+ {
+  "seg": 76,
+  "start": 590.116,
+  "end": 595.461,
+  "speaker": "Unknown",
+  "en": "And in this trajectory right here, the robot accidentally grabbed two boxes that are flush against each other.",
+  "zh": "在这条轨迹中，机器人意外地抓住了两个紧贴在一起的箱子。"
+ },
+ {
+  "seg": 77,
+  "start": 596.042,
+  "end": 601.467,
+  "speaker": "Unknown",
+  "en": "And if we let it continue, it would just continue to try to fold that box rather than separate out the two boxes.",
+  "zh": "如果我们让它继续下去，它只会继续尝试折叠那个箱子，而不是把这两个箱子分开。"
+ },
+ {
+  "seg": 78,
+  "start": 602.108,
+  "end": 607.614,
+  "speaker": "Unknown",
+  "en": "And trying to fold two boxes together isn't useful data that will teach the model how to get better at the task.",
+  "zh": "试图一起折叠两个箱子并不是有用的数据，不会教导模型如何更好地完成任务。"
+ },
+ {
+  "seg": 79,
+  "start": 608.194,
+  "end": 614.437,
+  "speaker": "Unknown",
+  "en": "And so that would be kind of wasting a lot of time on the robot attempting to go down the wrong path for solving the problem.",
+  "zh": "所以这会在机器人试图沿着解决问题的错误路径走下去时浪费大量时间。"
+ },
+ {
+  "seg": 80,
+  "start": 615.618,
+  "end": 625.003,
+  "speaker": "Unknown",
+  "en": "And so instead of spending a lot of time trying to do that task, what we'll do is we'll actually have a human intervene and show the robot what to do and how to recover from that situation.",
+  "zh": "因此，与其花大量时间尝试做那个任务，我们要做的是实际上让人类干预并向机器人展示该做什么以及如何从那种情况中恢复。"
+ },
+ {
+  "seg": 81,
+  "start": 625.985,
+  "end": 636.534,
+  "speaker": "Unknown",
+  "en": "And so what you can see here is a human is teleoperating and intervening with the robot and showing it that to recover from this situation, it needs to essentially try to separate out the two boxes.",
+  "zh": "所以在这里你可以看到一个人正在远程操作并干预机器人，向它展示为了从这种情况中恢复，它本质上需要尝试将两个箱子分开。"
+ },
+ {
+  "seg": 82,
+  "start": 637.335,
+  "end": 641.638,
+  "speaker": "Unknown",
+  "en": "It then kind of puts its gripper in, sees if the robot could autonomously recover.",
+  "zh": "然后它将夹爪放入，看看机器人是否能自主恢复。"
+ },
+ {
+  "seg": 83,
+  "start": 641.779,
+  "end": 643.02,
+  "speaker": "Unknown",
+  "en": "It doesn't autonomously recover.",
+  "zh": "它没有自主恢复。"
+ },
+ {
+  "seg": 84,
+  "start": 643.34,
+  "end": 651.587,
+  "speaker": "Unknown",
+  "en": "And so the person then intervenes again to help it get back on the right track so that we're efficiently using the data on the robot.",
+  "zh": "所以人再次干预以帮助它回到正轨，以便我们高效地使用机器人上的数据。"
+ },
+ {
+  "seg": 85,
+  "start": 654.18,
+  "end": 664.246,
+  "speaker": "Unknown",
+  "en": "Okay, so this is the first thing that we can do, which is we can show the robot how to recover early, or how to recover so that we're not spending time on dead end trajectories, or at the very least just terminate the episode early.",
+  "zh": "好的，所以这是我们可以做的第一件事，就是我们可以尽早向机器人展示如何恢复，或者如何恢复，这样我们就不会在死胡同轨迹上花费时间，或者至少尽早终止这一回合。"
+ },
+ {
+  "seg": 86,
+  "start": 665.947,
+  "end": 675.873,
+  "speaker": "Unknown",
+  "en": "Now, the second thing that we can do is PPO and GRPO and these kinds of algorithms, they make many attempts at a single prompt.",
+  "zh": "现在，我们可以做的第二件事是，PPO 和 GRPO 以及这类算法，它们对单个提示词进行多次尝试。"
+ },
+ {
+  "seg": 87,
+  "start": 675.973,
+  "end": 682.777,
+  "speaker": "Unknown",
+  "en": "And depending on the algorithm, they're essentially trying to estimate for these different responses, what is a good response and what's a bad response.",
+  "zh": "根据算法的不同，它们本质上是在试图针对这些不同的回复，评估什么是好的回复，什么是坏的回复。"
+ },
+ {
+  "seg": 88,
+  "start": 683.679,
+  "end": 690.306,
+  "speaker": "Unknown",
+  "en": "And so even for an individual prompt, they're actually going to kind of roll out like 10 or 50 times for that individual prompt.",
+  "zh": "所以即使对于单个提示词，它们实际上也会针对那个单独的提示词像推出 10 次或 50 次。"
+ },
+ {
+  "seg": 89,
+  "start": 691.387,
+  "end": 700.677,
+  "speaker": "Unknown",
+  "en": "And they're doing this because they're trying to estimate the value of these different attempts to then kind of increase the likelihood of good things and decrease the likelihood of bad things.",
+  "zh": "它们这样做是因为它们试图评估这些不同尝试的价值，然后以此增加好事的可能性并减少坏事的可能性。"
+ },
+ {
+  "seg": 90,
+  "start": 701.697,
+  "end": 703.959,
+  "speaker": "Unknown",
+  "en": "But we can actually amortize this cost.",
+  "zh": "但我们实际上可以分摊这种成本。"
+ },
+ {
+  "seg": 91,
+  "start": 704.019,
+  "end": 714.91,
+  "speaker": "Unknown",
+  "en": "Rather than trying to collect a lot of attempts for a single prompt, we can amortize this across different prompts and learn a much more general value estimate of what's good and what's bad and use this to improve with our autonomous experience.",
+  "zh": "与其试图为单个提示词收集大量尝试，我们可以将其分摊到不同的提示词中，并学习一个更通用的关于好坏的评估，并用它来结合我们的自主经验进行改进。"
+ },
+ {
+  "seg": 92,
+  "start": 716.117,
+  "end": 724.639,
+  "speaker": "Unknown",
+  "en": "And so what this looks like is we can train a general purpose value function on lots of kind of videos of the robot experience.",
+  "zh": "所以这看起来像是，我们可以在大量的机器人经验视频上训练一个通用的价值函数。"
+ },
+ {
+  "seg": 93,
+  "start": 724.979,
+  "end": 731.701,
+  "speaker": "Unknown",
+  "en": "And this can learn things like if it accidentally unfolds a shirt when it's trying to fold, that that's bad and that's making negative progress.",
+  "zh": "这可以学习诸如，如果它在试图折叠时意外地展开了衬衫，那是坏事，那是负面进展。"
+ },
+ {
+  "seg": 94,
+  "start": 731.921,
+  "end": 732.581,
+  "speaker": "Unknown",
+  "en": "It's shown in red.",
+  "zh": "这用红色显示。"
+ },
+ {
+  "seg": 95,
+  "start": 733.001,
+  "end": 736.222,
+  "speaker": "Unknown",
+  "en": "Or if it's making kind of forward progress, it recognizes that as well.",
+  "zh": "或者如果它正在取得某种正向进展，它也能识别出这一点。"
+ },
+ {
+  "seg": 96,
+  "start": 737.722,
+  "end": 745.829,
+  "speaker": "Unknown",
+  "en": "And the same value function can also estimate what's good and bad for a completely different scenario, in this case for retrieving an item from a fridge.",
+  "zh": "同样的价值函数也可以评估对于完全不同的场景什么是好什么是坏，在这种情况下是从冰箱中取出物品。"
+ },
+ {
+  "seg": 97,
+  "start": 747.09,
+  "end": 759.982,
+  "speaker": "Unknown",
+  "en": "And so this sort of kind of general purpose value model that's kind of predicting basically the time to success can basically significantly reduce the amount of attempts needed to learn how to improve from experience.",
+  "zh": "所以这种通用的价值模型，基本上是在预测成功所需的时间，可以显著减少从经验中学习如何改进所需的尝试次数。"
+ },
+ {
+  "seg": 98,
+  "start": 761.955,
+  "end": 784.743,
+  "speaker": "Unknown",
+  "en": "So with these two kind of improvements to a reinforcement learning system we kind of have a general improvement algorithm that trains a foundation model on diverse data then collects experience from that with a human intervening as necessary to help prevent dead-end trajectories and then train a general purpose estimate of what's good and bad the value function and then use that to improve the model.",
+  "zh": "因此，通过这两种对强化学习系统的改进，我们有了一种通用的改进算法，它在多样化的数据上训练一个基础模型，然后从中收集经验，并有人类在必要时干预以帮助防止死胡同轨迹，然后训练一个通用的关于好坏的估计，即价值函数，然后用它来改进模型。"
+ },
+ {
+  "seg": 99,
+  "start": 786.179,
+  "end": 792.944,
+  "speaker": "Unknown",
+  "en": "And with this sort of improvement, we're able to kind of fine tune a foundation model to higher degrees of performance.",
+  "zh": "通过这种改进，我们能够将基础模型微调到更高程度的性能。"
+ },
+ {
+  "seg": 100,
+  "start": 794.385,
+  "end": 806.014,
+  "speaker": "Unknown",
+  "en": "So in the task of making a latte, in this case, we'll be making a latte in collaboration with a person where the robot is in charge of making the espresso and the person is in charge of steaming the milk.",
+  "zh": "所以在制作拿铁的任务中，在这个案例里，我们将与一个人协作制作拿铁，其中机器人负责制作浓缩咖啡，人负责蒸牛奶。"
+ },
+ {
+  "seg": 101,
+  "start": 806.134,
+  "end": 809.137,
+  "speaker": "Unknown",
+  "en": "This is what the kind of model looks like.",
+  "zh": "这就是这类模型的样子。"
+ },
+ {
+  "seg": 102,
+  "start": 809.157,
+  "end": 815.662,
+  "speaker": "Unknown",
+  "en": "The model is directly controlling the joints of the robot using the images from the robot's cameras as input.",
+  "zh": "该模型直接利用来自机器人摄像头的图像作为输入来控制机器人的关节。"
+ },
+ {
+  "seg": 103,
+  "start": 817.105,
+  "end": 830.128,
+  "speaker": "Unknown",
+  "en": "And we can see that the model is able to do the pretty challenging task of inserting the portafilter, waiting the appropriate amount of time for the espresso to dispense, pouring the steamed milk into the cup.",
+  "zh": "我们可以看到该模型能够执行插入手柄、等待适当的时间让浓缩咖啡流出、将蒸好的牛奶倒入杯子这些相当具有挑战性的任务。"
+ },
+ {
+  "seg": 104,
+  "start": 831.629,
+  "end": 843.072,
+  "speaker": "Unknown",
+  "en": "And then the last part of this task is actually the most challenging, where it needs to take a very full latte, cup of latte, and transfer that over to the coaster.",
+  "zh": "而这个任务的最后一部分实际上是最具挑战性的，它需要拿一杯非常满的拿铁，也就是一杯拿铁咖啡，并将其转移到杯垫上。"
+ },
+ {
+  "seg": 105,
+  "start": 844.44,
+  "end": 847.581,
+  "speaker": "Unknown",
+  "en": "So here's actually the observation that the robot sees directly.",
+  "zh": "所以这实际上是机器人直接看到的观察结果。"
+ },
+ {
+  "seg": 106,
+  "start": 849.701,
+  "end": 857.183,
+  "speaker": "Unknown",
+  "en": "And you can see that the policy is super delicate and able to balance the cup appropriately and smoothly so that the latte doesn't spill.",
+  "zh": "你可以看到该策略非常精细，能够平稳且适当地平衡杯子，以便拿铁不会洒出来。"
+ },
+ {
+  "seg": 107,
+  "start": 860.084,
+  "end": 863.225,
+  "speaker": "Unknown",
+  "en": "So this kind of gives you a sense of the difficulty of this kind of task.",
+  "zh": "所以这让你对这类任务的难度有了一定的了解。"
+ },
+ {
+  "seg": 108,
+  "start": 866.228,
+  "end": 874.258,
+  "speaker": "Unknown",
+  "en": "Kind of going back to this reliability question, we took this policy and we ran it not just once, but we ran it for 13 hours straight.",
+  "zh": "回到这个可靠性的问题，我们采用这个策略并不仅仅运行了一次，而是连续运行了 13 个小时。"
+ },
+ {
+  "seg": 109,
+  "start": 875.62,
+  "end": 884.09,
+  "speaker": "Unknown",
+  "en": "And we basically wanted to evaluate, is this policy not only good at making a latte once, but can it do so reliably to the extent that it would be needed to be useful in the real world?",
+  "zh": "我们基本上想评估的是，这个策略不仅擅长制作一次拿铁，而且能否可靠地进行制作，达到在现实世界中实用所需的程度？"
+ },
+ {
+  "seg": 110,
+  "start": 885.386,
+  "end": 888.371,
+  "speaker": "Unknown",
+  "en": "And so here's a time lapse of that process.",
+  "zh": "所以这里是该过程的延时摄影。"
+ },
+ {
+  "seg": 111,
+  "start": 889.032,
+  "end": 897.065,
+  "speaker": "Unknown",
+  "en": "And indeed, we found that the robot was reliable enough to be useful for long stretches of time without making mistakes frequently.",
+  "zh": "事实上，我们发现该机器人足够可靠，能够在很长一段时间内发挥作用而不频繁犯错。"
+ },
+ {
+  "seg": 112,
+  "start": 898.746,
+  "end": 901.848,
+  "speaker": "Unknown",
+  "en": "Now, the same algorithm isn't specific for making lattes, of course.",
+  "zh": "当然，同样的算法并不特定于制作拿铁。"
+ },
+ {
+  "seg": 113,
+  "start": 902.008,
+  "end": 905.711,
+  "speaker": "Unknown",
+  "en": "And so we also applied this to other applications as well.",
+  "zh": "所以我们也将其应用于其他应用程序。"
+ },
+ {
+  "seg": 114,
+  "start": 905.731,
+  "end": 908.132,
+  "speaker": "Unknown",
+  "en": "Dandelion Chocolate Factory is a few blocks from our office.",
+  "zh": "Dandelion 巧克力工厂距离我们的办公室有几个街区。"
+ },
+ {
+  "seg": 115,
+  "start": 908.212,
+  "end": 915.077,
+  "speaker": "Unknown",
+  "en": "And so we took a workflow that they typically have a person do, which is to construct these cardboard boxes, label them, and stack them.",
+  "zh": "因此我们采用了一个通常由人来完成的工作流程，即构建这些纸箱、贴标签并堆叠它们。"
+ },
+ {
+  "seg": 116,
+  "start": 915.638,
+  "end": 919,
+  "speaker": "Unknown",
+  "en": "And we trained our robot to basically do exactly their real workflow.",
+  "zh": "并且我们训练我们的机器人基本上完全按照他们的真实工作流程来执行。"
+ },
+ {
+  "seg": 117,
+  "start": 919.821,
+  "end": 929.279,
+  "speaker": "Unknown",
+  "en": "And trained it with the reinforcement learning algorithm that I talked about to get a policy that is far more reliable at constructing, labeling, and stacking these boxes.",
+  "zh": "并使用我之前提到的强化学习算法对其进行训练，从而获得一个在构建、标记和堆叠这些箱子方面更可靠的策略。"
+ },
+ {
+  "seg": 118,
+  "start": 931.416,
+  "end": 935.179,
+  "speaker": "Unknown",
+  "en": "And then we also applied this algorithm to folding clothes as well.",
+  "zh": "然后我们也将该算法应用于折叠衣服。"
+ },
+ {
+  "seg": 119,
+  "start": 935.579,
+  "end": 941.204,
+  "speaker": "Unknown",
+  "en": "We wanted in this case to not just test how well the model could do one task in one environment, but to do it in many environments.",
+  "zh": "在这个案例中，我们不仅要测试模型在一个环境中执行一项任务的效果如何，还要在许多环境中进行测试。"
+ },
+ {
+  "seg": 120,
+  "start": 941.244,
+  "end": 945.427,
+  "speaker": "Unknown",
+  "en": "And so these are clothing items that the robot has never seen before in a home that's never seen before.",
+  "zh": "所以这些是机器人以前从未见过的衣物，而且是在一个以前从未见过的家庭中。"
+ },
+ {
+  "seg": 121,
+  "start": 946.388,
+  "end": 950.932,
+  "speaker": "Unknown",
+  "en": "And it's able to do so and act autonomously for an extended period of time.",
+  "zh": "并且它能够做到这一点并自主运行很长一段时间。"
+ },
+ {
+  "seg": 122,
+  "start": 953.326,
+  "end": 956.97,
+  "speaker": "Unknown",
+  "en": "Now, videos don't always kind of show everything.",
+  "zh": "现在，视频并不总是能展示一切。"
+ },
+ {
+  "seg": 123,
+  "start": 956.99,
+  "end": 960.434,
+  "speaker": "Unknown",
+  "en": "And so we also quantitatively measured the reliability of these models.",
+  "zh": "所以我们也对量这些模型的可靠性进行了定量测量。"
+ },
+ {
+  "seg": 124,
+  "start": 960.454,
+  "end": 966.521,
+  "speaker": "Unknown",
+  "en": "And we care both about the reliability as well as the speed, like how many boxes can it build per hour.",
+  "zh": "我们既关心可靠性也关心速度，比如它每小时能建多少个箱子。"
+ },
+ {
+  "seg": 125,
+  "start": 966.661,
+  "end": 971.346,
+  "speaker": "Unknown",
+  "en": "And so we're going to measure throughput, which kind of couples both success rate and speed.",
+  "zh": "所以我们要测量吞吐量，它将成功率和速度结合在一起。"
+ },
+ {
+  "seg": 126,
+  "start": 972.467,
+  "end": 992.299,
+  "speaker": "Unknown",
+  "en": "And we find that over the phases of training, from pre-training to an SFT-like stage to an RL post-training-like stage, we see a drastic increase in success rate in seed, in throughput, and specifically around a 2x throughput just from the RL stage itself, showing how we can get much greater reliability from reinforcement learning.",
+  "zh": "我们发现，在训练的各个阶段，从预训练到类似 SFT 的阶段，再到类似 RL 后训练的阶段，我们在成功率、吞吐量方面看到了急剧的增加，特别是仅 RL 阶段就带来了大约 2 倍的吞吐量，这展示了我们如何通过强化学习获得更高的可靠性。"
+ },
+ {
+  "seg": 127,
+  "start": 992.919,
+  "end": 997.923,
+  "speaker": "Unknown",
+  "en": "And for the Espresso task, if we look specifically at the success rate, we achieved over 90% success rate on making Espresso.",
+  "zh": "对于浓缩咖啡任务，如果我们专门看成功率，我们在制作浓缩咖啡上实现了超过 90% 的成功率。"
+ },
+ {
+  "seg": 128,
+  "start": 1002.108,
+  "end": 1009.113,
+  "speaker": "Unknown",
+  "en": "So the takeaways for this part is that we can develop a scalable recipe for high reliability of complex robotic manipulation tasks.",
+  "zh": "所以这部分的关键结论是，我们可以开发一种可扩展的方法，以实现复杂机器人操纵任务的高可靠性。"
+ },
+ {
+  "seg": 129,
+  "start": 1009.914,
+  "end": 1013.877,
+  "speaker": "Unknown",
+  "en": "And we saw, in this case, a 2x higher throughput from using experience and interventions.",
+  "zh": "在这个案例中，我们通过使用经验和干预，看到了高出 2 倍的吞吐量。"
+ },
+ {
+  "seg": 130,
+  "start": 1014.657,
+  "end": 1024.184,
+  "speaker": "Unknown",
+  "en": "But most importantly, we saw how we can achieve long-term autonomy in real workflows that people actually care about in the real world.",
+  "zh": "但最重要的是，我们看到了如何在现实世界中人们真正关心的真实工作流程中实现长期自主。"
+ },
+ {
+  "seg": 131,
+  "start": 1024.544,
+  "end": 1028.147,
+  "speaker": "Unknown",
+  "en": "And this is what it's going to take, I think, for robots to be useful in the real world.",
+  "zh": "我认为，这正是机器人在现实世界中发挥作用所需要的。"
+ },
+ {
+  "seg": 132,
+  "start": 1029.598,
+  "end": 1032.32,
+  "speaker": "Unknown",
+  "en": "Now, there's also a lot more work and a lot more opportunities.",
+  "zh": "现在，还有更多的工作和更多的机会。"
+ },
+ {
+  "seg": 133,
+  "start": 1033.761,
+  "end": 1037.144,
+  "speaker": "Unknown",
+  "en": "We actually only ran a few iterations of improvement of this algorithm.",
+  "zh": "实际上我们只对这个算法进行了几次改进迭代。"
+ },
+ {
+  "seg": 134,
+  "start": 1037.184,
+  "end": 1041.747,
+  "speaker": "Unknown",
+  "en": "And with more iterations, we should be able to see even greater improvement or even greater reliability.",
+  "zh": "通过更多次的迭代，我们应该能够看到更大的改进甚至更高的可靠性。"
+ },
+ {
+  "seg": 135,
+  "start": 1042.468,
+  "end": 1045.03,
+  "speaker": "Unknown",
+  "en": "And even with this improvement, the robot still makes mistakes.",
+  "zh": "即使有了这种改进，机器人仍然会犯错。"
+ },
+ {
+  "seg": 136,
+  "start": 1045.47,
+  "end": 1046.931,
+  "speaker": "Unknown",
+  "en": "It's also still slower than people.",
+  "zh": "它仍然比人慢。"
+ },
+ {
+  "seg": 137,
+  "start": 1046.951,
+  "end": 1052.135,
+  "speaker": "Unknown",
+  "en": "And so there's a ton of room for improvement for developing even more powerful recipes.",
+  "zh": "所以在开发更强大的方法方面，仍有很大的改进空间。"
+ },
+ {
+  "seg": 138,
+  "start": 1052.756,
+  "end": 1055.778,
+  "speaker": "Unknown",
+  "en": "So we've seen long-term autonomy for these different workflows.",
+  "zh": "所以我们已经看到了这些不同工作流程的长期自主。"
+ },
+ {
+  "seg": 139,
+  "start": 1056.851,
+  "end": 1064.856,
+  "speaker": "Unknown",
+  "en": "But there's actually one more ingredient that I'd like to talk about for enabling robots to be autonomous and useful for long periods of time.",
+  "zh": "但实际上还有一个因素我想谈谈，它是让机器人在长时间内自主发挥作用的关键。"
+ },
+ {
+  "seg": 140,
+  "start": 1066.096,
+  "end": 1068.217,
+  "speaker": "Unknown",
+  "en": "And that ingredient is memory.",
+  "zh": "这个因素就是记忆。"
+ },
+ {
+  "seg": 141,
+  "start": 1068.778,
+  "end": 1076.122,
+  "speaker": "Unknown",
+  "en": "So you might be surprised to hear that most state-of-the-art foundation models for robotics have no memory or no context.",
+  "zh": "所以你可能会惊讶地听到，大多数最先进的机器人基础模型没有记忆或没有上下文。"
+ },
+ {
+  "seg": 142,
+  "start": 1076.602,
+  "end": 1084.887,
+  "speaker": "Unknown",
+  "en": "They're just operating on the current sensor observations, the current camera readings, and predicting actions based off of that.",
+  "zh": "它们只是根据当前的传感器观测值、当前的摄像头读数进行操作，并据此预测动作。"
+ },
+ {
+  "seg": 143,
+  "start": 1085.888,
+  "end": 1090.612,
+  "speaker": "Unknown",
+  "en": "And you actually can do short motor skills.",
+  "zh": "你实际上可以执行短时的运动技能。"
+ },
+ {
+  "seg": 144,
+  "start": 1090.632,
+  "end": 1092.674,
+  "speaker": "Unknown",
+  "en": "You can do repetitive tasks without memory.",
+  "zh": "你可以在没有记忆的情况下完成重复性任务。"
+ },
+ {
+  "seg": 145,
+  "start": 1092.874,
+  "end": 1095.436,
+  "speaker": "Unknown",
+  "en": "The videos that I showed before didn't have any context either.",
+  "zh": "我之前展示的视频也没有任何上下文。"
+ },
+ {
+  "seg": 146,
+  "start": 1096.598,
+  "end": 1105.525,
+  "speaker": "Unknown",
+  "en": "But if you want to do a long task that involves multiple different steps in sequence, then memory is critical for tracking progress of the steps that you've completed so far.",
+  "zh": "但是如果你要执行一项包含多个不同步骤的序列的长任务，那么记忆对于追踪你目前已完成的步骤的进度至关重要。"
+ },
+ {
+  "seg": 147,
+  "start": 1107.327,
+  "end": 1112.652,
+  "speaker": "Unknown",
+  "en": "So if it's critical for doing these kinds of long horizon tasks, then why don't these models have any context or memory?",
+  "zh": "既然这对于执行这类长视野任务至关重要，那为什么这些模型没有任何上下文或记忆呢？"
+ },
+ {
+  "seg": 148,
+  "start": 1113.766,
+  "end": 1134.273,
+  "speaker": "Unknown",
+  "en": "There's a couple reasons for this that are technical and I'll talk through one of them which is that if you naively approach memory and try to feed in context like pass video to a robot foundation model say that you would just pass in 10 seconds of video maybe these 10 seconds of video is sampled at 50 hertz which is a common control frequency in robotics",
+  "zh": "这有几个技术原因，我会讲其中一个，那就是如果你天真地处理记忆并尝试输入上下文，比如将视频传递给机器人基础模型，假设你只传入 10 秒的视频，也许这 10 秒的视频是以 50 赫兹采样的，这是机器人技术中常见的控制频率"
+ },
+ {
+  "seg": 149,
+  "start": 1134.673,
+  "end": 1136.834,
+  "speaker": "Unknown",
+  "en": "And you feed in all four camera streams on the robot.",
+  "zh": "并且你输入机器人上的所有四个摄像头流。"
+ },
+ {
+  "seg": 150,
+  "start": 1137.454,
+  "end": 1140.315,
+  "speaker": "Unknown",
+  "en": "And you use around 256 tokens per image.",
+  "zh": "你每张图像使用大约 256 个 token。"
+ },
+ {
+  "seg": 151,
+  "start": 1140.335,
+  "end": 1145.758,
+  "speaker": "Unknown",
+  "en": "This corresponds to passing in half a million tokens into your model, which is a lot of tokens.",
+  "zh": "这相当于向你的模型传入 50 万个 token，这是大量的 token。"
+ },
+ {
+  "seg": 152,
+  "start": 1145.818,
+  "end": 1151.16,
+  "speaker": "Unknown",
+  "en": "And trying to do that in real time into your model right now is quite challenging.",
+  "zh": "试图在实时中向你的模型做到这一点目前是相当具有挑战性的。"
+ },
+ {
+  "seg": 153,
+  "start": 1151.66,
+  "end": 1161.004,
+  "speaker": "Unknown",
+  "en": "Even if you subsample to one frame per second, you're still going to be passing in 10,000 tokens into your model, which at least right now is prohibitively expensive for these models.",
+  "zh": "即使你每秒子采样一帧，你仍然要向模型传入 10,000 个 token，这在至少目前对这些模型来说是贵得令人望而却步的。"
+ },
+ {
+  "seg": 154,
+  "start": 1161.024,
+  "end": 1162.725,
+  "speaker": "Unknown",
+  "en": "And that's still only 10 seconds of memory.",
+  "zh": "而且这仍然只有 10 秒的记忆。"
+ },
+ {
+  "seg": 155,
+  "start": 1164.449,
+  "end": 1173.936,
+  "speaker": "Unknown",
+  "en": "So I don't have time to go into the technical details of exactly what we did here, but we also developed a solution for this context problem.",
+  "zh": "所以我没有时间深入探讨我们在这里所做的确切技术细节，但我们也为这个上下文问题开发了一个解决方案。"
+ },
+ {
+  "seg": 156,
+  "start": 1174.396,
+  "end": 1178.66,
+  "speaker": "Unknown",
+  "en": "And specifically, we developed a system that has memory at multiple timescales.",
+  "zh": "具体来说，我们开发了一个具有多时间尺度记忆的系统。"
+ },
+ {
+  "seg": 157,
+  "start": 1179.02,
+  "end": 1188.007,
+  "speaker": "Unknown",
+  "en": "The first is a short-term video memory that has about 10 seconds of video memory, but is done so and computed much more efficiently than naively passing it into the model.",
+  "zh": "第一个是短期视频记忆，它拥有大约 10 秒的视频记忆，但是是以一种比朴素地将其传入模型更高效的方式完成和计算的。"
+ },
+ {
+  "seg": 158,
+  "start": 1189.083,
+  "end": 1199.109,
+  "speaker": "Unknown",
+  "en": "And then for longer memory, for memory that spans multiple minutes or multiple hours, we don't necessarily need video of exactly what happened in that past history.",
+  "zh": "然后对于更长的记忆，对于跨越数分钟或数小时的记忆，我们不一定需要过去历史中确切发生了什么的视频。 [[159] ] 因此，对于这些部分，我们在文本中表示记忆，我们在文本空间中总结了发生的事情，然后将在过去 10 到 15 分钟内发生的更压缩的文本总结也并入模型。"
+ },
+ {
+  "seg": 159,
+  "start": 1199.469,
+  "end": 1214.499,
+  "speaker": "Unknown",
+  "en": "And so instead we represent memory for those parts in text where we summarize what happened in text space and then incorporate that much more compressed textual summary of what happened over the past 10, 15 minutes into the model as well.",
+  "zh": "因此，我们将这些部分的记忆以文本形式表示，我们在文本空间中总结了发生的事情，然后将过去 10 到 15 分钟内发生的事情的这种更压缩的文本摘要也纳入模型中。"
+ },
+ {
+  "seg": 160,
+  "start": 1215.901,
+  "end": 1229.269,
+  "speaker": "Unknown",
+  "en": "And with this sort of kind of memory at multiple different time scales, we're able to enable robots to do tasks that can operate for 10 or 15 minutes at a time completely autonomously.",
+  "zh": "通过这种在不同时间尺度上的记忆，我们能够使机器人执行任务，这些任务可以一次自主运行 10 或 15 分钟。"
+ },
+ {
+  "seg": 161,
+  "start": 1229.869,
+  "end": 1234.512,
+  "speaker": "Unknown",
+  "en": "And what's different from the previous slide or kind of what I showed previously is that this task isn't repetitive.",
+  "zh": "这与前一张幻灯片或我之前展示的不同之处在于，这个任务不是重复性的。"
+ },
+ {
+  "seg": 162,
+  "start": 1235.032,
+  "end": 1238.333,
+  "speaker": "Unknown",
+  "en": "So this is going to be a 10 to 15 minute task that's involved cleaning a kitchen.",
+  "zh": "所以这将是一个涉及清洁厨房的 10 到 15 分钟的任务。"
+ },
+ {
+  "seg": 163,
+  "start": 1239.013,
+  "end": 1242.654,
+  "speaker": "Unknown",
+  "en": "And the robot isn't just repeatedly making espresso over and over again.",
+  "zh": "机器人不仅仅是反复地制作浓缩咖啡。"
+ },
+ {
+  "seg": 164,
+  "start": 1243.295,
+  "end": 1250.537,
+  "speaker": "Unknown",
+  "en": "What it involves is wiping the counter with a sponge, kind of then drying the counter with a paper towel, throwing away the paper towel.",
+  "zh": "它涉及的是用海绵擦拭柜台，然后用纸巾擦干柜台，把纸巾扔掉。"
+ },
+ {
+  "seg": 165,
+  "start": 1250.977,
+  "end": 1254.058,
+  "speaker": "Unknown",
+  "en": "Next it's going to put away the mustard into the fridge.",
+  "zh": "接下来它要把芥末放回冰箱。"
+ },
+ {
+  "seg": 166,
+  "start": 1254.418,
+  "end": 1260.5,
+  "speaker": "Unknown",
+  "en": "Then it will put the dishes away into the cabinet, wash some of the dirty dishes in the sink, and so on.",
+  "zh": "然后它会把盘子放进橱柜，清洗水槽里的一些脏盘子，等等。"
+ },
+ {
+  "seg": 167,
+  "start": 1261.713,
+  "end": 1276.457,
+  "speaker": "Unknown",
+  "en": "And so by incorporating memory, it's able to do a task that requires keeping track of all of these different steps that is done to clean the kitchen and successfully operate for 10 to 15 minutes completely autonomously.",
+  "zh": "因此，通过纳入记忆，它能够执行一个任务，该任务需要跟踪清洁厨房所做的所有这些不同步骤，并完全自主地成功运行 10 到 15 分钟。"
+ },
+ {
+  "seg": 168,
+  "start": 1278.785,
+  "end": 1281.606,
+  "speaker": "Unknown",
+  "en": "Great, so those were a couple ingredients for long-term autonomy.",
+  "zh": "好的，这些就是长期自主性的几个要素。"
+ },
+ {
+  "seg": 169,
+  "start": 1282.286,
+  "end": 1295.65,
+  "speaker": "Unknown",
+  "en": "Now I'd like to build on that and actually take those ingredients and put it into a general purpose model that can do everything that I showed before, but also can do that in a single model and can do some other things as well.",
+  "zh": "现在我想以此为基础，实际上采用这些要素并将其放入一个通用模型中，该模型可以做我之前展示的所有事情，而且可以在单一模型中做到，还可以做一些其他事情。"
+ },
+ {
+  "seg": 170,
+  "start": 1297.69,
+  "end": 1302.452,
+  "speaker": "Unknown",
+  "en": "And to think about developing such a general purpose model, I think it's really helpful to contextualize",
+  "zh": "要考虑开发这样一个通用模型，我认为把它放在背景中来看真的很有帮助"
+ },
+ {
+  "seg": 171,
+  "start": 1303.631,
+  "end": 1310.529,
+  "speaker": "Unknown",
+  "en": "Like where robotics is at within the timeline of other developments in generalist AI.",
+  "zh": "就像机器人技术在通用人工智能的其他发展时间线中所处的位置。"
+ },
+ {
+  "seg": 172,
+  "start": 1311.883,
+  "end": 1324.409,
+  "speaker": "Unknown",
+  "en": "And if we think about how generalist AI systems have evolved over the past 15 years, I think the first major milestone was in 2012, when we saw that a deep learning system trained from scratch.",
+  "zh": "如果我们思考通用人工智能系统在过去 15 年中是如何演进的，我认为第一个主要里程碑是在 2012 年，当时我们看到一个从零开始训练的深度学习系统。"
+ },
+ {
+  "seg": 173,
+  "start": 1324.97,
+  "end": 1333.554,
+  "speaker": "Unknown",
+  "en": "This was the first time that it topped an external benchmark, and all of the previous methods for that benchmark were specifically designed for that application.",
+  "zh": "这是第一次它超越了一个外部基准，而该基准所有之前的方法都是专门为该应用设计的。"
+ },
+ {
+  "seg": 174,
+  "start": 1333.994,
+  "end": 1337.376,
+  "speaker": "Unknown",
+  "en": "So all of the previous methods, specifically this was the ImageNet benchmark,",
+  "zh": "所以所有之前的方法，特别是这是 ImageNet 基准，"
+ },
+ {
+  "seg": 175,
+  "start": 1338.176,
+  "end": 1346.203,
+  "speaker": "Unknown",
+  "en": "We're designed specifically for image classification, whereas this was the first time that a deep learning based system actually outperformed those more specialist systems.",
+  "zh": "都是专门为图像分类设计的，而这是第一次基于深度学习的系统实际上比那些更专业的系统表现得更好。"
+ },
+ {
+  "seg": 176,
+  "start": 1346.443,
+  "end": 1351.348,
+  "speaker": "Unknown",
+  "en": "And this is kind of a much more general algorithm that wasn't specifically designed for image recognition.",
+  "zh": "这是一种更通用的算法，不是专门为图像识别设计的。"
+ },
+ {
+  "seg": 177,
+  "start": 1352.866,
+  "end": 1364.09,
+  "speaker": "Unknown",
+  "en": "And then just a couple years later, we found that we weren't just training algorithms from scratch, but we were able to get models, like pre-trained models, that are useful for fine-tuning to downstream tasks.",
+  "zh": "然后就在几年后，我们发现我们不只是从零开始训练算法，而是我们能够获得模型，比如预训练模型，这些模型对于微调到下游任务是有用的。"
+ },
+ {
+  "seg": 178,
+  "start": 1364.13,
+  "end": 1374.694,
+  "speaker": "Unknown",
+  "en": "And so it became the norm to take a model that was pre-trained on ImageNet and then fine-tune it on a downstream task, and we actually saw better performance from using that pre-trained model like BERT or like an ImageNet pre-trained model.",
+  "zh": "因此，采用在 ImageNet 上预训练的模型然后在下游任务上进行微调成为了常态，并且我们实际上看到使用该预训练模型如 BERT 或 ImageNet 预训练模型获得了更好的性能。"
+ },
+ {
+  "seg": 179,
+  "start": 1376.855,
+  "end": 1391.203,
+  "speaker": "Unknown",
+  "en": "And then from there, I think the next big phase and the next big transition in generalist AI models wasn't using pre-trained models, but kind of moving from a pre-training fine-tuning regime to a regime where we're just using generalist models out of the box.",
+  "zh": "然后从那里开始，我认为下一个大阶段和通用人工智能模型的下一个大转变不是使用预训练模型，而是从预训练微调制度转向我们只是开箱即用使用通用模型的制度。"
+ },
+ {
+  "seg": 180,
+  "start": 1391.223,
+  "end": 1402.79,
+  "speaker": "Unknown",
+  "en": "This was with models like the start of GPT-2, and of course, almost all the models that we interact with today work just out of the box without fine-tuning, or at least most of the consumer models.",
+  "zh": "这是像 GPT-2 开始那样的模型，当然，今天我们交互的几乎所有的模型都是开箱即用的，不需要微调，或者至少大多数消费者模型是。"
+ },
+ {
+  "seg": 181,
+  "start": 1402.81,
+  "end": 1406.052,
+  "speaker": "Unknown",
+  "en": "There's actually other models that still use a lot of fine-tuning.",
+  "zh": "实际上还有其他模型仍然使用大量的微调。"
+ },
+ {
+  "seg": 182,
+  "start": 1407.378,
+  "end": 1417.428,
+  "speaker": "Unknown",
+  "en": "And then I think one other kind of milestone that I want to highlight was a milestone in 2021 where we think I saw the first signs of compositional generalization in these models.",
+  "zh": "然后我认为我想强调的另一个里程碑是 2021 年的一个里程碑，我们认为我在这些模型中看到了组合泛化的初步迹象。"
+ },
+ {
+  "seg": 183,
+  "start": 1418.389,
+  "end": 1423.493,
+  "speaker": "Unknown",
+  "en": "And kind of one specific instance of that was with DALI, and I'll talk a little bit more about that in a later slide.",
+  "zh": "其中的一个具体实例是 DALI，我将在后面的幻灯片中更多地谈论这一点。"
+ },
+ {
+  "seg": 184,
+  "start": 1424.675,
+  "end": 1428.458,
+  "speaker": "Unknown",
+  "en": "So this is how kind of generalist AI has advanced over the past 15 years.",
+  "zh": "所以这就是通用人工智能在过去 15 年中的进步方式。"
+ },
+ {
+  "seg": 185,
+  "start": 1429.539,
+  "end": 1431.921,
+  "speaker": "Unknown",
+  "en": "And then meanwhile, if we kind of think about physical AI,",
+  "zh": "与此同时，如果我们考虑物理 AI，"
+ },
+ {
+  "seg": 186,
+  "start": 1433.817,
+  "end": 1447.21,
+  "speaker": "Unknown",
+  "en": "Even just three years ago in 2023, it was extremely common for people working on robotics to collect a bespoke dataset from scratch for an individual project and train from scratch on that dataset.",
+  "zh": "即使仅在三年前的 2023 年，对于从事机器人工作的人来说，为单个项目从零开始收集定制数据集并在该数据集上从头训练仍然是极其普遍的。"
+ },
+ {
+  "seg": 187,
+  "start": 1448.422,
+  "end": 1458.313,
+  "speaker": "Unknown",
+  "en": "And this is analogous to, say, collecting ImageNet from scratch and training on ImageNet or training on the data set that you just collected from scratch on that data set.",
+  "zh": "这类似于，比如说，从零开始收集 ImageNet 并在 ImageNet 上训练，或者在你刚刚从零开始收集的数据集上进行训练。"
+ },
+ {
+  "seg": 188,
+  "start": 1458.333,
+  "end": 1467.103,
+  "speaker": "Unknown",
+  "en": "And so if you want to develop a general purpose model, if you have to collect the data set from scratch for every single project, you're probably not going to make a lot of progress.",
+  "zh": "所以如果你想开发一个通用模型，如果你必须为每个项目从头开始收集数据集，你可能不会取得太大进展。"
+ },
+ {
+  "seg": 189,
+  "start": 1468.766,
+  "end": 1475.531,
+  "speaker": "Unknown",
+  "en": "And so until just a few years ago, I think we were kind of pretty far on the left of this timeline.",
+  "zh": "直到几年前，我认为我们在这个时间线上还相当靠左。"
+ },
+ {
+  "seg": 190,
+  "start": 1476.211,
+  "end": 1485.377,
+  "speaker": "Unknown",
+  "en": "And until recently, I think that more recently, I think that we've been kind of in the 2014 phase where we have some good pre-trained models, but we haven't really been truly in the regime on the right.",
+  "zh": "直到最近，我认为更近的是，我认为我们一直处于 2014 年阶段，那里我们有一些好的预训练模型，但我们并没有真正处于右边的制度中。"
+ },
+ {
+  "seg": 191,
+  "start": 1487.358,
+  "end": 1488.819,
+  "speaker": "Unknown",
+  "en": "So how do we get to that regime on the right?",
+  "zh": "那么我们如何到达右边的制度呢？"
+ },
+ {
+  "seg": 192,
+  "start": 1488.859,
+  "end": 1495.724,
+  "speaker": "Unknown",
+  "en": "Specifically, how do we develop a single general purpose model that works out of the box and also shows compositional generalization?",
+  "zh": "具体来说，我们要如何开发一个单一的开箱即用且显示组合泛化的通用模型？"
+ },
+ {
+  "seg": 193,
+  "start": 1498.356,
+  "end": 1499.099,
+  "speaker": "Unknown",
+  "en": "So this has two goals.",
+  "zh": "这有两个目标。"
+ },
+ {
+  "seg": 194,
+  "start": 1499.119,
+  "end": 1500.383,
+  "speaker": "Unknown",
+  "en": "The first is out of the box model.",
+  "zh": "第一个是开箱即用的模型。"
+ },
+ {
+  "seg": 195,
+  "start": 1500.403,
+  "end": 1503.534,
+  "speaker": "Unknown",
+  "en": "This is analogous to going from like BERT to GPT.",
+  "zh": "这类似于从像 BERT 到 GPT 的转变。"
+ },
+ {
+  "seg": 196,
+  "start": 1504.964,
+  "end": 1513.77,
+  "speaker": "Unknown",
+  "en": "And right now, the best robot performance, if you want to get your model to perform the best that it can on a given task, it always requires fine-tuning.",
+  "zh": "目前，最好的机器人性能，如果你想让你的模型在给定任务上表现得最好，它总是需要微调。 [[197] ] 所以我在开始时展示的一些视频，它们是经过微调的模型来做像开锁这样的事情。"
+ },
+ {
+  "seg": 197,
+  "start": 1514.211,
+  "end": 1520.015,
+  "speaker": "Unknown",
+  "en": "So some of the videos that I showed at the beginning, they were fine-tuned models to do things like unlocking a lock.",
+  "zh": "所以我在开始时展示的一些视频，它们是经过微调的模型，用来做诸如解锁锁之类的事情。"
+ },
+ {
+  "seg": 198,
+  "start": 1520.095,
+  "end": 1525.058,
+  "speaker": "Unknown",
+  "en": "Other work that we've done on measuring human to robot transfer also needed fine-tuning to get the best performance.",
+  "zh": "我们在衡量人类到机器人迁移方面所做的其他工作也需要微调才能获得最佳性能。"
+ },
+ {
+  "seg": 199,
+  "start": 1525.759,
+  "end": 1534.365,
+  "speaker": "Unknown",
+  "en": "And of course, all of the videos that I showed with RL post-training were also fine-tuning on an individual task to get the best performance on something like making espresso.",
+  "zh": "当然，我展示的所有带有 RL 后训练的视频也是对单个任务进行微调，以在制作浓缩咖啡之类的事情上获得最佳性能。"
+ },
+ {
+  "seg": 200,
+  "start": 1535.862,
+  "end": 1544.834,
+  "speaker": "Unknown",
+  "en": "But if you have to fine tune a model, you actually aren't getting a general purpose model for the things that you want it to do because you have to fine tune it for each individual thing.",
+  "zh": "但是如果你必须对模型进行微调，你实际上并没有为你想要它做的事情获得一个通用模型，因为你必须为每一件单独的事情对它进行微调。"
+ },
+ {
+  "seg": 201,
+  "start": 1545.896,
+  "end": 1551.143,
+  "speaker": "Unknown",
+  "en": "And so our first goal is to move towards a single general purpose model that can actually do all of the things that you want it to do.",
+  "zh": "因此我们的第一个目标是迈向一个单一通用模型，它实际上可以做你想要它做的所有事情。"
+ },
+ {
+  "seg": 202,
+  "start": 1552.658,
+  "end": 1555.182,
+  "speaker": "Unknown",
+  "en": "And then the second goal that I mentioned is compositional generalization.",
+  "zh": "然后我提到的第二个目标是组合式泛化。"
+ },
+ {
+  "seg": 203,
+  "start": 1555.542,
+  "end": 1559.948,
+  "speaker": "Unknown",
+  "en": "And this is inspired by the DALI result from 2021.",
+  "zh": "这受到了 2021 年 DALI 结果的启发。"
+ },
+ {
+  "seg": 204,
+  "start": 1560.709,
+  "end": 1568.119,
+  "speaker": "Unknown",
+  "en": "And I think that this was a really important and exciting milestone because of the compositional generalization that it achieved.",
+  "zh": "我认为这是一个真正重要且令人兴奋的里程碑，因为它实现了组合式泛化。"
+ },
+ {
+  "seg": 205,
+  "start": 1569,
+  "end": 1587.791,
+  "speaker": "Unknown",
+  "en": "And specifically, when you have compositional generalization, when you can basically bridge the concept of an avocado and a chair and show that you can combine those two, it means that the model has at least some kind of conceptual understanding of what an avocado is and what a chair is, to the point that it can combine them into something that exhibits both concepts at the same time.",
+  "zh": "具体来说，当你拥有组合式泛化时，当你基本上可以连接牛油果和椅子的概念并展示你可以将这两者结合起来时，这意味着模型至少对牛油果是什么以及椅子是什么有某种概念上的理解，以至于它可以将它们结合成同时展示这两个概念的东西。"
+ },
+ {
+  "seg": 206,
+  "start": 1589.365,
+  "end": 1598.354,
+  "speaker": "Unknown",
+  "en": "And then second, it means that you have some degree of data efficiency where your data doesn't need to cover all of the possible combinations of concepts represented in your data.",
+  "zh": "其次，这意味着你有一定程度的数据效率，你的数据不需要覆盖数据中表示的所有可能的组合概念。"
+ },
+ {
+  "seg": 207,
+  "start": 1598.374,
+  "end": 1602.698,
+  "speaker": "Unknown",
+  "en": "You don't need pictures of avocado chairs in your dataset in order to generate something like this.",
+  "zh": "你的数据集中不需要牛油果椅子的图片就能生成这样的东西。"
+ },
+ {
+  "seg": 208,
+  "start": 1603.499,
+  "end": 1609.305,
+  "speaker": "Unknown",
+  "en": "Or you don't need combinations of other things that you might ask the model to do when it's deployed.",
+  "zh": "或者你不需要模型在部署时你可能要求它做的其他事情的组合。"
+ },
+ {
+  "seg": 209,
+  "start": 1610.438,
+  "end": 1619.381,
+  "speaker": "Unknown",
+  "en": "Now even back in 2021 it wasn't perfect, but these signs of compositional generalization were really exciting for demonstrating these two attributes of the model.",
+  "zh": "早在 2021 年它并不完美，但这些组合式泛化的迹象对于展示模型的这两个属性确实令人兴奋。"
+ },
+ {
+  "seg": 210,
+  "start": 1621.282,
+  "end": 1624.043,
+  "speaker": "Unknown",
+  "en": "So we have these two goals that we'd like to do.",
+  "zh": "所以我们有我们想要做的这两个目标。"
+ },
+ {
+  "seg": 211,
+  "start": 1624.063,
+  "end": 1626.423,
+  "speaker": "Unknown",
+  "en": "We'd like an out-of-the-box model and compositional generalization.",
+  "zh": "我们想要一个开箱即用的模型和组合式泛化。"
+ },
+ {
+  "seg": 212,
+  "start": 1627.564,
+  "end": 1639.708,
+  "speaker": "Unknown",
+  "en": "Now the tried and tested recipe for developing this kind of model is to first take a sufficiently large and diverse data set and to second train a model with sufficient capacity.",
+  "zh": "现在开发这种模型的久经考验的配方是，首先获取一个足够大和多样化的数据集，其次训练一个具有足够容量的模型。"
+ },
+ {
+  "seg": 213,
+  "start": 1640.965,
+  "end": 1642.926,
+  "speaker": "Unknown",
+  "en": "And so what we're going to do is we're going to do that.",
+  "zh": "所以我们要做的是我们要做那件事。"
+ },
+ {
+  "seg": 214,
+  "start": 1643.146,
+  "end": 1645.447,
+  "speaker": "Unknown",
+  "en": "We're going to try to use all of the data that we have available.",
+  "zh": "我们将尝试使用我们可用的所有数据。"
+ },
+ {
+  "seg": 215,
+  "start": 1645.787,
+  "end": 1650.488,
+  "speaker": "Unknown",
+  "en": "This includes really diverse robot demonstration data, including really low quality demonstration data.",
+  "zh": "这包括真正多样化的机器人演示数据，包括真正低质量的演示数据。"
+ },
+ {
+  "seg": 216,
+  "start": 1651.849,
+  "end": 1657.671,
+  "speaker": "Unknown",
+  "en": "It's also going to include policy rollout data, basically attempts from the robot of doing the task.",
+  "zh": "它还将包括策略执行数据，基本上是机器人执行任务的尝试。"
+ },
+ {
+  "seg": 217,
+  "start": 1657.691,
+  "end": 1664.093,
+  "speaker": "Unknown",
+  "en": "Basically all of the training data that was used for reinforcement learning for the previous tasks will be included in the training recipe.",
+  "zh": "基本上以前用于强化学习的所有训练数据都将包含在训练配方中。"
+ },
+ {
+  "seg": 218,
+  "start": 1665.155,
+  "end": 1669.58,
+  "speaker": "Unknown",
+  "en": "We're also going to include videos of humans, and we're also going to include data from the web.",
+  "zh": "我们还将包括人类的视频，我们还将包括来自网络的数据。"
+ },
+ {
+  "seg": 219,
+  "start": 1669.76,
+  "end": 1671.241,
+  "speaker": "Unknown",
+  "en": "Basically all of the data that we have.",
+  "zh": "基本上我们要有的所有数据。"
+ },
+ {
+  "seg": 220,
+  "start": 1672.783,
+  "end": 1677.208,
+  "speaker": "Unknown",
+  "en": "And then to train a model with sufficient capacity, of course we'll train a model that's large enough.",
+  "zh": "然后为了训练一个具有足够容量的模型，当然我们会训练一个足够大的模型。"
+ },
+ {
+  "seg": 221,
+  "start": 1677.983,
+  "end": 1690.389,
+  "speaker": "Unknown",
+  "en": "But to fit data that's so heterogeneous, we also find it particularly important to prompt the model with all of the context that it needs in order to predict actions.",
+  "zh": "但是为了适应如此异构的数据，我们还发现用所有它需要的上下文来提示模型以便预测动作特别重要。"
+ },
+ {
+  "seg": 222,
+  "start": 1691.03,
+  "end": 1698.914,
+  "speaker": "Unknown",
+  "en": "And we found that this idea was really the key unlock to using this kind of data and this data of this kind of degree of heterogeneity.",
+  "zh": "我们发现这个想法真的是使用这种数据和这种异构程度数据的关键解锁。"
+ },
+ {
+  "seg": 223,
+  "start": 1700.233,
+  "end": 1716.319,
+  "speaker": "Unknown",
+  "en": "And specifically what this looks like is we're going to train a foundation model that takes as input the memory that I mentioned before, an instruction of what to do, but it's also going to take as input a subtask instruction of kind of what the next immediate thing it should do is.",
+  "zh": "具体来说，这看起来像是我们要训练一个基础模型，它将我之前提到的记忆作为输入，关于做什么的指令，但它还将关于下一个直接应该做什么的子任务指令作为输入。"
+ },
+ {
+  "seg": 224,
+  "start": 1716.819,
+  "end": 1722.041,
+  "speaker": "Unknown",
+  "en": "It'll also take as input metadata that kind of indicates the quality of the data, the length of the episodes, and so forth.",
+  "zh": "它还将元数据作为输入，该元数据指示数据的质量、情节的长度等等。"
+ },
+ {
+  "seg": 225,
+  "start": 1722.081,
+  "end": 1726.543,
+  "speaker": "Unknown",
+  "en": "And this metadata gives it a lot more information about how it should predict the next action.",
+  "zh": "这个元数据给了它更多关于它应该如何预测下一个动作的信息。"
+ },
+ {
+  "seg": 226,
+  "start": 1728,
+  "end": 1733.605,
+  "speaker": "Unknown",
+  "en": "And then optionally, we'll also train the model with a subgoal image as a prompt to the model.",
+  "zh": "然后可选地，我们还将用一个子目标图像作为提示来训练模型。"
+ },
+ {
+  "seg": 227,
+  "start": 1734.085,
+  "end": 1741.311,
+  "speaker": "Unknown",
+  "en": "It's essentially saying, a few seconds from now, you should try to reach something that looks like this image.",
+  "zh": "本质上是在说，几秒钟后，你应该尝试达到看起来像这张图像的东西。"
+ },
+ {
+  "seg": 228,
+  "start": 1741.371,
+  "end": 1745.915,
+  "speaker": "Unknown",
+  "en": "With this detailed prompting, we find that the model can really make use of much more heterogeneous data.",
+  "zh": "通过这种详细的提示，我们发现模型可以真正利用更多异构的数据。"
+ },
+ {
+  "seg": 229,
+  "start": 1745.935,
+  "end": 1750.279,
+  "speaker": "Unknown",
+  "en": "And I'll show some comparisons later that really show how important it is.",
+  "zh": "我稍后将展示一些比较，真正展示它有多重要。"
+ },
+ {
+  "seg": 230,
+  "start": 1751.743,
+  "end": 1756.386,
+  "speaker": "Unknown",
+  "en": "And now to actually deploy this model, we need to then provide things like the subtask construction and subgoal images.",
+  "zh": "现在为了实际部署这个模型，我们需要提供像子任务构建和子目标图像这样的东西。"
+ },
+ {
+  "seg": 231,
+  "start": 1756.746,
+  "end": 1762.39,
+  "speaker": "Unknown",
+  "en": "And so with that, we can train a high-level policy that predicts the subtask construction, like what to do next.",
+  "zh": "因此有了这个，我们可以训练一个高级策略来预测子任务构建，比如接下来做什么。"
+ },
+ {
+  "seg": 232,
+  "start": 1762.571,
+  "end": 1766.873,
+  "speaker": "Unknown",
+  "en": "What is the next subtask for the task of cleaning the kitchen?",
+  "zh": "对于清洁厨房的任务，下一个子任务是什么？"
+ },
+ {
+  "seg": 233,
+  "start": 1767.694,
+  "end": 1774.619,
+  "speaker": "Unknown",
+  "en": "And we'll additionally train a world model to generate images for what the robot should do next as subgoal image conditioning.",
+  "zh": "我们还将额外训练一个世界模型来生成图像，用于机器人接下来应该做的事情作为子目标图像条件。"
+ },
+ {
+  "seg": 234,
+  "start": 1776.607,
+  "end": 1782.908,
+  "speaker": "Unknown",
+  "en": "And so with this, we'll train a single model with those attributes on all of the diverse data that we had available.",
+  "zh": "因此有了这个，我们将在我们要有的所有多样化数据上训练一个具有那些属性的单一模型。"
+ },
+ {
+  "seg": 235,
+  "start": 1783.328,
+  "end": 1786.649,
+  "speaker": "Unknown",
+  "en": "And here are some examples of what that single model can do.",
+  "zh": "这里有一些那个单一模型可以做的事情的例子。"
+ },
+ {
+  "seg": 236,
+  "start": 1786.729,
+  "end": 1791.57,
+  "speaker": "Unknown",
+  "en": "So all of these videos are from a single model, specifically a model that we called the Py07 model.",
+  "zh": "所以所有这些视频都来自一个单一模型，具体来说是我们称之为 Py07 模型的模型。"
+ },
+ {
+  "seg": 237,
+  "start": 1792.81,
+  "end": 1797.331,
+  "speaker": "Unknown",
+  "en": "And on left, you can see it doing things like folding a collared shirt.",
+  "zh": "在左边，你可以看到它正在做折叠有领衬衫之类的事情。"
+ },
+ {
+  "seg": 238,
+  "start": 1797.851,
+  "end": 1806.353,
+  "speaker": "Unknown",
+  "en": "On the top right, it's doing a really precise assembly step where it needs to insert a screw and drill that screw into a robot arm.",
+  "zh": "在右上角，它正在做一个真正精确的装配步骤，它需要将螺丝插入并将那个螺丝钻入机械臂。"
+ },
+ {
+  "seg": 239,
+  "start": 1807.816,
+  "end": 1813.329,
+  "speaker": "Unknown",
+  "en": "And on the bottom right, the robot is replacing a trash bag in a trash can.",
+  "zh": "在右下角，机器人正在更换垃圾桶里的垃圾袋。"
+ },
+ {
+  "seg": 240,
+  "start": 1815.605,
+  "end": 1817.987,
+  "speaker": "Unknown",
+  "en": "And so we had two goals at the start of this.",
+  "zh": "所以我们在开始时有两个目标。"
+ },
+ {
+  "seg": 241,
+  "start": 1818.048,
+  "end": 1820.75,
+  "speaker": "Unknown",
+  "en": "The first was to move towards an out-of-the-box model.",
+  "zh": "第一个是迈向一个开箱即用的模型。"
+ },
+ {
+  "seg": 242,
+  "start": 1820.79,
+  "end": 1824.014,
+  "speaker": "Unknown",
+  "en": "And even those videos showed that out-of-the-box the model is able to do quite a bit.",
+  "zh": "即使是那些视频也表明开箱即用模型能够做相当多的事情。"
+ },
+ {
+  "seg": 243,
+  "start": 1825.175,
+  "end": 1837.027,
+  "speaker": "Unknown",
+  "en": "But really the key question here is how does this pre-trained model compare to the specialists that were trained specifically for coffee making, specifically for box building that I talked about previously?",
+  "zh": "但这里真正关键的问题是，这个预训练模型与专门为制作咖啡、专门为我之前谈到的造盒子训练的专家相比如何？"
+ },
+ {
+  "seg": 244,
+  "start": 1838.437,
+  "end": 1858.926,
+  "speaker": "Unknown",
+  "en": "And if we measure the throughput and the success rate of this single PIO7 model versus the fine-tuned PIO6 model, we see that across the board, the single pre-trained PIO7 model matches or outperforms the fine-tuned specialists that were developed with reinforcement learning post-training for those downstream tasks.",
+  "zh": "如果我们测量这个单一 PIO7 模型与微调的 PIO6 模型的吞吐量和成功率，我们会看到，全面的，这个单一预训练 PIO7 模型匹配或优于那些针对下游任务进行强化学习后训练开发的微调专家。"
+ },
+ {
+  "seg": 245,
+  "start": 1860,
+  "end": 1862.662,
+  "speaker": "Unknown",
+  "en": "And so we see that it's able to match the performance of specialists.",
+  "zh": "所以我们看到它能够匹配专家的性能。"
+ },
+ {
+  "seg": 246,
+  "start": 1862.943,
+  "end": 1874.813,
+  "speaker": "Unknown",
+  "en": "It also holds for SFT specialists, not just RL post-trained models as well, suggesting that we do indeed have a single model that can do a lot of different tasks with a really high degree of performance out of the box.",
+  "zh": "它也适用于 SFT 专家，不仅仅是 RL 后训练模型，这表明我们确实有一个单一模型，可以以非常高的性能开箱即用地做许多不同的任务。"
+ },
+ {
+  "seg": 247,
+  "start": 1877.055,
+  "end": 1881.178,
+  "speaker": "Unknown",
+  "en": "Okay, so that was the first goal of out-of-the-box models, and the second goal is compositional generalization.",
+  "zh": "好的，所以那是开箱即用模型的第一个目标，第二个目标是组合式泛化。"
+ },
+ {
+  "seg": 248,
+  "start": 1882.757,
+  "end": 1885.458,
+  "speaker": "Unknown",
+  "en": "And there's a few different ways to measure this.",
+  "zh": "有几种不同的方法来衡量这一点。"
+ },
+ {
+  "seg": 249,
+  "start": 1885.478,
+  "end": 1889.44,
+  "speaker": "Unknown",
+  "en": "There's many different ways you might try to combine concepts in robotics.",
+  "zh": "有许多不同的方法你可以尝试在机器人技术中结合概念。"
+ },
+ {
+  "seg": 250,
+  "start": 1889.48,
+  "end": 1896.743,
+  "speaker": "Unknown",
+  "en": "The first test that we wanted to do was to see if a robot could interact with an appliance that's quite rare, like an air fryer.",
+  "zh": "我们想做的第一个测试是看看机器人是否能与一种相当罕见的电器互动，比如空气炸锅。"
+ },
+ {
+  "seg": 251,
+  "start": 1898.003,
+  "end": 1899.684,
+  "speaker": "Unknown",
+  "en": "And this is kind of an example.",
+  "zh": "这就是一个例子。"
+ },
+ {
+  "seg": 252,
+  "start": 1899.704,
+  "end": 1905.726,
+  "speaker": "Unknown",
+  "en": "We basically wanted to see if it could open an air fryer, put a sweet potato in the air fryer, and close the air fryer.",
+  "zh": "我们基本上想看看它能否打开空气炸锅，把红薯放进空气炸锅，然后关上空气炸锅。"
+ },
+ {
+  "seg": 253,
+  "start": 1907.367,
+  "end": 1910.557,
+  "speaker": "Unknown",
+  "en": "We picked this because we thought that the data set didn't have any air fryers in it.",
+  "zh": "我们选择这个是因为我们认为数据集中没有任何空气炸锅。"
+ },
+ {
+  "seg": 254,
+  "start": 1910.577,
+  "end": 1912.844,
+  "speaker": "Unknown",
+  "en": "We didn't intentionally collect any training data with air fryers.",
+  "zh": "我们没有故意收集任何包含空气炸锅的训练数据。"
+ },
+ {
+  "seg": 255,
+  "start": 1915.055,
+  "end": 1921.02,
+  "speaker": "Unknown",
+  "en": "After we did some analysis on the dataset, we actually found that our dataset was so diverse that it did actually have three episodes with air fryers in it.",
+  "zh": "在对数据集进行了一些分析后，我们实际上发现我们的数据集是如此多样化，以至于它确实包含三个有空气炸锅的片段。"
+ },
+ {
+  "seg": 256,
+  "start": 1921.46,
+  "end": 1928.185,
+  "speaker": "Unknown",
+  "en": "We expect that they likely weren't having an impact, and that even if we didn't include those exact three episodes, it likely would still work.",
+  "zh": "我们预计它们可能没有产生影响，即使我们不包含确切的那三个片段，它可能仍然有效。"
+ },
+ {
+  "seg": 257,
+  "start": 1928.706,
+  "end": 1943.617,
+  "speaker": "Unknown",
+  "en": "But what we found generally is that the robot was able to interact with the appliance that was basically hardly represented at all in the training dataset, and combine the skill of interacting with it, like opening it, closing it, and so forth,",
+  "zh": "但我们总体发现，机器人能够与在训练数据集中基本上几乎没有代表的电器互动，并结合与它互动的技能，比如打开它、关闭它等等，"
+ },
+ {
+  "seg": 258,
+  "start": 1944.498,
+  "end": 1946.701,
+  "speaker": "Unknown",
+  "en": "With this object that it hasn't seen before.",
+  "zh": "结合这个它以前没见过的物体。"
+ },
+ {
+  "seg": 259,
+  "start": 1948.263,
+  "end": 1954.252,
+  "speaker": "Unknown",
+  "en": "And then after instructing it like Lucy did, we can train a high level policy to do this task fully autonomously.",
+  "zh": "然后像 Lucy 那样指导它之后，我们可以训练一个高层策略来完全自主地做这个任务。"
+ },
+ {
+  "seg": 260,
+  "start": 1954.832,
+  "end": 1957.997,
+  "speaker": "Unknown",
+  "en": "And you can see the robot doing that in this video.",
+  "zh": "你可以在这个视频中看到机器人正在这样做。"
+ },
+ {
+  "seg": 261,
+  "start": 1959.829,
+  "end": 1962.511,
+  "speaker": "Unknown",
+  "en": "So that's the first form of compositional generalization.",
+  "zh": "所以这是组合泛化的第一种形式。"
+ },
+ {
+  "seg": 262,
+  "start": 1962.531,
+  "end": 1969.938,
+  "speaker": "Unknown",
+  "en": "The second compositional generalization test that we wanted to look at is we wanted to see if we could compositionally generalize between tasks and robot platforms.",
+  "zh": "我们想看的第二个组合泛化测试是，我们想看看是否能够在任务和机器人平台之间进行组合泛化。"
+ },
+ {
+  "seg": 263,
+  "start": 1970.739,
+  "end": 1975.203,
+  "speaker": "Unknown",
+  "en": "And so we wanted to take a robot platform called a BiARM UR5e robot.",
+  "zh": "所以我们想采用一种叫做 BiARM UR5e 机器人的机器人平台。"
+ },
+ {
+  "seg": 264,
+  "start": 1975.223,
+  "end": 1978.586,
+  "speaker": "Unknown",
+  "en": "It's actually a very large kind of industrial robot platform.",
+  "zh": "它实际上是一个非常大型的大型工业机器人平台。"
+ },
+ {
+  "seg": 265,
+  "start": 1978.926,
+  "end": 1985.291,
+  "speaker": "Unknown",
+  "en": "And we wanted to see if it could fold close, despite the fact that we didn't collect any folding data on this robot platform.",
+  "zh": "我们想看看它是否能折叠关闭，尽管我们没有在这个机器人平台上收集任何折叠数据。"
+ },
+ {
+  "seg": 266,
+  "start": 1986.072,
+  "end": 1993.457,
+  "speaker": "Unknown",
+  "en": "So specifically, we had data of folding clothes, like folding a shirt, on the robot platform that's pictured here on the left.",
+  "zh": "具体来说，我们有折叠衣服的数据，比如折叠衬衫，是在左侧展示的这个机器人平台上的。"
+ },
+ {
+  "seg": 267,
+  "start": 1994.117,
+  "end": 2003.403,
+  "speaker": "Unknown",
+  "en": "And then we wanted to see out of the box, without collecting any folding data on this very different robot platform on the right, could the robot successfully do the task?",
+  "zh": "然后我们想看看开箱即用，在这个非常不同的右侧机器人平台上不收集任何折叠数据的情况下，机器人能成功地完成任务吗？"
+ },
+ {
+  "seg": 268,
+  "start": 2004.941,
+  "end": 2011.983,
+  "speaker": "Unknown",
+  "en": "And what we see in this video is we indeed did see that it kind of compositionally generalized in this manner.",
+  "zh": "我们在这个视频中看到的，是我们确实看到它以这种方式组合泛化了。"
+ },
+ {
+  "seg": 269,
+  "start": 2012.243,
+  "end": 2019.825,
+  "speaker": "Unknown",
+  "en": "The first time we saw the robot do this, we were like floored because there was no training data for this task.",
+  "zh": "当我们第一次看到机器人这样做时，我们惊呆了，因为这个任务没有任何训练数据。"
+ },
+ {
+  "seg": 270,
+  "start": 2020.205,
+  "end": 2030.788,
+  "speaker": "Unknown",
+  "en": "And the robot here is quite different from the other robot, not just in size, but also in the lengths of the linkages of the robot, in the configuration of the joints of the robot, and so forth.",
+  "zh": "这里的机器人与另一个机器人非常不同，不仅在于大小，还在于机器人连杆的长度，机器人关节的配置等等。"
+ },
+ {
+  "seg": 271,
+  "start": 2032.881,
+  "end": 2039.446,
+  "speaker": "Unknown",
+  "en": "Okay, we can, and this is a 1x speed video, so it's not the fastest thing, and obviously, if you haven't seen any training data on something, you might not.",
+  "zh": "好的，我们可以，这是一个 1 倍速的视频，所以它不是最快的东西，显然，如果你没有见过任何关于某事的训练数据，你可能不会。"
+ },
+ {
+  "seg": 272,
+  "start": 2039.926,
+  "end": 2042.128,
+  "speaker": "Unknown",
+  "en": "It's literally the robot's first time folding a shirt.",
+  "zh": "这实际上是机器人第一次折叠衬衫。"
+ },
+ {
+  "seg": 273,
+  "start": 2042.628,
+  "end": 2044.29,
+  "speaker": "Unknown",
+  "en": "It might take a few attempts.",
+  "zh": "它可能需要尝试几次。"
+ },
+ {
+  "seg": 274,
+  "start": 2045.545,
+  "end": 2048.186,
+  "speaker": "Unknown",
+  "en": "But eventually it will get to the folded shirt.",
+  "zh": "但最终它会达到折叠好的衬衫。"
+ },
+ {
+  "seg": 275,
+  "start": 2048.346,
+  "end": 2051.568,
+  "speaker": "Unknown",
+  "en": "You can also see the generated subgoal images on the top left.",
+  "zh": "你也可以在左上角看到生成的子目标图像。"
+ },
+ {
+  "seg": 276,
+  "start": 2052.408,
+  "end": 2057.811,
+  "speaker": "Unknown",
+  "en": "So those are basically the models trying to generate images that will make progress on the folding task.",
+  "zh": "所以那些基本上是模型试图生成能够推进折叠任务的图像。"
+ },
+ {
+  "seg": 277,
+  "start": 2058.231,
+  "end": 2060.552,
+  "speaker": "Unknown",
+  "en": "And then those are passes input to the model.",
+  "zh": "然后这些作为输入传递给模型。"
+ },
+ {
+  "seg": 278,
+  "start": 2061.053,
+  "end": 2063.694,
+  "speaker": "Unknown",
+  "en": "And we see the folded shirt here.",
+  "zh": "我们在这里看到了折叠好的衬衫。"
+ },
+ {
+  "seg": 279,
+  "start": 2064.014,
+  "end": 2067.856,
+  "speaker": "Unknown",
+  "en": "I think it's going to make a couple small corrections at the end to try to make it a little bit smoother.",
+  "zh": "我认为它会在最后做一些小的修正，试图让它更平滑一点。"
+ },
+ {
+  "seg": 280,
+  "start": 2070.124,
+  "end": 2080.505,
+  "speaker": "Unknown",
+  "en": "Cool, so the takeaway here is that both in terms of language object interactions and in terms of task robot interactions, we see strong signs of compositional generalization in this model.",
+  "zh": "很酷，所以这里的要点是，无论是在语言物体互动方面还是在任务机器人互动方面，我们在这个模型中都看到了组合泛化的强烈迹象。"
+ },
+ {
+  "seg": 281,
+  "start": 2082.902,
+  "end": 2097.93,
+  "speaker": "Unknown",
+  "en": "Okay, and then quantitatively, we also see that as we kind of get to these more advanced models like the Py07 model, the performance of folding towels and folding shirts on this platform that hasn't seen before increases dramatically.",
+  "zh": "好的，然后在定量上，我们也看到，随着我们达到像 Py07 模型这样的更高级模型，在这个以前没见过的平台上折叠毛巾和折叠衬衫的性能急剧增加。"
+ },
+ {
+  "seg": 282,
+  "start": 2098.61,
+  "end": 2107.075,
+  "speaker": "Unknown",
+  "en": "And it even approaches the performance of human teleop despite the fact that we didn't have any robot-specific training data for folding clothes.",
+  "zh": "它甚至接近了人类远程操作的表演，尽管我们没有任何机器人特定的折叠衣服训练数据。"
+ },
+ {
+  "seg": 283,
+  "start": 2109.308,
+  "end": 2118.355,
+  "speaker": "Unknown",
+  "en": "And then for the last experiment that we did here, I think this is maybe perhaps the most interesting experiment, is we wanted to test how important are the two ingredients that I mentioned?",
+  "zh": "对于我们在这里做的最后一个实验，我认为这可能是最有趣的实验，是我们想测试我提到的两个要素有多重要？"
+ },
+ {
+  "seg": 284,
+  "start": 2118.395,
+  "end": 2125.962,
+  "speaker": "Unknown",
+  "en": "How important is diverse data and how important is this sort of capacity or detailed prompting for the kinds of results that I showed?",
+  "zh": "多样化的数据有多重要，这种容量或详细的提示对于我展示的结果种类有多重要？"
+ },
+ {
+  "seg": 285,
+  "start": 2127.06,
+  "end": 2138.706,
+  "speaker": "Unknown",
+  "en": "And so if we remove the most diverse data from the model training, shown in the grayish color, we find that the performance on held-out tasks decreases dramatically.",
+  "zh": "因此，如果我们从模型训练中移除最多样化的数据，显示为灰灰色，我们发现对保留任务的性能急剧下降。"
+ },
+ {
+  "seg": 286,
+  "start": 2139.087,
+  "end": 2148.051,
+  "speaker": "Unknown",
+  "en": "Whereas if we just take out a random 20% of the data that's less diverse than the most diverse subset, the performance only decreases a little bit.",
+  "zh": "而如果我们只是拿出一个随机 20% 的数据，比最多样化的子集多样性要低，性能只会下降一点。"
+ },
+ {
+  "seg": 287,
+  "start": 2148.071,
+  "end": 2154.015,
+  "speaker": "Unknown",
+  "en": "So this suggests that actually having really diverse data plays an important role in enabling it to generalize to new tasks.",
+  "zh": "所以这表明，实际上拥有真正多样化的数据在使其泛化到新任务方面起着重要作用。"
+ },
+ {
+  "seg": 288,
+  "start": 2155.175,
+  "end": 2159.699,
+  "speaker": "Unknown",
+  "en": "And then we tried to also ablate the fact that we are prompting the model with metadata.",
+  "zh": "然后我们也尝试消融我们用元数据提示模型这一事实。"
+ },
+ {
+  "seg": 289,
+  "start": 2160.9,
+  "end": 2165.023,
+  "speaker": "Unknown",
+  "en": "And for this experiment, we looked at with and without prompting with metadata.",
+  "zh": "对于这个实验，我们看了有和没有元数据提示。"
+ },
+ {
+  "seg": 290,
+  "start": 2165.383,
+  "end": 2169.647,
+  "speaker": "Unknown",
+  "en": "So with prompting is shown in yellow, and without prompting is shown in the gray color.",
+  "zh": "所以有提示显示为黄色，没有提示显示为灰色。"
+ },
+ {
+  "seg": 291,
+  "start": 2170.692,
+  "end": 2173.874,
+  "speaker": "Unknown",
+  "en": "And with prompting, it helps kind of significantly.",
+  "zh": "有了提示，它帮助相当显著。"
+ },
+ {
+  "seg": 292,
+  "start": 2174.295,
+  "end": 2183.361,
+  "speaker": "Unknown",
+  "en": "But the most interesting thing is if you look at when you add, so this plot is showing as you add more and more data, and specifically as you add more and more low quality data, what is the performance?",
+  "zh": "但最有趣的事情是，如果你看当你添加时，所以这个图显示的是当你添加越来越多的数据，特别是当你添加越来越多的低质量数据时，性能是什么？"
+ },
+ {
+  "seg": 293,
+  "start": 2184.122,
+  "end": 2194.79,
+  "speaker": "Unknown",
+  "en": "And without metadata prompting, when you add lower quality data from 80% data to 100% data, the performance actually decreases, which is perhaps not too surprising because you're adding low quality data to your data mixture.",
+  "zh": "而在没有元数据提示的情况下，当你添加从 80% 数据到 100% 数据的低质量数据时，性能实际上下降了，这可能不太令人惊讶，因为你正在向你的数据混合中添加低质量数据。"
+ },
+ {
+  "seg": 294,
+  "start": 2195.61,
+  "end": 2197.231,
+  "speaker": "Unknown",
+  "en": "Whereas with the metadata prompting,",
+  "zh": "而有了元数据提示，"
+ },
+ {
+  "seg": 295,
+  "start": 2198.072,
+  "end": 2209.259,
+  "speaker": "Unknown",
+  "en": "The performance actually increases when you add that low quality data, suggesting that it's actually able to get a lot more juice out of even low quality data when you include this kind of prompting.",
+  "zh": "当你添加那个低质量数据时，性能实际上增加了，这表明当你包含这种提示时，它实际上能够从即使是低质量数据中获得更多的汁液。"
+ },
+ {
+  "seg": 296,
+  "start": 2211.34,
+  "end": 2211.881,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 297,
+  "start": 2211.901,
+  "end": 2226.31,
+  "speaker": "Unknown",
+  "en": "So the takeaways here are that we found that we're able to train a single model to control the robots that matches or exceeds the performance of specialized post-trained models, kind of like going from a BERT-like pre-trained model to a model that really works out of the box, like GPT.",
+  "zh": "所以这里的要点是，我们发现我们能够训练一个单一模型来控制机器人，其匹配或超过了专门的后训练模型的性能，有点像从类似 BERT 的预训练模型到一个真正开箱即用的模型，比如 GPT。"
+ },
+ {
+  "seg": 298,
+  "start": 2227.534,
+  "end": 2232.116,
+  "speaker": "Unknown",
+  "en": "We also saw strong signs of compositional generalization in a DALI-like way.",
+  "zh": "我们还看到了类似 DALI 的方式的组合泛化的强烈迹象。"
+ },
+ {
+  "seg": 299,
+  "start": 2233.217,
+  "end": 2241.001,
+  "speaker": "Unknown",
+  "en": "For example, in compositionally generalizing skills applied to appliances and skills applied to new robots in ways that weren't seen in the training data.",
+  "zh": "例如，在组合泛化应用于电器的技能和以训练数据中未见的方式应用于新机器人的技能。"
+ },
+ {
+  "seg": 300,
+  "start": 2243.122,
+  "end": 2248.645,
+  "speaker": "Unknown",
+  "en": "Cool, and then all the videos and experiments that I showed were just evaluating the model out of the box without any post-training.",
+  "zh": "很酷，我展示的所有视频和实验都只是评估了开箱即用的模型，没有任何后训练。"
+ },
+ {
+  "seg": 301,
+  "start": 2249.205,
+  "end": 2254.108,
+  "speaker": "Unknown",
+  "en": "And the paper and the technical report online have a lot more experiments and a lot more details.",
+  "zh": "网上的论文和技术报告有更多的实验和更多的细节。"
+ },
+ {
+  "seg": 302,
+  "start": 2256.036,
+  "end": 2258.959,
+  "speaker": "Unknown",
+  "en": "Okay, so we talked about long-term autonomy.",
+  "zh": "好的，所以我们谈到了长期自主性。"
+ },
+ {
+  "seg": 303,
+  "start": 2258.979,
+  "end": 2263.244,
+  "speaker": "Unknown",
+  "en": "We then showed how we can kind of develop that in a single general purpose model.",
+  "zh": "然后我们展示了如何在一个单一的通用模型中发展它。"
+ },
+ {
+  "seg": 304,
+  "start": 2265.246,
+  "end": 2266.087,
+  "speaker": "Unknown",
+  "en": "Where are we at now?",
+  "zh": "我们现在处于什么阶段？"
+ },
+ {
+  "seg": 305,
+  "start": 2268.282,
+  "end": 2277.645,
+  "speaker": "Unknown",
+  "en": "The first thing that I'll mention is if we go back to the timeline of generalist AI, I think that we now kind of firmly have physical intelligence in the right side of this timeline.",
+  "zh": "我想提的第一件事是，如果我们回到通用人工智能的时间线，我认为我们现在已经坚定地将物理智能放在了这个时间线的右侧。"
+ },
+ {
+  "seg": 306,
+  "start": 2277.665,
+  "end": 2284.947,
+  "speaker": "Unknown",
+  "en": "We're kind of firmly more in like a GBT and DALI-like era for robotics and physical intelligence, which is really exciting.",
+  "zh": "我们实际上已经更坚定地进入了机器人和物理智能的 GBT 和 DALI 时代，这非常令人兴奋。"
+ },
+ {
+  "seg": 307,
+  "start": 2284.967,
+  "end": 2289.588,
+  "speaker": "Unknown",
+  "en": "And I think that we've kind of went there in just a few years.",
+  "zh": "我认为我们在几年内就达到了那里。"
+ },
+ {
+  "seg": 308,
+  "start": 2291.165,
+  "end": 2296.608,
+  "speaker": "Unknown",
+  "en": "And lastly, we also have these models that are actually deployed in real-world circumstances.",
+  "zh": "最后，我们还有这些实际上部署在现实环境中的模型。"
+ },
+ {
+  "seg": 309,
+  "start": 2296.628,
+  "end": 2310.817,
+  "speaker": "Unknown",
+  "en": "So the two videos on the top are actually two YC companies, Ultra and Weave, that have taken PyModels and post-trained them in deployment to do tasks like folding laundry and packaging in a warehouse.",
+  "zh": "所以上面的两个视频实际上是两家 YC 公司，Ultra 和 Weave，它们采用了 PyModels 并在部署中进行了后训练，以完成折叠衣物和仓库包装等任务。"
+ },
+ {
+  "seg": 310,
+  "start": 2311.917,
+  "end": 2322.8,
+  "speaker": "Unknown",
+  "en": "The kind of video on the bottom left is the video that I showed previously, and this kind of model works for a really diverse set of robot embodiments.",
+  "zh": "左下角的那个视频是我之前展示过的视频，这种模型适用于非常多样化的机器人具身。"
+ },
+ {
+  "seg": 311,
+  "start": 2322.88,
+  "end": 2336.403,
+  "speaker": "Unknown",
+  "en": "The ones on kind of the top and the left are kind of a more standard by manual platform, but it also can be adapted to things like drones, quadcopters, surgical robots, and on the bottom right for things like tractors.",
+  "zh": "上面和左边的那些是更标准的 by manual 平台，但它也可以适应无人机、四轴飞行器、外科机器人，以及右下角的拖拉机等事物。"
+ },
+ {
+  "seg": 312,
+  "start": 2337.243,
+  "end": 2346.233,
+  "speaker": "Unknown",
+  "en": "And so this is really kind of truly showing how physical intelligence can make an impact, not just in demos and research and so forth, but actually in real world deployment.",
+  "zh": "所以这确实真正展示了物理智能如何产生影响，不仅仅是在演示和研究等方面，而是在实际的现实世界部署中。"
+ },
+ {
+  "seg": 313,
+  "start": 2346.253,
+  "end": 2356.866,
+  "speaker": "Unknown",
+  "en": "And I think that we'll, as we go, we'll start to see robots that are, more and more robots actually deployed for real in the physical world with all the advances that we've been seeing over the past few years.",
+  "zh": "我想随着我们的进展，我们将开始看到机器人，越来越多的机器人实际上在物理世界中真正部署，并伴随着我们在过去几年中看到的所有进步。"
+ },
+ {
+  "seg": 314,
+  "start": 2358.187,
+  "end": 2358.767,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 315,
+  "start": 2358.787,
+  "end": 2362.47,
+  "speaker": "Unknown",
+  "en": "So the last thing that I'll mention shamelessly is that we are hiring at Physical Intelligence.",
+  "zh": "我要不羞耻地提的最后一点是，Physical Intelligence 正在招聘。"
+ },
+ {
+  "seg": 316,
+  "start": 2362.49,
+  "end": 2368.474,
+  "speaker": "Unknown",
+  "en": "So if you're excited about some of the stuff that I talked about, we encourage you to take a look at some of the open roles and apply.",
+  "zh": "所以如果你对我谈论的一些事情感到兴奋，我们鼓励你看看一些开放的职位并申请。"
+ },
+ {
+  "seg": 317,
+  "start": 2369.154,
+  "end": 2374.698,
+  "speaker": "Unknown",
+  "en": "And yeah, definitely have time for questions and happy to get all your thoughts.",
+  "zh": "是的，肯定有时间提问，很高兴听到你的所有想法。"
+ },
+ {
+  "seg": 318,
+  "start": 2374.838,
+  "end": 2375.058,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 319,
+  "start": 2384.643,
+  "end": 2391.292,
+  "speaker": "Unknown",
+  "en": "Okay, so the first question is how far away are we from a ChatGPT moment for robotics and what will that look like?",
+  "zh": "好的，第一个问题是，我们距离机器人的 ChatGPT 时刻还有多远，那会是什么样子？"
+ },
+ {
+  "seg": 320,
+  "start": 2392.013,
+  "end": 2399.845,
+  "speaker": "Unknown",
+  "en": "So I'll start with the second part actually, which is that I'm not sure it will really look like the ChatGPT moment that we saw in language models, which is that",
+  "zh": "所以我将从第二部分开始，我不确定它真的会像我们在语言模型中看到的 ChatGPT 时刻那样，"
+ },
+ {
+  "seg": 321,
+  "start": 2400.325,
+  "end": 2405.029,
+  "speaker": "Unknown",
+  "en": "With something like ChatGPT, we saw it passed a million new users in five days.",
+  "zh": "对于像 ChatGPT 这样的东西，我们看到它在五天内获得了 100 万新用户。"
+ },
+ {
+  "seg": 322,
+  "start": 2405.99,
+  "end": 2413.255,
+  "speaker": "Unknown",
+  "en": "I think that the distribution channel for physical models is going to be slower, unfortunately, because you actually need a physical robot there.",
+  "zh": "我认为物理模型的分发渠道将会更慢，不幸的是，因为你实际上需要一个物理机器人在那里。"
+ },
+ {
+  "seg": 323,
+  "start": 2413.676,
+  "end": 2424.885,
+  "speaker": "Unknown",
+  "en": "I think that we've seen for something like Waymo, the rollout has actually been incredible to see the rollout that they've had, but it still takes time to actually deploy things on physical devices.",
+  "zh": "我认为我们已经看到对于像 Waymo 这样的东西，其推出实际上令人难以置信，看到他们所取得的进展，但实际上在物理设备上部署事物仍然需要时间。"
+ },
+ {
+  "seg": 324,
+  "start": 2426.546,
+  "end": 2431.27,
+  "speaker": "Unknown",
+  "en": "So I don't know if we'll have a single moment that has the distribution that ChatGPT had.",
+  "zh": "所以我不知道我们是否会有一个拥有 ChatGPT 那种分发能力的单一时刻。"
+ },
+ {
+  "seg": 325,
+  "start": 2431.33,
+  "end": 2438.515,
+  "speaker": "Unknown",
+  "en": "At the same time, in terms of the capabilities of these models, I think that we are really starting to get to the point where these models are actually useful in the real world.",
+  "zh": "同时，就这些模型的能力而言，我认为我们真的开始到了这些模型在现实世界中实际有用的地步。"
+ },
+ {
+  "seg": 326,
+  "start": 2438.715,
+  "end": 2447.682,
+  "speaker": "Unknown",
+  "en": "And I think that getting to the capabilities of ChatGPT, I think, is very much on the horizon in the next few years.",
+  "zh": "我认为达到 ChatGPT 的能力，我认为在未来几年内非常接近。"
+ },
+ {
+  "seg": 327,
+  "start": 2449.96,
+  "end": 2458.904,
+  "speaker": "Unknown",
+  "en": "Cool, the second question is when should a small team switch from scaling per site models to a generalist policy and what does that transition actually look like?",
+  "zh": "很酷，第二个问题是小团队应该在什么时候从按站点扩展模型切换到通用策略，这种过渡实际上是什么样的？"
+ },
+ {
+  "seg": 328,
+  "start": 2459.504,
+  "end": 2461.585,
+  "speaker": "Unknown",
+  "en": "What signals tell you it's time?",
+  "zh": "什么信号告诉你时机到了？"
+ },
+ {
+  "seg": 329,
+  "start": 2461.605,
+  "end": 2463.706,
+  "speaker": "Unknown",
+  "en": "So this is a good question.",
+  "zh": "这是一个很好的问题。"
+ },
+ {
+  "seg": 330,
+  "start": 2463.766,
+  "end": 2464.727,
+  "speaker": "Unknown",
+  "en": "I think that the...",
+  "zh": "我认为……"
+ },
+ {
+  "seg": 331,
+  "start": 2465.447,
+  "end": 2473.218,
+  "speaker": "Unknown",
+  "en": "I mean, at the very least, I actually think that just starting with a generalist policy and then fine-tuning it, even right off the bat, can be really effective.",
+  "zh": "我的意思是，至少，我认为实际上从通用策略开始然后对其进行微调，即使一开始，也非常有效。"
+ },
+ {
+  "seg": 332,
+  "start": 2473.839,
+  "end": 2481.29,
+  "speaker": "Unknown",
+  "en": "And fortunately, a lot of generalist policies, there are actually really powerful generalist policies that are open source.",
+  "zh": "幸运的是，许多通用策略，有非常强大的通用策略是开源的。"
+ },
+ {
+  "seg": 333,
+  "start": 2481.93,
+  "end": 2490.615,
+  "speaker": "Unknown",
+  "en": "And so the Py0 and Py05 models are open source, for example, and we've seen a lot of people get a lot of use out of those models already.",
+  "zh": "所以 Py0 和 Py05 模型是开源的，例如，我们已经看到很多人从这些模型中获得了很多用途。"
+ },
+ {
+  "seg": 334,
+  "start": 2491.295,
+  "end": 2498.839,
+  "speaker": "Unknown",
+  "en": "And we're also working with a lot of partners like the Tractor company, like Ultra, like Weave, to actually develop, to take our most recent models and...",
+  "zh": "我们还与许多合作伙伴合作，比如 Tractor 公司、Ultra、Weave，实际上开发，采用我们最新的模型并……"
+ },
+ {
+  "seg": 335,
+  "start": 2500.46,
+  "end": 2503.721,
+  "speaker": "Unknown",
+  "en": "Get even more juice out of even more powerful models for their own applications.",
+  "zh": "从更强大的模型中挤出更多的汁水，用于他们自己的应用。"
+ },
+ {
+  "seg": 336,
+  "start": 2504.362,
+  "end": 2506.903,
+  "speaker": "Unknown",
+  "en": "So even right off the bat, I think that you can use them.",
+  "zh": "所以即使一开始，我认为你可以使用它们。"
+ },
+ {
+  "seg": 337,
+  "start": 2506.963,
+  "end": 2511.684,
+  "speaker": "Unknown",
+  "en": "The only scenario in which I actually wouldn't use them is if you're really in a really constrained environment.",
+  "zh": "我唯一不会使用它们的场景是如果你真的在一个非常受限的环境中。"
+ },
+ {
+  "seg": 338,
+  "start": 2511.944,
+  "end": 2519.327,
+  "speaker": "Unknown",
+  "en": "I've talked to some folks working on surgical robots that are in an operating room in the basement with no internet connection and a really bad GPU.",
+  "zh": "我和一些从事外科机器人的人谈过，他们在地下室的手术室里，没有网络连接，GPU 非常差。"
+ },
+ {
+  "seg": 339,
+  "start": 2520.008,
+  "end": 2522.809,
+  "speaker": "Unknown",
+  "en": "And so sometimes it's really hard to use a larger model.",
+  "zh": "所以有时很难使用更大的模型。"
+ },
+ {
+  "seg": 340,
+  "start": 2523.449,
+  "end": 2524.989,
+  "speaker": "Unknown",
+  "en": "But you still can do local inference with",
+  "zh": "但你仍然可以用……进行本地推理"
+ },
+ {
+  "seg": 341,
+  "start": 2526.45,
+  "end": 2534.854,
+  "speaker": "Unknown",
+  "en": "Great, the next question is, given how fast robotics is moving in industry, what are the real advantages and drawbacks of doing a PhD today, especially for someone who wants to go into industry afterwards?",
+  "zh": "很好，下一个问题是，鉴于工业界机器人发展的速度有多快，今天攻读博士学位的真正优缺点是什么，特别是对于那些想进入工业界的人？"
+ },
+ {
+  "seg": 342,
+  "start": 2556.086,
+  "end": 2559.048,
+  "speaker": "Unknown",
+  "en": "So I was not planning to do a PhD.",
+  "zh": "我不打算读博。"
+ },
+ {
+  "seg": 343,
+  "start": 2559.748,
+  "end": 2562.049,
+  "speaker": "Unknown",
+  "en": "I was always planning to go straight to industry.",
+  "zh": "我总是计划直接进入工业界。"
+ },
+ {
+  "seg": 344,
+  "start": 2562.109,
+  "end": 2565.271,
+  "speaker": "Unknown",
+  "en": "My parents are engineers and worked in industry.",
+  "zh": "我的父母是工程师，在工业界工作。"
+ },
+ {
+  "seg": 345,
+  "start": 2566.292,
+  "end": 2570.394,
+  "speaker": "Unknown",
+  "en": "And I kind of thought that the way to have impact was to go to a company and so forth.",
+  "zh": "我有点认为产生影响的方法是去公司等等。"
+ },
+ {
+  "seg": 346,
+  "start": 2571.274,
+  "end": 2575.857,
+  "speaker": "Unknown",
+  "en": "And my dad even told me that he wouldn't hire someone with a PhD.",
+  "zh": "我父亲甚至告诉我他不会雇佣有博士学位的人。"
+ },
+ {
+  "seg": 347,
+  "start": 2576.777,
+  "end": 2580.239,
+  "speaker": "Unknown",
+  "en": "And so I was like, maybe I shouldn't get a PhD if I wouldn't be able to get a job.",
+  "zh": "所以我想，如果我不能找到工作，也许我不应该读博。"
+ },
+ {
+  "seg": 348,
+  "start": 2583.452,
+  "end": 2586.102,
+  "speaker": "Unknown",
+  "en": "He's in a different field as well in civil engineering.",
+  "zh": "他也从事不同的领域，土木工程。"
+ },
+ {
+  "seg": 349,
+  "start": 2589.655,
+  "end": 2593.697,
+  "speaker": "Unknown",
+  "en": "But at the same time, I think that a PhD is an incredible opportunity.",
+  "zh": "但同时，我认为博士是一个令人难以置信的机会。"
+ },
+ {
+  "seg": 350,
+  "start": 2594.017,
+  "end": 2596.399,
+  "speaker": "Unknown",
+  "en": "And I love my PhD.",
+  "zh": "我爱我的博士生涯。"
+ },
+ {
+  "seg": 351,
+  "start": 2596.419,
+  "end": 2598.38,
+  "speaker": "Unknown",
+  "en": "And obviously, it depends a lot on the advisor.",
+  "zh": "显然，这在很大程度上取决于导师。"
+ },
+ {
+  "seg": 352,
+  "start": 2598.4,
+  "end": 2601.542,
+  "speaker": "Unknown",
+  "en": "It depends a lot on what you would be doing and so forth.",
+  "zh": "这在很大程度上取决于你会做什么等等。"
+ },
+ {
+  "seg": 353,
+  "start": 2601.582,
+  "end": 2608.666,
+  "speaker": "Unknown",
+  "en": "But I think a PhD is an incredible opportunity to first learn a lot about how to handle uncertainty, how to pick good problems to work on.",
+  "zh": "但我认为博士是一个不可思议的机会，首先可以学到很多关于如何处理不确定性，如何选择好的问题去处理。"
+ },
+ {
+  "seg": 354,
+  "start": 2609.066,
+  "end": 2612.108,
+  "speaker": "Unknown",
+  "en": "And I think that basically, in research, you don't...",
+  "zh": "而且我认为基本上，在研究中，你不会……"
+ },
+ {
+  "seg": 355,
+  "start": 2613.033,
+  "end": 2614.874,
+  "speaker": "Unknown",
+  "en": "No one kind of even gives you the problem to work on.",
+  "zh": "没有人会给你问题去处理。"
+ },
+ {
+  "seg": 356,
+  "start": 2614.894,
+  "end": 2615.794,
+  "speaker": "Unknown",
+  "en": "You have to pick the problem.",
+  "zh": "你必须自己选择问题。"
+ },
+ {
+  "seg": 357,
+  "start": 2616.414,
+  "end": 2623.896,
+  "speaker": "Unknown",
+  "en": "You don't know for the problem that you picked if it is achievable to make progress on that problem in a six-month time span, two-year time span, 10-year time span.",
+  "zh": "对于你选择的问题，你不知道在六个月的时间跨度、两年的时间跨度、十年的时间跨度内是否能在该问题上取得进展。"
+ },
+ {
+  "seg": 358,
+  "start": 2624.376,
+  "end": 2627.798,
+  "speaker": "Unknown",
+  "en": "And so you learn about how to deal with that uncertainty.",
+  "zh": "所以你会学到如何处理那种不确定性。"
+ },
+ {
+  "seg": 359,
+  "start": 2629.778,
+  "end": 2630.678,
+  "speaker": "Unknown",
+  "en": "So that's really useful.",
+  "zh": "所以那真的很有用。"
+ },
+ {
+  "seg": 360,
+  "start": 2631.439,
+  "end": 2641.922,
+  "speaker": "Unknown",
+  "en": "And then it also is an opportunity to do amazing research and do whatever, in many cases, have a lot of freedom to work on the research that you find most exciting.",
+  "zh": "然后它也是一个做令人惊奇的研究的机会，做任何事，在许多情况下，有很大的自由去处理你觉得最激动人心的研究。"
+ },
+ {
+  "seg": 361,
+  "start": 2642.322,
+  "end": 2648.066,
+  "speaker": "Unknown",
+  "en": "And so I think that today is still, yeah, an amazing opportunity to do work, to learn about uncertainty.",
+  "zh": "所以我认为今天仍然是一个，是的，做工作的令人惊奇的机会，去了解关于不确定性。"
+ },
+ {
+  "seg": 362,
+  "start": 2648.086,
+  "end": 2659.775,
+  "speaker": "Unknown",
+  "en": "I think that learning about uncertainty is really useful in the startup environments, in being at the frontier of AI because we don't know now, like no one knows what the best route is to make these models more and more powerful.",
+  "zh": "我认为学习关于不确定性在初创环境中、在处于 AI 前沿时真的很有用，因为我们现在不知道，就像没有人知道使这些模型越来越强大的最佳路线是什么。"
+ },
+ {
+  "seg": 363,
+  "start": 2661.016,
+  "end": 2663.618,
+  "speaker": "Unknown",
+  "en": "At the same time, there's also a lot of incredible opportunities in industry.",
+  "zh": "同时，工业界也有很多令人难以置信的机会。"
+ },
+ {
+  "seg": 364,
+  "start": 2664.119,
+  "end": 2667.661,
+  "speaker": "Unknown",
+  "en": "I think that the first in terms of what goes into",
+  "zh": "我认为首先就投入的内容而言"
+ },
+ {
+  "seg": 365,
+  "start": 2668.622,
+  "end": 2683.91,
+  "speaker": "Unknown",
+  "en": "developing like everything that I showed it's not just the research there is a whole like software stack that needs to run on the robot needs to run reliably there's obviously everything on the hardware side and then there's also even the machine learning infrastructure the data infrastructure and all that and so",
+  "zh": "开发像我展示的所有东西一样，不仅仅是研究，有整个软件栈需要在机器人上运行，需要可靠地运行，显然硬件方面有所有的东西，然后甚至还有机器学习基础设施、数据基础设施等等，所以"
+ },
+ {
+  "seg": 366,
+  "start": 2685.775,
+  "end": 2689.877,
+  "speaker": "Unknown",
+  "en": "Even with like, you don't need a PhD necessarily to do a lot of that engineering work.",
+  "zh": "即使像这样，你不一定需要博士学位去做很多那项工程工作。"
+ },
+ {
+  "seg": 367,
+  "start": 2690.257,
+  "end": 2694.979,
+  "speaker": "Unknown",
+  "en": "And then on the research side, there's often opportunities to get involved as well.",
+  "zh": "然后在研究方面，通常也有机会参与其中。"
+ },
+ {
+  "seg": 368,
+  "start": 2695.019,
+  "end": 2698.52,
+  "speaker": "Unknown",
+  "en": "And a lot of research is engineering these days as well.",
+  "zh": "而且如今很多研究也是工程。"
+ },
+ {
+  "seg": 369,
+  "start": 2698.66,
+  "end": 2705.623,
+  "speaker": "Unknown",
+  "en": "And so I think it kind of depends on, yeah, it's a very personal decision and what you want.",
+  "zh": "所以我认为这有点取决于，是的，这是一个非常个人的决定以及你想要什么。"
+ },
+ {
+  "seg": 370,
+  "start": 2708.283,
+  "end": 2718.945,
+  "speaker": "Unknown",
+  "en": "Even today, I think I probably kind of retrospectively would want to do a PhD just to learn about how to handle uncertainty, to do research, because I really love being at the frontier and thinking about challenging problems.",
+  "zh": "即使在今天，我想我可能在回顾时还是想读个博士，只是为了学习如何处理不确定性，做研究，因为我真的很喜欢处于前沿并思考挑战性问题。"
+ },
+ {
+  "seg": 371,
+  "start": 2719.866,
+  "end": 2723.406,
+  "speaker": "Unknown",
+  "en": "But there's also a lot of really amazing opportunities in both paths.",
+  "zh": "但在这两条路径中也有很多真正令人惊叹的机会。"
+ },
+ {
+  "seg": 372,
+  "start": 2725.847,
+  "end": 2733.028,
+  "speaker": "Unknown",
+  "en": "Okay, the next question is, large language models learn from the internet, but robots don't really have an internet scale data set, a physical experience.",
+  "zh": "好的，下一个问题是，大型语言模型从互联网学习，但机器人并没有真正的互联网规模数据集，即物理经验。"
+ },
+ {
+  "seg": 373,
+  "start": 2733.908,
+  "end": 2736.009,
+  "speaker": "Unknown",
+  "en": "What's the robotics equivalent and how do we get it?",
+  "zh": "机器人技术的等价物是什么，我们如何获得它？"
+ },
+ {
+  "seg": 374,
+  "start": 2737.601,
+  "end": 2743.606,
+  "speaker": "Unknown",
+  "en": "So in robotics, well, so maybe in language models to start off, the data on the web is language data.",
+  "zh": "所以在机器人技术中，嗯，也许先从语言模型开始，网络上的数据是语言数据。"
+ },
+ {
+  "seg": 375,
+  "start": 2744.187,
+  "end": 2749.651,
+  "speaker": "Unknown",
+  "en": "And not all of it's high quality, but some of it is like really informative and useful.",
+  "zh": "并非所有数据都是高质量的，但其中一些真的很有信息量和有用。"
+ },
+ {
+  "seg": 376,
+  "start": 2750.672,
+  "end": 2753.915,
+  "speaker": "Unknown",
+  "en": "And it is data that is in kind of the, that,",
+  "zh": "而且它是那种……那种数据，"
+ },
+ {
+  "seg": 377,
+  "start": 2754.864,
+  "end": 2758.127,
+  "speaker": "Unknown",
+  "en": "That kind of reflects a lot of what you want a model to do.",
+  "zh": "那种反映了你想要模型做很多事情的数据。"
+ },
+ {
+  "seg": 378,
+  "start": 2758.147,
+  "end": 2764.213,
+  "speaker": "Unknown",
+  "en": "You want it to be able to predict text and to be able to complete text, answer questions, and so forth.",
+  "zh": "你希望它能够预测文本，能够补全文本，回答问题等等。"
+ },
+ {
+  "seg": 379,
+  "start": 2764.233,
+  "end": 2768.457,
+  "speaker": "Unknown",
+  "en": "And there's a lot of questions being answered on the internet and a lot of text that's being completed on the internet.",
+  "zh": "互联网上有很多问题正在被回答，有很多文本正在被补全。"
+ },
+ {
+  "seg": 380,
+  "start": 2768.517,
+  "end": 2772.02,
+  "speaker": "Unknown",
+  "en": "And so in general with machine learning, you want train to match test.",
+  "zh": "所以总的来说，在机器学习中，你希望训练匹配测试。"
+ },
+ {
+  "seg": 381,
+  "start": 2772.161,
+  "end": 2777.546,
+  "speaker": "Unknown",
+  "en": "And so you want the thing that you're going to be training your model on to be reflective of the thing that you're going to be asking it to do later on.",
+  "zh": "所以你希望用来训练模型的东西能够反映你稍后要求它做的事情。"
+ },
+ {
+  "seg": 382,
+  "start": 2778.247,
+  "end": 2784.782,
+  "speaker": "Unknown",
+  "en": "And so I think the equivalent in robotics is data of robots operating in real-world circumstances.",
+  "zh": "所以我认为机器人技术中的等价物是机器人在现实世界环境中运行的数据。"
+ },
+ {
+  "seg": 383,
+  "start": 2787.663,
+  "end": 2795.211,
+  "speaker": "Unknown",
+  "en": "The way that we approach it at Physical Intelligence is to collect data, to collect robot experience of robots doing all sorts of tasks.",
+  "zh": "我们在 Physical Intelligence 处理它的方式是收集数据，收集机器人处理所有 sorts 任务的机器人经验。"
+ },
+ {
+  "seg": 384,
+  "start": 2795.791,
+  "end": 2800.776,
+  "speaker": "Unknown",
+  "en": "You can collect this with teleoperation to get initial data of robots doing useful things.",
+  "zh": "你可以通过遥操作来收集这些数据，以获得机器人处理有用事情的初始数据。"
+ },
+ {
+  "seg": 385,
+  "start": 2801.597,
+  "end": 2806.282,
+  "speaker": "Unknown",
+  "en": "But in the long run, I think it will also contain a lot of autonomous experience of robots deployed attempting things.",
+  "zh": "但从长远来看，我认为它也将包含大量部署的机器人尝试事情的自主经验。"
+ },
+ {
+  "seg": 386,
+  "start": 2807.122,
+  "end": 2809.225,
+  "speaker": "Unknown",
+  "en": "And just like how we see in language models,",
+  "zh": "就像我们在语言模型中看到的那样，"
+ },
+ {
+  "seg": 387,
+  "start": 2809.725,
+  "end": 2816.907,
+  "speaker": "Unknown",
+  "en": "How now a lot of time is spent actually generating data, generating synthetic data, by actually running the model and having it think through things.",
+  "zh": "现在实际上花费了大量时间通过实际运行模型并让它思考事情来生成数据，生成合成数据。"
+ },
+ {
+  "seg": 388,
+  "start": 2817.187,
+  "end": 2823.409,
+  "speaker": "Unknown",
+  "en": "I think a lot of the data in the future in robotics is going to be the robot attempting to do lots of tasks in lots of real-world circumstances.",
+  "zh": "我认为未来机器人技术中的大量数据将是机器人在大量现实世界环境中尝试处理大量任务。"
+ },
+ {
+  "seg": 389,
+  "start": 2826.33,
+  "end": 2828.092,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that that's kind of what it looks like.",
+  "zh": "是的，我认为那就是它的样子。"
+ },
+ {
+  "seg": 390,
+  "start": 2828.112,
+  "end": 2844.468,
+  "speaker": "Unknown",
+  "en": "I also think that there are other possible sources of information that's really useful for model training, like videos of people doing things, like YouTube, like web data and captioned images that tell you, like, this is a kitchen that has a fridge on the right of the sink and so forth.",
+  "zh": "我也认为还有其他可能的信息来源对于模型训练真的很有用，比如人们做事情的视频，比如 YouTube，比如告诉你诸如这是一个厨房，水槽右边有个冰箱之类的网络数据和带描述的图片等等。"
+ },
+ {
+  "seg": 391,
+  "start": 2845.048,
+  "end": 2857.807,
+  "speaker": "Unknown",
+  "en": "And all of that data I think can be really useful for developing a kind of frontier multimodal model that can control robots to do things, reason through how to do a long task, and also control the robot to do those tasks.",
+  "zh": "我认为所有这些数据对于开发一种前沿多模态模型真的很有用，该模型可以控制机器人做事情，推理如何做长任务，还可以控制机器人做那些任务。"
+ },
+ {
+  "seg": 392,
+  "start": 2857.847,
+  "end": 2858.207,
+  "speaker": "Unknown",
+  "en": "I think that...",
+  "zh": "我认为……"
+ },
+ {
+  "seg": 393,
+  "start": 2859.148,
+  "end": 2863.63,
+  "speaker": "Unknown",
+  "en": "There's no substitute for the robot experience itself.",
+  "zh": "没有什么可以替代机器人经验本身。"
+ },
+ {
+  "seg": 394,
+  "start": 2864.231,
+  "end": 2869.934,
+  "speaker": "Unknown",
+  "en": "If you watch a human do something, like if I watch Roger Federer play tennis, it doesn't mean I can play tennis as well as him, unfortunately.",
+  "zh": "如果你看着人类做某事，就像如果我观看罗杰·费德勒打网球，这不幸并不意味着我也能像他一样打网球。"
+ },
+ {
+  "seg": 395,
+  "start": 2870.574,
+  "end": 2875.997,
+  "speaker": "Unknown",
+  "en": "And likewise, robots can't watch a person doing something and then figure out how to do it themselves directly.",
+  "zh": "同样，机器人不能看着人做某事然后直接弄清楚如何自己去做。"
+ },
+ {
+  "seg": 396,
+  "start": 2876.017,
+  "end": 2880.46,
+  "speaker": "Unknown",
+  "en": "They really need their experience on their own platform to learn effectively.",
+  "zh": "它们真的需要自己在自己的平台上的经验才能有效地学习。"
+ },
+ {
+  "seg": 397,
+  "start": 2880.48,
+  "end": 2883.141,
+  "speaker": "Unknown",
+  "en": "And I think that we will need large data sets.",
+  "zh": "我认为我们需要大型数据集。"
+ },
+ {
+  "seg": 398,
+  "start": 2883.421,
+  "end": 2885.062,
+  "speaker": "Unknown",
+  "en": "I think that doesn't mean the human video isn't useful.",
+  "zh": "我认为这并不意味着人类视频没有用。"
+ },
+ {
+  "seg": 399,
+  "start": 2885.082,
+  "end": 2886.703,
+  "speaker": "Unknown",
+  "en": "It's useful to watch Roger Federer play tennis.",
+  "zh": "观看罗杰·费德勒打网球是有用的。"
+ },
+ {
+  "seg": 400,
+  "start": 2888.844,
+  "end": 2894.889,
+  "speaker": "Unknown",
+  "en": "But the actual experience on robot platforms will be a critical component of developing an analogous data set for robotics.",
+  "zh": "但机器平台上的实际经验将是开发机器人学类比数据集的一个关键组成部分。"
+ },
+ {
+  "seg": 401,
+  "start": 2896.89,
+  "end": 2902.895,
+  "speaker": "Unknown",
+  "en": "The next question is, is it possible that general purpose robotics models get democratized via open source the way that large language models did?",
+  "zh": "下一个问题是，通用机器人模型是否会像大型语言模型那样通过开源而大众化？"
+ },
+ {
+  "seg": 402,
+  "start": 2903.355,
+  "end": 2909.44,
+  "speaker": "Unknown",
+  "en": "Or will the cost of embodied data and hardware keep the best models concentrated in a few well-resourced labs?",
+  "zh": "还是说具身数据和硬件的成本会将最好的模型集中在少数资源充足的实验室中？"
+ },
+ {
+  "seg": 403,
+  "start": 2910.921,
+  "end": 2912.022,
+  "speaker": "Unknown",
+  "en": "So I think this is a good question.",
+  "zh": "所以我认为这是一个好问题。"
+ },
+ {
+  "seg": 404,
+  "start": 2914.549,
+  "end": 2930.541,
+  "speaker": "Unknown",
+  "en": "So I do think the cost of embodied data and hardware could very much make this look different, because I think that it's harder to get data, even to distill a model, for example, just readily on the internet.",
+  "zh": "所以我确实认为具身数据和硬件的成本会让情况看起来很不同，因为我认为获取数据更难，例如要在互联网上直接蒸馏一个模型。"
+ },
+ {
+  "seg": 405,
+  "start": 2930.621,
+  "end": 2939.288,
+  "speaker": "Unknown",
+  "en": "I also think that we've seen pretty large data sets get open sourced as well, and pretty powerful models get open sourced.",
+  "zh": "我也认为我们已经看到相当大的数据集被开源，以及相当强大的模型被开源。"
+ },
+ {
+  "seg": 406,
+  "start": 2939.448,
+  "end": 2942.13,
+  "speaker": "Unknown",
+  "en": "I think it's really hard to say exactly what will happen.",
+  "zh": "我认为很难确切地说会发生什么。"
+ },
+ {
+  "seg": 407,
+  "start": 2944.984,
+  "end": 2946.766,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I don't know.",
+  "zh": "所以，是的，我不知道。"
+ },
+ {
+  "seg": 408,
+  "start": 2948.327,
+  "end": 2964.463,
+  "speaker": "Unknown",
+  "en": "The one thing that I will say is that with language models, even aside from democratization like Kimmy and really getting models that perform at the state of the art, even then companies that are focusing a lot on closed source models are also doing a lot of open sourcing.",
+  "zh": "我能说的是，对于语言模型，除了像 Kimmy 这样的大众化以及真正获得达到最先进性能的模型之外，即使那样，那些专注于闭源模型的公司也在做很多开源。"
+ },
+ {
+  "seg": 409,
+  "start": 2964.823,
+  "end": 2968.447,
+  "speaker": "Unknown",
+  "en": "And so there are like Gemma, for example, and...",
+  "zh": "所以比如说有 Gemma，以及……"
+ },
+ {
+  "seg": 410,
+  "start": 2969.107,
+  "end": 2970.629,
+  "speaker": "Unknown",
+  "en": "The GPT open source and so forth.",
+  "zh": "GPT 开源等等。"
+ },
+ {
+  "seg": 411,
+  "start": 2970.669,
+  "end": 2976.414,
+  "speaker": "Unknown",
+  "en": "I think these companies like to support open source because it actually helps build the ecosystem around the things that they're building.",
+  "zh": "我认为这些公司喜欢支持开源，因为它实际上有助于围绕他们正在构建的东西建立生态系统。"
+ },
+ {
+  "seg": 412,
+  "start": 2976.794,
+  "end": 2982.559,
+  "speaker": "Unknown",
+  "en": "And so I imagine they're being, I guess I'm optimistic that there will be a strong open source community regardless.",
+  "zh": "所以我想他们正在……，我想我很乐观，无论如何都会有一个强大的开源社区。"
+ },
+ {
+  "seg": 413,
+  "start": 2983.059,
+  "end": 2986.062,
+  "speaker": "Unknown",
+  "en": "But I don't know if it will exactly play out exactly the way that language models played out.",
+  "zh": "但我不确定它是否会完全像语言模型那样发展。"
+ },
+ {
+  "seg": 414,
+  "start": 2988.394,
+  "end": 2998.899,
+  "speaker": "Unknown",
+  "en": "Okay, the next question is, does the model output raw motor commands directly or does it output a target hand position and let a controller solve for the joint angles and what makes that the right level to learn at?",
+  "zh": "好的，下一个问题是，模型是直接输出原始电机命令，还是输出目标手部位置并让控制器求解关节角度，是什么使得那是学习的正确层级？"
+ },
+ {
+  "seg": 415,
+  "start": 2999.659,
+  "end": 3004.421,
+  "speaker": "Unknown",
+  "en": "So all the models that I showed were outputting target joint positions.",
+  "zh": "所以我展示的所有模型都在输出目标关节位置。"
+ },
+ {
+  "seg": 416,
+  "start": 3004.481,
+  "end": 3006.262,
+  "speaker": "Unknown",
+  "en": "So like, what is the angle of this joint?",
+  "zh": "比如，这个关节的角度是多少？"
+ },
+ {
+  "seg": 417,
+  "start": 3006.282,
+  "end": 3009.064,
+  "speaker": "Unknown",
+  "en": "What is the angle of this joint and so forth that you want to hit?",
+  "zh": "这个关节的角度是多少，以此类推，是你想要达到的。"
+ },
+ {
+  "seg": 418,
+  "start": 3009.344,
+  "end": 3015.867,
+  "speaker": "Unknown",
+  "en": "And then there's a controller, like a PD controller that is trying to then hit that target position for those joints.",
+  "zh": "然后有一个控制器，比如一个 PD 控制器，试图为这些关节达到那个目标位置。"
+ },
+ {
+  "seg": 419,
+  "start": 3017.228,
+  "end": 3024.536,
+  "speaker": "Unknown",
+  "en": "The model actually is also trained to predict target gripper positions, like where in 3D space should my gripper be.",
+  "zh": "该模型实际上还被训练来预测目标夹爪位置，比如我的夹爪在 3D 空间中应该在哪里。"
+ },
+ {
+  "seg": 420,
+  "start": 3025.758,
+  "end": 3028.541,
+  "speaker": "Unknown",
+  "en": "And you could also use that as well and back out the joint positions.",
+  "zh": "你也可以使用它并反推关节位置。"
+ },
+ {
+  "seg": 421,
+  "start": 3029.442,
+  "end": 3035.349,
+  "speaker": "Unknown",
+  "en": "Another thing you could do is you could go directly to motor torques or to voltages or efforts.",
+  "zh": "你可以做的另一件事是你可以直接使用电机扭矩或电压或力。"
+ },
+ {
+  "seg": 422,
+  "start": 3037.2,
+  "end": 3038.92,
+  "speaker": "Unknown",
+  "en": "There are pros and cons of different options.",
+  "zh": "不同的选项各有利弊。"
+ },
+ {
+  "seg": 423,
+  "start": 3039.38,
+  "end": 3048.883,
+  "speaker": "Unknown",
+  "en": "We have found controlling joints and controlling in the 3D space of the gripper to both work well.",
+  "zh": "我们发现控制关节和控制夹爪的 3D 空间都运作良好。"
+ },
+ {
+  "seg": 424,
+  "start": 3051.363,
+  "end": 3053.444,
+  "speaker": "Unknown",
+  "en": "And so yeah, there's pros and cons.",
+  "zh": "所以是的，各有利弊。"
+ },
+ {
+  "seg": 425,
+  "start": 3053.464,
+  "end": 3059.605,
+  "speaker": "Unknown",
+  "en": "I think the one thing that would be nice about going directly to the voltages is that you could also get a more stiff",
+  "zh": "我认为直接使用电压的一个好处是，你也可以获得一种更硬的"
+ },
+ {
+  "seg": 426,
+  "start": 3060.885,
+  "end": 3063.466,
+  "speaker": "Unknown",
+  "en": "Kind of output or a less stiff output.",
+  "zh": "输出或者一种不那么硬的输出。"
+ },
+ {
+  "seg": 427,
+  "start": 3064.326,
+  "end": 3070.888,
+  "speaker": "Unknown",
+  "en": "Whereas the controller, if you have a fixed controller, then you're not letting your model control that aspect.",
+  "zh": "而对于控制器，如果你有一个固定的控制器，那么你就没有让你的模型控制那个方面。"
+ },
+ {
+  "seg": 428,
+  "start": 3070.928,
+  "end": 3075.409,
+  "speaker": "Unknown",
+  "en": "And so, yeah, there's different pros and cons.",
+  "zh": "所以，是的，有不同的优缺点。"
+ },
+ {
+  "seg": 429,
+  "start": 3077.009,
+  "end": 3080.49,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that what we're working seems to work.",
+  "zh": "是的，我认为我们正在做的事情似乎有效。"
+ },
+ {
+  "seg": 430,
+  "start": 3080.51,
+  "end": 3081.55,
+  "speaker": "Unknown",
+  "en": "It doesn't seem to be a bottleneck.",
+  "zh": "它似乎不是一个瓶颈。"
+ },
+ {
+  "seg": 431,
+  "start": 3082.03,
+  "end": 3088.452,
+  "speaker": "Unknown",
+  "en": "And I often like to focus on the things that seem to be bottlenecks versus things that don't seem to be bottlenecks.",
+  "zh": "我经常喜欢关注那些似乎是瓶颈的事情，而不是那些似乎不是瓶颈的事情。"
+ },
+ {
+  "seg": 432,
+  "start": 3090.609,
+  "end": 3099.237,
+  "speaker": "Unknown",
+  "en": "Okay, next question is, do robots need something like imagination, the ability to picture what should happen next before they can become truly useful?",
+  "zh": "好的，下一个问题是，机器人是否需要像「想象力」这样的东西，即在它们变得真正有用之前构想下一步应该发生什么的能力？"
+ },
+ {
+  "seg": 433,
+  "start": 3099.998,
+  "end": 3108.886,
+  "speaker": "Unknown",
+  "en": "So the PyO7 model that I showed has something like this, where it can kind of imagine what a future image should look like and then try to accomplish that.",
+  "zh": "所以我展示的 PyO7 模型有类似的东西，它可以想象未来的图像应该是什么样子，然后尝试实现它。"
+ },
+ {
+  "seg": 434,
+  "start": 3108.906,
+  "end": 3109.887,
+  "speaker": "Unknown",
+  "en": "The...",
+  "zh": "这个……"
+ },
+ {
+  "seg": 435,
+  "start": 3112.054,
+  "end": 3113.655,
+  "speaker": "Unknown",
+  "en": "We found that that leads to improvement.",
+  "zh": "我们发现这带来了改进。"
+ },
+ {
+  "seg": 436,
+  "start": 3113.715,
+  "end": 3119.86,
+  "speaker": "Unknown",
+  "en": "And we saw on the short folding example, we saw like a quantitative bump from using that sort of imagination compared to not using it.",
+  "zh": "在折叠衬衫的例子中，我们看到与不使用这种想象力相比，使用了这种想象力带来了定量的提升。"
+ },
+ {
+  "seg": 437,
+  "start": 3120.58,
+  "end": 3124.263,
+  "speaker": "Unknown",
+  "en": "At the same time, I think that the model actually performed surprisingly well without that as well.",
+  "zh": "同时，我认为该模型在没有那种能力的情况下也表现得惊人地好。"
+ },
+ {
+  "seg": 438,
+  "start": 3124.623,
+  "end": 3129.767,
+  "speaker": "Unknown",
+  "en": "And we were actually hoping, we were thinking about writing an entire paper, an entire technical report just about that capability and that model.",
+  "zh": "我们实际上本来希望，正在考虑就写一整篇论文，一整篇关于那种能力和那种模型的技术报告。"
+ },
+ {
+  "seg": 439,
+  "start": 3130.587,
+  "end": 3140.875,
+  "speaker": "Unknown",
+  "en": "But the model without that was so good that we felt like we needed to actually have that play a bigger part of the story, because it seemed like that was really delivering in terms of actually getting really strong results.",
+  "zh": "但没有那个功能的模型是如此之好，以至于我们觉得我们需要让它发挥更大的作用，因为似乎它真正带来了实际上非常强的结果。"
+ },
+ {
+  "seg": 440,
+  "start": 3141.615,
+  "end": 3144.398,
+  "speaker": "Unknown",
+  "en": "And so it seems like one design choice.",
+  "zh": "所以这似乎是一种设计选择。"
+ },
+ {
+  "seg": 441,
+  "start": 3144.418,
+  "end": 3151.345,
+  "speaker": "Unknown",
+  "en": "I think it's hard to say if it's going to be a critical component or not.",
+  "zh": "很难说它是否会成为一个关键组成部分。"
+ },
+ {
+  "seg": 442,
+  "start": 3154.237,
+  "end": 3164.664,
+  "speaker": "Unknown",
+  "en": "I guess the good news with these kinds of models is that if you develop a good data set, you can run experiments and you can continue to test things with the data set that you have quite effectively.",
+  "zh": "我想这类模型的好消息是，如果你开发了一个好的数据集，你可以运行实验，你可以继续有效地使用你拥有的数据集来测试东西。"
+ },
+ {
+  "seg": 443,
+  "start": 3164.684,
+  "end": 3170.528,
+  "speaker": "Unknown",
+  "en": "I also think that being able to predict the future seems like a very relevant objective compared to predicting future actions.",
+  "zh": "我也认为能够预测未来似乎是一个非常相关的目标，相比于预测未来的动作。"
+ },
+ {
+  "seg": 444,
+  "start": 3173.41,
+  "end": 3180.057,
+  "speaker": "Unknown",
+  "en": "So that should, I would imagine, kind of help in terms of learning from all the data that you have available to you.",
+  "zh": "所以这应该，我想，有助于从你拥有的所有数据中学习。"
+ },
+ {
+  "seg": 445,
+  "start": 3180.477,
+  "end": 3184.241,
+  "speaker": "Unknown",
+  "en": "So, yeah, hard to say if LDS should be a critical component or not.",
+  "zh": "所以，是的，很难说 LDS 是否应该成为一个关键组成部分。"
+ },
+ {
+  "seg": 446,
+  "start": 3184.481,
+  "end": 3189.086,
+  "speaker": "Unknown",
+  "en": "It seems like empirically so far it seems to help, although perhaps not as much as you might expect.",
+  "zh": "看起来在实证上到目前为止它似乎有帮助，虽然可能没有你预期的那么多。"
+ },
+ {
+  "seg": 447,
+  "start": 3189.346,
+  "end": 3192.469,
+  "speaker": "Unknown",
+  "en": "And even without that imagination, the robot can do pretty incredible things.",
+  "zh": "即使没有那种想象力，机器人也能做一些相当令人难以置信的事情。"
+ },
+ {
+  "seg": 448,
+  "start": 3194.778,
+  "end": 3199.901,
+  "speaker": "Unknown",
+  "en": "Okay, next is right now it seems that robots are doing amazing tasks but in a very slow manner.",
+  "zh": "好的，接下来是，现在看来机器人正在做惊人的任务，但是以一种非常缓慢的方式。"
+ },
+ {
+  "seg": 449,
+  "start": 3200.221,
+  "end": 3201.602,
+  "speaker": "Unknown",
+  "en": "What is needed to improve the speed?",
+  "zh": "需要什么来提高速度？"
+ },
+ {
+  "seg": 450,
+  "start": 3202.482,
+  "end": 3204.123,
+  "speaker": "Unknown",
+  "en": "I'm really excited about improving the speed.",
+  "zh": "我对提高速度真的很兴奋。"
+ },
+ {
+  "seg": 451,
+  "start": 3206.084,
+  "end": 3208.766,
+  "speaker": "Unknown",
+  "en": "And we did see speed improvements from reinforcement learning.",
+  "zh": "而且我们确实看到了来自强化学习（reinforcement learning）的速度提升。"
+ },
+ {
+  "seg": 452,
+  "start": 3208.786,
+  "end": 3216.29,
+  "speaker": "Unknown",
+  "en": "We also have another release called the RL token where we showed actually even faster speed and actually faster speed than human teleop.",
+  "zh": "我们还有另一个发布版本叫 RL token，我们在其中展示了实际上更快的速度，而且实际上比人工遥操作（teleop）更快的速度。"
+ },
+ {
+  "seg": 453,
+  "start": 3217.591,
+  "end": 3219.192,
+  "speaker": "Unknown",
+  "en": "I think one of the bottlenecks is...",
+  "zh": "我认为瓶颈之一是……"
+ },
+ {
+  "seg": 454,
+  "start": 3219.892,
+  "end": 3226.216,
+  "speaker": "Unknown",
+  "en": "That when you teleoperate robots to do things, which is the easiest way to teach a robot to do something, people are kind of slow at teleoperating the robot.",
+  "zh": "当你遥操作机器人做事情时，这是教机器人做事情最简单的方法，人们在遥操作机器人时有点慢。"
+ },
+ {
+  "seg": 455,
+  "start": 3227.858,
+  "end": 3232.801,
+  "speaker": "Unknown",
+  "en": "We have a couple projects in the pipeline that I think have really promising results in terms of getting fast policies.",
+  "zh": "我们在管道中有几个项目，我认为在获得快速策略方面有非常有前景的结果。"
+ },
+ {
+  "seg": 456,
+  "start": 3233.581,
+  "end": 3235.683,
+  "speaker": "Unknown",
+  "en": "And so I think more to come there.",
+  "zh": "所以我认为那里会有更多的后续进展。"
+ },
+ {
+  "seg": 457,
+  "start": 3235.703,
+  "end": 3238.065,
+  "speaker": "Unknown",
+  "en": "And yeah, I think it's...",
+  "zh": "是的，我认为这是……"
+ },
+ {
+  "seg": 458,
+  "start": 3239.005,
+  "end": 3243.066,
+  "speaker": "Unknown",
+  "en": "Either you need to figure out how to make the data faster or you need to figure out how to be faster than the data.",
+  "zh": "你要么需要弄清楚如何让数据更快，要么需要弄清楚如何比数据更快。"
+ },
+ {
+  "seg": 459,
+  "start": 3243.507,
+  "end": 3246.708,
+  "speaker": "Unknown",
+  "en": "We see the evidence of being able to be a little bit faster than the data.",
+  "zh": "我们看到了能够比数据更快的证据。"
+ },
+ {
+  "seg": 460,
+  "start": 3247.308,
+  "end": 3253.71,
+  "speaker": "Unknown",
+  "en": "And in terms of the next steps, it's either to kind of go even further than that or make the data faster.",
+  "zh": "就下一步而言，要么是比那走得更远，要么是让数据更快。"
+ },
+ {
+  "seg": 461,
+  "start": 3256.691,
+  "end": 3256.911,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 462,
+  "start": 3256.931,
+  "end": 3259.652,
+  "speaker": "Unknown",
+  "en": "What's the most surprising task you've seen a robot complete recently?",
+  "zh": "你最近看到机器人完成的最令人惊讶的任务是什么？"
+ },
+ {
+  "seg": 463,
+  "start": 3259.792,
+  "end": 3261.133,
+  "speaker": "Unknown",
+  "en": "What do you want to see it do next?",
+  "zh": "你接下来想看到它做什么？"
+ },
+ {
+  "seg": 464,
+  "start": 3263.477,
+  "end": 3274.884,
+  "speaker": "Unknown",
+  "en": "So the most surprising thing was not really a task, but when we were working on Py07, I personally trained one of the policies for some of the initial tests for assembling this pinwheel.",
+  "zh": "所以最令人惊讶的事情实际上不是一个任务，而是当我们致力于 Py07 时，我个人训练了其中一个策略，用于组装这个风车的一些初步测试。"
+ },
+ {
+  "seg": 465,
+  "start": 3275.665,
+  "end": 3280.028,
+  "speaker": "Unknown",
+  "en": "And when I was working on training it to construct the pinwheel,",
+  "zh": "当我在致力于训练它来构建风车时，"
+ },
+ {
+  "seg": 466,
+  "start": 3281.332,
+  "end": 3295.886,
+  "speaker": "Unknown",
+  "en": "One thing that really surprised me was in all the data, we kind of carefully controlled the strategy for how to assemble the pinwheel, where you basically will take the kind of precut piece of paper and take a little pin and insert the pin into a hole in the paper.",
+  "zh": "有一件事真的很让我惊讶，那就是在所有数据中，我们小心地控制了组装风车的策略，基本上你会拿那种预切的纸片，拿一个小别针，把别针插入纸上的孔里。"
+ },
+ {
+  "seg": 467,
+  "start": 3296.647,
+  "end": 3302.172,
+  "speaker": "Unknown",
+  "en": "And in all of the data, we picked up the pin with the right hand and picked up the paper with the left hand and inserted it.",
+  "zh": "在所有数据中，我们用右手拿起别针，用左手拿起纸并插入它。"
+ },
+ {
+  "seg": 468,
+  "start": 3302.933,
+  "end": 3309.236,
+  "speaker": "Unknown",
+  "en": "And the robot kind of started doing that and then it actually made a mistake and the paper ended up on the right side and the pin ended up on the left side.",
+  "zh": "机器人开始那样做，然后它实际上犯了个错误，纸到了右边，别针到了左边。"
+ },
+ {
+  "seg": 469,
+  "start": 3309.617,
+  "end": 3318.442,
+  "speaker": "Unknown",
+  "en": "And what the robot did is it picked up the paper and it picked up the pin with its left gripper and it put the pin with its left gripper and inserted it into the paper with its right.",
+  "zh": "机器人做的是它拿起了纸，用它的左夹爪拿起了别针，用它的左夹爪拿着别针，并将其插入到用右手拿着的纸里。"
+ },
+ {
+  "seg": 470,
+  "start": 3318.902,
+  "end": 3322.204,
+  "speaker": "Unknown",
+  "en": "And it had never seen data of inserting the pin with its left gripper and...",
+  "zh": "它从未见过用左夹爪插入别针的数据，而且……"
+ },
+ {
+  "seg": 471,
+  "start": 3323.064,
+  "end": 3340.432,
+  "speaker": "Unknown",
+  "en": "It kind of showed that even that wasn't in the post-training data at all, and it wasn't even in pre-training either, the robot essentially had learned this sort of equivariance between his left hand and his right hand so that it could actually transfer behaviors from one hand to another, despite the fact that that was never in the data.",
+  "zh": "这表明甚至那不在后训练数据中，甚至也不在预训练中，机器人本质上已经学习了这种左手和右手之间的等价性，以便它实际上能够将行为从一只手转移到另一只手，尽管那从未在数据中。"
+ },
+ {
+  "seg": 472,
+  "start": 3340.732,
+  "end": 3342.153,
+  "speaker": "Unknown",
+  "en": "And so that was a really cool moment.",
+  "zh": "所以那真是一个非常酷的时刻。"
+ },
+ {
+  "seg": 473,
+  "start": 3342.493,
+  "end": 3351.837,
+  "speaker": "Unknown",
+  "en": "I feel like I don't know if other people were as excited about it as I was when I shared it with some people, but it kind of shows this kind of emergent capability in these models that I hadn't seen before.",
+  "zh": "我觉得我不知道当我与一些人分享时，其他人是否像我一样对它感到兴奋，但它展示了这些模型中我以前从未见过的这种涌现能力。"
+ },
+ {
+  "seg": 474,
+  "start": 3354.378,
+  "end": 3358.439,
+  "speaker": "Unknown",
+  "en": "And then, yeah, in terms of what I'd love to see, I don't know.",
+  "zh": "然后，是的，就我很想看到的而言，我不知道。"
+ },
+ {
+  "seg": 475,
+  "start": 3358.459,
+  "end": 3362.4,
+  "speaker": "Unknown",
+  "en": "I love seeing robots do anything.",
+  "zh": "我喜欢看机器人做任何事。"
+ },
+ {
+  "seg": 476,
+  "start": 3362.981,
+  "end": 3371.984,
+  "speaker": "Unknown",
+  "en": "And I guess I think that there's still a long way to push in terms of reliability for robots being able to do tasks for really long periods of time.",
+  "zh": "我想我认为在机器人在非常长的时间内能够做任务的可靠性方面，还有很长的路要走。"
+ },
+ {
+  "seg": 477,
+  "start": 3372.004,
+  "end": 3379.506,
+  "speaker": "Unknown",
+  "en": "I don't necessarily think that much about individual tasks, but more so about capabilities and how to get the next capability from these models.",
+  "zh": "我不一定考虑那么多单独的任务，而是更多地考虑能力，以及如何从这些模型中获得下一个能力。"
+ },
+ {
+  "seg": 478,
+  "start": 3382.448,
+  "end": 3383.989,
+  "speaker": "Unknown",
+  "en": "Yeah, and so, yeah, anything.",
+  "zh": "是的，所以，是的，任何事。"
+ },
+ {
+  "seg": 479,
+  "start": 3384.63,
+  "end": 3391.014,
+  "speaker": "Unknown",
+  "en": "I guess the, yeah, a robot doing anything always gets me excited, even if it's something that hasn't been done before.",
+  "zh": "我想是的，是的，一个机器人做任何事总是让我兴奋，即使那是以前从未做过的事情。"
+ },
+ {
+  "seg": 480,
+  "start": 3391.054,
+  "end": 3395.978,
+  "speaker": "Unknown",
+  "en": "I guess one thing that we've been doing recently is having robots use knives to slice vegetables.",
+  "zh": "我想我们最近一直在做的一件事是让机器人使用刀来切蔬菜。"
+ },
+ {
+  "seg": 481,
+  "start": 3396.318,
+  "end": 3401.362,
+  "speaker": "Unknown",
+  "en": "I think that there's a lot that you can do there once you actually can use knives safely, which is one thing that we've done recently.",
+  "zh": "我认为一旦你实际上能安全地使用刀，那里你可以做很多事情，那是我们最近做的一件事。"
+ },
+ {
+  "seg": 482,
+  "start": 3403.083,
+  "end": 3411.95,
+  "speaker": "Unknown",
+  "en": "Okay, and then the last question is, how can someone break into robotics from a software engineering background?",
+  "zh": "好的，然后最后一个问题是，一个拥有软件工程背景的人如何进入机器人领域？"
+ },
+ {
+  "seg": 483,
+  "start": 3412.851,
+  "end": 3413.812,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 484,
+  "start": 3414.772,
+  "end": 3418.594,
+  "speaker": "Unknown",
+  "en": "So I think that the, I guess first there's a lot of software engineering in robotics.",
+  "zh": "所以我认为，我想首先机器人领域有很多软件工程。"
+ },
+ {
+  "seg": 485,
+  "start": 3418.654,
+  "end": 3424.617,
+  "speaker": "Unknown",
+  "en": "And so there's, I think you could try joining a robotics company as a software engineer.",
+  "zh": "所以有，我认为你可以尝试作为软件工程师加入一家机器人公司。"
+ },
+ {
+  "seg": 486,
+  "start": 3425.618,
+  "end": 3429.7,
+  "speaker": "Unknown",
+  "en": "And then another thing that I would mention, and I've actually seen someone take this path.",
+  "zh": "然后我会提到的另一件事，而且我实际上看到有人走过这条路。"
+ },
+ {
+  "seg": 487,
+  "start": 3429.76,
+  "end": 3433.482,
+  "speaker": "Unknown",
+  "en": "So someone who actually now works at Physical Intelligence, her name is Jenny, she...",
+  "zh": "所以实际上现在在 Physical Intelligence 工作的人，她的名字是 Jenny，她……"
+ },
+ {
+  "seg": 488,
+  "start": 3434.002,
+  "end": 3462.387,
+  "speaker": "Unknown",
+  "en": "I worked in trading algorithmic trading for a while then she worked at Harvey and was doing legal stuff and she was really excited about robots and so she bought a cheap robot and basically in her bedroom like played around with it and tried like fine-tuning an open source model and trying to get it to do something and then she shared what she had done and she sent me a cold email and was like hey can I like I'm interested in working in your lab and it seemed like her profile was promising and that she actually like",
+  "zh": "我在算法交易领域工作了一段时间，然后她在 Harvey 工作，做法律相关的事情，她对机器人真的很兴奋，所以她买了一个便宜的机器人，基本上在她的卧室里摆弄它，尝试微调开源模型并试图让它做点什么，然后她分享了她的所做所为，给我发了一封冷邮件，说嘿我可以我对在你的实验室工作感兴趣，而且她的 profile 看起来很有前景，而且她实际上喜欢"
+ },
+ {
+  "seg": 489,
+  "start": 3463.067,
+  "end": 3467.07,
+  "speaker": "Unknown",
+  "en": "I actually got out there and tried it and done it, and she was really excited about that.",
+  "zh": "我实际上出去了并尝试了并做到了，而且她对此真的很兴奋。"
+ },
+ {
+  "seg": 490,
+  "start": 3467.57,
+  "end": 3470.432,
+  "speaker": "Unknown",
+  "en": "And now she works at Physical Intelligence.",
+  "zh": "现她在 Physical Intelligence 工作。"
+ },
+ {
+  "seg": 491,
+  "start": 3470.452,
+  "end": 3486.444,
+  "speaker": "Unknown",
+  "en": "But yeah, I think just getting your feet wet, trying stuff out, and learning from that experience, and then using that experience to share with people, have it on your resume, and so forth, I think is a great way to do stuff.",
+  "zh": "但是是的，我认为只是涉足其中，尝试东西，并从那个经验中学习，然后使用那个经验与人分享，把它放在你的简历上等等，我认为做事情的一个很好的方式。"
+ },
+ {
+  "seg": 492,
+  "start": 3486.464,
+  "end": 3491.428,
+  "speaker": "Unknown",
+  "en": "And fortunately, there's a lot of open source stuff out there that can allow you to get started on those kinds of things.",
+  "zh": "幸运的是，那里有很多开源的东西可以让你开始做这些事情。"
+ },
+ {
+  "seg": 493,
+  "start": 3492.501,
+  "end": 3493.023,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 494,
+  "start": 3493.063,
+  "end": 3494.608,
+  "speaker": "Unknown",
+  "en": "That was the last question.",
+  "zh": "那是最后一个问题。"
+ },
+ {
+  "seg": 495,
+  "start": 3494.909,
+  "end": 3496.374,
+  "speaker": "Unknown",
+  "en": "Thanks, everyone, for listening.",
+  "zh": "谢谢，大家，收听。"
+ }
+]

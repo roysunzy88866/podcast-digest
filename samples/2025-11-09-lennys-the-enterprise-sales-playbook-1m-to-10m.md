@@ -153,8 +153,8 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 **顺着「增长与销售」挖下去**
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Stripe · 同概念:PLG</span>
+- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场]]<span class="pd-rz">同公司:Cursor · 同概念:ACV、PLG</span>
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Cursor</span>
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同概念:前向部署工程师 (Forward Deployed Engineer)</span>
 
 </div>
 <div class="pd-ex">

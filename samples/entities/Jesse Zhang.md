@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]]
+[[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Simon Mo]] [[Matt Bornstein]] [[Elena Berger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":77,"开源模型":5,"微调":1,"业务逻辑":1,"前向部署工程师":5,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Ashwin Srinivas":1,"Decagon":2,"智能体":77,"开源模型":5,"微调":1,"业务逻辑":1,"前向部署工程师":5,"Duet":1}</script>
 
 <script>
 (function(){

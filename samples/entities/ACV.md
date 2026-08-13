@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ACV</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ACV">AC</div><div class="pi"><h1 class="pt">ACV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ACV">AC</div><div class="pi"><h1 class="pt">ACV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(07:10起):本集把它说成:衡量企业销售合同金额的指标。嘉宾强调,做企业销售必须把 ACV 定在 7.5 万到 15 万美元之间,长期停留在 1 万美元的 ACV 会搞垮你的商业模式。
+- **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(16:36起):本集把它说成是衡量销售交易的指标：早期不用过度纠结具体金额，只要单体经济模型跨过健康的门槛，就去签尽可能多的合格单子，随后再逐渐攀升 ACV 阶梯。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念
+- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jen Abel]] · [[Lenny]] · [[企业销售]] · [[愿景描绘]] · [[超额收益]] · [[第一梯队]] · [[交易设计]] · [[设计合作伙伴]] · [[PLG]] · [[前向部署工程师]]
+[[PLG]] · [[Cursor]] · [[Jen Abel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[企业销售]] · [[Andy McCall]] · [[愿景描绘]] · [[Lighthouse]]
 
-<script type="application/json" class="pd-epn">{"Jen Abel":1,"Lenny":40,"企业销售":1,"愿景描绘":1,"超额收益":1,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":2,"前向部署工程师":5}</script>
+<script type="application/json" class="pd-epn">{"PLG":3,"Cursor":13,"Jen Abel":1,"Elena Berger":3,"Lenny":40,"Joe Schmidt":1,"企业销售":1,"Andy McCall":1,"愿景描绘":1,"Lighthouse":1}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:57起):本集核心受访公司，做帮大企业（如全球最大银行、航司）搭建客服 AI 智能体的应用层公司，主张把 90% 工作流转向微调的开源模型。
+- **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(25:12起):本集把它说成是 AI 客服公司中，处理 POC 试用纪律的正面典范：明确签下要达到的基准，并在规定时间内兑现。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司
+- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]] · [[Duet]]
+[[Sarah Wang]] · [[Elena Berger]] · [[Kimberley Tan]] · [[Joe Schmidt]] · [[Jesse Zhang]] · [[Andy McCall]] · [[Ashwin Srinivas]] · [[Lighthouse]] · [[智能体]] · [[LandGrab]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"智能体":77,"开源模型":5,"微调":1,"业务逻辑":1,"前向部署工程师":5,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Elena Berger":3,"Kimberley Tan":1,"Joe Schmidt":1,"Jesse Zhang":1,"Andy McCall":1,"Ashwin Srinivas":1,"Lighthouse":1,"智能体":77,"LandGrab":1}</script>
 
 <script>
 (function(){

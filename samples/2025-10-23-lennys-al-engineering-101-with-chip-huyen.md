@@ -127,8 +127,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)</span>
+- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同公司:ChatGPT · 同概念:强化学习 (reinforcement learning)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">

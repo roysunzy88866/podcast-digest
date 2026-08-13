@@ -1,0 +1,736 @@
+{
+  "episode_id": "2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-13",
+  "tags": [
+    "物理 AI",
+    "通用机器人",
+    "长期自主性",
+    "组合泛化",
+    "具身智能"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "chelsea-finn",
+      "type": "person",
+      "role": "host",
+      "name": "Chelsea Finn",
+      "file": "Chelsea Finn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "physical-intelligence",
+      "type": "company",
+      "role": "company",
+      "name": "Physical Intelligence",
+      "file": "Physical Intelligence",
+      "primary": true,
+      "how_described": "本集把它说成:讲者两年前创办的公司,目标是开发能在真实世界中做任何任务的通用机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.336,
+            13.46
+          ],
+          "quote": "Today I'm going to be talking about the state of the art of physical intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            14.581,
+            19.985
+          ],
+          "quote": "And in particular, two years ago, I founded a company called Physical Intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            36.307,
+            48.757
+          ],
+          "quote": "And at the event last year, I shared some of our progress at the company, at Physical Intelligence, where we could do things, really complicated tasks, like unloading and folding laundry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2268.282,
+            2277.645
+          ],
+          "quote": "The first thing that I'll mention is if we go back to the timeline of generalist AI, I think that we now kind of firmly have physical intelligence in the right side of this timeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2277.665,
+            2284.947
+          ],
+          "quote": "We're kind of firmly more in like a GBT and DALI-like era for robotics and physical intelligence, which is really exciting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            2337.243,
+            2346.233
+          ],
+          "quote": "And so this is really kind of truly showing how physical intelligence can make an impact, not just in demos and research and so forth, but actually in real world deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2358.787,
+            2362.47
+          ],
+          "quote": "So the last thing that I'll mention shamelessly is that we are hiring at Physical Intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2787.663,
+            2795.211
+          ],
+          "quote": "The way that we approach it at Physical Intelligence is to collect data, to collect robot experience of robots doing all sorts of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            3429.76,
+            3433.482
+          ],
+          "quote": "So someone who actually now works at Physical Intelligence, her name is Jenny, she...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            3467.57,
+            3470.432
+          ],
+          "quote": "And now she works at Physical Intelligence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            310.028,
+            328.692
+          ],
+          "quote": "Now, one really exciting thing to kind of highlight that has happened recently is a year ago Waymo passed the quarter of a million weekly autonomous rides, suggesting that it is really possible to develop a machine learning based system that can operate in a trustworthy and autonomous way directly in the physical world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2413.676,
+            2424.885
+          ],
+          "quote": "I think that we've seen for something like Waymo, the rollout has actually been incredible to see the rollout that they've had, but it still takes time to actually deploy things on physical devices.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成:2022 年发布的首个真正在现实世界中被许多人广泛使用的通用模型;并且讨论了机器人何时能迎来属于自己的「ChatGPT 时刻」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            174.71,
+            185.12
+          ],
+          "quote": "But from there, I think that even more exciting moment in time that we saw in terms of machine learning and AI in production was in 2022 with the launch of ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            193.348,
+            196.491
+          ],
+          "quote": "Within five days, ChatGPT had reached a million users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2384.643,
+            2391.292
+          ],
+          "quote": "Okay, so the first question is how far away are we from a ChatGPT moment for robotics and what will that look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2392.013,
+            2399.845
+          ],
+          "quote": "So I'll start with the second part actually, which is that I'm not sure it will really look like the ChatGPT moment that we saw in language models, which is that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2400.325,
+            2405.029
+          ],
+          "quote": "With something like ChatGPT, we saw it passed a million new users in five days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2426.546,
+            2431.27
+          ],
+          "quote": "So I don't know if we'll have a single moment that has the distribution that ChatGPT had.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2438.715,
+            2447.682
+          ],
+          "quote": "And I think that getting to the capabilities of ChatGPT, I think, is very much on the horizon in the next few years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把它说成:必须在物理世界中直接做出决定的 AI。它和聊天机器人不同,必须比以往部署的机器学习系统少犯错得多才能在现实中自主运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            281.56,
+            293.502
+          ],
+          "quote": "And I think that actually physical AI and robotics is pretty different from this, where if we think about physical AI that are actually operating in the physical world, they have to be directly making decisions that affect the physical world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            299.923,
+            308.625
+          ],
+          "quote": "And as a result, this requires us to develop physical AI systems that make far fewer mistakes than the machine learning systems that have been deployed thus far.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            462.481,
+            474.546
+          ],
+          "quote": "And if we can do this for many, many more iterations because it's automatic rather than a person doing it, then this might be the way to get really, really high, like 99 plus percent reliability from physical AI systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1429.539,
+            1431.921
+          ],
+          "quote": "And then meanwhile, if we kind of think about physical AI,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集把它说成:一种让系统自己不断试错、从失败中学习的方法。在物理世界中为了降低试错成本,采用了尽早干预死胡同轨迹和训练通用价值函数来分摊成本这两招。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            477.607,
+            483.949
+          ],
+          "quote": "And this looks a lot like a reinforcement learning algorithm that's trying to attempt the task, learn from its failures, and get better and better on its own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            485.73,
+            489.751
+          ],
+          "quote": "So then how do we develop a scalable reinforcement learning recipe for robotics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            566.871,
+            572.935
+          ],
+          "quote": "So there's a couple inefficiencies, like large inefficiencies in these reinforcement learning algorithms for language models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            761.955,
+            784.743
+          ],
+          "quote": "So with these two kind of improvements to a reinforcement learning system we kind of have a general improvement algorithm that trains a foundation model on diverse data then collects experience from that with a human intervening as necessary to help prevent dead-end trajectories and then train a general purpose estimate of what's good and bad the value function and then use that to improve the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            919.821,
+            929.279
+          ],
+          "quote": "And trained it with the reinforcement learning algorithm that I talked about to get a policy that is far more reliable at constructing, labeling, and stacking these boxes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            972.467,
+            992.299
+          ],
+          "quote": "And we find that over the phases of training, from pre-training to an SFT-like stage to an RL post-training-like stage, we see a drastic increase in success rate in seed, in throughput, and specifically around a 2x throughput just from the RL stage itself, showing how we can get much greater reliability from reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1657.691,
+            1664.093
+          ],
+          "quote": "Basically all of the training data that was used for reinforcement learning for the previous tasks will be included in the training recipe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1838.437,
+            1858.926
+          ],
+          "quote": "And if we measure the throughput and the success rate of this single PIO7 model versus the fine-tuned PIO6 model, we see that across the board, the single pre-trained PIO7 model matches or outperforms the fine-tuned specialists that were developed with reinforcement learning post-training for those downstream tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            3206.084,
+            3208.766
+          ],
+          "quote": "And we did see speed improvements from reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "long-term-autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "长期自主性 (long-term autonomy)",
+      "file": "长期自主性",
+      "primary": true,
+      "how_described": "本集把它说成:让机器人在真实物理世界里连续干几个小时的活还不犯错,这是让机器人变得真正有用的核心要求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            355.681,
+            362.202
+          ],
+          "quote": "So to think about long-term autonomy, I want to ground this in a specific example and say that we wanted a robot to make espresso.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            1014.657,
+            1024.184
+          ],
+          "quote": "But most importantly, we saw how we can achieve long-term autonomy in real workflows that people actually care about in the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            1052.756,
+            1055.778
+          ],
+          "quote": "So we've seen long-term autonomy for these different workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1278.785,
+            1281.606
+          ],
+          "quote": "Great, so those were a couple ingredients for long-term autonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2256.036,
+            2258.959
+          ],
+          "quote": "Okay, so we talked about long-term autonomy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compositional-generalization",
+      "type": "concept",
+      "role": "concept",
+      "name": "组合泛化 (compositional generalization)",
+      "file": "组合泛化",
+      "primary": true,
+      "how_described": "本集把它说成:模型能把学到的不同概念(比如牛油果和椅子)结合起来举一反三。在机器人上表现为能操作没见过的电器,或在完全陌生的平台上直接完成没训练过的任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1407.378,
+            1417.428
+          ],
+          "quote": "And then I think one other kind of milestone that I want to highlight was a milestone in 2021 where we think I saw the first signs of compositional generalization in these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1488.859,
+            1495.724
+          ],
+          "quote": "Specifically, how do we develop a single general purpose model that works out of the box and also shows compositional generalization?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1552.658,
+            1555.182
+          ],
+          "quote": "And then the second goal that I mentioned is compositional generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1560.709,
+            1568.119
+          ],
+          "quote": "And I think that this was a really important and exciting milestone because of the compositional generalization that it achieved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1569,
+            1587.791
+          ],
+          "quote": "And specifically, when you have compositional generalization, when you can basically bridge the concept of an avocado and a chair and show that you can combine those two, it means that the model has at least some kind of conceptual understanding of what an avocado is and what a chair is, to the point that it can combine them into something that exhibits both concepts at the same time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1610.438,
+            1619.381
+          ],
+          "quote": "Now even back in 2021 it wasn't perfect, but these signs of compositional generalization were really exciting for demonstrating these two attributes of the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1624.063,
+            1626.423
+          ],
+          "quote": "We'd like an out-of-the-box model and compositional generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1877.055,
+            1881.178
+          ],
+          "quote": "Okay, so that was the first goal of out-of-the-box models, and the second goal is compositional generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1959.829,
+            1962.511
+          ],
+          "quote": "So that's the first form of compositional generalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1962.531,
+            1969.938
+          ],
+          "quote": "The second compositional generalization test that we wanted to look at is we wanted to see if we could compositionally generalize between tasks and robot platforms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            2070.124,
+            2080.505
+          ],
+          "quote": "Cool, so the takeaway here is that both in terms of language object interactions and in terms of task robot interactions, we see strong signs of compositional generalization in this model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            2227.534,
+            2232.116
+          ],
+          "quote": "We also saw strong signs of compositional generalization in a DALI-like way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "value-function",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值函数 (value function)",
+      "file": "价值函数",
+      "primary": true,
+      "how_described": "本集把它说成:一个通过大量机器人视频训练出来的、能预测成功还要多久的「好与坏」通用评估器,用来大幅减少学习所需的尝试次数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            716.117,
+            724.639
+          ],
+          "quote": "And so what this looks like is we can train a general purpose value function on lots of kind of videos of the robot experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            737.722,
+            745.829
+          ],
+          "quote": "And the same value function can also estimate what's good and bad for a completely different scenario, in this case for retrieving an item from a fridge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            761.955,
+            784.743
+          ],
+          "quote": "So with these two kind of improvements to a reinforcement learning system we kind of have a general improvement algorithm that trains a foundation model on diverse data then collects experience from that with a human intervening as necessary to help prevent dead-end trajectories and then train a general purpose estimate of what's good and bad the value function and then use that to improve the model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集把它说成:执行多步骤长任务的关键因素。为绕过算力瓶颈,采用多时间尺度记忆:短期保留 10 秒的高效视频记忆,长期跨度则提炼为高度压缩的文本摘要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            1066.096,
+            1068.217
+          ],
+          "quote": "And that ingredient is memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            1068.778,
+            1076.122
+          ],
+          "quote": "So you might be surprised to hear that most state-of-the-art foundation models for robotics have no memory or no context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1090.632,
+            1092.674
+          ],
+          "quote": "You can do repetitive tasks without memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            1096.598,
+            1105.525
+          ],
+          "quote": "But if you want to do a long task that involves multiple different steps in sequence, then memory is critical for tracking progress of the steps that you've completed so far.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1107.327,
+            1112.652
+          ],
+          "quote": "So if it's critical for doing these kinds of long horizon tasks, then why don't these models have any context or memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1113.766,
+            1134.273
+          ],
+          "quote": "There's a couple reasons for this that are technical and I'll talk through one of them which is that if you naively approach memory and try to feed in context like pass video to a robot foundation model say that you would just pass in 10 seconds of video maybe these 10 seconds of video is sampled at 50 hertz which is a common control frequency in robotics",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1161.024,
+            1162.725
+          ],
+          "quote": "And that's still only 10 seconds of memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1174.396,
+            1178.66
+          ],
+          "quote": "And specifically, we developed a system that has memory at multiple timescales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1179.02,
+            1188.007
+          ],
+          "quote": "The first is a short-term video memory that has about 10 seconds of video memory, but is done so and computed much more efficiently than naively passing it into the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1189.083,
+            1199.109
+          ],
+          "quote": "And then for longer memory, for memory that spans multiple minutes or multiple hours, we don't necessarily need video of exactly what happened in that past history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1199.469,
+            1214.499
+          ],
+          "quote": "And so instead we represent memory for those parts in text where we summarize what happened in text space and then incorporate that much more compressed textual summary of what happened over the past 10, 15 minutes into the model as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1215.901,
+            1229.269
+          ],
+          "quote": "And with this sort of kind of memory at multiple different time scales, we're able to enable robots to do tasks that can operate for 10 or 15 minutes at a time completely autonomously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1261.713,
+            1276.457
+          ],
+          "quote": "And so by incorporating memory, it's able to do a task that requires keeping track of all of these different steps that is done to clean the kitchen and successfully operate for 10 to 15 minutes completely autonomously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1700.233,
+            1716.319
+          ],
+          "quote": "And specifically what this looks like is we're going to train a foundation model that takes as input the memory that I mentioned before, an instruction of what to do, but it's also going to take as input a subtask instruction of kind of what the next immediate thing it should do is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "generalist model",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

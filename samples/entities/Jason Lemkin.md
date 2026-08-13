@@ -45,7 +45,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
+[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 

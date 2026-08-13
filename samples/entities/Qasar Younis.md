@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]]
+[[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Simon Mo]] [[Matt Bornstein]] [[Elena Berger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"Applied Intuition":1,"物理 AI":3,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":5,"Waymo":7,"ChatGPT":12,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"Applied Intuition":1,"物理 AI":4,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":5,"Waymo":8,"ChatGPT":13,"Huawei":1}</script>
 
 <script>
 (function(){

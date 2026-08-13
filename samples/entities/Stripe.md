@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[PLG]] · [[Replit]] · [[ChatGPT]] · [[LLM]] · [[Dylan Field]] · [[Jen Abel]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"OpenAI":33,"Lenny":40,"Anthropic":44,"PLG":2,"Replit":4,"ChatGPT":12,"LLM":7,"Dylan Field":2,"Jen Abel":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"OpenAI":33,"Lenny":40,"Anthropic":44,"PLG":3,"Replit":4,"ChatGPT":13,"LLM":7,"Dylan Field":2,"Jen Abel":1}</script>
 
 <script>
 (function(){

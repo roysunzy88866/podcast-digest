@@ -31,7 +31,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Kevin Scott]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]] [[Firas]]
+[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]]
 
 </div>
 

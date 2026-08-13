@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]]
+[[Erik Allebest]] [[Chelsea Finn]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Simon Mo]] [[Matt Bornstein]] [[Elena Berger]] [[Willowryan]]
 
 </div>
 

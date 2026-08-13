@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]]
+[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"后训练":5,"强化学习":8,"评估":7,"RAG":3,"数据准备":1,"测试时计算":2,"系统思维":3,"采样策略":1,"监督微调":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":40,"后训练":5,"强化学习":9,"评估":7,"RAG":3,"数据准备":1,"测试时计算":2,"系统思维":3,"采样策略":1,"监督微调":1}</script>
 
 <script>
 (function(){

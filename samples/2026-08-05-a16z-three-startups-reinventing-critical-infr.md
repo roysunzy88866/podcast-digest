@@ -134,8 +134,8 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
+- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 
 </div>
 <div class="pd-ex">

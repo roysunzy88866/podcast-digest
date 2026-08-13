@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[ChatGPT]] · [[Anthropic]] · [[后训练]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[品味]] · [[Chip Huyen]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Lenny":40,"ChatGPT":12,"Anthropic":44,"后训练":5,"Claude":12,"OpenAI":33,"Claude Code":20,"品味":5,"Chip Huyen":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":77,"Lenny":40,"ChatGPT":13,"Anthropic":44,"后训练":5,"Claude":12,"OpenAI":33,"Claude Code":20,"品味":5,"Chip Huyen":1}</script>
 
 <script>
 (function(){

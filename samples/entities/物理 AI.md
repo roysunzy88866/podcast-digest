@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>88</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>88</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(04:20起):本集把它说成是给采矿车、农业机械、建筑设备等已存在的大型物理机器注入智能,认为这是未来 5 到 10 年 AI 最大的真实影响所在。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(35:37起):本集把它描述为 AI 的下一个前沿，指能让机器人或自动驾驶汽车理解物理定律、因果关系和摩擦张力的 AI。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:49起):本集把它说成:AI 在物理世界(如建筑工地、电网、交通等)的应用;因为缺乏现成的数字比特数据且涉及硬件部署,比数字世界的 AI 挑战大得多。
+- **[[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]]**(04:41起):本集把它说成:必须在物理世界中直接做出决定的 AI。它和聊天机器人不同,必须比以往部署的机器学习系统少犯错得多才能在现实中自主运行。
 
 ## ① 提到它的金句
 
@@ -197,19 +198,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
+- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tesla]] · [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
+[[Waymo]] · [[Tesla]] · [[ChatGPT]] · [[智能体]] · [[强化学习]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Chelsea Finn]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":77,"ChatGPT":12,"Lenny":40,"Jensen Huang":3,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":8,"Tesla":5,"ChatGPT":13,"智能体":77,"强化学习":9,"Lenny":40,"Jensen Huang":3,"Matt Turk":1,"Chelsea Finn":1,"Qasar Younis":1}</script>
 
 <script>
 (function(){

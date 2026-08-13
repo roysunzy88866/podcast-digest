@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cisco</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cisco">CI</div><div class="pi"><h1 class="pt">Cisco</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cisco">CI</div><div class="pi"><h1 class="pt">Cisco</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]]**(00:30起):本集将其描述为全球 AI 基础设施建设中最核心的玩家之一。不仅在大公司内部完成了自上而下的 AI 优先转型,还通过提供网络、光学、安全和数据平台技术,将不同厂商制造的 GPU 连接起来形成集群,是 AI 时代的关键基础设施公司。
+- **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(00:30起):本集提到它是早年锁定大企业网络市场的巨头，以及收购了 Meraki 的母公司。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
+- [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeetu Patel]] · [[Lenny]] · [[NVIDIA]] · [[ChatGPT]] · [[主观能动性]] · [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]]
+[[Jeetu Patel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[NVIDIA]] · [[Andy McCall]] · [[ChatGPT]] · [[Lighthouse]] · [[主观能动性]] · [[LandGrab]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Lenny":40,"NVIDIA":16,"ChatGPT":12,"主观能动性":8,"AI 优先":1,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Elena Berger":3,"Lenny":40,"Joe Schmidt":1,"NVIDIA":16,"Andy McCall":1,"ChatGPT":13,"Lighthouse":1,"主观能动性":8,"LandGrab":1}</script>
 
 <script>
 (function(){
