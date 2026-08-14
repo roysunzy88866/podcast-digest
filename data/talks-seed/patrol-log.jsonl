@@ -135,3 +135,7 @@
 {"ts":"2026-08-13T13:41:35.090Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
 {"ts":"2026-08-14T01:41:20.596Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Failed to connect to github.com port 443 after 75005 ms: Couldn't connect to server\n"}
 {"ts":"2026-08-14T07:41:15.475Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Failed to connect to github.com port 443 after 75008 ms: Couldn't connect to server\n"}
+{"ts":"2026-08-14T13:41:07.852Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-14T13:41:49.246Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-14T13:41:54.252Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-14T13:41:59.257Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
