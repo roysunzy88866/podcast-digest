@@ -132,3 +132,4 @@
 {"ts":"2026-08-13T07:40:08.799Z","action":"prefilter-skip","channel":"axios","videoId":"0TdmFCFWg1A","title":"Maggie Haberman on Trump’s secretive NATO summit exit","reason":"标题不含必需关键词(full interview)"}
 {"ts":"2026-08-13T07:40:31.968Z","action":"rejected","channel":"langchain","videoId":"o7SA6qD55DQ","title":"Building Governed Agents: A Framework for Cost, Control and Compliance","durationSec":3148,"verdict":"不对味","reason":"偏 LangChain 自家产品教程(推销 LangGraph gateway 概念),非真实企业 agent 实操或创始人对谈。"}
 {"ts":"2026-08-13T07:40:57.896Z","action":"rejected","channel":"langchain","videoId":"OpFXXSsEIBo","title":"Build a social media agent with Managed Deep Agents","durationSec":769,"verdict":"不对味","reason":"自家产品功能教程（介绍 Managed Deep Agents），非企业级客户案例或创始人对谈。"}
+{"ts":"2026-08-13T13:41:35.090Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
