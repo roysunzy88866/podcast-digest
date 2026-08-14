@@ -8,7 +8,7 @@
 // 保留的老守卫:8 大类词表读取、已读压暗 pd-read(F1 回归)、首页隐藏框架自动日期。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { renderList, taxonomyCategories } from "../scripts/build-list.mjs";
+import { renderList, taxonomyCategories, scriptBlock } from "../scripts/build-list.mjs";
 
 // 样式按项目铁律全在 custom.scss(唯一视觉定制入口)→ 视觉规格的断言查那个文件,
 // 结构的断言查 renderList 的输出。设计稿 = 设计稿/style.css。
@@ -673,5 +673,71 @@ describe("C13f · 公司 logo 底衬不许硬编码白(暗色下会是白方块)
     const r = scss.slice(scss.indexOf(".cc .lg img"));
     expect(r.slice(0, 200)).toMatch(/background:\s*var\(--B0\)/);
     expect(r.slice(0, 200)).not.toMatch(/background:\s*#fff/);
+  });
+});
+
+// ── C24 · 卡片无限滚动(软加载)· scriptBlock 里的 io 模块结构守卫 ──
+// 行为已在本地 build 浏览器实测(初批 24 / 大类页筛选重分批 / 首页+大类页手机返回还原);
+// 这里钉住关键机制不被后续改动悄悄拆掉(滚动露出因无头浏览器 IntersectionObserver 不 fire,
+// 逻辑靠初始/还原多值实测覆盖,observer 是标准写法)。
+describe("C24 · 卡片无限滚动 · io 模块结构", () => {
+  const sb = scriptBlock();
+
+  it("★★★ 折叠靠 .io-fold 类(不是删节点/不占 style.display)—— 与大类页 filter 的 display 分层不打架", () => {
+    expect(sb).toContain("classList.toggle('io-fold'");
+    // 只对「超出当前批」的卡加类:i>=ioState.shown
+    expect(sb).toMatch(/classList\.toggle\('io-fold',\s*i>=ioState\.shown\)/);
+  });
+
+  it("★★★ 初始一批 = IO_BATCH=24;哨兵 + IntersectionObserver 滚到底递增", () => {
+    expect(sb).toContain("IO_BATCH=24");
+    expect(sb).toContain("io-sentinel");
+    expect(sb).toContain("IntersectionObserver");
+    expect(sb).toMatch(/ioState\.shown\+=IO_BATCH/);
+    // 哨兵始终移到容器末尾(filter 会 appendChild 重排卡)
+    expect(sb).toContain("c.appendChild(s)");
+  });
+
+  it("★★★ 暴露 window.__ioRecompute 供大类页 filter 筛后重新分批", () => {
+    expect(sb).toContain("window.__ioRecompute=ioRecompute");
+  });
+
+  it("★★★ 首页日期头联动:整组卡都折叠时,日期头也折叠(不留光杆空日期头)", () => {
+    // 对每个 .dateh 看它后面那组 .grid 有没有露出的卡,没有就折叠头
+    expect(sb).toContain(".dateh");
+    expect(sb).toMatch(/h\.classList\.toggle\('io-fold',\s*!any\)/);
+  });
+
+  it("★★★ 手机端离页存位 / 返回还原:sessionStorage 'ioret:' 键,且存位仅限窄屏", () => {
+    expect(sb).toContain("ioret:");
+    // 存位守窄屏(PC 开新标签天然不需)
+    expect(sb).toMatch(/matchMedia\('\(max-width:1023px\)'\)/);
+    // 还原后清键(一次性)
+    expect(sb).toContain("sessionStorage.removeItem('ioret:'");
+  });
+
+  it("★★★ 双重 init 不打回第一批:同路径保留 ioLastShown(治「脚本直调 + Quartz nav 各跑一次」)", () => {
+    // ioInitialShown 里有「同路径且上次露出>一批 → 沿用」的分支
+    expect(sb).toMatch(/ioLastPath===location\.pathname\s*&&\s*ioLastShown>IO_BATCH/);
+    // 同节点再 init 只重算、不重置
+    expect(sb).toMatch(/ioState\.c===c\)\s*\{\s*ioApply\(\);\s*return;/);
+  });
+
+  it("★★ 太老的浏览器(无 IntersectionObserver)不折叠 = 全显示(优雅降级)", () => {
+    expect(sb).toMatch(/if\(!\('IntersectionObserver' in window\)\)\s*return/);
+  });
+
+  it("★★★ 无 JS 全显示:renderList 静态产物里卡片不带 io-fold 类(SEO 不降级)", () => {
+    const md = renderList([ep(), ep({ meta: { id: "b", date: "2026-06-01" } })]);
+    expect(md).not.toMatch(/class="[^"]*\bio-fold\b/);
+  });
+});
+
+describe("C24 · custom.scss 折叠规则", () => {
+  it("★★★ .io-fold(卡与日期头)display:none;.io-sentinel 存在", () => {
+    const r = scss.slice(scss.indexOf("io-fold"));
+    expect(r.slice(0, 160)).toMatch(/\.card\.io-fold[\s\S]*display:\s*none/);
+    expect(r).toMatch(/\.dateh\.io-fold/);
+    expect(scss).toContain(".io-sentinel");
   });
 });

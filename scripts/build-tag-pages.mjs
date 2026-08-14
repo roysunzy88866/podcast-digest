@@ -152,7 +152,7 @@ const filterScript = () => squashBlankLines(`<script>
     var l=listOf(); return l?[].slice.call(l.querySelectorAll('.card[data-slug]')):[];
   };
 
-  function init(){
+  function init(fromUser){
     function valOf(r,axis){
       if(axis==='cat') return (r.dataset.cats||'').split('|');
       if(axis==='pod') return [r.dataset.pod||''];
@@ -164,7 +164,7 @@ const filterScript = () => squashBlankLines(`<script>
         return a===skip || !pick[a] || valOf(r,a).indexOf(pick[a])>=0;
       });
     }
-    function apply(){
+    function apply(reset){
       var rows=rowsOf(), list=listOf();
       if(!list||!rows.length) return;
       var TOTAL=rows.length, shown=0;
@@ -203,10 +203,13 @@ const filterScript = () => squashBlankLines(`<script>
         ? '筛出 <b>'+shown+'</b> 集 / 共 '+TOTAL+' 集 <button class="clr" id="fclr">清除</button>'
         : '<b>'+TOTAL+'</b> 集';
       var clr=document.getElementById('fclr');
-      if(clr) clr.onclick=function(){ pick={cat:null,pod:null,year:null}; apply(); };
+      if(clr) clr.onclick=function(){ pick={cat:null,pod:null,year:null}; apply(true); };
+      // C24:用户改筛选/排序/清除(reset=true)→ 无限滚动按「筛选后的可见结果」从第一批重新分批;
+      //   初始 / nav / 手机返回还原(reset=false)→ 保留 io 自己算出的批次,不打回第一批(守还原)。
+      if(window.__ioRecompute) window.__ioRecompute(reset);
     }
 
-    apply();
+    apply(fromUser);
   }
 
   // 文档级委托:只绑一次(window 上打标),绑在 document 上不受水合重建影响
@@ -220,15 +223,15 @@ const filterScript = () => squashBlankLines(`<script>
         if(b.classList.contains('zero')) return;   // 0 条的点不动
         var a=b.dataset.axis;
         pick[a]=(pick[a]===b.dataset.val)?null:b.dataset.val;   // 再点一下取消
-        return init();
+        return init(true);
       }
       var s=e.target.closest('.pd .sortbar .so');
-      if(s){ e.preventDefault(); sort=s.dataset.sort; init(); }
+      if(s){ e.preventDefault(); sort=s.dataset.sort; init(true); }
     });
   }
   // Quartz 是 SPA:换页后内联脚本不重跑 → 挂 nav(每次导航含首载都会触发)
-  document.addEventListener('nav', init);
-  init();
+  document.addEventListener('nav', function(){ init(false); });
+  init(false);
 })();
 </script>`);
 

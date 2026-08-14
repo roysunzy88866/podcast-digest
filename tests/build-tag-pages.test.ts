@@ -247,3 +247,26 @@ describe("C13b · 内联脚本不许含空行(Markdown 会把它切成代码块,
     expect(md).toContain("这个主题还没有集");
   });
 });
+
+// ── C24 · 大类页无限滚动 · filter 与 io 分层、区分用户操作/初始 ──
+// 行为已本地 build 浏览器实测(筛后重分批 / 还原后仍能被用户筛选重置)。
+// 核心坑:filter 的 apply() 初始也会跑,若写死 __ioRecompute(true) 会把「手机返回还原」打回第一批。
+describe("C24 · filter apply 区分用户操作(重置)vs 初始/nav/还原(不重置)", () => {
+  const { eps, opts } = fixture();
+  const md = renderTagPage(组织, eps, opts);
+
+  it("★★★ apply/init 带 reset/fromUser 形参,__ioRecompute 透传 reset(不写死 true)", () => {
+    expect(md).toContain("function apply(reset)");
+    expect(md).toContain("function init(fromUser)");
+    expect(md).toMatch(/window\.__ioRecompute\(reset\)/);
+    expect(md).not.toMatch(/window\.__ioRecompute\(true\)/);
+  });
+
+  it("★★★ 用户改筛选/排序/清除 → 重置(true);nav/首载 → 不重置(false,守手机返回还原)", () => {
+    expect(md).toContain("return init(true)"); // 点某条轴
+    expect(md).toMatch(/sort=s\.dataset\.sort;\s*init\(true\)/); // 点排序
+    expect(md).toMatch(/clr\.onclick[\s\S]{0,90}apply\(true\)/); // 清除
+    expect(md).toMatch(/addEventListener\('nav',\s*function\(\)\{\s*init\(false\)/); // nav 不重置
+    expect(md).toMatch(/init\(false\);\s*\}\)\(\)/); // 脚本末尾直调不重置
+  });
+});

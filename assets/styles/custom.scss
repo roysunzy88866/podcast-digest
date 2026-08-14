@@ -644,6 +644,13 @@ body[data-slug^="tags/"] {
   .card.ep-read { opacity: 0.55; }
   .card.ep-read:hover { opacity: 0.85; }
 
+  /* C24 无限滚动(软加载):JS 折叠超出当前批的卡 + 整组折叠时的日期头。
+     与筛选的 style.display 分层:卡被 filter 隐藏(inline display:none)或被折叠(.io-fold)任一即不显示,互不打架。
+     ⚠️ 折叠只由 JS 施加 —— 无 JS 时没有 .io-fold 类 = 全部卡照常显示(SEO 不降级、优雅降级)。 */
+  .card.io-fold,
+  .dateh.io-fold { display: none; }
+  .io-sentinel { height: 1px; pointer-events: none; }
+
   .ep-empty-site {
     padding: 2rem;
     text-align: center;

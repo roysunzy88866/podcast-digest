@@ -2225,3 +2225,54 @@ Scenario: 失败不污染 + 只走日常 cron
 4. 红绿:选集器 + need 计算单测;full suite 绿。
 5. ADR 0021 记「有条件放开 drift #22」;story-map C23 行。
 6. GLM 冷喂复核(--kind code)+ adjudicate。
+
+## C24 · 卡片无限滚动(软加载)· 首页 + 大类页(2026-08-14 用户拍板)
+
+> 起因:首页把全部卡一次性烤进 HTML,随补历史每天 +5 越来越长、渲染越来越重。用户要「分页 + 软加载」。
+> 拍板:①无限滚动(滚到底自动出下一批,非页码/非按钮)②首页 + 大类页都做(共用同一套卡片标记)③手机端从详情返回要还原到之前位置(PC 点详情开新标签、天生不受影响)。
+> 静态站无后端 → 走路线 A「渐进显示」:卡全留在 HTML(SEO 不降级),脚本只控制「渲染/折叠」;不做真分页多页文件(留到几百上千集下载量真成问题时再议)。
+
+Feature: 卡片流软加载 —— 初次只出一批,滚动渐进加载(C24)(US-1, US-2)
+
+Scenario: 初次打开只显示前一批
+  Given 首页/大类页有远超一屏的卡片
+  When 页面加载完成(JS 生效)
+  Then 只显示前一批(默认 24 张)卡,其余折叠(.io-fold 不渲染),页面明显变短
+
+Scenario: 滚到接近底部自动加载下一批
+  Given 当前只露出了前 N 批
+  When 视口滚动到接近底部的哨兵元素
+  Then 自动露出下一批(再 24 张),不点击、不跳页、不整页刷新
+  And 一直可续到最后一张;全部露完后哨兵不再触发
+
+Scenario: 日期分组头跟着卡走(首页)
+  Given 首页卡按入库日期分组、每组一个日期头
+  When 某日期组的卡还没被露出
+  Then 该日期头连同该组一起不显示(不出现光杆空日期头)
+  And 该组有任意一张卡露出时,日期头随之出现
+
+Scenario: 大类页筛选后按结果重新分批
+  Given 大类页有三轴筛选(同时属于/来自/时间)与排序
+  When 用户改筛选或排序
+  Then 无限滚动按「筛选后的可见结果」从第一批重新分批(先出前 24,再滚动续)
+  And 折叠用的 .io-fold 与筛选用的 style.display 互不打架(任一隐藏即隐藏)
+
+Scenario: 关闭 JS 全部卡照常显示(SEO/降级)
+  Given 浏览器禁用 JS
+  When 打开首页/大类页
+  Then 全部卡照常可见(折叠只由 JS 施加;无 JS 即无折叠)
+  And 现有交互(整卡进详情、封面、标签、已读压暗)一个不变
+
+Scenario: 手机端从详情返回还原到之前位置
+  Given 手机端(同标签 SPA 导航)用户已滚动并加载了多批
+  When 点某张卡进详情、再按返回回到列表
+  Then 回到之前加载到的批次与滚动位置(不弹回顶部、不重置成第一批)
+  And PC 端点详情开新标签、原页不动,天然不需还原(此条只判手机)
+
+### DoD(C24)
+1. `.io-fold`(卡与日期头)CSS 折叠规则进 custom.scss;与 `.ep-read`/filter 的 display 叠加无冲突。
+2. scriptBlock 内 `window.__io` 共享模块:批大小、可见集(排除 filter 的 display:none)、recompute(reset)、哨兵 + IntersectionObserver、首页日期头联动;`nav` 事件重跑(SPA)。
+3. 大类页 filterScript 的 `apply()` 末尾调 `window.__io && recompute(true)`,筛选/排序后重新分批。
+4. 手机返回还原:离页(点卡,窄屏)存 {shown, scrollY} 进 sessionStorage,回到列表 init 时消费一次(还原批次+滚动位),再删键;PC 不触发。
+5. 红绿:scriptBlock/filterScript 结构串测(io-fold/IntersectionObserver/哨兵/recompute 挂钩存在)+ 本地 build 浏览器实测 6 条(初批短/滚动续/日期头联动/筛选重分批/noscript 全显/手机返回还原)。
+6. story-map C24 行(🟡);GLM 冷喂复核(--kind code)+ adjudicate。

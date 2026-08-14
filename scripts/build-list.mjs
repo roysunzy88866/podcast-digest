@@ -395,11 +395,105 @@ export const scriptBlock = () => squashBlankLines(`<script>
       a.removeAttribute('target'); a.removeAttribute('rel'); a.removeAttribute('data-router-ignore');
     });
   }
+  // ── C24 无限滚动(软加载)· 首页 + 大类页共用 ──
+  // 静态站无后端 → 卡全烤在 HTML(SEO 不降级),脚本只控「折叠 / 露出」。
+  // 与大类页筛选分层:filter 用 inline style.display 隐藏被筛掉的、这里用 .io-fold 类折叠超批的,
+  // 任一命中即不显示、互不覆盖(filter.apply 末尾回调 window.__ioRecompute 按筛选结果重新分批)。
+  var IO_BATCH=24, ioState=null, ioLastShown=0, ioLastPath='';
+  function ioContainer(){ return document.querySelector('.pd .list') || document.querySelector('.pd .pd-mid'); }
+  function ioEligible(c){
+    return [].slice.call(c.querySelectorAll('.card[data-slug]')).filter(function(el){ return el.style.display!=='none'; });
+  }
+  function ioSentinel(c){
+    var s=c.querySelector('.io-sentinel');
+    if(!s){ s=document.createElement('div'); s.className='io-sentinel'; }
+    c.appendChild(s);
+    return s;
+  }
+  function ioApply(){
+    var c=ioContainer(); if(!c||!ioState) return;
+    var cards=ioEligible(c);
+    ioState.total=cards.length;
+    cards.forEach(function(el,i){ el.classList.toggle('io-fold', i>=ioState.shown); });
+    [].slice.call(c.querySelectorAll('.dateh')).forEach(function(h){
+      var g=h.nextElementSibling, any=false;
+      if(g && g.classList && g.classList.contains('grid')){
+        any=[].slice.call(g.querySelectorAll('.card[data-slug]')).some(function(el){
+          return !el.classList.contains('io-fold') && el.style.display!=='none';
+        });
+      }
+      h.classList.toggle('io-fold', !any);
+    });
+    var s=ioSentinel(c);
+    s.style.display = ioState.shown>=ioState.total ? 'none' : '';
+    ioLastShown=ioState.shown; ioLastPath=location.pathname;
+  }
+  // 新建容器时的初始批次:还原键(手机从详情返回)> 同路径保留 > 默认一批。
+  // 「同路径保留」治双重 init:一次页面加载里 init 被调两次(脚本末尾直调 + Quartz 'nav'),
+  // 第二次拿到的常是 Quartz 换页后的**新** .list/.pd-mid 节点(ioState.c 守卫失效)——
+  // 靠 ioLastShown 跨这两次存活,第二次 setup 沿用第一次算出的批次,不打回第一批、不重复消费还原键。
+  function ioInitialShown(){
+    try{
+      var raw=sessionStorage.getItem('ioret:'+location.pathname);
+      if(raw){
+        sessionStorage.removeItem('ioret:'+location.pathname);
+        var st=JSON.parse(raw);
+        if(st && st.shown) return { shown:Math.max(IO_BATCH, st.shown|0), y:st.y||0 };
+      }
+    }catch(e){}
+    if(ioLastPath===location.pathname && ioLastShown>IO_BATCH) return { shown:ioLastShown, y:null };
+    return { shown:IO_BATCH, y:null };
+  }
+  function ioSetup(c){
+    if(ioState && ioState.obs) ioState.obs.disconnect();
+    var s=ioSentinel(c), obs=null;
+    try{
+      obs=new IntersectionObserver(function(es){
+        es.forEach(function(e){
+          if(e.isIntersecting && ioState && ioState.shown<ioState.total){ ioState.shown+=IO_BATCH; ioApply(); }
+        });
+      }, { rootMargin:'400px 0px' });
+      obs.observe(s);
+    }catch(e){}
+    var it=ioInitialShown();
+    ioState={ c:c, shown:it.shown, total:0, obs:obs, sentinel:s };
+    return it.y;
+  }
+  function ioRecompute(reset){
+    var c=ioContainer(); if(!c) return;
+    var y=null;
+    if(!ioState || ioState.c!==c) y=ioSetup(c);
+    if(reset) ioState.shown=IO_BATCH;
+    ioApply();
+    // 大类页的手机返回还原走的是 filter → __ioRecompute(false) → ioSetup 这条路(键在这里被消费、
+    // 返回滚动位 y)。若这里不还原滚动,大类页返回就只还批次、不还滚动位。用户操作(reset)不还原滚动。
+    if(y!=null && !reset){ var yy=y; requestAnimationFrame(function(){ window.scrollTo(0,yy); }); }
+  }
+  // 手机端(同标签 SPA)离页存位、返回还原一次;PC 点详情开新标签、原页不动,天然不需
+  function ioSaveReturn(){
+    try{
+      if(!ioState || !matchMedia('(max-width:1023px)').matches) return;
+      sessionStorage.setItem('ioret:'+location.pathname, JSON.stringify({ shown:ioState.shown, y:window.scrollY||window.pageYOffset||0 }));
+    }catch(e){}
+  }
+  function ioInit(){
+    var c=ioContainer(); if(!c) return;
+    if(!('IntersectionObserver' in window)) return;
+    // 同一次加载里 init 会被调两次(脚本末尾直调 + Quartz 'nav');若是同一节点直接重算即可。
+    // 换了节点(SPA 导到新页,或 Quartz 换页重建)才 fresh setup —— 初始批次由 ioInitialShown 决定
+    // (还原键 / 同路径保留 / 默认),y!=null 时还原滚动位。
+    if(ioState && ioState.c===c){ ioApply(); return; }
+    var y=ioSetup(c);
+    ioApply();
+    if(y!=null){ var yy=y; requestAnimationFrame(function(){ window.scrollTo(0,yy); }); }
+  }
+  window.__ioRecompute=ioRecompute;
   function init(){
     adopt();
     dateh();
     logos();
     mobileLinks();
+    ioInit();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)
     var KEY='pd-read', read;
@@ -407,7 +501,7 @@ export const scriptBlock = () => squashBlankLines(`<script>
     [].slice.call(root.querySelectorAll('.card[data-slug]')).forEach(function(c){
       var slug=c.dataset.slug; if(!slug) return;
       if(read.has(slug)) c.classList.add('ep-read');
-      c.addEventListener('click', function(){ read.add(slug); try{localStorage.setItem(KEY, JSON.stringify([...read]));}catch(e){} });
+      c.addEventListener('click', function(){ ioSaveReturn(); read.add(slug); try{localStorage.setItem(KEY, JSON.stringify([...read]));}catch(e){} });
     });
   }
   // Quartz 是 SPA:内联脚本换页后不重跑 → 挂 nav 事件(每次导航含首载都会触发)
