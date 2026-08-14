@@ -538,12 +538,16 @@ body[data-slug^="tags/"] {
   .grid > .card:last-child { border-bottom: none; }
   /* hover 只给真有指针悬停的设备 —— 触屏上 :hover 会「点完粘住」不消失(issue:手机点完卡片
      hover 态退不掉,尤其配合原来的开新窗)。触屏改用 :active,只在手指按下那一瞬给点反馈。 */
+  /* 用户 2026-08-14:hover/点按要「整个卡片」清晰响应,不是只有标题变红。
+     原来底色 --B1(#f7f7f9)离白只差 8/255,几乎看不出 → 视觉上只剩标题红。
+     现:整卡底色提到 --B2 + 设计稿(style.css:96)那款轻投影「浮起」,分隔线 hover 时隐掉
+     (免得整卡高亮被 border-bottom 那条线拦腰切开)。标题红保留当额外线索。 */
   @media (hover: hover) {
-    .card:hover { background: var(--B1); border-bottom-color: var(--B2); }
+    .card:hover { background: var(--B2); border-bottom-color: transparent; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06); }
     .card:hover .t { color: var(--pd-accent); }
   }
-  /* 触屏按下那一瞬给一个和 hover 同款的反馈(背景 + 标题变红),对齐用户要的「点一下闪个 hover 态」。 */
-  .card:active { background: var(--B1); }
+  /* 触屏按下那一瞬给同款整卡反馈(背景 + 浮起 + 标题红),对齐用户要的「点一下闪个 hover 态」。 */
+  .card:active { background: var(--B2); border-bottom-color: transparent; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06); }
   .card:active .t { color: var(--pd-accent); }
   .card .tx { flex: 1; min-width: 0; display: flex; flex-direction: column; align-self: stretch; }
   .card .t {

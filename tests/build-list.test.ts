@@ -510,10 +510,14 @@ describe("C13f · hover 不贴脸(第十一批 #1)", () => {
     expect(c).toMatch(/margin:\s*0 -20px/);
   });
 
-  it("★★ hover 换成柔和底色,不再是压在文字边上的描边+投影", () => {
+  it("★★ hover 是整卡清晰响应(用户 2026-08-14 改:不再是只有标题变红):底色 --B2 + 轻投影浮起 + 分隔线让位", () => {
+    // C13f 第十一批#1 原做「柔和底色 --B1、不要描边投影」,但 --B1(#f7f7f9)离白只差 8/255 几乎看不出,
+    // 视觉上只剩标题红 → 用户 2026-08-14 明文要「hover 是整个卡片」。底色提到 --B2 + 设计稿(style.css:96)
+    // 那款轻投影(0 2px 12px/0.06,不是当年压在文字边上的硬描边),border-bottom 让位免得高亮被切开。
     const h = scss.slice(scss.indexOf(".card:hover {"), scss.indexOf(".card:hover .t"));
-    expect(h).toMatch(/background:\s*var\(--B1\)/);
-    expect(h).not.toMatch(/box-shadow:\s*0 2px 10px/);
+    expect(h).toMatch(/background:\s*var\(--B2\)/);
+    expect(h).toMatch(/box-shadow:\s*0 2px 12px/);
+    expect(h).toMatch(/border-bottom-color:\s*transparent/);
   });
 
   it("★★★ 窄屏收到 12px —— 手机端 .pd-mid 左右内边距只有 16px,-20px 会顶出屏幕", () => {
