@@ -674,8 +674,8 @@ body[data-slug^="tags/"] {
     align-self: flex-start;
   }
   .th.fr img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
-  /* 🔒 #20 近方图裁到脸(1.55× / 焦点 50% 48%,用户四选一拍板);宽图不打 face 走中心裁 */
-  .th.fr img.face { transform: scale(1.55); transform-origin: 50% 48%; }
+  /* 🔒 #20 近方图裁到脸(1.55× / 焦点 50% 60%,焦点 48%→60% 用户 2026-08-16「往下再截一点」调);宽图不打 face 走中心裁 */
+  .th.fr img.face { transform: scale(1.55); transform-origin: 50% 60%; }
   .th.fb { display: flex; align-items: center; justify-content: center; padding: 6px; background: var(--B5); }
   .th.fb span { color: #fff; font-size: 11px; font-weight: 700; text-align: center; line-height: 1.3; }
 
