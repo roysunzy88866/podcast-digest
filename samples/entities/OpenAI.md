@@ -7,10 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(02:04起):本集在介绍 Sundial 时提及 OpenAI 是其客户之一，未展开讨论
+- **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(01:18起):本集提到 OpenAI 的首席产品官同样认为 evals 是重要新技能，其团队大面积上过课程，且 OpenAI 收购了 Statsig。
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(02:48起):本集把它说成:早期通过直接与 CTO 交流、提供教育来建立信任并打开企业市场的典范;其产品因不需要触碰底层数据,从而更容易敲开企业大门。
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(15:16起):作为 Vercel 客户的典型案例被提及，因其虽然员工人数处于中端市场，但网站流量极高（互联网前25），故被 Vercel 划分为需要深度服务的企业级市场。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(35:02起):本集提到在与来自中国的 AI 竞争中,提醒人们不能把 OpenAI 与 DeepSeek 的竞争简单理解为一家美国公司与一家中国公司的商业竞争。
@@ -55,8 +57,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*35 集*
 
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
+- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -95,9 +99,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[AGI]] · [[Stripe]] · [[Meta]] · [[Microsoft]] · [[Apple]]
+[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[AGI]] · [[Stripe]] · [[Meta]] · [[Microsoft]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":44,"智能体":77,"Lenny":42,"Google":16,"NVIDIA":16,"AGI":10,"Stripe":12,"Meta":13,"Microsoft":10,"Apple":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":45,"智能体":79,"Lenny":44,"Google":16,"NVIDIA":16,"AGI":10,"Stripe":12,"Meta":13,"Microsoft":10,"ChatGPT":15}</script>
 
 <script>
 (function(){

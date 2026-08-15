@@ -162,7 +162,7 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Ramp · 同概念:PM</span>
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Airbnb、Ramp</span>
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)</span>
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Airbnb</span>
 
 </div>
 </div>

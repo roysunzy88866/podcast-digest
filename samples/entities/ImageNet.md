@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Dr. Fei-Fei Li]] · [[World Labs]] · [[Marble]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Dr. Fei-Fei Li":1,"World Labs":2,"Marble":2,"空间智能":2,"世界模型":1,"具身智能":1,"苦涩的教训":3,"神经网络":1,"机器学习":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Dr. Fei-Fei Li":1,"World Labs":2,"Marble":2,"空间智能":2,"世界模型":1,"具身智能":1,"苦涩的教训":3,"神经网络":1,"机器学习":1}</script>
 
 <script>
 (function(){

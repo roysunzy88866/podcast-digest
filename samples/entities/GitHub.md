@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(22:56起):本集顺带提到 GitHub 是 Nesrine 为写书采访的 B2B 公司之一，以了解 B2B 领域的愉悦实践
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(01:23起):本集多次提及嘉宾曾在此领导设计和产品。讨论了其伟大的微小核心：拉取请求（PR），以及其早期的功能缺陷（如 GitHub Actions 缺乏良好的包管理）。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(08:57起):本集描述其代码库中的智能体可跨应用读取如 M365 的设计会议记录并给出代码修改建议；其 Copilot 经历了因智能体高耗能而向消耗量计费的商业调整。
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(02:08起):本集展示 Laurel 用 GitHub 的文件夹结构来作为「公司操作系统」的底座，在里面存储和共享各个职能的「剧本」和「技能」文件。
@@ -26,8 +27,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
@@ -45,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Notion]] · [[Vercel]] · [[Cursor]] · [[Codex]] · [[Anthropic]]
+[[智能体]] · [[Slack]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Notion]] · [[Vercel]] · [[Cursor]] · [[Codex]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Slack":17,"沙箱":18,"Figma":7,"Claude Code":20,"Notion":5,"Vercel":6,"Cursor":13,"Codex":16,"Anthropic":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":79,"Slack":18,"沙箱":18,"Figma":7,"Claude Code":21,"Notion":5,"Vercel":6,"Cursor":14,"Codex":16,"Lenny":44}</script>
 
 <script>
 (function(){

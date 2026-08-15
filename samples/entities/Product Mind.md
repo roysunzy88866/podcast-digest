@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Oji Udezue]] · [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[GitHub]] · [[Notion]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"Aakash":1,"Oji Udezue":1,"Claude Code":20,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"GitHub":12,"Notion":5,"Figma":7}</script>
+<script type="application/json" class="pd-epn">{"Aakash":1,"Oji Udezue":1,"Claude Code":21,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"GitHub":13,"Notion":5,"Figma":7}</script>
 
 <script>
 (function(){

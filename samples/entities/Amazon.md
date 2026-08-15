@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[NVIDIA]] · [[Microsoft]] · [[Apple]] · [[智能体]] · [[Meta]] · [[AGI]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":33,"Anthropic":44,"Google":16,"NVIDIA":16,"Microsoft":10,"Apple":9,"智能体":77,"Meta":13,"AGI":10,"资本支出":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":35,"Anthropic":45,"Google":16,"NVIDIA":16,"Microsoft":10,"Apple":10,"智能体":79,"Meta":13,"AGI":10,"资本支出":3}</script>
 
 <script>
 (function(){

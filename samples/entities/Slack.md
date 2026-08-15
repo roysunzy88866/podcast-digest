@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(28:51起):本集顺带提到 Slack 作为 B2B 产品通过愉悦动画和有趣引用建立品牌个性的例子
 - **[[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]]**(00:00起):本集大量讨论的公司，被描述为早期消费化的 B2B SaaS 产品，通过注重微小便利和情感连接实现了病毒式增长。
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(15:15起):本集把它说成：在 AI 实验室里如同「金矿」的内部通讯软件，充满了行业洞见、哲学辩论以及正在构建的 AI 应用的最新动态。
 - **[[2026-03-22-lennys-the-art-of-influence-jessica-fain|《Jessica Fain:如何影响高管——把高管当用户来研究》]]**(01:17起):嘉宾曾担任产品经理与 CPO 幕僚长的公司。她在 Slack 近距离观察了高管如何做决策，并主导了核心产品团队和名为“客户爱冲刺”的内部修复改进运动。
@@ -37,8 +38,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司(提及)
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《Jessica Fain:如何影响高管——把高管当用户来研究》]] — 作为被讨论公司
@@ -63,7 +65,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[提示词注入]] · [[Vercel]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Lenny":42,"GitHub":12,"Anthropic":44,"Claude Code":20,"沙箱":18,"Claude":12,"提示词注入":5,"Vercel":6,"Codex":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":79,"Lenny":44,"GitHub":13,"Anthropic":45,"Claude Code":21,"沙箱":18,"Claude":12,"提示词注入":5,"Vercel":6,"Codex":16}</script>
 
 <script>
 (function(){

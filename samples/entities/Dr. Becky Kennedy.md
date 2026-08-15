@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":1,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":1,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,566 @@
+{
+  "episode_id": "2025-09-21-lennys-from-managing-people-to-managing-ai-juli",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-09-21",
+  "tags": [
+    "管理智能体",
+    "角色边界消融",
+    "AI 学习加速",
+    "数据与设计",
+    "反馈与成长"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "julie-zhuo",
+      "type": "person",
+      "role": "host",
+      "name": "Julie Zhuo",
+      "file": "Julie Zhuo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sundial",
+      "type": "company",
+      "role": "company",
+      "name": "Sundial",
+      "file": "Sundial",
+      "primary": true,
+      "how_described": "本集说 Sundial 是一家 AI 驱动的分析师公司，被 OpenAI、Gamma、Character AI 等公司使用，致力于自动化数据分析，让每个决策者都成为自己的专家分析师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            123.585,
+            124.125
+          ],
+          "quote": "Sundial,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2194,
+          "t": [
+            5643.329,
+            5644.01
+          ],
+          "quote": "maybe Sundial,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2200,
+          "t": [
+            5654.458,
+            5659.062
+          ],
+          "quote": "And so if you think your company would be interested in working with us at Sundial",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2205,
+          "t": [
+            5667.029,
+            5669.23
+          ],
+          "quote": "So Sundial at sundial.so.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成：管理智能体和管理人本质上是同一套能力——你需要有北极星、有愿景、了解每个模型的优势、设计工具和智能体如何协同，唯一区别是不用操心智能体的职业发展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            789.507,
+            794.513
+          ],
+          "quote": "So figuring out how to boil it down so that an agent can really understand what",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "构建者 (builder)",
+      "file": "构建者",
+      "primary": true,
+      "how_described": "本集说构建者是取代工程师、设计师、产品经理等传统角色界限的新头衔，AI 让个人能自己完成多种工作，从第 10 百分位拉到第 60、70 百分位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            998.849,
+            1000.45
+          ],
+          "quote": "and now I'm actually using that term builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            1235.311,
+            1235.851
+          ],
+          "quote": "you're a builder,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性是很多快速增长 AI 公司缺失的基础设施——十来个人就有数亿 ARR，但没有日志、没有数据团队，靠直觉和良好氛围跑，增长一旦停止就会手忙脚乱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 676,
+          "t": [
+            1696.724,
+            1699.925
+          ],
+          "quote": "And like, we've talked about like, what is the observability for our business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            1767.019,
+            1770.639
+          ],
+          "quote": "everything very well and you have a very good observability model for your business",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            1780.261,
+            1785.282
+          ],
+          "quote": "If you don't have good observability over how your business runs and what the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            3416.177,
+            3421.94
+          ],
+          "quote": "experimentation surveys llm observability air tracking and more everything posthog",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "conversational-analytics",
+      "type": "concept",
+      "role": "concept",
+      "name": "对话分析 (conversational analytics)",
+      "file": "对话分析",
+      "primary": true,
+      "how_described": "本集说对话分析是与移动时代完全不同的新方法论——用户意图藏在一串对话里，需要用 LLM 来分类意图，问'对话流程顺畅吗''只问一个问题就走，用户得到价值了吗'这类全新问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 711,
+          "t": [
+            1833.302,
+            1836.884
+          ],
+          "quote": "think that's the same with what we have today conversational analytics is totally",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测标准 (evals)",
+      "file": "评测标准",
+      "primary": true,
+      "how_described": "本集说评测标准之所以重要，是因为它在帮你把成功标准对齐到客观、具体、没有歧义的程度——如果你自己都不清楚成功什么样，prompt 写不出来，团队也带不好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            797.817,
+            801.759
+          ],
+          "quote": " And I think this also relates to things like, well, that's why we have to write evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dimensionality",
+      "type": "concept",
+      "role": "concept",
+      "name": "维度思维 (dimensionality)",
+      "file": "维度思维",
+      "primary": true,
+      "how_described": "本集说维度思维是把人放在无限维度上评估，每个维度处在不同百分位，整体画像像指纹一样独一无二，关键推论是'没有一个维度等于你是谁'，这帮助管理者客观看待反馈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 993,
+          "t": [
+            2613.707,
+            2615.068
+          ],
+          "quote": "concept of dimensionality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 994,
+          "t": [
+            2615.869,
+            2618.152
+          ],
+          "quote": "So what dimensionality means is like you're a human being.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1618,
+          "t": [
+            4215.651,
+            4219.715
+          ],
+          "quote": "And so we talked a lot about like the importance of dimensionality and feedback and",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到用 ChatGPT 做个性化学习——投喂课程大纲让它定制学习计划，以及用自己的话复述回去让它挑错来测试理解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            702.435,
+            704.857
+          ],
+          "quote": "thanks ChatGPT when I'm in voice mode,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 547,
+          "t": [
+            1381.736,
+            1383.858
+          ],
+          "quote": "This is where ChatGPT comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            1393.325,
+            1397.549
+          ],
+          "quote": "And in fact, I think these days, you know, ChatGPT or these other AI tools are better teachers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            1414.183,
+            1417.706
+          ],
+          "quote": "12 week curriculum and I'll just feed it into ChatGPT and I'll say,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            1546.733,
+            1550.135
+          ],
+          "quote": "this is like the perfect type of question where if you just talk to ChatGPT,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            1561.219,
+            1561.779
+          ],
+          "quote": "ChatGPT,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 632,
+          "t": [
+            1575.666,
+            1577.007
+          ],
+          "quote": " And ChatGPT will critique me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2071,
+          "t": [
+            5344.943,
+            5347.106
+          ],
+          "quote": "Like automatically or you throw it into chat GPT?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集顺带提到 Cursor 作为工程团队使用的 AI 编程工具，能自动补全和写代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 521,
+          "t": [
+            1320.808,
+            1323.853
+          ],
+          "quote": "Like I'm guessing cursor, but curious if there's anything else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1448.938,
+            1449.759
+          ],
+          "quote": "We can use cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2046,
+          "t": [
+            5276.852,
+            5279.534
+          ],
+          "quote": "Cursor is big on me for now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在介绍 Sundial 时提及 OpenAI 是其客户之一，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            124.325,
+            127.629
+          ],
+          "quote": "which is an AI-powered analyst used by companies like OpenAI,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Character AI",
+      "file": "Character AI",
+      "primary": false,
+      "how_described": "本集在介绍 Sundial 时提及 Character AI 是其客户之一，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            128.09,
+            128.93
+          ],
+          "quote": "and Character AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "type": "company",
+      "role": "company",
+      "name": "Gamma",
+      "file": "Gamma",
+      "primary": false,
+      "how_described": "本集在介绍 Sundial 和赞助商列表中提及 Gamma，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            127.689,
+            128.03
+          ],
+          "quote": "Gamma,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            196.785,
+            197.065
+          ],
+          "quote": "Gamma,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到 Julie 在 Replit 上创建了一个应用，用来生成电子游戏恶搞歌曲的歌词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            193.904,
+            194.284
+          ],
+          "quote": "Replit,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1828,
+          "t": [
+            4726.689,
+            4729.411
+          ],
+          "quote": "so I created an app on Replit that,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2044,
+          "t": [
+            5272.489,
+            5274.31
+          ],
+          "quote": "I love Replit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "posthog",
+      "type": "company",
+      "role": "company",
+      "name": "PostHog",
+      "file": "PostHog",
+      "primary": false,
+      "how_described": "本集作为赞助商提及 PostHog 是产品分析平台，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1316,
+          "t": [
+            3402.15,
+            3406.392
+          ],
+          "quote": "this episode is brought to you by posthog the product platform your engineers",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            3406.592,
+            3411.255
+          ],
+          "quote": "actually want to use posthog has all the tools that founders developers and product",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            3416.177,
+            3421.94
+          ],
+          "quote": "experimentation surveys llm observability air tracking and more everything posthog",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1321,
+          "t": [
+            3426.462,
+            3430.364
+          ],
+          "quote": "customers use posthog for free you are gonna love working with a team this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1325,
+          "t": [
+            3438.428,
+            3440.809
+          ],
+          "quote": "PostHog lets you have all your data in one place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1335,
+          "t": [
+            3459.017,
+            3464.903
+          ],
+          "quote": " Sign up today for free at posthog.com slash Lenny and make sure to tell them Lenny sent you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1336,
+          "t": [
+            3465.183,
+            3467.965
+          ],
+          "quote": "That's posthog.com slash Lenny.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

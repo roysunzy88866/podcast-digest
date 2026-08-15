@@ -1,0 +1,201 @@
+{
+  "title_zh": "做 evals 不是写单元测试，是从看数据开始的错误分析",
+  "tldr": "evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。",
+  "digest_md": "做 evals 最常见的失败方式，就是直接跳进去写测试。Hamel 和 Shreya 反复强调，evals 的核心不是测试，是对你的 LLM 应用做数据分析 [06:00 Hamel Husain]。跳过数据看什么就写什么，是大多数人\"做 evals 然后觉得没用\"的根本原因 [47:13 Hamel Husain]。\n\n## 第一步：看数据，写开放式笔记（open coding）\n\n从你的应用日志里抽样，逐条看，看到什么问题就写一句短备注。不用追求完整分类，不用想框架，就记\"最上游的错误\"——你看到的第一个问题记下来就停，移到下一条 [22:13 Hamel Husain]。备注要具体，不能写\"很 janky\"这种模糊词，否则后面没法归类 [42:30 Shreya Shankar]。\n\n这一步不能让 AI 做。Shreya 直接说了：你把一条 trace 喂给 ChatGPT 问\"有没有错\"，它会说\"做得很好\"——因为它不知道你们产品有没有虚拟看房功能，它没有业务上下文 [24:04 Shreya Shankar]。错误分析中的自由笔记阶段，LLM 不是合适的位置 [25:13 Hamel Husain]。\n\n做多少条？他们建议至少 100 条作为心理锚点，但真正的停止条件叫\"理论饱和\"（theoretical saturation）——当你发现新看的 trace 不再产生新的错误类型时就停 [30:31 Shreya Shankar]。有人做 15 条就够了，有人做 60 条，取决于应用复杂度和你的经验 [31:19 Shreya Shankar]。\n\n谁来写？找一个\"仁慈独裁者\"——一个你信任其品味的领域专家，通常是产品经理，不要拉委员会 [25:41 Hamel Husain]。目标是让这个过程足够便宜、可执行，不是追求公平 [26:32 Hamel Husain]。\n\n## 第二步：用 LLM 把笔记归纳成故障模式（axial coding）\n\n100 条开放式笔记拿出来了，很多其实是同一类问题但表述不同。这时候可以上 LLM 了：把笔记丢给它，让它归纳出\"轴向编码\"（axial codes）——本质就是故障模式的分类标签 [33:58 Shreya Shankar]。比如\"行程安排问题\"\"人工交接问题\"\"对话流程问题\"\"做了没兑现的承诺\"等 [41:10 Hamel Husain]。\n\nLLM 第一轮给的结果通常太泛，比如\"能力限制\"——不可操作，你得自己改得更具体、更可行动 [35:21 Hamel Husain]。没有标准 prompt，可以迭代，但人必须在回路里 [36:42 Shreya Shankar]。\n\n分类完之后，用数据透视表数一下每种故障出现了多少次——\"基本计数是数据科学中最强大的分析技术\" [32:19 Hamel Husain]。然后你就知道最该先解决什么了 [45:10 Hamel Husain]。\n\n## 第三步：针对难搞的故障模式，建 LLM 判别器\n\n不是所有故障都需要写 eval。有些一看就知道怎么修（比如 prompt 里忘了说输出格式），直接改 prompt 就行 [46:07 Hamel Husain]。真正需要建 eval 的是那些你描述了期望行为但智能体还是犯的\"顽固问题\" [65:29 Shreya Shankar]。\n\n两种自动评估方式：基于代码的（本质上就是单元测试，检查输出是不是 JSON、够不够短等，便宜）和 LLM 作为判别器（处理主观判断，比如\"该不该转人工\"）[48:06 Shreya Shankar]。一个产品通常只需要 4 到 7 个 LLM 判别器，不用多 [65:19 Shreya Shankar]。\n\n写判别器 prompt 的关键规则：**输出必须是二元判断（true/false 或 pass/fail）**，不要用 1-5 分打分 [52:35 Hamel Husain]。打分是\"不做决定的圆滑方式\"，而且没人知道 3.2 和 3.7 到底差什么 [52:46 Hamel Husain]。\n\n## 第四步：校准判别器，别盲信\n\n写完 prompt 就直接用？最大的坑。必须拿你已经标注过的数据去验证判别器和人类标注的一致性 [57:03 Hamel Husain]。而且不能只看总一致率——如果错误只占 10%，判别器全部放行就能达到 90% 一致率，纸面好看但毫无用处 [58:32 Hamel Husain]。要看混淆矩阵：人类说错但判别器说对的、人类说对但判别器说错的，这两种偏差必须迭代到接近零 [59:56 Shreya Shankar]。如果有人跟你说\"我的判别器一致率 75%，挺好的\"但没有给你看这个矩阵，那就是坏味道 [60:41 Shreya Shankar]。\n\n## LLM 判别器的双重用途\n\n建好校准过的判别器不只是跑在 CI 里当单元测试。你可以每天从生产环境采样真实 trace，跑判别器，做在线监控——这就变成了一个极其具体的应用质量指标 [51:36 Shreya Shankar]。Hamel 说，做得好的公司不会公开这些，因为这是他们的护城河 [68:27 Hamel Husain]。\n\nShreya 指出，判别器 prompt 本质上就是一份活的 PRD：它精确描述了\"智能体在什么条件下应该怎么做\"，而且从你自己的错误数据里提炼出来，包含你事先想不到的边界情况 [61:12 Lenny]。她的研究\"Who Validates the Validated?\"发现，专家在看了 10 条输出后才会想到之前完全梦不到的失败模式，好坏标准会随审查过程漂移——所以你不能提前写死标准 [63:35 Shreya Shankar]。\n\n## 关于\"反 eval\"争议\n\n有人（包括 Claude Code 团队）说\"我们不搞 eval，我们靠 vibe\"。Shreya 的回应：第一，他们站在基础模型 eval 的肩膀上；第二，他们大概率在做某种形式的错误分析和内部 dogfooding，只是不叫 eval [72:09 Shreya Shankar]。编码智能体是特殊案例——开发者自己就是领域专家且全天使用，可以压缩很多流程，但不能把这个经验泛化到所有 AI 产品 [74:31 Shreya Shankar]。\n\nA-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估指标，没有 eval 就没法比 [76:42 Shreya Shankar]。但很多人过早做 A-B 测试，因为他们压根没看过数据，假设的\"重要指标\"和实际出错的地方对不上 [77:30 Shreya Shankar]。\n\n## 本集带走\n\n- **不要跳过看数据直接写测试**：evals 的第一步是抽样看 trace、写开放式笔记，这是整个流程的地基\n- **错误分析阶段别让 AI 代劳**：AI 缺业务上下文，会把明显的产品问题判为\"没问题\"\n- **找一个人当\"仁慈独裁者\"**：选领域专家（通常是 PM）一个人做标注决策，别拉委员会，让过程便宜可执行\n- **LLM 判别器必须输出二元判断**：禁止 1-5 分打分，否则指标不可解释\n- **必须用混淆矩阵校准判别器**：总一致率会骗人，要看\"人说错判别器说对\"和\"人说对判别器说错\"这两类偏差是否接近零\n- **判别器不只跑 CI，要上生产监控**：每天采样真实 trace 跑判别器，得到具体的应用质量指标\n- **大部分故障不需要建 eval**：改 prompt 就能解决的直接改，只对\"描述了期望行为但仍反复出错\"的顽固问题建判别器，通常 4-7 个够用\n- **首次投入约一周，之后每周 30 分钟**：初始错误分析和判别器构建是一次性成本，后续维护很轻 [91:05 Shreya Shankar]",
+  "quotes": [
+    {
+      "en": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+      "zh": "目标不是完美地做评估，而是可操作地改进你的产品。",
+      "timestamp": "00:18",
+      "speaker": "Shreya Shankar"
+    },
+    {
+      "en": "And the answer is, just write down the first thing that you see that's wrong, the most upstream error. Don't worry about all the errors, just capture the first thing that you see that's wrong, and stop, and move on.",
+      "zh": "答案是，只写下你看到的第一个错误，也就是最上游的错误。别担心所有的错误，只捕捉你看到的第一个错误的东西，然后停下，继续下一个。",
+      "timestamp": "22:13",
+      "speaker": "Hamel Husain"
+    },
+    {
+      "en": "What we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not.",
+      "zh": "当我们试图请求一个 LLM 做这个错误分析时，我们通常发现它只是说追踪看起来很好，因为它没有理解某样东西是否可能是坏的产品味道所需的上下文。",
+      "timestamp": "24:09",
+      "speaker": "Shreya Shankar"
+    },
+    {
+      "en": "They go straight into evals like, \"Let me just write some tests,\" and that is where things go off the rails.",
+      "zh": "他们直接进入评估，比如\"让我只写一些测试\"，这就是事情脱轨的地方。",
+      "timestamp": "47:13",
+      "speaker": "Hamel Husain"
+    },
+    {
+      "en": "We don't want, \"Hey, score this on a rating of one to five. How good is it?\" That's just in most cases, that's a weasel way of not making a decision.",
+      "zh": "我们不想要，\"嘿，按一到五的评分给它打分。它有多好？\"这在大多数情况下只是一种不做决定的圆滑方式。",
+      "timestamp": "52:35",
+      "speaker": "Hamel Husain"
+    },
+    {
+      "en": "Now that sounds appealing, but it's a very dangerous metric to use, because a lot of times, errors, they only happen on the long tail and they don't happen as frequently, so if you only have the error 10% of the time, then you can easily have 90% agreement by just having a judge say it passes all the time.",
+      "zh": "现在这听起来很吸引人，但它是一个非常危险的指标，因为很多时候，错误，它们只发生在长尾上，并且不经常发生，所以如果你只有 10% 的时间有错误，那么你可以很容易地通过让评判者一直说它通过来达到 90% 的一致性。",
+      "timestamp": "58:41",
+      "speaker": "Hamel Husain"
+    },
+    {
+      "en": "This is the purest sense of what a product requirements document should be, is this eval judge that's telling you exactly what it should be, and it's automatic and running constantly.",
+      "zh": "这是产品需求文档应该是什么样子的最纯粹的意义，就是这个评估判断器，它确切地告诉你它应该是什么，并且它是自动的且不断运行的。",
+      "timestamp": "61:35",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "People's opinions of good and bad change as they review more outputs, they think of failure modes only after seeing 10 outputs they would never have dreamed of in the first place.",
+      "zh": "人们对好坏的看法随着他们审查更多输出而改变，他们只有在看到 10 个输出后才会想到失败模式，而这些输出是他们最初从未梦想到的。",
+      "timestamp": "64:23",
+      "speaker": "Shreya Shankar"
+    },
+    {
+      "en": "I think the products that are doing this, they have a very sharp sense of how well their application is performing, and people don't talk about it, because this is their moat.",
+      "zh": "我认为正在这样做的产品，他们对自己应用程序的性能如何有着非常敏锐的感觉，人们不谈论这个，因为这是他们的护城河。",
+      "timestamp": "68:16",
+      "speaker": "Shreya Shankar"
+    },
+    {
+      "en": "It's the highest ROI activity you can engage in.",
+      "zh": "这是你可以参与的 ROI 最高的活动。",
+      "timestamp": "89:47",
+      "speaker": "Hamel Husain"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:18",
+      "speaker": "Unknown",
+      "en": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+      "zh": "目标不是完美地做评估，而是可操作地改进你的产品。"
+    },
+    {
+      "timestamp": "00:57",
+      "speaker": "Unknown",
+      "en": "You don't want to make this process so expensive that you can't do it.",
+      "zh": "你不想让这个过程变得昂贵以至于你无法做它。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Hamel Husain",
+      "en": "Evals is a way to systematically measure and improve an AI application, and it really doesn't have to be scary or unapproachable at all.",
+      "zh": "Evals 是一种系统地衡量和改进 AI 应用的方法，它真的并不可怕或难以接近。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Hamel Husain",
+      "en": "It really is, at its core, data analytics on your LLM application and a systematic way of looking at that data, and where necessary, creating metrics around things so you can measure what's happening, and then so you can iterate and do experiments and improve.",
+      "zh": "它的核心是，对你的 LLM 应用进行数据分析，以及一种系统地审视该数据的方法，在必要的地方围绕事物创建指标，以便你可以衡量正在发生的事情，然后你可以迭代并进行实验和改进。"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Unknown",
+      "en": "Vibe checks are good and you should do vibe checks initially, but it can become very unmanageable very fast because as your application grows, it's really hard to rely on vibe checks.",
+      "zh": "Vibe checks 很好，你应该在最初做 vibe checks，但它很快就会变得难以管理，因为随着你的应用增长，很难依赖 vibe checks。"
+    },
+    {
+      "timestamp": "09:49",
+      "speaker": "Unknown",
+      "en": "So I would say, overall, unit tests are a very small part of that very big puzzle.",
+      "zh": "所以我会说，总的来说，单元测试只是那个大难题中非常小的一部分。"
+    },
+    {
+      "timestamp": "10:17",
+      "speaker": "Unknown",
+      "en": "There's a common trap that a lot of people fall into because they jump straight to the test like, \"Let me write some tests,\" and usually that's not what you want to do.",
+      "zh": "许多人陷入的一个常见陷阱，因为他们直接跳到测试，比如\"让我写一些测试\"，但这通常不是你想做的。"
+    },
+    {
+      "timestamp": "17:20",
+      "speaker": "Unknown",
+      "en": "It's been around in machine learning and data science for a really long time, and it's called error analysis.",
+      "zh": "它在机器学习和数据科学中已经存在很长时间了，它被称为 error analysis。"
+    },
+    {
+      "timestamp": "19:42",
+      "speaker": "Unknown",
+      "en": "Everyone that does this immediately gets addicted to it and they say, \"This is the greatest thing that you can do when you're building an AI application.\"",
+      "zh": "每个做这件事的人都会立刻对它上瘾，他们说，\"这是你在构建 AI 应用程序时能做的最伟大的事情。\""
+    },
+    {
+      "timestamp": "22:13",
+      "speaker": "Unknown",
+      "en": "And the answer is, just write down the first thing that you see that's wrong, the most upstream error. Don't worry about all the errors, just capture the first thing that you see that's wrong, and stop, and move on.",
+      "zh": "答案是，只写下你看到的第一个错误，也就是最上游的错误。别担心所有的错误，只捕捉你看到的第一个错误的东西，然后停下，继续下一个。"
+    },
+    {
+      "timestamp": "24:04",
+      "speaker": "Unknown",
+      "en": "What we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not.",
+      "zh": "当我们试图请求一个 LLM 做这个错误分析时，我们通常发现它只是说追踪看起来很好，因为它没有理解某样东西是否可能是坏的产品味道所需的上下文。"
+    },
+    {
+      "timestamp": "25:13",
+      "speaker": "Hamel Husain",
+      "en": "But right now, in this stage of free form, note-taking is not the place for an LLM.",
+      "zh": "但是现在，在这个自由形式的阶段，做笔记并不是 LLM 的用武之地。"
+    },
+    {
+      "timestamp": "32:19",
+      "speaker": "Unknown",
+      "en": "So basic counting is the most powerful analytical technique in data science because it's so simple and it's kind of undervalued in many cases, and so it's very approachable for people.",
+      "zh": "所以基本计数是数据科学中最强大的分析技术，因为它非常简单，而且在很多情况下被低估了，所以它对人们来说非常易于上手。"
+    },
+    {
+      "timestamp": "47:13",
+      "speaker": "Unknown",
+      "en": "They go straight into evals like, \"Let me just write some tests,\" and that is where things go off the rails.",
+      "zh": "他们直接进入评估，比如\"让我只写一些测试\"，这就是事情脱轨的地方。"
+    },
+    {
+      "timestamp": "52:35",
+      "speaker": "Unknown",
+      "en": "We don't want, \"Hey, score this on a rating of one to five. How good is it?\" That's just in most cases, that's a weasel way of not making a decision.",
+      "zh": "我们不想要，\"嘿，按一到五的评分给它打分。它有多好？\"这在大多数情况下只是一种不做决定的圆滑方式。"
+    },
+    {
+      "timestamp": "58:32",
+      "speaker": "Unknown",
+      "en": "Now that sounds appealing, but it's a very dangerous metric to use, because a lot of times, errors, they only happen on the long tail and they don't happen as frequently, so if you only have the error 10% of the time, then you can easily have 90% agreement by just having a judge say it passes all the time.",
+      "zh": "现在这听起来很吸引人，但它是一个非常危险的指标，因为很多时候，错误，它们只发生在长尾上，并且不经常发生，所以如果你只有 10% 的时间有错误，那么你可以很容易地通过让评判者一直说它通过来达到 90% 的一致性。"
+    },
+    {
+      "timestamp": "61:45",
+      "speaker": "Unknown",
+      "en": "This is the purest sense of what a product requirements document should be, is this eval judge that's telling you exactly what it should be, and it's automatic and running constantly.",
+      "zh": "这是产品需求文档应该是什么样子的最纯粹的意义，就是这个评估判断器，它确切地告诉你它应该是什么，并且它是自动的且不断运行的。"
+    },
+    {
+      "timestamp": "64:23",
+      "speaker": "Unknown",
+      "en": "People's opinions of good and bad change as they review more outputs, they think of failure modes only after seeing 10 outputs they would never have dreamed of in the first place.",
+      "zh": "人们对好坏的看法随着他们审查更多输出而改变，他们只有在看到 10 个输出后才会想到失败模式，而这些输出是他们最初从未梦想到的。"
+    },
+    {
+      "timestamp": "68:27",
+      "speaker": "Hamel Husain",
+      "en": "I think the products that are doing this, they have a very sharp sense of how well their application is performing, and people don't talk about it, because this is their moat.",
+      "zh": "我认为正在这样做的产品，他们对自己应用程序的性能如何有着非常敏锐的感觉，人们不谈论这个，因为这是他们的护城河。"
+    },
+    {
+      "timestamp": "84:44",
+      "speaker": "Unknown",
+      "en": "That's the most common misconception, and people want that so much that people do sell it, but it doesn't work.",
+      "zh": "那是最常见的误解，人们太想要这个了，以至于人们真的在卖，但它不起作用。"
+    },
+    {
+      "timestamp": "87:04",
+      "speaker": "Unknown",
+      "en": "The goal is not to do evals perfectly, it's to actionably improve your product. We guarantee you, no matter what you do, if you're doing parts of these process, you're going to find ways of actionable improvement, and then you're going to iterate on your own process from there.",
+      "zh": "目标不是完美地做评估，而是可落地地改进你的产品。我们向你保证，无论你做什么，如果你正在做这个过程的一部分，你一定会找到可落地改进的方法，然后你会从那里迭代你自己的流程。"
+    },
+    {
+      "timestamp": "89:47",
+      "speaker": "Hamel Husain",
+      "en": "It's the highest ROI activity you can engage in.",
+      "zh": "这是你可以参与的 ROI 最高的活动。"
+    }
+  ]
+}

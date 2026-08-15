@@ -145,9 +145,9 @@ Stewart 说，行业里喊了十年「减少摩擦、减少点击」，但这套
 
 **顺着「产品方法」挖下去**
 
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack</span>
-- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">

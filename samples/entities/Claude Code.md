@@ -1,16 +1,17 @@
 ---
 title: Claude Code
-entity_type: 概念
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(71:51起):本集提到 Claude Code 团队声称不搞 evals 只靠 vibe，Shreya 回应说他们站在基础模型 eval 的肩膀上，且编码智能体是特殊案例不能泛化。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是 Anthropic 推出的具备执行能力的 AI 编程智能体,在 Cursor 中运行。嘉宾把它当成配合工作的开发主管(CTO),让它在代码库中理解结构、提出尖锐澄清问题并最终执行计划写代码。
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：用于搭配 VS Code 调整前端细节的工具；能极快地编写代码并提交修复，甚至开始帮助用户产生想法、决定要构建什么功能。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(41:34起):本集把它说成:一款用于写代码的AI工具；在使用过程中，如果上下文窗口积累得越长，智能体就越难出色完成当前任务。
@@ -39,8 +40,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
+- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
@@ -66,9 +68,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Slack]] · [[Cursor]] · [[Claude]] · [[OpenClaw]] · [[评估]] · [[MCP]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Slack]] · [[评估]] · [[Cursor]] · [[Claude]] · [[OpenClaw]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Anthropic":44,"Lenny":42,"Codex":16,"Slack":17,"Cursor":13,"Claude":12,"OpenClaw":7,"评估":7,"MCP":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":79,"Anthropic":45,"Lenny":44,"Codex":16,"Slack":18,"评估":9,"Cursor":14,"Claude":12,"OpenClaw":7,"MCP":9}</script>
 
 <script>
 (function(){

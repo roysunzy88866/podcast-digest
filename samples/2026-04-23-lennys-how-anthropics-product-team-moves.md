@@ -11,13 +11,13 @@ description: Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代�
 host: "[[Lenny]]"
 cohosts: ["[[Kat Wu]]"]
 companies: ["[[Anthropic]]"]
-concepts: ["[[Claude Code]]", "[[Co-work]]", "[[产品品味]]", "[[智能体]]", "[[自动化]]", "[[研究预览版]]", "[[评估]]", "[[系统提示词]]"]
+concepts: ["[[Claude Code]]", "[[Co-work]]", "[[产品品味]]", "[[智能体]]", "[[自动化]]", "[[研究预览版]]", "[[评测标准]]", "[[系统提示词]]"]
 category: 产品方法
 tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves#post","headline":"Claude Code 产品负责人:AI 时代 PM 的生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","mainEntityOfPage":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","description":"Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。","datePublished":"2026-04-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kat Wu"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Co-work"},{"@type":"Thing","name":"产品品味 (product taste)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"研究预览版 (research preview)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"系统提示词 (system prompt)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Claude Code 产品负责人:AI 时代 PM 的生存法则","item":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves#post","headline":"Claude Code 产品负责人:AI 时代 PM 的生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","mainEntityOfPage":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","description":"Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。","datePublished":"2026-04-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kat Wu"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Co-work"},{"@type":"Thing","name":"产品品味 (product taste)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"研究预览版 (research preview)"},{"@type":"Thing","name":"评测标准 (evals)"},{"@type":"Thing","name":"系统提示词 (system prompt)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Claude Code 产品负责人:AI 时代 PM 的生存法则","item":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code 产品负责人:AI 时代 PM 的生存法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Anthropic]]
 >
-> **概念** [[Claude Code]] · [[Co-work]] · [[产品品味]] · [[智能体]] · [[自动化]] · [[研究预览版]] · [[评估]] · [[系统提示词]]
+> **概念** [[Claude Code]] · [[Co-work]] · [[产品品味]] · [[智能体]] · [[自动化]] · [[研究预览版]] · [[评测标准]] · [[系统提示词]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves)
 
@@ -97,7 +97,7 @@ Kat 分享了一个自己用 Co-Work 的真实案例:她要为即将到来的 Co
 
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、Research Preview</span>
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、评估 (evals)</span>
-- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、Claude Code</span>
+- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、评估 (evals)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

@@ -151,6 +151,13 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Amazon</span>
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Uber</span>
+
+</div>
 </div>
 <script>
 (function(){

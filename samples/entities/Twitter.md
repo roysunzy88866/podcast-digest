@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Twitter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Twitter">TW</div><div class="pi"><h1 class="pt">Twitter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Twitter">TW</div><div class="pi"><h1 class="pt">Twitter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,12 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(12:35起):本集提到红队测试高手 Wyatt 在这个平台上分享关于大模型本质的深刻见解。
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(52:49起):本集提到它是当时记者真正聚集的地方，嘉宾当年为了直面争议、主动沟通，开始在上面变得非常活跃。
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(01:39起):本集把它说成:Tom Verrilli 早年负责产品增长的地方。他形容在那里的两年如「童年创伤」,经历了九任产品负责人和极度动荡,但也让他体会到什么是真正的产品市场契合度(PMF)以及软弱的领导力如何让组织停滞。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2025-09-21-lennys-from-managing-people-to-managing-ai-juli#^q6]]
 
 ## ② 出现在这些集
 
@@ -31,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[Claude]] · [[Dr. Fei-Fei Li]] · [[Zico Kolter]] · [[Adam Mosseri]] · [[Tom Verrilli]] · [[World Labs]] · [[Matt Fredrikson]] · [[Instagram]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Anthropic":44,"Claude":12,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1,"World Labs":2,"Matt Fredrikson":1,"Instagram":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Anthropic":45,"Claude":12,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1,"World Labs":2,"Matt Fredrikson":1,"Instagram":2}</script>
 
 <script>
 (function(){

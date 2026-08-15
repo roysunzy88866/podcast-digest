@@ -1,0 +1,2091 @@
+{
+  "episode_id": "2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-09-25",
+  "tags": [
+    "Evals",
+    "错误分析",
+    "LLM 判别器",
+    "AI 产品质量",
+    "数据分析"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            237.856,
+            240.437
+          ],
+          "quote": "Find out how Fin can work for your team at fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            240.597,
+            241.998
+          ],
+          "quote": "That's fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            5754.311,
+            5761.814
+          ],
+          "quote": "Another really interesting thing, and something that I got the idea from you, Lenny, is, okay, this is an AI course.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1371,
+          "t": [
+            6361.462,
+            6363.553
+          ],
+          "quote": "Thanks, Lenny, for having us and for all the compliments.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "hamel-husain",
+      "type": "person",
+      "role": "cohost",
+      "name": "Hamel Husain",
+      "file": "Hamel Husain",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            69.78,
+            73.003
+          ],
+          "quote": "Today, my guests are Hamel Husain and Shreya Shankar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            172.914,
+            176.919
+          ],
+          "quote": "With that, I bring you Hamel Husain and Shreya Shankar.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "shreya-shankar",
+      "type": "person",
+      "role": "cohost",
+      "name": "Shreya Shankar",
+      "file": "Shreya Shankar",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            69.78,
+            73.003
+          ],
+          "quote": "Today, my guests are Hamel Husain and Shreya Shankar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            172.914,
+            176.919
+          ],
+          "quote": "With that, I bring you Hamel Husain and Shreya Shankar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3790.114,
+            3792.599
+          ],
+          "quote": "It was authored by someone named Shreya Shankar.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "本集说 evals 本质上是对 LLM 应用的数据分析，是一种系统地审视数据、在必要时创建指标以衡量表现并进行迭代改进的方法，而不是单纯写测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            2.972
+          ],
+          "quote": "To build great AI products, you need to be really good at building evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 7,
+          "t": [
+            18.201,
+            22.859
+          ],
+          "quote": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 8,
+          "t": [
+            23.04,
+            26.534
+          ],
+          "quote": "I did not realize how much controversy and drama there is around evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 10,
+          "t": [
+            28.301,
+            30.426
+          ],
+          "quote": "People have been burned by evals in the past.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 11,
+          "t": [
+            30.586,
+            35.759
+          ],
+          "quote": "People have done evals badly, so then they didn't trust it anymore, and then they're like, \"Oh, I'm anti evals.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 12,
+          "t": [
+            36,
+            38.819
+          ],
+          "quote": "What are a couple of the most common misconceptions people have with evals?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            73.423,
+            78.126
+          ],
+          "quote": "One of the most trending topics on this podcast over the past year has been the rise of evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            78.646,
+            86.611
+          ],
+          "quote": "Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 27,
+          "t": [
+            92.715,
+            94.596
+          ],
+          "quote": "Two years ago, I had never heard the term evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 30,
+          "t": [
+            101.46,
+            110.027
+          ],
+          "quote": "Hamel and Shreya have played a major role in shifting evals from being an obscure, mysterious subject to one of the most necessary skills for AI product builders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            110.547,
+            116.072
+          ],
+          "quote": "They teach the definitive online course on evals, which happens to be the number one course on Maven.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            130.982,
+            148.273
+          ],
+          "quote": "We walk through the process of developing an effective eval, explain what the heck evals are and what they look like, address many of the major misconceptions with evals, give you the first few steps you can take to start building evals for your product, and also share just a ton of best practices that Hamel and Shreya have developed over the past few years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 35,
+          "t": [
+            148.853,
+            154.616
+          ],
+          "quote": "This episode is the deepest yet most understandable primer you'll find on the world of evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 36,
+          "t": [
+            155.057,
+            159.059
+          ],
+          "quote": "And honestly, it got me excited to write evals, even though I have nothing to write evals for.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 70,
+          "t": [
+            308.661,
+            313.003
+          ],
+          "quote": "Okay, so a couple years ago, I had never heard the term evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            313.843,
+            320.927
+          ],
+          "quote": "Now it's one of the most trending topics on my podcast, essentially, that to build great AI products, you need to be really good at building evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 72,
+          "t": [
+            321.927,
+            329.091
+          ],
+          "quote": "Also, it turns out some of the fastest-growing companies in the world are basically building and selling and creating evals for AI labs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            340.976,
+            342.697
+          ],
+          "quote": "Just what the heck are evals?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            349.941,
+            359.226
+          ],
+          "quote": "Evals is a way to systematically measure and improve an AI application, and it really doesn't have to be scary or unapproachable at all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 85,
+          "t": [
+            416.172,
+            420.474
+          ],
+          "quote": "And before evals, you would be left with guessing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 89,
+          "t": [
+            446.73,
+            460.638
+          ],
+          "quote": "And so evals help you create metrics that you can use to measure how your application is doing and kind of give you a way to improve your application with confidence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            484.08,
+            492.227
+          ],
+          "quote": "So the idea of evals, essentially, is to build a set of tests that tell you, how often is this agent doing something wrong that you don't want it to do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 99,
+          "t": [
+            501.354,
+            506.458
+          ],
+          "quote": "The way I think about evals, and tell me if this is wrong, just simply is like unit tests for code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 108,
+          "t": [
+            520.362,
+            524.224
+          ],
+          "quote": "Evals is a big spectrum of ways to measure application quality.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 113,
+          "t": [
+            564.56,
+            570.864
+          ],
+          "quote": "So evals could also be a way of looking at your data regularly to find these new cohorts of people.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 114,
+          "t": [
+            571.405,
+            580.05
+          ],
+          "quote": "Evals could also be like metrics that you just want to track over time, like you want to track people saying, \"Yes.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 124,
+          "t": [
+            609.362,
+            616.905
+          ],
+          "quote": "So to echo what Shreya said, it's really important that we don't think of evals as just tests.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            740.214,
+            754.439
+          ],
+          "quote": "And so we have anonymized it, but what I'm going to walk through today is, okay, let's do the first part of how we would start to build evals for Nurture Boss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2757.095,
+            2766.04
+          ],
+          "quote": "Now, you have some way of looking at your problem, and now you can think about whether you need evals for some of these.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2813.28,
+            2816.222
+          ],
+          "quote": "So there's a cost-benefit trade-off to evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2833.573,
+            2840.298
+          ],
+          "quote": "They go straight into evals like, \"Let me just write some tests,\" and that is where things go off the rails.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2884.666,
+            2885.927
+          ],
+          "quote": "So there's different kinds of evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2911.24,
+            2916.848
+          ],
+          "quote": "Before we get into that actually, just to make sure people know exactly what you're describing there, these two types of evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3113.421,
+            3117.769
+          ],
+          "quote": "That's a really great point because a lot of people just see evals for being this not-real-life thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3211.161,
+            3213.448
+          ],
+          "quote": "It's wild how much drama there is in the evals space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3404.206,
+            3414.631
+          ],
+          "quote": "Don't do that, because that's the fastest way that you can have evals that don't match what's going on, and when people lose trust in your evals, they lose trust in you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3663.863,
+            3670.646
+          ],
+          "quote": "I've had some guests on the podcast recently who've been saying, \"Evals are the new PRDs,\" and if you look at this, this is exactly what this is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3727.422,
+            3740.293
+          ],
+          "quote": "Your advice is not skip straight to evals and LLM as judge prompts before you build the product, still write traditional one-pagers PRDs to tell your team what we're doing, why we're doing it, what success looks like.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3784,
+            3789.252
+          ],
+          "quote": "This is one of the coolest research reports you can possibly read if you want to know about evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3829.504,
+            3835.686
+          ],
+          "quote": "I think this was before evals was extremely popular, I feel like, on the internet.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4061.562,
+            4067.358
+          ],
+          "quote": "Give us just a quick sense of what comes next and then let's talk about the debate around evals and a couple more things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4203.446,
+            4208.09
+          ],
+          "quote": "I did not realize how much controversy and drama there is around evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 899,
+          "t": [
+            4211.733,
+            4219
+          ],
+          "quote": "Give us just a sense of the two sides of the debate around the importance and value of evals, and then give us your perspective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 902,
+          "t": [
+            4226.523,
+            4232.285
+          ],
+          "quote": "I think the misconception is that people have very rigid definitions of what evals is.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 903,
+          "t": [
+            4232.685,
+            4250.531
+          ],
+          "quote": "For example, they might think that evals is just unit tests or they might think that evals is just the data analysis part and no online monitoring or no monitoring of product-specific metrics, like actually number of chats engaged in or whatnot.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4250.571,
+            4258.514
+          ],
+          "quote": "I think everyone has a different mindset of evals going in, and the other thing I will say is that people have been burned by evals in the past.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4258.534,
+            4260.415
+          ],
+          "quote": "I think people have done evals badly.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4267.578,
+            4273.5
+          ],
+          "quote": "They only uncovered this later on and then they didn't trust it anymore, and then they're like, \"I'm anti evals.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 910,
+          "t": [
+            4284.303,
+            4296.726
+          ],
+          "quote": "A lot of the misconception stems from two things, like people having a narrow definition of evals and then people not doing it well and then getting burned and then wanting to avoid other people making that mistake.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 911,
+          "t": [
+            4296.746,
+            4309.21
+          ],
+          "quote": "Then, unfortunately, X or Twitter is a medium where people are misinterpreting what everybody is saying all the time, and you just get all these strong opinions of, \"Don't do evals, it's bad.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 913,
+          "t": [
+            4311.551,
+            4318.753
+          ],
+          "quote": "We're Claude Code,\" or whatever other famous product, \"And we don't do evals.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 914,
+          "t": [
+            4318.773,
+            4325.075
+          ],
+          "quote": "There's just so much nuance behind all of it, because a lot of these applications are standing on the shoulders of evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 918,
+          "t": [
+            4344,
+            4352.012
+          ],
+          "quote": "Just to make clear exactly what you're talking about there, one of the heads, I think maybe the head engineer of Claude Code, went on a podcast and he's like, \"We don't do evals, we just vibe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 922,
+          "t": [
+            4361.17,
+            4365
+          ],
+          "quote": "One is they're standing on the shoulders of the evals that their colleagues are doing for coding.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 930,
+          "t": [
+            4404.154,
+            4406.395
+          ],
+          "quote": "All of this is evals, right?",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 932,
+          "t": [
+            4419.24,
+            4425.67
+          ],
+          "quote": "Most of the community is beginners or people who don't know about evals and want to learn about it, and it sends the wrong message there.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4425.87,
+            4432.82
+          ],
+          "quote": "Now, I don't know what Claude Code is doing, obviously, but I would be willing to bet money that they're doing something in the form of evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4516,
+            4533.835
+          ],
+          "quote": "What I'm hearing from you, Shreya, interestingly, is that if humans on the team are doing very close data analysis, error analysis, dogfooding like crazy, and essentially, they're the human evals and you're describing that as that's within the umbrella of evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 952,
+          "t": [
+            4584.681,
+            4588.526
+          ],
+          "quote": "There's also this, feels like, straw man argument of evals versus A-B tests.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4592.873,
+            4596.898
+          ],
+          "quote": "People are having like, \"Do you need evals if you have A-B tests that are testing production level metrics?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 955,
+          "t": [
+            4598,
+            4602.023
+          ],
+          "quote": "A-B tests are, again, another form of evals ,I imagine, right?",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4627.561,
+            4631.045
+          ],
+          "quote": "What I'm hearing is you consider A-B tests as part of the suite of evals that you do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 976,
+          "t": [
+            4714.72,
+            4722.382
+          ],
+          "quote": "Just to add to the previous question a little bit, why is there this debate, A-B testing versus evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 977,
+          "t": [
+            4723.362,
+            4740.047
+          ],
+          "quote": "I think, fundamentally, evals is... People are trying to wrap their head around how to improve their applications and fundamentally need to do... Data science is useful in products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 982,
+          "t": [
+            4766.014,
+            4789.4
+          ],
+          "quote": "Now, people say the word \"Evals,\" trying to carve out this new thing, and saying evals and then A-B testing, but if you zoom out, it's the same data science as before, and I think that's what's causing the confusion is, \"Hey, we need data science thinking,\" and AI product is helpful to have that thinking in AI products like it is in any product is my take on that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 983,
+          "t": [
+            4790.101,
+            4792.718
+          ],
+          "quote": "That's a really good take, I think just the word \"Evals\" triggers people now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 988,
+          "t": [
+            4803.761,
+            4809.143
+          ],
+          "quote": "We need a mysterious term, like \"Evals,\" to really get the momentum going.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 992,
+          "t": [
+            4833.331,
+            4842.974
+          ],
+          "quote": "I have no idea, I don't know anything there, but I think those are really the bigger questions for me than, \"Is this fundamentally changing A-B testing or making evals more of a priority?\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 996,
+          "t": [
+            4862.442,
+            4874.952
+          ],
+          "quote": "Certainly, they're doing some amount of evals before they ship their new foundation models, but they're going so much beyond and being like, \"Okay, let's find all the tweets that are complaining about it, all the Reddit threads that are complaining about it, and go try to figure out what's going on.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 997,
+          "t": [
+            4875.732,
+            4878.254
+          ],
+          "quote": "It goes to show that evals are very, very important.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            4909.093,
+            4918.719
+          ],
+          "quote": "Those not very related to product specific evals, like the ones we talked about today, but handoff and stuff like that, they tend not to correlate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            4964,
+            4970.687
+          ],
+          "quote": "Yeah, Pamela and I should not be the only two people on the planet that are promoting a structured way of thinking about application specific evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            4992.526,
+            5001.052
+          ],
+          "quote": "Interestingly, just as an example you've been sharing on Twitter that I think is informative, everyone's been saying how cloud code doesn't care about evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            5006.636,
+            5013
+          ],
+          "quote": "More recently, there's all this talk about Codex, OpenAI Codex being better and everyone's switching and they're so pro evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            5055.261,
+            5059.787
+          ],
+          "quote": "I want to ask about just top misconceptions people have with evals and top tips and tricks for being successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            5155,
+            5161.944
+          ],
+          "quote": "Oh, those are definitely... Then, I guess the third one I would add is, there's no one correct way to do evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            5162.164,
+            5169.629
+          ],
+          "quote": "There are many incorrect ways of doing evals, but there are also many correct ways of doing it.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            5219.452,
+            5224.435
+          ],
+          "quote": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            5417.061,
+            5423.687
+          ],
+          "quote": "If any, we teach our students, \"Hey, when you're doing these evals, if you see something that's wrong, just go fix it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1114,
+          "t": [
+            5423.927,
+            5430.393
+          ],
+          "quote": "The whole point is not to have evals, a beautiful eval suite, where you can point at it, edit it and say, Oh, look at my evals.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            5693.283,
+            5704.449
+          ],
+          "quote": "A couple of people that I've worked with, they get to a point where their evals are very good, their product is very good, but it's all very expensive because they're using state-of-the-art models.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            5726.721,
+            5739.466
+          ],
+          "quote": "My favorite perk is there's 160 page book that's meticulously written, that we've created, that walks through the entire process in detail of how to do evals that supplement the course.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            5780.66,
+            5791.386
+          ],
+          "quote": "Yeah, lennybot.com, we have made the same thing with the same software that you're using, and we have put everything we've ever said about evals into that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1235,
+          "t": [
+            5897.4,
+            5901.623
+          ],
+          "quote": "I like to recommend a fiction book because life is about more than evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1322,
+          "t": [
+            6171.275,
+            6174.457
+          ],
+          "quote": "My vision for evals is not that Hamel and I become billionaires.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1337,
+          "t": [
+            6231.948,
+            6238.614
+          ],
+          "quote": "I often think that I would start carrying much less about evals, if not for Hamel.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1342,
+          "t": [
+            6251.625,
+            6259.031
+          ],
+          "quote": "I feel like this is the most interesting in-depth consumable primer on evals that I've ever seen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1351,
+          "t": [
+            6276.183,
+            6283.886
+          ],
+          "quote": "You can find the course if you Google AI Evals for engineers and product managers, or just AI Evals course, you'll find it.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1364,
+          "t": [
+            6328.787,
+            6337.711
+          ],
+          "quote": "The thing that's most helpful is to echo what Shreya said, we would be delighted if we are not the only people teaching evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1365,
+          "t": [
+            6337.872,
+            6340.393
+          ],
+          "quote": "We would love other people teach evals.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "error-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "错误分析 (error analysis)",
+      "file": "错误分析",
+      "primary": true,
+      "how_described": "本集说错误分析是构建 evals 的第一步，源自机器学习和数据科学领域，核心是从应用日志里抽样看 trace，发现并记录最上游的错误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            756.46,
+            770.726
+          ],
+          "quote": "So let's go through the very beginning stage, what we call error analysis, which is, let's look at the data of their application and first start with what's going wrong.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1034.864,
+            1040.027
+          ],
+          "quote": "It's been around in machine learning and data science for a really long time, and it's called error analysis.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1444.821,
+            1463.473
+          ],
+          "quote": "And I loved Hamel's most recent example because what we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1499.662,
+            1505.73
+          ],
+          "quote": "There are parts of error analysis that an LLM is suited for, which we could talk about later in this podcast.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1879.756,
+            1884.86
+          ],
+          "quote": "Depends on the application and depends on how savvy you are with error analysis for sure.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2243.641,
+            2246.764
+          ],
+          "quote": "Well, I want to caveat that we didn't invent error analysis.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2318.975,
+            2324.419
+          ],
+          "quote": "And you can see this is an eight-year-old video, and he's talking about error analysis.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 926,
+          "t": [
+            4373.262,
+            4378.765
+          ],
+          "quote": "The other thing is they are actually probably very systematic about the error analysis to some extent.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4393.21,
+            4403.334
+          ],
+          "quote": "Anytime something is off, they maybe have a cue or they send it to the person developing Claude Code, and this person is implicitly doing some form of hair error analysis that Hamel talked about.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4516,
+            4533.835
+          ],
+          "quote": "What I'm hearing from you, Shreya, interestingly, is that if humans on the team are doing very close data analysis, error analysis, dogfooding like crazy, and essentially, they're the human evals and you're describing that as that's within the umbrella of evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 966,
+          "t": [
+            4650.501,
+            4657.944
+          ],
+          "quote": "I think a lot of people prematurely do A-B tests, because they've never done any error analysis in the first place.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4679.492,
+            4687.695
+          ],
+          "quote": "I would say that, if you're going to do A-B tests and they're powered by actual error analysis as we've shown today, then that's great, go do it.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 985,
+          "t": [
+            4793.582,
+            4800
+          ],
+          "quote": "If you just call it, \"We're just doing error analysis, doing data science to understand where our product breaks and just setting up tests to make sure we know-\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            4928.902,
+            4937.866
+          ],
+          "quote": "If you look at the eval products, let's say the ones up until recently that some of the big labs have, they don't have error analysis.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            5179.055,
+            5187.4
+          ],
+          "quote": "It'll always involve some form of error analysis as we showed today, but how you operationalize those metrics is going to change based on where you're at.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            5448.462,
+            5454.225
+          ],
+          "quote": "Usually, I'll spend three to four days really working with whoever to do initial rounds of error analysis.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            5651.522,
+            5660.967
+          ],
+          "quote": "We go through a lifecycle of error analysis, then automated evaluators, then how to improve your application, how do you create that flywheel for yourself?",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1169,
+          "t": [
+            5668.51,
+            5672.612
+          ],
+          "quote": "One is, how do you build your own interfaces for error analysis?",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "open-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放式编码 (open coding)",
+      "file": "开放式编码",
+      "primary": true,
+      "how_described": "本集说开放式编码是错误分析的第一步，要求人工逐条看 trace，看到什么问题就写一句具体的短备注，记录最上游的错误就停，不能让 AI 做这一步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            49.22,
+            54.405
+          ],
+          "quote": "When you're doing this open coding, a lot of teams get bogged down in having a committee do this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1513,
+            1514
+          ],
+          "quote": "Got it. And this is something you call open coding, this step?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1541.8,
+            1555.285
+          ],
+          "quote": "And so benevolent dictator is just a catchy term for the fact that when you're doing this open coding, a lot of teams get bogged down in having a committee do this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2044.308,
+            2053.596
+          ],
+          "quote": "Actually, many of them are repeats, but because you phrased them differently, and that you shouldn't have tried to create your taxonomy of failures as you're open coding.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2275.012,
+            2283.279
+          ],
+          "quote": "So this is all very tailored to LLMs, but the terms open coding, axial coding, are grounded in social science.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "axial-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "轴向编码 (axial coding)",
+      "file": "轴向编码",
+      "primary": true,
+      "how_described": "本集说轴向编码是用 LLM 把一堆开放式笔记归纳成的故障模式分类标签，本质就是 failure mode，比如行程安排问题、人工交接问题、对话流程问题等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 490,
+          "t": [
+            2275.012,
+            2283.279
+          ],
+          "quote": "So this is all very tailored to LLMs, but the terms open coding, axial coding, are grounded in social science.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3477.921,
+            3483.604
+          ],
+          "quote": "It's not like we have to do it again, because we have that cheat code from the axial coding, we already did it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            5356.37,
+            5363.151
+          ],
+          "quote": "Then, they actually have this axial coding part here where you can see in red the count of different errors.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 判别器 (LLM as a judge)",
+      "file": "LLM 判别器",
+      "primary": true,
+      "how_described": "本集说 LLM 判别器是针对你描述了期望行为但智能体还是反复犯的顽固问题而建的自动评估方式，输出必须是二元判断（true/false），不能打 1-5 分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1604.968,
+            1611.714
+          ],
+          "quote": "Another thing that we'll talk about later is when it goes to building an LLM as a judge, you need a binary score.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2876.821,
+            2884.166
+          ],
+          "quote": "Well, that might be sort of an interesting thing for an LLM as a judge, for example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2893.632,
+            2897.475
+          ],
+          "quote": "LLM as a judge is something, it's like a meta eval.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2907.629,
+            2909.254
+          ],
+          "quote": "LLM as a judge, that's one thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2909.716,
+            2910.98
+          ],
+          "quote": "How do you build an LLM as a judge?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3131.304,
+            3135.358
+          ],
+          "quote": "Hamel's got an example of an actual LLM as a judge eval here, so let's take a look.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3142.244,
+            3146.766
+          ],
+          "quote": "So what we have is a LLM as a judge prompt for this one specific failure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3416.611,
+            3422.734
+          ],
+          "quote": "It's really important that you don't do that, so before you release your LLM as a judge, you want to make sure it's aligned to the human.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "theoretical-saturation",
+      "type": "concept",
+      "role": "concept",
+      "name": "理论饱和 (theoretical saturation)",
+      "file": "理论饱和",
+      "primary": false,
+      "how_described": "本集说理论饱和是停止看 trace 的条件，当你发现新看的 trace 不再产生新的错误类型时就停，有人做 15 条就够了，有人做 60 条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 383,
+          "t": [
+            1831.4,
+            1837.045
+          ],
+          "quote": "... in data analysis and qualitative analysis called theoretical saturation.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1857.921,
+            1865.186
+          ],
+          "quote": "And this kind of takes a little bit of intuition to develop, so typically, people don't really know when they've reached theoretical saturation yet.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以房地产智能体为例，讨论如何评估智能体在与用户对话中是否给出正确建议、是否该转人工等行为表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            178,
+            182.403
+          ],
+          "quote": "This episode is brought to you by Fin, the number one AI agent for customer service.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            186.085,
+            191.528
+          ],
+          "quote": "Fin is the highest-performing AI agent on the market with a 65% average resolution rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            194.87,
+            196.871
+          ],
+          "quote": "No other AI agent performs better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 91,
+          "t": [
+            464.701,
+            472.028
+          ],
+          "quote": "So just to make very real, so imagining this real estate agent, maybe they're helping you book a listing or go see an open house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 92,
+          "t": [
+            472.649,
+            476.452
+          ],
+          "quote": "The idea here is you have this agent talking to people, it's answering questions, pointing them to things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            477.033,
+            480.937
+          ],
+          "quote": "As a builder of that agent, how do you know if it's giving them good advice, good answers?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 95,
+          "t": [
+            484.08,
+            492.227
+          ],
+          "quote": "So the idea of evals, essentially, is to build a set of tests that tell you, how often is this agent doing something wrong that you don't want it to do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 111,
+          "t": [
+            536.429,
+            558.818
+          ],
+          "quote": "Now, maybe you also, because these AI assistants are doing such open-ended tasks, you kind of also want to measure how good are they at very vague or ambiguous things like responding to new types of user requests or figuring out if there's new distributions of data like new users are coming and using your real estate agent that you didn't even know would use your product.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1071.908,
+            1078.619
+          ],
+          "quote": "People talking to this agent is the entire product essentially, and so it makes sense for the product person to be super involved in this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1495.322,
+            1497.98
+          ],
+          "quote": "Do you think we'll get to a place where an agent can do this, where it has that context?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2996.08,
+            3002.354
+          ],
+          "quote": "So just to try to mirror back what you're describing, you want to test what your, say, agent or AI product is doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3049.6,
+            3056.045
+          ],
+          "quote": "So people always think, \"Oh, this is at least as hard as my problem of creating the original agent.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3086.397,
+            3088
+          ],
+          "quote": "The way your agent is interacting is correct?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3684.752,
+            3688.653
+          ],
+          "quote": "It's telling you, \"Here's how this agent should respond,\" and it's very specific ways.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3929.667,
+            3942.199
+          ],
+          "quote": "You just didn't think to put it in your prompts, so now you put it in your... You shouldn't do an eval like this for everything, just the pesky ones that you've described your ideal behavior in your agent prompt, but it's still failing.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            5001.072,
+            5005.975
+          ],
+          "quote": "They're all about vibes, and everyone's like, and they're the best coding agent out there, so clearly, this is right.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "trace",
+      "file": "trace",
+      "primary": true,
+      "how_described": "本集说 trace 是事件序列日志的工程术语，包含系统提示词、工具调用、用户对话等完整交互记录，是错误分析的基本数据单元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            837.433,
+            844.597
+          ],
+          "quote": "So it's called a trace, and it's just the engineering term for logs of a sequence of events.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            844.757,
+            851.18
+          ],
+          "quote": "The concept of a trace has been around for a really long time, but it's especially really important when it comes to AI applications.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 186,
+          "t": [
+            989.842,
+            999.687
+          ],
+          "quote": "Now, this is an example of a trace, and we're looking at one specific data point.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1198.401,
+            1202.208
+          ],
+          "quote": "So you write this note, and then we can go on to the next trace.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1202.488,
+            1203.65
+          ],
+          "quote": "So this is the next trace.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1327.285,
+            1330.967
+          ],
+          "quote": "Do you try to find all the different problems in this trace?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1444.821,
+            1463.473
+          ],
+          "quote": "And I loved Hamel's most recent example because what we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2956.724,
+            2963.409
+          ],
+          "quote": "So maybe I could write a Python function or a piece of code to check whether that failure mode is present in a trace or not.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3438,
+            3441.282
+          ],
+          "quote": "What we have here is, okay, I say, \"Assess this LLM trace.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3441.702,
+            3453.289
+          ],
+          "quote": "Again, I'm using just spreadsheets here, \"Assess this LM trace according to these rules,\" and the rules are just the prompt that I just showed you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            5558.113,
+            5568.657
+          ],
+          "quote": "We looked at a trace, the first thing I saw was this email that is worded, \"Given your background, blah, blah, blah, blah, blah.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "code-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于代码的评估 (code-based)",
+      "file": "基于代码的评估",
+      "primary": false,
+      "how_described": "本集说基于代码的评估本质上就是单元测试，比如检查输出是不是 JSON、够不够短等，比 LLM 判别器更便宜，应优先使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            2886.127,
+            2892.351
+          ],
+          "quote": "One is code-based, which you should try to do if you can because they're cheaper.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2917.048,
+            2919.812
+          ],
+          "quote": "One is you said it's code-based and one is LLM as judge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2920.272,
+            2923.497
+          ],
+          "quote": "Maybe Shreya, just help us understand what code-based eval even is?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2952.54,
+            2956.684
+          ],
+          "quote": "Now, when we're saying code-based versus LLM-based, we're saying, \"Okay.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "observability-tool",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性工具 (observability tool)",
+      "file": "可观测性工具",
+      "primary": false,
+      "how_described": "本集提到用 Braintrust、Phoenix Arize、LangSmith 等可观测性工具来查看应用日志和 trace，并进行错误标注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            771.246,
+            776.468
+          ],
+          "quote": "So I'm going to jump to that next, and I'm going to open an observability tool.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "type": "company",
+      "role": "company",
+      "name": "Fin",
+      "file": "Fin",
+      "primary": false,
+      "how_described": "本集广告中提到 Fin 是客户服务领域第一名的 AI 智能体，平均解决率为 65%，由 Fin AI 引擎驱动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            178,
+            182.403
+          ],
+          "quote": "This episode is brought to you by Fin, the number one AI agent for customer service.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            182.803,
+            185.765
+          ],
+          "quote": "If your customer support tickets are piling up, then you need Fin.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            186.085,
+            191.528
+          ],
+          "quote": "Fin is the highest-performing AI agent on the market with a 65% average resolution rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            191.968,
+            194.47
+          ],
+          "quote": "Fin resolves even the most complex customer queries.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            197.152,
+            200.033
+          ],
+          "quote": "In head-head bake-offs with competitors, Fin wins every time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 48,
+          "t": [
+            200.554,
+            210.98
+          ],
+          "quote": "Yes, switching to a new tool can be scary, but Fin works on any help desk with no migration needed, which means you don't have to overhaul your current system or deal with delays in service for your customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 49,
+          "t": [
+            211.38,
+            217.684
+          ],
+          "quote": "And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            217.964,
+            228.11
+          ],
+          "quote": "And because Fin is powered by the Fin AI engine, which is a continuously improving system that allows you to analyze, train, test, and deploy with ease, Fin can continuously improve your results too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 51,
+          "t": [
+            228.47,
+            234.554
+          ],
+          "quote": "So if you're ready to transform your customer service and scale your support, give Fin a try for only 99 cents per resolution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 52,
+          "t": [
+            234.854,
+            237.476
+          ],
+          "quote": "Plus, Fin comes with a 90-day money-back guarantee.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 53,
+          "t": [
+            237.856,
+            240.437
+          ],
+          "quote": "Find out how Fin can work for your team at fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            240.597,
+            241.998
+          ],
+          "quote": "That's fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的首席产品官分享说 evals 正在成为产品构建者最重要的新技能，其团队也上过 Hamel 和 Shreya 的课程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            78.646,
+            86.611
+          ],
+          "quote": "Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            116.512,
+            126.9
+          ],
+          "quote": "They've now taught over 2,000 PMs and engineers across 500 companies, including large swaths of the OpenAI and Anthropic teams along with every other major AI lab.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 49,
+          "t": [
+            211.38,
+            217.684
+          ],
+          "quote": "And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4543.563,
+            4547.687
+          ],
+          "quote": "People who work at Anthropic are very, very highly skilled.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 的首席产品官同样认为 evals 是重要新技能，其团队大面积上过课程，且 OpenAI 收购了 Statsig。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            78.646,
+            86.611
+          ],
+          "quote": "Both the chief product officers of Anthropic and OpenAI shared that evals are becoming the most important new skill for product builders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            116.512,
+            126.9
+          ],
+          "quote": "They've now taught over 2,000 PMs and engineers across 500 companies, including large swaths of the OpenAI and Anthropic teams along with every other major AI lab.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 971,
+          "t": [
+            4703.301,
+            4706.026
+          ],
+          "quote": "Do you have thoughts on what Statsig is going to do at OpenAI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 990,
+          "t": [
+            4812.744,
+            4822.948
+          ],
+          "quote": "To be honest, I don't know much about it, because I just imagine that they're this company that... There's a tool that many people use, and maybe it just so happened that OpenAI acquired them.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4823.648,
+            4833.271
+          ],
+          "quote": "I'm sure they've been using them in the past, I'm sure OpenAI's competitors are using Statsig as well, so maybe there is something strategic in that acquisition.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 993,
+          "t": [
+            4842.994,
+            4859.04
+          ],
+          "quote": "I think they've always been a priority, I think OpenAI has always been doing some form of them, and OpenAI has gone so far, historically speaking, as to go and look at all the Twitter sentiment and try to do some retrospective on that, and then tie that back to their products.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            4886.36,
+            4895.045
+          ],
+          "quote": "What I'll say is I'm really hopeful that it might shift or create a focus within OpenAI, hopefully.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            5006.636,
+            5013
+          ],
+          "quote": "More recently, there's all this talk about Codex, OpenAI Codex being better and everyone's switching and they're so pro evals.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "nurture-boss",
+      "type": "company",
+      "role": "company",
+      "name": "Nurture Boss",
+      "file": "Nurture Boss",
+      "primary": false,
+      "how_described": "本集作为教学案例使用，是一家为物业经理设计的 AI 助手公司，帮助处理入站线索、客户服务、预订预约等任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            654.423,
+            656.624
+          ],
+          "quote": "It's from a company called Nurture Boss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 134,
+          "t": [
+            667.448,
+            682.834
+          ],
+          "quote": "It's called Nurture Boss, and it is a AI assistant for property managers who are managing apartments, and it helps with various tasks such as inbound leads, customer service, booking appointments, so on and so forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            740.214,
+            754.439
+          ],
+          "quote": "And so we have anonymized it, but what I'm going to walk through today is, okay, let's do the first part of how we would start to build evals for Nurture Boss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            821.866,
+            837.393
+          ],
+          "quote": "So what you see here is, and let me make it full screen, this is one particular interaction that a customer had with the Nurture Boss application, and what it is is a detailed log of everything that happened.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1095,
+          "t": [
+            5329.683,
+            5337.385
+          ],
+          "quote": "For the Nurture Boss use case, we wanted to remove all the friction of looking at data.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到 Claude Code 团队声称不搞 evals 只靠 vibe，Shreya 回应说他们站在基础模型 eval 的肩膀上，且编码智能体是特殊案例不能泛化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 913,
+          "t": [
+            4311.551,
+            4318.753
+          ],
+          "quote": "We're Claude Code,\" or whatever other famous product, \"And we don't do evals.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 915,
+          "t": [
+            4325.255,
+            4329.136
+          ],
+          "quote": "Coding agents is a great example of that, Claude Code.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 918,
+          "t": [
+            4344,
+            4352.012
+          ],
+          "quote": "Just to make clear exactly what you're talking about there, one of the heads, I think maybe the head engineer of Claude Code, went on a podcast and he's like, \"We don't do evals, we just vibe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4393.21,
+            4403.334
+          ],
+          "quote": "Anytime something is off, they maybe have a cue or they send it to the person developing Claude Code, and this person is implicitly doing some form of hair error analysis that Hamel talked about.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 931,
+          "t": [
+            4406.415,
+            4418.38
+          ],
+          "quote": "There's no world in which they're just being like, \"I made Claude Code, I'm never looking at anything,\" and unfortunately, when you don't think about that or talk about that, I think that the community...",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4425.87,
+            4432.82
+          ],
+          "quote": "Now, I don't know what Claude Code is doing, obviously, but I would be willing to bet money that they're doing something in the form of evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            5681.376,
+            5688.3
+          ],
+          "quote": "We show how we use Claude code cursor, whatever we're feeling in the moment that day to build these interfaces.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            6073.102,
+            6075.683
+          ],
+          "quote": "Now, Claude Code.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 1304,
+          "t": [
+            6109.701,
+            6114.127
+          ],
+          "quote": "Yeah, I really like Claude Code and I like it because I feel like the UX is outstanding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1307,
+          "t": [
+            6124.783,
+            6127.735
+          ],
+          "quote": "Ironic that you two both love Claude Code when it's just built on vibes.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "confusion matrix",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

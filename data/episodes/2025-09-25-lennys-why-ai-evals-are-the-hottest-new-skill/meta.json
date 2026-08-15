@@ -18,5 +18,21 @@
     "origin_px": "2048x2048",
     "aspect": 1,
     "fetched_at": "2026-08-15T08:46:52.544Z"
-  }
+  },
+  "speaker_map": {
+    "SPEAKER_0": "Lenny",
+    "SPEAKER_1": "Hamel Husain",
+    "SPEAKER_2": "Shreya Shankar"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Lenny",
+  "cohosts": [
+    "Hamel Husain",
+    "Shreya Shankar"
+  ],
+  "title_zh": "做 evals 不是写单元测试，是从看数据开始的错误分析",
+  "guest_name": "",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=无;title_match=none"
 }

@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Linear</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Linear">LI</div><div class="pi"><h1 class="pt">Linear</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Linear">LI</div><div class="pi"><h1 class="pt">Linear</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(02:40起):本集将 Linear 作为在拥挤市场中靠愉悦体验获胜的例子：任务管理领域有 Jira、Asana 等，Linear 靠对体验每个部分的周到考虑在赢
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(01:47起):本集把它当作项目跟踪管理工具,是嘉宾标准开发流的第一步:用斜杠命令让 AI 读取代码库并自动在里面生成一个带有 TLDR、当前状态和预期结果的标准工单。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(10:51起):本集将其作为极佳设计和品味的标杆,指出去年市面上的新网站全是对 Linear 网站的拙劣模仿;嘉宾也自称它是他在自家产品之前最喜欢的软件产品。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Codex]] · [[智能体]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[Cursor]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Bolt]]
+[[Lenny]] · [[Codex]] · [[智能体]] · [[Nesrine Changuel]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[delight]] · [[Cursor]] · [[OpenAI]] · [[deep delight]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Codex":16,"智能体":77,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Cursor":13,"OpenAI":33,"Claude Code":20,"ChatGPT":14,"Bolt":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Codex":16,"智能体":79,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"delight":1,"Cursor":14,"OpenAI":35,"deep delight":1}</script>
 
 <script>
 (function(){

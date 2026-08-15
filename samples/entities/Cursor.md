@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(22:00起):本集顺带提到 Cursor 作为工程团队使用的 AI 编程工具，能自动补全和写代码
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(46:24起):本集提到有公司做随机试验,给不同表现等级工程师的一半人使用Cursor,发现表现最好的高级工程师从中获益最大
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(02:48起):本集把它说成:一款 AI 编程工具。主持人以此为例,说明向企业高管做愿景销售时,卖的不是让团队快一点点,而是卖「只有用了它,你才能招到那些原本根本不理你的 10 倍工程师」的愿景。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是一款深受开发者欢迎的 AI 代码编辑器。嘉宾用它配合 Claude Code 进行全流程开发,强调相比 Lovable 等工具,它把 AI 塞进代码系统并赋予完整工具,把架构决策权交还给用户。
@@ -35,8 +36,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
@@ -55,9 +57,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Meta]] · [[Claude Code]] · [[Codex]] · [[前向部署工程师]] · [[护栏]] · [[Elena Berger]] · [[GitHub]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Meta]] · [[OpenAI]] · [[Claude Code]] · [[Codex]] · [[前向部署工程师]] · [[护栏]] · [[Elena Berger]]
 
-<script type="application/json" class="pd-epn">{"智能体":77,"Lenny":42,"Anthropic":44,"Meta":13,"Claude Code":20,"Codex":16,"前向部署工程师":5,"护栏":13,"Elena Berger":3,"GitHub":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":79,"Lenny":44,"Anthropic":45,"Meta":13,"OpenAI":35,"Claude Code":21,"Codex":16,"前向部署工程师":5,"护栏":13,"Elena Berger":3}</script>
 
 <script>
 (function(){

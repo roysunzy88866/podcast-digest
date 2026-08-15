@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"NPS":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"NPS":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":5}</script>
 
 <script>
 (function(){

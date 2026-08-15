@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Jen Abel]] · [[Jason Cohen]] · [[企业销售]] · [[客户流失率]] · [[愿景描绘]] · [[定价]] · [[超额收益]] · [[渠道饱和]] · [[第一梯队]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Jen Abel":1,"Jason Cohen":1,"企业销售":1,"客户流失率":1,"愿景描绘":1,"定价":1,"超额收益":1,"渠道饱和":1,"第一梯队":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Jen Abel":1,"Jason Cohen":1,"企业销售":1,"客户流失率":1,"愿景描绘":1,"定价":1,"超额收益":1,"渠道饱和":1,"第一梯队":1}</script>
 
 <script>
 (function(){

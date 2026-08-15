@@ -8,10 +8,11 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(11:42起):本集提到用 ChatGPT 做个性化学习——投喂课程大纲让它定制学习计划，以及用自己的话复述回去让它挑错来测试理解
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:26起):本集提到 ChatGPT 出现后很多人说 Google 完了、没人想忍受搜索结果点链接了，以及 Gemini 排名超过了 ChatGPT
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(65:25起):本集提到期待它的语音模式在应对打断方面能做得更好
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(09:42起):本集说它的发布是大众真正感知到 AI 力量的公众时刻(大约三年前),指出其底层技术本质上依然是大数据、神经网络和 GPU 这“黄金配方”的放大版。
@@ -38,8 +39,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司(提及)
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司
@@ -59,9 +61,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[强化学习]] · [[Waymo]] · [[主观能动性]] · [[OpenAI]] · [[Google]] · [[vibe coding]] · [[NVIDIA]] · [[Anthropic]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[强化学习]] · [[Waymo]] · [[主观能动性]] · [[Google]] · [[vibe coding]] · [[NVIDIA]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"智能体":77,"强化学习":9,"Waymo":8,"主观能动性":9,"OpenAI":33,"Google":16,"vibe coding":8,"NVIDIA":16,"Anthropic":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":79,"Lenny":44,"OpenAI":35,"强化学习":9,"Waymo":8,"主观能动性":9,"Google":16,"vibe coding":8,"NVIDIA":16,"Anthropic":45}</script>
 
 <script>
 (function(){

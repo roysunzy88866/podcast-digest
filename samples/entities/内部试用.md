@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Fiona Fung]] · [[Anthropic]] · [[Claude Code]] · [[Co-work]] · [[智能体]] · [[验证]] · [[测试驱动开发]] · [[潜在需求]] · [[结对编程]]
 
-<script type="application/json" class="pd-epn">{"Lenny":42,"Fiona Fung":1,"Anthropic":44,"Claude Code":20,"Co-work":2,"智能体":77,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Fiona Fung":1,"Anthropic":45,"Claude Code":21,"Co-work":2,"智能体":79,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1}</script>
 
 <script>
 (function(){

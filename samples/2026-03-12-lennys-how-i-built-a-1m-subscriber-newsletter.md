@@ -129,7 +129,7 @@ Lenny 意外成为头部创作者，靠的是他兜兜转转后抓住了那个�
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]]<span class="pd-rz">同公司:Airbnb</span>
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:产品经理 (product manager)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe</span>
+- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Airbnb</span>
 
 </div>
 </div>

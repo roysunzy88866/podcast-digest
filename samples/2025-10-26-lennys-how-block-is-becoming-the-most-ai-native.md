@@ -158,8 +158,8 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 **顺着「组织与领导力」挖下去**
 
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]]<span class="pd-rz">同公司:Square</span>
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 <div class="pd-ex">
