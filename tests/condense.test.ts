@@ -14,6 +14,19 @@ describe("escapeCtrlInStrings", () => {
     const ok = '{"a":"已经\\n转义"}';
     expect(escapeCtrlInStrings(ok)).toBe(ok);
   });
+  it("串内未转义的裸双引号 → 转义(前瞻:引号后非 ,}]: 即判为串内)", () => {
+    // GLM 把 `他说"好"就走` 直接塞进字符串,裸引号会撑崩边界 → 只有跟着 } 的才算闭合
+    const bad = '{"a":"他说"好"就走"}';
+    const fixed = escapeCtrlInStrings(bad);
+    expect(() => JSON.parse(fixed)).not.toThrow();
+    expect(JSON.parse(fixed).a).toBe('他说"好"就走');
+  });
+  it("\\n\\r\\t 之外的控制字符也转义(U+0000-1F)", () => {
+    const bad = '{"a":"x' + String.fromCharCode(0) + 'y' + String.fromCharCode(0x1f) + 'z"}'; // 裸控制字符 0x00/0x1F → 非法 JSON
+    const fixed = escapeCtrlInStrings(bad);
+    expect(() => JSON.parse(fixed)).not.toThrow();
+    expect(JSON.parse(fixed).a).toBe('x' + String.fromCharCode(0) + 'y' + String.fromCharCode(0x1f) + 'z');
+  });
 });
 
 describe("extractJson", () => {

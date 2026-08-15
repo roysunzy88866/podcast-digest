@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""glm-ask — 直接调用智谱 GLM-5.3（Anthropic 兼容入口），给一段 prompt，打印回答。
+"""glm-ask — 直接调用智谱 GLM-5-turbo（Anthropic 兼容入口），给一段 prompt，打印回答。
 
 本仓库自带副本（C7b 无人值守:GitHub Actions runner 上没有全局 ~/.local/bin/glm-ask）。
 与全局版逻辑一致，只加一条:key 优先读环境变量 ZHIPU_API_KEY（GitHub Secret 注入、不落盘），
@@ -8,7 +8,7 @@
 用法:
   glm-ask "你的问题"
   echo "一大段内容" | glm-ask
-  glm-ask --model glm-5.2 "问题"           # 指定模型，默认 glm-5.3（2026-08-15 用户拍板从 5.2 切:5.2 抽风返回空/截断,drift+standard-change）
+  glm-ask --model glm-5.2 "问题"           # 指定模型，默认 glm-5-turbo(2026-08-15:5.2抽风返回空、5.3给condense长稿吐坏JSON连jsonrepair都修不了→切turbo,冷测两集浓缩JSON干净可过;standard-change)
   glm-ask --system "你是…" "问题"          # 加 system 提示
   glm-ask --max-tokens 8192 "问题"
 """
@@ -32,7 +32,7 @@ def read_key():
 
 def main():
     args = sys.argv[1:]
-    model = "glm-5.3"
+    model = "glm-5-turbo"
     system = None
     max_tokens = 4096
     rest = []

@@ -16,7 +16,10 @@ const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Mat
 // maxTokens 16000:长集浓缩输出较大,给足余量防截断(短集到不了上限,无影响)。
 function glmAsk(system, input, maxTokens = 16000) {
   return new Promise((res, rej) => {
-    const p = spawn("glm-ask", ["--system", system, "--max-tokens", String(maxTokens)], {
+    // CONDENSE_MODEL 可单独 pin 浓缩模型(不设=走 glm-ask 默认);用于试/切模型而不动全局默认。
+    const model = process.env.CONDENSE_MODEL;
+    const args = [...(model ? ["--model", model] : []), "--system", system, "--max-tokens", String(maxTokens)];
+    const p = spawn("glm-ask", args, {
       stdio: ["pipe", "pipe", "pipe"],
     });
     let out = "",
@@ -31,20 +34,36 @@ function glmAsk(system, input, maxTokens = 16000) {
 }
 
 /**
- * 把 JSON 字符串**字面量内部**的裸控制字符(换行/回车/Tab)转义。
- * GLM 输出长多行字符串(digest_md)时常把真换行直接塞进字符串 → "Bad control character"(长集 lab E2E 逼出)。
- * 只在 in-string 且非转义态时替换,结构空白不动。
+ * 修 GLM 常见的「结构对、就是没转义干净」的 JSON:字符串**字面量内部**的
+ *   ① 裸控制字符(换行/回车/Tab/其它 U+00-1F)→ 转义(否则 "Bad control character");
+ *   ② 未转义的裸双引号 → 转义(否则字符串边界错位、结构崩)。GLM-5.3 把长 markdown(digest_md,
+ *      带 ## 小标题/换行/引号)塞进 JSON 字符串时两样都犯(2026-08-15 切 5.3 后 lab E2E 逼出)。
+ * 真闭合引号 vs 串内裸引号:向后看第一个非空白字符——是 , } ] : 或结尾才算闭合(合法 JSON 里
+ *   字符串值/键之后只能跟这几个)。前瞻保证既有用例(结构空白不动、已转义不二次转义)输出不变。
+ * 安全:调用方(extractJson)先试裸 JSON.parse,失败才走本函数;本函数产物再 parse 不了则回 null,
+ *   只会「多救回一些」,不会把本可解析的输入弄坏。
  */
 export function escapeCtrlInStrings(s) {
   let out = "", inStr = false, esc = false;
-  for (const ch of s) {
+  const isWs = (c) => c === " " || c === "\t" || c === "\n" || c === "\r";
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i];
+    if (!inStr) { out += ch; if (ch === '"') inStr = true; continue; }
     if (esc) { out += ch; esc = false; continue; }
     if (ch === "\\") { out += ch; esc = true; continue; }
-    if (ch === '"') { inStr = !inStr; out += ch; continue; }
-    if (inStr && ch === "\n") { out += "\\n"; continue; }
-    if (inStr && ch === "\r") { out += "\\r"; continue; }
-    if (inStr && ch === "\t") { out += "\\t"; continue; }
-    out += ch;
+    if (ch === '"') {
+      let j = i + 1;
+      while (j < s.length && isWs(s[j])) j++;
+      const next = j < s.length ? s[j] : "";
+      if (next === "" || next === "," || next === "}" || next === "]" || next === ":") { out += '"'; inStr = false; }
+      else out += '\\"'; // 串内裸引号 → 转义,仍在串内
+      continue;
+    }
+    if (ch === "\n") out += "\\n";
+    else if (ch === "\r") out += "\\r";
+    else if (ch === "\t") out += "\\t";
+    else if (ch.charCodeAt(0) < 0x20) out += "\\u" + ch.charCodeAt(0).toString(16).padStart(4, "0");
+    else out += ch;
   }
   return out;
 }
