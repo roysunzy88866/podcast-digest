@@ -1067,7 +1067,14 @@ body:has(.pd-play) article h1 {
   font-size: 29px;
   line-height: 1.35;
   letter-spacing: 0.2px;
-  margin: 4px 0 10px;
+  /* 标题距顶栏间距:设计稿 .mid padding-top 24px(h1 margin-top 0);真站 article padding-top=0 → 由 h1 顶边距撑(2026-08-15 用户:间距不够大,4→24)*/
+  margin: 24px 0 10px;
+}
+
+/* 去掉 Quartz 给每个标题自动加的 permalink 锚点图标(链条 svg,a[role=anchor]).
+   设计稿标题都是纯文字,无此图标(2026-08-15 用户:标题后那个图标不需要)。开源默认残留清理。 */
+body:has(.pd-play) article :is(h1, h2, h3, h4, h5, h6) a[role="anchor"] {
+  display: none;
 }
 
 /* 金句区中文句(设计稿 .qr .z):斜体普惠体 + CSS 引号;.qz 是 render 打的样式挂点,文字逐字没动。
