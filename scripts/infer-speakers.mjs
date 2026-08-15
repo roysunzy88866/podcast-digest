@@ -77,15 +77,39 @@ const SYSTEM =
   "候选嘉宾名要尽量各归到一个 label。名字必须是开场文本或候选名里出现过的,真拿不准的 label 才留空不放。" +
   "只输出 JSON 对象 {\"SPEAKER_00\":\"真名\",...},不要解释。";
 
+// 主线程同步 sleep(重试退避用;Node 允许在主线程 Atomics.wait,浏览器才禁)
+function sleepSync(ms) {
+  try { Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms); } catch { /* 环境不支持就不退避 */ }
+}
+
+// GLM-5.2 偶发抽风(返回空 / 截断 JSON / 超时 exit≠0)→ 重掷,不让一次 flaky 响应卡死整集。
+// max-tokens 2000(原 500 对多说话人集会截断,如 ozempic 集实测截在 "SPEAKER_" 处)。
+// 缓存复用路径不走这(每集只推断一次),重试不重烧翻译/浓缩钱。
 function inferWithGLM(prompt) {
-  const r = spawnSync("glm-ask", ["--system", SYSTEM, "--max-tokens", "500", prompt], {
-    cwd: ROOT,
-    encoding: "utf8",
-  });
-  if (r.status !== 0) throw new Error(`glm-ask 失败(exit ${r.status}): ${r.stderr}`);
-  const m = r.stdout.match(/\{[\s\S]*\}/);
-  if (!m) throw new Error(`GLM 未返回 JSON:${r.stdout.slice(0, 200)}`);
-  return JSON.parse(m[0]);
+  const MAX = 4;
+  let lastErr = "";
+  for (let attempt = 1; attempt <= MAX; attempt++) {
+    const r = spawnSync("glm-ask", ["--system", SYSTEM, "--max-tokens", "2000", prompt], {
+      cwd: ROOT,
+      encoding: "utf8",
+    });
+    if (r.status === 0) {
+      const m = (r.stdout || "").match(/\{[\s\S]*\}/);
+      if (m) {
+        try { return JSON.parse(m[0]); }
+        catch (e) { lastErr = `JSON.parse 失败:${e.message}`; }
+      } else {
+        lastErr = `GLM 未返回 JSON:${(r.stdout || "").slice(0, 200)}`;
+      }
+    } else {
+      lastErr = `glm-ask 失败(exit ${r.status}):${(r.stderr || "").slice(0, 200)}`;
+    }
+    if (attempt < MAX) {
+      console.error(`  ⚠️ infer-speakers GLM 第 ${attempt}/${MAX} 次失败(${lastErr.slice(0, 80)}),3s 后重试`);
+      sleepSync(3000);
+    }
+  }
+  throw new Error(`GLM 连试 ${MAX} 次仍失败:${lastErr}`);
 }
 
 function main() {
