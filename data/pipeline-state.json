@@ -47,15 +47,15 @@
   "cutoffs": {
     "lennys": "2026-07-19T12:31:21.000Z",
     "pg": "2026-08-06T20:17:48.000Z",
-    "a16z": "2026-08-12T10:26:08.000Z",
+    "a16z": "2026-08-14T10:00:00.000Z",
     "yc": "2026-08-11T19:53:56.000Z",
     "mad": "2026-08-07T18:38:32.000Z",
     "trainingdata": "2026-08-04T09:00:00.000Z",
-    "bigtech": "2026-08-12T10:00:00.000Z",
+    "bigtech": "2026-08-14T21:00:00.000Z",
     "aia16z": "2026-08-07T16:32:00.000Z",
     "aiandi": "2026-08-05T16:02:39.000Z",
     "nopriors": "2026-08-13T17:29:00.000Z",
-    "thepeel": "2026-08-07T10:00:00.000Z"
+    "thepeel": "2026-08-14T16:59:05.000Z"
   },
   "skipped": [
     {
@@ -333,6 +333,24 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
       "pubDate": "2026-08-13T17:29:00.000Z"
+    },
+    {
+      "id": "2026-08-14-a16z-ben-horowitz-and-travis-kalanick-on-buil",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "pubDate": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "id": "2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Best of Big Technology: How Ozempic Changes Our Bodies, Minds, and Economy — With Johann Hari",
+      "pubDate": "2026-08-14T21:00:00.000Z"
+    },
+    {
+      "id": "2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Re-founding a Company for the AI Era | Shensi Ding, Merge",
+      "pubDate": "2026-08-14T16:59:05.000Z"
     }
   ]
 }
