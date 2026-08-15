@@ -8,7 +8,7 @@ import { writeFileSync, readFileSync, realpathSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { renderEpisode, samplePath } from "./render.mjs";
-import { loadAllEpisodes, relatedEpisodes, aggregate } from "./build-entities.mjs";
+import { loadAllEpisodes, relatedEpisodes, aggregate, mergeAwareAliasById } from "./build-entities.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -28,7 +28,10 @@ export function renderAllEpisodes(episodes, aliasById) {
     // 缺省从仓库读别名表 —— 写库 CLI 与 gate-all 重渲染比对共用本函数,必须同一份数据源
     try {
       const a = JSON.parse(readFileSync(resolve(ROOT, "data/aliases.json"), "utf8"));
-      aliasById = new Map((a.entities ?? []).map((e) => [e.id, e]));
+      // merge-aware:必须含 `_merge` 归并组,否则集页正文的权威 file 退化为「纯首见」,
+      // 与实体页(build-entities 走 mergeAwareAliasById)不一致 → 归并概念的双链变死链
+      // (drift #32/评测标准 死链根因:evals 首见=评测标准,实体页却聚到 评估)。
+      aliasById = mergeAwareAliasById(a);
     } catch (e) {
       // 别名表读不到 → 退化为纯首见权威(写库/gate-all 同走此分支,同源性不破);响一声不静默(GLM 20260724-001[3])
       console.warn(`⚠️ renderAllEpisodes:读 data/aliases.json 失败(${e.message})→ 权威名退化为纯首见`);
