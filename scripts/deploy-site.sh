@@ -77,8 +77,8 @@ echo "public/logos png=$(ls public/logos/*.png 2>/dev/null | wc -l | tr -d ' ')"
 #      Quartz 只出自家 index.xml,线上 /feed.xml 源头 404、订阅端只剩 CDN 幽灵)。
 #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。
 node ../scripts/build-feed.mjs --out public/feed.xml
-# feed 短缓存(drift #29:原遗留 s-maxage=7d 让新集最多 7 天才对播客 App 可见)。
-printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n' > public/_headers
+# feed 短缓存(drift #29:原遗留 s-maxage=7d 让新集最多 7 天才对播客 App 可见)。C26:JSON Feed 同缓存口径。
+printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n/feed.json\n  Cache-Control: public, max-age=3600, must-revalidate\n' > public/_headers
 # 部署前硬断言:feed 真在产物里且有 enclosure(Scenario 5 回归防护,防再次漏 feed 静默上线)。
 feed_n=$(grep -c '<enclosure' public/feed.xml || true)
 echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3 2>/dev/null | wc -l | tr -d ' '))"
@@ -87,5 +87,12 @@ echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3
 #      ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/;只列已发布集,自动同步。
 node ../scripts/build-llms.mjs --out public/llms.txt
 echo "public/llms.txt lines=$(wc -l < public/llms.txt | tr -d ' ')"
+# 3.7) C26 · JSON Feed(给 Agent + 现代 RSS 阅读器的中文精华全文订阅源)→ 站点根 /feed.json。
+#      同 build-feed/llms 口径:只列已发布集(samples/*.md),自动同步。
+node ../scripts/build-json-feed.mjs --out public/feed.json
+# 断言口径同 feed.xml 的 grep -c '<enclosure'(纯 grep、不起 node 子进程,更简、与相邻断言一致):每 item 一个 content_text。
+jf_n=$(grep -c '"content_text"' public/feed.json || true)
+echo "public/feed.json items(content_text)=$jf_n"
+[ "${jf_n:-0}" -gt 0 ] || { echo "::error::public/feed.json 无 items,拒绝部署(C26 订阅源必须随站点上线)"; exit 1; }
 # 4) 部署(CF API token,非交互;项目 voice-solomind)
 npx wrangler pages deploy public --project-name voice-solomind --branch main

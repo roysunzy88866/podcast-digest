@@ -2318,3 +2318,45 @@ Scenario: 引擎不降级 + 空查询交回 Quartz
 3. patch-site.mjs:读 search-history.js 内容,JSON.stringify 注入全站 Head(<title> 锚点,不撞默认浅色种子脚本)。
 4. 本地 build 浏览器实测:浮层外观/单栏无预览/高亮/历史记录+显示/清除回兜底/点药丸触发检索,console 无 JS 报错。
 5. story-map C25 行(🟡);待部署 + 用户线上真机验收。
+
+---
+
+## C26 · JSON Feed 全文订阅源(面向 Agent + RSS)· US-1/US-2 · ADR 0022
+
+**本片做什么**:新增 `/feed.json`(jsonfeed.org v1.1),让 Agent / 现代 RSS 阅读器能订阅并直接读到中文精华全文。不碰现有 `/feed.xml`(播客音频)、`/llms.txt`(目录)、pipeline、防失真闸门。
+
+Scenario: 订阅源存在且格式合法
+  Given 站点已部署
+  When 取 https://talk.solomind.cc/feed.json
+  Then 返回合法 JSON,version = "https://jsonfeed.org/version/1.1"
+  And title=站名、feed_url 指向自身、language=zh-CN、authors=[{name:站名}]
+
+Scenario: 每集一条 item,含中文精华全文
+  Given feed.json 已生成
+  Then 每条 item 有 id(=集页 URL)、url、title、content_text
+  And content_text = 该集 digest_md 全文(不是 tldr 摘要),summary = tldr
+  And 已发布集数(samples/*.md)与 items 数一致
+
+Scenario: 新精华置顶(按入库日排序)
+  Given 一集原集日期很旧但今天才入库(meta.added=今天)
+  Then 它排在 items 顶部(date_modified=入库日),不因原集日期旧而沉底
+  And date_published=原集日期(RFC3339),阅读器靠 item id 判新未读
+
+Scenario: 守版权红线
+  Then feed authors / 每条 item 均不标 PodcastEpisode/PodcastSeries(不冒充原播客本体)
+  And item.url 指本站集页(不用 external_url 把订阅者引走);诚实溯源在集页
+
+Scenario: 分类标签与站点一致
+  Then item.tags = 该集大类(源 render.mjs episodeCategories,与首页卡片 chip 同源),无「未分类」
+
+Scenario: 订阅源随站上线、缓存合理
+  Given deploy-site 跑完
+  Then public/feed.json 存在且 items>0(部署前硬断言,否则拒绝部署)
+  And _headers 给 /feed.json 配 max-age=3600, must-revalidate(同 /feed.xml)
+
+### DoD(C26)
+1. seo.mjs:纯函数 buildJsonFeed(episodes)(+ toRfc3339)输出 JSON Feed v1.1;content_text=全文、summary=tldr、added 降序、date_published=原集日期、authors=本站。
+2. scripts/build-json-feed.mjs:collectPublishedFull 采 samples/*.md 已发布集(meta+digest+entities),分类走 render.mjs episodeCategories;--out 写 public/feed.json。
+3. deploy-site.sh:build-json-feed 一步 + _headers 加 /feed.json 缓存 + 部署前断言 items>0。
+4. tests/build-json-feed.test.ts:结构/全文/排序/日期/版权/tags/空输入 + collectPublishedFull 真库采集,全绿(与 seo.test 合计 30 测)。
+5. 线上 curl /feed.json 校验:合法 JSON + version + 全文 + items 数;story-map C26(🟡);待用户线上验收。

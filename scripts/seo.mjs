@@ -111,3 +111,48 @@ export function buildLlmsTxt(episodes, { baseUrl = SITE_URL, siteName = SITE_NAM
   lines.push("");
   return lines.join("\n");
 }
+
+/** YYYY-MM-DD(或其前缀)→ RFC3339;认不出返回 undefined(JSON Feed date_* 必须 RFC3339)。 */
+export function toRfc3339(d) {
+  const m = String(d ?? "").trim().match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}T00:00:00Z` : undefined;
+}
+
+/**
+ * JSON Feed(jsonfeed.org v1.1):面向 Agent + 现代 RSS 阅读器(Feedly/Inoreader/NetNewsWire…)的订阅源。
+ * content_text = 中文精华全文(digest_md,markdown 原样)—— agent 友好、不引 md→html 渲染依赖(简到极致)。
+ * 排序:按 added(入库日)降序 → 新精华置顶(同首页「最新」口径,drift #47);
+ *   date_published = 原集日期(同播客 feed.xml,内容的真实发布日),date_modified = 入库日(≠原集日才写)。
+ * 版权:authors = 本站(我们写的中文精华),不冒充原播客;honest 溯源在集页 isBasedOn,feed 不劫持主链接。
+ * 入参:[{ title, slug, date, added?, description(tldr)?, content(digest_md)?, tags?[], image? }]
+ */
+export function buildJsonFeed(episodes, { baseUrl = SITE_URL, siteName = SITE_NAME, siteDesc = SITE_DESC } = {}) {
+  const sorted = [...episodes].sort(
+    (a, b) => String(b.added ?? b.date ?? "").localeCompare(String(a.added ?? a.date ?? "")),
+  );
+  const items = sorted.map((e) => {
+    const url = canonicalUrl(baseUrl, e.slug);
+    const pub = toRfc3339(e.date);
+    const mod = toRfc3339(e.added);
+    const item = { id: url, url, title: String(e.title ?? "") };
+    if (e.description) item.summary = String(e.description);
+    item.content_text = String(e.content || e.description || e.title || "");
+    if (pub) item.date_published = pub;
+    if (mod && mod !== pub) item.date_modified = mod;
+    if (e.image) item.image = absUrl(baseUrl, e.image);
+    const tags = (e.tags ?? []).filter(Boolean);
+    if (tags.length) item.tags = tags;
+    return item;
+  });
+  const feed = {
+    version: "https://jsonfeed.org/version/1.1",
+    title: siteName,
+    home_page_url: canonicalUrl(baseUrl, ""),
+    feed_url: `${stripTrailing(baseUrl)}/feed.json`,
+    description: siteDesc,
+    language: "zh-CN",
+    authors: [{ name: siteName }],
+    items,
+  };
+  return JSON.stringify(feed, null, 2) + "\n";
+}
