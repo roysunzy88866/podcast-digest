@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":79,"AX":1,"DX":3,"沙箱":18,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":80,"AX":1,"DX":3,"沙箱":19,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

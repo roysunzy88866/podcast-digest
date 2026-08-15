@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":5,"Neon":2,"Parallel":2,"智能体":79,"沙箱":18,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":5,"Neon":2,"Parallel":2,"智能体":80,"沙箱":19,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

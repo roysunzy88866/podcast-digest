@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":79,"构建者":2,"可观测性":4,"对话分析":1,"评估":9,"维度思维":1,"ChatGPT":15,"Cursor":14,"OpenAI":35}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":80,"构建者":2,"可观测性":5,"对话分析":1,"评估":9,"维度思维":1,"ChatGPT":15,"Cursor":14,"OpenAI":35}</script>
 
 <script>
 (function(){

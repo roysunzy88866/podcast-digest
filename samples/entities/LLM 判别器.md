@@ -43,7 +43,7 @@ unlisted: true
 
 [[Lenny]] · [[Hamel Husain]] · [[Shreya Shankar]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[智能体]] · [[trace]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":44,"Hamel Husain":1,"Shreya Shankar":1,"评估":9,"错误分析":1,"开放式编码":1,"轴向编码":1,"智能体":79,"trace":1,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Hamel Husain":1,"Shreya Shankar":1,"评估":9,"错误分析":1,"开放式编码":1,"轴向编码":1,"智能体":80,"trace":1,"Anthropic":45}</script>
 
 <script>
 (function(){

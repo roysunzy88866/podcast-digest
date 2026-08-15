@@ -7,13 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PLG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(05:17起):本集把它说成:产品驱动增长的模式(即小企业游戏)。嘉宾警告:如果是 PLG 公司遇到大企业主动上门,绝不能按小企业的低价卖给他们,否则会毁掉企业级扩张的可能。
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(02:23起):被描述为 SaaS 公司起盘的重要引擎，但具有天花板（极少有人通过纯自助购买上百万美元订单）。建议企业不要在 PLG 上等待太久，应及时叠加可复制的销售流程。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(31:52起):本集把它说成是过去 15 年主导软件行业的“产品驱动增长”模式（自下而上获客），但随着 AI 兴起和买方寻求根本性新方案，现在到了再次去卖大型平台软件的时机。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#^q6]]
 
 ## ② 出现在这些集
 

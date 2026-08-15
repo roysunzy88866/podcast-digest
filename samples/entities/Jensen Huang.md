@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":16,"深度学习":3,"智能体":79,"沙箱":18,"Condi Rice":1,"测试框架":10,"Jerry":1,"GPU":3,"前沿模型":3,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":16,"深度学习":3,"智能体":80,"沙箱":19,"Condi Rice":1,"测试框架":10,"Jerry":1,"GPU":3,"前沿模型":3,"Sega":1}</script>
 
 <script>
 (function(){

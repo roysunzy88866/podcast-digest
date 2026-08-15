@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":10,"智能体":79,"智能体网络":1,"MCP":9,"缩放定律":2,"康威定律":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":10,"智能体":80,"智能体网络":1,"MCP":10,"缩放定律":2,"康威定律":1}</script>
 
 <script>
 (function(){

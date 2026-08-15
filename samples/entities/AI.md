@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>91</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>92</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,7 +18,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*91 条,均已过机器闸门*
+*92 条,均已过机器闸门*
 
 ![[2025-09-21-lennys-from-managing-people-to-managing-ai-juli#^q2]]
 
@@ -201,6 +201,8 @@ unlisted: true
 ![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q5]]
 
 ![[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir#^q2]]
+
+![[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#^q3]]
 
 ## ② 出现在这些集
 

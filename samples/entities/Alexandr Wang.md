@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":1,"Meta":13,"MuseSpark":1,"开源模型":5,"智能体":79,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":9,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":1,"Meta":13,"MuseSpark":1,"开源模型":5,"智能体":80,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":9,"Spark API":1}</script>
 
 <script>
 (function(){

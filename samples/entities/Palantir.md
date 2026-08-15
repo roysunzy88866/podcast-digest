@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[前向部署工程师]] · [[开源模型]] · [[Meta]] · [[Jen Abel]] · [[Jensen Wong]] · [[Sarah Wang]] · [[Alexandr Wang]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":35,"Anthropic":45,"智能体":79,"前向部署工程师":5,"开源模型":5,"Meta":13,"Jen Abel":1,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":35,"Anthropic":45,"智能体":80,"前向部署工程师":5,"开源模型":5,"Meta":13,"Jen Abel":1,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1}</script>
 
 <script>
 (function(){

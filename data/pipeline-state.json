@@ -45,7 +45,7 @@
   "cutoffs": {
     "lennys": "2026-07-19T12:31:21.000Z",
     "pg": "2026-08-06T20:17:48.000Z",
-    "a16z": "2026-08-14T09:59:59.000Z",
+    "a16z": "2026-08-14T10:00:00.000Z",
     "yc": "2026-08-11T19:53:56.000Z",
     "mad": "2026-08-07T18:38:32.000Z",
     "trainingdata": "2026-08-04T09:00:00.000Z",
@@ -53,7 +53,7 @@
     "aia16z": "2026-08-07T16:32:00.000Z",
     "aiandi": "2026-08-05T16:02:39.000Z",
     "nopriors": "2026-08-13T17:29:00.000Z",
-    "thepeel": "2026-08-14T16:59:04.000Z"
+    "thepeel": "2026-08-14T16:59:05.000Z"
   },
   "skipped": [
     {
@@ -337,6 +337,12 @@
       "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
       "title": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
       "pubDate": "2025-10-09T11:03:40.000Z"
+    },
+    {
+      "id": "2026-08-14-a16z-ben-horowitz-and-travis-kalanick-on-buil",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "pubDate": "2026-08-14T10:00:00.000Z"
     }
   ]
 }

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]] [[Dylan]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":45,"智能体":79,"测试框架":10,"沙箱":18,"智能体循环":1,"上下文工程":4,"会话日志追踪":1,"泄露的凭证":3,"可观测性":4}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":45,"智能体":80,"测试框架":10,"沙箱":19,"智能体循环":1,"上下文工程":4,"会话日志追踪":1,"泄露的凭证":3,"可观测性":5}</script>
 
 <script>
 (function(){

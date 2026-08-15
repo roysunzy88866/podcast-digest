@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Idan Gazit]] [[Dylan]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Idan Gazit]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":45,"Claude 认证架构师考试":1,"智能体":79,"循环":2,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"模型上下文协议":1,"Claude Code":21}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":45,"Claude 认证架构师考试":1,"智能体":80,"循环":2,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"模型上下文协议":1,"Claude Code":21}</script>
 
 <script>
 (function(){

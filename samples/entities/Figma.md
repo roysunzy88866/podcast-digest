@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[GitHub]] · [[Lenny]] · [[Claude Code]] · [[Notion]] · [[MCP]] · [[Dylan Field]] · [[Anthropic]] · [[Cursor]] · [[品味]]
 
-<script type="application/json" class="pd-epn">{"智能体":79,"GitHub":13,"Lenny":44,"Claude Code":21,"Notion":5,"MCP":9,"Dylan Field":2,"Anthropic":45,"Cursor":14,"品味":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":80,"GitHub":13,"Lenny":44,"Claude Code":21,"Notion":5,"MCP":10,"Dylan Field":2,"Anthropic":45,"Cursor":14,"品味":5}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":44,"Shreya Shankar":1,"评估":9,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":1,"智能体":79,"trace":1,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Shreya Shankar":1,"评估":9,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":1,"智能体":80,"trace":1,"Anthropic":45}</script>
 
 <script>
 (function(){
