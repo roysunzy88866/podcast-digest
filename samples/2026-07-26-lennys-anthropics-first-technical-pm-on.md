@@ -11,14 +11,14 @@ description: "从金门大桥模型到 Opus 4.5,Diane 讲述了 Anthropic 的产
 host: "[[Dianne Penn]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Anthropic]]"]
-concepts: ["[[Claude]]", "[[Claude Code]]", "[[评测标准]]", "[[涌现能力]]", "[[金门大桥版 Claude]]", "[[前沿模型]]", "[[技能]]", "[[PRD]]", "[[智能体]]", "[[Labs]]"]
+concepts: ["[[Claude]]", "[[Claude Code]]", "[[评估]]", "[[涌现能力]]", "[[金门大桥版 Claude]]", "[[前沿模型]]", "[[技能]]", "[[PRD]]", "[[智能体]]", "[[Labs]]"]
 category: 产品方法
 tags:
   - 产品方法
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-07-26-lennys-anthropics-first-technical-pm-on.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on#post","headline":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","mainEntityOfPage":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","description":"从金门大桥模型到 Opus 4.5,Diane 讲述了 Anthropic 的产品哲学:贴近细节、公开实验、为用户的真实想法写评估。","datePublished":"2026-07-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-26-lennys-anthropics-first-technical-pm-on.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on","about":[{"@type":"Person","name":"Dianne Penn"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"评测标准 (evals)"},{"@type":"Thing","name":"涌现能力 (emerging capabilities)"},{"@type":"Thing","name":"金门大桥版 Claude (Golden Gate Claude)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"技能 (skills)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agentic)"},{"@type":"Thing","name":"Labs"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","item":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on#post","headline":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","mainEntityOfPage":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","description":"从金门大桥模型到 Opus 4.5,Diane 讲述了 Anthropic 的产品哲学:贴近细节、公开实验、为用户的真实想法写评估。","datePublished":"2026-07-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-26-lennys-anthropics-first-technical-pm-on.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on","about":[{"@type":"Person","name":"Dianne Penn"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"涌现能力 (emerging capabilities)"},{"@type":"Thing","name":"金门大桥版 Claude (Golden Gate Claude)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"技能 (skills)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agentic)"},{"@type":"Thing","name":"Labs"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","item":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Anthropic]]
 >
-> **概念** [[Claude]] · [[Claude Code]] · [[评测标准]] · [[涌现能力]] · [[金门大桥版 Claude]] · [[前沿模型]] · [[技能]] · [[PRD]] · [[智能体]] · [[Labs]]
+> **概念** [[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[金门大桥版 Claude]] · [[前沿模型]] · [[技能]] · [[PRD]] · [[智能体]] · [[Labs]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on)
 
@@ -44,7 +44,7 @@ jsonLd: |
 
 如果你正在用 AI,最该担心的反而是它对你句句附和——在 [[Anthropic|Anthropic]] 的产品负责人 Diane 看来,真正有用的 AI 不是百依百顺的执行者,而是会在你想法不成熟时果断反驳你的陪练伙伴。
 
-这一集 YC 的对谈里,Diane 讲了五件事:Anthropic 早期是怎么从做聊天助手一步步找到自己独特身份的;身处 AI 飞速进步的指数曲线内部,团队如何靠「[[评测标准|评估]]」和敏捷适应来跟上变化;她负责的 [[Labs|Labs]](孵化团队)为什么能在核心产品线之外变出 [[Claude Code|Claude Code]] 和 MCP 这种重磅炸弹;AI 时代的产品经理到底该怎么干——连管理者都必须亲自下场写代码;最后她分享了怎么在日常工作中把 [[Claude|Claude]] 当作提升判断力和情商的私人教练。
+这一集 YC 的对谈里,Diane 讲了五件事:Anthropic 早期是怎么从做聊天助手一步步找到自己独特身份的;身处 AI 飞速进步的指数曲线内部,团队如何靠「[[评估|评估]]」和敏捷适应来跟上变化;她负责的 [[Labs|Labs]](孵化团队)为什么能在核心产品线之外变出 [[Claude Code|Claude Code]] 和 MCP 这种重磅炸弹;AI 时代的产品经理到底该怎么干——连管理者都必须亲自下场写代码;最后她分享了怎么在日常工作中把 [[Claude|Claude]] 当作提升判断力和情商的私人教练。
 
 回到 Anthropic 早期,Diane 是 2023 年作为首位技术产品经理加入的,当时产品团队只有五名工程师,整个 API 业务只有一个人在撑。那时候大家都在想一个问题:面对遥遥领先的 OpenAI,为什么用户要选 Claude? <button class="pd-ts" data-t="04:04" data-who="Diane" data-en="There was one engineer for the entirety of our API business, if you believe. And I think a big portion of it was the culture was really strong. And I think this is something I emphasize for folks who are interested in the company, really do walk the walk of the mission and the culture and the values." aria-label="回原文"></button> 
 

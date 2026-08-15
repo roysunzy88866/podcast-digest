@@ -10,14 +10,14 @@ image: "/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg"
 description: 管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者
 host: "[[Julie Zhuo]]"
 companies: ["[[Sundial]]"]
-concepts: ["[[智能体]]", "[[构建者]]", "[[可观测性]]", "[[对话分析]]", "[[评测标准]]", "[[维度思维]]"]
+concepts: ["[[智能体]]", "[[构建者]]", "[[可观测性]]", "[[对话分析]]", "[[评估]]", "[[维度思维]]"]
 category: 智能体
 tags:
   - 智能体
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli#post","headline":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","mainEntityOfPage":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","description":"管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者","datePublished":"2025-09-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo","about":[{"@type":"Person","name":"Julie Zhuo"},{"@type":"Organization","name":"Sundial"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"对话分析 (conversational analytics)"},{"@type":"Thing","name":"评测标准 (evals)"},{"@type":"Thing","name":"维度思维 (dimensionality)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","item":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli#post","headline":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","mainEntityOfPage":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","description":"管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者","datePublished":"2025-09-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo","about":[{"@type":"Person","name":"Julie Zhuo"},{"@type":"Organization","name":"Sundial"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"对话分析 (conversational analytics)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"维度思维 (dimensionality)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","item":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Julie Zhuo：管理者的核心技能，就是驾驭AI的技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Sundial]]
 >
-> **概念** [[智能体]] · [[构建者]] · [[可观测性]] · [[对话分析]] · [[评测标准]] · [[维度思维]]
+> **概念** [[智能体]] · [[构建者]] · [[可观测性]] · [[对话分析]] · [[评估]] · [[维度思维]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo)
 
@@ -51,7 +51,7 @@ jsonLd: |
 
 这里面最核心、也最被低估的技能是：**把成功标准定义到极其具体**。这不是写 prompt 的技巧问题，而是一个管理基本功——很多大公司对不齐，根因就是不同人对"成功长什么样"想象得不一样 <button class="pd-ts" data-t="12:36" data-who="Julie Zhuo" data-en="I think a lot of times when you talk about why is alignment so difficult at a big company, it often comes down to this question," aria-label="回原文"></button>。
 
-你跟智能体说"做一个很棒的产品"，跟跟团队说"我们要做得很好"一样无效。你得具体到没有任何歧义，这就是为什么 evals（[[评测标准|评测标准]]）这么重要——它在帮你对齐客观标准 <button class="pd-ts" data-t="13:17" data-who="Julie Zhuo" data-en="success and failure looks like is a lot of the game. And I think this also relates to things like, well, that's why we have to write evals. And that's why they're so important because they're helping us understand what is" aria-label="回原文"></button>。如果你自己都不清楚成功什么样，prompt 写不出来，团队也带不好 <button class="pd-ts" data-t="13:50" data-who="Julie Zhuo" data-en="And I think it's really an art more than it is like a science, but that's like the first thing. I think if you're really unclear about what success looks like, the prompt," aria-label="回原文"></button>。
+你跟智能体说"做一个很棒的产品"，跟跟团队说"我们要做得很好"一样无效。你得具体到没有任何歧义，这就是为什么 evals（[[评估|评测标准]]）这么重要——它在帮你对齐客观标准 <button class="pd-ts" data-t="13:17" data-who="Julie Zhuo" data-en="success and failure looks like is a lot of the game. And I think this also relates to things like, well, that's why we have to write evals. And that's why they're so important because they're helping us understand what is" aria-label="回原文"></button>。如果你自己都不清楚成功什么样，prompt 写不出来，团队也带不好 <button class="pd-ts" data-t="13:50" data-who="Julie Zhuo" data-en="And I think it's really an art more than it is like a science, but that's like the first thing. I think if you're really unclear about what success looks like, the prompt," aria-label="回原文"></button>。
 
 ## 小团队、无角色边界：Sundial 的实际做法
 
