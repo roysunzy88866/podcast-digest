@@ -1,6 +1,6 @@
 // condense 的 JSON 提取容错(C7b lab E2E 逼出:GLM 把长 digest_md 的真换行直接塞进 JSON 字符串→控制字符非法)
 import { describe, it, expect } from "vitest";
-import { escapeCtrlInStrings, extractJson } from "../scripts/condense.mjs";
+import { escapeCtrlInStrings, extractJson, parseSections } from "../scripts/condense.mjs";
 
 describe("escapeCtrlInStrings", () => {
   it("转义字符串内的裸换行/Tab,结构空白不动", () => {
@@ -45,6 +45,61 @@ describe("extractJson", () => {
   });
   it("彻底不是 JSON → null", () => {
     expect(extractJson("这里没有大括号")).toBeNull();
+  });
+});
+
+// ── 2026-08-15 根治:GLM 分段纯文本输出 → parseSections(避免大段 markdown 塞 JSON 被撑坏)──
+describe("parseSections（分隔符分段,不塞 JSON）", () => {
+  const sample = `===标题===
+Block 的 AI 变革
+===导语===
+CTO 谈重组与智能体。
+===正文===
+许多人认为代码质量是关键,但二者"毫无关系" [01:29 Dhanji]。
+
+## 本集带走
+- 决策者自己先用起来
+===金句===
+01:29 | Dhanji Prasanna
+EN | A lot of engineers think "code quality" matters.
+ZH | 很多人认为"代码质量"重要。
+
+85:51 | Dhanji
+EN | The internet was a promise.
+ZH | 互联网是一个承诺。
+===END===`;
+
+  it("四段解析出对象,digest_md 保留裸引号/[标注]/换行/## 本集带走 原样", () => {
+    const o = parseSections(sample)!;
+    expect(o.title_zh).toBe("Block 的 AI 变革");
+    expect(o.tldr).toBe("CTO 谈重组与智能体。");
+    expect(o.digest_md).toContain('"毫无关系"');
+    expect(o.digest_md).toContain("[01:29 Dhanji]");
+    expect(o.digest_md).toContain("## 本集带走");
+  });
+
+  it("金句每条三行 → {timestamp,speaker,en,zh};英文内的裸引号照留", () => {
+    const o = parseSections(sample)!;
+    expect(o.quotes).toHaveLength(2);
+    expect(o.quotes[0]).toEqual({ timestamp: "01:29", speaker: "Dhanji Prasanna", en: 'A lot of engineers think "code quality" matters.', zh: '很多人认为"代码质量"重要。' });
+    expect(o.quotes[1].timestamp).toBe("85:51");
+  });
+
+  it("★★★ 程序化 JSON.stringify 往返成功(下游 digest.json 合法,内层引号由 JS 正确转义)", () => {
+    const o = parseSections(sample)!;
+    const back = JSON.parse(JSON.stringify(o));
+    expect(back.quotes[0].en).toContain('"code quality"');
+    expect(back.digest_md).toContain('"毫无关系"');
+  });
+
+  it("缺段(没有 ===金句===) → null;非分段格式(JSON)→ null(交 extractJson 兜底)", () => {
+    expect(parseSections("===标题===\nX\n===导语===\nY\n===正文===\nZ\n===END===")).toBeNull();
+    expect(parseSections('{"title_zh":"x"}')).toBeNull();
+  });
+
+  it("容错:GLM 偶尔包一层 ``` 围栏也能剥", () => {
+    const o = parseSections("```\n" + sample + "\n```");
+    expect(o?.title_zh).toBe("Block 的 AI 变革");
   });
 });
 

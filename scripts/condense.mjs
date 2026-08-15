@@ -89,6 +89,46 @@ export function extractJson(text) {
 }
 
 /**
+ * 分隔符分段解析(2026-08-15 根治,用户拍板)。
+ * 背景:GLM 把大段 markdown(digest_md,含引号/裸换行/`[mm:ss 说话人]` 方括号标注)塞进 JSON 字符串,
+ * 会被撑成结构性损坏(实测 GLM-5.3 多吐一个 `]`,连 jsonrepair 都救不回)。故改让 GLM **分段纯文本输出**,
+ * 这里解析成对象;main 再程序化 `JSON.stringify` 写 digest.json → 转义交给 JS、下游读的 digest.json 格式不变。
+ * 返回 {title_zh, tldr, digest_md, quotes:[{en,zh,timestamp,speaker}]};缺任一段 → null(交 extractJson 兜底/重试)。
+ */
+export function parseSections(text) {
+  if (!text) return null;
+  let t = String(text).replace(/\r\n/g, "\n").trim();
+  const fence = t.match(/```[a-z]*\n([\s\S]*?)```/i); // GLM 偶尔仍包一层围栏
+  if (fence && /===\s*标题\s*===/.test(fence[1])) t = fence[1];
+  if (!/===\s*标题\s*===/.test(t)) return null; // 不是分段格式 → 让 extractJson 兜底
+  const grab = (name, next) => {
+    const m = t.match(new RegExp(`===\\s*${name}\\s*===[ \\t]*\\n([\\s\\S]*?)(?=\\n===\\s*(?:${next})\\s*===)`));
+    return m ? m[1] : null;
+  };
+  const title_zh = (grab("标题", "导语|正文|金句|END") || "").trim();
+  const tldr = (grab("导语", "正文|金句|END") || "").trim();
+  const digest_md = grab("正文", "金句|END");
+  const quotesRaw = grab("金句", "END");
+  if (!title_zh || !tldr || !digest_md || quotesRaw == null) return null;
+  const quotes = [];
+  for (const block of quotesRaw.split(/\n[ \t]*\n/)) {
+    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+    const tsL = lines.find((l) => /^\d{1,3}:\d{2}\s*\|/.test(l));
+    const enL = lines.find((l) => /^EN\s*\|/i.test(l));
+    const zhL = lines.find((l) => /^ZH\s*\|/i.test(l));
+    if (!tsL || !enL || !zhL) continue;
+    const [tsPart, ...spRest] = tsL.split("|");
+    quotes.push({
+      timestamp: tsPart.trim(),
+      speaker: spRest.join("|").trim(),
+      en: enL.replace(/^EN\s*\|\s?/i, "").trim(),
+      zh: zhL.replace(/^ZH\s*\|\s?/i, "").trim(),
+    });
+  }
+  return { title_zh, tldr, digest_md: digest_md.trim(), quotes };
+}
+
+/**
  * C15 口语体机器卡点(2026-07-30 用户拍板,Gherkin 见 docs/user-stories.md「C15」)。
  * 只卡客观可判的:标签字样 / 书面自称 / 工程备注 / 带走小节缺失 / 开头是标题;
  * (带走「列表腔」原也卡,ADR 0020「实质优先」起放开 —— 带走=可带走的几条具体要点,允许列表)
@@ -142,13 +182,13 @@ export function validate(o) {
 export async function condenseWithRetry({ sys, input, ask, maxRetry = MAX_RETRY, saveGood, saveBad, log = console.log, warn = console.error, label = "" }) {
   let obj = null, nudge = "";
   for (let attempt = 0; attempt <= maxRetry && !obj; attempt++) {
-    log(`浓缩:GLM-5.2 整读${label}… (第 ${attempt + 1} 次)`);
+    log(`浓缩:GLM 整读${label}… (第 ${attempt + 1} 次)`);
     const raw = await ask(sys, input + nudge);
-    const cand = extractJson(raw);
-    const errs = cand ? [...validate(cand), ...styleErrs(cand.digest_md)] : ["非合法 JSON"];
+    const cand = parseSections(raw) || extractJson(raw); // 分段格式为主,旧 JSON 缓存/偶发 JSON 兜底
+    const errs = cand ? [...validate(cand), ...styleErrs(cand.digest_md)] : ["格式解析失败(未识别分段/JSON)"];
     if (errs.length === 0) { obj = cand; saveGood?.(raw); break; }
     saveBad?.(raw);
-    nudge = `\n\n【上一次你的输出被机器闸门打回,原因:${errs.join(";")}。请照规则修正后重出:规则一条不放宽,只输出修正后的那一个 JSON 对象。】`;
+    nudge = `\n\n【上一次你的输出被机器闸门打回,原因:${errs.join(";")}。请照 system 里的分段格式(===标题=== / ===导语=== / ===正文=== / ===金句=== / ===END===)修正后重出,规则一条不放宽,只输出修正后的分段内容、不要前言后语。】`;
     warn(`  第 ${attempt + 1} 次输出不合格(${errs.join(" / ")})${attempt < maxRetry ? ",重试" : ""}`);
   }
   return obj;
@@ -182,7 +222,8 @@ async function main() {
   // 缓存路径只查 validate 不查 styleErrs:C15 口语体只对**新浓缩**生效(Gherkin「存量集不自动回刷」),
   // C14 补活吃缓存不重烧钱——老缓存老腔调照用,回刷另拍。
   if (process.env.FORCE !== "1" && existsSync(cacheFile)) {
-    const cached = extractJson(readFileSync(cacheFile, "utf8"));
+    const cachedRaw = readFileSync(cacheFile, "utf8");
+    const cached = parseSections(cachedRaw) || extractJson(cachedRaw); // 新分段缓存走 parseSections,旧 JSON 缓存走 extractJson
     if (cached && validate(cached).length === 0) {
       obj = cached;
       console.log("(用 .digest-raw.txt 缓存)");
