@@ -346,19 +346,10 @@ export const scriptBlock = () => squashBlankLines(`<script>
              || document.querySelector(sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进左栏 —— 但**左栏在窄屏是整块 display:none 的**,槽跟着一起没了。
-    // 所以只在槽真的看得见时才搬进去,看不见就退回顶栏(= 本片之前的位置)。
-    // 🔒 #2 亮暗双模式任何屏宽都必须有入口,不许因为版面改动而消失。
-    // ⚠️ 判「看不看得见」要看**槽的父容器**,不能看槽自己:槽一开始是空的,
-    // .pd-themesw:empty 那条 display:none 让它自己永远量出 0 → 一判就是「看不见」,
-    // 于是桌面端也会错误地退回顶栏(自己给自己下的套,实测逮到)。
-    function shown(el){ return !!(el && (el.offsetWidth || el.offsetHeight || el.getClientRects().length)); }
-    var slots=[].slice.call(document.querySelectorAll('.pd .pd-themesw'));
-    var sw=null;
-    for(var i=0;i<slots.length;i++){ if(shown(slots[i].parentElement)){ sw=slots[i]; break; } }
-    grab('.darkmode', sw || acts);
+    // 2026-08-15 用户条3:搜索 + 深浅色都进顶栏(撤 C13f #3「深色进左栏」);
+    // 顺序 分享/收藏/深色/搜索 由 custom.scss order 排(首页无分享/收藏,即 深色/搜索)。
+    // 阅读模式仍不并入。搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function(sel){ grab(sel,acts); });
   }
   // C13f #1:日期组标说人话。构建期只能写死日期原文(产物要可复现),
   // 「今天/昨天」是**读者的**今天 → 只能在浏览器里换。整串相等才换,不做前缀匹配。

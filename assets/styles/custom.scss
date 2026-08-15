@@ -292,6 +292,32 @@ body[data-slug^="tags/"] {
   .pd-acts .search-button p { display: none; } /* 隐藏「搜索」文字,只留放大镜图标 */
   .pd-acts .search-button svg { width: 19px; height: 19px; margin: 0; }
   .pd-acts .search-button:hover { background: var(--B1); }
+  /* 深浅色进顶栏(2026-08-15 用户条8):图标态,和分享/收藏/搜索并排;顺序 分享/收藏/深色/搜索
+     靠 order(分享/收藏 DOM 序 0,深色 1,搜索 2)。图标用设计稿半明半暗圆(隐 Quartz 太阳/月亮)。 */
+  .pd-acts .darkmode {
+    order: 1;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--B6);
+    background: none;
+    border: 0;
+  }
+  .pd-acts .darkmode:hover { background: var(--B1); }
+  .pd-acts .darkmode svg { display: none; }
+  .pd-acts .darkmode:after { content: none; }
+  .pd-acts .darkmode:before {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
   .pd-acts svg { color: var(--B6); }
   .pd-acts svg:hover { color: var(--B8); }
 
@@ -950,6 +976,16 @@ body:has(.pd-play) {
       color: var(--pd-accent);
       border-left-color: var(--pd-accent);
       font-weight: 600;
+    }
+    /* 条7(2026-08-15 用户:目录旁箭头太大太突兀、没对齐):Quartz toc 折叠箭头 svg.fold 默认 24px
+       → 缩到 13px + 与「目录」标题同一水平 + 同下间距对齐 + 淡化成次要灰。 */
+    .toc-header { display: flex; align-items: center; }
+    .toc-header .fold {
+      width: 13px;
+      height: 13px;
+      color: var(--B5);
+      margin: 0 0 10px 6px;
+      flex: 0 0 auto;
     }
     /* 搬进右栏的「这一集涉及」:去掉 callout 的框和图标,压成右栏那种清淡列表 */
     .pd-rel h3 {

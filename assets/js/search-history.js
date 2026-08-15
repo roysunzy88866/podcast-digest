@@ -114,6 +114,19 @@
     true,
   );
 
+  // 2026-08-15 用户:鼠标在搜索结果上移动,背后页面会动。根因=Quartz onResultsMouseover→
+  // setFocus→scrollIntoView,结果区不够高不滚时它去滚了全屏浮层容器,视觉上背后动。
+  // 捕获阶段拦掉结果区 mouseover,阻止 Quartz 的 hover 聚焦(纯鼠标高亮,不影响键盘上下导航)。
+  document.addEventListener(
+    "mouseover",
+    function (e) {
+      if (e.target.closest && e.target.closest(".search-layout .results-container .result-card")) {
+        e.stopPropagation();
+      }
+    },
+    true,
+  );
+
   // 点结果卡记录、清除、药丸——同样用捕获阶段,抢在 Quartz onResultsClick(hideSearch)之前。
   document.addEventListener(
     "click",
