@@ -148,6 +148,7 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
   // 真开关是 Quartz 的 .darkmode 节点,由 scriptBlock 搬进来(🔒 #2 亮暗双模式的行为
   // 在 Quartz 手里,复刻一份必然走样,同 🔒 #9 搜索那条的手法)。
   return `<div class="pd-left">
+    <button class="pd-myfav" type="button"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><span>我的收藏</span><i></i></button>
     <div class="sh">全部主题</div>
     <a class="cl${active ? "" : " on"}" href="${active ? ".." : "."}/"><span>全部</span><i>${episodes.length}</i></a>
     ${rows}
@@ -500,6 +501,27 @@ export const scriptBlock = () => squashBlankLines(`<script>
   // 跨断点缩放:左栏出现/消失后,深浅色开关要搬到当前看得见的那个位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
   init();
+})();
+(function(){
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function favs(){try{return JSON.parse(localStorage.getItem('pd-favs')||'{}');}catch(e){return {};}}
+  function upd(){var i=document.querySelector('.pd-myfav i');if(i){var n=Object.keys(favs()).length;i.textContent=n||'';}}
+  function openFav(){
+    var keys=Object.keys(favs());
+    var byId={};[].slice.call(document.querySelectorAll('.card')).forEach(function(c){byId['/'+c.dataset.slug]=c;});
+    var ov=document.createElement('div');ov.className='pd-favov';
+    var h='<div class="pd-favbox"><div class="pd-favhd">我的收藏 <b>'+keys.length+'</b></div>';
+    if(!keys.length){h+='<div class="pd-favempty">还没有收藏。在任意文章页点顶栏 ♡ 即可收藏。</div>';}
+    else{h+='<div class="pd-favlist">';keys.forEach(function(k){var c=byId[k];var t=c&&c.querySelector('.t')?c.querySelector('.t').textContent.trim():k;h+='<a class="pd-favi" href="'+k+'">'+esc(t)+'</a>';});h+='</div>';}
+    ov.innerHTML=h+'</div>';
+    function closeFav(){ov.remove();document.removeEventListener('keydown',onEsc);}
+    function onEsc(ev){if(ev.key==='Escape')closeFav();}
+    ov.addEventListener('click',function(e){if(e.target===ov||(e.target.closest&&e.target.closest('.pd-favi')))closeFav();});
+    document.addEventListener('keydown',onEsc);
+    document.body.appendChild(ov);
+  }
+  document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.pd-myfav')){e.preventDefault();openFav();}});
+  document.addEventListener('nav',upd);upd();
 })();
 </script>`);
 

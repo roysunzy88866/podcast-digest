@@ -258,13 +258,20 @@ body[data-slug^="tags/"] {
   .pd-nav .soon { color: var(--B5); cursor: default; }
 
   /* 顶栏右侧:搬进来的 Quartz 搜索/深浅色/阅读模式(设计稿 .acts/.ico 的位置与手感) */
+  /* 2026-08-15 用户条3/5:顶栏图标组左边缘对齐右栏(主页「按公司」/ 详情页「目录」)。
+     图标组占右栏列宽(width=右栏列宽−左内边距,变量按页自适配:主页 290/24、详情页 282/32),
+     margin-left:auto 把整组推到右栏那一列,justify flex-start 让图标从右栏左边缘起排。 */
   .pd-acts {
     margin-left: auto;
+    width: calc(var(--pd-railw) - var(--pd-railpad));
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 8px;
     color: var(--B6);
   }
+  /* 首图标有 6px 内边距,抵消它让图标 svg 左边缘 = 右栏标题左边缘 */
+  .pd-acts > :first-child { margin-left: -6px; }
   .pd-acts .search,
   .pd-acts .darkmode {
     margin: 0;
@@ -1474,6 +1481,13 @@ body[data-slug^="entities/"] {
     & > #quartz-body,
     #quartz-body {
       grid-template-columns: minmax(0, 680px) 290px;
+      /* 2026-08-15 用户条4「留白太多」根治:只改 columns 不改 areas,Quartz 默认 areas 仍是三区
+         (左/中/右)→ 第三列变 auto,正文被挤到 ~477 + 右侧多出一空列 = 大片留白。照详情页补
+         两区 areas(无 grid-sidebar-left),正文才真正撑满 680、右栏紧贴、无空列。 */
+      grid-template-areas:
+        "grid-header grid-sidebar-right"
+        "grid-center grid-sidebar-right"
+        "grid-footer grid-sidebar-right";
       justify-content: center;
       max-width: 994px;
       column-gap: 24px;
@@ -1824,3 +1838,51 @@ body[data-slug^="entities/"] {
   border-radius: 6px; padding: 6px 10px; cursor: pointer; user-select: none;
 }
 .pd-shist-tags b:hover { color: var(--pd-accent); }
+
+/* ══ 我的收藏(2026-08-15 用户条9):主页左栏入口 + 点开浮层列表 ══ */
+.pd-myfav {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  padding: 7px 0;
+  margin-bottom: 10px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--B7);
+  text-align: left;
+}
+.pd-myfav:hover { color: var(--pd-accent); }
+.pd-myfav svg { flex: 0 0 auto; }
+.pd-myfav span { flex: 1; }
+.pd-myfav i { font-style: normal; font-size: 12px; color: var(--B5); }
+.pd-favov {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pd-favbox {
+  margin-top: 120px;
+  width: 520px;
+  max-width: 92vw;
+  background: var(--B0);
+  border-radius: 10px;
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.15);
+  padding: 6px 0;
+  max-height: 70vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.pd-favhd { padding: 12px 18px 8px; font-size: 12px; color: var(--B5); letter-spacing: 0.5px; }
+.pd-favhd b { color: var(--B8); font-weight: 600; }
+.pd-favempty { padding: 8px 18px 18px; font-size: 14px; color: var(--B6); line-height: 1.6; }
+.pd-favi { display: block; padding: 10px 18px; font-size: 15px; color: var(--B8); line-height: 1.5; text-decoration: none; }
+.pd-favi:hover { background: var(--B1); }

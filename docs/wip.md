@@ -5,9 +5,9 @@
   - **✅ 条7 目录箭头**:Quartz toc svg.fold 24px→13px + 与标题对齐 + 淡化(custom.scss `.toc-header` flex + `.fold`)。
   - **✅ 条8 深色入顶栏 + 收藏爱心**:render.mjs/build-list.mjs 的 adopt 改 `['.darkmode','.search']` 都进顶栏(撤 C13f #3 侧栏);顺序 分享/收藏/深色/搜索(custom.scss order:深色1/搜索2);收藏 svg 书签→爱心(render 两处);深色顶栏图标态=设计稿半圆 mask(custom `.pd-acts .darkmode:before`)。本地实测主页(深色+搜索)+ 详情页(分享/爱心/深色/搜索)顺序对。
   - **⚠️ 条5 废话删**(上轮已改 render:933/build-entities:410)+ 本轮收藏爱心/深色adopt = **内容线**:deploy-site 用已提交 samples 不重渲染(drift #50),存量集页/实体页等 **cron 重跑 build-pages/build-entities** 才生效(主页靠 deploy 重跑 build-list 立即)。本地 build-pages 重渲染仅为验证,**未提交 samples**(避免和还在跑的救 casualty run 竞态)。
-  - **🟡 条3/5 图标左对齐(待续)**:图标已重画/深色入顶栏/顺序对,但「主页搜索对齐右栏『按公司』、详情页图标对齐右栏『目录』」的精调**未做**(需实测迭代 .pd-acts 定位对右栏列);当前图标组右对齐顶栏最右。
-  - **🟡 条4 实体页留白(待续)**:上轮实测实体页 p 16px/1.6 比详情页 16.5/1.95 更紧,与「留白多」方向不符;用户确认「还在」。需实做(疑内容少页面稀疏/横向空);待定方案。
-  - **🟡 条9 我的收藏入口(待续)**:主页左栏加收藏入口。收藏已存 localStorage(actions.js fav)。呈现方式(独立页/浮层)待定。
+  - **✅ 条3/5 图标左对齐**:`.pd-acts` 加 `width: calc(--pd-railw − --pd-railpad)` + `justify-content: flex-start`,整组占右栏列宽靠右→图标从右栏左边缘起排;变量按页自适配(主页 290/24、详情页 282/32);首图标 margin-left −6 抵消 padding。实测主页图标组 left 964=「按公司」964、详情页 893=「目录」893。
+  - **✅ 条4 实体页留白(根治)**:根因=实体页 `#quartz-body` 只覆盖了 grid-template-**columns**(两列)却没覆盖 **areas**,Quartz 默认 areas 仍是三区(左/中/右)→ 第三列变 auto,正文被挤到 477 + 右侧多一空列 179 = 大片留白。照详情页补两区 areas(无 grid-sidebar-left)。实测 article 477→**680**、grid 三列→**两列(680+290)**、空列消失。
+  - **✅ 条9 我的收藏入口**:build-list leftRail 顶部加 `.pd-myfav`(爱心+「我的收藏」+数量徽标);scriptBlock 加浮层(读 localStorage['pd-favs'] 路径 → 遍历主页 `.card[data-slug]` 映射标题 → 列表;空态提示;点项跳转/点遮罩/Esc 关);custom.scss 浮层样式(遮罩+居中白盒,同搜索浮层风格)。实测注入 3 收藏→徽标 3→点开浮层列 3 项标题正确。
   - **❓ 条6 英文原话失效**:本地(js+人工点击)+ 线上 curl HTML(pd-orig 脚本/data-en 齐全)+ 无 CSP,**均正常**,无法复现。疑用户浏览器缓存旧页。待用户硬刷新复现/给失效集名。
   - **❓ 条1 搜索结果太多/不精准**:numSearchResults=8 固定 + 短查询 flexsearch 模糊(输 d 出 C 开头)。改 fork **无效**——bootstrap-site.sh:46 每次 `plugin install --latest` 重拉覆盖 fork。要改需 patch 编译产物(脆弱)或换引擎(拍板不换)。待用户权衡。
   - ⚠️ 本轮碰:assets/js/search-history.js(hover)+ assets/styles/custom.scss(箭头/深色顶栏/order)+ scripts/render.mjs(收藏爱心/深色adopt)+ scripts/build-list.mjs(主页深色adopt)+ docs/wip。**samples 未提交**(内容线走 cron)。
