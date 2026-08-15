@@ -407,7 +407,7 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
     renderSiteTopBar(agg.name),
     phero,
     descSection,
-    quotes.length ? `## ${secQuotes}\n\n*${quotes.length} 条,均已过机器闸门*\n\n${quoteBody}` : "",
+    quotes.length ? `## ${secQuotes}\n\n*${quotes.length} 条*\n\n${quoteBody}` : "",
     `## ② 出现在这些集\n\n*${nEp} 集*\n\n${epBody}`,
     relatedIds.length ? `## ${isPerson ? "③ 他谈到的" : "③ 关联"}\n\n*点进去有真内容 —— 本页主要出口*\n\n${relBody}` : "",
     peersSection,

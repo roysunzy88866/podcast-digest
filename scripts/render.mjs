@@ -930,7 +930,7 @@ ${renderTldr(digest)}
 
 ${bodySeg.trim()}
 
-${secLabel("全部金句", `${(digest.quotes || []).length} 条(中英对照,已过机器闸门)`)}
+${secLabel("全部金句", `${(digest.quotes || []).length} 条`)}
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 ${renderSidebarScript()}

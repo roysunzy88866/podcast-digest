@@ -271,28 +271,27 @@ body[data-slug^="tags/"] {
     padding: 0;
     flex: 0 0 auto;
   }
-  /* C13f #第九批 #2:搜索从小图标变长条框,右对齐,左边缘 = 右栏「按公司」那条竖线
-     (宽度 = 右栏列宽 − 右栏左内边距 24px)。
-     ⚠️ 只改外观与位置:点开的仍是 Quartz 自己的搜索浮层(🔒 #9 中文索引不许降级、
-     C13a 定的「搬节点不重写一套」)。设计稿里那个就地下拉是原型专属,不移植。 */
-  /* 搜索框必须贴着顶栏最右边(左边缘才会落在右栏那条竖线上)。
-     顶栏里可能还有后搬进来的兄弟节点(如深浅色)—— 用 order 把搜索排到最后,
-     这样不管节点是按什么顺序搬进来的都对得齐(实测不加会左移 28px = 图标 20 + 间距 8)。 */
-  .pd-acts .search { order: 2; margin-left: auto; }
+  /* 2026-08-15 用户拍板:搜索从长条框改回单图标,与分享/收藏(.ico)统一对齐(撤 C13f #2 长条框——
+     用户:长条框和另外两个图标不统一、看着奇怪)。点开仍是 Quartz 浮层(🔒 #9 检索不降级)。
+     order 把搜索排到分享/收藏之后(最右);图标尺寸/无框/hover 底色都对齐 .ico。 */
+  /* 摘掉 Quartz「阅读模式」图标(开源默认 adopt 进来的残留;设计稿顶栏只有分享/收藏/搜索,
+     用户 2026-08-15:检查旧开源 css)。集页已摘,实体页 adopt 时又漏进来 → 全站 CSS 兜底隐藏。 */
+  .pd-acts .readermode { display: none; }
+  .pd-acts .search { order: 2; }
   .pd-acts .search-button {
-    width: calc(var(--pd-railw) - var(--pd-railpad));
-    height: 34px;
-    justify-content: flex-start;
-    gap: 7px;
-    background: var(--B1);
-    border: 1px solid var(--B3);
+    width: auto;
+    height: auto;
+    justify-content: center;
+    gap: 0;
+    background: none;
+    border: 0;
     border-radius: 8px;
-    padding: 0 10px;
-    font-size: 13px;
-    color: var(--B5);
+    padding: 6px;
+    color: var(--B6);
   }
-  .pd-acts .search-button:hover { border-color: var(--B4); background: var(--B0); }
-  .pd-acts .search-button p { margin: 0; }
+  .pd-acts .search-button p { display: none; } /* 隐藏「搜索」文字,只留放大镜图标 */
+  .pd-acts .search-button svg { width: 19px; height: 19px; margin: 0; }
+  .pd-acts .search-button:hover { background: var(--B1); }
   .pd-acts svg { color: var(--B6); }
   .pd-acts svg:hover { color: var(--B8); }
 
@@ -804,12 +803,21 @@ body[data-slug^="tags/"] {
 }
 .pd-themesw .darkmode:hover { background: var(--B1); color: var(--pd-accent); }
 .pd-themesw .darkmode:after { content: "深色模式"; }
-.pd-themesw .darkmode svg {
+/* 2026-08-15 用户:深浅色按钮的图标「看着旧」——那是 Quartz 自带的太阳/月亮双图标(绝对定位切换)。
+   隐掉它俩,换成设计稿 .themesw 的半明半暗圆图标(mask 描出形状 + currentColor 跟随文字/hover 色)。
+   行为仍是 Quartz 的深浅色记忆(🔒#2 不自复刻)。 */
+.pd-themesw .darkmode svg { display: none; }
+.pd-themesw .darkmode:before {
+  content: "";
+  position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 .pd-themesw + .about { margin-top: 14px; }
 
@@ -1695,6 +1703,15 @@ body[data-slug^="entities/"] {
   text-align: left;
   overflow: hidden;
 }
+/* 融合(2026-08-15 用户:历史区/结果像浮层叠浮层,浮在上面很怪):
+   Quartz 的 `.search-space > *` 给每个直接子(input / 结果层 / 注入的历史区)都加了独立白卡
+   阴影 + margin-bottom:2em → 各自像悬浮卡片。统一抹掉,让它们全融进 .search-space 这一个白盒。 */
+.search > .search-container > .search-space > * {
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+}
 /* 输入框(设计稿 .sbox input):融进盒子顶部,去掉 Quartz 的独立白卡/边框/阴影 */
 .search > .search-container > .search-space > input.search-bar {
   width: 100%;
@@ -1729,6 +1746,8 @@ body[data-slug^="entities/"] {
   width: 100%;
   max-height: 46vh;
   height: auto !important;
+  overflow-y: auto;
+  overscroll-behavior: contain; /* 2026-08-15 用户:结果滚动会带动背后页面 → 隔断滚动链穿透 */
   border: 0;
   border-radius: 0;
   box-shadow: none;
