@@ -2276,3 +2276,45 @@ Scenario: 手机端从详情返回还原到之前位置
 4. 手机返回还原:离页(点卡,窄屏)存 {shown, scrollY} 进 sessionStorage,回到列表 init 时消费一次(还原批次+滚动位),再删键;PC 不触发。
 5. 红绿:scriptBlock/filterScript 结构串测(io-fold/IntersectionObserver/哨兵/recompute 挂钩存在)+ 本地 build 浏览器实测 6 条(初批短/滚动续/日期头联动/筛选重分批/noscript 全显/手机返回还原)。
 6. story-map C24 行(🟡);GLM 冷喂复核(--kind code)+ adjudicate。
+
+## C25 · PC 搜索浮层重塑(2026-08-15 用户拍板,参考少数派)
+
+> 起因:用户看 PC 搜索「完全没有设计感」+「鼠标移到结果上右侧内容会变化」很怪。彻查根子=顶栏点开的是 Quartz 原生搜索浮层(左结果列表 hover→右预览是它内置行为,CSS 改不掉;浮层本身没被美化过)。
+> 关键抉择(AskUserQuestion 拍板):**保留 Quartz 检索引擎不换**(🔒#9 中文索引不降级、ADR 0019 定的「搬节点不重写」不动),只在其上做「外观 + 交互层」三改;搜索历史用**真实历史+清除**(像少数派),无历史时显推荐词兜底。
+> 手段:纯 CSS(custom.scss,照设计稿 style.css 的 .skrim/.sbox/.si 数值,套到 Quartz 的 .search-container/.search-space/.search-bar/.result-card 类名)+ 独立 JS(assets/js/search-history.js,document 事件委托对 Quartz SPA 免疫)+ patch-site 全站 Head 注入一处。走 deploy-site 通道,零 pipeline 改动。
+
+Feature: PC 搜索浮层重塑 —— 保 Quartz 引擎,外观交互照少数派(C25)(US-1, US-3)
+
+Scenario: 去掉 hover 右侧预览(单栏结果)
+  Given 桌面端点开搜索、输入了关键词
+  When 结果列表出现
+  Then 结果为单栏(无右侧预览栏),鼠标在结果间移动右侧不再变化
+  And 关键词在结果里以主题红(--pd-accent)高亮
+
+Scenario: 浮层外观照设计稿
+  Given 桌面端点开搜索
+  Then 浮层是居中白盒(圆角/阴影)+ 半透明遮罩,输入框融入盒子顶部
+  And 数值取自设计稿 .skrim/.sbox/.si,深浅色随主题 token 自动适配
+
+Scenario: 搜索历史(记录 + 显示 + 清除)
+  Given 用户搜过至少一个词(停手 ~1.2s 或点进某结果即记录)
+  When 再次打开搜索、输入框为空
+  Then 输入框下方显示「搜索历史」标题 + 历史词药丸 + 右侧垃圾桶清除按钮
+  When 点垃圾桶
+  Then 历史清空,改显「试试」+ 推荐词兜底
+
+Scenario: 点药丸触发检索
+  Given 浮层显示历史/推荐词药丸
+  When 点某个药丸
+  Then 该词填入搜索框并触发 Quartz 检索(结果就地出现)
+
+Scenario: 引擎不降级 + 空查询交回 Quartz
+  Given 输入框有值(非空查询)
+  Then 历史区隐藏,结果完全由 Quartz 原生检索渲染(本片不碰检索逻辑)
+
+### DoD(C25)
+1. custom.scss:遮罩/白盒/输入框/单栏化(隐藏 .preview-container)/结果项/高亮/历史区样式,全用 --Bx/--pd-accent token(深浅色自适配)。
+2. assets/js/search-history.js:localStorage['pd-search-hist'](去重/上限 8/记录 ≥2 字符);document 委托(focusin 渲染、input 显隐+debounce 记录、click 处理清除/药丸/结果卡);无历史显 SUGGEST 兜底。
+3. patch-site.mjs:读 search-history.js 内容,JSON.stringify 注入全站 Head(<title> 锚点,不撞默认浅色种子脚本)。
+4. 本地 build 浏览器实测:浮层外观/单栏无预览/高亮/历史记录+显示/清除回兜底/点药丸触发检索,console 无 JS 报错。
+5. story-map C25 行(🟡);待部署 + 用户线上真机验收。

@@ -170,6 +170,21 @@ patchFile(
 // ── C11 ⑥ 注入自定义样式 + 自托管普惠体子集 ──
 copyFileSync(resolve(ROOT, "assets/styles/custom.scss"), resolve(SITE, "quartz/styles/custom.scss"));
 console.log("  ✔ custom.scss → site/quartz/styles/");
+
+// ── PC 搜索历史(2026-08-15 用户拍板,参考少数派)──
+// 叠加在 Quartz 原生搜索浮层上的「搜索历史 + 清除」层(🔒#9 不换检索引擎)。
+// 全站 Head 内联一次即可:脚本用 document 事件委托,对 Quartz SPA 换页天然免疫。
+// JSON.stringify 安全转义脚本源码,注入 <title> 之后(不与默认浅色种子脚本的锚点冲突)。
+{
+  const searchHistJs = readFileSync(resolve(ROOT, "assets/js/search-history.js"), "utf8");
+  patchFile(
+    resolve(SITE, "quartz/components/Head.tsx"),
+    `<title>{title}</title>`,
+    `<title>{title}</title>
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />`,
+    "PC 搜索历史脚本(Head 全站注入)",
+  );
+}
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });
 copyFileSync(
   resolve(ROOT, "assets/fonts/AlibabaPuHuiTi-subset.woff2"),
