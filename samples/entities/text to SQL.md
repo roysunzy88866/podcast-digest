@@ -1,31 +1,31 @@
 ---
-title: instagram
-entity_type: 公司
+title: text to SQL
+entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>instagram</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>text to SQL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="instagram">IN</div><div class="pi"><h1 class="pt">instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="text to SQL">TE</div><div class="pi"><h1 class="pt">text to SQL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(00:23起):本集的主要讨论对象。嘉宾 Adam Mosseri 负责的平台，拥有超三十亿月活用户。话题涉及该平台的团队架构演变、推荐算法机制、面对 AI 生成内容的策略以及其作为平台「出气筒」的公关哲学。
+- **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(16:40起):本集说 Chess.com 训练了一个 Slack 机器人做 text to SQL 分析，解决数据请求频道里'南非有多少订阅者''上个月谜题玩了多久'这类一次性问题，不需要数据分析师排队；副作用是问题量爆增，因为人们不好意思问人的问题对着机器人就敢问了。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
+- [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Mosseri]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]]
+[[Albert Cheng]] · [[Lenny]] · [[Duolingo]] · [[Grammarly]] · [[Chess.com]] · [[探索与利用]] · [[用户留存]] · [[免费增值]] · [[实验]] · [[复活用户]]
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"Adam Mosseri":1,"TikTok":1,"Anthropic":44,"open ai":2,"Twitter":4,"reels":1,"pods":1,"产品人员":1,"news feed":1}</script>
+<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Lenny":42,"Duolingo":2,"Grammarly":1,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1}</script>
 
 <script>
 (function(){

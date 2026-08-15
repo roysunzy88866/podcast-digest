@@ -1,0 +1,2054 @@
+{
+  "episode_id": "2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-10-10",
+  "tags": [
+    "AI 搜索",
+    "产品方法",
+    "Google 搜索",
+    "AI Overviews",
+    "增长策略"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            229.758,
+            230.499
+          ],
+          "quote": "Get $1,000 off at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            278.776,
+            283.558
+          ],
+          "quote": "Get Jira Product Discovery for free at atlassian.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            283.938,
+            285.079
+          ],
+          "quote": "That's atlassian.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 131,
+          "t": [
+            603.636,
+            604.457
+          ],
+          "quote": "Said Lenny's Newsletter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2612.638,
+            2615.959
+          ],
+          "quote": "Learn more and start building at orkes.io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2616.239,
+            2618.76
+          ],
+          "quote": "That's O-R-K-E-S dot I-O slash Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3490.156,
+            3497.5
+          ],
+          "quote": "You could see, if Lenny went to Robby's page, we were Close Friends, you would just be like, \"Oh, you get to see extra stuff from me on my profile too.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "robby-stein",
+      "type": "person",
+      "role": "cohost",
+      "name": "Robby Stein",
+      "file": "Robby Stein",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.46,
+            108.045
+          ],
+          "quote": "Today my guest is Robby Stein, Robby's VP of Product for Google Search and is responsible for essentially the entire Google search experience, including the new AI Overviews, AI Mode, multimodal AI experiences like Google Lens, the ranking algorithm, and a lot more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 36,
+          "t": [
+            177.198,
+            179.62
+          ],
+          "quote": "With that, I bring you Robby Stein.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 的核心搜索并没有被取代，人们仍然来搜电话号码、价格、路线；AI 对 Google 搜索来说是扩张性的，带来了更多新的提问和好奇心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.1,
+            2.887
+          ],
+          "quote": "It feels like something has changed internally at Google.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1,
+          "t": [
+            2.987,
+            6.536
+          ],
+          "quote": "Just last week, Google Gemini hit the number one app in the App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 3,
+          "t": [
+            8.1,
+            17.851
+          ],
+          "quote": "Google's mission around have any information be universally accessible, this very enduring, very motivating thing, and it feels like with the AI moment, we can actually achieve that more than ever before.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.461,
+            31.893
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 8,
+          "t": [
+            35.12,
+            38.103
+          ],
+          "quote": "The core Google search isn't really changing, in my opinion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            93.46,
+            108.045
+          ],
+          "quote": "Today my guest is Robby Stein, Robby's VP of Product for Google Search and is responsible for essentially the entire Google search experience, including the new AI Overviews, AI Mode, multimodal AI experiences like Google Lens, the ranking algorithm, and a lot more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            108.406,
+            114.388
+          ],
+          "quote": "He's at the forefront of one of the biggest shifts in Google's history, and has already made a massive dent in Google's trajectory.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            139.297,
+            148
+          ],
+          "quote": "And Robby shares all of the biggest lessons that he's learned about building great and successful consumer products, along with a bunch of insights into where Google is headed in the world of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 63,
+          "t": [
+            298.083,
+            302.587
+          ],
+          "quote": "So just last week, Gemini, Google Gemini hit the number one app in the App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 67,
+          "t": [
+            309.112,
+            312.054
+          ],
+          "quote": "I feel like everyone's always like, \"Google, what have you guys been doing?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 70,
+          "t": [
+            318.159,
+            320
+          ],
+          "quote": "Why are all these amazing companies doing better than Google?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 74,
+          "t": [
+            328.441,
+            331.045
+          ],
+          "quote": "It feels like something has changed internally at Google.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 77,
+          "t": [
+            340,
+            353.13
+          ],
+          "quote": "People are really excited about Nano Banana to be clear, very much so, but I think also people are recognizing that there's just so many cool things that you can do across the Google set of products and they've become quite powerful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            371.867,
+            376.975
+          ],
+          "quote": "You guys wrote the original transformers paper that have powered so much of the innovation and it's just like, \"Where's Google been?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            392,
+            403.725
+          ],
+          "quote": "Yeah, I mean, look, I've been to Google now, this is my second time at Google, so I started at Google in 2007, done a bunch of things in between, and I've been back at Google now, so I can't speak to that whole period for many, many years back to today.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 91,
+          "t": [
+            413.309,
+            418.991
+          ],
+          "quote": "I think the people who are, we work very closely with our partners at DeepMind and Google DeepMind.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            472.781,
+            480.232
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged and all these other chatbots, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            491.006,
+            496.331
+          ],
+          "quote": "What can you share about just the, I don't know, the state of Google search specifically, and then we'll talk about AI Mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 113,
+          "t": [
+            540.621,
+            543.383
+          ],
+          "quote": "All the core Google search isn't really changing, in my opinion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 116,
+          "t": [
+            551.389,
+            561.178
+          ],
+          "quote": "And Google Lens, one of the fastest growing products out there, it's growing 70% year-over-year increase in visual searches, which is already at a massive scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            589.451,
+            592.98
+          ],
+          "quote": "I think you get there at google.com/ai, is that the right URL?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            623.866,
+            626.451
+          ],
+          "quote": "And it tells you that it's based on your Google activity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 143,
+          "t": [
+            646.255,
+            650.82
+          ],
+          "quote": "This is when you ask a natural question, you just put it into Google, you get this AI now, it's really helpful for people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            655.844,
+            658.646
+          ],
+          "quote": "You go to the camera in the Google app and that's seeing a bunch of growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            661.528,
+            670.275
+          ],
+          "quote": "It creates an end-to-end frontier search experience on state-of-the-art models to really truly let you ask anything of Google search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            676.52,
+            683.244
+          ],
+          "quote": "And one of the cool things that I think it does is it's able to understand all of this incredibly rich information that's within Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            683.264,
+            686.306
+          ],
+          "quote": "There's 50 billion products in the Google shopping graph, for instance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 157,
+          "t": [
+            701.894,
+            709.379
+          ],
+          "quote": "You put all of that into this brain that is effectively this way to talk to Google and get at this knowledge.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 159,
+          "t": [
+            712,
+            724.408
+          ],
+          "quote": "You can ask anything on your mind and it'll use all of this information to hopefully give you super high quality and informed information as best as we can, and you can use it directly at this google.com/ai.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            769.846,
+            774.949
+          ],
+          "quote": "You should be able to not have to think about where you're asking a question ultimately, you just go to Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            782.113,
+            786.575
+          ],
+          "quote": "So you can just ask really hard, you could put a five sentence question right into Google search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 181,
+          "t": [
+            808.21,
+            820.279
+          ],
+          "quote": "It should feel like a consistent simple product experience ultimately, but obviously this is a new thing for us, and so we wanted to start it in a way that people could use and give us feedback with something like a direct entry point like google.com/ai.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 183,
+          "t": [
+            835,
+            839.047
+          ],
+          "quote": "And it feels like you guys are finally there where it's like, \"Oh man, now here comes Google.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 184,
+          "t": [
+            839.728,
+            847
+          ],
+          "quote": "I don't know if I have a question here, but it just feels like there's been all this time for people to find distribution, and now it's like, okay, now Google is coming.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 185,
+          "t": [
+            847.34,
+            850.142
+          ],
+          "quote": "What we found is that people are asking these questions in Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 186,
+          "t": [
+            850.162,
+            851.443
+          ],
+          "quote": "They're trying to get this out of Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 189,
+          "t": [
+            874.478,
+            878
+          ],
+          "quote": "And then we just need to make it easy enough for people to use, because these are new products, and people are used to using Google in a specific way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 190,
+          "t": [
+            878.761,
+            883.685
+          ],
+          "quote": "They type in keywords, we call it sometimes keyword ease, but you can actually use natural language in Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 193,
+          "t": [
+            888.749,
+            892.992
+          ],
+          "quote": "You just don't think, \"Oh, I can go to Google and type in what's a great place for a date night?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 196,
+          "t": [
+            897.596,
+            898.917
+          ],
+          "quote": "You could put that into Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 199,
+          "t": [
+            912.382,
+            917
+          ],
+          "quote": "And then we moved into Google just, \"No, no, just type the thing you want and figure out how Google likes it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 208,
+          "t": [
+            947.82,
+            963.026
+          ],
+          "quote": "I mean, I can give you a little bit of under the hood how this stuff works because I do think that helps people understand what to do, but when our AI constructs a response, it's actually trying to, it does something called query fan-out where the model uses Google search as a tool to find to do other querying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 212,
+          "t": [
+            984.554,
+            999.84
+          ],
+          "quote": "And so if for a given search your web page is designed to be extremely helpful and you can look up Google's human rater guidelines and read, it's a very long document that's been thoughtfully crafted for decades now around what makes great information.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1000.02,
+            1004.883
+          ],
+          "quote": "This is something Google has studied more than anyone, and it's like, do you satisfy the user intent, what they're trying to get?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1083.541,
+            1100.768
+          ],
+          "quote": "It obviously has the ability to use parametric memory and thinking and reasoning and all the things a model does, but one of the things that makes it unique for designing it specifically for informational tasks, we wanted to be the best at informational needs, that's what's Google's all about, and so how does it find information?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1103.569,
+            1108.751
+          ],
+          "quote": "These are all things that we built into the model, and so there is a unique access to Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1108.911,
+            1113.353
+          ],
+          "quote": "Obviously, it's part of Google search, so it's Google search signals everything from spam, what's content that could be spam?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1131.02,
+            1137.148
+          ],
+          "quote": "You've worked on a lot of AI products at this point, and it's not just Google or Artifact and Instagram, you did a lot of AI stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1261.562,
+            1266.706
+          ],
+          "quote": "She was a PM at Google, she worked on Google Meet, she was a delight PM working on at making products more delightful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1267.246,
+            1281.636
+          ],
+          "quote": "And she talked about the reason Google Meet did so well and is now feels like it's killing Zoom is they compared the experience of Google meet to a human meeting versus making it the best possible video conference, make this as good as a human experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2121.42,
+            2128.204
+          ],
+          "quote": "Something else I want to talk about is you came into two products that were already doing really well, Instagram and Google.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2132.686,
+            2136.689
+          ],
+          "quote": "Google is happening, we're in the middle of the improvement and growth you're driving.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2265.91,
+            2272.614
+          ],
+          "quote": "Or in Google's example, there's something very specific with the core search experience that needs to change, it's a subtle tweak.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2274.195,
+            2277.617
+          ],
+          "quote": "Someone's trying to ask a really hard question out of Google?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2289.227,
+            2297.519
+          ],
+          "quote": "In many ways, the AI version of Google and Stories and Reels, they're all similar in that they're new formats in the world that people are expecting and wanting more of.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2346.905,
+            2357.031
+          ],
+          "quote": "It obviously uses your camera roll in the same way it works that you can share it in DM, it works in the system, but it has a different primitive in the same way Google AI, it's a full page experience that you can pop out now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2423.992,
+            2434.86
+          ],
+          "quote": "Do you have just a heuristic in how you structure teams and prioritize across, okay, we have amazing Google experience today, what percentage of resources go into improving that versus trying something totally new?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2619.501,
+            2628.972
+          ],
+          "quote": "Maybe it would be helpful to talk about the journey of AI Mode, just how it emerged and the steps that you took to now it's just such a big part of the Google search experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2650.045,
+            2656.207
+          ],
+          "quote": "And so how can you provide helpful context links to go deeper and make an AI that made sense for Google?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2774.595,
+            2780.057
+          ],
+          "quote": "It had Google Maps information that for my daughter, you could walk up, it was walkable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2885.841,
+            2893.707
+          ],
+          "quote": "It's incredible that Google went roughly in a year from idea to a significant change to the search experience that's AI powered.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2894.528,
+            2901.673
+          ],
+          "quote": "I think this is not what people imagine Google is like, and it feels like things are different and things have changed in how you guys operate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2913.323,
+            2923.23
+          ],
+          "quote": "I think when you feel like there is a moment in time that is clearly critical to deliver for people, people are trying to get information from Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2956.211,
+            2970.098
+          ],
+          "quote": "And so at least I can only speak for myself, I feel this obligation to our users to give them the best version of Google that's powered by AI and that gives them the full knowledge of everything Google knows about the world and information to people and accessible with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2983.144,
+            2989.127
+          ],
+          "quote": "And I could see Google being worried that, oh, shit, everyone's changing their habit from searching Google to searching ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2991.068,
+            2998.052
+          ],
+          "quote": "I was actually looking at the list of top, so in the top 15 apps, Google is I think five of them, a third.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3020.623,
+            3026.726
+          ],
+          "quote": "And so really, it should give incredible helpful responses for the things that people come to Google for.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3057.881,
+            3073.41
+          ],
+          "quote": "We're really focused on what people use Google for, and making an AI for that so that you can come to Google, ask whatever you want and get effortless information about that and context and links to then also verify, dig in and go to the authoritative sources ultimately that people want, and we hear from people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4049.1,
+            4083.5
+          ],
+          "quote": "This is something that we've seen a lot with this explosive use of Google Lens and our image search and image features and with this deep understanding, and what I'm actually starting to use internally and some things that we're excited about more coming up that we actually announced at I/O that we're going to going to be building more of was how AI can help with inspiration, how AI can help with shopping and helping you really get things done that are more in the inspiring bucket of needs versus these core utilities like code, math, homework side of things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 838,
+          "t": [
+            4220.581,
+            4230.96
+          ],
+          "quote": "It feels a little more like when I was at Google the first time through right now where you just have so much stuff and this kind of fun curiosity happening where people want to try things and ship things and yeah, hopefully that continues.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4343.892,
+            4354.076
+          ],
+          "quote": "I'm using AI, I'm particularly at Google to help discover all these cool links and things to read, but I find that that is an interesting hybrid where it's not just AI but really going to original sources more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 874,
+          "t": [
+            4400.312,
+            4408.058
+          ],
+          "quote": "Voice on when you're driving, you can just talk all the knowledge I talked about where you can do with Google, you can talk to it in a normal conversation with your voice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4411.584,
+            4414
+          ],
+          "quote": "And I hear all my kids come home, they're like, \"Can I talk to Google about something?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4443.654,
+            4445.477
+          ],
+          "quote": "So this is within the Google search app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 886,
+          "t": [
+            4448.442,
+            4450.765
+          ],
+          "quote": "You go to Google app, so there's one of the apps in the App Store you mentioned.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4451.506,
+            4455.872
+          ],
+          "quote": "You open Google and there's a button now that's live on it, right on the home screen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4468.725,
+            4479.653
+          ],
+          "quote": "It basically shows you how to put a little speaker into a little stuffed animal and you connect the speaker to, it could be Google Live or it could be ChatGPT, whatever you like, in voice mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 981,
+          "t": [
+            4689.863,
+            4696.908
+          ],
+          "quote": "I was 25 right after Google being an IC PM in New York with some Google friends building this company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            4838.867,
+            4846.114
+          ],
+          "quote": "DM me, just mention me, ping me, let me know problems with Google products, with AI in general, but also just anything.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Mode",
+      "file": "AI Mode",
+      "primary": true,
+      "how_described": "本集说 AI Mode 是为信息任务专门设计的端到端搜索体验，接入 Google 购物图谱 500 亿产品和地图 2.5 亿地点等实时数据，底层做查询分流调用真实搜索，回答带来源链接可验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.46,
+            108.045
+          ],
+          "quote": "Today my guest is Robby Stein, Robby's VP of Product for Google Search and is responsible for essentially the entire Google search experience, including the new AI Overviews, AI Mode, multimodal AI experiences like Google Lens, the ranking algorithm, and a lot more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            491.006,
+            496.331
+          ],
+          "quote": "What can you share about just the, I don't know, the state of Google search specifically, and then we'll talk about AI Mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 124,
+          "t": [
+            585.301,
+            589.431
+          ],
+          "quote": "And along the same lines, you guys recently launched AI Mode, which I don't think enough people are talking about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            627.032,
+            631
+          ],
+          "quote": "Talk about just what people should know about AI Mode, maybe what they don't really understand about the power of this thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 148,
+          "t": [
+            658.666,
+            661.348
+          ],
+          "quote": "And then really with AI Mode, it really brings it all together.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 161,
+          "t": [
+            727.51,
+            733.473
+          ],
+          "quote": "We announced you can get to it really easily if you can ask follow-up questions of AI Overviews right into AI Mode now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            750.308,
+            759.78
+          ],
+          "quote": "Is the idea continue having this AI Mode on the side, AI Overviews at the top and then this multimodal experience, or is there a vision of somehow pushing these together even more over time?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            762.281,
+            769.325
+          ],
+          "quote": "I think that's what AI Mode represents, at least for the core AI experiences, but I think of them is very complimentary to the core search product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            775.069,
+            781.832
+          ],
+          "quote": "Today, if you put in whatever you want, we're actually starting to use much of the power behind AI Mode right in AI Overviews.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            790.658,
+            793.739
+          ],
+          "quote": "It's a preview, and then you can go deeper into AI Mode and have this back and forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 179,
+          "t": [
+            802.306,
+            804.848
+          ],
+          "quote": "And then if you go deeper, again, it's powered by AI Mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1544.501,
+            1546.883
+          ],
+          "quote": "I mean, honestly, a big thing is working on AI Mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2619.501,
+            2628.972
+          ],
+          "quote": "Maybe it would be helpful to talk about the journey of AI Mode, just how it emerged and the steps that you took to now it's just such a big part of the Google search experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3001.253,
+            3010.118
+          ],
+          "quote": "When people look at AI Mode versus ChatGPT or Claude or let's even say Perplexity, what's the way you think about the positioning of AI Mode versus these other tools?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3015.04,
+            3017.381
+          ],
+          "quote": "Yeah, I mean AI Mode's a way to ask search anything you want.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3091.281,
+            3093.023
+          ],
+          "quote": "Okay, AI Mode is not your therapist.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3361.123,
+            3365.556
+          ],
+          "quote": "On that third point, I feel like AI Mode as the name is such a good example of clarity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3366.318,
+            3367
+          ],
+          "quote": "This is AI Mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 813,
+          "t": [
+            4098.109,
+            4114
+          ],
+          "quote": "But I think the one thing I can share is there's a visual version of AI Mode that basically we talked about at I/O, and so you can reference some of those keynotes, but that's in the process of being rolled out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4150.302,
+            4152.894
+          ],
+          "quote": "What I'm hearing is Nano Banana integrated into AI Mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4456.172,
+            4459.897
+          ],
+          "quote": "And if you tap on, it's a live version of AI Mode that you can just talk to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4576.095,
+            4576.98
+          ],
+          "quote": "It cannot be AI Mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 963,
+          "t": [
+            4638.369,
+            4639.215
+          ],
+          "quote": "I'm going to ask AI Mode.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-overviews",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Overviews",
+      "file": "AI Overviews",
+      "primary": true,
+      "how_described": "本集说 AI Overviews 是在搜索结果顶部直接给你一段 AI 生成的快速、轻量回答，增长非常非常快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.46,
+            108.045
+          ],
+          "quote": "Today my guest is Robby Stein, Robby's VP of Product for Google Search and is responsible for essentially the entire Google search experience, including the new AI Overviews, AI Mode, multimodal AI experiences like Google Lens, the ranking algorithm, and a lot more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 142,
+          "t": [
+            637.947,
+            646.235
+          ],
+          "quote": "One is obviously AI Overviews, which are the quick and fast AI you get at the top of the page many people have seen, and that's obviously been something growing very, very quickly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 161,
+          "t": [
+            727.51,
+            733.473
+          ],
+          "quote": "We announced you can get to it really easily if you can ask follow-up questions of AI Overviews right into AI Mode now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            750.308,
+            759.78
+          ],
+          "quote": "Is the idea continue having this AI Mode on the side, AI Overviews at the top and then this multimodal experience, or is there a vision of somehow pushing these together even more over time?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 170,
+          "t": [
+            775.069,
+            781.832
+          ],
+          "quote": "Today, if you put in whatever you want, we're actually starting to use much of the power behind AI Mode right in AI Overviews.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1547.123,
+            1558.655
+          ],
+          "quote": "I think a lot of it was we saw in AI Overviews that people were trying to ask harder questions and we weren't able to answer a bunch of them, or AI Overviews just didn't show up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2635,
+            2642.663
+          ],
+          "quote": "I mean, I think it probably started earlier on with AI Overviews actually, which was the first way we brought generative AI to search.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "google-lens",
+      "type": "concept",
+      "role": "concept",
+      "name": "Google Lens",
+      "file": "Google Lens",
+      "primary": true,
+      "how_described": "本集说 Google Lens 是视觉搜索，视觉搜索量同比增长 70%，已经是数十亿级规模；你可以拍鞋问哪里买、拍作业问怎么做、拍书架问该读什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.46,
+            108.045
+          ],
+          "quote": "Today my guest is Robby Stein, Robby's VP of Product for Google Search and is responsible for essentially the entire Google search experience, including the new AI Overviews, AI Mode, multimodal AI experiences like Google Lens, the ranking algorithm, and a lot more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 116,
+          "t": [
+            551.389,
+            561.178
+          ],
+          "quote": "And Google Lens, one of the fastest growing products out there, it's growing 70% year-over-year increase in visual searches, which is already at a massive scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4049.1,
+            4083.5
+          ],
+          "quote": "This is something that we've seen a lot with this explosive use of Google Lens and our image search and image features and with this deep understanding, and what I'm actually starting to use internally and some things that we're excited about more coming up that we actually announced at I/O that we're going to going to be building more of was how AI can help with inspiration, how AI can help with shopping and helping you really get things done that are more in the inspiring bucket of needs versus these core utilities like code, math, homework side of things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到 ChatGPT 出现后很多人说 Google 完了、没人想忍受搜索结果点链接了，以及 Gemini 排名超过了 ChatGPT",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            26.461,
+            31.893
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 65,
+          "t": [
+            305.048,
+            306.329
+          ],
+          "quote": "It's above ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 69,
+          "t": [
+            317.358,
+            318.139
+          ],
+          "quote": "Why is ChatGPT doing?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 98,
+          "t": [
+            472.781,
+            480.232
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged and all these other chatbots, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 104,
+          "t": [
+            496.912,
+            503.92
+          ],
+          "quote": "Just how is traffic going, how is search going considering all these things are out there, and just what are you seeing in the data since the launch of say ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2979.303,
+            2983.124
+          ],
+          "quote": "It's wild how many people just now rely on ChatGPT and how quickly that happened.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2983.144,
+            2989.127
+          ],
+          "quote": "And I could see Google being worried that, oh, shit, everyone's changing their habit from searching Google to searching ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3001.253,
+            3010.118
+          ],
+          "quote": "When people look at AI Mode versus ChatGPT or Claude or let's even say Perplexity, what's the way you think about the positioning of AI Mode versus these other tools?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4468.725,
+            4479.653
+          ],
+          "quote": "It basically shows you how to put a little speaker into a little stuffed animal and you connect the speaker to, it could be Google Live or it could be ChatGPT, whatever you like, in voice mode.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集提到 Google Gemini 登上了 App Store 排行榜第一，排在 ChatGPT 之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.987,
+            6.536
+          ],
+          "quote": "Just last week, Google Gemini hit the number one app in the App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 63,
+          "t": [
+            298.083,
+            302.587
+          ],
+          "quote": "So just last week, Gemini, Google Gemini hit the number one app in the App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            386.05,
+            391.519
+          ],
+          "quote": "Is there just a new philosophy in the past couple of years that have led to this moment where Gemini is now the top app in the world?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2989.568,
+            2991.048
+          ],
+          "quote": "And the fact that now Gemini is number one.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集提到 Perplexity 出现后很多人说 Google 完了，以及 AI Mode 与 Perplexity 的定位对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            26.461,
+            31.893
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            159.087,
+            173.116
+          ],
+          "quote": "And, if you become an annual subscriber of my newsletter, you get a year free of 15 incredible products including Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Whispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, and Mobbin.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 98,
+          "t": [
+            472.781,
+            480.232
+          ],
+          "quote": "As ChatGPT emerged over the past couple of years, as Perplexity emerged and all these other chatbots, a lot of people were just like, \"Google is dead.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3001.253,
+            3010.118
+          ],
+          "quote": "When people look at AI Mode versus ChatGPT or Claude or let's even say Perplexity, what's the way you think about the positioning of AI Mode versus these other tools?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "本集说 Instagram 的本质不是发方形照片，而是分享生活、与人连接；从公开广播转向轻量私密分享（Stories、私信）是关键增长方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            72.601,
+            80.86
+          ],
+          "quote": "You build and launch Stories at Instagram back in the day is quite controversial because it basically took what Snapchat was doing really well and then like, \"Hey, let's bring it to Instagram.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 27,
+          "t": [
+            114.748,
+            127.012
+          ],
+          "quote": "He's also made a massive dent in the trajectory of Instagram where he was head of product, and led the launch of Instagram Stories and Reels and Close Friends, and through that, grew Instagram to half a billion daily active users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1131.02,
+            1137.148
+          ],
+          "quote": "You've worked on a lot of AI products at this point, and it's not just Google or Artifact and Instagram, you did a lot of AI stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1343.892,
+            1354.8
+          ],
+          "quote": "And I think this actually came out of a story, a little bit of a funny story where I was at Instagram at the time doing a big all team meeting, one of my first, and they had this icebreaker, what's one word to describe yourself?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1811.583,
+            1817.426
+          ],
+          "quote": "Speaking of products that have done really well and become really big, Stories, you build and launched Stories at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1817.986,
+            1830.072
+          ],
+          "quote": "It's quite an infamous product launch back in the day, it was quite controversial because it basically took what Snapchat was doing really well and then, \"Hey, let's bring it to Instagram,\" and it was not great for Snapchat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1901,
+            1904.201
+          ],
+          "quote": "And so for Stories, we looked at Instagram like, what's the point of Instagram?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1925.108,
+            1934.291
+          ],
+          "quote": "We didn't think of that as a deterrent, that we had to go make Instagram photo clock.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1934.632,
+            1939.993
+          ],
+          "quote": "And actually, there were early versions of this idea where you try to take the core Instagram feed and make it ephemeral.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1963.362,
+            1967.764
+          ],
+          "quote": "And so if you think, there were a bunch of things that we did that made it Instagram.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1977.309,
+            1987.733
+          ],
+          "quote": "People took, a lot of times they want their main camera to take a picture of something and then they want to upload it to Instagram because they want to save it and they want it to be in a very high quality, high resolution photo, because it's a memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2020.669,
+            2024.751
+          ],
+          "quote": "And so there were a whole set of those things that were shipped that made Stories feel Instagram.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2045.642,
+            2050.053
+          ],
+          "quote": "Instagram definitely got a lot of hate for that moment from a lot of founders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2059.42,
+            2070.147
+          ],
+          "quote": "I mean, I think it's more that we're focused on our users and the people who are loving Instagram and it's denying them the opportunity to have an easy way to just share a photo and have the thing go away.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2106.269,
+            2107.831
+          ],
+          "quote": "And for Instagram, it's used differently.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2107.871,
+            2110.312
+          ],
+          "quote": "People use Instagram differently than they use other products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2121.42,
+            2128.204
+          ],
+          "quote": "Something else I want to talk about is you came into two products that were already doing really well, Instagram and Google.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2128.884,
+            2132.626
+          ],
+          "quote": "And on the Instagram side, a transformative growth and improvement.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2202,
+            2213.085
+          ],
+          "quote": "Certainly in Instagram, there's been a big shift over the years of sharing into public very large broadcast posts and feed into these more lightweight formats like Stories and DM actually private sharing as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2257.086,
+            2262.889
+          ],
+          "quote": "In the Instagram version, it was like you have to make a square photo do more for people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2302.562,
+            2308.565
+          ],
+          "quote": "And in both cases, Stories didn't replace Instagram, it expanded in the same way we're seeing for AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3235.787,
+            3252.173
+          ],
+          "quote": "It's like, well, they went all the way to the end and then bailed, and then you understand what turns out that it was most, we actually learned about this and there's a story in Close Friends at Instagram where it just totally failed at first in a bunch just when we shipped it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3439.08,
+            3444.205
+          ],
+          "quote": "I mean honestly, this Close Friends example, I can give you more from Instagram days was really wild.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3736.654,
+            3742.259
+          ],
+          "quote": "People clearly are trying to hack Instagram basically to create these private smaller group settings, and so we should just make a product.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "stories",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stories",
+      "file": "Stories",
+      "primary": true,
+      "how_described": "本集说 Stories 没有取代 Instagram 的信息流而是扩展了它，是一个视觉上连贯但属性上独立的东西；Instagram 做了差异化：允许从相册上传高清照片、加暂停功能、加霓虹绘图和高级滤镜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            72.601,
+            80.86
+          ],
+          "quote": "You build and launch Stories at Instagram back in the day is quite controversial because it basically took what Snapchat was doing really well and then like, \"Hey, let's bring it to Instagram.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 27,
+          "t": [
+            114.748,
+            127.012
+          ],
+          "quote": "He's also made a massive dent in the trajectory of Instagram where he was head of product, and led the launch of Instagram Stories and Reels and Close Friends, and through that, grew Instagram to half a billion daily active users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1811.583,
+            1817.426
+          ],
+          "quote": "Speaking of products that have done really well and become really big, Stories, you build and launched Stories at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1864.787,
+            1888.555
+          ],
+          "quote": "I think an interesting lesson in all of those, and particularly in Stories was you have to really understand why someone uses your product and know when something is actually an existential question because there's just a better format or a different way of doing something that has worked and works and you need to figure out what that might mean for you, because not every great thing is going to be invented by you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1901,
+            1904.201
+          ],
+          "quote": "And so for Stories, we looked at Instagram like, what's the point of Instagram?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2020.669,
+            2024.751
+          ],
+          "quote": "And so there were a whole set of those things that were shipped that made Stories feel Instagram.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2202,
+            2213.085
+          ],
+          "quote": "Certainly in Instagram, there's been a big shift over the years of sharing into public very large broadcast posts and feed into these more lightweight formats like Stories and DM actually private sharing as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2289.227,
+            2297.519
+          ],
+          "quote": "In many ways, the AI version of Google and Stories and Reels, they're all similar in that they're new formats in the world that people are expecting and wanting more of.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2302.562,
+            2308.565
+          ],
+          "quote": "And in both cases, Stories didn't replace Instagram, it expanded in the same way we're seeing for AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2344.884,
+            2346.825
+          ],
+          "quote": "Stories, it has similar aesthetic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3277.426,
+            3282.25
+          ],
+          "quote": "A lot of people are like, \"Oh, we're going to differentiate the design,\" and we talked about this a little bit with Stories.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3462.321,
+            3469.365
+          ],
+          "quote": "It's one of the most popular, at least when I was there, was one of the most popular features of Stories and did really well, but it totally failed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3486.274,
+            3489.496
+          ],
+          "quote": "So you could do a feed post or a Stories post, and you also had a close friend's profile.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3516.572,
+            3523.076
+          ],
+          "quote": "And then it was just confusing because it had an extra little green thing on it, but it was like that got a green thing and the Stories one didn't.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3619.813,
+            3623.755
+          ],
+          "quote": "And so we designed the whole system around that, and also only worked in Stories.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "close-friends",
+      "type": "concept",
+      "role": "concept",
+      "name": "Close Friends",
+      "file": "Close Friends",
+      "primary": true,
+      "how_described": "本集说 Close Friends 是让你建私密列表发故事的功能，第一次上线彻底失败；原因是名字被误译成最好的朋友导致只加一个人闭环断裂、绿圈放在故事内部用户看不到；改成绿圈放外面、列表推荐 20-30 人后成为 Stories 最受欢迎功能之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            114.748,
+            127.012
+          ],
+          "quote": "He's also made a massive dent in the trajectory of Instagram where he was head of product, and led the launch of Instagram Stories and Reels and Close Friends, and through that, grew Instagram to half a billion daily active users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3235.787,
+            3252.173
+          ],
+          "quote": "It's like, well, they went all the way to the end and then bailed, and then you understand what turns out that it was most, we actually learned about this and there's a story in Close Friends at Instagram where it just totally failed at first in a bunch just when we shipped it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3439.08,
+            3444.205
+          ],
+          "quote": "I mean honestly, this Close Friends example, I can give you more from Instagram days was really wild.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3444.245,
+            3450.532
+          ],
+          "quote": "It took two or three years to get Close Friends to work, and I think people, it totally failed originally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3476.529,
+            3486.174
+          ],
+          "quote": "So one was we first thought about it as an overall system problem and you could add a Close Friends post for anything.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3490.156,
+            3497.5
+          ],
+          "quote": "You could see, if Lenny went to Robby's page, we were Close Friends, you would just be like, \"Oh, you get to see extra stuff from me on my profile too.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3570.477,
+            3572.68
+          ],
+          "quote": "We're getting you a sense of being connected to your Close Friends.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3623.775,
+            3631.999
+          ],
+          "quote": "We were looking at the data, we were trying to understand where it was working and where it was failing, and then we updated the name to Close Friends so it didn't feel like favorites.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3886.24,
+            3889.882
+          ],
+          "quote": "This Close Friends example I mentioned this actually was a small team.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "snapchat",
+      "type": "company",
+      "role": "company",
+      "name": "Snapchat",
+      "file": "Snapchat",
+      "primary": false,
+      "how_described": "本集说 Stories 的格式 Snapchat 发明了，赞扬 Snapchat 发明了这个很棒的格式；但信息流这种格式也不是每个产品自己发明的，当格式被证明有效就变成了公共原语",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            72.601,
+            80.86
+          ],
+          "quote": "You build and launch Stories at Instagram back in the day is quite controversial because it basically took what Snapchat was doing really well and then like, \"Hey, let's bring it to Instagram.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1817.986,
+            1830.072
+          ],
+          "quote": "It's quite an infamous product launch back in the day, it was quite controversial because it basically took what Snapchat was doing really well and then, \"Hey, let's bring it to Instagram,\" and it was not great for Snapchat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1920.187,
+            1924.368
+          ],
+          "quote": "It's a really great format and kudos to Snapchat for inventing it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1988.634,
+            1991.955
+          ],
+          "quote": "And Snapchat at the time didn't allow you to upload photos, it was like you have to use the Snap camera.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "type": "concept",
+      "role": "concept",
+      "name": "Reels",
+      "file": "Reels",
+      "primary": false,
+      "how_described": "本集提到 Robby 在 Instagram 领导了 Reels 的推出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            114.748,
+            127.012
+          ],
+          "quote": "He's also made a massive dent in the trajectory of Instagram where he was head of product, and led the launch of Instagram Stories and Reels and Close Friends, and through that, grew Instagram to half a billion daily active users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1850.301,
+            1855.743
+          ],
+          "quote": "And I mean we went on afterwards to launch Reels, a bunch of updates to direct messaging, we had feed rank game.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2289.227,
+            2297.519
+          ],
+          "quote": "In many ways, the AI version of Google and Stories and Reels, they're all similar in that they're new formats in the world that people are expecting and wanting more of.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "artifact",
+      "type": "company",
+      "role": "company",
+      "name": "Artifact",
+      "file": "Artifact",
+      "primary": false,
+      "how_described": "本集提到 Robby 是 Artifact 的创始团队成员，与 Mike Krieger 和 Kevin Systrom 一起",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            127.493,
+            130.914
+          ],
+          "quote": "He's also on the founding team of Artifact with Mike Krieger and Kevin Systrom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1131.02,
+            1137.148
+          ],
+          "quote": "You've worked on a lot of AI products at this point, and it's not just Google or Artifact and Instagram, you did a lot of AI stuff.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "query-fan-out",
+      "type": "concept",
+      "role": "concept",
+      "name": "查询分流 (query fan-out)",
+      "file": "查询分流",
+      "primary": true,
+      "how_described": "本集说当 AI 构建响应时做查询分流，模型使用 Google 搜索作为工具，把你的问题拆成可能几十个子查询在后台搜索，每个查询配上真实网页内容再综合生成回答",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            947.82,
+            963.026
+          ],
+          "quote": "I mean, I can give you a little bit of under the hood how this stuff works because I do think that helps people understand what to do, but when our AI constructs a response, it's actually trying to, it does something called query fan-out where the model uses Google search as a tool to find to do other querying.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "type": "concept",
+      "role": "concept",
+      "name": "待完成任务 (jobs to be done)",
+      "file": "待完成任务",
+      "primary": true,
+      "how_described": "本集说要用小写版的待完成任务框架，不要把用户想成在使用你的产品，要想成用户雇佣你的产品替他干什么；关键技巧是找到用户第一次决定用你产品的那个瞬间——Christensen 叫它大雇佣（the big hire）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 603,
+          "t": [
+            3133.404,
+            3142.591
+          ],
+          "quote": "The first is deeply understand people, and I think we talked about this a little bit with the jobs to be done point and Clayton Christensen's book, which I loved around Competing Against Luck.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3393.273,
+            3396.896
+          ],
+          "quote": "I love the, it's lowercase jobs to be done.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集提到 Google 产品团队与 DeepMind 和 Google DeepMind 的合作伙伴密切合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            413.309,
+            418.991
+          ],
+          "quote": "I think the people who are, we work very closely with our partners at DeepMind and Google DeepMind.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "finsta",
+      "type": "concept",
+      "role": "concept",
+      "name": "Finsta",
+      "file": "Finsta",
+      "primary": false,
+      "how_described": "本集说人们已经有 Finsta（假 Instagram 小号）现象，人们已经在黑 Instagram 来创造私密空间了，这印证了受众问题的存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 737,
+          "t": [
+            3711.543,
+            3714.96
+          ],
+          "quote": "Was this connected to the Finsta, Rinsta trend also?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3716.872,
+            3718
+          ],
+          "quote": "Everyone had a Finsta and there was a Binsta.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

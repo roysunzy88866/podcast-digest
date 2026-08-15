@@ -10,18 +10,18 @@ image: "/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg"
 description: "Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。"
 host: "[[Lenny]]"
 cohosts: ["[[Adam Mosseri]]"]
-companies: ["[[instagram]]", "[[TikTok]]", "[[Anthropic]]"]
-concepts: ["[[reels]]", "[[pods]]", "[[产品人员]]", "[[news feed]]", "[[嵌入模型]]", "[[探索性排名]]", "[[合成内容]]", "[[时间线]]", "[[大型语言模型]]", "[[vibe coding]]", "[[品味]]"]
+companies: ["[[Instagram]]", "[[TikTok]]", "[[Anthropic]]"]
+concepts: ["[[Reels]]", "[[pods]]", "[[产品人员]]", "[[news feed]]", "[[嵌入模型]]", "[[探索性排名]]", "[[合成内容]]", "[[时间线]]", "[[大型语言模型]]", "[[vibe coding]]", "[[品味]]"]
 category: 组织与领导力
 tags:
   - 组织与领导力
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#post","headline":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","description":"Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Adam Mosseri"},{"@type":"Organization","name":"instagram"},{"@type":"Organization","name":"TikTok"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"reels"},{"@type":"Thing","name":"pods"},{"@type":"Thing","name":"产品人员 (product staff)"},{"@type":"Thing","name":"news feed"},{"@type":"Thing","name":"嵌入模型 (embedding)"},{"@type":"Thing","name":"探索性排名 (exploration based ranking)"},{"@type":"Thing","name":"合成内容 (synthetic content)"},{"@type":"Thing","name":"时间线 (chronological feed)"},{"@type":"Thing","name":"大型语言模型 (llms)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"品味 (taste)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","item":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#post","headline":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","description":"Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Adam Mosseri"},{"@type":"Organization","name":"Instagram"},{"@type":"Organization","name":"TikTok"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Reels"},{"@type":"Thing","name":"pods"},{"@type":"Thing","name":"产品人员 (product staff)"},{"@type":"Thing","name":"news feed"},{"@type":"Thing","name":"嵌入模型 (embedding)"},{"@type":"Thing","name":"探索性排名 (exploration based ranking)"},{"@type":"Thing","name":"合成内容 (synthetic content)"},{"@type":"Thing","name":"时间线 (chronological feed)"},{"@type":"Thing","name":"大型语言模型 (llms)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"品味 (taste)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","item":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来
 
@@ -34,9 +34,9 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Lenny]] · [[Adam Mosseri]]
 >
-> **公司** [[instagram]] · [[TikTok]] · [[Anthropic]]
+> **公司** [[Instagram]] · [[TikTok]] · [[Anthropic]]
 >
-> **概念** [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]] · [[合成内容]] · [[时间线]] · [[大型语言模型]] · [[vibe coding]] · [[品味]]
+> **概念** [[Reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]] · [[合成内容]] · [[时间线]] · [[大型语言模型]] · [[vibe coding]] · [[品味]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
 
@@ -186,9 +186,9 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 **换个口味**
 
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:instagram · 同概念:reels、stories</span>
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同公司:anthropic · 同概念:vibe coding</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:anthropic · 同概念:品味 (taste)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:品味 (taste)、vibe coding</span>
 
 </div>
 </div>

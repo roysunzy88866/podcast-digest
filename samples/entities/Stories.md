@@ -1,31 +1,39 @@
 ---
-title: 要完成的任务 (jobs to be done)
+title: Stories
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>要完成的任务 (jobs to be done)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stories</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="要完成的任务">要完</div><div class="pi"><h1 class="pt">要完成的任务 (jobs to be done)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stories">ST</div><div class="pi"><h1 class="pt">Stories</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(47:38起):本集说 Snap 用它来重新梳理整个公司运作:列出社区和广告商要完成的所有核心任务,据此构建跨职能团队并配以智能体,从而追踪每项任务对应的业务结果。
+- **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:12起):本集说 Stories 没有取代 Instagram 的信息流而是扩展了它，是一个视觉上连贯但属性上独立的东西；Instagram 做了差异化：允许从相册上传高清照片、加暂停功能、加霓虹绘图和高级滤镜
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(58:42起):本集提到它曾有很大势头，但阅读率相对较低，作为短视频基础并不牢固；也被作为产品进化中不可或缺的功能提及。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q13]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为概念
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[Spectacles]] · [[Specs]] · [[Glean]] · [[分发]] · [[护城河]] · [[网络效应]]
+[[Lenny]] · [[Instagram]] · [[Reels]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Google]] · [[TikTok]] · [[AI Mode]] · [[Anthropic]] · [[AI Overviews]]
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"Evan Spiegel":1,"Snap":1,"Snapchat":1,"Spectacles":1,"Specs":1,"Glean":1,"分发":3,"护城河":3,"网络效应":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":42,"Instagram":2,"Reels":2,"Robby Stein":1,"Adam Mosseri":1,"Google":16,"TikTok":1,"AI Mode":1,"Anthropic":44,"AI Overviews":1}</script>
 
 <script>
 (function(){

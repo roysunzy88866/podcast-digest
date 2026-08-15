@@ -1,31 +1,31 @@
 ---
-title: chess.com
-entity_type: 公司
+title: AI Overviews
+entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>chess.com</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI Overviews</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="chess.com">CH</div><div class="pi"><h1 class="pt">chess.com</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI Overviews">AI</div><div class="pi"><h1 class="pt">AI Overviews</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]]**(01:07起):本集把它说成:全球最大的国际象棋平台,拥有 2.5 亿会员、千万级日活,靠早期收费学习会员实现正向现金流,自举 20 年后才引入私募股权。
+- **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:33起):本集说 AI Overviews 是在搜索结果顶部直接给你一段 AI 生成的快速、轻量回答，增长非常非常快
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]] — 作为被讨论公司
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Erik Allebest]] · [[Deep Blue]] · [[Stockfish]] · [[Leela Chess Zero]] · [[反作弊]] · [[评级系统]] · [[AGI]] · [[ASI]]
+[[Lenny]] · [[Robby Stein]] · [[Google]] · [[AI Mode]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Instagram]] · [[Stories]] · [[Close Friends]]
 
-<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Deep Blue":1,"Stockfish":1,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":10,"ASI":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":42,"Robby Stein":1,"Google":16,"AI Mode":1,"Google Lens":1,"ChatGPT":14,"Gemini":4,"Instagram":2,"Stories":2,"Close Friends":1}</script>
 
 <script>
 (function(){

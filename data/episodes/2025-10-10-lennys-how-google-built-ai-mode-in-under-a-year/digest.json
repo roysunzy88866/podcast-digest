@@ -1,0 +1,129 @@
+{
+  "title_zh": "Google搜索没死，AI让它扩张了",
+  "tldr": "Google搜索产品VP谈AI Mode诞生逻辑与做产品的四条心法",
+  "digest_md": "Google Gemini 登上了 App Store 排行榜第一，排在了 ChatGPT 上面。很多人说\"Google 完了，没人想忍受搜索结果点链接了\"，但 Google 搜索产品副总裁 Robby Stein 说，核心搜索根本没有被取代——人们仍然来搜电话号码、价格、路线，这些基础需求没变。变的是 AI 带来了一波**扩张**：人们开始问以前不会问的、更复杂的问题，好奇心被释放了 [08:24 Robby Stein]。\n\n## AI 搜索的三层架构\n\nGoogle 现在的 AI 搜索体验分三层：\n\n**第一层是 AI Overviews**——在搜索结果顶部直接给你一段 AI 生成的回答，快速、轻量，增长非常快 [10:37 Robby Stein]。\n\n**第二层是多模态**，主要是 Google Lens（视觉搜索）。你拍一张鞋的照片问\"哪能买\"，拍作业问\"第二题怎么做\"，拍书架问\"基于这些书该读什么\"。Lens 的视觉搜索量同比增长 70%，而且已经是数十亿级的规模 [09:11 Robby Stein]。\n\n**第三层是 AI Mode**——这是把前两层整合在一起的端到端体验，入口在 google.com/ai。它背后接入的是 Google 最前沿的模型，但关键区别在于它**专门为搜索设计**：能调取 Google 购物图谱里 500 亿个产品（每小时被商家更新 20 亿次实时价格）、地图里 2.5 亿个地点、全部金融信息，再加上整个网络的知识。你可以来回对话、追问，它不是通用聊天机器人，是专门帮你找信息的 [11:01 Robby Stein]。\n\n这三层正在融合。你在搜索框里直接输入一个五句话的复杂问题，顶部就会触发 AI Overviews 做预览；想深入就点进 AI Mode 继续对话。拍照片也一样，先给你 AI 小预览，深入后再进 AI Mode。最终目标是：你不需要想\"我该去哪里问\"，直接去 Google 就行 [12:55 Robby Stein]。\n\n## AI Mode 不是 ChatGPT\n\nAI Mode 的定位很明确：**为信息需求服务**。计划旅行、买东西、做研究——这些是人们来 Google 要干的事。它不是你的治疗师，不是创意工具，不帮你上传电子表格生成图表。和通用聊天机器人最大的区别是，它给你的回答带有来源链接，你可以验证、深挖、最终到达权威信息源 [50:15 Robby Stein]。\n\n底层机制也不一样。当你问一个问题，AI 会做**查询分流**（query fan-out）——模型把你的问题拆成可能几十个子查询，在后台用 Google 搜索去查，每个查询都配上真实网页内容，再综合生成回答。这意味着 Google 积累了数十年的反垃圾信号、内容权威性判断，全部内嵌在这个流程里。不是模型自己在\"编\"，是 AI 在替你做研究 [16:03 Robby Stein]。\n\n## 从观察到上线：AI Mode 的一年\n\nAI Mode 的起点是 AI Overviews 上线后的观察：人们试图在搜索里问更难的问题，很多问题 AI Overviews 答不了，甚至有人直接在查询末尾加\"AI\"两个字，试图强行触发 AI 回答 [25:59 Robby Stein]。\n\n团队看到这个觉得\"太荒谬了，我们必须建个东西\" [26:22 Robby Stein]。大概一年前，拉了一个 5 到 10 人的小团队，极简原型——一个带闪烁光标的空白页，你能问任何问题，直接接入原本驱动 AI Overviews 的模型，但加强了搜索能力、推理能力和多轮对话上下文 [44:36 Robby Stein]。\n\n第一个里程碑是**内部感受到\"有魔力\"的时刻**——Robby 自己用它给女儿规划活动，它自动找到了公园信息、可步行的路线、确认链接，所有东西一次给齐，\"那种一切正常工作的感觉\" [46:01 Robby Stein]。这给了团队继续推进的信念。\n\n然后找了约 500 个外部信任测试者（包括朋友家人），像创业公司一样让他们说实话。一个朋友又爱又恨，天天发截图说\"这个坏了、这个毫无意义\" [47:19 Robby Stein]。改到测试者反馈正面后，推进到 Labs 阶段让任何人可以开启，用真实查询数据继续调优。最后在美国全面上线，现在正在扩展到所有国家和语言 [47:52 Robby Stein]。\n\n从想法到显著改变搜索体验，大概一年。Robby 说驱动力不是某次重组或某个人，是一种**复合效应**——每个月无情地改进产品和模型，每天都在变好，然后达到临界点 [07:28 Robby Stein]。\n\n## 做产品的四条心法\n\nRobby 把做产品的方法论浓缩成四章（加一个尾声）：\n\n**第一章：深刻理解人**——不是\"用户在用你的产品\"，是\"用户雇佣你的产品替他干什么\"。他反复提到 Clayton Christensen 的\"待完成任务\"框架（小写版的，不是那种繁复的仪式）。关键技巧是找到用户第一次决定用你产品的那个瞬间——Christensen 叫它\"大雇佣\"（the big hire），那才是因果关系的真正来源 [52:13 Robby Stein]。\n\n**第二章：分析严谨，理解你的问题**——不是看指标下降了就焦虑，是要做根因分析：是某个地区？某个设备？某个人群？某个用例？找到真正的\"病灶\"，再开\"药方\" [53:40 Robby Stein]。\n\n**第三章：为清晰而设计，不为聪明而设计**——如果某个交互已经是用户理解的通用标准（比如相机图标就是相机），就直接用，别为了\"差异化\"搞个半像相机半像 AI 的奇怪图标。他引用 Don Norman《设计心理学》里门的例子：两边各装一个对称的漂亮把手，用户还是不知道该推还是该拉，因为设计没有传递信息 [54:57 Robby Stein]。\"AI Mode\"这个名字本身就是例子——看到就知道是什么 [56:05 Robby Stein]。\n\n**尾声：保持谦逊**——永远质疑自己，对犯错持开放态度 [55:49 Robby Stein]。\n\n## Close Friends：从彻底失败到爆款的两三年\n\n这四条心法在 Instagram Close Friends（绿色圆圈密友快拍）上完整演练了一遍。\n\nClose Friends 让你建一个私密列表，发的故事只有列表里的人能看到。第一次上线，**彻底失败** [57:30 Robby Stein]。\n\n用第一章的方法去追问\"为什么你不发 Stories？\"——答案高度一致：前任在、老师在、爱评头论足的朋友在。核心问题是**受众问题** [61:30 Robby Stein]。Finsta（假 Instagram 小号）现象也印证了这一点：人们已经在\"黑\"Instagram 来创造私密空间了 [61:55 Robby Stein]。\n\n用第二章的方法看数据，发现两个致命问题：一是在很多市场\"Close Friends\"被误译成了\"最好的朋友\"，人们只加一个人，那个人看到后不回私信，闭环断掉，产品等于废了 [54:12 Robby Stein]；二是设计混乱——信息流里漂亮照片后面紧跟一张模糊的脆弱瞬间，格格不入；绿色标识在故事内部，用户不点开根本看不到 [58:24 Robby Stein]。\n\n用第三章的方法改设计：把绿圈放到故事头像**外面**，用户在故事栏一眼就能看到\"那个小绿东西是什么\"，点进去发现\"这是给我的私人故事\" [60:49 Robby Stein]。\n\n数据还揭示了一个关键规律：列表里加 20 到 30 人时产品才真正有效——因为 30 人里有两三个回你私信，你就感到\"被连接\"了。这是情感型任务，不只是功能型任务 [60:09 Robby Stein]。于是改名避免\"唯一最好朋友\"的误解，建了一个基于算法的列表推荐工具帮你快速选到 20-30 人，并且砍掉了信息流里的 Close Friends 帖子，只保留 Stories 里的 [60:23 Robby Stein]。\n\n改完之后成了 Stories 最受欢迎的功能之一。但这个过程花了两三年 [61:19 Robby Stein]。\n\n## \"体现不懈改进\"的起源\n\nRobby 用一个词总结自己的产品哲学：\"体现不懈改进\"（embodying relentless improvement）——两个字：**不懈**（始终朝正方向施力）+ **更好**（永远不满足） [22:06 Robby Stein]。\n\n来源是他刚去 Instagram 时一次全体会议的破冰环节，\"用一个词形容自己\"。他发短信问妻子，妻子回了一个词：\"不满意的。\"他先是有点被冒犯，然后妻子发来一段话：\"不是你不快乐，是你希望世界变得更美好。你对世界给你的东西感到不满意，你想让它变得更好，你被这种渴望驱动着。\" [22:35 Robby Stein]\n\n他后来意识到，做成了的产品里都有这种精神——\"再做两步让它更好，最终就会到达临界点\"。而失败的产品往往缺少这种\"对自己工作最严厉批评者\"的姿态 [23:40 Robby Stein]。\n\n他引用 Tony Fadell 的 TED 演讲\"Think Younger\"：成年人对所有东西都会适应，烂的东西耸耸肩就忍了；但如果你问\"为什么这很烂？我为什么要忍受？怎么让它更好？\"——这就是产品思维的本质。Fadell 用水果上的贴纸举例：你把拇指伸到贴纸下面，刺破果肉，汁液流出来，弹贴纸还没扔进垃圾桶，还得弯腰捡起来——整个过程充满无意义的摩擦，但所有人都忍了 [24:07 Robby Stein]。\n\n## Stories：不是偷，是格式变成了公共资源\n\nInstagram Stories 当年因为\"抄 Snapchat\"被骂惨了。Robby 的回应：信息流（feed）这种格式也不是每个产品自己发明的——Facebook 可能创造了现代信息流，但现在 LinkedIn 有信息流，DoorDash 也有信息流。当一种格式被证明有效，它就变成了**公共原语**，你不采用，就是在剥夺用户拥有更好产品的机会 [34:40 Robby Stein]。\n\n但关键不是照搬，是**让它变成自己的**。Instagram 做了几个差异化决定：允许从相册上传高清照片（Snapchat 当时只能用内置相机拍）、加暂停功能（Snapchat 不让暂停，故事自动播放完就消失）、加霓虹绘图和高级滤镜。结果团队里有人觉得，Stories 填补了页面顶部那些圆孔的\"缺失感\"，产品反而\"完整\"了 [32:48 Robby Stein]。\n\n核心教训：不要试图把新功能硬塞进已有产品形态里（比如把信息流改成短暂的），那通常是个坏配方。要做成一个**视觉上连贯但属性上独立**的东西 [32:14 Robby Stein]。\n\n## 成熟产品怎么找第二曲线\n\n进入已有的成功产品（Instagram、Google）后怎么找到增长点？Robby 的方法：\n\n第一步，用\"待完成任务\"框架重新理解产品的**真正本质**——Instagram 的本质不是\"发方形照片\"，是\"分享生活、与人连接\" [31:45 Robby Stein]。Google 搜索的本质不是\"输关键词得链接\"，是\"帮你找到想知道的东西\" [37:54 Robby Stein]。一旦这样想，你就不会被现有工具形态束缚。\n\n第二步，找到正在增长的子方向。Instagram 那几年明显在从公开广播转向轻量私密分享（Stories、私信） [36:42 Robby Stein]。\n\n第三步，新东西要**互补而非替代**。Stories 没有取代信息流，它扩展了 Instagram。AI 也没有取代搜索，它在扩张搜索 [38:22 Robby Stein]。但新东西要有自己的空间感——用户是空间性思考的，信息流里的圆孔和全屏故事是两种不同的\"空间预期\"，混在一起会让人困惑 [38:35 Robby Stein]。\n\n第四步，用 S 曲线思维管理资源分配。每个功能都有增长→成熟→边际收益递减的过程。当你在某个点上放 50 个人也挪不动指标时，就是该找下一个增长引擎的时候了 [41:00 Robby Stein]。\n\n## 小团队崇拜的反面\n\n现在流行\"精益小团队\"叙事，Robby 认为这被过度神化了。构建基于技术突破的产品，往往需要大量资源——想想训练基础模型需要多少人和多少年 [63:19 Robby Stein]。\n\n他见过太多大公司内部的产品因为**太\"凑合\"而死在藤上**——团队一直很小，产品永远不够好，永远得不到足够动力 [64:29 Robby Stein]。Close Friends 花了两三年，部分原因就是团队一直保持小而凑合的状态 [64:49 Robby Stein]。\n\n他的启发式：两个里程碑。第一是**内部信念时刻**——你自己信了，因为有了外部验证（朋友在用、在给真实反馈）。第二是**该投入足够资源做出能发布的版本**——内部能用和能对外赢是两回事 [65:40 Robby Stein]。\n\n## 本集带走\n\n- **AI 没有杀死搜索，它在扩张搜索**：人们的基础搜索需求（电话、价格、路线）没变，但 AI 让人们开始问以前不会问的复杂问题，这是新的增长来源\n- **AI Mode 的核心差异**：它不是通用聊天机器人，是为信息任务专门设计的——底层做查询分流调用真实搜索、回答带来源链接可验证、接入 Google 购物图谱和地图等实时数据\n- **\"待完成任务\"要找到\"大雇佣\"瞬间**：不是问用户\"你喜欢什么\"，是追问用户第一次决定用你产品那一刻到底发生了什么——那个因果关系才是产品方向的根本依据\n- **设计为清晰不为聪明**：通用交互标准（相机图标、推拉门）直接用，别为了差异化造用户看不懂的新符号；AI Mode 这个名字本身就是好设计的例子\n- **Close Friends 的教训**：同一个产品概念，名字被误译导致用户只加一个人（闭环断裂）、视觉标识放在故事内部导致用户看不到——两个细节差点毁掉一个爆款功能，靠数据找根因、靠清晰设计救回来\n- **小团队不是万能药**：当内部已经验证了\"有魔力的时刻\"，就该投入足够资源做出能赢的版本；太长时间保持小而凑合，产品可能死在藤上\n- **复合效应胜过一次性变革**：Google AI 的起飞不是某次重组或某个人的功劳，是每个月无情改进产品和模型、每天变好一点的复合累积，最终到达临界点",
+  "quotes": [
+    {
+      "en": "And what we see is that it's not changing. AI hasn't really changed those foundational needs in many ways, and what we're finding is that AI is expansionary, and so there's actually just more and more questions being asked and curiosity that can be fulfilled now with AI.",
+      "zh": "我们看到的是这并没有改变。在很多方面，AI 并没有真正改变那些基础需求，我们发现 AI 是扩张性的，因此实际上有更多的问题被提出，现在可以用 AI 满足的好奇心。",
+      "timestamp": "08:42",
+      "speaker": "Robby Stein"
+    },
+    {
+      "en": "Not every great thing is going to be invented by you.",
+      "zh": "并不是每一件伟大的事情都会由你发明。",
+      "timestamp": "31:26",
+      "speaker": "Robby Stein"
+    },
+    {
+      "en": "These things become core primitives quickly and formats, and then at the end of the day, you're just robbing your user base of the opportunity to have a better product if you're not making the best possible product for your use cases.",
+      "zh": "这些东西很快就成为了核心原语和形式，然后归根结底，如果你没有为你的用例制造最好的产品，你就是在剥夺你的用户群拥有更好产品的机会。",
+      "timestamp": "34:53",
+      "speaker": "Robby Stein"
+    },
+    {
+      "en": "You get to these points of just diminishing marginal return in every system where it feels like you could put 50 people on this project, it's just not going to dramatically move the needle.",
+      "zh": "你会在每个系统中达到这些边际收益递减的点，感觉就像你可以在这个项目上放 50 个人，但它不会显著地移动指针。",
+      "timestamp": "41:00",
+      "speaker": "Robby Stein"
+    },
+    {
+      "en": "something I've seen is it's almost too scrappy because it never gets enough momentum. The product never gets good enough internally and then it just dies on the vine.",
+      "zh": "我见过的一件事是它太过于凑合了，因为它永远无法获得足够的动力。产品在内部永远不够好，然后它就这样半途而废。",
+      "timestamp": "64:24",
+      "speaker": "Robby Stein"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "07:28",
+      "speaker": "Robby Stein",
+      "en": "I find a lot of this is actually this compounding effect when you think about just every month ruthlessly improving the product or the models and just every day getting better, and then it just hits this tipping point where people just like it, they use it more, they enjoy it.",
+      "zh": "我发现这实际上是这种复合效应，当你想到每个月无情地改进产品或模型，并且每天都在变得更好，然后它达到了一个临界点，人们喜欢它，他们更多地使用它，他们享受它。"
+    },
+    {
+      "timestamp": "08:42",
+      "speaker": "Robby Stein",
+      "en": "And what we see is that it's not changing. AI hasn't really changed those foundational needs in many ways, and what we're finding is that AI is expansionary, and so there's actually just more and more questions being asked and curiosity that can be fulfilled now with AI.",
+      "zh": "我们看到的是这并没有改变。在很多方面，AI 并没有真正改变那些基础需求，我们发现 AI 是扩张性的，因此实际上有更多的问题被提出，现在可以用 AI 满足的好奇心。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Robby Stein",
+      "en": "when our AI constructs a response, it's actually trying to, it does something called query fan-out where the model uses Google search as a tool to find to do other querying.",
+      "zh": "当我们的 AI 构建一个响应时，它实际上是在尝试，它做一种叫做查询分流的事情，模型使用 Google 搜索作为工具来查找以进行其他查询。"
+    },
+    {
+      "timestamp": "19:19",
+      "speaker": "Robby Stein",
+      "en": "I think the most recent one, and this is true, something even within the last week or two, is that it's so obvious how human-like the interface is becoming with how you can communicate and steer AI.",
+      "zh": "我认为最近的一个，这是真的，甚至在过去一两周内，是关于你如何交流和引导 AI 的界面变得多么像人，这是显而易见的。"
+    },
+    {
+      "timestamp": "20:52",
+      "speaker": "Robby Stein",
+      "en": "So I think it's going to open up a lot of this democratization of accessing these models and building incredible things because you don't even need to do a lot. To get the most sophisticated outcomes increasingly, I don't think you need to do a lot of this heavy duty fine-tuning.",
+      "zh": "所以我认为这将会开放很多获取这些模型和构建令人难以置信的事物的民主化，因为你甚至不需要做太多。为了获得最复杂的结果，越来越多地，我不认为你需要做很多这种繁重的微调。"
+    },
+    {
+      "timestamp": "23:40",
+      "speaker": "Robby Stein",
+      "en": "But for the things that went well, there was always this spirit of just we're going to get it eventually if we just make two more moves to make it better.",
+      "zh": "但对于那些进展顺利的事情，总是有一种精神，只要我们再做两步让它变得更好，我们最终就会得到的。"
+    },
+    {
+      "timestamp": "26:22",
+      "speaker": "Robby Stein",
+      "en": "We would look at that and be like, \"This is ridiculous. We need to build something here.\"",
+      "zh": "我们看到那个然后想，\"这太荒谬了。我们需要在这里构建一些东西。\""
+    },
+    {
+      "timestamp": "31:21",
+      "speaker": "Robby Stein",
+      "en": "Not every great thing is going to be invented by you.",
+      "zh": "并不是每一件伟大的事情都会由你发明。"
+    },
+    {
+      "timestamp": "34:53",
+      "speaker": "Robby Stein",
+      "en": "These things become core primitives quickly and formats, and then at the end of the day, you're just robbing your user base of the opportunity to have a better product if you're not making the best possible product for your use cases.",
+      "zh": "这些东西很快就成为了核心原语和形式，然后归根结底，如果你没有为你的用例制造最好的产品，你就是在剥夺你的用户群拥有更好产品的机会。"
+    },
+    {
+      "timestamp": "38:22",
+      "speaker": "Robby Stein",
+      "en": "And by adding them, it becomes complementary, not replacement. And in both cases, Stories didn't replace Instagram, it expanded in the same way we're seeing for AI.",
+      "zh": "通过添加它们，它变得互补，而不是替代。在这两种情况下，Stories 并没有取代 Instagram，它扩展了，就像我们看到的 AI 的方式一样。"
+    },
+    {
+      "timestamp": "41:00",
+      "speaker": "Robby Stein",
+      "en": "You get to these points of just diminishing marginal return in every system where it feels like you could put 50 people on this project, it's just not going to dramatically move the needle.",
+      "zh": "你会在每个系统中达到这些边际收益递减的点，感觉就像你可以在这个项目上放 50 个人，但它不会显著地移动指针。"
+    },
+    {
+      "timestamp": "46:01",
+      "speaker": "Robby Stein",
+      "en": "It's actually, again, it's kind of like golf where you hit the perfect shot and you're like, \"Oh my God.\" You get that feeling where it's just everything worked.",
+      "zh": "实际上，再说一次，这有点像高尔夫球，你打出了完美的一杆，你会说，\"哦，我的天。\"你会得到那种一切都正常工作的感觉。"
+    },
+    {
+      "timestamp": "50:20",
+      "speaker": "Robby Stein",
+      "en": "It's designed and specially created for information. And so really, it should give incredible helpful responses for the things that people come to Google for.",
+      "zh": "它是为信息专门设计和创造的。所以真的，它应该为人们来 Google 寻找的东西提供令人难以置信的有用的回应。"
+    },
+    {
+      "timestamp": "54:57",
+      "speaker": "Robby Stein",
+      "en": "the third one's around really designing for clarity instead of cleverness. A lot of people are like, \"Oh, we're going to differentiate the design,\" but if something's a standard and people understand it, if you lean into it, you're going to get so much leverage than if you reinvent it.",
+      "zh": "第三个围绕真的为清晰度而不是聪明设计。很多人像，\"噢，我们要让设计差异化\"，但如果某物是标准的并且人们理解它，如果你利用它，你会比重新发明它获得多得多的杠杆。"
+    },
+    {
+      "timestamp": "64:29",
+      "speaker": "Robby Stein",
+      "en": "something I've seen is it's almost too scrappy because it never gets enough momentum. The product never gets good enough internally and then it just dies on the vine.",
+      "zh": "我见过的一件事是它太过于凑合了，因为它永远无法获得足够的动力。产品在内部永远不够好，然后它就这样半途而废。"
+    }
+  ]
+}

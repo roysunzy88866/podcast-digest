@@ -1,31 +1,33 @@
 ---
-title: reels
+title: Reels
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>reels</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Reels</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="reels">RE</div><div class="pi"><h1 class="pt">reels</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Reels">RE</div><div class="pi"><h1 class="pt">Reels</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:54起):本集提到 Robby 在 Instagram 领导了 Reels 的推出
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(06:45起):本集把它说成是 Instagram 对标 TikTok 的短视频功能。嘉宾复盘了 2019 年把它建在 Stories 之上的失败教训，导致大多视频未被看到便消失。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念(提及)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[pods]] · [[产品人员]] · [[news feed]]
+[[Lenny]] · [[Instagram]] · [[Stories]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Google]] · [[TikTok]] · [[AI Mode]] · [[Anthropic]] · [[AI Overviews]]
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"Adam Mosseri":1,"instagram":1,"TikTok":1,"Anthropic":44,"open ai":2,"Twitter":4,"pods":1,"产品人员":1,"news feed":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":42,"Instagram":2,"Stories":2,"Robby Stein":1,"Adam Mosseri":1,"Google":16,"TikTok":1,"AI Mode":1,"Anthropic":44,"AI Overviews":1}</script>
 
 <script>
 (function(){

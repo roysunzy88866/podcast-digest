@@ -11,17 +11,17 @@ description: Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是
 host: "[[Lenny]]"
 cohosts: ["[[Evan Spiegel]]"]
 companies: ["[[Snap]]", "[[Snapchat]]", "[[Spectacles]]", "[[Specs]]", "[[Glean]]"]
-concepts: ["[[分发]]", "[[护城河]]", "[[网络效应]]", "[[增强现实]]", "[[智能体]]", "[[硬件]]", "[[要完成的任务]]"]
+concepts: ["[[分发]]", "[[护城河]]", "[[网络效应]]", "[[增强现实]]", "[[智能体]]", "[[硬件]]", "[[待完成任务]]"]
 category: 产品方法
 tags:
   - 产品方法
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is#post","headline":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","mainEntityOfPage":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","description":"Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是护城河、做眼镜的逻辑，以及 AI 如何改变创新组织。","datePublished":"2026-04-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Evan Spiegel"},{"@type":"Organization","name":"Snap"},{"@type":"Organization","name":"Snapchat"},{"@type":"Organization","name":"Spectacles"},{"@type":"Organization","name":"Specs"},{"@type":"Organization","name":"Glean"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"网络效应 (network effects)"},{"@type":"Thing","name":"增强现实 (augmented reality)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"硬件 (hardware)"},{"@type":"Thing","name":"要完成的任务 (jobs to be done)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","item":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is#post","headline":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","mainEntityOfPage":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","description":"Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是护城河、做眼镜的逻辑，以及 AI 如何改变创新组织。","datePublished":"2026-04-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Evan Spiegel"},{"@type":"Organization","name":"Snap"},{"@type":"Organization","name":"Snapchat"},{"@type":"Organization","name":"Spectacles"},{"@type":"Organization","name":"Specs"},{"@type":"Organization","name":"Glean"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"网络效应 (network effects)"},{"@type":"Thing","name":"增强现实 (augmented reality)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"硬件 (hardware)"},{"@type":"Thing","name":"待完成任务 (jobs to be done)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","item":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪
 
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Snap]] · [[Snapchat]] · [[Spectacles]] · [[Specs]] · [[Glean]]
 >
-> **概念** [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]] · [[智能体]] · [[硬件]] · [[要完成的任务]]
+> **概念** [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]] · [[智能体]] · [[硬件]] · [[待完成任务]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
 
@@ -129,9 +129,9 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
 
 **顺着「产品方法」挖下去**
 
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:Snapchat · 同概念:要完成的任务 (jobs to be done)</span>
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同概念:分发 (distribution)</span>
 
 </div>
 <div class="pd-ex">

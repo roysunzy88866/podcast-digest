@@ -5,7 +5,7 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire Vo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire Vo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 <div class="pd-phero"><div class="av" data-cat="Claire Vo">CL</div><div class="pi"><h1 class="pt">Claire Vo</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
@@ -42,7 +42,7 @@ unlisted: true
 
 [[OpenClaw]] · [[智能体]] · [[Claude Code]] · [[Lenny]] · [[Eddie Kim]] · [[上下文过载]] · [[Gusto]] · [[提示词注入]] · [[联合创始人]] · [[系统提示词]]
 
-<script type="application/json" class="pd-epn">{"OpenClaw":7,"智能体":77,"Claude Code":20,"Lenny":40,"Eddie Kim":1,"上下文过载":1,"Gusto":1,"提示词注入":5,"联合创始人":2,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"OpenClaw":7,"智能体":77,"Claude Code":20,"Lenny":42,"Eddie Kim":1,"上下文过载":1,"Gusto":1,"提示词注入":5,"联合创始人":2,"系统提示词":3}</script>
 
 <script>
 (function(){

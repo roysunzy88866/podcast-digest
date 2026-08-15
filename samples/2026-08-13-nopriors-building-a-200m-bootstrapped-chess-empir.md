@@ -9,7 +9,7 @@ cover: "#64748b"
 image: "/covers/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir.jpg"
 description: "Chess.com 创始人分享 20 年自举创业史,以及在 AI 击败人类后,如何让国际象棋更繁荣。"
 host: "[[Erik Allebest]]"
-companies: ["[[chess.com]]"]
+companies: ["[[Chess.com]]"]
 concepts: ["[[Deep Blue]]", "[[Stockfish]]", "[[Leela Chess Zero]]", "[[反作弊]]", "[[评级系统]]", "[[AGI]]", "[[ASI]]"]
 category: 创业与行业
 tags:
@@ -17,10 +17,10 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir#post","headline":"棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir","mainEntityOfPage":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir","description":"Chess.com 创始人分享 20 年自举创业史,以及在 AI 击败人类后,如何让国际象棋更繁荣。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir.jpg","about":[{"@type":"Person","name":"Erik Allebest"},{"@type":"Organization","name":"chess.com"},{"@type":"Thing","name":"Deep Blue"},{"@type":"Thing","name":"Stockfish"},{"@type":"Thing","name":"Leela Chess Zero"},{"@type":"Thing","name":"反作弊 (anti-cheating)"},{"@type":"Thing","name":"评级系统 (rating system)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"ASI"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来","item":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir#post","headline":"棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir","mainEntityOfPage":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir","description":"Chess.com 创始人分享 20 年自举创业史,以及在 AI 击败人类后,如何让国际象棋更繁荣。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir.jpg","about":[{"@type":"Person","name":"Erik Allebest"},{"@type":"Organization","name":"Chess.com"},{"@type":"Thing","name":"Deep Blue"},{"@type":"Thing","name":"Stockfish"},{"@type":"Thing","name":"Leela Chess Zero"},{"@type":"Thing","name":"反作弊 (anti-cheating)"},{"@type":"Thing","name":"评级系统 (rating system)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"ASI"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来","item":"https://talk.solomind.cc/2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来
 
@@ -33,7 +33,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Erik Allebest]]
 >
-> **公司** [[chess.com]]
+> **公司** [[Chess.com]]
 >
 > **概念** [[Deep Blue]] · [[Stockfish]] · [[Leela Chess Zero]] · [[反作弊]] · [[评级系统]] · [[AGI]] · [[ASI]]
 
@@ -42,7 +42,7 @@ jsonLd: |
 机器早在 30 年前就在国际象棋上击败了人类,但 Chess.com 的数据表明,人类的胜负欲反而让这项古老游戏空前繁荣。他们的日活达到千万级,并在自举运营 20 年后确立了「让 10 亿人下棋」的宏大使命。但在繁荣背后,面对 AI 辅助作弊的威胁,这家全球最大的国际象棋平台正用更强大的统计模型与技术打一场看不见的保卫战。
 
 ### 20 年自举的「反共识」生意经
-Erik 从破产拍卖中买下 [[chess.com|chess.com]] 域名。当他试图在 Sand Hill Road（硅谷风险投资聚集地）寻求融资时，几乎所有人都告诉他这是一个「不可投资的小众激情项目」，让他去找份正经工作 [04:17]。最终他没有融一分钱，而是 2007 年上线产品，靠收取在线学习会员费在 18 个月内迅速盈利 [04:59]。
+Erik 从破产拍卖中买下 [[Chess.com|chess.com]] 域名。当他试图在 Sand Hill Road（硅谷风险投资聚集地）寻求融资时，几乎所有人都告诉他这是一个「不可投资的小众激情项目」，让他去找份正经工作 [04:17]。最终他没有融一分钱，而是 2007 年上线产品，靠收取在线学习会员费在 18 个月内迅速盈利 [04:59]。
 
 这种不走寻常路的模式贯穿了公司发展的始终:当硅谷的标准创业剧本是「雇名校技术合伙人、融一大笔钱、砸钱获客」时,Erik 偏偏找了圣何塞州立大学的朋友,全远程办公、零外部资金、不花一分钱获客,并且挑了一个极小的市场 [35:34]。这种专注于自身愿景、极致用户体验的做法让团队一步步做大。直到 2024 年,看着疫情期间涌入的用户潮在回落后依然维持在极高的基准线上,团队才真正确信:这是一门在不断复利增长的大生意 [10:43]。
 
@@ -120,6 +120,7 @@ Chess.com 不愿透露具体的[[反作弊|反作弊]]机制,但核心在于极�
 
 **换个口味**
 
+- [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|增长不是指标黑客，是连接用户与价值]]<span class="pd-rz">同公司:chess.com · 同概念:Stockfish</span>
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同概念:AGI</span>
 
 </div>

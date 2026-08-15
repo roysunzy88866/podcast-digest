@@ -5,27 +5,29 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snapchat</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snapchat</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snapchat">SN</div><div class="pi"><h1 class="pt">Snapchat</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snapchat">SN</div><div class="pi"><h1 class="pt">Snapchat</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:12起):本集说 Stories 的格式 Snapchat 发明了，赞扬 Snapchat 发明了这个很棒的格式；但信息流这种格式也不是每个产品自己发明的，当格式被证明有效就变成了公共原语
 - **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(01:21起):15 年前发布的持久消费者社交应用，本集说它当初的崛起靠的是连接用户「最在乎的少数人」(亲密关系),而非像传统社交网络那样追求把所有人连起来。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Spectacles]] · [[Specs]] · [[Glean]] · [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]]
+[[Lenny]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Google]] · [[Snap]] · [[AI Mode]] · [[Spectacles]] · [[AI Overviews]] · [[Specs]]
 
-<script type="application/json" class="pd-epn">{"Lenny":40,"Evan Spiegel":1,"Snap":1,"Spectacles":1,"Specs":1,"Glean":1,"分发":3,"护城河":3,"网络效应":2,"增强现实":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":42,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Google":16,"Snap":1,"AI Mode":1,"Spectacles":1,"AI Overviews":1,"Specs":1}</script>
 
 <script>
 (function(){

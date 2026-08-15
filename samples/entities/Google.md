@@ -5,12 +5,13 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:00起):本集说 Google 的核心搜索并没有被取代，人们仍然来搜电话号码、价格、路线；AI 对 Google 搜索来说是扩张性的，带来了更多新的提问和好奇心
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:01起):本集在介绍嘉宾履历及讨论 AI 早期进展时提及,说她曾是首席 AI 科学家,并曾在那里与 Jeff Dean、Geoff Hinton 等人共事。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(48:26起):本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
@@ -35,8 +36,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
+- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
@@ -57,9 +59,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[AGI]] · [[Lenny]] · [[Apple]] · [[NVIDIA]] · [[Microsoft]] · [[Amazon]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[AGI]] · [[NVIDIA]] · [[Apple]] · [[Microsoft]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":33,"Anthropic":44,"智能体":77,"Meta":13,"AGI":10,"Lenny":40,"Apple":9,"NVIDIA":16,"Microsoft":10,"Amazon":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":33,"Anthropic":44,"智能体":77,"Lenny":42,"Meta":13,"AGI":10,"NVIDIA":16,"Apple":9,"Microsoft":10,"Amazon":5}</script>
 
 <script>
 (function(){
