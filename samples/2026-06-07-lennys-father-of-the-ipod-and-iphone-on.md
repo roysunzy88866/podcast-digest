@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-07-lennys-father-of-the-ipod-and-iphone-on#post","headline":"iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-07-lennys-father-of-the-ipod-and-iphone-on","mainEntityOfPage":"https://talk.solomind.cc/2026-06-07-lennys-father-of-the-ipod-and-iphone-on","description":"iPod缔造者Tony Fadell谈创新方法论：做1.0版产品要靠少数人的品味，不要被AI带偏认知。","datePublished":"2026-06-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on","about":[{"@type":"Person","name":"Tony Fadell"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Nest"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"General Magic"},{"@type":"Organization","name":"Apple"},{"@type":"Organization","name":"Flighty"},{"@type":"Thing","name":"iPod"},{"@type":"Thing","name":"iPhone"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"逆向工作 (Working Backwards)"},{"@type":"Thing","name":"臭鼬工厂 (skunk works)"},{"@type":"Thing","name":"技术债 (technical debt)"},{"@type":"Thing","name":"人在回路中 (humans in the loop)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品","item":"https://talk.solomind.cc/2026-06-07-lennys-father-of-the-ipod-and-iphone-on"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品
 
@@ -95,7 +95,7 @@ Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要
 
 第五，对下一代 AI 硬件别抱有不切实际的幻想，语音交互确实会反客为主，但只要人类还需要看地图，屏幕就会永远存在。正如 Tony 在结尾强调的：我们可以使用机器，但绝不要在认知上向机器投降，去造点真正有灵魂的好东西吧。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">如果你大部分的决策都将是基于意见的决策，对于一个 1.0 版本来说，你必须有一两个或非常非常少的一组人，他们负责做出基于意见的决策，并且实际上能让你从白板到一个实际的 1.0 规格。</span>  
 > *And so if most of your decisions are going to be opinion-based decisions for a 1.0, you have to have one or two or a very, very small set of people who are charged with making the opinion-based decisions and can actually get you from point A to... from a white paper or a white... bank sheet of white paper or whiteboard to an actual 1.0 spec.*  
@@ -185,18 +185,10 @@ Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#post","headline":"红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy","description":"红杉合伙人 David Cahn 逐家拆解科技巨头博弈，指出 AI 投资回报只有通向 AGI 或面临清算两条路。","datePublished":"2026-08-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy.jpg","about":[{"@type":"Person","name":"Alex"},{"@type":"Person","name":"David Cahn"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Microsoft"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Amazon"},{"@type":"Organization","name":"Apple"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"SpaceX"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"AI ROI"},{"@type":"Thing","name":"垂直整合 (vertical integration)"},{"@type":"Thing","name":"认知劳动 (cognitive labor)"},{"@type":"Thing","name":"TPU"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态","item":"https://talk.solomind.cc/2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态
 
@@ -93,7 +93,7 @@ Google 的纠结引出了一个关键洞察：为什么手握重金的超大规�
 
 第二，看科技公司不能只看财报上的资本支出，要看掌舵人的世界观——Anthropic 靠信仰聚才，OpenAI 猛打指数牌，微软两头下注，而手握重金的巨头反而因为「资源诅咒」被裹挟进场。第三，这轮技术狂热背后，还藏着人类对精神超越和造神的深层渴望。别再用「是不是泡沫」这种二元思维来框住 AI 了，真正的赢家是看透规则、熬过清算、押对国别与人才的人。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
 > <span class="qz">自 ChatGPT 以来，你基本上大约有 3 万亿美元需要偿还。</span>  
 > *You basically have about $3 trillion that needs to get paid back just since chat GPT.*  
@@ -179,18 +179,10 @@ Google 的纠结引出了一个关键洞察：为什么手握重金的超大规�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

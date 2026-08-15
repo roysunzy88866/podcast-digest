@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on#post","headline":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","mainEntityOfPage":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on","description":"从金门大桥模型到 Opus 4.5,Diane 讲述了 Anthropic 的产品哲学:贴近细节、公开实验、为用户的真实想法写评估。","datePublished":"2026-07-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-26-lennys-anthropics-first-technical-pm-on.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on","about":[{"@type":"Person","name":"Dianne Penn"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"涌现能力 (emerging capabilities)"},{"@type":"Thing","name":"金门大桥版 Claude (Golden Gate Claude)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"技能 (skills)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agentic)"},{"@type":"Thing","name":"Labs"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI","item":"https://talk.solomind.cc/2026-07-26-lennys-anthropics-first-technical-pm-on"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI
 
@@ -101,7 +101,7 @@ Opus 4.5 让 Claude Code 被大规模采用,而 Claude Code 也让 Opus 4.5 的�
 ## 本集带走
 最后收个尾,这一集值得带走的是这几条核心洞察。第一,想要跟上 AI 的狂飙,别死守原计划,得靠极度贴近细节的评估来捕捉模型随时涌现的新能力。第二,好产品往往来自公开的集体实验和极小团队的快速试错,与其憋大招,不如把原型丢出去让大家一起玩。第三,产品经理的活儿变了,要先写测试用例再去解决问题,管理者也必须亲自下场写代码、做交付。第四,要用好 AI 又不被反噬,关键是先保有自己的判断,然后把它当成会反驳你的陪练,用来提升智商和情商。最后,在 AI 无所不能的时代,真正稀缺的反而是深度的判断力、对用户痛点的同理心,以及一个能互相托底的团队文化。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我们团队中实际上有一种说法,评估就是新的 PRD。</span>  
 > *We actually have a saying on the team of evals are the new PRDs.*  
@@ -175,18 +175,10 @@ Opus 4.5 让 Claude Code 被大规模采用,而 Claude Code 也让 Opus 4.5 的�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

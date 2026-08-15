@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo#post","headline":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","description":"Figma 把代码、自定义插件、着色器与动效全部搬进画布,让 AI 把所有创作门槛彻底拍平。","datePublished":"2026-06-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Nico"},{"@type":"Person","name":"Dylan Field"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompts)"},{"@type":"Thing","name":"代码 (code)"},{"@type":"Thing","name":"代码层 (CodeLayers)"},{"@type":"Thing","name":"Make"},{"@type":"Thing","name":"生成式插件 (generative plugins)"},{"@type":"Thing","name":"着色器 (shaders)"},{"@type":"Thing","name":"Figma Motion"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","item":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料
 
@@ -83,7 +83,7 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
 
 第二,技术的门槛已经被彻底拍平了,曾经需要几年数学功底的着色器,或者繁琐重复的插件开发,现在只需要一句大白话指令或者一张参考图,Figma 智能体就能当场为你造出来。第三,最强大的魔法在于材料的组合,Figma Motion 让原本高深莫测的动效设计变成了时间轴上直观的拖拽,它还能与着色器、插件无缝叠加,让动画的精修变得随心所欲。最终,所有这些新工具都不会消耗 AI 积分,它们的目的只有一个:AI 负责降低下限,而在座的各位设计师,负责去把创意的上限推向平流层。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">多年来设计界无休止地讨论设计与代码这个话题,我现在就直说了,这是一场虚假的辩论。</span>  
 > *For years the design industry has endlessly discussed this topic of design versus code and I will just say it flat out right now this is a false debate.*  
@@ -161,18 +161,10 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

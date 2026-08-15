@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou#post","headline":"把 Opus 级智能搬回家:开源推理如何长成关键基础设施","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou","description":"vLLM 联合创始人 Simon Mo 与 a16z 合伙人 Matt Bornstein 对谈,讲透开源推理引擎为何成为 AI 时代刚需。","datePublished":"2026-08-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Elena Berger"},{"@type":"Person","name":"Simon Mo"},{"@type":"Person","name":"Matt Bornstein"},{"@type":"Organization","name":"Infraact"},{"@type":"Thing","name":"vLLM"},{"@type":"Thing","name":"开源权重 (open weight)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"K3"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"把 Opus 级智能搬回家:开源推理如何长成关键基础设施","item":"https://talk.solomind.cc/2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 Opus 级智能搬回家:开源推理如何长成关键基础设施</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 Opus 级智能搬回家:开源推理如何长成关键基础设施</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 把 Opus 级智能搬回家:开源推理如何长成关键基础设施
 
@@ -109,7 +109,7 @@ Simon 解释说,模型是在特定硬件和架构上训练出来的,但一到真
 
 第四,闭源 API 随意又严苛的护栏正在把开发者逼走,因为在一个连报个内存错误都会被封号的系统里,根本干不了真活。第五,开放与闭源的差距,其实远比外界想象的要小;它关乎的不是独门数据或蒸馏秘籍,而是谁能构建出最好的「让模型自我进化的环境」。说到底,与其把希望寄托在别人承诺不宕机、不误伤的闭源黑盒上,不如把顶级智能的钥匙牢牢攥在自己手里。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">这个有趣的思维实验是，如果 GPU 价格下降 99%，那么我们会回到一个真正的开源世界吗？</span>  
 > *The fun thought experiment is if GPUs dropped in price by 99%, then do we get back to a real open source world?*  
@@ -199,18 +199,10 @@ Simon 解释说,模型是在特定硬件和架构上训练出来的,但一到真
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

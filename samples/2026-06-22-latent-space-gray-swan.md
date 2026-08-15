@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan#post","headline":"当 AI 变成黑客武器:给企业智能体修防火墙","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","mainEntityOfPage":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","description":"Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。","datePublished":"2026-06-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-22-latent-space-gray-swan.jpg","isBasedOn":"https://www.latent.space/p/gray-swan","about":[{"@type":"Person","name":"Zico Kolter"},{"@type":"Person","name":"Matt Fredrikson"},{"@type":"Organization","name":"Gray Swan"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"越狱 (jailbreak)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"可解释性 (interpretability)"},{"@type":"Thing","name":"致命三角 (lethal trifecta)"},{"@type":"Thing","name":"arena"},{"@type":"Thing","name":"Shade"},{"@type":"Thing","name":"Signal"},{"@type":"Thing","name":"OpenClaw"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"当 AI 变成黑客武器:给企业智能体修防火墙","item":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 变成黑客武器:给企业智能体修防火墙</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 变成黑客武器:给企业智能体修防火墙</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 当 AI 变成黑客武器:给企业智能体修防火墙
 
@@ -113,7 +113,7 @@ Gray Swan 已经在跟这类机构合作,保险公司用 Shade 这样的工具�
 
 第二,模型变大并不会自动变安全,你必须像给网络装防火墙一样,在基础模型和外部世界之间专门加一层像 Signal 这样的定制过滤模型,把检查策略这件事外包出去,别让主模型又干活又当保安。第三,别指望一层防御解决所有问题,除了 AI 护栏,你还得老老实实做系统隔离、权限控制,甚至在未来给智能体配置不同的身份档案来区分工作和生活。最后别忘了 Zico 那个最乐观的判断:智能体不仅能写代码,还能通过自动化实验,帮我们彻底搞懂这些黑盒模型到底在想什么。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">这个问题在于前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</span>  
 > *the issue with this is that frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  
@@ -183,18 +183,10 @@ Gray Swan 已经在跟这类机构合作,保险公司用 Shade 这样的工具�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

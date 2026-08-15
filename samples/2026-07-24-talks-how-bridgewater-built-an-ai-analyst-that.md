@@ -18,7 +18,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that#post","headline":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","description":"桥水公布 PAT 系统:靠编译器思路与确定性智能体,把数天分析压到几分钟。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Brendan McManus"},{"@type":"Organization","name":"Bridgewater Associates"},{"@type":"Organization","name":"PAT"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"LangGraph"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"子智能体 (subagent)"},{"@type":"Thing","name":"确定性 (deterministic)"},{"@type":"Thing","name":"编译器理论 (compiler theory)"},{"@type":"Thing","name":"静态分析 (static analysis)"},{"@type":"Thing","name":"数据帧 (data frame)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"基准测试 (benchmark)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","item":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟
 
@@ -82,7 +82,7 @@ Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把
 ## 本集带走
 最后收个尾,这一集最值得带走的是他们对 AI 智能体工程的三个判断。第一,你得敢于把大而全的「超级智能体」拆掉。酷炫的万能智能体只能拿来做演示,真要进日常工作流,就得把它拆成极度狭窄的垂直任务,往死里做[[基准测试|基准测试]],然后再把它们组合起来——这才是可靠的工程化路径。第二,跟用户对齐时,「计划」本身就是最核心的分析。与其让模型直接给答案,不如逼着投资者把模糊想法拆成详尽到极致的计划,把成本前置到规划阶段。第三,也是最反直觉的一点:要想让 AI 写代码不出错,得把它当成编译器问题,而不是智能体问题。抛弃充满随机性的自由探索,用静态分析、并行生成、强制验证这些传统计算机科学里的老办法,反而能在对冲基金这种对确定性要求极高的地方,把 AI 真正落地成不可替代的生产力。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。</span>  
 > *So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.*  
@@ -172,18 +172,10 @@ Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

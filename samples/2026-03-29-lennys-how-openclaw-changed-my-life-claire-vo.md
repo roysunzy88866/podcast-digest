@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#post","headline":"把 AI 当员工来管理:Claire Vo 的九个智能体生活实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo","mainEntityOfPage":"https://talk.solomind.cc/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo","description":"三任 CPO 分享如何用 Mac Mini 运行九个智能体,像管理真人团队一样管理 AI。","datePublished":"2026-03-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Claire Vo"},{"@type":"Organization","name":"ChatPRD"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文过载 (context overload)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"系统提示词 (soul)"},{"@type":"Thing","name":"浏览器使用 (browser use)"},{"@type":"Thing","name":"Mac mini"},{"@type":"Thing","name":"身份 (identity)"},{"@type":"Thing","name":"Claude Code"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"把 AI 当员工来管理:Claire Vo 的九个智能体生活实战","item":"https://talk.solomind.cc/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 AI 当员工来管理:Claire Vo 的九个智能体生活实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 AI 当员工来管理:Claire Vo 的九个智能体生活实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 把 AI 当员工来管理:Claire Vo 的九个智能体生活实战
 
@@ -99,7 +99,7 @@ Claire 强调,你不用自己手写这些配置,智能体在入门阶段会像�
 
 第二,别把所有任务塞进一个智能体,把它当成一支团队来管,给它们各自分好工、配好账号、设好边界,让它们在各自的频道里运转,避免上下文过载。第三,把管人的心法搬过来:给它明确的身份,循序渐进地授权,失败了去查它到底缺什么上下文,甚至动用更高级的编码工具去给它「做手术」。第四,把这些想清楚后,去找一台旧电脑,粘一行代码装上框架,给它配个手机聊天入口,从最痛的那个小问题开始让它替你跑腿。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">人们在 OpenClaw 上跌跌撞撞的地方在于,他们读到 OpenClaw 正在经营我的业务,他们以为可以把任何任务扔给单个智能体并获得出色的结果。</span>  
 > *Where people stumble with OpenClaw is they read about OpenClaw is running my business, and they think they can throw any task at a single agent and get great results.*  
@@ -177,18 +177,10 @@ Claire 强调,你不用自己手写这些配置,智能体在入门阶段会像�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

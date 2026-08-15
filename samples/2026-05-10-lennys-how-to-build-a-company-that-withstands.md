@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-10-lennys-how-to-build-a-company-that-withstands#post","headline":"为什么好公司会变坏：Eric Ries 的防腐架构学","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-10-lennys-how-to-build-a-company-that-withstands","mainEntityOfPage":"https://talk.solomind.cc/2026-05-10-lennys-how-to-build-a-company-that-withstands","description":"用治理结构和文化机制保护公司不被金融逻辑掏空。","datePublished":"2026-05-10","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-10-lennys-how-to-build-a-company-that-withstands.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands","about":[{"@type":"Person","name":"Eric Ries"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cloudflare"},{"@type":"Organization","name":"Novo Nordisk"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Vectura"},{"@type":"Organization","name":"Groupon"},{"@type":"Thing","name":"Incorruptible"},{"@type":"Thing","name":"结构完整性 (integrity)"},{"@type":"Thing","name":"公益公司 (Public Benefit Corporation)"},{"@type":"Thing","name":"金融重力 (financial gravity)"},{"@type":"Thing","name":"长期利益信托 (long-term benefit trust)"},{"@type":"Thing","name":"文化银行 (culture bank)"},{"@type":"Thing","name":"精神控股公司 (spiritual holding company)"},{"@type":"Thing","name":"使命守护者 (mission guardian)"},{"@type":"Thing","name":"无形领袖 (invisible leader)"},{"@type":"Thing","name":"股东至上 (shareholder primacy)"},{"@type":"Thing","name":"使命驱动 (mission driven)"},{"@type":"Thing","name":"创始人优先股 (founders preferred shares)"},{"@type":"Thing","name":"难就是易 (Harder is easier)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"为什么好公司会变坏：Eric Ries 的防腐架构学","item":"https://talk.solomind.cc/2026-05-10-lennys-how-to-build-a-company-that-withstands"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么好公司会变坏：Eric Ries 的防腐架构学</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么好公司会变坏：Eric Ries 的防腐架构学</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 为什么好公司会变坏：Eric Ries 的防腐架构学
 
@@ -150,7 +150,7 @@ Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就�
 
 第二,有解,而且解法有上百年验证:1920 年丹麦那家胰岛素公司如今变成了 [[Novo Nordisk|Novo Nordisk]](世界最大药企之一),Cloudflare 靠免费送 SSL 成了 700 亿美元公司,Anthropic 靠长期利益信托扛住了 2 亿美元的合同——共同点是他们都用了某种「精神控股公司」结构,让使命本身拥有主权。第三,作为创始人,你下周就能做的三件具体事:注册成公益公司、跟联合创始人做一次「能不能靠背叛使命赚钱」的对抗性提示测试、让所有董事签一份「首先不伤害」的誓言。Eric 反复强调:这一步没有任何权衡、没有任何权衡、没有任何权衡——你唯一会失去的,是那种「随时可能被一份标准章程绑住双手、眼睁睁看着公司被拆分出售」的命运。
 
-<div class="pd-sec">全部金句 <span>14 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>14 条</span></div>
 
 > <span class="qz">它们的成功本身变成了负债,因为金鹅越金贵,杀鹅的诱惑就越大。</span>  
 > *Their very success became a liability because the more golden the goose, the greater the temptation to butcher.*  
@@ -260,18 +260,10 @@ Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

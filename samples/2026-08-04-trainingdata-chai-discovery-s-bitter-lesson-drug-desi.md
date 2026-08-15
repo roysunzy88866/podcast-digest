@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi#post","headline":"让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi","description":"Chai Discovery 用生成式 AI 把抗体结合率从千分之一提到 15%,目标是把药物研发变成像写代码一样的工程。","datePublished":"2026-08-04","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi.jpg","about":[{"@type":"Person","name":"Josh"},{"@type":"Person","name":"Matt"},{"@type":"Organization","name":"Chai Discovery"},{"@type":"Thing","name":"药物发现 (drug discovery)"},{"@type":"Thing","name":"药物设计 (drug design)"},{"@type":"Thing","name":"抗体设计 (antibody design)"},{"@type":"Thing","name":"蛋白质折叠 (protein folding)"},{"@type":"Thing","name":"扩散模型 (diffusion models)"},{"@type":"Thing","name":"苦涩的教训 (bitter lesson)"},{"@type":"Thing","name":"湿实验室 (wet lab)"},{"@type":"Thing","name":"缩放定律 (scaling laws)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路","item":"https://talk.solomind.cc/2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路
 
@@ -89,7 +89,7 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
 
 第二,在 AI 面前,复杂往往是捷径的敌人——与其给模型堆上几十个为打补丁而生的子模块,不如相信扩展定律和算力,逼自己回到简单。第三,评判一项生物技术到底行不行,最狠的标准是看它敢不敢直接卖给出钱最苛刻的制药巨头,而不是躲在自己的小实验室里孤芳自赏。十年之后,当药物能像写代码一样被精准设计时,人类能攻克的也许就不再只是常见病,还有那些过去因为太罕见或太昂贵而无人问津的绝症。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">人们把生物学视为一个定制问题或定制领域,但实际上它就像自动驾驶、LLM 的相同原理,它们都适用。</span>  
 > *people kind of treat biology as this like bespoke problem or like bespoke field, but really it's like the same principles as like self-driving, LLMs, they all apply.*  
@@ -163,18 +163,10 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills#post","headline":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","description":"用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。","datePublished":"2026-08-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg","isBasedOn":"https://www.news.aakashg.com/p/oji-udezue-claude-skills","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Oji Udezue"},{"@type":"Organization","name":"Product Mind"},{"@type":"Organization","name":"GitHub"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"项目脚手架技能 (scaffolding skill)"},{"@type":"Thing","name":"可行性闸门 (viability gate)"},{"@type":"Thing","name":"vibe coder"},{"@type":"Thing","name":"builder PM"},{"@type":"Thing","name":"AI 原生 (AI native)"},{"@type":"Thing","name":"三速问题 (three speed problem)"},{"@type":"Thing","name":"客户发现周 (customer discovery week)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","item":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包
 
@@ -102,7 +102,7 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
 
 第二,Oji Udezue 用一套开源的 Claude Code 技能证明了,你不必只会让 AI 写代码——你可以让它在写代码前先用一套框架替你做市场调研、用可行性闸门拦下不该做的烂点子。第三,真正强大的做法是把商业、产品和代码三层的技能全塞进一个共享的 GitHub 仓库里,让产品经理、设计师、开发者全在同一个上下文里干活,省掉跨工具交付的损耗。第四,落地这种工作方式时,最大的坑是让团队随意 fork 技能和配置;你得保持共享上下文,一个人学到的经验要汇总到中央文件里,让全组织一起变聪明。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">单一技能专业人员的时代已经结束了。</span>  
 > *The era of mono skilled professionals is dead.*  
@@ -176,18 +176,10 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

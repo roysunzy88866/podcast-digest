@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her#post","headline":"Bumble 大重置：挥别「滑动」，重塑约会软件","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her","description":"创始人回归掌舵，推翻旧技术栈与滑动交互，宁可短期掉付费用户也要清洗生态。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Whitney Wolfe Herd"},{"@type":"Organization","name":"Bumble"},{"@type":"Thing","name":"滑动 (swipe)"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"AI 助手 (AI assistant)"},{"@type":"Thing","name":"推荐引擎 (recommendation engine)"},{"@type":"Thing","name":"付费用户 (paid customers)"},{"@type":"Thing","name":"创始人模式 (founder mode)"},{"@type":"Thing","name":"真实性 (authenticity)"},{"@type":"Thing","name":"交互模型 (interaction model)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Bumble 大重置：挥别「滑动」，重塑约会软件","item":"https://talk.solomind.cc/2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bumble 大重置：挥别「滑动」，重塑约会软件</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bumble 大重置：挥别「滑动」，重塑约会软件</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Bumble 大重置：挥别「滑动」，重塑约会软件
 
@@ -68,7 +68,7 @@ Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 
 
 第二，别被华尔街短期的数字绑架，为了长远的高端化和健康的生态，主动洗掉劣质付费用户、承受「为了增长而缩小」的阵痛，是创始人该有的定力。第三，在 AI 时代，技术只能当催化剂，绝不能当替代品——守住「真实性」的底线，帮用户在线下建立真实的连接，才是这家公司的立身之本。顺带一提，她作为创始人离任又回归的最深感触是：千万别被周围的「职业经理人」规训，硬把自己塞进「企业化 CEO」的模子里；找回那种敢于拆墙的「[[创始人模式|创始人模式]]」能量，才是把公司救回来的关键。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">Bumble 的产品仍然是你七年前的那个产品。</span>  
 > *Bumble's product is still the product you had seven years ago.*  
@@ -150,18 +150,10 @@ Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

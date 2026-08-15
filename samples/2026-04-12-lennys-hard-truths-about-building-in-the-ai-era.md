@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#post","headline":"Keith Rabois：别招大厂高管，别做客户调研","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","mainEntityOfPage":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","description":"Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。","datePublished":"2026-04-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era","about":[{"@type":"Person","name":"Keith Rabois"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"PayPal"},{"@type":"Organization","name":"Square"},{"@type":"Organization","name":"Faire"},{"@type":"Organization","name":"Ramp"},{"@type":"Organization","name":"Airbnb"},{"@type":"Thing","name":"桶和弹药 (barrels and ammunition)"},{"@type":"Thing","name":"人才密度 (density of talent)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"商业头脑 (business acumen)"},{"@type":"Thing","name":"客户反馈 (customer feedback)"},{"@type":"Thing","name":"心理安全感 (psychological safety)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Keith Rabois：别招大厂高管，别做客户调研","item":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois：别招大厂高管，别做客户调研</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois：别招大厂高管，别做客户调研</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Keith Rabois：别招大厂高管，别做客户调研
 
@@ -114,7 +114,7 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 第四，在 AI 时代，传统的产品经理角色会消亡，取而代之的是那种懂商业、像 CEO 一样思考、能随时应对变化的人，而最吃香的是具备[[商业头脑|商业头脑]]、能把 AI 当第二团队指挥的工程师。第五，想要打造高性能团队就不要迷信心理安全感，当公司一帆风顺、大家开始自满时，反而要狠命地公开挑刺，因为高性能机器的唯一目标就是赢。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果你雇佣了更多的人，而没有增加我所谓的能从构想到成功推动的「burials」，你实际上只是在同一个计划背后堆积人员。</span>  
 > *If you hire more people without expanding the number of what I call burials that can drive from inception to success, all you're doing is stacking people behind the same initiatives.*  
@@ -196,18 +196,10 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

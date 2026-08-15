@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit#post","headline":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","description":"几位实战派拆解模型路由:大模型当总指挥、小模型打配合,是降本增效的核心打法。","datePublished":"2026-08-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Tane"},{"@type":"Person","name":"Carter"},{"@type":"Person","name":"Walden"},{"@type":"Organization","name":"Cognition"},{"@type":"Organization","name":"OpenRouter"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"模型路由 (model routing)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文压缩 (context compaction)"},{"@type":"Thing","name":"RL"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"KV 缓存 (KV cache)"},{"@type":"Thing","name":"Fusion"},{"@type":"Thing","name":"FlexTron"},{"@type":"Thing","name":"Devon"},{"@type":"Thing","name":"Nemotron"},{"@type":"Thing","name":"sidekick"},{"@type":"Thing","name":"幻觉探测头 (hallucination probes)"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"前沿模型 (frontier models)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","item":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不靠一个模型打天下:多模型路由的早期探索与实战权衡</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不靠一个模型打天下:多模型路由的早期探索与实战权衡</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 不靠一个模型打天下:多模型路由的早期探索与实战权衡
 
@@ -84,7 +84,7 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
 
 第二,别被理论上百万的上下文窗口忽悠了,模型超载会变蠢,多模型协同的生死线就在于精细的上下文管理——压缩、只给关键信息、利用廉价的缓存 token 互换主次角色。第三,路由器本身正在从一个默默无闻的底层管道,变成智能体时代的刚需产品,未来的终极形态,不仅是靠外部规则硬性调度,而是要用强化学习专门训练模型学会怎么把活儿派给最合适的另一个模型。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我认为实际上这是一种非常反直觉的动态,更智能的模型实际上在委派工作方面变得越来越擅长。</span>  
 > *I think actually there's this really unintuitive dynamic where smarter models actually get better and better at delegating work.*  
@@ -150,18 +150,10 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-30-lennys-what-the-best-gtm-teams-do-differently#post","headline":"Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-30-lennys-what-the-best-gtm-teams-do-differently","mainEntityOfPage":"https://talk.solomind.cc/2025-11-30-lennys-what-the-best-gtm-teams-do-differently","description":"从 Stripe 到 Vercel，她详解如何用 AI 工程师和自建智能体，把传统销售流程重构成高效的产品级体验。","datePublished":"2025-11-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently","about":[{"@type":"Person","name":"Jeanne DeWitt Grosser"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"Gong"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"GTM 工程师 (go-to-market engineer)"},{"@type":"Thing","name":"市场细分 (segmentation)"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"购买体验 (customer buying journey)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个","item":"https://talk.solomind.cc/2025-11-30-lennys-what-the-best-gtm-teams-do-differently"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个
 
@@ -73,7 +73,7 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 
 第二，AI 已经能实打实地承担起高度复杂的销售流程，不妨尽早引入懂销售又懂技术的「市场拓展工程师」，用自建的智能体把人从机械重复的劳作中解放出来，去做更高价值的客户沟通。第三，细分客户群千万别只看公司规模，要结合你自身业务（如消费模式、流量大小、使用场景）找到真正能决定购买行为的独特维度，而且这不仅关乎销售，它是全公司都该对齐的战略共识。第四，无论是选销售人才还是做市场战略，销售组织必须能像总经理一样思考，兼具商业敏感度和产品深度，时刻保持对卓越的追求，并在面对拒绝时学会从中汲取真实的数据。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，这对于初创公司创始人来说是件好事。</span>  
 > *80% of customers buy to avoid pain or reduce risk as opposed to increase upside, which is a good thing for startup founders to understand.*  
@@ -151,18 +151,10 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

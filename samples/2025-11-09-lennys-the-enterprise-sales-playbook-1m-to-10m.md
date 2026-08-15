@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m#post","headline":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","mainEntityOfPage":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m","description":"JJELLYFISH 联合创始人 Jen Abel 讲透初创公司如何向 Tier 1 大企业销售并做到 10 万美元级交易。","datePublished":"2025-11-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr","about":[{"@type":"Person","name":"Jen Abel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"JJELLYFISH"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"企业销售 (enterprise sales)"},{"@type":"Thing","name":"愿景描绘 (vision casting)"},{"@type":"Thing","name":"超额收益 (alpha)"},{"@type":"Thing","name":"第一梯队 (tier one)"},{"@type":"Thing","name":"交易设计 (deal crafting)"},{"@type":"Thing","name":"设计合作伙伴 (design partners)"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"ACV"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法","item":"https://talk.solomind.cc/2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法
 
@@ -103,7 +103,7 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 - **第一个销售岗招两人**:该岗位淘汰率约 50%,创始人需陪跑前 5 次客户电话来快速验人。
 - **手工冷启动带来真 alpha**:不用 AI 群发工具,仔细看目标客户的视觉线索并手写差异化的冷邮件,在 AI 泛滥的时代,「像个人」反而成了最大的竞争优势。
 
-<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>10 条</span></div>
 
 > <span class="qz">一旦你变成一种比较对象，一旦你变成他们同时测试的三个之一，你就已经某种程度输了。</span>  
 > *As soon as you become a comparison, as soon as you become one of three that they're testing out, you've already sort of lost.*  
@@ -197,18 +197,10 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

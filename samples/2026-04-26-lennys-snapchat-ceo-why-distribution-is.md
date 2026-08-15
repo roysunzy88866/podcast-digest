@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is#post","headline":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","mainEntityOfPage":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is","description":"Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是护城河、做眼镜的逻辑，以及 AI 如何改变创新组织。","datePublished":"2026-04-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Evan Spiegel"},{"@type":"Organization","name":"Snap"},{"@type":"Organization","name":"Snapchat"},{"@type":"Organization","name":"Spectacles"},{"@type":"Organization","name":"Specs"},{"@type":"Organization","name":"Glean"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"网络效应 (network effects)"},{"@type":"Thing","name":"增强现实 (augmented reality)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"硬件 (hardware)"},{"@type":"Thing","name":"待完成任务 (jobs to be done)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪","item":"https://talk.solomind.cc/2026-04-26-lennys-snapchat-ceo-why-distribution-is"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪
 
@@ -92,7 +92,7 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
 
 第四，别陷入「AI 时代谁取代谁」的争吵，AI 的真正杠杆在于让个人拥有副驾驶的同时，把跨职能的完整工作流（从写规格、风险分析到上市物料）交给一整个智能体去跑通。第五，当所有人都沉浸在技术狂热里时，千万别低估人性带来的阻力，把人放在首位，是科技行业接下来最该补的一课。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我认为人们没有花足够的时间去思考分发并弄清楚分发。</span>  
 > *And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.*  
@@ -174,18 +174,10 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

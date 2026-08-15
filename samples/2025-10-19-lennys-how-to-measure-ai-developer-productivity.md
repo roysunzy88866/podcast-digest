@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity#post","headline":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","mainEntityOfPage":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","description":"AI在加速写代码,但开发者体验不只看代码行数;核心是减少摩擦、选对指标、先去倾听。","datePublished":"2025-10-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-19-lennys-how-to-measure-ai-developer-productivity.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Nicole Forsgren"},{"@type":"Thing","name":"代码行数 (lines of code)"},{"@type":"Thing","name":"DORA"},{"@type":"Thing","name":"SPACE"},{"@type":"Thing","name":"DevEx"},{"@type":"Thing","name":"心流状态 (flow state)"},{"@type":"Thing","name":"反馈循环 (feedback loops)"},{"@type":"Thing","name":"认知负荷 (cognitive load)"},{"@type":"Thing","name":"技术债 (technical debt)"},{"@type":"Thing","name":"幻觉 (hallucinations)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"微调 (fine-tuning)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","item":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎
 
@@ -122,7 +122,7 @@ Nicole 观察到,AI 改变了写代码的本质,让它变成了一项「充满�
 - **先倾听,别先造工具**:遇到老大难问题(如漫长审批),有时换掉纸质人工流程发封邮件就解决了,不必重构系统。
 - **高级 AI 工作流先规划再并行**:向智能体下达指令前,系统性规划整体架构、技术栈、组件协作和 API 规范,产物会远比凭感觉写(vibe coding)的更接近生产级代码。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我会说大多数生产力指标都是一个谎言。</span>  
 > *I'll say most productivity metrics are a lie.*  
@@ -190,18 +190,10 @@ Nicole 观察到,AI 改变了写代码的本质,让它变成了一项「充满�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

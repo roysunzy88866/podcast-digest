@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain#post","headline":"Jessica Fain:如何影响高管——把高管当用户来研究","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","mainEntityOfPage":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","description":"产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。","datePublished":"2026-03-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain","about":[{"@type":"Person","name":"Jessica Fain"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Webflow"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"Jessica Fain:如何影响高管——把高管当用户来研究","item":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jessica Fain:如何影响高管——把高管当用户来研究</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jessica Fain:如何影响高管——把高管当用户来研究</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Jessica Fain:如何影响高管——把高管当用户来研究
 
@@ -108,7 +108,7 @@ jsonLd: |
 ## 本集带走
 最后收个尾,这一集值得带走的是几个非常实用的思路。第一,领导者没认同你的想法是你的错,别再觉得「他们就是不懂」,请把高管当成你最重要的用户去研究——理解他们像频闪灯一样疯狂切换的日程,在开会前 30 秒直接铺好上下文。第二,带上你的专业和好奇心去开会,不要只当一个寻求盖章的应声虫,用「是什么让你相信这一点」来挖掘他们背后的压力和动机。第三,不要用你手里的资源去限制高管的视野,遇到不合理的要求要反向要资源,而建立信任最好的方式是主动砍掉不靠谱的项目。第四,当 AI 把执行的门槛降到极低时,决定做什么、把策略讲清楚、并在人和人之间建立信任,就成了人类真正不可替代的十倍技能。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">人们完全误解了高管是如何做决策的,在他们的头脑中、日程表中、激励结构中发生了什么。</span>  
 > *People completely misunderstand how executives make decisions, what is going on in the heads, in the calendars, in the incentive structures of executives.*  
@@ -190,18 +190,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

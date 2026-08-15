@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#post","headline":"Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s","description":"Sam Altman 回顾从 YC 到 OpenAI 的历程,认为 AI 不会杀死创业,反而是初创公司的黄金时代。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s.jpg","about":[{"@type":"Person","name":"Sam Altman"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"YC"},{"@type":"Organization","name":"Hugging Face"},{"@type":"Thing","name":"初创公司 (startups)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"对齐失败 (alignment failure)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"权力集中 (concentration of power)"},{"@type":"Thing","name":"主观能动性 (agency)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势","item":"https://talk.solomind.cc/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势
 
@@ -109,7 +109,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 第六,十年后最该警惕的反乌托邦不是 safety(安全)做少了,而是 safety 做过头——物质丰裕换自由、换主观能动性,变成一个完美的监控国家;正确的判据是每年人们的自由和对自己时间的掌控是否在增加。最后,做初创公司又难又吓人,你多半会犯错、会失败,但科技行业对此极其宽容,所以把雄心留着,路上稍微快乐一点,相信一切最终会好起来。
 
-<div class="pd-sec">全部金句 <span>16 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>16 条</span></div>
 
 > <span class="qz">所以我认为我们将看到初创公司的黄金时代,人们会像,你知道吗,我要做那些一年前在 YC 的时间框架内初创公司甚至做梦都不敢想的事情。</span>  
 > *So I think we will see a golden age of startups where people are like, you know what, I'm going to do things that would have been completely impossible for a startup to even like dream at a year ago in sort of like the YC timeframe.*  
@@ -227,18 +227,10 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

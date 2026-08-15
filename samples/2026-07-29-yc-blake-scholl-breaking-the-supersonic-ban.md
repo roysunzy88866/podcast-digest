@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#post","headline":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","mainEntityOfPage":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","description":"一家初创公司打破了半个世纪停滞的航空业格局,靠软件化硬件迭代造出超音速飞机,并改写了美国法规。","datePublished":"2026-07-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.jpg","about":[{"@type":"Person","name":"Blake Scholl"},{"@type":"Organization","name":"Boom"},{"@type":"Thing","name":"XB-1"},{"@type":"Thing","name":"马赫切断 (Mach Cutoff)"},{"@type":"Thing","name":"Overture"},{"@type":"Thing","name":"MakeBoom"},{"@type":"Thing","name":"Blade Runner"},{"@type":"Thing","name":"superpower"},{"@type":"Thing","name":"超音速飞行 (supersonic flight)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","item":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让超音速飞行重返天空:Boom 用小团队重写硬件制造</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让超音速飞行重返天空:Boom 用小团队重写硬件制造</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 让超音速飞行重返天空:Boom 用小团队重写硬件制造
 
@@ -105,7 +105,7 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 
 第二,硬件制造的瓶颈不是造不出来,而是迭代太慢;把传统上锁在 Excel 表格里的工程分析变成代码,把跟外部供应商扯皮的时间变成自家车间里的 24 小时出件,一家 50 人的小团队就能干出过去几千人、几十亿美元才能干成的事。第三,「为什么是现在」是个伪命题;这个世界上有大量技术早就成熟、价值万亿的机会,没人去做只是因为没人动手,所以去选一个你想解决的问题,把你所有的精力从「我能不能做」转移到「怎么做」上,你自然会成为那个有资格做这件事的人。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
 > <span class="qz">然而半个世纪后的今天,我们无法去月球,也无法以音速快速飞行。</span>  
 > *And yet half a century later, we can't go to the moon and we can't fly fast in the speed of sound.*  
@@ -189,18 +189,10 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

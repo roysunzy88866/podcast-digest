@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-lennys-build-an-ai-code-review-bot-in-30#post","headline":"用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-lennys-build-an-ai-code-review-bot-in-30","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-lennys-build-an-ai-code-review-bot-in-30","description":"别让 AI 生成的 PR 堵死你的审查队列，用智能体自动评分，低风险直接放行。","datePublished":"2026-08-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-05-lennys-build-an-ai-code-review-bot-in-30.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30","about":[{"@type":"Person","name":"Claire"},{"@type":"Organization","name":"Intercom"},{"@type":"Organization","name":"ChatPRD"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Codex"},{"@type":"Thing","name":"Eve"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"风险评分 (risk scoring)"},{"@type":"Thing","name":"沙箱 (sandbox)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操","item":"https://talk.solomind.cc/2026-08-05-lennys-build-an-ai-code-review-bot-in-30"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操
 
@@ -81,7 +81,7 @@ jsonLd: |
 
 第二，写一个代码审查智能体没你想的那么难，用 Vercel 的 Eve 框架，配上一页纸不到的打分指令，甚至让 AI 自己去操纵浏览器搞定复杂的配置，一个下午就能搭出来。第三，真正的杠杆不只是让 AI 全自动干活，而是让它做好评风控、递出信号，最后由人类在 Slack 里点一下按钮完成合并，既榨取了速度，又守住了底线。别忘了，哪怕是内部代码机器人，也要像对待外部产品一样，持续跑评估闭环，才能保证它一直不会作妖。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条</span></div>
 
 > <span class="qz">AI 审批的 PR 以及总体上 AI 编写的代码甚至可以比仅有人类在流程中所做的更安全、质量更高。</span>  
 > *AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.*  
@@ -147,18 +147,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

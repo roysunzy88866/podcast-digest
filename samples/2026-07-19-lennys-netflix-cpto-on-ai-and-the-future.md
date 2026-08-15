@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future#post","headline":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","mainEntityOfPage":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","description":"Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Elizabeth Stone"},{"@type":"Organization","name":"Netflix"},{"@type":"Organization","name":"InterPositive"},{"@type":"Thing","name":"GenAI"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"动荡阶段 (storming phase)"},{"@type":"Thing","name":"留任测试 (keeper's test)"},{"@type":"Thing","name":"卓越即操作系统 (excellence as an operating system)"},{"@type":"Thing","name":"铺设路径 (paved paths)"},{"@type":"Thing","name":"人才密度 (talent density)"},{"@type":"Thing","name":"无责复盘 (blameless retro)"},{"@type":"Thing","name":"AI 熟练度 (AI fluency)"},{"@type":"Thing","name":"真相来源数据 (source of truth data)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","item":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
 
@@ -120,7 +120,7 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
 2. **系统思维是 AI 时代最值得练的元能力,而且有具体练法**。不用高深理论——每接一个任务就往外退一步问一个更大的问题(这个功能背后真正的消费者问题是什么?放到更大的产品体系里还成立吗?),或者想想「如果我是经理会怎么看」,就是在练系统思维。与此同时,狭窄的纯专家在贬值,能在多方向适应的通才在升值。
 3. **「卓越即操作系统」的本质是反本能的管理克制**。Netflix 文化的底层逻辑不是一堆口号,而是几件很难做到的事:忍住不介入你不认可的下属决定、抵制出问题时就加流程的冲动、用无责复盘代替追责、用留任测试做正面反馈而非只是开除工具。在 AI 让一切加速的今天,这种对人才密度的坚持和对流程的克制,反而成了稀缺的竞争力。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</span>  
 > *So, it can be that an agent wrote the code or I helped to do an analysis when that's not really my background, but it doesn't make people not have the responsibility that comes with what they've created.*  
@@ -194,18 +194,10 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

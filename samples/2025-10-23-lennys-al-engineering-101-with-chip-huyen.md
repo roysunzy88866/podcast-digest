@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen#post","headline":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","mainEntityOfPage":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","description":"拆解构建 AI 应用最常见的认知陷阱，把精力放回数据准备、评估和系统思维。","datePublished":"2025-10-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-23-lennys-al-engineering-101-with-chip-huyen.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen","about":[{"@type":"Person","name":"Chip Huyen"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"强化学习 (reinforcement learning)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"数据准备 (data preparation)"},{"@type":"Thing","name":"测试时计算 (test time compute)"},{"@type":"Thing","name":"系统思维 (system thinking)"},{"@type":"Thing","name":"采样策略 (sampling strategy)"},{"@type":"Thing","name":"监督微调 (supervised fine-tuning)"},{"@type":"Thing","name":"多模态 (multimodality)"},{"@type":"Thing","name":"vibe coding"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","item":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事
 
@@ -101,7 +101,7 @@ jsonLd: |
 - **用「测试时计算」提升效果**：同样的基础模型，如果在推理时生成多个备选答案进行投票，或让它生成更多思考过程，就能显著提升最终表现。
 - **从日常沮丧中找点子**：不知道用 AI 做什么？观察自己工作中最让人烦躁的小痛点，造个小工具解决它。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我就会说，好吧，如果改进不多，那你为什么要花那么多时间去辩论那些对你的性能没有多大影响的事情？</span>  
 > *I was like, Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?*  
@@ -171,18 +171,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design#post","headline":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","description":"资深设计师 Meng To 展示如何用 OpenAI Codex 及配套工具编排一支智能体舰队，把产品经理的工作流提速 10 倍。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-pg-pm-guide-ai-design.jpg","isBasedOn":"https://www.news.aakashg.com/p/pm-guide-ai-design","about":[{"@type":"Person","name":"Meng To"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"obsidian"},{"@type":"Organization","name":"hey gen"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"playwright"},{"@type":"Thing","name":"计划模式 (plan mode)"},{"@type":"Thing","name":"数字分身 (digital twin)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","item":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流
 
@@ -88,7 +88,7 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 
 第二，启动任何新项目时，坚决使用规划模式，用提问和截图来精准引导 AI，你可以随时在手机上指挥电脑里成百上千个智能体同时开工，这才是真正的工作流 10 倍速。第三，无论你是产品经理还是创始人，真正的护城河不是写代码或搞办公室政治，而是你懂行懂到能驾驭 AI，运用你那最后百分之八的人类品味去把控质量，把基线推到五星甚至十一星——这就是在 AI 时代创办自己公司的终极公式。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我认为那些困在 ChatGPT 中的人还没有意识到，如果你在 Codex 中使用它，它可以连接到你所有的现有应用程序</span>  
 > *i think that people who are stuck in chat gpt haven't realized that this can connect to all of your existing apps if you're using it in codex*  
@@ -162,18 +162,10 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

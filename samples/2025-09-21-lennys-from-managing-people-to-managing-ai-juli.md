@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli#post","headline":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","mainEntityOfPage":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","description":"管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者","datePublished":"2025-09-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo","about":[{"@type":"Person","name":"Julie Zhuo"},{"@type":"Organization","name":"Sundial"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"对话分析 (conversational analytics)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"维度思维 (dimensionality)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","item":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Julie Zhuo：管理者的核心技能，就是驾驭AI的技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Julie Zhuo：管理者的核心技能，就是驾驭AI的技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Julie Zhuo：管理者的核心技能，就是驾驭AI的技能
 
@@ -131,7 +131,7 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 - **反馈的三步前置工作**：合作初期就"签约"互相给反馈→每次给反馈前检查自己是想帮人还是想证明自己对→把紧张感直接说出来。这三步做完，再难的反馈都好给。
 - **优势即劣势，它们是一体两面**：先搞清楚你天然偏向哪边，然后在需要反向操作的情境里刻意练习——扩大操作范围，而不是消灭弱点。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我认为如果你真的不清楚成功是什么样子的，提示词，你可能无法获得最棒的工作。我认为这对管理团队来说是真实的，对管理 AI 来说也非常真实。</span>  
 > *I think if you're really unclear about what success looks like, the prompt, you're probably not going to get the most amazing work. I think that's true for managing teams and it's very much true for managing AIs.*  
@@ -209,18 +209,10 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

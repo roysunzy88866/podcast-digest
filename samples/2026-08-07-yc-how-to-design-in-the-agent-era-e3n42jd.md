@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd#post","headline":"别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd","description":"Stephen Haney 带着他 12 人的团队打造了 Paper,一款直接以 HTML 和 CSS 为底层的设计工具。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd.jpg","about":[{"@type":"Person","name":"Stephen Haney"},{"@type":"Organization","name":"Paper"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Figma"},{"@type":"Organization","name":"Conductor"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP 服务器 (MCP server)"},{"@type":"Thing","name":"代码即真相来源 (source of truth)"},{"@type":"Thing","name":"策展式设计 (curation design process)"},{"@type":"Thing","name":"HTML"},{"@type":"Thing","name":"CSS"},{"@type":"Thing","name":"Paper Snapshot"},{"@type":"Thing","name":"着色器 (shader)"},{"@type":"Thing","name":"Paper Mono"},{"@type":"Thing","name":"React"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具","item":"https://talk.solomind.cc/2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具
 
@@ -103,7 +103,7 @@ YC 的设计负责人甚至用它给被录取的创业者做了带名字动画�
 
 因为设计的核心从来不是画那几个像素,而是在组织内部做决策、定义产品价值。与其追求让 AI 全自动写代码,不如把人省下来去做这些真正需要品味和判断的事,让精英小队配上 AI 的速度,去打磨真正卓越的产品。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">结果证明,如果你为人类构建了很棒的交接,你同时也为智能体构建了很棒的交接,因为智能体理解 HTML 和 CSS,而且这些在它们的训练数据中。</span>  
 > *It turns out if you build a great handoff for humans, you've also built a great handoff for agents because agents understand HTML and CSS and it's in their training data.*  
@@ -181,18 +181,10 @@ YC 的设计负责人甚至用它给被录取的创业者做了带名字动画�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

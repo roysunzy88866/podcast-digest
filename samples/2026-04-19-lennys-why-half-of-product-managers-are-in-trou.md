@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-19-lennys-why-half-of-product-managers-are-in-trou#post","headline":"AI 时代产品经理的生存指南","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-19-lennys-why-half-of-product-managers-are-in-trou","mainEntityOfPage":"https://talk.solomind.cc/2026-04-19-lennys-why-half-of-product-managers-are-in-trou","description":"产品经理的黄金时代和洗牌期同时到来：要么成为构建者，要么离开科技行业。","datePublished":"2026-04-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Nikhyl Singhal"},{"@type":"Organization","name":"Skip"},{"@type":"Thing","name":"产品经理 (product manager)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"信息搬运工 (information mover)"},{"@type":"Thing","name":"判断力 (judgment)"},{"@type":"Thing","name":"幕僚长应用 (chief of staff app)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"AI 时代产品经理的生存指南","item":"https://talk.solomind.cc/2026-04-19-lennys-why-half-of-product-managers-are-in-trou"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理的生存指南</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理的生存指南</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # AI 时代产品经理的生存指南
 
@@ -112,7 +112,7 @@ Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最�
 
 第二，转型最难跨越的不是技术，而是心理门槛——那些在旧体系里最成功的人反而最难转身，因为他们缺乏改变的动力；但你必须逼自己跨过去，去找到那个用 AI 亲手做出一个小工具、感到纯粹快乐的瞬间，那是打破恐惧和倦怠的唯一解药。第三，别怕把自己从日常工作里淘汰掉，用智能体把你现在重复做的琐事全部自动化，你只需要对什么是好结果保持主见，把省下来的精力全部投入到真正需要人的判断力和对齐沟通上。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">总的来说，这个职能已经变得极其专注于没有权力的责任。</span>  
 > *Generally, the function had become extremely focused on responsibility without authority.*  
@@ -202,18 +202,10 @@ Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

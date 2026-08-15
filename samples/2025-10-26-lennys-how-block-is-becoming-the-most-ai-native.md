@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native#post","headline":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","mainEntityOfPage":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","description":"Block CTO 分享通过组织重组、全员用 AI 和自研开源智能体 Goose 实现 AI 转型的真实经验与反直觉教训。","datePublished":"2025-10-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dhanji Prasanna"},{"@type":"Organization","name":"Block"},{"@type":"Thing","name":"Goose"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"康威定律 (Conway's Law)"},{"@type":"Thing","name":"职能型架构 (functional structure)"},{"@type":"Thing","name":"LLM"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","item":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组
 
@@ -120,7 +120,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 - **代码质量不等于产品成功**：不要被工程师「我们需要重构」的诉求绑架。只要能解决用户的真实问题，哪怕是像早期 YouTube 那样把视频塞进 MySQL 的「糟糕架构」，也能成为极其成功的产品。
 - **招聘重「学习心态」而非特定技能**：不再把工程师当「商品」盲目扩招，看候选人是否拥抱新工具，但最核心的依然是深挖技术本质的批判性思维。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">每当我听到这样的统计数据时，我认为人们需要考虑的一个重要因素是这是它未来最差的状态。</span>  
 > *Whenever I hear a stat like this, I think an important element that people need to think about is this is the worst it will ever be.*  
@@ -202,18 +202,10 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

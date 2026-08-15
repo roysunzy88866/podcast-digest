@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c#post","headline":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","mainEntityOfPage":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","description":"法国健康险独角兽 Alan 的 CTO 分享了他们如何用 AI 智能体重塑公司运作、实现人均收入指数级增长，并呼吁欧洲创业家重拾野心。","datePublished":"2026-06-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Laurent"},{"@type":"Person","name":"Charles Gorintin"},{"@type":"Organization","name":"Alan"},{"@type":"Organization","name":"Mistral"},{"@type":"Organization","name":"Stripe"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Mo"},{"@type":"Thing","name":"彻底透明 (radical transparency)"},{"@type":"Thing","name":"Shasterton 障碍 (Shasterton barrier)"},{"@type":"Thing","name":"GPT-3"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","item":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等
 
@@ -85,7 +85,7 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
 
 其次，要想把公司做大，必须趁早种下国际化的种子，别在本土市场挖坑把自己困住，特别是在有了 AI 智能体之后，跨国复制业务和做系统实验的门槛已经被大幅拉低。再来，引入 AI 不只是买个工具，它需要底层的透明写作文化做支撑，Alan 借此打破了公司里“向来如此”的惯性思维，让人均创收曲线从线性变成了指数级，员工也从体力执行者变成了调校智能体的指挥官。最后，面对 AI 的生产力大爆发，不要只想着降本，而应该去扩大规模、提高质量，甚至给员工更多自由；而对于整个法国和欧洲来说，拥抱 AI 不仅仅是个商业选择题，更是一场为了经济主权和文明延续的生死竞速，新一代的创业家必须把野心和紧迫感拉满。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">80% 的人更喜欢使用我们的 AI，而不是等半个小时去和医生交谈。</span>  
 > *80% of people prefer to use our IA than to wait half an hour to talk to a doctor.*  
@@ -163,18 +163,10 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

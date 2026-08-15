@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-yc-building-the-first-data-centers-in-space#post","headline":"把数据中心搬上太空：StarCloud 的万亿美元硬科技突围","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-yc-building-the-first-data-centers-in-space","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-yc-building-the-first-data-centers-in-space","description":"当 AI 耗电量逼疯地球，他把数据中心送进太空，从被拒百次到成为 YC 史上最快独角兽。","datePublished":"2026-08-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-05-yc-building-the-first-data-centers-in-space.jpg","about":[{"@type":"Person","name":"Philip Johnston"},{"@type":"Organization","name":"StarCloud"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"发射成本 (launch cost)"},{"@type":"Thing","name":"H100"},{"@type":"Thing","name":"相变材料 (phase change material)"},{"@type":"Thing","name":"辐射 (radiation)"},{"@type":"Thing","name":"Starship"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"把数据中心搬上太空：StarCloud 的万亿美元硬科技突围","item":"https://talk.solomind.cc/2026-08-05-yc-building-the-first-data-centers-in-space"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把数据中心搬上太空：StarCloud 的万亿美元硬科技突围</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把数据中心搬上太空：StarCloud 的万亿美元硬科技突围</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 把数据中心搬上太空：StarCloud 的万亿美元硬科技突围
 
@@ -75,7 +75,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 ## 本集带走
 最后收个尾，这一集值得带走的核心脉络其实很清晰。第一，极其疯狂的技术构想，往往建立在极其严密的宏观趋势推演之上——Philip 算准了火箭可回收技术将引发发射成本暴跌，提前卡位。第二，真正的极客精神不是等条件完美，而是在发货前凌晨用冰浴和吹风机搞定热循环测试，用汽车级零件硬扛粒子加速器，靠这些非常规操作把上亿的成本压到几百万。第三，创始人必须有直面周期的定力，StarCloud 从被一百多家 VC 拒绝，到被 Benchmark 追捧，中间的差异只是时间走到了算力变成国家安全命脉、地面基建全面停摆的那一天。太空不再是卫星通讯的专属，它是下一代算力基础设施的终极避风港。
 
-<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>10 条</span></div>
 
 > <span class="qz">因为我们实际上从一个大型机构那里得到了关于做 StarCloud 1 成本的报价，他们说7500万到1亿美元。而我们做了整个 StarCloud 2，包括发射，只花了200万美元。</span>  
 > *Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million. And we did the whole of StarCloud 2, including the launch, for $2 million.*  
@@ -169,18 +169,10 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

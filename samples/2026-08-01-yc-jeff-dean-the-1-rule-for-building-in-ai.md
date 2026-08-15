@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai#post","headline":"Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai","mainEntityOfPage":"https://talk.solomind.cc/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai","description":"从算盘数学到造 TPU,Jeff Dean 讲了为什么推理硬件、上下文工程和「挑选问题」是 AI 创业者的必修课。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai.jpg","about":[{"@type":"Person","name":"Jeff Dean"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"多智能体系统 (multi-agent systems)"},{"@type":"Thing","name":"专用推理硬件 (inference hardware)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"TPU"},{"@type":"Thing","name":"MapReduce"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"AlphaFold"},{"@type":"Thing","name":"Gemini"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点","item":"https://talk.solomind.cc/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点
 
@@ -139,7 +139,7 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 
 最后,Jeff 留下的终极问题:如果这件事做成了,世界是会真切变好,还是只是「挺酷」?把这个问题问到底,你的职业生涯这条工具腰带,自然会挂满最趁手的家伙。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">可能有一点是人们还没有完全意识到,拥有基于智能体的系统是多么可能,这些系统不仅可以针对你关心的问题运行一两个小时,而且在某些问题领域,并且在拥有高能力模型作为底层支撑的情况下,你可以让它们运行几天或几周,并完成真正非常复杂的任务。</span>  
 > *Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.*  
@@ -221,18 +221,10 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-12-lennys-how-tech-workers-actually-feel-about#post","headline":"AI 时代的科技人情绪实录：一半狂欢，一半崩塌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-12-lennys-how-tech-workers-actually-feel-about","mainEntityOfPage":"https://talk.solomind.cc/2026-07-12-lennys-how-tech-workers-actually-feel-about","description":"六千份问卷揭示科技圈被 AI 劈成两半：倦怠激增，大家都劝新人别入行。","datePublished":"2026-07-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-12-lennys-how-tech-workers-actually-feel-about.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about","about":[{"@type":"Person","name":"Noam Segal"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cognition"},{"@type":"Thing","name":"职业倦怠 (burnout)"},{"@type":"Thing","name":"认知衰退 (cognitive rot)"},{"@type":"Thing","name":"同薪挤压 (squeeze)"},{"@type":"Thing","name":"NPS"},{"@type":"Thing","name":"技能萎缩 (skill atrophy)"},{"@type":"Thing","name":"经理有效性 (manager effectiveness)"},{"@type":"Thing","name":"大扁平化 (great flattening)"},{"@type":"Thing","name":"冒名顶替综合征 (imposter phenomenon)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"AI 时代的科技人情绪实录：一半狂欢，一半崩塌","item":"https://talk.solomind.cc/2026-07-12-lennys-how-tech-workers-actually-feel-about"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代的科技人情绪实录：一半狂欢，一半崩塌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代的科技人情绪实录：一半狂欢，一半崩塌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # AI 时代的科技人情绪实录：一半狂欢，一半崩塌
 
@@ -86,7 +86,7 @@ jsonLd: |
 ## 本集带走
 最后收个尾，这一集值得带走的是这几句话。第一，AI 已经把科技圈劈成了两半，别以为大家都跟你感同身受，那些你觉得不可理喻的同事，可能只是陷入了「迷失」或者「被削弱」的另一半里。第二，现在的局面是「微笑着的疲惫」，大家都在享受造物的快感，但倦怠率因为期望值的无脑拔高而飙升，因 AI 失业其实排在恐惧榜倒数第二，人们最怕的是拿一样的钱被逼着干更多。第三，现在没人推荐新人入行，连最爽的创始人都在劝退，因为技术这把梯子正在抽走底层的横档。第四，想活得好一点，要么去小公司，要么死死抱住你那个高效的好经理，因为经理的优劣对你的身心健康有着一锤定音的影响。第五，对于普通人，别试图当包揽一切的全才，挑准一件事深扎，主动跟经理谈工作量，去找一个愿意带你的导师；对于公司高管，把钱砸在经理培训上，保住你的管理层，这才是抵御挖角和崩盘的终极杠杆。
 
-<div class="pd-sec">全部金句 <span>13 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>13 条</span></div>
 
 > <span class="qz">我实际上首先要指出的是，只有 3% 的人报告说 AI 没有改变他们的身份。</span>  
 > *And I'll actually call out, first of all, that only 3% of people reported that AI hasn't shifted their identity.*  
@@ -192,18 +192,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

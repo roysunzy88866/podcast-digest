@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#post","headline":"Kimi K3 冲击波:开源逼近前沿,格局要变","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge","description":"前白宫 AI 顾问解析中国开源模型追平前沿带来的定价、安全与护城河变局。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.jpg","about":[{"@type":"Person","name":"Theo Jaffe"},{"@type":"Person","name":"Sriram Krishnan"},{"@type":"Person","name":"Sofia Puccini"},{"@type":"Organization","name":"Hugging Face"},{"@type":"Thing","name":"开源权重 (open weight)"},{"@type":"Thing","name":"前沿实验室 (frontier labs)"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Kimi K3"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"Kimi K3 冲击波:开源逼近前沿,格局要变","item":"https://talk.solomind.cc/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kimi K3 冲击波:开源逼近前沿,格局要变</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kimi K3 冲击波:开源逼近前沿,格局要变</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Kimi K3 冲击波:开源逼近前沿,格局要变
 
@@ -74,7 +74,7 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 
 第二,别把安全当限制开源的借口——开源让全世界都能审查、反而更安全;当防御者自己用闭源模型查漏洞却被安全机制拦下,这套逻辑就该修了。第三,面对蒸馏(用大模型的回答训练小模型)的争议,与其封堵,不如立规矩——必须让美国本土的开源团队和外国竞争者在同一条起跑线上,而只要你的产品真有价值,整条供应链自然会想办法让这门生意跑通。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">你可能不需要前沿的 token。你可能能够用前沿减一,或者你选择的开源权重 token 来应付。</span>  
 > *you may not need frontier tokens. You may be able to get by with frontier minus one or your open weight token of choice.*  
@@ -148,18 +148,10 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

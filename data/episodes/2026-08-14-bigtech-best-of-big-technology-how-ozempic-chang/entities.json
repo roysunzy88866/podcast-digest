@@ -1,0 +1,1241 @@
+{
+  "episode_id": "2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-14",
+  "tags": [
+    "减肥药",
+    "GLP-1",
+    "肥胖危机",
+    "加工食品",
+    "经济冲击"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "johan-hari",
+      "type": "person",
+      "role": "host",
+      "name": "Johan Hari",
+      "file": "Johan Hari",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.13,
+            30.722
+          ],
+          "quote": "With Big Technology Podcast Friday edition on break this week, let's go back to my 2024 interview with author Johan Hari, who tried the drug for more than a year and went to its inventors to find the truth about its capabilities.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2489.907,
+            2493.069
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Johan Hari.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3145.406,
+            3147.108
+          ],
+          "quote": "Johan Hari, thank you so much for joining us.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ozempic",
+      "type": "company",
+      "role": "company",
+      "name": "Ozempic",
+      "file": "Ozempic",
+      "primary": true,
+      "how_described": "本集说 Ozempic 是一种 GLP-1 受体激动剂药物，通过注射人工合成的 GLP-1 将天然饱腹信号从几分钟延长到一周，服用者平均一年减掉体重的 15%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            5.397
+          ],
+          "quote": "GLP-1 agonists like Ozempic are having a profound impact on our bodies and economy.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 21,
+          "t": [
+            94.995,
+            100.499
+          ],
+          "quote": "Today, we're diving into health, specifically about Ozempic and the other range of weight loss pills.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 112,
+          "t": [
+            550.596,
+            559.918
+          ],
+          "quote": "I mean, obviously we're going to talk about Ozempic as an answer to this, but before we get into that, how have they been able to engineer the food to make us never feel full?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 146,
+          "t": [
+            750.984,
+            751.865
+          ],
+          "quote": "And that is Ozempic.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 147,
+          "t": [
+            752.365,
+            758.231
+          ],
+          "quote": "And not just Ozempic, but a full family of new drugs that is going to help people feel a little bit more full.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 159,
+          "t": [
+            833.433,
+            837.794
+          ],
+          "quote": "Like, I realise now, I had never felt full until I took Ozempic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            845.676,
+            850.338
+          ],
+          "quote": "I had rarely felt sated until I took Ozempic in a way that I now feel sated every day, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            870.162,
+            877.704
+          ],
+          "quote": "So talk a little bit about how Ozempic counters this insatiable hunger that we end up being left with from processed foods.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 171,
+          "t": [
+            877.724,
+            883.226
+          ],
+          "quote": "And what's your experience been like in the year and five months that you've used Ozempic?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 178,
+          "t": [
+            916.745,
+            920.647
+          ],
+          "quote": "I'll never forget, second day I took Ozempic, I was lying in bed,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1023.854,
+            1030.839
+          ],
+          "quote": "The average person who takes Ozempic, Wegovy, they're the same thing with different labels, loses 15% of their body weight in a year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1031.88,
+            1036.663
+          ],
+          "quote": "With Moonjaro, so Ozempic and Wegovy work on one gut hormone, GLP-1.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1317.935,
+            1320.437
+          ],
+          "quote": "I mean, yeah, because Ozempic goes right after their target market.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1355.021,
+            1357.463
+          ],
+          "quote": "But eight years from now, Ozempic goes out of patent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1551.613,
+            1558.559
+          ],
+          "quote": "I mean, you mentioned that 2030 is when the patent comes off of Ozempic, but actually in China, that patent's off now.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1559.32,
+            1566.666
+          ],
+          "quote": "And there are compounding pharmacies that are effectively putting Ozempic together on their own, sort of off-label.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1574.053,
+            1586.962
+          ],
+          "quote": "And the only reason that they're able to get it from these compounding pharmacies is because Ozempic right now is on some sort of shortage list, which means that they're able to get it from these supply chains.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1602.813,
+            1621.44
+          ],
+          "quote": "So what do you think is going to happen on that front and how impactful do you think it might be if you have, let's say, millions of people taking effectively the same drug as Ozempic and then all of a sudden it goes from an affordable drug to what it is now if you want to get it name-branded, which is $1,300 a week?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1651.706,
+            1654.467
+          ],
+          "quote": "So I buy my Ozempic here in Britain.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2713.289,
+            2720.495
+          ],
+          "quote": "I went to the KFC on West Sahara and I ordered a bucket of fried chicken, as I would have done before I was taking Ozempic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3054.741,
+            3056.801
+          ],
+          "quote": "So I interviewed parents who'd given their children Ozempic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "wegovy",
+      "type": "company",
+      "role": "company",
+      "name": "Wegovy",
+      "file": "Wegovy",
+      "primary": false,
+      "how_described": "本集说 Wegovy 与 Ozempic 是同一种东西，只是贴着不同的标签",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1023.854,
+            1030.839
+          ],
+          "quote": "The average person who takes Ozempic, Wegovy, they're the same thing with different labels, loses 15% of their body weight in a year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1031.88,
+            1036.663
+          ],
+          "quote": "With Moonjaro, so Ozempic and Wegovy work on one gut hormone, GLP-1.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1772.839,
+            1789.252
+          ],
+          "quote": "So for people who don't know, yeah, when a drug is, when you can demonstrate a medical need for a drug, but there is a shortage of that drug, as there is at the moment, and it's worth explaining why there's a shortage, every person who takes a Zempik, Wegovy, Manjaro becomes a walking advertisement for that drug, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "moonjaro",
+      "type": "company",
+      "role": "company",
+      "name": "Moonjaro",
+      "file": "Moonjaro",
+      "primary": false,
+      "how_described": "本集说 Moonjaro 作用于两种肠道激素（GLP-1 和 GIP），服用者平均一年减掉体重的 21%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1031.88,
+            1036.663
+          ],
+          "quote": "With Moonjaro, so Ozempic and Wegovy work on one gut hormone, GLP-1.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1037.023,
+            1040.466
+          ],
+          "quote": "Moonjaro works on two gut hormones, it's GLP-1 and GIP.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ggg",
+      "type": "company",
+      "role": "company",
+      "name": "GGG",
+      "file": "GGG",
+      "primary": false,
+      "how_described": "本集说 GGG 作用于三种肠道激素，正在研发中，服用者平均减重 24%，仅略低于减重手术",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1045.217,
+            1055.211
+          ],
+          "quote": "And for GGG, which will be coming online probably next year, which acts on three gut hormones, the average person loses 24% of their body weight, which is only slightly below bariatric surgery.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "novo-nordisk",
+      "type": "company",
+      "role": "company",
+      "name": "Novo Nordisk",
+      "file": "Novo Nordisk",
+      "primary": false,
+      "how_described": "本集说诺和诺德是制造此类药物的公司之一，目前正在对 6 岁儿童进行试验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1844.368,
+            1851.149
+          ],
+          "quote": "So although they have been, Novo Nordisk and Eli Lilly, the companies that make these drugs, have been massively, to be fair to them, expanding production.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3042.818,
+            3051.84
+          ],
+          "quote": "And if you're a six-year-old and you're given these drugs, and Novo Nordisk is currently doing a trial on giving them to six-year-olds, if you're a six-year-old and you take these drugs, we're presumably saying you're going to take these drugs for 80 years.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "eli-lilly",
+      "type": "company",
+      "role": "company",
+      "name": "Eli Lilly",
+      "file": "Eli Lilly",
+      "primary": false,
+      "how_described": "本集说礼来是制造此类减肥药物的公司之一，正在大规模扩大生产",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1844.368,
+            1851.149
+          ],
+          "quote": "So although they have been, Novo Nordisk and Eli Lilly, the companies that make these drugs, have been massively, to be fair to them, expanding production.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "glp-1",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLP-1",
+      "file": "GLP-1",
+      "primary": true,
+      "how_described": "本集说 GLP-1 是胰腺在进食后产生的天然激素，相当于身体的刹车信号告诉人吃够了，但天然 GLP-1 只在体内停留几分钟就被冲走",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            5.397
+          ],
+          "quote": "GLP-1 agonists like Ozempic are having a profound impact on our bodies and economy.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 173,
+          "t": [
+            886.747,
+            891.808
+          ],
+          "quote": "After a little while, your pancreas will produce a hormone called GLP-1, along with some other hormones.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            892.857,
+            898.319
+          ],
+          "quote": "And GLP-1 is basically your body's natural signals going, hey buddy, you had enough, stop eating, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            899.699,
+            904.061
+          ],
+          "quote": "But natural GLP-1 only stays around in your system for a couple of minutes and then it's washed away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 177,
+          "t": [
+            904.781,
+            916.685
+          ],
+          "quote": "What these drugs do is they inject you with an artificial copy of GLP-1 that instead of sticking around for a few minutes, sticks around in your system for a whole week, which has this incredible effect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1031.88,
+            1036.663
+          ],
+          "quote": "With Moonjaro, so Ozempic and Wegovy work on one gut hormone, GLP-1.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1037.023,
+            1040.466
+          ],
+          "quote": "Moonjaro works on two gut hormones, it's GLP-1 and GIP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2300.585,
+            2303.306
+          ],
+          "quote": "You have GLP-1 receptors, not just in your gut, but in your brain.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "glp-1-agonists",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLP-1 受体激动剂 (GLP-1 agonists)",
+      "file": "GLP-1 受体激动剂",
+      "primary": false,
+      "how_described": "本集开头说 GLP-1 受体激动剂如 Ozempic 正对我们的身体和经济产生深远影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.171,
+            5.397
+          ],
+          "quote": "GLP-1 agonists like Ozempic are having a profound impact on our bodies and economy.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "set-point",
+      "type": "concept",
+      "role": "concept",
+      "name": "设定点 (set point)",
+      "file": "设定点",
+      "primary": true,
+      "how_described": "本集说设定点是身体维持的体重水平，类似体温设定点；随体重增加设定点也会上升，大脑会守护更高的体重，这解释了为什么节食对约 85% 的人不产生持续效果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 425,
+          "t": [
+            2021.686,
+            2030.509
+          ],
+          "quote": "And one of the things that I found so interesting in your book was this concept of a set point that your body basically figures out the weight that you are, the weight that you should be.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2030.589,
+            2037.392
+          ],
+          "quote": "And if you try to move too far off of it, at least, you know, in terms of the negative, it will try to bring you back up to that set point of weight.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2060.136,
+            2062.976
+          ],
+          "quote": "So think about your temperature set point as an analogy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2084.384,
+            2090.187
+          ],
+          "quote": "Basically, you can't stay outside your safe temperature level, your temperature set point for very long, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2096.191,
+            2102.295
+          ],
+          "quote": "So it was thought that there was something similar with your weight, that you had an innate set point that just sort of regulated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2120.286,
+            2123.193
+          ],
+          "quote": "And that seemed to blow set point theory up, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2131.7,
+            2143.307
+          ],
+          "quote": "But what scientists realized, this is contested, but I think it's quite persuasive, is actually what happens is you do have an innate set point, but as you gain weight, your set point rises.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2161.476,
+            2166.257
+          ],
+          "quote": "Because your innate set point has risen, your brain is trying to hold you at that higher weight.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2279.641,
+            2286.682
+          ],
+          "quote": "This set point, this innate set point is preparing us for a famine that now is never going to come, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2320.722,
+            2326.545
+          ],
+          "quote": "But one theory about what it may be doing to the brain is it may be lowering your biological set point.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2327.906,
+            2340.515
+          ],
+          "quote": "The equivalent of, this is a very crude analogy, I suspect the scientists I interviewed would think it was overly crude, but it's a bit like taking your set point, resetting your iPhone to the factory settings, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2341.649,
+            2344.19
+          ],
+          "quote": "It lowers your set point for the duration that you take the drugs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "processed-food",
+      "type": "concept",
+      "role": "concept",
+      "name": "加工食品 (processed food)",
+      "file": "加工食品",
+      "primary": true,
+      "how_described": "本集说加工和超加工食品由工厂化学物质构建，破坏人感受饱腹的能力，且蛋白质含量偏低导致人吃更多才能满足身体对蛋白质的需求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            323.435,
+            336.107
+          ],
+          "quote": "And one of the ways it affects us, one of the most important ways, is processed and ultra-processed food undermines our ability to ever feel full, our ability to ever feel we've had enough and then want to stop eating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            336.568,
+            341.553
+          ],
+          "quote": "And I go through loads of evidence for this in my book, and there are many different ways in which processed food has this effect on us.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            641.183,
+            646.084
+          ],
+          "quote": "There's lots of ways in which processed food undermines our sense of fullness, some of which are not by design.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            646.364,
+            650.385
+          ],
+          "quote": "So for example, processed food has a very low amount of protein in it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            704.265,
+            707.806
+          ],
+          "quote": "There's loads of factors like that going on here with processed and ultra-processed food.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3088.199,
+            3091.482
+          ],
+          "quote": "It's because they didn't allow processed food to fuck their kids up, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ultra-processed-food",
+      "type": "concept",
+      "role": "concept",
+      "name": "超加工食品 (ultra processed food)",
+      "file": "超加工食品",
+      "primary": false,
+      "how_described": "本集说超加工食品是在工厂里由化学物质制造的食物，这个过程不叫烹饪而叫食品制造，美国儿童平均每天 67% 的卡路里来自此类食品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            323.435,
+            336.107
+          ],
+          "quote": "And one of the ways it affects us, one of the most important ways, is processed and ultra-processed food undermines our ability to ever feel full, our ability to ever feel we've had enough and then want to stop eating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            704.265,
+            707.806
+          ],
+          "quote": "There's loads of factors like that going on here with processed and ultra-processed food.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "satiety",
+      "type": "concept",
+      "role": "concept",
+      "name": "饱腹感 (satiety)",
+      "file": "饱腹感",
+      "primary": true,
+      "how_described": "本集说饱腹感是感到足够、不想要更多的感觉，加工食品深刻破坏这种感受，而 GLP-1 类药物人为地极大提升饱腹感",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            707.826,
+            721.31
+          ],
+          "quote": "I go through them in the book, which explain why it leads us to so massively overeat and why it so profoundly undermines our sense of satiety, our sense of being sated, of having had enough and not wanting more.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 158,
+          "t": [
+            820.628,
+            833.373
+          ],
+          "quote": "And what these drugs do, and I'm sure we're going to get into how, is they artificially boost your sense of satiety, your sense of fullness, to a degree that is bizarre to me.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 193,
+          "t": [
+            977.245,
+            981.228
+          ],
+          "quote": "So what these drugs do is they hugely boost your sense of satiety.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gut-hormones",
+      "type": "concept",
+      "role": "concept",
+      "name": "肠道激素 (gut hormones)",
+      "file": "肠道激素",
+      "primary": false,
+      "how_described": "本集说已知有超过 40 种肠道激素影响食欲，注射这些肠道激素的人工合成副本可以极大减少人的食量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            996.894,
+            1002.837
+          ],
+          "quote": "We've cracked the code of what regulates appetite and it's simulating and manipulating gut hormones, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1003.197,
+            1005.498
+          ],
+          "quote": "There are all sorts of gut hormones that are created when you eat.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1005.918,
+            1012.061
+          ],
+          "quote": "If you inject people with artificial copies of those gut hormones, you massively reduce the amount they eat.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1037.023,
+            1040.466
+          ],
+          "quote": "Moonjaro works on two gut hormones, it's GLP-1 and GIP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1045.217,
+            1055.211
+          ],
+          "quote": "And for GGG, which will be coming online probably next year, which acts on three gut hormones, the average person loses 24% of their body weight, which is only slightly below bariatric surgery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1058.802,
+            1062.385
+          ],
+          "quote": "Because we know there's over 40 gut hormones that affect appetite.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reward-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励系统 (reward systems)",
+      "file": "奖励系统",
+      "primary": true,
+      "how_described": "本集说奖励系统是大脑中激励人做延续生命之事的机制，有理论认为这些药物可能在抑制奖励系统，不仅抑制对食物的奖励也可能抑制对其他事物的奖励",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 546,
+          "t": [
+            2579.685,
+            2587.77
+          ],
+          "quote": "So a different theory about how these drugs may work in the brain and on the brain is that in your brain you have something called your reward systems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2588.671,
+            2594.294
+          ],
+          "quote": "Your reward systems are what motivate you to do anything that propagates life, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2605.913,
+            2610.058
+          ],
+          "quote": "One theory about how these drugs work is they may be dampening your reward systems.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "bariatric-surgery",
+      "type": "concept",
+      "role": "concept",
+      "name": "减重手术 (bariatric surgery)",
+      "file": "减重手术",
+      "primary": true,
+      "how_described": "本集说减重手术（如胃缝合术、胃袖管切除术）是此前最可靠的彻底减肥方法，术后七年心脏病死亡风险降 56%、癌症降 60%、全因死亡降 40%，但自杀风险几乎翻四倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1045.217,
+            1055.211
+          ],
+          "quote": "And for GGG, which will be coming online probably next year, which acts on three gut hormones, the average person loses 24% of their body weight, which is only slightly below bariatric surgery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1753.183,
+            1761.869
+          ],
+          "quote": "These are those epic style drugs where if you're severely overweight, 20% are doing this bariatric surgery to shrink the stomach.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2822.837,
+            2830.818
+          ],
+          "quote": "I think, and we know this with other forms of, I often think the best way of understanding the effects of these drugs is actually to compare them to bariatric surgery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2831.459,
+            2843.841
+          ],
+          "quote": "People have only been taking these drugs for obesity for a couple of years now, but when it comes to radical weight loss, the most reliable method up to now has been bariatric surgery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2851.406,
+            2853.347
+          ],
+          "quote": "So when we look at bariatric surgery, what do we see?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2870.237,
+            2876.662
+          ],
+          "quote": "If you have bariatric surgery in the seven years that follow, you are 56% less likely to die of a heart attack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2890.771,
+            2898.777
+          ],
+          "quote": "So we know it has extraordinary benefits, but also we know, interestingly, after bariatric surgery, your suicide risk almost quadruples.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2919.149,
+            2927.597
+          ],
+          "quote": "As Professor Karel Leroux, who's done a lot of work both on bariatric surgery and on these drugs, said to me, part of it, I think, is...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "famine",
+      "type": "concept",
+      "role": "concept",
+      "name": "饥荒 (famine)",
+      "file": "饥荒",
+      "primary": false,
+      "how_described": "本集说饥荒在人类进化环境中很常见，进化让身体在获得体重后拼命保持，因为如果发生饥荒最胖的人活到最后，但现代的无限卡路里环境让这个机制变成了负担",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            2239.019,
+            2244.645
+          ],
+          "quote": "The scenario that did happen quite frequently that evolution did prepare us for is the exact opposite, famine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2245.265,
+            2247.347
+          ],
+          "quote": "Famine was very common, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2248.188,
+            2252.212
+          ],
+          "quote": "In the circumstances where human beings evolved, it was quite likely there would be a famine in your lifetime.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2259.077,
+            2262.54
+          ],
+          "quote": "If there's a famine, the fattest man at the start is the last man standing, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2262.56,
+            2263.261
+          ],
+          "quote": "There was a famine.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2279.641,
+            2286.682
+          ],
+          "quote": "This set point, this innate set point is preparing us for a famine that now is never going to come, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cheesecake-park",
+      "type": "concept",
+      "role": "concept",
+      "name": "芝士蛋糕公园 (Cheesecake Park)",
+      "file": "芝士蛋糕公园",
+      "primary": false,
+      "how_described": "本集说芝士蛋糕公园是一个实验的昵称，老鼠接触培根、士力架和芝士蛋糕后几天内变得严重肥胖，拿走垃圾食品后宁愿饿死也不吃健康食物",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            143.585,
+            148.126
+          ],
+          "quote": "The way that I think we should do that is talking about the Cheesecake Park or the Cheesecake Rats.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 36,
+          "t": [
+            172.773,
+            175.014
+          ],
+          "quote": "So what is the cheesecake rat in the Cheesecake Park?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 67,
+          "t": [
+            347.11,
+            348.371
+          ],
+          "quote": "I nicknamed it Cheesecake Park.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            514.263,
+            517.665
+          ],
+          "quote": "Now, I would argue we are all living in a version of Cheesecake Park now.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "metabolism",
+      "type": "concept",
+      "role": "concept",
+      "name": "新陈代谢 (metabolism)",
+      "file": "新陈代谢",
+      "primary": false,
+      "how_described": "本集说节食会减慢新陈代谢使保持体重更难，溜溜球式节食会严重破坏新陈代谢，而服药再停药是否同样破坏新陈代谢尚不明确",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            1989.873,
+            1992.114
+          ],
+          "quote": "We know that slows down your metabolism over time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1994.935,
+            2003.119
+          ],
+          "quote": "If you yo-yo diet, if you gain weight, lose weight, gain weight, lose weight, it can really wreck your metabolism so you actually burn calories very slowly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2003.879,
+            2007.861
+          ],
+          "quote": "We don't know if taking these drugs and then coming off them slows down your metabolism.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2173.378,
+            2176.619
+          ],
+          "quote": "It will slow your metabolism down so you burn calories more slowly.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "kfc",
+      "type": "company",
+      "role": "company",
+      "name": "KFC",
+      "file": "KFC",
+      "primary": false,
+      "how_described": "本集提到 KFC 作为食品公司的例子，说其负责人有对股东利润最大化的信托责任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            471.808,
+            481.032
+          ],
+          "quote": "He took away all the American food in a way that feels to me pretty cruel as a former KFC addict, and he left them with nothing but the healthy food they'd evolved to eat that they'd had when they were growing up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 119,
+          "t": [
+            587.22,
+            596.412
+          ],
+          "quote": "If you're the head of a KFC, Kraft, any of the food companies, you have a fiduciary responsibility to your shareholders to maximize profit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2713.289,
+            2720.495
+          ],
+          "quote": "I went to the KFC on West Sahara and I ordered a bucket of fried chicken, as I would have done before I was taking Ozempic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "krispy-kreme",
+      "type": "company",
+      "role": "company",
+      "name": "Krispy Kreme",
+      "file": "Krispy Kreme",
+      "primary": false,
+      "how_described": "本集说 Krispy Kreme 的股票被下调，因为 Ozempic 直奔它的目标市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1301.77,
+            1311.833
+          ],
+          "quote": "I mean, think about, you mentioned the food companies, the head of Nestle, Mark Schneider, has been making very nervous noises about their confectionery, Dunkin' Donuts, you know, sorry, Krispy Kreme Donuts, rather.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1324.68,
+            1329.444
+          ],
+          "quote": "At least two of my gins are due to Dunkin' Donuts and Krispy Kreme, and now I don't need it anymore, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "barclays-bank",
+      "type": "company",
+      "role": "company",
+      "name": "Barclays Bank",
+      "file": "Barclays Bank",
+      "primary": false,
+      "how_described": "本集说巴克莱银行委托分析师 Emily Field 研究这些药物，她的结论是要找对比得看智能手机的发明",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1075.414,
+            1083.8
+          ],
+          "quote": "You mentioned this at the start, but Barclays Bank commissioned a very sober-minded financial analyst, Emily Field, to go away and look at these drugs to guide their future investment decisions.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jefferies-financial",
+      "type": "company",
+      "role": "company",
+      "name": "Jefferies Financial",
+      "file": "Jefferies Financial",
+      "primary": false,
+      "how_described": "本集说 Jefferies Financial 给美国航空的报告指出，飞行一个大幅变瘦的人口需要的航空燃油少得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 266,
+          "t": [
+            1337.55,
+            1340.593
+          ],
+          "quote": "Jefferies Financial just did a big report about a year ago.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nestle",
+      "type": "company",
+      "role": "company",
+      "name": "Nestle",
+      "file": "Nestle",
+      "primary": false,
+      "how_described": "本集说雀巢负责人 Mark Schneider 一直在针对其糖果业务发出非常紧张的言论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1301.77,
+            1311.833
+          ],
+          "quote": "I mean, think about, you mentioned the food companies, the head of Nestle, Mark Schneider, has been making very nervous noises about their confectionery, Dunkin' Donuts, you know, sorry, Krispy Kreme Donuts, rather.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

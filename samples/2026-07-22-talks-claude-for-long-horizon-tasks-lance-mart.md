@@ -17,7 +17,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart#post","headline":"Claude 异步智能体架构的四块基石","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","description":"从十分钟任务到自主跑十二小时,异步智能体在架构上需要做对四件事。","datePublished":"2026-07-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Lance Martin"},{"@type":"Thing","name":"任务视界 (task horizon)"},{"@type":"Thing","name":"Managed Agents"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"验证器 (verifier)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"组织级驾驭系统 (org-level harness)"},{"@type":"Thing","name":"带内记忆 (in-band memory)"},{"@type":"Thing","name":"CloudTag"},{"@type":"Thing","name":"Claude"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Claude 异步智能体架构的四块基石","item":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude 异步智能体架构的四块基石</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude 异步智能体架构的四块基石</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Claude 异步智能体架构的四块基石
 
@@ -76,7 +76,7 @@ jsonLd: |
 
 第二,别让模型自己给自己打分,把验证器单独拎出来,让构建和验证形成一个循环,这是实现自主长跑的通用原语。第三,模型的记忆系统也分两半:边干边记的带内机制负责捕捉信息,但难免会写错或者只顾眼前;离线的做梦机制则负责审视全局、修正错误。第四,未来的智能体不再是单打独斗,而是带有独立身份的组织级驾驭系统,新人第一天就能用上全套工具,它甚至能主动巡视全局、给你未问先答的提醒。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">但是当模型只能做大约一小时的工作时，异步作为一种体验是很糟糕的。</span>  
 > *But when models can only do like an hour of work, async as an experience is kind of bad.*  
@@ -146,18 +146,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

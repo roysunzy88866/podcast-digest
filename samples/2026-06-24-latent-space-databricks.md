@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-latent-space-databricks#post","headline":"Databricks 的反击：重写数据库、统一智能体与开放的执念","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","description":"Matei 与 Reynold 讲解如何用开源打赢数据之战,以及智能体时代的新架构。","datePublished":"2026-06-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-24-latent-space-databricks.jpg","isBasedOn":"https://www.latent.space/p/databricks","about":[{"@type":"Person","name":"Matei Zaharia"},{"@type":"Person","name":"Reynold Xin"},{"@type":"Organization","name":"Databricks"},{"@type":"Organization","name":"Snowflake"},{"@type":"Organization","name":"MosaicML"},{"@type":"Organization","name":"Neon"},{"@type":"Thing","name":"Omnigen"},{"@type":"Thing","name":"LTAP"},{"@type":"Thing","name":"HTAP"},{"@type":"Thing","name":"Dream Engine"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"云沙箱 (cloud sandbox)"},{"@type":"Thing","name":"上下文策略 (contextual policies)"},{"@type":"Thing","name":"CDC"},{"@type":"Thing","name":"第二系统综合征 (second system syndrome)"},{"@type":"Thing","name":"Spark"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Databricks 的反击：重写数据库、统一智能体与开放的执念","item":"https://talk.solomind.cc/2026-06-24-latent-space-databricks"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的反击：重写数据库、统一智能体与开放的执念</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的反击：重写数据库、统一智能体与开放的执念</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Databricks 的反击：重写数据库、统一智能体与开放的执念
 
@@ -90,7 +90,7 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 
 第二,别再为了搬运数据修管道了,把交易和分析硬揉进一个引擎是死路,但只统一底下的存储层、顺手转个格式,就能拿到那个数据库界三十年的终极梦想。第三,十年老系统难免变烂,重写不一定要等五年大爆炸,拿真实业务跑通的代码去迭代,用机器学习模型来挑算法,照样能平稳换上新引擎。说到底,在数据这件事上,开放格式永远会赢。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。</span>  
 > *I asked an agent to debug something and it spent $500 because it decided to read a lot of log files and burn a lot of tokens.*  
@@ -172,18 +172,10 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

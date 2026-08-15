@@ -17,7 +17,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#post","headline":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","description":"一家八人团队靠 AI 写出稳定的编程语言 BAML，秘诀是放下审查、拥抱「slop」，并重写编程的底层地基。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vaibhav Gupta"},{"@type":"Thing","name":"BAML"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"代码审查 (code reviews)"},{"@type":"Thing","name":"不变量 (invariants)"},{"@type":"Thing","name":"执行跟踪 (execution trace)"},{"@type":"Thing","name":"类型系统 (type system)"},{"@type":"Thing","name":"工具调用 (tool calls)"},{"@type":"Thing","name":"TypeScript"},{"@type":"Thing","name":"JavaScript"},{"@type":"Thing","name":"架构文件 (architecture.md)"},{"@type":"Thing","name":"依赖图 (dependency graph)"},{"@type":"Thing","name":"CI/CD"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","item":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 对抗 AI：一种不用读代码的编程语言 BAML</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 对抗 AI：一种不用读代码的编程语言 BAML</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 用 AI 对抗 AI：一种不用读代码的编程语言 BAML
 
@@ -120,7 +120,7 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 
 第三，这也是最狠的一层：我们今天用的很多语言和系统，底层早就 baked-in 了 slop，越打补丁越碎；真正想以智能体的速度发布软件，可能得有人硬着头皮去重造 Git、重造数据库、甚至重造编程语言。Vaibhav 自己就选了最难的那条路——他在做 BAML。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
 > <span class="qz">为了击败劣质代码,我们必须成为劣质代码。</span>  
 > *To defeat the slop, we must become the slop.*  
@@ -206,18 +206,10 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

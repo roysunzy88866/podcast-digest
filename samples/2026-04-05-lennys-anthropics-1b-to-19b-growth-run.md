@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run#post","headline":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","mainEntityOfPage":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","description":"在一年十倍的增长速度下,如何做增长、用人、并用 AI 去自动化增长本身。","datePublished":"2026-04-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amol Avasare"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体编码 (agentic coding)"},{"@type":"Thing","name":"能力过剩 (capability overhang)"},{"@type":"Thing","name":"冷启动 (cold start)"},{"@type":"Thing","name":"正确的摩擦 (right friction)"},{"@type":"Thing","name":"成功灾难 (success disasters)"},{"@type":"Thing","name":"公益公司 (public benefit corporation)"},{"@type":"Thing","name":"跨职能利益相关者管理 (cross-functional stakeholder management)"},{"@type":"Thing","name":"增长自动化 (automate growth)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","item":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角
 
@@ -96,7 +96,7 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
 ## 本集带走
 最后收个尾,这一集值得带走的是几句话。第一,如果你做的是 AI 作为核心价值的产品,别再去精雕细琢那 30% 的增长优化了,因为未来的产品价值是今天的成百上千倍,你得把精力放在能接住巨大价值的「大动作」上,才不会见树不见林。第二,AI 自动化已经在吞噬增长工作流了——从识别机会、写代码、测质量到复盘,目前水平约等于初级 PM,且每一周都在变强;人在不久的将来,核心价值只剩下最难的对齐和跨部门扯皮。第三,在工程师产出被 AI 放大数倍后,传统的 PM 和设计人力反而被严重挤压,解法不是让人去死磕写代码,而是招募有产品思维的工程师,给足授权,让他们在两周以内的项目里自己当 PM。第四,增长不是榨干每一分钱,有时候为了品牌、安全和体验,你得心安理得地把钱留在桌面上,这才是长期的竞争壁垒。第五,约束本身就是自由,资源最匮乏的时候做出的最聚焦选择,往往能跑出最陡的增长曲线。最后,在这个被 AI 推着往前冲的疯狂时代,能在最疯的数字里不丢掉理智,靠的是先把自己的身体和心智底座给稳住——得不到想要的也能知足,才能在一切都不确定的时候,依然做出清醒的选择。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">你需要明白,你过去 50%、60%、70% 的运作方式,直接把它们抛在脑后吧。</span>  
 > *You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.*  
@@ -168,18 +168,10 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

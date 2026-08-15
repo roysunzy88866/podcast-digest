@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful#post","headline":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","mainEntityOfPage":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","description":"Mark Pincus拆解了他做爆款的方法论:别追求从零创新,先抄对、再优化、最后加新意。","datePublished":"2026-06-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-14-lennys-the-common-pattern-behind-successful.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful","about":[{"@type":"Person","name":"Mark Pincus"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Zynga"},{"@type":"Thing","name":"已验证、更好、全新 (Proven, Better, New)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"留存率 (retention)"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"社交网络 (social network)"},{"@type":"Thing","name":"微管理 (micromanagement)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","item":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新
 
@@ -124,7 +124,7 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 在希望扼杀你之前扼杀希望,别拿 AI 去精心打磨一个错误的产品,把它当成一天测 100 个想法的失败机器。第三,别被行业里大谈的「平台更迭」骗了,我们现在依旧深陷在移动端流量的泥潭里。与其去卷空热量的社交网络,不如去挖掘那些藏在 AI 智能体里的新可能,去找到下一个能让我们再次感到肾上腺素飙升的鸡尾酒会。
 
-<div class="pd-sec">全部金句 <span>13 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>13 条</span></div>
 
 > <span class="qz">你的直觉 95% 的时候是对的,但你的想法 75% 的时候是错的,或者充其量只有 25% 的时候是对的。</span>  
 > *Your instincts are right 95% of the time, your ideas are wrong 75% or at best right 25% of the time.*  
@@ -230,18 +230,10 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

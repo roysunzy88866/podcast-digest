@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local#post","headline":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","mainEntityOfPage":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","description":"博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。","datePublished":"2026-07-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local","about":[{"@type":"Person","name":"Alex Finn"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"open ai"},{"@type":"Thing","name":"系统提示词 (soul)"},{"@type":"Thing","name":"gpt 5.6"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"原型 (prototype)"},{"@type":"Thing","name":"浏览器使用 (browser use)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","item":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 
@@ -83,7 +83,7 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
 
 第二，评价一个模型不能光看跑分，Alex 那套七分靠人类审美、三分靠机器裁判的盲测法告诉我们，真正决定产品成败的，是它能否给出有主见的设计和能跑通的功能。第三，大模型真正的杠杆效应，在于主动放开手——把视频剪辑、筛选 500 条消息这些枯燥活儿，连同一个模糊的目标直接丢给它，让它自己在浏览器里折腾，这远比手把手下指令要高效得多。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">Fable 在理论上是超级智能的，而 Soul 在实践中是行之有效的。</span>  
 > *fable is theoretically hyper intelligent and soul is practically effective*  
@@ -153,18 +153,10 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

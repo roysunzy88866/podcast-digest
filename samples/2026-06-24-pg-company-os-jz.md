@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-pg-company-os-jz#post","headline":"Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-pg-company-os-jz","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-pg-company-os-jz","description":"一家 2018 年成立的公司如何重构成 AI 原生组织，让产品和客服团队都能用 AI 智能体端到端交付功能。","datePublished":"2026-06-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-24-pg-company-os-jz.jpg","isBasedOn":"https://www.news.aakashg.com/p/company-os-jz","about":[{"@type":"Person","name":"Jiaona Zhang"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Laurel"},{"@type":"Organization","name":"GitHub"},{"@type":"Organization","name":"Slack"},{"@type":"Organization","name":"Dust"},{"@type":"Organization","name":"Devon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"剧本 (playbook)"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"本体 (ontology)"},{"@type":"Thing","name":"船长 (captain)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能","item":"https://talk.solomind.cc/2026-06-24-pg-company-os-jz"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能
 
@@ -88,7 +88,7 @@ jsonLd: |
 
 第二，不要害怕非技术人员写代码，只要给足 AI 工具、赋能指南，配合「双轨制」的代码审查与战略评审，产品经理甚至客服都能端到端地交付完整功能。第三，团队规模不再是实力的象征，人越多协调成本越高，未来的理想团队是小而精的，你要找的是那些拥抱 AI、自带产品判断力、执行细节到位的超级资深个体贡献者。最后，正如 Jay-Z 所说，无论工具跑得多快、组织怎么重构，产品经理贴近客户、先搞清问题再想方案的基础原则不仅没变，反而比以往任何时候都更重要。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果每个人都在朝不同的方向奔跑，即使你跑得非常快，你也不会真的到达任何地方。</span>  
 > *if everyone's running in different directions, even if you're running incredibly fast, you're not really going to get anywhere.*  
@@ -170,18 +170,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

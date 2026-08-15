@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#post","headline":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","description":"AI 泡沫若破裂,牵连整个经济;两位主播拆解数据中心债务风险与前沿实验室的终极博弈。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.jpg","about":[{"@type":"Person","name":"Ranjan Roy"},{"@type":"Person","name":"Alex"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"Tesla"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"次级数据中心危机 (subprime data center crisis)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"财富效应 (wealth effect)"},{"@type":"Thing","name":"SPV"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","item":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算
 
@@ -78,7 +78,7 @@ Ranjan 的判断是:SpaceX 和特斯拉本质上是「同一个赌注」——�
 
 第二,数据中心的建设本质上是一场金融工程,SPV 把债务切碎、散布到整个经济里,跟 2008 年次贷的逻辑惊人地相似;而这一切要求 OpenAI 和 Anthropic 完美执行、收入永远指数级增长,否则就会引发连锁违约。第三,如果真接近 AGI,OpenAI 和 Anthropic 逻辑上应该关掉 API、独占智能,把它变成自家的 CRM、设计或客服产品——两位主播甚至开始首次认真假设它们被大厂收购的画面。第四,SpaceX 和特斯拉是同一个赌注的两种分身,合并几乎是必然,因为它们都靠同一个机器人经济的承诺在撑着估值。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">AI 相关股票约占今年标普 500 涨幅的一半</span>  
 > *AI related stocks account for roughly half of the rise in the s p 500 this year*  
@@ -168,18 +168,10 @@ Ranjan 的判断是:SpaceX 和特斯拉本质上是「同一个赌注」——�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

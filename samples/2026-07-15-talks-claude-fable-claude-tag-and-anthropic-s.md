@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s#post","headline":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","mainEntityOfPage":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","description":"深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。","datePublished":"2026-07-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Simon Willison"},{"@type":"Person","name":"Cat Wu"},{"@type":"Person","name":"Thariq Shihipar"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Datadog"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"ClaudeTag"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Slack"},{"@type":"Thing","name":"Bun"},{"@type":"Thing","name":"Rust"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"代码审查 (code review)"},{"@type":"Thing","name":"自动模式 (auto mode)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"重写 (rewrite)"},{"@type":"Thing","name":"工作流 (Workflows)"},{"@type":"Thing","name":"团队记忆 (team memory)"},{"@type":"Thing","name":"红队 (red team)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"GitHub"},{"@type":"Thing","name":"凭证注入 (credential injection)"},{"@type":"Thing","name":"远程控制 (remote control)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","item":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude
 
@@ -130,7 +130,7 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
 
 再者,对智能体不要光停留在提防,真正的杠杆是像 Anthropic 内部那样,通过积累大量评估和测试,把代码审查和自主运行的安全性一步步交出去,让团队成百上千个 PR 自动跑起来。最后,真碰到了失落感,别硬扛,去找个更大更野心的项目干,不管是剪视频还是做个属于自己的格斗游戏,让智能体做那些脏活累活,把人的精力省下来去体验做事情的纯粹快乐。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条</span></div>
 
 > <span class="qz">软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。</span>  
 > *Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up.*  
@@ -196,18 +196,10 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

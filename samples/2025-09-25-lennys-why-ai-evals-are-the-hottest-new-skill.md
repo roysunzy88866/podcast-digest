@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#post","headline":"做 evals 不是写单元测试，是从看数据开始的错误分析","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","mainEntityOfPage":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","description":"evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。","datePublished":"2025-09-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Hamel Husain"},{"@type":"Person","name":"Shreya Shankar"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"错误分析 (error analysis)"},{"@type":"Thing","name":"开放式编码 (open coding)"},{"@type":"Thing","name":"轴向编码 (axial coding)"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"trace"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"做 evals 不是写单元测试，是从看数据开始的错误分析","item":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>做 evals 不是写单元测试，是从看数据开始的错误分析</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>做 evals 不是写单元测试，是从看数据开始的错误分析</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 做 evals 不是写单元测试，是从看数据开始的错误分析
 
@@ -98,7 +98,7 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
 - **大部分故障不需要建 eval**：改 prompt 就能解决的直接改，只对"描述了期望行为但仍反复出错"的顽固问题建判别器，通常 4-7 个够用
 - **首次投入约一周，之后每周 30 分钟**：初始错误分析和判别器构建是一次性成本，后续维护很轻 <button class="pd-ts" data-t="91:05" data-who="Shreya Shankar" data-en="A lot of labeling, feel like we're in a good place to create the spreadsheet that Hamel had and everyone's on-board and convinced, and even a few LLM judge evaluators." aria-label="回原文"></button>
 
-<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>10 条</span></div>
 
 > <span class="qz">目标不是完美地做评估，而是可操作地改进你的产品。</span>  
 > *The goal is not to do evals perfectly, it's to actionably improve your product.*  
@@ -192,18 +192,10 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

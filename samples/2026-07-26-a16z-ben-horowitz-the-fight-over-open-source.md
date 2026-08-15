@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#post","headline":"Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-26-a16z-ben-horowitz-the-fight-over-open-source","mainEntityOfPage":"https://talk.solomind.cc/2026-07-26-a16z-ben-horowitz-the-fight-over-open-source","description":"Ben Horowitz 系统反驳了禁开源的主张,指出禁令只反竞争,不保安全。","datePublished":"2026-07-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Theo Jaffe"},{"@type":"Person","name":"Ben Horowitz"},{"@type":"Person","name":"Sofia Puccini"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Andreessen Horowitz"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Hugging Face"},{"@type":"Organization","name":"DeepSeq"},{"@type":"Organization","name":"Thinking Machines"},{"@type":"Organization","name":"Mistral"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"开放权重 (open weights)"},{"@type":"Thing","name":"专有模型 (proprietary model)"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"垄断 (monopoly)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全","item":"https://talk.solomind.cc/2026-07-26-a16z-ben-horowitz-the-fight-over-open-source"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全
 
@@ -95,7 +95,7 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
 
 第二,大厂企图封杀蒸馏并不可取,既然他们自己都在未经授权抓取全人类的数据训练模型,就不该把别人付费调用接口做蒸馏打成罪行;而如果听任闭源巨头用平台垄断手段绞杀应用开发者,那才是真正的国家安全灾难。第三,别被眼前的 AI 市场格局骗了,在一个渗透率连 3% 都不到、需求每年翻十倍的增量市场里,开源模型和闭源旗舰都有各自的广阔天地,有些活儿企业愿意花天价请超级智能干,有些活儿大家只想要个最快最便宜的模型,大家都在把蛋糕做大,真正的零和博弈还远没有到来。
 
-<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>10 条</span></div>
 
 > <span class="qz">如果你回顾这个行业的历史,所有东西的开源版本都要安全得多。</span>  
 > *If you look at the history of the industry, the open source version of everything has been much safer.*  
@@ -189,18 +189,10 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

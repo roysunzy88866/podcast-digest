@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-28-lennys-a-4-step-framework-for-building-delightf#post","headline":"Nesrine：产品愉悦感不是彩纸，是增长策略","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-28-lennys-a-4-step-framework-for-building-delightf","mainEntityOfPage":"https://talk.solomind.cc/2025-09-28-lennys-a-4-step-framework-for-building-delightf","description":"把功能需求和情感需求融合在一起做产品，才是真正的愉悦，也是拥挤市场里的差异化手段。","datePublished":"2025-09-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-28-lennys-a-4-step-framework-for-building-delightf.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-4-step-framework-for-building-delightful-products","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Nesrine Changuel"},{"@type":"Organization","name":"Spotify"},{"@type":"Organization","name":"Google Meet"},{"@type":"Organization","name":"Chrome"},{"@type":"Organization","name":"Uber"},{"@type":"Organization","name":"Revolut"},{"@type":"Thing","name":"delight"},{"@type":"Thing","name":"deep delight"},{"@type":"Thing","name":"surface delight"},{"@type":"Thing","name":"低愉悦 (low delight)"},{"@type":"Thing","name":"消除摩擦 (removing friction)"},{"@type":"Thing","name":"预判需求 (anticipating need)"},{"@type":"Thing","name":"超出预期 (exceeding expectation)"},{"@type":"Thing","name":"情感连接 (emotional connection)"},{"@type":"Thing","name":"人性化 (humanization)"},{"@type":"Thing","name":"B2H"},{"@type":"Thing","name":"愉悦网格 (delight grid)"},{"@type":"Thing","name":"习惯化效应 (habituation effect)"},{"@type":"Thing","name":"包容性 (inclusion)"},{"@type":"Thing","name":"熟悉度 (familiarity)"},{"@type":"Thing","name":"情感动机 (emotional motivators)"},{"@type":"Thing","name":"彩纸效应 (confetti effect)"},{"@type":"Thing","name":"Zoom 疲劳 (Zoom fatigue)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Nesrine：产品愉悦感不是彩纸，是增长策略","item":"https://talk.solomind.cc/2025-09-28-lennys-a-4-step-framework-for-building-delightf"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nesrine：产品愉悦感不是彩纸，是增长策略</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nesrine：产品愉悦感不是彩纸，是增长策略</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Nesrine：产品愉悦感不是彩纸，是增长策略
 
@@ -140,7 +140,7 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 - **说服老板的技巧**：别「推销愉悦」这个词，搞清老板最看重什么，展示消除摩擦和预判需求怎么帮他达成那个目标。
 - **警惕习惯化效应**：惊喜会消退，必须有持续升级计划（如 Google Meet 背景从模糊一路进化到 AI 生成）。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条</span></div>
 
 > <span class="qz">所以这就是为什么愉悦不是在你的实用性之上点缀快乐。它是关于创造一种情感完全处于体验核心的体验。</span>  
 > *So that's why like the light is not about sprinkling joy on top of your utility. It's about creating an experience where emotion is completely on the heart of the experience.*  
@@ -206,18 +206,10 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

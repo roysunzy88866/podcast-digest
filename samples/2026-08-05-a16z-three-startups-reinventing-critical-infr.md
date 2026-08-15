@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-a16z-three-startups-reinventing-critical-infr#post","headline":"造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-a16z-three-startups-reinventing-critical-infr","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-a16z-three-startups-reinventing-critical-infr","description":"三家硬科技公司创始人探讨海洋探索、关键矿物供应链与便携核反应堆的未来。","datePublished":"2026-08-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Willowryan"},{"@type":"Organization","name":"Ulysses"},{"@type":"Organization","name":"Mariana Minerals"},{"@type":"Organization","name":"Radiant"},{"@type":"Thing","name":"自主水下航行器 (autonomous underwater vehicle)"},{"@type":"Thing","name":"关键矿物 (critical minerals)"},{"@type":"Thing","name":"微反应堆 (microreactors)"},{"@type":"Thing","name":"垂直整合 (vertically integrated)"},{"@type":"Thing","name":"强化学习 (reinforcement learning)"},{"@type":"Thing","name":"大型语言模型 (llms)"},{"@type":"Thing","name":"承购协议 (offtake agreements)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造","item":"https://talk.solomind.cc/2026-08-05-a16z-three-startups-reinventing-critical-infr"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造
 
@@ -108,7 +108,7 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 
 第二,旧产业最大的护城河不是技术,而是规避风险的文化——要向僵化的采矿业卖单点软件行不通,唯一能撬动它的做法是自己端到端做一家垂直整合的新型公司,把软件和重资产捏在一起。第三,真正能改变物理世界的不是把同一个老物件做大,而是重新定义它的形态——把核反应堆缩到拖车大小、像流水线造汽车一样量产,一次只专注搞定一个能变现的奇迹。这三件事的共同底色是:在软件吃掉世界之后,最难啃也最有杠杆的硬骨头,全在物理世界里。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">这可能是一个在生物技术、长寿和其他人们想要进行实验的形式方面做一些有趣的事情的好地方,人们想要自愿接受可能的治疗或类似的东西,但这里的政府不会让他们做。</span>  
 > *It could be a great place to do some interesting things in biotech and longevity and other kind of forms of experimentation where people want to, they want to voluntarily like take maybe treatments or something like that, but the government here won't let them.*  
@@ -178,18 +178,10 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

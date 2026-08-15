@@ -22,7 +22,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#post","headline":"Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto","mainEntityOfPage":"https://talk.solomind.cc/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto","description":"前 OpenAI 与 Google Brain 核心主将指出 Transformer 无法持续学习,正在探寻下一代新架构。","datePublished":"2026-07-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto.jpg","about":[{"@type":"Person","name":"Sonja"},{"@type":"Person","name":"Rohan Anil"},{"@type":"Person","name":"Jerry Tworek"},{"@type":"Organization","name":"Core Automation"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"transformer"},{"@type":"Thing","name":"强化学习 (reinforcement learning)"},{"@type":"Thing","name":"预训练 (pre-training)"},{"@type":"Thing","name":"测试时学习 (test time)"},{"@type":"Thing","name":"算子 (kernel)"},{"@type":"Thing","name":"持续学习 (continual learning)"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"计算深度 (computational depth)"},{"@type":"Thing","name":"思维链 (chain of thought)"},{"@type":"Thing","name":"编码智能体 (coding agent)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构","item":"https://talk.solomind.cc/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构
 
@@ -97,7 +97,7 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 第二,想大幅提升计算效率,别再给「一次只吐一个词」的推理方式打补丁了,必须把预训练和强化学习结合起来端到端去优化,让算力花得更值。第三,要实现疯狂的实验迭代速度去寻找新架构,就得啃下硬骨头——用智能体攻克底层内核生成的难关,让模型自己学会为新颖的架构写出能在硬件上极速运行的代码。等哪天研究员能放心去放长假,模型还能在实验室里自己搞出新研究成果,那真正的下一代架构就算成了。
 
-<div class="pd-sec">全部金句 <span>11 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>11 条</span></div>
 
 > <span class="qz">如果 Transformer 是有利可图的,如果你可以花费更多的努力和资源来扩大 Transformer 以在下一个季度获胜,那么很难把大量的注意力和精力投入到可能在一两年内更好或重新定义该领域的事情上。</span>  
 > *If Transformer is profitable and if you can spend more efforts and more resources scaling Transformer to win in the next quarter, it's very hard to put at least a lot of attention and a lot of energy to work on something that will maybe better or maybe will redefine the field in a year or two.*  
@@ -195,18 +195,10 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

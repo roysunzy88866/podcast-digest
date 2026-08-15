@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-02-lennys-this-cpo-regrets-that-product-management#post","headline":"让最资深的人回去写文档:Whatnot CPO 的 PM 新法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-02-lennys-this-cpo-regrets-that-product-management","mainEntityOfPage":"https://talk.solomind.cc/2026-08-02-lennys-this-cpo-regrets-that-product-management","description":"Whatnot CPO Tom Verrilli 主张把最资深的人推回一线做具体事,用更少但更资深的人取代层层管理。","datePublished":"2026-08-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-02-lennys-this-cpo-regrets-that-product-management.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management","about":[{"@type":"Person","name":"Tom Verrilli"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Whatnot"},{"@type":"Organization","name":"Twitch"},{"@type":"Organization","name":"Twitter"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"IC"},{"@type":"Thing","name":"数据科学 (data science)"},{"@type":"Thing","name":"直播购物 (live commerce)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"拉手风琴 (play the accordion)"},{"@type":"Thing","name":"产品剧场 (product theater)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"微管理 (micromanagement)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"让最资深的人回去写文档:Whatnot CPO 的 PM 新法则","item":"https://talk.solomind.cc/2026-08-02-lennys-this-cpo-regrets-that-product-management"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让最资深的人回去写文档:Whatnot CPO 的 PM 新法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让最资深的人回去写文档:Whatnot CPO 的 PM 新法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 让最资深的人回去写文档:Whatnot CPO 的 PM 新法则
 
@@ -168,7 +168,7 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
 
 第四,管理不是脱离一线的远程遥控,你必须扎进泥里去搞清楚最基本的事实,否则所谓的自上而下的强势决策,就会沦为不靠谱的[[微管理|微管理]]。最后,日常干活时记得「拉手风琴」:别光埋头瞎跑实验,也别光写宏大路线图,要在战略推演和最小可行验证之间反复拉扯,在不断学习中去逼近正确的方向。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
 > <span class="qz">招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。</span>  
 > *Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.*  
@@ -254,18 +254,10 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

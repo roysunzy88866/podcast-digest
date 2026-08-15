@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-25-lennys-why-your-product-stopped-growing#post","headline":"增长停滞怎么办？Jason Cohen 的四步诊断法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-25-lennys-why-your-product-stopped-growing","mainEntityOfPage":"https://talk.solomind.cc/2026-01-25-lennys-why-your-product-stopped-growing","description":"四次创始人 Jason Cohen 用四个按顺序排查的问题，帮你精准定位 SaaS 增长卡壳的真正瓶颈。","datePublished":"2026-01-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-25-lennys-why-your-product-stopped-growing.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-your-product-stopped-growing","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Jason Cohen"},{"@type":"Thing","name":"客户流失率 (churn)"},{"@type":"Thing","name":"定价 (pricing)"},{"@type":"Thing","name":"NRR"},{"@type":"Thing","name":"渠道饱和 (channel saturation)"},{"@type":"Thing","name":"入职引导 (onboarding)"},{"@type":"Thing","name":"定位 (positioning)"},{"@type":"Thing","name":"大象曲线 (elephant curve)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"营销漏斗 (marketing funnel)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"增长停滞怎么办？Jason Cohen 的四步诊断法","item":"https://talk.solomind.cc/2026-01-25-lennys-why-your-product-stopped-growing"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长停滞怎么办？Jason Cohen 的四步诊断法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长停滞怎么办？Jason Cohen 的四步诊断法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 增长停滞怎么办？Jason Cohen 的四步诊断法
 
@@ -114,7 +114,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 第四步，如果前三个都没问题，承认你的营销渠道可能已经「大象曲线」衰退打满了，去做点真正不同的渠道拓展，别再逼着营销部门死磕老渠道。最后，如果这一切都试过了还是不长，停下来问自己一句：我真的还需要它长吗？也许换个赛道才是对自己最好的决定。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">你的价格太低了，因为你只是猜的，而且你从未改变过它们。</span>  
 > *Your prices are way too low because you just guessed and you haven't changed them.*  
@@ -191,18 +191,10 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts#post","headline":"「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts","description":"从百亿对冲基金爆仓到科技巨头财报狂欢,AI 变现的逻辑正面临市场检验。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Reid Alberghati"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Microsoft"},{"@type":"Organization","name":"Safe Superintelligence"},{"@type":"Organization","name":"Situational Awareness"},{"@type":"Organization","name":"CoreWeave"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Apple"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"算力 (compute)"},{"@type":"Thing","name":"有效利他主义 (effective altruism)"},{"@type":"Thing","name":"暗光纤 (dark fiber)"},{"@type":"Thing","name":"杰文斯悖论 (Javon's paradox)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌","item":"https://talk.solomind.cc/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌
 
@@ -98,7 +98,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 第二,算力市场的生意并非铁板一块,也绝不是零和博弈:芯片制造商稳赚不赔,前沿模型在降价中经历阵痛但也迎来了更庞大的使用基数;巨头们拿出了囤积多年的现金大建算力,这恰恰是行业在创新,不是泡沫的终点。第三,在 AI 应用全面爆发的前夜,不仅要看谁在卖水,更得看谁的平台能提供真正帮企业省钱的效率。至于谁能造出让人离不开的 AI 助手、谁的硬件帝国会因此解体,这正是接下来最值得关注的悬念。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">如果你掷硬币,49% 的概率是你炸毁世界,51% 的概率是你创造乌托邦。</span>  
 > *If you could flip a coin and, you know, 49% is you blow up the world and 51% is, you know, you create a utopia.*  
@@ -168,18 +168,10 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

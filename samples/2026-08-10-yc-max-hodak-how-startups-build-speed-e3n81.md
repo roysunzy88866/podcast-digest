@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81#post","headline":"Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81","mainEntityOfPage":"https://talk.solomind.cc/2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81","description":"深科技公司通常不是死在技术不行,而是死在采购、招聘等基础设施跟不上团队的迭代速度。","datePublished":"2026-08-10","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81.jpg","about":[{"@type":"Person","name":"Max Hodak"},{"@type":"Organization","name":"Science"},{"@type":"Organization","name":"Neuralink"},{"@type":"Thing","name":"Helix"},{"@type":"Thing","name":"迭代速度 (iteration)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"},{"@type":"Thing","name":"归因 (attribution)"},{"@type":"Thing","name":"深科技 (deep tech)"},{"@type":"Thing","name":"BCI"},{"@type":"Thing","name":"判断力 (judgment)"},{"@type":"Thing","name":"招聘 (hiring)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施","item":"https://talk.solomind.cc/2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施
 
@@ -153,7 +153,7 @@ Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧�
 
 再往下延伸一层,Max 还给了创始人一个非常扎心的提醒:别指望能把自己的判断外包出去。在几个亿美元押注的关键节点上,根本没人能给你答案,你必须有能力在绝对孤独的情况下押注并承担后果。最后跳出商业运营的视角,Max 对脑机接口的定位也非常反直觉——他根本不关心用脑机接口去对抗 AI 的近未来,他真正看重的是把它作为一种延长寿命、修复残缺的激进医疗力量。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">如果你能每周学到一件事,而有一个竞争对手每月才学到一件事,他们就永远无关紧要了。</span>  
 > *if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter.*  
@@ -227,18 +227,10 @@ Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

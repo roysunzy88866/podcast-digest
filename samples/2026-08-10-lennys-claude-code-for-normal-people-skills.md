@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-10-lennys-claude-code-for-normal-people-skills#post","headline":"不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-10-lennys-claude-code-for-normal-people-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-10-lennys-claude-code-for-normal-people-skills","description":"用 Vercel 的 Eve 框架搭一个自动审查 PR 并给风险打分的智能体，让低风险代码直接通过。","datePublished":"2026-08-10","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-10-lennys-claude-code-for-normal-people-skills.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills","about":[{"@type":"Person","name":"Claire"},{"@type":"Organization","name":"Intercom"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"chat prd"},{"@type":"Thing","name":"PR 审查智能体 (PR review agent)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"风险评分 (risk scoring)"},{"@type":"Thing","name":"Eve"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"浏览器使用 (browser use)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记","item":"https://talk.solomind.cc/2026-08-10-lennys-claude-code-for-normal-people-skills"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记
 
@@ -75,7 +75,7 @@ Claire 坦言她本来很怕搭建这种 GitHub App 和 Slack 机器人，以为
 
 第二，搭这样一个智能体一点都不复杂，用 Vercel 的 Eve 这种框架，你只要写几段简短的规则，给六个维度的打分标准，它就能自己干活。第三，即使机器人不能直接按 GitHub 的最终通过键，也能通过 Slack 把审查变成只需点击两下的流程，大幅提升速度。第四，那些繁琐的第三方服务配置，你可以直接让 AI 去操控浏览器替你点，最后别忘了像对待面向客户的产品一样，持续在内部跑评估，看看机器人到底打分打得准不准。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">AI 批准的 PR 以及 AI 编写的代码总体上甚至可能更安全，并且比你仅在流程中使用人类的质量更高。</span>  
 > *AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.*  
@@ -145,18 +145,10 @@ Claire 坦言她本来很怕搭建这种 GitHub App 和 Slack 机器人，以为
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

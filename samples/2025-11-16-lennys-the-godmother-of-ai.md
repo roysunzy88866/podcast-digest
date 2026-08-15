@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai#post","headline":"AI 教母李飞飞:从 ImageNet 到空间智能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","mainEntityOfPage":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","description":"AI 领域真正的破局,靠的是给机器喂海量数据;而下一个前沿不止于语言,而是教机器理解三维世界。","datePublished":"2025-11-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-16-lennys-the-godmother-of-ai.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-godmother-of-ai","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dr. Fei-Fei Li"},{"@type":"Organization","name":"World Labs"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"Marble"},{"@type":"Thing","name":"ImageNet"},{"@type":"Thing","name":"空间智能 (spatial intelligence)"},{"@type":"Thing","name":"世界模型 (world models)"},{"@type":"Thing","name":"具身智能 (embodied AI)"},{"@type":"Thing","name":"苦涩的教训 (bitter lesson)"},{"@type":"Thing","name":"神经网络 (neural network)"},{"@type":"Thing","name":"机器学习 (machine learning)"},{"@type":"Thing","name":"人工智能 (artificial intelligence)"},{"@type":"Thing","name":"GPU"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 教母李飞飞:从 ImageNet 到空间智能","item":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # AI 教母李飞飞:从 ImageNet 到空间智能
 
@@ -79,7 +79,7 @@ jsonLd: |
 
 第二,别迷信 AGI 这个词,现在的模型连数椅子和推导物理定律都做不好,光靠堆数据已经不够,真正的下一个前沿是跳出语言,去攻克空间智能和三维世界模型。第三,无论你是谁,别被 AI 焦虑裹挟,人的尊严和主观能动性才是技术的核心,找到你的热情,把 AI 当成工具去放大你的独特性,这才是最靠谱的应对方式。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我在两个半世纪前开始研究 AI,在过去二十年里我几乎每个学生毕业时,我都提醒他们,你的领域叫人工智能,但其中没有任何人工的成分。</span>  
 > *I started working AI two and a half decades ago, and I've been having students for the past two decades and almost every student who graduates, I remind them when they graduate from my lab that your field is called artificial intelligence, but there's nothing artificial about it.*  
@@ -153,18 +153,10 @@ jsonLd: |
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

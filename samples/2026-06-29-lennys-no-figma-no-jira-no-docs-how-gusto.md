@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#post","headline":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","mainEntityOfPage":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","description":"Gusto 联合创始人 Eddie Kim 讲述他用 4 个工程师加 1 个设计师,靠永久 Zoom 和 Claude Code 砍掉所有文档,10 周造出 Co-Founder 的全过程。","datePublished":"2026-06-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto","about":[{"@type":"Person","name":"Claire Vo"},{"@type":"Person","name":"Eddie Kim"},{"@type":"Organization","name":"Gusto"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"永久 Zoom (perma-zoom)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"垃圾桶法 (trashcan method)"},{"@type":"Thing","name":"Cloudflare Worker"},{"@type":"Thing","name":"Vercel AI SDK"},{"@type":"Thing","name":"Claude Code"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","item":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder
 
@@ -98,7 +98,7 @@ Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但�
 
 第二,给非技术人员——比如设计师和产品经理——配 AI 工具和愿意带他们的工程师,他们能爆发出你想象不到的生产力。第三,作为高管,如果你想真正理解 AI 能做什么,做出正确的战略决策,就必须亲自下场,用这些工具去写、去改、去发布生产环境的代码。最后,不要让审批流程和季度规划毁了团队的热情,十个五人小队同时去试错,哪怕全军覆没,成本也远低于一次传统的失败立项,而一旦跑通一个,就能改变公司的轨迹。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我现在称之为软件工程的垃圾桶法,在那里你实际上可以丢弃所有代码,就像开始一个 slash V2 分支并从头开始重建它。</span>  
 > *I call this the trashcan method of software engineering right now, where you can actually trash all the code, start like a slash V2 branch and rebuild it from scratch.*  
@@ -176,18 +176,10 @@ Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

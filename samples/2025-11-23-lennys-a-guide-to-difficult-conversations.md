@@ -19,7 +19,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations#post","headline":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","mainEntityOfPage":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","description":"高管教练拆解领导者的辅导技能、倦怠根源与人际关系处理，附现场演示和实用框架。","datePublished":"2025-11-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-23-lennys-a-guide-to-difficult-conversations.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Rachel Lockett"},{"@type":"Thing","name":"辅导 (coaching)"},{"@type":"Thing","name":"GROW 模型 (GROW model)"},{"@type":"Thing","name":"积极倾听 (active listening)"},{"@type":"Thing","name":"非暴力沟通 (Nonviolent Communication)"},{"@type":"Thing","name":"职业倦怠 (burnout)"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"一页纸计划 (one-page plan)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","item":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再当「答案机器」：高管教练Rachel Lockett的领导力实操课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再当「答案机器」：高管教练Rachel Lockett的领导力实操课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 别再当「答案机器」：高管教练Rachel Lockett的领导力实操课
 
@@ -115,7 +115,7 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
 ## 本集带走
 最后收个尾，这一集值得带走的是这么几条。第一，不要老想着当「答案机器」，你得学会区分什么时候该直接给指令（事情紧急、你确实知道正确答案、对方就是没那个技能），什么时候该退后一步用辅导的方式——用积极倾听去接住对方的情绪，用 GROW 模型去问一些没有标准答案的问题，帮他自己找出下一步，因为只有他自己想出来的方案，他才会真正去执行。第二，真正对抗职业倦怠的方法不是更拼命，而是搞清楚你的天赋到底在哪，想尽办法把 80% 的时间安排在这些给你充电的事情上，少做那些像油箱漏油一样消耗你的事——前提是，只有你自己才知道什么在消耗你。第三，任何冲突的终极目标不是说服对方，而是相互理解；用非暴力沟通的方法，只讲事实、诚实表达感受、说出底层需求、提出一个小而具体的请求，你能把刺刀战变成真正的对话。第四，想认清团队里的人行不行，就用 Stripe 的那把尺子问自己：你会不会「热情地重新雇佣他做这个角色」？如果答案是斩钉截铁的不，那就别再拖，去采取行动。第五，不管是对联合创始人关系，还是对全公司对齐，你都得定期走出日常执行的舞池，上到阳台去看看彼此，创造一个安全的空间去谈那些被掩盖的真实情绪和「不便的真相」。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我认为大多数领导者，尤其是技术领导者，认为他们必须拥有所有答案。</span>  
 > *I think that most leaders, especially technical leaders, assume they have to have all the answers.*  
@@ -196,18 +196,10 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva#post","headline":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","mainEntityOfPage":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva","description":"Canva CEO 讲她的「Column B」规划法:先想象疯狂的未来,再一步步把它造出来。","datePublished":"2025-11-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-02-lennys-the-making-of-canva.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-making-of-canva","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Melanie Perkins"},{"@type":"Organization","name":"Canva"},{"@type":"Thing","name":"Column B"},{"@type":"Thing","name":"疯狂大目标 (Crazy Big Goals)"},{"@type":"Thing","name":"从混乱到清晰 (chaos to clarity)"},{"@type":"Thing","name":"使命支柱 (mission pillars)"},{"@type":"Thing","name":"两步计划 (two-step plan)"},{"@type":"Thing","name":"前端重写 (front-end rewrite)"},{"@type":"Thing","name":"AI"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来","item":"https://talk.solomind.cc/2025-11-02-lennys-the-making-of-canva"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来
 
@@ -117,7 +117,7 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
 - **两步计划可以互相推动**:商业成功为公益提供资源,公益使命为团队赋予意义——两者不必先后排序,可以同时进行。
 - **用 AI 散步整理思路**:Melanie 戴上耳机出门散步,口述脑子里所有想法,回来整理出待办事项——帮自己跳出日常琐事,从宏观角度思考。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我喜欢疯狂大目标的一点是,你在它面前感到完全的不胜任。</span>  
 > *The thing that I love about a crazy big goal is that you feel completely inadequate before it.*  
@@ -194,18 +194,10 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

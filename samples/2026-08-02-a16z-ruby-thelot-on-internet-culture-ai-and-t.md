@@ -18,7 +18,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t#post","headline":"网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t","mainEntityOfPage":"https://talk.solomind.cc/2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t","description":"用数据穿透互联网文化迷雾:真正的趋势往往比算法呈现的小,而品味正在成为对抗数字丰饶的唯一美德。","datePublished":"2026-08-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ruby Thelot"},{"@type":"Person","name":"Sophia Puccini"},{"@type":"Person","name":"Sophia Du"},{"@type":"Thing","name":"网络民族志学 (cyber ethnography)"},{"@type":"Thing","name":"响亮的少数派 (loud minority)"},{"@type":"Thing","name":"多元文化 (pluriculture)"},{"@type":"Thing","name":"巴尔干化 (Balkanization)"},{"@type":"Thing","name":"机械品味 (machinic taste)"},{"@type":"Thing","name":"受众捕获 (audience capture)"},{"@type":"Thing","name":"品味 (taste)"},{"@type":"Thing","name":"生存风险 (existential risk)"},{"@type":"Thing","name":"算法 (algorithm)"},{"@type":"Thing","name":"机器人 (bot)"},{"@type":"Thing","name":"智能体 (agent)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落","item":"https://talk.solomind.cc/2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落
 
@@ -97,7 +97,7 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
 
 第二,互联网正在巴尔干化,我们分裂成无数个有自己行话的小部落,用着同样的词却彼此听不懂;而在这个一半流量可能都是机器人的时代,网络文化正在被算法和 AI 塑造出一种独特的「机械品味」。第三,面对这种内容与智能极度泛滥的局面,历史上关于「品味」的智慧重新生效了——品味不只是个人审美偏好,它原本就是一种在财富与技术爆炸中,为了防止社会堕落而进行的自我克制与主动选择;在今天,拥有好品味意味着有意识地去搜寻新事物,不被算法框死,保持一份不可被轻易规训的独立性。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我喜欢说,这是真实的事情吗?还是这只是一个穿着风衣的 TikTok 三人组?</span>  
 > *I like to say, is this a real thing? Or is this three TikToks in a trench coat?*  
@@ -179,18 +179,10 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

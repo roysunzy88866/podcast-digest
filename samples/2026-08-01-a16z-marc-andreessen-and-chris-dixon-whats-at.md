@@ -18,7 +18,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at#post","headline":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","mainEntityOfPage":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","description":"a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Robert Hackett"},{"@type":"Person","name":"Marc Andreessen"},{"@type":"Thing","name":"清晰法案 (Clarity Act)"},{"@type":"Thing","name":"稳定币 (stablecoin)"},{"@type":"Thing","name":"加密货币 (crypto)"},{"@type":"Thing","name":"区块链 (blockchain)"},{"@type":"Thing","name":"代币化 (tokenization)"},{"@type":"Thing","name":"开源 (open source)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","item":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法
 
@@ -111,7 +111,7 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 第四,谁先把规则定下来,谁就能留住这些大机构和新技术,美国不能在关键技术领域失去一百年来的领导地位。第五,真正值得警惕的不是技术被滥用,而是用无限责任把开发者和开源生态一棍子打死——那才是对整个行业的致命一击。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条</span></div>
 
 > <span class="qz">对我来说最奇怪的一点是,我和华盛顿的一些立法者有过这样的对话,他们说,我现在要支持加密货币了,因为如果它在我们试图扼杀它的整个时期都没有死,那它一定是好的。</span>  
 > *And the sort of most bizarre sort of aspect of that for me is I've had these conversations with some lawmakers in D.C. where they say, well, you know, I'm going to support crypto now because like if it didn't die during this whole period when we tried to kill it, then it must be good.*  
@@ -199,18 +199,10 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths#post","headline":"故意让人手不足:Rippling 首席产品官的非常规管理心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","mainEntityOfPage":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","description":"前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。","datePublished":"2025-12-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths","about":[{"@type":"Person","name":"Matt MacInnis"},{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amar"},{"@type":"Organization","name":"Rippling"},{"@type":"Thing","name":"刻意人手不足 (understaffed)"},{"@type":"Thing","name":"Alpha 与 Beta (alpha beta)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"幂律分布 (power law)"},{"@type":"Thing","name":"单点解决方案 (point solutions)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"故意让人手不足:Rippling 首席产品官的非常规管理心法","item":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>故意让人手不足:Rippling 首席产品官的非常规管理心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>故意让人手不足:Rippling 首席产品官的非常规管理心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 故意让人手不足:Rippling 首席产品官的非常规管理心法
 
@@ -107,7 +107,7 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
 
 第四,任何系统都会自发走向混乱,团队总会为了局部舒服去偷懒,高管的唯一职责就是每天每分钟拼死把这种衰退对抗下去,别当缓冲垫。第五,别被单点 SaaS 蒙蔽了双眼,在 AI 时代,手里没有第一方数据,就只能被两头压榨;去尽情厮杀吧,但也别忘了能生在这个时代本身就是最大的奖励。
 
-<div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>15 条</span></div>
 
 > <span class="qz">好的团队会累，而这就是伟大的团队痛扁好团队的时候。</span>  
 > *Good teams get tired and that's when great teams kick the good team's asses.*  
@@ -221,18 +221,10 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#post","headline":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","mainEntityOfPage":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","description":"黄仁勋回顾 NVIDIA 创立之初选错技术靠教科书翻盘，详解 AI 与机器人的系统思维及创始人韧性。","datePublished":"2026-07-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid.jpg","about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Person","name":"Jerry"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Sega"},{"@type":"Organization","name":"Waymo"},{"@type":"Organization","name":"Tesla"},{"@type":"Organization","name":"Mercedes"},{"@type":"Thing","name":"加速计算 (accelerated computing)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"通用函数近似器 (universal function approximator)"},{"@type":"Thing","name":"沙箱 (sandboxes)"},{"@type":"Thing","name":"深度学习 (deep learning)"},{"@type":"Thing","name":"自动驾驶汽车 (self-driving cars)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","item":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式
 
@@ -106,7 +106,7 @@ AI 消除的是「任务」,不是「工作」。一份工作是由许多任务�
 
 第四,AI 消灭的是任务不是工作,因为人类积压的雄心太多了,自动化反而会打开增长和就业的空间。第五,在这个底层代码都会被 AI 写掉的时代,系统思维——也就是能编排成百上千万个智能体、抽象地看清输入输出和瓶颈在哪的能力——才是真正值得年轻人去学的超能力。归根结底,最重要的特质是韧性,别被想象出来的焦虑吓倒,只要挺过今天,一路学下去,剩下的交给时间。
 
-<div class="pd-sec">全部金句 <span>11 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>11 条</span></div>
 
 > <span class="qz">大多数人不相信的是,我们创办公司时选择的技术绝对是错误的。</span>  
 > *The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong.*  
@@ -204,18 +204,10 @@ AI 消除的是「任务」,不是「工作」。一份工作是由许多任务�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

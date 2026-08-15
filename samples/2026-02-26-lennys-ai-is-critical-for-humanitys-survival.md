@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival#post","headline":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","mainEntityOfPage":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","description":"Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。","datePublished":"2026-02-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival","about":[{"@type":"Person","name":"Jeetu Patel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cisco"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"AI 优先 (AI-first)"},{"@type":"Thing","name":"能力过剩 (capabilities overhang)"},{"@type":"Thing","name":"超级趋势 (megatrend)"},{"@type":"Thing","name":"炒作周期 (hype cycle)"},{"@type":"Thing","name":"丢包 (packet loss)"},{"@type":"Thing","name":"松散耦合 (loosely coupled)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","item":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 
@@ -88,7 +88,7 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
 
 第二层是关于战略与趋势判断，做产品得问自己有没有「参与许可」、能不能把规模优势转化为分发渠道，而判断风口的简单方法是：如果一个东西要拿博士学位才能听懂，它大概率只是瞎炒作，别去费劲对抗超级趋势。第三层是关于人生经营，毅力和持久力远比聪明重要；平台的选择往往比单纯的努力更决定上限；最关键的是，去寻找那些让你真正渴望的难题，并且对身边的人绝对不要吝啬你的言语，把你的爱、感激和信任真实地说出来。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我认为人类的生存取决于成功的 AI。</span>  
 > *I think that survival of humanity depends on a successful AI.*  
@@ -170,18 +170,10 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

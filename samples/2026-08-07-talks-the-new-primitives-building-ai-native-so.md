@@ -20,7 +20,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so#post","headline":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","description":"回顾八十年计算史,指出 AI 原生软件之于智能体,正如移动互联网之于网页。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Satya Nadella"},{"@type":"Person","name":"Kwindla Kramer"},{"@type":"Organization","name":"Pipecat"},{"@type":"Organization","name":"Daily"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AI 原生软件 (AI-native software)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"多模态 (multimodal)"},{"@type":"Thing","name":"云计算 (cloud)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","item":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # 从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游
 
@@ -73,7 +73,7 @@ Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目�
 
 第二,对 AI 导致失业的担忧,历史早就给出了答案,真正具有变革性的技术只会催生出过去无法想象的新工作类别,只会把活儿做大,不会把人淘汰。第三,我们马上要迈过孤立的智能体阶段,走向融合了多模态、多设备、实时调用大模型能力的全新 AI 原生软件——今天科幻电影里的界面,明天就是我们的日常产品。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我认为 VisiCalc 潜在的是一个反驳，反驳这种论点或恐惧或担忧，即 AI 将导致大规模失业，因为 VisiCalc 并没有让会计师失业。</span>  
 > *I think VisiCalc is potentially a counterargument to the argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business.*  
@@ -143,18 +143,10 @@ Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;

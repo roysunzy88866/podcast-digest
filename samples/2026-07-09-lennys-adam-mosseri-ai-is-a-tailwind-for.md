@@ -21,7 +21,7 @@ jsonLd: |
   {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#post","headline":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for","description":"Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Adam Mosseri"},{"@type":"Organization","name":"Instagram"},{"@type":"Organization","name":"TikTok"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Reels"},{"@type":"Thing","name":"pods"},{"@type":"Thing","name":"产品人员 (product staff)"},{"@type":"Thing","name":"news feed"},{"@type":"Thing","name":"嵌入模型 (embedding)"},{"@type":"Thing","name":"探索性排名 (exploration based ranking)"},{"@type":"Thing","name":"合成内容 (synthetic content)"},{"@type":"Thing","name":"时间线 (chronological feed)"},{"@type":"Thing","name":"大型语言模型 (llms)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"品味 (taste)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来","item":"https://talk.solomind.cc/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
 # Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来
 
@@ -112,7 +112,7 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 第四,在合成内容泛滥的未来,人们会更拼命地寻找真实的人和独特的创意,所以平台要把重点放在赋能个体创作者上,而不是去封杀某个工具。第五,面对所有的争议与变革,别假装事情很简单,几乎所有的选择都带着代价,但与其守着旧规矩挨夸奖,不如推着自己往前走、挨点骂,这才是一个掌舵人该干的事。
 
-<div class="pd-sec">全部金句 <span>14 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>14 条</span></div>
 
 > <span class="qz">不,我认为在一个更容易构建事物的世界里,品味非常重要,确保你的时间花在首先弄清楚你应该构建什么上变得更加重要。</span>  
 > *no i think taste matters a ton in a world where it's easier to build things it's more important to make sure that your time is spent figuring out what you should be building in the first place*  
@@ -222,18 +222,10 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
-    ['.search'].forEach(function(sel){ grab(sel,acts); });
-    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
-    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
-    var side=document.querySelector('.right.sidebar'), slot=null;
-    if(side){
-      slot=side.querySelector('.pd-themesw');
-      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
-      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
-    }
-    grab('.darkmode', slot || acts);
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;
