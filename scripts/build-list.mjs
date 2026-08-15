@@ -240,7 +240,7 @@ export function mobileHome(episodes, catsOf, vocabulary) {
 export const topBar = (active = "home", mtitle = "") =>
   `<header class="pd-top"><div class="pd-topin">` +
   `<a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
-  `<nav class="pd-nav"><a${active === "home" ? ' class="cur"' : ' class="internal"'} href="./">最新</a><a${active === "mustread" ? ' class="cur internal"' : ' class="internal"'} href="./must-read">最热</a></nav>` +
+  // 用户 2026-08-15:删掉 PC 端「最新/最热」入口(手机端本就 display:none)。active 参数保留签名不破坏调用方。
   (mtitle ? `<a class="pd-mtitle internal" href="./">←<span>${esc(mtitle)}</span></a>` : "") +
   `<div class="pd-acts"></div>` +
   `</div></header>`;

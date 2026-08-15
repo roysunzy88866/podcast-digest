@@ -548,11 +548,11 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
   const M = { id: "ep1", title_zh: "本集标题", podcast: "P", date: "2026-07-08", duration_sec: 600, source_url: "http://x" };
   const D = { tldr: "一句话摘要在此。", digest_md: "正文。", quotes: [{ zh: "金句。", en: "Q.", speaker: "某人", timestamp: "01:00" }] };
 
-  it("★★★ 顶栏回来:站名 + 最新/最热 + 返回 + 搬按钮的空槽", () => {
+  it("★★★ 顶栏:站名 + 返回 + 搬按钮的空槽(「最新/最热」入口 2026-08-15 用户拍板删)", () => {
     const t = renderTopBar(M as any);
     expect(t).toContain("跨国深谈");
-    expect(t).toContain("最新");
-    expect(t).toContain("最热");
+    expect(t).not.toContain('class="pd-nav"');
+    expect(t).not.toContain("最热");
     expect(t).toContain("返回");
     expect(t).toContain('class="pd-acts"'); // 搜索/深浅色由脚本搬进来,不重写一套(🔒 #9/#2)
   });

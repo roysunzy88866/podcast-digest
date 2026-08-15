@@ -155,7 +155,6 @@ export function renderSiteTopBar(mtitle = "") {
   return (
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
     `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
-    `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
     `<a class="pd-back" href="/">← 返回</a>` +
     (mtitle ? `<a class="pd-mtitle" href="/">←<span>${escHtml(mtitle)}</span></a>` : "") +
     `<div class="pd-acts">` +
@@ -170,7 +169,6 @@ export function renderTopBar(meta) {
   return (
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
     `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
-    `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
     `<a class="pd-back" href="/">← 返回</a>` +
     `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
     `<div class="pd-acts">` +

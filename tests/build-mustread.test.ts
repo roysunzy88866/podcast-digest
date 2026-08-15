@@ -129,9 +129,9 @@ describe("C13c 页面:照设计稿 must-read.html 出", () => {
     expect(html).not.toContain('class="pd-shell two"');
   });
 
-  it("★ 顶栏在,且「最热」带选中态(设计稿 must-read.html 顶栏 cur 在最热上)", () => {
+  it("★ 顶栏在,但「最新/最热」导航入口已删(用户 2026-08-15)", () => {
     expect(html).toContain('class="pd-top"');
-    expect(html).toMatch(/<a class="cur internal" href="\.\/must-read">最热<\/a>/);
+    expect(html).not.toContain('class="pd-nav"');
   });
 
   it("★ 带搬运脚本(Quartz 搜索/深浅色搬进顶栏,🔒 #9/#2 不降级)", () => {
@@ -140,17 +140,17 @@ describe("C13c 页面:照设计稿 must-read.html 出", () => {
   });
 });
 
-describe("C13c 入口:顶栏「最热」从死按钮变真链接", () => {
+describe("最新/最热 入口已删(用户 2026-08-15:PC 端删掉,手机端本就 display:none)", () => {
   const eps = [ep("e1", { ents: [] })];
-  it("★ 首页 pd-nav 与手机横滑都指向 must-read,不再有 soon 占位", () => {
+  it("★ 首页顶栏无 pd-nav / 最热链接", () => {
     const html = renderList(eps as any, { hasCover: () => false });
-    expect(html).toMatch(/<a[^>]*href="\.\/must-read"[^>]*>最热<\/a>/);
-    expect(html).not.toContain('class="soon" title="必读页归 C13c"');
+    expect(html).not.toContain('class="pd-nav"');
+    expect(html).not.toMatch(/>最热</);
   });
-  it("★ 集页顶栏同款(render.mjs 里不残留 soon 最热)", () => {
+  it("★ 集页顶栏(render.mjs 两个 topBar)无 pd-nav / 最热链接", () => {
     const src = readFileSync(new URL("../scripts/render.mjs", import.meta.url), "utf8");
-    expect(src).not.toContain('必读页归 C13c');
-    expect(src).toMatch(/href="\/must-read"[^>]*>最热/);
+    expect(src).not.toContain('class="pd-nav"');
+    expect(src).not.toMatch(/>最热</);
   });
 });
 
@@ -175,11 +175,11 @@ describe("C13i · 大类页/必读页与设计稿同构:顶栏 + 三栏(设计�
     expect(html).toContain("按公司");
   });
 
-  it("★ 大类页有顶栏 + 右栏,且顶栏「最新/最热」都不带选中态(当前在大类页)", async () => {
+  it("★ 大类页有顶栏 + 右栏,且无「最新/最热」pd-nav(用户 2026-08-15 删)", async () => {
     const { renderTagPage } = await import("../scripts/build-tag-pages.mjs");
     const html = renderTagPage("智能体", eps as any, { allEpisodes: eps as any, categoriesOf: () => ["智能体"], hasCover: () => false });
     expect(html).toContain('class="pd-top"');
     expect(html).toContain("按公司");
-    expect(html).not.toMatch(/pd-nav"><a class="cur"/);
+    expect(html).not.toContain('class="pd-nav"');
   });
 });
