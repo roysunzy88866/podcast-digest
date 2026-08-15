@@ -24,7 +24,7 @@
 共识漂移 / 灰色地带 / 写临时方案前 → 先停问用户,或先登记 `docs/tech-debt.md` / `docs/drift-log.md`。
 
 ## 💻 代码硬规矩(本项目最易塌的几条)
-- **写稿只用付费档 GLM,免费档只当判官**——GLM-4.7-Flash 实测编造原话(需求共创/试跑记录-第2轮)。**现口径(ADR 0013 · standard-change):翻译=GLM-4.6、浓缩=GLM-5.2**(双语对齐下保真不依赖翻译模型;GLM-4-Flash 太弱淘汰)
+- **写稿只用付费档 GLM,免费档只当判官**——GLM-4.7-Flash 实测编造原话(需求共创/试跑记录-第2轮)。**现口径(ADR 0013 + 2026-08-15 修订 · standard-change):翻译=GLM-4.6、浓缩=GLM-5.3**(5.2 抽风返回空/坏 JSON 于 2026-08-15 切 5.3;双语对齐下保真不依赖翻译模型;GLM-4-Flash 太弱淘汰)。**浓缩输出=分隔符分段纯文本(非 JSON),condense.mjs parseSections 解析后程序化 JSON.stringify 写 digest.json**——大段 markdown 塞 JSON 会吐结构性坏稿,根治见 ADR 0013 修订 B
 - **防失真机器闸门不许砍,但硬校验口径已收窄(ADR 0013/drift #26 · standard-change)**:金句**硬拦只剩①「引语逐字命中转写稿」**;②时间戳区间、③说话人匹配**已降为软提醒**(不拦发布,支持无时间戳源)。事实层专名回原文含拼接容错(D46)。要再动闸门口径走 standard-change
 - 用云端 ASR 转写前必 VAD 切静音(Whisper 系在静音处无中生有,污染防失真地基)
 - **API key 用户自持**:不进仓库不进代码,走 `.env`(已 gitignore)/ wrangler secrets;不接触凭证明文
@@ -36,7 +36,7 @@
 - 红线(密钥安全 / 版权灰色自担范围 / 公开访问隐私边界——C7a 用户明选**去 Access、站公开**,drift #17)每次结项重提,直到闭合或用户明文豁免
 
 ## 🏗 架构一句话
-GitHub Actions cron(非 Workers,ADR 0012/drift #21)定时轮询播客 RSS(源清单驱动,现抓 Lenny's,去 Latent;`需求共创/内容品味档案.md`)→ 官方文字稿(Substack transcription.json)/ ASR 兜底 → **GLM-4.6 全译 + GLM-5.2 浓缩**(ADR 0013)→ GLM 免费档判官 → 机器闸门(字符串校验)→ **`scripts/tts.mjs`(edge-tts 免费默认 + Azure fallback,drift #13;项目自持,未走全局配音 skill、无 MiMo —— 为何见 ADR 0014)** → Quartz v5 build → **CF Pages 公开静态**(去 R2 存音频进 Pages / 去 Access 登录门,drift #17/#18)+ 私有播客 feed。全云端,无常开机器。详见 需求共创/需求共识.md「产品轮廓」+ docs/adr。
+GitHub Actions cron(非 Workers,ADR 0012/drift #21)定时轮询播客 RSS(源清单驱动,现抓 Lenny's,去 Latent;`需求共创/内容品味档案.md`)→ 官方文字稿(Substack transcription.json)/ ASR 兜底 → **GLM-4.6 全译 + GLM-5.3 浓缩(分段格式,ADR 0013+2026-08-15修订)**→ GLM 免费档判官 → 机器闸门(字符串校验)→ **`scripts/tts.mjs`(edge-tts 免费默认 + Azure fallback,drift #13;项目自持,未走全局配音 skill、无 MiMo —— 为何见 ADR 0014)** → Quartz v5 build → **CF Pages 公开静态**(去 R2 存音频进 Pages / 去 Access 登录门,drift #17/#18)+ 私有播客 feed。全云端,无常开机器。详见 需求共创/需求共识.md「产品轮廓」+ docs/adr。
 
 ## 🧾 commit 约定(commit-msg 钩子硬卡 🟡)
 切片:`[C_n 状态] 描述 (US-x)`;非切片:`[装机|docs|chore|adr|fix] 描述`。一刀一提交。
