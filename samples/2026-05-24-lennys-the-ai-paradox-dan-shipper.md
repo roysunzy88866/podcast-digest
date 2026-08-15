@@ -48,53 +48,53 @@ jsonLd: |
 
 **两种工作界面:异步智能体与桌面副驾驶**
 
-Dan 先从工作界面的分化讲起。未来每个人的工作会集中在两个地方。一个是你可以委派任务的异步智能体,大概率就活在 Slack 里 [12:39]；另一个是你电脑上的桌面工作环境,也就是像 Codex 或 Cowork（Anthropic 基于 Claude Code 推出的封装产品）这样的工具 [05:18]。
+Dan 先从工作界面的分化讲起。未来每个人的工作会集中在两个地方。一个是你可以委派任务的异步智能体,大概率就活在 Slack 里 <button class="pd-ts" data-t="12:39" data-who="" data-en="I want to go in order of those two. So the first one is you're going to have agents you delegate to probably in Slack, but anywhere. First thing that's interesting about that one is it's not clear what the architecture is going to be like for that." aria-label="回原文"></button>；另一个是你电脑上的桌面工作环境,也就是像 Codex 或 Cowork（Anthropic 基于 Claude Code 推出的封装产品）这样的工具 <button class="pd-ts" data-t="05:18" data-who="" data-en="I'm very curious and I'm super all-in on AI.&quot; And what that does, I think, is it creates this little pocket of the future where we're all living in it together and we get to be a little bit further ahead because at any other company, there's a mix of people." aria-label="回原文"></button>。
 
-关于公司里的异步智能体,Dan 分享了一个他彻底改变看法的结论:现在还远没到「人人都配一个专属智能体」的时候,更现实的模式是全公司共用一个「超级智能体」 [13:42]。当初 [[OpenClaw|OpenClaw]] 刚火的时候,Every 公司人人都在折腾自己的智能体,但很快就发现维护成本太高——这东西一直坏,得自己搭服务器折腾。
+关于公司里的异步智能体,Dan 分享了一个他彻底改变看法的结论:现在还远没到「人人都配一个专属智能体」的时候,更现实的模式是全公司共用一个「超级智能体」 <button class="pd-ts" data-t="13:42" data-who="" data-en="I really think that's what it looked like was happening. And so I was very into personal agents and I have completely flipped and I really think that the model, for now, is going to be a super agent, like one agent for the entire company and you're starting to see this in some companies." aria-label="回原文"></button>。当初 [[OpenClaw|OpenClaw]] 刚火的时候,Every 公司人人都在折腾自己的智能体,但很快就发现维护成本太高——这东西一直坏,得自己搭服务器折腾。
 
-Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关心它的人类时刻盯着 [14:52]。一旦切断这个人机连接,智能体马上就变成了没用的摆设。所以他断言,公司会先从顶层建一个通用智能体,随着模型变强再慢慢向下分化出专业智能体。
+Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关心它的人类时刻盯着 <button class="pd-ts" data-t="14:52" data-who="" data-en="And the fundamental, underlying thing that drives that is whether it's OpenClaw or any other harness, in order for an AI agent to be useful right now, it really needs a human who cares about it." aria-label="回原文"></button>。一旦切断这个人机连接,智能体马上就变成了没用的摆设。所以他断言,公司会先从顶层建一个通用智能体,随着模型变强再慢慢向下分化出专业智能体。
 
-聊完 Slack 里的智能体,Dan 把话锋转向了他更兴奋的电脑桌面端——这正是 Anthropic 和 OpenAI 的新赛场。他解释了为什么 Claude Code 会成为杀手锏:当智能体直接跑在你的电脑上,它就有了终端权限,能访问你权限下的所有东西 [18:34]。
+聊完 Slack 里的智能体,Dan 把话锋转向了他更兴奋的电脑桌面端——这正是 Anthropic 和 OpenAI 的新赛场。他解释了为什么 Claude Code 会成为杀手锏:当智能体直接跑在你的电脑上,它就有了终端权限,能访问你权限下的所有东西 <button class="pd-ts" data-t="18:34" data-who="" data-en="So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to." aria-label="回原文"></button>。
 
-更重要的是,最近新发布的 Codex 桌面版甚至内置了一个应用内浏览器,这意味着它不仅能帮你写代码,还能同时盯着你在网页编辑器里的动作 [21:17]。Dan 自己就是靠这套组合拳,连续十天保持收件箱清零的——他让 Codex 配合邮件智能体把信件全抓过来,他只需要口头念叨着回信,Codex 就在旁边自动查资料、起草并发送 [22:28]。
+更重要的是,最近新发布的 Codex 桌面版甚至内置了一个应用内浏览器,这意味着它不仅能帮你写代码,还能同时盯着你在网页编辑器里的动作 <button class="pd-ts" data-t="21:17" data-who="" data-en="And it's clear to me that whoever is in the lead, because again, I think it'll change. Whoever's in the lead, it feels very obvious to me that all of the work that you do is going to be in one of those surfaces where, for example, when I'm writing a document, Codex has a browser in the app." aria-label="回原文"></button>。Dan 自己就是靠这套组合拳,连续十天保持收件箱清零的——他让 Codex 配合邮件智能体把信件全抓过来,他只需要口头念叨着回信,Codex 就在旁边自动查资料、起草并发送 <button class="pd-ts" data-t="22:28" data-who="" data-en="I've been at inbox zero for 10 days straight now, which if you know me, is crazy. I'm never like this, and that's because I literally just have Codex gather all my emails with Quora, which is our email agent." aria-label="回原文"></button>。
 
-顺着这种「AI 反客为主」的工作方式,Dan 抛出了一个他认为极为深刻的二阶效应:与其让 SaaS 公司自己在工具里内置 AI 并为此烧钱,不如让用户直接带着自己的 Codex 或 Claude 来用 SaaS。用户用自己的 token,这就直接把成本转嫁出去了,反而拯救了 SaaS 公司的利润率 [24:02]。
+顺着这种「AI 反客为主」的工作方式,Dan 抛出了一个他认为极为深刻的二阶效应:与其让 SaaS 公司自己在工具里内置 AI 并为此烧钱,不如让用户直接带着自己的 Codex 或 Claude 来用 SaaS。用户用自己的 token,这就直接把成本转嫁出去了,反而拯救了 SaaS 公司的利润率 <button class="pd-ts" data-t="24:02" data-who="" data-en="... code. That is one really important second order effect of this is ... Okay, so yeah, I'm using Proof or really any website, maybe PostHog or whatever, and I'm doing it inside of my agent and the agent has access to the website." aria-label="回原文"></button>。
 
-这也是为什么他极为大胆地断言:SaaS 末日论是愚蠢的,他现在就要买 SaaS 股票 [17:09]。因为智能体非但没有取代 SaaS,反而会让海量智能体高频调用这些工具,带来需求的疯狂激增。
+这也是为什么他极为大胆地断言:SaaS 末日论是愚蠢的,他现在就要买 SaaS 股票 <button class="pd-ts" data-t="17:09" data-who="" data-en="Is we will start with agents at the top that are more general and are used by more people in the company and then it will start to grow down, as people get more used to these use cases, they get more specialized and agents become less ... Fiddly." aria-label="回原文"></button>。因为智能体非但没有取代 SaaS,反而会让海量智能体高频调用这些工具,带来需求的疯狂激增。
 
-说到工具形态的演变,Dan 顺带给命令行 [[CLI|CLI]] 判了死刑:我们「速通」了 CLI 时代,虽然以后它还会存在,但绝大多数技术人员都会回到图形界面里和智能体并肩工作 [31:25]。
+说到工具形态的演变,Dan 顺带给命令行 [[CLI|CLI]] 判了死刑:我们「速通」了 CLI 时代,虽然以后它还会存在,但绝大多数技术人员都会回到图形界面里和智能体并肩工作 <button class="pd-ts" data-t="31:25" data-who="" data-en="... running alongside them? CLIs are over. We speed ran the CLI era." aria-label="回原文"></button>。
 
 **工作形态的变与不变**
 
 工具变了,具体工作的形状自然也要跟着变。Dan 在第二个板块里讲了几件正在发生的事。
 
-首先是「提交代码」不再是工程师的专利,他公司的编辑、运营都在提交拉取请求 [50:50]。这直接给后端的技术审查带来了海量压力:既然人人都能造轮子,真正稀缺的就变成了怎么把这些新拼凑的东西删繁就简,保持系统的连贯性。
+首先是「提交代码」不再是工程师的专利,他公司的编辑、运营都在提交拉取请求 <button class="pd-ts" data-t="50:50" data-who="" data-en="So one thing that we see a lot internally, and you also see this in the big model companies, is the number of pull requests that you get is like skyrockets. We have people in consulting or in ops roles or whatever or editors just making pull requests." aria-label="回原文"></button>。这直接给后端的技术审查带来了海量压力:既然人人都能造轮子,真正稀缺的就变成了怎么把这些新拼凑的东西删繁就简,保持系统的连贯性。
 
-既然需求变了,那到底什么角色会吃香?Dan 又抛出了一个反直觉的观点:尽管自动化大行其道,但「每个智能体都需要一个人类」 [00:30]。
+既然需求变了,那到底什么角色会吃香?Dan 又抛出了一个反直觉的观点:尽管自动化大行其道,但「每个智能体都需要一个人类」 <button class="pd-ts" data-t="00:30" data-who="" data-en="Automation is a lot. Every agent needs a human. We have so much automation, so much AI, and I also work way more." aria-label="回原文"></button>。
 
-他管这种新岗位叫「[[前向部署工程师|前置部署工程师]]」(forward deployed engineer)。他们的日常不是埋头写传统代码,而是大部分时间泡在 Slack 里,像当经理一样管理公司内部的智能体(比如 Every 那个负责整个咨询业务的 Claudy)[55:20]。自动化不仅没消灭岗位,反而造出了一堆给 AI 当保姆、搭系统的新工作。
+他管这种新岗位叫「[[前向部署工程师|前置部署工程师]]」(forward deployed engineer)。他们的日常不是埋头写传统代码,而是大部分时间泡在 Slack 里,像当经理一样管理公司内部的智能体(比如 Every 那个负责整个咨询业务的 Claudy)<button class="pd-ts" data-t="55:20" data-who="" data-en="We have an agent internally called Claudy, which runs our whole consulting practice and he spends a lot of time in Slack. There is code and he is using Claude Code and other things like that, but a lot of it is just talking to it and being like, &quot;Why did you do this dumb thing?" aria-label="回原文"></button>。自动化不仅没消灭岗位,反而造出了一堆给 AI 当保姆、搭系统的新工作。
 
-顺着这个逻辑,Dan 观察到工作流正在被 AI 文档全面接管的趋势。他自己公司 2025 年底的季度规划,全靠 Notion 智能体去盘问每个员工,最后自动生成高质量的战略报告 [64:02]。
+顺着这个逻辑,Dan 观察到工作流正在被 AI 文档全面接管的趋势。他自己公司 2025 年底的季度规划,全靠 Notion 智能体去盘问每个员工,最后自动生成高质量的战略报告 <button class="pd-ts" data-t="64:02" data-who="" data-en="And I think the same is true when we did our quarterly planning for every at the end of 2025, we did it all with Notion Agents and we just had a bunch of Notion agents and we had really one Notion agent and then we had a top level company strategy and then we had everybody in the company just talked to an agent and it asked them about what happened last year, how did it go, what were your goals?" aria-label="回原文"></button>。
 
-他坚定地认为,我们对 AI 生成内容的反感很快就会消失,因为被好好指导的 GPT 5.5 写出的战略文档,比大多数人自己敲键盘写出来的强得多。唯一的底线是:你可以让 AI 代笔,但你必须对里面的每一行内容负责 [65:03]。
+他坚定地认为,我们对 AI 生成内容的反感很快就会消失,因为被好好指导的 GPT 5.5 写出的战略文档,比大多数人自己敲键盘写出来的强得多。唯一的底线是:你可以让 AI 代笔,但你必须对里面的每一行内容负责 <button class="pd-ts" data-t="65:03" data-who="" data-en="So my expectation is if you send me an AI generated document, I think that's great. And if we talk about it and it's clear you have no idea what's in it, big no-no, not allowed to do that." aria-label="回原文"></button>。
 
 聊到这里,主持人抛出了一个尖锐的问题:到底什么角色是至今变化最小的?Dan 和主持人一起锁定了销售——因为面对面的关系处理仍是 AI 难以替代的。
 
-不过 CEO 群体的「可选性」引起了争议。主持人觉得 CEO 用不用 AI 都无所谓,但 Dan 当场反驳:一家公司在 AI 上的天花板,就是它 CEO 的天花板。这种直觉你没法靠口头传达,必须亲自下场把手弄脏 [59:23]。
+不过 CEO 群体的「可选性」引起了争议。主持人觉得 CEO 用不用 AI 都无所谓,但 Dan 当场反驳:一家公司在 AI 上的天花板,就是它 CEO 的天花板。这种直觉你没法靠口头传达,必须亲自下场把手弄脏 <button class="pd-ts" data-t="59:23" data-who="" data-en="I think the opposite is actually true. My experience, and we do a lot of this with senior executives and senior leadership teams, my experience is that your company's only going to go as far as your CEO goes in AI and it's not something you can delegate." aria-label="回原文"></button>。
 
 **谁能在未来胜出**
 
 说完了工作怎么变,接下来自然要问:在这个新格局里,谁能赢?Dan 给出了两个明确的赢家:产品经理([[PM|PM]])和全栈设计师。
 
-他举了自家员工 Marcus 的例子。Marcus 本是传统 PM,懂点技术但不算硬核,但现在靠着 AI 编码工具的加持,他能把极强的产品嗅觉直接变成可运行的产品,发布速度甚至超过了专职工程师 [69:23]。
+他举了自家员工 Marcus 的例子。Marcus 本是传统 PM,懂点技术但不算硬核,但现在靠着 AI 编码工具的加持,他能把极强的产品嗅觉直接变成可运行的产品,发布速度甚至超过了专职工程师 <button class="pd-ts" data-t="69:23" data-who="" data-en="And he took a year off that job and just got super AI-pilled and just learned how to use cursor basically really well. Now I think he uses Claude Code, but he was extremely cursor pilled for a long time." aria-label="回原文"></button>。
 
-对于设计师也是同理。过去他们做出的精美交互常常被工程师嫌麻烦砍掉,现在他们完全可以自己用 AI 把东西做出来、自己提交代码 [71:15]。当大家都在用相同的模型、做着千篇一律的东西时,这种带有鲜明个人印记的创造力和审美,就成了最稀缺的资产 [34:00]。
+对于设计师也是同理。过去他们做出的精美交互常常被工程师嫌麻烦砍掉,现在他们完全可以自己用 AI 把东西做出来、自己提交代码 <button class="pd-ts" data-t="71:15" data-who="" data-en="So the other people that I think are going to be super, super power people, and again, this is because we see this internally, is full stack designers. If you're a designer and you're in these tools all the time, you're so used to, okay, I make this beautiful interaction and the engineer just doesn't want to do it or it doesn't happen the way I think it should happen or there's all this stuff and I see so many designers for us internally or externally where they now feel so empowered to go build stuff because they're like, &quot;I have all these ideas to make things look amazing and these interesting interactions.&quot;" aria-label="回原文"></button>。当大家都在用相同的模型、做着千篇一律的东西时,这种带有鲜明个人印记的创造力和审美,就成了最稀缺的资产 <button class="pd-ts" data-t="34:00" data-who="" data-en="When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app." aria-label="回原文"></button>。
 
- Dan 也借此狠狠驳斥了所谓的「AI 末日论」。他的底层逻辑是:模型的本质是「让昨天的人类能力变得廉价」——它把已有的东西吃进去,然后极其廉价地复制出来 [73:56]。
+ Dan 也借此狠狠驳斥了所谓的「AI 末日论」。他的底层逻辑是:模型的本质是「让昨天的人类能力变得廉价」——它把已有的东西吃进去,然后极其廉价地复制出来 <button class="pd-ts" data-t="73:56" data-who="" data-en="The pattern that I see so far, and again, I don't have a total crystal ball, but I do feel like we've seen enough of the new model drops to have some sense of how this is going is that what a new model drop does or what models do in general is they make yesterday's human competence cheap." aria-label="回原文"></button>。
 
-既然人人都能轻易做出来,那它就商品化了。人类的作用,恰恰是拿着这些廉价的「昨天」,去拼凑出全新的、模型还没见过的东西 [74:50]。所以结构上,模型永远在追赶那些不断把新经验拿去喂它的前沿人类。
+既然人人都能轻易做出来,那它就商品化了。人类的作用,恰恰是拿着这些廉价的「昨天」,去拼凑出全新的、模型还没见过的东西 <button class="pd-ts" data-t="74:50" data-who="" data-en="It's not valuable anymore. And what humans do is we sort of go in there, and we're like, &quot;Yeah,&quot; we have all this frozen human competence from yesterday. How do I use this to make something new and interesting?" aria-label="回原文"></button>。所以结构上,模型永远在追赶那些不断把新经验拿去喂它的前沿人类。
 
-那普通人该怎么做才能不被淘汰?Dan 的建议极其朴素:去「驾驭模型」(ride the models)[76:25]。
+那普通人该怎么做才能不被淘汰?Dan 的建议极其朴素:去「驾驭模型」(ride the models)<button class="pd-ts" data-t="76:25" data-who="" data-en="Do you have any sense of just like, here's what you need to do to not be one of these layoffs? Yes. And I think that is actually super important." aria-label="回原文"></button>。
 
 每次有新模型发布,别因为害怕而躲避,去玩它,拿你工作里的难题去测试它,看看现在能做到了没有。他特别强调,真正的 AI 前沿并不在旧金山那些造模型的圈子里,而是在任何一个让 AI 遇到真实人类问题的地方。只要你每天坚持把新模型融入你的真实生活,你就走在大多数人前面。
 

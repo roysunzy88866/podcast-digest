@@ -39,93 +39,93 @@ jsonLd: |
 
 <div class="pd-tldr"><b>一句话</b>从算盘数学到造 TPU,Jeff Dean 讲了为什么推理硬件、上下文工程和「挑选问题」是 AI 创业者的必修课。</div>
 
-把一种编程语言写的一整套软件全部换成另一种语言,大多数顶尖工程师要干几个月——但今天的 AI 模型可以同时派出去几十个[[智能体|智能体]],跑上几天甚至几周,自己改、自己测、自己修,最后把翻译好的新版本交到你手上。说这话的人是 [[Jeff Dean|Jeff Dean]],[[Google|Google]] 的大神级工程师,[[MapReduce|MapReduce]]、Bigtable、TensorFlow 和 [[TPU|TPU]] 全是他主导造的 [00:24]。
+把一种编程语言写的一整套软件全部换成另一种语言,大多数顶尖工程师要干几个月——但今天的 AI 模型可以同时派出去几十个[[智能体|智能体]],跑上几天甚至几周,自己改、自己测、自己修,最后把翻译好的新版本交到你手上。说这话的人是 [[Jeff Dean|Jeff Dean]],[[Google|Google]] 的大神级工程师,[[MapReduce|MapReduce]]、Bigtable、TensorFlow 和 [[TPU|TPU]] 全是他主导造的 <button class="pd-ts" data-t="00:24" data-who="" data-en="I don't normally sound quite like this, but we'll do what we can. So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini. We could spend a whole hour on all the things you've done." aria-label="回原文"></button>。
 
 在这一集访谈里,他讲了三件事:为什么我们这代人正站在[[专用推理硬件|专用推理硬件]]爆发的前夜;为什么「[[上下文工程|上下文工程]]」是新手中最容易上手的杠杆;以及在一个通用模型什么都能干一点的时代,两三个人的小团队究竟该挑什么样的问题去赢。最后他还聊了聊怎么通过疯狂的思想实验构建「品味」,以及他对未来创业者的终极建议:挑一个最重要的、别人做不了的问题,然后用余生去解决它。
 
-说完了开场钩子,接下来是 Jeff Dean 的来头和这一集的完整导览。Jeff 是 Google 的传奇工程师,主持人开场就列了一长串他参与造的东西:MapReduce、Bigtable、TensorFlow、TPU、[[Gemini|Gemini]] [00:24]。
+说完了开场钩子,接下来是 Jeff Dean 的来头和这一集的完整导览。Jeff 是 Google 的传奇工程师,主持人开场就列了一长串他参与造的东西:MapReduce、Bigtable、TensorFlow、TPU、[[Gemini|Gemini]] <button class="pd-ts" data-t="00:24" data-who="" data-en="I don't normally sound quite like this, but we'll do what we can. So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini. We could spend a whole hour on all the things you've done." aria-label="回原文"></button>。
 
 这一集的对话主要分成几大块:首先是「算盘数学」——也就是快速估算——如何帮他预判了 TPU 的诞生,以及为什么 2026 年该做一次新的算盘数学。然后聊到他在 2025 年那个著名预测「AI 相当于初级工程师」的回看,以及他对 2027 年的新预测。
 
 接着是上下文工程、[[多智能体系统|多智能体系统]]、专用[[推理|推理]]硬件这些当下最热的工程话题。最后是给创业者的实操建议:去哪里找那些大厂不愿意做、但又能做出巨大价值的小众问题。
 
-先把时间轴拉回到 Jeff Dean 做出那些著名预测的时刻。2025 年 5 月,他在 AI Ascent 大会上说,在处理基于智能体的、长时间运行的编程任务方面,模型已经达到了「初级工程师」的水平 [00:40]。
+先把时间轴拉回到 Jeff Dean 做出那些著名预测的时刻。2025 年 5 月,他在 AI Ascent 大会上说,在处理基于智能体的、长时间运行的编程任务方面,模型已经达到了「初级工程师」的水平 <button class="pd-ts" data-t="00:40" data-who="" data-en="Last year, yes. Last year in May 2025 at AI Ascent, you said that AI is at the level of a junior engineer. That was about a year ago." aria-label="回原文"></button>。
 
-回看这个预测,Jeff 承认他低估了一件事:做越来越复杂任务的能力,增长速度比他预想的还要快 [01:24]。更重要的是,在编码之外,这些基于智能体的系统正在其他领域大放异彩 [01:30]。主持人追问他 2027 年的新预测,Jeff 给出的答案听起来有点学术但极其大胆:你会看到 ML 系统本身被高度自动化——模型自己把大问题拆成子问题,在紧凑的自动化实验循环里不断试错,把结果拼起来,最后产出一个更好的自己 [01:51]。
+回看这个预测,Jeff 承认他低估了一件事:做越来越复杂任务的能力,增长速度比他预想的还要快 <button class="pd-ts" data-t="01:24" data-who="" data-en="I mean, I think the... the ability to do more and more complex tasks has been growing faster than I thought. And I also think outside of coding, these agent-based systems are really starting to shine in other domains." aria-label="回原文"></button>。更重要的是,在编码之外,这些基于智能体的系统正在其他领域大放异彩 <button class="pd-ts" data-t="01:30" data-who="" data-en="the ability to do more and more complex tasks has been growing faster than I thought. And I also think outside of coding, these agent-based systems are really starting to shine in other domains." aria-label="回原文"></button>。主持人追问他 2027 年的新预测,Jeff 给出的答案听起来有点学术但极其大胆:你会看到 ML 系统本身被高度自动化——模型自己把大问题拆成子问题,在紧凑的自动化实验循环里不断试错,把结果拼起来,最后产出一个更好的自己 <button class="pd-ts" data-t="01:51" data-who="" data-en="What do you think is gonna be the 2027 edition? I think you will see a lot more automation of ML systems themselves, basically getting ML systems to improve their capabilities by running lots of experiments, breaking things down into subproblems, running those subproblems in a tight automatic experimentation loop, putting the results together, and being able to then get some improved system." aria-label="回原文"></button>。
 
 那么,这种高度自动化的「自举」循环,到底什么时候能真正跑起来?这正是下一个话题的核心。
 
-Jeff 指出,科学方法的基础其实就是一个「提出实验、运行实验、评估实验」的循环 [42:39]。现在的关键突破在于,我们能把这个循环的延迟压到极低,让它自动跑成千上万次。
+Jeff 指出,科学方法的基础其实就是一个「提出实验、运行实验、评估实验」的循环 <button class="pd-ts" data-t="42:39" data-who="" data-en="Yeah, I mean, I think more generally, there's this sort of... the foundation of the scientific method of you propose an experiment, you implement what you need to run the experiment and you evaluate the experiment, and then you get results from that." aria-label="回原文"></button>。现在的关键突破在于,我们能把这个循环的延迟压到极低,让它自动跑成千上万次。
 
-他举了量子化学的例子:以前理解一个分子的属性,要跑一整晚昂贵的密度泛函理论模拟器;他的同事们用这些模拟器的输出去训练一个神经网络近似模型,结果造出了一个快了 300,000 倍、几乎一样准确的验证器 [45:17]。这意味着以前要花六个月凑计算资源才能做完的筛选,现在你可以吃完一顿午饭就做完 [45:37]。把这种超高速验证器接入多智能体的编排框架,就是他眼中最激动人心的未来。
+他举了量子化学的例子:以前理解一个分子的属性,要跑一整晚昂贵的密度泛函理论模拟器;他的同事们用这些模拟器的输出去训练一个神经网络近似模型,结果造出了一个快了 300,000 倍、几乎一样准确的验证器 <button class="pd-ts" data-t="45:17" data-who="" data-en="the expensive simulator and then use it to train a neural approximation to the simulator. So this is now a validation device, but instead of it taking a night, they made something that was 300,000 times faster and nearly as accurate as running the full scale simulator." aria-label="回原文"></button>。这意味着以前要花六个月凑计算资源才能做完的筛选,现在你可以吃完一顿午饭就做完 <button class="pd-ts" data-t="45:37" data-who="" data-en="Because now you have 10 million things to screen. You know, you could do that while you go to lunch rather than it being a six month endeavor where you could try to scrape together enough compute to run all these simulations." aria-label="回原文"></button>。把这种超高速验证器接入多智能体的编排框架,就是他眼中最激动人心的未来。
 
 但要把这个自动化循环真正跑起来,第一步得先把硬件搞定。这就要回到 Jeff Dean 最拿手的绝活:「算盘数学」(back of the envelope calculation),也就是在脑子里或餐巾纸上快速估算一个系统的瓶颈和成本。
 
-主持人讲了个著名故事:2013 年 Google 的语音识别刚有起色,Jeff 一算发现,如果每个用户每天只用三分钟,现有 CPU 根本扛不住,得把服务器机群翻倍 [06:29]。他的解法不是买更多 CPU,而是造了一种极度专用的芯片——只做低精度线性代数,其他什么都干不了,但这正是机器学习的核心 [07:45]。
+主持人讲了个著名故事:2013 年 Google 的语音识别刚有起色,Jeff 一算发现,如果每个用户每天只用三分钟,现有 CPU 根本扛不住,得把服务器机群翻倍 <button class="pd-ts" data-t="06:29" data-who="" data-en="So one of the stories about you is that back in 2013, when speech recognition started to work at Google, you did the napkin math, where if every Google user used their phone and talked to it and used the speech recognition system for just three minutes a day," aria-label="回原文"></button>。他的解法不是买更多 CPU,而是造了一种极度专用的芯片——只做低精度线性代数,其他什么都干不了,但这正是机器学习的核心 <button class="pd-ts" data-t="07:45" data-who="" data-en="we realized that we needed some better solution than running on CPUs at the time. And so we came up with TPUs, which are sort of very specialized for essentially low precision, dense linear algebra, which is at the heart of nearly all of the modern machine learning algorithms we use today." aria-label="回原文"></button>。
 
-这块芯片就是 TPU 的起源,几年后,它的能效比当时的 CPU 和 GPU 高出 30 到 80 倍,延迟还低了 20 到 30 倍 [08:12]。Jeff 现在做的算盘数学换新内容了:在 AI 时代,真正重要的数字是内存和乘法单元之间的带宽、芯片间的互联带宽,以及一次乘法运算到底要花多少能量 [11:09]。
+这块芯片就是 TPU 的起源,几年后,它的能效比当时的 CPU 和 GPU 高出 30 到 80 倍,延迟还低了 20 到 30 倍 <button class="pd-ts" data-t="08:12" data-who="" data-en="if you build a specialized chip for low precision dense linear algebra and can't do anything else, that turns out to be really useful for machine learning inference, even though it can't run Chrome or Word or whatever." aria-label="回原文"></button>。Jeff 现在做的算盘数学换新内容了:在 AI 时代,真正重要的数字是内存和乘法单元之间的带宽、芯片间的互联带宽,以及一次乘法运算到底要花多少能量 <button class="pd-ts" data-t="11:09" data-who="" data-en="Give us the AI edition for now 2026. Yeah, I mean, I think if you looked at what is important in AI systems these days, you would want to know things like the bandwidth between your main memory system on your accelerator to the on-chip memory to the multiplier unit or whatever." aria-label="回原文"></button>。
 
-他特别强调了一个常被忽视的鸿沟:做一次计算只要一皮焦,但把数据搬进处理器,能耗是计算的 1000 倍 [12:15]。很多人以为模型训练必须做大批次是「模型问题」,其实这是个彻头彻尾的能量搬运问题 [14:01]。
+他特别强调了一个常被忽视的鸿沟:做一次计算只要一皮焦,但把数据搬进处理器,能耗是计算的 1000 倍 <button class="pd-ts" data-t="12:15" data-who="" data-en="And one interesting thing that I've heard you talk about is that nowadays, the unit that you measure everything is energy. Yeah. You pointed out that doing a calculation or math costs about one picojoule." aria-label="回原文"></button>。很多人以为模型训练必须做大批次是「模型问题」,其实这是个彻头彻尾的能量搬运问题 <button class="pd-ts" data-t="14:01" data-who="" data-en="There's this whole concept of batching the datasets and running epochs. That's basically, people perhaps may confuse that as a model problem, but it's really a systems data I.O." aria-label="回原文"></button>。
 
 既然数据搬运这么贵,那能不能把硬件做得更极端、更专门化?这引出了 Jeff 眼中当前最被低估的机会:专用推理硬件。
 
-他算了一笔账:训练对延迟没那么敏感,但推理(也就是模型给出回答的过程)对延迟极其敏感 [14:45]。如果你想追求极低的延迟,大批次处理就不管用了,因为你要等凑齐一大批请求才能一起算。
+他算了一笔账:训练对延迟没那么敏感,但推理(也就是模型给出回答的过程)对延迟极其敏感 <button class="pd-ts" data-t="14:45" data-who="" data-en="Yeah, I've been thinking more about inference, actually. So I think inference is a pretty interesting problem because you do want very low latency. Training, you don't necessarily need incredibly low latency." aria-label="回原文"></button>。如果你想追求极低的延迟,大批次处理就不管用了,因为你要等凑齐一大批请求才能一起算。
 
-Jeff 认为现在还有巨大的空间去为推理专门定制硬件,甚至极端到只支持某一种你确信有用的精度,别的统统砍掉 [15:02]。他抛出了一个极具冲击力的反问:想象一下,如果推理的延迟能比现在好 50 倍,你能做出什么新产品? [04:30]
+Jeff 认为现在还有巨大的空间去为推理专门定制硬件,甚至极端到只支持某一种你确信有用的精度,别的统统砍掉 <button class="pd-ts" data-t="15:02" data-who="" data-en="And I think there's a lot of room for specializing hardware more for inference than we are today. What are some of those interesting things around inference that you're really thinking a lot about?" aria-label="回原文"></button>。他抛出了一个极具冲击力的反问:想象一下,如果推理的延迟能比现在好 50 倍,你能做出什么新产品? <button class="pd-ts" data-t="04:30" data-who="" data-en="So you're saying, what if we don't have to wait anymore? Yeah, I mean, I think, well, imagine what you could do with something where the latency is, you know, 50x better." aria-label="回原文"></button>
 
 然而,光有更快的硬件还不够,怎么用好现有的模型,其实是个更大的杠杆。这正是「上下文工程」登场的地方。
 
-Jeff 指出,很多人误以为 AI 进步仅仅是模型变大。但实际上,真正的系统是由模型、工具、检索和记忆共同组成的 [16:42]。
+Jeff 指出,很多人误以为 AI 进步仅仅是模型变大。但实际上,真正的系统是由模型、工具、检索和记忆共同组成的 <button class="pd-ts" data-t="16:42" data-who="" data-en="And it might kind of get consolidated into what people call context engineering, right? Yeah, I mean, I think the model is really only one piece of what you're trying to do, which is build an overall system that can solve really interesting problems." aria-label="回原文"></button>。
 
-模型在训练时见过的数据,是被搅成一锅千亿参数的「汤」,模模糊糊;而你直接喂给它的上下文,对它来说是极其清晰的 [17:13]。所以,怎么编排工具调用、怎么检索信息,才是决定成败的关键。
+模型在训练时见过的数据,是被搅成一锅千亿参数的「汤」,模模糊糊;而你直接喂给它的上下文,对它来说是极其清晰的 <button class="pd-ts" data-t="17:13" data-who="" data-en="can put information into the context of the model. And the nice thing about that is that information is really clear to the model. Unlike the training data the model was trained on, where it's all kind of like trillions of tokens stirred together into a soup of hundreds of billions or trillions of parameters, but it's all less clear than the actual context that the model sees directly for this particular problem or use case." aria-label="回原文"></button>。所以,怎么编排工具调用、怎么检索信息,才是决定成败的关键。
 
-他特别点出,这件事不需要你有多少 GPU,只要有 Gemini 的 API,谁都能做 [18:27]。他自己就是这么干的:他和搭档 Sanjay 写了一个「技能」,教模型像他们一样去做底层代码的性能优化——先跑微基准测试(一种测量小段代码耗时的工具),改代码,再测,再改 [20:30]。模型只要拿到这种包含人类专家经验的「技能」,就能自己闭环迭代。
+他特别点出,这件事不需要你有多少 GPU,只要有 Gemini 的 API,谁都能做 <button class="pd-ts" data-t="18:27" data-who="" data-en="But for context engineering, everyone here could do it. You just need the API to something like Gemini, and then work on your own setup for your own retrieval, your own tool calls, and et cetera, et cetera." aria-label="回原文"></button>。他自己就是这么干的:他和搭档 Sanjay 写了一个「技能」,教模型像他们一样去做底层代码的性能优化——先跑微基准测试(一种测量小段代码耗时的工具),改代码,再测,再改 <button class="pd-ts" data-t="20:30" data-who="" data-en="And so you can write micro benchmarks. But then without an agent-based system, what you usually do is you measure what the current performance is on some benchmarks you care about." aria-label="回原文"></button>。模型只要拿到这种包含人类专家经验的「技能」,就能自己闭环迭代。
 
 闭环说起来容易,但很多人发现,智能体跑到第 30、40 步就「脱轨」了。这是为什么?
 
-Jeff 的诊断很直接:因为模型走到了它训练数据没覆盖的「分布外」地带,性能会突然暴跌 [23:07]。怎么破?
+Jeff 的诊断很直接:因为模型走到了它训练数据没覆盖的「分布外」地带,性能会突然暴跌 <button class="pd-ts" data-t="23:07" data-who="" data-en="And sometimes that's because the model is trying to do something it doesn't have a lot of experience doing. So it's been trained on a whole set of things. And as soon as you get a little bit off the distribution of things it knows how to do, then like most machine learning models, its performance will suddenly start to degrade." aria-label="回原文"></button>。怎么破?
 
-他支了两招:第一,给模型清晰的「技能」和护栏,把它死死按在它擅长的那条光明大道上 [23:31];第二,也是更重要的,用多智能体系统去「搜索」解法。派几个智能体分头试不同路径,再让另一个模型当裁判,只留有用的,扔掉脱轨的 [23:41]。
+他支了两招:第一,给模型清晰的「技能」和护栏,把它死死按在它擅长的那条光明大道上 <button class="pd-ts" data-t="23:31" data-who="" data-en="So there's a bunch of things you can do. So one is give the model skills and hints that kind of tend to keep it in the sort of more brightly lit path of things it does know how to do." aria-label="回原文"></button>;第二,也是更重要的,用多智能体系统去「搜索」解法。派几个智能体分头试不同路径,再让另一个模型当裁判,只留有用的,扔掉脱轨的 <button class="pd-ts" data-t="23:41" data-who="" data-en="So one is give the model skills and hints that kind of tend to keep it in the sort of more brightly lit path of things it does know how to do. I think having multi-agent systems where you have multiple agents trying different approaches and you can evaluate, you have maybe another model or another agent that's evaluating which ones of those seem promising is another way to kind of" aria-label="回原文"></button>。
 
-这种在推理时多算几条路、并行搜索的技巧,是他眼中让长流程智能体保持靠谱的最强武器 [24:12]。主持人好奇他内部怎么落地这套玩法。Jeff 说,在 Google 内部,他们给智能体装满了各种技能,从抓取专有日志到代码审查,让基础模型即便没见过这些内部系统,也能靠「技能说明书」熟练操作 [24:35]。
+这种在推理时多算几条路、并行搜索的技巧,是他眼中让长流程智能体保持靠谱的最强武器 <button class="pd-ts" data-t="24:12" data-who="" data-en="and stick to the ones that seem most promising and discard the ones that didn't seem to work or maybe that went off the rails or whatever. And that's a very, very useful general technique is, you know, inference time compute to perform search over plausible ways of solving the problem that can get much, much higher performance or much more reliability in long running agent flows." aria-label="回原文"></button>。主持人好奇他内部怎么落地这套玩法。Jeff 说,在 Google 内部,他们给智能体装满了各种技能,从抓取专有日志到代码审查,让基础模型即便没见过这些内部系统,也能靠「技能说明书」熟练操作 <button class="pd-ts" data-t="24:35" data-who="" data-en="How are some ways you implemented this particular workflow for your agents internally? Yeah, I mean, we have harnesses and then we have a whole set of skills, particularly in the internal Google development environment." aria-label="回原文"></button>。
 
 工具变了,人的活法也变了。如果智能体这么能干,人还能干什么?
 
-这正是下一个话题。Jeff 和搭档还把这套优化经验写成了一份叫《Performance Hints》的 30 页文档 [21:40]。
+这正是下一个话题。Jeff 和搭档还把这套优化经验写成了一份叫《Performance Hints》的 30 页文档 <button class="pd-ts" data-t="21:40" data-who="" data-en="Seems like the world would love this and it's worth infinite amount of money to someone have access to this. We actually published a document maybe a few months ago called Performance Hints that Sanjay and I wrote." aria-label="回原文"></button>。
 
 主持人打趣说,只要把这文档喂给模型,人人都能像 Jeff Dean 一样优化代码。但话锋一转:如果未来所有代码都是成百上千个智能体写的,什么才是人的稀缺能力?
 
-Jeff 的答案出人意料地简单——是「品味」,也就是挑选「做什么」的高层智慧 [34:07]。他打了个比方:研究员手里有再多工具,最大的战争永远是「该花时间解决哪个问题」。
+Jeff 的答案出人意料地简单——是「品味」,也就是挑选「做什么」的高层智慧 <button class="pd-ts" data-t="34:07" data-who="" data-en="Yeah, I mean, I think it's really... having incredibly good taste in what you ask your agents to work on, right? That is the crux of, you know, from my background, a research problem." aria-label="回原文"></button>。他打了个比方:研究员手里有再多工具,最大的战争永远是「该花时间解决哪个问题」。
 
-干得漂亮但选了个无聊的问题,远不如选对问题然后解出它 [34:27]。他给了三个练「品味」的实操方法:第一,多攒经验,留意那些「差点就能拼出来」的开放问题;第二,记下你认为未来一年会火的事,一年后回过头来打分,看看自己的判断准不准 [36:00];第三,也是最有趣的,多做疯狂的思想实验,去推翻那些大家习以为常的假设。
+干得漂亮但选了个无聊的问题,远不如选对问题然后解出它 <button class="pd-ts" data-t="34:27" data-who="" data-en="You know, a researcher can have all the tools and all the techniques, but often most of the battle is what problem are you gonna spend your time on? And if you pick the problem well and you succeed in solving it, that's way better than if you delightfully execute a research investigation into a rather boring problem." aria-label="回原文"></button>。他给了三个练「品味」的实操方法:第一,多攒经验,留意那些「差点就能拼出来」的开放问题;第二,记下你认为未来一年会火的事,一年后回过头来打分,看看自己的判断准不准 <button class="pd-ts" data-t="36:00" data-who="" data-en="you know, working on a lot of different problems in the past kind of teaches you about what kinds of problems might be interesting in the future or what kinds of things might be just barely possible by cobbling together these previous approaches and then some open problems you might have to work on in order to get to something kind of magical or, you know, highly useful." aria-label="回原文"></button>;第三,也是最有趣的,多做疯狂的思想实验,去推翻那些大家习以为常的假设。
 
-思想实验听着玄,但 Jeff 是真靠这个造出过改变世界的系统的。他抛了一个极其疯狂的实验:过去 60 年,芯片制造业都在拼命造「绝不犯错」的晶体管;但如果我们换个思路,接受「每天错 20 次」的晶体管,会怎样? 
+思想实验听着玄,但 Jeff 是真靠这个造出过改变世界的系统的。他抛了一个极其疯狂的实验:过去 60 年,芯片制造业都在拼命造「绝不犯错」的晶体管;但如果我们换个思路,接受「每天错 20 次」的晶体管,会怎样? <button class="pd-ts" data-t="38:34" data-who="" data-en="So what would, basically an interesting thought experiment is what would happen if you tried to build a system out of transistors that might have 20 errors per day rather than one every million years." aria-label="回原文"></button> 
 
-[38:34] 硬件设计会完全颠覆,可能要像人类大脑那样,靠发送多重冗余信号来保证重要信息送达 [39:45]。这听着像天方夜谭,但 TPU 和 MapReduce 都是这么来的。
+硬件设计会完全颠覆,可能要像人类大脑那样,靠发送多重冗余信号来保证重要信息送达 <button class="pd-ts" data-t="39:45" data-who="" data-en="Like signals in our brain are not especially reliable from getting one place to another. And so I think in brains, when there are really important things you need to get from one place to another, there are multiple pathways that enable you to sort of do that." aria-label="回原文"></button>。这听着像天方夜谭,但 TPU 和 MapReduce 都是这么来的。
 
-当年做 TPU,就是在机器学习还没今天这么火的时候,赌了一个极度小众的硬件方向 [40:13];做 MapReduce,是因为他和同事写够了各种为了容错和并行而臃肿不堪的代码,突然灵光一闪,想起了函数式编程,把容错这些脏活全抽离到底层库,让上层代码干净得只剩业务逻辑 [41:25]。这不仅是技术突破,更是对「理所当然」的叛逆。
+当年做 TPU,就是在机器学习还没今天这么火的时候,赌了一个极度小众的硬件方向 <button class="pd-ts" data-t="40:13" data-who="" data-en="Yeah, I mean, I guess... That worked out, actually. Yeah, I mean, I think, well, TPUs is a good example. Like being able to specialize hardware for a very niche problem domain before that problem domain seemed as important as it is today is one thought experiment." aria-label="回原文"></button>;做 MapReduce,是因为他和同事写够了各种为了容错和并行而臃肿不堪的代码,突然灵光一闪,想起了函数式编程,把容错这些脏活全抽离到底层库,让上层代码干净得只剩业务逻辑 <button class="pd-ts" data-t="41:25" data-who="" data-en="And it would get obscured by all this kind of other code for parallelization and reliability. And so we sort of remembered our training in functional languages and realized we could squint at those problems and develop this map, produce abstraction." aria-label="回原文"></button>。这不仅是技术突破,更是对「理所当然」的叛逆。
 
 那么,两三个人的小团队,到底该拿这些武器去打哪里?这是全场最实操的一段。
 
 Google 这种大厂显然会继续造超通用的 Gemini 模型,但这恰恰是小团队的机会。Jeff 给了一个非常精准的测试尺子:拿当前最强的通用模型去试你想做的事,如果它干得有点起色但还不够好,那千万别做——因为半年后它就会变好,把你碾平。
 
-如果它彻底失败,成功率只有 0% 或 1%,那才是好机会 [28:46]。怎么找这种机会?
+如果它彻底失败,成功率只有 0% 或 1%,那才是好机会 <button class="pd-ts" data-t="28:46" data-who="" data-en="that's maybe not a great sign because that's probably a sign that the capability is starting to be present in those models and with more training data or larger scale models or whatever, it's likely to get better." aria-label="回原文"></button>。怎么找这种机会?
 
-Jeff 指了两条路:一是通用模型摸不到的数据,比如帮你整理极私人的信息 [29:16];二是像 [[AlphaFold|AlphaFold]] 那样,为某个硬核领域(比如材料科学或芯片设计)训练一个极度精准的小众模型 [30:30]。除了选对问题,怎么管理成百上千个虚拟员工也是一门必修课。
+Jeff 指了两条路:一是通用模型摸不到的数据,比如帮你整理极私人的信息 <button class="pd-ts" data-t="29:16" data-who="" data-en="a product that you build that might have access to particular kind of data that the underlying model might not, the general model. So it might be you're building something to help users organize all their own personal information and the model won't necessarily have access to that." aria-label="回原文"></button>;二是像 [[AlphaFold|AlphaFold]] 那样,为某个硬核领域(比如材料科学或芯片设计)训练一个极度精准的小众模型 <button class="pd-ts" data-t="30:30" data-who="" data-en="Can you tell us more about what are some of these domains? Yeah, I mean, I think, like, if you look at my colleague's work on, say, AlphaFold, that was a very specific model for protein folding, and it was highly successful." aria-label="回原文"></button>。除了选对问题,怎么管理成百上千个虚拟员工也是一门必修课。
 
-Jeff 说,秘诀就是写清晰到极致的规格说明 [31:49]。有意思的是,现在代码是智能体写了,但「写清楚需求」这件事的重要性反而比以前更高了——因为你面对的不再是会追问我意图的聪明同事,而是一个只会照着字面意思去推断的机器 [32:36]。
+Jeff 说,秘诀就是写清晰到极致的规格说明 <button class="pd-ts" data-t="31:49" data-who="" data-en="What do those look like? Yeah, I mean, I think it's, you'll have a lot more success when working with your virtual agents if you can clearly specify what it is you want." aria-label="回原文"></button>。有意思的是,现在代码是智能体写了,但「写清楚需求」这件事的重要性反而比以前更高了——因为你面对的不再是会追问我意图的聪明同事,而是一个只会照着字面意思去推断的机器 <button class="pd-ts" data-t="32:36" data-who="" data-en="before then going and writing it. And so now we actually have agent-based systems that can do the writing, but the importance of specifying what it is you want has actually gone up because before you'd be handing it off to a very intelligent human who maybe has context or can ask you follow-up questions." aria-label="回原文"></button>。
 
-他举了个绝佳的例子:为什么现在的模型特别擅长把 Python 代码翻译成 Go?因为整个 Python 程序本身就是一份完美、详尽的「规格说明书」,模型只需照着测、照着改,直到两个版本行为完全一致 [33:02]。
+他举了个绝佳的例子:为什么现在的模型特别擅长把 Python 代码翻译成 Go?因为整个 Python 程序本身就是一份完美、详尽的「规格说明书」,模型只需照着测、照着改,直到两个版本行为完全一致 <button class="pd-ts" data-t="33:02" data-who="" data-en="And to give you an example of a... a use of a coding agent that works extremely well is you can ask today's models to translate software from one computer language to another very effectively." aria-label="回原文"></button>。
 
 说完了怎么带兵打仗,最后聊聊心态和选人。搞创新的人免不了被拒。
 
-Jeff 讲了个黑色幽默的故事:2014 年他和图灵奖得主 Hinton 写了篇关于「[[蒸馏|蒸馏]]」(用大模型教小模型,让小模型又快又便宜)的论文,结果被 NeurIPS 拒了,理由是「不太可能有重大影响」 [48:31]。这篇如今被业界奉为圭臬的论文,正是 Gemini 的 Flash 版本(又快又轻量)能这么强的技术基础 [49:34]。
+Jeff 讲了个黑色幽默的故事:2014 年他和图灵奖得主 Hinton 写了篇关于「[[蒸馏|蒸馏]]」(用大模型教小模型,让小模型又快又便宜)的论文,结果被 NeurIPS 拒了,理由是「不太可能有重大影响」 <button class="pd-ts" data-t="48:31" data-who="" data-en="Yeah. And the thing is, this paper got rejected at NeurIPS. Yeah, I mean, yeah." aria-label="回原文"></button>。这篇如今被业界奉为圭臬的论文,正是 Gemini 的 Flash 版本(又快又轻量)能这么强的技术基础 <button class="pd-ts" data-t="49:34" data-who="" data-en="It's all good. And we do use it in making our Flash models, for example, from our larger scale. That's partly why our Flash models, for example, in Gemini are so capable relative to their size and speed." aria-label="回原文"></button>。
 
-Jeff 的教训很简单:被拒了就发到网上,继续干,真有影响大家会用 [49:29]。如果把你扔回 1999 年,你会去大厂还是创业?
+Jeff 的教训很简单:被拒了就发到网上,继续干,真有影响大家会用 <button class="pd-ts" data-t="49:29" data-who="" data-en="That's fine. We put it on archive. People read it." aria-label="回原文"></button>。如果把你扔回 1999 年,你会去大厂还是创业?
 
-Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,世界是会真真切切地变好,还是只是「哦,挺酷的」?如果是后者,就别浪费时间 [52:59]。
+Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,世界是会真真切切地变好,还是只是「哦,挺酷的」?如果是后者,就别浪费时间 <button class="pd-ts" data-t="52:59" data-who="" data-en="So I think it's really up to personal taste, but at the very least, regardless of what path you take, ask yourself, if I work on this problem and the best possible outcome happens," aria-label="回原文"></button>。
 
-至于找合伙人,他的标准很有人情味:技能互补、自我意识低,最重要的是——你得喜欢跟他们待在一起,因为你们要一起蹚过无数个难熬的坑 [54:13]。把你的职业生涯当成一条工具腰带,每段经历都是在往里塞新工具,你永远不知道下个问题会需要这四把工具还是那三把 [54:47]。
+至于找合伙人,他的标准很有人情味:技能互补、自我意识低,最重要的是——你得喜欢跟他们待在一起,因为你们要一起蹚过无数个难熬的坑 <button class="pd-ts" data-t="54:13" data-who="" data-en="And you want people who are low ego, that are team players, that have complimentary skills to your own, perhaps. I always find working in a small team where people know things that I don't know, and where maybe I have some skills that other people don't have as much of." aria-label="回原文"></button>。把你的职业生涯当成一条工具腰带,每段经历都是在往里塞新工具,你永远不知道下个问题会需要这四把工具还是那三把 <button class="pd-ts" data-t="54:47" data-who="" data-en="And you kind of want to view your engineering or research career as you have an amazing tool belt of techniques. And you always want to be adding new tools to that tool belt because you never know when you might come across a problem where you need these four specialized tools rather than these three." aria-label="回原文"></button>。
 
 > 【背景】主持人开头提到的「Jeff、Sanjay」指的是 Jeff Dean 和他的长期搭档 Sanjay Ghemawat,两人在 Google 一起写过大量基础系统代码。文中提到 Go,是一种 Google 开发的编程语言。
 

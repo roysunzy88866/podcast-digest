@@ -46,69 +46,69 @@ jsonLd: |
 
 ### 改造公司的地基：比 AI 工具更重要的是组织结构
 
-Dhanji 进入高管圈后发现，大家讨论着各类业务问题，却没人在关注 AI，于是他写下了一份「AI 宣言」，呼吁公司集中力量拥抱 AI [06:26]。但真要让一家庞大多业务线的公司转变成 AI 原生，最痛、但也最关键的一步并不是买工具，而是组织重构。
+Dhanji 进入高管圈后发现，大家讨论着各类业务问题，却没人在关注 AI，于是他写下了一份「AI 宣言」，呼吁公司集中力量拥抱 AI <button class="pd-ts" data-t="06:26" data-who="" data-en="So he got about 40 of the company's top executives into a room on a weekly basis, and they all used to sort of talk everything through that was going on and he added me to that group." aria-label="回原文"></button>。但真要让一家庞大多业务线的公司转变成 AI 原生，最痛、但也最关键的一步并不是买工具，而是组织重构。
 
-在改造前，Block 旗下各业务线（如 Cash App、Square 等）各自为政，采用了类似独立公司组合的 GM（总经理）结构。不同业务有着独立的工程团队、设计团队，彼此几乎不交流 [09:43]。这种结构在业务成熟期管用，但要深入拥抱前沿技术变革时，就显得极其臃肿。
+在改造前，Block 旗下各业务线（如 Cash App、Square 等）各自为政，采用了类似独立公司组合的 GM（总经理）结构。不同业务有着独立的工程团队、设计团队，彼此几乎不交流 <button class="pd-ts" data-t="09:43" data-who="" data-en="We had spun them out almost as what we call a GM structure. So they were effectively run as a portfolio of independent companies and they had their own CEOs who all reported to Jack and it was still one single executive team, but they had separate engineering practices, they had separate design teams." aria-label="回原文"></button>。这种结构在业务成熟期管用，但要深入拥抱前沿技术变革时，就显得极其臃肿。
 
-> **康威定律（Conway's Law）**：软件架构会映射出设计该软件的组织结构——换言之，「**你交付的其实是你的组织结构**」[12:28]。
+> **康威定律（Conway's Law）**：软件架构会映射出设计该软件的组织结构——换言之，「**你交付的其实是你的组织结构**」<button class="pd-ts" data-t="12:28" data-who="" data-en="I think that one of the things that I learned the most throughout this process is that Conway's Law can be really, really powerful. So it's the law that basically says you ship your org structure." aria-label="回原文"></button>。
 
-为了让公司的技术焦点重新统一，Dhanji 推动将分散的组织架构彻底改组为**[[职能型架构|职能型架构]]**：所有工程师向同一个工程负责人汇报，所有设计师向同一个设计负责人汇报 [10:32]。
+为了让公司的技术焦点重新统一，Dhanji 推动将分散的组织架构彻底改组为**[[职能型架构|职能型架构]]**：所有工程师向同一个工程负责人汇报，所有设计师向同一个设计负责人汇报 <button class="pd-ts" data-t="10:32" data-who="" data-en="So I think that that was very useful for us for the stage of company that we were in, but when you really want to go deep in technology, when you really want to connect with these things that are industry changing events that are happening, you need a singular focus, and we changed the organization." aria-label="回原文"></button>。
 
-这次重组极其痛苦，但带来了质变：全公司统一了技术语言、统一了工程师评级标准，人员可以按需灵活调配，为全面推进 AI 扫清了障碍。Dhanji 指出，这种重组的逻辑与乔布斯重返苹果时做的功能化重组一致：把工程和设计放在首位，才能重塑公司的技术 DNA [11:22]。
+这次重组极其痛苦，但带来了质变：全公司统一了技术语言、统一了工程师评级标准，人员可以按需灵活调配，为全面推进 AI 扫清了障碍。Dhanji 指出，这种重组的逻辑与乔布斯重返苹果时做的功能化重组一致：把工程和设计放在首位，才能重塑公司的技术 DNA <button class="pd-ts" data-t="11:22" data-who="" data-en="Yeah, I think that's pretty much what we did. And not to lean too heavily on this, but this is what jobs did when he came back to Apple as well. He reorganized Apple to be functional, and it wasn't like we were following a playbook." aria-label="回原文"></button>。
 
 ### 实质生产力：每周省 8-10 小时与自动化盲区
 
-在 Block，推进 AI 被称为「**Automate Block**」（通过自动化实现 Block），目标是让 AI 和自动化贯穿整个公司 [16:03]。最直观的成效是：每天使用 AI 工具的最前沿工程团队，**平均每周节省 8 到 10 小时**工作量。全公司来看，估算正趋向于节省 20% 到 25% 的人工工时 [16:57]。
+在 Block，推进 AI 被称为「**Automate Block**」（通过自动化实现 Block），目标是让 AI 和自动化贯穿整个公司 <button class="pd-ts" data-t="16:03" data-who="" data-en="Our number one priority is through automate Block, which means getting AI and getting AI forms of automation through our entire company. And we feel that that's just at the beginning of where the utility is with all these large language models, and I think we're going to continue to see that improve." aria-label="回原文"></button>。最直观的成效是：每天使用 AI 工具的最前沿工程团队，**平均每周节省 8 到 10 小时**工作量。全公司来看，估算正趋向于节省 20% 到 25% 的人工工时 <button class="pd-ts" data-t="16:57" data-who="" data-en="So we look at PRs, we look at throughput of features, we look at a whole bunch of things and we have our data scientists come up with a complicated formula that tries to distill it all into something meaningful." aria-label="回原文"></button>。
 
-但这些收益并不均匀。对于从零开始的新代码库，生产力提升极其惊人；但在历史包袱沉重的复杂遗留代码库中，收益还不明显 [21:01]。
+但这些收益并不均匀。对于从零开始的新代码库，生产力提升极其惊人；但在历史包袱沉重的复杂遗留代码库中，收益还不明显 <button class="pd-ts" data-t="21:01" data-who="" data-en="And then on the engineering side, it's very variable because like I said before, it matters how big and how complex the code base is. And so if you're building a totally new Greenfields code base or you're building an app for a new platform, then we're seeing those pretty aggressive gains, but in very complex code bases that already exist, those gains are not quite there yet." aria-label="回原文"></button>。
 
-更令人惊讶的是，目前从 AI 工具中获益最大的群体，并不是工程师，而是**非技术人员** [49:50]。例如，企业风险管理团队自己用 AI [[智能体|智能体]]搭建了整套风险自助管理系统，把以往需要排队等内部 IT 排期数周才能做完的工作压缩到了几小时 [18:06]。
+更令人惊讶的是，目前从 AI 工具中获益最大的群体，并不是工程师，而是**非技术人员** <button class="pd-ts" data-t="49:50" data-who="" data-en="And then the junior people are like my niece and nephew on a BlackBerry or something, they're just blitzing through things, not BlackBerry in the early days and iPhones now, they're blitzing through a text message when I'm still seek and destroying through my keyboard, shows you how old I am." aria-label="回原文"></button>。例如，企业风险管理团队自己用 AI [[智能体|智能体]]搭建了整套风险自助管理系统，把以往需要排队等内部 IT 排期数周才能做完的工作压缩到了几小时 <button class="pd-ts" data-t="18:06" data-who="" data-en="One area in which we find that it's really good is for non-technical teams to be able to build little software tools for themselves. So this has been one of the most surprising and energizing uses of Goose within Block is we'll have our enterprise risk management team build a whole system for self-servicing enterprise risk, and this is compressing weeks of work into hours, or ordinarily, they would be waiting for an internal apps team or something to go and build that and they would put that on their Q2 roadmap and everyone would be twiddling their thumbs until it all clicked into place, but now you can just go and do it." aria-label="回原文"></button>。
 
-> Dhanji 提醒，每当听到任何关于生产力的统计数据时，要明白「**这是它未来最差的状态，这就是现在的基线**」，而 AI 的价值每天都在变化 [21:19]。
+> Dhanji 提醒，每当听到任何关于生产力的统计数据时，要明白「**这是它未来最差的状态，这就是现在的基线**」，而 AI 的价值每天都在变化 <button class="pd-ts" data-t="21:19" data-who="" data-en="That's amazing. And whenever I hear a stat like this, I think an important element that people need to think about is this is the worst it will ever be. This is the lowest, this is now the baseline." aria-label="回原文"></button>。
 
-Dhanji 坦言，AI 目前还不擅长处理那些需要深度与全局判断的事务。当资深工程师在思考架构设计、竞态条件和复杂编排时，AI 依然不如人类。此外，AI 也缺乏对「**全局重要性**」的组合判断力，比如它不知道一个新系统是否会不必要地增加公司的安全防护成本——这种战略级决策仍需人类介入 [19:39]。
+Dhanji 坦言，AI 目前还不擅长处理那些需要深度与全局判断的事务。当资深工程师在思考架构设计、竞态条件和复杂编排时，AI 依然不如人类。此外，AI 也缺乏对「**全局重要性**」的组合判断力，比如它不知道一个新系统是否会不必要地增加公司的安全防护成本——这种战略级决策仍需人类介入 <button class="pd-ts" data-t="19:39" data-who="" data-en="So we're seeing a lot of advantages in those types of areas, but where you have a lot of depth and a lot of really strong people come together is where AI, I think still underperforms humans." aria-label="回原文"></button>。
 
 ### Goose：给大模型装上手脚
 
-Block 内部甚至全行业推进 AI 落地最重要的抓手，是他们自研并开源的智能体 **[[Goose|Goose]]**。它本质上是一个通用桌面 AI 程序，而它之所以能跨系统执行真实任务，归功于 **[[MCP|MCP]]（模型上下文协议）** [22:30]。
+Block 内部甚至全行业推进 AI 落地最重要的抓手，是他们自研并开源的智能体 **[[Goose|Goose]]**。它本质上是一个通用桌面 AI 程序，而它之所以能跨系统执行真实任务，归功于 **[[MCP|MCP]]（模型上下文协议）** <button class="pd-ts" data-t="22:30" data-who="" data-en="So it can do all of these tasks, and the way we've been able to do this is through something called a model context protocol or the MCP, which a lot of your listeners might've heard." aria-label="回原文"></button>。
 
-> **MCP（模型上下文协议，Model Context Protocol）**：一种由 Anthropic 提出并开源的协议，本质上是一套包装器。企业可以将 Salesforce、Snowflake、SQL 等任何内部工具包装进 MCP，从而暴露给大语言模型，让模型能直接操作这些系统 [22:58]。
+> **MCP（模型上下文协议，Model Context Protocol）**：一种由 Anthropic 提出并开源的协议，本质上是一套包装器。企业可以将 Salesforce、Snowflake、SQL 等任何内部工具包装进 MCP，从而暴露给大语言模型，让模型能直接操作这些系统 <button class="pd-ts" data-t="22:58" data-who="" data-en="And the model context protocol is very simply just a set of formalized wrappers around existing tools or existing capabilities. So if you have tools that you use in the enterprise, be it Salesforce or be it Snowflake or SQL, any of these things, you can wrap them in the MCP and then it exposes them to your LLM to be able to manipulate." aria-label="回原文"></button>。
 
-在 MCP 出现前，[[LLM|LLM]]（大语言模型）基本只是个聊天大脑；通过 MCP，Goose 给大脑装上了手脚。例如，你可以要求 Goose 生成营销报告：它会自动连接 Snowflake 或 Looker 抓取数据，编写 Python 做分析，用 JavaScript 生成图表，最后排版成 PDF 并自动发邮件 [24:42]。如果公司想给某个工单系统加上 AI 能力，以前得苦等供应商更新，现在只需写几行 MCP 代码即可一夜之间完成自动化编排 [26:34]。
+在 MCP 出现前，[[LLM|LLM]]（大语言模型）基本只是个聊天大脑；通过 MCP，Goose 给大脑装上了手脚。例如，你可以要求 Goose 生成营销报告：它会自动连接 Snowflake 或 Looker 抓取数据，编写 Python 做分析，用 JavaScript 生成图表，最后排版成 PDF 并自动发邮件 <button class="pd-ts" data-t="24:42" data-who="" data-en="So we have a pluggable provider system and you can either bring your own API keys and use the Claude family models or OpenAI's family models, or you can use open source models and you can download them and use them directly or via Ollama and other, there are several tools that help you do that, but essentially it's taking the capability of these models to generate text and to interpret text and applying them to real world situations." aria-label="回原文"></button>。如果公司想给某个工单系统加上 AI 能力，以前得苦等供应商更新，现在只需写几行 MCP 代码即可一夜之间完成自动化编排 <button class="pd-ts" data-t="26:34" data-who="" data-en="But with Goose, that's no longer necessary with a few lines of code that an MCP represents. All these systems are orchestratable with AI basically overnight, and Goose can write its own MCPs." aria-label="回原文"></button>。
 
-Block 内部有一位工程师将这种自主性推向了极致：他让 Goose 持续监控自己的屏幕、监听语音。当他在 Slack 或邮件里和同事讨论某个值得做的功能后，几个小时后 Goose 就会**自动尝试写出该功能的代码并提交 PR** [29:30]。
+Block 内部有一位工程师将这种自主性推向了极致：他让 Goose 持续监控自己的屏幕、监听语音。当他在 Slack 或邮件里和同事讨论某个值得做的功能后，几个小时后 Goose 就会**自动尝试写出该功能的代码并提交 PR** <button class="pd-ts" data-t="29:30" data-who="" data-en="And so he built this system where it's essentially just watching everything he does all the time and he'll be talking to a colleague on Slack or an email and they'll be discussing some feature that they think is useful to implement." aria-label="回原文"></button>。
 
-如果该工程师开会超时，Goose 甚至会自动帮他重新安排接下来的日历，无需人工点按十几次 [31:32]。这展示了 AI 智能体介入工作流的巨大可能性。
+如果该工程师开会超时，Goose 甚至会自动帮他重新安排接下来的日历，无需人工点按十几次 <button class="pd-ts" data-t="31:32" data-who="" data-en="I can't make it that time, or I have to go pick up my kid.&quot; And Goose will automatically reschedule that meeting without him ever sitting in front of his calendar and clicking through 10 times." aria-label="回原文"></button>。这展示了 AI 智能体介入工作流的巨大可能性。
 
 ### 工作流的颠覆：睡觉前许愿，醒来后验收
 
-随着大模型能力提升，Dhanji 认为目前流行的 vibe coding（通过聊天驱动 AI 写代码）过于像「打乒乓球」——一来一回、半生不熟，极具局限性 [32:59]。未来的工作模式将是**长时间的高自主性运行**。
+随着大模型能力提升，Dhanji 认为目前流行的 vibe coding（通过聊天驱动 AI 写代码）过于像「打乒乓球」——一来一回、半生不熟，极具局限性 <button class="pd-ts" data-t="32:59" data-who="" data-en="So I think vibe coding has been an interesting, exciting thing, which is you talk to a chatbot essentially and it goes and builds software for you, but I think this is highly limiting." aria-label="回原文"></button>。未来的工作模式将是**长时间的高自主性运行**。
 
-他正在推动的下一代 Goose 实验目标是：将单次运行时间从目前的 5-7 分钟延长到**数小时甚至整夜**。既然大模型在晚上和周末都在闲置，那就应该让它们加班 [33:45]。
+他正在推动的下一代 Goose 实验目标是：将单次运行时间从目前的 5-7 分钟延长到**数小时甚至整夜**。既然大模型在晚上和周末都在闲置，那就应该让它们加班 <button class="pd-ts" data-t="33:45" data-who="" data-en="We're trying to say, &quot;Hey, all these LLMs are sitting idle overnight and on weekends while humans aren't there, there's no need for that.&quot; They should be working all the time." aria-label="回原文"></button>。
 
 过去的工程实践受限于人力和带宽，只能挑选一条「最优路径」去实验。但现在，人类的协调瓶颈被打破了。
 
-你可以极其详细地描述多个不同的实验方向，然后去睡觉。第二天醒来，AI 已经把这五六个实验全构建好了，你只需挑选最满意的一个，**把其余的全部删掉** [34:26]。
+你可以极其详细地描述多个不同的实验方向，然后去睡觉。第二天醒来，AI 已经把这五六个实验全构建好了，你只需挑选最满意的一个，**把其余的全部删掉** <button class="pd-ts" data-t="34:26" data-who="" data-en="We need instead to be able to describe multiple different experiments in a great amount of detail. And then maybe we go to sleep and then in the morning, all those experiments are built and we can sort of throw away five or six of them." aria-label="回原文"></button>。
 
 Dhanji 作为 CTO 自己每天都在写代码，但他现在经常做的事情是：**构建一整套新系统后，觉得不对劲，直接全部删掉从头重写**。这在以前是不可想象的。
 
-软件工程界历来有「不要随便重写」的铁律，因为重写会丢失无数细小的改进。但在 AI 能将这些渐进式改进作为规范融入重写过程后，**每次版本发布都相当于将整个 App 从零重建**，将成为可能 [35:13]。不过，这也要求人类运用品味和设计感来锚定 AI，防止它们跑偏产出「AI 劣质内容（AI slop）」[38:05]。
+软件工程界历来有「不要随便重写」的铁律，因为重写会丢失无数细小的改进。但在 AI 能将这些渐进式改进作为规范融入重写过程后，**每次版本发布都相当于将整个 App 从零重建**，将成为可能 <button class="pd-ts" data-t="35:13" data-who="" data-en="And I think that you're going to see instead of us, for example, refactoring an app to have a different UI or to evolve into its new version, we're just going to rewrite that app from scratch." aria-label="回原文"></button>。不过，这也要求人类运用品味和设计感来锚定 AI，防止它们跑偏产出「AI 劣质内容（AI slop）」<button class="pd-ts" data-t="38:05" data-who="" data-en="I do think we're going to need a lot of human taste to anchor these AIs so they don't go off script to be honest. And that's really where our design lead and our design teams are pushing us to think, and that's a differentiator that I think will push us beyond this era of AI slop that everyone's talking about." aria-label="回原文"></button>。
 
 ### 招聘与文化：别把工程师当商品
 
-有趣的是，虽然 AI 提升了效率，但 Block 并没有因此放缓招聘步伐。Dhanji 认为，这就像「修了更宽的高速公路，只会招来更多的车」：AI 让所有人都能构建软件，意味着需要构建的东西、需要协调的流程反而更多了，整体交付速度要求更快 [50:58]。
+有趣的是，虽然 AI 提升了效率，但 Block 并没有因此放缓招聘步伐。Dhanji 认为，这就像「修了更宽的高速公路，只会招来更多的车」：AI 让所有人都能构建软件，意味着需要构建的东西、需要协调的流程反而更多了，整体交付速度要求更快 <button class="pd-ts" data-t="50:58" data-who="" data-en="It is massive, although I think that it's a little bit like the analogy of if you build a bigger highway, you'll just get more cars on the road. So I think the fact that everyone's building software means that there's more software to be built, more coordination to happen, and everyone's more eager to ship things faster and with greater results." aria-label="回原文"></button>。
 
-真正改变招聘思维的，恰恰不是 AI，而是从 GM 结构到职能结构的转变。过去在 GM 结构下，业务线各自为政，**工程师被当成一种「商品」**，想多做功能就多招 100 人，深陷「人月神话」陷阱。改为职能结构后，更注重利用公共平台、模块复用和专家深度指导，不再盲目堆人头 [45:01]。
+真正改变招聘思维的，恰恰不是 AI，而是从 GM 结构到职能结构的转变。过去在 GM 结构下，业务线各自为政，**工程师被当成一种「商品」**，想多做功能就多招 100 人，深陷「人月神话」陷阱。改为职能结构后，更注重利用公共平台、模块复用和专家深度指导，不再盲目堆人头 <button class="pd-ts" data-t="45:01" data-who="" data-en="I think what's changed for us is much different and it has nothing to do with AI, it's what we talked about earlier is moving from our GM structure to a functional structure." aria-label="回原文"></button>。
 
-在面试时，Block 并不要求候选人必须是熟练的 AI 从业者。他们更看重的是**学习心态**：无论是拥抱 AI 的应届生，还是摸透了工具的资深工程师，只要渴望学习即可；相反，拒用工具的「优秀工程师」不在优选之列。Dhanji 仍坚持，批判性思维和深挖技术本质的能力，比是否会用某款工具重要得多 [46:35]。
+在面试时，Block 并不要求候选人必须是熟练的 AI 从业者。他们更看重的是**学习心态**：无论是拥抱 AI 的应届生，还是摸透了工具的资深工程师，只要渴望学习即可；相反，拒用工具的「优秀工程师」不在优选之列。Dhanji 仍坚持，批判性思维和深挖技术本质的能力，比是否会用某款工具重要得多 <button class="pd-ts" data-t="46:35" data-who="" data-en="But I'm much more keen on looking for that college grad who just really is eager to learn about these tools and open to it, or even the veteran who has embraced these tools and figured it out." aria-label="回原文"></button>。
 
 ### 真正驱动高管的，是自己亲手用工具
 
-如果只能给其他试图拥抱 AI 的公司一条建议，Dhanji 认为那就是：**高管必须每天亲自下场使用这些工具** [54:04]。
+如果只能给其他试图拥抱 AI 的公司一条建议，Dhanji 认为那就是：**高管必须每天亲自下场使用这些工具** <button class="pd-ts" data-t="54:04" data-who="" data-en="Before I zoom out and ask about just general lessons that you've learned over the course of your career, is there anything else that you think might be really valuable or useful to folks that are trying to lean in further into AI or just help their teams think a little bit more forward thinking?" aria-label="回原文"></button>。
 
-在 Block，CEO Jack Dorsey、整个高管团队以及 Dhanji 本人每天都在用 Goose 等工具处理实际工作。亲身体验能让你真正理解工具的优缺点和人机工程学，这比在 LinkedIn 或商业评论上看一百篇「AI 战略思想文章」都有用 [54:31]。
+在 Block，CEO Jack Dorsey、整个高管团队以及 Dhanji 本人每天都在用 Goose 等工具处理实际工作。亲身体验能让你真正理解工具的优缺点和人机工程学，这比在 LinkedIn 或商业评论上看一百篇「AI 战略思想文章」都有用 <button class="pd-ts" data-t="54:31" data-who="" data-en="So the way in which I think we've been able to drive most of the adoption is Jack uses Goose, I use Goose, our executive team all have used Goose and use it regularly and use other AI programming tools and assistance as well, and we do it every single day." aria-label="回原文"></button>。
 
-Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、PDF）的孩子治疗收据发给妻子报销。他把一堆原始文件丢给 Goose，Goose 尝试了下载和读取失败后，自主回退并另辟蹊径：**调用 Apple Script 操控了他的电脑**，将所有收据汇总成了一个 Apple Notes 里的 HTML 笔记，无缝同步到手机方便分享 [56:07]。这种突破常规预设的自动化解决能力，只有在亲自高频使用中才能被深刻感知。
+Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、PDF）的孩子治疗收据发给妻子报销。他把一堆原始文件丢给 Goose，Goose 尝试了下载和读取失败后，自主回退并另辟蹊径：**调用 Apple Script 操控了他的电脑**，将所有收据汇总成了一个 Apple Notes 里的 HTML 笔记，无缝同步到手机方便分享 <button class="pd-ts" data-t="56:07" data-who="" data-en="There are screenshots in some cases or PDFs or whatever. So I asked Goose to do this and it was all sitting on my laptop and Goose figured out that it could put all of these receipts into my Apple Notes app into a single note." aria-label="回原文"></button>。这种突破常规预设的自动化解决能力，只有在亲自高频使用中才能被深刻感知。
 
 ## 本集带走
 

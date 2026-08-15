@@ -43,46 +43,46 @@ jsonLd: |
 
 过去机器学习在商业上的成功（从产品推荐到 [[ChatGPT|ChatGPT]]），大多是把 AI 当顾问：模型给建议，人来拍板。错了也没关系，人能兜底。
 
-但[[物理 AI|物理 AI]] 和机器人完全不同——它必须自己直接做出影响物理世界的决定，因此它必须比以往部署的机器学习系统少犯错得多 [04:54]。一年前 [[Waymo|Waymo]]（自动驾驶公司）做到了每周超过二十五万次自主行程，这给整个物理 AI 领域带来了巨大的希望：机器学习系统确实能在物理世界里以可信赖的方式长期自主运行 [05:10]。
+但[[物理 AI|物理 AI]] 和机器人完全不同——它必须自己直接做出影响物理世界的决定，因此它必须比以往部署的机器学习系统少犯错得多 <button class="pd-ts" data-t="04:54" data-who="" data-en="And I think that actually physical AI and robotics is pretty different from this, where if we think about physical AI that are actually operating in the physical world, they have to be directly making decisions that affect the physical world." aria-label="回原文"></button>。一年前 [[Waymo|Waymo]]（自动驾驶公司）做到了每周超过二十五万次自主行程，这给整个物理 AI 领域带来了巨大的希望：机器学习系统确实能在物理世界里以可信赖的方式长期自主运行 <button class="pd-ts" data-t="05:10" data-who="" data-en="And as a result, this requires us to develop physical AI systems that make far fewer mistakes than the machine learning systems that have been deployed thus far." aria-label="回原文"></button>。
 
 ## 长期自主性：怎么让机器人「上可靠」
-要让机器人有用，就得让它长时间自主运行，比如让一台机器人连续给你做咖啡。做咖啡听起来简单，但操作无底把手（用来装咖啡粉的部件）需要极其精准的受力控制，得平稳端着装满液体的杯子不洒，还必须对「时机」有精确感知。我们不仅要做这任务，还要把可靠度做到 90% 以上 [06:36]。
+要让机器人有用，就得让它长时间自主运行，比如让一台机器人连续给你做咖啡。做咖啡听起来简单，但操作无底把手（用来装咖啡粉的部件）需要极其精准的受力控制，得平稳端着装满液体的杯子不洒，还必须对「时机」有精确感知。我们不仅要做这任务，还要把可靠度做到 90% 以上 <button class="pd-ts" data-t="06:36" data-who="" data-en="And it also needs to have an accurate sense of timing, which often isn't actually an issue in other areas of machine learning. And not only do we want to do this pretty challenging task, we want to do it with over 90% reliability." aria-label="回原文"></button>。
 
 传统做法是收集数据、训练模型、评估，发现问题再加数据微调。但靠人工这样轮轴转，极难达到极高的可靠性。
 
-真正的解法是：**让 AI 系统自己去自动迭代和寻找弱点** [07:42]。这本质上是一种[[强化学习|强化学习]]（让模型通过不断试错、从失败中自我改进的方法）。但语言模型的强化学习动辄跑数百万次乃至上千万次，因为每次尝试只是在数据中心跑纯计算 [08:32]；如果把这套搬进物理世界，哪怕只跑 100 万次一分钟的机器人任务，也得花 700 个机器人日，在现实里完全行不通 [08:53]。
+真正的解法是：**让 AI 系统自己去自动迭代和寻找弱点** <button class="pd-ts" data-t="07:42" data-who="" data-en="And so what would be even better is if the AI system itself can iterate on the scenario in which you want it to have high reliability, where it on its own automatically seeks out places where it needs more data, where it needs more supervision." aria-label="回原文"></button>。这本质上是一种[[强化学习|强化学习]]（让模型通过不断试错、从失败中自我改进的方法）。但语言模型的强化学习动辄跑数百万次乃至上千万次，因为每次尝试只是在数据中心跑纯计算 <button class="pd-ts" data-t="08:32" data-who="" data-en="Which is that these algorithms have been trained with millions of attempts, or sometimes even tens of millions of attempts, by scaling up the compute. Because each attempt is simply running the language model in a data center just by using compute." aria-label="回原文"></button>；如果把这套搬进物理世界，哪怕只跑 100 万次一分钟的机器人任务，也得花 700 个机器人日，在现实里完全行不通 <button class="pd-ts" data-t="08:53" data-who="" data-en="This is even shorter than the Espresso task that I talked about. This would correspond to 700 robot days to get high reliability for that task. Now, maybe this isn't completely out of the question, but this would be quite challenging to do." aria-label="回原文"></button>。
 
 为了把物理世界里的试错成本降下来，我们用了两招：
 1. **尽早干预，避免死胡同轨迹**。比如机器人折纸箱时一把抓了两个粘在一起的箱子，如果让它继续硬折，对学习毫无帮助。
 
-与其浪费时间，不如直接让人介入，远程操控机器人向它演示如何脱离困境，或干脆尽早结束这一回合，保证收集到的都是有用的经验数据 [10:15]。
+与其浪费时间，不如直接让人介入，远程操控机器人向它演示如何脱离困境，或干脆尽早结束这一回合，保证收集到的都是有用的经验数据 <button class="pd-ts" data-t="10:15" data-who="" data-en="And so that would be kind of wasting a lot of time on the robot attempting to go down the wrong path for solving the problem. And so instead of spending a lot of time trying to do that task, what we'll do is we'll actually have a human intervene and show the robot what to do and how to recover from that situation." aria-label="回原文"></button>。
 2. **训练通用的[[价值函数|价值函数]]（评估好坏的模型）来分摊成本**。
 
-与其针对每个单独任务去大量试错算平均值，不如在大量机器人视频上训练一个「能预测还要多久才能成功」的通用评估器。它能判断机器人是在取得进展，还是在越搞越砸，从而大幅减少学习所需的尝试次数 [11:44]。
+与其针对每个单独任务去大量试错算平均值，不如在大量机器人视频上训练一个「能预测还要多久才能成功」的通用评估器。它能判断机器人是在取得进展，还是在越搞越砸，从而大幅减少学习所需的尝试次数 <button class="pd-ts" data-t="11:44" data-who="" data-en="But we can actually amortize this cost. Rather than trying to collect a lot of attempts for a single prompt, we can amortize this across different prompts and learn a much more general value estimate of what's good and what's bad and use this to improve with our autonomous experience." aria-label="回原文"></button>。
 
-靠这套方法，我们在制作拿铁的任务上实现了连续 13 小时的可靠自主运行 [14:35]；在隔壁 Dandelion 巧克力工厂里完成了纸箱折叠贴标，在完全陌生的家庭环境里折叠从没见过的衣服。相比纯监督微调，仅强化学习这一步就把吞吐量提升了约 2 倍 [16:12]。
+靠这套方法，我们在制作拿铁的任务上实现了连续 13 小时的可靠自主运行 <button class="pd-ts" data-t="14:35" data-who="" data-en="Kind of going back to this reliability question, we took this policy and we ran it not just once, but we ran it for 13 hours straight. And we basically wanted to evaluate, is this policy not only good at making a latte once, but can it do so reliably to the extent that it would be needed to be useful in the real world?" aria-label="回原文"></button>；在隔壁 Dandelion 巧克力工厂里完成了纸箱折叠贴标，在完全陌生的家庭环境里折叠从没见过的衣服。相比纯监督微调，仅强化学习这一步就把吞吐量提升了约 2 倍 <button class="pd-ts" data-t="16:12" data-who="" data-en="And so we're going to measure throughput, which kind of couples both success rate and speed. And we find that over the phases of training, from pre-training to an SFT-like stage to an RL post-training-like stage, we see a drastic increase in success rate in seed, in throughput, and specifically around a 2x throughput just from the RL stage itself, showing how we can get much greater reliability from reinforcement learning." aria-label="回原文"></button>。
 
 ## 要完成长任务，机器人需要「记忆」
-大多数最先进的机器人基础模型是没有[[记忆|记忆]]的，只能根据当前的摄像头画面做即时反应。做单一重复动作没问题，但如果要执行连续多步的长任务，就必须有记忆来追踪进度 [18:16]。
+大多数最先进的机器人基础模型是没有[[记忆|记忆]]的，只能根据当前的摄像头画面做即时反应。做单一重复动作没问题，但如果要执行连续多步的长任务，就必须有记忆来追踪进度 <button class="pd-ts" data-t="18:16" data-who="" data-en="The videos that I showed before didn't have any context either. But if you want to do a long task that involves multiple different steps in sequence, then memory is critical for tracking progress of the steps that you've completed so far." aria-label="回原文"></button>。
 
-为什么过去不给模型加记忆？因为太贵了。机器人一般以 50 赫兹（每秒 50 次）的频率采集 4 路摄像头画面，如果以 256 token（模型处理信息的基本单位）一张图来算，光 10 秒钟的视频记忆就是 50 万个 token，实时塞给模型根本算不过来；就算狠心降频到一秒一帧，仍是 1 万个 token，成本依然高得吓人 [18:54]。
+为什么过去不给模型加记忆？因为太贵了。机器人一般以 50 赫兹（每秒 50 次）的频率采集 4 路摄像头画面，如果以 256 token（模型处理信息的基本单位）一张图来算，光 10 秒钟的视频记忆就是 50 万个 token，实时塞给模型根本算不过来；就算狠心降频到一秒一帧，仍是 1 万个 token，成本依然高得吓人 <button class="pd-ts" data-t="18:54" data-who="" data-en="There's a couple reasons for this that are technical and I'll talk through one of them which is that if you naively approach memory and try to feed in context like pass video to a robot foundation model say that you would just pass in 10 seconds of video maybe these 10 seconds of video is sampled at 50 hertz which is a common control frequency in robotics" aria-label="回原文"></button>。
 
 我们的解法是多时间尺度记忆：
 - **短期记忆**：保留约 10 秒的视频记忆，但用远比硬塞给模型高效得多的方式来计算和压缩。
-- **长期记忆**：对于跨分钟、跨小时的历史，不再死磕视频，而是把发生过的事情在文本空间里总结成高度压缩的文字摘要，再喂给模型 [19:49]。
+- **长期记忆**：对于跨分钟、跨小时的历史，不再死磕视频，而是把发生过的事情在文本空间里总结成高度压缩的文字摘要，再喂给模型 <button class="pd-ts" data-t="19:49" data-who="" data-en="The first is a short-term video memory that has about 10 seconds of video memory, but is done so and computed much more efficiently than naively passing it into the model." aria-label="回原文"></button>。
 
-有了这种记忆机制，机器人就能去完成诸如清理厨房这种长达 10 到 15 分钟的多步骤非重复任务，比如先用海绵擦台面、再用纸巾擦干、扔掉纸巾、把芥末放回冰箱、再把盘子放进橱柜 [20:39]。
+有了这种记忆机制，机器人就能去完成诸如清理厨房这种长达 10 到 15 分钟的多步骤非重复任务，比如先用海绵擦台面、再用纸巾擦干、扔掉纸巾、把芥末放回冰箱、再把盘子放进橱柜 <button class="pd-ts" data-t="20:39" data-who="" data-en="So this is going to be a 10 to 15 minute task that's involved cleaning a kitchen. And the robot isn't just repeatedly making espresso over and over again. What it involves is wiping the counter with a sponge, kind of then drying the counter with a paper towel, throwing away the paper towel." aria-label="回原文"></button>。
 
 ## 迈向单一通用大模型
-仅仅三年前的 2023 年，做机器人研究的惯例还是为每个单独项目从零收集定制数据集来训练。这就像 AI 发展早期，每个任务都得从零手搓。我们想做的是从预训练微调，跨越到像 GPT 那样开箱即用、甚至具备[[组合泛化|组合泛化]]能力的通用模型 [24:58]。
+仅仅三年前的 2023 年，做机器人研究的惯例还是为每个单独项目从零收集定制数据集来训练。这就像 AI 发展早期，每个任务都得从零手搓。我们想做的是从预训练微调，跨越到像 GPT 那样开箱即用、甚至具备[[组合泛化|组合泛化]]能力的通用模型 <button class="pd-ts" data-t="24:58" data-who="" data-en="Specifically, how do we develop a single general purpose model that works out of the box and also shows compositional generalization? So this has two goals. The first is out of the box model." aria-label="回原文"></button>。
 
-所谓组合泛化，就是像 2021 年的 DALI 结果能把牛油果和椅子这两个概念拼在一起生成同时展示这两个概念的东西一样，说明模型对概念有了真正的理解 [26:09]。对应到机器人，这意味着它不需要把所有情况的组合都见一遍，就能举一反三。
+所谓组合泛化，就是像 2021 年的 DALI 结果能把牛油果和椅子这两个概念拼在一起生成同时展示这两个概念的东西一样，说明模型对概念有了真正的理解 <button class="pd-ts" data-t="26:09" data-who="" data-en="And specifically, when you have compositional generalization, when you can basically bridge the concept of an avocado and a chair and show that you can combine those two, it means that the model has at least some kind of conceptual understanding of what an avocado is and what a chair is, to the point that it can combine them into something that exhibits both concepts at the same time." aria-label="回原文"></button>。对应到机器人，这意味着它不需要把所有情况的组合都见一遍，就能举一反三。
 
-我们用能拿到的所有数据（包括各种质量的机器人遥操作演示、机器人自己尝试的回放数据、人类视频和网络数据），去训练一个具有足够容量的大模型。要把如此异构（成分混杂且差异大）的数据喂进去，关键解锁点是**提供极其丰富的上下文提示**：除了记忆和任务指令，我们还向模型输入当下最该做的子任务指令、数据质量与长度等元数据，以及「几秒后该达到这种状态」的子目标图像作为提示 [28:11]。
+我们用能拿到的所有数据（包括各种质量的机器人遥操作演示、机器人自己尝试的回放数据、人类视频和网络数据），去训练一个具有足够容量的大模型。要把如此异构（成分混杂且差异大）的数据喂进去，关键解锁点是**提供极其丰富的上下文提示**：除了记忆和任务指令，我们还向模型输入当下最该做的子任务指令、数据质量与长度等元数据，以及「几秒后该达到这种状态」的子目标图像作为提示 <button class="pd-ts" data-t="28:11" data-who="" data-en="But to fit data that's so heterogeneous, we also find it particularly important to prompt the model with all of the context that it needs in order to predict actions." aria-label="回原文"></button>。
 
-这个单一 PIO7 模型，直接开箱就能做相当多的事情。更关键的是，如果我们测量它和微调过的 PIO6 模型的吞吐量和成功率，**这个没经过针对性微调的单一预训练模型，已经追上甚至超过了那些专门为特定下游任务进行强化学习后训练的微调专家模型** [30:38]。
+这个单一 PIO7 模型，直接开箱就能做相当多的事情。更关键的是，如果我们测量它和微调过的 PIO6 模型的吞吐量和成功率，**这个没经过针对性微调的单一预训练模型，已经追上甚至超过了那些专门为特定下游任务进行强化学习后训练的微调专家模型** <button class="pd-ts" data-t="30:38" data-who="" data-en="But really the key question here is how does this pre-trained model compare to the specialists that were trained specifically for coffee making, specifically for box building that I talked about previously?" aria-label="回原文"></button>。
 
-在组合泛化测试中，它表现出了惊人的举一反三能力。比如它能打开空气炸锅、放进红薯再关上——而训练集里几乎没有任何空气炸锅的数据 [32:01]；它还能在一个我们完全没采集过任何折衣服数据的大型工业机器人平台上，靠脑补子目标图像，第一次尝试就把衣服折好，性能甚至逼近人类远程操作 [33:32]。消融实验也证明了：越是多样化的数据，对泛化越关键；而有了元数据提示，模型甚至能从以前被认为是拖后腿的低质量数据里榨取出更多价值 [36:38]。
+在组合泛化测试中，它表现出了惊人的举一反三能力。比如它能打开空气炸锅、放进红薯再关上——而训练集里几乎没有任何空气炸锅的数据 <button class="pd-ts" data-t="32:01" data-who="" data-en="After we did some analysis on the dataset, we actually found that our dataset was so diverse that it did actually have three episodes with air fryers in it. We expect that they likely weren't having an impact, and that even if we didn't include those exact three episodes, it likely would still work." aria-label="回原文"></button>；它还能在一个我们完全没采集过任何折衣服数据的大型工业机器人平台上，靠脑补子目标图像，第一次尝试就把衣服折好，性能甚至逼近人类远程操作 <button class="pd-ts" data-t="33:32" data-who="" data-en="And what we see in this video is we indeed did see that it kind of compositionally generalized in this manner. The first time we saw the robot do this, we were like floored because there was no training data for this task." aria-label="回原文"></button>。消融实验也证明了：越是多样化的数据，对泛化越关键；而有了元数据提示，模型甚至能从以前被认为是拖后腿的低质量数据里榨取出更多价值 <button class="pd-ts" data-t="36:38" data-who="" data-en="Whereas with the metadata prompting, The performance actually increases when you add that low quality data, suggesting that it's actually able to get a lot more juice out of even low quality data when you include this kind of prompting." aria-label="回原文"></button>。
 
 > 【背景】讲者提到机器人领域现在已经进入「GBT 和 DALI 时代」，结合前文提到的 2021 年组合泛化里程碑及语境，这里的 GBT/DALI 分别指代语言大模型 GPT 和图像生成模型 DALL·E。
 

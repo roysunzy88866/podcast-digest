@@ -39,7 +39,7 @@ jsonLd: |
 
 <div class="pd-tldr"><b>一句话</b>深科技公司通常不是死在技术不行,而是死在采购、招聘等基础设施跟不上团队的迭代速度。</div>
 
-一家[[深科技|深科技]]公司的成败,往往不取决于技术行不行,而取决于你采购流程走得有多顺、[[招聘|招聘]]漏斗设计得有多精巧——这些东西看起来极其无聊,却恰恰是决定公司生死的「操作系统」 [24:07]。说这话的人是 [[Max Hodak|Max Hodak]],脑机接口领域的连续创业者,曾在 [[Neuralink|Neuralink]] 度过了五年,现在是 [[Science|Science]] 公司的 CEO。
+一家[[深科技|深科技]]公司的成败,往往不取决于技术行不行,而取决于你采购流程走得有多顺、[[招聘|招聘]]漏斗设计得有多精巧——这些东西看起来极其无聊,却恰恰是决定公司生死的「操作系统」 <button class="pd-ts" data-t="24:07" data-who="" data-en="How the company does purchasing and accounting and recruiting and performance reviews and budgeting and safety and quality is the operating system of the company." aria-label="回原文"></button>。说这话的人是 [[Max Hodak|Max Hodak]],脑机接口领域的连续创业者,曾在 [[Neuralink|Neuralink]] 度过了五年,现在是 [[Science|Science]] 公司的 CEO。
 
 在这一集 YC 创业学校的演讲里,Max 围绕「[[AI 基础设施|基础设施]]决定[[迭代速度|迭代速度]]」这个核心观点,拆解了深科技创业最棘手的几个大问题:怎么在烧钱如流水的硬件实验里做采购预算和成本[[归因|归因]],怎么设计一套不依赖少数人主观判断的分布式招聘和绩效系统。演讲后半段和结尾的 Q&A 里,他还聊到了为什么在 AI 时代自己去 vibe code 内部软件变得极其划算,以及他做脑机接口的真实终局思维——他其实不太关心什么 AI 增强人类的近未来,他真正看重的是激进延长人类寿命。
 
@@ -49,7 +49,7 @@ Max 先抛出了一张他公司刚满六个月时的照片:满屋子显微镜、
 
 采购的表象问题看似是支付通道:创始人可以刷信用卡或者打电汇,但你没法给第 17 号员工发张卡然后每笔都自己审。Max 举了个血淋淋的例子:你员工想买个 3000 美元的电源,你觉得太贵,想等三天后的拍卖会半价拿下,两周后到货。
 
-但你雇了这帮高薪工程师,每周的人天成本就是 10 万美元——你为了省那 1500 美元,反而把整个高薪团队卡死,在采购上纠缠得不偿失 [04:34]。更何况,「如果他们在 Anthropic,根本不会有人为 3000 美元的采购纠缠他们」[04:39]。
+但你雇了这帮高薪工程师,每周的人天成本就是 10 万美元——你为了省那 1500 美元,反而把整个高薪团队卡死,在采购上纠缠得不偿失 <button class="pd-ts" data-t="04:34" data-who="" data-en="That you're spending $100,000 a week. If you wait a week to get a power supply half off, you have certainly dwarfed any possible benefit from getting it. And if they were at Anthropic, they're not going to be getting hassled over a $3,000 purchase." aria-label="回原文"></button>。更何况,「如果他们在 Anthropic,根本不会有人为 3000 美元的采购纠缠他们」<button class="pd-ts" data-t="04:39" data-who="" data-en="If you wait a week to get a power supply half off, you have certainly dwarfed any possible benefit from getting it. And if they were at Anthropic, they're not going to be getting hassled over a $3,000 purchase." aria-label="回原文"></button>。
 
 真正解决采购的,不是审批,而是预算:给员工一个清晰的资金盘子,让他们在盘子内自己做权衡,而不是卡死在单一采购上。
 
@@ -57,9 +57,9 @@ Max 先抛出了一张他公司刚满六个月时的照片:满屋子显微镜、
 
 结果就是,根本没人知道单独跑一个实验到底花了多少钱——「因此,实验是免费的。它不花费美元。
 
-它花费培养基,而培养基来自冰箱」[07:07]。如果你连单个实验的真实成本都算不清,那你连你做的产品该定什么价都估不准,因为你不知道那些厂房租金、工具折旧到底该怎么摊到每一片晶圆上。
+它花费培养基,而培养基来自冰箱」<button class="pd-ts" data-t="07:07" data-who="" data-en="Nobody knows. Therefore, experiments are free. It doesn't cost dollars." aria-label="回原文"></button>。如果你连单个实验的真实成本都算不清,那你连你做的产品该定什么价都估不准,因为你不知道那些厂房租金、工具折旧到底该怎么摊到每一片晶圆上。
 
-为了解决这个问题,Science 公司构建了一个叫 [[Helix|Helix]] 的内部软件系统,把从采购到实验室每一步到制造的数据全装进一个数据库里。最终他们能精确地算清楚,造每一次晶圆迭代的真实成本是 4 万美元 [08:10]。这笔账算清楚了,你才知道你那一轮 2000 万美元 A 轮融资的跑道到底剩多少。
+为了解决这个问题,Science 公司构建了一个叫 [[Helix|Helix]] 的内部软件系统,把从采购到实验室每一步到制造的数据全装进一个数据库里。最终他们能精确地算清楚,造每一次晶圆迭代的真实成本是 4 万美元 <button class="pd-ts" data-t="08:10" data-who="" data-en="And these like, again, so it turns out that for every iteration of a wafer that we make, in this case, for this protocol, it costs $40,000. This is like a lot of money." aria-label="回原文"></button>。这笔账算清楚了,你才知道你那一轮 2000 万美元 A 轮融资的跑道到底剩多少。
 
 ## 怎么靠工程化系统招人并评估人?
 
@@ -67,83 +67,83 @@ Max 先抛出了一张他公司刚满六个月时的照片:满屋子显微镜、
 
 最好的早期员工来自你自己的网络,从公司诞生的那个「圈子」里捞人。但圈子里的人不够填满整个公司,你迟早得面对来自普通大众的海量简历。
 
-只要公司做的事够酷,做了几年后,漏斗顶端的申请量会是压倒性的。如果你把一两个人或一个小团队放在漏斗口当瓶颈,「他们绝对会成为整个组织其余部分的瓶颈」[11:59]。
+只要公司做的事够酷,做了几年后,漏斗顶端的申请量会是压倒性的。如果你把一两个人或一个小团队放在漏斗口当瓶颈,「他们绝对会成为整个组织其余部分的瓶颈」<button class="pd-ts" data-t="11:59" data-who="" data-en="And so we can distribute the voting across a lot of the company for this initial review, which is essential because if you're doing anything cool, by the time you get a couple years into it, that top of funnel is overwhelming." aria-label="回原文"></button>。
 
-Science 的解法是把初步筛选的权力下放给全公司:申请一进来,系统会自动挑出七八个背景与申请人相似的在职员工,让他们在 24 到 48 小时内投票。Max 强调,你要在不同人之间去「平均[[判断力|判断力]]」,因为不同人对该阶段该找什么样的人有不同的视角 [12:12]。
+Science 的解法是把初步筛选的权力下放给全公司:申请一进来,系统会自动挑出七八个背景与申请人相似的在职员工,让他们在 24 到 48 小时内投票。Max 强调,你要在不同人之间去「平均[[判断力|判断力]]」,因为不同人对该阶段该找什么样的人有不同的视角 <button class="pd-ts" data-t="12:12" data-who="" data-en="And it's also you want to, I think, average over judgment. I think there's different people that are better or worse at hiring and have different perspectives on what you're looking for at that stage." aria-label="回原文"></button>。
 
 这套漏斗总共有四步:全公司投票、电话筛选、家庭作业、完整的现场面试。其中最有趣的是他们家作业的设计思路——**抗 AI 的作业**。
 
-现在 LLM 这么强,传统的算法题早被破解了,Science 偏爱那种天花板极高、不会饱和、最后能转化为两三个数字画在图上的任务 [13:40]。当某人的成绩明显击败了现有的帕累托边界,那你根本不在乎他用没用 AI。
+现在 LLM 这么强,传统的算法题早被破解了,Science 偏爱那种天花板极高、不会饱和、最后能转化为两三个数字画在图上的任务 <button class="pd-ts" data-t="13:40" data-who="" data-en="Ideally, we'd be using entirely AI-resistant homeworks now. So our favorite types of homeworks are things that don't saturate, have a very high ceiling, and are naturally scorable to two or three numbers that we can put on a plot." aria-label="回原文"></button>。当某人的成绩明显击败了现有的帕累托边界,那你根本不在乎他用没用 AI。
 
 招进来了,还得知道招得对不对。Max 觉得传统的 360 度绩效评估非常糟糕:流程重、一年一次、非常破坏性,最后只是强化了管理层「早就知道但懒得动手」的既成事实。
 
-在 Neuralink 与拥有极高判断力的 CEO 共事五年后,Max 悟到:判断力的校准只能靠长期的口述传统和真实博弈的强化学习 [30:33]。为了让这种反馈在公司内持续流动,他在 Science 搞了一套叫 eigenreviews 的系统。
+在 Neuralink 与拥有极高判断力的 CEO 共事五年后,Max 悟到:判断力的校准只能靠长期的口述传统和真实博弈的强化学习 <button class="pd-ts" data-t="30:33" data-who="" data-en="And I think that just hearing the stories when you're not there, really thinking about it because there are real stakes, and then getting that feedback. That is an essential part of the education of an entrepreneur that I think many people underrate." aria-label="回原文"></button>。为了让这种反馈在公司内持续流动,他在 Science 搞了一套叫 eigenreviews 的系统。
 
-这套系统的玩法和 Google 的 PageRank 算法很像(特征向量中心性):每隔几周,全公司的人会收到 Helix 推送的一个问题——「知道这个人表现如何,你今天还会投票支持录用他吗?」[16:58]。
+这套系统的玩法和 Google 的 PageRank 算法很像(特征向量中心性):每隔几周,全公司的人会收到 Helix 推送的一个问题——「知道这个人表现如何,你今天还会投票支持录用他吗?」<button class="pd-ts" data-t="16:58" data-who="" data-en="Every couple of weeks, every four to six weeks, it's not that often, people around the company get pinged with a question through the software, through Helix. And there's a form, but there's only one question that really matters, which is knowing how this person turned out, would you vote again today for their hire?" aria-label="回原文"></button>。
 
-每个人的投票权重不是平等的,而是由其他人对他的评价决定的——你评价越高,你的票的分量就越重 [17:20]。为了防止员工抱团投小圈子,他们还引入了深度学习里常见的 dropout 技巧,跑 1000 次迭代,每次随机删掉一些评价关系。
+每个人的投票权重不是平等的,而是由其他人对他的评价决定的——你评价越高,你的票的分量就越重 <button class="pd-ts" data-t="17:20" data-who="" data-en="And then what we can do is we construct a graph over the company of all of the feedback. And so the basic intuition is that your vote should be weighted more highly if everybody else is rated you highly." aria-label="回原文"></button>。为了防止员工抱团投小圈子,他们还引入了深度学习里常见的 dropout 技巧,跑 1000 次迭代,每次随机删掉一些评价关系。
 
-如果最后跑出来的分数分布出现了多个峰值,那系统就会提示管理层:这里可能有需要调查的「投票小集团」[18:02]。Max 觉得这比一年一度的 HR 评估好太多了。
+如果最后跑出来的分数分布出现了多个峰值,那系统就会提示管理层:这里可能有需要调查的「投票小集团」<button class="pd-ts" data-t="18:02" data-who="" data-en="For example, we apply dropout where we'll run a thousand iterations where we'll randomly remove some percentage of the edges each iteration. And then when you look at the distribution of scores that you get out of that, if you see additional peaks, for example, this is a clue that there could be voting clicks that need further investigation." aria-label="回原文"></button>。Max 觉得这比一年一度的 HR 评估好太多了。
 
 ## 迭代速度决定生死,内部软件是唯一杠杆
 
-说到这儿,Max 抛出了全集最核心的判断:**迭代速度把成功和失败区分开来**[18:47]。
+说到这儿,Max 抛出了全集最核心的判断:**迭代速度把成功和失败区分开来**<button class="pd-ts" data-t="18:47" data-who="" data-en="But the real theme of the talk... is that rate of iteration separates success from failure. And if you can get a fast iteration loop, that really overcomes many other things you're going to run into." aria-label="回原文"></button>。
 
-他算了一笔账:如果你能每周学到一件事,而你的竞争对手每月才学到一件事,「他们就永远无关紧要了」[18:58]。这背后的复利效应极其恐怖,所以当面临两条路径时,即便那条慢一点的路有诸多亮点,你也该选迭代周期更短的那条。
+他算了一笔账:如果你能每周学到一件事,而你的竞争对手每月才学到一件事,「他们就永远无关紧要了」<button class="pd-ts" data-t="18:58" data-who="" data-en="And this effect is so severe. I mean, if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter." aria-label="回原文"></button>。这背后的复利效应极其恐怖,所以当面临两条路径时,即便那条慢一点的路有诸多亮点,你也该选迭代周期更短的那条。
 
-既然速度决定成败,那什么决定速度?Max 的答案是:**基础设施**[19:29]。
+既然速度决定成败,那什么决定速度?Max 的答案是:**基础设施**<button class="pd-ts" data-t="19:29" data-who="" data-en="Overwhelmingly, if you're looking at two different approaches to solve a problem, if there's one that allows you to compound in a much shorter amount of time than the other, even if the other approach has significant redeeming characteristics, you should really consider going with the shorter iteration cycle because the compounding effect is just so dramatic." aria-label="回原文"></button>。
 
 采购顺不顺、招聘快不快、预算准不准,这些听起来极其枯燥的流程,和你对产品底层技术的理解同等重要。Max 见过太多由履历光鲜的顶尖科学家创办的深科技公司胎死腹中。
 
-「这些深科技公司因为技术不工作而失败的情况并不常见。它们失败是因为一旦你最终拥有了这个由数百人和数十万平方英尺的物理基础设施组成的组织,你还没有建立系统来管理它」[19:54]。
+「这些深科技公司因为技术不工作而失败的情况并不常见。它们失败是因为一旦你最终拥有了这个由数百人和数十万平方英尺的物理基础设施组成的组织,你还没有建立系统来管理它」<button class="pd-ts" data-t="19:54" data-who="" data-en="I see companies founded by just like stellar pedigree scientists and engineers all the time that die on the vine because this execution is tough to follow through and your job is to organize." aria-label="回原文"></button>。
 
-既然基础设施这么重要,那为什么大公司还在用难用到爆的商业 ERP(比如 NetSuite)?Max 指出,YC、Facebook 乃至 SpaceX 和 Tesla,都是靠重度定制的内部软件跑起来的(SpaceX 内部那个跑制造和研发的系统叫 Warp Speed)[38:27]。
+既然基础设施这么重要,那为什么大公司还在用难用到爆的商业 ERP(比如 NetSuite)?Max 指出,YC、Facebook 乃至 SpaceX 和 Tesla,都是靠重度定制的内部软件跑起来的(SpaceX 内部那个跑制造和研发的系统叫 Warp Speed)<button class="pd-ts" data-t="38:27" data-who="" data-en="SpaceX and Tesla internally have a pretty giant piece of software called Warp Speed that runs a lot of their manufacturing and R&amp;D processes. And so when one company grows up around a harness fit to it, it can be very powerful." aria-label="回原文"></button>。
 
-过去你没法自己写,是因为软件工程太贵。但今天不一样了——「你现在可以 vibe code 这使得思考这件事变得合理」[38:50]。
+过去你没法自己写,是因为软件工程太贵。但今天不一样了——「你现在可以 vibe code 这使得思考这件事变得合理」<button class="pd-ts" data-t="38:50" data-who="" data-en="The fact that you can vibe code this now makes it a reasonable thing to think about. Historically, software has been so expensive, you would have had to buy it. And that's what everybody did for a long time." aria-label="回原文"></button>。
 
-(注:vibe coding 指的是用 AI 辅助、偏向凭直觉自然语言生成代码的编程方式。)Max 自己过去六个月几乎都没怎么看源代码了 [36:10],AI 让编码变成了团队的倍增器而非替代品。
+(注:vibe coding 指的是用 AI 辅助、偏向凭直觉自然语言生成代码的编程方式。)Max 自己过去六个月几乎都没怎么看源代码了 <button class="pd-ts" data-t="36:10" data-who="" data-en="I don't think I've looked at the source very much the last six months. That is getting really good. Regulations." aria-label="回原文"></button>,AI 让编码变成了团队的倍增器而非替代品。
 
 在 Science 公司,AI 彻底改变的另一个重灾区是**监管合规**。做深科技的迟早要面对质量系统,那是把一切拖慢的典型繁文缛节。
 
-但这并非质量本身有问题,而是人类不擅长去读各种奇葩标准。比如你得证明你的运输包装上的标签角不会卷曲导致脱落 [36:51]。过去请合规专家翻标准、做对照表得耗上几个月,现在 AI 能极快地把适用的标准全找出来并生成证据表 [37:18]。
+但这并非质量本身有问题,而是人类不擅长去读各种奇葩标准。比如你得证明你的运输包装上的标签角不会卷曲导致脱落 <button class="pd-ts" data-t="36:51" data-who="" data-en="There's standards for shipping label. At some point, you'll have to take your shipping packaging, print a label on it, and put it in a Vibe box and show that the corners of the label don't curl in a way that might cause it to detach." aria-label="回原文"></button>。过去请合规专家翻标准、做对照表得耗上几个月,现在 AI 能极快地把适用的标准全找出来并生成证据表 <button class="pd-ts" data-t="37:18" data-who="" data-en="I mean, we can very quickly look up all the standards. We can very quickly generate the evidence tables. And I think that to the degree that there's kind of over, I mean, there is, we definitely need to deregulate some things, but I think that the combination of AI and regulation is a better fit than people think." aria-label="回原文"></button>。
 
-这也是为什么 Max 极力主张把公司的一切信息都沉淀进像 Helix 这样的单一系统里——不仅是为了内部追查,更是为了把这些结构化上下文全交给 AI 智能体使用 [35:36]。他直言自己彻底摆脱了创伤性的、由单一 HR 驱动的绩效评估流程 [18:22]。
+这也是为什么 Max 极力主张把公司的一切信息都沉淀进像 Helix 这样的单一系统里——不仅是为了内部追查,更是为了把这些结构化上下文全交给 AI 智能体使用 <button class="pd-ts" data-t="35:36" data-who="" data-en="And one of the reasons that we did that was because Not just is it powerful to have everything in one database to link together purchasing to quality to batch records and manufacturing so that we can trace stuff more efficiently, but also so that we could give it all to agents." aria-label="回原文"></button>。他直言自己彻底摆脱了创伤性的、由单一 HR 驱动的绩效评估流程 <button class="pd-ts" data-t="18:22" data-who="" data-en="But as a whole, this is, it distributes the judgment across the company, updates more or less continuously with about a month lag, and gives you just way better insight into what's going on really around the company." aria-label="回原文"></button>。
 
 ## 创始人的终极考验:无法委托的孤独判断
 
-把基础设施都搭对了,创始人依然逃不过最怪异的终极考验:**你不能委托你的判断**[20:40]。
+把基础设施都搭对了,创始人依然逃不过最怪异的终极考验:**你不能委托你的判断**<button class="pd-ts" data-t="20:40" data-who="" data-en="And one of the harder lessons as a startup founder, one of the harder things I think to really deal with is the fact that you cannot delegate your judgment. As the CEO, you must always make decisions that make sense to you, no matter how much momentum or inertia the alternatives seem to have." aria-label="回原文"></button>。
 
 在学校里,考试偷看别人的,成绩会被拉回班级平均。但做创业,做到平均就只能死。
 
-为了成功,创始人的判断必须差异化地好 [21:11]。很多时候,现实可能是你根本不知道自己的判断到底准不准。Max 描述了那种令人毛骨悚然的感觉:公司做到第四五年,几亿美元押在牌桌上,面对一个极其高风险的抉择,你环顾四周想听建议,却发现「没有人可以问」[21:49]。
+为了成功,创始人的判断必须差异化地好 <button class="pd-ts" data-t="21:11" data-who="" data-en="The successful companies are the exceptions by becoming an average that is not good enough. In order to succeed, your judgment has to be differentiatedly good. Now, the reality might be that you don't know if your judgment is good yet." aria-label="回原文"></button>。很多时候,现实可能是你根本不知道自己的判断到底准不准。Max 描述了那种令人毛骨悚然的感觉:公司做到第四五年,几亿美元押在牌桌上,面对一个极其高风险的抉择,你环顾四周想听建议,却发现「没有人可以问」<button class="pd-ts" data-t="21:49" data-who="" data-en="Because in the beginning, you'll get lots of it. There's a bunch of things that are easily advised or easily figured out, but you'll get to a key point years in, and you'll look for advice, and there is nobody to ask." aria-label="回原文"></button>。
 
 这时候你只能仰赖对自己判断力边界的清醒认知。
 
 好消息是,Max 说根据他的经验,你其实很难真正陷入死局。「行动产生信息」——这个源自物理学里作用量的概念,被他用来解释创业里的破局之道。
 
-你没法预见所有问题,只能先动手。一旦遇到真正的死局(局部极小值),即便是换掉一个很强但不适配当下节点的人,也能瞬间让公司解锁进入新阶段 [23:29]。
+你没法预见所有问题,只能先动手。一旦遇到真正的死局(局部极小值),即便是换掉一个很强但不适配当下节点的人,也能瞬间让公司解锁进入新阶段 <button class="pd-ts" data-t="23:29" data-who="" data-en="something else happens you had to spend some energy time to cause that cause that to happen and so when whenever you exert and like action into the universe that creates information like in a like in a very fundamental sense and whenever you get stuck like you have to have to start like projecting action producing entropy um and this is this produces some fairly counterintuitive effects like i've seen situations where" aria-label="回原文"></button>。
 
 Q&A 环节里有人问:卓越能力的证明是什么?Max 给了一个极其反简历的答案:任何能把这个人与普通高中生区分开来的具体事实。
 
-他最爱看的是那些可验证的竞技比赛冠军——比如国际象棋特级大师、大学里的方程式 SAE 赛车冠军。硅谷一大批深科技公司,就是被这群在校期间一直在造东西比赛的人撑起来的 [27:12]。
+他最爱看的是那些可验证的竞技比赛冠军——比如国际象棋特级大师、大学里的方程式 SAE 赛车冠军。硅谷一大批深科技公司,就是被这群在校期间一直在造东西比赛的人撑起来的 <button class="pd-ts" data-t="27:12" data-who="" data-en="Being like a chess grandmaster, it could be winning design build fly or formula SAE competitions. There's a bunch of Silicon Valley deep tech companies that are basically built out of formula SAE winners from college." aria-label="回原文"></button>。
 
-现在 Science 招工程师甚至不看 LeetCode 了,他们更关注你能否清晰拆解一个系统设计问题。「这真的是衡量你能否清晰思考,而不是你能否写代码」[29:08]。
+现在 Science 招工程师甚至不看 LeetCode 了,他们更关注你能否清晰拆解一个系统设计问题。「这真的是衡量你能否清晰思考,而不是你能否写代码」<button class="pd-ts" data-t="29:08" data-who="" data-en="Can you understand the decomposition of the problem clearly? It's really measures of can you think clearly rather than can you write code? What did you take away from your experience at Neuralink?" aria-label="回原文"></button>。
 
 ## 脑机接口的终局:不是 AI,而是激进的长寿
 
 演讲的尾声,话题绕回了 Max 的老本行——脑机接口([[BCI|BCI]])。很多人以为 BCI 是个和 AI 强绑定的近未来故事,觉得它能增强人类智能去对抗 AI。
 
-但 Max 觉得,如果硬要说终局的话,「如果人工智能探索的终点是超级智能机器,我认为脑机接口探索的终点是有意识的机器」[31:28]。理论上,意识只是普通物质按化学规则排列的产物,如果你有一台能看穿并驱动每个神经元的 BCI,意识之谜就是工程问题而非哲学问题。
+但 Max 觉得,如果硬要说终局的话,「如果人工智能探索的终点是超级智能机器,我认为脑机接口探索的终点是有意识的机器」<button class="pd-ts" data-t="31:28" data-who="" data-en="Absolutely. If the end of the artificial intelligence quest is super intelligent machines, I think the end of the BCI quest is conscious machines. The brain is composed of ordinary matter arranged according to the rules of chemistry, only things found on the periodic table." aria-label="回原文"></button>。理论上,意识只是普通物质按化学规则排列的产物,如果你有一台能看穿并驱动每个神经元的 BCI,意识之谜就是工程问题而非哲学问题。
 
-但他坦言那个未来还很远。在当下,他更愿意把 BCI 看作一个**激进的长寿故事**[42:10]。
+但他坦言那个未来还很远。在当下,他更愿意把 BCI 看作一个**激进的长寿故事**<button class="pd-ts" data-t="42:10" data-who="" data-en="And the brain is usually not the thing that fails. And so if you can deal with the brain directly, I think this is more of a radical longevity story than it is an AI one for the moment, although all of these things will come together over some period of time." aria-label="回原文"></button>。
 
 大脑是唯一原则上无法移植的器官,而它通常又不是身体里最先衰竭的部件。Max 目前的产品是视网膜假体:植入视网膜下方的芯片,配合带有红外激光投影仪的眼镜,绕过坏死的视杆和视锥细胞,直接把电信号打进视网膜。
 
-病人从看不见,到能读完一本 300 页的小说,这种效应量是传统药物根本给不了的。就像打开深部脑刺激器,帕金森病人 10 秒内从拿不住水杯变成能写草书 [41:19]。直接把大脑当计算机来调,效果立竿见影。
+病人从看不见,到能读完一本 300 页的小说,这种效应量是传统药物根本给不了的。就像打开深部脑刺激器,帕金森病人 10 秒内从拿不住水杯变成能写草书 <button class="pd-ts" data-t="41:19" data-who="" data-en="Like if you have a patient on a dopaminergic drug for Parkinson's that works for some period of time, but it's a relatively small effect after a little while. You turn on a deep brain stimulator and a patient goes from not being able to hold a cup of water to being able to write cursive in like 10 seconds." aria-label="回原文"></button>。直接把大脑当计算机来调,效果立竿见影。
 
-Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧钱 [56:01]。他自嘲说要是当初去搞 AI 会轻松得多。
+Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧钱 <button class="pd-ts" data-t="56:01" data-who="" data-en="When you start a company in this space, you're committing to a decade of your life that you will never get back, no matter how it turns out. The results of that when it works, the impact that this has on patients and their families is really unlike really any other sector." aria-label="回原文"></button>。他自嘲说要是当初去搞 AI 会轻松得多。
 
-但他也强调,在像旧金山这样的地方,创业追求的从来不是单纯的财富,而是「力量」——而治愈病人的力量,是少数能被轻易分享的力量 [55:37]。这正是 Science 公司内部能同时容下 30% 满脑子超人类主义的疯狂极客,和 70% 觉得他们疯了但踏实做严肃医疗的顶尖临床医生的原因。要真正重塑未来,你同时需要造梅林引擎的硬核工程师,和坚信要去殖民火星的疯子 [52:46]。
+但他也强调,在像旧金山这样的地方,创业追求的从来不是单纯的财富,而是「力量」——而治愈病人的力量,是少数能被轻易分享的力量 <button class="pd-ts" data-t="55:37" data-who="" data-en="And when you get that, not only is that Is that a real force to reshape the world? It's one that can be shared very readily." aria-label="回原文"></button>。这正是 Science 公司内部能同时容下 30% 满脑子超人类主义的疯狂极客,和 70% 觉得他们疯了但踏实做严肃医疗的顶尖临床医生的原因。要真正重塑未来,你同时需要造梅林引擎的硬核工程师,和坚信要去殖民火星的疯子 <button class="pd-ts" data-t="52:46" data-who="" data-en="And 80% are serious engineers that think that those people are lunatics and they just want to work on the highest performance method locks engines in the world." aria-label="回原文"></button>。
 
 ## 本集带走
 

@@ -502,11 +502,14 @@ function textFrom(segs, i) {
 
 export function renderOrigRefs(md, transcript, meta) {
   if (meta?.no_timestamps) return String(md); // 无时间戳源:没有时间点可回,上游已把方括号换成(说话人)
-  // 说话人段允许含 [[双链]](补链可能先跑过);`[06:02]` 这种没有说话人的不匹配(那是金句署名)
-  return String(md).replace(/\[(\d{1,2}:\d{2})\s+((?:[^[\]]|\[\[[^\]]*\]\])+?)\]/g, (whole, t, who) => {
+  // [mm:ss 说话人] 和裸 [mm:ss] 都转 ↩:ADR 0020「实质优先」改版后,浓缩产出的正文出处标注
+  // 不再带说话人(全成了裸 [mm:ss]),旧正则要求「时间+说话人」→ 一个都不匹配 → 正文 ↩ 全丢、
+  // 退化成裸 [mm:ss] 文本(用户 2026-08-15 条6)。修:说话人段改可选(?)。
+  // digest_md 是纯正文(金句署名在 quotes 字段、走独立渲染,不经这里),故裸 [mm:ss] 都是正文出处,可放心转。
+  return String(md).replace(/\[(\d{1,2}:\d{2})(?:\s+((?:[^[\]]|\[\[[^\]]*\]\])+?))?\]/g, (whole, t, who) => {
     const en = originalAt(transcript, secOf(t));
     if (!en) return whole;
-    return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(who))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
+    return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(who || ""))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
   });
 }
 

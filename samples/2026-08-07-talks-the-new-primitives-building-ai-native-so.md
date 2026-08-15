@@ -41,31 +41,31 @@ jsonLd: |
 
 如果把整个计算史压缩成一句话,那就是:从机器到人,现在轮到[[智能体|智能体]]来找我们了——它能看、能听、能记、能替你跑腿。说这话的人是 Quindle,他是开源语音智能体框架 [[Pipecat|Pipecat]] 背后的开发者,在这次 AI Engineer World's Fair 的语音专场上,他带大家做了一场贯穿八十年计算史的思想漫游,试图回答一个问题:我们正在大干快上的智能体之后,下一代的 [[AI 原生软件|AI 原生软件]]到底是什么样?
 
-故事要从 1945 年说起。工程师 Vannevar Bush 写了一篇叫《As We May Think》的文章,精准预言了文档扫描、语音转文本、超文本、搜索引擎、脑机接口等一系列技术。Quindle 觉得,今天的我们就站在那个节点上——就像 Bush 当时站在计算时代的起点,我们也站在智能时代的起点 [01:53]。
+故事要从 1945 年说起。工程师 Vannevar Bush 写了一篇叫《As We May Think》的文章,精准预言了文档扫描、语音转文本、超文本、搜索引擎、脑机接口等一系列技术。Quindle 觉得,今天的我们就站在那个节点上——就像 Bush 当时站在计算时代的起点,我们也站在智能时代的起点 <button class="pd-ts" data-t="01:53" data-who="" data-en="And as we may think is an extraordinary piece of writing, the essay predicts the development of, among other things, document display on a screen, and document scanning in OCR, and speech-to-text, and text-to-speech, and programming languages, and hypertext, and search engines, and data networks, something like the GoPro camera, something weirdly like the Amazon Kindle store, and voice interfaces, and brain computer interfaces." aria-label="回原文"></button>。
 
 带着这层历史感,他梳理了一条技术演进的主线。从算盘到 1940 年代的存储程序计算机,再到个人计算机,每一步都在解决一个核心瓶颈。
 
-1950 年代要解决的是「怎么把人的意图传给机器」,于是有了第一批编程语言和编译器。到了 1960 年代,焦点变成了「怎么让机器能跟人对话」,交互式计算和图形化编程应运而生 [06:54]。这十年也是科幻的黄金期,《星际迷航》和《2001 太空漫游》里的 HAL 9000 让大众对会说话的计算机有了具体想象。
+1950 年代要解决的是「怎么把人的意图传给机器」,于是有了第一批编程语言和编译器。到了 1960 年代,焦点变成了「怎么让机器能跟人对话」,交互式计算和图形化编程应运而生 <button class="pd-ts" data-t="06:54" data-who="" data-en="And then building on that, in the 1960s, The challenge was to make these machines interactive, make these machines capable of a two-way dialogue with humans. The 60s also saw the birth of graphical programming with systems like Ivan Sutherland's Sketchpad." aria-label="回原文"></button>。这十年也是科幻的黄金期,《星际迷航》和《2001 太空漫游》里的 HAL 9000 让大众对会说话的计算机有了具体想象。
 
-顺着这股科幻和交互的浪潮,硬件终于迎来了消费级爆发。1970 年代孕育了关系型数据库和面向对象编程等关键抽象 [08:40],到了 1980 年代,个人计算机正式登场。1984 年 Macintosh 发货,1985 年 Windows 1.0 发货,微软「让每张办公桌和每个家庭都有一台计算机」的愿景,因为机器确实能带来实实在在的好处而得以实现 [09:25]。
+顺着这股科幻和交互的浪潮,硬件终于迎来了消费级爆发。1970 年代孕育了关系型数据库和面向对象编程等关键抽象 <button class="pd-ts" data-t="08:40" data-who="" data-en="And by the 1970s, computers had become powerful enough that the next big job was designing abstractions that could scale to much larger amounts of data and much more powerful computing substrates." aria-label="回原文"></button>,到了 1980 年代,个人计算机正式登场。1984 年 Macintosh 发货,1985 年 Windows 1.0 发货,微软「让每张办公桌和每个家庭都有一台计算机」的愿景,因为机器确实能带来实实在在的好处而得以实现 <button class="pd-ts" data-t="09:25" data-who="" data-en="And we got a computer on every desk and in every home because these new personal computers delivered real, amazing, tangible benefits. Take VisiCalc, for example, which was the first spreadsheet program, a truly new abstraction for doing computation, numerical computing, two-dimensional, interactive, so durable and so useful that probably most of us in this room use a direct descendant of VisiCalc regularly, Google Sheets or Microsoft Excel or whatever." aria-label="回原文"></button>。
 
-说完个人电脑怎么落地,他话锋一转,讲了个很反直觉的例子。拿电子表格 VisiCalc 来说,这项变革性的新技术,并没有像很多人担心的那样让会计师失业;恰恰相反,它把过去需要满屋子人才能算完的账,浓缩到了一块屏幕上,反而催生了大量以前根本无法想象的新工作 [10:23]。这是一个绝佳的历史镜鉴,也是对今天「AI 会导致大规模失业」担忧的有力反驳。
+说完个人电脑怎么落地,他话锋一转,讲了个很反直觉的例子。拿电子表格 VisiCalc 来说,这项变革性的新技术,并没有像很多人担心的那样让会计师失业;恰恰相反,它把过去需要满屋子人才能算完的账,浓缩到了一块屏幕上,反而催生了大量以前根本无法想象的新工作 <button class="pd-ts" data-t="10:23" data-who="" data-en="The argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business. Instead, it made much, much, much, much more accounting-like work possible, and it made new categories of work possible that we couldn't even really conceive of when a spreadsheet or doing a screen's worth of calculations as we think about it today took a roomful of people." aria-label="回原文"></button>。这是一个绝佳的历史镜鉴,也是对今天「AI 会导致大规模失业」担忧的有力反驳。
 
-硬件普及了,想象力也就打开了,人机交互的终极愿景开始成型。1987 年苹果拍了一支叫《Knowledge Navigator》的概念视频,里面出现了可折叠平板、实时视频生成,甚至一个个性极强的对话式语音助手 [11:21]。Quindle 认为,这支视频非常清晰地预示了我们今天正在经历的 AI 智能体时代。
+硬件普及了,想象力也就打开了,人机交互的终极愿景开始成型。1987 年苹果拍了一支叫《Knowledge Navigator》的概念视频,里面出现了可折叠平板、实时视频生成,甚至一个个性极强的对话式语音助手 <button class="pd-ts" data-t="11:21" data-who="" data-en="If you haven't seen it, I'm just gonna play about 20 seconds from the middle. You have three messages. Your graduate research team in Guatemala, just checking in." aria-label="回原文"></button>。Quindle 认为,这支视频非常清晰地预示了我们今天正在经历的 AI 智能体时代。
 
-带着对这段交互史的回顾,视野从单机转向了网络。1990 年代是互联网的时代,在 Quindle 看来,Web 诞生之初最被低估的颠覆性,在于它从一开始就是[[多模态|多模态]]的——它打破了文本、音频、视频和数据必须在不同程序里处理的旧规矩,把它们融为了一体 [12:42]。这其实是许多早期互联网建设者,有意识地把《Knowledge Navigator》里的愿景变成现实的一次集体努力。
+带着对这段交互史的回顾,视野从单机转向了网络。1990 年代是互联网的时代,在 Quindle 看来,Web 诞生之初最被低估的颠覆性,在于它从一开始就是[[多模态|多模态]]的——它打破了文本、音频、视频和数据必须在不同程序里处理的旧规矩,把它们融为了一体 <button class="pd-ts" data-t="12:42" data-who="" data-en="And with the benefit of hindsight, I now think that the single most important thing about the web was that it was multimodal from the very beginning. More even than the GUIs of the 1980s, the web anticipated that text and audio and video and data were not different things to be used in different programs." aria-label="回原文"></button>。这其实是许多早期互联网建设者,有意识地把《Knowledge Navigator》里的愿景变成现实的一次集体努力。
 
-进入新千年,多模态网络开始装进每个人的口袋,科幻电影里的界面也对这种移动化、多屏幕的未来给出了具象的想象。《少数派报告》里的手势界面,以及《钢铁侠》里的智能管家系统,都出自 MIT 专家 John Underkoffler 之手。而 Quindle 自己,早在 2006 年就跟 John 创立了一家初创公司,试图把电影里的手势界面变成商业产品 [15:37]。
+进入新千年,多模态网络开始装进每个人的口袋,科幻电影里的界面也对这种移动化、多屏幕的未来给出了具象的想象。《少数派报告》里的手势界面,以及《钢铁侠》里的智能管家系统,都出自 MIT 专家 John Underkoffler 之手。而 Quindle 自己,早在 2006 年就跟 John 创立了一家初创公司,试图把电影里的手势界面变成商业产品 <button class="pd-ts" data-t="15:37" data-who="" data-en="I swear to God, I'll dismantle you, I'll soak your motherboard, I'll turn you into a wine rack. I co-founded a startup with John in 2006 to make the Minority Report interface into a commercial product." aria-label="回原文"></button>。
 
-硬件、网络、交互方式铺垫了几十年,终于迎来了大模型的爆发。2010 年代建立的[[云计算|云计算]],为后来的 AI 训练和[[推理|推理]]铺平了基础设施的道路 [17:20]。到了今天,大家都在热火朝天地做智能体,但 Quindle 借微软 CEO [[Satya Nadella|Satya Nadella]] 的观点指出,真正的下一步是组织级的、能调用多种模型和工具的「Agents++」(智能体的进阶版) [02:39]。
+硬件、网络、交互方式铺垫了几十年,终于迎来了大模型的爆发。2010 年代建立的[[云计算|云计算]],为后来的 AI 训练和[[推理|推理]]铺平了基础设施的道路 <button class="pd-ts" data-t="17:20" data-who="" data-en="This long project to build the multimodal, multi-device, multi-screen, multi-player, ubiquitously connected computer is still what I'm working on 15 years later." aria-label="回原文"></button>。到了今天,大家都在热火朝天地做智能体,但 Quindle 借微软 CEO [[Satya Nadella|Satya Nadella]] 的观点指出,真正的下一步是组织级的、能调用多种模型和工具的「Agents++」(智能体的进阶版) <button class="pd-ts" data-t="02:39" data-who="" data-en="That's right. So in some sense, you kind of want the harness to define the models, the data, and the tools. And so that you have a loop across those three." aria-label="回原文"></button>。
 
 工具变了,人怎么办?这正是下一个话题。
 
-Quindle 认为技术演进的脉络极其清晰:就像当年我们从单一网页,发展出了成熟的移动互联网应用一样,我们马上要从孤立的智能体,走向全新的 AI 原生软件 [04:57]。这种软件之于智能体,就像今天的互联网之于 1995 年的网页。
+Quindle 认为技术演进的脉络极其清晰:就像当年我们从单一网页,发展出了成熟的移动互联网应用一样,我们马上要从孤立的智能体,走向全新的 AI 原生软件 <button class="pd-ts" data-t="04:57" data-who="" data-en="So just like we went from web pages to full-blown web and native mobile, clearly, we're going to chart a path to a new fully AI-native software that comes after Agents and Agents++." aria-label="回原文"></button>。这种软件之于智能体,就像今天的互联网之于 1995 年的网页。
 
-科幻电影里的设定,现在已经成了工程现实。几周前,有个团队基于当下真实可用的技术,重做了 1987 年的《Knowledge Navigator》视频,一镜到底,里面的助手不仅能流畅对话,还能帮你梳理满档的日程 [18:31]。
+科幻电影里的设定,现在已经成了工程现实。几周前,有个团队基于当下真实可用的技术,重做了 1987 年的《Knowledge Navigator》视频,一镜到底,里面的助手不仅能流畅对话,还能帮你梳理满档的日程 <button class="pd-ts" data-t="18:31" data-who="" data-en="I'll just play another 20 seconds of this, but like the original Knowledge Navigator video, this is worth tracking down and watching in full. Good evening, Hasan." aria-label="回原文"></button>。
 
-Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目来当试验田,游戏的每一个交互底层都在疯狂调用 LLM(大语言模型),里面跑着几百个实时的推理调用,有能够持续运行并共享上下文的子智能体(能自己拆分任务、独立干活的 AI),以及动态生成的操作界面。这些在一年前都是根本做不到的 [19:25]。
+Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目来当试验田,游戏的每一个交互底层都在疯狂调用 LLM(大语言模型),里面跑着几百个实时的推理调用,有能够持续运行并共享上下文的子智能体(能自己拆分任务、独立干活的 AI),以及动态生成的操作界面。这些在一年前都是根本做不到的 <button class="pd-ts" data-t="19:25" data-who="" data-en="This game is built from the ground up with LLMs as the core of every interaction. At every moment in the game, there are hundreds of inference calls happening, and we couldn't have built anything like this even a year ago." aria-label="回原文"></button>。
 
 ## 本集带走
 

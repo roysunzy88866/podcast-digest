@@ -34,55 +34,55 @@ jsonLd: |
 
 <div class="pd-tldr"><b>一句话</b>从开源框架 DeepAgents 的架构设计,到长任务、记忆、权限与人机交互的生产级挑战。</div>
 
-你给大模型挂上工具、塞进提示词、装上[[护栏|护栏]],这些围绕模型搭建的全部代码,有一个统称——[[测试框架|harness]](挽具/框架)。Claude Code 光这部分就有 50 万行代码,全是为了让模型在执行你的任务时表现最好 [01:07]。讲这场分享的人来自 [[LangChain|LangChain]],他不仅拆解了这套框架里有什么,还讲了一个更扎心的事实:现有的标准基础设施,根本扛不住真正复杂的智能体跑在生产环境里。
+你给大模型挂上工具、塞进提示词、装上[[护栏|护栏]],这些围绕模型搭建的全部代码,有一个统称——[[测试框架|harness]](挽具/框架)。Claude Code 光这部分就有 50 万行代码,全是为了让模型在执行你的任务时表现最好 <button class="pd-ts" data-t="01:07" data-who="" data-en="And so the harness is everything that's built around the model to make it useful, to make it reliable, to make it good. So if you use Claude Code, Claude Code has something like 500,000 lines of code as part of its source code." aria-label="回原文"></button>。讲这场分享的人来自 [[LangChain|LangChain]],他不仅拆解了这套框架里有什么,还讲了一个更扎心的事实:现有的标准基础设施,根本扛不住真正复杂的智能体跑在生产环境里。
 
 这是 LangChain 团队的成员,这一集聊了两块内容:前半段拆解他们开源的 DeepAgents 框架到底封装了哪些最佳实践,以及为什么[[文件系统|文件系统]]成了当前管理上下文的「最先进技术」;后半段则直面现实——当你的智能体任务变长、变复杂,标准的基础设施会在[[持久化执行|持久化执行]]、记忆、权限和人工审批上统统掉链子,你得针对性地重建运行时的地基。结尾他还顺带提了一句,如果你不想自己搞定这些麻烦,[[LangSmith 部署|LangSmith 部署]]提供了打包方案。
 
 ### 智能体到底是什么:harness 的拆解
 
-要理解这场分享,得先弄明白一个核心等式:一个智能体 = 一个基础大模型 + 一个 harness [00:41]。如果你不是那个模型本身,那你写的一切围绕模型运转的代码,就是 harness。
+要理解这场分享,得先弄明白一个核心等式:一个智能体 = 一个基础大模型 + 一个 harness <button class="pd-ts" data-t="00:41" data-who="" data-en="And the first question that you might have is, what is a harness? Well, the easiest way to think about it is that when you have an agent, whether you're building it, you're talking about it, you're testing it, the agent is a model, a foundational LLM." aria-label="回原文"></button>。如果你不是那个模型本身,那你写的一切围绕模型运转的代码,就是 harness。
 
 那么,harness 里具体有什么?讲者把里面的核心构件分了几类。
 
 首先是系统提示词和记忆,这是你与大模型交互的主要接口,也是让模型随着时间学习你偏好的方式。其次是工具、技能、MCP(模型上下文协议)和[[子智能体|子智能体]],这些通常属于编排层的东西也被算作 harness 的一部分。
 
-再往外扩展,任何智能体与之交互的基础设施——比如文件系统、[[沙箱|沙箱]](一种隔离程序运行的安全环境)、浏览器——同样属于这个框架 [02:09]。DeepAgents 的独特之处在于引入了钩子和[[中间件|中间件]]的概念:你可以定义自己的中间件来拦截对模型的调用,在模型执行前后注入自定义逻辑,比如护栏(限制模型行为的规则)或额外的预处理 [02:29]。
+再往外扩展,任何智能体与之交互的基础设施——比如文件系统、[[沙箱|沙箱]](一种隔离程序运行的安全环境)、浏览器——同样属于这个框架 <button class="pd-ts" data-t="02:09" data-who="" data-en="All of these things that are normally part of your agent, your orchestration, are also considered part of your harness. So any of the infrastructure that you use, any of the orchestration, so file system, sandboxes, your browser, anything that the agent interacts with as part of the interface is also part of the harness." aria-label="回原文"></button>。DeepAgents 的独特之处在于引入了钩子和[[中间件|中间件]]的概念:你可以定义自己的中间件来拦截对模型的调用,在模型执行前后注入自定义逻辑,比如护栏(限制模型行为的规则)或额外的预处理 <button class="pd-ts" data-t="02:29" data-who="" data-en="Now, the last thing that is a little bit unique to DeepAgents and is useful is the idea of hooks and middleware. DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic, things like guardrails, things like extra pre-processing or post-processing, or whatever you need to get that optimal performance for your given task." aria-label="回原文"></button>。
 
 ### 为什么文件系统成了上下文管理的「最先进技术」
 
 说完了 harness 里有什么,接下来是 DeepAgents 在具体设计上最强调的一个原语:文件系统。
 
-在这个框架里,文件系统被视为目前上下文管理的最先进技术。智能体会利用文件系统来存储可能需要参考的信息,就像用便签本一样 [03:31]。
+在这个框架里,文件系统被视为目前上下文管理的最先进技术。智能体会利用文件系统来存储可能需要参考的信息,就像用便签本一样 <button class="pd-ts" data-t="03:31" data-who="" data-en="The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad." aria-label="回原文"></button>。
 
 为什么偏偏是文件系统?原因在于基础模型的训练数据。
 
-因为各大模型在优化 Claude Code 和 Codex 等编程智能体的过程中,接受了海量的文件系统数据训练,所以它们非常非常擅长利用这个接口。把数据以文件系统的形式提供给模型,往往能直接提升表现 [03:49]。围绕上下文管理,DeepAgents 还开放了摘要、子智能体和规划等模块,让你精准控制送达模型的信息量,只传递最少量的必要信息,从而扩展[[上下文窗口|上下文窗口]]并保持模型专注。
+因为各大模型在优化 Claude Code 和 Codex 等编程智能体的过程中,接受了海量的文件系统数据训练,所以它们非常非常擅长利用这个接口。把数据以文件系统的形式提供给模型,往往能直接提升表现 <button class="pd-ts" data-t="03:49" data-who="" data-en="And because foundational models have been trained on so much file system data in the course of optimizing Claude Code and Codex and coding agents, Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance." aria-label="回原文"></button>。围绕上下文管理,DeepAgents 还开放了摘要、子智能体和规划等模块,让你精准控制送达模型的信息量,只传递最少量的必要信息,从而扩展[[上下文窗口|上下文窗口]]并保持模型专注。
 
-从架构层级看,DeepAgents 是最高级别的抽象,构建在 LangChain 之上,提供标准工具调用能力;而 LangChain 的底层是提供节点、边和状态的 [[LangGraph|LangGraph]] [04:46]。这种分层带来极强的可组合性:你可以让一个完全确定性的 LangGraph 工作流,把 DeepAgent 当作其中一个处理复杂推理的节点;反过来,让[[Deep Agents|深度智能体]]在底层协调确定性流作为子智能体也可以 [06:42]。
+从架构层级看,DeepAgents 是最高级别的抽象,构建在 LangChain 之上,提供标准工具调用能力;而 LangChain 的底层是提供节点、边和状态的 [[LangGraph|LangGraph]] <button class="pd-ts" data-t="04:46" data-who="" data-en="It's built on top of LangChain, which gives you that basic tool calling infrastructure that people refer to as agents today. And under the hood of LangChain, everything is built on LangGraph, which is the core Lego pieces that you use to put everything together." aria-label="回原文"></button>。这种分层带来极强的可组合性:你可以让一个完全确定性的 LangGraph 工作流,把 DeepAgent 当作其中一个处理复杂推理的节点;反过来,让[[Deep Agents|深度智能体]]在底层协调确定性流作为子智能体也可以 <button class="pd-ts" data-t="06:42" data-who="" data-en="And because everything under the hood is built on top of LangGraph, this also means that DeepAgents is deeply composable with any of your existing LangChain or LangGraph agents." aria-label="回原文"></button>。
 
-这就允许开发者根据任务找到自由度与确定性的最佳平衡点。这也是为什么团队建议:构建智能体时,始终从深度智能体开始 [08:11]。
+这就允许开发者根据任务找到自由度与确定性的最佳平衡点。这也是为什么团队建议:构建智能体时,始终从深度智能体开始 <button class="pd-ts" data-t="08:11" data-who="" data-en="Thank you for watching. Our recommendation when it comes to building agents is to always start with a deep agent. So now let's finally get to the portion where we talk about what it means to run these agents in production and what are some of the special considerations that you might face when you have an agent in production." aria-label="回原文"></button>。
 
 ### 标准基础设施的失灵:复杂智能体的生产难题
 
-工具和架构再好,一旦要部署到生产环境,真正的考验才刚开始。这正是接下来的话题:标准基础设施并不是为长期运行的复杂智能体而构建的 [08:28]。
+工具和架构再好,一旦要部署到生产环境,真正的考验才刚开始。这正是接下来的话题:标准基础设施并不是为长期运行的复杂智能体而构建的 <button class="pd-ts" data-t="08:28" data-who="" data-en="So now let's finally get to the portion where we talk about what it means to run these agents in production and what are some of the special considerations that you might face when you have an agent in production." aria-label="回原文"></button>。
 
-当一个深度智能体的用例是长期运行、多步骤的,你就会面临一系列棘手的新问题。讲者列出了必须考量的因素清单:如何处理错误、如何实现自动伸缩或并行分发、如何恢复掉线的会话,以及如何加入[[回路中的人类|人工在环]] [09:11]。你现成的运行时环境需要彻底改造,才能适应这些复杂的深度任务。
+当一个深度智能体的用例是长期运行、多步骤的,你就会面临一系列棘手的新问题。讲者列出了必须考量的因素清单:如何处理错误、如何实现自动伸缩或并行分发、如何恢复掉线的会话,以及如何加入[[回路中的人类|人工在环]] <button class="pd-ts" data-t="09:11" data-who="" data-en="It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task." aria-label="回原文"></button>。你现成的运行时环境需要彻底改造,才能适应这些复杂的深度任务。
 
 首当其冲的是持久化执行。智能体的核心模式仍然受限于上下文窗口。
 
-当你构建复杂智能体时,必然会把上下文窗口推向极限,运行很长时间;而在逼近极限的过程中,智能体产生幻觉或出错的概率会越来越大 [10:16]。如果没有适当的机制,一旦任务跑到第 67 步(假设总共 123 步)时崩溃,你就得从第一步重来,这种体验极其糟糕。DeepAgents 和 LangGraph 通过在执行的每一步设置[[检查点|检查点]]来解决这个问题,如果第 67 步失败,你可以直接从第 66 步恢复 [10:36]。
+当你构建复杂智能体时,必然会把上下文窗口推向极限,运行很长时间;而在逼近极限的过程中,智能体产生幻觉或出错的概率会越来越大 <button class="pd-ts" data-t="10:16" data-who="" data-en="So by nature of building a complex agent, you are likely going to be pushing your context window to the limit. You're going to be running things for very long periods of time." aria-label="回原文"></button>。如果没有适当的机制,一旦任务跑到第 67 步(假设总共 123 步)时崩溃,你就得从第一步重来,这种体验极其糟糕。DeepAgents 和 LangGraph 通过在执行的每一步设置[[检查点|检查点]]来解决这个问题,如果第 67 步失败,你可以直接从第 66 步恢复 <button class="pd-ts" data-t="10:36" data-who="" data-en="And so it's very important to be able to recover from exactly that same spot where you had the error occur and not have to restart the task all the way from the very beginning." aria-label="回原文"></button>。
 
-把跨会话的检查点串联起来,就引出了第二大挑战:记忆机制。把单个会话的所有执行步骤关联起来,就构成了短期记忆,让智能体记住你前几轮对话的偏好;如果把这些跨会话的洞察提取出来存入长期记忆库,就能实现为特定用户进行个性化定制的功能 [11:38]。
+把跨会话的检查点串联起来,就引出了第二大挑战:记忆机制。把单个会话的所有执行步骤关联起来,就构成了短期记忆,让智能体记住你前几轮对话的偏好;如果把这些跨会话的洞察提取出来存入长期记忆库,就能实现为特定用户进行个性化定制的功能 <button class="pd-ts" data-t="11:38" data-who="" data-en="And you can again extend this across sessions to what we call long-term memory. So deep agents, when we put them into production, we always include a long-term memory store in which we will extract insights that we want to have persist across many different sessions." aria-label="回原文"></button>。
 
-第三大挑战是极其棘手的身份验证与权限问题。在智能体场景下,权限的边界变得模糊了 [12:43]。
+第三大挑战是极其棘手的身份验证与权限问题。在智能体场景下,权限的边界变得模糊了 <button class="pd-ts" data-t="12:43" data-who="" data-en="So acting on behalf of the user is, through OAuth, a pretty standard flow that, at minimum, you need to build into your agents. But there's also new sorts of RBAC and auth scenarios that agents have fuzzy lines around that you don't really have with traditional applications." aria-label="回原文"></button>。
 
-传统应用里,你授权一个程序读写 Gmail,它是确定性的,你很放心;但对于复杂智能体,你可能觉得它替你发一封邮件没问题,但如果它瞬间替你发了一千封邮件,你肯定会觉得出大问题了,想要立刻调查并叫停 [13:15]。这种动态的、需要根据行为频次或规模进行干预的权限控制,是传统应用没有的全新 auth 流程,也是目前业界仍在摸索的领域。
+传统应用里,你授权一个程序读写 Gmail,它是确定性的,你很放心;但对于复杂智能体,你可能觉得它替你发一封邮件没问题,但如果它瞬间替你发了一千封邮件,你肯定会觉得出大问题了,想要立刻调查并叫停 <button class="pd-ts" data-t="13:15" data-who="" data-en="For a deep agent or a more complex agent. For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf." aria-label="回原文"></button>。这种动态的、需要根据行为频次或规模进行干预的权限控制,是传统应用没有的全新 auth 流程,也是目前业界仍在摸索的领域。
 
-最后,只要任务重要,就必然需要一定程度的人工在环 [13:45]。这就要求运行时必须支持最基础的人机交互:人类用户如何中断、停止或批准智能体的动作?
+最后,只要任务重要,就必然需要一定程度的人工在环 <button class="pd-ts" data-t="13:45" data-who="" data-en="And what is the RBAC that you need to be able to deploy and to work with your agents? Now, the last thing that is important that I want to call out is interfacing with users because as of today, most tasks that are important still involve some degree of human in the loop." aria-label="回原文"></button>。这就要求运行时必须支持最基础的人机交互:人类用户如何中断、停止或批准智能体的动作?
 
 智能体在执行长任务时,如何将其实时进度流式传输回前端,持续向人类更新状态?这些都是把复杂智能体推向生产时绕不开的底层基础设施。
 
-讲者也坦言,如果注意到了这些生产级难题却拿不出方案是不合适的。LangSmith 部署就是为此而生:如果你不想自己从头解决这些掉头发的底层问题,可以直接把构建好的智能体自动部署到他们的平台上 [15:12]。但无论你是否使用这套商业产品,只要打算在生产环境跑复杂智能体,上述的持久化、记忆、动态权限和人机交互,都是你必须跨过的门槛。
+讲者也坦言,如果注意到了这些生产级难题却拿不出方案是不合适的。LangSmith 部署就是为此而生:如果你不想自己从头解决这些掉头发的底层问题,可以直接把构建好的智能体自动部署到他们的平台上 <button class="pd-ts" data-t="15:12" data-who="" data-en="If you are building agents and you don't want to figure out these problems yourself, We do support deployments where you can take an agent that you've built and automatically deploy it onto our platform to handle these exact scenarios that we just spent time talking about." aria-label="回原文"></button>。但无论你是否使用这套商业产品,只要打算在生产环境跑复杂智能体,上述的持久化、记忆、动态权限和人机交互,都是你必须跨过的门槛。
 
 ## 本集带走
 

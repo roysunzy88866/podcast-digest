@@ -50,17 +50,17 @@ jsonLd: |
 
 ## 产品经理是怎么变得这么多的
 
-Tom 先追溯了历史。在互联网行业早期,根本没有产品经理这个角色,通常是创始人或 CEO 直接找工程师和设计师讨论要做什么,大家一起去执行 [03:31]。
+Tom 先追溯了历史。在互联网行业早期,根本没有产品经理这个角色,通常是创始人或 CEO 直接找工程师和设计师讨论要做什么,大家一起去执行 <button class="pd-ts" data-t="03:31" data-who="" data-en="And one of the things when you come to product management is if you go all the way back, product management didn't exist. It was like the business, and very often founder or CEO types talking directly to engineering and design about what we needed to build, and then executing it together." aria-label="回原文"></button>。
 
-但互联网公司的扩张速度史无前例,创始人的精力顾不过来,自然就需要把执行的具体细节交给专人。慢慢地,科技圈形成了一种不成文的编制比率:每招 6 个工程师,就配 1 个设计师、1 个产品经理、1 个工程经理(管工程师的人) [00:08]。到了服务上亿日活的产品,工程师数以千计,产品经理跟着膨胀。
+但互联网公司的扩张速度史无前例,创始人的精力顾不过来,自然就需要把执行的具体细节交给专人。慢慢地,科技圈形成了一种不成文的编制比率:每招 6 个工程师,就配 1 个设计师、1 个产品经理、1 个工程经理(管工程师的人) <button class="pd-ts" data-t="00:08" data-who="" data-en="Every time you hire six engineers, you add a designer, you add a PM. Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them." aria-label="回原文"></button>。到了服务上亿日活的产品,工程师数以千计,产品经理跟着膨胀。
 
 但他觉得这套逻辑在很多时候根本站不住脚。通知基础设施需要配产品经理吗?
 
-工程师完全有能力自己搞懂 [07:04]。强行塞了这么多产品经理,反而让本来完全能做决策的工程师和设计师「幼稚化」——因为总有人在替他们想、替他们拍板,他们的决策肌肉就萎缩了 [07:21]。他反复强调,产品管理本质是一门靠实战练出来的手艺、一块肌肉;你越是让工程师和设计师不去做产品经理做的事,他们这块肌肉就越发育不良 [05:03]。
+工程师完全有能力自己搞懂 <button class="pd-ts" data-t="07:04" data-who="" data-en="And in most cases, you probably don't need a PM for notifications infrastructure. Engineers are perfectly capable of understanding how that works. And in a lot of ways, as we just described, hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them." aria-label="回原文"></button>。强行塞了这么多产品经理,反而让本来完全能做决策的工程师和设计师「幼稚化」——因为总有人在替他们想、替他们拍板,他们的决策肌肉就萎缩了 <button class="pd-ts" data-t="07:21" data-who="" data-en="And in a lot of ways, as we just described, hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them." aria-label="回原文"></button>。他反复强调,产品管理本质是一门靠实战练出来的手艺、一块肌肉;你越是让工程师和设计师不去做产品经理做的事,他们这块肌肉就越发育不良 <button class="pd-ts" data-t="05:03" data-who="" data-en="And as every private trainer has ever told me, muscles are built by reps. And so the more you do it, the better you get at it. But the flip side of that is the more you abstract your engineers and your designers from doing the same thing, their muscle gets underdeveloped." aria-label="回原文"></button>。
 
-那什么情况下真的需要产品经理?Tom 的结论是:把它当作一门需要特定手艺的专职岗位,只在真正有特定需求的地方用,不要预设每个团队都非得有一个 [09:52]。
+那什么情况下真的需要产品经理?Tom 的结论是:把它当作一门需要特定手艺的专职岗位,只在真正有特定需求的地方用,不要预设每个团队都非得有一个 <button class="pd-ts" data-t="09:52" data-who="" data-en="We recognize in those situations that you do need to help other functions specialize. But I think it's we articulate it that way to force ourselves to remember that you don't hire a PM just for the sake of hiring one, you hire one where there's really specific need." aria-label="回原文"></button>。
 
-在 Whatnot,他们干脆把产品经理「映射到具体问题或核心项目」上,而不是固定绑定到某个工程团队。这意味着可能有一整年,某个工程团队手头有大量产品工作要做,却根本没有产品经理跟着 [10:46]。目前 Whatnot 整个公司只有 20 个出头的 PM,对于他们处理的交易体量(GMV)来说,这个比例小得惊人 [15:28]。
+在 Whatnot,他们干脆把产品经理「映射到具体问题或核心项目」上,而不是固定绑定到某个工程团队。这意味着可能有一整年,某个工程团队手头有大量产品工作要做,却根本没有产品经理跟着 <button class="pd-ts" data-t="10:46" data-who="" data-en="And so rather than mapping PMs to teams where you assume that the PM will always do that, we tend to map them to problems or core projects. And that means that there will be a year more where there isn't a PM attached to a particular engineering team, even though there's lots of ongoing product work to do." aria-label="回原文"></button>。目前 Whatnot 整个公司只有 20 个出头的 PM,对于他们处理的交易体量(GMV)来说,这个比例小得惊人 <button class="pd-ts" data-t="15:28" data-who="" data-en="What does this org look like in this worldview? Yeah, we've just passed 20 PMs. We have, I think 21, 22 PMs in the building today." aria-label="回原文"></button>。
 
 ## 不要再找擅长「推动对齐」的人
 
@@ -68,25 +68,25 @@ Tom 先追溯了历史。在互联网行业早期,根本没有产品经理这个
 
 那到底招人看什么呢?Tom 说,绝对在下降的一类人,是面试时把大部分时间花在讲「推动对齐(推动不同部门达成共识)」「利益相关者管理」上的人。
 
-他直言不讳地说,行业里有一批产品经理,专长不是技术或客户,而是办公室政治 [01:06]。他找的是能在案例研究中同时展现宏观思考和微观执行的人:既能在脑子里搭出大系统的运作模型,又能拿出具体、清晰、快速验证的落地方案。他特别反感那种在 FANG、Uber 这种大公司待过,只是维护、微调现有产品的人;他想要那种能面对模糊问题,从零做出独特东西,一路做决策并推进的人 [19:07]。
+他直言不讳地说,行业里有一批产品经理,专长不是技术或客户,而是办公室政治 <button class="pd-ts" data-t="01:06" data-who="" data-en="What does he look for in the folks that you hire? I can tell you what's definitely trending down, folks who spend a lot of their time in their interviews talking about driving alignment and stakeholder management, because there's definitely a group of PMs whose specialty wasn't technical, it was politics." aria-label="回原文"></button>。他找的是能在案例研究中同时展现宏观思考和微观执行的人:既能在脑子里搭出大系统的运作模型,又能拿出具体、清晰、快速验证的落地方案。他特别反感那种在 FANG、Uber 这种大公司待过,只是维护、微调现有产品的人;他想要那种能面对模糊问题,从零做出独特东西,一路做决策并推进的人 <button class="pd-ts" data-t="19:07" data-who="" data-en="I think the system works something like this and I can describe an end state, but can I almost exude impatience on, and here's how I would validate that very quickly, here's where I would push to get that done, and are you specific about the things that you've built?" aria-label="回原文"></button>。
 
 他还特别提到培养「[[系统思维|系统思维]]」的训练法。他会在产品评审时问:如果实验跑出来是涨的(绿),我们策略会怎么变?
 
-如果是跌的(红),我们又怎么办?如果答不上来,说明这事压根没想透,马上停下推演一遍 [20:24]。他们内部有个口头禅叫「先想透最坏情况,然后照干不误」:把规模放大十倍、百倍后可能出错的地方全过一遍,解决掉能解决的,然后别被风险拖死,继续往前走 [21:13]。
+如果是跌的(红),我们又怎么办?如果答不上来,说明这事压根没想透,马上停下推演一遍 <button class="pd-ts" data-t="20:24" data-who="" data-en="So you can do it in small ways. One of the things I ask a lot in product review when someone says, &quot;Hey, we want to run an experiment,&quot; is, &quot;Okay, what do we do if it's green?" aria-label="回原文"></button>。他们内部有个口头禅叫「先想透最坏情况,然后照干不误」:把规模放大十倍、百倍后可能出错的地方全过一遍,解决掉能解决的,然后别被风险拖死,继续往前走 <button class="pd-ts" data-t="21:13" data-who="" data-en="Oh, legal might, finance might, another team might. And I think one of the monikers we use internally is no, then go. As in just think through all the things that could go wrong, understand where scale will break, understand the things that might happen, and then move on anyway." aria-label="回原文"></button>。
 
 ## 把最资深的人推回一线当独立贡献者
 
 说完了招什么人、怎么想问题,接下来这也许是整集最反常规的部分:他不要资深的人脱离一线去管人,他要他们回去做独立贡献者的活儿。
 
-行业的老规矩是:产品经理做好了,就提拔成总监,然后脱离具体动手,专职指导团队 [22:36]。Tom 觉得这套毁了人才:「我们把最厉害的球员都提拔去当教练,不让他们上场了,这等于剥夺了他们的实战肌肉」 [01:30]。
+行业的老规矩是:产品经理做好了,就提拔成总监,然后脱离具体动手,专职指导团队 <button class="pd-ts" data-t="22:36" data-who="" data-en="I mentioned a little bit earlier, but there was this thing in the ratio land where what you did if you were really successful as a PM is you got promoted into being a director." aria-label="回原文"></button>。Tom 觉得这套毁了人才:「我们把最厉害的球员都提拔去当教练,不让他们上场了,这等于剥夺了他们的实战肌肉」 <button class="pd-ts" data-t="01:30" data-who="" data-en="We took all of our A players and then promoted them out of doing things. Why wouldn't you want Messi playing for your team rather than trying to have the academy coming along all the time?" aria-label="回原文"></button>。
 
-在 Whatnot,所有的人,包括他自己,绝大部分时间都在做独立贡献者的工作。他作为 CPO,依然有 50% 的时间在做具体的交付工作,团队里四五个管人的管理者,每个人起码有 90% 的时间在做独立贡献者的活儿 [23:20]。
+在 Whatnot,所有的人,包括他自己,绝大部分时间都在做独立贡献者的工作。他作为 CPO,依然有 50% 的时间在做具体的交付工作,团队里四五个管人的管理者,每个人起码有 90% 的时间在做独立贡献者的活儿 <button class="pd-ts" data-t="23:20" data-who="" data-en="I'm still probably 50% of my time doing IC work personally. And I think there's a couple real advantages of it. The first is if you are a kind of VP product where you've got a decade plus, maybe 15 years of experience building things, hopefully your instincts as to what's going to work and not are fairly well honed at this point." aria-label="回原文"></button>。
 
-在这套逻辑里,独立贡献者的工作不是去写生产代码,而是亲自翻看客诉记录、亲自拉取数据、亲自和工程师一起查代码库、写规格说明,然后亲自把控产品的交付 [26:30]。说到写代码,他甚至调侃自己用 [[Claude|Claude]] Code 推了一些生产代码,但很确信有人偷偷帮他把代码重写了,以满足代码规范、处理本地化,修正那些需要几十年工程经验才懂、而他和 AI 都没做对的细节 [26:18]。
+在这套逻辑里,独立贡献者的工作不是去写生产代码,而是亲自翻看客诉记录、亲自拉取数据、亲自和工程师一起查代码库、写规格说明,然后亲自把控产品的交付 <button class="pd-ts" data-t="26:30" data-who="" data-en="I'm certain that quietly somebody reworked most of my code in order to ensure that the linting was correct and the localization worked and all of the nuance that decades of software engineering has taught you that me and Claude Code did not get right." aria-label="回原文"></button>。说到写代码,他甚至调侃自己用 [[Claude|Claude]] Code 推了一些生产代码,但很确信有人偷偷帮他把代码重写了,以满足代码规范、处理本地化,修正那些需要几十年工程经验才懂、而他和 AI 都没做对的细节 <button class="pd-ts" data-t="26:18" data-who="" data-en="Not really. I'm certain that quietly somebody reworked most of my code in order to ensure that the linting was correct and the localization worked and all of the nuance that decades of software engineering has taught you that me and Claude Code did not get right." aria-label="回原文"></button>。
 
-聊到这里,主持人提到一个行业奇观:一堆大公司的首席技术官跑到 [[Anthropic|Anthropic]] 当普通工程师。Tom 说这正是他梦寐以求的团队配置 [28:18]。
+聊到这里,主持人提到一个行业奇观:一堆大公司的首席技术官跑到 [[Anthropic|Anthropic]] 当普通工程师。Tom 说这正是他梦寐以求的团队配置 <button class="pd-ts" data-t="28:18" data-who="" data-en="But I've actually found that, for a lot of the cases, you go and talk to somebody who spent the last five, six years as a senior director at Meta who spends their entire time in alignment meetings, and they miss actually talking to customers and talking to engineers and shipping things." aria-label="回原文"></button>。
 
-这背后不光是情怀,还有经济账:与其养一个金字塔式的层级结构,不如把钱分给少数最顶尖、被推回一线的人。算算账就明白,同样一笔预算,给三个人付大公司副总级别的工资,让他们直接产生相当于五六个初级人的产出,完全可行 [28:59]。
+这背后不光是情怀,还有经济账:与其养一个金字塔式的层级结构,不如把钱分给少数最顶尖、被推回一线的人。算算账就明白,同样一笔预算,给三个人付大公司副总级别的工资,让他们直接产生相当于五六个初级人的产出,完全可行 <button class="pd-ts" data-t="28:59" data-who="" data-en="That's people's dream, move up to VP, make millions of dollars. Is there a world where you can still do that and be an IC? I actually think it's easier." aria-label="回原文"></button>。
 
 ## AI 带来的三大效率杠杆
 
@@ -94,15 +94,15 @@ Tom 先追溯了历史。在互联网行业早期,根本没有产品经理这个
 
 第一个杠杆,也是 Tom 觉得遥遥领先的,是[[数据科学|数据科学]]。Whatnot 内部用一种叫 Hex threads 的工具。
 
-现在他可以自己拉取极其细致的用户分群数据,抓取个别用户的日志,快速做回归、做预测模型,这是过去需要一个高级数据科学家花一两周才能干完的活。结果是,过去一年他跟数据科学家开会的时间是职业生涯最少的,但泡在数据里理解产品运作的时间却是过去的十倍 [35:47]。
+现在他可以自己拉取极其细致的用户分群数据,抓取个别用户的日志,快速做回归、做预测模型,这是过去需要一个高级数据科学家花一两周才能干完的活。结果是,过去一年他跟数据科学家开会的时间是职业生涯最少的,但泡在数据里理解产品运作的时间却是过去的十倍 <button class="pd-ts" data-t="35:47" data-who="" data-en="I mean, the first one I think by a country mile is data science. We use Hex threads internally at Whatnot. I'm sure there are other comparable products, but I think it's almost hard to remember time as a PM before you had tooling like that where you could genuinely start pulling very nuanced cohorts of data where you could grab an individual user where you've heard a report." aria-label="回原文"></button>。
 
 第二个是不用再拿琐碎问题去打断工程师。过去作为初级产品经理,他经常得去问工程师某个改动难度有多大,这其实分散了工程师真正写代码的精力。
 
-现在他直接问 Claude,就能大致摸清工作量级别,甚至能直接去查询代码库,搞懂某个界面的逻辑到底是怎么回事 [31:37]。他明白这些 AI 工具产出的结果依然需要人把关,毕竟非专业人士做半吊子的数据分析,经常出错。但好处是,资深的人因为有经验,更能判断这些 AI 辅助产出的对错 [42:48]。
+现在他直接问 Claude,就能大致摸清工作量级别,甚至能直接去查询代码库,搞懂某个界面的逻辑到底是怎么回事 <button class="pd-ts" data-t="31:37" data-who="" data-en="And then listen, AI, huge leverage for all of this. I can't think of how much time I spent as a junior PM asking my engineers how hard something would be, and distracting actual velocity in order to help scope future stuff." aria-label="回原文"></button>。他明白这些 AI 工具产出的结果依然需要人把关,毕竟非专业人士做半吊子的数据分析,经常出错。但好处是,资深的人因为有经验,更能判断这些 AI 辅助产出的对错 <button class="pd-ts" data-t="42:48" data-who="" data-en="It just tends to be leveraged for those people who are naturally inclined that way. So thinking about these different functions, data science, user research, design, engineering, PM, what I'm hearing so far is we'll need probably fewer PMs, we'll need fewer data scientists." aria-label="回原文"></button>。
 
 第三个杠杆,是针对[[直播购物|直播购物]]这种实时产品独有的。当用户在描述遇到的问题时,他可以一边看用户操作产品的视频回放,一边实时分析代码库到底出了什么 bug。
 
-客户那里发生了什么、代码层面发生了什么,全在一个屏幕上实时呈现,这种反馈循环是前所未有的强力 [38:28]。聊到这,他讲了个细节:有个卖家在直播间抱怨拍卖倒计时太长,想在旁边办公室的两个工程师听到后,当场改了倒计时,直接在直播聊天室喊大家刷新应用,砰的一下规则就变了 [39:21]。这种极速响应,正是 AI 和直播场景结合的威力。
+客户那里发生了什么、代码层面发生了什么,全在一个屏幕上实时呈现,这种反馈循环是前所未有的强力 <button class="pd-ts" data-t="38:28" data-who="" data-en="And suddenly you've got this video artifact of someone using your product, you can be analyzing the code base in real time, and you can be just talking through AI to the code base to understand what's actually happening." aria-label="回原文"></button>。聊到这,他讲了个细节:有个卖家在直播间抱怨拍卖倒计时太长,想在旁边办公室的两个工程师听到后,当场改了倒计时,直接在直播聊天室喊大家刷新应用,砰的一下规则就变了 <button class="pd-ts" data-t="39:21" data-who="" data-en="Otherwise, the classic auction environment, somebody bids in the last five seconds, it adds 10 seconds back on the clock, and a seller can decide what auction model they want." aria-label="回原文"></button>。这种极速响应,正是 AI 和直播场景结合的威力。
 
 ## 和强势创始人共事的艺术
 
@@ -110,13 +110,13 @@ Tom 先追溯了历史。在互联网行业早期,根本没有产品经理这个
 
 Whatnot 的创始人 Grant 非常有产品主见。Tom 摸索出了一套跟这类强势创始人打交道的门道。
 
-首先,最关键的一点是认清现实:这不是你的公司,是他们的 [54:59]。如果创始人正在盯某个具体项目,Tom 就主动退让,不跟对方抢控制权。
+首先,最关键的一点是认清现实:这不是你的公司,是他们的 <button class="pd-ts" data-t="54:59" data-who="" data-en="I think the second one is, ultimately, if you are a product leader in a founder-led company, you have to understand it's not your company, it's theirs. And you just find the right balance of, hey, are you open to feedback on this?" aria-label="回原文"></button>。如果创始人正在盯某个具体项目,Tom 就主动退让,不跟对方抢控制权。
 
-他半开玩笑说这叫「两个爸爸问题」:如果他和创始人同时在一个项目上发号施令,下面的人只会被搞得团团转 [54:15]。所以经常有一半的团队在干创始人主导的项目,他完全不过问日常进度。
+他半开玩笑说这叫「两个爸爸问题」:如果他和创始人同时在一个项目上发号施令,下面的人只会被搞得团团转 <button class="pd-ts" data-t="54:15" data-who="" data-en="What's the advantage of an extra layer? I think jokingly one of the PMs on the team has referred to it as the two dads problem where you've just got two people issuing conflicting instructions, or somebody wants to review and then you do all this work to present it to me, and then you go back and it gets a different thing." aria-label="回原文"></button>。所以经常有一半的团队在干创始人主导的项目,他完全不过问日常进度。
 
 其次,他强调管理绝不是脱离一线的遥控。他极度不认同「招牛人然后别挡他们的道」这种硅谷经典口号。
 
-他的信条是「先验证,再信任」(verify, then trust) [50:17]。他自己必须经常和一线工程师、设计师坐在一起,逐行去看数据。
+他的信条是「先验证,再信任」(verify, then trust) <button class="pd-ts" data-t="50:17" data-who="" data-en="And I think the real answer is obviously the better people you hire, the more you can totally trust that they know what they're doing. But we tend to live in a verify, then trust land as opposed to a totally trust or even trust but verify, which is like I'm probably in a better position than any of my directs to understand how all of the different pieces of our system, buyer, seller, trust, fit together." aria-label="回原文"></button>。他自己必须经常和一线工程师、设计师坐在一起,逐行去看数据。
 
 他举了个例子:如果开会有人说「这是欺诈」,他会追问——你怎么知道?哦,数据集标记了。
 
@@ -132,11 +132,11 @@ Whatnot 的创始人 Grant 非常有产品主见。Tom 摸索出了一套跟这�
 
 原则定好了,日常具体干活时怎么避免瞎忙?接下来看他最得意的思维模型。
 
-Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到产品团队常陷入两种失败模式:一种是没有方向,疯狂做 A/B 测试,像往墙上瞎扔意面看什么能粘住;另一种是关起门来写两三年的宏大战略路线图,彻底丧失了互联网行业快速学习的优势 [62:31]。
+Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到产品团队常陷入两种失败模式:一种是没有方向,疯狂做 A/B 测试,像往墙上瞎扔意面看什么能粘住;另一种是关起门来写两三年的宏大战略路线图,彻底丧失了互联网行业快速学习的优势 <button class="pd-ts" data-t="62:31" data-who="" data-en="I think there's a second failure mode, which is people sit down and write out these long roadmaps and strategic vision docs of what we'll do over the next two or three years that kind of loses the comparative advantage we have over every other industry, which is learning." aria-label="回原文"></button>。
 
 拉手风琴就是为了解决这个。想象一个手风琴:演奏前,你得先把风箱完全拉开,吸入空气——这代表你要先往大处想,把目标、宏观图景和各种影响推演一遍。
 
-但光拉开不出声,只有把风箱用力推回去,按响琴键,才真正创造出价值——这代表你要把宏大的思考压缩成一个具体、能验证的最小行动方案(V1)并去执行。等做完这一下,你要重新拉开风箱,根据刚学到的经验教训重新评估方向,然后再推回去做下一个版本 [62:52]。
+但光拉开不出声,只有把风箱用力推回去,按响琴键,才真正创造出价值——这代表你要把宏大的思考压缩成一个具体、能验证的最小行动方案(V1)并去执行。等做完这一下,你要重新拉开风箱,根据刚学到的经验教训重新评估方向,然后再推回去做下一个版本 <button class="pd-ts" data-t="62:52" data-who="" data-en="But you don't make music until you press the key and push it all the way back into V1. And then when you go to play the next kind of progression, you pull it all the way out again." aria-label="回原文"></button>。
 
 他用 Whatnot 平台上的商品列表来举例。以前做直播带货,卖家举起东西喊价就行,不需要专门做商品列表(拉手风琴:不用做,先专注直播体验)。
 
@@ -144,7 +144,7 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
 
 让所有人都做商品列表。再往大处想(再次拉开),如果让卖家每件商品花三分半钟做列表,他们一小时的销量就暴跌,这伤害了卖家的核心利益。
 
-于是思路又得收回来重新推演 [65:35]。这种在宏观和微观之间不断伸缩、往复验证的节奏,就是拉手风琴的核心。
+于是思路又得收回来重新推演 <button class="pd-ts" data-t="65:35" data-who="" data-en="And so you may not have to invest in making listings the way that someone else does. And that's probably net good for a seller because it takes three and a half minutes to make a listing and it takes zero minutes to describe a thing and hold it up." aria-label="回原文"></button>。这种在宏观和微观之间不断伸缩、往复验证的节奏,就是拉手风琴的核心。
 
 ## 失败与收尾
 
@@ -154,11 +154,11 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
 
 在庞大的用户群里,你很容易去看平均利用率,发现某个功能只有 3% 的人用,就觉得没用,随手砍掉。但如果你不深挖,你可能根本不知道这 3% 对某一小撮人来说是 100% 的核心用例。
 
-你一刀切下去,就炸了这部分人的体验,随之而来的就是毁灭性的网络效应崩溃。他提醒,在电商这种场景里,你的产品就是别人的生计,因为想偷懒维护就砍掉一个功能,无异于购物中心在圣诞节前夜拉闸断电 [73:47]。
+你一刀切下去,就炸了这部分人的体验,随之而来的就是毁灭性的网络效应崩溃。他提醒,在电商这种场景里,你的产品就是别人的生计,因为想偷懒维护就砍掉一个功能,无异于购物中心在圣诞节前夜拉闸断电 <button class="pd-ts" data-t="73:47" data-who="" data-en="Honestly, mate, and it's very nice of you to say nice things, but I feel like I fail more often than I succeed across the course of my career. Genuinely, to the blog you referenced right at the start, I published in the back of that the actual document we use internally to talk about how we build." aria-label="回原文"></button>。
 
 面对整个行业从规模扩张转向追求效率的剧变,他给在找工作或感到迷茫的产品经理的建议非常直接:不要只是在脑子里琢磨大局,去把具体的活儿干起来。回到你最核心的产品手艺上:去摸第一手的数据,去写真实的规格说明,去界定到底什么是好的标准。
 
-把你现在的生产力拿出来,这无论对你现在的处境还是未来的去向都有好处 [32:54]。行业的洗牌是真切的,但这恰恰是回归真正产品工作的好时机。
+把你现在的生产力拿出来,这无论对你现在的处境还是未来的去向都有好处 <button class="pd-ts" data-t="32:54" data-who="" data-en="Any other advice for them? Start doing IC work in the role you're in would be my push. Get back to the basics of make sure that you're taking on practical work." aria-label="回原文"></button>。行业的洗牌是真切的,但这恰恰是回归真正产品工作的好时机。
 
 ## 本集带走
 

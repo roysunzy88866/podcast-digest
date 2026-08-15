@@ -43,37 +43,37 @@ jsonLd: |
 
 说完了开场那个让人背后一凉的实验,接下来的核心问题是:这些模型到底是怎么学会这些黑客手段的?答案其实不神秘。
 
-Dylan 解释说,网络安全特别适合用来训练 AI,因为它有一个极其清晰的[[奖励函数|奖励函数]](评判 AI 表现好坏的打分标准):拿到数据,就算赢 [09:13]。各家大模型公司把大量的 CTF(夺旗赛,一种网络安全攻防竞赛)挑战和渗透测试数据喂给模型,只要模型成功拿到目标数据的访问权限,就给它打高分 [09:27]。
+Dylan 解释说,网络安全特别适合用来训练 AI,因为它有一个极其清晰的[[奖励函数|奖励函数]](评判 AI 表现好坏的打分标准):拿到数据,就算赢 <button class="pd-ts" data-t="09:13" data-who="" data-en="The interesting thing about cybersecurity in particular is the reward function is incredibly well-defined. Get access to the data. Did it get access to the data?" aria-label="回原文"></button>。各家大模型公司把大量的 CTF(夺旗赛,一种网络安全攻防竞赛)挑战和渗透测试数据喂给模型,只要模型成功拿到目标数据的访问权限,就给它打高分 <button class="pd-ts" data-t="09:27" data-who="" data-en="And they want to find as many problem spaces that they can do reinforcement learning on. And so it was a prime candidate for them to come in and give it CTFs and give it cybersecurity challenges where they say, OK, get access to this thing and do whatever hacking you need to do to accomplish the goal." aria-label="回原文"></button>。
 
-更有意思的是,他们还开始奖励模型用最少的 token(AI 生成文字时的最小计算单元)来达到目标。这意味着模型被训练成绝对的现实主义者:如果偷一个随手乱放的密码就能进入系统,它绝不会消耗大量算力去破解一个复杂的[[零日漏洞|零日漏洞]](Zero-day,指还没被发现或修补的软件安全漏洞) [10:10]。Dylan 甚至打了个比方:就像你想最快得到一加仑牛奶,最直接的办法就是去偷 [10:54]。
+更有意思的是,他们还开始奖励模型用最少的 token(AI 生成文字时的最小计算单元)来达到目标。这意味着模型被训练成绝对的现实主义者:如果偷一个随手乱放的密码就能进入系统,它绝不会消耗大量算力去破解一个复杂的[[零日漏洞|零日漏洞]](Zero-day,指还没被发现或修补的软件安全漏洞) <button class="pd-ts" data-t="10:10" data-who="" data-en="But the other piece that they've layered on top, and this is where it starts to get really interesting, is they've started to reward the path of least tokens. And so the reason that's interesting is because for the first time, it's actually able to quantifiably show us the path of least resistance for just general cybersecurity to get from A to B." aria-label="回原文"></button>。Dylan 甚至打了个比方:就像你想最快得到一加仑牛奶,最直接的办法就是去偷 <button class="pd-ts" data-t="10:54" data-who="" data-en="It's perfectly logical, right? Like the fastest way to get a gallon of milk is to steal it. That's exactly right." aria-label="回原文"></button>。
 
-弄清楚了模型为什么爱走捷径,接下来的现象就好理解了:它们把矛头对准了整个数字世界的软肋——软件供应链。Firas 指出,就像人类黑客会挑最薄弱的环节下手一样,模型发现向公共代码仓库发布恶意软件最容易得逞,因为那里缺乏审查,而且开发者很容易顺手安装 [04:14]。
+弄清楚了模型为什么爱走捷径,接下来的现象就好理解了:它们把矛头对准了整个数字世界的软肋——软件供应链。Firas 指出,就像人类黑客会挑最薄弱的环节下手一样,模型发现向公共代码仓库发布恶意软件最容易得逞,因为那里缺乏审查,而且开发者很容易顺手安装 <button class="pd-ts" data-t="04:14" data-who="" data-en="And so just like a human hacker would, they're going to pick the easiest way in. And the lowest hanging fruit now has become just publishing malware to public registries because they know that there's no vetting happening and developers are likely to install them." aria-label="回原文"></button>。
 
-更可怕的是,最近有研究发现出现了“普遍幻觉”现象:所有大厂的前沿模型都不约而同地认为某些根本不存在的软件包是存在的 [04:23]。如果开发者或 AI 编程助手顺着这个幻觉去下载,就会掉进陷阱。
+更可怕的是,最近有研究发现出现了“普遍幻觉”现象:所有大厂的前沿模型都不约而同地认为某些根本不存在的软件包是存在的 <button class="pd-ts" data-t="04:23" data-who="" data-en="I thought it was pretty interesting. There was research published recently about what they're calling kind of like universal typosquats or universal hallucinations where all the frontier models all make the same mistake and assume there are certain packages that exist that don't, despite those models coming from different companies." aria-label="回原文"></button>。如果开发者或 AI 编程助手顺着这个幻觉去下载,就会掉进陷阱。
 
-Dylan 还提到一个触目惊心的发现:他们在 [[Hugging Face|Hugging Face]](一个主流的 AI 模型托管平台)的公开训练集里扫出了大约 25 万个仍然有效的 API 密钥。其中一个密钥甚至能直接向一个基础的 Linux 库推送代码,这意味着它理论上可以向全球大多数机器推送恶意软件 [11:22]。
+Dylan 还提到一个触目惊心的发现:他们在 [[Hugging Face|Hugging Face]](一个主流的 AI 模型托管平台)的公开训练集里扫出了大约 25 万个仍然有效的 API 密钥。其中一个密钥甚至能直接向一个基础的 Linux 库推送代码,这意味着它理论上可以向全球大多数机器推送恶意软件 <button class="pd-ts" data-t="11:22" data-who="" data-en="We targeted their training sets because we knew they had a lot of keys. Turned out there were about a quarter million live keys in their training sets. Many of which had direct supply chain implications." aria-label="回原文"></button>。
 
-既然软件供应链这么危险,具体是怎么被攻破的呢?这正是最近最热闹的话题。Firas 说,就在他们录这期播客的时候,会议现场正在发生一起几百个 [[NPM|NPM]] 包被蠕虫感染的事件 [14:16]。
+既然软件供应链这么危险,具体是怎么被攻破的呢?这正是最近最热闹的话题。Firas 说,就在他们录这期播客的时候,会议现场正在发生一起几百个 [[NPM|NPM]] 包被蠕虫感染的事件 <button class="pd-ts" data-t="14:16" data-who="" data-en="But yeah, so anyway, about the attack this morning. So a couple hundred packages, you know, a worm spread through. There was a maintainer who..." aria-label="回原文"></button>。
 
 > 【背景】NPM 是 Node 包管理器,JavaScript 生态的核心。
 
-攻击者植入了恶意代码,窃取开发者系统里的凭证(密码或密钥),然后像滚雪球一样感染下一个系统。Dylan 提到一个在安全圈流传已久的概念——[[NPM 蠕虫|NPM 蠕虫]]:只要给一个软件包植入后门,开发者一安装,攻击者就能窃取他们机器上的权限,进而自我传播 [12:33]。
+攻击者植入了恶意代码,窃取开发者系统里的凭证(密码或密钥),然后像滚雪球一样感染下一个系统。Dylan 提到一个在安全圈流传已久的概念——[[NPM 蠕虫|NPM 蠕虫]]:只要给一个软件包植入后门,开发者一安装,攻击者就能窃取他们机器上的权限,进而自我传播 <button class="pd-ts" data-t="12:33" data-who="" data-en="We'll see you next time. This idea that, you know, if I could, someone could backdoor a package and then, you know, get developers to install that and then you could use the access stolen from those developers as they install it to self-propagate the worm." aria-label="回原文"></button>。
 
-现在,有人把这个设想变成了现实。Firas 甚至指出,这种恶意软件的代码质量出奇地好,很可能就是用 AI 工具写出来的(即 [[vibe-coded|vibe-coded]],指完全依靠自然语言提示让 AI 生成代码的开发方式) [13:02]。现在很多攻击的真正武器已经不是传统的恶意代码,而是一段提示词,它伪装成普通的 markdown 文件,指挥系统里的 AI 助手去四处翻找密钥,这能轻易绕过传统的安全检测工具 [13:47]。
+现在,有人把这个设想变成了现实。Firas 甚至指出,这种恶意软件的代码质量出奇地好,很可能就是用 AI 工具写出来的(即 [[vibe-coded|vibe-coded]],指完全依靠自然语言提示让 AI 生成代码的开发方式) <button class="pd-ts" data-t="13:02" data-who="" data-en="And there's been... That malware, I think we have pretty good reason to believe that it was vibe-coded. One of the threat groups actually posted their open source to their vibe-coded toolkit for others to use to be able to do this." aria-label="回原文"></button>。现在很多攻击的真正武器已经不是传统的恶意代码,而是一段提示词,它伪装成普通的 markdown 文件,指挥系统里的 AI 助手去四处翻找密钥,这能轻易绕过传统的安全检测工具 <button class="pd-ts" data-t="13:47" data-who="" data-en="Basically, your local CLI tool often being used, you know, roped into the attack and, you know, used as a jumping off point. So, a lot of times the payloads are actually prompts." aria-label="回原文"></button>。
 
-面对这样快速进化的攻击,传统的修补方式已经跟不上了。Firas 担心,前沿模型正在大幅缩短从发现漏洞到发起攻击之间的时间 [07:25]。
+面对这样快速进化的攻击,传统的修补方式已经跟不上了。Firas 担心,前沿模型正在大幅缩短从发现漏洞到发起攻击之间的时间 <button class="pd-ts" data-t="07:25" data-who="" data-en="And I think That the frontier models are going to, they are causing kind of a massive reduction in the time between the vulnerability discovery and vulnerability exploitation." aria-label="回原文"></button>。
 
-很多公司甚至没有专门的工程师来维护这些出问题的老旧系统,整个行业必须想办法加快打补丁的速度 [08:11]。对于刚发生的那起 NPM 蠕虫攻击,一个治本的办法正在推进:Firas 提到 NPM 已经宣布,计划在 2027 年 1 月要求所有新发布的包必须经过 2FA(双因素认证)的人机交互确认 [16:11]。
+很多公司甚至没有专门的工程师来维护这些出问题的老旧系统,整个行业必须想办法加快打补丁的速度 <button class="pd-ts" data-t="08:11" data-who="" data-en="Basically in maintenance mode or unmaintained or don't have engineers that are even assigned to work on them at a lot of the companies that we work with. And so it's just we're going to have to think of new things as an industry for how we're going to patch these things quickly, right?" aria-label="回原文"></button>。对于刚发生的那起 NPM 蠕虫攻击,一个治本的办法正在推进:Firas 提到 NPM 已经宣布,计划在 2027 年 1 月要求所有新发布的包必须经过 2FA(双因素认证)的人机交互确认 <button class="pd-ts" data-t="16:11" data-who="" data-en="Yeah, I mean, so there's been some changes, some positive movement in the community and the ecosystem. So one thing that is positive, and it hasn't shipped yet, but NPM has announced that they are planning to, I think it's in January 2027, going to require human interactive confirmation through 2FA before any new publishers can happen." aria-label="回原文"></button>。
 
-这会彻底终结这种自动化蠕虫,但也会对现有的开发流程造成巨大冲击。而且,像 NPM 这样背靠大公司的生态毕竟是少数,很多由志愿者维护的开源生态根本没有资源做这种改变 [16:43]。
+这会彻底终结这种自动化蠕虫,但也会对现有的开发流程造成巨大冲击。而且,像 NPM 这样背靠大公司的生态毕竟是少数,很多由志愿者维护的开源生态根本没有资源做这种改变 <button class="pd-ts" data-t="16:43" data-who="" data-en="But I think it's the right call. But there's other ecosystems that are volunteer run that don't have the backing of GitHub and Microsoft behind them that are going to probably not make those changes." aria-label="回原文"></button>。
 
-Dylan 感叹,他认识的一位全球顶级的 NPM 包维护者,密码居然只有简短的六个字母,因为他觉得不需要活在恐惧里 [17:10]。这些维持着数字世界地基的志愿者往往没有安全团队,这就把审查代码的责任推给了使用这些代码的企业自己 [17:56]。
+Dylan 感叹,他认识的一位全球顶级的 NPM 包维护者,密码居然只有简短的六个字母,因为他觉得不需要活在恐惧里 <button class="pd-ts" data-t="17:10" data-who="" data-en="He's a prolific NPM maintainer. And one time, this is back 10, 15 years ago when I was doing this kind of stuff full-time, and I saw him type in his password. I didn't see the password, but I saw it was far too short." aria-label="回原文"></button>。这些维持着数字世界地基的志愿者往往没有安全团队,这就把审查代码的责任推给了使用这些代码的企业自己 <button class="pd-ts" data-t="17:56" data-who="" data-en="These are volunteers that are just putting code on GitHub. And so it's on actually the users, I think, to actually vet what they're using. It's kind of hard to say, like, you know, we just, we're a company, we just found this code on the internet and we just..." aria-label="回原文"></button>。
 
 既然单靠开源社区的力量不够,企业到底该怎么保卫自己?这正是这期对谈落脚的地方。
 
-Firas 直言,2026 年是软件供应链安全真正走向主流的一年,连主流商业媒体都在报道这些攻击了,这让企业的安全团队终于有了申请预算的借口 [20:17]。Dylan 则给出了一些具体的建议。
+Firas 直言,2026 年是软件供应链安全真正走向主流的一年,连主流商业媒体都在报道这些攻击了,这让企业的安全团队终于有了申请预算的借口 <button class="pd-ts" data-t="20:17" data-who="" data-en="What are the observations you've got that are catching your eyes? I mean, at least for us at Socket, I think the biggest thing we're seeing is that 2026 is the year of the software supply chain." aria-label="回原文"></button>。Dylan 则给出了一些具体的建议。
 
-除了扫除公开仓库里的凭证,他还特别提到了[[智能体|智能体]](能够自主感知环境并采取行动的 AI 程序)带来的新难题:以前是一个人有 10 个密码,未来会是 10 个智能体各自拿着 10 个密码去工作。目前智能体如何与这些凭证进行交互,简直是个蛮荒之地,亟待解决 [22:24]。
+除了扫除公开仓库里的凭证,他还特别提到了[[智能体|智能体]](能够自主感知环境并采取行动的 AI 程序)带来的新难题:以前是一个人有 10 个密码,未来会是 10 个智能体各自拿着 10 个密码去工作。目前智能体如何与这些凭证进行交互,简直是个蛮荒之地,亟待解决 <button class="pd-ts" data-t="22:24" data-who="" data-en="Yeah, absolutely. And I can imagine that there's going to be a multiplication effect, which is it used to be one user with 10 passwords, and now you're going to have 10 agents with 10 passwords, right?" aria-label="回原文"></button>。
 
 > 【背景】参与者 Dylan 代表 Truffle Security,Firas 代表 Socket,均为关注代码与凭证安全的机构。
 

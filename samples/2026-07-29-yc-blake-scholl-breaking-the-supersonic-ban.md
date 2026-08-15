@@ -47,57 +47,57 @@ jsonLd: |
 
 那音爆有多可怕?飞机突破音速时产生的冲击波打到地面,听起来就像头顶上空不断炸响的雷声。
 
-怎么把音爆消掉,是困扰了航空界几十年的难题。Blake 和团队造的 XB-1 原型机,在两次飞行中六次突破音障,地面完全没有听到音爆 [09:48]。
+怎么把音爆消掉,是困扰了航空界几十年的难题。Blake 和团队造的 XB-1 原型机,在两次飞行中六次突破音障,地面完全没有听到音爆 <button class="pd-ts" data-t="09:48" data-who="" data-en="XB-1 broke the sound barrier on two flights, six times through the sound barrier. Each time, no audible sonic boom on the ground. we actually demonstrated a principle that had been talked about for a long time called Mach Cutoff, where if you break the sound barrier at a sufficiently high altitude and at the right speed for the current weather, the sonic boom actually makes a U-turn in the sky and never touches the ground." aria-label="回原文"></button>。
 
 他们证明了早就被讨论过的「[[马赫切断|马赫切断]]」(Mach Cutoff)原理:如果在足够高的高度、以适合当前天气的正确速度突破音障,音爆会在空中掉头,根本碰不到地面。这让那个「多安静才算足够安静」的长期争议直接失效了——如果没有音爆,就没什么可吵的了。
 
-突破音障后 24 小时,他们受邀去了白宫西翼;115 天后,一项行政命令让超音速飞行在美国重新合法化 [10:34]。他说,人们常觉得在受监管的行业里创业很傻,但事实证明你可以改变法规——方法就是直接把东西造出来,并告诉大家为什么它是安全的。之后,众议院和参议院相继提出法案,要让这项合法化永久化。
+突破音障后 24 小时,他们受邀去了白宫西翼;115 天后,一项行政命令让超音速飞行在美国重新合法化 <button class="pd-ts" data-t="10:34" data-who="" data-en="And so it was about 24 hours from breaking the sound barrier to be invited to the West Wing. and 115 days from breaking the sound barrier to an executive order making supersonic flight legal again in the US." aria-label="回原文"></button>。他说,人们常觉得在受监管的行业里创业很傻,但事实证明你可以改变法规——方法就是直接把东西造出来,并告诉大家为什么它是安全的。之后,众议院和参议院相继提出法案,要让这项合法化永久化。
 
-解决了法规问题,接下来的核心话题是:一件过去只有拥有巨额预算的政府和军方才能做到的事,一家初创公司是怎么做到的?答案是让硬件开发看起来更像软件开发 [12:34]。
+解决了法规问题,接下来的核心话题是:一件过去只有拥有巨额预算的政府和军方才能做到的事,一家初创公司是怎么做到的?答案是让硬件开发看起来更像软件开发 <button class="pd-ts" data-t="12:34" data-who="" data-en="So how is it that something that used to take billions of dollars and thousands of people was suddenly done by a small team with a comparatively small budget? The key thing is to make hardware development look more like software development, to reduce the cost of iteration, both in the world of bits and in the world of atoms." aria-label="回原文"></button>。
 
 Blake 解释说,优秀的软件是模块化的,你改了这边的代码,不影响那边;但飞机是高度集成的系统,加一排座位,机身变重,发动机得换更强的,机翼要重设计,一切都得跟着变。传统上,各个专业的工程师各自在 Excel 表格里做分析,然后互相传结果,迭代极其缓慢。
 
-为了打破这个瓶颈,他们开发了一个叫 [[MakeBoom|MakeBoom]] 的内部系统,可以让你在配置文件里直接定义一架飞机,然后跑一个脚本做全机模拟。几分钟内你就能知道这架飞机能飞多远、烧多少油、装多少人 [14:21]。
+为了打破这个瓶颈,他们开发了一个叫 [[MakeBoom|MakeBoom]] 的内部系统,可以让你在配置文件里直接定义一架飞机,然后跑一个脚本做全机模拟。几分钟内你就能知道这架飞机能飞多远、烧多少油、装多少人 <button class="pd-ts" data-t="14:21" data-who="" data-en="And then you can run a script that does a whole aircraft simulation. And in just a few minutes, you can have a good idea of how well your design performed. How far could it fly?" aria-label="回原文"></button>。
 
-这让他们能在数字世界里评估无数种设计方案,最终锁定真正该造的那一架。他们还用同样的思路设计发动机引擎,开发了 [[Blade Runner|Blade Runner]] 工具,只要几个工程师就能实时更改一个引擎叶片的设计,并立刻看到它的结构和气动表现——以前这要几十个工程师干好几个月 [15:26]。
+这让他们能在数字世界里评估无数种设计方案,最终锁定真正该造的那一架。他们还用同样的思路设计发动机引擎,开发了 [[Blade Runner|Blade Runner]] 工具,只要几个工程师就能实时更改一个引擎叶片的设计,并立刻看到它的结构和气动表现——以前这要几十个工程师干好几个月 <button class="pd-ts" data-t="15:26" data-who="" data-en="And Blade Runner allows us, with really just a couple engineers, to change a blade design in real time and see exactly how it's going to behave structurally and aerodynamically." aria-label="回原文"></button>。
 
-有了数字世界的迭代还不够,他们还自己建了机加工车间。他直言不讳地说,跟外部航空供应商合作极其痛苦。现在,他们能在大约 24 小时内,把一个数字设计的引擎部件变成原型部件,这在 GE 或波音都是做不到的 [16:12]。
+有了数字世界的迭代还不够,他们还自己建了机加工车间。他直言不讳地说,跟外部航空供应商合作极其痛苦。现在,他们能在大约 24 小时内,把一个数字设计的引擎部件变成原型部件,这在 GE 或波音都是做不到的 <button class="pd-ts" data-t="16:12" data-who="" data-en="And now we can go from a digitally designed engine part to a prototype part in about 24 hours. This is our R&amp;D shop in Denver. This is a room that does not exist at GE or Rolls-Royce or Boeing or any other large aerospace company." aria-label="回原文"></button>。
 
 做法有了,工具也变了,接下来的问题是:钱从哪来?造一架客机要几十亿美元研发资金,而且极难预测到底要烧多久,这对融资是个巨大的噩梦。
 
-Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定自己垂直整合推进系统(自己造引擎),他们能够把为超音速飞行设计的引擎,拆出来当成地面天然气发电的涡轮机单独卖,他们管这个产品叫 Superpower [18:06]。
+Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定自己垂直整合推进系统(自己造引擎),他们能够把为超音速飞行设计的引擎,拆出来当成地面天然气发电的涡轮机单独卖,他们管这个产品叫 Superpower <button class="pd-ts" data-t="18:06" data-who="" data-en="But we discovered along the way that because we had made a choice to vertically integrate our own propulsion, we were able to take the engine that we were building for supersonic flight and sell it separately on the ground as a natural gas power turbine." aria-label="回原文"></button>。
 
 这种发动机可以在没有飞机的情况下单独交付给客户。这不仅产生了他们急需的现金流,还顺带积累了真实运行的测试数据、可靠性和工程经验——这些都是在迈向大规模生产时不可或缺的。第一台 Superpower 涡轮机目前正在建造中,不到一年就会交付给第一个客户。
 
-讲完了怎么造飞机、怎么搞钱,接下来是对话里最反直觉的一个观点,也是 Blake 认为差点阻止他创立这家公司的错误信条:很多人相信,每项技术都是在历史上最早可能被发明出来的时刻被发明的 [20:14]。投资人会问创业者「为什么是现在?
+讲完了怎么造飞机、怎么搞钱,接下来是对话里最反直觉的一个观点,也是 Blake 认为差点阻止他创立这家公司的错误信条:很多人相信,每项技术都是在历史上最早可能被发明出来的时刻被发明的 <button class="pd-ts" data-t="20:14" data-who="" data-en="But there was one false belief that almost stopped me from founding Boom. You tend to get told that every technology gets created kind of at the earliest moment of history that it could be." aria-label="回原文"></button>。投资人会问创业者「为什么是现在?
 
 」,如果你觉得这个点子很好却没人在做,那可能点子本身有问题。但 Blake 认为,世界上有大量显而易见、早就可行、价值数十亿甚至数万亿美元的机会,没人在做的原因仅仅是「没人去做」。
 
 超音速飞行的技术其实比 Boom 创立早很多年就已经存在了,这家公司完全可以在 10 年前就创立,只是没人动手。所以他的建议是:选一个你想解决的问题,不要太担心「为什么是现在」,答案可以是「因为我现在开始了」。
 
-问答环节聊到了对中国制造业竞争的看法。Blake 觉得美国绝对能赢,但绝不能靠把流失的制造业原封不动搬回来——你不能在中国的强项上击败中国 [22:04]。
+问答环节聊到了对中国制造业竞争的看法。Blake 觉得美国绝对能赢,但绝不能靠把流失的制造业原封不动搬回来——你不能在中国的强项上击败中国 <button class="pd-ts" data-t="22:04" data-who="" data-en="the manufacturing that left the US. You don't beat China at its own game. What you do is invent the future, invent the next wave of manufacturing and build that here." aria-label="回原文"></button>。
 
 他指出中国掏空美国制造业的一个关键,是吸走了美国的模具工业。造硬件需要定制精密模具,比如造碳纤维机翼,你得有个跟机翼一样大的模具;在美国已经很难找到模具工程师了,但在中国随便扔个棒球都能砸中一个。
 
-所以他们在 Boom 想的不是怎么造更好的模具,而是怎么彻底消灭模具。比如对于涡轮叶片,他们正在做全数字化制造,完全不用模具,24 小时就能从数字设计变成世界上最先进的叶片 [23:29]。他认为,在劳动力成本或者模具工业规模上跟中国比拼是没有出路的,美国的赢法是发明下一代制造业并把它规模化,因为美国最擅长的仍然是发明、自由和创新。
+所以他们在 Boom 想的不是怎么造更好的模具,而是怎么彻底消灭模具。比如对于涡轮叶片,他们正在做全数字化制造,完全不用模具,24 小时就能从数字设计变成世界上最先进的叶片 <button class="pd-ts" data-t="23:29" data-who="" data-en="So a lot of what we're doing at Boom is trying to figure out how to get rid of the tooling entirely. For example, for our turbine blades, we're working in an all-digital manufacturing process that will let us go in 24 hours from a digital design to the most advanced turbine blade in the world with absolutely no tooling." aria-label="回原文"></button>。他认为,在劳动力成本或者模具工业规模上跟中国比拼是没有出路的,美国的赢法是发明下一代制造业并把它规模化,因为美国最擅长的仍然是发明、自由和创新。
 
 接下来讨论的是 AI 怎么改变了物理世界的建设。Blake 说,AI 大幅降低了软件开发的成本。
 
 早年在亚马逊,他看到他们自己写后端、仓库和送货卡车的软件,这对亚马逊成为电商赢家至关重要,因为软件完全贴合业务需求,但以前只有大公司才养得起这么多软件团队。现在 AI 降低了开发成本,小公司也能拥有为自己量身定制的软件工具。
 
-更重要的是,AI 让任何使用者都能变成工具的创造者。不过他觉得目前还缺一个关键环节:真正的「物理世界 AI」还没出现,比如给数控机床(CNC,一种通过程序控制刀具加工金属的机器)编程仍然非常依赖手动操作,尽管大家都在推销工业自动化 AI,但真正有效的东西还很少 [26:05]。
+更重要的是,AI 让任何使用者都能变成工具的创造者。不过他觉得目前还缺一个关键环节:真正的「物理世界 AI」还没出现,比如给数控机床(CNC,一种通过程序控制刀具加工金属的机器)编程仍然非常依赖手动操作,尽管大家都在推销工业自动化 AI,但真正有效的东西还很少 <button class="pd-ts" data-t="26:05" data-who="" data-en="Like programming a CNC machine is still an incredibly manual task. And despite lots of pitches about AI for industrial automation, we haven't yet seen much that works." aria-label="回原文"></button>。
 
 聊完了行业趋势,接下来是他给个人的建议。当被问及招聘看中什么时,他说,历史上最后一家由企业家创立并成功造出商用客机的公司,还是 1921 年的道格拉斯飞机公司。
 
 这个行业很久没出现过创业公司了,充斥着波音、洛克希德这样文化极其糟糕的老牌巨头。所以他非常看重那些年轻、有野心、还没被老牌公司文化摧毁的早期人才,尤其是亲自动手做过东西的人。
 
-他甚至觉得「硬件领域经验为王」这句话,根本就是那些又大又蠢的公司里的老人们编造的谎言 [42:55]。Boom 内部有一条规矩:年轻工程师去做别人做过的事是可以的,但只要这件事世界上有人做过,你就必须打电话去问问那个人,听听建议——你可以不采纳,但你必须去听 [43:56]。
+他甚至觉得「硬件领域经验为王」这句话,根本就是那些又大又蠢的公司里的老人们编造的谎言 <button class="pd-ts" data-t="42:55" data-who="" data-en="In hardware, experience wins. This is one of these lies told by old people at big, dumb companies, and it's just not true. And by the way, all those people suck." aria-label="回原文"></button>。Boom 内部有一条规矩:年轻工程师去做别人做过的事是可以的,但只要这件事世界上有人做过,你就必须打电话去问问那个人,听听建议——你可以不采纳,但你必须去听 <button class="pd-ts" data-t="43:56" data-who="" data-en="But if somebody has done it before in the world, our rule is you have to go find one of those people, call them, and ask them your advice. You don't have to take it." aria-label="回原文"></button>。
 
 这对应了他关于自信的看法。他说自己第一天根本没有造超音速飞机的自信,简历也完全不够格,朋友们听到这个想法都觉得荒谬。
 
-他崇拜乔布斯和比尔·盖茨,意识到没人会从天而降拍拍你的肩膀给你许可。自信是靠停止担心「我能不能做到」,把所有精力放在「怎么做到」上,慢慢攒出来的 [37:41]。
+他崇拜乔布斯和比尔·盖茨,意识到没人会从天而降拍拍你的肩膀给你许可。自信是靠停止担心「我能不能做到」,把所有精力放在「怎么做到」上,慢慢攒出来的 <button class="pd-ts" data-t="37:41" data-who="" data-en="And a thing I came to believe was that the only way to know what I was capable of was to pick something that I work really hard at and give it everything I got." aria-label="回原文"></button>。
 
-他对 AI 时代的职业选择同样态度鲜明:他不认同软件工程已死的说法。正因为开发成本下降了,非软件人员(包括硬件工程师)都能写代码了,反而需要更多懂软件架构的人来保证系统的合理性,所以 Boom 在 AI 时代比以前更需要软件工程师 [41:40]。
+他对 AI 时代的职业选择同样态度鲜明:他不认同软件工程已死的说法。正因为开发成本下降了,非软件人员(包括硬件工程师)都能写代码了,反而需要更多懂软件架构的人来保证系统的合理性,所以 Boom 在 AI 时代比以前更需要软件工程师 <button class="pd-ts" data-t="41:40" data-who="" data-en="At Boom, we need far more software engineers in a post-AI world than we need in a pre-AI world. Why? Because the cost of software development has dropped." aria-label="回原文"></button>。
 
 ## 本集带走
 
