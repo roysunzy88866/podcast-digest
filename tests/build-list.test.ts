@@ -750,14 +750,15 @@ describe("C26 · 订阅入口(用户 2026-08-16:PC 主页侧边栏)", () => {
   const md = renderList([ep()], opts);
   const block = scriptBlock();
 
-  it("★★★ 『我的收藏』+『订阅更新』同在底部工具区(.pd-util),排全部主题之后、关于本站之前(用户 2026-08-16)", () => {
+  it("★★★ 『我的收藏』+『Agent/RSS』同在底部工具区(.pd-util),排全部主题之后、关于本站之前(用户 2026-08-16)", () => {
     expect(md).toContain('class="pd-subscribe"');
     expect(md).toContain('class="pd-util"');
-    expect(md).toContain("订阅更新");
-    const iAll = md.indexOf("全部主题");
-    const iFav = md.indexOf("我的收藏");
-    const iSub = md.indexOf("订阅更新");
-    const iAbout = md.indexOf("关于本站");
+    expect(md).toContain("Agent/RSS"); // 入口按钮名(2026-08-16 用户:订阅更新→Agent/RSS)
+    // 用 class 位置断言顺序(比找中文文案稳:文案可能在弹层脚本里也出现)
+    const iAll = md.indexOf('全部主题');
+    const iFav = md.indexOf('class="pd-myfav"');
+    const iSub = md.indexOf('class="pd-subscribe"');
+    const iAbout = md.indexOf('class="about"');
     expect(iAll).toBeGreaterThanOrEqual(0);
     expect(iFav).toBeGreaterThan(iAll); // 收藏挪到主题列表之后
     expect(iSub).toBeGreaterThan(iFav); // 订阅紧跟收藏,同级

@@ -73,11 +73,12 @@ export function buildItem(ep) {
  */
 export function buildFeedXml(episodes, siteMeta = {}) {
   const meta = {
-    title: siteMeta.title ?? "英文播客中文精华",
+    title: siteMeta.title ?? "跨国深谈",
     link: siteMeta.link ?? "",
     description: siteMeta.description ?? "英文科技播客的中文精华配音",
     language: siteMeta.language ?? "zh-CN",
     author: siteMeta.author ?? "",
+    image: siteMeta.image ?? "", // 播客封面(方图);缺则不写 itunes:image
   };
   const items = (episodes ?? []).filter(hasAudio).map(buildItem).join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -87,7 +88,11 @@ export function buildFeedXml(episodes, siteMeta = {}) {
     <link>${xmlEscape(meta.link)}</link>
     <description>${xmlEscape(meta.description)}</description>
     <language>${xmlEscape(meta.language)}</language>
-    <itunes:author>${xmlEscape(meta.author)}</itunes:author>
+    <itunes:author>${xmlEscape(meta.author)}</itunes:author>${
+    meta.image
+      ? `\n    <itunes:image href="${xmlEscape(meta.image)}" />\n    <image><url>${xmlEscape(meta.image)}</url><title>${xmlEscape(meta.title)}</title><link>${xmlEscape(meta.link)}</link></image>`
+      : ""
+  }
 ${items}
   </channel>
 </rss>
@@ -178,7 +183,13 @@ if (isMain) {
       link: meta.source_url,
     });
   }
-  const xml = buildFeedXml(episodes, { title: "英文播客中文精华", link: SITE_URL, description: "英文科技播客的中文精华配音(纯中文短音频)" });
+  const xml = buildFeedXml(episodes, {
+    title: "跨国深谈",
+    link: SITE_URL,
+    description: "把英文播客与演讲里最值钱的观点,提炼成几分钟读完的中文精华(纯中文配音)。",
+    author: "跨国深谈",
+    image: `${SITE_URL}/podcast-cover.png`,
+  });
   const outIdx = process.argv.indexOf("--out");
   if (outIdx >= 0 && process.argv[outIdx + 1]) {
     const { writeFileSync } = await import("node:fs");

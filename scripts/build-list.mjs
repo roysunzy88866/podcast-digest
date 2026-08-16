@@ -155,7 +155,7 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
     ${rows}
     <div class="pd-util">
     <button class="pd-myfav" type="button"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><span>我的收藏</span><i></i></button>
-    <button class="pd-subscribe" type="button"><svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a6 6 0 0 1 6 6"/><path d="M4 4.5a11.5 11.5 0 0 1 11.5 11.5"/><circle cx="4.6" cy="15.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>订阅更新</span></button>
+    <button class="pd-subscribe" type="button"><svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a6 6 0 0 1 6 6"/><path d="M4 4.5a11.5 11.5 0 0 1 11.5 11.5"/><circle cx="4.6" cy="15.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>Agent/RSS</span></button>
     </div>
     <div class="pd-themesw"></div>
     <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
