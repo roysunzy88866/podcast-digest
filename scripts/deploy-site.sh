@@ -74,7 +74,9 @@ for f in ../assets/logos/*.png; do
 done
 echo "public/logos png=$(ls public/logos/*.png 2>/dev/null | wc -l | tr -d ' ')"
 # 3.4) 播客封面进站点根 /podcast-cover.png(feed.xml 的 itunes:image 指向它;SOLO 站标方图,用户 2026-08-16)
-cp ../assets/podcast-cover.png public/podcast-cover.png && echo "public/podcast-cover.png ✔"
+# 裸 cp(不接 && echo):set -e 下缺图即中断部署,不让 feed 挂着指向 404 封面静默上线(GLM 011)。
+cp ../assets/podcast-cover.png public/podcast-cover.png
+echo "public/podcast-cover.png ✔"
 # 3.5) 私有播客 feed 随站点部署(drift #29:此步原缺 → feed.xml 不进 public/、
 #      Quartz 只出自家 index.xml,线上 /feed.xml 源头 404、订阅端只剩 CDN 幽灵)。
 #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。
