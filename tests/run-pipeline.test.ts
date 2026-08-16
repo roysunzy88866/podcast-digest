@@ -1,7 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -194,6 +194,25 @@ describe("needsReseed · 按源基线防呆(C9 重构,覆盖旧换源防呆)", (
   it("空 state → 逼 seed(无基线拒跑全 backlog,drift #22 并入此判)", () => {
     expect(needsReseed({ cutoffs: {} }, "lennys")).toBe(true);
     expect(needsReseed({}, "lennys")).toBe(true);
+  });
+});
+
+describe("advanceCutoffGuarded · cutoff 只进不退(drift #54:lennys 被 backfill 退回冻死漏集)", () => {
+  it("★★★ advanced 早于现 cutoff → 保留现值(拦下回退)", () => {
+    // 实锤场景:cutoff 已到 08-10,一次 backfill 读 archive 算出 07-19 → 不许退回
+    expect(advanceCutoffGuarded("2026-08-10T12:01:44.000Z", "2026-07-19T12:31:21.000Z")).toBe("2026-08-10T12:01:44.000Z");
+  });
+  it("★★★ advanced 晚于现 cutoff → 正常前进", () => {
+    expect(advanceCutoffGuarded("2026-08-10T12:01:44.000Z", "2026-08-15T17:01:13.000Z")).toBe("2026-08-15T17:01:13.000Z");
+  });
+  it("★ 首次(无 prev)→ 直接用 advanced", () => {
+    expect(advanceCutoffGuarded(undefined, "2026-08-11T00:00:00.000Z")).toBe("2026-08-11T00:00:00.000Z");
+  });
+  it("★ advanced 缺失 → 不动现值(收尾理论上有值,防御)", () => {
+    expect(advanceCutoffGuarded("2026-08-10T12:01:44.000Z", undefined)).toBe("2026-08-10T12:01:44.000Z");
+  });
+  it("★ 相等 → 保持不变", () => {
+    expect(advanceCutoffGuarded("2026-08-10T12:01:44.000Z", "2026-08-10T12:01:44.000Z")).toBe("2026-08-10T12:01:44.000Z");
   });
 });
 

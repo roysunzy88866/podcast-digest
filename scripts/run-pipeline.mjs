@@ -369,6 +369,17 @@ export function applySeed(state, sourceKey, newestISO) {
   return true;
 }
 
+/**
+ * cutoff 只进不退护栏(drift #54)。收尾推进 cutoff 时,advanced 可能早于现 cutoff ——
+ * backfill 读 archive(archive 最新集早于现 cutoff)、或某轮 feed 取回陈旧/截断数据时都会发生;
+ * 若不拦就把已前进的 cutoff 冻回去(lennys 实证:被 backfill 退 08-10→07-19,冻住漏掉 08-11/08-15)。
+ * 时间戳是可字典序比较的 ISO;prev 缺失(首次)则直接用 advanced。
+ */
+export function advanceCutoffGuarded(prev, advanced) {
+  if (!advanced) return prev; // 没算出新值就别动(理论上收尾处 picks 非空,advanced 必有)
+  return prev && prev > advanced ? prev : advanced;
+}
+
 // ── 副作用层 ────────────────────────────────────────────
 
 function readState() {
@@ -1180,8 +1191,11 @@ async function processSource(source, state, { backfillN, dryRun }) {
     // 回填后 cutoff 推到 feed 最新访谈(不只本批最新)→ 之后 cron 只向前看不重扣;selectNew 的 seen 去重再兜一层
     const newestFeed = interviews.map((i) => i.pubDateISO).sort().at(-1);
     const newestPick = picks.map((p) => p.pubDateISO).sort().at(-1);
-    state.cutoffs[source.key] = backfillN > 0 ? (newestFeed > newestPick ? newestFeed : newestPick) : newestPick;
-    console.log(`${source.key} cutoff 推进到 ${state.cutoffs[source.key]}。`);
+    const advanced = backfillN > 0 ? (newestFeed > newestPick ? newestFeed : newestPick) : newestPick;
+    const prev = state.cutoffs[source.key];
+    state.cutoffs[source.key] = advanceCutoffGuarded(prev, advanced);
+    const held = state.cutoffs[source.key] !== advanced;
+    console.log(`${source.key} cutoff 推进到 ${state.cutoffs[source.key]}${held ? `(护栏:拦下回退到 ${advanced})` : ""}。`);
   }
   writeState(state); // 始终落盘:持久化 skipped 账本(即便 cutoff 没推进)
   return { clean: clean.length, skipped: skipped.length };
