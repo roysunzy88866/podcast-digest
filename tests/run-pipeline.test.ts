@@ -1,7 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, relayFeedUrl, FEED_RELAY } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -239,6 +239,20 @@ describe("cacheBustFeedUrl · 加一次性暗号绕开 CDN 陈旧 feed(drift #55
     const a = cacheBustFeedUrl("https://www.lennysnewsletter.com/feed", 1);
     const b = cacheBustFeedUrl("https://www.lennysnewsletter.com/feed", 2);
     expect(a).not.toBe(b);
+  });
+});
+
+describe("relayFeedUrl / lennys relay · 经 CF Worker 中转治 Substack 陈旧 feed(drift #55,cache-buster 无效后的正解)", () => {
+  it("★ 包一层 feed-relay Worker,原 URL 编码进 ?url=", () => {
+    expect(relayFeedUrl("https://www.lennysnewsletter.com/feed")).toBe(
+      FEED_RELAY + "https%3A%2F%2Fwww.lennysnewsletter.com%2Ffeed",
+    );
+  });
+  it("★ lennys 源标 relay:true(经中转);非 Substack 源不标(直抓即新鲜)", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    expect(by.lennys?.relay).toBe(true);
+    expect(by.a16z?.relay).toBeUndefined();
+    expect(by.beyondcoding?.relay).toBeUndefined();
   });
 });
 

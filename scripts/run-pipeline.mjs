@@ -27,7 +27,8 @@ export const SOURCES = [
   //   为何 vendored:api.substack 全 353 集 RSS 对 runner 403 封 IP;www archive JSON 只返文本 newsletter、无播客集。
   //   两条云端路都拿不到播客历史 → 本机 curl(走代理 200)拉 353 集列表存进仓,runner 读列表 + 逐集抓集页(集页 runner 可达)。
   //   刷新:本机重跑 tools/refresh-archive(或 curl api.substack RSS→parseFeed→写此文件)。历史集不变,新集靠 cron 走 www RSS。
-  { key: "lennys", name: "Lenny's Podcast", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json" },
+  // relay:true → 经 feed-relay CF Worker 中转抓 feed(drift #55:Substack 按 runner IP 喂陈旧,cache-buster 无效)。
+  { key: "lennys", name: "Lenny's Podcast", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json", relay: true },
   // C9:a16z 无官方稿(单集页实测 0 处 transcript)→ asr:"whisperx"(processEpisode 直走 whisperX,
   // 免费 Actions runner 转写,P1 已核验 run 30075152246)。只向前看,历史回填由用户点名(品味边界,Gherkin Scenario 3)。
   { key: "a16z", name: "The a16z Show", feedUrl: "https://feeds.simplecast.com/JGE3yC0V", asr: "whisperx" },
@@ -419,9 +420,17 @@ export function cacheBustFeedUrl(feedUrl, nonce) {
   return u.toString();
 }
 
-async function fetchFeed(feedUrl) {
-  // cache-buster + no-cache 双保险:逼 CDN 每轮回源取最新 feed(drift #55)
-  const url = cacheBustFeedUrl(feedUrl, Date.now());
+/** Substack 按 runner IP 喂陈旧 feed(drift #55,cache-buster 无效=验证 run 31936505062)→
+ *  包一层 CF Worker 中转(feed-relay,从 CF IP 抓、cf.cacheTtl:0 强制回源;实测拿到新鲜 08-15)。
+ *  只对 SOURCES 标 relay:true 的源(现=lennys)生效。纯函数便于测试。 */
+export const FEED_RELAY = "https://feed-relay.roysunzy.workers.dev/?url=";
+export function relayFeedUrl(feedUrl) {
+  return FEED_RELAY + encodeURIComponent(feedUrl);
+}
+
+async function fetchFeed(feedUrl, { relay = false } = {}) {
+  // relay 源走 CF Worker 中转(治 Substack 陈旧);其余源走 cache-buster + no-cache(drift #55)
+  const url = relay ? relayFeedUrl(feedUrl) : cacheBustFeedUrl(feedUrl, Date.now());
   const res = await fetch(url, {
     redirect: "follow",
     headers: { ...BROWSER_HEADERS, "Cache-Control": "no-cache", Pragma: "no-cache" },
@@ -692,7 +701,7 @@ async function main() {
         console.log(`ℹ️ ${source.key} 是种子驱动源(无 feed/cutoff 概念),--seed 不适用,跳过。`);
         continue;
       }
-      const items = parseFeed(await fetchFeed(source.feedUrl));
+      const items = parseFeed(await fetchFeed(source.feedUrl, { relay: source.relay }));
       const newest = items.filter(isInterview).map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
       if (applySeed(state, source.key, newest)) console.log(`✅ 已设 ${source.key} 基线 cutoff = ${newest}(晚于它的访谈集才会被处理)。`);
       else console.log(`ℹ️ ${source.key} 已有基线 ${state.cutoffs[source.key]},不动(seed 只补缺)。`);
@@ -1115,7 +1124,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
     items = readArchiveItems(source.archiveFile);
   } else {
     if (backfillN > 0) console.log(`⚠️ 源 ${source.key} 无 archiveFile → 回填只能从 RSS(最近 20 条)选,够不着更早历史(GLM 009[3])`);
-    items = parseFeed(await fetchFeed(source.feedUrl));
+    items = parseFeed(await fetchFeed(source.feedUrl, { relay: source.relay }));
   }
   const interviews = items.filter(isInterview);
   console.log(`共 ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
