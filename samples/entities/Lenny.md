@@ -100,7 +100,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Slack]] · [[主观能动性]] · [[Google]] · [[Cursor]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Anthropic":45,"OpenAI":35,"Claude Code":21,"ChatGPT":15,"Slack":18,"主观能动性":9,"Google":16,"Cursor":14,"Claude":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"Anthropic":45,"OpenAI":35,"Claude Code":21,"ChatGPT":15,"Slack":18,"主观能动性":9,"Google":16,"Cursor":14,"Claude":12}</script>
 
 <script>
 (function(){

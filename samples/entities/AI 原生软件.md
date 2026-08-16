@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 原生软件 (AI-native software)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 原生软件">AI</div><div class="pi"><h1 class="pt">AI 原生软件 (AI-native software)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>92</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 原生软件">AI</div><div class="pi"><h1 class="pt">AI 原生软件 (AI-native software)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>95</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*92 条*
+*95 条*
 
 ![[2025-09-21-lennys-from-managing-people-to-managing-ai-juli#^q2]]
 
@@ -123,6 +123,12 @@ unlisted: true
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q3]]
 
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q1]]
+
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q2]]
+
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q5]]
+
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q9]]
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q10]]
@@ -213,7 +219,7 @@ unlisted: true
 
 [[Satya Nadella]] · [[Kwindla Kramer]] · [[Pipecat]] · [[Daily]] · [[智能体]] · [[推理]] · [[多模态]] · [[云计算]] · [[上下文]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":80,"推理":1,"多模态":1,"云计算":2,"上下文":5,"AWS":4}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":81,"推理":1,"多模态":1,"云计算":2,"上下文":5,"AWS":4}</script>
 
 <script>
 (function(){

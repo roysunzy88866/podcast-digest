@@ -1,0 +1,135 @@
+{
+  "title_zh": "不审查AI生成的PR：自动评分审批机器人实战",
+  "tldr": "用AI智能体给PR打风险分、自动批准低风险项，把人类审查员从队列中解放出来。",
+  "digest_md": "你不必由人类一对一审查所有 AI 生成的 PR——把 AI 引入审查闭环，低风险的直接自动批准，人类只看真正需要专业判断的。这不是理论，Intercom 已经这么干了：PR 吞吐量翻了两三倍，AI 审批的 PR 比纯人类审查的快 5 倍，回退率（上线后需要修复的代码比例）反而更低。而且只要你的风险政策和代码审查政策里有写、过程可审计、可查询、可辩护，SOC 2、HIPAA 这类合规框架下也能做 [03:05 Claire]。\n\n## 风险评分看什么\n\nClaire 基于 Intercom 和一个叫 Diff Vader 的技术方案，用 Vercel 的 Eve 框架搭了一个 PR 审查智能体，取名 Merge Mommy。它的逻辑很直白：等所有 CI 检查变绿 → 读取 PR 的 diff → 从六个维度打分 → 低于阈值自动批准，否则升级给人类。\n\n六个评分维度是：变更面和爆炸半径多大；是否容易回滚（大型数据迁移就难回滚）；是否涉及数据安全；是否改变运营相关的东西；验证缺口——测试够不够完整、CI 有没有跑完；以及能否通过多种方式验证变更的正确性 [15:53 Claire]。\n\n打分脚本跑完，24 分以下算低风险，自动批准；25 到 64 是中等风险，65 及以上是高风险——中高都要求人类审查 [16:20 Claire]。\n\n## 怎么区分仓库里的风险类别\n\n光靠 diff 大小不能定风险。Claire 的做法是按仓库内容分类：文档改动是低风险，功能逻辑是中等风险，认证和计费相关是高风险 [15:09 Claire]。\n\n实际跑起来有个例子：Devin 自动提交的一个纯文档更新，Merge Mommy 打了 6 分（满分 10），很低——但有合并冲突，所以没自动批准，机器人把阻塞原因写在了评论里 [18:09 Claire]。另一个干净的文档 PR，7 分，自动通过，机器人留了一个灰色勾号 [18:36 Claire]。一个删除旧版本代码的弃用 PR，35 个变更、大红色 diff，打了 45 分（满分 100），中等风险——因为策略判定它改变了服务端 API 行为且变更量大，需要人类审 [19:58 Claire]。\n\n## 技术栈和搭建过程\n\n框架选的 Vercel Eve：一个开源的智能体部署框架，智能体的指令、技能、工具都用自然文本或 TypeScript 写，不需要过度设计。Claire 整个指令文件就四五段加几个要点 [13:48 Claire]。\n\n技术流程：GitHub 应用在 PR 变更完成后触发事件 → Vercel 的 GitHub 集成接住 → 启动沙箱、检出仓库、看 diff → 跑技能和工具评估风险 → 输出批准或需要变更的评论 → 然后 ping Slack 通知人类做最终操作 [12:22 Claire]。\n\n搭这个智能体本身用的是 Codex（带浏览器使用能力）。Claire 只给了一句话提示词：「做一个内部 GitHub 机器人，在所有检查变绿后审查 PR，评低中高风险，自动批准低风险的」[09:29 Claire]。代码生成不稀奇，真正省事的是让 Codex 用 Chrome 浏览器自动点完了 Slack 机器人设置和 GitHub 应用权限配置那些繁琐的界面操作——这是 Claire 强调的一个技巧：遇到复杂的 SaaS 配置，让带浏览器能力的 AI 去点 [10:31 Claire]。\n\n## 人类在环的最终一步\n\n因为仓库规则要求「必须有审查批准」，机器人自己的批准不满足这个硬性要求（勾号是灰色的）。所以流程是：机器人审查完，低风险的发到 Slack 频道，人类点一下批准、点一下合并，两步搞定 [19:07 Claire]。Claire 的说法是：既让 AI 去干活（审查打分），又让 AI 把人安排去干最终那一下——两边都没闲着 [20:36 Claire]。\n\n## 本集带走\n\n- **风险评分维度比 diff 大小重要**：爆炸半径、可回滚性、数据安全、运营影响、测试完整性、可验证性——这六项决定了 PR 真正的风险等级。\n- **按仓库内容分类定基线风险**：文档低、功能逻辑中、认证计费高，diff 大小不直接决定风险。\n- **指令不需要长**：四五段自然语言加几个要点就能驱动一个可用的 PR 审查智能体。\n- **用浏览器能力自动完成 SaaS 配置**：让 Codex 这类工具直接操作 Chrome 点完 Slack 和 GitHub 的设置界面，省掉大量手工配置。\n- **合规不等于不能自动批准**：只要风险策略里有写、过程可审计可查询，SOC 2 环境下也能跑自动审批——但要跟安全合规团队确认。\n- **对内部智能体跑 eval**：每次审查结果记录下来，让工程师标注对错，像改进面向用户的产品一样持续改进内部机器人 [23:01 Claire]。",
+  "quotes": [
+    {
+      "en": "And I am telling you in 2026, the answer is you can safely not review PRs by putting AI in the loop.",
+      "zh": "而我要告诉你们，在 2026 年，答案是你可以通过将 AI 引入闭环来安全地不审查 PR。",
+      "timestamp": "02:51",
+      "speaker": "Claire"
+    },
+    {
+      "en": "But what they really think and what they've proven with their adoption of AI is that AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.",
+      "zh": "但他们真正的想法以及他们通过采用 AI 证明的是，AI 审批的 PR 以及 AI 编写的代码总体上可能比只有人类参与审查更加安全，质量更高。",
+      "timestamp": "03:43",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Actually five times faster than their human PRs.",
+      "zh": "实际上比他们的人类 PR 快 5 倍。",
+      "timestamp": "04:19",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Diff size does not set risk.",
+      "zh": "差异大小不设定风险。",
+      "timestamp": "15:21",
+      "speaker": "Claire"
+    },
+    {
+      "en": "I like to say this thing where we can put AI to work for us or we can have AI put us to work.",
+      "zh": "我喜欢说这样一件事，我们可以让 AI 为我们工作，或者我们可以让 AI 让我们去工作。",
+      "timestamp": "20:36",
+      "speaker": "Claire"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:37",
+      "speaker": "Claire",
+      "en": "You don't have to review all your PRs.",
+      "zh": "你不必审查你所有的 PR。"
+    },
+    {
+      "timestamp": "00:42",
+      "speaker": "Claire",
+      "en": "You do not actually have to review one-on-one by a human, all those PRs.",
+      "zh": "你实际上不必由人类一对一地审查所有那些 PR。"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Claire",
+      "en": "And I am telling you in 2026, the answer is you can safely not review PRs by putting AI in the loop.",
+      "zh": "而我要告诉你们，在 2026 年，答案是你可以通过将 AI 引入闭环来安全地不审查 PR。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Claire",
+      "en": "But what they really think and what they've proven with their adoption of AI is that AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.",
+      "zh": "但他们真正的想法以及他们通过采用 AI 证明的是，AI 审批的 PR 以及 AI 编写的代码总体上可能比只有人类参与审查更加安全，质量更高。"
+    },
+    {
+      "timestamp": "04:00",
+      "speaker": "Claire",
+      "en": "They have used AI as an advantage when it comes to safety and quality as opposed to a disadvantage for safety and quality.",
+      "zh": "当涉及到安全性和质量时，他们将 AI 视为一种优势，而不是安全性和质量的劣势。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Claire",
+      "en": "Actually five times faster than their human PRs.",
+      "zh": "实际上比他们的人类 PR 快 5 倍。"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Claire",
+      "en": "There are frameworks as long as it's in your risk policies, as long as it's in your code review policies, as long as it's auditable, queryable, and defensible, you can do this within your compliance framework.",
+      "zh": "只要是框架内的，只要在你的风险政策中，只要在你的代码审查政策中，只要它是可审计的、可查询的、且可辩护的，你就可以在你的合规框架内做到这一点。"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Claire",
+      "en": "I want to make an internal GitHub bot slash app that reviews PRs after all C-checks, that's checks, are green and grades low, medium, high risk and approves the low-rish.",
+      "zh": "我想做一个内部 GitHub 机器人/应用程序，在所有 C-checks，那是检查，变绿并且评级低、中、高风险并批准低风险之后审查 PR。"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "Claire",
+      "en": "Using Chrome browser use is such a useful hack to get that stuff done.",
+      "zh": "使用 Chrome 浏览器使用是一种非常有用的技巧来完成那些事情。"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "Claire",
+      "en": "You do not need to over-engineer this.",
+      "zh": "你不需要过度设计这个东西。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Claire",
+      "en": "Diff size does not set risk.",
+      "zh": "差异大小不设定风险。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Claire",
+      "en": "It is literally just writing instructions and skills.",
+      "zh": "它实际上就是编写指令和技能。"
+    },
+    {
+      "timestamp": "19:12",
+      "speaker": "Claire",
+      "en": "A bot cannot actually meet our repository rules for required approval.",
+      "zh": "一个机器人实际上无法满足我们仓库规则的必需批准要求。"
+    },
+    {
+      "timestamp": "20:36",
+      "speaker": "Claire",
+      "en": "I like to say this thing where we can put AI to work for us or we can have AI put us to work.",
+      "zh": "我喜欢说这样一件事，我们可以让 AI 为我们工作，或者我们可以让 AI 让我们去工作。"
+    },
+    {
+      "timestamp": "21:16",
+      "speaker": "Claire",
+      "en": "This is something that I was really intimidated to build.",
+      "zh": "这是我以前真的很害怕去构建的东西。"
+    },
+    {
+      "timestamp": "23:14",
+      "speaker": "Claire",
+      "en": "Very similar to how you'd use evals to improve your customer facing AI products, you're going to want to use evals to improve your internally facing AI bots, especially ones that touch really critical things like code.",
+      "zh": "所以这很像你们使用评估来改进面向客户的 AI 产品，你们也会想要使用评估来改进面向内部的 AI 机器人，特别是那些触及代码这样真正关键事物的机器人。"
+    }
+  ]
+}

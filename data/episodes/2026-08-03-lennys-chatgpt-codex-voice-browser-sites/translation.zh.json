@@ -1,0 +1,3474 @@
+[
+ {
+  "seg": 0,
+  "start": 0.283,
+  "end": 3.846,
+  "speaker": "Claire",
+  "en": "Everybody is drowning in AI-created PRs.",
+  "zh": "大家都淹没在 AI 创建的 PR 中。"
+ },
+ {
+  "seg": 1,
+  "start": 4.066,
+  "end": 5.827,
+  "speaker": "Claire",
+  "en": "When anyone can code,",
+  "zh": "当任何人都能写代码时,"
+ },
+ {
+  "seg": 2,
+  "start": 6.047,
+  "end": 6.958,
+  "speaker": "Claire",
+  "en": "anyone can cook,",
+  "zh": "任何人都能做饭,"
+ },
+ {
+  "seg": 3,
+  "start": 7.008,
+  "end": 9.55,
+  "speaker": "Claire",
+  "en": "and anyone can vibe anything to GitHub,",
+  "zh": "任何人都能把任何东西 vibe 到 GitHub,"
+ },
+ {
+  "seg": 4,
+  "start": 10.13,
+  "end": 15.774,
+  "speaker": "Claire",
+  "en": "that means that a lot of us are sitting on a big queue of pull requests that",
+  "zh": "这意味着我们很多人正面对一大排队的 Pull Requests,"
+ },
+ {
+  "seg": 5,
+  "start": 15.794,
+  "end": 17.675,
+  "speaker": "Claire",
+  "en": "then we have to review.",
+  "zh": "然后我们必须审查。"
+ },
+ {
+  "seg": 6,
+  "start": 17.875,
+  "end": 21.508,
+  "speaker": "Claire",
+  "en": "If you are an engineering leader or a software engineer in a company",
+  "zh": "如果你是一家工程负责人或软件工程师,"
+ },
+ {
+  "seg": 7,
+  "start": 21.558,
+  "end": 26.045,
+  "speaker": "Claire",
+  "en": "that has embraced AI in any way, shape or form, You feel this pain.",
+  "zh": "这家公司以任何形式拥抱了 AI, 你能感受到这种痛苦。"
+ },
+ {
+  "seg": 8,
+  "start": 26.085,
+  "end": 28.140555555555558,
+  "speaker": "Claire",
+  "en": "And I get this question all the time.",
+  "zh": "而且我一直被问到这个问题。"
+ },
+ {
+  "seg": 9,
+  "start": 28.289,
+  "end": 30.233444444444444,
+  "speaker": "Claire",
+  "en": "We figured out how to code with AI.",
+  "zh": "我们搞清楚了如何用 AI 写代码。"
+ },
+ {
+  "seg": 10,
+  "start": 30.433,
+  "end": 33.017,
+  "speaker": "Claire",
+  "en": "Now, what do we do with all these PRs?",
+  "zh": "现在,我们要拿所有这些 PR 怎么办?"
+ },
+ {
+  "seg": 11,
+  "start": 33.498,
+  "end": 35.933,
+  "speaker": "Claire",
+  "en": "Well, people smarter than us have figured this out.",
+  "zh": "好吧,比我们更聪明的人已经搞清楚了这一点。"
+ },
+ {
+  "seg": 12,
+  "start": 35.983,
+  "end": 37.686,
+  "speaker": "Claire",
+  "en": "And you know what the answer is?",
+  "zh": "你知道答案是什么吗?"
+ },
+ {
+  "seg": 13,
+  "start": 37.736,
+  "end": 40.178,
+  "speaker": "Claire",
+  "en": "You don't have to review all your PRs.",
+  "zh": "你不必审查你所有的 PR。"
+ },
+ {
+  "seg": 14,
+  "start": 40.378,
+  "end": 40.969,
+  "speaker": "Claire",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 15,
+  "start": 41.019,
+  "end": 42.190000000000005,
+  "speaker": "Claire",
+  "en": "You heard it here first.",
+  "zh": "你是这里第一个听到的。"
+ },
+ {
+  "seg": 16,
+  "start": 42.24,
+  "end": 49.006,
+  "speaker": "Claire",
+  "en": "You do not actually have to review one-on-one by a human, all those PRs.",
+  "zh": "你实际上不必由人类一对一审查,所有那些 PR。"
+ },
+ {
+  "seg": 17,
+  "start": 49.446,
+  "end": 50.617000000000004,
+  "speaker": "Claire",
+  "en": "So in today's episode,",
+  "zh": "所以在今天的节目中,"
+ },
+ {
+  "seg": 18,
+  "start": 50.667,
+  "end": 53.52,
+  "speaker": "Claire",
+  "en": "I'm going to show you how to build your own PR review,",
+  "zh": "我要向你展示如何构建你自己的 PR 审查,"
+ },
+ {
+  "seg": 19,
+  "start": 53.57,
+  "end": 55.892,
+  "speaker": "Claire",
+  "en": "risk scoring and automatic approval bot.",
+  "zh": "风险评分和自动批准机器人。"
+ },
+ {
+  "seg": 20,
+  "start": 56.272,
+  "end": 59.555,
+  "speaker": "Claire",
+  "en": "So you can take all the low risk PRs off your plate,",
+  "zh": "这样你就可以把所有低风险的 PR 从你的盘子里拿走,"
+ },
+ {
+  "seg": 21,
+  "start": 59.675,
+  "end": 62.258,
+  "speaker": "Claire",
+  "en": "get those to production and focus on the ones",
+  "zh": "让它们进入生产环境并专注于那些"
+ },
+ {
+  "seg": 22,
+  "start": 62.318,
+  "end": 64.76,
+  "speaker": "Claire",
+  "en": "that really require your human expertise.",
+  "zh": "真正需要你人类专业知识的。"
+ },
+ {
+  "seg": 23,
+  "start": 65.296,
+  "end": 67.837,
+  "speaker": "Claire",
+  "en": "This episode is inspired by a couple folks,",
+  "zh": "本节目受到一些人的启发,"
+ },
+ {
+  "seg": 24,
+  "start": 67.917,
+  "end": 70.837,
+  "speaker": "Claire",
+  "en": "especially our past How I AI guest,",
+  "zh": "特别是我们过去的 How I AI 嘉宾,"
+ },
+ {
+  "seg": 25,
+  "start": 71.298,
+  "end": 76.759,
+  "speaker": "Claire",
+  "en": "Brian from Intercom, who has led the way in auto scoring and auto approval of PRs.",
+  "zh": "Intercom 的 Brian, 他在 PR 的自动评分和自动批准方面引领了潮流。"
+ },
+ {
+  "seg": 26,
+  "start": 76.779,
+  "end": 79.52,
+  "speaker": "Claire",
+  "en": "But I'm going to show you exactly how it gets done and we're going",
+  "zh": "但我要向你展示具体是如何完成的, 而且我们要"
+ },
+ {
+  "seg": 27,
+  "start": 79.54,
+  "end": 83.981,
+  "speaker": "Claire",
+  "en": "to get it done very quickly in this 30 minute How I AI mini episode.",
+  "zh": "在这个 30 分钟的 How I AI 迷你节目中很快搞定它。"
+ },
+ {
+  "seg": 28,
+  "start": 84.581,
+  "end": 85.551,
+  "speaker": "Claire",
+  "en": "Let's get to it.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 29,
+  "start": 85.601,
+  "end": 88.182,
+  "speaker": "Claire",
+  "en": "This episode is brought to you by WorkOS.",
+  "zh": "本节目由 WorkOS 赞助。"
+ },
+ {
+  "seg": 30,
+  "start": 88.842,
+  "end": 90.78644444444444,
+  "speaker": "Claire",
+  "en": "AI has already changed how we work.",
+  "zh": "AI 已经改变了我们的工作方式。"
+ },
+ {
+  "seg": 31,
+  "start": 90.903,
+  "end": 93.10600000000001,
+  "speaker": "Claire",
+  "en": "Tools are helping teams write better code.",
+  "zh": "工具正在帮助团队编写更好的代码。"
+ },
+ {
+  "seg": 32,
+  "start": 93.156,
+  "end": 96.98933333333333,
+  "speaker": "Claire",
+  "en": "Analyze customer data and even handle support tickets automatically.",
+  "zh": "分析客户数据, 甚至自动处理支持工单。"
+ },
+ {
+  "seg": 33,
+  "start": 97.558,
+  "end": 98.668,
+  "speaker": "Claire",
+  "en": "But there's a catch.",
+  "zh": "但有一个陷阱。"
+ },
+ {
+  "seg": 34,
+  "start": 98.718,
+  "end": 102.77355555555556,
+  "speaker": "Claire",
+  "en": "These tools only work well when they have deep access to company systems.",
+  "zh": "这些工具只有在能深度访问公司系统时才能很好地工作。"
+ },
+ {
+  "seg": 35,
+  "start": 103.119,
+  "end": 105.73011111111111,
+  "speaker": "Claire",
+  "en": "Your copilot needs to see your entire codebase.",
+  "zh": "你的副驾驶需要看到你的整个代码库。"
+ },
+ {
+  "seg": 36,
+  "start": 106.16,
+  "end": 108.93777777777777,
+  "speaker": "Claire",
+  "en": "Your chatbot needs to search across internal docs.",
+  "zh": "你的聊天机器人需要搜索内部文档。"
+ },
+ {
+  "seg": 37,
+  "start": 109.181,
+  "end": 112.922,
+  "speaker": "Claire",
+  "en": "And for enterprise buyers, that raises serious security concerns.",
+  "zh": "而对于企业买家来说, 这引发了严重的安全顾虑。"
+ },
+ {
+  "seg": 38,
+  "start": 113.742,
+  "end": 117.07533333333333,
+  "speaker": "Claire",
+  "en": "That's why these apps face intense IT scrutiny from day one.",
+  "zh": "这就是为什么这些应用从一开始就面临 IT 部门的严格审查。"
+ },
+ {
+  "seg": 39,
+  "start": 117.503,
+  "end": 118.053,
+  "speaker": "Claire",
+  "en": "To pass,",
+  "zh": "为了通过,"
+ },
+ {
+  "seg": 40,
+  "start": 118.103,
+  "end": 119.793,
+  "speaker": "Claire",
+  "en": "they need secure authentication,",
+  "zh": "它们需要安全的身份验证,"
+ },
+ {
+  "seg": 41,
+  "start": 119.843,
+  "end": 123.884,
+  "speaker": "Claire",
+  "en": "access controls, audit logs, the whole suite of enterprise features.",
+  "zh": "访问控制, 审计日志, 整套企业功能。"
+ },
+ {
+  "seg": 42,
+  "start": 124.724,
+  "end": 126.155,
+  "speaker": "Claire",
+  "en": "Building all that from scratch?",
+  "zh": "从头开始构建所有这些?"
+ },
+ {
+  "seg": 43,
+  "start": 126.205,
+  "end": 127.31611111111111,
+  "speaker": "Claire",
+  "en": "It's a massive lift.",
+  "zh": "这是一大堆工作。"
+ },
+ {
+  "seg": 44,
+  "start": 127.725,
+  "end": 129.39166666666665,
+  "speaker": "Claire",
+  "en": "That's where WorkOS comes in.",
+  "zh": "这就是 WorkOS 的用武之地。"
+ },
+ {
+  "seg": 45,
+  "start": 130.127,
+  "end": 133.169,
+  "speaker": "Claire",
+  "en": "WorkOS gives you drop-in APIs for enterprise features",
+  "zh": "WorkOS 为你提供企业功能的即插即用 API,"
+ },
+ {
+  "seg": 46,
+  "start": 133.609,
+  "end": 137.372,
+  "speaker": "Claire",
+  "en": "so your app can become enterprise-ready and scale up market faster.",
+  "zh": "这样你的应用就能为企业做好准备并更快地扩展到市场。"
+ },
+ {
+  "seg": 47,
+  "start": 137.892,
+  "end": 140.55866666666665,
+  "speaker": "Claire",
+  "en": "Think of it like Stripe for enterprise features.",
+  "zh": "把它想象成企业功能的 Stripe。"
+ },
+ {
+  "seg": 48,
+  "start": 140.934,
+  "end": 142.235,
+  "speaker": "Claire",
+  "en": "OpenAI, Perplexity,",
+  "zh": "OpenAI, Perplexity,"
+ },
+ {
+  "seg": 49,
+  "start": 142.415,
+  "end": 147.078,
+  "speaker": "Claire",
+  "en": "and Cursor are already using WorkOS to move faster and meet enterprise demands.",
+  "zh": "和 Cursor 已经在使用 WorkOS 以加快速度并满足企业需求。"
+ },
+ {
+  "seg": 50,
+  "start": 147.979,
+  "end": 153.002,
+  "speaker": "Claire",
+  "en": "Join them and hundreds of other industry leaders at WorkOS.com.",
+  "zh": "加入他们以及数百位其他行业领袖，请访问 WorkOS.com。"
+ },
+ {
+  "seg": 51,
+  "start": 153.602,
+  "end": 154.76866666666666,
+  "speaker": "Claire",
+  "en": "Start building today.",
+  "zh": "今天就开始构建。"
+ },
+ {
+  "seg": 52,
+  "start": 155.499,
+  "end": 157.32999999999998,
+  "speaker": "Claire",
+  "en": "Okay, I know what you all are thinking.",
+  "zh": "好的，我知道你们都在想什么。"
+ },
+ {
+  "seg": 53,
+  "start": 157.38,
+  "end": 159.231,
+  "speaker": "Claire",
+  "en": "You're thinking, Claire, you are crazy.",
+  "zh": "你们在想，Claire，你疯了。"
+ },
+ {
+  "seg": 54,
+  "start": 159.281,
+  "end": 164.865,
+  "speaker": "Claire",
+  "en": "Of course, I have to review every PR that comes out of AI.",
+  "zh": "当然，我必须审查每一份来自 AI 的 PR。"
+ },
+ {
+  "seg": 55,
+  "start": 164.925,
+  "end": 166.36944444444447,
+  "speaker": "Claire",
+  "en": "That's just how it's done.",
+  "zh": "这就是工作方式。"
+ },
+ {
+  "seg": 56,
+  "start": 166.646,
+  "end": 170.769,
+  "speaker": "Claire",
+  "en": "We review all of our human PRs, so I have to review all of our AI PRs.",
+  "zh": "我们审查所有人类生成的 PR，所以我必须审查所有来自 AI 的 PR。"
+ },
+ {
+  "seg": 57,
+  "start": 171.409,
+  "end": 173.811,
+  "speaker": "Claire",
+  "en": "And I am telling you in 2026,",
+  "zh": "而我要告诉你们，在 2026 年，"
+ },
+ {
+  "seg": 58,
+  "start": 174.211,
+  "end": 180.935,
+  "speaker": "Claire",
+  "en": "the answer is you can safely not review PRs by putting AI in the loop.",
+  "zh": "答案是，你可以通过将 AI 加入循环来安全地不审查 PR。"
+ },
+ {
+  "seg": 59,
+  "start": 181.015,
+  "end": 185.248,
+  "speaker": "Claire",
+  "en": "And I want to call attention to two blog posts that have really inspired me in this process.",
+  "zh": "我想请大家关注两篇在这个过程中真正启发我的博客文章。"
+ },
+ {
+  "seg": 60,
+  "start": 185.298,
+  "end": 190.54,
+  "speaker": "Claire",
+  "en": "One is from Intercom about how they made AI approved PRs safe.",
+  "zh": "一篇是来自 Intercom，关于他们如何让 AI 审批的 PR 变得安全。"
+ },
+ {
+  "seg": 61,
+  "start": 191,
+  "end": 194.581,
+  "speaker": "Claire",
+  "en": "If you don't know, Intercom has 2x, 3x their PR throughput.",
+  "zh": "如果你不知道，Intercom 已经将其 PR 吞吐量提高了 2 倍、3 倍。"
+ },
+ {
+  "seg": 62,
+  "start": 194.641,
+  "end": 196.482,
+  "speaker": "Claire",
+  "en": "They are shipping a lot of code.",
+  "zh": "他们正在交付大量代码。"
+ },
+ {
+  "seg": 63,
+  "start": 196.882,
+  "end": 200.323,
+  "speaker": "Claire",
+  "en": "That means they had a lot of code to review.",
+  "zh": "这意味着他们有很多代码需要审查。"
+ },
+ {
+  "seg": 64,
+  "start": 200.923,
+  "end": 207.923,
+  "speaker": "Claire",
+  "en": "And so they built a PR review agent that scores their PRs and then auto approves them.",
+  "zh": "所以他们构建了一个 PR review agent，给他们的 PR 打分然后自动审批。"
+ },
+ {
+  "seg": 65,
+  "start": 208.846,
+  "end": 212.587,
+  "speaker": "Claire",
+  "en": "And what I love about what Intercom has done here is they don't just worry",
+  "zh": "我喜欢 Intercom 在这里所做的一点是，他们不仅仅担心"
+ },
+ {
+  "seg": 66,
+  "start": 212.627,
+  "end": 214.708,
+  "speaker": "Claire",
+  "en": "about speed and velocity and volume.",
+  "zh": "速度、吞吐量和数量。"
+ },
+ {
+  "seg": 67,
+  "start": 215.128,
+  "end": 218.809,
+  "speaker": "Claire",
+  "en": "Yes, they've multiplied the PRs across their R&D organization.",
+  "zh": "是的，他们使整个 R&D 组织的 PR 数量翻倍了。"
+ },
+ {
+  "seg": 68,
+  "start": 219.25,
+  "end": 223.46099999999998,
+  "speaker": "Claire",
+  "en": "Yes, they want to get those PR cycle time down and those reviews out quickly.",
+  "zh": "是的，他们希望降低 PR 周期时间并快速完成审查。"
+ },
+ {
+  "seg": 69,
+  "start": 223.511,
+  "end": 227.583,
+  "speaker": "Claire",
+  "en": "But what they really think and what they've proven with their adoption of AI is",
+  "zh": "但他们真正思考的，以及他们通过采用 AI 证明的是，"
+ },
+ {
+  "seg": 70,
+  "start": 227.633,
+  "end": 233.455,
+  "speaker": "Claire",
+  "en": "that AI approved PRs and AI written code in general can be even safer",
+  "zh": "AI 审批的 PR 以及 AI 编写的代码总体上甚至可以比"
+ },
+ {
+  "seg": 71,
+  "start": 233.895,
+  "end": 238.17277777777778,
+  "speaker": "Claire",
+  "en": "and even higher quality than what you're doing with just a human in the loop.",
+  "zh": "仅有人类参与循环的做法更安全、质量更高。"
+ },
+ {
+  "seg": 72,
+  "start": 240.018,
+  "end": 245.205,
+  "speaker": "Claire",
+  "en": "They have used AI as an advantage when it comes to safety and quality as opposed to",
+  "zh": "在安全性和质量方面，他们将 AI 视为一种优势， [[73] 而非安全性和质量的劣势。"
+ },
+ {
+  "seg": 73,
+  "start": 245.226,
+  "end": 249.011,
+  "speaker": "Claire",
+  "en": "a disadvantage for safety and quality.",
+  "zh": "对安全和质量的劣势。"
+ },
+ {
+  "seg": 74,
+  "start": 249.512,
+  "end": 254.599,
+  "speaker": "Claire",
+  "en": "And to set the vision of what you can expect here, I love that they shared some metrics.",
+  "zh": "为了设定这里的期望愿景，我喜欢他们分享了一些指标。"
+ },
+ {
+  "seg": 75,
+  "start": 254.919,
+  "end": 259.364,
+  "speaker": "Claire",
+  "en": "One is that AI approved PRs are approved faster,",
+  "zh": "其一是 AI 审批的 PR 被审批得更快，"
+ },
+ {
+  "seg": 76,
+  "start": 259.564,
+  "end": 263.147,
+  "speaker": "Claire",
+  "en": "actually five times faster than their human PRs.",
+  "zh": "实际上比他们的 PR 快 5 倍。"
+ },
+ {
+  "seg": 77,
+  "start": 263.287,
+  "end": 265.508,
+  "speaker": "Claire",
+  "en": "So one, you are getting some speed.",
+  "zh": "首先，你获得了一些速度。"
+ },
+ {
+  "seg": 78,
+  "start": 266.069,
+  "end": 268.71,
+  "speaker": "Claire",
+  "en": "Two, they are seeing higher quality.",
+  "zh": "其次，他们看到了更高的质量。"
+ },
+ {
+  "seg": 79,
+  "start": 268.811,
+  "end": 273.534,
+  "speaker": "Claire",
+  "en": "So the revert rate, the amount of code that has to be fixed after it hits production.",
+  "zh": "所以 revert rate，即代码上线后必须修复的代码量，"
+ },
+ {
+  "seg": 80,
+  "start": 274.457,
+  "end": 278.078,
+  "speaker": "Claire",
+  "en": "Is much lower when they write that code with AI.",
+  "zh": "当他们用 AI 编写代码时，这一数值要低得多。"
+ },
+ {
+  "seg": 81,
+  "start": 278.218,
+  "end": 284.44,
+  "speaker": "Claire",
+  "en": "And then they figured out how to label and trace and audit all those changes",
+  "zh": "然后他们弄清楚了如何标记、追踪和审计所有这些变更"
+ },
+ {
+  "seg": 82,
+  "start": 284.48,
+  "end": 288.002,
+  "speaker": "Claire",
+  "en": "and approvals so that they are in compliance with all",
+  "zh": "和审批，以便他们符合所有"
+ },
+ {
+  "seg": 83,
+  "start": 288.282,
+  "end": 292.803,
+  "speaker": "Claire",
+  "en": "of their required compliance frameworks, whether those are SOC 2, HIPAA, etc.",
+  "zh": "要求的合规框架，无论是 SOC 2、HIPAA 等。"
+ },
+ {
+  "seg": 84,
+  "start": 292.883,
+  "end": 294.904,
+  "speaker": "Claire",
+  "en": "So I often get this objection from folks.",
+  "zh": "所以我经常听到人们这样的反对意见。"
+ },
+ {
+  "seg": 85,
+  "start": 294.944,
+  "end": 298.316,
+  "speaker": "Claire",
+  "en": "They say, well, I'm in a SOC 2 environment I couldn't possibly do.",
+  "zh": "他们说，好吧，我处于 SOC 2 环境中，我不可能做。"
+ },
+ {
+  "seg": 86,
+  "start": 298.366,
+  "end": 299.4215555555555,
+  "speaker": "Claire",
+  "en": "Auto-approved PRs.",
+  "zh": "自动审批的 PR。"
+ },
+ {
+  "seg": 87,
+  "start": 299.647,
+  "end": 300.067,
+  "speaker": "Claire",
+  "en": "But in fact,",
+  "zh": "但事实上，"
+ },
+ {
+  "seg": 88,
+  "start": 300.087,
+  "end": 303.078,
+  "speaker": "Claire",
+  "en": "there are frameworks as long as it's in your risk policies,",
+  "zh": "只要框架在你的风险策略中，"
+ },
+ {
+  "seg": 89,
+  "start": 303.128,
+  "end": 305.199,
+  "speaker": "Claire",
+  "en": "as long as it's in your code review policies,",
+  "zh": "只要它在你的代码审查策略中，"
+ },
+ {
+  "seg": 90,
+  "start": 305.249,
+  "end": 306.38,
+  "speaker": "Claire",
+  "en": "as long as it's auditable,",
+  "zh": "只要它是可审计的、"
+ },
+ {
+  "seg": 91,
+  "start": 306.43,
+  "end": 307.4,
+  "speaker": "Claire",
+  "en": "queryable,",
+  "zh": "可查询的、"
+ },
+ {
+  "seg": 92,
+  "start": 307.45,
+  "end": 308.12,
+  "speaker": "Claire",
+  "en": "and defensible,",
+  "zh": "且可辩护的，"
+ },
+ {
+  "seg": 93,
+  "start": 308.17,
+  "end": 310.551,
+  "speaker": "Claire",
+  "en": "you can do this within your compliance framework,",
+  "zh": "你就可以在你的合规框架内做到这一点， [[94] 尽管要与你的安全和合规团队合作"
+ },
+ {
+  "seg": 94,
+  "start": 310.571,
+  "end": 312.582,
+  "speaker": "Claire",
+  "en": "although work with your security and compliance teams",
+  "zh": "虽然与你的安全和合规团队一起工作"
+ },
+ {
+  "seg": 95,
+  "start": 312.632,
+  "end": 314.712,
+  "speaker": "Claire",
+  "en": "to figure out how this can work for you.",
+  "zh": "以弄清楚如何使其为你工作。"
+ },
+ {
+  "seg": 96,
+  "start": 314.762,
+  "end": 317.124,
+  "speaker": "Claire",
+  "en": "So I really love just this whole concept.",
+  "zh": "所以我真的非常喜欢整个概念。"
+ },
+ {
+  "seg": 97,
+  "start": 317.564,
+  "end": 318.985,
+  "speaker": "Claire",
+  "en": "I also took some inspiration,",
+  "zh": "我也获得了一些灵感，"
+ },
+ {
+  "seg": 98,
+  "start": 319.025,
+  "end": 320.536,
+  "speaker": "Claire",
+  "en": "who took inspiration from Intercom,",
+  "zh": "他从 Intercom 那里获得了灵感，"
+ },
+ {
+  "seg": 99,
+  "start": 320.586,
+  "end": 322.248,
+  "speaker": "Claire",
+  "en": "on this Rewind bot,",
+  "zh": "关于这个 Rewind bot，"
+ },
+ {
+  "seg": 100,
+  "start": 322.288,
+  "end": 328.172,
+  "speaker": "Claire",
+  "en": "which is a little bit more of the technical way that they review PRs.",
+  "zh": "这是一种稍微更具技术性的方式，供他们审查 PR。"
+ },
+ {
+  "seg": 101,
+  "start": 328.712,
+  "end": 331.955,
+  "speaker": "Claire",
+  "en": "And so this blog post about Diff Vader,",
+  "zh": "所以这篇关于 Diff Vader 的博客文章，"
+ },
+ {
+  "seg": 102,
+  "start": 332.155,
+  "end": 333.155,
+  "speaker": "Claire",
+  "en": "which I love,",
+  "zh": "我很喜欢，"
+ },
+ {
+  "seg": 103,
+  "start": 333.416,
+  "end": 336.218,
+  "speaker": "Claire",
+  "en": "shows a couple components of how they've scored risk,",
+  "zh": "展示了他们如何对风险进行评分的几个组成部分，"
+ },
+ {
+  "seg": 104,
+  "start": 336.258,
+  "end": 339.16,
+  "speaker": "Claire",
+  "en": "whether it's blast readiness, how correct it is.",
+  "zh": "无论是就绪程度、它的正确性如何。"
+ },
+ {
+  "seg": 105,
+  "start": 339.68,
+  "end": 341.642,
+  "speaker": "Claire",
+  "en": "If all the actions have run, etc.",
+  "zh": "以及是否所有操作都已运行等等。"
+ },
+ {
+  "seg": 106,
+  "start": 341.702,
+  "end": 348.587,
+  "speaker": "Claire",
+  "en": "And so between these two blog posts, I had a really good starting point for building an agent.",
+  "zh": "所以在这两篇博客文章之间，我有一个非常好的起点来构建一个智能体。"
+ },
+ {
+  "seg": 107,
+  "start": 348.687,
+  "end": 350.83799999999997,
+  "speaker": "Claire",
+  "en": "I knew that I wanted to do this for chat PRD.",
+  "zh": "我知道我想为聊天 PRD 做这件事。"
+ },
+ {
+  "seg": 108,
+  "start": 350.888,
+  "end": 354.58099999999996,
+  "speaker": "Claire",
+  "en": "I knew we had a lot of low risk PRS that were just sitting in the queue",
+  "zh": "我们知道有很多低风险的 PRS 堆积在队列中"
+ },
+ {
+  "seg": 109,
+  "start": 354.631,
+  "end": 357.453,
+  "speaker": "Claire",
+  "en": "because my colleague and I were not getting to review them.",
+  "zh": "因为我的同事和我都没来得及审查它们。"
+ },
+ {
+  "seg": 110,
+  "start": 357.473,
+  "end": 361.19522222222224,
+  "speaker": "Claire",
+  "en": "It was kind of boring, especially a lot of like Devon authored PRS.",
+  "zh": "这有点无聊，特别是很多像 Devon 作者的 PRS。"
+ },
+ {
+  "seg": 111,
+  "start": 361.516,
+  "end": 364.568,
+  "speaker": "Claire",
+  "en": "And so this was going to be a really high impact thing that I knew I could build",
+  "zh": "所以这将是一件我知道我可以构建的高影响力的事情，"
+ },
+ {
+  "seg": 112,
+  "start": 364.618,
+  "end": 369.57,
+  "speaker": "Claire",
+  "en": "and also Let me work with a new framework that I'm excited to demo for you all here",
+  "zh": "而且也让我能与一个新的框架一起工作，我很兴奋在这里为大家演示"
+ },
+ {
+  "seg": 113,
+  "start": 369.91,
+  "end": 371.392,
+  "speaker": "Claire",
+  "en": "on How I AI.",
+  "zh": "在 How I AI 上。"
+ },
+ {
+  "seg": 114,
+  "start": 371.952,
+  "end": 377.296,
+  "speaker": "Claire",
+  "en": "So we're going to go to this Codex vibe coded deck and we're going to walk",
+  "zh": "所以我们将转到这个 Codex vibe coded 演示文稿，我们将通过"
+ },
+ {
+  "seg": 115,
+  "start": 377.316,
+  "end": 383.361,
+  "speaker": "Claire",
+  "en": "through how I built a code review risk scoring bot with Vercel's Eve.",
+  "zh": "演示我是如何用 Vercel 的 Eve 构建一个代码审查风险评分机器人的。"
+ },
+ {
+  "seg": 116,
+  "start": 383.541,
+  "end": 388.365,
+  "speaker": "Claire",
+  "en": "So if you have not heard about Eve, I'm a little bit obsessed with Eve.",
+  "zh": "所以如果你还没有听说过 Eve，我对 Eve 有点着迷。"
+ },
+ {
+  "seg": 117,
+  "start": 388.785,
+  "end": 390.307,
+  "speaker": "Claire",
+  "en": "Why do I like Eve?",
+  "zh": "我为什么喜欢 Eve？"
+ },
+ {
+  "seg": 118,
+  "start": 390.347,
+  "end": 397.347,
+  "speaker": "Claire",
+  "en": "Well, Eve has become The simplest way for me to deploy AI agents in the enterprise",
+  "zh": "嗯，Eve 已经成为我在企业中部署 AI 智能体的最简单方式"
+ },
+ {
+  "seg": 119,
+  "start": 399.23,
+  "end": 406.23,
+  "speaker": "Claire",
+  "en": "in Slack and GitHub without the torture and pain of something like Hermes Agent",
+  "zh": "在 Slack 和 GitHub 中，没有像 Hermes Agent 那样的折磨和痛苦"
+ },
+ {
+  "seg": 120,
+  "start": 406.636,
+  "end": 409.278,
+  "speaker": "Claire",
+  "en": "or my beloved OpenClaw.",
+  "zh": "或者我心爱的 OpenClaw。"
+ },
+ {
+  "seg": 121,
+  "start": 409.618,
+  "end": 410.8402222222222,
+  "speaker": "Claire",
+  "en": "So when I'm working...",
+  "zh": "所以当我工作时..."
+ },
+ {
+  "seg": 122,
+  "start": 411.53,
+  "end": 415.246,
+  "speaker": "Claire",
+  "en": "And helping other companies sort of like think about how to deploy agents.",
+  "zh": "并帮助其他公司思考如何部署智能体。"
+ },
+ {
+  "seg": 123,
+  "start": 415.296,
+  "end": 417.9626666666667,
+  "speaker": "Claire",
+  "en": "If they're using Vercel, I tell them to use Eve.",
+  "zh": "如果他们使用 Vercel，我会告诉他们使用 Eve。"
+ },
+ {
+  "seg": 124,
+  "start": 418.04,
+  "end": 419.372,
+  "speaker": "Claire",
+  "en": "Why do I tell them to use Eve?",
+  "zh": "我为什么要告诉他们使用 Eve？"
+ },
+ {
+  "seg": 125,
+  "start": 419.422,
+  "end": 424.109,
+  "speaker": "Claire",
+  "en": "Well, what's awesome about Eve is a lot of it is just a directory.",
+  "zh": "嗯，Eve 的棒之处在于，它很多只是一个目录。"
+ },
+ {
+  "seg": 126,
+  "start": 424.209,
+  "end": 428.892,
+  "speaker": "Claire",
+  "en": "An Eve agent is very similar to open So",
+  "zh": "Eve 智能体与 open So 非常相似"
+ },
+ {
+  "seg": 127,
+  "start": 436.627,
+  "end": 440.542,
+  "speaker": "Claire",
+  "en": "again, it's like very easy to set up the agent.",
+  "zh": "同样，设置智能体非常容易。"
+ },
+ {
+  "seg": 128,
+  "start": 440.982,
+  "end": 443.574,
+  "speaker": "Claire",
+  "en": "It's very easy to give it skills, which we all use.",
+  "zh": "很容易赋予它技能，我们都在使用这些。"
+ },
+ {
+  "seg": 129,
+  "start": 443.624,
+  "end": 445.4017777777778,
+  "speaker": "Claire",
+  "en": "It's very easy to give it tools.",
+  "zh": "很容易赋予它工具。"
+ },
+ {
+  "seg": 130,
+  "start": 445.845,
+  "end": 449.038,
+  "speaker": "Claire",
+  "en": "It can even have a sandbox in which it can execute things,",
+  "zh": "它甚至可以拥有一个沙箱，在其中执行事务，"
+ },
+ {
+  "seg": 131,
+  "start": 449.088,
+  "end": 451.579,
+  "speaker": "Claire",
+  "en": "including your code if you're doing a code review.",
+  "zh": "包括你的代码，如果你正在进行代码审查的话。"
+ },
+ {
+  "seg": 132,
+  "start": 451.629,
+  "end": 458.114,
+  "speaker": "Claire",
+  "en": "And then my favorite part is Managing talking to the agent in specific channels",
+  "zh": "然后我最喜欢的部分是在特定频道中管理与智能体的对话"
+ },
+ {
+  "seg": 133,
+  "start": 458.375,
+  "end": 461.796,
+  "speaker": "Claire",
+  "en": "and connecting it to enterprise data is super easy.",
+  "zh": "并将其连接到企业数据是非常容易的。"
+ },
+ {
+  "seg": 134,
+  "start": 462.316,
+  "end": 466.158,
+  "speaker": "Claire",
+  "en": "So because Vercel has shipped a Vercel connectors,",
+  "zh": "因为 Vercel 已经推出了 Vercel 连接器，"
+ },
+ {
+  "seg": 135,
+  "start": 466.218,
+  "end": 469.6624444444445,
+  "speaker": "Claire",
+  "en": "which are like managed connections inside your Vercel account,",
+  "zh": "这就像你的 Vercel 账户内的托管连接，"
+ },
+ {
+  "seg": 136,
+  "start": 470.2,
+  "end": 473.33099999999996,
+  "speaker": "Claire",
+  "en": "you can just literally go through like a little wizard to hook up Slack",
+  "zh": "你甚至可以直接通过一个小向导来连接 Slack"
+ },
+ {
+  "seg": 137,
+  "start": 473.381,
+  "end": 477.7143333333333,
+  "speaker": "Claire",
+  "en": "to your Eve agent, a little wizard to hook up GitHub to go through your agent.",
+  "zh": "到你的 Eve 智能体，通过一个小向导连接 GitHub 到你的智能体。"
+ },
+ {
+  "seg": 138,
+  "start": 477.876,
+  "end": 480.387,
+  "speaker": "Claire",
+  "en": "And it's all set up, the refresh tokens, all that stuff.",
+  "zh": "一切都设置好了，刷新令牌，所有这些东西。"
+ },
+ {
+  "seg": 139,
+  "start": 480.437,
+  "end": 484.417,
+  "speaker": "Claire",
+  "en": "Everything that's painful about creating an agent is just taken care of.",
+  "zh": "创建智能体的所有痛苦事情都得到了处理。"
+ },
+ {
+  "seg": 140,
+  "start": 484.437,
+  "end": 487.278,
+  "speaker": "Claire",
+  "en": "And I sound totally like a Vercel shill.",
+  "zh": "我听起来完全像个 Vercel 的推销员。"
+ },
+ {
+  "seg": 141,
+  "start": 487.938,
+  "end": 489.529,
+  "speaker": "Claire",
+  "en": "I've just tried a bunch of stuff.",
+  "zh": "我只是尝试了一堆东西。"
+ },
+ {
+  "seg": 142,
+  "start": 489.579,
+  "end": 494.4,
+  "speaker": "Claire",
+  "en": "And this has been the easiest framework to get up and running.",
+  "zh": "这是最容易启动和运行的框架。"
+ },
+ {
+  "seg": 143,
+  "start": 494.62,
+  "end": 497.5,
+  "speaker": "Claire",
+  "en": "It uses the chat SDK behind the scenes.",
+  "zh": "它在后台使用 chat SDK。"
+ },
+ {
+  "seg": 144,
+  "start": 497.68,
+  "end": 503.182,
+  "speaker": "Claire",
+  "en": "And if you are creating any sort of chat bot in Slack, Teams, WhatsApp, whatever, I mean...",
+  "zh": "如果你在 Slack、Teams、WhatsApp 或任何地方创建任何类型的聊天机器人，我的意思是..."
+ },
+ {
+  "seg": 145,
+  "start": 505.547,
+  "end": 505.957,
+  "speaker": "Claire",
+  "en": "Bless.",
+  "zh": "感谢上天。"
+ },
+ {
+  "seg": 146,
+  "start": 506.007,
+  "end": 509.309,
+  "speaker": "Claire",
+  "en": "I was asking for this chat SDK for a long time.",
+  "zh": "我请求这个 chat SDK 很久了。"
+ },
+ {
+  "seg": 147,
+  "start": 509.329,
+  "end": 510.329,
+  "speaker": "Claire",
+  "en": "It got built.",
+  "zh": "它被构建出来了。"
+ },
+ {
+  "seg": 148,
+  "start": 510.489,
+  "end": 513.43,
+  "speaker": "Claire",
+  "en": "This is an open source framework that I think is so useful,",
+  "zh": "这是一个开源框架，我认为非常有用，"
+ },
+ {
+  "seg": 149,
+  "start": 513.47,
+  "end": 518.432,
+  "speaker": "Claire",
+  "en": "whether or not you use Eve or not, to stand up a chatbot.",
+  "zh": "无论你是否使用 Eve，都可以用来启动一个聊天机器人。"
+ },
+ {
+  "seg": 150,
+  "start": 518.532,
+  "end": 525.015,
+  "speaker": "Claire",
+  "en": "It just like takes away all the complexities of managing like multi-channel agents.",
+  "zh": "它只是消除了管理多渠道智能体的所有复杂性。"
+ },
+ {
+  "seg": 151,
+  "start": 525.515,
+  "end": 527.9594444444444,
+  "speaker": "Claire",
+  "en": "It handles all like the Slack configuration.",
+  "zh": "它处理所有的 Slack 配置。"
+ },
+ {
+  "seg": 152,
+  "start": 528.056,
+  "end": 529.537,
+  "speaker": "Claire",
+  "en": "It gives you a manifest for Slack.",
+  "zh": "它为 Slack 提供一个清单。"
+ },
+ {
+  "seg": 153,
+  "start": 529.557,
+  "end": 534.1125555555556,
+  "speaker": "Claire",
+  "en": "Like I love it the chat PRD Slack bot and Teams bot actually runs on the chat SDK,",
+  "zh": "我喜欢它，chat PRD Slack 机器人和 Teams 机器人实际上是运行在 chat SDK 上的，"
+ },
+ {
+  "seg": 154,
+  "start": 534.195,
+  "end": 537.327,
+  "speaker": "Claire",
+  "en": "but it's even better when it's bundled into this Eve framework.",
+  "zh": "但当它被打包进这个 Eve 框架时，情况变得更好了。"
+ },
+ {
+  "seg": 155,
+  "start": 537.377,
+  "end": 541.7,
+  "speaker": "Claire",
+  "en": "And so I highly recommend you try Eve framework.",
+  "zh": "所以我强烈推荐你尝试 Eve 框架。"
+ },
+ {
+  "seg": 156,
+  "start": 541.84,
+  "end": 544.172,
+  "speaker": "Claire",
+  "en": "Again, like they didn't pay me to say this.",
+  "zh": "同样，他们没付钱让我这么说。"
+ },
+ {
+  "seg": 157,
+  "start": 544.222,
+  "end": 545.212,
+  "speaker": "Claire",
+  "en": "I just really like it.",
+  "zh": "我真的很喜欢它。"
+ },
+ {
+  "seg": 158,
+  "start": 545.262,
+  "end": 546.803,
+  "speaker": "Claire",
+  "en": "And I found it super easy to use.",
+  "zh": "我发现它超级容易使用。"
+ },
+ {
+  "seg": 159,
+  "start": 546.843,
+  "end": 551.246,
+  "speaker": "Claire",
+  "en": "And now every agent that I'm creating that I want to interact with in Slack for",
+  "zh": "而现在我正在创建的每一个要在 Slack 中交互的智能体"
+ },
+ {
+  "seg": 160,
+  "start": 551.266,
+  "end": 555.9326666666666,
+  "speaker": "Claire",
+  "en": "an internal use case, if I don't already have an open claw, I'm porting over to Eve.",
+  "zh": "用于内部用例，如果我还不能用 open claw，我就把它迁移到 Eve。"
+ },
+ {
+  "seg": 161,
+  "start": 556.756,
+  "end": 559.357,
+  "speaker": "Claire",
+  "en": "So how did I actually build this?",
+  "zh": "那么我是如何实际构建这个的呢？"
+ },
+ {
+  "seg": 162,
+  "start": 559.437,
+  "end": 560.447,
+  "speaker": "Claire",
+  "en": "What does the agent do?",
+  "zh": "这个智能体是做什么的？"
+ },
+ {
+  "seg": 163,
+  "start": 560.497,
+  "end": 563.418,
+  "speaker": "Claire",
+  "en": "Well, I built it in Codex.",
+  "zh": "好吧，我是用 Codex 构建的。"
+ },
+ {
+  "seg": 164,
+  "start": 564.098,
+  "end": 568.739,
+  "speaker": "Claire",
+  "en": "And so I'm going to show you the amazing prompt where I started this PR review bot,",
+  "zh": "所以我要向大家展示我启动这个 PR 审查机器人时使用的那个神奇的提示词，"
+ },
+ {
+  "seg": 165,
+  "start": 568.759,
+  "end": 569.529,
+  "speaker": "Claire",
+  "en": "which says,",
+  "zh": "它说，"
+ },
+ {
+  "seg": 166,
+  "start": 569.579,
+  "end": 574.48,
+  "speaker": "Claire",
+  "en": "I want to make an internal GitHub bot slash app that reviews PRs after all C-checks,",
+  "zh": "我想做一个内部的 GitHub 机器人/应用，在所有 C-checks 完成后审查 PR，"
+ },
+ {
+  "seg": 167,
+  "start": 574.8,
+  "end": 575.8,
+  "speaker": "Claire",
+  "en": "that's checks,",
+  "zh": "那是 checks，"
+ },
+ {
+  "seg": 168,
+  "start": 576.061,
+  "end": 579.712,
+  "speaker": "Claire",
+  "en": "are green and grades low, medium, high risk and approves the low-rish.",
+  "zh": "变绿并将风险评级为低、中、高，并批准低风险的。"
+ },
+ {
+  "seg": 169,
+  "start": 579.762,
+  "end": 581.532,
+  "speaker": "Claire",
+  "en": "Oh my God, you guys, I can't type.",
+  "zh": "天哪，你们大家，我不会打字了。"
+ },
+ {
+  "seg": 170,
+  "start": 581.582,
+  "end": 582.582,
+  "speaker": "Claire",
+  "en": "I'll type those.",
+  "zh": "我来打那些字。"
+ },
+ {
+  "seg": 171,
+  "start": 582.722,
+  "end": 585.403,
+  "speaker": "Claire",
+  "en": "Approves the low-risk PRs automatically.",
+  "zh": "自动批准低风险的 PR。"
+ },
+ {
+  "seg": 172,
+  "start": 586.178,
+  "end": 587.7,
+  "speaker": "Claire",
+  "en": "That's all I did.",
+  "zh": "这就是我做的全部。"
+ },
+ {
+  "seg": 173,
+  "start": 587.84,
+  "end": 588.971,
+  "speaker": "Claire",
+  "en": "And then I interrupted it.",
+  "zh": "然后我打断了它。"
+ },
+ {
+  "seg": 174,
+  "start": 589.021,
+  "end": 593.2432222222221,
+  "speaker": "Claire",
+  "en": "I steered it and said, we could design it as a Vercel Eve agent if you want.",
+  "zh": "我引导它说，我们可以把它设计为一个 Vercel Eve 智能体，如果你愿意的话。"
+ },
+ {
+  "seg": 175,
+  "start": 593.827,
+  "end": 596.6,
+  "speaker": "Claire",
+  "en": "And it said, sure, that seems like a good, good idea.",
+  "zh": "它说，当然，那看起来是个好主意。"
+ },
+ {
+  "seg": 176,
+  "start": 596.65,
+  "end": 598.2055555555555,
+  "speaker": "Claire",
+  "en": "And it was off to the races.",
+  "zh": "然后就开始比赛了。"
+ },
+ {
+  "seg": 177,
+  "start": 598.914,
+  "end": 603.197,
+  "speaker": "Claire",
+  "en": "And so instead of going through kind of like the chat on Codex on how I built this,",
+  "zh": "所以与其过一遍我在 Codex 上是如何构建这个的聊天记录，"
+ },
+ {
+  "seg": 178,
+  "start": 603.217,
+  "end": 605.519,
+  "speaker": "Claire",
+  "en": "this took a couple turns, but really not that many.",
+  "zh": "这花了几轮对话，但实际上并没有那么多。"
+ },
+ {
+  "seg": 179,
+  "start": 605.539,
+  "end": 612.539,
+  "speaker": "Claire",
+  "en": "I would say a couple things that were like magical as I ran Codex is not that it did",
+  "zh": "我想说的是，当我运行 Codex 时有一些神奇的事情，"
+ },
+ {
+  "seg": 180,
+  "start": 612.644,
+  "end": 614.595,
+  "speaker": "Claire",
+  "en": "the code for the Eve agent and the repo.",
+  "zh": "不是因为它做了 Eve 智能体和仓库的代码。"
+ },
+ {
+  "seg": 181,
+  "start": 614.645,
+  "end": 615.265,
+  "speaker": "Claire",
+  "en": "That was fine.",
+  "zh": "那还不错。"
+ },
+ {
+  "seg": 182,
+  "start": 615.285,
+  "end": 615.906,
+  "speaker": "Claire",
+  "en": "That was interesting.",
+  "zh": "那很有趣。"
+ },
+ {
+  "seg": 183,
+  "start": 615.926,
+  "end": 619.1980000000001,
+  "speaker": "Claire",
+  "en": "And I'll tell you a little bit about how the code actually works in a sec.",
+  "zh": "我稍后会告诉你们一些关于代码实际是如何工作的。"
+ },
+ {
+  "seg": 184,
+  "start": 619.248,
+  "end": 624.852,
+  "speaker": "Claire",
+  "en": "But what was actually awesome is if you've ever set up a Slack bot or a GitHub app,",
+  "zh": "但真正棒的是，如果你曾经设置过 Slack 机器人或 GitHub 应用，"
+ },
+ {
+  "seg": 185,
+  "start": 625.535,
+  "end": 628.416,
+  "speaker": "Claire",
+  "en": "You have to like click through a bunch of configuration screens.",
+  "zh": "你必须点击通过一堆配置屏幕。"
+ },
+ {
+  "seg": 186,
+  "start": 628.436,
+  "end": 629.676,
+  "speaker": "Claire",
+  "en": "You have to pick permissions.",
+  "zh": "你必须选择权限。"
+ },
+ {
+  "seg": 187,
+  "start": 629.696,
+  "end": 631.3626666666667,
+  "speaker": "Claire",
+  "en": "You have to do all this stuff.",
+  "zh": "你必须做所有这些事情。"
+ },
+ {
+  "seg": 188,
+  "start": 631.616,
+  "end": 637.478,
+  "speaker": "Claire",
+  "en": "And so what I did is my favorite hack is I had it use Chrome browser use",
+  "zh": "所以我做的是我最喜欢的技巧是，我让它使用 Chrome 浏览器，"
+ },
+ {
+  "seg": 189,
+  "start": 637.638,
+  "end": 640.378,
+  "speaker": "Claire",
+  "en": "and I let it navigate Slack bot setup.",
+  "zh": "我让它导航 Slack 机器人设置。"
+ },
+ {
+  "seg": 190,
+  "start": 640.459,
+  "end": 644.019,
+  "speaker": "Claire",
+  "en": "I let it navigate GitHub setup.",
+  "zh": "我让它导航 GitHub 设置。"
+ },
+ {
+  "seg": 191,
+  "start": 644.419,
+  "end": 648.9745555555555,
+  "speaker": "Claire",
+  "en": "And I just like clicked buttons and 2F8 and just double checked that it was right.",
+  "zh": "我只是点击了按钮和 2F8，只是再次检查它是正确的。"
+ },
+ {
+  "seg": 192,
+  "start": 649.441,
+  "end": 651.851,
+  "speaker": "Claire",
+  "en": "And so I said, you know, is it configured yet?",
+  "zh": "所以我说，配置好了吗？"
+ },
+ {
+  "seg": 193,
+  "start": 651.901,
+  "end": 652.671,
+  "speaker": "Claire",
+  "en": "It said no.",
+  "zh": "它说没有。"
+ },
+ {
+  "seg": 194,
+  "start": 652.721,
+  "end": 655.575,
+  "speaker": "Claire",
+  "en": "It needs to configure all this stuff and the permissions on the GitHub bot.",
+  "zh": "它需要配置所有这些东西以及 GitHub 机器人上的权限。"
+ },
+ {
+  "seg": 195,
+  "start": 655.625,
+  "end": 658.1805555555555,
+  "speaker": "Claire",
+  "en": "I was like, great, you're logged into Chrome.",
+  "zh": "我说，太好了，你已经登录到 Chrome 了。"
+ },
+ {
+  "seg": 196,
+  "start": 658.466,
+  "end": 660.626,
+  "speaker": "Claire",
+  "en": "And then I was like, I can press save.",
+  "zh": "然后我说，我可以按保存。"
+ },
+ {
+  "seg": 197,
+  "start": 660.666,
+  "end": 661.957,
+  "speaker": "Claire",
+  "en": "It was having a hard time press save.",
+  "zh": "它按保存有点困难。"
+ },
+ {
+  "seg": 198,
+  "start": 662.007,
+  "end": 664.768,
+  "speaker": "Claire",
+  "en": "And so if you're just sort of like MetaTip,",
+  "zh": "所以如果你只是像 MetaTip，"
+ },
+ {
+  "seg": 199,
+  "start": 664.908,
+  "end": 668.969,
+  "speaker": "Claire",
+  "en": "if you ever have to do like complex SaaS configuration,",
+  "zh": "如果你必须做复杂的 SaaS 配置，"
+ },
+ {
+  "seg": 200,
+  "start": 669.049,
+  "end": 669.789,
+  "speaker": "Claire",
+  "en": "set up an app,",
+  "zh": "搭建一个应用,"
+ },
+ {
+  "seg": 201,
+  "start": 669.809,
+  "end": 670.809,
+  "speaker": "Claire",
+  "en": "you're like, oh,",
+  "zh": "你会觉得, 哦,"
+ },
+ {
+  "seg": 202,
+  "start": 670.869,
+  "end": 671.909,
+  "speaker": "Claire",
+  "en": "I'm fine writing code,",
+  "zh": "我没问题写代码,"
+ },
+ {
+  "seg": 203,
+  "start": 671.929,
+  "end": 676.0210000000001,
+  "speaker": "Claire",
+  "en": "but I don't want to do the configuration in somebody's third party service.",
+  "zh": "但我不想在别人的第三方服务里做配置。"
+ },
+ {
+  "seg": 204,
+  "start": 676.071,
+  "end": 680.792,
+  "speaker": "Claire",
+  "en": "Using Chrome browser use is such a useful hack to get that stuff done.",
+  "zh": "使用 Chrome 浏览器使用是一个非常有用的技巧来完成那些事情。"
+ },
+ {
+  "seg": 205,
+  "start": 681.395,
+  "end": 683.816,
+  "speaker": "Claire",
+  "en": "So again, I just built this in Codex.",
+  "zh": "所以再次强调, 我只是在 Codex 里构建了这个。"
+ },
+ {
+  "seg": 206,
+  "start": 683.836,
+  "end": 686.4060000000001,
+  "speaker": "Claire",
+  "en": "I actually didn't give it any instructions on scoring.",
+  "zh": "我实际上没给它任何关于评分的指令。"
+ },
+ {
+  "seg": 207,
+  "start": 686.456,
+  "end": 689.377,
+  "speaker": "Claire",
+  "en": "I didn't give it any instructions on configuration.",
+  "zh": "我没给它任何关于配置的指令。"
+ },
+ {
+  "seg": 208,
+  "start": 690.257,
+  "end": 692.388,
+  "speaker": "Claire",
+  "en": "I didn't give it any instructions on risk.",
+  "zh": "我没给它任何关于风险的指令。"
+ },
+ {
+  "seg": 209,
+  "start": 692.438,
+  "end": 694.738,
+  "speaker": "Claire",
+  "en": "I just said kind of like one-ish shot it.",
+  "zh": "我只是说有点像一次性搞定它。"
+ },
+ {
+  "seg": 210,
+  "start": 694.978,
+  "end": 697.039,
+  "speaker": "Claire",
+  "en": "Few shot this into production.",
+  "zh": "少样本地把这东西弄进生产环境。"
+ },
+ {
+  "seg": 211,
+  "start": 697.739,
+  "end": 702.0723333333334,
+  "speaker": "Claire",
+  "en": "And so I want to talk a little bit about what the agent does and how it works.",
+  "zh": "所以我想稍微谈谈这个智能体做什么以及它是怎么工作的。"
+ },
+ {
+  "seg": 212,
+  "start": 702.7,
+  "end": 703.841,
+  "speaker": "Claire",
+  "en": "It's pretty simple.",
+  "zh": "它相当简单。"
+ },
+ {
+  "seg": 213,
+  "start": 703.901,
+  "end": 706.663,
+  "speaker": "Claire",
+  "en": "If you were building a PR review agent,",
+  "zh": "如果你要构建一个 PR 审查智能体,"
+ },
+ {
+  "seg": 214,
+  "start": 706.763,
+  "end": 711.867,
+  "speaker": "Claire",
+  "en": "this is what I would suggest you do, which is it reads the PR.",
+  "zh": "这就是我建议你做的, 也就是它阅读 PR。"
+ },
+ {
+  "seg": 215,
+  "start": 711.967,
+  "end": 718.452,
+  "speaker": "Claire",
+  "en": "It looks at the exact diff and it scores the risk and it publishes the evidence to the risk.",
+  "zh": "它查看精确的差异并给风险打分, 并发布关于风险的证据。"
+ },
+ {
+  "seg": 216,
+  "start": 718.612,
+  "end": 725.397,
+  "speaker": "Claire",
+  "en": "If it's low risk, if it's assessed that it's a low risk PR, it submits an approval on the PR.",
+  "zh": "如果是低风险, 如果它评估为低风险 PR, 它就在 PR 上提交批准。"
+ },
+ {
+  "seg": 217,
+  "start": 725.417,
+  "end": 728.76,
+  "speaker": "Claire",
+  "en": "If it needs a human, it escalates to...",
+  "zh": "如果需要人类, 它就升级给……"
+ },
+ {
+  "seg": 218,
+  "start": 730.161,
+  "end": 737.161,
+  "speaker": "Claire",
+  "en": "And if there's a blocking requirement, then it stops and it will require a request change.",
+  "zh": "如果有阻塞性要求, 那么它停下来并会要求请求变更。"
+ },
+ {
+  "seg": 219,
+  "start": 737.888,
+  "end": 741.891,
+  "speaker": "Claire",
+  "en": "So it's like very similar to how a human would do code review.",
+  "zh": "所以它就像人类做代码审查一样。"
+ },
+ {
+  "seg": 220,
+  "start": 742.432,
+  "end": 745.264,
+  "speaker": "Claire",
+  "en": "How does it work from a technical flow perspective?",
+  "zh": "从技术流的角度看它是怎么工作的？"
+ },
+ {
+  "seg": 221,
+  "start": 745.314,
+  "end": 747.2584444444444,
+  "speaker": "Claire",
+  "en": "So the GitHub, I have a GitHub app.",
+  "zh": "所以这个 GitHub, 我有一个 GitHub 应用。"
+ },
+ {
+  "seg": 222,
+  "start": 748.757,
+  "end": 752.48,
+  "speaker": "Claire",
+  "en": "Keys off an event after all of the PR changes are done.",
+  "zh": "在所有 PR 变更完成后由一个事件触发。"
+ },
+ {
+  "seg": 223,
+  "start": 753.02,
+  "end": 758.584,
+  "speaker": "Claire",
+  "en": "Vercel's GitHub integration picks that up in the GitHub Vercel channel",
+  "zh": "Vercel 的 GitHub 集成在 GitHub Vercel 频道里接收到它"
+ },
+ {
+  "seg": 224,
+  "start": 758.604,
+  "end": 760.755,
+  "speaker": "Claire",
+  "en": "and it sends it a little bit of information.",
+  "zh": "并发送给它一点点信息。"
+ },
+ {
+  "seg": 225,
+  "start": 760.805,
+  "end": 762.687,
+  "speaker": "Claire",
+  "en": "Vercel spins up its sandbox.",
+  "zh": "Vercel 启动它的沙箱。"
+ },
+ {
+  "seg": 226,
+  "start": 762.887,
+  "end": 764.528,
+  "speaker": "Claire",
+  "en": "It checks out the repo.",
+  "zh": "它检出仓库。"
+ },
+ {
+  "seg": 227,
+  "start": 765.088,
+  "end": 766.9213333333333,
+  "speaker": "Claire",
+  "en": "It runs it and looks at the diff.",
+  "zh": "它运行它并查看差异。"
+ },
+ {
+  "seg": 228,
+  "start": 767.05,
+  "end": 771.773,
+  "speaker": "Claire",
+  "en": "It runs a couple skills and tools to assess the risk and quality of the PR.",
+  "zh": "它运行一些技能和工具来评估 PR 的风险和质量。"
+ },
+ {
+  "seg": 229,
+  "start": 772.353,
+  "end": 778.256,
+  "speaker": "Claire",
+  "en": "And then on the end, it outputs like a thumbs up check, like it needs changes and a comment.",
+  "zh": "然后在最后, 它输出像竖起大拇指的检查, 比如它需要变更和一条评论。"
+ },
+ {
+  "seg": 230,
+  "start": 778.296,
+  "end": 781.377,
+  "speaker": "Claire",
+  "en": "And then one fun thing that it does is after it does that review,",
+  "zh": "然后它做的一件有趣的事是, 在它做完那个审查后,"
+ },
+ {
+  "seg": 231,
+  "start": 781.397,
+  "end": 785.699,
+  "speaker": "Claire",
+  "en": "it pings my colleague and I in Slack to say this PR is ready for review",
+  "zh": "它在 Slack 里 ping 我的同事和我, 说这个 PR 准备好审查了"
+ },
+ {
+  "seg": 232,
+  "start": 785.919,
+  "end": 787.66,
+  "speaker": "Claire",
+  "en": "or it needs some help.",
+  "zh": "或者它需要一些帮助。"
+ },
+ {
+  "seg": 233,
+  "start": 788.689,
+  "end": 793.817,
+  "speaker": "Claire",
+  "en": "So if you were to set up your Eve agent to be similar to mine, what would it have?",
+  "zh": "所以如果你要设置你的 Eve 智能体让它和我的类似, 它会有什么？"
+ },
+ {
+  "seg": 234,
+  "start": 794.077,
+  "end": 796.341,
+  "speaker": "Claire",
+  "en": "Well, it would have a couple of things.",
+  "zh": "嗯, 它会有几样东西。"
+ },
+ {
+  "seg": 235,
+  "start": 796.541,
+  "end": 800.047,
+  "speaker": "Claire",
+  "en": "It needs to have the GitHub channel.",
+  "zh": "它需要有 GitHub 频道。"
+ },
+ {
+  "seg": 236,
+  "start": 800.347,
+  "end": 803.9720000000001,
+  "speaker": "Claire",
+  "en": "It needs to have instructions, which I can show you a little bit of the instructions.",
+  "zh": "它需要有指令, 我可以给你展示一点点指令。"
+ },
+ {
+  "seg": 237,
+  "start": 804.022,
+  "end": 806.524,
+  "speaker": "Claire",
+  "en": "It needs a skill to review the PR.",
+  "zh": "它需要一个技能来审查 PR。"
+ },
+ {
+  "seg": 238,
+  "start": 806.764,
+  "end": 808.185,
+  "speaker": "Claire",
+  "en": "It needs two tools,",
+  "zh": "它需要两个工具,"
+ },
+ {
+  "seg": 239,
+  "start": 808.965,
+  "end": 814.049,
+  "speaker": "Claire",
+  "en": "read like all the files and information around the PR and then how to actually put",
+  "zh": "读取像所有 PR 周围的文件和信息然后如何实际地放入"
+ },
+ {
+  "seg": 240,
+  "start": 814.189,
+  "end": 815.27,
+  "speaker": "Claire",
+  "en": "a risk decision in.",
+  "zh": "一个风险决策。"
+ },
+ {
+  "seg": 241,
+  "start": 815.83,
+  "end": 818.822,
+  "speaker": "Claire",
+  "en": "And then it has, you know, a couple of things like a Slack notifier.",
+  "zh": "然后它有, 你知道, 一些像 Slack 通知器的东西。"
+ },
+ {
+  "seg": 242,
+  "start": 818.872,
+  "end": 820.974,
+  "speaker": "Claire",
+  "en": "So this is not that many files.",
+  "zh": "所以这没有那么多文件。"
+ },
+ {
+  "seg": 243,
+  "start": 821.114,
+  "end": 822.175,
+  "speaker": "Claire",
+  "en": "It's pretty simple.",
+  "zh": "它相当简单。"
+ },
+ {
+  "seg": 244,
+  "start": 822.235,
+  "end": 827.258,
+  "speaker": "Claire",
+  "en": "I will show you our instructions just to make this like very clear how easy it is",
+  "zh": "我会给你看我们的指令只是为了让这非常清楚有多容易"
+ },
+ {
+  "seg": 245,
+  "start": 827.318,
+  "end": 828.3090000000001,
+  "speaker": "Claire",
+  "en": "to set this up.",
+  "zh": "来设置这个。"
+ },
+ {
+  "seg": 246,
+  "start": 828.359,
+  "end": 830.247888888889,
+  "speaker": "Claire",
+  "en": "It's a chat PRD engineering agent.",
+  "zh": "这是一个聊天 PRD 工程智能体。"
+ },
+ {
+  "seg": 247,
+  "start": 830.663,
+  "end": 831.783,
+  "speaker": "Claire",
+  "en": "It reviews PRs.",
+  "zh": "它审查 PR。"
+ },
+ {
+  "seg": 248,
+  "start": 831.883,
+  "end": 833.3274444444445,
+  "speaker": "Claire",
+  "en": "It calls the risk context.",
+  "zh": "它调用风险上下文。"
+ },
+ {
+  "seg": 249,
+  "start": 833.784,
+  "end": 834.784,
+  "speaker": "Claire",
+  "en": "It scores it.",
+  "zh": "它给风险打分。"
+ },
+ {
+  "seg": 250,
+  "start": 834.844,
+  "end": 836.854,
+  "speaker": "Claire",
+  "en": "And then it has a couple of instructions.",
+  "zh": "然后它有几条指令。"
+ },
+ {
+  "seg": 251,
+  "start": 836.904,
+  "end": 837.5540000000001,
+  "speaker": "Claire",
+  "en": "This is it.",
+  "zh": "这就是全部了。"
+ },
+ {
+  "seg": 252,
+  "start": 837.604,
+  "end": 838.8262222222222,
+  "speaker": "Claire",
+  "en": "There is no scrolling.",
+  "zh": "没有滚动条。"
+ },
+ {
+  "seg": 253,
+  "start": 838.985,
+  "end": 843.185,
+  "speaker": "Claire",
+  "en": "It is like four or five paragraphs, a couple of bullet points, and it's ready to go.",
+  "zh": "大概是四或五段，几个要点，就可以准备就绪了。"
+ },
+ {
+  "seg": 254,
+  "start": 843.225,
+  "end": 845.3361111111111,
+  "speaker": "Claire",
+  "en": "You do not need to over-engineer this.",
+  "zh": "你不需要过度设计这个。"
+ },
+ {
+  "seg": 255,
+  "start": 845.786,
+  "end": 847.966,
+  "speaker": "Claire",
+  "en": "And it works really, really well.",
+  "zh": "而且它真的、真的很好用。"
+ },
+ {
+  "seg": 256,
+  "start": 848.006,
+  "end": 848.666,
+  "speaker": "Claire",
+  "en": "So this is, again,",
+  "zh": "所以这又是，"
+ },
+ {
+  "seg": 257,
+  "start": 848.706,
+  "end": 850.537,
+  "speaker": "Claire",
+  "en": "why I like this Eve Agent framework,",
+  "zh": "为什么我喜欢这个 Eve Agent 框架，"
+ },
+ {
+  "seg": 258,
+  "start": 850.587,
+  "end": 853.9758888888889,
+  "speaker": "Claire",
+  "en": "because you're just working in natural text or in TypeScript,",
+  "zh": "因为你只是在自然文本中或在 TypeScript 中工作，"
+ },
+ {
+  "seg": 259,
+  "start": 854.187,
+  "end": 856.448,
+  "speaker": "Claire",
+  "en": "and it's super easy to implement.",
+  "zh": "而且它超级容易实现。"
+ },
+ {
+  "seg": 260,
+  "start": 857.408,
+  "end": 858.8524444444445,
+  "speaker": "Claire",
+  "en": "Setting up the GitHub app.",
+  "zh": "设置 GitHub 应用。"
+ },
+ {
+  "seg": 261,
+  "start": 859.027,
+  "end": 859.768,
+  "speaker": "Claire",
+  "en": "You can ignore this.",
+  "zh": "你可以忽略这个。"
+ },
+ {
+  "seg": 262,
+  "start": 859.808,
+  "end": 862.74,
+  "speaker": "Claire",
+  "en": "I mean, I guess like point your agents to this instructions.",
+  "zh": "我的意思是，我想把你的智能体指向这些指令。"
+ },
+ {
+  "seg": 263,
+  "start": 862.79,
+  "end": 864.492,
+  "speaker": "Claire",
+  "en": "I did not do any of this.",
+  "zh": "我没有做任何这些。"
+ },
+ {
+  "seg": 264,
+  "start": 865.092,
+  "end": 867.8142222222222,
+  "speaker": "Claire",
+  "en": "Again, Chrome browser use did this on our behalf.",
+  "zh": "同样，Chrome 浏览器使用代表我们做了这些。"
+ },
+ {
+  "seg": 265,
+  "start": 867.895,
+  "end": 871.298,
+  "speaker": "Claire",
+  "en": "And so it just has to have access to the pull requests,",
+  "zh": "所以它只需要有权访问拉取请求，"
+ },
+ {
+  "seg": 266,
+  "start": 871.338,
+  "end": 877.703,
+  "speaker": "Claire",
+  "en": "the contents of your files, CI checks and action checks, and then some metadata.",
+  "zh": "你的文件内容，CI 检查和操作检查，以及一些元数据。"
+ },
+ {
+  "seg": 267,
+  "start": 878.384,
+  "end": 880.846,
+  "speaker": "Claire",
+  "en": "And I just had Vercel set all that up.",
+  "zh": "我只是让 Vercel 设置了所有这些。"
+ },
+ {
+  "seg": 268,
+  "start": 881.588,
+  "end": 884.291,
+  "speaker": "Claire",
+  "en": "It has a couple rules on when it's triggered.",
+  "zh": "它有关于何时触发它的几个规则。"
+ },
+ {
+  "seg": 269,
+  "start": 884.311,
+  "end": 887.024,
+  "speaker": "Claire",
+  "en": "So you don't want it triggered on every PR before checks are done.",
+  "zh": "所以你不希望它在检查完成前的每个 PR 上都被触发。"
+ },
+ {
+  "seg": 270,
+  "start": 887.074,
+  "end": 890.958,
+  "speaker": "Claire",
+  "en": "So I kind of had to reduce some noise in the PR rules.",
+  "zh": "所以我不得不减少 PR 规则中的一些噪音。"
+ },
+ {
+  "seg": 271,
+  "start": 890.998,
+  "end": 893.7757777777779,
+  "speaker": "Claire",
+  "en": "And then there's just two basically steps to this.",
+  "zh": "然后这基本上只有两个步骤。"
+ },
+ {
+  "seg": 272,
+  "start": 894.581,
+  "end": 896.103,
+  "speaker": "Claire",
+  "en": "It reads the PR.",
+  "zh": "它读取 PR。"
+ },
+ {
+  "seg": 273,
+  "start": 897.224,
+  "end": 898.705,
+  "speaker": "Claire",
+  "en": "It's like a skill to read the PR.",
+  "zh": "这就像一个读取 PR 的技能。"
+ },
+ {
+  "seg": 274,
+  "start": 898.746,
+  "end": 899.7170000000001,
+  "speaker": "Claire",
+  "en": "I will show it to you.",
+  "zh": "我会展示给你看。"
+ },
+ {
+  "seg": 275,
+  "start": 899.767,
+  "end": 901.058,
+  "speaker": "Claire",
+  "en": "It's not that thrilling.",
+  "zh": "它没有那么刺激。"
+ },
+ {
+  "seg": 276,
+  "start": 901.108,
+  "end": 903.608,
+  "speaker": "Claire",
+  "en": "But again, just showing you how simple it is.",
+  "zh": "但同样，只是向你展示它是多么简单。"
+ },
+ {
+  "seg": 277,
+  "start": 905.888,
+  "end": 909.231,
+  "speaker": "Claire",
+  "en": "It reads and reviews the PR.",
+  "zh": "它阅读并审查 PR。"
+ },
+ {
+  "seg": 278,
+  "start": 909.852,
+  "end": 914.756,
+  "speaker": "Claire",
+  "en": "It has a couple repo specific risk kind of categories.",
+  "zh": "它有几个特定于仓库的风险类别。"
+ },
+ {
+  "seg": 279,
+  "start": 914.776,
+  "end": 916.558,
+  "speaker": "Claire",
+  "en": "So like docs are low risk,",
+  "zh": "所以像文档是低风险，"
+ },
+ {
+  "seg": 280,
+  "start": 917.039,
+  "end": 921.483,
+  "speaker": "Claire",
+  "en": "feature logic is medium risk, and then like authentication billings, high risk.",
+  "zh": "功能逻辑是中等风险，然后像身份验证计费，高风险。"
+ },
+ {
+  "seg": 281,
+  "start": 921.923,
+  "end": 923.825,
+  "speaker": "Claire",
+  "en": "Diff size does not set risk.",
+  "zh": "差异大小不设定风险。"
+ },
+ {
+  "seg": 282,
+  "start": 924.333,
+  "end": 927.2774444444444,
+  "speaker": "Claire",
+  "en": "And then it gives some like instructions on writing.",
+  "zh": "然后它给出一些关于写作的指令。"
+ },
+ {
+  "seg": 283,
+  "start": 927.335,
+  "end": 928.335,
+  "speaker": "Claire",
+  "en": "Again, this is it.",
+  "zh": "再次，这就是全部。"
+ },
+ {
+  "seg": 284,
+  "start": 928.416,
+  "end": 929.587,
+  "speaker": "Claire",
+  "en": "It's like not that much.",
+  "zh": "也就是没有那么多。"
+ },
+ {
+  "seg": 285,
+  "start": 929.637,
+  "end": 930.958,
+  "speaker": "Claire",
+  "en": "Maybe one page of text.",
+  "zh": "大概一页文字。"
+ },
+ {
+  "seg": 286,
+  "start": 931.078,
+  "end": 932.409,
+  "speaker": "Claire",
+  "en": "I did not write any of this.",
+  "zh": "我没有写任何这些。"
+ },
+ {
+  "seg": 287,
+  "start": 932.459,
+  "end": 933.459,
+  "speaker": "Claire",
+  "en": "I refined it.",
+  "zh": "我优化了它。"
+ },
+ {
+  "seg": 288,
+  "start": 933.719,
+  "end": 937.9720000000001,
+  "speaker": "Claire",
+  "en": "And so what I'm trying to reinforce to you is like writing these agents is not that hard.",
+  "zh": "所以我想向你强调的是，编写这些智能体并不是那么难。"
+ },
+ {
+  "seg": 289,
+  "start": 938.022,
+  "end": 940.874,
+  "speaker": "Claire",
+  "en": "It is literally just writing instructions and skills.",
+  "zh": "它实际上就是编写指令和技能。"
+ },
+ {
+  "seg": 290,
+  "start": 940.924,
+  "end": 943.266,
+  "speaker": "Claire",
+  "en": "That is what it takes to create an agent like this.",
+  "zh": "这就是创建这样一个智能体所需要的。"
+ },
+ {
+  "seg": 291,
+  "start": 943.286,
+  "end": 946.673,
+  "speaker": "Claire",
+  "en": "And that's why I like this e-framework because you can do a lot of it in text.",
+  "zh": "这也是为什么我喜欢这个 e-framework，因为你可以在文本中做很多工作。"
+ },
+ {
+  "seg": 292,
+  "start": 946.723,
+  "end": 947.723,
+  "speaker": "Claire",
+  "en": "Markdown.",
+  "zh": "Markdown。"
+ },
+ {
+  "seg": 293,
+  "start": 947.843,
+  "end": 951.584,
+  "speaker": "Claire",
+  "en": "And then once it reads the code, it scores the risk.",
+  "zh": "然后一旦它读取了代码，它就会对风险进行评分。"
+ },
+ {
+  "seg": 294,
+  "start": 951.684,
+  "end": 953.3506666666666,
+  "speaker": "Claire",
+  "en": "And so it looks at six things.",
+  "zh": "所以它看六个方面。"
+ },
+ {
+  "seg": 295,
+  "start": 953.785,
+  "end": 956.605,
+  "speaker": "Claire",
+  "en": "How big is the change surface and blast radius?",
+  "zh": "变更表面和爆炸半径有多大？"
+ },
+ {
+  "seg": 296,
+  "start": 956.946,
+  "end": 958.786,
+  "speaker": "Claire",
+  "en": "Is it easily reversible, right?",
+  "zh": "它是否容易可逆，对吧？"
+ },
+ {
+  "seg": 297,
+  "start": 958.806,
+  "end": 961.7504444444445,
+  "speaker": "Claire",
+  "en": "Like a huge data migrations may be harder to reverse.",
+  "zh": "就像巨大的数据迁移可能更难逆转。"
+ },
+ {
+  "seg": 298,
+  "start": 962.007,
+  "end": 965.2180000000001,
+  "speaker": "Claire",
+  "en": "Does it touch data security and does it cover data security?",
+  "zh": "它是否触及数据安全，是否涵盖数据安全？"
+ },
+ {
+  "seg": 299,
+  "start": 965.268,
+  "end": 967.4780000000001,
+  "speaker": "Claire",
+  "en": "Does it change anything about our operations?",
+  "zh": "它是否改变了关于我们运营的任何事情？"
+ },
+ {
+  "seg": 300,
+  "start": 967.528,
+  "end": 970.689,
+  "speaker": "Claire",
+  "en": "And verification gap is like, are our tests complete?",
+  "zh": "然后验证缺口就像，我们的测试是否完整？"
+ },
+ {
+  "seg": 301,
+  "start": 970.749,
+  "end": 971.889,
+  "speaker": "Claire",
+  "en": "Did CI complete?",
+  "zh": "CI 完成了吗？"
+ },
+ {
+  "seg": 302,
+  "start": 972.249,
+  "end": 975.1934444444445,
+  "speaker": "Claire",
+  "en": "Can we actually test a couple ways that this is true?",
+  "zh": "我们能不能实际测试几种方法来验证这是真的？"
+ },
+ {
+  "seg": 303,
+  "start": 975.793,
+  "end": 980.098,
+  "speaker": "Claire",
+  "en": "And then it has sort of like a script that it runs to calculate a score.",
+  "zh": "然后它有一个它运行的脚本来计算分数。"
+ },
+ {
+  "seg": 304,
+  "start": 980.658,
+  "end": 984.673,
+  "speaker": "Claire",
+  "en": "And then anything under 24 points, again, I did not like choose these thresholds.",
+  "zh": "然后任何低于 24 分的，再次说明，我并没有选择这些阈值。"
+ },
+ {
+  "seg": 305,
+  "start": 984.723,
+  "end": 986.635,
+  "speaker": "Claire",
+  "en": "Anything below 24 points is low risk.",
+  "zh": "低于 24 分的任何内容都是低风险。"
+ },
+ {
+  "seg": 306,
+  "start": 986.685,
+  "end": 988.246,
+  "speaker": "Claire",
+  "en": "Medium risk is 25 to 64.",
+  "zh": "中风险是 25 到 64 分。"
+ },
+ {
+  "seg": 307,
+  "start": 988.286,
+  "end": 991.17,
+  "speaker": "Claire",
+  "en": "And then 65 and above is high risk.",
+  "zh": "然后 65 分及以上是高风险。"
+ },
+ {
+  "seg": 308,
+  "start": 991.25,
+  "end": 994.093,
+  "speaker": "Claire",
+  "en": "Medium and high risk PRs require human risk.",
+  "zh": "中高风险的 PR 需要人工风险。"
+ },
+ {
+  "seg": 309,
+  "start": 994.8,
+  "end": 995.8,
+  "speaker": "Claire",
+  "en": "Approval.",
+  "zh": "批准。"
+ },
+ {
+  "seg": 310,
+  "start": 996.081,
+  "end": 998.422,
+  "speaker": "Claire",
+  "en": "So it's pretty simple.",
+  "zh": "所以这很简单。"
+ },
+ {
+  "seg": 311,
+  "start": 998.522,
+  "end": 1003.145,
+  "speaker": "Claire",
+  "en": "There's some logic in here to only review the latest changes, which I like.",
+  "zh": "这里有一些逻辑只审查最新的变更，我很喜欢这一点。"
+ },
+ {
+  "seg": 312,
+  "start": 1003.265,
+  "end": 1008.268,
+  "speaker": "Claire",
+  "en": "And then the final piece is it escalates us to us in Slack for final action.",
+  "zh": "然后最后一步是它升级到我们的 Slack 以进行最终操作。"
+ },
+ {
+  "seg": 313,
+  "start": 1008.308,
+  "end": 1014.252,
+  "speaker": "Claire",
+  "en": "So we have repo rules probably very similar to all of you that requires a review",
+  "zh": "所以我们有仓库规则，可能和你们所有人都非常相似，要求在 GitHub 中进行审查"
+ },
+ {
+  "seg": 314,
+  "start": 1014.793,
+  "end": 1019.075,
+  "speaker": "Claire",
+  "en": "in our GitHub to like match all of our SOC 2 compliance requirements.",
+  "zh": "以满足我们所有的 SOC 2 合规要求。"
+ },
+ {
+  "seg": 315,
+  "start": 1019.095,
+  "end": 1023.418,
+  "speaker": "Claire",
+  "en": "It just makes auditing and management of our compliance really easy.",
+  "zh": "这只是让我们合规的审计和管理变得非常容易。"
+ },
+ {
+  "seg": 316,
+  "start": 1024.577,
+  "end": 1030.059,
+  "speaker": "Claire",
+  "en": "I went through a couple ways where the bot could like quote unquote act like a human",
+  "zh": "我尝试了几种方法，让机器人可以像所谓的像人一样"
+ },
+ {
+  "seg": 317,
+  "start": 1030.119,
+  "end": 1030.789,
+  "speaker": "Claire",
+  "en": "to do the review.",
+  "zh": "去进行审查。"
+ },
+ {
+  "seg": 318,
+  "start": 1030.839,
+  "end": 1032.450111111111,
+  "speaker": "Claire",
+  "en": "It just didn't seem worth it.",
+  "zh": "这似乎不值得。"
+ },
+ {
+  "seg": 319,
+  "start": 1032.64,
+  "end": 1036.5910000000001,
+  "speaker": "Claire",
+  "en": "So what it does is escalate to Slack and then it says this one's been automatically reviewed.",
+  "zh": "所以它所做的是升级到 Slack，然后说这个已经被自动审查了。"
+ },
+ {
+  "seg": 320,
+  "start": 1036.641,
+  "end": 1040.5854444444444,
+  "speaker": "Claire",
+  "en": "You can punch the approve button and merge and you're good, good to go.",
+  "zh": "你可以按下批准按钮然后合并，你就没问题了，可以继续了。"
+ },
+ {
+  "seg": 321,
+  "start": 1040.91,
+  "end": 1044.752,
+  "speaker": "Claire",
+  "en": "And so we sort of like built in an operational process here as well.",
+  "zh": "所以我们在这里也建立了一个运营流程。"
+ },
+ {
+  "seg": 322,
+  "start": 1044.992,
+  "end": 1050.214,
+  "speaker": "Claire",
+  "en": "But let's see what this actually looks like in action.",
+  "zh": "但让我们看看这在实际中是什么样的。"
+ },
+ {
+  "seg": 323,
+  "start": 1050.515,
+  "end": 1055.797,
+  "speaker": "Claire",
+  "en": "So I have three PRs for you just to show you kind of how this works.",
+  "zh": "所以我有三个 PR 给你们展示，只是为了让你们了解这是如何工作的。"
+ },
+ {
+  "seg": 324,
+  "start": 1055.897,
+  "end": 1058.758,
+  "speaker": "Claire",
+  "en": "Now, the PR bot is called Merge Mommy.",
+  "zh": "现在，这个 PR 机器人叫 Merge Mommy。"
+ },
+ {
+  "seg": 325,
+  "start": 1058.919,
+  "end": 1061.42,
+  "speaker": "Claire",
+  "en": "She's Merge Mommy, the PR review bot.",
+  "zh": "她是 Merge Mommy，这个 PR 审查机器人。"
+ },
+ {
+  "seg": 326,
+  "start": 1061.58,
+  "end": 1064.471,
+  "speaker": "Claire",
+  "en": "You know, when you make internal bots, we don't have DivVader.",
+  "zh": "你知道，当你制作内部机器人时，我们没有 DivVader。"
+ },
+ {
+  "seg": 327,
+  "start": 1064.521,
+  "end": 1067.2432222222221,
+  "speaker": "Claire",
+  "en": "We have Merge Mommy because we're fun at ChatPRD.",
+  "zh": "我们有 Merge Mommy，因为我们在 ChatPRD 很有趣。"
+ },
+ {
+  "seg": 328,
+  "start": 1067.543,
+  "end": 1071.892,
+  "speaker": "Claire",
+  "en": "And this was a Docs only update automatically done by Devin.",
+  "zh": "这是一个仅限文档的更新，由 Devin 自动完成。"
+ },
+ {
+  "seg": 329,
+  "start": 1071.993,
+  "end": 1076.356,
+  "speaker": "Claire",
+  "en": "And typically I just like smash the approval button on these, merge them.",
+  "zh": "通常我只是对这些猛击批准按钮，然后合并它们。"
+ },
+ {
+  "seg": 330,
+  "start": 1076.536,
+  "end": 1080.038,
+  "speaker": "Claire",
+  "en": "But I found that like we were just getting queued up of a lot of docs changes",
+  "zh": "但我发现我们只是排了很多队列的文档变更"
+ },
+ {
+  "seg": 331,
+  "start": 1080.079,
+  "end": 1082.39,
+  "speaker": "Claire",
+  "en": "that didn't really need a bunch of review.",
+  "zh": "这些变更并不真正需要大量的审查。"
+ },
+ {
+  "seg": 332,
+  "start": 1082.44,
+  "end": 1089.44,
+  "speaker": "Claire",
+  "en": "And so what happens on once the PR is ready to go, Merge Mommy runs.",
+  "zh": "所以一旦 PR 准备好了会发生什么，Merge Mommy 运行。"
+ },
+ {
+  "seg": 333,
+  "start": 1089.666,
+  "end": 1092.748,
+  "speaker": "Claire",
+  "en": "It gives a risk score, six out of 10.",
+  "zh": "它给出风险评分，10 分里的 6 分。"
+ },
+ {
+  "seg": 334,
+  "start": 1092.808,
+  "end": 1093.909,
+  "speaker": "Claire",
+  "en": "It's very low risk.",
+  "zh": "它是非常低的风险。"
+ },
+ {
+  "seg": 335,
+  "start": 1094.78,
+  "end": 1101.288,
+  "speaker": "Claire",
+  "en": "Because it only changes docs, but it's not auto-approved because it has merge conflicts.",
+  "zh": "因为它只更改文档，但它不是自动批准的，因为它有合并冲突。"
+ },
+ {
+  "seg": 336,
+  "start": 1101.448,
+  "end": 1104.336888888889,
+  "speaker": "Claire",
+  "en": "So that's one of the scoring issues it has to check.",
+  "zh": "所以这是它必须检查的评分问题之一。"
+ },
+ {
+  "seg": 337,
+  "start": 1104.652,
+  "end": 1111.039,
+  "speaker": "Claire",
+  "en": "And then there are some detailed notes here about why it's blocked in",
+  "zh": "然后这里有一些详细注释说明为什么它被阻止在"
+ },
+ {
+  "seg": 338,
+  "start": 1111.059,
+  "end": 1114.4478888888889,
+  "speaker": "Claire",
+  "en": "the approval blocker is the pull request has merge conflicts.",
+  "zh": "批准阻碍因素是拉取请求有合并冲突。"
+ },
+ {
+  "seg": 339,
+  "start": 1114.837,
+  "end": 1116.958,
+  "speaker": "Claire",
+  "en": "A cleaner example here is this doc,",
+  "zh": "这里一个更干净的例子是这个文档，"
+ },
+ {
+  "seg": 340,
+  "start": 1116.978,
+  "end": 1118.255777777778,
+  "speaker": "Claire",
+  "en": "which I already merged,",
+  "zh": "我已经合并了，"
+ },
+ {
+  "seg": 341,
+  "start": 1118.398,
+  "end": 1121.929,
+  "speaker": "Claire",
+  "en": "which again went through and said it's seven out of 10 low risk.",
+  "zh": "它再次通过并说它是 10 分里的 7 分，低风险。"
+ },
+ {
+  "seg": 342,
+  "start": 1121.979,
+  "end": 1123.119,
+  "speaker": "Claire",
+  "en": "It's auto approved.",
+  "zh": "它是自动批准的。"
+ },
+ {
+  "seg": 343,
+  "start": 1123.559,
+  "end": 1127.371,
+  "speaker": "Claire",
+  "en": "And you can see up here, Merge Mommy gave a little check that said it's approved.",
+  "zh": "你可以在上面看到，Merge Mommy 给了一个小勾号说它已批准。"
+ },
+ {
+  "seg": 344,
+  "start": 1127.421,
+  "end": 1133.242,
+  "speaker": "Claire",
+  "en": "Now what we do with these approved PRs, as I said, is we send them to a Slack channel.",
+  "zh": "现在我们对这些批准的 PR 做什么，正如我所说，是我们把它们发送到 Slack 频道。"
+ },
+ {
+  "seg": 345,
+  "start": 1133.342,
+  "end": 1138.043,
+  "speaker": "Claire",
+  "en": "And so the Slack channel says, hey, either of you can take this, approve it.",
+  "zh": "所以 Slack 频道说，嘿，你们两个任何一个都可以处理这个，批准它。"
+ },
+ {
+  "seg": 346,
+  "start": 1138.444,
+  "end": 1139.204,
+  "speaker": "Claire",
+  "en": "The risk is low.",
+  "zh": "风险很低。"
+ },
+ {
+  "seg": 347,
+  "start": 1139.224,
+  "end": 1140.154,
+  "speaker": "Claire",
+  "en": "The checks are green.",
+  "zh": "检查都是绿色的。"
+ },
+ {
+  "seg": 348,
+  "start": 1140.204,
+  "end": 1143.365,
+  "speaker": "Claire",
+  "en": "You just need to smash that approve button and merge it.",
+  "zh": "你只需要猛击那个批准按钮并合并它。"
+ },
+ {
+  "seg": 349,
+  "start": 1143.785,
+  "end": 1147.506,
+  "speaker": "Claire",
+  "en": "So it's just like a really nice automated flow.",
+  "zh": "所以这只是一个非常好的自动化流程。"
+ },
+ {
+  "seg": 350,
+  "start": 1147.526,
+  "end": 1149.457,
+  "speaker": "Claire",
+  "en": "Now, why do we have to have a human do it?",
+  "zh": "现在，为什么我们需要由人来执行？"
+ },
+ {
+  "seg": 351,
+  "start": 1149.507,
+  "end": 1151.868,
+  "speaker": "Claire",
+  "en": "As you can see, this checkmark is gray.",
+  "zh": "如你们所见，这个复选标记是灰色的。"
+ },
+ {
+  "seg": 352,
+  "start": 1152.148,
+  "end": 1158.13,
+  "speaker": "Claire",
+  "en": "A bot cannot actually meet our repository rules for required approval.",
+  "zh": "一个机器人实际上无法满足我们仓库的必需批准规则。"
+ },
+ {
+  "seg": 353,
+  "start": 1158.19,
+  "end": 1161.511,
+  "speaker": "Claire",
+  "en": "And so we can either skip those rules, hack around it.",
+  "zh": "所以我们要么跳过这些规则，要么绕过它。"
+ },
+ {
+  "seg": 354,
+  "start": 1161.551,
+  "end": 1165.0620000000001,
+  "speaker": "Claire",
+  "en": "We just decided this check would be a signal that our humans can approve it",
+  "zh": "我们只是决定这个检查将作为一个信号，让我们的我们的人可以在不真正查看的情况下批准它"
+ },
+ {
+  "seg": 355,
+  "start": 1165.112,
+  "end": 1168.3342222222223,
+  "speaker": "Claire",
+  "en": "without really looking at it and then merge it as we want.",
+  "zh": "然后按照我们的意愿合并它。"
+ },
+ {
+  "seg": 356,
+  "start": 1169.056,
+  "end": 1173.218,
+  "speaker": "Claire",
+  "en": "And then let's show one where Merge Mommy did not approve it.",
+  "zh": "然后让我们展示一个 Merge Mommy 没有批准它的例子。"
+ },
+ {
+  "seg": 357,
+  "start": 1173.358,
+  "end": 1175.799,
+  "speaker": "Claire",
+  "en": "This is a deprecation PR.",
+  "zh": "这是一个弃用 PR。"
+ },
+ {
+  "seg": 358,
+  "start": 1175.86,
+  "end": 1179.601,
+  "speaker": "Claire",
+  "en": "So we had chat V1 and chat PRD and we're moving to chat V2.",
+  "zh": "所以我们有 chat V1 和 chat PRD，我们正在迁移到 chat V2。"
+ },
+ {
+  "seg": 359,
+  "start": 1179.641,
+  "end": 1181.262,
+  "speaker": "Claire",
+  "en": "We kind of like refactored a bunch of code,",
+  "zh": "我们重构了一堆代码，"
+ },
+ {
+  "seg": 360,
+  "start": 1181.282,
+  "end": 1186.265,
+  "speaker": "Claire",
+  "en": "but we left the old stuff behind a feature flag and it was like ready to delete.",
+  "zh": "但我们把旧的东西留在一个功能标志后面，并且它准备好被删除了。"
+ },
+ {
+  "seg": 361,
+  "start": 1186.325,
+  "end": 1189.9916666666668,
+  "speaker": "Claire",
+  "en": "So there's like 35 changes, big red diff that we wanted to delete.",
+  "zh": "所以有大约 35 处更改，我们想要删除的大红色差异。"
+ },
+ {
+  "seg": 362,
+  "start": 1190.607,
+  "end": 1194.669,
+  "speaker": "Claire",
+  "en": "And you can see here Merge Mommy,",
+  "zh": "你们在这里可以看到 Merge Mommy，"
+ },
+ {
+  "seg": 363,
+  "start": 1194.769,
+  "end": 1195.3400000000001,
+  "speaker": "Claire",
+  "en": "I'm sorry,",
+  "zh": "我很抱歉，"
+ },
+ {
+  "seg": 364,
+  "start": 1195.39,
+  "end": 1198.574,
+  "speaker": "Claire",
+  "en": "I can't take myself seriously when I say it, but I'm gonna say it anyways.",
+  "zh": "当我说它的时候我无法严肃对待自己，但不管怎样我还是会这么说。"
+ },
+ {
+  "seg": 365,
+  "start": 1198.624,
+  "end": 1200.966,
+  "speaker": "Claire",
+  "en": "Merge Mommy gave it a 45 out of 100,",
+  "zh": "Merge Mommy 给了它 100 分里的 45 分，"
+ },
+ {
+  "seg": 366,
+  "start": 1201.046,
+  "end": 1201.977,
+  "speaker": "Claire",
+  "en": "a medium risk,",
+  "zh": "一个中等风险，"
+ },
+ {
+  "seg": 367,
+  "start": 1202.027,
+  "end": 1209.027,
+  "speaker": "Claire",
+  "en": "and it was not approved by a human because both it had some code issues as well as",
+  "zh": "并且它没有得到人的批准，因为它既有代码问题，以及"
+ },
+ {
+  "seg": 368,
+  "start": 1211.494,
+  "end": 1214.316,
+  "speaker": "Claire",
+  "en": "the policy said it changed server API behavior.",
+  "zh": "策略说它改变了服务器 API 行为。"
+ },
+ {
+  "seg": 369,
+  "start": 1214.396,
+  "end": 1216.0626666666667,
+  "speaker": "Claire",
+  "en": "It was a large change service.",
+  "zh": "这是一个大的服务变更。"
+ },
+ {
+  "seg": 370,
+  "start": 1216.498,
+  "end": 1220.541,
+  "speaker": "Claire",
+  "en": "And so it's medium, not low, and it can't approve the PR.",
+  "zh": "所以它是中等，不是低，它不能批准这个 PR。"
+ },
+ {
+  "seg": 371,
+  "start": 1221.085,
+  "end": 1226.007,
+  "speaker": "Claire",
+  "en": "Now we can run this against every PR that goes through our process.",
+  "zh": "现在我们可以针对我们流程中的每个 PR 运行这个。"
+ },
+ {
+  "seg": 372,
+  "start": 1226.047,
+  "end": 1226.368,
+  "speaker": "Claire",
+  "en": "And again,",
+  "zh": "再次，"
+ },
+ {
+  "seg": 373,
+  "start": 1226.388,
+  "end": 1232.751,
+  "speaker": "Claire",
+  "en": "we're gonna just keep getting these notifications in Slack that just let us know,",
+  "zh": "我们将只是在 Slack 中不断收到这些通知，它们让我们知道，"
+ },
+ {
+  "seg": 374,
+  "start": 1232.811,
+  "end": 1235.922111111111,
+  "speaker": "Claire",
+  "en": "hey, this can be approved or this requires human review.",
+  "zh": "嘿，这个可以被批准或者这个需要人工审查。"
+ },
+ {
+  "seg": 375,
+  "start": 1236.105,
+  "end": 1236.4550000000002,
+  "speaker": "Claire",
+  "en": "Again,",
+  "zh": "再次，"
+ },
+ {
+  "seg": 376,
+  "start": 1236.505,
+  "end": 1242.248,
+  "speaker": "Claire",
+  "en": "I like to say this thing where we can put AI to work for us or we can have AI put us",
+  "zh": "我喜欢说这种我们可以把 AI 为我们工作或者我们可以让 AI 让我们"
+ },
+ {
+  "seg": 377,
+  "start": 1242.308,
+  "end": 1242.858,
+  "speaker": "Claire",
+  "en": "to work.",
+  "zh": "工作的话。"
+ },
+ {
+  "seg": 378,
+  "start": 1242.908,
+  "end": 1245.389,
+  "speaker": "Claire",
+  "en": "And this is an example where you do both.",
+  "zh": "这是一个你同时做两件事的例子。"
+ },
+ {
+  "seg": 379,
+  "start": 1245.589,
+  "end": 1246.97,
+  "speaker": "Claire",
+  "en": "I've put AI to work,",
+  "zh": "我让 AI 为我工作，"
+ },
+ {
+  "seg": 380,
+  "start": 1247.05,
+  "end": 1248.951,
+  "speaker": "Claire",
+  "en": "this lovely Eve agent,",
+  "zh": "这个可爱的 Eve 智能体，"
+ },
+ {
+  "seg": 381,
+  "start": 1248.991,
+  "end": 1255.991,
+  "speaker": "Claire",
+  "en": "I put AI to work to review and score the PR and tell me if there's any risk",
+  "zh": "我让 AI 为我工作来审查和给 PR 打分并告诉我是否有任何风险"
+ },
+ {
+  "seg": 382,
+  "start": 1256.814,
+  "end": 1258.695,
+  "speaker": "Claire",
+  "en": "and like be detailed eyes on it.",
+  "zh": "并且像在上面有详细的眼力。"
+ },
+ {
+  "seg": 383,
+  "start": 1259.31,
+  "end": 1264.414,
+  "speaker": "Claire",
+  "en": "And then I had AI put me to work by escalating into Slack for the final action",
+  "zh": "然后我让 AI 让我工作，方法是升级到 Slack 进行最后操作"
+ },
+ {
+  "seg": 384,
+  "start": 1264.494,
+  "end": 1269.979,
+  "speaker": "Claire",
+  "en": "and making it like a two click process to get this thing to production.",
+  "zh": "并使它成为把这个东西投入生产的一个两步点击过程。"
+ },
+ {
+  "seg": 385,
+  "start": 1270.619,
+  "end": 1276.524,
+  "speaker": "Claire",
+  "en": "Now, I just have to say this is something that I was really intimidated to build.",
+  "zh": "现在，我只是想说这是我真的很害怕去构建的东西。"
+ },
+ {
+  "seg": 386,
+  "start": 1276.785,
+  "end": 1280.067,
+  "speaker": "Claire",
+  "en": "I thought this was going to take me like days and days and days.",
+  "zh": "我以为这会花费我一天又一天又一天。"
+ },
+ {
+  "seg": 387,
+  "start": 1280.087,
+  "end": 1282.6425555555556,
+  "speaker": "Claire",
+  "en": "I was like, I don't want to set up the GitHub.",
+  "zh": "我就像，我不想设置那个 GitHub。"
+ },
+ {
+  "seg": 388,
+  "start": 1283.269,
+  "end": 1287.812,
+  "speaker": "Claire",
+  "en": "I actually had tried this before Codex like browser use was really good and before",
+  "zh": "我实际上在 Codex 像浏览器使用真的很好之前尝试过这个"
+ },
+ {
+  "seg": 389,
+  "start": 1287.832,
+  "end": 1291.493,
+  "speaker": "Claire",
+  "en": "the Eve agents had come out and it was just like not easy to do.",
+  "zh": "Eve 智能体出来之前，这就像不容易做。"
+ },
+ {
+  "seg": 390,
+  "start": 1292.074,
+  "end": 1294.851777777778,
+  "speaker": "Claire",
+  "en": "But now that we have these open source frameworks,",
+  "zh": "但是现在我们有了这些开源框架，"
+ },
+ {
+  "seg": 391,
+  "start": 1295.015,
+  "end": 1298.417,
+  "speaker": "Claire",
+  "en": "now that we have these agent building frameworks,",
+  "zh": "现在我们有了这些智能体构建框架，"
+ },
+ {
+  "seg": 392,
+  "start": 1298.597,
+  "end": 1302.979,
+  "speaker": "Claire",
+  "en": "now that kind of like everybody's agreed that we need Slack bots that do AI,",
+  "zh": "现在就像大家都同意我们需要做 AI 的 Slack 机器人，"
+ },
+ {
+  "seg": 393,
+  "start": 1302.999,
+  "end": 1305.34,
+  "speaker": "Claire",
+  "en": "a lot of these problems have been solved.",
+  "zh": "许多这些问题已经被解决了。"
+ },
+ {
+  "seg": 394,
+  "start": 1305.4,
+  "end": 1308.702,
+  "speaker": "Claire",
+  "en": "And then Codex browser use was just like the cherry on top",
+  "zh": "然后 Codex 浏览器使用就像锦上添花"
+ },
+ {
+  "seg": 395,
+  "start": 1308.822,
+  "end": 1313.806,
+  "speaker": "Claire",
+  "en": "that made building this agent Super, super, super simple.",
+  "zh": "这使得构建这个智能体超级、超级、超级简单。"
+ },
+ {
+  "seg": 396,
+  "start": 1314.267,
+  "end": 1320.57,
+  "speaker": "Claire",
+  "en": "So to just recap for you all in this lightning fast mini episode about how to build",
+  "zh": "所以为了给你们所有人总结这个关于如何构建的闪电般快的小剧集"
+ },
+ {
+  "seg": 397,
+  "start": 1320.59,
+  "end": 1323.692,
+  "speaker": "Claire",
+  "en": "a PR risk score and review bot,",
+  "zh": "一个 PR 风险评分和审查机器人，"
+ },
+ {
+  "seg": 398,
+  "start": 1324.773,
+  "end": 1326.694,
+  "speaker": "Claire",
+  "en": "use Vercel's Eve agents,",
+  "zh": "使用 Vercel 的 Eve 智能体，"
+ },
+ {
+  "seg": 399,
+  "start": 1326.854,
+  "end": 1332.817,
+  "speaker": "Claire",
+  "en": "give it instructions and a skill to read a PR and calculate a score based on",
+  "zh": "给它指令和一个读取 PR 并基于以下计算分数的技能"
+ },
+ {
+  "seg": 400,
+  "start": 1332.837,
+  "end": 1333.998,
+  "speaker": "Claire",
+  "en": "a couple components.",
+  "zh": "几个组件。"
+ },
+ {
+  "seg": 401,
+  "start": 1334.657,
+  "end": 1338.118,
+  "speaker": "Claire",
+  "en": "Hook up that Vercel agent to GitHub and to Slack.",
+  "zh": "把那个 Vercel 智能体连到 GitHub 和 Slack。"
+ },
+ {
+  "seg": 402,
+  "start": 1338.558,
+  "end": 1342.76,
+  "speaker": "Claire",
+  "en": "Let it read from GitHub and give you a little gray check for approval and",
+  "zh": "让它从 GitHub 读取并给你一个用于审批的小灰勾"
+ },
+ {
+  "seg": 403,
+  "start": 1342.8,
+  "end": 1348.721,
+  "speaker": "Claire",
+  "en": "then have it Slack you in Slack for that final human review and merge",
+  "zh": "然后让它给你在 Slack 里发 Slack 消息进行最终的人工审查和合并"
+ },
+ {
+  "seg": 404,
+  "start": 1349.322,
+  "end": 1352.362,
+  "speaker": "Claire",
+  "en": "and your cycle time will be super,",
+  "zh": "而你的周期时间将会超级、"
+ },
+ {
+  "seg": 405,
+  "start": 1352.382,
+  "end": 1356.424,
+  "speaker": "Claire",
+  "en": "super fast and your PR velocity will go through the roof.",
+  "zh": "超级快，你的 PR 速度将会爆表。"
+ },
+ {
+  "seg": 406,
+  "start": 1358.216,
+  "end": 1359.747,
+  "speaker": "Claire",
+  "en": "I want to hear from you all.",
+  "zh": "我想听听大家的意见。"
+ },
+ {
+  "seg": 407,
+  "start": 1359.797,
+  "end": 1360.797,
+  "speaker": "Claire",
+  "en": "Is this crazy?",
+  "zh": "这想法疯狂吗？"
+ },
+ {
+  "seg": 408,
+  "start": 1360.878,
+  "end": 1363.44,
+  "speaker": "Claire",
+  "en": "Can you pull this off at your company?",
+  "zh": "你们能在自己的公司实现这个吗？"
+ },
+ {
+  "seg": 409,
+  "start": 1363.64,
+  "end": 1368.784,
+  "speaker": "Claire",
+  "en": "And what would you put into your risk scoring that I haven't thought of?",
+  "zh": "你们会把什么纳入我没想到的风险评分中？"
+ },
+ {
+  "seg": 410,
+  "start": 1369.224,
+  "end": 1371.506,
+  "speaker": "Claire",
+  "en": "The final bonus piece off this,",
+  "zh": "基于此的最后一个附加环节，"
+ },
+ {
+  "seg": 411,
+  "start": 1371.526,
+  "end": 1372.4370000000001,
+  "speaker": "Claire",
+  "en": "which I didn't show,",
+  "zh": "我没展示，"
+ },
+ {
+  "seg": 412,
+  "start": 1372.487,
+  "end": 1374.108,
+  "speaker": "Claire",
+  "en": "but a lot of great folks do,",
+  "zh": "但很多很棒的人在做，"
+ },
+ {
+  "seg": 413,
+  "start": 1374.148,
+  "end": 1377.4813333333332,
+  "speaker": "Claire",
+  "en": "especially the folks at Intercom do as part of this process,",
+  "zh": "特别是 Intercom 的人作为此过程的一部分在做，"
+ },
+ {
+  "seg": 414,
+  "start": 1377.991,
+  "end": 1381.193,
+  "speaker": "Claire",
+  "en": "is they run evals on this internal agent.",
+  "zh": "是他们在这个内部智能体上运行评估。"
+ },
+ {
+  "seg": 415,
+  "start": 1381.494,
+  "end": 1384.236,
+  "speaker": "Claire",
+  "en": "So every time this review is run,",
+  "zh": "所以每次运行这个审查时，"
+ },
+ {
+  "seg": 416,
+  "start": 1384.356,
+  "end": 1387.777,
+  "speaker": "Claire",
+  "en": "it gets logged into, I think it's like an internal eval platform.",
+  "zh": "它会被记录到，我想是一个内部评估平台里。"
+ },
+ {
+  "seg": 417,
+  "start": 1387.827,
+  "end": 1390.869,
+  "speaker": "Claire",
+  "en": "And an engineer looks at it and says, did the agent get this right?",
+  "zh": "一名工程师查看它并说，智能体做对了吗？"
+ },
+ {
+  "seg": 418,
+  "start": 1390.909,
+  "end": 1392.099,
+  "speaker": "Claire",
+  "en": "Did the agent get this wrong?",
+  "zh": "智能体做错了吗？"
+ },
+ {
+  "seg": 419,
+  "start": 1392.149,
+  "end": 1394.371222222222,
+  "speaker": "Claire",
+  "en": "Are we happy with the scoring mechanism?",
+  "zh": "我们对评分机制满意吗？"
+ },
+ {
+  "seg": 420,
+  "start": 1394.43,
+  "end": 1399.373,
+  "speaker": "Claire",
+  "en": "So very similar to how you'd use evals to improve your customer facing AI products,",
+  "zh": "所以非常类似于你使用评估来改善面向客户的 AI 产品，"
+ },
+ {
+  "seg": 421,
+  "start": 1399.793,
+  "end": 1404.395,
+  "speaker": "Claire",
+  "en": "you're going to want to use evals to improve your internally facing AI bots,",
+  "zh": "你将要使用评估来改善你面向内部的 AI 机器人，"
+ },
+ {
+  "seg": 422,
+  "start": 1404.515,
+  "end": 1408.117,
+  "speaker": "Claire",
+  "en": "especially ones that touch really critical things like code.",
+  "zh": "特别是那些接触像代码这样真正关键事务的机器人。"
+ },
+ {
+  "seg": 423,
+  "start": 1408.822,
+  "end": 1415.305,
+  "speaker": "Claire",
+  "en": "That has been my mini episode on how to build a PR approval and review bot here at Howie.",
+  "zh": "这就是关于如何在 Howie 构建 PR 审批和审查机器人的我的迷你剧集。"
+ },
+ {
+  "seg": 424,
+  "start": 1415.325,
+  "end": 1420.567,
+  "speaker": "Claire",
+  "en": "I cannot wait to hear if you think this is crazy or this is the way of the future.",
+  "zh": "我迫不及待想听听你认为这是疯狂还是这是未来的方向。"
+ },
+ {
+  "seg": 425,
+  "start": 1420.587,
+  "end": 1423.5314444444443,
+  "speaker": "Claire",
+  "en": "Thank you so much for joining and we'll see you soon.",
+  "zh": "非常感谢加入，我们下次见。"
+ },
+ {
+  "seg": 426,
+  "start": 1425.837,
+  "end": 1427.1280000000002,
+  "speaker": "Claire",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 427,
+  "start": 1427.178,
+  "end": 1428.599,
+  "speaker": "Claire",
+  "en": "If you enjoyed this show,",
+  "zh": "如果你喜欢这档节目，"
+ },
+ {
+  "seg": 428,
+  "start": 1428.779,
+  "end": 1430.6100000000001,
+  "speaker": "Claire",
+  "en": "please like and subscribe here on YouTube,",
+  "zh": "请在 YouTube 上点赞并订阅，"
+ },
+ {
+  "seg": 429,
+  "start": 1430.66,
+  "end": 1433.392,
+  "speaker": "Claire",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是，留下你的想法评论。"
+ },
+ {
+  "seg": 430,
+  "start": 1433.442,
+  "end": 1438.986,
+  "speaker": "Claire",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 431,
+  "start": 1439.567,
+  "end": 1444.2892222222222,
+  "speaker": "Claire",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们留个评分和评论，这将帮助其他人找到这档节目。"
+ },
+ {
+  "seg": 432,
+  "start": 1444.37,
+  "end": 1450.114,
+  "speaker": "Claire",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 看到我们所有的剧集并了解更多关于节目的信息。"
+ },
+ {
+  "seg": 433,
+  "start": 1450.715,
+  "end": 1451.715,
+  "speaker": "Claire",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

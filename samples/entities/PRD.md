@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Codex]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[原型]] · [[Claude Code]] · [[Google]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Lenny":44,"Codex":16,"Anthropic":45,"OpenAI":35,"Meta":13,"原型":2,"Claude Code":21,"Google":16,"计算机使用":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"Lenny":44,"Codex":16,"Anthropic":45,"OpenAI":35,"Meta":13,"原型":2,"Claude Code":21,"Google":16,"计算机使用":3}</script>
 
 <script>
 (function(){

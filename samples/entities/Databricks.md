@@ -30,7 +30,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Elena Berger]] · [[Snowflake]] · [[Simon Mo]] · [[Matt Bornstein]] · [[vLLM]] · [[开源权重]] · [[推理]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Anthropic":45,"Elena Berger":3,"Snowflake":4,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"护栏":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"Anthropic":45,"Elena Berger":3,"Snowflake":4,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"护栏":13}</script>
 
 <script>
 (function(){

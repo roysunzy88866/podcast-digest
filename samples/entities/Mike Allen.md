@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":16,"OpenAI":35,"Anthropic":45,"Microsoft":10,"Palantir":5,"开放模型":1,"封闭模型":1,"沙箱":19,"智能体":80}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":16,"OpenAI":35,"Anthropic":45,"Microsoft":10,"Palantir":5,"开放模型":1,"封闭模型":1,"沙箱":20,"智能体":81}</script>
 
 <script>
 (function(){

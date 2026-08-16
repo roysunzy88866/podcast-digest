@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Stripe]] · [[Julie Zhuo]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"OpenAI":35,"Cursor":14,"Lenny":44,"Anthropic":45,"Stripe":12,"Julie Zhuo":1,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"OpenAI":35,"Cursor":14,"Lenny":44,"Anthropic":45,"Stripe":12,"Julie Zhuo":1,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1}</script>
 
 <script>
 (function(){

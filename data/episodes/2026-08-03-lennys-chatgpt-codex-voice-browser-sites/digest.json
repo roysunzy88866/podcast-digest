@@ -1,0 +1,97 @@
+{
+  "title_zh": "用 AI 机器人自动审批低风险 PR",
+  "tldr": "别再人工逐条审 AI 生成的 PR 了，用智能体打分、低风险自动放行。",
+  "digest_md": "AI 写代码让 PR 数量翻了好几倍，但审查速度没跟上，结果就是工程师面前堆着长队。Claire 直说了一个反直觉的结论：你不需要由人类一对一审查所有 PR。办法是把 AI 放进审查循环里，让它给 PR 打风险分，低风险的自动放行，人只看真正需要专业判断的 [00:37 Claire]。\n\n## 先看别人跑通的成果\n\nIntercom 已经这么干了，PR 吞吐量翻了 2 到 3 倍 [03:11 Claire]。关键不只是快——他们发现 AI 审批的 PR 甚至比纯人工审查的质量更高、revert rate（上线后需要回滚修复的比例）更低 [03:43 Claire]。审批速度比人工 PR 快 5 倍 [04:19 Claire]。\n\n合规方面，只要你的风险策略和代码审查策略里写清楚了，而且整个过程可审计、可查询、可辩护，在 SOC 2、HIPAA 这些框架下是能跑的——当然得跟安全和合规团队一起过 [05:00 Claire]。\n\n## 智能体怎么给 PR 打分\n\nClaire 用 Vercel 的 Eve 框架（一个开源的智能体部署框架，能在 Slack 和 GitHub 里跑）搭了一个叫 Merge Mommy 的机器人 [06:17 Claire]。工作流很简单：\n\n1. **触发时机**：等 PR 的所有 CI 检查（自动化测试等）全部通过后才触发，避免检查还没跑完就来评 [14:44 Claire]。\n2. **读 PR**：智能体检出代码，看具体的 diff（改动差异）[12:45 Claire]。\n3. **打分**：从六个维度评估——变更的爆炸半径有多大、是否容易回滚、是否涉及数据安全、是否影响运营、测试是否充分、CI 是否全过 [15:53 Claire]。跑完一个脚本算出总分。\n4. **分级处理**：低于 24 分 = 低风险，自动提交审批；25 到 64 分 = 中风险，65 分以上 = 高风险，这两档都升级给人类 [16:20 Claire]。\n5. **通知人类**：无论结果如何，都在 Slack 里 ping 相关工程师——低风险的告诉你\"点一下批准就能合并\"，中高风险的告诉你\"需要人来看\" [13:01 Claire]。\n\n仓库里还设了一些具体规则，比如文档改动一律低风险、功能逻辑算中风险、认证和计费相关算高风险，但 diff 大小本身不决定风险等级 [15:09 Claire]。\n\n## 一个实际阻碍：机器人不能真正\"批准\"\n\nGitHub 的仓库规则要求审批必须来自真人账号，机器人的批准标记是灰色的、不算数 [19:12 Claire]。Claire 没去绕过这个规则，而是把它当成一个信号——机器人标了灰勾，人看到后点两下就能合并，把人工操作压缩到两步点击 [19:21 Claire]。\n\n## 搭建本身有多简单\n\nClaire 在 Codex 里只写了一句话提示词：\"做一个 GitHub 机器人，在所有 checks 通过后审查 PR，评低中高风险，自动批准低风险的\" [09:29 Claire]。没给评分标准、没给配置细节，Codex 自己生成了指令和技能代码。\n\n最省事的技巧：让 Codex 用 Chrome 浏览器操作去点完 Slack 机器人和 GitHub App 的所有配置页面（选权限、填回调地址这些繁琐事），人只负责复核 [10:31 Claire]。\n\n## 还有一件事：给审查机器人本身跑 eval\n\nIntercom 的做法是，每次机器人审完一个 PR，都把结果记到内部评估平台里，让工程师标注\"它判对了还是判错了\"，持续改进评分机制 [23:01 Claire]。跟面向用户的 AI 产品跑评估一个道理，内部触碰代码这种关键环节的机器人更该这么做。\n\n## 本集带走\n\n- **低风险 PR 不需要人审**：用智能体打分，把文档修改、小调整这类从人工队列里清掉，人只看中高风险。\n- **评分看六个维度，不看 diff 大小**：爆炸半径、可回滚性、数据安全、运营影响、测试充分性、CI 是否通过——改动行数多不等于风险高。\n- **灰勾当信号用**：如果仓库规则不允许机器人正式批准，就让机器人标灰勾，人看到后直接点合并，两步搞定。\n- **让 AI 帮你点配置页面**：搭 Slack 机器人、GitHub App 最烦的不是写代码，是点配置——用浏览器操作让 AI 代劳。\n- **给审查机器人跑 eval**：每次审查结果都让人标对错，持续校准评分机制，别上线就不管了。",
+  "quotes": [
+    {
+      "timestamp": "00:37",
+      "speaker": "Claire",
+      "en": "You don't have to review all your PRs.",
+      "zh": "你不必审查你所有的 PR。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Claire",
+      "en": "what they really think and what they've proven with their adoption of AI is that AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.",
+      "zh": "他们真正思考的，以及他们通过采用 AI 证明的是，AI 审批的 PR 以及 AI 编写的代码总体上甚至可以比仅有人类参与循环的做法更安全、质量更高。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Claire",
+      "en": "actually five times faster than their human PRs.",
+      "zh": "实际上比他们的 PR 快 5 倍。"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Claire",
+      "en": "as long as it's in your risk policies, as long as it's in your code review policies, as long as it's auditable, queryable, and defensible, you can do this within your compliance framework",
+      "zh": "只要框架在你的风险策略中，只要它在你的代码审查策略中，只要它是可审计的、可查询的、且可辩护的，你就可以在你的合规框架内做到这一点"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Claire",
+      "en": "I want to make an internal GitHub bot slash app that reviews PRs after all C-checks, that's checks, are green and grades low, medium, high risk and approves the low-risk PRs automatically.",
+      "zh": "我想做一个内部的 GitHub 机器人/应用，在所有 C-checks 完成后审查 PR，变绿并将风险评级为低、中、高，并自动批准低风险的 PR。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Claire",
+      "en": "my favorite hack is I had it use Chrome browser use and I let it navigate Slack bot setup. I let it navigate GitHub setup.",
+      "zh": "我最喜欢的技巧是，我让它使用 Chrome 浏览器，我让它导航 Slack 机器人设置。我让它导航 GitHub 设置。"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "Claire",
+      "en": "Using Chrome browser use is such a useful hack to get that stuff done.",
+      "zh": "使用 Chrome 浏览器使用是一个非常有用的技巧来完成那些事情。"
+    },
+    {
+      "timestamp": "11:23",
+      "speaker": "Claire",
+      "en": "I actually didn't give it any instructions on scoring. I didn't give it any instructions on configuration. I didn't give it any instructions on risk.",
+      "zh": "我实际上没给它任何关于评分的指令。我没给它任何关于配置的指令。我没给它任何关于风险的指令。"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "Claire",
+      "en": "You do not need to over-engineer this.",
+      "zh": "你不需要过度设计这个。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Claire",
+      "en": "Diff size does not set risk.",
+      "zh": "差异大小不设定风险。"
+    },
+    {
+      "timestamp": "16:20",
+      "speaker": "Claire",
+      "en": "anything under 24 points, again, I did not like choose these thresholds. Anything below 24 points is low risk. Medium risk is 25 to 64. And then 65 and above is high risk.",
+      "zh": "任何低于 24 分的，再次说明，我并没有选择这些阈值。低于 24 分的任何内容都是低风险。中风险是 25 到 64 分。然后 65 分及以上是高风险。"
+    },
+    {
+      "timestamp": "19:12",
+      "speaker": "Claire",
+      "en": "A bot cannot actually meet our repository rules for required approval.",
+      "zh": "一个机器人实际上无法满足我们仓库的必需批准规则。"
+    },
+    {
+      "timestamp": "21:16",
+      "speaker": "Claire",
+      "en": "I thought this was going to take me like days and days and days.",
+      "zh": "我以为这会花费我一天又一天又一天。"
+    },
+    {
+      "timestamp": "21:45",
+      "speaker": "Claire",
+      "en": "And then Codex browser use was just like the cherry on top that made building this agent Super, super, super simple.",
+      "zh": "然后 Codex 浏览器使用就像锦上添花，这使得构建这个智能体超级、超级、超级简单。"
+    },
+    {
+      "timestamp": "23:07",
+      "speaker": "Claire",
+      "en": "And an engineer looks at it and says, did the agent get this right? Did the agent get this wrong? Are we happy with the scoring mechanism?",
+      "zh": "一名工程师查看它并说，智能体做对了吗？智能体做错了吗？我们对评分机制满意吗？"
+    }
+  ]
+}

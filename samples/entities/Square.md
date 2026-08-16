@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Block]] · [[PayPal]] · [[Goose]] · [[Faire]] · [[智能体]] · [[Ramp]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Lenny":44,"Dhanji Prasanna":1,"Keith Rabois":1,"Block":1,"PayPal":1,"Goose":1,"Faire":1,"智能体":80,"Ramp":3,"MCP":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Dhanji Prasanna":1,"Keith Rabois":1,"Block":1,"PayPal":1,"Goose":1,"Faire":1,"智能体":81,"Ramp":3,"MCP":10}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Chip Huyen]] · [[Garry Tan]] · [[Brendan McManus]] · [[Lenny]] · [[技能文件]] · [[Bridgewater Associates]] · [[后训练]] · [[上下文工程]] · [[PAT]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"Lenny":44,"技能文件":1,"Bridgewater Associates":1,"后训练":6,"上下文工程":4,"PAT":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"Lenny":44,"技能文件":1,"Bridgewater Associates":1,"后训练":6,"上下文工程":4,"PAT":1}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Nikhyl Singhal]] · [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]] · [[AI]] · [[LLM]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lenny":44,"Nikhyl Singhal":1,"产品经理":2,"构建者":2,"信息搬运工":1,"判断力":2,"幕僚长应用":1,"AI":4,"LLM":8,"智能体":80}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"Nikhyl Singhal":1,"产品经理":2,"构建者":2,"信息搬运工":1,"判断力":2,"幕僚长应用":1,"AI":4,"LLM":8,"智能体":81}</script>
 
 <script>
 (function(){

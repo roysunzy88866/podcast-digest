@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":80,"决策层":1,"上下文工程":4,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":81,"决策层":1,"上下文工程":4,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
 
 <script>
 (function(){

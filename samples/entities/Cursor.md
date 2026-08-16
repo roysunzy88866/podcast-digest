@@ -59,7 +59,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Meta]] · [[OpenAI]] · [[Claude Code]] · [[Codex]] · [[前向部署工程师]] · [[护栏]] · [[Elena Berger]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Lenny":44,"Anthropic":45,"Meta":13,"OpenAI":35,"Claude Code":21,"Codex":16,"前向部署工程师":5,"护栏":13,"Elena Berger":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":81,"Lenny":44,"Anthropic":45,"Meta":13,"OpenAI":35,"Claude Code":21,"Codex":16,"前向部署工程师":5,"护栏":13,"Elena Berger":3}</script>
 
 <script>
 (function(){

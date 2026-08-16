@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eve</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eve">EV</div><div class="pi"><h1 class="pt">Eve</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eve">EV</div><div class="pi"><h1 class="pt">Eve</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-27-lennys-from-zero-coding-background-to-hardware|《不审查AI生成的PR：自动评分审批机器人实战》]]**(06:17起):本集说 Eve 是 Vercel 推出的开源智能体部署框架，用目录结构管理指令、技能和工具，可以轻松连接 Slack 和 GitHub
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:17起):本集说这是 Vercel 推出的 AI 智能体框架，底层用开源 chat SDK，是部署 Slack/GitHub 智能体最简单的方式。
 - **[[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]]**(06:17起):本集把它说成:Vercel 推出的智能体框架。它使用向导自动处理了各种复杂的权限和连接器配置，是在 Slack 和 GitHub 中部署企业级智能体的最简单方式。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-07-27-lennys-from-zero-coding-background-to-hardware|《不审查AI生成的PR：自动评分审批机器人实战》]] — 作为概念
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为概念
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]] — 作为概念
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire]] · [[Intercom]] · [[Vercel]] · [[Codex]] · [[智能体]] · [[风险评分]] · [[沙箱]] · [[Slack]] · [[GitHub]] · [[ChatPRD]]
+[[Claire]] · [[Intercom]] · [[Vercel]] · [[智能体]] · [[沙箱]] · [[风险评分]] · [[Codex]] · [[Slack]] · [[GitHub]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"Claire":2,"Intercom":2,"Vercel":6,"Codex":16,"智能体":80,"风险评分":2,"沙箱":19,"Slack":18,"GitHub":13,"ChatPRD":2}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Intercom":3,"Vercel":7,"智能体":81,"沙箱":20,"风险评分":3,"Codex":16,"Slack":18,"GitHub":13,"评估":10}</script>
 
 <script>
 (function(){

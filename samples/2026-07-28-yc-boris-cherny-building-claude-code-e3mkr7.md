@@ -140,7 +140,7 @@ Boris 的老本是函数式编程,他把这套机制设计成了一套智能体�
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示 (system prompt)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同概念:智能体 (agent)、验证 (verification)</span>
-- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-27-lennys-from-zero-coding-background-to-hardware|不审查AI生成的PR：自动评分审批机器人实战]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
