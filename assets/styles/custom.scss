@@ -1906,6 +1906,10 @@ body[data-slug^="entities/"] {
 /* 结果项内部:标题 15px/B8、描述 12px/B6(设计稿 .si .a / .si .b) */
 .search > .search-container .result-card > .card-title { font-size: 15px; line-height: 1.5; color: var(--B8); margin: 0; font-weight: 500; }
 .search > .search-container .result-card > p { font-size: 12px; line-height: 1.5; color: var(--B6); margin: 3px 0 0; }
+/* 手机搜索结果只出标题(用户 2026-08-16):摘要段在窄屏又长又挤,藏掉;桌面保留 */
+@media (max-width: 1023px) {
+  .search > .search-container .result-card > p { display: none; }
+}
 .search > .search-container .result-card .highlight { background: var(--pd-accent-soft); color: var(--pd-accent); border-radius: 3px; padding: 0 1px; }
 
 /* 搜索历史区(自建注入 = search-history.js;样式照设计稿 .shist)*/

@@ -362,6 +362,10 @@ export const scriptBlock = () => squashBlankLines(`<script>
   // 复用左栏那套浮层逻辑(点击委托认 .pd-mfav)。不进桌面 DOM → 不动桌面顶栏对齐。
   function mfav(){
     if(!matchMedia('(max-width:1023px)').matches) return;
+    // 只在列表页(首页/大类/必读,标志=有左栏 .pd-left)注入。守卫防 SPA 泄漏:本脚本在
+    // SPA 换页后还活着,若不判页型,搜索结果/历史等路径跳到详情页时会把「我的收藏」爱心
+    // 塞进详情页顶栏,和详情页自己的「收藏本集」爱心撞成两颗(用户 2026-08-16)。
+    if(!document.querySelector('.pd-left')) return;
     var acts=document.querySelector('.pd .pd-acts'); if(!acts||acts.querySelector('.pd-mfav')) return;
     var b=document.createElement('button');
     b.type='button'; b.className='pd-mfav'; b.setAttribute('aria-label','我的收藏'); b.title='我的收藏';
@@ -395,14 +399,18 @@ export const scriptBlock = () => squashBlankLines(`<script>
     });
   }
   // 手机端点卡片应「跳页面」而不是开新浏览器窗口(issue：桌面故意 target=_blank 开新标签,
-  // 手机上开新窗既反直觉、回来后原页面又粘着 hover 态)。窄屏时把标题链接的 _blank/router-ignore
-  // 摘掉 → 交回 Quartz SPA 路由做站内导航。只摘不加,桌面不受影响。
+  // 手机上开新窗既反直觉、回来后原页面又粘着 hover 态)。窄屏时把标题链接的 _blank 摘掉;
+  // **保留 data-router-ignore = 整页真跳转**(用户 2026-08-16:SPA 页内加载让人以为没反应、
+  // 反复点卡,返回时还会穿越到别的详情页 → 点卡立即整页进详情,历史交回浏览器原生管)。
   function mobileLinks(){
     if(!matchMedia('(max-width:1023px)').matches) return;
     document.querySelectorAll('.pd .card a[target="_blank"]').forEach(function(a){
-      a.removeAttribute('target'); a.removeAttribute('rel'); a.removeAttribute('data-router-ignore');
+      a.removeAttribute('target'); a.removeAttribute('rel');
     });
   }
+  // iOS Safari 冷知识:页面上没挂过任何 touch 监听时,:active 伪类整个不触发 →
+  // 手机点卡片没有整卡反馈(用户 2026-08-16「没有 hover 状态了」)。挂一个空监听激活它。
+  document.addEventListener('touchstart', function(){}, {passive:true});
   // ── C24 无限滚动(软加载)· 首页 + 大类页共用 ──
   // 静态站无后端 → 卡全烤在 HTML(SEO 不降级),脚本只控「折叠 / 露出」。
   // 与大类页筛选分层:filter 用 inline style.display 隐藏被筛掉的、这里用 .io-fold 类折叠超批的,

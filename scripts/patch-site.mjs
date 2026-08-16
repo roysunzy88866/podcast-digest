@@ -130,6 +130,10 @@ writeFileSync(cfgPath, cfg);
 console.log(`✅ patch-site:配置补丁已打进 ${cfgPath}`);
 
 // ── C11 ⑤ 默认浅色:Head 首子节点注入种子脚本(在框架主题 prescript 之前跑)──
+// 2026-08-16 用户「打开网站默认还是黑夜」:原脚本只管「从没存过 theme」的新访客,
+// 老访客早年跟系统深色存下的 'dark' 会一直黑 → 加 pd-light-1 一次性迁移(所有人重置回白天一次,
+// 之后手动切深色照旧记住)。顺带补 theme-color meta(手机状态栏时间/电量那条的底色,
+// 此前从没告诉过浏览器 → iOS 直开显黑;随 saved-theme 切换同步)。
 patchFile(
   resolve(SITE, "quartz/components/Head.tsx"),
   `    return (
@@ -139,7 +143,7 @@ patchFile(
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: \`try{if(!localStorage.getItem('theme')){localStorage.setItem('theme','light');document.documentElement.setAttribute('saved-theme','light')}}catch(e){}\`,
+            __html: \`try{if(!localStorage.getItem('pd-light-1')){localStorage.setItem('pd-light-1','1');localStorage.setItem('theme','light')}if(!localStorage.getItem('theme')){localStorage.setItem('theme','light')}var pdT=localStorage.getItem('theme');document.documentElement.setAttribute('saved-theme',pdT);var pdM=document.createElement('meta');pdM.name='theme-color';pdM.content=pdT==='dark'?'#1c1b1a':'#fff';document.head.appendChild(pdM);new MutationObserver(function(){pdM.content=document.documentElement.getAttribute('saved-theme')==='dark'?'#1c1b1a':'#fff'}).observe(document.documentElement,{attributes:true,attributeFilter:['saved-theme']})}catch(e){}\`,
           }}
         />
         <title>{title}</title>`,

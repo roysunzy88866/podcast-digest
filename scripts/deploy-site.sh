@@ -73,6 +73,10 @@ for f in ../assets/logos/*.png; do
   cp "$f" "public/logos/$(basename "$f")"
 done
 echo "public/logos png=$(ls public/logos/*.png 2>/dev/null | wc -l | tr -d ' ')"
+# 3.3b) favicon 换成 SOLO 站标(用户 2026-08-16「logo 用错了」:此前一直是 Quartz 默认水晶图标)。
+#       裸 cp:set -e 下缺图即中断,不让默认水晶悄悄回潮。HTML 引 ./static/icon.png,路径不变只换内容。
+cp ../assets/logos/icon.png public/static/icon.png
+echo "public/static/icon.png(SOLO)✔"
 # 3.4) 播客封面进站点根 /podcast-cover.png(feed.xml 的 itunes:image 指向它;SOLO 站标方图,用户 2026-08-16)
 # 裸 cp(不接 && echo):set -e 下缺图即中断部署,不让 feed 挂着指向 404 封面静默上线(GLM 011)。
 cp ../assets/podcast-cover.png public/podcast-cover.png
