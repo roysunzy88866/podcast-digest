@@ -626,7 +626,8 @@ describe("C13f · 点一条内容开新标签页", () => {
 describe("C13f · 顶栏图标顺序(分享/收藏 0 → 深色 1 → 搜索 2)", () => {
   it("★★★ 用 order 排:深色 1、搜索 2(搜索最右)", () => {
     expect(scss).toMatch(/\.pd-acts \.search \{[^}]*order:\s*2/);
-    expect(scss).toMatch(/\.pd-acts \.darkmode \{[\s\S]{0,40}?order:\s*1/);
+    // 块内匹配([^}] 不跨块):GLM 030[1] 指出 {0,40}? 字符窗会被「order 前插注释/属性」误伤
+    expect(scss).toMatch(/\.pd-acts \.darkmode \{[^}]*order:\s*1/);
   });
 });
 
