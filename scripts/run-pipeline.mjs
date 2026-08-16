@@ -59,6 +59,16 @@ export const SOURCES = [
   //     题材泛,靠品味判官逐集筛,**不进顶量补历史池**(见 BACKFILL_FEED_KEYS),免拿健康/名人集凑 5/日。
   { key: "dwarkesh", name: "Dwarkesh Podcast", feedUrl: "https://www.dwarkesh.com/feed" },
   { key: "doac", name: "The Diary of a CEO", feedUrl: "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn", asr: "whisperx" },
+  // 2026-08-16 用户逐个确认再接六源(drift #58,三 agent 调研+本机 curl 双验;均无平台官方稿→whisperX):
+  //   deepmind/cogrev/twentyvc 题材贴 AI,进补历史池(BACKFILL_FEED_KEYS);knowledge 偏商业智慧、pragmatic Substack 浅 feed → 只向前不进池。
+  { key: "deepmind", name: "Google DeepMind: The Podcast", feedUrl: "https://feeds.simplecast.com/JT6pbPkg", asr: "whisperx" },
+  { key: "twentyvc", name: "The Twenty Minute VC", feedUrl: "https://rss.libsyn.com/shows/61840/destinations/240976.xml", asr: "whisperx" }, // 1496 集全音频、中位38m;发稿消防栓,靠品味判官狠筛
+  { key: "cogrev", name: "The Cognitive Revolution", feedUrl: "https://feeds.megaphone.fm/RINTP3108857801", asr: "whisperx" }, // 集偏长(中位1h35m),ASR 成本中等
+  { key: "knowledge", name: "The Knowledge Project", feedUrl: "https://theknowledgeproject.libsyn.com/rss", asr: "whisperx" }, // 商业/创始人/决策,松沾 AI,靠判官筛,不进补历史池
+  // pragmatic:Substack(纯 podcast feed 403,走 custom domain;20条才7条音频,isInterview 按音频过滤);⚠️ 地理陈旧风险,接后盯新音频集能否及时进。
+  { key: "pragmatic", name: "The Pragmatic Engineer", feedUrl: "https://newsletter.pragmaticengineer.com/feed", asr: "whisperx" },
+  // workos:已停更18月(用户「只挖历史」)——向前抓自然0新(死源),靠进补历史池挖它31集封闭档。
+  { key: "workos", name: "Crossing the Enterprise Chasm (WorkOS)", feedUrl: "https://feeds.transistor.fm/crossing-the-enterprise-chasm", asr: "whisperx" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
@@ -69,7 +79,11 @@ export const SOURCES = [
  *  lennys 走 vendored archiveFile(Substack www feed 浅);这些**非 Substack 源 feed 本身够深**
  *  (a16z 1000/bigtech 554/yc 334/beyondcoding 263… 实测)= 现成历史档,顶量时直接抓 feed 往回补。
  *  只列题材贴 AI/创业/科技的;**排除** founders(创始人传记偏)/doac(泛商业)/pg(Substack 浅 feed)——免拿偏题集凑 5/日。 */
-export const BACKFILL_FEED_KEYS = ["a16z", "aia16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding"];
+export const BACKFILL_FEED_KEYS = [
+  "a16z", "aia16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding",
+  // 2026-08-16 用户确认再进池(drift #58):deepmind/cogrev/twentyvc 题材贴 AI+深 feed;workos 停更但用户「只挖历史」=靠补历史池挖它 31 集封闭档。
+  "deepmind", "cogrev", "twentyvc", "workos",
+];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
 const BROWSER_HEADERS = {

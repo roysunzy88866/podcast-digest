@@ -197,6 +197,24 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     const keys = new Set(SOURCES.map((s) => s.key));
     for (const k of BACKFILL_FEED_KEYS) expect(keys.has(k)).toBe(true);
   });
+  it("★ 2026-08-16 用户逐个确认再接六源(drift #58):齐、feedUrl 对、均 whisperX", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    const expected = {
+      deepmind: "feeds.simplecast.com/JT6pbPkg",
+      twentyvc: "rss.libsyn.com/shows/61840",
+      cogrev: "feeds.megaphone.fm/RINTP3108857801",
+      knowledge: "theknowledgeproject.libsyn.com",
+      pragmatic: "newsletter.pragmaticengineer.com",
+      workos: "crossing-the-enterprise-chasm",
+    };
+    for (const [k, frag] of Object.entries(expected)) {
+      expect(by[k]?.feedUrl).toContain(frag);
+      expect(by[k]?.asr).toBe("whisperx");
+    }
+    // 进补历史池:deepmind/cogrev/twentyvc/workos;不进:knowledge(商业泛)/pragmatic(Substack浅)
+    for (const k of ["deepmind", "cogrev", "twentyvc", "workos"]) expect(BACKFILL_FEED_KEYS).toContain(k);
+    for (const k of ["knowledge", "pragmatic"]) expect(BACKFILL_FEED_KEYS).not.toContain(k);
+  });
   it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {
     for (const s of SOURCES) {
       expect(s.key).toBeTruthy();
