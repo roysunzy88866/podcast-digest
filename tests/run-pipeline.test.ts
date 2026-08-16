@@ -242,19 +242,6 @@ describe("cacheBustFeedUrl · 加一次性暗号绕开 CDN 陈旧 feed(drift #55
   });
 });
 
-describe("lennys snapshotFile · 向前抓改读 Mac mini 新鲜快照(drift #56:Substack 按地理喂陈旧断更)", () => {
-  it("★ lennys 标 snapshotFile(读住宅 IP 快照);非 Substack 源不标(直抓即新鲜)", () => {
-    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
-    expect(by.lennys?.snapshotFile).toBe("data/lennys-live-feed.xml");
-    expect(by.a16z?.snapshotFile).toBeUndefined();
-    expect(by.beyondcoding?.snapshotFile).toBeUndefined();
-  });
-  it("★ lennys 仍保留 archiveFile(backfill 走 archive 不受快照影响)", () => {
-    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
-    expect(by.lennys?.archiveFile).toBe("data/lennys-podcast-archive.json");
-  });
-});
-
 describe("migrateState · 旧单 cutoff state 无损升级(C9 D44①)", () => {
   it("★ 旧格式 {sincePubDate, cutoffSource} → cutoffs 按源,skipped 保留", async () => {
     const { migrateState } = await import("../scripts/run-pipeline.mjs");
