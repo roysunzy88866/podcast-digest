@@ -2354,9 +2354,28 @@ Scenario: 订阅源随站上线、缓存合理
   Then public/feed.json 存在且 items>0(部署前硬断言,否则拒绝部署)
   And _headers 给 /feed.json 配 max-age=3600, must-revalidate(同 /feed.xml)
 
+# ── C26 追加(2026-08-16 用户:线上要有 RSS/Agent 可见入口 + 自发现)──
+
+Scenario: feed 自发现(粘站点网址即可订阅)
+  Given 任意页面 <head>
+  Then 有 <link rel="alternate" type="application/feed+json" href="/feed.json">
+  And 有 <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+  So 阅读器/Agent 只拿到站点 URL 也能自动定位 feed
+
+Scenario: PC 主页侧边栏「订阅更新」入口(用户拍板放侧边栏)
+  Given PC 首页/大类页/必读页 左栏 .pd-left
+  Then 有「订阅更新」按钮,排在「我的收藏」之后、「全部主题」之前(同 .pd-myfav 弹层手法)
+  When 点它
+  Then 弹出订阅弹层,列三档:🎧 feed.xml(听)/📰 feed.json(读全文)/🤖 llms.txt(喂 Agent),各带「复制」
+  And 复制走 navigator.clipboard,老浏览器/非安全上下文有 execCommand 兜底
+  And 遮罩点击 / Esc 关闭;弹层色走深色令牌(--pd-accent-soft 等)不写死
+  And 手机档 .pd-left display:none → 入口只在 PC(用户明选侧边栏),不破坏手机版
+
 ### DoD(C26)
 1. seo.mjs:纯函数 buildJsonFeed(episodes)(+ toRfc3339)输出 JSON Feed v1.1;content_text=全文、summary=tldr、added 降序、date_published=原集日期、authors=本站。
 2. scripts/build-json-feed.mjs:collectPublishedFull 采 samples/*.md 已发布集(meta+digest+entities),分类走 render.mjs episodeCategories;--out 写 public/feed.json。
 3. deploy-site.sh:build-json-feed 一步 + _headers 加 /feed.json 缓存 + 部署前断言 items>0。
 4. tests/build-json-feed.test.ts:结构/全文/排序/日期/版权/tags/空输入 + collectPublishedFull 真库采集,全绿(与 seo.test 合计 30 测)。
 5. 线上 curl /feed.json 校验:合法 JSON + version + 全文 + items 数;story-map C26(🟡);待用户线上验收。
+6. (追加)patch-site.mjs Head 注入 feed 自发现 link(feed+json / rss+xml);build-list.mjs 左栏加「订阅更新」按钮 + scriptBlock openSub 弹层(三档 feed + 复制,clipboard + execCommand 兜底);custom.scss 弹层样式(深色令牌);URL 用 location.origin 不写死域名(GLM 006[5])。
+7. (追加)tests/build-list.test.ts「C26 订阅入口」4 测绿(按钮位置/三档 feed/复制兜底/深色令牌);GLM 20260816-006 冷审 6 条(1 real 采纳=location.origin,5 noise 逐条反证)已 adjudicate。线上 curl 校验 <head> 自发现 link + 首页含 pd-subscribe。

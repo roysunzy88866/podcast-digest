@@ -745,3 +745,43 @@ describe("C24 · custom.scss 折叠规则", () => {
     expect(scss).toContain(".io-sentinel");
   });
 });
+
+describe("C26 · 订阅入口(用户 2026-08-16:PC 主页侧边栏)", () => {
+  const md = renderList([ep()], opts);
+  const block = scriptBlock();
+
+  it("★★★ 左栏有『订阅更新』按钮,且排在 我的收藏 之后、全部主题 之前", () => {
+    expect(md).toContain('class="pd-subscribe"');
+    expect(md).toContain("订阅更新");
+    const iFav = md.indexOf("我的收藏");
+    const iSub = md.indexOf("订阅更新");
+    const iAll = md.indexOf("全部主题");
+    expect(iFav).toBeGreaterThanOrEqual(0);
+    expect(iSub).toBeGreaterThan(iFav);
+    expect(iAll).toBeGreaterThan(iSub);
+  });
+
+  it("★★★ 弹层脚本三档 feed 都在(听 feed.xml / 读全文 feed.json / 喂 Agent llms.txt)", () => {
+    expect(block).toContain("openSub");
+    expect(block).toContain("pd-subov");
+    expect(block).toContain("/feed.xml");
+    expect(block).toContain("/feed.json");
+    expect(block).toContain("/llms.txt");
+    // 点击委托:订阅按钮触发 openSub
+    expect(block).toMatch(/pd-subscribe[\s\S]{0,60}openSub/);
+  });
+
+  it("★★ 复制按钮走 clipboard,并有 execCommand 兜底(老浏览器/非安全上下文)", () => {
+    expect(block).toContain("navigator.clipboard");
+    expect(block).toContain("execCommand");
+  });
+
+  it("★★ 弹层样式与深色令牌都在 custom.scss(不写死颜色)", () => {
+    expect(scss).toContain(".pd-subscribe");
+    expect(scss).toContain(".pd-subbox");
+    expect(scss).toContain(".pd-subcopy");
+    // 图标底色用令牌,深色模式才不瞎
+    const box = scss.slice(scss.indexOf(".pd-subic"), scss.indexOf(".pd-subic") + 200);
+    expect(box).toContain("var(--pd-accent-soft)");
+  });
+});

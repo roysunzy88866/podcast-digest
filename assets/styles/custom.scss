@@ -1889,3 +1889,38 @@ body[data-slug^="entities/"] {
 .pd-favempty { padding: 8px 18px 18px; font-size: 14px; color: var(--B6); line-height: 1.6; }
 .pd-favi { display: block; padding: 10px 18px; font-size: 15px; color: var(--B8); line-height: 1.5; text-decoration: none; }
 .pd-favi:hover { background: var(--B1); }
+
+/* 订阅入口(用户 2026-08-16:PC 主页侧边栏)—— 样式随 .pd-myfav,坐它下面 */
+.pd-subscribe {
+  display: flex; align-items: center; gap: 7px;
+  width: 100%; padding: 7px 0; margin: -4px 0 10px;
+  background: none; border: 0; cursor: pointer; font-family: inherit;
+  font-size: 13.5px; color: var(--B7); text-align: left;
+}
+.pd-subscribe:hover { color: var(--pd-accent); }
+.pd-subscribe svg { flex: 0 0 auto; }
+.pd-subscribe span { flex: 1; }
+/* 订阅弹层 —— 遮罩/白盒随 .pd-favov/.pd-favbox */
+.pd-subov {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(0, 0, 0, 0.12); backdrop-filter: blur(3px);
+  display: flex; justify-content: center; align-items: flex-start;
+}
+.pd-subbox {
+  margin-top: 120px; width: 440px; max-width: 92vw;
+  background: var(--B0); border-radius: 12px;
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.15);
+  padding: 4px 0; max-height: 76vh; overflow-y: auto; overscroll-behavior: contain;
+}
+.pd-subhd { padding: 15px 18px 11px; font-size: 15px; font-weight: 600; color: var(--B8); border-bottom: 1px solid var(--B2); }
+.pd-subrow { display: flex; gap: 12px; padding: 13px 18px; border-bottom: 1px solid var(--B2); align-items: flex-start; }
+.pd-subrow:last-child { border-bottom: 0; }
+.pd-subic { flex: 0 0 34px; width: 34px; height: 34px; border-radius: 9px; background: var(--pd-accent-soft); display: flex; align-items: center; justify-content: center; font-size: 17px; }
+.pd-submid { flex: 1; min-width: 0; }
+.pd-subt { font-weight: 600; font-size: 13.5px; margin-bottom: 2px; color: var(--B8); }
+.pd-subd { font-size: 11.5px; color: var(--B5); line-height: 1.5; margin-bottom: 7px; }
+.pd-suburlrow { display: flex; gap: 6px; align-items: center; }
+.pd-suburl { flex: 1; min-width: 0; font: 11.5px/1 ui-monospace, Menlo, monospace; color: var(--B8); background: var(--B1); border: 1px solid var(--B3); border-radius: 7px; padding: 6px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pd-subcopy { flex: 0 0 auto; font-size: 11.5px; color: var(--pd-accent); border: 1px solid var(--B3); background: var(--B0); border-radius: 7px; padding: 6px 10px; cursor: pointer; font-family: inherit; }
+.pd-subcopy:hover { border-color: var(--pd-accent); }
+.pd-subfoot { padding: 11px 18px; font-size: 11px; color: var(--B6); background: var(--B1); }

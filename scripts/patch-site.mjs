@@ -157,6 +157,9 @@ patchFile(
         <meta property="og:type" content={(fileData.frontmatter as any)?.type === "episode" ? "article" : "website"} />
         {/* C22 · SEO:canonical(复用本页 URL)*/}
         <link rel="canonical" href={socialUrl} />
+        {/* C26 · feed 自发现:RSS 阅读器/Agent 粘站点 URL 即自动找到 feed(json 全文 / xml 播客)*/}
+        <link rel="alternate" type="application/feed+json" title="跨国深谈 · 中文精华全文" href="/feed.json" />
+        <link rel="alternate" type="application/rss+xml" title="英文播客中文精华 · 播客配音" href="/feed.xml" />
         {/* C22 · SEO:结构化数据(frontmatter.jsonLd 由 render/build-list 按页写好,YAML 字面块承接单行 JSON)*/}
         {(fileData.frontmatter as any)?.jsonLd && (
           <script

@@ -149,6 +149,7 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
   // 在 Quartz 手里,复刻一份必然走样,同 🔒 #9 搜索那条的手法)。
   return `<div class="pd-left">
     <button class="pd-myfav" type="button"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><span>我的收藏</span><i></i></button>
+    <button class="pd-subscribe" type="button"><svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a6 6 0 0 1 6 6"/><path d="M4 4.5a11.5 11.5 0 0 1 11.5 11.5"/><circle cx="4.6" cy="15.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>订阅更新</span></button>
     <div class="sh">全部主题</div>
     <a class="cl${active ? "" : " on"}" href="${active ? ".." : "."}/"><span>全部</span><i>${episodes.length}</i></a>
     ${rows}
@@ -522,6 +523,49 @@ export const scriptBlock = () => squashBlankLines(`<script>
   }
   document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.pd-myfav')){e.preventDefault();openFav();}});
   document.addEventListener('nav',upd);upd();
+})();
+(function(){
+  // 订阅弹层(用户 2026-08-16:PC 主页侧边栏入口)。三档 = 听(播客)/读全文(RSS)/喂 Agent。
+  // 用 location.origin 而非写死域名(GLM 20260816-006[5]:换域名/staging 自动跟随,同源)。
+  var SITE=location.origin;
+  var ROWS=[
+    {ic:'🎧',t:'用播客 App 听',d:'中文配音音频。粘进 Apple Podcasts、小宇宙、Overcast 等。',u:SITE+'/feed.xml'},
+    {ic:'📰',t:'用 RSS 阅读器读全文',d:'中文精华全文。粘进 Feedly、Inoreader、NetNewsWire、Reeder 等。',u:SITE+'/feed.json'},
+    {ic:'🤖',t:'喂给 AI / Agent',d:'把网址发给 AI 助手:llms.txt 是站点目录索引,要全文订 feed.json。',u:SITE+'/llms.txt'}
+  ];
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  function openSub(){
+    var ov=document.createElement('div');ov.className='pd-subov';
+    var h='<div class="pd-subbox"><div class="pd-subhd">订阅更新</div>';
+    ROWS.forEach(function(r){
+      h+='<div class="pd-subrow"><span class="pd-subic">'+r.ic+'</span><div class="pd-submid">'
+        +'<div class="pd-subt">'+esc(r.t)+'</div><div class="pd-subd">'+esc(r.d)+'</div>'
+        +'<div class="pd-suburlrow"><span class="pd-suburl">'+esc(r.u)+'</span>'
+        +'<button class="pd-subcopy" type="button" data-u="'+esc(r.u)+'">复制</button></div></div></div>';
+    });
+    h+='<div class="pd-subfoot">粘站点网址进阅读器也能自动订阅(已内置自发现)。</div></div>';
+    ov.innerHTML=h;
+    function closeSub(){ov.remove();document.removeEventListener('keydown',onEsc);}
+    function onEsc(ev){if(ev.key==='Escape')closeSub();}
+    function done(btn){btn.textContent='已复制';setTimeout(function(){btn.textContent='复制';},1400);}
+    ov.addEventListener('click',function(e){
+      var btn=e.target.closest&&e.target.closest('.pd-subcopy');
+      if(btn){
+        var u=btn.getAttribute('data-u');
+        if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(function(){done(btn);}).catch(function(){fallback(btn);});}
+        else{fallback(btn);}
+        return;
+      }
+      if(e.target===ov)closeSub();
+    });
+    function fallback(btn){
+      try{var url=btn.parentNode.querySelector('.pd-suburl');var rg=document.createRange();rg.selectNodeContents(url);
+        var sel=getSelection();sel.removeAllRanges();sel.addRange(rg);document.execCommand('copy');sel.removeAllRanges();done(btn);}catch(_){}
+    }
+    document.addEventListener('keydown',onEsc);
+    document.body.appendChild(ov);
+  }
+  document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.pd-subscribe')){e.preventDefault();openSub();}});
 })();
 </script>`);
 
