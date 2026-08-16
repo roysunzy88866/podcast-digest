@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*12 条*
+*15 条*
 
 ![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q1]]
 
@@ -22,6 +22,12 @@ unlisted: true
 ![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q4]]
 
 ![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q5]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q1]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q2]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q3]]
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
 
@@ -39,9 +45,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-27-lennys-from-zero-coding-background-to-hardware|《不审查AI生成的PR：自动评分审批机器人实战》]] — 作为主持
+- [[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|《用 AI 代替人审 PR：风险评分与自动批准实操》]] — 作为主持
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为主持
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|《不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记》]] — 作为主持
 
@@ -49,9 +56,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Intercom]] · [[Vercel]] · [[智能体]] · [[沙箱]] · [[Eve]] · [[风险评分]] · [[Codex]] · [[Slack]] · [[GitHub]] · [[评估]]
+[[Intercom]] · [[Vercel]] · [[智能体]] · [[沙箱]] · [[Eve]] · [[风险评分]] · [[GitHub]] · [[Slack]] · [[Codex]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"Intercom":3,"Vercel":7,"智能体":81,"沙箱":20,"Eve":3,"风险评分":3,"Codex":16,"Slack":18,"GitHub":13,"评估":10}</script>
+<script type="application/json" class="pd-epn">{"Intercom":4,"Vercel":8,"智能体":82,"沙箱":21,"Eve":4,"风险评分":4,"GitHub":14,"Slack":19,"Codex":17,"评估":11}</script>
 
 <script>
 (function(){

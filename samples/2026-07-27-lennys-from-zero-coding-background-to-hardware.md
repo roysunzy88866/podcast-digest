@@ -107,9 +107,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|用 AI 代替人审 PR：风险评分与自动批准实操]]<span class="pd-rz">同公司:Intercom、Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Intercom、Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记]]<span class="pd-rz">同公司:Intercom、Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Vercel · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"软件供应链":3,"智能体":81,"Dylan":2,"Firas":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":3,"零日漏洞":2}</script>
+<script type="application/json" class="pd-epn">{"软件供应链":3,"智能体":82,"Dylan":2,"Firas":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":3,"零日漏洞":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>95</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>97</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,7 +18,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*95 条*
+*97 条*
 
 ![[2025-09-21-lennys-from-managing-people-to-managing-ai-juli#^q2]]
 
@@ -168,6 +168,10 @@ unlisted: true
 
 ![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q1]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q3]]
+
 ![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q4]]
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
@@ -225,7 +229,7 @@ unlisted: true
 
 [[Waymo]] · [[Tesla]] · [[ChatGPT]] · [[智能体]] · [[强化学习]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Chelsea Finn]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"Waymo":8,"Tesla":5,"ChatGPT":15,"智能体":81,"强化学习":9,"Lenny":44,"Jensen Huang":3,"Matt Turk":1,"Chelsea Finn":1,"Qasar Younis":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":8,"Tesla":5,"ChatGPT":15,"智能体":82,"强化学习":9,"Lenny":44,"Jensen Huang":3,"Matt Turk":1,"Chelsea Finn":1,"Qasar Younis":1}</script>
 
 <script>
 (function(){

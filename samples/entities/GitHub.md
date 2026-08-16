@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(02:08起):本集展示 Laurel 用 GitHub 的文件夹结构来作为「公司操作系统」的底座，在里面存储和共享各个职能的「剧本」和「技能」文件。
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(14:51起):本集说它是一个代码仓库平台，Figma 新推出的 CodeLayers 允许你直接从它导入仓库到画布上，并且能一键把代码更新推回它的仓库。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(14:58起):本集把它说成:Anthropic 的代码审查基础设施,会审查每个 PR(包括由 Claude Code 审查的那部分)
+- **[[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|《用 AI 代替人审 PR：风险评分与自动批准实操》]]**(00:07起):本集说 PR 变更完成后 GitHub 触发事件，通过 Vercel 的 GitHub 集成接住，需要设置 GitHub 应用并配置 pull requests、文件内容、CI 检查等权限
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(00:07起):本集中作为代码仓库平台，通过它的事件触发智能体来审查拉取请求（PR）。
 - **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(01:50起):本集提出，团队应把商业、产品和代码三层技能全塞进一个共享的 GitHub 仓库，取代过去 PM 待在 Notion、设计师待在 Figma 的分散状态。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:48起):本集顺带提及:代码托管平台，由于 Claude Code 的爆火，原本离终端很远的设计师竟然也开始学起了 GitHub。
@@ -27,7 +28,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
@@ -35,6 +36,7 @@ unlisted: true
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为被讨论公司(提及)
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|《用 AI 代替人审 PR：风险评分与自动批准实操》]] — 作为被讨论公司(提及)
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司(提及)
@@ -47,9 +49,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Notion]] · [[Vercel]] · [[Cursor]] · [[Codex]] · [[Lenny]]
+[[智能体]] · [[Slack]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Vercel]] · [[Cursor]] · [[Codex]] · [[Notion]] · [[Claire]]
 
-<script type="application/json" class="pd-epn">{"智能体":81,"Slack":18,"沙箱":20,"Figma":7,"Claude Code":21,"Notion":5,"Vercel":7,"Cursor":14,"Codex":16,"Lenny":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":82,"Slack":19,"沙箱":21,"Figma":7,"Claude Code":21,"Vercel":8,"Cursor":15,"Codex":17,"Notion":5,"Claire":4}</script>
 
 <script>
 (function(){

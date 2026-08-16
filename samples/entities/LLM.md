@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Duolingo]] · [[开源模型]] · [[Google]] · [[Stripe]] · [[Claude]] · [[OpenAI]] · [[Albert Cheng]]
 
-<script type="application/json" class="pd-epn">{"智能体":81,"Anthropic":45,"Lenny":44,"Duolingo":2,"开源模型":5,"Google":16,"Stripe":12,"Claude":12,"OpenAI":35,"Albert Cheng":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":82,"Anthropic":45,"Lenny":44,"Duolingo":2,"开源模型":5,"Google":16,"Stripe":12,"Claude":12,"OpenAI":36,"Albert Cheng":1}</script>
 
 <script>
 (function(){

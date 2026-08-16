@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[ACV]] · [[Cursor]] · [[Stripe]] · [[OpenAI]] · [[Jen Abel]] · [[Jeanne DeWitt Grosser]] · [[Elena Berger]] · [[企业销售]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"Lenny":44,"ACV":2,"Cursor":14,"Stripe":12,"OpenAI":35,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"Elena Berger":3,"企业销售":1,"Vercel":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":44,"ACV":2,"Cursor":15,"Stripe":12,"OpenAI":36,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"Elena Berger":3,"企业销售":1,"Vercel":8}</script>
 
 <script>
 (function(){

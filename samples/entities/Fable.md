@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude]] · [[提示词]] · [[Slack]] · [[Barney Hussey-Yeo]] · [[Alex Finn]] · [[Simon Willison]] · [[John Collison]] · [[系统提示词]]
 
-<script type="application/json" class="pd-epn">{"智能体":81,"Anthropic":45,"Claude":12,"提示词":2,"Slack":18,"Barney Hussey-Yeo":1,"Alex Finn":1,"Simon Willison":1,"John Collison":1,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":82,"Anthropic":45,"Claude":12,"提示词":2,"Slack":19,"Barney Hussey-Yeo":1,"Alex Finn":1,"Simon Willison":1,"John Collison":1,"系统提示词":3}</script>
 
 <script>
 (function(){

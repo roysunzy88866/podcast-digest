@@ -1,0 +1,1613 @@
+{
+  "episode_id": "2026-08-03-lennys-chatgpt-codex-voice-browser-sites",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-03",
+  "tags": [
+    "PR 审查智能体",
+    "风险评分",
+    "Vercel Eve",
+    "vibe coding",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "claire",
+      "type": "person",
+      "role": "host",
+      "name": "Claire",
+      "file": "Claire",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            157.38,
+            159.231
+          ],
+          "quote": "You're thinking, Claire, you are crazy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": true,
+      "how_described": "本集说 Intercom 已经把 PR 吞吐量提升了 2 到 3 倍，构建了一个 PR 审查智能体来评分并自动批准，AI 批准的 PR 比纯人类审查快 5 倍且回退率更低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            71.298,
+            76.759
+          ],
+          "quote": "Brian from Intercom, who has led the way in auto scoring and auto approval of PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            185.298,
+            190.54
+          ],
+          "quote": " One is from Intercom about how they made AI approved PRs safe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            191,
+            194.581
+          ],
+          "quote": "If you don't know, Intercom has 2x, 3x their PR throughput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            208.846,
+            212.587
+          ],
+          "quote": "And what I love about what Intercom has done here is they don't just worry",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            319.025,
+            320.536
+          ],
+          "quote": "who took inspiration from Intercom,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1374.148,
+            1377.4813333333332
+          ],
+          "quote": "especially the folks at Intercom do as part of this process,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说 Vercel 发布了 Vercel 连接器，提供托管连接，通过向导就能把 Slack 和 GitHub 接入智能体，还开源了 chat SDK",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            377.316,
+            383.361
+          ],
+          "quote": "through how I built a code review risk scoring bot with Vercel's Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            415.296,
+            417.9626666666667
+          ],
+          "quote": "If they're using Vercel, I tell them to use Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            462.316,
+            466.158
+          ],
+          "quote": "So because Vercel has shipped a Vercel connectors,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            466.218,
+            469.6624444444445
+          ],
+          "quote": "which are like managed connections inside your Vercel account,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            484.437,
+            487.278
+          ],
+          "quote": "And I sound totally like a Vercel shill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            589.021,
+            593.2432222222221
+          ],
+          "quote": "I steered it and said, we could design it as a Vercel Eve agent if you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            753.02,
+            758.584
+          ],
+          "quote": "Vercel's GitHub integration picks that up in the GitHub Vercel channel",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            760.805,
+            762.687
+          ],
+          "quote": "Vercel spins up its sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            878.384,
+            880.846
+          ],
+          "quote": "And I just had Vercel set all that up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1324.773,
+            1326.694
+          ],
+          "quote": "use Vercel's Eve agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1334.657,
+            1338.118
+          ],
+          "quote": " Hook up that Vercel agent to GitHub and to Slack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：可以部署在企业 Slack 和 GitHub 里的 PR 审查智能体，通过指令、技能和工具来读取 PR、打风险分并自动批准低风险项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            200.923,
+            207.923
+          ],
+          "quote": "And so they built a PR review agent that scores their PRs and then auto approves them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            341.702,
+            348.587
+          ],
+          "quote": "And so between these two blog posts, I had a really good starting point for building an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            399.23,
+            406.23
+          ],
+          "quote": "in Slack and GitHub without the torture and pain of something like Hermes Agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            424.209,
+            428.892
+          ],
+          "quote": " An Eve agent is very similar to open So",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            436.627,
+            440.542
+          ],
+          "quote": " again, it's like very easy to set up the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            451.629,
+            458.114
+          ],
+          "quote": "And then my favorite part is Managing talking to the agent in specific channels",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            473.381,
+            477.7143333333333
+          ],
+          "quote": "to your Eve agent, a little wizard to hook up GitHub to go through your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            480.437,
+            484.417
+          ],
+          "quote": "Everything that's painful about creating an agent is just taken care of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            546.843,
+            551.246
+          ],
+          "quote": "And now every agent that I'm creating that I want to interact with in Slack for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            559.437,
+            560.447
+          ],
+          "quote": "What does the agent do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            589.021,
+            593.2432222222221
+          ],
+          "quote": "I steered it and said, we could design it as a Vercel Eve agent if you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            612.644,
+            614.595
+          ],
+          "quote": "the code for the Eve agent and the repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            697.739,
+            702.0723333333334
+          ],
+          "quote": "And so I want to talk a little bit about what the agent does and how it works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            703.901,
+            706.663
+          ],
+          "quote": "If you were building a PR review agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            788.689,
+            793.817
+          ],
+          "quote": " So if you were to set up your Eve agent to be similar to mine, what would it have?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            828.359,
+            830.247888888889
+          ],
+          "quote": "It's a chat PRD engineering agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            848.706,
+            850.537
+          ],
+          "quote": "why I like this Eve Agent framework,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            940.924,
+            943.266
+          ],
+          "quote": "That is what it takes to create an agent like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1247.05,
+            1248.951
+          ],
+          "quote": "this lovely Eve agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1295.015,
+            1298.417
+          ],
+          "quote": "now that we have these agent building frameworks,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1308.822,
+            1313.806
+          ],
+          "quote": "that made building this agent Super, super, super simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1334.657,
+            1338.118
+          ],
+          "quote": " Hook up that Vercel agent to GitHub and to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1377.991,
+            1381.193
+          ],
+          "quote": "is they run evals on this internal agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1387.827,
+            1390.869
+          ],
+          "quote": " And an engineer looks at it and says, did the agent get this right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1390.909,
+            1392.099
+          ],
+          "quote": "Did the agent get this wrong?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 Eve 智能体可以拥有一个沙箱来在其中执行操作，包括在代码审查时执行你的代码，Vercel 会在触发时启动沙箱并检出仓库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            445.845,
+            449.038
+          ],
+          "quote": "It can even have a sandbox in which it can execute things,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            760.805,
+            762.687
+          ],
+          "quote": "Vercel spins up its sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eve",
+      "type": "concept",
+      "role": "concept",
+      "name": "Eve",
+      "file": "Eve",
+      "primary": true,
+      "how_described": "本集说 Eve 是 Vercel 的一个框架，核心就是目录结构里放指令、技能和工具，是在企业 Slack 和 GitHub 中部署智能体的最简单方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            377.316,
+            383.361
+          ],
+          "quote": "through how I built a code review risk scoring bot with Vercel's Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            383.541,
+            388.365
+          ],
+          "quote": "So if you have not heard about Eve, I'm a little bit obsessed with Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            388.785,
+            390.307
+          ],
+          "quote": "Why do I like Eve?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            390.347,
+            397.347
+          ],
+          "quote": "Well, Eve has become The simplest way for me to deploy AI agents in the enterprise",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            415.296,
+            417.9626666666667
+          ],
+          "quote": "If they're using Vercel, I tell them to use Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            418.04,
+            419.372
+          ],
+          "quote": "Why do I tell them to use Eve?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            419.422,
+            424.109
+          ],
+          "quote": "Well, what's awesome about Eve is a lot of it is just a directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            424.209,
+            428.892
+          ],
+          "quote": " An Eve agent is very similar to open So",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            473.381,
+            477.7143333333333
+          ],
+          "quote": "to your Eve agent, a little wizard to hook up GitHub to go through your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            513.47,
+            518.432
+          ],
+          "quote": "whether or not you use Eve or not, to stand up a chatbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            534.195,
+            537.327
+          ],
+          "quote": "but it's even better when it's bundled into this Eve framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            537.377,
+            541.7
+          ],
+          "quote": "And so I highly recommend you try Eve framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            551.266,
+            555.9326666666666
+          ],
+          "quote": "an internal use case, if I don't already have an open claw, I'm porting over to Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            589.021,
+            593.2432222222221
+          ],
+          "quote": "I steered it and said, we could design it as a Vercel Eve agent if you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            612.644,
+            614.595
+          ],
+          "quote": "the code for the Eve agent and the repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            788.689,
+            793.817
+          ],
+          "quote": " So if you were to set up your Eve agent to be similar to mine, what would it have?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            848.706,
+            850.537
+          ],
+          "quote": "why I like this Eve Agent framework,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1247.05,
+            1248.951
+          ],
+          "quote": "this lovely Eve agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1287.832,
+            1291.493
+          ],
+          "quote": "the Eve agents had come out and it was just like not easy to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1324.773,
+            1326.694
+          ],
+          "quote": "use Vercel's Eve agents,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chat-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "chat SDK",
+      "file": "chat SDK",
+      "primary": false,
+      "how_described": "本集说它是 Vercel 开源的一个框架，在 Eve 幕后使用，处理多通道智能体的所有复杂性比如 Slack 配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            494.62,
+            497.5
+          ],
+          "quote": "It uses the chat SDK behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            506.007,
+            509.309
+          ],
+          "quote": "I was asking for this chat SDK for a long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            529.557,
+            534.1125555555556
+          ],
+          "quote": "Like I love it the chat PRD Slack bot and Teams bot actually runs on the chat SDK,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集说当任何人都能用 AI 写代码时，大家正坐在一大排 PR 面前需要审查，用智能体可以自动批准低风险的 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            50.667,
+            53.52
+          ],
+          "quote": "I'm going to show you how to build your own PR review,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            159.281,
+            164.865
+          ],
+          "quote": "Of course, I have to review every PR that comes out of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            191,
+            194.581
+          ],
+          "quote": "If you don't know, Intercom has 2x, 3x their PR throughput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            200.923,
+            207.923
+          ],
+          "quote": "And so they built a PR review agent that scores their PRs and then auto approves them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            219.25,
+            223.46099999999998
+          ],
+          "quote": "Yes, they want to get those PR cycle time down and those reviews out quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            564.098,
+            568.739
+          ],
+          "quote": "And so I'm going to show you the amazing prompt where I started this PR review bot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            703.901,
+            706.663
+          ],
+          "quote": "If you were building a PR review agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            706.763,
+            711.867
+          ],
+          "quote": "this is what I would suggest you do, which is it reads the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            718.612,
+            725.397
+          ],
+          "quote": "If it's low risk, if it's assessed that it's a low risk PR, it submits an approval on the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            748.757,
+            752.48
+          ],
+          "quote": " Keys off an event after all of the PR changes are done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            767.05,
+            771.773
+          ],
+          "quote": "It runs a couple skills and tools to assess the risk and quality of the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            781.397,
+            785.699
+          ],
+          "quote": "it pings my colleague and I in Slack to say this PR is ready for review",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            804.022,
+            806.524
+          ],
+          "quote": " It needs a skill to review the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            808.965,
+            814.049
+          ],
+          "quote": "read like all the files and information around the PR and then how to actually put",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            884.311,
+            887.024
+          ],
+          "quote": "So you don't want it triggered on every PR before checks are done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            887.074,
+            890.958
+          ],
+          "quote": "So I kind of had to reduce some noise in the PR rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            894.581,
+            896.103
+          ],
+          "quote": "It reads the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            897.224,
+            898.705
+          ],
+          "quote": "It's like a skill to read the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            905.888,
+            909.231
+          ],
+          "quote": " It reads and reviews the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1055.897,
+            1058.758
+          ],
+          "quote": "Now, the PR bot is called Merge Mommy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1058.919,
+            1061.42
+          ],
+          "quote": "She's Merge Mommy, the PR review bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1082.44,
+            1089.44
+          ],
+          "quote": "And so what happens on once the PR is ready to go, Merge Mommy runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1173.358,
+            1175.799
+          ],
+          "quote": "This is a deprecation PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1216.498,
+            1220.541
+          ],
+          "quote": "And so it's medium, not low, and it can't approve the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1221.085,
+            1226.007
+          ],
+          "quote": " Now we can run this against every PR that goes through our process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1248.991,
+            1255.991
+          ],
+          "quote": "I put AI to work to review and score the PR and tell me if there's any risk",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1320.59,
+            1323.692
+          ],
+          "quote": "a PR risk score and review bot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1326.854,
+            1332.817
+          ],
+          "quote": "give it instructions and a skill to read a PR and calculate a score based on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1352.382,
+            1356.424
+          ],
+          "quote": "super fast and your PR velocity will go through the roof.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1408.822,
+            1415.305
+          ],
+          "quote": " That has been my mini episode on how to build a PR approval and review bot here at Howie.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "risk-scoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "风险评分 (risk scoring)",
+      "file": "风险评分",
+      "primary": true,
+      "how_described": "本集说它看六个维度（变更范围、可逆性、数据安全、运营影响、验证缺口、CI 状态）算出一个分数，24 分以下低风险自动批准，25-64 中等，65 以上高风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            53.57,
+            55.892
+          ],
+          "quote": "risk scoring and automatic approval bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            377.316,
+            383.361
+          ],
+          "quote": "through how I built a code review risk scoring bot with Vercel's Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1363.64,
+            1368.784
+          ],
+          "quote": "And what would you put into your risk scoring that I haven't thought of?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": false,
+      "how_described": "本集说 Intercom 每次审查运行后把结果记录到内部评估平台，工程师定期看智能体判对判错、评分机制要不要调，跟面向用户的 AI 产品一样跑评估来持续改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            1377.991,
+            1381.193
+          ],
+          "quote": "is they run evals on this internal agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1394.43,
+            1399.373
+          ],
+          "quote": "So very similar to how you'd use evals to improve your customer facing AI products,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1399.793,
+            1404.395
+          ],
+          "quote": "you're going to want to use evals to improve your internally facing AI bots,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集说它为企业功能提供 drop-in API，被形容为企业功能的 Stripe，OpenAI、Perplexity 和 Cursor 都在用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            85.601,
+            88.182
+          ],
+          "quote": "This episode is brought to you by WorkOS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            127.725,
+            129.39166666666665
+          ],
+          "quote": " That's where WorkOS comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            130.127,
+            133.169
+          ],
+          "quote": "WorkOS gives you drop-in APIs for enterprise features",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            142.415,
+            147.078
+          ],
+          "quote": "and Cursor are already using WorkOS to move faster and meet enterprise demands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            147.979,
+            153.002
+          ],
+          "quote": "Join them and hundreds of other industry leaders at WorkOS.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集说 PR 变更完成后 GitHub 触发事件，通过 Vercel 的 GitHub 集成接住，需要设置 GitHub 应用并配置 pull requests、文件内容、CI 检查等权限",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.008,
+            9.55
+          ],
+          "quote": "and anyone can vibe anything to GitHub,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            399.23,
+            406.23
+          ],
+          "quote": "in Slack and GitHub without the torture and pain of something like Hermes Agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            473.381,
+            477.7143333333333
+          ],
+          "quote": "to your Eve agent, a little wizard to hook up GitHub to go through your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            569.579,
+            574.48
+          ],
+          "quote": "I want to make an internal GitHub bot slash app that reviews PRs after all C-checks,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            619.248,
+            624.852
+          ],
+          "quote": "But what was actually awesome is if you've ever set up a Slack bot or a GitHub app,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            640.459,
+            644.019
+          ],
+          "quote": "I let it navigate GitHub setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            652.721,
+            655.575
+          ],
+          "quote": "It needs to configure all this stuff and the permissions on the GitHub bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            745.314,
+            747.2584444444444
+          ],
+          "quote": "So the GitHub, I have a GitHub app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            753.02,
+            758.584
+          ],
+          "quote": "Vercel's GitHub integration picks that up in the GitHub Vercel channel",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            796.541,
+            800.047
+          ],
+          "quote": "It needs to have the GitHub channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            857.408,
+            858.8524444444445
+          ],
+          "quote": "Setting up the GitHub app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1014.793,
+            1019.075
+          ],
+          "quote": "in our GitHub to like match all of our SOC 2 compliance requirements.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1280.087,
+            1282.6425555555556
+          ],
+          "quote": "I was like, I don't want to set up the GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1334.657,
+            1338.118
+          ],
+          "quote": " Hook up that Vercel agent to GitHub and to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1338.558,
+            1342.76
+          ],
+          "quote": "Let it read from GitHub and give you a little gray check for approval and",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说自动批准的 PR 会推到 Slack 频道，人点一下批准、点一下合并两步搞定，智能体在 Slack 里通知相关的人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            399.23,
+            406.23
+          ],
+          "quote": "in Slack and GitHub without the torture and pain of something like Hermes Agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            470.2,
+            473.33099999999996
+          ],
+          "quote": "you can just literally go through like a little wizard to hook up Slack",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            497.68,
+            503.182
+          ],
+          "quote": "And if you are creating any sort of chat bot in Slack, Teams, WhatsApp, whatever, I mean...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            525.515,
+            527.9594444444444
+          ],
+          "quote": "It handles all like the Slack configuration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            528.056,
+            529.537
+          ],
+          "quote": "It gives you a manifest for Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            529.557,
+            534.1125555555556
+          ],
+          "quote": "Like I love it the chat PRD Slack bot and Teams bot actually runs on the chat SDK,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            546.843,
+            551.246
+          ],
+          "quote": "And now every agent that I'm creating that I want to interact with in Slack for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            619.248,
+            624.852
+          ],
+          "quote": "But what was actually awesome is if you've ever set up a Slack bot or a GitHub app,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            637.638,
+            640.378
+          ],
+          "quote": "and I let it navigate Slack bot setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            781.397,
+            785.699
+          ],
+          "quote": "it pings my colleague and I in Slack to say this PR is ready for review",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            815.83,
+            818.822
+          ],
+          "quote": "And then it has, you know, a couple of things like a Slack notifier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1003.265,
+            1008.268
+          ],
+          "quote": "And then the final piece is it escalates us to us in Slack for final action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1032.64,
+            1036.5910000000001
+          ],
+          "quote": "So what it does is escalate to Slack and then it says this one's been automatically reviewed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1127.421,
+            1133.242
+          ],
+          "quote": "Now what we do with these approved PRs, as I said, is we send them to a Slack channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1133.342,
+            1138.043
+          ],
+          "quote": "And so the Slack channel says, hey, either of you can take this, approve it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1226.388,
+            1232.751
+          ],
+          "quote": "we're gonna just keep getting these notifications in Slack that just let us know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1259.31,
+            1264.414
+          ],
+          "quote": "And then I had AI put me to work by escalating into Slack for the final action",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1298.597,
+            1302.979
+          ],
+          "quote": "now that kind of like everybody's agreed that we need Slack bots that do AI,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1334.657,
+            1338.118
+          ],
+          "quote": " Hook up that Vercel agent to GitHub and to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1342.8,
+            1348.721
+          ],
+          "quote": "then have it Slack you in Slack for that final human review and merge",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集仅在赞助商段落顺带提及，说 OpenAI 已经在使用 WorkOS 以加快速度并满足企业需求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            140.934,
+            142.235
+          ],
+          "quote": "OpenAI, Perplexity,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集仅在赞助商段落顺带提及，说 Perplexity 已经在使用 WorkOS",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            140.934,
+            142.235
+          ],
+          "quote": "OpenAI, Perplexity,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集仅在赞助商段落顺带提及，说 Cursor 已经在使用 WorkOS",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            142.415,
+            147.078
+          ],
+          "quote": "and Cursor are already using WorkOS to move faster and meet enterprise demands.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            371.952,
+            377.296
+          ],
+          "quote": "So we're going to go to this Codex vibe coded deck and we're going to walk",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            560.497,
+            563.418
+          ],
+          "quote": "Well, I built it in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            598.914,
+            603.197
+          ],
+          "quote": "And so instead of going through kind of like the chat on Codex on how I built this,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            605.539,
+            612.539
+          ],
+          "quote": "I would say a couple things that were like magical as I ran Codex is not that it did",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            681.395,
+            683.816
+          ],
+          "quote": " So again, I just built this in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1283.269,
+            1287.812
+          ],
+          "quote": "I actually had tried this before Codex like browser use was really good and before",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1305.4,
+            1308.702
+          ],
+          "quote": "And then Codex browser use was just like the cherry on top",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -125,7 +125,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Google]] · [[NVIDIA]] · [[Claude]] · [[AGI]] · [[Meta]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":81,"OpenAI":35,"Lenny":44,"Claude Code":21,"Google":16,"NVIDIA":16,"Claude":12,"AGI":10,"Meta":13,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":82,"OpenAI":36,"Lenny":44,"Claude Code":21,"Google":16,"NVIDIA":16,"Claude":12,"AGI":10,"Meta":13,"Microsoft":10}</script>
 
 <script>
 (function(){

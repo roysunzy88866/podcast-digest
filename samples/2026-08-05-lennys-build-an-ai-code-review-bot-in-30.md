@@ -103,8 +103,8 @@ jsonLd: |
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记]]<span class="pd-rz">同公司:Codex、Intercom、Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
+- [[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|用 AI 代替人审 PR：风险评分与自动批准实操]]<span class="pd-rz">同公司:Intercom、Vercel、Codex · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
 - [[2026-07-27-lennys-from-zero-coding-background-to-hardware|不审查AI生成的PR：自动评分审批机器人实战]]<span class="pd-rz">同公司:Intercom、Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、风险评分 (risk scoring)</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Codex、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

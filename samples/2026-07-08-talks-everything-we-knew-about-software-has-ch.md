@@ -120,9 +120,9 @@ jsonLd: |
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-08-03-lennys-chatgpt-codex-voice-browser-sites|用 AI 代替人审 PR：风险评分与自动批准实操]]<span class="pd-rz">同公司:Vercel、Slack</span>
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Vercel、Slack</span>
 - [[2026-08-10-lennys-claude-code-for-normal-people-skills|不用人审，让 AI 自动批准 PR：我的风险评分机器人搭建记]]<span class="pd-rz">同公司:Vercel、Slack</span>
-- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:Slack</span>
 
 </div>
 <div class="pd-ex">
