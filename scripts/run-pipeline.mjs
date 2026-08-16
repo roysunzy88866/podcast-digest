@@ -958,14 +958,13 @@ function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   let skipped = 0;
   let remaining = need;
   console.log(`\n▶ 每日顶量(ADR 0021):当天 ${have}/${target} → 需补 ${need} 集(倒序往回)`);
+  // [standard-change: 用户 2026-08-16「每天必须 5 集」] 顶量从「只补差额一批」改为「循环补到够 target」:
+  //   补历史有一定闸门失败率,失败的(失真被隔离)不占目标额度 → 继续往回补,
+  //   直到补够 target / 归档更旧候选耗尽 / 触及成本护栏(防坏归档区无限烧钱)。need=5 → 最多试 ~13 集。
+  const attemptCap = need * 2 + 3;
+  let attempted = 0;
   for (const source of SOURCES.filter((s) => s.archiveFile)) {
     if (remaining <= 0) break;
-    // 库内该源现有最旧一期(id 前 10 位 = YYYY-MM-DD)→ 补比它更旧的
-    const heldDates = completed
-      .filter((id) => sourceForId(id)?.key === source.key)
-      .map((id) => String(id).slice(0, 10))
-      .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d));
-    const beforeISO = heldDates.length ? `${heldDates.sort()[0]}T00:00:00.000Z` : new Date().toISOString();
     let items;
     try {
       items = readArchiveItems(source.archiveFile);
@@ -973,20 +972,32 @@ function backfillTopUpPass(state, { target, dryRun, todayISO }) {
       console.error(`   ⚠️ ${source.key} 归档读取失败,跳过顶量:${e.message}`);
       continue;
     }
-    const picks = selectBackfillBackward(items, { n: remaining, beforeISO, existingIds: seen, source, libraryTitles: libTitles });
-    console.log(`   ${source.key}:早于 ${beforeISO.slice(0, 10)} 的候选实得 ${picks.length}:`);
-    picks.forEach((p) => console.log(`      - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
-    if (!picks.length) continue;
-    if (dryRun) {
-      console.log("      （--dry-run:仅列出,不真补)");
-      continue;
+    // 库内该源现有最旧一期(id 前 10 位 = YYYY-MM-DD)→ 补比它更旧的;seen 集在循环里推进往回边界
+    const heldDates = completed
+      .filter((id) => sourceForId(id)?.key === source.key)
+      .map((id) => String(id).slice(0, 10))
+      .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d));
+    const beforeISO = heldDates.length ? `${heldDates.sort()[0]}T00:00:00.000Z` : new Date().toISOString();
+    while (remaining > 0 && attempted < attemptCap) {
+      const picks = selectBackfillBackward(items, { n: remaining, beforeISO, existingIds: seen, source, libraryTitles: libTitles });
+      if (!picks.length) break; // 该源归档已无更旧候选
+      console.log(`   ${source.key}:早于 ${beforeISO.slice(0, 10)} 的候选实得 ${picks.length}(累计试 ${attempted}/${attemptCap}):`);
+      picks.forEach((p) => console.log(`      - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
+      if (dryRun) {
+        console.log("      （--dry-run:仅列出,不真补)");
+        break;
+      }
+      attempted += picks.length;
+      const r = processBackfillPicks(picks, state, source);
+      clean += r.clean;
+      skipped += r.skipped;
+      remaining -= r.clean; // 只按成功数扣目标:失真/跳过的继续往回补(GLM 20260812-003[1])
+      // 防重:补过的 id 进 seen(ID 去重)、标题进 libTitles(跨源同内容此轮也拦;GLM 003[2])
+      picks.forEach((p) => { seen.push(deriveId(p, source)); libTitles.push(p.title); });
     }
-    const r = processBackfillPicks(picks, state, source);
-    clean += r.clean;
-    skipped += r.skipped;
-    remaining -= r.clean; // 按成功数计:失真/跳过的不占目标额度(多归档源时才有别,单源等价;GLM 20260812-003[1])
-    // 同轮多归档源(未来)防重:补过的 id 进 seen(ID 去重)、标题进 libTitles(跨源同内容此轮也拦;GLM 003[2])
-    picks.forEach((p) => { seen.push(deriveId(p, source)); libTitles.push(p.title); });
+  }
+  if (remaining > 0) {
+    console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集(归档更旧候选耗尽或触及成本护栏 ${attemptCap})——今日不足 ${target}。`);
   }
   return { clean, skipped };
 }
