@@ -1,0 +1,24 @@
+name: 部署 pv-counter Worker(手动/改动触发)
+
+# C27 访问计数(2026-08-16 用户拍板)。凭证走仓库 secret(本机无 CF 凭证,不接触明文)。
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "workers/pv-counter/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22" # wrangler@latest 要 Node ≥22(5fbaba6a 踩过)
+      - name: wrangler deploy
+        working-directory: workers/pv-counter
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_WORKERS_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ac6b3134d98758210ac27d37bd7d5a2d
+        run: npx --yes wrangler@latest deploy

@@ -159,6 +159,7 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
     </div>
     <div class="pd-themesw"></div>
     <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
+    <div class="pd-pv" hidden></div>
   </div>`;
 }
 

@@ -184,12 +184,15 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
 // JSON.stringify 安全转义脚本源码,注入 <title> 之后(不与默认浅色种子脚本的锚点冲突)。
 {
   const searchHistJs = readFileSync(resolve(ROOT, "assets/js/search-history.js"), "utf8");
+  // C27 访问计数(2026-08-16 用户拍板):同通道全站注入,计数在所有页、展示只在有 .pd-pv 容器的首页
+  const pvJs = readFileSync(resolve(ROOT, "assets/js/pv.js"), "utf8");
   patchFile(
     resolve(SITE, "quartz/components/Head.tsx"),
     `<title>{title}</title>`,
     `<title>{title}</title>
-        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />`,
-    "PC 搜索历史脚本(Head 全站注入)",
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pvJs)} }} />`,
+    "PC 搜索历史 + PV 计数脚本(Head 全站注入)",
   );
 }
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });

@@ -492,6 +492,8 @@ body[data-slug^="tags/"] {
     color: var(--B6);
   }
   .about b { display: block; color: var(--B7); font-size: 12.5px; margin-bottom: 5px; }
+  /* C27 访问计数(关于本站下方,2026-08-16 用户拍板):真实数,由 pv.js 填充;服务不可达保持 hidden */
+  .pd-pv { margin-top: 8px; font-size: 11.5px; color: var(--B5); letter-spacing: 0.2px; }
   .blk { margin-bottom: 28px; }
   .rr {
     display: flex;

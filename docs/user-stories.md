@@ -2379,3 +2379,37 @@ Scenario: PC 主页侧边栏「订阅更新」入口(用户拍板放侧边栏)
 5. 线上 curl /feed.json 校验:合法 JSON + version + 全文 + items 数;story-map C26(🟡);待用户线上验收。
 6. (追加)patch-site.mjs Head 注入 feed 自发现 link(feed+json / rss+xml);build-list.mjs 左栏加「订阅更新」按钮 + scriptBlock openSub 弹层(三档 feed + 复制,clipboard + execCommand 兜底);custom.scss 弹层样式(深色令牌);URL 用 location.origin 不写死域名(GLM 006[5])。
 7. (追加)tests/build-list.test.ts「C26 订阅入口」4 测绿(按钮位置/三档 feed/复制兜底/深色令牌);GLM 20260816-006 冷审 6 条(1 real 采纳=location.origin,5 noise 逐条反证)已 adjudicate。线上 curl 校验 <head> 自发现 link + 首页含 pd-subscribe。
+
+## C27 · 访问计数(真实 PV 展示)· US-1 · ADR 0023
+
+> 2026-08-16 用户提出「关于本站下面加每天进站用户数量,可以用 PV」并问「数据小要不要乘 10」;
+> 我方拒绝加工数据(公开展示的数字造假),用户 AskUserQuestion 拍板:自建免费计数器 + 「累计+今日」都展示(真实数)。
+> 二次确认 = 用户对 4 条验收标准回「继续」(同 drift #36 口径)。
+
+Scenario: 每次页面浏览计一次(PV 口径,真数不加工)
+  Given 任何人打开站点任一页面(含 SPA 换页)
+  Then 计数器 +1(POST /hit,Quartz 'nav' 事件驱动:首发+换页各 1)
+  And 无 'nav' 的页面 2.5s 后兜底补记一次,有 nav 不重复
+
+Scenario: 首页「关于本站」下展示两个真实数字
+  Given PC 左栏(首页/大类页/必读页)
+  Then 「关于本站」下方出现一行「累计访问 N · 今日 N」
+  And 「今日」按北京时间(UTC+8)切日
+  And 数字来自计数接口真实返回,前端不做任何加工
+
+Scenario: 计数服务挂了,站点零影响
+  Given 计数 Worker 不可达/报错
+  Then .pd-pv 那一行保持 hidden 安静消失
+  And 页面无报错、无卡顿、其他功能不受影响
+
+Scenario: 零费用 + 数据自持
+  Given Cloudflare 免费档(Workers + Durable Object SQLite)
+  Then 不产生费用;数据在用户自己 CF 账号,后台可查原始数
+  And 部署凭证走仓库 secret(CLOUDFLARE_WORKERS_TOKEN),本机不接触明文
+
+### DoD(C27)
+1. workers/pv-counter/(worker.js + wrangler.toml):单例 DO 计数,POST /hit / GET /stats,CORS 白名单,bjDay 北京切日。
+2. .github/workflows/deploy-pv.yml:workflow_dispatch + workers/pv-counter/** 改动触发,Node 22 + wrangler deploy。
+3. assets/js/pv.js 经 patch-site Head 全站注入(与 search-history 同通道);build-list 左栏 about 下 .pd-pv 容器 + custom.scss 样式。
+4. 单测:bjDay 切日边界 / corsHeaders 白名单 / 容器位置 / pv.js 失败静默,全绿。
+5. 部署后 curl Worker /hit /stats 真返回;deploy-site 后线上首页出现计数行;用户线上验收。

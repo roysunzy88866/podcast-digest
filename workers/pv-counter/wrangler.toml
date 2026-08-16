@@ -1,0 +1,12 @@
+# C27 · 访问计数 Worker(独立于 Pages 站点;免费档 Durable Object SQLite)
+name = "pd-pv"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+[[durable_objects.bindings]]
+name = "COUNTER"
+class_name = "Counter"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Counter"]
