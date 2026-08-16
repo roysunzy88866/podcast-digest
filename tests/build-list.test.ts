@@ -324,13 +324,12 @@ describe("C13a · 封面以「文件真在」为准,不信 meta 的声明", () =
 describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/深浅色)", () => {
   const md = renderList([ep()], opts);
 
-  // [standard-change: 用户 2026-07-27 设计稿第九批 #3] 深浅色从顶栏挪进左栏 →
-  // 顶栏槽只搬搜索(阅读模式 2026-08-01 用户拍板摘掉),深浅色搬进 .pd-themesw。搬节点不重写(🔒 #9/#2)。
-  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索搬进来;阅读模式不搬(🔒 #9/#2 不许降级)", () => {
+  // [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户条3/条8:搜索+深浅色都进顶栏
+  // .pd-acts(撤第九批 #3「深色进左栏」);阅读模式仍不搬。搬节点不重写(🔒 #9/#2)。
+  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索+深浅色搬进来;阅读模式不搬(🔒 #9/#2 不许降级)", () => {
     expect(md).toContain('<div class="pd-acts"></div>');
-    expect(md).toMatch(/\['\.search'\]\.forEach/);
+    expect(md).toMatch(/\['\.darkmode', '\.search'\]\.forEach/);
     expect(md).not.toContain(".readermode");
-    expect(md).toContain("grab('.darkmode', sw || acts)");
     expect(md).toMatch(/host\.appendChild\(el\)/);
   });
 
@@ -443,9 +442,12 @@ describe("C13f · 顶栏与两侧栏对齐,且只剩一条必要的线", () => {
   });
 });
 
-describe("C13f · 搜索是长条框且跟右栏对齐(外观改,搜索本身不降级)", () => {
-  it("★★ 长条框宽度 = 右栏内容宽(--pd-railw 减去右栏左内边距 24px)", () => {
-    expect(scss).toMatch(/\.pd-acts \.search-button \{[\s\S]*?width:\s*calc\(var\(--pd-railw\) - var\(--pd-railpad\)\)/);
+// [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户拍板:搜索从长条框改回单图标
+describe("C13f · 搜索是顶栏单图标(2026-08-15 撤长条框,与分享/收藏统一)", () => {
+  it("★★ 单图标:无框自适应宽、19px 放大镜、隐藏「搜索」文字", () => {
+    expect(scss).toMatch(/\.pd-acts \.search-button \{[\s\S]*?width:\s*auto/);
+    expect(scss).toMatch(/\.pd-acts \.search-button p \{ display: none/);
+    expect(scss).toMatch(/\.pd-acts \.search-button svg \{[^}]*width:\s*19px/);
   });
 
   it("★★★ 不许自建搜索:仍然是搬 Quartz 的 .search 节点(🔒 #9 + C13a 定的手法)", () => {
@@ -582,15 +584,12 @@ describe("C13f · 右栏跟着页面一起滚,左栏仍吸顶(第十批 #3)", ()
   });
 });
 
-describe("C13f · 深浅色开关从顶栏挪进左栏(第九批 #3)", () => {
+// [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户条8:深浅色回顶栏(撤第九批 #3「进左栏」)
+describe("C13f · 深浅色开关在顶栏(2026-08-15 条8 撤「进左栏」)", () => {
   const md = renderList([ep()], opts);
 
-  it("★★★ 深浅色搬进左栏、坐在「关于本站」上面;搜索/阅读模式仍留顶栏", () => {
-    const left = md.slice(md.indexOf('class="pd-left"'), md.indexOf('class="pd-mid"'));
-    expect(left.indexOf('class="pd-themesw"')).toBeGreaterThan(-1);
-    expect(left.indexOf('class="pd-themesw"')).toBeLessThan(left.indexOf('class="about"'));
-    expect(md).toContain("grab('.darkmode', sw || acts)");
-    expect(md).toMatch(/\['\.search'\]\.forEach/);
+  it("★★★ 深浅色与搜索一起搬进顶栏 .pd-acts;阅读模式不搬;行为仍归 Quartz", () => {
+    expect(md).toMatch(/\['\.darkmode', '\.search'\]\.forEach/);
     expect(md).not.toContain(".readermode");
     // 搬节点不重写:🔒 #2 亮暗双模式的行为在 Quartz 手里
     expect(md).not.toMatch(/localStorage\.setItem\('theme'/);
@@ -623,10 +622,11 @@ describe("C13f · 点一条内容开新标签页", () => {
   });
 });
 
-describe("C13f · 搜索框必须贴顶栏最右(否则跟右栏对不齐)", () => {
-  it("★★★ 用 order 把 .search 排到 .pd-acts 最后 —— 阅读模式图标在它后面会把它左推 28px", () => {
+// [standard-change: 用户授权 2026-08-16「只修测试」] margin-left:auto 已随单图标改版退役,顺序全靠 order
+describe("C13f · 顶栏图标顺序(分享/收藏 0 → 深色 1 → 搜索 2)", () => {
+  it("★★★ 用 order 排:深色 1、搜索 2(搜索最右)", () => {
     expect(scss).toMatch(/\.pd-acts \.search \{[^}]*order:\s*2/);
-    expect(scss).toMatch(/\.pd-acts \.search \{[^}]*margin-left:\s*auto/);
+    expect(scss).toMatch(/\.pd-acts \.darkmode \{[\s\S]{0,40}?order:\s*1/);
   });
 });
 
@@ -650,12 +650,11 @@ describe("C13f · 深色模式那一行:图标与文字不许重叠", () => {
 describe("C13f · 深浅色开关任何屏宽都得有入口(🔒 #2 回归防护)", () => {
   const md = renderList([ep()], opts);
 
-  it("★★★ 左栏在窄屏是整块 display:none —— 槽看不见时必须退回顶栏,不能连开关一起消失", () => {
-    // 判可见性要看槽的父容器 —— 槽自己是空的、被 :empty 藏着,量自己永远是 0
-    expect(md).toContain("shown(slots[i].parentElement)");
-    expect(md).not.toContain("slots[i].offsetParent");
-    expect(md).toContain("grab('.darkmode', sw || acts)");
-    // 兜底目标必须是顶栏那个槽(它在窄屏是显示的)
+  // [standard-change: 用户授权 2026-08-16「只修测试」] 深浅色常驻顶栏后「左栏槽兜底」机制退役:
+  // 顶栏 .pd-acts 任何屏宽可见,🔒 #2「任何屏宽都有入口」由常驻顶栏直接满足。
+  it("★★★ 深浅色常驻顶栏 .pd-acts(全屏宽可见,槽兜底机制退役;2026-08-15 条8)", () => {
+    expect(md).toMatch(/\['\.darkmode', '\.search'\]\.forEach/);
+    // 顶栏在窄屏不许被整块藏掉(不然开关跟着消失)
     expect(scss).not.toMatch(/@media \(max-width: 1023px\)[\s\S]*?\.pd-acts \{[^}]*display:\s*none/);
   });
 

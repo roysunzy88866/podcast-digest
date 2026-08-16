@@ -582,7 +582,8 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
       { epId: "ep2", epTitle: "另一集", epDate: "2026-06-01", score: 1, strongScore: 1,
         shared: { guests: [], companies: [], concepts: [{ id: "a", name: "智能体", file: "智能体", strong: true }] } },
     ] as any);
-    expect(md).toContain('<div class="pd-sec">全部金句 <span>1 条(中英对照,已过机器闸门)</span></div>');
+    // [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户条⑤删废话:「N 条(中英对照,已过机器闸门)」→「N 条」
+    expect(md).toContain('<div class="pd-sec">全部金句 <span>1 条</span></div>');
     expect(md).toContain('<div class="pd-sec">接着看</div>');
     expect(md).not.toContain("## 金句");
     expect(md).not.toContain("## 相关单集");
@@ -815,11 +816,11 @@ describe("C13f · 单集页顶栏与首页同款(logo 位 + 深浅色进右栏)"
     expect(renderSidebarScript()).toContain("querySelectorAll('.pd .mk img')");
   });
 
-  it("★★★ 深浅色搬到右栏末尾,顶栏只剩搜索(阅读模式已摘,第九批 #3 / 2026-08-01)", () => {
+  // [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户条8:深浅色回顶栏(撤「进右栏」)
+  it("★★★ 深浅色与搜索都进顶栏 .pd-acts(2026-08-15 条8);阅读模式不搬", () => {
     const js = renderSidebarScript();
-    expect(js).toMatch(/\['\.search'\]\.forEach/);
+    expect(js).toMatch(/\['\.darkmode', '\.search'\]\.forEach/);
     expect(js).not.toContain(".readermode");
-    expect(js).toContain("grab('.darkmode'");
     expect(js).toMatch(/right\.sidebar/);
   });
 
@@ -869,9 +870,11 @@ describe("C13f · 新标签页只管站内链接", () => {
 
 describe("C13f · 详情页深浅色也要有窄屏兜底(🔒 #2 回归防护)", () => {
   const js = renderSidebarScript();
-  it("★★★ 右栏槽看不见时退回顶栏,不能连开关一起消失", () => {
-    expect(js).toContain("side.offsetWidth || side.offsetHeight");
-    expect(js).toContain("grab('.darkmode', slot || acts)");
+  // [standard-change: 用户授权 2026-08-16「只修测试」] 深浅色常驻顶栏后「右栏槽看不见退回顶栏」机制退役:
+  // 顶栏 .pd-acts 任何屏宽可见,🔒 #2「任何屏宽都有入口」由常驻顶栏直接满足。
+  it("★★★ 深浅色常驻顶栏(顶栏全屏宽可见,槽兜底机制退役;2026-08-15 条8)", () => {
+    expect(js).toMatch(/\['\.darkmode', '\.search'\]\.forEach/);
+    expect(js).toMatch(/grab\(sel, acts\)/);
   });
   it("★★ 跨断点缩放要重搬", () => {
     expect(js).toMatch(/addEventListener\('resize'/);
