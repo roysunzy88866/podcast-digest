@@ -1,0 +1,6 @@
+# feed-relay Worker:CF 边缘代抓陈旧 Substack feed(drift #55)。免费 Workers。
+# 部署:.github/workflows/deploy-relay.yml(手动 dispatch,凭证走 CI secret)。
+name = "feed-relay"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+workers_dev = true
