@@ -319,17 +319,32 @@ body[data-slug^="tags/"] {
   .pd-acts .darkmode:hover { background: var(--B1); }
   .pd-acts .darkmode svg { display: none; }
   .pd-acts .darkmode:after { content: none; }
+  /* #13 用户 2026-08-16:深浅色换新细线月牙(viewBox 24,1.6 描边;mask + currentColor,亮/暗都清晰)。 */
   .pd-acts .darkmode:before {
     content: "";
     display: block;
     width: 19px;
     height: 19px;
     background: currentColor;
-    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 14.2A8.2 8.2 0 0 1 9.8 4 7.2 7.2 0 1 0 20 14.2z'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 14.2A8.2 8.2 0 0 1 9.8 4 7.2 7.2 0 1 0 20 14.2z'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  /* #13 搜索换新细线放大镜:隐 Quartz 原生 svg,用 :before mask 注入(与 darkmode 同一手法)。 */
+  .pd-acts .search-button svg { display: none; }
+  .pd-acts .search-button:before {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='6.4'/%3E%3Cpath d='m20 20-3.6-3.6'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='6.4'/%3E%3Cpath d='m20 20-3.6-3.6'/%3E%3C/svg%3E") center / contain no-repeat;
   }
   .pd-acts svg { color: var(--B6); }
   .pd-acts svg:hover { color: var(--B8); }
+  /* 手机注入的「我的收藏」入口(build-list mfav)只在窄屏出;桌面即便被 resize 留在 DOM 也藏掉,
+     不露出无样式的默认按钮(手机端另有 @media 规则把它铺成图标)。 */
+  .pd-acts .pd-mfav { display: none; }
 
   /* ── 三栏(🔒 #13)── C13f 第九批 #1:两侧栏往两边推,中栏 588 → 680。
      max-width 与三列之和取齐(210+680+290=1180)→ shell 的左右边缘 = 顶栏边缘,
@@ -731,6 +746,10 @@ body[data-slug^="tags/"] {
     .th { flex: 0 0 108px; width: 108px; height: 81px; }
     .card .t { font-size: 15.5px; }
     .card .q { font-size: 13.5px; -webkit-line-clamp: 2; min-height: 3.2em; }
+    /* #4 用户 2026-08-16 手机:点卡片只保留整卡 active 反馈(.card:active 底色),不要标题单独变色。
+       无 .card:hover .t / .card:active .t 变色规则(桌面已删);手机残留的"标题变色"是链接 tap-highlight
+       (浏览器默认灰框闪在标题文字上)—— 抹成透明即可。 */
+    .card a { -webkit-tap-highlight-color: transparent; }
 
     /* 一级页把入口摊开:主题横滑,不藏进汉堡 */
     .pd-mhome { display: block; padding: 14px 16px 4px; border-bottom: 1px solid var(--B2); }
@@ -773,6 +792,21 @@ body[data-slug^="tags/"] {
 /* ══ 用户批注 2026-08-08 · 手机端 —— 搜索改右上角图标 & 详情页动作按钮统一 ══
    覆盖 🔒 US-3「搜索=摊开输入框」的手机形态(见 docs/adr/0019);仅手机端,桌面一律不动。 */
 @media (max-width: 1023px) {
+  /* #3/#7 用户 2026-08-16 手机:右上图标组靠右,与卡片封面图右边缘对齐(顶栏与卡片/中栏同 16px 侧距)。
+     桌面那套「占右栏列宽 + flex-start」在手机会把图标顶到版心中间 → 手机改宽度自适应、贴右缘;
+     首图标的 -6px 左偏(桌面用来对右栏左缘)手机不需要,归零。首页/详情页同一条,一起靠右。 */
+  .pd .pd-acts { width: auto; margin-left: auto; margin-right: 0; justify-content: flex-end; }
+  .pd .pd-acts > :first-child { margin-left: 0; }
+  /* #1 手机端注入的「我的收藏」图标(build-list mfav):对齐 darkmode/search 的图标手感 */
+  .pd .pd-acts .pd-mfav {
+    display: flex; align-items: center; justify-content: center;
+    width: auto; height: auto; padding: 6px; margin: 0;
+    background: none; border: 0; border-radius: 8px; cursor: pointer;
+    color: var(--B6);
+  }
+  .pd .pd-acts .pd-mfav svg { display: block; }
+  .pd .pd-acts .pd-mfav:active { background: var(--B1); }
+
   /* #2 首页/必读页:让 Quartz 原生搜索按钮收成右上角 40×40 图标(点开=Quartz 全屏搜索)。
      比全局那条 `.pd .pd-acts .search .search-button{display:none}` 更具体 → 只在这两页放出来;
      详情页/大类页顶栏仍不放搜索(维持现状)。 */
@@ -851,8 +885,9 @@ body[data-slug^="tags/"] {
   width: 17px;
   height: 17px;
   background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='6.5'/%3E%3Cpath d='M10 3.5v13a6.5 6.5 0 0 0 0-13z' fill='black' stroke='none'/%3E%3C/svg%3E") center / contain no-repeat;
+  /* #13:与顶栏深浅色一致换新细线月牙(viewBox 24,1.6 描边)。 */
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 14.2A8.2 8.2 0 0 1 9.8 4 7.2 7.2 0 1 0 20 14.2z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 14.2A8.2 8.2 0 0 1 9.8 4 7.2 7.2 0 1 0 20 14.2z'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 .pd-themesw + .about { margin-top: 14px; }
 
@@ -1108,7 +1143,10 @@ body:has(.pd-play) article h2 {
   /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
      中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
   body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
-  body:has(.pd-play) article > ul > li { font-size: 16px; } /* 手机端只改字号;行高 1.7/项间距沿用基规则(列表口径,不用段落 1.8)*/
+  /* #10 用户 2026-08-16 手机:「本集带走」要点必须左对齐(手机端被某处继承成非左对齐;
+     松散列表项会包成 <li><p>,顺带把 p 也钉回 left,免得吃到上面的 justify)。 */
+  body:has(.pd-play) article > ul > li,
+  body:has(.pd-play) article > ul > li > p { font-size: 16px; text-align: left; } /* 手机端只改字号;行高 1.7/项间距沿用基规则(列表口径,不用段落 1.8)*/
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
 }
 
@@ -1341,13 +1379,32 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
    (设计稿那边 GLM 检查员 20260726-002 提出并实测证实)。最终热区 41×31px。 */
 @media (max-width: 1023px) {
   .pd-ts { width: 19px; height: 19px; line-height: 19px; font-size: 11.5px; }
-  .pd-ts:after {
+  /* #8 用户 2026-08-16 手机:回原文/金句入口的 ↩(\21A9)在 iOS 会被当 emoji ↩️ 渲染 →
+     换成细线引号 SVG(mask + currentColor,不受 emoji 字体影响,亮/暗都清晰)。 */
+  .pd-ts:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    background: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10.5 10.5H6.2a1.7 1.7 0 0 1-1.7-1.7V6.9a1.7 1.7 0 0 1 1.7-1.7h2.6a1.7 1.7 0 0 1 1.7 1.7v5.4c0 2.3-1.4 3.7-3.7 4.3'/%3E%3Cpath d='M20.5 10.5h-4.3a1.7 1.7 0 0 1-1.7-1.7V6.9a1.7 1.7 0 0 1 1.7-1.7h2.6a1.7 1.7 0 0 1 1.7 1.7v5.4c0 2.3-1.4 3.7-3.7 4.3'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10.5 10.5H6.2a1.7 1.7 0 0 1-1.7-1.7V6.9a1.7 1.7 0 0 1 1.7-1.7h2.6a1.7 1.7 0 0 1 1.7 1.7v5.4c0 2.3-1.4 3.7-3.7 4.3'/%3E%3Cpath d='M20.5 10.5h-4.3a1.7 1.7 0 0 1-1.7-1.7V6.9a1.7 1.7 0 0 1 1.7-1.7h2.6a1.7 1.7 0 0 1 1.7 1.7v5.4c0 2.3-1.4 3.7-3.7 4.3'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  /* #9 用户 2026-08-16 手机:点 ↩ 后冒出的「黑色不明物」= 桌面 :hover 提示条(:after 黑底 var(--B8))
+     在触屏点后粘住。手机把 :after(含 hover 态)压回成透明放大热区,不再显示黑条。 */
+  .pd-ts:after,
+  .pd-ts:hover:after {
     content: "";
     position: absolute;
     left: -11px;
     right: -11px;
     top: -6px;
     bottom: -6px;
+    background: none;
+    transform: none;
+    padding: 0;
+    border-radius: 0;
   }
   .pd-orig { font-size: 13px; padding: 10px 12px; }
 }
@@ -1464,7 +1521,16 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   body:has(.pd-play) .pd-topin .b { display: none; }
   body:has(.pd-play) .pd-mtitle { display: none; }
   body:has(.pd-play) .pd-hook { display: none; }
-  body:has(.pd-play) article h1 { display: block; font-size: 30px; line-height: 1.25; margin: 6px 0 14px; }
+  /* #5 用户 2026-08-16 手机:标题离顶栏太近 → 顶部间距加大(6→24) */
+  body:has(.pd-play) article h1 { display: block; font-size: 30px; line-height: 1.25; margin: 24px 0 14px; }
+  /* #6 用户 2026-08-16 手机:详情页顶栏那条横线去掉(桌面吸顶那条 1px 分隔 box-shadow 在手机不要) */
+  body:has(.pd-play) .pd-top { box-shadow: none; }
+
+  /* #12 用户 2026-08-16 手机:从分享链接/外部直开的详情页,左上角显 站名+logo(可回首页),
+     不显「← 返回」;站内点进来的仍显返回。JS 按 referrer/history 给 body 打 .pd-direct(render.mjs)。 */
+  body.pd-direct:has(.pd-play) .pd-topin .b { display: flex; }
+  body.pd-direct:has(.pd-play) .pd-back { display: none; }
+  body.pd-direct:has(.pd-play) .pd-mtitle { display: none; }
 }
 
 
@@ -1656,6 +1722,24 @@ body[data-slug^="entities/"] {
   /* 页尾「这一集涉及」(桌面右栏在手机是 display:none,克隆到页尾同源不漂移) */
   .mrel { display: block; margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--B2); }
   .mrel h3 { font-size: 12px; font-weight: 700; color: #a09a94; letter-spacing: 0.6px; margin: 0 0 10px; }
+  /* #11 用户 2026-08-16 手机:克隆块套设计稿风格(灰药丸标签 + 素文字链接),去掉 Quartz callout 默认框。
+     桌面右栏 .pd-rel 那套皮锁在 .right.sidebar 下,手机克隆的 .mrel 在 <article> 里吃不到 → 这里补同款。 */
+  .mrel blockquote.callout,
+  .mrel blockquote[data-callout] { border: 0; background: none; padding: 0; margin: 0; }
+  .mrel .callout-title { display: none; }
+  .mrel .callout-content p { font-size: 13px; line-height: 1.85; color: var(--B6); margin: 0 0 8px; }
+  .mrel .callout-content strong {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--B5);
+    background: var(--B1);
+    border-radius: 4px;
+    padding: 1px 6px;
+    margin-right: 7px;
+  }
+  .mrel .callout-content a { color: var(--B6); background: none; font-weight: 400; }
+  .mrel .callout-content a:hover { color: var(--pd-accent); }
 }
 /* 桌面上这三样不存在(设计稿同口径) */
 @media (min-width: 1024px) {

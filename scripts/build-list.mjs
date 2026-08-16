@@ -357,6 +357,17 @@ export const scriptBlock = () => squashBlankLines(`<script>
     // 阅读模式仍不并入。搬节点不重写(🔒#2 亮暗行为归 Quartz)。
     ['.darkmode', '.search'].forEach(function(sel){ grab(sel,acts); });
   }
+  // 手机端「我的收藏」入口:桌面它在左栏(.pd-myfav),但左栏窄屏 display:none → 手机看不到。
+  // 只窄屏注入进顶栏 .pd-acts 最前(顺序 收藏/黑夜/搜索,黑夜/搜索由 adopt 追加在后);
+  // 复用左栏那套浮层逻辑(点击委托认 .pd-mfav)。不进桌面 DOM → 不动桌面顶栏对齐。
+  function mfav(){
+    if(!matchMedia('(max-width:1023px)').matches) return;
+    var acts=document.querySelector('.pd .pd-acts'); if(!acts||acts.querySelector('.pd-mfav')) return;
+    var b=document.createElement('button');
+    b.type='button'; b.className='pd-mfav'; b.setAttribute('aria-label','我的收藏'); b.title='我的收藏';
+    b.innerHTML='<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg>';
+    acts.insertBefore(b, acts.firstChild);
+  }
   // C13f #1:日期组标说人话。构建期只能写死日期原文(产物要可复现),
   // 「今天/昨天」是**读者的**今天 → 只能在浏览器里换。整串相等才换,不做前缀匹配。
   function dateh(){
@@ -487,6 +498,7 @@ export const scriptBlock = () => squashBlankLines(`<script>
   window.__ioRecompute=ioRecompute;
   function init(){
     adopt();
+    mfav();
     dateh();
     logos();
     mobileLinks();
@@ -503,8 +515,8 @@ export const scriptBlock = () => squashBlankLines(`<script>
   }
   // Quartz 是 SPA:内联脚本换页后不重跑 → 挂 nav 事件(每次导航含首载都会触发)
   document.addEventListener('nav', init);
-  // 跨断点缩放:左栏出现/消失后,深浅色开关要搬到当前看得见的那个位置去
-  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
+  // 跨断点缩放:左栏出现/消失后,深浅色开关要搬到当前看得见的那个位置去;顺带补手机收藏入口
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); mfav(); });
   init();
 })();
 (function(){
@@ -525,7 +537,7 @@ export const scriptBlock = () => squashBlankLines(`<script>
     document.addEventListener('keydown',onEsc);
     document.body.appendChild(ov);
   }
-  document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.pd-myfav')){e.preventDefault();openFav();}});
+  document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.pd-myfav, .pd-mfav')){e.preventDefault();openFav();}});
   document.addEventListener('nav',upd);upd();
 })();
 (function(){
