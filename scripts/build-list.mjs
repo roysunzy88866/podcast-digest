@@ -147,12 +147,16 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
   // C13f #3:深浅色开关从顶栏挪进左栏,坐在「关于本站」上面。这里只留空槽 ——
   // 真开关是 Quartz 的 .darkmode 节点,由 scriptBlock 搬进来(🔒 #2 亮暗双模式的行为
   // 在 Quartz 手里,复刻一份必然走样,同 🔒 #9 搜索那条的手法)。
+  // 我的收藏 / 订阅更新 = 同级工具项,归到底部「关于本站」上方一个工具区(用户 2026-08-16:
+  // 原来顶在最上面把主题导航挤下去、且难看)。深浅色不在这组 —— 它在顶栏 .pd-acts(用户 2026-08-15 条3)。
   return `<div class="pd-left">
-    <button class="pd-myfav" type="button"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><span>我的收藏</span><i></i></button>
-    <button class="pd-subscribe" type="button"><svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a6 6 0 0 1 6 6"/><path d="M4 4.5a11.5 11.5 0 0 1 11.5 11.5"/><circle cx="4.6" cy="15.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>订阅更新</span></button>
     <div class="sh">全部主题</div>
     <a class="cl${active ? "" : " on"}" href="${active ? ".." : "."}/"><span>全部</span><i>${episodes.length}</i></a>
     ${rows}
+    <div class="pd-util">
+    <button class="pd-myfav" type="button"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><span>我的收藏</span><i></i></button>
+    <button class="pd-subscribe" type="button"><svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a6 6 0 0 1 6 6"/><path d="M4 4.5a11.5 11.5 0 0 1 11.5 11.5"/><circle cx="4.6" cy="15.4" r="1.3" fill="currentColor" stroke="none"/></svg><span>订阅更新</span></button>
+    </div>
     <div class="pd-themesw"></div>
     <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
   </div>`;

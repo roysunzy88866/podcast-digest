@@ -750,15 +750,18 @@ describe("C26 · 订阅入口(用户 2026-08-16:PC 主页侧边栏)", () => {
   const md = renderList([ep()], opts);
   const block = scriptBlock();
 
-  it("★★★ 左栏有『订阅更新』按钮,且排在 我的收藏 之后、全部主题 之前", () => {
+  it("★★★ 『我的收藏』+『订阅更新』同在底部工具区(.pd-util),排全部主题之后、关于本站之前(用户 2026-08-16)", () => {
     expect(md).toContain('class="pd-subscribe"');
+    expect(md).toContain('class="pd-util"');
     expect(md).toContain("订阅更新");
+    const iAll = md.indexOf("全部主题");
     const iFav = md.indexOf("我的收藏");
     const iSub = md.indexOf("订阅更新");
-    const iAll = md.indexOf("全部主题");
-    expect(iFav).toBeGreaterThanOrEqual(0);
-    expect(iSub).toBeGreaterThan(iFav);
-    expect(iAll).toBeGreaterThan(iSub);
+    const iAbout = md.indexOf("关于本站");
+    expect(iAll).toBeGreaterThanOrEqual(0);
+    expect(iFav).toBeGreaterThan(iAll); // 收藏挪到主题列表之后
+    expect(iSub).toBeGreaterThan(iFav); // 订阅紧跟收藏,同级
+    expect(iAbout).toBeGreaterThan(iSub); // 两者都在关于本站上方
   });
 
   it("★★★ 弹层脚本三档 feed 都在(听 feed.xml / 读全文 feed.json / 喂 Agent llms.txt)", () => {

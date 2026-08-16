@@ -1924,3 +1924,8 @@ body[data-slug^="entities/"] {
 .pd-subcopy { flex: 0 0 auto; font-size: 11.5px; color: var(--pd-accent); border: 1px solid var(--B3); background: var(--B0); border-radius: 7px; padding: 6px 10px; cursor: pointer; font-family: inherit; }
 .pd-subcopy:hover { border-color: var(--pd-accent); }
 .pd-subfoot { padding: 11px 18px; font-size: 11px; color: var(--B6); background: var(--B1); }
+
+/* 左栏底部工具区(用户 2026-08-16:我的收藏 + 订阅更新 归底,坐关于本站上方,细线圈成一区)*/
+.pd-util { margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--B3); }
+.pd-util .pd-myfav { margin-bottom: 4px; }
+.pd-util .pd-subscribe { margin: 0; }
