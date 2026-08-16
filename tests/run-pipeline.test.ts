@@ -1,7 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -213,6 +213,23 @@ describe("advanceCutoffGuarded · cutoff 只进不退(drift #54:lennys 被 backf
   });
   it("★ 相等 → 保持不变", () => {
     expect(advanceCutoffGuarded("2026-08-10T12:01:44.000Z", "2026-08-10T12:01:44.000Z")).toBe("2026-08-10T12:01:44.000Z");
+  });
+});
+
+describe("cacheBustFeedUrl · 加一次性暗号绕开 CDN 陈旧 feed(drift #55:runner 抓到停在旧日期的副本漏集断更)", () => {
+  it("★ 裸 URL → 附上 _cb 参数", () => {
+    const out = cacheBustFeedUrl("https://www.lennysnewsletter.com/feed", 123);
+    expect(out).toBe("https://www.lennysnewsletter.com/feed?_cb=123");
+  });
+  it("★ 已有查询参数 → 保留原参数、只追加 _cb", () => {
+    const out = cacheBustFeedUrl("https://feeds.simplecast.com/x?foo=bar", 999);
+    expect(out).toContain("foo=bar");
+    expect(out).toContain("_cb=999");
+  });
+  it("★ 不同 nonce → 不同 URL(保证每轮 CDN miss、回源取新)", () => {
+    const a = cacheBustFeedUrl("https://www.lennysnewsletter.com/feed", 1);
+    const b = cacheBustFeedUrl("https://www.lennysnewsletter.com/feed", 2);
+    expect(a).not.toBe(b);
   });
 });
 

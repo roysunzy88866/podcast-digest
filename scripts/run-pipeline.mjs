@@ -404,8 +404,22 @@ function completedIds() {
     .map((d) => d.name);
 }
 
+/** 给 feed URL 加一次性 cache-buster 查询参数(_cb=nonce),让每次抓取 URL 唯一 →
+ *  绕开 CDN 边缘缓存把陈旧副本喂给 runner(drift #55:runner 抓到停在旧日期的 20 条 feed,
+ *  漏近期集 → 断更;本机抓永远新鲜故不复现)。纯函数,保留已有查询参数,便于测试。 */
+export function cacheBustFeedUrl(feedUrl, nonce) {
+  const u = new URL(feedUrl);
+  u.searchParams.set("_cb", String(nonce));
+  return u.toString();
+}
+
 async function fetchFeed(feedUrl) {
-  const res = await fetch(feedUrl, { redirect: "follow", headers: BROWSER_HEADERS });
+  // cache-buster + no-cache 双保险:逼 CDN 每轮回源取最新 feed(drift #55)
+  const url = cacheBustFeedUrl(feedUrl, Date.now());
+  const res = await fetch(url, {
+    redirect: "follow",
+    headers: { ...BROWSER_HEADERS, "Cache-Control": "no-cache", Pragma: "no-cache" },
+  });
   if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`);
   return await res.text();
 }
