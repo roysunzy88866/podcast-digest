@@ -46,6 +46,12 @@ export const SOURCES = [
   { key: "aiandi", name: "AI & I", feedUrl: "https://feeds.transistor.fm/how-do-you-use-chatgpt", asr: "whisperx" },
   { key: "nopriors", name: "No Priors", feedUrl: "https://feeds.megaphone.fm/nopriors", asr: "whisperx" },
   { key: "thepeel", name: "The Peel", feedUrl: "https://anchor.fm/s/e231a4ec/podcast/rss", asr: "whisperx" },
+  // 2026-08-16 用户拍板先接两源(其余候选评估后再接):
+  //   isInterview 只卡「有音频 + 非 ainews」→ 独白/演讲天然通过(用户明示「不必访谈,独白演讲都可以」)。
+  //   均非 Substack(Anchor/Megaphone,runner 抓 feed 新鲜,不撞 drift #55 陈旧坑)、无平台官方稿 → whisperX。
+  //   feedUrl 经 agent 调研 + 本机 curl 双验(iTunes lookup 交叉核)。加源须先 --seed 设基线(只向前看,drift #22)。
+  { key: "beyondcoding", name: "Beyond Coding", feedUrl: "https://anchor.fm/s/5bb57eac/podcast/rss", asr: "whisperx" },
+  { key: "founders", name: "Founders", feedUrl: "https://feeds.megaphone.fm/DSLLC6297708582", asr: "whisperx" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。

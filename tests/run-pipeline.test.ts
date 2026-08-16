@@ -170,6 +170,15 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(by.thepeel?.feedUrl).toBe("https://anchor.fm/s/e231a4ec/podcast/rss");
     for (const k of ["aiandi", "nopriors", "thepeel"]) expect(by[k]?.asr).toBe("whisperx");
   });
+  it("★ 2026-08-16 先接两源(Beyond Coding / Founders):齐、feedUrl 对、均 whisperX、非 Substack", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    expect(by.beyondcoding?.feedUrl).toBe("https://anchor.fm/s/5bb57eac/podcast/rss");
+    expect(by.founders?.feedUrl).toBe("https://feeds.megaphone.fm/DSLLC6297708582");
+    for (const k of ["beyondcoding", "founders"]) {
+      expect(by[k]?.asr).toBe("whisperx"); // 无平台官方稿
+      expect(by[k]?.feedUrl).not.toContain("substack"); // 非 Substack,不撞 drift #55 陈旧坑
+    }
+  });
   it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {
     for (const s of SOURCES) {
       expect(s.key).toBeTruthy();
