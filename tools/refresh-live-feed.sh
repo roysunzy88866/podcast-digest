@@ -17,7 +17,7 @@ cd "$REPO" || { echo "❌ 仓库不存在:$REPO"; exit 1; }
 
 # 1) 更新到最新(走代理;autostash 防本地残留挡路)。失败=跳过本轮,下次重试。
 git -c http.proxy="$PROXY" -c https.proxy="$PROXY" pull --rebase --autostash origin main >/dev/null 2>&1 \
-  || { echo "⚠️ $(date '+%F %T') pull 失败,跳过本轮"; exit 0; }
+  || { git rebase --abort 2>/dev/null; echo "⚠️ $(date '+%F %T') pull/rebase 失败(已 abort 清场,防卡死),跳过本轮"; exit 0; }
 
 # 2) 直连抓最新 feed(不走代理=保新鲜)。
 TMP="$(mktemp)"
