@@ -126,9 +126,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同嘉宾:Lenny · 同概念:后训练 (post-training)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:评估 (evals)</span>
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同嘉宾:Lenny · 同概念:评估 (evals)</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同公司:Cursor · 同概念:评估 (evals)</span>
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)</span>
 
 </div>
 <div class="pd-ex">
@@ -136,8 +136,8 @@ jsonLd: |
 **换个口味**
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:后训练 (post-training)、vibe coding</span>
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:RAG</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
 
 </div>
 </div>

@@ -1,0 +1,213 @@
+{
+  "title_zh": "产品从死物变活物：微软AI平台负责人的五个判断",
+  "tldr": "软件不再是静态产物，而是随交互进化的有机体；后训练正在取代预训练成为主战场。",
+  "digest_md": "优质产出的边际成本正在逼近零——当这件事真的发生，对生产力的需求会呈指数级爆发，而撑住这种规模的唯一方式是智能体。当智能体无处不在，组织架构图就会变成工作图，你不再需要那么多层级 [00:04 Unknown] [00:15 Unknown] [00:17 Unknown]。说这话的是 Asha Sharma，微软 AI 平台的产品副总裁，管着 AI 基础设施、基础模型和智能体工具链。\n\n## 产品从人工制品变成有机体\n\n过去一年出现了一个根本性转变。模型先是爆发，然后开始具备领域专业知识，再到现在能调用工具、执行函数、采取行动——这催生了一种新产品形态。产品不再是\"想个点子、解决问题、发布出去、加点小优化、挂个仪表板\"这种静态产物。整个 KPI 变成了：产品团队\"新陈代谢\"数据的能力有多强——能不能摄取数据、消化奖励模型、产出结果 [05:26 Unknown] [05:39 Unknown]？\n\n因为模型已经足够强，你开始针对特定结果（价格、性能、质量）做微调，产品就变成了活的有机体，交互越多越好。Asha 认为这是每家公司新的知识产权——会思考、会生活、会学习的产品 [06:01 Unknown]。\n\n这不是只跟模型公司有关。软件作为底层原语正在改变，里面的产物是模型和软件组件并存。所有软件产品都会变成\"模型优先\"的产品 [08:06 Unknown]。\n\n## 后训练是新的预训练\n\nNathan Lambert 做过一个研究，查了所有顶级排行榜，结论是：一旦模型达到 300 亿参数，再往预训练里砸数十亿 token 的资本支出在经济上就不合理了，你应该转向在循环上做优化 [07:09 Unknown]。\n\n用你自己的数据是最好的方式，但也可以合成生成数据。关键是你得设计奖励机制、实际部署、严格做 A/B 测试、找到最合适的用例——然后这会生成你能从中学习的数据 [07:16 Unknown]。Asha 说她没见过任何产品是单一循环搞定的，都是多条轨道并行，像流水线一样 [07:29 Unknown]。\n\n她的判断是：未来花在后训练上的钱会和预训练一样多，甚至更多 [45:03 Unknown]。这不是疯狂的想法——排序是个古老的优化问题，你不会直接拿现成的 React 组件就用，你会针对具体用例和人群做定制。同样的工业逻辑适用于模型 [47:02 Unknown]。\n\n## 从 GUI 到代码原生界面\n\n每个人的直觉都是做 GUI（图形界面），但回看历史：数据库从桌面下沉到 SQL，云从控制台到 Terraform。同样的模式正在 AI 领域重演，而且因为摩尔定律在加速 [16:42 Unknown]。\n\n文本流和 LLM 的交互天然更好。产品未来的关键词是\"可组合性\"而不是\"画布\"。产品经理需要重新布线自己的思维——别花太多时间想 UI，要想这个东西怎么组合、智能体怎么读取它、怎么获得无限扩展 [17:14 Unknown] [17:23 Unknown]。\n\n终端体验（比如 Claude Code）之所以好，就是因为文本流和 LLM 的交互方式。但两者可以并存：人类继续写代码，智能体也写代码，智能体之间也互相写代码 [18:05 Unknown] [18:15 Unknown]。对话是强大的界面，但不是唯一的——文档、邮件、PPT 都是十亿人生活在其中的\"人工制品\"，它们可以变成重要的可组合部件 [19:01 Unknown] [19:17 Unknown]。\n\n## 智能体社会：工作图取代组织架构图\n\n未来工作的样貌会非常不同。当优质产出的边际成本逼近零，对生产力的需求会指数级增长，扩展方式就是嵌入式智能体加它们的工具和软件碎片——数量远超今天用的软件 [21:05 Unknown] [21:20 Unknown]。然后是具身智能体（embodied agents），比如把 pull request 分配给 Copilot，或者创建一个能做线索生成的软件开发代表 [21:32 Unknown] [21:38 Unknown]。\n\n当这一切发生，组织架构图就变成了工作图。你不再按\"谁向谁汇报\"来思考，而是按任务来思考和路由 [21:58 Unknown] [23:33 Unknown]。对普通员工来说，Asha 的乐观预期是：你能扩展自己的技能栈，因为你可以像自带设备一样\"自带智能体栈\"上班，获得以前没有的技能 [22:24 Unknown]。\n\n审查工作会变得极其重要——一千个智能体在外跑任务，怎么确保它们做对了？答案还是那个循环：微调、自愈、可观测性、好的评估。好消息是，管理设备和策略这些东西，今天已经有为数十亿人服务的系统了，不用重新发明轮子 [24:40 Unknown] [24:52 Unknown]。\n\n## 成功公司的模式和构建者的变化\n\n成功企业有三步：第一，全员 AI 流利——每个人都用某种副驾驶，不害怕它，理解它能提升上限、降低下限 [09:54 Unknown]。第二，拿已有流程用 AI 改进——比如把欺诈解决时间从 15 天缩到 10 天，走完整个循环，感受到实际收益 [10:12 Unknown]。第三，用 AI 撬动增长——改善体验提高留存，或者从嵌入式智能体进化到具身智能体，承担指数级任务 [10:38 Unknown]。\n\n失败的模式是\"为了 AI 而 AI\"——同时启动大量项目，没有蓝图，没有把测量、可观测性、评估搭好，没当真正的投资来对待 [11:05 Unknown]。去年 AI 领域推出了大约 70,000 种企业工具，你必须押注一个平台层，允许换入换出，不被任何单一技术绑死 [11:31 Unknown] [11:39 Unknown]。\n\n构建者本身也在根本性变化——\"博学者\"和全栈构建者正在复兴。普通组织发布产品要 10 个步骤、跨五六个职能、六七层审批，500 个接触点。当每周有 500 个新模型出来，这就不行了 [12:30 Unknown] [13:03 Unknown]。关键从\"车道\"变成了\"闭环\"——不管你什么职能，都得理解产品的效率、成本、奖励设计、UI/UX 怎么为智能体和人类呈现 [13:51 Unknown] [13:54 Unknown]。\n\n## 用\"季节\"代替\"学期\"做规划\n\n微软产品团队历史上按\"学期\"规划，每六个月回头向前看。但在 AI 时代，六个月的过度规划很不现实。他们改成了\"季节\"思维 [31:05 Unknown] [31:17 Unknown]。\n\n一个\"季节\"由行业或客户的长期变化定义：第一季是 AI 原型设计和早期 GPT，然后是模型和推理模型，现在是智能体的兴起。一个季节可以持续三个月、六个月或一年 [31:40 Unknown]。关键是让所有人对齐：长期变化是什么、要解决什么客户问题、赢是什么样、北极星指标是什么 [32:02 Unknown]。\n\n然后是松散的季度 OKR，团队在小队里设四到六周的目标去对接。最重要的一条是：在系统里留余地（Slack），不只是为计划外的事，也是为\"斜坡\"——你得以开放心态持续思考怎么在自己的思维里颠覆平台 [32:10 Unknown] [32:47 Unknown]。\n\n## 平台胜利靠的是\"看不见的工作\"\n\nAsha 最大的意外是：做平台的学问和做产品的学问高度相通，而驱动平台的往往是看不见的工作，不是像素 [36:17 Unknown]。\n\nPorch Group 发明了很多花哨功能，但真正让公司达到 5 亿美元估值的是那个匹配引擎——把 600 万专业人员、1,300 种服务类型、37,000 个邮编和北美所有房主匹配起来 [36:30 Unknown] [37:15 Unknown]。WhatsApp 赢不是靠贴纸或深色模式，而是靠电话簿（能联系到每个人）、可靠性（给印度的奶奶发消息她一定能收到）、隐私（端到端加密）[37:30 Unknown] [37:42 Unknown]。Instacart 是 10 亿件商品每分钟更新 3,000 次 [38:21 Unknown]。\n\n对 AI 平台来说同样如此——重要的不是功能列表，而是数据驻留（德国的医院能放心地在本地区微调模型）、可用性、可靠性、企业需要的工具选择、正确的知识检索方式 [38:46 Unknown]。\n\n> 【背景】Satya 指 Microsoft CEO Satya Nadella；Nathan Lambert 是 AI 研究者，以对强化学习和后训练的系统性分析著称。\n\n## 本集带走\n\n- **把产品当有机体而不是死物来建**：KPI 不是\"发布功能\"，而是团队摄取数据、消化奖励模型、产出结果的\"新陈代谢\"速度。交互越多产品越好，这才是新的护城河。\n- **后训练的投入会超过预训练**：模型到 300 亿参数后再砸预训练不经济了。拿现成模型，用自有数据/合成数据/强化学习针对价格、性能、质量做优化，是更高杠杆的玩法。\n- **别只想着画布，想想可组合性**：文本流和 LLM 天然契合，智能体会读你的东西、会调你的 API。花在 UI 上的时间该分一些到\"这个东西怎么被组合\"上。\n- **组织规划用\"季节\"不用\"学期\"**：对齐长期变化和北极星，但只做松散季度 OKR，团队四到六周一轮，系统里必须留余地给斜坡。\n- **平台赢在看不见的基础设施**：不是功能列表，是数据驻留、可靠性、隐私、工具选择——WhatsApp 靠电话簿+加密赢，不是靠贴纸。\n- **从\"车道\"思维转到\"闭环\"思维**：不管什么职能，都得理解效率、成本、奖励设计、UX 怎么为人和智能体呈现。全栈构建者的文艺复兴已经开始了。",
+  "quotes": [
+    {
+      "en": "We're approaching this world in which the marginal cost of the good output is approaching zero.",
+      "zh": "我们正在接近这样一个世界，其中优质产出的边际成本正在接近零。",
+      "timestamp": "00:04",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "When all of that happens, the org chart starts to become the work chart.",
+      "zh": "当所有这一切发生时，组织架构图开始变成了工作图。",
+      "timestamp": "00:17",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I think this is the new IP of every single company products that think and live and learn.",
+      "zh": "我认为这是每一家公司新的知识产权，那些会思考、会生活和会学习的产品。",
+      "timestamp": "00:40",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "All of a sudden, the whole KPI is what is the metabolism of a product team to be able to ingest data and then digest the rewards model and then create some sort of outcome?",
+      "zh": "突然间，整个 KPI 就是产品团队的新陈代谢能力，能够摄取数据，然后消化奖励模型，然后创建某种结果？",
+      "timestamp": "05:39",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "As of this year, Nathan Lambert did this study that I thought was pretty interesting of all the top leader boards and it showed that once a model hits 30 billion parameters, the CapEx to actually train a model and put billions of tokens into a pre-run doesn't economically make sense and you can start to optimize on the loop.",
+      "zh": "到今年为止，Nathan Lambert 做了一项我认为很有趣的研究，针对所有顶级排行榜，结果显示一旦模型达到 300 亿参数，实际训练模型并投入数十亿 token 进行预运行所需的资本支出在经济上是不合理的，你可以开始在循环上进行优化。",
+      "timestamp": "06:47",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I think that where companies fail is that they're doing AI for AI's sake.",
+      "zh": "我认为公司失败的地方在于他们为了 AI 而 AI。",
+      "timestamp": "11:05",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "There's something like 70,000 enterprise tools in the AI space launched last year.",
+      "zh": "去年在 AI 领域推出了大约 70,000 种企业工具。",
+      "timestamp": "11:31",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I feel like you have to actually build for the slope instead of the snapshot of where you are.",
+      "zh": "我觉得你实际上必须为斜坡而不是你所在位置的快照而建设。",
+      "timestamp": "11:54",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "So all of a sudden, you have 500 different touch points that have to happen to get a product out and when there are 500 models available a week or 500 new technologies, that is insufficient.",
+      "zh": "突然之间，你有 500 个不同的接触点必须发生才能发布产品，当每周有 500 个模型可用或 500 项新技术时，这是不够的。",
+      "timestamp": "13:03",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I think that product makers really need to rewire their mindset around this because I think we spend an inordinate amount of time thinking about the UI of something rather than how something composes, how an agent's going to be able to read something.",
+      "zh": "我认为产品制造者真的需要围绕这一点重新连接他们的思维，因为我认为我们花了过多时间考虑某物的 UI，而不是某物如何组合，智能体将如何能够读取某物。",
+      "timestamp": "17:23",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I think that we're approaching this world in which the marginal cost of a good output is approaching zero.",
+      "zh": "我认为我们正在接近这样一个世界，其中良好输出的边际成本正接近于零。",
+      "timestamp": "21:05",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "And the thing for me is it's often in the invisible work or not the pixels that actually drives that.",
+      "zh": "对我来说，关键在于它通常是在看不见的工作中，而不是在像素中，这实际上驱动了它。",
+      "timestamp": "36:17",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "The number one learning that I had was look like WhatsApp didn't win because it had stickers or stories or dark mode.",
+      "zh": "我拥有的头号经验教训是，WhatsApp 赢并不是因为它有贴纸或故事或深色模式。",
+      "timestamp": "37:30",
+      "speaker": "Asha Sharma"
+    },
+    {
+      "en": "I believe we will see just as much money spent on post-training as we will on pre-training and in the future, more on post-training.",
+      "zh": "我相信我们将看到在后续训练上花费的钱和在预训练上花费的一样多，而在未来，更多在后续训练。",
+      "timestamp": "45:03",
+      "speaker": "Asha Sharma"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:04",
+      "speaker": "Unknown",
+      "en": "We're approaching this world in which the marginal cost of the good output is approaching zero.",
+      "zh": "我们正在接近这样一个世界，其中优质产出的边际成本正在接近零。"
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Unknown",
+      "en": "When all of that happens, the org chart starts to become the work chart.",
+      "zh": "当所有这一切发生时，组织架构图开始变成了工作图。"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Unknown",
+      "en": "We were chatting about this concept you have that we're moving from product as artifact to product as organism.",
+      "zh": "我们在聊到你提出的一个概念，即我们正从产品作为人工制品转向产品作为有机体。"
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Unknown",
+      "en": "I think this is the new IP of every single company products that think and live and learn.",
+      "zh": "我认为这是每一家公司新的知识产权，那些会思考、会生活和会学习的产品。"
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Unknown",
+      "en": "All of a sudden, the whole KPI is what is the metabolism of a product team to be able to ingest data and then digest the rewards model and then create some sort of outcome?",
+      "zh": "突然间，整个 KPI 就是产品团队的新陈代谢能力，能够摄取数据，然后消化奖励模型，然后创建某种结果？"
+    },
+    {
+      "timestamp": "07:09",
+      "speaker": "Unknown",
+      "en": "As of this year, Nathan Lambert did this study that I thought was pretty interesting of all the top leader boards and it showed that once a model hits 30 billion parameters, the CapEx to actually train a model and put billions of tokens into a pre-run doesn't economically make sense and you can start to optimize on the loop.",
+      "zh": "到今年为止，Nathan Lambert 做了一项我认为很有趣的研究，针对所有顶级排行榜，结果显示一旦模型达到 300 亿参数，实际训练模型并投入数十亿 token 进行预运行所需的资本支出在经济上是不合理的，你可以开始在循环上进行优化。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "I think that software products will all be model forward products, if you will.",
+      "zh": "所以在很多方面，我认为软件产品都将是模型优先的产品，如果你愿意这么说的话。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Unknown",
+      "en": "I think that where companies fail is that they're doing AI for AI's sake.",
+      "zh": "我认为公司失败的地方在于他们为了 AI 而 AI。"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Unknown",
+      "en": "There's something like 70,000 enterprise tools in the AI space launched last year.",
+      "zh": "去年在 AI 领域推出了大约 70,000 种企业工具。"
+    },
+    {
+      "timestamp": "11:54",
+      "speaker": "Unknown",
+      "en": "I feel like you have to actually build for the slope instead of the snapshot of where you are.",
+      "zh": "我觉得你实际上必须为斜坡而不是你所在位置的快照而建设。"
+    },
+    {
+      "timestamp": "13:03",
+      "speaker": "Unknown",
+      "en": "So all of a sudden, you have 500 different touch points that have to happen to get a product out and when there are 500 models available a week or 500 new technologies, that is insufficient.",
+      "zh": "突然之间，你有 500 个不同的接触点必须发生才能发布产品，当每周有 500 个模型可用或 500 项新技术时，这是不够的。"
+    },
+    {
+      "timestamp": "13:51",
+      "speaker": "Unknown",
+      "en": "I think it's all about the loop, not the lane here.",
+      "zh": "我认为这全都是关于闭环，而不是车道。"
+    },
+    {
+      "timestamp": "15:48",
+      "speaker": "Unknown",
+      "en": "I think we were sitting between 30 and 60 character acceptance rate depending on the run to something like 83%.",
+      "zh": "我认为我们的接受率在 30 到 60 个字符之间，取决于运行情况，达到了大约 83%。"
+    },
+    {
+      "timestamp": "17:23",
+      "speaker": "Unknown",
+      "en": "I think that product makers really need to rewire their mindset around this because I think we spend an inordinate amount of time thinking about the UI of something rather than how something composes, how an agent's going to be able to read something.",
+      "zh": "我认为产品制造者真的需要围绕这一点重新连接他们的思维，因为我认为我们花了过多时间考虑某物的 UI，而不是某物如何组合，智能体将如何能够读取某物。"
+    },
+    {
+      "timestamp": "21:05",
+      "speaker": "Unknown",
+      "en": "I think that we're approaching this world in which the marginal cost of a good output is approaching zero.",
+      "zh": "我认为我们正在接近这样一个世界，其中良好输出的边际成本正接近于零。"
+    },
+    {
+      "timestamp": "22:24",
+      "speaker": "Unknown",
+      "en": "I think that for the average employee, my hope and my optimistic view is that they will be able to expand their skill set because now they have their own agents stack that they can bring with them to work just like you can bring your own device and you can start to have access to a set of skills that you never had before.",
+      "zh": "我认为对于普通员工来说，我的希望和乐观观点是，他们将能够扩展他们的技能组合，因为他们现在拥有自己的智能体栈，可以带到工作中，就像你可以自带设备一样，你可以开始获得你从未拥有过的一组技能的访问权限。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Unknown",
+      "en": "The good news is that there are systems that manage this for billions of people today that already exists, and so I think that we don't have to reinvent the wheel.",
+      "zh": "好消息是，今天有系统为数十亿人管理这一切，并且已经存在，所以我认为我们不需要重新发明轮子。"
+    },
+    {
+      "timestamp": "36:17",
+      "speaker": "Unknown",
+      "en": "And the thing for me is it's often in the invisible work or not the pixels that actually drives that.",
+      "zh": "对我来说，关键在于它通常是在看不见的工作中，而不是在像素中，这实际上驱动了它。"
+    },
+    {
+      "timestamp": "37:30",
+      "speaker": "Unknown",
+      "en": "The number one learning that I had was look like WhatsApp didn't win because it had stickers or stories or dark mode.",
+      "zh": "我拥有的头号经验教训是，WhatsApp 赢并不是因为它有贴纸或故事或深色模式。"
+    },
+    {
+      "timestamp": "45:03",
+      "speaker": "Unknown",
+      "en": "I believe we will see just as much money spent on post-training as we will on pre-training and in the future, more on post-training.",
+      "zh": "我相信我们将看到在后续训练上花费的钱和在预训练上花费的一样多，而在未来，更多在后续训练。"
+    }
+  ]
+}

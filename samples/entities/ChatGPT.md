@@ -6,12 +6,14 @@ unlisted: true
 aliases: ["chat gpt", "ChatGPD"]
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>17</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(15:33起):本集举例说博士的工作就是找出 ChatGPT 产生内容中的缺陷，以及提到语音模式是默认的 ChatGPT 体验
+- **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:21起):本集说 ChatGPT 的引用和 Google 搜索结果的重叠率只有约 35%；ChatGPT 为 Lenny 的通讯驱动的流量比 Twitter 还多；ChatGPT 有团队在调整搜索算法来选择信任的来源
 - **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(11:42起):本集提到用 ChatGPT 做个性化学习——投喂课程大纲让它定制学习计划，以及用自己的话复述回去让它挑错来测试理解
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:26起):本集提到 ChatGPT 出现后很多人说 Google 完了、没人想忍受搜索结果点链接了，以及 Gemini 排名超过了 ChatGPT
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(65:25起):本集提到期待它的语音模式在应对打断方面能做得更好
@@ -29,7 +31,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*3 条*
+*4 条*
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q8]]
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q1]]
 
@@ -39,8 +43,10 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*15 集*
+*17 集*
 
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司(提及)
@@ -61,9 +67,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[OpenAI]] · [[强化学习]] · [[Waymo]] · [[主观能动性]] · [[Google]] · [[vibe coding]] · [[NVIDIA]] · [[Anthropic]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[强化学习]] · [[Waymo]] · [[Anthropic]] · [[Google]] · [[主观能动性]] · [[后训练]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":82,"Lenny":44,"OpenAI":36,"强化学习":9,"Waymo":8,"主观能动性":9,"Google":16,"vibe coding":8,"NVIDIA":16,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"Lenny":47,"智能体":84,"OpenAI":36,"强化学习":9,"Waymo":8,"Anthropic":46,"Google":17,"主观能动性":10,"后训练":7,"vibe coding":8}</script>
 
 <script>
 (function(){
@@ -284,7 +290,15 @@ aliases: ["chat gpt", "ChatGPD"]
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

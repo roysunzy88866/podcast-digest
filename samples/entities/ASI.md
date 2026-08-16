@@ -5,27 +5,29 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ASI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ASI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ASI">AS</div><div class="pi"><h1 class="pt">ASI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ASI">AS</div><div class="pi"><h1 class="pt">ASI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(23:24起):本集说在达到完整的 ASI 之前，在数据标注领域将需要人类参与长达十年之久
 - **[[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]]**(36:53起):本集把它说成:即将以极快速度降临的超人类智能,其引发的问题与其说是技术问题,不如说是深刻的文化问题。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为概念(提及)
 - [[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Erik Allebest]] · [[Chess.com]] · [[Deep Blue]] · [[Stockfish]] · [[Leela Chess Zero]] · [[反作弊]] · [[评级系统]] · [[AGI]]
+[[Garrett Lord]] · [[Erik Allebest]] · [[Lenny]] · [[Chess.com]] · [[Handshake]] · [[Deep Blue]] · [[后训练]] · [[Stockfish]] · [[数据标注]] · [[Leela Chess Zero]]
 
-<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":10}</script>
+<script type="application/json" class="pd-epn">{"Garrett Lord":1,"Erik Allebest":1,"Lenny":47,"Chess.com":2,"Handshake":1,"Deep Blue":1,"后训练":7,"Stockfish":2,"数据标注":2,"Leela Chess Zero":1}</script>
 
 <script>
 (function(){
@@ -246,7 +248,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

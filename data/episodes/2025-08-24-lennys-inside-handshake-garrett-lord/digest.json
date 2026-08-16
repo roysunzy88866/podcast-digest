@@ -1,0 +1,147 @@
+{
+  "title_zh": "Handshake：靠学生网络四个月做到五千万ARR",
+  "tldr": "大学生招聘平台发现其千万级专家网络正是AI实验室最稀缺的后训练数据来源，从零孵化出新业务四个月达5000万ARR。",
+  "digest_md": "一家做了十年的大学生招聘平台，拥有 1800 万用户、50 万博士，今年年初突然发现——这些人的专业技能，正是 AI 实验室花重金都找不到的东西。于是他们从零开始做数据标注业务，四个月跑到 5000 万 ARR，八个月有望破亿，不到两年就能超过那个花了十年建起来的老业务 [36:28 Garrett Lord]。\n\n## 后训练：模型变聪明的主战场\n\n训练模型分两步。预训练是往模型里灌互联网上所有能找到的文本、视频、书籍—— basically the entire corpus of written human knowledge [06:17 Garrett Lord]。但大约 18 到 24 个月前，能灌的都灌得差不多了，收益开始见顶。实验室的重心就转到了后训练（post-training）——针对编程、数学、法律、金融等具体领域，收集高质量数据来增强模型能力 [06:45 Garrett Lord]。\n\n后训练具体做什么？几种典型形式：SFT（监督式微调），就是给模型提供「提示词—正确回答」的对；RLHF（带人类反馈的强化学习），让人来判断回答 A 和回答 B 哪个更好；轨迹数据（trajectory），记录一个人从打开工具到解决问题的全过程，包括屏幕操作、鼠标轨迹、口述思考；还有评分标准（rubric），在一些没有标准答案的领域（比如教育设计、医学影像），让模型当裁判来评估回答质量 [07:48 Garrett Lord][18:39 Garrett Lord]。\n\n## 专家标注：不是画框，是攻破模型\n\n数据标注这个词容易让人联想到在图片上画边界框——那是通才干的低门槛活。但模型变强之后，通才就没用了 [11:03 Garrett Lord]。现在需要的是真正的领域专家：物理博士去拆解模型在物理学子领域里哪一步推理错了，教育博士去判断模型给出的教学设计是否符合一线教学经验，音乐学院的学生去改进模型对音乐的理解 [12:33 Garrett Lord][16:08 Garrett Lord][18:18 Garrett Lord]。\n\n具体怎么干？以 GPQA 这类公开论文的方法为例：专家先找到模型答错或推理步骤出错的地方，然后写出正确的、分步骤的推理过程，这份修正后的数据拿回去做后训练，模型在这个能力点上就提升了 [13:22 Garrett Lord]。产出通常是结构化的 JSON 数据 [18:15 Garrett Lord]。\n\n## 护城河：受众访问权\n\n这个市场有个很残酷的结构性问题：竞争对手要找 200 个物理学博士，得雇 200 个招聘人员在 LinkedIn 上挨个发消息，同时在 TikTok、Instagram 上砸效果广告，获客成本极高，而且找到的人上来就直接干活、没有培训，流失率很大 [30:39 Garrett Lord][41:10 Garrett Lord]。\n\nHandshake 的优势是——这些人本来就在它的平台上。跟 1600 所大学有合作，覆盖美国前 500 所学校中的 92%，用户有完整的学术背景信息，而且已经建立了十年的品牌信任 [31:17 Garrett Lord][44:01 Garrett Lord]。用 Garrett 的话说：人类数据中唯一的护城河是对受众的访问 [30:35 Garrett Lord]。获客成本接近零，转化率和留存率远高于竞争对手，这就是四个月跑到 5000 万的底层原因 [40:28 Garrett Lord]。\n\n## 在老公司里孵新业务的打法\n\n这可能是对其他团队最有参考价值的部分。\n\nGarrett 自己 80% 以上的时间扑在这个新业务上，没有委托给别人去「试试看」[54:13 Garrett Lord]。团队完全独立：独立的工程、设计、运营、财务，独立的全员大会、独立的招聘流程、坐在办公室的单独区域 [53:50 Garrett Lord][55:01 Garrett Lord]。从老业务里抽人过来时，直接告诉他们「这是你唯一的工作，以前的责任全部放下」[55:20 Garrett Lord]。\n\n招人的标准也跟老业务不同：偏好有早期公司经验、能忍受模糊性的人， upfront 告诉对方这是 24/7 的工作、很多周末要加班 [54:36 Garrett Lord][51:38 Garrett Lord]。薪酬跟新业务的里程碑挂钩，让人有「主人翁感」[51:47 Garrett Lord]。运营节奏也更偏数据驱动，有明确的周/月/季度指标复盘 [52:17 Garrett Lord]。\n\n他们还内部造了一句口号：「leave nothing to chance」——在白板上画出一年的天数，提醒自己这种无限需求的机会可能一辈子就一次 [56:25 Garrett Lord]。具体行动就是：坐飞机去见客户、半夜赶工、把数据查六遍、多 Ship 一个有用的功能 [56:47 Garrett Lord]。\n\n先聚焦一个客户做到高质量交付，再扩展到其他实验室——Garrett 说他们在前五个月只跟「可以说是排名第一的实验室」合作，把质量做扎实了才接更多客户 [50:27 Garrett Lord][47:27 Garrett Lord]。\n\n## 模型会停步吗？\n\nGarrett 的判断是：不会缺数据，但数据类型会不断演变。接下来需要的是 CAD 文件、科学工具的操作数据、药物发现中的实验流程数据，还有大量的音频和多模态数据 [60:50 Garrett Lord][61:31 Garrett Lord]。合成数据在可验证领域（比如数学）有用，但他从实验室听到的共识是——合成数据不会占据主导地位 [62:00 Garrett Lord]。只要模型还在变强、还有解决不了的问题，就需要人类专家在环内参与迭代 [29:00 Garrett Lord]。\n\n## 本集带走\n\n- **后训练是当前模型进步的主引擎**：预训练（灌互联网数据）收益见顶后，实验室靠后训练——SFT、RLHF、轨迹数据、rubric 评估——在具体领域提升模型能力。\n- **标注市场已从通才转向专家**：模型够强了，画框式的通才标注被淘汰；现在需要的是博士级专家去攻破模型在高级领域的推理错误，并产出修正数据。\n- **人类数据的护城河是受众访问权**：竞争对手靠广告和招聘人员高成本找专家，Handshake 靠十年积累的大学生网络零成本触达 50 万博士和 300 万硕士生——这是它四个月跑 到 5000 万 ARR 的结构性原因。\n- **老公司孵新业务要真独立**：团队、招聘、运营节奏、办公区域全部隔离；创始人亲自带队、80%+ 时间投入；先服务好一个客户证明质量，再扩张。\n- **数据类型会持续演变，但人类专家不会出局**：下一步是 CAD、科学工具操作、音频等多模态数据；合成数据有角色但不会主导——在达到完整 ASI 之前，人类在环内迭代会持续十年 [23:24 Garrett Lord]。\n\n> 【背景】Garrett 提到的「Frontier Labs」指 OpenAI、Anthropic、Google DeepMind 等处于 AI 能力最前沿的实验室。他提到 Scale 被以约 300 亿美元收购，指 2025 年 Scale AI 与美国政府的合作安排。「Kevin Wheel」应为 Kevin Weil，OpenAI 首席商业官。「ASI」指通用人工超级智能。「SNOO」是一款自动安抚婴儿的智能摇篮床。",
+  "quotes": [
+    {
+      "en": "The only moat in human data is access to an audience.",
+      "zh": "人类数据中唯一的护城河是对受众的访问。",
+      "timestamp": "00:30",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "And about 18 months ago, 24 months ago, we started to really see an asymptoting of gains coming from, because they had essentially sucked up all of the knowledge on the internet.",
+      "zh": "大约 18 个月前，24 个月前，我们开始真正看到收益的渐近，因为他们基本上已经摄取了互联网上的所有知识。",
+      "timestamp": "06:34",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "But really what's happened is the models have gotten so good that the generalists are no longer needed.",
+      "zh": "但实际上发生的是，模型变得如此之好，以至于不再需要通才了。",
+      "timestamp": "11:03",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "If you can produce high quality volumes of data, you most likely will be able to sell whatever you produce.",
+      "zh": "如果你能够生产大量高质量的数据，你很可能会能够卖出你生产的任何东西。",
+      "timestamp": "48:11",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "For a while there we drew the number of days in the year on the whiteboard and it was like, there will never be a time like this.",
+      "zh": "有一段时间我们在白板上画了一年中天数，就像，再也没有像这样的时刻了。",
+      "timestamp": "56:25",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "I've never seen anything like it, I doubt I'll ever feel anything like this in business again where there's unlimited demand and it's just our ability to execute against it.",
+      "zh": "我从未见过这样的景象，我怀疑我在商业中再也不会有这种感觉了，这里有无限的需求，而这只是我们执行应对它的能力。",
+      "timestamp": "56:32",
+      "speaker": "Garrett Lord"
+    },
+    {
+      "en": "I think synthetic data has a role to play and in verifiable domains, but what we consistently hear from companies it's like synthetic data is not going to dominate.",
+      "zh": "我认为合成数据在可验证的领域有一席之地，但我们从公司那里听到的说法始终是，合成数据不会占据主导地位。",
+      "timestamp": "62:00",
+      "speaker": "Garrett Lord"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:30",
+      "speaker": "Unknown",
+      "en": "The only moat in human data is access to an audience.",
+      "zh": "人类数据中唯一的护城河是对受众的访问。"
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Unknown",
+      "en": "And about 18 months ago, 24 months ago, we started to really see an asymptoting of gains coming from, because they had essentially sucked up all of the knowledge on the internet.",
+      "zh": "大约 18 个月前，24 个月前，我们开始真正看到收益的渐近，因为他们基本上已经摄取了互联网上的所有知识。"
+    },
+    {
+      "timestamp": "11:03",
+      "speaker": "Unknown",
+      "en": "But really what's happened is the models have gotten so good that the generalists are no longer needed.",
+      "zh": "但实际上发生的是，模型变得如此之好，以至于不再需要通才了。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "What they really need is experts, experts across every area that the models are focused on.",
+      "zh": "他们真正需要的是专家，模型关注的每个领域的专家。"
+    },
+    {
+      "timestamp": "20:25",
+      "speaker": "Unknown",
+      "en": "And if you imagine you're training a model, like teaching a student and you're giving it the wrong data, it's extremely challenging to overcome that.",
+      "zh": "如果你设想你在训练一个模型，就像教一个学生，而你给了它错误的数据，要克服这一点是极其具有挑战性的。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Unknown",
+      "en": "And I think for as long as models are improving, humans will be needed in this process.",
+      "zh": "我认为只要模型在改进，人类在这个过程中就是被需要的。"
+    },
+    {
+      "timestamp": "23:24",
+      "speaker": "Unknown",
+      "en": "And when you talk to the lead scientists and researchers at these labs, it's like the data types will evolve and what they're trying to capture and collect, but there will be humans needed in the space for the next decade until we reach full ASI.",
+      "zh": "当你与这些实验室的首席科学家和研究人员交谈时，就像数据类型会演变，以及他们试图捕捉和收集的内容，但在我们达到完整的 ASI 之前，在这个领域将需要人类长达十年之久。"
+    },
+    {
+      "timestamp": "29:10",
+      "speaker": "Unknown",
+      "en": "And so, for as long as there are problems in solving any problem with AI, any human problem, there will need to be humans in the loop helping advance that.",
+      "zh": "所以，只要在用 AI 解决任何问题、任何人类问题方面存在问题，就需要人类在环内帮助推进它。"
+    },
+    {
+      "timestamp": "29:29",
+      "speaker": "Unknown",
+      "en": "Kevin Wheel was on the podcast, the CBO at OpenAI, and he made this point that really stuck with me that the model of today is the worst model you will ever use.",
+      "zh": "Kevin Wheel 来到了播客，OpenAI 的 CBO，他提出了一个观点，我记忆犹新，即今天的模型是你将要使用的最差的模型。"
+    },
+    {
+      "timestamp": "30:59",
+      "speaker": "Unknown",
+      "en": "They have 100 recruiters on staff, they all get on LinkedIn, they all send messages, they spend a couple million bucks on performance advertising campaigns.",
+      "zh": "他们有 100 名招聘人员，他们都登录 LinkedIn，他们都发送消息，他们在效果广告活动上花费数百万美元。"
+    },
+    {
+      "timestamp": "41:25",
+      "speaker": "Unknown",
+      "en": "I think if you care about building a really high quality business, and having good gross margin and high quality growth, the ecosystem here is, one of the leading players, they have 200 recruiters.",
+      "zh": "我认为如果你关心建立一个真正高质量的企业，并拥有良好的毛利率和高质量的增长，这里的生态系统是，其中一家领先的企业有 200 名招聘人员。"
+    },
+    {
+      "timestamp": "48:11",
+      "speaker": "Unknown",
+      "en": "If you can produce high quality volumes of data, you most likely will be able to sell whatever you produce.",
+      "zh": "如果你能够生产大量高质量的数据，你很可能会能够卖出你生产的任何东西。"
+    },
+    {
+      "timestamp": "50:27",
+      "speaker": "Unknown",
+      "en": "And so, everyone saw very clearly the structural advantages that we had, and a lot of the focus was on making sure that we could deliver high-quality data to one customer before we expand to anyone else.",
+      "zh": "所以，每个人都非常清楚地看到了我们所拥有的结构性优势，很多重点在于确保我们能够在向其他人扩张之前向一位客户提供高质量的数据。"
+    },
+    {
+      "timestamp": "56:25",
+      "speaker": "Unknown",
+      "en": "For a while there we drew the number of days in the year on the whiteboard and it was like, there will never be a time like this.",
+      "zh": "有一段时间我们在白板上画了一年中天数，就像，再也没有像这样的时刻了。"
+    },
+    {
+      "timestamp": "56:32",
+      "speaker": "Unknown",
+      "en": "I've never seen anything like it, I doubt I'll ever feel anything like this in business again where there's unlimited demand and it's just our ability to execute against it.",
+      "zh": "我从未见过这样的景象，我怀疑我在商业中再也不会有这种感觉了，这里有无限的需求，而这只是我们执行应对它的能力。"
+    },
+    {
+      "timestamp": "62:00",
+      "speaker": "Unknown",
+      "en": "I think synthetic data has a role to play and in verifiable domains, but what we consistently hear from companies it's like synthetic data is not going to dominate.",
+      "zh": "我认为合成数据在可验证的领域有一席之地，但我们从公司那里听到的说法始终是，合成数据不会占据主导地位。"
+    }
+  ]
+}

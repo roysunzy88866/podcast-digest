@@ -1,0 +1,165 @@
+{
+  "title_zh": "PM的生存法则：AI时代别当瓶颈，去抢活干",
+  "tldr": "两位合计50年经验的PM领袖谈AI如何改写产品管理：从\"船坞\"模式到\"尖锐问题\"的筛选。",
+  "digest_md": "过去20年，产品开发有一套固定节奏：PM花这么多时间，开发花这么多时间，上市花这么多时间。Oji说，这套契约正在被炸碎——构建过程加速得太快了，有公司打完推销电话四小时就能拿出原型。PM开始变成团队的瓶颈，不是因为PM变慢了，而是因为其他环节在飞奔 [08:37 Oji]。\n\n但这个瓶颈不该是蹲守的理由。PM的核心价值没变——降低产品交付风险，同时最大化企业从投资中获得的收益。变的是战术层面：PM被解放出来了，应该把更多时间花在漏斗顶端——确认客户洞察、决定该构建什么 [05:06 Ezinne Udezue]。\n\n## 找\"尖锐问题\"，别醉酒式创业\n\nOji从创业失败中学到一件事：很多人以为创业就是建东西、不行就转型，像醉酒走路一样晃来晃去。但很多最成功的人根本没转型——他们一开始选的就是\"尖锐问题\" [11:05 Oji]。\n\n什么是尖锐问题？就是那些老需求——人们一直觉得需要帮助的事情——困难到如果你把它改进三到五倍甚至十倍，或者把成本降到十分之一，人们会说\"这太有说服力了，现在就把钱拿走\" [12:12 Oji]。避免醉酒式创业的方法就是选旧需求，用新技术重新构想它。\n\n## \"船坞\"模式：六种能力的受控混乱\n\nOji从Atlassian时期的同事那里接触到\"船坞\"概念，然后把它推到了另一个清晰度。船坞要唤起的是\"受控的混乱\"——你去高峰期的船坞看，到处是重型机械、卡车、集装箱，看起来像布朗运动，但底层是仔细的沟通和高超的技能 [13:12 Oji]。\n\n一个船坞团队是六种能力的组合：PM、工程、设计、用户研究、数据和ML/AI、产品营销。注意，是六种能力，不是六个人——工程可能需要十个人，那这个团队就是十几个人 [14:01 Oji]。在AI时代，站会的意义都在减弱，这些人应该每小时都在沟通协作，因为每个新问题都需要这样工作 [14:19 Oji]。\n\n船坞团队还有\"触须\"——销售、客服，它们像皮肤一样让团队感受到客户。Oji在Calendly时，发布任何东西之前都要和支持经理做设计审查，因为设计人员和工程师\"尽管我们很在乎，我们总是会发布问题\" [14:52 Oji]。\n\n## AI在核心vs AI在边缘\n\nEzinne提出一个关键区分：AI在边缘和AI在核心 [40:42 Ezinne Udezue]。\n\nAI在边缘，是你仍然像以前一样使用软件，原来的代码还在，你在不同交叉点插入LLM或AI。AI在核心，是从根本上审视问题空间和工作流，用AI来解决问题，而不是在界面的交叉点上撒一点 [41:05 Ezinne Udezue]。\n\n那些代码库保持不变、只是在上面附加AI的公司，通常不是能彻底改变行业的公司。代码库可能会缩小、LLM成为解决问题核心部分的公司，才是做对的 [41:45 Ezinne Udezue]。\n\nOji补充：他们在Typeform做新产品时，从白纸开始，问\"如果今天以LLM作为核心能力来构建，它会是什么样子？\"结果不光做完了表单，产品本身还变成了销售线索智能体，直接做售前 [43:25 Oji]。\n\n但对有五年历史、收入绑在旧代码库上的公司，这是两难——要在旧东西里用LLM，同时导航到新东西，在别人吃掉你午餐之前 [44:52 Oji]。\n\n## PM该练的五样本事\n\nEzinne现在帮公司招PM和建课程，她锁定了几个关键特质：\n\n**好奇心+谦逊**。不是泛泛的说辞——是\"这个人是否足够谦虚和好奇，能承认自己不知道，愿意以学习者身份开始？无论多资深，能不能接受别人的教导？\" [18:01 Ezinne Udezue]。她看到很多人不愿意去报初级AI PM课程，因为自己是CPO或首席PM了——\"我认为这是个错误\" [25:24 Ezinne Udezue]。\n\n**主观能动性**。不是主人翁感——主人翁感是看到你能跑，主观能动性是假设你能控制环境。\"你更像恒温器而不是温度计——温度计只是在测量室温，恒温器会改变室温\" [19:05 Ezinne Udezue]。\n\n**写evals的能力**。不是写提示词——谁都能写提示词。是LLM产出结果后，你能验证它是不是真的聪明、有没有产生幻觉，通过创建真实的评估来做到这一点 [20:01 Ezinne Udezue]。还有限制幻觉的方法、使用多个模型并搞清楚各自擅长的领域 [20:28 Ezinne Udezue]。\n\nOji把谦逊浓缩成一个词：**可教性**。\"什么时候你需要可教性？当一切都改变了、没有蓝图的时候。谦卑就是可教性，可教性就是生存能力\" [27:49 Oji]。\n\n## 亲手干：选一个你真正有热情的项目\n\nOji过去一年写的代码比过去十年都多，\"因为代码现在本质上是架构和英语\" [27:32 Oji]。他把写PRD变成了写原型，自己用Postman调API接口，订阅所有AI工具当学习成本，学MCP怎么连接不同东西 [29:13 Oji]。\n\n他的方法是选一个触及很多他想学的东西、又真正有热情的项目。他的激情项目是自动化房子——给房子装上眼睛和耳朵，规划了一个\"超级传感器\"，能看人、感知热量、听声音、感知湿度和温度，分散在房子各处，而且硬件自己在做 [31:29 Oji]。房子跑在一个带AI芯片和推理功能的处理器上，但看起来很笨，因为不想让人知道 [30:10 Oji]。\n\nEzinne给不知道从哪开始的建议一样：围绕你的热情创建项目。她指导过一位女士，喜欢\"今日穿搭\"的概念，就用LLM把所有上衣、下装、裙子、鞋子整理好，基于温度做每日穿搭推荐 [35:08 Ezinne Udezue]。\n\nOji的预测：未来几年，很多高主观能动性的人会编写自动化自己生活的软件。\"一人SaaS会消失，因为将有一亿开发者——那些真正在意的人会自动化自己的生活\" [35:47 Oji]。PM应该成为先锋——如果能为自己做，就能为覆盖一百万人的软件做。\n\n## 50年踩出来的坑\n\n**简单需要勇气**。Ezinne说，人们创建复杂解决方案的原因之一是不敢表达观点——\"他们观点不够鲜明，这通常是因为没有强烈信念，因为不确定在客户身上花了足够时间\" [49:19 Ezinne Udezue]。结果就是摊开一万个选项让用户选，体验浑浊不清。\"你最好选择一个观点，发布出去，做错了再调整，而不是留太多选项——那样你永远学不到整体上什么是更好的体验\" [51:03 Ezinne Udezue]。\n\n**沟通\"为什么\"永远不嫌多**。Ezinne用NASA的例子——连看门人都知道我们在致力于把人送上月球 [52:05 Ezinne Udezue]。她从LinkedIn上看到有人把\"跨越鸿沟\"用到战略沟通上：大约5%的人是早期采用者，他们懂了、认同了、在行动了；四个月后他们已经在问下一版战略是什么；而同时有些人才刚刚开始理解 [52:42 Ezinne Udezue]。\"这为我解答了很多问题——为什么你在做一个战略时，有些人能复述它，有些PM还在纠结'但是为什么？'\" [53:23 Ezinne Udezue]。\n\n**观察客户做什么，不是听他们说啥**。Ezinne做过UX实验室和人种学研究，她说观察人们真正在做什么仍然是顶级的 [58:04 Ezinne Udezue]。\"真正的客户洞察不是用AI读你所有客户访谈的转录稿——人们并不总是说出他们的意思，或者他们没意识到自己在做某件事的原因上撒了谎\" [58:37 Ezinne Udezue]。\n\n**意图和想象力的力量**。Oji说他和Ezinne的职业生涯背后是大量意图——\"我们大脑里总是想着，我们下一步想做什么？什么是驱动我们的渴望？没有什么比意图和想象力更强大\" [55:40 Oji]。他以前在微软的老板今年回来跟他说：\"Oji，你从远处告诉我你想做的一切，我看到你都做了——你是十年前告诉我的。\"而Oji自己都不记得了 [56:46 Oji]。\n\n> 【背景】Oji提到的\"无论你什么时候醒来，那就是你的早晨\"是一句非洲谚语，转写稿中未注明具体语种。\n\n## 本集带走\n- **别当瓶颈，去抢活干**：AI加速了构建环节，PM如果只写PRD就是瓶颈。把时间挪到确认客户洞察上，或者自己动手写原型、调API。\n- **找尖锐问题**：选老需求，用新技术重新构想。如果改进十倍或成本降到十分之一，客户会说\"现在就把钱拿走\"——这才是值得做的问题。\n- **船坞=六种能力的受控混乱**：PM、工程、设计、用研、数据/ML、产品营销，每小时协作。加上客服和销售的\"触须\"连接客户。\n- **AI在核心，不是在边缘**：不是在旧代码上插LLM，而是从白纸开始问\"以LLM为核心来构建会是什么样\"。代码库应该缩小，LLM应该成为解决问题的关键。\n- **谦逊=可教性=生存能力**：没有蓝图的时候，能承认不知道、愿意从初级课程学起的人才能活下来。\n- **选一个你有热情的个人项目入手**：别泛泛地\"玩Lovable\"，选一个真正想解决的问题，在解决过程中自然学会各种AI工具。\n- **简单需要勇气**：与其留一万个选项让用户选，不如选一个观点发布出去，错了再调。\n- **沟通\"为什么\"按跨越鸿沟的节奏来**：5%的人立刻懂了，四个月后他们已经在问下一版；同时还有人刚开始理解。永远不嫌讲太多遍。\n- **观察客户做什么，别只听他们说**：AI可以帮你转录访谈，但真正的洞察来自人种学式的观察——人们说的和做的经常不一样。",
+  "quotes": [
+    {
+      "en": "For the last 20 years, we've had very fixed ratios in terms of how work gets done. PM takes this amount of time, developers takes this amount of time, go-to-market takes this amount of time. And I think that contract is basically exploding because the build process, the closed solutionary process, the build process is accelerating so fast.",
+      "zh": "在过去20年里，我们就工作如何完成有着非常固定的比例。PM花费这么多时间，开发人员花费这么多时间，上市花费这么多时间。我认为这种契约基本上正在爆炸，因为构建过程，封闭的求解过程，构建过程正在加速得如此之快。",
+      "timestamp": "08:37",
+      "speaker": "Oji"
+    },
+    {
+      "en": "What is still difficult to the point that if you improve it three to five times, maybe 10X, or you take cost out of it, like 10X costs, one 10th, they'll be like, \"This is so compelling, you should take my money now.\"",
+      "zh": "什么仍然困难到如果你改进它三到五倍，也许10倍，或者你从中拿走成本，比如10倍成本，十分之一，他们会说，\"这太令人信服了，你现在应该拿走我的钱。\"",
+      "timestamp": "11:57",
+      "speaker": "Oji"
+    },
+    {
+      "en": "A shipyard is to evoke controlled chaos. If you go to a shipyard at peak, Long Beach or whatever it is, there's so much going on and big heavy machinery moving around, trucks and containers from China, from Malaysia jumping around. But this chaos underline it is careful communication, high skill.",
+      "zh": "船坞是为了唤起受控的混乱。如果你在高峰期去船坞，长滩或其他什么，那里有太多事情发生，大型重型机械在移动，来自中国，来自马来西亚的卡车和集装箱在到处跳。但这种混乱底层是仔细的沟通，高超的技能。",
+      "timestamp": "13:12",
+      "speaker": "Oji"
+    },
+    {
+      "en": "Before I shipped anything Calendly, I did the design review with a support manager, right? A support manager had to be in the room because the design people and engineering people as much as we cared, we would ship problems all the time, future debt.",
+      "zh": "在我发布任何Calendly之前，我和支持经理做了设计审查，对吧？一位支持经理必须在场，因为设计人员和工程人员，尽管我们很在乎，我们总是会发布问题，未来的债务。",
+      "timestamp": "14:52",
+      "speaker": "Oji"
+    },
+    {
+      "en": "But I think ownership is seeing that you can run, but I think agency assumes that you control... You're more of a thermostat than a thermometer and that means that hey, the thermometer is always measuring the temperature of the room while a thermostat will change the temperature of the room.",
+      "zh": "但我认为主人翁感是看到你可以奔跑，但我认为主观能动性假设你控制……你更像是一个恒温器而不是温度计，这意味着嘿，温度计总是在测量房间的温度，而恒温器会改变房间的温度。",
+      "timestamp": "19:05",
+      "speaker": "Ezinne Udezue"
+    },
+    {
+      "en": "I think the shorthand I have for humility is humility is teachability. And when do you need teachability? You need teachability when everything has changed, where there is no blueprint and whatever you think is a blueprint of AI in the last few years, whether, \"Oh wow, Lovable is so successful. Replit is so successful.\" It's actually quite possible that any one of those companies won't be around in two, three years, right?",
+      "zh": "我对谦卑的简略说法是，谦卑就是可教性。什么时候你需要可教性？当一切都改变了，没有蓝图时，你需要可教性，无论你在过去几年认为什么是AI的蓝图，无论是，\"噢哇，Lovable太成功了。Replit太成功了。\"实际上这些公司中的任何一家在两三年后都可能不存在了，对吧？",
+      "timestamp": "27:42",
+      "speaker": "Oji"
+    },
+    {
+      "en": "So humility is teachability and teachability is survivability, if you are thinking about careers.",
+      "zh": "所以谦卑就是可教性，如果你考虑职业生涯的话，可教性就是生存能力。",
+      "timestamp": "28:18",
+      "speaker": "Oji"
+    },
+    {
+      "en": "I think that in the next few years a lot of high agency people or just PMs will essentially be writing the software that automates their lives. And so, the one man SaaS is going to go away because there'll be a hundred million developers because people who really care will automate their lives.",
+      "zh": "我认为在未来几年里，很多具有高主观能动性的人或者只是PM本质上将编写自动化他们生活的软件。所以，一人SaaS将会消失，因为将有一亿开发者，因为那些真正在意的人将自动化他们的生活。",
+      "timestamp": "35:47",
+      "speaker": "Oji"
+    },
+    {
+      "en": "AI at the core means fundamentally looking at the problem space and the workflows and using AI to solve the problem, not just sprinkling it at the intersections of GUIs or user interfaces that are out there or using it to just accelerate things.",
+      "zh": "AI在核心意味着从根本上审视问题空间和工作流，并使用AI来解决问题，而不仅仅是在GUI或用户界面的交叉点上撒一点，或者仅仅用它来加速事情。",
+      "timestamp": "41:05",
+      "speaker": "Ezinne Udezue"
+    },
+    {
+      "en": "The reality is, and my experience has shown that, you're better off picking an opinion, shipping it out there, being wrong, and then adjusting than leaving too many options because you then can never learn what was the better experience overall.",
+      "zh": "现实是，我的经验也表明了这一点，你最好选择一个观点，把它发布出去，做错了，然后再调整，而不是留下太多的选项，因为那样你就永远无法学到整体上什么是更好的体验。",
+      "timestamp": "51:03",
+      "speaker": "Ezinne Udezue"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:06",
+      "speaker": "Ezinne Udezue",
+      "en": "It really is de-risking the product delivery process while also really trying to maximize the value the business gets from these investments.",
+      "zh": "它实际上是在降低产品交付过程风险的同时，也真正试图最大化企业从这些投资中获得的收益。"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "Oji",
+      "en": "For the last 20 years, we've had very fixed ratios in terms of how work gets done. PM takes this amount of time, developers takes this amount of time, go-to-market takes this amount of time. And I think that contract is basically exploding because the build process, the closed solutionary process, the build process is accelerating so fast.",
+      "zh": "在过去20年里，我们就工作如何完成有着非常固定的比例。PM花费这么多时间，开发人员花费这么多时间，上市花费这么多时间。我认为这种契约基本上正在爆炸，因为构建过程，封闭的求解过程，构建过程正在加速得如此之快。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Oji",
+      "en": "One of the things I learned from failing a lot at building companies is that sometimes the way that YCO, the people pitch it, is that you build something and if it doesn't work, you pivot, da-da-da, stuff like that. But it turns out that in the world of high technology and the world of figuring out what customers need, there are many shortcuts that mean that pivoting isn't just a habit, something you walk around drunkenly doing, right?",
+      "zh": "我从在创业公司失败中学到的一件事是，有时YCO，人们推销它的方式是，你建立一些东西，如果它不起作用，你就转型，等等等等，诸如此类。但事实证明，在高技术领域和弄清楚客户需求的世界里，有很多捷径意味着转型不仅仅是一种习惯，不是你醉酒时做的事情，对吧？"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Oji",
+      "en": "What is still difficult to the point that if you improve it three to five times, maybe 10X, or you take cost out of it, like 10X costs, one 10th, they'll be like, \"This is so compelling, you should take my money now.\"",
+      "zh": "什么仍然困难到如果你改进它三到五倍，也许10倍，或者你从中拿走成本，比如10倍成本，十分之一，他们会说，\"这太令人信服了，你现在应该拿走我的钱。\""
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Oji",
+      "en": "A shipyard is to evoke controlled chaos. If you go to a shipyard at peak, Long Beach or whatever it is, there's so much going on and big heavy machinery moving around, trucks and containers from China, from Malaysia jumping around. But this chaos underline it is careful communication, high skill.",
+      "zh": "船坞是为了唤起受控的混乱。如果你在高峰期去船坞，长滩或其他什么，那里有太多事情发生，大型重型机械在移动，来自中国，来自马来西亚的卡车和集装箱在到处跳。但这种混乱底层是仔细的沟通，高超的技能。"
+    },
+    {
+      "timestamp": "14:52",
+      "speaker": "Oji",
+      "en": "Before I shipped anything Calendly, I did the design review with a support manager, right? A support manager had to be in the room because the design people and engineering people as much as we cared, we would ship problems all the time, future debt.",
+      "zh": "在我发布任何Calendly之前，我和支持经理做了设计审查，对吧？一位支持经理必须在场，因为设计人员和工程人员，尽管我们很在乎，我们总是会发布问题，未来的债务。"
+    },
+    {
+      "timestamp": "18:01",
+      "speaker": "Ezinne Udezue",
+      "en": "It is, \"Is this person humble and curious enough to admit they don't know and are willing to start as a learner? Do they truly have a growth mindset where they are okay being taught by someone else no matter how senior they have become?\"",
+      "zh": "它是，\"这个人是否足够谦虚和好奇，能够承认他们不知道并愿意以学习者的身份开始？他们是否真正拥有成长型思维，能够接受别人的教导，无论他们变得多么资深？\""
+    },
+    {
+      "timestamp": "19:05",
+      "speaker": "Ezinne Udezue",
+      "en": "But I think ownership is seeing that you can run, but I think agency assumes that you control... You're more of a thermostat than a thermometer and that means that hey, the thermometer is always measuring the temperature of the room while a thermostat will change the temperature of the room.",
+      "zh": "但我认为主人翁感是看到你可以奔跑，但我认为主观能动性假设你控制……你更像是一个恒温器而不是温度计，这意味着嘿，温度计总是在测量房间的温度，而恒温器会改变房间的温度。"
+    },
+    {
+      "timestamp": "27:49",
+      "speaker": "Oji",
+      "en": "I think the shorthand I have for humility is humility is teachability. And when do you need teachability? You need teachability when everything has changed, where there is no blueprint and whatever you think is a blueprint of AI in the last few years, whether, \"Oh wow, Lovable is so successful. Replit is so successful.\" It's actually quite possible that any one of those companies won't be around in two, three years, right?",
+      "zh": "我对谦卑的简略说法是，谦卑就是可教性。什么时候你需要可教性？当一切都改变了，没有蓝图时，你需要可教性，无论你在过去几年认为什么是AI的蓝图，无论是，\"噢哇，Lovable太成功了。Replit太成功了。\"实际上这些公司中的任何一家在两三年后都可能不存在了，对吧？"
+    },
+    {
+      "timestamp": "27:49",
+      "speaker": "Oji",
+      "en": "So humility is teachability and teachability is survivability, if you are thinking about careers.",
+      "zh": "所以谦卑就是可教性，如果你考虑职业生涯的话，可教性就是生存能力。"
+    },
+    {
+      "timestamp": "35:47",
+      "speaker": "Oji",
+      "en": "I think that in the next few years a lot of high agency people or just PMs will essentially be writing the software that automates their lives. And so, the one man SaaS is going to go away because there'll be a hundred million developers because people who really care will automate their lives.",
+      "zh": "我认为在未来几年里，很多具有高主观能动性的人或者只是PM本质上将编写自动化他们生活的软件。所以，一人SaaS将会消失，因为将有一亿开发者，因为那些真正在意的人将自动化他们的生活。"
+    },
+    {
+      "timestamp": "41:05",
+      "speaker": "Ezinne Udezue",
+      "en": "AI at the core means fundamentally looking at the problem space and the workflows and using AI to solve the problem, not just sprinkling it at the intersections of GUIs or user interfaces that are out there or using it to just accelerate things.",
+      "zh": "AI在核心意味着从根本上审视问题空间和工作流，并使用AI来解决问题，而不仅仅是在GUI或用户界面的交叉点上撒一点，或者仅仅用它来加速事情。"
+    },
+    {
+      "timestamp": "49:19",
+      "speaker": "Ezinne Udezue",
+      "en": "One of the reasons people create complicated solutions is because they're afraid to take a stab, to put their point of view out there, right? They're not opinionated. They're not opinionated enough. And that often comes from not having high conviction because you're not sure that you've spent the time with the customer.",
+      "zh": "人们创建复杂解决方案的原因之一是因为他们不敢尝试，不敢把他们的观点表达出来，对吧？他们没有观点。他们的观点不够鲜明。这通常是因为没有强烈信念，因为你不确定你在客户身上花了足够的时间。"
+    },
+    {
+      "timestamp": "51:03",
+      "speaker": "Ezinne Udezue",
+      "en": "The reality is, and my experience has shown that, you're better off picking an opinion, shipping it out there, being wrong, and then adjusting than leaving too many options because you then can never learn what was the better experience overall.",
+      "zh": "现实是，我的经验也表明了这一点，你最好选择一个观点，把它发布出去，做错了，然后再调整，而不是留下太多的选项，因为那样你就永远无法学到整体上什么是更好的体验。"
+    },
+    {
+      "timestamp": "52:05",
+      "speaker": "Ezinne Udezue",
+      "en": "I don't remember what movie it was, I think it was the movie about sending someone to the moon, right? The idea that everybody in NASA knew that we were working to send a man to the moon, even the janitor knew that.",
+      "zh": "我不记得那是部电影了，我想是那部关于把人送上月球的电影，对吧？这个想法是，NASA的每个人都知道我们要致力于把一个人送上月球，甚至连看门人都知道。"
+    },
+    {
+      "timestamp": "58:37",
+      "speaker": "Ezinne Udezue",
+      "en": "It's actually trying to figure out how to best walk in their shoes and whatever it takes, you've got to figure out how to do that because it's not what they say they do. It's not what they say they want. That's not the true intimacy you want with a customer.",
+      "zh": "它实际上是试图弄清楚如何最好地设身处地，无论需要什么，你必须弄清楚如何做到这一点，因为这不是他们所说的他们做的事情。这不是他们所说的他们想要的东西。这不是你想要与客户建立的真正的亲密关系。"
+    }
+  ]
+}

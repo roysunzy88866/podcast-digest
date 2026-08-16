@@ -1,37 +1,233 @@
 ---
-title: 前沿实验室 (frontier labs)
+title: AI 在边缘 (AI at the edge)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>前沿实验室 (frontier labs)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 在边缘 (AI at the edge)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="前沿实验室">前沿</div><div class="pi"><h1 class="pt">前沿实验室 (frontier labs)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 在边缘">AI</div><div class="pi"><h1 class="pt">AI 在边缘 (AI at the edge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>99</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(00:46起):本集指持续研发最尖端 AI 模型的头部公司（如 OpenAI、Anthropic）。嘉宾探讨其真正的护城河是底层智能还是工具套件，并认为随着开源逼近，它们将面临严重的定价和营收压力。
+- **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(40:42起):本集说 AI 在边缘是你仍然像以前一样使用软件，原来的代码还在，只是在不同交叉点插入 LLM 或 AI，通常不是能彻底改变行业的做法
 
 ## ① 提到它的金句
 
-*1 条*
+*99 条*
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q1]]
+![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q6]]
+
+![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q9]]
+
+![[2025-09-21-lennys-from-managing-people-to-managing-ai-juli#^q2]]
+
+![[2025-10-05-lennys-how-to-find-hidden-growth-opportunities#^q2]]
+
+![[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year#^q1]]
+
+![[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native#^q7]]
+
+![[2025-11-02-lennys-the-making-of-canva#^q5]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q10]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q11]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q1]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q7]]
+
+![[2026-01-25-lennys-why-your-product-stopped-growing#^q4]]
+
+![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
+
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q1]]
+
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q2]]
+
+![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q4]]
+
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q2]]
+
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q6]]
+
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q1]]
+
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q4]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q3]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q5]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q6]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
+
+![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
+
+![[2026-06-24-pg-company-os-jz#^q2]]
+
+![[2026-06-24-pg-company-os-jz#^q6]]
+
+![[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#^q3]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q5]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q7]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q8]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q2]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q4]]
+
+![[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her#^q4]]
+
+![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q3]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q9]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q10]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q13]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q3]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q7]]
+
+![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q3]]
+
+![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q13]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q1]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q7]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q8]]
+
+![[2026-07-24-talks-inside-the-agent-engine-a-langchain-and#^q6]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q2]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q3]]
+
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q1]]
+
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q2]]
+
+![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q5]]
+
+![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q9]]
+
+![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q10]]
+
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q1]]
+
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q5]]
+
+![[2026-07-28-pg-how-to-build-your-first-eval#^q2]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q12]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q13]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q15]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q1]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q3]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q5]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q6]]
+
+![[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#^q6]]
+
+![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
+
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
+
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q1]]
+
+![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q3]]
+
+![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q4]]
+
+![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
+
+![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q2]]
+
+![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q3]]
+
+![[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is#^q1]]
+
+![[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou#^q8]]
+
+![[2026-08-07-talks-the-new-primitives-building-ai-native-so#^q1]]
+
+![[2026-08-07-talks-the-new-primitives-building-ai-native-so#^q3]]
+
+![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q2]]
+
+![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q5]]
+
+![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q6]]
+
+![[2026-08-09-talks-always-on-agents-run-production-without#^q1]]
+
+![[2026-08-09-talks-always-on-agents-run-production-without#^q2]]
+
+![[2026-08-09-talks-velocity-sickness-what-happens-when-your#^q1]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q1]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q2]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q3]]
+
+![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q4]]
+
+![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q5]]
+
+![[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir#^q2]]
+
+![[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#^q3]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为概念
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Theo Jaffe]] · [[Sriram Krishnan]] · [[Sofia Puccini]] · [[开源权重]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]]
+[[Lenny]] · [[Ezinne Udezue]] · [[Oji]] · [[智能体]] · [[LLM]] · [[评估]] · [[主观能动性]] · [[护栏]] · [[推理]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sriram Krishnan":1,"Sofia Puccini":2,"开源权重":3,"蒸馏":6,"智能体":82,"Kimi K3":1,"Hugging Face":7,"Anthropic":45,"OpenAI":36}</script>
+<script type="application/json" class="pd-epn">{"Lenny":47,"Ezinne Udezue":1,"Oji":1,"智能体":84,"LLM":10,"评估":12,"主观能动性":10,"护栏":14,"推理":1,"微调":2}</script>
 
 <script>
 (function(){
@@ -252,7 +448,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

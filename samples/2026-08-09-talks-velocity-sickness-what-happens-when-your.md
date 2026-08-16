@@ -129,8 +129,8 @@ AI 让个别工程师写得飞快，但很多团队的整体产出却陷入了�
 **顺着「产品方法」挖下去**
 
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

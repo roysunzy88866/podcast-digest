@@ -5,12 +5,13 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:13起):本集说 Google 搜索副总裁表示发给发布商的流量没有下降，反而微升；Google 专门配置搜索算法来排名 Reddit、Twitter 和 Quora，因为想要用户生成内容
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:00起):本集说 Google 的核心搜索并没有被取代，人们仍然来搜电话号码、价格、路线；AI 对 Google 搜索来说是扩张性的，带来了更多新的提问和好奇心
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:01起):本集在介绍嘉宾履历及讨论 AI 早期进展时提及,说她曾是首席 AI 科学家,并曾在那里与 Jeff Dean、Geoff Hinton 等人共事。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(48:26起):本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。
@@ -30,14 +31,23 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*1 条*
+*5 条*
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q2]]
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q3]]
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q7]]
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q8]]
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q1]]
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -59,9 +69,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[AGI]] · [[NVIDIA]] · [[Apple]] · [[Microsoft]] · [[Amazon]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[AGI]] · [[NVIDIA]] · [[Apple]] · [[ChatGPT]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":36,"Anthropic":45,"智能体":82,"Lenny":44,"Meta":13,"AGI":10,"NVIDIA":16,"Apple":10,"Microsoft":10,"Amazon":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":36,"Anthropic":46,"智能体":84,"Lenny":47,"Meta":14,"AGI":10,"NVIDIA":16,"Apple":10,"ChatGPT":17,"Microsoft":10}</script>
 
 <script>
 (function(){
@@ -282,7 +292,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

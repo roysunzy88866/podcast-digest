@@ -5,12 +5,14 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(20:07起):本集把 LLM 描述为解决问题的核心能力，区分了在旧代码上插入 LLM 的'AI 在边缘'和以 LLM 为核心重新构建的'AI 在核心'两种策略
+- **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:15起):本集说 LLM 在总结多条引用时，被提及次数最多的产品会被推荐，而不是链接排第一就赢；Webflow 的 LLM 流量转化率是 Google 搜索流量的 6 倍
 - **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(50:39起):本集说 LLM 在 Chess.com 复盘功能中的角色是把引擎评估结果翻译成用户能懂的语言和风格（个性、语音反馈），但 LLM 自己下棋很烂，会产生棋步幻觉，看棋盘图像甚至会画错方格数量。
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:58起):本集提到它们在夜间和周末往往处于闲置状态,应该被推向连续数小时乃至整夜的高自主性运行,去完成人类睡觉前描述好的多个实验方向。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(30:52起):本集在谈及用 AI 总结退订理由时提及，大语言模型本质上是一台预测最可能性的「平均机器」，它擅长提炼通用主题，却很难找出真正能触发产品改进的、那些不平均的具体痛点细节
@@ -22,7 +24,11 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*7 条*
+*9 条*
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
+
+![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q2]]
 
 ![[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#^q3]]
 
@@ -40,8 +46,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*10 集*
 
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
@@ -55,9 +63,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Duolingo]] · [[开源模型]] · [[Google]] · [[Stripe]] · [[Claude]] · [[OpenAI]] · [[Albert Cheng]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[开源模型]] · [[Google]] · [[Claude]] · [[主观能动性]] · [[SEO]] · [[Duolingo]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":82,"Anthropic":45,"Lenny":44,"Duolingo":2,"开源模型":5,"Google":16,"Stripe":12,"Claude":12,"OpenAI":36,"Albert Cheng":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":47,"智能体":84,"Anthropic":46,"开源模型":6,"Google":17,"Claude":14,"主观能动性":10,"SEO":2,"Duolingo":2,"Stripe":12}</script>
 
 <script>
 (function(){
@@ -278,7 +286,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

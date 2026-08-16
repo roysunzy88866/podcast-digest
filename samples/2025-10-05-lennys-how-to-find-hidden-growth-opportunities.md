@@ -184,18 +184,18 @@ Albert 反复看到，表现最好的人不一定是那个领域经验最深的�
 
 **顺着「增长与销售」挖下去**
 
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同嘉宾:Lenny · 同概念:LLM</span>
 - [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Duolingo</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)、LLM</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同概念:LLM</span>
 
 </div>
 </div>

@@ -147,6 +147,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 **顺着「增长与销售」挖下去**
 
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:LLM、SEO</span>
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|增长不是指标黑客，是连接用户与价值]]<span class="pd-rz">同公司:Duolingo</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:NRR</span>
 
@@ -157,7 +158,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:SaaS</span>
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:LLM</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM</span>
 
 </div>
 </div>

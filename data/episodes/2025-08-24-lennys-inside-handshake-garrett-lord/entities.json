@@ -1,0 +1,1420 @@
+{
+  "episode_id": "2025-08-24-lennys-inside-handshake-garrett-lord",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-08-24",
+  "tags": [
+    "数据标注",
+    "后训练",
+    "AI 基础设施",
+    "专家网络",
+    "内部创业"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "garrett-lord",
+      "type": "person",
+      "role": "host",
+      "name": "Garrett Lord",
+      "file": "Garrett Lord",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            65.84,
+            67.441
+          ],
+          "quote": "Today my guest is Garrett Lord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 35,
+          "t": [
+            178.217,
+            180.68
+          ],
+          "quote": "With that, I bring you Garrett Lord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 692,
+          "t": [
+            4014.283,
+            4029.71
+          ],
+          "quote": "So, the Princeton campus security did not appreciate me showering as a non-student, but I think it meaningfully helped us because the Princeton campus security called the career service center director we were selling to, being like, \"Who's Garrett Lord?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            175.135,
+            177.677
+          ],
+          "quote": "Check it out at lenny'snewsletter.com and click bundle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 43,
+          "t": [
+            230.477,
+            236.399
+          ],
+          "quote": "Get CodeRabbit for free for an entire year at coderabbit.ai using code Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            293.577,
+            296.918
+          ],
+          "quote": "Learn more and start building at orkes.io/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            297.178,
+            298.698
+          ],
+          "quote": "That's O-R-K-E-S.io/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1973.06,
+            1983.236
+          ],
+          "quote": "If you want to try it out, get started at Claude.ai/Lenny, and using this link you get an incredible 50% off your first three months of the pro plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1983.797,
+            1984.918
+          ],
+          "quote": "That's Claude.ai/Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "handshake",
+      "type": "company",
+      "role": "company",
+      "name": "Handshake",
+      "file": "Handshake",
+      "primary": true,
+      "how_described": "本集说 Handshake 是做了十年的大学生招聘平台，覆盖美国 92% 的前 500 所学校、拥有 1800 万用户和 50 万博士，今年在此基础上从零孵化了数据标注新业务，四个月跑到 5000 万 ARR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            67.661,
+            75.824
+          ],
+          "quote": "Garrett is the co-founder and CEO of Handshake, which is one of the most interesting and incredible AI success stories that you probably haven't heard of.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            76.244,
+            83.566
+          ],
+          "quote": "Handshake has been around for over 10 years, they're essentially LinkedIn for college students, it's a place for students to connect with companies to find a job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1487.122,
+            1502.746
+          ],
+          "quote": "I very much believe that this is going to improve and accelerate every human's ability to create an impact in the economy in the world, and that we're hearing from, there's like a million companies that use Handshake.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1502.766,
+            1514.19
+          ],
+          "quote": "100% of the Fortune 500 uses Handshake, so we basically power the vast majority of how young people find jobs, and a lot of people are hyperbolic at saying that all young people won't have jobs, and that's not what we're hearing from our employers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1575.816,
+            1583.78
+          ],
+          "quote": "People will become displaced, they'll have to upscale and rescale, and I think Handshake has a huge role to play in helping knowledge workers evolve.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1877.448,
+            1896.635
+          ],
+          "quote": "The huge advantage that we've had and why we've resonated so fast in the marketplace is we built a decade of trust with 18 million people, and they trust us, and we built a ton of brand affinity, and they use Handshake, and they have an active profile, and we have a ton of information around their academic performance and what they've done in school.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2049.17,
+            2053.972
+          ],
+          "quote": "We have more PhDs, 500,000 of them use Handshake than any other platform.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2228.673,
+            2234.738
+          ],
+          "quote": "Just to zoom out one second, for people that don't know a ton about Handshake, the original business, what was that?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2256.406,
+            2263.769
+          ],
+          "quote": "If you're a young person in America that's graduated in the last five, six, seven, eight years, you probably have Handshake on your phone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2263.829,
+            2266.07
+          ],
+          "quote": "You definitely know what Handshake is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2293.2,
+            2299.824
+          ],
+          "quote": "Whereas on Handshake, you start off trying to discover, and explore, and figure out how to navigate through school and figure out, \"Oh, I'm an engineer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2307.848,
+            2326.719
+          ],
+          "quote": "And so, Handshake's this I call a very social platform with groups, and messaging, and profiles, and short-form video and feed, all focused on your interests and helping really build your confidence in your early career to find your first job, your second job, and to manage 18 to 30, I would say.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2665.915,
+            2680.94
+          ],
+          "quote": "And then, if you treat them really well, because what they expect from us, they know Handshake, their school buys Handshake, we care about treating these people well but the universities would not tolerate our partnership with these fellows unless we treated them well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2937.963,
+            2946.987
+          ],
+          "quote": "The story of Handshake was we had to sign up 1,600 universities, so I had to learn how to be the best ... We are the fastest growing higher education company in history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2996.387,
+            3004.911
+          ],
+          "quote": "And so, one of my learnings in spinning up these three different businesses in starting Handshake was I was pretty hands-on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3137.853,
+            3146.095
+          ],
+          "quote": "When I built Handshake, we resisted this operating cadence for a long time, this weekly, monthly, quarterly operating cadence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3146.715,
+            3152.797
+          ],
+          "quote": "With Handshake AI, we've been way more focused on operating with data, and metrics, and rigor from an early stage.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3241.524,
+            3244.805
+          ],
+          "quote": "People only had one job and one job only, and that was making Handshake AI successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3253.208,
+            3265.393
+          ],
+          "quote": "But our executives that have built Handshake for a long time ran the core business, and I focused 80 plus percent of my time and attention on just this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3321.771,
+            3323.392
+          ],
+          "quote": "Will you join us in Handshake AI?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3466.681,
+            3478.464
+          ],
+          "quote": "Yes, Handshake should be a ... Business does billions dollars revenue as a public company, we should be able to continue to ... I mean, and it also helps our core business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3558.931,
+            3570.895
+          ],
+          "quote": "I worked at Palantir as an intern, it totally changed my life, and I started Handshake because I wanted to make it easier for anyone regardless of who you knew, what your parents did, what school you went to, to find a great opportunity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3803.368,
+            3815.335
+          ],
+          "quote": "I'm just really passionate about trying to make Handshake a platform that is not only an incredible business, but is also something that really helps solve a societal problem that matters.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3952.021,
+            3969.737
+          ],
+          "quote": "So the last question, I was researching you in prep for this podcast and there's a story that I love about your hustle early on is when you were going from campus to campus pitching schools to join Handshake, and there's a story where you had to shower in the Princeton's pool to save money because you just didn't have a place to stay.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 700,
+          "t": [
+            4068.529,
+            4071.55
+          ],
+          "quote": "If I was an investor in Handshake, I'd be like, \"All right, 10 years, it's going great.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 708,
+          "t": [
+            4092.34,
+            4093.34
+          ],
+          "quote": "I mean, sign up for Handshake.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4097.182,
+            4100.123
+          ],
+          "quote": "Just find me at garrettlord@Handshake, and you find me on Twitter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 718,
+          "t": [
+            4133.095,
+            4145.74
+          ],
+          "quote": "So, if you're talented and interested in learning more about Handshake, if you want to work on our consumer product, if you want to work on our employer products, cool PLG issues or the state-of-the-art consumer social experience, like reach out, or you want to work on the AI business we'd love to talk to you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说后训练是在预训练收益见顶后，实验室增强和改进模型数据的主战场，包括 SFT、RLHF、轨迹数据、rubric 评估等形式，目前模型的大部分收益都来自后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            363.583,
+            377.408
+          ],
+          "quote": "There's a pre-training and a post-training process in training a model, and for a long time these AI providers, or LLMs, or Frontier Labs we're focused on basically sucking up more and more information on the pre-training side of the house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 78,
+          "t": [
+            405.138,
+            409.82
+          ],
+          "quote": "And so, labs really shifted towards most of the gains now coming from the post-training side of the house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            410.2,
+            420.143
+          ],
+          "quote": "And what post-training is, is it's augmenting and improving the data they have across every discipline or capability area that they care about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 89,
+          "t": [
+            486.668,
+            493.294
+          ],
+          "quote": "And most of the gains that are happening from models right now are coming from the post-training side of the house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            511.931,
+            515.695
+          ],
+          "quote": "Post-training, is it correct to say there's essentially two buckets of things to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 148,
+          "t": [
+            890.619,
+            893
+          ],
+          "quote": "Som we have our own research team, our own post-training team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            893.101,
+            896.98
+          ],
+          "quote": "I hired a gentleman from Meta that went along on the post-training over there, and I-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1306.91,
+            1320.659
+          ],
+          "quote": "We have our own post-training teams, we're renting our own GPUs, and we're trying to make sure that we can sit directly with these researchers and help share what we're seeing with the data that we're creating and how it could improve their model, how they could best train with it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1323,
+            1323
+          ],
+          "quote": "Going back to the types of post-training, just because I think this might be helpful, at least for me the mental model of there's pre-training, there's post-training, within post-training there's reinforcement learning, human feedback, there's this concept of fine-tuning. There's also evals and stuff like-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2594.165,
+            2602.649
+          ],
+          "quote": "We run our own post-training on it, and then we produce a bunch of specifications of the data, and we actually sell that individual package of data to many different labs.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "data-labeling",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据标注 (data labeling)",
+      "file": "数据标注",
+      "primary": true,
+      "how_described": "本集说数据标注已从通才画框转向专家攻破模型错误，博士级专家找出模型推理步骤出错的地方并写出正确分步过程，产出结构化 JSON 数据用于后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            311.041,
+            325.687
+          ],
+          "quote": "Okay, so before we get into the insane trajectory that your data labeling business is on, which is just an amazing story that I think a lot of founders and product teams that are trying to navigate this AI disruption that's happening will have a lot to learn from.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 60,
+          "t": [
+            325.707,
+            330.409
+          ],
+          "quote": "I want to first help people understand what the hell data labeling actually is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 67,
+          "t": [
+            346.936,
+            349.498
+          ],
+          "quote": "So let me just ask you this, what is data labeling actually?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2443.14,
+            2451.426
+          ],
+          "quote": "There's actually two threads here I want to follow, I'm going to follow the second one first, this idea of where this data labeling work can come from.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在广告口播中提到 Orkes Conductor 是为智能体工作流提供支持的业务流程编排平台，能连接人员、AI 智能体、API 和微服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            260.127,
+            270.01
+          ],
+          "quote": "With Orkes Conductor, you gain an agentic orchestration layer that seamlessly connects humans, AI agents, APIs, microservices, and data pipelines in real time at enterprise scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            278.432,
+            285.594
+          ],
+          "quote": "It's not just about automating tasks, it's orchestrating autonomous agents and complex workflows to deliver smarter outcomes faster.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "本集说预训练是摄取互联网上所有书面人类知识的过程，但大约 18 到 24 个月前收益开始渐近见顶，因为能灌的数据基本都灌完了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            363.583,
+            377.408
+          ],
+          "quote": "There's a pre-training and a post-training process in training a model, and for a long time these AI providers, or LLMs, or Frontier Labs we're focused on basically sucking up more and more information on the pre-training side of the house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 75,
+          "t": [
+            381.41,
+            390.513
+          ],
+          "quote": "So, that's not just written, but every YouTube video, every book, basically the pursuit of sucking up everything that was on the internet, and that was the pre-training side.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            390.813,
+            394.174
+          ],
+          "quote": "And there was a lot of gains from pre-training, like models continue to get better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 91,
+          "t": [
+            500.42,
+            503.603
+          ],
+          "quote": "So training, pre-training is feeding it, say the entire internet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1323,
+            1323
+          ],
+          "quote": "Going back to the types of post-training, just because I think this might be helpful, at least for me the mental model of there's pre-training, there's post-training, within post-training there's reinforcement learning, human feedback, there's this concept of fine-tuning. There's also evals and stuff like-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "trajectory",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨迹数据 (trajectory)",
+      "file": "轨迹数据",
+      "primary": true,
+      "how_described": "本集说轨迹是整个环境在收集你正在做的事情，包括屏幕、鼠标移动、口述思考的旁白，用于理解人类如何一步步使用工具解决问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            311.041,
+            325.687
+          ],
+          "quote": "Okay, so before we get into the insane trajectory that your data labeling business is on, which is just an amazing story that I think a lot of founders and product teams that are trying to navigate this AI disruption that's happening will have a lot to learn from.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            521.34,
+            538.606
+          ],
+          "quote": "I mean, yes and no because take for example trajectories, or you want to be able to do, people use flight search or an accounting end-to-end process, or you want to be able to conduct biological experiments, you need actual trajectory data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 155,
+          "t": [
+            920.052,
+            932.48
+          ],
+          "quote": "And then, we're also focused on evolving the use cases to also follow what the model builders want, which is they want more more real world tool use and trajectory based data as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1070.321,
+            1071.585
+          ],
+          "quote": "You mentioned this term trajectory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1076.682,
+            1080.632
+          ],
+          "quote": "A trajectory is basically just like the entire environment that is collecting what you're doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1428.651,
+            1457
+          ],
+          "quote": "So, right now people are very focused on academic domains, and I think they'll continue to be focused on academic domains, but there will also be far, far more demand for professional domains as well across basically every trajectory or step-by-step problem that a knowledge worker solves in the workplace, it's the pursuit of these labs to make sure that they're trying to collect the data to help add as much value in that process for humans as possible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3674.03,
+            3681.033
+          ],
+          "quote": "So, I love this trajectory and stitching together step-by-step instruction following.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sft",
+      "type": "concept",
+      "role": "concept",
+      "name": "SFT",
+      "file": "SFT",
+      "primary": true,
+      "how_described": "本集说 SFT 是提供提示词和正确回答的对，用来改进模型能力，是后训练的重要形式之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            552.831,
+            559.573
+          ],
+          "quote": "SFT data is a prompt and a response, and obviously the labs are very focused on these thinking or reasoning models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1323,
+            1323.541
+          ],
+          "quote": "There's SFT, yeah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1339.705,
+            1341.799
+          ],
+          "quote": "SFT, which is supervised fine-tuning?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning-with-human-feedback",
+      "type": "concept",
+      "role": "concept",
+      "name": "带人类反馈的强化学习 (reinforcement learning with human feedback)",
+      "file": "带人类反馈的强化学习",
+      "primary": true,
+      "how_described": "本集说 RLHF 是让人来判断回答 A 和回答 B 哪个更好的偏好排序数据，属于后训练的范畴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            478.881,
+            483.025
+          ],
+          "quote": "It can also be reinforcement learning with human feedback, which is like preference ranking data.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "rubrics",
+      "type": "concept",
+      "role": "concept",
+      "name": "评分标准 (rubrics)",
+      "file": "评分标准",
+      "primary": true,
+      "how_described": "本集说 rubric 是在一些没有标准答案的领域（如教育设计、MRI 结果），构建评分标准让模型当裁判来自动评估回答质量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1119.846,
+            1128.969
+          ],
+          "quote": "And you also have the thing called, which we haven't talked about here, a rubrics, and rubric models are, you can put a model in as a judge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1166.32,
+            1167.76
+          ],
+          "quote": "We're seeing a lot of rubrics work as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1353.349,
+            1357.257
+          ],
+          "quote": "We don't do the auto eval, we produce rubrics which are used auto evals.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集说合成数据在可验证领域（如数学）有角色，但从实验室听到的共识是合成数据不会占据主导地位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 610,
+          "t": [
+            3720.949,
+            3734.275
+          ],
+          "quote": "I think synthetic data has a role to play and in verifiable domains, but what we consistently hear from companies it's like synthetic data is not going to dominate.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Frontier Labs",
+      "file": "Frontier Labs",
+      "primary": false,
+      "how_described": "本集用 Frontier Labs 指代处于 AI 能力最前沿的实验室，Handshake 正在与其中七家合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            363.583,
+            377.408
+          ],
+          "quote": "There's a pre-training and a post-training process in training a model, and for a long time these AI providers, or LLMs, or Frontier Labs we're focused on basically sucking up more and more information on the pre-training side of the house.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1706.14,
+            1733.85
+          ],
+          "quote": "Generally speaking, anytime that you're interacting with a model and you're asking it to do really advanced things, and it's not performing your expectations, like somewhere there's probably an expert that is the top mind in that domain working directly for the best researchers in the world at the Frontier Labs trying to understand and go through the scientific iteration process of how to make that better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2090.844,
+            2108.789
+          ],
+          "quote": "So, we started to think the company was making tens of millions of dollars from helping these other platforms, and we started to realize what really kicked it off was hearing also from the Frontier Labs, they started to reach out to us and started to go direct and trying to almost cut out the middleman.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2167.09,
+            2188
+          ],
+          "quote": "Fast-forward to today, we're working with seven of the Frontier Labs, basically every lab that's doing work and building the best large language models, and the team has exploded and revenue's exploded, and it's been really a incredible ride running back new company inside of a company for the second time over again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2207.353,
+            2209
+          ],
+          "quote": "And I didn't even know there were seven Frontier Labs, that's-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2777.544,
+            2785.869
+          ],
+          "quote": "We started to see direct outreach from the Frontier Labs reaching out to us, trying to cut out the middleman in their pursuit of getting higher-quality data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2859.08,
+            2870.664
+          ],
+          "quote": "[inaudible 00:47:39] different answers working with the number one lab, and have just now we're working with Devin on the Frontier Labs and the number one thing we're trying to do is just focus on scaling up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2899.974,
+            2913.218
+          ],
+          "quote": "And so on our side, it's like we're really focused on making sure that we pick the right longer term strategy, making sure that we don't grow too fast as to erode the trust that we've built up with these Frontier labs.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "type": "company",
+      "role": "company",
+      "name": "Scale",
+      "file": "Scale",
+      "primary": false,
+      "how_described": "本集提到 Scale 被以约 300 亿美元收购，过去是标注领域的主要公司，但竞争对手可能不希望自己的最新研究被同行投资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            260.127,
+            270.01
+          ],
+          "quote": "With Orkes Conductor, you gain an agentic orchestration layer that seamlessly connects humans, AI agents, APIs, microservices, and data pipelines in real time at enterprise scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1258.845,
+            1267.029
+          ],
+          "quote": "And so, our ability to get to scale or volumes of data, to produce very high quality data, is something they care deeply about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1694.172,
+            1701.096
+          ],
+          "quote": "Like I said, some of the fastest growing companies in the world are in the space, Scale was just acquired for 30, sort of acquired for $30 billion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1776.847,
+            1785.315
+          ],
+          "quote": "Just one quick question on this whole scale thing, I guess they were, I don't know, the main company doing this, now they're swallowed up and Alex is running superintelligence in Meta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1790.26,
+            1797.762
+          ],
+          "quote": "I mean, kudos to the whole Scale team, a lot of respect for what they built, just many great companies operating the space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1896.735,
+            1903.538
+          ],
+          "quote": "And so, we're able to really target people really effectively, and get to scale and volume of high quality data faster than anyone else.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2403.625,
+            2417.991
+          ],
+          "quote": "The way that you build zero to one, and find product market fit, and scale a team very quickly and is very different than the way that you run a more mature business that has been around for 10 years with hundreds, and hundreds, and hundreds of people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2457.671,
+            2463.976
+          ],
+          "quote": "Another one that I know a lot of other companies in this space use Scale, I know especially with just like low-cost labor internationally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2725.73,
+            2738.017
+          ],
+          "quote": "And a lot of these companies like Scale, we're optimizing for general work model training data, and you guys are set up to be extremely good at expert based data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3326.733,
+            3341.438
+          ],
+          "quote": "That became really critical with engineering when things started to scale and topple, and we're growing so quickly we took some of our top senior engineers, who were very entrepreneurial, and principal engineers, staff of engineers, parachute them in.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "gpqa",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPQA",
+      "file": "GPQA",
+      "primary": false,
+      "how_described": "本集提到 GPQA 是一篇公开论文，其核心方法是攻破模型、提供正确答案和分步推理步骤，用来修正模型在高级领域的错误",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            802.36,
+            806.362
+          ],
+          "quote": "A great example is a public paper called GPQA.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "asi",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASI",
+      "file": "ASI",
+      "primary": false,
+      "how_described": "本集说在达到完整的 ASI 之前，在数据标注领域将需要人类参与长达十年之久",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1404.504,
+            1420.329
+          ],
+          "quote": "And when you talk to the lead scientists and researchers at these labs, it's like the data types will evolve and what they're trying to capture and collect, but there will be humans needed in the space for the next decade until we reach full ASI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2117.091,
+            2137.597
+          ],
+          "quote": "We just believe there will need to be a platform, an experts first platform in the pursuit of ASI and advancing AI, and there will need to be a place that everyone in the world could go to, to monetize their skills and their knowledge as these labs are focused on improving in all these multidisciplinary.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "alphasights",
+      "type": "company",
+      "role": "company",
+      "name": "AlphaSights",
+      "file": "AlphaSights",
+      "primary": false,
+      "how_described": "本集提到 Garrett 聘请了 AlphaSights 等专家公司，与最新研究人员进行通话以加速学习曲线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            2823.227,
+            2834.251
+          ],
+          "quote": "I hired three expert firms, AlphaSights and GLG, and started doing a bunch of calls with the latest researchers, because we had resources.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "glg",
+      "type": "company",
+      "role": "company",
+      "name": "GLG",
+      "file": "GLG",
+      "primary": false,
+      "how_described": "本集提到 Garrett 聘请了 GLG 等专家公司来做行业调研",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            2823.227,
+            2834.251
+          ],
+          "quote": "I hired three expert firms, AlphaSights and GLG, and started doing a bunch of calls with the latest researchers, because we had resources.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集提到 Garrett 曾在 Palantir 做实习生，这段经历彻底改变了他的生活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 575,
+          "t": [
+            3558.931,
+            3570.895
+          ],
+          "quote": "I worked at Palantir as an intern, it totally changed my life, and I started Handshake because I wanted to make it easier for anyone regardless of who you knew, what your parents did, what school you went to, to find a great opportunity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Garrett 从 Meta 雇佣了一位参与过后训练的人，以及 Alex 正在 Meta 运营 superintelligence",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            893.101,
+            896.98
+          ],
+          "quote": "I hired a gentleman from Meta that went along on the post-training over there, and I-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1776.847,
+            1785.315
+          ],
+          "quote": "Just one quick question on this whole scale thing, I guess they were, I don't know, the main company doing this, now they're swallowed up and Alex is running superintelligence in Meta.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit",
+      "type": "company",
+      "role": "company",
+      "name": "CodeRabbit",
+      "file": "CodeRabbit",
+      "primary": false,
+      "how_described": "本集广告口播中提到 CodeRabbit 是一个 AI 代码审查平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            181.46,
+            190.963
+          ],
+          "quote": "This episode is brought to you by CodeRabbit, the AI code review platform transforming how engineering teams ship faster with AI without sacrificing code quality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 38,
+          "t": [
+            194.405,
+            200.987
+          ],
+          "quote": "CodeRabbit acts as your AI co-pilot, providing instant code review comments and potential impacts of every pull request.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            201.467,
+            213.771
+          ],
+          "quote": "Beyond just flagging issues, CodeRabbit provides one click fix suggestions and lets you define custom code quality rules using AST GREP patterns, catching subtle issues that traditional static analysis tools might miss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            214.152,
+            218.173
+          ],
+          "quote": "CodeRabbit also provides free AI code reviews directly in the IDE.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            221.354,
+            230.117
+          ],
+          "quote": "CodeRabbit has so far reviewed more than 10 million PRs installed on 1 million repositories, and is used by over 70,000 open source projects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 43,
+          "t": [
+            230.477,
+            236.399
+          ],
+          "quote": "Get CodeRabbit for free for an entire year at coderabbit.ai using code Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            236.7,
+            237.46
+          ],
+          "quote": "That's coderabbit.ai.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "orkes",
+      "type": "company",
+      "role": "company",
+      "name": "Orkes",
+      "file": "Orkes",
+      "primary": false,
+      "how_described": "本集广告口播中提到 Orkes 是开源 Conductor 背后的公司，提供智能体编排层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            238.66,
+            247.243
+          ],
+          "quote": "This episode is brought to you by Orkes, the company behind Open Source Conductor, the orchestration platform powering modern enterprise apps and agentic workflows.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            258.786,
+            259.827
+          ],
+          "quote": "Orkes changes this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 48,
+          "t": [
+            260.127,
+            270.01
+          ],
+          "quote": "With Orkes Conductor, you gain an agentic orchestration layer that seamlessly connects humans, AI agents, APIs, microservices, and data pipelines in real time at enterprise scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            285.995,
+            293.157
+          ],
+          "quote": "Whether modernizing legacy systems or scaling next-gen AI-driven apps, Orkes accelerates your journey from idea to production.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            293.577,
+            296.918
+          ],
+          "quote": "Learn more and start building at orkes.io/Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集广告口播中提到 Anthropic 是 Claude 背后的团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1909.02,
+            1913.041
+          ],
+          "quote": "Today's episode is brought to you by Anthropic, the team behind Claude.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集举例说博士的工作就是找出 ChatGPT 产生内容中的缺陷，以及提到语音模式是默认的 ChatGPT 体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            933,
+            933
+          ],
+          "quote": "Okay. There's so much here, and we could go infinitely down here but I think that this is really interesting because just like people hear so much about all of this and they barely understand what the hell it actually is. So, this is for me really interesting. I think it's going to help a lot of people. So essentially a PhD, say a biologist, biology PhD is just their job is find flaws in what, say ChatGPT is producing, and then come up with here's the correct answer. And that is used to fine tune the mode, here's something you are doing incorrectly, here's the correct answer and that improves the model.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3699.829,
+            3702
+          ],
+          "quote": "That's on my default ChatGPT experience, just talking to-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集广告口播中提到 Claude 可以处理复杂多步骤工作，Claude 4 Opus 是世界上最好的编码模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1909.02,
+            1913.041
+          ],
+          "quote": "Today's episode is brought to you by Anthropic, the team behind Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1913.561,
+            1915.922
+          ],
+          "quote": "I use Claude at least 10 times a day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1925.345,
+            1935.708
+          ],
+          "quote": "Just last week I was preparing for an interview with a very fancy guest, and I had Claude tell me what are all the questions that other podcast hosts have asked this guest so that I don't ask them these questions?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1945.471,
+            1948.672
+          ],
+          "quote": "Claude can handle incredibly complex multistep work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1956.595,
+            1970.299
+          ],
+          "quote": "With Claude 4 and the new integrations including Claude 4 Opus, the world's best coding model, you get voice conversations, advanced research capabilities, direct Google Workspace integration, and now MCP connections to your custom tools and data sources.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1970.719,
+            1972.68
+          ],
+          "quote": "Claude just becomes part of your workflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1973.06,
+            1983.236
+          ],
+          "quote": "If you want to try it out, get started at Claude.ai/Lenny, and using this link you get an incredible 50% off your first three months of the pro plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1983.797,
+            1984.918
+          ],
+          "quote": "That's Claude.ai/Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

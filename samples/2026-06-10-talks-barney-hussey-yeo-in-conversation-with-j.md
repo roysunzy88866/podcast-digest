@@ -131,8 +131,8 @@ Barney 坦言，目前的技术确实只能把文本作为核心载体。但只�
 **顺着「智能体」挖下去**
 
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:anthropic · 同概念:LLM、智能体 (agent)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:anthropic · 同概念:智能体 (agent)、Fable、Slack</span>
 
 </div>
 <div class="pd-ex">
@@ -140,8 +140,8 @@ Barney 坦言，目前的技术确实只能把文本作为核心载体。但只�
 **换个口味**
 
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)、LLM</span>
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:LLM、ChatGPT</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同概念:智能体 (agent)、ChatGPT</span>
 
 </div>
 </div>

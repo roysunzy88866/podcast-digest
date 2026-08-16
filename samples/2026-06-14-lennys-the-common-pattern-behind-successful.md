@@ -187,7 +187,7 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Claude · 同概念:产品市场契合度 (product market fit)、微管理 (micromanagement)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

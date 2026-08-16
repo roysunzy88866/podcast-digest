@@ -117,9 +117,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT、Google</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT · 同概念:主观能动性 (agency)</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:ChatGPT、Google</span>
-- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:ChatGPT · 同概念:强化学习 (reinforcement learning)</span>
 
 </div>
 </div>

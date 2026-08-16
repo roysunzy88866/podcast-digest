@@ -126,6 +126,7 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
 **顺着「增长与销售」挖下去**
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同公司:Anthropic、Cursor</span>
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:Google</span>
 
 </div>
 <div class="pd-ex">

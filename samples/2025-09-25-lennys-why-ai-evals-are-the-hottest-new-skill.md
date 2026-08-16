@@ -147,9 +147,9 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
 
 **顺着「智能体」挖下去**
 
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)</span>
-- [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1303 @@
+{
+  "episode_id": "2025-09-07-lennys-how-ai-is-reshaping-the-product-role",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-09-07",
+  "tags": [
+    "产品管理",
+    "AI 产品",
+    "船坞模式",
+    "PM 技能",
+    "AI 战略"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            250.516,
+            254.277
+          ],
+          "quote": "Get $1,000 off at Vanta.com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            262.505,
+            263.778
+          ],
+          "quote": "Thank you for having us, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 161,
+          "t": [
+            952,
+            957.429
+          ],
+          "quote": "Oji, I remember Lenny asked, \"What is a shipyard comprised of?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2064,
+            2065.541
+          ],
+          "quote": "No, I think I want to double quick on that, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2337,
+            2342.262
+          ],
+          "quote": "To try it for yourself, go to coda.io/Lenny today and get six months free of the team plan for startups.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2342.542,
+            2350.305
+          ],
+          "quote": "That's coda.io/Lenny to get started for free and get six months of the team plan, coda.io/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3733.36,
+            3740.064
+          ],
+          "quote": "I remember Lenny, maybe a long time ago I saw something you had written around how do you make, you sell a thing, you rent a thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4320.804,
+            4322.466
+          ],
+          "quote": "Lenny'snewsletter.com, click product pass.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4661.261,
+            4662.084
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 895,
+          "t": [
+            4692.107,
+            4696.896
+          ],
+          "quote": "You can find all past episodes or learn more about the show at Lenny'sPodcast.com.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ezinne-udezue",
+      "type": "person",
+      "role": "guest",
+      "name": "Ezinne Udezue",
+      "file": "Ezinne Udezue",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.02,
+            59.921
+          ],
+          "quote": "Today, my guests are Oji and Ezinne Udezue.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 26,
+          "t": [
+            128.949,
+            132.21
+          ],
+          "quote": "With that, I bring you Oji and Ezinne Udezue.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "oji",
+      "type": "person",
+      "role": "cohost",
+      "name": "Oji",
+      "file": "Oji",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            57.02,
+            59.921
+          ],
+          "quote": "Today, my guests are Oji and Ezinne Udezue.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 17,
+          "t": [
+            76.628,
+            82.031
+          ],
+          "quote": "Oji was chief product officer at Calendly and Typeform and led product teams at Twitter, Atlassian, and Microsoft.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 26,
+          "t": [
+            128.949,
+            132.21
+          ],
+          "quote": "With that, I bring you Oji and Ezinne Udezue.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            258.239,
+            261.92
+          ],
+          "quote": "Oji and Ezinne, thank you so much for being here and welcome to the podcast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 86,
+          "t": [
+            482.82,
+            486.262
+          ],
+          "quote": "Let me throw over to Oji this first point you made, I love.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 112,
+          "t": [
+            638.443,
+            640.005
+          ],
+          "quote": "This is my favorite Oji meme.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 161,
+          "t": [
+            952,
+            957.429
+          ],
+          "quote": "Oji, I remember Lenny asked, \"What is a shipyard comprised of?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1040,
+            1052.427
+          ],
+          "quote": "I think Oji started... He laid the foundation when he said it's day one and when you are working and thinking about building product in this type of era or space, it's important that you remember that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1288.109,
+            1289.629
+          ],
+          "quote": "Oji is very passionate about this one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1496.16,
+            1498.505
+          ],
+          "quote": "I'm going to go to Oji in a second, but I want to come back on this humble idea.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1636.671,
+            1648.916
+          ],
+          "quote": "So Oji, something else that I think that you're really good at and you've been spending time on that I think is also really important is getting super hands-on with the tech, not just reading and not just listening to podcasts like this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2588.759,
+            2591
+          ],
+          "quote": "I'm sure Oji can remember a few others.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3297.67,
+            3309.356
+          ],
+          "quote": "And then Oji, you talked about the idea of most times when something fails, you're going after the wrong problem, it's not sharp enough or it's just not solving something people actually care about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3406.351,
+            3419.316
+          ],
+          "quote": "But he came back and talked to me this year and he said, \"Oji, everything you told me you wanted to do from afar, I saw that you have done and you told me about them 10 years ago.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4157.222,
+            4158.01
+          ],
+          "quote": "Oji, what about you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 753,
+          "t": [
+            4201.582,
+            4202.983
+          ],
+          "quote": "Like Oji says, it's my sidekick.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 765,
+          "t": [
+            4228.04,
+            4231.704
+          ],
+          "quote": "I'll say I have this new Nespresso machine, the Vertuo that Oji got from me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 781,
+          "t": [
+            4264.631,
+            4265.434
+          ],
+          "quote": "Oji, what about you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4381,
+            4381.826
+          ],
+          "quote": "Oji, what you got?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 829,
+          "t": [
+            4465.18,
+            4475.247
+          ],
+          "quote": "I love that Oji lives in the future and as obviously I get the benefit of this, we get to plan.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 844,
+          "t": [
+            4542,
+            4543.082
+          ],
+          "quote": "Ezinne and Oji, this was amazing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是 AI 时代需要学习编写的东西，Oji 提到他们构建的新产品最终变成了一个做售前的销售线索智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 458,
+          "t": [
+            2632.191,
+            2650.796
+          ],
+          "quote": "At Formless Typeform, a new product built by David Okuniev and me and a small group of people, we built a new Typeform and we ended up building more than it because it also became a sales lead agent.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 描述为解决问题的核心能力，区分了在旧代码上插入 LLM 的'AI 在边缘'和以 LLM 为核心重新构建的'AI 在核心'两种策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            1207.646,
+            1213.967
+          ],
+          "quote": "You can try and focus the LLM so that it can offer better insights and offer better results.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1214.268,
+            1226.191
+          ],
+          "quote": "But even as your LLM actually produces results, you need to verify that it actually is smart and it hasn't hallucinated or gone off by creating true evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1999.103,
+            2001.731
+          ],
+          "quote": "And this is built on an LLM that you trained?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2505.413,
+            2516.715
+          ],
+          "quote": "Companies for whom their code base perhaps shrinks and the LLM becomes a core part of what it is that they used to solve the problem are companies that actually are doing it right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2553.926,
+            2576.134
+          ],
+          "quote": "So we've seen companies instead just stay on top, try to build this massive solution set or LLM that can do it all, but the successful ones that we've consulted with, partnered with or talking to are those who instead have seen, \"This team that I have on here can actually build this very specific solution set, this other team can do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2605.804,
+            2623.749
+          ],
+          "quote": "We are seeing companies that are starting from a blank slate, taking an old problem, a sharp problem, and saying, \"If we built it today with LLM as the core capability as a core blob of code, how would it look?\"",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "本集说写 evals 是 PM 需要掌握的关键技能——不是写提示词，而是在 LLM 产出结果后验证它是否真正智能、有没有产生幻觉，通过创建真实的评估来做到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1201.464,
+            1204.965
+          ],
+          "quote": "There's this skill of being able to write evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1214.268,
+            1226.191
+          ],
+          "quote": "But even as your LLM actually produces results, you need to verify that it actually is smart and it hasn't hallucinated or gone off by creating true evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1355.67,
+            1357.51
+          ],
+          "quote": "And then evals, I like that a lot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1358.591,
+            1365.173
+          ],
+          "quote": "I have a really cool guest host coming out really soon that'll teach you more than you ever thought you needed to know about how to become really good at evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1871.576,
+            1881.16
+          ],
+          "quote": "And so, everything Ezinne said, writing evals, being humble, going back after 25 years of being a PM to being teachable is how I stay sharp.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集把主观能动性定义为'你更像恒温器而不是温度计——温度计只是在测量室温，恒温器会改变室温'，强调看到机会后自己抓住而不是寻求许可",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            168.604,
+            184.931
+          ],
+          "quote": "Whether you're a funded tech startup looking for ways to pay contractors and earn yield on your idle cash, or an agency that needs to invoice customers and keep them current, or an e-commerce brand that needs stay on top of cash flow and access capital, Mercury can be tailored to help your business perform at its highest level.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            201.158,
+            206.7
+          ],
+          "quote": "My podcast guests and I love talking about craft and taste and agency and product market fit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1106.751,
+            1109.892
+          ],
+          "quote": "The second part is what I'd call agency.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1131,
+            1140.363
+          ],
+          "quote": "No, there's another value behavior, but high agency being able to just move forward and act like an owner, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1145.325,
+            1163.272
+          ],
+          "quote": "But I think ownership is seeing that you can run, but I think agency assumes that you control... You're more of a thermostat than a thermometer and that means that hey, the thermometer is always measuring the temperature of the room while a thermostat will change the temperature of the room.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1289.669,
+            1308.975
+          ],
+          "quote": "We talk about it quite a bit, but that's the attitudes point of view where just strong ownership, strong agency, curiosity, being humble, and then this idea of understanding beyond prompts, really knowing that AI is just toolbox and it can make major mistakes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1344.906,
+            1355.61
+          ],
+          "quote": "So essentially curiosity, humbleness, agency, such a meme these days and what PMs need to build and be strong at high agency, so great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2147.703,
+            2158.108
+          ],
+          "quote": "I think that in the next few years a lot of high agency people or just PMs will essentially be writing the software that automates their lives.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到需要在产品内创建正确的护栏，以确保它继续做它需要做的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            412.75,
+            423.934
+          ],
+          "quote": "And then the last I would say is just creating the right guardrails within your product to ensure that it actually continues to do what it needs to do.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到 Oji 的智能房子运行在一个带有 AI 芯片和推理功能的处理器上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1810.675,
+            1824.96
+          ],
+          "quote": "So I've been doing this for years and years, but now I'm trying to build a very smart house, run on a processor that has AI chip and inference in it while the house looks dumb because I don't want anyone to know about it.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集提到微调是 PM 需要理解的技能之一，Oji 说他在学习如何微调模型用于家庭自动化项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1834.103,
+            1836.104
+          ],
+          "quote": "I am learning how to fine tune some of them.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "hallucinated",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinated)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集说在 LLM 产出结果后需要验证它没有产生幻觉或偏离，限制幻觉是 PM 应掌握的硬核技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1214.268,
+            1226.191
+          ],
+          "quote": "But even as your LLM actually produces results, you need to verify that it actually is smart and it hasn't hallucinated or gone off by creating true evals.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 Oji 在学习理解 MCP 并将不同的东西连接到它上面，还在家里建了一个 MCP 服务器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1836.704,
+            1846.947
+          ],
+          "quote": "I'm feeding them and build an MCP server in my house that talks to the home entities and then I can collaborate with Claude on how to build and make it sort of super dynamic.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集提到 Oji 超级喜欢本地运行开源模型，因为可以把它们放在不同的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 789,
+          "t": [
+            4295.554,
+            4300.096
+          ],
+          "quote": "These open source models running them because I feel like I can put them in different places.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "ai-at-the-core",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 在核心 (AI at the core)",
+      "file": "AI 在核心",
+      "primary": true,
+      "how_described": "本集提出关键区分：AI 在核心意味着从根本上审视问题空间和工作流用 AI 来解决，代码库应该缩小、LLM 成为解决问题的核心部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2442.096,
+            2445.297
+          ],
+          "quote": "So we have this phrase called AI at the core and AI at the edge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2465.923,
+            2488.128
+          ],
+          "quote": "AI at the core means fundamentally looking at the problem space and the workflows and using AI to solve the problem, not just sprinkling it at the intersections of GUIs or user interfaces that are out there or using it to just accelerate things.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-at-the-edge",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 在边缘 (AI at the edge)",
+      "file": "AI 在边缘",
+      "primary": true,
+      "how_described": "本集说 AI 在边缘是你仍然像以前一样使用软件，原来的代码还在，只是在不同交叉点插入 LLM 或 AI，通常不是能彻底改变行业的做法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2442.096,
+            2445.297
+          ],
+          "quote": "So we have this phrase called AI at the core and AI at the edge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2445.877,
+            2453.1
+          ],
+          "quote": "And the best way to think about it is that with AI at the edge, you're probably still using software as you always have.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "shipyard",
+      "type": "concept",
+      "role": "concept",
+      "name": "船坞 (shipyard)",
+      "file": "船坞",
+      "primary": true,
+      "how_described": "本集把船坞描述为'受控的混乱'——看起来像布朗运动，底层是仔细的沟通和高超的技能，由 PM、工程、设计、用研、数据/ML、产品营销六种能力组成，加上销售和客服的触须",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            757.943,
+            773.636
+          ],
+          "quote": "Okay, so building on this idea of being a drunken walk of figuring out what to build, you have this concept of the shipyard, and this is a way to think about... Uh, how to think about what product development might look like going forward and just a model for how to work in this chaotic world that we're in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 134,
+          "t": [
+            792.204,
+            795.264
+          ],
+          "quote": "A shipyard is to evoke controlled chaos.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 135,
+          "t": [
+            796.005,
+            809.828
+          ],
+          "quote": "If you go to a shipyard at peak, Long Beach or whatever it is, there's so much going on and big heavy machinery moving around, trucks and containers from China, from Malaysia jumping around.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 139,
+          "t": [
+            838.136,
+            841.196
+          ],
+          "quote": "And so what a shipyard team looks like is a 6 person team.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 144,
+          "t": [
+            873.506,
+            875.446
+          ],
+          "quote": "So I think that's what the core shipyard team means.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 147,
+          "t": [
+            884.329,
+            888.63
+          ],
+          "quote": "Think about the shipyard team as the brain, but this is the skin, this is how you feel customers.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 153,
+          "t": [
+            916.678,
+            921.04
+          ],
+          "quote": "And so having the shipyard team have the tendrils of connection to the customer teams was so important.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 161,
+          "t": [
+            952,
+            957.429
+          ],
+          "quote": "Oji, I remember Lenny asked, \"What is a shipyard comprised of?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3860,
+            3881.11
+          ],
+          "quote": "And then the second part is how do you lead a high performing shipyard and how do you go from motivating people to charting the course for the future depending on where you're in the market to make, like Ezinne said, to commanding the shipyard that is kickass?",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "sharp-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "尖锐问题 (sharp problem)",
+      "file": "尖锐问题",
+      "primary": true,
+      "how_described": "本集说尖锐问题是那些老需求——人们一直觉得需要帮助的事情——困难到如果你把它改进三到五倍或成本降到十分之一，人们会说'现在就把钱拿走'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            636,
+            638.043
+          ],
+          "quote": "I want to pull on this sharp problem thread.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 115,
+          "t": [
+            648.356,
+            650.98
+          ],
+          "quote": "Talk about what a sharp problem is and why that's important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 119,
+          "t": [
+            684.291,
+            687.852
+          ],
+          "quote": "They had an idea, but it turned out that the idea was a sharp problem.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 122,
+          "t": [
+            710.159,
+            712.68
+          ],
+          "quote": "Now, let's frame it in the sharp problem.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2605.804,
+            2623.749
+          ],
+          "quote": "We are seeing companies that are starting from a blank slate, taking an old problem, a sharp problem, and saying, \"If we built it today with LLM as the core capability as a core blob of code, how would it look?\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2827.662,
+            2833.864
+          ],
+          "quote": "Pick a sharp problem, pick something that if you really solve it, people will come.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": false,
+      "how_described": "本集说 PRD 撰写在目前是不够的，Oji 把写 PRD 变成了写原型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            588.483,
+            591.324
+          ],
+          "quote": "PRD writing is insufficient at the moment.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1753.914,
+            1760.457
+          ],
+          "quote": "I've taken the opportunity to write more code, I've taken the opportunity to convert PRD writing into prototype writing.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "typeform",
+      "type": "company",
+      "role": "company",
+      "name": "Typeform",
+      "file": "Typeform",
+      "primary": true,
+      "how_described": "本集说在 Typeform 做新产品时从白纸开始问'如果今天以 LLM 作为核心能力来构建会是什么样'，结果产品本身还变成了做售前的销售线索智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            76.628,
+            82.031
+          ],
+          "quote": "Oji was chief product officer at Calendly and Typeform and led product teams at Twitter, Atlassian, and Microsoft.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2632.191,
+            2650.796
+          ],
+          "quote": "At Formless Typeform, a new product built by David Okuniev and me and a small group of people, we built a new Typeform and we ended up building more than it because it also became a sales lead agent.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2650.896,
+            2657.698
+          ],
+          "quote": "So it did pre-sales, which ordinarily Typeform gets you into qualification before you talk to a salesperson.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "type": "company",
+      "role": "company",
+      "name": "Calendly",
+      "file": "Calendly",
+      "primary": false,
+      "how_described": "本集提到 Oji 在 Calendly 时发布任何东西之前都要和支持经理做设计审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            76.628,
+            82.031
+          ],
+          "quote": "Oji was chief product officer at Calendly and Typeform and led product teams at Twitter, Atlassian, and Microsoft.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            892.751,
+            899.653
+          ],
+          "quote": "Before I shipped anything Calendly, I did the design review with a support manager, right?",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "clay-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Clay.ai",
+      "file": "Clay.ai",
+      "primary": false,
+      "how_described": "本集提到 Clay.ai 是一家六年的公司、超级成功，作为'重新构想产品'的第二类公司例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2673.603,
+            2677.164
+          ],
+          "quote": "Clay.ai is a six-year-old company, super successful.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Claude 作为可以结合各自擅长的领域的多个模型之一，Ezinne 说 Claude 是她的副手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1262.781,
+            1275.645
+          ],
+          "quote": "And the idea now is, \"How do you combine the smarts of what maybe Claude does with something that GPT does better and make something even greater than each of them?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1836.704,
+            1846.947
+          ],
+          "quote": "I'm feeding them and build an MCP server in my house that talks to the home entities and then I can collaborate with Claude on how to build and make it sort of super dynamic.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 752,
+          "t": [
+            4200.3,
+            4201.522
+          ],
+          "quote": "I love Claude.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集提到 Lovable 作为成功的 AI 产品例子，但也说任何一家这样的公司在两三年后都可能不存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.762,
+            124.948
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get a year free of 15 incredible products, including Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wiser Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, and Mobbin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1672.304,
+            1687.729
+          ],
+          "quote": "You need teachability when everything has changed, where there is no blueprint and whatever you think is a blueprint of AI in the last few years, whether, \"Oh wow, Lovable is so successful.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2046.061,
+            2062.338
+          ],
+          "quote": "What I love about this is this is something that I've seen a bunch is having a very specific problem to solve for yourself is a really good way to build and get into these tools because you're motivated to solve a problem and it's a specific thing that you're doing versus just generally, \"I'm going to go sit around and play with Lovable.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2244.726,
+            2251.929
+          ],
+          "quote": "And something that I realized as I was putting that together is people think about like, \"Oh, can you build real product and businesses on Bolt, Lovable Replit?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2678.205,
+            2684.847
+          ],
+          "quote": "So in the first category is things like Lovable, but the second category are people who are like, \"Okay, we're going to rethink this and we're going to do it.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4274.083,
+            4278.566
+          ],
+          "quote": "Getting to Lovable because I like using the hardcore stuff.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 786,
+          "t": [
+            4278.926,
+            4283.348
+          ],
+          "quote": "And so using Lovable felt like a little step down a little bit.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 792,
+          "t": [
+            4308,
+            4310.488
+          ],
+          "quote": "Gamma and Lovable, get a year free by becoming a paid subscriber of my newsletter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4314,
+            4316.174
+          ],
+          "quote": "I heard about Lovable, I didn't know about Gamma.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集把 Replit 和 Lovable 并提作为看起来成功的公司例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.762,
+            124.948
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get a year free of 15 incredible products, including Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wiser Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, and Mobbin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1687.989,
+            1689.15
+          ],
+          "quote": "Replit is so successful.\"",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2244.726,
+            2251.929
+          ],
+          "quote": "And something that I realized as I was putting that together is people think about like, \"Oh, can you build real product and businesses on Bolt, Lovable Replit?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "home-assistant",
+      "type": "company",
+      "role": "company",
+      "name": "Home Assistant",
+      "file": "Home Assistant",
+      "primary": false,
+      "how_described": "本集提到 Home Assistant 是一个开源软件，Oji 用它来构建智能房子，说它非常可扩展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 362,
+          "t": [
+            2005.62,
+            2011.164
+          ],
+          "quote": "There's this open source software called Home Assistant that I use and you can... It's very extensible.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2186.161,
+            2197.385
+          ],
+          "quote": "It's still day one, meaning that no matter how far, if you hear me and hear about fine-tuning and Home Assistant and all this crazy hardware that I'm trying to build and you're scared, you're like, \"I'm behind.\"",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "lm-studio",
+      "type": "company",
+      "role": "company",
+      "name": "LM Studio",
+      "file": "LM Studio",
+      "primary": false,
+      "how_described": "本集提到 LM Studio 是 Oji 用来运行本地模型的工具之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 787,
+          "t": [
+            4283.368,
+            4290.571
+          ],
+          "quote": "But Ollama, LM Studio, these are ways that I used to do my hobby of improving the house.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4301.197,
+            4304.278
+          ],
+          "quote": "So LM Studio and Ollama are just favorite things.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "ollama",
+      "type": "company",
+      "role": "company",
+      "name": "Ollama",
+      "file": "Ollama",
+      "primary": false,
+      "how_described": "本集提到 Ollama 是 Oji 用来运行本地模型的工具之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 787,
+          "t": [
+            4283.368,
+            4290.571
+          ],
+          "quote": "But Ollama, LM Studio, these are ways that I used to do my hobby of improving the house.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4301.197,
+            4304.278
+          ],
+          "quote": "So LM Studio and Ollama are just favorite things.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -135,8 +135,8 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
 **顺着「产品方法」挖下去**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:品味 (taste)</span>
 
 </div>
 <div class="pd-ex">

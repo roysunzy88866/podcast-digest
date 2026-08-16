@@ -5,12 +5,13 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(09:48起):本集说 PRD 撰写在目前是不够的，Oji 把写 PRD 变成了写原型
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(51:24起):本集提到传统的 PRD 在快节奏的 AI 时代已显得过时，Amol 的团队交付的内容中有 60% 到 80% 连 PRD 都没有，大家更倾向于直接在 Slack 沟通或做原型。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(06:46起):本集探讨了过去为了预先降低实现风险而大量使用产品需求文档(PRD),但嘉宾指出现在对某些观点表达而言文档可能仍是正确的媒介选择,不能盲目宣称 PRD 已死。
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:56起):本集评测模型能力的四大高频场景之一,主持人发现 Tara 模型在编写简洁、切中要害的商务 PRD 文档上表现最为出色。
@@ -19,8 +20,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念(提及)
@@ -31,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Codex]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[原型]] · [[Claude Code]] · [[Google]] · [[计算机使用]]
+[[智能体]] · [[Lenny]] · [[评估]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[主观能动性]] · [[Meta]] · [[原型]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":82,"Lenny":44,"Codex":17,"Anthropic":45,"OpenAI":36,"Meta":13,"原型":2,"Claude Code":21,"Google":16,"计算机使用":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":84,"Lenny":47,"评估":12,"Anthropic":46,"Codex":17,"OpenAI":36,"主观能动性":10,"Meta":14,"原型":2,"Claude Code":21}</script>
 
 <script>
 (function(){
@@ -254,7 +256,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -153,9 +153,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)、开源模型 (open source models)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 </div>

@@ -145,7 +145,7 @@ Qasar 认为，硅谷的许多 CEO 缺乏「品味」<button class="pd-ts" data-
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、智能体 (agent)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)、ChatGPT</span>
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:Google · 同概念:ChatGPT</span>
 
 </div>
 </div>

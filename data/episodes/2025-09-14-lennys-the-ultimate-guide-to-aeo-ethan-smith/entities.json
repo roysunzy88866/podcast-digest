@@ -1,0 +1,3052 @@
+{
+  "episode_id": "2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-09-14",
+  "tags": [
+    "AEO",
+    "SEO",
+    "LLM 流量转化",
+    "RAG",
+    "AI 生成内容"
+  ],
+  "categories": [
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            211.1,
+            214.423
+          ],
+          "quote": "Learn more and start building at Orkes.io/Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            214.703,
+            217.265
+          ],
+          "quote": "That's O-R-K-E-S.I-O/Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            267.55,
+            271.373
+          ],
+          "quote": "Get $1,000 off at Vanta.com/Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1731.155,
+            1734.759
+          ],
+          "quote": "Head to greatquestion.com/Lenny to get started.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2040.356,
+            2043
+          ],
+          "quote": "Say Lenny's Newsletter shows up and answers for the questions that I'm targeting?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2524.354,
+            2527.419
+          ],
+          "quote": "And then be like, \"Oh yeah, you could check it out in Lenny's Newsletter if you want\"?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3576.424,
+            3578.826
+          ],
+          "quote": "It could be good for personalizing stuff specifically to Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ethan-smith",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ethan Smith",
+      "file": "Ethan Smith",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            65.4,
+            67.082
+          ],
+          "quote": "Today my guest is Ethan Smith.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 36,
+          "t": [
+            153.105,
+            155.407
+          ],
+          "quote": "With that, I bring you Ethan Smith.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "aeo",
+      "type": "concept",
+      "role": "concept",
+      "name": "AEO",
+      "file": "AEO",
+      "primary": true,
+      "how_described": "本集说 AEO（Answer Engine Optimization）和 GEO 本质上是一件事，即如何让自己的产品作为答案出现在 LLM 的回复里；它是 SEO 之后的第二大变化，SEO 里有效的东西在 AEO 里依然有效，只是多了引用优化等新杠杆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.04,
+            1.859
+          ],
+          "quote": "There's this term everyone's hearing about, AEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 2,
+          "t": [
+            6,
+            9
+          ],
+          "quote": "It feels like such a big deal to win at AEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 17,
+          "t": [
+            53,
+            55.728
+          ],
+          "quote": "There's significant misinformation on AEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 27,
+          "t": [
+            98.909,
+            106.416
+          ],
+          "quote": "This means that the world of SEO is going through a big change, including the rise of AEO, which stands for Answer Engine Optimization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 66,
+          "t": [
+            296.083,
+            307.139
+          ],
+          "quote": "And so I'm excited to talk to you again about how to be successful in this new-emerging world where AI is changing how SEO works, the rise of AEO and GEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            385.421,
+            388.569
+          ],
+          "quote": "There's actually two, AEO and GEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            404.933,
+            412
+          ],
+          "quote": "So AEO and GEO are essentially trying to describe the same thing, which is how do I show up in LLMs as an answer?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 121,
+          "t": [
+            515.805,
+            517.668
+          ],
+          "quote": "I asked him, \"What do you think of all this stuff, AEO, GEO?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            632.192,
+            635
+          ],
+          "quote": "So that's just traditional SEO, which works very well for AEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            638.28,
+            644.466
+          ],
+          "quote": "So I would say everything that works in SEO works in AEO, but there are additional things beyond SEO that also work in AEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            645.087,
+            652.494
+          ],
+          "quote": "So second thing, and the way that I think about AEO versus SEO is that the head and the tail are different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1302.753,
+            1307.199
+          ],
+          "quote": "Before we get into how to actually do this step-by-step, how to win at AEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1736.2,
+            1742.528
+          ],
+          "quote": "Let's give people an actual, actionable plan to start executing on this and winning essentially at AEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1784.794,
+            1790.319
+          ],
+          "quote": "Step two is then track them, so put them in an AEO tracker, in an answer tracker.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1828.773,
+            1830.394
+          ],
+          "quote": "Same thing for AEO topic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1925.314,
+            1931.739
+          ],
+          "quote": "So SEO and AEO are both interesting in that the majority of the information and best practices are not correct.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2457.99,
+            2466.096
+          ],
+          "quote": "For Answer Engine Optimization, definitely do AEO, and only do citation optimization and long tail.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2760.673,
+            2764.337
+          ],
+          "quote": "Most work is wasted in AEO, so how do you know what's not wasted?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2775.421,
+            2779.409
+          ],
+          "quote": "It feels like such a big deal to win at AEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2828.661,
+            2837.8
+          ],
+          "quote": "What do you think are maybe the most surprising or underdiscussed topics when it comes to AI and SEO and AEO that we haven't already talked about?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2838.42,
+            2846.047
+          ],
+          "quote": "The first thing is that there's significant misinformation on AI and on AEO, and it's pretty extreme.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2862.26,
+            2869.026
+          ],
+          "quote": "So that's happening right now with AI Overviews and with AEO, Google's going down, which is not true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2964.705,
+            2974.214
+          ],
+          "quote": "And we did a Reforge AEO webinar a year ago, and there was excitement and then it died and there was very little excitement about it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3011.049,
+            3017.595
+          ],
+          "quote": "The last is that a lot of people do think that SEO and AEO are different and they're not different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3645.495,
+            3647.718
+          ],
+          "quote": "Try to take the first steps down this road of AEO?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4089.645,
+            4095
+          ],
+          "quote": "I'm curious if there's just like an SEO or even an AEO win, you're just most proud of?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4143,
+            4147.194
+          ],
+          "quote": "I feel like we've just leveled up everyone's knowledge on what the hell is happening with SEO and AEO?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4204.146,
+            4213.034
+          ],
+          "quote": "The first way is that there's not that much research around what works in AEO, and I would love to know what people are testing and what the results are and what works.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集说 SEO 正经历重大转型，AEO 与 SEO 有很大重叠，核心技术相似；传统 SEO 对早期公司不友好，因为缺乏域名权重，通常要 A 轮以后才值得做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            67.562,
+            71.706
+          ],
+          "quote": "Ethan is the CEO of Graphite and my go-to expert for all things SEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            72.466,
+            74.868
+          ],
+          "quote": "SEO is going through a major transition right now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 27,
+          "t": [
+            98.909,
+            106.416
+          ],
+          "quote": "This means that the world of SEO is going through a big change, including the rise of AEO, which stands for Answer Engine Optimization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 28,
+          "t": [
+            106.556,
+            111
+          ],
+          "quote": "Basically, SEO for ChatGPT, getting your product to show up in the answers that people get.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            285.366,
+            288.23
+          ],
+          "quote": "I think of it as the definitive guide on how to win at SEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 65,
+          "t": [
+            294.08,
+            295.923
+          ],
+          "quote": "Things are changing in the world of SEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 66,
+          "t": [
+            296.083,
+            307.139
+          ],
+          "quote": "And so I'm excited to talk to you again about how to be successful in this new-emerging world where AI is changing how SEO works, the rise of AEO and GEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            309.723,
+            312.829
+          ],
+          "quote": "How long have you been working on SEO at this point?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 69,
+          "t": [
+            312.949,
+            317.698
+          ],
+          "quote": "And has anything come close to being this significant in changing the skill of SEO?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            319.18,
+            325.246
+          ],
+          "quote": "So I got started in SEO in 2007, so it's been 18 years.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 72,
+          "t": [
+            325.846,
+            335.695
+          ],
+          "quote": "Actually, the largest change when I got started in SEO, I got started in programmatic SEO and commerce SEO, like NexTag and Shopping.com and PriceGrabber.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 75,
+          "t": [
+            349.531,
+            352.676
+          ],
+          "quote": "So essentially, you went from the SEO being spam to not spam.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            604.324,
+            611.314
+          ],
+          "quote": "So a specific example with Webflow is we are working with Webflow on their SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 146,
+          "t": [
+            616,
+            620.327
+          ],
+          "quote": "So the specific things that we've done there, one is just traditional SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            632.192,
+            635
+          ],
+          "quote": "So that's just traditional SEO, which works very well for AEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 150,
+          "t": [
+            635,
+            637.376
+          ],
+          "quote": "I was just going to say, that sounds exactly the same as regular SEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            638.28,
+            644.466
+          ],
+          "quote": "So I would say everything that works in SEO works in AEO, but there are additional things beyond SEO that also work in AEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            645.087,
+            652.494
+          ],
+          "quote": "So second thing, and the way that I think about AEO versus SEO is that the head and the tail are different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            700.544,
+            703.391
+          ],
+          "quote": "Stuff that worked especially well was just straight SEO, number one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            722.001,
+            731.309
+          ],
+          "quote": "And part of why that's interesting is because when startups come to me and ask me for SEO help, my first response is, \"Don't do it at all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            732.571,
+            737.855
+          ],
+          "quote": "Spend your time on something else because you're not going to be able to grow SEO early on in search.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 186,
+          "t": [
+            803.981,
+            815.413
+          ],
+          "quote": "Meaning that if you map out all of the questions that people ask, kind of like an SEO, long-tail keywords, if you do long-tail questions, the size of the tail is larger.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 191,
+          "t": [
+            845.951,
+            853
+          ],
+          "quote": "And when I got started in SEO, it was long-tail SEO where you have a page for every single keyword, which doesn't work anymore, but now the long tail is back in chat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 216,
+          "t": [
+            956.006,
+            957.548
+          ],
+          "quote": "So onsite would be traditional SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 224,
+          "t": [
+            993.662,
+            998.474
+          ],
+          "quote": "And that all sounds very similar to SEO showing up on other people's pages.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1489.173,
+            1493
+          ],
+          "quote": "It's probably the most successful SEO company of all time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1501.123,
+            1511.359
+          ],
+          "quote": "As you talk, I think about if you go to Google, no offense, Mr. SEO, but if you go to Google these days, it's just like a bunch of unuseful stuff, just like this hyper SEO'ed content.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1512.14,
+            1518.499
+          ],
+          "quote": "Do you think ChatGPT will be able to avoid that fate where it's just a bunch of hyper SEO'ed content that is not what you actually want?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1520.341,
+            1528.229
+          ],
+          "quote": "And what you're saying with SEO is that everyone's rewriting each other's content, nonexperts rewriting each other's content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1820.886,
+            1828.272
+          ],
+          "quote": "You could go back to your search data and look for groups and themes of your keywords that are in your SEO topic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1925.314,
+            1931.739
+          ],
+          "quote": "So SEO and AEO are both interesting in that the majority of the information and best practices are not correct.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1982.687,
+            1987.312
+          ],
+          "quote": "Probably your team is your SEO team, or your SEO agency or your SEO consultant.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1996.661,
+            2003.768
+          ],
+          "quote": "So most SEO people are not going to be amazing at creating YouTube videos and Reddit strategy, so you might need a different person for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2006.911,
+            2010.615
+          ],
+          "quote": "So it would basically be your SEO team, \"Please now do Answer Engine Optimization.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2453.607,
+            2457.53
+          ],
+          "quote": "So I mentioned earlier, early stage my recommendation is don't do SEO at all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2466.136,
+            2471.64
+          ],
+          "quote": "Don't do any of the mid-SEO stuff, just get cited and answer really specific questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2737.645,
+            2740.368
+          ],
+          "quote": "And especially in SEO, it's common for something to change.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2755.848,
+            2760.433
+          ],
+          "quote": "And this comes back to the waste problem, most work is wasted in SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2790.073,
+            2793
+          ],
+          "quote": "It feels like even more important than SEO, just getting this right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2828.661,
+            2837.8
+          ],
+          "quote": "What do you think are maybe the most surprising or underdiscussed topics when it comes to AI and SEO and AEO that we haven't already talked about?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2873.35,
+            2875.772
+          ],
+          "quote": "Gen Z is using TikTok, they're never going to use SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2875.912,
+            2879.996
+          ],
+          "quote": "SEO's going to be dead, and so you really need to focus on TikTok search, which is not false.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3011.049,
+            3017.595
+          ],
+          "quote": "The last is that a lot of people do think that SEO and AEO are different and they're not different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3102.972,
+            3106.357
+          ],
+          "quote": "Just like, \"Oh my God, SEO is never going to just generate all this stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3127.668,
+            3133.714
+          ],
+          "quote": "And my immediate response is spam, so just lots and lots of spam, especially SEO spam.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3223.601,
+            3226.563
+          ],
+          "quote": "So we used Surfer SEO's AI detector.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 812,
+          "t": [
+            3668.835,
+            3674
+          ],
+          "quote": "Usually, you would not have an SEO team and say, \"We really want you guys to focus on the help center.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4089.645,
+            4095
+          ],
+          "quote": "I'm curious if there's just like an SEO or even an AEO win, you're just most proud of?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4143,
+            4147.194
+          ],
+          "quote": "I feel like we've just leveled up everyone's knowledge on what the hell is happening with SEO and AEO?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说 RAG（检索增强生成）基本上就是先做一次搜索、再总结搜索结果；AEO 优化的是 RAG 这一层，不是模型的训练数据，意味着今天做了优化明天就能看到效果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1224.4,
+            1228.364
+          ],
+          "quote": "I would assume that so there's the core model and then there's RAG.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1244.14,
+            1247.684
+          ],
+          "quote": "Then there's RAG and RAG basically means search, retrieval-augmented generation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1251.868,
+            1256.453
+          ],
+          "quote": "And so most of what I'm describing is about the RAG piece, not the core model piece.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1274.736,
+            1278
+          ],
+          "quote": "So I'm mostly focused on the RAG side, because that's the main thing that's controllable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1278.441,
+            1283.171
+          ],
+          "quote": "And I think also the LLM is probably not going to say your product if it didn't show up anywhere on the RAG.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1294.561,
+            1301.391
+          ],
+          "quote": "This is post-training, once the model's live, what it can do to find recent information using RAG, web search, things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1318.205,
+            1321.869
+          ],
+          "quote": "So it's LLM plus RAG, it's summarizing a set of search results usually.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1322.57,
+            1323.851
+          ],
+          "quote": "So LLM plus RAG, number one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1455.114,
+            1458.938
+          ],
+          "quote": "So again, the LLM is summarizing RAG.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3412.069,
+            3415.031
+          ],
+          "quote": "So again, there's the core algorithm and then there's the RAG piece.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3431.205,
+            3435.07
+          ],
+          "quote": "So then we did a study on what if you feed derivatives into the RAG piece?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3435.39,
+            3439.734
+          ],
+          "quote": "So generate 10 derivatives, put that into RAG, summarize that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 在总结多条引用时，被提及次数最多的产品会被推荐，而不是链接排第一就赢；Webflow 的 LLM 流量转化率是 Google 搜索流量的 6 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            15.582,
+            20.9
+          ],
+          "quote": "But that's not the case in the LLM, because the LLM is summarizing many citations, and so you need to get mentioned as many times as possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 13,
+          "t": [
+            42.464,
+            48
+          ],
+          "quote": "Webflow saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            668.31,
+            672.014
+          ],
+          "quote": "If their blue link showed up first they would win, but that's not the case in the LLM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 157,
+          "t": [
+            672.034,
+            677.88
+          ],
+          "quote": "Because the LLM is summarizing many citations and so you need to get mentioned as many times as possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            886.805,
+            894.98
+          ],
+          "quote": "So Webflow, we saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1278.441,
+            1283.171
+          ],
+          "quote": "And I think also the LLM is probably not going to say your product if it didn't show up anywhere on the RAG.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1318.205,
+            1321.869
+          ],
+          "quote": "So it's LLM plus RAG, it's summarizing a set of search results usually.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1322.57,
+            1323.851
+          ],
+          "quote": "So LLM plus RAG, number one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1455.114,
+            1458.938
+          ],
+          "quote": "So again, the LLM is summarizing RAG.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2167.97,
+            2172.96
+          ],
+          "quote": "Like percentage of time you're showing up in LLMs, is there an LLM, is it just like ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2481,
+            2485.957
+          ],
+          "quote": "That's the only way someone will get to your site from an LLM is just clicking that, \"Okay, let me go read this article.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2591.849,
+            2596.757
+          ],
+          "quote": "So this is essentially how to be more successful showing up in LLM responses.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2680.22,
+            2684.345
+          ],
+          "quote": "And also we're seeing people are using LLMs more and LLM traffic is going up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3448.364,
+            3450.828
+          ],
+          "quote": "The LLM is summarizing the opinion of many people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3457.036,
+            3459.98
+          ],
+          "quote": "So the LLM is summarizing these many, many opinions in this wisdom of the crowd.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3545.711,
+            3549.736
+          ],
+          "quote": "And so you're seeing that with Google Search where they're having LLM, AI Overviews.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "citation",
+      "type": "concept",
+      "role": "concept",
+      "name": "citation",
+      "file": "citation",
+      "primary": true,
+      "how_described": "本集说 LLM 总结的是多条 citation，在 citation 中被提及次数越多越可能被推荐；citation 来源包括视频、UGC（Reddit/Quora）、联盟营销站点、博客等，需要针对每组制定不同策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            25.341,
+            29.074
+          ],
+          "quote": "You can get mentioned by a citation tomorrow and start showing up immediately.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            751.048,
+            758.697
+          ],
+          "quote": "That's not the case for Answer Engine Optimization, because you can get mentioned by a citation tomorrow and start showing up immediately.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1104.956,
+            1109.8
+          ],
+          "quote": "So the strategy is find a thread that is a part of a citation that you want to show up in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1451.77,
+            1454.133
+          ],
+          "quote": "The last is citation optimization or offsite.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2213.732,
+            2221.099
+          ],
+          "quote": "We did a study looking at thousands of questions and saw the citation overlap with Google Search results was around 35% for ChatGPT and Google, so not that much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2330.414,
+            2333
+          ],
+          "quote": "So citation optimization will vary quite a bit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2333.482,
+            2336.92
+          ],
+          "quote": "Just to clarify what you just said, what do you mean when you say citation strategy is different?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2457.99,
+            2466.096
+          ],
+          "quote": "For Answer Engine Optimization, definitely do AEO, and only do citation optimization and long tail.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3033.49,
+            3035.633
+          ],
+          "quote": "There is the difference of the citation optimization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3770.049,
+            3774.579
+          ],
+          "quote": "So you could be the only citation for this, and then win that tail of questions.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai-generated-content",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 生成内容 (AI-generated content)",
+      "file": "AI 生成内容",
+      "primary": true,
+      "how_described": "本集说纯 AI 生成（无人介入）的内容不奏效，Google 搜索和 ChatGPT 引用中约 10%-12% 是纯 AI 生成的，90% 不是；如果 AI 衍生内容被排名，会导致'衍生内容的无限循环'，群体智慧收敛成单一观点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 697,
+          "t": [
+            3134.795,
+            3140
+          ],
+          "quote": "And then there was a whole industry around AI-generated content, and I knew immediately that it wouldn't work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3140.1,
+            3145.967
+          ],
+          "quote": "And the reason why I knew it wouldn't work, and when I say AI-generated content, I mean automated content with no human-in-the-loop.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3185.204,
+            3187.746
+          ],
+          "quote": "I knew that was exactly what's going to happen with AI-generated content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3188.647,
+            3193.573
+          ],
+          "quote": "And so from the beginning, I've not focused on AI-generated content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3302.67,
+            3312.459
+          ],
+          "quote": "So then the second thing that we did was we found that, this was unexpected, but we found that there's more AI-generated content on the internet than human-generated content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3323.231,
+            3328.036
+          ],
+          "quote": "So there's more AI-generated content on the internet than human-generated content, which is disturbing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3328.797,
+            3331.66
+          ],
+          "quote": "So then let's say that AI-generated content did work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3332.08,
+            3335.043
+          ],
+          "quote": "If AI-generated content worked, then everyone would do it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3535.44,
+            3540.386
+          ],
+          "quote": "So I would identify what the perverse incentives might be, and AI-generated content is one of them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3558.705,
+            3568.035
+          ],
+          "quote": "Figure out what 2007 Ethan would do not to create spam and make sure that he doesn't do that, like AI-generated content or it's great content.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "share-of-voice",
+      "type": "concept",
+      "role": "concept",
+      "name": "share of voice",
+      "file": "share of voice",
+      "primary": false,
+      "how_described": "本集说在答案追踪中需要看 share of voice，即在所有提问中你出现的百分比和平均排名，因为同一个问题问多次 LLM 每次给的答案不一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 465,
+          "t": [
+            2100.721,
+            2105.625
+          ],
+          "quote": "And so you essentially need to create a share of voice across all these different things like a distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2237.14,
+            2242.851
+          ],
+          "quote": "But you do need to look at your share of voice or the percent of time you show up across all these surfaces.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "answer-tracking",
+      "type": "concept",
+      "role": "concept",
+      "name": "answer tracking",
+      "file": "answer tracking",
+      "primary": false,
+      "how_described": "本集说 answer tracking 是关键词追踪的升级版，市面上有几十个工具，选最便宜的就行，本质上跟关键词追踪一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 454,
+          "t": [
+            2043.54,
+            2046.043
+          ],
+          "quote": "Yeah, so there's answer tracking, which is like keyword tracking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2109.348,
+            2110.309
+          ],
+          "quote": "And that's answer tracking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2111.09,
+            2112.952
+          ],
+          "quote": "So then where do you get answer tracking?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2112.972,
+            2116.255
+          ],
+          "quote": "And answer tracking is essentially an evolution of keyword tracking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2117.416,
+            2121.039
+          ],
+          "quote": "So we have a page with 60 different answer tracking tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2125.864,
+            2130.869
+          ],
+          "quote": "And so pick one of the 60, we have answer tracking, we're building answer tracking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2151.232,
+            2152.093
+          ],
+          "quote": "Same with the answer tracking.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "model-collapse",
+      "type": "concept",
+      "role": "concept",
+      "name": "Model Collapse",
+      "file": "Model Collapse",
+      "primary": false,
+      "how_described": "本集提到有一篇论文叫 Model Collapse，讲的是如果把 AI 衍生内容喂给核心模型做训练，会出现幻觉等问题，很快崩溃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 750,
+          "t": [
+            3409.167,
+            3411.869
+          ],
+          "quote": "There's a paper about this called Model Collapse.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3415.171,
+            3425.98
+          ],
+          "quote": "So the core algorithm, a group did a study showing model collapse, which was what if you feed in AI derivatives into the model and train the core model on the derivatives?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "webflow",
+      "type": "company",
+      "role": "company",
+      "name": "Webflow",
+      "file": "Webflow",
+      "primary": true,
+      "how_described": "本集说 Webflow 的 LLM 流量和 Google 搜索流量之间的转化率有 6 倍差异；Webflow 同时发力自有页面、YouTube 视频和 Reddit 来赢得 AEO",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            42.464,
+            48
+          ],
+          "quote": "Webflow saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            604.324,
+            611.314
+          ],
+          "quote": "So a specific example with Webflow is we are working with Webflow on their SEO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            659.821,
+            668.15
+          ],
+          "quote": "Even if Webflow's URL shows up number one on the citations, they're not going to win the answer because their URL showed up number one, but at Google they would win.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 160,
+          "t": [
+            687.569,
+            699
+          ],
+          "quote": "And so for Webflow, we work with them on YouTube videos, Vimeo videos, getting mentioned in Reddit, getting mentioned in other blogs, affiliates, stuff like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            714.12,
+            720.559
+          ],
+          "quote": "And Webflow's at the top, that doesn't actually drive them as much traffic as simply being mentioned most often across the summary?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            886.805,
+            894.98
+          ],
+          "quote": "So Webflow, we saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1093.307,
+            1104.876
+          ],
+          "quote": "So at Webflow, we have a couple of people at Webflow going to comments and saying, \"This is my name, this is where I work, and here's a useful piece of information.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1900.595,
+            1907.58
+          ],
+          "quote": "Then Reddit, so I mentioned with Webflow what we did, which is just make a Reddit account, say who you are, say where you work and give a useful answer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2553.328,
+            2562.319
+          ],
+          "quote": "And they have different user agents for that and different bots, so you can just say, \"And we're building a Webflow app to block training but not indexation.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2805.695,
+            2808.398
+          ],
+          "quote": "And Webflow, they get 8% of those signups from LLMs.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 的引用和 Google 搜索结果的重叠率只有约 35%；ChatGPT 为 Lenny 的通讯驱动的流量比 Twitter 还多；ChatGPT 有团队在调整搜索算法来选择信任的来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.543,
+            25
+          ],
+          "quote": "ChatGPT is driving more traffic to my newsletter than Twitter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            80.313,
+            88.98
+          ],
+          "quote": "These days, a lot of people are moving to ChatGPT and Claude, and Gemini and Perplexity to get answers to their questions, and this will only be accelerating over time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            89.5,
+            98.409
+          ],
+          "quote": "And even Google is changing the search experience in a pretty radical way with AI Overviews at the top, and their newly introduced AI Mode, which is basically their own version of ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 28,
+          "t": [
+            106.556,
+            111
+          ],
+          "quote": "Basically, SEO for ChatGPT, getting your product to show up in the answers that people get.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            453.75,
+            460
+          ],
+          "quote": "And I found that ChatGPT is driving more traffic to my newsletter than Twitter, which I did not see coming.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 117,
+          "t": [
+            494.881,
+            503.05
+          ],
+          "quote": "I want to come back to this question of, \"Is this good that ChatGPT is sucking all my content and giving people answers, and then sending me some percentage of that?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            505.493,
+            511.68
+          ],
+          "quote": "I want to talk about just what kind of impact you can have on having your stuff show up in ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            512.401,
+            515.785
+          ],
+          "quote": "So I had the head of ChatGPT, Nick Turley, on the podcast recently.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            579.475,
+            583
+          ],
+          "quote": "So same thing with ChatGPT, anything can be optimized, but if you're spamming it, they'll see that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            593.341,
+            600.419
+          ],
+          "quote": "Maybe share one to give us context just like how much can you impact this sort of thing where you show up in, say, ChatGPT more often?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 165,
+          "t": [
+            708.083,
+            713.98
+          ],
+          "quote": "So you're saying if you can get to number one, when you ask ChatGPT, \"What's the best website builder?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 206,
+          "t": [
+            922.806,
+            929.514
+          ],
+          "quote": "People trust ChatGPT to tell them the answer, and if you are the answer, you have so much advantage.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1019.914,
+            1025.9
+          ],
+          "quote": "And this goes back to the head of ChatGPT's question about, \"Please don't spam my product.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1152.647,
+            1157.553
+          ],
+          "quote": "It's so interesting that Reddit is what is keeping ChatGPT from being spammed with stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1157.974,
+            1162.319
+          ],
+          "quote": "It's not that ChatGPT is stopping the spam, its Reddit is just really good at that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1163.4,
+            1169.948
+          ],
+          "quote": "I think that in a sense, ChatGPT is policing because ChatGPT is running a search, it's finding citations.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1174.974,
+            1179.96
+          ],
+          "quote": "There are people at ChatGPT who are tuning their search algorithm to select which sources they trust.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1188.069,
+            1195.939
+          ],
+          "quote": "So I think that there are actual people at ChatGPT who are intentionally configuring their algorithm to use Reddit because it's trusted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1396.702,
+            1400.967
+          ],
+          "quote": "There's a truth set from Google and ChatGPT is not giving us that, at least not yet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1512.14,
+            1518.499
+          ],
+          "quote": "Do you think ChatGPT will be able to avoid that fate where it's just a bunch of hyper SEO'ed content that is not what you actually want?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1598.269,
+            1599.51
+          ],
+          "quote": "Will ChatGPT ever solve that?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1743.409,
+            1748.295
+          ],
+          "quote": "If it's helpful to use my newsletter as an example, how would I show up more often on ChatGPT or Gemini or whatever?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1772.362,
+            1776.987
+          ],
+          "quote": "And actually you can just give those keywords to ChatGPT and say, \"Make these into questions,\" and it does a pretty good job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1777.687,
+            1783.012
+          ],
+          "quote": "So take your competitors' paid search data or mine or your own, put it in ChatGPT, get the questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2074.649,
+            2080.214
+          ],
+          "quote": "And so ChatGPT is basically calculating a distribution of all the potential answers it would give.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2093.411,
+            2099.459
+          ],
+          "quote": "Then there's different surfaces, there's Perplexity, there's Gemini, there's ChatGPT, there's Meta AI, and so these surfaces have different answers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2167.97,
+            2172.96
+          ],
+          "quote": "Like percentage of time you're showing up in LLMs, is there an LLM, is it just like ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2173.341,
+            2175.707
+          ],
+          "quote": "Is Google equivalent now to ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2201.2,
+            2206.305
+          ],
+          "quote": "We're seeing that ChatGPT citations and Google Search results are actually not that similar.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2207.286,
+            2213.632
+          ],
+          "quote": "Perplexity is interestingly more similar to Google than ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2213.732,
+            2221.099
+          ],
+          "quote": "We did a study looking at thousands of questions and saw the citation overlap with Google Search results was around 35% for ChatGPT and Google, so not that much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2248.561,
+            2258.74
+          ],
+          "quote": "Considering that ChatGPT, they're going to hit something like a billion weekly active users in the near future, do you need to worry about Claude and Gemini and Perplexity?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2285.963,
+            2288.206
+          ],
+          "quote": "I do think that ChatGPT for sure is going to be large.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2308.125,
+            2310.05
+          ],
+          "quote": "I use Claude and ChatGPT equally, roughly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2310.632,
+            2313.86
+          ],
+          "quote": "I didn't want to make it sound like ChatGPT is the only product people use.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2605.347,
+            2610.514
+          ],
+          "quote": "Just look at the terms, ask almost ChatGPT or Claude, \"Turn these into questions people would ask to find these terms.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2779.749,
+            2784.719
+          ],
+          "quote": "Just coming back to this idea that people are coming to ChatGPT, Claude, Gemini looking for an answer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2988.728,
+            2994.274
+          ],
+          "quote": "So it's ChatGPT launches, people are very interested, and then it's not that interesting for growth people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3119.541,
+            3127.568
+          ],
+          "quote": "So I remember when ChatGPT launched and Brian Balfour posted on LinkedIn, \"What do you people think that is going to happen from ChatGPT and AI?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3203.043,
+            3214.633
+          ],
+          "quote": "So we took, we looked at both Google and at ChatGPT where we took thousands of searches and thousands of questions, and we put those searches into Google Search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3215.353,
+            3220.798
+          ],
+          "quote": "We put those questions into chat and the ChatGPT, and then we looked at the citations or the Google Search results.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3258.071,
+            3265.017
+          ],
+          "quote": "And then we looked at the AI detector before ChatGPT was launched, so it necessarily was content not created by a human.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3272.563,
+            3279.95
+          ],
+          "quote": "So then what we saw was around 10% to 12% of content in Google Search, and then ChatGPT or AI-generated, 90% are not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3351.08,
+            3357.29
+          ],
+          "quote": "Then what will happen if that works, is that Google now becomes a search engine for ChatGPT responses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3357.67,
+            3360.995
+          ],
+          "quote": "So if Google's a search engine for ChatGPT responses, there's no reason for Google to exist.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3361.035,
+            3363.98
+          ],
+          "quote": "Just go to ChatGPT, which is the exact same thing that happened in 2007.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3383,
+            3385.082
+          ],
+          "quote": "The same thing will be true for ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3385.142,
+            3393.712
+          ],
+          "quote": "Now for ChatGPT, let's say that ChatGPT ranks its own derivatives in its citations, so then you have this infinite loop of derivatives.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3393.752,
+            3396.475
+          ],
+          "quote": "So I go to ChatGPT, I say, \"Generate 10 articles.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 775,
+          "t": [
+            3516.481,
+            3521.451
+          ],
+          "quote": "If ChatGPT was finding this valuable, this is what people do and then just goes off the rails.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 搜索副总裁表示发给发布商的流量没有下降，反而微升；Google 专门配置搜索算法来排名 Reddit、Twitter 和 Quora，因为想要用户生成内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.254,
+            15
+          ],
+          "quote": "At Google, they would win if their blue link showed up first.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 13,
+          "t": [
+            42.464,
+            48
+          ],
+          "quote": "Webflow saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 18,
+          "t": [
+            55.788,
+            59.98
+          ],
+          "quote": "There's news articles about how Google Search is going to die because there's a new thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            60.382,
+            62.55
+          ],
+          "quote": "Google's slice of the pie stays the same.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            75.229,
+            79.892
+          ],
+          "quote": "Everyone used to go to Google anytime they had a question, or were looking for a product or doing research.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            89.5,
+            98.409
+          ],
+          "quote": "And even Google is changing the search experience in a pretty radical way with AI Overviews at the top, and their newly introduced AI Mode, which is basically their own version of ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 74,
+          "t": [
+            341.761,
+            349.231
+          ],
+          "quote": "And that was probably the biggest shift, which is Google introduced a bunch of algorithms, Panda and similar things, to prevent you from doing spam.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            371.605,
+            376.94
+          ],
+          "quote": "You're saying this is actually the second-biggest change, and just like Google's update back in the day was actually even more significant?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 136,
+          "t": [
+            563.694,
+            569
+          ],
+          "quote": "So it's not a long-term, robust strategy to create spam, just like it wasn't a long-term, robust strategy to create spam on Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            569,
+            579.335
+          ],
+          "quote": "Eventually, Google was going to say, \"Huge shopping comparison sites are making 100 million auto-generated search pages and I don't like it, and I'm going to get rid of the whole category.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            659.821,
+            668.15
+          ],
+          "quote": "Even if Webflow's URL shows up number one on the citations, they're not going to win the answer because their URL showed up number one, but at Google they would win.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 159,
+          "t": [
+            681.643,
+            687.129
+          ],
+          "quote": "The first answer will be mentioned the most in the citations, because that's very different from Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            743.601,
+            747.365
+          ],
+          "quote": "And so for Google, it's usually something that you do Series A, Series B or later.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 181,
+          "t": [
+            789.147,
+            796.136
+          ],
+          "quote": "So the average number of words, I think, Perplexity said this to somebody else, said that it was around 25 words, where versus Google words it's around six words.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            886.805,
+            894.98
+          ],
+          "quote": "So Webflow, we saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1197.421,
+            1198.001
+          ],
+          "quote": "Same with Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1198.041,
+            1207.233
+          ],
+          "quote": "Google has specifically configured their search algorithm to rank Reddit and Twitter and Quora, because they want user-generated content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1362.12,
+            1370.571
+          ],
+          "quote": "So in Google Search, if I have a landing page about website builders, the more that my page answers all of the subtopic, follow-up questions, the more likely I am to show up in Google Search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1390.275,
+            1394.7
+          ],
+          "quote": "And that's actually pretty hard, because in search, Google just tells you what their ads API.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1396.702,
+            1400.967
+          ],
+          "quote": "There's a truth set from Google and ChatGPT is not giving us that, at least not yet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1501.123,
+            1511.359
+          ],
+          "quote": "As you talk, I think about if you go to Google, no offense, Mr. SEO, but if you go to Google these days, it's just like a bunch of unuseful stuff, just like this hyper SEO'ed content.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1528.269,
+            1534.895
+          ],
+          "quote": "So I get a content-scoring tool, which then looks at all the results in Google and it says, \"These are all the things that the other articles are saying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1588.841,
+            1593.725
+          ],
+          "quote": "But right now it's people rewriting each other's content, so Google has not solved that yet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1615.046,
+            1623.575
+          ],
+          "quote": "Potentially, Google has EEAT, expertise, authority, trustworthiness, which actually I don't see having an effect unfortunately, but it could.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2173.341,
+            2175.707
+          ],
+          "quote": "Is Google equivalent now to ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2195.955,
+            2200.92
+          ],
+          "quote": "So we're doing a study, we're seeing that Google and Bing are not that similar search engines.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2201.2,
+            2206.305
+          ],
+          "quote": "We're seeing that ChatGPT citations and Google Search results are actually not that similar.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2207.286,
+            2213.632
+          ],
+          "quote": "Perplexity is interestingly more similar to Google than ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2213.732,
+            2221.099
+          ],
+          "quote": "We did a study looking at thousands of questions and saw the citation overlap with Google Search results was around 35% for ChatGPT and Google, so not that much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2265.04,
+            2272.268
+          ],
+          "quote": "Well, the way that I would answer that is I believe AOL was one of the largest search engines early on and Google was not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2280.316,
+            2281.998
+          ],
+          "quote": "Do we really need to worry about Google?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2416.576,
+            2421
+          ],
+          "quote": "Commerce is different, so Commerce actually now has more clickable cards like you would in a Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2487.843,
+            2493
+          ],
+          "quote": "But what they will do is they will open a new tab, and they will type in the brand name and they'll go to Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2493.562,
+            2497.88
+          ],
+          "quote": "And then they'll click on your domain, and you will think that it was a branded Google Search when it wasn't.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2852.932,
+            2861.94
+          ],
+          "quote": "So one example is every two years there's news articles about how Google Search is going to die or it is dying because there's a new thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2862.26,
+            2869.026
+          ],
+          "quote": "So that's happening right now with AI Overviews and with AEO, Google's going down, which is not true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2880.716,
+            2885
+          ],
+          "quote": "It's not untrue, but it's not taking share away from Google, it's just a new surface.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2889.805,
+            2896.533
+          ],
+          "quote": "And people do search and discover on Instagram, TikTok, YouTube, but it doesn't take away from Google Search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2897.954,
+            2902.68
+          ],
+          "quote": "These are all new channels, so Google's slice of the pie stays the same, the pie gets bigger.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2903.821,
+            2907.266
+          ],
+          "quote": "And so misinformation about Google going down, Google is not going down.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2907.286,
+            2914.677
+          ],
+          "quote": "Google published something recently, their VP of search explicitly said, \"I looked at the traffic that we're sending to publishers, and it is not down, it's up slightly.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2914.937,
+            2917
+          ],
+          "quote": "So it is not true that Google Search is going down.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3159.601,
+            3166.827
+          ],
+          "quote": "I knew that because I created spam in 2007, and I knew what Google did about it and how, and I knew the exact same thing was going to happen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3203.043,
+            3214.633
+          ],
+          "quote": "So we took, we looked at both Google and at ChatGPT where we took thousands of searches and thousands of questions, and we put those searches into Google Search.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3215.353,
+            3220.798
+          ],
+          "quote": "We put those questions into chat and the ChatGPT, and then we looked at the citations or the Google Search results.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3272.563,
+            3279.95
+          ],
+          "quote": "So then what we saw was around 10% to 12% of content in Google Search, and then ChatGPT or AI-generated, 90% are not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3351.08,
+            3357.29
+          ],
+          "quote": "Then what will happen if that works, is that Google now becomes a search engine for ChatGPT responses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3357.67,
+            3360.995
+          ],
+          "quote": "So if Google's a search engine for ChatGPT responses, there's no reason for Google to exist.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3364.02,
+            3369.706
+          ],
+          "quote": "Google said, \"I see all these shopping comparison search engines showing up in my search results.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3545.711,
+            3549.736
+          ],
+          "quote": "And so you're seeing that with Google Search where they're having LLM, AI Overviews.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集说 Perplexity 和 Google 搜索结果的重叠率约 70%，比 ChatGPT 的 35% 高得多；Perplexity 说聊天平均查询约 25 个词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            80.313,
+            88.98
+          ],
+          "quote": "These days, a lot of people are moving to ChatGPT and Claude, and Gemini and Perplexity to get answers to their questions, and this will only be accelerating over time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            136.327,
+            148.92
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get a year free of 15 incredible products, including Lovable, Replit, Bolt, n8n, Linear, Superhuman, Descript, Wispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD and Mobbin.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            789.147,
+            796.136
+          ],
+          "quote": "So the average number of words, I think, Perplexity said this to somebody else, said that it was around 25 words, where versus Google words it's around six words.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2093.411,
+            2099.459
+          ],
+          "quote": "Then there's different surfaces, there's Perplexity, there's Gemini, there's ChatGPT, there's Meta AI, and so these surfaces have different answers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2176.208,
+            2180.699
+          ],
+          "quote": "How do you recommend people think about, say, Gemini or Claude, or Perplexity and others?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2207.286,
+            2213.632
+          ],
+          "quote": "Perplexity is interestingly more similar to Google than ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2222.481,
+            2228.449
+          ],
+          "quote": "Perplexity was around 70%, but essentially they're all similar algorithms, but with very different citations and results.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2248.561,
+            2258.74
+          ],
+          "quote": "Considering that ChatGPT, they're going to hit something like a billion weekly active users in the near future, do you need to worry about Claude and Gemini and Perplexity?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2288.246,
+            2291.711
+          ],
+          "quote": "Will Perplexity or Claude or these others compete with them?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": true,
+      "how_described": "本集说 Reddit 在 LLM 中被大量引用，社区管理很严，创建假账号刷屏会被封；有效策略是注册账号说明你是谁、在哪工作，然后给有用的回答",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.194,
+            31
+          ],
+          "quote": "You can have a Reddit thread, you can have a YouTube video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 160,
+          "t": [
+            687.569,
+            699
+          ],
+          "quote": "And so for Webflow, we work with them on YouTube videos, Vimeo videos, getting mentioned in Reddit, getting mentioned in other blogs, affiliates, stuff like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            703.431,
+            706.519
+          ],
+          "quote": "Number two is YouTube videos, and then the third is Reddit optimization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 174,
+          "t": [
+            758.817,
+            761.499
+          ],
+          "quote": "You can have a Reddit thread, you can have a YouTube video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 211,
+          "t": [
+            936.482,
+            947.458
+          ],
+          "quote": "Going back to the three levers you shared, essentially it's the things that you see work in driving you showing up more in these answer engines, landing pages, YouTube videos and Reddit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            976.031,
+            982.94
+          ],
+          "quote": "Citations are comprised of video, UGC like Reddit and Quora, affiliates.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 225,
+          "t": [
+            998.514,
+            1000.92
+          ],
+          "quote": "Showing links from, say, Reddit is always great.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1001.905,
+            1003.653
+          ],
+          "quote": "It's interesting that Reddit is such a big deal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1005.46,
+            1007.783
+          ],
+          "quote": "Okay, Reddit is one of the most interesting things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1012.948,
+            1018.613
+          ],
+          "quote": "And it's probably the number one thing people are asking, customers are asking me is, \"How do we optimize for Reddit?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1026.941,
+            1037.691
+          ],
+          "quote": "And so Reddit is a community where it's real opinions from people, authentic, and it's heavily managed by the community and the community is very good at managing it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1038.112,
+            1046.98
+          ],
+          "quote": "And so the obvious strategy for a growth person is, \"Let's make a bunch of automated spam and spam Reddit all over the place and get my product to show up everywhere.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1054.248,
+            1059.954
+          ],
+          "quote": "They're looking at creating hundreds of fake Reddit accounts pretending to be someone that you're not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1060.034,
+            1062.196
+          ],
+          "quote": "I have a single person, I'm going to make 100 Reddit accounts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1085.06,
+            1092.966
+          ],
+          "quote": "The other strategy is the whole purpose of Reddit is to post useful, high-quality, authentic comments from real people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1127.521,
+            1132.653
+          ],
+          "quote": "So the Reddit strategy is the obvious strategy, which is just to be an actual user of Reddit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1140.889,
+            1147
+          ],
+          "quote": "And this is how they grew initially, before AI even came around, just going big on Reddit and answering people's questions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1152.647,
+            1157.553
+          ],
+          "quote": "It's so interesting that Reddit is what is keeping ChatGPT from being spammed with stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1157.974,
+            1162.319
+          ],
+          "quote": "It's not that ChatGPT is stopping the spam, its Reddit is just really good at that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1185.967,
+            1186.928
+          ],
+          "quote": "Is Reddit showing up?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1188.069,
+            1195.939
+          ],
+          "quote": "So I think that there are actual people at ChatGPT who are intentionally configuring their algorithm to use Reddit because it's trusted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1198.041,
+            1207.233
+          ],
+          "quote": "Google has specifically configured their search algorithm to rank Reddit and Twitter and Quora, because they want user-generated content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1432.77,
+            1440.879
+          ],
+          "quote": "And one strategy that you can use, is what are all the questions people are asking you on your sales calls, customer support on Reddit?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1461.36,
+            1469.709
+          ],
+          "quote": "And you can break up the citations into different groups, my site, video, YouTube, Vimeo, UGC, Quora, Reddit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1900.595,
+            1907.58
+          ],
+          "quote": "Then Reddit, so I mentioned with Webflow what we did, which is just make a Reddit account, say who you are, say where you work and give a useful answer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1996.661,
+            2003.768
+          ],
+          "quote": "So most SEO people are not going to be amazing at creating YouTube videos and Reddit strategy, so you might need a different person for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2637.04,
+            2645.308
+          ],
+          "quote": "So get into affiliates like Dotdash, YouTube, Reddit, Quora sounds like are the core, and then run an experiment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2692.134,
+            2697
+          ],
+          "quote": "Test group would be, \"I'm going to now comment on Reddit threads, so let's test that.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": false,
+      "how_described": "本集说 YouTube 策略很容易因为没人管你发什么，特别适合 B2B 那些不够光鲜但高价值的关键词，没什么人做 AI 支付 API 的视频",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.194,
+            31
+          ],
+          "quote": "You can have a Reddit thread, you can have a YouTube video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 33,
+          "t": [
+            130.34,
+            135.746
+          ],
+          "quote": "If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube, it helps tremendously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 160,
+          "t": [
+            687.569,
+            699
+          ],
+          "quote": "And so for Webflow, we work with them on YouTube videos, Vimeo videos, getting mentioned in Reddit, getting mentioned in other blogs, affiliates, stuff like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            703.431,
+            706.519
+          ],
+          "quote": "Number two is YouTube videos, and then the third is Reddit optimization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 174,
+          "t": [
+            758.817,
+            761.499
+          ],
+          "quote": "You can have a Reddit thread, you can have a YouTube video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 211,
+          "t": [
+            936.482,
+            947.458
+          ],
+          "quote": "Going back to the three levers you shared, essentially it's the things that you see work in driving you showing up more in these answer engines, landing pages, YouTube videos and Reddit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1461.36,
+            1469.709
+          ],
+          "quote": "And you can break up the citations into different groups, my site, video, YouTube, Vimeo, UGC, Quora, Reddit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1852.254,
+            1859
+          ],
+          "quote": "The YouTube, Vimeo strategy is also actually pretty easy because there's no community saying, \"I don't like your YouTube video.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1859.08,
+            1861.463
+          ],
+          "quote": "You make a YouTube video, you do whatever you want.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1861.823,
+            1865.647
+          ],
+          "quote": "Maybe people view it, maybe they don't, but you can make a YouTube video or a Vimeo video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1865.967,
+            1877.74
+          ],
+          "quote": "And the interesting thing with this, especially for B2B, is that YouTube, Vimeo, other video sites, the kinds of things people make videos for are food, traveling, fun, beauty.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1996.661,
+            2003.768
+          ],
+          "quote": "So most SEO people are not going to be amazing at creating YouTube videos and Reddit strategy, so you might need a different person for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2637.04,
+            2645.308
+          ],
+          "quote": "So get into affiliates like Dotdash, YouTube, Reddit, Quora sounds like are the core, and then run an experiment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2697.16,
+            2703.609
+          ],
+          "quote": "Or I'm now going to make a YouTube, Vimeo video, or I'm now going to pay Forbes advisor to say that I'm the best credit card.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2885.681,
+            2889.365
+          ],
+          "quote": "And then before that it was Instagram, and then before that it was Facebook and it was YouTube.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2889.805,
+            2896.533
+          ],
+          "quote": "And people do search and discover on Instagram, TikTok, YouTube, but it doesn't take away from Google Search.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "graphite",
+      "type": "company",
+      "role": "company",
+      "name": "Graphite",
+      "file": "Graphite",
+      "primary": false,
+      "how_described": "本集说 Ethan Smith 是 Graphite 的 CEO，Graphite 有一个博客叫 The 5%，主题是 5% 的着陆页驱动了几乎所有的影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            67.562,
+            71.706
+          ],
+          "quote": "Ethan is the CEO of Graphite and my go-to expert for all things SEO.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 937,
+          "t": [
+            4277.04,
+            4280.477
+          ],
+          "quote": "Also, just to point people to your domain, graphite.io, is that the right domain?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dotdash-meredith",
+      "type": "company",
+      "role": "company",
+      "name": "Dotdash Meredith",
+      "file": "Dotdash Meredith",
+      "primary": false,
+      "how_described": "本集说 Dotdash Meredith 是拥有 Good Housekeeping、Allrecipes、Investopedia 的大型媒体集团，可能是有史以来最成功的 SEO 公司，也是 LLM 中被引用最多的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            983.06,
+            992.9
+          ],
+          "quote": "Dotdash Meredith is showing up all over the place, Glamour, Good Housekeeping, it's like getting mentioned there, blogs, so it's those two groups.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1482.561,
+            1488.392
+          ],
+          "quote": "Dotdash Meredith is a large media conglomerate with Good Housekeeping, Allrecipes, Investopedia.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

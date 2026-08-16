@@ -1,0 +1,183 @@
+{
+  "title_zh": "AEO实战指南：如何让产品出现在ChatGPT答案里",
+  "tldr": "AEO不是新渠道，是SEO的延伸——核心在于让产品被LLM引用时尽可能多地出现。",
+  "digest_md": "Webflow 的 LLM 流量转化率是 Google 搜索流量的 6 倍 [14:46 Ethan Smith]。不是流量多一点，是转化率差了整整一个数量级。原因很简单：用户在 ChatGPT 里追问了好几轮，意图已经极其明确，点进去就是买单的。但这里有个反直觉的点——在 Google 里，你的链接排第一就赢了；在 LLM 里，排第一不代表赢，因为 LLM 是在总结多条引用，**被提及次数最多**的那个才会被推荐 [11:12 Ethan Smith]。所以你需要的不是一条排名最高的链接，而是一堆引用里反复出现你的名字。\n\n## AEO 和 SEO 到底什么关系\n\nAEO（Answer Engine Optimization）和 GEO（Generative Engine Optimization）本质上是同一件事——怎么让你的产品作为答案出现在 LLM 的回复里 [06:44 Ethan Smith]。Ethan 做了 18 年 SEO，他认为这是仅次于 Google 当年用 Panda 算法打击垃圾内容的第二大变化，但不是\"一切归零\"的重来 [05:56 Ethan Smith]。SEO 里有效的东西在 AEO 里依然有效，只是多了几个新的杠杆。底层的机制是 LLM 加 RAG（检索增强生成，简单说就是先搜一轮、再总结）[20:24 Ethan Smith]。你影响的是 RAG 那一层，不是模型的训练数据。这意味着你今天做了优化，明天就能看到效果——跟训练数据完全无关 [21:18 Ethan Smith]。\n\n## 两个关键差异：头部和尾部\n\n头部（比如\"最好的网站构建器是什么\"）的玩法跟 Google 完全不同。Google 是蓝色链接排第一就赢，LLM 是谁的引用出现次数最多谁赢 [11:08 Ethan Smith]。所以你不能只盯着自己的页面排名，还得去 YouTube、Reddit、博客、联盟营销站点上多处出现。Webflow 的做法就是同时发力自有页面、YouTube 视频和 Reddit [11:39 Ethan Smith]。\n\n尾部（长尾问题）在聊天里比在搜索里大得多。搜索平均查询大约 6 个词，聊天里平均约 25 个词 [13:09 Ethan Smith]。人们会追问极其具体的问题——\"哪个会议转录工具能和 Looker 集成？\"——这种问题在搜索里根本不存在，但在聊天里大量出现 [14:05 Ethan Smith]。如果你能回答这些没人回答过的具体问题，你就是唯一的引用来源。\n\n## 早期公司可以赢，而且可以快速赢\n\n传统 SEO 对早期公司不友好，因为你没有域名权重，排名上不去，通常要等到 A 轮以后才值得做 [12:23 Ethan Smith]。但 AEO 不一样：一个刚发布的 YC 公司，如果大家都在讨论它，明天它就可能出现在 ChatGPT 的答案里 [12:42 Ethan Smith]。你不需要域名权重，你需要的是被引用。\n\n## 具体怎么做：七步框架\n\n**第一步：确定你要回答哪些问题。** 拿你竞争对手的付费搜索词（他们在花钱买什么词，说明那些词最值钱），丢给 ChatGPT 说\"把这些变成人们会问的问题\" [29:30 Ethan Smith]。再从你的销售电话、客户支持、Reddit 上挖掘那些搜索里不存在的长尾问题 [24:02 Ethan Smith]。\n\n**第二步：上追踪工具。** 答案追踪是关键词追踪的升级版。关键区别在于：同一个问题问多次，LLM 每次给的答案不一样；不同界面（ChatGPT、Perplexity、Gemini）答案也不同 [34:25 Ethan Smith]。你需要看的是\"声音份额\"——在所有提问中，你出现的百分比和平均排名 [35:06 Ethan Smith]。工具市面上有几十个，选最便宜的就行 [36:36 Ethan Smith]。\n\n**第三步：分析谁在做引用。** 看看你目标问题下的引用都来自哪些类型的站点——视频、UGC（Reddit/Quora）、一级联盟（比如 Dotdash Meredith 旗下的站点）、博客——然后给每组制定策略 [24:21 Ethan Smith]。\n\n**第四步：做自己的页面。** 看引用里哪种页面类型出现最多——列表文、分类页、工具页——照着做。关键是**回答所有后续问题**：功能、用例、集成、支持什么语言 [16:04 Ethan Smith]。你回答的子问题越多，越有可能被选中 [22:42 Ethan Smith]。\n\n**第五步：站外引用策略，按组来。** 联盟营销：有钱就行，付钱让 Forbes 说你是最好的信用卡，贵但可控 [30:44 Ethan Smith]。YouTube/Vimeo：没人管你发什么，特别适合 B2B 那些不够\"光鲜\"但高价值的关键词——没什么人做 AI 支付 API 的视频，你做了就是机会 [31:18 Ethan Smith]。Reddit：真正有效的策略反而最简单——注册账号，说明你是谁、在哪工作，然后给一条有用的回答 [18:30 Ethan Smith]。不要搞几百个假账号刷屏，Reddit 社区管得很严，那些号会被封 [17:56 Ethan Smith]。\n\n**第六步：做实验，不要信网上写的。** SEO 和 AEO 领域大部分\"最佳实践\"没人验证过 [32:13 Ethan Smith]。拿 200 个问题，100 个不动做对照，100 个做干预（比如去 Reddit 发评论、做 YouTube 视频），跑几周看对照组的曲线有没有分开 [44:19 Ethan Smith]。有效的策略要能重复验证 [45:22 Ethan Smith]。\n\n**第七步：搭团队。** SEO 团队能覆盖站内和部分站外，但 YouTube 视频制作和 Reddit 社区运营可能需要一个社区营销的人 [33:16 Ethan Smith]。\n\n## 帮助中心是被忽略的金矿\n\n聊天里大量问题是\"你的产品能做 X 吗？支持 Y 集成吗？\"——这些本该由帮助中心回答 [61:04 Ethan Smith]。三个动作：把帮助中心从子域挪到子目录（子域排名效果差）[61:28 Ethan Smith]；做好内部交叉链接 [61:36 Ethan Smith]；补上长尾问题的帮助文档——销售电话和客服里被问到但没写文档的那些 [62:31 Ethan Smith]。很多长尾问题可能网上根本没人写过，你写了就是唯一引用 [62:50 Ethan Smith]。\n\n## AI 生成内容为什么行不通\n\nEthan 的团队做了严格研究：Google 搜索结果里约 10%-12% 是纯 AI 生成的内容，ChatGPT 引用里比例类似，绝大多数不是 [54:32 Ethan Smith]。纯 AI 生成（无人介入）的内容不奏效。更深层的原因是\"衍生内容的无限循环\"：如果 AI 生成的内容能被排名，所有人都会做，然后 Google 就变成了 ChatGPT 回答的搜索引擎，Google 没理由让这种事发生 [55:57 Ethan Smith]。而在 RAG 层面，如果引用全是 AI 衍生内容，LLM 总结的\"群体智慧\"会收敛成单一观点——问最好吃的冰淇淋口味，答案会变成\"只有香草\" [58:00 Ethan Smith]。AI 辅助、有人编辑的内容才是方向 [54:48 Ethan Smith]。\n\n## 几个容易被误导的点\n\n\"Google 搜索要死了\"——不是真的。Google 搜索副总裁说发给发布商的流量没降，还微升了 [48:27 Ethan Smith]。TikTok 搜索、Instagram 搜索、现在 AEO，都是新的增量渠道，不是在抢 Google 的份额——Google 的那块蛋糕没变，是整个饼变大了 [48:17 Ethan Smith]。\n\n\"AEO 工具很贵很神秘\"——本质上就是关键词追踪，不应该花大价钱 [48:54 Ethan Smith]。\n\n\"不同 LLM 的结果差不多\"——实际上 ChatGPT 引用和 Google 搜索结果的重叠率只有约 35%，Perplexity 和 Google 的重叠率约 70% [36:53 Ethan Smith]。算法相似，但引用和结果差异很大。\n\n## 本集带走\n- **被提及次数比排名位置更重要**：LLM 总结多条引用，出现次数最多的产品会被推荐，不是链接排第一就赢。\n- **从竞争对手的付费搜索词入手**：把他们花钱买的词丢给 ChatGPT 转成问题，这就是你要回答的问题清单。\n- **B2B 做 YouTube 视频是蓝海**：没人做\"AI 支付处理 API\"的视频，你做了就可能成为唯一引用来源。\n- **Reddit 策略就是老实当用户**：说清你是谁、在哪工作，给有用回答。不要搞假号刷屏，会被封。\n- **补帮助中心的长尾**：把销售电话和客服里被问到但没文档的问题写成帮助页，可能是网上唯一回答。\n- **必须做对照实验**：拿 100 个问题不动当对照，100 个做干预，看曲线是否分开。别信网上没被验证过的\"最佳实践\"。\n- **纯 AI 生成内容不奏效**：AI 辅助加人工编辑是方向，100% 无人工介入的内容在搜索和 LLM 引用中都不占优。",
+  "quotes": [
+    {
+      "en": "Because the LLM is summarizing many citations and so you need to get mentioned as many times as possible.",
+      "zh": "因为 LLM 正在总结许多引用，所以你需要尽可能多地被提及。",
+      "timestamp": "11:12",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "Webflow, we saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+      "zh": "Webflow，我们看到 LLM 流量和 Google 搜索流量之间的转化率差异是 6 倍。",
+      "timestamp": "14:47",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "The average number of words, I think, Perplexity said this to somebody else, said that it was around 25 words, where versus Google words it's around six words.",
+      "zh": "平均字数，我想，Perplexity 对别人说过，大约是 25 个单词，而对比 Google 单词大约是 6 个单词。",
+      "timestamp": "13:09",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "And so there's all these questions that have never been asked or searched for before that are now being asked, and then you can win that.",
+      "zh": "所以有所有这些以前从未被问过或搜索过的问题现在正在被问，然后你可以赢那个。",
+      "timestamp": "13:58",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "So we did an analysis where one out of 20 landing pages drive roughly 85% of all your traffic.",
+      "zh": "所以我们做了一个分析，20 个着陆页中大约有 1 个驱动了大约 85% 的流量。",
+      "timestamp": "25:48",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "SEO and AEO are both interesting in that the majority of the information and best practices are not correct.",
+      "zh": "SEO 和 AEO 都有趣的地方在于，大多数信息和最佳实践是不正确的。",
+      "timestamp": "32:06",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "These are all new channels, so Google's slice of the pie stays the same, the pie gets bigger.",
+      "zh": "这些都是新渠道，所以 Google 的那块蛋糕保持不变，蛋糕变大了。",
+      "timestamp": "48:17",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "If Google's a search engine for ChatGPT responses, there's no reason for Google to exist.",
+      "zh": "如果 Google 是一个针对 ChatGPT 回答的搜索引擎，Google 就没有理由存在了。",
+      "timestamp": "55:57",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "You essentially converge on one opinion. So if you ask, \"What's the best flavor of ice cream?\" It will eventually say, \"It's vanilla and it's only vanilla, and there's no other flavor of ice cream.\"",
+      "zh": "你基本上会收敛到一个意见。所以如果你问，\"最好的冰淇淋口味是什么？\"它最终会说，\"是香草味，而且只有香草味，没有其他口味的冰淇淋。\"",
+      "timestamp": "57:58",
+      "speaker": "Ethan Smith"
+    },
+    {
+      "en": "And Webflow, they get 8% of those signups from LLMs. It's now one of your top channels so it's large.",
+      "zh": "而且 Webflow，他们 8% 的注册来自 LLM。它现在是你最大的渠道之一，所以它很大。",
+      "timestamp": "46:45",
+      "speaker": "Ethan Smith"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "11:12",
+      "speaker": "Ethan Smith",
+      "en": "Because the LLM is summarizing many citations and so you need to get mentioned as many times as possible.",
+      "zh": "因为 LLM 正在总结许多引用，所以你需要尽可能多地被提及。"
+    },
+    {
+      "timestamp": "14:46",
+      "speaker": "Ethan Smith",
+      "en": "Webflow, we saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+      "zh": "Webflow，我们看到 LLM 流量和 Google 搜索流量之间的转化率差异是 6 倍。"
+    },
+    {
+      "timestamp": "12:31",
+      "speaker": "Ethan Smith",
+      "en": "That's not the case for Answer Engine Optimization, because you can get mentioned by a citation tomorrow and start showing up immediately.",
+      "zh": "对于 Answer Engine Optimization 情况并非如此，因为你明天就能被引用提及并立即开始显示。"
+    },
+    {
+      "timestamp": "13:09",
+      "speaker": "Ethan Smith",
+      "en": "The average number of words, I think, Perplexity said this to somebody else, said that it was around 25 words, where versus Google words it's around six words.",
+      "zh": "平均字数，我想，Perplexity 对别人说过，大约是 25 个单词，而对比 Google 单词大约是 6 个单词。"
+    },
+    {
+      "timestamp": "14:05",
+      "speaker": "Ethan Smith",
+      "en": "And so there's all these questions that have never been asked or searched for before that are now being asked, and then you can win that.",
+      "zh": "所以有所有这些以前从未被问过或搜索过的问题现在正在被问，然后你可以赢那个。"
+    },
+    {
+      "timestamp": "20:24",
+      "speaker": "Ethan Smith",
+      "en": "So there's the core model and then there's RAG. So the core model is I'm looking at common crawl on billions of web pages, and then I'm retraining the model.",
+      "zh": "所以有核心模型，然后有 RAG。核心模型是我正在看数十亿网页的 common crawl，然后我在重新训练模型。"
+    },
+    {
+      "timestamp": "21:18",
+      "speaker": "Ethan Smith",
+      "en": "So I'm mostly focused on the RAG side, because that's the main thing that's controllable.",
+      "zh": "所以我主要关注 RAG 方面，因为那是主要可控的东西。"
+    },
+    {
+      "timestamp": "18:30",
+      "speaker": "Ethan Smith",
+      "en": "Say who you are, say where you work, and then give a useful piece of information, and that works really well.",
+      "zh": "说明你是谁，说明你在哪里工作，然后给出一条有用的信息，这非常有效。"
+    },
+    {
+      "timestamp": "17:56",
+      "speaker": "Ethan Smith",
+      "en": "And so we're seeing people trying to spam and being unsuccessful, so that's one strategy.",
+      "zh": "所以我们看到人们试图刷屏但没有成功，所以那是一种策略。"
+    },
+    {
+      "timestamp": "31:18",
+      "speaker": "Ethan Smith",
+      "en": "There's not that many videos about AI-powered payment processing APIs, as interesting as that is, but it's a great money turn.",
+      "zh": "关于 AI 驱动的支付处理 API 的视频并不多，尽管那很有趣，但这是一门很好的生意。"
+    },
+    {
+      "timestamp": "25:48",
+      "speaker": "Ethan Smith",
+      "en": "So we did an analysis where one out of 20 landing pages drive roughly 85% of all your traffic.",
+      "zh": "所以我们做了一个分析，20 个着陆页中大约有 1 个驱动了大约 85% 的流量。"
+    },
+    {
+      "timestamp": "32:13",
+      "speaker": "Ethan Smith",
+      "en": "SEO and AEO are both interesting in that the majority of the information and best practices are not correct.",
+      "zh": "SEO 和 AEO 都有趣的地方在于，大多数信息和最佳实践是不正确的。"
+    },
+    {
+      "timestamp": "36:53",
+      "speaker": "Ethan Smith",
+      "en": "We did a study looking at thousands of questions and saw the citation overlap with Google Search results was around 35% for ChatGPT and Google, so not that much.",
+      "zh": "我们做了一项研究观察了数千个问题，发现与 Google 搜索结果的引用重叠率对于 ChatGPT 和 Google 来说大约是 35%，所以不是很多。"
+    },
+    {
+      "timestamp": "48:17",
+      "speaker": "Ethan Smith",
+      "en": "These are all new channels, so Google's slice of the pie stays the same, the pie gets bigger.",
+      "zh": "这些都是新渠道，所以 Google 的那块蛋糕保持不变，蛋糕变大了。"
+    },
+    {
+      "timestamp": "54:32",
+      "speaker": "Ethan Smith",
+      "en": "So then what we saw was around 10% to 12% of content in Google Search, and then ChatGPT or AI-generated, 90% are not.",
+      "zh": "所以我们观察到的是，Google 搜索中约有 10% 到 12% 的内容是 AI 生成的或 ChatGPT 生成的，90% 不是。"
+    },
+    {
+      "timestamp": "55:57",
+      "speaker": "Ethan Smith",
+      "en": "If Google's a search engine for ChatGPT responses, there's no reason for Google to exist.",
+      "zh": "如果 Google 是一个针对 ChatGPT 回答的搜索引擎，Google 就没有理由存在了。"
+    },
+    {
+      "timestamp": "58:00",
+      "speaker": "Ethan Smith",
+      "en": "You essentially converge on one opinion. So if you ask, \"What's the best flavor of ice cream?\" It will eventually say, \"It's vanilla and it's only vanilla, and there's no other flavor of ice cream.\"",
+      "zh": "你基本上会收敛到一个意见。所以如果你问，\"最好的冰淇淋口味是什么？\"它最终会说，\"是香草味，而且只有香草味，没有其他口味的冰淇淋。\""
+    },
+    {
+      "timestamp": "61:04",
+      "speaker": "Ethan Smith",
+      "en": "They're looking for tools. Do you have this feature, this use case, this integration? And that frequently can be answered in help centers.",
+      "zh": "他们在寻找工具。你有这个功能、这个用例、这个集成吗？这些通常可以在帮助中心得到回答。"
+    },
+    {
+      "timestamp": "46:45",
+      "speaker": "Ethan Smith",
+      "en": "And Webflow, they get 8% of those signups from LLMs. It's now one of your top channels so it's large.",
+      "zh": "而且 Webflow，他们 8% 的注册来自 LLM。它现在是你最大的渠道之一，所以它很大。"
+    }
+  ]
+}

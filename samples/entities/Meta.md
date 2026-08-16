@@ -5,12 +5,13 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(14:53起):本集提到 Garrett 从 Meta 雇佣了一位参与过后训练的人，以及 Alex 正在 Meta 运营 superintelligence
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(01:13起):本集提到它是嘉宾目前担任产品经理(PM)的公司,嘉宾分享了自己在 Claude 中建「教练」项目、大量模拟面试从而拿下 Meta Offer 的经历。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为 Anthropic 竞争对手时用作对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。
@@ -31,8 +32,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[Lenny]] · [[AGI]] · [[护栏]] · [[Codex]] · [[Claude Code]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[Cursor]] · [[Codex]] · [[AGI]] · [[护栏]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":82,"Anthropic":45,"OpenAI":36,"Google":16,"Cursor":15,"Lenny":44,"AGI":10,"护栏":13,"Codex":17,"Claude Code":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":84,"Anthropic":46,"OpenAI":36,"Google":17,"Lenny":47,"Cursor":15,"Codex":17,"AGI":10,"护栏":14,"后训练":7}</script>
 
 <script>
 (function(){
@@ -274,7 +276,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

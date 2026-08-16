@@ -5,12 +5,13 @@ type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M10 16.8s-6-3.8-6-8.4a3.2 3.2 0 0 1 6-1.5 3.2 3.2 0 0 1 6 1.5c0 4.6-6 8.4-6 8.4z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(59:18起):本集提到 Garrett 曾在 Palantir 做实习生，这段经历彻底改变了他的生活
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(41:15起):本集把它说成:Forward Deployed Engineer 模式的践行者，是大企业最懂怎么买的服务和外部咨询预算的代表。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(13:12起):本集提及它的 CEO 曾走红警告过:不要把你最核心的 Alpha(知识产权/智能)外包给前沿大模型实验室。
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(25:09起):本集提到它推广了前向部署工程师（FDE）模式（CTO Shyam 名言：FDE 吞食痛苦排泄产品），靠该策略拿下大单。嘉宾曾任其部署策略师。
@@ -19,8 +20,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司(提及)
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
@@ -31,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[前向部署工程师]] · [[开源模型]] · [[Meta]] · [[Jen Abel]] · [[Jensen Wong]] · [[Sarah Wang]] · [[Alexandr Wang]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[Lenny]] · [[前向部署工程师]] · [[开源模型]] · [[后训练]] · [[预训练]] · [[Scale]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":36,"Anthropic":45,"智能体":82,"前向部署工程师":5,"开源模型":5,"Meta":13,"Jen Abel":1,"Jensen Wong":1,"Sarah Wang":1,"Alexandr Wang":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":46,"智能体":84,"OpenAI":36,"Meta":14,"Lenny":47,"前向部署工程师":5,"开源模型":6,"后训练":7,"预训练":3,"Scale":2}</script>
 
 <script>
 (function(){
@@ -254,7 +256,15 @@ unlisted: true
       if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  function direct(){
+    var ref = document.referrer || '';
+    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

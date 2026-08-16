@@ -206,9 +206,9 @@ AI 也没有取代搜索，它在扩张搜索 <button class="pd-ts" data-t="38:2
 
 **换个口味**
 
+- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:Google、ChatGPT</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Google · 同概念:Gemini</span>
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同公司:Google · 同概念:Gemini</span>
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Google</span>
 
 </div>
 </div>

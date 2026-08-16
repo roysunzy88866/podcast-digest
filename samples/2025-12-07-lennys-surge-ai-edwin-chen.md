@@ -137,8 +137,8 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)、AGI</span>
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同公司:Anthropic、ChatGPT · 同概念:后训练 (post training)、数据标注 (data labeling)</span>
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:ChatGPT、Waymo</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)</span>
 
 </div>
 <div class="pd-ex">

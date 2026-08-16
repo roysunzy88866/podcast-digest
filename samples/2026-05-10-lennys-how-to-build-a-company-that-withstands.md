@@ -217,7 +217,7 @@ Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就�
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
-- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
+- [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
 
 </div>
 <div class="pd-ex">
