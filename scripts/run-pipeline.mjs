@@ -52,11 +52,24 @@ export const SOURCES = [
   //   feedUrl 经 agent 调研 + 本机 curl 双验(iTunes lookup 交叉核)。加源须先 --seed 设基线(只向前看,drift #22)。
   { key: "beyondcoding", name: "Beyond Coding", feedUrl: "https://anchor.fm/s/5bb57eac/podcast/rss", asr: "whisperx" },
   { key: "founders", name: "Founders", feedUrl: "https://feeds.megaphone.fm/DSLLC6297708582", asr: "whisperx" },
+  // 2026-08-16 用户逐个确认再接两源(drift #58):
+  //   Dwarkesh = AI/科学顶级深访,Substack 官方稿(集页实测 84 处 transcription)→ 无 asr、走官方稿
+  //     (集长 2-4h,whisperX 会拖垮 runner,故必用官方稿);⚠️ Substack 地理陈旧,接后盯一轮看新音频集能否及时进。
+  //   doac(Diary of a CEO)= 泛商业/名人,Flightcast(非 Substack、feed 870 集)→ whisperX;
+  //     题材泛,靠品味判官逐集筛,**不进顶量补历史池**(见 BACKFILL_FEED_KEYS),免拿健康/名人集凑 5/日。
+  { key: "dwarkesh", name: "Dwarkesh Podcast", feedUrl: "https://www.dwarkesh.com/feed" },
+  { key: "doac", name: "The Diary of a CEO", feedUrl: "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn", asr: "whisperx" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
   { key: "talks", name: "精选演讲", seedDir: "data/talks-seed", asr: "whisperx", manual: true },
 ];
+
+/** 参与「每日顶量补历史」的源(drift #58 用户「多拉不同源历史档」)。
+ *  lennys 走 vendored archiveFile(Substack www feed 浅);这些**非 Substack 源 feed 本身够深**
+ *  (a16z 1000/bigtech 554/yc 334/beyondcoding 263… 实测)= 现成历史档,顶量时直接抓 feed 往回补。
+ *  只列题材贴 AI/创业/科技的;**排除** founders(创始人传记偏)/doac(泛商业)/pg(Substack 浅 feed)——免拿偏题集凑 5/日。 */
+export const BACKFILL_FEED_KEYS = ["a16z", "aia16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding"];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
 const BROWSER_HEADERS = {
@@ -722,7 +735,7 @@ async function main() {
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
   // 叠加守卫:--backfill(手动评估批)/--talks/--source 各入口即便误传也不顶量。
   if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
-    const r = backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: new Date().toISOString().slice(0, 10) });
+    const r = await backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: new Date().toISOString().slice(0, 10) });
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -944,7 +957,7 @@ function processBackfillPicks(picks, state, source) {
 }
 
 /** 每日顶量一轮:当天入库 <target 时,从带 archiveFile 的源倒序补历史(比库内该源最旧一期更旧)。返回 {clean, skipped}。 */
-function backfillTopUpPass(state, { target, dryRun, todayISO }) {
+async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   const have = countAddedToday(todayISO);
   const need = Math.max(0, target - have);
   if (need === 0) {
@@ -963,13 +976,14 @@ function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   //   直到补够 target / 归档更旧候选耗尽 / 触及成本护栏(防坏归档区无限烧钱)。need=5 → 最多试 ~13 集。
   const attemptCap = need * 2 + 3;
   let attempted = 0;
-  for (const source of SOURCES.filter((s) => s.archiveFile)) {
+  for (const source of SOURCES.filter((s) => s.archiveFile || BACKFILL_FEED_KEYS.includes(s.key))) {
     if (remaining <= 0) break;
     let items;
     try {
-      items = readArchiveItems(source.archiveFile);
+      // lennys 读 vendored archiveFile(Substack 浅 feed);其余深 feed 源直接抓 live feed 当历史档(drift #58)
+      items = source.archiveFile ? readArchiveItems(source.archiveFile) : parseFeed(await fetchFeed(source.feedUrl));
     } catch (e) {
-      console.error(`   ⚠️ ${source.key} 归档读取失败,跳过顶量:${e.message}`);
+      console.error(`   ⚠️ ${source.key} 历史档读取失败,跳过顶量:${e.message}`);
       continue;
     }
     // 库内该源现有最旧一期(id 前 10 位 = YYYY-MM-DD)→ 补比它更旧的;seen 集在循环里推进往回边界

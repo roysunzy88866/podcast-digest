@@ -1,7 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -178,6 +178,24 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
       expect(by[k]?.asr).toBe("whisperx"); // 无平台官方稿
       expect(by[k]?.feedUrl).not.toContain("substack"); // 非 Substack,不撞 drift #55 陈旧坑
     }
+  });
+  it("★ 2026-08-16 逐个确认再接两源(Dwarkesh / Diary of a CEO,drift #58)", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    // Dwarkesh:Substack 官方稿(集页 84 处 transcription)→ 无 asr、走官方稿(集长 2-4h,whisperX 会拖垮 runner)
+    expect(by.dwarkesh?.feedUrl).toBe("https://www.dwarkesh.com/feed");
+    expect(by.dwarkesh?.asr).toBeUndefined();
+    // doac:Flightcast 非 Substack、无官方稿 → whisperX
+    expect(by.doac?.feedUrl).toContain("flightcast.com");
+    expect(by.doac?.asr).toBe("whisperx");
+  });
+  it("★ 补历史池(drift #58):含题材贴的深 feed 源;排除 founders/doac/pg/lennys(避免偏题集凑 5/日或 Substack 浅 feed)", () => {
+    expect(BACKFILL_FEED_KEYS).toContain("a16z");
+    expect(BACKFILL_FEED_KEYS).toContain("beyondcoding");
+    // 排除项:泛/偏题/Substack 浅
+    for (const k of ["founders", "doac", "pg", "lennys", "dwarkesh"]) expect(BACKFILL_FEED_KEYS).not.toContain(k);
+    // 池内的 key 都是真实存在的源
+    const keys = new Set(SOURCES.map((s) => s.key));
+    for (const k of BACKFILL_FEED_KEYS) expect(keys.has(k)).toBe(true);
   });
   it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {
     for (const s of SOURCES) {
