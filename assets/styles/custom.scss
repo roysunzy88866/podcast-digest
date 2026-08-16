@@ -1126,8 +1126,10 @@ body:has(.pd-play) article h1 {
 }
 
 /* 去掉 Quartz 给每个标题自动加的 permalink 锚点图标(链条 svg,a[role=anchor]).
-   设计稿标题都是纯文字,无此图标(2026-08-15 用户:标题后那个图标不需要)。开源默认残留清理。 */
-body:has(.pd-play) article :is(h1, h2, h3, h4, h5, h6) a[role="anchor"] {
+   设计稿标题都是纯文字,无此图标。开源默认残留清理。
+   全站生效(不限 .pd-play 集页作用域)——大类页/实体页/必读页标题同样有此图标
+   (2026-08-16 用户点名大类页「N 集」后的链条图标;上一版只覆盖集页故漏)。 */
+:is(h1, h2, h3, h4, h5, h6) a[role="anchor"] {
   display: none;
 }
 
