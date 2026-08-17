@@ -14,6 +14,7 @@ import { writeFileSync, mkdirSync, existsSync, readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { officialImageFromHtml } from "./cover.mjs";
+import { checkTranscriptBelongs } from "./transcript-guard.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const [pageUrl, epId] = process.argv.slice(2);
@@ -27,7 +28,7 @@ if (!pageUrl || !epId) {
 const die = (msg) => {
   console.error(`❌ ${msg}`);
   console.error("   Scenario 1a:取不到官方文字稿就**停**,不退化为手编转写稿冒充。");
-  console.error("   若是网络/代理问题:检查 HTTP(S)_PROXY;若该集确实没有官方稿 → 需走云端 ASR 兜底(尚未实现,见 tech-debt)。");
+  console.error("   若是网络/代理问题:检查 HTTP(S)_PROXY;若该集确实没有官方稿 → run-pipeline 会自动转 ASR 兜底(fetch-source-asr)。");
   process.exit(1);
 };
 
@@ -49,9 +50,20 @@ console.log(`   集页 ${html.length} 字节`);
 // 还原 JSON-in-HTML 的转义,再提取签名 URL
 const txt = html.replace(/\\\//g, "/").replace(/\\u0026/g, "&").replace(/&amp;/g, "&");
 
-const postId = (txt.match(/"id":(\d+),"type":"podcast"/) || txt.match(/post\/(\d+)\//) || [])[1];
-if (!postId) die("集页里找不到 post id(Substack 页面结构可能变了)");
-console.log(`② post id = ${postId}`);
+// ── post id:必须是**本集自己的** id(drift #59 血案)──
+// 曾经的写法先试 `"id":N,"type":"podcast"`、失败回落 `post/(\d+)/`。Substack 改版后主正则
+// 匹配数归零,回落正则抓的是集页里「近期集」推荐轮播的**第一个** id —— 每张集页都一样。
+// 后果:连续 4 集抓回同一份转写稿,3 集带着别人的内容发上了站,全程零报错。
+// 现在改成问官方 API 要本集 id(/api/v1/posts/<slug> 返回 id + podcast_duration),
+// 拿不到就**停**,绝不猜——猜错的代价是发错内容,比停手严重得多。
+const slug = (pageUrl.match(/\/p\/([^/?#]+)/) || [])[1];
+if (!slug) die(`集页 URL 里解不出 slug:${pageUrl}`);
+const apiUrl = new URL(pageUrl).origin + `/api/v1/posts/${slug}`;
+const post = await (await get(apiUrl, "集元数据(官方 API)")).json();
+const postId = post?.id;
+if (!postId) die(`官方 API 没返回 post id(${apiUrl});Substack 接口可能变了`);
+const apiDuration = Number(post.podcast_duration) || 0;
+console.log(`② post id = ${postId}(官方 API 核出,slug=${slug})`);
 
 // aligned transcription.json(含说话人+逐词时间戳);排除 unaligned
 const tUrls = [...txt.matchAll(new RegExp(`https://[^"\\\\ ]*post/${postId}/[^"\\\\ ]*?/transcription\\.json\\?[^"\\\\ ]*`, "g"))]
@@ -66,6 +78,23 @@ if (!Array.isArray(transcript) || !transcript.length) die("官方文字稿为空
 const withWords = transcript.filter((s) => Array.isArray(s.words) && s.words.length).length;
 if (withWords !== transcript.length)
   console.warn(`⚠️ ${transcript.length - withWords}/${transcript.length} 段缺逐词数据(闸门的说话人/时间戳精度会降级)`);
+
+// ── 归属闸门(drift #59)──
+// URL 里带对了 post id 还不够 —— 这道闸独立核「稿子是不是本集的」:
+// 官方 API 给的音频时长 vs 转写稿最后一段的结束时间,对不上就是拿错了稿子。
+// 拿错稿子必须**响亮失败**(exit 1 → run-pipeline 自动转 ASR 兜底),绝不静默发出去。
+const tEnd = Number(transcript[transcript.length - 1]?.end) || 0;
+const belongs = checkTranscriptBelongs(tEnd, apiDuration);
+if (belongs.skipped) {
+  console.warn("⚠️ 归属闸门跳过:官方 API 没给音频时长,无法交叉核对本集归属");
+} else if (!belongs.ok) {
+  die(
+    `转写稿与本集对不上:官方音频 ${Math.round(apiDuration)}s,转写稿 ${Math.round(tEnd)}s,` +
+      `差 ${Math.round(belongs.drift)}s(容差 ${Math.round(belongs.tol)}s)。多半是抓到了别集的稿子 —— 停手,不发。`,
+  );
+} else {
+  console.log(`   ✔ 归属闸门:转写 ${Math.round(tEnd)}s ≈ 官方 ${Math.round(apiDuration)}s(差 ${Math.round(belongs.drift)}s)`);
+}
 
 // 官方单集图(拍板 #15):集页已在手,顺手抠出来写进 meta,cover.mjs 后面直接用(抠法见 cover.mjs)。
 const coverUrl = officialImageFromHtml(html);

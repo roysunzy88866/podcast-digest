@@ -124,12 +124,14 @@ describe("deriveId · 无 URL slug 时标题回退(C10 Megaphone 源)", () => {
 });
 
 describe("C10 · SOURCES 第一梯队六源(2026-07-24 用户拍板)", () => {
-  it("★ 六源齐且路线标记对:pg 走官方稿(无 asr),其余五源 whisperx", () => {
+  it("★ 各源路线标记对:pg 走官方稿(无 asr),whisperx 源标对;aia16z 已停用", () => {
     const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
     expect(by.pg?.asr).toBeUndefined(); // Substack 官方稿,同 lennys
-    for (const k of ["yc", "mad", "trainingdata", "bigtech", "aia16z"]) {
+    for (const k of ["yc", "mad", "trainingdata", "bigtech"]) {
       expect(by[k]?.asr).toBe("whisperx");
     }
+    // aia16z 2026-08-17 停用(drift #59):与 a16z 推同一档播客,实测两组集撞车
+    expect(by.aia16z).toBeUndefined();
     expect(by.pg?.feedUrl).toContain("news.aakashg.com"); // www feed:api.substack 域 403 封 runner(drift #28),不用
   });
   it("★ Megaphone 源新集 item 无 <link>(实探)→ 有标题+音频即算访谈,不整源漏抓", () => {

@@ -40,7 +40,9 @@ export const SOURCES = [
   { key: "mad", name: "The MAD Podcast", feedUrl: "https://anchor.fm/s/f2ee4948/podcast/rss", asr: "whisperx" },
   { key: "trainingdata", name: "Training Data", feedUrl: "https://feeds.megaphone.fm/trainingdata", asr: "whisperx" },
   { key: "bigtech", name: "Big Technology Podcast", feedUrl: "https://feeds.megaphone.fm/LI3617121267", asr: "whisperx" },
-  { key: "aia16z", name: "AI + a16z", feedUrl: "https://feeds.simplecast.com/Hb_IuXOo", asr: "whisperx" },
+  // aia16z 已停用(2026-08-17 用户拍板,drift #59):与 a16z 源推同一档播客,实测两组集撞车
+  // (08-06 vllm / 08-07 网络攻击,连 slug 都一样),白花一倍处理成本还在站上出双份。
+  // { key: "aia16z", name: "AI + a16z", feedUrl: "https://feeds.simplecast.com/Hb_IuXOo", asr: "whisperx" },
   // 2026-08-09 用户拍板扩 3 源(真相源 需求共创/调研-新源候选-2026-08-09.md;iTunes lookup 实测活跃 + 有音频 enclosure):
   // 均无平台官方稿(Transistor/Megaphone/Anchor)→ whisperX。加源前须 --seed 设基线(只向前看,drift #22)。
   { key: "aiandi", name: "AI & I", feedUrl: "https://feeds.transistor.fm/how-do-you-use-chatgpt", asr: "whisperx" },
@@ -80,7 +82,7 @@ export const SOURCES = [
  *  (a16z 1000/bigtech 554/yc 334/beyondcoding 263… 实测)= 现成历史档,顶量时直接抓 feed 往回补。
  *  只列题材贴 AI/创业/科技的;**排除** founders(创始人传记偏)/doac(泛商业)/pg(Substack 浅 feed)——免拿偏题集凑 5/日。 */
 export const BACKFILL_FEED_KEYS = [
-  "a16z", "aia16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding",
+  "a16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding", // aia16z 已停(drift #59,与 a16z 同档播客)
   // 2026-08-16 用户确认再进池(drift #58):deepmind/cogrev/twentyvc 题材贴 AI+深 feed;workos 停更但用户「只挖历史」=靠补历史池挖它 31 集封闭档。
   "deepmind", "cogrev", "twentyvc", "workos",
 ];
