@@ -8,7 +8,7 @@ import {
   parseFeedTranscript,
   isOnTopic,
 } from "../scripts/feed-transcript.mjs";
-import { parseFeed, passesTopicFilter } from "../scripts/run-pipeline.mjs";
+import { parseFeed, passesTopicFilter, selectBackfill, selectBackfillBackward } from "../scripts/run-pipeline.mjs";
 
 // C28 · RSS 自带官方转写稿(Gherkin 见 docs/user-stories.md C28 / ADR 0024)
 //
@@ -153,5 +153,59 @@ describe("C28 · 题材筛选(用户:DOAC 只收商业/科技的)", () => {
   it("★★ 空标题判不准 → 跳过(少发 ≪ 发离题)", () => {
     expect(isOnTopic("")).toBe(false);
     expect(isOnTopic(undefined as any)).toBe(false);
+  });
+});
+
+// ── C28b · 有稿优先(drift #67)──
+// 血账:Beyond Coding 263 集里 206 集有稿,**但最新 6 集恰好都没有** → 原来「一律取最新 N 集」
+// 精准挑中 6 集全要 2.8h 转写的,run 32045583875 跑了 4h45m、注定撞 6h 上限白费。
+// 用户要的是「有稿子的读稿子,没稿子的抓语音,让云端不闲着」→ 排序改成有稿优先。
+describe("C28b · 选集把有稿的排前面(便宜的先吃,剩下时间才喂转写)", () => {
+  const it_ = (date: string, hasT: boolean) => ({
+    title: `Episode ${date}`,
+    link: `https://x/${date}`,
+    pubDateISO: `${date}T00:00:00.000Z`,
+    hasAudio: true,
+    enclosureUrl: `https://x/${date}.mp3`,
+    transcripts: hasT ? [{ url: `https://x/${date}.srt`, type: "application/x-subrip" }] : [],
+    durationSec: 3600,
+  });
+  // 最新的两集没稿(照 Beyond Coding 实况),更旧的两集有稿
+  const items = [it_("2026-08-12", false), it_("2026-08-05", false), it_("2026-07-29", true), it_("2026-07-22", true)];
+  const src = { key: "beyondcoding", name: "BC", feedUrl: "https://x/rss", asr: "whisperx" } as any;
+
+  it("★★★ backfill 取 2 集 → 拿到的是那两集有稿的(不是最新那两集没稿的)", () => {
+    const picks = selectBackfill(items as any, { n: 2, existingIds: [], source: src });
+    expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toEqual(["2026-07-22", "2026-07-29"]); // 处理序旧→新
+    expect(picks.every((p: any) => pickFeedTranscript(p.transcripts))).toBe(true);
+  });
+  it("★★★ 每天自动跑的倒序补历史同样有稿优先,且同档内仍是「紧挨边界先补」", () => {
+    const picks = selectBackfillBackward(items as any, {
+      n: 2, beforeISO: "2026-09-01T00:00:00.000Z", existingIds: [], source: src, libraryTitles: [],
+    });
+    // 没稿的 08-12/08-05 更靠近边界 —— 纯日期倒序会挑中它们,故这条断言本身就隔离了变量
+    expect(picks.every((p: any) => pickFeedTranscript(p.transcripts))).toBe(true);
+    // 同档(都有稿)内不得打乱原有倒序语义(GLM 003[1]:原来只断言有稿,乱序也不会红)
+    expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toEqual(["2026-07-29", "2026-07-22"]);
+  });
+  it("★★★ 稿子不够时照旧补没稿的(不能因为挑食就少产出)", () => {
+    const picks = selectBackfill(items as any, { n: 4, existingIds: [], source: src });
+    expect(picks).toHaveLength(4); // 4 集全要,有稿的排前面但没稿的照样进
+  });
+  it("★★ 同为有稿(或同为无稿)时,仍按原有的日期序", () => {
+    const allT = [it_("2026-07-22", true), it_("2026-07-29", true), it_("2026-08-05", true)];
+    const picks = selectBackfill(allT as any, { n: 2, existingIds: [], source: src });
+    // 同档内最新在前 → 取 08-05 与 07-29,处理序再排旧→新
+    expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toEqual(["2026-07-29", "2026-08-05"]);
+  });
+  it("★★★ 题材筛选也进了补历史路径(DOAC 补历史不该捞健康/名人集)", () => {
+    const doac = { key: "doac", name: "DOAC", feedUrl: "https://x/rss", asr: "whisperx", topicFilter: true } as any;
+    const mixed = [
+      { ...it_("2026-08-01", true), title: "The sleep expert on circadian rhythm" },
+      { ...it_("2026-07-01", true), title: "How this founder scaled revenue" },
+    ];
+    const picks = selectBackfill(mixed as any, { n: 2, existingIds: [], source: doac });
+    expect(picks).toHaveLength(1);
+    expect(picks[0].title).toContain("founder");
   });
 });

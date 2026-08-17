@@ -227,8 +227,17 @@ export function selectBackfill(items, { n, existingIds, source }) {
   const seen = new Set(existingIds);
   return items
     .filter(isInterview)
+    .filter((it) => passesTopicFilter(it, source))
     .filter((it) => !seen.has(deriveId(it, source)))
-    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 最新在前 → 取 top N
+    // C28b(drift #67):**有官方稿的优先**,同档内再按最新在前。
+    // 血账:Beyond Coding 263 集里 206 集有稿,**但最新 6 集恰好都没有** → 原来「一律取最新 N 集」
+    // 精准挑中 6 集全要 2.8h 转写的,注定撞 6h 上限、几乎颗粒无收(run 32045583875 跑了 4h45m 白费)。
+    // 有稿的几秒就下完 → 先把便宜的吃掉,剩下的时间才喂给转写(用户 2026-08-17「让云端不闲着」)。
+    .sort((a, b) => {
+      const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
+      const cb = pickFeedTranscript(b.transcripts) ? 0 : 1;
+      return ca !== cb ? ca - cb : b.pubDateISO.localeCompare(a.pubDateISO);
+    })
     .slice(0, n)
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO)); // 处理按旧→新(与 selectNew 一致)
 }
@@ -249,7 +258,15 @@ export function selectBackfillBackward(items, { n, beforeISO, existingIds, sourc
     .filter((it) => it.pubDateISO < beforeISO) // 只比库内最旧的更旧
     .filter((it) => !seen.has(deriveId(it, source))) // ① ID 去重
     .filter((it) => !findTitleDuplicate(it.title, libraryTitles)) // ② 跨源标题查重,疑似即跳过
-    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 倒序:紧挨边界的先补
+    .filter((it) => passesTopicFilter(it, source)) // ③ C28:题材泛的源只收对口集(DOAC)
+    // C28b(drift #67):**有官方稿的优先**,同档内再按倒序(紧挨边界先补)。
+    // 每天自动跑的就是这条路 —— 先把几秒能拿到稿的集吃掉,剩下时间才喂给 2.8h 的转写
+    // (用户 2026-08-17「有稿子的读稿子,没稿子的去抓语音,让云端不闲着」)。
+    .sort((a, b) => {
+      const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
+      const cb = pickFeedTranscript(b.transcripts) ? 0 : 1;
+      return ca !== cb ? ca - cb : b.pubDateISO.localeCompare(a.pubDateISO);
+    })
     .slice(0, n);
 }
 
