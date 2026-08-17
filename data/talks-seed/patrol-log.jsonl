@@ -156,3 +156,5 @@
 {"ts":"2026-08-17T07:40:12.997Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-17T07:40:37.144Z","action":"rejected","channel":"langchain","videoId":"XNX-1h2K-9U","title":"Building Docs for Agents, Not Humans: Inside OpenWiki","durationSec":1012,"verdict":"不对味","reason":"LangChain 自家产品 OpenWiki 的功能介绍/教程,属频道约 40% 的产品宣传面,非企业客户案例或创始人对谈"}
 {"ts":"2026-08-17T07:41:39.247Z","action":"seed-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","verdict":"对味","reason":"AI agent 实操的创始人/CTO 深访:agent harness 演进与真实降本案例,正是要的企业级 agent 实操+人对谈。","error":"seed-talk exit 1/种子未就绪(可重试)"}
+{"ts":"2026-08-17T13:40:11.470Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-17T13:40:33.513Z","action":"judge-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","error":"判官不可达或输出解析不出(可重试)"}
