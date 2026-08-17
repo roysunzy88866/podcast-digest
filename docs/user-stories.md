@@ -2413,3 +2413,41 @@ Scenario: 零费用 + 数据自持
 3. assets/js/pv.js 经 patch-site Head 全站注入(与 search-history 同通道);build-list 左栏 about 下 .pd-pv 容器 + custom.scss 样式。
 4. 单测:bjDay 切日边界 / corsHeaders 白名单 / 容器位置 / pv.js 失败静默,全绿。
 5. 部署后 curl Worker /hit /stats 真返回;deploy-site 后线上首页出现计数行;用户线上验收。
+
+## C28 · RSS 自带官方转写稿(把 3 小时/集 变成几秒)· US-1/US-4 · ADR 0024
+
+> 2026-08-17 用户问「我怎么样把内容做多?你总是一天一集」。查明真因:22 源里 19 源走语音转写,
+> 项目自测 0.59 倍实时 → 一集 100 分钟烧 2.8h CPU;叠加「同时只允许一个跑批」+「单批 6h 上限」
+> → 绝对上限约 8 集/天、实际 2–4 集。**而扫 feed 发现三个已配源本来就把官方稿挂在 RSS 的
+> `<podcast:transcript>` 里**(Beyond Coding 206/263 SRT、DOAC 139/871 Whisper格式JSON、
+> WorkOS 28/31 纯文本无时间戳)—— 我们在给自带稿子的播客重新听一遍。
+> 用户拍板:**两个都开(Beyond Coding + DOAC),DOAC 只收商业/科技题材**。
+
+Scenario: feed 里有可用转写稿就别烧 ASR
+  Given 某集的 <item> 带 <podcast:transcript url=... type=...>
+  And 该稿格式带时间轴(Whisper JSON / SRT / VTT)
+  Then 取源直接下载并转成本项目稿格式(扁平数组 {start,end,speaker,text}),跳过 whisperX
+  And 该集处理时间从小时级降到秒级
+
+Scenario: 拿不到或格式不带时间轴 → 老老实实回落 ASR
+  Given 转写稿只有纯文本(text/plain,无时间戳)或下载失败
+  Then 回落到原有 whisperX 路线(不静默跳过、不硬失败)
+  And 理由打印出来(哪一集、什么原因)
+
+Scenario: 归属闸门照旧生效(防拿错稿)
+  Given 用 feed 稿取源成功
+  Then 仍跑 transcript-guard(官方音频时长 vs 稿子末段时间,超容差即 die)
+  So 换了取稿方式也不会拿错集的稿(drift #60 的闸门不依赖取稿方式)
+
+Scenario: 题材泛的源只收对口集(DOAC)
+  Given 源标了 topicFilter(DOAC 什么都聊:健康/心理/名人)
+  When 判断某集标题
+  Then 命中商业/科技词表才进库,其余跳过并记明原因
+  And 判不准的宁可跳过(少发 ≪ 发离题内容);漏放的人工事后可点名补
+
+### DoD(C28)
+1. `scripts/feed-transcript.mjs` 纯函数:pickFeedTranscript(挑最优/拒纯文本)、parseWhisperJson、parseSrt、srtTimeToSec。
+2. `parseFeed` 抽出每集的 transcripts[{url,type}];run-pipeline 取源优先用它、失败回落 ASR。
+3. DOAC 题材筛选(纯函数 + 源上标 topicFilter),判不准即跳过。
+4. 单测覆盖三种格式 + 回落 + 题材筛选;变异验证(退回实现必红)。
+5. 云端真跑一集实证:日志显示走 feed 稿、归属闸门过、时间从小时级降到秒级。

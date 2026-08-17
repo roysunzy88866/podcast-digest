@@ -14,6 +14,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
+import { pickFeedTranscript, isOnTopic } from "./feed-transcript.mjs"; // C28 · ADR 0024(纯函数,无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -60,7 +61,9 @@ export const SOURCES = [
   //   doac(Diary of a CEO)= 泛商业/名人,Flightcast(非 Substack、feed 870 集)→ whisperX;
   //     题材泛,靠品味判官逐集筛,**不进顶量补历史池**(见 BACKFILL_FEED_KEYS),免拿健康/名人集凑 5/日。
   { key: "dwarkesh", name: "Dwarkesh Podcast", feedUrl: "https://www.dwarkesh.com/feed" },
-  { key: "doac", name: "The Diary of a CEO", feedUrl: "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn", asr: "whisperx" },
+  // doac:题材泛(健康/心理/名人都聊)→ 用户 2026-08-17 拍板「只收商业/科技的」,故标 topicFilter。
+  //   它随 RSS 发官方转写稿(Whisper 格式 JSON,带逐词时间戳,实测 139/871 集有)→ C28 便宜通道,不烧 ASR。
+  { key: "doac", name: "The Diary of a CEO", feedUrl: "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn", asr: "whisperx", topicFilter: true },
   // 2026-08-16 用户逐个确认再接六源(drift #58,三 agent 调研+本机 curl 双验;均无平台官方稿→whisperX):
   //   deepmind/cogrev/twentyvc 题材贴 AI,进补历史池(BACKFILL_FEED_KEYS);knowledge 偏商业智慧、pragmatic Substack 浅 feed → 只向前不进池。
   { key: "deepmind", name: "Google DeepMind: The Podcast", feedUrl: "https://feeds.simplecast.com/JT6pbPkg", asr: "whisperx" },
@@ -136,6 +139,11 @@ export function parseFeed(xml) {
     // 单集封面(拍板 #15):8 源中只有 Lenny's / Training Data / YC 三源真有一集一张;
     // 其余源要么没有、要么整季共用同一张节目封面。这里只负责抓,取不到就没有。
     const imageUrl = xmlUnescape(pick(/<itunes:image[^>]*href=["']([^"']+)["']/));
+    // C28:节目方随 RSS 发的官方转写稿(有它就不必烧 2.8h ASR)。一集可能挂多条(不同格式)→ 全收,交 pickFeedTranscript 挑。
+    const transcripts = [...body.matchAll(/<podcast:transcript\b[^>]*>/gi)].map((t) => ({
+      url: xmlUnescape((t[0].match(/\burl=["']([^"']+)["']/) || [])[1] ?? ""),
+      type: ((t[0].match(/\btype=["']([^"']+)["']/) || [])[1] ?? "").trim(),
+    })).filter((r) => r.url);
     const d = pubDate ? new Date(pubDate) : null;
     items.push({
       title,
@@ -144,6 +152,7 @@ export function parseFeed(xml) {
       hasAudio,
       enclosureUrl,
       imageUrl,
+      transcripts,
       durationSec: parseItunesDuration(pick(/<itunes:duration>([\s\S]*?)<\/itunes:duration>/)),
     });
   }
@@ -189,11 +198,22 @@ export function deriveId(item, source) {
  * @param existingIds 已存在的 data/episodes/<id> 集合
  * @param source 当前源(派 id 用其 key)
  */
+/**
+ * C28:题材泛的源只收对口集(用户 2026-08-17「两个都开,但 DOAC 只收商业/科技的」)。
+ * 只对标了 `topicFilter` 的源生效,其余源一律放行(不影响既有 21 源的行为)。
+ * 判不准就跳过 —— 少发 ≪ 发离题内容;漏放的可日后人工点名补(同 ADR 0021 口径)。
+ */
+export function passesTopicFilter(item, source) {
+  if (!source?.topicFilter) return true;
+  return isOnTopic(item.title);
+}
+
 export function selectNew(items, { sinceISO, existingIds, source }) {
   if (!sinceISO) return []; // 无基线不敢跑全 backlog(drift #22),先 --seed
   const seen = new Set(existingIds);
   return items
     .filter(isInterview)
+    .filter((it) => passesTopicFilter(it, source))
     .filter((it) => it.pubDateISO > sinceISO)
     .filter((it) => !seen.has(deriveId(it, source)))
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO));
@@ -580,6 +600,21 @@ function processEpisode(item, id, source) {
     if (existsSync(join(ROOT, dir, "transcript.en.json"))) {
       // 半成品重试复用已有转写稿(设计初衷「留半成品下次重试复用缓存」;不跳过=每次重烧 60-80 分钟 ASR,C10 实证)
       console.log("   复用已有转写稿(半成品重试,跳过 whisperX)");
+    } else if (pickFeedTranscript(item.transcripts)) {
+      // C28(ADR 0024):节目方把官方稿挂在 RSS 里 → 几秒下载,省掉 2.8h ASR。
+      // 失败**不抛**,回落 whisperX —— 便宜通道只是加速,不该成为新的单点故障。
+      const t = pickFeedTranscript(item.transcripts);
+      console.log(`   feed 自带官方转写稿(${t.kind})→ 走便宜通道,省掉一次 ASR`);
+      const fr = spawnSync(
+        "node",
+        ["scripts/fetch-source-feed.mjs", dir, "--url", t.url, "--kind", t.kind, ...(item.enclosureUrl ? ["--audio-url", item.enclosureUrl] : [])],
+        { cwd: ROOT, stdio: "inherit" },
+      );
+      if (fr.status !== 0) {
+        console.log("   feed 稿取源失败 → 回落 whisperX ASR");
+        if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
+        run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+      }
     } else {
       if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
       run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
