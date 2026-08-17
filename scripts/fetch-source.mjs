@@ -59,7 +59,14 @@ const txt = html.replace(/\\\//g, "/").replace(/\\u0026/g, "&").replace(/&amp;/g
 const slug = (pageUrl.match(/\/p\/([^/?#]+)/) || [])[1];
 if (!slug) die(`集页 URL 里解不出 slug:${pageUrl}`);
 const apiUrl = new URL(pageUrl).origin + `/api/v1/posts/${slug}`;
-const post = await (await get(apiUrl, "集元数据(官方 API)")).json();
+// API 返回非 JSON(登录页/错误页照样可能是 200)时给人话报错,别抛裸 SyntaxError——
+// 这条路径现在是「取不到就转 ASR 兜底」的触发点,出岔子必须一眼看得懂(GLM 003[2])
+let post;
+try {
+  post = await (await get(apiUrl, "集元数据(官方 API)")).json();
+} catch (e) {
+  die(`官方 API 返回的不是 JSON(${apiUrl}):${String(e?.message ?? e)}`);
+}
 const postId = post?.id;
 if (!postId) die(`官方 API 没返回 post id(${apiUrl});Substack 接口可能变了`);
 const apiDuration = Number(post.podcast_duration) || 0;

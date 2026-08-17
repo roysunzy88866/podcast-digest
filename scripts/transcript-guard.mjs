@@ -20,7 +20,11 @@ export function durationTolerance(apiDuration) {
 export function checkTranscriptBelongs(tEnd, apiDuration) {
   const t = Number(tEnd) || 0;
   const d = Number(apiDuration) || 0;
-  if (t <= 0 || d <= 0) return { ok: true, skipped: true };
+  // 没有官方时长 = 没有参照物,判不了(放行但要提醒)
+  if (d <= 0) return { ok: true, skipped: true };
+  // 有参照物却拿不出有效的转写时长(0/负数/NaN)= 稿子本身就不对劲。
+  // 这是道安全闸,判不了的时候要拦不要放(GLM 003[3]:原来 t<=0 会被当 skipped 放行)
+  if (t <= 0) return { ok: false, drift: d, tol: durationTolerance(d), invalidEnd: true };
   const drift = Math.abs(t - d);
   const tol = durationTolerance(d);
   return { ok: drift <= tol, drift, tol };

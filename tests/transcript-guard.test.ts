@@ -37,9 +37,14 @@ describe("归属闸门 · 该拦下的(drift #59 血案本身)", () => {
 });
 
 describe("归属闸门 · 边界与降级", () => {
-  it("★★★ 缺时长时标 skipped(不假装通过,由调用方打提醒)", () => {
+  it("★★★ 官方没给时长 = 没参照物,标 skipped(不假装通过,由调用方打提醒)", () => {
     expect(checkTranscriptBelongs(1452, 0)).toMatchObject({ ok: true, skipped: true });
-    expect(checkTranscriptBelongs(0, 2588)).toMatchObject({ ok: true, skipped: true });
+  });
+  it("★★★ 有参照物但转写时长无效(0/负/NaN)→ 拦下,不当 skipped 放行(GLM 003[3])", () => {
+    expect(checkTranscriptBelongs(0, 2588)).toMatchObject({ ok: false, invalidEnd: true });
+    expect(checkTranscriptBelongs(-1, 2588)).toMatchObject({ ok: false, invalidEnd: true });
+    expect(checkTranscriptBelongs(NaN, 2588).ok).toBe(false);
+    expect(checkTranscriptBelongs(undefined, 2588).ok).toBe(false);
   });
   it("★★ 容差 = 120s 与 5% 取大者", () => {
     expect(durationTolerance(600)).toBe(120); // 10 分钟集 → 取 120s 下限
