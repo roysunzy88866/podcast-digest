@@ -61,10 +61,13 @@ describe("C27 · 首页容器与展示口径", () => {
 });
 
 describe("C27 · 客户端:真实数 + 失败静默", () => {
-  it("★★★ 展示文案 = 累计访问 + 今日,数字来自接口返回,无任何乘法/加工", () => {
+  it("★★★ 展示文案 = 累计访问 + 今日;今日按用户要求 ×9 展示,但倍数只在展示层", () => {
     expect(pvJs).toContain('"累计访问 "');
     expect(pvJs).toContain('" · 今日 "');
-    expect(pvJs).not.toMatch(/\*\s*10/); // 不许乘 10(ADR 0023 拒绝加工)
+    // 用户 2026-08-17 明确要求「今日 ×9」(我提过两次不建议,用户重申后照办)。
+    // 底线:倍数只在客户端展示层,接口回传的 today/counted/baseline 全是真实数 → 随时可核账。
+    expect(pvJs).toContain("TODAY_DISPLAY_X = 9");
+    expect(pvJs).toMatch(/d\.today \* TODAY_DISPLAY_X/);
   });
   it("★★★ 服务挂了静默:fetch 有 catch,fill 前有类型校验,容器保持 hidden 由 fill 才解除", () => {
     expect(pvJs).toMatch(/\.catch\(function \(\) \{\}\)/);

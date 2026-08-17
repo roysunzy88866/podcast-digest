@@ -134,6 +134,17 @@ console.log(`✅ patch-site:配置补丁已打进 ${cfgPath}`);
 // 老访客早年跟系统深色存下的 'dark' 会一直黑 → 加 pd-light-1 一次性迁移(所有人重置回白天一次,
 // 之后手动切深色照旧记住)。顺带补 theme-color meta(手机状态栏时间/电量那条的底色,
 // 此前从没告诉过浏览器 → iOS 直开显黑;随 saved-theme 切换同步)。
+//
+// 2026-08-17 用户「手机端启动的时候还是黑夜模式,没修掉」→ 挖出**真凶**(drift #64):
+// 上面那套只在页面解析时跑一次,而 Quartz 的 prescript 注册了
+//   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', l)
+// 且 l = t => { saved-theme = t.matches?'dark':'light'; localStorage.setItem('theme', 同值) }
+// —— 它不只改属性、**还把 localStorage 一起写成系统色**。手机从后台切回/重新启动时这个
+// change 事件正好触发 → 我们设的白天被吃掉并持久化成 dark。桌面浏览器里静态测永远测不到。
+// 修法(不碰 Quartz 编译产物,bootstrap 每次 plugin install --latest 会覆盖 fork):
+//   ① 只有**用户亲手点过深浅开关**才算显式选择(记 pd-theme-choice),否则一律白天;
+//   ② MutationObserver 盯 saved-theme,任何与显式选择不符的改动(=系统监听器干的)当场revert
+//      并把 localStorage 改回来。用户点开关时我们在捕获阶段先记下新值,故不会跟用户自己打架。
 patchFile(
   resolve(SITE, "quartz/components/Head.tsx"),
   `    return (
@@ -143,7 +154,7 @@ patchFile(
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: \`try{if(!localStorage.getItem('pd-light-1')){localStorage.setItem('pd-light-1','1');localStorage.setItem('theme','light')}if(!localStorage.getItem('theme')){localStorage.setItem('theme','light')}var pdT=localStorage.getItem('theme');document.documentElement.setAttribute('saved-theme',pdT);var pdM=document.createElement('meta');pdM.name='theme-color';pdM.content=pdT==='dark'?'#1c1b1a':'#fff';document.head.appendChild(pdM);new MutationObserver(function(){pdM.content=document.documentElement.getAttribute('saved-theme')==='dark'?'#1c1b1a':'#fff'}).observe(document.documentElement,{attributes:true,attributeFilter:['saved-theme']})}catch(e){}\`,
+            __html: \`try{var pdK='pd-theme-choice';if(!localStorage.getItem('pd-light-1')){localStorage.setItem('pd-light-1','1');localStorage.removeItem(pdK);localStorage.setItem('theme','light')}var pdM=document.createElement('meta');pdM.name='theme-color';var pdWant=function(){return localStorage.getItem(pdK)==='dark'?'dark':'light'};var pdEnforce=function(){var w=pdWant();if(document.documentElement.getAttribute('saved-theme')!==w){document.documentElement.setAttribute('saved-theme',w)}if(localStorage.getItem('theme')!==w){localStorage.setItem('theme',w)}pdM.content=w==='dark'?'#1c1b1a':'#fff'};document.addEventListener('click',function(e){var t=e.target&&e.target.closest&&e.target.closest('.darkmode');if(!t){return}localStorage.setItem(pdK,document.documentElement.getAttribute('saved-theme')==='dark'?'light':'dark')},true);pdEnforce();document.head.appendChild(pdM);new MutationObserver(pdEnforce).observe(document.documentElement,{attributes:true,attributeFilter:['saved-theme']})}catch(e){}\`,
           }}
         />
         <title>{title}</title>`,
