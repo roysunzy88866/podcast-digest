@@ -43,8 +43,9 @@ describe("归属闸门 · 边界与降级", () => {
   it("★★★ 有参照物但转写时长无效(0/负/NaN)→ 拦下,不当 skipped 放行(GLM 003[3])", () => {
     expect(checkTranscriptBelongs(0, 2588)).toMatchObject({ ok: false, invalidEnd: true });
     expect(checkTranscriptBelongs(-1, 2588)).toMatchObject({ ok: false, invalidEnd: true });
-    expect(checkTranscriptBelongs(NaN, 2588).ok).toBe(false);
-    expect(checkTranscriptBelongs(undefined, 2588).ok).toBe(false);
+    // NaN/undefined 经 Number()||0 归零后同样落进拦截分支,断言连 invalidEnd 一起钉住(GLM 004[2] 口径统一)
+    expect(checkTranscriptBelongs(NaN, 2588)).toMatchObject({ ok: false, invalidEnd: true });
+    expect(checkTranscriptBelongs(undefined, 2588)).toMatchObject({ ok: false, invalidEnd: true });
   });
   it("★★ 容差 = 120s 与 5% 取大者", () => {
     expect(durationTolerance(600)).toBe(120); // 10 分钟集 → 取 120s 下限
