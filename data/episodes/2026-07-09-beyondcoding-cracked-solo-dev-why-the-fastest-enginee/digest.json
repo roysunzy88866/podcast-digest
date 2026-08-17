@@ -1,0 +1,207 @@
+{
+  "title_zh": "氛围编码 vs 氛围工程：智能体时代谁被淘汰",
+  "tldr": "会写规则文件的中级工程师，产出能碾压五个顽固高级工程师。",
+  "digest_md": "\"这不是我的代码和他们的代码之间的对抗，这是我的代码和他们的环境搭建之间的对抗。\"[01:00 Kitsa] Kitsa 是一位同时兼顾 140 个项目的独立构建者，他把工程师分成了两拨：一拨是氛围编码者——往墙上扔东西，希望粘住；另一拨是有工程经验的人，他们驱动智能体时产出能好 20 倍，因为他们已经知道要去哪 [02:32 Kitsa]。区别不在于谁更聪明，在于谁把脑子里知道的东西变成了智能体能读的规则。\n\n## Police 文件：把挫折变成规则\n\nKitsa 为自己写了一套叫\"police script\"的东西，本质上是用人驱动的 linter——ESLint 和 TypeScript 检查抓不到的那些规则，他用 LLM 来兜底 [04:56 Kitsa]。每次被智能体气到，他就把那条规则加进 police 文件。智能体每完成一轮工作，自动启动自我纠正：先跑 TypeScript 纠正，再跑 linter，再跑格式化，最后跑 police 检查。发现 30 个 police 错误？启动子智能体逐个修。目标是每一轮结束都归零——零问题、零警告、零类型错误 [05:17 Kitsa]。大多数人不这么做，他们可能每天或每周才检查一次，那就太晚了。你需要每一轮都做 [05:37 Kitsa]。\n\n这套东西的核心认知是：LLM 不会神奇地从你大脑里提取知识，除非你主动把知识写成规则 [04:37 Kitsa]。在智能体文件、技能文件里，你想要的行为必须被捕捉到某个地方 [06:19 Kitsa]。对 Kitsa 来说，这是一种全新的工程技能——不是输入英文然后代码就出来，而是设计循环和规则 [06:32 Kitsa]。\n\n## 别追模型，深耕一套工具\n\nKitsa 的第一条建议很反直觉：坚持用一个提供商、一个模型，别追 [41:25 Kitsa]。你会看到无数推文说\"我们刚切换到 Composer 2.5，一切都变了\"，然后你把整个心态从 Claude Code 搬到另一个完全不同的工具，子智能体工作机制不一样，你之前积累的练习全部归零 [41:37 Kitsa]。他认为那些在所有人涌向 Codex 时还坚持用 Claude 的人，因为打磨出了完美的 Claude 设置，实际交付可能比迁移的人更好 [42:08 Kitsa]。类比以前那些精通 Angular 并按自己方式做事的人，比不停跳到 React、Svelte 的人更有生产力 [42:45 Kitsa]。\n\n他自己的工作流主要在 Codex 应用里，用 GPT 5.5 开到超高 [23:41 Kitsa]。他试过自己做编排器，已经第六次迭代了，但每次都放弃，回到久经考验的 Codex 应用 [23:49 Kitsa]。他明确讨厌 CLI，桌面版一出来就再也不想打开终端 [24:47 Kitsa]。\n\n## 启动新项目的关键：永远指向现有代码库\n\nKitsa 从不从零开始。启动新项目时，他要么 fork 自己已有的东西，要么指向一个现有代码库说\"做成跟那个一样的\" [19:27 Kitsa]。如果从空白开始，智能体会走自己的路，选它想选的技术栈 [19:46 Kitsa]。他的底层假设是：代码需要简单且易于更改。如果不为此做工程化，以前你可能四五年后需要重写，现在这个时间线会加速到六个月 [20:09 Kitsa]。所以你要通过技能文件、agent MD 文件、钩子、静态代码分析来确保代码保持简单可变，而且这些东西做好了可以从一个项目搬到另一个项目 [20:30 Kitsa]。\n\n## 行业正在被拉平\n\nKitsa 的观点很直白：这个行业大多数人是\"薪水过高用来瞎搞\"的，用 React 移动几行代码就配吃五顿 LinkedIn 午餐，这从来就没道理 [11:40 Kitsa]。以前门槛很低，懂点 HTML 和 CSS 就能找到工作，特别是 COVID 之后到处缺人 [12:50 Kitsa]。现在门槛非常高了——一个掌握了如何管理智能体和编写规则的中级工程师，可以胜过五个顽固坚持\"我要按我的方式来\"的高级工程师 [13:16 Kitsa]。10 人的团队可以变成 2 人 [13:35 Kitsa]。\n\n但同时，新模型出来时所有人同时拿到，竞争环境是平等的 [14:08 Kitsa]。初级工程师没有历史包袱，反而可能加速超越 [14:49 Kitsa]。以前那些通过盗版 Photoshop 做烂 PHP 网站、看 jQuery 教程混进行业的人，和有硕士学位能写 C++ 的人是两类人——后者反而是受伤害最深的，因为他们的深度技能正在被稀释 [09:47 Kitsa]。\n\n## 智能体会从助手爬到管理者\n\n在团队协作层面，Kitsa 看到智能体在组织里正在从结对编程的助手，往上爬到三人团队的管理者，再到 CDO 级别 [38:22 Kitsa]。最终人类的工作是在低层级解除阻塞。他甚至问 Fable：怎么逆转这个过程，让智能体当 CEO，只给他分配解除阻塞的任务 [38:34 Kitsa]。这不会顺利，会有人反抗，但他认为是不可避免的 [38:48 Kitsa]。\n\n有意思的是，他提到一位 VP 说最好的工程师就是能\"先解除自己的阻塞，再解除别人的阻塞\"的人 [39:06 Kitsa]——这个模式在智能体时代反而更成立，只不过\"别人\"可能变成了智能体。\n\n他对当前工具的不满也很具体：所有编排器——Cursor、Copilot——迭代了这么久，最好的 UI 就是左边文件夹列表、右边聊天框 [21:32 Kitsa]。但他要同时处理 140 个项目，这种 UI 完全不够用 [21:51 Kitsa]。他认为智能不是瓶颈，GPT-5、Opus 都够用了，瓶颈在编排——你没有在智能体周围放对循环、规则和护栏 [17:41 Kitsa]。\n\n## 本集带走\n\n- **把每次挫折写进规则文件**：被智能体气到时，别骂完就完，把那条规则加进 police 文件，让智能体每轮结束自动跑一遍自我纠正循环，目标是每轮归零。\n- **新项目永远指向现有代码库**：不要从零开始，fork 自己的项目或指向一个现有代码库作为参照，否则智能体会自己选技术栈、走自己的路。\n- **别追模型，深耕一套工具**：切换工具意味着丢掉你积累的所有规则和练习，精通一套的人比不停跳的人产出更高。\n- **代码工程化的目标不变：简单且易于更改**：智能体时代这个原则没有变，变的是时间线——不做好这点，重写周期从四五年缩短到六个月。\n- **核心竞争力从\"写代码\"变成\"写规则和解除阻塞\"**：能设计好循环和规则的中级工程师，产出碾压不适应变化的高级工程师。",
+  "quotes": [
+    {
+      "en": "It's not my coding versus their coding. It's my coding versus their setups.",
+      "zh": "这不是我的代码和他们的代码之间的对抗。这是我的代码和他们的环境搭建之间的对抗。",
+      "timestamp": "01:00",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "I'm fast, but I'm not faster than engineering with LLMs.",
+      "zh": "我很快，但我快不过使用 LLM 的工程团队。",
+      "timestamp": "01:04",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "people with a lot of engineering experience, when they drive agents, you get like 20 times better results because they already know where do they want to go",
+      "zh": "拥有丰富工程经验的人，当他们驱动智能体时，你会得到好 20 倍的结果，因为他们已经知道他们想去哪里。",
+      "timestamp": "02:33",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "Throwing shit at the wall until it sticks, hoping that the thing is going to work.",
+      "zh": "往墙上扔屎，直到粘住为止，希望这东西能起作用。",
+      "timestamp": "02:49",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "The LLM is not going to magically extract your knowledge from your brain and you will inevitably end up frustrated unless you turn that knowledge into rules",
+      "zh": "LLM 不会神奇地从你的大脑中提取你的知识，除非你把那些知识变成规则，否则你不可避免地会以沮丧告终。",
+      "timestamp": "04:37",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "I think that most people in this industry are overpaid to fuck around, to have like five lunches at LinkedIn.",
+      "zh": "我认为这个行业里的大多数人薪水过高用来瞎搞，在 LinkedIn 吃五顿午餐。",
+      "timestamp": "11:45",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "A genetic knowledge of how to juggle agents and write rules can outperform, I would say, five stubborn seniors who are like clinging to their, no, I will do it my way and blah, blah, blah.",
+      "zh": "一种关于如何管理智能体和编写规则的知识，可以胜过，我想说，五个顽固的高级工程师，他们就像坚持他们的，不，我会按我的方式做，等等，等等。",
+      "timestamp": "13:16",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "the old values of how you write clean code and blah, blah, blah don't matter",
+      "zh": "如何编写干净代码的旧价值观等等都不重要了",
+      "timestamp": "13:31",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "So if you don't engineer for that, that timeline is just going to accelerate. And then you need to rewrite in like six months instead of years.",
+      "zh": "所以如果你不为此进行工程化，那个时间线只会加速。然后你需要在六个月内而不是几年内重写。",
+      "timestamp": "20:17",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "But then if you throw them into the room with people who have done very good vibe engineering setups, they'll realize, oh, fuck, it's not my coding versus their coding. It's my coding versus their setups.",
+      "zh": "但如果你把他们扔进一个房间里，和那些做了非常好的氛围工程设置的人在一起，他们会意识到，哦，见鬼，这不是我的编码和他们的编码的较量。是我的编码和他们的设置的较量。",
+      "timestamp": "30:31",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "They're more thorough when it comes to pull request reviews because you can program the rules in English language that catch more things than the senior engineer who might have been not in the mood today and they're like, oh, fuck it, let's merge this.",
+      "zh": "当涉及到拉取请求审查时它们更彻底，因为你可以用英语编写规则，捕捉到更多的东西，比那个可能今天心情不好的高级工程师还要多，他们会说，哦，去他的，合并这个吧。",
+      "timestamp": "32:46",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "It's like either you're a fucking rock star or you're gone.",
+      "zh": "就像要么你他妈是个摇滚明星，要么你就滚蛋。",
+      "timestamp": "33:34",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "I see the agents crawling from like the helper that's doing peer programming with you to eventually the manager of your three-person programming team to eventually the CDO to eventually to other positions where your job is to be on the lower levels just unblocking.",
+      "zh": "我看到智能体从那个像和你一起做结对编程的助手一样，最终爬升为你那个三人编程团队的管理者，最终成为 CDO，最终成为其他职位，你的工作就是在低层级仅仅是去解除阻塞。",
+      "timestamp": "38:06",
+      "speaker": "Kitsa"
+    },
+    {
+      "en": "The people who mastered Angular and who did things their way, I'm pretty sure they were more productive than the people who jumped to immediately to React and to Svelte and to this and to that.",
+      "zh": "那些掌握了 Angular 并按照自己的方式做事的人，我很确信他们比那些立即跳转到 React 和 Svelte 以及这个和那个的人更有生产力。",
+      "timestamp": "42:45",
+      "speaker": "Kitsa"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:00",
+      "speaker": "Kitsa",
+      "en": "It's not my coding versus their coding. It's my coding versus their setups.",
+      "zh": "这不是我的代码和他们的代码之间的对抗。这是我的代码和他们的环境搭建之间的对抗。"
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Kitsa",
+      "en": "I'm fast, but I'm not faster than engineering with LLMs.",
+      "zh": "我很快，但我快不过使用 LLM 的工程团队。"
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Kitsa",
+      "en": "people with a lot of engineering experience, when they drive agents, you get like 20 times better results because they already know where do they want to go",
+      "zh": "拥有丰富工程经验的人，当他们驱动智能体时，你会得到好 20 倍的结果，因为他们已经知道他们想去哪里。"
+    },
+    {
+      "timestamp": "02:49",
+      "speaker": "Kitsa",
+      "en": "Throwing shit at the wall until it sticks, hoping that the thing is going to work.",
+      "zh": "往墙上扔屎，直到粘住为止，希望这东西能起作用。"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Kitsa",
+      "en": "The LLM is not going to magically extract your knowledge from your brain and you will inevitably end up frustrated unless you turn that knowledge into rules",
+      "zh": "LLM 不会神奇地从你的大脑中提取你的知识，除非你把那些知识变成规则，否则你不可避免地会以沮丧告终。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Kitsa",
+      "en": "I think that most people in this industry are overpaid to fuck around, to have like five lunches at LinkedIn.",
+      "zh": "我认为这个行业里的大多数人薪水过高用来瞎搞，在 LinkedIn 吃五顿午餐。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Kitsa",
+      "en": "A genetic knowledge of how to juggle agents and write rules can outperform, I would say, five stubborn seniors who are like clinging to their, no, I will do it my way and blah, blah, blah.",
+      "zh": "一种关于如何管理智能体和编写规则的知识，可以胜过，我想说，五个顽固的高级工程师，他们就像坚持他们的，不，我会按我的方式做，等等，等等。"
+    },
+    {
+      "timestamp": "13:25",
+      "speaker": "Kitsa",
+      "en": "the old values of how you write clean code and blah, blah, blah don't matter",
+      "zh": "如何编写干净代码的旧价值观等等都不重要了"
+    },
+    {
+      "timestamp": "20:09",
+      "speaker": "Kitsa",
+      "en": "my running hypothesis is that code needs to be simple and easy to change",
+      "zh": "我目前的假设是代码需要简单且易于更改"
+    },
+    {
+      "timestamp": "20:17",
+      "speaker": "Kitsa",
+      "en": "So if you don't engineer for that, that timeline is just going to accelerate. And then you need to rewrite in like six months instead of years.",
+      "zh": "所以如果你不为此进行工程化，那个时间线只会加速。然后你需要在六个月内而不是几年内重写。"
+    },
+    {
+      "timestamp": "21:51",
+      "speaker": "Kitsa",
+      "en": "But I'm trying to juggle literally 140 projects here.",
+      "zh": "但我试图在这里同时处理 140 个项目。"
+    },
+    {
+      "timestamp": "29:05",
+      "speaker": "Kitsa",
+      "en": "It's a skill issue.",
+      "zh": "这是一个技能问题。"
+    },
+    {
+      "timestamp": "30:31",
+      "speaker": "Kitsa",
+      "en": "But then if you throw them into the room with people who have done very good vibe engineering setups, they'll realize, oh, fuck, it's not my coding versus their coding. It's my coding versus their setups.",
+      "zh": "但如果你把他们扔进一个房间里，和那些做了非常好的氛围工程设置的人在一起，他们会意识到，哦，见鬼，这不是我的编码和他们的编码的较量。是我的编码和他们的设置的较量。"
+    },
+    {
+      "timestamp": "32:59",
+      "speaker": "Kitsa",
+      "en": "They're more thorough when it comes to pull request reviews because you can program the rules in English language that catch more things than the senior engineer who might have been not in the mood today and they're like, oh, fuck it, let's merge this.",
+      "zh": "当涉及到拉取请求审查时它们更彻底，因为你可以用英语编写规则，捕捉到更多的东西，比那个可能今天心情不好的高级工程师还要多，他们会说，哦，去他的，合并这个吧。"
+    },
+    {
+      "timestamp": "33:34",
+      "speaker": "Kitsa",
+      "en": "It's like either you're a fucking rock star or you're gone.",
+      "zh": "就像要么你他妈是个摇滚明星，要么你就滚蛋。"
+    },
+    {
+      "timestamp": "34:23",
+      "speaker": "Kitsa",
+      "en": "The more effort you put into refining your engineering workflows, the more it scales, right?",
+      "zh": "你在优化工程工作流上投入的精力越多，它的扩展性就越好，对吧？"
+    },
+    {
+      "timestamp": "38:22",
+      "speaker": "Kitsa",
+      "en": "I see the agents crawling from like the helper that's doing peer programming with you to eventually the manager of your three-person programming team to eventually the CDO to eventually to other positions where your job is to be on the lower levels just unblocking.",
+      "zh": "我看到智能体从那个像和你一起做结对编程的助手一样，最终爬升为你那个三人编程团队的管理者，最终成为 CDO，最终成为其他职位，你的工作就是在低层级仅仅是去解除阻塞。"
+    },
+    {
+      "timestamp": "41:25",
+      "speaker": "Kitsa",
+      "en": "my number one advice would be to stick to one provider and to stick to one model",
+      "zh": "我的第一条建议是坚持使用一个提供商并坚持使用一个模型"
+    },
+    {
+      "timestamp": "42:45",
+      "speaker": "Kitsa",
+      "en": "The people who mastered Angular and who did things their way, I'm pretty sure they were more productive than the people who jumped to immediately to React and to Svelte and to this and to that.",
+      "zh": "那些掌握了 Angular 并按照自己的方式做事的人，我很确信他们比那些立即跳转到 React 和 Svelte 以及这个和那个的人更有生产力。"
+    }
+  ]
+}

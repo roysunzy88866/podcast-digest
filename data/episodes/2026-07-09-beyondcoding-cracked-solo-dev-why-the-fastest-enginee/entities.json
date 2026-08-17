@@ -1,0 +1,1048 @@
+{
+  "episode_id": "2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee",
+  "podcast": "Beyond Coding",
+  "date": "2026-07-09",
+  "tags": [
+    "智能体编排",
+    "规则工程",
+    "Vibe Engineering",
+    "工程工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kitsa",
+      "type": "person",
+      "role": "host",
+      "name": "Kitsa",
+      "file": "Kitsa",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            68.041,
+            76.069
+          ],
+          "quote": "This is Kitsa, a solo builder who juggles 140 projects, and we discuss how the best engineers are moving faster with agent setups.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说有工程经验的人驱动智能体，产出能好 20 倍，因为他们已经知道要去哪；智能体在组织中正在从结对编程的助手往上爬到管理者，最终人类的工作是在低层级解除阻塞",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            68.041,
+            76.069
+          ],
+          "quote": "This is Kitsa, a solo builder who juggles 140 projects, and we discuss how the best engineers are moving faster with agent setups.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            214.777,
+            223.88
+          ],
+          "quote": "The least frustrations that I've ever had with a model was in the Codex app with GPT 5.5 is the most smooth, stable agent to work with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            258.455,
+            276.872
+          ],
+          "quote": "the skills that you have as a human yeah the knowledge you have as a human combined with how much of that knowledge is written as skills rules memories and other stuff that the agent actively reads from i think many people are just even as you said like even senior engineers and people who know architecture and stuff they still are",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            310.492,
+            316.616
+          ],
+          "quote": "So we have all of these police files and the agent basically when it's done, it's auto-kicking another session of like correcting itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            348.176,
+            350.518
+          ],
+          "quote": "The turn ends, the agent self-corrects everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            379.653,
+            385.164
+          ],
+          "quote": "In agent files, in skill files, wherever you can, the behavior that you want, you need to capture it somewhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            494.985,
+            497.028
+          ],
+          "quote": "They're like, well, the agent is faster, yes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1167.502,
+            1172.884
+          ],
+          "quote": "So any agent, like when I start something new, I always point to an existing code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1230.072,
+            1237.455
+          ],
+          "quote": "How can you engineer either in your skills, your agent MD files, your hooks, static code analysis in such a way that that stays true.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1259.503,
+            1279.561
+          ],
+          "quote": "Whoever it is leading the like a thought leader in these fields and they were like just copy and paste this prompt and I'm like why are we still copy and pasting prompts like how is this not this methodology whatever we're inventing how do we not bake it into the actual tools yet you know yeah I've been playing yesterday with Fable because I have this gripe with all of the agent orchestrators",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2235.173,
+            2240.095
+          ],
+          "quote": "I think an agent in the middle will just push and unblock more projects going forward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2256.222,
+            2256.883
+          ],
+          "quote": "It was the agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "orchestrator",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排器 (orchestrator)",
+      "file": "编排器",
+      "primary": true,
+      "how_described": "本集说没有一个完美的编排器，智能不是瓶颈，GPT-5、Opus 都够用了，瓶颈在编排——你没有在智能体周围放对循环、规则和护栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1055.99,
+            1057.451
+          ],
+          "quote": "There's not a perfect orchestrator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1069.955,
+            1075.857
+          ],
+          "quote": "If you put the right orchestrator loops, rules, whatever guardrails around them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1293.249,
+            1304.015
+          ],
+          "quote": "Whoever comes up, Cursor and Copilot and like all of them came out with new iterations of an orchestrator and the only thing they can come up with is like a list of folders, chats within them, and chat on the right side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1429.817,
+            1431.698
+          ],
+          "quote": "I've tried making an orchestrator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2213.006,
+            2215.849
+          ],
+          "quote": "I'm not a good orchestrator of humans.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说如果你在智能体周围放置正确的编排器循环、规则和护栏，它们就已经足够好了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1069.955,
+            1075.857
+          ],
+          "quote": "If you put the right orchestrator loops, rules, whatever guardrails around them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集说大多数人不具备这个循环来确保质量，很多人每天或每周才检查一次那就太晚了，你需要在每一轮结束时让智能体自我纠正一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            337.988,
+            346.835
+          ],
+          "quote": "Most people don't have this loop, like a genetic loop to make sure that... And many people do it like maybe every day or every week or every month, and then it's too late.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            446.145,
+            447.205
+          ],
+          "quote": "It's now Loop Engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            448.106,
+            449.067
+          ],
+          "quote": "It's now Loop Engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            449.087,
+            449.908
+          ],
+          "quote": "Loop Engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            863.851,
+            869.556
+          ],
+          "quote": "And same with regards to loop engineering is now the newest term, but it does have value, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1048.893,
+            1051.114
+          ],
+          "quote": "I hate the word loop because it's click-baity now, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1392.041,
+            1411.45
+          ],
+          "quote": "People are right now I feel like augmenting their workflow with AI so they are in the driver's seat they have AI running in parallel or they have autonomous AI running in a loop contributing to pull requests yeah where are you right now and how do you do that in the first place contribute to like 300 on one day I'm struggling with that I'm not gonna lie to you I'm still",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1853.676,
+            1860.501
+          ],
+          "quote": "People, like specifically the loop tweet by Pete, everyone, the easiest thing is to dunk on it and to...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1872.872,
+            1873.953
+          ],
+          "quote": "How is he doing a loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2436.339,
+            2446.766
+          ],
+          "quote": "As a final thought, for the person that's listening, they might be inspired and they finally want to take a step towards vibe engineering, actually engineering their own workflow or building something with agents in the loop as well.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "type": "concept",
+      "role": "concept",
+      "name": "规则 (rules)",
+      "file": "规则",
+      "primary": true,
+      "how_described": "本集说 LLM 不会神奇地从你大脑里提取知识，除非你主动把知识写成规则；拥有如何管理智能体和编写规则知识的中级工程师可以胜过五个顽固坚持自己方式的高级工程师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            258.455,
+            276.872
+          ],
+          "quote": "the skills that you have as a human yeah the knowledge you have as a human combined with how much of that knowledge is written as skills rules memories and other stuff that the agent actively reads from i think many people are just even as you said like even senior engineers and people who know architecture and stuff they still are",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            277.572,
+            302.286
+          ],
+          "quote": "The LLM is not going to magically extract your knowledge from your brain and you will inevitably end up frustrated unless you turn that knowledge into rules and what do we call this like when you have a combination of like ESLint and TypeScript checks and a bunch of other rules like I've written something for myself called like a police script okay which is like rules and things that ESLint that linters cannot catch because linters have a limit what they can do what they cannot do",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            796.607,
+            805.558
+          ],
+          "quote": "A genetic knowledge of how to juggle agents and write rules can outperform, I would say, five stubborn seniors who are like clinging to their, no, I will do it my way and blah, blah, blah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1069.955,
+            1075.857
+          ],
+          "quote": "If you put the right orchestrator loops, rules, whatever guardrails around them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1966.906,
+            1979.44
+          ],
+          "quote": "They're more thorough when it comes to pull request reviews because you can program the rules in English language that catch more things than the senior engineer who might have been not in the mood today and they're like, oh, fuck it, let's merge this.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "police-file",
+      "type": "concept",
+      "role": "concept",
+      "name": "police 文件 (police file)",
+      "file": "police 文件",
+      "primary": true,
+      "how_described": "本集说这是用人驱动的 linter——ESLint 和 TypeScript 检查抓不到的那些规则用 LLM 来兜底，每次被智能体气到就把那条规则加进去，智能体每完成一轮工作自动跑 police 检查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            76.549,
+            79.191
+          ],
+          "quote": "Every time I get frustrated, just add that to a police file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            307.289,
+            310.151
+          ],
+          "quote": "And every time I get frustrated, I'm like, just add that to a police file.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说 vibe coder 就像是往墙上扔东西直到粘住为止，希望这东西能起作用；很喜欢现在每个人都可以成为构建者，但和有工程经验的人驱动智能体效果差很多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.478,
+            102.343
+          ],
+          "quote": "On a serious note, my number one advice would be... Asary talks on we're going from vibe coding to vibe engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            105.205,
+            126.284
+          ],
+          "quote": "just someone with a lot of technical knowledge who then drives the agents i hate how we're throwing an umbrella term that everything vibe coded is bad and the the the verb like vibe coding is so vague and so wide that people just throw it at everything it's a meme now it's a meme at this point and i hate how much like we kind of forgot that most people",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            175.82,
+            179.241
+          ],
+          "quote": "Vibe coding for me, I love that everyone can now be a builder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            179.902,
+            181.262
+          ],
+          "quote": "And that's what you do with vibe coding.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vibe-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe engineering",
+      "file": "vibe engineering",
+      "primary": true,
+      "how_described": "本集说这指的是拥有大量技术知识的人去驱动智能体，与 vibe coding 区分开来；在 vibe engineering 设置上做得好的人，不是编码对抗编码，而是编码对抗环境搭建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            93.478,
+            102.343
+          ],
+          "quote": "On a serious note, my number one advice would be... Asary talks on we're going from vibe coding to vibe engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            102.463,
+            103.664
+          ],
+          "quote": "What does vibe engineering mean to you?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            181.762,
+            185.023
+          ],
+          "quote": "But the whole vibe engineering part, you mentioning engineers being better at that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            442.461,
+            446.125
+          ],
+          "quote": "Whatever we call it, we just throw names like Vibe Engineering, Argentic Engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1831.761,
+            1840.228
+          ],
+          "quote": "But then if you throw them into the room with people who have done very good vibe engineering setups, they'll realize, oh, fuck, it's not my coding versus their coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2046.33,
+            2051.014
+          ],
+          "quote": "I've also seen this narrative of, okay, we're talking about vibe engineering, and we're talking about engineering loops.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2436.339,
+            2446.766
+          ],
+          "quote": "As a final thought, for the person that's listening, they might be inspired and they finally want to take a step towards vibe engineering, actually engineering their own workflow or building something with agents in the loop as well.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "skill-files",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能文件 (skill files)",
+      "file": "技能文件",
+      "primary": true,
+      "how_described": "本集说在智能体文件、技能文件里，你想要的行为必须被捕捉到某个地方；通过技能文件、agent MD 文件、钩子、静态代码分析来确保代码保持简单可变，且可以从一个项目搬到另一个项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            379.653,
+            385.164
+          ],
+          "quote": "In agent files, in skill files, wherever you can, the behavior that you want, you need to capture it somewhere.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说在 Codex 应用搭配 GPT 5.5 时遇到的挫折是最少的，它是最顺滑最稳定的智能体；试过自己做编排器但每次都放弃回到久经考验的 Codex 应用，且明确偏好桌面版而非 CLI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            214.777,
+            223.88
+          ],
+          "quote": "The least frustrations that I've ever had with a model was in the Codex app with GPT 5.5 is the most smooth, stable agent to work with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1421.754,
+            1425.815
+          ],
+          "quote": "Mostly in the Codex app, mostly with GPT 5.5 on extra high.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1436.511,
+            1448.516
+          ],
+          "quote": "Probably I had one of the first, before Codex, Claude, the desktop thingies came out, I was like, there has to be something that's better at juggling the browser tabs, the terminals, CLI, the chat, and blah, blah, blah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1449.036,
+            1454.478
+          ],
+          "quote": "But I always end up abandoning it and always going back to the tried and true thing that works, which is Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1455.878,
+            1457.819
+          ],
+          "quote": "But Codex, the app specifically, not the CLI tool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1457.839,
+            1458.219
+          ],
+          "quote": "Codex, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1471.304,
+            1475.387
+          ],
+          "quote": "Codex CLI was great even in last September, October.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1479.13,
+            1482.432
+          ],
+          "quote": "Think of switching from Claude Code and I realized that Codex is really fucking good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1497.763,
+            1499.785
+          ],
+          "quote": "What did I do here that I couldn't do in Codex?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1500.477,
+            1505.66
+          ],
+          "quote": "So, but Codex is like, it's visually messy, especially for my brain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1517.626,
+            1523.429
+          ],
+          "quote": "What did I, if I leave my computer for one hour now after this interview, if you open Codex, like what the fuck was happening here?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2523.929,
+            2528.391
+          ],
+          "quote": "So I think this was happening back and forth with Codex and Claude and Codex and Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2528.651,
+            2543.539
+          ],
+          "quote": "I think the people who stuck with their Claude, let's say, when everyone moved to Codex because GPT 5.5 is smarter, I think there are people with perfect Claude setups that are actually outshipping and outdoing everyone who moved in Codex because",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说当所有人因为 GPT 5.5 更聪明而搬到 Codex 时，那些坚持用 Claude 并打磨出完美设置的人实际交付可能比迁移的人更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1436.511,
+            1448.516
+          ],
+          "quote": "Probably I had one of the first, before Codex, Claude, the desktop thingies came out, I was like, there has to be something that's better at juggling the browser tabs, the terminals, CLI, the chat, and blah, blah, blah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1479.13,
+            1482.432
+          ],
+          "quote": "Think of switching from Claude Code and I realized that Codex is really fucking good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2503.097,
+            2511.882
+          ],
+          "quote": "So now you need to move your entire mindset from like using, let's say, Claude code with Opus, with your skills, with the Claude specific words, buzzwords, whatever it is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2523.929,
+            2528.391
+          ],
+          "quote": "So I think this was happening back and forth with Codex and Claude and Codex and Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2528.651,
+            2543.539
+          ],
+          "quote": "I think the people who stuck with their Claude, let's say, when everyone moved to Codex because GPT 5.5 is smarter, I think there are people with perfect Claude setups that are actually outshipping and outdoing everyone who moved in Codex because",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说所有编排器包括 Cursor 和 Copilot 迭代了这么久，最好的 UI 就是左边文件夹列表、右边聊天框，对同时处理 140 个项目完全不够用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1293.249,
+            1304.015
+          ],
+          "quote": "Whoever comes up, Cursor and Copilot and like all of them came out with new iterations of an orchestrator and the only thing they can come up with is like a list of folders, chats within them, and chat on the right side.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": false,
+      "how_described": "本集将其与 Cursor 并列，说它们推出的编排器新迭代能想出的最好 UI 就是侧边栏加聊天",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1293.249,
+            1304.015
+          ],
+          "quote": "Whoever comes up, Cursor and Copilot and like all of them came out with new iterations of an orchestrator and the only thing they can come up with is like a list of folders, chats within them, and chat on the right side.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eslint",
+      "type": "company",
+      "role": "company",
+      "name": "ESLint",
+      "file": "ESLint",
+      "primary": false,
+      "how_described": "本集说 ESLint 和 linter 有它们能做和不能做的限制，所以用 LLM 写了自己的 police script 来兜底那些抓不到的规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            277.572,
+            302.286
+          ],
+          "quote": "The LLM is not going to magically extract your knowledge from your brain and you will inevitably end up frustrated unless you turn that knowledge into rules and what do we call this like when you have a combination of like ESLint and TypeScript checks and a bunch of other rules like I've written something for myself called like a police script okay which is like rules and things that ESLint that linters cannot catch because linters have a limit what they can do what they cannot do",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "company",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集说昨天和 Fable 5 花了 15 分钟就开始对它大吼大叫，能感觉到它和其他模型不一样；还问 Fable 怎么逆转过程让智能体当 CEO",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            196.227,
+            198.708
+          ],
+          "quote": "It took me 15 minutes with Fable 5 yesterday to start yelling at it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            454.712,
+            460.377
+          ],
+          "quote": "And many people are like, I muted Fable 5 on my Twitter feed because I don't want to read about it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            848.985,
+            850.366
+          ],
+          "quote": "New model Fable 5 came out.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1060.111,
+            1061.732
+          ],
+          "quote": "Even I realized this with Fable 5.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1259.503,
+            1279.561
+          ],
+          "quote": "Whoever it is leading the like a thought leader in these fields and they were like just copy and paste this prompt and I'm like why are we still copy and pasting prompts like how is this not this methodology whatever we're inventing how do we not bake it into the actual tools yet you know yeah I've been playing yesterday with Fable because I have this gripe with all of the agent orchestrators",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1334.656,
+            1336.557
+          ],
+          "quote": "But yesterday with Fable, I finally had some...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1425.835,
+            1429.017
+          ],
+          "quote": "That's my workflow until, let's say, yesterday I tried Fable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2314.365,
+            2324.633
+          ],
+          "quote": "I asked Fable yesterday, like, how do we inverse the process where you're the CEO, you run everything, and you just assign me tasks of how to unblock you and the sub-agents moving forward.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5-5",
+      "type": "company",
+      "role": "company",
+      "name": "GPT 5.5",
+      "file": "GPT 5.5",
+      "primary": false,
+      "how_described": "本集说主要在 Codex 应用里用 GPT 5.5 开到超高，认为 GPT-5、Opus 都够用了，智能不是真正的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            214.777,
+            223.88
+          ],
+          "quote": "The least frustrations that I've ever had with a model was in the Codex app with GPT 5.5 is the most smooth, stable agent to work with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1421.754,
+            1425.815
+          ],
+          "quote": "Mostly in the Codex app, mostly with GPT 5.5 on extra high.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2528.651,
+            2543.539
+          ],
+          "quote": "I think the people who stuck with their Claude, let's say, when everyone moved to Codex because GPT 5.5 is smarter, I think there are people with perfect Claude setups that are actually outshipping and outdoing everyone who moved in Codex because",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "opus",
+      "type": "company",
+      "role": "company",
+      "name": "Opus",
+      "file": "Opus",
+      "primary": false,
+      "how_described": "本集说 GPT-5、Opus 都够用了，如果你在它们周围放对循环、规则和护栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1064.913,
+            1069.595
+          ],
+          "quote": "Like cool, it's intelligent, but GPT-5, Opus, whatever, they're good enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2503.097,
+            2511.882
+          ],
+          "quote": "So now you need to move your entire mindset from like using, let's say, Claude code with Opus, with your skills, with the Claude specific words, buzzwords, whatever it is.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "linter",
+      "type": "concept",
+      "role": "concept",
+      "name": "linter",
+      "file": "linter",
+      "primary": false,
+      "how_described": "本集说 linter 有能做和不能做的限制，所以用 LLM 写了自己的 linter 来兜底，智能体完成工作后先跑 linter 再跑格式化最后跑 police 检查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            302.846,
+            306.789
+          ],
+          "quote": "So with an LLM, I wrote my own like linter in a way that's more expensive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            317.096,
+            323.461
+          ],
+          "quote": "It's like, okay, let me correct TypeScript, then let me correct the linter, let me run the formatter, and finally let me do the police check.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "pull request",
+      "file": "pull request",
+      "primary": false,
+      "how_described": "本集说 LLM 做 pull request 审查时更彻底，因为可以用英语编写规则，比心情不好的高级工程师能捕捉到更多东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 424,
+          "t": [
+            1966.906,
+            1979.44
+          ],
+          "quote": "They're more thorough when it comes to pull request reviews because you can program the rules in English language that catch more things than the senior engineer who might have been not in the mood today and they're like, oh, fuck it, let's merge this.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-os",
+      "type": "concept",
+      "role": "concept",
+      "name": "agentic OS",
+      "file": "agentic OS",
+      "primary": false,
+      "how_described": "本集说想发明一个用于管理工作作为程序的 agentic 操作系统，那不是一个侧边栏和一个聊天",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1363.571,
+            1367.557
+          ],
+          "quote": "Let's just invent like an agentic OS for managing my work as a program.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sub-agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

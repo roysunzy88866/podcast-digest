@@ -1,0 +1,1704 @@
+{
+  "episode_id": "2026-07-22-beyondcoding-aws-veteran-the-new-software-development",
+  "podcast": "Beyond Coding",
+  "date": "2026-07-22",
+  "tags": [
+    "智能体工程",
+    "软件开发生命周期",
+    "模型分层策略",
+    "规范驱动开发",
+    "防御性智能体工作流"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "heitor-lessa",
+      "type": "person",
+      "role": "host",
+      "name": "Heitor Lessa",
+      "file": "Heitor Lessa",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            66.478,
+            70.939
+          ],
+          "quote": "This is Heitor Lessa, a true AWS veteran who's trained over 8,000 architects.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体视为软件工程中的执行者，强调不能让它自主做所有决定，需要通过命令（command）而非技能（skill）来调用，以防止它跳过指令或伪造证据；同时指出长期与模型对话会导致人的共情能力和批判性思维退化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1481.127,
+            1486.752
+          ],
+          "quote": "Or all you need is you no longer need PRDs or something like it and then you're fine because an agent can do everything for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1779.799,
+            1785.044
+          ],
+          "quote": "Then we have the slash roadmap where for the first time this is where you have the plus agent next to a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2110.792,
+            2119.138
+          ],
+          "quote": "Is the product person or the person, even the product engineer, defining what that looks like or is the agent helping with how to break down this bigger piece of problem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2120.899,
+            2122.5
+          ],
+          "quote": "That's why I put the human and agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2407.251,
+            2409.132
+          ],
+          "quote": "And you can do this with an agent as well, I'm assuming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3338.556,
+            3339.917
+          ],
+          "quote": "You're not gonna simply say, agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3444.384,
+            3447.405
+          ],
+          "quote": "You pick up an issue and then you say, agent go do the task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3448.065,
+            3452.787
+          ],
+          "quote": "And the agent will, because the issue has already a template, you already know that I'm structured.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3463.672,
+            3465.913
+          ],
+          "quote": "And they will simply use the agent to drive everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3570.498,
+            3575.783
+          ],
+          "quote": "So you remove the pressure off the individual, the engineer, and also the agent to get everything perfect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3587.854,
+            3590.417
+          ],
+          "quote": "That would be an agent and a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3693.332,
+            3715.665
+          ],
+          "quote": "Good groups of it in the agent AI now right now we're getting into like yes use everything token maxing which is not my thing i'm a fan of but eventually that the cost will come and then when leadership start questioning hang on a second do i need an engineer plus five thousand a month three thousand a month just for them to do their work that that math doesn't doesn't add up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4122.042,
+            4126.444
+          ],
+          "quote": "Before you do a task, before the agent goes ahead and implements like, let me do this, I'm the hero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            5240.2,
+            5252.067
+          ],
+          "quote": "So much that I pointed an agent to the project I'm working on right now and I said, look, I want another local forest architecture with the privacy first in mind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            5354.946,
+            5357.928
+          ],
+          "quote": "Completely autonomous, you're not in the loop, the agent is driving everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1192,
+          "t": [
+            5366.554,
+            5368.615
+          ],
+          "quote": "It's just basically saying, agent, these are artifacts,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1217,
+          "t": [
+            5483.77,
+            5491.115
+          ],
+          "quote": "When people say, I don't code anymore, I barely do anything, create a loop, there's all this preparation because the agent starts fresh every time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1236,
+          "t": [
+            5583.222,
+            5588.305
+          ],
+          "quote": "I still have two more to create, but now still thinking about how do we think about open source and agent and so forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1252,
+          "t": [
+            5649.485,
+            5651.967
+          ],
+          "quote": "This is the first time where it's just agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1254,
+          "t": [
+            5656.03,
+            5657.491
+          ],
+          "quote": "Have you thought of where the agent runs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            5663.536,
+            5668.761
+          ],
+          "quote": "I see memes with people walking and their lid is like a little bit open so the agent could still run in these loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1283,
+          "t": [
+            5761.092,
+            5762.913
+          ],
+          "quote": "Even if an agent tries, you say prohibit it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1289,
+          "t": [
+            5779.307,
+            5785.23
+          ],
+          "quote": "As soon as you start using agents and use Kubernetes, an agent will say, yeah, let me just delete this bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            5799.178,
+            5805.042
+          ],
+          "quote": "And FactoryDroid is something separate from the open source Droid agent harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1323,
+          "t": [
+            5889.728,
+            5903.751
+          ],
+          "quote": "So if you're running an agent on your machine through OpenCode, Claude, Codex, or any of those things, or factory droids, there are certain decisions or checkpoints, if you will, that those events will be emitted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1341,
+          "t": [
+            5981.852,
+            5986.634
+          ],
+          "quote": "And you still want that when your agent is performing the code execution for you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1342,
+          "t": [
+            5986.654,
+            5991.136
+          ],
+          "quote": "When you're not doing it hands-on, but when your agent is typing the code or generating the code rather.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1392,
+          "t": [
+            6243.26,
+            6269.215
+          ],
+          "quote": "So I built a command with exploration from an Icelandic company from a friend of mine called SlashRetro, where you're having the same Socratic method, but looking at the last session or the current session you just had and figure out what is it that you had to course correct the agent because you went ballistic, you went haywire, or you didn't do what you actually wanted to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1393,
+          "t": [
+            6269.915,
+            6274.54
+          ],
+          "quote": "Or things that you had to fix manually because, you know, the agent sometimes doesn't do it as much as a good job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1427,
+          "t": [
+            6444.514,
+            6454.58
+          ],
+          "quote": "You are an agent specialized in helping me reflect and find optimizations for my development workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1467,
+          "t": [
+            6651.387,
+            6653.789
+          ],
+          "quote": "So now I can use an agent to do what they do best.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1472,
+          "t": [
+            6666.235,
+            6680.078
+          ],
+          "quote": "And if I revert back in time, if I was doing this when I was early in career, I feel like this agent and this way of giving feedback is going to have me make a lot of decisions, a lot of decisions that I don't even have a clue on how to make, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1476,
+          "t": [
+            6684.959,
+            6694.862
+          ],
+          "quote": "So how much do I need to use my own critical thinking or how much can I let the agent kind of also advise me and inform me and kind of be my guide there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1482,
+          "t": [
+            6712.625,
+            6724.948
+          ],
+          "quote": "And I wanted to have a way for anyone in the company, an agent, to say, include the merge check, include its attestation to make sure that the agents are not lying to your fabrication.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1490,
+          "t": [
+            6752.408,
+            6755.229
+          ],
+          "quote": "What the agent understood was, OK, sure, no problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1498,
+          "t": [
+            6791.252,
+            6797.975
+          ],
+          "quote": "But also how do I prevent an agent to basically lie to me and start editing these things because they have free will to a degree, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spec-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "规范驱动开发 (spec-driven development)",
+      "file": "规范驱动开发",
+      "primary": true,
+      "how_described": "本集核心开发方法论，通过先写规范（spec）、设计文档和任务列表来外化上下文，使得实现阶段可以用更便宜的模型执行，而不需要带着全部上下文跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1643.059,
+            1650.743
+          ],
+          "quote": "But we also don't want to turn this into a waterfall-like because it's also very common these days, especially with spec-driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3485.668,
+            3495.616
+          ],
+          "quote": "I tried to make it as simple as possible, but we use a project called OpenSpec, which is one of my favorites when it comes to spec-driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3496.156,
+            3504.059
+          ],
+          "quote": "The idea of OpenSpec, like anything related to spec-driven development, is you are having a discussion, a brainstorming phase first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            4649.918,
+            4653.602
+          ],
+          "quote": "Start so you understand the cycle of a spec-driven development.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "socratic-method",
+      "type": "concept",
+      "role": "concept",
+      "name": "苏格拉底方法 (Socratic method)",
+      "file": "苏格拉底方法",
+      "primary": true,
+      "how_described": "本集在路线图审查、设计探索、Retro 复盘三个节点都使用的方法——只提问不给答案，通过连续追问找出思维中的矛盾和漏洞，既对人使用也对智能体使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2158.908,
+            2181.533
+          ],
+          "quote": "Enforced or so hard as a requirement, it has a instruction to say after the roadmap has been finished, do a pass like a mini loop to see if some of those are similar and they can be merged or if some of those don't have clear outcome or clear acceptance criteria and interview using Socratic method until we actually get to the bottom of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2327.868,
+            2340.715
+          ],
+          "quote": "So, the quickest trick, even if you don't have much of a process, is to always tell the agents, use the Socratic method to get to the bottom or find holes in my thinking, in my clarity and so forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2344.477,
+            2347.739
+          ],
+          "quote": "What do you mean with the Socratic method or how can you explain that for the listener?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2347.899,
+            2359.887
+          ],
+          "quote": "Yeah, so the Socratic method comes from philosophy, where you're trying to get to an understanding of a topic, simply by asking questions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2380.636,
+            2388.119
+          ],
+          "quote": "So the Socratic method is a way for you to almost like an investigation mode, but through a curiosity lens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2480.948,
+            2488.317
+          ],
+          "quote": "And then I use Socratic method to simply keep asking questions and then playing back and try to show them in the last 20 minutes of the meeting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2523.715,
+            2535.226
+          ],
+          "quote": "I don't have to say I'm going to now use Socratic method, but I can just keep asking questions and hopefully it's not in an annoying way where people kind of drill down their thoughts and we get clarity on what they actually want to do in that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3519.284,
+            3526.869
+          ],
+          "quote": "And this OpenSpec Explorer uses Socratic method to try to keep asking you until they get to the bottom of what your design looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1392,
+          "t": [
+            6243.26,
+            6269.215
+          ],
+          "quote": "So I built a command with exploration from an Icelandic company from a friend of mine called SlashRetro, where you're having the same Socratic method, but looking at the last session or the current session you just had and figure out what is it that you had to course correct the agent because you went ballistic, you went haywire, or you didn't do what you actually wanted to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1429,
+          "t": [
+            6466.987,
+            6472.15
+          ],
+          "quote": "Interview me, use Socratic method, find the threads until there's nothing left.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1535,
+          "t": [
+            7028.318,
+            7047.108
+          ],
+          "quote": "What we can do, what about, I showed him this loop that we're just discussing now, what if we have a skill that uses the piece or a command, I think it's better than a skill, uses the pieces as a template, as a starting point, but use Socratic method and makes part of the workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-reviewer",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗性审查 (adversarial reviewer)",
+      "file": "对抗性审查",
+      "primary": true,
+      "how_described": "本集作为质量保障的核心机制，在 OpenSpec 计划阶段运行约 15 个专项审查者（如 Python 审查者、数据库 DDL 审查者），用于捕获智能体可能产生的问题如数据丢失",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 715,
+          "t": [
+            3359.934,
+            3363.895
+          ],
+          "quote": "These are the things that should actually be caught by a linter and not by adversarial reviewer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1364,
+          "t": [
+            6110.902,
+            6112.704
+          ],
+          "quote": "You're going to run a Python adversarial reviewer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "merge-check",
+      "type": "concept",
+      "role": "concept",
+      "name": "合并检查 (merge check)",
+      "file": "合并检查",
+      "primary": true,
+      "how_described": "本集提出的关键防伪造机制：每次提交必须附带一份证明（attestation），记录所有审查步骤确实执行了、确实读了对应文件，CI 会预先验证这份证明的真伪，防止智能体假装跑了测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1372,
+          "t": [
+            6151.829,
+            6159.821
+          ],
+          "quote": "And I'm doing the same idea as a merge check to prevent agents to fabricate evidence that they run tasks, that they did things that they were supposed to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1385,
+          "t": [
+            6211.094,
+            6212.575
+          ],
+          "quote": "That's why I'm calling it a merge check.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1402,
+          "t": [
+            6304.972,
+            6321.531
+          ],
+          "quote": "And this is how I used to improve this whole loop of development to introduce a Merge Check, to introduce one reviewer at a time, to introduce custom leading roles, to introduce architecture guards to prevent a file importing some other file that shouldn't be because we're using ports and adapters and such.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1482,
+          "t": [
+            6712.625,
+            6724.948
+          ],
+          "quote": "And I wanted to have a way for anyone in the company, an agent, to say, include the merge check, include its attestation to make sure that the agents are not lying to your fabrication.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "command",
+      "type": "concept",
+      "role": "concept",
+      "name": "命令 (command)",
+      "file": "命令",
+      "primary": true,
+      "how_described": "本集区分命令与技能：命令是人主动调用的，能保证指令被遵循；技能是模型自主触发的，容易被跳过或曲解。本集工作流中的 slash roadmap、slash retro 等都是命令",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1890.829,
+            1904.826
+          ],
+          "quote": "The idea of a slash roadmap is a command that would try to take whatever input you have on a whiteboard or notes or something to try to update or create a roadmap, like a markdown roadmap, nothing really complicated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1952.05,
+            1953.812
+          ],
+          "quote": "So this is a command.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1962.82,
+            1968.405
+          ],
+          "quote": "But the idea is that we have the definition of a command, which is something that's user-invoked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2010.775,
+            2014.139
+          ],
+          "quote": "So a command forces you to actually use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2020.727,
+            2023.272
+          ],
+          "quote": "We do this because we use a command instead of a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2095.329,
+            2100.913
+          ],
+          "quote": "So the idea of having a separate one or a separate sub command is to make sure that these are more deterministic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1238,
+          "t": [
+            5590.506,
+            5591.086
+          ],
+          "quote": "It's a command.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1392,
+          "t": [
+            6243.26,
+            6269.215
+          ],
+          "quote": "So I built a command with exploration from an Icelandic company from a friend of mine called SlashRetro, where you're having the same Socratic method, but looking at the last session or the current session you just had and figure out what is it that you had to course correct the agent because you went ballistic, you went haywire, or you didn't do what you actually wanted to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1396,
+          "t": [
+            6280.667,
+            6283.149
+          ],
+          "quote": "So what this slash retro command does is interviews you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1535,
+          "t": [
+            7028.318,
+            7047.108
+          ],
+          "quote": "What we can do, what about, I showed him this loop that we're just discussing now, what if we have a skill that uses the piece or a command, I think it's better than a skill, uses the pieces as a template, as a starting point, but use Socratic method and makes part of the workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": false,
+      "how_described": "本集指出技能是模型自主触发的，在多模型混用环境下效果不稳定，模型经常会跳过技能或执行方式与预期完全不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            1946.886,
+            1951.49
+          ],
+          "quote": "And the slash means it's a skill or it's something that's pre-configured that helps you with that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1968.945,
+            1971.547
+          ],
+          "quote": "And you have the skill, which is more of a model invoked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2020.727,
+            2023.272
+          ],
+          "quote": "We do this because we use a command instead of a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2517.809,
+            2522.974
+          ],
+          "quote": "This seems like a very interesting skill that I can also just put into practice and experiment with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1535,
+          "t": [
+            7028.318,
+            7047.108
+          ],
+          "quote": "What we can do, what about, I showed him this loop that we're just discussing now, what if we have a skill that uses the piece or a command, I think it's better than a skill, uses the pieces as a template, as a starting point, but use Socratic method and makes part of the workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "determinism",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (determinism)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "本集核心诉求：人类和智能体都是非确定性的，所以需要通过命令、合并检查、lint 规则等机制注入确定性，防止工作流失控",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            2044.556,
+            2046.518
+          ],
+          "quote": "So I need some level of determinism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2073.955,
+            2083.441
+          ],
+          "quote": "So in case you run it again, you know with determinism, you know, once you keep creating more epics or something, the issue with this commands for product management, what I noticed was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3363.955,
+            3366.216
+          ],
+          "quote": "Otherwise you're spending too much time on non-determinism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1344,
+          "t": [
+            6000.08,
+            6005.743
+          ],
+          "quote": "I think we should move that as much as we can in determinism and hooks are a way to do that, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fabricate-evidence",
+      "type": "concept",
+      "role": "concept",
+      "name": "伪造证据 (fabricate evidence)",
+      "file": "伪造证据",
+      "primary": true,
+      "how_described": "本集指出智能体会假装跑了测试、从互联网复制粘贴结果冒充自己的输出，这是必须通过合并检查来防范的真实风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1372,
+          "t": [
+            6151.829,
+            6159.821
+          ],
+          "quote": "And I'm doing the same idea as a merge check to prevent agents to fabricate evidence that they run tasks, that they did things that they were supposed to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "three-different-tiers-of-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "三层模型分层 (three different tiers of models)",
+      "file": "三层模型分层",
+      "primary": true,
+      "how_described": "本集提出的成本控制策略：探索/理解阶段用 SOTA 模型但禁止创建文件；实现阶段用中端模型因为上下文已外化到设计文档；审查阶段用便宜的开源权重模型跑多轮对抗性审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 783,
+          "t": [
+            3642.04,
+            3645.581
+          ],
+          "quote": "So in our process, we usually use three different tiers of models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openspec",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenSpec",
+      "file": "OpenSpec",
+      "primary": true,
+      "how_described": "本集使用的规范驱动开发工具，其最大优势是可以将团队自定义的工作流编入代码；本集不使用原版而是定制了包含形式化验证、测试策略等额外制品的工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 746,
+          "t": [
+            3485.668,
+            3495.616
+          ],
+          "quote": "I tried to make it as simple as possible, but we use a project called OpenSpec, which is one of my favorites when it comes to spec-driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3496.156,
+            3504.059
+          ],
+          "quote": "The idea of OpenSpec, like anything related to spec-driven development, is you are having a discussion, a brainstorming phase first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3519.284,
+            3526.869
+          ],
+          "quote": "And this OpenSpec Explorer uses Socratic method to try to keep asking you until they get to the bottom of what your design looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3577.425,
+            3583.811
+          ],
+          "quote": "OpenSpec I've experimented with, and if you're listening, we have a new image on the screen that shows the developer loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 852,
+          "t": [
+            3915.042,
+            3915.863
+          ],
+          "quote": "Do we use OpenSpec?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3917.145,
+            3919.087
+          ],
+          "quote": "Like OpenSpec works for part of Adgen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3929.398,
+            3932.619
+          ],
+          "quote": "An OpenSpec doesn't quite have the idea of working in a monorepo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4073.024,
+            4075.145
+          ],
+          "quote": "If you use OpenSpec, this is what makes it successful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            4401.741,
+            4405.743
+          ],
+          "quote": "Then the OpenSpec plan creates the actual artifacts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            4413.627,
+            4415.589
+          ],
+          "quote": "We don't use the vanilla OpenSpec.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 980,
+          "t": [
+            4416.269,
+            4425.014
+          ],
+          "quote": "I learned that we can, the most, the biggest power of OpenSpec is that you can codify the workflow you want, which is amazing because you're always going to have a spec that has to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            4631.205,
+            4637.37
+          ],
+          "quote": "The mistake is to choose OpenSpec, TLC, which is really good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1035,
+          "t": [
+            4670.04,
+            4672.001
+          ],
+          "quote": "OpenSpec I think is the simplest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            4672.241,
+            4676.364
+          ],
+          "quote": "You just install OpenSpec and then just OpenSpec Explorer and you guide you for everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            4705.62,
+            4711.102
+          ],
+          "quote": "So this, the initial version of OpenSpec to a custom workflow took me like a month.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            4844.382,
+            4850.888
+          ],
+          "quote": "And how do I make sure that the biggest challenge I had was when you go through this loop, you're using OpenSpec and you use spec driven.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1179,
+          "t": [
+            5290.685,
+            5309.13
+          ],
+          "quote": "Yes, so we talked about the plan on creating those artifacts like the design, the spec, and the tasks, and why you should not settle for the vanilla approach of using OpenSpec or any framework for the matter, but the secret is to codify your workflows, your teams, and eventually your company, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            5363.371,
+            5366.494
+          ],
+          "quote": "But OpenSpec doesn't do anything secret.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            6099.99,
+            6107.578
+          ],
+          "quote": "As part of the OpenSpec plan, we run roughly 15 adversarial reviewers for the changes that are being made.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1425,
+          "t": [
+            6426.238,
+            6434.465
+          ],
+          "quote": "Tricks that you can do or even our own OpenSpec custom workflow with all these merge verification loops if you will framework that I'm trying to build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1536,
+          "t": [
+            7047.588,
+            7056.155
+          ],
+          "quote": "So then when you're trying to do the first brainstorming or explore OpenSpec or whatever, now you're embedding resilience aspects to things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "formal-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formal verification)",
+      "file": "形式化验证",
+      "primary": false,
+      "how_described": "本集在 OpenSpec 计划阶段引入，用于指定系统应如何表现、什么是不变量、哪些状态不应发生，让智能体在实现层面有更精确的指引",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 699,
+          "t": [
+            3269.888,
+            3277.45
+          ],
+          "quote": "Have we done formal verification, which is one of the hardest things into doing engineering, to cover the last 10% or last 5%, if you will?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 983,
+          "t": [
+            4430.917,
+            4442.705
+          ],
+          "quote": "And that is the phase where we now introduce things like formal verification, which is a way for you to specify how your systems should behave, what are the invariants, what are the states that should never happen to begin with.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "loop-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环工程 (loop engineering)",
+      "file": "循环工程",
+      "primary": true,
+      "how_described": "本集用来描述构建验证循环的实践——如何在不同模型之间建立审查循环，使得即使使用便宜模型也能保证质量，将智能体工作流变成可复用的商品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1376.279,
+            1393.511
+          ],
+          "quote": "Nowadays, I feel like we're moving really fast with large language models, agents, agentic engineering, loop engineering nowadays.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            4778.131,
+            4781.954
+          ],
+          "quote": "How do I now build a verification loop, which is now called loop engineering?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            5372.296,
+            5379.798
+          ],
+          "quote": "I think it's fascinating that this concept of loop engineering and when people say, I don't code anymore, it's easy to say, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paved-road",
+      "type": "concept",
+      "role": "concept",
+      "name": "铺好的路 (paved road)",
+      "file": "铺好的路",
+      "primary": false,
+      "how_described": "本集借用 AWS 概念，指出不会只有一条铺好的路，而是根据应用类型（是否关键路径、是否反欺诈等）铺不同的路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 835,
+          "t": [
+            3857.836,
+            3859.658
+          ],
+          "quote": "It's never going to be a single paved road.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            4890.204,
+            4897.87
+          ],
+          "quote": "Yeah, it's like people going off the paved road that you've defined and you're trying to have some principles in place to make sure they actually go back on track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1343,
+          "t": [
+            5991.756,
+            5999.32
+          ],
+          "quote": "So those conventions of code quality standards, specifically in our repository or for a paved road for a specific technology,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "type": "concept",
+      "role": "concept",
+      "name": "软性上限 (limits)",
+      "file": "软性上限",
+      "primary": false,
+      "how_described": "本集借用 AWS Lambda 的配额机制思路，在 SOTA 模型用量达到上限时触发对话，将其作为教育契机而非硬性门控",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 862,
+          "t": [
+            3957.349,
+            3962.091
+          ],
+          "quote": "So we have this team thinking about these things, thinking from a limits point of view.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 868,
+          "t": [
+            3994.485,
+            3996.646
+          ],
+          "quote": "So the limits help you to put that,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hook",
+      "type": "concept",
+      "role": "concept",
+      "name": "hook",
+      "file": "hook",
+      "primary": false,
+      "how_described": "本集描述为事件驱动的拦截机制，可以在智能体运行工具前后插入额外指令，比如在返回控制权给用户前强制运行 pre-commit hooks",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1317,
+          "t": [
+            5867.363,
+            5869.646
+          ],
+          "quote": "Yeah, I want to zoom into Hook since you mentioned that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1318,
+          "t": [
+            5870.147,
+            5874.894
+          ],
+          "quote": "For me, let's start with what is a hook to make sure the listener understands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            5875.414,
+            5881.182
+          ],
+          "quote": "So a hook, similar to anything that happens in your machine, it usually generates an event of a kind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1329,
+          "t": [
+            5930.785,
+            5933.326
+          ],
+          "quote": "A smarter way to do it is to do it at the pre-commit hook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1330,
+          "t": [
+            5933.826,
+            5943.928
+          ],
+          "quote": "So if Git is going to make a commit to this, it's going to tap into a hook, into an event, that you can now run certain commands and just say abort this operation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1331,
+          "t": [
+            5944.128,
+            5948.949
+          ],
+          "quote": "So the hook is basically event-driven, but from a process, from a tool point of view.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1332,
+          "t": [
+            5949.829,
+            5956.15
+          ],
+          "quote": "Does the hook run when a loop is done, or does it run with one iteration of a loop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1335,
+          "t": [
+            5969.762,
+            5971.403
+          ],
+          "quote": "A loop is nothing more than a hook in a way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1361,
+          "t": [
+            6094.799,
+            6097.721
+          ],
+          "quote": "Two checkpoints, not hook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1486,
+          "t": [
+            6739.058,
+            6745.043
+          ],
+          "quote": "Should only be saying, this is the hook I received, the event I received, and add the label that should be an action.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品工程 (product engineering)",
+      "file": "产品工程",
+      "primary": false,
+      "how_described": "本集嘉宾称之为最喜欢的角色，结合了面向客户的工程、处理客户、思考产品路线图，既需要技术背景也需要产品思维",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1547.965,
+            1557.414
+          ],
+          "quote": "If you ever were in an open source role or ever were in my favorite role of all times, called product engineering, then you gotta have to talk to people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1669.539,
+            1670.861
+          ],
+          "quote": "That's the beauty of product engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1770.777,
+            1772.717
+          ],
+          "quote": "So product engineering end up doing both.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "local-first-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地优先架构 (local first architecture)",
+      "file": "本地优先架构",
+      "primary": false,
+      "how_described": "本集简短提及，是一种让客户端成为数据源、事务先在本地执行再同步到服务器的架构模式，嘉宾用它解决全球办公室协作的延迟问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1049,
+          "t": [
+            4736.171,
+            4741.035
+          ],
+          "quote": "I'm doing something I really love now called Local First Architecture, which is like, my god, I wish I had known this before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            4942.702,
+            4948.064
+          ],
+          "quote": "You briefly mentioned LFA, local first architecture, and also specifically mentioned, I wish I had known this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1136,
+          "t": [
+            5107.113,
+            5114.396
+          ],
+          "quote": "So local first architecture is the principle that everything that you're going to do is going to do local first, going to happen local first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            5277.758,
+            5284.982
+          ],
+          "quote": "If you want, if you're listening and you want an LFA, Local First Architecture follow up specifically with Hytor, let me know in the comment section.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集作为嘉宾 11 年职业经历的背景，提供了无服务器、Lambda 配额机制、bar raiser 面试文化、写作文化等可类比到智能体时代的经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            66.478,
+            70.939
+          ],
+          "quote": "This is Heitor Lessa, a true AWS veteran who's trained over 8,000 architects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            170.208,
+            183.318
+          ],
+          "quote": "I think one of the interesting things about Amazon AWS, even though the size, AWS specifically, was humongous in terms of size, in terms of people and processes and so forth, it always felt like I started up in a way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            190.743,
+            196.185
+          ],
+          "quote": "Before I joined AWS, I went to a meetup of AWS, but I said I would never join a company like Amazon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            211.933,
+            215.776
+          ],
+          "quote": "And then it was literally two guys working for AWS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            271.676,
+            282.28
+          ],
+          "quote": "So things like, I'm having an outage now, we're having a big incident, or you started using AWS, you lift and shifted, and now your span just went through the roof, and you're trying to, how do I optimize this span?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            337.859,
+            355.129
+          ],
+          "quote": "So I went from the trenches where everyone dislikes AWS or complain about AWS and was there to help and fix and try to recover that trust in some ways, all the way to, it was the first time customers looking at AWS and the first time they heard about Elastic Compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            564.927,
+            574.711
+          ],
+          "quote": "What I learned about servers was even though AWS would deal with all the infrastructure for them and not have to think about anything, there was a massive gap on...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            852.674,
+            858.458
+          ],
+          "quote": "I was privileged to work on a team briefly, something called, you might have heard of something called AWS Web Architected.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            858.979,
+            867.205
+          ],
+          "quote": "So I helped build what they call AWS Web Architected Lens, which is a way for you to bring your own best practices for a company for something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            945.1,
+            957.995
+          ],
+          "quote": "So when I launched Power Tools, it was at re.Invent, and it was supposed to be like a presentation about the serverless lens in the console of AWS, which the launch was delayed a little bit, but I shared a few things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            993.16,
+            1014.576
+          ],
+          "quote": "When I launched what we call Tracer Metrics and Logger, the Structure Logging, and it was so easy for people to create demos, it blew up as soon as people started sharing in newsletters into what we call AWS Heroes, AWS Community Builders, that people started writing articles about how much easier it was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1019.559,
+            1033.183
+          ],
+          "quote": "Then the next big wave were partners, not only like Xebia, but there were a few others from AWS that started using it into consultancies to the point that people created custom programs and consultancies implementing power tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1047.687,
+            1057.009
+          ],
+          "quote": "And I haven't even been in this field for 11 years, and you've done 11 years in eight different roles, hundreds of companies, specifically at AWS, a company that I still look up to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1348.129,
+            1351.933
+          ],
+          "quote": "I used to train people to become principals at AWS and so forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3969.705,
+            3981.695
+          ],
+          "quote": "If you let a service like AWS Lambda just simply say, you know what, you can do 100,000 containers from now, at any point in time, just send a request and we'll come up with the infrastructure for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            4175.058,
+            4184.502
+          ],
+          "quote": "For AWS, I think back in the days, I trained like 8,000 plus architects back in the days because I was lucky enough to be one of the first then.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adyen",
+      "type": "company",
+      "role": "company",
+      "name": "Adyen",
+      "file": "Adyen",
+      "primary": false,
+      "how_described": "本集作为嘉宾当前工作环境，是上述智能体工作流的实际落地场景，拥有 1400 名工程师、巨型 monorepo 等规模化约束",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1575.383,
+            1582.384
+          ],
+          "quote": "We need, like Adyen always does as well, customer centricity is a key, but you also don't want to take the advice from only a single customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1972.368,
+            1981.213
+          ],
+          "quote": "I keep having mixed results with skills because at Adyen, we are true believers of using multiple choices, experimenting a bunch of things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "type": "company",
+      "role": "company",
+      "name": "Factory",
+      "file": "Factory",
+      "primary": false,
+      "how_described": "本集提及为一家提供类 Claude Code 体验的公司，本集工作流中的命令（如 slash roadmap）就是在其平台上定义和运行的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            1953.832,
+            1955.713
+          ],
+          "quote": "So we use a company called Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1955.914,
+            1956.995
+          ],
+          "quote": "It's a factory, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1323,
+          "t": [
+            5889.728,
+            5903.751
+          ],
+          "quote": "So if you're running an agent on your machine through OpenCode, Claude, Codex, or any of those things, or factory droids, there are certain decisions or checkpoints, if you will, that those events will be emitted.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lambda-power-tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "Lambda Power Tools",
+      "file": "Lambda Power Tools",
+      "primary": false,
+      "how_described": "本集作为嘉宾在 AWS 期间创建的开源项目，从几百次下载增长到每周 2300 亿次 API 调用，是「把最佳实践编入代码让开发者不用做决定」这一理念的早期实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            602.001,
+            605.863
+          ],
+          "quote": "So the thing I built then was something called Power Tools or Lambda Power Tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "attestation",
+      "type": "concept",
+      "role": "concept",
+      "name": "证明 (attestation)",
+      "file": "证明",
+      "primary": false,
+      "how_described": "本集在合并检查机制中使用，借鉴高风险发布中的做法，记录所有审查步骤的证据、任务、发现和需要修复的内容，由 CI 预先验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1370,
+          "t": [
+            6131.274,
+            6142.317
+          ],
+          "quote": "And this will generate an attestation, like we do in high-stake releases, like I used to do in open source, that every release you would generate an attestation and a provenance to prove",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1382,
+          "t": [
+            6197.886,
+            6203.289
+          ],
+          "quote": "If they did, then we can generate an attestation with all the evidence, the tasks, the findings, the things that need to be fixed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1482,
+          "t": [
+            6712.625,
+            6724.948
+          ],
+          "quote": "And I wanted to have a way for anyone in the company, an agent, to say, include the merge check, include its attestation to make sure that the agents are not lying to your fabrication.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "本集作为成本度量单位，嘉宾提到一次重构花掉 2 亿个 token 才意识到必须停止全程用最贵模型，在 1400 人组织中每个工程师每月几千美元的 token 费用会引发领导层质疑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 402,
+          "t": [
+            1996.281,
+            2000.083
+          ],
+          "quote": "It's great for token efficiency and budgets, which we will talk about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3693.332,
+            3715.665
+          ],
+          "quote": "Good groups of it in the agent AI now right now we're getting into like yes use everything token maxing which is not my thing i'm a fan of but eventually that the cost will come and then when leadership start questioning hang on a second do i need an engineer plus five thousand a month three thousand a month just for them to do their work that that math doesn't doesn't add up",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

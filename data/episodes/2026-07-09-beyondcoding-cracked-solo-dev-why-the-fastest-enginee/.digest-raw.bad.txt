@@ -1,0 +1,157 @@
+===标题===
+Kitsa：从氛围编码到氛围工程，一个人管 140 个项目
+===导语===
+会写规则的人用智能体产出翻 20 倍，不会写的人还在当保姆。
+===正文===
+这不是我的代码和他们的代码之间的对抗，这是我的代码和他们的环境搭建之间的对抗。说这话的是 Kitsa，一位同时兼顾 140 个项目的独立构建者 [01:00 Unknown]。
+
+## 氛围编码 vs 氛围工程
+
+氛围编码就是往墙上扔东西，希望它粘住。氛围工程不一样——它是一个拥有大量技术知识的人去驱动智能体，因为他们已经知道自己要去哪里，只是原来逐文件、逐行去做太慢，现在可以走捷径。拥有工程经验的人驱动智能体，能拿到好 20 倍的结果 [02:32 Unknown]。
+
+但关键不在于你脑子里有多少知识，而在于你有没有把那些知识外化。LLM 不会神奇地从你的大脑里提取知识——除非你把知识变成规则，否则你不可避免地会以沮丧告终 [04:37 Unknown]。
+
+## Police 文件：把每次沮丧变成规则
+
+Kitsa 自己写了一个叫 police script 的东西，本质上是比 linter(代码静态检查工具)更贵但更灵活的"LLM 版 linter"。linter 有它能做和不能做的边界，而 police 文件能捕捉 linter 抓不到的问题 [05:02 Unknown]。
+
+工作方式是这样的：每次用智能体时感到沮丧，就把那条规则加进 police 文件。智能体完成工作后，自动启动一个自我纠正环节——先纠正 TypeScript，再跑 linter，再跑格式化，最后跑 police 检查。发现 30 个 police 错误？启动子智能体逐个修。目标是在每一轮结束时归零：零问题、零警告、零错误、零类型问题 [05:10 Unknown]。
+
+大多数人的问题是：这个循环他们可能每天做、每周做、甚至每月做一次——那就太晚了。你需要在每一轮都跑这个循环，这一轮结束，智能体自我纠正一切 [05:37 Unknown]。
+
+## 这是一项全新技能，不是"打字出代码"
+
+Kitsa 把这叫做 Loop Engineering——设计你的循环，让结果保持高质量 [07:27 Unknown]。他认为这是一项完全不同的技能集，而不是"输入英文代码就出来了"。大多数工程师不想要新技能——他们习惯了在 Vim 或 WebStorm 里比速度，以此为豪 [06:32 Unknown]。
+
+Kitsa 曾经也是那种人，在 Twitch 直播里被弹幕夸"这家伙编码像光速"。但他把自我放下了："我很快，但我快不过使用 LLM 的工程团队。"现在他不能炫耀"看我多会写规则文件"，但这才是真正重要的新肌肉 [06:59 Unknown]。
+
+## 别从零开始，永远指向已有代码库
+
+Kitsa 的另一个核心做法：开始任何新项目时，永远指向一个现有代码库。要么 fork 自己之前从零到交付的全栈模板，要么指向一个 Vite 加 React 加 Tailwind 的样板 [19:27 Unknown]。
+
+如果从零开始、什么都不给，智能体会走自己的路、自己选技术栈。但如果你说"我要做一个预算追踪器，风格参考我已有的那个 app"，它非常擅长去除样板代码、做克隆 [19:46 Unknown]。
+
+他目前的假设是：代码需要简单且易于更改。如果你不为此做工程化，以前可能四五年后需要重写，现在这个时间线会加速到六个月。所以你需要通过技能文件、agent MD 文件、钩子、静态代码分析来工程化，确保代码始终简单可变——而且这些要素一旦就位，可以从一个项目搬到另一个项目 [20:04 Unknown]。
+
+## 实际工作流：Codex 应用 + GPT 5.5
+
+尽管 Kitsa 试过自己造编排器（已经是第六次迭代），也刚试了 Fable，但他总会回到同一个地方：手动在项目文件夹的工作区里处理聊天，主要用 Codex 应用配 GPT 5.5 开到超高模式 [23:32 Unknown]。
+
+他放弃了 CLI(命令行界面)，因为桌面应用在各方面对他都是更好的工作流。他一直是个终端黑粉——每次被迫打开终端都问自己"为什么？这里有什么是 Codex 里做不到的？" [24:17 Unknown]。
+
+但 Codex 应用也有问题：视觉上太混乱，侧边栏扫描量太大，没有足够的视觉分隔来告诉你"该看什么、什么在进行中、什么已完成、什么被阻塞了" [25:05 Unknown]。
+
+## 编排器的问题：全都是左侧边栏加右侧聊天
+
+Kitsa 对当前所有智能体编排器有个核心槽点：无论 Cursor、Copilot 还是其他什么，迭代了半天，最好的 UI 创新就是一个左侧边栏加右侧聊天。他说规则一应该是"不要侧边栏"——因为左侧边栏就是范围，你会把所有东西都塞进去 [21:20 Unknown]。
+
+他想发明的是五年或十年后会用的 IDE，甚至是一个"用于工作的 agentic 操作系统"——不是一个侧边栏和一个聊天框，而是能管理你所有工作流的系统 [22:36 Unknown]。当你的角色已经变了，但 UI 还停在旧模式，这就是摩擦和挫败的来源 [22:52 Unknown]。
+
+## 智能不是瓶颈，编排才是
+
+Kitsa 在用 Fable 时意识到一件事：智能并不是真正的问题。GPT-5、Opus，它们已经够聪明了。如果你在它们周围放上正确的编排循环、规则、护栏，结果就差不了 [17:41 Unknown]。
+
+如果你只是不停兜圈子、浪费 token、纠结该用哪些命令——问题不在模型，在于你和你自己的编排。长话短说，这是一个技能问题 [28:57 Unknown]。
+
+## 团队里会发生什么
+
+Kitsa 认为智能体会从结对编程的助手，爬升为三人团队的管理者，最终成为 CDO 级别。而人类的工作会变成在低层级"解除阻塞" [38:05 Unknown]。
+
+这其实呼应了一个观察：真正优秀的工程师，特征就是能先解除自己的阻塞，再解除别人的阻塞。当事情卡住时，需要有人发出信号并推动它动起来 [39:06 Unknown]。
+
+Kitsa 觉得智能体介入反而能减少人为摩擦——因为两个人类很难就某事达成一致，但一旦你和我就某条规则达成一致并写进流程，下一个进来的工程师就不能说"但在我以前公司我们不是这么做的"。你可以告诉他：这不是我们发明的，是智能体定的 [37:15 Unknown]。
+
+## 混日子的时代结束了
+
+Kitsa 说话很直：这个行业里大多数人薪水过高，用来瞎搞、在 LinkedIn 吃五顿午餐、用 React 搬几行代码。他认为这种泡沫会破裂，IT 人会被拉回现实——"我的技能并没有那么独特和有价值" [11:40 Unknown]。
+
+以前有更多混日子的空间。在 LLM 做代码审查之前，很多事被扫到地毯下面——高级工程师心情不好就说"去他的合并吧"。现在你用英文写规则，LLM 做的 PR 审查比心情不好的人类更彻底 [32:36 Unknown]。
+
+结果是：在有了闭环的好组织里，运送草率工作更难了，因为流程中某个环节的 LLM 会拦住你。会越来越紧——"要么你是个摇滚明星，要么你就滚蛋" [33:05 Unknown]。
+
+他甚至说，如果一个懂智能体编排的中级工程师，可以胜过五个顽固地坚持"我要按我的方式来"的高级工程师 [13:16 Unknown]。
+
+## 本集带走
+
+- **把每次沮丧写成规则**：建一个 police 文件，每次智能体犯的错、你骂出来的话，都变成一条规则。智能体每轮结束自动跑自我纠正循环，目标归零。
+- **永远不从零开始**：新项目指向已有代码库或模板，让智能体克隆风格而非自己选技术栈。
+- **坚持一个工具深入**：别因为新模型出来就切换，你在旧工具上积累的规则、技能、肌肉记忆比模型本身聪明几个百分点更重要。
+- **代码工程化的目标不变**：简单且易于更改。以前不这样做四五年后要重写，现在六个月就要重写——所以更要通过规则和自动化守护这个原则。
+- **解除阻塞是最核心的能力**：不管是解除自己的、别人的、还是智能体的阻塞——这已经是区分顶尖工程师的特征。
+===金句===
+01:00 Unknown
+EN | It's not my coding versus their coding. It's my coding versus their setups.
+ZH | 这不是我的代码和他们的代码之间的对抗。这是我的代码和他们的环境搭建之间的对抗。
+
+02:32 Unknown
+EN | people with a lot of engineering experience, when they drive agents, you get like 20 times better results because they already know where do they want to go
+ZH | 拥有丰富工程经验的人，当他们驱动智能体时，你会得到好 20 倍的结果，因为他们已经知道他们想去哪里。
+
+02:49 Unknown
+EN | Throwing shit at the wall until it sticks, hoping that the thing is going to work.
+ZH | 往墙上扔屎，直到粘住为止，希望这东西能起作用。
+
+04:37 Unknown
+EN | The LLM is not going to magically extract your knowledge from your brain and you will inevitably end up frustrated unless you turn that knowledge into rules
+ZH | LLM 不会神奇地从你的大脑中提取你的知识，除非你把那些知识变成规则，否则你不可避免地会以沮丧告终。
+
+05:37 Unknown
+EN | Most people don't have this loop... and many people do it like maybe every day or every week or every month, and then it's too late. You need it on every turn.
+ZH | 大多数人没有这个循环……而且很多人做这个可能每天或每周或每月一次，那就太晚了。你在每一轮都需要它。
+
+06:32 Unknown
+EN | people see this as typing English and code comes out. This is like a completely different skillset that most engineers don't want new skills.
+ZH | 人们把这看作是输入英文然后代码就出来了。这就像是一项完全不同的技能集，大多数工程师不想要新技能。
+
+06:59 Unknown
+EN | I'm fast, but I'm not faster than engineering with LLMs.
+ZH | 我很快，但我快不过使用 LLM 的工程团队。
+
+13:16 Unknown
+EN | A genetic knowledge of how to juggle agents and write rules can outperform, I would say, five stubborn seniors who are like clinging to their, no, I will do it my way and blah, blah, blah.
+ZH | 一种关于如何管理智能体和编写规则的遗传知识，可以胜过，我想说，五个顽固的高级工程师，他们就像坚持他们的，不，我会按我的方式做，等等，等等。
+
+13:25 Unknown
+EN | we need to rethink everything, like the interview process and all of that, like the old values of how you write clean code and blah, blah, blah don't matter
+ZH | 我们需要重新思考一切，比如面试流程和所有这些，比如如何编写干净代码的旧价值观等等都不重要了。
+
+20:04 Unknown
+EN | my running hypothesis is that code needs to be simple and easy to change. If we don't engineer for that, that timeline is just going to accelerate. And then you need to rewrite in like six months instead of years.
+ZH | 我目前的假设是代码需要简单且易于更改。如果我们不为此进行工程化，那个时间线只会加速。然后你需要在六个月内而不是几年内重写。
+
+21:32 Unknown
+EN | Whoever comes up, Cursor and Copilot and like all of them came out with new iterations of an orchestrator and the only thing they can come up with is like a list of folders, chats within them, and chat on the right side.
+ZH | 无论是谁，Cursor 和 Copilot 以及所有的这些都推出了编排器的新迭代，而他们能想出的唯一东西就像是一个文件夹列表、里面的聊天，以及右侧的聊天。
+
+28:57 Unknown
+EN | If you're just going in loops and loops and wasting tokens and struggling which commands to use, kind of the problem is in you and your orchestration. It's a skill issue.
+ZH | 如果你只是不停地兜圈子，浪费 token，纠结该用哪些命令，问题有点在于你和你编排。这是一个技能问题。
+
+30:31 Unknown
+EN | it's not my coding versus their coding. It's my coding versus their setups. And learning the setups, especially as time goes on, is very overwhelming.
+ZH | 这不是我的编码和他们的编码的较量。是我的编码和他们的设置的较量。学习这些设置，特别是随着时间的推移，是非常令人不知所措的。
+
+32:59 Unknown
+EN | They're more thorough when it comes to pull request reviews because you can program the rules in English language that catch more things than the senior engineer who might have been not in the mood today and they're like, oh, fuck it, let's merge this.
+ZH | 当涉及到拉取请求审查时它们更彻底，因为你可以用英语编写规则，捕捉到更多的东西，比那个可能今天心情不好的高级工程师还要多，他们会说，哦，去他的，合并这个吧。
+
+33:34 Unknown
+EN | It's like either you're a fucking rock star or you're gone.
+ZH | 就像要么你他妈是个摇滚明星，要么你就滚蛋。
+
+38:05 Unknown
+EN | I see the agents crawling from like the helper that's doing peer programming with you to eventually the manager of your three-person programming team to eventually the CDO to eventually to other positions where your job is to be on the lower levels just unblocking.
+ZH | 我看到智能体从那个像和你一起做结对编程的助手一样，最终爬升为你那个三人编程团队的管理者，最终成为 CDO，最终成为其他职位，你的工作就是在低层级仅仅是去解除阻塞。
+
+39:06 Unknown
+EN | the best engineers at our company, they are the people that, first of all, are able to unblock themselves and then unblock others.
+ZH | 我们公司最好的工程师是那些人，首先，能够解除他们自己的阻塞，然后解除其他人的阻塞。
+
+41:25 Unknown
+EN | my number one advice would be to stick to one provider and to stick to one model.
+ZH | 我的第一条建议是坚持使用一个提供商并坚持使用一个模型。
+
+42:54 Unknown
+EN | just stick to the one thing and try to go deep in it instead of going shallow in many, many different ways.
+ZH | 就坚持做一件事，并尝试深入其中，而不是在许多、许多不同的方式上浅尝辄止。
+===END===
