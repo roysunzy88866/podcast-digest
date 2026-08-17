@@ -320,6 +320,42 @@ export function extractLatinTokens(md) {
   return [...new Set([...String(md).matchAll(/[A-Za-z][A-Za-z0-9.+_-]*/g)].map((m) => m[0].replace(/[.]+$/, "")))].filter(Boolean);
 }
 
+/**
+ * 占位说话人标签 —— 不是「专名断言」,是转写稿没认出人时留的占位符。
+ * 模型照抄它属忠实转录,不该判编造(ADR 0013 已把「说话人匹配」降为软提醒,同一精神)。
+ */
+// 只收「转写工具留下的机器占位符」这一类。**不含 host/guest**:那是我第一版顺手加宽的,
+// 失败实账里只有 Unknown/SPEAKER_nn(GLM 009[1] 点出 Host/Guest 有极小概率是真专名形状)→ 按「简到极致」砍掉,
+// 它们照常走词形规则(含大写+含小写=硬拦)。
+const PLACEHOLDER_SPEAKER_RE = /^(unknown|unknown[_-]?speaker|speaker[_-]?\d+|spk[_-]?\d+)$/i;
+
+/**
+ * D17 拉丁词分流(drift #63 · **标准变更:用户授权 2026-08-17**)。
+ *
+ * 收窄的理由(实账):原口径把中文稿里**每个** ≥3 字母的英文词都当「专名断言」要求逐字回原文,
+ * 于是 `mockup`(外来词)、`PPT`/`RLAIF`(模型把原稿拼写出的概念缩成通用缩写)、`Unknown`
+ * (转写稿的占位说话人标签)全被判「疑编造」硬拦 → 集子跑完全链、花掉翻译+浓缩的钱后被隔离。
+ * 实证:31 集栽在事实层,产量 9→7→3→1 集/天(2026-08-13→17)。
+ *
+ * **硬拦只留「实体形状」的词** —— 含大写但不全大写(Snowflake / Oracle / OpenAI / iPhone),
+ * 这正是「凭空造一家公司/一个人」的形状,防编造的本事一分不降。
+ * **降软提醒**(进待核清单、不拦发布):
+ *   · 全小写外来词 —— 中文写作的正常借词,不是对某个实体的事实断言
+ *   · 全大写缩写 —— 模型合法地把「reinforcement learning from AI feedback」缩成 RLAIF,
+ *     要求逐字命中等于禁止正确写法
+ *   · 占位说话人标签 —— 见上
+ *
+ * **已知代价(诚实登记)**:全大写的真公司名(IBM / NVIDIA)若被凭空编造,不再硬拦、只进待核。
+ * 判断:这类编造远少于上面三类误杀,且缩写本就无法用逐字法证实。要再收紧需另走标准变更。
+ */
+export function classifyLatinToken(t) {
+  const s = String(t);
+  if (PLACEHOLDER_SPEAKER_RE.test(s)) return "soft";
+  const hasUpper = /[A-Z]/.test(s);
+  const hasLower = /[a-z]/.test(s);
+  return hasUpper && hasLower ? "hard" : "soft";
+}
+
 /** 模糊量词:不是确定数字,逐字比对不适用 → 提醒层(drift #11) */
 const VAGUE_RE = /(数[十百千万亿]+[余多]?[亿万千百]*|几[十百千万亿个成倍]+|好几[个十百]|数以[百千万亿]+计|大约|左右|上下|接近|将近|多个|若干|一些|不少|大量|海量)/g;
 
@@ -556,7 +592,12 @@ export function checkProse(md, ctx, aliases) {
   const nouns = extractLatinTokens(body).filter(
     (t) => t.length >= 3 && !TOKEN_ALLOWLIST.has(t.toLowerCase()) && !REAL_PROPER_NOUNS.has(t.toLowerCase()),
   );
-  const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
+  // drift #63(标准变更·用户授权 2026-08-17):按词形分流 —— 实体形状的硬拦,外来词/缩写/占位标签降软提醒
+  const nounResults = nouns.filter((n) => classifyLatinToken(n) === "hard").map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
+  const nounSoft = nouns
+    .filter((n) => classifyLatinToken(n) === "soft")
+    .map((n) => ({ name: n, ...checkProperNoun(n, ctx) }))
+    .filter((r) => !r.pass); // 回原文命中的软词无需提醒,只列没命中的
   for (const cn of extractChineseNouns(body, aliases)) {
     const forms = cnToSourceForms(cn, aliases);
     if (!forms.length) {
@@ -590,7 +631,7 @@ export function checkProse(md, ctx, aliases) {
     ...numResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
     ...tsResults.filter((r) => !r.pass).map((r) => ({ kind: "D8-时间戳", ...r })),
   ];
-  return { nounResults, numResults, tsResults, vague, speakerWarn, failures };
+  return { nounResults, nounSoft, numResults, tsResults, vague, speakerWarn, failures };
 }
 
 /** 校验一集的事实层:D17 专名 + D17 数字 + D8 时间戳 */
@@ -620,7 +661,7 @@ export function gateFacts(dir, { aliasesPath } = {}) {
     return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest_md 为空 —— 判不了 = 不过" }] };
 
   // 核心比对(与实体 how_described 共用同一份组合,防漂移)
-  const { nounResults, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases);
+  const { nounResults, nounSoft, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases);
 
   // change 2(用户 AskUserQuestion 选「坏集只隔离」):实体 how_described 事实层**逐集**跑(与导读同源 checkProse),
   // 一条实体描述编造数字/专名 = 本集失真 → 本集不过、交 main 隔离,不漏到批级实体层一条连坐整批(run 29801188491:04-05 Anthropic「190亿」)。
@@ -641,6 +682,7 @@ export function gateFacts(dir, { aliasesPath } = {}) {
   return {
     id: meta.id,
     nouns: nounResults,
+    nounSoft,
     numbers: numResults,
     timestamps: tsResults,
     vague,
@@ -676,6 +718,13 @@ if (isMain) {
   if (r.speakerWarn?.length) {
     console.log(`\n  ⚠️ 待核·说话人(软提醒,不拦 · 标准变更用户授权):`);
     for (const s of r.speakerWarn) console.log(`     [${s.raw}] ${s.speakerSoft}`);
+  }
+  if (r.nounSoft?.length) {
+    // drift #63:外来词/全大写缩写/占位说话人标签回原文没命中 → 只提醒不拦(标准变更·用户授权)
+    console.log(`\n  ⚠️ 待核·英文词未回原文命中(外来词/缩写/占位标签,提醒不拦 · drift #63):`);
+    for (const n of r.nounSoft.slice(0, 12)) console.log(`     「${n.name}」`);
+    // 截断要说清还剩多少,别让人以为就这 12 条(GLM 009[3])
+    if (r.nounSoft.length > 12) console.log(`     …另有 ${r.nounSoft.length - 12} 条(共 ${r.nounSoft.length})`);
   }
   if (!r.pass) {
     console.error(`\n❌ 事实层闸门未过(${r.failures.length} 条):`);

@@ -16,6 +16,7 @@ import {
   parseInlineTimestamps,
   checkInlineTimestamp,
   checkProperNoun,
+  classifyLatinToken,
   checkProse,
   gateFacts,
 } from "../scripts/gate-facts.mjs";
@@ -647,5 +648,57 @@ describe("数值双语匹配:digit+量级词(19 billion)↔ 中文（190亿）�
     const ctx = buildFactIndex([{ text: "we had a good year with modest growth", start: 0, end: 4, words: [] }], {}, { entities: [] });
     const { failures } = checkProse("公司今年收入达到 190亿 美元。", ctx, { entities: [] });
     expect(failures.some((f: any) => f.kind === "D17-数字")).toBe(true);
+  });
+});
+
+// ── drift #63 · D17 按词形分流(标准变更:用户授权 2026-08-17)──
+// 血案:原口径把中文稿里每个 ≥3 字母英文词都当「专名断言」要求逐字回原文 → mockup(外来词)/
+// PPT·RLAIF(模型合法缩写)/Unknown(转写稿占位说话人标签)全判「疑编造」硬拦,31 集栽在事实层,
+// 产量 9→7→3→1 集/天。收窄:硬拦只留「实体形状」(含大写但不全大写),其余降软提醒。
+describe("drift #63 · D17 词形分流:硬拦只留实体形状", () => {
+  it("★★★ 真会被凭空编造的实体形状 → 仍硬拦(防编造的本事一分不降)", () => {
+    for (const t of ["Snowflake", "Oracle", "OpenAI", "iPhone", "Zorptron", "Fabricated"]) {
+      expect(classifyLatinToken(t), t).toBe("hard");
+    }
+  });
+  it("★★★ 三类误杀源 → 降软(全小写外来词 / 全大写缩写 / 占位说话人标签)", () => {
+    for (const t of ["mockup", "evals", "prompt"]) expect(classifyLatinToken(t), t).toBe("soft");
+    for (const t of ["PPT", "RLAIF", "IBM"]) expect(classifyLatinToken(t), t).toBe("soft");
+    for (const t of ["Unknown", "unknown", "SPEAKER_00", "speaker_12", "spk_3"]) {
+      expect(classifyLatinToken(t), t).toBe("soft");
+    }
+    // Host/Guest **不在**占位符表(GLM 009[1] 采纳:第一版顺手加宽了,失败实账里没有它们)
+    // → 照常走词形规则:含大写+含小写 = 硬拦
+    for (const t of ["Host", "Guest"]) expect(classifyLatinToken(t), t).toBe("hard");
+  });
+  // 自建 fixture:转写稿里**有** API(用来测「软词命中就不提醒」),**没有** mockup/PPT/RLAIF/Unknown/Zorptron
+  const T63 = [
+    { text: "we designed the API and built a wireframe together", start: 0, end: 10, words: mkWords("we designed the API and built a wireframe together", 0, "S0") },
+  ];
+  const M63 = { speaker_map: { S0: "X" }, title_en: "", guests: [] };
+  const c63 = () => buildFactIndex(T63, M63, { entities: [] });
+
+  it("★★★ 端到端:三个真实误杀词不再进 failures,而是进 nounSoft 待核清单", () => {
+    const r = checkProse("他做了个 mockup,用 PPT 讲 RLAIF,发言人标着 Unknown", c63(), { entities: [] });
+    expect(r.failures.some((f: any) => f.kind === "D17-专名")).toBe(false);
+    const soft = (r.nounSoft ?? []).map((x: any) => x.name);
+    for (const w of ["mockup", "PPT", "RLAIF", "Unknown"]) expect(soft, w).toContain(w);
+  });
+  it("★★★ 端到端:同一句里凭空编造的公司名照样硬拦(收窄没开天窗)", () => {
+    const r = checkProse("他用 mockup 演示,还提到 Zorptron 这家公司", c63(), { entities: [] });
+    const hard = r.failures.filter((f: any) => f.kind === "D17-专名").map((f: any) => f.name);
+    expect(hard).toContain("Zorptron");
+    expect(hard).not.toContain("mockup");
+  });
+  it("★★ 软词若真在原文命中 → 连提醒都不出(只列没命中的,别刷屏)", () => {
+    // 用 wireframe:全小写(→软)、不在 TOKEN_ALLOWLIST(真会进软通道)、且转写稿确实有它(→命中)。
+    // 别拿 API 测:它在白名单里压根进不了 nounSoft,断言恒真=空转(我第一版就这么写的,变异 D 逮到)。
+    const r = checkProse("他们照着 wireframe 做的", c63(), { entities: [] });
+    expect(classifyLatinToken("wireframe")).toBe("soft");
+    expect((r.nounSoft ?? []).map((x: any) => x.name)).not.toContain("wireframe");
+  });
+  it("★★ 反面:软词没命中原文 → 必须出现在提醒清单(钉住『提醒不是摆设』)", () => {
+    const r = checkProse("他们照着 blueprint 做的", c63(), { entities: [] });
+    expect((r.nounSoft ?? []).map((x: any) => x.name)).toContain("blueprint");
   });
 });
