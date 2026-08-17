@@ -20,6 +20,12 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
+// 下载音频用的浏览器 UA(与 run-pipeline.mjs:90 同款,drift #28):Substack 对裸 node 请求 403。
+// 此前这条路只服务 Megaphone/Simplecast/Anchor(不挑 UA),drift #61 把 Lenny's 兜底也接了进来才暴露。
+export const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+};
+
 // 模型档(用户 2026-07-24 拍板):large-v3 默认(质量优先),>100 分钟降 medium 保时长余量。
 // 锚 P1 实测:large-v3 0.59x 实时 → 100 分钟 ≈2.8h;job 上限 6h,再长不留余量。时长未知→large-v3。
 const LONG_EPISODE_SEC = 100 * 60;
@@ -89,8 +95,11 @@ async function runWhisperx(audioUrl, durationSec) {
   try {
     const audioFile = join(work, "episode.mp3");
     console.log(`── 下载音频(${Math.round(durationSec / 60)} 分)…`);
-    const res = await fetch(audioUrl, { redirect: "follow" });
-    if (!res.ok) throw new Error(`音频下载失败 HTTP ${res.status}`);
+    // 带浏览器 UA:Substack 对裸 node 请求 403(drift #28 同款;run 31986907759 实证——
+    // 兜底改走 whisperX 后,Lenny's 的 api.substack.com 音频直链在 runner 上 403)。
+    // 原本只有 Megaphone/Simplecast/Anchor 那些源走这条路、它们不挑 UA,所以一直没暴露。
+    const res = await fetch(audioUrl, { redirect: "follow", headers: BROWSER_HEADERS });
+    if (!res.ok) throw new Error(`音频下载失败 HTTP ${res.status}(URL: ${audioUrl.slice(0, 80)}…)`);
     await pipeline(Readable.fromWeb(res.body), createWriteStream(audioFile));
     const initialPrompt = asrInitialPrompt();
     console.log(`── whisperX 转写(model=${model},CPU int8 + 内置 VAD + pyannote 分离${initialPrompt ? " + AI 专名词表偏置" : ""})…`);
