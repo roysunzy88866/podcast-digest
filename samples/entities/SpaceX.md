@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Alex]] · [[Microsoft]] · [[强化学习]] · [[Google]] · [[AGI]] · [[资本支出]] · [[蒸馏]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":46,"OpenAI":36,"NVIDIA":16,"Alex":2,"Microsoft":10,"强化学习":9,"Google":17,"AGI":10,"资本支出":3,"蒸馏":6}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":45,"OpenAI":34,"NVIDIA":15,"Alex":2,"Microsoft":10,"强化学习":9,"Google":18,"AGI":10,"资本支出":3,"蒸馏":5}</script>
 
 <script>
 (function(){

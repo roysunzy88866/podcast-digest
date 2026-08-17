@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Mosseri]] · [[Instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[Reels]] · [[Stories]] · [[产品人员]]
+[[Lenny]] · [[Adam Mosseri]] · [[Instagram]] · [[TikTok]] · [[Anthropic]] · [[Facebook]] · [[open ai]] · [[Twitter]] · [[Reels]] · [[Stories]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Adam Mosseri":1,"Instagram":2,"TikTok":1,"Anthropic":46,"open ai":2,"Twitter":4,"Reels":2,"Stories":2,"产品人员":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Adam Mosseri":1,"Instagram":2,"TikTok":1,"Anthropic":45,"Facebook":5,"open ai":2,"Twitter":4,"Reels":2,"Stories":2}</script>
 
 <script>
 (function(){

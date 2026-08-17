@@ -11,14 +11,14 @@ description: "Mark Pincus拆解了他做爆款的方法论:别追求从零创新
 host: "[[Mark Pincus]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Zynga]]"]
-concepts: ["[[已验证、更好、全新]]", "[[产品市场契合度]]", "[[留存率]]", "[[分发]]", "[[智能体]]", "[[社交网络]]", "[[微管理]]"]
+concepts: ["[[已验证、更好、全新]]", "[[产品市场契合度]]", "[[留存]]", "[[分发]]", "[[智能体]]", "[[社交网络]]", "[[微管理]]"]
 category: 产品方法
 tags:
   - 产品方法
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-06-14-lennys-the-common-pattern-behind-successful.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful#post","headline":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","mainEntityOfPage":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","description":"Mark Pincus拆解了他做爆款的方法论:别追求从零创新,先抄对、再优化、最后加新意。","datePublished":"2026-06-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-14-lennys-the-common-pattern-behind-successful.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful","about":[{"@type":"Person","name":"Mark Pincus"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Zynga"},{"@type":"Thing","name":"已验证、更好、全新 (Proven, Better, New)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"留存率 (retention)"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"社交网络 (social network)"},{"@type":"Thing","name":"微管理 (micromanagement)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","item":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful#post","headline":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","mainEntityOfPage":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful","description":"Mark Pincus拆解了他做爆款的方法论:别追求从零创新,先抄对、再优化、最后加新意。","datePublished":"2026-06-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-14-lennys-the-common-pattern-behind-successful.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful","about":[{"@type":"Person","name":"Mark Pincus"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Zynga"},{"@type":"Thing","name":"已验证、更好、全新 (Proven, Better, New)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"留存 (retention)"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"社交网络 (social network)"},{"@type":"Thing","name":"微管理 (micromanagement)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新","item":"https://talk.solomind.cc/2026-06-14-lennys-the-common-pattern-behind-successful"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Zynga]]
 >
-> **概念** [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]]
+> **概念** [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful)
 
@@ -194,9 +194,9 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 **换个口味**
 
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Facebook、Zynga · 同概念:智能体 (agent)、留存率 (retention)</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:消费者分发 (distribution)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

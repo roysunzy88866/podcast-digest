@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Ward]] · [[Cursor]] · [[Anthropic]] · [[厄运漏斗]] · [[前向部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]] · [[智能体]]
+[[Lenny]] · [[Adam Ward]] · [[Cursor]] · [[Anthropic]] · [[Facebook]] · [[厄运漏斗]] · [[前向部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Adam Ward":1,"Cursor":15,"Anthropic":46,"厄运漏斗":1,"前向部署工程师":5,"人才密度":3,"工作样本":1,"人才工程师":1,"智能体":84}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Adam Ward":1,"Cursor":14,"Anthropic":45,"Facebook":5,"厄运漏斗":1,"前向部署工程师":5,"人才密度":3,"工作样本":1,"人才工程师":1}</script>
 
 <script>
 (function(){

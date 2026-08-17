@@ -119,7 +119,7 @@ Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底�
 
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)</span>
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:护城河 (moat)、智能体 (agent)</span>
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:护城河 (moat)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

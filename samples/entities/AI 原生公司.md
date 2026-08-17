@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 原生公司 (AI native company)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 原生公司">AI</div><div class="pi"><h1 class="pt">AI 原生公司 (AI native company)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>99</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 原生公司">AI</div><div class="pi"><h1 class="pt">AI 原生公司 (AI native company)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>90</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,9 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*99 条*
+*90 条*
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q2]]
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q6]]
 
@@ -127,12 +129,6 @@ unlisted: true
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q3]]
 
-![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q1]]
-
-![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q2]]
-
-![[2026-07-27-lennys-from-zero-coding-background-to-hardware#^q5]]
-
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q9]]
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q10]]
@@ -169,10 +165,6 @@ unlisted: true
 
 ![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
-![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q1]]
-
-![[2026-08-03-lennys-chatgpt-codex-voice-browser-sites#^q3]]
-
 ![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q4]]
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
@@ -182,8 +174,6 @@ unlisted: true
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q3]]
 
 ![[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is#^q1]]
-
-![[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou#^q8]]
 
 ![[2026-08-07-talks-the-new-primitives-building-ai-native-so#^q1]]
 
@@ -200,14 +190,6 @@ unlisted: true
 ![[2026-08-09-talks-always-on-agents-run-production-without#^q2]]
 
 ![[2026-08-09-talks-velocity-sickness-what-happens-when-your#^q1]]
-
-![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q1]]
-
-![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q2]]
-
-![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q3]]
-
-![[2026-08-10-lennys-claude-code-for-normal-people-skills#^q4]]
 
 ![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q5]]
 
@@ -227,7 +209,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":84,"技能文件":1,"上下文工程":4,"公司大脑":1,"RAG":4,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":80,"技能文件":1,"上下文工程":4,"公司大脑":1,"RAG":4,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
 
 <script>
 (function(){

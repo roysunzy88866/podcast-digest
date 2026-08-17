@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Vercel]] · [[前向部署工程师]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Adam Ward]] · [[Stripe]] · [[SaaStr]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"智能体":84,"Vercel":8,"前向部署工程师":5,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Adam Ward":1,"Stripe":12,"SaaStr":1,"Cursor":15}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"智能体":80,"Vercel":5,"前向部署工程师":5,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Adam Ward":1,"Stripe":12,"SaaStr":1,"Cursor":14}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2231 @@
+{
+  "episode_id": "2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-08-17",
+  "tags": [
+    "分发渠道",
+    "平台周期",
+    "智能体平台",
+    "AI 转型",
+    "初创公司增长"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            187.236,
+            191.978
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            192.378,
+            194.099
+          ],
+          "quote": "That's getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            237.596,
+            241.237
+          ],
+          "quote": "Sign up for a free account at basecamp.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3187.612,
+            3190.416
+          ],
+          "quote": "Check it out at miro.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3190.776,
+            3193.199
+          ],
+          "quote": "That's M-I-R-O dot com slash Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3840.295,
+            3843.698
+          ],
+          "quote": "In that, it's better that it's from Lenny's newsletter than something else.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3948.477,
+            3955.98
+          ],
+          "quote": "You can listen to my podcast, your podcast, Lenny, whatever, as much as you want, but if you don't actually put it into action and implement it, then it's not really going to create value.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "brian-balfour",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brian Balfour",
+      "file": "Brian Balfour",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            59.741,
+            61.483
+          ],
+          "quote": "Today, my guest is Brian Balfour.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            149.399,
+            151.64
+          ],
+          "quote": "With that, I bring you Brian Balfour.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集将其预测为即将成为新分发平台的领跑者，认为其护城河在于上下文和记忆形成的飞轮，留存曲线呈现罕见的「微笑曲线」且持续上移，并有大量招聘「智能体平台」相关岗位的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.969,
+            11.836
+          ],
+          "quote": "My prediction, the new distribution platform will be ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 18,
+          "t": [
+            52.323,
+            53.98
+          ],
+          "quote": "What would be the backup if not ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            91.407,
+            101.993
+          ],
+          "quote": "Based on what he's seeing, he is predicting the emergence of a brand new and powerful distribution channel that will likely arise in the next six months, centered most likely around ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 124,
+          "t": [
+            691.624,
+            719.739
+          ],
+          "quote": "My prediction of the new distribution platform will be ChatGPT, in some ways that people probably already think it's happening in some ways that it won't, but the thing that is less important or that is more important than whether I have predicted the exact winner correctly, the thing that's more important is to understand the cycle and evaluate how to determine where you want to place your bets and how to place those bets, which I know we'll talk about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            722.2,
+            726.164
+          ],
+          "quote": "I could be wrong about the ChatGPT prediction and what's going to happen there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 127,
+          "t": [
+            728.346,
+            743.879
+          ],
+          "quote": "There's going to be what they do with a ChatGPT search experience, but I think the bigger thing will be whatever they do with launching a third-party platform on top of ChatGPT, there's a bunch of signals that they're about to launch that, I'm pretty sure it's going to be ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 133,
+          "t": [
+            761.684,
+            764.771
+          ],
+          "quote": "I completely agree, if it's anything, it would be ChatGPT at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 144,
+          "t": [
+            819.407,
+            824.989
+          ],
+          "quote": "In this case, these AI like chat platforms, like a ChatGPT or a clock.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1588.274,
+            1594.8
+          ],
+          "quote": "What you're saying essentially is ChatGPT, potentially some other platform, maybe is about to enter this moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1596,
+            1606.064
+          ],
+          "quote": "Well, before we get to ChatGPT, I think the natural reaction when you first realize this is, \"Screw them, I'm not playing that game.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1660.464,
+            1663.185
+          ],
+          "quote": "You can even see this with ChatGPT, as an example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1670.069,
+            1683.096
+          ],
+          "quote": "If you sat inside HubSpot and you were just thinking in isolation, you would be like, well, why would I want to make all of my data accessible through ChatGPT and have all of the usage you start to accrue there?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1745.894,
+            1751.74
+          ],
+          "quote": "I think that's the key part, but let me pause there and then I'll talk a little bit about ChatGPT and some of my reasoning behind that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1800,
+            1801.717
+          ],
+          "quote": "Okay, so let's talk ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1806.944,
+            1813.35
+          ],
+          "quote": "Like we said, all those players we talked about, ChatGPT, Claude, Gemini, all these folks, they are battling it out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1876.12,
+            1881.786
+          ],
+          "quote": "If you look at who's farthest on this, it definitely is ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1920.52,
+            1929.729
+          ],
+          "quote": "I think the second reason I predict ChatGPT is if you look at history once again, it was never the person who had the biggest distribution at the moment of time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2081.756,
+            2086.9
+          ],
+          "quote": "But that's why I think out of all of these platforms, ChatGPT has the best shot right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2093.044,
+            2101.889
+          ],
+          "quote": "Well, the problem with that is I think ChatGPT at this point has at least a 10x difference on MAU.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2120.54,
+            2123.903
+          ],
+          "quote": "Those are just some of the reasons that my prediction is on ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2124.844,
+            2136.473
+          ],
+          "quote": "In the blog post that I wrote about this, I actually then played my own devil's advocate and said, \"Okay, here are some reasons why it might not be ChatGPT,\" but I think we're in that part of the cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2137.874,
+            2145
+          ],
+          "quote": "I might be wrong in the prediction of ChatGPT, but I really think, I feel very confident we're going to see this cycle play out again.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2146.505,
+            2149.495
+          ],
+          "quote": "One is, what would be the backup if it's not ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2262.448,
+            2270.173
+          ],
+          "quote": "But I think the window is very small for them if ChatGPT plays their cards right, because they clearly have the escape velocity right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2280.76,
+            2290.225
+          ],
+          "quote": "On the Claude piece, I'll just throw this nugget out, I had Mike Krieger on the podcast, Head of Product, CPO, at Anthropic, and asked him just, \"You're losing to ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2431.741,
+            2453.997
+          ],
+          "quote": "There will be smaller platforms that will emerge, and they will follow the exact same cycle that I'm also discussing, but in terms of the biggest consumer one, that's where I think ChatGPT has probably the most escape velocity and others will focus on different areas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2455.938,
+            2457.92
+          ],
+          "quote": "I actually use both Claude and ChatGPT-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2646.323,
+            2665.74
+          ],
+          "quote": "What is your prediction on timeline for when the opportunity appears, and what do you predict, as of the day we're recording, what do you predict will be the next couple things that ChatGPT, and let's just focus on that, releases to start to open up this platform to get everyone in there?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2697.24,
+            2707.106
+          ],
+          "quote": "I think we just saw one of the pieces drop around this, which was, ChatGPT's recently launched Agent mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2893.14,
+            2895.282
+          ],
+          "quote": "Now, that's what I think for ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3058.201,
+            3074.351
+          ],
+          "quote": "Just to be crystal clear about what listeners should do, what founders should do, what product teams should do, the advice here essentially is integrate with ChatGPT, maybe Gemini, maybe if Apple has something, actually integrate with what they launch.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3194.22,
+            3206.635
+          ],
+          "quote": "So you were Head of Growth at HubSpot for a long time, and you gave that as an example, HubSpot, why would they integrate, why would they give away all their data so that ChatGPT can suck it up, and you never have to go to HubSpot, you're just working through their agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3794.02,
+            3804.348
+          ],
+          "quote": "As you were talking, this reminded me, I recently noticed that ChatGPT is driving me to my newsletter more traffic than Twitter, and I feel like that recently shifted.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3808.832,
+            3809.813
+          ],
+          "quote": "I'm like, \"ChatGPT?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3812.255,
+            3817.659
+          ],
+          "quote": "It's like a different version of what you're talking about, but essentially, in theory I could block ChatGPT from... I don't know.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的 CPO 表示 Claude 正主动走差异化路线，专注于开发者工具、编码和后端，而不是跟 ChatGPT 抢大众分发平台的位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            860.046,
+            869.715
+          ],
+          "quote": "We've got OpenAI battling with Claude, battling with Gemini, and Google with whatever Meta comes out with their new team, so on and so forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1806.944,
+            1813.35
+          ],
+          "quote": "Like we said, all those players we talked about, ChatGPT, Claude, Gemini, all these folks, they are battling it out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2087.14,
+            2091.743
+          ],
+          "quote": "And then, a bunch of folks are always like, \"Well, what about Claude?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2091.763,
+            2092.403
+          ],
+          "quote": "I really like Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2092.423,
+            2093.004
+          ],
+          "quote": "I use Claude.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2280.76,
+            2290.225
+          ],
+          "quote": "On the Claude piece, I'll just throw this nugget out, I had Mike Krieger on the podcast, Head of Product, CPO, at Anthropic, and asked him just, \"You're losing to ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2290.445,
+            2294.387
+          ],
+          "quote": "How do you approach the future of Claude?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2302.051,
+            2309.255
+          ],
+          "quote": "So we are specifically focusing on what is Anthropic and Claude incredibly good at, which is developer tools, coding, backend stuff.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2454.177,
+            2455.918
+          ],
+          "quote": "Just to be clear, I love Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2455.938,
+            2457.92
+          ],
+          "quote": "I actually use both Claude and ChatGPT-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2467.48,
+            2468.381
+          ],
+          "quote": "Also love Claude.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集将其作为平台「开放-关闭」四步周期的经典案例：2007 年通过开放画布、通知渠道和信息流分发吸引开发者涌入，随后逐步收回权限、抽成、压制自然渠道，最终吸收最高频用例进第一方产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            40,
+            43
+          ],
+          "quote": "Think about companies like Zynga that grew on Facebook and then became massive companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            78.02,
+            91.027
+          ],
+          "quote": "Prior to Reforge, Brian led growth at HubSpot, and over the course of his career, he has seen the rise and fall of every major distribution channel, including Facebook's ad platform, Google Ads and SEO, and the Apple App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1033.141,
+            1049.755
+          ],
+          "quote": "So it's essentially figure out what's going to make, create defensibility long-term with your moat, bring everyone in, \"Hey, everyone, welcome to Facebook,\" everyone joins Facebook and then, okay, and all the developers build on Facebook to bring in more people on Facebook and then they're like, \"Okay, now you got to pay.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1066.826,
+            1079.655
+          ],
+          "quote": "One of my first companies was during the Facebook platform boom, social gaming, all of those applications, and I lived the full cycle in a very short period.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1088.902,
+            1094.384
+          ],
+          "quote": "Facebook was in a brutal battle with MySpace, Friendster and a few others.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1095.245,
+            1102.589
+          ],
+          "quote": "People forget that there was actually a bunch of competitors at that time, and in fact those competitors were bigger than Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1102.609,
+            1108.112
+          ],
+          "quote": "They had more users back in 2007 when Facebook launched their third-party platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1108.932,
+            1124
+          ],
+          "quote": "But one of the key things is that Facebook was very early to the insight about the direct network effects in that there's going to create real lock-in that the more friends, the more of the global network that was on there, the more that it was just going to feed and hit this escape velocity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1160.858,
+            1163.98
+          ],
+          "quote": "There was this mad gold rush on that Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1372.667,
+            1383.731
+          ],
+          "quote": "Facebook's channels did get super spammy and all of those things, and that was part of the reason they'd play this, but let's be honest, it wasn't the only reason.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1420.223,
+            1423.725
+          ],
+          "quote": "Facebook happened over the course of about in five-ish years, something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1620.909,
+            1628.452
+          ],
+          "quote": "So many companies got completely killed during the crash of the Facebook social platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1766.06,
+            1769.663
+          ],
+          "quote": "I think about companies like Zynga that grew on Facebook and then became massive companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1935.554,
+            1940.479
+          ],
+          "quote": "Facebook was smaller, but had way better retention and engagement over the others, so on and so forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2484.395,
+            2489.98
+          ],
+          "quote": "Even though it's not, I don't know, Google or Facebook or whatever, it's still incredibly valuable for this specific thing that I do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2917.94,
+            2924.243
+          ],
+          "quote": "In the Facebook days, all those other social networks, they also came out with their own platforms.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集将其作为另一个平台周期案例：早期通过激励站长优化搜索算法建起生态，然后逐步把版面让给广告并吸收旅行、餐厅等高价值用例；同时被分析为 ChatGPT 之外的备选平台，但怀疑其大量用户是「误点进来的过客」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.02,
+            91.027
+          ],
+          "quote": "Prior to Reforge, Brian led growth at HubSpot, and over the course of his career, he has seen the rise and fall of every major distribution channel, including Facebook's ad platform, Google Ads and SEO, and the Apple App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            860.046,
+            869.715
+          ],
+          "quote": "We've got OpenAI battling with Claude, battling with Gemini, and Google with whatever Meta comes out with their new team, so on and so forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            992.64,
+            1002.145
+          ],
+          "quote": "Google's the classic example here of just more and more real estate has either been taken up by either ads or their own first-party applications.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1415.421,
+            1419.943
+          ],
+          "quote": "I think everybody's probably... Google's an interesting one because it played out over a much longer period of time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1424.245,
+            1434.95
+          ],
+          "quote": "Google did it very slowly over years, but same thing, early massive competition against Yahoo, I don't know, AltaVista, Lycos, you name them all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1897.56,
+            1903.806
+          ],
+          "quote": "The second thing is, and one of the pushbacks I've gotten on my prediction has been, well, what about Google and Gemini?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1933.132,
+            1935.494
+          ],
+          "quote": "Google had the best retention and engagement over the others.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2149.535,
+            2151
+          ],
+          "quote": "It sounds like it might be Gemini or Google?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2194.1,
+            2210.246
+          ],
+          "quote": "And then, I think right behind that, I would probably put Google because of owning the context of things like email and the distribution points of search and Chrome and Android and those types of pieces.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2271.174,
+            2280
+          ],
+          "quote": "If they just keep pressing that advantage in the right way, I think it's going to be very hard for Google to counter in the amount of time that's left",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2484.395,
+            2489.98
+          ],
+          "quote": "Even though it's not, I don't know, Google or Facebook or whatever, it's still incredibly valuable for this specific thing that I do.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ios",
+      "type": "company",
+      "role": "company",
+      "name": "iOS",
+      "file": "iOS",
+      "primary": false,
+      "how_described": "本集提到 iOS 靠 App Store 和开发者生态建起防御，然后限制越来越多，作为平台周期案例之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1490.863,
+            1493.425
+          ],
+          "quote": "iOS created a new distribution mechanism.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2925.964,
+            2929.806
+          ],
+          "quote": "iOS had Android and some failed initiatives from Windows.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2933.347,
+            2943.732
+          ],
+          "quote": "You can look back and whoever placed through... the iPhone was actually a very, and iOS is a good one, which is, if you had only aligned your bets to Android, you probably lost.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2950.715,
+            2955.077
+          ],
+          "quote": "But if you only aligned to iOS, you could also be a winner.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2956.678,
+            2960.9
+          ],
+          "quote": "You had to have iOS as part of your betting strategy in order to win.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3479.884,
+            3484.207
+          ],
+          "quote": "I think the starkest example here would be iOS and Android.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3484.487,
+            3495.932
+          ],
+          "quote": "Even today it's something like Android has 70-some percent of devices, but only 30% of the market share by dollars, and it's the exact flip for iOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3496.013,
+            3510.28
+          ],
+          "quote": "It goes back to what we were talking about earlier, which was, if you bet on Android only, you probably lost, but if you bet on iOS only, even though smaller user base, you were still able to parlay that into a win later.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": false,
+      "how_described": "本集提到 LinkedIn 在更小尺度上复刻了两遍平台周期——先是公司主页，再是个人主页，都是先给流量再压下来推广告",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            415.233,
+            419.556
+          ],
+          "quote": "LinkedIn just changed their algorithm, which has really dropped organic distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1514.403,
+            1517.784
+          ],
+          "quote": "LinkedIn, as an example, first went through this wave with company pages.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2339.552,
+            2351.96
+          ],
+          "quote": "Even if you look at social, like LinkedIn emerged as a subset of the social world, but even on these smaller platforms, these new distribution channels, they go through the same cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2477.709,
+            2478.59
+          ],
+          "quote": "I think of LinkedIn.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2480.252,
+            2484.195
+          ],
+          "quote": "LinkedIn for me has a very targeted audience, for folks that listen to this podcast.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集认为从「地段」角度看 Apple 通过设备拥有最全的上下文，最有潜力成为平台但还没看到执行的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.02,
+            91.027
+          ],
+          "quote": "Prior to Reforge, Brian led growth at HubSpot, and over the course of his career, he has seen the rise and fall of every major distribution channel, including Facebook's ad platform, Google Ads and SEO, and the Apple App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1629.012,
+            1641.996
+          ],
+          "quote": "Apple's 30% tax basically destroyed a bunch of types of applications and business models because you feel like it just wasn't margin-effective.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2151.682,
+            2159
+          ],
+          "quote": "My hypothesis of who's best-positioned but is not executing on it right now would actually be Apple-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3058.201,
+            3074.351
+          ],
+          "quote": "Just to be crystal clear about what listeners should do, what founders should do, what product teams should do, the advice here essentially is integrate with ChatGPT, maybe Gemini, maybe if Apple has something, actually integrate with what they launch.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 817,
+          "t": [
+            4937.181,
+            4954.515
+          ],
+          "quote": "The other thing that I've watched is just more of a just pure entertainment, calming thing, turn the brain off is Owen Wilson's new show on Apple TV, Stick, which is about him as a former professional golfer and all that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4961.402,
+            4962.584
+          ],
+          "quote": "I've been seeing that on my Apple TV.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 887,
+          "t": [
+            5328.629,
+            5334.358
+          ],
+          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify or your favorite podcast app.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集将其作为已经接入 ChatGPT 深度研究连接器的案例，说明即使知道数据会被吸走也不得不玩这个游戏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.02,
+            91.027
+          ],
+          "quote": "Prior to Reforge, Brian led growth at HubSpot, and over the course of his career, he has seen the rise and fall of every major distribution channel, including Facebook's ad platform, Google Ads and SEO, and the Apple App Store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1666.907,
+            1669.829
+          ],
+          "quote": "One of them was my former company, HubSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1670.069,
+            1683.096
+          ],
+          "quote": "If you sat inside HubSpot and you were just thinking in isolation, you would be like, well, why would I want to make all of my data accessible through ChatGPT and have all of the usage you start to accrue there?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2073.59,
+            2078.594
+          ],
+          "quote": "It's like, well, if HubSpot and XYZ are doing it, then I should probably do it, too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3194.22,
+            3206.635
+          ],
+          "quote": "So you were Head of Growth at HubSpot for a long time, and you gave that as an example, HubSpot, why would they integrate, why would they give away all their data so that ChatGPT can suck it up, and you never have to go to HubSpot, you're just working through their agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3207.075,
+            3209.298
+          ],
+          "quote": "Would you at HubSpot be like, \"Yes, we got to do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3214.422,
+            3218.143
+          ],
+          "quote": "Look, to be very clear, I have not talked to anybody at HubSpot about this.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "zynga",
+      "type": "company",
+      "role": "company",
+      "name": "Zynga",
+      "file": "Zynga",
+      "primary": false,
+      "how_described": "本集将其作为在 Facebook 平台上成长并变成大公司的典型案例，说明早期上车的好处",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            40,
+            43
+          ],
+          "quote": "Think about companies like Zynga that grew on Facebook and then became massive companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1766.06,
+            1769.663
+          ],
+          "quote": "I think about companies like Zynga that grew on Facebook and then became massive companies.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 在九个月内超过 GitHub Copilot 的市场份额，作为 AI 创造新增长火花的例外案例，并称其可能也在走向创建某种智能体平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            447.642,
+            454.426
+          ],
+          "quote": "It's gotten easier in some very exceptional cases like the Cursor or something where AI has been like the spark.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            472.616,
+            478.839
+          ],
+          "quote": "So it's amazing to see something like Cursor overtake market share of something like GitHub Copilot in nine months or less.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2401.166,
+            2408.149
+          ],
+          "quote": "Cursor, it's very clear Cursor's on the path to also probably create some type of agent platform for developers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2619.422,
+            2633
+          ],
+          "quote": "I guess the opportunity there, the moat would be the data, similar to how Cursor is collecting more feedback on what people want in their code suggestions, maybe in theory CRF and has more and more data over time, and there's this network effect-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3633.986,
+            3646.612
+          ],
+          "quote": "Because essentially this tech allows you to, say, create a cursor that is incredible, and then you could argue, oh, you're just going to be this wrapper, and they're getting all the money here, everyone can copy you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "udemy",
+      "type": "company",
+      "role": "company",
+      "name": "Udemy",
+      "file": "Udemy",
+      "primary": false,
+      "how_described": "本集将其作为较小平台也走同样周期的例子：开始时给创作者 80% 收入分成，后来压低到 15-20%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            2359.104,
+            2361.185
+          ],
+          "quote": "Look at the platform Udemy.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "distribution-platform",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发平台 (distribution platform)",
+      "file": "分发平台",
+      "primary": true,
+      "how_described": "本集核心概念，指新的产品分发渠道，如历史上的 Facebook 平台、Google 搜索、App Store，现在预测 ChatGPT 将成为下一个；新分发平台出现时初创公司通常是最快利用的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.481,
+            7.729
+          ],
+          "quote": "All of the ingredients for new distribution platform are essentially happening.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 3,
+          "t": [
+            7.969,
+            11.836
+          ],
+          "quote": "My prediction, the new distribution platform will be ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            566.842,
+            579.935
+          ],
+          "quote": "We are a couple years into AI technology shift, and one of the things that I am seeing is all of the conditions, all of the ingredients for a new distribution platform to emerge are essentially happening.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 124,
+          "t": [
+            691.624,
+            719.739
+          ],
+          "quote": "My prediction of the new distribution platform will be ChatGPT, in some ways that people probably already think it's happening in some ways that it won't, but the thing that is less important or that is more important than whether I have predicted the exact winner correctly, the thing that's more important is to understand the cycle and evaluate how to determine where you want to place your bets and how to place those bets, which I know we'll talk about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 128,
+          "t": [
+            745.581,
+            754.252
+          ],
+          "quote": "The thing I'm way more sure about is that some new distribution platform will emerge and it will follow the same four-step cycle.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "four-step-cycle",
+      "type": "concept",
+      "role": "concept",
+      "name": "四步周期 (four-step cycle)",
+      "file": "四步周期",
+      "primary": true,
+      "how_described": "本集提出的核心框架：第零步市场条件成熟（五到七个玩家混战）→ 第一步识别护城河并开放平台 → 第二步生态繁荣 → 第三步关门变现（完全关掉、吸收最高频用例、或压低自然流量逼买量）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            585.4,
+            597.526
+          ],
+          "quote": "The key thing for everybody to know is that as new distribution platforms emerge, they follow the same four-step cycle and it's a game that you're playing, that everybody's playing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 108,
+          "t": [
+            617.757,
+            623.94
+          ],
+          "quote": "Before we go into that four-step cycle, I figured I'll pause there to see if you have any follow-up questions on that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 128,
+          "t": [
+            745.581,
+            754.252
+          ],
+          "quote": "The thing I'm way more sure about is that some new distribution platform will emerge and it will follow the same four-step cycle.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集将其定义为平台识别出的防御性来源，如 Facebook 的好友图谱（直接网络效应）、ChatGPT 的上下文加记忆飞轮；识别护城河是平台决定开放的前提",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            788.593,
+            796.878
+          ],
+          "quote": "Step One is about a moat, Step Two is about a platform opening, and Step Three is about the platform closing for control and monetization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            876.48,
+            893.11
+          ],
+          "quote": "Step One is then these players, somebody essentially identifies whatever the moat is, the thing that is going to help build them defensibility and help them hit escape velocity and become that monopoly or duopoly in that single category.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            894.01,
+            898.312
+          ],
+          "quote": "Once they figure out what that moat is, then they need to press the advantage.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 157,
+          "t": [
+            898.352,
+            903.395
+          ],
+          "quote": "They need to figure out how to gather that moat as fast as humanly possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 158,
+          "t": [
+            904.076,
+            912
+          ],
+          "quote": "It tends to be that you can't do that by yourself, so you need the help of an ecosystem in order to gather more of that moat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1033.141,
+            1049.755
+          ],
+          "quote": "So it's essentially figure out what's going to make, create defensibility long-term with your moat, bring everyone in, \"Hey, everyone, welcome to Facebook,\" everyone joins Facebook and then, okay, and all the developers build on Facebook to bring in more people on Facebook and then they're like, \"Okay, now you got to pay.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1230.04,
+            1248.812
+          ],
+          "quote": "These companies that have basically built on top of this platform, the other thing is by the time they started closing all those things down, all those competitors that we talked about, they were so far ahead at that point because they had built off the back of all these developers coming, adding use cases, bringing more users onto the platform, identifying that moat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1262,
+            1262
+          ],
+          "quote": "Just before you give other examples, just something I'll highlight here. One is the moat they identified in theory was the friend graph, I imagine?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1588.274,
+            1594.8
+          ],
+          "quote": "What you're saying essentially is ChatGPT, potentially some other platform, maybe is about to enter this moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1825.86,
+            1827.481
+          ],
+          "quote": "The second thing is then, okay, what's the moat?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1827.501,
+            1828.761
+          ],
+          "quote": "Has the moat been identified?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1835.124,
+            1844.027
+          ],
+          "quote": "My hypothesis, and I think there's a lot more consensus around this now than there might've even been three months ago, is that the moat is about context and memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2619.422,
+            2633
+          ],
+          "quote": "I guess the opportunity there, the moat would be the data, similar to how Cursor is collecting more feedback on what people want in their code suggestions, maybe in theory CRF and has more and more data over time, and there's this network effect-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2639.265,
+            2639.816
+          ],
+          "quote": "Some moat?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2843.95,
+            2863.737
+          ],
+          "quote": "That's actually going to be very important because, going back to the moat around memory and context is that they will want to incentivize as many people to their free tier as possible, but given the cost of AI, they have to cover it somehow, so they're going to need some monetization mechanisms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2864.077,
+            2870.94
+          ],
+          "quote": "The more that they can cover that free usage with things that aren't subscriptions, I think that probably also feeds the moat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3649.694,
+            3655.937
+          ],
+          "quote": "The answer is, what is the moat you will build over time sitting on top of this thing that will make you more and more valuable on term and not have to rely on this thing?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到 ChatGPT 在招聘「智能体平台」相关岗位，认为通用智能体不可能覆盖所有用例，用户需要更具体的入口、特定 UI 和数据，所以必须有第三方智能体生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            2018.444,
+            2026.487
+          ],
+          "quote": "I've seen multiple postings on product manager engineering roles, all that kind of stuff for, quote, unquote, \"agent platform\" and all those pieces.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2039.352,
+            2059.219
+          ],
+          "quote": "There's going to be some value exchange, which is like, hey, for your agent to be effective, you probably need access to the context and memory and distribution, so there'll be some value which is, \"Integrate to us and we'll give you those three things which is going to drive more users and more usage,\" and we're going to go through the steps of the cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2401.166,
+            2408.149
+          ],
+          "quote": "Cursor, it's very clear Cursor's on the path to also probably create some type of agent platform for developers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2415.073,
+            2419.895
+          ],
+          "quote": "It feels like everybody has the same strategy at this point is everybody wants to launch an agent platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2520.091,
+            2524.213
+          ],
+          "quote": "You can actually see this is saving an agent $15 because it solved the case.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2697.24,
+            2707.106
+          ],
+          "quote": "I think we just saw one of the pieces drop around this, which was, ChatGPT's recently launched Agent mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2707.126,
+            2719.434
+          ],
+          "quote": "It's kind of a general-purpose agent, and I think that starts to introduce all of the users to using agents and they're figuring out and placing it in the different tiers and business models, all of those pieces.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2719.494,
+            2727.859
+          ],
+          "quote": "But it's likely that no general-purpose agent is going to fulfill all of the infinite use cases successfully.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2752.998,
+            2755.82
+          ],
+          "quote": "I think their Agent mode was a step in this direction.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3194.22,
+            3206.635
+          ],
+          "quote": "So you were Head of Growth at HubSpot for a long time, and you gave that as an example, HubSpot, why would they integrate, why would they give away all their data so that ChatGPT can suck it up, and you never have to go to HubSpot, you're just working through their agent.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集将其视为 ChatGPT 护城河的核心：AI 模型并排比较产出差不多，真正的差异在谁拥有更多你的上下文——上下文加模型才等于最好的输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1835.124,
+            1844.027
+          ],
+          "quote": "My hypothesis, and I think there's a lot more consensus around this now than there might've even been three months ago, is that the moat is about context and memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1844.107,
+            1864.515
+          ],
+          "quote": "These models by themselves, if you compare them side by side, they generate the same result, and so the actual difference-maker is which one has more of your context, because it's the context plus the model that produces the best output, and then that starts to accrue to this loop around memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1864.556,
+            1870.638
+          ],
+          "quote": "The more you use it, the more it's able to store a memory around you, which feeds more personalized context, which produces better outputs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1884.048,
+            1896.96
+          ],
+          "quote": "They've been investing a lot in these different types of data connectors, essentially context connectors, gathering all of this context, so you can really start to see it in the usage.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2039.352,
+            2059.219
+          ],
+          "quote": "There's going to be some value exchange, which is like, hey, for your agent to be effective, you probably need access to the context and memory and distribution, so there'll be some value which is, \"Integrate to us and we'll give you those three things which is going to drive more users and more usage,\" and we're going to go through the steps of the cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2164.883,
+            2170.046
+          ],
+          "quote": "They have the ultimate view into your context.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2194.1,
+            2210.246
+          ],
+          "quote": "And then, I think right behind that, I would probably put Google because of owning the context of things like email and the distribution points of search and Chrome and Android and those types of pieces.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2843.95,
+            2863.737
+          ],
+          "quote": "That's actually going to be very important because, going back to the moat around memory and context is that they will want to incentivize as many people to their free tier as possible, but given the cost of AI, they have to cover it somehow, so they're going to need some monetization mechanisms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3074.511,
+            3080.194
+          ],
+          "quote": "It could be a login thing, could be a search thing, could be a connect and suck up your memory in context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3593.884,
+            3601.068
+          ],
+          "quote": "Or how are you going to accumulate specialized data in context that the major platforms don't have?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集将其与上下文结合为飞轮：使用越多→记忆越多→个性化上下文越好→输出越好→更常用；ChatGPT 最先做记忆，留存曲线的「微笑曲线」就是记忆飞轮的效果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1835.124,
+            1844.027
+          ],
+          "quote": "My hypothesis, and I think there's a lot more consensus around this now than there might've even been three months ago, is that the moat is about context and memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1844.107,
+            1864.515
+          ],
+          "quote": "These models by themselves, if you compare them side by side, they generate the same result, and so the actual difference-maker is which one has more of your context, because it's the context plus the model that produces the best output, and then that starts to accrue to this loop around memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1864.556,
+            1870.638
+          ],
+          "quote": "The more you use it, the more it's able to store a memory around you, which feeds more personalized context, which produces better outputs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1881.806,
+            1884.028
+          ],
+          "quote": "They were the first ones to memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1942.34,
+            1966.552
+          ],
+          "quote": "The data that Deedy published clearly show that both the retention curves, which I know you and I have both written about at exhaustion, level off at significant portions higher than all the other platforms, as well as those retention curves have been shifting up dramatically over time, you can start to see the effects of memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2039.352,
+            2059.219
+          ],
+          "quote": "There's going to be some value exchange, which is like, hey, for your agent to be effective, you probably need access to the context and memory and distribution, so there'll be some value which is, \"Integrate to us and we'll give you those three things which is going to drive more users and more usage,\" and we're going to go through the steps of the cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2843.95,
+            2863.737
+          ],
+          "quote": "That's actually going to be very important because, going back to the moat around memory and context is that they will want to incentivize as many people to their free tier as possible, but given the cost of AI, they have to cover it somehow, so they're going to need some monetization mechanisms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3074.511,
+            3080.194
+          ],
+          "quote": "It could be a login thing, could be a search thing, could be a connect and suck up your memory in context.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "type": "concept",
+      "role": "concept",
+      "name": "留存 (retention)",
+      "file": "留存",
+      "primary": true,
+      "how_described": "本集强调选平台时留存和参与深度优先于用户量（MAU 是虚荣指标），并以 ChatGPT 留存曲线稳定在高于所有竞品且持续上移作为预测依据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1909.831,
+            1919.339
+          ],
+          "quote": "Deedy Das, who's a VC at Menlo Ventures, actually published some good data on retention of all of these different ones.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1929.989,
+            1932.712
+          ],
+          "quote": "It was the one that had the best retention and engagement.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1933.132,
+            1935.494
+          ],
+          "quote": "Google had the best retention and engagement over the others.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1935.554,
+            1940.479
+          ],
+          "quote": "Facebook was smaller, but had way better retention and engagement over the others, so on and so forth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1942.34,
+            1966.552
+          ],
+          "quote": "The data that Deedy published clearly show that both the retention curves, which I know you and I have both written about at exhaustion, level off at significant portions higher than all the other platforms, as well as those retention curves have been shifting up dramatically over time, you can start to see the effects of memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1984.561,
+            1992
+          ],
+          "quote": "The smile curve, just to people who don't know what that is, is essentially retention goes up over time, it goes down a little bit, and then you come back to it and you use it more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2102.309,
+            2118.639
+          ],
+          "quote": "If you're a developer and you're comparing those two platforms and you're looking at it and you're like, \"Well, ChatPT has 10x the number of users and better retention engagement,\" it's like, what's the logical choice of which one you're going to prioritize your scarce resources on?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2211.726,
+            2226.412
+          ],
+          "quote": "A lot of people point to them, but my experience with all of their products, going back to the retention engagement thing, is that if we could take a look inside their metrics, I think what we would see is a bunch of fly-by users in their mouse.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3426.32,
+            3470.08
+          ],
+          "quote": "I think this is a great question because, once again, put my personal prediction aside for a second, and I would encourage everybody to think about it from first principles from who their audience is, what their product is, what stage of company they're at, their current strengths and weaknesses, you got to take all this into account, but if I had to boil it down to a few criteria, the main things I would think about is, when you're looking at new distribution channels and new platforms to choose on, one, going back to what we said before is the better signal is retention and depth of engagement of the users on this platform than it is pure user level like MAU or some other number of signups, one of those vanity metrics.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "smile-curve",
+      "type": "concept",
+      "role": "concept",
+      "name": "微笑曲线 (smile curve)",
+      "file": "微笑曲线",
+      "primary": false,
+      "how_described": "本集描述为留存率先升后微降再回升的罕见曲线，ChatGPT 的留存曲线呈现此形态，嘉宾说这种曲线在他职业生涯中只见过几次，每次都是 Slack 级别的大赢家",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1967.332,
+            1972.655
+          ],
+          "quote": "They have the very elusive smile curve, the ones that you just like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1984.561,
+            1992
+          ],
+          "quote": "The smile curve, just to people who don't know what that is, is essentially retention goes up over time, it goes down a little bit, and then you come back to it and you use it more.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "escape-velocity",
+      "type": "concept",
+      "role": "concept",
+      "name": "逃逸速度 (escape velocity)",
+      "file": "逃逸速度",
+      "primary": true,
+      "how_described": "本集引用 Alex Rampell 的观点：初创企业是一场试图在现有企业复制之前获得逃逸速度的游戏；现在这个窗口在缩小，但新分发平台出现时可以重新获得",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            387.437,
+            392.559
+          ],
+          "quote": "That window that you have to get that escape velocity has actually shrunk.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            444.561,
+            447.142
+          ],
+          "quote": "This game, this escape velocity game has gotten a lot harder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 90,
+          "t": [
+            481.42,
+            488.024
+          ],
+          "quote": "But the main thing that people need to understand is, okay, well, if that's the game I'm playing, how to get to escape velocity before the incumbent?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 155,
+          "t": [
+            876.48,
+            893.11
+          ],
+          "quote": "Step One is then these players, somebody essentially identifies whatever the moat is, the thing that is going to help build them defensibility and help them hit escape velocity and become that monopoly or duopoly in that single category.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1108.932,
+            1124
+          ],
+          "quote": "But one of the key things is that Facebook was very early to the insight about the direct network effects in that there's going to create real lock-in that the more friends, the more of the global network that was on there, the more that it was just going to feed and hit this escape velocity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1992.741,
+            2006.7
+          ],
+          "quote": "Yeah, that's right, and it's usually the result of some type of network of factor or something else, and it's an early indicator that that platform is on a trajectory to hit escape velocity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2262.448,
+            2270.173
+          ],
+          "quote": "But I think the window is very small for them if ChatGPT plays their cards right, because they clearly have the escape velocity right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2431.741,
+            2453.997
+          ],
+          "quote": "There will be smaller platforms that will emerge, and they will follow the exact same cycle that I'm also discussing, but in terms of the biggest consumer one, that's where I think ChatGPT has probably the most escape velocity and others will focus on different areas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3301.202,
+            3307.986
+          ],
+          "quote": "Now look, you've already seen players that have been able to hit this escape velocity, the Cursors and stuff of the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3310.328,
+            3323.037
+          ],
+          "quote": "Once again, there's multiple ways to hit that escape velocity, but this is one of the major ways to do it is to basically hitch yourself to a new platform.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "prisoner-s-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "囚徒困境 (prisoner's dilemma)",
+      "file": "囚徒困境",
+      "primary": false,
+      "how_described": "本集用其描述平台游戏的不参与选项：你不玩，竞争对手会玩，客户期望会改变——没有退出选项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            16.721,
+            18.323
+          ],
+          "quote": "It ends up being a prisoner's dilemma.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1706.948,
+            1712.251
+          ],
+          "quote": "It ends up being a prisoner's dilemma, which is, there is no opting out of the game.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "value-exchange",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值交换 (value exchange)",
+      "file": "价值交换",
+      "primary": false,
+      "how_described": "本集指平台与开发者之间的交易：你在我上面开发增加用例和活跃度，我给你分发流量；分析价值交换的规则是选平台的四个标准之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            919.204,
+            939.435
+          ],
+          "quote": "So they all establish a third-party platform that has some incentives built in, and usually the value exchange is, hey, you develop on top of my platform, you add more use cases, more engagement, all of these things to my platform, and in exchange, I'm going to give you something in return.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1139.268,
+            1140.468
+          ],
+          "quote": "What was the value exchange?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1183.394,
+            1191.88
+          ],
+          "quote": "People just grew incredibly virally very fast, but eventually, essentially what happened over time is they kept peeling back that value exchange.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2039.352,
+            2059.219
+          ],
+          "quote": "There's going to be some value exchange, which is like, hey, for your agent to be effective, you probably need access to the context and memory and distribution, so there'll be some value which is, \"Integrate to us and we'll give you those three things which is going to drive more users and more usage,\" and we're going to go through the steps of the cycle.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2800.804,
+            2809.372
+          ],
+          "quote": "This is where we'll really start to figure out what this game is going to look like because they basically have to define what the value exchange is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3511.861,
+            3518.566
+          ],
+          "quote": "The third thing to look at is, as these platforms emerge, just analyze what the value exchange is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3750.32,
+            3766.447
+          ],
+          "quote": "Other than that, I would say, once they launch these platforms, you can't do much else, so you really know what the value exchange is and what they're going to expose for you, but also just be prepared to turn your strategy on a dime and go all in.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "organic-distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "自然分发 (organic distribution)",
+      "file": "自然分发",
+      "primary": false,
+      "how_described": "本集指出 SEO、社交平台的自然流量在持续萎缩，而平台关闭期的手段之一就是人为压低自然分发以逼你花钱买量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            394.54,
+            402.926
+          ],
+          "quote": "The second thing is that a lot of the organic distribution that we've had, especially over the past few years, has really shrunk as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            415.233,
+            419.556
+          ],
+          "quote": "LinkedIn just changed their algorithm, which has really dropped organic distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1007.488,
+            1024.516
+          ],
+          "quote": "They either shut it down entirely, two, they develop their own first-party applications to absorb the highest use cases, or three, they artificially depress the organic distribution that they gave you in the step prior to push you towards paid mechanisms in order to monetize.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1459.26,
+            1479.674
+          ],
+          "quote": "One is more and more that real estate became ads that they were monetizing, so they're suppressing organic distribution in order to push people towards the ads, as well as absorbing a bunch of the highest value first-party use cases, things like travel as an example, or even restaurant search and all those types of things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1542.996,
+            1551.98
+          ],
+          "quote": "They then introduced the thought leader ad format, a way to monetize those individual posts, and now you've seen them really pull back on that organic distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2392.362,
+            2398.405
+          ],
+          "quote": "Another example of they close down organic distribution in order to monetize, all that kind of stuff.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hard-constraints",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬约束 (hard constraints)",
+      "file": "硬约束",
+      "primary": true,
+      "how_described": "本集将其视为 AI 转型中最有效的手段，比 CEO 发备忘录强得多：比如规定团队规模只有同阶段同行的五分之一，或「不证明 AI 做不了就不批新 headcount」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 677,
+          "t": [
+            4123.46,
+            4138.166
+          ],
+          "quote": "Just to point out a few of them, which is, one is that I think the most impactful thing that you can do is form really hard constraints.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 679,
+          "t": [
+            4163.277,
+            4170
+          ],
+          "quote": "But the thing that is actually moving the needle are the companies that are defining incredibly hard constraints.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集提到 Facebook 早期识别出好友图谱的直接网络效应作为护城河，以及进场后要考虑创造微型网络效应作为退出策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1108.932,
+            1124
+          ],
+          "quote": "But one of the key things is that Facebook was very early to the insight about the direct network effects in that there's going to create real lock-in that the more friends, the more of the global network that was on there, the more that it was just going to feed and hit this escape velocity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3601.828,
+            3606.671
+          ],
+          "quote": "Or how do you create different types of micro network effects?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

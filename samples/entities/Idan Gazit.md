@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]] [[Garry Tan]]
+[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":1,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":14,"提示词注入":5,"Cloudflare":2,"Slack":19}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":1,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":13,"提示词注入":5,"Cloudflare":2,"Slack":17}</script>
 
 <script>
 (function(){

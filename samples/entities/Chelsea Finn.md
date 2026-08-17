@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":1,"Waymo":8,"ChatGPT":17,"物理 AI":4,"强化学习":9,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":1,"Waymo":8,"ChatGPT":18,"物理 AI":4,"强化学习":9,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":2}</script>
 
 <script>
 (function(){

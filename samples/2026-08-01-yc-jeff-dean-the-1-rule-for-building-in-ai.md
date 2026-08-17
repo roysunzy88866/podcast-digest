@@ -176,9 +176,9 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]]<span class="pd-rz">同概念:推理 (inference)、蒸馏 (distillation)</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:Google · 同概念:Gemini</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Google · 同概念:智能体 (agents)</span>
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

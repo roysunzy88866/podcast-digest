@@ -47,7 +47,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Microsoft]] · [[Jason Cohen]] · [[Dan Shipper]] · [[Saragawa]] · [[Alex]] · [[客户流失率]] · [[Codex]] · [[Satya Nadella]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"智能体":84,"Microsoft":10,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"Alex":2,"客户流失率":1,"Codex":17,"Satya Nadella":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"智能体":80,"Microsoft":10,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"Alex":2,"客户流失率":1,"Codex":15,"Satya Nadella":2}</script>
 
 <script>
 (function(){

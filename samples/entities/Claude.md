@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(14:20起):本集提到 Anthropic 的 CPO 表示 Claude 正主动走差异化路线，专注于开发者工具、编码和后端，而不是跟 ChatGPT 抢大众分发平台的位置
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(31:49起):本集广告口播中提到 Claude 可以处理复杂多步骤工作，Claude 4 Opus 是世界上最好的编码模型
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(21:02起):本集提到 Claude 作为可以结合各自擅长的领域的多个模型之一，Ezinne 说 Claude 是她的副手
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(00:48起):本集中被多次提及的大模型;嘉宾以其反复打磨邮件却浪费时间为例,拷问什么样的模型行为才是真正对用户有益的。
@@ -49,8 +50,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
@@ -70,9 +72,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[ChatGPT]] · [[LLM]] · [[Slack]] · [[Codex]] · [[OpenAI]] · [[沙箱]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude Code]] · [[LLM]] · [[Slack]] · [[Codex]] · [[OpenAI]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":84,"Anthropic":46,"Lenny":47,"Claude Code":21,"ChatGPT":17,"LLM":10,"Slack":19,"Codex":17,"OpenAI":36,"沙箱":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":80,"Anthropic":45,"Lenny":48,"ChatGPT":18,"Claude Code":21,"LLM":10,"Slack":17,"Codex":15,"OpenAI":34,"沙箱":18}</script>
 
 <script>
 (function(){

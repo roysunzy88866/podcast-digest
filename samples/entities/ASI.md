@@ -27,7 +27,7 @@ unlisted: true
 
 [[Garrett Lord]] · [[Erik Allebest]] · [[Lenny]] · [[Chess.com]] · [[Handshake]] · [[Deep Blue]] · [[后训练]] · [[Stockfish]] · [[数据标注]] · [[Leela Chess Zero]]
 
-<script type="application/json" class="pd-epn">{"Garrett Lord":1,"Erik Allebest":1,"Lenny":47,"Chess.com":2,"Handshake":1,"Deep Blue":1,"后训练":7,"Stockfish":2,"数据标注":2,"Leela Chess Zero":1}</script>
+<script type="application/json" class="pd-epn">{"Garrett Lord":1,"Erik Allebest":1,"Lenny":48,"Chess.com":2,"Handshake":1,"Deep Blue":1,"后训练":7,"Stockfish":2,"数据标注":2,"Leela Chess Zero":1}</script>
 
 <script>
 (function(){

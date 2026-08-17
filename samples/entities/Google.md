@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(01:18起):本集将其作为另一个平台周期案例：早期通过激励站长优化搜索算法建起生态，然后逐步把版面让给广告并吸收旅行、餐厅等高价值用例；同时被分析为 ChatGPT 之外的备选平台，但怀疑其大量用户是「误点进来的过客」
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:13起):本集说 Google 搜索副总裁表示发给发布商的流量没有下降，反而微升；Google 专门配置搜索算法来排名 Reddit、Twitter 和 Quora，因为想要用户生成内容
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:00起):本集说 Google 的核心搜索并没有被取代，人们仍然来搜电话号码、价格、路线；AI 对 Google 搜索来说是扩张性的，带来了更多新的提问和好奇心
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:01起):本集在介绍嘉宾履历及讨论 AI 早期进展时提及,说她曾是首席 AI 科学家,并曾在那里与 Jeff Dean、Geoff Hinton 等人共事。
@@ -45,8 +46,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
@@ -69,9 +71,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[AGI]] · [[NVIDIA]] · [[Apple]] · [[ChatGPT]] · [[Microsoft]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Apple]] · [[Meta]] · [[AGI]] · [[ChatGPT]] · [[NVIDIA]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":36,"Anthropic":46,"智能体":84,"Lenny":47,"Meta":14,"AGI":10,"NVIDIA":16,"Apple":10,"ChatGPT":17,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":34,"Anthropic":45,"智能体":80,"Lenny":48,"Apple":11,"Meta":13,"AGI":10,"ChatGPT":18,"NVIDIA":15,"Microsoft":10}</script>
 
 <script>
 (function(){

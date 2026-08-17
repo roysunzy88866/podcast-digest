@@ -7,19 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Truffle Security</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Truffle Security">TR</div><div class="pi"><h1 class="pt">Truffle Security</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Truffle Security">TR</div><div class="pi"><h1 class="pt">Truffle Security</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]]**(00:52起):本集嘉宾 Dylan 所属的安全公司，他们主要负责扫描并清理互联网上（如 Hugging Face 训练集中）泄露的凭证与密钥。
-- **[[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]]**(00:52起):本集嘉宾 Dylan 创办的安全公司，在扫描和清理公开 AI 训练集（如 Hugging Face）泄露的凭证和 API 密钥方面做了大量工作。
 
 ## ② 出现在这些集
 
-*2 集*
+*1 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为被讨论公司
-- [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -27,7 +25,7 @@ unlisted: true
 
 [[Dylan]] · [[Firas]] · [[Joel de la Garza]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[软件供应链]] · [[零日漏洞]] · [[NPM 蠕虫]]
 
-<script type="application/json" class="pd-epn">{"Dylan":2,"Firas":2,"Joel de la Garza":3,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":3,"软件供应链":3,"零日漏洞":2,"NPM 蠕虫":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":2,"Socket":1,"Hugging Face":5,"NPM":1,"前沿模型":3,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

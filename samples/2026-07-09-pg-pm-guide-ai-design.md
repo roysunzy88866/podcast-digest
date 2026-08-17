@@ -126,9 +126,9 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 
 **换个口味**
 
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:cursor · 同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、codex</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:codex、智能体 (agent)、mcp</span>
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同嘉宾:Akash · 同概念:智能体 (agent)、codex</span>
 
 </div>
 </div>

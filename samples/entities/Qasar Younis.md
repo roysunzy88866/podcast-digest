@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Applied Intuition":1,"物理 AI":4,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":5,"Waymo":8,"ChatGPT":17,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Applied Intuition":1,"物理 AI":4,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":5,"Waymo":8,"ChatGPT":18,"Huawei":1}</script>
 
 <script>
 (function(){

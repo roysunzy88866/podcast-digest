@@ -41,7 +41,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[PRD]] · [[Meta]] · [[Google]] · [[Replit]] · [[Ezinne Udezue]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"智能体":84,"Cursor":15,"OpenAI":36,"Anthropic":46,"PRD":6,"Meta":14,"Google":17,"Replit":6,"Ezinne Udezue":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"智能体":80,"Cursor":14,"OpenAI":34,"Anthropic":45,"PRD":6,"Meta":13,"Google":18,"Replit":6,"Ezinne Udezue":1}</script>
 
 <script>
 (function(){

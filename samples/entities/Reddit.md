@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Theo Browne]] · [[Matt Turk]] · [[Ethan Smith]] · [[Sonnet 3.5]] · [[Sanjit Biswas]] · [[AEO]] · [[Opus 4.5]] · [[Samsara]] · [[SEO]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Theo Browne":1,"Matt Turk":1,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"AEO":1,"Opus 4.5":1,"Samsara":2,"SEO":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Theo Browne":1,"Matt Turk":1,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"AEO":1,"Opus 4.5":1,"Samsara":2,"SEO":2}</script>
 
 <script>
 (function(){

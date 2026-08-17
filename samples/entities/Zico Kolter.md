@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Emilio Escobar]] [[Dylan]] [[Firas]] [[Joel de la Garza]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]]
+[[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":46,"Twitter":4,"智能体":84,"红队测试":2,"提示词注入":5,"越狱":1,"护栏":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":45,"Twitter":4,"智能体":80,"红队测试":2,"提示词注入":5,"越狱":1,"护栏":13}</script>
 
 <script>
 (function(){

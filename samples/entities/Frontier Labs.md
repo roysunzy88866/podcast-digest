@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Garrett Lord]] · [[Theo Jaffe]] · [[Lenny]] · [[Sriram Krishnan]] · [[Handshake]] · [[Sofia Puccini]] · [[后训练]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"智能体":84,"Anthropic":46,"Garrett Lord":1,"Theo Jaffe":2,"Lenny":47,"Sriram Krishnan":1,"Handshake":1,"Sofia Puccini":2,"后训练":7,"开源权重":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":80,"Anthropic":45,"Garrett Lord":1,"Theo Jaffe":2,"Lenny":48,"Sriram Krishnan":1,"Handshake":1,"Sofia Puccini":2,"后训练":7,"开源权重":2}</script>
 
 <script>
 (function(){

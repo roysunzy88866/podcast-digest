@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]]
+[[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]] [[Dan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":3,"Datadog":3,"Cursor":15,"GitHub":14,"智能体":84,"沙箱":21,"泄露的凭证":3,"权限":1,"软件供应链":3,"漏洞":1}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":2,"Datadog":3,"Cursor":14,"GitHub":12,"智能体":80,"沙箱":18,"泄露的凭证":3,"权限":1,"软件供应链":2,"漏洞":1}</script>
 
 <script>
 (function(){

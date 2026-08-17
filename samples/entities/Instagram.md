@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Stories]] · [[Reels]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Google]] · [[TikTok]] · [[AI Mode]] · [[Anthropic]] · [[AI Overviews]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Stories":2,"Reels":2,"Robby Stein":1,"Adam Mosseri":1,"Google":17,"TikTok":1,"AI Mode":1,"Anthropic":46,"AI Overviews":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Stories":2,"Reels":2,"Robby Stein":1,"Adam Mosseri":1,"Google":18,"TikTok":1,"AI Mode":1,"Anthropic":45,"AI Overviews":1}</script>
 
 <script>
 (function(){

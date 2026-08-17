@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[物理 AI]] · [[Waymo]] · [[Google]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[OpenAI]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"智能体":84,"物理 AI":4,"Waymo":8,"Google":17,"Lenny":47,"Anthropic":46,"ChatGPT":17,"Meta":14,"OpenAI":36,"Qasar Younis":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":80,"物理 AI":4,"Waymo":8,"Google":18,"Lenny":48,"Anthropic":45,"ChatGPT":18,"Meta":13,"OpenAI":34,"Qasar Younis":1}</script>
 
 <script>
 (function(){

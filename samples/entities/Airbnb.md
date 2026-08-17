@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Ramp]] · [[Nesrine Changuel]] · [[Lenny Rachitsky]] · [[Keith Rabois]] · [[Meng To]] · [[Noam Segal]] · [[delight]] · [[Michelle Rial]] · [[PayPal]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Ramp":3,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1,"Noam Segal":1,"delight":1,"Michelle Rial":1,"PayPal":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Ramp":3,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1,"Noam Segal":1,"delight":1,"Michelle Rial":1,"PayPal":1}</script>
 
 <script>
 (function(){

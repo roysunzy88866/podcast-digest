@@ -51,7 +51,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[Reels]] · [[Stories]] · [[pods]] · [[产品人员]]
+[[Lenny]] · [[Instagram]] · [[TikTok]] · [[Anthropic]] · [[Facebook]] · [[open ai]] · [[Twitter]] · [[Reels]] · [[Stories]] · [[pods]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"Instagram":2,"TikTok":1,"Anthropic":46,"open ai":2,"Twitter":4,"Reels":2,"Stories":2,"pods":1,"产品人员":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"Instagram":2,"TikTok":1,"Anthropic":45,"Facebook":5,"open ai":2,"Twitter":4,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

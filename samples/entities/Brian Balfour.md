@@ -1,39 +1,71 @@
 ---
-title: 留存率 (retention)
-entity_type: 概念
+title: Brian Balfour
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>留存率 (retention)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Brian Balfour</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="留存率">留存</div><div class="pi"><h1 class="pt">留存率 (retention)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Brian Balfour">BR</div><div class="pi"><h1 class="pt">Brian Balfour</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(11:35起):本集将 Zynga 的成功归因于追踪极高的「Day 365 留存率」而非病毒传播；如果用户没有高留存，靠病毒式拉新只是正在下沉的速度快艇。
+*16 条*
 
-## ① 提到它的金句
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q1]]
 
-*2 条*
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q2]]
 
-![[2025-10-05-lennys-how-to-find-hidden-growth-opportunities#^q12]]
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q3]]
 
-![[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil#^q1]]
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q4]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q5]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q6]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q7]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q8]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q9]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q10]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q11]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q12]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q13]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q14]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q15]]
+
+![[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth#^q16]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为概念
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为联合主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Mark Pincus]] · [[Lenny]] · [[Zynga]] · [[已验证、更好、全新]] · [[产品市场契合度]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]] · [[OpenAI]]
+[[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Facebook]] · [[Google]] · [[Apple]] · [[Zynga]] · [[Cursor]] · [[分发平台]] · [[四步周期]]
 
-<script type="application/json" class="pd-epn">{"Mark Pincus":1,"Lenny":47,"Zynga":1,"已验证、更好、全新":1,"产品市场契合度":4,"分发":3,"智能体":84,"社交网络":1,"微管理":2,"OpenAI":36}</script>
+## ④ 也在聊「增长与销售」的人
+
+<div class="pd-peers">
+
+[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Lenny":48,"ChatGPT":18,"Claude":15,"Facebook":5,"Google":18,"Apple":11,"Zynga":2,"Cursor":14,"分发平台":1,"四步周期":1}</script>
 
 <script>
 (function(){

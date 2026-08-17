@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[LLM]] · [[Albert Cheng]] · [[Jason Cohen]] · [[Grammarly]] · [[客户流失率]] · [[Chess.com]] · [[定价]] · [[探索与利用]] · [[NRR]]
 
-<script type="application/json" class="pd-epn">{"Lenny":47,"LLM":10,"Albert Cheng":1,"Jason Cohen":1,"Grammarly":1,"客户流失率":1,"Chess.com":2,"定价":1,"探索与利用":1,"NRR":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":48,"LLM":10,"Albert Cheng":1,"Jason Cohen":1,"Grammarly":1,"客户流失率":1,"Chess.com":2,"定价":1,"探索与利用":1,"NRR":2}</script>
 
 <script>
 (function(){
