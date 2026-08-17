@@ -702,3 +702,40 @@ describe("drift #63 · D17 词形分流:硬拦只留实体形状", () => {
     expect((r.nounSoft ?? []).map((x: any) => x.name)).toContain("blueprint");
   });
 });
+
+// ── drift #65 · 数字层认分数词(标准变更:用户授权 2026-08-17)──
+// 血案:原稿说 "half",中文精华写「0.5」→ 闸门在英文原文找不到「0.5」四个字符 → 判编造硬拦整集。
+// 这是我修完英文词误判(drift #63)后顶上来的**同类误判的下一层**(run 32017768543 实证)。
+describe("drift #65 · half / quarter 认得出来", () => {
+  // end 跟着逐词时间戳算,别写死(GLM 013[3]:33 个字的句子写「第 8 秒结束」与 mkWords 自相矛盾;
+  // 今天已被桩/fixture 的失真坑过两次 —— 假绿假红都出过,不再留这种不一致)
+  const mk = (text: string) => {
+    const words = mkWords(text, 0, "S0");
+    return [{ text, start: 0, end: words[words.length - 1].end, words }];
+  };
+  const M65 = { speaker_map: { S0: "X" }, title_en: "", guests: [] };
+  const idx = (text: string) => buildFactIndex(mk(text), M65, { entities: [] });
+
+  it("★★★ 原文 half → 中文写 0.5 放行(这条就是被拦的那类)", () => {
+    const r = checkProse("大约 0.5 的用户留了下来", idx("about half of the users stayed"), { entities: [] });
+    expect(r.failures.filter((f: any) => f.kind === "D17-数字")).toHaveLength(0);
+  });
+  it("★★★ 原文 a quarter → 中文写 0.25 放行", () => {
+    const r = checkProse("只有 0.25 转化", idx("only a quarter converted"), { entities: [] });
+    expect(r.failures.filter((f: any) => f.kind === "D17-数字")).toHaveLength(0);
+  });
+  it("★★★ 白拿:half a million → 50万(0.5×100万);two and a half → 2.5", () => {
+    expect(idx("we raised half a million dollars").numbers.has(500000)).toBe(true);
+    expect(idx("it took two and a half years").numbers.has(2.5)).toBe(true);
+  });
+  it("★★★ 收窄没开天窗:原文没有的数字照样硬拦(0.7 / 编造的 88)", () => {
+    const c = idx("about half of the users stayed");
+    const r = checkProse("有 0.7 的人留下,营收 88 亿", c, { entities: [] });
+    const nums = r.failures.filter((f: any) => f.kind === "D17-数字").map((f: any) => f.raw);
+    expect(nums).toContain("0.7");
+    expect(nums.some((x: string) => x.startsWith("88"))).toBe(true);
+  });
+  it("★★ 年份口语没被分数词带坏(twenty twenty two → 2022 仍成立)", () => {
+    expect(idx("it was twenty twenty two back then").numbers.has(2022)).toBe(true);
+  });
+});

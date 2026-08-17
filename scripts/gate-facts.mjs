@@ -72,6 +72,16 @@ const NUM_WORDS = {
   ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16,
   seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20, thirty: 30, forty: 40, fifty: 50,
   sixty: 60, seventy: 70, eighty: 80, ninety: 90,
+  // 分数词(drift #65 · **标准变更:用户授权 2026-08-17「让它认 half 和 quarter」**):
+  // 血案——原稿说 "half",中文精华正常写成「0.5」,而闸门在英文原文里找不到「0.5」这四个字符
+  // → 判「数字 0.5 未在真相源出现(疑编造)」硬拦整集。实证 run 32017768543:0.5 中 3 次、
+  // 与 22.5万 合计拦掉多集(它们是我修完英文词误判后顶上来的下一层同类误判)。
+  // 只往**源侧**加值 = 放宽方向,绝不误杀:真编的数字仍得在原文找到对应值才过
+  // (与本文件已接受的 `k`→千 同一性质与同一权衡)。
+  // 顺带白拿:"two and a half" → 2.5(run 内 2+0.5)、"half a million" → 500000(0.5×1e6)。
+  // 已知未覆盖(登记不静默):"a quarter of a million"(中间的 of 会断开词串)、
+  // 复数形式 "three quarters"=0.75(需要真正的分数合成,超出本次授权范围)。
+  half: 0.5, quarter: 0.25,
 };
 const SCALES = { hundred: 100, thousand: 1000, million: 1e6, billion: 1e9 };
 
