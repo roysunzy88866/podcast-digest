@@ -76,3 +76,22 @@ describe("C27 · 客户端:真实数 + 失败静默", () => {
     expect(pvJs).toMatch(/if \(!navSeen\) hit\(\)/);
   });
 });
+
+describe("C27 · 历史基线(2026-08-17 用户从 CF 后台读出补入)", () => {
+  const src = readFileSync(new URL("../workers/pv-counter/worker.js", import.meta.url), "utf8");
+  it("★★★ 基线是独立常量、展示时相加,存储只存真实计数(可核账)", () => {
+    expect(src).toMatch(/const HISTORICAL_BASELINE = 2478;/);
+    expect(src).toContain("HISTORICAL_BASELINE + counted");
+    expect(src).toMatch(/put\(\{ total: counted/); // 存的是真实计数,不是加了基线的数
+  });
+  it("★★★ 响应同时回传 counted 和 baseline —— 哪部分是历史、哪部分是数到的,随时能拆开查", () => {
+    expect(src).toContain("counted, baseline: HISTORICAL_BASELINE");
+  });
+  it("★★ 基线只进累计、不进「今日」(今日必须是当天真实数)", () => {
+    // today 以简写形式原样回传 = 没被任何运算碰过
+    expect(src).toContain("total: HISTORICAL_BASELINE + counted, today,");
+    // 且任何地方都没有把基线加到 today 上
+    expect(src).not.toMatch(/today\s*[+=]\s*[^;\n]*HISTORICAL_BASELINE/);
+    expect(src).not.toMatch(/HISTORICAL_BASELINE\s*\+\s*today/);
+  });
+});

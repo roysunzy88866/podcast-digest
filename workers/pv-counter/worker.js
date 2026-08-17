@@ -25,6 +25,13 @@ export function corsHeaders(origin) {
   };
 }
 
+// ── 上线前的历史访问量(2026-08-17 用户从 Cloudflare 后台 Page views 读出并提供)──
+// 这个计数器 2026-08-16 才上线,而站点 7 月就在跑了。这 2478 次是**真实发生过的**访问,
+// 只是没被这里数到 —— 补它是修正漏记,不是加工数字。
+// 有意做成「独立常量 + 展示时相加」而不是直接写进存储:存储里永远只有本计数器数到的真实计数,
+// 谁来查都能一眼分清哪部分来自 CF 后台、哪部分是这里数的。改它需要同步改这行注释的出处说明。
+const HISTORICAL_BASELINE = 2478;
+
 export class Counter {
   constructor(state) {
     this.storage = state.storage;
@@ -32,15 +39,16 @@ export class Counter {
   async fetch(req) {
     const url = new URL(req.url);
     const dayKey = "d:" + bjDay();
-    let [total, today] = await Promise.all([this.storage.get("total"), this.storage.get(dayKey)]);
-    total = total || 0;
+    let [counted, today] = await Promise.all([this.storage.get("total"), this.storage.get(dayKey)]);
+    counted = counted || 0;
     today = today || 0;
     if (req.method === "POST" && url.pathname === "/hit") {
-      total += 1;
+      counted += 1;
       today += 1;
-      await this.storage.put({ total, [dayKey]: today });
+      await this.storage.put({ total: counted, [dayKey]: today });
     }
-    return Response.json({ total, today });
+    // total = 上线前历史 + 本计数器实数;counted 单独回传,便于随时核账
+    return Response.json({ total: HISTORICAL_BASELINE + counted, today, counted, baseline: HISTORICAL_BASELINE });
   }
 }
 
