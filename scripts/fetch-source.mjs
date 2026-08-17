@@ -28,7 +28,7 @@ if (!pageUrl || !epId) {
 const die = (msg) => {
   console.error(`❌ ${msg}`);
   console.error("   Scenario 1a:取不到官方文字稿就**停**,不退化为手编转写稿冒充。");
-  console.error("   若是网络/代理问题:检查 HTTP(S)_PROXY;若该集确实没有官方稿 → run-pipeline 会自动转 ASR 兜底(fetch-source-asr)。");
+  console.error("   若是网络/代理问题:检查 HTTP(S)_PROXY;若该集确实没有官方稿 → run-pipeline 会自动转 whisperX ASR 兜底。");
   process.exit(1);
 };
 

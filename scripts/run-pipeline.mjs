@@ -575,7 +575,7 @@ function processEpisode(item, id, source) {
   const dir = join("data/episodes", id);
   console.log(`\n▶ 处理新集 ${id}\n   ${item.title}\n   ${item.link}`);
   // ① 取源:whisperx 源(a16z,无官方稿)直走 whisperX ASR(C9,不空跑 fetch-source);
-  //    其余源官方稿优先,失败走 AssemblyAI 兜底(drift #14,需 ASSEMBLYAI_API_KEY)
+  //    其余源官方稿优先,失败同样转 whisperX 兜底(drift #61 改;原走 AssemblyAI 但云端无密钥=形同虚设)
   if (source?.asr === "whisperx") {
     if (existsSync(join(ROOT, dir, "transcript.en.json"))) {
       // 半成品重试复用已有转写稿(设计初衷「留半成品下次重试复用缓存」;不跳过=每次重烧 60-80 分钟 ASR,C10 实证)
@@ -590,10 +590,13 @@ function processEpisode(item, id, source) {
   } else {
     const fs = spawnSync("node", ["scripts/fetch-source.mjs", item.link, id], { cwd: ROOT, stdio: "inherit" });
     if (fs.status !== 0) {
-      console.log("   官方稿取源失败 → 尝试 ASR 兜底(fetch-source-asr)");
-      // 修潜伏参数错(C9 顺手,此路径从未真走过):CLI 约定是 <audio_url> <out_dir>,原来传的是集页 URL + 裸 id
+      console.log("   官方稿取源失败 → 转 whisperX ASR 兜底");
+      // 兜底改走 whisperX(drift #61):原来指向 fetch-source-asr(AssemblyAI,要 ASSEMBLYAI_API_KEY),
+      // 云端没配这个 secret → run 31985507669 实证两集全挂在「⛔ 缺 ASSEMBLYAI_API_KEY」,兜底等于不存在。
+      // whisperX 免费、在 Actions 上给 a16z 等源天天跑、无需任何密钥 —— 与其挂个要钱要密钥的兜底,
+      // 不如用手边这条已被产线验证的。Lenny's 约 1/3 集没有公开官方稿,全靠这条路回来。
       if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,ASR 兜底走不了(fail-closed)`);
-      run("node", ["scripts/fetch-source-asr.mjs", item.enclosureUrl, dir]);
+      run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
     }
   }
   // C5.1 Scenario 3:显示字段随取源写进 meta(title_en/podcast/date;列表卡与集页要用,此前从没人写 → 首页裸文件名)

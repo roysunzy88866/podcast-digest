@@ -1,6 +1,7 @@
 // C7b/C8 编排器 · 纯逻辑真业务测试(只调被测函数、不重抄逻辑、可变异)
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
 import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
@@ -619,5 +620,34 @@ describe("C14 runAllSources:失败原因永远看得见(GLM 20260730-001[1] 坐�
     expect(r1.errors[0].message).toBe("GLM down");
     const r2 = await runAllSources([{ key: "b" }], async () => { throw null; });
     expect(r2.errors[0].message).toBe("null");
+  });
+});
+
+describe("drift #61 · 官方稿失败的兜底必须是「能真跑」的那条", () => {
+  const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+  // 血案:兜底原先指向 fetch-source-asr(AssemblyAI,需 ASSEMBLYAI_API_KEY),云端从未配过该 secret
+  // → run 31985507669 实证两集全挂在「⛔ 缺 ASSEMBLYAI_API_KEY」。兜底存在但跑不了 = 等于没有。
+  // 不用「从标记起截 N 个字符」的窗口断言 —— 中间插几行注释就会假红(项目里 GLM 030[1] 踩过同一个坑,
+  // GLM 006[2] 再次点名)。改成:从标记起找**第一个** run() 调用,直接断言它调的是哪个脚本。
+  const firstRunAfterMark = src.slice(src.indexOf("官方稿取源失败")).match(/run\(\s*"node",\s*\[([^\]]*)\]/);
+
+  it("★★★ 兜底走 whisperX(免费、Actions 上产线在跑),不走要密钥的 AssemblyAI", () => {
+    expect(firstRunAfterMark).not.toBeNull();
+    const args = firstRunAfterMark![1];
+    expect(args).toContain("scripts/fetch-source-whisperx.mjs");
+    expect(args).not.toContain("fetch-source-asr.mjs");
+  });
+  it("★★★ 时长参数是真值不是硬编码(GLM 006[3]:原断言只查旗标,换成写死的 999 也照样绿)", () => {
+    const args = firstRunAfterMark![1];
+    expect(args).toContain("String(item.durationSec || 0)");
+    expect(args).toContain("item.enclosureUrl");
+  });
+  it("★★ 兜底调用参数与 whisperx 源那条现成路线一致(dir + --transcribe + --audio-url + --duration)", () => {
+    const args = firstRunAfterMark![1];
+    for (const flag of ["dir", '"--transcribe"', '"--audio-url"', '"--duration"']) expect(args).toContain(flag);
+  });
+  it("★★ 无 enclosure 直链仍 fail-closed(不静默跳过)", () => {
+    const tail = src.slice(src.indexOf("官方稿取源失败"), src.indexOf("官方稿取源失败") + 900);
+    expect(tail).toMatch(/if \(!item\.enclosureUrl\) throw new Error/);
   });
 });
