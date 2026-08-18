@@ -15,6 +15,8 @@ import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
 import { pickFeedTranscript, isOnTopic } from "./feed-transcript.mjs"; // C28 · ADR 0024(纯函数,无副作用)
+// C30 音频搬运工(有 isMain 守卫,import 无副作用):403 集登记待搬运 → Mac mini 抓音频上中转站 → 这里优先用+用后清
+import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, RELAY_TAG } from "./audio-relay.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -534,6 +536,37 @@ export function run(cmd, args, opts = {}) {
   if (r.status !== 0) throw new Error(`步骤失败(exit ${r.status}): ${cmd} ${args.join(" ")}\n${(r.stderr ?? "").slice(-4000)}`);
 }
 
+// ══ C30 · 音频搬运工(Mac mini 住宅 IP 中转)══
+// runner 被封 IP 拿不到音频的集(D63)→ catch 里登记 state.audioWanted;下次 ASR 先试中转站
+// asset(scripts/audio-relay.mjs 在 Mac mini 搬上去的)、失败回落原直链;转写成功即清账+删 asset。
+// Mac mini 不在线 → 中转站 404 → 回落原直链 = 行为与没有 C30 时一致。
+let RELAY_REMOTE; // 惰性取一次 git 远端;取不到 = 不拼中转 URL(不猜),该集行为与现状一致
+function relayUrlIfWanted(state, id) {
+  if (!state?.audioWanted?.[id]) return null;
+  if (RELAY_REMOTE === undefined) {
+    const r = spawnSync("git", ["remote", "get-url", "origin"], { cwd: ROOT, encoding: "utf8" });
+    RELAY_REMOTE = r.status === 0 ? r.stdout.trim() : null;
+    if (!RELAY_REMOTE) console.error("   ⚠️ 取不到 git 远端,中转站直链拼不出(该集走原直链)");
+  }
+  return RELAY_REMOTE ? relayUrlFor(RELAY_REMOTE, id) : null;
+}
+
+/** ASR 统一入口(processEpisode 三个兜底点共用):已登记待搬运的集附中转站直链;转写成功即消费清账。 */
+function runAsr(dir, item, id, state) {
+  const relay = relayUrlIfWanted(state, id);
+  if (relay) console.log(`   📦 该集在待搬运清单 → ASR 先试中转站:${relay}`);
+  run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl,
+    "--duration", String(item.durationSec || 0), ...(relay ? ["--relay-url", relay] : [])]);
+  // 走到这 = 转写到手(不管哪条路下载成功),音频不再被需要 → 清账 + 删中转站 asset(不堆积)
+  const asset = consumeAudioWanted(state, id);
+  if (asset) {
+    writeState(state);
+    const r = spawnSync("gh", ["release", "delete-asset", RELAY_TAG, asset, "-y"], { cwd: ROOT, encoding: "utf8" });
+    if (r.status === 0) console.log(`   🧹 中转站已清:${asset}`);
+    else console.log(`   ⚠️ 中转站 asset 删除失败/本就没有(不阻塞):${(r.stderr || String(r.error?.message ?? "")).slice(-160)}`);
+  }
+}
+
 /** 跑外部脚本,返回是否 0 退出(不抛,用于逐集验证的 skip 判定)。 */
 function runOk(cmd, args) {
   console.log(`   $ ${cmd} ${args.join(" ")}`);
@@ -615,7 +648,7 @@ export function reviveItemFromMeta(meta) {
  * 产出步骤 fail-fast(抛=转瞬失败,留半成品下次重试);验证(gate 金句三联 + gate-facts 导读事实)fail=失真 → 返回 {ok:false} 交 main 隔离。
  * 返回 {ok, reason}。
  */
-function processEpisode(item, id, source) {
+function processEpisode(item, id, source, state) {
   const dir = join("data/episodes", id);
   console.log(`\n▶ 处理新集 ${id}\n   ${item.title}\n   ${item.link}`);
   // ① 取源:whisperx 源(a16z,无官方稿)直走 whisperX ASR(C9,不空跑 fetch-source);
@@ -637,11 +670,11 @@ function processEpisode(item, id, source) {
       if (fr.status !== 0) {
         console.log("   feed 稿取源失败 → 回落 whisperX ASR");
         if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
-        run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+        runAsr(dir, item, id, state); // C30:中转站优先 + 原直链兜底
       }
     } else {
       if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
-      run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+      runAsr(dir, item, id, state); // C30:中转站优先 + 原直链兜底
     }
   } else if (existsSync(join(ROOT, dir, "transcript.en.json"))) {
     // C14:官方稿源同享「半成品重试复用转写稿」(补活的存量集没有 item.link,取源本也没必要重跑)
@@ -655,7 +688,7 @@ function processEpisode(item, id, source) {
       // whisperX 免费、在 Actions 上给 a16z 等源天天跑、无需任何密钥 —— 与其挂个要钱要密钥的兜底,
       // 不如用手边这条已被产线验证的。Lenny's 约 1/3 集没有公开官方稿,全靠这条路回来。
       if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,ASR 兜底走不了(fail-closed)`);
-      run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+      runAsr(dir, item, id, state); // C30:中转站优先 + 原直链兜底
     }
   }
   // C5.1 Scenario 3:显示字段随取源写进 meta(title_en/podcast/date;列表卡与集页要用,此前从没人写 → 首页裸文件名)
@@ -928,7 +961,7 @@ function revivePass(state, { onlyKey, dryRun }) {
     const item = reviveItemFromMeta(JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")));
     let res;
     try {
-      res = processEpisode(item, id, source);
+      res = processEpisode(item, id, source, state);
     } catch (e) {
       const n = noteReviveFail(state, id);
       writeState(state); // 即刻落盘:后续崩了也不丢连败账(同 appendSkip 口径)
@@ -998,7 +1031,7 @@ function processBackfillPicks(picks, state, source) {
     const id = deriveId(item, source);
     let res;
     try {
-      res = processEpisode(item, id, source);
+      res = processEpisode(item, id, source, state);
     } catch (e) {
       if (isContentBlocked(e.message)) {
         const n = noteBlockFail(state, id);
@@ -1011,6 +1044,12 @@ function processBackfillPicks(picks, state, source) {
         }
         skipped += 1;
         continue;
+      }
+      if (isAudioDownloadFail(e.message) && item.enclosureUrl) {
+        // C30:补历史同享登记(音频拿不到 → 待搬运;老路照走)
+        noteAudioWanted(state, id, item.enclosureUrl);
+        writeState(state);
+        console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped += 1;
@@ -1157,7 +1196,7 @@ function processTalksSource(source, state, { dryRun }) {
     }
     let res;
     try {
-      res = processEpisode(item, id, source);
+      res = processEpisode(item, id, source, state);
     } catch (e) {
       // 内容审查([1301])= 确定性拒绝,非转瞬:BLOCK_CAP 次宽限后判终态,挪 skipped + 记 videoId 出队
       // (否则死锁:这几条永远重选、饿死后面纯技术演讲——正是本次要修的病)。
@@ -1262,7 +1301,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
     const id = deriveId(item, source);
     let res;
     try {
-      res = processEpisode(item, id, source);
+      res = processEpisode(item, id, source, state);
     } catch (e) {
       // 内容审查([1301])= 确定性拒绝:BLOCK_CAP 次宽限后判终态(retry:false),让 cutoff 能安全推进过它
       // ——否则这集每跑重烧一次翻译、cutoff 永远冻在它前面(a16z 实证)。
@@ -1279,6 +1318,13 @@ async function processSource(source, state, { backfillN, dryRun }) {
           skipped.push({ id, reason: `内容审查拦下(第 ${n}/${BLOCK_CAP} 次)`, retry: true });
         }
         continue;
+      }
+      if (isAudioDownloadFail(e.message) && item.enclosureUrl) {
+        // C30:音频拿不到(runner 被封 IP,D63)→ 登记待搬运并即刻落盘(随回仓入库,Mac mini 靠它知道搬什么)。
+        // 集子仍走「转瞬失败留半成品重试」老路;登记只是多给下次重试一条中转站活路。
+        noteAudioWanted(state, id, item.enclosureUrl);
+        writeState(state);
+        console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });

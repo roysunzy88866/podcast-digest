@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- C30 · 音频搬运工 launchd 模板(独立 label,不动 patrol/每日新闻)。
+     安装前把 __REPO__ 换成仓库绝对路径、__NODE__ 换成 `which node` 的输出;
+     每 3 小时一班(:20,刻意错开 patrol 的 :40 与每日新闻的整点)。
+     Mac mini 连 GitHub 要代理时在 EnvironmentVariables 加 AUDIO_RELAY_PROXY(git/gh 用;
+     音频下载永远直连,脚本内部保证)。详见 docs/macmini-巡航安装.md「音频搬运工」节。 -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.podcast-digest.audio-relay</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__NODE__</string>
+    <string>scripts/audio-relay.mjs</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key>
+    <string>__HOME__</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>3</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>15</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>18</integer><key>Minute</key><integer>20</integer></dict>
+    <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>20</integer></dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/podcast-digest-audio-relay.log</string>
+  <key>StandardErrPath</key>
+  <string>__HOME__/Library/Logs/podcast-digest-audio-relay.log</string>
+
+  <!-- 失败(退出非零)不疯狂重试:下个班次自然重来;睡眠错过不补跑 -->
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

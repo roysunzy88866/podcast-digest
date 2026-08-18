@@ -26,6 +26,12 @@ export const BROWSER_HEADERS = {
   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
 };
 
+/** C30:下载候选序——中转站(Mac mini 代抓的 Release asset)优先,原直链兜底;没有中转就只有原直链。
+ *  中转站 404(没搬到/Mac mini 不在线)自然落到原直链 = 行为与没有 C30 时一致。 */
+export function audioUrlCandidates(audioUrl, relayUrl) {
+  return relayUrl ? [relayUrl, audioUrl] : [audioUrl];
+}
+
 // 模型档(用户 2026-07-24 拍板):large-v3 默认(质量优先),>100 分钟降 medium 保时长余量。
 // 锚 P1 实测:large-v3 0.59x 实时 → 100 分钟 ≈2.8h;job 上限 6h,再长不留余量。时长未知→large-v3。
 const LONG_EPISODE_SEC = 100 * 60;
@@ -87,8 +93,8 @@ export function asrInitialPrompt(path = ASR_VOCAB_PATH) {
   }
 }
 
-/** 全程模式:下载 enclosure 音频 → 跑 whisperx CLI(runner 需已装)→ 返回其 JSON 输出。fail-closed。 */
-async function runWhisperx(audioUrl, durationSec) {
+/** 全程模式:按候选序下载音频(C30:中转站优先、原直链兜底)→ 跑 whisperx CLI(runner 需已装)→ 返回其 JSON 输出。fail-closed。 */
+async function runWhisperx(audioUrls, durationSec) {
   if (!process.env.HF_TOKEN) throw new Error("缺 HF_TOKEN env(pyannote 分离要,fail-closed)");
   const model = pickWhisperxModel(durationSec);
   const work = mkdtempSync(join(tmpdir(), "whisperx-"));
@@ -98,9 +104,26 @@ async function runWhisperx(audioUrl, durationSec) {
     // 带浏览器 UA:Substack 对裸 node 请求 403(drift #28 同款;run 31986907759 实证——
     // 兜底改走 whisperX 后,Lenny's 的 api.substack.com 音频直链在 runner 上 403)。
     // 原本只有 Megaphone/Simplecast/Anchor 那些源走这条路、它们不挑 UA,所以一直没暴露。
-    const res = await fetch(audioUrl, { redirect: "follow", headers: BROWSER_HEADERS });
-    if (!res.ok) throw new Error(`音频下载失败 HTTP ${res.status}(URL: ${audioUrl.slice(0, 80)}…)`);
-    await pipeline(Readable.fromWeb(res.body), createWriteStream(audioFile));
+    // 抛错开头必须保持「音频下载失败」——run-pipeline 靠它识别该登记待搬运(isAudioDownloadFail,C30)。
+    let picked = null;
+    const errs = [];
+    for (const u of audioUrls) {
+      try {
+        const res = await fetch(u, { redirect: "follow", headers: BROWSER_HEADERS });
+        if (!res.ok) {
+          errs.push(`HTTP ${res.status}(URL: ${u.slice(0, 80)}…)`);
+          continue;
+        }
+        await pipeline(Readable.fromWeb(res.body), createWriteStream(audioFile));
+        picked = u;
+        break;
+      } catch (e) {
+        errs.push(`${String(e?.message ?? e).slice(0, 120)}(URL: ${u.slice(0, 80)}…)`);
+      }
+    }
+    if (!picked) throw new Error(`音频下载失败 ${errs.join(";再试 ")}`);
+    if (audioUrls.length > 1)
+      console.log(picked === audioUrls[0] ? "── 📦 中转站音频命中(audio-relay)" : "── 📦 中转站未命中 → 已用原直链");
     const initialPrompt = asrInitialPrompt();
     console.log(`── whisperX 转写(model=${model},CPU int8 + 内置 VAD + pyannote 分离${initialPrompt ? " + AI 专名词表偏置" : ""})…`);
     const t0 = Date.now();
@@ -127,14 +150,15 @@ if (isMain) {
   const transcribe = argv.includes("--transcribe");
   const wxPath = flagVal("--wx");
   const audioUrl = flagVal("--audio-url");
+  const relayUrl = flagVal("--relay-url"); // C30:中转站直链(run-pipeline 只对已登记待搬运的集传)
   if (!dirArg || (!wxPath && !transcribe) || (transcribe && !audioUrl)) {
     console.error("用法:node scripts/fetch-source-whisperx.mjs <episodeDir> --wx <whisperx.json> [--audio-url <url>]");
-    console.error("     node scripts/fetch-source-whisperx.mjs <episodeDir> --transcribe --audio-url <url> [--duration <秒>]");
+    console.error("     node scripts/fetch-source-whisperx.mjs <episodeDir> --transcribe --audio-url <url> [--duration <秒>] [--relay-url <中转站url>]");
     process.exit(2);
   }
   const dir = resolve(ROOT, dirArg);
   const wx = transcribe
-    ? await runWhisperx(audioUrl, Number(flagVal("--duration")) || 0)
+    ? await runWhisperx(audioUrlCandidates(audioUrl, relayUrl), Number(flagVal("--duration")) || 0)
     : JSON.parse(readFileSync(wxPath, "utf8"));
   const transcript = convertWhisperx(wx);
   mkdirSync(dir, { recursive: true });
