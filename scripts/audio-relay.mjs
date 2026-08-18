@@ -14,7 +14,7 @@
 //       音频下载**永远直连**——住宅 IP 就是本方案的全部意义,绝不套代理。
 // 只上传 asset,不 commit 不 push(与 patrol 的 git 舞步零冲突);清单读 origin/main 不动工作区。
 // 纯逻辑导出供单测;副作用只在 main()。
-import { createWriteStream, mkdtempSync, rmSync } from "node:fs";
+import { createWriteStream, mkdtempSync, rmSync, statSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, join } from "node:path";
 import { tmpdir } from "node:os";
@@ -100,11 +100,18 @@ function ensureRelease() {
     "--notes", "C30 音频搬运工:云端登记 state.audioWanted → Mac mini 住宅 IP 抓音频上传 → 云端消费后即删。asset 与集 id 一一对应,常态应为空。"]);
 }
 
-/** 直连下载音频到临时文件(绝不走代理;UA 与云端同款)。 */
+/** 直连下载音频到临时文件(绝不走代理;UA 与云端同款)。
+ *  理智检查(GLM 020[4]):挑战页/错误页(200 + text/html)或迷你响应绝不能被当音频传上中转站——
+ *  坏 asset 会让云端 whisperx 阶段失败(错误签名不再是「音频下载失败」),账目卡死、asset 永不清。 */
+const MIN_AUDIO_BYTES = 100 * 1024; // 播客音频没有小于 100KB 的;挑战页/错误页远小于此
 async function downloadDirect(url, toFile) {
   const res = await fetch(url, { redirect: "follow", headers: BROWSER_HEADERS });
   if (!res.ok) throw new Error(`下载失败 HTTP ${res.status}(URL: ${String(url).slice(0, 80)}…)`);
+  const ctype = res.headers.get("content-type") ?? "";
+  if (/text\/|html/.test(ctype)) throw new Error(`下载到的不是音频(content-type: ${ctype})——疑挑战页,拒传中转站`);
   await pipeline(Readable.fromWeb(res.body), createWriteStream(toFile));
+  const size = statSync(toFile).size;
+  if (size < MIN_AUDIO_BYTES) throw new Error(`下载文件过小(${size} 字节)——疑非音频,拒传中转站`);
 }
 
 const isMain = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
@@ -122,6 +129,8 @@ if (isMain) {
   }
   console.log(`待搬运 ${wanted.length} 条:${wanted.map((w) => w.id).join(", ")}`);
 
+  // GLM 020[3]:先把中转站(和 gh 认证)确认好再下载——认证挂了就在这响亮死,不白下大文件
+  if (!dryRun) ensureRelease();
   const existing = parseAssetNames(sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]).stdout ?? "");
   let failed = 0;
   for (const { id, url } of wanted) {
@@ -138,7 +147,6 @@ if (isMain) {
     try {
       console.log(`   ⬇️ ${id}:直连下载音频…`);
       await downloadDirect(url, join(work, name));
-      ensureRelease();
       console.log(`   ⬆️ ${id}:gh release upload ${RELAY_TAG} …`);
       shOrThrow("gh", ["release", "upload", RELAY_TAG, join(work, name), "--clobber"]);
       console.log(`   ✅ ${id} 已上中转站(云端下一班自取)`);
@@ -148,6 +156,16 @@ if (isMain) {
       console.error(`   ⚠️ ${id} 搬运失败(留清单下轮重试):${String(e?.message ?? e)}`);
     } finally {
       rmSync(work, { recursive: true, force: true });
+    }
+  }
+  // GLM 020[2]:垃圾回收——不在清单里的 asset = 云端已消费但删失败(如某次没 GH_TOKEN)的孤儿,这里兜底清掉。
+  // 只会误伤不了正主:id 只有被 consumeAudioWanted 划账才会离开清单,离开清单的 asset 都是该删的。
+  if (!dryRun) {
+    const stale = existing.filter((n) => !wanted.some(({ id }) => relayAssetName(id) === n));
+    for (const n of stale) {
+      const r = sh("gh", ["release", "delete-asset", RELAY_TAG, n, "-y"]);
+      if (r.status === 0) console.log(`   🧹 清孤儿 asset(云端已消费):${n}`);
+      else console.error(`   ⚠️ 孤儿 asset 清理失败(下轮再试):${n}`);
     }
   }
   if (failed) {

@@ -90,7 +90,9 @@ describe("audioUrlCandidates(中转站优先)", () => {
 
 describe("run-pipeline 接线(源码锚,防登记/清账/优先查被静默摘除)", () => {
   const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-  const runAsrBody = src.slice(src.indexOf("function runAsr("), src.indexOf("function runAsr(") + 1200);
+  // 函数体截到顶格 "\n}"(函数结束),不用固定字符窗口——窗口断言函数长了会漏检(GLM 030[1]/020[6] 同型坑)
+  const asrStart = src.indexOf("function runAsr(");
+  const runAsrBody = src.slice(asrStart, src.indexOf("\n}", asrStart) + 2);
 
   it("★★★ 两处转瞬失败 catch(processSource+补历史)都登记待搬运并即刻落盘", () => {
     expect((src.match(/isAudioDownloadFail\(e\.message\)/g) ?? []).length).toBe(2);

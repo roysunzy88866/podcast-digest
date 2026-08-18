@@ -631,7 +631,9 @@ describe("drift #61 · 官方稿失败的兜底必须是「能真跑」的那条
   // GLM 006[2] 再次点名)。C30 后三个兜底点收进统一入口 runAsr:先断言兜底分支第一个调用就是 runAsr,
   // 再对 runAsr 函数体做原来那组「调的是哪个脚本/参数是真值」断言 —— 守的不变量一条没少。
   const afterMark = src.slice(src.indexOf("官方稿取源失败"));
-  const runAsrBody = src.slice(src.indexOf("function runAsr("), src.indexOf("function runAsr(") + 1200);
+  // 函数体截到顶格 "\n}",不用固定字符窗口(GLM 030[1]/020[6] 同型坑)
+  const asrStart = src.indexOf("function runAsr(");
+  const runAsrBody = src.slice(asrStart, src.indexOf("\n}", asrStart) + 2);
   const runInAsr = runAsrBody.match(/run\(\s*"node",\s*\[([^\]]*)\]/);
 
   it("★★★ 兜底分支进统一 ASR 入口 runAsr(不是别的什么)", () => {

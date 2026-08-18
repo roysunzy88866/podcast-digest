@@ -548,7 +548,14 @@ function relayUrlIfWanted(state, id) {
     RELAY_REMOTE = r.status === 0 ? r.stdout.trim() : null;
     if (!RELAY_REMOTE) console.error("   ⚠️ 取不到 git 远端,中转站直链拼不出(该集走原直链)");
   }
-  return RELAY_REMOTE ? relayUrlFor(RELAY_REMOTE, id) : null;
+  if (!RELAY_REMOTE) return null;
+  try {
+    return relayUrlFor(RELAY_REMOTE, id);
+  } catch (e) {
+    // GLM 020[1]:认不出的远端 relayUrlFor 会抛——不许把「拼不出中转 URL」升级成整集失败(那与音频无关)
+    console.error(`   ⚠️ 中转站直链拼不出(走原直链):${String(e?.message ?? e)}`);
+    return null;
+  }
 }
 
 /** ASR 统一入口(processEpisode 三个兜底点共用):已登记待搬运的集附中转站直链;转写成功即消费清账。 */
@@ -1214,6 +1221,8 @@ function processTalksSource(source, state, { dryRun }) {
         }
         continue;
       }
+      // 演讲源刻意不登记 audioWanted(GLM 020[5]):其 enclosure 本来就是本仓 Release asset(Mac mini 上传的),
+      // 拿不到=asset 缺失/坏种子,该修种子而不是让搬运工从坏 URL 再抓一遍(登记只会造死循环)。
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
       continue; // 不记 videoId:非终态,下轮重选
