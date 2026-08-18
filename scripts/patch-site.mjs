@@ -170,6 +170,14 @@ patchFile(
         <meta property="og:type" content="website" />`,
   `        <meta property="og:title" content={title} />
         <meta property="og:type" content={(fileData.frontmatter as any)?.type === "episode" ? "article" : "website"} />
+        {/* C29:声明「加到主屏后按独立应用打开」(2026-08-18 用户已把本站当 iPhone APP 用)。
+            没有这行时 iOS 的主屏图标可能仍带 Safari 界面,而下拉刷新脚本只在独立模式启用 →
+            功能等于没做。⚠️ 主屏图标是**添加那一刻**记下这个能力的,已经加过的要删掉重加才生效。*/}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        {/* 主屏图标:没有这行 iOS 会拿页面截图当图标 —— 我要用户删掉重加图标才能启用独立模式,
+            不补这行等于让他把现在的 SOLO 标换成一张截图。指向 deploy-site.sh 换好的 SOLO 站标。*/}
+        <link rel="apple-touch-icon" href="/static/icon.png" />
         {/* C22 · SEO:canonical(复用本页 URL)*/}
         <link rel="canonical" href={socialUrl} />
         {/* C26 · feed 自发现:RSS 阅读器/Agent 粘站点 URL 即自动找到 feed(json 全文 / xml 播客)*/}
@@ -197,13 +205,16 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
   const searchHistJs = readFileSync(resolve(ROOT, "assets/js/search-history.js"), "utf8");
   // C27 访问计数(2026-08-16 用户拍板):同通道全站注入,计数在所有页、展示只在有 .pd-pv 容器的首页
   const pvJs = readFileSync(resolve(ROOT, "assets/js/pv.js"), "utf8");
+  // C29 下拉刷新:只在「从主屏启动的应用模式」自启用(脚本自己判定,浏览器里一行不跑)
+  const ptrJs = readFileSync(resolve(ROOT, "assets/js/pull-refresh.js"), "utf8");
   patchFile(
     resolve(SITE, "quartz/components/Head.tsx"),
     `<title>{title}</title>`,
     `<title>{title}</title>
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />
-        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pvJs)} }} />`,
-    "PC 搜索历史 + PV 计数脚本(Head 全站注入)",
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pvJs)} }} />
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(ptrJs)} }} />`,
+    "PC 搜索历史 + PV 计数 + 下拉刷新脚本(Head 全站注入)",
   );
 }
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });

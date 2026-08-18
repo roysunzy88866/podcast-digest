@@ -2020,3 +2020,37 @@ body[data-slug^="entities/"] {
 .pd-util { margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--B3); }
 .pd-util .pd-myfav { margin-bottom: 4px; }
 .pd-util .pd-subscribe { margin: 0; }
+
+/* ── C29 · 下拉刷新指示器(只在主屏应用模式出现,脚本自己 gate)── */
+/* 固定在顶部中央,跟手下移;转圈用 currentColor,深浅色自动适配 */
+.pd-ptr {
+  position: fixed;
+  top: -44px;
+  left: 50%;
+  margin-left: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--B0);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  color: var(--B5);
+}
+.pd-ptr-s {
+  width: 17px;
+  height: 17px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  display: block;
+}
+/* 拉过阈值:变成主题强调色,给「松手就刷」的确认感 */
+.pd-ptr-go { color: var(--pd-accent); }
+/* 松手后进入加载:转起来 */
+.pd-ptr-run .pd-ptr-s { animation: pd-ptr-spin 0.7s linear infinite; }
+@keyframes pd-ptr-spin { to { transform: rotate(360deg); } }

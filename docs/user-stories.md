@@ -2451,3 +2451,40 @@ Scenario: 题材泛的源只收对口集(DOAC)
 3. DOAC 题材筛选(纯函数 + 源上标 topicFilter),判不准即跳过。
 4. 单测覆盖三种格式 + 回落 + 题材筛选;变异验证(退回实现必红)。
 5. 云端真跑一集实证:日志显示走 feed 稿、归属闸门过、时间从小时级降到秒级。
+
+## C29 · 下拉刷新(主屏应用模式)· US-1 · 2026-08-18 用户提出
+
+> 用户:「需要手机端加一个下拉刷新的按钮,下拉后顶部出现一个 loading,然后重新加载」
+> 澄清后的关键前提:「我是添加了 iPhone 的 APP 应用,所以不是在浏览器里打开的,浏览器里是有下拉刷新的」
+> —— iOS 从主屏启动的 web app 没有地址栏/刷新按钮,**系统的下拉刷新在该模式下也不存在**,
+> 想看新内容只能杀进程重开。
+
+Scenario: 只在主屏应用模式接管
+  Given 用户从 iPhone 主屏图标启动本站(standalone)
+  Then 下拉刷新由本站接管
+  But 在 Safari 等浏览器里打开时,本站一个监听器都不挂(用系统自带的,不两套手势打架)
+
+Scenario: 在顶部下拉够远才刷新
+  Given 页面已滚到最顶、且没有弹层开着
+  When 手指向下拉动,指示器跟手下移(阻尼:手走 2px 指示器走 1px)
+  And 拉过阈值后指示器转成强调色(「松手就刷」的确认感)
+  Then 松手 → 指示器转圈 → 整页重载
+  But 没拉够就松手 → 指示器收回,什么都不发生
+
+Scenario: 不该接管的时候一概不碰
+  Given 页面不在顶部 / 弹层(我的收藏、订阅、搜索)开着 / 手指是向上滑
+  Then 完全不接管,正常滚动不受影响
+
+Scenario: 刷新 = 回顶部看最新
+  Given 首页/大类页有无限滚动,离页时会记住「批次 + 滚动位」
+  When 触发下拉刷新
+  Then 先清掉该记忆再重载 —— 否则刷完被还原到半路,看着像没刷新
+  And 整页重载即可拿到新内容(HTML 缓存头是 max-age=0 + must-revalidate,本机 curl 实证)
+
+### DoD(C29)
+1. `assets/js/pull-refresh.js`:standalone 判定(navigator.standalone + display-mode 媒体查询)、
+   touchstart/move/end 手势、阈值 70px、阻尼 0.5、顶部+弹层守卫、刷新前清 `ioret:<路径>`。
+2. 经 patch-site.mjs Head 全站注入(与 pv.js / search-history.js 同通道);custom.scss 指示器样式走主题令牌。
+3. tests/pull-refresh.test.ts 11 条:DOM 桩回放真实手势,覆盖 gate/阈值/守卫/清记忆/指示器状态。
+4. 五向变异验证(去 standalone 闸 / 不清记忆 / 去弹层守卫 / 阈值归零 / 两道 atTop 同时拿掉)各自当场红。
+5. **待真机验收**:手感(阈值、阻尼、转圈时长)只能在 iPhone 主屏应用里实测。
