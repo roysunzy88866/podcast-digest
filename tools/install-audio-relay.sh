@@ -8,7 +8,7 @@ REPO="$(cd "$(dirname "$0")/.." && pwd)"
 NODE_BIN="$(which node)"
 PLIST_SRC="$REPO/tools/launchd/com.podcast-digest.audio-relay.plist"
 PLIST_DST="$HOME/Library/LaunchAgents/com.podcast-digest.audio-relay.plist"
-PROXY="${AUDIO_RELAY_PROXY:-http://127.0.0.1:7890}" # Mac mini 连 GitHub 走 clash 7890(同 patrol)
+PROXY="${AUDIO_RELAY_PROXY-http://127.0.0.1:7890}" # Mac mini 连 GitHub 走 clash 7890;设空串=显式直连(与 mjs 语义一致,GLM 003[2])
 
 echo "① 拉最新代码…"
 # Mac mini 的 ~/.gitconfig 有「http.https://github.com/.proxy=空」的 URL 级规则,优先级压过环境变量
