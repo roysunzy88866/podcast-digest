@@ -1,0 +1,165 @@
+{
+  "title_zh": "Uber COO 谈会员制反转、自动驾驶终局与AI预算失控",
+  "tldr": "Uber 总裁兼 COO 亲解:为何他曾是会员制最大反对者、自动驾驶为何生死攸关、以及四个月花光 AI 预算背后真正的逻辑。",
+  "digest_md": "Uber 的高管曾经是 Uber One 会员制的最大反对者——不是觉得它没用,而是他算了一笔账:每一美元投进降低价格,立刻就能让用户感受到;投进会员制,换来的却是一套消费者\"未必完全理解\"的福利组合。他承认自己在这个问题上犯了短视的错误 [06:41 Andrew McDonald]。\n\n## 短期杠杆 vs 长期杠杆:那笔他算错的账\n\n共享出行归根结底就三件事:价格、可靠性、安全性。十年前是这样,十年后有了自动驾驶也还是这样 [08:12 Andrew McDonald]。所以当手里有 4000 万美元要投的时候,直觉永远是把钱塞进定价或者司机供应——因为效果立竿见影。\n\n但 Uber One 的数据打脸了这个直觉。衡量每一美元投入的关键指标叫 IGB(增量总预订额,可以理解为增量收入)。投一美元降价,用户可能回来消费两美元,但 Uber 只从中赚 7.5% 的利润率,所以单看 ROI 仍然是负的——这类投资赌的是用户长期参与度上升、LTV 随时间增长 [09:22 Andrew McDonald]。会员制的不同在于:它的时间衰减非常慢。一个用户成为会员后,不仅下个月坐得更多,而且这批会员的乘坐频率会持续上升——部分因为他们把更多出行整合到了 Uber 上,部分因为会员附带的 Uber Eats 福利让他们从 DoorDash 那边迁移过来 [09:47 Andrew McDonald]。相比之下,纯粹的降价促销虽然也有尾部效应,但消散得快得多 [10:22 Andrew McDonald]。\n\n今天 Uber One 在很多指标上已经接近 Amazon Prime 和 Costco 的水平,是 Uber 效率最高的长期消费者杠杆 [07:12 Andrew McDonald]。但要做大还有硬伤:Uber 是可变成本模式,需求降成本就降,这意味着没有\"多余产能\"可以白送——不像酒店有空房可以低成本赠送房晚。想给会员免费送一程,照样得付钱给司机 [11:46 Andrew McDonald]。\n\n## 为什么自动驾驶是生死问题\n\n自动驾驶今天是它最差的一天,但每一天都会变好。当一个产品只会越来越好,而你的核心产品在许多场景下已经不如它,那它最终会变成业务本身 [19:42 Andrew McDonald]。如果 Uber 平台上没有自动驾驶,对核心业务就是生存威胁 [20:00 Andrew McDonald]。\n\n这是 Uber 最大的单一投资领域,混合了股权投资、购买承诺、基础设施建设、数据采集车队等多种形式 [20:08 Andrew McDonald]。但五年后人类驾驶和自动驾驶的比例?极难预测。原因有三:分母太大——每周 3 亿次行程;人类驾驶业务本身还在增长;以及 Uber 太全球化了 [23:23 Andrew McDonald]。按量算,最大的两个国家是印度和巴西,印度平均一单只要 2.53 美元,巴西大概 3.5 到 4 美元——自动驾驶成本要压缩到能跟这个人力成本竞争,需要几十年 [24:16 Andrew McDonald]。所以\"Uber 大部分行程什么时候变自动驾驶\"这个问题的答案,基本等于\"自动驾驶什么时候进巴西和印度\"。\n\n但按金额算可能是另一回事:如果旧金山、洛杉矶、纽约这些高客单价城市率先被自动驾驶占据主导,那对预订额和收入的影响会远大于对行程量的影响 [24:43 Andrew McDonald]。\n\n至于 Waymo 和 Tesla 谁更威胁——他觉得赢家不会只有两个,中国已经有四五家了,没理由世界其他地区只收敛到一个玩家 [25:21 Andrew McDonald]。而且有一个结构性因素站在 Uber 这边:自动驾驶公司拥有的是昂贵固定资产(车辆),固定资产需要高利用率,而 Uber 拥有 2 亿月活用户的分发渠道 [26:04 Andrew McDonald]。就像 McDonald's 和 Starbucks 虽然有自己的门店和 App,但最终还是愿意跟外卖平台合作——因为闲置产能意味着浪费 [26:06 Andrew McDonald]。\"最终,分发胜出\" [27:13 Andrew McDonald]。\n\n## 四个月花光 AI 预算:不是失控,是预算方式错了\n\nCTO Praveen 说前几个月就用完了全年 AI 预算,不是支出失控,而是一个在使用量垂直增长的工具上,提前几个月定预算数字,根本不可能猜准 [34:02 Andrew McDonald]。Mac 自己在另一个播客说\"很难从 AI 支出画一条直线到有用的消费者功能\",结果两边评论都被断章取义——怀疑论者说\"Uber COO 说 AI 没回报\",原教旨主义者说\"这人不懂 AI\" [34:18 Andrew McDonald]。\n\n实际的 ROI 在内部流程里是看得见的:30 个顶尖 AI 工程师跟业务人员结对,逐个流程从底层用 AI 重做。全球数千个市场的定价分配从 15 小时缩到 2 小时;财务团队的预测流程从 8 小时缩到 2 小时,而且精度还更高;营销 QA 从两周缩到两天 [36:01 Andrew McDonald]。但问题在于:省下来的 8 小时不会变成\"可以裁掉的人头\",它会被其他高价值活动填满 [37:38 Andrew McDonald]。所以真正要把 AI 效率体现到利润表上,方法不是逐条对齐\"改了哪个流程所以裁了几个人\",而是在年度目标设定时直接收紧人头约束——如果 AI 真的让员工效率提升了 10% 到 30%,那明年就不该增加人头,或者只增 2% 而不是 10% [38:02 Andrew McDonald]。\n\n他提出的预算解法是:把人头预算和算力预算合并成一个池子,让 CTO 自行决定怎么花——想多买算力就少招人,觉得多招工程师能构建更有复合价值的产品就多招人 [38:53 Andrew McDonald]。另外,内部已经建了使用量和成本的仪表板,因为不是每个任务都需要用最贵最新的模型 [40:06 Andrew McDonald]。\n\n## 智能体会解构 Uber 的前端吗?\n\n18 个月前领导层的焦虑是:用户会不会直接在 ChatGPT 里说\"给我叫辆 Uber\",然后 Uber 就变成了一个被调用的无脸 API [45:44 Andrew McDonald]。\"给我叫辆 Uber\"这个查询本身不伤业务,交易还是 Uber 的。但如果变成了\"比较 Uber、Lyft 和 Waymo 的价格,给我最便宜的\"——而今天 80% 的人是直接打开 Uber App 的——那就有问题了 [47:32 Andrew McDonald]。\n\n但他认为实际的挑战在于:网约车和外卖不是\"设好就不管\"的电商交易,它是托管交易——从下单到完成之间有大量需要实时管理的东西:司机乘客互动、上车点视觉体验、东西落在车上、支付凭证 [47:49 Andrew McDonald]。他同意 Brian Chesky 的观点:不是所有场景都适合聊天界面,有些体验更偏视觉、更偏托管 [48:23 Andrew McDonald]。而且当出问题时——比如酒店无法满足提前入住需要通知用户——这条消息是回传给 AI 还是直接来自商家、谁承担成本,这些运营细节都还没理清 [50:17 Andrew McDonald]。\n\n所以 Uber 的策略是参与而非拒绝:如果大公司想在消费前端跟 Uber 做有意思的事,愿意谈,但给多少数据、交易在各环节的责任怎么划分,这些都是谈判点 [49:26 Andrew McDonald]。\n\n## 在巨头上长出新业务\n\nUber 的 GB(总预订额)接近 2500 亿美元,这意味着任何新业务要\"有意义\",路径上得看到数十亿美元的交易量——这个门槛本身就会抑制尝试 [12:06 Andrew McDonald]。经典的创新者困境:已有的东西太大,吞噬了组织做任何其他事的能力 [13:00 Andrew McDonald]。\n\n他们的解法叫 Growth Bets:从 2000 人的出行业务里硬拨出 100 到 150 人做新东西,而且必须是全职 dedicated,不能是\"我负责美国 UberX 市场,顺便花 2% 时间孵化个新项目\" [13:37 Andrew McDonald]。他非常认同 Revolut 创始人的节奏:同时跑 26 个实验,每个给 200 万美元跑一年,每周跟每个负责人碰 20 分钟,然后决定是否继续注资 [14:13 Andrew McDonald]。以周为单位运作,不是月或季度。而且必须让团队\"靠努力换回报\"——大公司内部新业务最容易犯的错就是资源太充足,反而比从零开始的创业公司更慢、更费钱 [14:40 Andrew McDonald]。\n\n当然,Uber 有一样创业公司没有的东西:2 亿月活的内置分发渠道。只要能做出有意思的东西接进去,扩展速度会远超没有分发优势的玩家 [15:21 Andrew McDonald]。但内部也有争夺\"像素\"的博弈——每个新产品都想上 Uber Eats 的头图、都想进出行的产品选择器 [15:38 Andrew McDonald]。\n\n## 中国往事:每周烧 5200 万美元的谈判桌\n\n他在 Uber 中国只管了几个月就跟 Didi 达成了交易,但那几个月\"像过了好几年\" [28:05 Andrew McDonald]。幕后逻辑是:谈判桌上谁的份额在涨,谁就有相对强势,所以双方都在用价格补贴拼命抢份额——Uber 当时每周在中国光价格补贴就烧掉 5200 万美元 [29:58 Andrew McDonald]。Travis 当年的信条是\"要比全世界所有竞争对手加起来融更多的钱\",因为网约车的产品市场契合度已经很清楚了,剩下的就是圈地,钱能解决圈地 [29:12 Andrew McDonald]。但 Didi 同样资金雄厚,加上 SoftBank 等玩家也在市场里,不可能永远比所有人加起来还多 [29:32 Andrew McDonald]。\n\n更疯狂的是竞争手段:Didi 之前跟另一个玩家合并时,对接 HR 系统发现两边各 2000 人里有 200 人同时在两份工资单上 [30:15 Andrew McDonald]。Uber 还一度被限制使用 WeChat——在中国没有 WeChat 就像在美国没有邮箱和电话号码 [31:10 Andrew McDonald]。他觉得最终拿\"银牌\"已经是大多数西方科技公司在中国能拿到的最好结果了,尤其考虑到地缘政治因素 [31:36 Andrew McDonald]。\n\n## 两位 CEO 教他的两件事\n\n从 Travis 那里学到的是\"创造性解决问题\"作为一种组织技能的价值:走进任何主题的会议,问几个尖锐问题,提几个想法,15 分钟内改变在这个领域花了几周的专家的思考方向——然后每天每周半小时半小时地重复锻炼这块肌肉 [59:14 Andrew McDonald]。第二个是:不只给答案,要解释为什么是这个答案,这能创造\"迷你版的自己\",放大整个组织的能力 [60:06 Andrew McDonald]。\n\n从 Dara 那里听到最有影响力的一句话是:\"管理来自组织结构图,领导来自内心\" [60:51 Andrew McDonald]。Dara 不会要求别人做自己不愿意做的事,永远第一个翻过栅栏、第一个上飞机去公司需要他的地方,低自我、很多心,这让人们愿意为他拼命 [61:25 Andrew McDonald]。\n\n而他自己 15 年没离开 Uber 的原因很简单:困难时期觉得离开对公司是错的,会把队友丢下;好的时期觉得在建设、在征服世界,很有趣。跟 CEO 是谁无关 [62:15 Andrew McDonald]。\n\n## 本集带走\n\n- **会员制的杠杆在时间衰减速度**:短期降价促销消散快,会员制的价值随时间复利增长——因为用户会把更多业务整合到你平台上。衡量每一美元投入看 IGB(增量总预订额),不要只看单次 ROI。\n- **可变成本模式的会员制有天然硬伤**:没有闲置产能可以低成本赠送,想给福利照样得付真金白银给供给端。高感知价值、低成本的功能是突破口,但很难找。\n- **自动驾驶的渗透率按量算极慢,按金额算可能很快**:印度巴西平均一单 2-4 美元,自动驾驶成本要几十年才能压缩到那个水平;但旧金山纽约等高客单价城市一旦占据主导,对收入的影响远大于对单量的影响。\n- **自动驾驶公司的固定资产是 Uber 的筹码**:车要跑起来才不浪费,而 Uber 有 2 亿月活的分发渠道——逻辑跟 McDonald's 为什么愿意上外卖平台一样。\n- **AI 效率要体现到利润表,靠收紧人头约束而不是逐条对齐**:省下来的时间会被其他活动填满,所以明年该做的是不增人头或只增 2%,而不是试图证明\"改了哪个流程所以裁了几个人\"。\n- **把人头预算和算力预算合成一个池子**:让技术负责人自行决定是多买算力还是多招人,而不是两本账分开管导致无法灵活应对使用量暴涨。\n- **新业务必须全职 dedicated,以周为运作节奏**:大公司内部孵化最怕\"顺便花 2% 时间\",也怕资源太充足导致比创业公司还慢。每周检查、持续注资决策,比季度复盘有效得多。",
+  "quotes": [
+    {
+      "en": "Because ride sharing at the end of the day is price, reliability, and safety. That's all it is. That's what it was 10 years ago. I think that's what it's going to be 10 years from now, even when it's autonomous vehicles.",
+      "zh": "因为归根结底，共享出行就是价格、可靠性和安全性。就是这样。10 年前就是这样。我认为 10 年后即使有了自动驾驶汽车，也会是这样。",
+      "timestamp": "08:07",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "The beauty of our model is we're primarily a variable cost model. It means when demand drops, great, our costs scale down with it. But it also means that we just don't have a fixed capacity to give away.",
+      "zh": "我们模式的美妙之处在于，我们主要是一个可变成本模式。这意味着当需求下降时，很好，我们的成本随之下降。但这也意味着我们确实没有固定的产能可以送出去。",
+      "timestamp": "11:46",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "I mean, it's like a classic innovator's dilemma problem, right? Which is like the thing you've already built is so big that it just swallows up your organizational capacity to do anything else.",
+      "zh": "我的意思是，这就像一个经典的创新者的困境问题，对吧？就是你已经建立的东西太大了，以至于吞噬了你的组织做任何其他事情的能力。",
+      "timestamp": "12:58",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "Operating on weeks, not months or quarters is how a new business should run.",
+      "zh": "以周为单位运作，而不是月或季度，才是新业务应该运行的方式。",
+      "timestamp": "14:37",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "We were burning 52 million a week in China just on price subsidies because there was this heated behind-the-scenes battle happening to get to the best economics and the ultimate sort of surrender or the ultimate sort of truce.",
+      "zh": "我们在中国每周烧掉 5200 万美元，仅仅用于价格补贴，因为发生了一场激烈的幕后战斗，以获得最好的经济回报和最终的投降或最终的停战。",
+      "timestamp": "29:58",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "If we really believe that AI is making our employees 10% or 20% or 30% more efficient, then next year we should just not increase headcount. Or we should increase it by 2% instead of 10%. Or we should decrease it by 5% and say, you all should be getting more done with less.",
+      "zh": "如果我们真的相信 AI 让我们的员工效率提高了 10% 或 20% 或 30%，那么明年我们应该只是不增加人头。或者我们应该增加 2% 而不是 10%。或者我们应该减少 5% 并说，你们应该用更少的资源做更多的事情。",
+      "timestamp": "38:02",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "What you have to do is you have to create combined pools of budgets and then let the people that you trust allocate where they see a higher ROI.",
+      "zh": "你必须做的是你必须创建组合的预算池，然后让你信任的人在他们看到更高 ROI 的地方进行分配。",
+      "timestamp": "38:43",
+      "speaker": "Andrew MacDonald"
+    },
+    {
+      "en": "Management comes from an org chart, leadership comes from the heart.",
+      "zh": "管理来自组织结构图，领导来自内心。",
+      "timestamp": "60:57",
+      "speaker": "Andrew MacDonald"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:42",
+      "speaker": "Andrew McDonald",
+      "en": "One is, and I think the most important thing is, if you genuinely are just trying to do what you think is the right thing for the company, and that is your filter, and you build trust that that's what you're optimizing for all the time on every decision, big decisions and small decisions, that you are using the lens of what is the best thing for Uber.",
+      "zh": "第一条是，我认为也是最重要的一点是，如果你真的只是试图做你认为对公司来说正确的事情，那是你的过滤器，并且你建立了信任，让人知道那是你在每一次决策时——大决策和小决策——都在优化的东西，即你使用\"什么是 Uber 的最佳选择\"这个视角。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Andrew McDonald",
+      "en": "I actually love the, I think it's a Bezos quote, which is, if you want to be right most of the time, you got to change your mind a lot.",
+      "zh": "我其实很喜欢那句，我想那是 Bezos 的话，就是，如果你想大多数时候都正确，你就必须经常改变你的想法。"
+    },
+    {
+      "timestamp": "08:12",
+      "speaker": "Andrew McDonald",
+      "en": "Because ride sharing at the end of the day is price, reliability, and safety. That's all it is. That's what it was 10 years ago. I think that's what it's going to be 10 years from now, even when it's autonomous vehicles.",
+      "zh": "因为归根结底，共享出行就是价格、可靠性和安全性。就是这样。10 年前就是这样。我认为 10 年后即使有了自动驾驶汽车，也会是这样。"
+    },
+    {
+      "timestamp": "11:46",
+      "speaker": "Andrew McDonald",
+      "en": "The beauty of our model is we're primarily a variable cost model. It means when demand drops, great, our costs scale down with it. But it also means that we just don't have a fixed capacity to give away.",
+      "zh": "我们模式的美妙之处在于，我们主要是一个可变成本模式。这意味着当需求下降时，很好，我们的成本随之下降。但这也意味着我们确实没有固定的产能可以送出去。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "Andrew McDonald",
+      "en": "I mean, it's like a classic innovator's dilemma problem, right? Which is like the thing you've already built is so big that it just swallows up your organizational capacity to do anything else.",
+      "zh": "我的意思是，这就像一个经典的创新者的困境问题，对吧？就是你已经建立的东西太大了，以至于吞噬了你的组织做任何其他事情的能力。"
+    },
+    {
+      "timestamp": "14:37",
+      "speaker": "Andrew McDonald",
+      "en": "Operating on weeks, not months or quarters is how a new business should run.",
+      "zh": "以周为单位运作，而不是月或季度，才是新业务应该运行的方式。"
+    },
+    {
+      "timestamp": "15:18",
+      "speaker": "Andrew McDonald",
+      "en": "In the end, distribution wins.",
+      "zh": "最终，分发胜出。"
+    },
+    {
+      "timestamp": "18:01",
+      "speaker": "Andrew McDonald",
+      "en": "The individually owned car is the most inefficient asset that anyone owns. It sits idle 98% of the day. Depreciating.",
+      "zh": "个人拥有的汽车是任何人都拥有的最无效率的资产。它一天 98% 的时间都是闲置的。在贬值。"
+    },
+    {
+      "timestamp": "19:42",
+      "speaker": "Andrew McDonald",
+      "en": "When you have a better product that is only going to get better over time and autonomy is as bad as it's ever going to be today, right, and every single day it's going to get better, then that's going to be the business and that's going to be how people get around.",
+      "zh": "当你拥有一个只会随着时间推移变得更好的产品，而自动驾驶就像今天一样糟糕，对吧，而且每一天它都会变得更好，那么那将就是业务，那将就是人们出行的方式。"
+    },
+    {
+      "timestamp": "24:24",
+      "speaker": "Andrew McDonald",
+      "en": "It's going to be decades until the cost of autonomy compresses to the point where it compete with that cost of human labor.",
+      "zh": "想要自动驾驶的成本压缩到与那人力成本相竞争的程度，还需要几十年时间。"
+    },
+    {
+      "timestamp": "27:13",
+      "speaker": "Andrew McDonald",
+      "en": "I think in the end distribution wins.",
+      "zh": "我认为最终分销胜出。"
+    },
+    {
+      "timestamp": "29:12",
+      "speaker": "Andrew McDonald",
+      "en": "Travis used to have that saying which is like we need to raise more money than all our competitors in the world combined because the basis for competition for ride share, which is like product market fit was clear. So it was just a land grab at that point and money helped you solve the land grab.",
+      "zh": "Travis 常常说一句话，就像我们需要比世界上所有竞争对手加起来筹集更多的钱，因为网约车竞争的基础，也就是产品市场契合度已经很清楚了。所以在那时这就是一场圈地运动，而金钱帮你解决了圈地运动。"
+    },
+    {
+      "timestamp": "29:58",
+      "speaker": "Andrew McDonald",
+      "en": "We were burning 52 million a week in China just on price subsidies because there was this heated behind-the-scenes battle happening to get to the best economics and the ultimate sort of surrender or the ultimate sort of truce.",
+      "zh": "我们在中国每周烧掉 5200 万美元，仅仅用于价格补贴，因为发生了一场激烈的幕后战斗，以获得最好的经济回报和最终的投降或最终的停战。"
+    },
+    {
+      "timestamp": "38:02",
+      "speaker": "Andrew McDonald",
+      "en": "If we really believe that AI is making our employees 10% or 20% or 30% more efficient, then next year we should just not increase headcount. Or we should increase it by 2% instead of 10%. Or we should decrease it by 5% and say, you all should be getting more done with less.",
+      "zh": "如果我们真的相信 AI 让我们的员工效率提高了 10% 或 20% 或 30%，那么明年我们应该只是不增加人头。或者我们应该增加 2% 而不是 10%。或者我们应该减少 5% 并说，你们应该用更少的资源做更多的事情。"
+    },
+    {
+      "timestamp": "38:53",
+      "speaker": "Andrew McDonald",
+      "en": "What you have to do is you have to create combined pools of budgets and then let the people that you trust allocate where they see a higher ROI.",
+      "zh": "你必须做的是你必须创建组合的预算池，然后让你信任的人在他们看到更高 ROI 的地方进行分配。"
+    },
+    {
+      "timestamp": "47:49",
+      "speaker": "Andrew McDonald",
+      "en": "The challenge, though, is that it's a managed transaction, both on the delivery side and on the transportation side. All the little things that happen between saying, get me an Uber, and you being done that ride... This is not an e-commerce transaction where you sort of set it and forget it.",
+      "zh": "但挑战在于，这是一种托管交易，无论是在配送端还是在交通端。在说「给我叫辆 Uber」和你完成那次车程之间发生的所有小事情……这不是那种你设置好就不用管了的电商交易。"
+    },
+    {
+      "timestamp": "59:14",
+      "speaker": "Andrew McDonald",
+      "en": "He's a problem solver. The ability for him to walk into any meeting on any topic, ask a few pointed questions, float a few ideas, and in 15 minutes sort of change the minds or change the thinking or evolve the thinking of the people in the room who have spent like weeks as experts on this topic is amazing.",
+      "zh": "他是一个解决问题的人。他能够走进任何关于任何主题的会议，问几个尖锐的问题，提出几个想法，并在 15 分钟内改变房间内那些在这个主题上花费了数周时间作为专家的人的想法或思维，或者让他们的思维进化，这种能力是非常惊人的。"
+    },
+    {
+      "timestamp": "60:51",
+      "speaker": "Andrew McDonald",
+      "en": "Management comes from an org chart, leadership comes from the heart.",
+      "zh": "管理来自组织结构图，领导来自内心。"
+    }
+  ]
+}

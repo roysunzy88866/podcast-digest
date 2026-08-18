@@ -1,0 +1,35 @@
+{
+  "id": "2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s",
+  "audio_mp3": "https://traffic.libsyn.com/secure/thetwentyminutevc/Andrew_Macdonald__Uber.mp3?dest-id=240976",
+  "duration_sec": 3994.19,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 954,
+  "asr": true,
+  "title_en": "20VC: Uber President on The Untold Uber Stories: Travis, China and Self-Driving | Why Autonomy Is Existential | How to Beat DoorDash to #1 in Food with Andrew MacDonald",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-17",
+  "cover_official_url": "https://static.libsyn.com/p/assets/c/3/7/6/c37636f2a3db6cdfd959afa2a1bf1c87/WhatsApp_Image_2026-08-14_at_09.50.11.jpeg",
+  "added": "2026-08-18",
+  "speaker_map": {
+    "SPEAKER_00": "Harry Stebbings",
+    "SPEAKER_01": "Andrew MacDonald"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Harry Stebbings",
+  "cohosts": [
+    "Andrew MacDonald"
+  ],
+  "title_zh": "Uber COO 谈会员制反转、自动驾驶终局与AI预算失控",
+  "guest_name": "Andrew MacDonald",
+  "guest_title": "Uber 总裁兼 COO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://static.libsyn.com/p/assets/c/3/7/6/c37636f2a3db6cdfd959afa2a1bf1c87/WhatsApp_Image_2026-08-14_at_09.50.11.jpeg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-08-18T01:09:38.857Z"
+  }
+}

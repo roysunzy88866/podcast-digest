@@ -186,7 +186,7 @@ Albert 反复看到，表现最好的人不一定是那个领域经验最深的�
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同嘉宾:Lenny · 同概念:LLM</span>
 - [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Duolingo</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">

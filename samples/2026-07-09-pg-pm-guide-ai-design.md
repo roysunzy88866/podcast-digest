@@ -118,8 +118,8 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:cursor · 同概念:codex、上下文 (context)、智能体 (agent)</span>
+- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:cursor · 同概念:codex、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:cursor · 同概念:codex、智能体 (agent)</span>
-- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:cursor、figma · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

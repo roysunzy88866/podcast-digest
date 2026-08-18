@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":45,"OpenAI":34,"任务视界":1,"Managed Agents":2,"测试框架":10,"沙箱":18,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":46,"OpenAI":37,"任务视界":1,"Managed Agents":2,"测试框架":10,"沙箱":18,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

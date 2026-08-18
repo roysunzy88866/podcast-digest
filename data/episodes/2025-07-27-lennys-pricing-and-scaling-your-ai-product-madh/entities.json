@@ -1,0 +1,1845 @@
+{
+  "episode_id": "2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-07-27",
+  "tags": [
+    "AI 定价",
+    "变现策略",
+    "谈判技巧",
+    "SaaS 增长",
+    "基于结果的定价"
+  ],
+  "categories": [
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "madhavan-ramanujam",
+      "type": "person",
+      "role": "host",
+      "name": "Madhavan Ramanujam",
+      "file": "Madhavan Ramanujam",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            62.2,
+            64.303
+          ],
+          "quote": "Today my guest is Madhavan Ramanujam.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            156.932,
+            159.419
+          ],
+          "quote": "With that, I bring you Madhavan Ramanujam.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            200.069,
+            214.117
+          ],
+          "quote": "If modernizing your voice-of-customer program to a generational upgrade is a 2025 priority, like customer-centric industry leaders like Canva, Notion, Perplexity, and Linear, reach out to the team at enterpret.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            214.357,
+            217.899
+          ],
+          "quote": "That's E-N-T-E-R-P-R-E-T .com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            265.63,
+            269.014
+          ],
+          "quote": "Visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            277.523,
+            279.131
+          ],
+          "quote": "It's exciting to be back, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1831.628,
+            1836.633
+          ],
+          "quote": "While you're listening to this right now, how do you know that you're really listening to me, Lenny?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1883.686,
+            1887.091
+          ],
+          "quote": "Learn more at withpersona.com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1887.511,
+            1889.975
+          ],
+          "quote": "Again, that's with P-E-R-S-O-N-A .com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 940,
+          "t": [
+            4273.788,
+            4274.596
+          ],
+          "quote": "Thank you so much, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "simon-kucher",
+      "type": "company",
+      "role": "company",
+      "name": "Simon-Kucher",
+      "file": "Simon-Kucher",
+      "primary": false,
+      "how_described": "本集提到 Simon-Kucher 是 Madhavan 之前担任管理合伙人的全球定价咨询公司，他在那里与超过 250 家公司合作过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            69.61,
+            77.76
+          ],
+          "quote": "As managing partner at Simon-Kucher, he's worked with over 250 companies, including 30 unicorns, to help them figure out how to price, package, and grow their products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            142.205,
+            143.407
+          ],
+          "quote": "He left Simon-Kucher.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 875,
+          "t": [
+            4005.425,
+            4011.371
+          ],
+          "quote": "So what's cool is it used to be very expensive to work with at Simon-Kucher, I think it was called.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4020.621,
+            4025.787
+          ],
+          "quote": "I mean, at Simon-Kucher, I got to work with over 250 companies.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": true,
+      "how_described": "本集将 Intercom 的 Fin 产品作为基于结果定价的经典案例：AI 独立解决工单就收费 99 美分，需要人工介入就不收费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 513,
+          "t": [
+            2555.04,
+            2558.502
+          ],
+          "quote": "So a classic example here is Intercom for Fin.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2911.56,
+            2916.945
+          ],
+          "quote": "And a good case for that is the Fin product from Intercom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3016.873,
+            3017.955
+          ],
+          "quote": "and it was always Intercom.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集将 Cursor 作为混合定价模式的典型案例：能证明提高生产力、缩短写代码时间（高归因），但仍处于副驾驶模式（低自主），适合订阅底座加按用量分层的混合模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2443.04,
+            2452.826
+          ],
+          "quote": "If you take Cursor, for instance, it definitely improves productivity, can actually bring down the time to actually do code, the attribution is clear, but it's still in a copilot mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2724.289,
+            2726.492
+          ],
+          "quote": "Is it like, \"Okay, I'm like Cursor.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "charge-flow",
+      "type": "company",
+      "role": "company",
+      "name": "Charge Flow",
+      "file": "Charge Flow",
+      "primary": true,
+      "how_described": "本集将 Charge Flow 作为右上角黄金象限的案例：按 AI 收回的争议金额抽成最高 25%，是高度可归因且高度自主的基于结果定价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 518,
+          "t": [
+            2575.17,
+            2587.056
+          ],
+          "quote": "Or companies like Charge Flow would charge up to 25% on a charge bag that they're able to actually recover, because these are core savings that you actually bring to the table based on your AI.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "type": "company",
+      "role": "company",
+      "name": "Superhuman",
+      "file": "Superhuman",
+      "primary": false,
+      "how_described": "本集将其作为美妙简单定价的例子：每月 30 美元，讲述的价值故事是每天一美元换一周四小时生产力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            795.48,
+            797.902
+          ],
+          "quote": "A great example here is Superhuman.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            806.326,
+            811.67
+          ],
+          "quote": "And I thought the team at Superhuman with Rahul and others did a pretty good job.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": false,
+      "how_described": "本集在展示二乘二矩阵的黄金象限时提到 Sierra 处于基于结果定价的位置（仅点名，未展开讨论）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 543,
+          "t": [
+            2702.742,
+            2710.873
+          ],
+          "quote": "By the way, for folks not watching on YouTube, the companies you have in the golden quadrant, outcome-based pricing, Sierra, Fin, and Chargeflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2711.634,
+            2715.94
+          ],
+          "quote": "We've got the founder of Sierra and Fin coming on the podcast soon, so we'll talk about all this with those guys.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3235.72,
+            3238.923
+          ],
+          "quote": "You talked about Sierra being in your park founders.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "delphi",
+      "type": "company",
+      "role": "company",
+      "name": "Delphi",
+      "file": "Delphi",
+      "primary": false,
+      "how_described": "本集在闪电轮环节提到 Delphi 是数字思维代表产品，Madhavan 认为它是思想领导力消费的未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 826,
+          "t": [
+            3864.422,
+            3869.026
+          ],
+          "quote": "The first one is Delphi, the Digital Mind representation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 837,
+          "t": [
+            3911.398,
+            3914.96
+          ],
+          "quote": "I plan to, taking inspiration from you, plan to create a Delphi of myself-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 861,
+          "t": [
+            3965.2,
+            3975.091
+          ],
+          "quote": "On Delphi, what's interesting about LennyBot is it's not just my knowledge, it's every single podcast guest's insights and lessons also fed into it.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集在闪电轮环节提到 Granola 是一款会议笔记和整理工具，Madhavan 称其最近开始使用并非常喜欢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 849,
+          "t": [
+            3931.14,
+            3937.446
+          ],
+          "quote": "The second one I would probably say that's been super useful in terms of just productivity is Granola.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3954.485,
+            3955.046
+          ],
+          "quote": "Love Granola.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3955.587,
+            3959.532
+          ],
+          "quote": "Get a year free of Granola if you're a paid subscriber to my newsletter, lennysnewsletter.com.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4194.696,
+            4200.92
+          ],
+          "quote": "I didn't get Granola and others to put in for me just yet, but I think this hopefully suffices and is exciting for folks to buy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集用 Slack 说明上一代 SaaS 的归因难题：可以说提高了效率，但无法测量、无法归因到 Slack",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            1743.588,
+            1753.036
+          ],
+          "quote": "In the previous vintages... For instance, if you take Slack, you can say that the productivity went up, efficiency happened, but you cannot measure it, monitor it, attribute it to Slack.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "type": "company",
+      "role": "company",
+      "name": "Canva",
+      "file": "Canva",
+      "primary": false,
+      "how_described": "本集提到 Canva 处于右下象限，采用混合定价模式（基础费用加消费费用）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            162.762,
+            171.169
+          ],
+          "quote": "Enterpret is a customer intelligence platform used by a leading CXN product orgs like Canva, Notion, Perplexity, Strava, Hinge and Linear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            200.069,
+            214.117
+          ],
+          "quote": "If modernizing your voice-of-customer program to a generational upgrade is a 2025 priority, like customer-centric industry leaders like Canva, Notion, Perplexity, and Linear, reach out to the team at enterpret.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2888.343,
+            2893.227
+          ],
+          "quote": "So what I'm hearing is if I were Canva... So Canva here in your model is bottom right.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2897.05,
+            2904.855
+          ],
+          "quote": "What you would do if you were helping Canva is what can you build that creates more autonomy, an autonomous version of Canva?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 GitHub 早期从基于座位的模式开始，现已随 Cursor 等转向混合定价模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2836.125,
+            2843.467
+          ],
+          "quote": "If you think about coding as a overall category... Like back in the day with GitHub, everyone, they started with a seed-based model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将构建更多智能体工作流作为提升自主性、向右上角象限移动的关键路径：把人从回路中拿掉，让 AI 自主交付工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 570,
+          "t": [
+            2843.908,
+            2863.235
+          ],
+          "quote": "They've now moved to the hybrid-based pricing model with Cursors and everyone else, but the natural move would be more towards a outcome-based pricing model where a AI agent can probably code everything at the same time, debug it, and you're kind of almost hiring a AI developer or AI QA person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2884.62,
+            2885.761
+          ],
+          "quote": "Agent Smiths everywhere.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2916.985,
+            2922.209
+          ],
+          "quote": "Because traditionally, all of those kind of companies used to price based on an agent basis.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3000.312,
+            3001.817
+          ],
+          "quote": "Your agent costs 20 bucks.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的定价 (outcome-based pricing)",
+      "file": "基于结果的定价",
+      "primary": true,
+      "how_described": "本集核心概念，指 AI 完全自主交付工作且效果可归因时的定价模式，位于二乘二矩阵右上角黄金象限，能拿走所创价值的 25% 到 50%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.964,
+            44.891
+          ],
+          "quote": "The quadrant that you really want to be in is the outcome-based pricing model, the top-right quadrant where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 12,
+          "t": [
+            45.051,
+            50.417
+          ],
+          "quote": "About 5% of companies are probably in a true outcome-based pricing model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1414.003,
+            1424.769
+          ],
+          "quote": "Let's go with a hundred K and 10%,\" or, 80% of the situations, you might actually want to avoid the outcome-based pricing as a buyer, but you're not really fixated on the 500K at that point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2533.505,
+            2538.408
+          ],
+          "quote": "That's the outcome-based pricing model where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2587.417,
+            2593.64
+          ],
+          "quote": "It is highly attributable, highly autonomous so you can start moving towards an outcome-based pricing model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2604.665,
+            2625.896
+          ],
+          "quote": "So because this is also expected, because the previous SaaS playbook was usually on the seat-based model, but they've all now moved on to at least a hybrid to actually incorporate AI credits and usage, et cetera, about 5% of companies are probably in a true outcome-based pricing model as of today.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2702.742,
+            2710.873
+          ],
+          "quote": "By the way, for folks not watching on YouTube, the companies you have in the golden quadrant, outcome-based pricing, Sierra, Fin, and Chargeflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2741.846,
+            2746.189
+          ],
+          "quote": "If you try to rush into an outcome-based pricing model but cannot prove attribution, you will fail.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2765.02,
+            2783.006
+          ],
+          "quote": "What that would mean is, how do I build functionality in the products to actually show attribution, how do I build more agentic workforces to take the human out of the loop and be more autonomous, and being thoughtful about your vision and strategy so that you will orient yourself towards more outcome-based pricing models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2824.02,
+            2830.743
+          ],
+          "quote": "So pick the right archetype and plan to get to as close as you can to the outcome-based pricing model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2843.908,
+            2863.235
+          ],
+          "quote": "They've now moved to the hybrid-based pricing model with Cursors and everyone else, but the natural move would be more towards a outcome-based pricing model where a AI agent can probably code everything at the same time, debug it, and you're kind of almost hiring a AI developer or AI QA person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2931.797,
+            2935.72
+          ],
+          "quote": "And then that actually enables them to move to the outcome-based pricing model quadrant.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2943.347,
+            2955.178
+          ],
+          "quote": "Your advice is work with design partners, create these POCs where you work on this ROI model with them to ideally find some outcome-based pricing strategy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2962.704,
+            2976.115
+          ],
+          "quote": "Even if you're not moving to an outcome-based pricing model, be clear on the outcome that you're actually creating for your customers through that business case, which actually will enable you to charge a fair price in exchange for that outcome.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3004.184,
+            3008.779
+          ],
+          "quote": "That is two chapters in one beautifully simple pricing and an outcome-based pricing model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合定价 (hybrid pricing)",
+      "file": "混合定价",
+      "primary": true,
+      "how_described": "本集将其作为当前 AI 领域最受欢迎的定价模式：订阅底座加按用量（AI 积分或 token）分层，适合高归因但低自主的副驾驶类产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 498,
+          "t": [
+            2453.286,
+            2470.576
+          ],
+          "quote": "In those kind of situations, a hybrid pricing model is the best option where you still have a seed-based model for the copilot kind of use case, but you also layer in a consumption model which actually says there are a certain number of AI credits or tokens that can layer in the usage aspects.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2594.24,
+            2604.525
+          ],
+          "quote": "If you look at the state of where AI is today, as of the day of recording this podcast, now, the most popular model is right now a hybrid pricing model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2893.387,
+            2894.608
+          ],
+          "quote": "They're in a hybrid pricing model.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "attribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "归因 (attribution)",
+      "file": "归因",
+      "primary": true,
+      "how_described": "本集二乘二矩阵的一个轴，指能多大程度证明价值是你创造的；本集说 AI 第一次真正解决了归因问题，比如能证明在财富 100 强公司把吞吐量提高了 10%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.964,
+            44.891
+          ],
+          "quote": "The quadrant that you really want to be in is the outcome-based pricing model, the top-right quadrant where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1736.641,
+            1743.247
+          ],
+          "quote": "Because with AI, finally, founders can really solve the attribution problem.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2381.444,
+            2384.229
+          ],
+          "quote": "One is attribution, and the other one is autonomy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2384.71,
+            2390.86
+          ],
+          "quote": "And when you have high attribution and high autonomy, that is when you have high pricing power, and we'll come back to that in a bit, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2395.103,
+            2398.786
+          ],
+          "quote": "That is the quadrant where your attribution is low and your autonomy is low.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2418.3,
+            2427.187
+          ],
+          "quote": "But if you're at that quadrant, the immediate thing to think about is, how do you actually build more attribution and move to the right so that you actually get more pricing power?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2434.833,
+            2442.92
+          ],
+          "quote": "They can prove more attribution to what they actually bring to the table, but they are still not in a fully autonomous mode, as in there is still humans in the loop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2443.04,
+            2452.826
+          ],
+          "quote": "If you take Cursor, for instance, it definitely improves productivity, can actually bring down the time to actually do code, the attribution is clear, but it's still in a copilot mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2478.1,
+            2487.444
+          ],
+          "quote": "If you look at the top-left quadrant, those are products that are very autonomous but are not strong on attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2487.844,
+            2506.372
+          ],
+          "quote": "So these tend to be mostly backend or infrastructure kind of products that are core critical to run businesses, can be autonomous, but they're not directly impacting the KPIs that businesses are tracking, and hence cannot prove attribution very effectively.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2533.505,
+            2538.408
+          ],
+          "quote": "That's the outcome-based pricing model where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2741.846,
+            2746.189
+          ],
+          "quote": "If you try to rush into an outcome-based pricing model but cannot prove attribution, you will fail.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2765.02,
+            2783.006
+          ],
+          "quote": "What that would mean is, how do I build functionality in the products to actually show attribution, how do I build more agentic workforces to take the human out of the loop and be more autonomous, and being thoughtful about your vision and strategy so that you will orient yourself towards more outcome-based pricing models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2783.366,
+            2791.809
+          ],
+          "quote": "So when you think about increasing attribution, that means, first of all, understanding what are the KPIs of your customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2801.112,
+            2804.153
+          ],
+          "quote": "Can you build dashboards to show value attribution?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2813.016,
+            2823.58
+          ],
+          "quote": "So how do you create these kind of attribution mechanisms become important and also autonomous based on building more agentic workforces that can actually be on an autonomous mold?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3163.987,
+            3171.857
+          ],
+          "quote": "Things like pricing model, unless you really changed your attribution autonomy, there is no need to shift your pricing model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
+      "primary": true,
+      "how_described": "本集二乘二矩阵的另一个轴，指产品是否需要人在回路里；高自主意味着 AI 独立完成工作，无需人工介入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.964,
+            44.891
+          ],
+          "quote": "The quadrant that you really want to be in is the outcome-based pricing model, the top-right quadrant where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2381.444,
+            2384.229
+          ],
+          "quote": "One is attribution, and the other one is autonomy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2384.71,
+            2390.86
+          ],
+          "quote": "And when you have high attribution and high autonomy, that is when you have high pricing power, and we'll come back to that in a bit, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2395.103,
+            2398.786
+          ],
+          "quote": "That is the quadrant where your attribution is low and your autonomy is low.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2533.505,
+            2538.408
+          ],
+          "quote": "That's the outcome-based pricing model where you have great autonomy and great attribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2897.05,
+            2904.855
+          ],
+          "quote": "What you would do if you were helping Canva is what can you build that creates more autonomy, an autonomous version of Canva?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3163.987,
+            3171.857
+          ],
+          "quote": "Things like pricing model, unless you really changed your attribution autonomy, there is no need to shift your pricing model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "poc",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC",
+      "file": "POC",
+      "primary": true,
+      "how_described": "本集强调 POC 的唯一目标是跟客户共创商业案例，不是技术功能验证；应该收费以筛掉好奇者，但报价必须与后续商业谈判解耦",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1146.644,
+            1150.107
+          ],
+          "quote": "And I see a lot of founders work on a POC.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1150.288,
+            1154.292
+          ],
+          "quote": "And after the POC's over, they'll show up with an ROI model and try to defend a price.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1190.613,
+            1205.7
+          ],
+          "quote": "So a POC needs to be framed as the purpose of a POC is to build a business case, and we are going to co-create an ROI model with the customer as opposed to it being a tech and product functionality feature test and you show up with an ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1894.421,
+            1897.548
+          ],
+          "quote": "Let's talk about this POC piece because I think this is something a lot of people deal with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1903.5,
+            1916.91
+          ],
+          "quote": "So POCs, when we talk about POCs, many founders think about a POC as a proof of technical functionality, and is their product actually working in their customer environments.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1924.076,
+            1927.438
+          ],
+          "quote": "And they would probably say, \"Should I charge for a POC versus not?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1934.044,
+            1940.571
+          ],
+          "quote": "The POC should be framed as the entire goal of the POC is to create a business case, period, full stop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1983.54,
+            1987.422
+          ],
+          "quote": "And the question that I often get asked is, \"Should I charge for a POC?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1995.966,
+            2002.769
+          ],
+          "quote": "The reason you need to charge for a POC is you start isolating people who are just tire kickers versus serious buyers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2011.833,
+            2013.654
+          ],
+          "quote": "They will say, \"Yes, I'll engage with the POC.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2020.997,
+            2027.94
+          ],
+          "quote": "So having a price tag to your POC actually indicates that there is seriousness on both sides, so you should charge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2033.283,
+            2040.766
+          ],
+          "quote": "What this means is that you need to make sure that your POC pricing is not a reflection of your actual commercial deal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2041.207,
+            2045.109
+          ],
+          "quote": "Because let's say if you just say it's a 10K POC for a 30-day pilot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2045.529,
+            2056.474
+          ],
+          "quote": "If you don't talk about the fact that it is not the same as your commercial discussion, you have now set an anchor that, okay, it's 120K per year kind of deal if the POC works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2162.468,
+            2185.7
+          ],
+          "quote": "And having buyers who are serious, lead qualifying, having the right POC process, and thinking about POCs as, frankly, not just trying to see if your product actually works and delivers value, but it's a great chance to have a commercial test-and-learn experiment and have fun with it and try to see what you can bring to the table in terms of your value and what portion can you actually take.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "value-audit",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值审计 (value audit)",
+      "file": "价值审计",
+      "primary": true,
+      "how_described": "本集将其作为 B2B 谈判中最强的索取手段之一：给折扣的同时要求客户每六个月内部团队对产品做价值评估，变成客户自己的商业案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            976.463,
+            981.945
+          ],
+          "quote": "One of my favorite gets in the B2B situation is what I call as conducting a value audit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 186,
+          "t": [
+            982.325,
+            1001.273
+          ],
+          "quote": "So what this means is if you're giving a concession, ask for a value audit in exchange where every six months a team internally from your customers would be commissioned to actually conduct a value assessment of your products so that it becomes their business case and you co-create it with them saying how much value is actually produced.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "type": "concept",
+      "role": "concept",
+      "name": "变现 (monetization)",
+      "file": "变现",
+      "primary": true,
+      "how_described": "本集核心主线概念，强调 AI 公司必须从第一天就精通变现，因为 AI 切入的是劳动力预算（软件预算的 10 倍），不捕获价值就是在训练客户花更少钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            11,
+            14.804
+          ],
+          "quote": "The winners in AI will need to master monetization from day one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 17,
+          "t": [
+            64.543,
+            69.049
+          ],
+          "quote": "Madhavan is the smartest person I know on pricing and monetization strategy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            450.044,
+            466
+          ],
+          "quote": "Because if you unpack that, for gaining market share and wallet share, you need to be good at acquisition, monetization, and retention, as in get customers, make an initial money on them, but also make money on an ongoing basis and have your customers actually refer more customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 97,
+          "t": [
+            477.808,
+            481.91
+          ],
+          "quote": "You see companies saying, \"I'll grow at all costs and postpone monetization.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            640.967,
+            653
+          ],
+          "quote": "Because you're focused on monetization, you might come up with a very differentiated pricing model, different levels, hidden fees, things to charge for many different things and come across as just trying to nickel and dime your customer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            729.564,
+            736.333
+          ],
+          "quote": "You mentioned you have nine strategies for how you actually want to approach pricing, monetization, scaling, monetization, and innovation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1521.072,
+            1528.798
+          ],
+          "quote": "Is the assumption here that your pricing and monetization is so impacted by how well you negotiate because that changes your entire pricing structure and how much you're making?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1549,
+            1557.347
+          ],
+          "quote": "So to us, negotiations is yet another monetization topic where you're thinking about it as extracting full value from every deal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1677.406,
+            1689.198
+          ],
+          "quote": "Because AI founders need to tackle monetization from the very early days, like day one in their seed stage pre-seed kind of thing, which was not probably the focus for the previous SaaS companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1695.645,
+            1697.787
+          ],
+          "quote": "So you need to think about monetization from day one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1800.117,
+            1802.839
+          ],
+          "quote": "So the monetization model's become key.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2186.24,
+            2192.946
+          ],
+          "quote": "So the core takeaway here is, for AI companies, you no longer can just grow and figure out monetization later.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2211.321,
+            2218.967
+          ],
+          "quote": "I mean, I strongly believe that the winners in AI will need to master monetization, and they need to master it from day one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2360.581,
+            2365.306
+          ],
+          "quote": "So when you talk about AI companies and monetization models, we get asked this question.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2939.163,
+            2942.266
+          ],
+          "quote": "You're thinking about your pricing strategy, your monetization strategy long term.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3571.923,
+            3577.427
+          ],
+          "quote": "Market share, wallet share, acquisition, monetization, retention are all kind of correlated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3594.96,
+            3605.846
+          ],
+          "quote": "If you have a pricing model, then you need to have a pricing model that lets you acquire faster because it's intuitive, but it should also help you recover value, which is like your monetization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3811.454,
+            3818.498
+          ],
+          "quote": "So I thought that's an interesting example of a durable brand where your monetization power actually increase over a period of time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3835.261,
+            3840
+          ],
+          "quote": "I love how you're the only person in the world that thinks of Mission Impossible through a monetization, willingness-to-pay lens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 816,
+          "t": [
+            3841.443,
+            3847.777
+          ],
+          "quote": "I think there's too many of these dinner conversations also gravitate towards pricing and monetization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4058.113,
+            4062.335
+          ],
+          "quote": "AI companies needs to deal with monetization from day one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4076.384,
+            4079.287
+          ],
+          "quote": "We roll up our sleeves and work with the founders in all things monetization.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "wallet-share",
+      "type": "concept",
+      "role": "concept",
+      "name": "钱包份额 (wallet share)",
+      "file": "钱包份额",
+      "primary": true,
+      "how_described": "本集将钱包份额与市场份额并列为盈利性增长的双引擎，强调创始人必须同时主导两者，不能只增长不顾变现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.14,
+            4.774
+          ],
+          "quote": "The good founders need to be able to dominate both market share and wallet share.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 10,
+          "t": [
+            33.561,
+            36.904
+          ],
+          "quote": "If you think about market share and wallet share, let's think about it as a two-by-two.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 91,
+          "t": [
+            439.613,
+            444.979
+          ],
+          "quote": "What that means is you need to be able to master two engines: market share and wallet share.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            450.044,
+            466
+          ],
+          "quote": "Because if you unpack that, for gaining market share and wallet share, you need to be good at acquisition, monetization, and retention, as in get customers, make an initial money on them, but also make money on an ongoing basis and have your customers actually refer more customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            497.14,
+            502.964
+          ],
+          "quote": "So the good founders need to be able to dominate both market share and wallet share.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            506.326,
+            525.239
+          ],
+          "quote": "But this does not mean that you're putting equal effort on market share and wallet share at all given points in time, but it means you're putting equal attention on both those topics and being thoughtful about the trade-offs and saying, \"How can I actually look at these two topics together so that I'm architecting towards profitable growth?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            534.344,
+            545.271
+          ],
+          "quote": "And every chapter ends with how this particular strategy circumvents a single-engine problem and helps you focus on market share and wallet share at the same time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2268.576,
+            2273.98
+          ],
+          "quote": "But yeah, I think that's why it's important to be thoughtful about market share and wallet share.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2318.225,
+            2321.967
+          ],
+          "quote": "That's the whole point of the book, market share and wallet share, and how do you dominate both.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2322.488,
+            2333.496
+          ],
+          "quote": "So if they're being thoughtful about both and have a vision to not just grow market share, but also have a clear strategy to land and expand and increase wallet share, those strategies might pan out for those types of companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3496.582,
+            3502.767
+          ],
+          "quote": "I think intuitively people get it that they need to think about market share and wallet share if they're growing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3502.787,
+            3511.273
+          ],
+          "quote": "And even if you ask them, they'll say like, \"Yeah, yeah, I'm thinking about wallet share,\" but have they really thought about it equally and paid equal attention?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3532.468,
+            3534.949
+          ],
+          "quote": "In certain stages you might need to be wallet share dominating.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3553.202,
+            3568
+          ],
+          "quote": "So just so folks know what to do when they're like, \"Okay, I need to focus on wallet share more,\" is the main focus figure out a pricing model that aligns well with pricing power, what's in the bucket of work to do to invest more in wallet-share thinking?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3571.923,
+            3577.427
+          ],
+          "quote": "Market share, wallet share, acquisition, monetization, retention are all kind of correlated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3579.469,
+            3581.711
+          ],
+          "quote": "So I wouldn't say only for wallet share what do you need to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3582.291,
+            3589.657
+          ],
+          "quote": "If you want to grow on both the market share and wallet share... Let's say, for instance, you need to have the right land-and-expand strategy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3592.399,
+            3594
+          ],
+          "quote": "The expansion helps you with wallet share.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3624.415,
+            3633.74
+          ],
+          "quote": "These are tried and tested strategies of how to build businesses in such a way that you're being thoughtful and paying equal attention to both market share and wallet share.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "copilot-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "副驾驶模式 (copilot mode)",
+      "file": "副驾驶模式",
+      "primary": false,
+      "how_described": "本集用副驾驶模式描述低自主性的产品形态，即仍需要人在回路中，如 Cursor",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 485,
+          "t": [
+            2367.308,
+            2369.97
+          ],
+          "quote": "Should I be a copilot mode?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2399.006,
+            2418
+          ],
+          "quote": "In that situation, the best pricing archetype that actually fits is it is actually a seed-based or a subscription model because there's not much to do about it because you're not being able to attribute a lot of value to what you bring, but you're in a copilot mode and you're not in an autonomous mode, so a seed-based pricing would actually make sense.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2443.04,
+            2452.826
+          ],
+          "quote": "If you take Cursor, for instance, it definitely improves productivity, can actually bring down the time to actually do code, the attribution is clear, but it's still in a copilot mode.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pricing-power",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价权 (pricing power)",
+      "file": "定价权",
+      "primary": false,
+      "how_described": "本集引用巴菲特的话说公司的真正定义是定价权；当 AI 能创造可归因的核心价值时，你就获得了很大的定价权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            102.625,
+            124.6
+          ],
+          "quote": "And in this episode, Madhavan shares many of the biggest lessons from the book, including how pricing strategy is very different for AI companies, why you need to get your pricing model right from the start in today's market, a very simple two-by-two to help you pick your pricing model, how to gain pricing power, a ton of tactical advice for negotiating more effectively, the most common traps founders fall into, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1001.773,
+            1013.457
+          ],
+          "quote": "And this is great because if they actually engage in that, that gives you tremendous pricing power for renegotiations because it is their business case, they're championed it internally, and you're pretty much making your products pretty sticky.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1766.31,
+            1774.9
+          ],
+          "quote": "And when you get into those kinds of situation where an AI is creating core value and it's attributable to the AI, you get a lot of pricing power.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2384.71,
+            2390.86
+          ],
+          "quote": "And when you have high attribution and high autonomy, that is when you have high pricing power, and we'll come back to that in a bit, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2418.3,
+            2427.187
+          ],
+          "quote": "But if you're at that quadrant, the immediate thing to think about is, how do you actually build more attribution and move to the right so that you actually get more pricing power?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2906.917,
+            2910.58
+          ],
+          "quote": "It's just you have more pricing power if you figure something out there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3199.103,
+            3202.486
+          ],
+          "quote": "He said the true definition of a company is a pricing power.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3553.202,
+            3568
+          ],
+          "quote": "So just so folks know what to do when they're like, \"Okay, I need to focus on wallet share more,\" is the main focus figure out a pricing model that aligns well with pricing power, what's in the bucket of work to do to invest more in wallet-share thinking?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "roi-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "ROI 模型 (ROI model)",
+      "file": "ROI 模型",
+      "primary": false,
+      "how_described": "本集强调 ROI 模型必须从第一天起就跟客户共创，关注增量收益、成本节约和机会成本三个桶，POC 结束后自己拼模型去辩护价格已经输了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1040.589,
+            1043.331
+          ],
+          "quote": "And the third one is creating a good ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1143.1,
+            1146.103
+          ],
+          "quote": "And the third one is creating a good ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1150.288,
+            1154.292
+          ],
+          "quote": "And after the POC's over, they'll show up with an ROI model and try to defend a price.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1156.434,
+            1159.417
+          ],
+          "quote": "I mean, no one is going to believe an ROI model that you just cooked up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1162.34,
+            1172.925
+          ],
+          "quote": "The right way to think about an ROI model is to actually co-create it with your customers from day one, which means agree and validate on the assumptions and the inputs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1177.607,
+            1181.569
+          ],
+          "quote": "So you create ask questions that are all inputs to an ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1182.069,
+            1190.353
+          ],
+          "quote": "And if you have done that process and the customer agrees on all the inputs, they're very unlikely to push back on the output of an ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1190.613,
+            1205.7
+          ],
+          "quote": "So a POC needs to be framed as the purpose of a POC is to build a business case, and we are going to co-create an ROI model with the customer as opposed to it being a tech and product functionality feature test and you show up with an ROI model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1206.1,
+            1212.565
+          ],
+          "quote": "And when you're building an ROI model, there are many buckets to focus on, but there are three that are very critical.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1252.551,
+            1261.56
+          ],
+          "quote": "So when you put all of these three things together, you start building a proper ROI model that you can actually use in your value selling to defend the right price.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1950.58,
+            1959.266
+          ],
+          "quote": "So if you frame it this way is you can say, \"Look, it is a 30-day pilot for co-creating an ROI model and building a business case along with their users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2943.347,
+            2955.178
+          ],
+          "quote": "Your advice is work with design partners, create these POCs where you work on this ROI model with them to ideally find some outcome-based pricing strategy.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "land-and-expand",
+      "type": "concept",
+      "role": "concept",
+      "name": "落地与扩张 (land and expand)",
+      "file": "落地与扩张",
+      "primary": false,
+      "how_described": "本集将其作为九大策略之一，强调落地产品不能把农场送掉，要留东西给扩张阶段变现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1619.761,
+            1628.568
+          ],
+          "quote": "We talk about how to land and expand, as in how to design your best free product in such a way that you are landing, but also expanding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2322.488,
+            2333.496
+          ],
+          "quote": "So if they're being thoughtful about both and have a vision to not just grow market share, but also have a clear strategy to land and expand and increase wallet share, those strategies might pan out for those types of companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3582.291,
+            3589.657
+          ],
+          "quote": "If you want to grow on both the market share and wallet share... Let's say, for instance, you need to have the right land-and-expand strategy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "49 Palms",
+      "reason": "专名「49 Palms」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

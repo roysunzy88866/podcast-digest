@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(33:16起):本集作为成本度量单位，嘉宾提到一次重构花掉 2 亿个 token 才意识到必须停止全程用最贵模型，在 1400 人组织中每个工程师每月几千美元的 token 费用会引发领导层质疑
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(16:00起):本集把它说成：数据中心这个工厂生产的、史上贬值最快的商品，在恒定性能下每年跌价 70% 到 80%，持续至少四年没有停下来的迹象。
 
 ## ① 提到它的金句
@@ -33,17 +34,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为概念(提及)
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Paul Kedrosky]] · [[数据中心]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[测试框架]] · [[预训练]] · [[后训练]] · [[AGI]]
+[[Heitor Lessa]] · [[Paul Kedrosky]] · [[智能体]] · [[数据中心]] · [[规范驱动开发]] · [[GPU]] · [[苏格拉底方法]] · [[推理]] · [[对抗性审查]] · [[商业地产]]
 
-<script type="application/json" class="pd-epn">{"Paul Kedrosky":1,"数据中心":2,"GPU":3,"推理":1,"商业地产":1,"前沿模型":3,"测试框架":10,"预训练":3,"后训练":7,"AGI":10}</script>
+<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Paul Kedrosky":1,"智能体":86,"数据中心":2,"规范驱动开发":1,"GPU":3,"苏格拉底方法":1,"推理":1,"对抗性审查":1,"商业地产":1}</script>
 
 <script>
 (function(){

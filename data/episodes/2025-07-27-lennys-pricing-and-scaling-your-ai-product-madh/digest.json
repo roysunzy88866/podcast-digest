@@ -1,0 +1,261 @@
+{
+  "title_zh": "AI 定价的黄金象限：别把 20% 的价值白送",
+  "tldr": "AI 公司必须从第一天就搞定变现，选错定价模式就是训练客户花更少钱",
+  "digest_md": "你构建的产品里，20% 驱动了 80% 的支付意愿——但讽刺的是，那 20% 往往是最容易构建的东西。创始人把这 20% 做出来，几乎免费扔到市场上，然后花大力气去搞那 80% 只驱动 20% 支付意愿的功能，等于无意中把农场送人了 [55:07 Madhavan Ramanujam]。\n\n这是 Madhavan Ramanujam 的核心观察。他做了几十年定价咨询，跟超过 250 家公司合作过，现在全职做早期 AI 公司投资。他的判断很直接：AI 公司跟上一代 SaaS 不一样，你必须从第一天就解决变现问题，不是因为成本——虽然推理确实有成本——更关键的是价值捕获。如果你不在第一天就捕获价值，你就是在训练客户\"花更少的钱得到更多\" [28:22 Madhavan Ramanujam]。\n\n## AI 定价为什么不一样\n\n两个原因。第一，AI 产品切入的是劳动力预算，劳动力预算是软件预算的 10 倍规模。如果你还用旧的 SaaS 策略手册，从第一天起就变现不足 [28:33 Madhavan Ramanujam]。第二，AI 第一次真正解决了归因问题——以前你可以说 Slack 提高了效率，但你没法测量、没法归因；现在 AI 可以说\"在一家财富 100 强公司，我把吞吐量提高了 10%\"，这是可归因的，你就有了真正的定价权 [29:03 Madhavan Ramanujam]。\n\n底层商业模式已经变了：从\"付费获取访问权\"变成了\"为交付的工作付费\" [29:51 Madhavan Ramanujam]。所以\"怎么收\"比\"收多少\"重要得多。\n\n## 选定价模式：一个二乘二矩阵\n\n两个轴：归因（你能多大程度证明价值是你创造的）和自主性（产品是否需要人在回路里）。\n\n**左下角——低归因、低自主**：适合订阅制。你证明不了多少价值，又是副驾驶模式，没太多选择。但如果你在这个象限，第一件事该想的是怎么往右移——怎么建立更多归因 [39:55 Madhavan Ramanujam]。\n\n**右下角——高归因、低自主**：混合定价。典型例子是 Cursor——能证明提高了生产力、缩短了写代码时间，但仍然是副驾驶模式。适合\"订阅底座 + 按用量（AI 积分或 token）分层\"的混合模式 [40:34 Madhavan Ramanujam]。\n\n**左上角——低归因、高自主**：按用量付费。多是后端/基础设施类产品，自主运行但不直接碰客户 KPI，没法有效证明归因。用用量做价值的代理 [41:18 Madhavan Ramanujam]。\n\n**右上角——高归因、高自主**：基于结果的定价，这是黄金象限。AI 完全自主地交付工作，没人介入，而且效果可归因。Intercom 的 Fin 是经典案例：AI 独立解决了工单就收费，需要人介入就不收。Charge Flow 按收回的争议金额抽成最高 25% [42:07 Madhavan Ramanujam]。截至录制，大约 5% 的公司在这个象限，但最好的那些能拿走所创造价值的 25% 到 50%——经典 SaaS 能拿 10% 到 20% 就算很好了 [43:24 Madhavan Ramanujam]。\n\n怎么用这个矩阵？先诚实判断你今天在哪个象限，别硬冲结果定价——证明不了归因就会失败。然后用它画路线图：怎么在产品里建归因机制（仪表盘、价值审计），怎么把人从回路里拿掉（更智能体化的工作流），逐步往右上角移 [45:34 Madhavan Ramanujam]。\n\n## POC 的正确打开方式\n\n大多数创始人把 POC 当成技术功能验证——\"我们把产品放进去看看能不能跑\"。这完全错了。POC 的唯一目标就是跟客户共创一个商业案例，句号 [32:14 Madhavan Ramanujam]。\n\n要收钱，但要聪明地收。收费是为了筛掉那些只是对 AI 好奇、永远不会买的人——它是一个线索筛选机制 [33:08 Madhavan Ramanujam]。但你的 POC 报价绝不能变成实际商业价格的锚。比如你收 1 万美元做 30 天试点，必须说清楚这 1 万只是用来建商业案例的，后续商业谈判另算 [34:01 Madhavan Ramanujam]。\n\n如果买家逼你给预算数字，两个化解方法：第一，用价值框定价格——\"像您这样的客户，我们在类似情况下解锁了 1000 万美元价值，我们的定价大概是 ROI 的十分之一\"——你没报具体数字，但给了暗示 [34:40 Madhavan Ramanujam]。第二，给范围不给点——\"最终定价在 50 万到 100 万之间，具体取决于我们共创的商业案例证明了多少价值\" [35:27 Madhavan Ramanujam]。\n\n## 谈判：从每笔交易里提取完整价值\n\n到扩张阶段，最关键的策略之一是掌握谈判。三个支柱：\n\n**给予和索取**：谈判中你让步时必须同时要东西，否则对方会觉得可以一直压你。B2B 里最强的一招是\"价值审计\"——你给折扣，换取对方每六个月内部团队对你的产品做一次价值评估，变成他们自己的商业案例。这让你在续费谈判中有巨大的定价权，因为案例是他们自己做的、内部推动的 [16:16 Madhavan Ramanujam]。\n\n**价值销售三步**：①创造需求而不是发现需求——问客户现有流程，然后说\"如果这些能即时完成呢？\"需求就创造了 [17:25 Madhavan Ramanujam]。②创造肯定循环——别一个人滔滔不绝讲产品，停下来问\"这在你们公司怎么运作？你觉得哪部分有价值？\"让客户自己说出价值 [18:17 Madhavan Ramanujam]。③共创 ROI 模型——最差的做法是 POC 结束后你拿一个自己拼的 ROI 模型去辩护价格，没人信。正确做法是从第一天起就跟客户对齐所有假设和输入，POC 的目的就是共建这个模型 [19:03 Madhavan Ramanujam]。ROI 模型关注三个桶：增量收益（增收、降流失）、成本节约（减人头、减许可证）、机会成本（省下的时间拿去做什么了）[20:06 Madhavan Ramanujam]。\n\n**带着选项上桌**：只拿一个产品一个价格去谈，对话会立刻聚焦在价格上。如果你有好、更好、最好三个选项，对话会转向\"我喜欢 10 万档的价格，但我想要 20 万档的功能\"——你把话题拉回了价值 [21:20 Madhavan Ramanujam]。\n\n一个实用技巧：如果你觉得产品值 50 万但知道客户预算只有 10 万，别硬报 50 万。报两个选项——\"10 万底价加上你增量价值的 10%，或者 50 万一口价\"。80% 的买家会为了避免结果定价而选固定价，但他们已经不执着于 10 万了，50 万是被当作\"为确定性支付的溢价\"。这个案例里最终谈到了 40 万，是原预期的 4 倍 [22:54 Madhavan Ramanujam]。\n\n还有两个战术细节：锚定——起价高，落点也高；递减让步——先给 15%，再给 5%，再给 2%，自动暗示谈判在收尾。千万别反过来递增让步，那是在告诉对方你可以一直被压 [24:05 Madhavan Ramanujam]。\n\n## 三条公理\n\n**20-80 公理**：MVP 不应该是最小可行产品，应该是最有价值产品。想清楚你扔出去的那 20% 到底值多少钱 [55:07 Madhavan Ramanujam]。\n\n**价格瘫痪公理**：你不愿提价，原因往往是内在的、情绪化的，不是外在的、逻辑的。巴菲特说过，如果你需要开祈祷会才敢提价 10%，你做的是一门糟糕的生意 [56:03 Madhavan Ramanujam]。\n\n**阻止流失公理**：要阻止流失，就得吸引不会走的客户。大多数公司在客户说\"我要走\"的时候才去挽留，太晚了。正确做法是回头看数据——哪类客户留存最久？他们的特征是什么？把获客预算集中在这类人身上 [56:35 Madhavan Ramanujam]。\n\n## 本集带走\n\n- **别用旧 SaaS 策略给 AI 定价**：AI 切入的是劳动力预算（软件预算的 10 倍），从第一天起就要想变现，否则就是在训练客户花更少钱\n- **用二乘二矩阵选定价模式**：归因 × 自主性，目标是往右上角\"基于结果的定价\"移。当前只有约 5% 的公司在那里，但它们能拿走所创价值的 25%-50%\n- **POC 的唯一目标是共创商业案例**：要收费（筛掉好奇者），但报价必须与后续商业谈判解耦。被逼给预算时，用价值框定或给范围不给点\n- **谈判带着选项上桌**：好/更好/最好三档，把对话从价格拉回价值。不确定敢不敢报高价时，用\"底价 + 增值抽成 vs 固定高价\"的选项结构给自己壮胆\n- **ROI 模型必须跟客户共创**：POC 结束后拿自己拼的模型去辩护价格，已经输了。从第一天起就对齐假设，让客户自己同意输入，他们就不会反驳输出\n- **MVP 应该是\"最有价值产品\"**：搞清楚你产品里哪 20% 驱动了 80% 支付意愿，别把那 20% 免费送掉再去追那 80% 的低价值功能\n\n> 【背景】Simon-Kucher 是全球领先的定价咨询公司；Bill Gurley 是知名风险投资人，Benchmark 合伙人；《银河系漫游指南》中\"42\"是关于生命、宇宙及一切的终极答案。",
+  "quotes": [
+    {
+      "en": "If you're bringing a lot of value to the table and you start at training your customers to expect $20 a month and you anchored yourself on a low price point, you're in trouble.",
+      "zh": "如果你带来了很多价值，但你开始训练你的客户期望每月支付 20 美元，而你把自己锚定在低价位上，那你就有麻烦了。",
+      "timestamp": "00:14",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "But the irony is that that 20% is the easiest thing to build often.",
+      "zh": "但具有讽刺意味的是，那 20% 往往是最容易构建的东西。",
+      "timestamp": "00:26",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "About 5% of companies are probably in a true outcome-based pricing model.",
+      "zh": "大约只有 5% 的公司可能处于真正的基于结果的定价模式中。",
+      "timestamp": "00:45",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "What that means is you need to be able to master two engines: market share and wallet share.",
+      "zh": "这意味着你需要能够掌握两个引擎：市场份额和钱包份额。",
+      "timestamp": "07:19",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "A market share that won, is different from a market share that is actually held.",
+      "zh": "一个赢得的市场份额，与一个实际持有的市场份额是不同的。",
+      "timestamp": "10:15",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "But the way they kind of told the story was that you pay a dollar a day for actually getting four hours of productivity back in the week, and then suddenly the pricing doesn't look too off.",
+      "zh": "但他们讲述故事的方式是，你每天支付一美元，以便在一周内真正获得四个小时的生产力回报，然后突然之间定价看起来就不太离谱了。",
+      "timestamp": "13:35",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "I mean, no one is going to believe an ROI model that you just cooked up.",
+      "zh": "我的意思是，没有人会相信你刚刚拼凑出来的 ROI 模型。",
+      "timestamp": "19:16",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "And if you don't capture that from day one, then you're training your customers to expect more for less.",
+      "zh": "而如果你不在第一天就捕获这些价值，那你就是在训练你的客户期待花更少的钱获得更多。",
+      "timestamp": "28:26",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "If you're building a agentic AI product that taps into labor budgets, labor budgets are 10X compared to software budgets.",
+      "zh": "如果你正在构建一个智能体 AI 产品，它切入的是劳动力预算，劳动力预算相比软件预算是 10 倍的规模。",
+      "timestamp": "28:33",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "We have moved from software being a pay for access to now you're paying for work delivered.",
+      "zh": "我们已经从软件是付费访问转变为现在你是在为交付的工作付费。",
+      "timestamp": "29:51",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "The POC should be framed as the entire goal of the POC is to create a business case, period, full stop.",
+      "zh": "POC 应该被设定为，POC 的整个目标就是创建一个商业案例，句号，就是这样。",
+      "timestamp": "32:14",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "But those companies, some of the best ones are able to recover 25 to 50% of the value that they actually bring to the table.",
+      "zh": "但那些公司，一些最好的公司能够收回他们实际带到桌面上的价值的 25% 到 50%。",
+      "timestamp": "43:46",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "He said the true definition of a company is a pricing power.",
+      "zh": "他说，一家公司的真正定义是定价权。",
+      "timestamp": "53:19",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "And if you have a prayer session for doing a 10% price increase, you have a terrible business.",
+      "zh": "如果你需要进行祈祷会议才能提价 10%，那你拥有一家糟糕的业务。",
+      "timestamp": "53:22",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "It shouldn't be minimum viable product, it should be the most valuable product.",
+      "zh": "它不应该是最小可行产品，它应该是最有价值产品。",
+      "timestamp": "55:47",
+      "speaker": "Madhavan Ramanujam"
+    },
+    {
+      "en": "The way to stop churn is to start acquiring customers who won't leave.",
+      "zh": "阻止流失的方法是开始获取那些不会离开的客户。",
+      "timestamp": "56:59",
+      "speaker": "Madhavan Ramanujam"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:14",
+      "speaker": "Unknown",
+      "en": "If you're bringing a lot of value to the table and you start at training your customers to expect $20 a month and you anchored yourself on a low price point, you're in trouble.",
+      "zh": "如果你带来了很多价值，但你开始训练你的客户期望每月支付 20 美元，而你把自己锚定在低价位上，那你就有麻烦了。"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Unknown",
+      "en": "20% of what you build drives 80% of the willingness to pay.",
+      "zh": "你构建的产品中，20% 驱动了 80% 的支付意愿。"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Unknown",
+      "en": "But the irony is that that 20% is the easiest thing to build often.",
+      "zh": "但具有讽刺意味的是，那 20% 往往是最容易构建的东西。"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Unknown",
+      "en": "About 5% of companies are probably in a true outcome-based pricing model.",
+      "zh": "大约只有 5% 的公司可能处于真正的基于结果的定价模式中。"
+    },
+    {
+      "timestamp": "00:50",
+      "speaker": "Unknown",
+      "en": "If you want to win in AI, figure out a way to get to that quadrant.",
+      "zh": "如果你想在 AI 领域获胜，想个办法进入那个象限。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Unknown",
+      "en": "What that means is you need to be able to master two engines: market share and wallet share.",
+      "zh": "这意味着你需要能够掌握两个引擎：市场份额和钱包份额。"
+    },
+    {
+      "timestamp": "08:17",
+      "speaker": "Unknown",
+      "en": "So the good founders need to be able to dominate both market share and wallet share.",
+      "zh": "所以好的创始人需要能够主导市场份额和钱包份额。"
+    },
+    {
+      "timestamp": "08:23",
+      "speaker": "Unknown",
+      "en": "It is not a choice.",
+      "zh": "这不是一个选择。"
+    },
+    {
+      "timestamp": "10:12",
+      "speaker": "Unknown",
+      "en": "A market share that won, is different from a market share that is actually held.",
+      "zh": "一个赢得的市场份额，与一个实际持有的市场份额是不同的。"
+    },
+    {
+      "timestamp": "10:36",
+      "speaker": "Unknown",
+      "en": "The first one is you might nickel and dime your customers to death.",
+      "zh": "第一个是你可能会对顾客进行微小的收费直到把人逼死。"
+    },
+    {
+      "timestamp": "13:13",
+      "speaker": "Unknown",
+      "en": "They came up with a $30 price point per month, which was pretty simple.",
+      "zh": "他们提出了每月 30 美元的价格点，这非常简单。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Unknown",
+      "en": "But the way they kind of told the story was that you pay a dollar a day for actually getting four hours of productivity back in the week, and then suddenly the pricing doesn't look too off.",
+      "zh": "但他们讲述故事的方式是，你每天支付一美元，以便在一周内真正获得四个小时的生产力回报，然后突然之间定价看起来就不太离谱了。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Unknown",
+      "en": "You've already lost the battle.",
+      "zh": "你已经输掉了这场仗。"
+    },
+    {
+      "timestamp": "19:16",
+      "speaker": "Unknown",
+      "en": "I mean, no one is going to believe an ROI model that you just cooked up.",
+      "zh": "我的意思是，没有人会相信你刚刚拼凑出来的 ROI 模型。"
+    },
+    {
+      "timestamp": "21:39",
+      "speaker": "Unknown",
+      "en": "Inevitably, what will happen is the immediate focus of the conversation will be on the price, and you're only talking about price.",
+      "zh": "不知何故会发生的是，对话的直接焦点将集中在价格上，而你只谈论价格。"
+    },
+    {
+      "timestamp": "28:22",
+      "speaker": "Unknown",
+      "en": "And if you don't capture that from day one, then you're training your customers to expect more for less.",
+      "zh": "而如果你不在第一天就捕获这些价值，那你就是在训练你的客户期待花更少的钱获得更多。"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Unknown",
+      "en": "If you're building a agentic AI product that taps into labor budgets, labor budgets are 10X compared to software budgets.",
+      "zh": "如果你正在构建一个智能体 AI 产品，它切入的是劳动力预算，劳动力预算相比软件预算是 10 倍的规模。"
+    },
+    {
+      "timestamp": "29:51",
+      "speaker": "Unknown",
+      "en": "We have moved from software being a pay for access to now you're paying for work delivered.",
+      "zh": "我们已经从软件是付费访问转变为现在你是在为交付的工作付费。"
+    },
+    {
+      "timestamp": "32:14",
+      "speaker": "Unknown",
+      "en": "The POC should be framed as the entire goal of the POC is to create a business case, period, full stop.",
+      "zh": "POC 应该被设定为，POC 的整个目标就是创建一个商业案例，句号，就是这样。"
+    },
+    {
+      "timestamp": "42:18",
+      "speaker": "Unknown",
+      "en": "And here is where I think AI can be really magical.",
+      "zh": "这也是我认为 AI 可以真正神奇的地方。"
+    },
+    {
+      "timestamp": "43:46",
+      "speaker": "Unknown",
+      "en": "But those companies, some of the best ones are able to recover 25 to 50% of the value that they actually bring to the table.",
+      "zh": "但那些公司，一些最好的公司能够收回他们实际带到桌面上的价值的 25% 到 50%。"
+    },
+    {
+      "timestamp": "53:19",
+      "speaker": "Unknown",
+      "en": "He said the true definition of a company is a pricing power.",
+      "zh": "他说，一家公司的真正定义是定价权。"
+    },
+    {
+      "timestamp": "53:22",
+      "speaker": "Unknown",
+      "en": "And if you have a prayer session for doing a 10% price increase, you have a terrible business.",
+      "zh": "如果你需要进行祈祷会议才能提价 10%，那你拥有一家糟糕的业务。"
+    },
+    {
+      "timestamp": "55:47",
+      "speaker": "Unknown",
+      "en": "It shouldn't be minimum viable product, it should be the most valuable product.",
+      "zh": "它不应该是最小可行产品，它应该是最有价值产品。"
+    },
+    {
+      "timestamp": "56:44",
+      "speaker": "Unknown",
+      "en": "What does this actually mean? Most companies will try to stop churn when someone actually says, \"I want to go.\"",
+      "zh": "这实际上意味着什么？大多数公司会试图阻止流失，当有人实际上说\"我想走\"的时候。"
+    },
+    {
+      "timestamp": "57:04",
+      "speaker": "Unknown",
+      "en": "The way to stop churn is to start acquiring customers who won't leave.",
+      "zh": "阻止流失的方法是开始获取那些不会离开的客户。"
+    }
+  ]
+}

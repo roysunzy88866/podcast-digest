@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Canva</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Canva">CA</div><div class="pi"><h1 class="pt">Canva</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Canva">CA</div><div class="pi"><h1 class="pt">Canva</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(02:42起):本集提到 Canva 处于右下象限，采用混合定价模式（基础费用加消费费用）
 - **[[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]]**(00:00起):本集把它说成:由 Melanie Perkins 创立、估值超 420 亿美元、年收入超 33 亿美元的设计平台,旨在赋能世界去设计;曾经历两年代码重写发不出产品,以及被 100 多位投资人拒绝。
 
 ## ① 提到它的金句
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Melanie Perkins]] · [[Column B]] · [[疯狂大目标]] · [[从混乱到清晰]] · [[使命支柱]] · [[两步计划]] · [[前端重写]] · [[AI]]
+[[Lenny]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Intercom]] · [[Column B]] · [[Cursor]] · [[疯狂大目标]] · [[Charge Flow]] · [[从混乱到清晰]] · [[Sierra]]
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Melanie Perkins":1,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Intercom":3,"Column B":1,"Cursor":17,"疯狂大目标":1,"Charge Flow":1,"从混乱到清晰":1,"Sierra":3}</script>
 
 <script>
 (function(){

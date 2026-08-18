@@ -154,7 +154,7 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Stripe · 同概念:PLG</span>
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场]]<span class="pd-rz">同公司:Cursor · 同概念:ACV、PLG</span>
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Cursor</span>
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
 
 </div>
 <div class="pd-ex">

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Facebook</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(01:03起):本集提到 Bret 在 Facebook 任 CTO 时的经历，包括 Sheryl Sandberg 的关键反馈改变了他对新工作的态度，以及设计信息流时用真实数据而非 Photoshop 模型的教训。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(00:40起):本集将其作为平台「开放-关闭」四步周期的经典案例：2007 年通过开放画布、通知渠道和信息流分发吸引开发者涌入，随后逐步收回权限、抽成、压制自然渠道，最终吸收最高频用例进第一方产品
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(22:31起):本集将它描述为当年在边缘地带崛起的小公司,最终让处于巅峰时期、拥有巨大资源优势的 Google 无法在社交媒体领域打赢它。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(05:22起):本集多次提及：它既是 Zynga 爆款游戏的依托平台，也曾提供巨大的「社交生产力」让人们轻松与几百个朋友保持联系，但现在逐渐失去了原有的正向价值。
@@ -19,8 +20,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
+- [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
@@ -31,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude]] · [[Google]] · [[Zynga]] · [[Cursor]] · [[留存]]
+[[Lenny]] · [[智能体]] · [[Cursor]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Claude]] · [[Google]] · [[Zynga]] · [[留存]]
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"智能体":80,"ChatGPT":18,"OpenAI":34,"Anthropic":45,"Claude":15,"Google":18,"Zynga":2,"Cursor":14,"留存":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":86,"Cursor":17,"OpenAI":37,"ChatGPT":19,"Anthropic":46,"Claude":17,"Google":18,"Zynga":2,"留存":2}</script>
 
 <script>
 (function(){

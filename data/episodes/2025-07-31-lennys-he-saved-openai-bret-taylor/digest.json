@@ -1,0 +1,213 @@
+{
+  "title_zh": "Bret Taylor：智能体是新应用，软件要按结果定价",
+  "tldr": "Google Maps 联合创建者、Sierra CEO 谈智能体为何将重塑软件商业模式与编程方式。",
+  "digest_md": "销售生产力软件几乎是一件不可能的事——你跟客户说\"每个销售多卖 5%\"，然后让他们掏一百万美元，但到底是不是你的软件带来的，根本说不清。Bret Taylor 在 Quip 时代就吃过这个亏。他认为智能体将彻底改变这一点：软件从\"帮人稍微提效\"变成\"自主完成一项工作\"，结果可衡量，价值可归因，所以整个市场会走向按结果付费 [62:15 Bret Taylor]。\n\n## AI 市场三层，创业者该去哪\n\nBret 把 AI 市场分成三块。第一是前沿模型（基础模型）市场，这是资本支出的游戏——需要天文数字的算力投入，模型作为资产贬值又极快，所以最终只会剩少数几家超大规模云厂商和大型实验室。所有试过这条路的初创公司基本已被整合，\"除非你是 Elon，否则别碰\" [52:36 Bret Taylor]。\n\n第二是工具层，卖铲子的：数据标注、评估工具、专用模型（比如语音）。这个市场\"离太阳太近\"——基础设施提供商天然有动机往技术栈上层走，随时可能把你的功能做进自家产品里。能活下来的有，但被替代的风险很高 [54:03 Bret Taylor]。\n\n第三是应用 AI，也就是智能体公司。Bret 认为这才是\"新 SaaS\"——利润率更高，因为卖的是业务成果而不是模型的副产品；随着编排智能体变得越来越容易，技术门槛会降低，竞争会越来越像今天的 SaaS：没人关心你用什么数据库，只关心你解决了什么业务问题 [55:39 Bret Taylor]。\n\n## 智能体为什么是真正的生产力跃迁\n\nBret 用了他父亲的故事：70 年代末进机械工程公司，绝大部分员工是制图员——把设计图转成各个角度、各楼层的图纸给施工方。现在这家公司制图员是零个，用 Revit 建 3D 模型，制图这个工种被消灭了 [60:16 Bret Taylor]。这不是\"让制图员效率提升 10%\"，而是\"不再需要制图员\"。\n\n他认为智能体会带来类似效果：软件从辅助个人变成自主完成任务。这意味着真正的生产力曲线弯曲，而不只是 PC 时代以来那种温吞的提升 [61:36 Bret Taylor]。\n\n## 按结果定价具体怎么运作\n\nSierra 做的是面向客户的 AI 智能体（客服、体验），Bret 拿自己的产品举了例子。运营一个呼叫中心，每通电话成本大约 10 到 20 美元，主要是人力。如果 AI 智能体接了这通电话、解决了问题、客户也满意，那叫\"解决\"，客户按预先谈好的费率付钱——这就是基于解决的定价 [64:45 Bret Taylor]。\n\n他们甚至有销售智能体在拿销售佣金。核心逻辑是：你作为技术公司，商业模式跟客户的商业模式对齐了——你没解决问题就收不到钱 [66:07 Bret Taylor]。\n\n他特别强调这跟\"按使用量定价\"是两回事。现在很多编码智能体按 token 收费，他拿那个经典段子打比方：苹果工程师被要求报告每天写多少行代码，他交了一份负数的报告——因为他做了大规模重构，删了大量代码。\"按 token 收费就像按行数算生产力，是愚蠢的\" [67:11 Bret Taylor]。一次很长的电话如果没解决问题、客户还给了差评，那不仅没创造价值，还可能创造了负价值 [67:35 Bret Taylor]。\n\n## 编程的未来：不是不写代码，是换一种写法\n\nBret 自己描述为工程师，至今周末还会写代码放松。他认为学计算机科学仍然极其有价值——但不是因为\"写代码\"这个动作本身。\n\n他的判断是：创建软件的行为，会从\"往终端或编辑器里敲代码\"变成\"操作一台代码生成机器\"。但操作这台机器需要系统思维——理解什么是难的、什么是容易的、什么是可能的、什么是不可能的 [32:45 Bret Taylor]。他用 Facebook 信息流的设计举例：Photoshop 画出来的模型永远漂亮，但真实数据填进去就惨不忍睹。真正的挑战不是画 UI，而是设计一个系统，在输入你无法控制的内容时，仍然产出好的体验 [33:45 Bret Taylor]。\n\n他进一步提出，我们需要一种新的\"编程系统\"（不只是语言）——专为 AI 生成代码而设计，而不是为人类书写舒适而设计。Python 对人类很舒服，但对 AI 来说是\"史上效率最低的语言之一\" [39:42 Bret Taylor]。反过来，Rust 的编译时内存安全机制很有启发：你不需要读每一行代码就知道它不泄漏内存——编译成功本身就证明了这一点。如果 AI 在生成代码，你不可能逐行审查（那会成为瓶颈），所以需要更多这类\"机器可验证\"的约束层 [40:48 Bret Taylor]。\n\n但他也泼了冷水：vibe coding（让 AI 快速生成原型）从来不是软件的瓶颈。瓶颈是\"维护日益复杂的系统，并敏捷地修改它\" [43:04 Bret Taylor]。\n\n## 怎样真正从 AI 编码工具里拿到生产力\n\nBret 说了一个很反直觉的现象：很多公司用了 Cursor 之类的工具，工程师生产力反而下降了。原因是——审查别人代码里微妙的逻辑错误，比改自己写的代码难得多。AI 生成的代码经常有错，修这些错消耗的认知负荷和时间可能超过了自己写 [70:10 Bret Taylor]。\n\nSierra 内部有一个专门的工程师，只做一件事：当 Cursor 生成了错误代码，不是修掉就完，而是做根因分析——Cursor 缺了什么上下文才导致出错？然后把正确的上下文通过 MCP（模型上下文协议）服务器喂进去，让下次不再犯。他管这叫\"上下文工程\" [71:39 Bret Taylor]。\n\n他的观点是：别干等模型自己变好。想要现在就拿到收益，就得把 AI 编码当成一个系统来运营——根因分析、持续改进上下文、建立反馈循环 [72:11 Bret Taylor]。\n\n## 跨角色成功的核心：别把工作顺从你的偏好\n\nBret 在 Facebook 当 CTO 时有一段转折。一开始他带着小团队，更像资深架构师；后来 Mark 重组公司，他突然管了超过 1000 人的平台和移动团队。他做得\"还行但不出色\"，Sheryl Sandberg 把他拉进房间谈了一次话——核心意思是：你在花大量时间做自己喜欢的产品和技术事，但你应该问的是\"为了让这个团队成功，今天最重要的事是什么\" [15:55 Bret Taylor]。\n\n他当时很抗拒，回家想了一晚上，第二天醒来承认\"她是对的\"。他意识到自己有一个潜意识的限制器：试图把工作顺从自己喜欢做的事，而不是问什么最有影响力。当他换了一种方式思考，发现自己居然喜欢上了管理工作——看到组织变好、合作伙伴变成功，那种快乐不亚于写代码 [18:08 Bret Taylor]。\n\n从那以后，他每天早上问自己的问题是：\"今天我能做的最有影响力的事是什么？\" [18:49 Bret Taylor]\n\n## 但回答这个问题有一个陷阱\n\nBret 接着说了一个更深的坑：你以为自己在回答\"什么最有影响力\"，实际上你可能在对自已撒谎。人天然会把自己的核心能力当成一切问题的答案——工程师觉得什么问题都是工程问题，设计师觉得下次改版就能解决一切，做 BD 的人觉得搞定那个合作就万事大吉 [22:06 Bret Taylor]。\n\n\"如果你认为你干了整个职业生涯的那件事是解决当前问题的方法，那至少有 30% 的概率，你选它是因为舒适和熟悉，而不是因为它是真相\" [23:03 Bret Taylor]。\n\n他用 FriendFeed 的教训来说明。12 个人的团队里 11 个是工程师，产品打磨得比 Twitter 好、功能更多、稳定性更强（Twitter 当时一半时间在宕机）。但 Twitter 的 Biz Stone 在做一件事：把名人和公众人物拉上来。一个关注者导向的社交网络，最该做的事是\"上面有值得关注的人\"。FriendFeed 完全没做这件事，输得跟产品毫无关系 [25:31 Bret Taylor]。\n\n## 本集带走\n\n- **智能体是新的应用形态**：不是\"帮人提效的工具\"，而是\"自主完成工作的系统\"。这会带来类似 90 年代 ERP 那样的真实生产力跃迁，而不是温吞的百分比提升。\n- **按结果定价，不按使用量**：AI 解决了问题才收钱，没解决就不收。按 token/按行代码计费就像按行数衡量工程师产出——方向错了。\n- **AI 编码的生产力在\"系统\"不在\"工具\"**：别光装个 Cursor 就完事。要做根因分析——每次 AI 生成错误代码，找到它缺了什么上下文，通过 MCP 之类的方式补上，建立改进循环。\n- **警惕\"什么问题都用你的超能力解\"**：如果你是工程师，每个问题看着都像工程问题——至少 30% 概率是舒适区偏差，不是真相。找能挑战你的联合创始人或顾问。\n- **每天问\"今天最有影响力的事是什么\"——但别自欺**：这个问题难的不是问，是诚实地答。客户说的离职理由（\"太贵了\"）往往不是真理由，就像分手时说的\"不是你的问题，是我的问题\"。\n- **学计算机科学，不是为了\"写代码\"**：创建软件的行为会变成\"操作代码生成机器\"，但你需要系统思维来判断它生成的对不对、怎么约束它。计算机科学教的是这个。",
+  "quotes": [
+    {
+      "en": "And despite that, it didn't do that well and to not do that well with a link from the Google homepage is embarrassing.",
+      "zh": "尽管如此，它的表现并不好，作为一个来自 Google 首页的链接却表现不好，这很尴尬。",
+      "timestamp": "06:57",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "First is, I think as you have these new technologies, rather than literally digitizing what came before, if you can create an entirely new experience, it answers the question for a new customer, why should I give this the time of day?",
+      "zh": "首先，我认为当你拥有这些新技术时，与其字面地将以前的事物数字化，如果你能创造一种全新的体验，它就能为一个新客户回答这个问题，我为什么要花时间在这上面？",
+      "timestamp": "10:02",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "And as a consequence, I think to really build something of significance, I think to be a great founder, you really need to be able to not have such a ossified view of your identity that you can't transform into what the company needs you to be at that point.",
+      "zh": "因此，我认为要真正构建有意义的东西，要成为一个伟大的创始人，你需要能够不拥有如此僵化的自我观念，以至于你无法转变成为公司在那个时刻需要你成为的样子。",
+      "timestamp": "14:28",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "And I had realized this subconscious limiter that was limiting my success in the job, which is, I was trying to conform the job to the things I thought I liked to do.",
+      "zh": "我意识到了那个限制我在工作中取得成功的潜意识限制器，那就是，我试图把工作顺从我自以为我喜欢做的事情。",
+      "timestamp": "17:25",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "If you think the thing that you've been doing your whole career is the way to fix your problem, it's at least 30% likely that you've chosen that because of comfort and familiarity not truth.",
+      "zh": "如果你认为你整个职业生涯一直在做的事情是解决问题的方法，那么至少有 30% 的可能性你选择它是因为舒适和熟悉，而不是真相。",
+      "timestamp": "23:03",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "And our product, we were innovating faster, we had more features, people liked it and we were up 100% of the time and we totally lost for no reason related to product at all.",
+      "zh": "我们的产品，我们创新得更快，我们有更多功能，人们喜欢它，而且我们 100% 的时间都在线，结果我们完全输了，原因与产品毫无关系。",
+      "timestamp": "26:13",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "One thing that is particularly hard is there's not a strong correlation between the confidence with which someone expresses an opinion and the quality of that opinion.",
+      "zh": "特别难的一点是，一个人表达观点的自信程度与该观点的质量之间没有很强的相关性。",
+      "timestamp": "28:42",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "The reason I think that is I do think the act of creating software is going to transform from typing into a terminal or typing into Visual Studio code to operating a code-generating machine.",
+      "zh": "我认为这样的原因是，我确实认为创建软件的行为将从输入到终端或输入到 Visual Studio 代码转变为操作一台代码生成机器。",
+      "timestamp": "32:29",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "It's such a comically bad thing for AI to generate just because it's one of the most inefficient programming languages of all time.",
+      "zh": "对于 AI 来说，生成这东西是一个可笑的糟糕选择，因为它是史上效率最低的编程语言之一。",
+      "timestamp": "39:42",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "I think we need more things like that because if an AI is generating this code, by definition, if you have to read every line that is going to be the limiting factor for producing the code or worse, you're just not going to read every line and you're going to emit a bunch of unsafe unverified code into the wild.",
+      "zh": "我认为我们需要更多类似的东西，因为如果 AI 正在生成这些代码，根据定义，如果你必须阅读每一行，那将是生产代码的制约因素，或者更糟的是，你只是不会阅读每一行，而且你将向世界发布一堆不安全、未经验证的代码。",
+      "timestamp": "41:16",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "And I'm super excited about VibeCoding, but I don't know generating a prototype has been the limiting factor in software ever.",
+      "zh": "我对 VibeCoding 感到超级兴奋，但我不知道生成原型是否一直是软件中的制约因素。",
+      "timestamp": "43:04",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "And the reason for that is that creating a frontier model is entirely a function of CapEx.",
+      "zh": "原因在于创建前沿模型完全是资本支出的函数。",
+      "timestamp": "52:57",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "I think agent is the new app.",
+      "zh": "我认为智能体是新的应用。",
+      "timestamp": "55:44",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "I think agents will truly start to bend the curve again like we did in the very early days of computing because software is going from helping an individual be slightly more productive to actually accomplishing a job autonomously.",
+      "zh": "我认为智能体将真正开始再次改变曲线，就像我们在计算的早期做的那样，因为软件正在从帮助个人稍微提高生产力转变为真正自主地完成一项工作。",
+      "timestamp": "61:36",
+      "speaker": "Bret Taylor"
+    },
+    {
+      "en": "Which every engineer in the world knows is an idiotic way to measure productivity.",
+      "zh": "世界上每个工程师都知道这是衡量生产力的愚蠢方式。",
+      "timestamp": "67:11",
+      "speaker": "Bret Taylor"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:57",
+      "speaker": "Bret Taylor",
+      "en": "And despite that, it didn't do that well and to not do that well with a link from the Google homepage is embarrassing.",
+      "zh": "尽管如此，它的表现并不好，作为一个来自 Google 首页的链接却表现不好，这很尴尬。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Bret Taylor",
+      "en": "First is, I think as you have these new technologies, rather than literally digitizing what came before, if you can create an entirely new experience, it answers the question for a new customer, why should I give this the time of day?",
+      "zh": "首先，我认为当你拥有这些新技术时，与其字面地将以前的事物数字化，如果你能创造一种全新的体验，它就能为一个新客户回答这个问题，我为什么要花时间在这上面？"
+    },
+    {
+      "timestamp": "14:05",
+      "speaker": "Bret Taylor",
+      "en": "And one of the things that is a principle for me is to have a really flexible view of my own identity.",
+      "zh": "对我来说，其中一个原则是对我自己的身份有一个非常灵活的看法。"
+    },
+    {
+      "timestamp": "14:28",
+      "speaker": "Bret Taylor",
+      "en": "And as a consequence, I think to really build something of significance, I think to be a great founder, you really need to be able to not have such a ossified view of your identity that you can't transform into what the company needs you to be at that point.",
+      "zh": "因此，我认为要真正构建有意义的东西，要成为一个伟大的创始人，你需要能够不拥有如此僵化的自我观念，以至于你无法转变成为公司在那个时刻需要你成为的样子。"
+    },
+    {
+      "timestamp": "17:25",
+      "speaker": "Bret Taylor",
+      "en": "And I had realized this subconscious limiter that was limiting my success in the job, which is, I was trying to conform the job to the things I thought I liked to do.",
+      "zh": "我意识到了那个限制我在工作中取得成功的潜意识限制器，那就是，我试图把工作顺从我自以为我喜欢做的事情。"
+    },
+    {
+      "timestamp": "18:49",
+      "speaker": "Bret Taylor",
+      "en": "And so, that conversation led to my waking up every morning, sometimes literally, but certainly, in the broadest sets of the words saying, \"What is the most impactful thing I can do today?\"",
+      "zh": "所以，那次对话导致我每天早上醒来，有时真的是字面意义上的，但当然，在最广泛的意义上说，\"我今天能做的最有影响力的事情是什么？\""
+    },
+    {
+      "timestamp": "23:03",
+      "speaker": "Bret Taylor",
+      "en": "If you think the thing that you've been doing your whole career is the way to fix your problem, it's at least 30% likely that you've chosen that because of comfort and familiarity not truth.",
+      "zh": "如果你认为你整个职业生涯一直在做的事情是解决问题的方法，那么至少有 30% 的可能性你选择它是因为舒适和熟悉，而不是真相。"
+    },
+    {
+      "timestamp": "26:13",
+      "speaker": "Bret Taylor",
+      "en": "And our product, we were innovating faster, we had more features, people liked it and we were up 100% of the time and we totally lost for no reason related to product at all.",
+      "zh": "我们的产品，我们创新得更快，我们有更多功能，人们喜欢它，而且我们 100% 的时间都在线，结果我们完全输了，原因与产品毫无关系。"
+    },
+    {
+      "timestamp": "28:42",
+      "speaker": "Bret Taylor",
+      "en": "One thing that is particularly hard is there's not a strong correlation between the confidence with which someone expresses an opinion and the quality of that opinion.",
+      "zh": "特别难的一点是，一个人表达观点的自信程度与该观点的质量之间没有很强的相关性。"
+    },
+    {
+      "timestamp": "32:45",
+      "speaker": "Bret Taylor",
+      "en": "The reason I think that is I do think the act of creating software is going to transform from typing into a terminal or typing into Visual Studio code to operating a code-generating machine.",
+      "zh": "我认为这样的原因是，我确实认为创建软件的行为将从输入到终端或输入到 Visual Studio 代码转变为操作一台代码生成机器。"
+    },
+    {
+      "timestamp": "39:42",
+      "speaker": "Bret Taylor",
+      "en": "It's such a comically bad thing for AI to generate just because it's one of the most inefficient programming languages of all time.",
+      "zh": "对于 AI 来说，生成这东西是一个可笑的糟糕选择，因为它是史上效率最低的编程语言之一。"
+    },
+    {
+      "timestamp": "41:16",
+      "speaker": "Bret Taylor",
+      "en": "I think we need more things like that because if an AI is generating this code, by definition, if you have to read every line that is going to be the limiting factor for producing the code or worse, you're just not going to read every line and you're going to emit a bunch of unsafe unverified code into the wild.",
+      "zh": "我认为我们需要更多类似的东西，因为如果 AI 正在生成这些代码，根据定义，如果你必须阅读每一行，那将是生产代码的制约因素，或者更糟的是，你只是不会阅读每一行，而且你将向世界发布一堆不安全、未经验证的代码。"
+    },
+    {
+      "timestamp": "43:04",
+      "speaker": "Bret Taylor",
+      "en": "And I'm super excited about VibeCoding, but I don't know generating a prototype has been the limiting factor in software ever.",
+      "zh": "我对 VibeCoding 感到超级兴奋，但我不知道生成原型是否一直是软件中的制约因素。"
+    },
+    {
+      "timestamp": "53:02",
+      "speaker": "Bret Taylor",
+      "en": "And the reason for that is that creating a frontier model is entirely a function of CapEx.",
+      "zh": "原因在于创建前沿模型完全是资本支出的函数。"
+    },
+    {
+      "timestamp": "55:44",
+      "speaker": "Bret Taylor",
+      "en": "I think agent is the new app.",
+      "zh": "我认为智能体是新的应用。"
+    },
+    {
+      "timestamp": "61:36",
+      "speaker": "Bret Taylor",
+      "en": "I think agents will truly start to bend the curve again like we did in the very early days of computing because software is going from helping an individual be slightly more productive to actually accomplishing a job autonomously.",
+      "zh": "我认为智能体将真正开始再次改变曲线，就像我们在计算的早期做的那样，因为软件正在从帮助个人稍微提高生产力转变为真正自主地完成一项工作。"
+    },
+    {
+      "timestamp": "67:11",
+      "speaker": "Bret Taylor",
+      "en": "Which every engineer in the world knows is an idiotic way to measure productivity.",
+      "zh": "世界上每个工程师都知道这是衡量生产力的愚蠢方式。"
+    },
+    {
+      "timestamp": "70:10",
+      "speaker": "Bret Taylor",
+      "en": "Reviewing other people's code or particularly finding a subtle logical error in someone else's code is actually really hard.",
+      "zh": "审查别人的代码，或者特别是发现别人代码中微妙的逻辑错误，实际上是很难的。"
+    },
+    {
+      "timestamp": "72:45",
+      "speaker": "Bret Taylor",
+      "en": "And I'm like, well that will happen eventually, but if you want the gains now you got to put in the work.",
+      "zh": "而我会说，嗯，那最终会发生，但如果你现在想要收益，你就必须投入工作。"
+    }
+  ]
+}

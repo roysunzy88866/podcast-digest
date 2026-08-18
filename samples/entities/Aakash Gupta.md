@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":15,"Claude Code":21,"智能体":80,"对抗性智能体":1,"MCP":11,"知识库":1,"技能":3,"vibe coding":8,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":17,"Claude Code":22,"智能体":86,"对抗性智能体":1,"MCP":12,"知识库":1,"技能":4,"vibe coding":9,"红队测试":2}</script>
 
 <script>
 (function(){

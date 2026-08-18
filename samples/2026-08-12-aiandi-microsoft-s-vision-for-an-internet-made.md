@@ -126,9 +126,9 @@ Kevin 直言这是一种错误的二分法 <button class="pd-ts" data-t="12:50" 
 
 **换个口味**
 
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:智能体 (agent)、缩放定律 (scaling laws)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)</span>
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
 
 </div>
 </div>

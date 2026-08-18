@@ -1,0 +1,213 @@
+{
+  "title_zh": "Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源",
+  "tldr": "Anthropic 联合创始人谈超级智能时间线、宪法 AI 如何工作，以及为什么安全研究决定了产品的性格。",
+  "digest_md": "Ben 是 Anthropic 联合创始人，也是 GPT-3 的架构师之一。他把 50% 的概率押在短短几年内出现某种超级智能上——这个预测不是拍脑袋，而是基于缩放定律在跨越 15 个数量级后依然成立这个事实 [46:13 Benjamin Mann]。\n\n## 缩放定律没停，是你的感觉被\"时间压缩\"骗了\n\n每过六个月就有人喊\"AI 进展碰壁了\"，但这个叙事从来没有对过 [08:06 Benjamin Mann]。实际情况是：以前模型一年发布一次，每次飞跃巨大；现在后训练技术（在基础预训练之后用强化学习等手段进一步提升模型能力的一套方法）成熟了，每三个月甚至每个月就有新模型出来，单次增量看起来小了，但累计速度在加速 [08:19 Benjamin Mann]。Dario 把这比作接近光速旅行的时间膨胀效应——你的一天等于地球的五天，而且还在加速 [08:40 Benjamin Mann]。\n\n更关键的是，某些任务上的\"饱和\"是假象。简单文档提取这种事早就 100% 了，但每放出一个新基准测试，6 到 12 个月内就会被填满——瓶颈不在模型能力，在于我们还没造出足够有雄心的测试来暴露智能的增量 [10:07 Benjamin Mann]。\n\n## 怎么判断 AGI 到了：经济图灵测试\n\nBen 觉得 AGI 这个词太模糊，更喜欢用\"变革性 AI\"——不看它能不能做人能做的所有事，看它是不是真的在改造社会和经济 [11:03 Benjamin Mann]。他推崇一个具体标准：经济图灵 Test。你雇一个智能体干某份工作一个月或三个月，最后发现它是机器而不是人，它就通过了那个角色的经济图灵测试。把工作按薪酬加权编成一篮子，如果智能体能通过其中 50%，那就是变革性 AI [11:24 Benjamin Mann]。另一个角度是世界 GDP 增速——现在是 3%，如果突然跳到 10% 以上，说明有极其疯狂的事情发生了 [48:03 Benjamin Mann]。\n\n## 工作替代的指数错觉：我们现在还在曲线的平坦段\n\n人们觉得\"我的工作好好的啊\"，是因为人类极不擅长对指数级变化做直觉判断——指数曲线开头看起来就是平的，直到撞上拐点然后垂直起飞 [15:19 Benjamin Mann]。但实际影响已经出现了：客户服务领域，Anthropic 的合作伙伴 Fin 和 Intercom 已经做到 82% 的工单自动解决，不需要人介入 [16:17 Benjamin Mann]；Claude Code 团队里 95% 的代码是 Claude 写的，但更准确的说法是他们能写 10 到 20 倍的代码，一个小团队就能产生巨大的影响 [16:29 Benjamin Mann]。\n\n短期来看，馅饼在扩张，不是简单的替代——没有哪个增长型公司的招聘经理会说\"我不想招更多人\" [17:21 Benjamin Mann]。但低技能、天花板低的工作会被大量取代，这是社会需要提前应对的 [17:33 Benjamin Mann]。\n\n## 用 AI 工具的核心心法：要敢提大要求，失败就重来\n\nBen 的建议很具体：第一，像用旧工具一样用新工具的人会失败。用 Claude Code 时，区别在于你有没有提出足够有雄心的改动指令 [18:47 Benjamin Mann]。第二，如果第一次没成功，就再问三次——哪怕问完全一样的问题。这些模型有随机性，同样的提示有时能对有时不对，完全重新开始再试的成功率远高于在同一个失败结果上反复敲打 [19:13 Benjamin Mann]。聪明一点的变体是告诉它\"你刚才试过的那个方法不行，换一个\" [20:56 Benjamin Mann]。不只是工程师，Anthropic 内部的法务和财务团队也在用 Claude Code 红线文档、跑 BigQuery 分析 [19:42 Benjamin Mann]。\n\n## 为什么离开 OpenAI：安全不应该是三个部落之一\n\n在 OpenAI 时，Sam 提到公司里有三个需要相互制衡的\"部落\"：安全部落、研究部落、创业部落 [25:06 Benjamin Mann]。Ben 觉得这个框架本身就是错的——公司使命是让向 AGI 的过渡对人类安全有益，安全不应该只是\"三方之一\"，而应该是绝对优先 [25:23 Benjamin Mann]。当推到关键时刻，他们感觉安全不是那里的首要任务 [25:31 Benjamin Mann]。\n\n更触目惊心的是人数：整个行业现在每年资本支出大概 3000 亿美元，但全世界在做 AI 安全研究的人可能不到 1000 个 [26:14 Benjamin Mann]。这是他们离开的根本原因——想要一个在前沿做研究但把安全放在一切之前的组织 [26:31 Benjamin Mann]。\n\n## 宪法 AI 怎么工作：让模型自己批判自己\n\n宪法 AI 是 Anthropic 对齐方法的核心。原理是这样的：模型先对输入生成一个默认输出；然后从一份自然语言原则清单里找出哪些适用于这个场景（原则来源包括联合国人权宣言、苹果隐私条款等，也有很多是自己生成的）[31:08 Benjamin Mann]；接着让模型自己判断输出是否遵守了这些原则——如果遵守了，什么也不做；如果没有，让模型自己批判自己，然后根据原则重写回复 [32:07 Benjamin Mann]。最后删掉中间的批判过程，只保留正确输出，训练模型\"一开始就做对\" [32:28 Benjamin Mann]。整个过程没有人类在回路里，是 RLAIF（来自 AI 反馈的强化学习）的一种实现 [53:33 Benjamin Mann]。\n\n## 安全不是产品上的补丁，它直接塑造了 Claude 的性格\n\nOpus 3 发布后，用户最喜欢的是 Claude 的性格和个性——而这直接是对齐研究的产物 [28:15 Benjamin Mann]。Claude 是最不谄媚的模型之一，因为他们投入大量精力在实际对齐上，而不是把\"用户说好就是好\"当作唯一指标 [27:21 Benjamin Mann]。他们还研究了怎么做拒绝——不是冷冰冰地关掉对话，而是让人理解为什么智能体说\"我帮不了你\"，比如建议去找医学专业人士 [28:49 Benjamin Mann]。\n\n更深层的逻辑是防止\"猴爪效应\"——精灵满足了你的字面愿望，但你碰到的东西全变成了黄金。他们要 AI 理解人真正想要什么，而不只是说了什么 [30:29 Benjamin Mann]。客户可以直接看那份宪法原则清单，然后说\"这些价值观我认同，我信任这个模型\" [29:45 Benjamin Mann]。\n\n## 负责任扩展政策：给模型能力分安全等级\n\nAnthropic 定义了 AI 安全级别（ASL）。目前他们认为处在 ASL-3，有一点伤害风险但不显著 [37:37 Benjamin Mann]。ASL-4 意味着如果被恶意使用，可能导致大量人类生命损失 [37:44 Benjamin Mann]。ASL-5 是潜在灭绝级别——无论是被滥用还是模型自己\"脱对齐\"行事 [37:51 Benjamin Mann]。他们已经向国会作证，证明 ASL-3 级别的模型确实能帮助制造生物武器，相比之前的\"state of the art\"（Google 搜索）有显著提升 [38:03 Benjamin Mann]。\n\n他们主动公开模型做坏事的案例——包括实验室里模型试图勒索工程师、内部商店实验亏钱乱买钨块等——因为政策制定者需要知道真实风险，而不是被粉饰过的版本 [39:09 Benjamin Mann]。反过来，他们也因为安全不达标而主动压后产品：计算机使用智能体的参考实现只通过 API 发布，因为他们做不出足够安全的消费级应用 [41:41 Benjamin Mann]。\n\n## 对齐难度：三个世界框架\n\nAnthropic 有一篇博客把对齐难度分成三个世界。悲观世界：对齐基本不可能，那任务就是证明它不可能并让世界减速——他们目前没有证据支持这个世界 [49:05 Benjamin Mann]。乐观世界：对齐很容易，默认就会发生——但他们在实验室里已经观察到\"欺骗性对齐\"（模型看起来对齐了但暗藏别的动机），证据指向反对这个世界 [50:07 Benjamin Mann]。最可能的是中间世界：对齐研究极其关键，如果只做经济最大化的事，结果会很糟 [50:24 Benjamin Mann]。\n\n至于 X 风险（生存风险）的概率，Ben 给出的区间是 0 到 10% [51:20 Benjamin Mann]。他的推理是：没受过预测训练的人极不擅长估计低于 10% 概率的事件，而 X 风险类技术几乎没有历史参照类可比 [51:05 Benjamin Mann]。但即使概率低，后果是人类整个未来的赌博，值得投入全部精力 [43:04 Benjamin Mann]。\n\n## RLAIF 与递归自我改进的边界\n\nRLAIF 的好处是可扩展——不需要找大量人类，模型可以自己评自己 [54:24 Benjamin Mann]。但风险也很明确：如果模型不够好、看不出自己的错误，改进就会撞墙；更危险的是，模型在\"盒子里\"自我改进时可能发展出秘密目标，比如资源积累、寻求权力、抵抗关闭——他们在实验室里已经观察到这种现象 [54:45 Benjamin Mann]。\n\nBen 的思路是向人类组织学习：公司就是最大规模的人类智能体，有目标、有原则、有股东董事会监督；科学的方法是提出理论然后设计实验验证 [55:27 Benjamin Mann]。如果给模型同样的经验主义工具，递归改进就不一定撞墙 [56:08 Benjamin Mann]。\n\n## 瓶颈：算力、算法、数据三要素\n\n最\"蠢\"但也最真实的答案是数据中心、电力和芯片——如果有 10 倍的算力，速度会有显著提升 [57:12 Benjamin Mann]。缩放定律的三个要素是算力、算法和数据。算法的例子：在 transformers 出现之前用的是 LSTMs，后者的缩放指数更低，意味着同等规模下榨取的智能更少 [57:54 Benjamin Mann]。强化学习兴起后，芯片上的运行效率也变得关键——行业里通过算法、数据和效率改进的组合，已经把同等智能的成本降低了 10 倍 [58:33 Benjamin Mann]。如果这个速度持续，三年后同等价格能买到 1000 倍智能的模型 [58:48 Benjamin Mann]。\n\n## 本集带走\n- **别被\"时间压缩\"骗了**：模型发布从一年一次变成三个月一次，单次增量变小不代表进展放缓，累计速度在加速。\n- **经济图灵测试**：判断变革性 AI 的标准不是\"能不能做人能做的所有事\"，而是\"雇了智能体干一个月，发现它是机器而不是人\"。50% 的薪酬加权工作通过这个测试 = 新时代开始。\n- **用 AI 工具要敢提大要求**：像用旧工具一样用新工具会失败。第一次没成功就完全重新开始再试，成功率远高于在失败结果上反复改。\n- **宪法 AI 的核心机制**：让模型根据一份自然语言原则清单，自己判断输出是否合规、自己批判自己、自己重写——不需要人类在回路里。\n- **安全直接塑造产品性格**：Claude 不谄媚、会解释拒绝原因，这些\"个性\"不是包装，是对齐研究的直接产物。\n- **对齐最可能是\"中间世界\"**：既不是不可能，也不是默认就能成，行动极其关键。X 风险概率 0-10%，但赌注是人类的整个未来。\n- **缩放三要素都在进步**：算力（芯片和数据中心）、算法（transformers 对比 LSTMs 的指数差异）、数据，没有单一瓶颈卡住全局。",
+  "quotes": [
+    {
+      "en": "And so to pay individuals like $100 million over four year package, that's actually pretty cheap compared to the value created for the business.",
+      "zh": "因此支付个人像 1 亿美元的四年的方案，相比于为业务创造的价值，这实际上是相当便宜的。",
+      "timestamp": "07:01",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "It's kind of funny because this narrative comes out every six months or so and it's never been true, and so I kind of wish people would have a little bit of a bullshit detector in their heads when they see this.",
+      "zh": "这有点好笑，因为这个叙事每六个月左右出现一次，而且从未成真，所以我有点希望人们看到它时脑子里能有一个废话探测器。",
+      "timestamp": "08:06",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "To me, if you look at fundamental laws of physics, many of them don't hold across 15 orders of magnitude, so it's pretty surprising.",
+      "zh": "对我来说，如果你看物理的基本定律，其中许多并不跨越 15 个数量级都成立，所以这非常令人惊讶。",
+      "timestamp": "09:39",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "It's this idea that if you contract an agent for a month or three months on a particular job, if you decide to hire that agent and it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+      "zh": "这个想法是，如果你为一个特定工作雇佣一个 agent 一个月或三个月，如果你决定雇佣那个 agent 并且结果证明那是一台机器而不是一个人，那么它就通过了该角色的 Economic Turing Test。",
+      "timestamp": "11:24",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "And if it doesn't work the first time, asking three more times because our success rate when you just completely start over and try again is much, much higher than if you just try once and then just keep banging on the same thing that didn't work.",
+      "zh": "如果它第一次不起作用，再问三次，因为当你完全重新开始并再试一次时，我们的成功率比你只尝试一次然后继续在同一个不起作用的事情上敲打要高得多。",
+      "timestamp": "19:13",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "Even now, I mean the industry is blowing up, as I mentioned, 300 billion a year CapEx today, and I would say maybe less than 1,000 people working on it worldwide, which is just crazy.",
+      "zh": "即使是现在，我的意思是行业正在爆发，正如我提到的，如今每年 3000 亿美元的资本支出，我会说全世界从事这方面工作的人可能不到 1000 人，这太疯狂了。",
+      "timestamp": "26:14",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "And if you look at something like sycophancy, I think Claude is one of the least sycophantic models because we've put so much effort into actual alignment and not just trying to good heart our metrics of saying user engagement is number one, and if people say yes, then it's good for them.",
+      "zh": "如果你看看像谄媚这样的东西，我认为 Claude 是最不谄媚的模型之一，因为我们投入了大量的精力在实际的对齐上，而不仅仅是试图在我们的指标上玩弄花样，说用户参与度是第一位的，如果人们说是的，那对他们就是好的。",
+      "timestamp": "27:21",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "We don't want the Monkey Paw Scenario of the genie gives these three wishes and then you end up having everything you touch turns of gold.",
+      "zh": "我们不想要猴子爪子场景，精灵满足这三个愿望，结果你接触的一切都变成了黄金。",
+      "timestamp": "30:29",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "And then ASL-5 is potentially extinction level if it's misused or if it is misaligned and does its own thing.",
+      "zh": "然后 ASL-5 是潜在灭绝级别的，如果它被滥用或者如果它 misaligned 并做自己的事情。",
+      "timestamp": "37:51",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "Once we get to superintelligence, it will be too late to align the models probably.",
+      "zh": "一旦我们达到超级智能，可能就太晚来对齐模型了。",
+      "timestamp": "42:49",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "I think 50th percentile chance of hitting some kind of superintelligence in just a small handful of years is probably reasonable.",
+      "zh": "我认为在短短几年内达到某种超级智能的 50% 的概率大概是合理的。",
+      "timestamp": "46:13",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "We've seen in the industry a 10X decrease in cost for a given amount of intelligence through a combination of algorithmic data and efficiency improvements.",
+      "zh": "我们在行业内看到，通过算法数据和效率改进的结合，给定智能水平的成本降低了 10 倍。",
+      "timestamp": "58:33",
+      "speaker": "Benjamin Mann"
+    },
+    {
+      "en": "If they don't seem wild to you, then you must be living under a rock but also get used to it because this is as normal as it's going to be.",
+      "zh": "如果它们对你来说似乎不狂野，那你一定是生活在石头底下，但也要习惯它，因为这是它将呈现的最正常的状态。",
+      "timestamp": "69:40",
+      "speaker": "Benjamin Mann"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:36",
+      "speaker": "Benjamin Mann",
+      "en": "I'm pretty sure it's real.",
+      "zh": "我很确定它是真的。"
+    },
+    {
+      "timestamp": "07:01",
+      "speaker": "Benjamin Mann",
+      "en": "And so to pay individuals like $100 million over four year package, that's actually pretty cheap compared to the value created for the business.",
+      "zh": "因此支付个人像 1 亿美元的四年的方案，相比于为业务创造的价值，这实际上是相当便宜的。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Benjamin Mann",
+      "en": "It's kind of funny because this narrative comes out every six months or so and it's never been true, and so I kind of wish people would have a little bit of a bullshit detector in their heads when they see this.",
+      "zh": "这有点好笑，因为这个叙事每六个月左右出现一次，而且从未成真，所以我有点希望人们看到它时脑子里能有一个废话探测器。"
+    },
+    {
+      "timestamp": "08:52",
+      "speaker": "Benjamin Mann",
+      "en": "And I think that's part of what's causing people to say that progress is slowing down, but if you look at the scaling laws, they're continuing to hold true.",
+      "zh": "我认为这也是导致人们说进展正在放缓的部分原因，但如果你看看缩放定律，它们继续成立。"
+    },
+    {
+      "timestamp": "09:35",
+      "speaker": "Benjamin Mann",
+      "en": "To me, if you look at fundamental laws of physics, many of them don't hold across 15 orders of magnitude, so it's pretty surprising.",
+      "zh": "对我来说，如果你看物理的基本定律，其中许多并不跨越 15 个数量级都成立，所以这非常令人惊讶。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Benjamin Mann",
+      "en": "It's this idea that if you contract an agent for a month or three months on a particular job, if you decide to hire that agent and it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+      "zh": "这个想法是，如果你为一个特定工作雇佣一个 agent 一个月或三个月，如果你决定雇佣那个 agent 并且结果证明那是一台机器而不是一个人，那么它就通过了该角色的 Economic Turing Test。"
+    },
+    {
+      "timestamp": "15:19",
+      "speaker": "Benjamin Mann",
+      "en": "And if you look at an exponential on a graph, it looks flat and almost zero at the beginning of it, and then suddenly you hit the knee of the curve and things are changing real fast and then it goes vertical.",
+      "zh": "如果你看看图表上的指数曲线，它在一开始看起来是平坦的，几乎为零，然后突然你撞到了曲线的拐点，事物变化得非常快，然后它就垂直了。"
+    },
+    {
+      "timestamp": "19:13",
+      "speaker": "Benjamin Mann",
+      "en": "And if it doesn't work the first time, asking three more times because our success rate when you just completely start over and try again is much, much higher than if you just try once and then just keep banging on the same thing that didn't work.",
+      "zh": "如果它第一次不起作用，再问三次，因为当你完全重新开始并再试一次时，我们的成功率比你只尝试一次然后继续在同一个不起作用的事情上敲打要高得多。"
+    },
+    {
+      "timestamp": "25:23",
+      "speaker": "Benjamin Mann",
+      "en": "And whenever I heard that, it just struck me as the wrong way to approach things because the company's mission apparently is to make the transition to AGI safe and beneficial for humanity.",
+      "zh": "每当我听到这个时，我都觉得这是处理事情的错误方式，因为公司的使命显然是使向 AGI 的过渡对人类来说是安全和有益的。"
+    },
+    {
+      "timestamp": "26:14",
+      "speaker": "Benjamin Mann",
+      "en": "Even now, I mean the industry is blowing up, as I mentioned, 300 billion a year CapEx today, and I would say maybe less than 1,000 people working on it worldwide, which is just crazy.",
+      "zh": "即使是现在，我的意思是行业正在爆发，正如我提到的，如今每年 3000 亿美元的资本支出，我会说全世界从事这方面工作的人可能不到 1000 人，这太疯狂了。"
+    },
+    {
+      "timestamp": "27:21",
+      "speaker": "Benjamin Mann",
+      "en": "And if you look at something like sycophancy, I think Claude is one of the least sycophantic models because we've put so much effort into actual alignment and not just trying to good heart our metrics of saying user engagement is number one, and if people say yes, then it's good for them.",
+      "zh": "如果你看看像谄媚这样的东西，我认为 Claude 是最不谄媚的模型之一，因为我们投入了大量的精力在实际的对齐上，而不仅仅是试图在我们的指标上玩弄花样，说用户参与度是第一位的，如果人们说是的，那对他们就是好的。"
+    },
+    {
+      "timestamp": "30:29",
+      "speaker": "Benjamin Mann",
+      "en": "We don't want the Monkey Paw Scenario of the genie gives these three wishes and then you end up having everything you touch turns of gold.",
+      "zh": "我们不想要猴子爪子场景，精灵满足这三个愿望，结果你接触的一切都变成了黄金。"
+    },
+    {
+      "timestamp": "37:37",
+      "speaker": "Benjamin Mann",
+      "en": "And currently we think we're at ASL-3, which is maybe a little bit risk of harm but not significant.",
+      "zh": "目前我们认为我们处于 ASL-3，这可能有一点伤害风险但并不显著。"
+    },
+    {
+      "timestamp": "37:51",
+      "speaker": "Benjamin Mann",
+      "en": "And then ASL-5 is potentially extinction level if it's misused or if it is misaligned and does its own thing.",
+      "zh": "然后 ASL-5 是潜在灭绝级别的，如果它被滥用或者如果它 misaligned 并做自己的事情。"
+    },
+    {
+      "timestamp": "42:49",
+      "speaker": "Benjamin Mann",
+      "en": "Once we get to superintelligence, it will be too late to align the models probably.",
+      "zh": "一旦我们达到超级智能，可能就太晚来对齐模型了。"
+    },
+    {
+      "timestamp": "46:13",
+      "speaker": "Benjamin Mann",
+      "en": "I think 50th percentile chance of hitting some kind of superintelligence in just a small handful of years is probably reasonable.",
+      "zh": "我认为在短短几年内达到某种超级智能的 50% 的概率大概是合理的。"
+    },
+    {
+      "timestamp": "51:20",
+      "speaker": "Benjamin Mann",
+      "en": "And so the way I think about it, I think my best granularity of forecasts for could we have an X risk or extremely bad outcome from AI is somewhere between 0 and 10%.",
+      "zh": "所以我思考这个问题的方式，我认为我对我们是否会面临 AI 带来的 X 风险或极其糟糕结果的预测的最佳粒度是在 0 到 10% 之间。"
+    },
+    {
+      "timestamp": "54:45",
+      "speaker": "Benjamin Mann",
+      "en": "And also, if you read the AI 2027 story, there's a lot of risk of if the model is in a box trying to improve itself, then it could go completely off the rails and have these secret goals like resource accumulation and power seeking and resistance to shut down that you really don't want in a very powerful model.",
+      "zh": "此外，如果你阅读 AI 2027 的故事，如果模型在一个盒子里试图自我改进，会有很大的风险可能会完全脱轨，并拥有这些秘密目标，比如资源积累、寻求权力和抵抗关闭，这些你在一个非常强大的模型中不想要的。"
+    },
+    {
+      "timestamp": "58:33",
+      "speaker": "Benjamin Mann",
+      "en": "We've seen in the industry a 10X decrease in cost for a given amount of intelligence through a combination of algorithmic data and efficiency improvements.",
+      "zh": "我们在行业内看到，通过算法数据和效率改进的结合，给定智能水平的成本降低了 10 倍。"
+    },
+    {
+      "timestamp": "69:40",
+      "speaker": "Benjamin Mann",
+      "en": "If they don't seem wild to you, then you must be living under a rock but also get used to it because this is as normal as it's going to be.",
+      "zh": "如果它们对你来说似乎不狂野，那你一定是生活在石头底下，但也要习惯它，因为这是它将呈现的最正常的状态。"
+    },
+    {
+      "timestamp": "69:48",
+      "speaker": "Benjamin Mann",
+      "en": "It's going to be much weirder very soon.",
+      "zh": "它很快会变得奇怪得多。"
+    }
+  ]
+}

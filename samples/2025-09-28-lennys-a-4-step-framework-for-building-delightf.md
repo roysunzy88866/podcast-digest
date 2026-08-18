@@ -162,17 +162,17 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 **顺着「产品方法」挖下去**
 
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:GitHub、Slack</span>
+- [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同公司:Airbnb</span>
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱]]<span class="pd-rz">同公司:Slack</span>
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:GitHub</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|Uber COO 谈会员制反转、自动驾驶终局与AI预算失控]]<span class="pd-rz">同公司:Uber、Revolut</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Linear</span>
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]]<span class="pd-rz">同公司:Airbnb</span>
 
 </div>
 </div>

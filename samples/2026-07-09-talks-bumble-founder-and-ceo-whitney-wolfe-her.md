@@ -105,9 +105,9 @@ Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 
 
 **顺着「产品方法」挖下去**
 
+- [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同概念:创始人模式 (founder mode)</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
 - [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

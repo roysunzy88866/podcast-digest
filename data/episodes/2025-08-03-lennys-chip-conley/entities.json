@@ -1,0 +1,1202 @@
+{
+  "episode_id": "2025-08-03-lennys-chip-conley",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-08-03",
+  "tags": [
+    "年龄歧视",
+    "代际合作",
+    "创始人模式",
+    "企业文化",
+    "中年转型"
+  ],
+  "categories": [
+    "组织与领导力",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            214.451,
+            218.054
+          ],
+          "quote": "Head to greatquestion.com slash Lenny to get started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            262.004,
+            266.865
+          ],
+          "quote": "Get $1,000 off Vanta when you go to vanta.com slash Lenny.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            267.205,
+            270.186
+          ],
+          "quote": "That's V-A-N-T-A dot com slash Lenny.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            278.064,
+            282.606
+          ],
+          "quote": " Oh my God, Lenny, I sort of feel like I'm your father, who's so proud of his son.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            451.789,
+            453.41
+          ],
+          "quote": "it was hard at first Lenny,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            557.214,
+            557.495
+          ],
+          "quote": "Lenny,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            635.757,
+            637.497
+          ],
+          "quote": "I want to just compliment Lenny,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            697.72,
+            699.401
+          ],
+          "quote": "And I don't know if you felt that way, Lenny.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1135.602,
+            1135.922
+          ],
+          "quote": "Lenny,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 775,
+          "t": [
+            2088.586,
+            2093.428
+          ],
+          "quote": "go to Coda.io slash Lenny today and get six months free of the team plan for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2094.169,
+            2100.012
+          ],
+          "quote": "That's C-O-D-A dot I-O slash Lenny to get started for free and get six months of the team plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            2100.432,
+            2101.913
+          ],
+          "quote": "Coda.io slash Lenny.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            3791.567,
+            3794.5879999999997
+          ],
+          "quote": "I'm sorry to tell you that, Lenny, since you're 44.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1763,
+          "t": [
+            4726.459,
+            4729.081
+          ],
+          "quote": "Lenny was so good to work with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1785,
+          "t": [
+            4766.112,
+            4770.897
+          ],
+          "quote": "You can find all past episodes or learn more about the show at Lenny's Podcast dot com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chip-connolly",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chip Connolly",
+      "file": "Chip Connolly",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            73.285,
+            74.925
+          ],
+          "quote": " Today, my guest is Chip Connolly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            159.638,
+            162.24
+          ],
+          "quote": "With that, I bring you Chip Connolly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": true,
+      "how_described": "本集将其作为 Chip 52 岁加入的科技公司背景，平均年龄 26 岁；讨论了 Airbnb 面临的监管挑战（入住税）以及'belong anywhere'的品牌重新定义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.089,
+            3.994
+          ],
+          "quote": " Let's paint a picture of just what it was like to join Airbnb in your 50s.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            55.354,
+            58.796
+          ],
+          "quote": "The Airbnb experience led you to starting something called the Modern Elder Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            92.789,
+            96.889
+          ],
+          "quote": "Brian Chesky personally recruited Chip to join Airbnb to help Brian and the company",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            101.65,
+            102.731
+          ],
+          "quote": "After leaving Airbnb,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            296.044,
+            298.625
+          ],
+          "quote": "We got to work together for many years at Airbnb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            315.993,
+            317.094
+          ],
+          "quote": "your time at Airbnb,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            324.06,
+            326.562
+          ],
+          "quote": "I want to talk about Airbnb, where we got to work together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            327.383,
+            332.347
+          ],
+          "quote": "Let's paint a picture of just what it was like for you to join Airbnb in your 50s,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            345.199,
+            350.626
+          ],
+          "quote": "I got a call from a woman named Natalie Tucci who worked at Airbnb and said,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            356.254,
+            358.296
+          ],
+          "quote": "And I was like, well, what is Airbnb?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            394.686,
+            399.373
+          ],
+          "quote": "background talking about the industry that Airbnb was disrupting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            527.304,
+            528.665
+          ],
+          "quote": "You work closely with her at Airbnb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            542.196,
+            546
+          ],
+          "quote": "I thought the product of Airbnb was the hosts and the experiences and the trips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            580.74,
+            586.004
+          ],
+          "quote": "there was a conversation that was going on about taking Airbnb so it was mobile",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            590.667,
+            594.189
+          ],
+          "quote": "the two sharing economy darlings were Uber and Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            598.032,
+            601.694
+          ],
+          "quote": "And Airbnb started as non-mobile and then went mobile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            750.931,
+            755.055
+          ],
+          "quote": "Well, let's start with the fact that I would never have gone to work for Airbnb",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1081.786,
+            1086.609
+          ],
+          "quote": "And Airbnb is as successful as it is partly because of Brian's leadership.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1269.255,
+            1274.361
+          ],
+          "quote": "So this whole story of you joining Airbnb in your 50s is a really good example of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1288.635,
+            1292.76
+          ],
+          "quote": " I wrote a book called Wisdom at Work, The Making of a Modern Elder, after my Airbnb experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            1466.891,
+            1470.573
+          ],
+          "quote": "And that has consistently been Airbnb's biggest challenge,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1505.688,
+            1510.071
+          ],
+          "quote": "I think you probably remember him at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 585,
+          "t": [
+            1519.754,
+            1523.676
+          ],
+          "quote": "he was not necessarily going to be the best coder at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1555.7,
+            1559.103
+          ],
+          "quote": "And that's something I tried to do with my teams at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            1571.314,
+            1576.137
+          ],
+          "quote": "There was a woman named Lisa Dubost who is at Airbnb and she one day,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            1660.357,
+            1663.759
+          ],
+          "quote": "In Airbnb, we had a group called Wisdom at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1686.736,
+            1687.637
+          ],
+          "quote": "weeks at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            1688.057,
+            1692.321
+          ],
+          "quote": "And it was the wisdom at Airbnb older employee group that really actually pushed",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            1778.866,
+            1783.249
+          ],
+          "quote": "are you open as I ultimately was with Brian in my fourth year at Airbnb?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 679,
+          "t": [
+            1810.785,
+            1811.166
+          ],
+          "quote": "Airbnb,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            1811.206,
+            1813.567
+          ],
+          "quote": "one of the biggest challenges at Airbnb has always been,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 727,
+          "t": [
+            1961.927,
+            1963.509
+          ],
+          "quote": "there's lots of things I didn't do well at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            2214.04,
+            2216.862
+          ],
+          "quote": "One of the things I loved at Airbnb,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2243.903,
+            2246.286
+          ],
+          "quote": "I'd never used a Google Doc back then when I joined Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            2313.055,
+            2318.298
+          ],
+          "quote": "I'd expected value that I was able to offer to Airbnb and to Brian specifically",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 843,
+          "t": [
+            2318.458,
+            2323.701
+          ],
+          "quote": "because there are a ton of people in Airbnb who were not even in my departments who",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            2690.332,
+            2697.395
+          ],
+          "quote": "So that's really how I created this space in my life to be able to join Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1051,
+          "t": [
+            2879.745,
+            2884.188
+          ],
+          "quote": "Specifically, there's a huge focus on culture, which also came out at Airbnb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            2931.207,
+            2933.71
+          ],
+          "quote": "And similarly with Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            2933.75,
+            2937.513
+          ],
+          "quote": "I mean, Airbnb had offices around the world and it was a global company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3001.115,
+            3003.237
+          ],
+          "quote": "and we saw it at Airbnb over and over again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3003.257,
+            3007.522
+          ],
+          "quote": "In fact, Airbnb saw it, I think, with Amazon people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            3008.643,
+            3013.007
+          ],
+          "quote": "Apple people have resonated pretty well at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            3203.274,
+            3206.537
+          ],
+          "quote": "When I reflect back on the impact you had at Airbnb,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1214,
+          "t": [
+            3328.338,
+            3332.179
+          ],
+          "quote": "And I think one of the things that we did at Airbnb about a year after I joined and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1220,
+          "t": [
+            3349.526,
+            3351.467
+          ],
+          "quote": "Airbnb was not in home sharing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            3433.554,
+            3437.397
+          ],
+          "quote": "You started the hotel chain, then you went to Airbnb.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            3438.678,
+            3439.979
+          ],
+          "quote": "the Airbnb experience,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1261,
+          "t": [
+            3452.174,
+            3455.96
+          ],
+          "quote": "So there was a couple of times where I was called the modern elder at Airbnb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1264,
+          "t": [
+            3463.761,
+            3466.562
+          ],
+          "quote": "who was the chief marketing officer at Airbnb,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "modern-elder-academy",
+      "type": "company",
+      "role": "company",
+      "name": "Modern Elder Academy",
+      "file": "Modern Elder Academy",
+      "primary": true,
+      "how_described": "本集称其为 Chip 离开 Airbnb 后创办的'世界上第一所中年智慧学校'，在 Baja 和 Santa Fe 有校区，帮助人们重新想象和重新定位自己",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            55.354,
+            58.796
+          ],
+          "quote": "The Airbnb experience led you to starting something called the Modern Elder Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            105.252,
+            107.253
+          ],
+          "quote": "Chip started the Modern Elder Academy,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            320.557,
+            321.778
+          ],
+          "quote": "the Modern Elder Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1257,
+          "t": [
+            3441.02,
+            3443.903
+          ],
+          "quote": "led you to starting something called the Modern Elder Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            3444.523,
+            3446.805
+          ],
+          "quote": "Talk about what is the Modern Elder Academy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1259,
+          "t": [
+            3447.967,
+            3450.251
+          ],
+          "quote": " Yeah, what is going on with that modern elder academy?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1260,
+          "t": [
+            3450.772,
+            3452.094
+          ],
+          "quote": "The modern elder academy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1268,
+          "t": [
+            3477.186,
+            3480.747
+          ],
+          "quote": "And next thing I knew, I was saying, OK, this is called the Modern Elder Academy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "joie-de-vivre",
+      "type": "company",
+      "role": "company",
+      "name": "Joie de Vivre",
+      "file": "Joie de Vivre",
+      "primary": true,
+      "how_described": "本集称其为 Chip 26 岁时创办的精品酒店公司， grew to 52 hotels and became the second largest boutique hotel chain in the US",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            908.615,
+            912.636
+          ],
+          "quote": "and this was my experience in my 24 years of running Joie de Vivre,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 966,
+          "t": [
+            2636.998,
+            2642.179
+          ],
+          "quote": "Um, so long story short is that was how I started Joie de Vivre and the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            2919.096,
+            2923.4
+          ],
+          "quote": "But in my company in Joie de Vivre,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "founder-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人模式 (founder mode)",
+      "file": "创始人模式",
+      "primary": true,
+      "how_described": "本集讨论了处于创始人模式的人如何工作——假定所有人都跟他一个节奏和时长、指出问题让人'感觉被需要'但可能让人失去动力、给目标'加个零'设定不合理截止日期",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            14.106,
+            15.407
+          ],
+          "quote": "So it's great to be in founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            15.427,
+            17.67
+          ],
+          "quote": "It's not as great to be working for someone in founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            710.599,
+            714.082
+          ],
+          "quote": "A lot of people talk about founder mode and the power of founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            721.528,
+            722.969
+          ],
+          "quote": " So it's great to be in founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            723.129,
+            725.491
+          ],
+          "quote": "It's not as great to be working for someone in founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1112.619,
+            1114.42
+          ],
+          "quote": "especially now that founder mode is a thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1117.702,
+            1118.762
+          ],
+          "quote": "It's founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1119.483,
+            1120.103
+          ],
+          "quote": "We're in founder mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1126.747,
+            1132.411
+          ],
+          "quote": "Is there anything else you just think as tactics to be effective with founders and founder mode?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fluid-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "流体智力 (fluid intelligence)",
+      "file": "流体智力",
+      "primary": true,
+      "how_described": "本集称年轻大脑具有流体智力——快速、专注、擅长线性思考和解决问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 495,
+          "t": [
+            1308.612,
+            1312.193
+          ],
+          "quote": "and realized that a younger brain has fluid intelligence,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "crystallized-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "晶体智力 (crystallized intelligence)",
+      "file": "晶体智力",
+      "primary": true,
+      "how_described": "本集称年长大脑具有晶体智力——专注度降一点，但整体思维、系统思维、连点成线的能力更强",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 500,
+          "t": [
+            1323.536,
+            1324.857
+          ],
+          "quote": " you have crystallized intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1324.957,
+            1326.197
+          ],
+          "quote": "And in crystallized intelligence,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "invisible-productivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐形生产力 (invisible productivity)",
+      "file": "隐形生产力",
+      "primary": true,
+      "how_described": "本集将其定义为'不是你自己解决问题，而是让周围所有人都变得更好的生产力'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 593,
+          "t": [
+            1549.693,
+            1551.375
+          ],
+          "quote": "I call this invisible productivity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "culture-add",
+      "type": "concept",
+      "role": "concept",
+      "name": "文化增项 (culture add)",
+      "file": "文化增项",
+      "primary": true,
+      "how_described": "本集称其比'文化契合'更好——不是让你硬融入，而是你的差异能丰富文化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1100,
+          "t": [
+            3037.355,
+            3043.176
+          ],
+          "quote": "I like to say culture add, because culture fit to me means, can actually be quite negative.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "u-curve-of-happiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "幸福的 U 型曲线 (U-curve of happiness)",
+      "file": "幸福的 U 型曲线",
+      "primary": true,
+      "how_described": "本集称全球研究显示 18-24 岁快乐，然后生活满意度缓慢下降，在 45-50 岁触底，从 50 或 52 岁开始变得更快乐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1380,
+          "t": [
+            3762.61,
+            3764.811
+          ],
+          "quote": "The other data point is something called the U-curve of happiness.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chrysalis",
+      "type": "concept",
+      "role": "concept",
+      "name": "蛹期 (chrysalis)",
+      "file": "蛹期",
+      "primary": true,
+      "how_described": "本集将中年定义为蛹期而非危机——毛毛虫变蝴蝶中间的茧，里面一切在液化，但另一边是蜕变",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            58.896,
+            62.839
+          ],
+          "quote": "So if you think about the caterpillar to butterfly journey, midlife is the chrysalis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 980,
+          "t": [
+            2664.359,
+            2666.22
+          ],
+          "quote": "what I now call a midlife chrysalis,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1416,
+          "t": [
+            3859.028,
+            3862.43
+          ],
+          "quote": " You used this term earlier, the midlife chrysalis, was that what it was?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1417,
+          "t": [
+            3862.59,
+            3863.991
+          ],
+          "quote": "Or chrysalis, chrysalis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1420,
+          "t": [
+            3867.052,
+            3871.434
+          ],
+          "quote": "So if you think about the caterpillar to butterfly journey, midlife is the chrysalis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1430,
+          "t": [
+            3889.945,
+            3895.029
+          ],
+          "quote": "I have a podcast called The Midlife Chrysalis because I want to help change the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1434,
+          "t": [
+            3901.694,
+            3908.139
+          ],
+          "quote": "it's maybe chrysalis and the idea that life is meant to be transformative during",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "age-fluid",
+      "type": "concept",
+      "role": "concept",
+      "name": "年龄流动 (age fluid)",
+      "file": "年龄流动",
+      "primary": false,
+      "how_described": "本集称不被年龄定义，像人们说性别流动一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 716,
+          "t": [
+            1926.846,
+            1929.107
+          ],
+          "quote": "They're age fluid, as I say.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generalists",
+      "type": "concept",
+      "role": "concept",
+      "name": "通才 (generalists)",
+      "file": "通才",
+      "primary": false,
+      "how_described": "本集引用 David Epstein 的《Range》，称我们正从专家时代进入通才时代，AI 在加速这个过程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 794,
+          "t": [
+            2147.778,
+            2150.059
+          ],
+          "quote": "specialists and into the era of the generalists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            2167.699,
+            2173.102
+          ],
+          "quote": " I think generalists, people who can think broadly, become all the more important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 870,
+          "t": [
+            2393.442,
+            2396.444
+          ],
+          "quote": " And then on the other side is hired generalists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 873,
+          "t": [
+            2400.147,
+            2402.708
+          ],
+          "quote": "the power of generalists reminds me,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mutual-mentorships",
+      "type": "concept",
+      "role": "concept",
+      "name": "互为指导 (mutual mentorships)",
+      "file": "互为指导",
+      "primary": false,
+      "how_described": "本集称年长者教你怎么开会、怎么做员工回顾，年轻人教你用 iPhone、用 Google Doc，像学徒制一样在现场学",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 811,
+          "t": [
+            2210.478,
+            2213.34
+          ],
+          "quote": " intergenerational collaboration in the form of mutual mentorships.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "maslow-s-hierarchy",
+      "type": "concept",
+      "role": "concept",
+      "name": "马斯洛层次 (Maslow's hierarchy)",
+      "file": "马斯洛层次",
+      "primary": false,
+      "how_described": "本集用其构建员工需求模型——底层是钱/报酬，中间是认可，顶层是意义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1162,
+          "t": [
+            3214.445,
+            3216.927
+          ],
+          "quote": "specifically rooted in Maslow's hierarchy,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            3241.088,
+            3241.869
+          ],
+          "quote": "Maslow's hierarchy,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anxiety-balance-sheet",
+      "type": "concept",
+      "role": "concept",
+      "name": "焦虑资产负债表 (anxiety balance sheet)",
+      "file": "焦虑资产负债表",
+      "primary": false,
+      "how_described": "本集称画四列——你知道什么、你不知道什么、你能控制什么、你不能控制什么，把游离的焦虑塞进这个框架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1619,
+          "t": [
+            4362.839,
+            4367.94
+          ],
+          "quote": "And so you can create an anxiety balance sheet and create four columns.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

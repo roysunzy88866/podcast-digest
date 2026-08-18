@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":80,"LLM":10,"推荐系统":1,"监督学习":1,"强化学习":9,"transformer":2,"创造性破坏":1,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":86,"LLM":10,"推荐系统":1,"监督学习":1,"强化学习":9,"transformer":2,"创造性破坏":1,"Anthropic":46}</script>
 
 <script>
 (function(){

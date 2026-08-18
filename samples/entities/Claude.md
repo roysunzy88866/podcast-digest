@@ -1,16 +1,17 @@
 ---
 title: Claude
-entity_type: 公司
+entity_type: 概念
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(16:29起):本集说 Claude 是最不谄媚的模型之一，其性格和个性（如拒绝时会建议找医学专业人士）直接是对齐研究的产物，并且 Claude Code 团队里 95% 的代码是由 Claude 编写的。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(14:20起):本集提到 Anthropic 的 CPO 表示 Claude 正主动走差异化路线，专注于开发者工具、编码和后端，而不是跟 ChatGPT 抢大众分发平台的位置
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(31:49起):本集广告口播中提到 Claude 可以处理复杂多步骤工作，Claude 4 Opus 是世界上最好的编码模型
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(21:02起):本集提到 Claude 作为可以结合各自擅长的领域的多个模型之一，Ezinne 说 Claude 是她的副手
@@ -20,6 +21,7 @@ unlisted: true
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(11:59起):本集提到有人可能会把财务报表连到 Claude 上开始问问题。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
+- **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(23:56起):本集说当所有人因为 GPT 5.5 更聪明而搬到 Codex 时，那些坚持用 Claude 并打磨出完美设置的人实际交付可能比迁移的人更好
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的核心 AI 产品,本集大量提到它的能力提升以及「诚实无害有帮助」的训练对齐理念
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(06:25起):本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。
@@ -28,7 +30,9 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*9 条*
+*10 条*
+
+![[2025-07-20-lennys-anthropic-co-founder-benjamin-mann#^q7]]
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -50,8 +54,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*17 集*
 
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
@@ -61,6 +66,7 @@ unlisted: true
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
+- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念(提及)
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
@@ -72,9 +78,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude Code]] · [[LLM]] · [[Slack]] · [[Codex]] · [[OpenAI]] · [[沙箱]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[后训练]] · [[LLM]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Anthropic":45,"Lenny":48,"ChatGPT":18,"Claude Code":21,"LLM":10,"Slack":17,"Codex":15,"OpenAI":34,"沙箱":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"Anthropic":46,"Lenny":52,"Claude Code":22,"OpenAI":37,"ChatGPT":19,"Codex":16,"后训练":8,"LLM":10,"vibe coding":9}</script>
 
 <script>
 (function(){

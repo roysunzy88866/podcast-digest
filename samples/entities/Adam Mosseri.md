@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Instagram":2,"TikTok":1,"Anthropic":45,"Facebook":5,"open ai":2,"Twitter":4,"Reels":2,"Stories":2,"pods":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Instagram":2,"TikTok":1,"Anthropic":46,"Facebook":6,"open ai":2,"Twitter":4,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

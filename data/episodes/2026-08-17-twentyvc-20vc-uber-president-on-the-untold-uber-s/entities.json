@@ -1,0 +1,1597 @@
+{
+  "episode_id": "2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-17",
+  "tags": [
+    "Uber 运营",
+    "会员制经济",
+    "自动驾驶",
+    "AI 预算与 ROI",
+    "智能体与分发"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            23.297,
+            31.4
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and I'm so excited to welcome one of the greatest operators of the last two decades to the hot seat, Andrew McDonald.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "andrew-macdonald",
+      "type": "person",
+      "role": "cohost",
+      "name": "Andrew MacDonald",
+      "file": "Andrew MacDonald",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集以 Uber 为核心案例，讨论其作为年总预订额近 2500 亿美元、月活 2 亿的平台，在会员制、自动驾驶、AI 预算管理和新业务孵化上的运营逻辑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            31.66,
+            39.123
+          ],
+          "quote": "He's the president and COO at Uber, where he leads all businesses initiatives for the company across mobility and delivery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            39.403,
+            43.125
+          ],
+          "quote": "He is Uber's longest tenured active employee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            43.305,
+            45.706
+          ],
+          "quote": "And today, Uber's an absolute monster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            60.716,
+            65.499
+          ],
+          "quote": "This was a behind the scenes on Uber like we haven't seen before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            271.528,
+            275.794
+          ],
+          "quote": "People start, they join Uber, they say, you know, you've been very successful at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            282.739,
+            300.642
+          ],
+          "quote": "One is, and I think the most important thing is, if you genuinely are just trying to do what you think is the right thing for the company, and that is your filter, and you build trust that that's what you're optimizing for all the time on every decision, big decisions and small decisions, that you are using the lens of what is the best thing for Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            401.313,
+            406.777
+          ],
+          "quote": "I think I have been too short-termist on certain issues, like membership, Uber One, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            432.694,
+            440.48
+          ],
+          "quote": "I mean, the reason I've changed is because, first of all, Uber One is, I think, on many metrics, one of the more successful membership programs in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            595.61,
+            599.792
+          ],
+          "quote": "And part of that is because they're consolidating more of their mobility business onto Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            600.152,
+            604.235
+          ],
+          "quote": "Part of it is because actually you get some Uber Eats benefits with your membership program, too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            604.255,
+            607.617
+          ],
+          "quote": "So now you start using Uber Eats instead of DoorDash or Deliveroo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            666.526,
+            673.349
+          ],
+          "quote": "Like for a membership program as big as we are, I think there's still a lot of people who have Uber One and don't actually fully realize the benefits they're getting on mobility.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            751.03,
+            756.534
+          ],
+          "quote": "So I'm thinking of a new product, I want to stand up and it's a mobility service that we're going to offer through the Uber app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            808.881,
+            816.483
+          ],
+          "quote": "I mean, we run a program called Growth Bets, which is, you know, intended very much to incubate new businesses within Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            948.589,
+            953.792
+          ],
+          "quote": "Every new product wants to be featured on the masthead of Uber Eats or wants to be in the product selector for rides.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1036.874,
+            1038.615
+          ],
+          "quote": "You can get trains on Uber here in London.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1069.219,
+            1073.164
+          ],
+          "quote": "To be fair, I use Uber as an argument every single day because I don't have a driver's license because I have Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1193.397,
+            1199.682
+          ],
+          "quote": "And if Uber doesn't have autonomy on our platform, and we will, we are investing actively and aggressively to bring it to market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1254.082,
+            1260.687
+          ],
+          "quote": "First off, I'll say when we started our autonomous efforts, you know, this is a secret project within Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1358.208,
+            1363.95
+          ],
+          "quote": "And Uber had a lot to prove that we could just lead and win and make money in our core business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1448.247,
+            1450.807
+          ],
+          "quote": "The third piece is Uber is so global, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1474.393,
+            1477.734
+          ],
+          "quote": "And so if you want to say, when will the majority of trips at Uber be autonomous?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1666.033,
+            1668.196
+          ],
+          "quote": "You were at Uber when you did Uber China, no?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1683.352,
+            1685.054
+          ],
+          "quote": "What's the wildest story from Uber China?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1786.636,
+            1789.918
+          ],
+          "quote": "And Uber was best in the world at capitalizing in the free money era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1815.148,
+            1844.155
+          ],
+          "quote": "Another story I heard which I thought was nuts, and this was not an Uber story, but before when Uber and Didi did our deal, we were the two largest players, but before there was a third player, I think it was called Quaddi, and Didi and Quaddi merged, and they sort of merged the companies, they did a deal, they were combining HR systems, and they realized that of the 2,000 employees here and the 2,000 employees here, there were like 200 employees that were on both payrolls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1938.516,
+            1946.458
+          ],
+          "quote": "But the Uber China team, these were people who bet on Uber, who joined Uber, I'm sure, when many of their friends and families are like, what are you doing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1948.378,
+            1951.299
+          ],
+          "quote": "They were like heart and soul Uber employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1958.503,
+            1964.085
+          ],
+          "quote": "And many of those folks, and there's still some today that are at Uber today, but that was hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1968.767,
+            1971.188
+          ],
+          "quote": "And our Uber China team was all in on the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2032.975,
+            2041.598
+          ],
+          "quote": "Let me give a little bit of backstory on this, because Uber had two big AI headlines in the first half of this year, I think both of which caught at least the people involved by surprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2101.634,
+            2108.917
+          ],
+          "quote": "So, on the one side, it was kind of like, I think AI skeptics were sort of like, see, the Uber COO is saying there's no return on AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2601.502,
+            2615.353
+          ],
+          "quote": "So within companies, I think if you took everything Uber does today and held it static and said, in five years, you're going to need more or less people, I'd say, well, we could do everything we do today with less people in five years because of the power of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2684.638,
+            2688.819
+          ],
+          "quote": "I think you'd put Uber in the less penetrable bi-frontier lamps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2744.178,
+            2751.864
+          ],
+          "quote": "The disaggregation risk on both delivery and mobility is that people want to start their Uber ride with a plain language query.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2796.248,
+            2801.752
+          ],
+          "quote": "Every Uber car in the network, what the price of that ride is, whatever other characteristics you can feed us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2810.979,
+            2813.501
+          ],
+          "quote": "I want people to start at the Uber app for the Uber experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2821.404,
+            2830.387
+          ],
+          "quote": "And we've been worried and discussing, like, hey, is somebody going to just put into ChatGPT or Claude, like, get me my usual Uber?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2837.431,
+            2839.532
+          ],
+          "quote": "Get me an Uber transaction, it's still you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2845.175,
+            2852.479
+          ],
+          "quote": "There's a question as to compare the prices of Uber, Lyft, and Waymo and get me the cheapest one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2856.701,
+            2859.443
+          ],
+          "quote": "But if today 80% of people just start with Uber,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2874.253,
+            2879.877
+          ],
+          "quote": "All the little things that happen between saying, get me an Uber, and you being done that ride,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2990.975,
+            2995.078
+          ],
+          "quote": "The transaction can originate in different channels and then end in the Uber app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3072.603,
+            3075.685
+          ],
+          "quote": "So first of all, I'll say like, Uber has been on this journey, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3138.374,
+            3145.256
+          ],
+          "quote": "Like, how quickly does it take for a new business line or a new country to get to a relevant scale that matters for Uber?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3194.462,
+            3196.043
+          ],
+          "quote": "And that's an exciting version of Uber, for sure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3273.671,
+            3300.601
+          ],
+          "quote": "It's it's well look I mean everyone is like struggling to find enough hours in the day and and Uber right now like the teams are pushing hard and and I'm worried that like some of our teams are going to run out of gas like you know you can only push above the red line for so long because you know we just have a lot of opportunity but also a lot of challenges and we're best in a crisis we're best with the challenge in front of us we're best when we feel like we're up against the world a little bit that's our DNA and so I'm kind of inspired by that but it's hard",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3300.821,
+            3316.667
+          ],
+          "quote": "right now and and and personally I'm as I said I'm working sort of two jobs but back to your like which is your favorite business I'm working in the delivery business and directly pulling the levers myself for the first time ever in my tenure at uber and I'm really enjoying it it's a very complex business",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3445.873,
+            3448.935
+          ],
+          "quote": "When I saw that, I was like, they've got balls at Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            3725.282,
+            3732.289
+          ],
+          "quote": "And I think Dar was exactly the right leader for Uber when he came in and continues to be exactly the right leader for the company today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3735.532,
+            3743.48
+          ],
+          "quote": "You know, for me, it's like, it kind of comes back to where we started, like almost your first question in the interview, which is like, when times have been hard at Uber,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3743.86,
+            3747.782
+          ],
+          "quote": "I've not wanted to leave because I felt like it was the wrong thing for Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3753.005,
+            3756.347
+          ],
+          "quote": "And then when times are good at Uber, I want to stay because this is fun.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "uber-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "Uber One",
+      "file": "Uber One",
+      "primary": true,
+      "how_described": "本集称 Uber One 在许多指标上已接近 Amazon Prime 和 Costco 水平，是 Uber 效率最高的长期消费者杠杆，其价值随时间复利增长，因为会员会把更多出行和外卖整合到平台上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            401.313,
+            406.777
+          ],
+          "quote": "I think I have been too short-termist on certain issues, like membership, Uber One, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            432.694,
+            440.48
+          ],
+          "quote": "I mean, the reason I've changed is because, first of all, Uber One is, I think, on many metrics, one of the more successful membership programs in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            666.526,
+            673.349
+          ],
+          "quote": "Like for a membership program as big as we are, I think there's still a lot of people who have Uber One and don't actually fully realize the benefits they're getting on mobility.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (autonomy)",
+      "file": "自动驾驶",
+      "primary": true,
+      "how_described": "本集说自动驾驶今天是它最差的一天但每天都在变好，如果 Uber 平台没有自动驾驶就是生存威胁；按量算渗透极慢（因印度巴西均价 2-4 美元），但按金额算在高客单价城市可能很快占据主导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.714,
+            12.094
+          ],
+          "quote": "Autonomy is as bad as it's ever going to be today, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1161.476,
+            1166.259
+          ],
+          "quote": "But I think increasingly over time, autonomy is not only going to be safe, it's going to be safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1182.67,
+            1193.357
+          ],
+          "quote": "When you have a better product that is only going to get better over time and autonomy is as bad as it's ever going to be today, right, and every single day it's going to get better, then that's going to be the business and that's going to be how people get around.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1193.397,
+            1199.682
+          ],
+          "quote": "And if Uber doesn't have autonomy on our platform, and we will, we are investing actively and aggressively to bring it to market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1208.868,
+            1218.254
+          ],
+          "quote": "Like, if you look at our autonomy investments, we are making a mix of equity investments in companies, purchase commitments, building out autonomous infrastructure, building out data collect fleet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1296.576,
+            1302.084
+          ],
+          "quote": "And at that time, like, autonomy, the narrative was ahead of the reality by a lot, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1324.148,
+            1332.074
+          ],
+          "quote": "I mean, when we ultimately divested ATG, which was our internal autonomy group, we were in the depths of COVID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1348.083,
+            1350.845
+          ],
+          "quote": "We did not believe we were leading in autonomy at the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1464.711,
+            1471.373
+          ],
+          "quote": "It's going to be decades until the cost of autonomy compresses to the point where it compete with that cost of human labor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1478.175,
+            1482.156
+          ],
+          "quote": "I can't tell you because I can tell you it's probably not going to be until autonomy gets to Brazil and India.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1501.706,
+            1513.134
+          ],
+          "quote": "But yes, of course, if autonomy starts to make up the majority of markets in San Francisco, LA, DC, Miami, New York, Boston, that's a big chunk of our bookings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1537.095,
+            1546.54
+          ],
+          "quote": "Like a very natural question or often feedback we get from investors or smart types who follow our business is like, so yeah, I believe that there will be a few players that get to autonomy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1554.804,
+            1559.526
+          ],
+          "quote": "And so I just don't know, even in a world where you have access to autonomy, like how are your margins going to look?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论智能体如何将用户路由到提供商、导致 UI 解聚合风险——比如用户在 ChatGPT 里说'比较 Uber、Lyft 和 Waymo 价格给我最便宜的'，而今天 80% 的人是直接打开 Uber App",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            158.107,
+            161.288
+          ],
+          "quote": "Asana, where humans and agents workflow together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            184.078,
+            189.92
+          ],
+          "quote": "Apps, websites, AI agents, real working products built in minutes using nothing but plain language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2753.105,
+            2761.772
+          ],
+          "quote": "Because I was talking about this with really smart people, and they talk about agents and how agents will route you to provider and you have no customer loyalty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            3933.485,
+            3936.667
+          ],
+          "quote": "Asana, where humans and agents workflow together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3959.455,
+            3965.297
+          ],
+          "quote": "Apps, websites, AI agents, real working products, built in minutes using nothing but plain language.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "igb",
+      "type": "concept",
+      "role": "concept",
+      "name": "IGB",
+      "file": "IGB",
+      "primary": true,
+      "how_described": "本集将 IGB（Incremental gross bookings）定义为衡量每一美元投入的关键输入指标，即投入一美元激励能换回多少增量收入，用来对比降价促销和会员制的效率差异",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            530.767,
+            539.755
+          ],
+          "quote": "And the reason for that is like ultimately we are looking at like IGB as a critical input metric for any dollar I deploy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            539.775,
+            540.296
+          ],
+          "quote": "What is IGB?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            575.075,
+            583.602
+          ],
+          "quote": "So we're typically looking at a very baseline IGB type or incremental revenue type metric for any dollar we're putting into the marketplace.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "variable-cost-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "可变成本模式 (variable cost model)",
+      "file": "可变成本模式",
+      "primary": true,
+      "how_described": "本集说 Uber 模式美在需求降成本就降，但这意味着没有固定产能可以白送，想给会员免费送一程照样得付钱给司机，这让会员制比酒店更难做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            706.177,
+            708.699
+          ],
+          "quote": "The beauty of our model is we're primarily a variable cost model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发 (distribution)",
+      "file": "分发",
+      "primary": true,
+      "how_described": "本集反复强调'最终分发胜出'——自动驾驶公司拥有昂贵固定资产需要高利用率，而 Uber 有 2 亿月活的分发渠道，逻辑跟 McDonald's 为什么愿意上外卖平台一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            13.975,
+            15.835
+          ],
+          "quote": "In the end, distribution wins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            789.198,
+            798.78
+          ],
+          "quote": "It's impossible for those businesses to get the resourcing, attention, distribution, marketing dollars, engineering capacity, whatever it is, it just gets swallowed up by the whole.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            916.909,
+            917.71
+          ],
+          "quote": "We have distribution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            918.03,
+            918.691
+          ],
+          "quote": "Distribution is...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            921.012,
+            933.981
+          ],
+          "quote": "And so if you can actually build something interesting and then plug it into 200 million consumers who use our app monthly, you're just going to be able to scale way faster than anyone who's doing it without that distribution advantage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            934.281,
+            938.404
+          ],
+          "quote": "And even figuring out how to do distribution right, like the 200 million number is attractive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            956.874,
+            959.976
+          ],
+          "quote": "But you still have this built-in distribution that is super interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1615.193,
+            1627.201
+          ],
+          "quote": "Even if they work with our competitors on the rideshare side or on the delivery side, I think everyone will work with us because ultimately we have distribution and ultimately they have expensive fixed assets that need utilization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1627.501,
+            1632.725
+          ],
+          "quote": "What's interesting there is you say then that distribution is more important than superior technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1633.045,
+            1635.347
+          ],
+          "quote": "I think in the end distribution wins.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "growth-bets",
+      "type": "concept",
+      "role": "concept",
+      "name": "Growth Bets",
+      "file": "Growth Bets",
+      "primary": true,
+      "how_described": "本集说这是 Uber 用来解决创新者困境的计划，从 2000 人出行业务里硬拨出 100-150 人全职 dedicated 做新东西，以周为单位运作，必须靠努力换回报",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            808.881,
+            816.483
+          ],
+          "quote": "I mean, we run a program called Growth Bets, which is, you know, intended very much to incubate new businesses within Uber.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "managed-transaction",
+      "type": "概念",
+      "role": "concept",
+      "name": "managed transaction",
+      "file": "managed transaction",
+      "primary": true,
+      "how_described": "本集用这个概念反驳'智能体取代 App 前端'的担忧，说网约车和外卖不是设好就不管的电商交易，从下单到完成之间有大量需要实时管理的东西——司机乘客互动、上车点体验、东西落在车上等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            2833.328,
+            2835.91
+          ],
+          "quote": "The challenge is, like, we have a very managed transaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2869.189,
+            2874.173
+          ],
+          "quote": "I think the challenge, though, is that it's a managed transaction, both on the delivery side and on the transportation side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2898.987,
+            2900.208
+          ],
+          "quote": "It is a managed transaction.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集在讨论合并人头预算和算力预算时提到，CTO 可以决定在推理上花更多钱如果认为那是最高 ROI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2347.046,
+            2355.538
+          ],
+          "quote": "And so if you want to spend relatively more money on compute, on inference, on whatever, because you believe that's the highest ROI, do that, but it means you have less for heads.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集提到 Waymo 作为自动驾驶领域的强力玩家之一，讨论它和 Tesla 谁更威胁时认为赢家不会只有两个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 335,
+          "t": [
+            1351.725,
+            1357.688
+          ],
+          "quote": "You can debate about whether we were trailing the field or whether we were just trailing Waymo, but we were not in the pole position.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1517.737,
+            1520.52
+          ],
+          "quote": "Who do you think is a bigger threat, Waymo or Tesla?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1527.266,
+            1529.469
+          ],
+          "quote": "Do I think Waymo and Tesla will ultimately be winners?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1602.889,
+            1607.211
+          ],
+          "quote": "And so I think whether Waymo or Tesla ends up being the bigger threat, I don't know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2845.175,
+            2852.479
+          ],
+          "quote": "There's a question as to compare the prices of Uber, Lyft, and Waymo and get me the cheapest one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集将 Tesla 与 Waymo 并列讨论，认为两者最终都会是赢家，但世界不会只收敛到两个玩家",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            1517.737,
+            1520.52
+          ],
+          "quote": "Who do you think is a bigger threat, Waymo or Tesla?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1527.266,
+            1529.469
+          ],
+          "quote": "Do I think Waymo and Tesla will ultimately be winners?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1602.889,
+            1607.211
+          ],
+          "quote": "And so I think whether Waymo or Tesla ends up being the bigger threat, I don't know.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "didi",
+      "type": "company",
+      "role": "company",
+      "name": "Didi",
+      "file": "Didi",
+      "primary": false,
+      "how_described": "本集回顾 Uber 中国与 Didi 的竞争，说双方都在用价格补贴抢份额，Uber 每周在中国烧掉 5200 万美元价格补贴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            1685.414,
+            1691.077
+          ],
+          "quote": "So I was only like sort of over China for a few months before we ultimately did the deal with Didi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1769.786,
+            1772.028
+          ],
+          "quote": "On the other hand, like so had Didi, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1815.148,
+            1844.155
+          ],
+          "quote": "Another story I heard which I thought was nuts, and this was not an Uber story, but before when Uber and Didi did our deal, we were the two largest players, but before there was a third player, I think it was called Quaddi, and Didi and Quaddi merged, and they sort of merged the companies, they did a deal, they were combining HR systems, and they realized that of the 2,000 employees here and the 2,000 employees here, there were like 200 employees that were on both payrolls.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集提到 DoorDash 作为美国外卖市场第一的竞争对手，说它是一家优秀的公司、行动快、有侵略性、资金雄厚",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            604.255,
+            607.617
+          ],
+          "quote": "So now you start using Uber Eats instead of DoorDash or Deliveroo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3394.441,
+            3396.482
+          ],
+          "quote": "Like DoorDash is an excellent company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "delivery-hero",
+      "type": "company",
+      "role": "company",
+      "name": "Delivery Hero",
+      "file": "Delivery Hero",
+      "primary": false,
+      "how_described": "本集说 Uber 收购 Delivery Hero 是为了一举扩大地理足迹，因为后者在阿根廷、韩国、中东等地建了很强的本土品牌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 708,
+          "t": [
+            3057.274,
+            3058.634
+          ],
+          "quote": "You bought Delivery Hero.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3117.902,
+            3124.166
+          ],
+          "quote": "And so Delivery Hero, I think, presented a unique opportunity to, in one fell swoop, expand our geographic footprint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3145.736,
+            3150.557
+          ],
+          "quote": "The other thing is Delivery Hero has built a lot of local brands that are really strong, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcdonald-s",
+      "type": "company",
+      "role": "company",
+      "name": "McDonald's",
+      "file": "McDonald's",
+      "primary": false,
+      "how_described": "本集用 McDonald's 做类比——它花了数十亿建门店等固定资产，有自家 App，但最终还是愿意跟外卖平台合作，因为闲置产能意味着浪费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 386,
+          "t": [
+            1566.23,
+            1575.677
+          ],
+          "quote": "One is, if you look at delivery as a comparable vertical here, McDonald's and Starbucks also are strong leaders in their individual verticals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1584.243,
+            1587.565
+          ],
+          "quote": "You can walk in the front door of McDonald's, get ordered through the McDonald's app.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon-prime",
+      "type": "concept",
+      "role": "concept",
+      "name": "Amazon Prime",
+      "file": "Amazon Prime",
+      "primary": false,
+      "how_described": "本集将 Uber One 与 Amazon Prime 和 Costco 对比，说 Uber One 还没达到它们水平但已唾手可得",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            440.5,
+            445.723
+          ],
+          "quote": "I mean, we're not at like Amazon Prime or Costco levels, but we're getting to within spitting distance.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "costco",
+      "type": "company",
+      "role": "company",
+      "name": "Costco",
+      "file": "Costco",
+      "primary": false,
+      "how_described": "本集将 Uber One 与 Amazon Prime 和 Costco 对比，作为会员制成功标杆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            440.5,
+            445.723
+          ],
+          "quote": "I mean, we're not at like Amazon Prime or Costco levels, but we're getting to within spitting distance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            636.231,
+            640.834
+          ],
+          "quote": "You said it's not quite Amazon or Costco, say, in terms of membership dominance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在讨论智能体解聚合风险时提到用户可能在 ChatGPT 里发起查询，也提到 Uber 选择与 OpenAI 等大公司参与合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 561,
+          "t": [
+            2427.994,
+            2441.83
+          ],
+          "quote": "I mean, you do not need the latest and greatest model from Anthropic or OpenAI to ask, like, you know, tell me who the president was in 1945 and then, like, run that again for the next five presidents and then run it again for the next five.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2693.96,
+            2705.022
+          ],
+          "quote": "I don't know that I see OpenAI launching a ride-sharing service anytime and going around to tens of thousands of cities around the world and getting locally licensed and then putting boots on the ground to run a physical world service.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3519.384,
+            3520.605
+          ],
+          "quote": "OpenAI or Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3520.945,
+            3521.266
+          ],
+          "quote": "OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3538.859,
+            3543.363
+          ],
+          "quote": "I'm constantly working via voice and I find OpenAI's voice engine incredible.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集用 ChatGPT 作为智能体前端的例子——'有人会不会直接在 ChatGPT 里说给我叫辆 Uber'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 642,
+          "t": [
+            2821.404,
+            2830.387
+          ],
+          "quote": "And we've been worried and discussing, like, hey, is somebody going to just put into ChatGPT or Claude, like, get me my usual Uber?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 693,
+          "t": [
+            2999.02,
+            3010.307
+          ],
+          "quote": "So if you go into ChatGPT and say, or even this hotel booking example, what happens if the hotel needs to send Harry a message because you asked for early check-in and they can't give it to you?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lyft",
+      "type": "company",
+      "role": "company",
+      "name": "Lyft",
+      "file": "Lyft",
+      "primary": false,
+      "how_described": "本集在讨论比价聚合风险时提到 Lyft，说如果用户变成'比较 Uber、Lyft 和 Waymo 的价格'就有问题了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 636,
+          "t": [
+            2802.253,
+            2807.877
+          ],
+          "quote": "Because we're going to build an app, and then we're also going to put Lyft in there, and we're going to put other providers in there, and then that'll be incremental business for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2845.175,
+            2852.479
+          ],
+          "quote": "There's a question as to compare the prices of Uber, Lyft, and Waymo and get me the cheapest one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "type": "company",
+      "role": "company",
+      "name": "Revolut",
+      "file": "Revolut",
+      "primary": false,
+      "how_described": "本集引用 Revolut 创始人的节奏作为新业务孵化标杆——同时跑 26 个实验，每个给 200 万美元跑一年，每周碰 20 分钟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            853.469,
+            855.71
+          ],
+          "quote": "Nick Steronski from Revolut.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "softbank",
+      "type": "company",
+      "role": "company",
+      "name": "SoftBank",
+      "file": "SoftBank",
+      "primary": false,
+      "how_described": "本集提到 SoftBank 作为中国市场里的资金玩家，导致 Uber 不可能永远比所有竞争对手加起来还多融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 433,
+          "t": [
+            1772.208,
+            1782.774
+          ],
+          "quote": "And the notion that we were going to be able to raise more than everyone in the world combined, it was just never going to happen past a certain point because you had players like SoftBank investing in the market as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Frontier Labs",
+      "file": "Frontier Labs",
+      "primary": false,
+      "how_described": "本集引用 Alex Karp 的观点说大公司会紧张与 Frontier Labs 合作（担心喂了数据对方推出竞争产品），但 Uber 认为自身实体世界业务难以被替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            2626.175,
+            2633.357
+          ],
+          "quote": "The other thing that he mentioned in this kind of pertinent interview was that the biggest companies would be nervous to work with Frontier Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2638.518,
+            2640.738
+          ],
+          "quote": "I mean, we work with the Frontier Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2647.691,
+            2656.802
+          ],
+          "quote": "And one of the risks that I saw him highlight was this notion that, you know, you feed all of your data to the frontier labs, and then they stand up a competing product, effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2665.171,
+            2668.234
+          ],
+          "quote": "For us, like our experience of working with the Frontier Labs has been great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2767.436,
+            2782.782
+          ],
+          "quote": "So this is where I think there's some interesting questions about what information do you provide to the various consumer front ends, either from the frontier labs or others, because at some point, maybe you're giving away that front end of the consumer experience in a way that is non-strategic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atg",
+      "type": "concept",
+      "role": "concept",
+      "name": "ATG",
+      "file": "ATG",
+      "primary": false,
+      "how_described": "本集回顾 Uber 内部自动驾驶团队 ATG 在 COVID 期间被剥离，当时出行业务三周内损失 84% 收入，公司每年烧数十亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1324.148,
+            1332.074
+          ],
+          "quote": "I mean, when we ultimately divested ATG, which was our internal autonomy group, we were in the depths of COVID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1364.131,
+            1366.291
+          ],
+          "quote": "And so we divested ATG.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1382.258,
+            1394.712
+          ],
+          "quote": "But yes, of course, today, if you could sort of snap your fingers and say ATG would turn into one of the leading autonomous players globally and we completely control our destiny, yeah, I think that would be a good thing for us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集在讨论'市场的堡垒化'时提到 Airbnb，说如果去掉交易性差旅预订就只剩体验式预订，市场会变小",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 678,
+          "t": [
+            2952.409,
+            2954.77
+          ],
+          "quote": "And don't get me wrong, Airbnb is an amazing business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wechat",
+      "type": "concept",
+      "role": "concept",
+      "name": "WeChat",
+      "file": "WeChat",
+      "primary": false,
+      "how_described": "本集说 Uber 在中国一度被限制使用 WeChat，而在中国没有 WeChat 就像在美国没有邮箱和电话号码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 447,
+          "t": [
+            1875.27,
+            1883.272
+          ],
+          "quote": "Because of the nature of the sort of investor basis in each company, at one point, we were not able to operate on the WeChat platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1883.312,
+            1891.294
+          ],
+          "quote": "Trying to compete in China and not having access to WeChat, it's like trying to compete in the US without email or a phone number.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

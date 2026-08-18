@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Theo Jaffe]] · [[Mistral]] · [[推理]] · [[Sofia Puccini]] · [[护栏]] · [[开源权重]] · [[蒸馏]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"OpenAI":34,"Theo Jaffe":2,"Mistral":3,"推理":1,"Sofia Puccini":2,"护栏":13,"开源权重":2,"蒸馏":5,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"OpenAI":37,"Theo Jaffe":2,"Mistral":3,"推理":1,"Sofia Puccini":2,"护栏":14,"开源权重":2,"蒸馏":5,"Anthropic":46}</script>
 
 <script>
 (function(){

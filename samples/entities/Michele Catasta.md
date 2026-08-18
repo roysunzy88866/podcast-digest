@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":6,"Replit Agent":1,"智能体":80,"vibe coding":8,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":6,"Replit Agent":1,"智能体":86,"vibe coding":9,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":3,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

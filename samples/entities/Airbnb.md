@@ -7,33 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Airbnb</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-08-03-lennys-chip-conley|《52岁入职Airbnb：年长者在科技公司怎么活下来、活得好》]]**(00:00起):本集将其作为 Chip 52 岁加入的科技公司背景，平均年龄 26 岁；讨论了 Airbnb 面临的监管挑战（入住税）以及'belong anywhere'的品牌重新定义
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(19:05起):本集将 Airbnb 作为彩纸效应有价值的例子：超赞房东续评时 App 变成五彩纸屑庆祝，让房东感到被认可
 - **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(05:53起):本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:18起):本集提到创始人 Brian Chesky 最初向 Keith 顺推销时，用 Craigslist 上的真实数据验证了市场需求；同时，Brian Chesky 无论公司多成功都始终「把油门踩到底」、极度渴望前进。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(72:04起):本集引用了其 CEO 提出的「追求十一星级体验」的类比，说明 AI 时代人类需不断拉高产品体验的上限。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(01:17起):本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。
+- **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(49:12起):本集在讨论'市场的堡垒化'时提到 Airbnb，说如果去掉交易性差旅预订就只剩体验式预订，市场会变小
 
 ## ② 出现在这些集
 
-*5 集*
+*7 集*
 
+- [[2025-08-03-lennys-chip-conley|《52岁入职Airbnb：年长者在科技公司怎么活下来、活得好》]] — 作为被讨论公司
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
+- [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ramp]] · [[Nesrine Changuel]] · [[Lenny Rachitsky]] · [[Keith Rabois]] · [[Meng To]] · [[Noam Segal]] · [[delight]] · [[Michelle Rial]] · [[PayPal]]
+[[Lenny]] · [[Uber]] · [[Ramp]] · [[智能体]] · [[Revolut]] · [[Chip Connolly]] · [[Nesrine Changuel]] · [[Lenny Rachitsky]] · [[Keith Rabois]] · [[Meng To]]
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Ramp":3,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1,"Noam Segal":1,"delight":1,"Michelle Rial":1,"PayPal":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Uber":3,"Ramp":3,"智能体":86,"Revolut":2,"Chip Connolly":1,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1}</script>
 
 <script>
 (function(){

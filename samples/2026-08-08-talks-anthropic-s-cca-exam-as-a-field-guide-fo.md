@@ -9,14 +9,14 @@ cover: "#64748b"
 description: 资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。
 guests: ["[[Frank Coyle]]"]
 companies: ["[[Anthropic]]"]
-concepts: ["[[Claude 认证架构师考试]]", "[[智能体]]", "[[循环]]", "[[停止原因]]", "[[反模式]]", "[[上下文溢出]]", "[[上下文分叉]]", "[[模型上下文协议]]", "[[Claude Code]]", "[[LLM]]"]
+concepts: ["[[Claude 认证架构师考试]]", "[[智能体]]", "[[循环]]", "[[停止原因]]", "[[反模式]]", "[[上下文溢出]]", "[[上下文分叉]]", "[[Model Context Protocol]]", "[[Claude Code]]", "[[LLM]]"]
 category: 智能体
 tags:
   - 智能体
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo#post","headline":"别迷信大上下文：拆解 Claude 认证架构师考试的反模式","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo","mainEntityOfPage":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo","description":"资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。","datePublished":"2026-08-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Frank Coyle"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude 认证架构师考试 (Claude Certified Architect Exam)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"停止原因 (stop reason)"},{"@type":"Thing","name":"反模式 (anti-patterns)"},{"@type":"Thing","name":"上下文溢出 (context spill over)"},{"@type":"Thing","name":"上下文分叉 (context fork)"},{"@type":"Thing","name":"模型上下文协议 (model context protocol)"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"LLM"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"别迷信大上下文：拆解 Claude 认证架构师考试的反模式","item":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo#post","headline":"别迷信大上下文：拆解 Claude 认证架构师考试的反模式","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo","mainEntityOfPage":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo","description":"资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。","datePublished":"2026-08-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Frank Coyle"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude 认证架构师考试 (Claude Certified Architect Exam)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"停止原因 (stop reason)"},{"@type":"Thing","name":"反模式 (anti-patterns)"},{"@type":"Thing","name":"上下文溢出 (context spill over)"},{"@type":"Thing","name":"上下文分叉 (context fork)"},{"@type":"Thing","name":"Model Context Protocol"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"LLM"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"别迷信大上下文：拆解 Claude 认证架构师考试的反模式","item":"https://talk.solomind.cc/2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别迷信大上下文：拆解 Claude 认证架构师考试的反模式</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Anthropic]]
 >
-> **概念** [[Claude 认证架构师考试]] · [[智能体]] · [[循环]] · [[停止原因]] · [[反模式]] · [[上下文溢出]] · [[上下文分叉]] · [[模型上下文协议]] · [[Claude Code]] · [[LLM]]
+> **概念** [[Claude 认证架构师考试]] · [[智能体]] · [[循环]] · [[停止原因]] · [[反模式]] · [[上下文溢出]] · [[上下文分叉]] · [[Model Context Protocol]] · [[Claude Code]] · [[LLM]]
 
 <div class="pd-tldr"><b>一句话</b>资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。</div>
 
@@ -118,9 +118,9 @@ Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法 <button clas
 
 **换个口味**
 
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、模型上下文协议 (model context protocol)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 </div>

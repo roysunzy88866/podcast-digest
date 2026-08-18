@@ -27,7 +27,7 @@ unlisted: true
 
 [[Chess.com]] · [[Albert Cheng]] · [[Erik Allebest]] · [[Lenny]] · [[Deep Blue]] · [[Duolingo]] · [[Leela Chess Zero]] · [[Grammarly]] · [[反作弊]] · [[探索与利用]]
 
-<script type="application/json" class="pd-epn">{"Chess.com":2,"Albert Cheng":1,"Erik Allebest":1,"Lenny":48,"Deep Blue":1,"Duolingo":2,"Leela Chess Zero":1,"Grammarly":1,"反作弊":1,"探索与利用":1}</script>
+<script type="application/json" class="pd-epn">{"Chess.com":2,"Albert Cheng":1,"Erik Allebest":1,"Lenny":52,"Deep Blue":1,"Duolingo":2,"Leela Chess Zero":1,"Grammarly":1,"反作弊":1,"探索与利用":1}</script>
 
 <script>
 (function(){

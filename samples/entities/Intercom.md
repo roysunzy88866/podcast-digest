@@ -7,25 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Intercom</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Intercom">IN</div><div class="pi"><h1 class="pt">Intercom</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Intercom">IN</div><div class="pi"><h1 class="pt">Intercom</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(16:17起):本集提到 Fin 和 Intercom 是 Anthropic 的合作伙伴，在客户服务领域已经做到 82% 的工单自动解决。
+- **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(42:35起):本集将 Intercom 的 Fin 产品作为基于结果定价的经典案例：AI 独立解决工单就收费 99 美分，需要人工介入就不收费
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(01:11起):本集说它用 AI 自动审批 PR 把吞吐量提高 2-3 倍，且 AI 写的代码回滚率更低、通过了 SOC 2 和 HIPAA 合规要求。
 
 ## ② 出现在这些集
 
-*1 集*
+*3 集*
 
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire]] · [[ChatPRD]] · [[Vercel]] · [[Codex]] · [[Eve]] · [[智能体]] · [[风险评分]] · [[沙箱]] · [[Slack]] · [[GitHub]]
+[[智能体]] · [[Lenny]] · [[Slack]] · [[GitHub]] · [[Benjamin Mann]] · [[Madhavan Ramanujam]] · [[Claire]] · [[Anthropic]] · [[Cursor]] · [[ChatPRD]]
 
-<script type="application/json" class="pd-epn">{"Claire":1,"ChatPRD":2,"Vercel":5,"Codex":15,"Eve":1,"智能体":80,"风险评分":1,"沙箱":18,"Slack":17,"GitHub":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"Lenny":52,"Slack":18,"GitHub":13,"Benjamin Mann":1,"Madhavan Ramanujam":1,"Claire":1,"Anthropic":46,"Cursor":17,"ChatPRD":2}</script>
 
 <script>
 (function(){

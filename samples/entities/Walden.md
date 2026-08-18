@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":1,"智能体":80,"上下文压缩":1,"RL":1,"蒸馏":5,"KV 缓存":2,"Cognition":5,"OpenRouter":2}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":1,"智能体":86,"上下文压缩":1,"RL":1,"蒸馏":5,"KV 缓存":2,"Cognition":5,"OpenRouter":2}</script>
 
 <script>
 (function(){

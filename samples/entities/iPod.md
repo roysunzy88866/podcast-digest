@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tony Fadell]] · [[Lenny]] · [[Nest]] · [[OpenAI]] · [[Anthropic]] · [[General Magic]] · [[Apple]] · [[Flighty]] · [[iPhone]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Tony Fadell":1,"Lenny":48,"Nest":1,"OpenAI":34,"Anthropic":45,"General Magic":1,"Apple":11,"Flighty":1,"iPhone":1,"智能体":80}</script>
+<script type="application/json" class="pd-epn">{"Tony Fadell":1,"Lenny":52,"Nest":1,"OpenAI":37,"Anthropic":46,"General Magic":1,"Apple":11,"Flighty":1,"iPhone":1,"智能体":86}</script>
 
 <script>
 (function(){

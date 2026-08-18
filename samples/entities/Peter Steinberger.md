@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Justin Smith]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":80,"OpenAI":34,"OpenClaw":7,"Codex":15,"Romain Huet":1,"Anthropic":45,"Raphael Schaad":1,"循环":2,"NVIDIA":15,"Claude Code":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"OpenAI":37,"OpenClaw":7,"Codex":16,"Romain Huet":1,"Anthropic":46,"Raphael Schaad":1,"循环":3,"NVIDIA":15,"Claude Code":22}</script>
 
 <script>
 (function(){

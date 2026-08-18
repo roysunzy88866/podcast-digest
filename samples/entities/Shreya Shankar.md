@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Hamel Husain":1,"评估":10,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":1,"智能体":80,"trace":1,"Anthropic":45}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Hamel Husain":1,"评估":10,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":1,"智能体":86,"trace":1,"Anthropic":46}</script>
 
 <script>
 (function(){

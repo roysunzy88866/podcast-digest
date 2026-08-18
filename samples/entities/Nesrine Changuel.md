@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1,"人性化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1,"人性化":1}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Revolut</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Revolut">RE</div><div class="pi"><h1 class="pt">Revolut</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Revolut">RE</div><div class="pi"><h1 class="pt">Revolut</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(15:04起):本集将 Revolut 作为预判需求和持续惊喜的案例：银行 App 内置 eSIM 购买功能，因为其大批用户是经常旅行的国际人士
+- **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(14:13起):本集引用 Revolut 创始人的节奏作为新业务孵化标杆——同时跑 26 个实验，每个给 200 万美元跑一年，每周碰 20 分钟
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
+- [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Nesrine Changuel]] · [[delight]] · [[deep delight]] · [[surface delight]] · [[低愉悦]] · [[消除摩擦]] · [[预判需求]] · [[超出预期]] · [[情感连接]]
+[[Uber]] · [[Airbnb]] · [[Lenny]] · [[Harry Stebbings]] · [[Nesrine Changuel]] · [[Andrew MacDonald]] · [[delight]] · [[Uber One]] · [[deep delight]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Nesrine Changuel":1,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1}</script>
+<script type="application/json" class="pd-epn">{"Uber":3,"Airbnb":7,"Lenny":52,"Harry Stebbings":1,"Nesrine Changuel":1,"Andrew MacDonald":1,"delight":1,"Uber One":1,"deep delight":1,"自主性":3}</script>
 
 <script>
 (function(){

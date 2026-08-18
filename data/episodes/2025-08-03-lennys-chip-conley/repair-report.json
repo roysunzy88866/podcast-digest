@@ -1,0 +1,120 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:09",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "00:09",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 2,
+      "timestamp": "15:18",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "15:14",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 3,
+      "timestamp": "16:21",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "16:21",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 4,
+      "timestamp": "16:59",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "17:05",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 5,
+      "timestamp": "22:20",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "22:20",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 6,
+      "timestamp": "25:49",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "25:51",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 7,
+      "timestamp": "30:39",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "30:39",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 8,
+      "timestamp": "31:45",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "32:04",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 9,
+      "timestamp": "42:06",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "42:09",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 10,
+      "timestamp": "48:15",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "48:15",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 11,
+      "timestamp": "55:51",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "55:44",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 12,
+      "timestamp": "58:56",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "58:55",
+      "spkWas": "Chip Connolly"
+    },
+    {
+      "i": 14,
+      "timestamp": "65:32",
+      "speaker": "Chip Connolly",
+      "trimmed": false,
+      "tsWas": "65:32",
+      "spkWas": "Chip Connolly"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 13,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Starting around age 50 or 52, you get happier. So that you're happier in your 50s than your 40s, 60s happier than 50s, 70s happier than 60s, and the women in their 80s happier than 70s."
+    },
+    {
+      "i": 15,
+      "reason": "短句(3词<6)在转写稿命中 2 处,无法唯一锚定时间戳/说话人,不猜",
+      "en": "Despair equals suffering minus meaning."
+    }
+  ]
+}

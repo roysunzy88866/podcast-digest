@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]] [[Simon Mo]] [[Matt Bornstein]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":15,"OpenAI":34,"Anthropic":45,"Microsoft":10,"Palantir":6,"开放模型":1,"封闭模型":1,"沙箱":18,"智能体":80}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":15,"OpenAI":37,"Anthropic":46,"Microsoft":10,"Palantir":6,"开放模型":1,"封闭模型":1,"沙箱":18,"智能体":86}</script>
 
 <script>
 (function(){

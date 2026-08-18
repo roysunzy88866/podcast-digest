@@ -7,10 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(40:43起):本集将 Cursor 作为混合定价模式的典型案例：能证明提高生产力、缩短写代码时间（高归因），但仍处于副驾驶模式（低自主），适合订阅底座加按用量分层的混合模式
+- **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(02:59起):本集说几乎所有软件工程公司都在用 Cursor 帮助工程师，但它生成的代码经常有错，审查别人代码里微妙的逻辑错误比改自己写的代码难得多，反而可能降低生产力。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(07:27起):本集提到 Cursor 在九个月内超过 GitHub Copilot 的市场份额，作为 AI 创造新增长火花的例外案例，并称其可能也在走向创建某种智能体平台
 - **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(22:00起):本集顺带提到 Cursor 作为工程团队使用的 AI 编程工具，能自动补全和写代码
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(46:24起):本集提到有公司做随机试验,给不同表现等级工程师的一半人使用Cursor,发现表现最好的高级工程师从中获益最大
@@ -18,6 +20,7 @@ unlisted: true
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是一款深受开发者欢迎的 AI 代码编辑器。嘉宾用它配合 Claude Code 进行全流程开发,强调相比 Lovable 等工具,它把 AI 塞进代码系统并赋予完整工具,把架构决策权交还给用户。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(07:17起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first（AI优先）的企业应该将更多精力投入到大的赌注上。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(08:12起):被讨论的竞品，Dan 认为其云端实现很先进，但明确选择了专门为程序员服务的赛道，这可能会限制它在通用知识工作领域的扩展。
+- **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(21:33起):本集说所有编排器包括 Cursor 和 Copilot 迭代了这么久，最好的 UI 就是左边文件夹列表、右边聊天框，对同时处理 140 个项目完全不够用
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(03:01起):本集把它说成:一款带有 AI 智能体的代码编辑器，嘉宾曾是其重度用户，但在 OpenAI 推出 Codex 后改变了工作流思维。
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(07:35起):本集提到:一家代码助手公司,为了不依赖闭源 API,开始基于开源模型做自己的后训练微调。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:53起):本集把它说成:主打 AI 辅助编程的代码编辑器，可作为智能体驱动 Paper 画布生成排版变体，是构建「新智能体栈」的核心工具之一。
@@ -36,8 +39,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*17 集*
 
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司
+- [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司
@@ -45,6 +50,7 @@ unlisted: true
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
+- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
@@ -57,9 +63,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[Meta]] · [[ChatGPT]] · [[OpenAI]] · [[前向部署工程师]] · [[GitHub]]
+[[智能体]] · [[Lenny]] · [[Codex]] · [[GitHub]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[Meta]] · [[Slack]] · [[Facebook]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Lenny":48,"Anthropic":45,"Claude Code":21,"Codex":15,"Meta":13,"ChatGPT":18,"OpenAI":34,"前向部署工程师":5,"GitHub":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"Lenny":52,"Codex":16,"GitHub":13,"OpenAI":37,"Anthropic":46,"Claude Code":22,"Meta":14,"Slack":18,"Facebook":6}</script>
 
 <script>
 (function(){

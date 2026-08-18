@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(47:16起):本集提到 GitHub 早期从基于座位的模式开始，现已随 Cursor 等转向混合定价模式
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(22:56起):本集顺带提到 GitHub 是 Nesrine 为写书采访的 B2B 公司之一，以了解 B2B 领域的愉悦实践
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(01:23起):本集多次提及嘉宾曾在此领导设计和产品。讨论了其伟大的微小核心：拉取请求（PR），以及其早期的功能缺陷（如 GitHub Actions 缺乏良好的包管理）。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(08:57起):本集描述其代码库中的智能体可跨应用读取如 M365 的设计会议记录并给出代码修改建议；其 Copilot 经历了因智能体高耗能而向消耗量计费的商业调整。
@@ -26,8 +27,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
@@ -45,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Notion]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[开放权重模型]]
+[[智能体]] · [[Slack]] · [[沙箱]] · [[Cursor]] · [[Figma]] · [[Claude Code]] · [[Lenny]] · [[Notion]] · [[Intercom]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"Slack":17,"沙箱":18,"Figma":7,"Claude Code":21,"Notion":5,"Cursor":14,"Lenny":48,"Anthropic":45,"开放权重模型":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"Slack":18,"沙箱":18,"Cursor":17,"Figma":7,"Claude Code":22,"Lenny":52,"Notion":5,"Intercom":3,"Anthropic":46}</script>
 
 <script>
 (function(){

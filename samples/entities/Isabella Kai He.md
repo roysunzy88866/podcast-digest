@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]] [[Frank Coyle]] [[Idan Gazit]]
+[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Peter Steinberger]] [[Justin Smith]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":45,"智能体":80,"测试框架":10,"沙箱":18,"智能体循环":1,"上下文工程":4,"会话日志追踪":1,"泄露的凭证":3,"可观测性":5}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":46,"智能体":86,"测试框架":10,"沙箱":18,"智能体循环":1,"上下文工程":5,"会话日志追踪":1,"泄露的凭证":3,"可观测性":5}</script>
 
 <script>
 (function(){

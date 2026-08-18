@@ -6,6 +6,7 @@ source_url: undefined
 duration: "43:04"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee.jpg"
 description: 会写规则文件的中级工程师，产出能碾压五个顽固高级工程师。
 host: "[[Kitsa]]"
 companies: ["[[Codex]]", "[[Claude]]"]
@@ -14,9 +15,9 @@ category: AI 编程
 tags:
   - AI 编程
   - 智能体
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee#post","headline":"氛围编码 vs 氛围工程：智能体时代谁被淘汰","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee","description":"会写规则文件的中级工程师，产出能碾压五个顽固高级工程师。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Kitsa"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排器 (orchestrator)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"规则 (rules)"},{"@type":"Thing","name":"police 文件 (police file)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"vibe engineering"},{"@type":"Thing","name":"技能文件 (skill files)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"氛围编码 vs 氛围工程：智能体时代谁被淘汰","item":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee#post","headline":"氛围编码 vs 氛围工程：智能体时代谁被淘汰","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee","description":"会写规则文件的中级工程师，产出能碾压五个顽固高级工程师。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee.jpg","about":[{"@type":"Person","name":"Kitsa"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排器 (orchestrator)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"规则 (rules)"},{"@type":"Thing","name":"police 文件 (police file)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"vibe engineering"},{"@type":"Thing","name":"技能文件 (skill files)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"氛围编码 vs 氛围工程：智能体时代谁被淘汰","item":"https://talk.solomind.cc/2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>氛围编码 vs 氛围工程：智能体时代谁被淘汰</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -151,6 +152,29 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 > <span class="qz">那些掌握了 Angular 并按照自己的方式做事的人，我很确信他们比那些立即跳转到 React 和 Svelte 以及这个和那个的人更有生产力。</span>  
 > *The people who mastered Angular and who did things their way, I'm pretty sure they were more productive than the people who jumped to immediately to React and to Svelte and to this and to that.*  
 > <span class="qm">—— Kitsa · [42:45]</span> ^q14
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:Codex · 同概念:循环 (loop)、智能体 (agent)</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Claude、Codex · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude · 同概念:智能体 (agent)</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

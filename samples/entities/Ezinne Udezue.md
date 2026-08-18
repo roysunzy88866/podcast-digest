@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Oji":1,"智能体":80,"LLM":10,"评估":10,"主观能动性":10,"护栏":13,"推理":1,"微调":2,"MCP":11}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Oji":1,"智能体":86,"LLM":10,"评估":10,"主观能动性":10,"护栏":14,"推理":1,"微调":2,"MCP":12}</script>
 
 <script>
 (function(){

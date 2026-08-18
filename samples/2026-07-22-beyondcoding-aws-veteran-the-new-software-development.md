@@ -6,6 +6,7 @@ source_url: undefined
 duration: "120:18"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg"
 description: AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。
 host: "[[Heitor Lessa]]"
 concepts: ["[[智能体]]", "[[规范驱动开发]]", "[[苏格拉底方法]]", "[[对抗性审查]]", "[[合并检查]]", "[[命令]]", "[[确定性]]", "[[伪造证据]]", "[[三层模型分层]]", "[[OpenSpec]]", "[[循环工程]]"]
@@ -13,9 +14,9 @@ category: 智能体
 tags:
   - 智能体
   - AI 编程
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development#post","headline":"Heitor：用智能体重塑软件工程工作流的实操蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","description":"AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。","datePublished":"2026-07-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Heitor Lessa"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"规范驱动开发 (spec-driven development)"},{"@type":"Thing","name":"苏格拉底方法 (Socratic method)"},{"@type":"Thing","name":"对抗性审查 (adversarial reviewer)"},{"@type":"Thing","name":"合并检查 (merge check)"},{"@type":"Thing","name":"命令 (command)"},{"@type":"Thing","name":"确定性 (determinism)"},{"@type":"Thing","name":"伪造证据 (fabricate evidence)"},{"@type":"Thing","name":"三层模型分层 (three different tiers of models)"},{"@type":"Thing","name":"OpenSpec"},{"@type":"Thing","name":"循环工程 (loop engineering)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Heitor：用智能体重塑软件工程工作流的实操蓝图","item":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development#post","headline":"Heitor：用智能体重塑软件工程工作流的实操蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","description":"AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。","datePublished":"2026-07-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg","about":[{"@type":"Person","name":"Heitor Lessa"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"规范驱动开发 (spec-driven development)"},{"@type":"Thing","name":"苏格拉底方法 (Socratic method)"},{"@type":"Thing","name":"对抗性审查 (adversarial reviewer)"},{"@type":"Thing","name":"合并检查 (merge check)"},{"@type":"Thing","name":"命令 (command)"},{"@type":"Thing","name":"确定性 (determinism)"},{"@type":"Thing","name":"伪造证据 (fabricate evidence)"},{"@type":"Thing","name":"三层模型分层 (three different tiers of models)"},{"@type":"Thing","name":"OpenSpec"},{"@type":"Thing","name":"循环工程 (loop engineering)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Heitor：用智能体重塑软件工程工作流的实操蓝图","item":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Heitor：用智能体重塑软件工程工作流的实操蓝图</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -131,6 +132,29 @@ jsonLd: |
 > <span class="qz">但如果你给人们工具，并且他们自己创造了那个最终结果，他们就会建立信念，因为他们参与其中，使用了他们的批判性思维，他们通过做事建立自己的信念，然后他们真的相信最终结果。</span>  
 > *But if you give people tools and they create that end result themselves, they build conviction because they're in the loop, their critical thinking is used, they are building their own conviction by doing, then they really believe in the end result.*  
 > <span class="qm">—— SPEAKER_00 · [118:16]</span> ^q11
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:智能体 (agent)、技能 (skill)</span>
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

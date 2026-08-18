@@ -163,6 +163,13 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:AI</span>
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同公司:Canva</span>
+
+</div>
 </div>
 <script>
 (function(){

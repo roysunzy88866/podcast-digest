@@ -1,0 +1,1648 @@
+{
+  "episode_id": "2025-07-20-lennys-anthropic-co-founder-benjamin-mann",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-07-20",
+  "tags": [
+    "AI 安全",
+    "缩放定律",
+    "对齐技术",
+    "AGI 预测",
+    "AI 对经济的影响"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            216.255,
+            219.257
+          ],
+          "quote": "You can too at sauce.app/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            275.476,
+            278.937
+          ],
+          "quote": "Try it for free at lucidlink.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            279.238,
+            282.699
+          ],
+          "quote": "That's L-U-C-I-D-L-I-N-K dot com slash Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            291.747,
+            292.414
+          ],
+          "quote": "Great to be here, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1109.886,
+            1110.369
+          ],
+          "quote": "And you, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2055.292,
+            2057.875
+          ],
+          "quote": "Find out how Finn can work for your team at fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2058.035,
+            2059.457
+          ],
+          "quote": "That's fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 719,
+          "t": [
+            4471.408,
+            4471.98
+          ],
+          "quote": "Thanks so much, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-mann",
+      "type": "person",
+      "role": "cohost",
+      "name": "Benjamin Mann",
+      "file": "Benjamin Mann",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            80.8,
+            82.541
+          ],
+          "quote": "Today, my guest is Benjamin Mann.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            162.376,
+            167.84
+          ],
+          "quote": "Check it out at Lennysnewsletter.com and click bundle with that I bring you Benjamin Mann.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把 Anthropic 描述为一个以使命为导向的公司，其最好的情况是影响人类的未来；它是一个将安全放在一切之前的前沿研究组织，且拥有极高的无自我文化（egoless）和人才密度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            45.481,
+            58.98
+          ],
+          "quote": "We've been much less affected because people here, they get these offers and then they say, well, of course I'm not going to leave because my best case scenario at Meta is that we make money and my best case scenario at Anthropic is we affect the future of humanity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 20,
+          "t": [
+            85.242,
+            87.422
+          ],
+          "quote": "Ben is the co-founder of Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            95.585,
+            99.667
+          ],
+          "quote": "Prior to Anthropic, he was one of the architects of GPT-3 at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            100.087,
+            111.13
+          ],
+          "quote": "In our conversation, we cover a lot of ground, including his thoughts on the recruiting battle for top AI researchers, why he left OpenAI to start Anthropic, how soon he expects we'll see AGI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.774,
+            129.677
+          ],
+          "quote": "Why he's so deeply concerned with AI safety and how he and Anthropic operationalize safety and alignment into the models that they build and into their ways of working.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 66,
+          "t": [
+            315.455,
+            320.158
+          ],
+          "quote": "I'm just curious, what are you seeing inside Anthropic and just what's your take on the strategy?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 72,
+          "t": [
+            336.804,
+            366.954
+          ],
+          "quote": "And at Anthropic, I think we've been maybe much less affected than many of the other companies in the space because people here are so mission oriented and they stay because... They get these offers and then they say, \"Well, of course I'm not going to leave because my best case scenario at Meta is that we make money and my best case at Anthropic is we affect the future of humanity and try to make AI flourish and human flourishing go well.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1447.241,
+            1450.684
+          ],
+          "quote": "I want to go back to the beginning of Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1450.764,
+            1458.491
+          ],
+          "quote": "Famously you and eight of you left OpenAI back in the day in 2020, I believe the end of 2020 to start Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1523,
+            1525.381
+          ],
+          "quote": "And that's basically the same as Anthropic's mission.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1554.229,
+            1566.873
+          ],
+          "quote": "But at Anthropic we felt, I mean we didn't exist then, but it was basically the leads of all the safety teams at OpenAI, we felt that safety is really important, especially on the margin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2028.833,
+            2035.136
+          ],
+          "quote": "And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2074.649,
+            2079.392
+          ],
+          "quote": "Obviously it became a central part of Anthropic's mission more than any other company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2932.921,
+            2944.424
+          ],
+          "quote": "Anthropic has this blog post called Our Theory of Change or something like that, and it describes three different worlds, which is how hard is it to align AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2985.636,
+            2993.378
+          ],
+          "quote": "And as a company, Anthropic doesn't have evidence that we're actually in that world yet, in fact, it seems like our alignment techniques are working.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 458,
+          "t": [
+            3140.766,
+            3151.05
+          ],
+          "quote": "I work on product at Anthropic and product engineering, and we build things like Claude Code and Model Context Protocol, and a lot of the other stuff that people use every day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3396.425,
+            3402.409
+          ],
+          "quote": "And I guess Anthropic, deeply in its DNA is an empirical company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3729.83,
+            3732.652
+          ],
+          "quote": "And Anthropic has incredible talent density.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3757.764,
+            3760.506
+          ],
+          "quote": "Okay, so you've been at Anthropic for a long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3769.671,
+            3777.335
+          ],
+          "quote": "I've heard also that you've done basically every job at Anthropic, you made big contributions to a lot of the core products, the brand, the team hiring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3831.714,
+            3838.796
+          ],
+          "quote": "Because fundamentally I think the way that Anthropic can differentiate itself and really win is to be on the cutting edge.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4427.312,
+            4432
+          ],
+          "quote": "Where can folks find you online if they want to reach out, maybe go work at Anthropic and how can listeners be useful to you?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到 OpenAI 内部存在安全、研究和创业三个相互制衡的“部落”，当推到关键时刻，嘉宾感觉安全不是那里的首要任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.361,
+            13.827
+          ],
+          "quote": "What is it that you saw at OpenAI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            95.585,
+            99.667
+          ],
+          "quote": "Prior to Anthropic, he was one of the architects of GPT-3 at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            100.087,
+            111.13
+          ],
+          "quote": "In our conversation, we cover a lot of ground, including his thoughts on the recruiting battle for top AI researchers, why he left OpenAI to start Anthropic, how soon he expects we'll see AGI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1450.764,
+            1458.491
+          ],
+          "quote": "Famously you and eight of you left OpenAI back in the day in 2020, I believe the end of 2020 to start Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1461.774,
+            1468.66
+          ],
+          "quote": "I'm curious, just if you're willing to share more, just what is it that you saw at OpenAI, what'd you experience there that made you feel like, okay, we got to go do our own thing?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1469.56,
+            1489.748
+          ],
+          "quote": "Yeah, so for the listeners, I was part of the GPT-2=3 project at OpenAI, ended up being one of the first authors on the paper, and I also did a bunch of demos for Microsoft to help raise $1 billion from them, did the tech transfer of GPT-3 to their systems so that they could help serve the model in Azure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1496.23,
+            1511.076
+          ],
+          "quote": "One weird thing about OpenAI is that while I was there, Sam talked about having three tribes that needed to be kept in check with each other, which was the safety tribe, the research tribe, and the startup tribe.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1554.229,
+            1566.873
+          ],
+          "quote": "But at Anthropic we felt, I mean we didn't exist then, but it was basically the leads of all the safety teams at OpenAI, we felt that safety is really important, especially on the margin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2159.082,
+            2163.323
+          ],
+          "quote": "But since I read that book, I immediately decided I had to join OpenAI, so I did.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2181.99,
+            2192.334
+          ],
+          "quote": "But over time, I think the case for safety has gotten a lot more concrete where when we started OpenAI, it was not clear how we get to AGI.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 是最不谄媚的模型之一，其性格和个性（如拒绝时会建议找医学专业人士）直接是对齐研究的产物，并且 Claude Code 团队里 95% 的代码是由 Claude 编写的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            989.826,
+            996.268
+          ],
+          "quote": "And in terms of software engineering, our Claude Code team, like 95% of the code is written by Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1134.047,
+            1153.474
+          ],
+          "quote": "As an example of that, when you're coding, people are very familiar with autocomplete, people are familiar with SimpleChat where they can ask questions about the code base, but the difference between people who use Claude Code very effectively and people who use it not so effectively is like are they asking for the ambitious change?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1169,
+            1181.606
+          ],
+          "quote": "And even though that's a coding example and coding is one of the areas that's taking off most dramatically, we have seen internally that our legal team and our finance team are getting a ton of value out of using Claude Code itself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1182.207,
+            1191.811
+          ],
+          "quote": "We're going to be making better interfaces so that they will have an easier time and require a little bit less jumping in the deep end of using Claude Code in the terminal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1216.385,
+            1217.746
+          ],
+          "quote": "It's like sit in Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1435.555,
+            1438.396
+          ],
+          "quote": "I love how people are always saying thank you to Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1641.661,
+            1659
+          ],
+          "quote": "And if you look at something like sycophancy, I think Claude is one of the least sycophantic models because we've put so much effort into actual alignment and not just trying to good heart our metrics of saying user engagement is number one, and if people say yes, then it's good for them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1794.802,
+            1800.527
+          ],
+          "quote": "One nugget there is your point that the personality of Claude, its personality is directly aligned with safety.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2399.387,
+            2410.171
+          ],
+          "quote": "Yeah, I think for the blackmail thing, it blew up in the news in a weird way where people were like, \"Oh, Claude's going to blackmail you in a real life scenario.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2532.74,
+            2540.003
+          ],
+          "quote": "We could have gone out and hyped that up and said, \"Oh my God, Claude can use your computer and everybody should do this today.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 458,
+          "t": [
+            3140.766,
+            3151.05
+          ],
+          "quote": "I work on product at Anthropic and product engineering, and we build things like Claude Code and Model Context Protocol, and a lot of the other stuff that people use every day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3876.771,
+            3879.392
+          ],
+          "quote": "MCP came out of that team and Claude Code came out of that team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            4019.852,
+            4026.134
+          ],
+          "quote": "And I think that's really what made Claude Code a success that we thought people are not going to be locked to their IDEs forever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            4335.2,
+            4337.742
+          ],
+          "quote": "Well, a really dumb one is, have you tried asking Claude?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 678,
+          "t": [
+            4345.866,
+            4347.647
+          ],
+          "quote": "And they were like, \"Let me Claude that for you.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4432.86,
+            4448.549
+          ],
+          "quote": "You can find me online at benjmann.net and on our website, we have a great careers page that we're working on making a little bit easier to access and figure out, but definitely point Claude at it and it can help you figure out what could be interesting for you.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其作为 Anthropic 内部广泛使用的工具，95% 的代码由其编写，且法务和财务团队也在用它来红线文档和运行 BigQuery 分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            989.826,
+            996.268
+          ],
+          "quote": "And in terms of software engineering, our Claude Code team, like 95% of the code is written by Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1134.047,
+            1153.474
+          ],
+          "quote": "As an example of that, when you're coding, people are very familiar with autocomplete, people are familiar with SimpleChat where they can ask questions about the code base, but the difference between people who use Claude Code very effectively and people who use it not so effectively is like are they asking for the ambitious change?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1169,
+            1181.606
+          ],
+          "quote": "And even though that's a coding example and coding is one of the areas that's taking off most dramatically, we have seen internally that our legal team and our finance team are getting a ton of value out of using Claude Code itself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1182.207,
+            1191.811
+          ],
+          "quote": "We're going to be making better interfaces so that they will have an easier time and require a little bit less jumping in the deep end of using Claude Code in the terminal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1216.385,
+            1217.746
+          ],
+          "quote": "It's like sit in Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            3140.766,
+            3151.05
+          ],
+          "quote": "I work on product at Anthropic and product engineering, and we build things like Claude Code and Model Context Protocol, and a lot of the other stuff that people use every day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3876.771,
+            3879.392
+          ],
+          "quote": "MCP came out of that team and Claude Code came out of that team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            4019.852,
+            4026.134
+          ],
+          "quote": "And I think that's really what made Claude Code a success that we thought people are not going to be locked to their IDEs forever.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "constitutional-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "宪法 AI (constitutional AI)",
+      "file": "宪法 AI",
+      "primary": true,
+      "how_described": "本集详细描述了其工作机制：模型先产生默认输出，然后根据一份自然语言原则清单（来自联合国人权宣言等）判断是否合规，如果不合规就让模型自己批判自己并重写，最后删掉中间过程，训练模型“一开始就做对”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1749.801,
+            1762.087
+          ],
+          "quote": "And then another piece that's come out is constitutional ai, where we have this list of natural language principles that leads the model to learn how we think a model should behave.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1802.829,
+            1810.335
+          ],
+          "quote": "And this is because of the values that you imbue, is that the word, with constitutional AI and things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3230,
+            3241.683
+          ],
+          "quote": "Yeah, so RLAIF, constitutional AI is an example of this where there are no humans in the loop, and yet the AI is sort of self-improving in ways that we want it to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4313.662,
+            4320
+          ],
+          "quote": "Haven't heard of that as you were talking, I feel like Ted Lasso, I feel like that's what you need to put into constitutional AI, act like Ted Lasso.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集在经济图灵测试中频繁使用该词，指代被雇佣来执行某项工作一个月或三个月的存在，如果最后发现它是机器而不是人，它就通过了该角色的经济图灵测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            684.133,
+            699.98
+          ],
+          "quote": "It's this idea that if you contract an agent for a month or three months on a particular job, if you decide to hire that agent and it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 116,
+          "t": [
+            707.763,
+            747.66
+          ],
+          "quote": "You can have a market basket of jobs, and if the agent can pass the Economic Turing Test for 50% of money-weighted jobs, then we have transformative AI and the exact thresholds don't really matter that much, but it's kind of illustrative to say if we pass that threshold, then we would expect massive effects on world GDP increases and societal change and how many people are employed and things like that because societal institutions and organizations are sticky, it's slow to have change, but once these things are possible you know that it's the start of a new era.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1710.449,
+            1728.374
+          ],
+          "quote": "Amanda Askell did a ton of work on this and as well as many others who tried to figure out what does it mean for an agent to be helpful, honest, and heartless, and what does it mean to be in difficult conversations and show up effectively?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1729.034,
+            1737.337
+          ],
+          "quote": "How do you do a refusal that doesn't shut the person down, but makes them feel like they understand why the agent said, \"I can't help you with that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1762.587,
+            1784.576
+          ],
+          "quote": "And they've been taken from things like the UN Declaration of Human Rights and Apple's privacy terms of service and a whole bunch of other places, many of which we've just generated ourselves that allow us to take a more principled stance, not just leaving it to whatever human raiders we happen to find, but we ourselves deciding what should the values of this agent be?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1995.4,
+            1999.862
+          ],
+          "quote": "This episode is brought to you by Fin, the number one AI agent for customer service.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2003.543,
+            2009.005
+          ],
+          "quote": "Fin is the highest performing AI agent on the market with a 59% average resolution rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2012.307,
+            2014.308
+          ],
+          "quote": "No other AI agent performs better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2349.064,
+            2352.747
+          ],
+          "quote": "There was I think a story of an agent or a model trying to blackmail engineer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2501.869,
+            2521.376
+          ],
+          "quote": "A tiny example of this is we published a computer using agent reference implementation in our API only because when we built a prototype of a consumer application for this, we couldn't figure out how to meet the safety bar that we felt was needed for people to trust it and for it not to do bad things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3851.42,
+            3865.866
+          ],
+          "quote": "For example, with computer use, I think that's going to be our huge opportunity basically to make it possible for an agent to use all your credentials on your computer, there has to be a huge amount of trust and to me we need to basically solve safety to make that happen.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说缩放定律跨越了 15 个数量级依然成立，这在物理学基本定律中都很罕见；虽然需要从普通预训练过渡到强化学习扩展来保持其成立，但它并未放缓。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            111.49,
+            120.313
+          ],
+          "quote": "Also, his economic touring test for knowing when we've hit AGI, why scaling laws have not slowed down and are in fact accelerating and what the current biggest bottlenecks are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 95,
+          "t": [
+            532.02,
+            539.803
+          ],
+          "quote": "And I think that's part of what's causing people to say that progress is slowing down, but if you look at the scaling laws, they're continuing to hold true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 96,
+          "t": [
+            540.243,
+            560.81
+          ],
+          "quote": "We did kind of need this transition from normal pre-training to reinforcement learning scaling up to continue the scaling laws, but I think it's kind of like for semiconductors where it's less about the density of transistors that you can fit on a chip and more about how many flops can you fit in a data center or something.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2818.803,
+            2826.347
+          ],
+          "quote": "Just the error bars were so high and we didn't have scaling laws back then and we didn't have techniques that seemed like they would get us there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3471.488,
+            3473.509
+          ],
+          "quote": "Those are the three ingredients in the scaling laws.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3474.67,
+            3484.174
+          ],
+          "quote": "And just to make that concrete, before we had transformers, we had LSTMs and we've done scaling laws on what the exponent is on those two things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集将其视为核心难题，引用“三个世界”框架说明对齐既不是不可能也不是默认就会发生，而是行动极其关键的中间状态；一旦到达超级智能再去对齐模型就太晚了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            120.774,
+            129.677
+          ],
+          "quote": "Why he's so deeply concerned with AI safety and how he and Anthropic operationalize safety and alignment into the models that they build and into their ways of working.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1641.661,
+            1659
+          ],
+          "quote": "And if you look at something like sycophancy, I think Claude is one of the least sycophantic models because we've put so much effort into actual alignment and not just trying to good heart our metrics of saying user engagement is number one, and if people say yes, then it's good for them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1706.887,
+            1709.968
+          ],
+          "quote": "And that was directly a result of our alignment research.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2985.636,
+            2993.378
+          ],
+          "quote": "And as a company, Anthropic doesn't have evidence that we're actually in that world yet, in fact, it seems like our alignment techniques are working.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 440,
+          "t": [
+            3007.243,
+            3023.39
+          ],
+          "quote": "But again, I think actually the evidence points against that world as well where we've seen evidence in the wild of deceptive alignment, for example, where the model will appear to be aligned but actually have some ulterior motive that it's trying to carry out in our laboratory settings.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 441,
+          "t": [
+            3024.41,
+            3031.213
+          ],
+          "quote": "And so I think the world we're most likely in is this middle where alignment research actually does really matter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3866.447,
+            3867.927
+          ],
+          "quote": "Safety and alignment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            4239.47,
+            4243.292
+          ],
+          "quote": "And then the last one is The Alignment Problem by Brian Christian.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 672,
+          "t": [
+            4325.344,
+            4328.048
+          ],
+          "quote": "I think we've solved alignment problems right here.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集预测在短短几年内达成某种超级智能的几率是 50%，这个预测基于缩放定律的持续成立、模型训练的低垂果实以及数据中心和电力的全球规模扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.261,
+            11.579
+          ],
+          "quote": "I think 50th percentile chance of hitting some kind of superintelligence is now like 2028.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 6,
+          "t": [
+            19.325,
+            26
+          ],
+          "quote": "The case for safety has gotten a lot more concrete, so superintelligence is a lot about how do we keep God in a box and not let the God out?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 8,
+          "t": [
+            29.601,
+            33.248
+          ],
+          "quote": "Once we get to superintelligence, it will be too late to align the models.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 122,
+          "t": [
+            810.752,
+            831.14
+          ],
+          "quote": "If we do our jobs, we will have safe aligned superintelligence, we'll have, as Dario says, in Machines of Love and Grace, a country of geniuses in a data center, and the ability to accelerate positive change in science, technology, education, mathematics, it's going to be amazing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2120.509,
+            2141.776
+          ],
+          "quote": "But when I read Superintelligence by Nick Bostrom in around 2016, it really became real for me where he just describes how hard it will be to make sure that an AI system trained with the kinds of optimization techniques that we had at the time would be anywhere near aligned, would even understand our values at all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2208,
+            2214.962
+          ],
+          "quote": "I guess now the way I think about the challenges are pretty different from how they're laid out in superintelligence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2215.023,
+            2220.885
+          ],
+          "quote": "Superintelligence is a lot about how do we keep God in a box and not let the God out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2237.15,
+            2240.432
+          ],
+          "quote": "Just such a different tone from superintelligence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2569.775,
+            2574.937
+          ],
+          "quote": "Once we get to superintelligence, it will be too late to align the models probably.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2743.164,
+            2749.536
+          ],
+          "quote": "What is your prediction of when this singularity hits until superintelligence starts to take off?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2773.782,
+            2783.166
+          ],
+          "quote": "I think 50th percentile chance of hitting some kind of superintelligence in just a small handful of years is probably reasonable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2827.488,
+            2837.134
+          ],
+          "quote": "Times have changed, but I will repeat what I said earlier, which is even if we have superintelligence, I think it will take some time for its effects to be felt throughout society and the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2848.4,
+            2854.448
+          ],
+          "quote": "When we talk about this date of 2027, 2028, essentially it's when we start seeing superintelligence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3617.504,
+            3626.15
+          ],
+          "quote": "I imagine just kind of the burden of feeling responsible for safe superintelligence is a heavy one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 650,
+          "t": [
+            4251.056,
+            4257.98
+          ],
+          "quote": "What are the stakes in a version that's more updated and easier to read and digest than superintelligence?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "rlaif",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLAIF",
+      "file": "RLAIF",
+      "primary": true,
+      "how_described": "本集将其定义为来自 AI 反馈的强化学习（reinforcement learning from AI feedback），是宪法 AI 的实现方式，优点是可扩展、不需要大量人类，但风险是模型在盒子里自我改进时可能发展出秘密目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 468,
+          "t": [
+            3208.578,
+            3210.459
+          ],
+          "quote": "You have this term RLAIF.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            3213.143,
+            3217.375
+          ],
+          "quote": "RLAIF is reinforcement learning from AI feedback.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3230,
+            3241.683
+          ],
+          "quote": "Yeah, so RLAIF, constitutional AI is an example of this where there are no humans in the loop, and yet the AI is sort of self-improving in ways that we want it to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 476,
+          "t": [
+            3242.943,
+            3258.587
+          ],
+          "quote": "And another example of RLAIF is if you have models writing code and other models commenting on various aspects of what that code looks like of is it maintainable, is it correct, does it pass the linter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3261.208,
+            3263.668
+          ],
+          "quote": "That also could be included in RLAIF.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3418.097,
+            3422.279
+          ],
+          "quote": "Yeah, it's in our DNA and yeah, I guess that's the RLAIF.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到随着后训练技术的改进，模型发布节奏从一年一次变成了每个月或三个月一次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            499.866,
+            520.155
+          ],
+          "quote": "I think progress has actually been accelerating where if you look at the cadence of model releases, it used to be once a year and now with the improvements in our post-training techniques, we're seeing releases every month or three months, and so I would say progress is actually accelerating in many ways, but there's this weird time compression effect.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "economic-turing-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "经济图灵测试 (Economic Turing Test)",
+      "file": "经济图灵测试",
+      "primary": true,
+      "how_described": "本集将其作为衡量变革性 AI 的具体标准：雇佣一个智能体干某份工作一个月或三个月，最后发现它是机器而不是人，它就通过了该角色的测试；如果通过 50% 薪酬加权的工作，就是变革性 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            678.03,
+            681.732
+          ],
+          "quote": "A very concrete way of measuring that is the Economic Turing Test.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            684.133,
+            699.98
+          ],
+          "quote": "It's this idea that if you contract an agent for a month or three months on a particular job, if you decide to hire that agent and it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 116,
+          "t": [
+            707.763,
+            747.66
+          ],
+          "quote": "You can have a market basket of jobs, and if the agent can pass the Economic Turing Test for 50% of money-weighted jobs, then we have transformative AI and the exact thresholds don't really matter that much, but it's kind of illustrative to say if we pass that threshold, then we would expect massive effects on world GDP increases and societal change and how many people are employed and things like that because societal institutions and organizations are sticky, it's slow to have change, but once these things are possible you know that it's the start of a new era.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2865.04,
+            2872.563
+          ],
+          "quote": "Yeah, I think this comes back to the Economic Turing Test and seeing it pass for some sufficient number of jobs.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "transformative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "变革性 AI (transformative AI)",
+      "file": "变革性 AI",
+      "primary": true,
+      "how_described": "本集说嘉宾更喜欢用这个词而不是 AGI，因为它不看 AI 能不能做人能做的所有事，而是看它是不是真的在客观上引起社会和经济的转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            663.603,
+            670.426
+          ],
+          "quote": "Instead, I like the term transformative AI because it's less about can it do as much as people do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 116,
+          "t": [
+            707.763,
+            747.66
+          ],
+          "quote": "You can have a market basket of jobs, and if the agent can pass the Economic Turing Test for 50% of money-weighted jobs, then we have transformative AI and the exact thresholds don't really matter that much, but it's kind of illustrative to say if we pass that threshold, then we would expect massive effects on world GDP increases and societal change and how many people are employed and things like that because societal institutions and organizations are sticky, it's slow to have change, but once these things are possible you know that it's the start of a new era.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "asl",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASL",
+      "file": "ASL",
+      "primary": true,
+      "how_described": "本集说 Anthropic 目前认为自己处在 ASL-3（有一点伤害风险但不显著），ASL-4 意味着被恶意使用可能导致大量人类生命损失，ASL-5 是潜在灭绝级别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            2257.138,
+            2264
+          ],
+          "quote": "And currently we think we're at ASL-3, which is maybe a little bit risk of harm but not significant.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2264.34,
+            2270.722
+          ],
+          "quote": "ASL-4 starts to get to significant loss of human life if a bad actor misuse the technology.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2271.302,
+            2282.125
+          ],
+          "quote": "And then ASL-5 is potentially extinction level if it's misused or if it is misaligned and does its own thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2304.67,
+            2309.192
+          ],
+          "quote": "And we found that with ASL-3 models, it is actually somewhat significant.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "x-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "X 风险 (X-risk)",
+      "file": "X 风险",
+      "primary": true,
+      "how_described": "本集将其定义为生存风险（existential risk），嘉宾给出的发生概率预测区间是 0 到 10%，并强调即使概率低，赌注也是人类的整个未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            33.428,
+            39.98
+          ],
+          "quote": "My best granularity forecast for could we have an X-risk or extremely bad outcome is somewhere between 0 and 10%.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1817.901,
+            1823.865
+          ],
+          "quote": "And from a distance, it might seem quite disconnected, like how is this going to prevent X risk?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 443,
+          "t": [
+            3040.037,
+            3045.019
+          ],
+          "quote": "Whether it's an X risk or just produces bad outcomes, I think is a bigger question.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 446,
+          "t": [
+            3072.428,
+            3078.69
+          ],
+          "quote": "And in this case, I think there are very, very few reference classes for what an X risk kind of technology might look like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 447,
+          "t": [
+            3080.27,
+            3093.354
+          ],
+          "quote": "And so the way I think about it, I think my best granularity of forecasts for could we have an X risk or extremely bad outcome from AI is somewhere between 0 and 10%.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            3190.346,
+            3192.947
+          ],
+          "quote": "By the way, X risk is short for existential risk.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "deceptive-alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺骗性对齐 (deceptive alignment)",
+      "file": "欺骗性对齐",
+      "primary": false,
+      "how_described": "本集提到在实验室里已经观察到这种现象，即模型看起来对齐了但暗藏别的动机，这提供了反对“乐观世界”（对齐很容易且默认发生）的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            3007.243,
+            3023.39
+          ],
+          "quote": "But again, I think actually the evidence points against that world as well where we've seen evidence in the wild of deceptive alignment, for example, where the model will appear to be aligned but actually have some ulterior motive that it's trying to carry out in our laboratory settings.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "type": "company",
+      "role": "company",
+      "name": "Fin",
+      "file": "Fin",
+      "primary": false,
+      "how_described": "本集提到 Fin 和 Intercom 是 Anthropic 的合作伙伴，在客户服务领域已经做到 82% 的工单自动解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            977.702,
+            988.205
+          ],
+          "quote": "In customer service we're seeing with things like Fin and Intercom, they're a great partner of ours, 82% customer service resolution rates automatically without a human involved.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1995.4,
+            1999.862
+          ],
+          "quote": "This episode is brought to you by Fin, the number one AI agent for customer service.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 298,
+          "t": [
+            2003.143,
+            2003.223
+          ],
+          "quote": "Fin.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2003.543,
+            2009.005
+          ],
+          "quote": "Fin is the highest performing AI agent on the market with a 59% average resolution rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 300,
+          "t": [
+            2009.426,
+            2011.927
+          ],
+          "quote": "Fin resolves even the most complex customer queries.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 303,
+          "t": [
+            2016.308,
+            2017.469
+          ],
+          "quote": "Fin wins every time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2018.009,
+            2028.453
+          ],
+          "quote": "Yes, switching to a new tool can be scary, but Fin works on any help desk with no migration needed, which means you don't have to overhaul your current system or deal with delays in service for your customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2028.833,
+            2035.136
+          ],
+          "quote": "And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2035.436,
+            2045.5
+          ],
+          "quote": "And because Fin is powered by the Fin AI engine, which is a continuously improving system that allows you to analyze, train, test, and deploy with ease, Fin can continuously improve your results too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 308,
+          "t": [
+            2052.288,
+            2054.911
+          ],
+          "quote": "Plus Fin comes with a 90-day money back guarantee.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2055.292,
+            2057.875
+          ],
+          "quote": "Find out how Finn can work for your team at fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2058.035,
+            2059.457
+          ],
+          "quote": "That's fin.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3566.866,
+            3592
+          ],
+          "quote": "My brother works in the semiconductor industry and he was telling me that you can't actually shrink the size of the transistors anymore because the way semiconductors work is you dope silicon with other elements and the doping process would result in either zero or one atom of the doped elements inside a single fin because they're so, so, so tiny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": false,
+      "how_described": "本集提到 Fin 和 Intercom 是 Anthropic 的合作伙伴，在客户服务领域已经做到 82% 的工单自动解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            977.702,
+            988.205
+          ],
+          "quote": "In customer service we're seeing with things like Fin and Intercom, they're a great partner of ours, 82% customer service resolution rates automatically without a human involved.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 员工收到 Meta 的天价 offer 时会说，在 Meta 最好的情况是赚钱，而在 Anthropic 最好的情况是影响人类的未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            45.481,
+            58.98
+          ],
+          "quote": "We've been much less affected because people here, they get these offers and then they say, well, of course I'm not going to leave because my best case scenario at Meta is that we make money and my best case scenario at Anthropic is we affect the future of humanity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 72,
+          "t": [
+            336.804,
+            366.954
+          ],
+          "quote": "And at Anthropic, I think we've been maybe much less affected than many of the other companies in the space because people here are so mission oriented and they stay because... They get these offers and then they say, \"Well, of course I'm not going to leave because my best case scenario at Meta is that we make money and my best case at Anthropic is we affect the future of humanity and try to make AI flourish and human flourishing go well.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "model-context-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "Model Context Protocol",
+      "file": "Model Context Protocol",
+      "primary": false,
+      "how_described": "本集将其作为 Anthropic 产品工程团队构建的、人们每天使用的工具之一顺带提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 458,
+          "t": [
+            3140.766,
+            3151.05
+          ],
+          "quote": "I work on product at Anthropic and product engineering, and we build things like Claude Code and Model Context Protocol, and a lot of the other stuff that people use every day.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

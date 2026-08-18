@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Melanie Perkins]] · [[Canva]] · [[疯狂大目标]] · [[从混乱到清晰]] · [[使命支柱]] · [[两步计划]] · [[前端重写]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":48,"Melanie Perkins":1,"Canva":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Melanie Perkins":1,"Canva":2,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":4}</script>
 
 <script>
 (function(){

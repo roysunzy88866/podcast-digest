@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>46</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(00:45起):本集把 Anthropic 描述为一个以使命为导向的公司，其最好的情况是影响人类的未来；它是一个将安全放在一切之前的前沿研究组织，且拥有极高的无自我文化（egoless）和人才密度。
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(31:49起):本集广告口播中提到 Anthropic 是 Claude 背后的团队
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(01:18起):本集提到 Anthropic 的首席产品官分享说 evals 正在成为产品构建者最重要的新技能，其团队也上过 Hamel 和 Shreya 的课程。
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:43起):本集提到它是 MCP(模型上下文协议)的提出者,并且是 Block 分享 Goose 概念验证时让其感到兴奋、共同探讨的早期合作方之一。
@@ -71,8 +72,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*45 集*
+*46 集*
 
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为被讨论公司(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
@@ -123,9 +125,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[AGI]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[Google]] · [[Meta]] · [[NVIDIA]] · [[AGI]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":80,"OpenAI":34,"Lenny":48,"Claude":15,"Claude Code":21,"Google":18,"NVIDIA":15,"Meta":13,"AGI":10,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":86,"OpenAI":37,"Lenny":52,"Claude":17,"Claude Code":22,"Google":18,"Meta":14,"NVIDIA":15,"AGI":10,"Microsoft":10}</script>
 
 <script>
 (function(){

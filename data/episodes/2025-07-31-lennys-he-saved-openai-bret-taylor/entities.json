@@ -1,0 +1,1390 @@
+{
+  "episode_id": "2025-07-31-lennys-he-saved-openai-bret-taylor",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-07-31",
+  "tags": [
+    "智能体",
+    "按结果定价",
+    "AI 编程",
+    "SaaS 商业模式",
+    "系统思维"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            136.936,
+            139.438
+          ],
+          "quote": "Check it out at Lenny'snewsletter.com and click bundle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            191.873,
+            197.778
+          ],
+          "quote": "Get CodeRabbit for free for an entire year at CodeRabbit.ai using code, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            241.897,
+            245.538
+          ],
+          "quote": "Sign up for a free account at basecamp.com/Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2714.126,
+            2715.547
+          ],
+          "quote": "They can get $1,000 off Vanta at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2715.567,
+            2718.351
+          ],
+          "quote": "That's V-A-N-T-A .com/lenny for $1,000 off Vanta.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bret-taylor",
+      "type": "person",
+      "role": "cohost",
+      "name": "Bret Taylor",
+      "file": "Bret Taylor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            56.58,
+            58.181
+          ],
+          "quote": "Today, my guest is Bret Taylor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            139.718,
+            141.88
+          ],
+          "quote": "With that, I bring you Bret Taylor.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": true,
+      "how_described": "本集说 Sierra 是一家构建面向客户的 AI 智能体的公司，帮助企业在客户服务和客户体验领域（如接听电话、回答聊天）自主解决问题，并采用基于解决率的定价模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            86.417,
+            92
+          ],
+          "quote": "Today, co-founder and CEO of Sierra an AI started building agent to help companies with customer service sales and more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            754.714,
+            762.317
+          ],
+          "quote": "You've also founded three different companies, one social network, one productivity docs company called Quip, and now, Sierra.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3349.584,
+            3355.946
+          ],
+          "quote": "There's companies like Sierra, we help companies build agents to answer the phone or answer the chat for customer experience and customer service.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3873.814,
+            3877.836
+          ],
+          "quote": "And he actually used Sierra as one of the shining examples of this being successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3878.336,
+            3884.98
+          ],
+          "quote": "Can you just briefly just explain a little bit what is outcome-based pricing for people that haven't heard this term before and then just how does it work for Sierra to give an example?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3887.981,
+            3895.665
+          ],
+          "quote": "So at Sierra, we help companies make customer facing AI agents primarily for customer service, but more broadly, for customer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 631,
+          "t": [
+            4085.283,
+            4091.386
+          ],
+          "quote": "And I think at Sierra, we are truly a partner to every single one of our customers because we're all aligned on what we want to achieve.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 666,
+          "t": [
+            4299.031,
+            4308.594
+          ],
+          "quote": "So we have an engineer at Sierra who exclusively focuses on the model context protocol server serving our cursor instance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            4376.362,
+            4384.427
+          ],
+          "quote": "And so, for customers using platforms like Sierra, yeah, AI agents aren't perfect, but we're creating a system that lets customers create a virtuous cycle of improvement.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 690,
+          "t": [
+            4452.791,
+            4458
+          ],
+          "quote": "Just to give you a chance to share how amazing what you've built is, what are some of the gains you see from people using Sierra?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 842,
+          "t": [
+            5273.589,
+            5280
+          ],
+          "quote": "Two final questions, where can folks find you online if they want to reach out, maybe go see if they want to work at Sierra and how can listeners be useful to you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 843,
+          "t": [
+            5280.821,
+            5284.525
+          ],
+          "quote": "If you want an AI agent to help with customer service, go to sierra.ai.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 844,
+          "t": [
+            5285.005,
+            5296.638
+          ],
+          "quote": "If you want to apply here, sierra.ai/careers where we have offices in San Francisco and New York, Atlanta and London and are hiring pretty aggressively in every department.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 847,
+          "t": [
+            5300.131,
+            5301
+          ],
+          "quote": "Is it tryout Sierra, anything else there?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 848,
+          "t": [
+            5301.361,
+            5302.847
+          ],
+          "quote": "Yeah, tryout Sierra.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是新的应用形态（agent is the new app），软件从帮助个人稍微提高生产力，转变为自主完成一项工作，从而带来可衡量、可归因的真实生产力跃迁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            19.253,
+            20.839
+          ],
+          "quote": "He was extremely agent-pilled.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            86.417,
+            92
+          ],
+          "quote": "Today, co-founder and CEO of Sierra an AI started building agent to help companies with customer service sales and more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3344.002,
+            3346.783
+          ],
+          "quote": "I think agent is the new app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3446.459,
+            3448.439
+          ],
+          "quote": "And so, over time you say, what is an agent company?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3488.087,
+            3496.651
+          ],
+          "quote": "I'm particularly excited as building agents becomes easier, to see a lot of long tail agent companies come out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3524.326,
+            3539.84
+          ],
+          "quote": "It's going to be a lot of things where people are spending a lot of time and resources that an agent can just solve, but it requires an entrepreneur who actually understands that business problem, and deeply, and I think that's where a lot of the value is going to be unlocked in the AI market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3541.823,
+            3548.052
+          ],
+          "quote": "This makes me think about, I had Marc Benioff on the podcast, you guys were co-CEOs and he was extremely agent-pilled.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3551.216,
+            3552.979
+          ],
+          "quote": "Clearly you're also very agent-pilled.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3554,
+            3555.829
+          ],
+          "quote": "I've never heard the term agent-pilled [inaudible 00:59:18].",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3782.237,
+            3790
+          ],
+          "quote": "But now with an agent actually accomplishing a job, not only is it actually truly driving productivity in a very real way, but it's measurable as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3895.705,
+            3902.567
+          ],
+          "quote": "So if you have a problem with your [inaudible 01:04:58], you'll call or chat with Harmony, who's their AI agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3902.607,
+            3907.43
+          ],
+          "quote": "If you have ADT home security and your alarm doesn't work, you can chat with their AI agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3932.68,
+            3943.545
+          ],
+          "quote": "So if an AI agent can take that call and solve it, that is in the industry often called a call deflection or a containment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3952.248,
+            3966.094
+          ],
+          "quote": "So in our industry, basically we say, \"Hey, if the AI agent solves the customer's problem, they're happy with it and you didn't have to pick up the phone,\" there's a pre-negotiated rate for that and we call it resolution based.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 654,
+          "t": [
+            4222.184,
+            4230.967
+          ],
+          "quote": "So if the code produced by a coding agent is often incorrect, it actually can take a lot of cognitive load and time to fix it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 660,
+          "t": [
+            4256.856,
+            4268.359
+          ],
+          "quote": "Just think about it this way, if you produce an AI agent that's right 90% of the time, that's not that great, but how hard would it be to make another AI agent to find the errors the other 10% of the time?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 677,
+          "t": [
+            4384.767,
+            4399.935
+          ],
+          "quote": "If you want to go from a 65% automated resolution rate to 75%, we have a billion tools to let AI help you do that, identify opportunities for improvement, figure out why people are frustrated, what new capabilities can we add to our agent to improve the resolution rate?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 694,
+          "t": [
+            4478.646,
+            4481.147
+          ],
+          "quote": "You can actually refinance your home using an agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 697,
+          "t": [
+            4498.912,
+            4518.837
+          ],
+          "quote": "What's really neat about it is it's a pretty diverse range of use cases and it's everything from helping you sign up for... We have an agent that helps with customer support in one of the big dating applications to helping you upgrade or downgrade your SiriusXM plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 699,
+          "t": [
+            4528.24,
+            4534.602
+          ],
+          "quote": "So technicians going in and fixing the CAT scan machine can chat with an AI agent to help them guide them through that process.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 700,
+          "t": [
+            4535.143,
+            4547.427
+          ],
+          "quote": "We're the leader in the space, we're trying to enable every company in the world to create their agent with their brand at the top that I think will become as meaningful of a digital touch point as their website or their mobile app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4559.212,
+            4564.654
+          ],
+          "quote": "That Weight Watchers agent, I believe has a customer satisfaction score of 4.6 out of five, which is pretty amazing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            4569.996,
+            4579.619
+          ],
+          "quote": "And so, when you have a clear, I don't know if you use them in the airport, I think that agent has a CSAT score of 4.7 out of five people are coming in with a problem and [inaudible 01:16:19] delighted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 719,
+          "t": [
+            4640.731,
+            4654.88
+          ],
+          "quote": "I imagine your name helps, investors help, but what have you learned about just how to successfully do go-to-market with an AI product, say an agent-specific product that you think would be helpful for folks trying to do this better?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 843,
+          "t": [
+            5280.821,
+            5284.525
+          ],
+          "quote": "If you want an AI agent to help with customer service, go to sierra.ai.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "outcomes-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的定价 (outcomes-based pricing)",
+      "file": "基于结果的定价",
+      "primary": true,
+      "how_described": "本集说基于结果的定价是 AI 时代正确的软件销售方式：智能体自主解决了客户的问题、客户满意才收费，这跟按 token 或按使用量定价有本质区别，如果没解决甚至可能创造负价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            8.764,
+            11.61
+          ],
+          "quote": "I think the whole market is going to go towards outcomes-based pricing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3804.193,
+            3811.62
+          ],
+          "quote": "It's measurable so people value it differently as well, which is why I also believe in outcomes-based pricing for software.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3834.673,
+            3847.84
+          ],
+          "quote": "I think the whole market is going to go towards outcomes-based pricing, not because it's the only way, but the market is going to pull everyone there because it's just so obviously the correct way to build and sell software.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 627,
+          "t": [
+            4055.029,
+            4073.158
+          ],
+          "quote": "I think there's a huge difference between outcomes-based pricing and usage based pricing because especially in AI, they're not necessarily even correlated and you could have a long phone call and not solve the customer's problem and they give you a negative review online and call the call center again, all that effort was for nothing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "applied-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用 AI (applied AI)",
+      "file": "应用 AI",
+      "primary": true,
+      "how_described": "本集把 AI 市场分三层，应用 AI 是其中一层，指构建智能体去解决具体业务问题的公司，利润率更高，随着编排智能体变容易，竞争会越来越像今天的 SaaS 市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 517,
+          "t": [
+            3339.26,
+            3340.661
+          ],
+          "quote": "Then there's the applied AI market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4370.719,
+            4372.96
+          ],
+          "quote": "That's essentially why applied AI companies exist.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说前沿模型（或基础模型）市场完全是资本支出的游戏，模型作为资产贬值极快，最终只会剩下少数超大规模云厂商和大型实验室，初创公司不应碰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 491,
+          "t": [
+            3162.982,
+            3168.044
+          ],
+          "quote": "So first is the frontier model market or foundation model market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            3177.367,
+            3182.449
+          ],
+          "quote": "And the reason for that is that creating a frontier model is entirely a function of CapEx.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3221.472,
+            3226.299
+          ],
+          "quote": "So, I think that's going to end up probably no entrepreneur should build a frontier model.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "tooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具层 (tooling)",
+      "file": "工具层",
+      "primary": true,
+      "how_described": "本集说工具层市场（卖铲子的，如数据标注、评估工具、专用模型）离太阳太近，基础设施提供商天然有动机往技术栈上层走，随时可能把你的功能做进自家产品，被替代风险很高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 507,
+          "t": [
+            3243.026,
+            3249.669
+          ],
+          "quote": "The other part of the market is the tooling, and I think there's a lot of folks selling pickaxes in the Gold Rush.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3271.28,
+            3275.223
+          ],
+          "quote": "There is some risk to the tooling market because it's pretty close to the sun.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3275.303,
+            3296.96
+          ],
+          "quote": "So, if you look at the infrastructure as a service market and the cloud tooling market like the Confluent and Databricks and Snowflake, a lot of the Amazon and Azure and others have competing products in those areas because they're very adjacent to the infrastructure itself and every infrastructure provider is trying to differentiate by moving up the stack and you're right there.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说上下文工程是指当 Cursor 生成错误代码时，不是修掉就完，而是做根因分析——找到它缺了什么上下文才导致出错，然后通过 MCP 服务器把正确上下文喂进去，让下次不再犯。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 668,
+          "t": [
+            4317.597,
+            4324.58
+          ],
+          "quote": "Try to get it so the next time Cursor will produce the correct code and essentially, is context engineering.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 672,
+          "t": [
+            4354.032,
+            4365.717
+          ],
+          "quote": "Over time that'll probably be less necessary and you'll have less context engineering necessary to do it, but you really have to think of this as a system and I think people are waiting for the models to just magically get better.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "programming-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程系统 (programming system)",
+      "file": "编程系统",
+      "primary": true,
+      "how_described": "本集说未来需要一种新的编程系统（不只是语言），专为 AI 生成代码而设计，而不是为人类书写舒适而设计，核心是让人类能用机器可验证的约束层（如编译时内存安全）来确保生成代码的正确性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            2247.2,
+            2251.922
+          ],
+          "quote": "I don't know if it's a language, I would call it a programming system because I think language might be too limited.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2570.473,
+            2584
+          ],
+          "quote": "I think that's more of a programming system than a language, but I think when we create something like that, it can really enable creators, builders to create incredibly robust, incredibly complex systems.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "productivity-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产力软件 (productivity software)",
+      "file": "生产力软件",
+      "primary": false,
+      "how_described": "本集说销售生产力软件几乎是一件不可能的事——你跟客户说每个销售多卖 5% 让他们掏一百万美元，但到底是不是你的软件带来的根本说不清，价值不可归因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            21,
+            24
+          ],
+          "quote": "It's so hard to sell productivity software, which I learned the hard way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3759.229,
+            3776.175
+          ],
+          "quote": "And it's roughly that conversation and it's so unattributable especially... And it's why it's so hard to sell productivity software, which I learned the hard way, it's just hard to know what's the value of making everyone 10% more productive?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 MCP（模型上下文协议）服务器作为向 Cursor 提供上下文的方式，用于在根因分析后把正确上下文喂给编码智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 681,
+          "t": [
+            4414.69,
+            4419.137
+          ],
+          "quote": "You build an MCP server that everything runs through or is it like you add Cursor rules?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4421.06,
+            4427.785
+          ],
+          "quote": "I'm probably out of my depth here, but it's essentially MCP because that's how you provide context to Cursor.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集提到 Bret 曾是 Salesforce 的联合 CEO，并以 Salesforce 1998 年创办时把数据库放上云为例，说明曾经的技术护城河现在已微不足道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.163,
+            4.693
+          ],
+          "quote": "You are a co-CEO of Salesforce, you're chairman of the board at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            72.029,
+            77.932
+          ],
+          "quote": "He then started a productivity company called Quip, which he sold to Salesforce for $750 million.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            78.252,
+            80.654
+          ],
+          "quote": "He then became co-CEO of Salesforce.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 113,
+          "t": [
+            736.486,
+            742.589
+          ],
+          "quote": "You were CTO of Meta, you were co-CEO of Salesforce, you're also CPO and COO at Salesforce.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 130,
+          "t": [
+            821.288,
+            830.311
+          ],
+          "quote": "At Salesforce, a lot of the folks there interacted with me as like a, lack of a better word, a suit, the boss.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2334.16,
+            2350.905
+          ],
+          "quote": "When Salesforce was created in 1998, just putting a database in the cloud was hard and that alone was a technical moat that is now trivial with Amazon Web Services and that technical moat is comically narrow, but the product moat is quite large.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3412.626,
+            3421.689
+          ],
+          "quote": "Just going back to my metaphor, in 1998 when Mark and Parker started Salesforce, just getting that database running in the cloud was like a technical achievement.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4781.981,
+            4795.946
+          ],
+          "quote": "And direct sales had gone, I don't want to say out of fashion, but if I think of the best direct sales companies, probably there's a lot of lineage from Oracle, but you think SAP, Oracle, ServiceNow, Salesforce, Adobe perhaps, and there's others as well.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "google-maps",
+      "type": "company",
+      "role": "company",
+      "name": "Google Maps",
+      "file": "Google Maps",
+      "primary": false,
+      "how_described": "本集作为 Bret 的早期产品案例提到，从失败的 Google Local 到反转层级把地图作为画布，最终推出第一天就有一千万人使用的 Google Maps。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            41.501,
+            45.854
+          ],
+          "quote": "They gave me another shot to do the V2 of it that resulted in Google Maps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            61.363,
+            63.244
+          ],
+          "quote": "He co-created Google Maps at Google.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 83,
+          "t": [
+            504.091,
+            509.093
+          ],
+          "quote": "And that ended up being the thread that we pulled that resulted in Google Maps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 89,
+          "t": [
+            574.58,
+            580.762
+          ],
+          "quote": "When we launched Google Maps we got about 10 million people using it on the first day, which at that scale of the internet at the time was huge.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            625.237,
+            633.96
+          ],
+          "quote": "Certainly, that was the lesson I think in Google Maps, really was native to the platform in a way that a paper map couldn't be and that was a really meaningful breakthrough.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 96,
+          "t": [
+            635.5,
+            648.126
+          ],
+          "quote": "And then with satellite imagery, it honestly wasn't the most important part of Google Maps, but it was the sizzle to the steak and it created, I don't think the term viral was a thing people said back then, but it created a viral moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            650.147,
+            656.63
+          ],
+          "quote": "Andy Samberg in, I think it was called Lazy Sunday rapped about Google Maps and Lars and I were texting each other.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            743.109,
+            749.031
+          ],
+          "quote": "At Google, you joined as an associate product manager where you famously, you didn't mention this but you rebuilt Google Maps on weekend.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1458.926,
+            1463.368
+          ],
+          "quote": "Sanjeev was the first engineer at Gmail, so we had the Google Maps people and Gmail people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2143.053,
+            2159.84
+          ],
+          "quote": "I think it's very important to have a very loose attachment to the way we do our jobs and that story that we won't talk about when I rewrote Google Maps, everyone talks about that story and I think it's because of Paul [inaudible 00:35:57] who told it on some podcasts and that's where it made the rounds.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2321.093,
+            2330.858
+          ],
+          "quote": "So, if you look at how remarkable Google was back in the day or Google Maps, you could probably give a lot of react programmers the task of make a draggable map now and I think a lot of people could do it.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "friendfeed",
+      "type": "company",
+      "role": "company",
+      "name": "FriendFeed",
+      "file": "FriendFeed",
+      "primary": false,
+      "how_described": "本集用 FriendFeed 的失败来说明'什么问题都用你的超能力解'的陷阱：12 个人里 11 个是工程师，只顾打磨产品，完全没做拉名人和公众人物上来这件事，输得跟产品毫无关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            63.564,
+            70.168
+          ],
+          "quote": "He co-founded the social network, FriendFeed invented the like button and the real-time newsfeed, which he sold to Facebook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            762.917,
+            769.5
+          ],
+          "quote": "Fun fact, at FriendFeed you invented the like button and I don't know if people know that and also just the newsfeed, I'll just throw that out there to give you some credit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1485.498,
+            1489.86
+          ],
+          "quote": "To this day, actually a lot of folks in Silicon Valley are like, \"I love FriendFeed.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 813,
+          "t": [
+            5136.268,
+            5139.851
+          ],
+          "quote": "We talked about you inventing the like button at FriendFeed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 818,
+          "t": [
+            5150.701,
+            5161.466
+          ],
+          "quote": "So, if you read the comments on FriendFeed posts, at least 70% of them are cool or wow or yeah or neat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 819,
+          "t": [
+            5162.507,
+            5167.469
+          ],
+          "quote": "And one of the principle uses of FriendFeed was to have discussions about things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说几乎所有软件工程公司都在用 Cursor 帮助工程师，但它生成的代码经常有错，审查别人代码里微妙的逻辑错误比改自己写的代码难得多，反而可能降低生产力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            179.764,
+            182.286
+          ],
+          "quote": "It's available in VS. Code, Cursor and Windsurf.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 647,
+          "t": [
+            4165.184,
+            4173.387
+          ],
+          "quote": "So, for example, almost every software engineering firm I know uses something like Cursor to help their software engineers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            4174.147,
+            4186.712
+          ],
+          "quote": "Most people use Cursor right now as a coding autocomplete, though they have a lot of agentic solutions and there's a lot of... OpenAI has Codex and Cloud has... I can't remember the Anthropic products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 666,
+          "t": [
+            4299.031,
+            4308.594
+          ],
+          "quote": "So we have an engineer at Sierra who exclusively focuses on the model context protocol server serving our cursor instance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 667,
+          "t": [
+            4309.254,
+            4317.557
+          ],
+          "quote": "And our whole philosophy is, if cursor generated something incorrect, rather than just fixing it, try to root cause it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 668,
+          "t": [
+            4317.597,
+            4324.58
+          ],
+          "quote": "Try to get it so the next time Cursor will produce the correct code and essentially, is context engineering.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 669,
+          "t": [
+            4325.1,
+            4330.722
+          ],
+          "quote": "What context did Cursor not have that would've been necessary to produce the right outcome?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 679,
+          "t": [
+            4408.14,
+            4412.787
+          ],
+          "quote": "I've never heard of this technique of improving Cursor by adding additional context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4414.69,
+            4419.137
+          ],
+          "quote": "You build an MCP server that everything runs through or is it like you add Cursor rules?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4421.06,
+            4427.785
+          ],
+          "quote": "I'm probably out of my depth here, but it's essentially MCP because that's how you provide context to Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 795,
+          "t": [
+            5039.06,
+            5042.042
+          ],
+          "quote": "I'm really a big fan of Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 800,
+          "t": [
+            5051.726,
+            5056.689
+          ],
+          "quote": "So I think Cursor will be in its current form, is a transition product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 803,
+          "t": [
+            5079,
+            5084.124
+          ],
+          "quote": "I think that's the first time someone's actually mentioned Cursor in this answer, so might be the beginning of a trend.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Bret 是 OpenAI 董事会主席，以及 OpenAI 有 Codex 产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.163,
+            4.693
+          ],
+          "quote": "You are a co-CEO of Salesforce, you're chairman of the board at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            81.094,
+            83.855
+          ],
+          "quote": "He's also currently chairman of the board at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 116,
+          "t": [
+            750.532,
+            752.193
+          ],
+          "quote": "You're chairman of the board at OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 488,
+          "t": [
+            3139.15,
+            3149.116
+          ],
+          "quote": "Being someone building a very successful AI business and also being on the board of OpenAI, feel like you have a really unique perspective on what is probably a good idea and it's probably not a good idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3571.18,
+            3578.343
+          ],
+          "quote": "If you talk to an economist like Larry Summers who, on the OpenAI board with me, they'll talk about what is the value of technology?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            4174.147,
+            4186.712
+          ],
+          "quote": "Most people use Cursor right now as a coding autocomplete, though they have a lot of agentic solutions and there's a lot of... OpenAI has Codex and Cloud has... I can't remember the Anthropic products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 799,
+          "t": [
+            5049.325,
+            5051.686
+          ],
+          "quote": "I was very excited to see Codex from OpenAI and others.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集提到 Bret 在 Facebook 任 CTO 时的经历，包括 Sheryl Sandberg 的关键反馈改变了他对新工作的态度，以及设计信息流时用真实数据而非 Photoshop 模型的教训。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            63.564,
+            70.168
+          ],
+          "quote": "He co-founded the social network, FriendFeed invented the like button and the real-time newsfeed, which he sold to Facebook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 21,
+          "t": [
+            70.248,
+            71.889
+          ],
+          "quote": "He then became CTO at Facebook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 128,
+          "t": [
+            811.064,
+            817.146
+          ],
+          "quote": "And so, I'll go to meet folks from Facebook and they think of me largely as an engineer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 146,
+          "t": [
+            935.229,
+            955.475
+          ],
+          "quote": "So I had just become the chief technology officer of Facebook and when I first got the job, it was the flavor of CTO or that relatively small group reporting into me, but contributed almost as a very senior architect on a number of projects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1068.296,
+            1076.218
+          ],
+          "quote": "I should focus on what I want to focus on instead of thinking about, okay, I'm running the mobile and platform teams at Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1495.402,
+            1505.287
+          ],
+          "quote": "We were a follower-oriented social network, not a friendship-oriented social network, which meant a lot of our content was more like X or Twitter than it is Facebook in that respect.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2025.882,
+            2037.267
+          ],
+          "quote": "At Facebook, we spent a lot of time designing the newsfeed and if you ever had a really, really good designer and they showed you at the time, a Photoshop mock-up of the newsfeed, it was just all as beautiful.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集作为应用 AI 智能体公司的例子提到，Harvey 为法律和律师助理行业制作智能体，做反垄断审查、合同审查等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 522,
+          "t": [
+            3356.506,
+            3365.549
+          ],
+          "quote": "There's companies like Harvey that make agents for both a legal, paralegal profession, anti-trust reviews, reviewing contracts etc, etc.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "quip",
+      "type": "company",
+      "role": "company",
+      "name": "Quip",
+      "file": "Quip",
+      "primary": false,
+      "how_described": "本集提到 Bret 创办了名为 Quip 的生产力公司，并以 7.5 亿美元卖给 Salesforce，是他在销售生产力软件方面吃过大亏的背景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            72.029,
+            77.932
+          ],
+          "quote": "He then started a productivity company called Quip, which he sold to Salesforce for $750 million.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            754.714,
+            762.317
+          ],
+          "quote": "You've also founded three different companies, one social network, one productivity docs company called Quip, and now, Sierra.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说应用 AI 智能体市场就像软件即服务市场，随着技术门槛降低，没人关心你用什么数据库，只关心你解决了什么业务问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            3450.04,
+            3462.831
+          ],
+          "quote": "You talk a little bit less about how you deal with the models in the same way modern SaaS, few people ask what database you use, but you'll probably ask a lot about the workflows and what business outcomes that you're driving.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3497.231,
+            3517.74
+          ],
+          "quote": "I was looking at a website for the top 50 software companies in the stock market and obviously, the top five are the big, big boom ones like Microsoft, Amazon, Google, all that, but the next 50 are all SaaS companies and some of them are very exciting, some of them are super boring, but this is how the software market has evolved and I think we're going to see something similar with agents.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
