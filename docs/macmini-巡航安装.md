@@ -99,3 +99,28 @@ YouTube 反爬变阵时 yt-dlp 会突然下载失败(patrol-log 里连片 seed-f
 ```sh
 brew upgrade yt-dlp    # 一般升级即愈;升完手动跑一次 node scripts/patrol-talks.mjs 验证
 ```
+
+## 9. 音频搬运工(C30,2026-08-18 加装)
+
+云端 runner 被 Substack 封 IP(D63),无官方稿的集 ASR 兜底拿不到音频 → 整集漏掉。
+Mac mini 当搬运工:云端把拿不到的登记进 `data/pipeline-state.json` 的 `audioWanted`,
+本机每 3h(launchd,:20 班次,刻意错开巡航 :40 和每日新闻整点)读 origin/main 清单、
+**住宅 IP 直连**下载音频、`gh` 传到 Release 中转站(tag `audio-relay`);云端下一班优先取、
+用后清账+删 asset。Mac mini 不在线 = 云端行为与现状一致。详见 story-map C30。
+
+**安装(幂等)**:
+```sh
+cd ~/patrol/podcast-digest && bash tools/install-audio-relay.sh
+```
+前置:`gh auth status` 必须绿(失效先 `gh auth login`;git 推送凭证与 gh token 是两套,
+git 好使不代表 gh 好使——2026-08-18 实测 gh token 过期而 patrol 照常 push)。
+
+**代理口径(与 patrol 不同,别照抄它的 plist)**:git/gh 走 `AUDIO_RELAY_PROXY`(默认 7890);
+**不设** `NODE_USE_ENV_PROXY`——音频下载必须直连,住宅 IP 就是本方案的全部意义。
+
+| 想知道… | 看哪 |
+|---|---|
+| 搬运跑没跑/报错 | `tail -50 ~/Library/Logs/podcast-digest-audio-relay.log` |
+| 现在欠搬几条 | `git show origin/main:data/pipeline-state.json \| python3 -c "import json,sys;print(json.load(sys.stdin).get('audioWanted',{}))"` |
+| 中转站上有什么 | `gh release view audio-relay --json assets --jq '.assets[].name'`(常态应为空) |
+| 手动补一轮 | `AUDIO_RELAY_PROXY=http://127.0.0.1:7890 node scripts/audio-relay.mjs` |
