@@ -427,8 +427,8 @@ describe("selectBackfillBackward · C23 每日顶量倒序补(ADR 0021)", () => 
     ]);
   });
 
-  it("DAILY_TARGET 是 5(软目标)", () => {
-    expect(DAILY_TARGET).toBe(5);
+  it("DAILY_TARGET 是 8(软目标;5→8 = 2026-08-18 用户拍板·standard-change,C28 便宜通道后产能腾出)", () => {
+    expect(DAILY_TARGET).toBe(8);
   });
 });
 

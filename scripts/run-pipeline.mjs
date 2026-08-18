@@ -242,8 +242,10 @@ export function selectBackfill(items, { n, existingIds, source }) {
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO)); // 处理按旧→新(与 selectNew 一致)
 }
 
-/** C23 每日新增软目标:当天入库不足它,就倒序补历史顶量(ADR 0021)。~5「上下即可」,软目标不硬凑。 */
-export const DAILY_TARGET = 5;
+/** C23 每日新增软目标:当天入库不足它,就倒序补历史顶量(ADR 0021)。软目标不硬凑。
+ * 5→8(2026-08-18 用户拍板·standard-change):C28 便宜通道(feed 官方稿秒级取稿)+ 有稿优先落地后,
+ * 补一集的成本从 2.8h CPU 掉到分钟级,产能腾出来 → 用户选「白天也开顶量 + 目标提到 8」。 */
+export const DAILY_TARGET = 8;
 
 /**
  * C23 每日顶量选集(纯逻辑,ADR 0021):从归档补「比库内该源现有最旧一期(beforeISO)更旧」的集,
@@ -802,7 +804,7 @@ async function main() {
   }
 
   // C23 每日顶量(ADR 0021):当天(UTC)入库不足 → 倒序补历史到 ~DAILY_TARGET。
-  // **只在补历史 cron 触发**(pipeline.yml 给 22:00 UTC=北京06:00 那班传 --daily-topup):判当天(UTC 22h 已近完整、真新集流入完)够不够 5,不够就补;
+  // **只在 cron 班触发**(pipeline.yml 对 schedule 事件一律传 --daily-topup,2026-08-18 起四班全开):判当天(UTC)入库够不够目标,不够就补;
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
   // 叠加守卫:--backfill(手动评估批)/--talks/--source 各入口即便误传也不顶量。
   if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
