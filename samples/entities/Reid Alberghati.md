@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":37,"NVIDIA":15,"Microsoft":10,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":14,"Apple":11,"智能体":86,"算力":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":37,"NVIDIA":15,"Microsoft":10,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":14,"Apple":11,"智能体":88,"算力":1}</script>
 
 <script>
 (function(){

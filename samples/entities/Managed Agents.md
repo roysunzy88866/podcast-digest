@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Lenny]] · [[Lance Martin]] · [[Kat Wu]] · [[OpenAI]] · [[Claude Code]] · [[任务视界]] · [[Co-work]] · [[测试框架]] · [[产品品味]]
+[[Anthropic]] · [[Lenny]] · [[Lance Martin]] · [[Kat Wu]] · [[OpenAI]] · [[Claude Code]] · [[任务视界]] · [[Co-work]] · [[harness]] · [[产品品味]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":46,"Lenny":52,"Lance Martin":1,"Kat Wu":1,"OpenAI":37,"Claude Code":22,"任务视界":1,"Co-work":2,"测试框架":10,"产品品味":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":47,"Lenny":52,"Lance Martin":1,"Kat Wu":1,"OpenAI":37,"Claude Code":23,"任务视界":1,"Co-work":2,"harness":11,"产品品味":1}</script>
 
 <script>
 (function(){

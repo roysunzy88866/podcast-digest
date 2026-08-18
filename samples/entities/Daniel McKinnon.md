@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Akash]] · [[评估]] · [[PRD]] · [[智能体]] · [[测试框架]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]] · [[Gamoff Labs]] · [[Codex]]
+[[Akash]] · [[评估]] · [[PRD]] · [[智能体]] · [[harness]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]] · [[Gamoff Labs]] · [[Codex]]
 
 ## ④ 也在聊「产品方法」的人
 
@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"评估":10,"PRD":6,"智能体":86,"测试框架":10,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":16}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"评估":10,"PRD":6,"智能体":88,"harness":11,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":16}</script>
 
 <script>
 (function(){

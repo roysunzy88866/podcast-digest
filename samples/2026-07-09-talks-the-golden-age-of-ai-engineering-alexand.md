@@ -9,14 +9,14 @@ cover: "#64748b"
 description: OpenAI 团队与智能体先驱 Peter Steinberger 同台，讲述 AI 工程师如何最大化人机协作价值。
 guests: ["[[Peter Steinberger]]", "[[Romain Huet]]"]
 companies: ["[[OpenAI]]"]
-concepts: ["[[智能体]]", "[[Codex]]", "[[循环]]", "[[协作界面]]", "[[测试框架]]", "[[压缩]]", "[[委托]]", "[[持久化上下文]]"]
+concepts: ["[[智能体]]", "[[Codex]]", "[[循环]]", "[[协作界面]]", "[[harness]]", "[[压缩]]", "[[委托]]", "[[持久化上下文]]"]
 category: 智能体
 tags:
   - 智能体
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#post","headline":"OpenAI 开发者日：从结对编程到指挥智能体大军","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand","description":"OpenAI 团队与智能体先驱 Peter Steinberger 同台，讲述 AI 工程师如何最大化人机协作价值。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Peter Steinberger"},{"@type":"Person","name":"Romain Huet"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"协作界面 (collaborative UI)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"压缩 (compaction)"},{"@type":"Thing","name":"委托 (delegation)"},{"@type":"Thing","name":"持久化上下文 (persistent context)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"OpenAI 开发者日：从结对编程到指挥智能体大军","item":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#post","headline":"OpenAI 开发者日：从结对编程到指挥智能体大军","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand","description":"OpenAI 团队与智能体先驱 Peter Steinberger 同台，讲述 AI 工程师如何最大化人机协作价值。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Peter Steinberger"},{"@type":"Person","name":"Romain Huet"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"循环 (loop)"},{"@type":"Thing","name":"协作界面 (collaborative UI)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"压缩 (compaction)"},{"@type":"Thing","name":"委托 (delegation)"},{"@type":"Thing","name":"持久化上下文 (persistent context)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"OpenAI 开发者日：从结对编程到指挥智能体大军","item":"https://talk.solomind.cc/2026-07-09-talks-the-golden-age-of-ai-engineering-alexand"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI 开发者日：从结对编程到指挥智能体大军</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[OpenAI]]
 >
-> **概念** [[智能体]] · [[Codex]] · [[循环]] · [[协作界面]] · [[测试框架]] · [[压缩]] · [[委托]] · [[持久化上下文]]
+> **概念** [[智能体]] · [[Codex]] · [[循环]] · [[协作界面]] · [[harness]] · [[压缩]] · [[委托]] · [[持久化上下文]]
 
 <div class="pd-tldr"><b>一句话</b>OpenAI 团队与智能体先驱 Peter Steinberger 同台，讲述 AI 工程师如何最大化人机协作价值。</div>
 
@@ -56,7 +56,7 @@ OpenAI 团队认为，未来的 AI 协作产品应该有两种核心模式：一
 
 讲完了产品理念，那么这套生态具体是怎么搭起来的？OpenAI 给出的答案是「彻底的开放与分层」。
 
-从最底层的模型 API，到中间层的 Codex [[测试框架|harness]]（控制智能体行为的核心调度框架），再到上层的应用服务，OpenAI 都选择了开源或对外开放。这意味着，他们用来构建 Codex 应用的工具，和交给全体开发者的工具是完全一样的。
+从最底层的模型 API，到中间层的 Codex [[harness|harness]]（控制智能体行为的核心调度框架），再到上层的应用服务，OpenAI 都选择了开源或对外开放。这意味着，他们用来构建 Codex 应用的工具，和交给全体开发者的工具是完全一样的。
 
 每当 Codex 需要什么新功能——比如处理长任务的「上下文[[压缩|压缩]]」（为了适应长时间运行的任务，把冗长的背景对话信息浓缩存储），他们都会先把它做进 API 里，让所有开发者都能平等使用 <button class="pd-ts" data-t="10:30" data-who="Romain" data-en="Codex needed a way to compact long contexts for long-running tasks, and so we built that into the API. So that means your agents can use the same primitives that we built for ourselves." aria-label="回原文"></button>。不仅如此，为了让生态繁荣，他们甚至开发了特定角色（比如数据科学、设计）的插件，并且全都是开源的。这样做的结果是，任何人都可以用现有的订阅，在各种第三方工具（如 OpenCode、Xcode、JetBrains）里无缝接入这个智能体生态。
 

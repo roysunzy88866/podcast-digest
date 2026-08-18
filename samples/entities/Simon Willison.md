@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":46,"Claude Code":22,"ClaudeTag":1,"Fable":4,"Slack":18,"Bun":1,"Rust":2,"Gemini":4}</script>
+<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":47,"Claude Code":23,"ClaudeTag":1,"Fable":4,"Slack":18,"Bun":1,"Rust":2,"Gemini":4}</script>
 
 <script>
 (function(){

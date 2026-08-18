@@ -1,0 +1,324 @@
+{
+  "episode_id": "2026-05-06-beyondcoding-what-separates-cracked-software-engineer",
+  "podcast": "Beyond Coding",
+  "date": "2026-05-06",
+  "tags": [
+    "AI 编程",
+    "职业成长",
+    "智能体",
+    "vibe coding",
+    "系统设计"
+  ],
+  "categories": [
+    "AI 编程",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "agentic-tooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工具 (agentic tooling)",
+      "file": "智能体工具",
+      "primary": false,
+      "how_described": "本集说个人项目和业余项目现在很容易开始，特别是考虑到你拥有的智能体工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            150.4,
+            153.48
+          ],
+          "quote": "with, especially with agentic tooling that you have.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集把 vibe coding 描述为凭感觉让 AI 帮你写代码的方式，说它允许你构建得相当快，但也会更快遇到瓶颈——代码库变得难以更改的问题从六年加速到六个月暴露",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            706.32,
+            710.68
+          ],
+          "quote": "just said what is this? I think this is vibe coding with",
+          "speaker": ""
+        },
+        {
+          "seg": 272,
+          "t": [
+            798.76,
+            803.48
+          ],
+          "quote": "And then vibe coding might reach its limits, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 282,
+          "t": [
+            828.36,
+            831.72
+          ],
+          "quote": "vibe coding, but codebase is stagnating and becoming hard to",
+          "speaker": ""
+        },
+        {
+          "seg": 293,
+          "t": [
+            860.56,
+            862.68
+          ],
+          "quote": "It's just accelerated. And vibe coding is really cool",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统设计 (system design)",
+      "file": "系统设计",
+      "primary": true,
+      "how_described": "本集说见过公司招聘只考系统设计，可能是唯一他们在乎的部分；想看的是你能不能设计一个从简单开始然后能扩展的系统，能不能对从未构建过的系统进行推理并且沟通清楚你如何保持事情简单",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            23.16,
+            26.28
+          ],
+          "quote": "on system design. Show me how you design a system",
+          "speaker": ""
+        },
+        {
+          "seg": 540,
+          "t": [
+            1594.52,
+            1597.8
+          ],
+          "quote": "interesting, something like system design, systems thinking,",
+          "speaker": ""
+        },
+        {
+          "seg": 630,
+          "t": [
+            1895.2,
+            1897.36
+          ],
+          "quote": "I've seen companies just focus on system design.",
+          "speaker": ""
+        },
+        {
+          "seg": 647,
+          "t": [
+            1941.72,
+            1944.2
+          ],
+          "quote": "There's a lot of Rd. maps on system design and how you can",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集说开源是有强规范的成熟项目，你的受众不是你自己而是维护代码仓库的人，你越适应他们的规范、拉取请求越容易被合并，这个过程逼你变强，是从个人项目到技术大牛的进阶路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            164.44,
+            167.48
+          ],
+          "quote": "fundamental knowledge. And then you have open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 58,
+          "t": [
+            167.88,
+            170.84
+          ],
+          "quote": "I think 2 weeks ago an episode came out about open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 102,
+          "t": [
+            292.84,
+            295.76
+          ],
+          "quote": "production like and open source can get you there to bridge the",
+          "speaker": ""
+        },
+        {
+          "seg": 741,
+          "t": [
+            2234.68,
+            2238.8
+          ],
+          "quote": "Network hackathons, open source contributions, meetups,",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "production-grade",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产级代码 (production grade)",
+      "file": "生产级代码",
+      "primary": true,
+      "how_described": "本集说生产级软件中，代码需要简单且易于更改，这是最重要的方面；如果代码不难改就能在上面持续构建，如果不简单人读不懂、智能体更读不懂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            408.08,
+            411.8
+          ],
+          "quote": "talking about production grade software, to be honest, most of",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "type": "company",
+      "role": "concept",
+      "name": "GitHub Copilot",
+      "file": "GitHub Copilot",
+      "primary": false,
+      "how_described": "本集提到 GitHub 正在将 Copilot 的乘数提高9倍，原来一个月30美元的东西现在接近300美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 719,
+          "t": [
+            2172.96,
+            2175.72
+          ],
+          "quote": "Copilot license, specifically GitHub Copilot, and they're",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "concept",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集举例说一个针灸师打开 Lovable 就开始构建应用，有用户有分析数据；但也提到 Lovable 被黑过，托管的网站的秘密被公开了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            739.36,
+            742.12
+          ],
+          "quote": "then he opened up Lovable and he's just started building it",
+          "speaker": ""
+        },
+        {
+          "seg": 309,
+          "t": [
+            902.88,
+            906.28
+          ],
+          "quote": "concern that I have right now. Lovable got hacked and then",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到团队里有两个初级开发者都伴随着 Cursor 和 Claude 长大，发布得很快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            361.4,
+            364.52
+          ],
+          "quote": "with Cursor and Claude, and they're quite afraid what it's",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到团队里有两个初级开发者都伴随着 Cursor 和 Claude 长大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            361.4,
+            364.52
+          ],
+          "quote": "with Cursor and Claude, and they're quite afraid what it's",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "orchestrate-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排智能体 (orchestrate agents)",
+      "file": "编排智能体",
+      "primary": false,
+      "how_described": "本集说编码的25%不会消失，你仍然必须编排智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 602,
+          "t": [
+            1806.92,
+            1811.12
+          ],
+          "quote": "orchestrate agents. And I like companies that say,",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

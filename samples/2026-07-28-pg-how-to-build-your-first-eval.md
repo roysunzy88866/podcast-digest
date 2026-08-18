@@ -11,14 +11,14 @@ description: "前 Google、Meta 产品经理解读:在智能体时代,PM 的核�
 host: "[[Daniel McKinnon]]"
 cohosts: ["[[Akash]]"]
 companies: ["[[Gamoff Labs]]"]
-concepts: ["[[评估]]", "[[PRD]]", "[[智能体]]", "[[测试框架]]", "[[全基因组测序]]", "[[离线评估]]", "[[金发姑娘]]"]
+concepts: ["[[评估]]", "[[PRD]]", "[[智能体]]", "[[harness]]", "[[全基因组测序]]", "[[离线评估]]", "[[金发姑娘]]"]
 category: 产品方法
 tags:
   - 产品方法
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval#post","headline":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","description":"前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg","isBasedOn":"https://www.news.aakashg.com/p/how-to-build-your-first-eval","about":[{"@type":"Person","name":"Daniel McKinnon"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Gamoff Labs"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"全基因组测序 (whole genome sequencing)"},{"@type":"Thing","name":"离线评估 (offline eval)"},{"@type":"Thing","name":"金发姑娘 (Goldilocks)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","item":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval#post","headline":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","description":"前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg","isBasedOn":"https://www.news.aakashg.com/p/how-to-build-your-first-eval","about":[{"@type":"Person","name":"Daniel McKinnon"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Gamoff Labs"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"全基因组测序 (whole genome sequencing)"},{"@type":"Thing","name":"离线评估 (offline eval)"},{"@type":"Thing","name":"金发姑娘 (Goldilocks)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","item":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>eval 会取代 PRD 吗?AI 产品经理的新工作法门</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Gamoff Labs]]
 >
-> **概念** [[评估]] · [[PRD]] · [[智能体]] · [[测试框架]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]]
+> **概念** [[评估]] · [[PRD]] · [[智能体]] · [[harness]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/how-to-build-your-first-eval)
 

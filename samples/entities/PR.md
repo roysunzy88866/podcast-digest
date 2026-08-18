@@ -1,63 +1,41 @@
 ---
-title: 测试框架 (harness)
+title: PR
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>测试框架 (harness)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="测试框架">测试</div><div class="pi"><h1 class="pt">测试框架 (harness)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PR">PR</div><div class="pi"><h1 class="pt">PR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(08:24起):本集将其描述为用于运行、调度和管理多个模型与工具的中间件层。拥有开放的测试框架可接入任意模型，是实现让模型与工具协同爬山的必要基础设施。
-- **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(01:31起):本集把它说成:套在模型外面的一整套系统(包括框架、上下文、工具、记忆、护栏等),让大语言模型变得真正有用。黄仁勋判断未来公司将建立在 harnesses 而非业务流程之上
-- **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(10:35起):本集说它是控制智能体行为的核心调度框架,也是开源的,允许所有人 fork、检查、适配和接入开放模型
-- **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(02:29起):本集把它说成:指挥模型干活的控制程序(即「大脑」),在 Managed Agents 架构中变成了只与只追加日志对话的无状态进程,以确保挂了也不会丢失进度。
-- **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(10:55起):为智能体提供运行环境和工具的外壳;本集指出需要一个聪明的 harness 来决定何时启动核心智能体,并与数据处理引擎共同设计。
-- **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(03:10起):本集把它说成:包裹在核心前沿模型外围的代码框架,赋予模型调用工具和推理的能力,使其能够执行多步任务。如果没有极强的 harness,目前模型解决不了困难问题。
-- **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(00:27起):本集核心概念。指围绕基础模型搭建的全部代码(包括提示词、记忆、工具、基础设施、钩子与中间件等),旨在让模型在给定任务下表现最好;如果智能体 = 模型 + harness,只要不是模型本身,你写的围绕它的代码就是 harness。
-- **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(03:29起):本集说它的职责是与模型维持「上下文契约」，确保传入模型的消息列表不触及容量上限或发生上下文腐烂，通过工具按需给模型提供被卸载的数据。
-- **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：围绕模型构建的外部控制框架。当模型进步而安全带不跟着变时,它会变成拖累性能的死重;必须模块化以便随模型演进快速迭代。
-- **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(19:36起):本集把它说成：模型上层的编排工具（如 Claude Code、OpenCode），像高功能保姆管住顽童。过去 18 个月的能力提升很大部分来自挽具与后训练，而非动辄十亿美元的预训练。
+- **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(19:45起):本集把它说成：高级领导者亲自下场提交代码补丁（如 Mike Krieger）的机制，这种卷起袖子干脏活的低杠杆举动实则非常高杠杆，能带动团队士气。
+- **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(02:59起):本集反复讨论 PR 的创建方式——标题、提交信息、PR 描述都要对标维护者风格以降低审阅者认知负荷；Bruno 有时在一个 PR 的描述上花两三小时
 
 ## ① 提到它的金句
 
-*5 条*
+*2 条*
 
-![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q4]]
+![[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get#^q2]]
 
-![[2026-07-31-talks-building-deep-agents-and-deploying-in-pr#^q1]]
-
-![[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil#^q4]]
-
-![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q1]]
-
-![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q2]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q2]]
 
 ## ② 出现在这些集
 
-*10 集*
+*2 集*
 
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为概念
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为概念
-- [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为概念
-- [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念
-- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
-- [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念
-- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念
-- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
+- [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念(提及)
+- [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Anthropic]] · [[OpenAI]] · [[LangChain]] · [[Codex]] · [[文件系统]] · [[Claude Code]] · [[Deep Agents]] · [[数据中心]]
+[[智能体]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Terraform]] · [[Claude]] · [[Hashicorp]] · [[Claude Cowork]]
 
-<script type="application/json" class="pd-epn">{"智能体":86,"沙箱":18,"Anthropic":46,"OpenAI":37,"LangChain":3,"Codex":16,"文件系统":3,"Claude Code":22,"Deep Agents":3,"数据中心":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":88,"Jenny Wen":1,"Bruno Scott Sperka":1,"Lenny":52,"GitHub":14,"Anthropic":47,"Terraform":1,"Claude":18,"Hashicorp":1,"Claude Cowork":1}</script>
 
 <script>
 (function(){

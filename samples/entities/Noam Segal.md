@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Dan Shipper]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
+[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Meng To]] [[Dan Shipper]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
 
 </div>
 

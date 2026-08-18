@@ -1,0 +1,7586 @@
+[
+ {
+  "seg": 0,
+  "start": 0.04,
+  "end": 2.56,
+  "speaker": "Unknown",
+  "en": "A lot of what we do is problem solving, and not just on the how",
+  "zh": "我们做的很多事情是解决问题，不仅仅在于如何"
+ },
+ {
+  "seg": 1,
+  "start": 2.56,
+  "end": 5.96,
+  "speaker": "Unknown",
+  "en": "do I write the code part, but I think also being able to",
+  "zh": "编写代码的部分，但我认为也要能够"
+ },
+ {
+  "seg": 2,
+  "start": 6.16,
+  "end": 9.48,
+  "speaker": "Unknown",
+  "en": "pinpoint where it goes wrong and you get a feel for that right?",
+  "zh": "定位哪里出了问题，而且你对此会有感觉，对吧？"
+ },
+ {
+  "seg": 3,
+  "start": 9.48,
+  "end": 11.64,
+  "speaker": "Unknown",
+  "en": "When you've seen enough problems, we're under a lot of",
+  "zh": "当你见过足够多的问题时，我们面临着很大的"
+ },
+ {
+  "seg": 4,
+  "start": 11.64,
+  "end": 14.12,
+  "speaker": "Unknown",
+  "en": "pressure to. Ship new stuff constantly.",
+  "zh": "压力去。不断发布新东西。"
+ },
+ {
+  "seg": 5,
+  "start": 14.28,
+  "end": 17.04,
+  "speaker": "Unknown",
+  "en": "That's the finish line. But I like to not think of it as",
+  "zh": "那是终点线。但我喜欢不把它看作"
+ },
+ {
+  "seg": 6,
+  "start": 17.04,
+  "end": 18.64,
+  "speaker": "Unknown",
+  "en": "a finish line. That's actually the starting",
+  "zh": "一条终点线。那实际上是起点"
+ },
+ {
+  "seg": 7,
+  "start": 18.64,
+  "end": 20.16,
+  "speaker": "Unknown",
+  "en": "line. That's where it gets interesting",
+  "zh": "线。那是事情变得有趣的地方"
+ },
+ {
+  "seg": 8,
+  "start": 20.16,
+  "end": 21.52,
+  "speaker": "Unknown",
+  "en": "because that's where you Start learning.",
+  "zh": "因为那是你开始学习的地方。"
+ },
+ {
+  "seg": 9,
+  "start": 21.6,
+  "end": 23.92,
+  "speaker": "Unknown",
+  "en": "If there's a system where the whole team that worked on it",
+  "zh": "如果有一个系统，当时构建它的整个团队"
+ },
+ {
+  "seg": 10,
+  "start": 23.92,
+  "end": 25.96,
+  "speaker": "Unknown",
+  "en": "isn't there anymore, is that system legacy?",
+  "zh": "都不在了，那个系统算是遗留系统吗？"
+ },
+ {
+  "seg": 11,
+  "start": 26,
+  "end": 27.96,
+  "speaker": "Unknown",
+  "en": "Oh yeah, definitely. No one wants to touch it.",
+  "zh": "哦，是的，绝对是。没人想碰它。"
+ },
+ {
+  "seg": 12,
+  "start": 28.16,
+  "end": 30.36,
+  "speaker": "Unknown",
+  "en": "Nobody wants to touch it right? You build some something you",
+  "zh": "没人想碰它，对吧？你构建了一些东西，你"
+ },
+ {
+  "seg": 13,
+  "start": 30.36,
+  "end": 33.04,
+  "speaker": "Unknown",
+  "en": "assume is wrong, and to be honest, usually what you build",
+  "zh": "假设它是错的，老实说，通常你构建的东西"
+ },
+ {
+  "seg": 14,
+  "start": 33.04,
+  "end": 35.28,
+  "speaker": "Unknown",
+  "en": "is wrong in some way. And then you optimize your",
+  "zh": "在某些方面都是错的。然后你优化你的"
+ },
+ {
+  "seg": 15,
+  "start": 35.28,
+  "end": 37.84,
+  "speaker": "Unknown",
+  "en": "feedback loop, and then you learn and you make sure that",
+  "zh": "反馈循环，然后你学习，并确保你的"
+ },
+ {
+  "seg": 16,
+  "start": 37.84,
+  "end": 40,
+  "speaker": "Unknown",
+  "en": "your code is easy to change, and then you change it.",
+  "zh": "代码易于更改，然后你更改它。"
+ },
+ {
+  "seg": 17,
+  "start": 40.6,
+  "end": 43.08,
+  "speaker": "Unknown",
+  "en": "Today we discuss how to build software and how to do that",
+  "zh": "今天我们讨论如何构建软件以及如何成功地"
+ },
+ {
+  "seg": 18,
+  "start": 43.08,
+  "end": 45.6,
+  "speaker": "Unknown",
+  "en": "successfully. What are the skills that people",
+  "zh": "做到这一点。人们"
+ },
+ {
+  "seg": 19,
+  "start": 45.6,
+  "end": 47.68,
+  "speaker": "Unknown",
+  "en": "bring to the table when they build it, and what does it look",
+  "zh": "在构建软件时具备哪些技能，从系统设计的"
+ },
+ {
+  "seg": 20,
+  "start": 47.68,
+  "end": 49.72,
+  "speaker": "Unknown",
+  "en": "like from a system design perspective?",
+  "zh": "角度来看它又是什么样的？ [[21] 坐在我对面的是 Nico Crane，Luminous 的演讲者架构师和"
+ },
+ {
+  "seg": 21,
+  "start": 50.12,
+  "end": 54.44,
+  "speaker": "Unknown",
+  "en": "Joining me at the table is Nico Crane, Speaker Architect and",
+  "zh": "坐在我桌边的是 Nico Crane，Speaker Architect 和"
+ },
+ {
+  "seg": 22,
+  "start": 54.44,
+  "end": 56.28,
+  "speaker": "Unknown",
+  "en": "Software Engineer over at Luminous.",
+  "zh": "软件工程师。"
+ },
+ {
+  "seg": 23,
+  "start": 56.56,
+  "end": 58.76,
+  "speaker": "Unknown",
+  "en": "And with over 30 years of experience, he's seen many",
+  "zh": "他拥有超过 30 年的经验，见证过许多"
+ },
+ {
+  "seg": 24,
+  "start": 58.76,
+  "end": 61.96,
+  "speaker": "Unknown",
+  "en": "organizations and built many successful projects.",
+  "zh": "组织并构建过许多成功的项目。"
+ },
+ {
+  "seg": 25,
+  "start": 62.28,
+  "end": 68.44,
+  "speaker": "Unknown",
+  "en": "So enjoy. You've had many roles starting",
+  "zh": "所以请享受这段内容。你有过很多角色，从"
+ },
+ {
+  "seg": 26,
+  "start": 68.44,
+  "end": 71.32,
+  "speaker": "Unknown",
+  "en": "from software engineer and then person that's responsible for",
+  "zh": "软件工程师开始，然后是负责"
+ },
+ {
+  "seg": 27,
+  "start": 71.32,
+  "end": 74.36,
+  "speaker": "Unknown",
+  "en": "cloud or agile methodologies, even engineering management",
+  "zh": "云或敏捷方法论的人，甚至是工程管理、"
+ },
+ {
+  "seg": 28,
+  "start": 74.88,
+  "end": 77.24,
+  "speaker": "Unknown",
+  "en": "architecture, and now back to software engineer.",
+  "zh": "架构，现在又回到软件工程师。"
+ },
+ {
+  "seg": 29,
+  "start": 77.24,
+  "end": 79.52,
+  "speaker": "Unknown",
+  "en": "What What keeps you coming back to software engineering in the",
+  "zh": "是什么让你首先回到软件工程领域？好问题。"
+ },
+ {
+  "seg": 30,
+  "start": 79.52,
+  "end": 81.2,
+  "speaker": "Unknown",
+  "en": "first place? Good question.",
+  "zh": "所以就像如果你，如果你在你的职业生涯中成长，会有，你"
+ },
+ {
+  "seg": 31,
+  "start": 81.2,
+  "end": 85.2,
+  "speaker": "Unknown",
+  "en": "So like if you, if you grow in your career, there's, you",
+  "zh": "通常会看到这张职业阶梯图，对吧，在那里你会有某种"
+ },
+ {
+  "seg": 32,
+  "start": 86.04,
+  "end": 89.44,
+  "speaker": "Unknown",
+  "en": "usually see this career letter, right, where you can have sort",
+  "zh": "分岔，在那里，你做软件工程师的部分，"
+ },
+ {
+  "seg": 33,
+  "start": 89.44,
+  "end": 92.36,
+  "speaker": "Unknown",
+  "en": "of the split in where you, you do the software engineer part,",
+  "zh": "你就是资深人士。然后在某个节点，要么"
+ },
+ {
+  "seg": 34,
+  "start": 92.36,
+  "end": 94.08,
+  "speaker": "Unknown",
+  "en": "you're senior. And then at some point, either",
+  "zh": "你更多地转向架构方向或技术方向，或者更多转向"
+ },
+ {
+  "seg": 35,
+  "start": 94.08,
+  "end": 97.36,
+  "speaker": "Unknown",
+  "en": "you go more like architecture wise or more technical or more",
+  "zh": "人员管理方向，对吧？"
+ },
+ {
+  "seg": 36,
+  "start": 97.36,
+  "end": 99.52,
+  "speaker": "Unknown",
+  "en": "the, the people management side, right?",
+  "zh": "很多人进入管理这一侧，我有时"
+ },
+ {
+  "seg": 37,
+  "start": 99.52,
+  "end": 102.32,
+  "speaker": "Unknown",
+  "en": "And a lot of people go into this management side, which I",
+  "zh": "觉得有点遗憾，因为我们拥有所有这些人才，"
+ },
+ {
+  "seg": 38,
+  "start": 102.32,
+  "end": 105.04,
+  "speaker": "Unknown",
+  "en": "sometimes find a bit of a shame because we have all this talent",
+  "zh": "培养它们需要很长时间，真的很难。"
+ },
+ {
+  "seg": 39,
+  "start": 105.04,
+  "end": 107.36,
+  "speaker": "Unknown",
+  "en": "which takes a lot of time to build up really hard.",
+  "zh": "这是一个，这是一项复杂的工作，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 107.36,
+  "end": 109.44,
+  "speaker": "Unknown",
+  "en": "It's a, it's a complicated job, right?",
+  "zh": "我们做的工作，然后我们将所有这些人转移到管理"
+ },
+ {
+  "seg": 41,
+  "start": 109.52,
+  "end": 113.68,
+  "speaker": "Unknown",
+  "en": "What we do and then we shift all those people into in management",
+  "zh": "岗位，对吧，这不一定符合他们的"
+ },
+ {
+  "seg": 42,
+  "start": 113.68,
+  "end": 118.16,
+  "speaker": "Unknown",
+  "en": "roles, right, which may not necessarily be there, their",
+  "zh": "技能组合，对吧？你也会看到人们在"
+ },
+ {
+  "seg": 43,
+  "start": 118.92,
+  "end": 122.08,
+  "speaker": "Unknown",
+  "en": "skill set, right? You also see people struggle",
+  "zh": "这方面挣扎，但这薪水更高。所以感觉像是一条"
+ },
+ {
+  "seg": 44,
+  "start": 122.08,
+  "end": 127.48,
+  "speaker": "Unknown",
+  "en": "with that, but it pays more. So it sort of feels like an",
+  "zh": "有吸引力的路径。但另一方面，技术"
+ },
+ {
+  "seg": 45,
+  "start": 127.52,
+  "end": 132.24,
+  "speaker": "Unknown",
+  "en": "attractive path to follow. But on the other hand, the, the",
+  "zh": "部分是对的。你那里有很多东西可以"
+ },
+ {
+  "seg": 46,
+  "start": 132.24,
+  "end": 134.56,
+  "speaker": "Unknown",
+  "en": "technical part is right. You there's a lot of stuff you",
+  "zh": "成长。我认为最终，你进入的双方，这有点像，是的，你所做的事情中有更多的人的一面，"
+ },
+ {
+  "seg": 47,
+  "start": 134.56,
+  "end": 138.84,
+  "speaker": "Unknown",
+  "en": "can grow there. And I think in the end, both of",
+  "zh": "可以在那里成长。我认为最终，你们接触到的"
+ },
+ {
+  "seg": 48,
+  "start": 138.84,
+  "end": 142,
+  "speaker": "Unknown",
+  "en": "the both of the sides you get into is sort of, yeah, the, the",
+  "zh": "双方，都有点，是的，那个，那个"
+ },
+ {
+  "seg": 49,
+  "start": 142,
+  "end": 144.76,
+  "speaker": "Unknown",
+  "en": "fact that there's more of a human side to what you're doing,",
+  "zh": "事实是你们所做的事情有更多人性的一面，"
+ },
+ {
+  "seg": 50,
+  "start": 144.76,
+  "end": 146.6,
+  "speaker": "Unknown",
+  "en": "right? You're not just doing the",
+  "zh": "对吧？你不仅仅是在做"
+ },
+ {
+  "seg": 51,
+  "start": 146.6,
+  "end": 149.68,
+  "speaker": "Unknown",
+  "en": "technical part, you're also facilitating the people around",
+  "zh": "技术部分，你还在促进你周围的人，"
+ },
+ {
+  "seg": 52,
+  "start": 149.68,
+  "end": 152.04,
+  "speaker": "Unknown",
+  "en": "you, right? If you want to be successful,",
+  "zh": "对吧？如果你想要成功，"
+ },
+ {
+  "seg": 53,
+  "start": 153.68,
+  "end": 157.28,
+  "speaker": "Unknown",
+  "en": "lead what in whatever role, right, technical or, or",
+  "zh": "无论在什么角色中领导，对吧，技术或者，"
+ },
+ {
+  "seg": 54,
+  "start": 157.28,
+  "end": 161.6,
+  "speaker": "Unknown",
+  "en": "management, you need to help the people around you go faster and,",
+  "zh": "管理，你需要帮助你周围的人走得更快并且，"
+ },
+ {
+  "seg": 55,
+  "start": 161.6,
+  "end": 164.68,
+  "speaker": "Unknown",
+  "en": "and perform better and, and feel better, right?",
+  "zh": "表现得更好并且，感觉更好，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 164.68,
+  "end": 169.04,
+  "speaker": "Unknown",
+  "en": "Being happier. And so that human side becomes",
+  "zh": "变得更快乐。所以那一面变得"
+ },
+ {
+  "seg": 57,
+  "start": 169.04,
+  "end": 173.04,
+  "speaker": "Unknown",
+  "en": "quite important, I think in both sides, at least if you want to",
+  "zh": "相当重要，我认为在两方面，至少如果你想"
+ },
+ {
+  "seg": 58,
+  "start": 173.04,
+  "end": 174.84,
+  "speaker": "Unknown",
+  "en": "increase the impact you make, Right.",
+  "zh": "增加你所产生的影响，对吧。"
+ },
+ {
+  "seg": 59,
+  "start": 176.96,
+  "end": 179.96,
+  "speaker": "Unknown",
+  "en": "And for me, that human side has always been there, I guess.",
+  "zh": "对我来说，那一面一直都在，我想。"
+ },
+ {
+  "seg": 60,
+  "start": 180.48,
+  "end": 185.8,
+  "speaker": "Unknown",
+  "en": "I mean, the the first job I had out of school, I immediately got",
+  "zh": "我是说，我毕业后第一份工作，我立刻得到了"
+ },
+ {
+  "seg": 61,
+  "start": 185.8,
+  "end": 188.56,
+  "speaker": "Unknown",
+  "en": "an intern. And I mean, like, they probably",
+  "zh": "一个实习生。我是说，他们可能"
+ },
+ {
+  "seg": 62,
+  "start": 188.56,
+  "end": 191.48,
+  "speaker": "Unknown",
+  "en": "saw something, I don't know. But I said, yeah, you're working",
+  "zh": "看到了一些东西，我不知道。但我说，是的，你在工作"
+ },
+ {
+  "seg": 63,
+  "start": 191.48,
+  "end": 192.76,
+  "speaker": "Unknown",
+  "en": "now you get an intern. OK.",
+  "zh": "现在你得到了一个实习生。好的。"
+ },
+ {
+  "seg": 64,
+  "start": 192.84,
+  "end": 193.88,
+  "speaker": "Unknown",
+  "en": "I just was the intern. OK.",
+  "zh": "我刚刚还是那个实习生。好的。"
+ },
+ {
+  "seg": 65,
+  "start": 196.96,
+  "end": 200.4,
+  "speaker": "Unknown",
+  "en": "So that was interesting. And I've been doing like",
+  "zh": "所以那很有趣。并且我一直在做像"
+ },
+ {
+  "seg": 66,
+  "start": 201.04,
+  "end": 203.64,
+  "speaker": "Unknown",
+  "en": "coaching, helping others throughout my career.",
+  "zh": "辅导，帮助别人贯穿我的职业生涯。"
+ },
+ {
+  "seg": 67,
+  "start": 203.76,
+  "end": 205.52,
+  "speaker": "Unknown",
+  "en": "It's just at a different scale at some point, right?",
+  "zh": "只是规模不同了，在某个时候，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 208.44,
+  "end": 211.04,
+  "speaker": "Unknown",
+  "en": "But I really like the technology as well, right?",
+  "zh": "但我也真的很喜欢技术，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 211.04,
+  "end": 214.96,
+  "speaker": "Unknown",
+  "en": "I mean, I got into this because I like fiddling of like, like",
+  "zh": "我是说，我进入这个行业是因为我喜欢摆弄，像，"
+ },
+ {
+  "seg": 70,
+  "start": 215.32,
+  "end": 220.84,
+  "speaker": "Unknown",
+  "en": "solving complicated problems. And I like just the technology",
+  "zh": "解决复杂的问题。并且我也非常喜欢技术"
+ },
+ {
+  "seg": 71,
+  "start": 220.84,
+  "end": 225.24,
+  "speaker": "Unknown",
+  "en": "side as well a lot. So, and I'm really good at that",
+  "zh": "这一面。而且我也真的很擅长那个"
+ },
+ {
+  "seg": 72,
+  "start": 225.24,
+  "end": 227.08,
+  "speaker": "Unknown",
+  "en": "as well, right? I see I'm good at modelling",
+  "zh": "也对吧？我觉得我擅长"
+ },
+ {
+  "seg": 73,
+  "start": 227.08,
+  "end": 229.84,
+  "speaker": "Unknown",
+  "en": "stuff. I so I don't want to waste that",
+  "zh": "对东西建模。所以我不想浪费那个"
+ },
+ {
+  "seg": 74,
+  "start": 229.84,
+  "end": 232.68,
+  "speaker": "Unknown",
+  "en": "talent. At the same time, I see that I",
+  "zh": "天赋。同时，我看到我"
+ },
+ {
+  "seg": 75,
+  "start": 232.96,
+  "end": 235.24,
+  "speaker": "Unknown",
+  "en": "increase my impact by also doing other things.",
+  "zh": "通过也做其他事情增加了我产生的影响。"
+ },
+ {
+  "seg": 76,
+  "start": 235.76,
+  "end": 240.44,
+  "speaker": "Unknown",
+  "en": "So that's why I sort of right the, the sort of switching to",
+  "zh": "所以这就是为什么我某种程度上对吧，这种，这种某种程度切换到"
+ },
+ {
+  "seg": 77,
+  "start": 240.44,
+  "end": 241.72,
+  "speaker": "Unknown",
+  "en": "engineering management at some point.",
+  "zh": "工程管理在某个时候。"
+ },
+ {
+  "seg": 78,
+  "start": 241.72,
+  "end": 246.12,
+  "speaker": "Unknown",
+  "en": "It was sort of natural career path right at the time.",
+  "zh": "那是某种自然的职业道路对吧在那个时候。"
+ },
+ {
+  "seg": 79,
+  "start": 246.64,
+  "end": 249.6,
+  "speaker": "Unknown",
+  "en": "Also the, the situation the company was in at that point was",
+  "zh": "还有当时公司所处的"
+ },
+ {
+  "seg": 80,
+  "start": 249.6,
+  "end": 255.84,
+  "speaker": "Unknown",
+  "en": "sort of a logical step for me. But then I right, the more I did",
+  "zh": "情况对我来说是某种逻辑步骤。但后来我对吧，我做得越多"
+ },
+ {
+  "seg": 81,
+  "start": 255.84,
+  "end": 259.8,
+  "speaker": "Unknown",
+  "en": "it and the more I saw, right, at some point you get to a point",
+  "zh": "并且我看到的越多，对吧，在某个时候你会达到一个"
+ },
+ {
+  "seg": 82,
+  "start": 259.8,
+  "end": 264.24,
+  "speaker": "Unknown",
+  "en": "where there is some kind of crisis and like, OK, we need to",
+  "zh": "存在某种危机的点，并且像，好的，我们需要 [[83] 修复这个问题。我们需要最优秀的人。"
+ },
+ {
+  "seg": 83,
+  "start": 264.24,
+  "end": 266.56,
+  "speaker": "Unknown",
+  "en": "fix this problem. We need the best people.",
+  "zh": "修复这个问题。我们需要最优秀的人。"
+ },
+ {
+  "seg": 84,
+  "start": 266.56,
+  "end": 269.2,
+  "speaker": "Unknown",
+  "en": "Yeah. So you, I'm a good guy, right?",
+  "zh": "是的。所以你，我是个好人，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 269.2,
+  "end": 273.08,
+  "speaker": "Unknown",
+  "en": "So also, so I jump in and I helped out and I really realized",
+  "zh": "所以还有，所以我跳进去帮忙，我真的意识到了 [[86] 在那个点我们和三个资深人员一起解决一个超级 [[87] 复杂的问题。我们在三周内搞定了它，"
+ },
+ {
+  "seg": 86,
+  "start": 273.08,
+  "end": 276.76,
+  "speaker": "Unknown",
+  "en": "at that point we were with three seniors tackling a super",
+  "zh": "在那时，我们有三名资深人员在处理一个超级"
+ },
+ {
+  "seg": 87,
+  "start": 276.76,
+  "end": 279.4,
+  "speaker": "Unknown",
+  "en": "complicated problem. And we nailed it in three weeks,",
+  "zh": "复杂的问题。我们在三周内搞定它，"
+ },
+ {
+  "seg": 88,
+  "start": 279.88,
+  "end": 283.68,
+  "speaker": "Unknown",
+  "en": "right? And so I was at that point back",
+  "zh": "对吧？所以在那个点我回到了"
+ },
+ {
+  "seg": 89,
+  "start": 283.68,
+  "end": 287.96,
+  "speaker": "Unknown",
+  "en": "to, OK, I'm, I'm doing all this management stuff, but I'm",
+  "zh": "好的，我在做所有的这些管理工作，但我 [[90] 实际上更擅长另外那些事情。"
+ },
+ {
+  "seg": 90,
+  "start": 287.96,
+  "end": 289.36,
+  "speaker": "Unknown",
+  "en": "actually much better at the other stuff.",
+  "zh": "实际上在其他事情上做得更好。"
+ },
+ {
+  "seg": 91,
+  "start": 290.04,
+  "end": 294.96,
+  "speaker": "Unknown",
+  "en": "And like, I'm not a bad manager, but I'm better at the other",
+  "zh": "并且像，我不是一个糟糕的管理者，但我更擅长其他的 [[92] 东西。所以至少 [[93] 把我的一部分时间花在那上面是有意义的，并且也非常喜欢它。"
+ },
+ {
+  "seg": 92,
+  "start": 294.96,
+  "end": 298.32,
+  "speaker": "Unknown",
+  "en": "stuff. So it makes sense to at least",
+  "zh": "事情。所以至少有意义"
+ },
+ {
+  "seg": 93,
+  "start": 298.56,
+  "end": 302.56,
+  "speaker": "Unknown",
+  "en": "spend part of my time on that and also like it a lot.",
+  "zh": "花费我的一部分时间在那上面，而且我很喜欢它。"
+ },
+ {
+  "seg": 94,
+  "start": 302.6,
+  "end": 306.84,
+  "speaker": "Unknown",
+  "en": "And I also noticed that when I was like, I always call it with",
+  "zh": "并且我也注意到当我像，我总是称之为 [[95] 双脚踩在泥里，对吧？你接收到信号，对吧？ [[96] 几乎深入到一个团队内部，什么有效，什么无效？"
+ },
+ {
+  "seg": 95,
+  "start": 306.84,
+  "end": 314.2,
+  "speaker": "Unknown",
+  "en": "my feet in the mud, right? You pick up signals, right?",
+  "zh": "我的双脚踩在泥里，对吧？你会接收到信号，对吧？"
+ },
+ {
+  "seg": 96,
+  "start": 314.2,
+  "end": 318.24,
+  "speaker": "Unknown",
+  "en": "Almost going on within a team, what works, what doesn't work?",
+  "zh": "几乎就在团队内部进行，什么有效，什么无效？"
+ },
+ {
+  "seg": 97,
+  "start": 318.6,
+  "end": 321.08,
+  "speaker": "Unknown",
+  "en": "And when you're in a pure management role or a pure agile",
+  "zh": "而当你处在一个纯管理角色或一个纯敏捷 [[98] 辅导角色或什么的，在那期间我真的怀念那个，我， [[99] 试图帮助团队，但某种程度上我没有接收到"
+ },
+ {
+  "seg": 98,
+  "start": 321.08,
+  "end": 323.84,
+  "speaker": "Unknown",
+  "en": "coaching role or something, I really missed that during that",
+  "zh": "教练的角色或什么，在那段时间我真的怀念那个"
+ },
+ {
+  "seg": 99,
+  "start": 323.84,
+  "end": 327.92,
+  "speaker": "Unknown",
+  "en": "time, I, I tried to help teams, but somehow I didn't pick up the",
+  "zh": "时期，我，我试图帮助团队，但不知怎么我没有接收到"
+ },
+ {
+  "seg": 100,
+  "start": 327.92,
+  "end": 329.08,
+  "speaker": "Unknown",
+  "en": "signals. And when I was in the team",
+  "zh": "信号。当我再次回到团队时"
+ },
+ {
+  "seg": 101,
+  "start": 329.08,
+  "end": 333.36,
+  "speaker": "Unknown",
+  "en": "again, I immediately see, OK, I've been trying to solve XYZ",
+  "zh": "我立刻就看到了，OK，我在过去的"
+ },
+ {
+  "seg": 102,
+  "start": 333.36,
+  "end": 336.76,
+  "speaker": "Unknown",
+  "en": "the last half year. And in three weeks, I, I solved",
+  "zh": "半年里一直试图解决 XYZ。在三周内，我，我解决了"
+ },
+ {
+  "seg": 103,
+  "start": 336.76,
+  "end": 338.88,
+  "speaker": "Unknown",
+  "en": "the problem, right? And we found a much better",
+  "zh": "这个问题，对吧？我们一起找到了一个"
+ },
+ {
+  "seg": 104,
+  "start": 338.88,
+  "end": 343.64,
+  "speaker": "Unknown",
+  "en": "solution together. So yeah, so I think that there's",
+  "zh": "好得多的解决方案。所以是的，所以我认为有"
+ },
+ {
+  "seg": 105,
+  "start": 343.64,
+  "end": 347.44,
+  "speaker": "Unknown",
+  "en": "sort of combination being deeply involved with the technical",
+  "zh": "一种结合，深度参与"
+ },
+ {
+  "seg": 106,
+  "start": 347.44,
+  "end": 353,
+  "speaker": "Unknown",
+  "en": "stuff really helps you be able to do a better job as a like",
+  "zh": "技术事务真的有助于你作为一个"
+ },
+ {
+  "seg": 107,
+  "start": 354.32,
+  "end": 359.32,
+  "speaker": "Unknown",
+  "en": "socio technical engineer, right? So yeah, I think that's that",
+  "zh": "社会技术工程师做得更好，对吧？所以是的，我认为这种"
+ },
+ {
+  "seg": 108,
+  "start": 359.32,
+  "end": 361.8,
+  "speaker": "Unknown",
+  "en": "combination is really strong. And I don't see a lot of people",
+  "zh": "结合真的很强大。而且我不一定看到有很多人"
+ },
+ {
+  "seg": 109,
+  "start": 362.72,
+  "end": 365.08,
+  "speaker": "Unknown",
+  "en": "necessarily doing that. Like a lot of people seem to be",
+  "zh": "这样做。好像很多人"
+ },
+ {
+  "seg": 110,
+  "start": 365.08,
+  "end": 367.2,
+  "speaker": "Unknown",
+  "en": "very comfortable in there. I just.",
+  "zh": "在那里很舒适。我只是。"
+ },
+ {
+  "seg": 111,
+  "start": 367.52,
+  "end": 371.08,
+  "speaker": "Unknown",
+  "en": "I'm just. Contributor role, right?",
+  "zh": "我只是。贡献者角色，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 371.08,
+  "end": 374.48,
+  "speaker": "Unknown",
+  "en": "I'm, I'm just doing my job at, at fixing go stuff.",
+  "zh": "我，我只是在做我的工作，在，在修复 go 相关的东西。"
+ },
+ {
+  "seg": 113,
+  "start": 376.4,
+  "end": 378.4,
+  "speaker": "Unknown",
+  "en": "But I think it's so much more rewarding if you can help the",
+  "zh": "但我认为如果你能帮助"
+ },
+ {
+  "seg": 114,
+  "start": 378.4,
+  "end": 381.96,
+  "speaker": "Unknown",
+  "en": "people around you so much better and create much more of an",
+  "zh": "你周围的人做得更好，并创造更多的"
+ },
+ {
+  "seg": 115,
+  "start": 381.96,
+  "end": 384.24,
+  "speaker": "Unknown",
+  "en": "impact. In the projects that you've",
+  "zh": "影响，那会更有成就感。在你从实际"
+ },
+ {
+  "seg": 116,
+  "start": 384.24,
+  "end": 387.32,
+  "speaker": "Unknown",
+  "en": "worked on from a hands on perspective, what are some of",
+  "zh": "角度参与过的项目中，你"
+ },
+ {
+  "seg": 117,
+  "start": 387.32,
+  "end": 389.68,
+  "speaker": "Unknown",
+  "en": "the skills that you've brought to the table that made in the",
+  "zh": "带来了哪些技能使得项目最终"
+ },
+ {
+  "seg": 118,
+  "start": 389.68,
+  "end": 392.28,
+  "speaker": "Unknown",
+  "en": "end that project successful or succeed?",
+  "zh": "成功或成功了？"
+ },
+ {
+  "seg": 119,
+  "start": 393.64,
+  "end": 400.92,
+  "speaker": "Unknown",
+  "en": "So a bunch, obviously. So a big chunk is being able to",
+  "zh": "显然有很多。很大一部分是能够"
+ },
+ {
+  "seg": 120,
+  "start": 400.92,
+  "end": 404.76,
+  "speaker": "Unknown",
+  "en": "quickly do problem solving. And it sounds very obvious,",
+  "zh": "快速进行问题解决。这听起来很明显，"
+ },
+ {
+  "seg": 121,
+  "start": 404.8,
+  "end": 406.2,
+  "speaker": "Unknown",
+  "en": "right? But a lot of what we do is",
+  "zh": "对吧？但我们做的大部分工作都是"
+ },
+ {
+  "seg": 122,
+  "start": 406.2,
+  "end": 409.56,
+  "speaker": "Unknown",
+  "en": "problem solving and not just on the like how do I write the code",
+  "zh": "问题解决，不仅仅在于我如何写代码"
+ },
+ {
+  "seg": 123,
+  "start": 409.8,
+  "end": 411.72,
+  "speaker": "Unknown",
+  "en": "part? But I think also especially on",
+  "zh": "那部分？但我认为特别是"
+ },
+ {
+  "seg": 124,
+  "start": 411.72,
+  "end": 416.44,
+  "speaker": "Unknown",
+  "en": "when something goes wrong, being able to pinpoint where it goes",
+  "zh": "当出问题时，能够 pinpoint（定位）出错的"
+ },
+ {
+  "seg": 125,
+  "start": 416.44,
+  "end": 419.56,
+  "speaker": "Unknown",
+  "en": "wrong. And you get a feel for that",
+  "zh": "地方。当你见过足够多的问题，"
+ },
+ {
+  "seg": 126,
+  "start": 419.56,
+  "end": 421,
+  "speaker": "Unknown",
+  "en": "right, when you've seen enough problems.",
+  "zh": "你就会对此有感觉，"
+ },
+ {
+  "seg": 127,
+  "start": 423.56,
+  "end": 426.84,
+  "speaker": "Unknown",
+  "en": "So I think that's the, the, the main skill, like being really",
+  "zh": "对吧。所以我认为那是，那，那是主要技能，就像真的很擅长"
+ },
+ {
+  "seg": 128,
+  "start": 426.84,
+  "end": 432.2,
+  "speaker": "Unknown",
+  "en": "good at problem solving. And that's something I think a",
+  "zh": "问题解决。我认为这是我们很多人"
+ },
+ {
+  "seg": 129,
+  "start": 432.2,
+  "end": 434.92,
+  "speaker": "Unknown",
+  "en": "lot of us I think are good at, but it's also something you can",
+  "zh": "都擅长的，但这也是你可以"
+ },
+ {
+  "seg": 130,
+  "start": 434.92,
+  "end": 439.48,
+  "speaker": "Unknown",
+  "en": "train and you can get better at. So I think that's the, the key",
+  "zh": "训练并变得更好的事情。所以我认为那是帮助"
+ },
+ {
+  "seg": 131,
+  "start": 439.48,
+  "end": 443.08,
+  "speaker": "Unknown",
+  "en": "skill that that help there. It's a bit generic, right?",
+  "zh": "那里的关键技能。这有点笼统，对吧？"
+ },
+ {
+  "seg": 132,
+  "start": 443.08,
+  "end": 445.56,
+  "speaker": "Unknown",
+  "en": "So problem solving is broad, but I think problem solving on the",
+  "zh": "所以问题解决很宽泛，但我认为在运维方面的问题解决"
+ },
+ {
+  "seg": 133,
+  "start": 445.56,
+  "end": 449.16,
+  "speaker": "Unknown",
+  "en": "operational side and also having the interest on that part, not",
+  "zh": "以及对那方面的兴趣，而不仅仅是，"
+ },
+ {
+  "seg": 134,
+  "start": 449.16,
+  "end": 450.92,
+  "speaker": "Unknown",
+  "en": "just on, I build something and it's done.",
+  "zh": "我构建了某样东西，它就完成了。"
+ },
+ {
+  "seg": 135,
+  "start": 451.44,
+  "end": 455.24,
+  "speaker": "Unknown",
+  "en": "But understanding that when once it runs in production, right, it",
+  "zh": "而是理解一旦它在生产环境中运行，对吧，它就会"
+ },
+ {
+  "seg": 136,
+  "start": 455.24,
+  "end": 457.6,
+  "speaker": "Unknown",
+  "en": "becomes more interesting because then you can learn if it",
+  "zh": "变得更有趣，因为那样你就能了解它是否真的有效，因为通常是不同的数据或"
+ },
+ {
+  "seg": 137,
+  "start": 457.6,
+  "end": 461.2,
+  "speaker": "Unknown",
+  "en": "actually works because it's usually different data or",
+  "zh": "不同的行为或诸如此类。是的。"
+ },
+ {
+  "seg": 138,
+  "start": 461.2,
+  "end": 465.6,
+  "speaker": "Unknown",
+  "en": "different behaviour or whatever. Yeah.",
+  "zh": "然后你可以真正地，是的，为"
+ },
+ {
+  "seg": 139,
+  "start": 465.6,
+  "end": 470.44,
+  "speaker": "Unknown",
+  "en": "And then, then you can really, yeah, find better solutions for,",
+  "zh": "你发现的任何东西找到更好的解决方案，"
+ },
+ {
+  "seg": 140,
+  "start": 470.64,
+  "end": 473,
+  "speaker": "Unknown",
+  "en": "for whatever you find, because the first solution is not the",
+  "zh": "因为第一个解决方案不是"
+ },
+ {
+  "seg": 141,
+  "start": 473,
+  "end": 474.68,
+  "speaker": "Unknown",
+  "en": "best one, right? The first thing you put in",
+  "zh": "最好的那个，对吧？你投入生产的"
+ },
+ {
+  "seg": 142,
+  "start": 474.68,
+  "end": 478.2,
+  "speaker": "Unknown",
+  "en": "production is usually, even though you might think it's the",
+  "zh": "第一个东西通常，即使你可能认为它是"
+ },
+ {
+  "seg": 143,
+  "start": 478.2,
+  "end": 482.36,
+  "speaker": "Unknown",
+  "en": "best solution, it's usually once it hits reality, you start",
+  "zh": "最好的解决方案，通常一旦它接触到现实，你开始"
+ },
+ {
+  "seg": 144,
+  "start": 482.36,
+  "end": 485.6,
+  "speaker": "Unknown",
+  "en": "finding out what what you really need because your users will see",
+  "zh": "发现你真正需要什么，因为你的用户会看到它"
+ },
+ {
+  "seg": 145,
+  "start": 485.6,
+  "end": 489.04,
+  "speaker": "Unknown",
+  "en": "it and they say, oh, actually now that I see this, I actually",
+  "zh": "并且他们会说，哦，既然我看到了这个，我实际上"
+ },
+ {
+  "seg": 146,
+  "start": 489.04,
+  "end": 492.44,
+  "speaker": "Unknown",
+  "en": "want it this way. So that's one part of feedback,",
+  "zh": "想要它是这样的。所以这是反馈的"
+ },
+ {
+  "seg": 147,
+  "start": 492.44,
+  "end": 494.52,
+  "speaker": "Unknown",
+  "en": "right? The other part is, well, maybe",
+  "zh": "一部分，对吧？另一部分是，嗯，也许"
+ },
+ {
+  "seg": 148,
+  "start": 494.52,
+  "end": 496.76,
+  "speaker": "Unknown",
+  "en": "it doesn't perform the way you expected it, or maybe, right,",
+  "zh": "它的表现不像你预期的那样，或者也许，对吧，"
+ },
+ {
+  "seg": 149,
+  "start": 496.76,
+  "end": 499.2,
+  "speaker": "Unknown",
+  "en": "the data is different. So there's a lot of different",
+  "zh": "数据是不同的。所以有很多不同的"
+ },
+ {
+  "seg": 150,
+  "start": 499.2,
+  "end": 502.68,
+  "speaker": "Unknown",
+  "en": "aspects that become really interesting once you get that",
+  "zh": "方面变得非常有趣，一旦你让那个"
+ },
+ {
+  "seg": 151,
+  "start": 502.68,
+  "end": 505.12,
+  "speaker": "Unknown",
+  "en": "feedback loop going on. Problem solving.",
+  "zh": "反馈循环持续下去。解决问题。"
+ },
+ {
+  "seg": 152,
+  "start": 505.12,
+  "end": 508.44,
+  "speaker": "Unknown",
+  "en": "You see it in the broadest sense of the word, as in we have to",
+  "zh": "你从最广泛的意义上看它，比如我们必须"
+ },
+ {
+  "seg": 153,
+  "start": 508.44,
+  "end": 510.56,
+  "speaker": "Unknown",
+  "en": "build something. How do we solve this on a",
+  "zh": "构建某样东西。我们如何在"
+ },
+ {
+  "seg": 154,
+  "start": 510.56,
+  "end": 512.28,
+  "speaker": "Unknown",
+  "en": "technical sense? Something goes wrong in",
+  "zh": "技术层面上解决这个问题？在"
+ },
+ {
+  "seg": 155,
+  "start": 512.28,
+  "end": 514.52,
+  "speaker": "Unknown",
+  "en": "operations or in production. How do we solve that?",
+  "zh": "运营或生产中出了问题。"
+ },
+ {
+  "seg": 156,
+  "start": 514.88,
+  "end": 517.559,
+  "speaker": "Unknown",
+  "en": "Users giving us feedback for something that we haven't built",
+  "zh": "用户给我们反馈，针对我们尚未构建的东西"
+ },
+ {
+  "seg": 157,
+  "start": 517.559,
+  "end": 520.44,
+  "speaker": "Unknown",
+  "en": "or built differently. How do we tackle that from that",
+  "zh": "或构建得不同的东西。我们如何从那个"
+ },
+ {
+  "seg": 158,
+  "start": 520.44,
+  "end": 522.72,
+  "speaker": "Unknown",
+  "en": "sense? I think, I think mainly the the",
+  "zh": "角度来解决这个问题？我认为，我认为主要是，"
+ },
+ {
+  "seg": 159,
+  "start": 522.72,
+  "end": 525.68,
+  "speaker": "Unknown",
+  "en": "fact that you you have to be really curious about how",
+  "zh": "事实上你你必须对某样东西是如何工作的真的很好奇"
+ },
+ {
+  "seg": 160,
+  "start": 525.68,
+  "end": 529.24,
+  "speaker": "Unknown",
+  "en": "something works and not just assume that you know how it",
+  "zh": "而不只是假设你知道它是如何"
+ },
+ {
+  "seg": 161,
+  "start": 529.24,
+  "end": 532.56,
+  "speaker": "Unknown",
+  "en": "works, but that it may behave differently than you intended.",
+  "zh": "工作的，但它可能表现得与你的预期不同。"
+ },
+ {
+  "seg": 162,
+  "start": 534.04,
+  "end": 540.16,
+  "speaker": "Unknown",
+  "en": "And then being having a a sort of internal curiousness to, you",
+  "zh": "然后是拥有一种，某种内在的好奇心，去"
+ },
+ {
+  "seg": 163,
+  "start": 540.24,
+  "end": 545.16,
+  "speaker": "Unknown",
+  "en": "know, dive deeper into something that you may based on",
+  "zh": "更深入地钻研某样你可能基于"
+ },
+ {
+  "seg": 164,
+  "start": 545.16,
+  "end": 547.32,
+  "speaker": "Unknown",
+  "en": "assumptions, already know how it works, but you know, maybe you",
+  "zh": "假设，已经知道它是如何工作的东西，但你知道，也许你"
+ },
+ {
+  "seg": 165,
+  "start": 547.32,
+  "end": 549.4,
+  "speaker": "Unknown",
+  "en": "don't. How do you keep that curiosity",
+  "zh": "并不知道。你如何保持这种好奇心"
+ },
+ {
+  "seg": 166,
+  "start": 549.4,
+  "end": 551.32,
+  "speaker": "Unknown",
+  "en": "high? Because for me it, it comes kind",
+  "zh": "处于高位？因为对我来说，它"
+ },
+ {
+  "seg": 167,
+  "start": 551.32,
+  "end": 555,
+  "speaker": "Unknown",
+  "en": "of in, in peaks and in what the opposite is of Pico.",
+  "zh": "有点像是，是以波峰的形式出现的，而不是 Pico 的对立面。"
+ },
+ {
+  "seg": 168,
+  "start": 556.04,
+  "end": 559.32,
+  "speaker": "Unknown",
+  "en": "Yeah, I, I feel like I I've had it a lot, especially early in",
+  "zh": "是的，我，我觉得我我有过很多次，尤其是在"
+ },
+ {
+  "seg": 169,
+  "start": 559.32,
+  "end": 561.52,
+  "speaker": "Unknown",
+  "en": "career. But then when things get be",
+  "zh": "职业生涯早期。但是当事物变得"
+ },
+ {
+  "seg": 170,
+  "start": 562.04,
+  "end": 564.44,
+  "speaker": "Unknown",
+  "en": "quite comfortable, then I feel like I need to step out of that",
+  "zh": "相当舒适时，我觉得我需要走出那种"
+ },
+ {
+  "seg": 171,
+  "start": 564.44,
+  "end": 568.32,
+  "speaker": "Unknown",
+  "en": "comfort to get curious again. So it's an active curiosity for",
+  "zh": "舒适区才能再次变得好奇。所以对我来说这是一种主动的好奇心。"
+ },
+ {
+  "seg": 172,
+  "start": 568.32,
+  "end": 569.44,
+  "speaker": "Unknown",
+  "en": "me. Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 173,
+  "start": 569.44,
+  "end": 571.8,
+  "speaker": "Unknown",
+  "en": "So sometimes it's come natural because it's just fun stuff that",
+  "zh": "所以有时候它来得自然是因为这只是你正在工作的"
+ },
+ {
+  "seg": 174,
+  "start": 571.8,
+  "end": 573,
+  "speaker": "Unknown",
+  "en": "you're working on, right? Yeah.",
+  "zh": "有趣的东西，对吧？是的。"
+ },
+ {
+  "seg": 175,
+  "start": 573.36,
+  "end": 576.48,
+  "speaker": "Unknown",
+  "en": "And it's usually with new or, or exciting or innovative stuff.",
+  "zh": "而且通常是伴随着新的或，或令人兴奋的或创新的东西。"
+ },
+ {
+  "seg": 176,
+  "start": 578.44,
+  "end": 580.24,
+  "speaker": "Unknown",
+  "en": "And sometimes you have to trigger it, right?",
+  "zh": "有时候你必须触发它，对吧？"
+ },
+ {
+  "seg": 177,
+  "start": 580.24,
+  "end": 583.32,
+  "speaker": "Unknown",
+  "en": "And then you have to do exercises or, yeah, maybe, you",
+  "zh": "然后你必须做一些练习或者，是的，也许，你知道，也许你，你有一种方法来呈现一些数据"
+ },
+ {
+  "seg": 178,
+  "start": 583.32,
+  "end": 591.12,
+  "speaker": "Unknown",
+  "en": "know, maybe you, you have a, a way to surface some data that",
+  "zh": "那些可能不是你所预期的数据。然后，对，你的好奇心"
+ },
+ {
+  "seg": 179,
+  "start": 591.16,
+  "end": 595.12,
+  "speaker": "Unknown",
+  "en": "may not be what you expected. And then, right, your curiosity",
+  "zh": "通常就会被激发。就像如果我看看我正在看看"
+ },
+ {
+  "seg": 180,
+  "start": 595.32,
+  "end": 599.32,
+  "speaker": "Unknown",
+  "en": "usually kicks in. Like if I look at I'm looking at",
+  "zh": "实际数据现在我看到了一些我没想到的"
+ },
+ {
+  "seg": 181,
+  "start": 599.32,
+  "end": 601.44,
+  "speaker": "Unknown",
+  "en": "the actual data now and I see something that I didn't expect",
+  "zh": "东西然后对它它通常会触发一些东西。"
+ },
+ {
+  "seg": 182,
+  "start": 601.44,
+  "end": 603.92,
+  "speaker": "Unknown",
+  "en": "it and then right it it usually triggers something.",
+  "zh": "明白了。诀窍通常是我"
+ },
+ {
+  "seg": 183,
+  "start": 604.2,
+  "end": 607.96,
+  "speaker": "Unknown",
+  "en": "Gotcha. And the trick is usually what I",
+  "zh": "看到团队正在做的是，对。你构建某样东西然后"
+ },
+ {
+  "seg": 184,
+  "start": 607.96,
+  "end": 610.88,
+  "speaker": "Unknown",
+  "en": "see teams doing is right. You build something and then",
+  "zh": "它就完成了，然后你构建下一个东西，对。"
+ },
+ {
+  "seg": 185,
+  "start": 610.88,
+  "end": 613.52,
+  "speaker": "Unknown",
+  "en": "it's done and you build the next thing right.",
+  "zh": "你在处理需求，然后当它完成时你接下一个需求"
+ },
+ {
+  "seg": 186,
+  "start": 613.52,
+  "end": 615.8,
+  "speaker": "Unknown",
+  "en": "You work on stories and then you pick up the next story when it's",
+  "zh": "而当它完成时就是当它被部署时。"
+ },
+ {
+  "seg": 187,
+  "start": 615.8,
+  "end": 617.08,
+  "speaker": "Unknown",
+  "en": "done, and it's done when it's deployed.",
+  "zh": "或者更糟的是，当它到达测试员那里时就是完成了。"
+ },
+ {
+  "seg": 188,
+  "start": 618.8,
+  "end": 621.28,
+  "speaker": "Unknown",
+  "en": "Or even worse, it's done when it's at the tester.",
+  "zh": "但是嗯，这是一个不同的话题，但你试图给"
+ },
+ {
+  "seg": 189,
+  "start": 621.28,
+  "end": 629.92,
+  "speaker": "Unknown",
+  "en": "But well, it's a different topic, but so you try to add",
+  "zh": "它增加另一个维度。当它在"
+ },
+ {
+  "seg": 190,
+  "start": 629.92,
+  "end": 632.8,
+  "speaker": "Unknown",
+  "en": "another aspect to it. It's not done when it's in",
+  "zh": "生产环境中时并不是完成了，当你看到它工作并且当你"
+ },
+ {
+  "seg": 191,
+  "start": 632.8,
+  "end": 635.76,
+  "speaker": "Unknown",
+  "en": "production, is done when you've seen it work and when you've",
+  "zh": "分析了它时才是完成了。有时你需要一点"
+ },
+ {
+  "seg": 192,
+  "start": 636.12,
+  "end": 637.72,
+  "speaker": "Unknown",
+  "en": "analyse it. And sometimes you need a bit of",
+  "zh": "时间来做那个，对吧？所以通常你有一个需求，你"
+ },
+ {
+  "seg": 193,
+  "start": 637.72,
+  "end": 640.28,
+  "speaker": "Unknown",
+  "en": "time for that, right? So usually you have a story, you",
+  "zh": "构建它，你部署它，然后至少回到它"
+ },
+ {
+  "seg": 194,
+  "start": 640.28,
+  "end": 643.6,
+  "speaker": "Unknown",
+  "en": "build it, you deploy it, and then at least come back to it",
+  "zh": "那里像 2 年，2 周后，查看数据。"
+ },
+ {
+  "seg": 195,
+  "start": 643.6,
+  "end": 646.48,
+  "speaker": "Unknown",
+  "en": "like 2 year, 2 weeks later, look at the data.",
+  "zh": "这通常会触发一些好奇心。"
+ },
+ {
+  "seg": 196,
+  "start": 647.24,
+  "end": 649.84,
+  "speaker": "Unknown",
+  "en": "And that's usually will trigger some curiosity.",
+  "zh": "但我没有看到很多团队这样做，对吧？"
+ },
+ {
+  "seg": 197,
+  "start": 650.2,
+  "end": 653.56,
+  "speaker": "Unknown",
+  "en": "But I don't see a lot of teams doing this, right?",
+  "zh": "我们面临着很大的发布新东西的压力，是的。"
+ },
+ {
+  "seg": 198,
+  "start": 653.56,
+  "end": 656.56,
+  "speaker": "Unknown",
+  "en": "We're under a lot of pressure to ship new stuff, yeah.",
+  "zh": "持续地。那就是终点线。"
+ },
+ {
+  "seg": 199,
+  "start": 657.32,
+  "end": 658.84,
+  "speaker": "Unknown",
+  "en": "Constantly. That's the finish line.",
+  "zh": "经常。那是终点线。"
+ },
+ {
+  "seg": 200,
+  "start": 659.32,
+  "end": 662.92,
+  "speaker": "Unknown",
+  "en": "And the finish line is sort of, but I like to not think of it as",
+  "zh": "而终点线可以说是，但我喜欢不把它当作"
+ },
+ {
+  "seg": 201,
+  "start": 662.92,
+  "end": 664.84,
+  "speaker": "Unknown",
+  "en": "a finish line. It's just that the finish, like",
+  "zh": "一个终点线。它只是那个终点，比如"
+ },
+ {
+  "seg": 202,
+  "start": 664.84,
+  "end": 667.8,
+  "speaker": "Unknown",
+  "en": "the finish when it's production, that's actually the starting",
+  "zh": "终点当它是生产环境时，那实际上是起跑"
+ },
+ {
+  "seg": 203,
+  "start": 667.8,
+  "end": 668.56,
+  "speaker": "Unknown",
+  "en": "line. Gotcha.",
+  "zh": "线。明白了。"
+ },
+ {
+  "seg": 204,
+  "start": 668.84,
+  "end": 669.64,
+  "speaker": "Unknown",
+  "en": "Right. That's where it gets",
+  "zh": "对的。正是那里变得"
+ },
+ {
+  "seg": 205,
+  "start": 669.64,
+  "end": 671.56,
+  "speaker": "Unknown",
+  "en": "interesting, because that's where you Start learning.",
+  "zh": "有趣，因为那是你开始学习"
+ },
+ {
+  "seg": 206,
+  "start": 672.32,
+  "end": 675.2,
+  "speaker": "Unknown",
+  "en": "So the projects that you've worked on for Ingredients of",
+  "zh": "的地方。所以你为成功的要素"
+ },
+ {
+  "seg": 207,
+  "start": 675.2,
+  "end": 677.84,
+  "speaker": "Unknown",
+  "en": "Success, you mentioned people that are curious, people that",
+  "zh": "所做的项目，你提到了好奇心强的人，擅长"
+ },
+ {
+  "seg": 208,
+  "start": 677.84,
+  "end": 681.24,
+  "speaker": "Unknown",
+  "en": "are good at problem solving, tell me more what else is in",
+  "zh": "解决问题的人，多告诉我一些还有什么在"
+ },
+ {
+  "seg": 209,
+  "start": 681.24,
+  "end": 683.72,
+  "speaker": "Unknown",
+  "en": "there? You need a mix of people.",
+  "zh": "那里面？你需要混合的人。"
+ },
+ {
+  "seg": 210,
+  "start": 684.2,
+  "end": 690.56,
+  "speaker": "Unknown",
+  "en": "So that's really my my learning. Also again, very early on in my",
+  "zh": "所以那真的是我的我的心得。同样很早在我"
+ },
+ {
+  "seg": 211,
+  "start": 690.56,
+  "end": 696.92,
+  "speaker": "Unknown",
+  "en": "career, I was at what we then called full surface web.",
+  "zh": "职业生涯中，我当时在一个我们当时叫做 full surface web 的地方。"
+ },
+ {
+  "seg": 212,
+  "start": 698.08,
+  "end": 702.76,
+  "speaker": "Unknown",
+  "en": "I don't know, we built websites right back around 2000s and",
+  "zh": "我不知道，我们在 2000 年代左右搭建网站，在"
+ },
+ {
+  "seg": 213,
+  "start": 704.8,
+  "end": 709.52,
+  "speaker": "Unknown",
+  "en": "state-of-the-art stuff back then in Netscape couldn't do much,",
+  "zh": "当时最先进的东西在 Netscape 里做不了多少事，"
+ },
+ {
+  "seg": 214,
+  "start": 709.52,
+  "end": 711.64,
+  "speaker": "Unknown",
+  "en": "but we made it do stuff you you couldn't imagine.",
+  "zh": "但我们让它做你你无法想象的事情。"
+ },
+ {
+  "seg": 215,
+  "start": 712.12,
+  "end": 716.28,
+  "speaker": "Unknown",
+  "en": "And the reason for that, that we made such amazing stuff is that",
+  "zh": "而我们做出这些惊人东西的原因是"
+ },
+ {
+  "seg": 216,
+  "start": 716.52,
+  "end": 720.52,
+  "speaker": "Unknown",
+  "en": "it's not because we had good programmers or engineers, it's",
+  "zh": "不是因为我们有好的程序员或工程师，是"
+ },
+ {
+  "seg": 217,
+  "start": 720.52,
+  "end": 724.76,
+  "speaker": "Unknown",
+  "en": "because we had a combination of really good designers and",
+  "zh": "因为我们有真正好的设计师和"
+ },
+ {
+  "seg": 218,
+  "start": 724.96,
+  "end": 726.84,
+  "speaker": "Unknown",
+  "en": "programmers, right? And designers, they thought of",
+  "zh": "程序员的组合，对吗？而设计师，他们想出了"
+ },
+ {
+  "seg": 219,
+  "start": 727.48,
+  "end": 730.4,
+  "speaker": "Unknown",
+  "en": "really crazy ideas for what a website could look like.",
+  "zh": "关于网站可能是什么样子的非常疯狂的想法。"
+ },
+ {
+  "seg": 220,
+  "start": 731.36,
+  "end": 736.84,
+  "speaker": "Unknown",
+  "en": "I remember you built something for a Litanice which you know,",
+  "zh": "我记得你为一个 Litanice 做了东西，你知道，"
+ },
+ {
+  "seg": 221,
+  "start": 736.84,
+  "end": 740.12,
+  "speaker": "Unknown",
+  "en": "it was totally yellow and the whole screen was yellow.",
+  "zh": "它完全是黄色的，整个屏幕都是黄色的。"
+ },
+ {
+  "seg": 222,
+  "start": 740.12,
+  "end": 744.44,
+  "speaker": "Unknown",
+  "en": "And they created custom chroming, what we call sort of",
+  "zh": "而且他们创建了自定义 chroming，我们要我们所谓的某种"
+ },
+ {
+  "seg": 223,
+  "start": 744.6,
+  "end": 747.48,
+  "speaker": "Unknown",
+  "en": "custom window boundaries and and close buttons.",
+  "zh": "自定义窗口边界和和关闭按钮。"
+ },
+ {
+  "seg": 224,
+  "start": 747.48,
+  "end": 749.6,
+  "speaker": "Unknown",
+  "en": "You couldn't do that back then, but we found a way to do it.",
+  "zh": "那时候你做不到那个，但我们找到了方法去做。"
+ },
+ {
+  "seg": 225,
+  "start": 749.6,
+  "end": 755.64,
+  "speaker": "Unknown",
+  "en": "Like we made a window pop up, open in full screen and then we",
+  "zh": "就像我们让一个窗口弹出，以全屏打开然后我们"
+ },
+ {
+  "seg": 226,
+  "start": 755.64,
+  "end": 758.12,
+  "speaker": "Unknown",
+  "en": "scaled down so we didn't have any Chrome and then we put our",
+  "zh": "缩小了所以我们要没有任何 Chrome 然后我们把"
+ },
+ {
+  "seg": 227,
+  "start": 758.12,
+  "end": 760.16,
+  "speaker": "Unknown",
+  "en": "own close buttons and scrollers in there.",
+  "zh": "我们自己的关闭按钮和滚动条放在那里。"
+ },
+ {
+  "seg": 228,
+  "start": 760.48,
+  "end": 765.24,
+  "speaker": "Unknown",
+  "en": "Crazy shit. And right, so it was the",
+  "zh": "疯狂的狗屎。对的，所以那是"
+ },
+ {
+  "seg": 229,
+  "start": 765.24,
+  "end": 767.48,
+  "speaker": "Unknown",
+  "en": "combination of the fact that the designers came up with these",
+  "zh": "结合设计师想出了这些"
+ },
+ {
+  "seg": 230,
+  "start": 767.48,
+  "end": 772.2,
+  "speaker": "Unknown",
+  "en": "crazy ideas and the and then we as engineers, we didn't say, no,",
+  "zh": "疯狂想法的事实，以及我们作为工程师，我们没说不，"
+ },
+ {
+  "seg": 231,
+  "start": 772.2,
+  "end": 773.64,
+  "speaker": "Unknown",
+  "en": "that's not how the browser works.",
+  "zh": "浏览器不是那样工作的。"
+ },
+ {
+  "seg": 232,
+  "start": 773.76,
+  "end": 776.28,
+  "speaker": "Unknown",
+  "en": "No, we said, interesting, that looks cool.",
+  "zh": "不，我们说，有趣，看起来很酷。"
+ },
+ {
+  "seg": 233,
+  "start": 776.68,
+  "end": 780.16,
+  "speaker": "Unknown",
+  "en": "Is there a way we can do that? And then we tried it out and we",
+  "zh": "有没有办法我们可以做到？然后我们试了一下，我们"
+ },
+ {
+  "seg": 234,
+  "start": 780.16,
+  "end": 782.16,
+  "speaker": "Unknown",
+  "en": "found a way and we made it work, right.",
+  "zh": "找到了方法，我们让它运转起来了，对。"
+ },
+ {
+  "seg": 235,
+  "start": 782.16,
+  "end": 784.6,
+  "speaker": "Unknown",
+  "en": "So, and the designer could never get that working on their own,",
+  "zh": "所以，而且设计师永远无法让那个自己运转起来，"
+ },
+ {
+  "seg": 236,
+  "start": 784.6,
+  "end": 786.28,
+  "speaker": "Unknown",
+  "en": "right? And we could never come up with",
+  "zh": "对吗？而我们永远无法想出"
+ },
+ {
+  "seg": 237,
+  "start": 786.28,
+  "end": 788.88,
+  "speaker": "Unknown",
+  "en": "that crazy idea or not because you would just build some crappy",
+  "zh": "那个疯狂的想法或者不是因为你只会建一些蹩脚的"
+ },
+ {
+  "seg": 238,
+  "start": 788.88,
+  "end": 791.56,
+  "speaker": "Unknown",
+  "en": "UI. But the combination was super",
+  "zh": "UI。但这种组合是超级"
+ },
+ {
+  "seg": 239,
+  "start": 791.56,
+  "end": 794.4,
+  "speaker": "Unknown",
+  "en": "cool. So that's really my learning at",
+  "zh": "酷的。所以那真的是我在"
+ },
+ {
+  "seg": 240,
+  "start": 794.4,
+  "end": 798.96,
+  "speaker": "Unknown",
+  "en": "that point is when you go alone, but you, you're never going to",
+  "zh": "那时的学习是当你独自前行时，但，"
+ },
+ {
+  "seg": 241,
+  "start": 799.2,
+  "end": 802.04,
+  "speaker": "Unknown",
+  "en": "create super cool stuff. So you need different",
+  "zh": "你永远不会创造超级酷的东西。所以你需要不同的"
+ },
+ {
+  "seg": 242,
+  "start": 802.04,
+  "end": 806.36,
+  "speaker": "Unknown",
+  "en": "disciplines. So yeah, that's, that's really",
+  "zh": "学科。所以是的，那是，那真的是"
+ },
+ {
+  "seg": 243,
+  "start": 806.36,
+  "end": 810.04,
+  "speaker": "Unknown",
+  "en": "what I tried to do also in everything that I that I get the",
+  "zh": "我也试图在我有机会创造的"
+ },
+ {
+  "seg": 244,
+  "start": 810.04,
+  "end": 812.96,
+  "speaker": "Unknown",
+  "en": "chance to create, right? I tried to make sure that we",
+  "zh": "一切事情中做的事情，对吗？我试图确保我们有"
+ },
+ {
+  "seg": 245,
+  "start": 812.96,
+  "end": 817.96,
+  "speaker": "Unknown",
+  "en": "have good engineers. We have both back end, front end",
+  "zh": "好的工程师。我们既有后端，前端"
+ },
+ {
+  "seg": 246,
+  "start": 817.96,
+  "end": 821.36,
+  "speaker": "Unknown",
+  "en": "or whatever we need mobile, you know, the combination of skills",
+  "zh": "或者任何我们需要的移动端，你知道，技能的"
+ },
+ {
+  "seg": 247,
+  "start": 821.36,
+  "end": 825.4,
+  "speaker": "Unknown",
+  "en": "that we need a few people that are really specialized in some",
+  "zh": "组合我们需要一些真正专精于某些"
+ },
+ {
+  "seg": 248,
+  "start": 825.4,
+  "end": 828.8,
+  "speaker": "Unknown",
+  "en": "areas, a few people that are very broad because then they can",
+  "zh": "领域的人，一些非常博学多才的人因为这样他们可以"
+ },
+ {
+  "seg": 249,
+  "start": 828.8,
+  "end": 832.12,
+  "speaker": "Unknown",
+  "en": "fill in all the gaps and people can learn from each other.",
+  "zh": "填补所有空白，人们可以互相学习。"
+ },
+ {
+  "seg": 250,
+  "start": 832.52,
+  "end": 834.32,
+  "speaker": "Unknown",
+  "en": "I think that's also an important aspect.",
+  "zh": "我认为这也是一个重要的方面。"
+ },
+ {
+  "seg": 251,
+  "start": 834.32,
+  "end": 839.04,
+  "speaker": "Unknown",
+  "en": "Let's get back to that and then, and then also make sure that",
+  "zh": "让我们回到那一点，然后，然后还要确保"
+ },
+ {
+  "seg": 252,
+  "start": 839.2,
+  "end": 847.04,
+  "speaker": "Unknown",
+  "en": "like either you have like designers or UX Rs or those kind",
+  "zh": "就像你要么有设计师或 UX 研究员或者那些"
+ },
+ {
+  "seg": 253,
+  "start": 847.04,
+  "end": 849,
+  "speaker": "Unknown",
+  "en": "of people in your team, preferably sometimes the",
+  "zh": "类的人在你的团队里，最好是有时"
+ },
+ {
+  "seg": 254,
+  "start": 849,
+  "end": 851.12,
+  "speaker": "Unknown",
+  "en": "organization is not structured like that and they're in",
+  "zh": "组织结构不是那样，他们在"
+ },
+ {
+  "seg": 255,
+  "start": 851.12,
+  "end": 854.12,
+  "speaker": "Unknown",
+  "en": "different teams, but then at least have very close",
+  "zh": "不同的团队，但那时至少与他们有非常紧密的"
+ },
+ {
+  "seg": 256,
+  "start": 854.12,
+  "end": 857,
+  "speaker": "Unknown",
+  "en": "connections with them, right? Build up the personal connection",
+  "zh": "联系，对吧？建立个人联系"
+ },
+ {
+  "seg": 257,
+  "start": 857.48,
+  "end": 859.92,
+  "speaker": "Unknown",
+  "en": "and then make sure you involve them in a lot of stuff.",
+  "zh": "然后确保你让他们参与很多事情。"
+ },
+ {
+  "seg": 258,
+  "start": 862.96,
+  "end": 866.12,
+  "speaker": "Unknown",
+  "en": "And then also like I had teams where we had, we were launching",
+  "zh": "然后就像我有过的团队，我们要发布"
+ },
+ {
+  "seg": 259,
+  "start": 866.12,
+  "end": 868.56,
+  "speaker": "Unknown",
+  "en": "a new product. So and a really important part",
+  "zh": "一个新产品。所以一个真正重要的部分"
+ },
+ {
+  "seg": 260,
+  "start": 868.56,
+  "end": 873.8,
+  "speaker": "Unknown",
+  "en": "was doing marketing and doing like crazy marketing stuff,",
+  "zh": "是做营销，做一些疯狂的营销活动，"
+ },
+ {
+  "seg": 261,
+  "start": 873.8,
+  "end": 875.28,
+  "speaker": "Unknown",
+  "en": "right? So we actually got a growth",
+  "zh": "对吧？所以我们实际上找了一个"
+ },
+ {
+  "seg": 262,
+  "start": 875.28,
+  "end": 878.8,
+  "speaker": "Unknown",
+  "en": "hacker on the team. And so you need to really figure",
+  "zh": "增长黑客加入团队。所以你需要真正弄清楚 [[263]】 我现在做这份工作需要什么，然后确保有合适的人在那里。"
+ },
+ {
+  "seg": 263,
+  "start": 878.8,
+  "end": 882.56,
+  "speaker": "Unknown",
+  "en": "out what is it I need for this job that we're doing at this",
+  "zh": "搞清楚对于我们正在做的这项工作，我需要的是什么"
+ },
+ {
+  "seg": 264,
+  "start": 882.56,
+  "end": 885.08,
+  "speaker": "Unknown",
+  "en": "time and then make sure that the right people are there.",
+  "zh": "要么我也曾在一种初创模式下"
+ },
+ {
+  "seg": 265,
+  "start": 885.08,
+  "end": 889.04,
+  "speaker": "Unknown",
+  "en": "And either I've also been in a sort of a start up mode for",
+  "zh": "待了很长时间。那时你没有"
+ },
+ {
+  "seg": 266,
+  "start": 889.04,
+  "end": 891.68,
+  "speaker": "Unknown",
+  "en": "quite a while. And then you don't have the",
+  "zh": "奢侈，因为你没有。是的，我们没有钱"
+ },
+ {
+  "seg": 267,
+  "start": 891.68,
+  "end": 893.84,
+  "speaker": "Unknown",
+  "en": "luxury because you don't. Yeah, we didn't have the money",
+  "zh": "雇佣所有这类人。我确实找了一个 UX 人员和一些"
+ },
+ {
+  "seg": 268,
+  "start": 893.84,
+  "end": 898.56,
+  "speaker": "Unknown",
+  "en": "to hire all this kind of people. I did get a UX person and some",
+  "zh": "技能广泛的人员，工程师。"
+ },
+ {
+  "seg": 269,
+  "start": 899.16,
+  "end": 901.36,
+  "speaker": "Unknown",
+  "en": "like broadly skilled people, engineers.",
+  "zh": "但实际上我们自己学了所有这些东西，对吧？"
+ },
+ {
+  "seg": 270,
+  "start": 901.72,
+  "end": 905.4,
+  "speaker": "Unknown",
+  "en": "But then essentially we learned all this stuff ourself, right?",
+  "zh": "我们自己建网站。我们自己做营销的事情。"
+ },
+ {
+  "seg": 271,
+  "start": 905.4,
+  "end": 908.44,
+  "speaker": "Unknown",
+  "en": "We did our own website build. We did our own marketing stuff.",
+  "zh": "团队里确实有一个销售家伙。"
+ },
+ {
+  "seg": 272,
+  "start": 909.44,
+  "end": 910.88,
+  "speaker": "Unknown",
+  "en": "We did have a sales guy on the team.",
+  "zh": "所以在我们之间，我们是七个人"
+ },
+ {
+  "seg": 273,
+  "start": 911.24,
+  "end": 914.2,
+  "speaker": "Unknown",
+  "en": "So then between the like, we were seven people between all of",
+  "zh": "在我们所有人之间。后来我们被收购时有很多次测试，"
+ },
+ {
+  "seg": 274,
+  "start": 914.2,
+  "end": 917.76,
+  "speaker": "Unknown",
+  "en": "us. We had many different tests when",
+  "zh": "后来我在写由于"
+ },
+ {
+  "seg": 275,
+  "start": 917.76,
+  "end": 922.76,
+  "speaker": "Unknown",
+  "en": "we got acquired that later on, I was writing down the due to",
+  "zh": "优雅的文档，就像好的，团队怎么样？"
+ },
+ {
+  "seg": 276,
+  "start": 922.76,
+  "end": 925.16,
+  "speaker": "Unknown",
+  "en": "elegance documentation, like OK, how's the team?",
+  "zh": "人们的角色是什么？ [[277]】 我不知道。这就像每个人背后至少有"
+ },
+ {
+  "seg": 277,
+  "start": 925.16,
+  "end": 926.36,
+  "speaker": "Unknown",
+  "en": "What are the roles of the people?",
+  "zh": "人们的角色是什么？"
+ },
+ {
+  "seg": 278,
+  "start": 926.36,
+  "end": 929.44,
+  "speaker": "Unknown",
+  "en": "I don't know. It's like at least like 5 to 8",
+  "zh": "5 到 8 个"
+ },
+ {
+  "seg": 279,
+  "start": 929.44,
+  "end": 931.04,
+  "speaker": "Unknown",
+  "en": "roles behind every person, right?",
+  "zh": "角色，对吧？"
+ },
+ {
+  "seg": 280,
+  "start": 931.04,
+  "end": 937.28,
+  "speaker": "Unknown",
+  "en": "So that was crazy. And so, yeah, so you can also do",
+  "zh": "所以那太疯狂了。所以，是的，所以你也可以 [[281]】 自己做这一切。不，不要害怕做"
+ },
+ {
+  "seg": 281,
+  "start": 937.28,
+  "end": 940.24,
+  "speaker": "Unknown",
+  "en": "it all yourself. And no, don't be scared to do",
+  "zh": "全部自己做。而且，不要害怕去做"
+ },
+ {
+  "seg": 282,
+  "start": 940.24,
+  "end": 943.36,
+  "speaker": "Unknown",
+  "en": "something. You're not the specialist in if",
+  "zh": "某事。你不是……的专家，如果 [[283]】 他完成了，他完成了，如果你把它发给某个其他团队 [[284]】 或其他部门，我是说，他们注定有其他 [[285]】 事情要做。他们不会给它 [[286]】 你需要的优先级。是的。 [[287]】 所以也许你就自己做，也许让他们参与， [[288]】 但至少确保你能继续做 [[289]】 你需要做的事情。是的，我觉得我，我 [[290]】 真的很享受在，我认为，相当大的团队里工作，那里有 [[291]】 多样化的技能，但也有文化 [[292]】 多样性。那是所有乐趣所在。 [[293]】 我从那学到了很多。我觉得，我在 [[294]】 里面最有效率的团队实际上就是我另外两个同事的团队 [[295]】 这是，我认为在我职业生涯早期 [[296]】 仍然。但我学到了很多。 [[297]】 通过实际上建立那些关系，那些关系 [[298]】 非常亲密。我们可以互相信任，我们 [[299]】 知道如何与对方沟通，我们真的可以"
+ },
+ {
+  "seg": 283,
+  "start": 943.36,
+  "end": 948,
+  "speaker": "Unknown",
+  "en": "and he's done and he's done, if you send it to some other team",
+  "zh": "他完成了，他完成了，如果你把它发给某个其他团队"
+ },
+ {
+  "seg": 284,
+  "start": 948,
+  "end": 950.88,
+  "speaker": "Unknown",
+  "en": "or other departments, I mean, they're bound to have other",
+  "zh": "或其他部门，我是说，他们肯定有其他"
+ },
+ {
+  "seg": 285,
+  "start": 950.88,
+  "end": 952.64,
+  "speaker": "Unknown",
+  "en": "stuff to do. They're not going to give it the",
+  "zh": "事情要做。他们不会给你所需的"
+ },
+ {
+  "seg": 286,
+  "start": 952.64,
+  "end": 953.8,
+  "speaker": "Unknown",
+  "en": "priority you need. Yeah.",
+  "zh": "优先级。是的。"
+ },
+ {
+  "seg": 287,
+  "start": 954.08,
+  "end": 956.84,
+  "speaker": "Unknown",
+  "en": "So maybe you just do it yourself, maybe involve them,",
+  "zh": "所以也许你自己做，也许让他们参与，"
+ },
+ {
+  "seg": 288,
+  "start": 956.84,
+  "end": 959.72,
+  "speaker": "Unknown",
+  "en": "but at least make sure that you can continue and do the stuff",
+  "zh": "但至少要确保你可以继续并做你需要做的"
+ },
+ {
+  "seg": 289,
+  "start": 959.72,
+  "end": 962.4,
+  "speaker": "Unknown",
+  "en": "that you need to do. Yeah, I feel like I've, I've",
+  "zh": "事情。是的，我觉得我，我真的很享受在，我认为，相当大的团队里工作，那里有"
+ },
+ {
+  "seg": 290,
+  "start": 962.4,
+  "end": 965.96,
+  "speaker": "Unknown",
+  "en": "really enjoyed working in, I think, quite large teams where",
+  "zh": "多样化的技能，但也有文化"
+ },
+ {
+  "seg": 291,
+  "start": 965.96,
+  "end": 969.52,
+  "speaker": "Unknown",
+  "en": "there was a diverse set of skills but also cultural",
+  "zh": "多样性。那才是所有的乐趣。"
+ },
+ {
+  "seg": 292,
+  "start": 969.52,
+  "end": 971.04,
+  "speaker": "Unknown",
+  "en": "diversity. That was all the fun.",
+  "zh": "我从中学到了很多。我觉得，我最有成效的团队实际上就是我和另外两个"
+ },
+ {
+  "seg": 293,
+  "start": 971.04,
+  "end": 974.96,
+  "speaker": "Unknown",
+  "en": "I learned a lot from that. I feel though, the team that I",
+  "zh": "我从中学到了很多。不过，我觉得那个团队，我"
+ },
+ {
+  "seg": 294,
+  "start": 974.96,
+  "end": 977.8,
+  "speaker": "Unknown",
+  "en": "was most productive in was really just a team of me and two",
+  "zh": "同事组成的团队，那是，我认为在我职业生涯"
+ },
+ {
+  "seg": 295,
+  "start": 977.8,
+  "end": 981.16,
+  "speaker": "Unknown",
+  "en": "other colleagues where this was, I think quite early on in my",
+  "zh": "相当早期的时候。但我学到了很多。"
+ },
+ {
+  "seg": 296,
+  "start": 981.16,
+  "end": 982.72,
+  "speaker": "Unknown",
+  "en": "career still. But I learned a lot.",
+  "zh": "通过建立那些关系，实际上这些关系"
+ },
+ {
+  "seg": 297,
+  "start": 983.12,
+  "end": 985.2,
+  "speaker": "Unknown",
+  "en": "And through actually forming those relationships, which were",
+  "zh": "相当亲密。我们可以互相信任，我们"
+ },
+ {
+  "seg": 298,
+  "start": 985.2,
+  "end": 987.32,
+  "speaker": "Unknown",
+  "en": "quite close. We could trust each other, we",
+  "zh": "知道如何与对方沟通，我们真的可以"
+ },
+ {
+  "seg": 299,
+  "start": 987.32,
+  "end": 989.2,
+  "speaker": "Unknown",
+  "en": "knew how to communicate with each other, and we could really",
+  "zh": "知道如何与彼此沟通，而且我们真的可以"
+ },
+ {
+  "seg": 300,
+  "start": 989.2,
+  "end": 992.72,
+  "speaker": "Unknown",
+  "en": "just focus on making impact and getting getting shit done, which",
+  "zh": "只专注于做出影响力并搞定事情，这"
+ },
+ {
+  "seg": 301,
+  "start": 992.72,
+  "end": 994.92,
+  "speaker": "Unknown",
+  "en": "was really cool. The small teams are the most",
+  "zh": "真的很酷。小团队是最"
+ },
+ {
+  "seg": 302,
+  "start": 994.92,
+  "end": 995.72,
+  "speaker": "Unknown",
+  "en": "fun, right? Yeah.",
+  "zh": "有趣的，对吧？是的。"
+ },
+ {
+  "seg": 303,
+  "start": 995.8,
+  "end": 997.96,
+  "speaker": "Unknown",
+  "en": "At least that because you have such a close connection.",
+  "zh": "至少那是因为你有如此紧密的联系。"
+ },
+ {
+  "seg": 304,
+  "start": 997.96,
+  "end": 998.64,
+  "speaker": "Unknown",
+  "en": "Yeah. Yeah.",
+  "zh": "是的。是的。"
+ },
+ {
+  "seg": 305,
+  "start": 998.64,
+  "end": 1002.28,
+  "speaker": "Unknown",
+  "en": "So 3-4 people, that's for me. Also the like, super nice to be",
+  "zh": "所以 3-4 个人，这对我来说。此外，像那样，能在"
+ },
+ {
+  "seg": 306,
+  "start": 1002.28,
+  "end": 1005,
+  "speaker": "Unknown",
+  "en": "in team like that. I'm not in that situation a lot",
+  "zh": "这样的团队里真是太好了。我不再处于那种境地"
+ },
+ {
+  "seg": 307,
+  "start": 1005,
+  "end": 1010.68,
+  "speaker": "Unknown",
+  "en": "anymore, but sometimes, yeah. But depends on what you need to",
+  "zh": "了，但有时，是的。但这取决于你需要"
+ },
+ {
+  "seg": 308,
+  "start": 1010.68,
+  "end": 1012.88,
+  "speaker": "Unknown",
+  "en": "do, right? If, if, if you have the skills",
+  "zh": "做什么，对吧？如果，如果，如果在这个团队里你有技能"
+ },
+ {
+  "seg": 309,
+  "start": 1012.88,
+  "end": 1014.6,
+  "speaker": "Unknown",
+  "en": "within that team to do what you need to do.",
+  "zh": "去做你需要做的事情。"
+ },
+ {
+  "seg": 310,
+  "start": 1015.36,
+  "end": 1016.96,
+  "speaker": "Unknown",
+  "en": "I mean, that's brilliant. That's super fun.",
+  "zh": "我的意思是，那太棒了。那超级有趣。"
+ },
+ {
+  "seg": 311,
+  "start": 1017.84,
+  "end": 1020.6,
+  "speaker": "Unknown",
+  "en": "But yeah, in a lot of cases you need a bit more people to get",
+  "zh": "但是是的，在许多情况下你需要更多的人来"
+ },
+ {
+  "seg": 312,
+  "start": 1020.6,
+  "end": 1023.08,
+  "speaker": "Unknown",
+  "en": "everything done. Also, sometimes the amount of",
+  "zh": "完成所有事情。此外，有时"
+ },
+ {
+  "seg": 313,
+  "start": 1023.08,
+  "end": 1027.88,
+  "speaker": "Unknown",
+  "en": "work just is more and when you're smaller, you go faster.",
+  "zh": "工作量就是更大，而且当你人更少时，你走得更快。"
+ },
+ {
+  "seg": 314,
+  "start": 1027.88,
+  "end": 1030.8,
+  "speaker": "Unknown",
+  "en": "But if you have more people. And you organise it, well, you",
+  "zh": "但如果你有更多的人。并且你组织得好，你"
+ },
+ {
+  "seg": 315,
+  "start": 1030.8,
+  "end": 1034.92,
+  "speaker": "Unknown",
+  "en": "can still go even faster and yeah, so or do more stuff or",
+  "zh": "仍然可以走得甚至更快，并且是的，所以或者做更多的事情或者"
+ },
+ {
+  "seg": 316,
+  "start": 1034.92,
+  "end": 1037.2,
+  "speaker": "Unknown",
+  "en": "whatever. I felt a little bit selfish",
+  "zh": "无论什么。我感到有点自私"
+ },
+ {
+  "seg": 317,
+  "start": 1037.2,
+  "end": 1039.68,
+  "speaker": "Unknown",
+  "en": "though, because I was the person that was the most early in my",
+  "zh": "尽管，因为我是那个职业生涯最早期的人。"
+ },
+ {
+  "seg": 318,
+  "start": 1039.68,
+  "end": 1041.8,
+  "speaker": "Unknown",
+  "en": "career. So I also felt like when we're",
+  "zh": "所以我也觉得当我们在"
+ },
+ {
+  "seg": 319,
+  "start": 1041.8,
+  "end": 1044.04,
+  "speaker": "Unknown",
+  "en": "looking at a learning curve, I felt like I was learning the",
+  "zh": "看待学习曲线时，我觉得我是"
+ },
+ {
+  "seg": 320,
+  "start": 1044.04,
+  "end": 1045.28,
+  "speaker": "Unknown",
+  "en": "most. And I don't know how much they",
+  "zh": "学得最多的那个。而且我不知道他们"
+ },
+ {
+  "seg": 321,
+  "start": 1045.28,
+  "end": 1046.88,
+  "speaker": "Unknown",
+  "en": "were learning from me as an individual.",
+  "zh": "从我这里作为个人学到了多少。"
+ },
+ {
+  "seg": 322,
+  "start": 1047.319,
+  "end": 1050.12,
+  "speaker": "Unknown",
+  "en": "And even though they said XY and ZI don't know if I believed them",
+  "zh": "即使他们说 XY 和 Z 我也不确定我相信他们 [[323] 必定。但是当你在团队中时，你"
+ },
+ {
+  "seg": 323,
+  "start": 1050.12,
+  "end": 1053,
+  "speaker": "Unknown",
+  "en": "necessarily. But when you are in teams, do",
+  "zh": "必须地。但是当你身处团队时，"
+ },
+ {
+  "seg": 324,
+  "start": 1053,
+  "end": 1055.48,
+  "speaker": "Unknown",
+  "en": "you feel like you still learn and grow from the people around",
+  "zh": "觉得你仍然从周围的人那里学习和成长吗？"
+ },
+ {
+  "seg": 325,
+  "start": 1055.48,
+  "end": 1057.52,
+  "speaker": "Unknown",
+  "en": "you? How do you view that still?",
+  "zh": "你现在如何看待这一点？"
+ },
+ {
+  "seg": 326,
+  "start": 1058,
+  "end": 1058.48,
+  "speaker": "Unknown",
+  "en": "Yeah. Obviously.",
+  "zh": "是的。显然。"
+ },
+ {
+  "seg": 327,
+  "start": 1058.48,
+  "end": 1059.92,
+  "speaker": "Unknown",
+  "en": "So I think that's a misconception, right?",
+  "zh": "所以我认为这是一个误解，对吧？"
+ },
+ {
+  "seg": 328,
+  "start": 1059.92,
+  "end": 1062.48,
+  "speaker": "Unknown",
+  "en": "So if you're the junior in the team, let's say.",
+  "zh": "所以如果你是团队中的初级成员，比方说。"
+ },
+ {
+  "seg": 329,
+  "start": 1064.8,
+  "end": 1067.88,
+  "speaker": "Unknown",
+  "en": "I often get get people asking these like, yeah, but I then I'm",
+  "zh": "我经常听到人们问这些，是的，但是然后我"
+ },
+ {
+  "seg": 330,
+  "start": 1067.88,
+  "end": 1070.2,
+  "speaker": "Unknown",
+  "en": "pairing with these experienced guys and I'm learning how, but",
+  "zh": "和这些有经验的人结对，我在学习如何，但是"
+ },
+ {
+  "seg": 331,
+  "start": 1070.2,
+  "end": 1073,
+  "speaker": "Unknown",
+  "en": "I'm not getting much back. I don't think it works that way",
+  "zh": "我没有太多回报。我不认为它是那样工作的，因为"
+ },
+ {
+  "seg": 332,
+  "start": 1073,
+  "end": 1078.36,
+  "speaker": "Unknown",
+  "en": "because in my experience, the the more experienced people,",
+  "zh": "在我的经验中，更有经验的人，"
+ },
+ {
+  "seg": 333,
+  "start": 1078.36,
+  "end": 1081.2,
+  "speaker": "Unknown",
+  "en": "right, they also have a lot of baggage and they have a lot of",
+  "zh": "对吧，他们也有很多包袱，他们也有很多"
+ },
+ {
+  "seg": 334,
+  "start": 1081.56,
+  "end": 1085.56,
+  "speaker": "Unknown",
+  "en": "ways of thinking in, in their own mindset, physiological,",
+  "zh": "思维方式在他们自己的心态中，生理上的，"
+ },
+ {
+  "seg": 335,
+  "start": 1085.56,
+  "end": 1087,
+  "speaker": "Unknown",
+  "en": "because it's shaped by their experience.",
+  "zh": "因为这是由他们的经历塑造的。"
+ },
+ {
+  "seg": 336,
+  "start": 1088.16,
+  "end": 1089.76,
+  "speaker": "Unknown",
+  "en": "That's how our minds work, right?",
+  "zh": "这就是我们大脑的工作方式，对吧？"
+ },
+ {
+  "seg": 337,
+  "start": 1091.72,
+  "end": 1096.52,
+  "speaker": "Unknown",
+  "en": "And the. Let's say younger, fresher",
+  "zh": "而且。比方说更年轻、更新鲜"
+ },
+ {
+  "seg": 338,
+  "start": 1096.52,
+  "end": 1098.08,
+  "speaker": "Unknown",
+  "en": "people. I always feel I have a lot of",
+  "zh": "的人。我总是觉得我有很多"
+ },
+ {
+  "seg": 339,
+  "start": 1098.08,
+  "end": 1102.84,
+  "speaker": "Unknown",
+  "en": "enthusiasm for stuff right And obviously depends on",
+  "zh": "对事情的热情，对吧，而且显然取决于"
+ },
+ {
+  "seg": 340,
+  "start": 1102.84,
+  "end": 1105.32,
+  "speaker": "Unknown",
+  "en": "personality, but. That's what you what I typically",
+  "zh": "性格，但是。这就是你通常"
+ },
+ {
+  "seg": 341,
+  "start": 1105.32,
+  "end": 1110.56,
+  "speaker": "Unknown",
+  "en": "see and that energy is usually contagious.",
+  "zh": "看到的，那种能量通常是有感染力的。"
+ },
+ {
+  "seg": 342,
+  "start": 1111.8,
+  "end": 1116.68,
+  "speaker": "Unknown",
+  "en": "So that really adds to a team and can really revive.",
+  "zh": "所以这真的给团队增加了价值，并且真的可以复兴。"
+ },
+ {
+  "seg": 343,
+  "start": 1116.68,
+  "end": 1121.48,
+  "speaker": "Unknown",
+  "en": "I say A-Team that's maybe. Doesn't have too much energy",
+  "zh": "我说 A-Team（A队）那可能。不再有太多能量了，"
+ },
+ {
+  "seg": 344,
+  "start": 1121.48,
+  "end": 1123.56,
+  "speaker": "Unknown",
+  "en": "anymore, right? If you put a few young people in",
+  "zh": "对吧？如果你把几个年轻人放进"
+ },
+ {
+  "seg": 345,
+  "start": 1123.56,
+  "end": 1124.88,
+  "speaker": "Unknown",
+  "en": "there, that's usually a really house.",
+  "zh": "那里，那通常真的很棒。"
+ },
+ {
+  "seg": 346,
+  "start": 1126.24,
+  "end": 1129.44,
+  "speaker": "Unknown",
+  "en": "And then also like the other day, I was working with another",
+  "zh": "然后还有像前几天，我和团队里的另一个人"
+ },
+ {
+  "seg": 347,
+  "start": 1129.44,
+  "end": 1132.08,
+  "speaker": "Unknown",
+  "en": "guy in the in the team, like the youngest guy.",
+  "zh": "一起工作，像那个最年轻的家伙。"
+ },
+ {
+  "seg": 348,
+  "start": 1132.8,
+  "end": 1138.84,
+  "speaker": "Unknown",
+  "en": "And I always try to take out these people and I learned a new",
+  "zh": "我总是尝试带出这些人，我学到了一个新"
+ },
+ {
+  "seg": 349,
+  "start": 1138.84,
+  "end": 1140.8,
+  "speaker": "Unknown",
+  "en": "shortcut. Right.",
+  "zh": "的捷径。对。"
+ },
+ {
+  "seg": 350,
+  "start": 1140.8,
+  "end": 1142.84,
+  "speaker": "Unknown",
+  "en": "I saw him do something. I thought, wow, what did you do",
+  "zh": "我看他做了一些事。我想，哇，你做了什么"
+ },
+ {
+  "seg": 351,
+  "start": 1142.84,
+  "end": 1144.64,
+  "speaker": "Unknown",
+  "en": "now? I used this shortcut.",
+  "zh": "现在？我用了这个快捷键。"
+ },
+ {
+  "seg": 352,
+  "start": 1145,
+  "end": 1148.08,
+  "speaker": "Unknown",
+  "en": "Oh go. Like I'm doing that like 20",
+  "zh": "噢走吧。就像我每天都要做那件事大概 20"
+ },
+ {
+  "seg": 353,
+  "start": 1148.08,
+  "end": 1151.2,
+  "speaker": "Unknown",
+  "en": "times a day. Like, why didn't I look that up?",
+  "zh": "次。就像，我为什么没去查一下那个？"
+ },
+ {
+  "seg": 354,
+  "start": 1151.84,
+  "end": 1153.4,
+  "speaker": "Unknown",
+  "en": "It makes total sense to have that one.",
+  "zh": "拥有那个快捷键是完全合理的。"
+ },
+ {
+  "seg": 355,
+  "start": 1153.4,
+  "end": 1156.6,
+  "speaker": "Unknown",
+  "en": "So I immediately wrote it on a sticky, put it on my laptop",
+  "zh": "所以我立即把它写在便利贴上，贴在我的笔记本电脑上"
+ },
+ {
+  "seg": 356,
+  "start": 1156.6,
+  "end": 1159.8,
+  "speaker": "Unknown",
+  "en": "actually, and then yeah. So learning a new shortcut.",
+  "zh": "实际上，然后是的。所以学习一个新的快捷键。"
+ },
+ {
+  "seg": 357,
+  "start": 1160.28,
+  "end": 1165.64,
+  "speaker": "Unknown",
+  "en": "So it's small things like that, but it's also, I think the fact",
+  "zh": "所以是像这样的小事，但我认为事实是，既然你没有"
+ },
+ {
+  "seg": 358,
+  "start": 1165.64,
+  "end": 1170.36,
+  "speaker": "Unknown",
+  "en": "that you don't have all the baggage in history then means",
+  "zh": "拥有历史包袱，这意味着"
+ },
+ {
+  "seg": 359,
+  "start": 1170.36,
+  "end": 1173.24,
+  "speaker": "Unknown",
+  "en": "that you have a very fresh view also on the problems that you",
+  "zh": "你对你面临的"
+ },
+ {
+  "seg": 360,
+  "start": 1173.24,
+  "end": 1175.36,
+  "speaker": "Unknown",
+  "en": "face. So if you are in a teeny, you've",
+  "zh": "问题也有非常新鲜的看法。所以如果你在一个 teeny，你"
+ },
+ {
+  "seg": 361,
+  "start": 1175.36,
+  "end": 1179.72,
+  "speaker": "Unknown",
+  "en": "worked on a piece of software for like 10 years and some",
+  "zh": "在一个软件上工作了大概 10 年然后有些"
+ },
+ {
+  "seg": 362,
+  "start": 1179.72,
+  "end": 1182.68,
+  "speaker": "Unknown",
+  "en": "problem pops up, there's going to be an obvious solution that",
+  "zh": "问题出现了，会有一个显而易见的解决方案"
+ },
+ {
+  "seg": 363,
+  "start": 1182.68,
+  "end": 1186.12,
+  "speaker": "Unknown",
+  "en": "comes to mind because you know this software very well and",
+  "zh": "浮现在脑海中，因为你非常了解这个软件并且"
+ },
+ {
+  "seg": 364,
+  "start": 1186.6,
+  "end": 1189.24,
+  "speaker": "Unknown",
+  "en": "there's going to be obvious solutions to that based on also",
+  "zh": "基于此也会有显而易见的解决方案，也基于"
+ },
+ {
+  "seg": 365,
+  "start": 1189.24,
+  "end": 1192.2,
+  "speaker": "Unknown",
+  "en": "the stuff you've done before. But maybe the stuff you've done",
+  "zh": "你以前做过的事情。但也许你以前做过的事情"
+ },
+ {
+  "seg": 366,
+  "start": 1192.2,
+  "end": 1194.92,
+  "speaker": "Unknown",
+  "en": "before is not the best for the current situation because the",
+  "zh": "对当前的情况来说不是最好的，因为我们"
+ },
+ {
+  "seg": 367,
+  "start": 1194.92,
+  "end": 1197.32,
+  "speaker": "Unknown",
+  "en": "world around us changes. So the software needs to adapt",
+  "zh": "周围的世界在变化。所以软件也需要适应"
+ },
+ {
+  "seg": 368,
+  "start": 1197.32,
+  "end": 1200.52,
+  "speaker": "Unknown",
+  "en": "as well, right? In these people with a fresh",
+  "zh": "对吧？在这些拥有一个新鲜"
+ },
+ {
+  "seg": 369,
+  "start": 1200.52,
+  "end": 1202.76,
+  "speaker": "Unknown",
+  "en": "mind, they don't have that baggage, right?",
+  "zh": "思维的人，他们没有那个包袱，对吧？"
+ },
+ {
+  "seg": 370,
+  "start": 1202.76,
+  "end": 1204.88,
+  "speaker": "Unknown",
+  "en": "They don't. Know how it's supposed to work",
+  "zh": "他们不知道它应该怎么工作"
+ },
+ {
+  "seg": 371,
+  "start": 1204.88,
+  "end": 1206.96,
+  "speaker": "Unknown",
+  "en": "or that it's supposed to work in a certain way or that it was",
+  "zh": "或者它应该以某种方式工作，或者它"
+ },
+ {
+  "seg": 372,
+  "start": 1207.52,
+  "end": 1212.88,
+  "speaker": "Unknown",
+  "en": "thought of like 2 years back like this is how it should work",
+  "zh": "在 2 年前被认为是像这样这是它应该如何工作"
+ },
+ {
+  "seg": 373,
+  "start": 1213.24,
+  "end": 1217.12,
+  "speaker": "Unknown",
+  "en": "maybe this is how it should work is not true anymore in today's",
+  "zh": "也许这应该如何工作在今天的世界"
+ },
+ {
+  "seg": 374,
+  "start": 1217.12,
+  "end": 1221.88,
+  "speaker": "Unknown",
+  "en": "world right? So that's critical view, or at",
+  "zh": "不再是正确的了，对吧？所以那是批判性的看法，或者至少"
+ },
+ {
+  "seg": 375,
+  "start": 1221.88,
+  "end": 1226.72,
+  "speaker": "Unknown",
+  "en": "least someone shouting stuff that's not the mainstream or the",
+  "zh": "有人喊出一些非主流或"
+ },
+ {
+  "seg": 376,
+  "start": 1226.72,
+  "end": 1230.32,
+  "speaker": "Unknown",
+  "en": "obvious solution can trigger people think, wait a moment.",
+  "zh": "明显解决方案之外的东西，可以触发人们思考，等一下。"
+ },
+ {
+  "seg": 377,
+  "start": 1230.32,
+  "end": 1234.68,
+  "speaker": "Unknown",
+  "en": "Actually in the current current scenario that we are in, maybe",
+  "zh": "实际上在我们当前当前的情景中，也许"
+ },
+ {
+  "seg": 378,
+  "start": 1234.68,
+  "end": 1237.24,
+  "speaker": "Unknown",
+  "en": "what you're saying is much better than the old stuff we",
+  "zh": "你说的比我们几年前"
+ },
+ {
+  "seg": 379,
+  "start": 1237.24,
+  "end": 1240.68,
+  "speaker": "Unknown",
+  "en": "thought of years back. And I see that in a lot of",
+  "zh": "想到的旧东西要好得多。我在很多"
+ },
+ {
+  "seg": 380,
+  "start": 1240.68,
+  "end": 1243.44,
+  "speaker": "Unknown",
+  "en": "teams, right? There's legacy in pretty much",
+  "zh": "团队中都看到了这一点，对吧？今天"
+ },
+ {
+  "seg": 381,
+  "start": 1243.44,
+  "end": 1245.84,
+  "speaker": "Unknown",
+  "en": "every place you're running into today.",
+  "zh": "你进入的几乎每个地方都有遗留物。"
+ },
+ {
+  "seg": 382,
+  "start": 1248.08,
+  "end": 1251,
+  "speaker": "Unknown",
+  "en": "So there's a lot of this existing stuff in there and",
+  "zh": "所以那里有很多现有的东西和"
+ },
+ {
+  "seg": 383,
+  "start": 1251,
+  "end": 1256.56,
+  "speaker": "Unknown",
+  "en": "existing I DS and having just fresh I DS thrown in is super",
+  "zh": "现有的 I DS 并且投入一些新鲜的 I DS 是超级"
+ },
+ {
+  "seg": 384,
+  "start": 1256.56,
+  "end": 1260.08,
+  "speaker": "Unknown",
+  "en": "valuable. It I also feel like it needs a",
+  "zh": "有价值的。我觉得这我也"
+ },
+ {
+  "seg": 385,
+  "start": 1260.08,
+  "end": 1265,
+  "speaker": "Unknown",
+  "en": "certain type of senior person or personality because if you build",
+  "zh": "需要某种类型的高级人员或个性，因为如果你建立"
+ },
+ {
+  "seg": 386,
+  "start": 1265,
+  "end": 1267.12,
+  "speaker": "Unknown",
+  "en": "up seniority, then you build up experience.",
+  "zh": "了资历，那么你就建立了经验。"
+ },
+ {
+  "seg": 387,
+  "start": 1267.12,
+  "end": 1269.6,
+  "speaker": "Unknown",
+  "en": "So then the decisions you make, you feel like they are grounded",
+  "zh": "那么你做的决定，你觉得它们是扎根于"
+ },
+ {
+  "seg": 388,
+  "start": 1269.6,
+  "end": 1272.88,
+  "speaker": "Unknown",
+  "en": "in the experience that you have. So then for someone else to come",
+  "zh": "你拥有的经验中的。那么当其他人进来"
+ },
+ {
+  "seg": 389,
+  "start": 1272.88,
+  "end": 1274.64,
+  "speaker": "Unknown",
+  "en": "in and be like, why don't we do XY and Z?",
+  "zh": "说，为什么我们不 XY 和 Z？"
+ },
+ {
+  "seg": 390,
+  "start": 1274.64,
+  "end": 1277.24,
+  "speaker": "Unknown",
+  "en": "If you don't believe in that, you still have to be the person",
+  "zh": "如果你不相信这一点，你仍然必须是那个"
+ },
+ {
+  "seg": 391,
+  "start": 1277.24,
+  "end": 1280.64,
+  "speaker": "Unknown",
+  "en": "that can say, OK, let's validate this or let's not shut it down",
+  "zh": "能说，好的，让我们验证一下这个或者让我们不要关闭它"
+ },
+ {
+  "seg": 392,
+  "start": 1281.24,
+  "end": 1283.4,
+  "speaker": "Unknown",
+  "en": "and let's still try or at least have a dialogue.",
+  "zh": "让我们仍然尝试或者至少进行对话的人。"
+ },
+ {
+  "seg": 393,
+  "start": 1283.68,
+  "end": 1285.16,
+  "speaker": "Unknown",
+  "en": "Yeah. So this is super important.",
+  "zh": "是的。所以这是超级重要的。"
+ },
+ {
+  "seg": 394,
+  "start": 1285.16,
+  "end": 1287.72,
+  "speaker": "Unknown",
+  "en": "So this is something I, I realise I'm not sure when",
+  "zh": "所以这是某件事，我，我不确定确切是"
+ },
+ {
+  "seg": 395,
+  "start": 1287.72,
+  "end": 1291.2,
+  "speaker": "Unknown",
+  "en": "exactly, but when you get more experience, at some point I had",
+  "zh": "什么时候，但当你获得更多经验时，在某个时候我有"
+ },
+ {
+  "seg": 396,
+  "start": 1291.2,
+  "end": 1295.64,
+  "speaker": "Unknown",
+  "en": "this realization that I have my own experience, right?",
+  "zh": "这个觉悟，我有我自己的经验，对吧？"
+ },
+ {
+  "seg": 397,
+  "start": 1295.64,
+  "end": 1298.6,
+  "speaker": "Unknown",
+  "en": "And I have my own biases based on whatever I experienced.",
+  "zh": "而且我有我自己的偏见，基于我所经历的任何事情。"
+ },
+ {
+  "seg": 398,
+  "start": 1300.4,
+  "end": 1302.92,
+  "speaker": "Unknown",
+  "en": "So I. Really try to be very conscious",
+  "zh": "所以我。真的尝试非常有意识"
+ },
+ {
+  "seg": 399,
+  "start": 1302.92,
+  "end": 1308.6,
+  "speaker": "Unknown",
+  "en": "on where the IDs that I have come from rather than the fact",
+  "zh": "地对待我所拥有的 I DS 来自哪里，而不是那个事实"
+ },
+ {
+  "seg": 400,
+  "start": 1308.6,
+  "end": 1311.84,
+  "speaker": "Unknown",
+  "en": "that especially when they come into a new team and they have a",
+  "zh": "特别是当他们进入一个新团队并且他们有一个"
+ },
+ {
+  "seg": 401,
+  "start": 1311.84,
+  "end": 1314.92,
+  "speaker": "Unknown",
+  "en": "certain set up and I have I DS like how and our release",
+  "zh": "某种设置，我有关于我们的发布"
+ },
+ {
+  "seg": 402,
+  "start": 1314.92,
+  "end": 1318.48,
+  "speaker": "Unknown",
+  "en": "management should should look like or how their branching",
+  "zh": "管理应该应该是什么样子的或者他们的分支"
+ },
+ {
+  "seg": 403,
+  "start": 1318.48,
+  "end": 1321,
+  "speaker": "Unknown",
+  "en": "structure should be or whatever. Yeah, but that may not be",
+  "zh": "结构应该是什么样子或者其他什么的想法。是的，但这可能并不"
+ },
+ {
+  "seg": 404,
+  "start": 1321,
+  "end": 1323.64,
+  "speaker": "Unknown",
+  "en": "suitable for that project. So I really try to force myself",
+  "zh": "适合那个项目。所以我真的试图强迫我自己"
+ },
+ {
+  "seg": 405,
+  "start": 1323.64,
+  "end": 1327,
+  "speaker": "Unknown",
+  "en": "to have an open mind, listen a lot, hear what people are",
+  "zh": "拥有一个开放的头脑，多倾听，听人们在"
+ },
+ {
+  "seg": 406,
+  "start": 1327,
+  "end": 1330.04,
+  "speaker": "Unknown",
+  "en": "saying. And then maybe I still have an",
+  "zh": "说什么。然后也许我仍然有一个"
+ },
+ {
+  "seg": 407,
+  "start": 1330.04,
+  "end": 1333.6,
+  "speaker": "Unknown",
+  "en": "ID that that doesn't get shouted out and I'll throw it in.",
+  "zh": "没有被大声喊出来的想法，我会把它抛出来。"
+ },
+ {
+  "seg": 408,
+  "start": 1334.88,
+  "end": 1339.56,
+  "speaker": "Unknown",
+  "en": "But it I try to evaluate just like my ID is just as valuable",
+  "zh": "但我试着评估就像我的想法就像周围"
+ },
+ {
+  "seg": 409,
+  "start": 1339.56,
+  "end": 1345.6,
+  "speaker": "Unknown",
+  "en": "as the IDs of the rest around me and me as a key, key skill, to",
+  "zh": "其他人的想法一样有价值，而且说实话，我作为一个关键的关键技能，"
+ },
+ {
+  "seg": 410,
+  "start": 1345.6,
+  "end": 1349.92,
+  "speaker": "Unknown",
+  "en": "be honest. And some people are very",
+  "zh": "要诚实。有些人非常"
+ },
+ {
+  "seg": 411,
+  "start": 1349.92,
+  "end": 1351.88,
+  "speaker": "Unknown",
+  "en": "stubborn, right? And then they don't have that",
+  "zh": "固执，对吧？然后他们没有那个"
+ },
+ {
+  "seg": 412,
+  "start": 1351.88,
+  "end": 1358.28,
+  "speaker": "Unknown",
+  "en": "skill more or less of it. But trying to be very conscious",
+  "zh": "技能，或者多多少少少一点技能。但试图对它非常有意识。"
+ },
+ {
+  "seg": 413,
+  "start": 1358.28,
+  "end": 1363,
+  "speaker": "Unknown",
+  "en": "about it. Trying to be very, very open and",
+  "zh": "试图非常、非常开放和"
+ },
+ {
+  "seg": 414,
+  "start": 1363,
+  "end": 1366.08,
+  "speaker": "Unknown",
+  "en": "open and very conscious on, on when.",
+  "zh": "开放，并且在什么时候"
+ },
+ {
+  "seg": 415,
+  "start": 1366.08,
+  "end": 1372.4,
+  "speaker": "Unknown",
+  "en": "You're. Putting an IDs out and whether",
+  "zh": "你提出想法非常有意识，"
+ },
+ {
+  "seg": 416,
+  "start": 1372.4,
+  "end": 1374.92,
+  "speaker": "Unknown",
+  "en": "they are fitting or not and also the IDs that you're hearing",
+  "zh": "它们是否合适，以及你听到的想法"
+ },
+ {
+  "seg": 417,
+  "start": 1374.92,
+  "end": 1378.64,
+  "speaker": "Unknown",
+  "en": "whether they are fitting or not. And I'm assuming your own ID is",
+  "zh": "是否合适。而且假设你自己的想法是"
+ },
+ {
+  "seg": 418,
+  "start": 1378.64,
+  "end": 1383.16,
+  "speaker": "Unknown",
+  "en": "the best and it's so easy but it's so wrong, right?",
+  "zh": "最好的，这很容易但这是错的，对吧？"
+ },
+ {
+  "seg": 419,
+  "start": 1383.72,
+  "end": 1387.12,
+  "speaker": "Unknown",
+  "en": "Also assuming that your first own ID is not the best, right?",
+  "zh": "同样假设你自己的第一个想法不是最好的，对吧？"
+ },
+ {
+  "seg": 420,
+  "start": 1387.12,
+  "end": 1391,
+  "speaker": "Unknown",
+  "en": "Probably the. 3rd or 4th is going to be better, so just",
+  "zh": "可能第三个或第四个会更好，所以只要"
+ },
+ {
+  "seg": 421,
+  "start": 1391.72,
+  "end": 1394.28,
+  "speaker": "Unknown",
+  "en": "forcing that continuous iteration on IDs.",
+  "zh": "强迫对想法进行持续迭代。"
+ },
+ {
+  "seg": 422,
+  "start": 1396.2,
+  "end": 1400.72,
+  "speaker": "Unknown",
+  "en": "Sort of doing constant like diverge, converge phases with",
+  "zh": "有点像在做持续的与团队一起的发散、收敛阶段，"
+ },
+ {
+  "seg": 423,
+  "start": 1400.72,
+  "end": 1402.48,
+  "speaker": "Unknown",
+  "en": "the team, right is really important.",
+  "zh": "对吧，这真的很重要。"
+ },
+ {
+  "seg": 424,
+  "start": 1403.08,
+  "end": 1406.24,
+  "speaker": "Unknown",
+  "en": "And then as an experienced person, you can put your ideas",
+  "zh": "然后作为一个有经验的人，你可以把你的想法"
+ },
+ {
+  "seg": 425,
+  "start": 1406.24,
+  "end": 1408.76,
+  "speaker": "Unknown",
+  "en": "in there. It's fine as long as they're at",
+  "zh": "放进去。只要它们处于"
+ },
+ {
+  "seg": 426,
+  "start": 1408.76,
+  "end": 1411.6,
+  "speaker": "Unknown",
+  "en": "the same level as the rest and as long as everybody gets hurt,",
+  "zh": "与其他人相同的水平，并且只要每个人都受到伤害，就没事，"
+ },
+ {
+  "seg": 427,
+  "start": 1414.48,
+  "end": 1416.44,
+  "speaker": "Unknown",
+  "en": "yeah. And then you you find much",
+  "zh": "是的。然后你你们会发现"
+ },
+ {
+  "seg": 428,
+  "start": 1416.44,
+  "end": 1419.04,
+  "speaker": "Unknown",
+  "en": "better solutions. What, what do you tell people",
+  "zh": "更好的解决方案。你告诉那些"
+ },
+ {
+  "seg": 429,
+  "start": 1419.04,
+  "end": 1421.24,
+  "speaker": "Unknown",
+  "en": "that do not subscribe to this idea?",
+  "zh": "不认同这个想法的人什么？"
+ },
+ {
+  "seg": 430,
+  "start": 1421.24,
+  "end": 1423.56,
+  "speaker": "Unknown",
+  "en": "Because I do. But if I play devil's advocate,",
+  "zh": "因为我认同。但如果我扮演魔鬼代言人，"
+ },
+ {
+  "seg": 431,
+  "start": 1423.64,
+  "end": 1426.76,
+  "speaker": "Unknown",
+  "en": "I can see people say, well, I'm senior and I've built up",
+  "zh": "我能看到人们说，好吧，我是资深的，我积累了 [[432] 多年的优秀经验。这些人只有几年"
+ },
+ {
+  "seg": 432,
+  "start": 1426.76,
+  "end": 1429.72,
+  "speaker": "Unknown",
+  "en": "excellent years of experience. These people only have a couple",
+  "zh": "极佳的多年经验。这些人只有一对"
+ },
+ {
+  "seg": 433,
+  "start": 1429.72,
+  "end": 1432.64,
+  "speaker": "Unknown",
+  "en": "and therefore this decision should hold more weight, right?",
+  "zh": "经验，因此这个决定应该更有分量，对吧？"
+ },
+ {
+  "seg": 434,
+  "start": 1432.64,
+  "end": 1434.88,
+  "speaker": "Unknown",
+  "en": "It's not a democracy. It cannot be kumbaya.",
+  "zh": "这不是民主。不能是 [[435] 团结一致。"
+ },
+ {
+  "seg": 435,
+  "start": 1434.88,
+  "end": 1436.8,
+  "speaker": "Unknown",
+  "en": "In the end, we are creating software.",
+  "zh": "归根结底,我们是在创造软件。"
+ },
+ {
+  "seg": 436,
+  "start": 1436.8,
+  "end": 1438.44,
+  "speaker": "Unknown",
+  "en": "It needs to be effective and valuable.",
+  "zh": "最后，我们在创建软件。"
+ },
+ {
+  "seg": 437,
+  "start": 1439.04,
+  "end": 1441.56,
+  "speaker": "Unknown",
+  "en": "So I can see the other camp as well.",
+  "zh": "它需要有效且有价值。"
+ },
+ {
+  "seg": 438,
+  "start": 1441.56,
+  "end": 1443.8,
+  "speaker": "Unknown",
+  "en": "How do you convince them or how do you engage in that",
+  "zh": "所以我也能看到另一派。"
+ },
+ {
+  "seg": 439,
+  "start": 1443.8,
+  "end": 1446.2,
+  "speaker": "Unknown",
+  "en": "conversation? So there's two things.",
+  "zh": "你如何说服他们或你如何参与那个"
+ },
+ {
+  "seg": 440,
+  "start": 1446.2,
+  "end": 1452.32,
+  "speaker": "Unknown",
+  "en": "So one is I would use tools like collaborative modelling or",
+  "zh": "对话？所以有两件事。"
+ },
+ {
+  "seg": 441,
+  "start": 1453.16,
+  "end": 1457.8,
+  "speaker": "Unknown",
+  "en": "anything where you start the session with giving everybody",
+  "zh": "所以一是我会使用像协作建模这样的工具或"
+ },
+ {
+  "seg": 442,
+  "start": 1457.8,
+  "end": 1461.56,
+  "speaker": "Unknown",
+  "en": "the chance to silently write down the IDs they have, right?",
+  "zh": "任何你在会议开始时给每个人"
+ },
+ {
+  "seg": 443,
+  "start": 1461.56,
+  "end": 1465.84,
+  "speaker": "Unknown",
+  "en": "You, you post the, the problem and then usually stickies or",
+  "zh": "机会默默写下他们想法的东西，对吧？"
+ },
+ {
+  "seg": 444,
+  "start": 1465.84,
+  "end": 1467.84,
+  "speaker": "Unknown",
+  "en": "something, right? You, you write down a bunch of",
+  "zh": "你提出问题，然后通常是便利贴或"
+ },
+ {
+  "seg": 445,
+  "start": 1467.84,
+  "end": 1470.68,
+  "speaker": "Unknown",
+  "en": "stuff that everybody in silence writes it down.",
+  "zh": "类似的东西，对吧？你写下一堆"
+ },
+ {
+  "seg": 446,
+  "start": 1470.84,
+  "end": 1474.92,
+  "speaker": "Unknown",
+  "en": "Everybody gets a chance to put their voice down, right?",
+  "zh": "东西，每个人都在沉默中写下它。"
+ },
+ {
+  "seg": 447,
+  "start": 1474.92,
+  "end": 1477.76,
+  "speaker": "Unknown",
+  "en": "There's always going to be people with a stronger voice in",
+  "zh": "每个人都有机会把他们的声音放下来，对吧？"
+ },
+ {
+  "seg": 448,
+  "start": 1477.76,
+  "end": 1481,
+  "speaker": "Unknown",
+  "en": "a group and with a less strong voice in a group, but their",
+  "zh": "一个群体中总会有声音更强的人"
+ },
+ {
+  "seg": 449,
+  "start": 1481,
+  "end": 1484.6,
+  "speaker": "Unknown",
+  "en": "opinion is not necessarily stronger or less strong or their",
+  "zh": "和声音不那么强的人，但他们"
+ },
+ {
+  "seg": 450,
+  "start": 1484.6,
+  "end": 1485.8,
+  "speaker": "Unknown",
+  "en": "the value of their opinion, right.",
+  "zh": "他们观点的价值，对。"
+ },
+ {
+  "seg": 451,
+  "start": 1486.24,
+  "end": 1488.24,
+  "speaker": "Unknown",
+  "en": "So I want to get all this stuff out.",
+  "zh": "所以我想把所有这些东西都摆出来。"
+ },
+ {
+  "seg": 452,
+  "start": 1488.6,
+  "end": 1490.8,
+  "speaker": "Unknown",
+  "en": "And then usually what happens is that the person, the stubborn",
+  "zh": "然后通常发生的情况是，那个人，那个固执的"
+ },
+ {
+  "seg": 453,
+  "start": 1490.8,
+  "end": 1493.88,
+  "speaker": "Unknown",
+  "en": "person, they automatically get to see what the other people",
+  "zh": "人，他们会自动看到其他人"
+ },
+ {
+  "seg": 454,
+  "start": 1493.88,
+  "end": 1497.48,
+  "speaker": "Unknown",
+  "en": "thought. And sometimes it works, right.",
+  "zh": "怎么想。有时这奏效，对。"
+ },
+ {
+  "seg": 455,
+  "start": 1497.48,
+  "end": 1499.4,
+  "speaker": "Unknown",
+  "en": "Sometimes they see, oh wow, that's actually quite a good",
+  "zh": "有时他们会看到，噢哇，那实际上是一个相当好的"
+ },
+ {
+  "seg": 456,
+  "start": 1499.4,
+  "end": 1501.24,
+  "speaker": "Unknown",
+  "en": "solution and I didn't come up with it.",
+  "zh": "解决方案，而我没有想到它。"
+ },
+ {
+  "seg": 457,
+  "start": 1501.56,
+  "end": 1506,
+  "speaker": "Unknown",
+  "en": "So it starts to to force them essentially into seeing that",
+  "zh": "所以这开始迫使他们本质上去看到"
+ },
+ {
+  "seg": 458,
+  "start": 1506,
+  "end": 1510.44,
+  "speaker": "Unknown",
+  "en": "there's other solutions. So just it's like visualising",
+  "zh": "还有其他解决方案。所以就像可视化"
+ },
+ {
+  "seg": 459,
+  "start": 1510.44,
+  "end": 1512.6,
+  "speaker": "Unknown",
+  "en": "servicing the solutions or multiple solutions helps.",
+  "zh": "服务解决方案或多个解决方案有帮助。"
+ },
+ {
+  "seg": 460,
+  "start": 1513.88,
+  "end": 1519.04,
+  "speaker": "Unknown",
+  "en": "The second thing, now I thought of something, but now I have to",
+  "zh": "第二件事，现在我想到了一件事，但我现在得"
+ },
+ {
+  "seg": 461,
+  "start": 1519.04,
+  "end": 1525.24,
+  "speaker": "Unknown",
+  "en": "come find it back, right? It was about convincing people.",
+  "zh": "把它找回来，对吗？那是关于说服人。"
+ },
+ {
+  "seg": 462,
+  "start": 1525.24,
+  "end": 1526.92,
+  "speaker": "Unknown",
+  "en": "That don't subscribe to their ideas.",
+  "zh": "那些不认同他们想法的人。"
+ },
+ {
+  "seg": 463,
+  "start": 1527.36,
+  "end": 1531.32,
+  "speaker": "Unknown",
+  "en": "It's people have certain personalities.",
+  "zh": "这是人有某些性格。"
+ },
+ {
+  "seg": 464,
+  "start": 1531.6,
+  "end": 1535.04,
+  "speaker": "Unknown",
+  "en": "So what I tried to do is just as I realised for myself that I",
+  "zh": "所以我试图做的是，就像我自己意识到的那样，"
+ },
+ {
+  "seg": 465,
+  "start": 1535.04,
+  "end": 1536.6,
+  "speaker": "Unknown",
+  "en": "have experienced coming from somewhere.",
+  "zh": "我有过来自某处的经历。"
+ },
+ {
+  "seg": 466,
+  "start": 1538.92,
+  "end": 1542.8,
+  "speaker": "Unknown",
+  "en": "I understand that their stubbornness, their mindset,",
+  "zh": "我理解他们的固执，他们的心态，"
+ },
+ {
+  "seg": 467,
+  "start": 1542.8,
+  "end": 1545.76,
+  "speaker": "Unknown",
+  "en": "their way of thinking also comes from somewhere, right?",
+  "zh": "他们的思维方式也来自某处，对吗？"
+ },
+ {
+  "seg": 468,
+  "start": 1545.76,
+  "end": 1547.68,
+  "speaker": "Unknown",
+  "en": "It's not that they decided to be like that.",
+  "zh": "不是他们决定要那样的。"
+ },
+ {
+  "seg": 469,
+  "start": 1548.32,
+  "end": 1551.84,
+  "speaker": "Unknown",
+  "en": "It's the experience that they had that shaped them in that",
+  "zh": "是他们拥有的经历以那种方式"
+ },
+ {
+  "seg": 470,
+  "start": 1551.84,
+  "end": 1555.52,
+  "speaker": "Unknown",
+  "en": "way. So that realization,",
+  "zh": "塑造了他们。所以那个认识，"
+ },
+ {
+  "seg": 471,
+  "start": 1555.68,
+  "end": 1557.92,
+  "speaker": "Unknown",
+  "en": "realization, it's almost like empathy, right?",
+  "zh": "认识，这几乎就像同理心，对吗？"
+ },
+ {
+  "seg": 472,
+  "start": 1558.48,
+  "end": 1561.36,
+  "speaker": "Unknown",
+  "en": "For the situation they're in. Like it's not their fault that",
+  "zh": "对他们所处的处境。就像这不是他们的错，"
+ },
+ {
+  "seg": 473,
+  "start": 1561.36,
+  "end": 1565,
+  "speaker": "Unknown",
+  "en": "they're thinking like that. It's just the experience that",
+  "zh": "他们那样想。只是他们拥有的"
+ },
+ {
+  "seg": 474,
+  "start": 1565,
+  "end": 1566.64,
+  "speaker": "Unknown",
+  "en": "they had that made them think like that.",
+  "zh": "经历让他们那样想。"
+ },
+ {
+  "seg": 475,
+  "start": 1567.24,
+  "end": 1570.88,
+  "speaker": "Unknown",
+  "en": "So then I have to come up with experience that I can give them",
+  "zh": "所以我必须想出我能给他们的经历，"
+ },
+ {
+  "seg": 476,
+  "start": 1571.44,
+  "end": 1574.12,
+  "speaker": "Unknown",
+  "en": "that will change their way of thinking.",
+  "zh": "那将改变他们的思维方式。"
+ },
+ {
+  "seg": 477,
+  "start": 1574.96,
+  "end": 1578.88,
+  "speaker": "Unknown",
+  "en": "And so some example I just gave is one of those experiences,",
+  "zh": "我刚才举的例子就是那些经历之一，"
+ },
+ {
+  "seg": 478,
+  "start": 1578.88,
+  "end": 1581.6,
+  "speaker": "Unknown",
+  "en": "right? You could also be just talking",
+  "zh": "对吧？你也可以只是"
+ },
+ {
+  "seg": 479,
+  "start": 1581.6,
+  "end": 1584.72,
+  "speaker": "Unknown",
+  "en": "to them about this, right? Making them understand that",
+  "zh": "和他们谈论这件事，对吧？让他们理解"
+ },
+ {
+  "seg": 480,
+  "start": 1584.72,
+  "end": 1587.64,
+  "speaker": "Unknown",
+  "en": "they're in the situation and that I accept and understand",
+  "zh": "他们处于那种情况，我接受并理解"
+ },
+ {
+  "seg": 481,
+  "start": 1587.64,
+  "end": 1590.2,
+  "speaker": "Unknown",
+  "en": "that they're in the situation of where it comes from, that it's",
+  "zh": "他们处于那种情况，源于何处，那是可以的，"
+ },
+ {
+  "seg": 482,
+  "start": 1590.2,
+  "end": 1595.76,
+  "speaker": "Unknown",
+  "en": "OK, but also that it's hurting the group in a certain way.",
+  "zh": "但这也在某种程度上伤害了团队。"
+ },
+ {
+  "seg": 483,
+  "start": 1595.76,
+  "end": 1599.16,
+  "speaker": "Unknown",
+  "en": "And if they understand that at some point, then well, usually",
+  "zh": "如果他们在某个时刻理解了这一点，那么通常"
+ },
+ {
+  "seg": 484,
+  "start": 1599.16,
+  "end": 1602.44,
+  "speaker": "Unknown",
+  "en": "you can get as you don't. Yeah, be careful not to get",
+  "zh": "你可以……但你不要。是的，小心不要"
+ },
+ {
+  "seg": 485,
+  "start": 1602.44,
+  "end": 1606.6,
+  "speaker": "Unknown",
+  "en": "people right to to attack them, because then natural reaction is",
+  "zh": "让人……去攻击他们，因为自然反应就是"
+ },
+ {
+  "seg": 486,
+  "start": 1606.6,
+  "end": 1610.12,
+  "speaker": "Unknown",
+  "en": "to push back, push back and you don't get anywhere.",
+  "zh": "反击，反击，你就无处可去了。"
+ },
+ {
+  "seg": 487,
+  "start": 1610.36,
+  "end": 1613.68,
+  "speaker": "Unknown",
+  "en": "So you need to just have an an honest conversation.",
+  "zh": "所以你只需要进行一次诚实的对话。"
+ },
+ {
+  "seg": 488,
+  "start": 1613.92,
+  "end": 1616.56,
+  "speaker": "Unknown",
+  "en": "Gotcha. Yeah, we discussed a lot about",
+  "zh": "明白了。是的，我们讨论了很多关于"
+ },
+ {
+  "seg": 489,
+  "start": 1616.56,
+  "end": 1620.12,
+  "speaker": "Unknown",
+  "en": "the what the team brings to make a project quite successful.",
+  "zh": "团队为项目带来什么才能使其非常成功。"
+ },
+ {
+  "seg": 490,
+  "start": 1620.12,
+  "end": 1622.52,
+  "speaker": "Unknown",
+  "en": "But I'm curious from your perspective, looking at system",
+  "zh": "但我很好奇，从你的角度来看，看系统"
+ },
+ {
+  "seg": 491,
+  "start": 1622.52,
+  "end": 1624.68,
+  "speaker": "Unknown",
+  "en": "design, design or systems thinking, what are the",
+  "zh": "设计，设计或系统思维，系统应该具备哪些"
+ },
+ {
+  "seg": 492,
+  "start": 1624.68,
+  "end": 1628,
+  "speaker": "Unknown",
+  "en": "ingredients that the system should have to make a project in",
+  "zh": "要素才能使项目最终"
+ },
+ {
+  "seg": 493,
+  "start": 1628,
+  "end": 1631.08,
+  "speaker": "Unknown",
+  "en": "the end successful? It's interesting, right, because",
+  "zh": "成功？这很有趣，对吗，因为"
+ },
+ {
+  "seg": 494,
+  "start": 1631.08,
+  "end": 1634.16,
+  "speaker": "Unknown",
+  "en": "there's a lot of stuff that from architecture point of view,",
+  "zh": "有很多东西从架构的角度来看，"
+ },
+ {
+  "seg": 495,
+  "start": 1634.16,
+  "end": 1636.2,
+  "speaker": "Unknown",
+  "en": "right? You, you know that a good chase",
+  "zh": "对吧？你知道一个好的 chase"
+ },
+ {
+  "seg": 496,
+  "start": 1636.2,
+  "end": 1644.88,
+  "speaker": "Unknown",
+  "en": "system should have. And on the other hand, the",
+  "zh": "系统应该具备。另一方面，仍然存在的"
+ },
+ {
+  "seg": 497,
+  "start": 1644.88,
+  "end": 1649.36,
+  "speaker": "Unknown",
+  "en": "systems that are still there are not all looking like that,",
+  "zh": "系统并不都是那样的，"
+ },
+ {
+  "seg": 498,
+  "start": 1650.08,
+  "end": 1651.8,
+  "speaker": "Unknown",
+  "en": "right? All the big legacy systems,",
+  "zh": "对吧？所有的大型遗留系统，"
+ },
+ {
+  "seg": 499,
+  "start": 1652.52,
+  "end": 1653.8,
+  "speaker": "Unknown",
+  "en": "right? They're not necessarily",
+  "zh": "对吧？它们不一定"
+ },
+ {
+  "seg": 500,
+  "start": 1653.8,
+  "end": 1657.4,
+  "speaker": "Unknown",
+  "en": "necessarily the nicest in the nicest shape, but they're there",
+  "zh": "不一定处于最好的形状或最好的状态,但它们存在"
+ },
+ {
+  "seg": 501,
+  "start": 1657.4,
+  "end": 1659.64,
+  "speaker": "Unknown",
+  "en": "for a reason, right? They run, they run, they",
+  "zh": "是有原因的,对吧?它们运行,它们运行,它们"
+ },
+ {
+  "seg": 502,
+  "start": 1659.64,
+  "end": 1662.84,
+  "speaker": "Unknown",
+  "en": "survived. So I'm not sure if you ever",
+  "zh": "存活下来。所以我不确定你是否"
+ },
+ {
+  "seg": 503,
+  "start": 1662.84,
+  "end": 1670.24,
+  "speaker": "Unknown",
+  "en": "heard of the stuff from Barry O'Reilly, it's called we'll get",
+  "zh": "听过 Barry O'Reilly 的东西,它叫作反正我们也会"
+ },
+ {
+  "seg": 504,
+  "start": 1670.24,
+  "end": 1673.8,
+  "speaker": "Unknown",
+  "en": "to it anyway. What what he says.",
+  "zh": "谈到它。他说的什么。"
+ },
+ {
+  "seg": 505,
+  "start": 1673.8,
+  "end": 1682.6,
+  "speaker": "Unknown",
+  "en": "He is sort of a very, I think different and innovative view, I",
+  "zh": "他是一种非常,我认为不同且创新的看法,我"
+ },
+ {
+  "seg": 506,
+  "start": 1682.6,
+  "end": 1684.8,
+  "speaker": "Unknown",
+  "en": "think on how architecture should work.",
+  "zh": "认为是关于架构应该如何工作的。"
+ },
+ {
+  "seg": 507,
+  "start": 1685.48,
+  "end": 1690.4,
+  "speaker": "Unknown",
+  "en": "They're very different from what's currently mainstream and",
+  "zh": "它们与当前主流非常不同,并且"
+ },
+ {
+  "seg": 508,
+  "start": 1691.92,
+  "end": 1695.96,
+  "speaker": "Unknown",
+  "en": "essentially says it's really hard to predict our system will",
+  "zh": "本质上说的是很难预测我们的系统将"
+ },
+ {
+  "seg": 509,
+  "start": 1695.96,
+  "end": 1698.36,
+  "speaker": "Unknown",
+  "en": "evolve. We can't predict the future and",
+  "zh": "演变。我们无法预测未来,而且"
+ },
+ {
+  "seg": 510,
+  "start": 1698.36,
+  "end": 1702.92,
+  "speaker": "Unknown",
+  "en": "we don't can't predict what's going to happen with a system a",
+  "zh": "我们不能无法预测系统在"
+ },
+ {
+  "seg": 511,
+  "start": 1703.52,
+  "end": 1707.8,
+  "speaker": "Unknown",
+  "en": "year from now or next week. Even if you wanted to survive,",
+  "zh": "一年后或下周会发生什么。即使你想存活,"
+ },
+ {
+  "seg": 512,
+  "start": 1708.36,
+  "end": 1711.4,
+  "speaker": "Unknown",
+  "en": "We need to create elements that will allow it to survive.",
+  "zh": "我们需要创建能让它存活的元素。"
+ },
+ {
+  "seg": 513,
+  "start": 1711.88,
+  "end": 1715.88,
+  "speaker": "Unknown",
+  "en": "And his theory, so he's been studying on the stuff and, and",
+  "zh": "他的理论,所以他一直在研究这些东西,并且 [[514] 就此做了精彩的演讲。所以他的理论是你某种程度上"
+ },
+ {
+  "seg": 514,
+  "start": 1716.08,
+  "end": 1720.76,
+  "speaker": "Unknown",
+  "en": "doing excellent talks on it. So his theory is on you sort of",
+  "zh": "做了关于它的精彩演讲。所以他的理论是关于你那种"
+ },
+ {
+  "seg": 515,
+  "start": 1720.76,
+  "end": 1724.28,
+  "speaker": "Unknown",
+  "en": "try to create a random simulation of just throwing",
+  "zh": "试着创建一个随机模拟,只是把"
+ },
+ {
+  "seg": 516,
+  "start": 1725.4,
+  "end": 1727.24,
+  "speaker": "Unknown",
+  "en": "stuff that could break the system at it.",
+  "zh": "可能破坏系统的东西扔给它。"
+ },
+ {
+  "seg": 517,
+  "start": 1728.08,
+  "end": 1731.28,
+  "speaker": "Unknown",
+  "en": "See what the effect is, and then come up with some component you",
+  "zh": "看看效果是什么,然后想出一些你可以"
+ },
+ {
+  "seg": 518,
+  "start": 1731.28,
+  "end": 1736.44,
+  "speaker": "Unknown",
+  "en": "can add to the system to make it be able to survive that that",
+  "zh": "添加到系统中的组件,让它能够存活那个那个"
+ },
+ {
+  "seg": 519,
+  "start": 1736.44,
+  "end": 1738.92,
+  "speaker": "Unknown",
+  "en": "issue, right? Or that that challenge that you",
+  "zh": "问题,对吧?或者那个你"
+ },
+ {
+  "seg": 520,
+  "start": 1740.08,
+  "end": 1742.52,
+  "speaker": "Unknown",
+  "en": "send it. So he calls it stressors.",
+  "zh": "发给它的挑战。所以他称之为压力源。"
+ },
+ {
+  "seg": 521,
+  "start": 1743.2,
+  "end": 1749.24,
+  "speaker": "Unknown",
+  "en": "And then the theory is that the theory is that there's only so",
+  "zh": "理论是这个理论是系统最终只能处于"
+ },
+ {
+  "seg": 522,
+  "start": 1749.24,
+  "end": 1753.56,
+  "speaker": "Unknown",
+  "en": "many positions that a system can end up in that that are going to",
+  "zh": "这么多的位置,这些位置将是"
+ },
+ {
+  "seg": 523,
+  "start": 1753.56,
+  "end": 1756.2,
+  "speaker": "Unknown",
+  "en": "be stable. There's a lot of like infinite",
+  "zh": "稳定的。有很多像无限"
+ },
+ {
+  "seg": 524,
+  "start": 1756.2,
+  "end": 1759.6,
+  "speaker": "Unknown",
+  "en": "number of possible positions that it could end up with, but a",
+  "zh": "种可能的最终位置,但"
+ },
+ {
+  "seg": 525,
+  "start": 1759.6,
+  "end": 1762.16,
+  "speaker": "Unknown",
+  "en": "lot of them are going to be unstable and it will fail.",
+  "zh": "很多将是不稳定的,它会失败。"
+ },
+ {
+  "seg": 526,
+  "start": 1762.16,
+  "end": 1767.68,
+  "speaker": "Unknown",
+  "en": "It won't survive, but there's going to be some that will",
+  "zh": "它不会存活,但会有一些会"
+ },
+ {
+  "seg": 527,
+  "start": 1767.68,
+  "end": 1770.52,
+  "speaker": "Unknown",
+  "en": "survive. And those are very sort of",
+  "zh": "存活。那些是非常某种程度上"
+ },
+ {
+  "seg": 528,
+  "start": 1771.96,
+  "end": 1774.08,
+  "speaker": "Unknown",
+  "en": "almost independent of the stuff you throw at it.",
+  "zh": "几乎独立于你扔给它的东西。"
+ },
+ {
+  "seg": 529,
+  "start": 1774.64,
+  "end": 1778.84,
+  "speaker": "Unknown",
+  "en": "If you throw enough weird random stuff at it, you'll arrive at",
+  "zh": "如果你扔给它足够多奇怪的随机东西,你会到达"
+ },
+ {
+  "seg": 530,
+  "start": 1779.04,
+  "end": 1781.56,
+  "speaker": "Unknown",
+  "en": "this unique point where it will survive.",
+  "zh": "这个它将存活的独特点。"
+ },
+ {
+  "seg": 531,
+  "start": 1781.72,
+  "end": 1784.64,
+  "speaker": "Unknown",
+  "en": "And if you throw something really weird else at it, there's",
+  "zh": "如果你扔给它其他真正奇怪的东西,就会有"
+ },
+ {
+  "seg": 532,
+  "start": 1784.88,
+  "end": 1788.28,
+  "speaker": "Unknown",
+  "en": "going to be so many components that make it survivable.",
+  "zh": "很多组件使其可存活。"
+ },
+ {
+  "seg": 533,
+  "start": 1788.6,
+  "end": 1790.8,
+  "speaker": "Unknown",
+  "en": "It will survive that weird thing as well.",
+  "zh": "它也能在那个奇怪的东西中存活。"
+ },
+ {
+  "seg": 534,
+  "start": 1791.84,
+  "end": 1794.6,
+  "speaker": "Unknown",
+  "en": "So it has the fire breathing lizards example.",
+  "zh": "所以它有喷火蜥蜴的例子。"
+ },
+ {
+  "seg": 535,
+  "start": 1794.6,
+  "end": 1797.68,
+  "speaker": "Unknown",
+  "en": "Like if you what if you have fire breathing lasers in your",
+  "zh": "就像如果你如果你的数据中心里有喷火激光器,"
+ },
+ {
+  "seg": 536,
+  "start": 1797.68,
+  "end": 1799.36,
+  "speaker": "Unknown",
+  "en": "data centre, will your system survive?",
+  "zh": "你的系统能存活吗?"
+ },
+ {
+  "seg": 537,
+  "start": 1799.76,
+  "end": 1806.56,
+  "speaker": "Unknown",
+  "en": "So what do you need do you need to do to cope with that and all",
+  "zh": "所以你需要做什么来应对那个以及所有"
+ },
+ {
+  "seg": 538,
+  "start": 1806.56,
+  "end": 1811.68,
+  "speaker": "Unknown",
+  "en": "sort of really random stuff. And if you look into it, it like",
+  "zh": "各种真正随机的东西。如果你深入研究它,它就像"
+ },
+ {
+  "seg": 539,
+  "start": 1811.68,
+  "end": 1813.8,
+  "speaker": "Unknown",
+  "en": "the stuff that comes out of these kind of sessions.",
+  "zh": "从这类会议中产生的东西。"
+ },
+ {
+  "seg": 540,
+  "start": 1813.8,
+  "end": 1817.68,
+  "speaker": "Unknown",
+  "en": "If you look at it this way, it's, it's really amazing how",
+  "zh": "如果你从这个角度看,它是,它是真的很神奇你能"
+ },
+ {
+  "seg": 541,
+  "start": 1817.68,
+  "end": 1820.52,
+  "speaker": "Unknown",
+  "en": "much weird stuff you can throw at it where it will survive.",
+  "zh": "扔多少奇怪的东西给它而它还能存活。"
+ },
+ {
+  "seg": 542,
+  "start": 1820.84,
+  "end": 1827.24,
+  "speaker": "Unknown",
+  "en": "So what does the system need to have to survive or a right to to",
+  "zh": "所以系统需要具备什么才能存活或者有权利"
+ },
+ {
+  "seg": 543,
+  "start": 1827.24,
+  "end": 1831.32,
+  "speaker": "Unknown",
+  "en": "be successful? Yeah, look at those legacy",
+  "zh": "成功?是的,看看那些遗留"
+ },
+ {
+  "seg": 544,
+  "start": 1831.32,
+  "end": 1832.96,
+  "speaker": "Unknown",
+  "en": "systems. Appreciate them a little bit",
+  "zh": "系统。多欣赏它们一点,"
+ },
+ {
+  "seg": 545,
+  "start": 1832.96,
+  "end": 1836.04,
+  "speaker": "Unknown",
+  "en": "more, even though I don't like necessarily working on them.",
+  "zh": "即使我不一定喜欢在上面工作。"
+ },
+ {
+  "seg": 546,
+  "start": 1836.04,
+  "end": 1841.72,
+  "speaker": "Unknown",
+  "en": "Like Greenfield's much nicer until you make it your own",
+  "zh": "就像 Greenfield 更好,直到你把它变成你自己的"
+ },
+ {
+  "seg": 547,
+  "start": 1841.72,
+  "end": 1848.28,
+  "speaker": "Unknown",
+  "en": "legacy, right. I've been there, right?",
+  "zh": "遗留系统,对吧。我经历过,对吧?"
+ },
+ {
+  "seg": 548,
+  "start": 1848.28,
+  "end": 1850.8,
+  "speaker": "Unknown",
+  "en": "There must be something in those systems that's helping them",
+  "zh": "那些系统中一定有什么东西在帮助它们"
+ },
+ {
+  "seg": 549,
+  "start": 1850.8,
+  "end": 1853.16,
+  "speaker": "Unknown",
+  "en": "survive, even though they're not perfect.",
+  "zh": "存活,即使它们并不完美。"
+ },
+ {
+  "seg": 550,
+  "start": 1853.68,
+  "end": 1859.28,
+  "speaker": "Unknown",
+  "en": "And then my approach is usually to find that and then also to",
+  "zh": "然后我的方法通常是找到那个，然后也"
+ },
+ {
+  "seg": 551,
+  "start": 1860.04,
+  "end": 1863.2,
+  "speaker": "Unknown",
+  "en": "try to think of more things that we could throw at it and find",
+  "zh": "试着想出更多我们可以扔给它的东西，并找出"
+ },
+ {
+  "seg": 552,
+  "start": 1863.2,
+  "end": 1866.4,
+  "speaker": "Unknown",
+  "en": "ways that it could break and then make sure that it's, it's",
+  "zh": "它可能崩溃的方法，然后确保它是，它是"
+ },
+ {
+  "seg": 553,
+  "start": 1866.4,
+  "end": 1869.56,
+  "speaker": "Unknown",
+  "en": "more survivable after we after I'm I'm gone, right?",
+  "zh": "在我们……在我……离开后更具有生存能力，对吧？"
+ },
+ {
+  "seg": 554,
+  "start": 1870.76,
+  "end": 1873.76,
+  "speaker": "Unknown",
+  "en": "And that may be stuff like technical components, right,",
+  "zh": "这可能是一些技术组件之类的东西，对吧，"
+ },
+ {
+  "seg": 555,
+  "start": 1873.76,
+  "end": 1876.48,
+  "speaker": "Unknown",
+  "en": "that you need to add. But I think in a lot of cases",
+  "zh": "你需要添加的。但我认为在很多情况下"
+ },
+ {
+  "seg": 556,
+  "start": 1876.48,
+  "end": 1879.48,
+  "speaker": "Unknown",
+  "en": "it's knowledge that you need to add some knowledge about how it",
+  "zh": "是你需要添加的知识，一些关于它是如何工作的知识"
+ },
+ {
+  "seg": 557,
+  "start": 1879.48,
+  "end": 1883.68,
+  "speaker": "Unknown",
+  "en": "works and not just the knowledge that you write down.",
+  "zh": "而不仅仅是你写下来的知识。"
+ },
+ {
+  "seg": 558,
+  "start": 1883.68,
+  "end": 1887.68,
+  "speaker": "Unknown",
+  "en": "So the test that you write or the documentation rewrite.",
+  "zh": "所以你写的测试或者重写的文档。"
+ },
+ {
+  "seg": 559,
+  "start": 1887.68,
+  "end": 1891.88,
+  "speaker": "Unknown",
+  "en": "And I don't do too much of that, but especially I think the",
+  "zh": "我不会做太多那种事情，但尤其是我认为"
+ },
+ {
+  "seg": 560,
+  "start": 1891.88,
+  "end": 1898.4,
+  "speaker": "Unknown",
+  "en": "knowledge in the, the minds of the teams usually like when you",
+  "zh": "团队脑子里的知识，通常就像当你"
+ },
+ {
+  "seg": 561,
+  "start": 1898.4,
+  "end": 1902.48,
+  "speaker": "Unknown",
+  "en": "look at a system and, and it becomes legacy.",
+  "zh": "看着一个系统，并且……它变成遗留系统时。"
+ },
+ {
+  "seg": 562,
+  "start": 1902.48,
+  "end": 1904.32,
+  "speaker": "Unknown",
+  "en": "So what's the reason it will become legacy?",
+  "zh": "那么它变成遗留系统的原因是什么？"
+ },
+ {
+  "seg": 563,
+  "start": 1905.48,
+  "end": 1906.68,
+  "speaker": "Unknown",
+  "en": "You and I. Yeah.",
+  "zh": "你和我。是的。"
+ },
+ {
+  "seg": 564,
+  "start": 1907.16,
+  "end": 1909.84,
+  "speaker": "Unknown",
+  "en": "So what do you would you think that a system would make a",
+  "zh": "那么你会……你会认为是什么让一个"
+ },
+ {
+  "seg": 565,
+  "start": 1909.84,
+  "end": 1912.32,
+  "speaker": "Unknown",
+  "en": "system legacy? I don't know what makes a system",
+  "zh": "系统成为遗留系统？我不知道是什么让一个系统"
+ },
+ {
+  "seg": 566,
+  "start": 1912.32,
+  "end": 1916.96,
+  "speaker": "Unknown",
+  "en": "legacy, but one of my theories is the reason why maybe how a",
+  "zh": "成为遗留系统，但我的理论之一是原因，也许一个系统是"
+ },
+ {
+  "seg": 567,
+  "start": 1916.96,
+  "end": 1919.96,
+  "speaker": "Unknown",
+  "en": "system is designed and what we now call legacy, the systems we",
+  "zh": "如何设计的，以及我们现在所谓的遗留，那些我们"
+ },
+ {
+  "seg": 568,
+  "start": 1919.96,
+  "end": 1922.96,
+  "speaker": "Unknown",
+  "en": "don't really want to work in, they are running and they have",
+  "zh": "真的不想在其中工作的系统，它们正在运行并且它们"
+ },
+ {
+  "seg": 569,
+  "start": 1922.96,
+  "end": 1925.84,
+  "speaker": "Unknown",
+  "en": "solved the problem and they might not be at a stage where",
+  "zh": "已经解决了问题，它们可能还没有处于 [[570】 像绿地项目那样可以快速演变的阶段，但是"
+ },
+ {
+  "seg": 570,
+  "start": 1925.84,
+  "end": 1930.24,
+  "speaker": "Unknown",
+  "en": "they are evolvable as quickly as Greenfield projects, but the",
+  "zh": "它们像 Greenfield 项目一样可快速演进，但是"
+ },
+ {
+  "seg": 571,
+  "start": 1930.24,
+  "end": 1933.32,
+  "speaker": "Unknown",
+  "en": "fact that they have, they prove value.",
+  "zh": "它们已经……它们证明了价值这一事实。"
+ },
+ {
+  "seg": 572,
+  "start": 1933.32,
+  "end": 1935.68,
+  "speaker": "Unknown",
+  "en": "Otherwise we wouldn't run and maintain them in production.",
+  "zh": "否则我们就不会在生产环境中运行和维护它们。"
+ },
+ {
+  "seg": 573,
+  "start": 1936.56,
+  "end": 1940.36,
+  "speaker": "Unknown",
+  "en": "That's kind of their right of passage, that's their right of",
+  "zh": "这有点像是它们的通过仪式，那是它们的"
+ },
+ {
+  "seg": 574,
+  "start": 1940.36,
+  "end": 1942,
+  "speaker": "Unknown",
+  "en": "existence. That's why we still have them.",
+  "zh": "存在权利。这就是我们仍然保留它们的原因。"
+ },
+ {
+  "seg": 575,
+  "start": 1942,
+  "end": 1944.56,
+  "speaker": "Unknown",
+  "en": "If they were not delivering value, then we don't need the",
+  "zh": "如果它们不交付价值，那么我们就不需要这些"
+ },
+ {
+  "seg": 576,
+  "start": 1944.56,
+  "end": 1947.28,
+  "speaker": "Unknown",
+  "en": "systems. We would shut it down in the",
+  "zh": "系统。我们最终会把它关闭。"
+ },
+ {
+  "seg": 577,
+  "start": 1947.28,
+  "end": 1949.48,
+  "speaker": "Unknown",
+  "en": "end. That for me is quite interesting",
+  "zh": "这对我来说非常有趣"
+ },
+ {
+  "seg": 578,
+  "start": 1949.48,
+  "end": 1953.44,
+  "speaker": "Unknown",
+  "en": "because if that assumption, if that theory holds true, then the",
+  "zh": "因为如果那个假设，如果那个理论成立，那么"
+ },
+ {
+  "seg": 579,
+  "start": 1953.44,
+  "end": 1957,
+  "speaker": "Unknown",
+  "en": "way we get to that, regardless of what you choose kind of early",
+  "zh": "我们达到那一点的方式，无论你在早期项目开始时"
+ },
+ {
+  "seg": 580,
+  "start": 1957.8,
+  "end": 1960.52,
+  "speaker": "Unknown",
+  "en": "in early stage projects, you need to get to a point where you",
+  "zh": "选择什么，你需要达到一个你"
+ },
+ {
+  "seg": 581,
+  "start": 1960.52,
+  "end": 1963.12,
+  "speaker": "Unknown",
+  "en": "deliver value, where you have proven value.",
+  "zh": "交付价值，你有已证明价值的点。"
+ },
+ {
+  "seg": 582,
+  "start": 1963.72,
+  "end": 1967.2,
+  "speaker": "Unknown",
+  "en": "And then it's a stage of, OK, how evolvable is the system and",
+  "zh": "然后这是一个阶段，好的，系统的可演变性如何，以及"
+ },
+ {
+  "seg": 583,
+  "start": 1967.2,
+  "end": 1969.96,
+  "speaker": "Unknown",
+  "en": "how much do we want to evolve it to continuously add revenue.",
+  "zh": "我们想要多大程度地演变它以持续增加收入。"
+ },
+ {
+  "seg": 584,
+  "start": 1970.32,
+  "end": 1973.08,
+  "speaker": "Unknown",
+  "en": "That for me is kind of the balance in how you design",
+  "zh": "这对我来说就是设计系统时的那种平衡。"
+ },
+ {
+  "seg": 585,
+  "start": 1973.08,
+  "end": 1978.32,
+  "speaker": "Unknown",
+  "en": "systems. So you you put the hammer on the",
+  "zh": "所以你……你把锤子敲在了"
+ },
+ {
+  "seg": 586,
+  "start": 1978.32,
+  "end": 1981.44,
+  "speaker": "Unknown",
+  "en": "nail, right? So evolvability is a key aspect,",
+  "zh": "钉子上，对吧？所以可演变性是一个关键方面，"
+ },
+ {
+  "seg": 587,
+  "start": 1981.44,
+  "end": 1984.08,
+  "speaker": "Unknown",
+  "en": "right. So when a system becomes",
+  "zh": "对吧。所以当一个系统变成"
+ },
+ {
+  "seg": 588,
+  "start": 1984.08,
+  "end": 1988.28,
+  "speaker": "Unknown",
+  "en": "legacies because we we don't like, it becomes hard to change",
+  "zh": "遗留系统是因为我们……我们不喜欢，它变得难以"
+ },
+ {
+  "seg": 589,
+  "start": 1988.28,
+  "end": 1990.6,
+  "speaker": "Unknown",
+  "en": "it, right? We don't like working in it.",
+  "zh": "改变，对吧？我们不喜欢在其中工作。"
+ },
+ {
+  "seg": 590,
+  "start": 1991.28,
+  "end": 1993.32,
+  "speaker": "Unknown",
+  "en": "And it's sometimes because we don't understand it because the",
+  "zh": "有时是因为我们不理解它，因为"
+ },
+ {
+  "seg": 591,
+  "start": 1993.32,
+  "end": 1999.68,
+  "speaker": "Unknown",
+  "en": "code is someone else's code is because fixing bugs is super",
+  "zh": "代码是别人的代码，是因为修复错误非常"
+ },
+ {
+  "seg": 592,
+  "start": 1999.68,
+  "end": 2006.04,
+  "speaker": "Unknown",
+  "en": "hard because you don't don't understand how it works, right?",
+  "zh": "困难，因为你……你不理解它是如何工作的，对吧？"
+ },
+ {
+  "seg": 593,
+  "start": 2006.04,
+  "end": 2009.24,
+  "speaker": "Unknown",
+  "en": "Software, you already heard in the, in the word, it's software,",
+  "zh": "软件，你已经在这个……这个词里听到了，它是软件，"
+ },
+ {
+  "seg": 594,
+  "start": 2009.24,
+  "end": 2012.48,
+  "speaker": "Unknown",
+  "en": "It's not hardware, it's soft, it's flexible or supposed to be",
+  "zh": "它不是硬件，它是软的，它是灵活的或者说是应该是"
+ },
+ {
+  "seg": 595,
+  "start": 2012.48,
+  "end": 2017.88,
+  "speaker": "Unknown",
+  "en": "flexible, right? And that's why a lot of the",
+  "zh": "灵活的，对吧？这就是为什么很多关于"
+ },
+ {
+  "seg": 596,
+  "start": 2017.88,
+  "end": 2021.76,
+  "speaker": "Unknown",
+  "en": "stuff on DDD and code quality, it's all about improving the",
+  "zh": "DDD 和代码质量的东西，都是为了改进"
+ },
+ {
+  "seg": 597,
+  "start": 2021.76,
+  "end": 2024.44,
+  "speaker": "Unknown",
+  "en": "code to be more readable, to be more understandable, to be",
+  "zh": "代码使其更具可读性，更易于理解，"
+ },
+ {
+  "seg": 598,
+  "start": 2024.44,
+  "end": 2028.36,
+  "speaker": "Unknown",
+  "en": "commutative, to allow the system to evolve.",
+  "zh": "可交换，以允许系统演变。"
+ },
+ {
+  "seg": 599,
+  "start": 2028.56,
+  "end": 2032.6,
+  "speaker": "Unknown",
+  "en": "I think in the end, like the, the, the biggest ground",
+  "zh": "我认为在最后，像……这个……这个最大的基础"
+ },
+ {
+  "seg": 600,
+  "start": 2032.6,
+  "end": 2035.2,
+  "speaker": "Unknown",
+  "en": "principle behind all these things is making systems that",
+  "zh": "所有这些事物背后的原则是构建系统能够"
+ },
+ {
+  "seg": 601,
+  "start": 2035.2,
+  "end": 2038.84,
+  "speaker": "Unknown",
+  "en": "are evolvable and easy to change.",
+  "zh": "可演进且易于变更。"
+ },
+ {
+  "seg": 602,
+  "start": 2039,
+  "end": 2043.92,
+  "speaker": "Unknown",
+  "en": "So how often do you have a software system where you don't",
+  "zh": "那么你多久会有一个不需要"
+ },
+ {
+  "seg": 603,
+  "start": 2043.92,
+  "end": 2048,
+  "speaker": "Unknown",
+  "en": "need to change anything, right? I mean, adding new features",
+  "zh": "做任何更改的软件系统，对吧？我的意思是，添加新功能"
+ },
+ {
+  "seg": 604,
+  "start": 2048,
+  "end": 2050.199,
+  "speaker": "Unknown",
+  "en": "maybe at some point becomes less, but you still need to be",
+  "zh": "也许在某个时候会变少，但你仍然需要"
+ },
+ {
+  "seg": 605,
+  "start": 2050.199,
+  "end": 2053.4,
+  "speaker": "Unknown",
+  "en": "able to fix bugs because there's going to be bugs, there's going",
+  "zh": "能够修复 bug，因为会有 bug，会有"
+ },
+ {
+  "seg": 606,
+  "start": 2053.4,
+  "end": 2057.96,
+  "speaker": "Unknown",
+  "en": "to be stuff that goes wrong, but also the world around the",
+  "zh": "出错的事情，而且系统周围的世界，"
+ },
+ {
+  "seg": 607,
+  "start": 2057.96,
+  "end": 2061.04,
+  "speaker": "Unknown",
+  "en": "system, the organization around the system will evolve and",
+  "zh": "系统周围的组织也会演进"
+ },
+ {
+  "seg": 608,
+  "start": 2061.04,
+  "end": 2063.76,
+  "speaker": "Unknown",
+  "en": "change. So if the system stays the same",
+  "zh": "和变化。所以如果系统保持"
+ },
+ {
+  "seg": 609,
+  "start": 2063.76,
+  "end": 2067.76,
+  "speaker": "Unknown",
+  "en": "way as it is and is unable to evolve with the organization",
+  "zh": "原样且无法随其周围的组织"
+ },
+ {
+  "seg": 610,
+  "start": 2067.76,
+  "end": 2071.08,
+  "speaker": "Unknown",
+  "en": "around it, it become less and less valuable, right.",
+  "zh": "一起演进，它的价值就会变得越来越低，对吧。"
+ },
+ {
+  "seg": 611,
+  "start": 2071.08,
+  "end": 2074,
+  "speaker": "Unknown",
+  "en": "So you say exactly that the value, how the system is",
+  "zh": "所以你确切地说，价值，系统如何"
+ },
+ {
+  "seg": 612,
+  "start": 2074,
+  "end": 2077.6,
+  "speaker": "Unknown",
+  "en": "valuable, what that value, how valuable it is will diminish",
+  "zh": "有价值，那个价值，它有多有价值，将随着"
+ },
+ {
+  "seg": 613,
+  "start": 2077.6,
+  "end": 2082.84,
+  "speaker": "Unknown",
+  "en": "over time if it stands still. So evolvability is the key.",
+  "zh": "时间推移而减少，如果它停滞不前的话。所以可演进性是关键。"
+ },
+ {
+  "seg": 614,
+  "start": 2083.159,
+  "end": 2089.56,
+  "speaker": "Unknown",
+  "en": "And I think what we what we look at things like quality,",
+  "zh": "我认为当我们审视质量、"
+ },
+ {
+  "seg": 615,
+  "start": 2089.56,
+  "end": 2092,
+  "speaker": "Unknown",
+  "en": "modularity, all those kind of things.",
+  "zh": "模块化以及所有这类事情时。"
+ },
+ {
+  "seg": 616,
+  "start": 2094.32,
+  "end": 2097.2,
+  "speaker": "Unknown",
+  "en": "And in my opinion, something that's really overlooked a lot",
+  "zh": "在我看来，有些东西真的经常被忽视，"
+ },
+ {
+  "seg": 617,
+  "start": 2097.2,
+  "end": 2099.44,
+  "speaker": "Unknown",
+  "en": "is this knowledge aspect, right? And then especially the",
+  "zh": "就是这个知识方面，对吧？尤其是"
+ },
+ {
+  "seg": 618,
+  "start": 2099.44,
+  "end": 2103.84,
+  "speaker": "Unknown",
+  "en": "knowledge in people's heads. So how much of A theory do you",
+  "zh": "人们头脑中的知识。那么你对事物如何运作有多少"
+ },
+ {
+  "seg": 619,
+  "start": 2103.84,
+  "end": 2109.52,
+  "speaker": "Unknown",
+  "en": "have ready on how things work? If you, if you worked on a",
+  "zh": "A 理论准备就绪？如果你，如果你在一个"
+ },
+ {
+  "seg": 620,
+  "start": 2109.52,
+  "end": 2113.6,
+  "speaker": "Unknown",
+  "en": "system very long, right, you know every corner of it, maybe",
+  "zh": "系统上工作了很长时间，对吧，你知道它的每一个角落，也许"
+ },
+ {
+  "seg": 621,
+  "start": 2113.6,
+  "end": 2116.4,
+  "speaker": "Unknown",
+  "en": "not maybe you know a few corners, right, But you know,",
+  "zh": "不是也许你知道几个角落，对吧，但你知道， [[622] ] 通常它的结构是如何的。你知道它的，它的粗略"
+ },
+ {
+  "seg": 622,
+  "start": 2116.4,
+  "end": 2119.8,
+  "speaker": "Unknown",
+  "en": "generally how it's structured. You know, it's, it's rough",
+  "zh": "通常它的结构是如何的。你知道，它是，它是粗糙的"
+ },
+ {
+  "seg": 623,
+  "start": 2119.8,
+  "end": 2122.88,
+  "speaker": "Unknown",
+  "en": "architecture, you know, if something breaks roughly where",
+  "zh": "架构，你知道，如果出问题了，大概"
+ },
+ {
+  "seg": 624,
+  "start": 2122.88,
+  "end": 2130.04,
+  "speaker": "Unknown",
+  "en": "it's going to be broken. And there's really nice story",
+  "zh": "问题会出在哪里。有一个非常好的故事"
+ },
+ {
+  "seg": 625,
+  "start": 2130.04,
+  "end": 2132.28,
+  "speaker": "Unknown",
+  "en": "on, on this is not something new, right?",
+  "zh": "关于此，这并不是什么新鲜事，对吧？"
+ },
+ {
+  "seg": 626,
+  "start": 2132.28,
+  "end": 2134.04,
+  "speaker": "Unknown",
+  "en": "We've known this as an industry for very long.",
+  "zh": "我们作为一个行业已经知道这个很久了。"
+ },
+ {
+  "seg": 627,
+  "start": 2134.04,
+  "end": 2138.2,
+  "speaker": "Unknown",
+  "en": "And there's a guy called piece an hour who in the, I think",
+  "zh": "有个叫 piece an hour 的人，我想"
+ },
+ {
+  "seg": 628,
+  "start": 2138.2,
+  "end": 2144.44,
+  "speaker": "Unknown",
+  "en": "1985, he wrote a piece on programming theory building.",
+  "zh": "在 1985 年，他写了一篇关于编程理论构建的文章。"
+ },
+ {
+  "seg": 629,
+  "start": 2145.12,
+  "end": 2149,
+  "speaker": "Unknown",
+  "en": "And he expressed exactly this, like the fact that if you look",
+  "zh": "他确切地表达了这一点，就像这样一个事实：如果你看"
+ },
+ {
+  "seg": 630,
+  "start": 2149,
+  "end": 2152.72,
+  "speaker": "Unknown",
+  "en": "at how we look at software and the, the view back then was more",
+  "zh": "我们如何看软件，当时的观点更像是"
+ },
+ {
+  "seg": 631,
+  "start": 2152.72,
+  "end": 2157.2,
+  "speaker": "Unknown",
+  "en": "like the production view. Like we have specifications",
+  "zh": "生产观点。就像我们有规格说明书"
+ },
+ {
+  "seg": 632,
+  "start": 2157.2,
+  "end": 2160.16,
+  "speaker": "Unknown",
+  "en": "going in and then we have programmers, which is like the",
+  "zh": "输进去，然后我们有程序员，这就像是"
+ },
+ {
+  "seg": 633,
+  "start": 2160.16,
+  "end": 2164.76,
+  "speaker": "Unknown",
+  "en": "cogs in the machine and then outcomes code and then we can",
+  "zh": "机器中的齿轮，然后产出代码，然后我们可以"
+ },
+ {
+  "seg": 634,
+  "start": 2164.76,
+  "end": 2166.52,
+  "speaker": "Unknown",
+  "en": "run it. And then that's it, right?",
+  "zh": "运行它。就这样，对吧？"
+ },
+ {
+  "seg": 635,
+  "start": 2166.96,
+  "end": 2168.92,
+  "speaker": "Unknown",
+  "en": "That's how the software production machine works.",
+  "zh": "这就是软件生产机器的工作方式。"
+ },
+ {
+  "seg": 636,
+  "start": 2169.64,
+  "end": 2171.8,
+  "speaker": "Unknown",
+  "en": "And I think we still have a lot of feature factories today.",
+  "zh": "我认为我们今天仍然有很多功能工厂。"
+ },
+ {
+  "seg": 637,
+  "start": 2172.16,
+  "end": 2175.64,
+  "speaker": "Unknown",
+  "en": "So sadly that's still how our industry works.",
+  "zh": "所以遗憾的是，这仍然是我们行业的运作方式。"
+ },
+ {
+  "seg": 638,
+  "start": 2178.72,
+  "end": 2182.32,
+  "speaker": "Unknown",
+  "en": "What now are noticed is that if you looked at actual projects",
+  "zh": "现在注意到的是，如果你看实际的项目，"
+ },
+ {
+  "seg": 639,
+  "start": 2182.76,
+  "end": 2186.84,
+  "speaker": "Unknown",
+  "en": "that the real world didn't seem to work or match with that",
+  "zh": "真实世界似乎并不符合或匹配那个"
+ },
+ {
+  "seg": 640,
+  "start": 2186.84,
+  "end": 2192.24,
+  "speaker": "Unknown",
+  "en": "production view. Like if a like you saw a system",
+  "zh": "生产观点。就像如果你看到一个"
+ },
+ {
+  "seg": 641,
+  "start": 2192.24,
+  "end": 2196.12,
+  "speaker": "Unknown",
+  "en": "where there were was a team of like engineers working on the",
+  "zh": "系统，有一个工程师团队在日复一日"
+ },
+ {
+  "seg": 642,
+  "start": 2196.12,
+  "end": 2201.08,
+  "speaker": "Unknown",
+  "en": "system day in, day out. And then they, it was installed",
+  "zh": "地在这个系统上工作。然后它被安装在"
+ },
+ {
+  "seg": 643,
+  "start": 2201.08,
+  "end": 2204.44,
+  "speaker": "Unknown",
+  "en": "at some, some customers and then there was support crews who were",
+  "zh": "某些客户那里，然后有支持团队在那里"
+ },
+ {
+  "seg": 644,
+  "start": 2205.04,
+  "end": 2208.8,
+  "speaker": "Unknown",
+  "en": "maintaining it on that location. The support teams, if there was",
+  "zh": "维护它。如果出了什么问题，支持团队从未弄清楚如何修复东西。"
+ },
+ {
+  "seg": 645,
+  "start": 2208.8,
+  "end": 2212.04,
+  "speaker": "Unknown",
+  "en": "something wrong, they never figured out how to fix stuff.",
+  "zh": "他们总是不得不回到核心团队，而核心团队能"
+ },
+ {
+  "seg": 646,
+  "start": 2212.04,
+  "end": 2215.48,
+  "speaker": "Unknown",
+  "en": "They always had to come back to the like core team and they were",
+  "zh": "够总是在 10 分钟内修复它。"
+ },
+ {
+  "seg": 647,
+  "start": 2215.48,
+  "end": 2217.36,
+  "speaker": "Unknown",
+  "en": "able to always fix it in like 10 minutes.",
+  "zh": "所以区别是什么，对吧？因为他们有，两个团队"
+ },
+ {
+  "seg": 648,
+  "start": 2218.4,
+  "end": 2221.76,
+  "speaker": "Unknown",
+  "en": "So what's the difference, right? Because they had like both teams",
+  "zh": "都有访问相同文档的权限，他们有权访问"
+ },
+ {
+  "seg": 649,
+  "start": 2221.76,
+  "end": 2224.24,
+  "speaker": "Unknown",
+  "en": "had access to the same documentation, they had access",
+  "zh": "有权访问相同的文档，他们有权访问"
+ },
+ {
+  "seg": 650,
+  "start": 2224.24,
+  "end": 2227.8,
+  "speaker": "Unknown",
+  "en": "to the source code, like so all the explicit knowledge, the",
+  "zh": "对于源代码,就像所有的显性知识,"
+ },
+ {
+  "seg": 651,
+  "start": 2227.8,
+  "end": 2230.8,
+  "speaker": "Unknown",
+  "en": "stuff that you can write down, that was all there, right?",
+  "zh": "那些你可以写下来的东西,那都在那里,对吧？"
+ },
+ {
+  "seg": 652,
+  "start": 2230.8,
+  "end": 2233.16,
+  "speaker": "Unknown",
+  "en": "There was no difference in that. So that was not the",
+  "zh": "那方面没有区别。所以那不是"
+ },
+ {
+  "seg": 653,
+  "start": 2233.16,
+  "end": 2235.32,
+  "speaker": "Unknown",
+  "en": "differentiating factor. So the code and the",
+  "zh": "区分因素。所以代码和"
+ },
+ {
+  "seg": 654,
+  "start": 2235.32,
+  "end": 2237.96,
+  "speaker": "Unknown",
+  "en": "documentation, the artefacts, the output of this software",
+  "zh": "文档、制品、这个软件的产出"
+ },
+ {
+  "seg": 655,
+  "start": 2238,
+  "end": 2241.68,
+  "speaker": "Unknown",
+  "en": "process was apparently not sufficient to be able to",
+  "zh": "流程显然不足以能够"
+ },
+ {
+  "seg": 656,
+  "start": 2241.68,
+  "end": 2243.72,
+  "speaker": "Unknown",
+  "en": "maintain, evolve and fix stuff, etcetera.",
+  "zh": "维护、演进和修复东西等等。"
+ },
+ {
+  "seg": 657,
+  "start": 2247,
+  "end": 2250,
+  "speaker": "Unknown",
+  "en": "And then on the other hand, the people that had the writing",
+  "zh": "然后另一方面,那些拥有实践"
+ },
+ {
+  "seg": 658,
+  "start": 2250,
+  "end": 2251.72,
+  "speaker": "Unknown",
+  "en": "knowledge, because they worked in it, they had the writing",
+  "zh": "知识的人,因为他们在其中工作,他们拥有实践"
+ },
+ {
+  "seg": 659,
+  "start": 2251.72,
+  "end": 2253.8,
+  "speaker": "Unknown",
+  "en": "knowledge in their brain, the experience.",
+  "zh": "知识在他们的大脑里,那个经验。"
+ },
+ {
+  "seg": 660,
+  "start": 2254.28,
+  "end": 2257.08,
+  "speaker": "Unknown",
+  "en": "So it's like riding a bike. So there's this tested knowledge",
+  "zh": "所以就像骑自行车。所以有这种体验式知识"
+ },
+ {
+  "seg": 661,
+  "start": 2257.08,
+  "end": 2259.4,
+  "speaker": "Unknown",
+  "en": "you when you learn to ride a bike, it's not by reading a",
+  "zh": "当你学习骑自行车时,不是通过读一本"
+ },
+ {
+  "seg": 662,
+  "start": 2259.4,
+  "end": 2262.52,
+  "speaker": "Unknown",
+  "en": "book. It's really hard to learn too",
+  "zh": "书。这也很难学习,太"
+ },
+ {
+  "seg": 663,
+  "start": 2262.52,
+  "end": 2263.56,
+  "speaker": "Unknown",
+  "en": "hard. Write it back.",
+  "zh": "难了。把它写下来。"
+ },
+ {
+  "seg": 664,
+  "start": 2263.8,
+  "end": 2265,
+  "speaker": "Unknown",
+  "en": "It's something you need to experience.",
+  "zh": "这是你需要体验的东西。"
+ },
+ {
+  "seg": 665,
+  "start": 2265.68,
+  "end": 2267.68,
+  "speaker": "Unknown",
+  "en": "You need to get a feel for the balance, right?",
+  "zh": "你需要对平衡有感觉,对吧？"
+ },
+ {
+  "seg": 666,
+  "start": 2267.68,
+  "end": 2272.04,
+  "speaker": "Unknown",
+  "en": "I can tell you just go sit on it, move your legs and then you",
+  "zh": "我可以告诉你只要坐在上面,移动你的腿,然后你"
+ },
+ {
+  "seg": 667,
+  "start": 2272.48,
+  "end": 2275.28,
+  "speaker": "Unknown",
+  "en": "don't move your arms too much. It's just feel the balance,",
+  "zh": "不要过度移动你的手臂。就是感觉平衡,"
+ },
+ {
+  "seg": 668,
+  "start": 2275.28,
+  "end": 2278.24,
+  "speaker": "Unknown",
+  "en": "right? It's you have to get it build up",
+  "zh": "对吧？就是你必须建立"
+ },
+ {
+  "seg": 669,
+  "start": 2278.24,
+  "end": 2279.96,
+  "speaker": "Unknown",
+  "en": "that feeling for that balance, right?",
+  "zh": "那种平衡的感觉,对吧？"
+ },
+ {
+  "seg": 670,
+  "start": 2280.52,
+  "end": 2282.04,
+  "speaker": "Unknown",
+  "en": "So this, that's a, that's a knowledge.",
+  "zh": "所以这,那是一种,那是一种知识。"
+ },
+ {
+  "seg": 671,
+  "start": 2284.52,
+  "end": 2287.52,
+  "speaker": "Unknown",
+  "en": "And as programmers, we build up this kind of tested knowledge",
+  "zh": "作为程序员,我们为我们使用的"
+ },
+ {
+  "seg": 672,
+  "start": 2287.52,
+  "end": 2290.44,
+  "speaker": "Unknown",
+  "en": "for the systems that we work with, for the code that we work",
+  "zh": "系统建立这种体验式知识,对于我们工作的"
+ },
+ {
+  "seg": 673,
+  "start": 2290.44,
+  "end": 2294.76,
+  "speaker": "Unknown",
+  "en": "with. And when you have the knowledge,",
+  "zh": "代码。当你拥有知识时,"
+ },
+ {
+  "seg": 674,
+  "start": 2295.28,
+  "end": 2298.36,
+  "speaker": "Unknown",
+  "en": "fixing a bug somewhere is super easy because you have this ready",
+  "zh": "在某处修复一个 Bug 是非常容易的,因为你有这个现成的"
+ },
+ {
+  "seg": 675,
+  "start": 2298.36,
+  "end": 2302,
+  "speaker": "Unknown",
+  "en": "theory of how things work. So if something doesn't work the",
+  "zh": "关于事物如何运作的理论。所以如果某事没有按照它"
+ },
+ {
+  "seg": 676,
+  "start": 2302,
+  "end": 2304.24,
+  "speaker": "Unknown",
+  "en": "way it's supposed to be, you know, well, it's probably in",
+  "zh": "应该的方式工作,你知道,好吧,它可能在"
+ },
+ {
+  "seg": 677,
+  "start": 2304.24,
+  "end": 2308.08,
+  "speaker": "Unknown",
+  "en": "this area. So this was what now we saw,",
+  "zh": "这个区域。这就是我们现在看到的,"
+ },
+ {
+  "seg": 678,
+  "start": 2308.08,
+  "end": 2310.12,
+  "speaker": "Unknown",
+  "en": "right? That there, there's this",
+  "zh": "对吧？有这种"
+ },
+ {
+  "seg": 679,
+  "start": 2310.4,
+  "end": 2314.16,
+  "speaker": "Unknown",
+  "en": "production view, but the code artefacts just not enough to be",
+  "zh": "生产视图,但代码制品不足以"
+ },
+ {
+  "seg": 680,
+  "start": 2314.16,
+  "end": 2318.88,
+  "speaker": "Unknown",
+  "en": "able to work on a system. You need that theory of the",
+  "zh": "在系统上工作。你需要那个关于"
+ },
+ {
+  "seg": 681,
+  "start": 2318.88,
+  "end": 2323.64,
+  "speaker": "Unknown",
+  "en": "programming theory. Programming is you have to, you",
+  "zh": "编程的理论。编程是你必须,你"
+ },
+ {
+  "seg": 682,
+  "start": 2323.64,
+  "end": 2327.56,
+  "speaker": "Unknown",
+  "en": "have to have built a theory to be able to do this.",
+  "zh": "必须建立理论才能做到这一点。"
+ },
+ {
+  "seg": 683,
+  "start": 2328.36,
+  "end": 2329.52,
+  "speaker": "Unknown",
+  "en": "And the theory lives in your mind.",
+  "zh": "理论存在于你的脑海中。"
+ },
+ {
+  "seg": 684,
+  "start": 2329.52,
+  "end": 2331.68,
+  "speaker": "Unknown",
+  "en": "And it's not something you can say you, you pluck it out and",
+  "zh": "这不是你可以说是你把它拔出来并"
+ },
+ {
+  "seg": 685,
+  "start": 2331.68,
+  "end": 2332.88,
+  "speaker": "Unknown",
+  "en": "you put it in someone else's mind.",
+  "zh": "把它放进别人脑海里的东西。"
+ },
+ {
+  "seg": 686,
+  "start": 2333.44,
+  "end": 2335.4,
+  "speaker": "Unknown",
+  "en": "How do you transfer that? You would transfer that by",
+  "zh": "你如何转移那个？你可以通过"
+ },
+ {
+  "seg": 687,
+  "start": 2335.4,
+  "end": 2337.48,
+  "speaker": "Unknown",
+  "en": "working together on the software, right?",
+  "zh": "一起在软件上工作来转移那个,对吧？"
+ },
+ {
+  "seg": 688,
+  "start": 2337.48,
+  "end": 2340.68,
+  "speaker": "Unknown",
+  "en": "So you have multiple engineers working on the system.",
+  "zh": "所以你有多个工程师在这个系统上工作。"
+ },
+ {
+  "seg": 689,
+  "start": 2341.4,
+  "end": 2344,
+  "speaker": "Unknown",
+  "en": "And when a new guy comes along, he'll have a lot of trouble",
+  "zh": "当一个新人来的时候,他会遇到很多麻烦"
+ },
+ {
+  "seg": 690,
+  "start": 2344.08,
+  "end": 2347.04,
+  "speaker": "Unknown",
+  "en": "figuring out how it works. But if he works in that team for",
+  "zh": "搞清楚它是如何工作的。但如果他在那个团队里工作"
+ },
+ {
+  "seg": 691,
+  "start": 2347.04,
+  "end": 2349.92,
+  "speaker": "Unknown",
+  "en": "a while, you'll learn and you'll pick it up and you'll learn how",
+  "zh": "一段时间,你会学习,你会学会并且你会学习如何"
+ },
+ {
+  "seg": 692,
+  "start": 2350.12,
+  "end": 2352.68,
+  "speaker": "Unknown",
+  "en": "the system works. You get the the details.",
+  "zh": "系统工作。你得到那些细节。"
+ },
+ {
+  "seg": 693,
+  "start": 2352.68,
+  "end": 2355.24,
+  "speaker": "Unknown",
+  "en": "At some point you build up this tested knowledge.",
+  "zh": "在某个点你建立了这种体验式知识。"
+ },
+ {
+  "seg": 694,
+  "start": 2357.2,
+  "end": 2361.76,
+  "speaker": "Unknown",
+  "en": "And we don't really, I don't think we are very aware of that",
+  "zh": "而我们并不真正,我不认为我们非常意识到 [[695] 这是这样工作的,对吧？如果你想到这个理论"
+ },
+ {
+  "seg": 695,
+  "start": 2361.76,
+  "end": 2363.84,
+  "speaker": "Unknown",
+  "en": "this works this way, right? If you think of this theory",
+  "zh": "这是以这种方式工作的，对吧？如果你考虑这个理论"
+ },
+ {
+  "seg": 696,
+  "start": 2363.84,
+  "end": 2366.68,
+  "speaker": "Unknown",
+  "en": "building, it really matches. If I look at all the projects",
+  "zh": "构建,它真的很匹配。如果我看我所有的"
+ },
+ {
+  "seg": 697,
+  "start": 2366.68,
+  "end": 2369.08,
+  "speaker": "Unknown",
+  "en": "that I've been, it matches completely with what I've seen,",
+  "zh": "项目,它完全符合我所见过的,"
+ },
+ {
+  "seg": 698,
+  "start": 2369.72,
+  "end": 2373.76,
+  "speaker": "Unknown",
+  "en": "right? So when I when I heard of the I",
+  "zh": "对吧？所以当我当我听说那个我"
+ },
+ {
+  "seg": 699,
+  "start": 2373.76,
+  "end": 2377.92,
+  "speaker": "Unknown",
+  "en": "only heard of this like 2 years ago, I uncovered that this",
+  "zh": "只在 2 年前听说过这个,我发现这"
+ },
+ {
+  "seg": 700,
+  "start": 2377.92,
+  "end": 2380.56,
+  "speaker": "Unknown",
+  "en": "theory existed and this narrow guy existed, whatever.",
+  "zh": "理论存在，那个狭隘的人也存在，不管怎样。"
+ },
+ {
+  "seg": 701,
+  "start": 2383.2,
+  "end": 2386.2,
+  "speaker": "Unknown",
+  "en": "So it really intrigued me. So I dove into it and tried to",
+  "zh": "所以它真的引起了我的兴趣。所以我深入研究并试图"
+ },
+ {
+  "seg": 702,
+  "start": 2386.2,
+  "end": 2389.24,
+  "speaker": "Unknown",
+  "en": "learn more about it because it matched so much with what I saw",
+  "zh": "更多地了解它，因为它与我周围看到的"
+ },
+ {
+  "seg": 703,
+  "start": 2389.24,
+  "end": 2392.64,
+  "speaker": "Unknown",
+  "en": "around me. And this is like knowledge we've",
+  "zh": "情况非常吻合。这是我们"
+ },
+ {
+  "seg": 704,
+  "start": 2392.64,
+  "end": 2394.44,
+  "speaker": "Unknown",
+  "en": "had for a while and somehow it didn't reach me.",
+  "zh": "拥有一段时间的知识，不知为何它没有传达给我。"
+ },
+ {
+  "seg": 705,
+  "start": 2394.44,
+  "end": 2397.68,
+  "speaker": "Unknown",
+  "en": "I don't know, like there's just so much we know from years back",
+  "zh": "我不知道，就像我们有很多年前的知识"
+ },
+ {
+  "seg": 706,
+  "start": 2397.68,
+  "end": 2399.24,
+  "speaker": "Unknown",
+  "en": "that's still relevant, apparently.",
+  "zh": "显然仍然是有用的。"
+ },
+ {
+  "seg": 707,
+  "start": 2402.12,
+  "end": 2410.12,
+  "speaker": "Unknown",
+  "en": "And yeah, so how do we become aware as a team, right, that",
+  "zh": "是的，所以我们作为一个团队如何意识到，对吧，就是"
+ },
+ {
+  "seg": 708,
+  "start": 2410.12,
+  "end": 2414.16,
+  "speaker": "Unknown",
+  "en": "this is something that's apparently happening and that",
+  "zh": "这显然正在发生的事情，以及"
+ },
+ {
+  "seg": 709,
+  "start": 2414.68,
+  "end": 2418.44,
+  "speaker": "Unknown",
+  "en": "being successful in software and being able to keep evolving, the",
+  "zh": "在软件中取得成功并能够不断演进，"
+ },
+ {
+  "seg": 710,
+  "start": 2418.44,
+  "end": 2423.96,
+  "speaker": "Unknown",
+  "en": "software apparently needs human humans to interact, right, to",
+  "zh": "软件显然需要人类人类进行互动，对吧，以便在能够"
+ },
+ {
+  "seg": 711,
+  "start": 2423.96,
+  "end": 2427.6,
+  "speaker": "Unknown",
+  "en": "build up this knowledge together on a system before they can be",
+  "zh": "在一个系统上工作之前，共同在一个系统上"
+ },
+ {
+  "seg": 712,
+  "start": 2427.6,
+  "end": 2431.08,
+  "speaker": "Unknown",
+  "en": "able to work on a system. Then when you look at current, a",
+  "zh": "建立这种知识。那么当你看看目前的，很多"
+ },
+ {
+  "seg": 713,
+  "start": 2431.12,
+  "end": 2434.56,
+  "speaker": "Unknown",
+  "en": "lot of the projects that I come across, right there is people,",
+  "zh": "我接触到的项目，对吧，那里有人，"
+ },
+ {
+  "seg": 714,
+  "start": 2434.68,
+  "end": 2436.8,
+  "speaker": "Unknown",
+  "en": "especially in the current nationally getting getting",
+  "zh": "特别是在目前的国家上变得越来越"
+ },
+ {
+  "seg": 715,
+  "start": 2436.8,
+  "end": 2438.8,
+  "speaker": "Unknown",
+  "en": "worse, people going with pension, right?",
+  "zh": "糟糕，人们带着养老金去，对吧？"
+ },
+ {
+  "seg": 716,
+  "start": 2439.48,
+  "end": 2443.12,
+  "speaker": "Unknown",
+  "en": "So that's well deserved. But they have a lot of knowledge",
+  "zh": "所以这是理所当然的。但他们有很多知识"
+ },
+ {
+  "seg": 717,
+  "start": 2443.12,
+  "end": 2448.92,
+  "speaker": "Unknown",
+  "en": "that then leaves other than there's people job hopping.",
+  "zh": "然后离开了，除了有人在跳槽。"
+ },
+ {
+  "seg": 718,
+  "start": 2449.56,
+  "end": 2453.44,
+  "speaker": "Unknown",
+  "en": "So that's knowledge going away. So there's a lot of lot of",
+  "zh": "所以这就是知识在流失。所以有很多大量的"
+ },
+ {
+  "seg": 719,
+  "start": 2453.44,
+  "end": 2456.2,
+  "speaker": "Unknown",
+  "en": "knowledge leaving the company, you could say constantly.",
+  "zh": "知识离开公司，你可以说持续不断地。"
+ },
+ {
+  "seg": 720,
+  "start": 2456.36,
+  "end": 2460.12,
+  "speaker": "Unknown",
+  "en": "Yeah. And if you put the theory",
+  "zh": "是的。而且如果你把理论"
+ },
+ {
+  "seg": 721,
+  "start": 2460.12,
+  "end": 2465.6,
+  "speaker": "Unknown",
+  "en": "building view on top of like the legacy systems we see, like if",
+  "zh": "建构观点叠加在我们看到的遗留系统上，就像如果"
+ },
+ {
+  "seg": 722,
+  "start": 2465.6,
+  "end": 2468.28,
+  "speaker": "Unknown",
+  "en": "there's a system where the whole team that worked in it isn't",
+  "zh": "有一个系统，整个在上面工作的团队都不"
+ },
+ {
+  "seg": 723,
+  "start": 2468.28,
+  "end": 2470.04,
+  "speaker": "Unknown",
+  "en": "there anymore, it's a system legacy.",
+  "zh": "在那里了，它就是一个遗留系统。"
+ },
+ {
+  "seg": 724,
+  "start": 2470.08,
+  "end": 2473.32,
+  "speaker": "Unknown",
+  "en": "Oh yeah, definitely right. Because nobody knows how it",
+  "zh": "哦是的，肯定的对。因为没人知道它"
+ },
+ {
+  "seg": 725,
+  "start": 2473.32,
+  "end": 2476.2,
+  "speaker": "Unknown",
+  "en": "works anymore. And it may not just be the the",
+  "zh": "是如何工作的了。而且可能不仅仅是离开的"
+ },
+ {
+  "seg": 726,
+  "start": 2476.2,
+  "end": 2479.16,
+  "speaker": "Unknown",
+  "en": "programmers that left, if the operational people that run it",
+  "zh": "程序员，如果运行它的运维人员不再"
+ },
+ {
+  "seg": 727,
+  "start": 2479.24,
+  "end": 2481.48,
+  "speaker": "Unknown",
+  "en": "are no longer there and the system's still running, but",
+  "zh": "在那里，而且系统仍在运行，但是"
+ },
+ {
+  "seg": 728,
+  "start": 2481.48,
+  "end": 2485.28,
+  "speaker": "Unknown",
+  "en": "nobody knows how to maintain it. It's going to fail and nobody",
+  "zh": "没有人知道如何维护它。它会失败，也没人"
+ },
+ {
+  "seg": 729,
+  "start": 2485.28,
+  "end": 2487.08,
+  "speaker": "Unknown",
+  "en": "knows how to fix it. It's going to take a lot of",
+  "zh": "知道如何修复它。这将花费很多"
+ },
+ {
+  "seg": 730,
+  "start": 2487.08,
+  "end": 2488.48,
+  "speaker": "Unknown",
+  "en": "time, no? One wants to touch it.",
+  "zh": "时间，不是吗？一个人想要触碰它。"
+ },
+ {
+  "seg": 731,
+  "start": 2488.6,
+  "end": 2491.44,
+  "speaker": "Unknown",
+  "en": "Nobody wants to touch it, right. So you, you can't change it, you",
+  "zh": "没有人想要触碰它，对吧。所以你，你不能改变它，你"
+ },
+ {
+  "seg": 732,
+  "start": 2491.44,
+  "end": 2495.12,
+  "speaker": "Unknown",
+  "en": "can't upgrade it, whatever it's, it becomes really sort of a, a",
+  "zh": "不能升级它，不管它是什么，它变得真的像一种，"
+ },
+ {
+  "seg": 733,
+  "start": 2495.12,
+  "end": 2497.32,
+  "speaker": "Unknown",
+  "en": "big risk. So it's a huge risk.",
+  "zh": "巨大的风险。所以这是一个巨大的风险。"
+ },
+ {
+  "seg": 734,
+  "start": 2497.76,
+  "end": 2500.56,
+  "speaker": "Unknown",
+  "en": "And still as an industry we don't seem to recognise it so",
+  "zh": "而且作为一个行业，我们似乎并没有这么多地"
+ },
+ {
+  "seg": 735,
+  "start": 2500.56,
+  "end": 2506.36,
+  "speaker": "Unknown",
+  "en": "much, even be aware of it. And also from AI would say from",
+  "zh": "认识到它，甚至意识到它。而且从 AI 会说从"
+ },
+ {
+  "seg": 736,
+  "start": 2506.36,
+  "end": 2510.56,
+  "speaker": "Unknown",
+  "en": "an architecture management point of view, it would be really I",
+  "zh": "架构管理的角度来看，我认为真的"
+ },
+ {
+  "seg": 737,
+  "start": 2510.56,
+  "end": 2515.6,
+  "speaker": "Unknown",
+  "en": "think beneficial to optimise the way we organise teams, the way",
+  "zh": "有利于优化我们组织团队的方式，我们"
+ },
+ {
+  "seg": 738,
+  "start": 2515.6,
+  "end": 2520.12,
+  "speaker": "Unknown",
+  "en": "we grow and shrink teams, whatever, right, to keep at",
+  "zh": "扩大和缩小团队的方式等等，对吧，以便保持至少"
+ },
+ {
+  "seg": 739,
+  "start": 2520.12,
+  "end": 2524.76,
+  "speaker": "Unknown",
+  "en": "least the sort of the minimal tacit knowledge part available",
+  "zh": "这种最小隐性知识部分可用"
+ },
+ {
+  "seg": 740,
+  "start": 2524.76,
+  "end": 2527.04,
+  "speaker": "Unknown",
+  "en": "so it can survive. So the system is more than just",
+  "zh": "这样它才能生存下来。所以系统不仅仅是"
+ },
+ {
+  "seg": 741,
+  "start": 2527.04,
+  "end": 2530.12,
+  "speaker": "Unknown",
+  "en": "the technology, right? And the code is the social",
+  "zh": "技术，对吧？而代码是系统的社会"
+ },
+ {
+  "seg": 742,
+  "start": 2530.12,
+  "end": 2532.8,
+  "speaker": "Unknown",
+  "en": "technical system of the system and the code and the people that",
+  "zh": "技术系统，由系统和代码以及"
+ },
+ {
+  "seg": 743,
+  "start": 2532.8,
+  "end": 2535.04,
+  "speaker": "Unknown",
+  "en": "work on it and the people that use it.",
+  "zh": "工作于其上的人员和使用它的人员组成。"
+ },
+ {
+  "seg": 744,
+  "start": 2535.84,
+  "end": 2540.64,
+  "speaker": "Unknown",
+  "en": "And if one of these goes away completely, yeah, the the",
+  "zh": "如果其中之一完全消失了，是的，那个"
+ },
+ {
+  "seg": 745,
+  "start": 2540.64,
+  "end": 2545.28,
+  "speaker": "Unknown",
+  "en": "system's sort of doomed. In the kind of current day and",
+  "zh": "系统就注定了。在当今这个"
+ },
+ {
+  "seg": 746,
+  "start": 2545.28,
+  "end": 2549.28,
+  "speaker": "Unknown",
+  "en": "age, there's a lot of at least marketing buzz with regards to",
+  "zh": "时代，有很多至少关于"
+ },
+ {
+  "seg": 747,
+  "start": 2549.28,
+  "end": 2553.2,
+  "speaker": "Unknown",
+  "en": "personal productivity with genetic tools and specifically",
+  "zh": "个人生产力与基因工具的营销炒作，特别是"
+ },
+ {
+  "seg": 748,
+  "start": 2553.2,
+  "end": 2555.36,
+  "speaker": "Unknown",
+  "en": "your mention of retaining knowledge.",
+  "zh": "你提到的保留知识。"
+ },
+ {
+  "seg": 749,
+  "start": 2555.72,
+  "end": 2558.32,
+  "speaker": "Unknown",
+  "en": "If the knowledge is gone, then the system quickly becomes",
+  "zh": "如果知识消失了，那么系统很快就会变成"
+ },
+ {
+  "seg": 750,
+  "start": 2558.32,
+  "end": 2560.8,
+  "speaker": "Unknown",
+  "en": "legacy. I feel like the way of working",
+  "zh": "遗留。我觉得我们现有的工作方式"
+ },
+ {
+  "seg": 751,
+  "start": 2560.8,
+  "end": 2564.44,
+  "speaker": "Unknown",
+  "en": "that we now have has a risk. And I'm not saying it's it's",
+  "zh": "存在风险。我不是说它"
+ },
+ {
+  "seg": 752,
+  "start": 2564.8,
+  "end": 2568.24,
+  "speaker": "Unknown",
+  "en": "100% going to happen, but I feel like a bigger risk that people",
+  "zh": "100% 会发生，但我认为人们不"
+ },
+ {
+  "seg": 753,
+  "start": 2568.32,
+  "end": 2570.08,
+  "speaker": "Unknown",
+  "en": "don't really build up the knowledge.",
+  "zh": "真正建立知识的风险更大。"
+ },
+ {
+  "seg": 754,
+  "start": 2570.44,
+  "end": 2573.08,
+  "speaker": "Unknown",
+  "en": "If they do it in a certain way, then the knowledge of the system",
+  "zh": "如果他们以某种方式做，系统的知识"
+ },
+ {
+  "seg": 755,
+  "start": 2573.08,
+  "end": 2576.24,
+  "speaker": "Unknown",
+  "en": "will not necessarily build up. There is a different way of",
+  "zh": "不一定会建立起来。有一种不同的"
+ },
+ {
+  "seg": 756,
+  "start": 2576.24,
+  "end": 2578.64,
+  "speaker": "Unknown",
+  "en": "doing it where you specify requirements.",
+  "zh": "方式是你指定需求。"
+ },
+ {
+  "seg": 757,
+  "start": 2578.64,
+  "end": 2581.96,
+  "speaker": "Unknown",
+  "en": "I feel like that's maybe the the future we will go into where you",
+  "zh": "我觉得这可能是我们将进入的未来，你"
+ },
+ {
+  "seg": 758,
+  "start": 2581.96,
+  "end": 2585.2,
+  "speaker": "Unknown",
+  "en": "are very much conscious of knowledge that you capture",
+  "zh": "非常清醒地意识到你在某处捕获的"
+ },
+ {
+  "seg": 759,
+  "start": 2585.2,
+  "end": 2587.24,
+  "speaker": "Unknown",
+  "en": "somewhere and then you let something else build it.",
+  "zh": "知识，然后你让其他东西来构建它。"
+ },
+ {
+  "seg": 760,
+  "start": 2587.84,
+  "end": 2590.16,
+  "speaker": "Unknown",
+  "en": "But if you don't do that and it's kind of a black box, then",
+  "zh": "但如果你不这样做，而且它有点像个黑盒，那么"
+ },
+ {
+  "seg": 761,
+  "start": 2590.16,
+  "end": 2593.36,
+  "speaker": "Unknown",
+  "en": "that knowledge will never build up, which means likely it will",
+  "zh": "这个知识永远不会建立，这意味着它可能"
+ },
+ {
+  "seg": 762,
+  "start": 2593.36,
+  "end": 2598.04,
+  "speaker": "Unknown",
+  "en": "become legacy quicker. So yeah, I had exactly the same",
+  "zh": "更快地变成遗留。所以是的，我完全有相同的"
+ },
+ {
+  "seg": 763,
+  "start": 2598.04,
+  "end": 2601.64,
+  "speaker": "Unknown",
+  "en": "observation. So also been thinking like, how",
+  "zh": "观察。所以我也一直在想，我们要如何"
+ },
+ {
+  "seg": 764,
+  "start": 2601.64,
+  "end": 2604.72,
+  "speaker": "Unknown",
+  "en": "do we tackle that, right? Because it's this hygienic stuff",
+  "zh": "解决这个问题，对吧？因为这种卫生的东西"
+ },
+ {
+  "seg": 765,
+  "start": 2604.72,
+  "end": 2606.36,
+  "speaker": "Unknown",
+  "en": "is amazing. It's really cool.",
+  "zh": "真的很棒。真的很酷。"
+ },
+ {
+  "seg": 766,
+  "start": 2607,
+  "end": 2608.64,
+  "speaker": "Unknown",
+  "en": "It can really help us in a lot of ways.",
+  "zh": "它真的在很多方面帮助我们。"
+ },
+ {
+  "seg": 767,
+  "start": 2609.84,
+  "end": 2612.68,
+  "speaker": "Unknown",
+  "en": "But if we don't understand how to use the best, it's also going",
+  "zh": "但如果我们不知道如何最好地使用它，它也会"
+ },
+ {
+  "seg": 768,
+  "start": 2612.68,
+  "end": 2619.68,
+  "speaker": "Unknown",
+  "en": "to hurt us a lot. And exactly the example you say,",
+  "zh": "在很大程度上伤害我们。正如你说的那个例子，"
+ },
+ {
+  "seg": 769,
+  "start": 2619.68,
+  "end": 2621.44,
+  "speaker": "Unknown",
+  "en": "like write down better specifications.",
+  "zh": "比如写下更好的规范。"
+ },
+ {
+  "seg": 770,
+  "start": 2622.08,
+  "end": 2626,
+  "speaker": "Unknown",
+  "en": "The risk with that is that it's it's explicit knowledge, It's",
+  "zh": "这样做的风险是它是显性知识，它是"
+ },
+ {
+  "seg": 771,
+  "start": 2626,
+  "end": 2628.8,
+  "speaker": "Unknown",
+  "en": "written down knowledge, It's not experienced knowledge.",
+  "zh": "写下来的知识，它不是经验知识。"
+ },
+ {
+  "seg": 772,
+  "start": 2629.24,
+  "end": 2634.32,
+  "speaker": "Unknown",
+  "en": "So like Peter now would say, sorry, doesn't work.",
+  "zh": "所以就像 Peter 现在会说，抱歉，不管用。"
+ },
+ {
+  "seg": 773,
+  "start": 2636.72,
+  "end": 2639.76,
+  "speaker": "Unknown",
+  "en": "So that's not I don't think that's a full solution.",
+  "zh": "所以这不是我不认为那是个完整的解决方案。"
+ },
+ {
+  "seg": 774,
+  "start": 2640.92,
+  "end": 2642.96,
+  "speaker": "Unknown",
+  "en": "I don't think it hurts, right? I think it's good to do that.",
+  "zh": "我不认为这会有害，对吧？我认为这样做很好。"
+ },
+ {
+  "seg": 775,
+  "start": 2642.96,
+  "end": 2645.96,
+  "speaker": "Unknown",
+  "en": "And that approach thing, I think better than just vibing all the",
+  "zh": "这种方法，我认为比一路 vibe coding 然后叫喊"
+ },
+ {
+  "seg": 776,
+  "start": 2645.96,
+  "end": 2648.4,
+  "speaker": "Unknown",
+  "en": "way and then yallowing and seeing where it lands.",
+  "zh": "看看它落在哪里要好。"
+ },
+ {
+  "seg": 777,
+  "start": 2650.08,
+  "end": 2652.24,
+  "speaker": "Unknown",
+  "en": "If you want to build something sustainable, right?",
+  "zh": "如果你想要构建可持续的东西，对吧？"
+ },
+ {
+  "seg": 778,
+  "start": 2654.28,
+  "end": 2658.84,
+  "speaker": "Unknown",
+  "en": "But you need another ingredient, right?",
+  "zh": "但你需要另一个成分，对吧？"
+ },
+ {
+  "seg": 779,
+  "start": 2658.84,
+  "end": 2661.16,
+  "speaker": "Unknown",
+  "en": "You need that. That's the knowledge part.",
+  "zh": "你需要那个。那就是知识的部分。"
+ },
+ {
+  "seg": 780,
+  "start": 2661.16,
+  "end": 2663.88,
+  "speaker": "Unknown",
+  "en": "So how do you capture that? How do you transfer that?",
+  "zh": "那么你如何捕获那个？你如何传递那个？"
+ },
+ {
+  "seg": 781,
+  "start": 2663.88,
+  "end": 2667.76,
+  "speaker": "Unknown",
+  "en": "How do you keep that alive? And there's a bunch of factors,",
+  "zh": "你如何让它保持活力？有一堆因素，"
+ },
+ {
+  "seg": 782,
+  "start": 2667.76,
+  "end": 2669.84,
+  "speaker": "Unknown",
+  "en": "I think that made it really hard in today's age.",
+  "zh": "我认为让这在当今时代变得非常困难。"
+ },
+ {
+  "seg": 783,
+  "start": 2670.4,
+  "end": 2674.64,
+  "speaker": "Unknown",
+  "en": "So one is after COVID, a lot of people are working remote.",
+  "zh": "所以一个是疫情后，很多人远程工作。"
+ },
+ {
+  "seg": 784,
+  "start": 2675.52,
+  "end": 2678.84,
+  "speaker": "Unknown",
+  "en": "We're much more isolated than we were five years ago.",
+  "zh": "我们比五年前孤立得多了。"
+ },
+ {
+  "seg": 785,
+  "start": 2678.96,
+  "end": 2682.44,
+  "speaker": "Unknown",
+  "en": "Yeah. So knowledge, this test and",
+  "zh": "是的。所以知识，这种测试和"
+ },
+ {
+  "seg": 786,
+  "start": 2682.44,
+  "end": 2685.36,
+  "speaker": "Unknown",
+  "en": "knowledge transfer is much harder, right?",
+  "zh": "知识传递要难得多，对吧？"
+ },
+ {
+  "seg": 787,
+  "start": 2685.36,
+  "end": 2689.08,
+  "speaker": "Unknown",
+  "en": "You can, it works really well when you sit together and when",
+  "zh": "你可以，当你坐在一起并且当你"
+ },
+ {
+  "seg": 788,
+  "start": 2689.08,
+  "end": 2690.96,
+  "speaker": "Unknown",
+  "en": "you can just ask someone a question, whatever.",
+  "zh": "可以直接问某人问题时，这真的很好用，不管怎样。"
+ },
+ {
+  "seg": 789,
+  "start": 2691.16,
+  "end": 2694.16,
+  "speaker": "Unknown",
+  "en": "If you have to go into a Teams call to do the question, it's",
+  "zh": "如果你必须进入 Teams 通话来问这个问题，它"
+ },
+ {
+  "seg": 790,
+  "start": 2694.16,
+  "end": 2698.44,
+  "speaker": "Unknown",
+  "en": "not the same, right? So that's already a factor.",
+  "zh": "就不一样了，对吧？所以这已经是一个因素了。"
+ },
+ {
+  "seg": 791,
+  "start": 2698.44,
+  "end": 2701.6,
+  "speaker": "Unknown",
+  "en": "I think that's a big risk that we have at the current moment.",
+  "zh": "我认为这是我们目前面临的一个巨大风险。"
+ },
+ {
+  "seg": 792,
+  "start": 2702.48,
+  "end": 2705.64,
+  "speaker": "Unknown",
+  "en": "The other factor like these decident tools makes it make it",
+  "zh": "另一个因素像这些 decident 工具让它"
+ },
+ {
+  "seg": 793,
+  "start": 2705.64,
+  "end": 2707.84,
+  "speaker": "Unknown",
+  "en": "really easy to think that you have this bearing partner that",
+  "zh": "变得很容易认为你有这个 bearing 伙伴"
+ },
+ {
+  "seg": 794,
+  "start": 2707.84,
+  "end": 2711.4,
+  "speaker": "Unknown",
+  "en": "can help you build something. So people also don't necessarily",
+  "zh": "可以帮助你构建东西。所以人们也不一定"
+ },
+ {
+  "seg": 795,
+  "start": 2711.4,
+  "end": 2715.16,
+  "speaker": "Unknown",
+  "en": "go work with a buddy anymore, much like a human buddy, but",
+  "zh": "再和伙伴一起工作，很像人类伙伴，但是"
+ },
+ {
+  "seg": 796,
+  "start": 2715.16,
+  "end": 2718.2,
+  "speaker": "Unknown",
+  "en": "they work with their AI buddy and the AI buddy.",
+  "zh": "他们和他们的 AI 伙伴一起工作，而且 AI 伙伴。"
+ },
+ {
+  "seg": 797,
+  "start": 2719.84,
+  "end": 2724.92,
+  "speaker": "Unknown",
+  "en": "The context is super important. Context like this test and",
+  "zh": "上下文非常重要。上下文像这种测试和"
+ },
+ {
+  "seg": 798,
+  "start": 2724.92,
+  "end": 2727.92,
+  "speaker": "Unknown",
+  "en": "knowledge is your your own context, right, your human",
+  "zh": "知识是你自己的上下文，对吧，你的"
+ },
+ {
+  "seg": 799,
+  "start": 2727.92,
+  "end": 2731.12,
+  "speaker": "Unknown",
+  "en": "context, your AI. But he also has a context,",
+  "zh": "人类上下文，你的 AI。但他也有一个上下文，"
+ },
+ {
+  "seg": 800,
+  "start": 2731.12,
+  "end": 2734.8,
+  "speaker": "Unknown",
+  "en": "right, But it loses the context. It can't it can't grow too big",
+  "zh": "对，但是它丢失了上下文。它不能 它不能变得太大"
+ },
+ {
+  "seg": 801,
+  "start": 2734.8,
+  "end": 2738.64,
+  "speaker": "Unknown",
+  "en": "because then it's it's well, the results don't get too too bad,",
+  "zh": "因为那样的话 它 嗯，结果不会变得太 太糟，"
+ },
+ {
+  "seg": 802,
+  "start": 2738.64,
+  "end": 2743.12,
+  "speaker": "Unknown",
+  "en": "too good anymore. So unless we tackle that",
+  "zh": "也不再那么好了。所以除非我们要解决那个"
+ },
+ {
+  "seg": 803,
+  "start": 2743.12,
+  "end": 2746.16,
+  "speaker": "Unknown",
+  "en": "problem, right, and there's some idea of memory, right, which is",
+  "zh": "问题，对吧，而且有一些关于记忆的概念，对吧，这"
+ },
+ {
+  "seg": 804,
+  "start": 2746.44,
+  "end": 2751,
+  "speaker": "Unknown",
+  "en": "sort of getting better and better, but the current state of",
+  "zh": "似乎变得越来越好，但是当前 enginic 工具的状态，"
+ },
+ {
+  "seg": 805,
+  "start": 2751.68,
+  "end": 2756.32,
+  "speaker": "Unknown",
+  "en": "enginic tools, they're not going to help us much with this,",
+  "zh": "它们在这方面帮不了我们太多，"
+ },
+ {
+  "seg": 806,
+  "start": 2756.32,
+  "end": 2757.36,
+  "speaker": "Unknown",
+  "en": "right? They're just going to make it",
+  "zh": "对吧？它们只会让情况"
+ },
+ {
+  "seg": 807,
+  "start": 2757.36,
+  "end": 2759.4,
+  "speaker": "Unknown",
+  "en": "worse because they produce a lot of stuff.",
+  "zh": "更糟糕，因为它们产生了很多东西。"
+ },
+ {
+  "seg": 808,
+  "start": 2759.4,
+  "end": 2762,
+  "speaker": "Unknown",
+  "en": "They don't retain this tested knowledge.",
+  "zh": "它们不保留这些经过验证的知识。"
+ },
+ {
+  "seg": 809,
+  "start": 2763.32,
+  "end": 2765.96,
+  "speaker": "Unknown",
+  "en": "I think it's also really hard for an agentic tool to capture",
+  "zh": "我认为一个 agentic 工具要捕捉"
+ },
+ {
+  "seg": 810,
+  "start": 2765.96,
+  "end": 2769.16,
+  "speaker": "Unknown",
+  "en": "an agentic tool or to capture this tested knowledge.",
+  "zh": "一个 agentic 工具或者捕捉这些经过验证的知识，也非常困难。"
+ },
+ {
+  "seg": 811,
+  "start": 2770.52,
+  "end": 2773.56,
+  "speaker": "Unknown",
+  "en": "It would have to have a similar experience as we do, right?",
+  "zh": "它必须拥有和我们类似的经历，对吧？"
+ },
+ {
+  "seg": 812,
+  "start": 2773.56,
+  "end": 2777.16,
+  "speaker": "Unknown",
+  "en": "It would have to live through the consequence of what it",
+  "zh": "它必须亲历它所构建之物的后果。"
+ },
+ {
+  "seg": 813,
+  "start": 2777.16,
+  "end": 2780.44,
+  "speaker": "Unknown",
+  "en": "builds. So when you do something and you",
+  "zh": "所以当你做某事并且"
+ },
+ {
+  "seg": 814,
+  "start": 2780.44,
+  "end": 2783.16,
+  "speaker": "Unknown",
+  "en": "create it and you don't have a production issue, right?",
+  "zh": "创造了它而你没有生产问题时，对吧？"
+ },
+ {
+  "seg": 815,
+  "start": 2783.4,
+  "end": 2785.88,
+  "speaker": "Unknown",
+  "en": "You. Experienced that consequence,",
+  "zh": "你。经历了那个后果，"
+ },
+ {
+  "seg": 816,
+  "start": 2786.52,
+  "end": 2792.2,
+  "speaker": "Unknown",
+  "en": "right, You'll learn from it. The current agenda tools, not a",
+  "zh": "对吧，你会从中学习。当前的 agenda 工具，没多少"
+ },
+ {
+  "seg": 817,
+  "start": 2792.2,
+  "end": 2794.44,
+  "speaker": "Unknown",
+  "en": "lot of them do this right. There's some tooling out there",
+  "zh": "这么做的，对吧。市面上有一些工具 [[818] 会查看生产环境的东西，顺便说一句非常酷，并尝试"
+ },
+ {
+  "seg": 818,
+  "start": 2794.44,
+  "end": 2799.56,
+  "speaker": "Unknown",
+  "en": "that looks at production stuff, super cool by the way, and tries",
+  "zh": "那个看着生产环境的东西，顺便说一句超级酷，并尝试"
+ },
+ {
+  "seg": 819,
+  "start": 2799.56,
+  "end": 2804.24,
+  "speaker": "Unknown",
+  "en": "to figure out what's going on, tries to to to fix essentially",
+  "zh": "弄清楚发生了什么，尝试去去去修复，"
+ },
+ {
+  "seg": 820,
+  "start": 2804.24,
+  "end": 2807.44,
+  "speaker": "Unknown",
+  "en": "there like do a root cause analysis, fix stuff, but there's",
+  "zh": "本质上是做根因分析，修复东西，但是"
+ },
+ {
+  "seg": 821,
+  "start": 2807.44,
+  "end": 2811.4,
+  "speaker": "Unknown",
+  "en": "not the learning and writing down the learnings part yet.",
+  "zh": "还没有学习和写下学到的东西这一部分。"
+ },
+ {
+  "seg": 822,
+  "start": 2812.12,
+  "end": 2814.68,
+  "speaker": "Unknown",
+  "en": "And I think with all the agile stuff, we've been getting better",
+  "zh": "我认为随着所有这些敏捷的东西，我们在学习方面"
+ },
+ {
+  "seg": 823,
+  "start": 2814.68,
+  "end": 2817.52,
+  "speaker": "Unknown",
+  "en": "at learning, right? But we haven't done that in the",
+  "zh": "变得更好了，对吧？但我们还没在"
+ },
+ {
+  "seg": 824,
+  "start": 2817.52,
+  "end": 2820.52,
+  "speaker": "Unknown",
+  "en": "agentic stuff yet. So yeah, I think that's a big",
+  "zh": "agentic 的东西里这么做。所以是的，我认为那仍然是"
+ },
+ {
+  "seg": 825,
+  "start": 2820.52,
+  "end": 2824.12,
+  "speaker": "Unknown",
+  "en": "challenge still there making sure that there's actual",
+  "zh": "一个巨大的挑战，确保有真正的"
+ },
+ {
+  "seg": 826,
+  "start": 2824.12,
+  "end": 2830.04,
+  "speaker": "Unknown",
+  "en": "learning going on, actual like safe sandbox iteration with",
+  "zh": "学习正在进行，真正的像安全的沙箱迭代，具有"
+ },
+ {
+  "seg": 827,
+  "start": 2830.04,
+  "end": 2832.04,
+  "speaker": "Unknown",
+  "en": "feedback loops towards the agent again.",
+  "zh": "指向智能体的反馈回路。"
+ },
+ {
+  "seg": 828,
+  "start": 2832.6,
+  "end": 2836.28,
+  "speaker": "Unknown",
+  "en": "And not just building and then testing, but also actually",
+  "zh": "不仅仅是构建然后测试，还要实际上"
+ },
+ {
+  "seg": 829,
+  "start": 2836.28,
+  "end": 2839.84,
+  "speaker": "Unknown",
+  "en": "running and seeing what it does in production, the whole chain.",
+  "zh": "运行并观察它在生产环境中的表现，整个链条。"
+ },
+ {
+  "seg": 830,
+  "start": 2840.72,
+  "end": 2843.56,
+  "speaker": "Unknown",
+  "en": "And then you also introduce a lot of risk, right?",
+  "zh": "然后你也会引入很多风险，对吧？"
+ },
+ {
+  "seg": 831,
+  "start": 2843.56,
+  "end": 2846.6,
+  "speaker": "Unknown",
+  "en": "Because if you connect your agent to production to read logs",
+  "zh": "因为如果你把你的智能体连接到生产环境去读取日志"
+ },
+ {
+  "seg": 832,
+  "start": 2846.6,
+  "end": 2850.08,
+  "speaker": "Unknown",
+  "en": "and stuff, yeah, it might log some stuff that you don't want",
+  "zh": "和东西，是的，它可能会记录一些你不希望"
+ },
+ {
+  "seg": 833,
+  "start": 2850.08,
+  "end": 2855.12,
+  "speaker": "Unknown",
+  "en": "it to know. So it's not an easy thing to",
+  "zh": "它知道的东西。所以这不是一件容易"
+ },
+ {
+  "seg": 834,
+  "start": 2855.12,
+  "end": 2858.92,
+  "speaker": "Unknown",
+  "en": "solve. But still, I think this is the",
+  "zh": "解决的事情。但我仍然认为这是"
+ },
+ {
+  "seg": 835,
+  "start": 2858.92,
+  "end": 2862.88,
+  "speaker": "Unknown",
+  "en": "thing that makes a human really good at having this built up",
+  "zh": "让人类真正擅长拥有这些积累的"
+ },
+ {
+  "seg": 836,
+  "start": 2862.88,
+  "end": 2865.56,
+  "speaker": "Unknown",
+  "en": "knowledge and working on systems effectively.",
+  "zh": "知识并有效地在系统上工作的东西。"
+ },
+ {
+  "seg": 837,
+  "start": 2866.12,
+  "end": 2869.36,
+  "speaker": "Unknown",
+  "en": "So if you want to get that with these agents as well, well,",
+  "zh": "所以如果你想在这些智能体身上也得到那个，嗯，"
+ },
+ {
+  "seg": 838,
+  "start": 2869.52,
+  "end": 2871.76,
+  "speaker": "Unknown",
+  "en": "there's some stuff to do. Yeah, for sure.",
+  "zh": "还有一些事情要做。是的，当然。"
+ },
+ {
+  "seg": 839,
+  "start": 2872.2,
+  "end": 2875.92,
+  "speaker": "Unknown",
+  "en": "One of the last thoughts I had was when you were discussing the",
+  "zh": "我最后的一个想法是，当你讨论"
+ },
+ {
+  "seg": 840,
+  "start": 2875.92,
+  "end": 2879.96,
+  "speaker": "Unknown",
+  "en": "evolvability element within a software project, because my",
+  "zh": "软件项目中的可演化性元素时，因为我的"
+ },
+ {
+  "seg": 841,
+  "start": 2879.96,
+  "end": 2881.68,
+  "speaker": "Unknown",
+  "en": "question is mainly around timing.",
+  "zh": "问题主要是关于时机。"
+ },
+ {
+  "seg": 842,
+  "start": 2882,
+  "end": 2884.8,
+  "speaker": "Unknown",
+  "en": "I've been in projects where people have early on made",
+  "zh": "我经历过这样的项目，人们很早就做出了"
+ },
+ {
+  "seg": 843,
+  "start": 2884.8,
+  "end": 2888.24,
+  "speaker": "Unknown",
+  "en": "conscious decisions to say we put down this specific",
+  "zh": "有意识的决定，说我们要制定这个特定的"
+ },
+ {
+  "seg": 844,
+  "start": 2888.24,
+  "end": 2891.44,
+  "speaker": "Unknown",
+  "en": "architecture or this system design to be able to evolve in",
+  "zh": "架构或这个系统设计，以便能够在"
+ },
+ {
+  "seg": 845,
+  "start": 2891.44,
+  "end": 2893.88,
+  "speaker": "Unknown",
+  "en": "the future and that future might never come.",
+  "zh": "未来演化，而那个未来可能永远不会到来。"
+ },
+ {
+  "seg": 846,
+  "start": 2894.12,
+  "end": 2897.28,
+  "speaker": "Unknown",
+  "en": "And if I as an individual within that project really experience",
+  "zh": "如果我作为那个项目中的个人真的体验到了"
+ },
+ {
+  "seg": 847,
+  "start": 2897.28,
+  "end": 2900.32,
+  "speaker": "Unknown",
+  "en": "kind of difficulties with regards to the speed and the",
+  "zh": "由于这些决定而导致的关于速度和"
+ },
+ {
+  "seg": 848,
+  "start": 2900.32,
+  "end": 2904.84,
+  "speaker": "Unknown",
+  "en": "productivity that I want to have due to these decisions that I",
+  "zh": "我想要的生产力方面的困难，而我不知道这些决定"
+ },
+ {
+  "seg": 849,
+  "start": 2904.84,
+  "end": 2908.04,
+  "speaker": "Unknown",
+  "en": "don't know if will ever come, that leads to some frustration",
+  "zh": "是否会到来，那会导致一些挫败感"
+ },
+ {
+  "seg": 850,
+  "start": 2908.04,
+  "end": 2910.64,
+  "speaker": "Unknown",
+  "en": "sometimes. But then when that future comes,",
+  "zh": "有时。但是当那个未来到来时，"
+ },
+ {
+  "seg": 851,
+  "start": 2911.12,
+  "end": 2913.8,
+  "speaker": "Unknown",
+  "en": "then it's quite nice because then you've covered a solid base",
+  "zh": "那就相当不错了，因为你已经覆盖了一个坚实的基础"
+ },
+ {
+  "seg": 852,
+  "start": 2913.8,
+  "end": 2916.2,
+  "speaker": "Unknown",
+  "en": "that you can actually catapult on top of.",
+  "zh": "你可以真正在此基础上飞跃。"
+ },
+ {
+  "seg": 853,
+  "start": 2916.2,
+  "end": 2918.76,
+  "speaker": "Unknown",
+  "en": "So this is for me quite a fine balancing act.",
+  "zh": "所以对我来说这相当是一种微妙的平衡艺术。"
+ },
+ {
+  "seg": 854,
+  "start": 2919.2,
+  "end": 2921.76,
+  "speaker": "Unknown",
+  "en": "How you how have you balanced that in the past?",
+  "zh": "你过去是如何平衡这一点的？"
+ },
+ {
+  "seg": 855,
+  "start": 2921.76,
+  "end": 2924.36,
+  "speaker": "Unknown",
+  "en": "So. Definitely look into this stuff",
+  "zh": "所以。一定要研究一下"
+ },
+ {
+  "seg": 856,
+  "start": 2924.36,
+  "end": 2927.64,
+  "speaker": "Unknown",
+  "en": "from Mary O'Reilly Right, because it's, it's good stuff if",
+  "zh": "Mary O'Reilly 的东西，对吧，因为如果你"
+ },
+ {
+  "seg": 857,
+  "start": 2927.64,
+  "end": 2930.6,
+  "speaker": "Unknown",
+  "en": "you want to find the right balance there, right?",
+  "zh": "想要在那里找到合适的平衡，那是好东西，对吧？"
+ },
+ {
+  "seg": 858,
+  "start": 2930.6,
+  "end": 2934.96,
+  "speaker": "Unknown",
+  "en": "It's it, it adds complexity if you add a lot of stuff early on",
+  "zh": "如果你在一开始就加入很多你最终不需要的东西，"
+ },
+ {
+  "seg": 859,
+  "start": 2935.08,
+  "end": 2937.76,
+  "speaker": "Unknown",
+  "en": "that you don't need in the end, it's just complexity that you're",
+  "zh": "它会增加复杂性，那只是你在"
+ },
+ {
+  "seg": 860,
+  "start": 2937.76,
+  "end": 2940.56,
+  "speaker": "Unknown",
+  "en": "dragging along and it makes yourself harder to change.",
+  "zh": "拖着的复杂性，它让你自己更难改变。"
+ },
+ {
+  "seg": 861,
+  "start": 2942.6,
+  "end": 2943.88,
+  "speaker": "Unknown",
+  "en": "And I've definitely done that, right.",
+  "zh": "我肯定这样做过，对吧。"
+ },
+ {
+  "seg": 862,
+  "start": 2943.88,
+  "end": 2948.04,
+  "speaker": "Unknown",
+  "en": "I mean, I've built super nice generic flexible components,",
+  "zh": "我的意思是，我构建了超级好的通用灵活组件，"
+ },
+ {
+  "seg": 863,
+  "start": 2948.4,
+  "end": 2951.24,
+  "speaker": "Unknown",
+  "en": "whatever. And then I needed only a small",
+  "zh": "随便什么。然后我只需要它的一小"
+ },
+ {
+  "seg": 864,
+  "start": 2951.24,
+  "end": 2953.04,
+  "speaker": "Unknown",
+  "en": "piece of it. So that's, yeah, you'll learn",
+  "zh": "部分。所以那是，是的，你会从"
+ },
+ {
+  "seg": 865,
+  "start": 2953.04,
+  "end": 2955.52,
+  "speaker": "Unknown",
+  "en": "from that. And my learning, like the stuff",
+  "zh": "那中学到东西。而我的经验，比如我现在"
+ },
+ {
+  "seg": 866,
+  "start": 2955.52,
+  "end": 2959.32,
+  "speaker": "Unknown",
+  "en": "I build nowadays is always the minimal, just what I need now.",
+  "zh": "构建的东西总是最少的，只是我现在需要的。"
+ },
+ {
+  "seg": 867,
+  "start": 2960,
+  "end": 2963.4,
+  "speaker": "Unknown",
+  "en": "And I make really sure that I I make it in such a way that it's",
+  "zh": "我真的很确保我以这样的方式制作它，就是它是"
+ },
+ {
+  "seg": 868,
+  "start": 2963.4,
+  "end": 2968.96,
+  "speaker": "Unknown",
+  "en": "easy to change so that when that future comes, I can just change",
+  "zh": "容易改变的，这样当那个未来到来时，我可以直接改变"
+ },
+ {
+  "seg": 869,
+  "start": 2968.96,
+  "end": 2971.24,
+  "speaker": "Unknown",
+  "en": "it. So I think that's the biggest",
+  "zh": "它。所以我认为那是我在那部分学到的"
+ },
+ {
+  "seg": 870,
+  "start": 2971.24,
+  "end": 2976.24,
+  "speaker": "Unknown",
+  "en": "lesson I've learned on that part is just optimize for what you",
+  "zh": "最大的教训就是只针对你"
+ },
+ {
+  "seg": 871,
+  "start": 2976.24,
+  "end": 2981.48,
+  "speaker": "Unknown",
+  "en": "know now. And I think Dave Farley says",
+  "zh": "现在知道的进行优化。而且我认为 Dave Farley"
+ },
+ {
+  "seg": 872,
+  "start": 2981.48,
+  "end": 2986.96,
+  "speaker": "Unknown",
+  "en": "this really well is right. You want to assume that you're",
+  "zh": "把这点说得很好，就是。你要假设你会"
+ },
+ {
+  "seg": 873,
+  "start": 2986.96,
+  "end": 2990,
+  "speaker": "Unknown",
+  "en": "going to be wrong like that the whatever you built is going to",
+  "zh": "错，就像你构建的任何东西都将是"
+ },
+ {
+  "seg": 874,
+  "start": 2990,
+  "end": 2993.88,
+  "speaker": "Unknown",
+  "en": "be wrong, and you're going to optimize to figure out what is",
+  "zh": "错的，而你要优化去弄清楚什么是"
+ },
+ {
+  "seg": 875,
+  "start": 2993.88,
+  "end": 2997.44,
+  "speaker": "Unknown",
+  "en": "wrong as soon as possible. So you built something, you",
+  "zh": "错的，越快越好。所以你构建了某种东西，你"
+ },
+ {
+  "seg": 876,
+  "start": 2997.44,
+  "end": 3000.28,
+  "speaker": "Unknown",
+  "en": "assume it's wrong. And to be honest, usually what",
+  "zh": "假设它是错的。老实说，通常"
+ },
+ {
+  "seg": 877,
+  "start": 3000.28,
+  "end": 3004.6,
+  "speaker": "Unknown",
+  "en": "you built is wrong in some way. And then you optimize your",
+  "zh": "你构建的东西在某种程度上是错的。然后你优化你的"
+ },
+ {
+  "seg": 878,
+  "start": 3004.6,
+  "end": 3008.28,
+  "speaker": "Unknown",
+  "en": "feedback loop and then you learn and you make sure that your code",
+  "zh": "反馈循环，然后你学习，并确保你的代码 [[879] 容易改变，然后根据你"
+ },
+ {
+  "seg": 879,
+  "start": 3008.28,
+  "end": 3011.76,
+  "speaker": "Unknown",
+  "en": "is easy to change and then you change it based on what you",
+  "zh": "很容易改变，然后你根据你所做的事情来改变它"
+ },
+ {
+  "seg": 880,
+  "start": 3011.76,
+  "end": 3017.08,
+  "speaker": "Unknown",
+  "en": "learn and you iterate that as fast as you can or as fast as",
+  "zh": "学到的东西改变它，并尽可能快地或尽可能有效地"
+ },
+ {
+  "seg": 881,
+  "start": 3017.08,
+  "end": 3020.28,
+  "speaker": "Unknown",
+  "en": "useful. But I think that's the the key,",
+  "zh": "迭代它。但我认为那是关键的、"
+ },
+ {
+  "seg": 882,
+  "start": 3020.44,
+  "end": 3022.76,
+  "speaker": "Unknown",
+  "en": "key ingredient there. So assuming you're wrong because",
+  "zh": "关键要素。所以假设你是错的，因为"
+ },
+ {
+  "seg": 883,
+  "start": 3022.76,
+  "end": 3025.72,
+  "speaker": "Unknown",
+  "en": "that's already going to help you like N fall in the trap fund,",
+  "zh": "这已经能帮助你，以免掉进陷阱，"
+ },
+ {
+  "seg": 884,
+  "start": 3025.72,
+  "end": 3028.12,
+  "speaker": "Unknown",
+  "en": "we're going to build a super amazing fancy stuff that's going",
+  "zh": "我们要构建超级惊人的花哨的东西，它将"
+ },
+ {
+  "seg": 885,
+  "start": 3028.2,
+  "end": 3029.6,
+  "speaker": "Unknown",
+  "en": "to be able to deal with the future.",
+  "zh": "能够应对未来。"
+ },
+ {
+  "seg": 886,
+  "start": 3030.16,
+  "end": 3031.64,
+  "speaker": "Unknown",
+  "en": "That assumption is already wrong, right?",
+  "zh": "那个假设已经是错的，对吧？"
+ },
+ {
+  "seg": 887,
+  "start": 3031.64,
+  "end": 3032.92,
+  "speaker": "Unknown",
+  "en": "Because you don't know the future.",
+  "zh": "因为你不知道未来。"
+ },
+ {
+  "seg": 888,
+  "start": 3033.92,
+  "end": 3039.36,
+  "speaker": "Unknown",
+  "en": "So being able or being able to realize that it might still be a",
+  "zh": "所以能够或者能够意识到它可能仍然是一个"
+ },
+ {
+  "seg": 889,
+  "start": 3040.16,
+  "end": 3044.04,
+  "speaker": "Unknown",
+  "en": "a good approach for the time being, whether maybe take out",
+  "zh": "暂时的好方法，也许可以去掉"
+ },
+ {
+  "seg": 890,
+  "start": 3044.04,
+  "end": 3046.92,
+  "speaker": "Unknown",
+  "en": "the stuff that you don't that you don't need right now.",
+  "zh": "那些你不、你不需要的东西。"
+ },
+ {
+  "seg": 891,
+  "start": 3047.56,
+  "end": 3050.56,
+  "speaker": "Unknown",
+  "en": "Just do the stuff you. Need right now and then just",
+  "zh": "只做你现在需要的。然后只是"
+ },
+ {
+  "seg": 892,
+  "start": 3050.84,
+  "end": 3052.8,
+  "speaker": "Unknown",
+  "en": "learn. I like that a lot, yeah.",
+  "zh": "学习。我非常喜欢这一点，是的。"
+ },
+ {
+  "seg": 893,
+  "start": 3053.04,
+  "end": 3056.96,
+  "speaker": "Unknown",
+  "en": "It made me reflect because the the easier to change for me that",
+  "zh": "它让我反思，因为对我来说更容易改变需要"
+ },
+ {
+  "seg": 894,
+  "start": 3056.96,
+  "end": 3059.32,
+  "speaker": "Unknown",
+  "en": "needs to then be explicit because my colleagues, for",
+  "zh": "变得明确，因为我的同事，例如，"
+ },
+ {
+  "seg": 895,
+  "start": 3059.32,
+  "end": 3060.96,
+  "speaker": "Unknown",
+  "en": "example, that added the complexity.",
+  "zh": "增加了复杂性的。"
+ },
+ {
+  "seg": 896,
+  "start": 3061.36,
+  "end": 3062.88,
+  "speaker": "Unknown",
+  "en": "Their argument was also what it was.",
+  "zh": "他们的论点也是，它是。"
+ },
+ {
+  "seg": 897,
+  "start": 3062.88,
+  "end": 3066.04,
+  "speaker": "Unknown",
+  "en": "This will be easy to change or rather kind of easier to build",
+  "zh": "这将很容易改变，或者更确切地说，更容易在"
+ },
+ {
+  "seg": 898,
+  "start": 3066.04,
+  "end": 3068.84,
+  "speaker": "Unknown",
+  "en": "on top of because that's what they're optimizing for a solid",
+  "zh": "上面构建，因为这就是他们正在优化的，一个坚实的"
+ },
+ {
+  "seg": 899,
+  "start": 3068.84,
+  "end": 3072.32,
+  "speaker": "Unknown",
+  "en": "base to catapult on top of. And I like that you mentioned",
+  "zh": "基础以便在上面飞跃。我喜欢你提到"
+ },
+ {
+  "seg": 900,
+  "start": 3072.32,
+  "end": 3075,
+  "speaker": "Unknown",
+  "en": "that what we build, if we build it, build it simple.",
+  "zh": "我们构建的东西，如果我们构建它，构建得简单。"
+ },
+ {
+  "seg": 901,
+  "start": 3075.72,
+  "end": 3078.2,
+  "speaker": "Unknown",
+  "en": "By virtue of it being simple, it's easy to change.",
+  "zh": "因为它简单，所以很容易改变。"
+ },
+ {
+  "seg": 902,
+  "start": 3078.32,
+  "end": 3081.28,
+  "speaker": "Unknown",
+  "en": "So it can evolve from that aspect as well, which is kind of",
+  "zh": "所以它也可以从那个方面演化，这也是有点"
+ },
+ {
+  "seg": 903,
+  "start": 3081.28,
+  "end": 3084.64,
+  "speaker": "Unknown",
+  "en": "these two angles. And that's where I feel like a",
+  "zh": "这两个角度。这也是我觉得"
+ },
+ {
+  "seg": 904,
+  "start": 3084.64,
+  "end": 3087.6,
+  "speaker": "Unknown",
+  "en": "lot of my conversation went into because we both want the same",
+  "zh": "我的大部分谈话内容都进去了，因为我们俩都想要同样的"
+ },
+ {
+  "seg": 905,
+  "start": 3087.6,
+  "end": 3089.48,
+  "speaker": "Unknown",
+  "en": "thing. We both want a system that can",
+  "zh": "东西。我们都想要一个能够"
+ },
+ {
+  "seg": 906,
+  "start": 3089.48,
+  "end": 3091.52,
+  "speaker": "Unknown",
+  "en": "evolve, but the approach is very different.",
+  "zh": "演化的系统，但方法是非常不同的。"
+ },
+ {
+  "seg": 907,
+  "start": 3091.64,
+  "end": 3093,
+  "speaker": "Unknown",
+  "en": "Yeah, that's quite. Interesting.",
+  "zh": "是的，那相当。有趣。"
+ },
+ {
+  "seg": 908,
+  "start": 3093.2,
+  "end": 3095.88,
+  "speaker": "Unknown",
+  "en": "You may still end up with the solution that they came up with",
+  "zh": "你可能最终还是会得到他们在开始时想出的"
+ },
+ {
+  "seg": 909,
+  "start": 3095.88,
+  "end": 3098.2,
+  "speaker": "Unknown",
+  "en": "in the start. Yeah, right at some point later.",
+  "zh": "解决方案。是的，在之后的某个时候。"
+ },
+ {
+  "seg": 910,
+  "start": 3098.8,
+  "end": 3100.24,
+  "speaker": "Unknown",
+  "en": "But it's just like with TDD, right?",
+  "zh": "但这就像 TDD 一样，对吧？"
+ },
+ {
+  "seg": 911,
+  "start": 3100.24,
+  "end": 3104.32,
+  "speaker": "Unknown",
+  "en": "When you do actual TD, you start with a very small, very wrong",
+  "zh": "当你做真正的 TD 时，你从一个非常小、非常错误的"
+ },
+ {
+  "seg": 912,
+  "start": 3104.32,
+  "end": 3106.52,
+  "speaker": "Unknown",
+  "en": "implementation and a test that makes it.",
+  "zh": "实现和一个让它通过的测试开始。"
+ },
+ {
+  "seg": 913,
+  "start": 3107.48,
+  "end": 3109.04,
+  "speaker": "Unknown",
+  "en": "But then you add a test that makes it fail.",
+  "zh": "但你添加了一个让它失败的测试。"
+ },
+ {
+  "seg": 914,
+  "start": 3109.56,
+  "end": 3111.48,
+  "speaker": "Unknown",
+  "en": "And then you figure out, OK, I need to change it a little bit",
+  "zh": "然后你想明白，好的，我需要稍微改变一下"
+ },
+ {
+  "seg": 915,
+  "start": 3111.48,
+  "end": 3115.08,
+  "speaker": "Unknown",
+  "en": "to make the second test pass. And you build up bit by bit a",
+  "zh": "来让第二个测试通过。你一点一点地构建起一个"
+ },
+ {
+  "seg": 916,
+  "start": 3115.08,
+  "end": 3118.76,
+  "speaker": "Unknown",
+  "en": "piece of working software that does only whatever you wrote in",
+  "zh": "工作软件块，它只做你在"
+ },
+ {
+  "seg": 917,
+  "start": 3118.76,
+  "end": 3123.08,
+  "speaker": "Unknown",
+  "en": "your tests. And if you take the same",
+  "zh": "测试里写的东西。如果你把同样的"
+ },
+ {
+  "seg": 918,
+  "start": 3123.08,
+  "end": 3125.2,
+  "speaker": "Unknown",
+  "en": "approach to your architecture, right, you do something very",
+  "zh": "方法应用到你的架构上，对吧，你做一些非常"
+ },
+ {
+  "seg": 919,
+  "start": 3125.2,
+  "end": 3129,
+  "speaker": "Unknown",
+  "en": "simple that you know will work for what you need now and then",
+  "zh": "简单的事情，你知道这对你现在的需求有效，然后"
+ },
+ {
+  "seg": 920,
+  "start": 3129.04,
+  "end": 3131.28,
+  "speaker": "Unknown",
+  "en": "make sure that you can adapt it, evolve it.",
+  "zh": "确保你可以调整它，演化它。"
+ },
+ {
+  "seg": 921,
+  "start": 3131.96,
+  "end": 3134.44,
+  "speaker": "Unknown",
+  "en": "And that's not always as easy with architecture, right?",
+  "zh": "这在架构上并不总是那么容易，对吧？"
+ },
+ {
+  "seg": 922,
+  "start": 3134.44,
+  "end": 3138,
+  "speaker": "Unknown",
+  "en": "Some, some people say like architecture is the, the hard",
+  "zh": "有些人说架构是，困难的决定，对吧？"
+ },
+ {
+  "seg": 923,
+  "start": 3138,
+  "end": 3139.64,
+  "speaker": "Unknown",
+  "en": "decisions, right? The decisions that are hard to",
+  "zh": "那些很难"
+ },
+ {
+  "seg": 924,
+  "start": 3139.64,
+  "end": 3145.68,
+  "speaker": "Unknown",
+  "en": "change. SO1 solution is to right make",
+  "zh": "改变的决定。一种解决方案是正确的做出"
+ },
+ {
+  "seg": 925,
+  "start": 3145.68,
+  "end": 3148.52,
+  "speaker": "Unknown",
+  "en": "those decisions and then live with them.",
+  "zh": "那些决定，然后接受它们。"
+ },
+ {
+  "seg": 926,
+  "start": 3149.32,
+  "end": 3154.2,
+  "speaker": "Unknown",
+  "en": "The other solution that I really prefer is don't accept that and",
+  "zh": "我真的更喜欢的另一种解决方案是不接受那个，并"
+ },
+ {
+  "seg": 927,
+  "start": 3154.2,
+  "end": 3156.72,
+  "speaker": "Unknown",
+  "en": "make the things that are hard that is hard to change, make it",
+  "zh": "让那些难以改变的东西，变得"
+ },
+ {
+  "seg": 928,
+  "start": 3156.72,
+  "end": 3159.64,
+  "speaker": "Unknown",
+  "en": "easy to change, right? So let's say database schema can",
+  "zh": "容易改变，对吧？所以比如数据库模式可以"
+ },
+ {
+  "seg": 929,
+  "start": 3159.64,
+  "end": 3162.68,
+  "speaker": "Unknown",
+  "en": "be really hard to change. Well, then use tooling to make",
+  "zh": "真的很难改变。那么，使用工具来使"
+ },
+ {
+  "seg": 930,
+  "start": 3162.68,
+  "end": 3165.68,
+  "speaker": "Unknown",
+  "en": "it easy to change, like use some fly away or something else.",
+  "zh": "它变得容易改变，比如用一些 fly away 或其他东西。"
+ },
+ {
+  "seg": 931,
+  "start": 3166,
+  "end": 3169.6,
+  "speaker": "Unknown",
+  "en": "There's tooling enough to have an evolvable schema or maybe you",
+  "zh": "有足够的工具来拥有可演化的模式，或者也许你"
+ },
+ {
+  "seg": 932,
+  "start": 3169.6,
+  "end": 3172.24,
+  "speaker": "Unknown",
+  "en": "don't use a relational database, but something that's easier to",
+  "zh": "不使用关系型数据库，而是用更容易"
+ },
+ {
+  "seg": 933,
+  "start": 3172.76,
+  "end": 3175.08,
+  "speaker": "Unknown",
+  "en": "to change if you don't know the exact schema yet, right?",
+  "zh": "改变的东西，如果你还不知道确切的模式，对吧？"
+ },
+ {
+  "seg": 934,
+  "start": 3175.08,
+  "end": 3181.52,
+  "speaker": "Unknown",
+  "en": "So there's a lot of solutions that people think I need an",
+  "zh": "所以有很多解决方案，人们认为我需要一个架构"
+ },
+ {
+  "seg": 935,
+  "start": 3181.52,
+  "end": 3183.84,
+  "speaker": "Unknown",
+  "en": "architecture decision record because this is a hard thing to",
+  "zh": "决策记录，因为这是一个很难"
+ },
+ {
+  "seg": 936,
+  "start": 3183.84,
+  "end": 3185.6,
+  "speaker": "Unknown",
+  "en": "change. Like maybe the programming",
+  "zh": "改变的事情。也许编程"
+ },
+ {
+  "seg": 937,
+  "start": 3185.6,
+  "end": 3188.76,
+  "speaker": "Unknown",
+  "en": "language is a good thing to to write down.",
+  "zh": "语言是一个值得写下来的好东西。"
+ },
+ {
+  "seg": 938,
+  "start": 3189.96,
+  "end": 3192.6,
+  "speaker": "Unknown",
+  "en": "Although even with the Genting tooling, maybe there's options.",
+  "zh": "即使有了 Genting 工具，也许也有选项。"
+ },
+ {
+  "seg": 939,
+  "start": 3192.6,
+  "end": 3193.92,
+  "speaker": "Unknown",
+  "en": "Switch. Yeah, I have options nowadays.",
+  "zh": "切换。是的，我现在有选项。"
+ },
+ {
+  "seg": 940,
+  "start": 3193.96,
+  "end": 3196.16,
+  "speaker": "Unknown",
+  "en": "So like stuff becomes easy to change.",
+  "zh": "所以像这些东西变得容易改变。"
+ },
+ {
+  "seg": 941,
+  "start": 3196.16,
+  "end": 3199.56,
+  "speaker": "Unknown",
+  "en": "So just make sure you make it easy to change and don't accept",
+  "zh": "所以只要确保你让它变得容易改变，不要接受"
+ },
+ {
+  "seg": 942,
+  "start": 3199.56,
+  "end": 3201.12,
+  "speaker": "Unknown",
+  "en": "that it's hard. Yeah, definitely.",
+  "zh": "它很难这一点。是的，肯定。"
+ },
+ {
+  "seg": 943,
+  "start": 3201.48,
+  "end": 3202.72,
+  "speaker": "Unknown",
+  "en": "Thank you so much for coming on, Nikkei.",
+  "zh": "非常感谢你来参加，Nikkei。"
+ },
+ {
+  "seg": 944,
+  "start": 3202.72,
+  "end": 3204.48,
+  "speaker": "Unknown",
+  "en": "I really enjoyed this. This was great.",
+  "zh": "我真的很享受这个。这很棒。"
+ },
+ {
+  "seg": 945,
+  "start": 3204.88,
+  "end": 3208.08,
+  "speaker": "Unknown",
+  "en": "Thanks, it was a pleasure. All right, if you're still with",
+  "zh": "谢谢，这是我的荣幸。好的，如果你还在"
+ },
+ {
+  "seg": 946,
+  "start": 3208.08,
+  "end": 3209.92,
+  "speaker": "Unknown",
+  "en": "us listening, let me know in the comments section what you",
+  "zh": "听我们的，请在评论区告诉我你对"
+ },
+ {
+  "seg": 947,
+  "start": 3209.92,
+  "end": 3211.88,
+  "speaker": "Unknown",
+  "en": "thought of this episode and we'll see you in the next one.",
+  "zh": "这一集的看法，我们下一期再见。"
+ }
+]

@@ -25,7 +25,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Peter Steinberger]] · [[OpenAI]] · [[智能体]] · [[Codex]] · [[循环]] · [[协作界面]] · [[测试框架]] · [[压缩]] · [[委托]] · [[持久化上下文]]
+[[Peter Steinberger]] · [[OpenAI]] · [[智能体]] · [[Codex]] · [[循环]] · [[协作界面]] · [[harness]] · [[压缩]] · [[委托]] · [[持久化上下文]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":37,"智能体":86,"Codex":16,"循环":3,"协作界面":1,"测试框架":10,"压缩":1,"委托":1,"持久化上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":37,"智能体":88,"Codex":16,"循环":3,"协作界面":1,"harness":11,"压缩":1,"委托":1,"持久化上下文":1}</script>
 
 <script>
 (function(){

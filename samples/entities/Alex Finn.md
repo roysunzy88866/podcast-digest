@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":4,"Anthropic":46,"open ai":2,"Codex":16,"智能体":86,"提示词":2,"原型":2,"浏览器使用":2}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":4,"Anthropic":47,"open ai":2,"Codex":16,"智能体":88,"提示词":2,"原型":2,"浏览器使用":2}</script>
 
 <script>
 (function(){

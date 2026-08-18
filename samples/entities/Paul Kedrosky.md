@@ -47,7 +47,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[数据中心]] · [[token]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[测试框架]] · [[预训练]] · [[后训练]] · [[AGI]]
+[[数据中心]] · [[token]] · [[GPU]] · [[推理]] · [[商业地产]] · [[前沿模型]] · [[harness]] · [[预训练]] · [[后训练]] · [[AGI]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":2,"token":2,"GPU":3,"推理":1,"商业地产":1,"前沿模型":3,"测试框架":10,"预训练":3,"后训练":8,"AGI":10}</script>
+<script type="application/json" class="pd-epn">{"数据中心":2,"token":2,"GPU":3,"推理":1,"商业地产":1,"前沿模型":3,"harness":11,"预训练":3,"后训练":8,"AGI":10}</script>
 
 <script>
 (function(){

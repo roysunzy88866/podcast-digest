@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Slack]] · [[GitHub]] · [[Benjamin Mann]] · [[Madhavan Ramanujam]] · [[Claire]] · [[Anthropic]] · [[Cursor]] · [[ChatPRD]]
 
-<script type="application/json" class="pd-epn">{"智能体":86,"Lenny":52,"Slack":18,"GitHub":13,"Benjamin Mann":1,"Madhavan Ramanujam":1,"Claire":1,"Anthropic":46,"Cursor":17,"ChatPRD":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":88,"Lenny":52,"Slack":18,"GitHub":14,"Benjamin Mann":1,"Madhavan Ramanujam":1,"Claire":1,"Anthropic":47,"Cursor":18,"ChatPRD":2}</script>
 
 <script>
 (function(){

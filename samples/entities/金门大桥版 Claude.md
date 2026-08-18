@@ -49,7 +49,7 @@ unlisted: true
 
 [[Dianne Penn]] · [[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[前沿模型]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":52,"Anthropic":46,"OpenAI":37,"Claude":17,"Claude Code":22,"评估":10,"涌现能力":1,"前沿模型":3,"技能":4}</script>
+<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":52,"Anthropic":47,"OpenAI":37,"Claude":18,"Claude Code":23,"评估":10,"涌现能力":1,"前沿模型":3,"技能":4}</script>
 
 <script>
 (function(){

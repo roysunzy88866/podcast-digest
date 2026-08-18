@@ -25,7 +25,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Isabella Kai He]] · [[Anthropic]] · [[智能体]] · [[测试框架]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志追踪]] · [[泄露的凭证]] · [[可观测性]]
+[[Isabella Kai He]] · [[Anthropic]] · [[智能体]] · [[harness]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志追踪]] · [[泄露的凭证]] · [[可观测性]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":46,"智能体":86,"测试框架":10,"沙箱":18,"智能体循环":1,"上下文工程":5,"会话日志追踪":1,"泄露的凭证":3,"可观测性":5}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":47,"智能体":88,"harness":11,"沙箱":18,"智能体循环":1,"上下文工程":5,"会话日志追踪":1,"泄露的凭证":3,"可观测性":5}</script>
 
 <script>
 (function(){

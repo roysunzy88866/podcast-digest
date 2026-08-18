@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Palantir]] · [[Meta]] · [[Garrett Lord]] · [[Alexandr Wang]] · [[Lenny]] · [[MuseSpark]] · [[Handshake]] · [[开源模型]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":86,"Palantir":6,"Meta":14,"Garrett Lord":1,"Alexandr Wang":1,"Lenny":52,"MuseSpark":1,"Handshake":1,"开源模型":6,"后训练":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":88,"Palantir":6,"Meta":14,"Garrett Lord":1,"Alexandr Wang":1,"Lenny":52,"MuseSpark":1,"Handshake":1,"开源模型":6,"后训练":8}</script>
 
 <script>
 (function(){

@@ -1,0 +1,663 @@
+{
+  "episode_id": "2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers",
+  "podcast": "Beyond Coding",
+  "date": "2026-05-28",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "验证瓶颈",
+    "认知债务",
+    "FOMO"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体描述为可以委派技术任务的模型与执行框架（harness）的组合；讨论了多智能体并行时需要身份和治理机制来限制爆炸半径，以及与智能体结对可能让人丧失学习机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.7199999999999998,
+            7.04
+          ],
+          "quote": "with using agent harnesses. This is Adios Mani.",
+          "speaker": ""
+        },
+        {
+          "seg": 31,
+          "t": [
+            95.04,
+            99.2
+          ],
+          "quote": "So the first is if you are building a personal agent and",
+          "speaker": ""
+        },
+        {
+          "seg": 59,
+          "t": [
+            174.04,
+            177.24
+          ],
+          "quote": "personal agent set up and they'll say like, Oh yeah, I've",
+          "speaker": ""
+        },
+        {
+          "seg": 70,
+          "t": [
+            206.08,
+            208.48
+          ],
+          "quote": "Better agent experience. I guess absolutely.",
+          "speaker": ""
+        },
+        {
+          "seg": 99,
+          "t": [
+            298.36,
+            302.44
+          ],
+          "quote": "with using agent harnesses. So for example, a lot of people",
+          "speaker": ""
+        },
+        {
+          "seg": 100,
+          "t": [
+            302.44,
+            304.76
+          ],
+          "quote": "when they think about agent harnesses, they think about the",
+          "speaker": ""
+        },
+        {
+          "seg": 118,
+          "t": [
+            364.36,
+            367.72
+          ],
+          "quote": "any of these tasks to an agent and have them actually complete",
+          "speaker": ""
+        },
+        {
+          "seg": 139,
+          "t": [
+            424.8,
+            427
+          ],
+          "quote": "model, right? So an agent is the model and the",
+          "speaker": ""
+        },
+        {
+          "seg": 259,
+          "t": [
+            795.08,
+            797.6
+          ],
+          "quote": "in there and make the changes I need to just in case the agent",
+          "speaker": ""
+        },
+        {
+          "seg": 268,
+          "t": [
+            819.4,
+            824.32
+          ],
+          "quote": "the agent to fix it. And that's an OK mindset.",
+          "speaker": ""
+        },
+        {
+          "seg": 270,
+          "t": [
+            827.32,
+            830.88
+          ],
+          "quote": "whether the agent actually got those fixes right or not right?",
+          "speaker": ""
+        },
+        {
+          "seg": 292,
+          "t": [
+            892.92,
+            896
+          ],
+          "quote": "agent doing something wrong and then that just getting, you",
+          "speaker": ""
+        },
+        {
+          "seg": 300,
+          "t": [
+            922.76,
+            925.76
+          ],
+          "quote": "So that even if you're just using the agent to keep doing",
+          "speaker": ""
+        },
+        {
+          "seg": 313,
+          "t": [
+            960.84,
+            963.52
+          ],
+          "quote": "you can do that in a specific agent that you build.",
+          "speaker": ""
+        },
+        {
+          "seg": 344,
+          "t": [
+            1058.12,
+            1061.6
+          ],
+          "quote": "from just working more closely with the local agent to looking",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集将 harness 描述为套在模型外面、让智能体得以运作的执行框架；智能体是模型和 harness 在一起；各家的 harness 能力正在趋同收敛",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            17.44,
+            19.8
+          ],
+          "quote": "to my harness and and see what it does.",
+          "speaker": ""
+        },
+        {
+          "seg": 94,
+          "t": [
+            278.4,
+            282.24
+          ],
+          "quote": "I think that one of the things I love about a good harness is",
+          "speaker": ""
+        },
+        {
+          "seg": 104,
+          "t": [
+            314.56,
+            318.4
+          ],
+          "quote": "delegate any technical task to my harness and, and see what it",
+          "speaker": ""
+        },
+        {
+          "seg": 124,
+          "t": [
+            380.44,
+            384.72
+          ],
+          "quote": "From a harness perspective, the thing we build around agents or",
+          "speaker": ""
+        },
+        {
+          "seg": 128,
+          "t": [
+            393.96,
+            395.56
+          ],
+          "quote": "This harness is my favorite, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 138,
+          "t": [
+            422.28,
+            424.8
+          ],
+          "quote": "version of a harness. And behind that harness is the",
+          "speaker": ""
+        },
+        {
+          "seg": 140,
+          "t": [
+            427,
+            431.4
+          ],
+          "quote": "harness together. And so very often, you know your",
+          "speaker": ""
+        },
+        {
+          "seg": 141,
+          "t": [
+            431.4,
+            433.8
+          ],
+          "quote": "perspective is going to be, well, if I'm using the harness",
+          "speaker": ""
+        },
+        {
+          "seg": 144,
+          "t": [
+            441.04,
+            443.36
+          ],
+          "quote": "the model being optimized for the harness, all of those things",
+          "speaker": ""
+        },
+        {
+          "seg": 148,
+          "t": [
+            452.04,
+            455.4
+          ],
+          "quote": "subscription or your API keys with a different harness, then",
+          "speaker": ""
+        },
+        {
+          "seg": 154,
+          "t": [
+            470.08,
+            472.6
+          ],
+          "quote": "stick with a harness that you know the main company is giving",
+          "speaker": ""
+        },
+        {
+          "seg": 157,
+          "t": [
+            477.52,
+            480.44
+          ],
+          "quote": "And if they don't, I can always go try that harness out myself",
+          "speaker": ""
+        },
+        {
+          "seg": 164,
+          "t": [
+            497.56,
+            500.36
+          ],
+          "quote": "focus on one harness because I also see harnesses learning from",
+          "speaker": ""
+        },
+        {
+          "seg": 179,
+          "t": [
+            543.04,
+            546.32
+          ],
+          "quote": "If there's a harness you're using or tool you're using that",
+          "speaker": ""
+        },
+        {
+          "seg": 185,
+          "t": [
+            567.52,
+            571
+          ],
+          "quote": "project or that other harness the patterns that you're",
+          "speaker": ""
+        },
+        {
+          "seg": 281,
+          "t": [
+            861.56,
+            864.88
+          ],
+          "quote": "dependencies and yeah, more of the harness, maybe even",
+          "speaker": ""
+        },
+        {
+          "seg": 282,
+          "t": [
+            864.88,
+            867.28
+          ],
+          "quote": "orchestration around a harness specifically that I have the",
+          "speaker": ""
+        },
+        {
+          "seg": 314,
+          "t": [
+            963.52,
+            965.88
+          ],
+          "quote": "You can do it in the skills. You can build around the harness",
+          "speaker": ""
+        },
+        {
+          "seg": 316,
+          "t": [
+            968.08,
+            969.44
+          ],
+          "quote": "harness perspective is already in there.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "cognitive-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知债务 (cognitive debt)",
+      "file": "认知债务",
+      "primary": true,
+      "how_described": "本集将认知债务描述为：代码生成太快，导致你开始丧失关于事情如何完成的肌肉记忆和技能——如果有天智能体帮不上忙，你还能卷起袖子自己干吗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            757.16,
+            762.6
+          ],
+          "quote": "One of them is cognitive debt. And so especially as we get used",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "cognitive-surrender",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知投降 (cognitive surrender)",
+      "file": "认知投降",
+      "primary": true,
+      "how_described": "本集将认知投降描述为：你完全停止批判性思维，智能体生成什么就提交什么、发布什么，出了错再让智能体修——但你怎么判断智能体修对了没有",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            38.68,
+            41.48
+          ],
+          "quote": "Cognitive surrender. And I think that what you need",
+          "speaker": ""
+        },
+        {
+          "seg": 262,
+          "t": [
+            802.96,
+            805.92
+          ],
+          "quote": "more and more of these days, which is cognitive surrender.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集说生成现在变得容易了，验证才是当前真正的瓶颈；需要将什么是好的、什么是对的编码进系统（用户旅程、测试、视觉回归测试），让智能体输出有东西可对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            831.36,
+            835.8
+          ],
+          "quote": "So generation is now easy. Verification is a big thing that",
+          "speaker": ""
+        },
+        {
+          "seg": 273,
+          "t": [
+            838.96,
+            841.2
+          ],
+          "quote": "Verification. If we solve that problem, we",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "blast-radius",
+      "type": "concept",
+      "role": "concept",
+      "name": "爆炸半径 (blast radius)",
+      "file": "爆炸半径",
+      "primary": true,
+      "how_described": "本集在多智能体治理语境下使用爆炸半径：如果智能体可以做任何事情，你想限制爆炸半径，因为已经看到很多智能体去做你完全没预料到的事情的案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            131.92,
+            134.84
+          ],
+          "quote": "anything, you want to limit the blast radius because we have",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "fomo",
+      "type": "concept",
+      "role": "concept",
+      "name": "FOMO",
+      "file": "FOMO",
+      "primary": true,
+      "how_described": "本集描述人们因为看到别人试验个人智能体设置就产生错失恐惧，盲目实验导致泄露 API 密钥或收到巨额账单；也指对工具不断更新的焦虑感",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            169.8,
+            171.84
+          ],
+          "quote": "feel a lot of FOMO right now, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 167,
+          "t": [
+            504.72,
+            509.8
+          ],
+          "quote": "earlier where we were talking about how a lot of us feel FOMO",
+          "speaker": ""
+        },
+        {
+          "seg": 184,
+          "t": [
+            564.84,
+            567.52
+          ],
+          "quote": "feel FOMO about, oh hey, I heard good things about that other",
+          "speaker": ""
+        },
+        {
+          "seg": 196,
+          "t": [
+            598.24,
+            600.28
+          ],
+          "quote": "Yeah. This feeling of FOMO really",
+          "speaker": ""
+        },
+        {
+          "seg": 202,
+          "t": [
+            613.76,
+            617.72
+          ],
+          "quote": "capabilities happened last year and I felt exactly that FOMO.",
+          "speaker": ""
+        },
+        {
+          "seg": 211,
+          "t": [
+            640.6,
+            644.64
+          ],
+          "quote": "So if you go on X for example, right, you can feel FOMO very",
+          "speaker": ""
+        },
+        {
+          "seg": 230,
+          "t": [
+            700.96,
+            704.44
+          ],
+          "quote": "So you can still feel your way through the FOMO a little bit",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "cognitive-bandwidth",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知带宽 (cognitive bandwidth)",
+      "file": "认知带宽",
+      "primary": true,
+      "how_described": "本集说运行多个智能体不等于你有更多脑子，因为认知带宽不能并行化；建议把任务分为孤立低风险任务（委派给后台智能体）和需要动脑的任务（自己盯）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1021.2,
+            1026.48
+          ],
+          "quote": "to go around because you have cognitive bandwidth that doesn't",
+          "speaker": ""
+        },
+        {
+          "seg": 342,
+          "t": [
+            1052.84,
+            1055.72
+          ],
+          "quote": "really want to use my cognitive bandwidth to pay closer",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "innovation-budget",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新预算 (innovation budget)",
+      "file": "创新预算",
+      "primary": false,
+      "how_described": "本集建议把尝试另一个工具的时间看作拥有一个创新代币或创新预算，要非常明确你在哪里花费那个实验时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            535.16,
+            538.2
+          ],
+          "quote": "innovation budget, right? You don't have all the time in",
+          "speaker": ""
+        },
+        {
+          "seg": 320,
+          "t": [
+            977.2,
+            979.76
+          ],
+          "quote": "And I feel like the innovation budget that you talked about,",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "google-cloud-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Google Cloud AI",
+      "file": "Google Cloud AI",
+      "primary": false,
+      "how_described": "本集开头提到嘉宾 Adios Mani 是 Google Cloud AI 的一位总监",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.2,
+            10.72
+          ],
+          "quote": "He's a director at Google Cloud AI, famous for his work on",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集在提到 Claude code 时致敬了 Anthropic 和那里的团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            275.48,
+            277.4
+          ],
+          "quote": "Shout out to Anthropic and the team there.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude code",
+      "file": "Claude code",
+      "primary": false,
+      "how_described": "本集将其作为 harness 的具体例子，嘉宾说自己喜欢使用 Claude code，并用它处理了为 WAV 文件添加淡出效果的任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            272.8,
+            275.28
+          ],
+          "quote": "personal projects. I also love using Claude code.",
+          "speaker": ""
+        },
+        {
+          "seg": 112,
+          "t": [
+            344.16,
+            347.44
+          ],
+          "quote": "Claude code. It figured out what tools to",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

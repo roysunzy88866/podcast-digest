@@ -165,6 +165,8 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 **换个口味**
 
+- [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:开源软件 (open source)</span>
+- [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|2026 工程师生存指南：Reddit 热帖直答]]<span class="pd-rz">同概念:开源软件 (open source)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>

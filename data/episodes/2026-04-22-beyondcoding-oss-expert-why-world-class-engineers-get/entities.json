@@ -1,0 +1,999 @@
+{
+  "episode_id": "2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get",
+  "podcast": "Beyond Coding",
+  "date": "2026-04-22",
+  "tags": [
+    "开源贡献",
+    "AI 编程",
+    "工匠精神",
+    "社区信任",
+    "职业成长"
+  ],
+  "categories": [
+    "AI 编程",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "bruno-scott-sperka",
+      "type": "person",
+      "role": "host",
+      "name": "Bruno Scott Sperka",
+      "file": "Bruno Scott Sperka",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            46.68,
+            50.44
+          ],
+          "quote": "then this episode is for you. I'm joined by Bruno Scott Sperka",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集将其作为开源贡献的核心平台，提到在 GitHub 上筛选活跃贡献者、查看被合并的 PR 来复制维护者风格，以及匿名账号批量生成 PR 的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            174.2,
+            176.64
+          ],
+          "quote": "sometimes in GitHub you can see how many times you edited a",
+          "speaker": ""
+        },
+        {
+          "seg": 91,
+          "t": [
+            292.64,
+            295.64
+          ],
+          "quote": "GitHub, there's a great way to figure out who contributes the",
+          "speaker": ""
+        },
+        {
+          "seg": 232,
+          "t": [
+            748.36,
+            751.28
+          ],
+          "quote": "At first understanding the different GitHub issues, even",
+          "speaker": ""
+        },
+        {
+          "seg": 233,
+          "t": [
+            751.28,
+            754.36
+          ],
+          "quote": "looking whether there is a GitHub issue or not making one",
+          "speaker": ""
+        },
+        {
+          "seg": 389,
+          "t": [
+            1249.28,
+            1253.4
+          ],
+          "quote": "anonymized account on GitHub. I can contribute a whole lot and",
+          "speaker": ""
+        },
+        {
+          "seg": 393,
+          "t": [
+            1263.4,
+            1266.08
+          ],
+          "quote": "there was a one-on-one. Patrick, is this on GitHub?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "type": "company",
+      "role": "company",
+      "name": "Terraform",
+      "file": "Terraform",
+      "primary": true,
+      "how_described": "本集说它是一个巨大的生态系统，Bruno 的 Go 代码写法基本上是被 Terraform 生态里的项目塑造出来的，他的第一个贡献就是为 Terraform ABS provider 添加缺失的资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            93.52,
+            96.64
+          ],
+          "quote": "Terraform has been a huge sort of ecosystem as well as the tool",
+          "speaker": ""
+        },
+        {
+          "seg": 148,
+          "t": [
+            467.96,
+            470.64
+          ],
+          "quote": "your industry. For me, oh, it's Terraform and",
+          "speaker": ""
+        },
+        {
+          "seg": 167,
+          "t": [
+            530.8,
+            532.56
+          ],
+          "quote": "example Terraform or Kubernetes a lot.",
+          "speaker": ""
+        },
+        {
+          "seg": 180,
+          "t": [
+            581.04,
+            584.88
+          ],
+          "quote": "required for services were not in the Terraform ABS provider at",
+          "speaker": ""
+        },
+        {
+          "seg": 186,
+          "t": [
+            601.28,
+            604
+          ],
+          "quote": "new Terraform resources that I added and they were quite",
+          "speaker": ""
+        },
+        {
+          "seg": 194,
+          "t": [
+            627.44,
+            631.24
+          ],
+          "quote": "early in my career where we also were working with Terraform and",
+          "speaker": ""
+        },
+        {
+          "seg": 219,
+          "t": [
+            699.08,
+            701.04
+          ],
+          "quote": "Kubernetes. I get to use Terraform or",
+          "speaker": ""
+        },
+        {
+          "seg": 224,
+          "t": [
+            715.16,
+            720.44
+          ],
+          "quote": "configuration files for me to better understand Terraform, I",
+          "speaker": ""
+        },
+        {
+          "seg": 612,
+          "t": [
+            1947.56,
+            1950.92
+          ],
+          "quote": "ranks. So you can become a Terraform",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "hashicorp",
+      "type": "company",
+      "role": "company",
+      "name": "Hashicorp",
+      "file": "Hashicorp",
+      "primary": true,
+      "how_described": "本集说 Bruno 因为在 Terraform 生态的开源贡献，最终离开 Zebia 去为 Hashicorp 工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            103.28,
+            106.92
+          ],
+          "quote": "currently employed at, to work for Hashicorp, which was quite",
+          "speaker": ""
+        },
+        {
+          "seg": 150,
+          "t": [
+            474.92,
+            478.36
+          ],
+          "quote": "Martin Atkins and a lot of folks over at Hashicorp spend a decade",
+          "speaker": ""
+        },
+        {
+          "seg": 526,
+          "t": [
+            1685.92,
+            1688.36
+          ],
+          "quote": "job at Hashicorp. True.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "company",
+      "role": "company",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集提到 Bruno 日常大量使用 Kubernetes，能够为它做贡献也让他更好地理解自己使用的工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            530.8,
+            532.56
+          ],
+          "quote": "example Terraform or Kubernetes a lot.",
+          "speaker": ""
+        },
+        {
+          "seg": 219,
+          "t": [
+            699.08,
+            701.04
+          ],
+          "quote": "Kubernetes. I get to use Terraform or",
+          "speaker": ""
+        },
+        {
+          "seg": 244,
+          "t": [
+            790.4,
+            792.4
+          ],
+          "quote": "It was about something related to Kubernetes.",
+          "speaker": ""
+        },
+        {
+          "seg": 322,
+          "t": [
+            1034.96,
+            1038.8
+          ],
+          "quote": "Kubernetes deployment tool. I won't bother with introducing",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "flux",
+      "type": "company",
+      "role": "company",
+      "name": "Flux",
+      "file": "Flux",
+      "primary": false,
+      "how_described": "本集说 Flux 是一个非常流行的 Kubernetes 部署工具，其团队用智能体来尝试复现竞态条件 bug，而不是维护者自己花时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1032.119,
+            1034.96
+          ],
+          "quote": "think the Flux team. Flux is a very popular",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "crow",
+      "type": "company",
+      "role": "company",
+      "name": "Crow",
+      "file": "Crow",
+      "primary": false,
+      "how_described": "本集说 Crow 是 Google、Microsoft 和 Azure 联合的资源协调器项目，Bruno 在会议上认识其维护者后当晚回酒店写代码、第二天就被合并",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            1303.88,
+            1307.12
+          ],
+          "quote": "Crow cube resource orchestrator, I got certain permissions to do",
+          "speaker": ""
+        },
+        {
+          "seg": 443,
+          "t": [
+            1430.16,
+            1433.2
+          ],
+          "quote": "Crow, for example, Cube Resource Orchestrator, I reached out to",
+          "speaker": ""
+        },
+        {
+          "seg": 663,
+          "t": [
+            2106.48,
+            2109.24
+          ],
+          "quote": "I started contributing to Crow, which is a joint effort by",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "vouch",
+      "type": "company",
+      "role": "company",
+      "name": "Vouch",
+      "file": "Vouch",
+      "primary": false,
+      "how_described": "本集说 Mitchell 正在原型化一个叫 Vouch 的系统，采用默认拒绝策略——你得先证明自己是可信的提交者，否则 PR 直接关闭",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            1000.56,
+            1005.64
+          ],
+          "quote": "working or prototyping a system called Vouch where instead of",
+          "speaker": ""
+        },
+        {
+          "seg": 686,
+          "t": [
+            2181.56,
+            2183.84
+          ],
+          "quote": "or it was the other V vouch? Yeah, vouch.",
+          "speaker": ""
+        },
+        {
+          "seg": 687,
+          "t": [
+            2183.96,
+            2187
+          ],
+          "quote": "That that will in the end, if the vision of Vouch holds true,",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集将其描述为一种礼物形式——你把代码交给社区，但不获得决定什么进入项目的权力；它有一致性和坚持胜过强度的天然过滤器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.92,
+            13.2
+          ],
+          "quote": "open source is at the moment, it's sort of being killed with",
+          "speaker": ""
+        },
+        {
+          "seg": 16,
+          "t": [
+            44.04,
+            46.68
+          ],
+          "quote": "contributing to open source but you haven't actually started,",
+          "speaker": ""
+        },
+        {
+          "seg": 18,
+          "t": [
+            50.44,
+            54.12
+          ],
+          "quote": "and he is an open source legend. We discuss how open source has",
+          "speaker": ""
+        },
+        {
+          "seg": 23,
+          "t": [
+            70.48,
+            72.84
+          ],
+          "quote": "I think open source is one of the coolest things we have",
+          "speaker": ""
+        },
+        {
+          "seg": 26,
+          "t": [
+            78.48,
+            81.08
+          ],
+          "quote": "wonder what role open source has played throughout your career.",
+          "speaker": ""
+        },
+        {
+          "seg": 35,
+          "t": [
+            109.56,
+            113.52
+          ],
+          "quote": "I thank to to open source. And it's that form of, like I",
+          "speaker": ""
+        },
+        {
+          "seg": 72,
+          "t": [
+            234.84,
+            238.04
+          ],
+          "quote": "contribute to open source, but then their PR gets stale or it",
+          "speaker": ""
+        },
+        {
+          "seg": 83,
+          "t": [
+            262.76,
+            267.72
+          ],
+          "quote": "would say in open source. I had the exact same experience",
+          "speaker": ""
+        },
+        {
+          "seg": 121,
+          "t": [
+            386.72,
+            388.84
+          ],
+          "quote": "contributing to open source. It's open.",
+          "speaker": ""
+        },
+        {
+          "seg": 140,
+          "t": [
+            440.8,
+            443.76
+          ],
+          "quote": "take inspiration from how open source code is is written,",
+          "speaker": ""
+        },
+        {
+          "seg": 203,
+          "t": [
+            647.4,
+            650.44
+          ],
+          "quote": "Would you advise people to start contributing to open source in",
+          "speaker": ""
+        },
+        {
+          "seg": 214,
+          "t": [
+            682.8,
+            685.76
+          ],
+          "quote": "contribute to open source. But if you generally are",
+          "speaker": ""
+        },
+        {
+          "seg": 230,
+          "t": [
+            738.8,
+            740.52
+          ],
+          "quote": "contribute to open source using AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 239,
+          "t": [
+            774.6,
+            778.36
+          ],
+          "quote": "Last time I spoke about open source on the podcast in and of",
+          "speaker": ""
+        },
+        {
+          "seg": 241,
+          "t": [
+            781.56,
+            783.76
+          ],
+          "quote": "podcast and he was saying don't contribute to open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 250,
+          "t": [
+            805.12,
+            806.36
+          ],
+          "quote": "people to contribute to open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 262,
+          "t": [
+            842.48,
+            847.08
+          ],
+          "quote": "open source is at the moment, and that's how I feel, it's sort",
+          "speaker": ""
+        },
+        {
+          "seg": 269,
+          "t": [
+            864.68,
+            867.92
+          ],
+          "quote": "There's this filter on on open source contributions.",
+          "speaker": ""
+        },
+        {
+          "seg": 270,
+          "t": [
+            867.92,
+            869.76
+          ],
+          "quote": "There's a filter on open source in general.",
+          "speaker": ""
+        },
+        {
+          "seg": 292,
+          "t": [
+            940.72,
+            945.08
+          ],
+          "quote": "I feel like reviewing in and outside of open source is going",
+          "speaker": ""
+        },
+        {
+          "seg": 295,
+          "t": [
+            951.68,
+            954.12
+          ],
+          "quote": "that review as much code. I think as open source",
+          "speaker": ""
+        },
+        {
+          "seg": 337,
+          "t": [
+            1080.52,
+            1082.92
+          ],
+          "quote": "agentic tools when you contribute to open source?",
+          "speaker": ""
+        },
+        {
+          "seg": 386,
+          "t": [
+            1237.72,
+            1241.92
+          ],
+          "quote": "talked about someone that hacked something in an open source",
+          "speaker": ""
+        },
+        {
+          "seg": 429,
+          "t": [
+            1383.96,
+            1386.44
+          ],
+          "quote": "relationship with most most folks in in open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 441,
+          "t": [
+            1423.56,
+            1425.72
+          ],
+          "quote": "It's trust. Yeah, this open source is built",
+          "speaker": ""
+        },
+        {
+          "seg": 463,
+          "t": [
+            1487.32,
+            1490.92
+          ],
+          "quote": "shared is never run an open source project as a business",
+          "speaker": ""
+        },
+        {
+          "seg": 481,
+          "t": [
+            1547.96,
+            1550.92
+          ],
+          "quote": "understand open source. I've always given the advice of",
+          "speaker": ""
+        },
+        {
+          "seg": 500,
+          "t": [
+            1604.4,
+            1607.12
+          ],
+          "quote": "alternatives. I think open source is a good",
+          "speaker": ""
+        },
+        {
+          "seg": 522,
+          "t": [
+            1672.4,
+            1674.2
+          ],
+          "quote": "But that's not what I do open source for.",
+          "speaker": ""
+        },
+        {
+          "seg": 582,
+          "t": [
+            1853.52,
+            1855.96
+          ],
+          "quote": "single line of code to open source for the past like few",
+          "speaker": ""
+        },
+        {
+          "seg": 588,
+          "t": [
+            1872.32,
+            1875.4
+          ],
+          "quote": "right? Open source doesn't wait for you",
+          "speaker": ""
+        },
+        {
+          "seg": 610,
+          "t": [
+            1941.12,
+            1944.72
+          ],
+          "quote": "sort of trying to prove myself. So open source and vendors",
+          "speaker": ""
+        },
+        {
+          "seg": 627,
+          "t": [
+            1995.8,
+            1998.36
+          ],
+          "quote": "I guess that's what we that's what I do open source for.",
+          "speaker": ""
+        },
+        {
+          "seg": 653,
+          "t": [
+            2076.239,
+            2079.48
+          ],
+          "quote": "that are new to open source is something that was very valuable",
+          "speaker": ""
+        },
+        {
+          "seg": 678,
+          "t": [
+            2153.48,
+            2156.52
+          ],
+          "quote": "to open source, also your career path and what it is meant",
+          "speaker": ""
+        },
+        {
+          "seg": 684,
+          "t": [
+            2175.08,
+            2176.96
+          ],
+          "quote": "open source. Do you think it's going to get",
+          "speaker": ""
+        },
+        {
+          "seg": 691,
+          "t": [
+            2193.12,
+            2195.64
+          ],
+          "quote": "which makes the open source not that open for contributors.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说人们随机瞄准仓库并针对它运行智能体来批量生成 PR，制造大量劣质内容；同时 Flux 团队也用智能体来复现 bug 而非自己花时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            858.88,
+            860.92
+          ],
+          "quote": "agent against it. People generally want to",
+          "speaker": ""
+        },
+        {
+          "seg": 273,
+          "t": [
+            877.44,
+            881.6
+          ],
+          "quote": "an agent, but making sure it's conform the language of the",
+          "speaker": ""
+        },
+        {
+          "seg": 373,
+          "t": [
+            1195.28,
+            1199.04
+          ],
+          "quote": "is it the agent or is it the author of the code I I generally",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集反复讨论 PR 的创建方式——标题、提交信息、PR 描述都要对标维护者风格以降低审阅者认知负荷；Bruno 有时在一个 PR 的描述上花两三小时",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            179.4,
+            183.72
+          ],
+          "quote": "on a PR for an hour and I spent about two hours or three hours",
+          "speaker": ""
+        },
+        {
+          "seg": 55,
+          "t": [
+            183.72,
+            188.08
+          ],
+          "quote": "on the actual proposal or sort of the PR description and I it's",
+          "speaker": ""
+        },
+        {
+          "seg": 72,
+          "t": [
+            234.84,
+            238.04
+          ],
+          "quote": "contribute to open source, but then their PR gets stale or it",
+          "speaker": ""
+        },
+        {
+          "seg": 87,
+          "t": [
+            276.96,
+            280.28
+          ],
+          "quote": "thing, but the way how you create your PR, how you, what",
+          "speaker": ""
+        },
+        {
+          "seg": 318,
+          "t": [
+            1020.48,
+            1023.12
+          ],
+          "quote": "closes your PR if it's, if it's slop and the next time if you",
+          "speaker": ""
+        },
+        {
+          "seg": 356,
+          "t": [
+            1146.68,
+            1150.36
+          ],
+          "quote": "sure I understand everything, crafting a proper PR description",
+          "speaker": ""
+        },
+        {
+          "seg": 415,
+          "t": [
+            1341.8,
+            1347.24
+          ],
+          "quote": "But yeah, I I would never reject the PR if it made sense.",
+          "speaker": ""
+        },
+        {
+          "seg": 615,
+          "t": [
+            1958.56,
+            1960.8
+          ],
+          "quote": "share with you. So the amount of like PR she's",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 是革命性工具，降低了贡献门槛但也制造了大量垃圾；可以用 AI 辅助生成代码和研究代码库，但不要把思考外包给它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            738.8,
+            740.52
+          ],
+          "quote": "contribute to open source using AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 255,
+          "t": [
+            817.84,
+            819.92
+          ],
+          "quote": "there has always been before AI as well.",
+          "speaker": ""
+        },
+        {
+          "seg": 256,
+          "t": [
+            820.8,
+            824.48
+          ],
+          "quote": "AI has lowered the contribution barrier for a lot of folks, but",
+          "speaker": ""
+        },
+        {
+          "seg": 286,
+          "t": [
+            918.8,
+            922
+          ],
+          "quote": "reviewing it, which could mean, oh, it's generated by AI, so I",
+          "speaker": ""
+        },
+        {
+          "seg": 311,
+          "t": [
+            997.2,
+            1000.44
+          ],
+          "quote": "He also deals with a lot of like AI contributions and he's",
+          "speaker": ""
+        },
+        {
+          "seg": 345,
+          "t": [
+            1103.92,
+            1106.88
+          ],
+          "quote": "I love bear programming. It's what I used to do before AI",
+          "speaker": ""
+        },
+        {
+          "seg": 388,
+          "t": [
+            1246.48,
+            1249.28
+          ],
+          "quote": "which gave me a thought because right now I can make AI think",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "open-core-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源核心模型 (open core model)",
+      "file": "开源核心模型",
+      "primary": false,
+      "how_described": "本集提到一些公司采用开源核心模型，从中获得快速反馈和免费测试用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            212.6,
+            216.28
+          ],
+          "quote": "companies approach this open core model is where they get",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "buck-bounty-program",
+      "type": "concept",
+      "role": "concept",
+      "name": "Buck Bounty 计划 (Buck Bounty program)",
+      "file": "Buck Bounty 计划",
+      "primary": false,
+      "how_described": "本集说 Carl 最近关闭了他的 Buck Bounty 计划，因为被大量没有意义的尝试轰炸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            891.64,
+            894.76
+          ],
+          "quote": "Carl recently closed his Buck Bounty program because it was",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "craftsmanship",
+      "type": "concept",
+      "role": "concept",
+      "name": "工匠精神 (craftsmanship)",
+      "file": "工匠精神",
+      "primary": true,
+      "how_described": "本集说 Bruno 做开源的原因是工匠精神以及试图在特定工具和行业里定位为思想领导力，而不是为了求职",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 523,
+          "t": [
+            1674.2,
+            1678.6
+          ],
+          "quote": "It's it's, it's sort of this, this, this craftsmanship and me",
+          "speaker": ""
+        },
+        {
+          "seg": 697,
+          "t": [
+            2211.36,
+            2213.36
+          ],
+          "quote": "personality and your craftsmanship when you",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

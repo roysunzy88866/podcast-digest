@@ -9,14 +9,14 @@ cover: "#64748b"
 description: 黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。
 host: "[[Jensen Huang]]"
 companies: ["[[NVIDIA]]", "[[LangChain]]", "[[Nemotron]]"]
-concepts: ["[[智能体]]", "[[测试框架]]", "[[前沿模型]]", "[[开放权重模型]]", "[[护栏]]", "[[沙箱]]", "[[后训练]]"]
+concepts: ["[[智能体]]", "[[harness]]", "[[前沿模型]]", "[[开放权重模型]]", "[[护栏]]", "[[沙箱]]", "[[后训练]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age#post","headline":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","description":"黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。","datePublished":"2026-07-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"Nemotron"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"后训练 (post-training)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","item":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age#post","headline":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","description":"黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。","datePublished":"2026-07-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"Nemotron"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"后训练 (post-training)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","item":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[NVIDIA]] · [[LangChain]] · [[Nemotron]]
 >
-> **概念** [[智能体]] · [[测试框架]] · [[前沿模型]] · [[开放权重模型]] · [[护栏]] · [[沙箱]] · [[后训练]]
+> **概念** [[智能体]] · [[harness]] · [[前沿模型]] · [[开放权重模型]] · [[护栏]] · [[沙箱]] · [[后训练]]
 
 <div class="pd-tldr"><b>一句话</b>黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。</div>
 
@@ -54,7 +54,7 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 ## 聪明人需要好工具:模型之外的「harness」是什么
 
-模型变好了,光有模型就够吗?顺着主持人的追问,黄仁勋抛出了一个贯穿全场的概念:[[测试框架|harness]](驾驭机制)。
+模型变好了,光有模型就够吗?顺着主持人的追问,黄仁勋抛出了一个贯穿全场的概念:[[harness|harness]](驾驭机制)。
 
 你可以把 harness 理解为套在模型外面的一整套系统——框架、上下文、工具、记忆、护栏。他的核心比喻是:「一个聪明人变得超级有用,是当我们给了他获取重要信息的权限时」<button class="pd-ts" data-t="05:07" data-who="Jensen" data-en="And an intelligent person becomes super useful when we give them access to particularly important information. And so access to information is important. Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it." aria-label="回原文"></button>。
 
