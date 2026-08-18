@@ -1,0 +1,147 @@
+{
+  "title_zh": "GrokBot、Origin 与 Grok 4.6 实测",
+  "tldr": "主播实测 Cursor/XAI 三款新品：GrokBot 多智能体平台、Origin 代码托管、Grok 4.6 模型。",
+  "digest_md": "GrokBot 有一个杀手级功能：每个连接器——不管是 Gmail、Slack 还是 MCP——都能同时挂多个账号。如果你像主播一样有四个邮箱、七个 Slack 工作区，一个智能体就能遍历所有这些账号帮你干活。Claude 没做到，Codex 也没做到 [05:04 SPEAKER_00]。除此之外，GrokBot 附带大量开箱即用的插件，核心体验就是一个花哨的 MCP 客户端，加上每个智能体自带的虚拟机——能跑 Chrome、能用终端、能上网 [06:10 SPEAKER_00]。设置极其简单：创建一个 bot，启动虚拟机，告诉它要做什么，它就自动找连接器、自我配置、开始干活 [06:44 SPEAKER_00]。\n\n## GrokBot 的好用与不好用\n\n好用的地方全在连接器和简洁度。主播的做法是按角色建智能体——产品经理、数据分析师、交易台、财务、家庭管理——每个角色配它需要的工具和指令 [10:10 SPEAKER_00]。多智能体策略配上多账号连接，是企业场景的真正卖点 [04:52 SPEAKER_00]。\n\n不好用的地方也源于简洁。你选不了模型，没有类似 sole.md 那样的细粒度配置控制，不能\"像捏泥巴一样\"塑造你的智能体 [08:25 SPEAKER_00]。它跑在第三方系统上，不在你本地机器上 [09:00 SPEAKER_00]。还有一个很主观但很关键的问题：不管底层用的是 Grok 还是别的什么，输出的语气充满典型的 AI 味——糟糕的产品命名、永远不会说的话——跟精心调过人格的 OpenClaw 比起来，\"感觉很差\"，不想跟它聊天 [09:16 SPEAKER_00]。\n\n## Origin：智能体原生的 GitHub 替代品\n\nOrigin 是 Cursor 发布的 GitHub 竞争者，还在 early beta 阶段。核心思路是\"智能体原生的代码托管\"：保留所有 Git 原语——代码、diffs、pull requests——但 UI 和交互方式是为智能体协作设计的，特别是 Cursor Cloud 智能体、桌面应用和 CLI [12:53 SPEAKER_00]。智能体可以在 PR 里回复评论、被指定为审查者 [14:01 SPEAKER_00]。\n\n实际体验呢？目前对 GitHub 仓库的导入基本就是 GitHub API 的封装，界面重新设计过，有一些智能建议，但功能比 GitHub 少，深度绑定 Cursor 生态 [15:03 SPEAKER_00]。如果你已经在 GitHub 上有大量投入——自动化流程、Actions、代码所有者规则——现在没有足够的理由迁移过来 [16:54 SPEAKER_00]。主播测试时还赶上 GitHub 大故障，导入本身就遇到了问题 [14:29 SPEAKER_00]。结论是：愿景能看到，地基在打，但\"开箱即用没给我带来惊喜\" [18:05 SPEAKER_00]。\n\n## Grok 4.6 模型实测\n\n主播用自己的 How I AI Vibebench 做了盲测，覆盖 PRD 撰写、原型设计、测试设计、线框图、技术变更、对话体验。评分权重是 70% 主播主观品味 + 30% 用 GPT-5.5 做的 LLM 评判 [19:32 SPEAKER_00]。\n\n总分上，Grok 4.6 和 GPT 5.6 sol 并列第一，击败了 Claude Sonnet 5 和 Opus 5 [20:55 SPEAKER_00]。但拆开看很有意思：把主播品味去掉，LLM 评委讨厌 Grok、偏爱 Claude Opus 和 Sonnet [25:08 SPEAKER_00]——说明 Grok 4.6 的优势很\"人味\"。\n\n具体到任务：PRD 直接撰写仍是 5.6 最强，写作干净、全面、适度技术化 [21:25 SPEAKER_00]；技术 Bug 分类 LLM 评委给了 Opus 5 最高分 [21:44 SPEAKER_00]；开放智能体闲聊体验，Sonnet 5 继续无敌 [21:56 SPEAKER_00]。\n\n设计环节最说明问题。有明确艺术指导时，5.6 sol 依然最强，执行复杂 UI、做到\"技术上完整但不令人眼花缭乱\"没人比得过它 [23:04 SPEAKER_00]。但当模型被给自由度自己做设计决策时，主播最喜欢的反而是 Grok 4.6 的方案 [22:24 SPEAKER_00]。原因很直白：GPT 5.6 永远选森林绿，Claude 永远选棕-棕褐-橙配色，看一眼就知道是 AI 做的。Grok 4.6 不走这条路，像个\"新鲜空气\" [22:32 SPEAKER_00]。\n\n## 本集带走\n\n- **多账号连接是 GrokBot 的真正杀手锏**：同一个服务（Gmail/Slack）挂多个账号，一个智能体遍历所有数据——这个体验 Claude 和 Codex 都没提供。\n- **按角色设计智能体，而不是按功能**：想\"我需要什么样的队友\"，然后给那个队友配工具和指令，比反过来想更自然 [10:20 SPEAKER_00]。\n- **GrokBot 不适合想要深度自定义的人**：选不了模型、没有细粒度配置、跑在第三方——它面向\"想要简单好用\"的用户，不是\"想要捏泥巴\"的用户 [08:25 SPEAKER_00]。\n- **Origin 愿景好但太早**：智能体原生代码托管的思路对，但当前就是 GitHub API 封装 + 重设计 UI，对已深度嵌入 GitHub 的团队没有迁移动力 [15:03 SPEAKER_00]。\n- **Grok 4.6 的设计输出有辨识度优势**：不是因为技术更强，而是因为它不陷入 GPT 的森林绿和 Claude 的棕橙配色套路——在自由设计场景下，\"不像 AI 做的\"本身就是竞争力 [22:32 SPEAKER_00]。\n- **模型评测里\"人味\"和\"LLM 评判\"可以完全相反**：同一个评测，去掉人味后 LLM 评委讨厌 Grok、偏爱 Claude——说明纯靠 LLM-as-judge 会漏掉人类真正在意的维度 [25:08 SPEAKER_00]。",
+  "quotes": [
+    {
+      "en": "But Cursor's bet is that we are going to want a agent native GitHub and that GitHub is not going to get there fast enough.",
+      "zh": "但 Cursor 的赌注是，我们将需要一个智能体原生的 GitHub，并且 GitHub 不会足够快地到达那里。",
+      "timestamp": "13:40",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Now, I suspect that this is because I can just spot GPT and Claude Slopp a mile away.",
+      "zh": "现在，我怀疑这是因为我能一眼看穿 GPT 和 Claude 的 Slopp 风格。",
+      "timestamp": "22:32",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "If you take my taste out of it, The LLM hates Grock and it loves Claude Opus. It loves Sonnet and it does not like GPT-56 Soul.",
+      "zh": "如果把我的品味排除在外，LLM 讨厌 Grock 并且它喜欢 Claude Opus。它喜欢 Sonnet 并且它不喜欢 GPT-56 Sol。",
+      "timestamp": "25:08",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I actually use GPT-5.5 to grade all these things because it's actually the harshest judge.",
+      "zh": "我实际上使用 GPT-5.5 来给所有这些东西打分，因为它实际上是最严厉的评委。",
+      "timestamp": "25:21",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:00",
+      "speaker": "SPEAKER_00",
+      "en": "So I think the magic of GrokBot, if I had to tell you one thing that is the magic of GrokBot, it is plugins.",
+      "zh": "所以我认为 GrokBot 的神奇之处，如果我必须告诉你一件事是 GrokBot 的神奇之处，那就是插件。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "SPEAKER_00",
+      "en": "whether it's Gmail or Slack or an MCP, you can connect multiple accounts to GrokBot.",
+      "zh": "无论是 Gmail、Slack 还是 MCP，你都可以连接多个账户到 GrokBot。"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "SPEAKER_00",
+      "en": "This is something that Codex has not figured out. Claude has not figured out.",
+      "zh": "这是 Codex 没有弄明白的事情。Claude 没有弄明白。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "SPEAKER_00",
+      "en": "This experience of setting up multiple accounts per connector, huge, huge, huge benefit.",
+      "zh": "这种为每个连接器设置多个账户的体验，巨大的、巨大的、巨大的好处。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "SPEAKER_00",
+      "en": "Which is every GrokBot comes with a computer.",
+      "zh": "那就是每个 GrokBot 都配有一台计算机。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "SPEAKER_00",
+      "en": "It's pretty chat-based, nothing fancy, but its genius is in its simplicity.",
+      "zh": "它非常基于聊天，没有什么花哨的，但它的天才之处在于它的简单性。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "SPEAKER_00",
+      "en": "You really actually don't get to have that sort of like sole.md control over what GrokBot does, how it's configured, etc.",
+      "zh": "你实际上确实无法获得那种像 sole.md 一样的控制权对于 GrokBot 做什么，它是如何配置的，等等。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "SPEAKER_00",
+      "en": "And you know me, I just like to craft as if out of clay my agents.",
+      "zh": "你了解我，我只是喜欢像用粘土塑造一样来制作我的智能体。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "SPEAKER_00",
+      "en": "the last thing that I don't love about GrokBot is whatever model it's using, and maybe it's Grok, maybe it sounds a lot like Claude Slop, is I just know vibes. Just know vibes. The vibes are bad.",
+      "zh": "我不喜欢 GrokBot 的最后一点是它使用的是什么模型，可能是 Grok，可能听起来很像 Claude Slop，我只知道感觉。只知道感觉。感觉很糟糕。"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "SPEAKER_00",
+      "en": "I think just thinking that way, what kind of teammate do I want? And then giving that teammate the tools it needs and giving it the instructions it needs is a great way to design your agents.",
+      "zh": "我认为只是那样思考，我想要什么样的队友？然后给那个队友它所需的工具并给它它所需的说明是设计智能体的好方法。"
+    },
+    {
+      "timestamp": "13:40",
+      "speaker": "SPEAKER_00",
+      "en": "But Cursor's bet is that we are going to want a agent native GitHub and that GitHub is not going to get there fast enough.",
+      "zh": "但 Cursor 的赌注是，我们将需要一个智能体原生的 GitHub，并且 GitHub 不会足够快地到达那里。"
+    },
+    {
+      "timestamp": "15:03",
+      "speaker": "SPEAKER_00",
+      "en": "it's really, it seems like it's just a wrapper on the GitHub API.",
+      "zh": "真的，它似乎只是 GitHub API 的一个封装。"
+    },
+    {
+      "timestamp": "17:00",
+      "speaker": "SPEAKER_00",
+      "en": "if you have invested deeply in GitHub, which everybody has, and you have your automations and you have your actions and you have your code owners and you have all this stuff.",
+      "zh": "如果你已经深入投资于 GitHub，每个人都已经这样做了，并且你有你的自动化，你有你的 actions 你有你的代码所有者，你有所有这些东西。"
+    },
+    {
+      "timestamp": "20:55",
+      "speaker": "SPEAKER_00",
+      "en": "Grok 4.6 is right up there with my favorite 5.6 soul beating out both Sonnet 5 and Opus 5 on the Claire Index.",
+      "zh": "Grok 4.6 就在那里，与我最喜欢的 5.6 soul 并列，击败了 Sonnet 5 和 Opus 5，在 Claire Index 上。"
+    },
+    {
+      "timestamp": "22:32",
+      "speaker": "SPEAKER_00",
+      "en": "Now, I suspect that this is because I can just spot GPT and Claude Slopp a mile away.",
+      "zh": "现在，我怀疑这是因为我能一眼看穿 GPT 和 Claude 的 Slopp 风格。"
+    },
+    {
+      "timestamp": "22:43",
+      "speaker": "SPEAKER_00",
+      "en": "GPT 5.6. Loves forest green. Claude loves a brown-tan-orange combo.",
+      "zh": "GPT 5.6。喜欢森林绿。Claude 喜欢棕-棕褐-橙色组合。"
+    },
+    {
+      "timestamp": "25:08",
+      "speaker": "SPEAKER_00",
+      "en": "If you take my taste out of it, The LLM hates Grock and it loves Claude Opus. It loves Sonnet and it does not like GPT-56 Soul.",
+      "zh": "如果把我的品味排除在外，LLM 讨厌 Grock 并且它喜欢 Claude Opus。它喜欢 Sonnet 并且它不喜欢 GPT-56 Sol。"
+    },
+    {
+      "timestamp": "25:21",
+      "speaker": "SPEAKER_00",
+      "en": "I actually use GPT-5.5 to grade all these things because it's actually the harshest judge.",
+      "zh": "我实际上使用 GPT-5.5 来给所有这些东西打分，因为它实际上是最严厉的评委。"
+    },
+    {
+      "timestamp": "25:44",
+      "speaker": "SPEAKER_00",
+      "en": "So all I will say is my conclusion here is the Grok model is a competitor.",
+      "zh": "所以我要说的是，我这里的结论是 Grok 模型是一个竞争者。"
+    }
+  ]
+}

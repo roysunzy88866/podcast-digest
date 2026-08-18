@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Intercom]] · [[Column B]] · [[Cursor]] · [[疯狂大目标]] · [[Charge Flow]] · [[从混乱到清晰]] · [[Sierra]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Intercom":3,"Column B":1,"Cursor":19,"疯狂大目标":1,"Charge Flow":1,"从混乱到清晰":1,"Sierra":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Intercom":3,"Column B":1,"Cursor":20,"疯狂大目标":1,"Charge Flow":1,"从混乱到清晰":1,"Sierra":3}</script>
 
 <script>
 (function(){

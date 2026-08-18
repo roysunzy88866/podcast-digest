@@ -27,7 +27,7 @@ unlisted: true
 
 [[PLG]] · [[Cursor]] · [[Jen Abel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[企业销售]] · [[Andy McCall]] · [[愿景描绘]] · [[Lighthouse]]
 
-<script type="application/json" class="pd-epn">{"PLG":3,"Cursor":19,"Jen Abel":1,"Elena Berger":2,"Lenny":52,"Joe Schmidt":1,"企业销售":1,"Andy McCall":1,"愿景描绘":1,"Lighthouse":1}</script>
+<script type="application/json" class="pd-epn">{"PLG":3,"Cursor":20,"Jen Abel":1,"Elena Berger":2,"Lenny":52,"Joe Schmidt":1,"企业销售":1,"Andy McCall":1,"愿景描绘":1,"Lighthouse":1}</script>
 
 <script>
 (function(){

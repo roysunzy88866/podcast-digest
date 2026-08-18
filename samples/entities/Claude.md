@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,10 +28,11 @@ unlisted: true
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(06:25起):本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(26:18起):本集把它说成:Tom 用以大幅提升独立贡献者(IC)效率的 AI 工具。他不仅用 Claude Code 亲自推过生产代码,还用它直接代替过去需去打断工程师的琐碎提问(如理解代码库逻辑、估算工作量 LOE)。
+- **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(04:52起):本集说 Claude 没有实现多账号连接功能，且在设计输出上永远选棕-棕褐-橙配色，一眼就知道是 AI 做的
 
 ## ① 提到它的金句
 
-*10 条*
+*12 条*
 
 ![[2025-07-20-lennys-anthropic-co-founder-benjamin-mann#^q7]]
 
@@ -53,9 +54,13 @@ unlisted: true
 
 ![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q4]]
 
+![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q2]]
+
+![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q3]]
+
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -75,14 +80,15 @@ unlisted: true
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为被讨论公司(提及)
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
+- [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[OpenAI]] · [[ChatGPT]] · [[vibe coding]] · [[Codex]] · [[后训练]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[MCP]] · [[vibe coding]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":90,"Anthropic":47,"Lenny":52,"Claude Code":23,"OpenAI":37,"ChatGPT":19,"vibe coding":10,"Codex":16,"后训练":9,"Cursor":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":91,"Anthropic":47,"Lenny":52,"Claude Code":23,"Codex":17,"OpenAI":37,"ChatGPT":19,"MCP":14,"vibe coding":10,"Cursor":20}</script>
 
 <script>
 (function(){

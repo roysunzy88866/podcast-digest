@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM 判别器 (LLM as a judge)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM 判别器">LL</div><div class="pi"><h1 class="pt">LLM 判别器 (LLM as a judge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM 判别器">LL</div><div class="pi"><h1 class="pt">LLM 判别器 (LLM as a judge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(26:44起):本集说 LLM 判别器是针对你描述了期望行为但智能体还是反复犯的顽固问题而建的自动评估方式，输出必须是二元判断（true/false），不能打 1-5 分。
+- **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(20:35起):本集说评测中 30% 权重来自 LLM 评委（使用 GPT-5.5），去掉人味后 LLM 评委讨厌 Grok、偏爱 Claude——说明纯靠 LLM-as-judge 会漏掉人类在意的维度
 
 ## ① 提到它的金句
 
-*10 条*
+*11 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -37,19 +38,22 @@ unlisted: true
 
 ![[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo#^q2]]
 
+![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q3]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
+- [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Hamel Husain]] · [[Shreya Shankar]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[智能体]] · [[trace]] · [[Anthropic]]
+[[智能体]] · [[Lenny]] · [[GrokBot]] · [[Hamel Husain]] · [[Origin]] · [[Shreya Shankar]] · [[Cursor]] · [[评估]] · [[Grok 4.6]] · [[错误分析]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Hamel Husain":1,"Shreya Shankar":1,"评估":10,"错误分析":1,"开放式编码":1,"轴向编码":1,"智能体":90,"trace":1,"Anthropic":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":91,"Lenny":52,"GrokBot":1,"Hamel Husain":1,"Origin":1,"Shreya Shankar":1,"Cursor":20,"评估":10,"Grok 4.6":1,"错误分析":1}</script>
 
 <script>
 (function(){

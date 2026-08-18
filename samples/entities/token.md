@@ -47,7 +47,7 @@ unlisted: true
 
 [[Heitor Lessa]] · [[Paul Kedrosky]] · [[智能体]] · [[数据中心]] · [[规范驱动开发]] · [[GPU]] · [[苏格拉底方法]] · [[推理]] · [[对抗性审查]] · [[商业地产]]
 
-<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Paul Kedrosky":1,"智能体":90,"数据中心":2,"规范驱动开发":1,"GPU":3,"苏格拉底方法":1,"推理":1,"对抗性审查":1,"商业地产":1}</script>
+<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Paul Kedrosky":1,"智能体":91,"数据中心":2,"规范驱动开发":1,"GPU":3,"苏格拉底方法":1,"推理":1,"对抗性审查":1,"商业地产":1}</script>
 
 <script>
 (function(){

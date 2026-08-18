@@ -49,7 +49,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Cursor]] · [[Microsoft]] · [[OpenAI]] · [[Bret Taylor]] · [[Jason Cohen]] · [[Dan Shipper]] · [[Saragawa]] · [[Alex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":90,"Cursor":19,"Microsoft":10,"OpenAI":37,"Bret Taylor":1,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"Alex":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":91,"Cursor":20,"Microsoft":10,"OpenAI":37,"Bret Taylor":1,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"Alex":2}</script>
 
 <script>
 (function(){

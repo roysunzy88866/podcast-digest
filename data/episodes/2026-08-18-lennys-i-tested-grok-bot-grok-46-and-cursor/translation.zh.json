@@ -1,0 +1,3834 @@
+[
+ {
+  "seg": 0,
+  "start": 0.191,
+  "end": 5.795,
+  "speaker": "SPEAKER_00",
+  "en": "I don't know if you know this, but the whole OpenAI versus Anthropic thing is old news.",
+  "zh": "我不知道你是否知道这一点,但整个 OpenAI 对战 Anthropic 的事情已经是旧闻了。"
+ },
+ {
+  "seg": 1,
+  "start": 6.396,
+  "end": 9.898,
+  "speaker": "SPEAKER_00",
+  "en": "Everybody I know is secretly becoming a Grok boy.",
+  "zh": "我认识的每个人都在秘密地变成一个 Grok 男孩。"
+ },
+ {
+  "seg": 2,
+  "start": 10.339,
+  "end": 13.901,
+  "speaker": "SPEAKER_00",
+  "en": "Yep, ever since Cursor was acquired by SpaceX for,",
+  "zh": "是的,自从 Cursor 被 SpaceX 收购,"
+ },
+ {
+  "seg": 3,
+  "start": 14.041,
+  "end": 17.684,
+  "speaker": "SPEAKER_00",
+  "en": "I believe it was 60 billion American dollars,",
+  "zh": "我相信是 600 亿美元,"
+ },
+ {
+  "seg": 4,
+  "start": 18.285,
+  "end": 21.907,
+  "speaker": "SPEAKER_00",
+  "en": "everybody's been really excited about the new products released from",
+  "zh": "每个人都对 Cursor 团队发布的新产品感到非常兴奋"
+ },
+ {
+  "seg": 5,
+  "start": 21.927,
+  "end": 22.778,
+  "speaker": "SPEAKER_00",
+  "en": "the Cursor team.",
+  "zh": "来自 Cursor 团队。"
+ },
+ {
+  "seg": 6,
+  "start": 22.828,
+  "end": 23.828,
+  "speaker": "SPEAKER_00",
+  "en": "And in fact,",
+  "zh": "事实上,"
+ },
+ {
+  "seg": 7,
+  "start": 23.929,
+  "end": 27.872,
+  "speaker": "SPEAKER_00",
+  "en": "I'm hearing more and more positive things about the Grok models for coding and",
+  "zh": "我听到越来越多关于用于编码的 Grok 模型的积极评价"
+ },
+ {
+  "seg": 8,
+  "start": 27.892,
+  "end": 29.392,
+  "speaker": "SPEAKER_00",
+  "en": "the Grok models in general.",
+  "zh": "以及一般的 Grok 模型。"
+ },
+ {
+  "seg": 9,
+  "start": 29.682,
+  "end": 31.503,
+  "speaker": "SPEAKER_00",
+  "en": "In today's episode of How I AI,",
+  "zh": "在今天 How I AI 的这集中,"
+ },
+ {
+  "seg": 10,
+  "start": 31.543,
+  "end": 35.704,
+  "speaker": "SPEAKER_00",
+  "en": "we're going to go through all the releases from the Cursor, XAI,",
+  "zh": "我们将梳理 Cursor、XAI 的所有发布,"
+ },
+ {
+  "seg": 11,
+  "start": 36.064,
+  "end": 42.146,
+  "speaker": "SPEAKER_00",
+  "en": "SpaceX, whatever, the Elon Cinematic Universe of code builders and model builders.",
+  "zh": "SpaceX,不管叫什么,Elon 影音宇宙的代码构建者和模型构建者。"
+ },
+ {
+  "seg": 12,
+  "start": 42.166,
+  "end": 47.443777777777775,
+  "speaker": "SPEAKER_00",
+  "en": "We're going to go through all their products and I'm going to tell you what I think of GrokBot.",
+  "zh": "我们将梳理他们的所有产品,我将告诉你我对 GrokBot 的看法。"
+ },
+ {
+  "seg": 13,
+  "start": 47.742,
+  "end": 52.724,
+  "speaker": "SPEAKER_00",
+  "en": "Origin, the new GitHub competitor from Cursor, as well as the Grok model.",
+  "zh": "Origin,Cursor 发布的新 GitHub 竞争者,以及 Grok 模型。"
+ },
+ {
+  "seg": 14,
+  "start": 53.204,
+  "end": 54.034000000000006,
+  "speaker": "SPEAKER_00",
+  "en": "Let's get to it.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 54.084,
+  "end": 56.945,
+  "speaker": "SPEAKER_00",
+  "en": "This episode is brought to you by Bolt.new,",
+  "zh": "本集由 Bolt.new 赞助,"
+ },
+ {
+  "seg": 16,
+  "start": 57.165,
+  "end": 61.186,
+  "speaker": "SPEAKER_00",
+  "en": "the AI app builder for people who have ideas and want to ship them.",
+  "zh": "为那些有想法并希望发布它们的人准备的 AI 应用构建器。"
+ },
+ {
+  "seg": 17,
+  "start": 61.987,
+  "end": 65.908,
+  "speaker": "SPEAKER_00",
+  "en": "Most AI tools spit out code that looks great in a demo and falls apart",
+  "zh": "大多数 AI 工具吐出的代码在演示中看起来很棒,但崩溃"
+ },
+ {
+  "seg": 18,
+  "start": 65.948,
+  "end": 69.269,
+  "speaker": "SPEAKER_00",
+  "en": "the second you try to do anything real with it.",
+  "zh": "在你尝试用它做任何真实事情的瞬间。"
+ },
+ {
+  "seg": 19,
+  "start": 69.289,
+  "end": 72.73344444444444,
+  "speaker": "SPEAKER_00",
+  "en": "Or they lock you into their own platform with no real way out.",
+  "zh": "或者它们将你锁定在它们自己的平台上,没有真正的出路。"
+ },
+ {
+  "seg": 20,
+  "start": 73.095,
+  "end": 74.10600000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Bolt is different.",
+  "zh": "Bolt 是不同的。"
+ },
+ {
+  "seg": 21,
+  "start": 74.156,
+  "end": 75.626,
+  "speaker": "SPEAKER_00",
+  "en": "You describe what you want to build,",
+  "zh": "你描述你想要构建的东西,"
+ },
+ {
+  "seg": 22,
+  "start": 75.676,
+  "end": 79.498,
+  "speaker": "SPEAKER_00",
+  "en": "a startup MVP, a landing page, an internal tool, a side project.",
+  "zh": "一个初创公司 MVP,一个着陆页,一个内部工具,一个副业项目。"
+ },
+ {
+  "seg": 23,
+  "start": 80.158,
+  "end": 83.04688888888889,
+  "speaker": "SPEAKER_00",
+  "en": "And Bolt generates production-ready code in minutes.",
+  "zh": "Bolt 会在几分钟内生成可用于生产的代码。"
+ },
+ {
+  "seg": 24,
+  "start": 83.46,
+  "end": 87.902,
+  "speaker": "SPEAKER_00",
+  "en": "Connect Stripe or any other MCP, hook up your domain, and deploy it live.",
+  "zh": "连接 Stripe 或任何其他 MCP,挂载你的域名,并上线部署。"
+ },
+ {
+  "seg": 25,
+  "start": 88.482,
+  "end": 91.982,
+  "speaker": "SPEAKER_00",
+  "en": "Founders are using Bolt to build businesses doing real revenue.",
+  "zh": "创始人正在使用 Bolt 来构建产生真实收入的企业。"
+ },
+ {
+  "seg": 26,
+  "start": 92.465,
+  "end": 96.18722222222223,
+  "speaker": "SPEAKER_00",
+  "en": "Product managers are shipping prototypes their teams actually use.",
+  "zh": "产品经理正在发布他们的团队真正使用的原型。"
+ },
+ {
+  "seg": 27,
+  "start": 96.688,
+  "end": 100.688,
+  "speaker": "SPEAKER_00",
+  "en": "Designers and marketers are launching campaigns without waiting in line.",
+  "zh": "设计师和营销人员正在发起活动而无需排队等待。"
+ },
+ {
+  "seg": 28,
+  "start": 101.191,
+  "end": 102.191,
+  "speaker": "SPEAKER_00",
+  "en": "Anyone can build.",
+  "zh": "任何人都可以构建。"
+ },
+ {
+  "seg": 29,
+  "start": 102.412,
+  "end": 103.57866666666668,
+  "speaker": "SPEAKER_00",
+  "en": "Engineering can ship.",
+  "zh": "工程团队可以发布。"
+ },
+ {
+  "seg": 30,
+  "start": 103.993,
+  "end": 104.993,
+  "speaker": "SPEAKER_00",
+  "en": "Everyone wins.",
+  "zh": "每个人都是赢家。"
+ },
+ {
+  "seg": 31,
+  "start": 105.253,
+  "end": 107.315,
+  "speaker": "SPEAKER_00",
+  "en": "You just need an idea and a weekend.",
+  "zh": "你只需要一个想法和一个周末。"
+ },
+ {
+  "seg": 32,
+  "start": 107.996,
+  "end": 111.419,
+  "speaker": "SPEAKER_00",
+  "en": "Check it out at bolt.new slash howiai.",
+  "zh": "访问 bolt.new/slash/howiai 查看。"
+ },
+ {
+  "seg": 33,
+  "start": 112.139,
+  "end": 116.863,
+  "speaker": "SPEAKER_00",
+  "en": "I'm going to start with the most accessible product on our list today, GrokBot.",
+  "zh": "我将从我们今天列表上最容易接触的产品开始,GrokBot。"
+ },
+ {
+  "seg": 34,
+  "start": 117.283,
+  "end": 118.31400000000001,
+  "speaker": "SPEAKER_00",
+  "en": "In case you missed it,",
+  "zh": "如果你错过了它,"
+ },
+ {
+  "seg": 35,
+  "start": 118.364,
+  "end": 121.847,
+  "speaker": "SPEAKER_00",
+  "en": "the cursor slash xai team released GrokBot,",
+  "zh": "cursor/xai 团队发布了 GrokBot,"
+ },
+ {
+  "seg": 36,
+  "start": 121.907,
+  "end": 127.512,
+  "speaker": "SPEAKER_00",
+  "en": "which is a chat style agent In a desktop in mobile app that you can use",
+  "zh": "这是一个桌面和移动应用中的聊天风格智能体,你可以使用它"
+ },
+ {
+  "seg": 37,
+  "start": 127.572,
+  "end": 129.234,
+  "speaker": "SPEAKER_00",
+  "en": "to do knowledge work for you.",
+  "zh": "来为你做知识工作。"
+ },
+ {
+  "seg": 38,
+  "start": 129.494,
+  "end": 135.3,
+  "speaker": "SPEAKER_00",
+  "en": "It's very similar to an open club, but it's simpler, hosted and easier to use.",
+  "zh": "它非常像一个 open club,但它更简单,托管且更易于使用。"
+ },
+ {
+  "seg": 39,
+  "start": 135.941,
+  "end": 139.584,
+  "speaker": "SPEAKER_00",
+  "en": "If you look at GrokBot just from a UI perspective,",
+  "zh": "如果你仅从 UI 角度看 GrokBot,"
+ },
+ {
+  "seg": 40,
+  "start": 139.604,
+  "end": 141.186,
+  "speaker": "SPEAKER_00",
+  "en": "and I'm just pulling up the marketing site right now,",
+  "zh": "我现在正在打开营销网站,"
+ },
+ {
+  "seg": 41,
+  "start": 141.226,
+  "end": 143.28155555555554,
+  "speaker": "SPEAKER_00",
+  "en": "we'll look at my GrokBot in a minute.",
+  "zh": "我们一会儿再看看我的 GrokBot。"
+ },
+ {
+  "seg": 42,
+  "start": 143.408,
+  "end": 149.03,
+  "speaker": "SPEAKER_00",
+  "en": "It is definitely pulling from that iMessage terminal streamlined chat experience.",
+  "zh": "它绝对是从 iMessage 终端简化的聊天体验中汲取的灵感。"
+ },
+ {
+  "seg": 43,
+  "start": 149.57,
+  "end": 151.421,
+  "speaker": "SPEAKER_00",
+  "en": "And it's doing something I really love.",
+  "zh": "它做了一些我真的很喜欢的事情。"
+ },
+ {
+  "seg": 44,
+  "start": 151.471,
+  "end": 155.453,
+  "speaker": "SPEAKER_00",
+  "en": "Not everybody loves this, but I love a multi-agent experience.",
+  "zh": "不是每个人都喜欢这个,但我喜欢多智能体体验。"
+ },
+ {
+  "seg": 45,
+  "start": 155.713,
+  "end": 158.234,
+  "speaker": "SPEAKER_00",
+  "en": "I want each of my agents to have a job.",
+  "zh": "我希望我的每个智能体都有一份工作。"
+ },
+ {
+  "seg": 46,
+  "start": 158.314,
+  "end": 159.514,
+  "speaker": "SPEAKER_00",
+  "en": "I want them to have a name.",
+  "zh": "我希望它们有一个名字。"
+ },
+ {
+  "seg": 47,
+  "start": 159.534,
+  "end": 161.75622222222222,
+  "speaker": "SPEAKER_00",
+  "en": "I don't want one agent to rule them all.",
+  "zh": "我不希望一个智能体统治它们所有。"
+ },
+ {
+  "seg": 48,
+  "start": 162.275,
+  "end": 167.078,
+  "speaker": "SPEAKER_00",
+  "en": "And the team has really leaned into this ethos with GrokBot.",
+  "zh": "团队确实在 GrokBot 上深入贯彻了这种精神。"
+ },
+ {
+  "seg": 49,
+  "start": 167.379,
+  "end": 169,
+  "speaker": "SPEAKER_00",
+  "en": "Now, I've been testing GrokBot.",
+  "zh": "现在,我一直在测试 GrokBot。"
+ },
+ {
+  "seg": 50,
+  "start": 169.02,
+  "end": 170.85333333333335,
+  "speaker": "SPEAKER_00",
+  "en": "I had a couple days early access,",
+  "zh": "我有几天早期的访问权限，"
+ },
+ {
+  "seg": 51,
+  "start": 171.221,
+  "end": 174.29299999999998,
+  "speaker": "SPEAKER_00",
+  "en": "and then I've been testing it earnest over about the past week.",
+  "zh": "然后在过去的一周里我一直在认真地测试它。"
+ },
+ {
+  "seg": 52,
+  "start": 174.343,
+  "end": 178.076,
+  "speaker": "SPEAKER_00",
+  "en": "And I think there are some pros to GrokBot, and I think there's some cons to GrokBot.",
+  "zh": "我认为 GrokBot 有一些优点，我认为 GrokBot 也有一些缺点。"
+ },
+ {
+  "seg": 53,
+  "start": 178.126,
+  "end": 184.029,
+  "speaker": "SPEAKER_00",
+  "en": "But I do suspect that GrokBot is going to catch the attention of cursor customers",
+  "zh": "但我确实怀疑 GrokBot 会引起 Cursor 客户的注意，"
+ },
+ {
+  "seg": 54,
+  "start": 184.41,
+  "end": 187.732,
+  "speaker": "SPEAKER_00",
+  "en": "who want an all-purpose agent for their employees.",
+  "zh": "即那些为员工想要一个通用智能体的客户。"
+ },
+ {
+  "seg": 55,
+  "start": 188.192,
+  "end": 192.146,
+  "speaker": "SPEAKER_00",
+  "en": "So let's go into my GrokBot and show you a little bit about how it works.",
+  "zh": "所以让我们进入我的 GrokBot，向你展示一点它是如何工作的。"
+ },
+ {
+  "seg": 56,
+  "start": 192.196,
+  "end": 197.902,
+  "speaker": "SPEAKER_00",
+  "en": "Now, as I said, this has this very like iMessage style experience.",
+  "zh": "现在，正如我所说，这有非常像 iMessage 风格的体验。"
+ },
+ {
+  "seg": 57,
+  "start": 198.082,
+  "end": 202.52644444444445,
+  "speaker": "SPEAKER_00",
+  "en": "It's a left bubble and right bubble and you just chitty chat with your GrokBots.",
+  "zh": "左气泡和右气泡，你就和你的 GrokBots 聊天。"
+ },
+ {
+  "seg": 58,
+  "start": 203.047,
+  "end": 206.551,
+  "speaker": "SPEAKER_00",
+  "en": "I have set up a couple of GrokBots in my own account.",
+  "zh": "我在自己的账户里设置了几个 GrokBots。"
+ },
+ {
+  "seg": 59,
+  "start": 206.631,
+  "end": 211.236,
+  "speaker": "SPEAKER_00",
+  "en": "There is Prody McProd, my product manager GrokBot that's hooked up to ChatPRD.",
+  "zh": "有 Prody McProd，我的产品经理 GrokBot，连接到了 ChatPRD。"
+ },
+ {
+  "seg": 60,
+  "start": 212.388,
+  "end": 215.571,
+  "speaker": "SPEAKER_00",
+  "en": "I have one of the out-of-the-box Grockbots commitment tracker",
+  "zh": "我有一个开箱即用的 Grockbots 承诺跟踪器，"
+ },
+ {
+  "seg": 61,
+  "start": 215.611,
+  "end": 219.113,
+  "speaker": "SPEAKER_00",
+  "en": "that just keeps me honest with things I've told people that I will do for them,",
+  "zh": "它让我对告诉别人我会为他们做的事情保持诚实，"
+ },
+ {
+  "seg": 62,
+  "start": 219.153,
+  "end": 220.995,
+  "speaker": "SPEAKER_00",
+  "en": "basically emails I need to reply to.",
+  "zh": "基本上是我需要回复的电子邮件。"
+ },
+ {
+  "seg": 63,
+  "start": 221.015,
+  "end": 226.579,
+  "speaker": "SPEAKER_00",
+  "en": "I have a moneymaker bot that chases invoices and payments and sales deals.",
+  "zh": "我有一个赚钱机器人，它追逐发票和付款以及销售交易。"
+ },
+ {
+  "seg": 64,
+  "start": 227.019,
+  "end": 229.81199999999998,
+  "speaker": "SPEAKER_00",
+  "en": "I have a case study buddy because I'm doing a bunch of case studies.",
+  "zh": "我有一个案例研究伙伴，因为我正在做一系列案例研究。"
+ },
+ {
+  "seg": 65,
+  "start": 229.862,
+  "end": 235.005,
+  "speaker": "SPEAKER_00",
+  "en": "And I have a Grockbot that monitors all my data for chat parity and tells me trends",
+  "zh": "我有一个 Grockbot 监控我所有的数据以实现聊天平等，并告诉我"
+ },
+ {
+  "seg": 66,
+  "start": 235.086,
+  "end": 236.80822222222224,
+  "speaker": "SPEAKER_00",
+  "en": "that I should pay attention to.",
+  "zh": "我应该注意的趋势。"
+ },
+ {
+  "seg": 67,
+  "start": 237.507,
+  "end": 240.489,
+  "speaker": "SPEAKER_00",
+  "en": "So I think the magic of GrokBot,",
+  "zh": "所以我认为 GrokBot 的神奇之处，"
+ },
+ {
+  "seg": 68,
+  "start": 240.509,
+  "end": 245.072,
+  "speaker": "SPEAKER_00",
+  "en": "if I had to tell you one thing that is the magic of GrokBot, it is plugins.",
+  "zh": "如果我必须告诉你一件事是 GrokBot 的神奇之处，那就是插件。"
+ },
+ {
+  "seg": 69,
+  "start": 245.513,
+  "end": 249.235,
+  "speaker": "SPEAKER_00",
+  "en": "So I've always thought that Cursor was the best MCP client.",
+  "zh": "所以我一直认为 Cursor 是最好的 MCP 客户端。"
+ },
+ {
+  "seg": 70,
+  "start": 249.495,
+  "end": 251.016,
+  "speaker": "SPEAKER_00",
+  "en": "I still to this day,",
+  "zh": "我至今，"
+ },
+ {
+  "seg": 71,
+  "start": 251.397,
+  "end": 253.558,
+  "speaker": "SPEAKER_00",
+  "en": "when I want to connect to different MCPs in my stack,",
+  "zh": "当我想连接我堆栈中不同的 MCP 时，"
+ },
+ {
+  "seg": 72,
+  "start": 253.598,
+  "end": 255.82022222222224,
+  "speaker": "SPEAKER_00",
+  "en": "would still default generally to Cursor.",
+  "zh": "通常还是默认使用 Cursor。"
+ },
+ {
+  "seg": 73,
+  "start": 256.2,
+  "end": 259.042,
+  "speaker": "SPEAKER_00",
+  "en": "I thought the connector experience was really nice and I thought the harness did",
+  "zh": "我认为连接器体验真的很好，我认为 harness 做了"
+ },
+ {
+  "seg": 74,
+  "start": 259.062,
+  "end": 261.864,
+  "speaker": "SPEAKER_00",
+  "en": "a really nice job of talking to all these systems.",
+  "zh": "一个很好的工作，与所有这些系统对话。"
+ },
+ {
+  "seg": 75,
+  "start": 262.445,
+  "end": 267.642,
+  "speaker": "SPEAKER_00",
+  "en": "They have brought that great plugin MCP experience into GrokBot.",
+  "zh": "他们把那个很棒的插件 MCP 体验带进了 GrokBot。"
+ },
+ {
+  "seg": 76,
+  "start": 268.261,
+  "end": 270.803,
+  "speaker": "SPEAKER_00",
+  "en": "But there's one killer feature,",
+  "zh": "但有一个杀手级功能，"
+ },
+ {
+  "seg": 77,
+  "start": 271.264,
+  "end": 273.065,
+  "speaker": "SPEAKER_00",
+  "en": "which is for any one of these connectors,",
+  "zh": "对于这些连接器中的任何一个，"
+ },
+ {
+  "seg": 78,
+  "start": 273.105,
+  "end": 280.105,
+  "speaker": "SPEAKER_00",
+  "en": "whether it's Gmail or Slack or an MCP, you can connect multiple accounts to GrokBot.",
+  "zh": "无论是 Gmail、Slack 还是 MCP，你都可以连接多个账户到 GrokBot。"
+ },
+ {
+  "seg": 79,
+  "start": 281.833,
+  "end": 284.833,
+  "speaker": "SPEAKER_00",
+  "en": "So if you have two Gmails, you can connect two Gmails.",
+  "zh": "所以如果你有两个 Gmail，你可以连接两个 Gmail。"
+ },
+ {
+  "seg": 80,
+  "start": 285.115,
+  "end": 288.929,
+  "speaker": "SPEAKER_00",
+  "en": "If you're in seven different Slacks, you can connect the different Slacks.",
+  "zh": "如果你在七个不同的 Slack 里，你可以连接不同的 Slack。"
+ },
+ {
+  "seg": 81,
+  "start": 288.979,
+  "end": 291.7012222222222,
+  "speaker": "SPEAKER_00",
+  "en": "This is something that Codex has not figured out.",
+  "zh": "这是 Codex 没有弄明白的事情。"
+ },
+ {
+  "seg": 82,
+  "start": 292.181,
+  "end": 293.681,
+  "speaker": "SPEAKER_00",
+  "en": "Claude has not figured out.",
+  "zh": "Claude 没有弄明白。"
+ },
+ {
+  "seg": 83,
+  "start": 293.843,
+  "end": 299.295,
+  "speaker": "SPEAKER_00",
+  "en": "No one seems to figure out that I have There's approximately a dozen email address",
+  "zh": "似乎没有人弄明白我有 大约有一打电子邮件地址"
+ },
+ {
+  "seg": 84,
+  "start": 299.335,
+  "end": 301.847,
+  "speaker": "SPEAKER_00",
+  "en": "and Slack accounts and different things that I need to log in,",
+  "zh": "和 Slack 账户以及我需要登录的不同东西，"
+ },
+ {
+  "seg": 85,
+  "start": 301.897,
+  "end": 303.5636666666667,
+  "speaker": "SPEAKER_00",
+  "en": "even if it's the same service.",
+  "zh": "即使是同一个服务。"
+ },
+ {
+  "seg": 86,
+  "start": 304.038,
+  "end": 311.038,
+  "speaker": "SPEAKER_00",
+  "en": "This experience of setting up multiple accounts per connector, huge, huge, huge benefit.",
+  "zh": "这种为每个连接器设置多个账户的体验，巨大的、巨大的、巨大的好处。"
+ },
+ {
+  "seg": 87,
+  "start": 312.405,
+  "end": 314.707,
+  "speaker": "SPEAKER_00",
+  "en": "You could like package it up and send it off.",
+  "zh": "你可以把它打包并发送出去。"
+ },
+ {
+  "seg": 88,
+  "start": 314.727,
+  "end": 317.00477777777775,
+  "speaker": "SPEAKER_00",
+  "en": "It would have product market fit with me.",
+  "zh": "它对我来说会有产品市场契合度。"
+ },
+ {
+  "seg": 89,
+  "start": 317.292,
+  "end": 322.213,
+  "speaker": "SPEAKER_00",
+  "en": "As you can see here, I have already four email addresses connected to Gmail.",
+  "zh": "正如你在这里看到的，我已经连接了四个电子邮件地址到 Gmail。"
+ },
+ {
+  "seg": 90,
+  "start": 322.253,
+  "end": 326.6418888888889,
+  "speaker": "SPEAKER_00",
+  "en": "I have my chat parity one and a couple other business ones that I'm working on.",
+  "zh": "我有我的聊天平等账户和几个我正在做的其他商业账户。"
+ },
+ {
+  "seg": 91,
+  "start": 326.974,
+  "end": 330.525,
+  "speaker": "SPEAKER_00",
+  "en": "Having all four of these connected and being able to traverse all those accounts",
+  "zh": "将所有这四个连接起来并能够遍历所有这些账户"
+ },
+ {
+  "seg": 92,
+  "start": 330.575,
+  "end": 332.955,
+  "speaker": "SPEAKER_00",
+  "en": "in GrokBot is a killer feature.",
+  "zh": "在 GrokBot 中是一个杀手级功能。"
+ },
+ {
+  "seg": 93,
+  "start": 333.355,
+  "end": 337.956,
+  "speaker": "SPEAKER_00",
+  "en": "Just thank you to the cursor slash XAI team for doing this.",
+  "zh": "只是感谢 cursor slash XAI 团队做到了这一点。"
+ },
+ {
+  "seg": 94,
+  "start": 338.336,
+  "end": 340.887,
+  "speaker": "SPEAKER_00",
+  "en": "If you did this and this alone, I would be very happy.",
+  "zh": "如果你只做了这个，我会非常高兴。"
+ },
+ {
+  "seg": 95,
+  "start": 340.937,
+  "end": 343.15922222222224,
+  "speaker": "SPEAKER_00",
+  "en": "But they did not do that and that alone.",
+  "zh": "但他们没有只做这个。"
+ },
+ {
+  "seg": 96,
+  "start": 343.417,
+  "end": 347.699,
+  "speaker": "SPEAKER_00",
+  "en": "GrockBot ships with tons and tons of out of the box plugins.",
+  "zh": "GrockBot 附带了大量的开箱即用的插件。"
+ },
+ {
+  "seg": 97,
+  "start": 347.719,
+  "end": 350.841,
+  "speaker": "SPEAKER_00",
+  "en": "These are generally the ones that were available in Cursor as well.",
+  "zh": "这些通常也是在 Cursor 中可用的那些。"
+ },
+ {
+  "seg": 98,
+  "start": 350.881,
+  "end": 353.943,
+  "speaker": "SPEAKER_00",
+  "en": "And so I've installed your basic productivity ones.",
+  "zh": "所以我已经安装了你基本的生产力插件。"
+ },
+ {
+  "seg": 99,
+  "start": 354.103,
+  "end": 357.745,
+  "speaker": "SPEAKER_00",
+  "en": "I've installed GitHub and I've installed the ChatPRD plugin.",
+  "zh": "我已经安装了 GitHub 并且我已经安装了 ChatPRD 插件。"
+ },
+ {
+  "seg": 100,
+  "start": 357.945,
+  "end": 362.367,
+  "speaker": "SPEAKER_00",
+  "en": "And really, I've been using GrockBot as a way to just traverse and use my data.",
+  "zh": "实际上，我一直在使用 GrockBot 作为一种方式来遍历和使用我的数据。"
+ },
+ {
+  "seg": 101,
+  "start": 362.387,
+  "end": 369.387,
+  "speaker": "SPEAKER_00",
+  "en": "So again, it's like a little bit of a fancy MCP client, but it does come with something special.",
+  "zh": "所以再说一次，它就像一个有点花哨的 MCP 客户端，但它确实带有一些特别的东西。"
+ },
+ {
+  "seg": 102,
+  "start": 370.071,
+  "end": 373.672,
+  "speaker": "SPEAKER_00",
+  "en": "Which is every GrokBot comes with a computer.",
+  "zh": "那就是每个 GrokBot 都配有一台计算机。"
+ },
+ {
+  "seg": 103,
+  "start": 374.132,
+  "end": 379.594,
+  "speaker": "SPEAKER_00",
+  "en": "And so you can actually go into this virtual machine and this is Prady McProd's computer.",
+  "zh": "所以你实际上可以进入这个虚拟机，这是 Prady McProd 的计算机。"
+ },
+ {
+  "seg": 104,
+  "start": 379.734,
+  "end": 383.555,
+  "speaker": "SPEAKER_00",
+  "en": "It's not very exciting, but it can use Chrome.",
+  "zh": "它不是很令人兴奋，但它可以使用 Chrome。"
+ },
+ {
+  "seg": 105,
+  "start": 383.755,
+  "end": 387.376,
+  "speaker": "SPEAKER_00",
+  "en": "It can use Terminal and it has some files.",
+  "zh": "它可以使用 Terminal，并且它有一些文件。"
+ },
+ {
+  "seg": 106,
+  "start": 387.956,
+  "end": 394.778,
+  "speaker": "SPEAKER_00",
+  "en": "And so again, this is like a little bit of a OpenClaw Lite where it has a virtual machine.",
+  "zh": "所以再说一次，这有点像 OpenClaw Lite，它有一个虚拟机。"
+ },
+ {
+  "seg": 107,
+  "start": 395.038,
+  "end": 397.09355555555555,
+  "speaker": "SPEAKER_00",
+  "en": "That virtual machine can use the web.",
+  "zh": "那个虚拟机可以使用网络。"
+ },
+ {
+  "seg": 108,
+  "start": 397.745,
+  "end": 400.366,
+  "speaker": "SPEAKER_00",
+  "en": "And it has connectors and MCPs.",
+  "zh": "并且它有连接器和 MCP。"
+ },
+ {
+  "seg": 109,
+  "start": 401.506,
+  "end": 404.708,
+  "speaker": "SPEAKER_00",
+  "en": "Now, what do I think of the experience using GrokBot?",
+  "zh": "现在，我对使用 GrokBot 的体验有什么看法？"
+ },
+ {
+  "seg": 110,
+  "start": 404.748,
+  "end": 408.209,
+  "speaker": "SPEAKER_00",
+  "en": "Well, I will say setting up a GrokBot is super simple.",
+  "zh": "好的，我要说的是，设置一个 GrokBot 非常简单。"
+ },
+ {
+  "seg": 111,
+  "start": 408.569,
+  "end": 410.12455555555556,
+  "speaker": "SPEAKER_00",
+  "en": "You can simply create a bot.",
+  "zh": "你可以简单地创建一个 bot。"
+ },
+ {
+  "seg": 112,
+  "start": 410.29,
+  "end": 413.591,
+  "speaker": "SPEAKER_00",
+  "en": "It will start up that machine.",
+  "zh": "它会启动那台机器。"
+ },
+ {
+  "seg": 113,
+  "start": 413.631,
+  "end": 417.1865555555555,
+  "speaker": "SPEAKER_00",
+  "en": "It will start up a bot and then you can just tell it what to do.",
+  "zh": "它会启动一个 bot，然后你可以直接告诉它该做什么。"
+ },
+ {
+  "seg": 114,
+  "start": 417.753,
+  "end": 419.173,
+  "speaker": "SPEAKER_00",
+  "en": "So this one just got stood up.",
+  "zh": "所以这个刚刚被搭建起来。"
+ },
+ {
+  "seg": 115,
+  "start": 419.193,
+  "end": 421.054,
+  "speaker": "SPEAKER_00",
+  "en": "What's the first thing I want you on?",
+  "zh": "我希望你参与的第一件事是什么？"
+ },
+ {
+  "seg": 116,
+  "start": 421.094,
+  "end": 422.094,
+  "speaker": "SPEAKER_00",
+  "en": "And I say...",
+  "zh": "然后我说……"
+ },
+ {
+  "seg": 117,
+  "start": 422.157,
+  "end": 428.983,
+  "speaker": "SPEAKER_00",
+  "en": "I want you to be a family manager bot that keeps track of my personal email",
+  "zh": "我希望你成为一个家庭管理智能体，跟踪我的个人电子邮件"
+ },
+ {
+  "seg": 118,
+  "start": 429.223,
+  "end": 430.44522222222224,
+  "speaker": "SPEAKER_00",
+  "en": "and personal calendar.",
+  "zh": "和个人日历。"
+ },
+ {
+  "seg": 119,
+  "start": 431.085,
+  "end": 432.25166666666667,
+  "speaker": "SPEAKER_00",
+  "en": "Can't spell calendar.",
+  "zh": "拼写不出 calendar。"
+ },
+ {
+  "seg": 120,
+  "start": 433.827,
+  "end": 437.37,
+  "speaker": "SPEAKER_00",
+  "en": "And again, it's going to go ahead and say, great, I'm going to find all your connectors.",
+  "zh": "而且再说一次，它会继续说，太好了，我会找到你所有的连接器。"
+ },
+ {
+  "seg": 121,
+  "start": 437.41,
+  "end": 439.936,
+  "speaker": "SPEAKER_00",
+  "en": "I'm going to set it up and I'm going to learn myself.",
+  "zh": "我会进行设置，我会自学。"
+ },
+ {
+  "seg": 122,
+  "start": 439.986,
+  "end": 441.226,
+  "speaker": "SPEAKER_00",
+  "en": "Really, really simple,",
+  "zh": "真的、非常简单，"
+ },
+ {
+  "seg": 123,
+  "start": 441.407,
+  "end": 443.527,
+  "speaker": "SPEAKER_00",
+  "en": "streamlined onboarding experience,",
+  "zh": "简化的入门体验，"
+ },
+ {
+  "seg": 124,
+  "start": 443.627,
+  "end": 448.309,
+  "speaker": "SPEAKER_00",
+  "en": "and it's going to go ahead and give me pretty good responses back and do work",
+  "zh": "并且它会继续给我相当好的回复并代表我"
+ },
+ {
+  "seg": 125,
+  "start": 448.349,
+  "end": 448.829,
+  "speaker": "SPEAKER_00",
+  "en": "on my behalf.",
+  "zh": "做工作。"
+ },
+ {
+  "seg": 126,
+  "start": 448.869,
+  "end": 455.411,
+  "speaker": "SPEAKER_00",
+  "en": "It's pretty chat-based, nothing fancy, but its genius is in its simplicity.",
+  "zh": "它非常基于聊天，没有什么花哨的，但它的天才之处在于它的简单性。"
+ },
+ {
+  "seg": 127,
+  "start": 455.971,
+  "end": 462.971,
+  "speaker": "SPEAKER_00",
+  "en": "Now, what I don't like about GrokBot, well, I don't like That it's so simple.",
+  "zh": "现在，我不喜欢 GrokBot 的哪一点，好吧，我不喜欢它太简单了。"
+ },
+ {
+  "seg": 128,
+  "start": 463.649,
+  "end": 465.83,
+  "speaker": "SPEAKER_00",
+  "en": "And I don't like that I can't hack it.",
+  "zh": "而且我不喜欢我不能破解它。"
+ },
+ {
+  "seg": 129,
+  "start": 466.37,
+  "end": 469.211,
+  "speaker": "SPEAKER_00",
+  "en": "If you look at my open claws,",
+  "zh": "如果你看看我的 open claws，"
+ },
+ {
+  "seg": 130,
+  "start": 469.812,
+  "end": 476.812,
+  "speaker": "SPEAKER_00",
+  "en": "they are chaotic and technical and impossible to use and high maintenance.",
+  "zh": "它们是混乱的、技术的，不可能使用，并且需要高维护。"
+ },
+ {
+  "seg": 131,
+  "start": 478.056,
+  "end": 479.056,
+  "speaker": "SPEAKER_00",
+  "en": "And I love them.",
+  "zh": "而且我喜欢它们。"
+ },
+ {
+  "seg": 132,
+  "start": 479.437,
+  "end": 480.437,
+  "speaker": "SPEAKER_00",
+  "en": "I love them.",
+  "zh": "我喜欢它们。"
+ },
+ {
+  "seg": 133,
+  "start": 481.178,
+  "end": 484.079,
+  "speaker": "SPEAKER_00",
+  "en": "GrabBot, I have a little bit less control over.",
+  "zh": "GrabBot，我对它的控制力稍微弱一点。"
+ },
+ {
+  "seg": 134,
+  "start": 484.099,
+  "end": 487.261,
+  "speaker": "SPEAKER_00",
+  "en": "I manage them a little bit less tightly.",
+  "zh": "我管理它们的紧密程度稍微低一点。"
+ },
+ {
+  "seg": 135,
+  "start": 487.841,
+  "end": 489.682,
+  "speaker": "SPEAKER_00",
+  "en": "And so I love them less.",
+  "zh": "所以我没那么喜欢它们。"
+ },
+ {
+  "seg": 136,
+  "start": 489.942,
+  "end": 491.442,
+  "speaker": "SPEAKER_00",
+  "en": "You know, like my children.",
+  "zh": "你知道，就像我的孩子们一样。"
+ },
+ {
+  "seg": 137,
+  "start": 491.865,
+  "end": 494.026,
+  "speaker": "SPEAKER_00",
+  "en": "The joy is in the challenge.",
+  "zh": "乐趣在于挑战。"
+ },
+ {
+  "seg": 138,
+  "start": 494.306,
+  "end": 495.826,
+  "speaker": "SPEAKER_00",
+  "en": "And I will tell you,",
+  "zh": "我会告诉你，"
+ },
+ {
+  "seg": 139,
+  "start": 495.846,
+  "end": 500.668,
+  "speaker": "SPEAKER_00",
+  "en": "GrokBot has not challenged me because it works simply and it works out of the box.",
+  "zh": "GrokBot 没有挑战我，因为它工作简单，而且开箱即用。"
+ },
+ {
+  "seg": 140,
+  "start": 501.108,
+  "end": 505.149,
+  "speaker": "SPEAKER_00",
+  "en": "The other thing I don't like about GrokBot is you don't get",
+  "zh": "我不喜欢 GrokBot 的另一件事是，你不能"
+ },
+ {
+  "seg": 141,
+  "start": 505.169,
+  "end": 506.519,
+  "speaker": "SPEAKER_00",
+  "en": "to pick what model you're working with.",
+  "zh": "选择你正在使用什么模型。"
+ },
+ {
+  "seg": 142,
+  "start": 506.569,
+  "end": 511.611,
+  "speaker": "SPEAKER_00",
+  "en": "You really actually don't get to have that sort of like sole.md control",
+  "zh": "你实际上确实无法获得那种像 sole.md 一样的控制权"
+ },
+ {
+  "seg": 143,
+  "start": 511.871,
+  "end": 515.312,
+  "speaker": "SPEAKER_00",
+  "en": "over what GrokBot does, how it's configured, etc.",
+  "zh": "对于 GrokBot 做什么，它是如何配置的，等等。"
+ },
+ {
+  "seg": 144,
+  "start": 516.963,
+  "end": 523.409,
+  "speaker": "SPEAKER_00",
+  "en": "And you know me, I just like to craft as if out of clay my agents.",
+  "zh": "你了解我，我只是喜欢像用粘土塑造一样来制作我的智能体。"
+ },
+ {
+  "seg": 145,
+  "start": 523.529,
+  "end": 525.251,
+  "speaker": "SPEAKER_00",
+  "en": "So I like that experience.",
+  "zh": "所以我喜欢那种体验。"
+ },
+ {
+  "seg": 146,
+  "start": 525.271,
+  "end": 527.1598888888889,
+  "speaker": "SPEAKER_00",
+  "en": "I don't think everybody else does.",
+  "zh": "我不是其他所有人都喜欢。"
+ },
+ {
+  "seg": 147,
+  "start": 527.373,
+  "end": 529.8050000000001,
+  "speaker": "SPEAKER_00",
+  "en": "So if you're looking for that highly tunable,",
+  "zh": "所以如果你正在寻找那种高度可调的、"
+ },
+ {
+  "seg": 148,
+  "start": 529.855,
+  "end": 536.855,
+  "speaker": "SPEAKER_00",
+  "en": "highly hackable, highly transparent setup for your agent, GrockBot is not that.",
+  "zh": "高度可破解的、高度透明的智能体设置，GrockBot 不是那个。"
+ },
+ {
+  "seg": 149,
+  "start": 537.503,
+  "end": 540.345,
+  "speaker": "SPEAKER_00",
+  "en": "OpenClaw or Hermes or any of those is a little bit more like that.",
+  "zh": "OpenClaw 或 Hermes 或其中任何一个都有点像那样。"
+ },
+ {
+  "seg": 150,
+  "start": 540.365,
+  "end": 542.538,
+  "speaker": "SPEAKER_00",
+  "en": "And then, of course, it doesn't run on my machine.",
+  "zh": "然后，当然，它不在我的机器上运行。"
+ },
+ {
+  "seg": 151,
+  "start": 542.588,
+  "end": 543.528,
+  "speaker": "SPEAKER_00",
+  "en": "I don't have control over it.",
+  "zh": "我无法控制它。"
+ },
+ {
+  "seg": 152,
+  "start": 543.548,
+  "end": 545.069,
+  "speaker": "SPEAKER_00",
+  "en": "It's a third party system.",
+  "zh": "这是一个第三方系统。"
+ },
+ {
+  "seg": 153,
+  "start": 545.249,
+  "end": 546.3601111111111,
+  "speaker": "SPEAKER_00",
+  "en": "Some good, some bad.",
+  "zh": "有些好，有些坏。"
+ },
+ {
+  "seg": 154,
+  "start": 546.43,
+  "end": 548.31,
+  "speaker": "SPEAKER_00",
+  "en": "That being said, it works.",
+  "zh": "话虽如此，它确实能用。"
+ },
+ {
+  "seg": 155,
+  "start": 549.311,
+  "end": 554.453,
+  "speaker": "SPEAKER_00",
+  "en": "And the connector and kind of like UX affordances are quite nice.",
+  "zh": "而且连接器和那种 UX 适配性相当不错。"
+ },
+ {
+  "seg": 156,
+  "start": 555.013,
+  "end": 556.294,
+  "speaker": "SPEAKER_00",
+  "en": "I would say just related to that,",
+  "zh": "我想说就与此相关，"
+ },
+ {
+  "seg": 157,
+  "start": 556.334,
+  "end": 562.256,
+  "speaker": "SPEAKER_00",
+  "en": "the last thing that I don't love about GrokBot is whatever model it's using,",
+  "zh": "我不喜欢 GrokBot 的最后一点是它使用的是什么模型，"
+ },
+ {
+  "seg": 158,
+  "start": 562.296,
+  "end": 569.296,
+  "speaker": "SPEAKER_00",
+  "en": "and maybe it's Grok, maybe it sounds a lot like Claude Slop, is I just know vibes.",
+  "zh": "可能是 Grok，可能听起来很像 Claude Slop，我只知道感觉。"
+ },
+ {
+  "seg": 159,
+  "start": 570.519,
+  "end": 571.4300000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Just know vibes.",
+  "zh": "只知道感觉。"
+ },
+ {
+  "seg": 160,
+  "start": 571.48,
+  "end": 572.48,
+  "speaker": "SPEAKER_00",
+  "en": "The vibes are bad.",
+  "zh": "感觉很糟糕。"
+ },
+ {
+  "seg": 161,
+  "start": 572.705,
+  "end": 574.979,
+  "speaker": "SPEAKER_00",
+  "en": "It's like, I don't want to hang out with this person.",
+  "zh": "就像是，我不想和这个人一起出去玩。"
+ },
+ {
+  "seg": 162,
+  "start": 575.029,
+  "end": 576.8067777777778,
+  "speaker": "SPEAKER_00",
+  "en": "Doesn't really make me cheerful.",
+  "zh": "并不能让我感到快乐。"
+ },
+ {
+  "seg": 163,
+  "start": 576.992,
+  "end": 582.32,
+  "speaker": "SPEAKER_00",
+  "en": "I have tuned my open claws to be exactly who I want to talk to when I want to talk to them.",
+  "zh": "我已经调整了我的 open claws，使其成为我想交谈时想交谈的确切对象。"
+ },
+ {
+  "seg": 164,
+  "start": 583.0780000000001,
+  "end": 585.865,
+  "speaker": "SPEAKER_00",
+  "en": "This, I'm getting like too much of that like classic...",
+  "zh": "这个，我得到了太多的那种经典的……"
+ },
+ {
+  "seg": 165,
+  "start": 586.468,
+  "end": 587.839,
+  "speaker": "SPEAKER_00",
+  "en": "Slop, not this, not that.",
+  "zh": "Slop，不是这个，不是那个。"
+ },
+ {
+  "seg": 166,
+  "start": 587.889,
+  "end": 591.952,
+  "speaker": "SPEAKER_00",
+  "en": "Slop, terrible names for products like a scope knife.",
+  "zh": "Slop，糟糕的产品名称，像一把scope刀。"
+ },
+ {
+  "seg": 167,
+  "start": 591.992,
+  "end": 593.233,
+  "speaker": "SPEAKER_00",
+  "en": "Just stuff that I would never say.",
+  "zh": "只是我永远不会说的话。"
+ },
+ {
+  "seg": 168,
+  "start": 593.273,
+  "end": 596.216,
+  "speaker": "SPEAKER_00",
+  "en": "And so I think the personality tuning and the voice tuning",
+  "zh": "所以我认为个性调整和声音调整"
+ },
+ {
+  "seg": 169,
+  "start": 596.256,
+  "end": 598.6270000000001,
+  "speaker": "SPEAKER_00",
+  "en": "across all these harnesses are really important.",
+  "zh": "在所有这些harnesses中都非常重要。"
+ },
+ {
+  "seg": 170,
+  "start": 598.677,
+  "end": 603.0310000000001,
+  "speaker": "SPEAKER_00",
+  "en": "But they're even more important if you are going to do this multi-agent strategy",
+  "zh": "但如果你要采用这种多智能体策略，它们就更加重要了"
+ },
+ {
+  "seg": 171,
+  "start": 603.081,
+  "end": 607.3950000000001,
+  "speaker": "SPEAKER_00",
+  "en": "where you're going to have people name their agents and have them do work for you.",
+  "zh": "因为你将让人们命名他们的智能体并让他们为你工作。"
+ },
+ {
+  "seg": 172,
+  "start": 607.445,
+  "end": 610.3760000000001,
+  "speaker": "SPEAKER_00",
+  "en": "A couple of use cases that I think you could use GraphBot for.",
+  "zh": "我认为你可以将 GraphBot 用于的几个用例。"
+ },
+ {
+  "seg": 173,
+  "start": 610.426,
+  "end": 613.067,
+  "speaker": "SPEAKER_00",
+  "en": "Again, I like to make my agents have roles.",
+  "zh": "同样，我喜欢让我的智能体拥有角色。"
+ },
+ {
+  "seg": 174,
+  "start": 613.127,
+  "end": 614.188,
+  "speaker": "SPEAKER_00",
+  "en": "So I made a PM one.",
+  "zh": "所以我做了一个 PM。"
+ },
+ {
+  "seg": 175,
+  "start": 614.208,
+  "end": 615.688,
+  "speaker": "SPEAKER_00",
+  "en": "I made a data analyst one.",
+  "zh": "我做了一个数据分析师。"
+ },
+ {
+  "seg": 176,
+  "start": 616.149,
+  "end": 617.429,
+  "speaker": "SPEAKER_00",
+  "en": "I made a deal desk one.",
+  "zh": "我做了一个交易台。"
+ },
+ {
+  "seg": 177,
+  "start": 617.469,
+  "end": 618.6356666666667,
+  "speaker": "SPEAKER_00",
+  "en": "I made a finance one.",
+  "zh": "我做了一个财务的。"
+ },
+ {
+  "seg": 178,
+  "start": 618.73,
+  "end": 620.0633333333334,
+  "speaker": "SPEAKER_00",
+  "en": "I'm making a family one.",
+  "zh": "我正在做一个家庭的。"
+ },
+ {
+  "seg": 179,
+  "start": 620.73,
+  "end": 624.152,
+  "speaker": "SPEAKER_00",
+  "en": "I think just thinking that way, what kind of teammate do I want?",
+  "zh": "我认为只是那样思考，我想要什么样的队友？"
+ },
+ {
+  "seg": 180,
+  "start": 624.192,
+  "end": 627.143,
+  "speaker": "SPEAKER_00",
+  "en": "And then giving that teammate the tools it needs and giving it",
+  "zh": "然后给那个队友它所需的工具并给它"
+ },
+ {
+  "seg": 181,
+  "start": 627.193,
+  "end": 631.755,
+  "speaker": "SPEAKER_00",
+  "en": "the instructions it needs is a great way to design your agents.",
+  "zh": "它所需的说明是设计智能体的好方法。"
+ },
+ {
+  "seg": 182,
+  "start": 631.815,
+  "end": 636.025,
+  "speaker": "SPEAKER_00",
+  "en": "Now, I would demo more, but I actually think this is all about workflow.",
+  "zh": "现在，我会演示更多，但我实际上这都是关于工作流程的。"
+ },
+ {
+  "seg": 183,
+  "start": 636.145,
+  "end": 638.446,
+  "speaker": "SPEAKER_00",
+  "en": "So the product itself is super simple.",
+  "zh": "所以产品本身超级简单。"
+ },
+ {
+  "seg": 184,
+  "start": 638.526,
+  "end": 641.2370000000001,
+  "speaker": "SPEAKER_00",
+  "en": "I think the use cases are what make it interesting.",
+  "zh": "我认为用例才是让它变得有趣的地方。"
+ },
+ {
+  "seg": 185,
+  "start": 641.287,
+  "end": 644.629,
+  "speaker": "SPEAKER_00",
+  "en": "And then the connector experience being top tier,",
+  "zh": "而且顶级的连接器体验，"
+ },
+ {
+  "seg": 186,
+  "start": 645.049,
+  "end": 649.571,
+  "speaker": "SPEAKER_00",
+  "en": "I think is going to help the Cursor XAI SpaceX team get their claws in",
+  "zh": "我认为这将帮助 Cursor XAI SpaceX 团队把他们的爪子伸进"
+ },
+ {
+  "seg": 187,
+  "start": 649.651,
+  "end": 650.872,
+  "speaker": "SPEAKER_00",
+  "en": "the enterprise use case.",
+  "zh": "企业用例。"
+ },
+ {
+  "seg": 188,
+  "start": 650.892,
+  "end": 652.032,
+  "speaker": "SPEAKER_00",
+  "en": "So I'm really curious.",
+  "zh": "所以我很好奇。"
+ },
+ {
+  "seg": 189,
+  "start": 652.052,
+  "end": 653.2186666666666,
+  "speaker": "SPEAKER_00",
+  "en": "Drop in the comments.",
+  "zh": "在评论中留言。"
+ },
+ {
+  "seg": 190,
+  "start": 653.313,
+  "end": 655.0907777777778,
+  "speaker": "SPEAKER_00",
+  "en": "Tell me what your use cases are.",
+  "zh": "告诉我你的用例是什么。"
+ },
+ {
+  "seg": 191,
+  "start": 655.374,
+  "end": 658.495,
+  "speaker": "SPEAKER_00",
+  "en": "I will continue to share ones and I will let you know if I decide I'm going",
+  "zh": "我将继续分享，如果你决定我会……我会让你知道"
+ },
+ {
+  "seg": 192,
+  "start": 658.515,
+  "end": 663.04,
+  "speaker": "SPEAKER_00",
+  "en": "to migrate any of my open claws over to GrockBot,",
+  "zh": "将我的任何 open claws 迁移到 GrockBot，"
+ },
+ {
+  "seg": 193,
+  "start": 663.561,
+  "end": 668.471,
+  "speaker": "SPEAKER_00",
+  "en": "if you want me to move over, SpaceX team, just make GrockBot way harder to manage.",
+  "zh": "如果你希望我搬过去，SpaceX 团队，只要让 GrockBot 更难管理。"
+ },
+ {
+  "seg": 194,
+  "start": 668.792,
+  "end": 672.293,
+  "speaker": "SPEAKER_00",
+  "en": "And then apparently I will fall in love with it and never use anything else.",
+  "zh": "然后显然我会爱上它并且永远不会使用其他任何东西。"
+ },
+ {
+  "seg": 195,
+  "start": 672.343,
+  "end": 676.5652222222221,
+  "speaker": "SPEAKER_00",
+  "en": "I'm going to keep an eye on this, but TLDR, super simple, great connectors.",
+  "zh": "我会继续关注这个，但 TLDR，超级简单，很棒的连接器。"
+ },
+ {
+  "seg": 196,
+  "start": 676.646,
+  "end": 678.767,
+  "speaker": "SPEAKER_00",
+  "en": "Use your agents as employees.",
+  "zh": "把你的智能体当作员工。"
+ },
+ {
+  "seg": 197,
+  "start": 679.087,
+  "end": 682.97,
+  "speaker": "SPEAKER_00",
+  "en": "And if you like a bad time, stay with OpenClaw.",
+  "zh": "如果你喜欢糟糕的体验，就留在 OpenClaw。"
+ },
+ {
+  "seg": 198,
+  "start": 683.49,
+  "end": 687.032,
+  "speaker": "SPEAKER_00",
+  "en": "This episode is brought to you by Jira by Atlassian.",
+  "zh": "本节目由 Atlassian 的 Jira 赞助。"
+ },
+ {
+  "seg": 199,
+  "start": 687.593,
+  "end": 694.593,
+  "speaker": "SPEAKER_00",
+  "en": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+  "zh": "Jira 中的团队协作图提供了准确率高 44% 的智能体结果，同时 token 使用量减少了 48%。"
+ },
+ {
+  "seg": 200,
+  "start": 695.298,
+  "end": 698.73,
+  "speaker": "SPEAKER_00",
+  "en": "That's a huge difference when working with AI coding agents like Claude,",
+  "zh": "在使用像 Claude 这样的 AI 编码智能体时，这是一个巨大的差异，"
+ },
+ {
+  "seg": 201,
+  "start": 698.78,
+  "end": 700.621,
+  "speaker": "SPEAKER_00",
+  "en": "Cursor, Codex, or Copilote.",
+  "zh": "Cursor, Codex, 或 Copilote。"
+ },
+ {
+  "seg": 202,
+  "start": 701.264,
+  "end": 705.2084444444445,
+  "speaker": "SPEAKER_00",
+  "en": "The hardest part of shipping with AI isn't the code, it's the context.",
+  "zh": "使用 AI 发布产品最难的部分不是代码，而是上下文。"
+ },
+ {
+  "seg": 203,
+  "start": 705.445,
+  "end": 706.695,
+  "speaker": "SPEAKER_00",
+  "en": "What's the right ticket?",
+  "zh": "什么是正确的工单？"
+ },
+ {
+  "seg": 204,
+  "start": 706.745,
+  "end": 707.9672222222222,
+  "speaker": "SPEAKER_00",
+  "en": "What did the spec say?",
+  "zh": "规格说明书是怎么说的？"
+ },
+ {
+  "seg": 205,
+  "start": 708.086,
+  "end": 709.5304444444445,
+  "speaker": "SPEAKER_00",
+  "en": "What got decided in Slack?",
+  "zh": "在 Slack 上决定了什么？"
+ },
+ {
+  "seg": 206,
+  "start": 709.906,
+  "end": 713.6282222222221,
+  "speaker": "SPEAKER_00",
+  "en": "The Teamwork Graph pulls all of that from across your entire stack,",
+  "zh": "Teamwork Graph 从你的整个技术栈中拉取所有这些信息，"
+ },
+ {
+  "seg": 207,
+  "start": 713.807,
+  "end": 715.7514444444445,
+  "speaker": "SPEAKER_00",
+  "en": "from Jira and Confluence to GitHub,",
+  "zh": "从 Jira 和 Confluence 到 GitHub，"
+ },
+ {
+  "seg": 208,
+  "start": 715.968,
+  "end": 719.8013333333333,
+  "speaker": "SPEAKER_00",
+  "en": "and feeds it directly to your agents before they write a single line.",
+  "zh": "并在它们写下一行代码之前直接提供给智能体。"
+ },
+ {
+  "seg": 209,
+  "start": 720.369,
+  "end": 725.4245555555556,
+  "speaker": "SPEAKER_00",
+  "en": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+  "zh": "你分配工作，智能体获得所需的一切，PR 在准备好时就会浮现。"
+ },
+ {
+  "seg": 210,
+  "start": 725.876,
+  "end": 729.478,
+  "speaker": "SPEAKER_00",
+  "en": "No digging, no context switching, no broken flow.",
+  "zh": "无需挖掘，无需上下文切换，没有中断的流程。"
+ },
+ {
+  "seg": 211,
+  "start": 730.178,
+  "end": 732.139,
+  "speaker": "SPEAKER_00",
+  "en": "Same team, smarter agents.",
+  "zh": "同样的团队，更聪明的智能体。"
+ },
+ {
+  "seg": 212,
+  "start": 732.679,
+  "end": 735.36,
+  "speaker": "SPEAKER_00",
+  "en": "Try it free at Jira.dev.",
+  "zh": "在 Jira.dev 免费试用。"
+ },
+ {
+  "seg": 213,
+  "start": 735.76,
+  "end": 739.242,
+  "speaker": "SPEAKER_00",
+  "en": "That's J-I-R-A dot D-E-V.",
+  "zh": "那是 J-I-R-A 点 D-E-V。"
+ },
+ {
+  "seg": 214,
+  "start": 741.097,
+  "end": 746.22,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, the next release from the Cursor team is Origin,",
+  "zh": "好的，Cursor 团队的下一个发布版本是 Origin，"
+ },
+ {
+  "seg": 215,
+  "start": 746.3,
+  "end": 750.982,
+  "speaker": "SPEAKER_00",
+  "en": "the GitHub replacement announced at Cursor's conference this year",
+  "zh": "今年在 Cursor 大会上宣布的 GitHub 替代品"
+ },
+ {
+  "seg": 216,
+  "start": 751.102,
+  "end": 754.664,
+  "speaker": "SPEAKER_00",
+  "en": "and finally released in early access today,",
+  "zh": "终于在今天作为抢先体验版发布了，"
+ },
+ {
+  "seg": 217,
+  "start": 754.724,
+  "end": 757.9430000000001,
+  "speaker": "SPEAKER_00",
+  "en": "which will be a couple days ago when we get this episode live.",
+  "zh": "当我们发布这一期时，这将是几天前的事了。"
+ },
+ {
+  "seg": 218,
+  "start": 757.993,
+  "end": 763.237,
+  "speaker": "SPEAKER_00",
+  "en": "So Origin is an early access beta and they've called it kind of code base inside the app.",
+  "zh": "所以 Origin 是一个抢先测试版，他们把它称为应用内的代码库。"
+ },
+ {
+  "seg": 219,
+  "start": 763.257,
+  "end": 767.38,
+  "speaker": "SPEAKER_00",
+  "en": "So if you're in the Cursor web app or you're in the desktop app,",
+  "zh": "所以如果你在 Cursor 网页应用或桌面应用中， [[220 ]] 你实际上是在谈论代码库，"
+ },
+ {
+  "seg": 220,
+  "start": 767.66,
+  "end": 769.321,
+  "speaker": "SPEAKER_00",
+  "en": "you're really talking about code base,",
+  "zh": "你真的在谈论代码库，"
+ },
+ {
+  "seg": 221,
+  "start": 769.361,
+  "end": 773.5832222222222,
+  "speaker": "SPEAKER_00",
+  "en": "which is, of course, the right primitive for something that is code hosting.",
+  "zh": "这当然是代码托管这件事的正确原语。"
+ },
+ {
+  "seg": 222,
+  "start": 773.944,
+  "end": 777.527,
+  "speaker": "SPEAKER_00",
+  "en": "Now, the whole value proposition that Cursor has put in front of us in terms",
+  "zh": "现在，Cursor 摆在我们面前的整个价值主张"
+ },
+ {
+  "seg": 223,
+  "start": 777.567,
+  "end": 782.45,
+  "speaker": "SPEAKER_00",
+  "en": "of why they should build a GitHub replacement is they are basically building",
+  "zh": "关于为什么他们应该构建 GitHub 替代品是他们基本上正在构建"
+ },
+ {
+  "seg": 224,
+  "start": 782.67,
+  "end": 784.672,
+  "speaker": "SPEAKER_00",
+  "en": "an agent-native code.",
+  "zh": "一个智能体原生的代码。"
+ },
+ {
+  "seg": 225,
+  "start": 785.31,
+  "end": 789.993,
+  "speaker": "SPEAKER_00",
+  "en": "GitHub replacement, which means that it's got all the git primitives.",
+  "zh": "GitHub 替代品，这意味着它拥有所有 git 原语。"
+ },
+ {
+  "seg": 226,
+  "start": 790.053,
+  "end": 791.134,
+  "speaker": "SPEAKER_00",
+  "en": "It's got code.",
+  "zh": "它有代码。"
+ },
+ {
+  "seg": 227,
+  "start": 791.174,
+  "end": 792.0250000000001,
+  "speaker": "SPEAKER_00",
+  "en": "It's got diffs.",
+  "zh": "它有 diffs。"
+ },
+ {
+  "seg": 228,
+  "start": 792.075,
+  "end": 793.306,
+  "speaker": "SPEAKER_00",
+  "en": "It's got pull requests.",
+  "zh": "它有 pull requests。"
+ },
+ {
+  "seg": 229,
+  "start": 793.356,
+  "end": 800.26,
+  "speaker": "SPEAKER_00",
+  "en": "It's got all that same git primitive stuff, but it's built in a UI way.",
+  "zh": "它拥有所有相同的 git 原语东西，但它是用 UI 的方式构建的。"
+ },
+ {
+  "seg": 230,
+  "start": 800.3,
+  "end": 803.903,
+  "speaker": "SPEAKER_00",
+  "en": "It's built in a UX way for agents to collaborate with.",
+  "zh": "它是以 UX 的方式为智能体协作而构建的。"
+ },
+ {
+  "seg": 231,
+  "start": 804.023,
+  "end": 804.913,
+  "speaker": "SPEAKER_00",
+  "en": "And in particular,",
+  "zh": "特别是，"
+ },
+ {
+  "seg": 232,
+  "start": 804.963,
+  "end": 810.667,
+  "speaker": "SPEAKER_00",
+  "en": "of course, the Cursor Cloud Agents and the Cursor Desktop App and the Cursor CLI.",
+  "zh": "当然，Cursor Cloud 智能体和 Cursor 桌面应用以及 Cursor CLI。"
+ },
+ {
+  "seg": 233,
+  "start": 812.365,
+  "end": 813.335,
+  "speaker": "SPEAKER_00",
+  "en": "It's Git.",
+  "zh": "它是 Git。"
+ },
+ {
+  "seg": 234,
+  "start": 813.385,
+  "end": 814.3960000000001,
+  "speaker": "SPEAKER_00",
+  "en": "We're all stuck with Git.",
+  "zh": "我们都被 Git 困住了。"
+ },
+ {
+  "seg": 235,
+  "start": 814.446,
+  "end": 815.556,
+  "speaker": "SPEAKER_00",
+  "en": "We've agreed on Git.",
+  "zh": "我们就 Git 达成了一致。"
+ },
+ {
+  "seg": 236,
+  "start": 815.606,
+  "end": 817.2171111111111,
+  "speaker": "SPEAKER_00",
+  "en": "Now have we agreed on GitHub?",
+  "zh": "那么我们就 GitHub 达成一致了吗？"
+ },
+ {
+  "seg": 237,
+  "start": 818.168,
+  "end": 820.3902222222222,
+  "speaker": "SPEAKER_00",
+  "en": "And it seems like the tides are turning.",
+  "zh": "潮流似乎正在转变。"
+ },
+ {
+  "seg": 238,
+  "start": 820.589,
+  "end": 826.071,
+  "speaker": "SPEAKER_00",
+  "en": "But Cursor's bet is that we are going to want a agent native GitHub and",
+  "zh": "但 Cursor 的赌注是，我们将需要一个智能体原生的 GitHub，并且"
+ },
+ {
+  "seg": 239,
+  "start": 826.111,
+  "end": 828.846,
+  "speaker": "SPEAKER_00",
+  "en": "that GitHub is not going to get there fast enough.",
+  "zh": "GitHub 不会足够快地到达那里。"
+ },
+ {
+  "seg": 240,
+  "start": 828.896,
+  "end": 830.787,
+  "speaker": "SPEAKER_00",
+  "en": "So what does that look like tactically?",
+  "zh": "那么在战术上看起来是什么样的？"
+ },
+ {
+  "seg": 241,
+  "start": 830.837,
+  "end": 832.977,
+  "speaker": "SPEAKER_00",
+  "en": "Well, Origin has repos.",
+  "zh": "嗯，Origin 有仓库。"
+ },
+ {
+  "seg": 242,
+  "start": 833.357,
+  "end": 835.578,
+  "speaker": "SPEAKER_00",
+  "en": "You can, of course, import GitHub repos.",
+  "zh": "你当然可以导入 GitHub 仓库。"
+ },
+ {
+  "seg": 243,
+  "start": 835.598,
+  "end": 838.149,
+  "speaker": "SPEAKER_00",
+  "en": "I'll tell you a little bit about my experience there.",
+  "zh": "我会告诉你一点关于我在那里的经历。"
+ },
+ {
+  "seg": 244,
+  "start": 838.199,
+  "end": 840.62,
+  "speaker": "SPEAKER_00",
+  "en": "It has pull requests, which you can see.",
+  "zh": "它有 pull requests，你可以看到。"
+ },
+ {
+  "seg": 245,
+  "start": 841.58,
+  "end": 843.681,
+  "speaker": "SPEAKER_00",
+  "en": "Agents can reply to comments.",
+  "zh": "智能体可以回复评论。"
+ },
+ {
+  "seg": 246,
+  "start": 843.721,
+  "end": 847.682,
+  "speaker": "SPEAKER_00",
+  "en": "They can be assigned as reviewers, all those sorts of things.",
+  "zh": "它们可以被指定为审查者，以及所有那些事情。"
+ },
+ {
+  "seg": 247,
+  "start": 847.802,
+  "end": 850.303,
+  "speaker": "SPEAKER_00",
+  "en": "And there's a small set of extensions,",
+  "zh": "并且有一小部分扩展，"
+ },
+ {
+  "seg": 248,
+  "start": 850.823,
+  "end": 852.203,
+  "speaker": "SPEAKER_00",
+  "en": "CICD extensions,",
+  "zh": "CICD 扩展，"
+ },
+ {
+  "seg": 249,
+  "start": 852.223,
+  "end": 857.645,
+  "speaker": "SPEAKER_00",
+  "en": "for example, like build preview branches in Vercel for those who want it.",
+  "zh": "例如，像在 Vercel 中构建预览分支，供那些想要的人使用。"
+ },
+ {
+  "seg": 250,
+  "start": 857.985,
+  "end": 859.918,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, so what does that actually look like?",
+  "zh": "好的，所以那实际上看起来是什么样的？"
+ },
+ {
+  "seg": 251,
+  "start": 859.968,
+  "end": 864.334,
+  "speaker": "SPEAKER_00",
+  "en": "Well, you go into the cursor web app and you click code base and",
+  "zh": "嗯，你进入 cursor 的 web 应用，点击 code base，"
+ },
+ {
+  "seg": 252,
+  "start": 864.354,
+  "end": 867.358,
+  "speaker": "SPEAKER_00",
+  "en": "then you basically import your GitHub repos.",
+  "zh": "然后你基本上导入你的 GitHub 仓库。"
+ },
+ {
+  "seg": 253,
+  "start": 867.498,
+  "end": 868.498,
+  "speaker": "SPEAKER_00",
+  "en": "Very smart.",
+  "zh": "非常聪明。"
+ },
+ {
+  "seg": 254,
+  "start": 869.138,
+  "end": 872.5690000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Was not smart to release this the day that GitHub had a major outage,",
+  "zh": "在 GitHub 发生重大故障的那天发布这个并不明智，"
+ },
+ {
+  "seg": 255,
+  "start": 872.619,
+  "end": 876.2900000000001,
+  "speaker": "SPEAKER_00",
+  "en": "or maybe it was genius to release this the day that GitHub had a major outage.",
+  "zh": "或许在 GitHub 发生重大故障的那天发布这个是天才之举。"
+ },
+ {
+  "seg": 256,
+  "start": 876.34,
+  "end": 879.02,
+  "speaker": "SPEAKER_00",
+  "en": "So I had some trouble with this GitHub import,",
+  "zh": "所以我在这个 GitHub 导入上遇到了一些麻烦，"
+ },
+ {
+  "seg": 257,
+  "start": 879.42,
+  "end": 881.6977777777778,
+  "speaker": "SPEAKER_00",
+  "en": "but all you do is click sync from GitHub,",
+  "zh": "但你要做的就是点击从 GitHub 同步，"
+ },
+ {
+  "seg": 258,
+  "start": 881.761,
+  "end": 883.611,
+  "speaker": "SPEAKER_00",
+  "en": "you authorize your GitHub account,",
+  "zh": "你授权你的 GitHub 账户，"
+ },
+ {
+  "seg": 259,
+  "start": 883.661,
+  "end": 887.4387777777778,
+  "speaker": "SPEAKER_00",
+  "en": "pick which repositories you want to sync in, and then they are here.",
+  "zh": "选择你想同步哪些仓库，然后它们就在这里了。"
+ },
+ {
+  "seg": 260,
+  "start": 887.882,
+  "end": 891.153,
+  "speaker": "SPEAKER_00",
+  "en": "As you can see, you have kind of the same primitives you have.",
+  "zh": "如你所见，你拥有一些你所拥有的相同原语。"
+ },
+ {
+  "seg": 261,
+  "start": 891.203,
+  "end": 892.984,
+  "speaker": "SPEAKER_00",
+  "en": "Code, so this is your code view.",
+  "zh": "Code，所以这是你的代码视图。"
+ },
+ {
+  "seg": 262,
+  "start": 893.004,
+  "end": 898.506,
+  "speaker": "SPEAKER_00",
+  "en": "You have pull requests, so you have pull requests, and then you have some settings.",
+  "zh": "你有 pull requests，所以你有 pull requests，然后你有一些设置。"
+ },
+ {
+  "seg": 263,
+  "start": 899.107,
+  "end": 903.389,
+  "speaker": "SPEAKER_00",
+  "en": "What I would say is with the GitHub integration,",
+  "zh": "我想说的是，有了 GitHub 集成，"
+ },
+ {
+  "seg": 264,
+  "start": 903.589,
+  "end": 907.751,
+  "speaker": "SPEAKER_00",
+  "en": "it's really, it seems like it's just a wrapper on the GitHub API.",
+  "zh": "真的，它似乎只是 GitHub API 的一个封装。"
+ },
+ {
+  "seg": 265,
+  "start": 908.251,
+  "end": 913.413,
+  "speaker": "SPEAKER_00",
+  "en": "So yes, in theory, this has been kind of redesigned.",
+  "zh": "是的，理论上，这已经经过了某种重新设计。"
+ },
+ {
+  "seg": 266,
+  "start": 913.433,
+  "end": 914.5440000000001,
+  "speaker": "SPEAKER_00",
+  "en": "You can see here, like,",
+  "zh": "你可以在这里看到，比如，"
+ },
+ {
+  "seg": 267,
+  "start": 914.594,
+  "end": 918.055,
+  "speaker": "SPEAKER_00",
+  "en": "there's some nice things about how bug bot feedback has been shown",
+  "zh": "关于 bug bot 反馈是如何展示的"
+ },
+ {
+  "seg": 268,
+  "start": 918.095,
+  "end": 919.4838888888889,
+  "speaker": "SPEAKER_00",
+  "en": "or how cursor feedback...",
+  "zh": "或者 cursor 反馈是如何展示的，"
+ },
+ {
+  "seg": 269,
+  "start": 920.013,
+  "end": 920.653,
+  "speaker": "SPEAKER_00",
+  "en": "Has been shown.",
+  "zh": "有一些不错的地方。"
+ },
+ {
+  "seg": 270,
+  "start": 920.673,
+  "end": 925.994,
+  "speaker": "SPEAKER_00",
+  "en": "It has some like smart little suggestions at the top that are nice.",
+  "zh": "它在顶部有一些像这样的小巧的智能建议，很不错。"
+ },
+ {
+  "seg": 271,
+  "start": 926.154,
+  "end": 927.675,
+  "speaker": "SPEAKER_00",
+  "en": "But at the end of the day,",
+  "zh": "但归根结底，"
+ },
+ {
+  "seg": 272,
+  "start": 927.775,
+  "end": 932.696,
+  "speaker": "SPEAKER_00",
+  "en": "this is just like GitHub with maybe less features,",
+  "zh": "这就像是一个功能可能更少的 GitHub，"
+ },
+ {
+  "seg": 273,
+  "start": 932.756,
+  "end": 936.056,
+  "speaker": "SPEAKER_00",
+  "en": "maybe less integrated, much more integrated with Cursor.",
+  "zh": "可能集成度较低，但与 Cursor 的集成度高得多。"
+ },
+ {
+  "seg": 274,
+  "start": 936.576,
+  "end": 937.6270000000001,
+  "speaker": "SPEAKER_00",
+  "en": "So I appreciate that.",
+  "zh": "所以我很感激这一点。"
+ },
+ {
+  "seg": 275,
+  "start": 937.677,
+  "end": 938.817,
+  "speaker": "SPEAKER_00",
+  "en": "And I can see the vision.",
+  "zh": "我能看到这个愿景。"
+ },
+ {
+  "seg": 276,
+  "start": 938.837,
+  "end": 940.737,
+  "speaker": "SPEAKER_00",
+  "en": "I can see the vision, I promise.",
+  "zh": "我能看到这个愿景，我保证。"
+ },
+ {
+  "seg": 277,
+  "start": 942.118,
+  "end": 943.798,
+  "speaker": "SPEAKER_00",
+  "en": "But right now,",
+  "zh": "但现在，"
+ },
+ {
+  "seg": 278,
+  "start": 944.058,
+  "end": 947.879,
+  "speaker": "SPEAKER_00",
+  "en": "if I'm using a GitHub hosted repo and I'm not ready to go like all in on",
+  "zh": "如果我使用的是 GitHub 托管的仓库，并且我还没准备好完全投入"
+ },
+ {
+  "seg": 279,
+  "start": 947.899,
+  "end": 949.0656666666666,
+  "speaker": "SPEAKER_00",
+  "en": "the Cursor ecosystem,",
+  "zh": "Cursor 生态系统，"
+ },
+ {
+  "seg": 280,
+  "start": 949.893,
+  "end": 955.076,
+  "speaker": "SPEAKER_00",
+  "en": "There's just not enough here in this early launch to get me to pull over.",
+  "zh": "在这个早期发布中，这里还没有足够的东西让我迁移过来。"
+ },
+ {
+  "seg": 281,
+  "start": 955.597,
+  "end": 962.597,
+  "speaker": "SPEAKER_00",
+  "en": "And so, yes, I can like add cursor here and ask it to fix the Vercel preview branch issue.",
+  "zh": "所以，是的，我可以在这里添加 cursor 并要求它修复 Vercel 预览分支问题。"
+ },
+ {
+  "seg": 282,
+  "start": 968.305,
+  "end": 969.806,
+  "speaker": "SPEAKER_00",
+  "en": "Please, why is it failing?",
+  "zh": "拜托，为什么会失败？"
+ },
+ {
+  "seg": 283,
+  "start": 971.332,
+  "end": 972.128,
+  "speaker": "SPEAKER_00",
+  "en": "Because this is failing.",
+  "zh": "因为这正在失败。"
+ },
+ {
+  "seg": 284,
+  "start": 972.648,
+  "end": 973.648,
+  "speaker": "SPEAKER_00",
+  "en": "I can do that.",
+  "zh": "我可以那样做。"
+ },
+ {
+  "seg": 285,
+  "start": 975.37,
+  "end": 976.0390000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Nope.",
+  "zh": "不。"
+ },
+ {
+  "seg": 286,
+  "start": 976.089,
+  "end": 977.089,
+  "speaker": "SPEAKER_00",
+  "en": "We got an error.",
+  "zh": "我们遇到了一个错误。"
+ },
+ {
+  "seg": 287,
+  "start": 977.19,
+  "end": 978.578888888889,
+  "speaker": "SPEAKER_00",
+  "en": "So maybe I can't do that.",
+  "zh": "所以也许我不能那样做。"
+ },
+ {
+  "seg": 288,
+  "start": 979.451,
+  "end": 980.941,
+  "speaker": "SPEAKER_00",
+  "en": "GitHub's having an outage right now.",
+  "zh": "GitHub 现在正在发生故障。"
+ },
+ {
+  "seg": 289,
+  "start": 980.991,
+  "end": 982.412,
+  "speaker": "SPEAKER_00",
+  "en": "So maybe this is a GitHub issue.",
+  "zh": "所以也许这是一个 GitHub 问题。"
+ },
+ {
+  "seg": 290,
+  "start": 982.432,
+  "end": 983.7653333333334,
+  "speaker": "SPEAKER_00",
+  "en": "Maybe this cursor issue.",
+  "zh": "也许这是一个 cursor 问题。"
+ },
+ {
+  "seg": 291,
+  "start": 984.553,
+  "end": 985.344,
+  "speaker": "SPEAKER_00",
+  "en": "But again,",
+  "zh": "但同样，"
+ },
+ {
+  "seg": 292,
+  "start": 985.394,
+  "end": 988.335,
+  "speaker": "SPEAKER_00",
+  "en": "like today's today origin,",
+  "zh": "就像今天的 today origin，"
+ },
+ {
+  "seg": 293,
+  "start": 989.656,
+  "end": 994.598,
+  "speaker": "SPEAKER_00",
+  "en": "I'm seeing that they're setting the groundwork for getting you to get your repos in",
+  "zh": "我看到他们正在为让你把仓库放入"
+ },
+ {
+  "seg": 294,
+  "start": 994.638,
+  "end": 995.628,
+  "speaker": "SPEAKER_00",
+  "en": "a cursor.",
+  "zh": "cursor 打下基础。"
+ },
+ {
+  "seg": 295,
+  "start": 995.678,
+  "end": 1000.8446666666666,
+  "speaker": "SPEAKER_00",
+  "en": "They're setting the groundwork for BugBot and Cursor to be first class citizens in your repo.",
+  "zh": "他们正在为 BugBot 和 Cursor 成为你仓库中的一等公民打下基础。"
+ },
+ {
+  "seg": 296,
+  "start": 1002.374,
+  "end": 1006.618,
+  "speaker": "SPEAKER_00",
+  "en": "I'm sure there are some affordances on like the CLI side that make it easier",
+  "zh": "我确信在 CLI 方面有一些便利设施"
+ },
+ {
+  "seg": 297,
+  "start": 1006.818,
+  "end": 1009.56,
+  "speaker": "SPEAKER_00",
+  "en": "for cloud agents to open PRs.",
+  "zh": "让云智能体更容易打开 PR。"
+ },
+ {
+  "seg": 298,
+  "start": 1009.6,
+  "end": 1013.2666666666667,
+  "speaker": "SPEAKER_00",
+  "en": "And it's just going to be just like a nice buttoned up experience.",
+  "zh": "这将会是一个很好的、完善体验。"
+ },
+ {
+  "seg": 299,
+  "start": 1013.563,
+  "end": 1014.374,
+  "speaker": "SPEAKER_00",
+  "en": "But again,",
+  "zh": "但同样，"
+ },
+ {
+  "seg": 300,
+  "start": 1014.424,
+  "end": 1017.627,
+  "speaker": "SPEAKER_00",
+  "en": "if you have invested deeply in GitHub,",
+  "zh": "如果你已经深入投资于 GitHub，"
+ },
+ {
+  "seg": 301,
+  "start": 1017.667,
+  "end": 1019.588,
+  "speaker": "SPEAKER_00",
+  "en": "which everybody has,",
+  "zh": "每个人都已经这样做了，"
+ },
+ {
+  "seg": 302,
+  "start": 1020.109,
+  "end": 1022.511,
+  "speaker": "SPEAKER_00",
+  "en": "and you have your automations and you have your actions",
+  "zh": "并且你有你的自动化，你有你的 actions"
+ },
+ {
+  "seg": 303,
+  "start": 1022.551,
+  "end": 1025.7732222222223,
+  "speaker": "SPEAKER_00",
+  "en": "and you have your code owners and you have all this stuff.",
+  "zh": "你有你的代码所有者，你有所有这些东西。"
+ },
+ {
+  "seg": 304,
+  "start": 1026.036,
+  "end": 1028.607,
+  "speaker": "SPEAKER_00",
+  "en": "We're going to have to see more from this experience,",
+  "zh": "我们必须从这个体验中看到更多，"
+ },
+ {
+  "seg": 305,
+  "start": 1028.657,
+  "end": 1031.118,
+  "speaker": "SPEAKER_00",
+  "en": "more from why AI Native,",
+  "zh": "更多关于为什么 AI Native，"
+ },
+ {
+  "seg": 306,
+  "start": 1031.198,
+  "end": 1036.6,
+  "speaker": "SPEAKER_00",
+  "en": "why Agent Native matters for us all to move over to this new product.",
+  "zh": "为什么 Agent Native 对我们要全部迁移到这个新产品很重要。"
+ },
+ {
+  "seg": 307,
+  "start": 1036.8,
+  "end": 1039.361,
+  "speaker": "SPEAKER_00",
+  "en": "Now, literally came out today.",
+  "zh": "现在，字面上今天刚出来。"
+ },
+ {
+  "seg": 308,
+  "start": 1039.401,
+  "end": 1040.462,
+  "speaker": "SPEAKER_00",
+  "en": "They're not even calling it beta.",
+  "zh": "他们甚至不叫它 beta。"
+ },
+ {
+  "seg": 309,
+  "start": 1040.482,
+  "end": 1042.1486666666667,
+  "speaker": "SPEAKER_00",
+  "en": "They're calling it early beta.",
+  "zh": "他们叫它 early beta。"
+ },
+ {
+  "seg": 310,
+  "start": 1042.322,
+  "end": 1043.423,
+  "speaker": "SPEAKER_00",
+  "en": "So I have faith.",
+  "zh": "所以我有信心。"
+ },
+ {
+  "seg": 311,
+  "start": 1043.463,
+  "end": 1045.764,
+  "speaker": "SPEAKER_00",
+  "en": "I'm excited to see what this looks like.",
+  "zh": "我很兴奋看看它看起来是什么样。"
+ },
+ {
+  "seg": 312,
+  "start": 1046.184,
+  "end": 1051.306,
+  "speaker": "SPEAKER_00",
+  "en": "But again, just the current GitHub integrated sync, it's like a little slower.",
+  "zh": "但再说一次，只是当前的 GitHub 集成同步，它就像有点慢。"
+ },
+ {
+  "seg": 313,
+  "start": 1051.326,
+  "end": 1054.447,
+  "speaker": "SPEAKER_00",
+  "en": "I get the redesign, but it's not giving me life.",
+  "zh": "我理解这个重新设计，但它没给我生机。"
+ },
+ {
+  "seg": 314,
+  "start": 1055.139,
+  "end": 1057.472,
+  "speaker": "SPEAKER_00",
+  "en": "And I'm just too embedded in the GitHub ecosystem.",
+  "zh": "而且我太嵌入在 GitHub 生态系统里了。"
+ },
+ {
+  "seg": 315,
+  "start": 1057.522,
+  "end": 1062.407,
+  "speaker": "SPEAKER_00",
+  "en": "I need to see something wow from this in order for me to click unlock.",
+  "zh": "我需要从这个东西看到一些令人惊叹的东西，好让我点击解锁。"
+ },
+ {
+  "seg": 316,
+  "start": 1062.667,
+  "end": 1066.071,
+  "speaker": "SPEAKER_00",
+  "en": "You know, and I've spent an hour with it, two hours with it, not that much.",
+  "zh": "你知道，我已经花了一个小时在上面，两个小时在上面，没那么多。"
+ },
+ {
+  "seg": 317,
+  "start": 1066.111,
+  "end": 1070.416,
+  "speaker": "SPEAKER_00",
+  "en": "I've messed around with opening PRs inside Cursor.",
+  "zh": "我折腾过在 Cursor 里面打开 PR。"
+ },
+ {
+  "seg": 318,
+  "start": 1071.477,
+  "end": 1073.338,
+  "speaker": "SPEAKER_00",
+  "en": "Again, like it's redesigned.",
+  "zh": "再说一次，像它是重新设计的。"
+ },
+ {
+  "seg": 319,
+  "start": 1073.538,
+  "end": 1074.879,
+  "speaker": "SPEAKER_00",
+  "en": "It's synced to GitHub though.",
+  "zh": "但它同步到了 GitHub。"
+ },
+ {
+  "seg": 320,
+  "start": 1074.899,
+  "end": 1079.142,
+  "speaker": "SPEAKER_00",
+  "en": "So it kind of feels like I'm being slow migrated over to Cursor and",
+  "zh": "所以感觉有点像我在被缓慢迁移到 Cursor 并且"
+ },
+ {
+  "seg": 321,
+  "start": 1079.182,
+  "end": 1080.903,
+  "speaker": "SPEAKER_00",
+  "en": "that they just want me to get like that.",
+  "zh": "他们只是想让我变得像那样。"
+ },
+ {
+  "seg": 322,
+  "start": 1080.923,
+  "end": 1085.4360000000001,
+  "speaker": "SPEAKER_00",
+  "en": "They just want to get their claws in me and then really wow me with this experience.",
+  "zh": "他们只是想把他们的爪子伸进我，然后用这个体验真正惊艳我。"
+ },
+ {
+  "seg": 323,
+  "start": 1085.486,
+  "end": 1086.5415555555558,
+  "speaker": "SPEAKER_00",
+  "en": "But out of the box,",
+  "zh": "但是开箱即用，"
+ },
+ {
+  "seg": 324,
+  "start": 1086.727,
+  "end": 1091.39,
+  "speaker": "SPEAKER_00",
+  "en": "I'm not yet feeling the vision, although I'm excited to see how this plays out.",
+  "zh": "我还没感觉到那个愿景，虽然我很兴奋看看这如何发展。"
+ },
+ {
+  "seg": 325,
+  "start": 1091.49,
+  "end": 1092.961,
+  "speaker": "SPEAKER_00",
+  "en": "It's worth experimenting with.",
+  "zh": "它值得实验一下。"
+ },
+ {
+  "seg": 326,
+  "start": 1093.011,
+  "end": 1095.1776666666667,
+  "speaker": "SPEAKER_00",
+  "en": "I think it's worth keeping your eye on.",
+  "zh": "我认为值得保持关注。"
+ },
+ {
+  "seg": 327,
+  "start": 1095.432,
+  "end": 1096.432,
+  "speaker": "SPEAKER_00",
+  "en": "It's interesting.",
+  "zh": "它很有趣。"
+ },
+ {
+  "seg": 328,
+  "start": 1096.533,
+  "end": 1098.444,
+  "speaker": "SPEAKER_00",
+  "en": "No one is happy with GitHub right now.",
+  "zh": "没人对 GitHub 感到满意。"
+ },
+ {
+  "seg": 329,
+  "start": 1098.494,
+  "end": 1103.504,
+  "speaker": "SPEAKER_00",
+  "en": "Both stability is like terrible and They really haven't yet given us",
+  "zh": "稳定性很糟糕，而且他们真的还没给我们"
+ },
+ {
+  "seg": 330,
+  "start": 1103.604,
+  "end": 1108.109,
+  "speaker": "SPEAKER_00",
+  "en": "that like AI native completely reimagined Git experience that we're hoping for.",
+  "zh": "那个像 AI native 完全重新想象的 Git 体验，我们希望的那个。"
+ },
+ {
+  "seg": 331,
+  "start": 1108.129,
+  "end": 1112.053,
+  "speaker": "SPEAKER_00",
+  "en": "That being said, it is super early on Cursor Origin.",
+  "zh": "话虽如此，它在 Cursor Origin 上超级早。"
+ },
+ {
+  "seg": 332,
+  "start": 1112.073,
+  "end": 1119.073,
+  "speaker": "SPEAKER_00",
+  "en": "I think we are mostly in the very, very, very early stages of a very, very, very long migration.",
+  "zh": "我认为我们主要处于一个非常、非常、非常长的迁移的非常、非常、非常早期的阶段。"
+ },
+ {
+  "seg": 333,
+  "start": 1121.021,
+  "end": 1126.224,
+  "speaker": "SPEAKER_00",
+  "en": "And it will be interesting to see if Cursor becomes the new centralized source",
+  "zh": "看看 Cursor 是否会成为新的代码中央化的真实来源"
+ },
+ {
+  "seg": 334,
+  "start": 1126.264,
+  "end": 1129.585,
+  "speaker": "SPEAKER_00",
+  "en": "of truth for code or if it continues to just operate in",
+  "zh": "或者它继续只是运行在"
+ },
+ {
+  "seg": 335,
+  "start": 1129.625,
+  "end": 1132.247,
+  "speaker": "SPEAKER_00",
+  "en": "the writing code agents space.",
+  "zh": "写代码智能体空间里，会很有趣。"
+ },
+ {
+  "seg": 336,
+  "start": 1132.947,
+  "end": 1133.207,
+  "speaker": "SPEAKER_00",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 337,
+  "start": 1133.227,
+  "end": 1134.338,
+  "speaker": "SPEAKER_00",
+  "en": "So those are our two products.",
+  "zh": "所以那是我们的两个产品。"
+ },
+ {
+  "seg": 338,
+  "start": 1134.388,
+  "end": 1136.069,
+  "speaker": "SPEAKER_00",
+  "en": "I would say I like GrokBot.",
+  "zh": "我会说我喜欢 GrokBot。"
+ },
+ {
+  "seg": 339,
+  "start": 1136.689,
+  "end": 1140.131,
+  "speaker": "SPEAKER_00",
+  "en": "I have not yet seen the light on Origin.",
+  "zh": "我还没看到 Origin 的光。"
+ },
+ {
+  "seg": 340,
+  "start": 1140.691,
+  "end": 1143.6354444444444,
+  "speaker": "SPEAKER_00",
+  "en": "The last thing we're going to talk about is Grok 4.6.",
+  "zh": "我们要谈论的最后一件事是 Grok 4.6。"
+ },
+ {
+  "seg": 341,
+  "start": 1143.893,
+  "end": 1147.574,
+  "speaker": "SPEAKER_00",
+  "en": "This is the model that has everybody I know texting me saying,",
+  "zh": "这是那个模型，让我认识的所有人给我发短信说，"
+ },
+ {
+  "seg": 342,
+  "start": 1147.795,
+  "end": 1150.296,
+  "speaker": "SPEAKER_00",
+  "en": "I think I kind of like the Grok models.",
+  "zh": "我想我有点喜欢 Grok 模型。"
+ },
+ {
+  "seg": 343,
+  "start": 1150.865,
+  "end": 1154.037,
+  "speaker": "SPEAKER_00",
+  "en": "Now, I think we're all trying this because Cursor has defaulted,",
+  "zh": "现在，我认为我们在尝试这个是因为 Cursor 已经默认"
+ },
+ {
+  "seg": 344,
+  "start": 1154.087,
+  "end": 1157.089,
+  "speaker": "SPEAKER_00",
+  "en": "I've noticed, some of their models to Grok.",
+  "zh": "我注意到，他们的一些模型到 Grok。"
+ },
+ {
+  "seg": 345,
+  "start": 1157.389,
+  "end": 1161.512,
+  "speaker": "SPEAKER_00",
+  "en": "Not sure if I'd love it, but that means we give it a try.",
+  "zh": "不确定我会不会喜欢它，但这意味着我们要试一试。"
+ },
+ {
+  "seg": 346,
+  "start": 1161.912,
+  "end": 1164.794,
+  "speaker": "SPEAKER_00",
+  "en": "And, you know, we're going to put benchmarks aside.",
+  "zh": "并且，你知道，我们要把基准测试放在一边。"
+ },
+ {
+  "seg": 347,
+  "start": 1164.894,
+  "end": 1167.246,
+  "speaker": "SPEAKER_00",
+  "en": "Everybody picks the benchmarks that they like.",
+  "zh": "每个人都挑选他们喜欢的基准测试。"
+ },
+ {
+  "seg": 348,
+  "start": 1167.296,
+  "end": 1172.459,
+  "speaker": "SPEAKER_00",
+  "en": "I want to talk about the How I AI Vibe Review for anybody who is new.",
+  "zh": "我想谈谈 How I AI Vibe Review，对任何新人来说。"
+ },
+ {
+  "seg": 349,
+  "start": 1172.519,
+  "end": 1175.541,
+  "speaker": "SPEAKER_00",
+  "en": "Whenever a new model comes out, I do a couple things.",
+  "zh": "每当新模型出来时，我做一些事情。"
+ },
+ {
+  "seg": 350,
+  "start": 1175.641,
+  "end": 1176.642,
+  "speaker": "SPEAKER_00",
+  "en": "I test PRDs,",
+  "zh": "我测试 PRDs，"
+ },
+ {
+  "seg": 351,
+  "start": 1176.702,
+  "end": 1177.723,
+  "speaker": "SPEAKER_00",
+  "en": "I test prototypes,",
+  "zh": "我测试原型，"
+ },
+ {
+  "seg": 352,
+  "start": 1177.743,
+  "end": 1178.7985555555556,
+  "speaker": "SPEAKER_00",
+  "en": "I test Test design,",
+  "zh": "我测试测试设计，"
+ },
+ {
+  "seg": 353,
+  "start": 1179.184,
+  "end": 1183.727,
+  "speaker": "SPEAKER_00",
+  "en": "wireframes, technical changes, and if I like talking to the model.",
+  "zh": "线框图、技术变更，以及我是否喜欢与该模型对话。"
+ },
+ {
+  "seg": 354,
+  "start": 1184.228,
+  "end": 1186.83,
+  "speaker": "SPEAKER_00",
+  "en": "I run all these evals blind,",
+  "zh": "我盲测所有这些评估，"
+ },
+ {
+  "seg": 355,
+  "start": 1186.89,
+  "end": 1188.5011111111112,
+  "speaker": "SPEAKER_00",
+  "en": "so I run them against models,",
+  "zh": "所以我针对模型运行它们，"
+ },
+ {
+  "seg": 356,
+  "start": 1188.571,
+  "end": 1193.995,
+  "speaker": "SPEAKER_00",
+  "en": "and then I actually go through and grade all of these designs live myself.",
+  "zh": "然后我实际上会亲自去并实时为所有这些设计打分。"
+ },
+ {
+  "seg": 357,
+  "start": 1194.415,
+  "end": 1196.327,
+  "speaker": "SPEAKER_00",
+  "en": "I've made some changes to the How I AI Bench,",
+  "zh": "我对 How I AI Bench 做了一些改动，"
+ },
+ {
+  "seg": 358,
+  "start": 1196.377,
+  "end": 1202.981,
+  "speaker": "SPEAKER_00",
+  "en": "in particular this design one where I let the model decide how it wants to redesign",
+  "zh": "特别是这个设计环节，我让模型自行决定它想要如何重新设计"
+ },
+ {
+  "seg": 359,
+  "start": 1203.021,
+  "end": 1204.021,
+  "speaker": "SPEAKER_00",
+  "en": "the page.",
+  "zh": "该页面。 [[360]​​] 而且我为一个非常复杂的理赔裁定线框图做了一个评估，其中包含"
+ },
+ {
+  "seg": 360,
+  "start": 1204.142,
+  "end": 1211.142,
+  "speaker": "SPEAKER_00",
+  "en": "And I've made a eval for a very complicated claims adjudication wireframe that has",
+  "zh": "我为一个非常复杂的理赔判定线框图做了一个评估，它有"
+ },
+ {
+  "seg": 361,
+  "start": 1212.805,
+  "end": 1214.526,
+  "speaker": "SPEAKER_00",
+  "en": "a lot of complex interaction.",
+  "zh": "许多复杂的交互。"
+ },
+ {
+  "seg": 362,
+  "start": 1214.586,
+  "end": 1218.297,
+  "speaker": "SPEAKER_00",
+  "en": "So those are two new things that we added to the How I AI Vibebench.",
+  "zh": "所以这是我们添加到 How I AI Vibebench 的两个新东西。"
+ },
+ {
+  "seg": 363,
+  "start": 1218.347,
+  "end": 1222.409,
+  "speaker": "SPEAKER_00",
+  "en": "And then we ran Grok 4.6 through these models.",
+  "zh": "然后我们让 Grok 4.6 经历了这些模型。"
+ },
+ {
+  "seg": 364,
+  "start": 1222.989,
+  "end": 1223.669,
+  "speaker": "SPEAKER_00",
+  "en": "I graded them.",
+  "zh": "我给它们打了分。"
+ },
+ {
+  "seg": 365,
+  "start": 1223.689,
+  "end": 1225.75,
+  "speaker": "SPEAKER_00",
+  "en": "AI judges them.",
+  "zh": "AI 审判它们。"
+ },
+ {
+  "seg": 366,
+  "start": 1225.93,
+  "end": 1226.51,
+  "speaker": "SPEAKER_00",
+  "en": "I judge them.",
+  "zh": "我审判它们。"
+ },
+ {
+  "seg": 367,
+  "start": 1226.55,
+  "end": 1230.792,
+  "speaker": "SPEAKER_00",
+  "en": "And then we put them together in a presentation that I show with you.",
+  "zh": "然后我们将它们整合在一个我向你展示的演示文稿中。"
+ },
+ {
+  "seg": 368,
+  "start": 1231.368,
+  "end": 1231.969,
+  "speaker": "SPEAKER_00",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 369,
+  "start": 1231.989,
+  "end": 1232.73,
+  "speaker": "SPEAKER_00",
+  "en": "So here are the results.",
+  "zh": "所以这里是结果。"
+ },
+ {
+  "seg": 370,
+  "start": 1232.75,
+  "end": 1234.141,
+  "speaker": "SPEAKER_00",
+  "en": "Now, remember, this is my benchmark.",
+  "zh": "现在，请记住，这是我的基准测试。"
+ },
+ {
+  "seg": 371,
+  "start": 1234.191,
+  "end": 1235.7630000000001,
+  "speaker": "SPEAKER_00",
+  "en": "So I get to decide how we grade things.",
+  "zh": "所以我来决定我们如何给事物评分。"
+ },
+ {
+  "seg": 372,
+  "start": 1235.813,
+  "end": 1238.9241111111112,
+  "speaker": "SPEAKER_00",
+  "en": "And so it is 70% my taste, 30% our LLM as a judge taste.",
+  "zh": "所以它是 70% 我的品味，30% 我们的作为审判员的 LLM 的品味。"
+ },
+ {
+  "seg": 373,
+  "start": 1253.672,
+  "end": 1255.714,
+  "speaker": "SPEAKER_00",
+  "en": "And interestingly enough,",
+  "zh": "而且足够有趣的是，"
+ },
+ {
+  "seg": 374,
+  "start": 1255.954,
+  "end": 1262.954,
+  "speaker": "SPEAKER_00",
+  "en": "Grok 4.6 is right up there with my favorite 5.6 soul beating out both Sonnet 5",
+  "zh": "Grok 4.6 就在那里，与我最喜欢的 5.6 soul 并列，击败了 Sonnet 5"
+ },
+ {
+  "seg": 375,
+  "start": 1265.242,
+  "end": 1268.725,
+  "speaker": "SPEAKER_00",
+  "en": "and Opus 5 on the Claire Index.",
+  "zh": "和 Opus 5，在 Claire Index 上。"
+ },
+ {
+  "seg": 376,
+  "start": 1269.145,
+  "end": 1270.645,
+  "speaker": "SPEAKER_00",
+  "en": "I am not surprised by this.",
+  "zh": "我对此并不惊讶。"
+ },
+ {
+  "seg": 377,
+  "start": 1270.847,
+  "end": 1273.149,
+  "speaker": "SPEAKER_00",
+  "en": "I do love GPT 5.6 soul.",
+  "zh": "我确实喜欢 GPT 5.6 soul。"
+ },
+ {
+  "seg": 378,
+  "start": 1273.509,
+  "end": 1274.509,
+  "speaker": "SPEAKER_00",
+  "en": "It's my default.",
+  "zh": "这是我的默认选择。"
+ },
+ {
+  "seg": 379,
+  "start": 1274.99,
+  "end": 1277.853,
+  "speaker": "SPEAKER_00",
+  "en": "But I am surprised to see 4.6 up here.",
+  "zh": "但我很惊讶看到 4.6 出现在这里。"
+ },
+ {
+  "seg": 380,
+  "start": 1277.873,
+  "end": 1279.014,
+  "speaker": "SPEAKER_00",
+  "en": "I didn't hate it.",
+  "zh": "我并不讨厌它。"
+ },
+ {
+  "seg": 381,
+  "start": 1279.991,
+  "end": 1284.596,
+  "speaker": "SPEAKER_00",
+  "en": "Now, if you look at the overall recommendation by task,",
+  "zh": "现在，如果你看按任务划分的总体推荐，"
+ },
+ {
+  "seg": 382,
+  "start": 1285.076,
+  "end": 1289.781,
+  "speaker": "SPEAKER_00",
+  "en": "you'll see that 5.6 is my favorite direct writer on PRDs.",
+  "zh": "你会发现 5.6 是我最喜欢的 PRD 直接撰写者。"
+ },
+ {
+  "seg": 383,
+  "start": 1289.901,
+  "end": 1292.084,
+  "speaker": "SPEAKER_00",
+  "en": "I just like the clean way of writing.",
+  "zh": "我只是喜欢那种干净的写作方式。"
+ },
+ {
+  "seg": 384,
+  "start": 1292.144,
+  "end": 1293.145,
+  "speaker": "SPEAKER_00",
+  "en": "It's very matter-of-the-fact.",
+  "zh": "它非常实事求是。"
+ },
+ {
+  "seg": 385,
+  "start": 1293.185,
+  "end": 1297.185,
+  "speaker": "SPEAKER_00",
+  "en": "It's very comprehensive, a little bit technical, but not overly complex.",
+  "zh": "它非常全面，有点技术性，但不过于复杂。"
+ },
+ {
+  "seg": 386,
+  "start": 1297.569,
+  "end": 1299.571,
+  "speaker": "SPEAKER_00",
+  "en": "I also like a GPT 5.6 prototype.",
+  "zh": "我也喜欢一个 GPT 5.6 原型。"
+ },
+ {
+  "seg": 387,
+  "start": 1301.433,
+  "end": 1304.657,
+  "speaker": "SPEAKER_00",
+  "en": "And so I rated those quite highly.",
+  "zh": "所以我给它们打分相当高。"
+ },
+ {
+  "seg": 388,
+  "start": 1304.677,
+  "end": 1310.104,
+  "speaker": "SPEAKER_00",
+  "en": "Opus 5 got graded by the LLM as a judge as the best implementer for",
+  "zh": "Opus 5 被 LLM 审判员评为针对"
+ },
+ {
+  "seg": 389,
+  "start": 1310.244,
+  "end": 1312.767,
+  "speaker": "SPEAKER_00",
+  "en": "a technical like bug triage problem.",
+  "zh": "一个像 Bug 分类问题的最佳实现者。"
+ },
+ {
+  "seg": 390,
+  "start": 1313.268,
+  "end": 1315.911,
+  "speaker": "SPEAKER_00",
+  "en": "And then absolutely zero surprise.",
+  "zh": "然后绝对是零惊喜。"
+ },
+ {
+  "seg": 391,
+  "start": 1316.351,
+  "end": 1320.737,
+  "speaker": "SPEAKER_00",
+  "en": "I continue to like Sonic 5 for an open claw agent.",
+  "zh": "我继续喜欢 Sonic 5 作为一个开放 claw agent。"
+ },
+ {
+  "seg": 392,
+  "start": 1321.278,
+  "end": 1322.519,
+  "speaker": "SPEAKER_00",
+  "en": "Chit chat experience.",
+  "zh": "闲聊体验。"
+ },
+ {
+  "seg": 393,
+  "start": 1322.579,
+  "end": 1323.68,
+  "speaker": "SPEAKER_00",
+  "en": "This always wins.",
+  "zh": "这总是获胜。"
+ },
+ {
+  "seg": 394,
+  "start": 1324.28,
+  "end": 1326.101,
+  "speaker": "SPEAKER_00",
+  "en": "I know Sonnet 5 and 4.",
+  "zh": "我了解 Sonnet 5 和 4。"
+ },
+ {
+  "seg": 395,
+  "start": 1326.521,
+  "end": 1330.144,
+  "speaker": "SPEAKER_00",
+  "en": "Very pithy, AI back and forth, open claw model.",
+  "zh": "非常精炼，AI 来来回回，开放 claw 模型。"
+ },
+ {
+  "seg": 396,
+  "start": 1330.284,
+  "end": 1332.3951111111112,
+  "speaker": "SPEAKER_00",
+  "en": "I just have not found anything better.",
+  "zh": "我只是没发现更好的东西。"
+ },
+ {
+  "seg": 397,
+  "start": 1332.925,
+  "end": 1336.908,
+  "speaker": "SPEAKER_00",
+  "en": "Now, if we look at my opinions about prototypes,",
+  "zh": "现在，如果我们看我关于原型的意见，"
+ },
+ {
+  "seg": 398,
+  "start": 1337.508,
+  "end": 1341.989,
+  "speaker": "SPEAKER_00",
+  "en": "It's really interesting to see that when following art direction,",
+  "zh": "看到在遵循艺术指导时"
+ },
+ {
+  "seg": 399,
+  "start": 1342.35,
+  "end": 1343.35,
+  "speaker": "SPEAKER_00",
+  "en": "I like 5.6,",
+  "zh": "我喜欢 5.6，真的很有趣，"
+ },
+ {
+  "seg": 400,
+  "start": 1344.53,
+  "end": 1351.53,
+  "speaker": "SPEAKER_00",
+  "en": "but when given broad decisions to make its own design decisions, I like Grok 4.6.",
+  "zh": "但当需要做出自己的设计决策等广泛决策时，我喜欢 Grok 4.6。"
+ },
+ {
+  "seg": 401,
+  "start": 1352.253,
+  "end": 1359.253,
+  "speaker": "SPEAKER_00",
+  "en": "Now, I suspect that this is because I can just spot GPT and Claude Slopp a mile away.",
+  "zh": "现在，我怀疑这是因为我能一眼看穿 GPT 和 Claude 的 Slopp 风格。"
+ },
+ {
+  "seg": 402,
+  "start": 1359.735,
+  "end": 1360.735,
+  "speaker": "SPEAKER_00",
+  "en": "A mile away.",
+  "zh": "一眼看穿。"
+ },
+ {
+  "seg": 403,
+  "start": 1361.496,
+  "end": 1362.496,
+  "speaker": "SPEAKER_00",
+  "en": "GPT 5.6.",
+  "zh": "GPT 5.6。"
+ },
+ {
+  "seg": 404,
+  "start": 1363.384,
+  "end": 1364.435,
+  "speaker": "SPEAKER_00",
+  "en": "Loves forest green.",
+  "zh": "喜欢森林绿。"
+ },
+ {
+  "seg": 405,
+  "start": 1364.485,
+  "end": 1367.288,
+  "speaker": "SPEAKER_00",
+  "en": "Claude loves a brown-tan-orange combo.",
+  "zh": "Claude 喜欢棕-棕褐-橙色组合。"
+ },
+ {
+  "seg": 406,
+  "start": 1367.749,
+  "end": 1370.842,
+  "speaker": "SPEAKER_00",
+  "en": "So I think I was just enjoying this breath of fresh air.",
+  "zh": "所以我想我只是很享受这股清新的空气。"
+ },
+ {
+  "seg": 407,
+  "start": 1370.892,
+  "end": 1372.393,
+  "speaker": "SPEAKER_00",
+  "en": "That was Groff 4.6.",
+  "zh": "那就是 Groff 4.6。"
+ },
+ {
+  "seg": 408,
+  "start": 1372.434,
+  "end": 1374.1006666666667,
+  "speaker": "SPEAKER_00",
+  "en": "That was not those two things.",
+  "zh": "而不是那两样东西。"
+ },
+ {
+  "seg": 409,
+  "start": 1374.456,
+  "end": 1380.182,
+  "speaker": "SPEAKER_00",
+  "en": "But in terms of executing complex UIs, I still really like 5.6 Sol.",
+  "zh": "但在执行复杂 UI 方面，我仍然非常喜欢 5.6 Sol。"
+ },
+ {
+  "seg": 410,
+  "start": 1380.202,
+  "end": 1383.2575555555557,
+  "speaker": "SPEAKER_00",
+  "en": "And when following art direction, I still like 5.6 Sol.",
+  "zh": "而且在遵循艺术指导时，我仍然喜欢 5.6 Sol。"
+ },
+ {
+  "seg": 411,
+  "start": 1384.148,
+  "end": 1387.476,
+  "speaker": "SPEAKER_00",
+  "en": "Okay, so let's see what it actually shipped.",
+  "zh": "好的，让我们看看它实际交付了什么。"
+ },
+ {
+  "seg": 412,
+  "start": 1387.496,
+  "end": 1390.923,
+  "speaker": "SPEAKER_00",
+  "en": "So first question I was trying to answer in this benchmark is,",
+  "zh": "因此，我在本次基准测试中试图回答的第一个问题是，"
+ },
+ {
+  "seg": 413,
+  "start": 1390.963,
+  "end": 1393.97,
+  "speaker": "SPEAKER_00",
+  "en": "can it follow explicit design instruction?",
+  "zh": "它能遵循明确的设计指示吗？"
+ },
+ {
+  "seg": 414,
+  "start": 1394.833,
+  "end": 1400.975,
+  "speaker": "SPEAKER_00",
+  "en": "And GPT-56 Sol and Grok both followed my instructions well and did",
+  "zh": "GPT-56 Sol 和 Grok 都很好地遵循了我的指示，并且"
+ },
+ {
+  "seg": 415,
+  "start": 1400.995,
+  "end": 1405.156,
+  "speaker": "SPEAKER_00",
+  "en": "a relatively good non-slop job of following instructions.",
+  "zh": "做出了相对不错的非 slopp（潦草）工作的遵循指示。"
+ },
+ {
+  "seg": 416,
+  "start": 1405.536,
+  "end": 1410.618,
+  "speaker": "SPEAKER_00",
+  "en": "GPT-56 just continues to crush at this dock routing app that I have it make,",
+  "zh": "GPT-56 在我让它做的这个码头路由应用上继续表现出色，"
+ },
+ {
+  "seg": 417,
+  "start": 1410.998,
+  "end": 1417.66,
+  "speaker": "SPEAKER_00",
+  "en": "where it has to give a very complex but easy to parse at a glance UI for managing,",
+  "zh": "它必须提供一个非常复杂但一目了然的 UI 来管理，"
+ },
+ {
+  "seg": 418,
+  "start": 1417.7,
+  "end": 1419.3666666666668,
+  "speaker": "SPEAKER_00",
+  "en": "I guess, like container ships.",
+  "zh": "我想，是集装箱船吧。"
+ },
+ {
+  "seg": 419,
+  "start": 1419.601,
+  "end": 1422.878777777778,
+  "speaker": "SPEAKER_00",
+  "en": "Crushes, it always does better than the competition, but...",
+  "zh": "表现出色，它总是比竞争对手做得更好，但是……"
+ },
+ {
+  "seg": 420,
+  "start": 1423.412,
+  "end": 1430.226,
+  "speaker": "SPEAKER_00",
+  "en": "I think that Grok did a nice job with my technical incident triage app as well",
+  "zh": "我认为 Grok 在我的技术事件分类应用方面做得很好，"
+ },
+ {
+  "seg": 421,
+  "start": 1430.426,
+  "end": 1431.849,
+  "speaker": "SPEAKER_00",
+  "en": "as this editorial page.",
+  "zh": "以及这个编辑页面。"
+ },
+ {
+  "seg": 422,
+  "start": 1432.511,
+  "end": 1434.996,
+  "speaker": "SPEAKER_00",
+  "en": "Now, when it's not given any design...",
+  "zh": "现在，当没有给出任何设计……"
+ },
+ {
+  "seg": 423,
+  "start": 1436.163,
+  "end": 1440.325,
+  "speaker": "SPEAKER_00",
+  "en": "We saw that every model did pretty good.",
+  "zh": "我们看到每个模型都做得相当不错。"
+ },
+ {
+  "seg": 424,
+  "start": 1440.385,
+  "end": 1442.986,
+  "speaker": "SPEAKER_00",
+  "en": "We saw a couple good designs out of 5.6.",
+  "zh": "我们从 5.6 那里看到了一些不错的设计。"
+ },
+ {
+  "seg": 425,
+  "start": 1443.446,
+  "end": 1447.027,
+  "speaker": "SPEAKER_00",
+  "en": "We saw some clean designs out of Claude Sonnet 5.",
+  "zh": "我们从 Claude Sonnet 5 那里看到了一些简洁的设计。"
+ },
+ {
+  "seg": 426,
+  "start": 1447.308,
+  "end": 1453.95,
+  "speaker": "SPEAKER_00",
+  "en": "And my favorite one was actually this design from 4.6, which is Claude Slop adjacent.",
+  "zh": "而我最喜欢的实际上是 4.6 的这个设计，它是 Claude Slop 邻近的。"
+ },
+ {
+  "seg": 427,
+  "start": 1453.97,
+  "end": 1454.571,
+  "speaker": "SPEAKER_00",
+  "en": "We see an orange,",
+  "zh": "我们看到了一个橙色，"
+ },
+ {
+  "seg": 428,
+  "start": 1454.591,
+  "end": 1455.591,
+  "speaker": "SPEAKER_00",
+  "en": "we see a brown,",
+  "zh": "我们看到了一个棕色，"
+ },
+ {
+  "seg": 429,
+  "start": 1455.691,
+  "end": 1462.174,
+  "speaker": "SPEAKER_00",
+  "en": "but was actually quite cute and a good interactive kind of ordering system for",
+  "zh": "但实际上相当可爱，是一个很好的互动式订购系统，"
+ },
+ {
+  "seg": 430,
+  "start": 1462.414,
+  "end": 1463.314,
+  "speaker": "SPEAKER_00",
+  "en": "a coffee shop.",
+  "zh": "给咖啡店用的。"
+ },
+ {
+  "seg": 431,
+  "start": 1463.334,
+  "end": 1465.4451111111111,
+  "speaker": "SPEAKER_00",
+  "en": "So I was really pleased with that one.",
+  "zh": "所以我对那个真的很满意。"
+ },
+ {
+  "seg": 432,
+  "start": 1466.469,
+  "end": 1468.53,
+  "speaker": "SPEAKER_00",
+  "en": "Dense information architecture.",
+  "zh": "密集的信息架构。"
+ },
+ {
+  "seg": 433,
+  "start": 1469.128,
+  "end": 1470.991,
+  "speaker": "SPEAKER_00",
+  "en": "I, of course, love 5.6.",
+  "zh": "我当然喜欢 5.6。"
+ },
+ {
+  "seg": 434,
+  "start": 1471.211,
+  "end": 1476.474,
+  "speaker": "SPEAKER_00",
+  "en": "I think it's the best at complex UI and designing things that are not overwhelming,",
+  "zh": "我认为它在复杂 UI 和设计那些不令人眼花缭乱"
+ },
+ {
+  "seg": 435,
+  "start": 1476.874,
+  "end": 1478.975,
+  "speaker": "SPEAKER_00",
+  "en": "but are technically complete.",
+  "zh": "但在技术上完整的东西方面是最好的。"
+ },
+ {
+  "seg": 436,
+  "start": 1479.275,
+  "end": 1482.737,
+  "speaker": "SPEAKER_00",
+  "en": "And then in terms of just like taking a generic design and making it",
+  "zh": "然后就拿一个通用设计并让它"
+ },
+ {
+  "seg": 437,
+  "start": 1482.757,
+  "end": 1487.479,
+  "speaker": "SPEAKER_00",
+  "en": "a little better, I saw some good results from Opus and Sonnet.",
+  "zh": "稍微好一点这一点而言，我从 Opus 和 Sonnet 那里看到了一些好的结果。"
+ },
+ {
+  "seg": 438,
+  "start": 1487.559,
+  "end": 1490.9478888888889,
+  "speaker": "SPEAKER_00",
+  "en": "But when you aggregated all this up, all the ones I scored...",
+  "zh": "但是当你把所有这些汇总起来，我评分的所有那些……"
+ },
+ {
+  "seg": 439,
+  "start": 1491.441,
+  "end": 1492.642,
+  "speaker": "SPEAKER_00",
+  "en": "Good and bad.",
+  "zh": "好的和坏的。"
+ },
+ {
+  "seg": 440,
+  "start": 1493.042,
+  "end": 1500.042,
+  "speaker": "SPEAKER_00",
+  "en": "The two that bubbled up to the top were, again, 5-6 soul as well as 4-6.",
+  "zh": "脱颖而出的两个又是，5-6 sol 以及 4-6。"
+ },
+ {
+  "seg": 441,
+  "start": 1501.186,
+  "end": 1508.186,
+  "speaker": "SPEAKER_00",
+  "en": "Now, what's really funny about this, again, this is 70% my taste, 30% the LLM as a judge.",
+  "zh": "现在，关于这一点真正有趣的是，这还是 70% 我的品味，30% 作为评委的 LLM。"
+ },
+ {
+  "seg": 442,
+  "start": 1508.51,
+  "end": 1515.378,
+  "speaker": "SPEAKER_00",
+  "en": "If you take my taste out of it, The LLM hates Grock and it loves Claude Opus.",
+  "zh": "如果把我的品味排除在外，LLM 讨厌 Grock 并且它喜欢 Claude Opus。"
+ },
+ {
+  "seg": 443,
+  "start": 1515.518,
+  "end": 1518.622,
+  "speaker": "SPEAKER_00",
+  "en": "It loves Sonnet and it does not like GPT-56 Soul.",
+  "zh": "它喜欢 Sonnet 并且它不喜欢 GPT-56 Sol。"
+ },
+ {
+  "seg": 444,
+  "start": 1519.062,
+  "end": 1521.625,
+  "speaker": "SPEAKER_00",
+  "en": "Again, this is not weighted by an anthropic model.",
+  "zh": "同样，这不是由一个 anthropic 模型加权的。"
+ },
+ {
+  "seg": 445,
+  "start": 1521.645,
+  "end": 1526.75,
+  "speaker": "SPEAKER_00",
+  "en": "I actually use GPT-5.5 to grade all these things because it's actually the harshest judge.",
+  "zh": "我实际上使用 GPT-5.5 来给所有这些东西打分，因为它实际上是最严厉的评委。"
+ },
+ {
+  "seg": 446,
+  "start": 1528.012,
+  "end": 1535.012,
+  "speaker": "SPEAKER_00",
+  "en": "So while the models still like Claude, I, Claire, like GPT-56 and I like Grok 4-6 for design.",
+  "zh": "所以虽然模型们仍然喜欢 Claude，我，Claire，喜欢 GPT-56 并且我喜欢 Grok 4-6 的设计。"
+ },
+ {
+  "seg": 447,
+  "start": 1537.619,
+  "end": 1542.0720000000001,
+  "speaker": "SPEAKER_00",
+  "en": "Now, this isn't my experience talking to the model, although you all know I love to do that.",
+  "zh": "现在，这不是我与模型交谈的经验，尽管你们都知道我喜欢那样做。"
+ },
+ {
+  "seg": 448,
+  "start": 1542.122,
+  "end": 1543.903,
+  "speaker": "SPEAKER_00",
+  "en": "This is pure outputs.",
+  "zh": "这是纯粹的输出。"
+ },
+ {
+  "seg": 449,
+  "start": 1544.064,
+  "end": 1549.227,
+  "speaker": "SPEAKER_00",
+  "en": "So all I will say is my conclusion here is the Grok model is a competitor.",
+  "zh": "所以我要说的是，我这里的结论是 Grok 模型是一个竞争者。"
+ },
+ {
+  "seg": 450,
+  "start": 1549.507,
+  "end": 1550.8403333333333,
+  "speaker": "SPEAKER_00",
+  "en": "None of it was terrible.",
+  "zh": "其中没有任何一样是糟糕的。"
+ },
+ {
+  "seg": 451,
+  "start": 1550.968,
+  "end": 1555.351,
+  "speaker": "SPEAKER_00",
+  "en": "I liked a lot of it compared to the models that you would use out of the box",
+  "zh": "相比于你会开箱即用的模型，我很喜欢其中的很多部分"
+ },
+ {
+  "seg": 452,
+  "start": 1555.591,
+  "end": 1557.352,
+  "speaker": "SPEAKER_00",
+  "en": "and combined with cursors,",
+  "zh": "当结合 cursors 时，"
+ },
+ {
+  "seg": 453,
+  "start": 1557.452,
+  "end": 1558.452,
+  "speaker": "SPEAKER_00",
+  "en": "harness,",
+  "zh": "harness，"
+ },
+ {
+  "seg": 454,
+  "start": 1558.533,
+  "end": 1561.624,
+  "speaker": "SPEAKER_00",
+  "en": "Its investment in new ways of thinking about things like Git",
+  "zh": "它对思考 Git 这类事物的新方式的投入"
+ },
+ {
+  "seg": 455,
+  "start": 1561.674,
+  "end": 1564.195,
+  "speaker": "SPEAKER_00",
+  "en": "and fun products like GrokBot.",
+  "zh": "以及像 GrokBot 这样有趣的产品。"
+ },
+ {
+  "seg": 456,
+  "start": 1564.215,
+  "end": 1569.918,
+  "speaker": "SPEAKER_00",
+  "en": "I would say it's time for all of us to maybe become some level of a GrokBoy.",
+  "zh": "我想说的是，也许是我们所有人都成为某种程度的 GrokBoy 的时候了。"
+ },
+ {
+  "seg": 457,
+  "start": 1570.602,
+  "end": 1573.423,
+  "speaker": "SPEAKER_00",
+  "en": "I am so excited about all this new stuff.",
+  "zh": "我对所有这些新东西感到非常兴奋。"
+ },
+ {
+  "seg": 458,
+  "start": 1573.443,
+  "end": 1574.794,
+  "speaker": "SPEAKER_00",
+  "en": "It's really fun to look at.",
+  "zh": "看着它们真的很有趣。"
+ },
+ {
+  "seg": 459,
+  "start": 1574.844,
+  "end": 1576.864,
+  "speaker": "SPEAKER_00",
+  "en": "Again, true transparency.",
+  "zh": "再次强调，真正的透明度。"
+ },
+ {
+  "seg": 460,
+  "start": 1576.924,
+  "end": 1579.295,
+  "speaker": "SPEAKER_00",
+  "en": "I'm still spending a lot of my time in Codex.",
+  "zh": "我仍然在 Codex 上花费大量时间。"
+ },
+ {
+  "seg": 461,
+  "start": 1579.345,
+  "end": 1581.9360000000001,
+  "speaker": "SPEAKER_00",
+  "en": "I'm spending a lot of time with the 5-6 models.",
+  "zh": "我在和 5-6 型号一起花费大量时间。"
+ },
+ {
+  "seg": 462,
+  "start": 1581.986,
+  "end": 1583.1770000000001,
+  "speaker": "SPEAKER_00",
+  "en": "But given this experience,",
+  "zh": "但鉴于这次经历，"
+ },
+ {
+  "seg": 463,
+  "start": 1583.227,
+  "end": 1587.0603333333333,
+  "speaker": "SPEAKER_00",
+  "en": "I think about spinning up Cursor a little bit more for coding and see",
+  "zh": "我考虑稍微多启动一点 Cursor 用于编码，看看"
+ },
+ {
+  "seg": 464,
+  "start": 1587.228,
+  "end": 1592.25,
+  "speaker": "SPEAKER_00",
+  "en": "if I can continue to like and get value out of grok, grok, grok.",
+  "zh": "我是否能继续喜欢并从 grok, grok, grok 中获得价值。"
+ },
+ {
+  "seg": 465,
+  "start": 1592.737,
+  "end": 1595.089,
+  "speaker": "SPEAKER_00",
+  "en": "Thanks for joining this mini episode of How AI.",
+  "zh": "感谢加入这一集 How AI 的迷你节目。"
+ },
+ {
+  "seg": 466,
+  "start": 1595.139,
+  "end": 1596.089,
+  "speaker": "SPEAKER_00",
+  "en": "I want to hear from you,",
+  "zh": "我想听听你的声音，"
+ },
+ {
+  "seg": 467,
+  "start": 1596.139,
+  "end": 1597.43,
+  "speaker": "SPEAKER_00",
+  "en": "whether you love GrapBot,",
+  "zh": "无论你是否喜爱 GrapBot，"
+ },
+ {
+  "seg": 468,
+  "start": 1597.48,
+  "end": 1599.672,
+  "speaker": "SPEAKER_00",
+  "en": "if you think Cursor is going to replace GitHub,",
+  "zh": "你是否认为 Cursor 将会取代 GitHub，"
+ },
+ {
+  "seg": 469,
+  "start": 1599.722,
+  "end": 1604.024,
+  "speaker": "SPEAKER_00",
+  "en": "and whether or not you've switched to Grok for any of your coding tasks.",
+  "zh": "以及你是否已经为了任何编码任务切换到 Grok。"
+ },
+ {
+  "seg": 470,
+  "start": 1604.605,
+  "end": 1605.605,
+  "speaker": "SPEAKER_00",
+  "en": "See you soon.",
+  "zh": "回头见。"
+ },
+ {
+  "seg": 471,
+  "start": 1606.966,
+  "end": 1608.257,
+  "speaker": "SPEAKER_00",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 472,
+  "start": 1608.307,
+  "end": 1609.728,
+  "speaker": "SPEAKER_00",
+  "en": "If you enjoyed this show,",
+  "zh": "如果你喜欢这个节目，"
+ },
+ {
+  "seg": 473,
+  "start": 1609.908,
+  "end": 1611.719,
+  "speaker": "SPEAKER_00",
+  "en": "please like and subscribe here on YouTube,",
+  "zh": "请在 YouTube 上点赞并订阅，"
+ },
+ {
+  "seg": 474,
+  "start": 1611.769,
+  "end": 1614.521,
+  "speaker": "SPEAKER_00",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是，留下评论告诉我们你的想法。"
+ },
+ {
+  "seg": 475,
+  "start": 1614.571,
+  "end": 1620.135,
+  "speaker": "SPEAKER_00",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 476,
+  "start": 1620.678,
+  "end": 1625.433,
+  "speaker": "SPEAKER_00",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们留下评分和评论，这将帮助其他人找到这个节目。"
+ },
+ {
+  "seg": 477,
+  "start": 1625.483,
+  "end": 1631.23,
+  "speaker": "SPEAKER_00",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 看到我们所有的剧集并了解更多关于该节目的信息。"
+ },
+ {
+  "seg": 478,
+  "start": 1631.83,
+  "end": 1632.83,
+  "speaker": "SPEAKER_00",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

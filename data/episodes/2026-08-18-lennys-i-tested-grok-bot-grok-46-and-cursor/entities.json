@@ -1,0 +1,1635 @@
+{
+  "episode_id": "2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-18",
+  "tags": [
+    "智能体产品评测",
+    "MCP 连接器",
+    "代码托管",
+    "模型评测",
+    "多智能体策略"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集说它是 Cursor/XAI 团队发布的聊天风格智能体产品，核心体验是一个花哨的 MCP 客户端，每个智能体自带虚拟机，最大亮点是每个连接器可挂多个账号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            42.166,
+            47.443777777777775
+          ],
+          "quote": "We're going to go through all their products and I'm going to tell you what I think of GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            112.139,
+            116.863
+          ],
+          "quote": "I'm going to start with the most accessible product on our list today, GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            118.364,
+            121.847
+          ],
+          "quote": "the cursor slash xai team released GrokBot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            135.941,
+            139.584
+          ],
+          "quote": "If you look at GrokBot just from a UI perspective,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            141.226,
+            143.28155555555554
+          ],
+          "quote": "we'll look at my GrokBot in a minute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            162.275,
+            167.078
+          ],
+          "quote": " And the team has really leaned into this ethos with GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            167.379,
+            169
+          ],
+          "quote": "Now, I've been testing GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            174.343,
+            178.076
+          ],
+          "quote": "And I think there are some pros to GrokBot, and I think there's some cons to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            178.126,
+            184.029
+          ],
+          "quote": "But I do suspect that GrokBot is going to catch the attention of cursor customers",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            188.192,
+            192.146
+          ],
+          "quote": " So let's go into my GrokBot and show you a little bit about how it works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            206.631,
+            211.236
+          ],
+          "quote": "There is Prody McProd, my product manager GrokBot that's hooked up to ChatPRD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            237.507,
+            240.489
+          ],
+          "quote": "So I think the magic of GrokBot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            240.509,
+            245.072
+          ],
+          "quote": "if I had to tell you one thing that is the magic of GrokBot, it is plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            262.445,
+            267.642
+          ],
+          "quote": " They have brought that great plugin MCP experience into GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            273.105,
+            280.105
+          ],
+          "quote": "whether it's Gmail or Slack or an MCP, you can connect multiple accounts to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            330.575,
+            332.955
+          ],
+          "quote": "in GrokBot is a killer feature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            370.071,
+            373.672
+          ],
+          "quote": " Which is every GrokBot comes with a computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            401.506,
+            404.708
+          ],
+          "quote": "Now, what do I think of the experience using GrokBot?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            404.748,
+            408.209
+          ],
+          "quote": "Well, I will say setting up a GrokBot is super simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            455.971,
+            462.971
+          ],
+          "quote": " Now, what I don't like about GrokBot, well, I don't like That it's so simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            495.846,
+            500.668
+          ],
+          "quote": "GrokBot has not challenged me because it works simply and it works out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            501.108,
+            505.149
+          ],
+          "quote": "The other thing I don't like about GrokBot is you don't get",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            511.871,
+            515.312
+          ],
+          "quote": "over what GrokBot does, how it's configured, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            556.334,
+            562.256
+          ],
+          "quote": "the last thing that I don't love about GrokBot is whatever model it's using,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1134.388,
+            1136.069
+          ],
+          "quote": "I would say I like GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1561.674,
+            1564.195
+          ],
+          "quote": "and fun products like GrokBot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "type": "company",
+      "role": "company",
+      "name": "Origin",
+      "file": "Origin",
+      "primary": true,
+      "how_described": "本集说它是 Cursor 发布的 GitHub 替代品，定位为智能体原生的代码托管，保留所有 Git 原语但 UI 为智能体协作设计，目前处于 early beta 阶段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            47.742,
+            52.724
+          ],
+          "quote": " Origin, the new GitHub competitor from Cursor, as well as the Grok model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            741.097,
+            746.22
+          ],
+          "quote": "Okay, the next release from the Cursor team is Origin,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            757.993,
+            763.237
+          ],
+          "quote": " So Origin is an early access beta and they've called it kind of code base inside the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            830.837,
+            832.977
+          ],
+          "quote": "Well, Origin has repos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            985.394,
+            988.335
+          ],
+          "quote": "like today's today origin,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1108.129,
+            1112.053
+          ],
+          "quote": "That being said, it is super early on Cursor Origin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1136.689,
+            1140.131
+          ],
+          "quote": "I have not yet seen the light on Origin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说它被 SpaceX 以 600 亿美元收购，是 GrokBot 和 Origin 的母公司，一直被认为是最好的 MCP 客户端，正在构建智能体原生的代码工具生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            10.339,
+            13.901
+          ],
+          "quote": "Yep, ever since Cursor was acquired by SpaceX for,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            21.927,
+            22.778
+          ],
+          "quote": "the Cursor team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            31.543,
+            35.704
+          ],
+          "quote": "we're going to go through all the releases from the Cursor, XAI,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            47.742,
+            52.724
+          ],
+          "quote": " Origin, the new GitHub competitor from Cursor, as well as the Grok model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            118.364,
+            121.847
+          ],
+          "quote": "the cursor slash xai team released GrokBot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            178.126,
+            184.029
+          ],
+          "quote": "But I do suspect that GrokBot is going to catch the attention of cursor customers",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            245.513,
+            249.235
+          ],
+          "quote": "So I've always thought that Cursor was the best MCP client.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            253.598,
+            255.82022222222224
+          ],
+          "quote": "would still default generally to Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            333.355,
+            337.956
+          ],
+          "quote": "Just thank you to the cursor slash XAI team for doing this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            347.719,
+            350.841
+          ],
+          "quote": "These are generally the ones that were available in Cursor as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            645.049,
+            649.571
+          ],
+          "quote": "I think is going to help the Cursor XAI SpaceX team get their claws in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            698.78,
+            700.621
+          ],
+          "quote": "Cursor, Codex, or Copilote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            741.097,
+            746.22
+          ],
+          "quote": "Okay, the next release from the Cursor team is Origin,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            746.3,
+            750.982
+          ],
+          "quote": "the GitHub replacement announced at Cursor's conference this year",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            763.257,
+            767.38
+          ],
+          "quote": "So if you're in the Cursor web app or you're in the desktop app,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            773.944,
+            777.527
+          ],
+          "quote": "Now, the whole value proposition that Cursor has put in front of us in terms",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            804.963,
+            810.667
+          ],
+          "quote": "of course, the Cursor Cloud Agents and the Cursor Desktop App and the Cursor CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            820.589,
+            826.071
+          ],
+          "quote": "But Cursor's bet is that we are going to want a agent native GitHub and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            859.968,
+            864.334
+          ],
+          "quote": "Well, you go into the cursor web app and you click code base and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            918.095,
+            919.4838888888889
+          ],
+          "quote": "or how cursor feedback...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            932.756,
+            936.056
+          ],
+          "quote": "maybe less integrated, much more integrated with Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            947.899,
+            949.0656666666666
+          ],
+          "quote": "the Cursor ecosystem,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            955.597,
+            962.597
+          ],
+          "quote": "And so, yes, I can like add cursor here and ask it to fix the Vercel preview branch issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            982.432,
+            983.7653333333334
+          ],
+          "quote": "Maybe this cursor issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            994.638,
+            995.628
+          ],
+          "quote": "a cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            995.678,
+            1000.8446666666666
+          ],
+          "quote": "They're setting the groundwork for BugBot and Cursor to be first class citizens in your repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1066.111,
+            1070.416
+          ],
+          "quote": "I've messed around with opening PRs inside Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1074.899,
+            1079.142
+          ],
+          "quote": "So it kind of feels like I'm being slow migrated over to Cursor and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1108.129,
+            1112.053
+          ],
+          "quote": "That being said, it is super early on Cursor Origin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1121.021,
+            1126.224
+          ],
+          "quote": "And it will be interesting to see if Cursor becomes the new centralized source",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1150.865,
+            1154.037
+          ],
+          "quote": "Now, I think we're all trying this because Cursor has defaulted,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1583.227,
+            1587.0603333333333
+          ],
+          "quote": "I think about spinning up Cursor a little bit more for coding and see",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1597.48,
+            1599.672
+          ],
+          "quote": "if you think Cursor is going to replace GitHub,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grok-4-6",
+      "type": "concept",
+      "role": "concept",
+      "name": "Grok 4.6",
+      "file": "Grok 4.6",
+      "primary": true,
+      "how_described": "本集说它在 How I AI Vibebench 评测中与 GPT 5.6 sol 并列第一，设计输出不走 GPT 的森林绿和 Claude 的棕橙配色套路，被形容为'新鲜空气'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1140.691,
+            1143.6354444444444
+          ],
+          "quote": "The last thing we're going to talk about is Grok 4.6.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1218.347,
+            1222.409
+          ],
+          "quote": "And then we ran Grok 4.6 through these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1255.954,
+            1262.954
+          ],
+          "quote": "Grok 4.6 is right up there with my favorite 5.6 soul beating out both Sonnet 5",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1344.53,
+            1351.53
+          ],
+          "quote": "but when given broad decisions to make its own design decisions, I like Grok 4.6.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1528.012,
+            1535.012
+          ],
+          "quote": " So while the models still like Claude, I, Claire, like GPT-56 and I like Grok 4-6 for design.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集说它是 Origin 试图替代的对象，当前没有人对 GitHub 满意——稳定性糟糕，且还没给出大家期望的 AI 原生 Git 体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            47.742,
+            52.724
+          ],
+          "quote": " Origin, the new GitHub competitor from Cursor, as well as the Grok model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            354.103,
+            357.745
+          ],
+          "quote": "I've installed GitHub and I've installed the ChatPRD plugin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            713.807,
+            715.7514444444445
+          ],
+          "quote": "from Jira and Confluence to GitHub,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            746.3,
+            750.982
+          ],
+          "quote": "the GitHub replacement announced at Cursor's conference this year",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            777.567,
+            782.45
+          ],
+          "quote": "of why they should build a GitHub replacement is they are basically building",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            785.31,
+            789.993
+          ],
+          "quote": " GitHub replacement, which means that it's got all the git primitives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            815.606,
+            817.2171111111111
+          ],
+          "quote": "Now have we agreed on GitHub?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            820.589,
+            826.071
+          ],
+          "quote": "But Cursor's bet is that we are going to want a agent native GitHub and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            826.111,
+            828.846
+          ],
+          "quote": "that GitHub is not going to get there fast enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            833.357,
+            835.578
+          ],
+          "quote": "You can, of course, import GitHub repos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            864.354,
+            867.358
+          ],
+          "quote": "then you basically import your GitHub repos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            869.138,
+            872.5690000000001
+          ],
+          "quote": "Was not smart to release this the day that GitHub had a major outage,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            872.619,
+            876.2900000000001
+          ],
+          "quote": "or maybe it was genius to release this the day that GitHub had a major outage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            876.34,
+            879.02
+          ],
+          "quote": "So I had some trouble with this GitHub import,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            879.42,
+            881.6977777777778
+          ],
+          "quote": "but all you do is click sync from GitHub,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            881.761,
+            883.611
+          ],
+          "quote": "you authorize your GitHub account,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            899.107,
+            903.389
+          ],
+          "quote": "What I would say is with the GitHub integration,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            903.589,
+            907.751
+          ],
+          "quote": "it's really, it seems like it's just a wrapper on the GitHub API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            927.775,
+            932.696
+          ],
+          "quote": "this is just like GitHub with maybe less features,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            944.058,
+            947.879
+          ],
+          "quote": "if I'm using a GitHub hosted repo and I'm not ready to go like all in on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            979.451,
+            980.941
+          ],
+          "quote": "GitHub's having an outage right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            980.991,
+            982.412
+          ],
+          "quote": "So maybe this is a GitHub issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1014.424,
+            1017.627
+          ],
+          "quote": "if you have invested deeply in GitHub,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1046.184,
+            1051.306
+          ],
+          "quote": "But again, just the current GitHub integrated sync, it's like a little slower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1055.139,
+            1057.472
+          ],
+          "quote": " And I'm just too embedded in the GitHub ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1073.538,
+            1074.879
+          ],
+          "quote": "It's synced to GitHub though.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1096.533,
+            1098.444
+          ],
+          "quote": "No one is happy with GitHub right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1597.48,
+            1599.672
+          ],
+          "quote": "if you think Cursor is going to replace GitHub,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复以多智能体策略讨论它——给每个智能体分配角色（产品经理、数据分析师等）并配工具和指令，而不是用一个智能体做所有事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            121.907,
+            127.512
+          ],
+          "quote": "which is a chat style agent In a desktop in mobile app that you can use",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            151.471,
+            155.453
+          ],
+          "quote": "Not everybody loves this, but I love a multi-agent experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            159.534,
+            161.75622222222222
+          ],
+          "quote": "I don't want one agent to rule them all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            184.41,
+            187.732
+          ],
+          "quote": "who want an all-purpose agent for their employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            529.855,
+            536.855
+          ],
+          "quote": "highly hackable, highly transparent setup for your agent, GrockBot is not that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            598.677,
+            603.0310000000001
+          ],
+          "quote": "But they're even more important if you are going to do this multi-agent strategy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            687.593,
+            694.593
+          ],
+          "quote": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            720.369,
+            725.4245555555556
+          ],
+          "quote": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            782.67,
+            784.672
+          ],
+          "quote": "an agent-native code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            820.589,
+            826.071
+          ],
+          "quote": "But Cursor's bet is that we are going to want a agent native GitHub and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1031.198,
+            1036.6
+          ],
+          "quote": "why Agent Native matters for us all to move over to this new product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1316.351,
+            1320.737
+          ],
+          "quote": "I continue to like Sonic 5 for an open claw agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 GrokBot 把 Cursor 上很棒的插件 MCP 体验带入了聊天智能体，连接器可以对接 Gmail、Slack 等服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            83.46,
+            87.902
+          ],
+          "quote": "Connect Stripe or any other MCP, hook up your domain, and deploy it live.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            245.513,
+            249.235
+          ],
+          "quote": "So I've always thought that Cursor was the best MCP client.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            262.445,
+            267.642
+          ],
+          "quote": " They have brought that great plugin MCP experience into GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            273.105,
+            280.105
+          ],
+          "quote": "whether it's Gmail or Slack or an MCP, you can connect multiple accounts to GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            362.387,
+            369.387
+          ],
+          "quote": "So again, it's like a little bit of a fancy MCP client, but it does come with something special.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "connector",
+      "type": "concept",
+      "role": "concept",
+      "name": "连接器 (connector)",
+      "file": "连接器",
+      "primary": true,
+      "how_described": "本集说 GrokBot 的连接器体验是顶级的，杀手级功能是每个连接器（Gmail、Slack、MCP）都能同时挂多个账号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            256.2,
+            259.042
+          ],
+          "quote": "I thought the connector experience was really nice and I thought the harness did",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            304.038,
+            311.038
+          ],
+          "quote": "This experience of setting up multiple accounts per connector, huge, huge, huge benefit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            549.311,
+            554.453
+          ],
+          "quote": "And the connector and kind of like UX affordances are quite nice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            641.287,
+            644.629
+          ],
+          "quote": "And then the connector experience being top tier,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集说主播喜欢多智能体体验，希望每个智能体都有名字和工作，不想要一个智能体统治所有，GrokBot 团队深入贯彻了这种精神",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            151.471,
+            155.453
+          ],
+          "quote": "Not everybody loves this, but I love a multi-agent experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            598.677,
+            603.0310000000001
+          ],
+          "quote": "But they're even more important if you are going to do this multi-agent strategy",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "virtual-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟机 (virtual machine)",
+      "file": "虚拟机",
+      "primary": false,
+      "how_described": "本集说每个 GrokBot 都配有一台虚拟机，能使用 Chrome、Terminal 和网络，类似 OpenClaw Lite 的体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            374.132,
+            379.594
+          ],
+          "quote": "And so you can actually go into this virtual machine and this is Prady McProd's computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            387.956,
+            394.778
+          ],
+          "quote": "And so again, this is like a little bit of a OpenClaw Lite where it has a virtual machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            395.038,
+            397.09355555555555
+          ],
+          "quote": "That virtual machine can use the web.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plugin",
+      "type": "concept",
+      "role": "concept",
+      "name": "插件 (plugin)",
+      "file": "插件",
+      "primary": false,
+      "how_described": "本集说 GrokBot 的神奇之处就是插件，附带了大量开箱即用的插件，基本是从 Cursor 中迁移过来的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            262.445,
+            267.642
+          ],
+          "quote": " They have brought that great plugin MCP experience into GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            354.103,
+            357.745
+          ],
+          "quote": "I've installed GitHub and I've installed the ChatPRD plugin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "type": "concept",
+      "role": "concept",
+      "name": "Git",
+      "file": "Git",
+      "primary": false,
+      "how_described": "本集说'我们都困在 Git 上了，我们就 Git 达成了一致，但我们就 GitHub 达成一致了吗'——Git 是不可撼动的底层原语",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            785.31,
+            789.993
+          ],
+          "quote": " GitHub replacement, which means that it's got all the git primitives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            793.356,
+            800.26
+          ],
+          "quote": "It's got all that same git primitive stuff, but it's built in a UI way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            812.365,
+            813.335
+          ],
+          "quote": " It's Git.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            813.385,
+            814.3960000000001
+          ],
+          "quote": "We're all stuck with Git.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            814.446,
+            815.556
+          ],
+          "quote": "We've agreed on Git.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1103.604,
+            1108.109
+          ],
+          "quote": "that like AI native completely reimagined Git experience that we're hoping for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1558.533,
+            1561.624
+          ],
+          "quote": "Its investment in new ways of thinking about things like Git",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude 没有实现多账号连接功能，且在设计输出上永远选棕-棕褐-橙配色，一眼就知道是 AI 做的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            292.181,
+            293.681
+          ],
+          "quote": "Claude has not figured out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            562.296,
+            569.296
+          ],
+          "quote": "and maybe it's Grok, maybe it sounds a lot like Claude Slop, is I just know vibes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            695.298,
+            698.73
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1352.253,
+            1359.253
+          ],
+          "quote": "Now, I suspect that this is because I can just spot GPT and Claude Slopp a mile away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1364.485,
+            1367.288
+          ],
+          "quote": "Claude loves a brown-tan-orange combo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1443.446,
+            1447.027
+          ],
+          "quote": "We saw some clean designs out of Claude Sonnet 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1447.308,
+            1453.95
+          ],
+          "quote": "And my favorite one was actually this design from 4.6, which is Claude Slop adjacent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1508.51,
+            1515.378
+          ],
+          "quote": " If you take my taste out of it, The LLM hates Grock and it loves Claude Opus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1528.012,
+            1535.012
+          ],
+          "quote": " So while the models still like Claude, I, Claire, like GPT-56 and I like Grok 4-6 for design.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说 Codex 没有弄明白多账号连接这件事，主播仍花费大量时间在 Codex 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            288.979,
+            291.7012222222222
+          ],
+          "quote": "This is something that Codex has not figured out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            698.78,
+            700.621
+          ],
+          "quote": "Cursor, Codex, or Copilote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1576.924,
+            1579.295
+          ],
+          "quote": "I'm still spending a lot of my time in Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集说 GrokBot 有点像 OpenClaw Lite，但 OpenClaw 更混乱、技术化、高维护，适合喜欢深度自定义的用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            387.956,
+            394.778
+          ],
+          "quote": "And so again, this is like a little bit of a OpenClaw Lite where it has a virtual machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            537.503,
+            540.345
+          ],
+          "quote": "OpenClaw or Hermes or any of those is a little bit more like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            679.087,
+            682.97
+          ],
+          "quote": "And if you like a bad time, stay with OpenClaw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM as a judge",
+      "file": "LLM as a judge",
+      "primary": false,
+      "how_described": "本集说评测中 30% 权重来自 LLM 评委（使用 GPT-5.5），去掉人味后 LLM 评委讨厌 Grok、偏爱 Claude——说明纯靠 LLM-as-judge 会漏掉人类在意的维度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            1235.813,
+            1238.9241111111112
+          ],
+          "quote": "And so it is 70% my taste, 30% our LLM as a judge taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1304.677,
+            1310.104
+          ],
+          "quote": "Opus 5 got graded by the LLM as a judge as the best implementer for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1501.186,
+            1508.186
+          ],
+          "quote": "Now, what's really funny about this, again, this is 70% my taste, 30% the LLM as a judge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "XAI",
+      "file": "XAI",
+      "primary": false,
+      "how_described": "本集将其与 Cursor 并称为 cursor slash XAI 团队，是 GrokBot 和 Grok 模型的背后力量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            31.543,
+            35.704
+          ],
+          "quote": "we're going to go through all the releases from the Cursor, XAI,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            118.364,
+            121.847
+          ],
+          "quote": "the cursor slash xai team released GrokBot,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            333.355,
+            337.956
+          ],
+          "quote": "Just thank you to the cursor slash XAI team for doing this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            645.049,
+            649.571
+          ],
+          "quote": "I think is going to help the Cursor XAI SpaceX team get their claws in",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "pull request",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "GPT 5.6 sol",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
