@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]]
+[[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Anthropic":47,"Claude Code":23,"Co-work":2,"产品品味":1,"智能体":88,"自动化":1,"研究预览版":2,"评估":10,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Anthropic":47,"Claude Code":23,"Co-work":2,"产品品味":1,"智能体":90,"自动化":1,"研究预览版":2,"评估":10,"系统提示词":3}</script>
 
 <script>
 (function(){

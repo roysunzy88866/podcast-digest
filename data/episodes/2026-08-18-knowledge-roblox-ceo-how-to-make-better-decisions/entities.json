@@ -1,0 +1,658 @@
+{
+  "episode_id": "2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions",
+  "podcast": "The Knowledge Project",
+  "date": "2026-08-18",
+  "tags": [
+    "产品减法哲学",
+    "组织管理与反馈",
+    "平台经济系统",
+    "AI 内部应用",
+    "UGC 平台工程"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "roblox-ceo",
+      "type": "person",
+      "role": "host",
+      "name": "Roblox CEO",
+      "file": "Roblox CEO",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "roblox",
+      "type": "company",
+      "role": "company",
+      "name": "Roblox",
+      "file": "Roblox",
+      "primary": true,
+      "how_described": "本集将其描述为一个用户生成的互动多人宇宙平台，目前占全球游戏市场的 3% 到 4%，愿景是让所有人通过说话就能制作和分享游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            349.238,
+            352.66
+          ],
+          "quote": "Outside of Roblox, how do you think about great products?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            667.731,
+            673.574
+          ],
+          "quote": "So I think you'll see more and more us at Roblox, it's just like, can we identify the decision maker?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            698.418,
+            704.601
+          ],
+          "quote": "You know, one of the decisions I think back to the early founding of Roblox, and I would call this a set of an irreverence is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            705.721,
+            710.567
+          ],
+          "quote": "The very earliest version of Roblox had what we would call a classic Roblox character.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            716.734,
+            722.66
+          ],
+          "quote": "The very first Roblox avatar was a very fast programmer art avatar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            734.814,
+            739.499
+          ],
+          "quote": "The face of the early Roblox avatar was just programmer art that we put together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            785.142,
+            793.85
+          ],
+          "quote": "It's interesting to think of the whole Roblox community and how smart and creative they are and how passionate they are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1110.368,
+            1117.094
+          ],
+          "quote": "Is it fair to say that Roblox is the biggest generated human universe in the world?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1177.568,
+            1191.953
+          ],
+          "quote": "Once again, this is an area that I love the Roblox community on, and I think they're very sensitive to this, in that we're migrating all of our avatars to a position where, rather than just being a monolithic block,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1199.657,
+            1207.802
+          ],
+          "quote": "But in the migration of this process, the Roblox community has just been absolute sticklers for perfection in the migration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1253.477,
+            1262.882
+          ],
+          "quote": "You know, it's almost like we're in Roblox version 5.0 right now, in that when we started the company, the vision we had, I think, was spot on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1358.818,
+            1367.008
+          ],
+          "quote": "And I think very early on when we started building Roblox, some of the early founders, John and Eric and Matt and myself,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1378.432,
+            1385.835
+          ],
+          "quote": "At the very start of Roblox, we thought just the incentive of user-generated content, like, whoa!",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1407.908,
+            1415.252
+          ],
+          "quote": "And Roblox got pretty big without a developer, a way for developers to earn money on the platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1417.453,
+            1423.316
+          ],
+          "quote": "We had people who were working 24 hours a day, just they loved their Roblox creation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1426.397,
+            1427.778
+          ],
+          "quote": "I just want to build on Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1476.742,
+            1485.724
+          ],
+          "quote": "So Eric Castle, co-founder, started Roblox with me, passed away from cancer like eight years ago, rest in peace.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1492.046,
+            1496.487
+          ],
+          "quote": "And when we started Roblox, Eric and I were the first two engineers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1502.349,
+            1508.732
+          ],
+          "quote": "There's a really fun story that I would say we both knew what we wanted Roblox to be.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1606.366,
+            1618.054
+          ],
+          "quote": "You know, rather than my hard-coded stuff, the power of this generalizable thing, that was kind of like a core engineering foundation that gave Roblox a lot of its UGC boost in a way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1635.352,
+            1639.835
+          ],
+          "quote": "You got a few extra places to build on Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1755.461,
+            1761.644
+          ],
+          "quote": "In addition, we're going to show which of the games on Roblox are making the most Robux.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1786.014,
+            1788.595
+          ],
+          "quote": "There's the top grossing game on Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2066.149,
+            2071.611
+          ],
+          "quote": "That was an idea that anyone could make very simple games in Roblox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2127.207,
+            2140.75
+          ],
+          "quote": "So, you know, we have a thing called the Roblox operating system that we use for tracking the work in the company more and more, helping people see how they fit into the organization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2147.752,
+            2157.239
+          ],
+          "quote": "In a way, we think of all of our Roblox systems as things that either people or AI can look at and run things against.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2383.752,
+            2389.136
+          ],
+          "quote": "If you close your eyes, I want you to tell me what Roblox looks like in five years from now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2392.299,
+            2398.704
+          ],
+          "quote": "One, we shared the other side of that, which is the technology we're building for Roblox Reality.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "user-generated-content",
+      "type": "concept",
+      "role": "concept",
+      "name": "用户生成内容 (user-generated content)",
+      "file": "用户生成内容",
+      "primary": true,
+      "how_described": "本集说这是 Roblox 最早期的核心驱动力——每个人都可以制作自己的游戏并展示给朋友，这种激励措施带来了惊人的内容量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1378.432,
+            1385.835
+          ],
+          "quote": "At the very start of Roblox, we thought just the incentive of user-generated content, like, whoa!",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "virtual-currency",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟货币 (virtual currency)",
+      "file": "虚拟货币",
+      "primary": true,
+      "how_described": "本集讲述 Roblox 从会员制转向虚拟货币体系的故事：不只是修补旧系统，而是一个可能大一百倍的新方案，上线八小时内就看到创作者们开始行动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1693.824,
+            1704.79
+          ],
+          "quote": "But in the back of our head, we had been thinking about the economy, about virtual currency, about how this was like a whole outside of the box game changer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1721.719,
+            1746.217
+          ],
+          "quote": "we just have to do this like this big hard thing but then we had absolute clarity like we're just betting it all on this new economy system we were very thoughtful that the economy system was a bunch of complex parts it needed virtual currency um users needed to be able to buy virtual currency like some of the early things were like in some of the games you could buy a flashlight if you wanted it",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1766.686,
+            1767.886
+          ],
+          "quote": "There's virtual currency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1904.209,
+            1906.23
+          ],
+          "quote": "How does the virtual currency work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1962.579,
+            1976.122
+          ],
+          "quote": "So I do think for many young people, learning how to use a virtual currency, not to spend it all at once, maybe to divvy it out a bit can be a lot of learning.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "robux",
+      "type": "concept",
+      "role": "concept",
+      "name": "Robux",
+      "file": "Robux",
+      "primary": true,
+      "how_described": "本集说它大约每个值一美分，与美元挂钩，维持了约 20 年不通胀不通缩，是很多 8 到 12 岁孩子第一次接触金钱的体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1755.461,
+            1761.644
+          ],
+          "quote": "In addition, we're going to show which of the games on Roblox are making the most Robux.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1922.615,
+            1927.297
+          ],
+          "quote": "If you were or I were to go buy some Robux, we would see it's generally...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1953.398,
+            1962.199
+          ],
+          "quote": "It's interesting to think that many, many 8 through 12-year-olds, their first exposure to money is Robux.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bureaucracy",
+      "type": "concept",
+      "role": "concept",
+      "name": "官僚主义 (bureaucracy)",
+      "file": "官僚主义",
+      "primary": true,
+      "how_described": "本集将其比作组织的熵——沉积物会自然堆积，必须主动制造反向力量去摧毁它，不减少就是在倒退，没有中立地带。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            4.759
+          ],
+          "quote": "If one is not reducing bureaucracy, there's no neutral ground.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            395.663,
+            405.007
+          ],
+          "quote": "I mean, there seems to be like sediment builds up inside the company and bureaucracy is the natural sort of like entropy of an organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            409.009,
+            413.01
+          ],
+          "quote": "We do use the term destroy bureaucracy inside the company at times.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            413.69,
+            421.132
+          ],
+          "quote": "I would say that if one is not reducing bureaucracy, there's no neutral ground.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": true,
+      "how_described": "本集通过联合创始人 Eric 的故事说明：不应把具体业务逻辑（如夺旗游戏的旗子对象）硬编码进核心 C++ 代码，而应做通用的 API 接口，这个工程决策决定了平台的 UGC 天花板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 278,
+          "t": [
+            1471.555,
+            1475.637
+          ],
+          "quote": "One of the things that you and Eric disagreed on was the API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1548.121,
+            1562.454
+          ],
+          "quote": "I remember actually like we, in our core C++ code for the techie people that are out there, we actually like mocked up a capture the flag game and we had a flag as part of our core API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1585.859,
+            1587.179
+          ],
+          "quote": "We need an API.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说这是一种让 AI 调用外部工具的协议，Roblox 内部系统（如 Roblox 操作系统）都启用了 MCP，任何人都可以拿自己的 AI 系统在上面跑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2141.45,
+            2147.012
+          ],
+          "quote": "Those are all like MCP enabled, so anyone can take their AI system and run it on top of those.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集提到两方面的 AI 应用：一是内部用 AI 检查平台上每个人的年龄、开源语音安全过滤器；二是让「你制作游戏」的口号通过 AI 变得比以往任何时候都更真实——通过说话就能做出游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 352,
+          "t": [
+            1807.178,
+            1810.019
+          ],
+          "quote": "I built an AI version of myself with HeyGen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1845.69,
+            1851.033
+          ],
+          "quote": "Record yourself for 15 seconds and get an AI avatar that delivers professional video on demand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2072.191,
+            2086.676
+          ],
+          "quote": "I think as we think about that notion and we think about AI and what's going to become possible with AI in the future, it's actually been fun to go back to those words and think, are they now possibly even more true than they've ever been?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2087.756,
+            2097.104
+          ],
+          "quote": "The more we have the ability to use AI for anyone to make a game they think about, those words can have really big meaning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2114.677,
+            2120.526
+          ],
+          "quote": "Do you use AI internally to help make decisions or help expand your context window in the company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2121.025,
+            2123.306
+          ],
+          "quote": "I would say we have all kinds of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2141.45,
+            2147.012
+          ],
+          "quote": "Those are all like MCP enabled, so anyone can take their AI system and run it on top of those.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2147.752,
+            2157.239
+          ],
+          "quote": "In a way, we think of all of our Roblox systems as things that either people or AI can look at and run things against.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2201.279,
+            2207.722
+          ],
+          "quote": "Without any laws requiring it, we're now using AI to check the age of every single person on our platform.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "membership-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "会员制模式 (membership model)",
+      "file": "会员制模式",
+      "primary": false,
+      "how_described": "本集说这是 Roblox 早期错误的经济模式——付钱获得额外建造位，回头看很蠢，因为建造本该是无限的，最终被虚拟货币体系取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1633.791,
+            1635.332
+          ],
+          "quote": "It was a membership model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "metaverse",
+      "type": "concept",
+      "role": "concept",
+      "name": "元宇宙 (metaverse)",
+      "file": "元宇宙",
+      "primary": false,
+      "how_described": "本集在回顾 Roblox 创立时的愿景时，将其与人类共同体验、全息甲板、雪崩等并列，作为他们最早想象的新类别之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1263.002,
+            1272.208
+          ],
+          "quote": "We were imagining a new category, human co-experience category, the metaverse category, the holodeck category, the snow crash category.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

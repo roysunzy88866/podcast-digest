@@ -1,0 +1,608 @@
+{
+  "episode_id": "2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha",
+  "podcast": "The a16z Show",
+  "date": "2026-08-18",
+  "tags": [
+    "AI 安全",
+    "智能体安全",
+    "蓝队防御",
+    "安全范式变革",
+    "Black Hat"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "max",
+      "type": "person",
+      "role": "host",
+      "name": "Max",
+      "file": "Max",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            68.239,
+            83.683
+          ],
+          "quote": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            156.742,
+            158.802
+          ],
+          "quote": "And I think maybe Max, we'll start with you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 140,
+          "t": [
+            727.535,
+            742.041
+          ],
+          "quote": "And I guess that means, I guess maybe because, Max, you guys look across so many model providers, like, how do you think for blue teams, for the actual people that are defending this stuff, like, what is the path forward for a lot of this inference?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nick-warner",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nick Warner",
+      "file": "Nick Warner",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            68.239,
+            83.683
+          ],
+          "quote": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "joel-de-la-garza",
+      "type": "person",
+      "role": "cohost",
+      "name": "Joel de la Garza",
+      "file": "Joel de la Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            68.239,
+            83.683
+          ],
+          "quote": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 在应对安全事件时，因触发模型护栏而无法有效响应，但凭借其开源基因，能回退到不受护栏约束的开源权重模型来应急",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.766,
+            9.183
+          ],
+          "quote": "One of the interesting things in the OpenAI Hugging Face breach has been the difficulty that Hugging Face actually had responding to the incident.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            162.263,
+            169.51
+          ],
+          "quote": "Hugging Face story breach event has been the difficulty that Hugging Face actually had responding to the incident.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            222.655,
+            224.657
+          ],
+          "quote": "Now, for Hugging Face specifically,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neo",
+      "type": "company",
+      "role": "company",
+      "name": "NEO",
+      "file": "NEO",
+      "primary": true,
+      "how_described": "本集说 NEO 在构建端点上的 AI 治理和防御能力，位于人类与 AI 交互的层之间，在软件运行前设置护栏和控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            68.239,
+            83.683
+          ],
+          "quote": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            353.963,
+            359.508
+          ],
+          "quote": "And so, Nick, Neo is building a way to defend endpoints from these inference-style attacks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1117.922,
+            1131.192
+          ],
+          "quote": "But I think, you know, even for us at NEO, what's really interesting is that the tools we're being provided with from the AI labs and frontier models give us incredible armament in building the right type of tools to defend.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cotool",
+      "type": "company",
+      "role": "company",
+      "name": "Cotool",
+      "file": "Cotool",
+      "primary": true,
+      "how_described": "本集说 Cotool 提供跨多个模型提供商的灵活性，让蓝队能根据任务需要选择合适的模型并快速切换",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            68.239,
+            83.683
+          ],
+          "quote": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vectra",
+      "type": "company",
+      "role": "company",
+      "name": "Vectra",
+      "file": "Vectra",
+      "primary": false,
+      "how_described": "本集说 Vectra 是一款安全工具，但碰巧与一种兽药同名，导致安全人员使用时触发了模型的生物武器过滤器而被误拒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            327.847,
+            332.729
+          ],
+          "quote": "We noticed a very fun one maybe a quarter ago where there's a security tool out there called Vectra.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            339.652,
+            343.334
+          ],
+          "quote": "So we noticed folks using the Vectra tool were hitting a bio filter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 AI 智能体既不是人也不是恶意软件，能够自主决定下一步做什么，其行为不可预测，导致传统安全防御体系的地基被动摇",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            842.675,
+            853.981
+          ],
+          "quote": "Our sales rep just asked to deploy something and the agent went and found, you know, the AWS key because it thinks that it should deploy it on AWS and, you know, now we got a ton of false positives in the deception provider, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说模型供应商建立的护栏会产生副作用：蓝队在分析漏洞时问的问题跟攻击者几乎一样，结果触发护栏被拒绝回答，反而阻碍了防御",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.668,
+            16.454
+          ],
+          "quote": "Model providers have great reason to establish guardrails, safeguards, because these are super capable systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            84.595,
+            99.083
+          ],
+          "quote": "They discuss why AI guardrails can actually make life harder for defenders, why traditional signatures and behavioral detection are starting to break down, and what happens when software no longer behaves predictably enough for security teams to define what normal looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            177.548,
+            191.273
+          ],
+          "quote": "Yeah, so I mean, super topical, like the model providers have great reason to establish guardrails, safeguards, because these are super capable systems and we don't want attackers using them for nefarious purposes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            191.313,
+            195.114
+          ],
+          "quote": "And so they have a responsibility to make sure those guardrails are in place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            230.179,
+            243.244
+          ],
+          "quote": "And so they were able to, when they saw these cyber refusals or these guardrails being triggered, fall back to GLM 5.2 in their case, but could have been KMEK3 or a QEN model, something that isn't going to have those guardrails in place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            394.554,
+            400.817
+          ],
+          "quote": "So a big part of what we're building is a way to properly set guardrails and controls around the software before it runs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            436.899,
+            445.302
+          ],
+          "quote": "And I think what people have learned is that regardless of guardrails that the AI labs are putting around these things, you can't rely on models to stop themselves or to understand context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            640.965,
+            649.352
+          ],
+          "quote": "And there's even less vetting and understanding around what agentic processes, what backend AI models they're going to be using, what guardrails they install and put in.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "signatures",
+      "type": "concept",
+      "role": "concept",
+      "name": "签名 (signatures)",
+      "file": "签名",
+      "primary": true,
+      "how_described": "本集说签名（已知攻击的特征码）大概已经死掉了，因为智能体的攻击方式是通过精心构造的提示词让模型做坏事，属于全新的攻击类别，没有签名可匹配",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            84.595,
+            99.083
+          ],
+          "quote": "They discuss why AI guardrails can actually make life harder for defenders, why traditional signatures and behavioral detection are starting to break down, and what happens when software no longer behaves predictably enough for security teams to define what normal looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            802.005,
+            803.506
+          ],
+          "quote": "Signatures are probably dead.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            895.53,
+            902.237
+          ],
+          "quote": "We are moving into a world in which signatures are dead and the attack surface is now the total sum of human expression.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "behavior-based-approaches",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为检测 (behavior-based approaches)",
+      "file": "行为检测",
+      "primary": true,
+      "how_described": "本集说行为检测的前提是你能预定义软件的正常行为，但智能体软件的行为不可预测，你没法提前画出'正常'的边界，所以这种方法不再适用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            911.465,
+            917.969
+          ],
+          "quote": "And if you look at the evolution of cyber defenses, it went from signature-based approaches to dynamic behavior-based approaches.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            918.009,
+            929.194
+          ],
+          "quote": "But at the end of the day, those behavior-based approaches made one sort of upfront bet, which is you could determine how software should behave, and you would look for anomalous behavior against that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deception",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺骗技术 (deception)",
+      "file": "欺骗技术",
+      "primary": false,
+      "how_described": "本集说欺骗技术（如在开发者设备上放含 AWS 密钥的蜜罐）被智能体搞坏了：智能体自主寻找资源时误踩蜜罐，产生大量误报",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.748,
+            36.29
+          ],
+          "quote": "Even some of the more modern techniques like deception that work really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            828.045,
+            836.452
+          ],
+          "quote": "And then even some of the more modern techniques like deception, right, that work really well, you know, we're starting to see problems with, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            842.675,
+            853.981
+          ],
+          "quote": "Our sales rep just asked to deploy something and the agent went and found, you know, the AWS key because it thinks that it should deploy it on AWS and, you know, now we got a ton of false positives in the deception provider, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理正从数据中心和 NeoClouds 扩展到端点，将无处不在，蓝队需要考虑如何在这种推理分散部署的环境中进行防御",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            353.963,
+            359.508
+          ],
+          "quote": "And so, Nick, Neo is building a way to defend endpoints from these inference-style attacks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 120,
+          "t": [
+            588.247,
+            592.571
+          ],
+          "quote": "And it just seems like we're entering this phase of the build out where inference will be everywhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 121,
+          "t": [
+            593.891,
+            600.855
+          ],
+          "quote": "Right now, it's clear that there's inference in the data center, there's inference in the NeoClouds, the frontier labs, and eventually it's going to end on the endpoint.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            701.105,
+            704.406
+          ],
+          "quote": "We're now seeing all these inference and these tests go into the endpoint.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 140,
+          "t": [
+            727.535,
+            742.041
+          ],
+          "quote": "And I guess that means, I guess maybe because, Max, you guys look across so many model providers, like, how do you think for blue teams, for the actual people that are defending this stuff, like, what is the path forward for a lot of this inference?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 145,
+          "t": [
+            762.104,
+            765.148
+          ],
+          "quote": "And now they're like, maybe we need our own inference.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重 (open weights)",
+      "file": "开源权重",
+      "primary": true,
+      "how_described": "本集说蓝队可以自托管开源权重来获得模型选择的灵活性，但一块 H100 一年 25 万美元的成本让大多数团队负担不起",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            551.91,
+            557.414
+          ],
+          "quote": "Or you decide, hey, we're going to host open weights, we're going to support all major model providers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "honeypot",
+      "type": "concept",
+      "role": "concept",
+      "name": "蜜罐 (honeypot)",
+      "file": "蜜罐",
+      "primary": false,
+      "how_described": "本集说开发者的设备上放置的含假 AWS 密钥的蜜罐，会被自主寻找部署资源的智能体误踩，导致欺骗系统报大量假警报",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            837.192,
+            841.734
+          ],
+          "quote": "Hey, you know, there's a honeypot on a developer's device that contains AWS keys.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            870.731,
+            872.212
+          ],
+          "quote": "I hadn't even thought about the honeypot example.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            874.474,
+            878.997
+          ],
+          "quote": "Wow, okay, maybe I shouldn't have sprinkled a bunch of credentials around my environment to test for honeypot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 177,
+          "t": [
+            888.283,
+            891.786
+          ],
+          "quote": "Probably a bunch of CISOs that woke up in the middle of the night going like, oh, the honeypot's been tricked.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "scriptkitties",
+      "type": "concept",
+      "role": "concept",
+      "name": "脚本小子 (ScriptKitties)",
+      "file": "脚本小子",
+      "primary": false,
+      "how_described": "本集说当年第一批漏洞扫描工具催生了脚本小子（下载现成工具就能去黑人的新手），AI 正在把攻击门槛压到类似的新低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1197.791,
+            1199.332
+          ],
+          "quote": "And they gave birth to the ScriptKitties.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1200.272,
+            1211.758
+          ],
+          "quote": "And the ScriptKitties, for those of you that weren't around then, was basically, you know, largely males, 18 to 25-year-old, that had downloaded a bunch of tools from the internet and decided to go hack a bunch of stuff.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agentic process",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

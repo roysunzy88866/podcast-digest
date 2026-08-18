@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]]
+[[Max]] [[Nick Warner]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Anthropic":47,"OpenAI":37,"Claude":18,"Claude Code":23,"宪法 AI":1,"智能体":88,"缩放定律":3,"对齐":1,"超级智能":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Anthropic":47,"OpenAI":37,"Claude":18,"Claude Code":23,"宪法 AI":1,"智能体":90,"缩放定律":3,"对齐":1,"超级智能":1}</script>
 
 <script>
 (function(){

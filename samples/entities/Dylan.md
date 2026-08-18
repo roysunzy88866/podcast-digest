@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Emilio Escobar]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]] [[Dan]]
+[[Max]] [[Nick Warner]] [[Emilio Escobar]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firas":1,"Joel de la Garza":2,"Truffle Security":1,"Socket":1,"Hugging Face":5,"NPM":1,"前沿模型":3,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Firas":1,"Joel de la Garza":3,"Truffle Security":1,"Socket":1,"Hugging Face":6,"NPM":1,"前沿模型":3,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

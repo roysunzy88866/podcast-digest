@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
+[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Sierra":3,"智能体":88,"基于结果的定价":1,"应用 AI":1,"前沿模型":3,"工具层":1,"上下文工程":5,"编程系统":1,"MCP":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Sierra":3,"智能体":90,"基于结果的定价":1,"应用 AI":1,"前沿模型":3,"工具层":1,"上下文工程":5,"编程系统":1,"MCP":13}</script>
 
 <script>
 (function(){

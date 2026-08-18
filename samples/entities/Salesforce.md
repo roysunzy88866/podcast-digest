@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Bret Taylor]] · [[Stewart Butterfield]] · [[Jason Lemkin]] · [[Sierra]] · [[Slack]] · [[SaaStr]] · [[基于结果的定价]] · [[Glitch]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":88,"Bret Taylor":1,"Stewart Butterfield":1,"Jason Lemkin":1,"Sierra":3,"Slack":18,"SaaStr":1,"基于结果的定价":1,"Glitch":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":90,"Bret Taylor":1,"Stewart Butterfield":1,"Jason Lemkin":1,"Sierra":3,"Slack":18,"SaaStr":1,"基于结果的定价":1,"Glitch":1}</script>
 
 <script>
 (function(){

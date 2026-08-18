@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
+[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":15,"深度学习":3,"智能体":88,"沙箱":18,"Condi Rice":1,"harness":11,"Jerry":1,"GPU":3,"前沿模型":3,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":15,"深度学习":3,"智能体":90,"沙箱":18,"Condi Rice":1,"harness":11,"Jerry":1,"GPU":3,"前沿模型":3,"Sega":1}</script>
 
 <script>
 (function(){

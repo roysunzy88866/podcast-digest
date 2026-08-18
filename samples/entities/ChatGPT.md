@@ -73,7 +73,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Waymo]] · [[Google]] · [[强化学习]] · [[Claude]] · [[Anthropic]] · [[主观能动性]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":88,"OpenAI":37,"Waymo":9,"Google":18,"强化学习":9,"Claude":18,"Anthropic":47,"主观能动性":10,"Cursor":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":90,"OpenAI":37,"Waymo":9,"Google":18,"强化学习":10,"Claude":18,"Anthropic":47,"主观能动性":10,"Cursor":19}</script>
 
 <script>
 (function(){

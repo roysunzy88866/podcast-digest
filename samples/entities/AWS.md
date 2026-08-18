@@ -33,7 +33,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[Microsoft]] · [[McKinsey]] · [[Benedict Evans]] · [[Theo Browne]] · [[Heitor Lessa]] · [[Philip Johnston]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":47,"智能体":88,"NVIDIA":15,"Apple":11,"Microsoft":10,"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Heitor Lessa":1,"Philip Johnston":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":47,"智能体":90,"NVIDIA":15,"Apple":11,"Microsoft":10,"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Heitor Lessa":1,"Philip Johnston":1}</script>
 
 <script>
 (function(){

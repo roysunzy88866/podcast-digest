@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[LLM]] · [[Cursor]] · [[Anthropic]] · [[Stripe]] · [[评估]] · [[开源模型]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":88,"Lenny":52,"OpenAI":37,"LLM":10,"Cursor":18,"Anthropic":47,"Stripe":12,"评估":10,"开源模型":6,"Lovable":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":90,"Lenny":52,"OpenAI":37,"LLM":10,"Cursor":19,"Anthropic":47,"Stripe":12,"评估":10,"开源模型":6,"Lovable":6}</script>
 
 <script>
 (function(){

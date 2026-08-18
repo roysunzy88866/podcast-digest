@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]]
+[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Surge AI":1,"Anthropic":47,"ChatGPT":19,"LLM Arena":1,"Waymo":9,"GPT-3":2,"Claude":18,"基准测试":4,"后训练":8}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Surge AI":1,"Anthropic":47,"ChatGPT":19,"LLM Arena":1,"Waymo":9,"GPT-3":2,"Claude":18,"基准测试":4,"后训练":9}</script>
 
 <script>
 (function(){

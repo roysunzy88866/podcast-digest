@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>94</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>97</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,10 +16,11 @@ unlisted: true
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(00:43起):本集描述为引发本次行业大洗牌的根本原因。它接管了产品开发中人们不喜欢的机械性工作，大幅降低了变更和测试成本，迫使所有人的工作方式必须现代化。
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(12:18起):本集说 AI 是革命性工具，降低了贡献门槛但也制造了大量垃圾；可以用 AI 辅助生成代码和研究代码库，但不要把思考外包给它
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:34起):本集把 AI 定位为「催化剂」而非替代品:用于帮用户优化档案、给挑照片的建议,但绝不允许伪造照片或替用户发消息,目标是让爱与连接更人性化
+- **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(30:07起):本集提到两方面的 AI 应用：一是内部用 AI 检查平台上每个人的年龄、开源语音安全过滤器；二是让「你制作游戏」的口号通过 AI 变得比以往任何时候都更真实——通过说话就能做出游戏。
 
 ## ① 提到它的金句
 
-*94 条*
+*97 条*
 
 ![[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh#^q9]]
 
@@ -209,23 +210,30 @@ unlisted: true
 
 ![[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s#^q6]]
 
+![[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha#^q1]]
+
+![[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha#^q4]]
+
+![[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod#^q9]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为概念
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为概念
+- [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Dylan Field]] · [[Melanie Perkins]] · [[Nikhyl Singhal]] · [[Bruno Scott Sperka]] · [[Whitney Wolfe Herd]] · [[Figma]] · [[Canva]] · [[产品经理]]
+[[Lenny]] · [[MCP]] · [[智能体]] · [[Dylan Field]] · [[Melanie Perkins]] · [[Nikhyl Singhal]] · [[Bruno Scott Sperka]] · [[Whitney Wolfe Herd]] · [[Roblox CEO]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":88,"Dylan Field":2,"Melanie Perkins":1,"Nikhyl Singhal":1,"Bruno Scott Sperka":1,"Whitney Wolfe Herd":1,"Figma":7,"Canva":2,"产品经理":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"MCP":13,"智能体":90,"Dylan Field":2,"Melanie Perkins":1,"Nikhyl Singhal":1,"Bruno Scott Sperka":1,"Whitney Wolfe Herd":1,"Roblox CEO":1,"Figma":7}</script>
 
 <script>
 (function(){

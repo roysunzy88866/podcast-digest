@@ -1,0 +1,189 @@
+{
+  "title_zh": "Roblox创始人的做减法哲学与经济系统设计",
+  "tldr": "Roblox创始人的核心洞见：做减法而非加功能，以及用虚拟货币彻底激活创作者生态",
+  "digest_md": "Roblox 的创始人有一个非常反直觉的产品观：好产品不是往里加东西，而是拼命做减法。他拿厨房打比方——他不会想要一个专门煮热狗的电器，他想要的是一把好刀和一口好锅。最早期的 Roblox 角色比例极其简单，腿是一乘一乘二，身体是二乘二乘一，脸就是程序员随手画的。当时所有游戏行业的人都说千万别发这个，你得要高分辨率的网格化身。但他们决定先发出去、先拿到反馈再说。后来发现，谢天谢地没听那些意见 [11:45 Unknown]。\n\n这种做减法的思维也延伸到公司管理上。他认为官僚主义就是组织的熵——沉积物会自然堆积，必须有一个反向的力量去对抗它。他在公司内部直接用\"摧毁官僚主义\"这个词。核心判断是：如果你不在减少官僚主义，那就没有中立地带——你以为维持现状就行了，实际上东西在悄悄内爆；如果你不在试图改善，那就是在倒退 [06:53 Unknown]。\n\n给反馈的方式也体现了这种\"轻\"的哲学。他反对搞正式的反馈会议，而是追求高频、当下、轻松的反馈——就是随口一句\"你觉得那个怎么样？\"关键在于语调：如果对方能感觉到你血压没升高、你无论如何都支持他，哪怕反馈很严厉，对方也能接受。反过来，如果反馈带着攻击性，那个创伤感比反馈内容本身影响更大。他还有一条铁律：如果自己很生气，绝对不要碰文字或邮件。那种\"发出去会很爽\"的邮件，忍住别发，第二天早上你会庆幸没发，然后可以打电话、用更冷静的方式传递同样的信息 [07:23 Unknown]。\n\n关于决策，他认为组织里很多决策最重要的不是集体讨论，而是先识别出谁是决策者，然后给这个人自由和创造力去做决定，这比集体决策或混乱决策有效得多 [10:45 Unknown]。他分析自己犯过的错，大多源于过于逻辑化、不够直觉——在一个概念上坚持太久，而其实完全可以更早改变航向 [16:13 Unknown]。他还有一个有意思的做法：在脑海里虚构一家\"街对面的公司\"，想象那家公司的团队规模、人在做什么，把它当作假想的威胁来保持紧迫感，就像乔丹编造其他球员说的话来激励自己一样 [15:42 Unknown]。\n\nRoblox 的经济系统演进是一个经典的\"别修破系统、换个系统\"的案例。早期 Roblox 用的是会员制模式——付钱获得额外建造位。回头看这很蠢，因为建造本该是无限的。后来用户在涨，但买会员的人在减少，收入持平甚至下降。团队的第一反应是典型的战术回应：列了 50 个可能出问题的地方，做了 30 个小调整，问题还在。而他们脑子深处其实一直有一个更大胆的想法：虚拟货币体系。这不仅仅是修补，而可能是现有模式的一百倍。最终他们决定押注这个新系统——虚拟货币、用户可以购买、创作者可以整合、还能看到哪些游戏赚得最多。所有东西同时上线，八小时内就知道成了：创作者们立刻开始行动，排行榜上出现了收入最高的游戏 [27:05 Unknown]。\n\n这个经济系统背后有一个更早的工程决策奠定了基础。早期联合创始人 Eric 坚决反对把游戏类型硬编码进系统核心——他们当时真的在核心 C++ 代码里写了一个\"旗子\"对象来做夺旗游戏，现在看来是灾难性的工程。Eric 的主张是：接一门脚本语言上去，做通用的 API。他们选了 Lua，这个通用化决策给了 Roblox 巨大的用户生成内容(UGC)推动力 [24:36 Unknown]。\n\n虚拟货币 Robux 大约每个值一美分，这个汇率维持了大约 20 年，与美元挂钩，他们刻意保持不通胀不通缩。很多 8 到 12 岁孩子的第一次金钱体验就是 Robux——学怎么用虚拟货币、不一次花光、学会分配，这本身就是一种财商教育 [31:53 Unknown]。\n\n关于公司聚焦，他的标准是：你脑子里有没有一句话，公司里每个人都能听懂？\"我们在做这件事\"，每个人说\"哦我明白了，我可以以此为核心\"。早期 Roblox 的口号是\"你制作游戏\"，现在回头看这句话，随着 AI 让任何人都能通过说话来创建游戏，这句话可能比以往任何时候都更真实 [33:37 Unknown]。\n\n他们内部已经有大量 AI 应用——一个叫 Roblox 操作系统的内部工具用来跟踪工作、帮人看到自己在组织中的位置，这些系统都启用了 MCP(一种让 AI 调用外部工具的协议)，任何人都可以拿自己的 AI 系统在上面跑，有人用它自动生成一对一会议的讨论话题 [35:21 Unknown]。\n\n在安全方面，他们在没有法律要求的情况下就主动用 AI 检查平台上每个人的年龄，开源了语音安全过滤器。这确实拖慢了短期增长，但他的逻辑是：打造一个全年龄段都能一起玩的全球平台，这是增长的地基，不是可选项 [36:14 Unknown]。\n\n五年后的 Roblox，他画了两张图。一是照片写实的多人游戏——不是\"这画面很牛的游戏\"，而是感觉像在看《谍影重重》电影一样的真实感，他说这会像从黑白到彩色一样大的跳跃。二是\"你制作游戏\"的终极实现——通过说话就能做出一个漂亮的东西、分享给家人、一起玩，游戏比代码复杂得多，有图像、资产、环境、故事，但 AI 能让这一切闭环 [39:43 Unknown]。\n\n## 本集带走\n- **好产品做减法**：别加旋钮和滑块，移除它们才难。一把好刀加一口好锅，胜过一堆专用电器\n- **官僚主义没有中立地带**：不在减少它，就是在倒退。必须主动制造反向力量\n- **反馈靠语调不靠流程**：当下、轻松、高频，比正式反馈会议有效。生气时绝不碰文字，睡一觉再打电话\n- **别修破系统，换系统**：50 个小调整救不了一个根本模式有问题的事情，敢押注大得多的新方案\n- **通用 API 胜过硬编码**：核心系统做通用的、可扩展的，别把具体业务逻辑塞进底层——这个工程决策决定了平台的天花板\n- **聚焦 = 一句话人人能懂**：不是复杂的战略文档，而是公司里每个人都能复述的一句话",
+  "quotes": [
+    {
+      "en": "If one is not reducing bureaucracy, there's no neutral ground.",
+      "zh": "如果有人不减少官僚主义，就没有中立地带。",
+      "timestamp": "00:00",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "I mean, there seems to be like sediment builds up inside the company and bureaucracy is the natural sort of like entropy of an organization.",
+      "zh": "我的意思是，似乎像沉积物在公司内部堆积，官僚主义是组织的熵的自然形式。",
+      "timestamp": "06:35",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "I would say that if one is not reducing bureaucracy, there's no neutral ground.",
+      "zh": "我想说的是，如果一个人不减少官僚主义，就没有中立地带。",
+      "timestamp": "06:53",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "I think in a lot of situations where one thinks, we're pretty good, we're just going to let it be in this steady state, that's actually things are imploding in a way.",
+      "zh": "我认为在很多情况下，一个人认为，我们很好，我们就让它保持在这种稳定状态，实际上事情正在以一种方式内爆。",
+      "timestamp": "07:01",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "So whereas I do feel if feedback is delivered aggressively or it's just like, oh, it's traumatic, I think that can actually influence it more than the feedback.",
+      "zh": "而我确实觉得如果反馈是激进传达的，或者就像，哦，这是创伤性的，我认为那实际上比反馈本身更能影响它。",
+      "timestamp": "08:16",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "I think of it in terms of like outcome over ego.",
+      "zh": "我用结果胜过自我来思考它。",
+      "timestamp": "09:40",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "I would just say my process, I would say typically my mistakes have come, I think, from being maybe overly logical and less intuitive.",
+      "zh": "我只想说我的流程，我想说我通常的错误都源于，我认为，可能过于逻辑化而不够直觉。",
+      "timestamp": "16:13",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "So trying to think of mistakes I have made have been typically where I've hung on to a concept too long.",
+      "zh": "所以试图思考我犯过的错误，通常都是我在一个概念上坚持太久的情况。",
+      "timestamp": "16:43",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "In retrospect, it's an absolute disaster because the flag is such a user-generated, complex, specific game thing.",
+      "zh": "回想起来，这绝对是个灾难，因为旗子是非常用户生成的、复杂的、特定的游戏东西。",
+      "timestamp": "26:03",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "This wasn't just tuning up something that was arguably broken. This was like, this could be a hundred times bigger than what we're doing.",
+      "zh": "这不仅仅是调整一些可能有争议的坏掉的东西。这就像是，这可能是我们正在做的事情的一百倍大。",
+      "timestamp": "28:24",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "I think one way to think about focus is, like, is there one statement in your head that everyone in the company can just understand?",
+      "zh": "我认为思考\"专注\"的一种方式是，你的脑海里是否有一个陈述，公司里的每个人都能听懂？",
+      "timestamp": "33:37",
+      "speaker": "Roblox CEO"
+    },
+    {
+      "en": "It's going to be a little bit like going from black and white to color, or going from 512 to 2K.",
+      "zh": "这将有点像从黑白到彩色，或者从 512 到 2K。",
+      "timestamp": "40:48",
+      "speaker": "Roblox CEO"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "If one is not reducing bureaucracy, there's no neutral ground.",
+      "zh": "如果有人不减少官僚主义，就没有中立地带。"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Unknown",
+      "en": "If one is not trying to improve things, it is going backwards.",
+      "zh": "如果有人不尝试改善事物，它就是在倒退。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Unknown",
+      "en": "I mean, there seems to be like sediment builds up inside the company and bureaucracy is the natural sort of like entropy of an organization.",
+      "zh": "我的意思是，似乎像沉积物在公司内部堆积，官僚主义是组织的熵的自然形式。"
+    },
+    {
+      "timestamp": "06:53",
+      "speaker": "Unknown",
+      "en": "I would say that if one is not reducing bureaucracy, there's no neutral ground.",
+      "zh": "我想说的是，如果一个人不减少官僚主义，就没有中立地带。"
+    },
+    {
+      "timestamp": "07:01",
+      "speaker": "Unknown",
+      "en": "I think in a lot of situations where one thinks, we're pretty good, we're just going to let it be in this steady state, that's actually things are imploding in a way.",
+      "zh": "我认为在很多情况下，一个人认为，我们很好，我们就让它保持在这种稳定状态，实际上事情正在以一种方式内爆。"
+    },
+    {
+      "timestamp": "08:16",
+      "speaker": "Unknown",
+      "en": "So whereas I do feel if feedback is delivered aggressively or it's just like, oh, it's traumatic, I think that can actually influence it more than the feedback.",
+      "zh": "而我确实觉得如果反馈是激进传达的，或者就像，哦，这是创伤性的，我认为那实际上比反馈本身更能影响它。"
+    },
+    {
+      "timestamp": "09:40",
+      "speaker": "Unknown",
+      "en": "I think of it in terms of like outcome over ego.",
+      "zh": "我用结果胜过自我来思考它。"
+    },
+    {
+      "timestamp": "10:45",
+      "speaker": "Unknown",
+      "en": "There is something, I think, inside of an organization where for many decisions, it's actually more important just to let's identify the person who's going to make the decision and let them be somewhat free and creative to make the decision than in many cases a group decision or a confused decision or we're trying to do all of that.",
+      "zh": "我认为在组织内部有某种东西，对于许多决策，实际上更重要的是让我们识别出要做决策的人，并让他们在决策时有某种自由和创造力，而不是在许多情况下做一个集体决策或一个混乱的决策，或者我们试图做所有这一切。"
+    },
+    {
+      "timestamp": "12:49",
+      "speaker": "Unknown",
+      "en": "And we found out actually that a lot of the input we'd been getting, thank God we didn't listen to that, basically.",
+      "zh": "而且我们发现实际上我们收到的大量输入，谢天谢地我们没有听进去那些。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Unknown",
+      "en": "I would just say my process, I would say typically my mistakes have come, I think, from being maybe overly logical and less intuitive.",
+      "zh": "我只想说我的流程，我想说我通常的错误都源于，我认为，可能过于逻辑化而不够直觉。"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Unknown",
+      "en": "So trying to think of mistakes I have made have been typically where I've hung on to a concept too long.",
+      "zh": "所以试图思考我犯过的错误，通常都是我在一个概念上坚持太久的情况。"
+    },
+    {
+      "timestamp": "19:10",
+      "speaker": "Unknown",
+      "en": "I think it's surprising how much people can attach to their digital identity.",
+      "zh": "我认为人们对他们的数字身份的依恋程度之深是令人惊讶的。"
+    },
+    {
+      "timestamp": "26:03",
+      "speaker": "Unknown",
+      "en": "In retrospect, it's an absolute disaster because the flag is such a user-generated, complex, specific game thing.",
+      "zh": "回想起来，这绝对是个灾难，因为旗子是非常用户生成的、复杂的、特定的游戏东西。"
+    },
+    {
+      "timestamp": "28:24",
+      "speaker": "Unknown",
+      "en": "This wasn't just tuning up something that was arguably broken. This was like, this could be a hundred times bigger than what we're doing.",
+      "zh": "这不仅仅是调整一些可能有争议的坏掉的东西。这就像是，这可能是我们正在做的事情的一百倍大。"
+    },
+    {
+      "timestamp": "32:10",
+      "speaker": "Unknown",
+      "en": "It's generally been that way for about 20 years.",
+      "zh": "这种情况大约持续了 20 年。"
+    },
+    {
+      "timestamp": "33:37",
+      "speaker": "Unknown",
+      "en": "I think one way to think about focus is, like, is there one statement in your head that everyone in the company can just understand?",
+      "zh": "我认为思考\"专注\"的一种方式是，你的脑海里是否有一个陈述，公司里的每个人都能听懂？"
+    },
+    {
+      "timestamp": "37:12",
+      "speaker": "Unknown",
+      "en": "They are trying to enact great legislation, but they're trying not to have the tragedy of good intentions.",
+      "zh": "他们试图制定伟大的立法，但他们试图避免\"好意带来的悲剧\"。"
+    },
+    {
+      "timestamp": "40:48",
+      "speaker": "Unknown",
+      "en": "It's going to be a little bit like going from black and white to color, or going from 512 to 2K.",
+      "zh": "这将有点像从黑白到彩色，或者从 512 到 2K。"
+    }
+  ]
+}

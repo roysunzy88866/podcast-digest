@@ -1,0 +1,1190 @@
+{
+  "episode_id": "2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod",
+  "podcast": "Training Data",
+  "date": "2026-08-18",
+  "tags": [
+    "强化学习",
+    "持续学习",
+    "苦涩的教训",
+    "大世界假说",
+    "灾难性遗忘"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "rich-sutton",
+      "type": "person",
+      "role": "guest",
+      "name": "Rich Sutton",
+      "file": "Rich Sutton",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            59.505,
+            62.828
+          ],
+          "quote": "We are honored to have the great Rich Sutton with us here today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oak-lab",
+      "type": "company",
+      "role": "company",
+      "name": "Oak Lab",
+      "file": "Oak Lab",
+      "primary": true,
+      "how_described": "本集说 Oak Lab 是 Rich Sutton 和 Kuram Javed 联合创立的公司，旨在攻克持续深度学习和基于自我发现抽象进行规划这两个核心能力，实现真正的持续学习架构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            88.631,
+            91.393
+          ],
+          "quote": "The two of you have set off to found Oak Lab.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "the-bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (The Bitter Lesson)",
+      "file": "苦涩的教训",
+      "primary": true,
+      "how_described": "本集说《苦涩的教训》的本质是不要被人类知识分心，专注于随计算扩展的方法（如搜索和学习），它不是否定花哨算法，而是要那些能随算力一起扩展的算法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            72.437,
+            76.101
+          ],
+          "quote": "You wrote the essay, The Bitter Lesson, that I believe is the Bible of the field.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            94.095,
+            106.545
+          ],
+          "quote": "So for today's session, we're going to start talking about the bitter lesson, the state of the world as we know it today, whether LLMs will get us there or not, and then we're going to transition to start talking about your research agenda and your plan for Oak.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            432.598,
+            436.939
+          ],
+          "quote": "You wrote The Bitter Lesson, which has become the modern tome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            458.717,
+            464.778
+          ],
+          "quote": "As the bitter lesson expresses, it's something that you can observe for a long time, for many decades.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            509.533,
+            514.338
+          ],
+          "quote": "What is the essence of the bitter lesson?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            537.561,
+            542.284
+          ],
+          "quote": "I recently made a post where I tried to do the bitter lesson in 26 words.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            602.938,
+            608.161
+          ],
+          "quote": "The conclusion is that it's both a positive example and a negative example of the bitter lesson.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1081.647,
+            1085.409
+          ],
+          "quote": "Okay, I want to move to another part of the bitter lesson, removing human knowledge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1126.187,
+            1130.69
+          ],
+          "quote": "You know, and I say this right at the very beginning of the bitter lesson.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1160.407,
+            1165.009
+          ],
+          "quote": "But as I say at the beginning of the Bitter Lesson, in practice, they have been enemies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1595.259,
+            1596.279
+          ],
+          "quote": "Consistent with the bitter lesson.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "big-world-hypothesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "大世界假说 (big world hypothesis)",
+      "file": "大世界假说",
+      "primary": true,
+      "how_described": "本集说大世界假说指世界极其巨大、有无限多东西要学，任何人类编写的合成数据程序生成的都是「小世界」，无法覆盖真实世界的无限复杂性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            701.442,
+            704.684
+          ],
+          "quote": "And we call it the big world perspective or the big world hypothesis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            707.346,
+            710.328
+          ],
+          "quote": "There's a little paper called the big world hypothesis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            926.981,
+            929.462
+          ],
+          "quote": "The big world hypothesis, let's say what it is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3096.127,
+            3101.331
+          ],
+          "quote": "This sort of goes back to the big world hypothesis that there are infinitely many things to learn.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集说所有学习本来就应该是持续的，当前领域需要特别标明「持续学习」恰恰说明领域走偏了；LLM 部署后权重冻住、不再学习是根本缺陷",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.623,
+            41.813
+          ],
+          "quote": "uh you talk about you wouldn't have to say continual learning because it wouldn't make any sense to talk about learning that wasn't continual all learning is continual we always act and we learn that's just the normal way of thinking i'm not weird the field is weird the field they need to call it continual learning it's just learning",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            295.562,
+            307.005
+          ],
+          "quote": "You know, go back a few, before there was all this AI craziness, you talk about, you wouldn't have to say continual learning because it wouldn't make any sense to talk about learning that wasn't continual.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            318.667,
+            320.788
+          ],
+          "quote": "The field, they need to call it continual learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1453.45,
+            1455.031
+          ],
+          "quote": "Those are two examples of continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2384.756,
+            2387.738
+          ],
+          "quote": "So in use cases where you can have that, you can do continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2534.055,
+            2542.035
+          ],
+          "quote": "Can be applied to the current state of affairs with people scaling LLMs and trying to get them to do continual learning without catastrophic forgetting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2960.978,
+            2976.753
+          ],
+          "quote": "If everything goes right, we implement the architecture, we can have genuine continual learning, and we can form abstractions so that we can do planning and reasoning, and we have sort of like true intelligence.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": true,
+      "how_described": "本集说基础模型实验室做合成数据生成是「大错误」，因为合成数据本质上还是由人类专家决定什么是好的数据，智能体并没有从自身经验中生成经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            663.248,
+            675.359
+          ],
+          "quote": "It seems like a lot of what the Foundation Model Labs are working on right now is synthetic data generation in order to kind of get us beyond the fossil fuel that is the existing human internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            676.401,
+            683.868
+          ],
+          "quote": "Is synthetic data generation kind of as part of this LLM scaling paradigm, is that a general method that leverages computation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            718.054,
+            723.538
+          ],
+          "quote": "And you can have people generating these synthetic data sets, but there would always be more things to learn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            740.468,
+            746.829
+          ],
+          "quote": "Going back to the synthetic data question too, who decides what's a good synthetic data and what's a bad synthetic data?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            746.849,
+            751.19
+          ],
+          "quote": "Because I can write a program that can output a lot of synthetic data, which would hurt programs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            770.883,
+            778.765
+          ],
+          "quote": "Right, but if all the engineers, OpenAI, Anthropic, or all the big Neolabs that engineers went on vacation, who would generate the synthetic data?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            785.766,
+            791.288
+          ],
+          "quote": "Some human has to decide what is the right synthetic data to generate, and that requires human expertise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            802.094,
+            803.775
+          ],
+          "quote": "What's the right synthetic data for that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            840.792,
+            842.453
+          ],
+          "quote": "It doesn't matter how much synthetic data you generate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            842.473,
+            847.395
+          ],
+          "quote": "It doesn't matter if you generate synthetic data that captures 50 different universes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            852.778,
+            855.6
+          ],
+          "quote": "First, just say the synthetic data is wrong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            866.662,
+            874.525
+          ],
+          "quote": "If you write a little program, because there's going to be a little program that will generate the synthetic data, it'll be a small world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            882.664,
+            888.427
+          ],
+          "quote": "Okay, and you're saying, why don't I get some synthetic data to tell me what's going on in other people's minds?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            888.927,
+            896.29
+          ],
+          "quote": "No, there's no way we can have synthetic data for other people's minds, and other people's minds matter to us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            896.31,
+            903.874
+          ],
+          "quote": "I talked to you guys about investing today, so I care what's going on in your minds, but how can I get synthetic data on such a thing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            905.165,
+            907.247
+          ],
+          "quote": "Really, you can't even get synthetic data on anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            907.327,
+            921.136
+          ],
+          "quote": "You can't get synthetic data on how the drone is going to interact with its environment in the physical world and the friction and wear in the motors of this robot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "catastrophic-forgetting",
+      "type": "concept",
+      "role": "concept",
+      "name": "灾难性遗忘 (catastrophic forgetting)",
+      "file": "灾难性遗忘",
+      "primary": true,
+      "how_described": "本集说如果你拿一个样本就去更新整个模型，之前的知识会被负面影响摧毁，这就是灾难性遗忘，但它是「完全可以治愈的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 526,
+          "t": [
+            2400.924,
+            2402.105
+          ],
+          "quote": "Catastrophic forgetting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2534.055,
+            2542.035
+          ],
+          "quote": "Can be applied to the current state of affairs with people scaling LLMs and trying to get them to do continual learning without catastrophic forgetting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2571.139,
+            2577.004
+          ],
+          "quote": "And then I think you would be able to learn new things without catastrophic forgetting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-backprop",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续反向传播 (Continual Backprop)",
+      "file": "持续反向传播",
+      "primary": true,
+      "how_described": "本集说持续反向传播是发表在 Nature 上的算法，核心是每个权重有独立步长（通过元学习获得）以防止旧知识被冲掉，并持续注入随机初始化的新单元让反向传播去测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2477.181,
+            2486.823
+          ],
+          "quote": "So there is a specific thing I can say to make it at least concrete, which is to say we have this algorithm called Continual Backprop, published in Nature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2506.523,
+            2516.945
+          ],
+          "quote": "And with Continual Backprop, we keep injecting a bit of randomness, a bit of generate and test, a bit of generate, and then the operation of Backprop is the tester.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集说大语言模型既是苦涩的教训的正面例子（靠算力吸收互联网），也是反面例子（互联网有限而世界大得多）；它们声称能造出博士水平专家但运行时权重完全不更新",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            448.204,
+            455.789
+          ],
+          "quote": "Because it was before the current kind of scaling paradigm around large language models had taken off, but it was after deep learning had really proven itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            585.212,
+            592.955
+          ],
+          "quote": "Yeah, and then the question, if I can anticipate it, yeah, what about large language models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            608.741,
+            619.927
+          ],
+          "quote": "First, large language models enabled enormous scaling with computation, and you could just drink in the internet and scale so much.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1215.749,
+            1222.78
+          ],
+          "quote": "You know, large language models are, oh, we're going to put all this knowledge into the system and the large language model will not learn when it runs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1390.819,
+            1398.342
+          ],
+          "quote": "Well, so think of all the structuring and generation of new concepts that went into creating the large language models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2993.66,
+            2998.941
+          ],
+          "quote": "But in particular, you have to wonder about the large language models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3008.843,
+            3019.446
+          ],
+          "quote": "And let me say, just for clarity, that large language models are an amazing scientific breakthrough, a breakthrough in the skillful use of language by neural networks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体应该从自身经验中持续学习、自己建立世界模型并基于自我发现的抽象做规划，而不是依赖人类专家预先准备好的合成数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            780.025,
+            782.446
+          ],
+          "quote": "It doesn't come from agent's experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            782.886,
+            784.906
+          ],
+          "quote": "It's not something that the agent is generating itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            930.523,
+            936.546
+          ],
+          "quote": "is that the world is massively more complex than your mind, than any agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1034.55,
+            1038.193
+          ],
+          "quote": "Why can't we just remove the human and let the agent do it itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1060.547,
+            1062.768
+          ],
+          "quote": "The agent can learn a model from its own experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1063.229,
+            1069.153
+          ],
+          "quote": "And when the agent learns it, it's much better because if the model is incorrect, it can fix it by continuing learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1302.139,
+            1313.561
+          ],
+          "quote": "And so instead of having like this huge thing where we're spending zillions of dollars to retrain them from the internet, we'll just copy the agent and keep learning from there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2276.726,
+            2280.289
+          ],
+          "quote": "Your agent would have to learn the correct abstractions for whatever world it's in.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集称 Rich Sutton 发明了强化学习、写了开创性教科书，强化学习的核心在于从自身经验中学习，而非依赖人类给出的监督信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.329,
+            65.531
+          ],
+          "quote": "Rich, you invented reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            113.529,
+            128.157
+          ],
+          "quote": "Decades ago, you decided to dedicate your career to reinforcement learning, to deep reinforcement learning in particular, and you established the University of Alberta as a bastion of that back when I think the field was very much in its infancy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3178.52,
+            3185.465
+          ],
+          "quote": "You are an unusually deep thinker about where reinforcement learning and algorithmic design will go.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alberta-plan",
+      "type": "concept",
+      "role": "concept",
+      "name": "阿尔伯塔计划 (Alberta Plan)",
+      "file": "阿尔伯塔计划",
+      "primary": false,
+      "how_described": "本集说阿尔伯塔计划是 2022 年制定的 12 点研究计划，前半部分解决持续深度学习，后半部分全在解决让智能体为自己所处的世界发现正确的抽象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 482,
+          "t": [
+            2214.682,
+            2221.664
+          ],
+          "quote": "In 2022, Rich, you laid out a very specific 12-point plan, the Alberta Plan for AI Research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2224.305,
+            2231.988
+          ],
+          "quote": "So the Alberta Plan came about because we did have general ideas, but we also needed to convert them into smaller chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2327.75,
+            2333.532
+          ],
+          "quote": "That's in some sense a crucial thing that's missing that the later half of Alberta plan answers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": false,
+      "how_described": "本集说当前范式做了太多的预训练和后训练，模型发布后就停止学习，这是不对的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1408.486,
+            1413.648
+          ],
+          "quote": "Another way of saying it is we do too much pre-training and post-training before we launch the models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1420.186,
+            1421.467
+          ],
+          "quote": "We can do as much pre-training as we want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集说后训练本身没问题，但大语言模型在后训练之后权重就冻住了，不再从经验中学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            986.861,
+            1002.627
+          ],
+          "quote": "My understanding is that the newest cohort of self-driving car companies, many of them were primarily trained in SIEM, and then they have to do some sort of post-training, I guess, to make sure they work in the real world, but that it's been a very effective pipeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1408.486,
+            1413.648
+          ],
+          "quote": "Another way of saying it is we do too much pre-training and post-training before we launch the models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1422.147,
+            1423.107
+          ],
+          "quote": "Post-training is fine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2691.263,
+            2697.326
+          ],
+          "quote": "Well, what keeps the knowledge correct in a large language model is, well, people did a lot of post-training.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alphago",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaGo",
+      "file": "AlphaGo",
+      "primary": false,
+      "how_described": "本集说 AlphaGo 能做规划是因为我们已知游戏规则和算子，但真实世界中智能体必须自己学习世界的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            437.797,
+            444.722
+          ],
+          "quote": "2019 was a funny time to be writing that piece because ImageNet was 2009, AlphaGo was 2015.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1097.997,
+            1106.662
+          ],
+          "quote": "And if I, you know, your former student, Dave, with AlphaGo and AlphaZero, for me, that was an example of a triumph of removing human priors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2149.876,
+            2157.04
+          ],
+          "quote": "We can do the math things and we can do AlphaGo because the games, we know the model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "supervised-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "监督学习 (supervised learning)",
+      "file": "监督学习",
+      "primary": false,
+      "how_described": "本集说没有动物是通过监督学习来学习的，因为没人告诉我们肌肉该如何抽动，监督学习只占我们所学东西的一小部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1612.202,
+            1625.389
+          ],
+          "quote": "So I think it's apparent that no animal learns by supervised learning because we don't get examples of how our muscles should twitch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1627.51,
+            1629.131
+          ],
+          "quote": "But all of school is supervised learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1651.053,
+            1654.975
+          ],
+          "quote": "The knowledge skills I acquire were from supervised learning in school.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1669.841,
+            1672.962
+          ],
+          "quote": "There is no supervised learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1701.063,
+            1702.705
+          ],
+          "quote": "It's not literally supervised learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1791.081,
+            1793.182
+          ],
+          "quote": "I think supervised learning is a good thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2017.847,
+            2022.37
+          ],
+          "quote": "And I get to learn 10,000 years of knowledge by going to school through supervised learning.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "in-context-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文学习 (in-context learning)",
+      "file": "上下文学习",
+      "primary": false,
+      "how_described": "本集说当前 LLM 助手做了一些上下文学习，可以通过给更多上下文改变模型状态，但模型本身的权重并没有在学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1379.766,
+            1383.707
+          ],
+          "quote": "They're doing some in-context learning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prior-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "先验知识 (prior knowledge)",
+      "file": "先验知识",
+      "primary": false,
+      "how_described": "本集说先验知识和学习知识之间原则上不应冲突，它们应该是朋友，但在实践中人们偏爱先验知识而排斥学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1118.212,
+            1123.774
+          ],
+          "quote": "It wasn't that because prior knowledge can't help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1123.794,
+            1125.515
+          ],
+          "quote": "There's nothing wrong with prior knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1131.21,
+            1136.273
+          ],
+          "quote": "I say, there's no reason why there has to be a conflict between prior knowledge and then learning knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1179.038,
+            1185.514
+          ],
+          "quote": "And so now I'm sure your sense of me is that I'm someone who loves learning and wants to dismiss prior knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1191.63,
+            1194.913
+          ],
+          "quote": "The mind is you have prior knowledge and then you get more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1195.053,
+            1198.896
+          ],
+          "quote": "And then once you've gotten more, then that becomes your prior knowledge as you get more and more and more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1262.673,
+            1263.374
+          ],
+          "quote": "Prior knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1313.661,
+            1317.282
+          ],
+          "quote": "And so in some sense, the prior knowledge will be",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2090.008,
+            2098.09
+          ],
+          "quote": "You guys are coming close to doing that thing that I said we should never do, which is argue is prior knowledge important or gaining knowledge important?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2102.49,
+            2107.311
+          ],
+          "quote": "And you're saying, oh, I can get things from my culture and from prior knowledge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2392.64,
+            2400.344
+          ],
+          "quote": "And then if you apply it to the naive thing, it just completely destroys your prior knowledge in a very destructive way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta-learn",
+      "type": "concept",
+      "role": "concept",
+      "name": "元学习 (meta-learn)",
+      "file": "元学习",
+      "primary": false,
+      "how_described": "本集说持续反向传播中每个权重的独立步长需要通过元学习获得，因此该算法不能直接套到现有模型上，必须从头训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 536,
+          "t": [
+            2422.905,
+            2428.07
+          ],
+          "quote": "And you will have to meta-learn these step sizes for each weight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2544.869,
+            2554.472
+          ],
+          "quote": "So I don't think that you could take an existing model and say, I'm going to just start updating it with these algorithms, because these algorithms meta learn how to learn.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simulator",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟器 (simulator)",
+      "file": "模拟器",
+      "primary": false,
+      "how_described": "本集说智能体应该从模拟器中学习，但模拟器应该是智能体自己制作的；人类做模拟器则需要人类在循环中不断修复仿真与现实之间的差距",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            1069.813,
+            1074.416
+          ],
+          "quote": "If the humans are making a simulator, then the model only gets updated when the humans figure out that something's wrong.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "university-of-alberta",
+      "type": "company",
+      "role": "company",
+      "name": "University of Alberta",
+      "file": "University of Alberta",
+      "primary": false,
+      "how_described": "本集说 Rich Sutton 在 2003 年将阿尔伯塔大学建立为强化学习和深度强化学习的堡垒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            82.326,
+            87.911
+          ],
+          "quote": "Rich is joined by Kuram Javed, his co-founder and former student from the University of Alberta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            113.529,
+            128.157
+          ],
+          "quote": "Decades ago, you decided to dedicate your career to reinforcement learning, to deep reinforcement learning in particular, and you established the University of Alberta as a bastion of that back when I think the field was very much in its infancy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor 的权重确实在更新，做法是收集大量用户数据做批量更新，但如果你想教模型某件具体的事还得跟其他用户抢，不是真正的个性化持续学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 519,
+          "t": [
+            2378.533,
+            2380.754
+          ],
+          "quote": "Get around this is exactly what Cursor does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

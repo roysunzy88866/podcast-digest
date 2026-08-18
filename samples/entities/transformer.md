@@ -34,7 +34,7 @@ unlisted: true
 
 [[强化学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[John Collison]] · [[Rohan Anil]] · [[Clio]] · [[Jerry Tworek]] · [[智能体]] · [[Core Automation]]
 
-<script type="application/json" class="pd-epn">{"强化学习":9,"Anthropic":47,"Barney Hussey-Yeo":1,"Sonja":1,"John Collison":1,"Rohan Anil":1,"Clio":1,"Jerry Tworek":1,"智能体":88,"Core Automation":1}</script>
+<script type="application/json" class="pd-epn">{"强化学习":10,"Anthropic":47,"Barney Hussey-Yeo":1,"Sonja":1,"John Collison":1,"Rohan Anil":1,"Clio":1,"Jerry Tworek":1,"智能体":90,"Core Automation":1}</script>
 
 <script>
 (function(){

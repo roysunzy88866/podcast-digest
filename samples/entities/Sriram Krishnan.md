@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]] [[Dan]]
+[[Max]] [[Nick Warner]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"开源权重":2,"Frontier Labs":3,"蒸馏":5,"智能体":88,"Kimi K3":1,"Hugging Face":5,"Anthropic":47,"OpenAI":37}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"开源权重":2,"Frontier Labs":3,"蒸馏":5,"智能体":90,"Kimi K3":1,"Hugging Face":6,"Anthropic":47,"OpenAI":37}</script>
 
 <script>
 (function(){

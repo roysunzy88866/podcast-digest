@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]]
+[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":10,"Azure":1,"GitHub":14,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":11,"轨迹":1,"智能体":88}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":10,"Azure":1,"GitHub":14,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":11,"轨迹":1,"智能体":90}</script>
 
 <script>
 (function(){

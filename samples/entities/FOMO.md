@@ -25,7 +25,7 @@ unlisted: true
 
 [[智能体]] · [[harness]] · [[认知债务]] · [[认知投降]] · [[验证]] · [[爆炸半径]] · [[认知带宽]] · [[Anthropic]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":88,"harness":11,"认知债务":1,"认知投降":1,"验证":3,"爆炸半径":1,"认知带宽":1,"Anthropic":47,"Claude Code":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":90,"harness":11,"认知债务":1,"认知投降":1,"验证":3,"爆炸半径":1,"认知带宽":1,"Anthropic":47,"Claude Code":23}</script>
 
 <script>
 (function(){

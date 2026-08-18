@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[Snowflake]] · [[Lenny]] · [[Matei Zaharia]] · [[Elena Berger]] · [[Dhanji Prasanna]] · [[Reynold Xin]] · [[Simon Mo]] · [[Block]] · [[MosaicML]]
 
-<script type="application/json" class="pd-epn">{"智能体":88,"Snowflake":4,"Lenny":52,"Matei Zaharia":1,"Elena Berger":2,"Dhanji Prasanna":1,"Reynold Xin":1,"Simon Mo":1,"Block":1,"MosaicML":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":90,"Snowflake":4,"Lenny":52,"Matei Zaharia":1,"Elena Berger":2,"Dhanji Prasanna":1,"Reynold Xin":1,"Simon Mo":1,"Block":1,"MosaicML":1}</script>
 
 <script>
 (function(){

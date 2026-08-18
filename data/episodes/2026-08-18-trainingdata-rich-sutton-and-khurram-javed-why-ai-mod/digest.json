@@ -1,0 +1,183 @@
+{
+  "title_zh": "Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习",
+  "tldr": "强化学习之父认为当前LLM范式只覆盖了智能的一小部分，真正出路是让系统从自身经验中持续学习。",
+  "digest_md": "大语言模型宣称能造出博士水平的专家——但这个东西运行时权重完全不更新，根本不再学习。Rich Sutton 说，这不叫智能，这叫奇怪 [20:30 Unknown]。\n\n## 「苦涩的教训」到底在说什么\n\n很多人把《苦涩的教训》简化成「算力万能论」，但 Rich 最近用 26 个词重新概括：不要被人类知识分心，专注于随计算扩展的方法——比如搜索和学习 [09:03 Unknown]。它不是说不要花哨算法，而是要那些能随算力一起扩展的花哨算法 [09:33 Unknown]。\n\nLLM 是苦涩教训的正面例子，也是反面例子。正面在于它靠扩展算力吸收了整个互联网；反面在于互联网是有限的，而世界比互联网大得多 [10:39 Unknown]。一旦互联网数据用完，这条路就撞墙了。\n\n## 合成数据不是出路，大世界才是\n\n现在基础模型实验室都在做合成数据，想绕过互联网数据枯竭的问题。Rich 直接说：那是大错误 [11:25 Unknown]。他在阿尔伯塔团队提出了「大世界假说」：世界极其巨大，有无限多东西要学，任何合成数据集都是「小世界」[11:47 Unknown]。\n\n更关键的问题是：谁来决定什么是好的合成数据？答案是人类专家 [12:31 Unknown]。就算你写了程序生成合成数据，那个程序也是人写的，生成的是人设想的世界——智能体自己并没有在生成经验 [13:05 Unknown]。想要一个用回声定位飞行的无人机？你得先请领域专家搞清楚正确数据是什么 [13:24 Unknown]。所以合成数据这条路，本质上还是被人类专业知识卡住。\n\n自动驾驶在仿真里训练算不算反例？Rich 反问：建那个仿真花了多少工程师？而且他们还得反复修仿真，因为从仿真到现实总有差距 [16:50 Unknown]。如果让智能体自己建模型、自己从经验里学，模型错了它能自己修，不需要等人类发现 [17:43 Unknown]。\n\n## 核心论点：系统必须从自身经验中持续学习\n\n当前 LLM 的根本问题不是预训练或后训练做得不够多，而是部署之后权重就冻住了 [23:35 Unknown]。你可以给它更多上下文改变状态，但模型本身没有在学习 [24:01 Unknown]。\n\nCursors、Tab 这些工具的权重确实在更新，但做法是收集大量用户数据做批量更新——如果你想教模型某件具体的事，你还得跟其他十万个用户抢 [24:21 Unknown]。这不是真正的个性化持续学习。\n\nRich 举了一个很有说服力的例子：人失去本体感觉（告诉你身体姿态的内部感知）后完全无法走路，因为这层知识深植在大脑里；但两三年后，人能学会用视觉反馈重新走路 [25:28 Unknown]。大脑的可塑性极强——旧知识不再成立时，它能更新掉。这就是我们想要系统拥有的能力 [26:04 Unknown]。\n\n## 我们缺的不是算力，是两个关键能力\n\nRich 认为当前领域缺两个核心能力，而 Oak Lab 就是为攻克它们而建：\n\n**第一，持续深度学习。** 你不能拿一个样本就去更新整个模型，那样会摧毁之前的知识——这就是灾难性遗忘 [39:24 Unknown]。Rich 团队在 Nature 上发表了「持续反向传播」算法，核心做法是两步：一是每个权重有独立的步长（通过元学习获得），大部分权重的步长极小所以不会被新数据冲掉 [40:16 Unknown]；二是不断注入随机初始化的新单元，让反向传播来测试它们是否管用，而不是只靠梯度慢慢调 [41:46 Unknown]。但这个算法不能直接套到现有模型上，因为它要元学习「怎么学」，必须从头训练 [42:34 Unknown]。\n\n**第二，学习模型然后用模型做规划。** AlphaGo 和数学证明能做规划，是因为我们已知游戏规则和算子 [35:57 Unknown]。但真实世界里，智能体必须自己学习世界的模型，然后基于自我发现的抽象来做规划——目前领域里几乎没有这种实例 [36:23 Unknown]。阿尔伯塔计划的 12 步中，后半部分全在解决这个问题：让智能体为自己所处的世界发现正确的抽象 [37:47 Unknown]。\n\n## 为什么大厂做不了这件事\n\nRich 的愿景是：一个单一设计，部署到不同环境中，每个版本从自己的经验中持续学习，形成从小到大的完整知识谱系，并且自洽、自维护 [44:36 Unknown]。更激进的目标是万亿参数、20 瓦功耗——用现有技术不可能，但他算了一笔账：按摩尔定律十年两个数量级，今天能做到 2000 瓦就行，他认为可以 [47:14 Unknown]。\n\n那为什么没人做？因为转向新范式，性能一定先变差再变好 [48:20 Unknown]。大厂被现有产品锁死，不可能走一条「先变糟」的路 [48:45 Unknown]。而且大多数人根本不相信这事儿可能——你不信，就不会去攻克那些技术难题 [47:51 Unknown]。\n\nRich 也不否认 LLM 是重大突破，但他认为那只覆盖了智能的约四分之一——语言的流畅使用 [50:53 Unknown]。把一个子集当成全部，反而阻碍了真正的前进 [50:43 Unknown]。\n\n## 本集带走\n\n- **大世界假说**：世界比互联网大得多，合成数据本质上还是人类专家在瓶颈处——真正出路是让智能体从自身经验中学\n- **LLM 的根本缺陷不是数据不够，是部署后不学习**：权重冻住 = 拒绝从经验中更新，这不是心智该有的样子\n- **持续深度学习的关键不是 batching，是算法**：每个权重独立步长 + 持续注入新单元让反向传播去测试，但必须从头训练，不能套现有模型\n- **学习模型 → 用模型规划**：这是领域里几乎不存在的能力组合，AlphaGo 能规划是因为规则已知，真实世界需要智能体自己发现抽象\n- **大厂做不了是因为路径依赖**：新范式必然先变差再变好，被产品锁死的团队走不了这条路",
+  "quotes": [
+    {
+      "en": "You need fancy algorithms, but you want fancy algorithms that will scale with computation.",
+      "zh": "你需要花哨的算法，但你想要那些将随计算扩展的花哨算法。",
+      "timestamp": "09:33",
+      "speaker": "Rich Sutton"
+    },
+    {
+      "en": "And the world is big and the world is massively bigger than everything we stored on the internet.",
+      "zh": "而世界是很大的，世界比我们存储在互联网上的一切都要巨大得多。",
+      "timestamp": "10:39",
+      "speaker": "Rich Sutton"
+    },
+    {
+      "en": "The world is infinitely complex and any simulation of it is like microscopic.",
+      "zh": "世界是无限复杂的，对它的任何模拟都是微观的。",
+      "timestamp": "15:21",
+      "speaker": "Rich Sutton"
+    },
+    {
+      "en": "I am not the weird one. It's you guys that are the weird one that think that that's possible.",
+      "zh": "我不是那个奇怪的人。你们这些认为那可能的人才是奇怪的人。",
+      "timestamp": "20:30",
+      "speaker": "Rich Sutton"
+    },
+    {
+      "en": "They claim they can make a PhD level experience and expertise out of something that doesn't learn at all anymore.",
+      "zh": "他们声称可以从一个根本不再学习的东西中制造出博士水平的体验和专业知识。",
+      "timestamp": "20:35",
+      "speaker": "Rich Sutton"
+    },
+    {
+      "en": "The only point that the big disagreement is we don't let them learn after that.",
+      "zh": "唯一的巨大分歧点是我们在那之后不让它们学习。",
+      "timestamp": "23:35",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "There are cases where people lose this ability completely and then they can't walk at all because that is literally the foundation of their walking policies. It is ingrained in the brain. But then over the course of two, three years, they can learn to walk again by looking at their feet.",
+      "zh": "有些情况下人们会完全丧失这种能力，然后他们根本无法走路，因为这字面上就是他们行走策略的基础。它是根植于大脑中的。但在两三年的时间里，他们可以通过看着自己的双脚重新学会走路。",
+      "timestamp": "25:35",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So if we want to move towards these new kind of algorithms, it is almost impossible that things will not get worse before they get better.",
+      "zh": "所以如果我们想要转向这些新型算法，事情在变好之前几乎不可能不先变糟。",
+      "timestamp": "48:20",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Instead, it has to pretend to be all of AI.",
+      "zh": "相反，它必须假装是所有的人工智能。",
+      "timestamp": "50:43",
+      "speaker": "Rich Sutton"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:24",
+      "speaker": "Unknown",
+      "en": "uh you talk about you wouldn't have to say continual learning because it wouldn't make any sense to talk about learning that wasn't continual all learning is continual we always act and we learn that's just the normal way of thinking i'm not weird the field is weird the field they need to call it continual learning it's just learning",
+      "zh": "uh 你谈论你不必说持续学习 因为谈论非持续的学习没有意义 所有学习都是持续的 我们总是行动 我们学习 这只是正常的思维方式 我不怪 这个领域很怪 这个领域需要称之为持续学习 这就是学习"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Unknown",
+      "en": "It goes something like, don't be distracted by human knowledge as AI traditionally has been many times.",
+      "zh": "大意是，不要被人类知识分心，就像 AI 传统上多次那样。"
+    },
+    {
+      "timestamp": "09:13",
+      "speaker": "Unknown",
+      "en": "Instead, focus on learning methods that will scale with computation like search and like learning.",
+      "zh": "相反，专注于将随计算扩展的学习方法，比如搜索和学习。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Unknown",
+      "en": "You need fancy algorithms, but you want fancy algorithms that will scale with computation.",
+      "zh": "你需要花哨的算法，但你想要那些将随计算扩展的花哨算法。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Unknown",
+      "en": "And the world is big and the world is massively bigger than everything we stored on the internet.",
+      "zh": "而世界是很大的，世界比我们存储在互联网上的一切都要巨大得多。"
+    },
+    {
+      "timestamp": "11:25",
+      "speaker": "Unknown",
+      "en": "That's just a big mistake.",
+      "zh": "那只是个大错误。"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Unknown",
+      "en": "That the world is incredibly big. There are infinitely many things to learn.",
+      "zh": "世界是极其巨大的。有无限多的事物要学习。"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Unknown",
+      "en": "Some human has to decide what is the right synthetic data to generate, and that requires human expertise.",
+      "zh": "某个人类必须决定要生成什么是正确的合成数据，而这需要人类的专业知识。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Unknown",
+      "en": "The world is infinitely complex and any simulation of it is like microscopic.",
+      "zh": "世界是无限复杂的，对它的任何模拟都是微观的。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Unknown",
+      "en": "I think the important question to ask here is how many engineers were involved in building that simulation?",
+      "zh": "所以我认为这里要问的重要问题是，有多少工程师参与了构建那个模拟？"
+    },
+    {
+      "timestamp": "20:30",
+      "speaker": "Unknown",
+      "en": "I am not the weird one. It's you guys that are the weird one that think that that's possible.",
+      "zh": "我不是那个奇怪的人。你们这些认为那可能的人才是奇怪的人。"
+    },
+    {
+      "timestamp": "20:35",
+      "speaker": "Unknown",
+      "en": "They claim they can make a PhD level experience and expertise out of something that doesn't learn at all anymore.",
+      "zh": "他们声称可以从一个根本不再学习的东西中制造出博士水平的体验和专业知识。"
+    },
+    {
+      "timestamp": "23:35",
+      "speaker": "Unknown",
+      "en": "The only point that the big disagreement is we don't let them learn after that.",
+      "zh": "唯一的巨大分歧点是我们在那之后不让它们学习。"
+    },
+    {
+      "timestamp": "25:28",
+      "speaker": "Unknown",
+      "en": "There are cases where people lose this ability completely and then they can't walk at all because that is literally the foundation of their walking policies. It is ingrained in the brain. But then over the course of two, three years, they can learn to walk again by looking at their feet.",
+      "zh": "有些情况下人们会完全丧失这种能力，然后他们根本无法走路，因为这字面上就是他们行走策略的基础。它是根植于大脑中的。但在两三年的时间里，他们可以通过看着自己的双脚重新学会走路。"
+    },
+    {
+      "timestamp": "39:24",
+      "speaker": "Unknown",
+      "en": "For example, if you say, I'm going to take one sample and then I'm going to update my whole model with that one sample, you will run into this problem that now all of the previous knowledge in the model, it's impacted negatively.",
+      "zh": "例如，如果你说，我要取一个样本，然后我要用那一个样本更新我整个模型，你会遇到这个问题，即现在模型中所有先前的知识都受到了负面影响。"
+    },
+    {
+      "timestamp": "40:16",
+      "speaker": "Unknown",
+      "en": "And it means every weight in your network has to have a separate step size. So some will move fast, some will move slow. And you will have to meta-learn these step sizes for each weight.",
+      "zh": "这意味着你网络中的每个权重必须有一个单独的步长。所以有些会移动得快，有些会移动得慢。你必须为每个权重元学习这些步长。"
+    },
+    {
+      "timestamp": "44:36",
+      "speaker": "Unknown",
+      "en": "And to treat it in a uniform way and to be able to have it self-maintaining.",
+      "zh": "并以统一的方式处理它，并使其能够自我维护。"
+    },
+    {
+      "timestamp": "48:20",
+      "speaker": "Unknown",
+      "en": "So if we want to move towards these new kind of algorithms, it is almost impossible that things will not get worse before they get better.",
+      "zh": "所以如果我们想要转向这些新型算法，事情在变好之前几乎不可能不先变糟。"
+    },
+    {
+      "timestamp": "50:43",
+      "speaker": "Unknown",
+      "en": "Instead, it has to pretend to be all of AI.",
+      "zh": "相反，它必须假装是所有的人工智能。"
+    },
+    {
+      "timestamp": "50:53",
+      "speaker": "Unknown",
+      "en": "You know, it's like 20% or a quarter of intelligence. There's more. We're not done.",
+      "zh": "你知道，这大概是 20% 或四分之一的智能。还有更多。我们还没做完。"
+    }
+  ]
+}

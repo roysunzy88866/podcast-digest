@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire]] · [[Intercom]] · [[ChatPRD]] · [[Vercel]] · [[Codex]] · [[智能体]] · [[风险评分]] · [[沙箱]] · [[Slack]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"Claire":1,"Intercom":3,"ChatPRD":2,"Vercel":5,"Codex":16,"智能体":88,"风险评分":1,"沙箱":18,"Slack":18,"GitHub":14}</script>
+<script type="application/json" class="pd-epn">{"Claire":1,"Intercom":3,"ChatPRD":2,"Vercel":5,"Codex":16,"智能体":90,"风险评分":1,"沙箱":18,"Slack":18,"GitHub":14}</script>
 
 <script>
 (function(){

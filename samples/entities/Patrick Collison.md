@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]]
+[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":12,"Replit":6,"Magic School":1,"OpenAI":37,"智能体":88,"垂直 SaaS":1,"护城河":4,"开源模型":6,"LLM":10}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":12,"Replit":6,"Magic School":1,"OpenAI":37,"智能体":90,"垂直 SaaS":1,"护城河":4,"开源模型":6,"LLM":10}</script>
 
 <script>
 (function(){

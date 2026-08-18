@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Cursor]] · [[OpenAI]] · [[ChatGPT]] · [[Anthropic]] · [[Claude]] · [[Google]] · [[Zynga]] · [[留存]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":88,"Cursor":18,"OpenAI":37,"ChatGPT":19,"Anthropic":47,"Claude":18,"Google":18,"Zynga":2,"留存":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":90,"Cursor":19,"OpenAI":37,"ChatGPT":19,"Anthropic":47,"Claude":18,"Google":18,"Zynga":2,"留存":2}</script>
 
 <script>
 (function(){

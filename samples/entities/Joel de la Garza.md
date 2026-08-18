@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Joel de la Garza</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Joel de la Garza">JO</div><div class="pi"><h1 class="pt">Joel de la Garza</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Joel de la Garza">JO</div><div class="pi"><h1 class="pt">Joel de la Garza</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*4 条*
+*6 条*
 
 ![[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t#^q9]]
 
@@ -21,20 +21,25 @@ unlisted: true
 
 ![[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog#^q7]]
 
+![[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha#^q2]]
+
+![[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha#^q5]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为联合主持
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为主持
+- [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|《当签名已死：AI智能体如何击穿传统网络安全》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[软件供应链]] · [[泄露的凭证]] · [[智能体]] · [[Dylan]] · [[Emilio Escobar]] · [[Firas]] · [[Datadog]] · [[Truffle Security]] · [[Cursor]] · [[Socket]]
+[[智能体]] · [[Hugging Face]] · [[软件供应链]] · [[泄露的凭证]] · [[Dylan]] · [[Emilio Escobar]] · [[Max]] · [[Firas]] · [[Datadog]] · [[Nick Warner]]
 
-<script type="application/json" class="pd-epn">{"软件供应链":2,"泄露的凭证":3,"智能体":88,"Dylan":1,"Emilio Escobar":1,"Firas":1,"Datadog":3,"Truffle Security":1,"Cursor":18,"Socket":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":90,"Hugging Face":6,"软件供应链":2,"泄露的凭证":3,"Dylan":1,"Emilio Escobar":1,"Max":1,"Firas":1,"Datadog":3,"Nick Warner":1}</script>
 
 <script>
 (function(){

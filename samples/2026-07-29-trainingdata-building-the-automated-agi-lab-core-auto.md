@@ -159,9 +159,9 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 **换个口味**
 
+- [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、持续学习 (continual learning)、预训练 (pre-training)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI · 同概念:AGI</span>
 
 </div>
 </div>

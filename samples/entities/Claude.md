@@ -82,7 +82,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[OpenAI]] · [[ChatGPT]] · [[vibe coding]] · [[Codex]] · [[后训练]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":88,"Anthropic":47,"Lenny":52,"Claude Code":23,"OpenAI":37,"ChatGPT":19,"vibe coding":10,"Codex":16,"后训练":8,"Cursor":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":90,"Anthropic":47,"Lenny":52,"Claude Code":23,"OpenAI":37,"ChatGPT":19,"vibe coding":10,"Codex":16,"后训练":9,"Cursor":19}</script>
 
 <script>
 (function(){

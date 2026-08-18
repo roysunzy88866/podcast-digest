@@ -1,0 +1,1994 @@
+[
+ {
+  "seg": 0,
+  "start": 0.766,
+  "end": 9.183,
+  "speaker": "Unknown",
+  "en": "One of the interesting things in the OpenAI Hugging Face breach has been the difficulty that Hugging Face actually had responding to the incident.",
+  "zh": "OpenAI Hugging Face 事件中一个有趣的现象是，Hugging Face 实际上在应对事件时遇到了困难。"
+ },
+ {
+  "seg": 1,
+  "start": 9.668,
+  "end": 16.454,
+  "speaker": "Unknown",
+  "en": "Model providers have great reason to establish guardrails, safeguards, because these are super capable systems.",
+  "zh": "模型供应商有充分的理由建立护栏、保障措施，因为这些是非常强大的系统。"
+ },
+ {
+  "seg": 2,
+  "start": 16.474,
+  "end": 22.059,
+  "speaker": "Unknown",
+  "en": "The unfortunate side effect of that is, as a defender, I may not be able to respond effectively.",
+  "zh": "这种做法不幸的副作用是，作为防御者，我可能无法有效响应。"
+ },
+ {
+  "seg": 3,
+  "start": 22.279,
+  "end": 29.145,
+  "speaker": "Unknown",
+  "en": "The challenge with the existing security tools that are out there is they really were built to tackle two things, the first being people and the second is malware.",
+  "zh": "现有安全工具的挑战在于，它们实际上是为了解决两件事而构建的，第一是人，第二是恶意软件。"
+ },
+ {
+  "seg": 4,
+  "start": 29.245,
+  "end": 32.228,
+  "speaker": "Unknown",
+  "en": "And AI and AI incident agentic processes are neither one of those.",
+  "zh": "而 AI 和 AI 事件的智能体过程这两者都不是。"
+ },
+ {
+  "seg": 5,
+  "start": 32.748,
+  "end": 36.29,
+  "speaker": "Unknown",
+  "en": "Even some of the more modern techniques like deception that work really well.",
+  "zh": "即使是一些更现代的技术，比如非常有效的欺骗技术。"
+ },
+ {
+  "seg": 6,
+  "start": 36.39,
+  "end": 37.451,
+  "speaker": "Unknown",
+  "en": "And it's sort of ironic.",
+  "zh": "这有点讽刺。"
+ },
+ {
+  "seg": 7,
+  "start": 37.471,
+  "end": 40.212,
+  "speaker": "Unknown",
+  "en": "We're defending AI and we're also defending from AI.",
+  "zh": "我们在捍卫 AI，同时也在防御 AI。"
+ },
+ {
+  "seg": 8,
+  "start": 40.252,
+  "end": 43.253,
+  "speaker": "Unknown",
+  "en": "50% of enterprise apps will be agentic by the end of this year.",
+  "zh": "到今年年底，50% 的企业应用程序将具有智能体特征。"
+ },
+ {
+  "seg": 9,
+  "start": 43.434,
+  "end": 48.496,
+  "speaker": "Unknown",
+  "en": "And the average enterprise is something like six or seven thousand unique pieces of software within their environment.",
+  "zh": "平均企业的环境中有大约六七千个独特的软件片段。"
+ },
+ {
+  "seg": 10,
+  "start": 48.596,
+  "end": 51.277,
+  "speaker": "Unknown",
+  "en": "The problem's going to get more complex and more challenging.",
+  "zh": "问题将变得更加复杂和更具挑战性。"
+ },
+ {
+  "seg": 11,
+  "start": 51.457,
+  "end": 55.119,
+  "speaker": "Unknown",
+  "en": "We seem to be speedrunning every technology cycle that's ever happened before this one.",
+  "zh": "我们似乎正在速通之前发生过的每一个技术周期。"
+ },
+ {
+  "seg": 12,
+  "start": 55.339,
+  "end": 58.361,
+  "speaker": "Unknown",
+  "en": "What is the path forward for a lot of this infrastructure?",
+  "zh": "对于很多这种基础设施，前进的道路是什么？"
+ },
+ {
+  "seg": 13,
+  "start": 59.717,
+  "end": 64.918,
+  "speaker": "Unknown",
+  "en": "Cybersecurity was built to defend against two things, people and malware.",
+  "zh": "网络安全是为了防御两件事而构建的，人和恶意软件。"
+ },
+ {
+  "seg": 14,
+  "start": 65.859,
+  "end": 67.359,
+  "speaker": "Unknown",
+  "en": "AI agents are neither.",
+  "zh": "AI 智能体两者都不是。"
+ },
+ {
+  "seg": 15,
+  "start": 68.239,
+  "end": 83.683,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z's Joel de la Garza sits down with Nick Warner of NEO and Max Pollard of Cotool to unpack what that means for security teams as increasingly capable models move from the cloud onto endpoints and into enterprise software.",
+  "zh": "在这一集中，A16Z 的 Joel de la Garza 与 NEO 的 Nick Warner 和 Cotool 的 Max Pollard 坐在一起，探讨随着能力越来越强的模型从云端迁移到端点并进入企业软件，这对安全团队意味着什么。"
+ },
+ {
+  "seg": 16,
+  "start": 84.595,
+  "end": 99.083,
+  "speaker": "Unknown",
+  "en": "They discuss why AI guardrails can actually make life harder for defenders, why traditional signatures and behavioral detection are starting to break down, and what happens when software no longer behaves predictably enough for security teams to define what normal looks like.",
+  "zh": "他们讨论了为什么 AI 护栏实际上会让防御者的生活更艰难，为什么传统的特征码和行为检测开始失效，以及当软件的行为不再可预测以至于安全团队无法定义什么是“正常”时会发生什么。"
+ },
+ {
+  "seg": 17,
+  "start": 99.984,
+  "end": 102.926,
+  "speaker": "Unknown",
+  "en": "And from Black Hat, they look at the other side of the equation.",
+  "zh": "在 Black Hat 大会上，他们审视了等式的另一面。"
+ },
+ {
+  "seg": 18,
+  "start": 103.546,
+  "end": 110.17,
+  "speaker": "Unknown",
+  "en": "The same AI that's creating an entirely new attack surface is also giving defenders tools they could never have built before.",
+  "zh": "创造了一个全新攻击面的同一种 AI，也给了防御者们他们以前从未能够构建的工具。"
+ },
+ {
+  "seg": 19,
+  "start": 112.977,
+  "end": 113.277,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 20,
+  "start": 113.297,
+  "end": 114.739,
+  "speaker": "Unknown",
+  "en": "Well, thank you so much, guys, for joining us.",
+  "zh": "好的，非常感谢你们加入我们。"
+ },
+ {
+  "seg": 21,
+  "start": 114.779,
+  "end": 117.221,
+  "speaker": "Unknown",
+  "en": "I think maybe let's set the stage for the discussion.",
+  "zh": "我想也许我们可以为讨论设定一个背景。"
+ },
+ {
+  "seg": 22,
+  "start": 117.261,
+  "end": 119.043,
+  "speaker": "Unknown",
+  "en": "It's been a very active couple of weeks.",
+  "zh": "这是非常活跃的几周。"
+ },
+ {
+  "seg": 23,
+  "start": 119.744,
+  "end": 124.048,
+  "speaker": "Unknown",
+  "en": "We've obviously had the crazy pace of AI development.",
+  "zh": "我们显然经历了 AI 发展的疯狂步伐。"
+ },
+ {
+  "seg": 24,
+  "start": 124.568,
+  "end": 126.69,
+  "speaker": "Unknown",
+  "en": "Every week there seems to be a new model release.",
+  "zh": "每周似乎都有一个新模型发布。"
+ },
+ {
+  "seg": 25,
+  "start": 126.711,
+  "end": 127.952,
+  "speaker": "Unknown",
+  "en": "There seems to be new capability.",
+  "zh": "似乎有新的能力。"
+ },
+ {
+  "seg": 26,
+  "start": 127.992,
+  "end": 131.976,
+  "speaker": "Unknown",
+  "en": "There's some new fields, Metal getting one, or some new vulnerability getting discovered.",
+  "zh": "有一些新领域，Metal 拿到一个，或者一些新漏洞被发现。"
+ },
+ {
+  "seg": 27,
+  "start": 133.497,
+  "end": 143.979,
+  "speaker": "Unknown",
+  "en": "In the news recently has been the report that models from Frontier Labs have found a way to escape containment and hack things on the internet, which has been a pretty interesting revelation.",
+  "zh": "最近新闻报道中提到，来自 Frontier Labs 的模型已经找到了逃离隔离并在互联网上攻击东西的方法，这是一个相当有趣的发现。"
+ },
+ {
+  "seg": 28,
+  "start": 143.999,
+  "end": 145.84,
+  "speaker": "Unknown",
+  "en": "That's a very sophisticated capability.",
+  "zh": "这是一个非常复杂的能力。"
+ },
+ {
+  "seg": 29,
+  "start": 146.34,
+  "end": 148.04,
+  "speaker": "Unknown",
+  "en": "I guess there's probably two things happening, right?",
+  "zh": "我想可能正在发生两件事，对吧？"
+ },
+ {
+  "seg": 30,
+  "start": 148.06,
+  "end": 150.701,
+  "speaker": "Unknown",
+  "en": "There's a discussion about, well, how secure is the internet actually?",
+  "zh": "有一个关于讨论，互联网实际上有多安全？"
+ },
+ {
+  "seg": 31,
+  "start": 151.141,
+  "end": 154.621,
+  "speaker": "Unknown",
+  "en": "Also combined with, man, these models are surely progressing and doing some great stuff.",
+  "zh": "结合着，好吧，这些模型肯定在进步并且做得很棒。"
+ },
+ {
+  "seg": 32,
+  "start": 154.641,
+  "end": 156.722,
+  "speaker": "Unknown",
+  "en": "So we've got the two of you here to discuss this.",
+  "zh": "所以我们请你们两位来讨论这个问题。"
+ },
+ {
+  "seg": 33,
+  "start": 156.742,
+  "end": 158.802,
+  "speaker": "Unknown",
+  "en": "And I think maybe Max, we'll start with you.",
+  "zh": "我想也许 Max，我们先从你开始。"
+ },
+ {
+  "seg": 34,
+  "start": 159.402,
+  "end": 161.303,
+  "speaker": "Unknown",
+  "en": "One of the interesting things in the OpenAI",
+  "zh": "OpenAI"
+ },
+ {
+  "seg": 35,
+  "start": 162.263,
+  "end": 169.51,
+  "speaker": "Unknown",
+  "en": "Hugging Face story breach event has been the difficulty that Hugging Face actually had responding to the incident.",
+  "zh": "Hugging Face 故事违规事件中有趣的事情之一是 Hugging Face 实际上在应对事件时遇到了困难。"
+ },
+ {
+  "seg": 36,
+  "start": 169.97,
+  "end": 173.594,
+  "speaker": "Unknown",
+  "en": "And so maybe you could tell us a little bit about sort of like what was happening there.",
+  "zh": "所以也许你可以稍微告诉我们一点那里发生了什么。"
+ },
+ {
+  "seg": 37,
+  "start": 173.734,
+  "end": 175.375,
+  "speaker": "Unknown",
+  "en": "Why won't these models help the good guys?",
+  "zh": "为什么这些模型不帮好人？"
+ },
+ {
+  "seg": 38,
+  "start": 175.515,
+  "end": 176.897,
+  "speaker": "Unknown",
+  "en": "What's going on and what's the deal?",
+  "zh": "怎么回事，有什么内幕？"
+ },
+ {
+  "seg": 39,
+  "start": 177.548,
+  "end": 191.273,
+  "speaker": "Unknown",
+  "en": "Yeah, so I mean, super topical, like the model providers have great reason to establish guardrails, safeguards, because these are super capable systems and we don't want attackers using them for nefarious purposes.",
+  "zh": "是的，我的意思是，非常切题，就像模型供应商有充分的理由建立护栏、保障措施，因为这些是非常强大的系统，我们不希望攻击者将它们用于恶意目的。"
+ },
+ {
+  "seg": 40,
+  "start": 191.313,
+  "end": 195.114,
+  "speaker": "Unknown",
+  "en": "And so they have a responsibility to make sure those guardrails are in place.",
+  "zh": "所以他们有责任确保这些护栏到位。"
+ },
+ {
+  "seg": 41,
+  "start": 195.674,
+  "end": 203.737,
+  "speaker": "Unknown",
+  "en": "The unfortunate side effect of that is as a defender, let's say you're triaging an incoming bug bounty report or something of that nature.",
+  "zh": "这种做法不幸的副作用是，作为防御者，假设你正在分类一个 incoming 漏洞赏金报告或类似性质的东西。"
+ },
+ {
+  "seg": 42,
+  "start": 204.457,
+  "end": 211.504,
+  "speaker": "Unknown",
+  "en": "Oftentimes, you're going to be asking very similar questions to a probing attacker, which is, hey, what piece of this software is vulnerable?",
+  "zh": "通常，你会问非常类似于探测攻击者的问题，比如，嘿，这个软件的哪一部分是脆弱的？"
+ },
+ {
+  "seg": 43,
+  "start": 211.564,
+  "end": 212.505,
+  "speaker": "Unknown",
+  "en": "How would I exploit it?",
+  "zh": "我该如何利用它？"
+ },
+ {
+  "seg": 44,
+  "start": 212.565,
+  "end": 213.846,
+  "speaker": "Unknown",
+  "en": "Can you validate this, right?",
+  "zh": "你能验证这个吗，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 214.387,
+  "end": 222.334,
+  "speaker": "Unknown",
+  "en": "And so part of the side effect of these model providers doing their job is, as a defender, I may not be able to respond effectively.",
+  "zh": "所以模型供应商做他们的工作的部分副作用是，作为防御者，我可能无法有效响应。"
+ },
+ {
+  "seg": 46,
+  "start": 222.655,
+  "end": 224.657,
+  "speaker": "Unknown",
+  "en": "Now, for Hugging Face specifically,",
+  "zh": "现在，具体对于 Hugging Face 来说，"
+ },
+ {
+  "seg": 47,
+  "start": 225.257,
+  "end": 229.699,
+  "speaker": "Unknown",
+  "en": "They had the luxury of having open-weight and open-source kind of in their DNA.",
+  "zh": "他们拥有开源权重和开源作为其基因一部分的奢侈。"
+ },
+ {
+  "seg": 48,
+  "start": 230.179,
+  "end": 243.244,
+  "speaker": "Unknown",
+  "en": "And so they were able to, when they saw these cyber refusals or these guardrails being triggered, fall back to GLM 5.2 in their case, but could have been KMEK3 or a QEN model, something that isn't going to have those guardrails in place.",
+  "zh": "所以他们能够，当他们看到这些网络拒绝或护栏被触发时，回退到 GLM 5.2，在他们的案例中，但也可以是 KMEK3 或 QEN 模型，那种不会有这些护栏的东西。"
+ },
+ {
+  "seg": 49,
+  "start": 244.044,
+  "end": 248.126,
+  "speaker": "Unknown",
+  "en": "And so for defensive teams, flexibility is kind of becoming paramount, right?",
+  "zh": "所以对于防御团队来说，灵活性正变得至关重要，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 248.146,
+  "end": 250.867,
+  "speaker": "Unknown",
+  "en": "You need the ability to kind of fall back in the case of refusals.",
+  "zh": "你需要有某种在出现拒绝情况时的回退能力。"
+ },
+ {
+  "seg": 51,
+  "start": 251.087,
+  "end": 251.928,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 52,
+  "start": 251.948,
+  "end": 256.09,
+  "speaker": "Unknown",
+  "en": "And I guess the question would be, what is it specifically refusing?",
+  "zh": "我想问题会是，它具体在拒绝什么？"
+ },
+ {
+  "seg": 53,
+  "start": 256.11,
+  "end": 261.473,
+  "speaker": "Unknown",
+  "en": "Like, I guess the thing maybe for folks that are listening is, like, I get that it stops you from saying, hey, go hack this website.",
+  "zh": "我想，也许对于听众来说，是这样，我理解它能阻止你说，嘿，去黑掉这个网站。"
+ },
+ {
+  "seg": 54,
+  "start": 261.853,
+  "end": 262.074,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 55,
+  "start": 262.194,
+  "end": 265.175,
+  "speaker": "Unknown",
+  "en": "I mean, go to Citibank.com and change my account numbers, right?",
+  "zh": "我是说，去 Citibank.com 并修改我的账号，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 265.195,
+  "end": 266.736,
+  "speaker": "Unknown",
+  "en": "And like, the refusal makes sense there.",
+  "zh": "这种情况下拒绝是有道理的。"
+ },
+ {
+  "seg": 57,
+  "start": 267.157,
+  "end": 270.158,
+  "speaker": "Unknown",
+  "en": "But what are blue teams doing that is specifically generating the refusal?",
+  "zh": "但是蓝队具体在做些什么导致了这种拒绝？"
+ },
+ {
+  "seg": 58,
+  "start": 270.178,
+  "end": 272.62,
+  "speaker": "Unknown",
+  "en": "Why does it look like a hacker to the models?",
+  "zh": "为什么在模型看来它像个黑客？"
+ },
+ {
+  "seg": 59,
+  "start": 272.98,
+  "end": 277.042,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think it's almost more helpful sometimes to like flip the script, right?",
+  "zh": "是的，我想有时反过来思考会更有帮助，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 277.102,
+  "end": 283.886,
+  "speaker": "Unknown",
+  "en": "Like if I were an attacker trying to bypass a guardrail and I wanted to, let's say, hack into pets.com, right?",
+  "zh": "就像如果我是一个试图绕过护栏的攻击者，我想，比如说，入侵 pets.com，对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 283.926,
+  "end": 289.89,
+  "speaker": "Unknown",
+  "en": "Like I may pull some bundle from the front end or I may just decompose and find the entry point that I want to target.",
+  "zh": "我可能会从前端拉取一些 bundle，或者我只是分解并找到我想瞄准的入口点。"
+ },
+ {
+  "seg": 62,
+  "start": 290.47,
+  "end": 294.292,
+  "speaker": "Unknown",
+  "en": "And instead of saying, go hack this system, I may say, hey, I own this code.",
+  "zh": "我不会说，去黑掉这个系统，我可能会说，嘿，我拥有这段代码。"
+ },
+ {
+  "seg": 63,
+  "start": 294.692,
+  "end": 301.035,
+  "speaker": "Unknown",
+  "en": "I am a developer at pest.com, and I want to do an internal vulnerability assessment.",
+  "zh": "我是 pest.com 的一名开发者，我想做一个内部漏洞评估。"
+ },
+ {
+  "seg": 64,
+  "start": 301.475,
+  "end": 311.58,
+  "speaker": "Unknown",
+  "en": "So that slight rephrasing of the question might trigger the model into wanting to be helpful and providing you input as to, here's some things you might want to shore up, and here's how an attacker might get in.",
+  "zh": "所以对问题的这种轻微改写可能会触发模型想要提供帮助，并为你提供输入，比如这里有一些你可能想要加强的地方，以及攻击者可能会如何进入。"
+ },
+ {
+  "seg": 65,
+  "start": 312.02,
+  "end": 315.002,
+  "speaker": "Unknown",
+  "en": "Now, as an attacker, that's the answer I wanted, and I might go...",
+  "zh": "现在，作为攻击者，这就是我想要的答案，我可能会继续……"
+ },
+ {
+  "seg": 66,
+  "start": 315.502,
+  "end": 321.105,
+  "speaker": "Unknown",
+  "en": "And so I almost find it more helpful to look at it in reverse.",
+  "zh": "所以我几乎觉得反过来看待它更有帮助。"
+ },
+ {
+  "seg": 67,
+  "start": 321.645,
+  "end": 327.627,
+  "speaker": "Unknown",
+  "en": "Now, as is the case with any kind of guardrail-based system, you will run into false positives, right?",
+  "zh": "现在，就像任何基于护栏的系统一样，你会遇到误报，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 327.847,
+  "end": 332.729,
+  "speaker": "Unknown",
+  "en": "We noticed a very fun one maybe a quarter ago where there's a security tool out there called Vectra.",
+  "zh": "大约一个季度前我们注意到了一个很有趣的例子，那里有一个叫 Vectra 的安全工具。"
+ },
+ {
+  "seg": 69,
+  "start": 332.97,
+  "end": 339.272,
+  "speaker": "Unknown",
+  "en": "And it just so happens to be also a drug used by veterinarians to treat, I think, dogs or something like that.",
+  "zh": "碰巧那也是一种兽医用来治疗我想是狗或者其他什么的药物。"
+ },
+ {
+  "seg": 70,
+  "start": 339.652,
+  "end": 343.334,
+  "speaker": "Unknown",
+  "en": "So we noticed folks using the Vectra tool were hitting a bio filter.",
+  "zh": "所以我们注意到使用 Vectra 工具的人触发了生物过滤器。"
+ },
+ {
+  "seg": 71,
+  "start": 343.834,
+  "end": 347.858,
+  "speaker": "Unknown",
+  "en": "Oh, this could be used to generate bioweapons, and so we're going to refuse this request.",
+  "zh": "哦，这可以用来制造生物武器，所以我们将拒绝这个请求。"
+ },
+ {
+  "seg": 72,
+  "start": 347.898,
+  "end": 353.503,
+  "speaker": "Unknown",
+  "en": "And so it's not always an exact science, but there's just a myriad of reasons why you can run into this stuff.",
+  "zh": "所以这并不总是一门精确的科学，但你有无数的理由会遇到这类情况。"
+ },
+ {
+  "seg": 73,
+  "start": 353.963,
+  "end": 359.508,
+  "speaker": "Unknown",
+  "en": "And so, Nick, Neo is building a way to defend endpoints from these inference-style attacks.",
+  "zh": "那么，Nick，Neo 正在构建一种从这些推理风格的攻击中保护端点的方法。"
+ },
+ {
+  "seg": 74,
+  "start": 359.768,
+  "end": 363.792,
+  "speaker": "Unknown",
+  "en": "Or to deal with, I'd say, I guess they call it AI governance, sort of more broadly, right?",
+  "zh": "或者处理，我想说，我想他们称之为 AI 治理，更广泛地说，对吧？"
+ },
+ {
+  "seg": 75,
+  "start": 363.832,
+  "end": 367.676,
+  "speaker": "Unknown",
+  "en": "But from a brass tacks perspective, all things ultimately come to the end point, right?",
+  "zh": "但从基本要点来看，所有事情最终都会归结到端点，对吧？"
+ },
+ {
+  "seg": 76,
+  "start": 367.736,
+  "end": 370.519,
+  "speaker": "Unknown",
+  "en": "The dust ultimately settles on the floor and that's your infrastructure.",
+  "zh": "尘埃最终会落在地上，那就是你的基础设施。"
+ },
+ {
+  "seg": 77,
+  "start": 370.96,
+  "end": 375.925,
+  "speaker": "Unknown",
+  "en": "How are you guys thinking about defending and playing in this kind of world where the automated attacks need an automated response?",
+  "zh": "你们如何思考在这样一个需要自动化响应来自动化攻击的世界中进行防御和博弈？"
+ },
+ {
+  "seg": 78,
+  "start": 376.485,
+  "end": 382.708,
+  "speaker": "Unknown",
+  "en": "Yeah, I think part of the challenge with the existing security tools that are out there is they really were built to tackle two things.",
+  "zh": "是的，我认为现有的安全工具的挑战之一在于它们实际上是用来构建解决两件事的。"
+ },
+ {
+  "seg": 79,
+  "start": 382.728,
+  "end": 384.549,
+  "speaker": "Unknown",
+  "en": "The first being people and the second is malware.",
+  "zh": "第一是人，第二是恶意软件。"
+ },
+ {
+  "seg": 80,
+  "start": 385.149,
+  "end": 388.371,
+  "speaker": "Unknown",
+  "en": "AI and AI agents and agentic processes are neither one of those things.",
+  "zh": "AI 和 AI 智能体以及智能体流程都不是这两者中的任何一个。"
+ },
+ {
+  "seg": 81,
+  "start": 388.591,
+  "end": 394.314,
+  "speaker": "Unknown",
+  "en": "And so what we wanted to do is get ourselves right at the layer between the human and AI interaction.",
+  "zh": "所以我们要做的是让自己直接处于人类和 AI 交互的层之间。"
+ },
+ {
+  "seg": 82,
+  "start": 394.554,
+  "end": 400.817,
+  "speaker": "Unknown",
+  "en": "So a big part of what we're building is a way to properly set guardrails and controls around the software before it runs.",
+  "zh": "所以我们正在构建的很大一部分是一种在软件运行之前正确设置护栏和控制的方法。"
+ },
+ {
+  "seg": 83,
+  "start": 401.237,
+  "end": 403.919,
+  "speaker": "Unknown",
+  "en": "And we thought the best way to do that would be at the endpoint.",
+  "zh": "我们认为最好的方法是在端点上做到这一点。"
+ },
+ {
+  "seg": 84,
+  "start": 404.099,
+  "end": 404.279,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 85,
+  "start": 404.959,
+  "end": 405.94,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes a lot of sense.",
+  "zh": "是的，这很有道理。"
+ },
+ {
+  "seg": 86,
+  "start": 406.22,
+  "end": 407.101,
+  "speaker": "Unknown",
+  "en": "And it's interesting, right?",
+  "zh": "而且很有趣，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 407.141,
+  "end": 415.987,
+  "speaker": "Unknown",
+  "en": "Because the attacks now, if you look at sort of the way the models are behaving, it's a very different style of attack than what I would say the traditional hacker does, right?",
+  "zh": "因为现在的攻击，如果你看模型的行为方式，这是一种与我所说的传统黑客所做的截然不同的攻击风格，对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 416.007,
+  "end": 417.648,
+  "speaker": "Unknown",
+  "en": "Like it is, to your point, not malware.",
+  "zh": "就像，正如你所说，它不是恶意软件。"
+ },
+ {
+  "seg": 89,
+  "start": 418.249,
+  "end": 419.83,
+  "speaker": "Unknown",
+  "en": "And there is the element of social engineering.",
+  "zh": "而且存在社会工程的元素。"
+ },
+ {
+  "seg": 90,
+  "start": 419.85,
+  "end": 425.274,
+  "speaker": "Unknown",
+  "en": "But there's also sort of the I'm going to use a payload that gets the model to do something malicious, right?",
+  "zh": "但也有那种我会使用一个让模型做恶意事情的 payload 的情况，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 425.334,
+  "end": 428.056,
+  "speaker": "Unknown",
+  "en": "And that's sort of like the category of attacks that are completely new.",
+  "zh": "这属于那类全新的攻击。"
+ },
+ {
+  "seg": 92,
+  "start": 428.836,
+  "end": 436.819,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, and I think what a lot of these things that we've read about recently embody is the end justifies the means in the mind of the model.",
+  "zh": "是的，你知道，我认为我们最近读到的很多事情体现的就是，在模型的思维中，目的证明手段是正当的。"
+ },
+ {
+  "seg": 93,
+  "start": 436.899,
+  "end": 445.302,
+  "speaker": "Unknown",
+  "en": "And I think what people have learned is that regardless of guardrails that the AI labs are putting around these things, you can't rely on models to stop themselves or to understand context.",
+  "zh": "我认为人们已经了解到，无论 AI 实验室在这些东西周围设置了什么护栏，你都不能依赖模型来阻止自己或理解上下文。"
+ },
+ {
+  "seg": 94,
+  "start": 445.982,
+  "end": 451.064,
+  "speaker": "Unknown",
+  "en": "And I think the most recent couple attacks we've seen in the last few weeks really have shown that.",
+  "zh": "我认为我们在过去几周看到的最近几次攻击确实证明了这一点。"
+ },
+ {
+  "seg": 95,
+  "start": 452.25,
+  "end": 452.95,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 96,
+  "start": 453.91,
+  "end": 460.212,
+  "speaker": "Unknown",
+  "en": "It's interesting on the blue team perspective because I think, and you guys have noticed this, right?",
+  "zh": "从蓝队的角度来看这很有趣，因为我认为，你们 guys 已经注意到了，对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 460.252,
+  "end": 465.413,
+  "speaker": "Unknown",
+  "en": "Like these models are all somewhat trained on varied data sets and there's a lot of post-training that happens that's very different.",
+  "zh": "就像这些模型都是在不同的数据集上训练的，而且发生了很多不同的后训练。"
+ },
+ {
+  "seg": 98,
+  "start": 466.113,
+  "end": 473.675,
+  "speaker": "Unknown",
+  "en": "And when you're responding to some of these things as a blue team member, you essentially get different outputs from different models, right?",
+  "zh": "当你作为蓝队成员响应这些事情时，你基本上会从不同的模型得到不同的输出，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 473.755,
+  "end": 482.057,
+  "speaker": "Unknown",
+  "en": "And so is the value proposition you guys are working on, I get the refusals part of it and rounding around kind of the refusals, but it's also making sure you pick the right tool for the job.",
+  "zh": "所以你们正在研究的价值主张是，我理解了关于拒绝的部分以及围绕拒绝的处理，但也要确保你为工作选择了正确的工具。"
+ },
+ {
+  "seg": 100,
+  "start": 482.337,
+  "end": 494.644,
+  "speaker": "Unknown",
+  "en": "Yeah, the reasons can really vary across teams, like from almost the simplistic tastemaker style, like, hey, I really like the way Opus presents a full page report, right, in the place of an incident.",
+  "zh": "是的，原因真的因团队而异，从几乎是简单的品味制造者风格，到，嘿，我真的很喜欢 Opus 在事件现场呈现整页报告的方式，没错。"
+ },
+ {
+  "seg": 101,
+  "start": 494.945,
+  "end": 498.227,
+  "speaker": "Unknown",
+  "en": "But then there are also more deterministic evaluations you can run on.",
+  "zh": "但随后也有一些你可以运行的更具确定性的评估。"
+ },
+ {
+  "seg": 102,
+  "start": 498.987,
+  "end": 503.29,
+  "speaker": "Unknown",
+  "en": "How well does a certain model execute a step-by-step remediation plan, right?",
+  "zh": "某个模型执行逐步修复计划的效果如何，对吧？"
+ },
+ {
+  "seg": 103,
+  "start": 503.31,
+  "end": 506.031,
+  "speaker": "Unknown",
+  "en": "Like how closely does it adhere to the steps that need to be taken?",
+  "zh": "比如它在多大程度上坚持需要采取的步骤？"
+ },
+ {
+  "seg": 104,
+  "start": 506.592,
+  "end": 525.883,
+  "speaker": "Unknown",
+  "en": "So I think the most important part for blue teams is because of the pace of progress to have as much flexibility as possible to be able to say, hey, when Astra gets released by OpenAI, I have an upgrade path and I know exactly what's going to improve and what's going to maybe require some TLC.",
+  "zh": "所以我认为蓝队最重要的部分是因为进步的步伐，要拥有尽可能多的灵活性，能够说，嘿，当 OpenAI 发布 Astra 时，我有一条升级路径，而且我确切地知道什么会改进，什么可能需要一些精心维护。"
+ },
+ {
+  "seg": 105,
+  "start": 526.363,
+  "end": 526.704,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 106,
+  "start": 527.404,
+  "end": 530.869,
+  "speaker": "Unknown",
+  "en": "Today, those teams have probably two or three options, right?",
+  "zh": "如今，这些团队大概有两到三个选择，对吧？"
+ },
+ {
+  "seg": 107,
+  "start": 530.929,
+  "end": 536.996,
+  "speaker": "Unknown",
+  "en": "You can roll with Codex or Claude Code and lock yourself into a specific model provider.",
+  "zh": "你可以使用 Codex 或 Claude Code，并将自己锁定在特定的模型提供商。"
+ },
+ {
+  "seg": 108,
+  "start": 537.537,
+  "end": 538.759,
+  "speaker": "Unknown",
+  "en": "And vendor locking is always good.",
+  "zh": "而且厂商锁定总是好的。"
+ },
+ {
+  "seg": 109,
+  "start": 539.059,
+  "end": 541.382,
+  "speaker": "Unknown",
+  "en": "Yeah, we love it.",
+  "zh": "是的，我们喜欢它。"
+ },
+ {
+  "seg": 110,
+  "start": 541.723,
+  "end": 542.984,
+  "speaker": "Unknown",
+  "en": "You can buy something that",
+  "zh": "你可以买某种"
+ },
+ {
+  "seg": 111,
+  "start": 543.825,
+  "end": 551.33,
+  "speaker": "Unknown",
+  "en": "is kind of incumbent vendor plus AI, which leads you beholden to some level of opaqueness and what models do they support, etc.",
+  "zh": "在位厂商加上 AI 的东西，这导致你在一定程度的晦涩难懂以及它们支持什么模型等方面受制于人。"
+ },
+ {
+  "seg": 112,
+  "start": 551.91,
+  "end": 557.414,
+  "speaker": "Unknown",
+  "en": "Or you decide, hey, we're going to host open weights, we're going to support all major model providers.",
+  "zh": "或者你决定，嘿，我们要托管开放权重，我们要支持所有主要的模型提供商。"
+ },
+ {
+  "seg": 113,
+  "start": 558.035,
+  "end": 562.217,
+  "speaker": "Unknown",
+  "en": "And I think a single H100 costs 250 grand a year.",
+  "zh": "我认为一块 H100 一年要花 25 万美元。"
+ },
+ {
+  "seg": 114,
+  "start": 562.337,
+  "end": 564.739,
+  "speaker": "Unknown",
+  "en": "And so that's just not a viable option for most teams.",
+  "zh": "所以这对大多数团队来说不是一个可行的选择。"
+ },
+ {
+  "seg": 115,
+  "start": 564.759,
+  "end": 570.563,
+  "speaker": "Unknown",
+  "en": "And you kind of want to look towards providers that are always going to be releasing at the cadence that the labs do and give you that flexibility.",
+  "zh": "你有点想要寻找那些总是以实验室的节奏发布并给你那种灵活性的提供商。"
+ },
+ {
+  "seg": 116,
+  "start": 571.232,
+  "end": 577.698,
+  "speaker": "Unknown",
+  "en": "It's interesting, right, because we're going through this phase and you're starting to see this in the GPU markets, which is where prices are going up again.",
+  "zh": "这很有趣，对吧，因为我们正在经历这个阶段，你开始看到 GPU 市场中出现这种情况，也就是价格再次上涨。"
+ },
+ {
+  "seg": 117,
+  "start": 578.178,
+  "end": 579.419,
+  "speaker": "Unknown",
+  "en": "Things are becoming more scarce.",
+  "zh": "东西变得越来越稀缺。"
+ },
+ {
+  "seg": 118,
+  "start": 579.439,
+  "end": 581.401,
+  "speaker": "Unknown",
+  "en": "There's a lot of talks about shortages.",
+  "zh": "有很多关于短缺的讨论。"
+ },
+ {
+  "seg": 119,
+  "start": 581.801,
+  "end": 587.626,
+  "speaker": "Unknown",
+  "en": "And coming from a firm that spends a lot of time in those markets with their porcos buying time, it is more than just hype.",
+  "zh": "对于一家在那些市场上通过 porcos 购买时间花费大量时间的公司来说，这不仅仅是炒作。"
+ },
+ {
+  "seg": 120,
+  "start": 588.247,
+  "end": 592.571,
+  "speaker": "Unknown",
+  "en": "And it just seems like we're entering this phase of the build out where inference will be everywhere.",
+  "zh": "看起来我们正在进入这个构建阶段，届时推理将无处不在。"
+ },
+ {
+  "seg": 121,
+  "start": 593.891,
+  "end": 600.855,
+  "speaker": "Unknown",
+  "en": "Right now, it's clear that there's inference in the data center, there's inference in the NeoClouds, the frontier labs, and eventually it's going to end on the endpoint.",
+  "zh": "目前很明显，数据中心中有推理，NeoClouds 中有推理，前沿实验室中也有推理，最终它将到达端点。"
+ },
+ {
+  "seg": 122,
+  "start": 600.995,
+  "end": 610.04,
+  "speaker": "Unknown",
+  "en": "I guess the question would be, that seems like a very different thing to defend against than, to your point, the traditional Chinese malware that wants to come and steal my keystrokes.",
+  "zh": "我想问题是，这似乎与你需要防御的东西非常不同，正如你所指出的，那种想要进来窃取我击键的传统恶意软件。"
+ },
+ {
+  "seg": 123,
+  "start": 610.26,
+  "end": 628.315,
+  "speaker": "Unknown",
+  "en": "Yeah, and the thing we're really starting to see, which is wild to think about, is companies now for the last year, from a cybersecurity defender perspective, have really been obsessing over how do I lock down software from the AI labs companies, which do great things, but also introduce new risk.",
+  "zh": "是的，我们要真正开始看到的事情——想一想这很疯狂——是公司在过去一年里，从网络安全防御者的角度来看，真的一直在痴迷于如何锁定来自 AI 实验室公司的软件，这些公司做了很棒的事情，但也带来了新的风险。"
+ },
+ {
+  "seg": 124,
+  "start": 628.375,
+  "end": 634.12,
+  "speaker": "Unknown",
+  "en": "But if you think about stats that we're seeing now, that 50% of enterprise apps will be agentic by the end of this year,",
+  "zh": "但如果你考虑我们现在看到的统计数据，即到今年年底 50% 的企业应用程序将具有智能体特性，"
+ },
+ {
+  "seg": 125,
+  "start": 635.14,
+  "end": 640.105,
+  "speaker": "Unknown",
+  "en": "And you can be sure that the half that are not will be rushing to become so in the next year.",
+  "zh": "你可以肯定，另一半不会的将在明年匆忙成为那样。"
+ },
+ {
+  "seg": 126,
+  "start": 640.965,
+  "end": 649.352,
+  "speaker": "Unknown",
+  "en": "And there's even less vetting and understanding around what agentic processes, what backend AI models they're going to be using, what guardrails they install and put in.",
+  "zh": "而且对于智能体流程、它们将使用什么后端 AI 模型、它们安装和设置什么护栏，甚至缺乏审查和理解。"
+ },
+ {
+  "seg": 127,
+  "start": 650.113,
+  "end": 651.654,
+  "speaker": "Unknown",
+  "en": "And so I think that's going to put even more",
+  "zh": "所以我认为这将带来更多"
+ },
+ {
+  "seg": 128,
+  "start": 652.715,
+  "end": 659.377,
+  "speaker": "Unknown",
+  "en": "Really more pressure on defenders to better understand how their employees are deploying using these type of tools.",
+  "zh": "真的更多的压力给防御者，以更好地理解他们的员工是如何部署和使用这些类型工具的。"
+ },
+ {
+  "seg": 129,
+  "start": 659.857,
+  "end": 665.178,
+  "speaker": "Unknown",
+  "en": "And the average enterprise has something like 6,000 or 7,000 unique pieces of software within their environment.",
+  "zh": "平均企业在其环境中大约有 6,000 或 7,000 个独特的软件片段。"
+ },
+ {
+  "seg": 130,
+  "start": 665.898,
+  "end": 670.499,
+  "speaker": "Unknown",
+  "en": "And so you think about thousands of software instances becoming agentic in the next couple of years.",
+  "zh": "所以你想想几千个软件实例在未来几年内变得具有智能体特性。"
+ },
+ {
+  "seg": 131,
+  "start": 671.379,
+  "end": 674.48,
+  "speaker": "Unknown",
+  "en": "The problem's going to get more complex and more challenging.",
+  "zh": "问题将变得更加复杂和更具挑战性。"
+ },
+ {
+  "seg": 132,
+  "start": 675.12,
+  "end": 682.642,
+  "speaker": "Unknown",
+  "en": "And so that's why we think giving visibility and control into the software universe that's unfolding is going to be paramount.",
+  "zh": "所以这就是为什么我们认为对正在展开的软件世界提供可见性和控制将是至关重要的。"
+ },
+ {
+  "seg": 133,
+  "start": 683.183,
+  "end": 683.864,
+  "speaker": "Unknown",
+  "en": "Yeah, it's funny, right?",
+  "zh": "是的，这很有趣，对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 683.884,
+  "end": 689.37,
+  "speaker": "Unknown",
+  "en": "It's because we're like, we seem to be speed running every technology cycle that's ever happened before this one.",
+  "zh": "因为我们就像，我们似乎在极速运行在此之前发生的每一个技术周期。"
+ },
+ {
+  "seg": 135,
+  "start": 689.531,
+  "end": 696.259,
+  "speaker": "Unknown",
+  "en": "And so like, in both the original days, there was always the client and the server, right?",
+  "zh": "就像，在最初的日子里，总是有客户端和服务器，对吧？"
+ },
+ {
+  "seg": 136,
+  "start": 696.359,
+  "end": 699.023,
+  "speaker": "Unknown",
+  "en": "And there's always been this ebb and flow of information.",
+  "zh": "而且总是有这种信息的起伏。"
+ },
+ {
+  "seg": 137,
+  "start": 699.063,
+  "end": 700.544,
+  "speaker": "Unknown",
+  "en": "Everything starts with a centralized",
+  "zh": "一切都始于一个集中的"
+ },
+ {
+  "seg": 138,
+  "start": 701.105,
+  "end": 704.406,
+  "speaker": "Unknown",
+  "en": "We're now seeing all these inference and these tests go into the endpoint.",
+  "zh": "我们现在看到所有这些推理和测试都进入端点。"
+ },
+ {
+  "seg": 139,
+  "start": 704.827,
+  "end": 705.607,
+  "speaker": "Unknown",
+  "en": "It's just fascinating.",
+  "zh": "这真的很迷人。"
+ },
+ {
+  "seg": 140,
+  "start": 727.535,
+  "end": 742.041,
+  "speaker": "Unknown",
+  "en": "And I guess that means, I guess maybe because, Max, you guys look across so many model providers, like, how do you think for blue teams, for the actual people that are defending this stuff, like, what is the path forward for a lot of this inference?",
+  "zh": "我想这意味着，我想也许因为，Max，你们着眼于这么多模型提供商，比如，你认为对于蓝队，对于实际防御这些东西的人来说，对于这么多推理，前进的道路是什么？"
+ },
+ {
+  "seg": 141,
+  "start": 742.061,
+  "end": 748.004,
+  "speaker": "Unknown",
+  "en": "Like, what do you think the, I mean, I wouldn't even say end state, what do you think next week looks like?",
+  "zh": "你认为，我想我甚至不会说最终状态，你认为下周看起来像什么？"
+ },
+ {
+  "seg": 142,
+  "start": 748.024,
+  "end": 751.505,
+  "speaker": "Unknown",
+  "en": "I know it's hard to think beyond, like, next month, but, like, where do we get to?",
+  "zh": "我很难想到下个月以后，但是，我们要去哪里？"
+ },
+ {
+  "seg": 143,
+  "start": 751.525,
+  "end": 753.106,
+  "speaker": "Unknown",
+  "en": "Because it just seems like all this, like...",
+  "zh": "因为似乎所有这些，像……"
+ },
+ {
+  "seg": 144,
+  "start": 754.173,
+  "end": 761.423,
+  "speaker": "Unknown",
+  "en": "This feels like a watershed event for security teams where all of a sudden they were fine using OpenAI or they were fine using Anthropic.",
+  "zh": "这感觉像是安全团队的一个分水岭时刻，突然间他们可以接受使用 OpenAI 或者他们可以接受使用 Anthropic。"
+ },
+ {
+  "seg": 145,
+  "start": 762.104,
+  "end": 765.148,
+  "speaker": "Unknown",
+  "en": "And now they're like, maybe we need our own inference.",
+  "zh": "现在他们想，也许我们需要我们自己的推理。"
+ },
+ {
+  "seg": 146,
+  "start": 765.188,
+  "end": 766.55,
+  "speaker": "Unknown",
+  "en": "Maybe we should host our own models.",
+  "zh": "也许我们应该托管我们自己的模型。"
+ },
+ {
+  "seg": 147,
+  "start": 766.59,
+  "end": 768.212,
+  "speaker": "Unknown",
+  "en": "Like, what are you kind of seeing out there?",
+  "zh": "那么，你在那里看到了什么？"
+ },
+ {
+  "seg": 148,
+  "start": 768.913,
+  "end": 772.417,
+  "speaker": "Unknown",
+  "en": "Yeah, to be honest, we see people trying everything.",
+  "zh": "是的，老实说，我们看到人们在尝试一切。"
+ },
+ {
+  "seg": 149,
+  "start": 772.437,
+  "end": 781.166,
+  "speaker": "Unknown",
+  "en": "We see people saying, you know, we've got Devon and Claude Code and Cursor and, you know, we have the OpenWay stuff running locally or through Fireworks.",
+  "zh": "我们看到人们说，你知道，我们有 Devon 和 Claude Code 以及 Cursor，还有，你知道，我们在本地或通过 Fireworks 运行 OpenWay 的东西。"
+ },
+ {
+  "seg": 150,
+  "start": 781.186,
+  "end": 783.508,
+  "speaker": "Unknown",
+  "en": "So it's really all over the map.",
+  "zh": "所以这真的是分布得满地图都是。"
+ },
+ {
+  "seg": 151,
+  "start": 784.069,
+  "end": 788.814,
+  "speaker": "Unknown",
+  "en": "I think like, you know, what it means for a week from now, two weeks from now, like,",
+  "zh": "我想就像,你知道,这对一周后、两周后意味着什么,"
+ },
+ {
+  "seg": 152,
+  "start": 791.316,
+  "end": 797.14,
+  "speaker": "Unknown",
+  "en": "One thing I'm pretty confident in is there are certain approaches that worked in the past that clearly aren't going to work.",
+  "zh": "我相当确信的一件事是,有些在过去奏效的方法显然不会再奏效了。"
+ },
+ {
+  "seg": 153,
+  "start": 797.181,
+  "end": 801.864,
+  "speaker": "Unknown",
+  "en": "Things like using static detection rules for everything.",
+  "zh": "比如对所有事情都使用静态检测规则。"
+ },
+ {
+  "seg": 154,
+  "start": 802.005,
+  "end": 803.506,
+  "speaker": "Unknown",
+  "en": "Signatures are probably dead.",
+  "zh": "签名大概已经死掉了。"
+ },
+ {
+  "seg": 155,
+  "start": 803.586,
+  "end": 804.947,
+  "speaker": "Unknown",
+  "en": "It's great for the minefield.",
+  "zh": "它对雷区很有用。"
+ },
+ {
+  "seg": 156,
+  "start": 804.967,
+  "end": 808.63,
+  "speaker": "Unknown",
+  "en": "Let me know if an admin hits this service in GCP that is a prod service.",
+  "zh": "如果管理员访问 GCP 中的某个生产服务,请通知我。"
+ },
+ {
+  "seg": 157,
+  "start": 808.69,
+  "end": 811.693,
+  "speaker": "Unknown",
+  "en": "But for other stuff, it's going to fall apart.",
+  "zh": "但对于其他东西,它会崩溃。"
+ },
+ {
+  "seg": 158,
+  "start": 811.793,
+  "end": 815.296,
+  "speaker": "Unknown",
+  "en": "And no amount of tuning and adjustment is really going to make that stick.",
+  "zh": "任何数量的调整和微调都无法让它坚持下来。"
+ },
+ {
+  "seg": 159,
+  "start": 815.396,
+  "end": 817.898,
+  "speaker": "Unknown",
+  "en": "I think the other thing that's tricky is",
+  "zh": "我认为另一件棘手的事情是"
+ },
+ {
+  "seg": 160,
+  "start": 819.139,
+  "end": 819.319,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 161,
+  "start": 819.339,
+  "end": 820.76,
+  "speaker": "Unknown",
+  "en": "We should try and patch everything.",
+  "zh": "我们应该尝试修补所有东西。"
+ },
+ {
+  "seg": 162,
+  "start": 820.8,
+  "end": 822.622,
+  "speaker": "Unknown",
+  "en": "We should try and get rid of vulnerabilities.",
+  "zh": "我们应该尝试消除漏洞。"
+ },
+ {
+  "seg": 163,
+  "start": 822.682,
+  "end": 827.965,
+  "speaker": "Unknown",
+  "en": "But to think that you're going to get to zero there is also kind of a failed approach.",
+  "zh": "但认为你能达到零漏洞也是一种失败的方法。"
+ },
+ {
+  "seg": 164,
+  "start": 828.045,
+  "end": 836.452,
+  "speaker": "Unknown",
+  "en": "And then even some of the more modern techniques like deception, right, that work really well, you know, we're starting to see problems with, right?",
+  "zh": "然后甚至一些更现代的技术,比如欺骗技术,对吧,它们以前运作得很好,你知道,我们开始看到问题了,对吧?"
+ },
+ {
+  "seg": 165,
+  "start": 837.192,
+  "end": 841.734,
+  "speaker": "Unknown",
+  "en": "Hey, you know, there's a honeypot on a developer's device that contains AWS keys.",
+  "zh": "嘿,你知道,开发者的设备上有一个包含 AWS 密钥的蜜罐。"
+ },
+ {
+  "seg": 166,
+  "start": 841.875,
+  "end": 842.655,
+  "speaker": "Unknown",
+  "en": "Well, guess what?",
+  "zh": "好吧,你猜怎么着?"
+ },
+ {
+  "seg": 167,
+  "start": 842.675,
+  "end": 853.981,
+  "speaker": "Unknown",
+  "en": "Our sales rep just asked to deploy something and the agent went and found, you know, the AWS key because it thinks that it should deploy it on AWS and, you know, now we got a ton of false positives in the deception provider, right?",
+  "zh": "我们的销售代表刚刚要求部署一些东西,而智能体去找到了,你知道,AWS 密钥,因为它认为它应该在 AWS 上部署,而且,你知道,现在我们在欺骗提供商那里有大量的误报,对吧?"
+ },
+ {
+  "seg": 168,
+  "start": 854.001,
+  "end": 860.544,
+  "speaker": "Unknown",
+  "en": "So even newer approaches that were kind of like, hey, super precise, always going to work, are kind of being invalidated.",
+  "zh": "所以甚至一些更新的方法,有点像,嘿,超级精确,总是会奏效的,也正在被作废。"
+ },
+ {
+  "seg": 169,
+  "start": 860.564,
+  "end": 860.925,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 170,
+  "start": 862.365,
+  "end": 870.571,
+  "speaker": "Unknown",
+  "en": "There's just a lot of rethinking that needs to happen for these teams, and they need to be able to move quickly and be flexible to be able to defend their companies.",
+  "zh": "这些团队需要进行大量的重新思考,他们需要能够快速行动并保持灵活,以保护他们的公司。"
+ },
+ {
+  "seg": 171,
+  "start": 870.731,
+  "end": 872.212,
+  "speaker": "Unknown",
+  "en": "I hadn't even thought about the honeypot example.",
+  "zh": "我甚至没想过蜜罐这个例子。"
+ },
+ {
+  "seg": 172,
+  "start": 872.232,
+  "end": 872.813,
+  "speaker": "Unknown",
+  "en": "That's hilarious.",
+  "zh": "这太搞笑了。"
+ },
+ {
+  "seg": 173,
+  "start": 872.893,
+  "end": 873.253,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 174,
+  "start": 873.353,
+  "end": 874.454,
+  "speaker": "Unknown",
+  "en": "It's really crazy.",
+  "zh": "真的很疯狂。"
+ },
+ {
+  "seg": 175,
+  "start": 874.474,
+  "end": 878.997,
+  "speaker": "Unknown",
+  "en": "Wow, okay, maybe I shouldn't have sprinkled a bunch of credentials around my environment to test for honeypot.",
+  "zh": "哇,好吧,也许我不应该在我的环境中撒一堆凭证来测试蜜罐。"
+ },
+ {
+  "seg": 176,
+  "start": 879.017,
+  "end": 888.203,
+  "speaker": "Unknown",
+  "en": "We saw overnight just like 100% true positive rate to just like a couple of our customers being like, this thing is awfully noisy now, and we're like...",
+  "zh": "我们一夜之间就看到,就像 100% 的真阳性率变成了,我们的几个客户说,这东西现在噪音太大了,而我们就像……"
+ },
+ {
+  "seg": 177,
+  "start": 888.283,
+  "end": 891.786,
+  "speaker": "Unknown",
+  "en": "Probably a bunch of CISOs that woke up in the middle of the night going like, oh, the honeypot's been tricked.",
+  "zh": "可能有一堆 CISO 在半夜醒来,说,哦,蜜罐被触发了。"
+ },
+ {
+  "seg": 178,
+  "start": 891.907,
+  "end": 892.627,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 179,
+  "start": 892.807,
+  "end": 893.848,
+  "speaker": "Unknown",
+  "en": "I guess to that point, right?",
+  "zh": "我想说到这一点,对吧?"
+ },
+ {
+  "seg": 180,
+  "start": 893.868,
+  "end": 895.51,
+  "speaker": "Unknown",
+  "en": "Like, I think we are, it is funny, right?",
+  "zh": "就像,我想我们,这很有趣,对吧?"
+ },
+ {
+  "seg": 181,
+  "start": 895.53,
+  "end": 902.237,
+  "speaker": "Unknown",
+  "en": "We are moving into a world in which signatures are dead and the attack surface is now the total sum of human expression.",
+  "zh": "我们正在进入一个世界,在这个世界里签名已死,攻击面现在是人类表达的总和。"
+ },
+ {
+  "seg": 182,
+  "start": 902.737,
+  "end": 910.645,
+  "speaker": "Unknown",
+  "en": "Like, how do you, how do you think, like, that seems like a very different problem from sort of the legacy problems that security people have defended against.",
+  "zh": "就像,你怎么,你怎么想,这看起来像是与安全人员防御的传统问题非常不同的问题。"
+ },
+ {
+  "seg": 183,
+  "start": 910.905,
+  "end": 911.445,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 184,
+  "start": 911.465,
+  "end": 917.969,
+  "speaker": "Unknown",
+  "en": "And if you look at the evolution of cyber defenses, it went from signature-based approaches to dynamic behavior-based approaches.",
+  "zh": "如果你看看网络防御的演变,它从基于签名的方法转向了基于动态行为的方法。"
+ },
+ {
+  "seg": 185,
+  "start": 918.009,
+  "end": 929.194,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, those behavior-based approaches made one sort of upfront bet, which is you could determine how software should behave, and you would look for anomalous behavior against that.",
+  "zh": "但归根结底,那些基于行为的方法做了一个 upfront 的赌注,即你可以确定软件应该如何表现,然后你会寻找针对那个的异常行为。"
+ },
+ {
+  "seg": 186,
+  "start": 929.775,
+  "end": 933.156,
+  "speaker": "Unknown",
+  "en": "And now with agentic software, that just doesn't apply.",
+  "zh": "现在有了智能体软件,这就不适用了。"
+ },
+ {
+  "seg": 187,
+  "start": 933.917,
+  "end": 935.598,
+  "speaker": "Unknown",
+  "en": "And so the example that you gave",
+  "zh": "所以你给出的例子"
+ },
+ {
+  "seg": 188,
+  "start": 936.198,
+  "end": 942.579,
+  "speaker": "Unknown",
+  "en": "And then also the example of full system control by different agentic software processes.",
+  "zh": "以及不同智能体软件进程完全控制系统的例子。"
+ },
+ {
+  "seg": 189,
+  "start": 944.82,
+  "end": 945.941,
+  "speaker": "Unknown",
+  "en": "And believe it or not, like...",
+  "zh": "信不信由你,就像……"
+ },
+ {
+  "seg": 190,
+  "start": 967.771,
+  "end": 977,
+  "speaker": "Unknown",
+  "en": "From a security perspective, most of those questions aren't currently answered because there was this assumption that you could know what software would do by its publisher or by its intended design.",
+  "zh": "从安全角度来看,这些问题大多目前还没有答案,因为以前有一个假设,即你可以通过软件的发布者或其预期设计来知道软件会做什么。"
+ },
+ {
+  "seg": 191,
+  "start": 977.54,
+  "end": 978.962,
+  "speaker": "Unknown",
+  "en": "And those days are gone forever.",
+  "zh": "那些日子永远一去不复返了。"
+ },
+ {
+  "seg": 192,
+  "start": 979.202,
+  "end": 979.402,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 193,
+  "start": 980.303,
+  "end": 981.284,
+  "speaker": "Unknown",
+  "en": "Yeah, you can see whole...",
+  "zh": "是的,你可以看到整个……"
+ },
+ {
+  "seg": 194,
+  "start": 981.985,
+  "end": 987.19,
+  "speaker": "Unknown",
+  "en": "It's interesting because you do see the whole tech landscape reshaping in a way that I don't think...",
+  "zh": "这很有趣,因为你确实看到整个科技版图正在重塑,以一种我不认为……"
+ },
+ {
+  "seg": 195,
+  "start": 987.913,
+  "end": 995.395,
+  "speaker": "Unknown",
+  "en": "There's always been, it's funny, there was always a saying that sort of like old tech companies stop becoming companies and become annuities, right?",
+  "zh": "总是,很有趣,一直有一种说法,就像老科技公司不再是公司,而是变成了年金,对吧?"
+ },
+ {
+  "seg": 196,
+  "start": 995.415,
+  "end": 1009.958,
+  "speaker": "Unknown",
+  "en": "Like they just have this long tail of enterprise software and, you know, CA was, Computer Associates was, you know, famous for this, which is where like, hey, we have this product installed on mainframes that have been running since 1968, and over the next 50 years, they're going to continue to throw off this revenue.",
+  "zh": "就像他们只是拥有这个长长的企业软件尾巴,而且,你知道,CA 是,Computer Associates 是,你知道,以此闻名的,也就是,嘿,我们有这个产品安装在自 1968 年以来一直在运行的主机上,在接下来的 50 年里,他们将继续扔出这些收入。"
+ },
+ {
+  "seg": 197,
+  "start": 1009.998,
+  "end": 1014.059,
+  "speaker": "Unknown",
+  "en": "But like, it does feel like this time, this is very disruptive in a way that it hasn't been.",
+  "zh": "但是,就像,感觉这次,这是非常具有破坏性的,以一种前所未有的方式。"
+ },
+ {
+  "seg": 198,
+  "start": 1014.739,
+  "end": 1017.36,
+  "speaker": "Unknown",
+  "en": "Like, and it's just an exciting time to be in tech.",
+  "zh": "就像,这是一个令人兴奋的科技时代。"
+ },
+ {
+  "seg": 199,
+  "start": 1019.521,
+  "end": 1030.928,
+  "speaker": "Unknown",
+  "en": "So one of the more interesting things is that this is all happening and playing out against the background of us being incredibly warm in the desert at Black Hat, a security conference, the enterprise version of a hacker conference.",
+  "zh": "所以更有趣的事情之一是,这一切都正在发生和展开,而背景是我们在沙漠的黑帽大会上热得要死,一个安全会议,黑客会议的企业版。"
+ },
+ {
+  "seg": 200,
+  "start": 1032.208,
+  "end": 1037.291,
+  "speaker": "Unknown",
+  "en": "Would love to maybe just do a couple seconds on sort of what are you seeing at Black Hat?",
+  "zh": "我想可能就用几秒钟聊聊你们在 Black Hat 看到了些什么。"
+ },
+ {
+  "seg": 201,
+  "start": 1037.311,
+  "end": 1038.072,
+  "speaker": "Unknown",
+  "en": "Like, it doesn't...",
+  "zh": "像，它不……"
+ },
+ {
+  "seg": 202,
+  "start": 1039.674,
+  "end": 1047.129,
+  "speaker": "Unknown",
+  "en": "I do this a lot and spend a lot of time in this world, so as I'm sure you guys do as well, but it feels a lot like all the other black hats.",
+  "zh": "我经常做这事，在这个领域花了很多时间，就像你们各位肯定也一样，但这感觉就像所有其他的 Black Hat 一样。"
+ },
+ {
+  "seg": 203,
+  "start": 1047.169,
+  "end": 1049.233,
+  "speaker": "Unknown",
+  "en": "I'm curious, do you feel the disruption here?",
+  "zh": "我很好奇，你们感觉到这里的颠覆了吗？"
+ },
+ {
+  "seg": 204,
+  "start": 1050.728,
+  "end": 1052.409,
+  "speaker": "Unknown",
+  "en": "I feel the excitement for sure.",
+  "zh": "我肯定感觉到这种兴奋感。"
+ },
+ {
+  "seg": 205,
+  "start": 1053.79,
+  "end": 1056.491,
+  "speaker": "Unknown",
+  "en": "I'll go with the cynical take and then the optimistic take.",
+  "zh": "我会先从愤世嫉俗的角度讲，然后再从乐观的角度讲。"
+ },
+ {
+  "seg": 206,
+  "start": 1056.851,
+  "end": 1059.052,
+  "speaker": "Unknown",
+  "en": "The cynical take is this.",
+  "zh": "愤世嫉俗的看法是这样的。"
+ },
+ {
+  "seg": 207,
+  "start": 1059.332,
+  "end": 1070.358,
+  "speaker": "Unknown",
+  "en": "If I see machine speed on another billboard, I'm going to lose it, which is really ironic coming from us because when we launched six, seven months ago, we had machine speed in our launch.",
+  "zh": "如果我在另一个广告牌上再看到「机器速度」，我就要崩溃了，这其实挺讽刺的，因为我们六七个月前发布时，我们的发布内容里也有机器速度。"
+ },
+ {
+  "seg": 208,
+  "start": 1070.378,
+  "end": 1072.759,
+  "speaker": "Unknown",
+  "en": "So that's probably a hit on us, if anything.",
+  "zh": "所以这如果是批评的话，大概是在批评我们自己。"
+ },
+ {
+  "seg": 209,
+  "start": 1073.099,
+  "end": 1076.56,
+  "speaker": "Unknown",
+  "en": "On the optimistic side, talking to practitioners, talking to builders,",
+  "zh": "在乐观的一面，通过与从业者交谈，与构建者交谈，"
+ },
+ {
+  "seg": 210,
+  "start": 1077.941,
+  "end": 1082.085,
+  "speaker": "Unknown",
+  "en": "There's just an overwhelming sense that there's never been a more exciting time to build.",
+  "zh": "有一种压倒性的感觉，现在是构建最激动人心的时刻。"
+ },
+ {
+  "seg": 211,
+  "start": 1083.066,
+  "end": 1096.599,
+  "speaker": "Unknown",
+  "en": "And so I think we saw this with the shift to cloud earlier where people are dealing with problems left and right, but at the same time are invigorated and excited to take on the challenge.",
+  "zh": "所以我认为，就像早先向云的转变一样，人们到处都在处理问题，但同时也充满活力和兴奋地去接受挑战。"
+ },
+ {
+  "seg": 212,
+  "start": 1096.639,
+  "end": 1099.502,
+  "speaker": "Unknown",
+  "en": "And so that's been fun.",
+  "zh": "所以这很有趣。"
+ },
+ {
+  "seg": 213,
+  "start": 1099.982,
+  "end": 1101.564,
+  "speaker": "Unknown",
+  "en": "It's been fun to have those sorts of conversations.",
+  "zh": "进行这种对话很有趣。"
+ },
+ {
+  "seg": 214,
+  "start": 1102.076,
+  "end": 1107.818,
+  "speaker": "Unknown",
+  "en": "And I'm sure you've been to about as many of these as I have, so I would love to get your take on what you're seeing.",
+  "zh": "我肯定你们参加过的这类活动和我一样多，所以我很想听听你们的看法，你们看到了什么。"
+ },
+ {
+  "seg": 215,
+  "start": 1108.098,
+  "end": 1116.822,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, I think there's an incredible amount of innovation out there against a backdrop of a really heightened sense of insecurity against this new threat landscape.",
+  "zh": "是的，你知道，我认为在一种对这个新威胁格局的高度不安全感的背景下，那里有令人难以置信的大量创新。"
+ },
+ {
+  "seg": 216,
+  "start": 1117.922,
+  "end": 1131.192,
+  "speaker": "Unknown",
+  "en": "But I think, you know, even for us at NEO, what's really interesting is that the tools we're being provided with from the AI labs and frontier models give us incredible armament in building the right type of tools to defend.",
+  "zh": "但我认为，你知道，即使对于我们 NEO 来说，真正有趣的是，AI 实验室和前沿模型为我们提供的工具，给了我们令人难以难以置信的装备，去构建正确类型的工具来进行防御。"
+ },
+ {
+  "seg": 217,
+  "start": 1131.953,
+  "end": 1135.876,
+  "speaker": "Unknown",
+  "en": "And it's sort of ironic, we're defending AI and we're also defending from AI.",
+  "zh": "这有点讽刺，我们在防御 AI，同时我们也在防御来自 AI 的攻击。"
+ },
+ {
+  "seg": 218,
+  "start": 1135.976,
+  "end": 1139.239,
+  "speaker": "Unknown",
+  "en": "And so it's really this dual prong mission that we're on.",
+  "zh": "所以我们真的正处于这种双管齐下的任务中。"
+ },
+ {
+  "seg": 219,
+  "start": 1139.879,
+  "end": 1149.647,
+  "speaker": "Unknown",
+  "en": "But for us as a company, if we were trying to build what we built five, seven years ago, we'd have to hire hundreds of threat researchers, spend years building out this taxonomy of software.",
+  "zh": "但对于我们作为一家公司来说，如果我们试图构建我们在五七年前构建的东西，我们就得雇佣数百名威胁研究人员，花费数年来构建这个软件分类法。"
+ },
+ {
+  "seg": 220,
+  "start": 1149.667,
+  "end": 1154.711,
+  "speaker": "Unknown",
+  "en": "And we were able to do that with thousands of agents in an automated process.",
+  "zh": "而我们能够通过数千个智能体在一个自动化过程中做到这一点。"
+ },
+ {
+  "seg": 221,
+  "start": 1154.731,
+  "end": 1157.133,
+  "speaker": "Unknown",
+  "en": "We were able to do that in weeks and months.",
+  "zh": "我们能够在几周和几个月内做到这一点。"
+ },
+ {
+  "seg": 222,
+  "start": 1157.453,
+  "end": 1166.941,
+  "speaker": "Unknown",
+  "en": "And so I think that's just sort of how reality plays out, is that the balance of power always sort of shifts back, I think, in the favor of the defender.",
+  "zh": "所以我认为这大概就是现实的演绎方式，权力的天平总是会转移回，我认为，有利于防御者的一方。"
+ },
+ {
+  "seg": 223,
+  "start": 1167.121,
+  "end": 1168.923,
+  "speaker": "Unknown",
+  "en": "But we're going through that sea change right now.",
+  "zh": "但我们正在经历这种剧变。"
+ },
+ {
+  "seg": 224,
+  "start": 1169.163,
+  "end": 1169.684,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 225,
+  "start": 1169.724,
+  "end": 1176.471,
+  "speaker": "Unknown",
+  "en": "I mean, to me, it feels like, you know, way back when the first vulnerability scanning tools were coming out.",
+  "zh": "我的意思是，对我来说，这感觉就像，回到很久以前第一批漏洞扫描工具出来的时候。"
+ },
+ {
+  "seg": 226,
+  "start": 1176.831,
+  "end": 1183.859,
+  "speaker": "Unknown",
+  "en": "And, you know, prior to there being things you could download and do click to hack, right, you actually had to know how to program.",
+  "zh": "而且，你知道，在那些你可以下载并进行「点击即黑」的东西出现之前，对吧，你实际上必须知道如何编程。"
+ },
+ {
+  "seg": 227,
+  "start": 1185.245,
+  "end": 1193.729,
+  "speaker": "Unknown",
+  "en": "And had to figure out, like, how a buffer overflow works and how to write them and what, you know, all the different complexities of actual computer operations.",
+  "zh": "并且必须弄清楚，比如，缓冲区溢出是如何工作的，如何编写它们，以及，你知道，实际计算机操作的所有不同复杂性。"
+ },
+ {
+  "seg": 228,
+  "start": 1193.849,
+  "end": 1197.371,
+  "speaker": "Unknown",
+  "en": "And then, obviously, these tools that let you do point-and-click hacking came out.",
+  "zh": "然后，显然，那些让你可以进行「指指点点」黑客攻击的工具出来了。"
+ },
+ {
+  "seg": 229,
+  "start": 1197.791,
+  "end": 1199.332,
+  "speaker": "Unknown",
+  "en": "And they gave birth to the ScriptKitties.",
+  "zh": "它们催生了 ScriptKitties。"
+ },
+ {
+  "seg": 230,
+  "start": 1200.272,
+  "end": 1211.758,
+  "speaker": "Unknown",
+  "en": "And the ScriptKitties, for those of you that weren't around then, was basically, you know, largely males, 18 to 25-year-old, that had downloaded a bunch of tools from the internet and decided to go hack a bunch of stuff.",
+  "zh": "而 ScriptKitties，对于那些当时不在场的人来说，基本上是，你知道，大多数是男性，18 到 25 岁，他们从互联网上下载了一堆工具并决定去黑一堆东西。"
+ },
+ {
+  "seg": 231,
+  "start": 1211.918,
+  "end": 1212.779,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "谢谢你们加入我们。"
+ },
+ {
+  "seg": 232,
+  "start": 1232.91,
+  "end": 1244.458,
+  "speaker": "Unknown",
+  "en": "We still have to do it because those threats never go away, but there's this whole new category of stuff that nothing has prepared us for, which is ultimately just exhilarating if you're a security practitioner.",
+  "zh": "我们仍然必须这样做，因为那些威胁从未消失，但有一整类全新的东西，没有什么为我们准备过，如果你是一名安全从业者，这最终只是令人振奋。"
+ },
+ {
+  "seg": 233,
+  "start": 1244.598,
+  "end": 1245.718,
+  "speaker": "Unknown",
+  "en": "100%.",
+  "zh": "百分之百。"
+ },
+ {
+  "seg": 234,
+  "start": 1245.859,
+  "end": 1246.019,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 235,
+  "start": 1246.039,
+  "end": 1247.58,
+  "speaker": "Unknown",
+  "en": "Well, thank you so much, guys, for coming by.",
+  "zh": "好的，非常感谢你们，伙计们，过来做客。"
+ },
+ {
+  "seg": 236,
+  "start": 1248.12,
+  "end": 1255.125,
+  "speaker": "Unknown",
+  "en": "You sweated it out with the best of them, and I'm sure this will not be your last Black Hat, so we'll try to do it again next year.",
+  "zh": "你们与最优秀的人一起挥洒汗水，我相信这不会是你们最后一次参加 Black Hat，所以我们明年争取再做一次。"
+ },
+ {
+  "seg": 237,
+  "start": 1255.385,
+  "end": 1255.805,
+  "speaker": "Unknown",
+  "en": "Enjoyed it.",
+  "zh": "很享受。"
+ },
+ {
+  "seg": 238,
+  "start": 1255.945,
+  "end": 1256.325,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 239,
+  "start": 1256.365,
+  "end": 1257.026,
+  "speaker": "Unknown",
+  "en": "Thanks for having us.",
+  "zh": "谢谢邀请我们。"
+ },
+ {
+  "seg": 240,
+  "start": 1259.8,
+  "end": 1262.662,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z podcast.",
+  "zh": "感谢收听这一期 A16Z 播客。"
+ },
+ {
+  "seg": 241,
+  "start": 1263.303,
+  "end": 1269.688,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一集，请务必点赞、评论、订阅，给我们评分或评论，并与你的朋友和家人分享。"
+ },
+ {
+  "seg": 242,
+  "start": 1270.469,
+  "end": 1274.032,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "查看更多剧集，请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 243,
+  "start": 1274.612,
+  "end": 1280.257,
+  "speaker": "Unknown",
+  "en": "Follow us on X and A16Z, and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 和 A16Z 上关注我们，并订阅我们的 Substack，地址是 a16z.substack.com。"
+ },
+ {
+  "seg": 244,
+  "start": 1280.718,
+  "end": 1283.22,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下一集再见。"
+ },
+ {
+  "seg": 245,
+  "start": 1285.176,
+  "end": 1287.898,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only.",
+  "zh": "提醒一下，这里的内容仅供参考。"
+ },
+ {
+  "seg": 246,
+  "start": 1288.298,
+  "end": 1298.105,
+  "speaker": "Unknown",
+  "en": "It should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "不应将其视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不针对任何 A16Z 基金的投资者或潜在投资者。"
+ },
+ {
+  "seg": 247,
+  "start": 1298.906,
+  "end": 1303.569,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联公司也可能持有本播客中讨论的公司的投资。"
+ },
+ {
+  "seg": 248,
+  "start": 1304.109,
+  "end": 1310.734,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资的链接，请参阅 a16z.com/ disclosures。"
+ }
+]
