@@ -108,7 +108,10 @@ async function downloadDirect(url, toFile) {
   const res = await fetch(url, { redirect: "follow", headers: BROWSER_HEADERS });
   if (!res.ok) throw new Error(`下载失败 HTTP ${res.status}(URL: ${String(url).slice(0, 80)}…)`);
   const ctype = res.headers.get("content-type") ?? "";
-  if (/text\/|html/.test(ctype)) throw new Error(`下载到的不是音频(content-type: ${ctype})——疑挑战页,拒传中转站`);
+  if (/text\/|html/.test(ctype)) {
+    await res.body?.cancel?.(); // GLM 021[3]:拒收也要释放响应体,别让连接吊着
+    throw new Error(`下载到的不是音频(content-type: ${ctype})——疑挑战页,拒传中转站`);
+  }
   await pipeline(Readable.fromWeb(res.body), createWriteStream(toFile));
   const size = statSync(toFile).size;
   if (size < MIN_AUDIO_BYTES) throw new Error(`下载文件过小(${size} 字节)——疑非音频,拒传中转站`);
