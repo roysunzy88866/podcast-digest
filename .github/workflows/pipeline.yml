@@ -153,7 +153,12 @@ jobs:
           # 「做完的干净集能不能上站」。子 shell 跑编排器、记下退出码;has_new 判定**无论成败都算**;
           # 步骤最后仍按原退出码退出(run 该红还红、告警照发)——只是下游部署步不再被拖死。
           # 血账:08-14 起反复出现「内容做完躺仓库、站上没有」,3 集 Beyond Coding 做完 10 小时无人送最后一公里。
+          # ⚠️ 别写成 `( set -e … ) || PIPE_RC=$?` —— bash 规定:命令出现在 `||` 左侧时 errexit **一律失效**,
+          # 于是子 shell 里非最后一条命令挂了会被静默跳过、PIPE_RC 拿到的是最后一条的码(实测 refresh 分支
+          # 9 条串行命令,第一条挂后面照跑、run 还绿 → 告警永不发)。必须让子 shell 作为**独立命令**执行,
+          # 用 set +e 关掉外层 errexit、再用 $? 取码(独立审计 2026-08-18 逮到,是我引入的)。
           PIPE_RC=0
+          set +e
           (
           set -e
           # C16:演讲精选批次(--talks 只跑 talks 源;音频从 Release asset 公开直链拉,无新拉取步)
@@ -189,18 +194,28 @@ jobs:
             [ -n "${{ github.event.schedule }}" ] && TOPUP="--daily-topup"
             node scripts/run-pipeline.mjs $SRC_ARGS $TOPUP
           fi
-          ) || PIPE_RC=$?
+          )
+          PIPE_RC=$?
+          set -e
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
           # (不看 pipeline-state.json:它在"全 skip 只更新账本"时也会变,会误判有新)
           if [ -n "$(git status --porcelain data/episodes samples)" ]; then
             echo "has_new=true" >> "$GITHUB_OUTPUT"
-            echo "有干净新集,进部署"
+            echo "有新集页,待过闸门再定部署"
           else
             echo "has_new=false" >> "$GITHUB_OUTPUT"
             echo "无干净新集(无新/全隔离),跳过部署(线上保持上一版)"
           fi
-          # 编排器的失败该红还红(告警照发),但 has_new 已经写出、部署步靠 !cancelled() 照常判
+          # ⚠️ 部署前**独立再过一次闸门**(独立审计 2026-08-18 逮到的降级,是我引入的):
+          # run-pipeline 的顺序是「先 rebuildAll() 把集页写进 samples/,再跑 gate-all」——
+          # 闸门挂掉时 samples/ 已经脏了 → has_new=true;而 deploy-site.sh 自己不跑 gate-all
+          # → 解耦前 bash -e 会中止整步(算不出 has_new)所以侥幸不部署,解耦后就把**没过闸的内容送上线**。
+          # 这里不依赖编排器怎么退出的,自己再判一次:全过才允许部署。gate-all 是本地校验,几秒钟。
+          GATE_OK=false
+          if node scripts/gate-all.mjs; then GATE_OK=true; else echo "::warning::闸门未过 → 本轮不部署(线上保持上一版)"; fi
+          echo "gate_ok=$GATE_OK" >> "$GITHUB_OUTPUT"
+          # 编排器的失败该红还红(告警照发),但 has_new/gate_ok 已经写出、部署步靠 !cancelled() 照常判
           exit $PIPE_RC
 
       - name: 产物兜底 artifact(无论成败:回仓再败也能手动捞,付费产物永不随 runner 销毁)
@@ -218,9 +233,13 @@ jobs:
       - name: 构建站点 + 部署 talk.solomind.cc(有干净集就上站,不被整轮成败绑架)
         # drift #68 · [standard-change: 用户授权 2026-08-18]:原条件隐含 success() → 单源失败/超时
         # 都会把做完的干净集扣在仓库里(08-14 已记账,拖到用户连问三天「怎么没更新」)。
-        # !cancelled() = 编排器失败也部署(闸门一分不降:没过闸的集本来就进不了 samples);
+        # !cancelled() = 编排器失败(如单源抓挂)也照样部署已做完的集;被取消的 run 除外(runner 已被杀)。
+        # ⚠️ 上一版这里写「没过闸的集本来就进不了 samples」——**错的**:run-pipeline 是先 rebuildAll()
+        # 写 samples/、再跑 gate-all,闸门挂时 samples/ 已经脏了。改由 gate_ok 独立把关(见上)。
         # 被取消的 run 例外(runner 已被杀,跑不了)。
-        if: ${{ !cancelled() && (steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true') }}
+        # gate_ok 是部署前独立重跑的闸门结论(不信编排器的退出码)——闸门没过一律不上线,
+        # 手动 deploy=true 也不能绕(独立审计 2026-08-18:原写法会把没过闸的集送上线)。
+        if: ${{ !cancelled() && steps.pipeline.outputs.gate_ok == 'true' && (steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true') }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # account id 是标识符非机密(单独无用),直接写死省得多配一个 secret

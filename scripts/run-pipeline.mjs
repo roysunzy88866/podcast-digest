@@ -261,9 +261,14 @@ export function selectBackfillBackward(items, { n, beforeISO, existingIds, sourc
     .filter((it) => !seen.has(deriveId(it, source))) // ① ID 去重
     .filter((it) => !findTitleDuplicate(it.title, libraryTitles)) // ② 跨源标题查重,疑似即跳过
     .filter((it) => passesTopicFilter(it, source)) // ③ C28:题材泛的源只收对口集(DOAC)
-    // C28b(drift #67):**有官方稿的优先**,同档内再按倒序(紧挨边界先补)。
-    // 每天自动跑的就是这条路 —— 先把几秒能拿到稿的集吃掉,剩下时间才喂给 2.8h 的转写
-    // (用户 2026-08-17「有稿子的读稿子,没稿子的去抓语音,让云端不闲着」)。
+    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 倒序:紧挨边界的先补
+    // C28b(drift #67)**+ 边界护栏(drift #69,独立审计 2026-08-18 逮到)**:有官方稿的优先,
+    // **但只在紧挨边界的一个窗口内择优**,不许全表挑。
+    // 为什么要窗口:本函数的边界 beforeISO = 库内该源最旧一集;补了哪集边界就退到哪。
+    // 无窗口地「全表挑有稿的」会一口气跳到很老的一集 → 夹在中间、还没做的集从此永远不满足
+    // 「比最旧的还旧」,**再也不会被自动补**(实测 Beyond Coding 已把边界钉到 04-15,
+    // 中间 04-22～07-22 的周更集已出射程)。窗口 = n*4,既保住「便宜的先吃」,又让边界一格格退。
+    .slice(0, n * 4)
     .sort((a, b) => {
       const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
       const cb = pickFeedTranscript(b.transcripts) ? 0 : 1;

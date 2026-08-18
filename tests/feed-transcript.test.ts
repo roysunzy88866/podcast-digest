@@ -8,6 +8,7 @@ import {
   parseFeedTranscript,
   isOnTopic,
 } from "../scripts/feed-transcript.mjs";
+import { transcriptDuration } from "../scripts/fetch-source-feed.mjs";
 import { parseFeed, passesTopicFilter, selectBackfill, selectBackfillBackward } from "../scripts/run-pipeline.mjs";
 
 // C28 · RSS 自带官方转写稿(Gherkin 见 docs/user-stories.md C28 / ADR 0024)
@@ -50,8 +51,11 @@ describe("C28 · 挑稿子:带时间轴的才要,纯文本一律不要", () => {
     expect(pickFeedTranscript([{ url: "https://x/a.srt", type: "unknown" }])?.kind).toBe("srt");
     expect(pickFeedTranscript([{ url: "https://x/a.json", type: "binary/octet-stream" }])?.kind).toBe("json");
   });
-  it("★★★ 但认得的 text/plain 仍然要拒(别被扩展名兜底反手放进来)", () => {
-    expect(pickFeedTranscript([{ url: "https://x/transcript.txt", type: "text/plain" }])).toBeNull();
+  it("★★★ 但认得的 text/plain 仍然要拒 —— 哪怕 URL 挂着 .srt 后缀(才真碰到兜底分支)", () => {
+    // 独立审计 2026-08-18:原 fixture 用 transcript.txt,扩展名根本不是 srt/json/vtt,
+    // 压根走不到「KNOWN 里的 type 不许走扩展名兜底」那条分支 → 破坏 KNOWN 集合测试也不红 = 空转。
+    expect(pickFeedTranscript([{ url: "https://x/a.srt", type: "text/plain" }])).toBeNull();
+    expect(pickFeedTranscript([{ url: "https://x/a.json", type: "text/plain" }])).toBeNull();
   });
 });
 
@@ -207,5 +211,67 @@ describe("C28b · 选集把有稿的排前面(便宜的先吃,剩下时间才喂
     const picks = selectBackfill(mixed as any, { n: 2, existingIds: [], source: doac });
     expect(picks).toHaveLength(1);
     expect(picks[0].title).toContain("founder");
+  });
+});
+
+// 独立审计 2026-08-18:transcriptDuration 零测试覆盖(改成恒返回 0 也全绿)。
+// 它算的是写进 meta 的集时长 —— 归属闸门拿官方时长跟它比,写错=拿错稿也可能蒙混。
+describe("C28 · transcriptDuration(写进 meta 的集时长,归属闸门要用)", () => {
+  it("★★★ 取末段 end 作为时长(不是段数、不是 0)", () => {
+    expect(transcriptDuration([
+      { start: 0, end: 3.2, speaker: "", text: "a" },
+      { start: 3.2, end: 907.5, speaker: "", text: "b" },
+    ])).toBeCloseTo(907.5, 2);
+  });
+  it("★★★ 段序乱了也取最大 end(别假设输入有序)", () => {
+    expect(transcriptDuration([
+      { start: 100, end: 200, speaker: "", text: "b" },
+      { start: 0, end: 50, speaker: "", text: "a" },
+    ])).toBe(200);
+  });
+  it("★★ 空稿 → 0(不炸)", () => {
+    expect(transcriptDuration([])).toBe(0);
+  });
+});
+
+// drift #69(独立审计 2026-08-18 逮到,我引入的):有稿优先让补历史的**日期边界一次跳太远**。
+// 本函数的边界 beforeISO = 库内该源最旧一集;补了哪集边界就退到哪。无窗口地全表挑有稿的
+// → 一口气跳到很老的一集 → 夹在中间还没做的集从此永不满足「比最旧的还旧」,永久落下。
+describe("drift #69 · 有稿优先必须限制在紧挨边界的窗口内(否则中间的集永久漏掉)", () => {
+  const mk = (date: string, hasT: boolean) => ({
+    title: `Ep ${date}`, link: `https://x/${date}`, pubDateISO: `${date}T00:00:00.000Z`,
+    hasAudio: true, enclosureUrl: `https://x/${date}.mp3`,
+    transcripts: hasT ? [{ url: `https://x/${date}.srt`, type: "application/x-subrip" }] : [],
+    durationSec: 3600,
+  });
+  const src = { key: "beyondcoding", name: "BC", feedUrl: "https://x/rss", asr: "whisperx" } as any;
+  const pick = (items: any[], n: number) =>
+    selectBackfillBackward(items as any, {
+      n, beforeISO: "2026-09-01T00:00:00.000Z", existingIds: [], source: src, libraryTitles: [],
+    });
+
+  // 12 集倒序;只有很老的那集(第 10 个)有稿
+  const farAway = [
+    mk("2026-08-20", false), mk("2026-08-13", false), mk("2026-08-06", false), mk("2026-07-30", false),
+    mk("2026-07-23", false), mk("2026-07-16", false), mk("2026-07-09", false), mk("2026-07-02", false),
+    mk("2026-06-25", false), mk("2026-06-18", true), mk("2026-06-11", false), mk("2026-06-04", false),
+  ];
+
+  it("★★★ 有稿的那集远在窗口之外 → 不许跳过去(否则中间 9 集被永久落下)", () => {
+    const picks = pick(farAway, 1); // n=1 → 窗口 4 集
+    expect(picks[0].pubDateISO.slice(0, 10)).toBe("2026-08-20"); // 老实补紧挨边界的那集
+    expect(picks[0].pubDateISO.slice(0, 10)).not.toBe("2026-06-18");
+  });
+
+  it("★★★ 有稿的集落在窗口内 → 照旧优先(护栏不能把便宜通道废掉)", () => {
+    const inWindow = [...farAway];
+    inWindow[2] = mk("2026-08-06", true); // 第 3 个,在 n=1 的 4 集窗口内
+    const picks = pick(inWindow, 1);
+    expect(picks[0].pubDateISO.slice(0, 10)).toBe("2026-08-06");
+  });
+
+  it("★★ 窗口随 n 放大(n 大时能看得更远,但仍有界)", () => {
+    const picks = pick(farAway, 3); // n=3 → 窗口 12 → 有稿那集进得来
+    expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toContain("2026-06-18");
   });
 });

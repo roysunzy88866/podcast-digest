@@ -72,6 +72,9 @@ describe("C27 · 客户端:真实数 + 失败静默", () => {
   it("★★★ 服务挂了静默:fetch 有 catch,fill 前有类型校验,容器保持 hidden 由 fill 才解除", () => {
     expect(pvJs).toMatch(/\.catch\(function \(\) \{\}\)/);
     expect(pvJs).toContain('typeof d.total !== "number"');
+    // today 也必须校验:×9 会把缺字段从「静默不显示」变成页面显示「今日 NaN」
+    // (独立审计 2026-08-18:原来只断言了 total 那半,删掉 today 校验测试照样全绿=空转)
+    expect(pvJs).toContain('typeof d.today !== "number"');
     expect(pvJs).toContain("el.hidden = false");
   });
   it("★★ nav 驱动计数 + 无 nav 兜底不重复", () => {
