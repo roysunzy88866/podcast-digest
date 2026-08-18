@@ -11,7 +11,8 @@ PLIST_DST="$HOME/Library/LaunchAgents/com.podcast-digest.audio-relay.plist"
 PROXY="${AUDIO_RELAY_PROXY:-http://127.0.0.1:7890}" # Mac mini 连 GitHub 走 clash 7890(同 patrol)
 
 echo "① 拉最新代码…"
-HTTPS_PROXY="$PROXY" git -C "$REPO" pull --rebase origin main
+# 大小写都给:Mac mini 的 git(libcurl)实测只认小写 https_proxy,大写直连挂 75s(2026-08-18 实测)
+HTTPS_PROXY="$PROXY" https_proxy="$PROXY" git -C "$REPO" pull --rebase origin main
 
 echo "② 生成并安装 plist(node=$NODE_BIN)…"
 mkdir -p "$HOME/Library/LaunchAgents" "$HOME/Library/Logs"
