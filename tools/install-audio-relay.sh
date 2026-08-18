@@ -11,8 +11,10 @@ PLIST_DST="$HOME/Library/LaunchAgents/com.podcast-digest.audio-relay.plist"
 PROXY="${AUDIO_RELAY_PROXY:-http://127.0.0.1:7890}" # Mac mini 连 GitHub 走 clash 7890(同 patrol)
 
 echo "① 拉最新代码…"
-# 大小写都给:Mac mini 的 git(libcurl)实测只认小写 https_proxy,大写直连挂 75s(2026-08-18 实测)
-HTTPS_PROXY="$PROXY" https_proxy="$PROXY" git -C "$REPO" pull --rebase origin main
+# Mac mini 的 ~/.gitconfig 有「http.https://github.com/.proxy=空」的 URL 级规则,优先级压过环境变量
+# → 环境变量代理全被无视(2026-08-18 实测)。用 -c 覆盖同名键才生效;HTTP/1.1 是该 git 过代理的协议要求
+# (不加会「expected flush after ref listing」)。不动全局配置——巡航依赖现状。
+git -C "$REPO" -c "http.https://github.com/.proxy=$PROXY" -c http.version=HTTP/1.1 pull --rebase origin main
 
 echo "② 生成并安装 plist(node=$NODE_BIN)…"
 mkdir -p "$HOME/Library/LaunchAgents" "$HOME/Library/Logs"

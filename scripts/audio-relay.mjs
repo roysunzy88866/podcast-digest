@@ -122,8 +122,12 @@ if (isMain) {
   const dryRun = process.argv.includes("--dry-run");
   console.log(`\n══ 音频搬运工 ${new Date().toISOString()}${dryRun ? "(--dry-run)" : ""} ══`);
 
-  // 清单读 origin/main(fetch 后 git show,零工作区改动;与 patrol 同 checkout 也不打架)
-  shOrThrow("git", ["fetch", "origin", "main"]);
+  // 清单读 origin/main(fetch 后 git show,零工作区改动;与 patrol 同 checkout 也不打架)。
+  // git 代理必须走 -c:Mac mini ~/.gitconfig 的 URL 级空代理规则压过环境变量;HTTP/1.1 是过代理的协议要求。
+  const gitProxyArgs = PROXY
+    ? ["-c", `http.https://github.com/.proxy=${PROXY}`, "-c", "http.version=HTTP/1.1"]
+    : [];
+  shOrThrow("git", [...gitProxyArgs, "fetch", "origin", "main"]);
   const state = JSON.parse(shOrThrow("git", ["show", "origin/main:data/pipeline-state.json"]).stdout);
   const wanted = listAudioWanted(state);
   if (!wanted.length) {
