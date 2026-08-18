@@ -161,3 +161,4 @@
 {"ts":"2026-08-18T01:40:16.429Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-18T01:40:16.791Z","action":"prefilter-skip","channel":"axios","videoId":"R1kTBzmtzMc","title":"Trump reporter on what POTUS thinks about most","reason":"标题不含必需关键词(full interview)"}
 {"ts":"2026-08-18T01:41:19.684Z","action":"seed-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","verdict":"对味","reason":"AI agent 企业实操:创始人CTO对谈,含真实降本案例与工程权衡,正是本频道要的客户案例型深访","error":"seed-talk exit 1/种子未就绪(可重试)"}
+{"ts":"2026-08-18T07:42:08.002Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Recv failure: Operation timed out\n"}
