@@ -151,6 +151,13 @@ jobs:
             echo "has_new=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # 部署解耦(drift #68 · [standard-change: 用户授权 2026-08-18]):编排器成败不再决定
+          # 「做完的干净集能不能上站」。子 shell 跑编排器、记下退出码;has_new 判定**无论成败都算**;
+          # 步骤最后仍按原退出码退出(run 该红还红、告警照发)——只是下游部署步不再被拖死。
+          # 血账:08-14 起反复出现「内容做完躺仓库、站上没有」,3 集 Beyond Coding 做完 10 小时无人送最后一公里。
+          PIPE_RC=0
+          (
+          set -e
           # C16:演讲精选批次(--talks 只跑 talks 源;音频从 Release asset 公开直链拉,无新拉取步)
           # C17/ADR 0018.5:cron 默认分支(最下面的 run-pipeline 裸跑)遇到待处理种子会自动带上 talks 源,此入口只为人工批次保留
           if [ "${{ github.event.inputs.talks || 'false' }}" = "true" ]; then
@@ -183,6 +190,7 @@ jobs:
             case "${{ github.event.schedule }}" in "0 14 * * *"|"0 22 * * *") TOPUP="--daily-topup" ;; esac
             node scripts/run-pipeline.mjs $SRC_ARGS $TOPUP
           fi
+          ) || PIPE_RC=$?
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
           # (不看 pipeline-state.json:它在"全 skip 只更新账本"时也会变,会误判有新)
@@ -193,6 +201,8 @@ jobs:
             echo "has_new=false" >> "$GITHUB_OUTPUT"
             echo "无干净新集(无新/全隔离),跳过部署(线上保持上一版)"
           fi
+          # 编排器的失败该红还红(告警照发),但 has_new 已经写出、部署步靠 !cancelled() 照常判
+          exit $PIPE_RC
 
       - name: 产物兜底 artifact(无论成败:回仓再败也能手动捞,付费产物永不随 runner 销毁)
         if: always()
@@ -206,8 +216,12 @@ jobs:
           retention-days: 7
           if-no-files-found: ignore
 
-      - name: 构建站点 + 部署 talk.solomind.cc(有新集且闸门全过,或手动强制)
-        if: steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true'
+      - name: 构建站点 + 部署 talk.solomind.cc(有干净集就上站,不被整轮成败绑架)
+        # drift #68 · [standard-change: 用户授权 2026-08-18]:原条件隐含 success() → 单源失败/超时
+        # 都会把做完的干净集扣在仓库里(08-14 已记账,拖到用户连问三天「怎么没更新」)。
+        # !cancelled() = 编排器失败也部署(闸门一分不降:没过闸的集本来就进不了 samples);
+        # 被取消的 run 例外(runner 已被杀,跑不了)。
+        if: ${{ !cancelled() && (steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true') }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # account id 是标识符非机密(单独无用),直接写死省得多配一个 secret
