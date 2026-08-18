@@ -2488,3 +2488,40 @@ Scenario: 刷新 = 回顶部看最新
 3. tests/pull-refresh.test.ts 11 条:DOM 桩回放真实手势,覆盖 gate/阈值/守卫/清记忆/指示器状态。
 4. 五向变异验证(去 standalone 闸 / 不清记忆 / 去弹层守卫 / 阈值归零 / 两道 atTop 同时拿掉)各自当场红。
 5. **待真机验收**:手感(阈值、阻尼、转圈时长)只能在 iPhone 主屏应用里实测。
+
+## C30 · 音频搬运工(Mac mini 住宅 IP 中转)· US-4/US-11 · 2026-08-18 用户拍板
+
+> 起因:云端 runner 的 IP 被 Substack 封(D63,drift #62),Lenny's 无官方稿的新集走 ASR 兜底时
+> 音频下载 403,只能眼睁睁漏掉(2026-08-17 Yana Welinder 集实证)。用户拍板:
+> 「用 Mac mini(住宅 IP)抓音频」—— 云端拿不到的音频,Mac mini 抓下来放 GitHub Release 中转站,
+> 云端下一班优先查中转站。复用演讲通道(C16/C17)已验证的 Release 运输 + Mac mini 巡航体系,零新基建。
+
+Scenario: 云端 403 → 登记待搬运,本班不受影响
+  Given 某集走 ASR 兜底,音频直接下载被 403(或其他拿不到)
+  Then 该集照旧「转瞬失败留半成品下次重试」,并把 (集id, 音频URL) 登记进待搬运清单
+  And 清单随回仓提交入库,本班其余集照常处理
+
+Scenario: Mac mini 定时搬运
+  Given Mac mini 巡航周期到点,pull 后发现待搬运清单非空
+  When 用住宅 IP 直连下载音频成功
+  Then 上传为 GitHub Release 中转站 asset(以集 id 命名)
+  But 下载失败(上游真挂)→ 留在清单里下轮重试,响亮打日志不静默
+
+Scenario: 云端优先查中转站
+  Given 某集要走 ASR 兜底下载音频
+  When 中转站有以该集 id 命名的 asset
+  Then 从中转站取音频(runner 访问 GitHub 不被封),后续转写→浓缩→闸门→上站全链照旧,闸门一分不降
+  And 该集处理成功后,从待搬运清单划掉 + 删除中转站 asset(不无限堆积)
+
+Scenario: Mac mini 不在线一切照旧
+  Given Mac mini 关机 / 没网 / 凭证失效
+  Then 云端行为与现状完全一致(半成品每班重试、403 就下一班再说),不多报错不搞坏别的
+
+### DoD(C30)
+1. 云端:403/下载失败登记待搬运清单(随既有回仓通道入库);取音频前先查中转站 asset,命中即用;
+   成功消费后清账 + 删 asset。
+2. Mac mini:搬运脚本挂进既有巡航体系(凭证/代理复用 C17),下载→上传→日志留痕;失败不自愈成静默。
+3. 单测覆盖:登记/查中转/消费清账 的纯函数逻辑 + 变异验证(去优先查/去清账 必红)。
+4. **E2E 实证(验收线)**:2026-08-17-lennys-how-a-solo-founder-used-codex-and(Yana Welinder)
+   经此通道真实复活上站,线上可见。
+5. 版权口径照旧:中转站只是运输,audio 不入仓;asset 用后即删。
