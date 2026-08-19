@@ -14,6 +14,7 @@ import {
   parseCurlMeta,
   audioAcceptable,
   staleAssets,
+  isNetworkErr,
 } from "../scripts/audio-relay.mjs";
 import { audioUrlCandidates } from "../scripts/fetch-source-whisperx.mjs";
 import { migrateState } from "../scripts/run-pipeline.mjs";
@@ -105,6 +106,21 @@ describe("run-pipeline 接线(源码锚,防登记/清账/优先查被静默摘�
     expect(runAsrBody).toContain('"--relay-url"');
     expect(runAsrBody).toContain("consumeAudioWanted(state, id)");
     expect(runAsrBody).toContain('"delete-asset"');
+  });
+});
+
+describe("isNetworkErr(该不该换出口重试的判据)", () => {
+  it("★ 今天真见过的三种网络错都认(代理上游死/直连被掐/设备登录 EOF)", () => {
+    expect(isNetworkErr("LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443")).toBe(true);
+    expect(isNetworkErr("Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server")).toBe(true);
+    expect(isNetworkErr('Post "https://github.com/login/device/code": EOF')).toBe(true);
+    expect(isNetworkErr("curl: (28) Operation timed out")).toBe(true);
+  });
+  it("★ 业务性失败不认(不为「release 不存在/没权限」白跑一次另一条出口)", () => {
+    expect(isNetworkErr("release not found")).toBe(false);
+    expect(isNetworkErr("HTTP 403: Resource not accessible by integration")).toBe(false);
+    expect(isNetworkErr("")).toBe(false);
+    expect(isNetworkErr(null)).toBe(false);
   });
 });
 

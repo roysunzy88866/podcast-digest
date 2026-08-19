@@ -79,16 +79,35 @@ export function parseAssetNames(stdout) {
 // ── 副作用层(只在 main 走到)────────────────────────────
 
 const PROXY = process.env.AUDIO_RELAY_PROXY ?? ""; // 空=直连(Mac mini 默认);连不上 GitHub 才在 plist 配
+// 出口序:先配置的那条,再另一条。2026-08-19 实证两条都会单边挂 —— Substack 直连被 GFW 掐、
+// 而 GitHub 走代理时代理上游又死过(mihomo 在听但请求全 000,同刻直连 github 200)。
+// 无人值守的搬运工不该被单一出口拖死,故每个网络子进程失败后自动换另一条再试一次。
+const ROUTES = PROXY ? [PROXY, ""] : [""];
+/** 网络层故障签名(换出口重试的判据)。业务性失败(如 release not found)不匹配 → 不浪费一次重试。 */
+export function isNetworkErr(stderr) {
+  return /Could not resolve|Couldn't connect|Failed to connect|Connection refused|onnection reset|timed? ?out|SSL_ERROR|EOF|not reachable|network is unreachable/i.test(String(stderr ?? ""));
+}
 
-function proxyEnv() {
-  if (!PROXY) return { ...process.env };
-  return { ...process.env, https_proxy: process.env.https_proxy || PROXY, http_proxy: process.env.http_proxy || PROXY };
+function envForRoute(route) {
+  const env = { ...process.env };
+  if (route) env.https_proxy = env.http_proxy = route;
+  else delete env.https_proxy, delete env.http_proxy, delete env.HTTPS_PROXY, delete env.HTTP_PROXY;
+  return env;
 }
 
 function sh(cmd, args, opts = {}) {
-  const r = spawnSync(cmd, args, { cwd: ROOT, env: proxyEnv(), encoding: "utf8", ...opts });
-  if (r.error?.code === "ENOENT") throw new Error(`本机没装 ${cmd}(audio-relay 需要 git + gh)`);
-  return r;
+  let last;
+  for (const route of ROUTES) {
+    const r = spawnSync(cmd, args, { cwd: ROOT, env: envForRoute(route), encoding: "utf8", ...opts });
+    if (r.error?.code === "ENOENT") throw new Error(`本机没装 ${cmd}(audio-relay 需要 git + gh + curl)`);
+    last = r;
+    if (r.status === 0) {
+      if (route !== ROUTES[0]) console.log(`      (${cmd} 改走${route || "直连"}才通)`);
+      return r;
+    }
+    if (!isNetworkErr(r.stderr)) return r; // 非网络错按原样交上层判(如 release not found)
+  }
+  return last;
 }
 
 function shOrThrow(cmd, args, opts = {}) {
@@ -147,7 +166,8 @@ function downloadAudio(url, toFile) {
     "-sL", "--max-time", "900", "--retry", "2", "-A", BROWSER_HEADERS["User-Agent"],
     // GLM 021[2]:只跟 http(s) 重定向、限跳数——别让上游把 -L 引到别的协议去
     "--proto", "=http,https", "--proto-redir", "=http,https", "--max-redirs", "10",
-    ...(PROXY ? ["-x", PROXY] : []),
+    // 代理不写 -x 而交给 sh() 的 https_proxy 环境变量:-x 会钉死一条路,而 curl 认这个变量,
+    // 于是「代理挂了自动改直连(反之亦然)」的出口回退对下载同样生效。
     "-o", toFile, "-w", "code=%{http_code} type=%{content_type}", url,
   ]);
   if (r.status !== 0) throw new Error(`下载失败(curl exit ${r.status}):${(r.stderr || "").slice(-200)}`);
@@ -165,11 +185,15 @@ if (isMain) {
   console.log(`\n══ 音频搬运工 ${new Date().toISOString()}${dryRun ? "(--dry-run)" : ""} ══`);
 
   // 清单读 origin/main(fetch 后 git show,零工作区改动;与 patrol 同 checkout 也不打架)。
-  // git 代理必须走 -c:Mac mini ~/.gitconfig 的 URL 级空代理规则压过环境变量;HTTP/1.1 是过代理的协议要求。
-  const gitProxyArgs = PROXY
-    ? ["-c", `http.https://github.com/.proxy=${PROXY}`, "-c", "http.version=HTTP/1.1"]
-    : [];
-  shOrThrow("git", [...gitProxyArgs, "fetch", "origin", "main"]);
+  // git 的代理只能走 -c(Mac mini ~/.gitconfig 有 URL 级空代理规则,压过环境变量;HTTP/1.1 是过代理的协议要求)
+  // → 它吃不到 sh() 那套环境变量回退,故在这自己按出口逐条试。
+  const gitFetched = ROUTES.some((route) => {
+    const args = route ? ["-c", `http.https://github.com/.proxy=${route}`, "-c", "http.version=HTTP/1.1"] : [];
+    const r = sh("git", [...args, "fetch", "origin", "main"]);
+    if (r.status === 0 && route !== ROUTES[0]) console.log(`   (git 改走${route || "直连"}才通)`);
+    return r.status === 0;
+  });
+  if (!gitFetched) throw new Error("git fetch 全出口失败(代理与直连都不通),下轮再试");
   const state = JSON.parse(shOrThrow("git", ["show", "origin/main:data/pipeline-state.json"]).stdout);
   const wanted = listAudioWanted(state);
   console.log(wanted.length ? `待搬运 ${wanted.length} 条:${wanted.map((w) => w.id).join(", ")}` : "待搬运清单空。");
