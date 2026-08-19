@@ -59,6 +59,16 @@ export function listAudioWanted(state) {
   return Object.entries(state?.audioWanted ?? {}).map(([id, url]) => ({ id, url }));
 }
 
+/** 错误信息脱敏 + 压成一行(GLM 025[1][2]):代理 URL 可能内嵌 user:pass、git stderr 可能回显带 token 的 URL;
+ *  多行 stderr 拼进一条错误会把日志拆碎,统一折成「 · 」。日志是给人排查的,不该顺带泄密。 */
+export function scrubErr(text, max = 200) {
+  return String(text ?? "")
+    .replace(/\/\/[^/@\s]+:[^/@\s]+@/g, "//<已隐去>@") // http://user:pass@host → 隐去凭据
+    .replace(/\s*\n\s*/g, " · ")
+    .trim()
+    .slice(-max);
+}
+
 /** 孤儿 asset = 中转站上不在待搬运清单里的 —— 云端已消费(清账在先),或某次删失败留下的。
  *  只会误伤不了正主:id 只有被 consumeAudioWanted 划账才会离开清单,离开清单的就是该删的。
  *  ⚠️ 清单空时孤儿最多(云端刚消费完),故调用点必须在「清单空就收工」之前(2026-08-19 实证)。 */
@@ -206,7 +216,7 @@ if (isMain) {
       if (route !== ROUTES[0]) console.log(`   (git 改走${route || "直连"}才通)`);
       return true;
     }
-    gitErrs.push(`${route || "直连"}:${(r.stderr || r.stdout || "").trim().slice(-160)}`);
+    gitErrs.push(`${scrubErr(route || "直连", 60)}:${scrubErr(r.stderr || r.stdout)}`);
     return false;
   });
   // 逐条出口的原因必须带出来:只说「都不通」等于把排查现场毁掉(2026-08-19 我自己排查时被这句坑了半小时)

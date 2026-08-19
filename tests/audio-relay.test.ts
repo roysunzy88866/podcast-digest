@@ -15,6 +15,7 @@ import {
   audioAcceptable,
   staleAssets,
   isNetworkErr,
+  scrubErr,
 } from "../scripts/audio-relay.mjs";
 import { audioUrlCandidates } from "../scripts/fetch-source-whisperx.mjs";
 import { migrateState } from "../scripts/run-pipeline.mjs";
@@ -106,6 +107,25 @@ describe("run-pipeline 接线(源码锚,防登记/清账/优先查被静默摘�
     expect(runAsrBody).toContain('"--relay-url"');
     expect(runAsrBody).toContain("consumeAudioWanted(state, id)");
     expect(runAsrBody).toContain('"delete-asset"');
+  });
+});
+
+describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
+  it("★ 代理/远端 URL 里内嵌的账号密码隐去(GLM 025[1])", () => {
+    expect(scrubErr("http://tom:s3cret@10.0.0.1:8080")).toBe("http://<已隐去>@10.0.0.1:8080");
+    expect(scrubErr("fatal: unable to access 'https://user:ghp_abc123@github.com/x/y.git/'"))
+      .not.toContain("ghp_abc123");
+  });
+  it("多行 stderr 折成一行(不把日志拆碎)", () => {
+    expect(scrubErr("warning: 前情\nfatal: 连不上")).toBe("warning: 前情 · fatal: 连不上");
+  });
+  it("保留尾部要害(连不上的真正原因在末尾)且能截断", () => {
+    expect(scrubErr("fatal: unable to access: Failed to connect to 127.0.0.1 port 9")).toContain("Failed to connect");
+    expect(scrubErr("x".repeat(500)).length).toBe(200);
+  });
+  it("空值不炸", () => {
+    expect(scrubErr(null)).toBe("");
+    expect(scrubErr(undefined)).toBe("");
   });
 });
 
