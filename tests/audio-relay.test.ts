@@ -134,10 +134,14 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
     expect(out.endsWith("😀")).toBe(true);
     expect(Array.from(out).length).toBe(200);
   });
-  it("★ 任何长度下都不吐出孤立代理对(粗切点落在 emoji 中间也不行,GLM 028[1])", () => {
-    for (let pad = 395; pad <= 402; pad++) {
-      const out = scrubErr("x".repeat(pad) + "😀", 200);
-      expect(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/.test(out)).toBe(false);
+  it("任何输入都不吐出孤立代理对(混合宽度字符 × 多种 max 扫一遍)", () => {
+    const lone = /[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/;
+    const alphabet = ["a", "😀", "中", "𝔘"];
+    for (let t = 0; t < 200; t++) {
+      const max = 3 + (t % 12);
+      let s = "";
+      for (let i = 0; i < 4 * max + (t % 7); i++) s += alphabet[(t * 7 + i * 3) % 4];
+      expect(lone.test(scrubErr(s, max))).toBe(false);
     }
   });
   it("已知不覆盖:密码里有未编码的 /(URL 规范要求百分号编码,真出现属畸形串)——留测试看守这条取舍", () => {

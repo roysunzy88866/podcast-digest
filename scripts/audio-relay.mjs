@@ -72,10 +72,10 @@ export function scrubErr(text, max = 200) {
     .replace(/\s*\n\s*/g, " · ")
     .trim();
   // 按码点截断:直接 slice 会把 emoji 之类切成半个代理对,日志里留下孤字节(GLM 026[3])。
-  // 先按码元粗切 2×max(一个码点最多 2 个码元)再展开,免得几 MB 的 stderr 整串展成数组(GLM 027[3]);
-  // 粗切点本身可能落在代理对中间 → 掐掉开头那半个,别让它冒充一个码点混进结果(GLM 028[1])。
-  const coarse = scrubbed.slice(-max * 2).replace(/^[\uDC00-\uDFFF]/, "");
-  return Array.from(coarse).slice(-max).join("");
+  // 先按码元粗切 2×max(一个码点最多 2 个码元)再展开,免得几 MB 的 stderr 整串展成数组(GLM 027[3])。
+  // 粗切点可能落在代理对中间,但那半个必然在开头,而 2×max 码元至少 max+1 个码点 → 末尾 max 个里轮不到它。
+  // (GLM 028[1] 提过要掐掉开头半个;我加了,变异验证发现测试恒绿,穷举 2 万组混合宽度字符零复现 → 死代码,撤回。)
+  return Array.from(scrubbed.slice(-max * 2)).slice(-max).join("");
 }
 
 /** 孤儿 asset = 中转站上不在待搬运清单里的 —— 云端已消费(清账在先),或某次删失败留下的。
