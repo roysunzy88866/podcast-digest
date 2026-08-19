@@ -119,9 +119,15 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
   it("★ 只带 token 无冒号的 URL 也隐去(GLM 026[1]:原正则漏的就是这形态)", () => {
     expect(scrubErr("fatal: unable to access https://ghp_abc123@github.com/x/y.git/")).not.toContain("ghp_abc123");
   });
-  it("★ 密码里含 / 或 @ 也隐得掉(GLM 026[2]:宁可多隐,不漏)", () => {
-    expect(scrubErr("http://user:pa/ss@host:8080")).not.toContain("pa/ss");
-    expect(scrubErr("http://user:p@ss@host")).not.toContain("ss@host".slice(0, 2) + "@");
+  it("★ 密码里含未编码 @ 的也整段隐掉", () => {
+    expect(scrubErr("http://user:p@ss@host")).toBe("http://<已隐去>@host");
+  });
+  it("★★ 一行两个 URL 时不许跨着吞(GLM 027[1] 逮到的回归:脱敏不能反过来毁掉排查信息)", () => {
+    const out = scrubErr("https://secret@evil.com/a 与 https://ok.com/b 失败,联系 contact@x.com");
+    expect(out).not.toContain("secret");
+    expect(out).toContain("evil.com/a");       // 第一个 URL 的主机/路径要留着
+    expect(out).toContain("https://ok.com/b"); // 无凭据的正常 URL 一个字不动
+    expect(out).toContain("contact@x.com");    // 邮箱不是 URL,不误伤
   });
   it("★ 截断按码点,不把 emoji 切成半个(GLM 026[3])", () => {
     const out = scrubErr("x".repeat(199) + "😀", 200);

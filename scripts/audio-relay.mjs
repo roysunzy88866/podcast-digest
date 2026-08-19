@@ -63,13 +63,17 @@ export function listAudioWanted(state) {
  *  多行 stderr 拼进一条错误会把日志拆碎,统一折成「 · 」。日志是给人排查的,不该顺带泄密。 */
 export function scrubErr(text, max = 200) {
   const scrubbed = String(text ?? "")
-    // 贪婪吃到该 token 里最后一个 @:一并覆盖 //user:pass@host 与 //ghp_token@host(无冒号,GLM 026[1]),
-    // 以及密码里含 / 或 @ 的情况(GLM 026[2])。宁可多隐一点也不漏 —— 日志里认不出主机好过泄了凭据。
-    .replace(/\/\/[^\s]*@/g, "//<已隐去>@")
+    // 只吃 URL 的 userinfo 段:`//` 之后、被 `/` 与空白兜住的部分,末尾必须是 @。
+    // 覆盖 //user:pass@host 与 //ghp_token@host(无冒号,GLM 026[1]);类内允许 @ 故 //u:p@ss@host 也整段隐掉。
+    // ⚠️ 不可放宽成 [^\s]*(我 026 那刀的回归,GLM 027[1] 逮到):一行里有两个 URL 时会从第一个 `//`
+    // 一路吃到最后一个 @,把中间的主机名/路径全隐掉 —— 排查信息毁于脱敏,比泄密更常发生。
+    // 已知不覆盖:密码里有未编码的 `/`(URL 规范要求百分号编码,真出现属畸形串),不为它把边界放开。
+    .replace(/\/\/[^/\s]*@/g, "//<已隐去>@")
     .replace(/\s*\n\s*/g, " · ")
     .trim();
-  // 按码点截断:直接 slice 会把 emoji 之类切成半个代理对,日志里留下孤字节(GLM 026[3])
-  return Array.from(scrubbed).slice(-max).join("");
+  // 按码点截断:直接 slice 会把 emoji 之类切成半个代理对,日志里留下孤字节(GLM 026[3])。
+  // 先按码元粗切 2×max(一个码点最多 2 个码元)再展开,免得几 MB 的 stderr 整串展成数组(GLM 027[3])。
+  return Array.from(scrubbed.slice(-max * 2)).slice(-max).join("");
 }
 
 /** 孤儿 asset = 中转站上不在待搬运清单里的 —— 云端已消费(清账在先),或某次删失败留下的。
