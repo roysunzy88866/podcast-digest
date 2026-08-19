@@ -143,7 +143,9 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
       for (let i = 0; i < 4 * max + (t % 7); i++) s += alphabet[(t * 7 + i * 3) % 4];
       const out = scrubErr(s, max);
       expect(lone.test(out)).toBe(false);
-      expect(Array.from(out).length).toBeLessThanOrEqual(max); // 截断真截住(GLM 029[3]:只断言不乱码测不出没截断)
+      // 这些输入不含凭据/换行,脱敏与折行都是恒等 → 输出必须逐字等于「末尾 max 个码点」。
+      // 精确到这一步才钉得住:只断言「≤max」的话,return "" 和「取开头 max 个」都能蒙混过关(GLM 030[1][3])。
+      expect(out).toBe(Array.from(s).slice(-max).join(""));
     }
   });
   it("已知不覆盖:密码里有未编码的 /(URL 规范要求百分号编码,真出现属畸形串)——留测试看守这条取舍", () => {
