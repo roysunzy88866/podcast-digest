@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[护栏]] · [[推理]] · [[Theo Jaffe]] · [[Mistral]] · [[Joel de la Garza]] · [[Sofia Puccini]] · [[开放权重]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"智能体":91,"OpenAI":37,"护栏":15,"推理":1,"Theo Jaffe":2,"Mistral":3,"Joel de la Garza":3,"Sofia Puccini":2,"开放权重":2,"开源权重":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":92,"OpenAI":37,"护栏":15,"推理":1,"Theo Jaffe":2,"Mistral":3,"Joel de la Garza":3,"Sofia Puccini":2,"开放权重":2,"开源权重":2}</script>
 
 <script>
 (function(){

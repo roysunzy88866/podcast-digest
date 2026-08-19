@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":8,"智能体":91,"Codex":17,"Claude Code":23,"MCP":14,"提示注入":1,"CLI":2,"护城河":4,"ChatGPT":19}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":8,"智能体":92,"Codex":18,"Claude Code":23,"MCP":14,"提示注入":1,"CLI":2,"护城河":4,"ChatGPT":20}</script>
 
 <script>
 (function(){

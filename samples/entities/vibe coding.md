@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Claude]] · [[Cursor]] · [[Anthropic]] · [[ChatGPT]] · [[后训练]] · [[Codex]] · [[Claude Code]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":91,"Lenny":52,"Claude":19,"Cursor":20,"Anthropic":47,"ChatGPT":19,"后训练":9,"Codex":17,"Claude Code":23,"OpenAI":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":92,"Lenny":52,"Claude":19,"Cursor":20,"Anthropic":47,"ChatGPT":20,"后训练":9,"Codex":18,"Claude Code":23,"OpenAI":37}</script>
 
 <script>
 (function(){

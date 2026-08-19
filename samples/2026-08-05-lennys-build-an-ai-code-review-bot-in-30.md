@@ -104,7 +104,7 @@ jsonLd: |
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Codex、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
+- [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:Codex、Vercel · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

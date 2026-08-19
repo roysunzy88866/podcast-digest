@@ -119,7 +119,7 @@ jsonLd: |
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT、Google</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT · 同概念:主观能动性 (agency)</span>
-- [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:ChatGPT、Google</span>
+- [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT</span>
 
 </div>
 </div>

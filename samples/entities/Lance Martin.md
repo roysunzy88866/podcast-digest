@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 

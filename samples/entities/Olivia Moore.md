@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":91,"回路中的人类":2,"现有巨头":1,"Stripe":12}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":92,"回路中的人类":2,"现有巨头":1,"Stripe":13}</script>
 
 <script>
 (function(){

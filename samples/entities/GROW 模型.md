@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[Rachel Lockett]] · [[辅导]] · [[积极倾听]] · [[非暴力沟通]] · [[职业倦怠]] · [[联合创始人]] · [[一页纸计划]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Rachel Lockett":1,"辅导":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Rachel Lockett":1,"辅导":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":13}</script>
 
 <script>
 (function(){

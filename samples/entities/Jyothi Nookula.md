@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":19,"Claude Code":23,"智能体":91,"对抗性智能体":1,"MCP":14,"知识库":1,"技能":4,"vibe coding":10,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":19,"Claude Code":23,"智能体":92,"对抗性智能体":1,"MCP":14,"知识库":1,"技能":4,"vibe coding":10,"红队测试":2}</script>
 
 <script>
 (function(){

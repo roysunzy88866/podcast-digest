@@ -1,0 +1,705 @@
+{
+  "episode_id": "2026-08-17-lennys-how-a-solo-founder-used-codex-and",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-17",
+  "tags": [
+    "AI 原生品牌",
+    "vibe coding",
+    "智能体",
+    "时尚设计",
+    "SaaS"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "claire-veva",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Veva",
+      "file": "Claire Veva",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            79.111,
+            84.375
+          ],
+          "quote": "I'm Claire Veva, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yana-welinder",
+      "type": "person",
+      "role": "cohost",
+      "name": "Yana Welinder",
+      "file": "Yana Welinder",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "yanabana",
+      "type": "company",
+      "role": "company",
+      "name": "Yanabana",
+      "file": "Yanabana",
+      "primary": true,
+      "how_described": "本集说 Yanabana 是一个 AI 原生时尚品牌，从设计、生产到建站全流程都用 AI，被类比为'AI 原生的 Everlane'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            220.963,
+            224.624
+          ],
+          "quote": "So this is Yanabana, the fashion brand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1894.952,
+            1902.315
+          ],
+          "quote": "I am Yanabana on X. I am now Yanabana at X. I changed my handle to match the brand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1909.798,
+            1913.08
+          ],
+          "quote": "Like you can come to Yanabana and like vote on...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是 Jana 事实上的技术联合创始人，用来建网站、接 Stripe 支付、操作 3D 软件建模、生成版型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.732,
+            8.613
+          ],
+          "quote": "I sort of just came to Codex and asked it to build the website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            67.847,
+            74.15
+          ],
+          "quote": "So I am working with human pattern makers, Codex, and just seeing who's going to get to making my thing fastest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            797.73,
+            803.052
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude, Cursor, Codex, or Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1048.747,
+            1060.95
+          ],
+          "quote": "And so I then went onto Codex and had it help me create CAD files for these balls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1149.552,
+            1156.659
+          ],
+          "quote": "The other thing that I love, bless computer use and like Codex plus computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1185.156,
+            1200.639
+          ],
+          "quote": "And one fascinating piece is that a lot of these things, like, for actual end product, like a CAD file, Codex, as amazing as it is, is not great at generating a final CAD file if you ask it to do it on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1225.885,
+            1229.767
+          ],
+          "quote": "And I tell Codex to go and use this software that I haven't learned how to use myself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1237.788,
+            1242.469
+          ],
+          "quote": "Codex works so well on a lot of these things that don't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1486.408,
+            1495.955
+          ],
+          "quote": "Like I had to build this website and I did it and I sort of just came to Codex and asked it to build the website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1649.114,
+            1653.076
+          ],
+          "quote": "We can create like a Codex club for fourth graders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1661.16,
+            1669.683
+          ],
+          "quote": "I want to go back to one thing, because ripped from the headlines Codex prompting, I too am like, hey, Codex, do this thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1789.48,
+            1791.323
+          ],
+          "quote": "And Codex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 的图像模型（Images 2.0）最擅长遵循视觉指令、贴合原始草图，是设计流程中生成产品照和 T 台照的核心工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            460.513,
+            463.376
+          ],
+          "quote": "And plug into ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            602.421,
+            610.264
+          ],
+          "quote": "I have a question for you, which is why ChatGPT and why ImageGen2 as the model you're using?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            644.744,
+            657.114
+          ],
+          "quote": "And what Image 1.5 did better than Nanobanana and ChatGPT Images 2.0 does even better is it really well follows the sketch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            945.031,
+            955.453
+          ],
+          "quote": "And it was important that it had a beige undergarment because otherwise ChatGPT will not like, it's like, no, you're trying to make me, make me pictures and I don't do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1621.67,
+            1645.413
+          ],
+          "quote": "we're using like ChatGPT sites and I'm sort of just like sitting there going like do I should I really like do I want to migrate off of Vercel do I really want like you know like is this is this a whole new like now like now a nine-year-old can have his technical co-founder like do this or like build build a company for him right like just it's it's just so cool to see this all evolve you know",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1727.943,
+            1730.425
+          ],
+          "quote": "ChatGPT, pretty incredible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到通过 Codex 的 browser use 把 Stripe 支付接入网站，被描述为以前是繁琐大工程、现在很快就搞定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1501.058,
+            1512.743
+          ],
+          "quote": "Like you can obviously pre-order things that I could like add Stripe to it, which is like in prior lives have been like a tedious, big exercise, but I can go back and kind of show you the Stripe flow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1552.82,
+            1564.644
+          ],
+          "quote": "But like just to kind of show you like the Stripe flow as an example of like, yeah, I came here and I was like, oh, yeah, use browser to add Stripe to my site.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到需要改网站时，Codex 会自动去 GitHub 找仓库并改代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            812.349,
+            822.172
+          ],
+          "quote": "The teamwork graph pulls all of that from across your entire stack from Jira and Confluence to GitHub and feeds it directly to your agents before they write a single line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1610.88,
+            1614.884
+          ],
+          "quote": "It finds the repository in GitHub and does all the things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集顺带提到在考虑是否要从 Vercel 迁移到 ChatGPT 站点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1621.67,
+            1645.413
+          ],
+          "quote": "we're using like ChatGPT sites and I'm sort of just like sitting there going like do I should I really like do I want to migrate off of Vercel do I really want like you know like is this is this a whole new like now like now a nine-year-old can have his technical co-founder like do this or like build build a company for him right like just it's it's just so cool to see this all evolve you know",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "clo",
+      "type": "company",
+      "role": "company",
+      "name": "Clo",
+      "file": "Clo",
+      "primary": false,
+      "how_described": "本集说 Clo 是一个服装软件，能生成版型并贴合到 3D 模型上，Jana 自己没学会用但让 Codex 通过 computer use 操作它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1217.039,
+            1219.881
+          ],
+          "quote": "And then there's a software called Clo that I've used as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "type": "company",
+      "role": "company",
+      "name": "SuperHuman",
+      "file": "SuperHuman",
+      "primary": false,
+      "how_described": "本集提到用 browser use 让 Codex 进入 SuperHuman 邮箱设置好所有要发给工厂的邮件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1352.46,
+            1363.063
+          ],
+          "quote": "And then I use browser use to let it go into SuperHuman and like set all of these up for me, but I really want to click the send button before.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体真的很擅长按按钮，所以软件回来了但使用者从人变成了智能体，SaaS 没死只是入口变了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            790.047,
+            797.17
+          ],
+          "quote": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            822.812,
+            827.613
+          ],
+          "quote": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集说 computer use 是让 AI 像人一样操作电脑软件的能力，Codex 单独生成 CAD 文件不行但通过它操作专业 3D 软件效果就很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            89.999,
+            101.407
+          ],
+          "quote": "And she's going to show us how AI can intersect art, creativity, and real world production, and why computer use plus software means SaaS really isn't dead, at least not yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1085.993,
+            1097.845
+          ],
+          "quote": "And then ultimately I had it using computer use, go and build this in 3D software so that I could create like an .ncl file and send off to 3D print.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1149.552,
+            1156.659
+          ],
+          "quote": "The other thing that I love, bless computer use and like Codex plus computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1201.099,
+            1215.237
+          ],
+          "quote": "But if you use, yeah, if you use computer use and have it go and do it in a piece of software that's designed for that purpose, and I have both for like actually for 3D printing and there's a fashion",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "browser use",
+      "file": "browser use",
+      "primary": true,
+      "how_described": "本集说 browser use 类似 computer use 但操作的是浏览器，用来让 Codex 登录 Stripe 接入支付、进 SuperHuman 设置邮件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1352.46,
+            1363.063
+          ],
+          "quote": "And then I use browser use to let it go into SuperHuman and like set all of these up for me, but I really want to click the send button before.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说写提示词就像写产品规格说明，要定义轮廓、比例、面料流动方式、结构细节等维度，对 AI 好的对人类也好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            533.875,
+            539.418
+          ],
+          "quote": "And if I had a specific sketch, it would really adhere to my sketch much more so than what was in the prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            703.789,
+            710.452
+          ],
+          "quote": "What I love, and if you can go back to your prompt, Flo, what I love about this is this is just, okay, so people are going to be like, I'm not a fashion designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            725.078,
+            748.976
+          ],
+          "quote": "We're like official product ladies and you need a spec like your prompt is a spec and so if you can put into the effort of saying like what makes a really good garment like what makes a really good photo what makes a really good illustration and come up with like five things that you can define for the prompt",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1807.402,
+            1817.037
+          ],
+          "quote": "And then my last question that I ask everybody speaking of like when it's hard and when it fails you and not getting there quite yet, which is how do you prompt AI when it's not working?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "3d-print",
+      "type": "concept",
+      "role": "concept",
+      "name": "3D 打印 (3D print)",
+      "file": "3D 打印",
+      "primary": false,
+      "how_described": "本集提到那条受 Ruth Asaba 启发的裙子上的球形装饰件需要 3D 打印，由 Codex 通过 computer use 在 3D 软件中建模后导出文件送去打印",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1033.82,
+            1041.725
+          ],
+          "quote": "But the next step for this particular garment will be to take it and 3D print it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1085.993,
+            1097.845
+          ],
+          "quote": "And then ultimately I had it using computer use, go and build this in 3D software so that I could create like an .ncl file and send off to 3D print.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1098.145,
+            1102.009
+          ],
+          "quote": "So that's the process for this particular garment is sort of to 3D print it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1106.755,
+            1130.828
+          ],
+          "quote": "If we're just talking about the creative generation process, again, this is now a garment that would have been previously almost inconceivable to make, not just because it's difficult to construct, but even if you were like, of course, we could 3D print that before AI, we could 3D print it after AI, the tedium of creating the CAD models",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cad-file",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAD 文件 (CAD file)",
+      "file": "CAD 文件",
+      "primary": false,
+      "how_described": "本集说让 Codex 直接生成最终 CAD 文件效果不好，但通过 computer use 操作专业 3D 软件来创建 CAD 文件就行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            1185.156,
+            1200.639
+          ],
+          "quote": "And one fascinating piece is that a lot of these things, like, for actual end product, like a CAD file, Codex, as amazing as it is, is not great at generating a final CAD file if you ask it to do it on its own.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "type": "concept",
+      "role": "concept",
+      "name": "纸样 (patterns)",
+      "file": "纸样",
+      "primary": false,
+      "how_described": "本集说根据设计创建精确的裁剪纸样是仍未解决的难题，目前让人类打版师和 Codex 并行跑看谁先达到要求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            57.861,
+            64.845
+          ],
+          "quote": "The other piece that is still unsolved and I'm sort of still banging my head against the wall is to get it to create patterns based on my design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            999.442,
+            1016.37
+          ],
+          "quote": "A lot of garments you would do like some garments I will drape right like on the model behind me or some garments go into they become you create a kind of a pattern and I have different some AI processes and some non-AI processes that I've done for patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1219.921,
+            1225.064
+          ],
+          "quote": "And it generates patterns and it then fits them on the 3D model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1770.679,
+            1776.906
+          ],
+          "quote": "The other piece that is still unsolved and I'm sort of still banging my head against the wall is to get it to create patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1777.246,
+            1783.814
+          ],
+          "quote": "So to get it to create like actually accurate patterns based on my design.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说 SaaS 没死，只是使用者变了——智能体擅长按按钮，所以软件回来了但变成智能体在用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            89.999,
+            101.407
+          ],
+          "quote": "And she's going to show us how AI can intersect art, creativity, and real world production, and why computer use plus software means SaaS really isn't dead, at least not yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1166.97,
+            1170.433
+          ],
+          "quote": "I've gone through this like trough of despair of like SaaS is dead.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

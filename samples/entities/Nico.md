@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]]
+[[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":7,"GitHub":15,"Notion":5,"Slack":18,"智能体":91,"提示词":2,"代码":1,"代码层":1,"Make":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":7,"GitHub":16,"Notion":5,"Slack":18,"智能体":92,"提示词":2,"代码":1,"代码层":1,"Make":2}</script>
 
 <script>
 (function(){

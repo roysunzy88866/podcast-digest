@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chelsea Finn]] · [[Waymo]] · [[ChatGPT]] · [[物理 AI]] · [[强化学习]] · [[长期自主性]] · [[组合泛化]] · [[价值函数]] · [[记忆]]
 
-<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Waymo":9,"ChatGPT":19,"物理 AI":4,"强化学习":10,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":2}</script>
+<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Waymo":9,"ChatGPT":20,"物理 AI":4,"强化学习":10,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":2}</script>
 
 <script>
 (function(){

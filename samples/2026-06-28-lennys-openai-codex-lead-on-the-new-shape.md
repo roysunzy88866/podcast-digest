@@ -149,8 +149,8 @@ Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它�
 **顺着「AI 编程」挖下去**
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、Linear · 同概念:智能体 (agent)</span>
+- [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)、计算机使用 (computer use)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex · 同概念:智能体 (agent)</span>
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:Codex、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Gagan Bhat]] [[Isabella Kai He]] [[Peter Steinberger]] [[Justin Smith]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":10,"智能体":91,"智能体网络":1,"MCP":14,"缩放定律":3,"康威定律":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":10,"智能体":92,"智能体网络":1,"MCP":14,"缩放定律":3,"康威定律":1}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Uber]] · [[Ramp]] · [[智能体]] · [[Revolut]] · [[Chip Connolly]] · [[Nesrine Changuel]] · [[Lenny Rachitsky]] · [[Keith Rabois]] · [[Meng To]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Uber":3,"Ramp":3,"智能体":91,"Revolut":2,"Chip Connolly":1,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"Uber":3,"Ramp":3,"智能体":92,"Revolut":2,"Chip Connolly":1,"Nesrine Changuel":1,"Lenny Rachitsky":1,"Keith Rabois":1,"Meng To":1}</script>
 
 <script>
 (function(){

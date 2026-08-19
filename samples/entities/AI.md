@@ -233,7 +233,7 @@ unlisted: true
 
 [[Lenny]] · [[MCP]] · [[智能体]] · [[Dylan Field]] · [[Melanie Perkins]] · [[Nikhyl Singhal]] · [[Bruno Scott Sperka]] · [[Whitney Wolfe Herd]] · [[Roblox CEO]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"MCP":14,"智能体":91,"Dylan Field":2,"Melanie Perkins":1,"Nikhyl Singhal":1,"Bruno Scott Sperka":1,"Whitney Wolfe Herd":1,"Roblox CEO":1,"Figma":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":52,"MCP":14,"智能体":92,"Dylan Field":2,"Melanie Perkins":1,"Nikhyl Singhal":1,"Bruno Scott Sperka":1,"Whitney Wolfe Herd":1,"Roblox CEO":1,"Figma":7}</script>
 
 <script>
 (function(){

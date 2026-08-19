@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(17:43起):本集演示中提到，当有人在 Slack 频道发布一个 GitHub 标签时，智能体就会识别出那是一次发布并开始监视它。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(03:42起):本集把它说成:多端工作流中的一环,用于最终完成和审查同一个智能体会话。
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(06:59起):本集作为典型场景被提及：开发者让智能体调用专门的 CLI 工具，获取短效令牌以向 GitHub 进行认证，而不是去读静态文件里的死密钥。
+- **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(13:32起):本集提到需要改网站时，Codex 会自动去 GitHub 找仓库并改代码
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(00:47起):本集说它是 Origin 试图替代的对象，当前没有人对 GitHub 满意——稳定性糟糕，且还没给出大家期望的 AI 原生 Git 体验
 
 ## ① 提到它的金句
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -51,15 +52,16 @@ unlisted: true
 - [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司(提及)
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司(提及)
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为被讨论公司(提及)
+- [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司(提及)
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Cursor]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Lenny]] · [[Notion]] · [[Codex]] · [[Intercom]]
+[[智能体]] · [[Slack]] · [[Cursor]] · [[沙箱]] · [[Figma]] · [[Claude Code]] · [[Codex]] · [[Lenny]] · [[Notion]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"智能体":91,"Slack":18,"Cursor":20,"沙箱":18,"Figma":7,"Claude Code":23,"Lenny":52,"Notion":5,"Codex":17,"Intercom":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":92,"Slack":18,"Cursor":20,"沙箱":18,"Figma":7,"Claude Code":23,"Codex":18,"Lenny":52,"Notion":5,"Vercel":6}</script>
 
 <script>
 (function(){

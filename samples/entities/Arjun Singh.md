@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]] [[Vaibhav Gupta]] [[Boris Cherny]]
+[[Claire Veva]] [[Yana Welinder]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]] [[Kenton Varda]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":91,"沙箱":18,"基准测试":4,"上下文":6,"开放权重模型":5,"Slack":18,"Claude Code":23,"Codex":17,"Cursor":20}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":92,"沙箱":18,"基准测试":4,"上下文":6,"开放权重模型":5,"Slack":18,"Claude Code":23,"Codex":18,"Cursor":20}</script>
 
 <script>
 (function(){
