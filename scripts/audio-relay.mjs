@@ -83,22 +83,33 @@ const PROXY = process.env.AUDIO_RELAY_PROXY ?? ""; // 空=直连(Mac mini 默认
 // 而 GitHub 走代理时代理上游又死过(mihomo 在听但请求全 000,同刻直连 github 200)。
 // 无人值守的搬运工不该被单一出口拖死,故每个网络子进程失败后自动换另一条再试一次。
 const ROUTES = PROXY ? [PROXY, ""] : [""];
-/** 网络层故障签名(换出口重试的判据)。业务性失败(如 release not found)不匹配 → 不浪费一次重试。 */
+/** 网络层故障签名(换出口重试的判据)。业务性失败(如 release not found / 403 无权限)不匹配 → 不浪费一次重试。
+ *  代理上游半死的花样多(GLM 024[3]):除连不上/超时,还有 curl (52) 空回复、(56) recv 失败、gh 的 context deadline。 */
 export function isNetworkErr(stderr) {
-  return /Could not resolve|Couldn't connect|Failed to connect|Connection refused|onnection reset|timed? ?out|SSL_ERROR|EOF|not reachable|network is unreachable/i.test(String(stderr ?? ""));
+  return /Could not resolve|Couldn't connect|Failed to connect|Connection refused|onnection reset|timed? ?out|deadline exceeded|SSL_ERROR|EOF|Empty reply|Recv failure|Send failure|not reachable|network is unreachable|proxy CONNECT/i
+    .test(String(stderr ?? ""));
 }
 
+/** 按出口造 env。⚠️ 两种大小写都要写/删(GLM 024[1]):Go 写的 gh 认 HTTPS_PROXY 大写,
+ *  只设小写会被环境里残留的大写变量劫持 —— 首选出口和回退出口双双失真,还查不出来。 */
 function envForRoute(route) {
   const env = { ...process.env };
-  if (route) env.https_proxy = env.http_proxy = route;
-  else delete env.https_proxy, delete env.http_proxy, delete env.HTTPS_PROXY, delete env.HTTP_PROXY;
+  for (const k of ["https_proxy", "http_proxy", "HTTPS_PROXY", "HTTP_PROXY"]) delete env[k];
+  if (route) {
+    env.https_proxy = env.http_proxy = route;
+    env.HTTPS_PROXY = env.HTTP_PROXY = route;
+  }
   return env;
 }
 
+/** 网络子进程。默认失败后换另一条出口再试一次;singleRoute=true 只跑首选(给自己已按出口拼好参数的调用点,
+ *  否则内外双层重试 = 最多 4 次带超时的调用,而内层换环境变量压不过命令行 -c,纯白跑,GLM 024[2])。 */
 function sh(cmd, args, opts = {}) {
+  const { singleRoute, ...spawnOpts } = opts;
   let last;
-  for (const route of ROUTES) {
-    const r = spawnSync(cmd, args, { cwd: ROOT, env: envForRoute(route), encoding: "utf8", ...opts });
+  for (const route of singleRoute ? ROUTES.slice(0, 1) : ROUTES) {
+    // env 刻意放 ...spawnOpts 之后:出口正确性不许被调用方的 opts.env 静默盖掉(GLM 024[4])
+    const r = spawnSync(cmd, args, { cwd: ROOT, encoding: "utf8", ...spawnOpts, env: envForRoute(route) });
     if (r.error?.code === "ENOENT") throw new Error(`本机没装 ${cmd}(audio-relay 需要 git + gh + curl)`);
     last = r;
     if (r.status === 0) {
@@ -189,7 +200,7 @@ if (isMain) {
   // → 它吃不到 sh() 那套环境变量回退,故在这自己按出口逐条试。
   const gitFetched = ROUTES.some((route) => {
     const args = route ? ["-c", `http.https://github.com/.proxy=${route}`, "-c", "http.version=HTTP/1.1"] : [];
-    const r = sh("git", [...args, "fetch", "origin", "main"]);
+    const r = sh("git", [...args, "fetch", "origin", "main"], { singleRoute: true }); // 出口已钉在 -c 里,别再套一层
     if (r.status === 0 && route !== ROUTES[0]) console.log(`   (git 改走${route || "直连"}才通)`);
     return r.status === 0;
   });

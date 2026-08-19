@@ -116,6 +116,11 @@ describe("isNetworkErr(该不该换出口重试的判据)", () => {
     expect(isNetworkErr('Post "https://github.com/login/device/code": EOF')).toBe(true);
     expect(isNetworkErr("curl: (28) Operation timed out")).toBe(true);
   });
+  it("★ 代理上游半死的几种签名也认(GLM 024[3]:正是本方案要覆盖的故障)", () => {
+    expect(isNetworkErr("curl: (52) Empty reply from server")).toBe(true);
+    expect(isNetworkErr("curl: (56) Recv failure: Connection reset by peer")).toBe(true);
+    expect(isNetworkErr("context deadline exceeded")).toBe(true);
+  });
   it("★ 业务性失败不认(不为「release 不存在/没权限」白跑一次另一条出口)", () => {
     expect(isNetworkErr("release not found")).toBe(false);
     expect(isNetworkErr("HTTP 403: Resource not accessible by integration")).toBe(false);
