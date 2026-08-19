@@ -198,13 +198,19 @@ if (isMain) {
   // 清单读 origin/main(fetch 后 git show,零工作区改动;与 patrol 同 checkout 也不打架)。
   // git 的代理只能走 -c(Mac mini ~/.gitconfig 有 URL 级空代理规则,压过环境变量;HTTP/1.1 是过代理的协议要求)
   // → 它吃不到 sh() 那套环境变量回退,故在这自己按出口逐条试。
+  const gitErrs = [];
   const gitFetched = ROUTES.some((route) => {
     const args = route ? ["-c", `http.https://github.com/.proxy=${route}`, "-c", "http.version=HTTP/1.1"] : [];
     const r = sh("git", [...args, "fetch", "origin", "main"], { singleRoute: true }); // 出口已钉在 -c 里,别再套一层
-    if (r.status === 0 && route !== ROUTES[0]) console.log(`   (git 改走${route || "直连"}才通)`);
-    return r.status === 0;
+    if (r.status === 0) {
+      if (route !== ROUTES[0]) console.log(`   (git 改走${route || "直连"}才通)`);
+      return true;
+    }
+    gitErrs.push(`${route || "直连"}:${(r.stderr || r.stdout || "").trim().slice(-160)}`);
+    return false;
   });
-  if (!gitFetched) throw new Error("git fetch 全出口失败(代理与直连都不通),下轮再试");
+  // 逐条出口的原因必须带出来:只说「都不通」等于把排查现场毁掉(2026-08-19 我自己排查时被这句坑了半小时)
+  if (!gitFetched) throw new Error(`git fetch 全出口失败,下轮再试 —— ${gitErrs.join(" | ")}`);
   const state = JSON.parse(shOrThrow("git", ["show", "origin/main:data/pipeline-state.json"]).stdout);
   const wanted = listAudioWanted(state);
   console.log(wanted.length ? `待搬运 ${wanted.length} 条:${wanted.map((w) => w.id).join(", ")}` : "待搬运清单空。");
