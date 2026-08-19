@@ -134,6 +134,15 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
     expect(out.endsWith("😀")).toBe(true);
     expect(Array.from(out).length).toBe(200);
   });
+  it("★ 任何长度下都不吐出孤立代理对(粗切点落在 emoji 中间也不行,GLM 028[1])", () => {
+    for (let pad = 395; pad <= 402; pad++) {
+      const out = scrubErr("x".repeat(pad) + "😀", 200);
+      expect(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/.test(out)).toBe(false);
+    }
+  });
+  it("已知不覆盖:密码里有未编码的 /(URL 规范要求百分号编码,真出现属畸形串)——留测试看守这条取舍", () => {
+    expect(scrubErr("http://user:pa/ss@host:8080")).toContain("pa/ss"); // 改动此行前先想清楚会不会把跨 URL 吞回来
+  });
   it("多行 stderr 折成一行(不把日志拆碎)", () => {
     expect(scrubErr("warning: 前情\nfatal: 连不上")).toBe("warning: 前情 · fatal: 连不上");
   });
