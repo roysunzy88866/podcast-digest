@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -460,6 +460,20 @@ describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配�
   });
   it("★ 不是今天入库的一概不算(哪年的都一样)", () => {
     expect(countsTowardDailyTarget("2026-08-17-lennys-x", { added: "2026-08-18" }, TODAY)).toBe(false);
+  });
+  it("★★★ 非日期开头的手工 id 回落 meta.date,不靠字典序巧合(GLM 034[1]:库里真有 2026-singju-…)", () => {
+    // 「2026-singj」>= 「2026-01-01」恰好为真,纯属 's'>'0';换成字母开头就会误判成算入
+    expect(episodeDate("2026-singju-openclaw-80apps", { date: "2026-07-14" })).toBe("2026-07-14");
+    expect(countsTowardDailyTarget("2026-singju-openclaw-80apps", { added: TODAY, date: "2026-07-14" }, TODAY)).toBe(true);
+    expect(countsTowardDailyTarget("2025-singju-x", { added: TODAY, date: "2025-07-14" }, TODAY)).toBe(false);
+  });
+  it("★★★ 判不出日期 → 不算入(fail-closed;原实现对字母开头 id 会误判成算入)", () => {
+    expect(episodeDate("abc-singju-x", {})).toBe(null);
+    expect(countsTowardDailyTarget("abc-singju-x", { added: TODAY }, TODAY)).toBe(false);
+    expect(countsTowardDailyTarget("", { added: TODAY }, TODAY)).toBe(false);
+  });
+  it("★ id 前缀是合法日期时优先用它(与 meta.date 冲突也认 id,与库内目录名一致)", () => {
+    expect(episodeDate("2026-08-17-lennys-x", { date: "2020-01-01" })).toBe("2026-08-17");
   });
   it("meta 缺 added / 空 meta 不炸也不算", () => {
     expect(countsTowardDailyTarget("2026-08-17-lennys-x", {}, TODAY)).toBe(false);

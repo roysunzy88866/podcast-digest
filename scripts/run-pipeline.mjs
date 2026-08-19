@@ -1043,7 +1043,19 @@ function revivePass(state, { onlyKey, dryRun }) {
  *  老集(过渡期遗留 / 人工补 / 将来任何原因)不许再占配额,把真正该补的新内容挡在门外。 */
 export function countsTowardDailyTarget(id, meta, todayISO) {
   if (meta?.added !== todayISO) return false;
-  return String(id).slice(0, 10) >= BACKFILL_SINCE.slice(0, 10); // id 前 10 位 = 集发布日 YYYY-MM-DD
+  const d = episodeDate(id, meta);
+  return d ? d >= BACKFILL_SINCE.slice(0, 10) : false; // 判不出日期 → 不算入(fail-closed,宁可多补一集)
+}
+
+/** 集发布日(YYYY-MM-DD):id 前缀优先(deriveId 对 21 个源实测都产 `YYYY-MM-DD-`),
+ *  异常 id 回落 meta.date。**不许直接拿 id.slice(0,10) 去比字典序**(GLM 034[1] 逮到):
+ *  库里真有 `2026-singju-openclaw-80apps` 这种手工 id,前 10 位是「2026-singj」,
+ *  与「2026-01-01」比大小恰好判对纯属 's'>'0' 的巧合 —— 换成 `abc-...` 就会误判成算入。 */
+export function episodeDate(id, meta) {
+  const head = String(id ?? "").slice(0, 10);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(head)) return head;
+  const md = String(meta?.date ?? "").slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(md) ? md : null;
 }
 
 function countAddedToday(todayISO) {
@@ -1051,7 +1063,9 @@ function countAddedToday(todayISO) {
     try {
       const meta = JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8"));
       return countsTowardDailyTarget(id, meta, todayISO);
-    } catch {
+    } catch (e) {
+      // 别静默(GLM 034[3]):读坏一集就少算一集配额 → 多补一集历史多烧一次钱,要看得见
+      console.error(`   ⚠️ 配额计数跳过 ${id}(meta 读不出:${String(e?.message ?? e).slice(0, 80)})`);
       return false;
     }
   }).length;
