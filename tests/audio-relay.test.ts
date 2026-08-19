@@ -11,6 +11,7 @@ import {
   consumeAudioWanted,
   listAudioWanted,
   parseAssetNames,
+  parseCurlMeta,
 } from "../scripts/audio-relay.mjs";
 import { audioUrlCandidates } from "../scripts/fetch-source-whisperx.mjs";
 import { migrateState } from "../scripts/run-pipeline.mjs";
@@ -102,6 +103,22 @@ describe("run-pipeline 接线(源码锚,防登记/清账/优先查被静默摘�
     expect(runAsrBody).toContain('"--relay-url"');
     expect(runAsrBody).toContain("consumeAudioWanted(state, id)");
     expect(runAsrBody).toContain('"delete-asset"');
+  });
+});
+
+describe("parseCurlMeta(下载状态解析,坏文件拒收的判据)", () => {
+  it("取出状态码与 content-type(音频正常放行)", () => {
+    expect(parseCurlMeta("code=200 type=binary/octet-stream")).toEqual({ code: 200, ctype: "binary/octet-stream" });
+    expect(parseCurlMeta("code=206 type=audio/mpeg")).toEqual({ code: 206, ctype: "audio/mpeg" });
+  });
+  it("挑战页(200+text/html)与 4xx 都能被判出来", () => {
+    expect(parseCurlMeta("code=200 type=text/html; charset=utf-8")?.ctype).toMatch(/text\/html/);
+    expect(parseCurlMeta("code=403 type=text/plain")?.code).toBe(403);
+  });
+  it("读不出即 null(调用方 fail-closed 拒传,不当成功)", () => {
+    expect(parseCurlMeta("")).toBe(null);
+    expect(parseCurlMeta("curl: (7) Failed to connect")).toBe(null);
+    expect(parseCurlMeta(null)).toBe(null);
   });
 });
 

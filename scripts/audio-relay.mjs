@@ -14,13 +14,11 @@
 //       音频下载**永远直连**——住宅 IP 就是本方案的全部意义,绝不套代理。
 // 只上传 asset,不 commit 不 push(与 patrol 的 git 舞步零冲突);清单读 origin/main 不动工作区。
 // 纯逻辑导出供单测;副作用只在 main()。
-import { createWriteStream, mkdtempSync, rmSync, statSync } from "node:fs";
+import { mkdtempSync, rmSync, statSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, join } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
-import { pipeline } from "node:stream/promises";
-import { Readable } from "node:stream";
 import { assetUrlFor } from "./seed-talk.mjs";
 import { BROWSER_HEADERS } from "./fetch-source-whisperx.mjs";
 
@@ -100,21 +98,38 @@ function ensureRelease() {
     "--notes", "C30 音频搬运工:云端登记 state.audioWanted → Mac mini 住宅 IP 抓音频上传 → 云端消费后即删。asset 与集 id 一一对应,常态应为空。"]);
 }
 
-/** 直连下载音频到临时文件(绝不走代理;UA 与云端同款)。
+/** 下载音频到临时文件(UA 与云端同款)。
+ *  ⚠️ 2026-08-19 实测订正:原设计「音频永远直连」是错的 —— Mac mini 在国内,直连 api.substack.com
+ *  40s 超时(GFW),走 clash 7890 反而 206 拿到真 MP3(file 认出 MPEG)。**关键**:代理出口 IP 不是
+ *  GitHub runner 那个被封的 IP,所以拿得到 —— 本方案真正的杠杆是「换一个 Substack 不拒的出口」,
+ *  住宅 IP 只是其中一种。故这里跟随 AUDIO_RELAY_PROXY(空则直连,海外机器场景)。
+ *  用 curl 而非 node fetch:node 的 fetch 不读环境变量代理,显式 ProxyAgent 要押在 undici 上
+ *  (本仓只是 wrangler 的间接依赖,不该让搬运工吊在它身上);curl 是 macOS 自带,且正是它实测
+ *  在 mini 上 206 拿到真 MP3 的。与本脚本 git/gh 走子进程的风格一致。
  *  理智检查(GLM 020[4]):挑战页/错误页(200 + text/html)或迷你响应绝不能被当音频传上中转站——
  *  坏 asset 会让云端 whisperx 阶段失败(错误签名不再是「音频下载失败」),账目卡死、asset 永不清。 */
 const MIN_AUDIO_BYTES = 100 * 1024; // 播客音频没有小于 100KB 的;挑战页/错误页远小于此
-async function downloadDirect(url, toFile) {
-  const res = await fetch(url, { redirect: "follow", headers: BROWSER_HEADERS });
-  if (!res.ok) throw new Error(`下载失败 HTTP ${res.status}(URL: ${String(url).slice(0, 80)}…)`);
-  const ctype = res.headers.get("content-type") ?? "";
-  if (/text\/|html/.test(ctype)) {
-    await res.body?.cancel?.(); // GLM 021[3]:拒收也要释放响应体,别让连接吊着
-    throw new Error(`下载到的不是音频(content-type: ${ctype})——疑挑战页,拒传中转站`);
-  }
-  await pipeline(Readable.fromWeb(res.body), createWriteStream(toFile));
+
+/** curl -w 输出(末行 `code=%{http_code} type=%{content_type}`)→ {code, ctype}。解析不动即 fail-closed。 */
+export function parseCurlMeta(stdout) {
+  const m = String(stdout ?? "").match(/code=(\d+) type=([^\s]*)/);
+  return m ? { code: Number(m[1]), ctype: m[2] } : null;
+}
+
+function downloadAudio(url, toFile) {
+  const r = sh("curl", [
+    "-sL", "--max-time", "900", "--retry", "2", "-A", BROWSER_HEADERS["User-Agent"],
+    ...(PROXY ? ["-x", PROXY] : []),
+    "-o", toFile, "-w", "code=%{http_code} type=%{content_type}", url,
+  ]);
+  if (r.status !== 0) throw new Error(`下载失败(curl exit ${r.status}):${(r.stderr || "").slice(-200)}`);
+  const meta = parseCurlMeta(r.stdout);
+  if (!meta) throw new Error(`下载状态读不出(curl 输出异常),拒传中转站:${String(r.stdout).slice(-120)}`);
+  if (meta.code >= 400) throw new Error(`下载失败 HTTP ${meta.code}(URL: ${String(url).slice(0, 80)}…)`);
+  if (/text\/|html/.test(meta.ctype)) throw new Error(`下载到的不是音频(content-type: ${meta.ctype})——疑挑战页,拒传中转站`);
   const size = statSync(toFile).size;
   if (size < MIN_AUDIO_BYTES) throw new Error(`下载文件过小(${size} 字节)——疑非音频,拒传中转站`);
+  console.log(`      (${Math.round(size / 1024 / 1024)} MB,HTTP ${meta.code})`);
 }
 
 const isMain = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
@@ -153,7 +168,7 @@ if (isMain) {
     const work = mkdtempSync(join(tmpdir(), "audio-relay-"));
     try {
       console.log(`   ⬇️ ${id}:直连下载音频…`);
-      await downloadDirect(url, join(work, name));
+      downloadAudio(url, join(work, name));
       console.log(`   ⬆️ ${id}:gh release upload ${RELAY_TAG} …`);
       shOrThrow("gh", ["release", "upload", RELAY_TAG, join(work, name), "--clobber"]);
       console.log(`   ✅ ${id} 已上中转站(云端下一班自取)`);
