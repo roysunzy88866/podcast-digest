@@ -116,6 +116,18 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
     expect(scrubErr("fatal: unable to access 'https://user:ghp_abc123@github.com/x/y.git/'"))
       .not.toContain("ghp_abc123");
   });
+  it("★ 只带 token 无冒号的 URL 也隐去(GLM 026[1]:原正则漏的就是这形态)", () => {
+    expect(scrubErr("fatal: unable to access https://ghp_abc123@github.com/x/y.git/")).not.toContain("ghp_abc123");
+  });
+  it("★ 密码里含 / 或 @ 也隐得掉(GLM 026[2]:宁可多隐,不漏)", () => {
+    expect(scrubErr("http://user:pa/ss@host:8080")).not.toContain("pa/ss");
+    expect(scrubErr("http://user:p@ss@host")).not.toContain("ss@host".slice(0, 2) + "@");
+  });
+  it("★ 截断按码点,不把 emoji 切成半个(GLM 026[3])", () => {
+    const out = scrubErr("x".repeat(199) + "😀", 200);
+    expect(out.endsWith("😀")).toBe(true);
+    expect(Array.from(out).length).toBe(200);
+  });
   it("多行 stderr 折成一行(不把日志拆碎)", () => {
     expect(scrubErr("warning: 前情\nfatal: 连不上")).toBe("warning: 前情 · fatal: 连不上");
   });

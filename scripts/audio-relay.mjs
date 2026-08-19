@@ -62,11 +62,14 @@ export function listAudioWanted(state) {
 /** 错误信息脱敏 + 压成一行(GLM 025[1][2]):代理 URL 可能内嵌 user:pass、git stderr 可能回显带 token 的 URL;
  *  多行 stderr 拼进一条错误会把日志拆碎,统一折成「 · 」。日志是给人排查的,不该顺带泄密。 */
 export function scrubErr(text, max = 200) {
-  return String(text ?? "")
-    .replace(/\/\/[^/@\s]+:[^/@\s]+@/g, "//<已隐去>@") // http://user:pass@host → 隐去凭据
+  const scrubbed = String(text ?? "")
+    // 贪婪吃到该 token 里最后一个 @:一并覆盖 //user:pass@host 与 //ghp_token@host(无冒号,GLM 026[1]),
+    // 以及密码里含 / 或 @ 的情况(GLM 026[2])。宁可多隐一点也不漏 —— 日志里认不出主机好过泄了凭据。
+    .replace(/\/\/[^\s]*@/g, "//<已隐去>@")
     .replace(/\s*\n\s*/g, " · ")
-    .trim()
-    .slice(-max);
+    .trim();
+  // 按码点截断:直接 slice 会把 emoji 之类切成半个代理对,日志里留下孤字节(GLM 026[3])
+  return Array.from(scrubbed).slice(-max).join("");
 }
 
 /** 孤儿 asset = 中转站上不在待搬运清单里的 —— 云端已消费(清账在先),或某次删失败留下的。
