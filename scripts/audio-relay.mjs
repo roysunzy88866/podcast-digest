@@ -14,7 +14,7 @@
 //       音频下载**永远直连**——住宅 IP 就是本方案的全部意义,绝不套代理。
 // 只上传 asset,不 commit 不 push(与 patrol 的 git 舞步零冲突);清单读 origin/main 不动工作区。
 // 纯逻辑导出供单测;副作用只在 main()。
-import { mkdtempSync, rmSync, statSync } from "node:fs";
+import { mkdtempSync, rmSync, statSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, join } from "node:path";
 import { tmpdir } from "node:os";
@@ -57,6 +57,13 @@ export function consumeAudioWanted(state, id) {
 
 export function listAudioWanted(state) {
   return Object.entries(state?.audioWanted ?? {}).map(([id, url]) => ({ id, url }));
+}
+
+/** 孤儿 asset = 中转站上不在待搬运清单里的 —— 云端已消费(清账在先),或某次删失败留下的。
+ *  只会误伤不了正主:id 只有被 consumeAudioWanted 划账才会离开清单,离开清单的就是该删的。
+ *  ⚠️ 清单空时孤儿最多(云端刚消费完),故调用点必须在「清单空就收工」之前(2026-08-19 实证)。 */
+export function staleAssets(existingNames, wanted) {
+  return existingNames.filter((n) => !wanted.some(({ id }) => relayAssetName(id) === n));
 }
 
 /** `gh release view --json assets` 输出 → asset 名列表;解析不动(release 不存在/坏输出)当空,别崩搬运。 */
@@ -110,25 +117,37 @@ function ensureRelease() {
  *  坏 asset 会让云端 whisperx 阶段失败(错误签名不再是「音频下载失败」),账目卡死、asset 永不清。 */
 const MIN_AUDIO_BYTES = 100 * 1024; // 播客音频没有小于 100KB 的;挑战页/错误页远小于此
 
-/** curl -w 输出(末行 `code=%{http_code} type=%{content_type}`)→ {code, ctype}。解析不动即 fail-closed。 */
+/** curl -w 输出(`code=%{http_code} type=%{content_type}`)→ {code, ctype}。解析不动即 fail-closed。 */
 export function parseCurlMeta(stdout) {
   const m = String(stdout ?? "").match(/code=(\d+) type=([^\s]*)/);
   return m ? { code: Number(m[1]), ctype: m[2] } : null;
 }
 
+/** 下载结果是否可当音频收(GLM 021[3]/[4]/[7]:空 ctype、code=000(DNS/连接失败 curl 仍打 -w)一律拒,
+ *  别让「读不出/没说是什么」当成功混过去 —— 坏 asset 上了中转站会让云端卡死在非「音频下载失败」的错上)。 */
+export function audioAcceptable(meta, size) {
+  if (!meta) return { ok: false, why: "下载状态读不出(curl 输出异常)" };
+  if (!(meta.code >= 200 && meta.code < 400)) return { ok: false, why: `HTTP ${meta.code || "000(连接失败)"}` };
+  if (!meta.ctype) return { ok: false, why: "响应没说 content-type(判不出是不是音频)" };
+  if (/text\/|html/.test(meta.ctype)) return { ok: false, why: `content-type: ${meta.ctype}(疑挑战页)` };
+  if (!(size >= MIN_AUDIO_BYTES)) return { ok: false, why: `文件过小/缺失(${size} 字节)` };
+  return { ok: true };
+}
+
 function downloadAudio(url, toFile) {
   const r = sh("curl", [
     "-sL", "--max-time", "900", "--retry", "2", "-A", BROWSER_HEADERS["User-Agent"],
+    // GLM 021[2]:只跟 http(s) 重定向、限跳数——别让上游把 -L 引到别的协议去
+    "--proto", "=http,https", "--proto-redir", "=http,https", "--max-redirs", "10",
     ...(PROXY ? ["-x", PROXY] : []),
     "-o", toFile, "-w", "code=%{http_code} type=%{content_type}", url,
   ]);
   if (r.status !== 0) throw new Error(`下载失败(curl exit ${r.status}):${(r.stderr || "").slice(-200)}`);
   const meta = parseCurlMeta(r.stdout);
-  if (!meta) throw new Error(`下载状态读不出(curl 输出异常),拒传中转站:${String(r.stdout).slice(-120)}`);
-  if (meta.code >= 400) throw new Error(`下载失败 HTTP ${meta.code}(URL: ${String(url).slice(0, 80)}…)`);
-  if (/text\/|html/.test(meta.ctype)) throw new Error(`下载到的不是音频(content-type: ${meta.ctype})——疑挑战页,拒传中转站`);
-  const size = statSync(toFile).size;
-  if (size < MIN_AUDIO_BYTES) throw new Error(`下载文件过小(${size} 字节)——疑非音频,拒传中转站`);
+  // 空 body 时 curl 不建文件 → statSync 会 ENOENT(GLM 021[3]);统一按「size 0」交给判据,报人话不报 fs 错
+  const size = existsSync(toFile) ? statSync(toFile).size : 0;
+  const verdict = audioAcceptable(meta, size);
+  if (!verdict.ok) throw new Error(`下载失败 ${verdict.why},拒传中转站(URL: ${String(url).slice(0, 80)}…)`);
   console.log(`      (${Math.round(size / 1024 / 1024)} MB,HTTP ${meta.code})`);
 }
 
@@ -145,15 +164,25 @@ if (isMain) {
   shOrThrow("git", [...gitProxyArgs, "fetch", "origin", "main"]);
   const state = JSON.parse(shOrThrow("git", ["show", "origin/main:data/pipeline-state.json"]).stdout);
   const wanted = listAudioWanted(state);
+  console.log(wanted.length ? `待搬运 ${wanted.length} 条:${wanted.map((w) => w.id).join(", ")}` : "待搬运清单空。");
+
+  // ⚠️ 孤儿回收必须在「清单空就收工」**之前**(2026-08-19 实证:清单空正是孤儿最常见的场景 ——
+  // 云端消费完清账后,mini 若读到清账前的快照会白搬一次,那份 asset 从此不在任何清单里)。
+  // 先前写在收尾处 = 唯一够得着它的场景反而先 exit 了,等于死代码。
+  const existing = parseAssetNames(sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]).stdout ?? "");
+  if (!dryRun) {
+    for (const n of staleAssets(existing, wanted)) {
+      const r = sh("gh", ["release", "delete-asset", RELAY_TAG, n, "-y"]);
+      console.log(r.status === 0 ? `   🧹 清孤儿 asset(云端已消费):${n}` : `   ⚠️ 孤儿 asset 清理失败(下轮再试):${n}`);
+    }
+  }
   if (!wanted.length) {
-    console.log("待搬运清单空,收工。");
+    console.log("收工。");
     process.exit(0);
   }
-  console.log(`待搬运 ${wanted.length} 条:${wanted.map((w) => w.id).join(", ")}`);
 
   // GLM 020[3]:先把中转站(和 gh 认证)确认好再下载——认证挂了就在这响亮死,不白下大文件
   if (!dryRun) ensureRelease();
-  const existing = parseAssetNames(sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]).stdout ?? "");
   let failed = 0;
   for (const { id, url } of wanted) {
     const name = relayAssetName(id);
@@ -167,7 +196,7 @@ if (isMain) {
     }
     const work = mkdtempSync(join(tmpdir(), "audio-relay-"));
     try {
-      console.log(`   ⬇️ ${id}:直连下载音频…`);
+      console.log(`   ⬇️ ${id}:下载音频(${PROXY ? `经 ${PROXY}` : "直连"})…`); // GLM 021[1]:文案别再说死「直连」
       downloadAudio(url, join(work, name));
       console.log(`   ⬆️ ${id}:gh release upload ${RELAY_TAG} …`);
       shOrThrow("gh", ["release", "upload", RELAY_TAG, join(work, name), "--clobber"]);
@@ -178,16 +207,6 @@ if (isMain) {
       console.error(`   ⚠️ ${id} 搬运失败(留清单下轮重试):${String(e?.message ?? e)}`);
     } finally {
       rmSync(work, { recursive: true, force: true });
-    }
-  }
-  // GLM 020[2]:垃圾回收——不在清单里的 asset = 云端已消费但删失败(如某次没 GH_TOKEN)的孤儿,这里兜底清掉。
-  // 只会误伤不了正主:id 只有被 consumeAudioWanted 划账才会离开清单,离开清单的 asset 都是该删的。
-  if (!dryRun) {
-    const stale = existing.filter((n) => !wanted.some(({ id }) => relayAssetName(id) === n));
-    for (const n of stale) {
-      const r = sh("gh", ["release", "delete-asset", RELAY_TAG, n, "-y"]);
-      if (r.status === 0) console.log(`   🧹 清孤儿 asset(云端已消费):${n}`);
-      else console.error(`   ⚠️ 孤儿 asset 清理失败(下轮再试):${n}`);
     }
   }
   if (failed) {

@@ -12,6 +12,8 @@ import {
   listAudioWanted,
   parseAssetNames,
   parseCurlMeta,
+  audioAcceptable,
+  staleAssets,
 } from "../scripts/audio-relay.mjs";
 import { audioUrlCandidates } from "../scripts/fetch-source-whisperx.mjs";
 import { migrateState } from "../scripts/run-pipeline.mjs";
@@ -106,6 +108,21 @@ describe("run-pipeline 接线(源码锚,防登记/清账/优先查被静默摘�
   });
 });
 
+describe("staleAssets(孤儿回收:不堆积的最后一道)", () => {
+  it("★ 清单空时全是孤儿——这正是云端刚消费完的常态,回收必须够得着", () => {
+    expect(staleAssets([`${ID}.mp3`], [])).toEqual([`${ID}.mp3`]);
+  });
+  it("在清单里的是正主,一个都不许删", () => {
+    expect(staleAssets([`${ID}.mp3`], [{ id: ID, url: URL0 }])).toEqual([]);
+  });
+  it("混合场景只挑不在清单的", () => {
+    expect(staleAssets([`${ID}.mp3`, "别的集.mp3"], [{ id: ID, url: URL0 }])).toEqual(["别的集.mp3"]);
+  });
+  it("中转站空 → 无事可做", () => {
+    expect(staleAssets([], [{ id: ID, url: URL0 }])).toEqual([]);
+  });
+});
+
 describe("parseCurlMeta(下载状态解析,坏文件拒收的判据)", () => {
   it("取出状态码与 content-type(音频正常放行)", () => {
     expect(parseCurlMeta("code=200 type=binary/octet-stream")).toEqual({ code: 200, ctype: "binary/octet-stream" });
@@ -119,6 +136,32 @@ describe("parseCurlMeta(下载状态解析,坏文件拒收的判据)", () => {
     expect(parseCurlMeta("")).toBe(null);
     expect(parseCurlMeta("curl: (7) Failed to connect")).toBe(null);
     expect(parseCurlMeta(null)).toBe(null);
+  });
+});
+
+describe("audioAcceptable(坏文件一律拒传中转站,fail-closed)", () => {
+  const OK = { code: 200, ctype: "binary/octet-stream" };
+  const BIG = 30 * 1024 * 1024;
+  it("正常音频放行(200/206 + 二进制 + 够大)", () => {
+    expect(audioAcceptable(OK, BIG).ok).toBe(true);
+    expect(audioAcceptable({ code: 206, ctype: "audio/mpeg" }, BIG).ok).toBe(true);
+  });
+  it("挑战页(200+text/html)拒收", () => {
+    expect(audioAcceptable({ code: 200, ctype: "text/html; charset=utf-8" }, BIG).ok).toBe(false);
+  });
+  it("★ code=000(DNS/连接失败 curl 仍打 -w)不许当成功混过去", () => {
+    expect(audioAcceptable({ code: 0, ctype: "" }, BIG).ok).toBe(false);
+    expect(audioAcceptable({ code: 403, ctype: "audio/mpeg" }, BIG).ok).toBe(false);
+  });
+  it("★ 响应没说 content-type = 判不出,拒收(不靠体积兜底)", () => {
+    expect(audioAcceptable({ code: 200, ctype: "" }, BIG).ok).toBe(false);
+  });
+  it("★ 空 body(文件缺失 size=0)走人话拒收,不抛 fs 错", () => {
+    expect(audioAcceptable(OK, 0).ok).toBe(false);
+    expect(audioAcceptable(OK, 50 * 1024).ok).toBe(false);
+  });
+  it("★ meta 读不出(curl 输出异常)拒收", () => {
+    expect(audioAcceptable(null, BIG).ok).toBe(false);
   });
 });
 
