@@ -164,3 +164,4 @@
 {"ts":"2026-08-18T07:42:08.002Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Recv failure: Operation timed out\n"}
 {"ts":"2026-08-18T13:40:08.336Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-18T13:41:13.750Z","action":"seed-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","verdict":"对味","reason":"创始人/CTO 深谈 agent harness 实操与真实降本案例(降95%成本、评测方法),正是「AI 编程/agent 实操+人对谈」命中项,非产品宣传。","error":"seed-talk exit 1/种子未就绪(可重试)"}
+{"ts":"2026-08-19T01:42:22.846Z","action":"git-pull-failed","videoId":null,"error":"error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75004 ms: Couldn't connect to server\nfatal: expected flush after ref listing\n"}
