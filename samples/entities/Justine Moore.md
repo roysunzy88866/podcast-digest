@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
+[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":95,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":5,"OpenAI":38,"Anthropic":47,"Google":18}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":97,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":6,"OpenAI":40,"Anthropic":49,"Google":18}</script>
 
 <script>
 (function(){

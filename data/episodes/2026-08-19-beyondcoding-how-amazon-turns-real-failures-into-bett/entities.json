@@ -1,0 +1,920 @@
+{
+  "episode_id": "2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett",
+  "podcast": "Beyond Coding",
+  "date": "2026-08-19",
+  "tags": [
+    "模型路由",
+    "评估体系",
+    "智能体",
+    "RLGym",
+    "产品方法"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "michael-giannangelli",
+      "type": "person",
+      "role": "host",
+      "name": "Michael Giannangelli",
+      "file": "Michael Giannangelli",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.659,
+            67.825
+          ],
+          "quote": "This is Michael Giannangelli, head of product over at Amazon, specifically of Agentic AI and Amazon Nova.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nova",
+      "type": "company",
+      "role": "company",
+      "name": "Nova",
+      "file": "Nova",
+      "primary": true,
+      "how_described": "本集说 Nova 最初很适合低成本、低延迟任务，团队正努力让它达到前沿模型水平；以 Nova 2 发布时多轮多工具使用的评估为例，说明评估饱和问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.659,
+            67.825
+          ],
+          "quote": "This is Michael Giannangelli, head of product over at Amazon, specifically of Agentic AI and Amazon Nova.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            236.93,
+            245.537
+          ],
+          "quote": "I focus more on the model side of things, actually training our Nova models to get better at things like coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            277.236,
+            282.36
+          ],
+          "quote": "But before we do so, I have to be honest, I never heard about Nova before this conversation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            282.74,
+            288.044
+          ],
+          "quote": "And I checked with my peers, some of the software engineers that we look up to, and they also had never heard of Nova.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            296.898,
+            302.843
+          ],
+          "quote": "I think that Nova was really well built for lower cost, lower latency tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            418.903,
+            432.694
+          ],
+          "quote": "And that's where we're trying to play with Nova as well as finding that wedge where we can really add value and help customers find the right model for their use case.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            666.539,
+            672.161
+          ],
+          "quote": "Many, many examples in this case, but I'll use one from around the time of like Nova 2 launch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            786.26,
+            793.254
+          ],
+          "quote": "How big is what you have in evals for what you're building with Nova specifically and how has it come to be where it is right now?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说模型路由是'远未成为一个已解决的问题'，核心困难不在路由本身，而在于你没法衡量'好'长什么样——评估是多维的且会随模型进步迅速饱和",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            85.553,
+            86.093
+          ],
+          "quote": "Model routing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            451.762,
+            456.307
+          ],
+          "quote": "Right now, I mean, there's a lot of companies trying to figure out the model routing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            527.262,
+            531.263
+          ],
+          "quote": "Model routing, you mentioned a lot of, at least within your sphere, people are trying out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            645.193,
+            647.754
+          ],
+          "quote": "So now that eval is worthless for model routing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说评估必须扎根于真实失败模式——每次模型失败只要不是一次性问题就建一个评估来衡量；与公共基准不同，评估是最有用的，规模达数百个，饱和了再删",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            546.307,
+            555.589
+          ],
+          "quote": "If we set up an agent in production or just a general Gen AI use case with a lot of eval, we can make those comparisons and we can see kind of what the repercussions are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            567.975,
+            572.781
+          ],
+          "quote": "This gets back to the eval problem overall.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            605.303,
+            617.531
+          ],
+          "quote": "There's so many different things that go into building a robust eval that just getting that done is not trivial.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            633.546,
+            645.133
+          ],
+          "quote": "And so you may have had an eval that worked well two months ago, but as the models get better, now maybe that eval's saturated and all of the models are meeting that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            645.193,
+            647.754
+          ],
+          "quote": "So now that eval is worthless for model routing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            647.774,
+            654.979
+          ],
+          "quote": "And so there's this constant iteration of making sure that you have an eval that's giving the signal that you need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            660.356,
+            666.279
+          ],
+          "quote": "Do you have an example of when you've signaled that an eval just doesn't make sense anymore, it needs to be deprecated?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            683.585,
+            688.808
+          ],
+          "quote": "And I helped build an eval that looked at that problem set.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            704.417,
+            706.418
+          ],
+          "quote": "That eval now was too easy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            775.278,
+            784.582
+          ],
+          "quote": "But if you're looking for signal of which model is better at coding or tool use, then you need a better eval that can actually give you the signal there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            822.686,
+            831.832
+          ],
+          "quote": "For multiple customers or if it's one really relevant customer, we have to build an eval to measure that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            843.687,
+            846.85
+          ],
+          "quote": "So your eval list just gets bigger and bigger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1731.819,
+            1746.023
+          ],
+          "quote": "Some of the things that I'm seeing now in terms of breaking through are trying to, whether it's building eval or even the gym, at that frontier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2133.594,
+            2135.855
+          ],
+          "quote": "Does it become an eval or where does that go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2136.115,
+            2138.535
+          ],
+          "quote": "So you can think of it basically like an eval.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2138.955,
+            2142.916
+          ],
+          "quote": "The eval is measuring whether the agent is good at something.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准 (benchmark)",
+      "file": "基准",
+      "primary": false,
+      "how_described": "本集说基准是给外界看信号的，比如'这个模型在迁移或 Web 应用上还行'，但非常窄、现实里未必适用；SweeBench 去年是标准，转眼模型就冲到 90% 不再有区分度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            717.424,
+            718.885
+          ],
+          "quote": "That was the benchmark.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            856.398,
+            858.179
+          ],
+          "quote": "And that's not to mention the benchmark.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说'每个人都在使用智能体，你需要使用智能体才能跟上'；讨论了智能体从人做所有事到五五开再到人只在关键节点检查的渐进信任线，以及多轮任务下可靠性骤降的数学问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            117.346,
+            119.768
+          ],
+          "quote": "And so I do have an agent that helps to figure that out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            546.307,
+            555.589
+          ],
+          "quote": "If we set up an agent in production or just a general Gen AI use case with a lot of eval, we can make those comparisons and we can see kind of what the repercussions are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1541.053,
+            1553.38
+          ],
+          "quote": "In practice, it's really difficult, I've noticed, because people say, okay, if we want agent use cases, I'm going to take this as an example because this has been echoed, at least in my sphere, we have several agent use cases that we want to go live with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2038.893,
+            2044.604
+          ],
+          "quote": "I can go home and build a personal agent to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2138.955,
+            2142.916
+          ],
+          "quote": "The eval is measuring whether the agent is good at something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2507.514,
+            2530.148
+          ],
+          "quote": "So one thing that I see with the agents broadly is that it takes time to go from, okay, the human is doing everything to now the human is handing off more of the task to now maybe it's 50-50 to now the human is only checking in at the very end or making sure at certain really important points to the agent is doing everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2531.048,
+            2536.413
+          ],
+          "quote": "We're nowhere near the agent doing everything yet, but we're moving along this line.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2585.754,
+            2590.335
+          ],
+          "quote": "That's step number one and give someone a coding agent to harness and then be like experiment with this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2606.932,
+            2617.076
+          ],
+          "quote": "I think it's going to be really a function of how much better the models and the harnesses get, how much better the agent gets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2628.463,
+            2636.832
+          ],
+          "quote": "Even if you have an agent that's 90% accurate on a single turn, if there are multiple turns,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlgym",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLGym",
+      "file": "RLGym",
+      "primary": true,
+      "how_described": "本集说 RLGym 是一个模拟环境，模型可以在里面尝试任务、失败、学习一点、再试，通过反复试错变强；结构和评估很像但区别在于它让模型从失败中学习，生成的数据直接用于训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 434,
+          "t": [
+            2380.819,
+            2397.667
+          ],
+          "quote": "If I take that one step further, so if this is the focus within our RLGym to have models become really great at that, are we then going to move towards, because I'm balancing these thoughts between autonomous AI, where AI picks up whatever I need to do, for example, modernization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "migration",
+      "type": "concept",
+      "role": "concept",
+      "name": "迁移 (migration)",
+      "file": "迁移",
+      "primary": true,
+      "how_described": "本集说迁移长远看会 mostly autonomous（大部分自主完成），因为工程师本来就不喜欢做迁移；但现实比一对一翻译代码复杂得多——老代码库 20 到 40 年前，人们想在迁移同时做现代化，这就无限复杂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            902.99,
+            930.717
+          ],
+          "quote": "If we amplify that and then looking at the benchmarks if a model is really good at for example code migration or even modernization compared to web app development do you see models evolving in that way where you have specialized models depending on kind of fit for purpose what you need to do or will it still be there is a bigger model with kind of lower latency models that you can operate with or create a specification and then delegate or have the model delegate in of its own which way is it going?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            935.8,
+            941.604
+          ],
+          "quote": "Because of how much better models have gotten, I don't think you're going to have the migration model and the web app model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2227.84,
+            2236.13
+          ],
+          "quote": "Do you have a priority ranking where you're saying okay vulnerability management number one or migration specifically because of the potential business cases behind it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2296.767,
+            2299.289
+          ],
+          "quote": "There are different types of migration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2412.78,
+            2417.402
+          ],
+          "quote": "I build my own conviction through doing this modernization or migration myself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2469.071,
+            2490.679
+          ],
+          "quote": "The problem typically with migrations is that like a one-on-one migration conceptually makes sense, but because we're talking about code bases that are from like 40, 30, 20 years ago, even before I was completely in the industry or even alive, people want to modernize in parallel to migrating, which makes it infinitely more complex because then you're like, okay, this business logic, does it still make sense?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bedrock",
+      "type": "company",
+      "role": "company",
+      "name": "Bedrock",
+      "file": "Bedrock",
+      "primary": false,
+      "how_described": "本集说亚马逊产品很棒的一点是你可以通过 Bedrock 选择很多不同的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            412.758,
+            418.843
+          ],
+          "quote": "That's one thing that I think is great about the offerings Amazon has is you can pick a lot of different models through Bedrock.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说 Claude Code 是嘉宾的'主力工具'（workhorse），亚马逊员工使用时可以选择加入追踪，团队能识别出模型做错的轨迹来构建评估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            100.557,
+            104.199
+          ],
+          "quote": "Claude Code is probably my workhorse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            200.368,
+            201.689
+          ],
+          "quote": "I like Claude Code a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            214.974,
+            222.86
+          ],
+          "quote": "Yeah, I mean, so it's relatively recently that we have gotten access to both Claude Code and Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1036.813,
+            1053.342
+          ],
+          "quote": "Of course, this is all opt-in and all of that, but for things like Claude Code, Kiro, we're able to identify traces where something has gone wrong, where the model's not doing what they wanted, and then we can build the evals around those.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kiro",
+      "type": "company",
+      "role": "company",
+      "name": "Kiro",
+      "file": "Kiro",
+      "primary": false,
+      "how_described": "本集说 Kiro 是亚马逊内部的工具，最近变得好多了，可以访问亚马逊内部许多企业级应用程序和数据库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            139.759,
+            147.625
+          ],
+          "quote": "And then Kiro is another one within Amazon that's gotten much better recently as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            185.702,
+            188.983
+          ],
+          "quote": "It allows you to use Kiro that way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1036.813,
+            1053.342
+          ],
+          "quote": "Of course, this is all opt-in and all of that, but for things like Claude Code, Kiro, we're able to identify traces where something has gone wrong, where the model's not doing what they wanted, and then we can build the evals around those.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说 Codex 也变得好多了，嘉宾主要用它来完成更多与写作相关的任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            131.053,
+            132.714
+          ],
+          "quote": "Codex has gotten a lot better too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            214.974,
+            222.86
+          ],
+          "quote": "Yeah, I mean, so it's relatively recently that we have gotten access to both Claude Code and Codex.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Anthropic 没有像亚马逊那样多的内部使用数据可以挖，更多依赖早期从公有或开源发现的数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1081.632,
+            1087.633
+          ],
+          "quote": "Like Amazon has that, Google has that, some new organizations like Anthropic, OpenAI, Mistral, they don't have that as much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 没有像亚马逊那样多的内部使用数据可以挖",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1081.632,
+            1087.633
+          ],
+          "quote": "Like Amazon has that, Google has that, some new organizations like Anthropic, OpenAI, Mistral, they don't have that as much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": false,
+      "how_described": "本集说 Mistral 没有像亚马逊那样多的内部使用数据可以挖",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1081.632,
+            1087.633
+          ],
+          "quote": "Like Amazon has that, Google has that, some new organizations like Anthropic, OpenAI, Mistral, they don't have that as much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sweebench",
+      "type": "company",
+      "role": "company",
+      "name": "SweeBench",
+      "file": "SweeBench",
+      "primary": false,
+      "how_described": "本集说 SweeBench 去年还是编码基准的标准，转眼模型就冲到 70%、80%、90%，不再有区分度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            711.401,
+            717.364
+          ],
+          "quote": "Many of the coding benchmarks that were on the model cards for models last year, SweeBench was a good example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mvp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MVP",
+      "file": "MVP",
+      "primary": false,
+      "how_described": "本集说不是 MVP 变更小了，而是你能更快到达 MVP——因为构建更快、迭代更快、工程工具好得多了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1654.896,
+            1666.227
+          ],
+          "quote": "So if my goal is here, and typically my MVP would kind of be somewhere in between to go live with and to get feedback faster, do you think we've moved that timeline up so the MVPs are now smaller to be able to go live quicker?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1670.631,
+            1681.061
+          ],
+          "quote": "I think the concept of the MVP is important because in theory, that's what's required in order to launch at least the minimum amount, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1681.522,
+            1686.146
+          ],
+          "quote": "And so I don't think we're saying that what the MVP...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1698.792,
+            1706.995
+          ],
+          "quote": "And so it's more about getting to the MVP faster, shipping that, getting feedback, shipping again, and so on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevOps",
+      "file": "DevOps",
+      "primary": false,
+      "how_described": "本集说 DevOps 是 RLGym 优先级的一个例子，因为亚马逊有独特数据，能让模型在这些任务上变得更好，对客户有实质性影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            947.427,
+            964.332
+          ],
+          "quote": "There's benefit to having a generalized model that can do all of these things, because if you're good at migrations, that may raise the bar or help the model learn in other areas as well, maybe DevOps, for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2212.755,
+            2226.86
+          ],
+          "quote": "Everything from migrations to DevOps to pen testing to vulnerability detection, all of that, we're building gems to try and improve our models on those tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2263.441,
+            2264.542
+          ],
+          "quote": "DevOps is a great example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说 RLGym 是模型通过强化学习的一种非常有效的方式，在模拟环境中反复试错变强",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 383,
+          "t": [
+            2120.41,
+            2127.492
+          ],
+          "quote": "So it's a really effective way for models to learn through reinforcement learning.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": false,
+      "how_described": "本集说长远看迁移不需要太多人在回路里，但现实因为现代化需求而复杂，人需要在回路中建立信念和信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 438,
+          "t": [
+            2405.556,
+            2412.7
+          ],
+          "quote": "Or is that going to be a way of working where I'm going to work on it from an augmented perspective, human in the loop, together with AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2428.286,
+            2430.947
+          ],
+          "quote": "I don't think there's going to be as much need for the human in the loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2496.341,
+            2500.692
+          ],
+          "quote": "might actually benefit from having the human in the loop also to build the conviction of where we're going.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "context window",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

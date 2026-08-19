@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]] [[Mike Allen]]
+[[Nick Bostrom]] [[Max]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Max":1,"Joel de la Garza":3,"Hugging Face":6,"NEO":1,"Cotool":1,"智能体":95,"护栏":15,"签名":1,"行为检测":1,"推理":1}</script>
+<script type="application/json" class="pd-epn">{"Max":1,"Joel de la Garza":3,"Hugging Face":7,"NEO":1,"Cotool":1,"智能体":97,"护栏":16,"签名":1,"行为检测":1,"推理":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":95,"构建者":2,"可观测性":5,"对话分析":1,"评估":10,"维度思维":1,"ChatGPT":24,"Cursor":22,"OpenAI":38}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":97,"构建者":2,"可观测性":5,"对话分析":1,"评估":11,"维度思维":1,"ChatGPT":24,"Cursor":22,"OpenAI":40}</script>
 
 <script>
 (function(){

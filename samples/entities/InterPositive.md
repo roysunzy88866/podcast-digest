@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Elizabeth Stone]] · [[Netflix]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Elizabeth Stone":1,"Netflix":2,"GenAI":1,"智能体":95,"系统思维":3,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Elizabeth Stone":1,"Netflix":2,"GenAI":1,"智能体":97,"系统思维":3,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
 
 <script>
 (function(){

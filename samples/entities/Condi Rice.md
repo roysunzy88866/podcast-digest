@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
+[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":15,"GPU":3,"Parallel":2,"深度学习":3,"第一性原理":2,"五层蛋糕":1,"模拟":2,"人工智能":2}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":16,"GPU":3,"Parallel":2,"深度学习":3,"第一性原理":2,"五层蛋糕":1,"模拟":2,"人工智能":2}</script>
 
 <script>
 (function(){

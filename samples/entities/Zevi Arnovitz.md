@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Cursor":22,"Claude Code":24,"Bolt":2,"Lovable":7,"Linear":3,"Anthropic":47,"Composer":1,"Base44":2,"Codex":19}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Cursor":22,"Claude Code":25,"Bolt":2,"Lovable":7,"Linear":3,"Anthropic":49,"Composer":1,"Base44":2,"Codex":20}</script>
 
 <script>
 (function(){

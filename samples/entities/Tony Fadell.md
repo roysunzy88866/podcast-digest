@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]]
+[[David George]] [[Grant LaFontaine]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Nest":1,"OpenAI":38,"Anthropic":47,"General Magic":1,"Apple":12,"Flighty":1,"iPod":1,"iPhone":1,"智能体":95}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Nest":1,"OpenAI":40,"Anthropic":49,"General Magic":1,"Apple":12,"Flighty":1,"iPod":1,"iPhone":1,"智能体":97}</script>
 
 <script>
 (function(){

@@ -59,7 +59,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]] [[Kwindla Kramer]]
+[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]]
 
 </div>
 

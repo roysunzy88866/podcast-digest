@@ -25,7 +25,7 @@ unlisted: true
 
 [[Erik Allebest]] · [[Chess.com]] · [[Stockfish]] · [[Leela Chess Zero]] · [[反作弊]] · [[评级系统]] · [[AGI]] · [[ASI]]
 
-<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Chess.com":2,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":12,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Chess.com":2,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":13,"ASI":2}</script>
 
 <script>
 (function(){

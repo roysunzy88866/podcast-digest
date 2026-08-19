@@ -87,7 +87,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude]] · [[Waymo]] · [[Google]] · [[强化学习]] · [[Cursor]] · [[vibe coding]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":95,"OpenAI":38,"Claude":21,"Waymo":9,"Google":18,"强化学习":10,"Cursor":22,"vibe coding":12,"Codex":19}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":97,"OpenAI":40,"Claude":21,"Waymo":9,"Google":18,"强化学习":11,"Cursor":22,"vibe coding":12,"Codex":20}</script>
 
 <script>
 (function(){

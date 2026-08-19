@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[Slack]] · [[Kat Wu]] · [[Fiona Fung]] · [[产品品味]] · [[验证]] · [[自动化]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Anthropic":47,"Claude Code":24,"智能体":95,"Slack":18,"Kat Wu":1,"Fiona Fung":1,"产品品味":1,"验证":3,"自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Anthropic":49,"Claude Code":25,"智能体":97,"Slack":18,"Kat Wu":1,"Fiona Fung":1,"产品品味":1,"验证":3,"自动化":1}</script>
 
 <script>
 (function(){

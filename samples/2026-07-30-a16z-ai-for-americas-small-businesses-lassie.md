@@ -147,8 +147,8 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 **顺着「智能体」挖下去**
 
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|模型路由为什么还没解决：Amazon Nova 负责人的实话]]<span class="pd-rz">同概念:智能体 (agent)、回路中的人类 (human in the loop)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

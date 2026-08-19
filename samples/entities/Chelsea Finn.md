@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":1,"Waymo":9,"ChatGPT":24,"物理 AI":4,"强化学习":10,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":2}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":1,"Waymo":9,"ChatGPT":24,"物理 AI":4,"强化学习":11,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":2}</script>
 
 <script>
 (function(){

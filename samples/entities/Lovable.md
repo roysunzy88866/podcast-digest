@@ -45,7 +45,7 @@ unlisted: true
 
 [[Lenny]] · [[Cursor]] · [[Replit]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Base44]] · [[PRD]] · [[Meta]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Cursor":22,"Replit":8,"智能体":95,"OpenAI":38,"Anthropic":47,"Base44":2,"PRD":6,"Meta":14,"Google":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Cursor":22,"Replit":8,"智能体":97,"OpenAI":40,"Anthropic":49,"Base44":2,"PRD":6,"Meta":14,"Google":18}</script>
 
 <script>
 (function(){

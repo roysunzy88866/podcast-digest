@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":1,"智能体":95,"上下文压缩":1,"RL":1,"蒸馏":5,"KV 缓存":2,"Cognition":5,"OpenRouter":2}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":2,"智能体":97,"上下文压缩":1,"RL":1,"蒸馏":5,"KV 缓存":2,"Cognition":5,"OpenRouter":2}</script>
 
 <script>
 (function(){

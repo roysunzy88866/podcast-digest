@@ -7,25 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Whatnot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Whatnot">WH</div><div class="pi"><h1 class="pt">Whatnot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Whatnot">WH</div><div class="pi"><h1 class="pt">Whatnot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(00:17起):本集把它说成:美国增长最快的直播购物平台(livestream shopping platform)。Tom Verrilli 在此担任 CPO,其产品团队践行了极度精简 PM(全公司仅 20 余名 PM,两年 3 万多申请者只招 1 个)、资深人员回归一线 IC、以及放弃对齐会议的独特文化。
+- **[[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]]**(01:13起):本集说它是一个直播购物平台，用户日均使用约 95 分钟，超过 80% 的人在任何给定的一天里不买东西，只是看和聊，体验更像逛商场而非传统电商搜索
+
+## ① 提到它的金句
+
+*3 条*
+
+![[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d#^q3]]
+
+![[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d#^q4]]
+
+![[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d#^q5]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为被讨论公司
+- [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tom Verrilli]] · [[Lenny]] · [[Twitch]] · [[Twitter]] · [[Anthropic]] · [[Claude]] · [[PM]] · [[IC]] · [[数据科学]] · [[直播购物]]
+[[直播购物]] · [[Tom Verrilli]] · [[David George]] · [[Lenny]] · [[Grant LaFontaine]] · [[Twitch]] · [[市场]] · [[Twitter]] · [[信任与安全]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Tom Verrilli":1,"Lenny":58,"Twitch":1,"Twitter":4,"Anthropic":47,"Claude":21,"PM":3,"IC":4,"数据科学":1,"直播购物":1}</script>
+<script type="application/json" class="pd-epn">{"直播购物":2,"Tom Verrilli":1,"David George":1,"Lenny":58,"Grant LaFontaine":1,"Twitch":1,"市场":1,"Twitter":4,"信任与安全":1,"Anthropic":49}</script>
 
 <script>
 (function(){

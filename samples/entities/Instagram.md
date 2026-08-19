@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[ChatGPT]] · [[Stories]] · [[Facebook]] · [[Reels]] · [[Peter Deng]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Brandon Foo]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"ChatGPT":24,"Stories":2,"Facebook":7,"Reels":2,"Peter Deng":1,"Robby Stein":1,"Adam Mosseri":1,"Brandon Foo":1,"Google":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"ChatGPT":24,"Stories":2,"Facebook":8,"Reels":2,"Peter Deng":1,"Robby Stein":1,"Adam Mosseri":1,"Brandon Foo":1,"Google":18}</script>
 
 <script>
 (function(){

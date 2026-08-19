@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Shreya Shankar":1,"评估":10,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":95,"trace":1,"Anthropic":47}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Shreya Shankar":1,"评估":11,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":97,"trace":1,"Anthropic":49}</script>
 
 <script>
 (function(){

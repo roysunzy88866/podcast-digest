@@ -77,7 +77,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Lovable]] · [[GitHub]] · [[ChatGPT]] · [[vibe coding]] · [[Claude]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":95,"Lenny":58,"Codex":19,"OpenAI":38,"Lovable":7,"GitHub":16,"ChatGPT":24,"vibe coding":12,"Claude":21,"Anthropic":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":97,"Lenny":58,"Codex":20,"OpenAI":40,"Lovable":7,"GitHub":16,"ChatGPT":24,"vibe coding":12,"Claude":21,"Anthropic":49}</script>
 
 <script>
 (function(){

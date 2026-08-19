@@ -114,7 +114,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Claude Code]] · [[Slack]] · [[Google]] · [[Facebook]]
 
-<script type="application/json" class="pd-epn">{"智能体":95,"Anthropic":47,"ChatGPT":24,"OpenAI":38,"Claude":21,"Cursor":22,"Claude Code":24,"Slack":18,"Google":18,"Facebook":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":97,"Anthropic":49,"ChatGPT":24,"OpenAI":40,"Claude":21,"Cursor":22,"Claude Code":25,"Slack":18,"Google":18,"Facebook":8}</script>
 
 <script>
 (function(){

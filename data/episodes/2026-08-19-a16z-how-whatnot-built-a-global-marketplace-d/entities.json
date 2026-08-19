@@ -1,0 +1,1103 @@
+{
+  "episode_id": "2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d",
+  "podcast": "The a16z Show",
+  "date": "2026-08-19",
+  "tags": [
+    "直播电商",
+    "市场平台",
+    "小企业赋能",
+    "信任与安全",
+    "AI 赋能卖家"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "host",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            73.085,
+            86.25
+          ],
+          "quote": "In this episode, A16Z General Partner David George sits down with WhatNot co-founder Grant LaFontaine to unpack how live shopping combines commerce, entertainment, discovery, and community in a way traditional e-commerce doesn't.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grant-lafontaine",
+      "type": "person",
+      "role": "cohost",
+      "name": "Grant LaFontaine",
+      "file": "Grant LaFontaine",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            73.085,
+            86.25
+          ],
+          "quote": "In this episode, A16Z General Partner David George sits down with WhatNot co-founder Grant LaFontaine to unpack how live shopping combines commerce, entertainment, discovery, and community in a way traditional e-commerce doesn't.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "whatnot",
+      "type": "company",
+      "role": "company",
+      "name": "Whatnot",
+      "file": "Whatnot",
+      "primary": true,
+      "how_described": "本集说它是一个直播购物平台，用户日均使用约 95 分钟，超过 80% 的人在任何给定的一天里不买东西，只是看和聊，体验更像逛商场而非传统电商搜索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            73.085,
+            86.25
+          ],
+          "quote": "In this episode, A16Z General Partner David George sits down with WhatNot co-founder Grant LaFontaine to unpack how live shopping combines commerce, entertainment, discovery, and community in a way traditional e-commerce doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            87.091,
+            101.116
+          ],
+          "quote": "Grant shares how selling a Pokemon card online in elementary school eventually came full circle with WhatNot, why the company stumbled into live commerce by watching what its users were already doing, and how the platform has expanded from collectibles into more than 100 categories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            102.853,
+            116.167
+          ],
+          "quote": "They also discuss the small businesses being built on the platform, why trust and safety accounts for a significant part of a company's investment, and how Whatnot is using AI to help sellers scale without taking the humans out of the experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            150.971,
+            155.915
+          ],
+          "quote": "Tell me about you kind of having that experience and making it a formative piece of starting Whatnot eventually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            236.884,
+            240.005
+          ],
+          "quote": "And that's probably the true origin stories of WhatNot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            240.045,
+            248.068
+          ],
+          "quote": "WhatNot's pretty funny in that almost all of my experience in life, like the big bits, all of my core jobs have come full circle in WhatNot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            256.115,
+            260.038
+          ],
+          "quote": "And so I did some of that and then whatnot, sort of the amalgamation of all those things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            392.767,
+            395.77
+          ],
+          "quote": "So I got to ask, was Whatnot one of the domains that you had bought?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            401.49,
+            407.391
+          ],
+          "quote": "Actually, so the origins of WhatNot name, which everyone always asks, because WhatNot's a very memorable, good name.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            418.795,
+            422.357
+          ],
+          "quote": "And I'm not joking because that was the first domain for WhatNot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            422.838,
+            427.901
+          ],
+          "quote": "And the reason it was the first domain for WhatNot is we're always obsessed with let's just make progress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            440.148,
+            450.911
+          ],
+          "quote": "And then the first designer on WhatNot, this guy John, who I worked with on my prior startup, before we were about to launch, he's like, I cannot be associated with a company called AlwaysLegit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            475.924,
+            477.425
+          ],
+          "quote": "And Logan got whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            485.09,
+            486.732
+          ],
+          "quote": "Logan got ahold of the guy who had whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            525.905,
+            527.527
+          ],
+          "quote": "He sent us why not instead of whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            532.097,
+            540.42
+          ],
+          "quote": "But we're like, let's try and see if we can get WhatNot, because we always had this idea that we're going to sell lots of different categories of items and collectibles, and so WhatNot always felt a little better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            541.021,
+            550.145
+          ],
+          "quote": "And luckily, I think it took us 36 hours to get a hold of the guy, but 36 hours later, we were able to get WhatNot, and we were almost WhyNot for a period of time, which also would have been okay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            849.293,
+            860.063
+          ],
+          "quote": "One of the reasons why WhatNot has worked so well today is that there's a lot of value because you can do so many different things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            865.928,
+            869.131
+          ],
+          "quote": "So on any given day, most people on WhatNot don't purchase anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            892.318,
+            905.552
+          ],
+          "quote": "I am struck by, obviously, we're longtime investors with you, and so this is not new news to us, but it is striking when I describe it to other people how big the market for this is and how big whatnot actually is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            969.602,
+            975.388
+          ],
+          "quote": "Well, and whatnot, you can set it up for $0, and you can have an entirely global audience that is, you know, unbounded.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1028.822,
+            1032.543
+          ],
+          "quote": "And one of the historical knocks I've heard people say about whatnot is,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1306.329,
+            1311.351
+          ],
+          "quote": "Yeah, I mean, I think one of the most fun things about Whatnot is it's fundamentally empowering small business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1496.5,
+            1500.003
+          ],
+          "quote": "I've been struck by the scale of some of the businesses that are on Whatnot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1500.023,
+            1513.015
+          ],
+          "quote": "So obviously you're empowering millions of small businesses, but if done right, a business owner can actually build something north of $100 million of revenue and highly profitable, all on the back of Whatnot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1513.295,
+            1524.405
+          ],
+          "quote": "Yeah, you know, the biggest businesses on WhatNot are probably doing upwards of $100 million in revenue and, you know, with like very strong EBITDA margins, 20, 30, 40 plus percent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1524.946,
+            1530.331
+          ],
+          "quote": "You know, what we try and do, you know, so if you looked at WhatNot last year, we did, you know, over $8 billion in sales.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1653.286,
+            1656.308
+          ],
+          "quote": "And so golf on Whatnot is having a huge surge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1669.576,
+            1675.86
+          ],
+          "quote": "Yeah, it's sort of like anything that's highly considered, right, should be a fit for Whatnot, where...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1683.578,
+            1687.501
+          ],
+          "quote": "I think anything that someone would build a retail shop around would work on whatnot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1721.274,
+            1723.135
+          ],
+          "quote": "Same with sneakers on whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1885.012,
+            1892.075
+          ],
+          "quote": "And so, you know, we can take him and we can push him to whatnot now as a large, you know, buyer base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2009.834,
+            2013.877
+          ],
+          "quote": "So I think trust and safety in particular on Whatnot is about 40% of employees.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2117.759,
+            2123.983
+          ],
+          "quote": "Yeah, I always, the analog I like for trust and safety is, so, you know, tens of millions of people use WhatNot every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2125.084,
+            2131.928
+          ],
+          "quote": "And so, the trust and safety team is basically the police force and the legal system of WhatNot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2263.697,
+            2268.299
+          ],
+          "quote": "Because the core of whatnot is you visit a shop,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2349.851,
+            2356.297
+          ],
+          "quote": "But today, we don't see a need for avatars because that's not why people come to Whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2367.407,
+            2367.867
+          ],
+          "quote": "Whatnot is...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2385.843,
+            2395.41
+          ],
+          "quote": "I mean, in some ways, it's relatively simple, which is there's just an incredible amount of work to do to help more and more businesses grow on whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2396.051,
+            2407.26
+          ],
+          "quote": "And so over the next 12 months, 24 months, 36 months, a lot of it is just like making sure sellers can run better businesses on whatnot, giving them the tools to run better businesses, opening up",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "live-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "直播商务 (live commerce)",
+      "file": "直播商务",
+      "primary": true,
+      "how_described": "本集说它在中国占所有商务的 30% 到 40%，而在美国还是个位数；它不是简单把线下销售更高效地搬到线上，而是能扩大需求，因为用户会进去发现原本不知道自己感兴趣的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.17,
+            9.071
+          ],
+          "quote": "Live commerce is over a third of all commerce in Asia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            10.451,
+            13.312
+          ],
+          "quote": "30 to 40% of all commerce is live commerce in China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            87.091,
+            101.116
+          ],
+          "quote": "Grant shares how selling a Pokemon card online in elementary school eventually came full circle with WhatNot, why the company stumbled into live commerce by watching what its users were already doing, and how the platform has expanded from collectibles into more than 100 categories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            908.555,
+            914.297
+          ],
+          "quote": "Live commerce, I think the latest is it's over a third of all commerce in Asia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            915.358,
+            920.38
+          ],
+          "quote": "Yeah, I've heard anywhere around 30 to 40% of all commerce is live commerce in China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            975.988,
+            987.212
+          ],
+          "quote": "And so I think that value prop means if you're a business selling consumer goods, I think you're eventually going to get into live commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1168.965,
+            1173.947
+          ],
+          "quote": "And as live commerce proliferates, it's just going to expand that market.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "市场 (marketplace)",
+      "file": "市场",
+      "primary": true,
+      "how_described": "本集说用户根本不在乎市场（users don't give a shit about the market），消费者不会想'这是一个直播购物市场'，他们想的是你要给我什么价值；如果一门心思构建市场，反而会分散对用户体验的注意力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            253.453,
+            256.055
+          ],
+          "quote": "And then I was working at Facebook and was working on marketplace stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            302.159,
+            305.02
+          ],
+          "quote": "And then we started talking about building some marketplace business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            382.618,
+            392.467
+          ],
+          "quote": "And so then December 2019, we both quit our jobs and then we went full-time and launched our authenticated Funko Pop marketplace.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            557.788,
+            561.25
+          ],
+          "quote": "In the US, Facebook marketplace was working, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            698.765,
+            701.986
+          ],
+          "quote": "We were building our Funko Pop marketplace and we were talking to our customers every single day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            993.914,
+            1002.637
+          ],
+          "quote": "Yeah, so it's like if you think about just sort of marketplace dynamics and the network effect, the supply side is so compelling because it's effectively zero cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1297.144,
+            1304.448
+          ],
+          "quote": "By being a marketplace, you enable all this new business creation or business growth of existing businesses that otherwise would not exist.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trust-and-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任与安全 (trust and safety)",
+      "file": "信任与安全",
+      "primary": true,
+      "how_described": "本集说 Whatnot 的信任与安全团队占了全公司 40% 的员工，类比相当于在管理两个纽约市的警察和立法系统；因为一切都有视频留痕、卖家也要靠回头客做生意，实际出问题的比例远低于现实城市",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            102.853,
+            116.167
+          ],
+          "quote": "They also discuss the small businesses being built on the platform, why trust and safety accounts for a significant part of a company's investment, and how Whatnot is using AI to help sellers scale without taking the humans out of the experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2009.834,
+            2013.877
+          ],
+          "quote": "So I think trust and safety in particular on Whatnot is about 40% of employees.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2117.759,
+            2123.983
+          ],
+          "quote": "Yeah, I always, the analog I like for trust and safety is, so, you know, tens of millions of people use WhatNot every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2125.084,
+            2131.928
+          ],
+          "quote": "And so, the trust and safety team is basically the police force and the legal system of WhatNot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2188.384,
+            2194.693
+          ],
+          "quote": "And then you sort of go, okay, we put 40% of the company on, you know, law enforcement, effectively, our trust and safety team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2214.165,
+            2224.071
+          ],
+          "quote": "So it's actually a good segue into the topic of AI because obviously you're using cutting edge AI to do a lot of the trust and safety work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2452.501,
+            2462.789
+          ],
+          "quote": "And so we're going to continue to make sure we're investing in customer support, trust and safety, bringing down shipping prices, improving the selection and quality of the products on the platform.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rules-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "规则引擎 (rules engine)",
+      "file": "规则引擎",
+      "primary": true,
+      "how_described": "本集说后台有一个叫 rules engine 的系统，实时处理数十亿个数据点，监控发货及时性、退款率等指标，不达标就自动触发相应措施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2054.163,
+            2055.684
+          ],
+          "quote": "We just call it our rules engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2087.421,
+            2091.603
+          ],
+          "quote": "If you are not shipping on time, the rules engine will do the same thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2091.643,
+            2094.544
+          ],
+          "quote": "If you have a high refund rate, the rules engine will do the same thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMs",
+      "file": "LLMs",
+      "primary": true,
+      "how_described": "本集说用 LLM 来推断直播需要的元数据（metadata），帮卖家更高效地上架商品，同时从分析角度告诉卖家生意哪里好哪里不好，但核心体验保持人类主导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 533,
+          "t": [
+            2305.912,
+            2309.955
+          ],
+          "quote": "We can infer all that metadata with LLMs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "发现 (discovery)",
+      "file": "发现",
+      "primary": true,
+      "how_described": "本集说传统电商要求你精确知道要买什么，对发现很不友好；Whatnot 的直播形式是需求扩张性的（demand expansionary），因为你进去会发现你不知道自己会感兴趣的新东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            17.234,
+            24.236
+          ],
+          "quote": "Transactions weren't integrated well, shipping wasn't, payments, discovery, CX, and we just thought we could build a better one of those.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            73.085,
+            86.25
+          ],
+          "quote": "In this episode, A16Z General Partner David George sits down with WhatNot co-founder Grant LaFontaine to unpack how live shopping combines commerce, entertainment, discovery, and community in a way traditional e-commerce doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            714.489,
+            718.87
+          ],
+          "quote": "Transactions weren't integrated well, shipping wasn't, payments, discovery, CX.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            814.527,
+            815.968
+          ],
+          "quote": "It's not really great for discovery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            842.756,
+            845.161
+          ],
+          "quote": "I mean, just generally discovery.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1253.437,
+            1267.829
+          ],
+          "quote": "Yeah, it's an incredible sort of blending, if you go back to your history, of entertainment plus filling the shopping need on the demand side with new discovery and over 80% of people not actually even transacting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2298.986,
+            2304.991
+          ],
+          "quote": "We, you know, when you're setting up a live stream for the discovery systems, oftentimes you need to add a lot of metadata.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effect)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集在谈到直播电商供应端时提及，说供应端因为有效成本为零而非常引人注目，大量卖家推动需求，这是一种网络效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            563.332,
+            566.074
+          ],
+          "quote": "And you could sort of see the network effect behavior at that time, is that right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            993.914,
+            1002.637
+          ],
+          "quote": "Yeah, so it's like if you think about just sort of marketplace dynamics and the network effect, the supply side is so compelling because it's effectively zero cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1968.097,
+            1979.979
+          ],
+          "quote": "And I think this is a big, like obviously now you're big and you have a network effect, but I think this is one of the big underrated things that allowed you to win in the early days is that you guys were constantly on top of anything that could break.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "avatar",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟形象 (avatar)",
+      "file": "虚拟形象",
+      "primary": false,
+      "how_described": "本集说目前看不到对虚拟形象的需求，因为那不是人们来 Whatnot 的原因，人们来是为了人类连接（human connection）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 523,
+          "t": [
+            2248.992,
+            2262.577
+          ],
+          "quote": "Yeah, I mean, I think the good thing is some of the platforms self-reinforcing, which is, you know, if someone goes over a top on, I don't know, building an avatar, people aren't going to come back to them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2331.489,
+            2342.024
+          ],
+          "quote": "And if I hear you right, that doesn't involve like giving sellers avatar tools or something like that to try to build scale or something like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ebay",
+      "type": "company",
+      "role": "company",
+      "name": "eBay",
+      "file": "eBay",
+      "primary": false,
+      "how_described": "本集说它 10 年前占整体市场约 15%，现在不到 1%，市场增长超过了它；它证明线上至少有 800 亿美元的长尾商业市场，但 Whatnot 的直播格式和卖家类型与 eBay 非常不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            32.599,
+            37.663
+          ],
+          "quote": "At that point in time was when like eBay was getting started and I was like, wait, you can make money from Pokemon cards?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            180.942,
+            186.247
+          ],
+          "quote": "And then at that point in time was when eBay was getting started and their biggest competitor was Yahoo Auctions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1033.283,
+            1037.125
+          ],
+          "quote": "Well, you know, Etsy's only so big or eBay is only so big.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1041.748,
+            1047.972
+          ],
+          "quote": "You know, eBay was actually, if you go back something like 10 years, it was like 15% of the overall market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1067.508,
+            1074.051
+          ],
+          "quote": "eBay is sort of a proof point to me that there's at least an $80 billion market of long tail commerce to go get online.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1093.908,
+            1098.392
+          ],
+          "quote": "People will peg us to eBay because we sort of got started in collectibles and that's where, you know, eBay got started.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1112.454,
+            1115.897
+          ],
+          "quote": "When eBay got started, a lot of it was like smaller resellers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1121.302,
+            1125.506
+          ],
+          "quote": "And a lot of those brands and small businesses would typically not be on eBay.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "qvc",
+      "type": "company",
+      "role": "company",
+      "name": "QVC",
+      "file": "QVC",
+      "primary": false,
+      "how_described": "本集说 Grant 对 QVC 的印象是没人想在上面购物，觉得那是老古董才用的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            574.96,
+            578.282
+          ],
+          "quote": "And then in the US and the Western world, you had QVC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            604.883,
+            606.264
+          ],
+          "quote": "We had heard of QVC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            607.605,
+            611.308
+          ],
+          "quote": "And my impressions of QVC was like, no one wants to shop on QVC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            611.348,
+            613.85
+          ],
+          "quote": "Like, it's like crannies shopping on QVC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            613.87,
+            615.692
+          ],
+          "quote": "So no one my age wants to shop on QVC.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集提到 Grant 曾在 Facebook 工作，做 Marketplace 相关的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            253.453,
+            256.055
+          ],
+          "quote": "And then I was working at Facebook and was working on marketplace stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            557.788,
+            561.25
+          ],
+          "quote": "In the US, Facebook marketplace was working, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": false,
+      "how_described": "本集提到 Grant 在 YouTube 工作了很长时间，做了视频方面的经历",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            250.05,
+            251.951
+          ],
+          "quote": "And I worked at YouTube for a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2511.183,
+            2514.765
+          ],
+          "quote": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tj-maxx",
+      "type": "company",
+      "role": "company",
+      "name": "TJ Maxx",
+      "file": "TJ Maxx",
+      "primary": false,
+      "how_described": "本集说 Whatnot 上女装品类的模式几乎像 TJ Maxx，主要是过季库存、非常好的定价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            1712.788,
+            1713.829
+          ],
+          "quote": "Almost TJ Maxx-like.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集说它高度实用主义、高度游戏化，有第一方、第三方、国际卖家之间的竞争，与 Whatnot 为小企业赋能的体验完全不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1358.445,
+            1369.818
+          ],
+          "quote": "And if you think about what what not allows that person to do compared to, say, Amazon, which is like highly utilitarian, you know, highly gamified and like.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

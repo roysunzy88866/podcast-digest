@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]] [[Max Hodak]] [[Satya Nadella]]
+[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":2,"Amazon":5}</script>
+<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":2,"Amazon":6}</script>
 
 <script>
 (function(){

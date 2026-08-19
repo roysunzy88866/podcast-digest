@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Madhavan Ramanujam]] · [[Jason Lemkin]] · [[Intercom]] · [[SaaStr]] · [[Cursor]] · [[Replit]] · [[Charge Flow]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":95,"Madhavan Ramanujam":1,"Jason Lemkin":1,"Intercom":3,"SaaStr":1,"Cursor":22,"Replit":8,"Charge Flow":1,"Vercel":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":97,"Madhavan Ramanujam":1,"Jason Lemkin":1,"Intercom":3,"SaaStr":1,"Cursor":22,"Replit":8,"Charge Flow":1,"Vercel":7}</script>
 
 <script>
 (function(){

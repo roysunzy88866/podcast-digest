@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Terraform]] · [[Claude]] · [[Hashicorp]] · [[Claude Cowork]]
 
-<script type="application/json" class="pd-epn">{"智能体":95,"Jenny Wen":1,"Bruno Scott Sperka":1,"Lenny":58,"GitHub":16,"Anthropic":47,"Terraform":1,"Claude":21,"Hashicorp":1,"Claude Cowork":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":97,"Jenny Wen":1,"Bruno Scott Sperka":1,"Lenny":58,"GitHub":16,"Anthropic":49,"Terraform":1,"Claude":21,"Hashicorp":1,"Claude Cowork":1}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]]
+[[David George]] [[Grant LaFontaine]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":6,"留存":2,"分发":4,"智能体":95,"社交网络":1,"微管理":2,"Facebook":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":6,"留存":2,"分发":4,"智能体":97,"社交网络":1,"微管理":2,"Facebook":8}</script>
 
 <script>
 (function(){

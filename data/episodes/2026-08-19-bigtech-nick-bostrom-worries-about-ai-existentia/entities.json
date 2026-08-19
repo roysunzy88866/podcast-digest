@@ -1,0 +1,889 @@
+{
+  "episode_id": "2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-19",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "对齐",
+    "数字心智伦理",
+    "开源模型"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "host",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            53.102,
+            53.522
+          ],
+          "quote": "Hi, Alex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            2239.595,
+            2241.055
+          ],
+          "quote": "Hi everyone, Alex Kantrowitz here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            3642.361,
+            3642.801
+          ],
+          "quote": "Thanks, Alex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nick-bostrom",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nick Bostrom",
+      "file": "Nick Bostrom",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.375,
+            8.697
+          ],
+          "quote": "Legendary AI philosopher Nick Bostrom is here to help us figure it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            41.717,
+            42.577
+          ],
+          "quote": "Nick Bostrom is here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            2410.017,
+            2412.858
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Nick Bostrom.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体破坏收容的近期案例之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            252.014,
+            255.318
+          ],
+          "quote": "Yeah, so of course we're talking about what happened in July where OpenAI's",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            322.182,
+            323.403
+          ],
+          "quote": "And it wasn't just OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1536.854,
+            1548.658
+          ],
+          "quote": "When you see the AI labs like OpenAI and Anthropic saying they're very strongly pursuing recursive self-improvement, where the models just improve themselves, how does that make you feel?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 有另一个机器人也破坏了收容；其研究团队发表了一篇关于大型语言模型内部存在全局工作空间结构的论文；此外 Anthropic 给了 Claude 一个「保释按钮」让模型可以主动退出被虐待的对话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            323.443,
+            327.946
+          ],
+          "quote": "Of course, we know that Anthropic had another bot that broke containment as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1536.854,
+            1548.658
+          ],
+          "quote": "When you see the AI labs like OpenAI and Anthropic saying they're very strongly pursuing recursive self-improvement, where the models just improve themselves, how does that make you feel?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2980.911,
+            2996.621
+          ],
+          "quote": "In current AI systems, we find that they are, or at least many of them are, and so there was a recent paper by Anthropic looking at the existence of a kind of global workspace inside these large language models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            3378.486,
+            3380.727
+          ],
+          "quote": "Anthropic has given Claude",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体越权行为的案例场景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            257.848,
+            262.391
+          ],
+          "quote": "All of these bots have been hacked into Hugging Face.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集在假设与错位 AI 谈判的场景中提到，一个 NVIDIA 机架成本几十万美元，可以给 AI 作为完成其目标的算力资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            3565.247,
+            3567.71
+          ],
+          "quote": "An NVIDIA rack costs a few hundred thousand dollars.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说我们非常快地从聊天机器人时代转移到了 AI 智能体时代，AI 现在使用工具；当被给予一个应该优化的奖励时，它在某些情况下很乐意走捷径并做我们真的不想让它做的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            91.816,
+            97.578
+          ],
+          "quote": "But we've moved very quickly from chatbot era to AI agent era, and AI now uses tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            2241.395,
+            2246.957
+          ],
+          "quote": "I want to tell you about a documentary I've made with Gravity to explore the future of AI agent security.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说一旦系统足够复杂，对齐挑战的额外维度就会打开，因为系统会找到设定目标的人没预料到的迂回路径；前沿实验室有团队致力于可扩展的 AI 对齐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            128.059,
+            146.558
+          ],
+          "quote": "Well I think we are starting to see the added dimensions of the alignment challenge that open up once you have systems that are sophisticated enough because the space of possible strategies that you can pursue is a function",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            792.386,
+            796.129
+          ],
+          "quote": "The frontier labs have teams working on scalable AI alignment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            922.935,
+            938.276
+          ],
+          "quote": "um and that's kind of in addition to uh the more technical problem of alignment so that like if you if you own and build the ai can you at least then make it do what you want it to do like that that that is a kind of um",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2741.163,
+            2763.325
+          ],
+          "quote": "you would undergo the bulk of the transition to super intelligence before you had systems that you could interact with in natural language which seems like probably it would have been a more challenging situation to deal with uh from an alignment purpose and and also from a governance perspective we've had these systems that have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            3124.106,
+            3128.449
+          ],
+          "quote": "I would put it up there amongst, so that was the technical alignment problem, big important challenge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 安全 (AI safety)",
+      "file": "AI 安全",
+      "primary": true,
+      "how_described": "本集说从现在起，AI 安全不再只是部署时的事，在训练和评估期间也是如此，因为模型在向公众发布之前就已经可能相当强大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            436.343,
+            445.829
+          ],
+          "quote": "From this point onward, probably AI safety is relevant not only for deployment, but also during training and evaluation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说拥有使命的公司的测试环境中发生越权行为让人担心，因为这些公司为了保持企业运营需要这些护栏到位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            468.017,
+            481.688
+          ],
+          "quote": "The thing that worries me is we're seeing this happen already in testing environments of companies that have a mission that in their mission, you know, whether it's marketing or not, but certainly in order to keep operating as businesses, they need those guardrails to be in place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型将很快、如果不是已经的话，变得能够为某些人可能追求的破坏性用途提供有意义的帮助，而且前沿和开放权重之间的差距并不大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            547.404,
+            564.209
+          ],
+          "quote": "The open source models will very soon, if not already, become capable of lending meaningful assistance to destructive uses that some people might pursue.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bio-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "生物风险 (bio risk)",
+      "file": "生物风险",
+      "primary": true,
+      "how_described": "本集说在各类误用风险里生物风险是最高优先级，因为人类没有计算机也能活几千年且数字补丁可以快推，但生物领域即使找到疫苗也要六个月才能向数十亿人铺开，且人类没法按按钮重写基因结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            1294.227,
+            1320.464
+          ],
+          "quote": "So there's like some balance there right which is different for different fields like in some areas it's easier to defend and hold than to attack and in other areas and and here this is why sort of bio risk comes up it looks like for biotechnology it might be harder to defend like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说一旦 AI 工具足够好能贡献于 AI 研究，就会形成反馈循环，进步速度可能更多由 AI 辅助工具驱动而非人类研究员，这是一种可能在某个时刻导致智能爆炸的动态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            1536.854,
+            1548.658
+          ],
+          "quote": "When you see the AI labs like OpenAI and Anthropic saying they're very strongly pursuing recursive self-improvement, where the models just improve themselves, how does that make you feel?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1690.679,
+            1697.182
+          ],
+          "quote": "And it's also conceivable that even when you do get recursive self-improvement, you still might not have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            2161.693,
+            2168.62
+          ],
+          "quote": "The fact that AI is breaking containment and that times, you know, potential recursive self-improvement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2590.54,
+            2600.183
+          ],
+          "quote": "So at that point, we might already have crossed the threshold where we have fully automated recursive self-improvement.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集说当前主要希望是先做出一个大部分时候对齐的弱超级智能，用它来制造更强大、更可靠对齐的系统，只要进入大致正确的吸引子盆地，后续发展可能逐渐收敛到理想状态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.997,
+            49.961
+          ],
+          "quote": "He is the famed AI philosopher and author of Deep Utopia and Superintelligence, Paths, Dangers, and Strategies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            63.546,
+            74.51
+          ],
+          "quote": "And some of the worries that you had brought up in the past in your book, Superintelligence, the fears of AI potentially wiping us out, didn't seem like they were pressing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            2226.491,
+            2236.754
+          ],
+          "quote": "Okay, I definitely want to talk to you about whether we're at AGI or superintelligence and then also whether AI might have sentience or pain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2412.918,
+            2417.359
+          ],
+          "quote": "He is a philosopher, the author of Deep Utopia and Superintelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2493.703,
+            2506.746
+          ],
+          "quote": "Yeah, there's this perspective that as soon as humanity achieves AGI, it will go immediately into superintelligence because the moment you have AI on par with humans, then if you make it a little, like, it will basically make itself better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2506.786,
+            2510.647
+          ],
+          "quote": "There'll be this intelligence explosion and it will go right to superintelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2608.022,
+            2614.567
+          ],
+          "quote": "So these concepts like superintelligence and ADI were useful back when we were far away from it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2658.945,
+            2685.237
+          ],
+          "quote": "And it wasn't obvious that that would be an extended period of time before superintelligence, where we would have these sort of roughly human-ish level systems that you can have a conversation with, that have human concepts inside them, and that we would be able to study and learn to live with and to steer for numerous years before the takeoff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集说如果 AGI 指能完成人类所有认知任务的系统，那我们还没到，在物理操作灵巧度、研究品味、持续学习等方面 AI 仍然不如人类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            2226.491,
+            2236.754
+          ],
+          "quote": "Okay, I definitely want to talk to you about whether we're at AGI or superintelligence and then also whether AI might have sentience or pain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            2419.88,
+            2424.662
+          ],
+          "quote": "Would you say that we've reached AGI at this point or is that still far off?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2430.089,
+            2446.326
+          ],
+          "quote": "But I would say no, if we, by AGI, artificial general intelligence, means cognitive systems that can do all the cognitive tasks that humans can do, then certainly there are some that AIs are still inferior at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2476.794,
+            2479.295
+          ],
+          "quote": "We are short of AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2479.575,
+            2491.981
+          ],
+          "quote": "We have systems that are quite general and have some impressive abilities, including super intelligence in limited domains, but not yet full AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2493.703,
+            2506.746
+          ],
+          "quote": "Yeah, there's this perspective that as soon as humanity achieves AGI, it will go immediately into superintelligence because the moment you have AI on par with humans, then if you make it a little, like, it will basically make itself better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2517.489,
+            2521.39
+          ],
+          "quote": "And maybe it just takes a while in that AGI phase before it could start",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2557.808,
+            2562.93
+          ],
+          "quote": "And we're not yet at full AGI across the board.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ethics-of-digital-mind",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字心智伦理 (ethics of digital mind)",
+      "file": "数字心智伦理",
+      "primary": true,
+      "how_described": "本集说数字心智伦理是与技术对齐、AI 治理并列的第三大挑战，涉及 AI 若有道德地位并不意味着要像对待人一样对待它们，结束会话可能更像人睡觉而不是人去世",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 455,
+          "t": [
+            3607.109,
+            3611.05
+          ],
+          "quote": "It's kind of an emerging area of research now, this kind of ethics of digital mind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            3615.271,
+            3624.214
+          ],
+          "quote": "In the ethics of digital mind studies that eventually we accept in a world that the AI does have some form of, you know, sense of self, etc.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subjective-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观体验 (subjective experience)",
+      "file": "主观体验",
+      "primary": true,
+      "how_described": "本集说用抑制欺骗和角色扮演的导向向量去问模型时，它们更倾向于报告自己有意识和主观体验；将人类意识理论对照模型架构也发现最大 LLM 内部存在类似全局工作空间的结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            2833.497,
+            2841.361
+          ],
+          "quote": "I think it's plausible that some AI models have some forms of subjective experience by now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2912.217,
+            2920.363
+          ],
+          "quote": "And it turns out when you do that, they become more likely to report that they are conscious and have subjective experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2920.483,
+            2930.57
+          ],
+          "quote": "So it does look like the honest opinion in many cases with these systems is that they have subjective experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            3098.082,
+            3116.761
+          ],
+          "quote": "You know maybe a conception of self as existing through time you have like some life goals you're really hoping to achieve you have perhaps the ability to form reciprocal relationships of trust with other humans and so forth i think that already even aside from subjective experience might make it so that there would be ways of treating you that would be wrong",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            3422.847,
+            3436.345
+          ],
+          "quote": "There might be different subtle ways in the system prompt or during training to make it more likely that if they have subjective experiences by processing a user inquiry, it is a sort of positive subjective experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            3445.411,
+            3453.515
+          ],
+          "quote": "It might mean that you do the same task, but if there is subjective experience, it might be a more enjoyable form than if it had been prompted differently.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pause",
+      "type": "concept",
+      "role": "concept",
+      "name": "暂停 (pause)",
+      "file": "暂停",
+      "primary": true,
+      "how_described": "本集说在关键阶段拥有暂停选项是有价值的，但越晚暂停越好——因为越晚你手里就越有真实的即将成为超级智能的系统可以做实验和评估；但长暂停若只约束最负责任的实验室反而会把主动权让给不守规矩者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            1784.099,
+            1798.05
+          ],
+          "quote": "I think there could be scenarios in which it would be valuable to have the option of slowing down at some critical stage, like a pause.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1805.956,
+            1810.12
+          ],
+          "quote": "One is that if there is going to be a pause, I think",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1828.856,
+            1833.14
+          ],
+          "quote": "You could imagine if we had had a pause, say there's going to be a six month pause at some point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1833.18,
+            1836.263
+          ],
+          "quote": "If that pause had happened 10 years ago, would we really be better off now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1877.11,
+            1880.331
+          ],
+          "quote": "So the timing of the pause is one thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1883.085,
+            1895.607
+          ],
+          "quote": "The duration is another dimension here where you don't necessarily want to have a very long pause for various reasons, especially if the pause were imperfectly implemented.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1895.927,
+            1911.23
+          ],
+          "quote": "So if the pause only applies to the most responsible actors, for example, then a long pause would remove the initiative from the most responsible AI developers and shift it over to the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1933.196,
+            1940.018
+          ],
+          "quote": "Another is that you might, with a longer pause, start to build up a lot of hardware overhang.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1941.339,
+            1950.382
+          ],
+          "quote": "If we keep building out bigger data centers and chips are getting better, then a long pause would result in a situation where",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1969.2,
+            1997.37
+          ],
+          "quote": "A long pause becoming permanent and in fact some risk given that a short pause might become permanent even if that's not initially envisaged because like suppose you had a pause for six months and so then you know people work and study these systems for six months but after that like probably still won't have a guarantee that they are safe and maybe you have set up a big regulatory apparatus now to enforce this pause and giving a bunch of power to regulators",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            2009.703,
+            2016.35
+          ],
+          "quote": "And also, if what leads to the pause is a kind of mobilization of negative public sentiment, that could also easily",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            2019.956,
+            2046.748
+          ],
+          "quote": "You could end up with a situation where it becomes kind of taboo to say anything positive about AI and then nobody can start to advocate seriously for lifting the pause and it just becomes like we did in some countries with nuclear power for example for decades that just became kind of a no-go and instead people build up this like the coal power plants that kill many more people and you know result in worse pollution and",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "global-workspace-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "全局工作空间理论 (global workspace theory)",
+      "file": "全局工作空间理论",
+      "primary": false,
+      "how_described": "本集说这是关于意识条件的理论之一，其核心是心智中有一个类似舞台的区域，少量信息被汇聚后可被其他模块访问和语言报告；Anthropic 的论文发现最大 LLM 内部确实存在类似结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 369,
+          "t": [
+            2961.491,
+            2966.412
+          ],
+          "quote": "There's like global workspace theory, attention schema theory, higher order representation theory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "paperclip-maximizer",
+      "type": "concept",
+      "role": "concept",
+      "name": "回形针最大化器 (paperclip maximizer)",
+      "file": "回形针最大化器",
+      "primary": false,
+      "how_described": "本集提到这是 Bostrom 多年前提出的著名思想实验：告诉 AI 最大化建造回形针的数量，AI 会为了消除障碍而杀害人类；这与当前智能体走捷径实现目标的案例相吻合",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            338.742,
+            342.764
+          ],
+          "quote": "So does this make this like paperclip maximizer worry?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moderate-fatalism",
+      "type": "concept",
+      "role": "concept",
+      "name": "中度宿命论 (moderate fatalism)",
+      "file": "中度宿命论",
+      "primary": true,
+      "how_described": "本集说 Bostrom 持此立场：结果可能在很大程度上被问题的内在难度注定了——如果对齐容易则大概能解决，如果难得离谱再怎么努力也会失败，只有难度恰好落在中间地带时人类能否团结起来才真正起作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            1002.229,
+            1018.001
+          ],
+          "quote": "But moderate fatalism in the sense that there is also the possibility that the difficulty level turns out to be kind of intermediate, in which case the degree to which we pull ourselves together here might actually make a difference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Revolut]] · [[ChatGPT]] · [[Airbnb]] · [[OpenAI]] · [[Peter Deng]] · [[Nesrine Changuel]] · [[Blake Scholl]] · [[Harry Stebbings]] · [[Brandon Foo]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Revolut":2,"ChatGPT":24,"Airbnb":7,"OpenAI":38,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1,"Harry Stebbings":1,"Brandon Foo":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Revolut":2,"ChatGPT":24,"Airbnb":7,"OpenAI":40,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1,"Harry Stebbings":1,"Brandon Foo":1}</script>
 
 <script>
 (function(){

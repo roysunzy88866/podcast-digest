@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Peter Deng]] · [[Brandon Foo]] · [[ChatGPT]] · [[Facebook]] · [[Uber]] · [[Instagram]] · [[OpenAI]] · [[Copilot]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Peter Deng":1,"Brandon Foo":1,"ChatGPT":24,"Facebook":7,"Uber":4,"Instagram":3,"OpenAI":38,"Copilot":3,"Cursor":22}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Peter Deng":1,"Brandon Foo":1,"ChatGPT":24,"Facebook":8,"Uber":4,"Instagram":3,"OpenAI":40,"Copilot":3,"Cursor":22}</script>
 
 <script>
 (function(){
