@@ -153,9 +153,13 @@ describe("audioAcceptable(坏文件一律拒传中转站,fail-closed)", () => {
     expect(audioAcceptable({ code: 200, ctype: "application/json" }, BIG).ok).toBe(false);
     expect(audioAcceptable({ code: 200, ctype: "application/xml" }, BIG).ok).toBe(false);
   });
-  it("真音频的几种 content-type 都认(实测口径:Substack/Megaphone/mp4 音轨)", () => {
-    for (const c of ["binary/octet-stream", "audio/mpeg", "application/octet-stream", "video/mp4", "AUDIO/MPEG"])
+  it("真音频的几种 content-type 都认(实测口径:Substack/Megaphone/mp4 音轨/ogg/m4a)", () => {
+    for (const c of ["binary/octet-stream", "audio/mpeg", "application/octet-stream", "video/mp4",
+                     "AUDIO/MPEG", "audio/x-m4a", "audio/mp4", "application/ogg"])
       expect(audioAcceptable({ code: 200, ctype: c }, BIG).ok).toBe(true);
+  });
+  it("★ 拒收要说清是什么类型(误拒时能一眼看出该往白名单加什么;GLM 023[2])", () => {
+    expect(audioAcceptable({ code: 200, ctype: "application/json" }, BIG).why).toContain("application/json");
   });
   it("★ 3xx 不收(curl -L 已跟完重定向,正常终态必是 2xx;GLM 022[6])", () => {
     expect(audioAcceptable({ code: 302, ctype: "audio/mpeg" }, BIG).ok).toBe(false);

@@ -124,8 +124,11 @@ export function parseCurlMeta(stdout) {
 }
 
 /** 音频 content-type 白名单(GLM 022[2]:黑名单挡不住「大 JSON 错误页」这类;改成不认识就不收)。
- *  实测口径:Substack=binary/octet-stream、Megaphone/Anchor=audio/mpeg;video/ 收是因个别源发 mp4 音轨。 */
-const AUDIO_CTYPE = /^(audio\/|video\/|(application|binary)\/octet-stream)/i;
+ *  实测口径:Substack=binary/octet-stream、Megaphone/Anchor=audio/mpeg;audio/ 前缀已覆盖 x-m4a/mp4/ogg 等变体,
+ *  video/ 收是因个别源发 mp4 音轨,application/ogg 是 ogg 封装的正式类型。
+ *  ⚠️ 误拒的代价(GLM 023[2]):该集搬不过去、留在清单里每班重试,stderr 打明 content-type ——
+ *  响亮可见不静默,发现漏收就往这加一条,别为了「宁可放行」把坏文件的口子重新开开。 */
+const AUDIO_CTYPE = /^(audio\/|video\/|application\/ogg|(application|binary)\/octet-stream)/i;
 
 /** 下载结果是否可当音频收 —— fail-closed:读不出/没说是什么/不认识的类型一律拒
  *  (GLM 021[3][4][7] + 022[2][6])。坏 asset 上了中转站会让云端卡在非「音频下载失败」的错上,
@@ -179,8 +182,12 @@ if (isMain) {
   const rv = sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]);
   // release 不存在是正常的(首跑/刚被清空);别的失败(多半是 gh 没认证)必须响亮死 ——
   // 否则 existing 静默变空:孤儿清不掉还以为清干净了(GLM 022[3])。
-  if (rv.status !== 0 && !/release not found|not found/i.test(rv.stderr || "")) {
-    throw new Error(`读中转站失败(gh 没认证?):${(rv.stderr || "").slice(-200)}`);
+  // 判据只认「release not found」这一句:裸 /not found/ 会把「仓库不存在」「404」一并吞掉,
+  // 等于换个触发词重犯同一个错(GLM 023[1])。认不出的失败宁可响亮死。
+  if (rv.status !== 0 && !/release not found/i.test(rv.stderr || "")) {
+    const msg = `读中转站失败(gh 没认证?):${(rv.stderr || "").slice(-200)}`;
+    if (dryRun) console.error(`⚠️ ${msg}(--dry-run 继续预演)`); // 预演不该被拦死(GLM 023[3])
+    else throw new Error(msg);
   }
   const existing = parseAssetNames(rv.stdout ?? "");
   const stale = staleAssets(existing, wanted);
