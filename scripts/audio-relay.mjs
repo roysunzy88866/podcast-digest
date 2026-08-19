@@ -123,13 +123,18 @@ export function parseCurlMeta(stdout) {
   return m ? { code: Number(m[1]), ctype: m[2] } : null;
 }
 
-/** 下载结果是否可当音频收(GLM 021[3]/[4]/[7]:空 ctype、code=000(DNS/连接失败 curl 仍打 -w)一律拒,
- *  别让「读不出/没说是什么」当成功混过去 —— 坏 asset 上了中转站会让云端卡死在非「音频下载失败」的错上)。 */
+/** 音频 content-type 白名单(GLM 022[2]:黑名单挡不住「大 JSON 错误页」这类;改成不认识就不收)。
+ *  实测口径:Substack=binary/octet-stream、Megaphone/Anchor=audio/mpeg;video/ 收是因个别源发 mp4 音轨。 */
+const AUDIO_CTYPE = /^(audio\/|video\/|(application|binary)\/octet-stream)/i;
+
+/** 下载结果是否可当音频收 —— fail-closed:读不出/没说是什么/不认识的类型一律拒
+ *  (GLM 021[3][4][7] + 022[2][6])。坏 asset 上了中转站会让云端卡在非「音频下载失败」的错上,
+ *  账目清不掉、asset 也清不掉。curl -L 已跟完重定向,正常终态必是 2xx,故 3xx 也不收。 */
 export function audioAcceptable(meta, size) {
   if (!meta) return { ok: false, why: "下载状态读不出(curl 输出异常)" };
-  if (!(meta.code >= 200 && meta.code < 400)) return { ok: false, why: `HTTP ${meta.code || "000(连接失败)"}` };
+  if (!(meta.code >= 200 && meta.code < 300)) return { ok: false, why: `HTTP ${meta.code || "000(连接失败)"}` };
   if (!meta.ctype) return { ok: false, why: "响应没说 content-type(判不出是不是音频)" };
-  if (/text\/|html/.test(meta.ctype)) return { ok: false, why: `content-type: ${meta.ctype}(疑挑战页)` };
+  if (!AUDIO_CTYPE.test(meta.ctype)) return { ok: false, why: `content-type: ${meta.ctype}(不是音频类型)` };
   if (!(size >= MIN_AUDIO_BYTES)) return { ok: false, why: `文件过小/缺失(${size} 字节)` };
   return { ok: true };
 }
@@ -169,11 +174,22 @@ if (isMain) {
   // ⚠️ 孤儿回收必须在「清单空就收工」**之前**(2026-08-19 实证:清单空正是孤儿最常见的场景 ——
   // 云端消费完清账后,mini 若读到清账前的快照会白搬一次,那份 asset 从此不在任何清单里)。
   // 先前写在收尾处 = 唯一够得着它的场景反而先 exit 了,等于死代码。
-  const existing = parseAssetNames(sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]).stdout ?? "");
-  if (!dryRun) {
-    for (const n of staleAssets(existing, wanted)) {
+  // ⚠️ 已知成本(GLM 022[1]):清单是 fetch 那一刻的快照。若云端在 fetch 之后重新登记同一集,
+  // 这里会把它刚上传的 asset 当孤儿删掉 —— 最坏代价是下一班重搬一次(30MB),不丢数据不卡账,故接受。
+  const rv = sh("gh", ["release", "view", RELAY_TAG, "--json", "assets"]);
+  // release 不存在是正常的(首跑/刚被清空);别的失败(多半是 gh 没认证)必须响亮死 ——
+  // 否则 existing 静默变空:孤儿清不掉还以为清干净了(GLM 022[3])。
+  if (rv.status !== 0 && !/release not found|not found/i.test(rv.stderr || "")) {
+    throw new Error(`读中转站失败(gh 没认证?):${(rv.stderr || "").slice(-200)}`);
+  }
+  const existing = parseAssetNames(rv.stdout ?? "");
+  const stale = staleAssets(existing, wanted);
+  if (dryRun) stale.forEach((n) => console.log(`   （--dry-run)将清孤儿:${n}`)); // GLM 022[5]:dry-run 也要看得见 GC
+  else {
+    for (const n of stale) {
       const r = sh("gh", ["release", "delete-asset", RELAY_TAG, n, "-y"]);
-      console.log(r.status === 0 ? `   🧹 清孤儿 asset(云端已消费):${n}` : `   ⚠️ 孤儿 asset 清理失败(下轮再试):${n}`);
+      if (r.status === 0) console.log(`   🧹 清孤儿 asset(云端已消费):${n}`);
+      else console.error(`   ⚠️ 孤儿 asset 清理失败(下轮再试):${n}`); // GLM 022[4]:失败信号留在 stderr
     }
   }
   if (!wanted.length) {

@@ -149,6 +149,17 @@ describe("audioAcceptable(坏文件一律拒传中转站,fail-closed)", () => {
   it("挑战页(200+text/html)拒收", () => {
     expect(audioAcceptable({ code: 200, ctype: "text/html; charset=utf-8" }, BIG).ok).toBe(false);
   });
+  it("★ 白名单而非黑名单:大 JSON/XML 错误页(体积够大)照样拒(GLM 022[2])", () => {
+    expect(audioAcceptable({ code: 200, ctype: "application/json" }, BIG).ok).toBe(false);
+    expect(audioAcceptable({ code: 200, ctype: "application/xml" }, BIG).ok).toBe(false);
+  });
+  it("真音频的几种 content-type 都认(实测口径:Substack/Megaphone/mp4 音轨)", () => {
+    for (const c of ["binary/octet-stream", "audio/mpeg", "application/octet-stream", "video/mp4", "AUDIO/MPEG"])
+      expect(audioAcceptable({ code: 200, ctype: c }, BIG).ok).toBe(true);
+  });
+  it("★ 3xx 不收(curl -L 已跟完重定向,正常终态必是 2xx;GLM 022[6])", () => {
+    expect(audioAcceptable({ code: 302, ctype: "audio/mpeg" }, BIG).ok).toBe(false);
+  });
   it("★ code=000(DNS/连接失败 curl 仍打 -w)不许当成功混过去", () => {
     expect(audioAcceptable({ code: 0, ctype: "" }, BIG).ok).toBe(false);
     expect(audioAcceptable({ code: 403, ctype: "audio/mpeg" }, BIG).ok).toBe(false);
