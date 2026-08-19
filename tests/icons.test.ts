@@ -16,9 +16,13 @@ describe("apple-touch-icon 规格(iOS 主屏图标)", () => {
     expect(existsSync(ICON)).toBe(true);
   });
   it("★★★ 不带透明通道 —— 带 alpha 时 iOS 弃用该图标,退化成站名首字「跨」", () => {
-    const { colorType } = pngHeader(readFileSync(ICON));
-    // PNG 色彩类型:4=灰度+alpha、6=RGBA 都含透明;0/2/3 不含
-    expect([4, 6]).not.toContain(colorType);
+    const buf = readFileSync(ICON);
+    const { colorType } = pngHeader(buf);
+    // 白名单而非黑名单(GLM 033[5]):0=灰度、2=RGB 天然不透明;4/6 带 alpha;
+    // 3=调色板**也可能透明**(靠 tRNS 块),排它比逐块解析简单可靠。
+    expect([0, 2]).toContain(colorType);
+    // 双保险:整个文件不得出现 tRNS 块(调色板透明/色键透明都走它)
+    expect(buf.includes(Buffer.from("tRNS", "ascii"))).toBe(false);
   });
   it("★★ 尺寸 180x180(iPhone @3x 标准)", () => {
     const { width, height } = pngHeader(readFileSync(ICON));
