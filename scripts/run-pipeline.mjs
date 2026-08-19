@@ -250,26 +250,53 @@ export function selectBackfill(items, { n, existingIds, source }) {
 export const DAILY_TARGET = 8;
 
 /**
- * C23 每日顶量选集(纯逻辑,ADR 0021):从归档补「比库内该源现有最旧一期(beforeISO)更旧」的集,
- * 倒序(紧挨边界先补)取 n。**有条件放开 drift #22**——只往回、有上限,非无边界跑全 backlog。
+ * C23 每日顶量选集(纯逻辑,ADR 0021;**C31 改为按年份下限挑最新**,见 backfillCandidates)。
+ * **有条件放开 drift #22**——候选池有年份下限、每班有上限,非无边界跑全 backlog。
  * 去重两层:① ID(deriveId vs existingIds) ② 跨源标题(findTitleDuplicate vs libraryTitles)。
- * 疑似跨源重复 = **直接跳过**(不补/不登记/不待裁,ADR 0021 用户拍板从简);倒序自然取下一集,不卡住。
+ * 疑似跨源重复 = **直接跳过**(不补/不登记/不待裁,ADR 0021 用户拍板从简);顺序自然取下一集,不卡住。
  */
-export function selectBackfillBackward(items, { n, beforeISO, existingIds, source, libraryTitles = [] }) {
+/** C31:一律按**北京时间**切日(与 workers/pv-counter 的 bjDay 同口径 UTC+8)。
+ *  病根(2026-08-19 用户第 N 次报「内容更新有问题」时实证):原来 added 与每日目标都按 UTC 日,
+ *  而 UTC 00:00 = 北京 08:00 → 用户清晨看站时「今天」几乎恒空,且晚 11 点与次日早 9 点看到的
+ *  「今天」是同一批(系统认为还没换日)。读者在北京,系统就该按北京算。 */
+export function bjDay(ts = Date.now()) {
+  return new Date(ts + 8 * 3600e3).toISOString().slice(0, 10);
+}
+
+// C31(2026-08-19 用户拍板「只要 2026 年的内容」):补历史的年份下限。
+// 要改须用户拍板 —— 放宽即意味着站上会重新出现更早年份的集。
+export const BACKFILL_SINCE = "2026-01-01T00:00:00.000Z";
+
+/** 补历史候选池:「不早于 sinceISO 且从未入库」的集,按日期降序(最新优先)。
+ *  取代原 selectBackfillBackward 的「比库内该源最旧一集更旧」—— 那条策略每补一集边界就往回退一格,
+ *  **必然越挖越老**(实测 Lenny's 已挖到 2025-07、Beyond Coding 挖到 2026-04),
+ *  与用户「只要 2026 年」直接冲突;且它靠窗口才勉强不跳过中间集(drift #69)。
+ *  新策略的候选池是固定的(未入库 ∩ ≥ sinceISO),不存在边界后退,中间集不会被甩出射程。 */
+export function backfillCandidates(items, { sinceISO, existingIds, source, libraryTitles = [] }) {
   const seen = new Set(existingIds);
   return items
     .filter(isInterview)
-    .filter((it) => it.pubDateISO < beforeISO) // 只比库内最旧的更旧
+    .filter((it) => it.pubDateISO >= sinceISO) // C31:年份下限(只补 2026 及以后)
     .filter((it) => !seen.has(deriveId(it, source))) // ① ID 去重
     .filter((it) => !findTitleDuplicate(it.title, libraryTitles)) // ② 跨源标题查重,疑似即跳过
     .filter((it) => passesTopicFilter(it, source)) // ③ C28:题材泛的源只收对口集(DOAC)
-    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 倒序:紧挨边界的先补
-    // C28b(drift #67)**+ 边界护栏(drift #69,独立审计 2026-08-18 逮到)**:有官方稿的优先,
-    // **但只在紧挨边界的一个窗口内择优**,不许全表挑。
-    // 为什么要窗口:本函数的边界 beforeISO = 库内该源最旧一集;补了哪集边界就退到哪。
-    // 无窗口地「全表挑有稿的」会一口气跳到很老的一集 → 夹在中间、还没做的集从此永远不满足
-    // 「比最旧的还旧」,**再也不会被自动补**(实测 Beyond Coding 已把边界钉到 04-15,
-    // 中间 04-22～07-22 的周更集已出射程)。窗口 = n*4,既保住「便宜的先吃」,又让边界一格格退。
+    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)); // 最新优先(用户要「新」而非「填坑」)
+}
+
+/** 存量告警(C31 验收线⑤):2026 年候选池见底要点明「剩 N 集、约够 M 天」。
+ *  阈值 = 3 日量:留够用户拍板「放宽年份 / 加新源 / 接受站空」的时间。返回 null = 无需告警。 */
+export function backfillStockWarning(poolLeft, target, days = 3) {
+  if (!(target > 0) || poolLeft > target * days) return null;
+  const d = Math.floor(poolLeft / target);
+  return `::warning::补历史存量见底:${BACKFILL_SINCE.slice(0, 4)} 年起未入库候选仅剩 ${poolLeft} 集(按每日 ${target} 集约够 ${d} 天)。` +
+    `需用户拍板:放宽 BACKFILL_SINCE 年份 / 加新内容源 / 接受站上更新变少 —— 在此之前绝不自动改口径。`;
+}
+
+/** 从候选池挑 n 集补:最新的 n*4 集里,有官方稿的先吃(C28b 便宜通道不降级)。
+ *  留窗口的理由在新策略下变了但仍成立:不加窗口地「全表挑有稿的」会为了省钱一路挑到很老的集,
+ *  与用户要的「最新」相悖;n*4 既保住便宜通道,又把选择限制在够新的一段里。 */
+export function selectBackfillRecent(items, { n, sinceISO, existingIds, source, libraryTitles = [] }) {
+  return backfillCandidates(items, { sinceISO, existingIds, source, libraryTitles })
     .slice(0, n * 4)
     .sort((a, b) => {
       const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
@@ -704,7 +731,7 @@ function processEpisode(item, id, source, state) {
     const meta = { ...JSON.parse(readFileSync(metaPath, "utf8")), ...sourceMetaFields(item, source) };
     // 入库日(用户 2026-08-09:「最新」按加进站的时间排,让新处理的旧日期演讲冒到顶部)。
     // 首次处理时钉一次、之后不覆盖(重跑/refresh 不改),UTC 日期段与 meta.date 同格式好分组。
-    if (!meta.added) meta.added = new Date().toISOString().slice(0, 10);
+    if (!meta.added) meta.added = bjDay(); // C31:入库日按北京时间(读者在北京,首页「今天/昨天」才对得上)
     writeFileSync(metaPath, JSON.stringify(meta, null, 2));
   }
   // 无人值守补人工缺口:GLM 推说话人真名 + grounding 机器校(drift #23),传 RSS 标题当候选名源
@@ -853,7 +880,7 @@ async function main() {
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
   // 叠加守卫:--backfill(手动评估批)/--talks/--source 各入口即便误传也不顶量。
   if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
-    const r = await backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: new Date().toISOString().slice(0, 10) });
+    const r = await backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: bjDay() }); // C31:按北京日
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -1100,6 +1127,7 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   //   直到补够 target / 归档更旧候选耗尽 / 触及成本护栏(防坏归档区无限烧钱)。need=5 → 最多试 ~13 集。
   const attemptCap = need * 2 + 3;
   let attempted = 0;
+  let poolLeft = 0; // C31:全局 2026 年未入库候选盘点(见底要告警)
   for (const source of SOURCES.filter((s) => s.archiveFile || BACKFILL_FEED_KEYS.includes(s.key))) {
     if (remaining <= 0) break;
     let items;
@@ -1110,16 +1138,13 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
       console.error(`   ⚠️ ${source.key} 历史档读取失败,跳过顶量:${e.message}`);
       continue;
     }
-    // 库内该源现有最旧一期(id 前 10 位 = YYYY-MM-DD)→ 补比它更旧的;seen 集在循环里推进往回边界
-    const heldDates = completed
-      .filter((id) => sourceForId(id)?.key === source.key)
-      .map((id) => String(id).slice(0, 10))
-      .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d));
-    const beforeISO = heldDates.length ? `${heldDates.sort()[0]}T00:00:00.000Z` : new Date().toISOString();
+    // C31:候选池 = 该源「≥ BACKFILL_SINCE 且未入库」的集(不再按「比库内最旧更旧」往回挖)。
+    // 顺带盘存量:池子见底要响亮告警,不许悄悄改补更早年份、也不许悄悄让站空着。
+    poolLeft += backfillCandidates(items, { sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles }).length;
     while (remaining > 0 && attempted < attemptCap) {
-      const picks = selectBackfillBackward(items, { n: remaining, beforeISO, existingIds: seen, source, libraryTitles: libTitles });
-      if (!picks.length) break; // 该源归档已无更旧候选
-      console.log(`   ${source.key}:早于 ${beforeISO.slice(0, 10)} 的候选实得 ${picks.length}(累计试 ${attempted}/${attemptCap}):`);
+      const picks = selectBackfillRecent(items, { n: remaining, sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles });
+      if (!picks.length) break; // 该源已无 2026 年未入库候选
+      console.log(`   ${source.key}:${BACKFILL_SINCE.slice(0, 10)} 以来未入库的候选实得 ${picks.length}(累计试 ${attempted}/${attemptCap}):`);
       picks.forEach((p) => console.log(`      - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
       if (dryRun) {
         console.log("      （--dry-run:仅列出,不真补)");
@@ -1135,8 +1160,11 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
     }
   }
   if (remaining > 0) {
-    console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集(归档更旧候选耗尽或触及成本护栏 ${attemptCap})——今日不足 ${target}。`);
+    console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集(2026 年候选耗尽或触及成本护栏 ${attemptCap})——今日不足 ${target}。`);
   }
+  // C31 验收线⑤:存量见底必须响亮说,绝不悄悄改补更早年份/悄悄空站(改口径要用户拍板)
+  const warn = backfillStockWarning(poolLeft, target);
+  if (warn) console.log(warn);
   return { clean, skipped };
 }
 

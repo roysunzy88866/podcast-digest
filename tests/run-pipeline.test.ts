@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillBackward, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -377,38 +377,47 @@ describe("selectBackfill · 一次性回填最近 N 集(C8 评估批,override �
   });
 });
 
-describe("selectBackfillBackward · C23 每日顶量倒序补(ADR 0021)", () => {
-  // 归档 fixture:三条访谈 + 一条无音频(isInterview 排掉)
+describe("selectBackfillRecent · C31 补历史只补 2026、最新优先(替代原「越挖越老」策略)", () => {
+  // 归档 fixture:三条 2026 访谈 + 一条无音频(isInterview 排掉)+ 一条 2025 老集(年份下限排掉)
   const ARCH = [
     { title: "Growth loops that scale", link: "https://www.lennysnewsletter.com/p/growth-loops", pubDateISO: "2026-06-01T10:00:00.000Z", hasAudio: true },
     { title: "Building AI agents in production", link: "https://www.lennysnewsletter.com/p/ai-agents-prod", pubDateISO: "2026-05-15T10:00:00.000Z", hasAudio: true },
     { title: "The craft of design systems", link: "https://www.lennysnewsletter.com/p/design-systems", pubDateISO: "2026-04-10T10:00:00.000Z", hasAudio: true },
     { title: "No audio teaser", link: "https://www.lennysnewsletter.com/p/teaser", pubDateISO: "2026-05-20T10:00:00.000Z", hasAudio: false },
+    { title: "Old but gold 2025", link: "https://www.lennysnewsletter.com/p/old-2025", pubDateISO: "2025-12-18T10:00:00.000Z", hasAudio: true },
   ];
-  const before = "2026-06-15T00:00:00.000Z"; // 假设库内该源最旧一期 = 06-15
+  const SINCE = BACKFILL_SINCE;
 
-  it("★ 只补比 beforeISO 更旧的访谈,倒序(紧挨边界先补),无音频被排", () => {
-    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: before, existingIds: [], source: LENNYS });
+  it("★★★ 只补 2026 及以后,最新优先(2025 老集一条都不许进——用户 2026-08-19 明令)", () => {
+    const picks = selectBackfillRecent(ARCH, { n: 5, sinceISO: SINCE, existingIds: [], source: LENNYS });
     expect(picks.map((p) => p.pubDateISO)).toEqual([
       "2026-06-01T10:00:00.000Z",
       "2026-05-15T10:00:00.000Z",
       "2026-04-10T10:00:00.000Z",
     ]);
+    expect(picks.some((p) => p.pubDateISO < "2026")).toBe(false);
   });
 
-  it("beforeISO 把不够旧的挡在外(≥ 边界不补)", () => {
-    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: "2026-05-01T00:00:00.000Z", existingIds: [], source: LENNYS });
-    expect(picks.map((p) => p.pubDateISO)).toEqual(["2026-04-10T10:00:00.000Z"]);
+  it("★★★ 年份下限就是 2026-01-01(改它=改用户拍板的口径)", () => {
+    expect(BACKFILL_SINCE.slice(0, 10)).toBe("2026-01-01");
   });
 
-  it("n 限制:只取紧挨边界的前 n 集", () => {
-    const picks = selectBackfillBackward(ARCH, { n: 1, beforeISO: before, existingIds: [], source: LENNYS });
+  it("★★ 候选池不随「库内最旧」后退(旧策略的病根:补一集边界退一格,必然越挖越老)", () => {
+    // 库里已有 06-01(最旧=06-01)。旧策略只会挑比 06-01 更旧的;新策略照样把 05-15 当最新候选挑出,
+    // 且永远不会因为补过老集就把年份下限往前挪。
+    const seenId = deriveId(ARCH[0], LENNYS);
+    const picks = selectBackfillRecent(ARCH, { n: 1, sinceISO: SINCE, existingIds: [seenId], source: LENNYS });
+    expect(picks.map((p) => p.pubDateISO)).toEqual(["2026-05-15T10:00:00.000Z"]);
+  });
+
+  it("n 限制:只取最新的 n 集", () => {
+    const picks = selectBackfillRecent(ARCH, { n: 1, sinceISO: SINCE, existingIds: [], source: LENNYS });
     expect(picks.map((p) => p.pubDateISO)).toEqual(["2026-06-01T10:00:00.000Z"]);
   });
 
   it("★ ID 去重:已在库/已隔离的集不重复补", () => {
-    const seenId = deriveId(ARCH[0], LENNYS); // 06-01 那条
-    const picks = selectBackfillBackward(ARCH, { n: 5, beforeISO: before, existingIds: [seenId], source: LENNYS });
+    const seenId = deriveId(ARCH[0], LENNYS);
+    const picks = selectBackfillRecent(ARCH, { n: 5, sinceISO: SINCE, existingIds: [seenId], source: LENNYS });
     expect(picks.map((p) => p.pubDateISO)).toEqual([
       "2026-05-15T10:00:00.000Z",
       "2026-04-10T10:00:00.000Z",
@@ -416,9 +425,8 @@ describe("selectBackfillBackward · C23 每日顶量倒序补(ADR 0021)", () => 
   });
 
   it("★ 跨源标题查重:疑似跨源重复直接跳过(不补,ADR 0021 从简)", () => {
-    // 库内已有同名集(如来自 talks 源)→ findTitleDuplicate 命中 → 05-15 那条跳过
-    const picks = selectBackfillBackward(ARCH, {
-      n: 5, beforeISO: before, existingIds: [], source: LENNYS,
+    const picks = selectBackfillRecent(ARCH, {
+      n: 5, sinceISO: SINCE, existingIds: [], source: LENNYS,
       libraryTitles: ["Building AI agents in production"],
     });
     expect(picks.map((p) => p.pubDateISO)).toEqual([
@@ -427,8 +435,47 @@ describe("selectBackfillBackward · C23 每日顶量倒序补(ADR 0021)", () => 
     ]);
   });
 
+  it("backfillCandidates 给的是全池(存量盘点用),不截断", () => {
+    const pool = backfillCandidates(ARCH, { sinceISO: SINCE, existingIds: [], source: LENNYS });
+    expect(pool).toHaveLength(3);
+  });
+
   it("DAILY_TARGET 是 8(软目标;5→8 = 2026-08-18 用户拍板·standard-change,C28 便宜通道后产能腾出)", () => {
     expect(DAILY_TARGET).toBe(8);
+  });
+});
+
+describe("bjDay · C31 一律按北京时间切日(读者在北京)", () => {
+  const at = (iso: string) => bjDay(Date.parse(iso));
+  it("★★★ UTC 16:00 起就算北京的第二天(旧的 UTC 口径要等到 UTC 00:00 = 北京 08:00)", () => {
+    expect(at("2026-08-19T15:59:59Z")).toBe("2026-08-19");
+    expect(at("2026-08-19T16:00:00Z")).toBe("2026-08-20"); // 北京 00:00 换日
+  });
+  it("★★★ 用户清晨看站那一刻,系统的「今天」与他一致", () => {
+    expect(at("2026-08-19T00:30:00Z")).toBe("2026-08-19"); // 北京 08:30
+    expect(at("2026-08-18T23:00:00Z")).toBe("2026-08-19"); // 北京 07:00 —— 旧口径这里还算 08-18
+  });
+  it("与 workers/pv-counter 的 bjDay 同口径(UTC+8 后取日期段)", () => {
+    expect(bjDay(Date.parse("2026-01-01T16:00:00Z"))).toBe("2026-01-02");
+  });
+});
+
+describe("backfillStockWarning · C31 存量见底要响亮说", () => {
+  it("★★★ 池子低于 3 日量 → 告警,且点明剩多少、够几天", () => {
+    const w = backfillStockWarning(20, 8);
+    expect(w).toContain("::warning::");
+    expect(w).toContain("20 集");
+    expect(w).toContain("2 天");
+  });
+  it("★★ 告警要求用户拍板,绝不自称会自动改口径(悄悄补更早年份=用户明令禁止)", () => {
+    expect(backfillStockWarning(5, 8)).toContain("用户拍板");
+  });
+  it("存量充足时不吵(475 集那种)", () => {
+    expect(backfillStockWarning(475, 8)).toBe(null);
+    expect(backfillStockWarning(25, 8)).toBe(null); // 恰好 >3 日量
+  });
+  it("边界:恰好 3 日量要告警(临界不许静默)", () => {
+    expect(backfillStockWarning(24, 8)).not.toBe(null);
   });
 });
 

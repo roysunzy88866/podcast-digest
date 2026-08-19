@@ -9,7 +9,7 @@ import {
   isOnTopic,
 } from "../scripts/feed-transcript.mjs";
 import { transcriptDuration } from "../scripts/fetch-source-feed.mjs";
-import { parseFeed, passesTopicFilter, selectBackfill, selectBackfillBackward } from "../scripts/run-pipeline.mjs";
+import { parseFeed, passesTopicFilter, selectBackfill, selectBackfillRecent, BACKFILL_SINCE } from "../scripts/run-pipeline.mjs";
 
 // C28 · RSS 自带官方转写稿(Gherkin 见 docs/user-stories.md C28 / ADR 0024)
 //
@@ -183,13 +183,13 @@ describe("C28b · 选集把有稿的排前面(便宜的先吃,剩下时间才喂
     expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toEqual(["2026-07-22", "2026-07-29"]); // 处理序旧→新
     expect(picks.every((p: any) => pickFeedTranscript(p.transcripts))).toBe(true);
   });
-  it("★★★ 每天自动跑的倒序补历史同样有稿优先,且同档内仍是「紧挨边界先补」", () => {
-    const picks = selectBackfillBackward(items as any, {
-      n: 2, beforeISO: "2026-09-01T00:00:00.000Z", existingIds: [], source: src, libraryTitles: [],
+  it("★★★ 每天自动跑的补历史(C31 新策略)同样有稿优先,且同档内仍按日期新→旧", () => {
+    const picks = selectBackfillRecent(items as any, {
+      n: 2, sinceISO: BACKFILL_SINCE, existingIds: [], source: src, libraryTitles: [],
     });
-    // 没稿的 08-12/08-05 更靠近边界 —— 纯日期倒序会挑中它们,故这条断言本身就隔离了变量
+    // 没稿的 08-12/08-05 更新 —— 纯日期倒序会挑中它们,故这条断言本身就隔离了变量
     expect(picks.every((p: any) => pickFeedTranscript(p.transcripts))).toBe(true);
-    // 同档(都有稿)内不得打乱原有倒序语义(GLM 003[1]:原来只断言有稿,乱序也不会红)
+    // 同档(都有稿)内不得打乱日期语义(GLM 003[1]:原来只断言有稿,乱序也不会红)
     expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toEqual(["2026-07-29", "2026-07-22"]);
   });
   it("★★★ 稿子不够时照旧补没稿的(不能因为挑食就少产出)", () => {
@@ -234,10 +234,10 @@ describe("C28 · transcriptDuration(写进 meta 的集时长,归属闸门要用)
   });
 });
 
-// drift #69(独立审计 2026-08-18 逮到,我引入的):有稿优先让补历史的**日期边界一次跳太远**。
-// 本函数的边界 beforeISO = 库内该源最旧一集;补了哪集边界就退到哪。无窗口地全表挑有稿的
-// → 一口气跳到很老的一集 → 夹在中间还没做的集从此永不满足「比最旧的还旧」,永久落下。
-describe("drift #69 · 有稿优先必须限制在紧挨边界的窗口内(否则中间的集永久漏掉)", () => {
+// drift #69(独立审计 2026-08-18 逮到,我引入的):有稿优先会让补历史**一口气跳到很老的一集**。
+// C31 换策略后候选池固定(未入库 ∩ ≥ 年份下限)、不再有会后退的边界,但窗口仍要留:
+// 无窗口地全表挑有稿的 → 为省钱一路挑到年份下限附近的老集,与用户要的「最新优先」相悖。
+describe("drift #69 · 有稿优先必须限制在最新的一个窗口内(否则一路挑到很老的集)", () => {
   const mk = (date: string, hasT: boolean) => ({
     title: `Ep ${date}`, link: `https://x/${date}`, pubDateISO: `${date}T00:00:00.000Z`,
     hasAudio: true, enclosureUrl: `https://x/${date}.mp3`,
@@ -246,8 +246,8 @@ describe("drift #69 · 有稿优先必须限制在紧挨边界的窗口内(否�
   });
   const src = { key: "beyondcoding", name: "BC", feedUrl: "https://x/rss", asr: "whisperx" } as any;
   const pick = (items: any[], n: number) =>
-    selectBackfillBackward(items as any, {
-      n, beforeISO: "2026-09-01T00:00:00.000Z", existingIds: [], source: src, libraryTitles: [],
+    selectBackfillRecent(items as any, {
+      n, sinceISO: BACKFILL_SINCE, existingIds: [], source: src, libraryTitles: [],
     });
 
   // 12 集倒序;只有很老的那集(第 10 个)有稿
