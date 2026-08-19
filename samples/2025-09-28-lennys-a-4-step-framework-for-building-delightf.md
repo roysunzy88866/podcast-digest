@@ -161,9 +161,9 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 
 **顺着「产品方法」挖下去**
 
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Uber</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:GitHub、Slack</span>
-- [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同公司:Airbnb</span>
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱]]<span class="pd-rz">同公司:Slack</span>
+- [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|Bob Baxley：设计是可见的清晰思考]]<span class="pd-rz">同公司:Apple</span>
 
 </div>
 <div class="pd-ex">

@@ -187,8 +187,8 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 **换个口味**
 
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:instagram · 同概念:reels、stories</span>
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:instagram、facebook</span>
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同公司:anthropic · 同概念:vibe coding</span>
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:anthropic · 同概念:品味 (taste)</span>
 
 </div>
 </div>

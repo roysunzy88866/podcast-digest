@@ -1,0 +1,2126 @@
+{
+  "episode_id": "2025-06-22-lennys-the-quiet-architect-peter-deng",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-06-22",
+  "tags": [
+    "产品方法",
+    "AI 创业",
+    "团队管理",
+    "产品经理",
+    "增长"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            209.04,
+            209.404
+          ],
+          "quote": "Hey Lenny.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 58,
+          "t": [
+            269,
+            276.744
+          ],
+          "quote": "If you want to avoid wasting months of engineering on integrations that your customers need, check out Paragon at useparagon.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 67,
+          "t": [
+            331.393,
+            337.536
+          ],
+          "quote": "Get 20% off with Code LENNY20 at pragmaticinstitute.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3087,
+            3095.317
+          ],
+          "quote": "When you talk about... I love the way you put this, Lenny, which is when you hire the right people and they're naturally motivated by different things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3333.309,
+            3337.035
+          ],
+          "quote": "Discover the insights you've been missing at contentsquare.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4115.075,
+            4120.977
+          ],
+          "quote": "And I feel like growth mindset's one of those things, Lenny, that it feels really hard to teach at a certain age.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            6454.987,
+            6460.27
+          ],
+          "quote": "It's so fascinating because one of the things I love, Lenny, is seeing things from different perspectives.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "peter-deng",
+      "type": "person",
+      "role": "cohost",
+      "name": "Peter Deng",
+      "file": "Peter Deng",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            87.86,
+            89.681
+          ],
+          "quote": "Today my guest is Peter Deng.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            197.513,
+            200.175
+          ],
+          "quote": "With that, I bring you Peter Deng.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "brandon-foo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brandon Foo",
+      "file": "Brandon Foo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            201.055,
+            207.699
+          ],
+          "quote": "Many of you are building AI products, which is why I am very excited to chat with Brandon Foo, founder and CEO of Paragon.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集多次提及 ChatGPT，作为 Peter Deng 曾担任产品副总裁并负责监督产品设计、工程及增长团队的产品，讨论了其 post training 与产品团队的紧密合作模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.967,
+            6.351
+          ],
+          "quote": "You launched ChatGPT Enterprise.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 28,
+          "t": [
+            106.448,
+            116.992
+          ],
+          "quote": "He was VP of product at OpenAI where he oversaw product design and engineering for ChatGPT and helped ship ChatGPT Enterprise, voice, memory, desktop, custom GPTs and more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 129,
+          "t": [
+            655,
+            677.371
+          ],
+          "quote": "If you take a look at, there was a lot of a fear of AI just when ChatGPT came out, but when you start to get familiar with it things, that kind of things change and then you are able to evolve from being fearful to familiar and to go all the way to having this mastery of this thing of like, \"Oh my goodness, look at all the startups that are happening now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 140,
+          "t": [
+            736.608,
+            749.413
+          ],
+          "quote": "And when he was playing with ChatGPT and some of the latest models and he was nine at the time, I can already see his brain rewiring.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 148,
+          "t": [
+            791.41,
+            798.313
+          ],
+          "quote": "And he was prompting ChatGPT with some really crazy things that I never even thought of.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            798.453,
+            811.34
+          ],
+          "quote": "And one of the things was, \"Hey, ChatGPT, can you give me a sentence that has every letter in the alphabet along the theme of oceans or along the theme of space?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            972.54,
+            978.486
+          ],
+          "quote": "This makes me think about an NPR story I was just listening to where they were following professors using ChatGPT to create their curriculum.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            978.526,
+            983.25
+          ],
+          "quote": "There was a lot of talk of students using ChatGPT, cheating, having ChatGPT write their essays.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            983.29,
+            985.352
+          ],
+          "quote": "But teachers are using ChatGPT in a big way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 175,
+          "t": [
+            985.852,
+            992.218
+          ],
+          "quote": "And then students are raiding professors badly because they noticed they're using ChatGPT for their curriculum.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1221.091,
+            1228.134
+          ],
+          "quote": "And when ChatGPT does something really interesting, I tell people it's oftentimes just writing Python code and interpreting it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2190.246,
+            2200.056
+          ],
+          "quote": "We were very closely tied to the post training team and it was because of that tight collaboration that you see some of the advances of ChatGPT getting better at so many things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2240.606,
+            2243.49
+          ],
+          "quote": "You launched ChatGPT Enterprise.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2243.51,
+            2249.158
+          ],
+          "quote": "You shipped voice and vision, memory, custom GPTs, just refreshing the whole design of ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2646.581,
+            2654.86
+          ],
+          "quote": "One of the things I did in pretty much all the teams that I led, whether it was Instagram, Uber, Airtable, was all about... ChatGPT too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2887.158,
+            2890.8
+          ],
+          "quote": "Airtable, same thing, but just having... ChatGPT, same exact thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3527,
+            3528
+          ],
+          "quote": "Okay. I want to talk about hiring. So this actually came up a lot when I was chatting with folks that you've worked with, especially Nick Turley, who's head of product at ChatGPT, who we're trying to get on the podcast. Because-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3541.481,
+            3551.247
+          ],
+          "quote": "So he told me that the current head of engineering, the lead product engineer, the head of design and head of marketing at ChatGPT are people that you hired.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3956.222,
+            3968.479
+          ],
+          "quote": "Is this mostly for leaders, like say a head of product at ChatGPT, say, someone's not a CPO, they're just like, I don't know, a manager of a PM team, is there a version of this that you think might be useful to them, or is this mostly for leaders?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4141.827,
+            4154.876
+          ],
+          "quote": "And it's funny, whenever I go to teams like ChatGPT or Uber, when I'm always the final interview for someone in my org, and I partner with recruiting on developing the rubric, I always insist on doing the last interview.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 905,
+          "t": [
+            5024.255,
+            5035.32
+          ],
+          "quote": "I love ChatGPT so much, and the way the model comes off, and the vibe of the model, is largely because of this technical plus taste role that she has created and she's leading.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            5711.33,
+            5719.394
+          ],
+          "quote": "I think that to anyone out there who's doing user interviews and then saying, hey ChatGPT, summarize the takeaways, you're missing the point.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集将其描述为本质上是一个人类连接的数据库，并没有从技术突破起步，而是通过在已有数据库上付出努力、打磨迭代（如 Newsfeed）来构建价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.06,
+            1.903
+          ],
+          "quote": "You built and led Facebook news feeds.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            143.943,
+            155.129
+          ],
+          "quote": "He also spent nearly 10 years at Facebook as their 4th ever Product Manager where he built and led the team behind the current Newsfeed product, the standalone Messenger app, also photos, and groups, and homepage, and profiles.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1272.786,
+            1275.609
+          ],
+          "quote": "You worked at OpenAI, Facebook, Uber a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1396.755,
+            1410.92
+          ],
+          "quote": "But really a lot of these companies, like Facebook for example, just put in the hard work, the elbow grease, especially in the early stages, to take essentially a database of human connections and build something valuable on top of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1498.004,
+            1505.053
+          ],
+          "quote": "And this is coming from someone that led the Uber Rider product team and worked at Facebook and a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1583.112,
+            1584.033
+          ],
+          "quote": "Facebook is an example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1951.481,
+            1970
+          ],
+          "quote": "There's so many distribution advantages that Google Meet has, that Google, Facebook started off, Microsoft Teams has, Zoom has, but they're just these tiny little product craft delightful things that I really appreciate myself of like, \"Yeah, they got it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2226.341,
+            2229.607
+          ],
+          "quote": "You built and led the Facebook Newsfeed, the current version of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2696,
+            2710.172
+          ],
+          "quote": "When you build a growth team and you hire the right growth leader, I've had the pleasure of working with George Lee at Instagram, some of the early growth folks at Facebook, Andrew Chen at Uber, Airtable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2880.233,
+            2882.395
+          ],
+          "quote": "I've seen this at Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4080.563,
+            4091.587
+          ],
+          "quote": "And I actually came to this some point in my management career at Facebook, where I did make a mistake and hired someone who just didn't quite have that growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1008,
+          "t": [
+            5744.525,
+            5750.627
+          ],
+          "quote": "Okay, so to start to kind of wrap up our conversation, we covered a lot of ground, I want to ask you about Facebook real quick.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            5751.008,
+            5753.549
+          ],
+          "quote": "So you joined Facebook very early.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            5754.789,
+            5761.352
+          ],
+          "quote": "Eric Antonow, who I've mentioned previously, told me that it was very strange that you left Google to join Facebook at that stage.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            5764.273,
+            5771.096
+          ],
+          "quote": "You had such a strong career path, things were going great, but you decided to take a big leap joining Facebook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            5791.323,
+            5802.926
+          ],
+          "quote": "And I remember at the time talking to the folks at Facebook and seeing it, and this was back when people were like, oh, this is just a college site, and that was the vibe back then.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            5837.736,
+            5852.96
+          ],
+          "quote": "And it felt to me like a no-brainer to go work at Facebook because they saw how people were wired and how to actually build products that complement how people are wired.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1022,
+          "t": [
+            5866.624,
+            5888.711
+          ],
+          "quote": "And this goes back to why I think the power of wars is so important is because you take a look at some of the mission statements for Friendster or MySpace, I don't even know if they had mission statements or what they were, they were kind of vapid and they didn't really speak to the fundamental humanity of what Facebook was striving to build and that just deeply resonated with me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            5893.452,
+            5895.913
+          ],
+          "quote": "Should I take this offer from Facebook or should I stay at Google?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            5945.931,
+            5952.234
+          ],
+          "quote": "And for me, that wasn't really Google, but I had so much I wanted to learn from operating at Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1031,
+          "t": [
+            5953.674,
+            5963.819
+          ],
+          "quote": "And at Facebook I would say, yeah, I was there for nine and a half years, but I always jumped around every two and a half or so when I feel like there was something new to learn.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            5976.667,
+            5992.318
+          ],
+          "quote": "And regardless of any outcome, I would say that's just a great way to live your life personally is just to optimize for learning and those experiences and for me, moving to Facebook was that I saw so much learning that could have happened and it ultimately did happen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            6029.377,
+            6035
+          ],
+          "quote": "So you're talking about a Facebook, they have this really unique insight about human behavior and that was really important to you, and so it was a really good fit.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集说 Uber 是一家运营公司，是其见过的最大的商业模式 hack 之一；在 Uber 学到的反直觉教训是，价格和 ETA 才是产品，屏幕上的像素不一定是最重要的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            26.803,
+            31.809
+          ],
+          "quote": "At Uber, I learned this because, really, the price and the ETA at Uber was the product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 31,
+          "t": [
+            130.477,
+            138
+          ],
+          "quote": "He was also a Head of the Rider product team at Uber where he oversaw everything in the Rider app, including big improvements to pickups and drop-offs at Uber Pool and airports.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            138.46,
+            143.783
+          ],
+          "quote": "He also helped the team launch new products including Uber Reserve, which is now approaching a $5 billion a year business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1272.786,
+            1275.609
+          ],
+          "quote": "You worked at OpenAI, Facebook, Uber a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1286.68,
+            1296.523
+          ],
+          "quote": "I think one thing that, it's a really hard lesson that I learned at Uber, which is sometimes your product actually doesn't matter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1306.146,
+            1315.069
+          ],
+          "quote": "And at Uber, I learned this because, it pains me to say this, but really the price and the ETA at Uber was the product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1362.904,
+            1370.867
+          ],
+          "quote": "Is one of those hard lessons I learned as a very bright-eyed, bushy tailed sort of design-based product manager going into Uber.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1428.949,
+            1450.2
+          ],
+          "quote": "So, Uber for example, took the fact that everyone had these GPS devices in their pockets, and they didn't invent the GPS device, but they were able to take that and the fact that people had cars, and people wanted to get around, and there was a human need, and they just connected the dots, and put everything together.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1467.007,
+            1476.131
+          ],
+          "quote": "And I want to give a huge shout-out to my colleagues there who run Uber Eats and Uber Rides from operations perspective.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1498.004,
+            1505.053
+          ],
+          "quote": "And this is coming from someone that led the Uber Rider product team and worked at Facebook and a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2433.1,
+            2447.74
+          ],
+          "quote": "When I was at Uber, we had a bit of a spaghetti string code situation on the writer app, but taking a step back and re-architecting things of what are the core components and how do you actually make it so that the product selector can scale around the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2453.16,
+            2454.943
+          ],
+          "quote": "Uber's not just as simple as finding a ride.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2468.04,
+            2476.509
+          ],
+          "quote": "It sounds so boring but it was so critical to Uber being able to scale because pickup and drop-offs team thought about, \"Well, how do you do it for venues?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2646.581,
+            2654.86
+          ],
+          "quote": "One of the things I did in pretty much all the teams that I led, whether it was Instagram, Uber, Airtable, was all about... ChatGPT too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2696,
+            2710.172
+          ],
+          "quote": "When you build a growth team and you hire the right growth leader, I've had the pleasure of working with George Lee at Instagram, some of the early growth folks at Facebook, Andrew Chen at Uber, Airtable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3045,
+            3051.493
+          ],
+          "quote": "This is a framework that just came out of a random jam at Uber when I was talking to some of my colleagues there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3064.24,
+            3068.846
+          ],
+          "quote": "At Uber, we developed these five archetypes of a PM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3191.02,
+            3194.317
+          ],
+          "quote": "We had a lot of these at Uber and they were the marketplace PMs and they're just like...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3222.341,
+            3227.599
+          ],
+          "quote": "At Uber, we had internal platforms for messaging or for building internal tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 565,
+          "t": [
+            3274.08,
+            3282
+          ],
+          "quote": "I still think to this day these hold true, and we might have been onto something the day that we brainstormed this at Uber but, yeah, I'm curious to hear your feedback.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4141.827,
+            4154.876
+          ],
+          "quote": "And it's funny, whenever I go to teams like ChatGPT or Uber, when I'm always the final interview for someone in my org, and I partner with recruiting on developing the rubric, I always insist on doing the last interview.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 834,
+          "t": [
+            4619.12,
+            4630.544
+          ],
+          "quote": "I mean, look, I learned this from my time at Uber, from Jill who runs PR, comms, and policy there, and she used to have this saying, which is like, \"Repetition doesn't spoil the prayer.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 942,
+          "t": [
+            5303.467,
+            5318.352
+          ],
+          "quote": "I'll use the Uber example here as what I said that the digital product didn't really matter and it's all about the price, the ETA, one of the products that I've built at Uber, which is Uber Reserve, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 946,
+          "t": [
+            5326.796,
+            5336.88
+          ],
+          "quote": "You have a 6 AM flight, and are you really going to wake up at 4 AM and request an Uber and hope that there's enough Ubers and the person's going to come?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 950,
+          "t": [
+            5358.669,
+            5374.576
+          ],
+          "quote": "And so we built Uber Reserve, which it was the simplest thing, which is like, oh, just go ahead and say what time your flight is and we'll work backwards or even just tell us when you want to get picked up and everything about that product we crafted what really mattered for the user, which was the peace of mind.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 968,
+          "t": [
+            5464,
+            5471.385
+          ],
+          "quote": "The other thing this connects to, we just had the CPO of Uber, the current CPO of Uber on the podcast, and he had a few episodes before this one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 970,
+          "t": [
+            5477.069,
+            5482.392
+          ],
+          "quote": "He's done seven to 800 rides as an Uber driver to discover these problems.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            5496.541,
+            5500.482
+          ],
+          "quote": "Oh, I remember that I took two weeks off before I joined Uber.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 976,
+          "t": [
+            5514.966,
+            5519.927
+          ],
+          "quote": "And I remember I actually leased a car to drive for Uber those two weeks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 978,
+          "t": [
+            5525.649,
+            5538.393
+          ],
+          "quote": "I put an Uber sticker on it, I turned on the app and it just started driving and there's no better way to learn than to dog food, and I'll just build on what... Sachin is the person you had on the podcast?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 990,
+          "t": [
+            5617.778,
+            5621.82
+          ],
+          "quote": "And when I was working at Uber to figure out, well, what are the various conditions?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "本集说 Instagram 视觉分享的想法超级简单，但 Mike 和 Kevin 在打磨产品上花的功夫、那种品味和对特定氛围的信念，才是让它腾飞的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            120.033,
+            130.157
+          ],
+          "quote": "He was the first Head of Product at Instagram where he worked closely with Mike and Kevin, and oversaw all product development, including on content sharing, ads, growth, even helped build out their design and user research functions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1272.786,
+            1275.609
+          ],
+          "quote": "You worked at OpenAI, Facebook, Uber a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1498.004,
+            1505.053
+          ],
+          "quote": "And this is coming from someone that led the Uber Rider product team and worked at Facebook and a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1510.22,
+            1513.802
+          ],
+          "quote": "Yeah, I mean, just to go further on the Instagram part, the idea was super simple.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1529.609,
+            1532.57
+          ],
+          "quote": "I had forgotten about Instagram, but how could I?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1584.193,
+            1592.376
+          ],
+          "quote": "Basically, it's like a database of connections, but what allowed an Instagram, what allowed them to breakthrough, and there's classically competitors at the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2293.267,
+            2310.54
+          ],
+          "quote": "When you are in the one to 100 phase, which is a lot of the time that I spent is the one to 100 phase, we quadruple Instagram usage in two years, that was very much a fun ride and there's a bunch of other examples at other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2646.581,
+            2654.86
+          ],
+          "quote": "One of the things I did in pretty much all the teams that I led, whether it was Instagram, Uber, Airtable, was all about... ChatGPT too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2678.22,
+            2689.893
+          ],
+          "quote": "It's so funny because I've seen this movie so many times, the same movie so many times that every one of these companies where I remember walking into Instagram and I think asking Kevin and Mike, \"So how many users do we have?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2696,
+            2710.172
+          ],
+          "quote": "When you build a growth team and you hire the right growth leader, I've had the pleasure of working with George Lee at Instagram, some of the early growth folks at Facebook, Andrew Chen at Uber, Airtable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2882.415,
+            2883.575
+          ],
+          "quote": "I've seen this in Instagram.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2884.176,
+            2886.737
+          ],
+          "quote": "I helped create this at Instagram, this healthy tension.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            5695.904,
+            5711.09
+          ],
+          "quote": "I still remember distinctly flying down to LA with Kevin Systrom to go do a user research study, and it was a one-way glass thing where we listened to people talk about Instagram and how they use Instagram, and there's no substitute for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            6050.965,
+            6066.37
+          ],
+          "quote": "And that usually is a good indicator of a strong point of view, and having a strong point of view is really important because there's a saying that Mike and Kevin had at Instagram which is we may not be right, but at least we're not confused.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            6167.34,
+            6174.823
+          ],
+          "quote": "One example is, since we were talking about Instagram before, we tried to build a kind of camera first app at Instagram.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            6197.931,
+            6203.413
+          ],
+          "quote": "And it was obviously the Instagram design team, so it was top-notch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            6205.034,
+            6210.135
+          ],
+          "quote": "It was really fast because it's the Instagram engineering team and they were just really good at making performant mobile apps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            6210.616,
+            6222.32
+          ],
+          "quote": "It had all of the advantages that we had talked about that we valued at Instagram, but we launched it and I believe it was New Zealand or Australia and it didn't work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            6327.767,
+            6335.074
+          ],
+          "quote": "Because Instagram launching a new product that's trying to rethink the way you do your camera, that's a big deal.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到在 OpenAI 期间产品团队与 post training 团队之间存在非常紧密的共生合作关系，这种紧密协作使得 ChatGPT 在很多方面变得更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            106.448,
+            116.992
+          ],
+          "quote": "He was VP of product at OpenAI where he oversaw product design and engineering for ChatGPT and helped ship ChatGPT Enterprise, voice, memory, desktop, custom GPTs and more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 97,
+          "t": [
+            460.3,
+            471.824
+          ],
+          "quote": "I mean, it's so interesting because when I was at OpenAI, it was around the time that people were really scared of AI and, \"Oh, it's going to get rid of humans or it's going to do all these things.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            716.041,
+            723.144
+          ],
+          "quote": "And I think a lot about this because I'm involved in my kid's school quite a bit, and that's something I've done after I left OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 139,
+          "t": [
+            723.944,
+            735.968
+          ],
+          "quote": "And what's fascinating to me is that watching my son who got to dog food, a bunch of the OpenAI stuff before it was public, I think I can safely say that, that seems okay.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1272.786,
+            1275.609
+          ],
+          "quote": "You worked at OpenAI, Facebook, Uber a Head of Product at Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2073.289,
+            2080.72
+          ],
+          "quote": "Just where do you think product goes at a company like Anthropic, OpenAI where there's just the super intelligence that the team is working on and there's this UX on top?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2115.522,
+            2119.615
+          ],
+          "quote": "I think this is less about Anthropic but more about OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2119.676,
+            2120.98
+          ],
+          "quote": "I think OpenAI made a great move.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2129,
+            2135.699
+          ],
+          "quote": "I'm thrilled for her, for the company, for all of my friends still at OpenAI because it's just going to be this amazing leader coming in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2185.581,
+            2190.226
+          ],
+          "quote": "I'm so thrilled to hear that because that's a little bit... It's very validating because that's what we did at OpenAI too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3580.603,
+            3585.144
+          ],
+          "quote": "Folks at OpenAI are pretty much the best people I've ever worked with in my career.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3639.164,
+            3651.408
+          ],
+          "quote": "And truly, in my farewell dinner at OpenAI, I think I closed with just, \"Look, I don't even know what I would do after this, because all the best people I've worked with are here.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 817,
+          "t": [
+            4575.1,
+            4578.474
+          ],
+          "quote": "One is someone that you worked with at OpenAI, Joanna Jang?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 826,
+          "t": [
+            4586.002,
+            4589.726
+          ],
+          "quote": "You worked with her at OpenAI, and she shared a couple things that I think are really interesting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 870,
+          "t": [
+            4846.892,
+            4851.376
+          ],
+          "quote": "She shared that you basically helped her create almost a new role within OpenAI that wasn't even a thing before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4877.789,
+            4881.391
+          ],
+          "quote": "I feel entirely privileged to have the chance to cross paths with her at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4917.785,
+            4924.327
+          ],
+          "quote": "I don't think any other person really thinks of things this way, and think this might be a big superpower for OpenAI.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": false,
+      "how_described": "本集提到 Copilot 遥遥领先，拥有分发、人才、基础设施和先发优势，但后来被 Cursor、Windsurf 等公司凭借更好的产品突破。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1898.02,
+            1919.416
+          ],
+          "quote": "To make your example of distribution being overcomable, a great example I think a lot about, and we had CPO, turns out there's many CPOs at Microsoft, I didn't realize how many CPOs they had, and I asked her about, \"Why didn't Copilot...\" The fastest growing companies in the world, Cursor, Windsurf, Lovable, Bolt, all these guys.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1919.456,
+            1924.059
+          ],
+          "quote": "Copilot was so ahead of these companies and these companies broke through.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集将其作为凭借更好的产品工艺水平突破 Copilot 分发优势的例子之一提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1898.02,
+            1919.416
+          ],
+          "quote": "To make your example of distribution being overcomable, a great example I think a lot about, and we had CPO, turns out there's many CPOs at Microsoft, I didn't realize how many CPOs they had, and I asked her about, \"Why didn't Copilot...\" The fastest growing companies in the world, Cursor, Windsurf, Lovable, Bolt, all these guys.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1925.301,
+            1937
+          ],
+          "quote": "While Microsoft has distribution, amazing talent, infrastructure, all the things, early first mover advantage and it's to your point, they were just building products that were much better, Cursor, Windsurf, all these, Lovable, Bolt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2029.124,
+            2038.679
+          ],
+          "quote": "Clearly, Cursor, Lovable, Bolt, Rep, all these guys did that and then it feels like they just understand a vertical workflow really well and someone's problem and solve that in a really unique way.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "company",
+      "role": "company",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": true,
+      "how_described": "本集将其作为数据飞轮的完美例子：先在 Claude 上构建，收集了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            1791.662,
+            1805.918
+          ],
+          "quote": "When you talk about this, I think about... The CEO of Windsurf was on the podcast and we talked a lot about how they've all this really unique data about which recommendations of code snippets people accept and reject and they actually launched their model I think based on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1878.602,
+            1884.699
+          ],
+          "quote": "For example, Windsurf, if they all built on Claude 3.5 and then now they have all this unique data and now they're launching their models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1898.02,
+            1919.416
+          ],
+          "quote": "To make your example of distribution being overcomable, a great example I think a lot about, and we had CPO, turns out there's many CPOs at Microsoft, I didn't realize how many CPOs they had, and I asked her about, \"Why didn't Copilot...\" The fastest growing companies in the world, Cursor, Windsurf, Lovable, Bolt, all these guys.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1925.301,
+            1937
+          ],
+          "quote": "While Microsoft has distribution, amazing talent, infrastructure, all the things, early first mover advantage and it's to your point, they were just building products that were much better, Cursor, Windsurf, all these, Lovable, Bolt.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说 Granola 拥有微小的产品工艺细节，令人愉悦，虽然面临 Google Meet、Zoom 等的分发优势，但依然让人愿意安装并推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            187.207,
+            195.052
+          ],
+          "quote": "Also, if you become an annual subscriber of my newsletter, you get a year free of a bunch of amazing products including Bolt, Linear, Superhuman, Notion, Perplexity and Granola.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1949.898,
+            1950.96
+          ],
+          "quote": "I think Granola is one of them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2027.14,
+            2028.703
+          ],
+          "quote": "Granola is a great example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            6520.54,
+            6529.785
+          ],
+          "quote": "I'm just going to go with Granola because I think that we talked about this before, but this has been a superpower for me and I have a lot of commute time now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1127,
+          "t": [
+            6557.621,
+            6569.72
+          ],
+          "quote": "Granola's killing it at this category recently, and I'll give a shout-out, you get a year free of Granola if you become a yearly subscriber of my newsletter, which is not just for you, but your entire team, they gave an incredible deal.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "type": "company",
+      "role": "company",
+      "name": "Airtable",
+      "file": "Airtable",
+      "primary": false,
+      "how_described": "本集在列举 Peter Deng 建立增长团队的经历时，将 Airtable 与 Instagram、Uber、ChatGPT 并列提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            155.509,
+            160.812
+          ],
+          "quote": "He was also Chief Product Officer at Airtable where he helped the company systemize how they built products and transitioned to Enterprise.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2251.503,
+            2252.95
+          ],
+          "quote": "A lot of work at Airtable obviously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2646.581,
+            2654.86
+          ],
+          "quote": "One of the things I did in pretty much all the teams that I led, whether it was Instagram, Uber, Airtable, was all about... ChatGPT too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2696,
+            2710.172
+          ],
+          "quote": "When you build a growth team and you hire the right growth leader, I've had the pleasure of working with George Lee at Instagram, some of the early growth folks at Facebook, Andrew Chen at Uber, Airtable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2887.158,
+            2890.8
+          ],
+          "quote": "Airtable, same thing, but just having... ChatGPT, same exact thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "felicis",
+      "type": "company",
+      "role": "company",
+      "name": "Felicis",
+      "file": "Felicis",
+      "primary": false,
+      "how_described": "本集提及 Peter Deng 目前是 Felicis 的普通合伙人，作为投资者将他学到的一切带给更多创始人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            163.333,
+            168.956
+          ],
+          "quote": "These days he is General Partner at Felicis where he is able to bring everything he's learned to more founders as an investor.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "data-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据飞轮 (data flywheel)",
+      "file": "数据飞轮",
+      "primary": true,
+      "how_described": "本集将其视为 AI 创业的两道护城河之一：模型在你展示给它的数据上会变得非常擅长，关键是启动飞轮后能不能持续生成更多独特数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1665.193,
+            1670
+          ],
+          "quote": "I think that for them, having the right data, and that right data flywheel's is so important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1758.22,
+            1768.572
+          ],
+          "quote": "But yeah, I think that data flywheel thing is really interesting because the models will get really good at whatever data you show it, and that's one of the things that people just think that AI is such a magic wand.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1810,
+            1844.18
+          ],
+          "quote": "There's some companies I've invested in that aren't public yet that have their own take on that, which is really interesting to be able to take whatever activity is in their product to get smarter at the thing that they are doing, again, which is why I think the data flywheel and the workflow goes so hand in hand together, because if you are solving something actually valuable for businesses, for people, and there's a lot of that attention that's being paid to, a lot of work is being done through it, you're going to have that edge.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            6780.025,
+            6783.227
+          ],
+          "quote": "One is do you have unique data and do you have a data flywheel?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集将其视为 AI 创业的两道护城河之二：产品如何真正融入人们的日常生活，现在比的是谁有最好的工作流和最好的产品，而不是谁有最好的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1681.65,
+            1683.692
+          ],
+          "quote": "And the second thing is, again, it's the workflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1722.375,
+            1730.359
+          ],
+          "quote": "And then the other piece is how do you fit into a very specific, basically, vertical that you understand really well that fits into their existing workflow?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1810,
+            1844.18
+          ],
+          "quote": "There's some companies I've invested in that aren't public yet that have their own take on that, which is really interesting to be able to take whatever activity is in their product to get smarter at the thing that they are doing, again, which is why I think the data flywheel and the workflow goes so hand in hand together, because if you are solving something actually valuable for businesses, for people, and there's a lot of that attention that's being paid to, a lot of work is being done through it, you're going to have that edge.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1994.426,
+            2000.492
+          ],
+          "quote": "But then coming forward, it's like really who has the best workflow and who has the best product, and we humans are just demanding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2029.124,
+            2038.679
+          ],
+          "quote": "Clearly, Cursor, Lovable, Bolt, Rep, all these guys did that and then it feels like they just understand a vertical workflow really well and someone's problem and solve that in a really unique way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            6783.707,
+            6788.31
+          ],
+          "quote": "Two, do you have a really crafted workflow that you can really get after?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "growth-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "增长团队 (growth team)",
+      "file": "增长团队",
+      "primary": true,
+      "how_described": "本集说 Peter 在 Instagram、Uber、Airtable、ChatGPT 做的第一件事都是建增长团队，目的不只是驱动增长，而是因为增长领导者背增长结果，会逼着全团队重视数据和实验，改变团队 DNA。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            117.272,
+            119.713
+          ],
+          "quote": "He also oversaw and built their first growth team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2655.402,
+            2658.417
+          ],
+          "quote": "One of the first things I did was always to build a growth team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2659.341,
+            2665.072
+          ],
+          "quote": "Building a growth team is really interesting because it actually is a simple razor, it's a simple thing to think about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2665.092,
+            2668.158
+          ],
+          "quote": "It's like, \"I'm going to build a growth team,\" but then you're going to uncover a lot of things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2696,
+            2710.172
+          ],
+          "quote": "When you build a growth team and you hire the right growth leader, I've had the pleasure of working with George Lee at Instagram, some of the early growth folks at Facebook, Andrew Chen at Uber, Airtable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2749.52,
+            2772
+          ],
+          "quote": "Because growth leaders, growth product leaders are so into this experimentation side, it actually is this really easy thing to do is when you start building a growth team, it just begets all of the right questions being asked and then it starts turning into all the right behaviors of taking something you've been building, which seems like it's working into a more rigorous system.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2779.1,
+            2785.908
+          ],
+          "quote": "What I like about this growth team advice is that a lot of people think of a time to hire a growth team to we need to drive growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2798.401,
+            2809.595
+          ],
+          "quote": "I think that the reason why growth team is the advice I would go with rather than to build an analytics team is because if you build an analytics team or a data science team, it's possible that no one's going to listen to them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "archetypes-of-a-pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品经理原型 (archetypes of a PM)",
+      "file": "产品经理原型",
+      "primary": true,
+      "how_described": "本集详细讨论了在 Uber 总结出的五种 PM 原型：消费者 PM、增长 PM、商业/GM PM、平台 PM、研究/AI PM，认为每个人有一个主原型和一个副原型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 517,
+          "t": [
+            3064.24,
+            3068.846
+          ],
+          "quote": "At Uber, we developed these five archetypes of a PM.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "growth-mindset",
+      "type": "concept",
+      "role": "concept",
+      "name": "成长型思维 (growth mindset)",
+      "file": "成长型思维",
+      "primary": true,
+      "how_described": "本集将其作为招人的核心筛选标准：如果一个人不对反馈开放、不愿意学习，那就是元阻碍，其他技能都很难发展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 706,
+          "t": [
+            4071.46,
+            4079.323
+          ],
+          "quote": "The second one I'd say is, I feel really strongly about this, which is the area that I look for most is growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4080.563,
+            4091.587
+          ],
+          "quote": "And I actually came to this some point in my management career at Facebook, where I did make a mistake and hired someone who just didn't quite have that growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4115.075,
+            4120.977
+          ],
+          "quote": "And I feel like growth mindset's one of those things, Lenny, that it feels really hard to teach at a certain age.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4121.897,
+            4129.34
+          ],
+          "quote": "And this is really important to me and my family, I expect growth mindset of myself, of my kids, my colleagues at work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4160.219,
+            4161.44
+          ],
+          "quote": "I only do growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 720,
+          "t": [
+            4171.864,
+            4182.649
+          ],
+          "quote": "But I think the growth mindset thing is so important to me, that we build a org where people are self-reflective, and want to get better, and take that feedback, and give that feedback.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 722,
+          "t": [
+            4186.451,
+            4194.294
+          ],
+          "quote": "And really, if you don't have growth mindset, and you're not open to feedback, and you're not open to learning, then that's the meta blocker.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4222.038,
+            4223.379
+          ],
+          "quote": "It's a growth mindset.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 730,
+          "t": [
+            4231.065,
+            4241.131
+          ],
+          "quote": "And that's where the previous principle comes into play as well, in terms of, I do trust my team to go and assess those people, but the one thing that I care so much about is growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4248.997,
+            4254
+          ],
+          "quote": "But the pure focus of my last interview is going to be on growth mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 736,
+          "t": [
+            4256.661,
+            4266.867
+          ],
+          "quote": "But before I do, when you talk about growth mindset, I have this image of Mark Benioff on the podcast, and I asked him, just like there's so much changing all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 748,
+          "t": [
+            4294,
+            4295.434
+          ],
+          "quote": "And I feel like that's the epitome of growth mindset.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 750,
+          "t": [
+            4297.522,
+            4302.217
+          ],
+          "quote": "Okay, so let me ask you just how do you tease out a strong growth mindset?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            6125.962,
+            6135.366
+          ],
+          "quote": "Okay, so speaking of learning, final question before we get to our very exciting lightning round, I'm going to take us to Fail Corner, which is very aligned with your growth mindset question.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "empathize",
+      "type": "concept",
+      "role": "concept",
+      "name": "同理心 (empathize)",
+      "file": "同理心",
+      "primary": true,
+      "how_described": "本集引用 IDEO 设计思维五步框架，强调同理心不是理论上理解问题，是真正感受到客户的痛苦；并直接批评用 ChatGPT 总结用户访谈要点的做法，说无法对一份摘要产生共情。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 984,
+          "t": [
+            5573.483,
+            5582.586
+          ],
+          "quote": "Number one is empathize, two is to define, three is to ideate, four is a prototype, and five is to test.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 991,
+          "t": [
+            5623.2,
+            5625.001
+          ],
+          "quote": "And so empathize is a really powerful word.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 994,
+          "t": [
+            5650.254,
+            5660.7
+          ],
+          "quote": "You've got to dog food because you really have to empathize and the great products are when you really feel the pain and you really empathize with what people are experiencing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            5720.454,
+            5722.295
+          ],
+          "quote": "You can't empathize with the summary.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到在 OpenAI 等大型模型公司中，post training 和产品之间存在着真正的共生关系和紧密合作，这会产生令人难以置信的成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 355,
+          "t": [
+            2087.584,
+            2112.839
+          ],
+          "quote": "I think that there's that really symbiotic relationship, close partnership between post training and product where, again, more and more it's going to be less about the raw intelligence, it's going to be about the fine tuning of what the model can do that really resonates with people and what people want and also what the product trajectory is going to be.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2139.02,
+            2149.499
+          ],
+          "quote": "I think really that close, tight-knit relationship at any of these large model companies between post training and product is going to produce some really incredible stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2190.246,
+            2200.056
+          ],
+          "quote": "We were very closely tied to the post training team and it was because of that tight collaboration that you see some of the advances of ChatGPT getting better at so many things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": false,
+      "how_described": "本集提及 AGI 只是必要条件但非充分条件，很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成人类喜欢使用的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            451,
+            456.034
+          ],
+          "quote": "I mean, I always get this question around sort of, AGI, is it coming?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            477.386,
+            483.768
+          ],
+          "quote": "And I think with AGI it's a similar thing, which is it's so far out that everyone's like, \"Well, what's our world going to be like?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            486.829,
+            493.512
+          ],
+          "quote": "But in terms of solving problems, I think some people believe AGI is going to solve everything, but I don't think so.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            495.012,
+            497.633
+          ],
+          "quote": "AGI is just necessary but not sufficient.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            512.558,
+            517.86
+          ],
+          "quote": "And that hustle is going to be required, that elbow grease is going to be required to really make AGI something useful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 105,
+          "t": [
+            518,
+            521.884
+          ],
+          "quote": "Your point is that people think AGI hits, all of a sudden all jobs are gone, AGI is doing everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            522.145,
+            535.259
+          ],
+          "quote": "Because I think this is a optimistic message that things will be okay if AGI, basically AGI being, and I'm curious if you have a clear definition, but AGI being, AI being just basically as smart as humans-",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": false,
+      "how_described": "本集在区分从零到一与从一到一百的阶段时提及，从零到一是试图找到产品市场契合点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2322.408,
+            2338.92
+          ],
+          "quote": "You have to really think before you act and build systems that are going to let you go sustainably faster, because the zero to one is you're trying to find that product market fit and then when you get to one to 100, you're trying to make sure you can get to hyperscale as fast as you can.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2518.4,
+            2533.794
+          ],
+          "quote": "Essentially, what you're saying is there's a phase of once you find product market fit, and I want to actually ask you this before you start planning, when you're starting to scale going from one to a hundred, your advice here is basically don't move fast and break things.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "primary": false,
+      "how_described": "本集说人工智能的突破来自于大语言模型，这很有趣也有点诗意，因为语言中封装和塑造了如此多的知识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1201.762,
+            1210.066
+          ],
+          "quote": "I think it's really interesting and kind of poetic and fitting that the breakthrough in artificial intelligence came from large language models.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "custom-gpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "自定义 GPT (custom GPT)",
+      "file": "自定义 GPT",
+      "primary": false,
+      "how_described": "本集提到 Peter 的儿子构建了一个自定义 GPT，可以输入任何话题，它会给出一个包含英语字母表中每个字母的句子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            48.983,
+            56.875
+          ],
+          "quote": "My son, he was nine at the time, built a custom GPT that you can type in any topic and it would give you a sentence that had every letter of the English alphabet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            828.489,
+            842.757
+          ],
+          "quote": "But for him to be able to think of that prompt, which is really cool because he built a custom GPT that you can type in any topic and it would give you a sentence that had every letter of the English alphabet, kind of like the quick brown fox jumped over the lazy dog.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (AI agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在广告口播中提及，AI 智能体需要能够跨不同的第三方工具采取行动，以代表用户自动化工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            226.332,
+            233.96
+          ],
+          "quote": "Second, for AI products to automate work on behalf of users, AI agents need to be able to take action across these different third-party tools.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "proprietary-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "专有数据 (proprietary data)",
+      "file": "专有数据",
+      "primary": false,
+      "how_described": "本集在讨论数据飞轮时强调专有数据的重要性，认为拥有正确的数据和专有数据飞轮对在 LLM 上构建的公司至关重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1670.101,
+            1672
+          ],
+          "quote": "Like proprietary data especially.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1674.002,
+            1681.11
+          ],
+          "quote": "And the flywheel part is just, you can start with proprietary data, but the flywheel is really just sort of how do you continue to maintain that and generate that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1868.1,
+            1877.98
+          ],
+          "quote": "What I'm hearing here is also if you don't have proprietary data or unique data, you can still have a chance by building this flywheel where you collect that data through your usage.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

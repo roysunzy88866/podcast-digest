@@ -1,0 +1,1028 @@
+{
+  "episode_id": "2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-06-15",
+  "tags": [
+    "产品领导力",
+    "行为心理学",
+    "心智模型",
+    "AI 学习",
+    "习惯养成"
+  ],
+  "categories": [
+    "产品方法",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "hilary-gridley",
+      "type": "person",
+      "role": "host",
+      "name": "Hilary Gridley",
+      "file": "Hilary Gridley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            53.06,
+            54.882
+          ],
+          "quote": "Today my guest is Hilary Gridley.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.697,
+            123.219
+          ],
+          "quote": "With that, I bring you Hilary Gridley.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1252,
+          "t": [
+            6826.689,
+            6829.599
+          ],
+          "quote": "So you go to maven.com, you just search for Hilary Gridley and you'll find it.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            211.348,
+            216.373
+          ],
+          "quote": "While you're listening to this right now, how do you know that you're really listening to me, Lenny?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            263.409,
+            266.831
+          ],
+          "quote": "Learn more at withpersona.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            270.414,
+            271.555
+          ],
+          "quote": "com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            279.202,
+            279.687
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3653.593,
+            3655.555
+          ],
+          "quote": "Go to attio.com/lenny to get 15% off your year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3655.575,
+            3656.776
+          ],
+          "quote": "That's attio.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "whoop",
+      "type": "company",
+      "role": "company",
+      "name": "Whoop",
+      "file": "Whoop",
+      "primary": true,
+      "how_described": "本集将 Whoop 描述为从专注于精英运动员的可穿戴设备，进化为帮助所有人变得更健康、活得更久的健康与表现伴侣，强调其恢复评分、Healthspan（健康跨度）等通过行为-反馈循环改变用户习惯的产品逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            55.022,
+            57.083
+          ],
+          "quote": "Hilary is head of core product at Whoop.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 57,
+          "t": [
+            289.514,
+            292.519
+          ],
+          "quote": "One of them is like, \"I joined Whoop just to work with Hilary and to report to her.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 111,
+          "t": [
+            595.111,
+            600.536
+          ],
+          "quote": "I was in a meeting a while ago, and we were talking about different things that we wanted to start tracking in the Whoop Journal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            749.155,
+            750.256
+          ],
+          "quote": "We have a stress monitor in Whoop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1937.491,
+            1942.875
+          ],
+          "quote": "Is they're an example you could share of something like this, of just something a person at Whoop of how they think?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3443.943,
+            3477.779
+          ],
+          "quote": "That take Whoop, for example, if there's a vision of the future where you have all of your health data in one place and we're able to detect health issues before you even know you have them and we're able to do really hyper-personalized coaching to help you understand how your behaviors today are impacting how healthy you're going to be in decades, what does that mean for what Whoop needs to be today and what does that mean for how it needs to evolve in the next couple of years in order to both make that a reality but also win in that world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3668.171,
+            3672
+          ],
+          "quote": "You mentioned that WHOOP now does VO2 Max, and this is not a promotion for WHOOP, but that's so cool.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3686.558,
+            3687.7
+          ],
+          "quote": "The new WHOOP lets you do that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 713,
+          "t": [
+            4066,
+            4067.301
+          ],
+          "quote": "Because I think there's something WHOOP is really good at.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4067.722,
+            4074.569
+          ],
+          "quote": "So I think one of the most interesting kind of anti-reward loops on WHOOP is around alcohol.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4074.909,
+            4077.592
+          ],
+          "quote": "WHOOP has this recovery system.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 718,
+          "t": [
+            4085.861,
+            4095.126
+          ],
+          "quote": "And if you drink, and you're on WHOOP, you will very quickly learn that any time you drink, you get a red recovery.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            4133.355,
+            4137.199
+          ],
+          "quote": "And it wasn't until I got on WHOOP, that I was really able to get a handle on my drinking.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4203.327,
+            4204.929
+          ],
+          "quote": "It has your WHOOP age in it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4299.906,
+            4305.94
+          ],
+          "quote": "And people respond to that, people will see, I mean, maybe it's because I work at WHOOP, and we're all obsessed with reward loops, so we're all choosing them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 940,
+          "t": [
+            5261.173,
+            5269
+          ],
+          "quote": "And I have a version of this that's very specific to WHOOP and working in consumer health, but you could do it for anything or you can just do generic, however you want to do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5436.483,
+            5443.93
+          ],
+          "quote": "Okay, I'm going to take us to two corners, recurring segments, of the podcast and then I want to talk about WHOOP before we get to a very exciting lightning round.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1041,
+          "t": [
+            5989.861,
+            5998.11
+          ],
+          "quote": "Speaking of shot clock, not necessarily, but I want to spend a little time on WHOOP, you guys just launched something that feels like a really big deal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            6001.693,
+            6003.315
+          ],
+          "quote": "I think you call it WHOOP 5.0.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            6005.457,
+            6007.76
+          ],
+          "quote": "What's the newest, coolest thing that's happening with WHOOP?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            6012.161,
+            6017.98
+          ],
+          "quote": "People who have tried WHOOP in the past maybe felt like it was very focused on elite athletes and that is...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            6041.661,
+            6048.886
+          ],
+          "quote": "For the first time in our company's history, we've updated our mission, so we're now saying that WHOOP exists to unlock human performance and health span.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            6078.553,
+            6080.615
+          ],
+          "quote": "You're going to see how that changes your WHOOP age.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            6085.46,
+            6098.45
+          ],
+          "quote": "We also have a lot of personalized coaching through our AI in terms of actions that you can take to improve your WHOOP age, to improve your sleep, to feel better, and it's all part of our broader aim to make health more actionable and accessible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            6120.06,
+            6124
+          ],
+          "quote": "But actually part of how I found out I was pregnant was in seeing my WHOOP data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            6127,
+            6128
+          ],
+          "quote": "In my WHOOP data, which is pretty remarkable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            6170.449,
+            6182.68
+          ],
+          "quote": "So even if you tried WHOOP in the past and thought it wasn't for you, I think the new experience is a real upgrade and it's something that I'm deeply proud of having worked on and really excited to have out in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            6205.161,
+            6207.477
+          ],
+          "quote": "This sounds like a WHOOP ad, but I'm very excited about this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            6235.274,
+            6244.939
+          ],
+          "quote": "But again, get really actionable coaching on actions that you can take to feel better and be your healthiest and just pushing the limits of all the data that we're pulling into the WHOOP ecosystem.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            6246.742,
+            6249.95
+          ],
+          "quote": "I'm hoping the WHOOP can actually take my blood and labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            6487.357,
+            6487.94
+          ],
+          "quote": "Other than the WHOOP.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1249,
+          "t": [
+            6803.24,
+            6820.897
+          ],
+          "quote": "And then, yeah, I encourage everyone to try out WHOOP, you can get a free month on me at join.whoop.com/hilary, that's Hilary with one L. And you can post at me or tweet at me on X and let me know what you think of it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "big-health",
+      "type": "company",
+      "role": "company",
+      "name": "Big Health",
+      "file": "Big Health",
+      "primary": false,
+      "how_described": "本集提到 Big Health 是制作数字疗法的公司，即经过临床验证、用于治疗失眠、抑郁和焦虑的移动应用，Hilary 曾在此参与抑郁症疗法的研发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            57.404,
+            63.008
+          ],
+          "quote": "Previously, she was a senior director of product at Big Health and a senior product marketing manager at Dropbox.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1105.411,
+            1110.715
+          ],
+          "quote": "And in my former job, I was working for a company called Big Health and we make digital therapeutics.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 969,
+          "t": [
+            5454.68,
+            5464.385
+          ],
+          "quote": "I mean I think it was at my former company, at Big Health, when my former boss left the company and I started reporting to the CEO.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "type": "company",
+      "role": "company",
+      "name": "Dropbox",
+      "file": "Dropbox",
+      "primary": false,
+      "how_described": "本集仅简短提及 Hilary 曾在 Dropbox 担任资深产品营销经理，并用 Dropbox 内部项目被收购的例子来说明自建与购买的进攻时限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            57.404,
+            63.008
+          ],
+          "quote": "Previously, she was a senior director of product at Big Health and a senior product marketing manager at Dropbox.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            5955.24,
+            5964.426
+          ],
+          "quote": "I mean I worked at Dropbox where I saw this happen all the time where we would acquire products that other teams internally had been working on and it's just like, it's heartbreaking when it happens.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "behavioral-activation",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为激活 (behavioral activation)",
+      "file": "行为激活",
+      "primary": true,
+      "how_described": "本集将其描述为认知行为疗法中的核心概念，核心是'先行动，然后感觉才会好起来'，打破'等感觉好点了再行动'的抑郁思维陷阱，Hilary 将其从临床场景搬到职场管理与个人情绪调节中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1097.286,
+            1104.491
+          ],
+          "quote": "A lot of where this comes from is a concept in cognitive behavioral therapy called behavioral activation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1168.492,
+            1180.88
+          ],
+          "quote": "Again, the idea of behavioral activation is you have to identify these actions that you can take that will reverse that negative spiral and will improve your mood.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1302.822,
+            1304.403
+          ],
+          "quote": "The behavioral activation could be anything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1313.069,
+            1322.935
+          ],
+          "quote": "So behavioral activation just conceptually is, how are you taking action to reverse the downward feeling or the negative feeling that you're feeling?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 802,
+          "t": [
+            4529.02,
+            4542.609
+          ],
+          "quote": "But again, it's a big part of me as a manager, what I think I can help people with is, back to the point of behavioral activation, understanding what the things are that a person needs to be happy, to be their best self, to be a high functioning person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 827,
+          "t": [
+            4654.49,
+            4663
+          ],
+          "quote": "Then you kind of behavioral activation them, where you're like, \"All right, well, why don't you try some things, and get back to me, and let me know what seemed to work, what seemed to make a difference?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 866,
+          "t": [
+            4836,
+            4839.909
+          ],
+          "quote": "This comes back to your point about, I think it was called behavioral activation, doing the thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-behavioral-therapy",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知行为疗法 (cognitive behavioral therapy)",
+      "file": "认知行为疗法",
+      "primary": false,
+      "how_described": "本集提到认知行为疗法是行为激活等技巧的源头，Hilary 在 Big Health 与临床心理学家合作时深入学习了其中治疗抑郁症的技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1097.286,
+            1104.491
+          ],
+          "quote": "A lot of where this comes from is a concept in cognitive behavioral therapy called behavioral activation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1235.42,
+            1261.079
+          ],
+          "quote": "And so understanding that concept, which is at its core a therapeutic concept used in cognitive behavioral therapy, but it changed how I see the entire world and how I see, especially as a manager, the ways that people on my team think and behave and how easy it is to get stuck in some of these downward spirals that you really need to actively push back on.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mental-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "心智模型 (mental model)",
+      "file": "心智模型",
+      "primary": true,
+      "how_described": "本集将其描述为理解他人（如 CEO、法务、合规团队）如何思考的框架，强调'理解 CEO 怎么想'比'理解 CEO 想什么'更有助于团队自主运作、减少审批依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1924.22,
+            1936.81
+          ],
+          "quote": "So the tactic here is to help your teams kind of build a mental model of everyone in the company that matters so that it's... The way you put it almost is when they're emailing them or asking for something, they already know how they're going to respond.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1942.895,
+            1948.98
+          ],
+          "quote": "I don't know, maybe you could keep it anonymous just to make this a little reel of the kind of mental model you might want to build around someone.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2440.54,
+            2452.711
+          ],
+          "quote": "I like that this comes back to your mental model orientation of, \"Here's their mental model, here's what their experience has been like, here's how they see the world, the trends, and then this is why they think the way they think.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2526.645,
+            2539.231
+          ],
+          "quote": "And so I have found this, the most helpful way for kind of trying to understand a person's mental model is to just put facts in front of them and see what they say no to and what they say yes to.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2610.785,
+            2614.207
+          ],
+          "quote": "And so I'm sort of teasing out the mental model rather than asking them to explain it to me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2935.741,
+            2943.838
+          ],
+          "quote": "I love that we're just unpacking the onion of the power of this very specific habit of just helping you learn the mental model of the people around you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3156.151,
+            3167.999
+          ],
+          "quote": "But I do think this idea of understanding how to build a shared mental model of everyone together that definitionally cannot be defined by your own narrow perspective, actually just makes work a lot better for everybody.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            5712.6,
+            5729.272
+          ],
+          "quote": "Well, and to the point of when you start talking to people and you start trying to build this mental model of how they think, that's exactly what you learn, is well, I can see how this person worked at this company at this time and I can see how this person had this kind of relationship with this other person.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "reward-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励循环 (reward loop)",
+      "file": "奖励循环",
+      "primary": true,
+      "how_described": "本集将其描述为习惯养成的核心要素，必须强大、即时、有情绪冲击力，让做正确行为的人'感觉棒极了'，并以 Whoop 的红黄绿恢复评分和戒酒、Healthspan 年龄变化为例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 698,
+          "t": [
+            3948.621,
+            3957.649
+          ],
+          "quote": "And this is something, that when I'm talking to people about designing for behavior change, the number one thing I always tell them is, \"You are not thinking enough about the reward loop.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3958.47,
+            3967.338
+          ],
+          "quote": "The reward loop needs to be powerful, it needs to be immediate, and it needs to be emotional, so that when this person does the thing that you want them to do, they feel like a million bucks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 708,
+          "t": [
+            4044.428,
+            4052.494
+          ],
+          "quote": "But basically, to help people build an actual habit, the three steps are the three things you want to focus on, consistency, friction, and reward loop.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4053.535,
+            4056.998
+          ],
+          "quote": "And within reward loop, you want it to be powerful, immediate, and emotional.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 733,
+          "t": [
+            4184.305,
+            4196.958
+          ],
+          "quote": "And basically, what it's trying to do is help you have this reward loop, between your behaviors and activities that you're doing today, and what means for how healthy you're going to be in 20, 30, 40 years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 739,
+          "t": [
+            4227.38,
+            4246
+          ],
+          "quote": "And we found that, again, it's just this incredibly powerful reward loop, because we're taking something that historically has been really, really hard, which is, \"When I make healthy changes today, not only do I not see the results of those for decades, but the short term reward loop of those often feels pretty bad, because change is hard, and it feels bad before it feels good.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 740,
+          "t": [
+            4246.781,
+            4258.579
+          ],
+          "quote": "And trying to build that reward loop that is more rewarding for people to see those numbers change, and to see those colors change, so that they're actually able to make those changes, and see that progress, and feel really good about it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4430.1,
+            4433.933
+          ],
+          "quote": "I love the reward loop of Emily getting this shout-out right now.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "digital-therapeutics",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字疗法 (digital therapeutics)",
+      "file": "数字疗法",
+      "primary": false,
+      "how_described": "本集将其描述为经过临床验证、用于治疗失眠、抑郁、焦虑等行为状况的移动应用，是 Big Health 的产品形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1105.411,
+            1110.715
+          ],
+          "quote": "And in my former job, I was working for a company called Big Health and we make digital therapeutics.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "healthspan",
+      "type": "concept",
+      "role": "concept",
+      "name": "Healthspan",
+      "file": "Healthspan",
+      "primary": false,
+      "how_described": "本集将其描述为 Whoop 的新功能，把行为-反馈循环拉到长期维度，让用户今天多睡半小时就能立刻看到 WHOOP 年龄数字变化，将几十年后才见结果的健康行为变成有即时反馈的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 732,
+          "t": [
+            4180.1,
+            4183.524
+          ],
+          "quote": "And we have this new feature, Healthspan, that we just launched with our new hardware.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-coach",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 教练 (AI coach)",
+      "file": "AI 教练",
+      "primary": false,
+      "how_described": "本集提到 Whoop 产品中有 AI 教练，可以拉取用户个人数据做对话式呈现（如解释 VO2 Max），让用户感觉'这个产品比我的医生和教练都更了解我'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            2015.709,
+            2023.873
+          ],
+          "quote": "But when I hear that, what I hear is more that we have this AI coach in the product, we have all this amazing data in the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2058.393,
+            2060.995
+          ],
+          "quote": "You can make it really conversational because you're using this AI coach.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集将 ChatGPT 作为团队 AI 习惯养成的工具举例，建议从与工作无关的简单场景（如想度假地点）开始降低摩擦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 672,
+          "t": [
+            3825.864,
+            3829
+          ],
+          "quote": "The habit is using ChatGPT, or Claude, or any of these tools-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3905.958,
+            3907.88
+          ],
+          "quote": "Oh, I put this into ChatGPT, and I didn't really get a good answer.'\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3924.14,
+            3935.8
+          ],
+          "quote": "Or it might be uploading your calendar into ChatGPT, and asking it for ideas, for talking points for the meetings, or things where the person doesn't have to think, because it's all just spelled out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4274.642,
+            4280.92
+          ],
+          "quote": "Is there an example of doing this sort of thing with your team, of helping them build, and you talk about AI learning to use Claude, ChatGPT?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            5740.661,
+            5744.41
+          ],
+          "quote": "I wonder if you could ask ChatGPT to build, or Claude to build, these mental models.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集与 ChatGPT 并列提及，作为团队可以养成使用习惯的 AI 工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 672,
+          "t": [
+            3825.864,
+            3829
+          ],
+          "quote": "The habit is using ChatGPT, or Claude, or any of these tools-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4274.642,
+            4280.92
+          ],
+          "quote": "Is there an example of doing this sort of thing with your team, of helping them build, and you talk about AI learning to use Claude, ChatGPT?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            5740.661,
+            5744.41
+          ],
+          "quote": "I wonder if you could ask ChatGPT to build, or Claude to build, these mental models.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": true,
+      "how_described": "本集将 GPT 描述为压缩学习循环的工具，Hilary 构建了模拟她思考方式的 GPT、用 LSAT 形式测试 PM 逻辑推理的 Aristotle、以及评估工程工时的 GPT，让练习次数和速度根本性地不同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 670,
+          "t": [
+            3801.541,
+            3820.419
+          ],
+          "quote": "And actually, I have a 30 days of GPT, I call it, of a list of 30 things to do, one every single day, that I don't know anyone who has gone through this, and not come out the other side, feeling a hundred times more confident in their skills, and actually using it every day as a habit, because it's built as a habit formation tool, and not an education tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3821,
+            3824.739
+          ],
+          "quote": "And this is using a specific GPT build, or building their own GPT, or what's the habit there?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3979.74,
+            4000.194
+          ],
+          "quote": "And part of why I like Custom GPTs as a tool for helping people learn to use LLMs, and I talk about this on the podcast I did with Claire, on how I AI, is because if you put in the prompt, you as the person building the custom GPT, you write the prompt, you put it in, you design it such that somebody can upload a specific document.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 925,
+          "t": [
+            5189.683,
+            5194
+          ],
+          "quote": "And to make this very real for people, you have this specific GPT, I think it's called Socrates, or what is called?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 939,
+          "t": [
+            5246.701,
+            5260.312
+          ],
+          "quote": "And so what I did was I made a GPT that I basically told it, \"Create LSAT style questions to test logical reasoning, but put them in the scenarios of things that a PM would encounter.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5336.04,
+            5339.667
+          ],
+          "quote": "So we're going to link to this GPT that you're talking about that people can try it out.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lsat",
+      "type": "concept",
+      "role": "concept",
+      "name": "LSAT",
+      "file": "LSAT",
+      "primary": false,
+      "how_described": "本集将 LSAT 描述为测试逻辑推理能力的标准工具，Hilary 借用其题目形式构建了针对 PM 日常场景的 GPT 练习工具 Aristotle。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 936,
+          "t": [
+            5220,
+            5232.57
+          ],
+          "quote": "Think about the best way we have to test that today, at least the best is maybe not the right word, but the standard way we have to test that, the LSAT, the test that you take to get into law school, that is what that tests.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 939,
+          "t": [
+            5246.701,
+            5260.312
+          ],
+          "quote": "And so what I did was I made a GPT that I basically told it, \"Create LSAT style questions to test logical reasoning, but put them in the scenarios of things that a PM would encounter.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

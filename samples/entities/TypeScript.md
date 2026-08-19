@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TypeScript</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TypeScript">TY</div><div class="pi"><h1 class="pt">TypeScript</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TypeScript">TY</div><div class="pi"><h1 class="pt">TypeScript</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(07:22起):本集把它说成:在正确性和生产力之间平衡,但针对的是人类生产力;底下 JavaScript 留下了排序转字符串等一堆 baked-in 的 slop,在 AI 时代是埋雷。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q5]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Vaibhav Gupta]] · [[BAML]] · [[垃圾话]] · [[智能体]] · [[代码审查]] · [[不变量]] · [[执行跟踪]] · [[类型系统]] · [[工具调用]] · [[JavaScript]]
 
-<script type="application/json" class="pd-epn">{"Vaibhav Gupta":1,"BAML":1,"垃圾话":2,"智能体":92,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"Vaibhav Gupta":1,"BAML":1,"垃圾话":2,"智能体":95,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"JavaScript":1}</script>
 
 <script>
 (function(){

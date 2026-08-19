@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Duolingo":2,"Grammarly":1,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1,"主观能动性":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Duolingo":2,"Grammarly":1,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1,"主观能动性":11}</script>
 
 <script>
 (function(){

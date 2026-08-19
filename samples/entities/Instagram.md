@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Instagram</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(02:00起):本集说 Instagram 视觉分享的想法超级简单，但 Mike 和 Kevin 在打磨产品上花的功夫、那种品味和对特定氛围的信念，才是让它腾飞的原因。
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:12起):本集说 Instagram 的本质不是发方形照片，而是分享生活、与人连接；从公开广播转向轻量私密分享（Stories、私信）是关键增长方向
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(00:23起):本集的主要讨论对象。嘉宾 Adam Mosseri 负责的平台，拥有超三十亿月活用户。话题涉及该平台的团队架构演变、推荐算法机制、面对 AI 生成内容的策略以及其作为平台「出气筒」的公关哲学。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Stories]] · [[Reels]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Google]] · [[TikTok]] · [[AI Mode]] · [[Anthropic]] · [[AI Overviews]]
+[[Lenny]] · [[ChatGPT]] · [[Stories]] · [[Facebook]] · [[Reels]] · [[Peter Deng]] · [[Robby Stein]] · [[Adam Mosseri]] · [[Brandon Foo]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Stories":2,"Reels":2,"Robby Stein":1,"Adam Mosseri":1,"Google":18,"TikTok":1,"AI Mode":1,"Anthropic":47,"AI Overviews":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"ChatGPT":24,"Stories":2,"Facebook":7,"Reels":2,"Peter Deng":1,"Robby Stein":1,"Adam Mosseri":1,"Brandon Foo":1,"Google":18}</script>
 
 <script>
 (function(){

@@ -49,7 +49,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Zynga]] · [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]] · [[Facebook]]
+[[Lenny]] · [[Zynga]] · [[已验证、更好、全新]] · [[产品市场契合]] · [[留存]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]] · [[Facebook]]
 
 ## ④ 也在聊「产品方法」的人
 
@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Zynga":2,"已验证、更好、全新":1,"产品市场契合度":4,"留存":2,"分发":4,"智能体":92,"社交网络":1,"微管理":2,"Facebook":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":6,"留存":2,"分发":4,"智能体":95,"社交网络":1,"微管理":2,"Facebook":7}</script>
 
 <script>
 (function(){

@@ -198,8 +198,8 @@ AI 也没有取代搜索，它在扩张搜索 <button class="pd-ts" data-t="38:2
 **顺着「产品方法」挖下去**
 
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同公司:Instagram · 同概念:Reels、Stories</span>
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Instagram、ChatGPT</span>
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]]<span class="pd-rz">同公司:Snapchat · 同概念:待完成任务 (jobs to be done)</span>
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同公司:Google</span>
 
 </div>
 <div class="pd-ex">

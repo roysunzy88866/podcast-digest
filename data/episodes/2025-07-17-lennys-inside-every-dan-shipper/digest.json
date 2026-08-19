@@ -1,0 +1,195 @@
+{
+  "title_zh": "Dan Shipper：15人零手写代码，AI原生公司怎么运转",
+  "tldr": "Every 用15人跑4个产品加咨询，产品团队零手写代码，全靠智能体。",
+  "digest_md": "一个15人的公司，跑着每日通讯、四款产品、一个咨询业务——产品团队里没有人手写一行代码。这不是预言，是 Dan Shipper 的 Every 现在的真实状态 [01:03 Dan Shipper]。\n\n## 产品团队不写代码，在干什么\n\nEvery 的工程师不写代码，他们做的事情本质上是：写需求文档（PRD），然后让 Claude Code 去执行。工作流是这样的——用自然语言描述想构建的东西，通过内部积累的提示词库把它打磨成结构化的 PRD，然后喂给 Claude Code，智能体去写代码、提 pull request，人来做代码审查 [42:29 Dan Shipper]。\n\nCora 团队只有两个人，Kieran 和 Nityesh，加上 15 个 Claude Code 实例 [41:46 Dan Shipper]。Cora 是一个 AI 邮件管家产品，刚公开发布时已经有 2500 个活跃用户，数百万封邮件从中流过，全部投入（含薪资）大概只花了 30 万美元 [28:39 Dan Shipper][67:21 Dan Shipper]。\n\n但这有个前提：这些人仍然懂代码。Dan 强调，他们不是不会写代码的人，而是有编程能力、但选择不手写的人 [54:08 Dan Shipper]。他打了个比方——就像当年脚本语言（Python、JavaScript）出现时，真正厉害的程序员仍然要懂底层的 C 语言；英语现在是编程栈的最上层，懂底下几层仍然会显著加速你 [54:24 Dan Shipper]。离\"完全不懂代码的人独立做出一个真正的 SaaS 产品\"还非常远 [56:00 Dan Shipper]。\n\n## 复合工程：每一轮工作都让下一轮更轻松\n\nCora 团队发明了一个原则叫\"复合工程\"（compounding engineering）：每一轮工作，都要让下一轮工作变得更简单 [41:58 Dan Shipper]。\n\n具体做法是：他们不在 Claude Code 里每次从零开始写 PRD，而是花时间写一个提示词，能把他们零散的想法自动转成结构化的 PRD。这个提示词存到 GitHub 上共享，以后每次写需求都更快 [42:52 Dan Shipper]。他们还在 Claude Code 里建了一整套斜杠命令库，就是可复用的提示词模板 [43:55 Dan Shipper]。\n\n不只是提示词，连文案审查都自动化了。主编 Kate 以前要花每天几个小时做文字编辑，确保所有内容符合 Every 的风格。现在他们把风格指南做成提示词，工程师 Nityesh 用 Claude Code 写了一个命令：扫整个代码库里的文案，按风格指南自动修改，然后直接提 pull request 发给 Kate 审批 [35:04 Dan Shipper]。工程师在用他们想要的风格写营销文案，而主编只需要点一下合并。\n\n## 多智能体协作：不同智能体有不同\"品味\"\n\nCora 团队不是只用 Claude。他们同时用一堆 Claude Code 实例，外加三个其他智能体——一个叫 Friday，一个叫 Charlie [44:24 Dan Shipper]。Charlie 住在 GitHub 里，收到 pull request 时可以 @ 它来做检查 [44:53 Dan Shipper]。\n\n为什么要同时用好几个？Dan 说，不同智能体有不同\"个性\"和风格，就像不同人有不同品味。ChatGPT 的风格偏简洁、极简、专业；Claude 是另一种感觉。Kieran 作为资深 Rails 开发者，对代码的风格很敏感，他会根据任务性质选择不同智能体 [45:15 Dan Shipper]。这不是\"一个智能体统治一切\"，更像组建一个各有专长的团队 [46:31 Dan Shipper]。\n\n## AI 运营主管：让自动化不依赖当事人\n\nEvery 设了一个专门岗位——AI 运营主管，Katie Parrott。她的职责不是自己做业务，而是发现团队里谁在重复做什么事，然后把它自动化 [30:18 Dan Shipper]。\n\nDan 每周跟她碰一次，每当发现自己或别人在重复做某件事，就加到待办清单里，她就去建提示词、建工作流 [30:24 Dan Shipper]。关键在于：做业务的人不用自己花时间去搞自动化，否则他们会倾向于用老方法——\"我已经在救火了，哪有时间去试一个可能不工作的新方式\" [30:44 Dan Shipper]。\n\nKatie 的背景也值得注意：她之前在 Animalz（一家顶级内容营销公司）做，非常注重流程，同时本身是很好的写作者，而且对 AI 极度兴奋、爱折腾 [33:20 Dan Shipper]。Dan 说，这个岗位最核心的特质就是\"想折腾、想构建东西\"，加上一定的流程思维，如果还理解所服务业务的技艺就更好了 [34:00 Dan Shipper]。\n\n但建了不用也白搭。他们还必须推动行为改变——比如让主编 Kate 养成习惯，每次收到文案先问一句\"你过提示词了吗\" [32:27 Dan Shipper]。\n\n## 一句话预测：CEO 自己用不用 AI\n\nEvery 的咨询业务去年做了大约 100 万美元，今年可能翻倍 [70:05 Dan Shipper]。他们帮大公司做 AI 采用，流程是：先调研组织里各团队在做什么、有哪些重复任务，出一份报告（还附带一个可以跟所有访谈记录对话的聊天机器人），然后针对每个团队定制四周培训——不是泛泛地教 AI，而是给每个人\"你在这个具体场景下用这个具体提示词\" [70:19 Dan Shipper]。\n\nDan 被问到\"什么决定了一家公司能不能成功采用 AI\"，他的回答非常直接：CEO 自己用不用 ChatGPT [72:03 Dan Shipper]。\n\n如果 CEO 天天在用、觉得这是最酷的东西，所有人都会跟上。如果 CEO 说\"这是给别人用的\"，那要么没人推动，要么 CEO 因为没有直觉而设定完全不切实际的期望，然后失望 [72:25 Dan Shipper]。\n\n他举了一家对冲基金的例子：创始人发了\"我们要成为 AI first 公司\"的邮件，但邮件里写了一句\"我用 ChatGPT 写了这封邮件，你也应该这样\" [73:18 Dan Shipper]。然后每周发全员邮件公布 ChatGPT 使用统计、表彰想出新提示词的人，每周开会让人分享用例 [73:45 Dan Shipper]。核心逻辑是：公司里大概 10% 的人是天然早期采用者，找到他们、给他们舞台，他们的经验会自动传染给剩下 80% 愿意跟的人 [74:00 Dan Shipper]。\n\n## Claude Code 对非程序员是被严重低估的工具\n\nDan 有个反直觉的观点：Claude Code 这种命令行工具，对非程序员来说可能是最被低估的 AI 工具 [07:16 Dan Shipper]。\n\n大多数人觉得终端很吓人，但跨过这个小门槛之后，你就有了一个能读你本地文件、自主运行很久不跑偏的智能体 [09:21 Dan Shipper]。比如他把所有会议记录下载到本地文件夹，让 Claude Code 逐个文件处理（不是一股脑塞进上下文窗口），然后让它在笔记本里记笔记、按待办列表逐项分析，最后汇总回答——比如\"我在哪些时刻微妙地回避了冲突\" [08:23 Dan Shipper]。同样的思路可以用来处理大量客户访谈、客户数据 [11:20 Dan Shipper]。\n\n他还拿《战争与和平》做了个实验：让 Claude Code 读前三章，提取所有托尔斯泰描写人物心理的技巧，然后自动生成一份写作指南，再拿俄语版和英语版对比他喜欢的场景，分析翻译中丢失了什么 [10:41 Dan Shipper]。用普通聊天界面做不到这个量级的文件处理。\n\n## 配置型经济：每个人都在变成管理者\n\nDan 两年半前写过一篇文章，提出了\"配置型经济\"（allocation economy）的概念 [77:38 Dan Shipper]。\n\n他观察自己日常用 AI 的方式——怎么把问题描述清楚、怎么收集正确的信息、怎么选模型、怎么拆任务给不同模型、怎么给反馈、怎么判断结果好不好——发现这整套技能就跟管理人的技能一模一样 [78:14 Dan Shipper]。\n\n现在只有 8% 的劳动力是管理者，因为管理成本高。AI 让管理变得便宜，所以更多人必须学会管理——不是管理人，是管理智能体 [50:56 Dan Shipper]。他举了个例子：新手管理者总说\"我委派出去的东西做出来的不是我想要的，不如我自己做\"，这跟人们说\"我不信任 AI 能做好，不如自己做\"是完全一样的问题 [79:18 Dan Shipper]。\n\n伴随这个趋势，通才会越来越值钱。AI 就像口袋里装了上万个博士，你可以跳过十年专业训练直接获取任何领域的知识，这让小团队里每个人都能做更多不同的事 [82:28 Dan Shipper]。Every 15 个人能撑五条产品线，就是因为每个人都是通才加 AI 先行 [47:22 Dan Shipper]。\n\n## 用 AI 的人加速有多猛\n\nDan 反感\"AI 抢走入门级工作\"的说法。他的观察完全相反：一个用 ChatGPT 的年轻人，成长速度比他共事过的任何人都快 [20:20 Dan Shipper]。\n\n他团队里有个叫 Alex 的人，刚来时有想法但写作不行。Dan 每次跟他聊完\"怎么讲故事、怎么想标题\"，Alex 就把全部内容录下来塞进提示词——从此不再犯第二次同样的错误。两个月取得了过去需要一年的进步 [29:29 Dan Shipper]。另一个工程师 Natasha，ChatGPT 出来之后才开始学写代码，只知道 AI 时代的编程方式，速度比前 AI 时代的工程师快得多 [47:43 Dan Shipper]。\n\nDan 的比喻是柏拉图反对写作——写作确实损害了记忆力，但没人想回到不识字的世界。AI 可能让你在某些任务上参与度降低，但如果你用对了，你在更有力量的任务上参与度会高得多 [20:22 Dan Shipper]。\n\n## 本集带走\n\n- **设 AI 运营主管**：找一个人，职责不是做业务，而是发现重复劳动并自动化。核心特质是爱折腾+有流程思维，不必是技术人员。\n- **复合工程原则**：每做一轮工作，花一点时间让下一轮更轻松——把重复的提示词存成库、把人工审查流程改成智能体自动跑。\n- **CEO 自己必须用**：预测公司能不能成功采用 AI，第一指标就是 CEO 自己用不用。发了\"我们要 AI first\"的邮件不够，得在邮件里写\"这封邮件是我用 ChatGPT 写的\"。\n- **找到 10% 的早期采用者并给舞台**：每周分享用例、公布使用统计、表彰贡献提示词的人，让他们的经验自动传染给 80% 愿意跟的人。\n- **多智能体搭配**：不同智能体有不同\"品味\"和风格，针对不同任务选不同智能体，而不是找一个\"全能\"的。\n- **入门级不是消失了，是加速了**：用 AI 的新人如果懂得把每次反馈录进提示词、不犯两次同样的错，成长速度可以数倍于前 AI 时代。",
+  "quotes": [
+    {
+      "en": "I think that AI may be one of the biggest force for reshoring American jobs.",
+      "zh": "我认为 AI 可能是推动美国就业回流的最大力量之一。",
+      "timestamp": "05:05",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "I think people are truly sleeping on how good Claude Code is for non-coders.",
+      "zh": "我认为人们真的忽视了 Claude Code 对非程序员来说有多好用。",
+      "timestamp": "07:16",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "And so what I have noticed is that you can tell how much better AI is getting by how long a leash you can give it to do work.",
+      "zh": "所以我注意到的是，你可以通过你可以给它多长的\"绳子\"去工作来判断 AI 变好了多少。",
+      "timestamp": "14:57",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "And so I think a good definition of AGI is when does it become economically profitable for people to run agents indefinitely?",
+      "zh": "所以我认为 AGI 的一个好的定义是，什么时候让智能体无限期地运行在经济上是变得有利可图的？",
+      "timestamp": "17:22",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "Tobi from Spotify coined this term called \"context engineering,\" which is getting the context to the model, the right context at the right time, is at least half the performance.",
+      "zh": "Spotify 的 Tobi 杜撰了这个术语叫\"上下文工程\"，也就是把上下文传递给模型，在正确的时间传递正确的上下文，这至少占性能的一半。",
+      "timestamp": "23:32",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "If you're working in a job all day, you're fighting fires, and you're like, \"Okay, am I going to do this in the way that I know how or am I going to do it in the new way that might not work?\"",
+      "zh": "如果你整天在工作中，你在救火，你会想，\"好吧，我是要用我知道的方式做这件事，还是用可能不奏效的新方式做？\"",
+      "timestamp": "30:44",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "So basically, for every unit of work, you should make the next unit of work easier to do.",
+      "zh": "所以基本上，对于每一个工作单元，你应该让下一个工作单元更容易做。",
+      "timestamp": "42:10",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "But my take is whenever I see a kid with ChatGPT, I'm like, holy shit, they're going to grow so much faster than any other person that I've worked with.",
+      "zh": "但我的看法是，每当我看到一个拿着 ChatGPT 的孩子时，我都会说，天哪，他们的成长速度将比我共事过的任何其他人都快得多。",
+      "timestamp": "48:45",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "Today, they're human managers, tomorrow everyone's a model manager.",
+      "zh": "今天，他们是人类管理者，明天每个人都是模型管理者。",
+      "timestamp": "50:53",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "GPT wrappers are amazing and they've been much maligned for absolutely no reason and people don't understand how absolutely valuable they are.",
+      "zh": "GPT 包装器是惊人的，它们受到了很多毫无理由的诽谤，人们不理解它们是多么绝对有价值。",
+      "timestamp": "61:54",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "This product was not even technically possible even if you had billions of dollars three years ago.",
+      "zh": "这个产品甚至在技术上是不可能的，即使你在三年前有数十亿美元。",
+      "timestamp": "67:28",
+      "speaker": "Dan Shipper"
+    },
+    {
+      "en": "I think the number one predictor is, \"Does the CEO use ChatGPT?,\" or insert your own chatbot.",
+      "zh": "我认为第一大预测指标是，\"CEO 使用 ChatGPT 吗？\"，或者填入你自己的聊天机器人。",
+      "timestamp": "72:10",
+      "speaker": "Dan Shipper"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:01",
+      "speaker": "Dan Shipper",
+      "en": "I think that AI may be one of the biggest force for reshoring American jobs.",
+      "zh": "我认为 AI 可能是推动美国就业回流的最大力量之一。"
+    },
+    {
+      "timestamp": "07:16",
+      "speaker": "Dan Shipper",
+      "en": "I think people are truly sleeping on how good Claude Code is for non-coders.",
+      "zh": "我认为人们真的忽视了 Claude Code 对非程序员来说有多好用。"
+    },
+    {
+      "timestamp": "15:09",
+      "speaker": "Dan Shipper",
+      "en": "And so what I have noticed is that you can tell how much better AI is getting by how long a leash you can give it to do work.",
+      "zh": "所以我注意到的是，你可以通过你可以给它多长的\"绳子\"去工作来判断 AI 变好了多少。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Dan Shipper",
+      "en": "And so I think a good definition of AGI is when does it become economically profitable for people to run agents indefinitely?",
+      "zh": "所以我认为 AGI 的一个好的定义是，什么时候让智能体无限期地运行在经济上是变得有利可图的？"
+    },
+    {
+      "timestamp": "23:32",
+      "speaker": "Dan Shipper",
+      "en": "Tobi from Spotify coined this term called \"context engineering,\" which is getting the context to the model, the right context at the right time, is at least half the performance.",
+      "zh": "Spotify 的 Tobi 杜撰了这个术语叫\"上下文工程\"，也就是把上下文传递给模型，在正确的时间传递正确的上下文，这至少占性能的一半。"
+    },
+    {
+      "timestamp": "30:18",
+      "speaker": "Dan Shipper",
+      "en": "One, and I think everyone should do this, is we have a head of AI operations.",
+      "zh": "第一，我认为每个人都应该这么做，是我们设有一名 AI 运营主管。"
+    },
+    {
+      "timestamp": "30:44",
+      "speaker": "Dan Shipper",
+      "en": "If you're working in a job all day, you're fighting fires, and you're like, \"Okay, am I going to do this in the way that I know how or am I going to do it in the new way that might not work?\"",
+      "zh": "如果你整天在工作中，你在救火，你会想，\"好吧，我是要用我知道的方式做这件事，还是用可能不奏效的新方式做？\""
+    },
+    {
+      "timestamp": "38:30",
+      "speaker": "Dan Shipper",
+      "en": "And Opus 4 has it. It's really wild.",
+      "zh": "Opus 4 有。这真的很狂野。"
+    },
+    {
+      "timestamp": "41:58",
+      "speaker": "Dan Shipper",
+      "en": "One of the things that we do that I think is really cool, and they basically invented this, I had nothing to do with this, is they invented the idea of compounding engineering.",
+      "zh": "我们做的一件事我认为真的很酷，而且基本上是他们发明的，我与此无关，是他们发明了复合工程的想法。"
+    },
+    {
+      "timestamp": "42:16",
+      "speaker": "Dan Shipper",
+      "en": "So basically, for every unit of work, you should make the next unit of work easier to do.",
+      "zh": "所以基本上，对于每一个工作单元，你应该让下一个工作单元更容易做。"
+    },
+    {
+      "timestamp": "46:31",
+      "speaker": "Dan Shipper",
+      "en": "It's definitely not one agent to rule them all at all.",
+      "zh": "绝对不是一个智能体统治一切。"
+    },
+    {
+      "timestamp": "48:45",
+      "speaker": "Dan Shipper",
+      "en": "But my take is whenever I see a kid with ChatGPT, I'm like, holy shit, they're going to grow so much faster than any other person that I've worked with.",
+      "zh": "但我的看法是，每当我看到一个拿着 ChatGPT 的孩子时，我都会说，天哪，他们的成长速度将比我共事过的任何其他人都快得多。"
+    },
+    {
+      "timestamp": "50:56",
+      "speaker": "Dan Shipper",
+      "en": "Today, they're human managers, tomorrow everyone's a model manager.",
+      "zh": "今天，他们是人类管理者，明天每个人都是模型管理者。"
+    },
+    {
+      "timestamp": "53:23",
+      "speaker": "Dan Shipper",
+      "en": "You have a product team not writing code at all.",
+      "zh": "你有一个完全不写代码的产品团队。"
+    },
+    {
+      "timestamp": "61:54",
+      "speaker": "Dan Shipper",
+      "en": "GPT wrappers are amazing and they've been much maligned for absolutely no reason and people don't understand how absolutely valuable they are.",
+      "zh": "GPT 包装器是惊人的，它们受到了很多毫无理由的诽谤，人们不理解它们是多么绝对有价值。"
+    },
+    {
+      "timestamp": "67:28",
+      "speaker": "Dan Shipper",
+      "en": "This product was not even technically possible even if you had billions of dollars three years ago.",
+      "zh": "这个产品甚至在技术上是不可能的，即使你在三年前有数十亿美元。"
+    },
+    {
+      "timestamp": "72:03",
+      "speaker": "Dan Shipper",
+      "en": "I think the number one predictor is, \"Does the CEO use ChatGPT?,\" or insert your own chatbot.",
+      "zh": "我认为第一大预测指标是，\"CEO 使用 ChatGPT 吗？\"，或者填入你自己的聊天机器人。"
+    },
+    {
+      "timestamp": "79:22",
+      "speaker": "Dan Shipper",
+      "en": "And I'm just like, \"Yeah, that's exactly what Every first-time manager says.\"",
+      "zh": "我就会说，\"是的，这正是每一位第一次当管理者的人会说的话。\""
+    },
+    {
+      "timestamp": "82:28",
+      "speaker": "Dan Shipper",
+      "en": "And I think the interesting thing about AI is that it's a little bit like, you can think of it like having 10,000 PhDs in your pocket.",
+      "zh": "我认为关于 AI 有趣的一点是，它有点像，你可以把它想象成口袋里有 10,000 个博士。"
+    }
+  ]
+}

@@ -118,8 +118,8 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:codex、原型 (prototype)、智能体 (agent)</span>
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:提示词 (prompt)、智能体 (agent)、codex</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:anthropic · 同概念:codex、智能体 (agent)</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:anthropic · 同概念:智能体 (agent)、提示词 (prompt)</span>
 
 </div>
 </div>

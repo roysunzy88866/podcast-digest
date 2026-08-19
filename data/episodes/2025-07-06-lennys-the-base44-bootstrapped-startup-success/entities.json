@@ -1,0 +1,1991 @@
+{
+  "episode_id": "2025-07-06-lennys-the-base44-bootstrapped-startup-success",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-07-06",
+  "tags": [
+    "AI 编程",
+    "vibe coding",
+    "独立创业",
+    "增长与营销",
+    "收购"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            200.497,
+            203.518
+          ],
+          "quote": "You can too at sauce.app/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            268.174,
+            269
+          ],
+          "quote": "Thank you for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2400.149,
+            2404.135
+          ],
+          "quote": "Discover the insights you've been missing at contentsquare.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 992,
+          "t": [
+            5482.245,
+            5482.796
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "maor-shlomo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Maor Shlomo",
+      "file": "Maor Shlomo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            72,
+            73.901
+          ],
+          "quote": "Today, my guest is Maor Shlomo.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            149.538,
+            152.2
+          ],
+          "quote": "With that, I bring you Maor Shlomo.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "base44",
+      "type": "company",
+      "role": "company",
+      "name": "Base44",
+      "file": "Base44",
+      "primary": true,
+      "how_described": "本集说 Base44 是一个 AI 应用构建平台，用户用自然语言描述想构建的东西，AI 帮写代码；它采取 batteries included 方式，内置数据库、集成、用户管理、分析，无需连第三方服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.42,
+            11.888
+          ],
+          "quote": "The funny thing is that Base44 for the first time in my life was not trying to build the biggest thing ever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 18,
+          "t": [
+            84.526,
+            89.308
+          ],
+          "quote": "Maor started a company called Base44, which is essentially a more advanced vibe coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            325.069,
+            330
+          ],
+          "quote": "Let's start with a couple of basics just what is Base44 for folks that aren't super familiar with the product that you built?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 72,
+          "t": [
+            330.7,
+            345.925
+          ],
+          "quote": "Base44 is an AI app building platform, meaning that you are able to use natural language to describe what you want to build, an app, a game, a website or something like that, and then have AI code it for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            348.686,
+            379.356
+          ],
+          "quote": "I think it's a very crowded category, but I think Base44 takes a very different approach, a very opinionated one for and one that users or users like to call it a batteries included approach, which means that for every app that you build in Base44, you already have built-in included database, integrations, user management, analytics without connecting third party services or bringing your API keys and so on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 80,
+          "t": [
+            423.253,
+            439.16
+          ],
+          "quote": "And once we did that, and actually I engineered the endpoints and the SDKs and whatever to work well with LLMs, I think Base44 does a really good job with building very complex and functional real world applications.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 118,
+          "t": [
+            664.311,
+            677.493
+          ],
+          "quote": "I started a company seven years ago called Explorium, very different than Base44, very much like enterprise top-down sales in the data space, very capital heavy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 127,
+          "t": [
+            734.347,
+            748.815
+          ],
+          "quote": "I also knew that I have some different angle and some different take on the category, but when you're approaching it this way, there's not a lot to lose and I think it gives a lot of energy and that's how Base44 started.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1106.374,
+            1122.6
+          ],
+          "quote": "I have a friend from MIT calls me up and he's like, \" Hey, somebody hacked into Base44 and it's like a crypto scam and you've got to take care of that because people are building apps on top of Base44 and they're putting the data inside and so on.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1279.122,
+            1287.645
+          ],
+          "quote": "So at many different stages on Base44's journey, it was I know I can improve the product a lot, but I need to do some more marketing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1324.02,
+            1338.486
+          ],
+          "quote": "And so I spent a lot of time thinking and agonizing about how to structure the code repository, for example, so that I can use [inaudible 00:22:14] for backend and Base44 for front-end to write light code really fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1375.648,
+            1379.458
+          ],
+          "quote": "So what is in your stack of productivity for yourself that allowed you to build Base44?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1380.281,
+            1385.097
+          ],
+          "quote": "... for yourself and then that allowed you to build Base44, just like the tech stack of Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1386,
+            1388.088
+          ],
+          "quote": "So you said Cursor, Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1419.549,
+            1427.572
+          ],
+          "quote": "This was really hard because I was starting to do this build in public, which turned out to work pretty well for Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1454.523,
+            1467.98
+          ],
+          "quote": "Base44, not only did the work for the front end side, but also a lot of the business apps that I used, well, on top of Base44, so where I'd manage users and give credits and where write content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1475.606,
+            1486.134
+          ],
+          "quote": "And then the Base44 app will take it and break it down just to kind of something that sounds more like me for a LinkedIn post, and then I'd approve that and then it would break it down to like a Twitter post.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1494,
+            1506.389
+          ],
+          "quote": "But I think you can do that not only with Base44, where just you can vibe code your way into like productivity tools that really fits what you want to do and what the process for you looks like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1523.441,
+            1527.066
+          ],
+          "quote": "So you built basically internal tools for yourself using Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1544.224,
+            1555.77
+          ],
+          "quote": "So the way I grew Base44, and probably different topic, but was a lot around building in public and growing an audience and speaking to my audience, which were fellow builders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1557.051,
+            1560.072
+          ],
+          "quote": "So a lot of that was like around sharing on the Base44 journey.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1645.221,
+            1646.664
+          ],
+          "quote": "This might be a good plug for Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1646.905,
+            1649.531
+          ],
+          "quote": "So say someone were to go to Base44.com and try this out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1660.925,
+            1666.368
+          ],
+          "quote": "It's going to build the skeleton for what you need, and Base44 does a good job with this, like understanding at least the big pieces.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1688,
+            1708.852
+          ],
+          "quote": "And also something that I really like with the entire category, again, not only Base44, I feel like there's tons of tools doing a great job, but something I really like in Base44 is that because it's really easy to change the software, it's like you get this adaptive software, is like as you improve your processes or maybe your processes change, it's like you adapt it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1708.892,
+            1716.277
+          ],
+          "quote": "So Base44 got acquired by Wix two weeks ago, and so now the process of putting content out there looks a bit different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1756.64,
+            1761.563
+          ],
+          "quote": "Base44 was very profitable, much more than what I thought.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1796.62,
+            1822.615
+          ],
+          "quote": "And so I think either way, there was like a room to compete, and even though it was small, I was seeing that the users that come to me stick, that come to Base44, stick with Base44, even though they're very familiar with the rest of the competition, the challenge was obviously making as much noise as data folks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1864.688,
+            1872.873
+          ],
+          "quote": "And at some point, I figured it's going to be, like you see Base44 grows and you start thinking, \"Hey, this can really help people with their lives.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2007.074,
+            2016.62
+          ],
+          "quote": "I don't think I've written a single line of like HTML or JavaScript in the past three months, but still the Base44 front end changes a lot because AI writes that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2077.082,
+            2092.81
+          ],
+          "quote": "Even distribution nowadays it's very different and also in favor of the solo, not necessarily the solo, but it's like not necessarily that you're going to pull a lot of money on paid campaigns like a Base44 goal with close to zero marketing budget.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2113.52,
+            2122.305
+          ],
+          "quote": "Base44's first user was one of my best friends, like we grew up together, and up to few months ago, he was a restaurant manager.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2215.601,
+            2225.279
+          ],
+          "quote": "Yeah, I empathize with this a lot, but the funny thing is that Base44, for the first time in my life, was not trying to build the biggest thing ever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2250.04,
+            2258.789
+          ],
+          "quote": "And I did that for seven years, and I think Base44 is the first time, it's like I stopped and said, \"You know what?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2408.602,
+            2412.488
+          ],
+          "quote": "I want to talk through just how you got the first users of Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2534.401,
+            2545.135
+          ],
+          "quote": "So once it started happening, even on very low percentages because Base44 turned out later in its journey to be very viral, but back then, it was like an okay product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2729.268,
+            2739.856
+          ],
+          "quote": "And I think here in Base44, we had this really nice synergy between the build in public and also my audience was like builders, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2755.734,
+            2757.657
+          ],
+          "quote": "The community around Base44 is nothing like I've ever seen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2790.354,
+            2800.319
+          ],
+          "quote": "And then the other thing that I did, it worked really well, is I've noticed that people really like sharing what they're building on top of Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2802,
+            2810.785
+          ],
+          "quote": "I remember at some point a friend of mine reached out and he was like, \"Dude, how much are you paying those people to write posts about Base44?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2813.326,
+            2826.134
+          ],
+          "quote": "So what I did is actually I did this program inside Base44 saying, \"Hey, if you share just about the process of building the app or the app itself, it doesn't even have to be about Base44, if you share it in social, you'll get extra credits to build.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3289.948,
+            3296.352
+          ],
+          "quote": "Also, just fun stats and [inaudible 00:54:52] charts and things like that, building a tool on Base44 that can help you make these tweets better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3399.272,
+            3405.936
+          ],
+          "quote": "So the tactic here is incentivizing people to share what they built on Base44 and they get credit to build more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3562.998,
+            3567.26
+          ],
+          "quote": "But also Base44 became more profitable that I could afford myself to bring in more people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3659.323,
+            3670.466
+          ],
+          "quote": "I don't really know how many users it's bought, but I remember first the community around Base44, again, is one of the most incredible communities that I've seen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3673.948,
+            3680.03
+          ],
+          "quote": "So they all were very excited about the Product Hunt launch and I was like, \"Let's skyrocket Base44.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3680.11,
+            3685.872
+          ],
+          "quote": "And then I wake up and I see the weirdest things, like Base44 is not even in the top 10.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3694.375,
+            3704.939
+          ],
+          "quote": "And noon in Israel, very early on, was like I see people write, I see more posts on LinkedIn saying people should vote to Base44 vote then they actually see upvotes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3719.227,
+            3724.051
+          ],
+          "quote": "Just even look at LinkedIn, search Base44 Product Hunt, you'll see this many posts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3822,
+            3834.304
+          ],
+          "quote": "At one point, one of the things I really liked about building Base44 is that I saw people building apps that were really incredibly positive and doing really good in the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3892.04,
+            3897.342
+          ],
+          "quote": "Yeah, it was the profits that [inaudible 01:04:55] Base44 did at the same at that time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4072.707,
+            4080.571
+          ],
+          "quote": "Most of my thoughts, and still are, when running Base44 is how do we increase velocity?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 727,
+          "t": [
+            4115.056,
+            4118.599
+          ],
+          "quote": "Just what are the tools and infrastructure used to build Base44?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 749,
+          "t": [
+            4175.827,
+            4178.95
+          ],
+          "quote": "Because Base44 is a complex ecosystem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4224.346,
+            4235.371
+          ],
+          "quote": "By the way, those are concepts that I also implemented in Base44, but one thing that I kept doing is I tried making the LLM write as least code as possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4283.02,
+            4290.503
+          ],
+          "quote": "And by the way, this is also true for Base44 is provide LLM with a really good infrastructure and SDK.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 768,
+          "t": [
+            4320.733,
+            4328.476
+          ],
+          "quote": "So the front end for Base44 for the platform, I mean is built in JSX, not TypeScript.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 776,
+          "t": [
+            4374.149,
+            4377.471
+          ],
+          "quote": "And there's a lot of traffic to Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4377.531,
+            4381.694
+          ],
+          "quote": "And every now and then people try to DDoS Base44 and still the server holds.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 780,
+          "t": [
+            4400.584,
+            4410.507
+          ],
+          "quote": "So one of the things that I use is for the LLM that actually writes code in Base44, I use a mix of different models for different tasks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 787,
+          "t": [
+            4453.227,
+            4459
+          ],
+          "quote": "In this routing, is this what you do within Cursor or you do this within Base44 based on what the person's working on?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4459.388,
+            4459.633
+          ],
+          "quote": "Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 792,
+          "t": [
+            4461.982,
+            4468.619
+          ],
+          "quote": "I wish they... I think there's maybe an auto option for it, but in Base44 it's like when users ask-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 797,
+          "t": [
+            4476.503,
+            4478.975
+          ],
+          "quote": "So it's just Claude and Gemini, those are the two they use for Base44?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4480.46,
+            4494.326
+          ],
+          "quote": "Well, all of those tools, Base44, Kelso, all the right coding tools, I use the same paradigm or I don't know if you call it or method, which is you have the heavy guns, which is usually either Cloud Four or Gemini.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 802,
+          "t": [
+            4507.592,
+            4509.173
+          ],
+          "quote": "Kelso does that, Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4541.974,
+            4546.678
+          ],
+          "quote": "Anything you did that was really successful in getting people to see the value of Base44 really quickly?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 812,
+          "t": [
+            4566.36,
+            4579.767
+          ],
+          "quote": "So, first when a few months ago or more than that, when Base44 started before actually implementing your app, so you would say something like, \"Hey, create a task management app.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4637.674,
+            4646.898
+          ],
+          "quote": "And also not super... I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, \"Holy shit, it actually understood me.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 839,
+          "t": [
+            4722.702,
+            4737.9
+          ],
+          "quote": "I think back then there was a lot of folks from the community were posting saying, \"Hey, Wix should definitely buy Base44 before it gets too big,\" or something like that, even though we're not playing or competing in the same category, but it was clearly it's going to be-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 844,
+          "t": [
+            4746,
+            4746
+          ],
+          "quote": "But also folks were building websites with Base44 and so it's the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 860,
+          "t": [
+            4818.16,
+            4833.225
+          ],
+          "quote": "And so I remember meeting him for a few nights of just eating some steaks and just chatting about how to grow Base44 and just literally just getting there to get an advice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 915,
+          "t": [
+            5132.62,
+            5145.927
+          ],
+          "quote": "First, before getting to the negative advice, the only thing that I would say really, if there's anyone from the Base44's community that's actually listening to this, I am so grateful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5325.873,
+            5328.937
+          ],
+          "quote": "Base44, what is that about?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 948,
+          "t": [
+            5329.097,
+            5330.139
+          ],
+          "quote": "Why did you call it Base44?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 950,
+          "t": [
+            5338.986,
+            5348.733
+          ],
+          "quote": "So again, Base44 was not intended to be a very large scale, the global phenomena that it's becoming right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 956,
+          "t": [
+            5381.709,
+            5384.17
+          ],
+          "quote": "And then Base44 was like, \"I like the sound of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 959,
+          "t": [
+            5396.814,
+            5398.735
+          ],
+          "quote": "And it's like Base44 is going to do the same.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 982,
+          "t": [
+            5456.468,
+            5457.712
+          ],
+          "quote": "Is it just Base44.com?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5470.411,
+            5474.135
+          ],
+          "quote": "So just try it out, base44.com, and build something that you like.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "wix",
+      "type": "company",
+      "role": "company",
+      "name": "Wix",
+      "file": "Wix",
+      "primary": true,
+      "how_described": "本集说 Wix 是一个用不同方法构建网站的不可思议的产品，与 Base44 在同一空间、同一客户群，其 CEO Avishai 主动联系说大家都说应该买下 Base44",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.12,
+            5
+          ],
+          "quote": "In six months, he went from zero, basically nothing to selling this company for 80 million plus dollars to Wix.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 19,
+          "t": [
+            89.528,
+            93.83
+          ],
+          "quote": "Six months later, just a few weeks ago, he sold the company for $80 million to Wix.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 84,
+          "t": [
+            452.706,
+            462.97
+          ],
+          "quote": "So in six months you went from zero, basically nothing to selling this company for 80 million plus dollars to Wix, took you three weeks to hit a million dollars ARR, you bootstrapped this business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1708.892,
+            1716.277
+          ],
+          "quote": "So Base44 got acquired by Wix two weeks ago, and so now the process of putting content out there looks a bit different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1744.561,
+            1749.048
+          ],
+          "quote": "If you weren't going to be acquired by Wix, did you plan on raising money?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1893.067,
+            1898.231
+          ],
+          "quote": "And I felt like the best chances to do that is to partner up with Wix.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3524.52,
+            3551.092
+          ],
+          "quote": "Also, the way the deal is structured, not that I can share a lot of details around this, like, okay, there's the 80 mil that got published, that's the initial payment, and then there's this [inaudible 00:58:57] piece, which is really interesting, because I think that Wix structured the deal in a really win-win situation, but then a lot of my compensation and a lot of the upside is actually based on that other than the 80 mil.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 838,
+          "t": [
+            4721.661,
+            4722.462
+          ],
+          "quote": "Wix reached out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 839,
+          "t": [
+            4722.702,
+            4737.9
+          ],
+          "quote": "I think back then there was a lot of folks from the community were posting saying, \"Hey, Wix should definitely buy Base44 before it gets too big,\" or something like that, even though we're not playing or competing in the same category, but it was clearly it's going to be-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4738.221,
+            4739.409
+          ],
+          "quote": "Why were they recommending Wix?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 849,
+          "t": [
+            4754.52,
+            4760.264
+          ],
+          "quote": "Obviously Wix is an incredible product for building websites, but a different approach from LLMs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 852,
+          "t": [
+            4764.086,
+            4770.95
+          ],
+          "quote": "The management team, Wix's management team is so friendly and such great guys.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4835.746,
+            4869.537
+          ],
+          "quote": "And so at some point we saw first that we have great chemistry both with him and with the rest of the team, which I think is really, really crucial, especially if they're buying a solo... This is a very unique case, but especially if they're buying a small team, I think it's crucial for the buyer to make sure or to feel like they're going to have really good connection and chemistry with the founders, with the key people because eventually it's like I remember one of the key reasons where we were debating together whether I should join Wix or not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 931,
+          "t": [
+            5231.46,
+            5246.767
+          ],
+          "quote": "And I feel like in the last few months I've also met plenty of really great and friendly CEOs, even from the Israeli ecosystem for public companies, like Wix and Mindy.com and Ito and so on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 961,
+          "t": [
+            5401.456,
+            5403.877
+          ],
+          "quote": "And I was like, \"Okay,\" to Wix, \"Let's go with it.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "explorium",
+      "type": "company",
+      "role": "company",
+      "name": "Explorium",
+      "file": "Explorium",
+      "primary": false,
+      "how_described": "本集说 Explorium 是嘉宾上一家公司，在数据领域做企业自上而下销售，资本非常密集，筹集了 1.3 亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            664.311,
+            677.493
+          ],
+          "quote": "I started a company seven years ago called Explorium, very different than Base44, very much like enterprise top-down sales in the data space, very capital heavy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 122,
+          "t": [
+            689.695,
+            705.337
+          ],
+          "quote": "And then when I came out, I went to travel the world a bit just to take some time off and wanted to do what I was liked the most and I haven't had a chance because Explorium grew and grew and haven't had a chance for a while to do, which is coding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 140,
+          "t": [
+            798.72,
+            811.765
+          ],
+          "quote": "I feel like when I was a first timer, when I first started my first company, Explorium, it sounds like many smart people told me those two very important truths.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2226.16,
+            2238.751
+          ],
+          "quote": "So I remember when I started Explorium, my previous company, I was so hung up on like, \"Let's raise the most amount of money in the least amount of time.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2238.791,
+            2245.857
+          ],
+          "quote": "I remember that I showed like, now I looked, kept looking like, \"Hey, Explorium raised $100 million before Snowflake.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集提到 Lovable 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.141,
+            47
+          ],
+          "quote": "You're competing against very well-funded companies, Lovable, Bolt, Replit, Vercel, and you get your first 10 users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1732.926,
+            1742.418
+          ],
+          "quote": "So essentially you're competing against very well-funded companies, Lovable, Bolt, Replit, v0, Vercel, Cursor raised, I don't know, bazillion dollars at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "type": "company",
+      "role": "company",
+      "name": "Bolt",
+      "file": "Bolt",
+      "primary": false,
+      "how_described": "本集提到 Bolt 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.141,
+            47
+          ],
+          "quote": "You're competing against very well-funded companies, Lovable, Bolt, Replit, Vercel, and you get your first 10 users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1732.926,
+            1742.418
+          ],
+          "quote": "So essentially you're competing against very well-funded companies, Lovable, Bolt, Replit, v0, Vercel, Cursor raised, I don't know, bazillion dollars at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到 Replit 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.141,
+            47
+          ],
+          "quote": "You're competing against very well-funded companies, Lovable, Bolt, Replit, Vercel, and you get your first 10 users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1732.926,
+            1742.418
+          ],
+          "quote": "So essentially you're competing against very well-funded companies, Lovable, Bolt, Replit, v0, Vercel, Cursor raised, I don't know, bazillion dollars at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集提到 Vercel 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.141,
+            47
+          ],
+          "quote": "You're competing against very well-funded companies, Lovable, Bolt, Replit, Vercel, and you get your first 10 users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1732.926,
+            1742.418
+          ],
+          "quote": "So essentially you're competing against very well-funded companies, Lovable, Bolt, Replit, v0, Vercel, Cursor raised, I don't know, bazillion dollars at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 筹集了巨额资金，是 Base44 所在领域的竞争者，但并非直接竞争",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1386,
+            1388.088
+          ],
+          "quote": "So you said Cursor, Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1732.926,
+            1742.418
+          ],
+          "quote": "So essentially you're competing against very well-funded companies, Lovable, Bolt, Replit, v0, Vercel, Cursor raised, I don't know, bazillion dollars at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1742.438,
+            1743.96
+          ],
+          "quote": "I know you're not competing with Cursor directly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 787,
+          "t": [
+            4453.227,
+            4459
+          ],
+          "quote": "In this routing, is this what you do within Cursor or you do this within Base44 based on what the person's working on?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 791,
+          "t": [
+            4461,
+            4461.962
+          ],
+          "quote": "I don't think Cursor has this.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "type": "company",
+      "role": "company",
+      "name": "Supabase",
+      "file": "Supabase",
+      "primary": false,
+      "how_described": "本集说 Supabase 是大多数 vibe coding 竞争对手用于后端功能的最常见集成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            393.46,
+            405.005
+          ],
+          "quote": "One with building React web apps like front-end web apps and then when a user needs some backend stuff, they have a great integration with Supabase.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 78,
+          "t": [
+            405.045,
+            409.367
+          ],
+          "quote": "Supabase I think is the most common thing that most competitors use.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "render-com",
+      "type": "company",
+      "role": "company",
+      "name": "Render.com",
+      "file": "Render.com",
+      "primary": true,
+      "how_described": "本集说 Render.com 是 Base44 全部基础设施的承载平台，嘉宾评价极高，说比自己上一家公司整个 DevOps 团队搭的流程还好用、更有趣",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 728,
+          "t": [
+            4120.04,
+            4121.662
+          ],
+          "quote": "Render.com, oh, my God.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4139.039,
+            4139.6
+          ],
+          "quote": "So render.com is like-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 737,
+          "t": [
+            4142.643,
+            4146.126
+          ],
+          "quote": "So Render.com is like, how is it called?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4162.045,
+            4164.698
+          ],
+          "quote": "It's not a fancy version of Render, it's the word Render.com?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "type": "company",
+      "role": "company",
+      "name": "MongoDB",
+      "file": "MongoDB",
+      "primary": true,
+      "how_described": "本集说 MongoDB 在 vibe coding 场景下很好用，因为 schema 变化极快、LLM 经常改数据结构，文档数据库更灵活；同时也是 4Good 黑客马拉松的赞助商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 696,
+          "t": [
+            3911.026,
+            3939.716
+          ],
+          "quote": "And then started getting sponsor requests because it went all over social, and all of a sudden I found myself with a very nice, back then, smaller business partnering up with Amazon, with Google, with MongoDB, with Deloitte, with really great companies, that one after another stood behind this hackathon, which was so fun.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 752,
+          "t": [
+            4191.2,
+            4201.21
+          ],
+          "quote": "MongoDB is really good when you're vibe coding, especially when you're building a vibe coding platform because schemas change a lot and it's not necessarily users.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "product-hunt",
+      "type": "company",
+      "role": "company",
+      "name": "Product Hunt",
+      "file": "Product Hunt",
+      "primary": false,
+      "how_described": "本集说 Base44 第一次在 Product Hunt 发布很失败但拿到了 15 个新用户和第一个付费用户；第二次发布因社区热情被算法误判为机器人，后修正并拿了第一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            101.513,
+            109.697
+          ],
+          "quote": "When he launched it on Product Hunt, it got so much love that the Product Hunt algorithm thought that it was bots when it was really just people from all over the world wanting to support the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3634.808,
+            3642.674
+          ],
+          "quote": "First, you just grabbed a bunch of friends, used this product, used that to learn what to build, you tried Product Hunt, sort of effective early stages.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3644.375,
+            3647.797
+          ],
+          "quote": "Then you had another launch that was, like you said, broke with the Product Hunt Algorithm.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3649.618,
+            3651.98
+          ],
+          "quote": "Was that a huge inflection, that second Product Hunt launch?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3673.948,
+            3680.03
+          ],
+          "quote": "So they all were very excited about the Product Hunt launch and I was like, \"Let's skyrocket Base44.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3709.841,
+            3719.147
+          ],
+          "quote": "One of the community reached out to the support team for Product Hunt and saying, \"You guys should check out your algorithm because something is not right.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3719.227,
+            3724.051
+          ],
+          "quote": "Just even look at LinkedIn, search Base44 Product Hunt, you'll see this many posts.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集将 vibe coding 描述为用自然语言让 AI 写代码来构建应用的方式，Base44 本质上是一个更高级的 vibe coding 工具；在 vibe coding 场景下用户的啊哈时刻是'天哪它真的懂我'然后直接看到应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            84.526,
+            89.308
+          ],
+          "quote": "Maor started a company called Base44, which is essentially a more advanced vibe coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1822.635,
+            1830.879
+          ],
+          "quote": "So you can see like data vibe coding tools doing like a million dollars hackathons and so on, and doing awesome job on growth, really.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3834.524,
+            3843.947
+          ],
+          "quote": "I think something really interesting right now in vibe coding in general is once you actually scale software, you can also scale the impact the software does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3986.22,
+            3999.67
+          ],
+          "quote": "I love that there's benefits to the hackathon route which other vibe coding tools are taking, not just growth but also just good feelings and just building community and seeing what people are doing, like meeting people excited about what you're building.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 752,
+          "t": [
+            4191.2,
+            4201.21
+          ],
+          "quote": "MongoDB is really good when you're vibe coding, especially when you're building a vibe coding platform because schemas change a lot and it's not necessarily users.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4637.674,
+            4646.898
+          ],
+          "quote": "And also not super... I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, \"Holy shit, it actually understood me.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复讨论 LLM 写代码的能力：LLM 能把用户需求翻译成实际代码，但需要合适的基础设施（数据库、用户管理等）；让 LLM 写尽可能少的代码是关键策略；不同 LLM 擅长不同任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            635.486,
+            659.61
+          ],
+          "quote": "It's just LLMs can write that and we can really empower the organization to build all the different tools that they want, just give it the right setting, the right infrastructure so that LLM has access to a database, maybe to another LLM to be the app on top of AI, to have some user management to have all those kind of things that it needs, but it can translate the user needs to actual code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1160.812,
+            1182.56
+          ],
+          "quote": "It ended up being just the LLM tried using a package called cryptography, which is a Node.js like a JavaScript package, has nothing to do with crypto, but obviously the user, not a technical user, saw this error of like, \"Hey, something cryptography or something like that was sure, someone like a crypto scam hacked into the app.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1619,
+            1644.56
+          ],
+          "quote": "And so I've taken this entire process, which I think was what was working for me and just vibe coded it up around it to help me speed it up, and then made sure that the LLM inside the app was using my own tone of voice and was saving the previous posts to understand how it looks like, like what are the posts that I really liked that I've written beforehand, so that in the next post it will speak just like me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1666.428,
+            1673.312
+          ],
+          "quote": "Okay, there's going to be an LLM writing the content is going to be this and that, and so you don't have to write the entire spec.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3412,
+            3420.664
+          ],
+          "quote": "Literally early on they sent me emails and I would take them, again, with an app and an LLM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3581.763,
+            3587.125
+          ],
+          "quote": "He can go into LLM logs and look at mistakes and fix the points.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4211.16,
+            4223.365
+          ],
+          "quote": "Obviously Kelso, but again, I was spending 20, 30% of my time just optimizing for making the whole repository LLM suitable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4224.346,
+            4235.371
+          ],
+          "quote": "By the way, those are concepts that I also implemented in Base44, but one thing that I kept doing is I tried making the LLM write as least code as possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4235.491,
+            4246.396
+          ],
+          "quote": "When you're trying to implement a feature that try to get to a place where it can implement the feature entirely without you writing code, but that the LLM would write as least codes as possible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4270.691,
+            4283
+          ],
+          "quote": "When you build a new feature, it takes off the entire, the CRUD, the authentication, the database, everything that has to do with that so that when you ask the LLM to implement a new thing, it writes very little code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4283.02,
+            4290.503
+          ],
+          "quote": "And by the way, this is also true for Base44 is provide LLM with a really good infrastructure and SDK.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            4290.623,
+            4301.406
+          ],
+          "quote": "And have the LLM... The LLM still has the flexibility to write the entire feature because it's code, but make it so that it doesn't need to spit out too many tokens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 780,
+          "t": [
+            4400.584,
+            4410.507
+          ],
+          "quote": "So one of the things that I use is for the LLM that actually writes code in Base44, I use a mix of different models for different tasks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4438.736,
+            4449.48
+          ],
+          "quote": "And so I have this pipeline that tries to figure out the user prompt and then route it to the right LLM which I feel like has been working pretty well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4471,
+            4474.735
+          ],
+          "quote": "... I just try to analyze what they're asking and then figure out what's the right LLM to use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 813,
+          "t": [
+            4580.207,
+            4592.293
+          ],
+          "quote": "And before implementing that, because a lot of times you get this not super clear request from the user, I'd show the user like the LLM would first, before even writing code, it would first generate user flows.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bootstrapping",
+      "type": "concept",
+      "role": "concept",
+      "name": "bootstrapping",
+      "file": "bootstrapping",
+      "primary": true,
+      "how_described": "本集说 bootstrapping 意味着除了自己的钱没有其他钱投入业务，业务运转并盈利；好处是压力小、早上醒来就是盈利的，从纯财务结果来看可能比融资更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            925.9,
+            933.083
+          ],
+          "quote": "One solo founder and specifically bootstrapping, I don't think it's suitable for every use case.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1003.204,
+            1010.226
+          ],
+          "quote": "Second is not specifically the solo, but the bootstrapping thing less stressful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1730.223,
+            1732.506
+          ],
+          "quote": "This idea of bootstrapping, I'm curious.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "build-in-public",
+      "type": "concept",
+      "role": "concept",
+      "name": "公开构建 (build in public)",
+      "file": "公开构建",
+      "primary": true,
+      "how_described": "本集说公开构建是在 LinkedIn 上老老实实分享好的坏的丑的，不装不吹指标，分享技术栈细节、LLM 优化方法、增长数据和图表；与分享送额度叠加后一周内从每天 20 个新用户飙到每天 4000 个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1419.549,
+            1427.572
+          ],
+          "quote": "This was really hard because I was starting to do this build in public, which turned out to work pretty well for Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2718.801,
+            2729.248
+          ],
+          "quote": "And so I started sharing the journey on LinkedIn, and I remember seeing posts like, \"Okay, there's this nice concept of build in public, and people get really interested.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2729.268,
+            2739.856
+          ],
+          "quote": "And I think here in Base44, we had this really nice synergy between the build in public and also my audience was like builders, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2827.074,
+            2836.82
+          ],
+          "quote": "So those two, build in public and giving out credits worked extremely well and that's how we got growth going.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3195.44,
+            3203.023
+          ],
+          "quote": "For the build in public, I was trying to be as honest as I could and just write the good, the bad.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "viral",
+      "type": "concept",
+      "role": "concept",
+      "name": "病毒传播 (viral)",
+      "file": "病毒传播",
+      "primary": false,
+      "how_described": "本集说如果产品有病毒传播的潜力、面向大众，独立自力更生一旦跑过产品市场契合的临界点就比融资更好；Base44 后来被证明非常有病毒传播性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            955.31,
+            967.094
+          ],
+          "quote": "I feel like if you're building something that has the potential to be viral or to target the masses, and so it doesn't really matter if you're funded or not, you just build a great product that people will share.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2534.401,
+            2545.135
+          ],
+          "quote": "So once it started happening, even on very low percentages because Base44 turned out later in its journey to be very viral, but back then, it was like an okay product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2593.432,
+            2595.355
+          ],
+          "quote": "And so I knew that it has to be viral.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2595.375,
+            2597.798
+          ],
+          "quote": "At some point, I saw it's starting to look like it's viral.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3109.412,
+            3115.374
+          ],
+          "quote": "What is it you think stood out about the way you approached it that is it this tool you built that tells you how to post really viral stuff?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": false,
+      "how_described": "本集说如果你能达到产品市场契合的逃逸速度并盈利到某种程度，独立自力更生比其他方式更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            967.134,
+            979.238
+          ],
+          "quote": "If you're able to do that and you're able to get out of the escape velocity of getting to product market fit, then everything is better doing a solo bootstrap than the other way around.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "aha-moment",
+      "type": "concept",
+      "role": "concept",
+      "name": "啊哈时刻 (aha moment)",
+      "file": "啊哈时刻",
+      "primary": false,
+      "how_described": "本集说在 vibe coding 世界里啊哈时刻的关键是'天哪它真的懂我'然后看到应用；中间加一步确认流程虽然能产出更好的应用但会拖慢啊哈时刻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            4530.765,
+            4537.17
+          ],
+          "quote": "Activation, getting people to an aha moment feels like something that is core to retention.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4549.561,
+            4566
+          ],
+          "quote": "Here's one interesting thing that I learned that I think was counterintuitive to me because you always want to build the best product out there for your users, but sometimes it contradicts the aha moment or how fast can you get users to do that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4618.065,
+            4637.534
+          ],
+          "quote": "This was actually something I ditched because too many users, even though it was good for them and it was the right product decision to do that because you'll create better apps doing it this way, but the conversions to get to the aha moment were not super high.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4637.674,
+            4646.898
+          ],
+          "quote": "And also not super... I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, \"Holy shit, it actually understood me.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 823,
+          "t": [
+            4652.32,
+            4664.826
+          ],
+          "quote": "So I think I ditched that and that was a nice lesson that, I don't know actually how to define the right way, but it's like get your users as fast as possible to the aha moment.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模型路由 (route)",
+      "file": "多模型路由",
+      "primary": false,
+      "how_described": "本集说 Base44 内部会分析用户提示然后将其路由到正确的 LLM，Claude 擅长从零写应用和 UI，Gemini 擅长复杂算法或 Claude 陷入 bug 循环时兜底",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 703,
+          "t": [
+            3986.22,
+            3999.67
+          ],
+          "quote": "I love that there's benefits to the hackathon route which other vibe coding tools are taking, not just growth but also just good feelings and just building community and seeing what people are doing, like meeting people excited about what you're building.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4438.736,
+            4449.48
+          ],
+          "quote": "And so I have this pipeline that tries to figure out the user prompt and then route it to the right LLM which I feel like has been working pretty well.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "velocity",
+      "type": "concept",
+      "role": "concept",
+      "name": "速度 (velocity)",
+      "file": "速度",
+      "primary": false,
+      "how_described": "本集说速度最终是一种增长引擎，产品隔天就更新、人们会说它发展得太快了现在就得试试；速度能解决大部分产品问题和部分营销挑战",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            967.134,
+            979.238
+          ],
+          "quote": "If you're able to do that and you're able to get out of the escape velocity of getting to product market fit, then everything is better doing a solo bootstrap than the other way around.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            986.56,
+            997.203
+          ],
+          "quote": "Obviously if you're able to bootstrap your business and again, get out of the [inaudible 00:16:32] velocity and be profitable to some degree, then you'll likely generate a financial outcome.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 706,
+          "t": [
+            4013.02,
+            4020.463
+          ],
+          "quote": "The last piece, but people talk about that a lot, is that velocity eventually is a growth engine.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4044.093,
+            4055.898
+          ],
+          "quote": "I think, also, velocity is to some degree the same thing, because if your product evolves really fast and you're putting features out there every other day, people get attached to that .",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4067.744,
+            4072.166
+          ],
+          "quote": "So this is part of this velocity solves for so many things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4072.707,
+            4080.571
+          ],
+          "quote": "Most of my thoughts, and still are, when running Base44 is how do we increase velocity?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4080.631,
+            4081.732
+          ],
+          "quote": "How do we increase velocity?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "schema",
+      "type": "concept",
+      "role": "concept",
+      "name": "schema",
+      "file": "schema",
+      "primary": false,
+      "how_described": "本集说在 vibe coding 场景下 schema 变化很大，LLM 不总是理解用户想发什么所以不断更改数据 schema，因此 MongoDB 文档数据库更合适",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 753,
+          "t": [
+            4201.37,
+            4206.055
+          ],
+          "quote": "LLMs don't always understand what the user is trying to send, so they keep changing the data schema.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ddos",
+      "type": "concept",
+      "role": "concept",
+      "name": "DDoS",
+      "file": "DDoS",
+      "primary": false,
+      "how_described": "本集说每隔一段时间就有人试图 DDoS Base44，但用 Python 写的后端服务器依然能撑住",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            4377.531,
+            4381.694
+          ],
+          "quote": "And every now and then people try to DDoS Base44 and still the server holds.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

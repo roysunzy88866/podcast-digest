@@ -1,0 +1,2197 @@
+{
+  "episode_id": "2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-06-12",
+  "tags": [
+    "设计思维",
+    "产品方法",
+    "设计信条",
+    "团队构建",
+    "AI 原型"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            240.38,
+            241.381
+          ],
+          "quote": "Lenny, thank you so much.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3231,
+            3232.421
+          ],
+          "quote": "Yeah, you're so good with the research, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1136,
+          "t": [
+            6042.189,
+            6044.792
+          ],
+          "quote": "It's not really about me, Lenny, it's about these ideas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            6086.542,
+            6087.586
+          ],
+          "quote": "Thank you so much, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bob-baxley",
+      "type": "person",
+      "role": "guest",
+      "name": "Bob Baxley",
+      "file": "Bob Baxley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            55.004,
+            57.045
+          ],
+          "quote": "Today, my guest is Bob Baxley.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 26,
+          "t": [
+            139.257,
+            141.959
+          ],
+          "quote": "With that, I bring you Bob Baxley.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            34.988,
+            40.679
+          ],
+          "quote": "I came in thinking I was supposed to behave the way I behaved at Apple, which is very direct, fighting hard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            41,
+            42
+          ],
+          "quote": "Why did you decide to join Apple?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 14,
+          "t": [
+            49.28,
+            53.603
+          ],
+          "quote": "Why do you Think that people that have left Apple, a lot of amazing things haven't emerged?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            57.285,
+            65.71
+          ],
+          "quote": "Bob is a designer, executive and advisor who's built in led design teams at Apple, Pinterest, Yahoo, and most recently ThoughtSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 17,
+          "t": [
+            66.151,
+            80.96
+          ],
+          "quote": "Over the course of his career that spanned over three decades, Bob has played a pivotal role in the design of the Apple online store, the Apple App Store, Pinterest, and early in his career Yahoo Answers, products that have been used by hundreds of millions of people around the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            293.702,
+            308.949
+          ],
+          "quote": "Steve at one point was recounting the products that he had created that he was most proud of, and if I recall the whole list, it was the Apple II, the Mac, the iPod, the iPhone, I think Apple retail was in the list and then he said Apple itself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            333,
+            343.405
+          ],
+          "quote": "They knew the products themselves were very ephemeral, but there's something about the culture of Apple that's lasted a very long time and I personally believe will last for some time yet to come.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 64,
+          "t": [
+            376.32,
+            378.362
+          ],
+          "quote": "One more Apple question then I'll move on to other stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            379.643,
+            386.85
+          ],
+          "quote": "Why do you think that people that have left Apple, a lot of amazing things haven't emerged from people that have left?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            409.287,
+            417.972
+          ],
+          "quote": "I think my own particular mistake, and I've seen this with some other Apple executives as well as we went directly from Apple, I left Apple on a Friday and I started Pinterest on a Monday.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 72,
+          "t": [
+            422.855,
+            431
+          ],
+          "quote": "I think at some level, a lot of the challenge is that Apple, and it's not just Apple, I think every major tech company, they have really powerful cultures.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            447.971,
+            453.214
+          ],
+          "quote": "Apple is one of the strongest cultures and there's not many other cultures that natively operate like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            460.979,
+            462.92
+          ],
+          "quote": "He was incredibly successful at Apple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 80,
+          "t": [
+            463.28,
+            468.943
+          ],
+          "quote": "It also should be noted that he had, it was a multi-year gap between the time he left Apple and the time he started Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 81,
+          "t": [
+            468.963,
+            475.666
+          ],
+          "quote": "He gave himself a little bit of time to get through the... At Apple, I think it was Tim or Steve used to talk about the Apple car wash.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 82,
+          "t": [
+            475.686,
+            480.869
+          ],
+          "quote": "Then when you started Apple, they kind of had to take you through the car wash and get off all that stuff that you'd accumulated at other places.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 83,
+          "t": [
+            480.889,
+            484.211
+          ],
+          "quote": "It turns out there's a car wash you need to go through when you leave Apple as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 85,
+          "t": [
+            491.314,
+            502.96
+          ],
+          "quote": "The thing I took away from Apple, and I think this is true for anybody changing from one major culture to another is most likely the new place hires you because of the values of the organization you left, but not the behaviors.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            508.183,
+            519.989
+          ],
+          "quote": "So at Apple, attention to detail, product excellence, doing everything you can for the customer and the user so try to hold onto those values but then think, okay, how are those values best expressed in this culture?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            572.964,
+            579.887
+          ],
+          "quote": "I came in thinking I was supposed to behave the way I behaved at Apple, which is very direct, fighting hard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 105,
+          "t": [
+            600.417,
+            606.02
+          ],
+          "quote": "Well, that's where Pinterest was at the time, and I can assure you nobody at Apple was having to remind you to say the hard thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            692.02,
+            696.782
+          ],
+          "quote": "A lot of times I think people get outgrown by the role, and I saw that across Apple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1015.031,
+            1021.473
+          ],
+          "quote": "Again, I look at it as a company, does the company think in a design mindset and Apple does, Airbnb does.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1136.289,
+            1150.276
+          ],
+          "quote": "I think that's one of the things, if you look, again to go back to Apple, but we could also talk about Lego Lyca, Porsche, Airbnb, Patagonia, there's other companies that make sense as a design centered organization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1169.444,
+            1181.789
+          ],
+          "quote": "Even Apple, for example, the team that designed the online store, we had six designers for a store that ran in 30 some odd countries, 12 and a half thousand instances of the store doing billions of dollars of revenue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1187.831,
+            1194.414
+          ],
+          "quote": "Apple's able to operate with much smaller staff because they have real clarity of vision of what they're doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1401.649,
+            1408.073
+          ],
+          "quote": "I think your experience here, I think Apple is a very different kind of company where design actually leads a lot of this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1411.696,
+            1417.6
+          ],
+          "quote": "And just how you advise companies, think about the split between design and product management that aren't Apple.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1838.28,
+            1841.905
+          ],
+          "quote": "Sorry, but that's how it worked at Apple the whole time under Steve.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1844.709,
+            1852.68
+          ],
+          "quote": "Now I think it's structured a little bit differently, but design has always been part of engineering at Apple, so I saw it work quite effectively there obviously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2240.25,
+            2246.576
+          ],
+          "quote": "But you had other places that knew what they were about, Apple's the key example there, we weren't trying to figure out what it was about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2246.616,
+            2251
+          ],
+          "quote": "We were trying to figure out what was the apple way to do this particular thing, and so that moves a lot faster.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2917.787,
+            2934.315
+          ],
+          "quote": "My team at Apple, but also my friends that are working at Facebook or Google or wherever, it's very hard to really understand that they're creating something in Figma on their computer that's going to be interacted with by billions of people, thousands and thousands of times.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3080.049,
+            3086.492
+          ],
+          "quote": "I mean, go watch somebody over 70 fumble with a chip card insert or watch somebody try to figure out Apple Pay.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3783.289,
+            3790.376
+          ],
+          "quote": "Apple doesn't have an explicit vision, but I might describe it as personal computing can have a transformative effect on the lives of individuals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1153,
+          "t": [
+            6095.969,
+            6101.659
+          ],
+          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcast, Spotify, or your favorite podcast app.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pinterest",
+      "type": "company",
+      "role": "company",
+      "name": "Pinterest",
+      "file": "Pinterest",
+      "primary": false,
+      "how_described": "本集说 Bob 在 Pinterest 的一年半并不成功，因为带着 Apple 的行为方式直接入职，与 Pinterest 当时需要贴海报提醒'说难听话'的文化格格不入；当时 Pinterest 还不太清楚自己是谁，导致设计团队需要探索很广的范围。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            31.401,
+            33.224
+          ],
+          "quote": "It wasn't a successful stint at Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 16,
+          "t": [
+            57.285,
+            65.71
+          ],
+          "quote": "Bob is a designer, executive and advisor who's built in led design teams at Apple, Pinterest, Yahoo, and most recently ThoughtSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 17,
+          "t": [
+            66.151,
+            80.96
+          ],
+          "quote": "Over the course of his career that spanned over three decades, Bob has played a pivotal role in the design of the Apple online store, the Apple App Store, Pinterest, and early in his career Yahoo Answers, products that have been used by hundreds of millions of people around the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            402.383,
+            408.286
+          ],
+          "quote": "I think the people that... I went to Pinterest and did not have a successful time in my year and a half at Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 70,
+          "t": [
+            409.287,
+            417.972
+          ],
+          "quote": "I think my own particular mistake, and I've seen this with some other Apple executives as well as we went directly from Apple, I left Apple on a Friday and I started Pinterest on a Monday.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            418.492,
+            422.815
+          ],
+          "quote": "I didn't give myself time to recalibrate to the Pinterest culture.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            520.63,
+            527.013
+          ],
+          "quote": "I was more successful at expressing those values in the culture of ThoughtSpot, which was my last job than I was in the culture of Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 89,
+          "t": [
+            527.714,
+            529.935
+          ],
+          "quote": "If I had to do it again, I could probably do better at Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 91,
+          "t": [
+            539.22,
+            545.845
+          ],
+          "quote": "This is so interesting and I appreciate you sharing that, the way you described it that it wasn't a successful stint at Pinterest.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            549.628,
+            551.85
+          ],
+          "quote": "They see on their LinkedIn, oh, a head of design at Pinterest.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            565.24,
+            571.463
+          ],
+          "quote": "One of my friends that was at Pinterest, I'm still friends with, he said, \"I just thought of it as you bounced off the culture.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            586.17,
+            588.791
+          ],
+          "quote": "That's not really where Pinterest was at the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 104,
+          "t": [
+            588.811,
+            599.717
+          ],
+          "quote": "Again, all this is a decade ago, so I don't know what any of these companies are like today, but at least when I was there, Pinterest had posters in every conference room that said, big poster that said, say the hard thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 105,
+          "t": [
+            600.417,
+            606.02
+          ],
+          "quote": "Well, that's where Pinterest was at the time, and I can assure you nobody at Apple was having to remind you to say the hard thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            636.075,
+            638.416
+          ],
+          "quote": "I lost my mother when I was at Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            673.032,
+            681.515
+          ],
+          "quote": "One of the things I took away when I was at Pinterest was I came to think that the job of a startup was to grow the founder so they could continue to lead the startup.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 134,
+          "t": [
+            752.627,
+            762.295
+          ],
+          "quote": "By my definition of even Meta is still a startup in a way that Amazon's not, and Airbnb is still a startup in a way that Pinterest is not because Ben's moved on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 141,
+          "t": [
+            791.801,
+            798.488
+          ],
+          "quote": "And then just to give someone something tactical here, so you've realized the culture of Pinterest, you bounced off of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1617.888,
+            1634.656
+          ],
+          "quote": "What I've seen happen over and over in my experience, a ThoughtSpot, Pinterest, other places when you're working directly with product, it's easy to leave engineering out of the loop and product and design can go cook up stuff that doesn't quite make sense technically or is really hard to implement or is just a bridge too far.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2229.32,
+            2229.921
+          ],
+          "quote": "Like at Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2229.941,
+            2233.264
+          ],
+          "quote": "I was at Pinterest at a point when Pinterest wasn't quite sure who it was.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2986.548,
+            2991.65
+          ],
+          "quote": "Maybe we see them in a lab or something like that, but I've never seen anybody just randomly using even Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3235.423,
+            3240.146
+          ],
+          "quote": "Yeah, look, so I left Pinterest in 2016, sorry, 2016.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3852,
+            3866.788
+          ],
+          "quote": "I think Slack, honestly, both Slack and Pinterest I think are examples of products that became companies, but neither one of those places really knew what to do next, because they didn't have a bigger vision of the change they were trying to see in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 970,
+          "t": [
+            5239.507,
+            5245.957
+          ],
+          "quote": "So to me, the takeaways and the lessons here is one is coming back to your Pinterest board in the office, say the hard thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "thoughtspot",
+      "type": "company",
+      "role": "company",
+      "name": "ThoughtSpot",
+      "file": "ThoughtSpot",
+      "primary": true,
+      "how_described": "本集说 ThoughtSpot 是 Bob 最近工作过的公司，创始人 Ajeet Singh 早年与 IDEO 合作后意识到设计的力量，从创立之初就重视设计；Bob 在这里设立了三条设计信条，并使用块脑图（block brain diagrams）来延迟视觉表达。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            57.285,
+            65.71
+          ],
+          "quote": "Bob is a designer, executive and advisor who's built in led design teams at Apple, Pinterest, Yahoo, and most recently ThoughtSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 88,
+          "t": [
+            520.63,
+            527.013
+          ],
+          "quote": "I was more successful at expressing those values in the culture of ThoughtSpot, which was my last job than I was in the culture of Pinterest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            837.56,
+            840.962
+          ],
+          "quote": "In the case of, again, my most recent job was with a company called ThoughtSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 150,
+          "t": [
+            841.002,
+            851.848
+          ],
+          "quote": "And ThoughtSpot was founded by a gentleman named Ajeet Singh, and Ajeet grew up in rural India, but he tells this really great story about he studied chemical engineering, he moves to the United States.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            863.415,
+            867.257
+          ],
+          "quote": "He started Nutanix before he came to ThoughtSpot, before he started ThoughtSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1506.712,
+            1513.336
+          ],
+          "quote": "I assume that the product managers, particularly in enterprise SaaS companies, like my team, ThoughtSpot did data analytics.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1617.888,
+            1634.656
+          ],
+          "quote": "What I've seen happen over and over in my experience, a ThoughtSpot, Pinterest, other places when you're working directly with product, it's easy to leave engineering out of the loop and product and design can go cook up stuff that doesn't quite make sense technically or is really hard to implement or is just a bridge too far.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2387.977,
+            2396
+          ],
+          "quote": "And so when I was at ThoughtSpot, I realized pretty early on that I wasn't going to be able to have any sort of command and control over everything that was going to happen in the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2477.936,
+            2479.397
+          ],
+          "quote": "That wasn't what ThoughtSpot was about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 800,
+          "t": [
+            4439.781,
+            4446.146
+          ],
+          "quote": "And so at ThoughtSpot, we used to use what we call block brain diagrams, which were even simplified versions of wire frames.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "type": "company",
+      "role": "company",
+      "name": "Toast",
+      "file": "Toast",
+      "primary": false,
+      "how_described": "本集说 Toast 是制造餐厅手持点餐设备的公司，Bob 用它举例：今晚你的设备会递到俄亥俄州一位祖母手中，你有机会让她看起来像超级英雄，也有机会让她看起来像傻瓜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 636,
+          "t": [
+            3524.2,
+            3530.883
+          ],
+          "quote": "A few months ago, I guess a little longer ago, I was talking to the team at Toast who makes the handheld point of sale stuff that they use in restaurants.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3573.212,
+            3577.116
+          ],
+          "quote": "And that's true for Toast, that's true for every product any of us are working on all the time.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "tableau",
+      "type": "company",
+      "role": "company",
+      "name": "Tableau",
+      "file": "Tableau",
+      "primary": false,
+      "how_described": "本集说 Tableau 是 ThoughtSpot 当时的主要竞争对手，它从复杂性起步，坐下来感觉像在驾驶航天飞机，适合专业数据分析师，但这不是 ThoughtSpot 的定位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2462.128,
+            2464.089
+          ],
+          "quote": "So our main competitor at the time was Tableau.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2464.429,
+            2465.81
+          ],
+          "quote": "Tableau started with complexity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2470.072,
+            2472.813
+          ],
+          "quote": "So when you sit down at Tableau, it feels like you're flying the space shuttle.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计 (design)",
+      "file": "设计",
+      "primary": true,
+      "how_described": "本集引用 Edward Tufte 的话说'设计是可见的清晰思考（clear thinking made visible）'，它不是想法的视觉表达，而是一种整体心态——想象你想要生活在其中的未来，然后采取措施使其成真，产出的是组织一致性而非只是漂亮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.242,
+            17
+          ],
+          "quote": "You actually have a really unique perspective on just what is design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 4,
+          "t": [
+            17.581,
+            22.708
+          ],
+          "quote": "Design is trying to imagine the future you want to live in and then take the steps to make it real.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 5,
+          "t": [
+            22.928,
+            25.833
+          ],
+          "quote": "Saying a company is design-led does not mean it's designer-led.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 16,
+          "t": [
+            57.285,
+            65.71
+          ],
+          "quote": "Bob is a designer, executive and advisor who's built in led design teams at Apple, Pinterest, Yahoo, and most recently ThoughtSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 17,
+          "t": [
+            66.151,
+            80.96
+          ],
+          "quote": "Over the course of his career that spanned over three decades, Bob has played a pivotal role in the design of the Apple online store, the Apple App Store, Pinterest, and early in his career Yahoo Answers, products that have been used by hundreds of millions of people around the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 18,
+          "t": [
+            81.5,
+            88.905
+          ],
+          "quote": "Bob also mentors individuals and advises organizations that are working to improve the practice, craft and culture of digital product design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            549.628,
+            551.85
+          ],
+          "quote": "They see on their LinkedIn, oh, a head of design at Pinterest.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 145,
+          "t": [
+            815.204,
+            820.148
+          ],
+          "quote": "What I'm usually looking for is do they have a story as to why they believe in design?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            820.888,
+            823.61
+          ],
+          "quote": "Really in their heart and soul, do they care about design?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            856.951,
+            863.375
+          ],
+          "quote": "As a very young person, he got to see what IDEO did and he realized the power of design and he's taken that to all of his companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            867.297,
+            871.52
+          ],
+          "quote": "And so when I heard that, I'm like, oh, this is a guy that gets design right from the very beginning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 155,
+          "t": [
+            872.1,
+            878.665
+          ],
+          "quote": "I've also come to believe that I actually have never seen a company that grafted design on after the founding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            879.405,
+            885.83
+          ],
+          "quote": "I could name lots of companies that I think are kind of design led, not always designer led, but design led or design centric.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 167,
+          "t": [
+            938.815,
+            939.676
+          ],
+          "quote": "Do they value design?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            947.18,
+            951.451
+          ],
+          "quote": "You actually have a really unique perspective on just what is design that I haven't heard before.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            952.133,
+            954.519
+          ],
+          "quote": "Let me ask you that question is what is design?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            955.2,
+            960.243
+          ],
+          "quote": "Well, I'm going to go back to the Edward Tufte quote that I use all the time, which is design is clear thinking made visible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            960.964,
+            966.187
+          ],
+          "quote": "And so I think most people when they talk about design, they think of it as the visual expression of an idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 177,
+          "t": [
+            972.631,
+            976.994
+          ],
+          "quote": "When design thinking became big, I was always really confused because I didn't know how else you could think.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 178,
+          "t": [
+            977.134,
+            986.179
+          ],
+          "quote": "That was just how I naturally thought, which is design is trying to imagine the future you want to live in and then take the steps to make it real.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 180,
+          "t": [
+            996.184,
+            1013.93
+          ],
+          "quote": "It's a little bit different from engineering, which is we kind of know where we want go at the end, but we're trying to go one step at a time versus design's trying to see some further out future state and account for a larger or a different set of constraints and issues than engineering or some of the other problem solving methodologies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1015.031,
+            1021.473
+          ],
+          "quote": "Again, I look at it as a company, does the company think in a design mindset and Apple does, Airbnb does.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1027.175,
+            1031.037
+          ],
+          "quote": "I don't think that those organizations are competing on design in the same way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1031.577,
+            1038.1
+          ],
+          "quote": "But again, I want to go work at a place that as an organization thinks in a design type method.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1039.3,
+            1046.405
+          ],
+          "quote": "Along those lines, a lot of people imagine every founder, every product builder is just, yes, I'd love amazing design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1058.813,
+            1070
+          ],
+          "quote": "What's the best pitch you can make and that you do make to companies to help them see the strategic value of design and the bottom of the value of design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1070.68,
+            1075.362
+          ],
+          "quote": "Let me back up and just dissect a little bit the way you described design, you described it in really tactical terms.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1088.668,
+            1091.97
+          ],
+          "quote": "That's one of the outcomes of design, but that's not the real heavy lifting of design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1092.37,
+            1095.611
+          ],
+          "quote": "Design is more like liberal arts or philosophy or something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1099.373,
+            1109.077
+          ],
+          "quote": "And so what I talk to founders and people about the value of design, what I'm pushing them on is when we can get organizational alignment around what we want to do philosophically, why do we exist?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1110.378,
+            1115.68
+          ],
+          "quote": "How do all these things ladder up through vision, through mission, through specific tenets, design strategies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1121.643,
+            1122.943
+          ],
+          "quote": "That's the magic of design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1123.383,
+            1129.686
+          ],
+          "quote": "The difference is when you design things, you end up with a bunch of bricks that are piled into a beautiful impenetrable wall.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1136.289,
+            1150.276
+          ],
+          "quote": "I think that's one of the things, if you look, again to go back to Apple, but we could also talk about Lego Lyca, Porsche, Airbnb, Patagonia, there's other companies that make sense as a design centered organization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1345.929,
+            1355.556
+          ],
+          "quote": "I'm supposed to design the line experience for the new ride sitting in Tomorrowland, but I know where that fits into this larger thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1389.841,
+            1391.722
+          ],
+          "quote": "I want to go back to something you said about what design is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1393.543,
+            1401.629
+          ],
+          "quote": "And so the way you described design to a lot of people, it sounds like that's like product management also and product leadership, setting, strategy, vision, figuring out how everything fits together.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1401.649,
+            1408.073
+          ],
+          "quote": "I think your experience here, I think Apple is a very different kind of company where design actually leads a lot of this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1411.696,
+            1417.6
+          ],
+          "quote": "And just how you advise companies, think about the split between design and product management that aren't Apple.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1421.602,
+            1427.106
+          ],
+          "quote": "He said saying a company is design led does not mean it's designer led.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1427.686,
+            1433.669
+          ],
+          "quote": "And so what I try to hammer home with people is that when I talk about design as a mindset, I'm talking about it as a mindset.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1439.293,
+            1444.596
+          ],
+          "quote": "In fact, I think that's a lot of what the design community is trying to get at now when they say designers should be speaking the language of business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1493.225,
+            1505.652
+          ],
+          "quote": "And then we can work together to decide whether or not our solutions actually solve the problem as you understand it, but I'll stay out of your roadmap and you stay out of my design stop and let's try to get to the promised land together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1553.517,
+            1559.32
+          ],
+          "quote": "It's not that one of my PM counterparts couldn't bring a lot to the design table, it's just I need you to play that position.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1592.148,
+            1597.659
+          ],
+          "quote": "Something else that I heard you believe that I haven't heard before is that design share report to engineering.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1603.142,
+            1617.388
+          ],
+          "quote": "In my experience, I think that design is most successful at impacting what ships at the end if design is considered phase zero of the engineering process, rather than a by product or a part of the product process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1617.888,
+            1634.656
+          ],
+          "quote": "What I've seen happen over and over in my experience, a ThoughtSpot, Pinterest, other places when you're working directly with product, it's easy to leave engineering out of the loop and product and design can go cook up stuff that doesn't quite make sense technically or is really hard to implement or is just a bridge too far.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1649.302,
+            1656.605
+          ],
+          "quote": "So I think there's something about having the design and engineering team very tightly connected and kind of living together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1663.388,
+            1668.371
+          ],
+          "quote": "I also think you can just account for timelines and costs and things better when design's part of engineering.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1668.771,
+            1681.917
+          ],
+          "quote": "And many of my design friends will push back on this and they'll say design should be its own thing and it should be an independent group and we should have three co-equal branches of government, and that's a solid argument as well, and there's some places where that works beautifully.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1682.457,
+            1688.94
+          ],
+          "quote": "My experiences at design rarely has a budget or an army, and so it's very hard for them to really hold their own in that sort of a setting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1689.4,
+            1698.824
+          ],
+          "quote": "Also, although you'll see people argue with me on LinkedIn about how design needs to be measured and we need to have metrics and be held accountable for a number, I don't really believe that in my heart.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1698.964,
+            1704.166
+          ],
+          "quote": "I've just never seen a number that you could apply to design that we could reliably affect.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1704.647,
+            1713.731
+          ],
+          "quote": "So I think it's very hard to hold design as an organization accountable for a particular outcome the way that most of the other C-level roles are held accountable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1720.033,
+            1725.816
+          ],
+          "quote": "And although I know this will frustrate some of my friends, I just haven't been able to figure out how that works for design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1728.037,
+            1732.038
+          ],
+          "quote": "Certainly there's very successful chief design officers and we could go through the list.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1736.42,
+            1756.179
+          ],
+          "quote": "What I see work, and I'm curious to get your take is just product, engineering, design have exactly the same goal and the more everyone... And their performance as an employee is tied to the same thing essentially because then everyone is pushing in the same direction versus like, oh, I have my engineering goal, I have my design goal, I have my PM goal, and just creates all kinds of weird incentives.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1770.289,
+            1773.892
+          ],
+          "quote": "And every design team that I've ever been a part of, I've been a part of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1785.18,
+            1790.823
+          ],
+          "quote": "I point out the idea of design reporting to engineering just because I don't think people consider the possibility often enough.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1791.823,
+            1796.506
+          ],
+          "quote": "So there's three options, design is its own thing, design is part of product, design is part of engineering.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1804.97,
+            1813.474
+          ],
+          "quote": "And so I would encourage people to just take a design mentality and put on that designer mindset just for a moment and say, well, what's the thing that we're trying to produce?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1834.635,
+            1837.98
+          ],
+          "quote": "Have you had design report to engineering in companies you've worked at?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1841.945,
+            1843.267
+          ],
+          "quote": "Design always reported to engineering.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1844.709,
+            1852.68
+          ],
+          "quote": "Now I think it's structured a little bit differently, but design has always been part of engineering at Apple, so I saw it work quite effectively there obviously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1854.482,
+            1868.9
+          ],
+          "quote": "Okay, so say just to give someone something very tactical to do on their team, say they don't want to go to this extreme and move the design org under engineering, what's something you've seen work that helps achieve similar outcomes with having engineers integrated early in the design process?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1956.2,
+            1963.724
+          ],
+          "quote": "We could talk about this when you take a final design to an exec and an exec sees it for the first time in a high resolution state, I'll get to that in a second.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1994.18,
+            2001.305
+          ],
+          "quote": "And for me, that was always the critical moment because I knew that design can't bring you this stuff into the world on its own.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2052.932,
+            2056.293
+          ],
+          "quote": "Everybody in product design, engineering, we've all chosen these careers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2126.168,
+            2135.493
+          ],
+          "quote": "So I guess just thoughts in just how much you should spend, how much time, how many resources, how deep you go on design for all these things you're building.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2135.513,
+            2149
+          ],
+          "quote": "Say you're building some kind of, I don't know, expense management system or HRS thing, just like, what do you recommend people do with, in terms of just how far to go in design as a lever, as a differentiator maybe?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2149.66,
+            2152.762
+          ],
+          "quote": "Well, inherent in your question is this assumption that design takes more time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2153.042,
+            2156.824
+          ],
+          "quote": "And so I'm going to kind of reject that premise, because I don't think design takes more time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2156.924,
+            2158.845
+          ],
+          "quote": "I think design exists.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2158.885,
+            2160.246
+          ],
+          "quote": "There is going to be a design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2162.707,
+            2168.89
+          ],
+          "quote": "And I think there's things that you can do so that you're able to operate it at a quicker pace as design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2189,
+            2196.784
+          ],
+          "quote": "So if you look at the companies that have the largest design teams, they're often the companies that have the most ambiguous cultures and the most unclear design vision.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2197.584,
+            2209.57
+          ],
+          "quote": "When you go to companies that really know what they're doing and they're clear that this is who we are, this is what we stand for, the design teams are super small because they're not sitting there trying to do all these permutations with color and typography and ideas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2286.3,
+            2290.266
+          ],
+          "quote": "So let's actually follow the thread of design tenets and principles.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2290.286,
+            2296.355
+          ],
+          "quote": "This is something I've heard about you, that you're a big fan of design tenets versus design principles.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2300.06,
+            2309.204
+          ],
+          "quote": "Yeah, so look, there's whole websites dedicated to design principles, and if you go and you read it, you'll see a lot of principles like simple, clear, beautiful, fast, secure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2406.664,
+            2416.208
+          ],
+          "quote": "I needed to try to set the culture and set certain design tenets that everyone could internalize and follow and hopefully then make the right decisions in that groove, if you will.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2533.174,
+            2540.52
+          ],
+          "quote": "And when we would have design debates, we could just come back to this, wait, are we actually starting simple and forcing them to opt into complexity or are we doing something else here?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2581.35,
+            2585.372
+          ],
+          "quote": "It felt like they operated at sort of the design strategy level.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2588.794,
+            2603
+          ],
+          "quote": "What I would look for is if you're a design leader or a product leader, try to pay attention to what are the debates that we keep having over and over where people kind of seem to be digging in and things sort of seem to be bifurcating into two camps.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3241.247,
+            3251.373
+          ],
+          "quote": "And I didn't have anything lined up so I had some time to myself and I was driving up and down the peninsula here in Silicon Valley meeting with other design leaders and just sort of commiserating with people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3352.59,
+            3354.872
+          ],
+          "quote": "After music school I started a graphic design studio.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3474.179,
+            3477.92
+          ],
+          "quote": "And I think that's where design and particularly visual design can have a huge impact.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3478.12,
+            3486.407
+          ],
+          "quote": "So again, in many conversations that I'd have in design reviews, some executive would go, \"I don't know, ultimately this just kind of comes down to a matter of opinion.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3496.516,
+            3500.139
+          ],
+          "quote": "And then let's make sure that we design something visually that evokes that emotion.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3593.97,
+            3608.8
+          ],
+          "quote": "So just to kind of double-down on this, is the advice here is think about the emotion you want the user of your software to have as you're starting the design process, not just what do you want them to do, how fast do you want them to get to this flow, it's what's the emotion you want them to have?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3701.053,
+            3712.139
+          ],
+          "quote": "What's a tactical tip or two that you can suggest to a founder or product manager to help them contain the design process while also achieving these outcomes that you're describing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3730.5,
+            3743.549
+          ],
+          "quote": "So I think if you're going into it feeling like the design process is going to take a lot of time, it's because you haven't been clear in your creative brief, so to speak, which often means you're not really clear in your own head.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3915.222,
+            3927.635
+          ],
+          "quote": "So the advice here is, if you're finding design is taking too long or you want to just level up your success with your design team, give more context, spend more time on the brief, on what you're actually trying to achieve.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3932.761,
+            3934.864
+          ],
+          "quote": "Look, design is a problem solving methodology.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3948.4,
+            3956.484
+          ],
+          "quote": "As a design leader, I think one of my main challenges is frankly trying to make the PMs better clients, helping them get more specific.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3956.524,
+            3961.187
+          ],
+          "quote": "It's very common for a design team to get extremely ambiguous asks from a product team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 715,
+          "t": [
+            3973.874,
+            3982.858
+          ],
+          "quote": "And so design gets stuck with a really ambiguous input, but they have to have a highly specific output and then often timeboxed to do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3986.38,
+            3995.007
+          ],
+          "quote": "So you're much better off either kind of compressing the PRD experience and bringing the designers into that, kind of co-creating with product and design really rapidly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 721,
+          "t": [
+            4018.272,
+            4022.94
+          ],
+          "quote": "And so the more ambiguity that can be removed upstream, the faster design's going to go.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 739,
+          "t": [
+            4118.937,
+            4124.72
+          ],
+          "quote": "You give them something more like a basketball court, a sort of scale at which they can do their design thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 807,
+          "t": [
+            4482.02,
+            4494.57
+          ],
+          "quote": "And then what would happen, is because we had such a robust design system, once we locked down on the block frames, we could send it to an agency and they could do the full high-res comps in a day, because they knew exactly what they were doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            5471.1,
+            5489.92
+          ],
+          "quote": "And so when you think about the ability to hold moving pictures, characters, story, music, photography, set design, costume, the whole constellation of variables that come to play into a movie, I think Lords of Arabia is probably one of the two or three most complete expressions of what the medium is capable of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            5708.469,
+            5712.998
+          ],
+          "quote": "First one I've already used, which is, design is clear thinking made visible, by Edward Tufte.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            5862.786,
+            5867.371
+          ],
+          "quote": "I recently got to hear Henry Modisett who's head of design at Perplexity, give a talk.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "tenets",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计信条 (tenets)",
+      "file": "设计信条",
+      "primary": true,
+      "how_described": "本集区分'原则'和'信条'：原则如简单、清晰没人会反对但没法帮你做决策；信条是真正的决策工具，不能超过三四条因为每个人都要背下来。Bob 在 ThoughtSpot 设了三条：文档是失败状态、每次交互从简单开始让用户选择加入复杂性、整个产品看起来像出自同一个头脑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            1110.378,
+            1115.68
+          ],
+          "quote": "How do all these things ladder up through vision, through mission, through specific tenets, design strategies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2169.01,
+            2172.212
+          ],
+          "quote": "Again, if you get the... We haven't talked about tenets yet, but we'll get to that in a moment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2286.3,
+            2290.266
+          ],
+          "quote": "So let's actually follow the thread of design tenets and principles.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2290.286,
+            2296.355
+          ],
+          "quote": "This is something I've heard about you, that you're a big fan of design tenets versus design principles.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2332.734,
+            2338.416
+          ],
+          "quote": "And so tenets are really decision-making tools and it's sort of like... A classic one is paper versus plastic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2406.664,
+            2416.208
+          ],
+          "quote": "I needed to try to set the culture and set certain design tenets that everyone could internalize and follow and hopefully then make the right decisions in that groove, if you will.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2529.151,
+            2532.614
+          ],
+          "quote": "And so those tenets were all... Again, they were all decision-making tools.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2541.34,
+            2547.507
+          ],
+          "quote": "So there's kind of this implication in this discussion about tenets is that you need to be very opinionated.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2551.432,
+            2558.66
+          ],
+          "quote": "Is there anything more along those lines and are there other tenet examples you could share to give people some inspiration as they think about their potential tenets?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2559.56,
+            2564.182
+          ],
+          "quote": "It's very context specific, so it's a little bit like what are your tenets for parenting?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2577.208,
+            2580.89
+          ],
+          "quote": "We tried to come out with tenets for individual features and we had trouble with that.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计思维 (design thinking)",
+      "file": "设计思维",
+      "primary": false,
+      "how_described": "本集提到当设计思维变得流行时 Bob 总是很困惑，因为他不知道除了设计思维还能怎么思考，那只是他自然的思考方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            972.631,
+            976.994
+          ],
+          "quote": "When design thinking became big, I was always really confused because I didn't know how else you could think.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "creative-technologists",
+      "type": "concept",
+      "role": "concept",
+      "name": "创意技术人员 (creative technologists)",
+      "file": "创意技术人员",
+      "primary": false,
+      "how_described": "本集说如果不想让设计向工程汇报，替代方案是在工程团队里找到少数'创意技术人员'——那些能忍受模糊性、能在概念层面讨论的人，让他们从一开始就参与。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1869.56,
+            1876.643
+          ],
+          "quote": "Yeah, look, I think you have to find some way that you are able to identify a few people in engineering that I refer to as creative technologists.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "software-as-a-medium",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件作为一种媒介 (software as a medium)",
+      "file": "软件作为一种媒介",
+      "primary": true,
+      "how_described": "本集说 Fred Turner 的书指出 1960 年代末斯坦福周围一小群人把软件视为与电影、音乐、书籍同等的新型媒介；Bob 意识到他对每一段软件都有情感反应——困惑或赋能、世界变大或变小——一旦接受这一点就可以有意识地设计你想唤起的情感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 609,
+          "t": [
+            3365.1,
+            3374.949
+          ],
+          "quote": "And then when I heard that software as a medium, that whole concept of what I'd been doing with my life and who I was about, it just sort of all came together really quickly.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "primal-mark",
+      "type": "concept",
+      "role": "concept",
+      "name": "原始印记 (primal mark)",
+      "file": "原始印记",
+      "primary": true,
+      "how_described": "本集说 Bob 从艺术中借用'原始印记'概念——你在画布上落下的第一笔，一旦落下之后所有东西都在回应那一笔；设计里只要画出一幅哪怕有一点逼真的图，所有人就会锁定在上面说'就是它了'，而生成式 AI 原型工具会加剧这个问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 747,
+          "t": [
+            4161.22,
+            4169.565
+          ],
+          "quote": "So I don't think I'm using the term right, but I had this idea from art that I call the primal mark, and that's the first mark that you make on the canvas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 783,
+          "t": [
+            4326.621,
+            4336.33
+          ],
+          "quote": "This advice about not drawing quickly and not making that primal mark, which I love that term, is, I'm curious your take on AI prototyping tools these days.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "block-brain-diagrams",
+      "type": "concept",
+      "role": "concept",
+      "name": "块脑图 (block brain diagrams)",
+      "file": "块脑图",
+      "primary": false,
+      "how_described": "本集说 Bob 在 ThoughtSpot 使用块脑图，这是比线框图还简化的方块图，因为足够低保真，没人能评论'它看起来怎么样'，只能讨论概念上它是什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 800,
+          "t": [
+            4439.781,
+            4446.146
+          ],
+          "quote": "And so at ThoughtSpot, we used to use what we call block brain diagrams, which were even simplified versions of wire frames.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "scenius",
+      "type": "concept",
+      "role": "concept",
+      "name": "群体天才 (scenius)",
+      "file": "群体天才",
+      "primary": false,
+      "how_described": "本集说 Brian Eno 有一个词叫 scenius，是当你有一个群体时产生的天才，是天才的集体概念；四个人能组成披头士，八个人不行，24 个人更不可能，这种集体创造力只在小团队里出现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            1216.704,
+            1221.908
+          ],
+          "quote": "The teams get too big and you can't get that what Brian Eno calls scenius.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1222.628,
+            1228.332
+          ],
+          "quote": "Brian Eno has this great word that he uses, scenius is the genius that comes when you have a group together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1228.572,
+            1237.859
+          ],
+          "quote": "Scenius is the collective idea of genius and I think that's something that's really magical that I've experienced in my career, but usually in smaller groups.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "gen-ai-tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI 原型工具 (gen AI tools)",
+      "file": "生成式 AI 原型工具",
+      "primary": false,
+      "how_described": "本集说生成式 AI 原型工具是'尽可能晚画图'这一建议的极端反面，它们训练在现有解决方案上，你喂进去一阶思维，出来的也是一阶思维，可能性从广阔空间瞬间缩到窄小的点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 744,
+          "t": [
+            4149.386,
+            4155.213
+          ],
+          "quote": "I think that pushes against all the gen AI tools that help you create prototypes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 752,
+          "t": [
+            4193.32,
+            4203.567
+          ],
+          "quote": "And so as soon as you draw a picture that looks even slightly realistic, much less something that comes out of one of these gen AI tools, everybody kind of goes, oh, that's the thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 816,
+          "t": [
+            4529.493,
+            4535.937
+          ],
+          "quote": "And I think a lot of the gen AI tools, it's this seductive thing of, hey, let's just go, let's go make the comp and see what we think.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design-led",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计主导 (design led)",
+      "file": "设计主导",
+      "primary": false,
+      "how_described": "本集说'说一家公司是设计主导的不意味着它由设计师主导'，设计是一种思维方式，任何角色都可以拥有；Bob 从未见过一家公司在创立后将设计嫁接上去，它要么在根 DNA 中要么就不存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.928,
+            25.833
+          ],
+          "quote": "Saying a company is design-led does not mean it's designer-led.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            879.405,
+            885.83
+          ],
+          "quote": "I could name lots of companies that I think are kind of design led, not always designer led, but design led or design centric.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1421.602,
+            1427.106
+          ],
+          "quote": "He said saying a company is design led does not mean it's designer led.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": false,
+      "how_described": "本集说 ThoughtSpot 有强大的设计系统，一旦块脑图锁定了，发给外包一天就能出高清合成稿，因为代理机构确切知道自己在做什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 807,
+          "t": [
+            4482.02,
+            4494.57
+          ],
+          "quote": "And then what would happen, is because we had such a robust design system, once we locked down on the block frames, we could send it to an agency and they could do the full high-res comps in a day, because they knew exactly what they were doing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说你在 Figma 里画的那个东西将被数十亿人互动成千上万次，但你永远看不到他们；一旦进入 Figma 你就对要生产的东西做出了决定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            163.349,
+            179.036
+          ],
+          "quote": "What you may not know is that they have several other products that can help accelerate your revenue, such as Stripe Billing, which powers billing for companies that you may have heard of, OpenAI, Anthropic, Figma, Atlassian, and over 300,000 other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2683.992,
+            2695.26
+          ],
+          "quote": "And Stripe isn't just a payments platform, they also have a product called Stripe Billing, which powers billing for companies that you may have heard of: OpenAI, Anthropic, Figma, Atlassian, and over 300,000 other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2917.787,
+            2934.315
+          ],
+          "quote": "My team at Apple, but also my friends that are working at Facebook or Google or wherever, it's very hard to really understand that they're creating something in Figma on their computer that's going to be interacted with by billions of people, thousands and thousands of times.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            5573.171,
+            5577.174
+          ],
+          "quote": "So once you go into Figma, you've made a decision about the thing you're going to produce.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

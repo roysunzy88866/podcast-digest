@@ -1,0 +1,2146 @@
+{
+  "episode_id": "2025-07-17-lennys-inside-every-dan-shipper",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-07-17",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "AI 组织变革",
+    "配置型经济",
+    "多智能体协作"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            184.867,
+            190.791
+          ],
+          "quote": "Get CodeRabbit for free for an entire year at coderabbit.ai using code Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 37,
+          "t": [
+            239.388,
+            243.813
+          ],
+          "quote": "Visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2477.05,
+            2482.955
+          ],
+          "quote": "Sign up today for free at posthog.com/lenny and make sure to tell them Lenny sent you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2483.215,
+            2485.077
+          ],
+          "quote": "That's posthog.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            5269.462,
+            5271.964
+          ],
+          "quote": "So I was like, \"I'm going on Lenny's podcast.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dan-shipper",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dan Shipper",
+      "file": "Dan Shipper",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            55.3,
+            56.921
+          ],
+          "quote": "Today, my guest is Dan Shipper.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 20,
+          "t": [
+            132.577,
+            135.019
+          ],
+          "quote": "With that, I bring you Dan Shipper.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "every",
+      "type": "company",
+      "role": "company",
+      "name": "Every",
+      "file": "Every",
+      "primary": true,
+      "how_described": "本集将其描述为一家处于 AI 最前沿的公司，15 人团队运营每日通讯、四款产品（Cora、Spiral、Sparkle 等）和咨询业务，产品团队不手写一行代码，全部由智能体完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            29.67,
+            40
+          ],
+          "quote": "We have this guy, he made a year's worth of progress in two months because every time I sat down with him and told him, \"Okay, here's how you tell a story, here's how you think about a headline,\" he recorded all of it, put it into a prompt, and he never made the same mistake twice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            57.242,
+            63.486
+          ],
+          "quote": "Dan is the co-founder and CEO of Every, which is a company that is at the very bleeding edge of what is possible with AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 15,
+          "t": [
+            82,
+            92.147
+          ],
+          "quote": "Their editorial arm uses AI to publish better work faster, and they even have a person whose entire job is to help every employee at the company become more efficient using the latest AI workflows.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            148.807,
+            155.39
+          ],
+          "quote": "CodeRabbit acts as your AI copilot providing instant code review comments and potential impacts of every pull request.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 84,
+          "t": [
+            492.416,
+            494.598
+          ],
+          "quote": "Everybody inside of Every is using it all day, every day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 89,
+          "t": [
+            503.826,
+            517.279
+          ],
+          "quote": "But for example, you can download all your meeting notes and put it in a folder and just be like, \"Okay, I want you to read every single one of my meeting notes and tell me...\" Something that I do, for example, is, \"Tell me all the time that I subtly avoided conflict.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            535.593,
+            539.615
+          ],
+          "quote": "It's actually processing every single file that you give it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 165,
+          "t": [
+            867.582,
+            871.036
+          ],
+          "quote": "Same thing for people inside of Every, no one is manually coding anymore.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 185,
+          "t": [
+            973.466,
+            981.471
+          ],
+          "quote": "So for infants, it's instead of being fused at the hip for every hour of every day, you get left alone.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1026.78,
+            1035.165
+          ],
+          "quote": "With a toddler, you can be in the same room but not interacting with them every single second for 20 minutes sometimes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1499.869,
+            1504.392
+          ],
+          "quote": "So for us, at Every, one of the big parts of Every is we have a daily newsletter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1568.024,
+            1576.215
+          ],
+          "quote": "So first of all, just tell people what the heck Every is, and then share a few insights into just how you operate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1597.744,
+            1603.688
+          ],
+          "quote": "But the way that I typically talk about Every is we do ideas and apps at the edge of AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1707.12,
+            1712.389
+          ],
+          "quote": "So you get a really inside look into how is this stuff being built from people who are actually using it every day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1736.253,
+            1742.618
+          ],
+          "quote": "We originally incubated Lex, which is an AI document writer, which we spun out into its own company, and my Every co-founder runs that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1808.739,
+            1810
+          ],
+          "quote": "How big is the team at Every?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1825.407,
+            1829.91
+          ],
+          "quote": "And every time I'm doing something repetitively, we put it in a to-do list.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1915.463,
+            1930.752
+          ],
+          "quote": "So there's so much stuff in the editorial operation, where I or our editor in chief, Kate... Kate, is constantly doing little, small copy edits to make sure everything is in Every style, and it takes hours a day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1984.105,
+            1993.794
+          ],
+          "quote": "So she also, when people inside of Every who are builders... Often they just write themselves, but sometimes they want help, and she'll help them write about whatever they're working on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2066.191,
+            2072.94
+          ],
+          "quote": "I think it's becoming a thing, and I think it's really important, and it just bleeds out into every other part of the org.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2085.688,
+            2092.212
+          ],
+          "quote": "There's a lot of copy that goes out on Cora, or Spiral, or Sparkle that we want to have that same Every quality bar for.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2209.04,
+            2216.893
+          ],
+          "quote": "I think Claude Opus is... First of all, Claude Code, everyone inside Every, that's basically what we use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2439.04,
+            2442.905
+          ],
+          "quote": "Everything PostHog offers comes with a generous free tier that resets every month.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2530.214,
+            2534.699
+          ],
+          "quote": "So basically, for every unit of work, you should make the next unit of work easier to do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2588.12,
+            2600
+          ],
+          "quote": "And so finding those little speed-ups, where every time you're building something, you're making it easier to do that same thing next time, I think gets you a lot more leverage in your engineering team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2836.56,
+            2842.625
+          ],
+          "quote": "And generally, I think that kind of multidimensional type of talent is the kind of person that I love having at Every.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2951.842,
+            2967.409
+          ],
+          "quote": "And when he came to us, I guess almost a year ago now, it was one of those classic cases which I've seen over and over at every... Which is, you have great ideas, but you're not a good writer yet and it's really hard for me to do anything with you until you're good enough at it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2976.394,
+            2982.337
+          ],
+          "quote": "He made a year's worth of progress in two months because every time I sat down with him and told him, okay, here's how you tell a story.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3228.251,
+            3248
+          ],
+          "quote": "And I think that's what makes the writing... That's why I like doing that is because the writing that we do from that I think is really good because we can talk about it from a sort of position of experience, but I do want to say something else which is we're not at a point yet where the people that work at every could do what they do if they didn't know how to code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3639.608,
+            3650.133
+          ],
+          "quote": "And then because everybody that works at Every is AI first and came to us because they reads Every, they read Every, so we all have the same vibe and we're all kind of doing similar stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3653.254,
+            3663.579
+          ],
+          "quote": "So we measure the success of the product by is it a banger inside of Every, monologue the app that I was talking to you about, everyone just started using it and we're like, okay, we've got something here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3665.4,
+            3675.245
+          ],
+          "quote": "And what's really interesting then is if everyone inside of Every uses it and people read Every, they have a similar vibe to us too, so they become the next set of users.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3745.64,
+            3754.544
+          ],
+          "quote": "I really want Every to be an institution that teaches people how to live a better, more human life with technology, particularly with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3831.617,
+            3838.88
+          ],
+          "quote": "And so when we started Every, we raised a very small 700K pre-seed round, and this was at the height of the creator economy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4135.008,
+            4141.491
+          ],
+          "quote": "I feel like every company right now is trying to figure out what the hell's everyone else figured out that we're not doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 965,
+          "t": [
+            4670.107,
+            4694
+          ],
+          "quote": "And I was really trying to think about, \"How do I express what ... In my experience, using this every day, what skills are useful for me?,\" because I think that'll be the case for a lot of other people, and I think that's kind of the best method, I think, to do these sorts of predictions, is you have to be doing it all the time yourself, and then that informs your opinion about this stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 976,
+          "t": [
+            4762.34,
+            4765.423
+          ],
+          "quote": "And I'm just like, \"Yeah, that's exactly what Every first-time manager says.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4818.456,
+            4820
+          ],
+          "quote": "You mentioned that everyone at Every is a generalist.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            4956.3,
+            4979.267
+          ],
+          "quote": "It knows so much about every little branch of human knowledge and every art form and every way of making things or building things, and you just have access to that, so it's doing a lot of the ... It's good for doing a lot of the specialized tasks that you might've had to spend 10 years getting good at learning about this particular species of cicada, so you know exactly how they reproduce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            5004.154,
+            5023.84
+          ],
+          "quote": "So the people inside of Every can stay generalists for much longer, and I think that that may sort of ripple out into the rest of the economy, where instead of gigantic, massive corporations, where each person is doing one little button turning, you have many more smaller organizations with more generalists, and I think that would actually be a really good thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            5290,
+            5296.026
+          ],
+          "quote": "And then, Build bravely, you turn those insights into concrete things, like Every in Quora and longform essays and all that kind of stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            5402.427,
+            5408.509
+          ],
+          "quote": "And so early on at Every, it was growing really well, because I was writing a lot, and Nathan was writing a lot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1128,
+          "t": [
+            5535.841,
+            5538.742
+          ],
+          "quote": "Of course, Every founder wants to do that, but you have to focus.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            5541.124,
+            5573.56
+          ],
+          "quote": "But every time I've kind of just leaned into something that feels like the most, the ultimate luxury of my hidden secret desire, it's actually worked a lot better, and I think you end up ... What it really is, is there's a huge tax to doing something every day that you don't quite like that much, or you're not quite a fit for, and by sort of giving into those secret desires, you end up finding a shape for the work that you do and the business that you build that is good for you, and that's always going to be a somewhat unique shape from other businesses that have been built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            5600.776,
+            5604
+          ],
+          "quote": "Where can folks check out Every, find you online, and how can listeners be useful to you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1136,
+          "t": [
+            5604.801,
+            5607.104
+          ],
+          "quote": "So you can find us at every.to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            5649.14,
+            5653.467
+          ],
+          "quote": "If you subscribe to Every, you can also reply to those emails, and they eventually get forwarded to me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            5655.23,
+            5656.251
+          ],
+          "quote": "Reply to Every.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cora",
+      "type": "company",
+      "role": "company",
+      "name": "Cora",
+      "file": "Cora",
+      "primary": true,
+      "how_described": "本集说它是 Every 孵化的 AI 邮件管家产品，像一个 AI 幕僚长帮你管理邮件，由 2 名工程师加 15 个 Claude Code 实例构建，公开发布时已有 2500 活跃用户、数百万封邮件流过，总投入约 30 万美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1713.07,
+            1715.654
+          ],
+          "quote": "And the suite of apps that we have, one's called Cora.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1715.694,
+            1719
+          ],
+          "quote": "We just launched Cora publicly on the day that we're recording this, which is really awesome.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2073,
+            2079.924
+          ],
+          "quote": "So we're doing this inside of the editorial org, but there's a lot of copy that goes out on Cora.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2079.964,
+            2085.188
+          ],
+          "quote": "And by the way, Cora is spelled C-O-R-A, so it's different from Q-U-O-R-A, slightly confusing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2085.688,
+            2092.212
+          ],
+          "quote": "There's a lot of copy that goes out on Cora, or Spiral, or Sparkle that we want to have that same Every quality bar for.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2104,
+            2122.557
+          ],
+          "quote": "So one thing that we did, Nityesh, who's one of the engineers on Cora, built a Claude Code command that just uses that prompt, and checks through the entire code base for all the copy edits, and then creates a pull request on GitHub, and then sends the pull request to Kate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2499,
+            2503
+          ],
+          "quote": "So the Cora team, which is Kieran and Nityesh, basically-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2506.325,
+            2512.679
+          ],
+          "quote": "Well, with Cora, it's Kieran, Nityesh, and 15 Claude Code instances, so it's more powerful than you think.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2602.903,
+            2606.908
+          ],
+          "quote": "And Cora, it just became public.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2797.766,
+            2800.656
+          ],
+          "quote": "The two people on the Cora team, what's their background?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 848,
+          "t": [
+            4034.312,
+            4041.077
+          ],
+          "quote": "Like Cora, I think all in to build Cora, we've spent maybe 300K, Maybe.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "spiral",
+      "type": "company",
+      "role": "company",
+      "name": "Spiral",
+      "file": "Spiral",
+      "primary": false,
+      "how_described": "本集提到它是 Every 的一个用 AI 做内容自动化的产品，正在利用 Claude Opus 4 的评判能力让智能体自动写推文并自我改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            1732.37,
+            1735.713
+          ],
+          "quote": "We have another one called Spiral that does content automation with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2085.688,
+            2092.212
+          ],
+          "quote": "There's a lot of copy that goes out on Cora, or Spiral, or Sparkle that we want to have that same Every quality bar for.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2322.352,
+            2329.035
+          ],
+          "quote": "So for us, for example, we're working on a new version of our product Spiral, which does content automation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3159.083,
+            3180.436
+          ],
+          "quote": "And I do think Danny, who runs Spiral, which is the cloud code for content tool I was talking about that we're building, he spent a couple of days digging into the internals of some third party library that we were interested in just because it's helpful to know, it's helpful to understand those things, but then he's not actually writing any code.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sparkle",
+      "type": "company",
+      "role": "company",
+      "name": "Sparkle",
+      "file": "Sparkle",
+      "primary": false,
+      "how_described": "本集仅一笔带过，说它是 Every 的一个 AI 文件清理器产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1728.987,
+            1732.35
+          ],
+          "quote": "We have another one called Sparkle, which is an AI file cleaner.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2085.688,
+            2092.212
+          ],
+          "quote": "There's a lot of copy that goes out on Cora, or Spiral, or Sparkle that we want to have that same Every quality bar for.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lex",
+      "type": "company",
+      "role": "company",
+      "name": "Lex",
+      "file": "Lex",
+      "primary": false,
+      "how_described": "本集说它是 Every 最初孵化的 AI 文档写作工具，后来被剥离成独立公司，由 Every 的联合创始人运营",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1736.253,
+            1742.618
+          ],
+          "quote": "We originally incubated Lex, which is an AI document writer, which we spun out into its own company, and my Every co-founder runs that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其描述为一个命令行界面工具，能访问文件系统、自主运行 20-30 分钟完成任务、生成子智能体并行处理；Every 全员每天使用它构建产品，非程序员用它处理大量本地文件（会议记录、书籍等）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            436.484,
+            441.006
+          ],
+          "quote": "I think people are truly sleeping on how good Claude Code is for non-coders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            442.167,
+            448.39
+          ],
+          "quote": "And I'll extend this to not just Claude Code, but Google just came out with the Gemini CLI command-line interface.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            450.131,
+            453.513
+          ],
+          "quote": "And I'll tell you for people who are listening that don't know what Claude Code is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 77,
+          "t": [
+            453.793,
+            455.234
+          ],
+          "quote": "Claude Code is just the command-line interface.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            485.772,
+            492.356
+          ],
+          "quote": "And Claude Code can even spawn multiple sub-agents that do a bunch of tasks in parallel and it's incredibly useful for programmers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            573.722,
+            582
+          ],
+          "quote": "So the hot take here is just Claude Code, which most people think is for engineers, is the most underrated tool for non-technical people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            778.363,
+            796.351
+          ],
+          "quote": "I think one of the things that will just come from Claude Code and other things like it into everything else you use, whether it's on the web or wherever, is all of the original AI apps were pasting a chat box into an existing UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            807.497,
+            810.198
+          ],
+          "quote": "And the difference with Claude Code is you never look at the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1052.895,
+            1060.24
+          ],
+          "quote": "It's a Claude Code that's always running, it's always doing something, you just never turn it off, and you don't need to because you know that it's worthwhile to keep it on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2104,
+            2122.557
+          ],
+          "quote": "So one thing that we did, Nityesh, who's one of the engineers on Cora, built a Claude Code command that just uses that prompt, and checks through the entire code base for all the copy edits, and then creates a pull request on GitHub, and then sends the pull request to Kate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2209.04,
+            2216.893
+          ],
+          "quote": "I think Claude Opus is... First of all, Claude Code, everyone inside Every, that's basically what we use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2217.514,
+            2219.357
+          ],
+          "quote": "If you're building something, you're using Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2330.595,
+            2343.64
+          ],
+          "quote": "And we're doing essentially Claude Code, but for content style product, where you say, \"I want it to write a tweet,\" you give it all the documents, it has a bunch of memories, it creates a to-do list for itself, and then it goes and writes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2506.325,
+            2512.679
+          ],
+          "quote": "Well, with Cora, it's Kieran, Nityesh, and 15 Claude Code instances, so it's more powerful than you think.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2536.2,
+            2549.089
+          ],
+          "quote": "So an example is, in a Claude Code world, where you're not coding a lot, you end up spending a lot of time essentially typing PRDs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2632.381,
+            2635.849
+          ],
+          "quote": "What they're using a lot of is Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2635.869,
+            2639.517
+          ],
+          "quote": "So you can do slash commands in Claude Code, which are repeated prompts that you're doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2641.801,
+            2652.98
+          ],
+          "quote": "So basically they're building a library of prompts that make the process, of, \"Here's what I want to build,\" to a good solid PRD that you can feed into Claude Code more correct and more efficient?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说它是 Dan 日常首选工具（尤其是 o3），有记忆功能能记住他的写作偏好；还说他用它做自我反思、分析会议表现，以及预测公司能否成功采用 AI 的第一指标就是 CEO 用不用 ChatGPT",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            23.984,
+            29.63
+          ],
+          "quote": "Whenever I see a kid with ChatGPT, I'm like, \"Holy shit, they're going to go so much faster than any other person that I've worked with.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            529.568,
+            535.533
+          ],
+          "quote": "So it's not just stuffing everything into context, which is what you'd be doing with ChatGPT chat or a regular Claude chat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 135,
+          "t": [
+            722.824,
+            729.69
+          ],
+          "quote": "I saw you tweet this use case that I love that I've been using, which is just while I'm reading, having ChatGPT voice sitting around and then just asking it questions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 176,
+          "t": [
+            915.465,
+            921.43
+          ],
+          "quote": "With ChatGPT, you ask it a question and it returns a response and that's maybe slightly better than a tab complete.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1139.247,
+            1154.278
+          ],
+          "quote": "I hate headlines that are like, \"You don't use your brain when you use ChatGPT,\" or another good headline is, \"Doctors alone, doctors plus AI, or just AI, which one is better?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2156.624,
+            2157.785
+          ],
+          "quote": "I'm a ChatGPT boy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2173.115,
+            2179.159
+          ],
+          "quote": "I've spent so much time yelling at ChatGPT about, \"I need my writing to be punchy and concise.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2184.963,
+            2188.786
+          ],
+          "quote": "Or maybe not yours, but your average ChatGPT user.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2715.8,
+            2737.073
+          ],
+          "quote": "Kieran, he's one of those serious Rails-files, who they just love Rails, and they love the way that Rails feels, and so I think he has a real sensitivity to... Okay, this agent, ChatGPT for example, it feels very terse, and minimal, and professional, and it has a particular kind of style that maybe he likes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2758.591,
+            2767
+          ],
+          "quote": "And he ended up hiring the current head of product for ChatGPT, the current head of marketing at ChatGPT, the current head of engineering because he hires these incredible people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2863.26,
+            2868.727
+          ],
+          "quote": "Natasha's background is... I'm jealous because he only started learning to code when ChatGPT came out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2925.452,
+            2934.976
+          ],
+          "quote": "But my take is whenever I see a kid with ChatGPT, I'm like, holy shit, they're going to grow so much faster than any other person that I've worked with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3000.51,
+            3008.217
+          ],
+          "quote": "And so I think generally people are going to figure out that some 20-year-old with ChatGPT subscription is super powerful if you just mentor them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3024.472,
+            3032.56
+          ],
+          "quote": "And what you're saying is ChatGPT and these tools help you accelerate really quickly so you don't really need to be at the bottom rung for a long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3388.37,
+            3394.172
+          ],
+          "quote": "A non-technical person can build that, same thing for custom GPTs from ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3547.092,
+            3548.132
+          ],
+          "quote": "I can use ChatGPT for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3569.661,
+            3577.224
+          ],
+          "quote": "We start to then use ChatGPT and cloud first, these general purpose tools to try it and see is this useful?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3624.46,
+            3630.343
+          ],
+          "quote": "They got unbundled in the B2B SAS, same thing for ChatGPT and Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3630.823,
+            3634.105
+          ],
+          "quote": "And what's really cool is you can be like, cool, I'm using using ChatGPT for this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 912,
+          "t": [
+            4323.161,
+            4339.608
+          ],
+          "quote": "To your second question, which is, \"What separates the good companies from the bad, or the companies that end up adopting this?,\" I think the number one predictor is, \"Does the CEO use ChatGPT?,\" or insert your own chatbot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 918,
+          "t": [
+            4400,
+            4408.076
+          ],
+          "quote": "You just got to really do it, and one of the things he said in his memo, which I love, is, \"I wrote this email with ChatGPT, and you should too.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4425.911,
+            4431.174
+          ],
+          "quote": "They do a weekly email to their entire company, being like, \"Okay, here are our usage stats for ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4490.18,
+            4499.348
+          ],
+          "quote": "It's going to be asking, \"Can you do it in AI before you could talk to anyone else?,\" all these things, and then just note, \"I wrote this using ChatGPT's,\" it's a great idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4499.469,
+            4510.198
+          ],
+          "quote": "This idea of a weekly meeting, so it's like a live or Zoom meeting, where people share, \"Here's the thing I've learned about using AI,\" and then this weekly stats email of, \"Here's how much we're using ChatGPT across the org.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4513.742,
+            4521.92
+          ],
+          "quote": "And I especially love this very simple heuristic of, \"If you're a CEO, uses ChatGPT or Claude, or whatever daily, it's going to work out.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 994,
+          "t": [
+            4834.242,
+            4841.665
+          ],
+          "quote": "So it's like in one day, I can be coding an app, and making a video, and making images, and writing, and all that kind of stuff, and ChatGPT is right there with me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            5024.42,
+            5039.718
+          ],
+          "quote": "This reminds me, I was talking to my personal trainer that I'm trying out for a little bit, and she said that she's a very big vision, kind of high-level person, and not good at executing, like we're staying organized, and ChatGPT is such a godsend for her, because she's just like, \"Here's what I want to do roughly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1072,
+          "t": [
+            5267.26,
+            5269.442
+          ],
+          "quote": "So basically, I use ChatGPT all the time, and it has memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            5323.106,
+            5325.894
+          ],
+          "quote": "And by the way, I love that you asked ChatGPT, \"What's my life motto?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            5457.38,
+            5467.146
+          ],
+          "quote": "I was pretty miserable because I was not doing the thing that I really wanted to do, and I asked ChatGPT, I was like, \"Are there any examples of writers that have built businesses?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集在对比不同智能体风格时提到 Claude 与 ChatGPT 有不同的写作风格和个性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            436.484,
+            441.006
+          ],
+          "quote": "I think people are truly sleeping on how good Claude Code is for non-coders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            442.167,
+            448.39
+          ],
+          "quote": "And I'll extend this to not just Claude Code, but Google just came out with the Gemini CLI command-line interface.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            450.131,
+            453.513
+          ],
+          "quote": "And I'll tell you for people who are listening that don't know what Claude Code is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 77,
+          "t": [
+            453.793,
+            455.234
+          ],
+          "quote": "Claude Code is just the command-line interface.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            474.985,
+            484.952
+          ],
+          "quote": "Especially with Claude Opus 4 that just came out, it's this gigantic leap forward in AI's ability to work by itself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            485.772,
+            492.356
+          ],
+          "quote": "And Claude Code can even spawn multiple sub-agents that do a bunch of tasks in parallel and it's incredibly useful for programmers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            529.568,
+            535.533
+          ],
+          "quote": "So it's not just stuffing everything into context, which is what you'd be doing with ChatGPT chat or a regular Claude chat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            573.722,
+            582
+          ],
+          "quote": "So the hot take here is just Claude Code, which most people think is for engineers, is the most underrated tool for non-technical people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 116,
+          "t": [
+            641.524,
+            652.752
+          ],
+          "quote": "And then I had Claude read the first three chapters of War and Peace and pull out all of those descriptions, and then make a guide for itself for how to do character descriptions like Tolstoy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            778.363,
+            796.351
+          ],
+          "quote": "I think one of the things that will just come from Claude Code and other things like it into everything else you use, whether it's on the web or wherever, is all of the original AI apps were pasting a chat box into an existing UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            807.497,
+            810.198
+          ],
+          "quote": "And the difference with Claude Code is you never look at the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 177,
+          "t": [
+            921.97,
+            929.096
+          ],
+          "quote": "And then now with Claude Opus 4 and Gemini and all that kind of stuff, also with deep research, it can go off and work for 20 or 30 minutes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1052.895,
+            1060.24
+          ],
+          "quote": "It's a Claude Code that's always running, it's always doing something, you just never turn it off, and you don't need to because you know that it's worthwhile to keep it on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1085.643,
+            1089.826
+          ],
+          "quote": "And obviously, you can game this a little bit and be like, \"Cool, I'm just going to tell Claude to run in a loop forever.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2104,
+            2122.557
+          ],
+          "quote": "So one thing that we did, Nityesh, who's one of the engineers on Cora, built a Claude Code command that just uses that prompt, and checks through the entire code base for all the copy edits, and then creates a pull request on GitHub, and then sends the pull request to Kate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2142,
+            2148.695
+          ],
+          "quote": "... Claude, and I'm curious just what is in the stack of tools that you find yourself using, your team ends up using.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2148.715,
+            2150.679
+          ],
+          "quote": "It seems like Claude is a core part of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2151,
+            2151.58
+          ],
+          "quote": "I do love Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2164.689,
+            2169.873
+          ],
+          "quote": "And what it has that really makes a difference still from Claude is it has memory.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2209.04,
+            2216.893
+          ],
+          "quote": "I think Claude Opus is... First of all, Claude Code, everyone inside Every, that's basically what we use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2217.514,
+            2219.357
+          ],
+          "quote": "If you're building something, you're using Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2248.062,
+            2258.659
+          ],
+          "quote": "Going back to Claude, Claude Opus 4 can do something that no other model, except one other model that I can't talk about... can do something that no-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2266.142,
+            2277.612
+          ],
+          "quote": "Which is earlier versions of Claude, and I think generally versions of other models, when you ask them, \"Is this piece of writing any good,\" Claude, for example, would always give it a B+.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2330.595,
+            2343.64
+          ],
+          "quote": "And we're doing essentially Claude Code, but for content style product, where you say, \"I want it to write a tweet,\" you give it all the documents, it has a bunch of memories, it creates a to-do list for itself, and then it goes and writes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2506.325,
+            2512.679
+          ],
+          "quote": "Well, with Cora, it's Kieran, Nityesh, and 15 Claude Code instances, so it's more powerful than you think.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2536.2,
+            2549.089
+          ],
+          "quote": "So an example is, in a Claude Code world, where you're not coding a lot, you end up spending a lot of time essentially typing PRDs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2632.381,
+            2635.849
+          ],
+          "quote": "What they're using a lot of is Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2635.869,
+            2639.517
+          ],
+          "quote": "So you can do slash commands in Claude Code, which are repeated prompts that you're doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2641.801,
+            2652.98
+          ],
+          "quote": "So basically they're building a library of prompts that make the process, of, \"Here's what I want to build,\" to a good solid PRD that you can feed into Claude Code more correct and more efficient?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2737.113,
+            2739.214
+          ],
+          "quote": "Versus, I don't know, Claude is a slightly different style.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3624.46,
+            3630.343
+          ],
+          "quote": "They got unbundled in the B2B SAS, same thing for ChatGPT and Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4513.742,
+            4521.92
+          ],
+          "quote": "And I especially love this very simple heuristic of, \"If you're a CEO, uses ChatGPT or Claude, or whatever daily, it's going to work out.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体作为自主完成任务的 AI 实体：Claude Code 能生成子智能体并行工作、Cora 团队同时使用多个不同智能体（Friday、Charlie 等）各有不同'品味'、未来每个人都要学会管理智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            494.638,
+            495.538
+          ],
+          "quote": "Everyone's agent-pilled.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            546.06,
+            553.178
+          ],
+          "quote": "So as a simple way to think about this, you basically have an agent on your local computer that can read your local files and do your bidding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 144,
+          "t": [
+            755.488,
+            766.015
+          ],
+          "quote": "The tip is you basically can have an agent using local files and doing all kinds of cool stuff on your computer versus having to upload it into projects or into your prompts and things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2672.334,
+            2674.497
+          ],
+          "quote": "There's an agent called Friday that they love.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2715.8,
+            2737.073
+          ],
+          "quote": "Kieran, he's one of those serious Rails-files, who they just love Rails, and they love the way that Rails feels, and so I think he has a real sensitivity to... Okay, this agent, ChatGPT for example, it feels very terse, and minimal, and professional, and it has a particular kind of style that maybe he likes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2791.627,
+            2794.98
+          ],
+          "quote": "It's definitely not one agent to rule them all at all.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说 Every 把大量工作编码成提示词：风格指南变成提示词让智能体自动做文案编辑、Alex 把导师反馈录下来放进提示词不再犯同样错误、咨询业务为每个团队定制具体场景的具体提示词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            29.67,
+            40
+          ],
+          "quote": "We have this guy, he made a year's worth of progress in two months because every time I sat down with him and told him, \"Okay, here's how you tell a story, here's how you think about a headline,\" he recorded all of it, put it into a prompt, and he never made the same mistake twice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1931.733,
+            1942.739
+          ],
+          "quote": "And so now Opus is at a point where you can give it a style guide and a prompt, and it will go through anything you're writing, and copy edit it, which is amazing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1947.144,
+            1952.272
+          ],
+          "quote": "You also have to get Kate to be like, \"Did you put this through the prompt yet,\" anytime someone gives her something.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2104,
+            2122.557
+          ],
+          "quote": "So one thing that we did, Nityesh, who's one of the engineers on Cora, built a Claude Code command that just uses that prompt, and checks through the entire code base for all the copy edits, and then creates a pull request on GitHub, and then sends the pull request to Kate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2126.741,
+            2130.709
+          ],
+          "quote": "And so you can translate that prompt into, for example, a format that engineers can use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2295.483,
+            2300.705
+          ],
+          "quote": "And there's various methods that you can use to prompt engineer around this, like give it a template or whatever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2572.306,
+            2578.952
+          ],
+          "quote": "And what I'm going to do is write a prompt that can take my rambling thoughts and then turn that into a PRD.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2984.118,
+            2987.839
+          ],
+          "quote": "He recorded all of it, put it into a prompt, and he never made the same mistake twice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3385.649,
+            3388.35
+          ],
+          "quote": "You can prompt them and they run on the web page and do work for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 925,
+          "t": [
+            4431.414,
+            4434.336
+          ],
+          "quote": "Here are the people that came up with a new prompt and contributed to it.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "compounding-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "复合工程 (compounding engineering)",
+      "file": "复合工程",
+      "primary": true,
+      "how_described": "本集说这是 Cora 团队发明的原则：每一轮工作都要让下一轮工作变得更简单，比如花时间写一个提示词把零散想法自动转成 PRD，存到 GitHub 共享，以后每次写需求都更快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 536,
+          "t": [
+            2518.881,
+            2529.192
+          ],
+          "quote": "One of the things that we do that I think is really cool, and they basically invented this, I had nothing to do with this, is they invented the idea of compounding engineering.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "allocation-economy",
+      "type": "concept",
+      "role": "concept",
+      "name": "配置型经济 (allocation economy)",
+      "file": "配置型经济",
+      "primary": true,
+      "how_described": "本集说这是 Dan 两年半前提出的概念：使用 AI 的技能（如何描述问题、收集信息、选模型、拆任务、给反馈、判断好坏）跟管理人的技能一模一样；AI 让管理变便宜，所以更多人必须学会管理智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 651,
+          "t": [
+            3033.56,
+            3052.806
+          ],
+          "quote": "You're effectively learning how to be one level above the entry level from the beginning and this is sort of my whole allocation economy thesis where when you look at skills are going to be valuable in the AI era, one big group of skills are the skills of managers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 958,
+          "t": [
+            4623.04,
+            4630.744
+          ],
+          "quote": "Maybe to close out our conversation, I want to come back to this idea that you referenced, but I want to spend a little more time on this, which is this idea of the allocation economy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4632.165,
+            4644.412
+          ],
+          "quote": "If I understand it correctly, we've been in this knowledge economy, where people get paid to do a thing, and your thesis is that we're moving to this allocation economy, where the manager skills become more important, and we're going to be spending more of our time managing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "generalist",
+      "type": "concept",
+      "role": "concept",
+      "name": "通才 (generalist)",
+      "file": "通才",
+      "primary": true,
+      "how_described": "本集说 Every 15 个人全是通才加 AI 先行，能撑五条产品线；AI 像口袋里装了上万个博士，让你跳过十年专业训练直接获取任何领域知识，使小团队里每个人都能做更多不同的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 692,
+          "t": [
+            3214.884,
+            3217.105
+          ],
+          "quote": "Everyone's a generalist, everyone's AI forward.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4818.456,
+            4820
+          ],
+          "quote": "You mentioned that everyone at Every is a generalist.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4822.843,
+            4826.458
+          ],
+          "quote": "I find ... I mean, maybe it's because I'm a generalist, so you should take this with a grain of salt.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            4893.371,
+            4895.673
+          ],
+          "quote": "If you're a citizen, generalist.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": false,
+      "how_described": "本集提到 Spotify 的 Tobi 杜撰了这个术语，指在正确的时间把正确的上下文传给模型，这至少占性能的一半；Dan 说他之前称之为知识编排",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1412.391,
+            1422.199
+          ],
+          "quote": "Tobi from Spotify coined this term called \"context engineering,\" which is getting the context to the model, the right context at the right time, is at least half the performance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1429.287,
+            1431.931
+          ],
+          "quote": "I think context engineering is probably a better term.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": false,
+      "how_described": "本集说 Dan 对 AGI 的定义是：什么时候让智能体无限期运行在经济上变得有利可图，就像一个永远不关机的 Claude Code 一直在做有用的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            878.02,
+            882.463
+          ],
+          "quote": "I have one other hot take, which is I have a definition for AGI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            883.103,
+            887.186
+          ],
+          "quote": "And so AGI is famously hard to define.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1037.867,
+            1041.849
+          ],
+          "quote": "I think we have that similar leash with AGI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1042.609,
+            1051.415
+          ],
+          "quote": "And so I think a good definition of AGI is when does it become economically profitable for people to run agents indefinitely?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1076.02,
+            1077.616
+          ],
+          "quote": "I think that's a good definition of AGI.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gemini-cli",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini CLI",
+      "file": "Gemini CLI",
+      "primary": false,
+      "how_described": "本集仅一笔带过，说 Google 刚推出了 Gemini CLI 命令行界面，Dan 表示很兴奋想去试用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            442.167,
+            448.39
+          ],
+          "quote": "And I'll extend this to not just Claude Code, but Google just came out with the Gemini CLI command-line interface.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说 Every 偶尔使用 OpenAI 的 Codex 编码工具，用于一次性完成某个独立的小功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            2237.721,
+            2241.128
+          ],
+          "quote": "We also use Codex a bit, which is OpenAI's coding tool.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说 Dan 用 Granola 做会议记录，还用它做 CEO 基准测试——让模型预测他在会议中接下来要说什么，结果表现很差",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            118.325,
+            129.614
+          ],
+          "quote": "And also, if you become an annual subscriber of my newsletter, you get a bunch of amazing products for free for one year, including Superhuman, Linear, Notion, Perplexity, Bolt, Granola and more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1399.16,
+            1405.165
+          ],
+          "quote": "And so I ran a bunch of the frontier models on this, on just my Granola transcripts, and they're pretty bad.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2380.768,
+            2383.114
+          ],
+          "quote": "You mentioned Granola, even outside of the bottles.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2386.26,
+            2386.981
+          ],
+          "quote": "I use Granola.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            5220.721,
+            5226.988
+          ],
+          "quote": "I don't have a good answer for that because I just spent a lot of time using our internal products, but my stock answer is Granola.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            5228.149,
+            5229.811
+          ],
+          "quote": "So I do really love Granola.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1061,
+          "t": [
+            5238.461,
+            5243.667
+          ],
+          "quote": "That is definitely the most mentioned product in this segment for the past couple months, so good job, Granola.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1062,
+          "t": [
+            5243.847,
+            5247.912
+          ],
+          "quote": "I can't help but mention, you get a year free of Granola if you become an annual subscriber of my newsletter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            5249.454,
+            5252.698
+          ],
+          "quote": "And not just you, but your whole company gets free Granola for a year.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "animalz",
+      "type": "company",
+      "role": "company",
+      "name": "Animalz",
+      "file": "Animalz",
+      "primary": false,
+      "how_described": "本集仅提到它是 AI 运营主管 Katie Parrott 之前工作的一家顶级内容营销公司，非常注重流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 409,
+          "t": [
+            2000.8,
+            2007.924
+          ],
+          "quote": "And then before that, she worked at Animalz, which is a content marketing agency, one of the top content marketing agencies.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dia",
+      "type": "company",
+      "role": "company",
+      "name": "DIA",
+      "file": "DIA",
+      "primary": false,
+      "how_described": "本集仅一笔带过，说它是浏览器公司的新 AI 浏览器，有叫 skills 的小型 AI 应用可以在网页上运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 717,
+          "t": [
+            3371.104,
+            3377.706
+          ],
+          "quote": "So an example, we were talking about DIA, the new AI browser from the browser company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3378.047,
+            3385.209
+          ],
+          "quote": "DIA has these things called skills, which are effectively little AI apps that you can run in the browser.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-4",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Opus 4",
+      "file": "Claude Opus 4",
+      "primary": false,
+      "how_described": "本集说它是 AI 独立工作能力的巨大飞跃，Claude Code 可以用它生成多个子智能体；还特别提到它拥有了评判写作好坏的'直觉感'，能像评委一样给推文打分并自我改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            474.985,
+            484.952
+          ],
+          "quote": "Especially with Claude Opus 4 that just came out, it's this gigantic leap forward in AI's ability to work by itself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 177,
+          "t": [
+            921.97,
+            929.096
+          ],
+          "quote": "And then now with Claude Opus 4 and Gemini and all that kind of stuff, also with deep research, it can go off and work for 20 or 30 minutes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2248.062,
+            2258.659
+          ],
+          "quote": "Going back to Claude, Claude Opus 4 can do something that no other model, except one other model that I can't talk about... can do something that no-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "o3",
+      "type": "company",
+      "role": "company",
+      "name": "o3",
+      "file": "o3",
+      "primary": false,
+      "how_described": "本集说它是 Dan 日常打开的第一个工具，质量非常高，有记忆功能能记住他的写作偏好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 447,
+          "t": [
+            2151.62,
+            2156.564
+          ],
+          "quote": "I would say I'm generally... My first thing that I open is o3.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2159.286,
+            2161.167
+          ],
+          "quote": "And I think o3 is super high quality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2205.678,
+            2207.879
+          ],
+          "quote": "So day-to-day, o3, that's my go-to.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -11,13 +11,13 @@ description: "产品经理最大的杠杆技能是向上影响力;把高管当�
 host: "[[Jessica Fain]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Webflow]]", "[[Slack]]"]
-concepts: ["[[智能体]]", "[[产品市场契合度]]"]
+concepts: ["[[智能体]]", "[[产品市场契合]]"]
 category: 职业与个人成长
 tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain#post","headline":"Jessica Fain:如何影响高管——把高管当用户来研究","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","mainEntityOfPage":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","description":"产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。","datePublished":"2026-03-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain","about":[{"@type":"Person","name":"Jessica Fain"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Webflow"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"Jessica Fain:如何影响高管——把高管当用户来研究","item":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain#post","headline":"Jessica Fain:如何影响高管——把高管当用户来研究","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","mainEntityOfPage":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","description":"产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。","datePublished":"2026-03-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain","about":[{"@type":"Person","name":"Jessica Fain"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Webflow"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"Jessica Fain:如何影响高管——把高管当用户来研究","item":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jessica Fain:如何影响高管——把高管当用户来研究</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Webflow]] · [[Slack]]
 >
-> **概念** [[智能体]] · [[产品市场契合度]]
+> **概念** [[智能体]] · [[产品市场契合]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
 

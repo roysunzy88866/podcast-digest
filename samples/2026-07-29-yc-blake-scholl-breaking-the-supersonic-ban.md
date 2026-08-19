@@ -155,6 +155,7 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 
 **换个口味**
 
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Uber</span>
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Uber</span>
 
 </div>

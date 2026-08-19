@@ -22,7 +22,7 @@ unlisted: true
 
 [[Cursor]] · [[Simon Mo]] · [[Joe Schmidt]] · [[Matt Bornstein]] · [[Andy McCall]] · [[vLLM]] · [[Lighthouse]] · [[开源权重]] · [[LandGrab]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Cursor":20,"Simon Mo":1,"Joe Schmidt":1,"Matt Bornstein":1,"Andy McCall":1,"vLLM":2,"Lighthouse":1,"开源权重":2,"LandGrab":1,"推理":1}</script>
+<script type="application/json" class="pd-epn">{"Cursor":22,"Simon Mo":1,"Joe Schmidt":1,"Matt Bornstein":1,"Andy McCall":1,"vLLM":2,"Lighthouse":1,"开源权重":2,"LandGrab":1,"推理":1}</script>
 
 <script>
 (function(){

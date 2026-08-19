@@ -7,10 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Replit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(49:08起):本集说 Replit 基本上是一个 vibe coding 平台，可以用自然语言描述需求让它生成网站或 Web 应用，以前需要五人团队才能搞定的 Web 项目现在 Andrew 一个人就能做
+- **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(00:42起):本集提到 Replit 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(01:50起):本集把 Replit 和 Lovable 并提作为看起来成功的公司例子
 - **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(03:13起):本集提到 Julie 在 Replit 上创建了一个应用，用来生成电子游戏恶搞歌曲的歌词
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:07起):本集提到它是增长极快的 AI 领导者之一，面临海量线索处理不过来的问题；同时，它也是一款让不懂代码的人也能用自然语言开发应用的工具，Jason 是其前 1% 的高级用户，曾用它构建了 12 个应用。
@@ -26,8 +28,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*8 集*
 
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
+- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
@@ -39,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[OpenAI]] · [[LLM]] · [[Cursor]] · [[Anthropic]] · [[Stripe]] · [[评估]] · [[开源模型]] · [[Lovable]]
+[[智能体]] · [[Lenny]] · [[vibe coding]] · [[Lovable]] · [[OpenAI]] · [[Cursor]] · [[LLM]] · [[ChatGPT]] · [[Base44]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":92,"Lenny":52,"OpenAI":37,"LLM":10,"Cursor":20,"Anthropic":47,"Stripe":13,"评估":10,"开源模型":6,"Lovable":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":95,"Lenny":58,"vibe coding":12,"Lovable":7,"OpenAI":38,"Cursor":22,"LLM":11,"ChatGPT":24,"Base44":2,"评估":10}</script>
 
 <script>
 (function(){

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>37</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>38</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(01:46起):本集提到在 OpenAI 期间产品团队与 post training 团队之间存在非常紧密的共生合作关系，这种紧密协作使得 ChatGPT 在很多方面变得更好。
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(00:12起):本集提到 OpenAI 内部存在安全、研究和创业三个相互制衡的“部落”，当推到关键时刻，嘉宾感觉安全不是那里的首要任务。
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(00:01起):本集提到 Bret 是 OpenAI 董事会主席，以及 OpenAI 有 Codex 产品。
 - **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(02:04起):本集在介绍 Sundial 时提及 OpenAI 是其客户之一，未展开讨论
@@ -59,8 +60,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*37 集*
+*38 集*
 
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
@@ -103,9 +105,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Google]] · [[AGI]] · [[NVIDIA]] · [[Meta]] · [[ChatGPT]] · [[Stripe]] · [[Microsoft]]
+[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Google]] · [[AGI]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":47,"智能体":92,"Lenny":52,"Google":18,"AGI":10,"NVIDIA":15,"Meta":14,"ChatGPT":20,"Stripe":13,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":47,"智能体":95,"Lenny":58,"Google":18,"AGI":12,"NVIDIA":15,"ChatGPT":24,"Meta":14,"Stripe":13,"Microsoft":10}</script>
 
 <script>
 (function(){

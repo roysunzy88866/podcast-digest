@@ -1,0 +1,177 @@
+{
+  "title_zh": "Peter Deng：产品不必是最重要的东西",
+  "tldr": "打造过 Facebook 动态消息、ChatGPT 的产品领袖谈产品反直觉真相与规模化心法。",
+  "digest_md": "有时候你的产品其实并不重要——在 Uber，价格和 ETA（预计到达时间）才是产品。这是 Peter Deng 在 Uber 学到的最扎心的一课。他负责过 Uber Rider 应用里所有的数字界面，但最终发现，用户消费的是「产品的全部」，而不只是屏幕上的像素。你修一个 Bug，不是说不用修，但它的影响远不如价格和 ETA 那么大 [21:26 Peter Deng]。\n\n这引出了一个更反直觉的观察：今天最有价值的科技公司，很多并不是从技术突破起步的。Facebook 本质上是一个人类连接的数据库，Uber 利用了人人口袋里的 GPS 设备——他们没发明 GPS，只是把已有的东西和人类需求连了起来。Peter 说，很大程度上，Uber 是一家运营公司，这是他见过的最大的商业模式 hack 之一 [23:10 Peter Deng]。\n\n## 什么时候产品又很重要了？\n\n没有技术突破时，产品体验就是突破口。Instagram 的想法——视觉分享——超级简单，但 Mike 和 Kevin 在打磨产品上花的功夫，那种「品味」和对特定氛围的信念，才是让它腾飞的原因 [25:10 Peter Deng]。\n\n即便有技术突破的公司，产品体验也很快会变得关键，因为人类会「变聪明」，去寻找更顺手、更符合自己习惯的用法 [26:45 Peter Deng]。\n\n## AI 创业的两道护城河\n\n对于在 LLM 之上构建的公司，Peter 认为护城河主要来自两件事：\n\n第一是专有数据和数据飞轮。模型在你展示给它的数据上会变得非常擅长，关键是启动飞轮后能不能持续生成更多独特数据。Windsurf 就是一个完美例子——先在 Claude 上构建，收集了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型 [29:50 Peter Deng]。\n\n第二是工作流。你的产品如何真正融入人们的日常生活？这在 18 个月前还不那么重要，那时候大家比的是「谁有最好的模型」，但现在比的是「谁有最好的工作流和最好的产品」[33:10 Peter Deng]。\n\nCopilot 遥遥领先，但 Cursor、Windsurf、Lovable、Bolt 这些公司实现了突破——微软有分发、人才、基础设施、先发优势，但这些后来者只是做出了好得多的产品。Peter 相信，存在一种「产品工艺水平」，让切换或尝试新东西变得值得 [31:38 Peter Deng]。\n\n## 从 1 到 100：提前想好几步棋\n\n从 0 到 1 是找产品市场契合，从 1 到 100 是确保你能尽快达到超大规模——这两个阶段完全不同。Peter 的核心建议是：你必须提前规划好几步棋，建立能让你可持续地更快的系统，有时候你得慢下来才能快 [38:13 Peter Deng]。\n\n他在构建 Facebook Newsfeed 时花了大量时间思考整个分享循环：从在页面顶部发布内容，到显示在 Newsfeed 中，到有人点击点赞，再到通知亮红灯，然后一遍遍重复。当前版本的 Newsfeed 跟 12 年前建的时候没太大变化，他倾向于认为正是因为当初在信息架构和整个流程上花了足够的心思 [39:31 Peter Deng]。\n\n这不是一个二元开关，而是一个斜率。Peter 建议用组合方法来思考——你多少时间放在系统建设上，多少放在继续迭代上，取决于你和产品所处的阶段 [42:50 Peter Deng]。\n\n## 尽早建增长团队，但不只是为了增长\n\nPeter 在 Instagram、Uber、Airtable、ChatGPT 做的第一件事都是建增长团队。但原因不只是「驱动增长」——如果你建一个分析团队或数据科学团队，可能没人听他们的。增长领导者因为与增长结果挂钩，他们会主动提问、追问数据，这会强迫整个产品团队变得更严谨，改变团队的 DNA [44:15 Peter Deng]。\n\n他走进 Instagram 时问 Kevin 和 Mike「我们有多少用户」，答案是「很多，但我们真的不知道」——建了增长团队之后，这类问题才有了答案 [44:38 Peter Deng]。\n\n## 品味与增长的张力要靠「人」来制造，不靠 KPI\n\n在追求数字的过程中，产品人容易忽略品味和工艺的重要性。Peter 的做法不是设两套 KPI，而是故意招「天然看重不同东西」的人：一个痴迷于细节和美感，一个满脑子数据和实验。这种张力极其健康，他在 Facebook、Instagram、Airtable、ChatGPT 都刻意创造了这种张力 [47:33 Peter Deng]。\n\n他把团队当成产品来打造——像一个 RPG 游戏，每个人都有不同的属性条，你要创造一个超级团队，每个人在不同维度上突出。当你创造了那种环境，团队会产出远超预期的东西 [49:03 Peter Deng]。\n\n## 五种产品经理原型\n\nPeter 在 Uber 和同事聊天时总结出五种 PM 原型，他认为到今天依然成立 [50:34 Peter Deng]：\n\n- **消费者 PM**：半个设计师，痴迷细节，「这三个像素偏了，我受不了」\n- **增长 PM**：半个数据科学家，「给我看数据，跑个测试证明，我不信你」\n- **商业/GM PM**：半个 MBA，从商业模式和利润率出发思考问题\n- **平台 PM**：天生喜欢为别人造工具，常被忽视，但他们是构建让你更快的系统的人\n- **研究/AI PM**：半个研究员、半个工程师、半个产品人，有产品品味又深刻理解模型训练方式\n\n每个人有一个主原型和一个副原型。Peter 自己是消费者 PM 加增长 PM。作为投资人，他现在看创始人与市场的匹配——把一个消费者 PM 放进无聊的受监管行业，大概率会受挫 [56:00 Peter Deng]。\n\n## 招人的两条铁律\n\n**第一条：「六个月后如果我还在告诉你该做什么，我就招错了人。」** 这不是一句口号，它在三个层面起作用：提醒自己保持高标准不将就；向新人传达成功标准；把双方的关系框架从「你达到 OKR 了吗」变成「我们校准得够不够、你是不是在六个月后反过来告诉我该做什么」——每个错误都变成学习机会 [62:15 Peter Deng]。\n\n**第二条：成长型思维。** Peter 作为最终面试者，不测产品感、设计、执行、指标——只测成长型思维。他认为如果一个人不对反馈开放、不愿意学习，那就是「元阻碍」，其他技能都很难发展 [68:00 Peter Deng]。\n\n他的面试问题多年不变：讲一个你犯过的最大错误，越痛苦越好。描述当时的情况，然后告诉他你现在因此有什么不同的想法和工作方式，它怎么变成了你的核心原则。他能闻出虚情假意——「我工作太努力了」这种不叫错误。真正好的回答能聊一个小时 [71:37 Peter Deng]。\n\n## 向上管理的三步咒语\n\n「说你要做这件事，说你在做这件事，说你做完了这件事。」这是 Peter 从 Uber 的 Jill 那里学来的。它不只是向上管理的技巧，而是一种运作方式：第一步让你们校准目标——也许经理会说「我们不需要做这个了」；第二步在全员大会上重申，再次确认方向；第三步闭环。对于内向、不想引起注意的人，尤其要记住最后一步——说你做完了 [76:30 Peter Deng]。\n\n## 产品人的核心悖论\n\n「痴迷于工艺的细节，同时拥有判断哪些细节其实不重要的视角和智慧。」这是 Peter 认为成功产品人的核心。他自己经历过反复的循环：先深度痴迷某个细节，然后退后一步发现浪费了时间，另一个东西才更重要 [86:38 Peter Deng]。\n\nUber Reserve 就是一个例子。问题不是数字产品不够好，而是人们早上 6 点的航班不想 4 点醒来叫车然后每两小时醒一次——他们要的是安心。产品极其简单：告诉它你的航班时间，如果太悬了它会警告你可能赶不上。就是这个「安心」原则驱动了所有设计决策。现在这是一年接近 50 亿美元的业务，也是利润率最高的之一 [88:23 Peter Deng]。\n\n## 同理心不能被摘要替代\n\nPeter 在斯坦福设计学院学过 IDEO 的设计思维五步框架，他认为前两步最关键：**同理心**和**定义**。同理心不是理论上理解问题，是真正感受到客户的痛苦。他加入 Uber 前租了一辆车亲自开了两周 [92:05 Peter Deng]。\n\n他对现在用 ChatGPT 总结用户访谈要点的做法直接泼冷水：「你无法对一份摘要产生共情。你必须人在房间里，没有手机，真正听到那些话语和语调，那才是你获得全貌的方式。」 [95:11 Peter Deng]\n\n## 本集带走\n\n- **产品不一定是最重要的东西**：用户消费的是「产品的全部」——在 Uber，价格和 ETA 才是产品。先搞清楚什么真正影响用户，别在像素上过度投入。\n- **AI 创业护城河 = 专有数据飞轮 + 精心打磨的工作流**：模型在你喂的数据上变强，关键是有没有持续生成独特数据的飞轮；同时工作流的体验要好到让人愿意切换。\n- **从 1 到 100 要提前建系统**：不是快速行动打破常规，而是想好几步棋，把核心循环的信息架构做对——Newsfeed 12 年没大改就是因为当初想得够深。\n- **尽早建增长团队，目的是让团队变严谨**：增长领导者因为背增长结果，会逼着全团队重视数据和实验，这比建纯分析团队有效得多。\n- **用「人」制造品味与增长的健康张力**：招天然痴迷不同东西的人，而不是给同一个人设两套 KPI。\n- **招人二筛：六个月自主性 + 成长型思维**：「六个月后如果我还在告诉你做什么，就招错了」——这同时给双方施加压力、设定框架；最终面试只问「讲一个你最痛苦的错误和它怎么改变了你」。\n- **「说你要做、说你在做、说你做完了」**：不只是向上管理，是保持对齐和闭环的运作方式。\n- **同理心不能外包给 AI 摘要**：你必须人在房间里，听到语调，感受到痛苦，才能做出好产品。",
+  "quotes": [
+    {
+      "en": "sometimes your product actually doesn't matter. And by product I mean the pixels you put on the screen or things that you build in your mobile app.",
+      "zh": "有时你的产品其实并不重要。我所说的产品是指你放在屏幕上的像素或者你在移动应用程序中构建的东西。",
+      "timestamp": "21:33",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "so many of the tech companies that are most valuable today didn't really start with any technological breakthrough. They were built on some kind of technological breakthrough and they ended up building a lot more technology. But really a lot of these companies, like Facebook for example, just put in the hard work, the elbow grease, especially in the early stages, to take essentially a database of human connections and build something valuable on top of it.",
+      "zh": "如今如此多有价值的科技公司实际上并不是从任何技术突破开始的。它们建立在某种技术突破之上，最终构建了更多的技术。但实际上很多这样的公司，比如 Facebook，只是付出了努力，尤其是早期阶段，在本质上的人类连接数据库之上构建有价值的东西。",
+      "timestamp": "23:03",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "AGI is just necessary but not sufficient. A lot of the value is still going to require a bunch of hustle from a lot of builders to really turn that new source of energy and channel it into something that we humans want to use that solves some of our problems.",
+      "zh": "AGI 只是必要条件但非充分条件。很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成我们人类喜欢使用并解决我们某些问题的东西。",
+      "timestamp": "08:15",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "before, I would say 18 months ago, it's like, \"Oh, well, who has the best model?\" But then coming forward, it's like really who has the best workflow and who has the best product, and we humans are just demanding. We want the best.",
+      "zh": "以前，我想说是 18 个月前，就像，「噢，嗯，谁拥有最好的模型？」但随后向前看，就像真的谁拥有最好的工作流程，谁拥有最好的产品，而且我们人类只是很挑剔。我们想要最好的。",
+      "timestamp": "33:10",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "you got to build the systems that help you move sustainably faster, and sometimes, you have to go slow to go fast.",
+      "zh": "你必须建立能帮助你可持续地更快移动的系统，有时你必须慢下来才能快。",
+      "timestamp": "39:22",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "in six months, if I'm telling you what to do, I've hired the wrong person.",
+      "zh": "在六个月内，如果我告诉你该做什么，我就招错了人。",
+      "timestamp": "62:31",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "if you move a tree, it dies, but if you move a person, he thrives.",
+      "zh": "如果你移动一棵树，它就会死；但如果你移动一个人，他就会兴旺。",
+      "timestamp": "110:06",
+      "speaker": "Peter Deng"
+    },
+    {
+      "en": "we may not be right, but at least we're not confused.",
+      "zh": "我们可能不对，但至少我们不困惑。",
+      "timestamp": "101:03",
+      "speaker": "Peter Deng"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "21:26",
+      "speaker": "Peter Deng",
+      "en": "sometimes your product actually doesn't matter. And by product I mean the pixels you put on the screen or things that you build in your mobile app.",
+      "zh": "有时你的产品其实并不重要。我所说的产品是指你放在屏幕上的像素或者你在移动应用程序中构建的东西。"
+    },
+    {
+      "timestamp": "23:10",
+      "speaker": "Peter Deng",
+      "en": "so many of the tech companies that are most valuable today didn't really start with any technological breakthrough. They were built on some kind of technological breakthrough and they ended up building a lot more technology. But really a lot of these companies, like Facebook for example, just put in the hard work, the elbow grease, especially in the early stages, to take essentially a database of human connections and build something valuable on top of it.",
+      "zh": "如今如此多有价值的科技公司实际上并不是从任何技术突破开始的。它们建立在某种技术突破之上，最终构建了更多的技术。但实际上很多这样的公司，比如 Facebook，只是付出了努力，尤其是早期阶段，在本质上的人类连接数据库之上构建有价值的东西。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Peter Deng",
+      "en": "AGI is just necessary but not sufficient. A lot of the value is still going to require a bunch of hustle from a lot of builders to really turn that new source of energy and channel it into something that we humans want to use that solves some of our problems.",
+      "zh": "AGI 只是必要条件但非充分条件。很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成我们人类喜欢使用并解决我们某些问题的东西。"
+    },
+    {
+      "timestamp": "29:28",
+      "speaker": "Peter Deng",
+      "en": "the models will get really good at whatever data you show it, and that's one of the things that people just think that AI is such a magic wand. But no, it's like if it's been trained on the right data, it's going to do the thing that it's been trained on.",
+      "zh": "模型会变得非常擅长你向它展示的任何数据，这也是人们认为 AI 是一根魔杖的其中一件事。但不，就像如果它在正确的数据上受过训练，它就会做它被训练去做的事情。"
+    },
+    {
+      "timestamp": "33:10",
+      "speaker": "Peter Deng",
+      "en": "before, I would say 18 months ago, it's like, \"Oh, well, who has the best model?\" But then coming forward, it's like really who has the best workflow and who has the best product, and we humans are just demanding. We want the best.",
+      "zh": "以前，我想说是 18 个月前，就像，「噢，嗯，谁拥有最好的模型？」但随后向前看，就像真的谁拥有最好的工作流程，谁拥有最好的产品，而且我们人类只是很挑剔。我们想要最好的。"
+    },
+    {
+      "timestamp": "38:13",
+      "speaker": "Peter Deng",
+      "en": "going from zero to one is different going from one to 100. When you go to one to 100, I think one of the things that you really got to take into account is that you have to plan your chess moves out in advance. You have to really think before you act and build systems that are going to let you go sustainably faster.",
+      "zh": "从零到一与从一到一百是不同的。当你要从一到一百时，我认为你必须真正考虑到的一件事是，你必须提前规划好你的国际象棋步数。你必须在行动之前真正思考，并建立能够让你可持续地更快的系统。"
+    },
+    {
+      "timestamp": "39:19",
+      "speaker": "Peter Deng",
+      "en": "you got to build the systems that help you move sustainably faster, and sometimes, you have to go slow to go fast.",
+      "zh": "你必须建立能帮助你可持续地更快移动的系统，有时你必须慢下来才能快。"
+    },
+    {
+      "timestamp": "44:38",
+      "speaker": "Peter Deng",
+      "en": "I remember walking into Instagram and I think asking Kevin and Mike, \"So how many users do we have?\" It's like, \"Well, we don't really know.\"",
+      "zh": "我记得走进 Instagram，我想问 Kevin 和 Mike，「那么我们有多少用户？」就像，「嗯，我们真的不知道。」"
+    },
+    {
+      "timestamp": "46:38",
+      "speaker": "Peter Deng",
+      "en": "if you build an analytics team or a data science team, it's possible that no one's going to listen to them. But if you hire a growth leader, they are now tied to outcomes of driving growth, so they're going to be the ones who are listening and asking more questions and really partnering with that data science team to make your entire product and business more rigorous.",
+      "zh": "如果你建立一个分析团队或数据科学团队，可能没有人会听他们的。但如果你雇佣一个增长领导者，他们现在与推动增长的结果挂钩，所以他们将是那些倾听并提出更多问题的人，并真正与那个数据科学团队合作，使你的整个产品和业务更加严谨。"
+    },
+    {
+      "timestamp": "47:33",
+      "speaker": "Peter Deng",
+      "en": "sometimes in the pursuit of numbers, product folks lose sight of the importance of taste and craft. You got to have the counterbalances. It's really important to give two people on your team different charges. One is like go grow the product and the other one is wait, maintain that design, that beautiful aesthetic, the craft that your product is known for. That tension is extremely healthy.",
+      "zh": "有时在追求数字的过程中，产品人员忽略了品味和技艺的重要性。你要有制衡。给团队中的两个人不同的职责是非常重要的。一个就像去增长产品，另一个就像等等，保持那种设计，那种美丽的美学，你的产品以之闻名的技艺。这种张力是非常健康的。"
+    },
+    {
+      "timestamp": "62:15",
+      "speaker": "Peter Deng",
+      "en": "in six months, if I'm telling you what to do, I've hired the wrong person.",
+      "zh": "在六个月内，如果我告诉你该做什么，我就招错了人。"
+    },
+    {
+      "timestamp": "68:00",
+      "speaker": "Peter Deng",
+      "en": "the area that I look for most is growth mindset. if you don't have growth mindset, and you're not open to feedback, and you're not open to learning, then that's the meta blocker. At that point, it's hard to get feedback, it's hard to onboard to a new skill. It's hard to develop in any sort of meaningful way.",
+      "zh": "我最看重的领域是成长型思维。如果你没有成长型思维，并且你对反馈不开放，并且你对学习不开放，那么那就是元阻碍。在那时，很难获得反馈，很难上手一项新技能。很难以任何有意义的方式发展。"
+    },
+    {
+      "timestamp": "95:11",
+      "speaker": "Peter Deng",
+      "en": "to anyone out there who's doing user interviews and then saying, hey ChatGPT, summarize the takeaways, you're missing the point. You can't empathize with a summary. You have to be in the room fully immersed, no phones, just actually hearing the words and the intonation.",
+      "zh": "对于任何在做用户访谈然后说，嘿 ChatGPT，帮我总结要点的人来说，你们没抓到重点。你无法对一份摘要产生共情。你必须人在房间里，全身心沉浸其中，没有手机，只是真正听到那些话语和语调。"
+    },
+    {
+      "timestamp": "86:38",
+      "speaker": "Peter Deng",
+      "en": "it's really important to obsess over the details of craft, while simultaneously having the perspective and wisdom of which details don't actually matter.",
+      "zh": "痴迷于工艺的细节很重要，同时也要拥有关于哪些细节实际上并不重要的视角和智慧。"
+    },
+    {
+      "timestamp": "88:23",
+      "speaker": "Peter Deng",
+      "en": "everyone has this. You have a 6 AM flight, and are you really going to wake up at 4 AM and request an Uber and hope that there's enough Ubers and the person's going to come? And so there was this insight of like, okay, there's a whole mismatch between what people really want, which is the peace of mind that their car is going to be there and guess what? I'm willing to pay for that.",
+      "zh": "人人都遇到这个。你有一个早上 6 点的航班，你真的要在早上 4 点醒来并请求 Uber 并希望有足够的 Uber 并且那个人会来吗？于是有这样的洞察，好吧，人们真正想要的和实际之间存在完全的不匹配，也就是车会出现在那里的安心感，你猜怎么着？我愿意为此付费。"
+    },
+    {
+      "timestamp": "104:24",
+      "speaker": "Peter Deng",
+      "en": "you can really have the best team in the world with the best product taste and you can't really predict what's going to hit on the first go. And failure is okay, you're just going to up and learn from that and nobody wallowed over that.",
+      "zh": "你真的可以拥有世界上最好的团队，拥有最好的产品品味，但你无法真正预测第一次尝试就会成功。失败是可以的，你只会振作起来并从中学习，没有人对此感到沮丧。"
+    },
+    {
+      "timestamp": "110:03",
+      "speaker": "Peter Deng",
+      "en": "if you move a tree, it dies, but if you move a person, he thrives.",
+      "zh": "如果你移动一棵树，它就会死；但如果你移动一个人，他就会兴旺。"
+    },
+    {
+      "timestamp": "101:06",
+      "speaker": "Peter Deng",
+      "en": "we may not be right, but at least we're not confused.",
+      "zh": "我们可能不对，但至少我们不困惑。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Peter Deng",
+      "en": "crafting is really important when you're working in product, because if you're sitting down and you're writing a vision doc or you're writing a PRD, and if you don't pay attention to the words you use, and you're not intentional about it, those have downstream effects.",
+      "zh": "在产品中工作时，精心推敲真的很重要，因为如果你坐下来写愿景文档或者写 PRD，如果你不注意你使用的词语，并且你不是有意的，这些会有下游效应。"
+    },
+    {
+      "timestamp": "20:11",
+      "speaker": "Peter Deng",
+      "en": "it's really interesting and kind of poetic and fitting that the breakthrough in artificial intelligence came from large language models. with every word in every sentence so much of the knowledge is encapsulated and shaped.",
+      "zh": "非常有趣，也有点诗意和恰当的是，人工智能的突破来自于大语言模型。在每个句子的每个词中都封装和塑造了如此多的知识。"
+    }
+  ]
+}

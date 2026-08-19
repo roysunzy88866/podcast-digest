@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[护栏]] · [[Laurent]] · [[Theo Jaffe]] · [[Elena Berger]] · [[Charles Gorintin]] · [[Ben Horowitz]] · [[Simon Mo]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":37,"Hugging Face":6,"智能体":92,"护栏":15,"Laurent":1,"Theo Jaffe":2,"Elena Berger":2,"Charles Gorintin":1,"Ben Horowitz":1,"Simon Mo":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":38,"Hugging Face":6,"智能体":95,"护栏":15,"Laurent":1,"Theo Jaffe":2,"Elena Berger":2,"Charles Gorintin":1,"Ben Horowitz":1,"Simon Mo":1}</script>
 
 <script>
 (function(){

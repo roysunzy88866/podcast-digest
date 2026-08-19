@@ -125,9 +125,9 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT</span>
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同嘉宾:Lenny · 同概念:护栏 (guardrails)</span>
-- [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|Hilary Gridley：教团队"挨打"的产品领导力]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">
@@ -136,7 +136,7 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT</span>
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT</span>
 
 </div>
 </div>

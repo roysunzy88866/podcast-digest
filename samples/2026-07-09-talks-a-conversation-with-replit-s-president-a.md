@@ -120,9 +120,9 @@ AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele"
 
 **顺着「智能体」挖下去**
 
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding、智能体 (agent)</span>
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
-- [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|AI 想给每个人定制 App,但云架构 25 年前就走错了路]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

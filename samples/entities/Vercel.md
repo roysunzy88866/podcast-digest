@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(00:42起):本集提到 Vercel 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(01:45起):本集嘉宾 Jean 担任 COO 的公司，其平台被用于通过 workflow SDK 和 AI 网关构建内部销售智能体（Vercel 用 Vercel 构建 Vercel），并提供前端云、AI 云及基于消费的定价模式。
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:39起):本集将其描述为增长飞快的 AI 领导者，有顶尖的全职工程团队，并且会内部自建 GTM 智能体，被 Jason 当作「你是 Vercel 吗？不是的话就不要自建」的标杆。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(10:16起):本集把它说成:在全栈前端领域拼「深度」的代表,不提供 AWS 的全功能但深耕特定领域,且连智能体都偏好它。
@@ -26,8 +27,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
+- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
@@ -39,9 +41,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[GitHub]] · [[Lenny]] · [[编排]] · [[Slack]] · [[Codex]] · [[Stripe]] · [[go-to-market]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]]
+[[智能体]] · [[Lenny]] · [[GitHub]] · [[Replit]] · [[Stripe]] · [[编排]] · [[Slack]] · [[Codex]] · [[Cursor]] · [[go-to-market]]
 
-<script type="application/json" class="pd-epn">{"智能体":92,"GitHub":16,"Lenny":52,"编排":2,"Slack":18,"Codex":18,"Stripe":13,"go-to-market":3,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":95,"Lenny":58,"GitHub":16,"Replit":8,"Stripe":13,"编排":2,"Slack":18,"Codex":19,"Cursor":22,"go-to-market":3}</script>
 
 <script>
 (function(){

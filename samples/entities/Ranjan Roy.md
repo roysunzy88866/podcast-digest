@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":2,"Google":18,"OpenAI":37,"Anthropic":47,"SpaceX":6,"Tesla":6,"AGI":10,"次级数据中心危机":1,"资本支出":3,"财富效应":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":2,"Google":18,"OpenAI":38,"Anthropic":47,"SpaceX":6,"Tesla":6,"AGI":12,"次级数据中心危机":1,"资本支出":3,"财富效应":1}</script>
 
 <script>
 (function(){

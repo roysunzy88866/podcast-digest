@@ -234,9 +234,9 @@ Google 赢 Yahoo 是这样，Facebook 赢 MySpace 也是这样 <button class="pd
 
 **换个口味**
 
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:ChatGPT、Facebook、Google · 同概念:智能体 (agent)</span>
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同公司:Facebook、Zynga · 同概念:智能体 (agent)、留存 (retention)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor · 同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 </div>

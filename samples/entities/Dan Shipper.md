@@ -7,11 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dan Shipper</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Dan Shipper">DA</div><div class="pi"><h1 class="pt">Dan Shipper</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Dan Shipper">DA</div><div class="pi"><h1 class="pt">Dan Shipper</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*9 条*
+*21 条*
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q1]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q2]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q3]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q4]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q5]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q6]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q7]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q9]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q10]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q11]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q12]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q1]]
 
@@ -33,25 +57,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为联合主持
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[SaaS]] · [[前向部署工程师]] · [[PM]] · [[Cowork]] · [[OpenClaw]] · [[CLI]]
+[[Lenny]] · [[Claude Code]] · [[智能体]] · [[Codex]] · [[Every]] · [[SaaS]] · [[Cora]] · [[前向部署工程师]] · [[ChatGPT]] · [[PM]]
 
-## ④ 也在聊「职业与个人成长」的人
-
-<div class="pd-peers">
-
-[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Jessica Fain]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":92,"Codex":18,"Claude Code":23,"SaaS":6,"前向部署工程师":5,"PM":3,"Cowork":1,"OpenClaw":8,"CLI":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Claude Code":24,"智能体":95,"Codex":19,"Every":1,"SaaS":6,"Cora":1,"前向部署工程师":5,"ChatGPT":24,"PM":3}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Vercel":6,"Stripe":13,"Gong":1,"OpenAI":37,"go-to-market":3,"智能体":92,"GTM 工程师":1,"市场细分":1,"PLG":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Vercel":7,"Stripe":13,"Gong":1,"OpenAI":38,"go-to-market":3,"智能体":95,"GTM 工程师":1,"市场细分":1,"PLG":3}</script>
 
 <script>
 (function(){

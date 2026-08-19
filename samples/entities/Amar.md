@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matt MacInnis]] · [[Lenny]] · [[Rippling]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]]
+[[Matt MacInnis]] · [[Lenny]] · [[Rippling]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合]] · [[熵]] · [[幂律分布]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":52,"Rippling":1,"Notion":5,"Apple":11,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合度":4,"熵":1,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":58,"Rippling":1,"Notion":5,"Apple":12,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":6,"熵":1,"幂律分布":1}</script>
 
 <script>
 (function(){

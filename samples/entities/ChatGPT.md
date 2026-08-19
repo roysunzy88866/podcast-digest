@@ -1,6 +1,6 @@
 ---
 title: ChatGPT
-entity_type: 公司
+entity_type: 概念
 type: entity
 unlisted: true
 aliases: ["chat gpt", "ChatGPD"]
@@ -8,10 +8,14 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>20</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>24</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]]**(63:45起):本集将 ChatGPT 作为团队 AI 习惯养成的工具举例，建议从与工作无关的简单场景（如想度假地点）开始降低摩擦。
+- **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(00:03起):本集多次提及 ChatGPT，作为 Peter Deng 曾担任产品副总裁并负责监督产品设计、工程及增长团队的产品，讨论了其 post training 与产品团队的紧密合作模式。
+- **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(51:50起):本集说 ChatGPT 对 Andrew 最大的价值是克服 ADHD 带来的'卡住'——以前在终端配 IT 安全遇到报错就彻底放弃，现在问 ChatGPT 能保持心流状态继续往下走
+- **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(00:23起):本集说它是 Dan 日常首选工具（尤其是 o3），有记忆功能能记住他的写作偏好；还说他用它做自我反思、分析会议表现，以及预测公司能否成功采用 AI 的第一指标就是 CEO 用不用 ChatGPT
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(00:07起):本集将其预测为即将成为新分发平台的领跑者，认为其护城河在于上下文和记忆形成的飞轮，留存曲线呈现罕见的「微笑曲线」且持续上移，并有大量招聘「智能体平台」相关岗位的信号
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(15:33起):本集举例说博士的工作就是找出 ChatGPT 产生内容中的缺陷，以及提到语音模式是默认的 ChatGPT 体验
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:21起):本集说 ChatGPT 的引用和 Google 搜索结果的重叠率只有约 35%；ChatGPT 为 Lenny 的通讯驱动的流量比 Twitter 还多；ChatGPT 有团队在调整搜索算法来选择信任的来源
@@ -34,7 +38,11 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*4 条*
+*6 条*
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q12]]
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q8]]
 
@@ -46,8 +54,12 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*20 集*
+*24 集*
 
+- [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
+- [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -73,9 +85,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Waymo]] · [[Google]] · [[强化学习]] · [[Claude]] · [[Anthropic]] · [[主观能动性]] · [[Cursor]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude]] · [[Waymo]] · [[Google]] · [[强化学习]] · [[Cursor]] · [[vibe coding]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":92,"Lenny":52,"OpenAI":37,"Waymo":9,"Google":18,"强化学习":10,"Claude":19,"Anthropic":47,"主观能动性":10,"Cursor":20}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":95,"OpenAI":38,"Claude":21,"Waymo":9,"Google":18,"强化学习":10,"Cursor":22,"vibe coding":12,"Codex":19}</script>
 
 <script>
 (function(){

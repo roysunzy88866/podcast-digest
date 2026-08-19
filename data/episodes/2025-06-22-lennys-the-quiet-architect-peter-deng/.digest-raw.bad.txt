@@ -1,0 +1,199 @@
+===标题===
+Peter Deng：产品不是屏幕上的像素，而是用户感受到的全部
+===导语===
+前OpenAI、Instagram、Uber产品负责人首度公开分享，从零到百亿的产品与用人心法。
+===正文===
+有时你的产品实际上并不重要。在 Uber，价格和 ETA 才是产品——你放在屏幕上的像素，影响远没有你想象的那么大 [21:26 Peter Deng]。这是一个从 Facebook 到 OpenAI、亲手打造过 Newsfeed、Messenger、ChatGPT Enterprise 的人说的。
+
+## 产品到底是什么
+
+Peter 在 Uber 学到的最反直觉的一课是：科技公司的人容易把产品等同于数字界面，但从整体角度看，用户消费的是产品的全部。你修了一个 Bug，不是说不用修，但它的影响力不如价格或到达时间这种对用户更重要的东西 [21:38 Peter Deng]。这在 B2B 产品里也一样——你的产品被终端用户喜爱固然好，但它有没有商业意义？
+
+反过来，很多最有价值的科技公司，并不是从技术突破开始的。Facebook 本质上是一个人类连接的数据库，在上面花苦工打磨出动态消息和照片标记；Uber 利用了人人口袋里的 GPS 设备和现有的汽车，把点连起来，最终才在上面建了大量预测市场和定价的技术。很大程度上，它是一家运营公司 [23:10 Peter Deng]。
+
+但这里有一个张力：如果本身没有技术突破，产品体验就变得关键——Instagram 就是例子，照片分享的想法不复杂，但 Mike 和 Kevin 对产品品味的把控和反复迭代让它起飞 [25:10 Peter Deng]。而即使你创办了一家有巨大技术突破的公司，产品体验很快也会开始重要，因为技术优势窗口是有限的 [26:45 Peter Deng]。
+
+## AI 时代的创业护城河
+
+对于今天在 LLM 之上构建的公司，Peter 认为两个东西最关键：
+
+一是专有数据和数据飞轮。模型在你展示给它的数据上会变得非常擅长那个任务，它非常可塑。你要非常在意你手上能拿到什么数据来启动飞轮，以及怎么让飞轮持续转下去 [29:08 Peter Deng]。比如 Windsurf，先在 Claude 上构建，积累了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型 [30:08 Lenny]。
+
+二是工作流——产品怎么真正融入人们的生活。而且这两者是相辅相成的：如果你在解决人们真正有价值的问题，大量工作通过它完成，你自然会有数据优势 [30:10 Peter Deng]。
+
+分销优势可以被产品工艺突破。Cursor、Windsurf、Lovable、Bolt 这些增长最快的公司，都是在微软 Copilot 有分发、人才、基础设施和先发优势的情况下，靠做出好得多的产品冲出来的 [31:38 Lenny]。有一种产品工艺水平，让切换或尝试变得值得——Granola 就是这样，虽然 Google Meet、Teams、Zoom 有巨大的分发优势，但那些微小的、令人愉悦的产品细节让人愿意安装、愿意推荐 [32:29 Peter Deng]。
+
+## 在大模型公司，产品做什么
+
+Peter 认为 OpenAI、Anthropic 这类公司的优势在于产品团队可以和研究人员在同一栋楼里工作，后训练（post-training，让模型在基础能力之上变得更符合人类偏好和使用习惯的过程）和产品之间存在真正的共生关系 [34:41 Peter Deng]。越来越多地，关键不在于原始智能，而在于微调模型能做什么来真正与人共鸣——以及产品的方向是什么。
+
+他在 OpenAI 就是这么做的，与后训练团队紧密合作，ChatGPT 在很多事情上变得更好，正是源于这种紧密协作 [36:30 Peter Deng]。Anthropic 的 Mike 也独立得出了相同结论：把 PM 放到研究团队里帮助模型变好，比把 PM 放在前端产品体验上的杠杆和产出大得多 [35:59 Lenny]。
+
+## 从一到一百：先想清楚再跑
+
+从零到一是找产品市场契合，从一到一百是要尽快达到超大规模，这两个阶段完全不同 [38:04 Peter Deng]。从一到一百的核心是：你必须提前想好你的国际象棋步骤，在行动前真正思考，建立能让你持续加速的系统。有时你必须慢下来才能快 [38:31 Peter Deng]。
+
+Peter 用的类比是：有人说自己能在 35000 英尺高空飞行，但感受火箭起飞时的 G 力是完全不同的事 [39:06 Peter Deng]。
+
+具体怎么做？第一，想清楚架构。Newsfeed 当前的版本跟十多年前建的时候没太大变化，Peter 认为原因在于他们花大量时间思考了整个分享循环——从页面顶部发布，到出现在动态消息里，到有人点赞、通知亮红灯、循环重复。当你这样想清楚并构建，东西是能持久的 [39:31 Peter Deng]。Uber 的接送团队也是，听起来无聊，但他们在"场馆"这个抽象上想清楚了，让机场接送可以规模化配置 [41:08 Peter Deng]。
+
+第二，用组合方式分配精力，不是二元开关。Google 有 70-20-10 的组合方法，成熟公司可能适合这个比例，初创公司可能 50/50，但你必须根据阶段非二元地思考 [42:50 Peter Deng]。
+
+第三，尽早建立增长团队。Peter 在 Instagram、Uber、Airtable、ChatGPT 做的第一件事都是建增长团队 [44:15 Peter Deng]。为什么不是建分析团队？因为分析团队可能没人听他们的，但增长领导者与增长结果挂钩，他们会主动提问、推动实验，把一个"看起来在运转"的产品变成更严谨的系统 [46:38 Peter Deng]。这会改变整个团队的 DNA。
+
+第四，在追求数字的同时，不能丢掉品味和工艺。要在团队里制造健康的张力——让一个人去增长产品，另一个人守住设计和美学标准 [47:33 Peter Deng]。这不是靠绩效指标实现的，而是靠招到天然被不同东西驱动的人，让他们自然拉扯 [50:22 Peter Deng]。
+
+## 五种产品经理
+
+Peter 在 Uber 和同事聊天时总结出一个框架，到今天他依然认为成立 [50:45 Peter Deng]：
+
+**消费者 PM**：半个设计师加半个产品人，痴迷细节——"偏了三个像素，我受不了" [51:37 Peter Deng]。
+
+**增长 PM**：半个数据科学家加半个产品人，数字优先——"给我看数据，跑个测试证明，我不信你" [52:12 Peter Deng]。
+
+**商业/GM PM**：半个 MBA 加半个产品人，从商业模式开始想——"利润率多少？价值在哪创造？" [52:57 Peter Deng]。
+
+**平台 PM**：被深度编程去为他人构建工具的人。经常被忽视，但他们是构建让你加速运转的系统的人 [53:42 Peter Deng]。
+
+**研究/AI PM**：一半研究员、一半工程师、一半产品人。有产品品味同时深刻理解技术和模型训练方式，能影响模型并构建最棒的产品 [54:09 Peter Deng]。
+
+每个人都有一个主类型和一个副类型。Peter 自己是消费者 PM 加增长 PM [56:40 Peter Deng]。这个框架的意义不是把人框住，而是帮你意识到团队里可能缺了哪种人 [56:26 Peter Deng]。
+
+## 招人的两个秘诀
+
+Peter 在 OpenAI 花在招聘和建团队上的时间，可能跟思考产品一样多甚至更多 [59:52 Peter Deng]。他的第一秘诀是一句话：**六个月后，如果我还在告诉你该做什么，我就招错了人** [62:23 Peter Deng]。
+
+这句话在三个层面起作用：一是提醒自己保持高标准不将就；二是向新人传达这是成功的标准，给他们努力的方向；三是把双方的关系拉升到一个不同的层面——目标不再是"你有没有达到这个 OKR"，而是"我们有没有在校准？六个月后是不是你来告诉我该做什么？" [63:26 Peter Deng]。这样，每一次错误都变成学习机会：怎么从这个错误成长，达到六个月后的目标？作为管理者，怎么做正确的事来为这个人铺路，让自己六个月后不需要参与？ [64:10 Peter Deng]
+
+第二个秘诀是**成长型思维**。Peter 在 Facebook 管理生涯中犯过错，招了一个没有成长型思维的人，非常痛苦 [68:00 Peter Deng]。他相信在某个年龄之后，成长型思维很难教 [68:35 Peter Deng]。所以在他负责的团队里，他坚持做最后一轮面试，而且只面成长型思维，不做产品感、设计、执行、指标 [69:14 Peter Deng]。其他特质他信任团队去评估。
+
+怎么测？他的问题多年没变：**讲一个你犯过的最大错误，越痛苦越好。描述当时的情况，然后告诉我你现在因此有什么不同的想法、不同的工作方式，它怎么变成了你的核心原则** [71:56 Peter Deng]。他会给对方时间想，必要时先分享自己的错误。问过太多次了，他能闻出不真诚——"我工作太努力了"这种不算。你能感受到一个人愿意展示的脆弱程度 [72:30 Peter Deng]。而且如果对方最终加入团队，你们已经有过那个时刻——"这是我真正搞砸的地方，没关系，这不是损失，这是教训"——这为工作关系设定了完全不同的基调 [73:49 Peter Deng]。
+
+## 向上管理和发挥优势
+
+Peter 从 Uber 的 Jill 那里学到一句话：**说你要去做这件事，说你正在做这件事，然后说你做了这件事** [79:33 Peter Deng]。这不是只用于向上管理，而是整个运作方式：第一步，你说要做什么，这个过程本身就是在跟经理校准"我们到底要做什么"——也许经理会说"这已经不需要做了"；第二步，在一对一或全员会上重申"我们在做这个"，是重新确认或开启对话的时机；第三步，闭环，说"这事完成了" [78:11 Peter Deng]。对于内向、不想引起注意的人，尤其要记住最后一步——让人知道你做了什么 [80:19 Peter Deng]。
+
+关于发挥优势，Peter 举了 Joanne 的例子。Joanne 是他共事过的人里唯一同时拥有极深技术功底和产品品味的人 [81:05 Peter Deng]。Peter 发现这个组合很独特后，让她写一份职位描述来把这种"魔力"成文化——因为把直觉感受到的东西写下来，就产生了一个可以与他人沟通的产物 [82:20 Peter Deng]。Joanne 写完后，他们据此定义了"模型设计师"这个角色并招了前两个人。Peter 认为ChatGPT给人的感觉和模型的氛围，很大程度上归功于这个她创造并领导的技术加品味角色 [83:12 Peter Deng]。Peter 强调他没有写那份文档，只是推了她一把："这里有点东西，你去写下来" [82:51 Peter Deng]。
+
+## 产品人的核心能力：痴迷细节，同时知道哪些细节不重要
+
+痴迷工艺的细节很重要，因为你在打造一个产品。但同时要有视角和智慧去判断哪些细节其实不重要 [86:46 Peter Deng]。这个二分法很美——它概括了成功产品人精神的两面：你真的必须在乎你构建的产品，但你也要有商业头脑去判断你的时间和关心应该用在哪里 [87:39 Peter Deng]。
+
+Peter 举了 Uber Reserve 的例子。问题是：早上 6 点的航班，你真的要 4 点醒来叫 Uber 然后祈祷有车来吗？那样你睡不好，每两小时醒一次。洞察是：人们真正想要的是"车会来的安心感"，而且愿意为此付费 [88:38 Peter Deng]。产品极其简单——告诉它你的航班时间或想被接的时间，但它会告诉你"这太悬了，你可能赶不上航班"。这来自"安心"这个原则。另一边还要考虑司机需要什么——知道你不会取消。简单的想法，团队搞清了所有复杂细节，做了测试。据 Peter 最近听到的内部消息，这现在是一年年营收接近 50 亿美元的业务，而且利润率最高之一 [89:59 Peter Deng]。
+
+怎么发现这种洞察？Peter 加入 Uber 前休了两周假，租了一辆白色大众，贴上 Uber 贴纸，亲自开了两周车 [91:59 Peter Deng]。他信奉 IDEO 的设计思维五阶段——同理心、定义、构思、原型、测试——尤其前两个词用得好：同理心是你必须真正感受到客户的痛苦，不是理论上理解问题；定义是迫使你 articulation（清晰表达）问题是什么 [92:53 Peter Deng]。他和 Kevin Systrom 飞到洛杉矶做用户调研，在单面镜后面听人谈论 Instagram，那种体验无可替代 [95:04 Peter Deng]。他对现在有人做完用户访谈就让 ChatGPT 总结要点的做法直言：你无法对一份总结产生共情，你必须人在房间里，没有手机，听到那些话语和语调 [95:20 Peter Deng]。
+
+## 选择公司的标准
+
+Peter 离开如日中天的 Google 加入当时还被认为"只是个大学网站"的 Facebook，原因有二 [96:04 Peter Deng]。
+
+第一是深度共鸣。Facebook 的团队真正理解了人们想要连接、感到孤独、想要分享的基本人类欲望，他们对要解决的问题有正确的 articulation——"让世界更开放和连接" [96:42 Peter Deng]。他们不是在把东西强塞进不自然的事物里，而是在构建增强人类基本连接欲望的技术 [97:38 Peter Deng]。Peter 在大学学了很多心理学，对"人类根本上是怎么被构造的"非常着迷，这跟他的价值观深度共鸣 [97:17 Peter Deng]。他认为对任何创业公司来说，你构建的东西和人类基本需求之间的"阻抗匹配"越好，你就会越成功 [98:22 Peter Deng]。
+
+第二是以学习为优化目标。他职业生涯中一直去能学到最多东西的地方 [98:58 Peter Deng]。在 Facebook 九年半，每两年半左右跳一次，当觉得有新东西可学的时候 [99:13 Peter Deng]。
+
+Mike 和 Kevin 在 Instagram 有一句话他也非常认同：**"我们可能不对，但我们不困惑"** [101:06 Peter Deng]。有强烈的观点非常重要，因为犹豫不决真的会害死你。
+
+## 本集带走
+
+- **重新定义"产品"**：用户消费的是全部体验，不只是你画的界面。在 Uber，价格和 ETA 才是产品。问自己：你花大量时间打磨的东西，真的是用户最在意的吗？
+- **AI 创业的两条护城河**：一是专有数据+数据飞轮（不是起点有数据就行，要能持续生成），二是真正融入用户工作流的产品工艺。两者相辅相成。
+- **从一到一百，先建系统再踩油门**：不是快速行动打破常规，而是提前想清楚架构（信息架构、核心抽象），用组合方式分配精力，尽早建增长团队把"看起来在运转"变成严谨系统。
+- **团队是复联，不是克隆人**：招天然被不同东西驱动的人——有人痴迷细节、有人数字优先、有人从商业模式想、有人爱建系统、有人懂技术又懂品味——让他们自然拉扯出健康的张力。
+- **"六个月后如果我还在告诉你该做什么，我就招错了人"**：这句话同时作用于自己（不将就）、对方（知道成功标准）和双方关系（从"达标"升级为"校准"），把每次错误变成学习机会。
+- **面试只问一个问题的成长型思维测试**：讲你犯过的最大错误，越痛苦越好，然后说它怎么改变了你的想法和工作方式。真诚与否一问便知。
+- **"说你要做，说你在做，说你做了"**：三步闭环不只是向上管理技巧，是整个运作方式——每一步都是校准机会。
+- **发现独特优势后，让人自己写下来**：Joanne 同时有技术深度和产品品味，Peter 没有替她定义角色，而是说"这里有点东西，你去写下来"，由此诞生了"模型设计师"这个新角色。
+- **选择公司的三个信号**：他们构建的东西是否与人类基本行为匹配？他们对事情有独特洞察吗（"我们可能不对，但不困惑"）？你在那里能学到最多吗？
+===金句===
+00:24 Peter Deng
+EN | Sometimes your product actually doesn't matter.
+ZH | 有时你的产品实际上并不重要。
+
+00:26 Peter Deng
+EN | At Uber, I learned this because, really, the price and the ETA at Uber was the product.
+ZH | 在 Uber，我学到了这一点，因为实际上，Uber 的价格和 ETA 就是产品。
+
+08:15 Peter Deng
+EN | AGI is just necessary but not sufficient.
+ZH | AGI 只是必要条件但非充分条件。
+
+08:17 Peter Deng
+EN | A lot of the value is still going to require a bunch of hustle from a lot of builders to really turn that new source of energy and channel it into something that we humans want to use that solves some of our problems.
+ZH | 很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成我们人类喜欢使用并解决我们某些问题的东西。
+
+13:00 Peter Deng
+EN | I think that's going to be a solved problem.
+ZH | 我认为这将是一个已解决的问题。
+
+13:11 Peter Deng
+EN | I think learning to program is learning how to think in a structured way, in a systematic way.
+ZH | 我认为学习编程就是学习如何以结构化的方式、系统化的方式思考。
+
+15:08 Peter Deng
+EN | It frees the mind up to do other things and think more at a higher level of abstraction.
+ZH | 它解放了大脑去做其他事情，并在更高层次的抽象层面上思考。
+
+17:22 Peter Deng
+EN | Language actually affects the way you think.
+ZH | 语言实际上影响你的思维方式。
+
+19:14 Peter Deng
+EN | If you don't pay attention to the words you use, and you're not intentional about it, those have downstream effects.
+ZH | 如果你不注意你使用的词语，并且你不是有意的，这些会有下游效应。
+
+23:16 Peter Deng
+EN | They were built on some kind of technological breakthrough and they ended up building a lot more technology.
+ZH | 它们建立在某种技术突破之上，最终构建了更多的技术。
+
+23:24 Peter Deng
+EN | But largely that's a very valuable tech company. But it's largely an operations company.
+ZH | 但在很大程度上，这是一个非常有价值的科技公司。但它在很大程度上是一家运营公司。
+
+29:33 Peter Deng
+EN | It's very malleable.
+ZH | 它非常可塑。
+
+38:42 Peter Deng
+EN | You have to plan your chess moves out in advance.
+ZH | 你必须提前计划好你的国际象棋步骤。
+
+39:19 Peter Deng
+EN | Sometimes, you have to go slow to go fast.
+ZH | 有时你必须慢下来才能快。
+
+46:38 Peter Deng
+EN | If you hire a growth leader, they are now tied to outcomes of driving growth, so they're going to be the ones who are listening and asking more questions and really partnering with that data science team to make your entire product and business more rigorous.
+ZH | 但如果你雇佣一个增长领导者，他们现在与推动增长的结果挂钩，所以他们将是那些倾听并提出更多问题的人，并真正与那个数据科学团队合作，使你的整个产品和业务更加严谨。
+
+47:55 Peter Deng
+EN | That tension is extremely healthy.
+ZH | 这种张力是非常健康的。
+
+01:03:06 Peter Deng
+EN | In six months, if I'm telling you what to do, I've hired the wrong person.
+ZH | 在六个月内，如果我还要告诉你该做什么，我就招错了人。
+
+01:22:07 Peter Deng
+EN | Think about one of the biggest mistakes you've made, truly, the more painful the better.
+ZH | 想一想你犯过的最大的错误之一，真的，越痛苦越好。
+
+01:22:21 Peter Deng
+EN | Describe to me the situation, and tell me actually how you actually think differently now, work differently as a result.
+ZH | 向我描述当时的情况，并告诉我实际上你现在因此有何不同的想法，工作方式有何不同。
+
+01:38:59 Peter Deng
+EN | We may not be right, but at least we're not confused.
+ZH | 我们可能不对，但至少我们不困惑。
+
+01:44:43 Peter Deng
+EN | It ain't a loss, it's a lesson.
+ZH | 这不是损失，这是教训。
+
+01:45:20 Peter Deng
+EN | You can't empathize with the summary.
+ZH | 你无法对总结产生共情。
+
+01:50:23 Peter Deng
+EN | If you move a tree, it dies, but if you move a person, he thrives.
+ZH | 如果你移动一棵树，它就会死；但如果你移动一个人，他就会兴旺。
+===END===

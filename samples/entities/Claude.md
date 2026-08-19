@@ -7,10 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]]**(63:45起):本集与 ChatGPT 并列提及，作为团队可以养成使用习惯的 AI 工具之一。
+- **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(07:16起):本集在对比不同智能体风格时提到 Claude 与 ChatGPT 有不同的写作风格和个性
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(16:29起):本集说 Claude 是最不谄媚的模型之一，其性格和个性（如拒绝时会建议找医学专业人士）直接是对齐研究的产物，并且 Claude Code 团队里 95% 的代码是由 Claude 编写的。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(14:20起):本集提到 Anthropic 的 CPO 表示 Claude 正主动走差异化路线，专注于开发者工具、编码和后端，而不是跟 ChatGPT 抢大众分发平台的位置
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(31:49起):本集广告口播中提到 Claude 可以处理复杂多步骤工作，Claude 4 Opus 是世界上最好的编码模型
@@ -32,7 +34,9 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*12 条*
+*13 条*
+
+![[2025-07-17-lennys-inside-every-dan-shipper#^q2]]
 
 ![[2025-07-20-lennys-anthropic-co-founder-benjamin-mann#^q7]]
 
@@ -60,8 +64,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*21 集*
 
+- [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
+- [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -86,9 +92,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[MCP]] · [[vibe coding]] · [[Cursor]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude Code]] · [[Codex]] · [[OpenAI]] · [[Cursor]] · [[MCP]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":92,"Anthropic":47,"Lenny":52,"Claude Code":23,"Codex":18,"OpenAI":37,"ChatGPT":20,"MCP":14,"vibe coding":10,"Cursor":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":95,"Lenny":58,"Anthropic":47,"ChatGPT":24,"Claude Code":24,"Codex":19,"OpenAI":38,"Cursor":22,"MCP":14,"vibe coding":12}</script>
 
 <script>
 (function(){

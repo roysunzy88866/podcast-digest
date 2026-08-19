@@ -161,8 +161,8 @@ Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关�
 **换个口味**
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex、OpenClaw · 同概念:CLI、智能体 (agent)</span>
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Dan Shipper · 同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code、OpenClaw · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

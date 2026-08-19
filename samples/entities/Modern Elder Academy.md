@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Chip Connolly]] · [[Airbnb]] · [[Joie de Vivre]] · [[创始人模式]] · [[流体智力]] · [[晶体智力]] · [[隐形生产力]] · [[文化增项]] · [[幸福的 U 型曲线]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Chip Connolly":1,"Airbnb":7,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Chip Connolly":1,"Airbnb":7,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
 
 <script>
 (function(){

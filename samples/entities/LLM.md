@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(10:35起):本集反复讨论 LLM 写代码的能力：LLM 能把用户需求翻译成实际代码，但需要合适的基础设施（数据库、用户管理等）；让 LLM 写尽可能少的代码是关键策略；不同 LLM 擅长不同任务
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(20:07起):本集把 LLM 描述为解决问题的核心能力，区分了在旧代码上插入 LLM 的'AI 在边缘'和以 LLM 为核心重新构建的'AI 在核心'两种策略
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:15起):本集说 LLM 在总结多条引用时，被提及次数最多的产品会被推荐，而不是链接排第一就赢；Webflow 的 LLM 流量转化率是 Google 搜索流量的 6 倍
 - **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(50:39起):本集说 LLM 在 Chess.com 复盘功能中的角色是把引擎评估结果翻译成用户能懂的语言和风格（个性、语音反馈），但 LLM 自己下棋很烂，会产生棋步幻觉，看棋盘图像甚至会画错方格数量。
@@ -50,8 +51,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
+- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念(提及)
@@ -67,9 +69,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[开源模型]] · [[Google]] · [[Claude]] · [[主观能动性]] · [[SEO]] · [[Duolingo]] · [[Stripe]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Replit]] · [[开源模型]] · [[Google]] · [[Claude]] · [[Lovable]] · [[主观能动性]] · [[SEO]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":92,"Anthropic":47,"开源模型":6,"Google":18,"Claude":19,"主观能动性":10,"SEO":2,"Duolingo":2,"Stripe":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":95,"Anthropic":47,"Replit":8,"开源模型":6,"Google":18,"Claude":21,"Lovable":7,"主观能动性":11,"SEO":2}</script>
 
 <script>
 (function(){

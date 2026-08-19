@@ -35,17 +35,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Webflow]] · [[Slack]] · [[智能体]] · [[护栏]] · [[产品市场契合度]]
+[[Lenny]] · [[Webflow]] · [[Slack]] · [[智能体]] · [[护栏]] · [[产品市场契合]]
 
 ## ④ 也在聊「职业与个人成长」的人
 
 <div class="pd-peers">
 
-[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Dan Shipper]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
+[[Adam Ward]] [[Dianne Penn]] [[Elizabeth Stone]] [[Noam Segal]] [[Meng To]] [[Bruno Scott Sperka]] [[Nikhyl Singhal]] [[Dr. Becky Kennedy]] [[Zevi Arnovitz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Webflow":2,"Slack":18,"智能体":92,"护栏":15,"产品市场契合度":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Webflow":2,"Slack":18,"智能体":95,"护栏":15,"产品市场契合":6}</script>
 
 <script>
 (function(){

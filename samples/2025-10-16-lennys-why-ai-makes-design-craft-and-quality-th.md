@@ -145,8 +145,8 @@ Dylan 自己是怎么用 AI 的?除了常用来在找律师前做一些基础的
 **顺着「产品方法」挖下去**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma · 同概念:品味 (taste)</span>
-- [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同嘉宾:Lenny · 同概念:AI</span>
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma</span>
+- [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|Bob Baxley：设计是可见的清晰思考]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma · 同概念:设计 (design)</span>
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同嘉宾:Lenny · 同概念:工作流 (workflow)</span>
 
 </div>
 <div class="pd-ex">

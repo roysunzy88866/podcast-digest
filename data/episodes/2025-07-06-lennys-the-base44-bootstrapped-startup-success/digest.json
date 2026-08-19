@@ -1,0 +1,159 @@
+{
+  "title_zh": "一个人六个月做出八千万美元公司",
+  "tldr": "独立创始人零融资，六个月从零到以八千万美元被 Wix 收购，全靠 AI 写代码。",
+  "digest_md": "Maor Shlomo 做了一个叫 Base44 的 AI 应用构建平台——你用自然语言描述想要的东西，AI 帮你写代码把它做出来。六个月后，他以超过 8000 万美元的价格把公司卖给了 Wix。整个过程只有他一个人，没融过一分钱，三周就达到了 100 万美元 ARR，用户到了 40 万。过去三个月里，他没写过一行 HTML 或 JavaScript，全靠 AI 写 [33:27 Maor Shlomo]。\n\n## 不做大，先做自己喜欢的\n\nBase44 的起点非常具体：女朋友需要一个小网站获取客户，他去用传统的拖拽建站工具，觉得痛苦得要命；同时他在帮以色列童子军做志愿，这个大组织没有任何内部工程师，每次找外包报价都是上百万美元。而他之前的公司就在跟 LLM 打交道，他知道模型完全有能力写这些代码，缺的只是一个合适的基础设施——让模型能直接访问数据库、用户管理、集成这些东西，把自然语言翻译成真正能跑的应用 [08:18 Maor Shlomo]。\n\n他上一家公司 Explorium 融了 1.3 亿美元，他当了七年 CEO。但这次他的心态完全不同：他不打算做最大的东西。他和女朋友从亚洲旅行回来的飞机上，他说如果年底前 ARR 到 150 万就买辆好车，结果四周就到了 [37:50 Maor Shlomo]。「Base44 在我生命中第一次不是试图建造有史以来最大的东西。」[00:05 Maor Shlomo]\n\n## 独立创业的边界和代价\n\n他认为独立自力更生不适合所有场景。做 B2B、特别是企业级销售的公司，你得雇销售团队、花钱做营销，一个人扛不住。但如果你的产品有病毒传播的潜力，面向大众，那独立自力更生一旦跑过产品市场契合的临界点，从财务结果来看反而更好 [15:25 Maor Shlomo]。\n\n压力小是实打实的好处——醒来就是盈利的，不需要对投资人交代。但代价也真实：没有 DevOps 团队、没有 on-call（值班），出了事只能自己扛。他在哥哥婚礼上接到朋友电话说 Base44 被黑了、变成了加密骗局，他找了个借口溜出去打开笔记本电脑，度过了一生中最可怕的两个小时。最后发现只是 LLM 用了一个叫 cryptography 的包——这是 Node.js 的普通包，跟加密货币没关系，非技术用户看到报错就慌了 [18:10 Maor Shlomo]。\n\n每天的痛苦是「无情的优先级排序」：他想写代码、改进产品，但很多时候瓶颈不在产品，而在营销和获客。他必须逼自己做不想做的事 [20:40 Maor Shlomo]。\n\n## 用 AI 写 AI：他的技术栈和效率体系\n\n他有严重的 ADHD，所以第一步是管住自己的注意力。用 RescueTime 之类的工具锁死 Twitter 和 LinkedIn 的访问 [23:11 Maor Shlomo]。\n\n技术栈上：基础设施全部在 Render.com 上，他评价极高，说比自己上一家公司那整个 DevOps 团队搭的流程还好用 [68:40 Maor Shlomo]。数据库用 MongoDB，因为 vibe coding 场景下数据结构（schema）变化极快，LLM 经常改来改去，文档数据库更灵活 [69:51 Maor Shlomo]。后端用 Python，虽然有人嫌弃性能，但他没遇到问题，甚至扛过 DDoS [72:42 Maor Shlomo]。\n\n几个关键的技术判断：第一，别用 TypeScript，用纯 JavaScript 和 JSX——对模型来说写代码更容易出错，少一层类型系统反而更顺畅 [71:46 Maor Shlomo]。第二，前后端放在同一个代码仓库里，这样给 AI 的上下文更完整 [72:20 Maor Shlomo]。第三，也是最重要的——花 20% 到 30% 的时间优化代码仓库，让 LLM 能写出尽可能少的代码。他搭了一套高度抽象的基础设施层，把增删改查、认证、数据库操作全封装好了，LLM 实现新功能时只需要写很少的代码。代码越少，出错的地方越少，上下文也越省 [70:24 Maor Shlomo]。\n\nBase44 内部用了多模型路由：Claude 擅长从零开始写应用和 UI 设计，Gemini 擅长处理复杂算法或者 Claude 陷入 bug 循环时的兜底。他会根据用户输入自动判断该派给哪个模型 [73:20 Maor Shlomo]。\n\n他还用 Base44 自己给自己搭了内容生产工具：输入高层次的内容想法，自动拆解成 LinkedIn 帖子（保持他本人的语调，参考历史帖子），再拆成 Twitter 串。整个流程 vibe coding 出来，流程变了就改两个提示词就行 [24:28 Maor Shlomo]。\n\n## 从三个朋友到四十万用户\n\n前三个用户是亲密的朋友，其中两个当时正好失业。他让人家隔天来他家，坐在桌前用，东西坏了就看日志、改代码、推到生产环境，直接帮他们修好。他的原则是：在确认用户真的喜欢之前，不花一分钱在营销上。怎么确认？看他们会不会主动分享给别人 [40:22 Maor Shlomo]。\n\n当第 11 个用户出现——一个不认识他的人——他知道可以开始投营销了 [42:29 Maor Shlomo]。第一次 Product Hunt 发布很失败，但他不把它当成败关键，只当成「拿到下 30 到 50 个用户的工具」，确实拿到了 15 个新用户和第一个付费用户 [43:19 Maor Shlomo]。\n\n付费广告花了两千美元找网红、又试了几千美元的投放，全部没用 [34:53 Maor Shlomo]。真正起作用的是两件事：\n\n**公开构建**：一个朋友建议他分享独立创业的故事，因为他的受众就是构建者。他在 LinkedIn 上老老实实写好的坏的丑的，不装、不吹指标，分享技术栈细节、LLM 优化方法、增长数据、图表。他押注 LinkedIn 这一个渠道，看到有效果就全部精力扑上去，Twitter 反而觉得浪费时间 [45:18 Maor Shlomo]。\n\n**分享送额度**：在 Base44 里做了一个机制——用户只要在社交媒体上分享自己用 Base44 做的东西（甚至不需要提到 Base44），就送额外的构建额度。早期是用户发邮件给他手动处理，后来自动化了 [46:30 Maor Shlomo]。\n\n这两招叠加，一周之内从每天 20 个新用户飙到每天 4000 个，直接把产品冲垮了——他不是 DevOps 工程师，不会扩数据库，虚拟 CPU 也扛不住 [47:23 Maor Shlomo]。\n\n还有一个增长引擎是 4Good 黑客马拉松：拿出利润做 5000 美元奖金，号召大家用 Base44 做公益应用。最终 3000 个团队参加，Amazon、Google、MongoDB、Deloitte 主动来赞助，他觉得这可能是职业生涯最棒的时刻之一 [64:33 Maor Shlomo]。\n\n速度本身就是增长引擎。产品隔天就更新，人们会说「它发展得太快了，我现在就得试试」[67:24 Maor Shlomo]。\n\n## 一个反直觉的产品教训\n\n他在激活路径上砍掉了一个「正确但错误」的设计。原来 Base44 在写代码之前，会先生成用户流程（类似轻量版 PRD），让用户确认理解正确了再动手。这确实能产出更好的应用，但转化率不行——因为 vibe coding 的「啊哈时刻」是「天哪，它真的懂我」，然后直接看到应用。中间加一步确认，惊喜感就打折了。他果断砍掉，让用户更快看到结果 [76:06 Maor Shlomo]。\n\n## 为什么卖，怎么卖的\n\nWix 主动找来的，因为社区里很多人在喊「Wix 应该在它变大之前买下来」——同一个以色列生态，用户也在用 Base44 建网站 [78:41 Maor Shlomo]。CEO Avishai 第一句话就是「大家都在说我们应该买你，至少值得聊聊」[79:30 Maor Shlomo]。他们先吃了好几顿牛排，纯聊怎么发展 Base44，建立了很好的化学反应 [80:35 Maor Shlomo]。\n\n他认为谈判最好的姿态是：被收购也好，不被收购也好，都行。就像约会，太急切反而被动 [81:46 Maor Shlomo]。交易结构除了 8000 万美元的初始付款，还有一部分跟后续表现挂钩（earn-out），让他有持续的动力 [58:44 Maor Shlomo]。签字定在周四晚上，律师拖到凌晨两点还在改措辞，决定第二天早上再弄。结果凌晨四点伊朗和以色列开战了。不过第二天还是签了 [83:15 Maor Shlomo]。\n\n## 本集带走\n\n- **为自己或身边人解决真实问题再产品化**：不是「也许有人用得上」，而是「我女朋友需要」「我志愿的组织需要」，真痛点才能让你熬过早期。\n- **在确认用户会主动分享之前，零营销预算**：他的信号是朋友开始把产品推荐给朋友，第 11 个用户不认识他，这时候才投钱。\n- **让 LLM 写尽可能少的代码**：把增删改查、认证、数据库操作全封装成高层基础设施，LLM 只写差异部分。代码越少，出错越少，上下文越省。\n- **别用 TypeScript，用纯 JavaScript 和 JSX**：对 LLM 写代码更友好，少一层类型系统的干扰。\n- **押注一个渠道，看到效果就全力扑上去**：他试了付费、网红都没用，LinkedIn 有效就全部精力放 LinkedIn，Twitter 反而放弃。\n- **砍掉「正确但拖慢啊哈时刻」的中间步骤**：在 vibe coding 场景下，用户的惊喜感比产出质量更重要，先让他们看到结果再逐步加功能。\n- **至少 50% 的时间做你天才区域里的事**：不是所有事都要做，但一定要保住那块你既擅长又喜欢的工作，那是你每天能出现的动力来源 [86:17 Maor Shlomo]。",
+  "quotes": [
+    {
+      "en": "The funny thing is that Base44 for the first time in my life was not trying to build the biggest thing ever.",
+      "zh": "有趣的是，Base44 在我生命中第一次不是试图建造有史以来最大的东西。",
+      "timestamp": "00:05",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "I don't think I've written a single line of like HTML or JavaScript in the past three months, but still the Base44 front end changes a lot because AI writes that.",
+      "zh": "我不认为我在过去三个月里写过一行 HTML 或 JavaScript，但 Base44 的前端仍然变化很大，因为 AI 在写那些东西。",
+      "timestamp": "33:27",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "So yeah, if you have an interesting angle and you're able to move fast, I feel like money and funding is not necessarily the factor to win a category, and that's going to change even more drastically in the future.",
+      "zh": "所以是的，如果你有一个有趣的角度并且你能够快速行动，我觉得资金和融资并不是赢得一个类别的必要因素，而且这在未来将发生更剧烈的变化。",
+      "timestamp": "33:37",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "They're going to be 100X engineers because they're able to manage LLMs.",
+      "zh": "他们将成为 100 倍工程师，因为他们能够管理 LLM。",
+      "timestamp": "33:58",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "Controversial take for me working with LLMs is don't use TypeScript, use plain JavaScript, use JSX.",
+      "zh": "对我来说，与 LLM 合作的一个有争议的观点是不要使用 TypeScript，使用纯 JavaScript，使用 JSX。",
+      "timestamp": "71:46",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, \"Holy shit, it actually understood me.\"",
+      "zh": "我认为在 vibe coding 世界中，或者至少在 Base44 中，顿悟时刻的关键是，\"该死，它真的懂我。\"",
+      "timestamp": "77:18",
+      "speaker": "Maor Shlomo"
+    },
+    {
+      "en": "I think the best place, and this is not easy to get to, to this position, but the best position to negotiate such a deal or even to get there is to be also very fine with the other path of not getting acquired.",
+      "zh": "我认为最好的地方，这不容易达到这个位置，但是谈判这样一个交易甚至达到那个位置的最佳姿态是也要对不被收购的另一条路径感到非常无所谓。",
+      "timestamp": "81:46",
+      "speaker": "Maor Shlomo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:05",
+      "speaker": "Maor Shlomo",
+      "en": "The funny thing is that Base44 for the first time in my life was not trying to build the biggest thing ever.",
+      "zh": "有趣的是，Base44 在我生命中第一次不是试图建造有史以来最大的东西。"
+    },
+    {
+      "timestamp": "33:27",
+      "speaker": "Maor Shlomo",
+      "en": "I don't think I've written a single line of like HTML or JavaScript in the past three months, but still the Base44 front end changes a lot because AI writes that.",
+      "zh": "我不认为我在过去三个月里写过一行 HTML 或 JavaScript，但 Base44 的前端仍然变化很大，因为 AI 在写那些东西。"
+    },
+    {
+      "timestamp": "33:37",
+      "speaker": "Maor Shlomo",
+      "en": "So yeah, if you have an interesting angle and you're able to move fast, I feel like money and funding is not necessarily the factor to win a category, and that's going to change even more drastically in the future.",
+      "zh": "所以是的，如果你有一个有趣的角度并且你能够快速行动，我觉得资金和融资并不是赢得一个类别的必要因素，而且这在未来将发生更剧烈的变化。"
+    },
+    {
+      "timestamp": "33:58",
+      "speaker": "Maor Shlomo",
+      "en": "They're going to be 100X engineers because they're able to manage LLMs.",
+      "zh": "他们将成为 100 倍工程师，因为他们能够管理 LLM。"
+    },
+    {
+      "timestamp": "71:46",
+      "speaker": "Maor Shlomo",
+      "en": "Controversial take for me working with LLMs is don't use TypeScript, use plain JavaScript, use JSX.",
+      "zh": "对我来说，与 LLM 合作的一个有争议的观点是不要使用 TypeScript，使用纯 JavaScript，使用 JSX。"
+    },
+    {
+      "timestamp": "70:35",
+      "speaker": "Maor Shlomo",
+      "en": "When you're trying to implement a feature that try to get to a place where it can implement the feature entirely without you writing code, but that the LLM would write as least codes as possible.",
+      "zh": "当你试图实现一个功能时，试着到一个地方，它可以完全实现该功能而不需要你写代码，但 LLM 将写尽可能少的代码。"
+    },
+    {
+      "timestamp": "41:37",
+      "speaker": "Maor Shlomo",
+      "en": "I was like, \"I'm not going to try and scale anything before I know that users enjoy it.\"",
+      "zh": "我想过，\"在我知道用户喜欢它之前，我不打算尝试扩展任何东西。\""
+    },
+    {
+      "timestamp": "41:45",
+      "speaker": "Maor Shlomo",
+      "en": "And the best metric to seeing them enjoying it, or at least making value out of it, even if they're not enjoying because there are plenty of bugs and slowness and so on, is that they're starting to share it with someone.",
+      "zh": "而看到他们喜欢它的最佳指标，或者至少看到他们从中创造了价值，即使他们不喜欢，因为有很多 bug 和缓慢等等，是他们开始与他人分享它。"
+    },
+    {
+      "timestamp": "34:53",
+      "speaker": "Maor Shlomo",
+      "en": "I spent like $2,000 on an influencer post that didn't really bring anything, and then tried paid for a couple of thousands of bucks, didn't really work.",
+      "zh": "我花大约 2000 美元在一个网红帖子上，那并没有真正带来任何东西，然后尝试付费几千美元，并没有真正奏效。"
+    },
+    {
+      "timestamp": "56:13",
+      "speaker": "Maor Shlomo",
+      "en": "Once you see something work, just double, triple down on that.",
+      "zh": "一旦你看到某些东西有效，就在那上面加倍，三倍努力。"
+    },
+    {
+      "timestamp": "67:24",
+      "speaker": "Maor Shlomo",
+      "en": "I remember people commenting on my posts saying, \"You know what? It's moving so fast, I have to try it now.\"",
+      "zh": "我记得人们在我的帖子下评论说，\"你知道吗？它发展得如此之快，我现在就得试试。\""
+    },
+    {
+      "timestamp": "67:52",
+      "speaker": "Maor Shlomo",
+      "en": "Most of my thoughts, and still are, when running Base44 is how do we increase velocity?",
+      "zh": "我在经营 Base44 时的大部分想法，并且现在仍然是，我们如何提高速度？"
+    },
+    {
+      "timestamp": "77:26",
+      "speaker": "Maor Shlomo",
+      "en": "I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, \"Holy shit, it actually understood me.\"",
+      "zh": "我认为在 vibe coding 世界中，或者至少在 Base44 中，顿悟时刻的关键是，\"该死，它真的懂我。\""
+    },
+    {
+      "timestamp": "81:46",
+      "speaker": "Maor Shlomo",
+      "en": "I think the best place, and this is not easy to get to, to this position, but the best position to negotiate such a deal or even to get there is to be also very fine with the other path of not getting acquired.",
+      "zh": "我认为最好的地方，这不容易达到这个位置，但是谈判这样一个交易甚至达到那个位置的最佳姿态是也要对不被收购的另一条路径感到非常无所谓。"
+    },
+    {
+      "timestamp": "86:17",
+      "speaker": "Maor Shlomo",
+      "en": "Just make sure that at least 50% of your time you work on the parts of you that you really like and that you're really good at.",
+      "zh": "只要确保你至少有 50% 的时间在你真正喜欢并且真正擅长的部分上工作。"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Maor Shlomo",
+      "en": "One solo founder and specifically bootstrapping, I don't think it's suitable for every use case.",
+      "zh": "一个独立创始人，特别是自力更生，我不认为它适合每个用例。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Maor Shlomo",
+      "en": "You wake up in the morning as you feel profitable, and I think there's this term default alive.",
+      "zh": "你早上醒来感觉盈利，我认为这个词叫默认活着。"
+    },
+    {
+      "timestamp": "29:16",
+      "speaker": "Maor Shlomo",
+      "en": "Base44 was very profitable, much more than what I thought.",
+      "zh": "Base44 非常有利可图，远超我的预期。"
+    }
+  ]
+}

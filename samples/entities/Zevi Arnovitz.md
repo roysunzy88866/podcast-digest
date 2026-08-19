@@ -35,7 +35,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cursor]] · [[Claude Code]] · [[Bolt]] · [[Lovable]] · [[Linear]] · [[Anthropic]] · [[Composer]] · [[Codex]] · [[智能体]]
+[[Lenny]] · [[Cursor]] · [[Claude Code]] · [[Bolt]] · [[Lovable]] · [[Linear]] · [[Anthropic]] · [[Composer]] · [[Base44]] · [[Codex]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"Cursor":20,"Claude Code":23,"Bolt":1,"Lovable":6,"Linear":3,"Anthropic":47,"Composer":1,"Codex":18,"智能体":92}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"Cursor":22,"Claude Code":24,"Bolt":2,"Lovable":7,"Linear":3,"Anthropic":47,"Composer":1,"Base44":2,"Codex":19}</script>
 
 <script>
 (function(){

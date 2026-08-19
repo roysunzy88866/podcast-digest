@@ -1,0 +1,147 @@
+{
+  "title_zh": "MercadoLibre 的 18000 人工程团队怎么管",
+  "tldr": "拉美最大科技公司高管拆解：工程师兼做产品、每天部署 3 万次、不搞 OKR 的运营之道。",
+  "digest_md": "18000 名开发者，每天往生产环境推 30000 次变更——这比每个开发者每天平均一次还多。管这支队伍的人是 Sebastian Barrios，MercadoLibre 的工程高级副总裁。MercadoLibre 是拉美估值最高的公司，业务横跨电商和金融科技，自己有卡车、有飞机，每天配送超过 500 万个包裹。\n\n## 工程师就是产品负责人\n\nMercadoLibre 有 18000 名开发者，但拥有产品经理头衔的人不到 1000，比例大约只有 5%，而其他科技公司通常是 10% 到 30% 甚至更高 [10:06 SPEAKER_01]。这不是因为缺 PM，而是有意为之——他们不觉得工程和产品之间有明确的分界线 [09:11 Sebastian Barrios]。\n\n具体做法是：谁最适合拥有某个产品，就让它来负责，不看头衔。而事实证明，在大多数情况下，最适合的人是工程负责人和技术负责人——因为他们既懂技术上什么是可能的，也懂业务需求、用户需求，也知道怎么衡量效果 [10:40 Sebastian Barrios]。\n\n面试时确实会测产品技能，但主要还是测工程能力。公司对技术深度有强烈的偏好：如果你在会议上被问到细节，回答「我不确定我们用什么技术，得去问问某人」——这在 MercadoLibre 是行不通的 [11:32 Sebastian Barrios]。\n\n## 为什么这个模式没崩\n\n很多公司起步时也说「工程师领导产品，不需要 PM」，但规模一大，工程师就开始说「我不想整天开会写规格书，我只想写代码」。MercadoLibre 扩展到了 1000 亿美元市值、18000 人的规模，这个模式居然没崩，原因有两层。\n\n第一层是自上而下的。公司领导层本身非常懂技术，也非常深入产品细节。C 级会议上的讨论会细到「为什么用这段文案，字太多了」「这个像素为什么在这里，这个空间可以用来做更有用的事」[13:10 Sebastian Barrios]。而 CEO Marcos 问的第一个问题永远是「用户会怎么体验这个？给我看流程」，而不是「能带来多少收入」[13:39 Sebastian Barrios]。\n\n第二层是选人。他们在整个拉美地区、多个国家筛选顶尖人才，并维持这种文化 [14:07 Sebastian Barrios]。\n\n## AI 在这里加速的是「跳过代码」\n\nAI 对这种工程师兼做产品的工作方式不是威胁，而是加速器。Sebastian 说，他们不觉得产品和工程之间有明确界限，所以当更偏产品的人能用 AI 自己开发东西、做演示时，他非常高兴 [15:25 Sebastian Barrios]。\n\n但更有意思的是他们走得更远的一步：开发了一个叫 Verdi 的内部平台，抽象掉了数据获取、授权等复杂性 [16:54 Sebastian Barrios]。在这个平台上，他们做了实验——提取每个微服务的功能，然后让智能体(能自主执行多步骤任务的 AI)组合不同服务的不同部分，端到端地创建新功能，甚至带 UI，不需要写任何新代码 [17:40 Sebastian Barrios]。平台已经有大量现有功能，智能体可以直接组合它们变成新产品，不需要任何人写额外代码 [18:12 Sebastian Barrios]。\n\n## 不搞 OKR，但要紧密反馈\n\n18000 人不可能靠自上而下告诉每个人每天该干什么。他们不使用 OKR——不让所有事情层层分解到每个团队 [20:25 Sebastian Barrios]。公司只有非常高层次的目标，甚至没有 10 年计划，因为市场变化太快、竞争太激烈 [20:36 Sebastian Barrios]。\n\n具体运作方式是：传达公司方向的主要愿景，然后「做任何你认为对用户、对公司最好的事」[21:18 Sebastian Barrios]。但对齐靠的是大量设计评审和产品评审——领导层在这些评审中非常坦诚直接，说清楚什么有效、什么无效，包括愿景本身如果是错的也会快速转向 [24:41 Sebastian Barrios]。\n\n这里有个权衡：如果完全分布化，可能每个部分都不错，但拼在一起很糟糕。所以有时候需要更强的整体愿景来统一方向 [22:25 Sebastian Barrios]。\n\n## 观察用户，而不是光问用户\n\n「跟用户交谈、倾听用户」是常见建议，但 Sebastian 说他们发现最有效的方法是观察用户——看用户实际在用产品做什么 [23:08 Sebastian Barrios]。比如你在用户研究里看着某人在同一个输入框里同时输入了电子邮件和名字，因为字段上写着「电子邮件，名字」——你以为用户会分开填，但人家就全塞进去了。很多这类假设只有在观察时才会被粉碎 [23:31 Sebastian Barrios]。\n\n## 容错文化的真面目：不是写在墙上的\n\n「鼓励犯错」很多公司都说，但 Sebastian 很直接：文化不是你写在墙上或网站上的东西，是你实际做了什么 [31:16 Sebastian Barrios]。\n\n具体来说，可接受的错误和不可接受的错误要分清。系统中断、质量差导致下线——不可接受。但如果你在一个很大胆的愿景上冒险，结果证明方向错了——你不会被惩罚，甚至可能被晋升 [31:41 Sebastian Barrios]。\n\n怎么让全公司知道你是认真的？看谁被晋升了、谁没被晋升、谁在公开场合被表扬了、新产品公告怎么说的、没奏效的事情是怎么被谈论的。如果某个项目失败了，但负责项目的人被开除了——那你说「我们鼓励冒险」就没人在信了 [32:09 Sebastian Barrios]。\n\n## 在拉美做「彻底坦诚」为什么更难\n\nSebastian 提到《彻底坦诚》这本书的概念在拉美甚至更重要，因为这里有很强的等级制文化——「我不会告诉老板他错了，他说什么我们就做什么」「我不想出风头」[35:06 Sebastian Barrios]。人们极其有礼貌，很难对某事说不，会说「好的，但以后再说」，实际意思是不 [35:34 Sebastian Barrios]。\n\n阿根廷（公司成立地）在这方面是个例外，人比较直接 [35:49 Sebastian Barrios]。公司选择了这种直接坦诚的方式，并据此选人。他用高性能运动队而不是家庭来类比公司：可以一起玩得开心，但谈论工作和绩效时，结果就是结果，不藏着 [38:03 Sebastian Barrios]。\n\n## 对炒作保持怀疑的方法论\n\nSebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚至挖过比特币 [41:41 Sebastian Barrios]，MercadoLibre 也有自己的加密货币 [43:20 Sebastian Barrios]。但他对「地球上的每一件事物都将在区块链上运行」这种说法保持警惕 [43:46 Sebastian Barrios]。\n\n他的方法是：深入理解技术的 fundamentals（基础原理），算一些关键数据（比如吞吐量），然后结合自己在真实业务中理解的东西来判断规模是否可行 [42:39 Sebastian Barrios]。好技术可以非常成功，而不必征服世界 [43:52 Sebastian Barrios]。同样的逻辑也适用于 AI [43:59 Sebastian Barrios]。\n\n## 本集带走\n\n- **PM 比例可以压到极低**：18000 开发者配不到 1000 个 PM，关键是让技术负责人同时扛产品判断——前提是你招的人既懂技术细节又懂用户需求。\n- **容错要分清两类错误**：质量事故和系统中断零容忍；但方向性冒险如果错了不惩罚、甚至晋升——然后让全公司通过「谁被晋升了、失败了之后人怎么样」来判断你是不是认真的。\n- **不搞 OKR，靠评审对齐**：只传高层次愿景，团队自主决定做什么；对齐靠高频的设计评审和产品评审，领导层在评审里直接说什么行什么不行。\n- **观察用户 > 问用户**：用户说的和做的经常不一样，坐在旁边看他们实际怎么操作产品，假设会被当场粉碎。\n- **对 hype 的过滤框架**：先懂技术基础原理，算关键指标（吞吐量、延迟等），再结合真实业务规模判断——好技术不需要征服世界才算成功。",
+  "quotes": [
+    {
+      "en": "For me and for MercadoLibre, it's hard to separate where sort of like engineering stops and product begins.",
+      "zh": "对我来说，对于 MercadoLibre，很难区分工程在哪里停止，产品从哪里开始。",
+      "timestamp": "09:08",
+      "speaker": "Sebastian Barrios"
+    },
+    {
+      "en": "There's no way anyone can check what those 30,000 changes are doing. That's more than one per developer.",
+      "zh": "没有任何办法任何人可以检查那 30,000 次更改在做什么。这比每个开发者一次还多。",
+      "timestamp": "26:03",
+      "speaker": "Sebastian Barrios"
+    },
+    {
+      "en": "Because again, if we have a system outage, it's obviously unacceptable. That's not the kind of error that we're going for. We're going for, well, if you took a risk in a very bold vision and it turns out it was not the right path, you're not going to get penalized for that.",
+      "zh": "因为同样，如果我们有系统中断，那显然是不可接受的。那不是我们要的那种错误。我们要的是，嗯，如果你在一个非常大胆的愿景上冒险，结果事实证明这不是正确的路径，你不会因此受到惩罚。",
+      "timestamp": "31:41",
+      "speaker": "Sebastian Barrios"
+    },
+    {
+      "en": "But I think going from that to saying like, okay, every single thing on the planet is going to run on the blockchain, that's where some of my alarms start to go off. And it's like, well, it can be a great technology and it can be very successful without having to take over the world",
+      "zh": "但我认为从那个说法到说，比如，好吧，地球上的每一件事物都将在区块链上运行，这就是我的警报开始响起的地方。这就像，好吧，它可能是一项很棒的技术，并且可能非常成功，而不必征服世界",
+      "timestamp": "43:44",
+      "speaker": "Sebastian Barrios"
+    },
+    {
+      "en": "It became the top-selling app in Mexico and in a lot of other different countries. It was not a free app, and it was also completely local, so there was no back-end, no cost, no advertising. So it was a very profitable endeavor.",
+      "zh": "它成为了墨西哥和许多其他国家的最畅销应用。它不是一个免费应用，而且它完全是本地的，所以没有后端，没有成本，没有广告。所以这是一个非常盈利的尝试。",
+      "timestamp": "51:23",
+      "speaker": "Sebastian Barrios"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:11",
+      "speaker": "Sebastian Barrios",
+      "en": "For me and for MercadoLibre, it's hard to separate where sort of like engineering stops and product begins.",
+      "zh": "对我来说，对于 MercadoLibre，很难区分工程在哪里停止，产品从哪里开始。"
+    },
+    {
+      "timestamp": "11:32",
+      "speaker": "Sebastian Barrios",
+      "en": "There's not a lot of tolerance for being in a meeting and getting asked a question. It's like, well, I need to check with this person to understand the details because, you know, I'm not sure what technology we're using. Like, That would not fly.",
+      "zh": "对坐在会议上被问到一个问题并没有太多的容忍度。就是，嗯，我需要和这个人核实以了解细节，因为，你知道，我不确定我们使用的是什么技术。比如，那是行不通的。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Sebastian Barrios",
+      "en": "For Marcos, our CEO, the first question is, Always, okay, how's the user going to experience this? Show me the flow. Show me the user experience.",
+      "zh": "对于我们的 CEO Marcos 来说，第一个问题总是，总是说，好的，用户将如何体验这个？给我看流程。给我看用户体验。"
+    },
+    {
+      "timestamp": "18:12",
+      "speaker": "Sebastian Barrios",
+      "en": "There's a lot of functionality that we already have on the platform, and you can combine different parts of it and turn it into a new feature or product without any intervention from anybody. code, extra code.",
+      "zh": "平台上已经有很多功能，你可以组合它的不同部分并将其转化为新功能或产品而不需要任何人的干预。代码，额外的代码。"
+    },
+    {
+      "timestamp": "20:25",
+      "speaker": "Sebastian Barrios",
+      "en": "For example, we don't operate with OKRs where everything just trickles down into what every team is supposed to do.",
+      "zh": "例如，我们不使用 OKRs，让所有事情都渗透到每个团队应该做的事情上。"
+    },
+    {
+      "timestamp": "21:18",
+      "speaker": "Sebastian Barrios",
+      "en": "Saying like, okay, do whatever, literally whatever you think is best. for our users, for the company, for what we want to accomplish.",
+      "zh": "就像在说，好吧，做任何事，字面上任何你认为最好的事。为了我们的用户，为了公司，为了我们想要达成的目标。"
+    },
+    {
+      "timestamp": "23:31",
+      "speaker": "Sebastian Barrios",
+      "en": "I'm sure this has happened to you and to many people that listen to your show and you cringe at all the assumptions that are being crushed before your eyes as someone types in their email and their name in the same field because your field said email, comma, name.",
+      "zh": "我确信这发生在你身上，也发生在许多听你节目的人身上，当你在眼前看着所有假设被粉碎时你会感到难受，因为有人在同一个字段里输入他们的电子邮件和名字，因为你的字段写着电子邮件，逗号，名字。"
+    },
+    {
+      "timestamp": "26:03",
+      "speaker": "Sebastian Barrios",
+      "en": "There's no way anyone can check what those 30,000 changes are doing. That's more than one per developer.",
+      "zh": "没有任何办法任何人可以检查那 30,000 次更改在做什么。这比每个开发者一次还多。"
+    },
+    {
+      "timestamp": "31:16",
+      "speaker": "Sebastian Barrios",
+      "en": "It's very clear that it's not what you write on the walls or what you put on your website. From what I've learned and what we've seen, it's what you do.",
+      "zh": "很明显，这不取决于你在墙上写了什么或你在网站上放了什么。根据我的了解和我们看到的，这是你所做的。"
+    },
+    {
+      "timestamp": "31:41",
+      "speaker": "Sebastian Barrios",
+      "en": "Because again, if we have a system outage, it's obviously unacceptable. That's not the kind of error that we're going for. We're going for, well, if you took a risk in a very bold vision and it turns out it was not the right path, you're not going to get penalized for that.",
+      "zh": "因为同样，如果我们有系统中断，那显然是不可接受的。那不是我们要的那种错误。我们要的是，嗯，如果你在一个非常大胆的愿景上冒险，结果事实证明这不是正确的路径，你不会因此受到惩罚。"
+    },
+    {
+      "timestamp": "32:09",
+      "speaker": "Sebastian Barrios",
+      "en": "Who has what title? Who gets promoted? Who doesn't get promoted? Who is getting what praise in public? What announcements are made on new products? How do we talk about things that didn't work?",
+      "zh": "谁有什么头衔？谁得到了晋升？谁没有得到晋升？谁在公开场合得到了什么表扬？关于新产品发布了什么公告？我们如何谈论那些没有奏效的事情？"
+    },
+    {
+      "timestamp": "35:06",
+      "speaker": "Sebastian Barrios",
+      "en": "Where there's a lot of hierarchy and I'm not going to tell my boss that he's wrong. We're just going to do this because he said so or she said so. This is the way it works. This is the way it's always been done, so that's the way we're going to do it. I don't want to stand out.",
+      "zh": "那里有很多等级制度，我不会告诉我老板他错了。我们只会照做，因为他或她是这么说的。这就是运作方式。这一直都是这么做的，所以我们也要这么做。我不想出风头。"
+    },
+    {
+      "timestamp": "38:03",
+      "speaker": "Sebastian Barrios",
+      "en": "Whereas I think the analogy that we use much more often is of a high-performance sports team where it's very clear where the line is between, yes, we can have fun together and we should as we work on interesting things. But when you are talking about work and the performance and what's working, what's not working, The results speak for themselves usually, and we just don't hide that from anyone.",
+      "zh": "而我认为我们更常使用的类比是关于一个高性能的运动团队，那里的界限非常清楚，在是的，我们可以一起玩得开心，我们在做有趣的事情时也应该这样。但当你在谈论工作、绩效以及什么有效，什么无效时，结果通常不言自明，我们不向任何人隐瞒这一点。"
+    },
+    {
+      "timestamp": "43:46",
+      "speaker": "Sebastian Barrios",
+      "en": "But I think going from that to saying like, okay, every single thing on the planet is going to run on the blockchain, that's where some of my alarms start to go off. And it's like, well, it can be a great technology and it can be very successful without having to take over the world",
+      "zh": "但我认为从那个说法到说，比如，好吧，地球上的每一件事物都将在区块链上运行，这就是我的警报开始响起的地方。这就像，好吧，它可能是一项很棒的技术，并且可能非常成功，而不必征服世界"
+    },
+    {
+      "timestamp": "47:20",
+      "speaker": "Sebastian Barrios",
+      "en": "And he told me, check again, because we just added a new rule that apps cannot overly drain the battery on the phones.",
+      "zh": "他告诉我，再检查一遍，因为我们刚刚添加了一条新规则，应用不能过度消耗手机上的电池。"
+    },
+    {
+      "timestamp": "50:20",
+      "speaker": "Sebastian Barrios",
+      "en": "It became the top-selling app in Mexico and in a lot of other different countries. It was not a free app, and it was also completely local, so there was no back-end, no cost, no advertising. So it was a very profitable endeavor.",
+      "zh": "它成为了墨西哥和许多其他国家的最畅销应用。它不是一个免费应用，而且它完全是本地的，所以没有后端，没有成本，没有广告。所以这是一个非常盈利的尝试。"
+    },
+    {
+      "timestamp": "63:28",
+      "speaker": "Sebastian Barrios",
+      "en": "I think that's probably what's been the guiding principle for me. Follow your curiosity, what excites you. It's also probably what you're going to be good at because it's hard to compete with someone who loves what they're doing if you don't love that thing.",
+      "zh": "我认为这大概就是一直指导我的原则。跟随你的好奇心，那些让你兴奋的东西。这大概也是你会擅长的东西，因为如果你不喜欢那件事，很难与一个热爱自己正在做的事情的人竞争。"
+    },
+    {
+      "timestamp": "73:20",
+      "speaker": "Sebastian Barrios",
+      "en": "That life and the world are malleable. Things aren't as set in stone as you would think. There's usually a way to get what you're after.",
+      "zh": "生活和世界是可塑的。事情并不像你想的那样是板上钉钉的。通常有一条路可以得到你追求的东西。"
+    }
+  ]
+}

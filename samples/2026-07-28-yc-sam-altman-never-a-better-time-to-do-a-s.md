@@ -193,7 +193,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、ChatGPT</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)</span>
-- [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:hugging face · 同概念:推理 (inference)</span>
+- [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
 
 </div>
 </div>

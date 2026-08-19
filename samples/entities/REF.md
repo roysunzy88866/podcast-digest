@@ -25,7 +25,7 @@ unlisted: true
 
 [[Matt Dailey]] · [[速度病]] · [[智能体]] · [[决策层]] · [[上下文工程]] · [[状态]] · [[原型重力]] · [[智能体破产]] · [[计划模式]]
 
-<script type="application/json" class="pd-epn">{"Matt Dailey":1,"速度病":1,"智能体":92,"决策层":1,"上下文工程":5,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Dailey":1,"速度病":1,"智能体":95,"决策层":1,"上下文工程":6,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":2}</script>
 
 <script>
 (function(){

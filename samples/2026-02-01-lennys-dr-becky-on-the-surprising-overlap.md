@@ -203,6 +203,18 @@ jsonLd: |
 > <span class="qz">我们的孩子只能学会容忍我们在他们身上容忍的感觉。</span>  
 > *Our kids can only learn to tolerate the feelings we tolerate in them.*  
 > <span class="qm">—— Dr. Becky Kennedy · [59:35]</span> ^q12
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「组织与领导力」挖下去**
+
+- [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:Radical Candor</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

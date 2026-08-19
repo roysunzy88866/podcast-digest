@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Ethan Smith]] · [[Chip Huyen]] · [[Garry Tan]] · [[Brendan McManus]] · [[AEO]] · [[后训练]] · [[技能文件]]
 
-<script type="application/json" class="pd-epn">{"Lenny":52,"智能体":92,"ChatGPT":20,"Ethan Smith":1,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"AEO":1,"后训练":9,"技能文件":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":95,"ChatGPT":24,"Ethan Smith":1,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"AEO":1,"后训练":10,"技能文件":1}</script>
 
 <script>
 (function(){

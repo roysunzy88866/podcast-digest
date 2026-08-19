@@ -1,0 +1,153 @@
+===标题===
+一个人六个月把 vibe coding 工具卖给 Wix
+===导语===
+独立创始人零融资，六个月从零到 8000 万美元被收购的完整路径。
+===正文===
+Maor Shlomo 用六个月把 Base44 做到 40 万用户，以 8000 万美元卖给 Wix，全程没融过一分钱，前四个半月只有他一个人。他上一家公司融了 1.3 亿美元、干了七年，这一次他给自己定的目标是在 2025 年底前做到 150 万美元 ARR 就买辆好车——结果四周就到了。
+
+## 不追"最大"，反而跑得最快
+
+Base44 的出发点不是"我要赢下这个品类"。Maor 之前创办 Explorium，上来就想着"在最短时间内融最多的钱"，干了七年。这次他从预备役退伍、旅行回来，只想回到他真正喜欢的事——写代码、做产品。女朋友需要一个获客网站，用传统拖拽工具做得很痛苦；他在童子军组织做志愿者，看到他们没有工程师，每次找外包都被报价上百万美元。这两件事让他意识到：LLM 已经能写这些代码了，缺的只是让 LLM 能直接连上数据库、用户管理这些基础设施——于是 Base44 诞生了 [05:30 Maor Shlomo]。
+
+他的心态是"没什么可失去的"，这反而给了他很多能量。不做 MVP(最小可行产品)，而是直接给真正会用的人做一个能用的东西；不追求"最大的东西"，只追求"我喜欢做的东西" [37:06 Maor Shlomo]。这种低压力状态，恰恰让他跑得最快。
+
+## " Batteries Included "：跟竞品拉开差距的做法
+
+Base44 所在的赛道极其拥挤——Lovable、Bolt、Replit、v0、Vercel 都在。Maor 的差异化是" Batteries Included "(开箱即用)：在 Base44 上建的每一个应用，自动内置数据库、集成、用户管理、分析，不需要用户自己去接 Supabase 等第三方服务 [05:48 Maor Shlomo]。竞品大多做 React 前端然后接 Supabase，集成再好也不如全栈一体强。他专门把端点和 SDK 设计成对 LLM 友好的结构，让模型能用最少的代码量实现功能 [07:03 Maor Shlomo]。
+
+## 独立创始人的生存法则
+
+Maor 认为独立+自举不适合所有场景——做 B2B 企业级销售就不行，你得雇销售团队、砸营销。但如果你的产品有病毒传播潜力、面向大众，能跑过"逃逸速度"达到盈利，那独立自举从财务结果看反而更好 [15:25 Maor Shlomo]。
+
+但也有残酷的一面。没有 DevOps 团队、没有 on-call(值班)，他在哥哥婚礼上接到朋友电话说 Base44 被"黑客"入侵了——结果是 LLM 用了一个叫 cryptography 的 Node.js 包(跟加密货币无关)，非技术用户看到报错以为是被加密骗局攻击了 [18:26 Maor Shlomo]。独自扛这些压力，没人分担。
+
+每天的挣扎是"我想做什么"vs"我必须做什么"。他总是想写代码、改产品，但很多时候瓶颈不在产品而在获客，必须逼自己去做营销 [20:40 Maor Shlomo]。他的解法是把一切能自动化的都自动化——用 Base44 自己给自己 build 了一个内容生成工具，把"写灵感→改写成 LinkedIn 帖子→拆成 Twitter 串"的整个流程 vibe coding 成了一个自定义应用，LLM 还会学习他之前的帖子风格来模仿他的语气 [24:28 Maor Shlomo]。他管这叫"自适应软件"——流程变了，两句话就能改 [28:08 Maor Shlomo]。
+
+## 从 3 个朋友到每天 4000 新用户
+
+**前 10 个用户**：三个非常亲密的朋友，其中两个当时失业。他让他们隔天围坐在桌旁用 Base44，东西坏了就现场看日志、改代码、推上线，直接帮他们构建 [40:43 Maor Shlomo]。他不做任何营销，直到看到这些朋友开始主动分享给他们的朋友——"用户开始分享给其他人"是他判断"可以开始投入增长"的信号 [41:37 Maor Shlomo]。
+
+**前 50 个用户**：第一次 Product Hunt 发布，很失败，只拿到 15 个新用户。但他不把它当"成败时刻"，只当"获取下 30 个用户的工具" [43:19 Maor Shlomo]。拿到了第一个付费用户——虽然几小时后就流失了，因为产品还不够好 [44:04 Maor Shlomo]。
+
+**爆发点**：一个创始人朋友建议他"公开构建"(build in public)。他的受众刚好也是 builder(做东西的人)，在 LinkedIn 上分享技术栈、优化 LLM 的方法、真实的增长数据(好的和坏的都写)，效果极好 [45:18 Maor Shlomo]。第二个增长杠杆是"分享送额度"：用户在社交媒体分享自己用 Base44 构建的东西(甚至不必提到 Base44)，就送额外构建额度。早期是用户发邮件给他，他手动加，后来才自动化 [46:30 Maor Shlomo]。
+
+**关键转折**：从每天 20 个新用户到每天 4000 个，只花了一周。产品直接被流量冲垮，他边学边做扩展 [47:23 Maor Shlomo]。第二次 Product Hunt 发布更是因为投票太多被算法判定为机器人，社区的人直接去找 Product Hunt 客服，才修复跳到第一名，领先第二名 500 票 [60:52 Maor Shlomo]。
+
+他的增长经验总结：付费广告(花了几千美元)和网红营销都没用；全靠有机增长。押注一个渠道——他选了 LinkedIn，看到有效就 all in，Twitter 对他来说是浪费时间 [55:39 Maor Shlomo]。速度本身也是增长引擎：每隔一天就发新功能，人们会说"它发展得太快了，我现在就得试试" [67:06 Maor Shlomo]。
+
+## 技术栈：为 AI 写代码而优化的选择
+
+- **Render.com**：管理所有基础设施(网站、平台、用户应用)，在他看来比之前公司庞大 DevOps 团队搞的流程好用太多 [68:40 Maor Shlomo]
+- **MongoDB**：vibe coding 场景下 schema(数据结构)变化频繁，LLM 不总能理解用户意图会反复改结构，MongoDB 比关系型数据库更适合 [70:01 Maor Shlomo]
+- **不用 TypeScript，用纯 JavaScript + JSX**：有争议，但模型写纯 JS 更少出错 [71:46 Maor Shlomo]
+- **前后端放同一个代码仓库**：方便给 AI 提供完整上下文 [72:20 Maor Shlomo]
+- **后端用 Python**：没遇到性能问题，流量大甚至扛过 DDoS [72:42 Maor Shlomo]
+- **多模型路由**：Base44 内部根据任务类型选不同 LLM——Claude 擅长从零开始写和 UI，Gemini 擅长解复杂问题和破 bug 死循环；先用重炮模型定高层方案，再用小快模型(如 Flash、o4-mini)去具体补丁代码 [73:20 Maor Shlomo]
+- **让 LLM 写尽可能少的代码**：他建了一套高度抽象的基础设施层，CRUD、认证、数据库全包了，LLM 每次只需写很少的代码就能实现新功能，减少出错点 [70:24 Maor Shlomo]
+
+## 一个反直觉的产品教训
+
+他曾经在设计"顿悟时刻"时犯了一个错：在生成应用之前，先让 LLM 生成用户流程(类似 PRD 但更通俗)，让用户确认理解对了再写代码。这从产品角度看是对的——生成的应用更好。但从转化角度看是灾难：vibe coding 的"顿悟时刻"是"天哪它真的懂我了然后直接给我看到了应用"，中间加一层确认反而削弱了惊喜感，转化率下降。他果断砍掉了这个环节 [76:06 Maor Shlomo]。
+
+## 被收购：不是退出，是换种方式打大联赛
+
+Wix 主动联系他，起因是社区用户自发在社交媒体上说"Wix 应该在 Base44 变太大之前买下它" [78:42 Maor Shlomo]。他跟 Wix CEO Avishai 先吃了几次牛排、纯聊怎么增长 Base44，建立化学反应后才进入正题。
+
+他强调两点：第一，小团队被收购，买方非常看重跟创始人的化学反应——他们买的是你这个人，不是买运营 [80:35 Maor Shlomo]。第二，谈判最好的姿态是"被收购很好，不被收购也很好"，像约会一样不表现出太强的需求感 [81:46 Maor Shlomo]。
+
+交易结构除了 8000 万美元初始付款，还有一大块 earn-out(基于业绩的后续支付)，让他未来几年仍有强烈动力把产品做大 [58:44 Maor Shlomo]。签字那天晚上拖到凌晨两点，律师说还要改措辞，决定明早再签。结果凌晨四点伊朗和以色列开战了——他笑着说"又来了，太经典了" [84:00 Maor Shlomo]。第二天早上还是签了。
+
+## 本集带走
+
+- **先给真的人做真的东西，别做 MVP**：找几个欠你人情或愿意忍受 bug 的人，坐他们旁边看他们用，现场改。确认他们开始主动分享给别人了，再投入增长。
+- **" Batteries Included "可以跟大厂产品拉开差距**：在拥挤赛道里，把用户本来要自己接的第三方服务全部内置，再专门把接口设计成对 LLM 友好的结构。
+- **为 AI 写代码优化技术栈**：用 MongoDB 应对频繁的 schema 变化，用纯 JS 而非 TypeScript 减少模型出错，前后端同仓库给 AI 完整上下文，建高度抽象的基础设施层让 LLM 每次只写最少代码。
+- **多模型路由比单模型强**：根据任务类型(从零写 vs 解复杂 bug vs 补丁代码)路由到不同 LLM，重炮定方案、小快做执行。
+- **押注一个增长渠道，看到有效就 all in**：付费和网红没用就果断放弃，他全靠 LinkedIn 公开构建+分享送额度两个杠杆。
+- **别在"顿悟时刻"前加确认步骤**：vibe coding 的爽感在于"说完就看到"，中间加任何确认环节都会削弱惊喜、降低转化。
+- **至少 50% 的时间待在你的"天才区域"**：做你既擅长又喜欢的事，这是让你每天有能量出现的根本 [86:17 Maor Shlomo]。
+===金句===
+00:05 Maor Shlomo
+EN | The funny thing is that Base44 for the first time in my life was not trying to build the biggest thing ever.
+ZH | 有趣的是 Base44 在我生命中第一次不是试图建造有史以来最大的东西。
+
+00:15 Maor Shlomo
+EN | If we get to 1.5 million until the end of 2025, we're going to buy a nice car," and we got there in four weeks.
+ZH | 如果我们在 2025 年底前赚到 150 万美元，我们就要买一辆好车，结果我们在四周内就达到了。
+
+00:38 Maor Shlomo
+EN | I don't think I've written a single line of HTML or JavaScript in the past three months.
+ZH | 我认为在过去三个月里我没有写过一行 HTML 或 JavaScript。
+
+01:00 Maor Shlomo
+EN | I'm not going to try and scale anything before I know that users enjoy it and the best metric to seeing them enjoying it is that they're starting to share it with someone.
+ZH | 在我知道用户喜欢它之前，我不打算尝试扩展任何东西，看到他们享受它的最佳指标是他们开始与他人分享它。
+
+05:48 Maor Shlomo
+EN | Base44 takes a very different approach, a very opinionated one for and one that users or users like to call it a batteries included approach, which means that for every app that you build in Base44, you already have built-in included database, integrations, user management, analytics without connecting third party services or bringing your API keys and so on.
+ZH | Base44 采取了一种非常不同的方法，一种非常有主见的方法，也是用户喜欢称之为包含电池的方法，这意味着对于你在 Base44 中构建的每个应用，你已经拥有内置的数据库、集成、用户管理、分析，而无需连接第三方服务或提供你的 API 密钥等等。
+
+12:12 Maor Shlomo
+EN | When you're approaching it this way, there's not a lot to lose and I think it gives a lot of energy and that's how Base44 started.
+ZH | 当你以这种方式接近它时，没有太多可失去的，我认为这会给予很多能量，这就是 Base44 的开始方式。
+
+15:25 Maor Shlomo
+EN | One solo founder and specifically bootstrapping, I don't think it's suitable for every use case. If you're building a B2B company, especially if you're doing a B to enterprise company, you'll need to hire a salesperson or sales team.
+ZH | 一个独立创始人，特别是自力更生，我不认为它适合每个用例。如果你正在建立一家 B2B 公司，特别是如果你正在做 B to enterprise 公司，你需要雇佣一名销售人员或销售团队。
+
+16:07 Maor Shlomo
+EN | If you're building something that has the potential to be viral or to target the masses, and so it doesn't really matter if you're funded or not, you just build a great product that people will share.
+ZH | 我觉得如果你正在构建某种具有病毒传播潜力或面向大众的东西，那么你是否获得资金并不重要，你只是构建一个人们会分享的伟大产品。
+
+33:27 Maor Shlomo
+EN | I don't think I've written a single line of like HTML or JavaScript in the past three months, but still the Base44 front end changes a lot because AI writes that.
+ZH | 我不认为我在过去三个月里写过一行像 HTML 或 JavaScript 的东西，但 Base44 的前端仍然变化很大，因为 AI 在写那些东西。
+
+33:54 Maor Shlomo
+EN | As LLMs get better, it's like people, like 10X engineers would have way more impact. They're going to be 100X engineers because they're able to manage LLMs.
+ZH | 随着 LLM 变得更好，就像 10 倍工程师将有更大的影响力一样。他们将成为 100 倍工程师，因为他们能够管理 LLM。
+
+34:02 Maor Shlomo
+EN | And it's not necessarily the team size, nor the funding, that will be able to win you a category.
+ZH | 而且不一定是团队规模，也不一定是资金，将能够让你赢得一个类别。
+
+43:19 Maor Shlomo
+EN | I feel like people sometimes treat their launches, like product launches as like make it or break it for the company. This wasn't the case for me. I was like, "This is a tool for me to get to my next 30 users, my next 50 users."
+ZH | 我觉得人们有时把他们的发布，比如产品发布，看作是公司的成败关键。对我来说情况并非如此。我想，这是让我获得下 30 个用户、下 50 个用户的工具。
+
+49:00 Maor Shlomo
+EN | There are some things that I don't believe in is MVPs, first and foremost, is like if you're building something that people will not be able to use or is not good enough, especially these days where it's so much easier to build software, so the attention span for people to actually try out new software products is getting shorter and shorter.
+ZH | 我认为有些事情我不相信，那就是 MVP，首先就是，如果你正在构建人们无法使用或不够好的东西，特别是在如今构建软件如此容易的情况下，人们尝试新软件产品的注意力持续时间越来越短。
+
+53:23 Maor Shlomo
+EN | The fact that I wasn't a VC-funded company, I didn't try looking the best or show, "Hey, look at my amazing metrics," I think just writing really about the good, the bad and the ugly and just being very realistic and sharing the learnings along the way.
+ZH | 事实是我不是一家 VC 融资的公司，我没有尝试看起来最好或者展示"嘿，看我惊人的指标"，我认为只是真正写关于好的、坏的和丑陋的，只是非常现实并分享沿途的学到的东西。
+
+55:39 Maor Shlomo
+EN | 'Til this day I think that for me posting on Twitter was a waste of time. Once you see something work, just double, triple down on that.
+ZH | 直到今天我认为对我来说在 Twitter 上发布是浪费时间。一旦你看到某些东西有效，就在那上面加倍，三倍努力。
+
+67:06 Maor Shlomo
+EN | People like to see charts and they like to see numbers. It gets them attached to this project if they are saying, "Oh, I wonder what's going to be profit next week."
+ZH | 人们喜欢看图表，喜欢看数字。如果他们说"噢，我想知道下周的利润会是什么样"，他们就会与这个项目产生依恋。
+
+70:24 Maor Shlomo
+EN | One thing that I kept doing is I tried making the LLM write as least code as possible. When you're trying to implement a feature that try to get to a place where it can implement the feature entirely without you writing code, but that the LLM would write as least codes as possible.
+ZH | 我一直在做的一件事是，我试图让 LLM 写尽可能少的代码。当你试图实现一个功能时，试着到一个地方，它可以完全实现该功能而不需要你写代码，但 LLM 将写尽可能少的代码。
+
+71:46 Maor Shlomo
+EN | Controversial take for me working with LLMs is don't use TypeScript, use plain JavaScript, use JSX. It's easier for models to write code this way.
+ZH | 对我来说，与 LLM 合作的一个有争议的观点是不要使用 TypeScript，使用纯 JavaScript，使用 JSX。对于模型来说，用这种方式写代码更容易。
+
+77:17 Maor Shlomo
+EN | I think one of the key to the aha moment in the vibe coding world, or at least in Base44, is like, "Holy shit, it actually understood me." And they see the app. And if you have a stage in the middle, it makes it slightly less surprising.
+ZH | 我认为在 vibe coding 世界中，或者至少在 Base44 中，顿悟时刻的关键是"天哪，它真的懂我"。然后他们看到了那个应用。如果你在中间有一个阶段，这会让它稍微不那么令人惊讶。
+
+81:46 Maor Shlomo
+EN | The best position to negotiate such a deal or even to get there is to be also very fine with the other path of not getting acquired. In some ways it's weird, but it's like in dating. When you're in the first couple of dates, you don't want to show too much interest.
+ZH | 谈判这样一个交易甚至达到那个位置的最佳姿态是也要对不被收购的另一条路径感到非常无所谓。在某些方面这很奇怪，但这就像约会。当你在前几次约会时，你不想表现出太大的兴趣。
+
+86:17 Maor Shlomo
+EN | Just make sure that at least 50% of your time you work on the parts of you that you really like and that you're really good at. 50% of it should be in this sweet spot of you are doing the thing that you are genius at, your genius zone or whatever they call it.
+ZH | 只要确保你至少有 50% 的时间在你真正喜欢并且真正擅长的部分上工作。其中 50% 应该处于这个最佳击球点，你在做你天才般擅长的事情，你的天才区域或者不管他们怎么称呼它。
+===END===

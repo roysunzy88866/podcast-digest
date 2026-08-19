@@ -11,13 +11,13 @@ description: 前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃
 host: "[[Matt MacInnis]]"
 cohosts: ["[[Lenny]]", "[[Amar]]"]
 companies: ["[[Rippling]]"]
-concepts: ["[[刻意人手不足]]", "[[Alpha 与 Beta]]", "[[产品市场契合度]]", "[[熵]]", "[[幂律分布]]", "[[单点解决方案]]"]
+concepts: ["[[刻意人手不足]]", "[[Alpha 与 Beta]]", "[[产品市场契合]]", "[[熵]]", "[[幂律分布]]", "[[单点解决方案]]"]
 category: 组织与领导力
 tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths#post","headline":"故意让人手不足:Rippling 首席产品官的非常规管理心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","mainEntityOfPage":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","description":"前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。","datePublished":"2025-12-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths","about":[{"@type":"Person","name":"Matt MacInnis"},{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amar"},{"@type":"Organization","name":"Rippling"},{"@type":"Thing","name":"刻意人手不足 (understaffed)"},{"@type":"Thing","name":"Alpha 与 Beta (alpha beta)"},{"@type":"Thing","name":"产品市场契合度 (product market fit)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"幂律分布 (power law)"},{"@type":"Thing","name":"单点解决方案 (point solutions)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"故意让人手不足:Rippling 首席产品官的非常规管理心法","item":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths#post","headline":"故意让人手不足:Rippling 首席产品官的非常规管理心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","mainEntityOfPage":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","description":"前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。","datePublished":"2025-12-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths","about":[{"@type":"Person","name":"Matt MacInnis"},{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amar"},{"@type":"Organization","name":"Rippling"},{"@type":"Thing","name":"刻意人手不足 (understaffed)"},{"@type":"Thing","name":"Alpha 与 Beta (alpha beta)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"幂律分布 (power law)"},{"@type":"Thing","name":"单点解决方案 (point solutions)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"故意让人手不足:Rippling 首席产品官的非常规管理心法","item":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>故意让人手不足:Rippling 首席产品官的非常规管理心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Rippling]]
 >
-> **概念** [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
+> **概念** [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
 
@@ -177,8 +177,8 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
 **顺着「组织与领导力」挖下去**
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
-- [[2025-08-03-lennys-chip-conley|52岁入职Airbnb：年长者在科技公司怎么活下来、活得好]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|Hilary Gridley：教团队"挨打"的产品领导力]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">
@@ -187,7 +187,7 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
 
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Notion</span>
+- [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|Bob Baxley：设计是可见的清晰思考]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Apple</span>
 
 </div>
 </div>

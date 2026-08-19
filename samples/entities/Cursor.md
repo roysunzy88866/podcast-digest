@@ -7,10 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(31:38起):本集将其作为凭借更好的产品工艺水平突破 Copilot 分发优势的例子之一提及。
+- **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(23:06起):本集提到 Cursor 筹集了巨额资金，是 Base44 所在领域的竞争者，但并非直接竞争
 - **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(40:43起):本集将 Cursor 作为混合定价模式的典型案例：能证明提高生产力、缩短写代码时间（高归因），但仍处于副驾驶模式（低自主），适合订阅底座加按用量分层的混合模式
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(02:59起):本集说几乎所有软件工程公司都在用 Cursor 帮助工程师，但它生成的代码经常有错，审查别人代码里微妙的逻辑错误比改自己写的代码难得多，反而可能降低生产力。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(07:27起):本集提到 Cursor 在九个月内超过 GitHub Copilot 的市场份额，作为 AI 创造新增长火花的例外案例，并称其可能也在走向创建某种智能体平台
@@ -44,8 +46,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*22 集*
 
+- [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
+- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -71,9 +75,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Codex]] · [[GitHub]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Lovable]] · [[Meta]]
+[[智能体]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Lovable]] · [[GitHub]] · [[ChatGPT]] · [[vibe coding]] · [[Claude]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":92,"Lenny":52,"Codex":18,"GitHub":16,"OpenAI":37,"Claude":19,"Anthropic":47,"Claude Code":23,"Lovable":6,"Meta":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":95,"Lenny":58,"Codex":19,"OpenAI":38,"Lovable":7,"GitHub":16,"ChatGPT":24,"vibe coding":12,"Claude":21,"Anthropic":47}</script>
 
 <script>
 (function(){
