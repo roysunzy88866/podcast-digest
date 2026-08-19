@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -442,6 +442,28 @@ describe("selectBackfillRecent · C31 补历史只补 2026、最新优先(替代
 
   it("DAILY_TARGET 是 8(软目标;5→8 = 2026-08-18 用户拍板·standard-change,C28 便宜通道后产能腾出)", () => {
     expect(DAILY_TARGET).toBe(8);
+  });
+});
+
+describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配额)", () => {
+  const TODAY = "2026-08-19";
+  it("★★★ 今天入库的 2026 集算(这才是用户要的产出)", () => {
+    expect(countsTowardDailyTarget("2026-08-17-lennys-x", { added: TODAY }, TODAY)).toBe(true);
+  });
+  it("★★★ 今天入库的 2025 老集**不算** —— 实证:9 条老集把 10/8 顶满,新规则第一天一条没补", () => {
+    expect(countsTowardDailyTarget("2025-06-08-lennys-inside-mercado-libre", { added: TODAY }, TODAY)).toBe(false);
+    expect(countsTowardDailyTarget("2025-12-31-lennys-x", { added: TODAY }, TODAY)).toBe(false);
+  });
+  it("★★ 年份边界与 BACKFILL_SINCE 同源(2026-01-01 起算)", () => {
+    expect(countsTowardDailyTarget("2026-01-01-a16z-x", { added: TODAY }, TODAY)).toBe(true);
+    expect(countsTowardDailyTarget("2025-12-31-a16z-x", { added: TODAY }, TODAY)).toBe(false);
+  });
+  it("★ 不是今天入库的一概不算(哪年的都一样)", () => {
+    expect(countsTowardDailyTarget("2026-08-17-lennys-x", { added: "2026-08-18" }, TODAY)).toBe(false);
+  });
+  it("meta 缺 added / 空 meta 不炸也不算", () => {
+    expect(countsTowardDailyTarget("2026-08-17-lennys-x", {}, TODAY)).toBe(false);
+    expect(countsTowardDailyTarget("2026-08-17-lennys-x", null, TODAY)).toBe(false);
   });
 });
 

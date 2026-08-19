@@ -1036,10 +1036,21 @@ function revivePass(state, { onlyKey, dryRun }) {
 // 放在真新集+补活之后:绝不挤真新;只日常 cron 默认路径触发(main 守卫)。
 
 /** 当天(UTC added 日期)已入库的干净集数——真新+补活+已补历史都算(顶量判据,跨 cron 班次幂等)。 */
+/** 这一集算不算「当天产出」(纯逻辑,给每日目标计数用)。
+ *  C31b(2026-08-19 用户拍板「只算 2026 内容」):不只看入库日,还要看**集本身的年份**够不够口径。
+ *  病根实证:C31 生效前那班按老策略补了 9 条 2025 老集,当天计数 10/8 直接顶满 →
+ *  新规则上线第一天一条 2026 内容都没补,用户看到的仍是「今天又只有一条」。
+ *  老集(过渡期遗留 / 人工补 / 将来任何原因)不许再占配额,把真正该补的新内容挡在门外。 */
+export function countsTowardDailyTarget(id, meta, todayISO) {
+  if (meta?.added !== todayISO) return false;
+  return String(id).slice(0, 10) >= BACKFILL_SINCE.slice(0, 10); // id 前 10 位 = 集发布日 YYYY-MM-DD
+}
+
 function countAddedToday(todayISO) {
   return completedIds().filter((id) => {
     try {
-      return JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")).added === todayISO;
+      const meta = JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8"));
+      return countsTowardDailyTarget(id, meta, todayISO);
     } catch {
       return false;
     }
