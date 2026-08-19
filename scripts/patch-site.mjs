@@ -176,8 +176,12 @@ patchFile(
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         {/* 主屏图标:没有这行 iOS 会拿页面截图当图标 —— 我要用户删掉重加图标才能启用独立模式,
-            不补这行等于让他把现在的 SOLO 标换成一张截图。指向 deploy-site.sh 换好的 SOLO 站标。*/}
-        <link rel="apple-touch-icon" href="/static/icon.png" />
+            不补这行等于让他把现在的 SOLO 标换成一张截图。
+            ⚠️ 必须指向**不透明**的专用图(2026-08-19 用户实测:原来复用 favicon 的 icon.png 是
+            200x200 RGBA,iOS 对带 alpha 的主屏图标直接弃用 → 退化成拿站名首字生成的「跨」字图标)。
+            apple-touch-icon.png = 180x180(iPhone @3x 标准)白底不透明,由 tools/make-icons.mjs 生成。
+            favicon 仍用带透明的 icon.png(浏览器标签页要透明才好看),两者刻意分开。*/}
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
         {/* C22 · SEO:canonical(复用本页 URL)*/}
         <link rel="canonical" href={socialUrl} />
         {/* C26 · feed 自发现:RSS 阅读器/Agent 粘站点 URL 即自动找到 feed(json 全文 / xml 播客)*/}

@@ -77,6 +77,10 @@ echo "public/logos png=$(ls public/logos/*.png 2>/dev/null | wc -l | tr -d ' ')"
 #       裸 cp:set -e 下缺图即中断,不让默认水晶悄悄回潮。HTML 引 ./static/icon.png,路径不变只换内容。
 cp ../assets/logos/icon.png public/static/icon.png
 echo "public/static/icon.png(SOLO)✔"
+# 3.3c) iOS 主屏图标:必须**不透明**且 180x180,否则 iOS 弃用它、退化成站名首字图标(2026-08-19 用户实测)。
+#       与 favicon 分开两个文件:favicon 要透明、主屏图标不能透明。同样裸 cp,缺图即中断。
+cp ../assets/logos/apple-touch-icon.png public/static/apple-touch-icon.png
+echo "public/static/apple-touch-icon.png(180x180 不透明)✔"
 # 3.4) 播客封面进站点根 /podcast-cover.png(feed.xml 的 itunes:image 指向它;SOLO 站标方图,用户 2026-08-16)
 # 裸 cp(不接 && echo):set -e 下缺图即中断部署,不让 feed 挂着指向 404 封面静默上线(GLM 011)。
 cp ../assets/podcast-cover.png public/podcast-cover.png
