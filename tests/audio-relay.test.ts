@@ -141,7 +141,9 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
       const max = 3 + (t % 12);
       let s = "";
       for (let i = 0; i < 4 * max + (t % 7); i++) s += alphabet[(t * 7 + i * 3) % 4];
-      expect(lone.test(scrubErr(s, max))).toBe(false);
+      const out = scrubErr(s, max);
+      expect(lone.test(out)).toBe(false);
+      expect(Array.from(out).length).toBeLessThanOrEqual(max); // 截断真截住(GLM 029[3]:只断言不乱码测不出没截断)
     }
   });
   it("已知不覆盖:密码里有未编码的 /(URL 规范要求百分号编码,真出现属畸形串)——留测试看守这条取舍", () => {
