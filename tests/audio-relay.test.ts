@@ -141,6 +141,9 @@ describe("scrubErr(排查信息要够用,但不许顺带泄密)", () => {
       const max = 3 + (t % 12);
       let s = "";
       for (let i = 0; i < 4 * max + (t % 7); i++) s += alphabet[(t * 7 + i * 3) % 4];
+      // 前置条件写成断言而非口头假设:这些输入不含凭据形态/换行/首尾空白,所以脱敏与折行是恒等变换。
+      // 将来谁把脱敏正则放宽到能命中这些字符,这里会先红并指明「是前置条件破了」,而不是伪装成截断出错(GLM 031[2])。
+      expect(/\/\/|\s/.test(s)).toBe(false);
       const out = scrubErr(s, max);
       expect(lone.test(out)).toBe(false);
       // 这些输入不含凭据/换行,脱敏与折行都是恒等 → 输出必须逐字等于「末尾 max 个码点」。
