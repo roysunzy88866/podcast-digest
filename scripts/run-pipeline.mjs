@@ -730,7 +730,9 @@ function processEpisode(item, id, source, state) {
     const metaPath = join(ROOT, dir, "meta.json");
     const meta = { ...JSON.parse(readFileSync(metaPath, "utf8")), ...sourceMetaFields(item, source) };
     // 入库日(用户 2026-08-09:「最新」按加进站的时间排,让新处理的旧日期演讲冒到顶部)。
-    // 首次处理时钉一次、之后不覆盖(重跑/refresh 不改),UTC 日期段与 meta.date 同格式好分组。
+    // 首次处理时钉一次、之后不覆盖(重跑/refresh 不改)。**C31 起按北京日**(bjDay);
+    // 已知不齐:C31 之前入库的存量集 added 是 UTC 日,北京 00:00-08:00 那段入库的会差一天。
+    // 不回填 —— added 只存日期不存时刻,原始入库时刻已不可考,硬回填等于编数据(影响仅限历史分组边界)。
     if (!meta.added) meta.added = bjDay(); // C31:入库日按北京时间(读者在北京,首页「今天/昨天」才对得上)
     writeFileSync(metaPath, JSON.stringify(meta, null, 2));
   }
@@ -1127,15 +1129,18 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   //   直到补够 target / 归档更旧候选耗尽 / 触及成本护栏(防坏归档区无限烧钱)。need=5 → 最多试 ~13 集。
   const attemptCap = need * 2 + 3;
   let attempted = 0;
-  let poolLeft = 0; // C31:全局 2026 年未入库候选盘点(见底要告警)
+  let poolLeft = 0;    // C31:全局 2026 年未入库候选盘点(见底要告警)
+  let poolUnknown = 0; // 历史档读不到的源数量:盘点残缺时要在告警里说明
+  // ⚠️ 这里**不能**在 remaining<=0 时 break(GLM 032[1] 逮到):一 break 后面源的候选就不计入 poolLeft,
+  // 存量被严重低估 → 池子明明还有几百集也天天误报「见底」。补量由内层 while 条件自然停,盘点则要走完全部源。
   for (const source of SOURCES.filter((s) => s.archiveFile || BACKFILL_FEED_KEYS.includes(s.key))) {
-    if (remaining <= 0) break;
     let items;
     try {
       // lennys 读 vendored archiveFile(Substack 浅 feed);其余深 feed 源直接抓 live feed 当历史档(drift #58)
       items = source.archiveFile ? readArchiveItems(source.archiveFile) : parseFeed(await fetchFeed(source.feedUrl));
     } catch (e) {
       console.error(`   ⚠️ ${source.key} 历史档读取失败,跳过顶量:${e.message}`);
+      poolUnknown += 1; // 该源存量今日盘不到 → 告警时注明,别拿残缺数字吓人(GLM 032[2])
       continue;
     }
     // C31:候选池 = 该源「≥ BACKFILL_SINCE 且未入库」的集(不再按「比库内最旧更旧」往回挖)。
@@ -1160,11 +1165,15 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
     }
   }
   if (remaining > 0) {
-    console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集(2026 年候选耗尽或触及成本护栏 ${attemptCap})——今日不足 ${target}。`);
+    // 两种「补不够」要分清(GLM 032[6]):护栏到了=本班没跑完(下班次继续),候选耗尽=池子真没了
+    const why = attempted >= attemptCap
+      ? `触及本班成本护栏 ${attemptCap} —— 池子还有 ${poolLeft} 集,下班次继续`
+      : `${BACKFILL_SINCE.slice(0, 4)} 年候选耗尽(池子 ${poolLeft} 集)`;
+    console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集 —— ${why}。今日不足 ${target}。`);
   }
   // C31 验收线⑤:存量见底必须响亮说,绝不悄悄改补更早年份/悄悄空站(改口径要用户拍板)
   const warn = backfillStockWarning(poolLeft, target);
-  if (warn) console.log(warn);
+  if (warn) console.log(warn + (poolUnknown ? `(另有 ${poolUnknown} 个源今日没盘到,实际存量可能更多)` : ""));
   return { clean, skipped };
 }
 
