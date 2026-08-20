@@ -311,6 +311,25 @@ export function backfillCandidates(items, { sinceISO, existingIds, source, libra
     .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)); // 最新优先(用户要「新」而非「填坑」)
 }
 
+/** C33 · 跨源统一挑选(2026-08-20 用户拍板)。
+ *  病根实证:原来按 SOURCES 顺序逐源补,排在前面的 Lenny's 一次就把当天配额补满,
+ *  后面的源根本轮不上 → 「最新优先」只在**单个源内部**生效,跨源毫无排序。
+ *  实测当天:补进来 8 集全是 Lenny's 的 2026-01/02 存货,而 a16z、No Priors **当天刚发**的集躺着没做。
+ *  修法:各源候选合成一个池,全局按日期降序;窗口内仍有稿优先(C28 便宜通道不降级)。
+ *  candidates = [{item, source}](每项已由 backfillCandidates 过滤过年份/去重/题材)。 */
+export function selectBackfillGlobal(candidates, { n }) {
+  return candidates
+    .slice()
+    .sort((a, b) => b.item.pubDateISO.localeCompare(a.item.pubDateISO)) // 跨源全局最新优先
+    .slice(0, n * 4) // 窗口:只在够新的一段里择优,别为省钱一路挑到年份下限附近
+    .sort((a, b) => {
+      const ca = pickFeedTranscript(a.item.transcripts) ? 0 : 1;
+      const cb = pickFeedTranscript(b.item.transcripts) ? 0 : 1;
+      return ca !== cb ? ca - cb : b.item.pubDateISO.localeCompare(a.item.pubDateISO);
+    })
+    .slice(0, n);
+}
+
 /** 存量告警(C31 验收线⑤):2026 年候选池见底要点明「剩 N 集、约够 M 天」。
  *  阈值 = 3 日量:留够用户拍板「放宽年份 / 加新源 / 接受站空」的时间。返回 null = 无需告警。 */
 export function backfillStockWarning(poolLeft, target, days = 3) {
@@ -1114,11 +1133,13 @@ function libraryTitlesFromCompleted(completed) {
 }
 
 /** 逐集处理顶量选中的集:与 processSource 同口径(失真隔离 / [1301] 放弃 / 转瞬留半成品),但无 cutoff。 */
-function processBackfillPicks(picks, state, source) {
+/** 处理一批补历史候选。C33 起吃 [{item, source}] 对 —— 因为一批里可以混多个源
+ *  (跨源统一按最新排序后挑出来的,见 selectBackfillGlobal)。 */
+function processBackfillPicks(pairs, state) {
   // C32:补历史同受时间预算约束(它和新集抢的是同一个 6h 作业)
   let clean = 0;
   let skipped = 0;
-  for (const item of picks) {
+  for (const { item, source } of pairs) {
     if (outOfTimeBudget("补历史")) break; // C32:别在 6h 红线前开新活
     const id = deriveId(item, source);
     let res;
@@ -1189,6 +1210,8 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   let poolUnknown = 0; // 历史档读不到的源数量:盘点残缺时要在告警里说明
   // ⚠️ 这里**不能**在 remaining<=0 时 break(GLM 032[1] 逮到):一 break 后面源的候选就不计入 poolLeft,
   // 存量被严重低估 → 池子明明还有几百集也天天误报「见底」。补量由内层 while 条件自然停,盘点则要走完全部源。
+  // ── 阶段一:全源盘点 + 收集候选(C33:补量不再逐源做,先把所有源的候选合成一个池)
+  const allCandidates = [];
   for (const source of SOURCES.filter((s) => s.archiveFile || BACKFILL_FEED_KEYS.includes(s.key))) {
     let items;
     try {
@@ -1200,25 +1223,35 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
       continue;
     }
     // C31:候选池 = 该源「≥ BACKFILL_SINCE 且未入库」的集(不再按「比库内最旧更旧」往回挖)。
-    // 顺带盘存量:池子见底要响亮告警,不许悄悄改补更早年份、也不许悄悄让站空着。
-    poolLeft += backfillCandidates(items, { sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles }).length;
-    while (remaining > 0 && attempted < attemptCap) {
-      const picks = selectBackfillRecent(items, { n: remaining, sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles });
-      if (!picks.length) break; // 该源已无 2026 年未入库候选
-      console.log(`   ${source.key}:${BACKFILL_SINCE.slice(0, 10)} 以来未入库的候选实得 ${picks.length}(累计试 ${attempted}/${attemptCap}):`);
-      picks.forEach((p) => console.log(`      - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
-      if (dryRun) {
-        console.log("      （--dry-run:仅列出,不真补)");
-        break;
-      }
-      attempted += picks.length;
-      const r = processBackfillPicks(picks, state, source);
-      clean += r.clean;
-      skipped += r.skipped;
-      remaining -= r.clean; // 只按成功数扣目标:失真/跳过的继续往回补(GLM 20260812-003[1])
-      // 防重:补过的 id 进 seen(ID 去重)、标题进 libTitles(跨源同内容此轮也拦;GLM 003[2])
-      picks.forEach((p) => { seen.push(deriveId(p, source)); libTitles.push(p.title); });
+    const pool = backfillCandidates(items, { sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles });
+    poolLeft += pool.length; // 盘点走完全部源(GLM 032[1]:中途 break 会让存量被严重低估、天天误报见底)
+    pool.forEach((item) => allCandidates.push({ item, source }));
+  }
+  if (allCandidates.length) {
+    const newest = allCandidates.reduce((a, b) => (a.item.pubDateISO >= b.item.pubDateISO ? a : b));
+    console.log(`   跨源候选池 ${allCandidates.length} 集,最新一条 ${newest.item.pubDateISO.slice(0, 10)}(${newest.source.key})`);
+  }
+
+  // ── 阶段二:跨源统一挑(全局最新优先 + 窗口内有稿优先),补不够就再挑下一批
+  const tried = new Set(); // 本轮已试过的 id:失败/隔离的不再重挑,避免死循环
+  while (remaining > 0 && attempted < attemptCap) {
+    const pool = allCandidates.filter((c) => !tried.has(deriveId(c.item, c.source)));
+    const picks = selectBackfillGlobal(pool, { n: remaining });
+    if (!picks.length) break; // 全源都无 2026 未入库候选了
+    console.log(`   跨源挑 ${picks.length} 集(${BACKFILL_SINCE.slice(0, 10)} 以来未入库;累计试 ${attempted}/${attemptCap}):`);
+    picks.forEach((p) => console.log(`      - ${deriveId(p.item, p.source)}  (${p.item.pubDateISO})  ${p.item.title}`));
+    if (dryRun) {
+      console.log("      （--dry-run:仅列出,不真补)");
+      break;
     }
+    attempted += picks.length;
+    picks.forEach((p) => tried.add(deriveId(p.item, p.source)));
+    const r = processBackfillPicks(picks, state);
+    clean += r.clean;
+    skipped += r.skipped;
+    remaining -= r.clean; // 只按成功数扣目标:失真/跳过的继续挑下一批(GLM 20260812-003[1])
+    // 防重:补过的 id 进 seen(ID 去重)、标题进 libTitles(跨源同内容此轮也拦;GLM 003[2])
+    picks.forEach((p) => { seen.push(deriveId(p.item, p.source)); libTitles.push(p.item.title); });
   }
   if (remaining > 0) {
     // 两种「补不够」要分清(GLM 032[6]):护栏到了=本班没跑完(下班次继续),候选耗尽=池子真没了
