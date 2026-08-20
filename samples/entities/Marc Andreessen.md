@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Robert Hackett":1,"AI":7,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Robert Hackett":1,"AI":8,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":1}</script>
 
 <script>
 (function(){

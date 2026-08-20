@@ -37,17 +37,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[生成式媒体]] · [[微剧]] · [[智能体]] · [[创作者经济]] · [[Town]] · [[Netflix]] · [[Amazon]] · [[OpenAI]] · [[Anthropic]] · [[Google]]
+[[生成式媒体]] · [[微剧]] · [[智能体]] · [[创作者经济]] · [[Town]] · [[a16z]] · [[Netflix]] · [[Amazon]] · [[OpenAI]] · [[Anthropic]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":102,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":7,"OpenAI":42,"Anthropic":51,"Google":20}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":102,"创作者经济":1,"Town":1,"a16z":5,"Netflix":2,"Amazon":7,"OpenAI":43,"Anthropic":51}</script>
 
 <script>
 (function(){

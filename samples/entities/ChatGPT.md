@@ -99,7 +99,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[Lenny]] · [[智能体]] · [[Claude]] · [[OpenAI]] · [[vibe coding]] · [[Cursor]] · [[Codex]] · [[Google]] · [[Waymo]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Claude":24,"OpenAI":42,"vibe coding":17,"Cursor":25,"Codex":23,"Google":20,"Waymo":9,"主观能动性":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Claude":24,"OpenAI":43,"vibe coding":17,"Cursor":25,"Codex":23,"Google":20,"Waymo":9,"主观能动性":13}</script>
 
 <script>
 (function(){

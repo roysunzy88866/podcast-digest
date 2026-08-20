@@ -83,7 +83,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Codex]] · [[ChatGPT]] · [[Lovable]] · [[OpenAI]] · [[vibe coding]] · [[后训练]] · [[GitHub]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Codex":23,"ChatGPT":29,"Lovable":8,"OpenAI":42,"vibe coding":17,"后训练":11,"GitHub":16,"Claude":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Codex":23,"ChatGPT":29,"Lovable":8,"OpenAI":43,"vibe coding":17,"后训练":11,"GitHub":16,"Claude":24}</script>
 
 <script>
 (function(){

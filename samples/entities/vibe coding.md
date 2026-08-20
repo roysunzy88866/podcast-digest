@@ -67,7 +67,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Cursor]] · [[Replit]] · [[OpenAI]] · [[Codex]] · [[Lovable]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"ChatGPT":29,"Claude":24,"Cursor":25,"Replit":9,"OpenAI":42,"Codex":23,"Lovable":8,"Anthropic":51}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"ChatGPT":29,"Claude":24,"Cursor":25,"Replit":9,"OpenAI":43,"Codex":23,"Lovable":8,"Anthropic":51}</script>
 
 <script>
 (function(){

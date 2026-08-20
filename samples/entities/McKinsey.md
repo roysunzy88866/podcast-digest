@@ -28,7 +28,7 @@ unlisted: true
 
 [[Lenny]] · [[AWS]] · [[Google]] · [[Microsoft]] · [[Brian Halligan]] · [[Benedict Evans]] · [[Philip Johnston]] · [[HubSpot]] · [[OpenAI]] · [[StarCloud]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"AWS":5,"Google":20,"Microsoft":11,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1,"HubSpot":3,"OpenAI":42,"StarCloud":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"AWS":5,"Google":20,"Microsoft":11,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1,"HubSpot":3,"OpenAI":43,"StarCloud":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Elena Berger]] · [[Joe Schmidt]] · [[Andy McCall]] · [[LandGrab]] · [[Samsara]] · [[Meraki]] · [[Pylon]] · [[ACV]] · [[PLG]] · [[Decagon]]
 
-<script type="application/json" class="pd-epn">{"Elena Berger":2,"Joe Schmidt":1,"Andy McCall":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":2,"PLG":3,"Decagon":2}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Joe Schmidt":1,"Andy McCall":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":2,"PLG":3,"Decagon":2}</script>
 
 <script>
 (function(){

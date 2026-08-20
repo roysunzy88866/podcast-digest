@@ -41,7 +41,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Hodak]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Max Hodak]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]]
 
 </div>
 

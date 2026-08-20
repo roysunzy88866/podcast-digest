@@ -129,7 +129,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Claude Code]] · [[vibe coding]] · [[Google]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":102,"Anthropic":51,"ChatGPT":29,"OpenAI":42,"Claude":24,"Cursor":25,"Claude Code":27,"vibe coding":17,"Google":20,"Slack":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Anthropic":51,"ChatGPT":29,"OpenAI":43,"Claude":24,"Cursor":25,"Claude Code":27,"vibe coding":17,"Google":20,"Slack":18}</script>
 
 <script>
 (function(){

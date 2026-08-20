@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Base44]] · [[HubSpot]] · [[Wix]] · [[Salesforce]] · [[Lovable]] · [[Google]] · [[Bolt]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Maor Shlomo":1,"Brian Halligan":1,"Base44":2,"HubSpot":3,"Wix":2,"Salesforce":5,"Lovable":8,"Google":20,"Bolt":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Maor Shlomo":1,"Brian Halligan":1,"Base44":2,"HubSpot":3,"Wix":2,"Salesforce":6,"Lovable":8,"Google":20,"Bolt":2}</script>
 
 <script>
 (function(){

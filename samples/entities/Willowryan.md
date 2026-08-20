@@ -25,17 +25,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ulysses]] · [[Mariana Minerals]] · [[Radiant]] · [[SpaceX]] · [[自主水下航行器]] · [[关键矿物]] · [[微反应堆]] · [[垂直整合]] · [[强化学习]] · [[大型语言模型]]
+[[Ulysses]] · [[Mariana Minerals]] · [[Radiant]] · [[a16z]] · [[SpaceX]] · [[自主水下航行器]] · [[关键矿物]] · [[微反应堆]] · [[垂直整合]] · [[强化学习]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"SpaceX":6,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":11,"大型语言模型":3}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":5,"SpaceX":6,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":11}</script>
 
 <script>
 (function(){

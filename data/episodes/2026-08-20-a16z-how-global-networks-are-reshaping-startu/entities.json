@@ -1,0 +1,1180 @@
+{
+  "episode_id": "2026-08-20-a16z-how-global-networks-are-reshaping-startu",
+  "podcast": "The a16z Show",
+  "date": "2026-08-20",
+  "tags": [
+    "无国界创始人",
+    "侨民网络",
+    "全球投资",
+    "AI 原生",
+    "创始人飞轮"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "gabriel-vasquez",
+      "type": "person",
+      "role": "host",
+      "name": "Gabriel Vasquez",
+      "file": "Gabriel Vasquez",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            75.197,
+            85.38
+          ],
+          "quote": "In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack what they call the borderless founder and why AI is accelerating the shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            105.621,
+            114.429
+          ],
+          "quote": "Today we're here with Angela Strange and Gabriel Vasquez, two of the architects of A16Z's global investing strategy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "elena-berger",
+      "type": "person",
+      "role": "cohost",
+      "name": "Elena Berger",
+      "file": "Elena Berger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            75.197,
+            85.38
+          ],
+          "quote": "In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack what they call the borderless founder and why AI is accelerating the shift.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "angela-strange",
+      "type": "person",
+      "role": "cohost",
+      "name": "Angela Strange",
+      "file": "Angela Strange",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            75.197,
+            85.38
+          ],
+          "quote": "In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack what they call the borderless founder and why AI is accelerating the shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            105.621,
+            114.429
+          ],
+          "quote": "Today we're here with Angela Strange and Gabriel Vasquez, two of the architects of A16Z's global investing strategy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "a16z",
+      "file": "a16z",
+      "primary": true,
+      "how_described": "本集说 a16z 投资组合中 40% 的资金投给了国际创始人（一半在美国、一半在别国），并详细讲述了 a16z 通过 WhatsApp 群、无国界晚宴、帮助办签证等方式构建全球创始人网络的具体做法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            103.039,
+            105.521
+          ],
+          "quote": "Welcome back to the A16Z podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            105.621,
+            114.429
+          ],
+          "quote": "Today we're here with Angela Strange and Gabriel Vasquez, two of the architects of A16Z's global investing strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            137.945,
+            145.108
+          ],
+          "quote": "I remember when very early in my career at A16z, I was investing primarily in financial services or fintech.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            763.984,
+            771.185
+          ],
+          "quote": "Both like the A16Z borderless founder community, but how do they find other communities and kind of how do we find them even?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1411.178,
+            1418.761
+          ],
+          "quote": "I think, you know, in some ways you could argue all of A16Z was founded to accelerate our founders' preferential attachments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2546.814,
+            2564.225
+          ],
+          "quote": "10 years from now, what do you hope to see sort of the results of this, not just in A16Z and our portfolio companies, but kind of just in the global topology of startups, you know, everywhere, everywhere in the world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2678.471,
+            2681.352
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2693.279,
+            2698.941
+          ],
+          "quote": "Follow us on X and A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2703.837,
+            2716.887
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2717.568,
+            2722.252
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2722.772,
+            2729.418
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adi",
+      "type": "company",
+      "role": "company",
+      "name": "Adi",
+      "file": "Adi",
+      "primary": true,
+      "how_described": "本集说 Adi 是 a16z 在拉美的第一笔投资，由从耶鲁回哥伦比亚的 Santiago Suarez 创办，现在为哥伦比亚四分之一人口提供银行和支付服务，成为哥伦比亚最热门的科技公司，能以此品牌吸引 Capital One 的信贷人才来波哥大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            198.605,
+            208.175
+          ],
+          "quote": "And the first check I ever wrote at A16D was actually into Santiago Suarez, the CEO of Adi, which now serves a quarter of the Colombian population for banking and payments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            318.68,
+            327.689
+          ],
+          "quote": "Like I'll use Santi from Adi, for instance, grew up in Columbia, went to Yale, spent some time at a bunch of financial services companies, both large and small in the U.S., and then came back home.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 49,
+          "t": [
+            333.713,
+            335.835
+          ],
+          "quote": "And so then he was able to start Adi.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "本集说 Eleven Labs 起步于英国但创始人是波兰人，对波兰而言它已成为'AI 奥运会'中的国家代表队级别的品牌符号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1128.887,
+            1135.19
+          ],
+          "quote": "I think in terms of brand, you know, an example that is in our portfolio is Eleven Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1142.212,
+            1154.717
+          ],
+          "quote": "And one of the things that has happened is that for Poland, Eleven Labs have become such an important name for them to be representatives in, you know, there's a founder that we know that calls this the AI Olympics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "本集说 Cognition 这家硅谷热门公司早期的 go-to-market 主力其实是巴西，因为巴西企业渴望尽快采用 AI 且提供商不多，Cognition 在巴西建立了很强的网络并从中获得了早期收入的很大份额",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1518.552,
+            1526.356
+          ],
+          "quote": "But we also see in the cases of really hot companies in Silicon Valley, like Cognition, where their early go-to market was actually Brazil.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1541.024,
+            1546.748
+          ],
+          "quote": "And in the case of Cognition, they build a really strong network in Brazil to do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集提到 Vercel 的创始人 Guillermo Rauch 作为拉丁美洲裔在硅谷成功的人物，积极参与 a16z 的无国界晚宴、帮助后来的拉美创始人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            525.397,
+            528.399
+          ],
+          "quote": "So a big part of this strategy was Guillermo Rauch from Vercel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": false,
+      "how_described": "本集提到 Brex 的创始人 Pedro Francesi 也参与了 a16z 的无国界晚宴，作为在硅谷成功的拉美裔创始人帮助后来者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            538.024,
+            542.106
+          ],
+          "quote": "We have people from the founder of Brex do this as well, Pedro Francesi.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taco",
+      "type": "company",
+      "role": "company",
+      "name": "Taco",
+      "file": "Taco",
+      "primary": false,
+      "how_described": "本集说 Taco 是 a16z 投资的公司，在巴西做薪资和 HR 工作流，更大使命是减少巴西官僚主义，其中一位创始人是 Rappi 的前创始人，已成功从美国把巴西人招回来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            1047.622,
+            1060.293
+          ],
+          "quote": "But the interesting thing that's happening now, and we see this with, we're investors in a company, Taco, which does sort of payroll, HR workflows across Brazil, but their bigger mission is really cutting down bureaucracy in Brazil.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rappi",
+      "type": "company",
+      "role": "company",
+      "name": "Rappi",
+      "file": "Rappi",
+      "primary": false,
+      "how_described": "本集提到 Taco 的一位创始人是 Rappi 的前创始人，作为连续创业者的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            1061.113,
+            1067.678
+          ],
+          "quote": "And one of their founders was previously the founder of Rappi, teamed up with another founder, Fernando.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jeeves",
+      "type": "company",
+      "role": "company",
+      "name": "Jeeves",
+      "file": "Jeeves",
+      "primary": false,
+      "how_described": "本集说 Jeeves 在巴西与央行做了大量工作，帮助公司通过稳定币在国际间转移资金，因此在企业中获得了最值得信赖、合规、快速方式的声誉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1337.196,
+            1341.519
+          ],
+          "quote": "And so Jeeves has done a lot with the central bank in Brazil.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "supersonic",
+      "type": "company",
+      "role": "company",
+      "name": "Supersonic",
+      "file": "Supersonic",
+      "primary": false,
+      "how_described": "本集说 Supersonic 是一家由西班牙出生的创始人创办的公司，通过校友网络找到了曾是 Salesforce CRO 现任COO的人，使 Salesforce 成为第一个设计合作伙伴并最终转化为客户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1251.962,
+            1256.503
+          ],
+          "quote": "It's like, okay, if I'm a founder, let's say born in Spain, like the case of Supersonic,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "factor-labs",
+      "type": "company",
+      "role": "company",
+      "name": "factor labs",
+      "file": "factor labs",
+      "primary": false,
+      "how_described": "本集说 factor labs 在很早期就与拉美最大的集团（Slim 家族拥有）建立了设计合作伙伴关系，最终转化为数百万美元的合同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1212.565,
+            1231.258
+          ],
+          "quote": "is you know we have had several examples of our companies at very early stages where there are just a design partnership that eventually converts into a multi-million dollar contract but they start working with the largest enterprises in companies you know we invested in in a company called factor labs they started working with with",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "extraordinary",
+      "type": "company",
+      "role": "company",
+      "name": "Extraordinary",
+      "file": "Extraordinary",
+      "primary": false,
+      "how_described": "本集说 Extraordinary 是一家 AI 原生签证公司，a16z 投资了它，并通过它帮助国际创始人解决来美国的签证问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 362,
+          "t": [
+            2251.707,
+            2258.13
+          ],
+          "quote": "We're actually investors in a visa company, an AI native visa company called Extraordinary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2259.171,
+            2271.178
+          ],
+          "quote": "And through Extraordinary, we partner a lot on helping these founders come to the U.S. to make sure that they have the right qualifications or help them understand what are the things that they need to come to the U.S. as fast as possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palo-house",
+      "type": "company",
+      "role": "company",
+      "name": "Palo House",
+      "file": "Palo House",
+      "primary": false,
+      "how_described": "本集说 Palo House 是四个德国 CDTM 学生搞的项目，在 Palo Alto 提供免费住宿帮助国际创始人构思想法，四个月里接待了 1200 人，a16z 赞助了它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            2292.69,
+            2295.172
+          ],
+          "quote": "You know, we sponsored this one called Palo House.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pip-com",
+      "type": "company",
+      "role": "company",
+      "name": "pip.com",
+      "file": "pip.com",
+      "primary": false,
+      "how_described": "本集说 pip.com 是连续创始人 Frederick Guillaume 的新公司，来硅谷后 a16z 帮他约了 DoorDash、Lyft 等公司高管深度对话，回去后愿景清晰了，最终选了 a16z",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            2137.819,
+            2141.124
+          ],
+          "quote": "When they were, the company name is pip.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "type": "company",
+      "role": "company",
+      "name": "MidJourney",
+      "file": "MidJourney",
+      "primary": false,
+      "how_described": "本集提到瑞典后起之秀 Gabriel Peterson 曾在 MidJourney 工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1791.751,
+            1801.277
+          ],
+          "quote": "So this was a high school dropout from Sweden, came to the US with no education, got a job at MidJourney, then became one of the youngest researchers at OpenAI, and now he started a company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到瑞典后起之秀 Gabriel Peterson 成为 OpenAI 最年轻的研究员之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1791.751,
+            1801.277
+          ],
+          "quote": "So this was a high school dropout from Sweden, came to the US with no education, got a job at MidJourney, then became one of the youngest researchers at OpenAI, and now he started a company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集说当 pip.com 的创始人来硅谷时，a16z 帮他约了 DoorDash 的高管进行深度对话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            2141.424,
+            2152.279
+          ],
+          "quote": "So when they were coming to Silicon Valley, we put them in touch with the top execs from DoorDash, the top execs from Lyft, the top execs from a bunch of our portfolio companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lyft",
+      "type": "company",
+      "role": "company",
+      "name": "Lyft",
+      "file": "Lyft",
+      "primary": false,
+      "how_described": "本集说当 pip.com 的创始人来硅谷时，a16z 帮他约了 Lyft 的高管进行深度对话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            2141.424,
+            2152.279
+          ],
+          "quote": "So when they were coming to Silicon Valley, we put them in touch with the top execs from DoorDash, the top execs from Lyft, the top execs from a bunch of our portfolio companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capital-one",
+      "type": "company",
+      "role": "company",
+      "name": "Capital One",
+      "file": "Capital One",
+      "primary": false,
+      "how_described": "本集说最好的信贷人才往往来自 Capital One，Adi 因为成为哥伦比亚最热门的公司而能吸引 Capital One 弗吉尼亚的信贷专家去波哥大工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1307.92,
+            1310.881
+          ],
+          "quote": "The best credit people tend to come from Capital One.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1311.241,
+            1315.603
+          ],
+          "quote": "How do you attract somebody from Capital One in Virginia to want to work down in Bogota?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集说 Supersonic 通过校友网络联系上曾任 Salesforce CRO、现任 COO 的人，使 Salesforce 成为第一个设计合作伙伴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1263.03,
+            1267.515
+          ],
+          "quote": "And in their case was, you know, who used to be the CRO of Salesforce and now is the COO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1268.175,
+            1275.243
+          ],
+          "quote": "And they connected with him and then Salesforce actually became the first design partner and eventually converted now into a customer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到刚发布了一期与 Stripe 的 Will Gabrick 的播客，并类比 Stripe 从小公司开始与客户一起成长、在每个生命周期阶段都在场的方式，与 a16z 的全球策略有相似之处",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1912.918,
+            1917.581
+          ],
+          "quote": "We just actually released a podcast with Will Gabrick from Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1918.102,
+            1935.053
+          ],
+          "quote": "And it's funny the parallels between how Stripe works and what you're describing where it's like you start really early with like, you know, individuals or teams, like very small companies, and then you kind of grow with them and you begin to offer more and you like...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 Shopify 作为加拿大人创立的全球独角兽的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            864.897,
+            868.858
+          ],
+          "quote": "Shopify is a big one, but, you know, OpenEvidence, the founder was Canadian.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "borderless-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "无国界创始人 (borderless founder)",
+      "file": "无国界创始人",
+      "primary": true,
+      "how_described": "本集将其定义为任何有全球野心的国际人士，不管你先在本国起步还是直接来美国；他们身上有一种'要证明给世界看'的驱动力，不管出生在哪都要成为基准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.491,
+            7.595
+          ],
+          "quote": "Anyone international, whether you're building primarily in your home country to start, but that you have global ambitions, you're a borderless founder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 12,
+          "t": [
+            75.197,
+            85.38
+          ],
+          "quote": "In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack what they call the borderless founder and why AI is accelerating the shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            633.75,
+            650.177
+          ],
+          "quote": "I think for someone who's listening to this and they're wondering maybe what is the difference between a borderless founder and an immigrant founder or a borderless founder and somebody who just happens to be an international person who's coming and starting a company in the United States?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            650.217,
+            655.559
+          ],
+          "quote": "Like, how do you how do you help them understand, like, how we define or how we understand what a borderless founder is?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            666.58,
+            676.345
+          ],
+          "quote": "And so anyone international, whether you're building primarily in your home country to start, but that you have global ambitions, you're a borderless founder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            763.984,
+            771.185
+          ],
+          "quote": "Both like the A16Z borderless founder community, but how do they find other communities and kind of how do we find them even?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1497.196,
+            1510.607
+          ],
+          "quote": "But via Borderless Founder Network, you can get a large bank and a large insurance company in another country much more quickly, and that will very much accelerate your thing in the U.S. And so I think you just have these levers to make things move faster.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1548.349,
+            1563.019
+          ],
+          "quote": "So by that sort of point, does that mean that, you know, you can also pursue a borderless founder or borderless strategy just by like selling into markets that might not necessarily see kind of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2409.735,
+            2412.437
+          ],
+          "quote": "And we've brought them into our borderless founder group.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "diaspora",
+      "type": "concept",
+      "role": "concept",
+      "name": "侨民网络 (diaspora)",
+      "file": "侨民网络",
+      "primary": true,
+      "how_described": "本集说特定国家的侨民网络比美国顶尖学校的校友网络甚至更强大，只是历来缺组织；a16z 的做法是找到本国的'灯塔人物'（local luminaires）和硅谷的'后起之秀'（rising stars），把两端连起来，嵌进人才流动网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            1036.052,
+            1046.521
+          ],
+          "quote": "I think the really interesting thing that's happening now, so first, I think any ecosystem benefits from their diaspora building amazing companies anywhere in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1599.802,
+            1604.323
+          ],
+          "quote": "And now almost the bigger power is the intra-diaspora, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2533.615,
+            2536.86
+          ],
+          "quote": "I'd say lean on your diaspora, like either via us.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "preferential-attachment",
+      "type": "concept",
+      "role": "concept",
+      "name": "偏好依附 (preferential attachment)",
+      "file": "偏好依附",
+      "primary": true,
+      "how_described": "本集说 Mark 最早提出这个想法，即如果你很早发出信号表明你能吸引最优秀的人才和最好的客户，飞轮运转起来后，下一个增量的人和客户就更容易吸引；本集论证无国界创始人在这方面有更多杠杆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1360.173,
+            1368.103
+          ],
+          "quote": "So something we talk a lot about at the firm, I think Mark kind of first introduced this idea as the idea of preferential attachment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "talent-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才飞轮 (talent flywheel)",
+      "file": "人才飞轮",
+      "primary": true,
+      "how_described": "本集说无国界创始人通过本国差异化人才池（如奖学金项目、机器人竞赛）很早招到极其聪明的人，当去美国招第 11 个人时，对方见到团队会惊叹'他们怎么在那儿找到这么强的人'，飞轮就此转起来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1479.023,
+            1480.384
+          ],
+          "quote": "And that starts the talent flywheel.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "design-partner",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计合作伙伴 (design partner)",
+      "file": "设计合作伙伴",
+      "primary": true,
+      "how_described": "本集反复提到无国界创始人在本国通过侨民网络更容易拿到大企业（银行、保险、集团）的设计合作伙伴关系，这在美国很难因为没人想当'第一家'，而这些合作关系最终转化为数百万美元合同并成为回美国销售的社会证明",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1268.175,
+            1275.243
+          ],
+          "quote": "And they connected with him and then Salesforce actually became the first design partner and eventually converted now into a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1604.343,
+            1609.104
+          ],
+          "quote": "Like the German company, first design partner in the largest Spanish conglomerate.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-olympics",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 奥运会 (AI Olympics)",
+      "file": "AI 奥运会",
+      "primary": false,
+      "how_described": "本集提到一位创始人把各国都想有自己的 AI 代表公司这种竞争态势称为'AI 奥运会'，以此形容 Eleven Labs 对波兰、瑞典公司对瑞典的品牌象征意义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            1142.212,
+            1154.717
+          ],
+          "quote": "And one of the things that has happened is that for Poland, Eleven Labs have become such an important name for them to be representatives in, you know, there's a founder that we know that calls this the AI Olympics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1721.092,
+            1729.355
+          ],
+          "quote": "And he tries to bring them all together and kind of make a case for Sweden on why Sweden should be part of this, going back to the analogy of the AI Olympics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "local-luminaires",
+      "type": "concept",
+      "role": "concept",
+      "name": "当地杰出人士 (local luminaires)",
+      "file": "当地杰出人士",
+      "primary": false,
+      "how_described": "本集说这是 a16z 进入新国家时使用的术语，指在当地生态系统中备受尊敬、非常努力推动生态往上走的人，不一定是最大最成功的公司创始人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1655.886,
+            1660.167
+          ],
+          "quote": "Yeah, so we have this term that we use called local luminaires.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "repeat-founders",
+      "type": "concept",
+      "role": "concept",
+      "name": "连续创始人 (repeat founders)",
+      "file": "连续创始人",
+      "primary": false,
+      "how_described": "本集说本地生态第一波企业家做到了 10 亿到 50 亿规模但因生态太早期没走到终局，现在带着全部知识和人脉回来想做更大的事，a16z 帮他们重新激活人脉、接上斯坦福 AI 人才流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1996.873,
+            2006.677
+          ],
+          "quote": "I would love to talk about some of the repeat founders who we've identified and kind of like spoken to and built relationships with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2177.84,
+            2189.387
+          ],
+          "quote": "I think the other opportunity to close the gap, especially for the repeat founders, is they probably don't have a network of the smartest 18, 19, 20-year-olds all in AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2195.571,
+            2203.876
+          ],
+          "quote": "And sometimes these repeat founders, especially the really hungry, going in again, they've learned so many lessons, and it is great CEO school.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": false,
+      "how_described": "本集说 AI 有一种有趣的二分法——它非常民主化，将能力分配到世界任何地方，但同时又把发展最快的震中集中到了湾区，这加速了无国界创始人战略的演变",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            75.197,
+            85.38
+          ],
+          "quote": "In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack what they call the borderless founder and why AI is accelerating the shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            384.567,
+            387.03
+          ],
+          "quote": "And then really what happened was AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            916.458,
+            927.265
+          ],
+          "quote": "Or has, like, AI and just sort of the promise and the allure of Silicon Valley, has that just, like, made that narrative proliferate a lot faster now, sort of?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            948.888,
+            950.089
+          ],
+          "quote": "So what we've seen is that AI has",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1008.913,
+            1028.321
+          ],
+          "quote": "Sometimes we see this kind of like this father figure in this earlier ecosystems that build a really, really hard business and all these now AI native founders go to them first and they're kind of like this lighthouse and then they kind of illuminate them about what Silicon Valley is and then they kind of direct the path of like who should they connect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1078.687,
+            1083.17
+          ],
+          "quote": "They think now with the right talent, with the right AI, with the right companies, they can really help their country.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1142.212,
+            1154.717
+          ],
+          "quote": "And one of the things that has happened is that for Poland, Eleven Labs have become such an important name for them to be representatives in, you know, there's a founder that we know that calls this the AI Olympics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1442.995,
+            1447.218
+          ],
+          "quote": "So we have an insurance, AI insurance company in Brazil.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1452.562,
+            1456.205
+          ],
+          "quote": "Actually, for AI talent, it's at a university that you haven't heard of.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1534.96,
+            1540.884
+          ],
+          "quote": "To adopt AI as quickly as possible and they don't get as many providers to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1701.365,
+            1705.427
+          ],
+          "quote": "...in the middle of the AI boom in Sweden, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1721.092,
+            1729.355
+          ],
+          "quote": "And he tries to bring them all together and kind of make a case for Sweden on why Sweden should be part of this, going back to the analogy of the AI Olympics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2098.812,
+            2104.013
+          ],
+          "quote": "Especially in AI, they want to get connected with the smartest engineers at Stanford, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2177.84,
+            2189.387
+          ],
+          "quote": "I think the other opportunity to close the gap, especially for the repeat founders, is they probably don't have a network of the smartest 18, 19, 20-year-olds all in AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2251.707,
+            2258.13
+          ],
+          "quote": "We're actually investors in a visa company, an AI native visa company called Extraordinary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2403.911,
+            2409.255
+          ],
+          "quote": "And the next generation in those families is very, very motivated to become AI native.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2578.898,
+            2592.823
+          ],
+          "quote": "I think all nationalities, internationalities mix, and so a more diverse set of minds builds bigger and bigger companies, and I think it is great for consumers, it's great for enterprises, and we are just 1% scratching the surface of what we can do with AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
