@@ -115,9 +115,9 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 
 **换个口味**
 
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同嘉宾:Lenny · 同概念:go-to-market、智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

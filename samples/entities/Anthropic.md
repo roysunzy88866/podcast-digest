@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>49</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(28:22起):本集把它说成:在 B2B 领域增长迅速、甚至在某些图表中超越 OpenAI 的公司;但也指出,在一线企业销售代表的实际接触中,听到的往往是 Gemini 而非 Anthropic。
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(16:42起):本集称赞其做事极有原则（principled）,在模型行为上取舍明确;其模型 Claude 在编码和写作上长期领先,被归因为数据与品味的胜利。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(10:35起):本集提到它是知名 AI 公司,也是大语言模型 Claude 的开发商,并提到嘉宾用其创建的 MCP 技术来赋予 AI 使用工具的能力。
+- **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(00:56起):本集说它是一家以安全为使命的 AI 实验室，刚完成超过 3500 亿美元融资，年收入 150 亿美元，内部工程师每月在 token 上花费数十万美元
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(10:08起):本集把它说成：处于 AI 风暴中心的 AI 实验室，嘉宾在此领导设计工作，内部 Slack 充满行业洞见，研究和原型开发节奏极快。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:03起):本集主要讨论的公司，Amol Avasare 担任其增长负责人。讨论了其历史上的惊人增长轨迹（14个月内ARR从10亿增长到190亿）、极度克制的价值观、在编码领域的深耕，以及极度透明的内部文化。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(08:55起):本集提到主持人聊天的一家 AI 公司，其增长负责人分享了产品经理因工程师速度加快而被挤压的观点。
@@ -58,6 +59,7 @@ unlisted: true
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(00:19起):本集把它说成：应用 AI 团队打造 Claude Managed Agents、负责底层托管基础设施的公司。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(08:49起):本集把它说成:要求 OpenClaw 改名的公司,也是因为提前 24 小时通知禁用所有人的模型订阅,导致过度依赖其 Opus 模型的 OpenClaw 受到重创的平台方。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:24起):本集把它说成：另一家典型前沿模型公司，与 OpenAI 一样部署了前沿工程师并向上游市场进发，在卖 token 与吃掉垂直应用市场之间面临悖论。
+- **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(65:00起):本集说 Anthropic 的模型（特别是 3.5）在更具创造性的写作工作上特别有用，但目前不能用于高度延迟敏感的情况。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 Anthropic 没有像亚马逊那样多的内部使用数据可以挖，更多依赖早期从公有或开源发现的数据
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(05:23起):本集提到 Anthropic 有另一个机器人也破坏了收容；其研究团队发表了一篇关于大型语言模型内部存在全局工作空间结构的论文；此外 Anthropic 给了 Claude 一个「保释按钮」让模型可以主动退出被虐待的对话
 
@@ -75,7 +77,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*49 集*
+*51 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -84,6 +86,7 @@ unlisted: true
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -124,6 +127,7 @@ unlisted: true
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为被讨论公司
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为被讨论公司(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 
@@ -131,9 +135,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[AGI]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[AGI]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"OpenAI":40,"Lenny":58,"Claude Code":25,"Claude":21,"Google":18,"NVIDIA":16,"Meta":14,"AGI":13,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"OpenAI":42,"Lenny":65,"Claude Code":27,"Claude":24,"Google":20,"NVIDIA":16,"Meta":14,"AGI":14,"沙箱":20}</script>
 
 <script>
 (function(){

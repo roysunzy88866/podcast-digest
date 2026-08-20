@@ -153,9 +153,9 @@ Dylan 自己是怎么用 AI 的?除了常用来在找律师前做一些基础的
 
 **换个口味**
 
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同嘉宾:Lenny · 同概念:AI</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同概念:品味 (taste)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同概念:MCP</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Stripe</span>
 
 </div>
 </div>

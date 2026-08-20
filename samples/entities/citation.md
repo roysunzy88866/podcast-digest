@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Ethan Smith]] · [[AEO]] · [[SEO]] · [[RAG]] · [[LLM]] · [[AI 生成内容]] · [[Webflow]] · [[ChatGPT]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Ethan Smith":1,"AEO":1,"SEO":2,"RAG":4,"LLM":11,"AI 生成内容":1,"Webflow":2,"ChatGPT":24,"Google":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Ethan Smith":1,"AEO":1,"SEO":2,"RAG":4,"LLM":13,"AI 生成内容":1,"Webflow":2,"ChatGPT":29,"Google":20}</script>
 
 <script>
 (function(){

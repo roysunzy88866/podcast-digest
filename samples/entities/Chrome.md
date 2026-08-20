@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Alex Finn]] · [[Nesrine Changuel]] · [[系统提示词]] · [[delight]] · [[gpt 5.6]] · [[deep delight]] · [[Fable]] · [[surface delight]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Alex Finn":1,"Nesrine Changuel":1,"系统提示词":3,"delight":1,"gpt 5.6":1,"deep delight":1,"Fable":4,"surface delight":1,"Anthropic":49}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Alex Finn":1,"Nesrine Changuel":1,"系统提示词":3,"delight":1,"gpt 5.6":1,"deep delight":1,"Fable":4,"surface delight":1,"Anthropic":51}</script>
 
 <script>
 (function(){

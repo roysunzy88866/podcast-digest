@@ -3,15 +3,14 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-01-15",
   "tags": [
-    "社交礼仪",
-    "创业者软技能",
+    "礼仪",
+    "社交技巧",
+    "创业软技能",
     "富足心态",
-    "低心率",
-    "硅谷文化"
+    "低心率"
   ],
   "categories": [
-    "产品方法",
-    "创业与行业"
+    "产品方法"
   ],
   "entities": [
     {
@@ -154,13 +153,133 @@
       ]
     },
     {
+      "id": "slow-ventures",
+      "type": "company",
+      "role": "company",
+      "name": "Slow Ventures",
+      "file": "Slow Ventures",
+      "primary": false,
+      "how_described": "本集提到这是 Sam Lessin 所在的风险投资公司，网址为 slow.co",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            58.641,
+            64.488
+          ],
+          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1387,
+          "t": [
+            5139,
+            5140.982
+          ],
+          "quote": "Look, our venture firm is called Slow Ventures, slow.co.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集提到 Sam Lessin 当年把公司卖给 Airbnb 时的经验，强调与 Airbnb 的 EA 和办公室经理搞好关系的重要性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 838,
+          "t": [
+            3134.12,
+            3149.779
+          ],
+          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集提到 Sam Lessin 曾在 Facebook 工作了很长时间，担任前产品副总裁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            58.641,
+            64.488
+          ],
+          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 263,
+          "t": [
+            960.215,
+            965.319
+          ],
+          "quote": "I have this whole backstory, which is part ... and I worked at Facebook for a long time, was really into it early on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1339,
+          "t": [
+            4952.901,
+            4961.345
+          ],
+          "quote": "No, but I will say that I have hanging in my gym, which I love from the Facebook Hackathon after the launch of Google Plus.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "kleiner-perkins",
+      "type": "company",
+      "role": "company",
+      "name": "Kleiner Perkins",
+      "file": "Kleiner Perkins",
+      "primary": false,
+      "how_described": "本集以 Kleiner Perkins 的假日聚会为例，描述年轻创始人面对满屋 VC 和 CEO 时的心态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            27.538,
+            29
+          ],
+          "quote": "You're at the Kleiner Perkins holiday party.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            442.745,
+            445.467
+          ],
+          "quote": "You're at the Kleiner Perkins holiday party.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "calendly",
       "type": "company",
       "role": "company",
       "name": "Calendly",
       "file": "Calendly",
       "primary": false,
-      "how_described": "本集说 Calendly 是一种不尊重人的日程安排方式，资历浅或没那么忙的一方默认应该问对方什么时候有空然后自己去凑，而不是甩一个 Calendly 链接",
+      "how_described": "本集提到 Sam Lessin 出名地讨厌 Calendly，曾发长文批评其不尊重人，反而推动了对方一个月的增长",
       "source": "glm",
       "evidence": [
         {
@@ -247,103 +366,13 @@
       ]
     },
     {
-      "id": "slow-ventures",
-      "type": "company",
-      "role": "company",
-      "name": "Slow Ventures",
-      "file": "Slow Ventures",
-      "primary": false,
-      "how_described": "本集提到 Slow Ventures 是 Sam Lessin 所在的风险投资公司",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 23,
-          "t": [
-            58.641,
-            64.488
-          ],
-          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1387,
-          "t": [
-            5139,
-            5140.982
-          ],
-          "quote": "Look, our venture firm is called Slow Ventures, slow.co.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "airbnb",
-      "type": "company",
-      "role": "company",
-      "name": "Airbnb",
-      "file": "Airbnb",
-      "primary": false,
-      "how_described": "本集提到 Sam 卖公司给 Airbnb 时，团队刻意跟对方的 EA 和办公室经理搞好关系，因为守门人喜欢你事情就顺",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 838,
-          "t": [
-            3134.12,
-            3149.779
-          ],
-          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "facebook",
-      "type": "company",
-      "role": "company",
-      "name": "Facebook",
-      "file": "Facebook",
-      "primary": false,
-      "how_described": "本集提到 Sam Lessin 曾在 Facebook 工作了很长时间，以及 Google Plus 推出后 Facebook 黑客马拉松做了'迦太基必须毁灭'的海报",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 23,
-          "t": [
-            58.641,
-            64.488
-          ],
-          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 263,
-          "t": [
-            960.215,
-            965.319
-          ],
-          "quote": "I have this whole backstory, which is part ... and I worked at Facebook for a long time, was really into it early on.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1339,
-          "t": [
-            4952.901,
-            4961.345
-          ],
-          "quote": "No, but I will say that I have hanging in my gym, which I love from the Facebook Hackathon after the launch of Google Plus.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "yc",
       "type": "company",
       "role": "company",
       "name": "YC",
       "file": "YC",
       "primary": false,
-      "how_described": "本集提到 Sam 在写书之前专门为 YC 创始人做了一门礼仪课，因为 YC 创始人出来路演时有时像动物一样，比如拿了咖啡不问放哪",
+      "how_described": "本集提到 Sam 最初为 YC 创始人开设了礼仪课程，Garry Tan 对此很生气",
       "source": "glm",
       "evidence": [
         {
@@ -385,64 +414,13 @@
       ]
     },
     {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集说 OpenAI 即使最终达到 5000 亿美元市值，种子投资者也只赚了约 25 倍，对定义了这个时代的公司来说这充其量只是中等水平的种子投资",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 745,
-          "t": [
-            2751.701,
-            2757.745
-          ],
-          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Plaid, and hundreds of other winning companies have in common?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1171,
-          "t": [
-            4334.047,
-            4339.191
-          ],
-          "quote": "Even my kind of argument this from a seed perspective is like, look, is OpenAI a good investment or not?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "spacex",
-      "type": "company",
-      "role": "company",
-      "name": "SpaceX",
-      "file": "SpaceX",
-      "primary": false,
-      "how_described": "本集提到如果 Elon 的讲故事能力让 SpaceX 在公开市场上价值 1.4 万亿美元，那些靠叙事驱动的宗教信仰的资金耕作者会做得很好",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1181,
-          "t": [
-            4375.253,
-            4385.92
-          ],
-          "quote": "If the storytelling of Elon allows SpaceX, which by the way, I love, I think SpaceX is an awesome company, but if all of a sudden that actually can be worth $1.4 trillion to the public market, guess what?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "etiquette",
       "type": "concept",
       "role": "concept",
       "name": "礼仪 (etiquette)",
       "file": "礼仪",
       "primary": true,
-      "how_described": "本集把礼仪定义为一种以低心率进入房间的技能，其核心目标是建立信任和展现真正的自信，好的礼仪像 Kindle——你不会注意到技术本身，只沉浸在内容里",
+      "how_described": "本集将其定义为'一项让你以低心率出现在任何房间里的技能'，目标是建立信任和展现真诚自信，好的礼仪不应该被人记住，就像 Kindle 的技术一样退居幕后",
       "source": "glm",
       "evidence": [
         {
@@ -850,7 +828,7 @@
       "name": "富足心态 (abundance)",
       "file": "富足心态",
       "primary": true,
-      "how_described": "本集反复强调富足心态——这不是你唯一的机会，你还会有其他机会，带着这种自信和冷静出现，心率自然就低了，对比稀缺心态下像 energizer bunny 一样吓跑人",
+      "how_described": "本集将其与稀缺心态对立，建议即使内心觉得这是唯一机会，也要带着'这只是一个机会，不是全部故事'的自信和冷静出现",
       "source": "glm",
       "evidence": [
         {
@@ -934,7 +912,7 @@
       "name": "低心率 (low heart rate)",
       "file": "低心率",
       "primary": true,
-      "how_described": "本集把低心率作为所有礼仪决定的终极检验标准——做任何礼仪决定前问自己这会让你的心率升高还是降低、会让对方的心率升高还是降低",
+      "how_described": "本集将其作为礼仪的核心目标——早到、简单道歉后继续、不慌张，一切具体做法都围绕'别让你的心率成为对方的负担'",
       "source": "glm",
       "evidence": [
         {
@@ -1012,13 +990,52 @@
       ]
     },
     {
+      "id": "ea",
+      "type": "concept",
+      "role": "concept",
+      "name": "EA",
+      "file": "EA",
+      "primary": true,
+      "how_described": "本集强调必须尊重 EA 和 PA，要与她们有眼神交流、说谢谢、问咖啡杯放哪——'看门人喜欢你，事就成了一半'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 835,
+          "t": [
+            3117.16,
+            3126.131
+          ],
+          "quote": "You don't want to overdo it, but there should be this deep well of respect for anyone who's helping you, whether that's a server or a PA or an EA or whatever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3134.12,
+            3149.779
+          ],
+          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 843,
+          "t": [
+            3159.929,
+            3166.737
+          ],
+          "quote": "If you show up with flowers for the EA, you better be damn confident in what you're doing, if that makes sense.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "vibe-coding",
       "type": "concept",
       "role": "concept",
       "name": "vibe coding",
       "file": "vibe coding",
       "primary": false,
-      "how_described": "本集提到 Sam 用 vibe coding 配合 cursor、Digital Ocean 和 Cloudflare 端到端地构建了 Letter Meme 的第一个版本，但 vibe coding 无法真正扩展",
+      "how_described": "本集提到 Sam 用 vibe coding 方式构建了 Letter Meme 的第一个版本，结合 cursor、digital ocean 和 Cloudflare",
       "source": "glm",
       "evidence": [
         {
@@ -1075,7 +1092,7 @@
       "name": "AI 公司 (AI companies)",
       "file": "AI 公司",
       "primary": false,
-      "how_described": "本集说那些被标记为 AI 公司的初创公司在未来几年会让种子投资人损失极其巨大的钱，因为这些公司太资本密集、在各方面都在根本性地商品化，与用好 AI 的好生意是两回事",
+      "how_described": "本集在逆向思维环节提到 Sam 认为'那些投资于被品牌化为 AI 公司的种子风险投资家，在未来几年将损失一笔大得离谱的钱'",
       "source": "glm",
       "evidence": [
         {
@@ -1094,45 +1111,6 @@
             4405.56
           ],
           "quote": "The money plowers are going to do great with all this narrative driven religion is what I would put it, but if you're a disciplined seed investor, I guess my contrary intake would be run away from things that are AI companies because even if you look smart for the moment, you're playing a dangerous game of get out before the narrative collapses.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "ea",
-      "type": "concept",
-      "role": "concept",
-      "name": "EA",
-      "file": "EA",
-      "primary": false,
-      "how_described": "本集说尊重 EA 和行政人员是最容易被忽视但也最暴露品位的点——跟 EA 有眼神交流、说谢谢、咖啡喝完问放哪，这些小事走很远",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 835,
-          "t": [
-            3117.16,
-            3126.131
-          ],
-          "quote": "You don't want to overdo it, but there should be this deep well of respect for anyone who's helping you, whether that's a server or a PA or an EA or whatever.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 838,
-          "t": [
-            3134.12,
-            3149.779
-          ],
-          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 843,
-          "t": [
-            3159.929,
-            3166.737
-          ],
-          "quote": "If you show up with flowers for the EA, you better be damn confident in what you're doing, if that makes sense.",
           "speaker": "SPEAKER_0"
         }
       ]

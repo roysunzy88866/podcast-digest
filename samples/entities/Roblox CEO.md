@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Michael Giannangelli]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
+[[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":2,"MCP":14,"AI":6}</script>
+<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":3,"MCP":14,"AI":7}</script>
 
 <script>
 (function(){

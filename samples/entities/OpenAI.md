@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>40</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>42</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,8 @@ unlisted: true
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(01:18起):本集提到 OpenAI 的首席产品官同样认为 evals 是重要新技能，其团队大面积上过课程，且 OpenAI 收购了 Statsig。
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(02:48起):本集把它说成:早期通过直接与 CTO 交流、提供教育来建立信任并打开企业市场的典范;其产品因不需要触碰底层数据,从而更容易敲开企业大门。
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(15:16起):作为 Vercel 客户的典型案例被提及，因其虽然员工人数处于中端市场，但网站流量极高（互联网前25），故被 Vercel 划分为需要深度服务的企业级市场。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(01:33起):本集提到 Kiriti 在 OpenAI 的 Kodex 团队工作，以及在 OpenAI 发布成功产品时客户支持量出现巨大激增
+- **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(00:35起):本集说 OpenAI 内部有一个团队在做实验，维护 100% 由 Codex 编写的代码库且不留逃生舱；OpenAI 将自己视为生态系统平台公司，API 是其第一个产品
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(35:02起):本集提到在与来自中国的 AI 竞争中,提醒人们不能把 OpenAI 与 DeepSeek 的竞争简单理解为一家美国公司与一家中国公司的商业竞争。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:23起):本集提到作为对比的竞争对手，Anthropic 历史上没有 OpenAI 那样的先发优势，且因安全顾虑推迟发布聊天机器人而被 ChatGPT 抢占了先机。
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(05:26起):本集提到的头部 AI 实验室，在产品构建（如 Codex）和模型能力前沿方面被多次提及和对比。
@@ -54,7 +56,11 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*2 条*
+*4 条*
+
+![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
+
+![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q2]]
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q5]]
 
@@ -62,7 +68,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*40 集*
+*42 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -71,6 +77,8 @@ unlisted: true
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司(提及)
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为被讨论公司
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司(提及)
@@ -109,9 +117,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[Lenny]] · [[AGI]] · [[Google]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]] · [[Stripe]] · [[Microsoft]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[AGI]] · [[ChatGPT]] · [[NVIDIA]] · [[Cursor]] · [[Meta]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":49,"智能体":97,"Lenny":58,"AGI":13,"Google":18,"NVIDIA":16,"ChatGPT":24,"Meta":14,"Stripe":13,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Anthropic":51,"Lenny":65,"Google":20,"AGI":14,"ChatGPT":29,"NVIDIA":16,"Cursor":25,"Meta":14,"评估":13}</script>
 
 <script>
 (function(){

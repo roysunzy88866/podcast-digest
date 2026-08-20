@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":1,"Whatnot":2,"直播购物":2,"市场":1,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":8}</script>
+<script type="application/json" class="pd-epn">{"David George":1,"Whatnot":2,"直播购物":2,"市场":1,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":9}</script>
 
 <script>
 (function(){

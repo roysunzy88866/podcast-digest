@@ -7,16 +7,20 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(16:00起):本集将 token 描述为稀缺资源，用阿拉丁神灯三个愿望的比喻说明上下文记忆窗口有限；如果不给文件引用，agent 会把 80% 的 token 花在阅读代码上
+- **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(27:14起):本集说 Boris 建议 CTO 们先给工程师尽可能多的 token，小规模下 token 成本相对其他业务成本很低，Anthropic 内部已有工程师每月花数十万美元在 token 上
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(33:16起):本集作为成本度量单位，嘉宾提到一次重构花掉 2 亿个 token 才意识到必须停止全程用最贵模型，在 1400 人组织中每个工程师每月几千美元的 token 费用会引发领导层质疑
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(16:00起):本集把它说成：数据中心这个工厂生产的、史上贬值最快的商品，在恒定性能下每年跌价 70% 到 80%，持续至少四年没有停下来的迹象。
 
 ## ① 提到它的金句
 
-*8 条*
+*9 条*
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q12]]
 
 ![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q7]]
 
@@ -36,8 +40,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*4 集*
 
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为概念(提及)
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 
@@ -45,9 +51,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Heitor Lessa]] · [[Paul Kedrosky]] · [[智能体]] · [[数据中心]] · [[规范驱动开发]] · [[GPU]] · [[苏格拉底方法]] · [[推理]] · [[对抗性审查]] · [[商业地产]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[沙箱]] · [[后训练]] · [[Codex]] · [[Cursor]] · [[Lazar Jovanovic]] · [[Boris Cherny]] · [[Heitor Lessa]]
 
-<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Paul Kedrosky":1,"智能体":97,"数据中心":2,"规范驱动开发":1,"GPU":3,"苏格拉底方法":1,"推理":1,"对抗性审查":1,"商业地产":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Anthropic":51,"沙箱":20,"后训练":11,"Codex":23,"Cursor":25,"Lazar Jovanovic":1,"Boris Cherny":2,"Heitor Lessa":1}</script>
 
 <script>
 (function(){

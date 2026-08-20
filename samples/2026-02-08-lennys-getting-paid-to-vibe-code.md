@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code
 duration: "102:26"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-08-lennys-getting-paid-to-vibe-code.jpg"
 description: Lovable 首位官方 vibe coding 工程师的方法论：用清晰度和品味代替编码能力
 host: "[[Lazar Jovanovic]]"
 cohosts: ["[[Lenny]]"]
@@ -15,9 +16,9 @@ category: AI 编程
 tags:
   - AI 编程
   - 产品方法
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-02-08-lennys-getting-paid-to-vibe-code.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code#post","headline":"不会写代码的人如何成为全职 vibe coder","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code","mainEntityOfPage":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code","description":"Lovable 首位官方 vibe coding 工程师的方法论：用清晰度和品味代替编码能力","datePublished":"2026-02-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code","about":[{"@type":"Person","name":"Lazar Jovanovic"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Lovable"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"清晰度 (clarity)"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"品味 (taste)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"不会写代码的人如何成为全职 vibe coder","item":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code#post","headline":"不会写代码的人如何成为全职 vibe coder","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code","mainEntityOfPage":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code","description":"Lovable 首位官方 vibe coding 工程师的方法论：用清晰度和品味代替编码能力","datePublished":"2026-02-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-08-lennys-getting-paid-to-vibe-code.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code","about":[{"@type":"Person","name":"Lazar Jovanovic"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Lovable"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"清晰度 (clarity)"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"品味 (taste)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"不会写代码的人如何成为全职 vibe coder","item":"https://talk.solomind.cc/2026-02-08-lennys-getting-paid-to-vibe-code"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不会写代码的人如何成为全职 vibe coder</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -183,6 +184,29 @@ Lazar 的职业路径完全不线性——做过蓝领、在 Subway 打工、做
 > <span class="qz">你可以编码很快，但你可以很快编码出垃圾，也可以很快编码出魔法。所花费的时间是一样的。重要的是你和你的输入。</span>  
 > *You can code fast, but you can code garbage fast as well as magic fast. It's the same amount of time. It's you and your input that matters.*  
 > <span class="qm">—— Lazar Jovanovic · [98:47]</span> ^q11
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、Codex · 同概念:品味 (taste)、智能体 (agent)、vibe coding</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Lovable、Codex、Cursor · 同概念:智能体 (agent)</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex · 同概念:vibe coding、智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding、智能体 (agent)</span>
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同概念:品味 (taste)、智能体 (agent)</span>
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同嘉宾:Lenny · 同概念:vibe coding、品味 (taste)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

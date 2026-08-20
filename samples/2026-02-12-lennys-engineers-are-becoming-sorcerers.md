@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers
 duration: "79:37"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-12-lennys-engineers-are-becoming-sorcerers.jpg"
 description: "OpenAI 工程负责人揭示内部 95% 工程师日常用 Codex 写代码，以及他对一人公司生态、脚手架被模型吃掉等趋势的判断。"
 host: "[[Sherwin Wu]]"
 cohosts: ["[[Lenny]]"]
@@ -15,9 +16,9 @@ category: AI 编程
 tags:
   - AI 编程
   - 组织与领导力
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-02-12-lennys-engineers-are-becoming-sorcerers.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers#post","headline":"OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers","mainEntityOfPage":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers","description":"OpenAI 工程负责人揭示内部 95% 工程师日常用 Codex 写代码，以及他对一人公司生态、脚手架被模型吃掉等趋势的判断。","datePublished":"2026-02-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers","about":[{"@type":"Person","name":"Sherwin Wu"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"脚手架 (scaffolding)"},{"@type":"Thing","name":"业务流程自动化 (business process automation)"},{"@type":"Thing","name":"API"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应","item":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers#post","headline":"OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers","mainEntityOfPage":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers","description":"OpenAI 工程负责人揭示内部 95% 工程师日常用 Codex 写代码，以及他对一人公司生态、脚手架被模型吃掉等趋势的判断。","datePublished":"2026-02-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-12-lennys-engineers-are-becoming-sorcerers.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers","about":[{"@type":"Person","name":"Sherwin Wu"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"脚手架 (scaffolding)"},{"@type":"Thing","name":"业务流程自动化 (business process automation)"},{"@type":"Thing","name":"API"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应","item":"https://talk.solomind.cc/2026-02-12-lennys-engineers-are-becoming-sorcerers"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -147,6 +148,29 @@ Sherwin 观察到很多公司的 AI 部署可能是负 ROI，根源几乎一样�
 > <span class="qz">在软件工程中，独创性在于偏离，但世界上正在做的很多工作实际上只是运行这些程序和运营。</span>  
 > *In software engineering, the ingenuity is in deviating, but a lot of the work being done in the world is actually just running through these procedures and operations.*  
 > <span class="qm">—— Sherwin Wu · [55:14]</span> ^q10
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、OpenAI、ChatGPT · 同概念:智能体 (agent)、vibe coding</span>
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、Cursor · 同概念:智能体 (agent)</span>
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex · 同概念:vibe coding、智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding、智能体 (agent)</span>
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

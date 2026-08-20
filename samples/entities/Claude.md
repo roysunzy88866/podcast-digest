@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,9 @@ unlisted: true
 - **[[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]]**(31:49起):本集广告口播中提到 Claude 可以处理复杂多步骤工作，Claude 4 Opus 是世界上最好的编码模型
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(21:02起):本集提到 Claude 作为可以结合各自擅长的领域的多个模型之一，Ezinne 说 Claude 是她的副手
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(00:48起):本集中被多次提及的大模型;嘉宾以其反复打磨邮件却浪费时间为例,拷问什么样的模型行为才是真正对用户有益的。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(32:25起):本集提到 CEO 每天多次与 ChatGPT、Claude 等聊天是成功的头号预测指标
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(46:08起):本集提到 Marc 的儿子在使用 Claude，以及 Claude Code 在一周半内开发出 Cowork
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(13:44起):调试时作为外部顾问工具被提及，用 Repomix 压缩代码库后上传到 Claude 进行分析
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：AI 模型与产品的核心。工程师用它快速写代码、交付功能；设计师用它探索视觉方案和长线任务。嘉宾指出其非确定性使得传统高保真模型图失效，只有底层模型真正跑起来才能发现问题。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:32起):本集提到作为构建工具时大量使用的 AI 产品，比如用 Claude Code 进行 vibe coding、写智能体淘汰自己或修复糟糕软件。
 - **[[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]]**(06:01起):本集提到团队里有两个初级开发者都伴随着 Cursor 和 Claude 长大
@@ -34,7 +37,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*13 条*
+*17 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q2]]
 
@@ -43,6 +46,14 @@ unlisted: true
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q4]]
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q2]]
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q4]]
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q6]]
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q7]]
 
 ![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q5]]
 
@@ -64,7 +75,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*21 集*
+*24 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -73,6 +84,9 @@ unlisted: true
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为被讨论公司(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]] — 作为概念(提及)
@@ -92,9 +106,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude Code]] · [[Codex]] · [[OpenAI]] · [[Cursor]] · [[MCP]] · [[vibe coding]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[OpenAI]] · [[Cursor]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Lenny":58,"Anthropic":49,"ChatGPT":24,"Claude Code":25,"Codex":20,"OpenAI":40,"Cursor":22,"MCP":14,"vibe coding":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Anthropic":51,"ChatGPT":29,"Claude Code":27,"vibe coding":17,"Codex":23,"OpenAI":42,"Cursor":25,"LLM":13}</script>
 
 <script>
 (function(){

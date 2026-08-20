@@ -33,7 +33,7 @@ unlisted: true
 
 [[Eric Ries]] · [[Idan Gazit]] · [[Lenny]] · [[GitHub Next]] · [[Incorruptible]] · [[Copilot]] · [[Novo Nordisk]] · [[ACE]] · [[Anthropic]] · [[Dependabot]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Idan Gazit":1,"Lenny":58,"GitHub Next":1,"Incorruptible":1,"Copilot":3,"Novo Nordisk":2,"ACE":1,"Anthropic":49,"Dependabot":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Ries":1,"Idan Gazit":1,"Lenny":65,"GitHub Next":1,"Incorruptible":1,"Copilot":4,"Novo Nordisk":2,"ACE":1,"Anthropic":51,"Dependabot":1}</script>
 
 <script>
 (function(){

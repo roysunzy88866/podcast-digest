@@ -160,9 +160,9 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:Codex · 同概念:vibe coding、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同公司:Codex · 同概念:循环 (loop)、智能体 (agent)</span>
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

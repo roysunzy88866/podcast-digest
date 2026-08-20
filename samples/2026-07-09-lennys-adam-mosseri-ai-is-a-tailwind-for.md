@@ -178,17 +178,17 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 **顺着「组织与领导力」挖下去**
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:anthropic、twitter</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding</span>
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:anthropic</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:anthropic</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:vibe coding、品味 (taste)</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:instagram · 同概念:reels、stories</span>
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:instagram、facebook</span>
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同公司:anthropic · 同概念:vibe coding</span>
 
 </div>
 </div>

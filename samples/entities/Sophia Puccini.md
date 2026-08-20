@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]]
+[[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Sophia Du":1,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":5,"生存风险":1}</script>
+<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Sophia Du":1,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":6,"生存风险":1}</script>
 
 <script>
 (function(){

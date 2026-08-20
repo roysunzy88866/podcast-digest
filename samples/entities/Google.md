@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,8 @@ unlisted: true
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:13起):本集说 Google 搜索副总裁表示发给发布商的流量没有下降，反而微升；Google 专门配置搜索算法来排名 Reddit、Twitter 和 Quora，因为想要用户生成内容
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(00:00起):本集说 Google 的核心搜索并没有被取代，人们仍然来搜电话号码、价格、路线；AI 对 Google 搜索来说是扩张性的，带来了更多新的提问和好奇心
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:01起):本集在介绍嘉宾履历及讨论 AI 早期进展时提及,说她曾是首席 AI 科学家,并曾在那里与 Jeff Dean、Geoff Hinton 等人共事。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(01:33起):本集提到 Kiriti 过去十年在 Google 构建 AI 和 ML 基础设施，Google 也是嘉宾支持过 AI 产品部署的公司之一
+- **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:02起):本集提到从 Google 挖来的人流失率 100%；还提到 Google CFO Ruth Porat 的名言'吃屎三明治时别细嚼慢咽'。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(48:26起):本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，并且讨论了其过去曾需要多少人来维持运营的间接费用问题。
@@ -32,7 +34,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -44,16 +46,20 @@ unlisted: true
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q8]]
 
+![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q5]]
+
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q1]]
 
 ## ② 出现在这些集
 
-*18 集*
+*20 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -73,9 +79,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Lenny]] · [[Apple]] · [[Meta]] · [[AGI]] · [[ChatGPT]] · [[NVIDIA]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Apple]] · [[AGI]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":40,"Anthropic":49,"智能体":97,"Lenny":58,"Apple":12,"Meta":14,"AGI":13,"ChatGPT":24,"NVIDIA":16,"Microsoft":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"OpenAI":42,"Lenny":65,"Anthropic":51,"ChatGPT":29,"Meta":14,"Apple":12,"AGI":14,"NVIDIA":16,"Amazon":7}</script>
 
 <script>
 (function(){

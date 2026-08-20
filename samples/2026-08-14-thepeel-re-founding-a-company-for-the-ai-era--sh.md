@@ -168,7 +168,7 @@ CEO 现在只做三件事：只有自己能做的事（招聘、展示方向、�
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同概念:智能体 (agent)、MCP</span>
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

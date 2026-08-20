@@ -132,7 +132,7 @@ Opus 4.5 让 Claude Code 被大规模采用,而 Claude Code 也让 Opus 4.5 的�
 
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、Claude Code</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code、评估 (evals)</span>
-- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude</span>
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,11 +17,13 @@ unlisted: true
 - **[[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]]**(50:39起):本集说 LLM 在 Chess.com 复盘功能中的角色是把引擎评估结果翻译成用户能懂的语言和风格（个性、语音反馈），但 LLM 自己下棋很烂，会产生棋步幻觉，看棋盘图像甚至会画错方格数量。
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:58起):本集提到它们在夜间和周末往往处于闲置状态,应该被推向连续数小时乃至整夜的高自主性运行,去完成人类睡觉前描述好的多个实验方向。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(30:52起):本集在谈及用 AI 总结退订理由时提及，大语言模型本质上是一台预测最可能性的「平均机器」，它擅长提炼通用主题，却很难找出真正能触发产品改进的、那些不平均的具体痛点细节
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(20:53起):本集说孩子可以和 LLM 谈论感兴趣的话题、问无限数量的问题并获得即时反馈，让一对一辅导在经济上变得可行
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(10:42起):本集提到从业者现在晚上要花时间喂养这头在夜间运行的野兽，这带来了跟上前沿的压力，但也带来了让工作自动化的可能。
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(01:48起):本集把 LLM 说成是 OpenAI 和 Anthropic 等初创公司为了尽快盈利而必须重金押注的路线，并指出 Demis 认为仅靠 LLM 不足以达成真正的通用人工智能。
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(08:48起):本集强调它只是个概率上的下一个词预测器,自己没法执行工具,它真正做的是把工具需要的参数提取出来交给你去执行。
+- **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(22:38起):本集说 LLM 不仅仅是生成媒体的工具，它本身就是一种全新的叙事媒介（new medium for storytelling），就像收音机、电影刚出现时一样，还没人知道什么形式会行得通。
 
 ## ① 提到它的金句
 
@@ -51,7 +53,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*13 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
@@ -59,19 +61,21 @@ unlisted: true
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|《增长不是指标黑客，是连接用户与价值》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为概念
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Replit]] · [[开源模型]] · [[Google]] · [[Claude]] · [[Lovable]] · [[主观能动性]] · [[SEO]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Replit]] · [[Claude]] · [[ChatGPT]] · [[主观能动性]] · [[Google]] · [[开源模型]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":97,"Anthropic":49,"Replit":8,"开源模型":7,"Google":18,"Claude":21,"Lovable":7,"主观能动性":11,"SEO":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Anthropic":51,"Replit":9,"Claude":24,"ChatGPT":29,"主观能动性":13,"Google":20,"开源模型":7,"Lovable":8}</script>
 
 <script>
 (function(){

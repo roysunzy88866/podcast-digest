@@ -166,7 +166,7 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)、评测标准 (evals)</span>
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:智能体 (agent)、评测标准 (evals)</span>
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:智能体 (agent)、评测标准 (evals)</span>
 
 </div>
 <div class="pd-ex">

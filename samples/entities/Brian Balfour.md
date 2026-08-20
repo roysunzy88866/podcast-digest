@@ -55,7 +55,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Facebook]] · [[Google]] · [[Apple]] · [[Zynga]] · [[Cursor]] · [[分发平台]] · [[四步周期]]
+[[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Facebook]] · [[Google]] · [[Apple]] · [[HubSpot]] · [[Zynga]] · [[Cursor]] · [[分发平台]]
 
 ## ④ 也在聊「增长与销售」的人
 
@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"ChatGPT":24,"Claude":21,"Facebook":8,"Google":18,"Apple":12,"Zynga":2,"Cursor":22,"分发平台":1,"四步周期":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"ChatGPT":29,"Claude":24,"Facebook":9,"Google":20,"Apple":12,"HubSpot":3,"Zynga":2,"Cursor":25,"分发平台":1}</script>
 
 <script>
 (function(){

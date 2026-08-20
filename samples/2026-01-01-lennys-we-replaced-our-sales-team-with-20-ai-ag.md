@@ -153,9 +153,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:Delphi、Salesforce · 同概念:推向市场 (go-to market)、智能体 (agent)、前置部署工程师 (Forward Deployed Engineer)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:前置部署工程师 (Forward Deployed Engineer)、智能体 (agent)</span>
 
 </div>
 </div>

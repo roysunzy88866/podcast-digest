@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Hugging Face]] · [[护栏]] · [[Laurent]] · [[Theo Jaffe]] · [[Elena Berger]] · [[Michael Giannangelli]] · [[Charles Gorintin]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":40,"智能体":97,"Anthropic":49,"Hugging Face":7,"护栏":16,"Laurent":1,"Theo Jaffe":2,"Elena Berger":2,"Michael Giannangelli":1,"Charles Gorintin":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":42,"智能体":102,"Anthropic":51,"Hugging Face":7,"护栏":19,"Laurent":1,"Theo Jaffe":2,"Elena Berger":2,"Michael Giannangelli":1,"Charles Gorintin":1}</script>
 
 <script>
 (function(){

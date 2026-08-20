@@ -148,9 +148,9 @@ Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、OpenAI、ChatGPT · 同概念:智能体 (agent)、vibe coding</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、Linear · 同概念:智能体 (agent)</span>
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)、计算机使用 (computer use)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
@@ -158,8 +158,8 @@ Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它�
 **换个口味**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)</span>
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:主观能动性 (agency)、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:智能体 (agent)、vibe coding</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

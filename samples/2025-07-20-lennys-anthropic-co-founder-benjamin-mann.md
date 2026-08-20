@@ -194,9 +194,9 @@ Ben 的思路是向人类组织学习：公司就是最大规模的人类智能�
 
 **换个口味**
 
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、对齐 (alignment)</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta · 同概念:Claude Code</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、Claude</span>
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude、Claude Code</span>
 
 </div>
 </div>

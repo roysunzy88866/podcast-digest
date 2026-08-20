@@ -201,9 +201,9 @@ Andrew 个人身价一度超过 10 亿美元，但他描述自己坐在桑拿房
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:智能体 (agent)、vibe coding</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:智能体 (agent)</span>
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Replit · 同概念:智能体 (agent)</span>
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、Replit · 同概念:vibe coding、护城河 (moat)</span>
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding、智能体 (agent)</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 </div>

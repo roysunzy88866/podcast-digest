@@ -108,7 +108,7 @@ Mitchell（在做一个叫 Vouch 的系统）直接转向「默认拒绝」—�
 
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
-- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:智能体 (agent)、PR</span>
 
 </div>
 <div class="pd-ex">

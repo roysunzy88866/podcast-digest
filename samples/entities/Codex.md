@@ -7,12 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(37:17起):本集说 Every 偶尔使用 OpenAI 的 Codex 编码工具，用于一次性完成某个独立的小功能
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:41起):本集说它是 ChatGPT(GPT)针对 Claude Code 的竞品。嘉宾把它拟人化为公司里最好的「独狼」程序员,沟通差但解决最棘手 Bug 能力极强,常被用来给 Claude 写的代码做交叉同行评审。
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(68:41起):作为调试第三步的外部诊断工具被提及，将代码导出到 GitHub 后导入 Codex 只用来诊断问题，不让它直接改代码
+- **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(00:01起):本集说 Codex 是 OpenAI 内部 95% 工程师每天使用的写代码工具，100% 的 PR 由它审查；用得多的工程师比不常用的多开 70% 的 PR，且差距在拉大
+- **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(71:20起):本集说它看起来很像 Claude Code，Boris 认为有更多竞争是好事，能迫使所有人做得更好
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:47起):本集提到作为最高级推理能力相当先进的 AI 编码工具，被嘉宾用于日常构建中。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:05起):OpenAI 推出的桌面应用，被 Dan 当作日常主力工作环境，其内置浏览器可让智能体看着用户工作；Dan 认为它抓住了未来工作的范式，甚至超过了 Anthropic 的产品。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(03:42起):本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
@@ -33,7 +36,11 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*4 条*
+*6 条*
+
+![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q2]]
+
+![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q7]]
 
 ![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q2]]
 
@@ -45,10 +52,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*23 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为被讨论公司(提及)
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为被讨论公司
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
@@ -72,9 +82,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[OpenClaw]] · [[护栏]]
+[[智能体]] · [[Claude Code]] · [[Cursor]] · [[Lenny]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[护栏]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Claude Code":25,"Claude":21,"Cursor":22,"Lenny":58,"Anthropic":49,"ChatGPT":24,"Meta":14,"OpenClaw":8,"护栏":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Claude Code":27,"Cursor":25,"Lenny":65,"Claude":24,"ChatGPT":29,"Anthropic":51,"沙箱":20,"护栏":19,"Meta":14}</script>
 
 <script>
 (function(){

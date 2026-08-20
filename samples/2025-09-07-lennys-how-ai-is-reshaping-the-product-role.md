@@ -181,9 +181,9 @@ Oji的预测：未来几年，很多高主观能动性的人会编写自动化�
 
 **顺着「产品方法」挖下去**
 
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:evals、主观能动性 (agency)、智能体 (agent)</span>
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

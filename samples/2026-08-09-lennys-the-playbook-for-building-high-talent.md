@@ -128,8 +128,8 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 **顺着「组织与领导力」挖下去**
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:go-to-market、前置部署工程师 (forward-deployed engineer)、智能体 (agent)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

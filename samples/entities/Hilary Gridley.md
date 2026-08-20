@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]] [[Stephen Haney]] [[Aakash]]
+[[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":24,"Claude":21,"GPT":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":29,"Claude":24,"GPT":1}</script>
 
 <script>
 (function(){

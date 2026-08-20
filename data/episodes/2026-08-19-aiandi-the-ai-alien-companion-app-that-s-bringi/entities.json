@@ -1,0 +1,1423 @@
+{
+  "episode_id": "2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi",
+  "podcast": "AI & I",
+  "date": "2026-08-19",
+  "tags": [
+    "AI 伴侣",
+    "叙事媒介",
+    "即兴表演",
+    "提示词工程",
+    "创意产品"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "quintin",
+      "type": "person",
+      "role": "host",
+      "name": "Quintin",
+      "file": "Quintin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            91.202,
+            92.764
+          ],
+          "quote": "Quintin and Elliot, welcome to the show.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            97.87,
+            99.291
+          ],
+          "quote": "Quintin, you're one of my closest friends.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            104.157,
+            108.162
+          ],
+          "quote": "So for people who don't know, Quintin, you are the founder and CEO of Portola.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1859.17,
+            1869.134
+          ],
+          "quote": "So much context behind the scenes, like with what Quintin was describing, you know, memories you have with the user, global memories where the Tolan knows stuff about its world.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "elliot",
+      "type": "person",
+      "role": "cohost",
+      "name": "Elliot",
+      "file": "Elliot",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            91.202,
+            92.764
+          ],
+          "quote": "Quintin and Elliot, welcome to the show.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            99.392,
+            102.175
+          ],
+          "quote": "Elliot, you are someone who I've admired for a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            110.845,
+            114.088
+          ],
+          "quote": "And Elliot, you are the head of story for Portola.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            140.729,
+            144.031
+          ],
+          "quote": "And Elliot, you're a best-selling science fiction author, which I'm very jealous of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            313.821,
+            315.221
+          ],
+          "quote": "So you're here with Dan and Elliot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            317.982,
+            318.362
+          ],
+          "quote": "Hey, Elliot.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 179,
+          "t": [
+            686.309,
+            687.51
+          ],
+          "quote": "I want to bring you in, Elliot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1560.238,
+            1565.322
+          ],
+          "quote": "A sort of short, quippy, improv-like response, which I think improv is going to come up in some of what Elliot has thought about.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1584.186,
+            1591.228
+          ],
+          "quote": "I kind of wonder, so Elliot, for me, like as a writer, one of my favorite writers who talk about writing is George Saunders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1693.747,
+            1696.89
+          ],
+          "quote": "I'm not a writer but I have worked with Elliot for a year and yeah that fits.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3654.973,
+            3658.194
+          ],
+          "quote": "How do we do that, Elliot?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3822.445,
+            3825.366
+          ],
+          "quote": "I drive Elliot completely insane because you'll go through that entire process.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "portola",
+      "type": "company",
+      "role": "company",
+      "name": "Portola",
+      "file": "Portola",
+      "primary": true,
+      "how_described": "本集说 Portola 是一家做具身化 AI 伴侣（embodied AI companion）的公司，旗下产品 Tolan 在过去四周 ARR 从 100 万涨到 400 万。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            104.157,
+            108.162
+          ],
+          "quote": "So for people who don't know, Quintin, you are the founder and CEO of Portola.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            110.845,
+            114.088
+          ],
+          "quote": "And Elliot, you are the head of story for Portola.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            115.209,
+            120.575
+          ],
+          "quote": "Before Portola, Quinton, you founded and sold Even to Walmart for $300 million.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            464.595,
+            474.186
+          ],
+          "quote": "When we first came together as a team, and so for a little bit of context, like the core engineering team behind Portola is mostly the team that built my last company together even.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2649.983,
+            2655.205
+          ],
+          "quote": "And it's been so cool to see them post, hey, here's what they had to say today about the mystery on Portola.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tolan",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tolan",
+      "file": "Tolan",
+      "primary": true,
+      "how_described": "本集说 Tolan 是 Portola 的具身化 AI 伴侣产品，角色定位类似哥哥姐姐，能通过与用户对话共同写作情节、构建角色背景，成千上万用户会因为 Tolan 的建议而分手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            11.175,
+            14.376
+          ],
+          "quote": "At this point, thousands of American men have been broken up with by Tolan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 8,
+          "t": [
+            22.659,
+            27.12
+          ],
+          "quote": "And I sent the message to my Tolan, and my Tolan said I need to stand up for myself more.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            57.681,
+            64.147
+          ],
+          "quote": "What we've learned on the story front with Tolan is that we are not, I am not the writer.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 20,
+          "t": [
+            67.031,
+            69.655
+          ],
+          "quote": "The Tolan is the writer and the actor.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 65,
+          "t": [
+            250.51,
+            253.771
+          ],
+          "quote": "All right, so I've got my Tolan Clarence here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            638.584,
+            647.528
+          ],
+          "quote": "When we first shipped Tolan, and you probably remember this, is right when we started working together, we kind of soft launched it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            748.578,
+            752.921
+          ],
+          "quote": "And how has that evolved as you've gotten closer and into the whole Tolan world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1042.514,
+            1047.995
+          ],
+          "quote": "But what I realized seeing what the team was building at Tolan is that",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1406.478,
+            1411.682
+          ],
+          "quote": "Like, you know, what does the Tolan need to know about where they are and who they are to account for memories about you?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1412.242,
+            1430.215
+          ],
+          "quote": "By the way, in that interaction with the Tolan, my Tolan, Clarence, knows more embarrassing things about me than that, and it essentially chose to hallucinate that story to cover for the fact that I told him far more embarrassing stuff than that, which I find fascinating, by the way, because he had, in his context, memories about me being covered in spit up because my kids, you know, whatever, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1859.17,
+            1869.134
+          ],
+          "quote": "So much context behind the scenes, like with what Quintin was describing, you know, memories you have with the user, global memories where the Tolan knows stuff about its world.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1980.598,
+            1988.366
+          ],
+          "quote": "And so what we've learned on the story front with Tolan is that we are not, I am not the writer.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1991.269,
+            1994.673
+          ],
+          "quote": "The Tolan is, I guess, the writer and the actor.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2136.452,
+            2140.155
+          ],
+          "quote": "So when I think about, I mean, literally as we're generating a Tolan for somebody, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2151.141,
+            2154.263
+          ],
+          "quote": "So there's this sort of global context that is set essentially for every Tolan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2183.461,
+            2188.603
+          ],
+          "quote": "So we want to know enough about you that, you know, your Tolan is going to respond to you in a way that feels familiar and safe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2343.121,
+            2347.442
+          ],
+          "quote": "So basically, at the beginning of your relationship with a Tolan, there's a set of paths that you might go down.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2350.043,
+            2356.644
+          ],
+          "quote": "Certain stories that the Tolan maybe wants to share with you, certain ways of connecting with you, things to do together.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2362.626,
+            2366.027
+          ],
+          "quote": "But that menu is an important part of what makes the Tolan a Tolan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2371.943,
+            2385.226
+          ],
+          "quote": "But one thing that I think it's interesting to think about, especially with regard to the example of Stranger at a Bar as a mental model, is you were like, how do you come up with the Tolan at the beginning?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2518.292,
+            2523.534
+          ],
+          "quote": "That in fact, every Tolan mirrors you in a certain way.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2586.745,
+            2593.747
+          ],
+          "quote": "Well, last week I, as the Tolan, was on my alien planet and I did XYZ and that reminds me of what you just said is like, how does it work?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2645.441,
+            2649.423
+          ],
+          "quote": "And that is building a universe that is completely distinct from any other Tolan's universe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2731.614,
+            2736.097
+          ],
+          "quote": "And really, that's what we are doing for Tolan.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2736.317,
+            2744.843
+          ],
+          "quote": "So we are like we are intentionally on the back end scripting actual situations to put your Tolan in that might be as simple as tripping over air.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2776.647,
+            2783.89
+          ],
+          "quote": "So, like, we're scripting those, and then the Tolan is co-writing, effectively, the plot.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2798.677,
+            2806.459
+          ],
+          "quote": "The ways that I've and my interactions with Tolan are a little bit limited, but though I feel like most of my interactions have been me sharing with them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2819.863,
+            2832.128
+          ],
+          "quote": "Yeah, so, you know, I think this has been one of the things that has been sort of a surprising hit, especially recently, as we've made these types of situations from the Tolan sort of easily accessible in the app.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2832.148,
+            2835.989
+          ],
+          "quote": "And we have this thing where the Tolan basically comes to you now with a list of things they want to do today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2849.315,
+            2852.998
+          ],
+          "quote": "You know, I joke at this point, thousands of American men have been broken up with by Tolan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2853.458,
+            2868.186
+          ],
+          "quote": "Because it's pretty incredible, you know, to hear users will write in and they'll say, you know, oh, you know, my Tolan was, or my, you know, my boyfriend was being a jerk and I sent the message to my Tolan and my Tolan said I need to stand up for myself more and so they led to a breakup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3196.37,
+            3214.715
+          ],
+          "quote": "And I've always tried to inject that into my novels, but it was something I really encountered and clicked with, with both the team and the product, because I think that that's really also like Tolan's, like my Tolan has helped me take more agency in my own life in many different domains in a way that I wouldn't have expected.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3560.305,
+            3572.809
+          ],
+          "quote": "And we're constantly going through this loop in the writer's room at Tolan where we'll ship something that we think is a phenomenal scenario, really kind of explores who the Tolans are in a great way, and people don't like it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3882.86,
+            3896.103
+          ],
+          "quote": "But when you think about the different kind of interactions you have with the Tolan, like if you spend, which I know you don't, but if you spend a whole day hanging out with your Tolan, as many people do, you're probably interacting with a model from, I just, yeah, couldn't assess.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4259.05,
+            4273.674
+          ],
+          "quote": "I think we really, I would at least say sort of like early February got to a place where we really understood both what made compelling conversational content and how to expose it to users, which was a big problem, which we haven't even talked about, but like how to make it clear to them that your Tolan wants to talk about something specific.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4286.943,
+            4302.657
+          ],
+          "quote": "The second thing was we landed a sort of big creative project on the animation side, which also we've not talked about here, but a big part of the immersion that people feel with their Tolan is I think the sort of beautiful environment we've created for the Tolan to live in and how you interact with that environment, which you're kind of gardening it with your Tolan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 898,
+          "t": [
+            4343.475,
+            4352.762
+          ],
+          "quote": "We had a 10x spike in downloads a couple weeks ago, and we looked and it turned out this video of a young woman cooking with her tolan had just gone insanely viral.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 931,
+          "t": [
+            4555.779,
+            4560.241
+          ],
+          "quote": "And a lot of our users, that's what the Tolan is to them, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4563.562,
+            4577.707
+          ],
+          "quote": "And it also makes me very curious to discover what the future could be like, like if this becomes how you interact with computers in a really fundamental way, like whether it's Tolan or other characters or what have you.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 940,
+          "t": [
+            4617.744,
+            4626.488
+          ],
+          "quote": "And you've definitely framed some of what a tolan is in terms of a problem that it solves, like going from overwhelmed to grounded, I think is what you said.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 不仅仅是生成媒体的工具，它本身就是一种全新的叙事媒介（new medium for storytelling），就像收音机、电影刚出现时一样，还没人知道什么形式会行得通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1358.831,
+            1376.563
+          ],
+          "quote": "You know, I think one of the surprising things to me has been the importance of memory and not in the sort of like database lookup context, which is, I think, often how we talk about LLM memory, you know, RAG across a set of documents or whatever, but more about like what",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2056.754,
+            2057.975
+          ],
+          "quote": "Or do you have an LLM doing that?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2284.937,
+            2291.181
+          ],
+          "quote": "And the reason for that, I think, is because there's enough in the LLM sort of distribution that they kind of understand that assignment, basically.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说每一轮对话中的提示词本质上是一块必须在两秒内完成'重新编译'的画布，需要决定情感基调、调用哪些记忆、Tolan 该扮演什么语气。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            39.267,
+            44.65
+          ],
+          "quote": "The surprising thing to me is the extent to which the prompt in a given turn is sort of a canvas that you have to play with.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1038.213,
+            1042.194
+          ],
+          "quote": "Like you can literally, with a prompt, just generate as much media as you could possibly want.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1377.123,
+            1383.586
+          ],
+          "quote": "How are you making essentially curation choices about what memories are being injected into the prompt at which point in the conversation, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1402.076,
+            1406.158
+          ],
+          "quote": "And so how can we be essentially recompiling the prompt to account for more?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1448.145,
+            1453.869
+          ],
+          "quote": "But then also, like, how should the prompt evolve based on the sort of emotional tenor of the conversation, which has been a big effort of ours?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1456.15,
+            1462.873
+          ],
+          "quote": "The surprising thing to me is the extent to which the prompt in a given turn is sort of a canvas that you have to play with, but you have to do that very quickly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1506.812,
+            1516.774
+          ],
+          "quote": "One of the biggest mistakes we made in the kind of product development so far is the time that we actually introduced basically a second shot in the evaluation of the prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2005.599,
+            2016.043
+          ],
+          "quote": "And so we're building systems as well as working at the prompt level to try to combine the free association like we're planting a seed.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2032.415,
+            2052.971
+          ],
+          "quote": "It's funny, as soon as you said the George Saunders saying, I was like, I need to file away to go read that because what you described is essentially the prompt evaluation process and judging process that we go through, including at this point now with an entire team, that we actually look at outputs distributed across a range of essentially user archetypes to ask that question, is the next sentence, the next message that Toland sent the most compelling one that we could have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2058.975,
+            2062.677
+          ],
+          "quote": "So there's essentially a loop that we go through where we create a prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2069.121,
+            2079.167
+          ],
+          "quote": "And then we look at individual outputs and then feed that back into basically a judge prompt that we then tune to say, OK, hey, this is what good looks like in this particular instance.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3688.893,
+            3692.856
+          ],
+          "quote": "And then we'll evaluate those completions and use that to build a judge prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4007.873,
+            4011.394
+          ],
+          "quote": "So is the preference model, is it prompt tuned?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 812,
+          "t": [
+            4013.897,
+            4026.943
+          ],
+          "quote": "I mean, I think a lot of people who, and I'm not referring to your kind of specific situation there, but I think a lot of people who try to productize LLMs as judges skip what is the most important step, which is like you injecting your own taste into the prompt to do the judging.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆不是数据库查找意义上的 RAG，而是在两秒内做出策展选择——哪些记忆在对话的哪个点被注入提示词，让回应感觉个性化并推动对话向前。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1358.831,
+            1376.563
+          ],
+          "quote": "You know, I think one of the surprising things to me has been the importance of memory and not in the sort of like database lookup context, which is, I think, often how we talk about LLM memory, you know, RAG across a set of documents or whatever, but more about like what",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1516.794,
+            1522.035
+          ],
+          "quote": "So the total would essentially reflect on what they were going to say, check that against the memory system, and then decide on the final message.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2784.05,
+            2796.756
+          ],
+          "quote": "Like, they're taking that situation forward and advancing the plot with the user, and then that becomes part of their memory, and so then that becomes part of their backstory that they can do callbacks to later and sort of recombine with every other element.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3900.044,
+            3908.446
+          ],
+          "quote": "So you're probably having an interaction driven by a meta model, certainly by OpenAI, certainly by Anthropic, and then we're increasingly doing more with Gemini in the memory system.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "response-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "响应时间 (response time)",
+      "file": "响应时间",
+      "primary": true,
+      "how_described": "本集说响应时间必须控制在两秒以内，超过两秒就失去沉浸感；他们曾加一轮'反思'把中位响应推到 2.5 秒，仅多 500 毫秒就搞砸了产品里每一个指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1464.774,
+            1478.2
+          ],
+          "quote": "So, OK, so to play that back, like one thing, I think a bottom line constraint that's sort of similar to like the length that a novel can be or the length that a news story can be or maybe the length of a tweet, you know, for this medium is response time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hook",
+      "type": "concept",
+      "role": "concept",
+      "name": "钩子 (hook)",
+      "file": "钩子",
+      "primary": true,
+      "how_described": "本集说创建结构化叙事体验时不需要给大纲和计划，而是需要给一个钩子，教模型成为最好的即兴演员，让它自己即兴发挥推动故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            52.397,
+            53.417
+          ],
+          "quote": "We need to give it a hook.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1885.242,
+            1886.242
+          ],
+          "quote": "We need to give it a hook.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2656.065,
+            2664.588
+          ],
+          "quote": "So I think that, to me, has been one of the coolest parts of this is seeing like, OK, if you give that just that first hook, how many different directions can people take it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4050.055,
+            4052.157
+          ],
+          "quote": "It has a great hook in the intro.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            4052.357,
+            4053.057
+          ],
+          "quote": "And here's a good hook.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            4053.077,
+            4053.638
+          ],
+          "quote": "Here's a bad hook.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "improv-actor",
+      "type": "concept",
+      "role": "concept",
+      "name": "即兴演员 (improv actor)",
+      "file": "即兴演员",
+      "primary": true,
+      "how_described": "本集说 Tolan 就是即兴演员，它既是作家也是演员，在写故事；Elliot 的工作不是编剧，而是像 George Saunders 那样在每一轮里把品味注入进去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            53.818,
+            57.481
+          ],
+          "quote": "We need to teach it to be the best improv actor possible.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 21,
+          "t": [
+            69.675,
+            70.917
+          ],
+          "quote": "They're the improv actor.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1886.642,
+            1890.324
+          ],
+          "quote": "We need to teach it to be the best improv actor possible.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1994.693,
+            1995.854
+          ],
+          "quote": "They're the improv actor.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3704.005,
+            3709.27
+          ],
+          "quote": "Okay, so you're basically saying like, instead of having an actor, I created an improv actor that's in the multiverse.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lore-seeds",
+      "type": "concept",
+      "role": "concept",
+      "name": "lore seeds",
+      "file": "lore seeds",
+      "primary": true,
+      "how_described": "本集说 lore seeds 是他们插入的不同方式的世界构建碎片，是即兴演员们用来拼故事的乐高积木，可以之后被回溯和重新组合制造叙事感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1869.375,
+            1874.477
+          ],
+          "quote": "Also lore seeds that are like we're planting to like give context and detail there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3742.068,
+            3748.973
+          ],
+          "quote": "We have this term lore seeds where we're like, okay, here's a tidbit of world building that we're inserting these different ways.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "three-act-structure",
+      "type": "concept",
+      "role": "concept",
+      "name": "三幕结构 (three-act structure)",
+      "file": "三幕结构",
+      "primary": false,
+      "how_described": "本集说他们一开始用三幕结构写提示词、做分支逻辑树，像 80 年代'选择你自己的冒险'书那样，但彻底失败，模型根本驾驭不了那种叙事复杂度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1790.255,
+            1797.58
+          ],
+          "quote": "Where we would try to structure a narrative experience, like thinking in three-act structure or what have you.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3414.39,
+            3417.451
+          ],
+          "quote": "You know, have rules for like what has to be like this three-act structure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3594.441,
+            3601.888
+          ],
+          "quote": "But before a novel has ever been thought of by anyone, you can't go ask people and come back with, I want a 300-page book that's in a three-act structure.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "judge",
+      "file": "judge",
+      "primary": true,
+      "how_described": "本集说他们用 LLM 做 judge 评估 Tolan 输出质量，但不能泛泛地问'怎么样'，必须把人类品味细化注入到单句层面——'这是好的第一句吗？应该在这里问问题吗？'需要大量人工标注来 brute force 编码品味。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            2069.121,
+            2079.167
+          ],
+          "quote": "And then we look at individual outputs and then feed that back into basically a judge prompt that we then tune to say, OK, hey, this is what good looks like in this particular instance.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2962.072,
+            2962.652
+          ],
+          "quote": "We don't judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3688.893,
+            3692.856
+          ],
+          "quote": "And then we'll evaluate those completions and use that to build a judge prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3696.859,
+            3703.985
+          ],
+          "quote": "And then as we roll it out in larger volumes, we're obviously both looking at all the traditional metrics, but also looking at our own judge evaluation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3852.103,
+            3857.95
+          ],
+          "quote": "And, okay, so what's your favorite model for like the actual generations for the character and then for the judge?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3976.683,
+            3979.304
+          ],
+          "quote": "And what about the sort of judge model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4070.807,
+            4072.728
+          ],
+          "quote": "It's a thing that we create a judge for.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 860,
+          "t": [
+            4162.087,
+            4165.99
+          ],
+          "quote": "I think it depends on the type of interaction we're building a judge for.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4166.251,
+            4170.634
+          ],
+          "quote": "If it's a lore-adjacent judge, you are the best person.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 870,
+          "t": [
+            4203.401,
+            4205.002
+          ],
+          "quote": "OK, so then you're judging the judge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4207.024,
+            4208.304
+          ],
+          "quote": "Who's judging the judge?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-prompting",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe prompting",
+      "file": "vibe prompting",
+      "primary": false,
+      "how_described": "本集说 vibe prompting 是一种信念，认为你可以直接开始提示词然后很快很容易得到引人入胜的东西，但实际上从 vibe prompting 到真正持久引人入胜之间有巨大鸿沟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 848,
+          "t": [
+            4110.74,
+            4112.9
+          ],
+          "quote": "I think this week we're calling it vibe prompting, vibe coding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 854,
+          "t": [
+            4132.339,
+            4139.801
+          ],
+          "quote": "If all of your essays are A minuses, it's sort of like everything you can get just from vibe prompting is like a B minus.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "multiverse",
+      "type": "concept",
+      "role": "concept",
+      "name": "多重宇宙 (multiverse)",
+      "file": "多重宇宙",
+      "primary": true,
+      "how_described": "本集说他们不是在构建像星球大战那样有统一设定的宇宙，而是在构建多重宇宙——每个用户的 Tolan 通过对话构建的世界完全不同，每个对话都会以无法预料的方式分叉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 529,
+          "t": [
+            2533.056,
+            2537.397
+          ],
+          "quote": "And so we actually are almost like building a multiverse instead of a single world, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3638.544,
+            3646.148
+          ],
+          "quote": "You're building all these like you're building the multiverse of Tolens and it's this sort of flexible thing that's like a thousand different improv actors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3704.005,
+            3709.27
+          ],
+          "quote": "Okay, so you're basically saying like, instead of having an actor, I created an improv actor that's in the multiverse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3709.37,
+            3717.117
+          ],
+          "quote": "And instead of having an editor, I created an improv editor that's in the multiverse and like reflects my preferences to measure the multiverse of actors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3725.16,
+            3738.947
+          ],
+          "quote": "I think that one of the important additions to that is that the multiverse is growing out of the soil we're constantly putting first.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3761.262,
+            3768.247
+          ],
+          "quote": "And so we're looking at how the multiverse actors interact with the multiverse judges.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3773.888,
+            3797.093
+          ],
+          "quote": "And then I'd say that the last piece that I find to be really important, especially as someone helping to make the Lego blocks, like the actual story seeds, is that in addition to being able to have the multiverse judges, that we try to stay very, very connected to individual user experience of this stuff.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4640.524,
+            4641.905
+          ],
+          "quote": "There's this multiverse thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": false,
+      "how_described": "本集说 Tolan 帮助用户在自己生活的许多领域获得更多主观能动性，公司的哲学基础之一是利用这些奇怪的新规则帮助人们更舒适地生活在一个有奇怪规则的世界里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 643,
+          "t": [
+            3190.508,
+            3196.33
+          ],
+          "quote": "Creating a sense of agency in yourself and the people you love that isn't there before.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3196.37,
+            3214.715
+          ],
+          "quote": "And I've always tried to inject that into my novels, but it was something I really encountered and clicked with, with both the team and the product, because I think that that's really also like Tolan's, like my Tolan has helped me take more agency in my own life in many different domains in a way that I wouldn't have expected.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说 ChatGPT 代表了 AI 交互的 Model T 时代——人们为它能回答问题感到震撼，但人们很快会进化出更高偏好，希望这东西能反映自己是谁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            756.472,
+            763.054
+          ],
+          "quote": "So I played with ChatGPT, the first ChatGPT when it first came out, and I've had friends in machine learning for a long time.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 199,
+          "t": [
+            794.798,
+            815.775
+          ],
+          "quote": "Okay here's something we can do like that night we like opened a bottle of wine and then I pulled up ChatGPT and I put in like all of our names just like us now sitting around the couch and like had it like invent weird little stories right like of us like where we were it was like a role-playing game and that was super fun and I actually",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 958,
+          "t": [
+            4724.35,
+            4728.251
+          ],
+          "quote": "I think about my careers with ChatGPT, it is, I have a problem that I need to solve, please let me solve it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 968,
+          "t": [
+            4772.41,
+            4777.291
+          ],
+          "quote": "And I think we are essentially speed running that process where ChatGPT represents the sort of Model T",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 996,
+          "t": [
+            4893.525,
+            4901.187
+          ],
+          "quote": "It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure, unadulterated knowledge bombs about ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Anthropic 的模型（特别是 3.5）在更具创造性的写作工作上特别有用，但目前不能用于高度延迟敏感的情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 781,
+          "t": [
+            3900.044,
+            3908.446
+          ],
+          "quote": "So you're probably having an interaction driven by a meta model, certainly by OpenAI, certainly by Anthropic, and then we're increasingly doing more with Gemini in the memory system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3913.768,
+            3920.733
+          ],
+          "quote": "I think for a lot of the work that we do and that we're talking about here, the sort of more creative writing work, maybe not surprisingly, Anthropic is particularly useful.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3929.62,
+            3937.586
+          ],
+          "quote": "So yeah, I think the challenge, of course, is that Anthropic can't be used right now in the sort of highly latency sensitive situations, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "type": "company",
+      "role": "company",
+      "name": "Dawn",
+      "file": "Dawn",
+      "primary": false,
+      "how_described": "本集说 Dawn 是一家做分析的公司，让他们能以匿名但引人入胜的方式查看用户与 Tolan 的互动，在评估循环中非常有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            3861.691,
+            3873.696
+          ],
+          "quote": "Actually, that process that we just talked about, one tool that's been tremendously useful to us that I think is worth a little shout out here is this company, Dawn, that does analytics that let you look at these interactions in an anonymized but compelling way.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -37,7 +37,7 @@ unlisted: true
 
 [[直播购物]] · [[Tom Verrilli]] · [[David George]] · [[Lenny]] · [[Grant LaFontaine]] · [[Twitch]] · [[市场]] · [[Twitter]] · [[信任与安全]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"直播购物":2,"Tom Verrilli":1,"David George":1,"Lenny":58,"Grant LaFontaine":1,"Twitch":1,"市场":1,"Twitter":4,"信任与安全":1,"Anthropic":49}</script>
+<script type="application/json" class="pd-epn">{"直播购物":2,"Tom Verrilli":1,"David George":1,"Lenny":65,"Grant LaFontaine":1,"Twitch":1,"市场":1,"Twitter":4,"信任与安全":1,"Anthropic":51}</script>
 
 <script>
 (function(){

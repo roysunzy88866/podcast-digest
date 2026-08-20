@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,11 @@ unlisted: true
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(01:24起):本集将 vibe coding 描述为用自然语言让 AI 写代码来构建应用的方式，Base44 本质上是一个更高级的 vibe coding 工具；在 vibe coding 场景下用户的啊哈时刻是'天哪它真的懂我'然后直接看到应用
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(70:46起):本集提到人们打开这些只需描述需求就能构建应用的工具,却常常陷入想法危机不知道该造什么
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(51:54起):本集在「最被过度炒作」话题中被提及;嘉宾担忧这种将看似能跑的代码直接倾倒进库的做法,会让系统长期变得不可维护。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(26:48起):本集提到 Rackspace CEO 周末会做 vibe coding，以及社区中'全是 vibe coding'是错误的二分法之一
+- **[[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo|《Sam Lessin：硅谷创始人最缺的不是产品，是低心率》]]**(02:27起):本集提到 Sam 用 vibe coding 方式构建了 Letter Meme 的第一个版本，结合 cursor、digital ocean 和 Cloudflare
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(46:12起):本集提到 Marc 10 岁的儿子在 Replit 上做 vibe coding 做游戏，花两小时跟 AI 争论觉得很好玩
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(00:00起):本集将 vibe coding 定义为一种新兴职业角色和工作方式，即不需要写代码而是通过向 AI 工具提供清晰度来构建产品，嘉宾自称是 Lovable 第一位官方 vibe coding 工程师
+- **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(09:49起):本集用《魔法师的学徒》比喻 vibe coding 的极致状态：Mickey 让扫帚干活自己跑去睡觉，结果扫帚失控水淹一切——你不能设好就不管
 - **[[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]]**(11:46起):本集把 vibe coding 描述为凭感觉让 AI 帮你写代码的方式，说它允许你构建得相当快，但也会更快遇到瓶颈——代码库变得难以更改的问题从六年加速到六个月暴露
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(43:56起):本集用来指代那种仅凭感觉、不关注底层代码的生成式编程方式,嘉宾借此反驳那些傲慢地认为工程是硬技能、而其他角色只是在 vibe coding 的偏见。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(07:21起):本集将这种方式描述为：完全凭借人的直觉和感觉引导 AI 写代码，而不做细致的文档和规划，嘉宾在机场延误时正是靠这种方式写出了产品原型。
@@ -36,12 +41,17 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*17 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为概念(提及)
+- [[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo|《Sam Lessin：硅谷创始人最缺的不是产品，是低心率》]] — 作为概念(提及)
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念
 - [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]] — 作为概念
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
@@ -55,9 +65,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[ChatGPT]] · [[Cursor]] · [[Claude]] · [[Replit]] · [[Anthropic]] · [[Lovable]] · [[后训练]] · [[Codex]]
+[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Cursor]] · [[Replit]] · [[OpenAI]] · [[Codex]] · [[Lovable]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Lenny":58,"ChatGPT":24,"Cursor":22,"Claude":21,"Replit":8,"Anthropic":49,"Lovable":7,"后训练":10,"Codex":20}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"ChatGPT":29,"Claude":24,"Cursor":25,"Replit":9,"OpenAI":42,"Codex":23,"Lovable":8,"Anthropic":51}</script>
 
 <script>
 (function(){

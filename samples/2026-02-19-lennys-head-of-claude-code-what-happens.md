@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens
 duration: "87:42"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-19-lennys-head-of-claude-code-what-happens.jpg"
 description: "Claude Code 从一个内部小 hack 变成占据全球 4% GitHub 提交的产品，Boris 分享了它的起源、产品哲学和实操建议。"
 host: "[[Boris Cherny]]"
 cohosts: ["[[Lenny]]"]
@@ -15,9 +16,9 @@ category: 智能体
 tags:
   - 智能体
   - 产品方法
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-02-19-lennys-head-of-claude-code-what-happens.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens#post","headline":"Claude Code 负责人：写代码已被解决，下一步是什么","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens","mainEntityOfPage":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens","description":"Claude Code 从一个内部小 hack 变成占据全球 4% GitHub 提交的产品，Boris 分享了它的起源、产品哲学和实操建议。","datePublished":"2026-02-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens","about":[{"@type":"Person","name":"Boris Cherny"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Cowork"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"潜在需求 (latent demand)"},{"@type":"Thing","name":"沙箱 (sandbox)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Claude Code 负责人：写代码已被解决，下一步是什么","item":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens#post","headline":"Claude Code 负责人：写代码已被解决，下一步是什么","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens","mainEntityOfPage":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens","description":"Claude Code 从一个内部小 hack 变成占据全球 4% GitHub 提交的产品，Boris 分享了它的起源、产品哲学和实操建议。","datePublished":"2026-02-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-19-lennys-head-of-claude-code-what-happens.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens","about":[{"@type":"Person","name":"Boris Cherny"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Cowork"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"潜在需求 (latent demand)"},{"@type":"Thing","name":"沙箱 (sandbox)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Claude Code 负责人：写代码已被解决，下一步是什么","item":"https://talk.solomind.cc/2026-02-19-lennys-head-of-claude-code-what-happens"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code 负责人：写代码已被解决，下一步是什么</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -181,6 +182,29 @@ Cowork 也一样，所以叫"研究预览版"——必须尽早放到真实世�
 > <span class="qz">通常，如果你使用最强大的模型，实际上反而更便宜，且消耗更少 token，因为它可以只用更少的纠错、更少的指导等就把同样的事情做得更快。</span>  
 > *Often, it's actually cheaper and less token-intensive if you use the most capable model, because it can just do the same thing much faster with less correction, less hand holding, and so on.*  
 > <span class="qm">—— Boris Cherny · [69:39]</span> ^q12
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、潜在需求 (latent demand)</span>
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、对齐 (alignment)</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、evals</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

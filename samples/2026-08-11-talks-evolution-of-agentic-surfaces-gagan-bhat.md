@@ -113,9 +113,9 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 
 **顺着「智能体」挖下去**
 
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
-- [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|Claude 异步智能体架构的四块基石]]<span class="pd-rz">同公司:Anthropic · 同概念:做梦 (dreaming)、安全带/harness (harness)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

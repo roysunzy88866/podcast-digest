@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MongoDB</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MongoDB">MO</div><div class="pi"><h1 class="pt">MongoDB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MongoDB">MO</div><div class="pi"><h1 class="pt">MongoDB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(65:11起):本集说 MongoDB 在 vibe coding 场景下很好用，因为 schema 变化极快、LLM 经常改数据结构，文档数据库更灵活；同时也是 4Good 黑客马拉松的赞助商
+- **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(07:13起):本集引用 MongoDB CEO Dave 的数据：在其 10 年 CEO 任期内，平均每年有两位 C 级高管离职，用以说明 C 级高管死亡率极高。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Maor Shlomo]] · [[Base44]] · [[Wix]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Vercel]] · [[Cursor]] · [[Render.com]]
+[[Lenny]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Base44]] · [[HubSpot]] · [[Wix]] · [[Salesforce]] · [[Lovable]] · [[Google]] · [[Bolt]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Maor Shlomo":1,"Base44":2,"Wix":2,"Lovable":7,"Bolt":2,"Replit":8,"Vercel":7,"Cursor":22,"Render.com":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Maor Shlomo":1,"Brian Halligan":1,"Base44":2,"HubSpot":3,"Wix":2,"Salesforce":5,"Lovable":8,"Google":20,"Bolt":2}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Google]] · [[NVIDIA]] · [[SpaceX]] · [[资本支出]] · [[Ranjan Roy]] · [[David Cahn]] · [[Nick Bostrom]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":40,"Anthropic":49,"AGI":13,"Google":18,"NVIDIA":16,"SpaceX":6,"资本支出":3,"Ranjan Roy":1,"David Cahn":1,"Nick Bostrom":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":42,"Anthropic":51,"AGI":14,"Google":20,"NVIDIA":16,"SpaceX":6,"资本支出":3,"Ranjan Roy":1,"David Cahn":1,"Nick Bostrom":1}</script>
 
 <script>
 (function(){

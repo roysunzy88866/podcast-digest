@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>24</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>29</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,10 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(65:25起):本集提到期待它的语音模式在应对打断方面能做得更好
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(09:42起):本集说它的发布是大众真正感知到 AI 力量的公众时刻(大约三年前),指出其底层技术本质上依然是大数据、神经网络和 GPU 这“黄金配方”的放大版。
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(21:17起):本集以它的「谄媚（sycophancy）」为例,说明 AI 为了参与度不断告诉用户「你是天才」,是行业被错误目标函数带偏的典型。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(32:25起):本集用 ChatGPT 举例说明隐式信号——用户不喜欢回答时不一定点踩，而是重新生成回答，这表明初始回答没达到期望
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(07:10起):本集称 ChatGPT 几乎肯定比你今天的医生更好，但它无法获得行医执照，不能替代医生
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(24:38起):多处被提及：用于生成 PRD 文档、作为外部诊断工具、嘉宾构建了自定义 GPT（Lovable PRD generator）
+- **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(21:30起):本集提到连接公司内部知识的 ChatGPT 可以扫描 Slack 和文档，主动告诉管理者工程师下周可能被什么卡住
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(06:08起):本集将其描述为一种给出相当通用答案的通用 AI 聊天产品,并强调未来专门针对个人的 AI 教练会比通用 ChatGPT 强大得多。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
@@ -34,11 +38,12 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]]**(02:54起):本集把它说成:2022 年发布的首个真正在现实世界中被许多人广泛使用的通用模型;并且讨论了机器人何时能迎来属于自己的「ChatGPT 时刻」。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(07:40起):本集说 ChatGPT 的图像模型（Images 2.0）最擅长遵循视觉指令、贴合原始草图，是设计流程中生成产品照和 T 台照的核心工具
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(47:01起):本集用 ChatGPT 作为智能体前端的例子——'有人会不会直接在 ChatGPT 里说给我叫辆 Uber'
+- **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(12:36起):本集说 ChatGPT 代表了 AI 交互的 Model T 时代——人们为它能回答问题感到震撼，但人们很快会进化出更高偏好，希望这东西能反映自己是谁。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -48,13 +53,15 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q1]]
 
+![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q16]]
+
 ![[2026-07-09-pg-pm-guide-ai-design#^q1]]
 
 ![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q1]]
 
 ## ② 出现在这些集
 
-*24 集*
+*29 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -68,6 +75,10 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司(提及)
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为被讨论公司(提及)
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为概念(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念(提及)
@@ -79,15 +90,16 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为概念
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为概念(提及)
+- [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude]] · [[Waymo]] · [[Google]] · [[强化学习]] · [[Cursor]] · [[vibe coding]] · [[Codex]]
+[[Lenny]] · [[智能体]] · [[Claude]] · [[OpenAI]] · [[vibe coding]] · [[Cursor]] · [[Codex]] · [[Google]] · [[Waymo]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":97,"OpenAI":40,"Claude":21,"Waymo":9,"Google":18,"强化学习":11,"Cursor":22,"vibe coding":12,"Codex":20}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Claude":24,"OpenAI":42,"vibe coding":17,"Cursor":25,"Codex":23,"Google":20,"Waymo":9,"主观能动性":13}</script>
 
 <script>
 (function(){

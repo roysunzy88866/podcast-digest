@@ -144,7 +144,7 @@ Max 觉得这种「SaaS 末日论」被严重夸大 <button class="pd-ts" data-t
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)、智能体 (agent)</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma · 同概念:品味 (taste)</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

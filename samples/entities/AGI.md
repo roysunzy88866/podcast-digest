@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>14</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(07:31起):本集提及 AGI 只是必要条件但非充分条件，很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成人类喜欢使用的东西。
 - **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(14:38起):本集说 Dan 对 AGI 的定义是：什么时候让智能体无限期运行在经济上变得有利可图，就像一个永远不关机的 Claude Code 一直在做有用的事
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(01:14起):本集讨论数据评估需求的时间线时提及;嘉宾认为当前行业正将 AGI 推向错误方向,并持保守态度,认为距离实现还有几十年。
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(82:18起):本集说通俗定义是 AI 能像人一样好地完成所有经济相关任务，但人类智商因生物学限制封顶在约 160，机器没有这个限制，所以「人类同等水平」只会是一个脚注
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(16:14起):本集以略带玩笑的口吻提及，表示即使未来实现了 AGI，想要让六个人在一个房间里达成一致仍然是不可能的。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(26:03起):本集说这个概念正在被不断重新定义（比如指能做一定比例经济价值工作的机器），并指出我们其实无法预测它是否会达到人类智能水平。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(09:26起):本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。
@@ -51,11 +52,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为概念(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
@@ -71,9 +73,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[后训练]] · [[智能体]] · [[Apple]] · [[Alex]]
+[[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[ChatGPT]] · [[Meta]] · [[后训练]] · [[Claude Code]] · [[Apple]] · [[Alex]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":40,"Anthropic":49,"Google":18,"Lenny":58,"ChatGPT":24,"Meta":14,"后训练":10,"智能体":97,"Apple":12,"Alex":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":42,"Anthropic":51,"Lenny":65,"Google":20,"ChatGPT":29,"Meta":14,"后训练":11,"Claude Code":27,"Apple":12,"Alex":3}</script>
 
 <script>
 (function(){

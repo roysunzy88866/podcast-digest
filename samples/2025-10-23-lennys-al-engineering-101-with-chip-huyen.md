@@ -127,8 +127,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding</span>
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同嘉宾:Lenny · 同概念:评估 (evals)、vibe coding</span>
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同嘉宾:Lenny · 同概念:后训练 (post-training)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

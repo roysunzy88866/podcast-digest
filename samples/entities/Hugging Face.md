@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[推理]] · [[Theo Jaffe]] · [[NVIDIA]] · [[AGI]] · [[Joel de la Garza]] · [[Sofia Puccini]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"OpenAI":40,"护栏":16,"Anthropic":49,"推理":1,"Theo Jaffe":2,"NVIDIA":16,"AGI":13,"Joel de la Garza":3,"Sofia Puccini":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"OpenAI":42,"护栏":19,"Anthropic":51,"推理":1,"Theo Jaffe":2,"NVIDIA":16,"AGI":14,"Joel de la Garza":3,"Sofia Puccini":2}</script>
 
 <script>
 (function(){

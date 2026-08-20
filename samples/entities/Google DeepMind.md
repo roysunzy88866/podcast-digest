@@ -25,7 +25,7 @@ unlisted: true
 
 [[Apple]] · [[Microsoft]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[NVIDIA]] · [[LLM]] · [[世界模型]] · [[云计算]]
 
-<script type="application/json" class="pd-epn">{"Apple":12,"Microsoft":10,"Google":18,"OpenAI":40,"Anthropic":49,"Amazon":6,"NVIDIA":16,"LLM":11,"世界模型":1,"云计算":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":12,"Microsoft":11,"Google":20,"OpenAI":42,"Anthropic":51,"Amazon":7,"NVIDIA":16,"LLM":13,"世界模型":1,"云计算":2}</script>
 
 <script>
 (function(){

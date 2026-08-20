@@ -7,35 +7,41 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(00:01起):本集提到 Bret 曾是 Salesforce 的联合 CEO，并以 Salesforce 1998 年创办时把数据库放上云为例，说明曾经的技术护城河现在已微不足道。
 - **[[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]]**(01:41起):本集提到 Stewart Butterfield 将 Slack 卖给 Salesforce，创下了当时科技史上最大的收购案之一，他本人也在两年半前离开了这家公司。
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(09:03起):本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(71:41起):本集提到 Jason Lemkit 用一个智能体跟踪每个人对 Salesforce 的更新并根据通话自动更新
+- **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:02起):被列为 HubSpot 从大公司挖人的来源之一，本集称从 Salesforce 挖来的人流失率为 100%。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q7]]
 
+![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q5]]
+
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司(提及)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Bret Taylor]] · [[Stewart Butterfield]] · [[Jason Lemkin]] · [[Sierra]] · [[Slack]] · [[SaaStr]] · [[基于结果的定价]] · [[Glitch]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Delphi]] · [[Google]] · [[go-to-market]] · [[前向部署工程师]] · [[Bret Taylor]] · [[Stewart Butterfield]] · [[Jason Lemkin]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"智能体":97,"Bret Taylor":1,"Stewart Butterfield":1,"Jason Lemkin":1,"Sierra":3,"Slack":18,"SaaStr":1,"基于结果的定价":1,"Glitch":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"OpenAI":42,"Delphi":3,"Google":20,"go-to-market":4,"前向部署工程师":6,"Bret Taylor":1,"Stewart Butterfield":1,"Jason Lemkin":1}</script>
 
 <script>
 (function(){

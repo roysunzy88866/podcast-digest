@@ -6,17 +6,18 @@ source_url: https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-
 duration: "86:18"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-01-11-lennys-what-openai-and-google-engineers-learned.jpg"
 description: 构建 AI 产品有两个本质差异：非确定性输入输出，以及自主性与控制的权衡，必须逐步放权。
 host: "[[Lenny]]"
 cohosts: ["[[Kiriti Badam]]", "[[Aishwarya Reganti]]"]
-concepts: ["[[智能体]]", "[[非确定性]]", "[[主观能动性]]", "[[evals]]", "[[生产监控]]", "[[持续校准持续开发]]", "[[飞轮]]", "[[行为校准]]"]
+concepts: ["[[智能体]]", "[[非确定性]]", "[[主观能动性]]", "[[评估]]", "[[生产监控]]", "[[持续校准持续开发]]", "[[飞轮]]", "[[行为校准]]"]
 category: 智能体
 tags:
   - 智能体
   - 产品方法
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-01-11-lennys-what-openai-and-google-engineers-learned.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned#post","headline":"AI 产品不能照搬软件老办法：从高控制低自主开始","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned","mainEntityOfPage":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned","description":"构建 AI 产品有两个本质差异：非确定性输入输出，以及自主性与控制的权衡，必须逐步放权。","datePublished":"2026-01-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kiriti Badam"},{"@type":"Person","name":"Aishwarya Reganti"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"非确定性 (non-determinism)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"evals"},{"@type":"Thing","name":"生产监控 (production monitoring)"},{"@type":"Thing","name":"持续校准持续开发 (continuous calibration, continuous development)"},{"@type":"Thing","name":"飞轮 (flywheel)"},{"@type":"Thing","name":"行为校准 (behavior calibration)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 产品不能照搬软件老办法：从高控制低自主开始","item":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned#post","headline":"AI 产品不能照搬软件老办法：从高控制低自主开始","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned","mainEntityOfPage":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned","description":"构建 AI 产品有两个本质差异：非确定性输入输出，以及自主性与控制的权衡，必须逐步放权。","datePublished":"2026-01-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-11-lennys-what-openai-and-google-engineers-learned.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kiriti Badam"},{"@type":"Person","name":"Aishwarya Reganti"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"非确定性 (non-determinism)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"生产监控 (production monitoring)"},{"@type":"Thing","name":"持续校准持续开发 (continuous calibration, continuous development)"},{"@type":"Thing","name":"飞轮 (flywheel)"},{"@type":"Thing","name":"行为校准 (behavior calibration)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 产品不能照搬软件老办法：从高控制低自主开始","item":"https://talk.solomind.cc/2026-01-11-lennys-what-openai-and-google-engineers-learned"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 产品不能照搬软件老办法：从高控制低自主开始</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -32,7 +33,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Lenny]] · [[Kiriti Badam]] · [[Aishwarya Reganti]]
 >
-> **概念** [[智能体]] · [[非确定性]] · [[主观能动性]] · [[evals]] · [[生产监控]] · [[持续校准持续开发]] · [[飞轮]] · [[行为校准]]
+> **概念** [[智能体]] · [[非确定性]] · [[主观能动性]] · [[评估]] · [[生产监控]] · [[持续校准持续开发]] · [[飞轮]] · [[行为校准]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned)
 
@@ -66,7 +67,7 @@ jsonLd: |
 
 把上面的思路做成可执行的开发流程，就是 CCCD 框架，可以理解为 AI 版的 CI/CD <button class="pd-ts" data-t="46:00" data-who="Unknown" data-en="We've been talking for almost an hour already, and we haven't even covered your extremely powerful software development workflow for building AI products that you two developed that you teach in your course, that you basically combined all the stuff we've been talking about into a step-by-step approach to building AI products." aria-label="回原文"></button>。
 
-**右侧——持续开发**：先界定能力边界，把"期望输入长什么样、期望输出长什么样"整理成数据集。这个动作本身就有价值——你会发现团队里 PM、工程师、领域专家对"产品该怎么表现"根本没对齐。然后设定评估指标（不是"做不做 [[evals|evals]]"，而是你想盯哪些维度），部署并跑指标 <button class="pd-ts" data-t="48:08" data-who="Aishwarya Reganti" data-en="And that's where we came up with this idea of continuous calibration, continuous development. The idea is pretty simple, which is we have this right side of the loop, which is continuous development, where you scope capability and curate data, essentially get a data set of what your expected inputs are and what your expected outputs should be looking at." aria-label="回原文"></button>。
+**右侧——持续开发**：先界定能力边界，把"期望输入长什么样、期望输出长什么样"整理成数据集。这个动作本身就有价值——你会发现团队里 PM、工程师、领域专家对"产品该怎么表现"根本没对齐。然后设定评估指标（不是"做不做 [[评估|evals]]"，而是你想盯哪些维度），部署并跑指标 <button class="pd-ts" data-t="48:08" data-who="Aishwarya Reganti" data-en="And that's where we came up with this idea of continuous calibration, continuous development. The idea is pretty simple, which is we have this right side of the loop, which is continuous development, where you scope capability and curate data, essentially get a data set of what your expected inputs are and what your expected outputs should be looking at." aria-label="回原文"></button>。
 
 **左侧——持续校准**：上线后你会发现用户行为超出你预想的数据集范围。评估指标能抓到你已知的错误，但抓不到"涌现出来的新错误模式"。这时要做的是：分析行为、发现新模式、修复具体的 bug，同时为系统性问题设计新的评估指标，反馈回开发侧 <button class="pd-ts" data-t="49:10" data-who="Aishwarya Reganti" data-en="And then you go about deploying, run your evaluation metrics. And the second part is the continuous calibration, which is the part where you understand what behavior you hadn't expected in the beginning, right?" aria-label="回原文"></button>。
 
@@ -139,6 +140,29 @@ jsonLd: |
 > <span class="qz">而你在整个组织中或你自己的生活经验中建立的那种知识，我觉得那种痛苦就是转化为公司护城河的东西。</span>  
 > *And that kind of knowledge that you built across the organization or across your own lived experiences, I feel that pain is what translates into the moat of the company.*  
 > <span class="qm">—— Aishwarya Reganti · [73:40]</span> ^q9
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:evals、主观能动性 (agency)、智能体 (agent)</span>
+- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
+- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:主观能动性 (agency)、智能体 (agent)</span>
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

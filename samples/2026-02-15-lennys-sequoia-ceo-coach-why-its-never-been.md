@@ -6,18 +6,19 @@ source_url: https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-b
 duration: "74:34"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been.jpg"
 description: "HubSpot 联合创始人、红杉 CEO 教练拆解招聘陷阱、组织 scaling 与\"哈里根主义\"。"
 host: "[[Brian Halligan]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[HubSpot]]"]
-concepts: ["[[DRI]]", "[[智能体]]", "[[净推荐值]]", "[[盲测推荐]]", "[[LOCK]]", "[[进入市场]]"]
+concepts: ["[[DRI]]", "[[智能体]]", "[[净推荐值]]", "[[盲测推荐]]", "[[LOCK]]", "[[go-to-market]]"]
 category: 组织与领导力
 tags:
   - 组织与领导力
   - 创业与行业
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#post","headline":"Brian Halligan：CEO 的实战手册","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been","mainEntityOfPage":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been","description":"HubSpot 联合创始人、红杉 CEO 教练拆解招聘陷阱、组织 scaling 与\"哈里根主义\"。","datePublished":"2026-02-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been","about":[{"@type":"Person","name":"Brian Halligan"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"HubSpot"},{"@type":"Thing","name":"DRI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"净推荐值 (net promoter score)"},{"@type":"Thing","name":"盲测推荐 (blind reference)"},{"@type":"Thing","name":"LOCK"},{"@type":"Thing","name":"进入市场 (go-to-market)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Brian Halligan：CEO 的实战手册","item":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#post","headline":"Brian Halligan：CEO 的实战手册","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been","mainEntityOfPage":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been","description":"HubSpot 联合创始人、红杉 CEO 教练拆解招聘陷阱、组织 scaling 与\"哈里根主义\"。","datePublished":"2026-02-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been","about":[{"@type":"Person","name":"Brian Halligan"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"HubSpot"},{"@type":"Thing","name":"DRI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"净推荐值 (net promoter score)"},{"@type":"Thing","name":"盲测推荐 (blind reference)"},{"@type":"Thing","name":"LOCK"},{"@type":"Thing","name":"go-to-market"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Brian Halligan：CEO 的实战手册","item":"https://talk.solomind.cc/2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Brian Halligan：CEO 的实战手册</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[HubSpot]]
 >
-> **概念** [[DRI]] · [[智能体]] · [[净推荐值]] · [[盲测推荐]] · [[LOCK]] · [[进入市场]]
+> **概念** [[DRI]] · [[智能体]] · [[净推荐值]] · [[盲测推荐]] · [[LOCK]] · [[go-to-market]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been)
 
@@ -180,6 +181,29 @@ Brian 还提到一个做 CEO 的反直觉现象：公司小的时候每个人都
 > <span class="qz">我在那个悬崖底下做的决定之一是，我不太喜欢做一家 8000 人公司的 CEO，这真的不太适合我。</span>  
 > *One of the decisions I made at the bottom of that cliff was, I don't really like being CEO of an 8,000 person company, doesn't really suit me.*  
 > <span class="qm">—— Brian Halligan · [70:56]</span> ^q12
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「组织与领导力」挖下去**
+
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Delphi、Salesforce · 同概念:智能体 (agent)、进入市场 (go-to-market)、前置部署工程师 (forward deployed engineer)</span>
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)、进入市场 (go-to-market)</span>
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Google、HubSpot · 同概念:智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

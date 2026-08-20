@@ -149,7 +149,7 @@ jsonLd: |
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|把同事当幼儿带:育儿专家的职场领导力课]]<span class="pd-rz">同嘉宾:Lenny</span>
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">

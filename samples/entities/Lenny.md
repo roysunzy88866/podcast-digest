@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lenny</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lenny">LE</div><div class="pi"><h1 class="pt">Lenny</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>58</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lenny">LE</div><div class="pi"><h1 class="pt">Lenny</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>65</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*16 条*
+*20 条*
 
 ![[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#^q7]]
 
@@ -31,6 +31,14 @@ unlisted: true
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q7]]
 
+![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q3]]
+
+![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q6]]
+
+![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q8]]
+
+![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q9]]
+
 ![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q8]]
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q3]]
@@ -47,7 +55,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*58 集*
+*65 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为主持
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为联合主持
@@ -80,9 +88,16 @@ unlisted: true
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为主持
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为联合主持
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为主持
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为主持
+- [[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo|《Sam Lessin：硅谷创始人最缺的不是产品，是低心率》]] — 作为联合主持
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为主持
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为主持
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为联合主持
 - [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《把同事当幼儿带:育儿专家的职场领导力课》]] — 作为主持
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为联合主持
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为联合主持
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为联合主持
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为联合主持
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为联合主持
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为联合主持
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为主持
@@ -112,9 +127,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Claude Code]] · [[Slack]] · [[Google]] · [[Facebook]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Claude Code]] · [[vibe coding]] · [[Google]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Anthropic":49,"ChatGPT":24,"OpenAI":40,"Claude":21,"Cursor":22,"Claude Code":25,"Slack":18,"Google":18,"Facebook":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Anthropic":51,"ChatGPT":29,"OpenAI":42,"Claude":24,"Cursor":25,"Claude Code":27,"vibe coding":17,"Google":20,"Slack":18}</script>
 
 <script>
 (function(){

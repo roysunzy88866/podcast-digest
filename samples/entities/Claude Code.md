@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,8 @@ unlisted: true
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(16:29起):本集将其作为 Anthropic 内部广泛使用的工具，95% 的代码由其编写，且法务和财务团队也在用它来红线文档和运行 BigQuery 分析。
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(71:51起):本集提到 Claude Code 团队声称不搞 evals 只靠 vibe，Shreya 回应说他们站在基础模型 eval 的肩膀上，且编码智能体是特殊案例不能泛化。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是 Anthropic 推出的具备执行能力的 AI 编程智能体,在 Cursor 中运行。嘉宾把它当成配合工作的开发主管(CTO),让它在代码库中理解结构、提出尖锐澄清问题并最终执行计划写代码。
+- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(75:01起):本集说它是一个 Claude wrapper、一个 agent harness，在一周半内开发出了 Cowork，既说明 AI 编程惊人地强，也说明这种产品的进入壁垒可能很低
+- **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(00:00起):本集说它是 Anthropic 的编码智能体产品，起始于终端工具 Claude CLI，目前占全球 GitHub 公开提交的 4%，Boris 每天用它提交 10 到 30 个 PR，100% 代码由其编写
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：用于搭配 VS Code 调整前端细节的工具；能极快地编写代码并提交修复，甚至开始帮助用户产生想法、决定要构建什么功能。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(41:34起):本集把它说成:一款用于写代码的AI工具；在使用过程中，如果上下文窗口积累得越长，智能体就越难出色完成当前任务。
 - **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(31:44起):本集讨论的核心产品。稿中说明它是让大模型在终端里写代码的工具，具有 CLI、桌面版和移动版。团队以 Research Preview 形式高频迭代，曾发生源代码泄露，且随着模型变强，团队逐渐移除了早期为弥补模型不足而加上的待办事项列表等外壳。
@@ -38,20 +40,24 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q2]]
+
+![[2026-02-19-lennys-head-of-claude-code-what-happens#^q7]]
 
 ![[2026-04-23-lennys-how-anthropics-product-team-moves#^q5]]
 
 ## ② 出现在这些集
 
-*25 集*
+*27 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念
@@ -78,9 +84,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[评估]] · [[Slack]] · [[OpenAI]] · [[Meta]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[评估]] · [[Slack]] · [[OpenAI]] · [[Cursor]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Anthropic":49,"Lenny":58,"Codex":20,"Claude":21,"评估":11,"Slack":18,"OpenAI":40,"Meta":14,"Cursor":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Anthropic":51,"Lenny":65,"Codex":23,"Claude":24,"评估":13,"Slack":18,"OpenAI":42,"Cursor":25,"沙箱":20}</script>
 
 <script>
 (function(){

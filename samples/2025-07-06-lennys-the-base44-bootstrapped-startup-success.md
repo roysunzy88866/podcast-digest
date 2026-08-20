@@ -161,9 +161,9 @@ Wix 主动找来的，因为社区里很多人在喊「Wix 应该在它变大之
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|2026 工程师生存指南：Reddit 热帖直答]]<span class="pd-rz">同概念:vibe coding</span>
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同概念:vibe coding</span>
-- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:vibe coding</span>
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:LLM、vibe coding</span>
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Lovable · 同概念:vibe coding</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding</span>
 
 </div>
 <div class="pd-ex">

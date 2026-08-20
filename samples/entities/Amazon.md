@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(01:46起):本集提到 Amazon 是嘉宾支持过 AI 产品部署的公司之一，广告中也提到 Amazon 的团队在使用 Strella
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(00:07起):本集提到：宣布了完全由 AI 生成动画项目的大型工作室之一
 - **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(05:15起):本集把它说成：Blake 职业早期工作过的公司，在那里他学到了「长期思考与极强的当下运营纪律相结合」的文化，以及构建内部业务软件的价值。
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(30:48起):本集提到其 AWS 云服务表现强劲，增长率跃升到了 37%，道理与微软同出一致——不仅仅提供底层算力，更提供丰富的云端 AI 服务。
@@ -20,8 +21,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司(提及)
@@ -33,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[NVIDIA]] · [[Microsoft]] · [[Apple]] · [[智能体]] · [[Meta]] · [[AGI]] · [[资本支出]]
+[[OpenAI]] · [[Google]] · [[Anthropic]] · [[智能体]] · [[NVIDIA]] · [[Microsoft]] · [[Apple]] · [[Meta]] · [[AGI]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":40,"Anthropic":49,"Google":18,"NVIDIA":16,"Microsoft":10,"Apple":12,"智能体":97,"Meta":14,"AGI":13,"资本支出":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":42,"Google":20,"Anthropic":51,"智能体":102,"NVIDIA":16,"Microsoft":11,"Apple":12,"Meta":14,"AGI":14,"资本支出":3}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,9 @@ unlisted: true
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(46:24起):本集提到有公司做随机试验,给不同表现等级工程师的一半人使用Cursor,发现表现最好的高级工程师从中获益最大
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(02:48起):本集把它说成:一款 AI 编程工具。主持人以此为例,说明向企业高管做愿景销售时,卖的不是让团队快一点点,而是卖「只有用了它,你才能招到那些原本根本不理你的 10 倍工程师」的愿景。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是一款深受开发者欢迎的 AI 代码编辑器。嘉宾用它配合 Claude Code 进行全流程开发,强调相比 Lovable 等工具,它把 AI 塞进代码系统并赋予完整工具,把架构决策权交还给用户。
+- **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(13:44起):作为与 Lovable 并列的 AI 编程工具被多次提及，同样有 rules.md/agents.md 和内置版本控制
+- **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(10:12起):本集举例说你可以告诉 Cursor 你想做什么，它就会替你去做，作为咒语式编程的例子
+- **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(04:03起):本集说 Boris 曾短暂加入 Cursor，因为他是这个产品的超级粉丝，认为他们在很多人之前就看到了 AI 编码的发展方向，但两周后因想念 Anthropic 的使命而回归
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(07:17起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first（AI优先）的企业应该将更多精力投入到大的赌注上。
 - **[[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]]**(06:01起):本集提到团队里有两个初级开发者都伴随着 Cursor 和 Claude 长大，发布得很快
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(08:12起):被讨论的竞品，Dan 认为其云端实现很先进，但明确选择了专门为程序员服务的赛道，这可能会限制它在通用知识工作领域的扩展。
@@ -46,7 +49,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*25 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -57,6 +60,9 @@ unlisted: true
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为被讨论公司
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为被讨论公司(提及)
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为被讨论公司(提及)
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]] — 作为概念(提及)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
@@ -75,9 +81,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Lovable]] · [[GitHub]] · [[ChatGPT]] · [[vibe coding]] · [[Claude]] · [[Anthropic]]
+[[智能体]] · [[Lenny]] · [[Codex]] · [[ChatGPT]] · [[Lovable]] · [[OpenAI]] · [[vibe coding]] · [[后训练]] · [[GitHub]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":97,"Lenny":58,"Codex":20,"OpenAI":40,"Lovable":7,"GitHub":16,"ChatGPT":24,"vibe coding":12,"Claude":21,"Anthropic":49}</script>
+<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Codex":23,"ChatGPT":29,"Lovable":8,"OpenAI":42,"vibe coding":17,"后训练":11,"GitHub":16,"Claude":24}</script>
 
 <script>
 (function(){

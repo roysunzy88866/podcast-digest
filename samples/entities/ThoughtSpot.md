@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Bob Baxley]] · [[Apple]] · [[设计]] · [[设计信条]] · [[软件作为一种媒介]] · [[原始印记]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Bob Baxley":1,"Apple":12,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"Figma":8}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Bob Baxley":1,"Apple":12,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"Figma":8}</script>
 
 <script>
 (function(){

@@ -49,7 +49,7 @@ unlisted: true
 
 [[Lenny]] · [[Ramp]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Tom Verrilli]] · [[PayPal]] · [[智能体]] · [[Whatnot]] · [[Square]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":58,"Ramp":3,"Keith Rabois":1,"Dan Shipper":2,"Tom Verrilli":1,"PayPal":1,"智能体":97,"Whatnot":2,"Square":2,"Codex":20}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Ramp":4,"Keith Rabois":1,"Dan Shipper":2,"Tom Verrilli":1,"PayPal":1,"智能体":102,"Whatnot":2,"Square":2,"Codex":23}</script>
 
 <script>
 (function(){

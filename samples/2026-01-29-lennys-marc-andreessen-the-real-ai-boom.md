@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom
 duration: "104:31"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg"
 description: "AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成\"三栖人才\"。"
 host: "[[Marc Andreessen]]"
 cohosts: ["[[Lenny]]"]
@@ -14,9 +15,9 @@ category: AI 编程
 tags:
   - AI 编程
   - 职业与个人成长
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom#post","headline":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","mainEntityOfPage":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","description":"AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成\"三栖人才\"。","datePublished":"2026-01-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"isBasedOn":"https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom","about":[{"@type":"Person","name":"Marc Andreessen"},{"@type":"Person","name":"Lenny"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"生产力增长 (productivity growth)"},{"@type":"Thing","name":"一对一辅导 (one-on-one tutoring)"},{"@type":"Thing","name":"超级赋能个体 (super empowered individual)"},{"@type":"Thing","name":"AI 编程 (AI coding)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"AGI"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","item":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom#post","headline":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","mainEntityOfPage":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","description":"AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成\"三栖人才\"。","datePublished":"2026-01-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom","about":[{"@type":"Person","name":"Marc Andreessen"},{"@type":"Person","name":"Lenny"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"生产力增长 (productivity growth)"},{"@type":"Thing","name":"一对一辅导 (one-on-one tutoring)"},{"@type":"Thing","name":"超级赋能个体 (super empowered individual)"},{"@type":"Thing","name":"AI 编程 (AI coding)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"AGI"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","item":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -175,6 +176,29 @@ Claude Code 一周半开发出 Cowork——既说明 AI 编程惊人地强，也
 > <span class="qz">所以你明白我的意思，这就像，我认为这种人类同等的概念只会成为一个脚注。</span>  
 > *So you see what I'm saying, which is, like, I think this idea of human equivalent is just going to be a footnote.*  
 > <span class="qm">—— Marc Andreessen · [87:38]</span> ^q18
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同嘉宾:Lenny · 同概念:LLM、vibe coding</span>
+- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同嘉宾:Lenny · 同概念:vibe coding</span>
+- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同概念:vibe coding</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT、Replit · 同概念:vibe coding、护城河 (moat)</span>
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Claude Code · 同概念:任务 (task)、AGI</span>
+- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:护城河 (moat)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

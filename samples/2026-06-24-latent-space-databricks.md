@@ -128,8 +128,8 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 **顺着「智能体」挖下去**
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Databricks、Snowflake · 同概念:智能体 (agent)</span>
+- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同公司:Databricks · 同概念:智能体 (agent)</span>
 - [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]]<span class="pd-rz">同公司:Neon · 同概念:智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
