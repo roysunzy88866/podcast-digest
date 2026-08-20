@@ -62,6 +62,9 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    # C32:显式 5.5h(平台硬上限 6h)。作业内部另有 JOB_BUDGET_MIN=300 分的软预算先停手,
+    # 这里是第二道:万一软预算算漏,也让作业早于平台 30 分钟结束,回仓步骤仍有机会跑。
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
 

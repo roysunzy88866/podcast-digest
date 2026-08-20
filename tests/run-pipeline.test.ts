@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, JOB_BUDGET_MIN, PER_EPISODE_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -478,6 +478,31 @@ describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配�
   it("meta 缺 added / 空 meta 不炸也不算", () => {
     expect(countsTowardDailyTarget("2026-08-17-lennys-x", {}, TODAY)).toBe(false);
     expect(countsTowardDailyTarget("2026-08-17-lennys-x", null, TODAY)).toBe(false);
+  });
+});
+
+describe("hasTimeBudget · C32 别在 6h 红线前开新活", () => {
+  it("★★★ 刚开工时够(能开新活)", () => {
+    expect(hasTimeBudget(0)).toBe(true);
+  });
+  it("★★★ 剩余时间不够做完一整集就停手 —— 这正是整批被平台强杀、产出全丢的那个洞", () => {
+    // 预算 300 分、单集估 100 分:已跑 200 分时恰好还够一集;跑到 201 分就不该再开
+    expect(hasTimeBudget(200)).toBe(true);
+    expect(hasTimeBudget(201)).toBe(false);
+    expect(hasTimeBudget(299)).toBe(false); // 「还剩 1 分钟」绝不能算够
+  });
+  it("★★ 预算必须留在平台 6h 硬上限之内(留够回仓/建站/部署的时间)", () => {
+    // 语义:JOB_BUDGET_MIN 是「做完最后一集的时刻」上限(守卫保证不会跨过它去开新活),
+    // 所以最坏总耗时 ≈ JOB_BUDGET_MIN + 回仓/建站/部署。留 ≥30 分给收尾,且不超 workflow 的 330。
+    expect(JOB_BUDGET_MIN).toBeLessThanOrEqual(330);
+    expect(360 - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(30);
+  });
+  it("★★ 单集估时不低于实测(转写 66–87 分 + 后链;低估=又会被杀)", () => {
+    expect(PER_EPISODE_MIN).toBeGreaterThanOrEqual(90);
+  });
+  it("参数可覆写(便于按源调不同估时)", () => {
+    expect(hasTimeBudget(100, { budgetMin: 120, perEpisodeMin: 30 })).toBe(false);
+    expect(hasTimeBudget(80, { budgetMin: 120, perEpisodeMin: 30 })).toBe(true);
   });
 });
 

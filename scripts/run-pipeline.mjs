@@ -249,6 +249,34 @@ export function selectBackfill(items, { n, existingIds, source }) {
  * 补一集的成本从 2.8h CPU 掉到分钟级,产能腾出来 → 用户选「白天也开顶量 + 目标提到 8」。 */
 export const DAILY_TARGET = 8;
 
+// ══ C32 · 时间预算守卫(2026-08-20 用户「今天还是没有内容进来」查出的真凶)══
+// 病根实证:GitHub 单个作业 6 小时硬上限。一批 3 集新集,每集 whisperX 转写 66–87 分钟
+// (实测 run 32243451050),再加翻译/浓缩/判官/闸门/配音/建站 → 顶穿 6h。
+// 平台在 6:00:00 整点强杀(run 32217002487 / 32278842850 各跑满 6h00m 被 cancelled),
+// **整批已完成的产物随 runner 一起销毁,一集都没留下**;下一班重做同样的集,再超时,再销毁 —— 死循环。
+// 修法:自己在硬上限前收工。每开一集新活前问一句「剩下的时间还够做完一集吗」,
+// 不够就停止接新活、把**已经做完的**集正常回仓部署,剩下的留给下一班(半成品缓存复用,不白烧)。
+export const JOB_BUDGET_MIN = 300;   // 自留 5h(平台 6h);余下 1h 给回仓/建站/部署/告警
+export const PER_EPISODE_MIN = 100;  // 一集的时间估:转写实测 66–87 分 + 后链,取 100 分保守
+
+/** 还能不能再开一集(纯逻辑:已用多久 / 预算 / 单集估时)。够不够做完**一整集**才算够。 */
+export function hasTimeBudget(elapsedMin, { budgetMin = JOB_BUDGET_MIN, perEpisodeMin = PER_EPISODE_MIN } = {}) {
+  return elapsedMin + perEpisodeMin <= budgetMin;
+}
+
+const JOB_STARTED_AT = Date.now();
+export function elapsedMin(now = Date.now()) {
+  return (now - JOB_STARTED_AT) / 60000;
+}
+
+/** 时间不够就别开新活;返回 true=该停手。停手要响亮说明,别让人以为是没内容。 */
+function outOfTimeBudget(what) {
+  if (hasTimeBudget(elapsedMin())) return false;
+  console.log(`⏳ 时间预算用尽(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分)——` +
+    `停止接${what},本班把已完成的正常回仓部署,剩下的下班次继续(半成品缓存复用,不白烧)。`);
+  return true;
+}
+
 /**
  * C23 每日顶量选集(纯逻辑,ADR 0021;**C31 改为按年份下限挑最新**,见 backfillCandidates)。
  * **有条件放开 drift #22**——候选池有年份下限、每班有上限,非无边界跑全 backlog。
@@ -989,6 +1017,7 @@ function revivePass(state, { onlyKey, dryRun }) {
   let clean = 0;
   let skipped = 0;
   for (const id of revive) {
+    if (outOfTimeBudget("补活")) break; // C32:别在 6h 红线前开新活
     const source = sourceForId(id);
     if (!source) {
       console.error(`   ⚠️ ${id} 对不上任何已配置源(不猜,跳过;需人工看)`);
@@ -1086,9 +1115,11 @@ function libraryTitlesFromCompleted(completed) {
 
 /** 逐集处理顶量选中的集:与 processSource 同口径(失真隔离 / [1301] 放弃 / 转瞬留半成品),但无 cutoff。 */
 function processBackfillPicks(picks, state, source) {
+  // C32:补历史同受时间预算约束(它和新集抢的是同一个 6h 作业)
   let clean = 0;
   let skipped = 0;
   for (const item of picks) {
+    if (outOfTimeBudget("补历史")) break; // C32:别在 6h 红线前开新活
     const id = deriveId(item, source);
     let res;
     try {
@@ -1369,6 +1400,9 @@ async function processSource(source, state, { backfillN, dryRun }) {
   const clean = [];
   const skipped = [];
   for (const item of picks) {
+    // C32:新集是耗时主力(每集转写 66–87 分)。红线前停手,让已完成的集能回仓,
+    // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
+    if (outOfTimeBudget("新集")) break;
     const id = deriveId(item, source);
     let res;
     try {
