@@ -500,6 +500,19 @@ describe("hasTimeBudget · C32 别在 6h 红线前开新活", () => {
   it("★★ 单集估时不低于实测(转写 66–87 分 + 后链;低估=又会被杀)", () => {
     expect(PER_EPISODE_MIN).toBeGreaterThanOrEqual(90);
   });
+  it("★★★ 三处耗时循环都装了守卫(源码锚:删掉任一处都会红)", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    for (const what of ['outOfTimeBudget("新集")', 'outOfTimeBudget("补历史")', 'outOfTimeBudget("补活")']) {
+      expect(src).toContain(what);
+    }
+  });
+  it("★★★ 超时停手时,没做的集必须登记 retry —— 否则 cutoff 推过它们、永久抓不到", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const start = src.indexOf('if (outOfTimeBudget("新集"))');
+    const guard = src.slice(start, src.indexOf("const id = deriveId(item, source);", start)); // 起点后再找,别撞上补历史那处同名行
+    expect(guard).toContain("picks.slice(idx)");
+    expect(guard).toContain("retry: true");
+  });
   it("参数可覆写(便于按源调不同估时)", () => {
     expect(hasTimeBudget(100, { budgetMin: 120, perEpisodeMin: 30 })).toBe(false);
     expect(hasTimeBudget(80, { budgetMin: 120, perEpisodeMin: 30 })).toBe(true);

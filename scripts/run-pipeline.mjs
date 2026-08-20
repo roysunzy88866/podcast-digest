@@ -1399,10 +1399,16 @@ async function processSource(source, state, { backfillN, dryRun }) {
   // 逐集处理:干净集入发布,失真集隔离(skip+通知,drift #24),转瞬失败留半成品下次重试。
   const clean = [];
   const skipped = [];
-  for (const item of picks) {
-    // C32:新集是耗时主力(每集转写 66–87 分)。红线前停手,让已完成的集能回仓,
+  for (const [idx, item] of picks.entries()) {
+    // C32:新集是耗时主力(单集全链实测 76/93/70 分)。红线前停手,让已完成的集能回仓,
     // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
-    if (outOfTimeBudget("新集")) break;
+    if (outOfTimeBudget("新集")) {
+      // ⚠️ 剩下没做的必须登记 retry:true —— 否则收尾处 cutoff 会推进到「本批最新」(含没做的那些),
+      // 把它们永久跳过、再也抓不到(我这刀引入的 bug,GLM 035[3] 提示方向后查出)。
+      picks.slice(idx).forEach((rest) =>
+        skipped.push({ id: deriveId(rest, source), reason: "时间预算用尽(下班次继续)", retry: true }));
+      break;
+    }
     const id = deriveId(item, source);
     let res;
     try {
