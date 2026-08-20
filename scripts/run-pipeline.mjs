@@ -311,6 +311,21 @@ export function backfillCandidates(items, { sinceISO, existingIds, source, libra
     .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)); // 最新优先(用户要「新」而非「填坑」)
 }
 
+/** 跨源同标题去重:同一场访谈被两个源同时收录时只留**最新**那条(GLM 036[1] 逮到的回归)。
+ *  旧的逐源实现靠「处理完一批就把标题塞进 libTitles」来拦下一个源;C33 改成一次性收集候选后,
+ *  那道拦截失效 —— 同一批 picks 里可以同时出现两个源的同一场访谈,双双入库。
+ *  这里在收集完成后统一去一次:先按日期降序,再逐条比对,先到者(最新)留下。 */
+export function dedupeCandidatesByTitle(candidates, libraryTitles = []) {
+  const titles = [...libraryTitles];
+  const out = [];
+  for (const c of [...candidates].sort((a, b) => b.item.pubDateISO.localeCompare(a.item.pubDateISO))) {
+    if (findTitleDuplicate(c.item.title, titles)) continue;
+    titles.push(c.item.title);
+    out.push(c);
+  }
+  return out;
+}
+
 /** C33 · 跨源统一挑选(2026-08-20 用户拍板)。
  *  病根实证:原来按 SOURCES 顺序逐源补,排在前面的 Lenny's 一次就把当天配额补满,
  *  后面的源根本轮不上 → 「最新优先」只在**单个源内部**生效,跨源毫无排序。
@@ -1227,6 +1242,12 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
     poolLeft += pool.length; // 盘点走完全部源(GLM 032[1]:中途 break 会让存量被严重低估、天天误报见底)
     pool.forEach((item) => allCandidates.push({ item, source }));
   }
+  // C33:跨源同标题只留最新那条(GLM 036[1]:一次性收集绕过了旧的逐源标题拦截)
+  const beforeDedup = allCandidates.length;
+  const deduped = dedupeCandidatesByTitle(allCandidates, libTitles);
+  if (beforeDedup !== deduped.length) console.log(`   跨源同标题去重:${beforeDedup} → ${deduped.length} 集`);
+  allCandidates.length = 0;
+  allCandidates.push(...deduped);
   if (allCandidates.length) {
     const newest = allCandidates.reduce((a, b) => (a.item.pubDateISO >= b.item.pubDateISO ? a : b));
     console.log(`   跨源候选池 ${allCandidates.length} 集,最新一条 ${newest.item.pubDateISO.slice(0, 10)}(${newest.source.key})`);

@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, JOB_BUDGET_MIN, PER_EPISODE_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, JOB_BUDGET_MIN, PER_EPISODE_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -560,6 +560,20 @@ describe("selectBackfillGlobal · C33 跨源统一按最新挑(别再被源清�
     expect(picks[0].item.pubDateISO.slice(0, 10)).not.toBe("2026-01-04");
   });
 
+  it("★★★ 跨源同标题只留最新那条(GLM 036[1]:同一场访谈被两个源收录,旧实现靠逐源拦、新实现会双双入库)", () => {
+    const pool = [
+      { ...mk("lennys", "2026-08-10"), item: { ...mk("lennys", "2026-08-10").item, title: "How Whatnot built a global marketplace" } },
+      { ...mk("a16z", "2026-08-18"), item: { ...mk("a16z", "2026-08-18").item, title: "How Whatnot built a global marketplace" } },
+      mk("cogrev", "2026-08-16"),
+    ];
+    const out = dedupeCandidatesByTitle(pool, []);
+    expect(out).toHaveLength(2);
+    expect(out.find((c) => c.item.title.includes("Whatnot"))!.item.pubDateISO.slice(0, 10)).toBe("2026-08-18"); // 留最新那条
+  });
+  it("★★ 库里已有同标题的候选直接剔除(跨源重复不入库)", () => {
+    const pool = [{ ...mk("a16z", "2026-08-18"), item: { ...mk("a16z", "2026-08-18").item, title: "Already in library" } }];
+    expect(dedupeCandidatesByTitle(pool, ["Already in library"])).toHaveLength(0);
+  });
   it("空池不炸;n 限制生效", () => {
     expect(selectBackfillGlobal([], { n: 5 })).toEqual([]);
     expect(selectBackfillGlobal([mk("a16z", "2026-08-20"), mk("a16z", "2026-08-19")], { n: 1 })).toHaveLength(1);
