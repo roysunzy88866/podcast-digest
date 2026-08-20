@@ -1,0 +1,2387 @@
+{
+  "episode_id": "2026-02-08-lennys-getting-paid-to-vibe-code",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-08",
+  "tags": [
+    "vibe coding",
+    "AI 编程工具",
+    "提示词工程",
+    "产品品味",
+    "职业转型"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lazar-jovanovic",
+      "type": "person",
+      "role": "host",
+      "name": "Lazar Jovanovic",
+      "file": "Lazar Jovanovic",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            68.54,
+            70.422
+          ],
+          "quote": "Today, my guest is Lazar Jovanovic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 38,
+          "t": [
+            152.138,
+            156.48
+          ],
+          "quote": "With that, I bring you Lazar Jovanovic after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            218.196,
+            221.278
+          ],
+          "quote": "Run your next study at strella.io/lenny.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 50,
+          "t": [
+            221.498,
+            223.799
+          ],
+          "quote": "That's S-T-R-E-L-L-A.io/lenny.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 60,
+          "t": [
+            286.689,
+            289.632
+          ],
+          "quote": "Visit samsara.com/lenny to learn more.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 61,
+          "t": [
+            289.993,
+            291.114
+          ],
+          "quote": "That's S-A-M-S-A-R-A.com/lenny.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集将 Lovable 描述为让非技术背景的人（如嘉宾自己）能够直接构建并发布产品和内部工具的平台，包含语音输入、项目知识设置、预览沙箱等功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.141,
+            3
+          ],
+          "quote": "I'm the first official vibe coding engineer at Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 35,
+          "t": [
+            130.046,
+            148.436
+          ],
+          "quote": "And if you become an insider subscriber of my newsletter, you get over 20 incredible products for free for an entire year, including a year free of Lovable and Replit, Bolt, Gamma, n8n, Linear, Devin, PostArc, Superhuman, Descript, Wispr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            304.002,
+            305.043
+          ],
+          "quote": "She's head of growth at Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            355.626,
+            364.612
+          ],
+          "quote": "I get to use tools like Lovable every day to push projects to production, whether for internal or external use.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 90,
+          "t": [
+            411.053,
+            415
+          ],
+          "quote": "You ship stuff that's actually public and it's sort of a product, Lovable products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 94,
+          "t": [
+            427.732,
+            433.858
+          ],
+          "quote": "Or the merch store, because we wanted to obviously prove the concept that, \"Hey, Lovable and Shopify just works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 125,
+          "t": [
+            578.833,
+            585.617
+          ],
+          "quote": "What are some pro-tips that you've developed for being successful with AI tools, Lovable, and also just more broadly?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            634.311,
+            640.136
+          ],
+          "quote": "Six, seven months ago, somebody in our community was like, \"Oh, I wish Lovable can build Chrome extensions.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            651.164,
+            657.429
+          ],
+          "quote": "And people like me, including myself, would just go into Lovable and like, \"Build me a Chrome extension based on this app.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 141,
+          "t": [
+            657.509,
+            659.29
+          ],
+          "quote": "And I was able to do that with Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 142,
+          "t": [
+            659.83,
+            664.013
+          ],
+          "quote": "There were people that were able to build desktop applications on Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            677.603,
+            684.55
+          ],
+          "quote": "And then she just prompted her way into generating an actual video inside Lovable before that was available.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 148,
+          "t": [
+            685.37,
+            687.052
+          ],
+          "quote": "Now you can prompt Lovable to do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            711.912,
+            721.98
+          ],
+          "quote": "And that's just the pursuit that I have in my mind that has helped me, among other things that we'll chat today, I think to excel in this role that I have at Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            815.449,
+            824.372
+          ],
+          "quote": "That's the first lesson that I learned literally on day two, because I came into Lovable, that was my first exposure to this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1130.221,
+            1133.162
+          ],
+          "quote": "I knew even before I joined Lovable, I was like, \"Okay.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1133.882,
+            1138.384
+          ],
+          "quote": "Even before I started using Lovable or any AI tools, first thing that I knew was like, \"I don't know how to code.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1330.909,
+            1341.74
+          ],
+          "quote": "And then on the clarity piece, let's actually talk about that, just what do you do there to be clearer with Lovable and other AI tools to help it build the right thing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1347.804,
+            1358.632
+          ],
+          "quote": "If you just have a vague idea, let that be your first version of the project, Open, Cursor, Lovable, whatever it is that you're using, and just input a brain dump prompt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1360.894,
+            1364.357
+          ],
+          "quote": "Lovable specifically, I don't know about the other tools, has a really cool voice function.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1371.661,
+            1373.042
+          ],
+          "quote": "Again, lovable.dev.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1441.821,
+            1449.725
+          ],
+          "quote": "Even though English is the number one programming language, Lovable and all other tools still communicate in code the best.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1690.702,
+            1694.746
+          ],
+          "quote": "Someone may think, \"Okay, of course you're just getting us to spend all these Lovable tokens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1694.806,
+            1696.408
+          ],
+          "quote": "This is what a Lovable person would tell me.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1712.927,
+            1720.935
+          ],
+          "quote": "If I was thinking about Lovable, is I would be like, \"No, no, just try to fix it in perpetuity,\" but that's not ... We're not in business of doing that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1725.16,
+            1737.612
+          ],
+          "quote": "And then it's my personal mission that resonates with me because if there wasn't Lovable, I would've never built anything, potentially in my life and I don't think that, that would've been a fun life to live.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1779.414,
+            1782.439
+          ],
+          "quote": "I have six Lovable tabs and I just switch between them.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1863.23,
+            1873.6
+          ],
+          "quote": "So let me treat Lovable or any other tool as an engineer that I'm supposed to be providing perpetual context as the project goes.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1933.222,
+            1935.145
+          ],
+          "quote": "I really treat Lovable like a human being.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2061.04,
+            2067.865
+          ],
+          "quote": "So in Lovable, there's a separate menu for that in your project settings where you can define project knowledge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2252.112,
+            2257.618
+          ],
+          "quote": "You can do a lot of this with tools like Lovable, like have plans and rules and MD files.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2321.302,
+            2326.83
+          ],
+          "quote": "Any tool, Lovable or Cursor or Claude, whatever tool you talk about is going to do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2352.112,
+            2364
+          ],
+          "quote": "Lovable's going to read all of those and it's going to consume 80% of the token allocation on reading to get clarity, leaving only the final 20% for thinking and executing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2859.64,
+            2863.984
+          ],
+          "quote": "And that's where I like to see Lovable or any other tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2868.427,
+            2885.88
+          ],
+          "quote": "So if people want to start somewhere before they even get into any tool, they can go to ChatGPT store for GPTs and just type Lovable base prompt generator or Lovable PRD generator and find those that I built and just brain dump in them and then get these files as output.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3113.429,
+            3117.596
+          ],
+          "quote": "There are a lot of people maybe watching this that are like, \"Okay, I want to use Lovable at work, but I can't,\" or whatever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3132.864,
+            3154.071
+          ],
+          "quote": "Our model for 2025 was demo, don't memo, which is like, instead of writing all these documents and talking and sitting on meetings with your engineers, trying to get your vision as a marketer or a sales guy in the office across, go into Lovable and build the prototype in 30 minutes and just hand it over.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3154.191,
+            3158.893
+          ],
+          "quote": "And I have a real job that I held before Lovable, that's exactly what happened.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3164.454,
+            3171.837
+          ],
+          "quote": "And Lovable and myself were not there yet to build it at that point, but I had a team of engineers that I worked with.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3192.464,
+            3195.065
+          ],
+          "quote": "And that's like, Lovable January of last year.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3195.546,
+            3203.569
+          ],
+          "quote": "This Lovable today, January 2026, is like ages, ages ahead with functionalities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3207.571,
+            3221.056
+          ],
+          "quote": "So I think now with our stage where like, for instance, there's I'd say at least to best of my knowledge, at least half of S&P 500 companies have people working in them that are using Lovable to some extent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3221.977,
+            3229.54
+          ],
+          "quote": "And we have a lot of enterprise companies that are actually on enterprise plans with Lovable that are creating super meaningful projects.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3230.64,
+            3245.506
+          ],
+          "quote": "I'm not going to name names, but leading rideshare companies of the world, leading telecommunications companies of the world, leading companies of the world in many, many aspects, healthcare, finance are actively with their teams using Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3254.03,
+            3278.9
+          ],
+          "quote": "Our people in go to-market or sales or HR, or whatever roles are now just confidently building internal stuff for us to manage our expenses or manage employee onboarding or... There's so many use cases like that where you're seeing Lovable and other tools for that matter, being used to push things into production.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3291.801,
+            3299.928
+          ],
+          "quote": "I would literally go to ChatGPT, as I said, and brain dump into it in my... Just type, Lovable PRD generator.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3318.431,
+            3321.92
+          ],
+          "quote": "It'll generate the right files for you, and then you plug that into Lovable or other tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3536.214,
+            3540.475
+          ],
+          "quote": "If you ask me, like, \"Oh, what is the main thing you figure out when you joined Lovable?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3558.52,
+            3565.663
+          ],
+          "quote": "I always use the analogy of like, I wanted to steal one of their designs and bring it into my Lovable project.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3615.785,
+            3617.626
+          ],
+          "quote": "Follow Felix from Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3630.791,
+            3633.172
+          ],
+          "quote": "So I built an app as well for that in Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3637.393,
+            3640.174
+          ],
+          "quote": "It's like some UIstyle.lovable.app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3714.916,
+            3719.198
+          ],
+          "quote": "Lovable experiences massive amounts of influx of new users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3972.571,
+            3980.354
+          ],
+          "quote": "I'll reference Lovable's workflow, which is when something breaks, Lovable's agent is smart enough to say, \"Hey, I made a mistake.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 830,
+          "t": [
+            4008.864,
+            4014.307
+          ],
+          "quote": "And sometimes even the problem persists, but Lovable's agent is unaware that it persisted.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4017.769,
+            4020.19
+          ],
+          "quote": "Lovable thinks everything's working, but in reality, it isn't.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 834,
+          "t": [
+            4024.952,
+            4028.894
+          ],
+          "quote": "You did not give enough context to Lovable what to observe and what to see.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4029.475,
+            4037.319
+          ],
+          "quote": "So it can't see that the problem exists because Lovable, Cursor, Claude Code, you name it, all of these tools are good enough today to fix any problem they're aware of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4130.143,
+            4132.604
+          ],
+          "quote": "Lovable allows you to own your code cursor as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4166.056,
+            4175.6
+          ],
+          "quote": "In the third one, I'm using an external tool as a facilitator, which is like, I'll either connect to Codex and chat with Codex to then fix the problem in Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 886,
+          "t": [
+            4245.346,
+            4249.968
+          ],
+          "quote": "So again, in Lovable and in all these other tools, you can revert back.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4250.408,
+            4254.289
+          ],
+          "quote": "There's version control built into Lovable, Cursor, Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4295.042,
+            4303.445
+          ],
+          "quote": "When the problem gets fixed, I go into the chat mode and I ask Lovable, I say, \"Okay, I needed to do four different things to fix this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 976,
+          "t": [
+            4660.891,
+            4664.592
+          ],
+          "quote": "Obviously, first thing that comes to my mind is like, \"I want to build a Lovable app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 977,
+          "t": [
+            4664.652,
+            4674.737
+          ],
+          "quote": "I just want to build a wrapper and I want to build an image gen with Lovable,\" without thinking that OpenAI did not release an API for that just yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 982,
+          "t": [
+            4708.127,
+            4713.129
+          ],
+          "quote": "And Lovable and all the other tools are agentic now, which means they don't just write code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4764.333,
+            4766.635
+          ],
+          "quote": "And then Cursor adds them, Lovable adds them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 998,
+          "t": [
+            4789.976,
+            4793.079
+          ],
+          "quote": "Now Lovable natively addresses 99% of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 999,
+          "t": [
+            4794,
+            4807.049
+          ],
+          "quote": "I can almost say, most of the stuff that I was teaching people are, I have a YouTube channel, a little bit appreciated, but there's a seven-day learn how to vibe code with Lovable series that I did in March.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            5493.048,
+            5494.609
+          ],
+          "quote": "Lovable is hiring across the board.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            5508,
+            5512.883
+          ],
+          "quote": "A couple of hires stood up by not sending resumes, but sending Lovable apps.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1165,
+          "t": [
+            5512.923,
+            5517.106
+          ],
+          "quote": "They built Lovable apps to show why they're good fit for a role.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            5517.406,
+            5522.39
+          ],
+          "quote": "And we, as Lovable employees, will always open an app that uses Lovable.app domain.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            5522.63,
+            5525.252
+          ],
+          "quote": "Always, if you send me a DM, send me a Lovable app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1174,
+          "t": [
+            5562.56,
+            5574.908
+          ],
+          "quote": "There's a company out there, I'm not going to name them but that uses Lovable religiously, is going to be one of our main case studies, actually, where they actually hired vibe coders before Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            5575.048,
+            5584.254
+          ],
+          "quote": "I'm the first official vibe coding engineer at Lovable with that title, but I've met people in companies where they hired them before us.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1179,
+          "t": [
+            5596.362,
+            5601.706
+          ],
+          "quote": "All they do is translating the old code base onto Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1184,
+          "t": [
+            5610.912,
+            5621.459
+          ],
+          "quote": "There's S&P 500 companies that are putting Lovable in job descriptions too, like saying, \"Hey, Lovable skills are in the recommended tab.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            5679.1,
+            5685.725
+          ],
+          "quote": "And I don't want to interrupt you, but it's because, look, Lovable specifically isn't a company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            5700.935,
+            5702.436
+          ],
+          "quote": "Lovable allows us to build.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1289,
+          "t": [
+            5993.752,
+            6003.54
+          ],
+          "quote": "I think I have a lot of cool tips and tricks that I want to share and teach people how to use Lovable and just vibe code in general and level up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1292,
+          "t": [
+            6017.509,
+            6026.755
+          ],
+          "quote": "I envy the person that is going to try Lovable for the first time after watching this episode, because the feeling is just unmatched of you going from a consumer to a builder.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1299,
+          "t": [
+            6057.66,
+            6071.91
+          ],
+          "quote": "And I need to say this too, because a lot of people may be inspired, not by building or using Lovable, but rather building Lovable, come join our team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1302,
+          "t": [
+            6081.416,
+            6083.957
+          ],
+          "quote": "This is how it feels working at Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1311,
+          "t": [
+            6114.129,
+            6117
+          ],
+          "quote": "I imagine it's just the link on Lovable's website to find the open roles.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复将 Lovable 等工具中的 agent 视为需要被提供持续上下文和规则的技术联合创始人，强调应虔诚地阅读 agent output 而非代码本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            851.521,
+            865.386
+          ],
+          "quote": "And the best way to learn is by building, but treating these tools almost as technical co-founders and educators, and learning while doing, and religiously reading the agent output.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 178,
+          "t": [
+            870.528,
+            873.349
+          ],
+          "quote": "It's what the agent tells me that matters to me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            889.714,
+            897.176
+          ],
+          "quote": "However, I'm concerned about the agent output because of the two limitations that I want to tackle on next.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1283.43,
+            1284.831
+          ],
+          "quote": "Instead, you're watching this agent output.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1827.793,
+            1838.88
+          ],
+          "quote": "By the time you reach message number 10, 15, 20, 30, 40, snippets of early messages sort of get lost in the translation because agent is optimizing for speed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2046.649,
+            2060.179
+          ],
+          "quote": "What you're basically doing with rules or agent files is you're letting the agent know how you want it to behave and what it should focus on in the long run so that you don't have to repeat yourself with every prompt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2086.28,
+            2092.886
+          ],
+          "quote": "And that's where that conversation about, \"I religiously read the agent output,\" comes into play.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2092.906,
+            2098.311
+          ],
+          "quote": "I gave the agent everything, all the tools and resources that it needs to succeed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2116.526,
+            2119.868
+          ],
+          "quote": "I outsource that and delegate that to the agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2120.748,
+            2124.331
+          ],
+          "quote": "The agent needs context and I need to make sure that it's dynamic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2153.415,
+            2156.839
+          ],
+          "quote": "Call me to talk three months from now, an agent will do this for me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2230.112,
+            2238.64
+          ],
+          "quote": "And once you have a set direction, you spend essentially a day, not building, but working with this AI agent to plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2273.28,
+            2286.034
+          ],
+          "quote": "The reason you're doing this in large part beyond just being really clear about the plan is this idea of one task at a time keeps the agent's context window small so that it doesn't lose track of where it's at.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2503.729,
+            2512.094
+          ],
+          "quote": "Use all the agent files that you can because that token allocation is so scarce.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2639.845,
+            2642.608
+          ],
+          "quote": "Agent makes me learn how to use it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2748,
+            2754.866
+          ],
+          "quote": "So I'm using just the master plan as this high-level overview to get the agent into, \"Oh, okay.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3972.571,
+            3980.354
+          ],
+          "quote": "I'll reference Lovable's workflow, which is when something breaks, Lovable's agent is smart enough to say, \"Hey, I made a mistake.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3989.137,
+            3991.837
+          ],
+          "quote": "So your agent basically admits it made a mistake.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 830,
+          "t": [
+            4008.864,
+            4014.307
+          ],
+          "quote": "And sometimes even the problem persists, but Lovable's agent is unaware that it persisted.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 869,
+          "t": [
+            4182.663,
+            4184.283
+          ],
+          "quote": "I just don't know its agent well enough.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 939,
+          "t": [
+            4479.635,
+            4484.117
+          ],
+          "quote": "So what you do there is you ask the agent, \"Okay, here's what happened.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4541.265,
+            4545.467
+          ],
+          "quote": "This idea that you watch the output of the agent to learn what is going on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4555.571,
+            4563.034
+          ],
+          "quote": "Basically, he's learning how coding works and learning how systems work by watching the agent output.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 964,
+          "t": [
+            4578.48,
+            4589.29
+          ],
+          "quote": "And at that point, it was like a year ago that we chatted and it feels like this is the layer, is the agent conversation of what it's thinking, and then what you tell it back.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 981,
+          "t": [
+            4697.1,
+            4707.566
+          ],
+          "quote": "So I think, again, it's just a matter of really learning what's possible through communicating with the agent layer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            5885.173,
+            5886.434
+          ],
+          "quote": "Read the agent output.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集将 vibe coding 定义为一种新兴职业角色和工作方式，即不需要写代码而是通过向 AI 工具提供清晰度来构建产品，嘉宾自称是 Lovable 第一位官方 vibe coding 工程师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.141,
+            3
+          ],
+          "quote": "I'm the first official vibe coding engineer at Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1,
+          "t": [
+            3.12,
+            6.996
+          ],
+          "quote": "You're at the top 0.1% elite level of vibe coding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 71,
+          "t": [
+            318.594,
+            327
+          ],
+          "quote": "I want to talk about just this career path and just how you got into it, how other people might get into it, where you think this is all going, this whole vibe coding thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 121,
+          "t": [
+            567.086,
+            573.95
+          ],
+          "quote": "But I want to start with... because you do this full-time, you're at the top 0.1% elite level of vibe coding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1162.832,
+            1176.137
+          ],
+          "quote": "Because once you figure out that we solved for the how, which is AI assistant or rapid engineering, call it whatever you want, you can call it vibe coding if you want to, but we solve for that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3084.721,
+            3088.123
+          ],
+          "quote": "Also, this shows you just what professional vibe coding looks like.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3088.364,
+            3091.326
+          ],
+          "quote": "Everyone imagines vibe coding, \"I'm just sitting here typing stuff, and go and do this.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3816.143,
+            3823.745
+          ],
+          "quote": "I'll refer to myself as a rapid engineer in a year from now, because vibe coding is just coding in 12 months from now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 957,
+          "t": [
+            4550.429,
+            4552.59
+          ],
+          "quote": "He's also basically vibe coding all the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 958,
+          "t": [
+            4552.61,
+            4555.551
+          ],
+          "quote": "He was brilliant to no code tools before, and now he's all about vibe coding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 990,
+          "t": [
+            4761.09,
+            4764.233
+          ],
+          "quote": "Basically, vibe coding is just, they had all these workflows, all these files.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            5142.484,
+            5146.546
+          ],
+          "quote": "Same way how Karpathy coined vibe coding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            5146.966,
+            5148.407
+          ],
+          "quote": "I was vibe coding before he did it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            5150.868,
+            5158.791
+          ],
+          "quote": "I started vibe coding in July of 2024, and I think he coined it sometime in early 2025.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            5408.532,
+            5417.92
+          ],
+          "quote": "But going back to the vibe coder role, if somebody's saying, \"Okay, well, I have a pretty diverse background too, and I'm vibe coding and how does this become a job?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            5575.048,
+            5584.254
+          ],
+          "quote": "I'm the first official vibe coding engineer at Lovable with that title, but I've met people in companies where they hired them before us.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "clarity",
+      "type": "concept",
+      "role": "concept",
+      "name": "清晰度 (clarity)",
+      "file": "清晰度",
+      "primary": true,
+      "how_described": "本集核心观点之一：编码问题已被解决，真正要解决的是清晰度问题；嘉宾 80% 时间花在规划和聊天上以获得清晰度，只有 20% 用于实际执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            36.06,
+            40.96
+          ],
+          "quote": "Feels like an emerging core skill is learning clarity in the ask of the AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 21,
+          "t": [
+            59.434,
+            66.119
+          ],
+          "quote": "I'm optimizing 100% of my time today on good judgment, clarity, quality, taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            783.435,
+            791.019
+          ],
+          "quote": "So I understood very early that coding is not the problem that we're solving for here, that the problem we're solving for is clarity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1065.083,
+            1071.848
+          ],
+          "quote": "This piece about clarity is such a thread I've been noticing across people that have been successful using AI tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1072.328,
+            1080.755
+          ],
+          "quote": "And it feels like an emerging core skill is learning clarity in the ask of the AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1088.14,
+            1096.524
+          ],
+          "quote": "So first of all, as you said yourself right now, you need to be good at understanding what clarity means and how to translate it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1097.305,
+            1110.311
+          ],
+          "quote": "In my terms, clarity means understanding what tasteful looks like, what's good enough versus what's world-class, what's magical.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1286.332,
+            1297.98
+          ],
+          "quote": "But what I'm hearing here is the areas you are investing in, building in yourself is at the front end, clarity around what it is and I want to hear how you actually do that, what you do there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1330.909,
+            1341.74
+          ],
+          "quote": "And then on the clarity piece, let's actually talk about that, just what do you do there to be clearer with Lovable and other AI tools to help it build the right thing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1382.547,
+            1386.61
+          ],
+          "quote": "So let me start another project now with more clarity, more deliverability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1478.161,
+            1495.008
+          ],
+          "quote": "And then by the time you do all of these three, you're already at a level of clarity that you wouldn't have if you just sat with an empty piece of paper or maybe chatting just with ChatGPT, but not taking action.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1523.4,
+            1529.443
+          ],
+          "quote": "As you're comparing them, clarity just keeps coming and things get better and better to understand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1566.907,
+            1580.8
+          ],
+          "quote": "In the long run, if you really want to finish this project, you're actually saving hundreds of credits and maybe even hundreds of dollars, not to mention the amount of days simply because you started from a point of better clarity and better refinement process.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1581.08,
+            1583.725
+          ],
+          "quote": "So that's the first step of solving for clarity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2162.603,
+            2179.933
+          ],
+          "quote": "I'm using it today, to bypass the shortcomings of human nature and LLMs, but I'm optimizing 100% of my time today on good judgment, clarity, quality, taste, good copy, good fonts.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2352.112,
+            2364
+          ],
+          "quote": "Lovable's going to read all of those and it's going to consume 80% of the token allocation on reading to get clarity, leaving only the final 20% for thinking and executing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2399.342,
+            2402.444
+          ],
+          "quote": "You did not provide any clarity or context to this tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2989.028,
+            2996.74
+          ],
+          "quote": "One, two, three, four, five projects, test all of these tools because that's how you get to clarity, not just by reading, but also by doing as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3306.594,
+            3313.62
+          ],
+          "quote": "It will ask you a couple of questions to get clarity and just produce four files for you and you can just go ahead and upload those.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3499.663,
+            3505.865
+          ],
+          "quote": "As you pointed out, I think PMs are the winners of AI today because they bring clarity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4742.012,
+            4748.9
+          ],
+          "quote": "And because it just, again, develops your clarity, your judgment capabilities rather than coding capabilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            4907.38,
+            4914.465
+          ],
+          "quote": "We're just getting into a place where we're rewarded for what really matters, clarity, judgment, thinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            4930.574,
+            4934.637
+          ],
+          "quote": "It's just a matter of you having so much clarity around it because guess what?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            4940.501,
+            4947.489
+          ],
+          "quote": "That's why I never become good enough at Claude Code, I feel, because I don't start my projects with enough clarity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集将 token 描述为稀缺资源，用阿拉丁神灯三个愿望的比喻说明上下文记忆窗口有限；如果不给文件引用，agent 会把 80% 的 token 花在阅读代码上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            960.504,
+            965.188
+          ],
+          "quote": "Maybe that's going to be different a year from now, but today there's a token limitation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1039.91,
+            1049.935
+          ],
+          "quote": "And I think because I can't control the first part, which is the token memory window, the quality of the LLM models, you are 100% control of the latter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1806.5,
+            1814.765
+          ],
+          "quote": "Again, the Aladdin and the Magic Lamp and all that, which is if there's a limited token window, how do I make it dynamic?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2124.951,
+            2138.98
+          ],
+          "quote": "I need to make sure that I'm regularly updating the documents from time to time so that we shift that token window it uses and how it uses it over time, but I'm not prompting, I'm not interrupting the flow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2352.112,
+            2364
+          ],
+          "quote": "Lovable's going to read all of those and it's going to consume 80% of the token allocation on reading to get clarity, leaving only the final 20% for thinking and executing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2503.729,
+            2512.094
+          ],
+          "quote": "Use all the agent files that you can because that token allocation is so scarce.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4338.017,
+            4342.519
+          ],
+          "quote": "It's just that I'm not dynamically shifting token allocation.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "调试时提到打开预览沙箱（preview sandbox）开发环境来运行出问题的功能并查看控制台日志",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 839,
+          "t": [
+            4047.044,
+            4060.691
+          ],
+          "quote": "And what I do there is I go and very simply open the preview sandbox dev environment of my app, whatever, try to run the function that's broken, right click, read the console log.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集认为当每个人都能用 AI 产出'足够好'时，'世界级'与'足够好'之间的差距才是真正的竞争壁垒，而品味就是区分这两者的关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            59.434,
+            66.119
+          ],
+          "quote": "I'm optimizing 100% of my time today on good judgment, clarity, quality, taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1179.698,
+            1182.439
+          ],
+          "quote": "Good design, good taste, good user experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1299.802,
+            1303.485
+          ],
+          "quote": "And then there's the taste and judgment of knowing, is this the thing I want?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1307.908,
+            1310.41
+          ],
+          "quote": "And on the taste judgment side, you share this concept.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1326.164,
+            1330.549
+          ],
+          "quote": "I'm going to spend more time with stuff that's great to inform my taste and judgment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1944.821,
+            1950.227
+          ],
+          "quote": "It's very important to me, again, going back to quality, taste, human nature.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2162.603,
+            2179.933
+          ],
+          "quote": "I'm using it today, to bypass the shortcomings of human nature and LLMs, but I'm optimizing 100% of my time today on good judgment, clarity, quality, taste, good copy, good fonts.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2972.672,
+            2979.017
+          ],
+          "quote": "I will say one thing though, just because I put so much emphasis on, \"Oh, you need to acquire taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3401.912,
+            3409.695
+          ],
+          "quote": "And I feel like that's going to be an emerging... The value of that being really good at design and taste and judgment is only going to go up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            5945.736,
+            5947.617
+          ],
+          "quote": "Quality, taste, design.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "context-memory-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文记忆窗口 (context memory window)",
+      "file": "上下文记忆窗口",
+      "primary": false,
+      "how_described": "机器层面的局限性，以 token 计量，本集用精灵一次只给三个愿望的比喻来解释",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            908.06,
+            913.142
+          ],
+          "quote": "The first one is there's something that is known as the context memory window.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "作为调试第三步的外部诊断工具被提及，将代码导出到 GitHub 后导入 Codex 只用来诊断问题，不让它直接改代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 857,
+          "t": [
+            4121.66,
+            4124.881
+          ],
+          "quote": "My go-to tool today for that is Codex, OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4141.227,
+            4150.031
+          ],
+          "quote": "So I use Codex since beta, like import it in there, and then I'm using an external tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4166.056,
+            4175.6
+          ],
+          "quote": "In the third one, I'm using an external tool as a facilitator, which is like, I'll either connect to Codex and chat with Codex to then fix the problem in Lovable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4176.04,
+            4179.061
+          ],
+          "quote": "I don't allow Codex to make code changes for me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4193.647,
+            4207.112
+          ],
+          "quote": "It's an old workflow that I had before Codex and before Claude Code, which is there's a tool called Repomix, which allows you to compress your entire code base into a single file.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 932,
+          "t": [
+            4434.218,
+            4437.68
+          ],
+          "quote": "And then step three is go to Codex, which is so funny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4439.28,
+            4443.842
+          ],
+          "quote": "And I hear this a lot, that Codex is the most elite engineer as an AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4444.262,
+            4456.467
+          ],
+          "quote": "Karpathy tweeted this once that... And we had the head of Codex on the podcast too, by the way, that he's like, \"Anytime I have the most gnarly bug, I just go to Codex, let it run for half an hour, and it solves it unlike any other tool out there.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4458.787,
+            4466.57
+          ],
+          "quote": "So the idea here is you point Codex to your code, you show all the console output logs, tell it what the problem is and just have it go figure it out.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "调试时作为外部顾问工具被提及，用 Repomix 压缩代码库后上传到 Claude 进行分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            824.452,
+            833.235
+          ],
+          "quote": "I've tested and played around with all the tools, obviously, but whether somebody's doing it in Cursor or Claude Code, doesn't matter where you are, the problem remains the same.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2321.302,
+            2326.83
+          ],
+          "quote": "Any tool, Lovable or Cursor or Claude, whatever tool you talk about is going to do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4029.475,
+            4037.319
+          ],
+          "quote": "So it can't see that the problem exists because Lovable, Cursor, Claude Code, you name it, all of these tools are good enough today to fix any problem they're aware of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 872,
+          "t": [
+            4193.647,
+            4207.112
+          ],
+          "quote": "It's an old workflow that I had before Codex and before Claude Code, which is there's a tool called Repomix, which allows you to compress your entire code base into a single file.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4207.413,
+            4212.194
+          ],
+          "quote": "You download it, and then I upload it to Claude, just regular Claude or ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4250.408,
+            4254.289
+          ],
+          "quote": "There's version control built into Lovable, Cursor, Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4851.398,
+            4853.9
+          ],
+          "quote": "The person that Tweeted this works at Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            4940.501,
+            4947.489
+          ],
+          "quote": "That's why I never become good enough at Claude Code, I feel, because I don't start my projects with enough clarity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "多处被提及：用于生成 PRD 文档、作为外部诊断工具、嘉宾构建了自定义 GPT（Lovable PRD generator）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1478.161,
+            1495.008
+          ],
+          "quote": "And then by the time you do all of these three, you're already at a level of clarity that you wouldn't have if you just sat with an empty piece of paper or maybe chatting just with ChatGPT, but not taking action.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1896.472,
+            1912
+          ],
+          "quote": "And when you're like, \"Okay, the winner is here,\" at that point I either ask the tool that I'm using, or I'll maybe let's say go to ChatGPT or whatever and ask the LLM to produce a series of PRDs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2455.029,
+            2464.339
+          ],
+          "quote": "Again, I'm not educated, but if you ever read a stream of ChatGPT's thinking in thinking models, you see exactly what I mean.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2864.224,
+            2865.485
+          ],
+          "quote": "ChatGPT is good at it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2868.427,
+            2885.88
+          ],
+          "quote": "So if people want to start somewhere before they even get into any tool, they can go to ChatGPT store for GPTs and just type Lovable base prompt generator or Lovable PRD generator and find those that I built and just brain dump in them and then get these files as output.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3291.801,
+            3299.928
+          ],
+          "quote": "I would literally go to ChatGPT, as I said, and brain dump into it in my... Just type, Lovable PRD generator.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4207.413,
+            4212.194
+          ],
+          "quote": "You download it, and then I upload it to Claude, just regular Claude or ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            4643.843,
+            4658.83
+          ],
+          "quote": "Back in the day when OpenAI started or released image generation natively in the app, so you could go to ChatGPT and be like, \"Generate an image of X, Y, Z,\" the whole world exploded.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "作为与 Lovable 并列的 AI 编程工具被多次提及，同样有 rules.md/agents.md 和内置版本控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            824.452,
+            833.235
+          ],
+          "quote": "I've tested and played around with all the tools, obviously, but whether somebody's doing it in Cursor or Claude Code, doesn't matter where you are, the problem remains the same.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1347.804,
+            1358.632
+          ],
+          "quote": "If you just have a vague idea, let that be your first version of the project, Open, Cursor, Lovable, whatever it is that you're using, and just input a brain dump prompt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2035,
+            2046.469
+          ],
+          "quote": "And then there's the final, final layer, which is depending on what tool you use, Cloud Code or Cursor have what's known as rules.md or agents.md.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2321.302,
+            2326.83
+          ],
+          "quote": "Any tool, Lovable or Cursor or Claude, whatever tool you talk about is going to do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2998.802,
+            3004.867
+          ],
+          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Plaid, and hundreds of other winning companies have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 835,
+          "t": [
+            4029.475,
+            4037.319
+          ],
+          "quote": "So it can't see that the problem exists because Lovable, Cursor, Claude Code, you name it, all of these tools are good enough today to fix any problem they're aware of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4130.143,
+            4132.604
+          ],
+          "quote": "Lovable allows you to own your code cursor as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4250.408,
+            4254.289
+          ],
+          "quote": "There's version control built into Lovable, Cursor, Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4563.534,
+            4567.296
+          ],
+          "quote": "And this connects to something Michael Truell shared, the CEO of Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 962,
+          "t": [
+            4568.656,
+            4572.378
+          ],
+          "quote": "He had this vision of Cursor becoming basically what comes after code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4764.333,
+            4766.635
+          ],
+          "quote": "And then Cursor adds them, Lovable adds them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "repomix",
+      "type": "company",
+      "role": "company",
+      "name": "Repomix",
+      "file": "Repomix",
+      "primary": false,
+      "how_described": "调试第三步中提到，用 Repomix 将整个代码库压缩成一个文件后上传到外部 AI 工具进行分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 872,
+          "t": [
+            4193.647,
+            4207.112
+          ],
+          "quote": "It's an old workflow that I had before Codex and before Claude Code, which is there's a tool called Repomix, which allows you to compress your entire code base into a single file.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "rules-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "规则文件 (rules.md)",
+      "file": "规则文件",
+      "primary": false,
+      "how_described": "告诉 agent 你希望它怎么表现、长期专注什么的文件，这样不用每个提示词都重复；修好 bug 后把学到的经验写进 rules.md",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 409,
+          "t": [
+            2035,
+            2046.469
+          ],
+          "quote": "And then there's the final, final layer, which is depending on what tool you use, Cloud Code or Cursor have what's known as rules.md or agents.md.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2697.955,
+            2702.82
+          ],
+          "quote": "You had design guidelines, the user journey, tasks, agents.md, rules.md.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4505.647,
+            4514.692
+          ],
+          "quote": "Put this into rules, put this what we just learned into Rules.md, because I'm making you read the rules every time anyways, so you might as well just record it there.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": false,
+      "how_described": "本集认为在 AI 世界中，人们不会因为更快的原始产出而获得回报，而是因为更好的判断力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            59.434,
+            66.119
+          ],
+          "quote": "I'm optimizing 100% of my time today on good judgment, clarity, quality, taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1224.623,
+            1233.729
+          ],
+          "quote": "We won't be rewarded in the world of AI for faster raw output; we will be rewarded for better judgment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1234.149,
+            1239.653
+          ],
+          "quote": "So I think that better judgment comes with, again, to go back to your question, how are you solving for that?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1299.802,
+            1303.485
+          ],
+          "quote": "And then there's the taste and judgment of knowing, is this the thing I want?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1307.908,
+            1310.41
+          ],
+          "quote": "And on the taste judgment side, you share this concept.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1326.164,
+            1330.549
+          ],
+          "quote": "I'm going to spend more time with stuff that's great to inform my taste and judgment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2162.603,
+            2179.933
+          ],
+          "quote": "I'm using it today, to bypass the shortcomings of human nature and LLMs, but I'm optimizing 100% of my time today on good judgment, clarity, quality, taste, good copy, good fonts.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2953.178,
+            2954.98
+          ],
+          "quote": "They're compensated, again for good judgment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3401.912,
+            3409.695
+          ],
+          "quote": "And I feel like that's going to be an emerging... The value of that being really good at design and taste and judgment is only going to go up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3886.995,
+            3893.92
+          ],
+          "quote": "We're all using LLMs for raw output based on good judgment or bad judgment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4602.901,
+            4615.208
+          ],
+          "quote": "Again, in a way, I really optimize for good judgment, and part of good judgment is it comes from, again, learning how these tools work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4742.012,
+            4748.9
+          ],
+          "quote": "And because it just, again, develops your clarity, your judgment capabilities rather than coding capabilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            4907.38,
+            4914.465
+          ],
+          "quote": "We're just getting into a place where we're rewarded for what really matters, clarity, judgment, thinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            5549.65,
+            5552.972
+          ],
+          "quote": "Really develop good judgment, right?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "exposure-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "曝光时间 (exposure time)",
+      "file": "曝光时间",
+      "primary": false,
+      "how_described": "引用 Guillermo Rauch 的概念，指接触优秀设计和用户体验的时间，是培养品味和判断力的关键方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            1110.891,
+            1128
+          ],
+          "quote": "And I developed that through something that I heard from you, you mentioned before, which is exposure time, making sure that I'm exposing myself to content and to people and to relationships or whatever that are going to help me to level up in that domain.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1310.47,
+            1317.096
+          ],
+          "quote": "There's something Guillermo Rauch shared in our conversation, this idea of exposure time, exposure hours, being exposed to great stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2673.421,
+            2675.344
+          ],
+          "quote": "We talk about exposure time for humans.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            5876.887,
+            5879.449
+          ],
+          "quote": "The best way to level up, exposure time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            5921.7,
+            5932.387
+          ],
+          "quote": "So again, exposure time, just deliberately set more time aside to learning than coding because you can code fast, but you can code garbage fast as well as magic fast.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "building-in-public",
+      "type": "concept",
+      "role": "concept",
+      "name": "公开构建 (building in public)",
+      "file": "公开构建",
+      "primary": false,
+      "how_described": "嘉宾获得 Lovable 工作的方式，通过在 YouTube 分享失败和知识、在 LinkedIn 发长内容、参加黑客马拉松来展示能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8.221,
+            10.628
+          ],
+          "quote": "It became a job by building in public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            5418,
+            5422.003
+          ],
+          "quote": "Well, for me, I feel it became a job by building in public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            5431.529,
+            5441.776
+          ],
+          "quote": "And I think obviously, she gave me a couple of reasons, but to translate it into one concept, I was building in public and sharing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

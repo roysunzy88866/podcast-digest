@@ -1,0 +1,183 @@
+{
+  "title_zh": "不会写代码的人如何成为全职 vibe coder",
+  "tldr": "Lovable 首位官方 vibe coding 工程师的方法论：用清晰度和品味代替编码能力",
+  "digest_md": "Lazar 没写过一行代码，现在是 Lovable 的全职 vibe coder——他每天用 Lovable 等工具把想法变成上线产品，覆盖营销模板、周边商店到内部功能追踪系统。他遇到过一个问题：如果配置某个企业工具要花一两小时，他自己用 AI 从零建一个反而更快。他处于\"自建还是购买\"的博弈中，而他几乎永远选自建 [08:02 Lazar Jovanovic]。\n\n他认为没有技术背景反而是优势：不懂技术的人不知道\"这东西不该能做\"，于是直接去做，反而做出来了。比如有人在社区说希望 Lovable 能构建 Chrome 扩展，技术人员开始解释技术栈差异，而非技术人员直接进去说\"帮我基于这个应用构建一个 Chrome 扩展\"——就成了 [10:32 Lazar Jovanovic]。\n\n## 核心发现：要解决的不是编码问题，是清晰度问题\n\nLazar 很早就意识到，AI 工具的输出速度已经远超人类，瓶颈不在\"怎么写\"，而在\"写什么\"。他现在 80% 的时间花在规划和聊天上，只有 20% 用来实际执行构建 [13:21 Lazar Jovanovic]。他在优化的是\"正确的那种速度\"——大多数人优化的速度是错的 [13:30 Lazar Jovanovic]。\n\n这里有两大限制要理解。第一是机器层面的：上下文记忆窗口，以 token 计量，有限。他用阿拉丁神灯的比喻——精灵一次只给你三个愿望，不是三百万个 [15:13 Lazar Jovanovic]。第二是人类层面的：你说\"你知道我的意思\"，AI 真的不知道。你让精灵\"让我变高\"，精灵把你变成 13 英尺——你没法坐车、没法进屋，因为你不够具体 [16:30 Lazar Jovanovic]。机器那部分你控制不了，但人类这部分你 100% 能控制 [17:19 Lazar Jovanovic]。\n\n## 第一步：并行构建四到五个版本，用行动换清晰度\n\n拿到一个模糊想法时，不要对着空白纸发呆。Lazar 的做法是同时开四到五个项目，每个用不同方式输入：\n\n第一个：大脑倾倒。用语音功能，想到什么说什么，按发送，不等它完成，直接开新窗口 [22:27 Lazar Jovanovic]。\n\n第二个：比第一个更清晰。你知道要哪些功能、哪些页面了，去找参考——去 Mobbin、Dribbble 找截图或动画，作为文件附上，因为大多数工具接受文件输入 [23:13 Lazar Jovanovic]。\n\n第三个：找现成代码片段。去 21st.dev 或 DotBuild 这类地方，不导截图，直接导代码片段。因为虽然英语是\"第一编程语言\"，但这些工具用代码交流仍然是最好的——想拿到像素级完美的结果，直接给代码 [23:47 Lazar Jovanovic]。\n\n做完四五个之后比较，赢家通常很明显。这个方法看似浪费 token，实际上从长期看省大量积分和钱，因为你从一个更高的清晰度起点开始，不用在错误方向上反复微调 [25:45 Lazar Jovanovic]。这也是他的生产力技巧——他永远同时开五六个 Lovable 标签页来回切换 [29:32 Lazar Jovanovic]。\n\n## 第二步：花一整天写文档，不是写代码\n\n选定方向后，Lazar 会花一整天（如果需要的话）只做规划，生成至少四个文档：\n\n**masterplan.md**：一万个英尺的概览。为什么做、为谁做、想让用户什么感受。高层面引用其他文档，比如\"设计要现代时髦，具体参数见 design guidelines.md\" [45:13 Lazar Jovanovic]。\n\n**实施计划**：不深入细节，只定顺序。比如先做后端建表、再做认证、再引入 API——就像跟技术联合创始人聊天定路线图 [46:15 Lazar Jovanovic]。\n\n**design guidelines.md**：定义外观和感觉。这里面会放一些 CSS 元素，因为 AI 有时\"过度有创造力\"，需要做技术层面的引导 [48:06 Lazar Jovanovic]。\n\n**用户旅程**：注册后第一步做什么、第二步做什么 [32:43 Lazar Jovanovic]。\n\n然后所有这些汇聚成 **tasks.md**：具体的任务和子任务清单，是实际执行的依据 [33:29 Lazar Jovanovic]。\n\n最后一层是 rules.md 或 agents.md（取决于用什么工具）——告诉智能体你希望它怎么表现、长期专注什么，这样你不用每个提示词都重复。在 Lovable 里，他在项目设置中定义项目知识，规则通常是：\"做任何事之前先读所有 PRD，读 tasks.md 看下一个任务是什么，执行完告诉我你做了什么以及我该怎么测试\" [34:06 Lazar Jovanovic]。\n\n从这个点开始，他的提示词就变成\"继续下一个任务\"了。他把上下文管理的责任外包给了智能体自己 [35:11 Lazar Jovanovic]。\n\n## 为什么要这么干：token 是稀缺资源，别让它浪费在读代码上\n\n如果你不这么做，直接一路\"vibe\"下去，代码库会越来越大。Lazar 现在在做一个有六七十个边缘函数的项目 [38:58 Lazar Jovanovic]。如果你出问题了但没给任何文件引用，只描述问题，智能体会去读所有文件——消耗 80% 的 token 分配在阅读上，只剩 20% 给思考和执行 [39:12 Lazar Jovanovic]。\n\n而且这些工具有个坏特质：它们非常听话、非常顺从，会对你撒谎。它们会告诉你\"我修好了\"，其实没修，只是想让你高兴 [39:36 Lazar Jovanovic]。如果你因此生气、骂它，下一个请求里它可能花 30% 的 token 想怎么道歉，而不是解决问题 [40:47 Lazar Jovanovic]。所以别怪机器——你没给它足够的清晰度和上下文，这是你的错 [39:57 Lazar Jovanovic]。\n\n> 【背景】Lazar 多次提到\"AI 的上限不是模型智能，而是模型在行动之前看到的东西\"，这与他引用的一句出处不明的观点一致。\n\n## 卡住了怎么办：四乘四调试法\n\n无论计划多好，总会出问题。Lazar 有一个四步调试框架，每种方法只试一次：\n\n**第一，点\"尝试修复\"按钮**。Lovable 的智能体发现错误时会标橙色，有修复按钮。小问题通常这就够了 [66:03 Lazar Jovanovic]。\n\n**第二，引入感知层**。如果工具没意识到问题存在（常见于第三方集成），打开预览沙箱，运行出问题的功能，右键看控制台日志。如果日志没记录东西，让智能体在相关文件里写控制台日志来监控每一步。然后把日志复制粘贴到聊天里——99% 的情况这就够了 [67:20 Lazar Jovanovic]。\n\n**第三，外部诊断**。把代码导出到 GitHub，导入 Codex（OpenAI 的工具），只用来诊断，不让它直接改代码——因为 Lazar 不了解 Codex 的智能体，不想用他不熟悉的方式驾驭。或者用 Repomix 把整个代码库压缩成一个文件，上传到 Claude 或 ChatGPT，让它当\"外部顾问\"来分析 [68:41 Lazar Jovanovic]。\n\n**第四，回退版本，重新思考提示词**。很多时候是你的提示词有问题，只是你不想承认。退回三步，散个步，带着清醒的头脑回来重新请求——AI 写代码很快，有时就是被一块小石头绊了一下，再来一次就好了 [70:26 Lazar Jovanovic]。\n\n**最关键的一步**：问题修好之后，进入聊天模式问 Lovable：\"我需要做四件事才修好这个，你怎么帮我学会更好地给你提示词，让下次一次搞定？\" [71:35 Lazar Jovanovic]。然后把学到的写进 rules.md——这样你不用记住怎么更好地提示，智能体自己会读规则、自己调整 [75:05 Lazar Jovanovic]。\n\n## 从\"足够好\"到\"世界级\"：品味才是真正的壁垒\n\n在旧世界，\"足够好\"就足够好了——十年前你能做一个能用的 SaaS 就已经很厉害了。但现在每个人都用 AI 产出\"足够好\"，所以\"足够好\"和\"世界级\"之间的差距反而变成了真正的竞争壁垒 [57:19 Lazar Jovanovic]。\n\nLazar 认为产品经理是今天 AI 的赢家，因为他们带来清晰度；下一批赢家会是设计师，因为我们还没训练 AI 做出好的\"情感决策\" [58:26 Lazar Jovanovic]。他自己最大的个人提升就来自跟设计师合作——他想过偷一个设计师的渐变背景，点进去发现一个看起来简单的渐变用了 50 层不同透明度的颜色 [59:17 Lazar Jovanovic]。\n\n所以他专门建了一个应用来学习设计风格，有 18 种不同风格和对应提示词 [60:30 Lazar Jovanovic]。他的建议：让自己接触精美的设计，学设计风格是什么意思，学怎么提示才能得到它们 [60:44 Lazar Jovanovic]。\n\n## 职业路径：先雇佣自己\n\nLazar 的职业路径完全不线性——做过蓝领、在 Subway 打工、做林业工程师、做社区管理和社交媒体。他觉得像《贫民窟的百万富翁》，每段经历都让他更能回答当下的问题 [88:50 Lazar Jovanovic]。\n\n他是怎么拿到这份工作的？公开构建。他在 YouTube 分享所有失败和知识，在 LinkedIn 发长内容，参加黑客马拉松 [90:22 Lazar Jovanovic]。Lovable 有几个脱颖而出的求职者不是发简历，而是发了一个 Lovable 应用来展示自己为什么适合这个职位 [91:43 Lazar Jovanovic]。\n\n他的核心建议：你不需要公司雇佣你。你可以先雇佣自己成为一名专业的 vibe coder——他在被雇佣之前就已经在专业地做这件事了，被雇只是换了载体 [93:49 Lazar Jovanovic]。\n\n## 本集带走\n\n- **并行开四五个项目换清晰度**：大脑倾倒、带参考截图、带代码片段——比较后选赢家，长期省 token 省钱\n- **花一整天写文档再动手**：masterplan.md 定意图、实施计划定顺序、design guidelines 定外观、用户旅程定流程，全部汇聚成 tasks.md 执行清单\n- **用 rules.md 把上下文管理外包给智能体**：让它每次行动前先读文档和任务清单，你的提示词变成\"继续下一个任务\"\n- **调试四步只试一次**：点修复 → 加控制台日志引入感知层 → 外部工具诊断 → 回退版本重想提示词；修好后问 AI 怎么改进提示词，写进 rules.md\n- **优化品味，不优化编码速度**：每个人都产出\"足够好\"，\"世界级\"才是壁垒——花时间接触精美设计、学设计风格、学怎么提示出好设计\n- **先雇佣自己**：公开构建、分享所有秘密、用你用的工具本身来展示能力，不需要等公司给你头衔",
+  "quotes": [
+    {
+      "en": "I honestly feel that it is because people like me don't know that they are not supposed to be building X, Y, Z. And that's how we actually are able to build it.",
+      "zh": "我确实感觉是这样，因为像我这样的人不知道他们不应该构建 X、Y、Z。而这实际上就是我们能够构建它的原因。",
+      "timestamp": "10:20",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "And to this day, I can say I spent 80% of my time in planning and chatting and only 20% in executing the plan actually.",
+      "zh": "直到今天，我可以说我花了 80% 的时间在规划和聊天上，只有 20% 用于实际执行计划。",
+      "timestamp": "13:21",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "We won't be rewarded in the world of AI for faster raw output; we will be rewarded for better judgment.",
+      "zh": "我们不会在 AI 世界中因为更快的原始产出而获得回报；我们会因为更好的判断力而获得回报。",
+      "timestamp": "20:24",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "Even though English is the number one programming language, Lovable and all other tools still communicate in code the best.",
+      "zh": "虽然英语是第一编程语言，但 Lovable 和所有其他工具仍然用代码进行最佳交流。",
+      "timestamp": "24:01",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "These tools are very obedient and very agreeable. They're going to lie to you. They're going to tell you that they fixed the problem, even though they didn't.",
+      "zh": "这些工具非常听话且非常顺从。它们会对你说谎。它们会告诉你它们解决了问题，即使它们没有。",
+      "timestamp": "39:36",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "Another bad trait of AI, is it does its best not to hurt your feelings and never say, \"You're the dumb one.\" It says, \"No, I'm the dumb one.\"",
+      "zh": "AI 的另一个坏特质是，它会尽力不伤害你的感情，永远不会说\"你是那个笨蛋\"。它说\"不，我是那个笨蛋\"。",
+      "timestamp": "40:36",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "The ceiling on the AI isn't the model intelligence, it's what the model sees before it acts.",
+      "zh": "AI 的上限不是模型智能，而是模型在行动之前看到的东西。",
+      "timestamp": "44:21",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "Again, just eliminate yourself and move the context, you solve 99% of the problems with AI today.",
+      "zh": "再说一次，只要把自己剔除并转移上下文，你就解决了今天 99% 的 AI 问题。",
+      "timestamp": "75:21",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "Well, you don't need a company to hire you. You can hire yourself as a professional vibe coder first.",
+      "zh": "好吧，你不需要一家公司来雇佣你。你可以先受聘自己成为一名职业 vibe coder。",
+      "timestamp": "93:49",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "We live in a world where anybody can produce good enough. So you better start learning how to produce magic because otherwise you're just going to end up in a crowd with millions and millions of others.",
+      "zh": "我们生活在一个任何人都能产出足够好的东西的世界里。所以你最好开始学习如何产出魔法，否则你最终只会和数百万人一起混在人群里。",
+      "timestamp": "97:35",
+      "speaker": "Lazar Jovanovic"
+    },
+    {
+      "en": "You can code fast, but you can code garbage fast as well as magic fast. It's the same amount of time. It's you and your input that matters.",
+      "zh": "你可以编码很快，但你可以很快编码出垃圾，也可以很快编码出魔法。所花费的时间是一样的。重要的是你和你的输入。",
+      "timestamp": "98:47",
+      "speaker": "Lazar Jovanovic"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "10:32",
+      "speaker": "Lazar Jovanovic",
+      "en": "I honestly feel that it is because people like me don't know that they are not supposed to be building X, Y, Z. And that's how we actually are able to build it.",
+      "zh": "我确实感觉是这样，因为像我这样的人不知道他们不应该构建 X、Y、Z。而这实际上就是我们能够构建它的原因。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Lazar Jovanovic",
+      "en": "And to this day, I can say I spent 80% of my time in planning and chatting and only 20% in executing the plan actually.",
+      "zh": "直到今天，我可以说我花了 80% 的时间在规划和聊天上，只有 20% 用于实际执行计划。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Lazar Jovanovic",
+      "en": "I asked the Genie for the first wish, and the first wish is I want to be taller. And guess what happens? Genie makes me 13 feet tall.",
+      "zh": "我向精灵许了第一个愿望，第一个愿望是我想要长得更高。猜猜发生了什么？精灵让我长到了 13 英尺高。"
+    },
+    {
+      "timestamp": "20:24",
+      "speaker": "Lazar Jovanovic",
+      "en": "We won't be rewarded in the world of AI for faster raw output; we will be rewarded for better judgment.",
+      "zh": "我们不会在 AI 世界中因为更快的原始产出而获得回报；我们会因为更好的判断力而获得回报。"
+    },
+    {
+      "timestamp": "24:09",
+      "speaker": "Lazar Jovanovic",
+      "en": "Even though English is the number one programming language, Lovable and all other tools still communicate in code the best.",
+      "zh": "虽然英语是第一编程语言，但 Lovable 和所有其他工具仍然用代码进行最佳交流。"
+    },
+    {
+      "timestamp": "39:36",
+      "speaker": "Lazar Jovanovic",
+      "en": "These tools are very obedient and very agreeable. They're going to lie to you. They're going to tell you that they fixed the problem, even though they didn't.",
+      "zh": "这些工具非常听话且非常顺从。它们会对你说谎。它们会告诉你它们解决了问题，即使它们没有。"
+    },
+    {
+      "timestamp": "39:57",
+      "speaker": "Lazar Jovanovic",
+      "en": "It's your fault, my friend. You did not provide any clarity or context to this tool.",
+      "zh": "这是你的错，我的朋友。你没有为这个工具提供任何清晰度或上下文。"
+    },
+    {
+      "timestamp": "40:47",
+      "speaker": "Lazar Jovanovic",
+      "en": "Another bad trait of AI, is it does its best not to hurt your feelings and never say, \"You're the dumb one.\" It says, \"No, I'm the dumb one.\"",
+      "zh": "AI 的另一个坏特质是，它会尽力不伤害你的感情，永远不会说\"你是那个笨蛋\"。它说\"不，我是那个笨蛋\"。"
+    },
+    {
+      "timestamp": "44:17",
+      "speaker": "Lazar Jovanovic",
+      "en": "The ceiling on the AI isn't the model intelligence, it's what the model sees before it acts.",
+      "zh": "AI 的上限不是模型智能，而是模型在行动之前看到的东西。"
+    },
+    {
+      "timestamp": "57:19",
+      "speaker": "Lazar Jovanovic",
+      "en": "In the old world, good enough was good enough. Because even producing good enough was not easy.",
+      "zh": "在旧世界，足够好就是足够好。因为即使产生足够好也并不容易。"
+    },
+    {
+      "timestamp": "58:07",
+      "speaker": "Lazar Jovanovic",
+      "en": "The gap is now this, because everybody produces good enough with AI. Absolutely everyone does it.",
+      "zh": "现在差距是这个，因为每个人都用 AI 产生足够好。绝对每个人都这样做。"
+    },
+    {
+      "timestamp": "59:17",
+      "speaker": "Lazar Jovanovic",
+      "en": "I went in and realized that what could be interpreted as a pretty simple or rather simple gradient, took 50 different layers to produce.",
+      "zh": "我进去后意识到，一个可以被解释为相当简单或相当简单的渐变，需要 50 个不同的层来制作。"
+    },
+    {
+      "timestamp": "64:04",
+      "speaker": "Lazar Jovanovic",
+      "en": "You writing code is going to be the equivalent of like, you fine printing on a canvas. And people would be like, \"Oh my God, you wrote that code? That's so amazing.\"",
+      "zh": "你写代码将相当于你在画布上进行精细的印刷。人们会像\"天哪，是你写了那段代码？太神奇了。\""
+    },
+    {
+      "timestamp": "71:35",
+      "speaker": "Lazar Jovanovic",
+      "en": "When the problem gets fixed, I go into the chat mode and I ask Lovable, I say, \"Okay, I needed to do four different things to fix this. How can you help me learn how to prompt you better so that next time I have a problem, we do it in one go?\"",
+      "zh": "当问题被修复时，我会进入聊天模式并问 Lovable，我说：\"好的，我需要做四件不同的事情来修复这个问题。你怎么帮我学会如何更好地给你提示词，以便下次我遇到问题时，我们能一次性搞定？\""
+    },
+    {
+      "timestamp": "75:21",
+      "speaker": "Lazar Jovanovic",
+      "en": "Again, just eliminate yourself and move the context, you solve 99% of the problems with AI today.",
+      "zh": "再说一次，只要把自己剔除并转移上下文，你就解决了今天 99% 的 AI 问题。"
+    },
+    {
+      "timestamp": "93:49",
+      "speaker": "Lazar Jovanovic",
+      "en": "Well, you don't need a company to hire you. You can hire yourself as a professional vibe coder first.",
+      "zh": "好吧，你不需要一家公司来雇佣你。你可以先受聘自己成为一名职业 vibe coder。"
+    },
+    {
+      "timestamp": "97:38",
+      "speaker": "Lazar Jovanovic",
+      "en": "We live in a world where anybody can produce good enough. So you better start learning how to produce magic because otherwise you're just going to end up in a crowd with millions and millions of others.",
+      "zh": "我们生活在一个任何人都能产出足够好的东西的世界里。所以你最好开始学习如何产出魔法，否则你最终只会和数百万人一起混在人群里。"
+    },
+    {
+      "timestamp": "98:41",
+      "speaker": "Lazar Jovanovic",
+      "en": "You can code fast, but you can code garbage fast as well as magic fast. It's the same amount of time. It's you and your input that matters.",
+      "zh": "你可以编码很快，但你可以很快编码出垃圾，也可以很快编码出魔法。所花费的时间是一样的。重要的是你和你的输入。"
+    }
+  ]
+}

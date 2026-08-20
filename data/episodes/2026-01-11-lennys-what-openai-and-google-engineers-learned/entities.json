@@ -1,0 +1,2239 @@
+{
+  "episode_id": "2026-01-11-lennys-what-openai-and-google-engineers-learned",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-01-11",
+  "tags": [
+    "AI 产品方法论",
+    "智能体",
+    "行为校准",
+    "evals",
+    "工作流自动化"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            227.351,
+            232.733
+          ],
+          "quote": "Book and attend a meeting at merge.dev/lenny, and they'll send you a $50 Amazon gift card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            233.013,
+            234.854
+          ],
+          "quote": "That's merge.dev/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            297.095,
+            300.176
+          ],
+          "quote": "Run your next study at strella.io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            300.396,
+            303.777
+          ],
+          "quote": "That's S-T-R-E-L-L-A.io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            313.633,
+            313.98
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 667,
+          "t": [
+            4050.989,
+            4057.251
+          ],
+          "quote": "I'm like, \"Oh, Lenny's nodding his head, so probably I would go in this direction or Lenny's bored, so let me stop talking.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 761,
+          "t": [
+            4532.18,
+            4535.221
+          ],
+          "quote": "For me, it's this book called When Breath Becomes Air, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4812.04,
+            4813.778
+          ],
+          "quote": "That's how I got access to it, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4873.653,
+            4876.056
+          ],
+          "quote": "By the way, Raycast, also part of Lenny's product pass.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4880.763,
+            4882.329
+          ],
+          "quote": "Lenny didn't tell us these folks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 928,
+          "t": [
+            5153.061,
+            5153.469
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "kiriti-badam",
+      "type": "person",
+      "role": "cohost",
+      "name": "Kiriti Badam",
+      "file": "Kiriti Badam",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            89.72,
+            92.861
+          ],
+          "quote": "Today, my guests are Aishwarya Reganti and Kiriti Badam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            163.536,
+            168.7
+          ],
+          "quote": "With that, I bring you Aishwarya, Reganti, and Kiriti Badam after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "aishwarya-reganti",
+      "type": "person",
+      "role": "cohost",
+      "name": "Aishwarya Reganti",
+      "file": "Aishwarya Reganti",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            89.72,
+            92.861
+          ],
+          "quote": "Today, my guests are Aishwarya Reganti and Kiriti Badam.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            163.536,
+            168.7
+          ],
+          "quote": "With that, I bring you Aishwarya, Reganti, and Kiriti Badam after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体描述为可以自主做决策的系统，指出每多给智能体一点自主决策权就意味着多放弃一点控制权；强调不要第一天就上全自主智能体，而应从低主观能动性起步逐步放权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.501,
+            46.411
+          ],
+          "quote": "It's not about being the first company to have an agent among your competitors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 86,
+          "t": [
+            443.113,
+            447.875
+          ],
+          "quote": "You're probably looking at agent traces together and deciding how your product should behave.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 119,
+          "t": [
+            620.93,
+            628.993
+          ],
+          "quote": "And when you do that, you want to make sure that your agent has gained your trust or it is reliable enough that you can allow it to make decisions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 120,
+          "t": [
+            629.373,
+            649
+          ],
+          "quote": "And that's where we talk about this agency controlled trade-off, which is if you give your AI agent or your AI system, whatever it is, more agency, which is the ability to make decisions, you're also losing some control and you want to make sure that the agent or the AI system has earned that ability or has built up trust over time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            851.632,
+            857.975
+          ],
+          "quote": "So it's not about just dumping all the list of help center articles that you have into the AI agent.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1215.863,
+            1224.885
+          ],
+          "quote": "And it's easy to get overwhelmed that, oh, my AI agent is doing these things wrong in a hundred different ways and you're not going to actually tabulate all of them and fix it.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1775.905,
+            1786.448
+          ],
+          "quote": "Whenever you're trying to automate some part of a workflow, it's never the case that you could use an AI agent and that will solve your problems.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1833.961,
+            1838.383
+          ],
+          "quote": "As of today, it's not about being the first company to have an agent among your competitors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1842.805,
+            1847.406
+          ],
+          "quote": "When someone comes up to me and says, \"We have this one click agent, it's going to be deployed in your system.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1854.409,
+            1866.093
+          ],
+          "quote": "And that's not because the models aren't there, but because enterprise data and infrastructure is very messy and you need a bit to ... Even the agent needs a bit to understand how these systems work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1883.7,
+            1895.486
+          ],
+          "quote": "So most of the times, if you're obsessed with the problem itself and you understand your workflows very well, you will know how to improve your agents over time instead of just slapping an agent and assuming that it'll work from day one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2065.993,
+            2073.455
+          ],
+          "quote": "This is the kind of problems that my agent should not do and let me build a list of datasets so that I'm going to do well on those.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2087.28,
+            2094.043
+          ],
+          "quote": "You could be deploying any agent and if the customer is giving a thumbs up for your interaction, you better want to know that.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2205.286,
+            2220.112
+          ],
+          "quote": "And this is where production monitoring comes into the picture that you cannot predict the base in which your agent could be doing wrong, but all of these other implicit signals and explicit signals, those are going to communicate back to you what are the traces that you need to look at.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2240.2,
+            2248.985
+          ],
+          "quote": "And okay, let's say I built an evaluation dataset for my agent trying to offer refunds where explicitly I have configured it not to.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2532.511,
+            2538.833
+          ],
+          "quote": "So coding agent is not a product which is going to solve these top five workflows or top six workflows or whatever.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2867.032,
+            2878.377
+          ],
+          "quote": "How can you build so that you don't lose customer trust and you don't end up, or your agent or AI system doesn't end up making decisions that are super dangerous to the company itself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3078.908,
+            3086.41
+          ],
+          "quote": "And one example that we give is that of the customer support agent, where you can break it down into three versions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3086.61,
+            3094.073
+          ],
+          "quote": "The first version is just routing, which is your agent able to classify and route a particular ticket to the right department?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3099.215,
+            3101.276
+          ],
+          "quote": "Why can't an agent easily do that?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3146.575,
+            3149.996
+          ],
+          "quote": "So if an agent kind of sees this kind of a taxonomy, what is it supposed to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3197.96,
+            3209.684
+          ],
+          "quote": "Coming back to the versions we had, routing was one where you have really high control because even if your agent routes to the wrong department, humans can take control and undo those actions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3210.764,
+            3220.527
+          ],
+          "quote": "And along the way, you also figure out that you probably are dealing with a ton of data issues that you need to fix and make sure that your data layer is good enough for the agent to function.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3221.488,
+            3240.113
+          ],
+          "quote": "We do is what we said of a Copilot, which is now that you've figured out routing works fine after a few iterations and you've fixed all of your data issues, you could go to the next step, which is, can my agent provide suggestions based on some standard operating procedures that we have for the customer support agent?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3244.795,
+            3253.677
+          ],
+          "quote": "And when you do this, you're also logging human behavior, which means that how much of this draft was used by the customer support agent or what was omitted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3399.288,
+            3404.53
+          ],
+          "quote": "It could be based on the number of actions that the agent is taking, which is what we do in this example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3708.746,
+            3711.847
+          ],
+          "quote": "Now I'm going to break it down into, hey, you are this agent.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3712.687,
+            3713.288
+          ],
+          "quote": "You're this agent.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3714.288,
+            3724.152
+          ],
+          "quote": "And now if I somehow connect all of these agents, they think they're the agent utopia and it's never the case that there are incredibly successful multi-agent systems that are built.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3734.216,
+            3743.66
+          ],
+          "quote": "And for example, if you're building a supervisor agent and there are subagents that actually do the work for the super agent, supervisor agent, that is a very successful pattern.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3810.483,
+            3822.478
+          ],
+          "quote": "So the idea there is you'll probably be more successful building and using an agent that is able to do its own sub-agent splitting of work versus a bunch of, say, Codex agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3824.841,
+            3847.96
+          ],
+          "quote": "You can have agents to do these things and you as a human can orchestrate it or you can have one larger agent that is going to orchestrate all of these things, but letting the agents communicate in terms of peer-to-peer kind of protocol, and then especially doing this in a customer support kind of use case is incredibly hard to control what kind of agent is replying to your customer because you need to shift your guardrails everywhere and things like that.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3955.13,
+            3967.535
+          ],
+          "quote": "And as you do more of this, you can give the agent more of context and then it start to see the world around you and understand what are the set of metrics that you're optimizing for or what are the kind of activities that you're trying to do.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3968.115,
+            3974.218
+          ],
+          "quote": "It is a very easy extension from there to actually gain more out of it and then let the agent prompt you back.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3987.606,
+            3994.892
+          ],
+          "quote": "And now when you extend this to more complex tasks, like a coding agent, which says that, \"Okay, I have fixed five of your linear tickets and here are the patches.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4866.044,
+            4872.392
+          ],
+          "quote": "You guys need to use it, build that yourself, an OpenAI version of that, or the Codex agent should just keep your Mac from sleeping.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "non-determinism",
+      "type": "concept",
+      "role": "concept",
+      "name": "非确定性 (non-determinism)",
+      "file": "非确定性",
+      "primary": true,
+      "how_described": "本集说非确定性是构建 AI 产品与传统软件最根本的差异之一：输入端用户用自然语言表达意图有无数种说法，输出端 LLM 是概率性黑盒，导致输入、输出、过程三面都不确定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.14,
+            10.223
+          ],
+          "quote": "Most people tend to ignore the non-determinism.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            498.886,
+            502.467
+          ],
+          "quote": "And one of them that most people tend to ignore is the non-determinism.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集将主观能动性定义为 AI 系统做决策的能力，指出主观能动性与控制之间存在权衡——给 AI 更多主观能动性就意味着失去一些控制，需要通过逐步建立信任来放权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.789,
+            18.693
+          ],
+          "quote": "The second difference is the agency control trade-off.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 115,
+          "t": [
+            596.581,
+            601.263
+          ],
+          "quote": "And that's where we talk about the second difference, which is the agency control trade-off.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 120,
+          "t": [
+            629.373,
+            649
+          ],
+          "quote": "And that's where we talk about this agency controlled trade-off, which is if you give your AI agent or your AI system, whatever it is, more agency, which is the ability to make decisions, you're also losing some control and you want to make sure that the agent or the AI system has earned that ability or has built up trust over time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 126,
+          "t": [
+            676.352,
+            679.413
+          ],
+          "quote": "And then the other is there's this trade-off between agency and control.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 135,
+          "t": [
+            735.114,
+            748.96
+          ],
+          "quote": "You need to be deliberately starting in places where there is minimal impact and more human control so that you have a good grip of what are the current capabilities and what can I do with them and then slowly lean into the more agency and lesser control.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 146,
+          "t": [
+            810.011,
+            817.8
+          ],
+          "quote": "So give us an example of what you're talking about here, this idea of starting slow with agency and control and then moving up this rung.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 166,
+          "t": [
+            927.762,
+            942.33
+          ],
+          "quote": "But just to kind of mirror back what you're describing, this idea of start with high control, low agency, the example you gave is the support agents just kind of giving suggestions, is not able to do anything, the user is in charge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 167,
+          "t": [
+            942.91,
+            953.416
+          ],
+          "quote": "And then as that becomes useful and you are confident it's doing the right sort of work, you give it a little more agency and you kind of pull back on the control the user has.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            954.096,
+            959.239
+          ],
+          "quote": "And then if that's starting to go well, then you give it more agency and the user needs less control to control it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1073.686,
+            1081.409
+          ],
+          "quote": "This idea of start slow with high control and low agency and then build up over time once you've built confidence that it's doing the right sort of work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1235.909,
+            1249.313
+          ],
+          "quote": "And when you start small and when you start with building a very minimalistic version with high human control and low agency, it also forces you to think about what is the problem that I'm going to solve.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3029.21,
+            3041.254
+          ],
+          "quote": "But what we specifically also mention is while you're going through these iterations, try to think of lower agency iterations in the beginning and higher control iterations.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3064.622,
+            3070.324
+          ],
+          "quote": "This is a nice image that kind of shows how you can think of agency and control as two dimensions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 503,
+          "t": [
+            3070.524,
+            3078.867
+          ],
+          "quote": "And each of your versions keep on increasing the agency or the ability of your AI system to make decisions and lower the control as you go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3281.188,
+            3286.751
+          ],
+          "quote": "And those are the stages of agency where you start with low agency and then you go up high.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            4221.014,
+            4227.176
+          ],
+          "quote": "And I think that kind of agency and that kind of ownership to really rethink experiences is what will set people apart.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 700,
+          "t": [
+            4268.533,
+            4276.956
+          ],
+          "quote": "But essentially having the agency and ownership, and I think it's also the going to be the end of the busy work era.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "本集说 evals 这个词已经发生语义扩散——数据标注公司说的 evals 是专家写错误分析笔记，PM 说的 evals 是定义产品行为，有人说的 evals 是跑 LM Arena 看模型排行；强调 evals 只能抓已知的错，不能迷信它能解决一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            2005.283,
+            2007.865
+          ],
+          "quote": "It was a hot topic on Twitter for a while, evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2009.346,
+            2014.37
+          ],
+          "quote": "A lot of people are obsessed with evals, think they're the solution to a lot of problems in AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2014.39,
+            2017.813
+          ],
+          "quote": "A lot of people think they're overrated that you don't need evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2021.496,
+            2023.237
+          ],
+          "quote": "What's your take on evals?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2027.5,
+            2039.364
+          ],
+          "quote": "In terms of what is going on in the community, I feel there's just this false dichotomy of this either evals is going to solve everything or online monitoring or production monitoring is going to solve everything.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2050.408,
+            2053.629
+          ],
+          "quote": "So if you take a step back, think of what are evals.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2053.909,
+            2065.953
+          ],
+          "quote": "Evals are basically your trusted product thinking or your knowledge about the product that is going into this set of data sets that you're going to build in the sense that this is what matters to me.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2138.721,
+            2143.863
+          ],
+          "quote": "Now let's come back to the initial topic of like, okay, is it evals or is it production monitoring?",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2268.535,
+            2278
+          ],
+          "quote": "So I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2293.22,
+            2313.909
+          ],
+          "quote": "I want to take two steps back and kind of talk about how much weight the term evals has had to take in the second half of 2025 because you go meet a data labeling company and they tell you our experts are writing evals and then you have all of these folks saying that PMs should be writing evals, they're the new PRDs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2314.509,
+            2321.171
+          ],
+          "quote": "And then you have folks saying that evals is pretty much everything, which is the feedback loop you're supposed to be building to improve your products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2321.692,
+            2325.393
+          ],
+          "quote": "Now, step back as a beginner and kind of think what are evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2325.413,
+            2326.694
+          ],
+          "quote": "Why is everyone saying evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2326.754,
+            2342
+          ],
+          "quote": "And these are actually different parts of the process and nobody is wrong in the sense that yes, these are evals, but when a data labeling company is telling you that our experts are writing evals, they're actually referring to error analysis or experts just leading notes on what should be right.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2342.66,
+            2348.623
+          ],
+          "quote": "Lawyers and doctors write evals, that doesn't mean they're building LLM judges or they're building this entire feedback loop.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2349.143,
+            2355.565
+          ],
+          "quote": "And when you say that a PM should be writing evals, doesn't mean they have to write an LLM judge that's good enough for production.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2386.177,
+            2393.1
+          ],
+          "quote": "That is what is happening to evals or agents or any word in AI as of today, everybody kind of sees a different side to it, I guess.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2413.568,
+            2426.353
+          ],
+          "quote": "If you built a judge that would test for verbosity or something like that, it turns out that you're seeing newer patterns that your LLM judge is not able to catch, and then you just end up building too many evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2445.541,
+            2450.666
+          ],
+          "quote": "That's such an important point, this idea that, especially that evals just means many things to different people now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2453.129,
+            2459.877
+          ],
+          "quote": "And it's complicated to just talk about evals when you see it as the stuff data labeling companies are giving you and things PMR, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2461.118,
+            2462.66
+          ],
+          "quote": "People call benchmarks a little bit evals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2463.461,
+            2466.284
+          ],
+          "quote": "I recently spoke to a client who told me, \"We do evals.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2477.898,
+            2478.939
+          ],
+          "quote": "And I'm like, \"You're not doing evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2478.959,
+            2479.279
+          ],
+          "quote": "That's not evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2479.299,
+            2479.92
+          ],
+          "quote": "Those are model evals.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2493.988,
+            2497.392
+          ],
+          "quote": "The head of Cloud Code, Boris, was like, \"Nah, we don't do evals on Cloud Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2498.994,
+            2502.598
+          ],
+          "quote": "What can you share, Kiriti, on Kodex and the Kodex team, how you approach evals?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2504,
+            2510.803
+          ],
+          "quote": "So Kodex, we have this balanced approach of you need to have evals and you need to definitely listen to your customers.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2649.586,
+            2652.217
+          ],
+          "quote": "What I'm hearing, Codex, pro evals, but it's not enough.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2664.64,
+            2675.287
+          ],
+          "quote": "I don't think if anybody's coming and seeing that I have this concrete set of evals that I can bet my life on and then I don't need to think about anything else, it's not going to work.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2689.955,
+            2697.26
+          ],
+          "quote": "So it's like custom evals for each engineer, you would say, and just understand what the product is doing in its new model.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2933.495,
+            2946.36
+          ],
+          "quote": "And I intentionally use the term evaluation metrics, although we say evals because I just want to be very specific in what it is because evaluation is a process, evaluation metrics are dimensions that you want to focus on during the process.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3355.134,
+            3358.955
+          ],
+          "quote": "A lot of people come and tell us that, \"Oh, wait, there are evals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3472.194,
+            3486.479
+          ],
+          "quote": "And the idea here is that this is the version of that for AI where instead of just integrating into unit tests and deploying constantly, it's running evals, looking at results, iterating on the metrics you're watching, figuring out where it's breaking and iterating on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3852.483,
+            3853.47
+          ],
+          "quote": "Can I say evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3863.26,
+            3864.601
+          ],
+          "quote": "I think evals are misunderstood.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 729,
+          "t": [
+            4432.358,
+            4436.099
+          ],
+          "quote": "This could be a product of evals or something that you built.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 773,
+          "t": [
+            4608.488,
+            4610.154
+          ],
+          "quote": "You got to write some evals for your life.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "production-monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产监控 (production monitoring)",
+      "file": "生产监控",
+      "primary": true,
+      "how_described": "本集说生产监控能捕获 evals 抓不到的未知错误模式，通过显式信号（如点赞/点踩）和隐式信号（如用户重新生成回答）来发现智能体在生产环境中的新问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            2027.5,
+            2039.364
+          ],
+          "quote": "In terms of what is going on in the community, I feel there's just this false dichotomy of this either evals is going to solve everything or online monitoring or production monitoring is going to solve everything.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2074.016,
+            2086.58
+          ],
+          "quote": "And in terms of production monitoring, what you're doing there is you're deploying your application and then you're having some sort of key metrics that actually communicate back to you on how customers are using your product.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2094.303,
+            2096.464
+          ],
+          "quote": "So that is what production monitoring is going to do.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2096.524,
+            2106.088
+          ],
+          "quote": "And this production monitoring has existed for products for a long time, just that now with the AI agents, you need to be monitoring a lot more granularity.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2135.18,
+            2138.221
+          ],
+          "quote": "And that spectrum has been increasing in terms of production monitoring.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2138.721,
+            2143.863
+          ],
+          "quote": "Now let's come back to the initial topic of like, okay, is it evals or is it production monitoring?",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2205.286,
+            2220.112
+          ],
+          "quote": "And this is where production monitoring comes into the picture that you cannot predict the base in which your agent could be doing wrong, but all of these other implicit signals and explicit signals, those are going to communicate back to you what are the traces that you need to look at.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2220.292,
+            2221.892
+          ],
+          "quote": "And that is where production monitoring helps.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2262.572,
+            2268.095
+          ],
+          "quote": "You still need production monitoring to actually catch different kinds of problems that you might encounter.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2268.535,
+            2278
+          ],
+          "quote": "So I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2356.105,
+            2370.691
+          ],
+          "quote": "I think there are also very prescriptive ways of doing this and plus one to KD, which is you cannot predict upfront if you need to be building an LLM judge versus you need to be using implicit signals from production monitoring, et cetera.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "continuous-calibration-continuous-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续校准持续开发 (continuous calibration, continuous development)",
+      "file": "持续校准持续开发",
+      "primary": true,
+      "how_described": "本集将其称为 AI 版的 CI/CD：右侧持续开发是界定能力边界、策展数据集、设定评估指标并部署；左侧持续校准是上线后分析用户行为、发现新错误模式、修复 bug 并设计新评估指标反馈回开发侧",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2760.89,
+            2764.852
+          ],
+          "quote": "You call it the continuous calibration, continuous development framework.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2883.518,
+            2887.56
+          ],
+          "quote": "And that's where we came up with this idea of continuous calibration, continuous development.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3456.548,
+            3461.97
+          ],
+          "quote": "And this idea of even calling continuous calibration, continuous development is communicating it's this kind of iterative process.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": true,
+      "how_described": "本集说成功的公司不是第一个拥有智能体的公司，而是建立了正确的飞轮以便随时间改进；以副驾驶阶段为例，AI 起草、人类修改，修改记录本身就是免费喂进飞轮的训练信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1040.166,
+            1049.632
+          ],
+          "quote": "And then all through this process, you're also logging what the human is doing because you want to build a flywheel that you could use in order to improve your system.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1831.32,
+            1833.201
+          ],
+          "quote": "So they build that flywheel very quickly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1902.689,
+            1912.774
+          ],
+          "quote": "I would rather go with a company that says, \"We're going to build this pipeline for you,\" and that will learn over time and build a flywheel to improve than something that's going to work out of the box.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2878.877,
+            2883.478
+          ],
+          "quote": "At the same time, build a flywheel so that you can improve your product as you go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3041.334,
+            3059
+          ],
+          "quote": "What that means is constrain the number of decisions your AI systems can make and make sure that they're humans in the loop and then increase that over time because you're kind of building a flywheel of behavior and you're understanding what kind of use cases are coming in or how your users are using the system.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3253.697,
+            3262
+          ],
+          "quote": "So you're actually getting error analysis for free when you do this because you're literally logging everything that the user is doing that you could then build back into your flywheel.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3309.46,
+            3315.702
+          ],
+          "quote": "Essentially, you're figuring out your structure for context engineering and building that flywheel that you want.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 680,
+          "t": [
+            4132.6,
+            4142.024
+          ],
+          "quote": "I think we did cover a bunch of best practices for AI products, which is start small, try to get your iteration going well and build a flywheel and all of that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "behavior-calibration",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为校准 (behavior calibration)",
+      "file": "行为校准",
+      "primary": true,
+      "how_described": "本集说对于 AI 系统，核心全是行为校准——因为无法提前预测系统如何表现，所以要通过限制自主权、人在回路中逐步迭代，在不失去用户信任的前提下校准行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            962.2,
+            969.282
+          ],
+          "quote": "I think the higher level idea here is with AI systems, it's all about behavior calibration.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3430.501,
+            3436.98
+          ],
+          "quote": "The idea is just behavior calibration and not losing user trust as you do that behavior calibration, I guess.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到人们为 AI 产品设置了各种护栏系统，但结果表明这些护栏实际上并不太好，总是可以绕过它们",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1419.709,
+            1426.314
+          ],
+          "quote": "And there's all these guardrail systems people put in place, but turns out these guardrails aren't actually very good and you can always get around them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3824.841,
+            3847.96
+          ],
+          "quote": "You can have agents to do these things and you as a human can orchestrate it or you can have one larger agent that is going to orchestrate all of these things, but letting the agents communicate in terms of peer-to-peer kind of protocol, and then especially doing this in a customer support kind of use case is incredibly hard to control what kind of agent is replying to your customer because you need to shift your guardrails everywhere and things like that.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集提到提示词注入和越狱对 AI 产品是巨大风险，本质上是一个潜在的未解决且无法解决的问题，尤其是对于非确定性 API 来说",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1359.962,
+            1376.816
+          ],
+          "quote": "There's an episode that'll come out before this conversation where we go deep into another problem that this avoids, which is around prompt injection and jailbreaking and just how big of a risk that is for AI products where it's essentially an unsolved and unsolvable problem potentially.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "multi-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agents)",
+      "file": "多智能体",
+      "primary": false,
+      "how_described": "本集说多智能体概念被误解了——人们以为把复杂问题按功能拆给不同智能体、用某种 gossip protocol 连接就是智能体乌托邦，但当前模型能力还不足以支撑这种应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 591,
+          "t": [
+            3697.241,
+            3703.464
+          ],
+          "quote": "So I wouldn't say overhyped, but I feel kind of misunderstood is the concept of multi-agents.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": false,
+      "how_described": "本集认为编码智能体被低估了，虽然在 Twitter 和 Reddit 上讨论很多，但在湾区以外实际工程师中的渗透率仍然很低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 426,
+          "t": [
+            2523.127,
+            2532.13
+          ],
+          "quote": "And coding agents are extremely unique compared to agents for other domains in the sense that these are actually built for customizability and these are built for engineers.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3774.03,
+            3797.658
+          ],
+          "quote": "Underrated, I feel it's hard to probably believe, but I still feel coding agents are underrated in the sense that I feel like you can go on Twitter and you can go on Reddit and you see a lot of chatter about coding agents, but talking to an engineer in any random company, especially outside of Bay Area, you can see the amount of impact this coding agents can create and the penetration is very low.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 924,
+          "t": [
+            5138.011,
+            5147
+          ],
+          "quote": "And if you have thoughts on how you can use coding agents to make your life better or however the problems that you're seeing, always my DMs are open and we can have a great discussion.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提到 Rackspace CEO 周末会做 vibe coding，以及社区中'全是 vibe coding'是错误的二分法之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1608.883,
+            1612.204
+          ],
+          "quote": "And he would have weekend vibe coding sessions and stuff like that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "rackspace",
+      "type": "company",
+      "role": "company",
+      "name": "Rackspace",
+      "file": "Rackspace",
+      "primary": false,
+      "how_described": "本集提到 Rackspace 的 CEO 每天凌晨 4 点到 6 点专门追 AI 最新动态，周末做 vibe coding，然后把问题带回来跟专家讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            55.14,
+            57.963
+          ],
+          "quote": "I used to work with the CEO of now Rackspace.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1588.435,
+            1592.457
+          ],
+          "quote": "I used to work with the CEO of now Rackspace, Gagan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1951.334,
+            1955.537
+          ],
+          "quote": "I love this example you gave with the Rackspace CEO has catch up on AI news in the morning every day.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Kiriti 在 OpenAI 的 Kodex 团队工作，以及在 OpenAI 发布成功产品时客户支持量出现巨大激增",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            93.082,
+            100.144
+          ],
+          "quote": "Kiriti works on Kodex at OpenAI and has spent the last decade building AI and ML infrastructure at Google and at Kumo.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            106.227,
+            115.79
+          ],
+          "quote": "Together, they've led and supported over 50 AI product deployments across companies like Amazon, Databricks, OpenAI, Google, and both startups and large enterprises.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            826.263,
+            845.03
+          ],
+          "quote": "Imagine you are a company who has a lot of customer support tickets and why even imagine OpenAI is the exact same thing when we were launching products and there was a huge spike of support volume as we launched successful products like Image or GPT-5 and things like that.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1487.641,
+            1500.054
+          ],
+          "quote": "So I feel like strongly that companies has this adopt this, they definitely ... No company at OpenAI we talk to has never had been the case that, oh, AI cannot help me in this case.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2583.709,
+            2589.331
+          ],
+          "quote": "And I feel like many, many bugs in OpenAI as well as even our external customers are getting caught with this.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 822,
+          "t": [
+            4753.287,
+            4759.82
+          ],
+          "quote": "Someone OpenAI, I'm just imagining you're ... There's nothing else going on except just coding and having meetings.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4866.044,
+            4872.392
+          ],
+          "quote": "You guys need to use it, build that yourself, an OpenAI version of that, or the Codex agent should just keep your Mac from sleeping.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到 Matei Zaharia 和 Databricks 的人做的研究显示约 74-75% 的企业最大问题是可靠性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            106.227,
+            115.79
+          ],
+          "quote": "Together, they've led and supported over 50 AI product deployments across companies like Amazon, Databricks, OpenAI, Google, and both startups and large enterprises.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1311.382,
+            1323.647
+          ],
+          "quote": "Basically Matei Zaharia, [inaudible 00:21:54] and the folks at Databricks and it said about 74% or 75% of the enterprises that they had spoken to, their biggest problem was reliability.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "booking-com",
+      "type": "company",
+      "role": "company",
+      "name": "Booking.com",
+      "file": "Booking.com",
+      "primary": false,
+      "how_described": "本集用 Booking.com 做传统软件的例子——用户意图通过按钮、选项、表单转化为特定行动，体验是可预测的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            519.133,
+            520.834
+          ],
+          "quote": "Think of something like Booking.com.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 123,
+          "t": [
+            664.447,
+            667.488
+          ],
+          "quote": "As you said, you go to booking.com, you find a hotel, it's going to be the same experience every time.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "kodex",
+      "type": "company",
+      "role": "company",
+      "name": "Kodex",
+      "file": "Kodex",
+      "primary": false,
+      "how_described": "本集说 Kodex 在 evals 上采取平衡方法——既有评估数据集确保核心功能不被破坏，也极度重视客户反馈和社交媒体上的用户反应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            93.082,
+            100.144
+          ],
+          "quote": "Kiriti works on Kodex at OpenAI and has spent the last decade building AI and ML infrastructure at Google and at Kumo.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2498.994,
+            2502.598
+          ],
+          "quote": "What can you share, Kiriti, on Kodex and the Kodex team, how you approach evals?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2504,
+            2510.803
+          ],
+          "quote": "So Kodex, we have this balanced approach of you need to have evals and you need to definitely listen to your customers.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "maven",
+      "type": "company",
+      "role": "company",
+      "name": "Maven",
+      "file": "Maven",
+      "primary": false,
+      "how_described": "本集提到嘉宾在 Maven 上教授排名第一的 AI 课程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            116.19,
+            124.773
+          ],
+          "quote": "Together, they also teach the number one rated AI course on Maven, where they teach product leaders all of the key lessons they've learned about building successful AI products.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "air-canada",
+      "type": "company",
+      "role": "company",
+      "name": "Air Canada",
+      "file": "Air Canada",
+      "primary": false,
+      "how_described": "本集提到 Air Canada 的智能体幻想出了一个不在原始剧本中的退款政策，因为法律原因不得不遵守",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 473,
+          "t": [
+            2847.085,
+            2860.53
+          ],
+          "quote": "Recently, I think Air Canada had this thing where one of their agents predicted or hallucinated a policy for a refund, which was not part of their original playbook, and they had to go by it because legal stuff.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "merge",
+      "type": "company",
+      "role": "company",
+      "name": "Merge",
+      "file": "Merge",
+      "primary": false,
+      "how_described": "本集广告中提到 Merge 通过单个 API 帮 B2B SaaS 公司在数周内交付 220 多个面向客户的集成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            169.901,
+            171.942
+          ],
+          "quote": "This episode is brought to you by Merge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 39,
+          "t": [
+            182.451,
+            185.413
+          ],
+          "quote": "Lucky for you, Merge is obsessed with integrations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            185.813,
+            193.98
+          ],
+          "quote": "With a single API, B2B SaaS companies embed Merge into their product and ship 220 plus customer-facing integrations in weeks, not quarters.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            194.86,
+            198.101
+          ],
+          "quote": "Think of merge like Plaid, but for everything B2B SaaS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            198.481,
+            210.906
+          ],
+          "quote": "Companies like Mistral AI, Ramp, and Drata use Merge to connect their customers as accounting, HR, ticketing, CRM, and file storage systems to power everything from automatic onboarding to AI-ready data pipelines.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            211.526,
+            220.189
+          ],
+          "quote": "Even better, Merge now supports the secure deployment of connectors to AI agents with a new product so that you can safely power AI workflows with real customer data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            220.649,
+            226.831
+          ],
+          "quote": "If your product needs customer data from dozens of systems, Merge is the fastest, safest way to get it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            227.351,
+            232.733
+          ],
+          "quote": "Book and attend a meeting at merge.dev/lenny, and they'll send you a $50 Amazon gift card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            233.013,
+            234.854
+          ],
+          "quote": "That's merge.dev/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3136.37,
+            3137.211
+          ],
+          "quote": "I could just merge that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "strella",
+      "type": "company",
+      "role": "company",
+      "name": "Strella",
+      "file": "Strella",
+      "primary": false,
+      "how_described": "本集广告中提到 Strella 是用 AI 自动运行和分析深度访谈的客户研究平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            236.274,
+            241.276
+          ],
+          "quote": "This episode is brought to you by Strella, the customer research platform built for the AI era.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 52,
+          "t": [
+            257.901,
+            258.882
+          ],
+          "quote": "Strella changes that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            268.125,
+            278.168
+          ],
+          "quote": "Strella's AI moderator asks real follow-up questions, probing deeper when answers are vague, and services patterns across hundreds of conversations all in a few hours, not weeks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            278.668,
+            291.433
+          ],
+          "quote": "Product, design, and research teams at companies like Amazon and Duolingo are already using Strella for Figma prototype testing, concept validation, and customer journey research, getting insights overnight instead of waiting for the next sprint.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 56,
+          "t": [
+            291.933,
+            296.754
+          ],
+          "quote": "If your team wants to understand customers at the speed you ship products, try Strella.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            297.095,
+            300.176
+          ],
+          "quote": "Run your next study at strella.io/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": false,
+      "how_described": "本集广告中提到 Brex 是面向创始人的智能金融平台，有一队 AI 智能体处理手动金融任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            2706.224,
+            2707.444
+          ],
+          "quote": "That's where Brex comes in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2707.904,
+            2710.886
+          ],
+          "quote": "Brex is the intelligent finance platform for founders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2711.346,
+            2720.05
+          ],
+          "quote": "With Brex, you get high limit corporate cards, easy banking, high yield treasury, plus a team of AI agents that handle manual finance tasks for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2729.874,
+            2733.916
+          ],
+          "quote": "With Brex's AI agents, you can move faster while staying in full control.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2734.516,
+            2738.478
+          ],
+          "quote": "One in three startups in the United States already runs on Brex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2739.038,
+            2741.339
+          ],
+          "quote": "You can too at brex.com.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集用 ChatGPT 举例说明隐式信号——用户不喜欢回答时不一定点踩，而是重新生成回答，这表明初始回答没达到期望",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1945.311,
+            1950.334
+          ],
+          "quote": "Is the CEO chatting with ChatGPT, Claude, whatever, many times a day.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2112.631,
+            2117.413
+          ],
+          "quote": "For example, in ChatGPT, if you are liking the answer, you can actually give a thumbs up.",
+          "speaker": "SPEAKER_2"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3572.626,
+            3581.349
+          ],
+          "quote": "Even with consumer products, you don't talk to ChatGPT the same way you were talking, say, two years ago, just because you know the capabilities have increased so much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3974.918,
+            3979.98
+          ],
+          "quote": "We already do this in terms of ChatGPT pulse, which kind of gives you this daily update of things you might care about.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 CEO 每天多次与 ChatGPT、Claude 等聊天是成功的头号预测指标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1945.311,
+            1950.334
+          ],
+          "quote": "Is the CEO chatting with ChatGPT, Claude, whatever, many times a day.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral AI",
+      "file": "Mistral AI",
+      "primary": false,
+      "how_described": "本集广告中提到 Mistral AI 使用 Merge 连接客户的会计、HR 等系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            198.481,
+            210.906
+          ],
+          "quote": "Companies like Mistral AI, Ramp, and Drata use Merge to connect their customers as accounting, HR, ticketing, CRM, and file storage systems to power everything from automatic onboarding to AI-ready data pipelines.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到 Amazon 是嘉宾支持过 AI 产品部署的公司之一，广告中也提到 Amazon 的团队在使用 Strella",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            106.227,
+            115.79
+          ],
+          "quote": "Together, they've led and supported over 50 AI product deployments across companies like Amazon, Databricks, OpenAI, Google, and both startups and large enterprises.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            227.351,
+            232.733
+          ],
+          "quote": "Book and attend a meeting at merge.dev/lenny, and they'll send you a $50 Amazon gift card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            278.668,
+            291.433
+          ],
+          "quote": "Product, design, and research teams at companies like Amazon and Duolingo are already using Strella for Figma prototype testing, concept validation, and customer journey research, getting insights overnight instead of waiting for the next sprint.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到 Kiriti 过去十年在 Google 构建 AI 和 ML 基础设施，Google 也是嘉宾支持过 AI 产品部署的公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            93.082,
+            100.144
+          ],
+          "quote": "Kiriti works on Kodex at OpenAI and has spent the last decade building AI and ML infrastructure at Google and at Kumo.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            106.227,
+            115.79
+          ],
+          "quote": "Together, they've led and supported over 50 AI product deployments across companies like Amazon, Databricks, OpenAI, Google, and both startups and large enterprises.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4101.54,
+            4116.03
+          ],
+          "quote": "I just saw Demis from DeepMind, AI, Google, whatever they call the whole org, talking about this where he thinks that's going to be a big part of where they're going, combining the image model work, the LLM, and also their world model stuff, Genie, I think is what it's called.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集提到 DeepMind 的 Demis 在谈论结合图像模型、LLM 和世界模型 Genie 的方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 674,
+          "t": [
+            4101.54,
+            4116.03
+          ],
+          "quote": "I just saw Demis from DeepMind, AI, Google, whatever they call the whole org, talking about this where he thinks that's going to be a big part of where they're going, combining the image model work, the LLM, and also their world model stuff, Genie, I think is what it's called.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集提到 Jason Lemkit 用一个智能体跟踪每个人对 Salesforce 的更新并根据通话自动更新",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 707,
+          "t": [
+            4301.387,
+            4309.731
+          ],
+          "quote": "And one of the agents, it was just tracking everyone's updates to Salesforce and kind of updating it automatically for them based on their calls.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "本集广告中提到 Ramp 使用 Merge 连接客户的系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            198.481,
+            210.906
+          ],
+          "quote": "Companies like Mistral AI, Ramp, and Drata use Merge to connect their customers as accounting, HR, ticketing, CRM, and file storage systems to power everything from automatic onboarding to AI-ready data pipelines.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 684,
+          "t": [
+            4173.995,
+            4178.396
+          ],
+          "quote": "And now we have AI that could help you ramp pretty quickly and post that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "drata",
+      "type": "company",
+      "role": "company",
+      "name": "Drata",
+      "file": "Drata",
+      "primary": false,
+      "how_described": "本集广告中提到 Drata 使用 Merge 连接客户的系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            198.481,
+            210.906
+          ],
+          "quote": "Companies like Mistral AI, Ramp, and Drata use Merge to connect their customers as accounting, HR, ticketing, CRM, and file storage systems to power everything from automatic onboarding to AI-ready data pipelines.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "type": "company",
+      "role": "company",
+      "name": "Duolingo",
+      "file": "Duolingo",
+      "primary": false,
+      "how_described": "本集广告中提到 Duolingo 的团队在使用 Strella",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            278.668,
+            291.433
+          ],
+          "quote": "Product, design, and research teams at companies like Amazon and Duolingo are already using Strella for Figma prototype testing, concept validation, and customer journey research, getting insights overnight instead of waiting for the next sprint.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

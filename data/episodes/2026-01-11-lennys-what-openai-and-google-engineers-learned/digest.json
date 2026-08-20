@@ -1,0 +1,177 @@
+{
+  "title_zh": "AI 产品不能照搬软件老办法：从高控制低自主开始",
+  "tldr": "构建 AI 产品有两个本质差异：非确定性输入输出，以及自主性与控制的权衡，必须逐步放权。",
+  "digest_md": "构建 AI 产品和传统软件最根本的两个差异，大多数团队在动手之前根本没想清楚。\n\n第一个差异是非确定性。传统软件比如预订酒店，用户走的是你设计好的按钮和表单，路径可预测。但 AI 产品的输入端是自然语言，同一个意图用户有无数种说法；输出端你调用的 LLM 本身就是个概率性的黑盒，对提示词措辞极其敏感。输入不可控、输出不可控、中间过程也不完全可理解——你要拿一个三面都不确定的东西，去交付一个确定的结果，这就是 AI 产品\" messy\"的根源，而智能体系统让这个问题更严重 [08:18 Aishwarya Reganti]。\n\n第二个差异是主观能动性（agency）与控制的权衡。每多给 AI 一点自主决策权，你就多放弃一点控制权。问题在于，很多人直接跳到\"全自主智能体\"，结果要么系统做出危险决策，要么根本不可控 [10:01 Aishwarya Reganti]。\n\n## 从高控制、低自主开始，逐步放权\n\n正确做法是像训练爬山一样：不从山顶开始，从最小影响、人类全程把关的地方起步，建立信心后再逐步增加 AI 的自主权 [11:39 Aishwarya Reganti]。\n\n以客户支持为例，分三步走：\n\n**V1——路由分类**：智能体只负责把工单分到正确部门。即便分错了，人类可以立刻纠正，风险极低。这步的真正价值是暴露你企业的数据有多乱——分类法层级错乱、死节点没人维护，这些\"隐藏债务\"不亲自建一版你根本看不见 [51:26 Aishwarya Reganti]。\n\n**V2——副驾驶建议**：路由跑稳之后，让智能体根据标准操作流程生成回复草稿，人类改完再发。这步的关键收益是你免费拿到了人类行为日志——草稿被改了什么、删了什么——直接喂进改进飞轮 [53:41 Aishwarya Reganti]。\n\n**V3——端到端处理**：当草稿被采纳率很高、新错误模式趋于零时，才让智能体直接回复客户，甚至执行退款、提工单等操作 [54:31 Aishwarya Reganti]。\n\n同样的逻辑适用于其他场景：编码助手 V1 只做行内补全，V2 生成测试让人类审，V3 才自主提 PR；营销助手 V1 起草文案，V2 跑多步Campaign，V3 才跨渠道 A/B 测试自动优化 [18:04 Unknown]。\n\n判断能不能进入下一阶段的标志不是时间表，而是\"意外率\"——如果你连续校准一两天，没看到新的错误模式、用户行为稳定了，才适合往上走。但要注意，换了底层模型（比如从 GPT-4o 切到 5）或者用户行为本身演变了（比如开始问更深层的问题），校准就得重来 [58:18 Aishwarya Reganti]。\n\n## 持续校准、持续开发（CCCD）框架\n\n把上面的思路做成可执行的开发流程，就是 CCCD 框架，可以理解为 AI 版的 CI/CD [46:00 Unknown]。\n\n**右侧——持续开发**：先界定能力边界，把\"期望输入长什么样、期望输出长什么样\"整理成数据集。这个动作本身就有价值——你会发现团队里 PM、工程师、领域专家对\"产品该怎么表现\"根本没对齐。然后设定评估指标（不是\"做不做 evals\"，而是你想盯哪些维度），部署并跑指标 [48:08 Aishwarya Reganti]。\n\n**左侧——持续校准**：上线后你会发现用户行为超出你预想的数据集范围。评估指标能抓到你已知的错误，但抓不到\"涌现出来的新错误模式\"。这时要做的是：分析行为、发现新模式、修复具体的 bug，同时为系统性问题设计新的评估指标，反馈回开发侧 [49:10 Aishwarya Reganti]。\n\n关键认知：评估指标只能抓已知的错，生产环境监控才能暴露未知的错。两者都做，但不要迷信任何一个能\"解决一切\"——社区里\"evals 万能\"和\"全是 vibe coding\"都是错误的二分法 [33:47 Kiriti Badam]。\n\n而且\"evals\"这个词已经被语义扩散了：数据标注公司说的 evals 是专家写错误分析笔记，PM 说的 evals 是定义产品行为，有人说的 evals 其实是跑 LM Arena 看模型排行——这些是流程里完全不同的环节 [38:45 Unknown]。\n\n## 成功公司的三个维度\n\n技术框架之外，能跑出来的公司有三个共性 [25:43 Unknown]：\n\n**领导者必须亲自动手重建直觉**。Rackspace 的 CEO 每天凌晨 4 点到 6 点专门追 AI 最新动态，周末做 vibe coding，然后把问题带回来跟专家讨论。这不是让他写代码，而是他过去 15 年积累的产品直觉在 AI 时代需要推倒重来——他必须承认自己可能是\"房间里最笨的人\" [26:28 Unknown]。CEO 不深入，下面工程师再使劲也推不动 [32:10 Unknown]。\n\n**文化上要赋能，不要制造 FOMO**。领域专家是 AI 产品成功的关键——你得靠他们判断 AI 行为对不对。但如果公司氛围是\"不学 AI 就被淘汰\"，专家会拒绝配合，因为觉得你在取代他们。正确的叙事是\"AI 让你 10 倍效率\" [28:04 Unknown]。\n\n**技术上要痴迷工作流，不是痴迷 AI 本身**。没有一个真实工作流是\"丢一个智能体进去就搞定\"的。永远是：ML 模型做一部分、确定性代码做一部分、人类做一部分。你得把工作流拆清楚，为每个子问题选对工具 [29:35 Unknown]。\n\n一个判断标准：如果有人卖你\"一键智能体，两三天见效\"，这纯粹是营销。企业数据和基础设施太乱了，即使数据层和基础设施层都很好，替换一个关键工作流也至少要四到六个月 [30:42 Unknown]。\n\n## 本集带走\n\n- **从高控制、低自主起步**：先让 AI 做风险最低的事（比如分类路由），人类全程把关，确认行为可控后再逐步放权，不要第一天就上全自主智能体\n- **每一步都在喂飞轮**：V2 副驾驶阶段让 AI 起草、人类修改，修改记录本身就是免费的训练信号——不要跳过这一步直接到 V3\n- **评估只抓已知错，生产监控抓未知错**：两者都要做，不要迷信任何一个能单独解决问题\n- **先对齐\"产品该表现成什么样\"**：动手前花时间把期望输入输出整理成数据集，你会发现团队内部根本没对齐\n- **换模型要重新校准**：底层模型变了或用户行为演变了，之前积累的校准可能全部失效\n- **CEO 必须亲自用**：不是写代码，是重建被 AI 颠覆的直觉——领导者不深入，AI 转型不可能自下而上成功\n- **四到六个月是底线**：任何人承诺\"一键智能体几天见效\"都是营销，企业数据混乱度决定了这个周期",
+  "quotes": [
+    {
+      "en": "But every time you hand over decision-making capabilities or autonomy to agentic systems, you're kind of relinquishing some amount of control on your end.",
+      "zh": "但每次你将决策能力或自主权移交给智能体系统时，你都在某种程度上放弃了一些你的控制权。",
+      "timestamp": "10:12",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "In all this advancements of the AI that we are seeing, one easy, slippery slope is to just keep thinking about complexities of the solution and forget the problem that you're trying to solve.",
+      "zh": "在我们看到的所有这些 AI 进展中，一个容易的、滑坡式的错误就是只考虑解决方案的复杂性，而忘记你试图解决的问题。",
+      "timestamp": "21:00",
+      "speaker": "Aishwarya Reganti"
+    },
+    {
+      "en": "But now with AI in the picture, those intuitions will have to be relearned and leaders have to be vulnerable to do that.",
+      "zh": "但现在有了 AI，这些直觉必须重新学习，领导者必须变得脆弱去做这件事。",
+      "timestamp": "26:20",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "As of today, it's not about being the first company to have an agent among your competitors. It's about, have you built the right flywheels in place so that you can improve over time?",
+      "zh": "截至今天，这并不是关于成为竞争对手中第一个拥有智能体的公司。而是关于，你是否建立了合适的飞轮，以便你可以随着时间的推移而改进？",
+      "timestamp": "30:33",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "I probably will go as far to say that if someone's selling you one click-agents, it's pure marketing.",
+      "zh": "我可能会甚至会说，如果有人向你兜售一键式智能体，那纯粹是营销。",
+      "timestamp": "31:35",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "So I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion.",
+      "zh": "所以我觉得评估很重要，生产监控很重要，但是只有其中一个能为你解决问题的这种观点，在我看来是完全不屑一顾的。",
+      "timestamp": "37:48",
+      "speaker": "Aishwarya Reganti"
+    },
+    {
+      "en": "I think Martin Fowler at some point had this term called semantic diffusion back in the 2000s, which kind of means that someone comes up with a term, everybody starts butchering it with their own definitions and then you kind of lose the actual definition of it.",
+      "zh": "我认为 Martin Fowler 在某个时候在 2000 年代有这个术语叫语义扩散，这基本上意味着一个人提出了一个术语，每个人都开始用他们自己的定义来糟蹋它，然后你就会失去它的实际定义。",
+      "timestamp": "39:30",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "Building is really cheap today. Design is more expensive, really thinking about your product, what you're going to build. Is it going to really solve a pain point? Is what is way more valuable today?",
+      "zh": "如今构建真的非常便宜。设计更昂贵，真的在思考你的产品，你要构建什么。它真的会解决一个痛点吗？什么是如今更有价值的？",
+      "timestamp": "64:53",
+      "speaker": "Kiriti Badam"
+    },
+    {
+      "en": "And that kind of knowledge that you built across the organization or across your own lived experiences, I feel that pain is what translates into the moat of the company.",
+      "zh": "而你在整个组织中或你自己的生活经验中建立的那种知识，我觉得那种痛苦就是转化为公司护城河的东西。",
+      "timestamp": "73:40",
+      "speaker": "Aishwarya Reganti"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:18",
+      "speaker": "Aishwarya Reganti",
+      "en": "And one of them that most people tend to ignore is the non-determinism. You're pretty much working with a non-deterministic API as compared to traditional software.",
+      "zh": "其中一个大多数人倾向于忽略的是非确定性。与传统软件相比，你几乎是在与非确定性 API 打交道。"
+    },
+    {
+      "timestamp": "09:36",
+      "speaker": "Aishwarya Reganti",
+      "en": "So you don't know how the user might behave with your product, and you also don't know how the LLM might respond to that.",
+      "zh": "所以你不知道用户可能如何与你的产品互动，你也不知道 LLM 可能会如何回应。"
+    },
+    {
+      "timestamp": "10:12",
+      "speaker": "Aishwarya Reganti",
+      "en": "But every time you hand over decision-making capabilities or autonomy to agentic systems, you're kind of relinquishing some amount of control on your end.",
+      "zh": "但每次你将决策能力或自主权移交给智能体系统时，你都在某种程度上放弃了一些你的控制权。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Aishwarya Reganti",
+      "en": "So if you start with all of this on day one, it's incredibly hard to control the complexity.",
+      "zh": "所以如果你在第一天就开始做所有这些，控制复杂性是极其困难的。"
+    },
+    {
+      "timestamp": "20:51",
+      "speaker": "Aishwarya Reganti",
+      "en": "In all this advancements of the AI that we are seeing, one easy, slippery slope is to just keep thinking about complexities of the solution and forget the problem that you're trying to solve.",
+      "zh": "在我们看到的所有这些 AI 进展中，一个容易的、滑坡式的错误就是只考虑解决方案的复杂性，而忘记你试图解决的问题。"
+    },
+    {
+      "timestamp": "22:03",
+      "speaker": "Unknown",
+      "en": "Basically Matei Zaharia, and the folks at Databricks and it said about 74% or 75% of the enterprises that they had spoken to, their biggest problem was reliability.",
+      "zh": "基本上是 Matei Zaharia 和 Databricks 的人，他们说大约 74% 或 75% 的与他们谈过话的企业，它们最大的问题是可靠性。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Unknown",
+      "en": "But now with AI in the picture, those intuitions will have to be relearned and leaders have to be vulnerable to do that.",
+      "zh": "但现在有了 AI，这些直觉必须重新学习，领导者必须变得脆弱去做这件事。"
+    },
+    {
+      "timestamp": "27:25",
+      "speaker": "Unknown",
+      "en": "You can't have a bunch of engineers go and get buy-in from the leader if they just don't trust in the technology or if they have misaligned expectations about the technology.",
+      "zh": "你不能让一群工程师去获得领导者的支持，如果他们只是不信任这项技术，或者如果他们对技术有错位的期望。"
+    },
+    {
+      "timestamp": "30:33",
+      "speaker": "Unknown",
+      "en": "As of today, it's not about being the first company to have an agent among your competitors. It's about, have you built the right flywheels in place so that you can improve over time?",
+      "zh": "截至今天，这并不是关于成为竞争对手中第一个拥有智能体的公司。而是关于，你是否建立了合适的飞轮，以便你可以随着时间的推移而改进？"
+    },
+    {
+      "timestamp": "31:35",
+      "speaker": "Unknown",
+      "en": "I probably will go as far to say that if someone's selling you one click-agents, it's pure marketing.",
+      "zh": "我可能会甚至会说，如果有人向你兜售一键式智能体，那纯粹是营销。"
+    },
+    {
+      "timestamp": "32:53",
+      "speaker": "Unknown",
+      "en": "So he just has a list of two or three sources that he always looks at. And then he comes back with a bunch of questions and bounces it around with a bunch of AI experts to see what they think about it.",
+      "zh": "所以他只有两三个他总是查看的来源列表。然后他带着一堆问题回来，并与一群 AI 专家交流，看看他们对此的看法。"
+    },
+    {
+      "timestamp": "37:48",
+      "speaker": "Unknown",
+      "en": "So I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion.",
+      "zh": "所以我觉得评估很重要，生产监控很重要，但是只有其中一个能为你解决问题的这种观点，在我看来是完全不屑一顾的。"
+    },
+    {
+      "timestamp": "39:30",
+      "speaker": "Unknown",
+      "en": "I think Martin Fowler at some point had this term called semantic diffusion back in the 2000s, which kind of means that someone comes up with a term, everybody starts butchering it with their own definitions and then you kind of lose the actual definition of it.",
+      "zh": "我认为 Martin Fowler 在某个时候在 2000 年代有这个术语叫语义扩散，这基本上意味着一个人提出了一个术语，每个人都开始用他们自己的定义来糟蹋它，然后你就会失去它的实际定义。"
+    },
+    {
+      "timestamp": "47:13",
+      "speaker": "Aishwarya Reganti",
+      "en": "And we had to shut down the product because we were doing so many hot fixes and there was no way we could count all the emerging problems that were coming up.",
+      "zh": "而我们不得不关闭该产品，因为我们做了太多的热修复，而且我们无法计算所有出现的新兴问题。"
+    },
+    {
+      "timestamp": "52:15",
+      "speaker": "Aishwarya Reganti",
+      "en": "And then you're like, okay, fine. I could just merge that. And you go further and you see that there's also another section on the shoes that says for women and for men, and it's just not aggregated. It's not fixed for some reason.",
+      "zh": "然后你会说，好吧，行吧。我可以把它合并。然后你继续往下看，你会发现鞋子下面还有另一个部分，写着给女士和给男士，但这并没有被聚合在一起。由于某种原因，它没有被修复。"
+    },
+    {
+      "timestamp": "58:43",
+      "speaker": "Aishwarya Reganti",
+      "en": "Then the amount of information you gain is kind of very low and that's when you know you can actually go to the next stage.",
+      "zh": "那么你获得的信息量就非常低，那就是你知道你实际上可以进入下一阶段的时候。"
+    },
+    {
+      "timestamp": "65:53",
+      "speaker": "Unknown",
+      "en": "Building is really cheap today. Design is more expensive, really thinking about your product, what you're going to build. Is it going to really solve a pain point? Is what is way more valuable today?",
+      "zh": "如今构建真的非常便宜。设计更昂贵，真的在思考你的产品，你要构建什么。它真的会解决一个痛点吗？什么是如今更有价值的？"
+    },
+    {
+      "timestamp": "72:45",
+      "speaker": "Unknown",
+      "en": "And that kind of knowledge that you built across the organization or across your own lived experiences, I feel that pain is what translates into the moat of the company.",
+      "zh": "而你在整个组织中或你自己的生活经验中建立的那种知识，我觉得那种痛苦就是转化为公司护城河的东西。"
+    },
+    {
+      "timestamp": "74:35",
+      "speaker": "Unknown",
+      "en": "80% of so called AI engineers, AIPMs spend their time actually understanding their workflows very well. They're not building the fanciest and the most cool models or workflows around it.",
+      "zh": "80% 所谓的 AI 工程师、AIPM 实际上花时间很好地理解他们的工作流程。他们不是构建最花哨和最酷的模型或围绕它的工作流程。"
+    }
+  ]
+}

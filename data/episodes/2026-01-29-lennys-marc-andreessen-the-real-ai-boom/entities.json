@@ -1,0 +1,2600 @@
+{
+  "episode_id": "2026-01-29-lennys-marc-andreessen-the-real-ai-boom",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-01-29",
+  "tags": [
+    "AI 与宏观经济",
+    "职业转型",
+    "AI 编程",
+    "AI 教育",
+    "护城河与行业格局"
+  ],
+  "categories": [
+    "AI 编程",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "marc-andreessen",
+      "type": "person",
+      "role": "host",
+      "name": "Marc Andreessen",
+      "file": "Marc Andreessen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            89.52,
+            94.242
+          ],
+          "quote": "Today, my guest is Marc Andreessen, one of the most seminal figures in tech and in business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            176.308,
+            179.809
+          ],
+          "quote": "With that, I bring you Marc Andreessen after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            271.998,
+            276
+          ],
+          "quote": "Marc Andreessen, thank you so much for being here and welcome to the podcast.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            215.318,
+            220.059
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            220.479,
+            222.18
+          ],
+          "quote": "That's getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            276.768,
+            277.152
+          ],
+          "quote": "Awesome, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3092.25,
+            3095.835
+          ],
+          "quote": "Request a demo at datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3095.996,
+            3097.518
+          ],
+          "quote": "That's datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 是将沙子转化为思想的「哲学之石」，是在人口减少和经济停滞背景下恰好出现以维持经济增长的关键技术",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.06,
+            3.705
+          ],
+          "quote": "If we didn't have AI, we'd be in a panic right now about what's going to happen to the economy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 3,
+          "t": [
+            10.994,
+            13.557
+          ],
+          "quote": "We're going to have AI and robots precisely when we actually need them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 7,
+          "t": [
+            23.405,
+            24.608
+          ],
+          "quote": "AI is the philosopher stone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 9,
+          "t": [
+            30.141,
+            33.819
+          ],
+          "quote": "Just spent a lot of time with the most cutting edge AI forward founders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            38.382,
+            43
+          ],
+          "quote": "There's all this concern that young people, jobs are not going to be there for them, AI is replacing them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            56.942,
+            60.746
+          ],
+          "quote": "Every coder now believes they can also be a product manager and a designer because they have AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            80.742,
+            86.715
+          ],
+          "quote": "People who really want to improve themselves and develop their career should be spending every spare hour, in my view, at this point, talking to AI, being like, \"All right, train me up.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 27,
+          "t": [
+            111.248,
+            136.938
+          ],
+          "quote": "In this very special conversation, we chat about how unique and significant the moment that we are all living through right now is, what skills he's teaching his kids to thrive in the AI future, what happens to product managers, designers, and engineers in the coming years, where moats exist in AI, what the most AI native founders are doing differently, and so much more that is just scratching the surface of this very deep and important conversation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            186.631,
+            195.233
+          ],
+          "quote": "To thrive in the AI era, organizations need to adapt quickly, but many organization leaders struggle to answer pressing questions like, which tools are working?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            203.595,
+            214.898
+          ],
+          "quote": "With DX, companies like Dropbox, Booking.com, Adient, and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 46,
+          "t": [
+            237.145,
+            245.848
+          ],
+          "quote": "With Brex, you get high limit corporate cards, easy banking, high yield treasury, plus a team of AI agents that handle manual finance tasks for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 48,
+          "t": [
+            255.692,
+            259.734
+          ],
+          "quote": "With Brex's AI agents, you can move faster while staying in full control.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 75,
+          "t": [
+            373.213,
+            382.458
+          ],
+          "quote": "And so you've got all of these countries and industries where things are kind of increasingly upheaval, but you have AI as this kind of new technology that's going to really affect things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 84,
+          "t": [
+            412.841,
+            423.379
+          ],
+          "quote": "In terms of the AI piece, which is where a lot of people are trying to figure out what to do, what do you think isn't being priced in yet in terms of the impact AI is going to have on, say, the world or just people listening?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            461.295,
+            468.418
+          ],
+          "quote": "And the last 12 months, and especially even just the last three months have really proven that AI can really do... I mean, you're seeing it all now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            469.298,
+            471.239
+          ],
+          "quote": "AI is now developing new math theorems.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 94,
+          "t": [
+            473.18,
+            487.226
+          ],
+          "quote": "Over the holiday break, it feels like the AI coding thing really hit critical mass and the world's best programmers, including Linus Torvalds, for the first time over the holiday break basically said, \"Yeah, AI is now coding better than we can.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            490.727,
+            497.55
+          ],
+          "quote": "And I think we all assume that AI now is going to get really good at reasoning in any domain in which there are verifiable answers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 99,
+          "t": [
+            507.494,
+            520.34
+          ],
+          "quote": "I think the thing that is not well understood, I think a lot of people in the industry have kind of what I would describe as this one dimensional thing, which is, okay, as a result of the technology now working, AI just kind of sweeps the world and changes everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 112,
+          "t": [
+            600.956,
+            609.539
+          ],
+          "quote": "And so the AI thing is going to hit, but it's hitting an environment in which we have actually had almost no technological progress in the actual economy for a very long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 117,
+          "t": [
+            648.035,
+            651.837
+          ],
+          "quote": "And so AI is going to enter a world in which those two things are true.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            651.937,
+            658.8
+          ],
+          "quote": "And I think this is incredibly important because we actually need AI to work in order to get productivity growth up, which is what we need to get economic growth up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            659,
+            668.191
+          ],
+          "quote": "And we actually need AI to work because we're going to need machines to do all the jobs that we're not going to have people to do because we're literally going to depopulate the planet over the next 100 years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 125,
+          "t": [
+            698.923,
+            715.69
+          ],
+          "quote": "So I think the way to think about the impact of AI on, specifically, people as individuals, it's actually, a lot of people just focus on this kind of very, I would say, straightforward or overly simplistic view of just literally job losses, which we can talk about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            719.571,
+            726.614
+          ],
+          "quote": "So I think it's pretty clear that AI is going to take people who are good at doing things and it's going to make them very good at doing things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 130,
+          "t": [
+            733.677,
+            741
+          ],
+          "quote": "Anybody who's in a position where they need to write something, design something, write code or whatever, if they're pretty good at it today, they use AI and all of a sudden they're very good at it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 132,
+          "t": [
+            743.401,
+            750.663
+          ],
+          "quote": "And I think the way the education system at large is going to teach AI is going to be based hopefully a lot on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 136,
+          "t": [
+            785.175,
+            791.858
+          ],
+          "quote": "If you're very good at it and you can really harness AI, you can become spectacularly great and super productive.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            805.744,
+            825.315
+          ],
+          "quote": "And so I think, at the unit of N=1 of an individual kid, I think the question is, how do you get them into position where they're kind of this super empowered individual such that they're going to be really kind of deep in whatever it is they're going to do, but they're going to be deep in a way that's going to let them fully use the power of AI to be not just great, but to be spectacularly great?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            967.51,
+            989.558
+          ],
+          "quote": "And again, that's how I view AI for kids is like, okay, AI should be the ultimate lever on the world for a kid with agency to be able to say, \"Okay, I can actually be a primary contributor, whether that's I can be a primary contributor in everything from developing new areas of physics to writing code, to being an artist, to writing novels, whatever that thing is, I can fully participate in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1043.517,
+            1047.999
+          ],
+          "quote": "And now, we literally with AI have a technology that transfers sand into thought.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1058.684,
+            1061.986
+          ],
+          "quote": "And so AI, it is the philosopher stone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1068.81,
+            1081.058
+          ],
+          "quote": "And again, this is what we're doing with our 10-year-old, which is like, all right, primary thing that we want to make sure to do is, to make sure that he knows fully how to leverage and get benefit out of the philosopher stone, which is to say AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1253.256,
+            1266.378
+          ],
+          "quote": "AI provides the very real prospect of being able to do that, because obviously now, if you have a kid that's super interested in something and they can talk to an LLM about it and they can ask an infinite number of questions and they can get instantaneous feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1281.383,
+            1294.968
+          ],
+          "quote": "And so I think there's this massive opportunity for parents in many walks of life, with a little bit of time at focus, to be able to say, \" Okay, my kid's probably still going to go through a traditional education system, but I'm going to augment this with AI tutoring.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1305.653,
+            1312.055
+          ],
+          "quote": "And so I think the broad answer might be a hybrid approach with schools plus one-to-one tutoring through AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1312.175,
+            1324
+          ],
+          "quote": "You may have heard, there's this great new private school system called Alpha, in which everything I just described is kind of the basis of their philosophy, which is, it's a combination of in person schools and teachers, but it's also heavily based on AI and AI tutoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1337.701,
+            1343.806
+          ],
+          "quote": "It's interesting because there's all this concern that young people, jobs are not going to be there for them, AI is replacing them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1385.994,
+            1395.919
+          ],
+          "quote": "And so even if AI ticks up, even if AI triples productivity growth in the economy, which would be a massively big deal, it would take us back to the same level of job churn that was happening between 1870 and 1930.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1417.829,
+            1427.454
+          ],
+          "quote": "And so even if AI triples the pace of economic change in the economy, it's going to just translate to a much higher rate of economic growth, it's going to translate to a much higher rate of job growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1515.548,
+            1524
+          ],
+          "quote": "Is the key here that the timing kind of just works out, this population decrease, all these kind of have to line up for there not to be this massive job loss with AI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1524.98,
+            1528.962
+          ],
+          "quote": "Well, look, if we didn't have AI, we'd be in a panic right now about what's going to happen to the economy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1576.561,
+            1585.673
+          ],
+          "quote": "And so I would say the timing has worked out miraculously well in the sense of, we're going to have AI and robots precisely when we actually need them, to keep the economy from actually shrinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1616.518,
+            1620
+          ],
+          "quote": "If AI radically transforms everything overnight, then maybe let's play out the kind of utopian-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1640.21,
+            1647.994
+          ],
+          "quote": "And so the price of goods and services that are, whatever you're going to call it, affected by or commoditized by AI, the prices of those goods and services will collapse.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1664.362,
+            1676.886
+          ],
+          "quote": "So if AI is going to transform the economy as much as the, whatever, utopians or dystopians or whatever kind of thing that it will, the necessary economic calculation of what happens is massive productivity growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1686.889,
+            1689.15
+          ],
+          "quote": "So you're substituting in AI for human workers or whatever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1735.573,
+            1743.199
+          ],
+          "quote": "And so, the price of healthcare collapses, the price of housing collapses, the price of education collapses, the price of everything else collapses because of this incredible impact that AI is having.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1764.349,
+            1771.652
+          ],
+          "quote": "I mean, the optimistic part of me says, \"Yeah, maybe AI is that powerful, and maybe the rest of the economy can actually change to accommodate that, and maybe that'll happen.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1998.029,
+            2007.412
+          ],
+          "quote": "Again, this is also why I think that AI is not going to have as rapid... It's not going to be, again, this kind of utopian or dystopian view of everything changes overnight.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2035.44,
+            2040.602
+          ],
+          "quote": "And so let's take a great example: AI's impact on the healthcare system.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2041.262,
+            2046.064
+          ],
+          "quote": "By rights, AI is going to have a dramatic impact on the healthcare system, and in very positive ways.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2067.911,
+            2071.992
+          ],
+          "quote": "And so you show up as a kid and you're like, \"Wow, I've got this new technology to do AI medicine.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2111.31,
+            2122.858
+          ],
+          "quote": "And you can maybe say, optimistically, maybe the presence of the new magic technology of AI, maybe it causes us to revisit a lot of these assumptions for the first time in decades, to really say, \"Okay, is this really the world we want to live in?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2207.346,
+            2219.949
+          ],
+          "quote": "Specifically, the following, which is every coder now believes they can also be a product manager and a designer because they have AI, every product manager thinks they can be a coder and a designer, and then every designer knows they can be a product manager and a coder.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2220.91,
+            2228.031
+          ],
+          "quote": "And so, people in each of those roles now know or believe that with AI, they don't need the other two roles anymore.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2228.051,
+            2229.952
+          ],
+          "quote": "They can do that because they can have AI do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2230.612,
+            2236.534
+          ],
+          "quote": "And then of course, there's the real irony, which is all three of them are going to realize that AI can also be a better manager.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2249.557,
+            2256.039
+          ],
+          "quote": "Which is, AI is actually a pretty good... It's actually now a really good coder, it's actually now a really good designer, and it's also a really good product manager.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2267.002,
+            2274.725
+          ],
+          "quote": "Where if I'm a coder, step one is I need to make sure that I really understand AI coding, and what that means, and how coding is going to change in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2293.753,
+            2300.215
+          ],
+          "quote": "How do I become a coder that also then harnesses AI so that I can also be a great product manager, and I can also be a great designer?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2304.377,
+            2307.418
+          ],
+          "quote": "How do I make sure I can also do AI-based design?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2307.838,
+            2311.52
+          ],
+          "quote": "And the same thing for the designer, which is, \"How do I use AI to also become a coder, and also become a product manager?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2356.348,
+            2366.078
+          ],
+          "quote": "So if you're a master coder today and you don't ever get to the point where you figure out how to use AI to leverage your coding skills and do more, at some point you are going to hit an issue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2501.146,
+            2502.647
+          ],
+          "quote": "Get really good at AI coding, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2520.255,
+            2522.356
+          ],
+          "quote": "Or is it just, \"I tell the AI how to build products\"?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2522.416,
+            2529.82
+          ],
+          "quote": "It's like whatever that job is called, who even knows what it's going to be, but it's going to be incredibly important because the people doing that job are going to be orchestrating the AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2705.764,
+            2709.225
+          ],
+          "quote": "And then to your point, AI coding is the next layer on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2709.346,
+            2713.468
+          ],
+          "quote": "AI coding actually abstracts the way the process of actually writing the scripting code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2743.482,
+            2754.086
+          ],
+          "quote": "Their day job now is arguing with the AI bots to try to get them to write the right code, and then debug it and fix the problems, and change this back, and do all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2781.178,
+            2784.199
+          ],
+          "quote": "It's a 10-year old basically, who spends two hours at dinner arguing with an AI for fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2794.944,
+            2801.528
+          ],
+          "quote": "If it doesn't work, or if it's not doing what you expect, or it's not fast enough or whatever, you need to be able to understand the results of what the AI is giving you.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2831.628,
+            2838.376
+          ],
+          "quote": "But are human beings going to be involved in the coding process and overseeing the AI coding and all of that?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2852.204,
+            2855.325
+          ],
+          "quote": "I'm just going to have AI write the code, and it's going to generate whatever it does and that's fine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2855.365,
+            2861.228
+          ],
+          "quote": "And I'm going to be...\" If the goal is to be a mediocre coder, then just let the AI do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2861.828,
+            2864.97
+          ],
+          "quote": "The AI is going to be perfectly good in generating infinite amounts of mediocre code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2886.72,
+            2897.247
+          ],
+          "quote": "By the way, you also really deeply want to understand how the AI itself works, because you want to... If people understand how the AI works, they're clearly able to get more value out of it than somebody who doesn't understand how it works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2920.602,
+            2924.684
+          ],
+          "quote": "AI is your best friend at helping you learn all of that because it's like, \"Oh, I need to understand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2934.951,
+            2936.773
+          ],
+          "quote": "Okay, AI, let's spend 10 minutes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2941.316,
+            2947.44
+          ],
+          "quote": "So all of a sudden, you have this incredibly synergistic relationship with the AI, where it's also helping you get better at the same time that's doing a lot of work for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3116.541,
+            3126.666
+          ],
+          "quote": "So again, the task level of, like, \"Design the perfect icon,\" is going to be, all right, the AI's going to do that all day long.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3131.147,
+            3135.349
+          ],
+          "quote": "And by the way, there will still be some level of human icon design or whatever, but AI is going to get really good at that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3160.82,
+            3169.384
+          ],
+          "quote": "The job of designer will involve much more of those higher level, more important components, and then again, with AI doing a lot more of the underlying tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3189.552,
+            3191.313
+          ],
+          "quote": "He did it without AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3191.713,
+            3198.096
+          ],
+          "quote": "Now, a young designer tends to be like, \"Wow, if I really harness AI in a decade, I'm going to be like the best designer of the world's ever seen because it's not just going to be me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3320.7,
+            3325.203
+          ],
+          "quote": "And so again, and by the way, Hollywood, actually it's really funny, I've been spending a lot of time talking to Hollywood people about AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3335.389,
+            3341.193
+          ],
+          "quote": "Because the director is now thinking, \"Wow, I don't need the writer anymore because the AI can write the script and I don't need the actor anymore because I can have AI actors.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3342.213,
+            3346.416
+          ],
+          "quote": "The writer is saying, \"Well, I don't need the director because I can direct the movie and the AI can do the actors.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3348.878,
+            3352.64
+          ],
+          "quote": "I can have the AI direct the thing, I can have the AI write the thing and I'm just going to show up and do my performance.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3379.504,
+            3391.45
+          ],
+          "quote": "And if you think about the T, if you think about the T configuration, it's like, yeah, the breadth, the top of the T is like how many individual domains are you familiar enough with to be able to use the AI tools to be able to do really good work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3399.014,
+            3410
+          ],
+          "quote": "But if you're super deep on coding and you can use AI to do design and you can use AI to do product management, that's your T right there, and you're a triple threat at the top of the T, but with this level of technical grounding underneath that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3487.493,
+            3494.44
+          ],
+          "quote": "And yeah, your ability to not become one of those people is just titanically enhanced with AI as compared to anything we've ever seen before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3518.621,
+            3527.585
+          ],
+          "quote": "And again, I can't overstress the following, for anybody listening to this, the thing about AI that I think people are just not getting enough benefit out of yet is just it will teach you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3559.42,
+            3566.986
+          ],
+          "quote": "People who really want to improve themselves and develop their career should be spending every spare hour in my view at this point talking on AI, being like, \"All right, train me up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3622.307,
+            3633.195
+          ],
+          "quote": "So if you ask an AI, \"Write me this code,\" and then it does it and it comes back and it doesn't work right, if all you know is single function, I asked it and it gave me back something that's not good, what do you even do with that?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3694.054,
+            3699.377
+          ],
+          "quote": "And again, the great thing with AI is AI will happily sit there and explain all day long why it's doing what it's doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3705.08,
+            3712.63
+          ],
+          "quote": "By the way, this is a very fun thing where you can have one AI critique the other AI which is another thing which is you have one AI write the code, you have another AI debunk the code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3761.023,
+            3764.907
+          ],
+          "quote": "You spend a lot of time with the most cutting edge, AI-forward founders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3765.608,
+            3776.379
+          ],
+          "quote": "I'm curious what you see them do, how you see them, some way they operate that's maybe blowing your mind about how the future of starting a company looks, how the future of AI-forward companies look.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3788.186,
+            3793.209
+          ],
+          "quote": "I think layer one is they're thinking, \"All right, how does AI redefine the products themselves?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3804.855,
+            3813.819
+          ],
+          "quote": "Maybe it's the personal computer or the iPhone or the internet or now it's AI, and it's like, all right, is this a new capability that gets added to existing products.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3879.731,
+            3897
+          ],
+          "quote": "Okay, is AI a sort of a feature now that gets added to Photoshop to be able to do AI-based image editing, or do you just stop editing images entirely because you're using Nano Banana and all images are just being generated and it's just easier to just have AI generate a new image than it is to try to edit an old one?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3912.717,
+            3915.58
+          ],
+          "quote": "So that's kind of AI changing the definition of the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3916.38,
+            3921.543
+          ],
+          "quote": "I think the next layer is actually a lot of what we've already talked about which is AI changing the jobs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3922.824,
+            3938.414
+          ],
+          "quote": "And so it's a lot of what we already talked about, but, okay, if I'm a founder of a company and if I have room in my budget for 100 coders, how do I get those coders to be super-empowered AI coders, not the kind of coders I used to have, and if they're super-empowered AI coders, then does that mean, do I still need the 100?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3969.953,
+            3973.275
+          ],
+          "quote": "Because what the founder's doing is overseeing an army of AI bots.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4007.101,
+            4022.175
+          ],
+          "quote": "And so I think the most leading-edge founders are thinking of, okay, how do I reconstitute the actual very definition or idea of having a company and can you have a company that's literally basically just all AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 786,
+          "t": [
+            4028.1,
+            4045.893
+          ],
+          "quote": "And then there's the ultimate example of that which is can you have like autonomous AI economy stuff happening where you have AI bots on the blockchain or something that are basically out there functioning as a business and making money and just literally where the AI does all the work itself and just issues me dividends.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4074.07,
+            4083.916
+          ],
+          "quote": "It's hard for me to imagine actually a one-person billion-dollar company, even if AI is handling so much of your support because there's just so many random-edge cases that I'm just... like filling out forms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4116.205,
+            4122.596
+          ],
+          "quote": "A big question constantly in AI, the fact that everything's changing, just what's your guys' thesis on moats in AI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 830,
+          "t": [
+            4262.24,
+            4272.726
+          ],
+          "quote": "I'll just run this as a thought experiment and you can see what you think on this, but it's like, are AI models themselves defensible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4273.266,
+            4275.367
+          ],
+          "quote": "Is there a moat on AI models?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 841,
+          "t": [
+            4378.658,
+            4385
+          ],
+          "quote": "And so even at the level of LLMs or AI models, you can squint and make that argument either way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 943,
+          "t": [
+            4984,
+            4994.81
+          ],
+          "quote": "And then the full definition of singularity is it's a world in which human judgment is no longer really relevant because you get this self-improvement loop, the AI is improving itself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 944,
+          "t": [
+            4995.35,
+            5005.259
+          ],
+          "quote": "In a sort of race circle takeoff scenarios, you could see if this takeoff thing, where the AI's improving itself, and the machines are making decisions so much faster than people, and people are just sitting there watching the machine do its thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5017.1,
+            5026.719
+          ],
+          "quote": "But the prosaic definition of AGI that at least I think the industry purchases but it's kind of conversed on, and tell me if you agree with this, is when the AI could do every economically-relevant task as good as a person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 978,
+          "t": [
+            5169.112,
+            5176.239
+          ],
+          "quote": "And so, can you have a... And you already have people running these experiments to kind of do human-equivalent kind of IQ for existing AI models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 979,
+          "t": [
+            5177.18,
+            5182.953
+          ],
+          "quote": "And by the way, existing AI models are kind of testing around the 130, 140 level, which means they're going to get to the 160 level.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 981,
+          "t": [
+            5186.381,
+            5190.386
+          ],
+          "quote": "But I think we're going to have AI models relatively quickly that are going to be like 160, 180, 200, 250, 300.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5216.23,
+            5219.996
+          ],
+          "quote": "And then the performance, again, it goes back to like the AI coding thing that's happening.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 992,
+          "t": [
+            5228.692,
+            5231.557
+          ],
+          "quote": "So now we're going to have AI coders that are actually better coders than the best human coders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 994,
+          "t": [
+            5233.02,
+            5241.455
+          ],
+          "quote": "I think we're going to have AI doctors that are better than the best human doctors, I think we're going to have AI lawyers that are better than the best human lawyers, which actually is going to be very interesting to see, which we can talk about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            5579.188,
+            5595
+          ],
+          "quote": "I mean, yeah, just to state the obvious in AI, it's obviously your stuff, but also, like, the fact that Lex Fridman can have the world's leading... And any of you guys, there's a small handful of you guys who have access to these people, you could have the world's leading experts in the domain actually show up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            5688.849,
+            5699.878
+          ],
+          "quote": "And by the way, for all of the issues in Silicon Valley, I did the count once, I think AI is the ninth major technology platform in the history of Silicon Valley.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            5728.22,
+            5744
+          ],
+          "quote": "And the company town phenomenon where the company is, the industry, again, the indeterminate optimism, nobody had to sit and plan and say, \"Okay, in the 1990s Silicon Valley's going to do the internet, in the 2000s they're going to do the smartphone, in the 2010s they're going to do the cloud, in the 2020s they're going to do AI.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            5863.046,
+            5874.036
+          ],
+          "quote": "And then there's a third kind of element to it which is there's a company which is basically a loosely-disguised version of Meta if you read the backstory of it, which is building an AI data center on the outskirts of town.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            6043.724,
+            6046.426
+          ],
+          "quote": "Two is, I am just completely in love with all the AI stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            6107.911,
+            6113.496
+          ],
+          "quote": "It's incredible, it's like a voice transcription function, but you can actually talk to the AI model while you're doing voice transcription.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "productivity-growth",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产力增长 (productivity growth)",
+      "file": "生产力增长",
+      "primary": true,
+      "how_described": "本集将其定义为衡量技术对经济影响的数学表达，并指出过去 50 年美国的生产力增长实际上非常低，大约是 1940-1970 年间的一半",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            550.914,
+            563.94
+          ],
+          "quote": "And in particular, economists have a way of measuring the rate of technological change in the economy that is productivity growth, which we could talk about what that means, but basically, it's sort of the mathematical expression of the impact of technology on the economy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            564.2,
+            568.442
+          ],
+          "quote": "And productivity growth for the last 50 years has actually been very low, not very high.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            573.564,
+            592.532
+          ],
+          "quote": "And in fact, the pace of productivity growth, like in the US, is running at a half of what it... In my lifetime, in our lifetimes, it's been running at about half the pace that it ran between 1940 and 1970, and it's been running at about a third the pace that it ran between about 1870 to about 1940.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            651.937,
+            658.8
+          ],
+          "quote": "And I think this is incredibly important because we actually need AI to work in order to get productivity growth up, which is what we need to get economic growth up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1385.994,
+            1395.919
+          ],
+          "quote": "And so even if AI ticks up, even if AI triples productivity growth in the economy, which would be a massively big deal, it would take us back to the same level of job churn that was happening between 1870 and 1930.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1497.3,
+            1508.357
+          ],
+          "quote": "And so I think that combination of faster productivity growth, faster economic growth, and then slower population growth and less immigration actually means there's going to be much less of this kind of dystopian no jobs' thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1591.36,
+            1600.867
+          ],
+          "quote": "To get to the mass job loss thing that people are worried about on the other side of things, you'd have to look at far, far, far higher rates of productivity growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1600.987,
+            1611.454
+          ],
+          "quote": "You'd have to look at rates of productivity growth that are 10, 20, 30, 50% a year, something like that, which are orders of magnitude higher than we've ever had in an economy in the history of the planet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1625.163,
+            1629.945
+          ],
+          "quote": "You get to a much higher level of productivity growth, you get to much higher level of technological change.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1664.362,
+            1676.886
+          ],
+          "quote": "So if AI is going to transform the economy as much as the, whatever, utopians or dystopians or whatever kind of thing that it will, the necessary economic calculation of what happens is massive productivity growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1677.586,
+            1683.808
+          ],
+          "quote": "The consequence of massive productivity growth, what that literally means mechanically is more output requiring less input.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1783.037,
+            1790.98
+          ],
+          "quote": "This is just a straightforward mechanical process that plays itself out if you have higher rates of productivity growth, which are necessarily the results of higher rates of technological growth.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "one-on-one-tutoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "一对一辅导 (one-on-one tutoring)",
+      "file": "一对一辅导",
+      "primary": true,
+      "how_described": "本集称其为几个世纪以来公认的最优教育方式，Bloom 的 2 西格玛效应表明它能将学生从第 50 百分位提升到第 99 百分位，而 AI 让它首次在经济上变得可行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1161.495,
+            1175.44
+          ],
+          "quote": "And so I'll just give you the ultimate answer to that question, which is, it's been known for centuries that the ideal way to teach a kid at the unit of N=1, by far the ideal way to do it is with one-on-one tutoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1176.2,
+            1181.541
+          ],
+          "quote": "If you just have an individual kid and the goal is to maximize an individual kid, by far you get the best results with one-on-one tutoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1213.328,
+            1230.751
+          ],
+          "quote": "And basically, it turns out it's very hard to improve educational outcomes except there's one method that always does it, which is called the Bloom's 2 Sigma effect, which is there's one method of education that routinely raises student outcomes by two standards of deviation and will take a kid from the 50th percentile to the 99th percentile and that's one-on-one tutoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1246.014,
+            1252.495
+          ],
+          "quote": "But to your question, it's never been economically feasible for anybody other than the richest people in society to be able to provide one-on-one tutoring for kids.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "super-empowered-individual",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级赋能个体 (super empowered individual)",
+      "file": "超级赋能个体",
+      "primary": true,
+      "how_described": "本集用它描述那些在自己领域非常深入、同时利用 AI 横向扩展到其他领域（如编程+设计+产品管理）的极其稀缺的人才",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            763.668,
+            769.41
+          ],
+          "quote": "And so you kind of use the term, you think about the super empowered individual.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            805.744,
+            825.315
+          ],
+          "quote": "And so I think, at the unit of N=1 of an individual kid, I think the question is, how do you get them into position where they're kind of this super empowered individual such that they're going to be really kind of deep in whatever it is they're going to do, but they're going to be deep in a way that's going to let them fully use the power of AI to be not just great, but to be spectacularly great?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2261.8,
+            2265.982
+          ],
+          "quote": "And so again, this goes back to this idea of the super-empowered individual.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2290.532,
+            2293.713
+          ],
+          "quote": "But the other part of it is, \"Okay, how do I become that super-empowered individual?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2901.65,
+            2911.996
+          ],
+          "quote": "And so the super-empowered individual on the other end of this that wants to do great things with the new technology, yes, you 100% want to understand this thing all the way down the stack because you want to be able to understand what it's giving you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (AI coding)",
+      "file": "AI 编程",
+      "primary": true,
+      "how_described": "本集将其描述为编程抽象的下一层，顶尖程序员现在的工作变成编排十几个并行的编码机器人、整天跟 AI 争论让它写出正确的代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            473.18,
+            487.226
+          ],
+          "quote": "Over the holiday break, it feels like the AI coding thing really hit critical mass and the world's best programmers, including Linus Torvalds, for the first time over the holiday break basically said, \"Yeah, AI is now coding better than we can.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2267.002,
+            2274.725
+          ],
+          "quote": "Where if I'm a coder, step one is I need to make sure that I really understand AI coding, and what that means, and how coding is going to change in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2501.146,
+            2502.647
+          ],
+          "quote": "Get really good at AI coding, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2705.764,
+            2709.225
+          ],
+          "quote": "And then to your point, AI coding is the next layer on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2709.346,
+            2713.468
+          ],
+          "quote": "AI coding actually abstracts the way the process of actually writing the scripting code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2831.628,
+            2838.376
+          ],
+          "quote": "But are human beings going to be involved in the coding process and overseeing the AI coding and all of that?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5216.23,
+            5219.996
+          ],
+          "quote": "And then the performance, again, it goes back to like the AI coding thing that's happening.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集提到 Marc 10 岁的儿子在 Replit 上做 vibe coding 做游戏，花两小时跟 AI 争论觉得很好玩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 526,
+          "t": [
+            2772.394,
+            2775.075
+          ],
+          "quote": "And what I'm telling him is like, \"Look...\" And by the way, he loves vibe coding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2775.115,
+            2778.256
+          ],
+          "quote": "He's on Replit all of the time doing vibe coding, doing games.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            6025.949,
+            6038.72
+          ],
+          "quote": "And so he through no interference on my part discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed with Vibe coding games, and all kinds of things and literally will sit and do it for hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            6174.951,
+            6181.94
+          ],
+          "quote": "And so one of the fun things you can do with Vibe coding is you can say, \"Give me a Star Trek Next Generation user interface for whatever, this, that,\" or whatever.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "task",
+      "type": "concept",
+      "role": "concept",
+      "name": "任务 (task)",
+      "file": "任务",
+      "primary": true,
+      "how_described": "本集说工作是任务的捆绑，大家都在谈失业但真正应该关注的是任务变化，工作比单个任务存在得更久，举了高管从不动手打字到亲自发邮件的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            43.201,
+            46.692
+          ],
+          "quote": "Everybody wants to talk about job loss, but really, what you want to look at is task loss.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1427.834,
+            1437.058
+          ],
+          "quote": "And there'll be some level of task level and job level substitution that will take place, but that will be swamped by the macro effects of economic growth and innovation that will happen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2375.766,
+            2377.948
+          ],
+          "quote": "The atomic unit of what happens in the workplace is the task.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2383.693,
+            2389.918
+          ],
+          "quote": "Everybody wants to talk about job loss, but really, what you want to look at is task loss, the tasks changing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2392.24,
+            2394.801
+          ],
+          "quote": "The classic example of task changing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2395.201,
+            2400.884
+          ],
+          "quote": "Classic example of task changing was once upon a time, executives never used typewriters or personal computers themselves.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2454.226,
+            2461.489
+          ],
+          "quote": "And then the task set, ironically, of the executive, has expanded to do actually more of the clerical work themselves actually.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2630.986,
+            2636.028
+          ],
+          "quote": "And so the task of the programmer became, \"Do the 1s and 0s,\" and then that became punch cards.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2716.829,
+            2723.372
+          ],
+          "quote": "But on the other hand, it's like, \"Okay, this is the next layer of the task redefinition under the job of programmer.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3116.541,
+            3126.666
+          ],
+          "quote": "So again, the task level of, like, \"Design the perfect icon,\" is going to be, all right, the AI's going to do that all day long.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5017.1,
+            5026.719
+          ],
+          "quote": "But the prosaic definition of AGI that at least I think the industry purchases but it's kind of conversed on, and tell me if you agree with this, is when the AI could do every economically-relevant task as good as a person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 948,
+          "t": [
+            5027.18,
+            5036
+          ],
+          "quote": "The way the co-founder of Anthropic put it is, like, \"A basket of the most valuable economic tasks,\" so it's, like, 10, 15, not every single economically-valuable task.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 989,
+          "t": [
+            5220.036,
+            5222
+          ],
+          "quote": "Performance against task is going to get better also.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说孩子可以和 LLM 谈论感兴趣的话题、问无限数量的问题并获得即时反馈，让一对一辅导在经济上变得可行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1253.256,
+            1266.378
+          ],
+          "quote": "AI provides the very real prospect of being able to do that, because obviously now, if you have a kid that's super interested in something and they can talk to an LLM about it and they can ask an infinite number of questions and they can get instantaneous feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1267.378,
+            1270.479
+          ],
+          "quote": "And in fact, you can even tell an LLM, it's like, \"Teach me how to do the following.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3721.283,
+            3722.859
+          ],
+          "quote": "I think people call those LLM councils-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集以 AI 模型为例讨论护城河是否存在：一方面投入几十亿美元、需要稀缺工程师看起来应有护城河；但 ChatGPT 出来一年半内就有五家美国公司和五家中国公司做出同等产品，开源也追上来了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 831,
+          "t": [
+            4273.266,
+            4275.367
+          ],
+          "quote": "Is there a moat on AI models?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集说通俗定义是 AI 能像人一样好地完成所有经济相关任务，但人类智商因生物学限制封顶在约 160，机器没有这个限制，所以「人类同等水平」只会是一个脚注",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 934,
+          "t": [
+            4938,
+            4942.107
+          ],
+          "quote": "Do you think about AGI in shifting your investment thesis?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4942.188,
+            4949
+          ],
+          "quote": "Like, as we approach AGI and hit AGI, as an investor, how do you think about your investment thesis changing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4949,
+            4958.31
+          ],
+          "quote": "Yeah, so I've always kind of had a little bit of an issue... I've always kind of struggled with the concept of AGI because at least... Well, let's put it this way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4960.752,
+            4965.217
+          ],
+          "quote": "Which is, there's like the prosaic definition of AGI, and then there's like the cosmic definition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4975.329,
+            4980.496
+          ],
+          "quote": "And so, AGI is the moment where you enter the singularity which is to say where the world fundamentally changes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5017.1,
+            5026.719
+          ],
+          "quote": "But the prosaic definition of AGI that at least I think the industry purchases but it's kind of conversed on, and tell me if you agree with this, is when the AI could do every economically-relevant task as good as a person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 953,
+          "t": [
+            5049.488,
+            5054.396
+          ],
+          "quote": "And then I kind of feel like the kind of AGI definition that you just gave, I think it kind of understates what's going to happen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 957,
+          "t": [
+            5064.65,
+            5069.956
+          ],
+          "quote": "And so the way we say that is AGI always is the definition you gave, the definition I gave.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集称 ChatGPT 几乎肯定比你今天的医生更好，但它无法获得行医执照，不能替代医生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            430.523,
+            435.125
+          ],
+          "quote": "There was a ChatGPT moment three years ago.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            435.165,
+            438.086
+          ],
+          "quote": "By the way, only three years ago, was the ChatGPT moment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2076.454,
+            2088.678
+          ],
+          "quote": "And I think a lot of consumers, by the way... I see this in my life, and you'll probably see this in your life also, which is ChatGPT is almost certainly a better doctor than your doctor today, but ChatGPT can't get a license to practice medicine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2768.452,
+            2772.374
+          ],
+          "quote": "He's using Claude, and ChatGPT, Copilot, and all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4325.5,
+            4357.371
+          ],
+          "quote": "The other side of it is if you had told me three years ago that in the Christmas of ChatGPT that within basically a year to year and a half there would be five other American companies that would have basically exactly capable products, and then there would be another five companies out of China that would have exactly capable products, and then there would additionally be open source that was basically the same, I would have been like, \"Wow, the thing that seemed like it was black magic all of a sudden has become like commoditized really fast,\" which by the way, is exactly what happened.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "khan-academy",
+      "type": "company",
+      "role": "concept",
+      "name": "Khan Academy",
+      "file": "Khan Academy",
+      "primary": false,
+      "how_described": "本集提到它在非营利方面大力推动 AI 辅导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1301.911,
+            1304.612
+          ],
+          "quote": "Khan Academy, on the nonprofit side, has a big push to do this.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "alpha",
+      "type": "company",
+      "role": "concept",
+      "name": "Alpha",
+      "file": "Alpha",
+      "primary": false,
+      "how_described": "本集提到这是一个新私立学校系统，其哲学基础是当面学校老师结合 AI 和 AI 辅导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1312.175,
+            1324
+          ],
+          "quote": "You may have heard, there's this great new private school system called Alpha, in which everything I just described is kind of the basis of their philosophy, which is, it's a combination of in person schools and teachers, but it's also heavily based on AI and AI tutoring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            5620.909,
+            5627.439
+          ],
+          "quote": "And so I think there's actually just tremendous amounts of alpha in listening to the world's leading experts in the space who actually just show up and talk about what they're doing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Marc 的儿子在使用 Claude，以及 Claude Code 在一周半内开发出 Cowork",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            2768.452,
+            2772.374
+          ],
+          "quote": "He's using Claude, and ChatGPT, Copilot, and all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4532.931,
+            4535.92
+          ],
+          "quote": "And remember what they said of Cowork, which is Claude Code worked Cowork in a week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4539.16,
+            4546.744
+          ],
+          "quote": "Well, and there's two ways looking at that which is like, \"Wow, that's really...\" I mean, obviously that's really impressive that Claude Code was able to build Cowork in a week and a half.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4594.209,
+            4601.193
+          ],
+          "quote": "In six months, and we've seen this happen before, is Claude Code going to get lapped the same way that GitHub Copilot got lapped?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说它是一个 Claude wrapper、一个 agent harness，在一周半内开发出了 Cowork，既说明 AI 编程惊人地强，也说明这种产品的进入壁垒可能很低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4532.931,
+            4535.92
+          ],
+          "quote": "And remember what they said of Cowork, which is Claude Code worked Cowork in a week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4539.16,
+            4546.744
+          ],
+          "quote": "Well, and there's two ways looking at that which is like, \"Wow, that's really...\" I mean, obviously that's really impressive that Claude Code was able to build Cowork in a week and a half.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4594.209,
+            4601.193
+          ],
+          "quote": "In six months, and we've seen this happen before, is Claude Code going to get lapped the same way that GitHub Copilot got lapped?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "concept",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": false,
+      "how_described": "本集说它由 Claude Code 在一周半内开发出来，引发了对产品进入壁垒有多高的讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 863,
+          "t": [
+            4501.38,
+            4501.741
+          ],
+          "quote": "Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 864,
+          "t": [
+            4529.802,
+            4532.751
+          ],
+          "quote": "Cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4532.931,
+            4535.92
+          ],
+          "quote": "And remember what they said of Cowork, which is Claude Code worked Cowork in a week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4539.16,
+            4546.744
+          ],
+          "quote": "Well, and there's two ways looking at that which is like, \"Wow, that's really...\" I mean, obviously that's really impressive that Claude Code was able to build Cowork in a week and a half.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 870,
+          "t": [
+            4548.585,
+            4554.909
+          ],
+          "quote": "The other way to look at it is Cowork was developed in a week and a half.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4576.3,
+            4586.645
+          ],
+          "quote": "And so every other model company, I'm sure, you'd have to expect, is sitting there being like, \"Okay, obviously we need to build an Asian artist and then obviously we need to build a Cowork thing for regular people.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "concept",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到 Marc 10 岁的儿子完全迷上了 Replit，在上面做 vibe coding 做游戏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            155.503,
+            172.827
+          ],
+          "quote": "And if you become an insider subscriber of my newsletter, you get a year free of over 20 incredible products, including a year free of Lovable, Replit, Bolt, Gamma, Innate and Linear, Superhuman, Dev and PostHog, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, Chappy, RD, MOB and Stripe Atlas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2775.115,
+            2778.256
+          ],
+          "quote": "He's on Replit all of the time doing vibe coding, doing games.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            5991.112,
+            5995.696
+          ],
+          "quote": "So one is my 10-year-old, I have, my 10-year-old is 100% obsessed with Replit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            6025.949,
+            6038.72
+          ],
+          "quote": "And so he through no interference on my part discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed with Vibe coding games, and all kinds of things and literally will sit and do it for hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            6130.822,
+            6134.65
+          ],
+          "quote": "Subscribers of my newsletter get a year free of Replit and Whisper Flow, so there we go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            6136.474,
+            6138.759
+          ],
+          "quote": "What's the most memorable thing your son's built with Replit?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "type": "company",
+      "role": "concept",
+      "name": "DeepSeek",
+      "file": "DeepSeek",
+      "primary": false,
+      "how_described": "本集说它横空出世，基本上是重新实现美国大实验室的很多想法并有一些原创想法，说明大实验室之间可能没有太多秘密",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            4368.214,
+            4377.638
+          ],
+          "quote": "Now you've got, fully in the game, you've got Google and you've got Anthropic and you've got xAI and you've got Meta and you've got all these other companies that are... and then DeepSeek and Kimi and all these other Chinese companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4627.648,
+            4639.096
+          ],
+          "quote": "And then again, evidence of that is DeepSeek came out of left field and basically was like a re-implementation of a lot of the ideas under American big labs and had some original ideas of its own.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "concept",
+      "name": "a16z",
+      "file": "a16z",
+      "primary": false,
+      "how_described": "本集提到它是 Marc 所在的风投公司，采用了不确定乐观主义的策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 905,
+          "t": [
+            4775.46,
+            4797.648
+          ],
+          "quote": "I think there's a lot to Peter's framework, but the way I would describe it is I think maybe if he and I disagree with part of that it would be I think the indeterminate optimism is a stronger phenomenon than at least I think he's historically represented it as, and I would put myself firmly in the indeterminate optimist category, and that's the strategy that we have at a16z which is... and the reason for that is hopefully it's not so much wishful thinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4797.688,
+            4814.513
+          ],
+          "quote": "It's more, no, the indeterminate optimism of venture capital or the indeterminate optimism of a16z or Silicon Valley is actually very specific which is there are these extremely bright and capable people, like Elon and many others, who are founders and kind of product creators.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1106,
+          "t": [
+            5783.092,
+            5785.016
+          ],
+          "quote": "This is a16z if people don't know him.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1211,
+          "t": [
+            6239.181,
+            6242.434
+          ],
+          "quote": "Well link to that, I think it's just youtube.com/a16z, something like that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "concept",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": false,
+      "how_described": "本集提到 Marc 的儿子在使用 Copilot，以及 GitHub Copilot 曾被后来者超越的历史",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            2768.452,
+            2772.374
+          ],
+          "quote": "He's using Claude, and ChatGPT, Copilot, and all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4594.209,
+            4601.193
+          ],
+          "quote": "In six months, and we've seen this happen before, is Claude Code going to get lapped the same way that GitHub Copilot got lapped?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "company",
+      "role": "concept",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "本集提到 Marc 在晚宴上喜欢拿出带 Bad Rudy 的 Grok，那是 Grok 应用里一个满嘴脏话的浣熊头像",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1166,
+          "t": [
+            6050.869,
+            6063.72
+          ],
+          "quote": "My favorite party trick at dinner parties now is to pull out Grok with Bad Rudy, which is, if you've seen, it's a foul-mouthed raccoon avatar in the OS Grok app.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sesame",
+      "type": "company",
+      "role": "concept",
+      "name": "Sesame",
+      "file": "Sesame",
+      "primary": false,
+      "how_described": "本集提到它是 a16z 投资的公司，去年因非常亲密的情感类语音体验而爆红",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1168,
+          "t": [
+            6066.484,
+            6076.197
+          ],
+          "quote": "We have this company, Sesame, that they went viral last year for these just incredibly, like, intimate emotional kind of voice experiences.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "whisper-flow",
+      "type": "company",
+      "role": "concept",
+      "name": "Whisper Flow",
+      "file": "Whisper Flow",
+      "primary": false,
+      "how_described": "本集说它是手机上的语音转录应用，工作得好得惊人，还可以在转录时与 AI 模型对话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1174,
+          "t": [
+            6098.763,
+            6106.089
+          ],
+          "quote": "There's this app on my phone now called Whisper Flow, which is voice transcription, which works like staggeringly well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            6130.822,
+            6134.65
+          ],
+          "quote": "Subscribers of my newsletter get a year free of Replit and Whisper Flow, so there we go.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "llm-councils",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 议会 (LLM councils)",
+      "file": "LLM 议会",
+      "primary": false,
+      "how_described": "本集提到人们这样称呼让一个 AI 写代码、另一个 AI 挑错、让它们互相对抗的做法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 733,
+          "t": [
+            3721.283,
+            3722.859
+          ],
+          "quote": "I think people call those LLM councils-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bloom-s-2-sigma-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bloom 的 2 西格玛效应 (Bloom's 2 Sigma effect)",
+      "file": "Bloom 的 2 西格玛效应",
+      "primary": false,
+      "how_described": "本集说这是一种教育方法能例行公事地提高学生成果两个标准差，把孩子从第 50 百分位带到第 99 百分位，那就是一对一辅导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1213.328,
+            1230.751
+          ],
+          "quote": "And basically, it turns out it's very hard to improve educational outcomes except there's one method that always does it, which is called the Bloom's 2 Sigma effect, which is there's one method of education that routinely raises student outcomes by two standards of deviation and will take a kid from the 50th percentile to the 99th percentile and that's one-on-one tutoring.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "philosopher-stone",
+      "type": "concept",
+      "role": "concept",
+      "name": "哲学之石 (philosopher stone)",
+      "file": "哲学之石",
+      "primary": false,
+      "how_described": "本集说早期科学家如牛顿痴迷的炼金术概念是将铅变成金，而 AI 是真正的哲学之石，将沙子转化为思想",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            23.405,
+            24.608
+          ],
+          "quote": "AI is the philosopher stone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1028.732,
+            1040.876
+          ],
+          "quote": "He spent decades trying to figure out this thing called the philosopher stone, which would be basically the machine or the process that would be able to transmute the common thing into the rare thing, lead into gold, and he never figured it out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1058.684,
+            1061.986
+          ],
+          "quote": "And so AI, it is the philosopher stone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1068.81,
+            1081.058
+          ],
+          "quote": "And again, this is what we're doing with our 10-year-old, which is like, all right, primary thing that we want to make sure to do is, to make sure that he knows fully how to leverage and get benefit out of the philosopher stone, which is to say AI.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "complex-adaptive-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "复杂适应系统 (complex adaptive system)",
+      "file": "复杂适应系统",
+      "primary": false,
+      "how_described": "本集说 AI 行业是一个复杂适应系统，技术本身、法律和监管、创业者的选择、资本可用性都是变量，现在断言行业结构很危险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 847,
+          "t": [
+            4426.923,
+            4430.005
+          ],
+          "quote": "The way I think about this kind of structurally is it's a complex adaptive system.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "indeterminate-optimism",
+      "type": "concept",
+      "role": "concept",
+      "name": "不确定乐观主义 (indeterminate optimism)",
+      "file": "不确定乐观主义",
+      "primary": false,
+      "how_described": "本集引用 Peter Thiel 的框架，说不确定乐观主义者认为世界会变好但无法解释原因；Marc 把自己归入此类，说 VC 的策略是让尽可能多的确定的乐观主义创始人去实验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 899,
+          "t": [
+            4720.667,
+            4729.951
+          ],
+          "quote": "And so he always argued that Silicon Valley is characterized by too much what he calls indeterminate optimism.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4775.46,
+            4797.648
+          ],
+          "quote": "I think there's a lot to Peter's framework, but the way I would describe it is I think maybe if he and I disagree with part of that it would be I think the indeterminate optimism is a stronger phenomenon than at least I think he's historically represented it as, and I would put myself firmly in the indeterminate optimist category, and that's the strategy that we have at a16z which is... and the reason for that is hopefully it's not so much wishful thinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4797.688,
+            4814.513
+          ],
+          "quote": "It's more, no, the indeterminate optimism of venture capital or the indeterminate optimism of a16z or Silicon Valley is actually very specific which is there are these extremely bright and capable people, like Elon and many others, who are founders and kind of product creators.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            5728.22,
+            5744
+          ],
+          "quote": "And the company town phenomenon where the company is, the industry, again, the indeterminate optimism, nobody had to sit and plan and say, \"Okay, in the 1990s Silicon Valley's going to do the internet, in the 2000s they're going to do the smartphone, in the 2010s they're going to do the cloud, in the 2020s they're going to do AI.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1093,
+          "t": [
+            5744.08,
+            5757.76
+          ],
+          "quote": "It's just, right, the indeterminate optimism of ecosystem flexibility of the ecosystem that they Silicon Valley could morph into all these categories, and again, maybe a testimony to indeterminate optimism.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

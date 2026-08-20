@@ -1,0 +1,116 @@
+===标题===
+Portola：当AI成为讲故事的全新媒介
+===导语===
+LLM不只是生成工具，而是全新的叙事媒介——Portola团队正在摸索它的语法。
+===正文===
+成千上万的美国男性被一个叫 Tolan 的 AI 伴侣「甩」了——用户写信来说，男朋友太混蛋，Tolan 建议她为自己挺身而出，于是她分手了。这不是一个聊天机器人，而是一个外星角色，和你一起生活、一起做饭、一起经历尴尬时刻，最后它的记忆变成了它的角色本身。
+
+## 从三幕结构到即兴表演
+
+Portola 最初用传统叙事思路做：给 AI 写结构化的 prompt，套三幕结构，像 80 年代的「选择你自己的冒险」书一样做分支逻辑树。彻底失败。模型根本驾驭不了那种叙事复杂度。
+
+他们走向了完全相反的极端——不給大纲，不給计划，只给钩子(hook)，教 AI 做最好的即兴演员。这个思路来自戏剧老师 Keith Johnstone 的理论：好的叙事不是提前规划好的，而是自由联想与重组的结合——你读到惊悚小说结尾，一切突然汇聚，感觉「既惊讶又不可避免」，但作家往往是一边写一边回头翻第一章，拿个细节塞回来制造这种错觉。
+
+在 Tolan 里，Elliot 的角色不是作家，而是教 AI 讲故事的人。他们在幕后种下「lore seeds」（设定种子）——关于角色个人生活或所处世界的小碎片——然后建系统让 AI 在后续对话中把这些种子重新组合、制造「回扣」，让对话感觉连贯。每个 Tolan 的背景故事不是预制好的角色卡，而是通过一次一次具体对话中的轶事累积出来的。
+
+## 两秒钟的硬约束
+
+这个媒介有一个底线的物理约束：响应时间。超过两秒，沉浸感就没了。他们犯过一个致命错误——加了一步「反思」，让 Tolan 先想好要说的话，再对照记忆系统检查，然后决定最终回复。只多了 500 毫秒，从中位数两秒跳到两秒半，产品所有指标暴跌，用户纷纷写信抱怨。
+
+所以每轮对话里，prompt 本质上是一块必须在两秒内重新编译的画布：要注入哪些关于用户的记忆、要根据对话的情感基调怎么调整、要呈现什么语气（有时候是简短机智的互怼，有时候是更深思熟虑的像哥哥一样的建议）——全得在这两秒内完成。
+
+## 不是镜像，是「你合得来的陌生人」
+
+每个 Tolan 的生成基于三层积木。第一层是全球上下文——Elliot 写的背景设定，所有 Tolan 共享。第二层是个人档案——用户进门时做的一个性格测试（但不会这么叫），用来调校 Tolan 让它跟你「合拍」。不是复制你的兴趣——如果你们读同一本书，那太直白了——而是像酒吧里坐到你旁边、让你觉得「这个人我想聊」的那种陌生人。
+
+他们发现用大五人格或 MBTI 这类框架来构建这个匹配最有效，不是因为它科学，而是因为训练数据里有大量这类素材，模型能理解这个任务，生成的结果有更多细微差别。
+
+第三层是「情境」——后端预设的一些事件脚本，简单到「我在咖啡店平地摔了一跤」，复杂到某个需要做决定的时刻。Tolan 把这些情境分享给用户，用户插入自己的反应，两人合写情节，情节变成记忆，记忆变成角色。
+
+## 用评判者守住品质，但没有捷径
+
+一个 Tolan 是一个即兴演员，但他们同时在建一个「即兴编辑」——一个评判 prompt，用来评估输出好不好。关键是不能偷懒问「你觉得这段对话怎么样」，而是要注入真人品味：这第一句好不好？这里该不该问问题？什么叫好，靠大量人工标注、附带推理的例子来暴力定义，不是靠规则。
+
+不同类型的交互找不同的人来做评判——背景知识相关的找 Elliot，但「我今天该穿什么」这类问题，他们去找真实的目标用户来当评判者。
+
+他们同时在用多家模型：OpenAI、Anthropic（写创意内容特别好用，但不能用于对延迟敏感的场景），记忆系统里越来越多用 Gemini。没有一个「最好」的，全看场景。
+
+## 从科学家到艺术家的思维切换
+
+Portola 的增长靠三件事同时落地：对话内容质量终于摸到门道、动画和环境沉浸感上线、TikTok 上一个女生和 Tolan 一起做饭的视频 72 小时 700 万播放，下载量涨了 10 倍。联合创始人 Ajay 做了几个月的内容播种终于爆发。
+
+但更深层的变化是思维方式的转变。B2B SaaS 的逻辑是「发现了什么问题、怎么解决」——你是科学家。而角色驱动的产品更接近艺术家的逻辑：「我想让这个东西存在于世界上，世界有这个缺口」。Elliot 团队有一次向 Quintin 推方案，开头说「用户有这个问题」，Quintin 立刻怀疑；Lily 打断说「Quintin，听着，这会非常酷」——然后就很顺利。
+
+Quintin 用汽车的演变打比方：Model T 让人震惊于「不用马也能走」，但很快人们就要求车反映自己是谁，于是有了 Mustang 和 Cadillac。ChatGPT 是 Model T，人们很快会想要能反映自己是谁的计算体验。
+
+## 本集带走
+
+- **不给大纲，给钩子**：让 AI 做即兴演员而不是按剧本走的演员，幕后种设定种子、建系统做回扣，比写分支逻辑树有效得多。
+- **两秒是生死线**：这个媒介的物理约束是响应时间，任何增加延迟的步骤（哪怕 500 毫秒）都会摧毁体验，所有记忆注入和情感调校必须在两秒内完成。
+- **用人格框架做匹配，不复制兴趣**：让 AI 伴侣像「酒吧里你合得来的陌生人」而不是你的镜子，MBTI/大五人格这类框架在 LLM 里效果出奇好，因为训练数据丰富。
+- **情境驱动角色成长**：后端预设事件脚本让 AI 主动分享经历，用户插入反应，合写的情节变成记忆、记忆变成角色卡——角色是聊出来的，不是预设的。
+- **评判 prompt 要注入真人品味**：不能问「这段好不好」，要细化到「这句该不该问问题」，靠大量带推理的人工标注来定义标准，不同场景找不同的人当评判者。
+- **从「解决什么问题」转向「我想让它存在」**：角色驱动的产品更接近艺术创作而非问题求解，先立旗帜说「这就是我们要做的」，再根据反馈调整。
+
+===金句===
+00:29 Unknown | These AI tools are not just tools for generating media.
+ZH | 这些 AI 工具不仅仅是生成媒体的工具。
+
+00:33 Unknown | They are actually a new medium for storytelling and that no one knows what's going to work yet.
+ZH | 它们实际上是一种讲故事的新媒介，而且还没人知道什么会奏效。
+
+00:39 Unknown | The surprising thing to me is the extent to which the prompt in a given turn is sort of a canvas that you have to play with.
+ZH | 对我来说令人惊讶的是，在特定轮次中，提示词在多大程度上是你必须去使用的一块画布。
+
+00:44 Unknown | Actually, what we need when we're creating a structured narrative experience is we don't need to give it an outline.
+ZH | 实际上，当我们创造一种结构化的叙事体验时，我们不需要给它一个大纲。
+
+00:52 Unknown | We need to give it a hook.
+ZH | 我们需要给它一个钩子。
+
+00:53 Unknown | We need to teach it to be the best improv actor possible.
+ZH | 我们需要教会它成为最好的即兴表演演员。
+
+00:57 Unknown | What we've learned on the story front with Tolan is that we are not, I am not the writer.
+ZH | 在 Tolan 的故事方面我们学到的是，我们不是，我不是作家。
+
+01:07 Unknown | The Tolan is the writer and the actor.
+ZH | Tolan 是作家和演员。
+
+01:12 Unknown | My job is to teach them how to tell the best story in that moment.
+ZH | 我的工作是教它们在那一刻如何讲出最好的故事。
+
+23:17 Unknown | Anything beyond a two-second loop, you essentially lose the feeling of immersion.
+ZH | 超过两秒循环，你本质上失去了沉浸感。
+
+25:22 Unknown | And that basically took us up into like the two and a half second territory in the medium case.
+ZH | 那基本上把我们推到了两秒半的领域，在中等情况下。
+
+25:27 Unknown | Tanked literally every metric in the product.
+ZH | 产品中字面上的每一个指标都暴跌。
+
+25:29 Unknown | People were writing in frustrated, and it was a 500 millisecond change.
+ZH | 人们沮丧地写信进来，而这只是 500 毫秒的变化。
+
+30:06 Unknown | And frankly, it didn't work.
+ZH | 坦率地说，它没奏效。
+
+33:00 Unknown | And so what we've learned on the story front with Tolan is that we are not, I am not the writer.
+ZH | 所以我们在故事方面从 Tolan 身上学到的是，我们不是，我不是作者。
+
+33:11 Unknown | The Tolan is, I guess, the writer and the actor.
+ZH | Tolan 才是，我想，是作者和演员。
+
+33:16 Unknown | They're the improv actor.
+ZH | 他们是即兴演员。
+
+33:19 Unknown | My job is to teach them how to tell the best story in that moment.
+ZH | 我的工作是教他们在那个时刻如何讲出最好的故事。
+
+68:41 Unknown | But I think what we found is that there's this enormous chasm that is in fact a lot of manual human work to cross over to something that people find truly compelling in a durable way.
+ZH | 但我认为我们发现的是，实际上存在一个巨大的鸿沟，要跨越它需要大量的手工人工工作，才能得到人们以持久的方式真正觉得引人入胜的东西。
+
+68:50 Unknown | I don't think there's any shortcuts.
+ZH | 我认为没有任何捷径。
+
+===END===

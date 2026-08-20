@@ -1,0 +1,1142 @@
+{
+  "episode_id": "2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-01-15",
+  "tags": [
+    "社交礼仪",
+    "创业者软技能",
+    "富足心态",
+    "低心率",
+    "硅谷文化"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sam-lessin",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Lessin",
+      "file": "Sam Lessin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            58.641,
+            64.488
+          ],
+          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 38,
+          "t": [
+            135.803,
+            139.206
+          ],
+          "quote": "With that, I bring you Sam Lessin after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1388,
+          "t": [
+            5141.842,
+            5142.943
+          ],
+          "quote": "I'm Sam Lessin.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            199.111,
+            208.476
+          ],
+          "quote": "Check it out at 10web.io/lenny and use code Lenny for exclusive free credits and 30% off API or white labeled solutions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            208.936,
+            215.38
+          ],
+          "quote": "That's the number 10web.io/lenny, vibe coding platform as an API.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 56,
+          "t": [
+            251.069,
+            258.875
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny, that's getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            679.312,
+            687.277
+          ],
+          "quote": "You want to repeat names back is a really, really valuable thing to think about when you're meeting someone and say, \"Hey, Lenny, it's great to meet you.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            861.882,
+            866.486
+          ],
+          "quote": "The etiquette is you say, \"Lenny, please meet my wife, Jessica.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            876.973,
+            882.658
+          ],
+          "quote": "And then you can kind of figure out how to frame it up so that you then Lenny extends your hand and say, \"It's really nice to meet you, Jessica.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1188.383,
+            1192.105
+          ],
+          "quote": "The person walks across the room someone else is like, \"Hey, you really should talk to Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1354.26,
+            1359.306
+          ],
+          "quote": "Well, again, Lenny, you and I probably use this all the time, I bet, because I honestly, again, we go by name, face, whatever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            4207,
+            4207
+          ],
+          "quote": "Except Lenny's Newsletter, but keep going.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            4210.285,
+            4211.107
+          ],
+          "quote": "Except Lenny's Newsletter.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "type": "company",
+      "role": "company",
+      "name": "Calendly",
+      "file": "Calendly",
+      "primary": false,
+      "how_described": "本集说 Calendly 是一种不尊重人的日程安排方式，资历浅或没那么忙的一方默认应该问对方什么时候有空然后自己去凑，而不是甩一个 Calendly 链接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 797,
+          "t": [
+            2968,
+            2972.023
+          ],
+          "quote": "Oh, well, I think I'd like to say that I'm fairly famous for hating Calendly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2978.689,
+            2984.413
+          ],
+          "quote": "I got messages from the board because I went on this diatribe about how much I hate Calendly and how disrespectful it is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 812,
+          "t": [
+            3011.018,
+            3013
+          ],
+          "quote": "I really strongly believe the default should not be Calendly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3188.742,
+            3192.112
+          ],
+          "quote": "The Calendly stuff, I feel like that's its own separate book of Calendly Etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3195,
+            3199.799
+          ],
+          "quote": "Calendly is one of my favorite episodes of going hyperviral on something hilarious.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3200.682,
+            3202.848
+          ],
+          "quote": "So one thing that Calendly does is you can embed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3256.421,
+            3265.419
+          ],
+          "quote": "The other flaw with Calendly, I've realized someone once figured out my Calendly URL and just booked a meeting with me, like a founder wanting to pitch me, and it was on my calendar.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 875,
+          "t": [
+            3290.522,
+            3291.843
+          ],
+          "quote": "Well, one last question with Calendly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3291.863,
+            3304.136
+          ],
+          "quote": "Something I try to do, curious to get your take is like, okay, someone want a founder, I'm meeting with a founder and the way I approach it is like, okay, do you have a Calendly or something I could use to book a meeting with you?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "slow-ventures",
+      "type": "company",
+      "role": "company",
+      "name": "Slow Ventures",
+      "file": "Slow Ventures",
+      "primary": false,
+      "how_described": "本集提到 Slow Ventures 是 Sam Lessin 所在的风险投资公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            58.641,
+            64.488
+          ],
+          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1387,
+          "t": [
+            5139,
+            5140.982
+          ],
+          "quote": "Look, our venture firm is called Slow Ventures, slow.co.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集提到 Sam 卖公司给 Airbnb 时，团队刻意跟对方的 EA 和办公室经理搞好关系，因为守门人喜欢你事情就顺",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 838,
+          "t": [
+            3134.12,
+            3149.779
+          ],
+          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集提到 Sam Lessin 曾在 Facebook 工作了很长时间，以及 Google Plus 推出后 Facebook 黑客马拉松做了'迦太基必须毁灭'的海报",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            58.641,
+            64.488
+          ],
+          "quote": "Today, my guest is Sam Lessin, partner at Slow Ventures, previous VP of Product at Facebook and two-time founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 263,
+          "t": [
+            960.215,
+            965.319
+          ],
+          "quote": "I have this whole backstory, which is part ... and I worked at Facebook for a long time, was really into it early on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1339,
+          "t": [
+            4952.901,
+            4961.345
+          ],
+          "quote": "No, but I will say that I have hanging in my gym, which I love from the Facebook Hackathon after the launch of Google Plus.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到 Sam 在写书之前专门为 YC 创始人做了一门礼仪课，因为 YC 创始人出来路演时有时像动物一样，比如拿了咖啡不问放哪",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            1609.601,
+            1614.946
+          ],
+          "quote": "So before the book, we did a class specifically initially for YC founders, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1615.286,
+            1618.189
+          ],
+          "quote": "Partially because YC, Garry Tan got very mad about this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1674.531,
+            1678.717
+          ],
+          "quote": "We're a little bit making fun of the fact that YC Founders do come out a little bit like animals.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2410.623,
+            2411.363
+          ],
+          "quote": "Talk about YC companies.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 即使最终达到 5000 亿美元市值，种子投资者也只赚了约 25 倍，对定义了这个时代的公司来说这充其量只是中等水平的种子投资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 745,
+          "t": [
+            2751.701,
+            2757.745
+          ],
+          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Plaid, and hundreds of other winning companies have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            4334.047,
+            4339.191
+          ],
+          "quote": "Even my kind of argument this from a seed perspective is like, look, is OpenAI a good investment or not?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集提到如果 Elon 的讲故事能力让 SpaceX 在公开市场上价值 1.4 万亿美元，那些靠叙事驱动的宗教信仰的资金耕作者会做得很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1181,
+          "t": [
+            4375.253,
+            4385.92
+          ],
+          "quote": "If the storytelling of Elon allows SpaceX, which by the way, I love, I think SpaceX is an awesome company, but if all of a sudden that actually can be worth $1.4 trillion to the public market, guess what?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "etiquette",
+      "type": "concept",
+      "role": "concept",
+      "name": "礼仪 (etiquette)",
+      "file": "礼仪",
+      "primary": true,
+      "how_described": "本集把礼仪定义为一种以低心率进入房间的技能，其核心目标是建立信任和展现真正的自信，好的礼仪像 Kindle——你不会注意到技术本身，只沉浸在内容里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            8.672,
+            12.898
+          ],
+          "quote": "Tell me why you decided to spend time teaching people proper etiquette.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 10,
+          "t": [
+            24.494,
+            27.358
+          ],
+          "quote": "Etiquette is a skill for how to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            71.576,
+            75
+          ],
+          "quote": "I asked Sam to come on the pod and talk about proper etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 28,
+          "t": [
+            82.226,
+            84.167
+          ],
+          "quote": "He published a book on proper etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            84.528,
+            91.293
+          ],
+          "quote": "I love his framing for why etiquette matters, that the goal of learning good etiquette is to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            91.533,
+            99.98
+          ],
+          "quote": "And we cover all kinds of social interactions like introductions, small talk, meals, meetings, and basically all of the most important things you need to know when it comes to etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 68,
+          "t": [
+            292.892,
+            299.859
+          ],
+          "quote": "Just tell me why you decided to spend time on teaching people proper etiquette and why should people pay attention to this?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 77,
+          "t": [
+            326.602,
+            332.449
+          ],
+          "quote": "And so with this etiquette thing that we've gotten into, it started as many things to do with a tweet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 84,
+          "t": [
+            346.484,
+            347.805
+          ],
+          "quote": "And so I'd say why etiquette?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 85,
+          "t": [
+            347.965,
+            355.051
+          ],
+          "quote": "Look, there's a serious real narrative to why etiquette matters in 2025 for founders, almost 2026.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            366.22,
+            377.61
+          ],
+          "quote": "The net is if you want to do business and you want to do business and build great partnerships with team members, with companies you want to do business with, almost like with anyone, the reality is etiquette ironically matters a lot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 95,
+          "t": [
+            398.95,
+            403.736
+          ],
+          "quote": "The shallow truth is it's kind of funny to teach Silicon Valley people etiquette.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 99,
+          "t": [
+            413.247,
+            420.838
+          ],
+          "quote": "I'm not exactly known as the most high etiquette personal, but I do know the rules, and I think it's fun and funny as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 101,
+          "t": [
+            422.622,
+            430
+          ],
+          "quote": "I want to get into the actual rules, but just to follow that thread, you had a really great line somewhere that etiquette is almost a skill for how to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 133,
+          "t": [
+            555.808,
+            563.054
+          ],
+          "quote": "And candidly, over the course of history, you need to work with great people and you'll be more successful if you show up with good etiquette and rules and context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            861.882,
+            866.486
+          ],
+          "quote": "The etiquette is you say, \"Lenny, please meet my wife, Jessica.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 243,
+          "t": [
+            902.251,
+            914
+          ],
+          "quote": "The reason is, but it's at least enough plausible deniability of semi-bad etiquette that leverages the social situation to be a better etiquette, that it's a useful thing to think about as a small queue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1251.79,
+            1260
+          ],
+          "quote": "But actually, again, in terms of putting people at ease and building relationships and etiquette, even if in your heart of hearts, you're like, \"This really is my one shot.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1424.492,
+            1428.616
+          ],
+          "quote": "That's part of the etiquette dance to some degree is like, that's fine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1477.604,
+            1491.875
+          ],
+          "quote": "I will say that there is probably in January or February going to be a, what we've internally been calling the fem etiquette course because my wife and other women have said, \"This is good, but there's a bunch of other stuff that women need to know.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1531.416,
+            1534.338
+          ],
+          "quote": "I'm like, \"I can't be the etiquette guy if you guys are eating like.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1538.602,
+            1546.23
+          ],
+          "quote": "My six-year-old has started standing whenever my wife comes to the table, which is kind of arcane from an etiquette perspective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1546.51,
+            1549.713
+          ],
+          "quote": "You can argue about whether it's actually even really etiquette anymore or not.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1556.261,
+            1559.333
+          ],
+          "quote": "Don't judge me yet, but in a year you can judge me on my children's etiquette.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1559.695,
+            1560.98
+          ],
+          "quote": "Then it might have to be a children's etiquette book.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1946.895,
+            1952.398
+          ],
+          "quote": "There's absolutely nothing wrong with asking about dress, about etiquette, about expectations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1955.28,
+            1962.346
+          ],
+          "quote": "If you get someone on the phone and you ask them a hundred questions about etiquette, at a certain point you're like, that's not a pit game of ping pong.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2025.313,
+            2028.439
+          ],
+          "quote": "Give us some advice for etiquette during dining.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 689,
+          "t": [
+            2574.569,
+            2578.058
+          ],
+          "quote": "My biggest thing is the point about etiquette is that it gets out of the way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2964.089,
+            2965.513
+          ],
+          "quote": "The next one is scheduling etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3188.742,
+            3192.112
+          ],
+          "quote": "The Calendly stuff, I feel like that's its own separate book of Calendly Etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3284.156,
+            3286.438
+          ],
+          "quote": "That's not a thing to call out, by the way, from an etiquette perspective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 893,
+          "t": [
+            3362.089,
+            3372.9
+          ],
+          "quote": "I personally go the other way, which I feel like from an etiquette perspective, I don't owe you a 12-page essay, but I do owe at least an acknowledgement quickly of what you've sent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3540.262,
+            3541.188
+          ],
+          "quote": "Yeah, or learning etiquette.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 948,
+          "t": [
+            3605.112,
+            3608.796
+          ],
+          "quote": "There's a language to that from an etiquette perspective to understand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3622.031,
+            3630
+          ],
+          "quote": "If you send an email to 10 people CC'd to the whole nine yards, there is a subtle etiquette to when you respond.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 964,
+          "t": [
+            3659.34,
+            3670.147
+          ],
+          "quote": "This is the whole thing about etiquette is it's all this invisible stuff that you don't need to spend all ... In some ways, the whole story of doing this well is it should not occupy 80% of your brain.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3705.167,
+            3717.515
+          ],
+          "quote": "One of the worst etiquette/mistakes I ever made, never, ever, ever put someone you're talking about who's not on an email in the To line to check the spelling of their name and then hit send.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 976,
+          "t": [
+            3719.557,
+            3721.358
+          ],
+          "quote": "So whatever you're doing, that's not even an etiquette thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 992,
+          "t": [
+            3751.755,
+            3752.478
+          ],
+          "quote": "Meeting etiquette.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1106,
+          "t": [
+            4103.741,
+            4107.205
+          ],
+          "quote": "The funny thing is this stuff, the etiquette story is obviously pretty fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            4107.225,
+            4112.931
+          ],
+          "quote": "And so people like Morning Brew just keep making videos about this and there's this whole etiquette thing going on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1109,
+          "t": [
+            4117.056,
+            4119.418
+          ],
+          "quote": "Am I going to be ultimately remembered as the etiquette guy?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4131.962,
+            4136.108
+          ],
+          "quote": "Remember the goal of all etiquette is essentially building trust and project genuine confidence.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "abundance",
+      "type": "concept",
+      "role": "concept",
+      "name": "富足心态 (abundance)",
+      "file": "富足心态",
+      "primary": true,
+      "how_described": "本集反复强调富足心态——这不是你唯一的机会，你还会有其他机会，带着这种自信和冷静出现，心率自然就低了，对比稀缺心态下像 energizer bunny 一样吓跑人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            48.787,
+            53.674
+          ],
+          "quote": "You kind of want to show up with the self-confidence and the calm of abundance.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 114,
+          "t": [
+            473.031,
+            485
+          ],
+          "quote": "I think understanding how to show up, take a beat, come in with a mindset, not of scarcity, but of abundance, understand how to give more than you take, understand how to build a relationship, not collect business cards.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            998.408,
+            1017.94
+          ],
+          "quote": "You'll see some famous VC or founder walk into the room, and then some young startup person will waylay them and almost flock them off and they're really excited to talk to this person, but you're like, there's a bunch of people around and the more you can be inclusive and low heart rate, it's not a scarcity mindset, it's an abundance mindset.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1212,
+            1213.805
+          ],
+          "quote": "And again, this comes back to this idea of abundance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1260.921,
+            1268.647
+          ],
+          "quote": "You kind of want to show up with the self-confidence and the calm of abundance, being like, \"This is not going to be my only opportunity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1643.909,
+            1658.879
+          ],
+          "quote": "But then we also spent a lot of time focusing on the actual meat of the matter, which is things like how to show up with a low heart rate, how to have an abundance mindset, basic skills, like look people with the eye, shaking hands, how to eat that shows that you're being respectful, things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 736,
+          "t": [
+            2718.872,
+            2719.393
+          ],
+          "quote": "Abundance.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4137.589,
+            4139.432
+          ],
+          "quote": "Always maintain an abundance mindset.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "low-heart-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "低心率 (low heart rate)",
+      "file": "低心率",
+      "primary": true,
+      "how_described": "本集把低心率作为所有礼仪决定的终极检验标准——做任何礼仪决定前问自己这会让你的心率升高还是降低、会让对方的心率升高还是降低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            24.494,
+            27.358
+          ],
+          "quote": "Etiquette is a skill for how to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 29,
+          "t": [
+            84.528,
+            91.293
+          ],
+          "quote": "I love his framing for why etiquette matters, that the goal of learning good etiquette is to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            422.622,
+            430
+          ],
+          "quote": "I want to get into the actual rules, but just to follow that thread, you had a really great line somewhere that etiquette is almost a skill for how to show up in a room with a low heart rate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 159,
+          "t": [
+            629.113,
+            635.018
+          ],
+          "quote": "That's a little weird, but making sure that you have some buffer time so that, again, think about low heart rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            998.408,
+            1017.94
+          ],
+          "quote": "You'll see some famous VC or founder walk into the room, and then some young startup person will waylay them and almost flock them off and they're really excited to talk to this person, but you're like, there's a bunch of people around and the more you can be inclusive and low heart rate, it's not a scarcity mindset, it's an abundance mindset.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1067.931,
+            1071.454
+          ],
+          "quote": "And so I think, again, this is about balance, this is about low heart rate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1275.512,
+            1285.8
+          ],
+          "quote": "And I think if you kind of remind yourself of that, you remind yourself that it's okay to not know everything, you keep focusing on low heart rate, engagement, eye contact, you get so much of the way there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1643.909,
+            1658.879
+          ],
+          "quote": "But then we also spent a lot of time focusing on the actual meat of the matter, which is things like how to show up with a low heart rate, how to have an abundance mindset, basic skills, like look people with the eye, shaking hands, how to eat that shows that you're being respectful, things like that.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提到 Sam 用 vibe coding 配合 cursor、Digital Ocean 和 Cloudflare 端到端地构建了 Letter Meme 的第一个版本，但 vibe coding 无法真正扩展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            147.193,
+            152.057
+          ],
+          "quote": "In the last three years, over two million websites have been generated with 10Web's vibe coding platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            152.657,
+            155.86
+          ],
+          "quote": "10Web's vibe coding platform is a powerful way to build websites.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            208.936,
+            215.38
+          ],
+          "quote": "That's the number 10web.io/lenny, vibe coding platform as an API.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4250.721,
+            4261.87
+          ],
+          "quote": "I actually, the vibe coding thing, this is exactly what vibe coding is good for is like, this is like cursor and digital ocean and Cloudflare will get you a long way in terms of just building this stuff on the fly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1159,
+          "t": [
+            4261.89,
+            4266.914
+          ],
+          "quote": "And so I built the first version of this myself end to end, but then vibe coding also doesn't really scale.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-companies",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 公司 (AI companies)",
+      "file": "AI 公司",
+      "primary": false,
+      "how_described": "本集说那些被标记为 AI 公司的初创公司在未来几年会让种子投资人损失极其巨大的钱，因为这些公司太资本密集、在各方面都在根本性地商品化，与用好 AI 的好生意是两回事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1163,
+          "t": [
+            4285.881,
+            4297.473
+          ],
+          "quote": "I think that the venture capital, the seed venture capitalists who invest in companies that are branded as AI companies are going to lose an impossibly large amount of money in the coming years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            4386.22,
+            4405.56
+          ],
+          "quote": "The money plowers are going to do great with all this narrative driven religion is what I would put it, but if you're a disciplined seed investor, I guess my contrary intake would be run away from things that are AI companies because even if you look smart for the moment, you're playing a dangerous game of get out before the narrative collapses.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ea",
+      "type": "concept",
+      "role": "concept",
+      "name": "EA",
+      "file": "EA",
+      "primary": false,
+      "how_described": "本集说尊重 EA 和行政人员是最容易被忽视但也最暴露品位的点——跟 EA 有眼神交流、说谢谢、咖啡喝完问放哪，这些小事走很远",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 835,
+          "t": [
+            3117.16,
+            3126.131
+          ],
+          "quote": "You don't want to overdo it, but there should be this deep well of respect for anyone who's helping you, whether that's a server or a PA or an EA or whatever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3134.12,
+            3149.779
+          ],
+          "quote": "I'll tell a story when we were selling our company to Airbnb, we had this guy helping us sell the company and he made it a big point to build a good relationship with the EA and office manager at Airbnb because if they like you, it helps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 843,
+          "t": [
+            3159.929,
+            3166.737
+          ],
+          "quote": "If you show up with flowers for the EA, you better be damn confident in what you're doing, if that makes sense.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

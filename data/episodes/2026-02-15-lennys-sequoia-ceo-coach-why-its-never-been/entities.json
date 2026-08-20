@@ -1,0 +1,1352 @@
+{
+  "episode_id": "2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-15",
+  "tags": [
+    "CEO 管理",
+    "高管招聘",
+    "组织扩张",
+    "AI 对 CEO 的影响",
+    "Halliganisms"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "brian-halligan",
+      "type": "person",
+      "role": "host",
+      "name": "Brian Halligan",
+      "file": "Brian Halligan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            56.86,
+            61.163
+          ],
+          "quote": "Today, my guest is Brian Halligan, co-founder and longtime CEO of HubSpot.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            142.087,
+            149.75
+          ],
+          "quote": "Try Sentry and Seer for free at sentry.io/lenny, and use code Lenny for $100 in Sentry credits.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 28,
+          "t": [
+            150.09,
+            153.932
+          ],
+          "quote": "That's S-E-N-T-R-Y dot I-O/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            229.307,
+            235.433
+          ],
+          "quote": "Request a demo at datadoghq.com/lenny, that's datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 43,
+          "t": [
+            242.182,
+            243.657
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 92,
+          "t": [
+            595.571,
+            604.977
+          ],
+          "quote": "If I had to guess, Lenny, with 18 months after you hire a C-level exec, at least 50% of the time they're gone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            843.581,
+            852
+          ],
+          "quote": "Well, I'm a big sports fan, a big Boston Red... And the Boston Red Sox hadn't won, Lenny, a World Series in 86 years, since they traded Babe Ruth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            963.861,
+            980.012
+          ],
+          "quote": "What's interesting to me, Lenny, is Brian Chesky sort of rethought a lot of this stuff, and he's like everyone's over-rotating to the homegrown to the experienced talent and management teams and delegation, I think he's mostly right about that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1846.483,
+            1851.886
+          ],
+          "quote": "And then, when I go to a meeting, Lenny, I want to invite that thing to my meeting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1893.161,
+            1894.166
+          ],
+          "quote": "It's going to be great, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2637.121,
+            2651.129
+          ],
+          "quote": "Let's say, Lenny, you bought a new beautiful plant for your office, and then you went away for a month to Turks and Caicos because your AI agent's doing your podcast, and you asked two of your friends, \"Hey, would you mind watering my plant?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3105.12,
+            3112.984
+          ],
+          "quote": "And the place it would show up, Lenny, was, we did, and I think a lot of companies do this now, but we did a quarterly employee net promoter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3498.342,
+            3504.365
+          ],
+          "quote": "And the other thing about being a CEO, Lenny, is you got to say the same thing over and over and over and over and over again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3513.37,
+            3524.896
+          ],
+          "quote": "The other weird thing about being a CEO, Lenny, is as it gets bigger... When it's small, everyone's giving you shit, and you're all on the same level.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3782.37,
+            3789.034
+          ],
+          "quote": "And I have a pod, you should first listen to Lenny's pod because it's amazing, but I have a pod just for CEOs, called Long Strange Trip.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3792.096,
+            3796.98
+          ],
+          "quote": "So, Lenny's interviewing me about being a CEO, I get to interview other people about being... I'm kind of a CEO geek these days.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3818.534,
+            3821.999
+          ],
+          "quote": "They started in 1964... Do you know where they started, Lenny?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4003.588,
+            4008.719
+          ],
+          "quote": "I looked at that, I was getting ready for this, Lenny, and I was like, I can't remember the last book I read.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 832,
+          "t": [
+            4147.1,
+            4152.225
+          ],
+          "quote": "What's even better about it is, because you can go to ChatGPT and say, what would Lenny think about this?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4325.205,
+            4329.535
+          ],
+          "quote": "I got 33 screws in me, one loose one up here, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4423.046,
+            4425.028
+          ],
+          "quote": "Lenny, you have more comments than yours, I'm jealous.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4468.162,
+            4472.956
+          ],
+          "quote": "You can find all past episodes or learn more about the show at Lenny'sPodcasts.com.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": true,
+      "how_described": "本集以 HubSpot 为核心案例，反复讲述其从营销软件公司转型 CRM、从员工中心转向客户中心、C 级高管高频流失、以及通过净推荐值按部门拆分发现管理问题的经历。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            56.86,
+            61.163
+          ],
+          "quote": "Today, my guest is Brian Halligan, co-founder and longtime CEO of HubSpot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 15,
+          "t": [
+            69.267,
+            86.257
+          ],
+          "quote": "After leaving HubSpot last year, he became the in-house CEO coach at Sequoia, where he brings together dozens of top CEOs to learn from each other, he does one-on-one coaching with some of the world's top CEOs, he also hosts a popular podcast, called Long Strange Trip, where he interviews some of the world's most successful CEOs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            396.171,
+            398.712
+          ],
+          "quote": "And I remember that from that phase in HubSpot's growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 67,
+          "t": [
+            405.715,
+            416.18
+          ],
+          "quote": "So, that is one that they are making that transition, and I would just say in general, people are very bad at this, and HubSpot was too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            451.933,
+            458.916
+          ],
+          "quote": "That's a lot of turnover at the top, and I didn't keep track of it like Dave, but I think HubSpot was kind of similar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            625.844,
+            628.626
+          ],
+          "quote": "I'll tell you one of the things we learned at HubSpot about this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            664.1,
+            665.802
+          ],
+          "quote": "Our hit rate at HubSpot's improved.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            922.441,
+            929.094
+          ],
+          "quote": "If you look at HubSpot, half the management team are folks who had been there for approximately 150 years, which I like.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1622.143,
+            1628.108
+          ],
+          "quote": "So, it's like a huge jump, back then when we started HubSpot in 2006, but now it's going to be an even bigger jump.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1679.443,
+            1681.844
+          ],
+          "quote": "Let's say inside of HubSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1728.244,
+            1751.159
+          ],
+          "quote": "When we started HubSpot, if I think of the way the funnel worked, you want to get found in Google, someone clicks on a blue link, they land on your website, they go down the rabbit hole, they clicked on contact sales, they wait until that sales rep's ready, go down that rabbit hole, and I think it's going to get turned on its head, where people are evaluating a product, they start in Gemini or they start in Anthropic, or they start in ChatGPT,",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1808.95,
+            1812.776
+          ],
+          "quote": "Or on HubSpot you have this avatar that walks you through the sales process?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1902.741,
+            1904.944
+          ],
+          "quote": "Go buy me some HubSpot seats please.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2054.226,
+            2056.899
+          ],
+          "quote": "HubSpot does it, we built one, it's working.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2161,
+            2168.223
+          ],
+          "quote": "I just think of times in HubSpot when things slowed down and there was churn, it was usually my fault.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2387.77,
+            2391.312
+          ],
+          "quote": "And we had a lot of weird stuff happen at HubSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2440.994,
+            2454
+          ],
+          "quote": "And so, actually there were times in HubSpot's history where we had the Mike Krzyzewski's face on a huge slide in front of the company meeting, saying, \"Next play,\" because there was an unforced error, and we need to deal with it and move on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2495.493,
+            2502.396
+          ],
+          "quote": "Yeah, we made a lot of mistakes at HubSpot, a lot of bad things happen to companies, and most of them are self-inflicted.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2536.62,
+            2547.825
+          ],
+          "quote": "I'll just follow on to, most of the good things that happened in HubSpot came out of a crisis because we would take pretty drastic measures to fix it and make sure we didn't do the same thing again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2563.871,
+            2572.615
+          ],
+          "quote": "And kind of an interesting thing with HubSpot is we started as a marketing software company, and we pivoted, had Salesforce came into our market, we pivoted into CRM.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2797.047,
+            2813.275
+          ],
+          "quote": "And the reality inside the HubSpot machine, the way it felt to me, it looks from the outside, over a long time up into the right, and smooth, but inside it was two steps forward, one step back, two steps forward, one step back, two steps forward, one step back.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2872.323,
+            2874.484
+          ],
+          "quote": "If someone asked me that question, I would start HubSpot over.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2949.26,
+            2959.269
+          ],
+          "quote": "I had a start back in the day, nowhere near as successful as HubSpot, but the way I thought about it is, let me just give it everything I have and see what I can do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3050.862,
+            3071.529
+          ],
+          "quote": "And as HubSpot was scaling, and we had a lot of people who were VPs in different roles, and they started to get good-sized organizations, where they would fall down was they didn't solve for MEV, but they'd solve for TV over EV.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3188.915,
+            3200.219
+          ],
+          "quote": "So, we always put on the wall, \"Solve for EV over TV over MEV,\" and then we added CV in front of EV, solve for the customers first, then for HubSpot, then the employee, then yourself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3227.569,
+            3232.315
+          ],
+          "quote": "And I heard that after I was CEO of HubSpot, but that kind of captures the sentiment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3232.756,
+            3234.178
+          ],
+          "quote": "And that's how I felt about HubSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3234.198,
+            3235.98
+          ],
+          "quote": "You work for HubSpot first and then you work for your boss.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3242.968,
+            3249.875
+          ],
+          "quote": "Other than putting posters on the wall, and this is our, just HubSpot growth above all is what matters, or our customers, I guess in your case.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3266.464,
+            3286.932
+          ],
+          "quote": "And when we first started HubSpot, I ran it a little bit like Jensen runs NVIDIA, where I didn't do one-on-ones, and I gave a lot of good and bad feedback publicly in large management team meetings, and I definitely would go out of my way to criticize people if I felt like they were solving for TV over EV.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3335.92,
+            3341.703
+          ],
+          "quote": "We were very employee-centric, more than customer-centric in the first several years of HubSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3411.409,
+            3424.594
+          ],
+          "quote": "And so, over some time we shifted the center of gravity to customers, and we still of course, worried about employees, but the center of gravity from HubSpot moves very much to customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3449.084,
+            3452.085
+          ],
+          "quote": "And my favorite question is, what do you love about HubSpot?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3452.806,
+            3455.647
+          ],
+          "quote": "And then... And then, what do you hate about HubSpot?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3658.418,
+            3661.98
+          ],
+          "quote": "And so, Dharmesh Shah has never had a single direct report at HubSpot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3734.233,
+            3739.295
+          ],
+          "quote": "I only trusted a small number of people at HubSpot to be a DRI, and to really drive something important.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": false,
+      "how_described": "Brian 离开 HubSpot 后成为红杉的内部 CEO 教练，在红杉召集 CEO 群体并帮助评估投资标的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            69.267,
+            86.257
+          ],
+          "quote": "After leaving HubSpot last year, he became the in-house CEO coach at Sequoia, where he brings together dozens of top CEOs to learn from each other, he does one-on-one coaching with some of the world's top CEOs, he also hosts a popular podcast, called Long Strange Trip, where he interviews some of the world's most successful CEOs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 56,
+          "t": [
+            325.76,
+            341.367
+          ],
+          "quote": "Okay, I have a bunch of questions along these lines, because one, you've been a CEO of an incredibly successful company for a long time, for about 20 years, before you moved on to this new chapter, now you work with a bunch of CEOs, you're Sequoia's in-house CEO coach, there's a few things that I've heard you do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1082.26,
+            1087.542
+          ],
+          "quote": "The C is something I wouldn't have thought of, but this is a Sequoia thing, like chip on the shoulder.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1261.54,
+            1269.644
+          ],
+          "quote": "Okay, so when you're helping Sequoia decide should we invest in this company, what you look for is, LOCK... I like the S, I'm going to include it there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1307.262,
+            1318.767
+          ],
+          "quote": "I will say, I've noticed... So, another little rubric I have, and I don't see a lot of these, but Brett Taylor's one, there's a few out there that are in Sequoia's portfolio.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2843.241,
+            2846.035
+          ],
+          "quote": "Sometimes they have you in their corner, if they're lucky at Sequoia.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4411.797,
+            4412.938
+          ],
+          "quote": "Or do I have to be a Sequoia founder?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4427.61,
+            4435.897
+          ],
+          "quote": "It's very new, and I just started a couple months ago, it seemed like it's going pretty well, but it's my family and Sequoia people giving me feedback on.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "type": "company",
+      "role": "company",
+      "name": "MongoDB",
+      "file": "MongoDB",
+      "primary": false,
+      "how_described": "本集引用 MongoDB CEO Dave 的数据：在其 10 年 CEO 任期内，平均每年有两位 C 级高管离职，用以说明 C 级高管死亡率极高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            433.206,
+            441.77
+          ],
+          "quote": "And I interviewed Dave, the CEO from MongoDB the other day, and he had an interesting [inaudible 00:07:22].",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "被列为 HubSpot 从大公司挖人的来源之一，本集称从 Salesforce 挖来的人流失率为 100%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            782.897,
+            790.44
+          ],
+          "quote": "We hired so many people from Salesforce, and Google, and Microsoft, like 100% attrition rate on all those folks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            909.444,
+            921.8
+          ],
+          "quote": "Kind of what I'm taking away here is people see all these fancy logos, amazing person, VP, this, that at Salesforce, Amazon, Google, whatever, and what you're saying here is don't underestimate the power of someone internal, rising to the occasion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2563.871,
+            2572.615
+          ],
+          "quote": "And kind of an interesting thing with HubSpot is we started as a marketing software company, and we pivoted, had Salesforce came into our market, we pivoted into CRM.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到从 Google 挖来的人流失率 100%；还提到 Google CFO Ruth Porat 的名言'吃屎三明治时别细嚼慢咽'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            782.897,
+            790.44
+          ],
+          "quote": "We hired so many people from Salesforce, and Google, and Microsoft, like 100% attrition rate on all those folks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            909.444,
+            921.8
+          ],
+          "quote": "Kind of what I'm taking away here is people see all these fancy logos, amazing person, VP, this, that at Salesforce, Amazon, Google, whatever, and what you're saying here is don't underestimate the power of someone internal, rising to the occasion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1728.244,
+            1751.159
+          ],
+          "quote": "When we started HubSpot, if I think of the way the funnel worked, you want to get found in Google, someone clicks on a blue link, they land on your website, they go down the rabbit hole, they clicked on contact sales, they wait until that sales rep's ready, go down that rabbit hole, and I think it's going to get turned on its head, where people are evaluating a product, they start in Gemini or they start in Anthropic, or they start in ChatGPT,",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2023.18,
+            2030.038
+          ],
+          "quote": "I think the thing that will change first is the top of the funnel around getting found inside Google, you got to get found in these...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2310.3,
+            2315.142
+          ],
+          "quote": "Completely stole this from Ruth Porat, the CFO of Google.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "被列为 HubSpot 从大公司挖人的来源之一，本集称从微软挖来的人流失率为 100%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            750.425,
+            769.732
+          ],
+          "quote": "Like you're 50 employees and you're hiring this person, who's been at Microsoft the last 10 years, and has a fancy title, and is a fancy division in Microsoft, and you hire them, there's just a massive impedance mismatch when you hire them on what their expectations are, and what your expectations are, in the extent that you get your shit together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            782.897,
+            790.44
+          ],
+          "quote": "We hired so many people from Salesforce, and Google, and Microsoft, like 100% attrition rate on all those folks.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mckinsey",
+      "type": "company",
+      "role": "company",
+      "name": "McKinsey",
+      "file": "McKinsey",
+      "primary": false,
+      "how_described": "本集说很多公司会阶段性地从某个大公司成批招人，'麦肯锡那个从来不奏效'，原因是去麦肯锡工作的人在观念上偏保守，与持怀疑态度的创始人不匹配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            791.02,
+            801.439
+          ],
+          "quote": "Something that I've seen that a lot of companies is there's phases of like, okay, now it's the McKinsey, a cohort comes in, and we think that's going to be the answer, and then it's the Apple group, and then that didn't work out, then the Amazon group.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 129,
+          "t": [
+            802.12,
+            803.241
+          ],
+          "quote": "The McKinsey one never works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 133,
+          "t": [
+            822.214,
+            826.638
+          ],
+          "quote": "And almost by definition somebody who goes to work for McKinsey is very conservative in their outlook.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": false,
+      "how_described": "本集提到 Clay 的 CEO Kareem 是 Brian 认识的唯一一个强调工作生活平衡的 CEO，算是异类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            3000.007,
+            3005.971
+          ],
+          "quote": "The only CEO I know, and he's unusual in this way, is Kareem from Clay.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "delphi",
+      "type": "company",
+      "role": "company",
+      "name": "Delphi",
+      "file": "Delphi",
+      "primary": false,
+      "how_described": "Brian 说他有一个自己的 Delphi 克隆体，用它代替自己给学生做 office hours，还称赞其语音功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            1816.142,
+            1825.319
+          ],
+          "quote": "I think me as a knowledge worker, what I really want as a homo sapien is I have a Delphi clone that I really like.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1832.263,
+            1834
+          ],
+          "quote": "They find it on my footer, they can find it on Delphi-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4083.601,
+            4096.199
+          ],
+          "quote": "I love my Delphi clone, I teach a course called Scaling Entrepreneurial Ventures, and I don't do office hours, I have Delphi do my office hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4097.802,
+            4102.054
+          ],
+          "quote": "My favorite feature of Delphi, and again LennyBot.com is my Delphi... I love that we both have little bots.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dri",
+      "type": "concept",
+      "role": "concept",
+      "name": "DRI",
+      "file": "DRI",
+      "primary": true,
+      "how_described": "DRI（直接责任人）是本集核心概念之一。Brian 说'想弄死一株植物，就让两个人浇它'，强调公司过了 100 人后，所有重要的事都是跨职能的，必须有一个有权势的人对结果负责，大人桌的每个 CEO 都是 DRI 的狂热信徒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 502,
+          "t": [
+            2657.932,
+            2665.817
+          ],
+          "quote": "And every CEO in the adults' table has gone through this, and they are religious about the DRI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2666.317,
+            2672
+          ],
+          "quote": "Everyone talks about DRI in the kids' table, but once it gets to the adults' table, people get deep religion on it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2725.555,
+            2734
+          ],
+          "quote": "So, almost every CEO I deal with is like a zealot on the DRI idea, and it doesn't bite you until you get to some sort of scale.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2750.025,
+            2752.457
+          ],
+          "quote": "And DRI is directly responsible individual.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3734.233,
+            3739.295
+          ],
+          "quote": "I only trusted a small number of people at HubSpot to be a DRI, and to really drive something important.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论 AI 智能体如何改变 CEO 的工作——Winston 说'你现在能做的事多多了'，AI 智能体让软件开发等环节效率大幅提升，过去要一年的事现在两个月。还谈到未来每个知识工作者都会有一个个人智能体替他们开会做事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            127.94,
+            130.622
+          ],
+          "quote": "Seer, Sentry's AI debugging agent, takes it from there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1804.863,
+            1808.75
+          ],
+          "quote": "So, this is the buyer has their own little agent that comes with them?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1913.937,
+            1916
+          ],
+          "quote": "It's just this personal agent that can go do stuff for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1978.568,
+            1985.134
+          ],
+          "quote": "And that's come up a lot on this podcast just with AI tools, rarely are they just plug and play, you can't just set up some agent that figures everything out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2637.121,
+            2651.129
+          ],
+          "quote": "Let's say, Lenny, you bought a new beautiful plant for your office, and then you went away for a month to Turks and Caicos because your AI agent's doing your podcast, and you asked two of your friends, \"Hey, would you mind watering my plant?\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "net-promoter-score",
+      "type": "concept",
+      "role": "concept",
+      "name": "净推荐值 (net promoter score)",
+      "file": "净推荐值",
+      "primary": true,
+      "how_described": "本集详细讲述 HubSpot 用季度员工净推荐值按部门拆分来发现问题——某部门分数从 65 跌到 30 再到 -5，暴露了负责人为团队指标优化而牺牲企业价值的问题；后来管理层薪酬改为按客户留存和净推荐值算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 602,
+          "t": [
+            3121.027,
+            3132.671
+          ],
+          "quote": "And one interesting thing about that, so it's like sales and service and engineering, all the different departments, and we had an overall net promoter score, and then each department had a net promoter score.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3135.893,
+            3137.313
+          ],
+          "quote": "Sales net promoter score was like, 65, 62, 68, 30.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3396.183,
+            3410.788
+          ],
+          "quote": "Let's say our employee net promoter score was 60, and our customer net promoter score is 25, I was like, we need to take... I would give up 10 points of employee net promoter score to get 10 points of customer net promoter score.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3465.612,
+            3472.436
+          ],
+          "quote": "We changed the comp plan, so the management team got paid not on revenue but on retention and net promoter score.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "blind-reference",
+      "type": "concept",
+      "role": "concept",
+      "name": "盲测推荐 (blind reference)",
+      "file": "盲测推荐",
+      "primary": true,
+      "how_described": "Brian 认为 CEO 大大高估面试直觉、低估盲测推荐的价值。他建议做背调时问'十分制你多大可能重新雇这个人''这个人是前 1% 吗'，而不是问优缺点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            417.76,
+            431.686
+          ],
+          "quote": "I think CEOs and everyone dramatically overrates their ability to interview, and overrates their gut feeling, and underrates a really high quality blind reference.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lock",
+      "type": "concept",
+      "role": "concept",
+      "name": "LOCK",
+      "file": "LOCK",
+      "primary": true,
+      "how_described": "Brian 评估 CEO 用的框架：Lovable（愿不愿爬过碎玻璃给他干活）、Obsession（对问题深深痴迷）、Chip on the shoulder（肩上扛着巨石心里有气）、Knowledgeable（对领域深刻了解）、Student（像 LLM 一样不断学习）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            50.221,
+            54.575
+          ],
+          "quote": "I look for four things, I call it my lock algorithm.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1032.884,
+            1034.944
+          ],
+          "quote": "I call it my LOCK algorithm.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1253.166,
+            1256.754
+          ],
+          "quote": "So, LOCK, with an S at the end, just to kind of mirror back what you're sharing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1261.54,
+            1269.644
+          ],
+          "quote": "Okay, so when you're helping Sequoia decide should we invest in this company, what you look for is, LOCK... I like the S, I'm going to include it there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3545.773,
+            3547.996
+          ],
+          "quote": "So, people really lock in on what you said.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场 (go-to-market)",
+      "file": "进入市场",
+      "primary": true,
+      "how_described": "本集讨论 AI 如何颠覆进入市场——漏斗顶部从 Google 搜索变成在 ChatGPT/Gemini 里被找到，网站主页变成与全知 avatar 对话，销售代表带着自己的智能体上 Zoom。但 Brian 也承认当前 AI 公司的 GTM 做法和 100 年来没本质区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1697.89,
+            1701.712
+          ],
+          "quote": "And in the go-to-market side has been kind of slow, really just support.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1722.46,
+            1723.921
+          ],
+          "quote": "I think a lot about the go-to-market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1725.883,
+            1728.004
+          ],
+          "quote": "I think the go-to-market is going to get turned on its head.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1797.634,
+            1803
+          ],
+          "quote": "So, go-to-market hasn't changed much yet, but I think over time it's going to change a lot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1865.631,
+            1872.534
+          ],
+          "quote": "But mine was more on the go-to-market side, where I think every website will change and there'll be an all-knowing avatar on that homepage.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1918,
+            1924.488
+          ],
+          "quote": "So, you're talking about the future of go-to-market is this world where there's these little bots and agents that are doing things for you on both sides.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1925.048,
+            1935
+          ],
+          "quote": "When you look at companies today that you work with, that are doing well, that are especially AI-driven companies, what are they doing differently in terms of go-to-market that is working really well?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "one-way-door",
+      "type": "concept",
+      "role": "concept",
+      "name": "单向门决策 (one-way door)",
+      "file": "单向门决策",
+      "primary": false,
+      "how_described": "Brian 说 HubSpot 每次事情慢下来、出现流失，通常是因为他桌上有艰难的单向门决策没做，一旦打开或关上那扇门，所有人就解脱了、开始快得多地移动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 410,
+          "t": [
+            2168.704,
+            2186.932
+          ],
+          "quote": "It was because there were some hard one-way door type decisions on my desk, and maybe every year I would sit down and I'd open that one-way door or close it, and it just freed everyone up and we just started moving so much faster.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "optionality",
+      "type": "concept",
+      "role": "concept",
+      "name": "可选择性 (optionality)",
+      "file": "可选择性",
+      "primary": false,
+      "how_described": "Brian 过去非常重视可选择性，但现在发现当你能这么快行动时，保留选择权本身就有巨大的代价（massive tax in optionality）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.461,
+            29.449
+          ],
+          "quote": "There's a massive tax in optionality when you can move this fast and try a lot of things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2195.836,
+            2202.859
+          ],
+          "quote": "I was someone who always valued optionality, I think there's a massive tax in optionality when you can move this fast and try a lot of things.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (forward deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": false,
+      "how_described": "本集提到这是一个非常热门的词汇，核心思想是派人来与客户合作、帮助实施 AI 工具，Brian 认为本质上和过去的解决方案顾问或销售工程师没太大区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1969.18,
+            1978.248
+          ],
+          "quote": "And so, forward deployed engineer, a very hot term, the idea there is they come work with the customer and help them implement this thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "founder-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人-市场契合度 (founder market fit)",
+      "file": "创始人-市场契合度",
+      "primary": false,
+      "how_described": "在 LOCKS 框架的 O（Obsession）部分，Brian 说他喜欢有深刻创始人-市场契合度的人，那些长期钻进兔子洞的人，而不是六个月前才想到问题就创业的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1064.274,
+            1081.28
+          ],
+          "quote": "I'm a little negative on people who came up with this problem to solve six months ago and started a company, I like people with deep founder market fit, who've been thinking about it for a long time, and have evidence in their lives of going deep down, obsessively down a rabbit hole because that's kind of what it takes to be a founder/CEO.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "five-tool-player",
+      "type": "concept",
+      "role": "concept",
+      "name": "五项全能 (five tool player)",
+      "file": "五项全能",
+      "primary": false,
+      "how_described": "借用棒球术语，Brian 说现在出现了五项全能 CEO——会写代码、有品味、有愿景、能卖产品、能说服员工，Brett Taylor 就是一个例子，这在 Steve Jobs 和 Jeff Bezos 那一代几乎不存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1319.188,
+            1321.689
+          ],
+          "quote": "I call them back to the baseball thing, a five tool player.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1332.574,
+            1336.196
+          ],
+          "quote": "And it's very rare that you have a five tool player, extremely rare.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

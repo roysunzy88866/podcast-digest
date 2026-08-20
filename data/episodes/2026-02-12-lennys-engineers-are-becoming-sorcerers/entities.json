@@ -1,0 +1,1766 @@
+{
+  "episode_id": "2026-02-12-lennys-engineers-are-becoming-sorcerers",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-12",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "AI 部署",
+    "产品方法",
+    "B2B SaaS"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "sherwin-wu",
+      "type": "person",
+      "role": "host",
+      "name": "Sherwin Wu",
+      "file": "Sherwin Wu",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            71.821,
+            76.766
+          ],
+          "quote": "Today, my guest is Sherwin Wu, Head of Engineering for OpenAI's API and Developer Platform.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            125.116,
+            129.858
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 33,
+          "t": [
+            130.258,
+            131.979
+          ],
+          "quote": "That's getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            179.595,
+            186.237
+          ],
+          "quote": "Try Sentry and Seer for free at sentry.io/lenny and use code LENNY for $100 in Sentry credits.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            186.257,
+            187.137
+          ],
+          "quote": "That's S-E-N-T-R-Y.io/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1773.201,
+            1802.931
+          ],
+          "quote": "And actually, I think my view on it is slightly different, which is I think that Lenny's Podcast might end up becoming a billion dollar startup, but what I think might happen is instead of you kind of being the one person who has to dispatch an AI to solve and fix those support tickets, I think what might end up happening is there might be a whole smattering of other startups that are building software and super tailored towards what you might need.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2242.857,
+            2245.339
+          ],
+          "quote": "Request a demo at datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2245.359,
+            2246.42
+          ],
+          "quote": "That's datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 886,
+          "t": [
+            4754.204,
+            4754.612
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是 OpenAI 内部 95% 工程师每天使用的写代码工具，100% 的 PR 由它审查；用得多的工程师比不常用的多开 70% 的 PR，且差距在拉大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            1.045,
+            2.492
+          ],
+          "quote": "95% of engineers use Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1,
+          "t": [
+            2.513,
+            3.94
+          ],
+          "quote": "100% of our PRs are reviewed by Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            35,
+            41.09
+          ],
+          "quote": "There's a team that's actually doing an experiment right now within OpenAI where they are maintaining a 100% Codex-written code base.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 53,
+          "t": [
+            223.084,
+            230.787
+          ],
+          "quote": "And so I know for myself and some of the other EMs, engineering managers at OpenAI, all of our code is written by Codex at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            234.349,
+            239.631
+          ],
+          "quote": "There's a tangible energy internally around just how far these tools have gotten, how good Codex as a tool has gotten for us.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            251.696,
+            256.658
+          ],
+          "quote": "What we do track though is at this point, the vast majority of engineers use Codex on a daily basis.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            256.718,
+            257.539
+          ],
+          "quote": "So 95% of engineers use Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            261.24,
+            263.843
+          ],
+          "quote": "100% of our PRs are reviewed by Codex daily as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            263.863,
+            272.913
+          ],
+          "quote": "So basically any code that goes into production that's merged in, Codex kind of has its eyes on and suggests improvements, suggests changes in the PRs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            280.921,
+            287.245
+          ],
+          "quote": "Another observation that we've had is engineers who tend to use Codex more open way more PRs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 63,
+          "t": [
+            287.566,
+            293.25
+          ],
+          "quote": "So they're actually opening 70% more PRs than the engineers who aren't using Codex as much.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 73,
+          "t": [
+            329.422,
+            349.292
+          ],
+          "quote": "There's also, I think, some engineers who I think trust Codex a little bit less, but basically every day I talk to someone who is blown away by something that I can do and their bar of trust or how much they trust the model to do on its own goes up over and over, over time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 81,
+          "t": [
+            370.841,
+            387.499
+          ],
+          "quote": "Peter, the Clawdbot/Moltbot/OpenClaw is what it's called now developer recently shared that he uses Codex for his work and he feels like anytime it does anything, he just trusts that it has done the right job, and he's just almost certain he could just commit it to master and it'll be great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 84,
+          "t": [
+            388.641,
+            390.545
+          ],
+          "quote": "He's a great user of Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            494.391,
+            499.394
+          ],
+          "quote": "Obviously not active running Codex jobs, but just a lot of parallel threads.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 108,
+          "t": [
+            500.934,
+            505.097
+          ],
+          "quote": "They're steering the agents and Codex and giving it feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 128,
+          "t": [
+            612.824,
+            621.81
+          ],
+          "quote": "It is now literally incantations because you can tell Codex, you can tell Cursor exactly what you want to do and then it will go do it for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 136,
+          "t": [
+            666.2,
+            681.307
+          ],
+          "quote": "And when I see engineers kind of like doing these 20 different Codex threads at a time, there is some skill and there's some seniority and a lot of thought that needs to go into this because you want to make sure that the models aren't going off the rails.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            755.009,
+            759.735
+          ],
+          "quote": "You fire off all these Codex agents and then you have to stay on top of them, \"Oh, shit, one's not working.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            765.942,
+            779.475
+          ],
+          "quote": "And I actually think this is where the interesting part of all of this lies right now because these models aren't perfect, these tools aren't perfect, and we're still trying to figure out how to best interact with Codex or with these AI agents to get work done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 165,
+          "t": [
+            785.26,
+            795.247
+          ],
+          "quote": "So there's a team that's actually doing an experiment right now with an OpenAI where they are basically maintaining a 100% Codex written code base.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 166,
+          "t": [
+            796.507,
+            815.38
+          ],
+          "quote": "So you'll have the AI write code, but you'll obviously end up rewriting a lot of it and you might need to double-check and change things, but this team is just fully Codex-pilled and just leaning in entirely, and they run into the exact problems that you're describing, which is like, their challenge is, \"I want to get this thing, this feature built, but I can't get the agent to do it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            820.643,
+            824.807
+          ],
+          "quote": "And then instead of using Codex, I might use tab complete and Cursor and things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            856.793,
+            864.48
+          ],
+          "quote": "It's just you've either underspecified or there's just not enough information around how to do something available to the agent, available to Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 180,
+          "t": [
+            927.52,
+            931.444
+          ],
+          "quote": "I mean, one thing is Codex reviews 100% of all of our PRs at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 191,
+          "t": [
+            984.28,
+            985.761
+          ],
+          "quote": "Codex is really good at reviewing code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 193,
+          "t": [
+            994.908,
+            1009.9
+          ],
+          "quote": "And so for code reviews, yeah, we create a lot of PRs, but Codex reviews all of them and it makes code reviews go from a, I don't know, 10, 15 minute task to sometimes even just like a two to three minute task because you have a bunch of suggestions already baked in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1015.726,
+            1017.147
+          ],
+          "quote": "We kind of trust Codex in this way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1017.868,
+            1019.85
+          ],
+          "quote": "The original author kind of looks at Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1024.254,
+            1026.476
+          ],
+          "quote": "Codex is a pretty smart second pair of eyes at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1030.46,
+            1038.344
+          ],
+          "quote": "The general CI process and the post kind of push and deployment process has also been heavily automated via Codex internally at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1049.709,
+            1051.69
+          ],
+          "quote": "There's a lot of automated stuff you can do with Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1056.612,
+            1062.455
+          ],
+          "quote": "If there's like a lint error, it's a very easy Codex fix and it could just patch it and then kind of restart the CI process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1073.782,
+            1075.946
+          ],
+          "quote": "Codex writing the code, Codex reviewing its own code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1090.185,
+            1097.991
+          ],
+          "quote": "And so we're very thoughtful, I'd say, around which PRs are completely just Codex-reviewed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1142.994,
+            1146.819
+          ],
+          "quote": "100% of code across OpenAI is written by Codex at this point.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1153.806,
+            1161.814
+          ],
+          "quote": "And it's kind of hard to do attribution there, but almost every engineer heavily uses Codex in all of their tasks at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1191.501,
+            1194.622
+          ],
+          "quote": "There's no Codex for managers just yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1194.702,
+            1201.544
+          ],
+          "quote": "However, I use Codex quite a bit for some of the more managery tasks that I do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1211.988,
+            1221.371
+          ],
+          "quote": "One thing that's becoming increasingly clear is Codex really empowers top performers to be a lot more productive.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1269.313,
+            1277.538
+          ],
+          "quote": "I think one example is the team that's maintaining a 100% Codex generated code base, just letting them rip and see what's happening there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1413.76,
+            1424.906
+          ],
+          "quote": "A very good example right now is there are, I would say, a group of engineers internally who are really Codex-pilled and are thinking through what the best practices are for interacting with this model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2345.05,
+            2351.274
+          ],
+          "quote": "And so we always talk about all these best practices for Codex, all these Codex-pilled people within OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2434.091,
+            2447.74
+          ],
+          "quote": "So obviously OpenAI has always wanted to be a very AI-centric company, but when it really started taking off was with the introduction of Codex and these tools where actual employees themselves could start applying it to their work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3082.415,
+            3088
+          ],
+          "quote": "Even Codex and the coding tools, I'd say, it's in the CLI, you're kind of seeing it be interactive.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3093.923,
+            3098.745
+          ],
+          "quote": "I have seen people push Codex to the limit and do multi-hour long tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3266.507,
+            3277.736
+          ],
+          "quote": "And this is why I think tools like Codex tend to be quite good because it's exploring and you're giving it these open-ended things, but software engineering is fundamentally pretty open-ended and is not very repeatable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3587.866,
+            3598.191
+          ],
+          "quote": "Even we release these Codex models now that are a little bit more optimized for the Codex harness, but they always find their way into the API and all of our customers end up using those.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4283.392,
+            4287.094
+          ],
+          "quote": "And even something as simple as just like install the Codex Cline and play around with it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 内部有一个团队在做实验，维护 100% 由 Codex 编写的代码库且不留逃生舱；OpenAI 将自己视为生态系统平台公司，API 是其第一个产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            35,
+            41.09
+          ],
+          "quote": "There's a team that's actually doing an experiment right now within OpenAI where they are maintaining a 100% Codex-written code base.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            71.821,
+            76.766
+          ],
+          "quote": "Today, my guest is Sherwin Wu, Head of Engineering for OpenAI's API and Developer Platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            77.126,
+            86.296
+          ],
+          "quote": "Considering that essentially every AI startup integrates with OpenAI's APIs, Sherwin has an incredibly unique and broad view into what is going on and where things are heading.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            223.084,
+            230.787
+          ],
+          "quote": "And so I know for myself and some of the other EMs, engineering managers at OpenAI, all of our code is written by Codex at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            307.781,
+            317.94
+          ],
+          "quote": "So just to make sure we hear what you're saying, you're saying all of the code of these 95% engineers at OpenAI is written by AI, it's written and then they review it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 165,
+          "t": [
+            785.26,
+            795.247
+          ],
+          "quote": "So there's a team that's actually doing an experiment right now with an OpenAI where they are basically maintaining a 100% Codex written code base.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1132.061,
+            1142.974
+          ],
+          "quote": "So just to make sure we get a barometer of today's world at OpenAI in terms of AI and code, just so I understand, and then I want to move on to different topic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1142.994,
+            1146.819
+          ],
+          "quote": "100% of code across OpenAI is written by Codex at this point.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1933.782,
+            1942.111
+          ],
+          "quote": "I think a lot of the lessons that I've learned here, I don't know how specific it is to the OpenAI API or some of our enterprise products in particular.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2345.05,
+            2351.274
+          ],
+          "quote": "And so we always talk about all these best practices for Codex, all these Codex-pilled people within OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2399.499,
+            2401.78
+          ],
+          "quote": "And this is kind of how we've run things within OpenAI too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2434.091,
+            2447.74
+          ],
+          "quote": "So obviously OpenAI has always wanted to be a very AI-centric company, but when it really started taking off was with the introduction of Codex and these tools where actual employees themselves could start applying it to their work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2922.669,
+            2930.235
+          ],
+          "quote": "And honestly, OpenAI API team has been guilty of this where we kind of took some left and right turns when we shouldn't have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3443.921,
+            3461.794
+          ],
+          "quote": "And going in a slightly different direction, having built a platform, building the API, people building on API, the biggest question on people's minds is always just, how do I not have OpenAI squash my idea and build their own thing and then destroy this market I created?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3462.335,
+            3468.159
+          ],
+          "quote": "What's the general policy, what's the general philosophy of how startups should think about where OpenAI is unlikely to go?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3476.703,
+            3482.866
+          ],
+          "quote": "I actually think startups should just not overly think about where OpenAI or these labs are going.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3489.169,
+            3495.792
+          ],
+          "quote": "Every startup that I've seen that is kind of fizzled out is not because OpenAI or a big lab or Google or something has come and squashed them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3557.03,
+            3571.879
+          ],
+          "quote": "The other thing I also think is important to remember, at least from an OpenAI perspective, one thing that we've always held very near and dear, which both Sam and Greg helped reinforce from the top as well, is we actually view ourselves fundamentally as a ecosystem platform company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3636.211,
+            3646.117
+          ],
+          "quote": "And so I'd really encourage people not to view OpenAI as this kind of thing that'll just shove people out of the way, but instead focus on building something valuable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3651.04,
+            3652.462
+          ],
+          "quote": "Why is that important to OpenAI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3669.562,
+            3673.664
+          ],
+          "quote": "So OpenAI's mission has always been, one, to build AGI, so we're obviously doing that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3821.082,
+            3824.665
+          ],
+          "quote": "OpenAI's mission was to make AI available to all of humanity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3849.639,
+            3851
+          ],
+          "quote": "And I know that's always been really important to OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3922.541,
+            3929.109
+          ],
+          "quote": "One last question, just for folks that are thinking about building on the API are just like, \"Oh wait, I could do cool stuff with OpenAI's models and APIs.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4729.804,
+            4734.507
+          ],
+          "quote": "And yeah, I mostly just tweet about OpenAI and the API and some of the products that we're launching.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4740.772,
+            4751
+          ],
+          "quote": "And so if you're working on a startup, if you're hacking on an idea, would love to... Just reach out to me on X. I would love to hear about what you're building and learn about how OpenAI can help support you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到连接公司内部知识的 ChatGPT 可以扫描 Slack 和文档，主动告诉管理者工程师下周可能被什么卡住",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1290.547,
+            1309.239
+          ],
+          "quote": "The other thing is, so this is more an observation, but my sense is with a lot of these AI tools available to managers, so less like writing code, but just things like ChatGPT with organizational knowledge, like being able to do research and understanding organizational context a lot better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1310.04,
+            1326.788
+          ],
+          "quote": "Another good example is we're doing performance reviews right now and it's actually really easy to use ChatGPT with internal knowledge hooked up to GitHub and our Notion Docs and Google Docs to get a really good sense of what this person has done over the last 12 months and writing a little deep research report for it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1874.768,
+            1880.599
+          ],
+          "quote": "It's probably like the months after we launched ChatGPT, the craziness that was.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2128.702,
+            2136.409
+          ],
+          "quote": "I haven't tried this yet, but I wonder what would happen if I ask ChatGPT hooked up to company knowledge, what are the active blockers?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2704.544,
+            2722.075
+          ],
+          "quote": "If you rewind back to 2022, right when ChatGPT launched, these models are pretty raw and there was like all this product scaffolding and things, especially in the developer space, to basically try and steer the model and build a scaffolding around it to get it to do what you want.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3609.236,
+            3615.178
+          ],
+          "quote": "We also want, we've recently been testing more of the sign-in with ChatGPT product as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3682.807,
+            3684.688
+          ],
+          "quote": "And obviously ChatGPT is trying to do this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3732.141,
+            3735.799
+          ],
+          "quote": "And you haven't even mentioned the app store that you guys are launching, the ChatGPT app store.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3740.84,
+            3741.941
+          ],
+          "quote": "So it's under ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3749.124,
+            3751.405
+          ],
+          "quote": "But that is more within the ChatGPT umbrella.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3754.586,
+            3764.311
+          ],
+          "quote": "It's like ChatGPT is... We kind of have these 800 million weekly active users who are just coming over and over again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3806.426,
+            3816.92
+          ],
+          "quote": "And the way I think about it is 10% of the world, and growing, by the way, it's shooting up, come to ChatGPT and use it every day, or sorry, every week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3828.467,
+            3842.055
+          ],
+          "quote": "And the fact that there's a free version of ChatGPT that anybody can use that is not so different from the most powerful AI model that exists in the world for free, that's not gated, that anyone can use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4287.474,
+            4296.098
+          ],
+          "quote": "Install ChatGPT and connect it to a couple of your internal data sources, Notion, Slack, GitHub, and see what it can and cannot do.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集举例说你可以告诉 Cursor 你想做什么，它就会替你去做，作为咒语式编程的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            612.824,
+            621.81
+          ],
+          "quote": "It is now literally incantations because you can tell Codex, you can tell Cursor exactly what you want to do and then it will go do it for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            820.643,
+            824.807
+          ],
+          "quote": "And then instead of using Codex, I might use tab complete and Cursor and things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3499.433,
+            3506.556
+          ],
+          "quote": "Whereas the ones that take off, even in very competitive spaces like coding, Cursor is huge at this point and it's because they built something that people really love.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "type": "company",
+      "role": "company",
+      "name": "Dropbox",
+      "file": "Dropbox",
+      "primary": false,
+      "how_described": "本集在赞助商部分提到 Dropbox 使用 DX 平台了解 AI 如何为开发者提供价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            113.371,
+            124.696
+          ],
+          "quote": "With DX, companies like Dropbox, booking.com, Adyen, and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "company",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": false,
+      "how_described": "本集在赞助商部分提到 Sentry 的 AI 调试智能体 Seer 能利用上下文告诉你根本原因并建议修复方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            141.903,
+            143.143
+          ],
+          "quote": "Sentry catches it all.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            159.608,
+            164.91
+          ],
+          "quote": "Sentry shows you how the request moved, what ran, what slowed down, and what users saw.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            165.43,
+            168.091
+          ],
+          "quote": "Seer, Sentry's AI debugging agent takes it from there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            168.531,
+            174.253
+          ],
+          "quote": "It uses all of that Sentry context to tell you the root cause, suggest a fix, and even opens a PR for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            179.595,
+            186.237
+          ],
+          "quote": "Try Sentry and Seer for free at sentry.io/lenny and use code LENNY for $100 in Sentry credits.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说工程师正在变成技术负责人，管理着一批又一批的智能体；当智能体干不好活时，核心问题往往是上下文和信息给得不够，而不是模型能力不够",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            165.43,
+            168.091
+          ],
+          "quote": "Seer, Sentry's AI debugging agent takes it from there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            796.507,
+            815.38
+          ],
+          "quote": "So you'll have the AI write code, but you'll obviously end up rewriting a lot of it and you might need to double-check and change things, but this team is just fully Codex-pilled and just leaning in entirely, and they run into the exact problems that you're describing, which is like, their challenge is, \"I want to get this thing, this feature built, but I can't get the agent to do it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 170,
+          "t": [
+            829.69,
+            833.073
+          ],
+          "quote": "And so then the challenge, how do I get the agent to do this?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            844.101,
+            856.712
+          ],
+          "quote": "One interesting thing that we've noticed, and I don't know if this is what you kind of feel, but we definitely feel it here is a lot of the time when the coding agent is not doing what you want, it's usually a problem with context and just like information that you've given it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            856.793,
+            864.48
+          ],
+          "quote": "It's just you've either underspecified or there's just not enough information around how to do something available to the agent, available to Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2722.836,
+            2729.74
+          ],
+          "quote": "Like agent frameworks, there's like vector stores I think was like really popular back then and just like a whole smattering of tools here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2765.841,
+            2769.264
+          ],
+          "quote": "You have literally seen this play out where like the agent frameworks I think are a little less useful now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2840.872,
+            2844.235
+          ],
+          "quote": "I want a better agent framework for this.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3997.046,
+            4006.81
+          ],
+          "quote": "This allows you to use the Responses API or some other API endpoints that we have to build what you might more traditionally think of as an agent, like an AI working in an infinite loop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4028.88,
+            4035.404
+          ],
+          "quote": "And then above that, we've now started building tools to help also with the meta level of deploying an agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4057.034,
+            4069.74
+          ],
+          "quote": "We also have a smattering of evals products, like an evals API where if you want to test and see if your agent or your workflow's working, you can test it in a very quantitative way using our evals product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4084.311,
+            4097
+          ],
+          "quote": "And so you can use the whole stack and it very quickly allows you to build an agent, or you can go down the stack as low as you want to basically Responses API and build whatever you want because of how low low level it is.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集用《魔法师的学徒》比喻 vibe coding 的极致状态：Mickey 让扫帚干活自己跑去睡觉，结果扫帚失控水淹一切——你不能设好就不管",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            589.025,
+            598.453
+          ],
+          "quote": "And I think it's actually playing out as we move into this new era of vibe coding or just like what software engineering will look like because programming languages were basically using incantations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 134,
+          "t": [
+            659.175,
+            661.917
+          ],
+          "quote": "And so it's like vibe coding at its greatest.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "scaffolding",
+      "type": "concept",
+      "role": "concept",
+      "name": "脚手架 (scaffolding)",
+      "file": "脚手架",
+      "primary": true,
+      "how_described": "本集引用说法'模型会把你的脚手架当早餐吃掉'，说 2022 年大家建的智能体框架、向量存储等脚手架，随着模型变强很多被吃掉了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            57.396,
+            59
+          ],
+          "quote": "The models will eat your scaffolding for breakfast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2660.884,
+            2681.793
+          ],
+          "quote": "I just think the AI field, especially what I've seen over the last three years working on the API and seeing all that evolve, is the field and the models themselves are just changing so, so quickly, they tend to disrupt themselves, especially around the tooling and the scaffolding space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2698.42,
+            2704.524
+          ],
+          "quote": "And this phrase that I thought was really good, which is the models will eat your scaffolding for breakfast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2704.544,
+            2722.075
+          ],
+          "quote": "If you rewind back to 2022, right when ChatGPT launched, these models are pretty raw and there was like all this product scaffolding and things, especially in the developer space, to basically try and steer the model and build a scaffolding around it to get it to do what you want.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2730.38,
+            2740.266
+          ],
+          "quote": "And as you've kind of seen the field play out, the models have just changed so much and gotten so much better that they ended up literally eating some of the scaffolding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2742.647,
+            2749.951
+          ],
+          "quote": "So I think that the article from Nicolas actually, the current scaffolding which is fashionable is Skills, files-based context management.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2789.941,
+            2793.302
+          ],
+          "quote": "All of that is scaffolding because the model was not good enough.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2816.315,
+            2824.52
+          ],
+          "quote": "I know a lot of companies still using it, but the entire scaffolding around that and building an entire ecosystem around that and assuming that's the only scaffolding that you need has really changed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 706,
+          "t": [
+            4008.951,
+            4011.593
+          ],
+          "quote": "It starts building all this framework, all the scaffolding actually.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "business-process-automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "业务流程自动化 (business process automation)",
+      "file": "业务流程自动化",
+      "primary": true,
+      "how_described": "本集说世界经济的主体是可重复的业务流程（客服按 SOP 走流程、公用事业公司按固定规则处理请求），用 AI 自动化这些高确定性流程的机会被严重低估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 560,
+          "t": [
+            3221.351,
+            3226.319
+          ],
+          "quote": "You're very bullish on business process automation as an opportunity in the world of AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3335.4,
+            3369.735
+          ],
+          "quote": "And so I'm just extremely bullish on this general category of like... And I think it's underrated because it's so different from what we think about in Silicon Valley, people tend to not think about it, but how can we apply AI and some of the tools and frameworks that we have towards this business process automation, towards automating and making easier repeatable business processes with high determinism that is fully integrated with business data and business decisions and different systems within an enterprise and how can we actually make that process better?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vector-store",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量存储 (vector store)",
+      "file": "向量存储",
+      "primary": false,
+      "how_described": "本集说 2023 年大家以为向量存储是将组织上下文引入模型的主要方式，但后来发现更好的方法是信任模型并给它搜索工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 491,
+          "t": [
+            2803.808,
+            2805.109
+          ],
+          "quote": "It doesn't need to be a vector store.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2836.569,
+            2840.432
+          ],
+          "quote": "And if you just blindly listen to your customers, they'll be like, \"Yeah, I want a better vector store.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体框架 (agent framework)",
+      "file": "智能体框架",
+      "primary": false,
+      "how_described": "本集说随着模型变强，智能体框架变得没那么有用了，这是模型吃掉脚手架的例子之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 499,
+          "t": [
+            2840.872,
+            2844.235
+          ],
+          "quote": "I want a better agent framework for this.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "primary": false,
+      "how_described": "本集说未来 12 到 18 个月多模态模型会有改进，尤其是语音对语音的原生多模态模型，音频在企业场景中被严重低估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 545,
+          "t": [
+            3135.78,
+            3141.764
+          ],
+          "quote": "Another thing over the next 12 to 18 months, what I think would be really cool is improvements in the multimodal models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3142.144,
+            3158.995
+          ],
+          "quote": "And actually by multimodality, I'm mostly thinking about audio here where the models are pretty good at audio, I think they're going to get a lot better at audio over the next 6 to 12 months, especially the native multimodal models, the speech to speech ones.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3159.675,
+            3167.119
+          ],
+          "quote": "I think there's also interesting work being done around new types of models and architectures on the multimodal audio side as well.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集在介绍 Agents SDK 时提到可以给智能体护栏，允许它把子任务外包给其他智能体并编排一群智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 707,
+          "t": [
+            4012.193,
+            4024.558
+          ],
+          "quote": "We'll see where this all goes, but it makes it a lot easier for you to build these kind of agents, giving it guardrails, allowing it to farm out sub-tasks to other agents and kind of orchestrate a swarm of agents.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": true,
+      "how_described": "本集说 API 是 OpenAI 的第一个产品，最流行的端点是 Responses API，针对构建长时间运行的智能体做了优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            71.821,
+            76.766
+          ],
+          "quote": "Today, my guest is Sherwin Wu, Head of Engineering for OpenAI's API and Developer Platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1909.806,
+            1919.532
+          ],
+          "quote": "Just thinking about you as a manager of a team that is building the platform that powers basically the entire AI economy, like every AI startup is building on your API.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1933.782,
+            1942.111
+          ],
+          "quote": "I think a lot of the lessons that I've learned here, I don't know how specific it is to the OpenAI API or some of our enterprise products in particular.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2250.322,
+            2252.944
+          ],
+          "quote": "I'm going to shift to talking about the API and the platform that you all build.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2254.225,
+            2260.248
+          ],
+          "quote": "So you work with a lot of companies implementing your API, your platform building on your tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2660.884,
+            2681.793
+          ],
+          "quote": "I just think the AI field, especially what I've seen over the last three years working on the API and seeing all that evolve, is the field and the models themselves are just changing so, so quickly, they tend to disrupt themselves, especially around the tooling and the scaffolding space.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2922.669,
+            2930.235
+          ],
+          "quote": "And honestly, OpenAI API team has been guilty of this where we kind of took some left and right turns when we shouldn't have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2937.801,
+            2947.239
+          ],
+          "quote": "So what would be the key takeaway for folks building on say the API or just building agents and having to build a little bit of this around for now, is it just, yeah, what would be the advice?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3016.24,
+            3023.689
+          ],
+          "quote": "So to follow that thread, like in the next 6 to 12 months, where is the API heading?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3443.921,
+            3461.794
+          ],
+          "quote": "And going in a slightly different direction, having built a platform, building the API, people building on API, the biggest question on people's minds is always just, how do I not have OpenAI squash my idea and build their own thing and then destroy this market I created?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3571.919,
+            3573.72
+          ],
+          "quote": "The API was our first product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3584.465,
+            3587.346
+          ],
+          "quote": "Every single model we've released in one of our products gets released in the API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3587.866,
+            3598.191
+          ],
+          "quote": "Even we release these Codex models now that are a little bit more optimized for the Codex harness, but they always find their way into the API and all of our customers end up using those.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3632.548,
+            3636.191
+          ],
+          "quote": "Our API itself has grown pretty significantly because we act in this way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3687.469,
+            3692.951
+          ],
+          "quote": "But very early on, and this is why we launched the API back in, I think it was like 2020 or something really early.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3718.24,
+            3720.323
+          ],
+          "quote": "And so we've largely seen this play out with the API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3922.541,
+            3929.109
+          ],
+          "quote": "One last question, just for folks that are thinking about building on the API are just like, \"Oh wait, I could do cool stuff with OpenAI's models and APIs.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3929.71,
+            3933.315
+          ],
+          "quote": "What does your API and platform allow people to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3937.86,
+            3945.664
+          ],
+          "quote": "So fundamentally, the API offers a bunch of developer endpoints, and these developer emperors basically let you sample from our models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3946.104,
+            3949.545
+          ],
+          "quote": "The most popular one that we have right now is one called Responses API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3976.117,
+            3978.178
+          ],
+          "quote": "That's the most popular way of building on top of our API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3997.046,
+            4006.81
+          ],
+          "quote": "This allows you to use the Responses API or some other API endpoints that we have to build what you might more traditionally think of as an agent, like an AI working in an infinite loop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4036.204,
+            4055.533
+          ],
+          "quote": "So we have this product called AgentKit and widgets, which are basically a bunch of UI components that you can use to very easily build a very beautiful UI on top of either our API or Agents SDK because a lot of times these agents look very similar from a UI perspective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4057.034,
+            4069.74
+          ],
+          "quote": "We also have a smattering of evals products, like an evals API where if you want to test and see if your agent or your workflow's working, you can test it in a very quantitative way using our evals product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4084.311,
+            4097
+          ],
+          "quote": "And so you can use the whole stack and it very quickly allows you to build an agent, or you can go down the stack as low as you want to basically Responses API and build whatever you want because of how low low level it is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4729.804,
+            4734.507
+          ],
+          "quote": "And yeah, I mostly just tweet about OpenAI and the API and some of the products that we're launching.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": false,
+      "how_described": "本集说 Codex 把代码审查从 10 到 15 分钟压到 2 到 3 分钟，人只需关注 30% 而不是 100%，小的 PR 甚至不需要人审",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            168.531,
+            174.253
+          ],
+          "quote": "It uses all of that Sentry context to tell you the root cause, suggest a fix, and even opens a PR for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2077.944,
+            2088.809
+          ],
+          "quote": "If people are just cranking PR after PR, the main thing bottlenecking progress and shipping something tends to be organizational or process oriented.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "本集说 CI 流程里遇到 lint 错误，Codex 可以直接打补丁并重启 CI 流程，工程师几乎不需要介入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1030.46,
+            1038.344
+          ],
+          "quote": "The general CI process and the post kind of push and deployment process has also been heavily automated via Codex internally at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1056.612,
+            1062.455
+          ],
+          "quote": "If there's like a lint error, it's a very easy Codex fix and it could just patch it and then kind of restart the CI process.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

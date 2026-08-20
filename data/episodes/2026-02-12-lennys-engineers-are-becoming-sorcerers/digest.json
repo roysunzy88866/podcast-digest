@@ -1,0 +1,201 @@
+{
+  "title_zh": "OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应",
+  "tldr": "OpenAI 工程负责人揭示内部 95% 工程师日常用 Codex 写代码，以及他对一人公司生态、脚手架被模型吃掉等趋势的判断。",
+  "digest_md": "OpenAI 内部，95% 的工程师每天用 Codex 写代码，100% 的 PR 由 Codex 审查。用得多的工程师比不常用的多开 70% 的 PR，而且这个差距还在拉大 [04:16 Sherwin Wu]。这不是某个前沿实验，而是已经跑起来的日常。\n\n## 工程师变成巫师，但别学《魔法师的学徒》\n\nSherwin 用了一个来自 MIT 经典教材 SICP（被圈内人称为\"巫师书\"）的比喻：程序员就是巫师，编程语言是咒语，你念一句，计算机替你办事。这本 1980 年的书预言的东西，现在真的发生了——你告诉 Codex 你要什么，它就去干 [09:19 Sherwin Wu]。\n\n但他更想强调的是《幻想曲》里《魔法师的学徒》那一面：Mickey 拿到魔法师的帽子，让扫帚干活，自己跑去睡觉，结果扫帚失控、水淹一切。现在很多工程师同时开 10 到 20 个 Codex 线程，确实像在施法，但你需要有足够的经验和判断力确保模型不脱轨——这不是\"设好就不管\"的事，杠杆率极高，但也需要你盯着 [10:22 Sherwin Wu]。\n\n## 智能体不干活，大概率是你给的上下文不够\n\nOpenAI 内部有个极端实验：一个团队维护 100% 由 Codex 生成的代码库，并且**不给自己留逃生舱**——遇到智能体搞不定的问题，不能说\"算了我自己写\" [13:05 Sherwin Wu]。这个团队遇到的和你一样：想让它做某个功能，但它就是做不出来。\n\n他们发现的核心问题不是模型能力不够，而是**上下文和信息给得不够**。要么是你描述得太模糊，要么是智能体拿不到它需要的背景知识。解决办法是把原来只存在于工程师脑子里的\"部落知识\"编码进代码库——通过代码注释、代码结构本身、或者 .md 文件、Skills 等额外资源，让模型能自己找到该知道的东西 [14:04 Sherwin Wu]。\n\n代码审查这边，Codex 把一个 10 到 15 分钟的任务压到了 2 到 3 分钟：它先审一遍，把建议都列好，人来看的时候只需关注 30% 而不是 100%。小的 PR 甚至不需要人审，Codex 本身就是那双\"够聪明的第二双眼睛\" [16:26 Sherwin Wu]。CI 流程里遇到 lint 错误之类的问题，Codex 直接打补丁、重启流程，工程师几乎不需要介入 [17:10 Sherwin Wu]。\n\n## AI 让好人更好、让优秀的人卓越，管理者该把时间押注在哪\n\nCodex 让顶尖表现者的产出进一步拉开差距。Sherwin 的管理哲学因此更极端：**把超过 50% 的时间花在前 10% 的人身上**，确保他们没有阻碍、感到被赋权 [32:13 Sherwin Wu]。他引用《人月神话》的类比——虽然软件工程不像手术那样只有一个人动刀，但管理者应该让每个工程师感觉自己就是主刀医生，而你就是那个递手术刀、帮他扫清一切障碍的团队 [32:48 Sherwin Wu]。\n\n在 AI 时代这更重要了：当工程师能疯狂输出 PR 时，卡住他们的通常不是写代码本身，而是组织和流程层面的阻碍。管理者如果能提前看到这些弯角并清掉，价值巨大 [34:27 Sherwin Wu]。他甚至觉得可以让连着公司内部知识的 ChatGPT 去扫描 Slack 和文档，主动告诉你\"这个工程师下周可能会被什么卡住\" [35:28 Sherwin Wu]。\n\n另一个趋势：管理者可能管更大的团队。现在软件工程的最佳实践是六到八人，但有了 AI 工具帮管理者理解团队在干什么、掌握组织上下文，这个数字可能会显著扩大 [22:16 Sherwin Wu]。\n\n## 一人独角兽的二阶效应：B2B SaaS 的黄金时代\n\n\"一人十亿美元初创公司\"这个说法本身不新鲜，但 Sherwin 认为人们没算清楚它的二阶和三阶效应 [24:30 Sherwin Wu]。\n\n第一层：如果一个人能杠杆到十亿美元，那创办任何一家公司都变容易了。第二层：会有大量小公司涌现——不是为了自己做独角兽，而是给那些一人公司做定制软件。比如可能有 10 到 20 家单人公司专门做播客和 Newsletter 的客服工具，那个\"一人独角兽\"买他们的服务就行 [30:02 Sherwin Wu]。所以结果可能是：1 家十亿美元公司，100 家一亿美元公司，数万家一千万美元公司。对个人来说，一千万美元的业务已经足够终身无忧了 [26:53 Sherwin Wu]。\n\n第三层效应更激进：如果大量公司变成只有一两个人的微型公司，VC 生态会变。那种能带来 100 倍、1000 倍回报的风险投资级标的可能会变少，取而代之的是大量对 VC 不友好但对个人极好的小生意 [27:29 Sherwin Wu]。\n\n## 负 ROI 的 AI 部署，几乎都是同一个反模式\n\nSherwin 观察到很多公司的 AI 部署可能是负 ROI，根源几乎一样：**纯自上而下，没有自下而上的采用** [41:07 Sherwin Wu]。高管说\"我们要 AI-first\"，买了工具，写进绩效考核，但一线员工根本不知道怎么用，环顾四周也没人会用，没有可以学习的人。\n\n有效的模式是两边都有：高层支持 + 内部有一批真正兴奋的人在做知识分享和最佳实践沉淀。他的建议是找到公司里那些\"技术Adjacent\"的人——不一定是软件工程师，可能是支持团队的运营负责人、Excel 高手，这些人往往最先被 AI 工具点燃。围绕他们建一个内部布道团队，让他们办研讨会、做知识分享，创造兴奋感 [41:53 Sherwin Wu]。\n\n## 别为模型今天的状态构建产品\n\n\"模型会把你的脚手架当早餐吃掉\"——Sherwin 引用了一个他非常认同的说法 [44:58 Sherwin Wu]。2022 年 ChatGPT 刚发布时，模型很原始，所以大家建了大量脚手架：智能体框架、向量存储、复杂的检索链。但随着模型变强，很多脚手架被吃掉了——你不再需要那么复杂的向量检索管线，直接给模型搜索工具它就能用 [45:22 Sherwin Wu]。\n\n这对产品决策的含义是：**别盲目听客户的**。客户会说\"我想要更好的向量存储\"，因为他们在局部最优里。如果你只追这个反馈，你也在局部最优里。你得同时看模型在往哪走，为模型的方向构建，而不是为它今天的样子 [47:10 Sherwin Wu]。他看到跑得好的初创公司往往是这样的：为一种\"今天实现了 80% 但即将完全解锁\"的能力设计产品，等模型一到那个水平，产品突然就通了 [49:18 Sherwin Wu]。\n\n具体方向上，两个他最兴奋的：一是模型能连贯执行的任务长度在快速拉长，从分钟级走向小时级，未来 12 到 18 个月可能达到六小时甚至一天级别的连贯任务，围绕这个能建的产品会完全不同 [50:34 Sherwin Wu]。二是音频——语音对语音的原生多模态模型在企业场景里被严重低估，大量商业活动是通过说话完成的 [52:15 Sherwin Wu]。\n\n## 被低估的机会：业务流程自动化\n\n硅谷的泡沫让我们只盯着软件工程——开放式、不可重复的知识工作。但世界经济的主体是**可重复的业务流程**：客服按 SOP 走流程、公用事业公司按固定规则处理请求 [54:18 Sherwin Wu]。软件工程的乐趣在于\"偏离\"，但大量工作的价值在于\"不偏离\"。用 AI 去自动化这些高确定性、与业务数据深度集成的重复流程，机会比大家在 X 上讨论的大得多 [55:07 Sherwin Wu]。\n\n## 本集带走\n\n- **智能体干不好，先查上下文**：不是模型不行，是你给的信息不够。把\"部落知识\"写进代码注释、.md 文件、Skills 里，让模型能自己找到。\n- **不留逃生舱才能逼出真方法**：那个 100% Codex 代码库的团队之所以能沉淀出最佳实践，正是因为他们禁止自己\"撸起袖子自己写\"。\n- **管理者把 50% 以上的时间砸在前 10% 的人身上**：AI 时代顶尖表现者的产出会被进一步放大，你的核心工作是帮他们清掉组织和流程层面的阻碍。\n- **AI 部署要自下而上，不能只靠高管令**：找到公司里最被 AI 点燃的那几个\"技术Adjacent\"的人，围绕他们建布道团队，别只把 AI 写进 KPI。\n- **为模型的方向构建，别为今天的模型构建**：客户要\"更好的脚手架\"时，想想这个脚手架会不会被下一代模型吃掉。为 80% 已经实现、即将完全解锁的能力设计产品。\n- **别忽略业务流程自动化**：软件工程之外的、可重复的、高确定性的企业流程，是 AI 最大的被低估机会之一。",
+  "quotes": [
+    {
+      "en": "To enable a one person billion dollar startup, there might be a hundred other small startups building bespoke software.",
+      "zh": "为了实现一人独角兽公司，可能会有另外一百家小型初创公司在构建定制软件。",
+      "timestamp": "00:22",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "There's a team that's actually doing an experiment right now within OpenAI where they are maintaining a 100% Codex-written code base.",
+      "zh": "有一个团队实际上正在 OpenAI 内部进行一项实验，他们维护着一个 100% 由 Codex 编写的代码库。",
+      "timestamp": "00:35",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "Listening to customers is not always the right strategy in AI.",
+      "zh": "在 AI 领域，听取客户的意见并不总是正确的策略。",
+      "timestamp": "00:48",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "The models will eat your scaffolding for breakfast.",
+      "zh": "模型会把你的脚手架当早餐吃掉。",
+      "timestamp": "00:57",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "There's a quote from Kevin Weil, our VP of science here, and he likes saying, \"This is the worst the models will ever be.\"",
+      "zh": "这里有我们这里负责科学的副总裁 Kevin Weil 的一句话，他喜欢说：\"这是模型有史以来最糟糕的时候。\"",
+      "timestamp": "01:05",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "Make sure you're building for where the models are going and not where they are today.",
+      "zh": "确保你是为模型的发展方向而构建，而不是为了它们今天的样子。",
+      "timestamp": "01:02",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "So they're actually opening 70% more PRs than the engineers who aren't using Codex as much.",
+      "zh": "所以他们实际上比那些不太使用 Codex 的工程师多开 70% 的 PR。",
+      "timestamp": "04:47",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "And as an end result, you end up with a giant workforce that doesn't really understand the technology, is like, \"I know I'm supposed to use this and maybe it's like on my performance review too, but I'm not sure what to do.\"",
+      "zh": "最终结果是你拥有一个庞大的劳动力，他们并不真正理解这项技术，就像，\"我知道我应该使用这个，也许它也在我的绩效评估中，但我不知道该做什么。\"",
+      "timestamp": "41:19",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "My general advice, and I've been giving this to people for a while and I think it's still true today is make sure you're building for where the models are going and not where they are today.",
+      "zh": "我的一般建议，我给人们这个建议已经有一段时间了，我认为今天仍然适用，那就是确保你是为模型的发展方向而构建，而不是为它们今天的状态而构建。",
+      "timestamp": "49:08",
+      "speaker": "Sherwin Wu"
+    },
+    {
+      "en": "In software engineering, the ingenuity is in deviating, but a lot of the work being done in the world is actually just running through these procedures and operations.",
+      "zh": "在软件工程中，独创性在于偏离，但世界上正在做的很多工作实际上只是运行这些程序和运营。",
+      "timestamp": "55:14",
+      "speaker": "Sherwin Wu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Unknown",
+      "en": "For engineers, I don't know what job has changed more in the past couple years.",
+      "zh": "对工程师来说，我不知道过去几年中还有什么工作发生了这么大的变化。"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Unknown",
+      "en": "It literally feels like we're wizards casting all these spells and these spells are kind of like going out and doing things for you.",
+      "zh": "这真的感觉就像我们是巫师在施放这些法术，而这些法术有点像是替你出去办事。"
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Unknown",
+      "en": "The second or third order effects of the one person billion dollar startup.",
+      "zh": "一人独角兽公司的二阶或三阶效应。"
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Unknown",
+      "en": "To enable a one person billion dollar startup, there might be a hundred other small startups building bespoke software.",
+      "zh": "为了实现一人独角兽公司，可能会有另外一百家小型初创公司在构建定制软件。"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Unknown",
+      "en": "There's a team that's actually doing an experiment right now within OpenAI where they are maintaining a 100% Codex-written code base.",
+      "zh": "有一个团队实际上正在 OpenAI 内部进行一项实验，他们维护着一个 100% 由 Codex 编写的代码库。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Unknown",
+      "en": "And so usually you're like, \"All right, I'll roll up my sleeves and figure it out.\"",
+      "zh": "所以通常你会说，\"好吧，我要卷起袖子自己搞清楚。\""
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Unknown",
+      "en": "This team doesn't have that escape hatch.",
+      "zh": "这个团队没有那个逃生舱口。"
+    },
+    {
+      "timestamp": "00:48",
+      "speaker": "Unknown",
+      "en": "Listening to customers is not always the right strategy in AI.",
+      "zh": "在 AI 领域，听取客户的意见并不总是正确的策略。"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Unknown",
+      "en": "They tend to disrupt themselves.",
+      "zh": "它们往往会自我颠覆。"
+    },
+    {
+      "timestamp": "00:57",
+      "speaker": "Unknown",
+      "en": "The models will eat your scaffolding for breakfast.",
+      "zh": "模型会把你的脚手架当早餐吃掉。"
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Unknown",
+      "en": "There's a quote from Kevin Weil, our VP of science here, and he likes saying, \"This is the worst the models will ever be.\"",
+      "zh": "这里有我们这里负责科学的副总裁 Kevin Weil 的一句话，他喜欢说：\"这是模型有史以来最糟糕的时候。\""
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Unknown",
+      "en": "Make sure you're building for where the models are going and not where they are today.",
+      "zh": "确保你是为模型的发展方向而构建，而不是为了它们今天的样子。"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Unknown",
+      "en": "So they're actually opening 70% more PRs than the engineers who aren't using Codex as much.",
+      "zh": "所以他们实际上比那些不太使用 Codex 的工程师多开 70% 的 PR。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Unknown",
+      "en": "It says like software engineers are like wizards and programming languages are like incantations and you're like, you're issuing these spells and these spells are kind of like going out and doing things for you.",
+      "zh": "它说软件工程师就像巫师，编程语言就像咒语，你就像，你在施展这些法术，这些法术就像在外面为你做事情。"
+    },
+    {
+      "timestamp": "10:59",
+      "speaker": "Unknown",
+      "en": "I think he literally sets the brooms off on a task and then goes to sleep.",
+      "zh": "我认为他字面上是让扫帚开始执行任务，然后去睡觉了。"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Unknown",
+      "en": "It's just you've either underspecified or there's just not enough information around how to do something available to the agent, available to Codex.",
+      "zh": "只是你要么规定不足，要么关于如何做某事没有足够的信息可供智能体使用，可供 Codex 使用。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Unknown",
+      "en": "Codex is really good at reviewing code.",
+      "zh": "Codex 非常擅长审查代码。"
+    },
+    {
+      "timestamp": "21:18",
+      "speaker": "Unknown",
+      "en": "It is something that's paid dividends.",
+      "zh": "这是一件产生回报的事情。"
+    },
+    {
+      "timestamp": "26:31",
+      "speaker": "Unknown",
+      "en": "And so I think we might actually enter into a golden age of like B2B SaaS and just like software and startups in general.",
+      "zh": "所以我认为我们实际上可能会进入 B2B SaaS 的黄金时代，就像软件和初创公司总体一样。"
+    },
+    {
+      "timestamp": "41:19",
+      "speaker": "Unknown",
+      "en": "And as an end result, you end up with a giant workforce that doesn't really understand the technology, is like, \"I know I'm supposed to use this and maybe it's like on my performance review too, but I'm not sure what to do.\"",
+      "zh": "最终结果是你拥有一个庞大的劳动力，他们并不真正理解这项技术，就像，\"我知道我应该使用这个，也许它也在我的绩效评估中，但我不知道该做什么。\""
+    },
+    {
+      "timestamp": "49:18",
+      "speaker": "Unknown",
+      "en": "My general advice, and I've been giving this to people for a while and I think it's still true today is make sure you're building for where the models are going and not where they are today.",
+      "zh": "我的一般建议，我给人们这个建议已经有一段时间了，我认为今天仍然适用，那就是确保你是为模型的发展方向而构建，而不是为它们今天的状态而构建。"
+    },
+    {
+      "timestamp": "55:14",
+      "speaker": "Unknown",
+      "en": "In software engineering, the ingenuity is in deviating, but a lot of the work being done in the world is actually just running through these procedures and operations.",
+      "zh": "在软件工程中，独创性在于偏离，但世界上正在做的很多工作实际上只是运行这些程序和运营。"
+    }
+  ]
+}

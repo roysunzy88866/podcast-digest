@@ -1,0 +1,1934 @@
+{
+  "episode_id": "2026-02-19-lennys-head-of-claude-code-what-happens",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-19",
+  "tags": [
+    "AI 编码",
+    "智能体",
+    "Claude Code",
+    "产品方法",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "boris-cherny",
+      "type": "person",
+      "role": "host",
+      "name": "Boris Cherny",
+      "file": "Boris Cherny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            56.22,
+            60.023
+          ],
+          "quote": "Today my guest is Boris Cherny, head of Claude Code at Anthropic.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            112.907,
+            119.495
+          ],
+          "quote": "Don't forget to check out LennysProductPass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 43,
+          "t": [
+            158.996,
+            163.738
+          ],
+          "quote": "To learn more, visit DX's website at GetDX.com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            164.138,
+            165.859
+          ],
+          "quote": "That's GetDX.com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 54,
+          "t": [
+            213.593,
+            221.256
+          ],
+          "quote": "Try Scntry and Seer for free at Scntry.AO/Lenny, and use code LENNY for $100 in Scntry credits.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            221.576,
+            225.398
+          ],
+          "quote": "That's S-C-N-T-R-Y dot A-O slash Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2667.893,
+            2674.097
+          ],
+          "quote": "Try Metaview today for free and get an extra month of sourcing at Metaview.AI/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2674.357,
+            2677.72
+          ],
+          "quote": "That's M-E-T-A View dot AI slash Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1285,
+          "t": [
+            4845,
+            4850.498
+          ],
+          "quote": "I also don't know if it's a product, but maybe also another podcast that I really love ... Obviously, besides Lenny is-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1331,
+          "t": [
+            5007,
+            5010.243
+          ],
+          "quote": "I think a lot of this was also some of this was also inspired by you, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1431,
+          "t": [
+            5239.232,
+            5239.616
+          ],
+          "quote": "Thanks, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 的编码智能体产品，起始于终端工具 Claude CLI，目前占全球 GitHub 公开提交的 4%，Boris 每天用它提交 10 到 30 个 PR，100% 代码由其编写",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.421,
+            2.124
+          ],
+          "quote": "100% of my code is written by Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            56.22,
+            60.023
+          ],
+          "quote": "Today my guest is Boris Cherny, head of Claude Code at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            60.484,
+            64.487
+          ],
+          "quote": "It is hard to describe the impact that Claude Code has had on the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            64.988,
+            68.771
+          ],
+          "quote": "Around the time this episode comes out will be the one year anniversary of Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 27,
+          "t": [
+            79.02,
+            85.405
+          ],
+          "quote": "Claude Code itself is also a massive driver of Anthropic's overall growth over the past year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            88.667,
+            93.31
+          ],
+          "quote": "And as Boris mentions, the growth of Claude Code itself is still accelerating.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            340.504,
+            345.387
+          ],
+          "quote": "This podcast is going to come out around the year anniversary of launching Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 85,
+          "t": [
+            350.231,
+            358.676
+          ],
+          "quote": "There's this report that recently came out that I'm sure you saw by Semi-Analysis that showed that 4% of all GitHub commits are authored by Claude Code now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            416.441,
+            428.035
+          ],
+          "quote": "And I think the crazy thing for me isn't even the number that we're at right now, but the pace at which we're growing, because if you look at Claude Code's growth rate across any metric it's continuing to accelerate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            432.02,
+            436.823
+          ],
+          "quote": "When I first started Claude Code, it was just supposed to be a little hack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 109,
+          "t": [
+            474.884,
+            477.81
+          ],
+          "quote": "So, we built Claude Code, we built MCP, we built the desktop app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 131,
+          "t": [
+            570.451,
+            575.9
+          ],
+          "quote": "So, I took a little detour to do that, and then I came back and just started prototyping what eventually became Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            678.146,
+            680.448
+          ],
+          "quote": "For the last year, Claude Code has just been all I think about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 166,
+          "t": [
+            716.905,
+            723.831
+          ],
+          "quote": "Actually, something that people don't really remember is Claude Code was not initially a hit when we released it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 170,
+          "t": [
+            735.26,
+            744.41
+          ],
+          "quote": "And when I think about it, part of the reason Claude Code works is this idea of latent demand where we bring the tool to where people are, and it makes the existing workflows a little bit easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            753.04,
+            757.506
+          ],
+          "quote": "And, of course, now Claude Code is available in the iOS and Android Claude app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            943.907,
+            953.256
+          ],
+          "quote": "In the early days of Claude Code, I had no idea that this thing would be useful at all, because even in February when we released it, it was writing maybe, like, I don't know, 20% of my code, not more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 235,
+          "t": [
+            977.522,
+            980.552
+          ],
+          "quote": "So, at this point, 100% of your code is written by Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 238,
+          "t": [
+            984.502,
+            986.044
+          ],
+          "quote": "So, 100% of my code is written by Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1012.021,
+            1013.002
+          ],
+          "quote": "100% written by Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1175.066,
+            1178.871
+          ],
+          "quote": "Like, for us, we have this channel that's all the internal feedback about Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1238.251,
+            1244.856
+          ],
+          "quote": "Now humans are necessary for figuring out what to build, what to prioritize,\" and you're saying that's where Claude Code is starting to help you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1276.668,
+            1282.253
+          ],
+          "quote": "Like, at Anthropic, over the last year, like, since we introduced Claude Code, we probably ... I don't know the exact number.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1378.348,
+            1382.373
+          ],
+          "quote": "And so, what this is is Claude Code, the memory usage is going up, and, at some point, it crashes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1396.04,
+            1406.188
+          ],
+          "quote": "And I was doing this, and I was looking through these traces, and trying to figure out what was going on, and the engineer that was newer on the team just had Claude Code do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1409.23,
+            1412.072
+          ],
+          "quote": "And so, Claude Code did exactly the same thing that I was doing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1947.421,
+            1958.778
+          ],
+          "quote": "My take is I think for people that are using Claude Code, that are using agents to code today, you still have to understand the layer under, but, yeah, in a year or two, it's not going to matter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2324.444,
+            2325.645
+          ],
+          "quote": "So, Claude Code team is hiring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2343.305,
+            2353.039
+          ],
+          "quote": "This is something that we hear from a lot of customers where they love the tool, they love Claude Code, because it just makes coding delightful again, and that's just so fun for them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2492.208,
+            2493.75
+          ],
+          "quote": "So, on the Claude Code team everyone codes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2805.36,
+            2806.802
+          ],
+          "quote": "And it's actually the same as at Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2815.331,
+            2821.457
+          ],
+          "quote": "But you still get the power of Claude Code, and the biggest thing is you can just run as many Claude sessions in parallel as you want.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2959.125,
+            2964.128
+          ],
+          "quote": "We saw that for the last six months or so, a lot of people using Claude Code were not using it to code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2997.241,
+            3005.307
+          ],
+          "quote": "Back in maybe May of last year, I remember walking into the office and our data scientist Brendan had a Claude Code on his computer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3028.866,
+            3029.968
+          ],
+          "quote": "He downloaded Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3070.641,
+            3081.172
+          ],
+          "quote": "And so, when we first started building Claude Code, I think a lot of the way that people approached designing things with LLMs is they put the model in a box, and they were like, \"Here's this application that I want to build.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3088,
+            3089.182
+          ],
+          "quote": "And for Claude Code, we inverted that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3136.102,
+            3138.966
+          ],
+          "quote": "Claude Code, like I said, when we released it it was not immediately a hit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3163.985,
+            3165.788
+          ],
+          "quote": "Much more so than Claude Code was early on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3178.103,
+            3180.646
+          ],
+          "quote": "Like, we saw people using Claude Code for these non-technical things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3189.234,
+            3192.197
+          ],
+          "quote": "What if we just take Claude Code and put it in the desktop app?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3195.901,
+            3198.645
+          ],
+          "quote": "And so, over 10 days they just completely used Claude Code to build it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3210.861,
+            3215.666
+          ],
+          "quote": "So, for example, we ship an entire virtual machine with it, and Claude Code just wrote all of this code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3221.932,
+            3223.514
+          ],
+          "quote": "It was fully implemented with Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3330.44,
+            3334.384
+          ],
+          "quote": "We released Claude Code really early, because we wanted to study safety.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3543.095,
+            3545.237
+          ],
+          "quote": "And this is something we've been doing for Claude Code also.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3548.841,
+            3552.484
+          ],
+          "quote": "And so, for Claude Code, for example, we released an open source sandbox.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 878,
+          "t": [
+            3561.233,
+            3568.119
+          ],
+          "quote": "And we made that open source, and it actually works with any agent, not just Claude Code, because we wanted to make it really easy for others to do the same thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 908,
+          "t": [
+            3663.02,
+            3668.288
+          ],
+          "quote": "I love that you describe it as coding still, which is just talking to Claude Code to code for you, essentially.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3886.306,
+            3894.772
+          ],
+          "quote": "And actually for the Claude Code team we have a ... Hopefully, listeners have read this, but [inaudible 01:04:52] this blog post maybe 10 years ago called The Bitter Lesson.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            3950.24,
+            3960.187
+          ],
+          "quote": "And I think maybe this is a final principle, and something that Claude Code I think got right in hindsight, from the very beginning, we bet on building for the model six months from now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            3991.474,
+            3996.96
+          ],
+          "quote": "And so, the bet with Claude Code was, at some point, the model gets good enough that it can just write a lot of the code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            4006.37,
+            4010.634
+          ],
+          "quote": "And we just saw this inflection, because everyone started to use Claude Code for the first time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            4122.646,
+            4128.576
+          ],
+          "quote": "Any tips for someone just using Claude Code, say, for the first time or just someone already using Claude Code that wants to get better.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            4131.461,
+            4134.564
+          ],
+          "quote": "I will give a caveat, which is there's no one right way to use Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1056,
+          "t": [
+            4148.601,
+            4149.844
+          ],
+          "quote": "Luckily, you can ask Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4245.125,
+            4247.669
+          ],
+          "quote": "I think a lot of people when they think about Claude Code, they think about a terminal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1108,
+          "t": [
+            4296.547,
+            4298.769
+          ],
+          "quote": "It looked a lot like Claude Code to me, so, that was flattering.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            4480.841,
+            4492.437
+          ],
+          "quote": "So, everything that's happening right now around just Claude Code becoming this huge multi-billion dollar business, and now all of my friends use Claude Code, and they just text me about it all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            4513.191,
+            4516.975
+          ],
+          "quote": "Like, most of the world still does not use Claude Code, most of the world still does not use AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            4527.726,
+            4531.57
+          ],
+          "quote": "I think Claude Code alone is making $2 billion revenue.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1179,
+          "t": [
+            4544.203,
+            4547.629
+          ],
+          "quote": "And the way that Claude Code has kept growing is, honestly, just the users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            4899.12,
+            4908.212
+          ],
+          "quote": "I think a lot of people just don't really understand what this is, because they haven't used an agent before, and it just feels very, very similar, to me, to Claude Code a year ago.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1301,
+          "t": [
+            4909.133,
+            4912.237
+          ],
+          "quote": "But, like I said, it's just growing much faster than Claude Code did in the early days.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1325,
+          "t": [
+            4989.661,
+            4996.929
+          ],
+          "quote": "There's a post I'll link to that shares a bunch of ways people use what was previously Claude Code, and now just you can do through Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1332,
+          "t": [
+            5011.044,
+            5016.009
+          ],
+          "quote": "You had this post about ... It was, like, 50 non-technical use cases for Claude Code, or something like this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            5149.666,
+            5154.269
+          ],
+          "quote": "And so, I opened Twitter, I saw some people tweeting about Claude Code, and then I just started responding.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "concept",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它是一家以安全为使命的 AI 实验室，刚完成超过 3500 亿美元融资，年收入 150 亿美元，内部工程师每月在 token 上花费数十万美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            56.22,
+            60.023
+          ],
+          "quote": "Today my guest is Boris Cherny, head of Claude Code at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 27,
+          "t": [
+            79.02,
+            85.405
+          ],
+          "quote": "Claude Code itself is also a massive driver of Anthropic's overall growth over the past year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 60,
+          "t": [
+            238.524,
+            242.669
+          ],
+          "quote": "About six months ago, I don't know if people even remember this, you actually left Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 62,
+          "t": [
+            244.812,
+            247.755
+          ],
+          "quote": "And then two weeks later you went back to Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            283.288,
+            299.199
+          ],
+          "quote": "And that's actually what originally drove me to Ant also, because before I joined Anthropic I was working in Big Tech, and then, at some point, I wanted to work at a lab to just help shape the future of this crazy thing that we're building in some way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 74,
+          "t": [
+            300.1,
+            301.823
+          ],
+          "quote": "And the thing that drew me to Anthropic was the mission.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            303.747,
+            310.82
+          ],
+          "quote": "And when you talk to people at Anthropic, just, like, find someone in the hallway, if you ask them why they're here, the answer is always going to be, \"Safety.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 82,
+          "t": [
+            336.141,
+            339.823
+          ],
+          "quote": "So, let me follow the thread of just coming back to Anthropic and the work you've done there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            438.405,
+            443.248
+          ],
+          "quote": "We broadly knew at Anthropic that we wanted to ship some kind of coding product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 102,
+          "t": [
+            444.169,
+            454.656
+          ],
+          "quote": "And for Anthropic for a long time, we were building the models in this way that fit our mental model of the way that we build safe AGI where the model starts by being really good at coding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 107,
+          "t": [
+            463.145,
+            472.339
+          ],
+          "quote": "And when you look at the team that I started on, it was called Anthropic Labs team, and actually Mike Krieger and Ben Mann they just kicked this team off again for round two.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 112,
+          "t": [
+            484.261,
+            487.885
+          ],
+          "quote": "And the reason this matters for Anthropic is because of safety.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 121,
+          "t": [
+            522.561,
+            526.766
+          ],
+          "quote": "So, I think for Anthropic for a long time, there was this feeling that we wanted to build something, but it wasn't obvious what.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 160,
+          "t": [
+            694.664,
+            705.915
+          ],
+          "quote": "After I released it, pretty quickly it became a hit at Anthropic, and the daily active users just went vertical, and it ... Really early on actually, before I launched it, Ben Mann nudged me to make a DAU chart.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 197,
+          "t": [
+            839.521,
+            847.308
+          ],
+          "quote": "Back at Code with Claude back in May, that was our first developer conference that we did as Anthropic, I did a short talk.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            864.826,
+            869.111
+          ],
+          "quote": "But I think at Anthropic, this is just the way ... The way we think about things is exponentials.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 242,
+          "t": [
+            994.756,
+            997.86
+          ],
+          "quote": "And that's still the case here at Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1036.484,
+            1040.027
+          ],
+          "quote": "So, here at Anthropic, Claude reviews 100% of pull requests.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1276.668,
+            1282.253
+          ],
+          "quote": "Like, at Anthropic, over the last year, like, since we introduced Claude Code, we probably ... I don't know the exact number.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1574.136,
+            1578.72
+          ],
+          "quote": "And now you're starting to see companies ... Like, at Anthropic, we have ... Everyone can use a lot of tokens.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1617.255,
+            1618.117
+          ],
+          "quote": "He works at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1664.441,
+            1669.908
+          ],
+          "quote": "At Anthropic, we're starting to see some engineers that are spending hundreds of thousands a month in tokens.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2278.752,
+            2287.74
+          ],
+          "quote": "And I think, for me, also this is one of the reasons, it feels very important and urgent to do this work at Anthropic, because I think we take this very, very seriously.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2326.246,
+            2329.089
+          ],
+          "quote": "If you're interested just check out the jobs page on Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2737.861,
+            2742.767
+          ],
+          "quote": "I'm seeing this a little bit with ... At Anthropic, I think everyone is fairly technical.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3270.741,
+            3277.867
+          ],
+          "quote": "And for Anthropic as a safety lab, the other dimension of that is safety, because when you think about model safety there's a bunch of different ways to study it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3335.225,
+            3341.371
+          ],
+          "quote": "And we actually used it within Anthropic for I think four or five months, or something before we released it, because we weren't really sure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 869,
+          "t": [
+            3514.383,
+            3527.377
+          ],
+          "quote": "And for Anthropic as we think about the way this space evolves doing this in a way that is safe and good for the world is just this is the reason that we exist, and this is the reason that everyone is at Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4334.662,
+            4338.386
+          ],
+          "quote": "So, I talked to Ben Mann, co-founder of Anthropic, what to talk to you about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            4350,
+            4354.664
+          ],
+          "quote": "So, before I joined Anthropic I was actually living in rural Japan.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4421.233,
+            4425.079
+          ],
+          "quote": "I think post-AGI or if I wasn't at Anthropic, I'd probably be making miso.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4458.901,
+            4469.631
+          ],
+          "quote": "I think I would just underscore for Anthropic since the beginning, this idea of starting at coding, then getting to tool use, then getting to computer use has just been the way that we think about things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            4531.89,
+            4535.674
+          ],
+          "quote": "Anthropic, I think the number you guys put out, you're making $15 billion in revenue.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1233,
+          "t": [
+            4705.041,
+            4711.947
+          ],
+          "quote": "I think, for me, this was the reason that I joined Anthropic actually, because, like I said, I was living in this rural place.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1249,
+          "t": [
+            4757.02,
+            4763.989
+          ],
+          "quote": "I feel like I want to do a whole podcast just talking about your time in Japan, and the journey of Boris through Japan to Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1294,
+          "t": [
+            4879.35,
+            4889.66
+          ],
+          "quote": "I saw someone went on pat leave from Anthropic, and you had to fill out these medical forms for him, these really annoying PDFs where it just loads up the browser, logs in, fills them out, [inaudible 01:21:29].",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "concept",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 的非技术智能体产品，把 Claude Code 放进桌面应用里，团队用 Claude Code 在 10 天内构建完成，发布后立即爆火，远超早期的 Claude Code",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            503.721,
+            508.306
+          ],
+          "quote": "And I think now with Cowork we're starting to see the transition for non-technical folks also.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1118.751,
+            1124.319
+          ],
+          "quote": "Like, I use Cowork every day now to do all sorts of things that are just not related to coding at all, and just to do it automatically.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1126.763,
+            1127.765
+          ],
+          "quote": "I just had Cowork do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1128.846,
+            1132.012
+          ],
+          "quote": "All of my project management for the team, Cowork does all of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1170.02,
+            1174.045
+          ],
+          "quote": "Honestly, the simplest thing is, like, open Claude or Cowork, and point it at a Slack thread.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2198.915,
+            2203.84
+          ],
+          "quote": "And the Cowork product is the first way to get at this, but it's just the first one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2803.838,
+            2804.72
+          ],
+          "quote": "It's right next to Cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2954.882,
+            2958.325
+          ],
+          "quote": "And, for example, this is also where Cowork came from.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3115.221,
+            3116.163
+          ],
+          "quote": "You talked about Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3160.781,
+            3163.304
+          ],
+          "quote": "Cowork when we released it it was just immediately a hit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3175.1,
+            3178.003
+          ],
+          "quote": "And, again, the place Cowork came from is just this latent demand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3199.746,
+            3204.633
+          ],
+          "quote": "And Cowork is actually ... There's this very sophisticated security system that's built in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 832,
+          "t": [
+            3365.06,
+            3366.302
+          ],
+          "quote": "And for Cowork, it's pretty similar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            4822.821,
+            4832.329
+          ],
+          "quote": "I'm going to shill a little bit, and just say Cowork, because this is, legitimately, the one product that's been pretty life-changing for me just because I have it running all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            4870.242,
+            4878.87
+          ],
+          "quote": "With Cowork, just so people understand if they haven't tried this, basically, you type something you want to get done and it can launch Chrome, and just do things for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1306,
+          "t": [
+            4929.702,
+            4936.448
+          ],
+          "quote": "For people that are just learning to use Cowork, the thing I recommend is, so, you download the Claude desktop app, you go to the Cowork tab, it's right next to the code tab.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1316,
+          "t": [
+            4965.674,
+            4970.399
+          ],
+          "quote": "And every Monday, Cowork just goes through and it messages every engineer on Slack that hasn't filled out their status.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1322,
+          "t": [
+            4978.207,
+            4980.51
+          ],
+          "quote": "So, in Cowork you can have as many tasks running as you want.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1325,
+          "t": [
+            4989.661,
+            4996.929
+          ],
+          "quote": "There's a post I'll link to that shares a bunch of ways people use what was previously Claude Code, and now just you can do through Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1333,
+          "t": [
+            5016.47,
+            5025.58
+          ],
+          "quote": "So, actually one of our PMs used that as a way to evaluate Cowork before we released it, and I think at the point where Cowork was able to do, like, 48 out of the 50, they were like, \"Okay.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说它是一个能够使用工具的 LLM，不只是聊天，而是能实际行动、与系统交互，比如使用 Google Docs、发邮件、在电脑上运行命令",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            199.426,
+            202.107
+          ],
+          "quote": "Seer, Scntry's AI debugging agent takes it from there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2215.612,
+            2222.799
+          ],
+          "quote": "When I think about the engineering a year ago, no one really knew what an agent was, no one really used it, but nowadays it's just the way that we do our work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2238.733,
+            2245.039
+          ],
+          "quote": "But no one really has used an agent before, and this word agent just gets thrown around all the time, and it's just so misused.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2246.841,
+            2253.968
+          ],
+          "quote": "But agent actually has a very specific technical meaning, which is it's an AI, it's an LLM that's able to use tools.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 688,
+          "t": [
+            2806.822,
+            2808.323
+          ],
+          "quote": "So, it's the same agent, and everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3341.391,
+            3346.436
+          ],
+          "quote": "Like, this is the first big agent that I think folks had released at that point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3347.497,
+            3350.82
+          ],
+          "quote": "It was definitely the first coding agent that became broadly used.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3371.048,
+            3372.549
+          ],
+          "quote": "It's an agent that's acting on your behalf.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3553.185,
+            3560.132
+          ],
+          "quote": "And this is a sandbox they can run the agent in, and just make sure that there's certain boundaries and they can't access, like, everything on your system.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 878,
+          "t": [
+            3561.233,
+            3568.119
+          ],
+          "quote": "And we made that open source, and it actually works with any agent, not just Claude Code, because we wanted to make it really easy for others to do the same thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 897,
+          "t": [
+            3627.638,
+            3629
+          ],
+          "quote": "Like, agent, do blah, blah, blah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            4273.479,
+            4274.98
+          ],
+          "quote": "It's the same Claude agent running everywhere.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            4899.12,
+            4908.212
+          ],
+          "quote": "I think a lot of people just don't really understand what this is, because they haven't used an agent before, and it just feels very, very similar, to me, to Claude Code a year ago.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "latent-demand",
+      "type": "concept",
+      "role": "concept",
+      "name": "潜在需求 (latent demand)",
+      "file": "潜在需求",
+      "primary": true,
+      "how_described": "本集说它是最重要的产品原则——如果产品能以非设计初衷的方式被用户使用，这会告诉你产品下一步该往哪走；Boris 还提出第二维度：观察模型想做什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            735.26,
+            744.41
+          ],
+          "quote": "And when I think about it, part of the reason Claude Code works is this idea of latent demand where we bring the tool to where people are, and it makes the existing workflows a little bit easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2843.201,
+            2849
+          ],
+          "quote": "And this is just this principle of latent demand, which I think is just the single-most important principle in product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2851.827,
+            2856.96
+          ],
+          "quote": "Explain what this principle is and just what happens when you unlock this latent demand.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2857.741,
+            2874.299
+          ],
+          "quote": "Latent demand is this idea that if you build a product in a way that can be hacked, or can be misused by people in a way it wasn't really designed for to do something that they want to do, then this helps you as the product builder learn where to take the product next.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2951.48,
+            2954.862
+          ],
+          "quote": "And so, this idea of latent demand I think is just so powerful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3050.862,
+            3053.889
+          ],
+          "quote": "I think now there's also this interesting second dimension to latent demand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3101.481,
+            3105.166
+          ],
+          "quote": "And I think a lot of this was just based on latent demand of what the model wanted to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3110.373,
+            3114.419
+          ],
+          "quote": "In product terms, latent demand is just the same exact concept but applied to a model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3175.1,
+            3178.003
+          ],
+          "quote": "And, again, the place Cowork came from is just this latent demand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3263.415,
+            3268.339
+          ],
+          "quote": "So, that'll help you as you exactly describe this idea of what is a latent demand in this thing that we didn't really know?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 Anthropic 为 Claude Code 发布了一个开源沙箱，可以在其中运行智能体并设置边界防止访问系统所有内容，适用于任何智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 876,
+          "t": [
+            3548.841,
+            3552.484
+          ],
+          "quote": "And so, for Claude Code, for example, we released an open source sandbox.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3553.185,
+            3560.132
+          ],
+          "quote": "And this is a sandbox they can run the agent in, and just make sure that there's certain boundaries and they can't access, like, everything on your system.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集说 Boris 加入 Anthropic 后花了一个月做后训练来理解研究层面，即在模型训练之后进行的微调等优化工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            539.661,
+            541.382
+          ],
+          "quote": "Then I spent a month doing post-training.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说 Cowork 内置了复杂的护栏系统，确保模型做正确的事、不会脱轨",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 792,
+          "t": [
+            3205.214,
+            3209.78
+          ],
+          "quote": "And, essentially, these guardrails to make sure that the model does the right thing, it doesn't go off the rails.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mechanistic-interpretability",
+      "type": "concept",
+      "role": "concept",
+      "name": "机制可解释性 (mechanistic interpretability)",
+      "file": "机制可解释性",
+      "primary": false,
+      "how_described": "本集说它是 Anthropic 研究模型安全的最底层，由 Chris Olah 发明，通过理解神经元在做什么来监控模型行为，比如监控与欺骗相关的神经元是否被激活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 811,
+          "t": [
+            3278.588,
+            3282.351
+          ],
+          "quote": "The lowest level is alignment, and mechanistic interpretability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3300.593,
+            3304.399
+          ],
+          "quote": "And so, this is alignment, this is mechanistic interpretability, it's the lowest layer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3441.967,
+            3444.87
+          ],
+          "quote": "He invented this field of we call it mechanistic interpretability.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": false,
+      "how_described": "本集说它是 Anthropic 安全三层模型的第二层，在实验室环境里给模型合成情境，看它做不做正确的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 816,
+          "t": [
+            3305.521,
+            3310.349
+          ],
+          "quote": "The second layer is evals, and this is, essentially, a laboratory setting, the model is in a Petri dish, and you study it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3373.09,
+            3376.514
+          ],
+          "quote": "It looks good on alignment, it looks good on evals, we tried it internally, it looks good.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3420.237,
+            3423.099
+          ],
+          "quote": "There's tests, evals that tell you this is doing bad things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": false,
+      "how_described": "本集说它的核心想法是更通用的模型将总是胜过更具体的模型，推论就是始终押注更通用的模型、不要急着用小模型或微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 994,
+          "t": [
+            3877.48,
+            3884.805
+          ],
+          "quote": "I think a second one is maybe actually even a more general version of this principle is just the bitter lesson.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3886.306,
+            3894.772
+          ],
+          "quote": "And actually for the Claude Code team we have a ... Hopefully, listeners have read this, but [inaudible 01:04:52] this blog post maybe 10 years ago called The Bitter Lesson.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 999,
+          "t": [
+            3906.52,
+            3914.207
+          ],
+          "quote": "But actually there's just so many corollaries to the bitter lesson, and, for me, the biggest one is just always bet on the more general model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "plan-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "计划模式 (plan mode)",
+      "file": "计划模式",
+      "primary": false,
+      "how_described": "本集说它是 Claude Code 的一个功能，本质是在提示词里加一句'请不要写任何代码'，让模型先跟用户对方案，方案定了再让模型一次性执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1069,
+          "t": [
+            4191.881,
+            4193.543
+          ],
+          "quote": "The second one is use plan mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            4194.504,
+            4200.249
+          ],
+          "quote": "I start almost all of my tasks in plan mode, maybe, like 80%, and plan mode is actually really simple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            4213.964,
+            4215.185
+          ],
+          "quote": "And that gets you into plan mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            4225.078,
+            4226.319
+          ],
+          "quote": "So, plan mode is the second one.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Boris 曾短暂加入 Cursor，因为他是这个产品的超级粉丝，认为他们在很多人之前就看到了 AI 编码的发展方向，但两周后因想念 Anthropic 的使命而回归",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            243.09,
+            244.031
+          ],
+          "quote": "You joined Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            258.166,
+            260.488
+          ],
+          "quote": "I joined Cursor, because I'm a big fan of the product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            955.458,
+            957.88
+          ],
+          "quote": "I was still using Cursor for most of my code.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说它看起来很像 Claude Code，Boris 认为有更多竞争是好事，能迫使所有人做得更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1102,
+          "t": [
+            4280.287,
+            4281.609
+          ],
+          "quote": "What's your take on Codex?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "本集说 Boris 建议 CTO 们先给工程师尽可能多的 token，小规模下 token 成本相对其他业务成本很低，Anthropic 内部已有工程师每月花数十万美元在 token 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 407,
+          "t": [
+            1634.407,
+            1643.196
+          ],
+          "quote": "If it's an individual engineer experimenting, the token cost is still probably relatively low relative to [inaudible 00:27:21] other costs of running the business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1657.421,
+            1661.433
+          ],
+          "quote": "Have you seen companies where their token cost is higher than their salary?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3483.28,
+            3488.904
+          ],
+          "quote": "A long time ago we weren't sure if the model was just predicting the next token, or is doing something a little bit deeper.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            4179.566,
+            4188.076
+          ],
+          "quote": "Often, it's actually cheaper and less token-intensive if you use the most capable model, because it can just do the same thing much faster with less correction, less hand holding, and so on.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": false,
+      "how_described": "本集说它是 Anthropic 安全三层模型的最底层，与机制可解释性一起，确保训练出的模型是安全的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 635,
+          "t": [
+            2584.121,
+            2584.949
+          ],
+          "quote": "Stakeholder alignment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2586,
+            2586.781
+          ],
+          "quote": "Stakeholder alignment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2612.968,
+            2622.559
+          ],
+          "quote": "Hire the best people as fast as possible, but recruiting is time-consuming, alignment is hard, and competition for great talent keeps getting tighter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3278.588,
+            3282.351
+          ],
+          "quote": "The lowest level is alignment, and mechanistic interpretability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3300.593,
+            3304.399
+          ],
+          "quote": "And so, this is alignment, this is mechanistic interpretability, it's the lowest layer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3357.069,
+            3359.492
+          ],
+          "quote": "And even since there's a lot that we've learned about alignment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3373.09,
+            3376.514
+          ],
+          "quote": "It looks good on alignment, it looks good on evals, we tried it internally, it looks good.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
