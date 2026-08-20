@@ -1,0 +1,1080 @@
+{
+  "episode_id": "2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering",
+  "podcast": "The Pragmatic Engineer",
+  "date": "2026-08-19",
+  "tags": [
+    "Chrome DevTools",
+    "Core Web Vitals",
+    "认知投降",
+    "循环工程",
+    "工程师的 alpha"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "addy-osmani",
+      "type": "person",
+      "role": "guest",
+      "name": "Addy Osmani",
+      "file": "Addy Osmani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.631,
+            6.215
+          ],
+          "quote": "If you've ever opened Chrome DevTools or optimized a page for Core Web Vitals, you've used software built by Addy Osmani.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chrome-devtools",
+      "type": "company",
+      "role": "company",
+      "name": "Chrome DevTools",
+      "file": "Chrome DevTools",
+      "primary": true,
+      "how_described": "本集说它是 Google 最接近 IDE 的工具，从 Firebug 的阴影中崛起，团队以「在开发者所在的地方与他们相遇」为理念，后续进入 AI 阶段让智能体能连接 Chrome 和 DevTools 自动化调试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.631,
+            6.215
+          ],
+          "quote": "If you've ever opened Chrome DevTools or optimized a page for Core Web Vitals, you've used software built by Addy Osmani.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.083,
+            25.669
+          ],
+          "quote": "Today we talk about the inside story of Chrome DevTools, why it became the closest thing Google has to an IDE, and the problems that are still unsolved, like memory debugging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1577.14,
+            1579.261
+          ],
+          "quote": "Did you work on Google Chrome DevTools?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1594.108,
+            1602.454
+          ],
+          "quote": "And I'm not sure at what point, but I do remember Chrome DevTools slowly started to emerge and it started to bring a bunch of new stuff, like you could do performance monitoring, some of those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1609.839,
+            1621.868
+          ],
+          "quote": "Yeah, so I have to give a shout out to Pavel Feldman, who was the tech lead for Chrome DevTools and really played a very large role in helping it come to be originally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1652.787,
+            1660.751
+          ],
+          "quote": "So this was the time when we had really sharp minds like Paul Irish around also, like working very heavily with the Chrome DevTools team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2069.847,
+            2077.269
+          ],
+          "quote": "Whenever I have to debug a web application, the past many, many years, I use Chrome DevTools because it had...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体让不可能变成可能，可以管理生活、做研究、连接 Chrome 和 DevTools 自动化调试流程；现在用 Claude Code 或 Codex 时可能 20 到 30 个子智能体已经跑完，人不可能逐个点开看",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            2147.869,
+            2172.867
+          ],
+          "quote": "Yan Gao became our next tech lead after Pavel and helped us through the era of trying to figure out AI is now in the picture and we want to both be able to help humans reason through this massive amount of data that the browser generates for you as well as make it possible for you to connect your agent up to Chrome and DevTools and be able to have it just automate a lot of these journeys for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2346.124,
+            2349.409
+          ],
+          "quote": "Antisys is as good as it gets being able to ship agent-written code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3699.131,
+            3710.281
+          ],
+          "quote": "We still need to understand enough about how things work so that if something does go wrong, we're actually able to fix it and not just hope and pray that the agent is able to figure things out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3715.125,
+            3727.914
+          ],
+          "quote": "The importance of when you're working with an agent, and this was before they were as capable as today, but when you're working with an agent, read through, read through what it has, think through, and then, you know, when it generates the code, read through that code, make sure you understand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3736.64,
+            3752.328
+          ],
+          "quote": "what is your thinking on the kind of the reading the going at the same pace of the agent of and and you know like because there's this friction of like it's now so much easier to like not not let go because you want to let go and have cognitive depth it's just like they're faster and it's pretty good for the most part",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3766.146,
+            3778.776
+          ],
+          "quote": "A year ago, maybe you would have one thinking message from the agent saying, hey, I'm thinking in the background, and you'd expand it, and you would see a trajectory, and you'd see the summary of all the things that are happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3836.891,
+            3848.294
+          ],
+          "quote": "If you are working with an agent, a coding agent, there are a lot of things that you can do to make sure that the agent is getting better every day and you as an engineer are getting better every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 732,
+          "t": [
+            4096.792,
+            4110.264
+          ],
+          "quote": "For example, if you're using Sentry, Sentry has automations where like if an error fires in Sentry that is net new, you could have a hook that kicks off your favorite coding agent where it one-shots a fix and it puts you in your review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4242.604,
+            4247.187
+          ],
+          "quote": "Now, how much does priority matter these days when an agent can go through your whole backlog and implement everything?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4380.358,
+            4383.999
+          ],
+          "quote": "And good, you know, sometimes people say, yeah, but an agent can tell you if it's good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4385.92,
+            4389.661
+          ],
+          "quote": "An agent can tell you if a thing looks correct, if it's matching a spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 843,
+          "t": [
+            4672.86,
+            4681.459
+          ],
+          "quote": "I would say that now that it is very easy for anyone to use an agent to create a body of text,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 866,
+          "t": [
+            4789.753,
+            4793.918
+          ],
+          "quote": "And I'll also have an agent or different models write out a version of the text as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4981.287,
+            4987.271
+          ],
+          "quote": "But using an agent to try helping rework that, so it did have a clearer line through it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 979,
+          "t": [
+            5406.352,
+            5410.813
+          ],
+          "quote": "For example, a year back, you could still follow along how an agent worked step by step.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-surrender",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知投降 (cognitive surrender)",
+      "file": "认知投降",
+      "primary": true,
+      "how_described": "本集定义为你盲目接受 AI 的输出作为自己的答案，批判性思维退场，是认知债务的自然后续",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            33.972,
+            41.315
+          ],
+          "quote": "How AI is changing software engineering, cognitive depth, cognitive surrender, loop engineering, and software factories, and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3638.364,
+            3645.968
+          ],
+          "quote": "Right before we started talking about one question that comes up to you from a lot of people and you're also thinking about is this idea of like cognitive surrender.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3663.025,
+            3672.332
+          ],
+          "quote": "And the natural follow-up to that is cognitive surrender, which is where you blindly give in to whatever the AI says as your answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 977,
+          "t": [
+            5397.227,
+            5401.171
+          ],
+          "quote": "A concept I liked that Addy mentioned was this idea of cognitive surrender.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知债务 (cognitive debt)",
+      "file": "认知债务",
+      "primary": true,
+      "how_described": "本集定义为越用 AI，你对问题的记忆和理解能力越被侵蚀",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 650,
+          "t": [
+            3651.035,
+            3652.537
+          ],
+          "quote": "The first is cognitive debt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loop-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环工程 (loop engineering)",
+      "file": "循环工程",
+      "primary": true,
+      "how_described": "本集说它是「软件工厂」路线的一个环节，不是纯粹写 prompt 获取结果，而是构建一个能自动完成 prompt、生成、测试、验证的系统，是软件抽象层的又一次上升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            33.972,
+            41.315
+          ],
+          "quote": "How AI is changing software engineering, cognitive depth, cognitive surrender, loop engineering, and software factories, and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3682.6,
+            3694.408
+          ],
+          "quote": "I think that that's something we want to avoid because I'm personally, I'm a big fan of the evolution curve we're seeing with harness engineering and loop engineering and software factories and all of these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3885.186,
+            3890.667
+          ],
+          "quote": "One new building block that's coming up in genetic engineering is this idea of loop engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 850,
+          "t": [
+            4719.291,
+            4725.672
+          ],
+          "quote": "So on any given week, we can take loop engineering as one example because I was recently putting together a piece on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 878,
+          "t": [
+            4866.154,
+            4875.839
+          ],
+          "quote": "Specifically on loop engineering, so Navi, aka NeatCode, he did a video where he looked at the loop engineering, specifically your post as well, and he was reading it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4892.305,
+            4897.787
+          ],
+          "quote": "And when I also read it, in that specifically that loop engineering piece, like I missed the specifics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 899,
+          "t": [
+            4965.343,
+            4978.483
+          ],
+          "quote": "I might have, the version of loop engineering I started out with, even after a few iterations, did it have a good enough line through or thread through the whole thing that made sense?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说它的意思是构建一个系统，你给指令后它全自动产出软件；但与实体工厂不同，软件发布到生产环境才是 bug 真正出现的时候，所以必须连上生产环境的遥测数据和用户反馈形成闭环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 701,
+          "t": [
+            3910.993,
+            3935.065
+          ],
+          "quote": "A good way to think about, so loops are part of this journey we are on to effectively create software factories or, you know, some people might call them... Software factory meaning like a thing where, you know, like it, you give some instructions, you're like, in a factory, like I would like to produce a car and then there's a fully automated factory and the car comes out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4167.754,
+            4174.359
+          ],
+          "quote": "Yeah, so I was just mentioning being able to connect multiple signals up to, you know, your software factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "core-web-vitals",
+      "type": "concept",
+      "role": "concept",
+      "name": "Core Web Vitals",
+      "file": "Core Web Vitals",
+      "primary": true,
+      "how_described": "本集说这是一套标准化的指标，用来把「感觉慢」变成数字，团队做了大量实验与标准社区和开发者反复验证这些数字是否跟页面价值对齐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.631,
+            6.215
+          ],
+          "quote": "If you've ever opened Chrome DevTools or optimized a page for Core Web Vitals, you've used software built by Addy Osmani.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2357.76,
+            2361.084
+          ],
+          "quote": "And with this, let's get back to Addy and talk about Core Web Vitals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2361.815,
+            2367.277
+          ],
+          "quote": "And one area that you really pushed, you and the team pushed the industry together is core web vitals.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "largest-contentful-paint",
+      "type": "concept",
+      "role": "concept",
+      "name": "Largest Contentful Paint",
+      "file": "Largest Contentful Paint",
+      "primary": false,
+      "how_described": "本集说它对应「用户看到有用内容的时刻」，可能是首屏图片，也可能是文章正文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            2383.284,
+            2389.227
+          ],
+          "quote": "But you introduced things like LCP, Largest Contentful Paint, CLS, Cumulative Layout Shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2499.759,
+            2504.661
+          ],
+          "quote": "So for things like your hero image, you can think about that as your largest contentful paint.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "interaction-to-next-paint",
+      "type": "concept",
+      "role": "concept",
+      "name": "interaction to next paint",
+      "file": "interaction to next paint",
+      "primary": false,
+      "how_described": "本集说它取代了早期的 FID，对应「点了按钮之后多久有反应」，举例电商场景点加入购物车没反应导致用户反复点击",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            2389.947,
+            2394.59
+          ],
+          "quote": "FIE first input delay and then IMP interaction to next paint.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cumulative-layout-shift",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cumulative Layout Shift",
+      "file": "Cumulative Layout Shift",
+      "primary": false,
+      "how_described": "本集说它针对的痛点是你正在读文章，广告突然加载出来把内容推下去了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            2383.284,
+            2389.227
+          ],
+          "quote": "But you introduced things like LCP, Largest Contentful Paint, CLS, Cumulative Layout Shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2610.202,
+            2613.324
+          ],
+          "quote": "And so that's where cumulative layout shift kind of comes from.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mutual-amplification",
+      "type": "concept",
+      "role": "concept",
+      "name": "互相放大 (mutual amplification)",
+      "file": "互相放大",
+      "primary": true,
+      "how_described": "本集说是应对认知投降的更根本解法：让智能体记录每次会话中的决策、遇到的摩擦、处理问题的独特方式，你作为工程师保持好奇心去读这些东西，把握重要决策而不是逐 token 跟踪",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 684,
+          "t": [
+            3831.686,
+            3836.231
+          ],
+          "quote": "I'm a really big fan of this idea of mutual amplification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 983,
+          "t": [
+            5426.237,
+            5429.538
+          ],
+          "quote": "Addy had a really good counterpoint to this, which was mutual amplification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说循环工程必须有护栏，系统要能标记出触及系统关键部分的变更、要求人工审查，不控制爆炸半径和质量的自动化是灾难配方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 713,
+          "t": [
+            3993.815,
+            4005.539
+          ],
+          "quote": "But simply just having your loops build everything without having some guardrails around the blast radius, without having guardrails around how you think about quality, I think is a recipe for disaster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "source-maps",
+      "type": "concept",
+      "role": "concept",
+      "name": "source maps",
+      "file": "source maps",
+      "primary": false,
+      "how_described": "本集说它是一种把编译后代码映射回源代码的技术，配合黑盒视图让开发者屏蔽第三方库只看自己写的代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1852.936,
+            1859.044
+          ],
+          "quote": "You know, we had a source maps story sitting there where potentially we can start to reason about what's in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chrome",
+      "type": "company",
+      "role": "company",
+      "name": "Chrome",
+      "file": "Chrome",
+      "primary": false,
+      "how_described": "本集说 2012 年加入时前端调试标配还是 Firefox 上的 Firebug，Chrome 团队走了一条以开发者为中心、贴近生态系统的路线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.631,
+            6.215
+          ],
+          "quote": "If you've ever opened Chrome DevTools or optimized a page for Core Web Vitals, you've used software built by Addy Osmani.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1,
+          "t": [
+            6.596,
+            11.779
+          ],
+          "quote": "Addy spent 14 years at Google, most of it on Chrome, going from software engineer to director of engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            17.083,
+            25.669
+          ],
+          "quote": "Today we talk about the inside story of Chrome DevTools, why it became the closest thing Google has to an IDE, and the problems that are still unsolved, like memory debugging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            778.332,
+            782.174
+          ],
+          "quote": "But two years later, I would join Google and I would work on Chrome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1323.429,
+            1329.573
+          ],
+          "quote": "And the stars aligned, just happened to work out, and I ended up working on the Chrome team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1330.033,
+            1334.916
+          ],
+          "quote": "And then when you joined, can you tell us a little bit more about when you joined the Chrome team?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1335.076,
+            1335.976
+          ],
+          "quote": "What was Chrome like?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1339.478,
+            1343.86
+          ],
+          "quote": "Because now Chrome is synonym for web browser.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1343.88,
+            1350.304
+          ],
+          "quote": "I know there's other browsers and every now and then, of course, they have some market share, but Chrome has largely won the market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1377.972,
+            1392.173
+          ],
+          "quote": "So I remember there was this great Chrome experiment site that we had back in the day where we would, you know, sometimes work with studios or work with developers and just showcase like, hey, here's a cool WebGL example that maybe you wouldn't have otherwise come across.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1577.14,
+            1579.261
+          ],
+          "quote": "Did you work on Google Chrome DevTools?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1594.108,
+            1602.454
+          ],
+          "quote": "And I'm not sure at what point, but I do remember Chrome DevTools slowly started to emerge and it started to bring a bunch of new stuff, like you could do performance monitoring, some of those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1609.839,
+            1621.868
+          ],
+          "quote": "Yeah, so I have to give a shout out to Pavel Feldman, who was the tech lead for Chrome DevTools and really played a very large role in helping it come to be originally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1622.208,
+            1634.717
+          ],
+          "quote": "There was this period of time when Chrome was trying to figure out how it differentiated its developer tooling story from WebKit, where we had the Safari inspector, the WebKit inspector.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1652.787,
+            1660.751
+          ],
+          "quote": "So this was the time when we had really sharp minds like Paul Irish around also, like working very heavily with the Chrome DevTools team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2060.465,
+            2069.427
+          ],
+          "quote": "But for Google, I never felt that Google was any good at building IDEs except for inside of Chrome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2069.847,
+            2077.269
+          ],
+          "quote": "Whenever I have to debug a web application, the past many, many years, I use Chrome DevTools because it had...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2147.869,
+            2172.867
+          ],
+          "quote": "Yan Gao became our next tech lead after Pavel and helped us through the era of trying to figure out AI is now in the picture and we want to both be able to help humans reason through this massive amount of data that the browser generates for you as well as make it possible for you to connect your agent up to Chrome and DevTools and be able to have it just automate a lot of these journeys for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2413.722,
+            2420.544
+          ],
+          "quote": "I think that the Chrome team has always had an appreciation for user experience research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2690.065,
+            2692.527
+          ],
+          "quote": "Most of it was inside a Chrome organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2717.964,
+            2723.246
+          ],
+          "quote": "There was also a lot of work that I did on the consumer side, so working on Chrome performance, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2781.644,
+            2785.966
+          ],
+          "quote": "And kudos to the Chrome team for having what is now, I would say, a fairly...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2834.594,
+            2844.1
+          ],
+          "quote": "So I would say if I had to summarize my one big change contribution to Chrome's culture, it would be meeting the developers where they're at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            3215.121,
+            3230.249
+          ],
+          "quote": "And so I was glad that I had that time and then I could take those learnings back to the team and work with them to evolve us into this moment where we could help developers maximize how useful DevTools can be and DevTools and Chrome can be for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3399.507,
+            3409.311
+          ],
+          "quote": "Yeah, what does the next couple of years or what does the next year look like for Android, for Chrome, for our different platform teams as we're going through these kind of revolutionary moments?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4442.745,
+            4449.948
+          ],
+          "quote": "An example I've been telling people this week is back when I worked on Chrome, Chromium is a massive code base.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "company",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": false,
+      "how_described": "本集在赞助口播中提到它有自动化功能，当全新错误触发时可以钩子启动编码智能体一次性修复并放入审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            2200.608,
+            2207.532
+          ],
+          "quote": "Addy just described using LLMs to go from massive stack traces to working fixes, which is the perfect moment to talk about our season sponsor, Sentry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2208.112,
+            2210.294
+          ],
+          "quote": "You probably already know what Sentry is because you're a developer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2212.695,
+            2216.277
+          ],
+          "quote": "I use Sentry to monitor the backend of the Pragmatic Entry for any and all errors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2216.718,
+            2218.459
+          ],
+          "quote": "Of course, Sentry doesn't only do errors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2224.502,
+            2228.485
+          ],
+          "quote": "One new capability Sentry has built that I'm really liking is the ability to fix errors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2237.152,
+            2238.934
+          ],
+          "quote": "CIR is Sentry's AI debugging tool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2267.378,
+            2278.025
+          ],
+          "quote": "What I love about autofix is how Sentry went from showing a list of errors inside my application to offering me a fast way to fix it and close the loop while I stay in charge of this bug fix the whole time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2281.047,
+            2288.232
+          ],
+          "quote": "Check out Sentry at sentry.io slash pragmatic and start detecting errors, diagnosing your root causes, and fixing issues and regressions today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 732,
+          "t": [
+            4096.792,
+            4110.264
+          ],
+          "quote": "For example, if you're using Sentry, Sentry has automations where like if an error fires in Sentry that is net new, you could have a hook that kicks off your favorite coding agent where it one-shots a fix and it puts you in your review.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "antisys",
+      "type": "company",
+      "role": "company",
+      "name": "Antisys",
+      "file": "Antisys",
+      "primary": false,
+      "how_described": "本集在赞助口播中说是目前验证智能体代码最有效的方法，在批发模拟中运行整个系统来发现每一个 bug",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            50.479,
+            52.16
+          ],
+          "quote": "This episode is presented by Antisys.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2305.945,
+            2308.327
+          ],
+          "quote": "Antisys runs your whole system in a wholesale simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2312.449,
+            2318.233
+          ],
+          "quote": "And because the simulation is fully deterministic, Antisys doesn't only find bugs, it gives you a perfect reproduction of every issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2318.653,
+            2322.455
+          ],
+          "quote": "To create such a tool, the Antisys team needed to invent new kinds of debugging tools as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2329.86,
+            2337.151
+          ],
+          "quote": "As Antisys runs the hostile simulations, it plots timeframes when the bug probability increases, which greatly helps with finding the root cause of bugs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2337.972,
+            2339.835
+          ],
+          "quote": "And Antisys also has a log visualizer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2346.124,
+            2349.409
+          ],
+          "quote": "Antisys is as good as it gets being able to ship agent-written code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2354.716,
+            2357.099
+          ],
+          "quote": "Head to antisys.com.tackpragmatic to learn more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集仅在提及 Addy 写过的书名时带过，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 838,
+          "t": [
+            4644.498,
+            4649.42
+          ],
+          "quote": "You've written Leading Effective Teams two years ago and last year, Vibe Coding.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
