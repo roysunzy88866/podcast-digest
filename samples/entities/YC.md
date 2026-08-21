@@ -38,7 +38,7 @@ unlisted: true
 
 [[智能体]] · [[主观能动性]] · [[Sam Lessin]] · [[Garry Tan]] · [[Sam Altman]] · [[Alexandr Wang]] · [[Philip Johnston]] · [[Lenny]] · [[技能文件]] · [[初创公司]]
 
-<script type="application/json" class="pd-epn">{"智能体":105,"主观能动性":13,"Sam Lessin":1,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"Philip Johnston":1,"Lenny":65,"技能文件":1,"初创公司":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":107,"主观能动性":13,"Sam Lessin":1,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"Philip Johnston":1,"Lenny":65,"技能文件":1,"初创公司":1}</script>
 
 <script>
 (function(){

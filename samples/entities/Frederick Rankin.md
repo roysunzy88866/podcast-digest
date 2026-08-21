@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
+[[Aaron Zolman]] [[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":105,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":14}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":107,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":14}</script>
 
 <script>
 (function(){

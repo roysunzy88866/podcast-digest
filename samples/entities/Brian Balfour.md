@@ -61,7 +61,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
+[[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]]
 
 </div>
 

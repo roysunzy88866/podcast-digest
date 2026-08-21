@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
+[[Aaron Zolman]] [[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish":1,"Harrison":1,"Traversal":1,"智能体":105,"生产世界模型":1,"可观测性":6,"遥测数据":1,"上下文":7,"文件系统":3,"评估":13}</script>
+<script type="application/json" class="pd-epn">{"Anish":1,"Harrison":1,"Traversal":1,"智能体":107,"生产世界模型":1,"可观测性":7,"遥测数据":1,"上下文":7,"文件系统":3,"评估":13}</script>
 
 <script>
 (function(){

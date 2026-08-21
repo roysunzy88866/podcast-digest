@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Cisco":2,"NVIDIA":16,"ChatGPT":30,"主观能动性":13,"AI 优先":1,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Cisco":2,"NVIDIA":16,"ChatGPT":30,"主观能动性":13,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){

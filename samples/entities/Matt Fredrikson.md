@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]]
+[[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":4,"Anthropic":52,"Twitter":4,"智能体":105,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":21}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":4,"Anthropic":53,"Twitter":4,"智能体":107,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":23}</script>
 
 <script>
 (function(){

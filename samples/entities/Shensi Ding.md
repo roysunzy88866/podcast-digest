@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
+[[Aaron Zolman]] [[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":105,"MCP":14,"沙箱":21,"连接器":2,"智能 LLM 路由器":1,"可观测性":6,"后训练":11}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":107,"MCP":14,"沙箱":21,"连接器":2,"智能 LLM 路由器":1,"可观测性":7,"后训练":11}</script>
 
 <script>
 (function(){

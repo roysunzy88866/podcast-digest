@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
+[[Aaron Zolman]] [[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":8,"智能体":105,"Codex":23,"Claude Code":28,"MCP":14,"提示注入":1,"CLI":2,"护城河":6,"ChatGPT":30}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":9,"智能体":107,"Codex":23,"Claude Code":28,"MCP":14,"提示注入":1,"CLI":2,"护城河":6,"ChatGPT":30}</script>
 
 <script>
 (function(){

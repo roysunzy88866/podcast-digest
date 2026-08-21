@@ -25,7 +25,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Sriram Krishnan]] · [[Sofia Puccini]] · [[开源权重]] · [[Frontier Labs]] · [[蒸馏]] · [[智能体]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sriram Krishnan":1,"Sofia Puccini":2,"开源权重":2,"Frontier Labs":3,"蒸馏":6,"智能体":105,"Hugging Face":7,"Anthropic":52,"OpenAI":43}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sriram Krishnan":1,"Sofia Puccini":2,"开源权重":3,"Frontier Labs":3,"蒸馏":6,"智能体":107,"Hugging Face":8,"Anthropic":53,"OpenAI":44}</script>
 
 <script>
 (function(){

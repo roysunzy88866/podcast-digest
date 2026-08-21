@@ -1,0 +1,141 @@
+{
+  "title_zh": "工程领导者的AI工具购买真相",
+  "tldr": "超过一半工程团队在买AI编码工具，但别拿AI当卖点",
+  "digest_md": "超过一半的工程领导者正在购买 AI 编码工具，但如果你把\"AI 优先\"写进营销话术，很大一部分买家会直接关上门——只有略超过一半的人对 AI 持积极看法，而工程领导者这个群体本身就是出了名的\"废话探测器\"很强的人。[02:00 Unknown] [04:21 Unknown] [04:49 Unknown]\n\n真正让他们掏钱的底层痛点没变：速度、可靠性、技术债务。AI 实施根本排不进前三。代码生成被自动化之后，痛苦转移到了下游——把代码弄进生产环境、保证可靠性、应对安全审查。所以资深管理层（VP、总监）除了看 AI 编码工具，同样在大量采购可观测性、CI/CD、QA 和测试工具，几乎和 AI 编码工具一样多。[05:05 Unknown] [03:05 Unknown] [02:52 Unknown]\n\n那怎么跟他们沟通才有效？别喊\"2 倍提速、10 倍提速\"这种口号，会被笑出去。有效的做法是真正可信的教学：假设大家已经活在 AI 世界里，直接讲具体细节——你用什么技术解决了下游的新瓶颈、怎么消除以前不存在但现在卡住你的关卡。来自 Honeycomb 的 Liz Fong-Jones 前一天在台上讲的就是他们 AI 采用的具体路径，没有大数字，全是细节，这种内容才是这个受众真正吃的那一套。[07:50 Unknown] [06:25 Unknown] [07:16 Unknown]\n\n当然，受众也有分层。纯 AI 活动上可以多聊 AI，但面对工程师还是得讲具体；跟 CIO 层面可以讲宏观收益，但跟真正的买家和工程团队打交道，大西洋两岸态度一样——都得小心。[09:24 Unknown] [09:48 Unknown]\n\n从市场渠道看，数字渠道已经非常拥挤，很多 DevTools 公司在转向线下——办自己的晚宴、聚会，甚至做物理外展寄东西到办公桌。这种\"被腾空\"的领域反而能拿到优势。而且 DevTools 整体在回暖：两年前只有 27% 的受众说今年会增加支出，现在这个数字跳到了 36%。钱是有的，关键是去哪里见到这些人——线下是答案。[10:13 Unknown] [11:03 Unknown] [11:31 Unknown]\n\n## 本集带走\n- **别拿 AI 当卖点**：工程领导者的核心痛点仍然是速度、可靠性和技术债务，AI 实施排不进前三。以\"AI 优先\"开场会触发抵触。\n- **痛苦已经转移到下游**：代码生成自动化后，瓶颈变成了部署、可靠性和安全审查——可观测性、CI/CD、QA 工具的需求和 AI 编码工具一样高。\n- **用具体细节取代大口号**：别喊\"10 倍提速\"，直接讲你用什么方法解决了哪个具体的下游瓶颈。真实案例比宏大叙事有效得多。\n- **线下渠道正在被重新重视**：数字渠道过于拥挤，自办晚宴、聚会等面对面互动反而能突围。DevTools 整体支出在增长，从 27% 升到 36%。",
+  "quotes": [
+    {
+      "en": "Engineers, engineering leaders are a skeptical bunch at the best times.",
+      "zh": "工程师，工程领导者在最好的情况下也是一群持怀疑态度的人。",
+      "timestamp": "04:14",
+      "speaker": "Dave Fletcher"
+    },
+    {
+      "en": "So almost as many of them looking at monster observability as they are AI coding tools, CICD, QA.",
+      "zh": "所以几乎同样多的人在看 monster 可观测性，就像他们看 AI 编码工具、CICD、QA 一样。",
+      "timestamp": "02:54",
+      "speaker": "Dave Fletcher"
+    },
+    {
+      "en": "Don't stop talking about 2x-ing or 10x-ing your velocity.",
+      "zh": "不要停止谈论将速度提高 2 倍或 10 倍。",
+      "timestamp": "07:50",
+      "speaker": "Dave Fletcher"
+    },
+    {
+      "en": "Talk to me about how you can take this technology and solve those downstream problems that you've now got, unblock the gates that have become your new bottleneck that used to be coding at something else.",
+      "zh": "告诉我你如何利用这项技术解决你现在面临的下游问题，消除那些已成为你新瓶颈的关卡，而以前那些瓶颈是写代码或其他事情。",
+      "timestamp": "06:52",
+      "speaker": "Dave Fletcher"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:00",
+      "speaker": "Unknown",
+      "en": "Well over half of them are buying AI coding tools at the moment.",
+      "zh": "远远超过一半的人目前正在购买 AI 编码工具。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Unknown",
+      "en": "Engineers, engineering leaders are a skeptical bunch at the best times.",
+      "zh": "工程师，工程领导者在最好的情况下也是一群持怀疑态度的人。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Unknown",
+      "en": "Only a little over half of them have a positive view of AI.",
+      "zh": "只有略超过一半的人对 AI 持积极看法。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Unknown",
+      "en": "The thing that we're seeing in the research strongly is that the underlying pain points haven't changed that much.",
+      "zh": "我们在研究中强烈看到的是，底层痛点并没有太大变化。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Unknown",
+      "en": "The things that they are really caring about are velocity, reliability, tech debt.",
+      "zh": "他们真正关心的是速度、可靠性、技术债务。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Unknown",
+      "en": "AI implementation isn't anywhere close to those three.",
+      "zh": "AI 实施根本排不进这前三项。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Unknown",
+      "en": "That is where the pain is being felt downstream from the code generation that has largely been automated.",
+      "zh": "那就是感受到痛苦的地方，下游来自于已经很大程度上被自动化的代码生成。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Unknown",
+      "en": "All of a sudden that's rising up for a list of things they need to be, that they're worried about because they can, or the loss of control through all of this code that's getting out there that's not necessarily had the same scrutiny applied to it.",
+      "zh": "突然间这在他们需要担心的事情列表中排到了前面，因为他们可以，或者是因为所有这些正在发布的代码失去了控制，而这些代码不一定经过了同样的审查。"
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Unknown",
+      "en": "So almost as many of them looking at monster observability as they are AI coding tools, CICD, QA.",
+      "zh": "所以几乎同样多的人在看 monster 可观测性，就像他们看 AI 编码工具、CICD、QA 一样。"
+    },
+    {
+      "timestamp": "07:50",
+      "speaker": "Unknown",
+      "en": "Don't stop talking about 2x-ing or 10x-ing your velocity.",
+      "zh": "不要停止谈论将速度提高 2 倍或 10 倍。"
+    },
+    {
+      "timestamp": "07:55",
+      "speaker": "Unknown",
+      "en": "Those sorts of claims are just going to get laughed out of town.",
+      "zh": "那样的说法只会被人嘲笑。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Unknown",
+      "en": "And so if you're able to stand up there and teach and say, like, okay, it's a given that we are living in an AI world, right?",
+      "zh": "所以如果你能够站出来教学并说，好吧，我们生活在 AI 世界中这是既定的，对吧？"
+    },
+    {
+      "timestamp": "06:52",
+      "speaker": "Unknown",
+      "en": "Talk to me about how you can take this technology and solve those downstream problems that you've now got, unblock the gates that have become your new bottleneck that used to be coding at something else.",
+      "zh": "告诉我你如何利用这项技术解决你现在面临的下游问题，消除那些已成为你新瓶颈的关卡，而以前那些瓶颈是写代码或其他事情。"
+    },
+    {
+      "timestamp": "09:48",
+      "speaker": "Unknown",
+      "en": "But if you're talking to buyers and engineering teams, be really careful with it.",
+      "zh": "但如果你在和买家以及工程团队交谈，要非常小心。"
+    },
+    {
+      "timestamp": "10:13",
+      "speaker": "Unknown",
+      "en": "I think that on digital channels are getting really crowded.",
+      "zh": "我认为数字渠道变得非常拥挤。"
+    },
+    {
+      "timestamp": "11:03",
+      "speaker": "Unknown",
+      "en": "That's where you can get an advantage and actually it's an area that's been slightly vacated, hasn't it?",
+      "zh": "那就是你可以获得优势的地方，实际上这是一个稍微被腾空的领域，不是吗？"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Unknown",
+      "en": "Two years ago we had 27% of our audience saying that they were increasing the spending this year compared to last year.",
+      "zh": "两年前我们有 27% 的听众说他们今年正在增加支出相比去年。"
+    },
+    {
+      "timestamp": "11:41",
+      "speaker": "Unknown",
+      "en": "So it's like a real, it's a real jump.",
+      "zh": "所以这是一个真正的，这是一个真正的跳跃。"
+    }
+  ]
+}

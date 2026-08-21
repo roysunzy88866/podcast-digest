@@ -111,8 +111,8 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 **换个口味**
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)</span>
+- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|智能体经济来了：从聊天框到数字劳动力]]<span class="pd-rz">同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

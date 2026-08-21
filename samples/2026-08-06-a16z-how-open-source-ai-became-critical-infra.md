@@ -107,8 +107,8 @@ Simon 给了一个直白的定义：它的工作就是把可用的 GPU 变成智
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:后训练 (post-training)、护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|智能体经济来了：从聊天框到数字劳动力]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weight)、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)、VLLM</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

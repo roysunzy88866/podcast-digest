@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lance Martin]] · [[Anthropic]] · [[OpenAI]] · [[任务视界]] · [[Managed Agents]] · [[harness]] · [[沙箱]] · [[验证器]] · [[做梦]] · [[组织级驾驭系统]]
 
-<script type="application/json" class="pd-epn">{"Lance Martin":1,"Anthropic":52,"OpenAI":43,"任务视界":1,"Managed Agents":2,"harness":11,"沙箱":21,"验证器":1,"做梦":2,"组织级驾驭系统":1}</script>
+<script type="application/json" class="pd-epn">{"Lance Martin":1,"Anthropic":53,"OpenAI":44,"任务视界":1,"Managed Agents":2,"harness":12,"沙箱":21,"验证器":1,"做梦":2,"组织级驾驭系统":1}</script>
 
 <script>
 (function(){

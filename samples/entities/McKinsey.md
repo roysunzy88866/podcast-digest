@@ -7,28 +7,36 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>McKinsey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:11起):本集说很多公司会阶段性地从某个大公司成批招人，'麦肯锡那个从来不奏效'，原因是去麦肯锡工作的人在观念上偏保守，与持怀疑态度的创始人不匹配。
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(01:44起):本集提到创始人 Philip 曾在此咨询公司工作了几年，负责对接各国太空机构，从而察觉到了发射成本暴跌的趋势。
+- **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(42:55起):本集用麦肯锡作类比：它有非常成熟的做事方法，但没有企业会说让麦肯锡来配满全公司的人——成本太高，且你自己的业务 IP 和控制力才是长期价值，以此说明不应把数字劳动力绑在单一垂直栈上
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems#^q3]]
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司(提及)
+- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[AWS]] · [[Google]] · [[Microsoft]] · [[Brian Halligan]] · [[Benedict Evans]] · [[Philip Johnston]] · [[HubSpot]] · [[OpenAI]] · [[StarCloud]]
+[[AWS]] · [[Lenny]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[Brian Halligan]] · [[Benedict Evans]] · [[Philip Johnston]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"AWS":5,"Google":21,"Microsoft":11,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1,"HubSpot":3,"OpenAI":43,"StarCloud":1}</script>
+<script type="application/json" class="pd-epn">{"AWS":6,"Lenny":65,"OpenAI":44,"Google":21,"Anthropic":53,"Microsoft":11,"智能体":107,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1}</script>
 
 <script>
 (function(){

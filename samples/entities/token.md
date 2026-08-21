@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[沙箱]] · [[后训练]] · [[Codex]] · [[Cursor]] · [[Lazar Jovanovic]] · [[Boris Cherny]] · [[Heitor Lessa]]
 
-<script type="application/json" class="pd-epn">{"智能体":105,"Lenny":65,"Anthropic":52,"沙箱":21,"后训练":11,"Codex":23,"Cursor":25,"Lazar Jovanovic":1,"Boris Cherny":2,"Heitor Lessa":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":107,"Lenny":65,"Anthropic":53,"沙箱":21,"后训练":11,"Codex":23,"Cursor":25,"Lazar Jovanovic":1,"Boris Cherny":2,"Heitor Lessa":1}</script>
 
 <script>
 (function(){

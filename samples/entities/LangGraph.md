@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangGraph</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangGraph">LA</div><div class="pi"><h1 class="pt">LangGraph</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangGraph">LA</div><div class="pi"><h1 class="pt">LangGraph</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]]**(18:08起):本集把它说成：用于实现 PAT 聊天智能体和底层代码逻辑的框架，主要利用其开箱即用的持久化支持、取消和继续等功能。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(04:46起):LangChain 底层的开源框架,提供核心的节点、边和状态原语(像乐高积木),支持在执行的每一步设置检查点以实现断点恢复与短期/长期记忆,并可与确定性工作流深度组合。
+- **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(36:38起):本集将 LangGraph 作为开放框架/智能体控制框架的代表之一，你可以在里面互换模型
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(02:29起):本集提到旧版的 Scout 1.0 解析图就是在这个框架下构建的，图里的每个节点都有各自的模型和评估。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为被讨论公司
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
+- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude Code]] · [[harness]] · [[智能体]] · [[Deep Agents]] · [[LangChain]] · [[中间件]] · [[文件系统]] · [[Brendan McManus]] · [[LangSmith 部署]] · [[Harmonic]]
+[[智能体]] · [[Claude Code]] · [[harness]] · [[Deep Agents]] · [[LangChain]] · [[护栏]] · [[中间件]] · [[文件系统]] · [[Brendan McManus]] · [[LangSmith 部署]]
 
-<script type="application/json" class="pd-epn">{"Claude Code":28,"harness":11,"智能体":105,"Deep Agents":3,"LangChain":3,"中间件":2,"文件系统":3,"Brendan McManus":1,"LangSmith 部署":1,"Harmonic":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":107,"Claude Code":28,"harness":12,"Deep Agents":3,"LangChain":3,"护栏":23,"中间件":2,"文件系统":3,"Brendan McManus":1,"LangSmith 部署":1}</script>
 
 <script>
 (function(){

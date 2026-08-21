@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
+[[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":52,"OpenAI":43,"Meta":15,"Google":21,"Cursor":25,"Lovable":8,"Slack":19,"智能体编码":1,"能力过剩":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":53,"OpenAI":44,"Meta":15,"Google":21,"Cursor":25,"Lovable":8,"Slack":19,"智能体编码":1,"能力过剩":2}</script>
 
 <script>
 (function(){

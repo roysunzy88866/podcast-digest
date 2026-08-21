@@ -22,7 +22,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Matt Swulinski]] · [[Andrew MacDonald]] · [[Superhuman]] · [[Uber]] · [[Whisper]] · [[Uber One]] · [[Victor]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"智能体":105,"ChatGPT":30,"Matt Swulinski":1,"Andrew MacDonald":1,"Superhuman":4,"Uber":4,"Whisper":1,"Uber One":1,"Victor":1,"自主性":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":107,"ChatGPT":30,"Matt Swulinski":1,"Andrew MacDonald":1,"Superhuman":4,"Uber":4,"Whisper":1,"Uber One":1,"Victor":1,"自主性":3}</script>
 
 <script>
 (function(){

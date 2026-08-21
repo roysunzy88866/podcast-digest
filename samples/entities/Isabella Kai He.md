@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
+[[Aaron Zolman]] [[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":52,"智能体":105,"harness":11,"沙箱":21,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":6}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":53,"智能体":107,"harness":12,"沙箱":21,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":7}</script>
 
 <script>
 (function(){

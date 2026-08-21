@@ -1,0 +1,631 @@
+{
+  "episode_id": "2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en",
+  "podcast": "The a16z Show",
+  "date": "2026-08-21",
+  "tags": [
+    "AI 安全",
+    "智能体安全",
+    "CISO 角色",
+    "威胁建模",
+    "Black Hat"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "joel-de-la-garza",
+      "type": "person",
+      "role": "host",
+      "name": "Joel de la Garza",
+      "file": "Joel de la Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            76.594,
+            90.842
+          ],
+          "quote": "In this episode from Black Hat, A16Z's Joel de la Garza sits down with Microsoft Gaming Deputy CISO Aaron Zolman to talk about securing AI agents that can access data, use tools, write code, and act on behalf of employees.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aaron-zolman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Aaron Zolman",
+      "file": "Aaron Zolman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            76.594,
+            90.842
+          ],
+          "quote": "In this episode from Black Hat, A16Z's Joel de la Garza sits down with Microsoft Gaming Deputy CISO Aaron Zolman to talk about securing AI agents that can access data, use tools, write code, and act on behalf of employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            121.318,
+            127.102
+          ],
+          "quote": "So today we've got Aaron Zolman from Microsoft, the deputy CISO over there, responsible for a whole lot of different things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说它是一个开源 AI 编程工具，首次出现在微软内部时安全团队第一反应是「怎么禁用它」，后来演变成多学科努力使其安全运行，创始人 Peter Steinberger 后来在 Microsoft Build 上谈论如何为其引入安全性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            64.787,
+            69.61
+          ],
+          "quote": "When OpenClaw first appeared inside Microsoft, the security team's reaction was familiar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            197.643,
+            203.547
+          ],
+          "quote": "gave a really great talk on some work we had done internally at A16z where we were using OpenClaw.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            203.568,
+            208.972
+          ],
+          "quote": "And we found that with OpenClaw, the guardrails, at least for Opus 4.6, kind of disappeared.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            215.128,
+            220.572
+          ],
+          "quote": "And so like, hey, OpenClaw, I want you to do this thing for me, but there's no clear, legitimate path to do it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            253.417,
+            259.4
+          ],
+          "quote": "And I know you've been very active in OpenClaw, which I think two months ago was the number one thing everyone was afraid of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            317.242,
+            326.985
+          ],
+          "quote": "And to preview the ending a little bit of it, Peter Steinberger, the founder of OpenClaw, is on stage at Microsoft Build with us a few months later talking about how we're bringing security to the process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            464.089,
+            468.971
+          ],
+          "quote": "But to make OpenClaw, Scout, these harnesses effective, you want to give them everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            911.677,
+            924.912
+          ],
+          "quote": "I will say that, again, thinking through this lens of how do you take something like OpenClaw and get comfortable with it, you do have to put in the effort to continuously scan it, containerize it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            986.264,
+            992.785
+          ],
+          "quote": "Like, it's, like, yourself working with OpenClaw, like, at every forward-leaning organization, it seems like the CISO is there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体的特质描述为不可预测、非理性、不顺心就爆发，列到最后发现「听起来就像前一晚喝多了的实习生」；讨论了智能体需要自己的身份而非冒用用户身份，以及套索（harness）与模型的组合",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            24.048,
+            26.85
+          ],
+          "quote": "The qualities of these agents, they're unpredictable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            76.594,
+            90.842
+          ],
+          "quote": "In this episode from Black Hat, A16Z's Joel de la Garza sits down with Microsoft Gaming Deputy CISO Aaron Zolman to talk about securing AI agents that can access data, use tools, write code, and act on behalf of employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            91.787,
+            105.492
+          ],
+          "quote": "They discuss why agents need their own identities, what air-gapped means when a model can find unexpected paths to the internet, and why securing this new generation of software requires both new controls and some very old security fundamentals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            374.27,
+            378.472
+          ],
+          "quote": "And I guess generally people would refer to them as agents, but it's like a harness and a model and whatever, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            380.573,
+            392.718
+          ],
+          "quote": "It's really interesting because as you work through the threat model, as you think about kind of like how do we secure these things and protect these things, you start to articulate the qualities of these agents and you're sort of like, well, they're unpredictable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red team)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集提到 OpenAI 进行红队演习，让模型在封闭环境中测试组织安全，结果环境并不封闭，模型上到互联网测试了多个组织的安全性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            158.219,
+            163.381
+          ],
+          "quote": "And we saw there was a disclosure from OpenAI that they were doing a red team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            163.541,
+            173.844
+          ],
+          "quote": "Well, actually, it turns out now, just 15 minutes ago, there was another disclosure that these have all essentially happened because there was a red team exercise where someone was testing the models, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "containerization",
+      "type": "concept",
+      "role": "concept",
+      "name": "容器化 (containerization)",
+      "file": "容器化",
+      "primary": true,
+      "how_described": "本集说面对智能体需要回到第一性原理并更深入地重新定义「容器化对你来说意味着什么」，以及需要给智能体各种形式的容器化来划定边界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            16.763,
+            19.625
+          ],
+          "quote": "We have created containerization and boundaries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            38.961,
+            46.667
+          ],
+          "quote": "Yes, you're going back to first principles, but you also have to go even a little deeper and start to redefine what does containerization even mean for you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            336.549,
+            339.41
+          ],
+          "quote": "We have created containerization and documentaries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            468.991,
+            478.756
+          ],
+          "quote": "And so I do think, yes, you're going back to first principles, but you also have to go even a little deeper and start to redefine, like, what does containerization even mean for you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            761.325,
+            762.807
+          ],
+          "quote": "Various forms of containerization.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "air-gapped",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理隔离 (air-gapped)",
+      "file": "物理隔离",
+      "primary": true,
+      "how_described": "本集指出一个关键矛盾：你以为对环境做了物理隔离，但第一件事就是给模型开了 DNS 和网络端点，加上模型自带的网页搜索工具——那你到底还隔不隔离",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            91.787,
+            105.492
+          ],
+          "quote": "They discuss why agents need their own identities, what air-gapped means when a model can find unexpected paths to the internet, and why securing this new generation of software requires both new controls and some very old security fundamentals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            479.136,
+            480.196
+          ],
+          "quote": "What does air-gapped mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            480.376,
+            481.697
+          ],
+          "quote": "What does air-gapped mean?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "threat-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "威胁模型 (threat model)",
+      "file": "威胁模型",
+      "primary": true,
+      "how_described": "本集说以前列出 20 种攻击路径，真人黑客只有耐心走其中 5 种；但模型会尝试所有理论上可行的路径，5 条变成 20 条，你全得堵上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            380.573,
+            392.718
+          ],
+          "quote": "It's really interesting because as you work through the threat model, as you think about kind of like how do we secure these things and protect these things, you start to articulate the qualities of these agents and you're sort of like, well, they're unpredictable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            569.077,
+            574.1
+          ],
+          "quote": "You would always have to go through the list threat model, which was like, there's all these things an attacker could do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到 OpenClaw 一开始没有护栏，用 Opus 4.6 时护栏「有点消失了」，模型会为了达成目标不择手段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            203.568,
+            208.972
+          ],
+          "quote": "And we found that with OpenClaw, the guardrails, at least for Opus 4.6, kind of disappeared.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            276.388,
+            277.749
+          ],
+          "quote": "And it has no guardrails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            278.229,
+            279.109
+          ],
+          "quote": "It has no guardrails.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "套索 (harness)",
+      "file": "套索",
+      "primary": false,
+      "how_described": "本集将其描述为套在模型外面让它能调用工具的框架，说为了让 OpenClaw、Scout 这些套索有效，你想给它接上一切——所有邮件、日历、数据库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            374.27,
+            378.472
+          ],
+          "quote": "And I guess generally people would refer to them as agents, but it's like a harness and a model and whatever, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            497.502,
+            513.405
+          ],
+          "quote": "But if I can give it its own identity, if I can describe the balance of the container, if I can tie the actions of the agent or the harness or the model or the session, actually quite hard to figure out what you want to tie to, but put that aside for a moment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            749.74,
+            759.344
+          ],
+          "quote": "And then you kind of go back and you think, well, what are the control points that I wish existed in this Harness model ecosystem that may or may not exist today, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            776.638,
+            780.738
+          ],
+          "quote": "And, you know, even then, people will not use the harness you give them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            780.758,
+            781.939
+          ],
+          "quote": "They'll use the harness they want.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链攻击 (supply chain)",
+      "file": "供应链攻击",
+      "primary": false,
+      "how_described": "本集提到 OpenClaw 有「完全开放的、远程的、从互联网拉取任意东西的供应链隐患」，以及录制当天发生了一起 NPM 组织被接管事件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            58.596,
+            61.278
+          ],
+          "quote": "We're only three weeks out from massive supply chain pain, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            61.418,
+            62.839
+          ],
+          "quote": "Wait, what's the massive supply chain pain?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            279.169,
+            285.73
+          ],
+          "quote": "And worse than that, you know, it had fully open, remote, pull-whatever-down-from-the-internet-supply-chain pain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1236.704,
+            1244.087
+          ],
+          "quote": "And we're only, I was going to say, we're only three weeks out from massive supply chain pain, but, you know, three hours as we record this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1245.907,
+            1247.828
+          ],
+          "quote": "Wait, what's the massive supply chain pain?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sfi",
+      "type": "concept",
+      "role": "concept",
+      "name": "SFI",
+      "file": "SFI",
+      "primary": false,
+      "how_described": "本集提到微软 SFI 的所有支柱，从身份、网络、工程系统到软件等传统维度来列举控制措施和端点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            733.913,
+            740.416
+          ],
+          "quote": "The traditional axes that we try and think about and we enumerate, you know, all of Microsoft's SFI pillars, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份 (identity)",
+      "file": "身份",
+      "primary": false,
+      "how_described": "本集强调需要给智能体它自己的身份，而不是让它以用户身份运行——后者会直接从浏览器缓存拿走令牌为所欲为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            481.797,
+            482.757
+          ],
+          "quote": "What is an identity?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            497.502,
+            513.405
+          ],
+          "quote": "But if I can give it its own identity, if I can describe the balance of the container, if I can tie the actions of the agent or the harness or the model or the session, actually quite hard to figure out what you want to tie to, but put that aside for a moment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1335.407,
+            1340.152
+          ],
+          "quote": "And so I remember catching up with someone after Christmas and they were just like, had lost their identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1340.192,
+            1343.735
+          ],
+          "quote": "They were like, my whole identity is based on me being like an amazing developer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "npm",
+      "type": "company",
+      "role": "company",
+      "name": "NPM",
+      "file": "NPM",
+      "primary": false,
+      "how_described": "本集仅在结尾顺带提到录制当天发生了一起 NPM 组织被接管事件，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1250.909,
+            1251.31
+          ],
+          "quote": "Oh, the NPM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1251.33,
+            1254.835
+          ],
+          "quote": "There was an NPM organization takeover today.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "DNS tunneling",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

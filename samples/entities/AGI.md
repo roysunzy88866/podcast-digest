@@ -75,7 +75,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[ChatGPT]] · [[Meta]] · [[后训练]] · [[Claude Code]] · [[Apple]] · [[Alex]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":43,"Anthropic":52,"Lenny":65,"Google":21,"ChatGPT":30,"Meta":15,"后训练":11,"Claude Code":28,"Apple":12,"Alex":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":44,"Anthropic":53,"Lenny":65,"Google":21,"ChatGPT":30,"Meta":15,"后训练":11,"Claude Code":28,"Apple":12,"Alex":3}</script>
 
 <script>
 (function(){

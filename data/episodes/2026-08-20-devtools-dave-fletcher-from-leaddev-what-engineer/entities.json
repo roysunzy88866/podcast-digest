@@ -1,0 +1,357 @@
+{
+  "episode_id": "2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer",
+  "podcast": "Scaling DevTools",
+  "date": "2026-08-20",
+  "tags": [
+    "DevTools",
+    "AI 编码工具",
+    "工程领导者采购",
+    "线下渠道",
+    "痛点迁移"
+  ],
+  "categories": [
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "ken",
+      "type": "person",
+      "role": "host",
+      "name": "Ken",
+      "file": "Ken",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0.511,
+            1.672
+          ],
+          "quote": "You're listening to Ken and DevTools.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dave-fletcher",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dave Fletcher",
+      "file": "Dave Fletcher",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "lead-dev",
+      "type": "company",
+      "role": "company",
+      "name": "Lead Dev",
+      "file": "Lead Dev",
+      "primary": true,
+      "how_described": "本集说 Lead Dev 举办 LDX3 等工程领导者大会，汇聚超过 2500 名工程经理到 VP 级别的资深工程领导，并通过 150 次访谈和大规模调研获取买家洞察",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            2.132,
+            4.713
+          ],
+          "quote": "I'm joined today by Dave from Lead Dev.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            11.977,
+            13.077
+          ],
+          "quote": "We are at Lead Dev.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            13.738,
+            16.539
+          ],
+          "quote": "And could you tell us a bit about Lead Dev?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "honeycomb",
+      "type": "company",
+      "role": "company",
+      "name": "Honeycomb",
+      "file": "Honeycomb",
+      "primary": false,
+      "how_described": "本集提到 Honeycomb 的 Liz Fong-Jones 在台上分享了他们的 AI 采用之旅，没有大数字而是讲具体细节",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            436.538,
+            446.36
+          ],
+          "quote": "We had Liz Fong-Jones from Honeycomb on stage yesterday giving a fantastic talk all about their AI adoption journey.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编码工具 (AI coding tools)",
+      "file": "AI 编码工具",
+      "primary": true,
+      "how_described": "本集说超过一半的工程领导者正在购买 AI coding tools，但代码生成被自动化后痛苦转移到了下游的部署和可靠性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            120.84,
+            124.442
+          ],
+          "quote": "Well over half of them are buying AI coding tools at the moment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            129.406,
+            133.929
+          ],
+          "quote": "So about 52% of the whole audience reports buying AI coding tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            149.04,
+            171.119
+          ],
+          "quote": "And a really interesting difference is when we look at the more senior members of our audience, so VPs, directors, and what we see there is, sure, they're reporting that they are buying AI coding tools, but also we've seen downstream tooling",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            174.201,
+            183.125
+          ],
+          "quote": "So almost as many of them looking at monster observability as they are AI coding tools, CICD, QA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说 VP 和总监层级对 observability 工具的关注度几乎与 AI 编码工具一样高，因为代码生成自动化后可靠性成为下游新痛点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            135.97,
+            144.316
+          ],
+          "quote": "More interesting is about 20% of them are buying some of the core categories, things like CRCD, monetary and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            174.201,
+            183.125
+          ],
+          "quote": "So almost as many of them looking at monster observability as they are AI coding tools, CICD, QA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集说 CICD 和 QA 测试工具在资深工程领导者中非常受欢迎，是代码生成自动化后瓶颈转移到下游的体现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            174.201,
+            183.125
+          ],
+          "quote": "So almost as many of them looking at monster observability as they are AI coding tools, CICD, QA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债务 (tech debt)",
+      "file": "技术债务",
+      "primary": true,
+      "how_described": "本集说速度、可靠性、tech debt 是工程领导者真正关心的前三痛点，AI 实施根本排不进这三项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            315.702,
+            323.426
+          ],
+          "quote": "The things that they are really caring about are velocity, reliability, tech debt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 优先 (AI-first)",
+      "file": "AI 优先",
+      "primary": true,
+      "how_described": "本集说许多 DevTools 客户在 AI-first messaging 上强力推进，但这对此受众来说相当危险，会触发买家设置障碍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            276.567,
+            288.714
+          ],
+          "quote": "Many of the dev tools that we've got as customers have gone strong on AI-first messaging, and that can be quite a dangerous thing to do with our audience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            295.004,
+            306.557
+          ],
+          "quote": "And so a large chunk of the buyers are going to start putting barriers up if you're leading with big AI first claims.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "digital-channels",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字渠道 (digital channels)",
+      "file": "数字渠道",
+      "primary": false,
+      "how_described": "本集说 digital channels 变得非常拥挤，DevTools 公司因此转向面对面互动来突围",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            613.367,
+            618.11
+          ],
+          "quote": "I think that on digital channels are getting really crowded.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "devtools",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevTools",
+      "file": "DevTools",
+      "primary": true,
+      "how_described": "本集说 DevTools 整体在回暖，两年前只有 27% 的受众说会增加支出，现在跳到了 36%，外面有钱关键是在哪里见到这些人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0.511,
+            1.672
+          ],
+          "quote": "You're listening to Ken and DevTools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            67.392,
+            74.334
+          ],
+          "quote": "We interview a lot of DevTools founders here and kind of get the DevTools perspective, which I know you have too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            600.057,
+            604.32
+          ],
+          "quote": "And I know you're also talking to a lot of DevTools companies that are like sponsoring and working with you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            673.201,
+            684.204
+          ],
+          "quote": "And I was, I think, also borne out in the, I think it's Boon Time actually for DevTools at the moment, certainly in the data that we're seeing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            730.554,
+            738.199
+          ],
+          "quote": "If any DevTools listening want to either attend or sponsor an event in the future, where can they?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "qa-and-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "QA 和测试 (QA and testing)",
+      "file": "QA 和测试",
+      "primary": false,
+      "how_described": "本集说 QA and testing tools 是资深管理层除了 AI 编码工具外同样大量采购的下游工具类别",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            146.258,
+            147.879
+          ],
+          "quote": "QA and testing tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

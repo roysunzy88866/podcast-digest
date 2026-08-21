@@ -8,29 +8,37 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CI/CD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(17:10起):本集说 CI 流程里遇到 lint 错误，Codex 可以直接打补丁并重启 CI 流程，工程师几乎不需要介入
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(51:57起):本集把它说成是智能体时代的一个潜在爆发点：随着编码智能体运行大量 CI 任务，可以用内存快照等原语来跳过依赖准备阶段，大幅减少 CI 浪费的时间。
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(04:20起):本集把它说成:自动跑测试的流程;在架构不变量被打破、出现漏掉边界的包时,CI 或 git 提交历史立刻标红报警,守住代码库收敛。
+- **[[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer|《工程领导者的AI工具购买真相》]]**(02:54起):本集说 CICD 和 QA 测试工具在资深工程领导者中非常受欢迎，是代码生成自动化后瓶颈转移到下游的体现
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer#^q2]]
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念(提及)
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念
+- [[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer|《工程领导者的AI工具购买真相》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[OpenAI]] · [[Sherwin Wu]] · [[swyx]] · [[Vaibhav Gupta]] · [[Lenny]] · [[Akshat Bubna]] · [[BAML]] · [[ChatGPT]]
+[[智能体]] · [[Codex]] · [[OpenAI]] · [[Sherwin Wu]] · [[swyx]] · [[Vaibhav Gupta]] · [[Ken]] · [[Lenny]] · [[Akshat Bubna]] · [[BAML]]
 
-<script type="application/json" class="pd-epn">{"智能体":105,"Codex":23,"OpenAI":43,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Lenny":65,"Akshat Bubna":1,"BAML":1,"ChatGPT":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":107,"Codex":23,"OpenAI":44,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Ken":1,"Lenny":65,"Akshat Bubna":1,"BAML":1}</script>
 
 <script>
 (function(){

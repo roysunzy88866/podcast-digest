@@ -1,0 +1,1021 @@
+{
+  "episode_id": "2026-08-06-practicalai-models-harnesses-and-multi-agent-systems",
+  "podcast": "Practical AI",
+  "date": "2026-08-06",
+  "tags": [
+    "智能体架构",
+    "多智能体",
+    "垂直集成vs开放框架",
+    "AI 基础概念",
+    "数字劳动力"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "host",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            47.239,
+            56.343
+          ],
+          "quote": "I am CEO at PredictionGuard, and I'm joined as always by my co-host, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "daniel-widenach",
+      "type": "person",
+      "role": "cohost",
+      "name": "Daniel Widenach",
+      "file": "Daniel Widenach",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            45.559,
+            47.179
+          ],
+          "quote": "This is Daniel Widenach.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是一种被赋予目标、至少以某种程度的自主性去完成任务的软件，它连接到公司真实系统（如 NetSuite、Workday）或个人系统（如邮件、日历、WhatsApp），不需要与人来回交互就能把事办成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            621.213,
+            625.095
+          ],
+          "quote": "What about the agent and or the agent harness, Chris?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            718.259,
+            724.383
+          ],
+          "quote": "Some of these can require sophisticated hardware, but at the end of the day, the model, the agent, the harness, all these are just...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            785.517,
+            797.726
+          ],
+          "quote": "I think the distinction of the agent, which is very interesting, is what I would consider an AI application or an AI feature within your software is really something that is meant to...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            827.869,
+            831.612
+          ],
+          "quote": "What I think is different about the agent, again, to your point, is not...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            849.391,
+            851.653
+          ],
+          "quote": "And that's where I think the agent is different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            857.096,
+            860.118
+          ],
+          "quote": "So if it's a personal agent, maybe it's tied into your email.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            869.223,
+            878.985
+          ],
+          "quote": "If it's a company agent, maybe it's tied into your NetSuite and it's tied into your Workday and it's tied into your transactional databases, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            879.325,
+            894.369
+          ],
+          "quote": "And you express an outcome to that agent and you or encode a goal with that agent and it operates at least with some level of autonomy without a back and forth with a human to accomplish that outcome or",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            897.129,
+            907.952
+          ],
+          "quote": "I think that's really a key differentiator when it comes to an AI application or an AI feature versus an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1008.535,
+            1018.224
+          ],
+          "quote": "And I think in terms of like that connection that the agent has to kind of real world things that a person's company or it could be in their house.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1049.01,
+            1074.957
+          ],
+          "quote": "You really start, that's where the kind of the autonomy of what agents are, the potential of what agents can do is really realized because instead of you as a human kind of being the recipient of each thing there and you know that the agent is doing and it's really kind of almost an assistant to you, you can actually assign agents to go out and work together to accomplish multiple tasks in a complex environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1155.674,
+            1171.012
+          ],
+          "quote": "So that was a great explanation of getting us kind of, you know, from basic models into kind of the world of human and model of chatbot and into the world of agents and what's different there if you introduce the agent into the process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1367.773,
+            1391.265
+          ],
+          "quote": "might be impossible in that mode for like a single agent maybe interacting with a single human but that would be possible for a fleet or a swarm of agents that's operating you know more autonomously in the background do you have any examples that come to mind or things that you can think of that that people could grasp onto concretely",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1645.697,
+            1669.571
+          ],
+          "quote": "Those flows in your own business as well like if you think in manufacturing for example you may get notifications from some of your suppliers that then create a trigger for a first agent to actually process that notification and realize oh we've got a vendor problem here and then maybe there's another agent that does research for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1980.104,
+            1987.605
+          ],
+          "quote": "We institute runtime governance over all agent interactions, controlling that behavior as agents operating in your environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            2054.768,
+            2067.239
+          ],
+          "quote": "Is multi-agent architecture, so these fleets, swarms, whatever you consider, is that really the future or are we just compensating for limitations that better models will remove?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            2071.103,
+            2078.75
+          ],
+          "quote": "So do we really need multi-agent systems or is the better model just going to be able to solve those problems?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            2132.417,
+            2149.623
+          ],
+          "quote": "I'm quite convinced that multi-agent architectures not only are where things are going, I think they will be absolutely and completely pervasive in the future to the point where we won't want to talk about them at all because they'll just be so built into the fabric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2177.645,
+            2185.774
+          ],
+          "quote": "Or are we going to see a future where most things are very vertically integrated agent stacks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2198.548,
+            2214.452
+          ],
+          "quote": "Lives in the world of sometimes more open, not always open though, open source agent harnesses, but things like, for example, LangGraph or Pydantic agents or Hermes agent or OpenClaw, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2214.492,
+            2218.353
+          ],
+          "quote": "Name your favorite one, framework or agent harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            2218.633,
+            2225.761
+          ],
+          "quote": "And within these frameworks or agent harnesses, you can interchange the model like the brain, as you mentioned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2241.398,
+            2256.97
+          ],
+          "quote": "Then you can look at other stacks, like maybe you look more towards inbuilt agent features in Anthropic or OpenAI's platform, but also others, whether it's like IBM Watson agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2257.55,
+            2266.272
+          ],
+          "quote": "Thingy, I forget what it's called, or, you know, the hyperscalers, AWS has an agent core thing, I think, like others.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2269.753,
+            2286.736
+          ],
+          "quote": "To say, hey, we're going to do all the different things of the stack, we're going to do them in an opinionated way, we're vertically integrated, we maybe even have the compute, we have the models, we have the agent harness, we have the interface, we have the console, just like take everything in our vertical stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2654.335,
+            2667.227
+          ],
+          "quote": "Within your digital workforce in a way that is definitely more vendor agnostic, less tied into the strict opinion of a vertically integrated agent stack, I think does have advantages.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体架构 (multi-agent architecture)",
+      "file": "多智能体架构",
+      "primary": true,
+      "how_described": "本集说多智能体架构不仅是趋势，未来会绝对且完全地无处不在，深入到基础设施里以至于我们都不需要特意谈论它；在网络安全防御和制造业供应链中断等场景下，多智能体协作是人类速度跟不上的刚需",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            2054.768,
+            2067.239
+          ],
+          "quote": "Is multi-agent architecture, so these fleets, swarms, whatever you consider, is that really the future or are we just compensating for limitations that better models will remove?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体控制框架 (agent harness)",
+      "file": "智能体控制框架",
+      "primary": true,
+      "how_described": "本集说 agent harness 是管理智能体的软件系统，被比作'AI 的操作系统'，负责访问模型、管理智能体并编排它们的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            621.213,
+            625.095
+          ],
+          "quote": "What about the agent and or the agent harness, Chris?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2214.492,
+            2218.353
+          ],
+          "quote": "Name your favorite one, framework or agent harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2269.753,
+            2286.736
+          ],
+          "quote": "To say, hey, we're going to do all the different things of the stack, we're going to do them in an opinionated way, we're vertically integrated, we maybe even have the compute, we have the models, we have the agent harness, we have the interface, we have the console, just like take everything in our vertical stack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 模型 (AI model)",
+      "file": "AI 模型",
+      "primary": true,
+      "how_described": "本集说 AI 模型本质上是一个数据转换函数——你给它图像它告诉你里面有什么，你给它文本它生成文本，不管底层架构多复杂，归根结底是输入到输出的映射",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            164.884,
+            170.027
+          ],
+          "quote": "So the first term obviously is an AI model or a model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            170.807,
+            181.512
+          ],
+          "quote": "And very often, and this actually hasn't changed, although maybe some of the things we refer to as models have changed, but an AI model is really...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            813.858,
+            825.427
+          ],
+          "quote": "Financial software where you go in and there's an AI model that makes a prediction for a future cash flow variance or something like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open-weight)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说开放权重模型指你可以下载权重和运行软件、跑在自己机器上的模型，并指出目前如果你想在自有服务器上跑一个相当强的模型，大概率得选中国出的开放模型，因为它们在这方面是最好的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            376.056,
+            386.989
+          ],
+          "quote": "And maybe one distinction, too, that's really important with these models is some are what's called open-weight or open-source models, some are closed models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            412.142,
+            415.525
+          ],
+          "quote": "The importance of open weight models or open source models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            516.776,
+            520.018
+          ],
+          "quote": "So that's what we mean by open weight or closed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            615.749,
+            620.812
+          ],
+          "quote": "Okay, so model, open weight, closed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "closed-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "封闭模型 (closed models)",
+      "file": "封闭模型",
+      "primary": true,
+      "how_described": "本集说封闭模型的权重不发布，只能通过托管 API、聊天界面等访问，模型跑在公司专有基础设施后面；如果你愿意用 API 调封闭模型，美国的那几家仍然领先",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            376.056,
+            386.989
+          ],
+          "quote": "And maybe one distinction, too, that's really important with these models is some are what's called open-weight or open-source models, some are closed models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            490.619,
+            494.842
+          ],
+          "quote": "And those are generally called closed models, often kind of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            602.879,
+            610.885
+          ],
+          "quote": "Or if you're willing to do APIs for closed models, the American-based ones are still leading in that space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直集成栈 (vertically integrated)",
+      "file": "垂直集成栈",
+      "primary": true,
+      "how_described": "本集说垂直集成栈是 Anthropic、OpenAI、AWS 等厂商提供的从算力到模型到智能体框架到界面的全套方案，非常'有主见'（opinionated），用 Google 全家桶就深度集成 Gemini，用 Microsoft 就集成 Copilot，但跨不过去",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            2177.645,
+            2185.774
+          ],
+          "quote": "Or are we going to see a future where most things are very vertically integrated agent stacks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2269.753,
+            2286.736
+          ],
+          "quote": "To say, hey, we're going to do all the different things of the stack, we're going to do them in an opinionated way, we're vertically integrated, we maybe even have the compute, we have the models, we have the agent harness, we have the interface, we have the console, just like take everything in our vertical stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2654.335,
+            2667.227
+          ],
+          "quote": "Within your digital workforce in a way that is definitely more vendor agnostic, less tied into the strict opinion of a vertically integrated agent stack, I think does have advantages.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放框架 (open)",
+      "file": "开放框架",
+      "primary": true,
+      "how_described": "本集说开放框架路线以 LangGraph、Pydantic agents 等为代表，你可以在里面换模型、换组件，是供应商中立的；被类比为不像让麦肯锡配满你全公司的人——你自己的业务 IP、控制力和灵活性才是长期价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            376.056,
+            386.989
+          ],
+          "quote": "And maybe one distinction, too, that's really important with these models is some are what's called open-weight or open-source models, some are closed models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            412.142,
+            415.525
+          ],
+          "quote": "The importance of open weight models or open source models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            457.145,
+            464.227
+          ],
+          "quote": "So let's take, for example, an open model, like maybe a Gemma model or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            516.776,
+            520.018
+          ],
+          "quote": "So that's what we mean by open weight or closed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            570.432,
+            573.853
+          ],
+          "quote": "There's a lot of hardware you have available if they're open.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            573.873,
+            578.393
+          ],
+          "quote": "Well, the Gemmas are open, and there's others as well, both out of Europe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            578.733,
+            585.195
+          ],
+          "quote": "There's a lot out of China, which is kind of the powerhouse of open models now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            615.749,
+            620.812
+          ],
+          "quote": "Okay, so model, open weight, closed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2198.548,
+            2214.452
+          ],
+          "quote": "Lives in the world of sometimes more open, not always open though, open source agent harnesses, but things like, for example, LangGraph or Pydantic agents or Hermes agent or OpenClaw, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2228.844,
+            2230.206
+          ],
+          "quote": "It could be an open one.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到在做新奇事情时经常在前沿模型上撞到护栏（hit guardrails all over the place），模型不让你做你想做的事，所以需要有备份计划换模型换方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 389,
+          "t": [
+            2902.591,
+            2912.68
+          ],
+          "quote": "I run into models all the time on the frontier side that won't let me do things I want to do because I'm trying to do novel things a lot of the time and I hit guardrails all over the place.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "digital-workforce",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字劳动力 (digital workforce)",
+      "file": "数字劳动力",
+      "primary": false,
+      "how_described": "本集将智能体团队称为数字劳动力，说每个企业员工都可以像 F1 车队领队一样拥有一支高性能智能体团队，从'搬轮胎'提升到战略和结果导向的层面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1954.717,
+            1960.159
+          ],
+          "quote": "There's a lot to know when you're scaling up your digital workforce of agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1960.499,
+            1970.242
+          ],
+          "quote": "I'm leading a company called Prediction Guard, which provides an AI control plane to help you actually scale your digital workforce in a governed, controlled way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2513.907,
+            2531.044
+          ],
+          "quote": "However, whether you're a Google shop or a Microsoft shop, if you're creating this, what I think of as your digital workforce of agents, right, you're not going to have that digital workforce of agents be run by the little widget in your Google Doc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2654.335,
+            2667.227
+          ],
+          "quote": "Within your digital workforce in a way that is definitely more vendor agnostic, less tied into the strict opinion of a vertically integrated agent stack, I think does have advantages.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "predictionguard",
+      "type": "company",
+      "role": "company",
+      "name": "PredictionGuard",
+      "file": "PredictionGuard",
+      "primary": false,
+      "how_described": "本集提及 PredictionGuard 是 Daniel 领导的公司，提供 AI 控制平面来帮助以受管理、受控的方式扩展数字劳动力，包括供应链可见性、运行时治理和可观测性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            47.239,
+            56.343
+          ],
+          "quote": "I am CEO at PredictionGuard, and I'm joined as always by my co-host, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2982.41,
+            2984.394
+          ],
+          "quote": "Check them out at predictionguard.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemma",
+      "type": "company",
+      "role": "company",
+      "name": "Gemma",
+      "file": "Gemma",
+      "primary": false,
+      "how_described": "本集以 Gemma 作为开放权重模型的例子，说你可以去 Hugging Face 下载它的权重并在本地运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            457.145,
+            464.227
+          ],
+          "quote": "So let's take, for example, an open model, like maybe a Gemma model or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            560.846,
+            570.172
+          ],
+          "quote": "You mentioned Gemma, which is some of the gradually smaller models that can be downloaded and run locally with whatever...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到你可以去 Hugging Face 下载开放模型的权重，并有运行 Transformers 库的软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            464.447,
+            473.85
+          ],
+          "quote": "You can go to Hugging Face, you can download the weights of that, and there is software that runs the Transformers library from Hugging Face, for example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "company",
+      "role": "company",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": false,
+      "how_described": "本集将 LangGraph 作为开放框架/智能体控制框架的代表之一，你可以在里面互换模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            2198.548,
+            2214.452
+          ],
+          "quote": "Lives in the world of sometimes more open, not always open though, open source agent harnesses, but things like, for example, LangGraph or Pydantic agents or Hermes agent or OpenClaw, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集将 Anthropic 作为垂直集成栈的厂商代表之一，提供从模型到智能体功能到界面的有主见的全套方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            2241.398,
+            2256.97
+          ],
+          "quote": "Then you can look at other stacks, like maybe you look more towards inbuilt agent features in Anthropic or OpenAI's platform, but also others, whether it's like IBM Watson agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集将 OpenAI 作为垂直集成栈的厂商代表之一，在封闭模型 API 领域仍然领先",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            2241.398,
+            2256.97
+          ],
+          "quote": "Then you can look at other stacks, like maybe you look more towards inbuilt agent features in Anthropic or OpenAI's platform, but also others, whether it's like IBM Watson agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2322.838,
+            2336.049
+          ],
+          "quote": "And some of that is using closed frontier models that you would find at, you know, whether it's the Geminis and the Claudes and the, you know, and the OpenAI models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "netsuite",
+      "type": "company",
+      "role": "company",
+      "name": "NetSuite",
+      "file": "NetSuite",
+      "primary": false,
+      "how_described": "本集以 NetSuite 为例说明智能体连接的企业真实系统，如供应商问题触发智能体自动研究替代来源后生成订单草稿写入 NetSuite",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            869.223,
+            878.985
+          ],
+          "quote": "If it's a company agent, maybe it's tied into your NetSuite and it's tied into your Workday and it's tied into your transactional databases, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1679.453,
+            1689.896
+          ],
+          "quote": "And then that generates something that is then output into orders or draft information that goes into NetSuite and interacts with that system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "workday",
+      "type": "company",
+      "role": "company",
+      "name": "Workday",
+      "file": "Workday",
+      "primary": false,
+      "how_described": "本集以 Workday 为例说明公司智能体连接的企业内部系统之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            869.223,
+            878.985
+          ],
+          "quote": "If it's a company agent, maybe it's tied into your NetSuite and it's tied into your Workday and it's tied into your transactional databases, etc.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集将 AWS 作为超大规模厂商（hyperscaler）的代表之一，提供垂直集成的智能体核心功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            2257.55,
+            2266.272
+          ],
+          "quote": "Thingy, I forget what it's called, or, you know, the hyperscalers, AWS has an agent core thing, I think, like others.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mckinsey",
+      "type": "company",
+      "role": "company",
+      "name": "McKinsey",
+      "file": "McKinsey",
+      "primary": false,
+      "how_described": "本集用麦肯锡作类比：它有非常成熟的做事方法，但没有企业会说让麦肯锡来配满全公司的人——成本太高，且你自己的业务 IP 和控制力才是长期价值，以此说明不应把数字劳动力绑在单一垂直栈上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            2575.092,
+            2582.334
+          ],
+          "quote": "Whether that's the big consulting firms like McKinsey or an Accenture or something like that, or midsize or smaller or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2595.337,
+            2604.08
+          ],
+          "quote": "But most businesses do not say we're going to staff our entire business and workforce through McKinsey.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "type": "company",
+      "role": "company",
+      "name": "Framer",
+      "file": "Framer",
+      "primary": false,
+      "how_described": "本集提及 Framer 是节目的合作伙伴，作为专业网站构建器帮助团队实时协作、迭代和即时发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            934.062,
+            939.207
+          ],
+          "quote": "Our partner Framer actually makes that process move so much faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            945.212,
+            953.001
+          ],
+          "quote": "Thousands of businesses already use Framer as a pro website builder, and I'd really encourage you to check them out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            953.441,
+            963.893
+          ],
+          "quote": "You can learn more and get more out of your site from a Framer specialist or get started building free today at framer.com slash practical AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            964.514,
+            968.079
+          ],
+          "quote": "For 30% off a Framer Pro annual plan.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            968.44,
+            973.247
+          ],
+          "quote": "That's framer.com slash practical AI for 30% off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            973.547,
+            976.552
+          ],
+          "quote": "Framer.com slash practical AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

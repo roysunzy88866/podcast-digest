@@ -129,7 +129,7 @@ jsonLd: |
 
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同概念:软件供应链 (software supply chain)、泄露的凭证 (credentials)</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同公司:Hugging Face</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:Hugging Face · 同概念:智能体 (agents)</span>
+- [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|AI智能体安全：它们听起来像实习生]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同公司:NPM · 同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">
