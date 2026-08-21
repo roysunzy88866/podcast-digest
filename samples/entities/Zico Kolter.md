@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]]
+[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":51,"Twitter":4,"智能体":104,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":20}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":52,"Twitter":4,"智能体":105,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":21}</script>
 
 <script>
 (function(){

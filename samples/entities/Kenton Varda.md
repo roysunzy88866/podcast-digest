@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":12,"Google":21,"智能体":104,"沙箱":20,"无服务器":1,"云基础设施":1,"vibe coding":18,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":12,"Google":21,"智能体":105,"沙箱":21,"无服务器":1,"云基础设施":1,"vibe coding":19,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

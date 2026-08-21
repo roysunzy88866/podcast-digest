@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":2,"智能体":104,"AX":1,"DX":3,"沙箱":20,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":2,"智能体":105,"AX":1,"DX":3,"沙箱":21,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

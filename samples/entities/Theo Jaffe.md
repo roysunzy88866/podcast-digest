@@ -22,7 +22,7 @@ unlisted: true
 
 [[Sofia Puccini]] · [[蒸馏]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[开源权重]] · [[NVIDIA]] · [[Frontier Labs]]
 
-<script type="application/json" class="pd-epn">{"Sofia Puccini":2,"蒸馏":5,"Hugging Face":7,"Anthropic":51,"OpenAI":43,"Sriram Krishnan":1,"Ben Horowitz":1,"开源权重":2,"NVIDIA":16,"Frontier Labs":3}</script>
+<script type="application/json" class="pd-epn">{"Sofia Puccini":2,"蒸馏":6,"Hugging Face":7,"Anthropic":52,"OpenAI":43,"Sriram Krishnan":1,"Ben Horowitz":1,"开源权重":2,"NVIDIA":16,"Frontier Labs":3}</script>
 
 <script>
 (function(){

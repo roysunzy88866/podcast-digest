@@ -1,0 +1,3381 @@
+{
+  "episode_id": "2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-08-14",
+  "tags": [
+    "AI 员工",
+    "智能体记忆",
+    "上下文管理",
+    "模型选择与缓存",
+    "中国模型禁令"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "flo-crivello",
+      "type": "person",
+      "role": "host",
+      "name": "Flo Crivello",
+      "file": "Flo Crivello",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nathan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nathan",
+      "file": "Nathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            181.483,
+            182.024
+          ],
+          "quote": "Thanks, Nathan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2633.481,
+            2637.584
+          ],
+          "quote": "It's like me, you know, Nathan not like burrito.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lindy",
+      "type": "company",
+      "role": "company",
+      "name": "Lindy",
+      "file": "Lindy",
+      "primary": true,
+      "how_described": "本集核心讨论对象，正推出 Lindy TeamMate 产品——一个住在 Slack 里的 AI 员工，连接公司所有工具并积累团队上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.153,
+            13.56
+          ],
+          "quote": "Today I'm speaking with Flo Crevello, founder and CEO of Lindy, as he's launching Lindy TeamMate, an AI employee that joins your company's Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            22.858,
+            31.241
+          ],
+          "quote": "Even so, Lindy is subsidizing onboarding at least, and the first half of this conversation goes really deep into where all of those tokens are going.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            32.161,
+            47.567
+          ],
+          "quote": "We talk about the nuances of multiplayer mode, how Lindy thinks about the social contract surrounding historical data, and how they're using prompting to enforce it, plus a ton about memory implementation and the background processing that Lindy uses to continually optimize memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            63.721,
+            77.188
+          ],
+          "quote": "We also talk about life in Lindy now that Lindy's teammate exists and how he thinks about Lindy and all Frontier AI systems as a superintelligence in most respects that still somehow chooses to walk to the car wash a bunch of times every day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            81.846,
+            85.748
+          ],
+          "quote": "The best ideas at Lindy are generally co-created between humans and AIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            146.514,
+            157.418
+          ],
+          "quote": "After sprinting through the general purpose AI assistant product race for the last three years, he is still super open about how Lindy works, and he's fully candid about every issue he cares about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            170.714,
+            175.338
+          ],
+          "quote": "This is Flo Cravello, founder and CEO of Lindy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            176.779,
+            178.861
+          ],
+          "quote": "Flo Cravello, CEO at Lindy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            185.534,
+            190.698
+          ],
+          "quote": "You got some big news at Lindy with a new product launch that is the occasion for this conversation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            210.291,
+            211.272
+          ],
+          "quote": "Lindy is now",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            233.361,
+            240.606
+          ],
+          "quote": "But the big evolution now is that Lindy is a full on AI employee and it's going to be available in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            260.232,
+            262.634
+          ],
+          "quote": "I think what we are releasing today is called Lindy Team 8.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            818.518,
+            825.685
+          ],
+          "quote": "So what we did is that we built that First Class Citizen, we have meetings, now there's First Class Citizen in Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1168.199,
+            1170.56
+          ],
+          "quote": "They are just here for the users demoing Lindy on podcasts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1475.13,
+            1476.871
+          ],
+          "quote": "Lindy is now self-improving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1587.802,
+            1597.991
+          ],
+          "quote": "And now with Lindy Teammate, we have realized our users again are throwing much more complex stuff that they were asking to our previous product, which was more like a personal assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1610.721,
+            1614.965
+          ],
+          "quote": "With Lindy Teammate, we're back at it and back into, frankly, negative cross-parting territory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2928.142,
+            2937.728
+          ],
+          "quote": "Does that start to be an issue as you have 10 Lindy teammates running over the same kind of file system corpus?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2957.343,
+            2961.667
+          ],
+          "quote": "And the file system in Lindy is actually for this reason backed by a Git repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3199.689,
+            3204.493
+          ],
+          "quote": "So what does life look like at Lindy internally these days?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3231.585,
+            3241.407
+          ],
+          "quote": "Are there, uh, what's the ratio of your own inference spend for the purposes of building Lindy compared to your payroll?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3311.45,
+            3315.311
+          ],
+          "quote": "And I can tell you so our Slack now is basically just us and Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3315.591,
+            3320.752
+          ],
+          "quote": "It's like Lindy is like just half the messages on Slack is just Lindy and us talking back and forth with Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3339.95,
+            3341.571
+          ],
+          "quote": "So your question, what's it like to work at Lindy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3482.107,
+            3485.91
+          ],
+          "quote": "It is this AI employee that does everything there is to know about the company Lindy teammate, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3489.513,
+            3492.295
+          ],
+          "quote": "So we're like, Lindy, can you please like, like mess with our CI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3506.246,
+            3508.708
+          ],
+          "quote": "Well, like Lindy is just like sending us a graph",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3520.115,
+            3525.959
+          ],
+          "quote": "And I was like, I can't believe it took us two weeks of just like messing with CI ourselves instead of just saying this to Lindy, you know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3654.966,
+            3662.63
+          ],
+          "quote": "Hypothetical scenario where all of a sudden it's just you at the company and after that it's Lindy's all the way down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3849.267,
+            3856.558
+          ],
+          "quote": "When it comes to the best ideas at Lindy, how many of them are human origin and how many of them are AI origin today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3948.573,
+            3949.854
+          ],
+          "quote": "We're just like, add Lindy, what do you think?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3966.368,
+            3968.891
+          ],
+          "quote": "We're like, Lindy, can you please send us a message after this telling us what you think?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3973.014,
+            3982.281
+          ],
+          "quote": "When you do that, it is rarely the case that Lindy will first shot tell you something and you're like, this is it, this is the thing we should do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 775,
+          "t": [
+            3983.022,
+            3989.006
+          ],
+          "quote": "But it is almost always the case that we go back and forth with Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3995.972,
+            4000.015
+          ],
+          "quote": "At first, when we invited Lindy into this conversation, it happened over Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 780,
+          "t": [
+            4001.216,
+            4002.276
+          ],
+          "quote": "Why are we not doing this with Lindy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 781,
+          "t": [
+            4002.336,
+            4002.757
+          ],
+          "quote": "Add Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 928,
+          "t": [
+            4748.238,
+            4759.502
+          ],
+          "quote": "Is there still a significant role for open source, cheaper models to play in the Lindy teammate or are we back to heavily",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4785.439,
+            4801.105
+          ],
+          "quote": "You know we do find that as you go to like the upper echelons of intelligence if you look at like a KimiK3 or like a GLM 5.2 like I still am super impressed by those models and they're awesome and we are increasingly considering them as like our main driver for a lot of parts of Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 951,
+          "t": [
+            4909.763,
+            4923.288
+          ],
+          "quote": "Now as you're in this very open-ended just tag Lindy in Slack and send it anything, it seems like that problem would have increased in difficulty dramatically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            5282.545,
+            5284.906
+          ],
+          "quote": "And by the way, you can always go into your Lindy settings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1109,
+          "t": [
+            5606.584,
+            5609.665
+          ],
+          "quote": "Is that going to be part of the future of Lindy TeamMate?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            6897.819,
+            6901.281
+          ],
+          "quote": "If Lindy's powered entirely by Claude, maybe you get a cheaper rate on your insurance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1449,
+          "t": [
+            7292.757,
+            7298.661
+          ],
+          "quote": "Well, I'd be remiss if I didn't mention, you know, obviously we are releasing lindy.ai, like lindy.teammate, so lindy.ai.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集围绕 AI 员工/智能体展开，讨论了它在入职、记忆、上下文管理等方面的能力，以及「走去洗车」问题——能力太尖锐，能做惊人的事也会做荒谬的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            241.066,
+            246.982
+          ],
+          "quote": "Just like all your other teammates, whether they be human or agent, tell us about the new big launch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            294.21,
+            301.575
+          ],
+          "quote": "If you really want your AI to be a teammate, your agent to be an actual member of the team, you want it to be where your team collaborates, which is Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            305.938,
+            313.123
+          ],
+          "quote": "You want everyone to be able to talk and collaborate with the same agent instead of right now it's like we're all in the same meeting room and we're all talking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            551.839,
+            555.742
+          ],
+          "quote": "And this is all maintained automatically in the background by a team agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            563.947,
+            566.089
+          ],
+          "quote": "The way it works is that there is this memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            587.431,
+            591.733
+          ],
+          "quote": "And in the end, it collates all of that and the agent when you talk to it in the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            688.324,
+            695.628
+          ],
+          "quote": "I think the main way that we've solved this is the fact that the memory is maintained by an agent itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            697.308,
+            714.057
+          ],
+          "quote": "I think this is why I'm ultimately quite bearish on RAG as an approach and I'm very bullish on this agentic management approach because you have an actual agent which has its own memory, so you have a sort of meta memory, and understands what it is that it's looking at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            746.601,
+            755.645
+          ],
+          "quote": "And so the very concrete example you are using is actually an emergent behavior we have seen the memory agent adopt because the memory agent has its own memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            764.97,
+            775.897
+          ],
+          "quote": "And we have noticed that the first time the memory agent crawls the slack, it finds some of those channels, like many organizations have them, like those log channels, and it learns to ignore them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            807.245,
+            814.192
+          ],
+          "quote": "And so I think those multiplayer agent systems cannot really get meetings like Winola or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            834.573,
+            839.458
+          ],
+          "quote": "But it goes beyond that, and it feeds these meetings to your memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1119.754,
+            1127.04
+          ],
+          "quote": "So you can have your, I could tell my agent like, hey, just so you know, this contains everything I've ever, every conversation I've ever had.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1148.468,
+            1151.63
+          ],
+          "quote": "I was preparing to go on this podcast and I knew I was going to talk about the memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1389.082,
+            1405.908
+          ],
+          "quote": "So managing all of that context so both the memory agent that builds up the context that's millions and millions and millions of tokens per user and then the core agent that actually uses that context and how does it retrieve the right information at runtime like this has been like a major major major challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1682.318,
+            1696.589
+          ],
+          "quote": "And the way it started was if an agent calls an action that returns too much context, some actions, some MCPs in particular, retrieve like a hundred thousand tokens or something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1697.53,
+            1700.112
+          ],
+          "quote": "You don't want to send that to the agent, it's going to get confused.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1705.595,
+            1707.816
+          ],
+          "quote": "It's a sub-agent which contains the entire bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1716.021,
+            1724.507
+          ],
+          "quote": "And then the agent can enter into a conversation with the sub-agent, which itself has its own caching, and can manipulate the context using Unix utilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1764.496,
+            1767.238
+          ],
+          "quote": "So now the agent can query that context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1802.907,
+            1814.055
+          ],
+          "quote": "And in the end, so you do that, and so you have this emerging property where it's like you can have the agent access any point of any infinite number of tokens at arbitrary levels of granularity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2528.367,
+            2532.108
+          ],
+          "quote": "All of the memory to be managed by one agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2537.65,
+            2551.113
+          ],
+          "quote": "And so even though the memory is in a file system and so your agent could actually just go mess with the file system, what we have found actually, and can still do that, but we tell the agent, we prompt the agent to be like, if you're looking for memory that you don't have, please ask the memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2564.86,
+            2572.345
+          ],
+          "quote": "Then, when the memory agent is napping and dreaming, it looks at this log of like, hey, this is the kind of stuff people have been.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2583.009,
+            2589.612
+          ],
+          "quote": "So you always keep the memory of the memory agent, like the last thousand question and answer pairs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2592.693,
+            2599.276
+          ],
+          "quote": "But also the memory agent is not going to just rely on that cache because every cache at some point has got a TTL, it grows a scale and all of that stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2599.756,
+            2609.461
+          ],
+          "quote": "So what the memory agent will also do is it will restructure its own memory to reduce the number of hops that is needed to retrieve the most frequently asked questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2694.685,
+            2705.732
+          ],
+          "quote": "This work, this is less important for like memory agents, but it's just I recommend everyone like makes their agent use Tune instead of JSON and have like a Tune parsing middleware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2706.588,
+            2708.21
+          ],
+          "quote": "Between your agent and its actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2708.53,
+            2711.393
+          ],
+          "quote": "Like no action should expose JSON to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2711.413,
+            2713.715
+          ],
+          "quote": "Like every agent, every action should expose.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2813.188,
+            2814.79
+          ],
+          "quote": "is about multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2816.111,
+            2824.618
+          ],
+          "quote": "I actually have come to believe that most of the time, as much as possible, you want to consolidate as much as possible under a single agent, not multi-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2832.805,
+            2841.432
+          ],
+          "quote": "I actually think that humans intuitively find themselves biased towards very, very multi-agent system, like far more multi-agents than is optimal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2847.672,
+            2852.934
+          ],
+          "quote": "It's like, ah, I have a data scientist, I have an engineer, I have a designer, I have a PM, and so I'm gonna create one agent for each of these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2898.249,
+            2907.497
+          ],
+          "quote": "As you talk about a single agent, obviously we can run multiple copies of single agents in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2962.227,
+            2969.434
+          ],
+          "quote": "Which gives you a ton of amazing properties, including merge management, because the memory agent sometimes will fork itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3453.163,
+            3455.405
+          ],
+          "quote": "So like, can't we just like spin up an agent to do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3456.31,
+            3461.391
+          ],
+          "quote": "And SpinTap, the agent was literally, and so by the way, that's the other reason why it's important to have a single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3480.566,
+            3481.847
+          ],
+          "quote": "It's this agent at the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3798.198,
+            3801.681
+          ],
+          "quote": "How do you get the agent to realize when it's and so on and when it's about to scrub?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3927.17,
+            3929.352
+          ],
+          "quote": "And you don't want any random agent to be in the room with you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4491.382,
+            4497.783
+          ],
+          "quote": "And so I think this is why, this touches on what I was saying earlier, don't create multi-agent organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 886,
+          "t": [
+            4502.624,
+            4509.066
+          ],
+          "quote": "Emphasis on internal, we can get back to that later, but as much of your internal work as possible done by one agent and one only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4510.506,
+            4517.948
+          ],
+          "quote": "Because if that one agent which has got the keys of the castle and access to the bank account and the repositories and the secret keys is also the same agent that does customer support,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4518.888,
+            4525.053
+          ],
+          "quote": "Potentially have a security issue, so it can be good to have multi-agent systems, be it only for security reasons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            4525.813,
+            4528.175
+          ],
+          "quote": "But, okay, so you have that single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4528.575,
+            4539.143
+          ],
+          "quote": "Now, that single agent, sure, it goes faster, it emits more tokens per second than a human, it doesn't take a break, but at some point you're going to need more tokens than a single LLM loop can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4540.183,
+            4545.545
+          ],
+          "quote": "Well, you have multiple LLM loops running and it's basically just like that agent duplicating itself, like forking itself, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4719.545,
+            4724.229
+          ],
+          "quote": "It strikes me that when you talk about just having one agent, that kind of seems to go against that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4724.289,
+            4731.496
+          ],
+          "quote": "There's also the sort of advantages which you lose when you are crossing agent providers too much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4776.353,
+            4784.959
+          ],
+          "quote": "As you experiment with your agent and you spin up a lot of them, the bill can really go up pretty quickly and DeepSeek Flash is just incredible and quite fast as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 956,
+          "t": [
+            4953.651,
+            4957.753
+          ],
+          "quote": "We have found you should almost never use multiple models following the same agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4965.536,
+            4970.559
+          ],
+          "quote": "You have a blank subagent, then you have a forked subagent, which inherits the context window of the parent agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5002.805,
+            5009.811
+          ],
+          "quote": "You ask an agent to do something, it does it, or it submits an action candidate, you intercept the action, and then you ask it, are you sure?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            5083.371,
+            5087.913
+          ],
+          "quote": "And if they've not submitted their verdict, then time's out and the agent just submits the action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 987,
+          "t": [
+            5095.855,
+            5100.217
+          ],
+          "quote": "We've prompted the agent to include a weekday in the date.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 995,
+          "t": [
+            5121.964,
+            5129.366
+          ],
+          "quote": "Initially, what we did is we were like, what if we had Sonnet for the main agent and we had DeepSeq Flash for the sub-agent, the validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 999,
+          "t": [
+            5149.102,
+            5154.103
+          ],
+          "quote": "That also holds if you fork your agent, like that way you can recycle the cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            5164.046,
+            5172.953
+          ],
+          "quote": "So the way we've done it is that the validator and the agent has the validator action always included in its toolset, and it's unable to invoke it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            5179.938,
+            5184.522
+          ],
+          "quote": "And then the validator now inherits all the actions of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            5203.481,
+            5216.128
+          ],
+          "quote": "If you take an agent and you change the model at every turn between roughly equivalent models, so one turn it's SunNet, one turn it's Grok 4.5 or whatever the latest is, and one turn it's like GPT 5.6, and one turn it actually increases the performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            5484.698,
+            5491.86
+          ],
+          "quote": "And we have an optimization loop where it's like an agent that runs the evals and find, like, tweaks the prompt to maximize the school on the evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            5727.399,
+            5739.594
+          ],
+          "quote": "But the thing I find myself going back to all the time is like, because I spent so much time thinking about context and memory, right now our memory is like these millions of tokens stored on a file system and this memory agent that's really, really sophisticated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1373,
+          "t": [
+            6857.364,
+            6875.317
+          ],
+          "quote": "When they do the kind of one team with a sparse autoencoder versus one team without like these techniques are really allowing them to find these internal sleeper agent style problems in models with greater and greater efficiency and reliability.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集核心论点：随着模型能力趋同，上下文比智能本身更决定 AI 员工的用处。用 John von Neumann 的例子说明没有上下文的聪明人不如有上下文的普通同事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            263.034,
+            268.978
+          ],
+          "quote": "It is an AI employee that lives in your Slack, connects to all of your tools, accumulates your entire team's context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            301.595,
+            305.918
+          ],
+          "quote": "You want it to have its own shared context about the entire team, its own shared memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            339.062,
+            347.269
+          ],
+          "quote": "I've done this myself with my own kind of deep context that I stumbled my way through earlier this year, and it is serving me really well, but",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            376.858,
+            380.779
+          ],
+          "quote": "Tricky considerations that you are identifying in the multiplayer context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            381.319,
+            398.025
+          ],
+          "quote": "Yeah, that is an excellent question and that touches on exactly what we've been obsessing about, which is I really do think that as we're getting to AGI and as we now arguably have AGI, intelligence actually matters less and less, comparatively speaking, and context matters more and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            417.779,
+            423.864
+          ],
+          "quote": "And that's because of context, because you've got a job to do and you don't have time to onboard John Boynard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            424.044,
+            425.266
+          ],
+          "quote": "He doesn't have the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            431.131,
+            434.594
+          ],
+          "quote": "So I do agree that context is super important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            469.908,
+            475.469
+          ],
+          "quote": "And so what we built is we built this shared context layer and what we call like a hydration system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            868.988,
+            871.669
+          ],
+          "quote": "And so it keeps updating that context on an ongoing basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            908.176,
+            914.881
+          ],
+          "quote": "There's a lot of stuff in my broad general context that probably shouldn't be shared with other people, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1063.907,
+            1067.669
+          ],
+          "quote": "Has that memory prompt injected in its context window at every moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1203.55,
+            1218.757
+          ],
+          "quote": "Over the last few months, Claude has helped me build and refine a personal deep context database that now contains all of my emails, Slack messages, tweets, DMs across platforms, video calls, and podcast transcripts, going back a full five years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1317.508,
+            1330.6
+          ],
+          "quote": "Even at GPT-4 it was doing pretty well in a relatively simple context, and yet it's been like three years now until we're finally getting these real kind of AI employee type experiences.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1346.892,
+            1354.598
+          ],
+          "quote": "The context management, like this piece, like the context buildup, it's in a way inspired by Carpath's auto wiki idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1355.399,
+            1362.605
+          ],
+          "quote": "And so we've had to do a lot of work around context management because once you talk to an AI employee, it's actually quite unlike just",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1363.145,
+            1371.931
+          ],
+          "quote": "Talking to a ChatGPT or a Claude, because you actually expect it to keep a very rich representation of its past context and of its past memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1389.082,
+            1405.908
+          ],
+          "quote": "So managing all of that context so both the memory agent that builds up the context that's millions and millions and millions of tokens per user and then the core agent that actually uses that context and how does it retrieve the right information at runtime like this has been like a major major major challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1431.314,
+            1436.498
+          ],
+          "quote": "I think context and memory management has been a really big part of the challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1515.73,
+            1527.659
+          ],
+          "quote": "Cost management, who obviously there's a significant upfront amount of tokens that you're going to dedicate to in all this context from a new organization and processing it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1632.51,
+            1636.031
+          ],
+          "quote": "So yes, context management is a huge piece of the puzzle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1664.273,
+            1667.397
+          ],
+          "quote": "I think one of the biggest breakthroughs we had was context buckets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1682.318,
+            1696.589
+          ],
+          "quote": "And the way it started was if an agent calls an action that returns too much context, some actions, some MCPs in particular, retrieve like a hundred thousand tokens or something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1700.132,
+            1705.235
+          ],
+          "quote": "So what you do is that you expose that as a summary of the context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1716.021,
+            1724.507
+          ],
+          "quote": "And then the agent can enter into a conversation with the sub-agent, which itself has its own caching, and can manipulate the context using Unix utilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1730.295,
+            1735.119
+          ],
+          "quote": "Then we went one step further and we were like, hey, what if we could have recursive context buckets?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1735.159,
+            1737.701
+          ],
+          "quote": "What if context buckets could contain other context buckets?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1739.183,
+            1744.927
+          ],
+          "quote": "And what if compaction, because obviously we have compaction, was powered by such recursive context buckets?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1759.052,
+            1764.476
+          ],
+          "quote": "We compact, and then the compaction sends all of that stuff into a context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1764.496,
+            1767.238
+          ],
+          "quote": "So now the agent can query that context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1785.254,
+            1789.177
+          ],
+          "quote": "So you have that context packet, which is the compaction of the previous conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1793.68,
+            1798.984
+          ],
+          "quote": "What you do is that you take all of that, including this context packet right here, and you compact it into a new context packet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1799.004,
+            1801.546
+          ],
+          "quote": "So now you have a context packet containing a context packet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1866.923,
+            1875.628
+          ],
+          "quote": "So what is described, if you just do the naive implementation, you get that really nice emerging property for free, which is you have all of those linked context packets that contain one another.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1876.048,
+            1879.25
+          ],
+          "quote": "But every context packet always contains just one other context packet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1879.77,
+            1883.492
+          ],
+          "quote": "And so you end up with this Russian doll of sorts of context packets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1887.334,
+            1891.497
+          ],
+          "quote": "So what you do instead is that you have context packets contain multiple context packets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1893.558,
+            1908.93
+          ],
+          "quote": "And so you end up with a tree, because basically what you want is you want the topmost context packet not to contain the last 100, you want it to contain the first context packet and the last context packet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1935.321,
+            1942.363
+          ],
+          "quote": "A red-black tree is better because it takes into account the cost to balance a tree, which is expensive because you need to regenerate a lot of your context packets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1964.634,
+            1968.838
+          ],
+          "quote": "10,000 context buckets and you can access all the contexts in the universe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1969.399,
+            1980.27
+          ],
+          "quote": "And that leads to some really surprising behaviors because you're literally no more than two LLM calls away from being able to access 10,000 context buckets each one of which contains 200,000 tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1982.436,
+            1987.484
+          ],
+          "quote": "So you add like two billion tokens here of context in two LLM calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2651.875,
+            2655.438
+          ],
+          "quote": "It'll just be better with basically no loss of information or context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2676.644,
+            2679.765
+          ],
+          "quote": "There's like a bunch of those techniques to just compressive context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2853.754,
+            2864.417
+          ],
+          "quote": "And actually, the reason why human organizations do that is because if a human has only 24 hours a day and can only contain that much context, well, agents obviously have none of those constraints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2974.599,
+            2981.025
+          ],
+          "quote": "And in some organizations, some large organizations, there's so much context that was created since the last nap that it needs to create a bunch of sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 945,
+          "t": [
+            4868.734,
+            4882.923
+          ],
+          "quote": "I didn't sound easy before, but in a context where you have your workflows and there's nodes in the sort of graph of work, you could go into a particular node and say, okay, we kind of know what the inputs here are and the outputs, and it's like relatively controlled environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4965.536,
+            4970.559
+          ],
+          "quote": "You have a blank subagent, then you have a forked subagent, which inherits the context window of the parent agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            5727.399,
+            5739.594
+          ],
+          "quote": "But the thing I find myself going back to all the time is like, because I spent so much time thinking about context and memory, right now our memory is like these millions of tokens stored on a file system and this memory agent that's really, really sophisticated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆智能体 (memory agent)",
+      "file": "记忆智能体",
+      "primary": true,
+      "how_described": "Lindy 用一个专门的记忆智能体管理所有记忆，每约 15 分钟运行一次（叫「打盹」），有元记忆能力，能学会忽略日志频道等无用信息源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            563.947,
+            566.089
+          ],
+          "quote": "The way it works is that there is this memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            746.601,
+            755.645
+          ],
+          "quote": "And so the very concrete example you are using is actually an emergent behavior we have seen the memory agent adopt because the memory agent has its own memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            764.97,
+            775.897
+          ],
+          "quote": "And we have noticed that the first time the memory agent crawls the slack, it finds some of those channels, like many organizations have them, like those log channels, and it learns to ignore them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            834.573,
+            839.458
+          ],
+          "quote": "But it goes beyond that, and it feeds these meetings to your memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1148.468,
+            1151.63
+          ],
+          "quote": "I was preparing to go on this podcast and I knew I was going to talk about the memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1389.082,
+            1405.908
+          ],
+          "quote": "So managing all of that context so both the memory agent that builds up the context that's millions and millions and millions of tokens per user and then the core agent that actually uses that context and how does it retrieve the right information at runtime like this has been like a major major major challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2537.65,
+            2551.113
+          ],
+          "quote": "And so even though the memory is in a file system and so your agent could actually just go mess with the file system, what we have found actually, and can still do that, but we tell the agent, we prompt the agent to be like, if you're looking for memory that you don't have, please ask the memory agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2564.86,
+            2572.345
+          ],
+          "quote": "Then, when the memory agent is napping and dreaming, it looks at this log of like, hey, this is the kind of stuff people have been.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2583.009,
+            2589.612
+          ],
+          "quote": "So you always keep the memory of the memory agent, like the last thousand question and answer pairs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2592.693,
+            2599.276
+          ],
+          "quote": "But also the memory agent is not going to just rely on that cache because every cache at some point has got a TTL, it grows a scale and all of that stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2599.756,
+            2609.461
+          ],
+          "quote": "So what the memory agent will also do is it will restructure its own memory to reduce the number of hops that is needed to retrieve the most frequently asked questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2962.227,
+            2969.434
+          ],
+          "quote": "Which gives you a ton of amazing properties, including merge management, because the memory agent sometimes will fork itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            5727.399,
+            5739.594
+          ],
+          "quote": "But the thing I find myself going back to all the time is like, because I spent so much time thinking about context and memory, right now our memory is like these millions of tokens stored on a file system and this memory agent that's really, really sophisticated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "Flo 对 RAG 相当看空，认为它不如智能体管理方式，因为记忆智能体有元记忆、能逐渐学会哪些信息源重要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            697.308,
+            714.057
+          ],
+          "quote": "I think this is why I'm ultimately quite bearish on RAG as an approach and I'm very bullish on this agentic management approach because you have an actual agent which has its own memory, so you have a sort of meta memory, and understands what it is that it's looking at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2458.367,
+            2465.051
+          ],
+          "quote": "Yeah, so I believe the approach you're talking about and we still have some RAG in our database and we use that for our RAG as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2481.982,
+            2486.185
+          ],
+          "quote": "Instead of searching for that question using RAG, you search for your hypothesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2486.225,
+            2500.835
+          ],
+          "quote": "Justin Bieber was born in Paris, Justin Bieber was born in New York, in Berlin, and you search for this bucket of hypotheses in your RAG database because obviously, semantically, each of these hypotheses is a lot closer to the answer you might be looking for than to the question, where was Justin Bieber born?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2502.856,
+            2512.18
+          ],
+          "quote": "Then what you do is you also do the opposite, which is when you find an answer in your RAG base, you generate a bunch of questions that map to that answer and you attach them to the answer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-bucket",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文桶 (context bucket)",
+      "file": "上下文桶",
+      "primary": true,
+      "how_described": "当操作返回过多上下文时，封装成子智能体只给主智能体摘要；进一步实现递归上下文桶，形成俄罗斯套娃结构，保留对原始数据的访问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1700.132,
+            1705.235
+          ],
+          "quote": "So what you do is that you expose that as a summary of the context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1759.052,
+            1764.476
+          ],
+          "quote": "We compact, and then the compaction sends all of that stuff into a context bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1764.496,
+            1767.238
+          ],
+          "quote": "So now the agent can query that context bucket.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存 (caching)",
+      "file": "缓存",
+      "primary": true,
+      "how_described": "Lindy 当前缓存率 85%，缓存命中时成本降 10 倍；缓存率从 85% 掉到 65% 实际成本差接近 2 倍，系统中任何改动都可能破坏缓存",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1502.023,
+            1505.706
+          ],
+          "quote": "One big question that brings to mind is how you are managing caching.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1506.126,
+            1510.47
+          ],
+          "quote": "And then caching, of course, is just one, you know, angle on managing cost in general.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1510.49,
+            1514.253
+          ],
+          "quote": "So maybe we could expand beyond caching and talk about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1558.087,
+            1560.289
+          ],
+          "quote": "How much is caching playing into the strategy?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1636.391,
+            1638.031
+          ],
+          "quote": "Caching is a huge piece of the puzzle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1716.021,
+            1724.507
+          ],
+          "quote": "And then the agent can enter into a conversation with the sub-agent, which itself has its own caching, and can manipulate the context using Unix utilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3434.03,
+            3436.251
+          ],
+          "quote": "And we've done caching of the builds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4811.387,
+            4820.769
+          ],
+          "quote": "But no, otherwise, I do think open source models are like, if you kill the price, if you don't mind using those providers, then yes, you do have stuff to figure out around caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 939,
+          "t": [
+            4820.849,
+            4826.37
+          ],
+          "quote": "Yes, the inference providers are not as good at caching, but they're catching up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4844.219,
+            4848.481
+          ],
+          "quote": "So even if you miss on 2x because of caching, you're still 50x cheaper.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4971.219,
+            4974.702
+          ],
+          "quote": "And the reason why you don't want to do that is because of caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 961,
+          "t": [
+            4974.742,
+            4982.048
+          ],
+          "quote": "We just obsess about caching, obviously, because it's just so expensive otherwise, like the economics do not, they barely work with caching, they just cannot work without caching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 962,
+          "t": [
+            4982.608,
+            4984.19
+          ],
+          "quote": "So caching is a must-have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 997,
+          "t": [
+            5135.439,
+            5144.881
+          ],
+          "quote": "You actually, unless the model you're going to use is more than 10x cheaper, which it may, in the case of DeepSec Flash, it may not, because the caching is inferior, you know, if that's the case, you actually do want to keep the same model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1022,
+          "t": [
+            5244.551,
+            5248.112
+          ],
+          "quote": "Because of the caching, Claude is also often the validator.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "validator",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (validator)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "LLM 作为裁判在任务执行中多次触发，最朴素版本就一句「你确定吗？」就能显著提升准确率；做成模块化联邦架构，确定性检查用正则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1445.944,
+            1448.546
+          ],
+          "quote": "We've called it a validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 963,
+          "t": [
+            4985.05,
+            4988.293
+          ],
+          "quote": "And so I'll give you an example, the validator system that I mentioned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 965,
+          "t": [
+            4998.001,
+            5002.365
+          ],
+          "quote": "So that's step one, just have a validator, which is the naive implementation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 969,
+          "t": [
+            5015.735,
+            5023.402
+          ],
+          "quote": "Now, if you increase, if you change this are you sure to an actual prompt, which in our case now is like 10,000 tokens, it's a really big validator prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 984,
+          "t": [
+            5079.91,
+            5083.251
+          ],
+          "quote": "And so every validator has like a second to decide what to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 986,
+          "t": [
+            5089.453,
+            5095.815
+          ],
+          "quote": "We have a validator which job it is to detect dates that were submitted in the action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 990,
+          "t": [
+            5104.879,
+            5111.341
+          ],
+          "quote": "If you do that, then you can have a deterministic validator that checks whether the date of the week matches the date it was submitted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 995,
+          "t": [
+            5121.964,
+            5129.366
+          ],
+          "quote": "Initially, what we did is we were like, what if we had Sonnet for the main agent and we had DeepSeq Flash for the sub-agent, the validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            5154.383,
+            5158.524
+          ],
+          "quote": "By the way, interesting note, how do you reuse the cache when you have this validator?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            5164.046,
+            5172.953
+          ],
+          "quote": "So the way we've done it is that the validator and the agent has the validator action always included in its toolset, and it's unable to invoke it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            5172.993,
+            5175.455
+          ],
+          "quote": "We tell it, don't invoke this guy unless you're the validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            5176.055,
+            5179.598
+          ],
+          "quote": "And if it tries, we're just like, no, I'm not going to listen to you or not the validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            5179.938,
+            5184.522
+          ],
+          "quote": "And then the validator now inherits all the actions of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            5185.462,
+            5186.804
+          ],
+          "quote": "And it's like, you are now the validator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1022,
+          "t": [
+            5244.551,
+            5248.112
+          ],
+          "quote": "Because of the caching, Claude is also often the validator.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "type": "company",
+      "role": "company",
+      "name": "DeepSeek",
+      "file": "DeepSeek",
+      "primary": true,
+      "how_described": "Lindy 整体跑在 DeepSeek 上——「一切都是 DeepSeek」；能力上大约落后三到六个月，更「尖锐」，需要更多回合找到可行方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.821,
+            21.485
+          ],
+          "quote": "This is of course competing directly with Claude Tag, and very notably it is running on DeepSeek.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 932,
+          "t": [
+            4769.228,
+            4773.411
+          ],
+          "quote": "The cheapest of them that we really like is DeepSeek Flash, which is free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4776.353,
+            4784.959
+          ],
+          "quote": "As you experiment with your agent and you spin up a lot of them, the bill can really go up pretty quickly and DeepSeek Flash is just incredible and quite fast as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            5314.285,
+            5319.289
+          ],
+          "quote": "American API models, Claude, perhaps specifically, and a DeepSeek.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1168,
+          "t": [
+            5908.236,
+            5914.182
+          ],
+          "quote": "Because you did recently post something I think quite counterintuitive given the fact that you're running your company on DeepSeek.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1370,
+          "t": [
+            6825.786,
+            6834.319
+          ],
+          "quote": "These are, I don't know where you're running your inference, but most American companies that are running Chinese models are not calling the DeepSeek API, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1380,
+          "t": [
+            6903.042,
+            6920.947
+          ],
+          "quote": "DeepSeek and there's some unknowns like maybe you have a higher rate on your insurance, maybe that kind of levels the total cost out for you in a risk-adjusted way, but it still like lets people take advantage of these global public goods that China is providing, which the rest of the world is not about to ban, obviously, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1383,
+          "t": [
+            6931.514,
+            6938.082
+          ],
+          "quote": "I think the idea that people are going to turn off DeepSeek entirely in Brazil or whatever, that's like a total non-starter I have to imagine.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "Flo 推荐 E2B 做沙箱，但建议把沙箱和文件系统解耦",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 575,
+          "t": [
+            3077.67,
+            3081.012
+          ],
+          "quote": "Well, you need a sandbox, so we've gotten with E2B for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3081.372,
+            3084.814
+          ],
+          "quote": "Again, like many people, once they have a sandbox, they're like, sweet, I have a file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "e2b",
+      "type": "company",
+      "role": "company",
+      "name": "E2B",
+      "file": "E2B",
+      "primary": false,
+      "how_described": "被推荐作为沙箱供应商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 575,
+          "t": [
+            3077.67,
+            3081.012
+          ],
+          "quote": "Well, you need a sandbox, so we've gotten with E2B for that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browserbase",
+      "type": "company",
+      "role": "company",
+      "name": "Browserbase",
+      "file": "Browserbase",
+      "primary": false,
+      "how_described": "被推荐用于浏览器管理，评价为'excellent for browser management'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            3090.717,
+            3094.781
+          ],
+          "quote": "Browserbase is excellent for browser management.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "Flo 说可观测性和评估平台是唯一没买现成而自研的基础设施，2022 年创业时没有现成工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 592,
+          "t": [
+            3135.586,
+            3142.791
+          ],
+          "quote": "Unfortunately, we had to build a lot of our own tooling, including our own eval platform, including our own observability platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "Flo 认为微调是最后的手段，在用尽其他选项后才做；大多数人不应该微调，大规模工作时才应该",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1105,
+          "t": [
+            5580.215,
+            5583.936
+          ],
+          "quote": "Fine-tuning as a dimension in this whole model situation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1106,
+          "t": [
+            5583.956,
+            5589.718
+          ],
+          "quote": "This is another thing, if I go back in time, I'm like, I definitely expected a lot more fine-tuning than we are getting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            5590.238,
+            5597.101
+          ],
+          "quote": "OpenAI's retired or on the verge of, they've certainly announced, and I think maybe at this point, have pulled the trigger on retiring their fine-tuning product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1110,
+          "t": [
+            5610.502,
+            5612.804
+          ],
+          "quote": "Yes, I think fine tuning is the last resort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            5654.394,
+            5657.636
+          ],
+          "quote": "People should be thinking when they are approaching fine tuning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            5682.518,
+            5686.841
+          ],
+          "quote": "How would you guide people on how big to think when they start to approach fine-tuning?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            5844.032,
+            5848.296
+          ],
+          "quote": "I thought that was honestly one of the things that OpenAI did extremely well with their fine tuning product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tune",
+      "file": "Tune",
+      "primary": false,
+      "how_described": "Token-Oriented Object Notation，JSON 替代品，比 JSON 的 token 效率高 20-30%，模型对 Tune 的适应度比 JSON 更高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            2692.664,
+            2694.385
+          ],
+          "quote": "So Tune works better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2694.685,
+            2705.732
+          ],
+          "quote": "This work, this is less important for like memory agents, but it's just I recommend everyone like makes their agent use Tune instead of JSON and have like a Tune parsing middleware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2715.402,
+            2717.544
+          ],
+          "quote": "I'll have to check out this Tune format.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2717.604,
+            2725.69
+          ],
+          "quote": "I've just used YAML, which also is motivated by similar advantages, but yeah, Tune Token-Oriented Object Notation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3502.623,
+            3505.845
+          ],
+          "quote": "And now it's literally, it's basically like an auto tune, like an auto optimization thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1112,
+          "t": [
+            5617.487,
+            5622.11
+          ],
+          "quote": "But it's gotten a lot easier because now we have EGI and so you can just ask Claude to fine tune for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            5634.138,
+            5636.419
+          ],
+          "quote": "You should do everything else before you fine-tune, including debug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            5638.359,
+            5643.001
+          ],
+          "quote": "And this is why, like, larger companies are the first ones to fine-tune, because they have existed the low-hanging fruit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            5643.581,
+            5645.821
+          ],
+          "quote": "And at some point, and they have the resources to fine-tune.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            5657.716,
+            5662.319
+          ],
+          "quote": "Obviously the extreme would be one fine tune per task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            5687.582,
+            5688.963
+          ],
+          "quote": "Most people should not fine-tune.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1131,
+          "t": [
+            5689.763,
+            5692.986
+          ],
+          "quote": "I think if you work at scale, you should fine-tune.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            5717.423,
+            5719.605
+          ],
+          "quote": "And if you fine-tune, you just fine-tune into one model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            5848.476,
+            5859.006
+          ],
+          "quote": "They were clearly doing something like this because they would allow you to do the fine tune and then you'd have the same rate limits with your fine tuned model as you had with the base models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "讨论内部推理支出与薪酬的比例时提及，薪酬仍更高但三到六个月后将交叉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 617,
+          "t": [
+            3231.585,
+            3241.407
+          ],
+          "quote": "Are there, uh, what's the ratio of your own inference spend for the purposes of building Lindy compared to your payroll?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3626.266,
+            3632.811
+          ],
+          "quote": "I don't mean all inference spend, like including your customers use cases, but like your own internal inference versus your payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3634.713,
+            3641.958
+          ],
+          "quote": "Yeah, so if you look at all the inference spend including our customers, it's many times payroll, and it's been for a very long time, but one exception because that's what we sell.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3641.998,
+            3647.002
+          ],
+          "quote": "Now, if you look at payroll versus internal inference spend, it's in the shooting range.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 939,
+          "t": [
+            4820.849,
+            4826.37
+          ],
+          "quote": "Yes, the inference providers are not as good at caching, but they're catching up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1143,
+          "t": [
+            5761.783,
+            5774.086
+          ],
+          "quote": "And it's a tremendous infrastructure challenge even to like, so you got this tool, all of those LoRaS, which like the storage is not a problem, but like the inference style, swapping in and out of the LoRaS is a huge pain in the ass.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            5812.7,
+            5818.043
+          ],
+          "quote": "I think the bitter lesson will have you... inference and training need to be one and the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1370,
+          "t": [
+            6825.786,
+            6834.319
+          ],
+          "quote": "These are, I don't know where you're running your inference, but most American companies that are running Chinese models are not calling the DeepSeek API, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1372,
+          "t": [
+            6837.588,
+            6838.529
+          ],
+          "quote": "Inference Provider",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "作为 Claude 的制造商被提及（赞助商），以及 Flo 说自己关于中国模型的立场和 Anthropic 基本一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1198.328,
+            1202.73
+          ],
+          "quote": "Today's episode is brought to you by Anthropic, makers of Claude and Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 953,
+          "t": [
+            4930.59,
+            4933.091
+          ],
+          "quote": "I think Anthropic does make some good points about this sometimes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1207,
+          "t": [
+            6045.534,
+            6046.995
+          ],
+          "quote": "Anthropic just put out an essay",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1218,
+          "t": [
+            6083.94,
+            6085.441
+          ],
+          "quote": "My position is basically Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1219,
+          "t": [
+            6085.481,
+            6087.942
+          ],
+          "quote": "I hate saying that because people are saying, oh, you're just an Anthropic shill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1221,
+          "t": [
+            6090.143,
+            6096.145
+          ],
+          "quote": "I've been tweeting my entire positions where the whole thing before Anthropic clarifies theirs, and my position is exactly the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            6275.785,
+            6286.533
+          ],
+          "quote": "Anthropic can't say that and they claim and I believe them that this is not their intention when they do that and I 100% believe that because they've been so consistent for literally the founders have been worried about X-Risk for 10 years, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1269,
+          "t": [
+            6288.054,
+            6292.157
+          ],
+          "quote": "But look, I can say that because another than Anthropic, hey, we want local AI champions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            6423.852,
+            6428.916
+          ],
+          "quote": "It's not like Anthropic has a super or any AI company has like a super moral high ground in terms of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1338,
+          "t": [
+            6622.663,
+            6628.588
+          ],
+          "quote": "Like Anthropic's revenue run rate, they can barely serve the models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "被提及为 Lindy TeamMate 的竞争产品，以及用户可在设置里切换到的美国模型选项之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.821,
+            21.485
+          ],
+          "quote": "This is of course competing directly with Claude Tag, and very notably it is running on DeepSeek.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            645.106,
+            647.107
+          ],
+          "quote": "Here's what I got from Claude or what have you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            647.487,
+            654.311
+          ],
+          "quote": "But it was like weird now that according to that heuristic, this Claude text is one of the more weighty pieces of my writing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            926.328,
+            932.272
+          ],
+          "quote": "One is the, I think of kind of Claude on my main laptop where I do my work as an extension of myself and a second brain type of thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1198.328,
+            1202.73
+          ],
+          "quote": "Today's episode is brought to you by Anthropic, makers of Claude and Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1203.55,
+            1218.757
+          ],
+          "quote": "Over the last few months, Claude has helped me build and refine a personal deep context database that now contains all of my emails, Slack messages, tweets, DMs across platforms, video calls, and podcast transcripts, going back a full five years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1228.257,
+            1231.799
+          ],
+          "quote": "And now that this exists, there's almost nothing that Claude can't help with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1232.699,
+            1242.044
+          ],
+          "quote": "For my angel investing, Claude can now draft investment memos in exactly the form that my venture fund requires, based on the calls I've had and the emails I've exchanged with the founders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1243.211,
+            1246.792
+          ],
+          "quote": "And when someone needs a favor, Claude can often do it as well as I can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1253.374,
+            1259.796
+          ],
+          "quote": "Initially, nobody came to mind, but then I thought to ask Claude, and sure enough, it identified two great leads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1260.896,
+            1263.937
+          ],
+          "quote": "Claude is the AI for minds that don't stop at good enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1270.053,
+            1275.757
+          ],
+          "quote": "So, for problems worth solving, get started with Claude at Claude.ai slash tcr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1276.278,
+            1279.12
+          ],
+          "quote": "That's Claude.ai slash tcr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1279.62,
+            1283.943
+          ],
+          "quote": "And check out Claude Pro, which includes all of the features mentioned in today's episode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1284.443,
+            1289.447
+          ],
+          "quote": "That's Claude.ai slash tcr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1363.145,
+            1371.931
+          ],
+          "quote": "Talking to a ChatGPT or a Claude, because you actually expect it to keep a very rich representation of its past context and of its past memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1371.951,
+            1379.276
+          ],
+          "quote": "You really expect a level of consistency and coherence out of an AI employee that you don't expect out of your Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2037.882,
+            2045.568
+          ],
+          "quote": "You can probably do the math, but like two billion tokens is, we should ask Claude, but it's probably bigger than most libraries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2155.43,
+            2165.535
+          ],
+          "quote": "Claude had identified some weakness or whatever in the, and I'll bring this back around in a second too, but my kind of raw data is living in a SQLite database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2166.475,
+            2170.797
+          ],
+          "quote": "And Claude recognized some deficiency or whatever that it wanted to correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2303.8,
+            2311.305
+          ],
+          "quote": "And then, it's one of my favorite habits these days, I'll take the transcript and give it to Claude and we'll see if we can close the gap a little bit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            5237.805,
+            5243.37
+          ],
+          "quote": "It sounds like top level Claude is still the kind of core main driver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1022,
+          "t": [
+            5244.551,
+            5248.112
+          ],
+          "quote": "Because of the caching, Claude is also often the validator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            5254.033,
+            5258.834
+          ],
+          "quote": "This sounds pretty Claude-heavy, all things considered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            5314.285,
+            5319.289
+          ],
+          "quote": "American API models, Claude, perhaps specifically, and a DeepSeek.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            5444.966,
+            5449.23
+          ],
+          "quote": "So by family, I mean like Claude and OpenAI and even Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1112,
+          "t": [
+            5617.487,
+            5622.11
+          ],
+          "quote": "But it's gotten a lot easier because now we have EGI and so you can just ask Claude to fine tune for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1252,
+          "t": [
+            6213.28,
+            6221.765
+          ],
+          "quote": "And there is, just ask your LLM of choice, ask Claude, hey, tell me the precedent we have of banning American, like foreign influences in the country.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1280,
+          "t": [
+            6346.031,
+            6349.732
+          ],
+          "quote": "Especially because we're blocking them from using Claude, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            6350.432,
+            6353.293
+          ],
+          "quote": "It's not like we're saying, hey, you can buy all the Claude you want, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            6353.313,
+            6354.713
+          ],
+          "quote": "So we've said we've got Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1283,
+          "t": [
+            6355.793,
+            6365.475
+          ],
+          "quote": "The makers of Claude have advocated strongly for chip restrictions, and they also try to refuse to sell their model into China in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1284,
+          "t": [
+            6366.255,
+            6373.097
+          ],
+          "quote": "And the whole premise of Claude, or the whole existence of Claude is based on the idea that we hovered up all this human knowledge in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            6897.819,
+            6901.281
+          ],
+          "quote": "If Lindy's powered entirely by Claude, maybe you get a cheaper rate on your insurance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            7128.116,
+            7131.479
+          ],
+          "quote": "Compared to refusing to sell them chips and refusing to sell them Claude.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": false,
+      "how_described": "Flo 指责中国模型通过蒸馏获得不公平竞争优势：在人类数据上训练花几十亿美元，在 AI 数据上蒸馏最多花几亿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1238,
+          "t": [
+            6156.251,
+            6157.412
+          ],
+          "quote": "That is not what distillation means.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1276,
+          "t": [
+            6331.52,
+            6334.581
+          ],
+          "quote": "And you could say that's not distillation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1290,
+          "t": [
+            6402.135,
+            6406.599
+          ],
+          "quote": "And if they want to put in measures to try to prevent distillation, I think that's their prerogative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1291,
+          "t": [
+            6407.039,
+            6419.268
+          ],
+          "quote": "But I'm like, not at all convinced that it should be the state's job to come in and engage in sort of statecraft to try to punish or prevent this distillation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1294,
+          "t": [
+            6429.236,
+            6436.164
+          ],
+          "quote": "I didn't get my check for my share of the training data and they're getting paid for the distillation queries too, which whenever they don't want to be paid.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "用户可通过在 memory.md 文件中写指令来插入护栏，控制智能体什么该记、什么不该记",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1097.256,
+            1106.185
+          ],
+          "quote": "Text and file system is you can inspect the memory and you can edit it and you can just like very gradually insert this kind of guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "Flo 说当前主流叙事是'SaaS 正在消亡，你可以 vibe coding 一切'，但他反驳说基础设施不能 vibe coding",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            3052.203,
+            3055.104
+          ],
+          "quote": "And well, vibe coding a lot of stuff, but infrastructure will not vibe coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3174.472,
+            3179.215
+          ],
+          "quote": "Now we have like one engineer who's full time dedicated to that solution, which is a lot in the vibe coding era.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "centaur",
+      "type": "concept",
+      "role": "concept",
+      "name": "半人马 (centaur)",
+      "file": "半人马",
+      "primary": false,
+      "how_described": "指 AI 加人类优于纯 AI 的神话，Flo 引用国际象棋等文献说明这只是暂时的，最终人类变成引入随机噪声",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            78.624,
+            81.286
+          ],
+          "quote": "For now, Flo says we're in the Centaur era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3863.862,
+            3867.264
+          ],
+          "quote": "The reason I hate it is because it ladders into this myth of the centaur.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3911.091,
+            3914.375
+          ],
+          "quote": "That said, the Centaur phase exists for a while.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3917.258,
+            3918.88
+          ],
+          "quote": "But right now we are in the Centaur phase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "Lindy TeamMate 生活的平台，也是公司真正知识所在的地方；Slack API 限速是初始水合的瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.153,
+            13.56
+          ],
+          "quote": "Today I'm speaking with Flo Crevello, founder and CEO of Lindy, as he's launching Lindy TeamMate, an AI employee that joins your company's Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            233.361,
+            240.606
+          ],
+          "quote": "But the big evolution now is that Lindy is a full on AI employee and it's going to be available in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            263.034,
+            268.978
+          ],
+          "quote": "It is an AI employee that lives in your Slack, connects to all of your tools, accumulates your entire team's context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            294.21,
+            301.575
+          ],
+          "quote": "If you really want your AI to be a teammate, your agent to be an actual member of the team, you want it to be where your team collaborates, which is Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            487.812,
+            493.473
+          ],
+          "quote": "And then you connect the most important, which is Slack, because that's where the real knowledge lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            497.629,
+            505.073
+          ],
+          "quote": "And so then what we do is that we crawl your entire Slack and we build a knowledge graph based on a file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            665.901,
+            671.966
+          ],
+          "quote": "In our Slack channels at my company Weimar, we've had various, you know, logs moved into Slack over and over and over again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            764.97,
+            775.897
+          ],
+          "quote": "And we have noticed that the first time the memory agent crawls the slack, it finds some of those channels, like many organizations have them, like those log channels, and it learns to ignore them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1203.55,
+            1218.757
+          ],
+          "quote": "Over the last few months, Claude has helped me build and refine a personal deep context database that now contains all of my emails, Slack messages, tweets, DMs across platforms, video calls, and podcast transcripts, going back a full five years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2060.599,
+            2066.52
+          ],
+          "quote": "So it's like, again, it's this moment where like you connect your notion, you connect your slack, and then we crawl everything, we look at all of that stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2073.802,
+            2076.304
+          ],
+          "quote": "A team of 20 years of Slack history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2076.324,
+            2078.205
+          ],
+          "quote": "We literally take all of your Slack history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2078.265,
+            2082.648
+          ],
+          "quote": "It takes a while, and actually here, surprisingly, the bottleneck is not even the LLMs, it's the Slack APIs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2082.688,
+            2084.689
+          ],
+          "quote": "Slack is not happy about you crawling through their history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2146.34,
+            2147.681
+          ],
+          "quote": "So I did experience the Slack thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2176.5,
+            2183.285
+          ],
+          "quote": "But what it wasn't taking into account was the fact that we'd been rate limited on Slack for days to get all the stuff out of Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2186.387,
+            2188.349
+          ],
+          "quote": "And that was the only place where we had Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2188.769,
+            2196.114
+          ],
+          "quote": "It wasn't really lost, but it was like, okay, we're now going to be like added again for five more days just to make API calls to get out of Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2227.548,
+            2230.45
+          ],
+          "quote": "You have to have permissions to install applications on your Slack Workspace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2317.383,
+            2325.149
+          ],
+          "quote": "Content that, you know, all the sort of digital exhausts that I've created over the years, which is email and DMs and Slack and Google Docs and whatever, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2326.83,
+            2334.716
+          ],
+          "quote": "With Slack being the most painful one, make all the API calls to export all that stuff into a SQL database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2995.051,
+            2997.932
+          ],
+          "quote": "So it's like sign up, notion, Slack, boom, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3311.45,
+            3315.311
+          ],
+          "quote": "And I can tell you so our Slack now is basically just us and Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3315.591,
+            3320.752
+          ],
+          "quote": "It's like Lindy is like just half the messages on Slack is just Lindy and us talking back and forth with Lindy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3945.33,
+            3948.553
+          ],
+          "quote": "We do it, actually it's funny because it's very easy to do it on Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3950.294,
+            3957.681
+          ],
+          "quote": "You know, it's hard to do in the meeting in a way that like now makes us actually more and more like we prefer Slack because like the AI is there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3969.731,
+            3970.932
+          ],
+          "quote": "And they'll send us messages on Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3995.972,
+            4000.015
+          ],
+          "quote": "At first, when we invited Lindy into this conversation, it happened over Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 951,
+          "t": [
+            4909.763,
+            4923.288
+          ],
+          "quote": "Now as you're in this very open-ended just tag Lindy in Slack and send it anything, it seems like that problem would have increased in difficulty dramatically.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    }
+  ]
+}

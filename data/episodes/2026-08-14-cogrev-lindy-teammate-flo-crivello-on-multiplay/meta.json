@@ -1,0 +1,35 @@
+{
+  "id": "2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay",
+  "audio_mp3": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP7395722514.mp3",
+  "duration_sec": 7567.935,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1477,
+  "asr": true,
+  "title_en": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-08-14",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/67f4c75e-93d8-11f1-bc73-4b7840ced6dd/image/4b0b55cbbf397c80de476a6b6e5e6d36.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-08-21",
+  "speaker_map": {
+    "SPEAKER_00": "Flo Crivello",
+    "SPEAKER_01": "Nathan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Flo Crivello",
+  "cohosts": [
+    "Nathan"
+  ],
+  "title_zh": "Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\"",
+  "guest_name": "Flo Crivello",
+  "guest_title": "Lindy 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/67f4c75e-93d8-11f1-bc73-4b7840ced6dd/image/4b0b55cbbf397c80de476a6b6e5e6d36.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "2048x2048",
+    "aspect": 1,
+    "fetched_at": "2026-08-21T13:58:16.568Z"
+  }
+}

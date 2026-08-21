@@ -43,7 +43,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Vercel]] · [[Google]] · [[Delphi]] · [[go-to-market]] · [[前向部署工程师]] · [[Bret Taylor]] · [[Stewart Butterfield]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":104,"OpenAI":43,"Vercel":8,"Google":21,"Delphi":3,"go-to-market":4,"前向部署工程师":6,"Bret Taylor":1,"Stewart Butterfield":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":105,"OpenAI":43,"Vercel":8,"Google":21,"Delphi":3,"go-to-market":4,"前向部署工程师":6,"Bret Taylor":1,"Stewart Butterfield":1}</script>
 
 <script>
 (function(){

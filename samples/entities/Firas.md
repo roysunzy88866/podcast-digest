@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Emilio Escobar]] [[Dylan]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Jensen Wong]]
+[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]]
 
 </div>
 

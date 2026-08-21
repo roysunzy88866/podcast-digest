@@ -25,7 +25,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[技能化]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":104,"技能文件":1,"上下文工程":6,"公司大脑":1,"RAG":4,"Latent Space":1,"确定性空间":1,"工作记忆":1,"技能化":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":105,"技能文件":1,"上下文工程":6,"公司大脑":1,"RAG":5,"Latent Space":1,"确定性空间":1,"工作记忆":1,"技能化":1}</script>
 
 <script>
 (function(){

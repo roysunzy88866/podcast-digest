@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":28,"LangGraph":3,"智能体":104,"子智能体":1,"确定性":1,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
+<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":28,"LangGraph":3,"智能体":105,"子智能体":1,"确定性":1,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
 
 <script>
 (function(){

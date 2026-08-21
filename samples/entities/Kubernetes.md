@@ -38,7 +38,7 @@ aliases: ["K8s", "k8s"]
 
 [[智能体]] · [[沙箱]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[GitHub]] · [[Reynold Xin]] · [[Akshat Bubna]] · [[Jerry]]
 
-<script type="application/json" class="pd-epn">{"智能体":104,"沙箱":20,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"GitHub":16,"Reynold Xin":1,"Akshat Bubna":1,"Jerry":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":105,"沙箱":21,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"GitHub":16,"Reynold Xin":1,"Akshat Bubna":1,"Jerry":1}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":51,"OpenAI":43,"任务视界":1,"Managed Agents":2,"harness":11,"沙箱":20,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":52,"OpenAI":43,"任务视界":1,"Managed Agents":2,"harness":11,"沙箱":21,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Slack":18,"Salesforce":6,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Slack":19,"Salesforce":6,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
 
 <script>
 (function(){
