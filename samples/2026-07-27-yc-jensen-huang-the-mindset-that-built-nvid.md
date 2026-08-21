@@ -1,7 +1,7 @@
 ---
 title: Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式
 podcast: Y Combinator Startup Podcast
-date: 2026-07-27
+date: 2026-07-28
 source_url: undefined
 duration: "48:57"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#post","headline":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","mainEntityOfPage":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","description":"黄仁勋回顾 NVIDIA 创立之初选错技术靠教科书翻盘，详解 AI 与机器人的系统思维及创始人韧性。","datePublished":"2026-07-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid.jpg","about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Person","name":"Jerry"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Sega"},{"@type":"Organization","name":"Waymo"},{"@type":"Organization","name":"Tesla"},{"@type":"Organization","name":"Mercedes"},{"@type":"Thing","name":"加速计算 (accelerated computing)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"通用函数近似器 (universal function approximator)"},{"@type":"Thing","name":"沙箱 (sandboxes)"},{"@type":"Thing","name":"深度学习 (deep learning)"},{"@type":"Thing","name":"自动驾驶汽车 (self-driving cars)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","item":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#post","headline":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","mainEntityOfPage":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid","description":"黄仁勋回顾 NVIDIA 创立之初选错技术靠教科书翻盘，详解 AI 与机器人的系统思维及创始人韧性。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid.jpg","about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Person","name":"Jerry"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Sega"},{"@type":"Organization","name":"Waymo"},{"@type":"Organization","name":"Tesla"},{"@type":"Organization","name":"Mercedes"},{"@type":"Thing","name":"加速计算 (accelerated computing)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"通用函数近似器 (universal function approximator)"},{"@type":"Thing","name":"沙箱 (sandboxes)"},{"@type":"Thing","name":"深度学习 (deep learning)"},{"@type":"Thing","name":"自动驾驶汽车 (self-driving cars)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式","item":"https://talk.solomind.cc/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式
 
-<div class="pd-byl"><b>Jensen Huang</b> · NVIDIA 创始人兼 CEO · 2026-07-27</div>
+<div class="pd-byl"><b>Jensen Huang</b> · NVIDIA 创始人兼 CEO · 2026-07-28</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **公司** [[NVIDIA]] · [[Sega]] · [[Waymo]] · [[Tesla]] · [[Mercedes]]
 >
 > **概念** [[加速计算]] · [[智能体]] · [[物理 AI]] · [[系统思维]] · [[通用函数近似器]] · [[沙箱]] · [[深度学习]] · [[自动驾驶汽车]]
-
-<div class="pd-tldr"><b>一句话</b>黄仁勋回顾 NVIDIA 创立之初选错技术靠教科书翻盘，详解 AI 与机器人的系统思维及创始人韧性。</div>
 
 [[NVIDIA|NVIDIA]] 是今天 AI 革命的中心,但这家公司当年选定的创业技术,从根上是错的——意识到这一点时,已经晚了。说这话的人是黄仁勋,这是他在 YC 创业课上讲的第一个故事。 <button class="pd-ts" data-t="01:19" data-who="Jensen Huang" data-en="Well, for the students who only know NVIDIA as a company at the center of AI, what part of the early NVIDIA story do they most need to understand? The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong." aria-label="回原文"></button>
 

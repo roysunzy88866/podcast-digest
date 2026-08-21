@@ -1,7 +1,7 @@
 ---
 title: Databricks 的反击：重写数据库、统一智能体与开放的执念
 podcast: Latent Space
-date: 2026-06-24
+date: 2026-07-17
 source_url: https://www.latent.space/p/databricks
 duration: "68:43"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-06-24-latent-space-databricks.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-latent-space-databricks#post","headline":"Databricks 的反击：重写数据库、统一智能体与开放的执念","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","description":"Matei 与 Reynold 讲解如何用开源打赢数据之战,以及智能体时代的新架构。","datePublished":"2026-06-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-24-latent-space-databricks.jpg","isBasedOn":"https://www.latent.space/p/databricks","about":[{"@type":"Person","name":"Matei Zaharia"},{"@type":"Person","name":"Reynold Xin"},{"@type":"Organization","name":"Databricks"},{"@type":"Organization","name":"Snowflake"},{"@type":"Organization","name":"MosaicML"},{"@type":"Organization","name":"Neon"},{"@type":"Thing","name":"Omnigen"},{"@type":"Thing","name":"LTAP"},{"@type":"Thing","name":"HTAP"},{"@type":"Thing","name":"Dream Engine"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"云沙箱 (cloud sandbox)"},{"@type":"Thing","name":"上下文策略 (contextual policies)"},{"@type":"Thing","name":"CDC"},{"@type":"Thing","name":"第二系统综合征 (second system syndrome)"},{"@type":"Thing","name":"Spark"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Databricks 的反击：重写数据库、统一智能体与开放的执念","item":"https://talk.solomind.cc/2026-06-24-latent-space-databricks"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-latent-space-databricks#post","headline":"Databricks 的反击：重写数据库、统一智能体与开放的执念","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-latent-space-databricks","description":"Matei 与 Reynold 讲解如何用开源打赢数据之战,以及智能体时代的新架构。","datePublished":"2026-07-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-24-latent-space-databricks.jpg","isBasedOn":"https://www.latent.space/p/databricks","about":[{"@type":"Person","name":"Matei Zaharia"},{"@type":"Person","name":"Reynold Xin"},{"@type":"Organization","name":"Databricks"},{"@type":"Organization","name":"Snowflake"},{"@type":"Organization","name":"MosaicML"},{"@type":"Organization","name":"Neon"},{"@type":"Thing","name":"Omnigen"},{"@type":"Thing","name":"LTAP"},{"@type":"Thing","name":"HTAP"},{"@type":"Thing","name":"Dream Engine"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"云沙箱 (cloud sandbox)"},{"@type":"Thing","name":"上下文策略 (contextual policies)"},{"@type":"Thing","name":"CDC"},{"@type":"Thing","name":"第二系统综合征 (second system syndrome)"},{"@type":"Thing","name":"Spark"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Databricks 的反击：重写数据库、统一智能体与开放的执念","item":"https://talk.solomind.cc/2026-06-24-latent-space-databricks"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的反击：重写数据库、统一智能体与开放的执念</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Databricks 的反击：重写数据库、统一智能体与开放的执念
 
-<div class="pd-byl"><b>Matei Zaharia</b> · Databricks 联合创始人 · 2026-06-24</div>
+<div class="pd-byl"><b>Matei Zaharia</b> · Databricks 联合创始人 · 2026-07-17</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-24-latent-space-databricks.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **概念** [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]] · [[云沙箱]] · [[上下文策略]] · [[CDC]] · [[第二系统综合征]] · [[Spark]]
 >
 > **来源** [Latent Space](https://www.latent.space/p/databricks)
-
-<div class="pd-tldr"><b>一句话</b>Matei 与 Reynold 讲解如何用开源打赢数据之战,以及智能体时代的新架构。</div>
 
 数据库界有个困扰了工程师十年的梦魇:让交易系统(管日常订单)和分析系统(管海量统计)用同一份数据,不用搬运。业界为此造出了各种妥协方案,三十年来没人真正解决。这一集里,[[Databricks|Databricks]] 的创始人们说,他们靠云原生架构转了个格式,把这事做成了。
 

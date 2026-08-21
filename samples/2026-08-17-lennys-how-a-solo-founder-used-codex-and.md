@@ -1,7 +1,7 @@
 ---
 title: AI 当技术联合创始人：一个人怎么做时尚品牌
 podcast: "Lenny's Podcast"
-date: 2026-08-17
+date: 2026-08-19
 source_url: undefined
 duration: "32:23"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and#post","headline":"AI 当技术联合创始人：一个人怎么做时尚品牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and","mainEntityOfPage":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and","description":"一个人用 AI 从设计到建站到生产，跑通整个时尚品牌。","datePublished":"2026-08-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Claire Veva"},{"@type":"Person","name":"Yana Welinder"},{"@type":"Organization","name":"Yanabana"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"浏览器使用 (browser use)"},{"@type":"Thing","name":"提示词 (prompt)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"AI 当技术联合创始人：一个人怎么做时尚品牌","item":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and#post","headline":"AI 当技术联合创始人：一个人怎么做时尚品牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and","mainEntityOfPage":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and","description":"一个人用 AI 从设计到建站到生产，跑通整个时尚品牌。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Claire Veva"},{"@type":"Person","name":"Yana Welinder"},{"@type":"Organization","name":"Yanabana"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"浏览器使用 (browser use)"},{"@type":"Thing","name":"提示词 (prompt)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"AI 当技术联合创始人：一个人怎么做时尚品牌","item":"https://talk.solomind.cc/2026-08-17-lennys-how-a-solo-founder-used-codex-and"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 当技术联合创始人：一个人怎么做时尚品牌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 当技术联合创始人：一个人怎么做时尚品牌
 
-<div class="pd-byl"><b>Yana Welinder</b> · 2026-08-17</div>
+<div class="pd-byl"><b>Yana Welinder</b> · 2026-08-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-17-lennys-how-a-solo-founder-used-codex-and.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Yanabana]] · [[Codex]] · [[ChatGPT]]
 >
 > **概念** [[智能体]] · [[计算机使用]] · [[浏览器使用]] · [[提示词]]
-
-<div class="pd-tldr"><b>一句话</b>一个人用 AI 从设计到建站到生产，跑通整个时尚品牌。</div>
 
 一个没有任何工程背景的人，没有招工程师，直接让 [[Codex|Codex]] 帮她把电商网站建好了——包括接入 Stripe 支付、创建数据库追踪用户投票，全套搞定 <button class="pd-ts" data-t="24:24" data-who="Unknown" data-en="Like normally I would hire like, I could have had a technical co-founder. I'm a solo founder girl." aria-label="回原文"></button>。说这话的是 Jana Wellander，她在做一个叫 [[Yanabana|Yanabana]] 的 AI 原生时尚品牌，AI 不只是辅助工具，是她事实上的技术联合创始人 <button class="pd-ts" data-t="03:14" data-who="Unknown" data-en="And the idea is to use AI really anywhere in the process where that makes sense. So obviously heavily in the design and production process, but also it's literally my technical co-founder." aria-label="回原文"></button>。
 

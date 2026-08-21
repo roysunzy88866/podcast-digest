@@ -1,7 +1,7 @@
 ---
 title: "用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图"
 podcast: 精选演讲
-date: 2026-07-17
+date: 2026-07-31
 source_url: undefined
 duration: "20:49"
 type: episode
@@ -15,14 +15,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry#post","headline":"用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry","mainEntityOfPage":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry","description":"把 AI 当员工而不是自动补全,用技能文件和公司大脑重组你的组织。","datePublished":"2026-07-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Garry Tan"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"技能文件 (skill file)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"公司大脑 (company brain)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"Latent Space"},{"@type":"Thing","name":"确定性空间 (deterministic space)"},{"@type":"Thing","name":"工作记忆 (working memory)"},{"@type":"Thing","name":"Gbrain"},{"@type":"Thing","name":"技能化 (Skillify)"},{"@type":"Thing","name":"AI 原生公司 (AI native company)"},{"@type":"Thing","name":"markdown"},{"@type":"Thing","name":"上下文窗口 (context window)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图","item":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry#post","headline":"用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry","mainEntityOfPage":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry","description":"把 AI 当员工而不是自动补全,用技能文件和公司大脑重组你的组织。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Garry Tan"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"技能文件 (skill file)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"公司大脑 (company brain)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"Latent Space"},{"@type":"Thing","name":"确定性空间 (deterministic space)"},{"@type":"Thing","name":"工作记忆 (working memory)"},{"@type":"Thing","name":"Gbrain"},{"@type":"Thing","name":"技能化 (Skillify)"},{"@type":"Thing","name":"AI 原生公司 (AI native company)"},{"@type":"Thing","name":"markdown"},{"@type":"Thing","name":"上下文窗口 (context window)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图","item":"https://talk.solomind.cc/2026-07-17-talks-every-company-should-have-a-brain-garry"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图
 
-<div class="pd-byl"><b>Garry Tan</b> · YC 掌门人 · 2026-07-17</div>
+<div class="pd-byl"><b>Garry Tan</b> · YC 掌门人 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-17-talks-every-company-should-have-a-brain-garry.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -32,8 +32,6 @@ jsonLd: |
 > **人物** [[Garry Tan]]
 >
 > **概念** [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]] · [[技能化]] · [[AI 原生公司]] · [[markdown]] · [[上下文窗口]]
-
-<div class="pd-tldr"><b>一句话</b>把 AI 当员工而不是自动补全,用技能文件和公司大脑重组你的组织。</div>
 
 同一个模型、同样的[[上下文窗口|上下文窗口]],为什么有人只能做到 2 倍产出,有人却能干到 100 倍?答案不在模型本身,而在于你如何连接工作 <button class="pd-ts" data-t="03:00" data-who="Garry" data-en="That number is large, no matter how you torture it. And here's the part that matters, the part that I'd tattoo on the inside of everyone's eyelids if I could. It's not the model." aria-label="回原文"></button>。说这话的人是 [[Garry Tan|Garry Tan]](YC 掌门人),他算了一笔账:2013 年他当工程师时,每天大概只能写 15 行可用代码,而今年他全职运营 YC、甚至下午五点还要接孩子,产出却是当年的 400 倍 <button class="pd-ts" data-t="02:21" data-who="Garry" data-en="That was me at full effort at that time. This year I run YC full time, same person, same hours, actually way less hours, weirdly, but I have a 5 p.m. kid pick up now, and I did the math on my output, and it's about 400x." aria-label="回原文"></button>。
 

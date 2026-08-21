@@ -1,7 +1,7 @@
 ---
 title: AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎
 podcast: "Lenny's Podcast"
-date: 2025-10-19
+date: 2026-08-13
 source_url: https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity
 duration: "67:44"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-10-19-lennys-how-to-measure-ai-developer-productivity.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity#post","headline":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","mainEntityOfPage":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","description":"AI在加速写代码,但开发者体验不只看代码行数;核心是减少摩擦、选对指标、先去倾听。","datePublished":"2025-10-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-19-lennys-how-to-measure-ai-developer-productivity.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Nicole Forsgren"},{"@type":"Thing","name":"代码行数 (lines of code)"},{"@type":"Thing","name":"DORA"},{"@type":"Thing","name":"SPACE"},{"@type":"Thing","name":"DevEx"},{"@type":"Thing","name":"心流状态 (flow state)"},{"@type":"Thing","name":"反馈循环 (feedback loops)"},{"@type":"Thing","name":"认知负荷 (cognitive load)"},{"@type":"Thing","name":"技术债 (technical debt)"},{"@type":"Thing","name":"幻觉 (hallucinations)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"微调 (fine-tuning)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","item":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity#post","headline":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","mainEntityOfPage":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity","description":"AI在加速写代码,但开发者体验不只看代码行数;核心是减少摩擦、选对指标、先去倾听。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-19-lennys-how-to-measure-ai-developer-productivity.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Nicole Forsgren"},{"@type":"Thing","name":"代码行数 (lines of code)"},{"@type":"Thing","name":"DORA"},{"@type":"Thing","name":"SPACE"},{"@type":"Thing","name":"DevEx"},{"@type":"Thing","name":"心流状态 (flow state)"},{"@type":"Thing","name":"反馈循环 (feedback loops)"},{"@type":"Thing","name":"认知负荷 (cognitive load)"},{"@type":"Thing","name":"技术债 (technical debt)"},{"@type":"Thing","name":"幻觉 (hallucinations)"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"微调 (fine-tuning)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎","item":"https://talk.solomind.cc/2025-10-19-lennys-how-to-measure-ai-developer-productivity"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎
 
-<div class="pd-byl"><b>Nicole Forsgren</b> · 2025-10-19</div>
+<div class="pd-byl"><b>Nicole Forsgren</b> · 2026-08-13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-19-lennys-how-to-measure-ai-developer-productivity.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **概念** [[代码行数]] · [[DORA]] · [[SPACE]] · [[DevEx]] · [[心流状态]] · [[反馈循环]] · [[认知负荷]] · [[技术债]] · [[幻觉]] · [[智能体]] · [[微调]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity)
-
-<div class="pd-tldr"><b>一句话</b>AI在加速写代码,但开发者体验不只看代码行数;核心是减少摩擦、选对指标、先去倾听。</div>
 
 「大多数生产力指标都是谎言。」说这话的 [[Nicole Forsgren|Nicole Forsgren]] 是 [[DORA|DORA]] 和 [[SPACE|SPACE]] 两大开发者度量框架的创建者。
 

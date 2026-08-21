@@ -1,7 +1,7 @@
 ---
 title: "一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角"
 podcast: "Lenny's Podcast"
-date: 2026-04-05
+date: 2026-07-21
 source_url: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
 duration: "112:46"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run#post","headline":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","mainEntityOfPage":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","description":"在一年十倍的增长速度下,如何做增长、用人、并用 AI 去自动化增长本身。","datePublished":"2026-04-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amol Avasare"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体编码 (agentic coding)"},{"@type":"Thing","name":"能力过剩 (capability overhang)"},{"@type":"Thing","name":"冷启动 (cold start)"},{"@type":"Thing","name":"正确的摩擦 (right friction)"},{"@type":"Thing","name":"成功灾难 (success disasters)"},{"@type":"Thing","name":"公益公司 (public benefit corporation)"},{"@type":"Thing","name":"跨职能利益相关者管理 (cross-functional stakeholder management)"},{"@type":"Thing","name":"增长自动化 (automate growth)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","item":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run#post","headline":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","mainEntityOfPage":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run","description":"在一年十倍的增长速度下,如何做增长、用人、并用 AI 去自动化增长本身。","datePublished":"2026-07-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amol Avasare"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体编码 (agentic coding)"},{"@type":"Thing","name":"能力过剩 (capability overhang)"},{"@type":"Thing","name":"冷启动 (cold start)"},{"@type":"Thing","name":"正确的摩擦 (right friction)"},{"@type":"Thing","name":"成功灾难 (success disasters)"},{"@type":"Thing","name":"公益公司 (public benefit corporation)"},{"@type":"Thing","name":"跨职能利益相关者管理 (cross-functional stakeholder management)"},{"@type":"Thing","name":"增长自动化 (automate growth)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角","item":"https://talk.solomind.cc/2026-04-05-lennys-anthropics-1b-to-19b-growth-run"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角
 
-<div class="pd-byl"><b>Amol Avasare</b> · Anthropic 增长负责人 · 2026-04-05</div>
+<div class="pd-byl"><b>Amol Avasare</b> · Anthropic 增长负责人 · 2026-07-21</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[智能体编码]] · [[能力过剩]] · [[冷启动]] · [[正确的摩擦]] · [[成功灾难]] · [[公益公司]] · [[跨职能利益相关者管理]] · [[增长自动化]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
-
-<div class="pd-tldr"><b>一句话</b>在一年十倍的增长速度下,如何做增长、用人、并用 AI 去自动化增长本身。</div>
 
 一家公司增长快到内部连正常的线性图表都嫌「不酷」,全员只看对数线性坐标——这就是 [[Anthropic|Anthropic]],它一年涨了十倍。能跟上这种速度的增长负责人叫 Amol,他的开局不是投简历、不是找内推,而是给首席产品官发了一封没人教的冷邮件 <button class="pd-ts" data-t="04:51" data-who="Amol Avasare" data-en="And what I did was I just sent Mike Krieger a cold email. He was the chief product officer. I sent him a cold email saying like, &quot;Hey, love what you guys do, love the product." aria-label="回原文"></button>。
 

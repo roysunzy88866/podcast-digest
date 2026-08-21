@@ -1,7 +1,7 @@
 ---
 title: Google搜索没死，AI让它扩张了
 podcast: "Lenny's Podcast"
-date: 2025-10-10
+date: 2026-08-15
 source_url: https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year
 duration: "81:33"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year#post","headline":"Google搜索没死，AI让它扩张了","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year","mainEntityOfPage":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year","description":"Google搜索产品VP谈AI Mode诞生逻辑与做产品的四条心法","datePublished":"2025-10-10","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Robby Stein"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Instagram"},{"@type":"Thing","name":"AI Mode"},{"@type":"Thing","name":"AI Overviews"},{"@type":"Thing","name":"Google Lens"},{"@type":"Thing","name":"Stories"},{"@type":"Thing","name":"Close Friends"},{"@type":"Thing","name":"查询分流 (query fan-out)"},{"@type":"Thing","name":"待完成任务 (jobs to be done)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Google搜索没死，AI让它扩张了","item":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year#post","headline":"Google搜索没死，AI让它扩张了","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year","mainEntityOfPage":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year","description":"Google搜索产品VP谈AI Mode诞生逻辑与做产品的四条心法","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Robby Stein"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Instagram"},{"@type":"Thing","name":"AI Mode"},{"@type":"Thing","name":"AI Overviews"},{"@type":"Thing","name":"Google Lens"},{"@type":"Thing","name":"Stories"},{"@type":"Thing","name":"Close Friends"},{"@type":"Thing","name":"查询分流 (query fan-out)"},{"@type":"Thing","name":"待完成任务 (jobs to be done)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Google搜索没死，AI让它扩张了","item":"https://talk.solomind.cc/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google搜索没死，AI让它扩张了</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Google搜索没死，AI让它扩张了
 
-<div class="pd-byl"><b>Robby Stein</b> · Google搜索产品副总裁 · 2025-10-10</div>
+<div class="pd-byl"><b>Robby Stein</b> · Google搜索产品副总裁 · 2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[AI Mode]] · [[AI Overviews]] · [[Google Lens]] · [[Stories]] · [[Close Friends]] · [[查询分流]] · [[待完成任务]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year)
-
-<div class="pd-tldr"><b>一句话</b>Google搜索产品VP谈AI Mode诞生逻辑与做产品的四条心法</div>
 
 [[Google|Google]] Gemini 登上了 App Store 排行榜第一，排在了 ChatGPT 上面。很多人说"Google 完了，没人想忍受搜索结果点链接了"，但 Google 搜索产品副总裁 [[Robby Stein|Robby Stein]] 说，核心搜索根本没有被取代——人们仍然来搜电话号码、价格、路线，这些基础需求没变。变的是 AI 带来了一波**扩张**：人们开始问以前不会问的、更复杂的问题，好奇心被释放了 <button class="pd-ts" data-t="08:24" data-who="Robby Stein" data-en="Just how is traffic going, how is search going considering all these things are out there, and just what are you seeing in the data since the launch of say ChatGPT?" aria-label="回原文"></button>。
 

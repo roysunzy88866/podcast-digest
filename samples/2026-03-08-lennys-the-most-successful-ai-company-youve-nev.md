@@ -1,7 +1,7 @@
 ---
 title: 估值150亿的隐形AI公司：我们最好的工作是独自安静地完成
 podcast: "Lenny's Podcast"
-date: 2026-03-08
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 duration: "84:21"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev#post","headline":"估值150亿的隐形AI公司：我们最好的工作是独自安静地完成","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev","mainEntityOfPage":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev","description":"Applied Intuition CEO 谈物理AI的真实影响、远离喧嚣的公司经营哲学与创始人的品味。","datePublished":"2026-03-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Qasar Younis"},{"@type":"Organization","name":"Applied Intuition"},{"@type":"Organization","name":"Tesla"},{"@type":"Organization","name":"Waymo"},{"@type":"Organization","name":"Huawei"},{"@type":"Organization","name":"YCombinator"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"自动驾驶 (self-driving)"},{"@type":"Thing","name":"工业革命 (Industrial Revolution)"},{"@type":"Thing","name":"FSD"},{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"激进实用主义 (radical pragmatism)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"估值150亿的隐形AI公司：我们最好的工作是独自安静地完成","item":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev#post","headline":"估值150亿的隐形AI公司：我们最好的工作是独自安静地完成","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev","mainEntityOfPage":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev","description":"Applied Intuition CEO 谈物理AI的真实影响、远离喧嚣的公司经营哲学与创始人的品味。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Qasar Younis"},{"@type":"Organization","name":"Applied Intuition"},{"@type":"Organization","name":"Tesla"},{"@type":"Organization","name":"Waymo"},{"@type":"Organization","name":"Huawei"},{"@type":"Organization","name":"YCombinator"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"自动驾驶 (self-driving)"},{"@type":"Thing","name":"工业革命 (Industrial Revolution)"},{"@type":"Thing","name":"FSD"},{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"激进实用主义 (radical pragmatism)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"估值150亿的隐形AI公司：我们最好的工作是独自安静地完成","item":"https://talk.solomind.cc/2026-03-08-lennys-the-most-successful-ai-company-youve-nev"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>估值150亿的隐形AI公司：我们最好的工作是独自安静地完成</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 估值150亿的隐形AI公司：我们最好的工作是独自安静地完成
 
-<div class="pd-byl"><b>Qasar Younis</b> · Applied Intuition CEO · 2026-03-08</div>
+<div class="pd-byl"><b>Qasar Younis</b> · Applied Intuition CEO · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[ChatGPT]] · [[智能体]] · [[激进实用主义]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
-
-<div class="pd-tldr"><b>一句话</b>Applied Intuition CEO 谈物理AI的真实影响、远离喧嚣的公司经营哲学与创始人的品味。</div>
 
 一家估值 150 亿美元、给全球前 20 大汽车制造商中的 18 家提供技术的 AI 公司，过去十年里 CEO 几乎不公开发言。说这话的人是 Qasar，[[Applied Intuition|Applied Intuition]] 的创始人，他甚至有一句公司格言：「我们最好的工作是独自安静地完成的。」<button class="pd-ts" data-t="00:08" data-who="Qasar Younis" data-en="Marc Andreessen quote tweeted it and said, &quot;This is the best AI CEO nobody knows.&quot; Our best work is done alone and quietly. Every minute you're writing something for public consumption, you're not focusing your very limited time that you have on your customers and your product." aria-label="回原文"></button>
 

@@ -1,7 +1,7 @@
 ---
 title: "AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算"
 podcast: Big Technology Podcast
-date: 2026-07-24
+date: 2026-07-25
 source_url: undefined
 duration: "66:31"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#post","headline":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","description":"AI 泡沫若破裂,牵连整个经济;两位主播拆解数据中心债务风险与前沿实验室的终极博弈。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.jpg","about":[{"@type":"Person","name":"Ranjan Roy"},{"@type":"Person","name":"Alex"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"Tesla"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"次级数据中心危机 (subprime data center crisis)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"财富效应 (wealth effect)"},{"@type":"Thing","name":"SPV"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","item":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#post","headline":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c","description":"AI 泡沫若破裂,牵连整个经济;两位主播拆解数据中心债务风险与前沿实验室的终极博弈。","datePublished":"2026-07-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.jpg","about":[{"@type":"Person","name":"Ranjan Roy"},{"@type":"Person","name":"Alex"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"SpaceX"},{"@type":"Organization","name":"Tesla"},{"@type":"Thing","name":"AGI"},{"@type":"Thing","name":"次级数据中心危机 (subprime data center crisis)"},{"@type":"Thing","name":"资本支出 (Capex)"},{"@type":"Thing","name":"财富效应 (wealth effect)"},{"@type":"Thing","name":"SPV"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算","item":"https://talk.solomind.cc/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算
 
-<div class="pd-byl"><b>Ranjan Roy</b> · 2026-07-24</div>
+<div class="pd-byl"><b>Ranjan Roy</b> · 2026-07-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **公司** [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]]
 >
 > **概念** [[AGI]] · [[次级数据中心危机]] · [[资本支出]] · [[财富效应]] · [[SPV]]
-
-<div class="pd-tldr"><b>一句话</b>AI 泡沫若破裂,牵连整个经济;两位主播拆解数据中心债务风险与前沿实验室的终极博弈。</div>
 
 如果 AI 的建设受阻,整个经济会跟着崩塌吗?这是《纽约时报》最近抛出的一个问题——因为 AI 相关股票占了今年标普 500 涨幅的一半,而「[[财富效应|财富效应]]」(投资组合账面上涨让人们更敢花钱)一旦反向运作,股市跌 30% 就可能让消费锐减 7000 亿美元,足以单独引发一场衰退 <button class="pd-ts" data-t="03:15" data-who="Alex" data-en="So let me, to begin with, just cite this New York Times story that asks what will happen to the economy if the ai boom starts to tamp down the story says if investor confidence in ai falters the economy actively built atop it could come crashing down ai related stocks account for roughly half of the rise in the s p 500 this year declines in stock prices even drastic ones don't necessarily have much impact beyond beyond the world of finance but" aria-label="回原文"></button>。
 

@@ -1,7 +1,7 @@
 ---
 title: SaaS增长该抄电商作业：付费广告立刻开打
 podcast: The Twenty Minute VC
-date: 2026-08-15
+date: 2026-08-21
 source_url: undefined
 duration: "78:39"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi#post","headline":"SaaS增长该抄电商作业：付费广告立刻开打","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi","description":"前Superhuman和Whisper增长负责人Matt拆解：SaaS公司应该立刻用电商打法做付费获客。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi.jpg","about":[{"@type":"Person","name":"Matt Swulinski"},{"@type":"Person","name":"Harry Stebbings"},{"@type":"Organization","name":"Superhuman"},{"@type":"Organization","name":"Whisper"},{"@type":"Organization","name":"Victor"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"ugc"},{"@type":"Thing","name":"AEO"},{"@type":"Thing","name":"转化跟踪 (conversion tracking)"},{"@type":"Thing","name":"推荐计划 (referral program)"},{"@type":"Thing","name":"创意素材 (creative)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"SaaS增长该抄电商作业：付费广告立刻开打","item":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi#post","headline":"SaaS增长该抄电商作业：付费广告立刻开打","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi","description":"前Superhuman和Whisper增长负责人Matt拆解：SaaS公司应该立刻用电商打法做付费获客。","datePublished":"2026-08-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi.jpg","about":[{"@type":"Person","name":"Matt Swulinski"},{"@type":"Person","name":"Harry Stebbings"},{"@type":"Organization","name":"Superhuman"},{"@type":"Organization","name":"Whisper"},{"@type":"Organization","name":"Victor"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"Google"},{"@type":"Thing","name":"PLG"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"ugc"},{"@type":"Thing","name":"AEO"},{"@type":"Thing","name":"转化跟踪 (conversion tracking)"},{"@type":"Thing","name":"推荐计划 (referral program)"},{"@type":"Thing","name":"创意素材 (creative)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"SaaS增长该抄电商作业：付费广告立刻开打","item":"https://talk.solomind.cc/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS增长该抄电商作业：付费广告立刻开打</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # SaaS增长该抄电商作业：付费广告立刻开打
 
-<div class="pd-byl"><b>Matt Swulinski</b> · 2026-08-15</div>
+<div class="pd-byl"><b>Matt Swulinski</b> · 2026-08-21</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Superhuman]] · [[Whisper]] · [[Victor]] · [[Meta]] · [[Google]]
 >
 > **概念** [[PLG]] · [[智能体]] · [[ugc]] · [[AEO]] · [[转化跟踪]] · [[推荐计划]] · [[创意素材]]
-
-<div class="pd-tldr"><b>一句话</b>前Superhuman和Whisper增长负责人Matt拆解：SaaS公司应该立刻用电商打法做付费获客。</div>
 
 SaaS公司做增长最大的误区，就是听了「付费广告是毒药，要等」这种话。Matt 在 [[Superhuman|Superhuman]]、[[Whisper|Whisper]] 和现在的 [[Victor|Victor]] 三家公司的做法完全相反：**从一开始就上付费，而且越早越好。** 因为付费是你验证产品能不能规模化最快的方式——你可以在一周内测完信息传递、[[创意素材|创意素材]]、漏斗和定位，靠内容写作和播客来做同样的事要花几个月 <button class="pd-ts" data-t="08:01" data-who="Unknown" data-en="Right away. So at the end of the day, paid is the easiest way to validate that you have PLG, that you have a product that can scale in any way, shape, or form. There's a ton of narrative that focus on brand, go organic content, build all that base." aria-label="回原文"></button>。
 

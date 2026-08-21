@@ -1,7 +1,7 @@
 ---
 title: Dan Shipper：15人零手写代码，AI原生公司怎么运转
 podcast: "Lenny's Podcast"
-date: 2025-07-17
+date: 2026-08-19
 source_url: https://www.lennysnewsletter.com/p/inside-every-dan-shipper
 duration: "94:53"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-07-17-lennys-inside-every-dan-shipper.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper#post","headline":"Dan Shipper：15人零手写代码，AI原生公司怎么运转","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper","description":"Every 用15人跑4个产品加咨询，产品团队零手写代码，全靠智能体。","datePublished":"2025-07-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-17-lennys-inside-every-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/inside-every-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Every"},{"@type":"Organization","name":"Cora"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"复合工程 (compounding engineering)"},{"@type":"Thing","name":"配置型经济 (allocation economy)"},{"@type":"Thing","name":"通才 (generalist)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Dan Shipper：15人零手写代码，AI原生公司怎么运转","item":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper#post","headline":"Dan Shipper：15人零手写代码，AI原生公司怎么运转","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper","description":"Every 用15人跑4个产品加咨询，产品团队零手写代码，全靠智能体。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-17-lennys-inside-every-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/inside-every-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Every"},{"@type":"Organization","name":"Cora"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"复合工程 (compounding engineering)"},{"@type":"Thing","name":"配置型经济 (allocation economy)"},{"@type":"Thing","name":"通才 (generalist)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Dan Shipper：15人零手写代码，AI原生公司怎么运转","item":"https://talk.solomind.cc/2025-07-17-lennys-inside-every-dan-shipper"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dan Shipper：15人零手写代码，AI原生公司怎么运转</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Dan Shipper：15人零手写代码，AI原生公司怎么运转
 
-<div class="pd-byl"><b>Dan Shipper</b> · 2025-07-17</div>
+<div class="pd-byl"><b>Dan Shipper</b> · 2026-08-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-17-lennys-inside-every-dan-shipper.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[提示词]] · [[复合工程]] · [[配置型经济]] · [[通才]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/inside-every-dan-shipper)
-
-<div class="pd-tldr"><b>一句话</b>Every 用15人跑4个产品加咨询，产品团队零手写代码，全靠智能体。</div>
 
 一个15人的公司，跑着每日通讯、四款产品、一个咨询业务——产品团队里没有人手写一行代码。这不是预言，是 [[Dan Shipper|Dan Shipper]] 的 [[Every|Every]] 现在的真实状态 <button class="pd-ts" data-t="01:03" data-who="Dan Shipper" data-en="Dan is the co-founder and CEO of Every, which is a company that is at the very bleeding edge of what is possible with AI. Their team of just 15 employees has built and shipped four different products." aria-label="回原文"></button>。
 

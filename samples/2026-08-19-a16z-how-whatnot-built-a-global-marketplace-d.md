@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[直播购物]] · [[市场]] · [[信任与安全]] · [[规则引擎]] · [[大型语言模型]] · [[发现]]
 
-<div class="pd-tldr"><b>一句话</b>直播电商在中国占三成以上，美国还是个位数，但这个差距一定会缩小。</div>
-
 中国 30% 到 40% 的电商已经是直播电商，而美国还是个位数 <button class="pd-ts" data-t="15:15" data-who="Unknown" data-en="Is that right? Yeah, I've heard anywhere around 30 to 40% of all commerce is live commerce in China. Yeah, and then what is it in the U.S. today?" aria-label="回原文"></button>。这个差距不是常态，而是起步时差的体现——因为直播本质上是在扩大需求，不只是把线下销售搬到线上更高效地做一遍 <button class="pd-ts" data-t="19:13" data-who="Unknown" data-en="Yes. And so if you look at e-commerce today, you have to know exactly what you're looking for. So all it's really done is take a bunch of offline sales and bring them online in a more efficient way." aria-label="回原文"></button>。
 
 [[Whatnot|Whatnot]] 的创始人 Grant 小学时在 eBay 上卖了第一张全息宝可梦卡，赚了 10 美元。买家邮寄汇票，他拿着汇票去邮局兑现后再寄卡——那时候互联网太初级，连在线支付都没有 <button class="pd-ts" data-t="02:03" data-who="Unknown" data-en="Okay, I want to start all the way back when you were a kid. So I understand that your first online sale was a holographic Pokemon card and that the buyer mailed you a money order and you cashed it at the post office and then you shipped the card." aria-label="回原文"></button>。这段经历后来和他做视频、做[[市场|市场]]的职业路径汇合，成了 Whatnot 的起点。

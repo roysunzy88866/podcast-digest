@@ -1,7 +1,7 @@
 ---
 title: Heitor：用智能体重塑软件工程工作流的实操蓝图
 podcast: Beyond Coding
-date: 2026-07-22
+date: 2026-08-17
 source_url: undefined
 duration: "120:18"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development#post","headline":"Heitor：用智能体重塑软件工程工作流的实操蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","description":"AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。","datePublished":"2026-07-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg","about":[{"@type":"Person","name":"Heitor Lessa"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"规范驱动开发 (spec-driven development)"},{"@type":"Thing","name":"苏格拉底方法 (Socratic method)"},{"@type":"Thing","name":"对抗性审查 (adversarial reviewer)"},{"@type":"Thing","name":"合并检查 (merge check)"},{"@type":"Thing","name":"命令 (command)"},{"@type":"Thing","name":"确定性 (determinism)"},{"@type":"Thing","name":"伪造证据 (fabricate evidence)"},{"@type":"Thing","name":"三层模型分层 (three different tiers of models)"},{"@type":"Thing","name":"OpenSpec"},{"@type":"Thing","name":"循环工程 (loop engineering)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Heitor：用智能体重塑软件工程工作流的实操蓝图","item":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development#post","headline":"Heitor：用智能体重塑软件工程工作流的实操蓝图","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development","description":"AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。","datePublished":"2026-08-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.jpg","about":[{"@type":"Person","name":"Heitor Lessa"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"规范驱动开发 (spec-driven development)"},{"@type":"Thing","name":"苏格拉底方法 (Socratic method)"},{"@type":"Thing","name":"对抗性审查 (adversarial reviewer)"},{"@type":"Thing","name":"合并检查 (merge check)"},{"@type":"Thing","name":"命令 (command)"},{"@type":"Thing","name":"确定性 (determinism)"},{"@type":"Thing","name":"伪造证据 (fabricate evidence)"},{"@type":"Thing","name":"三层模型分层 (three different tiers of models)"},{"@type":"Thing","name":"OpenSpec"},{"@type":"Thing","name":"循环工程 (loop engineering)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Heitor：用智能体重塑软件工程工作流的实操蓝图","item":"https://talk.solomind.cc/2026-07-22-beyondcoding-aws-veteran-the-new-software-development"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Heitor：用智能体重塑软件工程工作流的实操蓝图</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Heitor：用智能体重塑软件工程工作流的实操蓝图
 
-<div class="pd-byl"><b>Heitor Lessa</b> · 2026-07-22</div>
+<div class="pd-byl"><b>Heitor Lessa</b> · 2026-08-17</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-22-beyondcoding-aws-veteran-the-new-software-development.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -33,8 +33,6 @@ jsonLd: |
 > **人物** [[Heitor Lessa]]
 >
 > **概念** [[智能体]] · [[规范驱动开发]] · [[苏格拉底方法]] · [[对抗性审查]] · [[合并检查]] · [[命令]] · [[确定性]] · [[伪造证据]] · [[三层模型分层]] · [[OpenSpec]] · [[循环工程]]
-
-<div class="pd-tldr"><b>一句话</b>AWS 老兵 Heitor 分享智能体时代的 SDLC 实操方法：分层用模型、苏格拉底式审查、用 Retro 持续改进循环。</div>
 
 一次重构花掉差不多 2 亿个 token，让人意识到必须停止全程用最贵的模型 <button class="pd-ts" data-t="01:00" data-who="Unknown" data-en="This is a job for Indeed Sponsored Jobs. This cost me almost 200 million tokens to refactor. And I'm like, oh, I need to stop using Opus." aria-label="回原文"></button>。说这话的是 Heitor，在 AWS 待了 11 年、做过 8 个不同角色、看过几百家公司内部运作的人。他现在在用[[智能体|智能体]]重新设计软件开发的每一个环节，并且发现：真正值钱的不是让智能体"自己写代码"，而是你在让它写之前，花了多少功夫把流程编进规则里。
 

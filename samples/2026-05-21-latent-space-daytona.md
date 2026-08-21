@@ -1,7 +1,7 @@
 ---
 title: "Daytona:为智能体造一台像笔记本一样的计算机"
 podcast: Latent Space
-date: 2026-05-21
+date: 2026-07-19
 source_url: https://www.latent.space/p/daytona
 duration: "70:18"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-05-21-latent-space-daytona.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-21-latent-space-daytona#post","headline":"Daytona:为智能体造一台像笔记本一样的计算机","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-21-latent-space-daytona","mainEntityOfPage":"https://talk.solomind.cc/2026-05-21-latent-space-daytona","description":"把智能体当「人」看:它要的不是虚拟机,而是能随时合盖、瞬间唤醒、按需动态扩容的「可组合计算机」。","datePublished":"2026-05-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-21-latent-space-daytona.jpg","isBasedOn":"https://www.latent.space/p/daytona","about":[{"@type":"Person","name":"Ivan Burazin"},{"@type":"Organization","name":"Daytona"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"突发负载 (spiky workloads)"},{"@type":"Thing","name":"裸金属 (bare metal)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"托管型 Kubernetes (managed Kubernetes)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Daytona:为智能体造一台像笔记本一样的计算机","item":"https://talk.solomind.cc/2026-05-21-latent-space-daytona"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-21-latent-space-daytona#post","headline":"Daytona:为智能体造一台像笔记本一样的计算机","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-21-latent-space-daytona","mainEntityOfPage":"https://talk.solomind.cc/2026-05-21-latent-space-daytona","description":"把智能体当「人」看:它要的不是虚拟机,而是能随时合盖、瞬间唤醒、按需动态扩容的「可组合计算机」。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-21-latent-space-daytona.jpg","isBasedOn":"https://www.latent.space/p/daytona","about":[{"@type":"Person","name":"Ivan Burazin"},{"@type":"Organization","name":"Daytona"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"突发负载 (spiky workloads)"},{"@type":"Thing","name":"裸金属 (bare metal)"},{"@type":"Thing","name":"计算机使用 (computer use)"},{"@type":"Thing","name":"托管型 Kubernetes (managed Kubernetes)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Daytona:为智能体造一台像笔记本一样的计算机","item":"https://talk.solomind.cc/2026-05-21-latent-space-daytona"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daytona:为智能体造一台像笔记本一样的计算机</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Daytona:为智能体造一台像笔记本一样的计算机
 
-<div class="pd-byl"><b>Ivan Burazin</b> · Daytona CEO · 2026-05-21</div>
+<div class="pd-byl"><b>Ivan Burazin</b> · Daytona CEO · 2026-07-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
 >
 > **来源** [Latent Space](https://www.latent.space/p/daytona)
-
-<div class="pd-tldr"><b>一句话</b>把智能体当「人」看:它要的不是虚拟机,而是能随时合盖、瞬间唤醒、按需动态扩容的「可组合计算机」。</div>
 
 一台能像合上笔记本盖子那样随时暂停、之后再原样打开,毫秒级启动,甚至还能瞬间弹出 5 万台的计算机——这不是未来的概念,这是 [[Daytona|Daytona]] 现在给[[智能体|智能体]]提供的基础设施,而且他们在去年一月才刚做转向,现在已经拿下了单日近百万次启动的巨量客户。说这话的人是 Ivan,Daytona 的 CEO,他跟联合创始人十几年来一直在折腾开发环境这件事。
 

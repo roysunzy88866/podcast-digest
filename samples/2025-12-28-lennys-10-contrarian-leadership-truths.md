@@ -1,7 +1,7 @@
 ---
 title: "故意让人手不足:Rippling 首席产品官的非常规管理心法"
 podcast: "Lenny's Podcast"
-date: 2025-12-28
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths
 duration: "96:13"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths#post","headline":"故意让人手不足:Rippling 首席产品官的非常规管理心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","mainEntityOfPage":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","description":"前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。","datePublished":"2025-12-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths","about":[{"@type":"Person","name":"Matt MacInnis"},{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amar"},{"@type":"Organization","name":"Rippling"},{"@type":"Thing","name":"刻意人手不足 (understaffed)"},{"@type":"Thing","name":"Alpha 与 Beta (alpha beta)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"幂律分布 (power law)"},{"@type":"Thing","name":"单点解决方案 (point solutions)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"故意让人手不足:Rippling 首席产品官的非常规管理心法","item":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths#post","headline":"故意让人手不足:Rippling 首席产品官的非常规管理心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","mainEntityOfPage":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths","description":"前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths","about":[{"@type":"Person","name":"Matt MacInnis"},{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Amar"},{"@type":"Organization","name":"Rippling"},{"@type":"Thing","name":"刻意人手不足 (understaffed)"},{"@type":"Thing","name":"Alpha 与 Beta (alpha beta)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"幂律分布 (power law)"},{"@type":"Thing","name":"单点解决方案 (point solutions)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"故意让人手不足:Rippling 首席产品官的非常规管理心法","item":"https://talk.solomind.cc/2025-12-28-lennys-10-contrarian-leadership-truths"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>故意让人手不足:Rippling 首席产品官的非常规管理心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 故意让人手不足:Rippling 首席产品官的非常规管理心法
 
-<div class="pd-byl"><b>Matt MacInnis</b> · Rippling CPO · 2025-12-28</div>
+<div class="pd-byl"><b>Matt MacInnis</b> · Rippling CPO · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
-
-<div class="pd-tldr"><b>一句话</b>前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。</div>
 
 硅谷天天喊「永不放弃」,但这套叙事其实是风险投资人为了保护自己投进去的钱编出来的。说这话的人是 [[Matt MacInnis|Matt MacInnis]],他曾经在一家创业公司死磕了九年、转型三次都没找到产品市场契合,后来加入 [[Rippling|Rippling]],一路做到首席运营官(COO),最近一年又转任首席产品官(CPO)——在估值超过 160 亿美元、拥有五千多名员工的公司里,他管的就是怎么把产品做对、把人管好。<button class="pd-ts" data-t="01:33" data-who="Lenny" data-en="We talk in Silicon Valley about never quit, but that is complete absolute venture capital. Today, my guest is Matt MacInnis, Chief Product Officer and formerly longtime Chief Operating Officer at Rippling." aria-label="回原文"></button>
 

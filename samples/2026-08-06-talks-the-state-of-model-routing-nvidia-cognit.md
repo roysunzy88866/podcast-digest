@@ -1,7 +1,7 @@
 ---
 title: "不靠一个模型打天下:多模型路由的早期探索与实战权衡"
 podcast: 精选演讲
-date: 2026-08-06
+date: 2026-08-09
 source_url: undefined
 duration: "48:02"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit#post","headline":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","description":"几位实战派拆解模型路由:大模型当总指挥、小模型打配合,是降本增效的核心打法。","datePublished":"2026-08-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Tane"},{"@type":"Person","name":"Carter"},{"@type":"Person","name":"Walden"},{"@type":"Organization","name":"Cognition"},{"@type":"Organization","name":"OpenRouter"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"模型路由 (model routing)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文压缩 (context compaction)"},{"@type":"Thing","name":"RL"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"KV 缓存 (KV cache)"},{"@type":"Thing","name":"Fusion"},{"@type":"Thing","name":"FlexTron"},{"@type":"Thing","name":"Devon"},{"@type":"Thing","name":"Nemotron"},{"@type":"Thing","name":"sidekick"},{"@type":"Thing","name":"幻觉探测头 (hallucination probes)"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"前沿模型 (frontier models)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","item":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit#post","headline":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit","description":"几位实战派拆解模型路由:大模型当总指挥、小模型打配合,是降本增效的核心打法。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Tane"},{"@type":"Person","name":"Carter"},{"@type":"Person","name":"Walden"},{"@type":"Organization","name":"Cognition"},{"@type":"Organization","name":"OpenRouter"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"模型路由 (model routing)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文压缩 (context compaction)"},{"@type":"Thing","name":"RL"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"KV 缓存 (KV cache)"},{"@type":"Thing","name":"Fusion"},{"@type":"Thing","name":"FlexTron"},{"@type":"Thing","name":"Devon"},{"@type":"Thing","name":"Nemotron"},{"@type":"Thing","name":"sidekick"},{"@type":"Thing","name":"幻觉探测头 (hallucination probes)"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"前沿模型 (frontier models)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不靠一个模型打天下:多模型路由的早期探索与实战权衡","item":"https://talk.solomind.cc/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不靠一个模型打天下:多模型路由的早期探索与实战权衡</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 不靠一个模型打天下:多模型路由的早期探索与实战权衡
 
-<div class="pd-byl"><b>Walden</b> · Cognition 联合创始人 · 2026-08-06</div>
+<div class="pd-byl"><b>Walden</b> · Cognition 联合创始人 · 2026-08-09</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-06-talks-the-state-of-model-routing-nvidia-cognit.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Cognition]] · [[OpenRouter]] · [[NVIDIA]]
 >
 > **概念** [[模型路由]] · [[智能体]] · [[上下文压缩]] · [[RL]] · [[蒸馏]] · [[KV 缓存]] · [[Fusion]] · [[FlexTron]] · [[Devon]] · [[Nemotron]] · [[sidekick]] · [[幻觉探测头]] · [[OpenClaw]] · [[开源模型]] · [[前沿模型]]
-
-<div class="pd-tldr"><b>一句话</b>几位实战派拆解模型路由:大模型当总指挥、小模型打配合,是降本增效的核心打法。</div>
 
 最顶尖的前沿大模型,其实比小模型更擅长把活儿派出去——你用一群便宜的小模型协同干活,算下来反而比单用大模型效果更好、成本更低。这正是目前 AI 应用落地里最炙手可热的技术方向:[[模型路由|模型路由]](一种根据任务和预算,把请求分发给不同大小、不同特长模型的调度机制)。
 

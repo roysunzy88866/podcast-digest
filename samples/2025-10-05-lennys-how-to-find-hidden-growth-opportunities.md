@@ -1,7 +1,7 @@
 ---
 title: 增长不是指标黑客，是连接用户与价值
 podcast: "Lenny's Podcast"
-date: 2025-10-05
+date: 2026-08-15
 source_url: https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng
 duration: "85:21"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2025-10-05-lennys-how-to-find-hidden-growth-opportunities.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities#post","headline":"增长不是指标黑客，是连接用户与价值","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities","mainEntityOfPage":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities","description":"三个顶配消费产品的增长操盘手，讲透探索与利用框架和真正的变现策略。","datePublished":"2025-10-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-05-lennys-how-to-find-hidden-growth-opportunities.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng","about":[{"@type":"Person","name":"Albert Cheng"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Duolingo"},{"@type":"Organization","name":"Grammarly"},{"@type":"Organization","name":"Chess.com"},{"@type":"Thing","name":"探索与利用 (explore and exploit)"},{"@type":"Thing","name":"用户留存 (user retention)"},{"@type":"Thing","name":"免费增值 (freemium)"},{"@type":"Thing","name":"实验 (experiment)"},{"@type":"Thing","name":"复活用户 (resurrected)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"text to SQL"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"增长不是指标黑客，是连接用户与价值","item":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities#post","headline":"增长不是指标黑客，是连接用户与价值","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities","mainEntityOfPage":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities","description":"三个顶配消费产品的增长操盘手，讲透探索与利用框架和真正的变现策略。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-05-lennys-how-to-find-hidden-growth-opportunities.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng","about":[{"@type":"Person","name":"Albert Cheng"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Duolingo"},{"@type":"Organization","name":"Grammarly"},{"@type":"Organization","name":"Chess.com"},{"@type":"Thing","name":"探索与利用 (explore and exploit)"},{"@type":"Thing","name":"用户留存 (user retention)"},{"@type":"Thing","name":"免费增值 (freemium)"},{"@type":"Thing","name":"实验 (experiment)"},{"@type":"Thing","name":"复活用户 (resurrected)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"text to SQL"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"增长不是指标黑客，是连接用户与价值","item":"https://talk.solomind.cc/2025-10-05-lennys-how-to-find-hidden-growth-opportunities"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长不是指标黑客，是连接用户与价值</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 增长不是指标黑客，是连接用户与价值
 
-<div class="pd-byl"><b>Albert Cheng</b> · 2025-10-05</div>
+<div class="pd-byl"><b>Albert Cheng</b> · 2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-05-lennys-how-to-find-hidden-growth-opportunities.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[探索与利用]] · [[用户留存]] · [[免费增值]] · [[实验]] · [[复活用户]] · [[主观能动性]] · [[text to SQL]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng)
-
-<div class="pd-tldr"><b>一句话</b>三个顶配消费产品的增长操盘手，讲透探索与利用框架和真正的变现策略。</div>
 
 大多数人以为增长就是设付费墙、加摩擦、硬推指标往上走。[[Albert Cheng|Albert Cheng]] 在 [[Duolingo|Duolingo]]、[[Grammarly|Grammarly]]、[[Chess.com|Chess.com]] 带了这么多年增长，他的定义完全不同：增长就是把用户连接到你产品的价值 <button class="pd-ts" data-t="51:30" data-who="Albert Cheng" data-en="How is AI changing just the work of a growth person? I like to describe growth as the job is to connect users to the value of your product. And in order to do that, what I like to do is think about that user journey again, and essentially, staff teams that are oriented around each element of that user journey." aria-label="回原文"></button>。听起来像废话，但这个框架会直接改变你做什么[[实验|实验]]、怎么排优先级——因为用户在不同阶段需要感受到的价值完全不一样，一个还没用过你产品的人和一个用了三年的老用户，他们要的东西根本不是一回事 <button class="pd-ts" data-t="54:55" data-who="Albert Cheng" data-en="And when you take that framing of connecting users to the value of your product, that value can change for a user over time, and that also lines up really nicely to the journey." aria-label="回原文"></button>。
 

@@ -36,8 +36,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[护栏]] · [[签名]] · [[行为检测]] · [[推理]] · [[开放权重]]
 
-<div class="pd-tldr"><b>一句话</b>网络安全建来防人和恶意软件，但AI智能体两样都不是，传统防线正在失效。</div>
-
 网络安全过去几十年只防两样东西：人和恶意软件。AI [[智能体|智能体]](能自主执行多步任务的程序)两样都不是，这意味着整个防御体系的地基被动摇了。<button class="pd-ts" data-t="06:16" data-who="Nick Warner" data-en="How are you guys thinking about defending and playing in this kind of world where the automated attacks need an automated response? Yeah, I think part of the challenge with the existing security tools that are out there is they really were built to tackle two things." aria-label="回原文"></button>
 
 最讽刺的现实是：模型供应商设的[[护栏|护栏]]，反而让防御者更难干活。蓝队(企业安全防御团队)在处理漏洞报告时，问的问题跟攻击者几乎一模一样——"这段代码哪里有漏洞？

@@ -1,7 +1,7 @@
 ---
 title: Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事
 podcast: "Lenny's Podcast"
-date: 2025-10-23
+date: 2026-08-13
 source_url: https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen
 duration: "82:31"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-10-23-lennys-al-engineering-101-with-chip-huyen.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen#post","headline":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","mainEntityOfPage":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","description":"拆解构建 AI 应用最常见的认知陷阱，把精力放回数据准备、评估和系统思维。","datePublished":"2025-10-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-23-lennys-al-engineering-101-with-chip-huyen.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen","about":[{"@type":"Person","name":"Chip Huyen"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"强化学习 (reinforcement learning)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"数据准备 (data preparation)"},{"@type":"Thing","name":"测试时计算 (test time compute)"},{"@type":"Thing","name":"系统思维 (system thinking)"},{"@type":"Thing","name":"采样策略 (sampling strategy)"},{"@type":"Thing","name":"监督微调 (supervised fine-tuning)"},{"@type":"Thing","name":"多模态 (multimodality)"},{"@type":"Thing","name":"vibe coding"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","item":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen#post","headline":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","mainEntityOfPage":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen","description":"拆解构建 AI 应用最常见的认知陷阱，把精力放回数据准备、评估和系统思维。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-23-lennys-al-engineering-101-with-chip-huyen.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen","about":[{"@type":"Person","name":"Chip Huyen"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cursor"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"强化学习 (reinforcement learning)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"数据准备 (data preparation)"},{"@type":"Thing","name":"测试时计算 (test time compute)"},{"@type":"Thing","name":"系统思维 (system thinking)"},{"@type":"Thing","name":"采样策略 (sampling strategy)"},{"@type":"Thing","name":"监督微调 (supervised fine-tuning)"},{"@type":"Thing","name":"多模态 (multimodality)"},{"@type":"Thing","name":"vibe coding"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事","item":"https://talk.solomind.cc/2025-10-23-lennys-al-engineering-101-with-chip-huyen"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事
 
-<div class="pd-byl"><b>Chip Huyen</b> · 2025-10-23</div>
+<div class="pd-byl"><b>Chip Huyen</b> · 2026-08-13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-23-lennys-al-engineering-101-with-chip-huyen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[后训练]] · [[强化学习]] · [[评估]] · [[RAG]] · [[数据准备]] · [[测试时计算]] · [[系统思维]] · [[采样策略]] · [[监督微调]] · [[多模态]] · [[vibe coding]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen)
-
-<div class="pd-tldr"><b>一句话</b>拆解构建 AI 应用最常见的认知陷阱，把精力放回数据准备、评估和系统思维。</div>
 
 很多团队不断追问「如何跟上最新 AI 新闻」「该选哪个技术栈」——但 [[Chip Huyen|Chip Huyen]] 拿出的对比清单很扎心：人们以为能提升 AI 应用的，是追最新动态、换框架、纠结数据库；而**真正**提升应用的，是和用户交谈、准备更好的数据、优化端到端工作流、写更好的提示词 <button class="pd-ts" data-t="05:11" data-who="Lenny" data-en="What people think will improve AI apps, staying up to date with the latest AI news, adopting the newest agentic framework, agonizing about what vector databases to use, constantly evaluating what model is smarter, fine-tuning a model." aria-label="回原文"></button>。如果你纠结的两个技术方案对最终性能影响很小，就不值得花大量时间去辩论 <button class="pd-ts" data-t="06:10" data-who="Chip Huyen" data-en="Right? I was like, &quot;Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?&quot;" aria-label="回原文"></button>。
 

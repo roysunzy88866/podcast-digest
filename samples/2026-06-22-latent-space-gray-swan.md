@@ -1,7 +1,7 @@
 ---
 title: "当 AI 变成黑客武器:给企业智能体修防火墙"
 podcast: Latent Space
-date: 2026-06-22
+date: 2026-07-19
 source_url: https://www.latent.space/p/gray-swan
 duration: "66:13"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-06-22-latent-space-gray-swan.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan#post","headline":"当 AI 变成黑客武器:给企业智能体修防火墙","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","mainEntityOfPage":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","description":"Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。","datePublished":"2026-06-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-22-latent-space-gray-swan.jpg","isBasedOn":"https://www.latent.space/p/gray-swan","about":[{"@type":"Person","name":"Zico Kolter"},{"@type":"Person","name":"Matt Fredrikson"},{"@type":"Organization","name":"Gray Swan"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"越狱 (jailbreak)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"可解释性 (interpretability)"},{"@type":"Thing","name":"致命三角 (lethal trifecta)"},{"@type":"Thing","name":"arena"},{"@type":"Thing","name":"Shade"},{"@type":"Thing","name":"Signal"},{"@type":"Thing","name":"OpenClaw"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"当 AI 变成黑客武器:给企业智能体修防火墙","item":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan#post","headline":"当 AI 变成黑客武器:给企业智能体修防火墙","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","mainEntityOfPage":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan","description":"Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-22-latent-space-gray-swan.jpg","isBasedOn":"https://www.latent.space/p/gray-swan","about":[{"@type":"Person","name":"Zico Kolter"},{"@type":"Person","name":"Matt Fredrikson"},{"@type":"Organization","name":"Gray Swan"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"红队测试 (red teaming)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"越狱 (jailbreak)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"可解释性 (interpretability)"},{"@type":"Thing","name":"致命三角 (lethal trifecta)"},{"@type":"Thing","name":"arena"},{"@type":"Thing","name":"Shade"},{"@type":"Thing","name":"Signal"},{"@type":"Thing","name":"OpenClaw"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"当 AI 变成黑客武器:给企业智能体修防火墙","item":"https://talk.solomind.cc/2026-06-22-latent-space-gray-swan"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 变成黑客武器:给企业智能体修防火墙</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 当 AI 变成黑客武器:给企业智能体修防火墙
 
-<div class="pd-byl"><b>Zico Kolter</b> · Gray Swan 创始人 · 2026-06-22</div>
+<div class="pd-byl"><b>Zico Kolter</b> · Gray Swan 创始人 · 2026-07-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]] · [[沙箱]] · [[可解释性]] · [[致命三角]] · [[arena]] · [[Shade]] · [[Signal]] · [[OpenClaw]]
 >
 > **来源** [Latent Space](https://www.latent.space/p/gray-swan)
-
-<div class="pd-tldr"><b>一句话</b>Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。</div>
 
 把一个能自主操作你电脑、读写你数据库的[[智能体|智能体]]放到生产环境里,它随时可能被一条它刚好读到的网页「劫持」,把你的私密凭证发到攻击者的手里——这不是假设,而是已经有企业因此遭受了真实损害。说这话的是 Matt 和 Zico,他们是 AI 安全公司 [[Gray Swan|Gray Swan]] 的创始人。<button class="pd-ts" data-t="00:42" data-who="Matt Fredrikson" data-en="your sort of startup domain? Yeah. So, you know, at GraySwan, our mission is to empower everyone to use AI safely and securely." aria-label="回原文"></button>
 

@@ -36,8 +36,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[沙箱]] · [[泄露的凭证]] · [[权限]] · [[软件供应链]] · [[漏洞]]
 
-<div class="pd-tldr"><b>一句话</b>Datadog CISO 分享 AI 时代的内部安全实践:放手用工具,管好权限和意图。</div>
-
 彭博社正在大肆渲染 AI 已经失控、世界末日,但在 [[Datadog|Datadog]](一家云监控公司)负责安全的高管 [[Emilio Escobar|Emilio Escobar]] 看来,如果不被 AI 模型攻击,也会被带有真实恶意的人类攻击——他根本不恐慌,只担心另一个更棘手的现实问题 <button class="pd-ts" data-t="00:55" data-who="Emilio Escobar" data-en="My thesis 10 years ago was that security engineers will become real engineers, so maybe now is the time. AI is changing the security landscape on both sides. Attackers have more capable tools, but security teams are also figuring out how to use those same capabilities to their advantage." aria-label="回原文"></button>。
 
 在这一集 A16Z 的对谈里,Emilio 和主持人 Joel 聊了 AI 普及后企业安全的具体打法。Datadog 内部有 98% 的员工都在用某种 AI 工具,他不赞成封锁工具,而是选择放开使用,把精力放在重构[[权限|权限]]控制上;面对编程[[智能体|智能体]]可能带来的恶意代码和[[泄露的凭证|凭证]]泄露风险,他的团队干脆自己动手,造了一个能读懂代码「意图」的 AI 评判程序,卡在所有智能体的动作前面当守卫。最后他还抛出了一个略显反直觉的观点:相比担心 AI 本身有多可怕,真正让他头疼的,是 AI 找[[漏洞|漏洞]]的效率太高,将导致待修漏洞的数量直接爆炸。

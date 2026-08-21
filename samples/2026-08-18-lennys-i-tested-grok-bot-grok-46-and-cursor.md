@@ -35,8 +35,6 @@ jsonLd: |
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor)
 
-<div class="pd-tldr"><b>一句话</b>主播实测 Cursor/XAI 三款新品：GrokBot 多智能体平台、Origin 代码托管、Grok 4.6 模型。</div>
-
 [[GrokBot|GrokBot]] 有一个杀手级功能：每个[[连接器|连接器]]——不管是 Gmail、Slack 还是 [[MCP|MCP]]——都能同时挂多个账号。如果你像主播一样有四个邮箱、七个 Slack 工作区，一个[[智能体|智能体]]就能遍历所有这些账号帮你干活。
 
 Claude 没做到，Codex 也没做到 <button class="pd-ts" data-t="05:04" data-who="SPEAKER_00" data-en="even if it's the same service. This experience of setting up multiple accounts per connector, huge, huge, huge benefit. You could like package it up and send it off." aria-label="回原文"></button>。除此之外，GrokBot 附带大量开箱即用的插件，核心体验就是一个花哨的 MCP 客户端，加上每个智能体自带的虚拟机——能跑 Chrome、能用终端、能上网 <button class="pd-ts" data-t="06:10" data-who="SPEAKER_00" data-en="So again, it's like a little bit of a fancy MCP client, but it does come with something special. Which is every GrokBot comes with a computer. And so you can actually go into this virtual machine and this is Prady McProd's computer." aria-label="回原文"></button>。设置极其简单：创建一个 bot，启动虚拟机，告诉它要做什么，它就自动找连接器、自我配置、开始干活 <button class="pd-ts" data-t="06:44" data-who="SPEAKER_00" data-en="Now, what do I think of the experience using GrokBot? Well, I will say setting up a GrokBot is super simple. You can simply create a bot." aria-label="回原文"></button>。

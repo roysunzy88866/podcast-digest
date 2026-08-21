@@ -1,7 +1,7 @@
 ---
 title: "Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料"
 podcast: 精选演讲
-date: 2026-06-24
+date: 2026-08-07
 source_url: undefined
 duration: "71:49"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo#post","headline":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","description":"Figma 把代码、自定义插件、着色器与动效全部搬进画布,让 AI 把所有创作门槛彻底拍平。","datePublished":"2026-06-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Nico"},{"@type":"Person","name":"Dylan Field"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompts)"},{"@type":"Thing","name":"代码 (code)"},{"@type":"Thing","name":"代码层 (CodeLayers)"},{"@type":"Thing","name":"Make"},{"@type":"Thing","name":"生成式插件 (generative plugins)"},{"@type":"Thing","name":"着色器 (shaders)"},{"@type":"Thing","name":"Figma Motion"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","item":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo#post","headline":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","mainEntityOfPage":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo","description":"Figma 把代码、自定义插件、着色器与动效全部搬进画布,让 AI 把所有创作门槛彻底拍平。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Nico"},{"@type":"Person","name":"Dylan Field"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompts)"},{"@type":"Thing","name":"代码 (code)"},{"@type":"Thing","name":"代码层 (CodeLayers)"},{"@type":"Thing","name":"Make"},{"@type":"Thing","name":"生成式插件 (generative plugins)"},{"@type":"Thing","name":"着色器 (shaders)"},{"@type":"Thing","name":"Figma Motion"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料","item":"https://talk.solomind.cc/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料
 
-<div class="pd-byl"><b>Dylan Field</b> · Figma CEO · 2026-06-24</div>
+<div class="pd-byl"><b>Dylan Field</b> · Figma CEO · 2026-08-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Figma]]
 >
 > **概念** [[智能体]] · [[提示词]] · [[代码]] · [[代码层]] · [[Make]] · [[生成式插件]] · [[着色器]] · [[Figma Motion]]
-
-<div class="pd-tldr"><b>一句话</b>Figma 把代码、自定义插件、着色器与动效全部搬进画布,让 AI 把所有创作门槛彻底拍平。</div>
 
 「设计与[[代码|代码]]」根本不是一道非此即彼的选择题——代码就是设计的材料,以前是工具逼你二选一。说出这话的人是 [[Figma|Figma]] 的 CEO [[Dylan Field|Dylan Field]],在 Config 2026 大会上,他宣布 Figma 要彻底打破设计与代码之间的假对立 <button class="pd-ts" data-t="09:29" data-who="Dylan Field" data-en="And I think across design community is when should you work in code. For years the design industry has endlessly discussed this topic of design versus code and I will just say it flat out right now this is a false debate." aria-label="回原文"></button>。
 

@@ -33,8 +33,6 @@ jsonLd: |
 >
 > **概念** [[LLM]] · [[世界模型]] · [[云计算]] · [[资本支出]]
 
-<div class="pd-tldr"><b>一句话</b>从 Apple 的内存危机、Microsoft 的会计戏法,到 Google 的路线分歧与高管动荡。</div>
-
 在科技历史上最高风险对抗的当口,最懂 AI 的人却因为一门心思搞科研而离开了 CEO 的位置——[[Google|Google]] 在 AI 编码智能体上被甩开,与 Demis 的离开脱不开干系。
 
 这是 Big Technology Podcast 的一期周末加更版。主持人 Alex 先用了几分钟,从《华尔街日报》和《金融时报》的报道切入,梳理了 Demis 辞任 [[Google DeepMind|Google DeepMind]] 首席执行官的前因后果;随后节目进入与 Spyglass 的 MG Siegler 的常规连线,两人把本周三家巨头最受关注的财报动态拆了个透:[[Apple|Apple]] 怎么被 AI 基建狂潮反噬、[[Microsoft|Microsoft]] 在资本支出上玩了一出怎样的障眼法,以及 Google 内部到底是不是因为路线分歧而掉了队。

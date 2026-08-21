@@ -1,7 +1,7 @@
 ---
 title: "桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟"
 podcast: 精选演讲
-date: 2026-07-24
+date: 2026-08-07
 source_url: undefined
 duration: "25:36"
 type: episode
@@ -15,14 +15,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that#post","headline":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","description":"桥水公布 PAT 系统:靠编译器思路与确定性智能体,把数天分析压到几分钟。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Brendan McManus"},{"@type":"Organization","name":"Bridgewater Associates"},{"@type":"Organization","name":"PAT"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"LangGraph"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"子智能体 (subagent)"},{"@type":"Thing","name":"确定性 (deterministic)"},{"@type":"Thing","name":"编译器理论 (compiler theory)"},{"@type":"Thing","name":"静态分析 (static analysis)"},{"@type":"Thing","name":"数据帧 (data frame)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"基准测试 (benchmark)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","item":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that#post","headline":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","mainEntityOfPage":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that","description":"桥水公布 PAT 系统:靠编译器思路与确定性智能体,把数天分析压到几分钟。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Brendan McManus"},{"@type":"Organization","name":"Bridgewater Associates"},{"@type":"Organization","name":"PAT"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"LangGraph"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"子智能体 (subagent)"},{"@type":"Thing","name":"确定性 (deterministic)"},{"@type":"Thing","name":"编译器理论 (compiler theory)"},{"@type":"Thing","name":"静态分析 (static analysis)"},{"@type":"Thing","name":"数据帧 (data frame)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"基准测试 (benchmark)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟","item":"https://talk.solomind.cc/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟
 
-<div class="pd-byl"><b>Brendan McManus</b> · 桥水应用AI团队负责人 · 2026-07-24</div>
+<div class="pd-byl"><b>Brendan McManus</b> · 桥水应用AI团队负责人 · 2026-08-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -34,8 +34,6 @@ jsonLd: |
 > **公司** [[Bridgewater Associates]] · [[PAT]] · [[Claude Code]] · [[LangGraph]]
 >
 > **概念** [[智能体]] · [[子智能体]] · [[确定性]] · [[编译器理论]] · [[静态分析]] · [[数据帧]] · [[RAG]] · [[基准测试]]
-
-<div class="pd-tldr"><b>一句话</b>桥水公布 PAT 系统:靠编译器思路与确定性智能体,把数天分析压到几分钟。</div>
 
 一家管理着千亿资金的50年老牌对冲基金,不靠终端命令行,而是把[[智能体|智能体]]编码当成「编译器」来做——把一份详细到极点的自然语言研究计划,像编译器处理代码那样,[[确定性|确定性]]地「编译」成 Python 脚本,还要保证两次跑出来的结果分毫不差。这就是桥水向数百位分析师推出的内部 AI 助手 [[PAT|PAT]]。
 

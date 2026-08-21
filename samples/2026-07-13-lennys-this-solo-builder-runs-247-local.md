@@ -1,7 +1,7 @@
 ---
 title: GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 podcast: "Lenny's Podcast"
-date: 2026-07-13
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local
 duration: "36:38"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local#post","headline":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","mainEntityOfPage":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","description":"博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。","datePublished":"2026-07-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local","about":[{"@type":"Person","name":"Alex Finn"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"open ai"},{"@type":"Thing","name":"系统提示词 (soul)"},{"@type":"Thing","name":"gpt 5.6"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"原型 (prototype)"},{"@type":"Thing","name":"浏览器使用 (browser use)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","item":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local#post","headline":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","mainEntityOfPage":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local","description":"博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local","about":[{"@type":"Person","name":"Alex Finn"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"open ai"},{"@type":"Thing","name":"系统提示词 (soul)"},{"@type":"Thing","name":"gpt 5.6"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"原型 (prototype)"},{"@type":"Thing","name":"浏览器使用 (browser use)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力","item":"https://talk.solomind.cc/2026-07-13-lennys-this-solo-builder-runs-247-local"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 
-<div class="pd-byl">2026-07-13</div>
+<div class="pd-byl">2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-13-lennys-this-solo-builder-runs-247-local.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[系统提示词]] · [[gpt 5.6]] · [[Fable]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local)
-
-<div class="pd-tldr"><b>一句话</b>博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。</div>
 
 如果有个模型，干起活来既聪明又像个通人情的老手，能替你把枯燥的事全包了，你大概也会因为停用它而感到抓狂。说这话的是 [[Alex Finn|Alex Finn]]，在她自建的评测体系里，OpenAI 新发布的 GPT 5.6 Soul 击败了包括 Fable 在内的一众顶尖模型。<button class="pd-ts" data-t="00:13" data-who="Alex Finn" data-en="the last week i have not had access to my true favorite top of the line model gpt56 but guess what babes it is back and i am here to walk you through gpt56 soul gpt56 luna gpt56 tara i'm gonna tell you what are these models" aria-label="回原文"></button>
 

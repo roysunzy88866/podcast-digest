@@ -1,7 +1,7 @@
 ---
 title: "10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来"
 podcast: "Lenny's Podcast"
-date: 2025-12-07
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/surge-ai-edwin-chen
 duration: "70:27"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-12-07-lennys-surge-ai-edwin-chen.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen#post","headline":"10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen","mainEntityOfPage":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen","description":"自力更生的数据公司创始人 Edwin Chen 谈高质量数据、AI 目标函数错位与硅谷创业逆共识。","datePublished":"2025-12-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-07-lennys-surge-ai-edwin-chen.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/surge-ai-edwin-chen","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Edwin Chen"},{"@type":"Organization","name":"Surge AI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"LLM Arena"},{"@type":"Thing","name":"基准测试 (benchmark)"},{"@type":"Thing","name":"后训练 (post training)"},{"@type":"Thing","name":"强化学习环境 (RL environment)"},{"@type":"Thing","name":"目标函数 (objective function)"},{"@type":"Thing","name":"数据质量 (quality)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来","item":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen#post","headline":"10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen","mainEntityOfPage":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen","description":"自力更生的数据公司创始人 Edwin Chen 谈高质量数据、AI 目标函数错位与硅谷创业逆共识。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-12-07-lennys-surge-ai-edwin-chen.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/surge-ai-edwin-chen","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Edwin Chen"},{"@type":"Organization","name":"Surge AI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"LLM Arena"},{"@type":"Thing","name":"基准测试 (benchmark)"},{"@type":"Thing","name":"后训练 (post training)"},{"@type":"Thing","name":"强化学习环境 (RL environment)"},{"@type":"Thing","name":"目标函数 (objective function)"},{"@type":"Thing","name":"数据质量 (quality)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来","item":"https://talk.solomind.cc/2025-12-07-lennys-surge-ai-edwin-chen"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来
 
-<div class="pd-byl"><b>Edwin Chen</b> · Surge AI 创始人 · 2025-12-07</div>
+<div class="pd-byl"><b>Edwin Chen</b> · Surge AI 创始人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[基准测试]] · [[后训练]] · [[强化学习环境]] · [[目标函数]] · [[数据质量]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
-
-<div class="pd-tldr"><b>一句话</b>自力更生的数据公司创始人 Edwin Chen 谈高质量数据、AI 目标函数错位与硅谷创业逆共识。</div>
 
 一家不到 100 人的公司,四年做到十亿美元收入,没拿过一分钱风投,而且他们干的还是整个 AI 行业最核心的脏活累活——给最顶尖的模型喂数据。说这话的人是 [[Edwin Chen|Edwin Chen]],他创办的 [[Surge AI|Surge AI]] 服务于每一家前沿 AI 实验室,但他自己压根不想玩硅谷那套融资炒作的游戏 <button class="pd-ts" data-t="05:40" data-who="Edwin Chen" data-en="And also just where has AI most helped you find leverage to be able to do this? Yeah, so we hit over a billion of revenue last year with under 100 people. And I think we're going to see companies with even crazier ratios, like 100 billion per employee in the next few years." aria-label="回原文"></button>。
 

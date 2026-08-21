@@ -1,7 +1,7 @@
 ---
 title: "把同事当幼儿带:育儿专家的职场领导力课"
 podcast: "Lenny's Podcast"
-date: 2026-02-01
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap
 duration: "91:52"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap#post","headline":"把同事当幼儿带:育儿专家的职场领导力课","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap","mainEntityOfPage":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap","description":"临床心理学家 Dr. Becky 将育儿原则搬到职场,讲透修复、界限与坚定领导力。","datePublished":"2026-02-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dr. Becky Kennedy"},{"@type":"Organization","name":"Good Inside"},{"@type":"Thing","name":"修复 (repair)"},{"@type":"Thing","name":"连接 (connection)"},{"@type":"Thing","name":"界限 (boundaries)"},{"@type":"Thing","name":"韧性 (resilience)"},{"@type":"Thing","name":"最宽容解读 (most generous interpretation)"},{"@type":"Thing","name":"稳健的领导者 (sturdy leader)"},{"@type":"Thing","name":"安全依恋 (secure attachment)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"把同事当幼儿带:育儿专家的职场领导力课","item":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap#post","headline":"把同事当幼儿带:育儿专家的职场领导力课","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap","mainEntityOfPage":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap","description":"临床心理学家 Dr. Becky 将育儿原则搬到职场,讲透修复、界限与坚定领导力。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dr. Becky Kennedy"},{"@type":"Organization","name":"Good Inside"},{"@type":"Thing","name":"修复 (repair)"},{"@type":"Thing","name":"连接 (connection)"},{"@type":"Thing","name":"界限 (boundaries)"},{"@type":"Thing","name":"韧性 (resilience)"},{"@type":"Thing","name":"最宽容解读 (most generous interpretation)"},{"@type":"Thing","name":"稳健的领导者 (sturdy leader)"},{"@type":"Thing","name":"安全依恋 (secure attachment)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"把同事当幼儿带:育儿专家的职场领导力课","item":"https://talk.solomind.cc/2026-02-01-lennys-dr-becky-on-the-surprising-overlap"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把同事当幼儿带:育儿专家的职场领导力课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 把同事当幼儿带:育儿专家的职场领导力课
 
-<div class="pd-byl"><b>Dr. Becky Kennedy</b> · Good Inside 创始人 · 2026-02-01</div>
+<div class="pd-byl"><b>Dr. Becky Kennedy</b> · Good Inside 创始人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[修复]] · [[连接]] · [[界限]] · [[韧性]] · [[最宽容解读]] · [[稳健的领导者]] · [[安全依恋]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap)
-
-<div class="pd-tldr"><b>一句话</b>临床心理学家 Dr. Becky 将育儿原则搬到职场,讲透修复、界限与坚定领导力。</div>
 
 成年人闹情绪、争夺资源、需要人替他收拾烂摊子——你的同事可能和你两岁的孩子没什么两样。说这话的是 [[Lenny|Lenny]],他请来了临床心理学家、育儿平台 [[Good Inside|Good Inside]] 的创始人 Dr. Becky,专门聊聊怎么用带娃的方法带团队。
 

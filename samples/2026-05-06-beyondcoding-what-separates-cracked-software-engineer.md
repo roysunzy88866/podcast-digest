@@ -1,7 +1,7 @@
 ---
 title: 2026 工程师生存指南：Reddit 热帖直答
 podcast: Beyond Coding
-date: 2026-05-06
+date: 2026-08-18
 source_url: undefined
 duration: "38:55"
 type: episode
@@ -15,14 +15,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-05-06-beyondcoding-what-separates-cracked-software-engineer.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer#post","headline":"2026 工程师生存指南：Reddit 热帖直答","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer","mainEntityOfPage":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer","description":"围绕 AI 编码时代，直答 Reddit 七个最尖锐的工程师生存疑问。","datePublished":"2026-05-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-06-beyondcoding-what-separates-cracked-software-engineer.jpg","about":[{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"系统设计 (system design)"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"生产级代码 (production grade)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"2026 工程师生存指南：Reddit 热帖直答","item":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer#post","headline":"2026 工程师生存指南：Reddit 热帖直答","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer","mainEntityOfPage":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer","description":"围绕 AI 编码时代，直答 Reddit 七个最尖锐的工程师生存疑问。","datePublished":"2026-08-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-06-beyondcoding-what-separates-cracked-software-engineer.jpg","about":[{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"系统设计 (system design)"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"生产级代码 (production grade)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"2026 工程师生存指南：Reddit 热帖直答","item":"https://talk.solomind.cc/2026-05-06-beyondcoding-what-separates-cracked-software-engineer"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>2026 工程师生存指南：Reddit 热帖直答</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 2026 工程师生存指南：Reddit 热帖直答
 
-<div class="pd-byl">2026-05-06</div>
+<div class="pd-byl">2026-08-18</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-06-beyondcoding-what-separates-cracked-software-engineer.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -30,8 +30,6 @@ jsonLd: |
 
 > [!info] 关联
 > **概念** [[vibe coding]] · [[系统设计]] · [[开源]] · [[生产级代码]]
-
-<div class="pd-tldr"><b>一句话</b>围绕 AI 编码时代，直答 Reddit 七个最尖锐的工程师生存疑问。</div>
 
 在某些组织里，你真的不再亲手写代码了——如果写代码这件事本身就是你获得满足感的来源，那你的工作正在彻底改变。初级人员不在乎，他们觉得花六个月适应新工作方式挺好；做不到的人，很快就会变成"遗留人员"。
 

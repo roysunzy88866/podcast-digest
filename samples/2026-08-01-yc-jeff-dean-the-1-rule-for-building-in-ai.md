@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[多智能体系统]] · [[专用推理硬件]] · [[推理]] · [[上下文工程]] · [[TPU]] · [[MapReduce]] · [[蒸馏]] · [[AlphaFold]] · [[Gemini]]
 
-<div class="pd-tldr"><b>一句话</b>从算盘数学到造 TPU,Jeff Dean 讲了为什么推理硬件、上下文工程和「挑选问题」是 AI 创业者的必修课。</div>
-
 把一种编程语言写的一整套软件全部换成另一种语言,大多数顶尖工程师要干几个月——但今天的 AI 模型可以同时派出去几十个[[智能体|智能体]],跑上几天甚至几周,自己改、自己测、自己修,最后把翻译好的新版本交到你手上。说这话的人是 [[Jeff Dean|Jeff Dean]],[[Google|Google]] 的大神级工程师,[[MapReduce|MapReduce]]、Bigtable、TensorFlow 和 [[TPU|TPU]] 全是他主导造的 <button class="pd-ts" data-t="00:24" data-who="" data-en="I don't normally sound quite like this, but we'll do what we can. So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini. We could spend a whole hour on all the things you've done." aria-label="回原文"></button>。
 
 在这一集访谈里,他讲了三件事:为什么我们这代人正站在[[专用推理硬件|专用推理硬件]]爆发的前夜;为什么「[[上下文工程|上下文工程]]」是新手中最容易上手的杠杆;以及在一个通用模型什么都能干一点的时代,两三个人的小团队究竟该挑什么样的问题去赢。最后他还聊了聊怎么通过疯狂的思想实验构建「品味」,以及他对未来创业者的终极建议:挑一个最重要的、别人做不了的问题,然后用余生去解决它。

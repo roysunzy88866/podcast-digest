@@ -1,7 +1,7 @@
 ---
 title: "从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游"
 podcast: 精选演讲
-date: 2026-08-07
+date: 2026-08-09
 source_url: undefined
 duration: "21:04"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so#post","headline":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","description":"回顾八十年计算史,指出 AI 原生软件之于智能体,正如移动互联网之于网页。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Satya Nadella"},{"@type":"Person","name":"Kwindla Kramer"},{"@type":"Organization","name":"Pipecat"},{"@type":"Organization","name":"Daily"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AI 原生软件 (AI-native software)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"多模态 (multimodal)"},{"@type":"Thing","name":"云计算 (cloud)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","item":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so#post","headline":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so","description":"回顾八十年计算史,指出 AI 原生软件之于智能体,正如移动互联网之于网页。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Satya Nadella"},{"@type":"Person","name":"Kwindla Kramer"},{"@type":"Organization","name":"Pipecat"},{"@type":"Organization","name":"Daily"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AI 原生软件 (AI-native software)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"多模态 (multimodal)"},{"@type":"Thing","name":"云计算 (cloud)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游","item":"https://talk.solomind.cc/2026-08-07-talks-the-new-primitives-building-ai-native-so"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游
 
-<div class="pd-byl"><b>Kwindla Kramer</b> · Pipecat 创始人 · 2026-08-07</div>
+<div class="pd-byl"><b>Kwindla Kramer</b> · Pipecat 创始人 · 2026-08-09</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-07-talks-the-new-primitives-building-ai-native-so.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Pipecat]] · [[Daily]]
 >
 > **概念** [[智能体]] · [[AI 原生软件]] · [[推理]] · [[多模态]] · [[云计算]]
-
-<div class="pd-tldr"><b>一句话</b>回顾八十年计算史,指出 AI 原生软件之于智能体,正如移动互联网之于网页。</div>
 
 如果把整个计算史压缩成一句话,那就是:从机器到人,现在轮到[[智能体|智能体]]来找我们了——它能看、能听、能记、能替你跑腿。说这话的人是 Quindle,他是开源语音智能体框架 [[Pipecat|Pipecat]] 背后的开发者,在这次 AI Engineer World's Fair 的语音专场上,他带大家做了一场贯穿八十年计算史的思想漫游,试图回答一个问题:我们正在大干快上的智能体之后,下一代的 [[AI 原生软件|AI 原生软件]]到底是什么样?
 

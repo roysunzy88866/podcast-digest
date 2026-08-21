@@ -1,7 +1,7 @@
 ---
 title: Claude 异步智能体架构的四块基石
 podcast: 精选演讲
-date: 2026-07-22
+date: 2026-07-31
 source_url: undefined
 duration: "25:00"
 type: episode
@@ -14,14 +14,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart#post","headline":"Claude 异步智能体架构的四块基石","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","description":"从十分钟任务到自主跑十二小时,异步智能体在架构上需要做对四件事。","datePublished":"2026-07-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Lance Martin"},{"@type":"Thing","name":"任务视界 (task horizon)"},{"@type":"Thing","name":"Managed Agents"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"验证器 (verifier)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"组织级驾驭系统 (org-level harness)"},{"@type":"Thing","name":"带内记忆 (in-band memory)"},{"@type":"Thing","name":"CloudTag"},{"@type":"Thing","name":"Claude"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Claude 异步智能体架构的四块基石","item":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart#post","headline":"Claude 异步智能体架构的四块基石","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","mainEntityOfPage":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart","description":"从十分钟任务到自主跑十二小时,异步智能体在架构上需要做对四件事。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Lance Martin"},{"@type":"Thing","name":"任务视界 (task horizon)"},{"@type":"Thing","name":"Managed Agents"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"验证器 (verifier)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"组织级驾驭系统 (org-level harness)"},{"@type":"Thing","name":"带内记忆 (in-band memory)"},{"@type":"Thing","name":"CloudTag"},{"@type":"Thing","name":"Claude"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Claude 异步智能体架构的四块基石","item":"https://talk.solomind.cc/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude 异步智能体架构的四块基石</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Claude 异步智能体架构的四块基石
 
-<div class="pd-byl"><b>Lance Martin</b> · 2026-07-22</div>
+<div class="pd-byl"><b>Lance Martin</b> · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -31,8 +31,6 @@ jsonLd: |
 > **人物** [[Lance Martin]]
 >
 > **概念** [[任务视界]] · [[Managed Agents]] · [[harness]] · [[沙箱]] · [[验证器]] · [[做梦]] · [[组织级驾驭系统]] · [[带内记忆]] · [[CloudTag]] · [[Claude]]
-
-<div class="pd-tldr"><b>一句话</b>从十分钟任务到自主跑十二小时,异步智能体在架构上需要做对四件事。</div>
 
 要跑一个能自主工作十二个小时、甚至能处理几十万行代码库的智能体,最大的障碍早就不是模型聪不聪明,而是你怎么给它的记忆和验证做架构设计——你得给它配一套能[[做梦|做梦]]、能自我纠正的外部脑子。讲这话的人来自 Anthropic,这一集他拆解了支撑 [[Claude|Claude]] 长时程异步智能体的四大设计主题,核心是最近推出的 Cloud [[Managed Agents|Managed Agents]] 平台背后的架构思考。
 

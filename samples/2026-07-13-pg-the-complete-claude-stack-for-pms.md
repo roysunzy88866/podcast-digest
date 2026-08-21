@@ -1,7 +1,7 @@
 ---
 title: 产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长
 podcast: Product Growth Podcast
-date: 2026-07-13
+date: 2026-07-25
 source_url: https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms
 duration: "93:20"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-07-13-pg-the-complete-claude-stack-for-pms.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms#post","headline":"产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms","mainEntityOfPage":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms","description":"拆解 Claude 全家桶五层架构，手把手教你搭建全天候私人幕僚长与自我进化的对抗智能体。","datePublished":"2026-07-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-13-pg-the-complete-claude-stack-for-pms.jpg","isBasedOn":"https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms","about":[{"@type":"Person","name":"Aakash Gupta"},{"@type":"Person","name":"Jyothi Nookula"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"对抗性智能体 (adversarial agents)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"知识库 (knowledge base)"},{"@type":"Thing","name":"技能 (skills)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长","item":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms#post","headline":"产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms","mainEntityOfPage":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms","description":"拆解 Claude 全家桶五层架构，手把手教你搭建全天候私人幕僚长与自我进化的对抗智能体。","datePublished":"2026-07-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-13-pg-the-complete-claude-stack-for-pms.jpg","isBasedOn":"https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms","about":[{"@type":"Person","name":"Aakash Gupta"},{"@type":"Person","name":"Jyothi Nookula"},{"@type":"Organization","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"对抗性智能体 (adversarial agents)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"知识库 (knowledge base)"},{"@type":"Thing","name":"技能 (skills)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长","item":"https://talk.solomind.cc/2026-07-13-pg-the-complete-claude-stack-for-pms"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长
 
-<div class="pd-byl"><b>Jyothi Nookula</b> · 产品经理 · 2026-07-13</div>
+<div class="pd-byl"><b>Jyothi Nookula</b> · 产品经理 · 2026-07-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-13-pg-the-complete-claude-stack-for-pms.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[MCP]] · [[知识库]] · [[技能]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
-
-<div class="pd-tldr"><b>一句话</b>拆解 Claude 全家桶五层架构，手把手教你搭建全天候私人幕僚长与自我进化的对抗智能体。</div>
 
 一个人单枪匹马击败 30 个工程团队拿下内部黑客松,靠的不是写代码更猛,而是搭了一个让 AI 自己攻击自己、循环打补丁的评估系统。说这话的人是 Jyothi,她曾是 Amazon、Meta、Netflix 的资深产品经理 <button class="pd-ts" data-t="72:51" data-who="Aakash Gupta" data-en="where do they see this and what's their use case to think about these options you've been a senior product manager at amazon a lead product manager at meta director of product at netflix now you're" aria-label="回原文"></button>。在这集对谈里,她端出了自己一整套基于 [[Claude|Claude]] 生态的实战打法:从怎么挑模型,到怎么用桌面端跑自动化,再到怎么在 VS Code 里给你自己搭一个懂人际政治的私人「幕僚长」,最后甚至现场从头敲出了一个靠对抗[[智能体|智能体]]自我进化的评估器。
 

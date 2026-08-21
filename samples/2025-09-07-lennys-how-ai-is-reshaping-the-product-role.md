@@ -1,7 +1,7 @@
 ---
 title: PM的生存法则：AI时代别当瓶颈，去抢活干
 podcast: "Lenny's Podcast"
-date: 2025-09-07
+date: 2026-08-16
 source_url: https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role
 duration: "78:18"
 type: episode
@@ -19,14 +19,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2025-09-07-lennys-how-ai-is-reshaping-the-product-role.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role#post","headline":"PM的生存法则：AI时代别当瓶颈，去抢活干","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role","mainEntityOfPage":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role","description":"两位合计50年经验的PM领袖谈AI如何改写产品管理：从\"船坞\"模式到\"尖锐问题\"的筛选。","datePublished":"2025-09-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-07-lennys-how-ai-is-reshaping-the-product-role.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Ezinne Udezue"},{"@type":"Person","name":"Oji"},{"@type":"Organization","name":"Typeform"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"AI 在核心 (AI at the core)"},{"@type":"Thing","name":"AI 在边缘 (AI at the edge)"},{"@type":"Thing","name":"船坞 (shipyard)"},{"@type":"Thing","name":"尖锐问题 (sharp problem)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"PM的生存法则：AI时代别当瓶颈，去抢活干","item":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role#post","headline":"PM的生存法则：AI时代别当瓶颈，去抢活干","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role","mainEntityOfPage":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role","description":"两位合计50年经验的PM领袖谈AI如何改写产品管理：从\"船坞\"模式到\"尖锐问题\"的筛选。","datePublished":"2026-08-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-07-lennys-how-ai-is-reshaping-the-product-role.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Ezinne Udezue"},{"@type":"Person","name":"Oji"},{"@type":"Organization","name":"Typeform"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"AI 在核心 (AI at the core)"},{"@type":"Thing","name":"AI 在边缘 (AI at the edge)"},{"@type":"Thing","name":"船坞 (shipyard)"},{"@type":"Thing","name":"尖锐问题 (sharp problem)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"PM的生存法则：AI时代别当瓶颈，去抢活干","item":"https://talk.solomind.cc/2025-09-07-lennys-how-ai-is-reshaping-the-product-role"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM的生存法则：AI时代别当瓶颈，去抢活干</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # PM的生存法则：AI时代别当瓶颈，去抢活干
 
-<div class="pd-byl">2025-09-07</div>
+<div class="pd-byl">2026-08-16</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-09-07-lennys-how-ai-is-reshaping-the-product-role.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -40,8 +40,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[LLM]] · [[评估]] · [[主观能动性]] · [[AI 在核心]] · [[AI 在边缘]] · [[船坞]] · [[尖锐问题]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role)
-
-<div class="pd-tldr"><b>一句话</b>两位合计50年经验的PM领袖谈AI如何改写产品管理：从"船坞"模式到"尖锐问题"的筛选。</div>
 
 过去20年，产品开发有一套固定节奏：PM花这么多时间，开发花这么多时间，上市花这么多时间。[[Oji|Oji]]说，这套契约正在被炸碎——构建过程加速得太快了，有公司打完推销电话四小时就能拿出原型。PM开始变成团队的瓶颈，不是因为PM变慢了，而是因为其他环节在飞奔 <button class="pd-ts" data-t="08:37" data-who="Oji" data-en="What do you think about just this ratio shift potentially where PMs almost become a bottleneck with AI accelerating other functions? For the last 20 years, we've had very fixed ratios in terms of how work gets done." aria-label="回原文"></button>。
 

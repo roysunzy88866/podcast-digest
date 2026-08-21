@@ -1,7 +1,7 @@
 ---
 title: Julie Zhuo：管理者的核心技能，就是驾驭AI的技能
 podcast: "Lenny's Podcast"
-date: 2025-09-21
+date: 2026-08-15
 source_url: https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo
 duration: "96:21"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli#post","headline":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","mainEntityOfPage":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","description":"管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者","datePublished":"2025-09-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo","about":[{"@type":"Person","name":"Julie Zhuo"},{"@type":"Organization","name":"Sundial"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"对话分析 (conversational analytics)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"维度思维 (dimensionality)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","item":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli#post","headline":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","mainEntityOfPage":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli","description":"管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo","about":[{"@type":"Person","name":"Julie Zhuo"},{"@type":"Organization","name":"Sundial"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"构建者 (builder)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"对话分析 (conversational analytics)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"维度思维 (dimensionality)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Julie Zhuo：管理者的核心技能，就是驾驭AI的技能","item":"https://talk.solomind.cc/2025-09-21-lennys-from-managing-people-to-managing-ai-juli"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Julie Zhuo：管理者的核心技能，就是驾驭AI的技能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Julie Zhuo：管理者的核心技能，就是驾驭AI的技能
 
-<div class="pd-byl"><b>Julie Zhuo</b> · 2025-09-21</div>
+<div class="pd-byl"><b>Julie Zhuo</b> · 2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-09-21-lennys-from-managing-people-to-managing-ai-juli.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[构建者]] · [[可观测性]] · [[对话分析]] · [[评估]] · [[维度思维]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo)
-
-<div class="pd-tldr"><b>一句话</b>管理能力直接迁移到AI工具使用，组织扁平化下每个人都是构建者</div>
 
 以前你不会设计、不会写代码、不会做数据分析，就得招三个人分别干这三件事。现在 AI 能把一个从第 10 百分位的人拉到第 60、70 百分位——不够顶尖，但足以动手。[[Julie Zhuo|Julie Zhuo]] 认为这导致了一个根本性变化：传统角色边界正在消融，工程师、设计师、产品经理这些头衔该扔掉了，统一叫"[[构建者|构建者]]" <button class="pd-ts" data-t="15:08" data-who="Julie Zhuo" data-en="And then I'll assemble that team. But now with AI and my companion, it's like," aria-label="回原文"></button>。
 

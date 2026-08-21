@@ -1,7 +1,7 @@
 ---
 title: Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等
 podcast: 精选演讲
-date: 2026-06-16
+date: 2026-08-01
 source_url: undefined
 duration: "34:51"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c#post","headline":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","mainEntityOfPage":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","description":"法国健康险独角兽 Alan 的 CTO 分享了他们如何用 AI 智能体重塑公司运作、实现人均收入指数级增长，并呼吁欧洲创业家重拾野心。","datePublished":"2026-06-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Laurent"},{"@type":"Person","name":"Charles Gorintin"},{"@type":"Organization","name":"Alan"},{"@type":"Organization","name":"Mistral"},{"@type":"Organization","name":"Stripe"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Mo"},{"@type":"Thing","name":"彻底透明 (radical transparency)"},{"@type":"Thing","name":"Shasterton 障碍 (Shasterton barrier)"},{"@type":"Thing","name":"GPT-3"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","item":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c#post","headline":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","mainEntityOfPage":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c","description":"法国健康险独角兽 Alan 的 CTO 分享了他们如何用 AI 智能体重塑公司运作、实现人均收入指数级增长，并呼吁欧洲创业家重拾野心。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Laurent"},{"@type":"Person","name":"Charles Gorintin"},{"@type":"Organization","name":"Alan"},{"@type":"Organization","name":"Mistral"},{"@type":"Organization","name":"Stripe"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Mo"},{"@type":"Thing","name":"彻底透明 (radical transparency)"},{"@type":"Thing","name":"Shasterton 障碍 (Shasterton barrier)"},{"@type":"Thing","name":"GPT-3"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等","item":"https://talk.solomind.cc/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等
 
-<div class="pd-byl"><b>Charles Gorintin</b> · Alan 联合创始人 · 2026-06-16</div>
+<div class="pd-byl"><b>Charles Gorintin</b> · Alan 联合创始人 · 2026-08-01</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-16-talks-a-conversation-with-alan-cofounder-and-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Alan]] · [[Mistral]] · [[Stripe]]
 >
 > **概念** [[智能体]] · [[Mo]] · [[彻底透明]] · [[Shasterton 障碍]] · [[GPT-3]]
-
-<div class="pd-tldr"><b>一句话</b>法国健康险独角兽 Alan 的 CTO 分享了他们如何用 AI 智能体重塑公司运作、实现人均收入指数级增长，并呼吁欧洲创业家重拾野心。</div>
 
 用 AI [[智能体|智能体]]重塑公司后，全职员工的人均收入曲线在 2022 年从线性增长直接变成了指数级飙升——说这话的人是 Charles，法国健康险独角兽 [[Alan|Alan]] 的联合创始人兼 CTO，同时也是大模型公司 [[Mistral|Mistral]] 的联合创办人。
 

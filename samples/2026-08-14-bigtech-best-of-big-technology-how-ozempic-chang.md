@@ -1,7 +1,7 @@
 ---
 title: Ozempic：人造解药与人造问题的经济博弈
 podcast: Big Technology Podcast
-date: 2026-08-14
+date: 2026-08-15
 source_url: undefined
 duration: "53:46"
 type: episode
@@ -15,14 +15,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang#post","headline":"Ozempic：人造解药与人造问题的经济博弈","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang","description":"减肥药如何对抗加工食品制造的饥饿，以及它将怎样重塑经济。","datePublished":"2026-08-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Johan Hari"},{"@type":"Organization","name":"Ozempic"},{"@type":"Thing","name":"GLP-1"},{"@type":"Thing","name":"设定点 (set point)"},{"@type":"Thing","name":"加工食品 (processed food)"},{"@type":"Thing","name":"饱腹感 (satiety)"},{"@type":"Thing","name":"奖励系统 (reward systems)"},{"@type":"Thing","name":"减重手术 (bariatric surgery)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Ozempic：人造解药与人造问题的经济博弈","item":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang#post","headline":"Ozempic：人造解药与人造问题的经济博弈","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang","description":"减肥药如何对抗加工食品制造的饥饿，以及它将怎样重塑经济。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Johan Hari"},{"@type":"Organization","name":"Ozempic"},{"@type":"Thing","name":"GLP-1"},{"@type":"Thing","name":"设定点 (set point)"},{"@type":"Thing","name":"加工食品 (processed food)"},{"@type":"Thing","name":"饱腹感 (satiety)"},{"@type":"Thing","name":"奖励系统 (reward systems)"},{"@type":"Thing","name":"减重手术 (bariatric surgery)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Ozempic：人造解药与人造问题的经济博弈","item":"https://talk.solomind.cc/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ozempic：人造解药与人造问题的经济博弈</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Ozempic：人造解药与人造问题的经济博弈
 
-<div class="pd-byl"><b>Johan Hari</b> · 2026-08-14</div>
+<div class="pd-byl"><b>Johan Hari</b> · 2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-14-bigtech-best-of-big-technology-how-ozempic-chang.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -34,8 +34,6 @@ jsonLd: |
 > **公司** [[Ozempic]]
 >
 > **概念** [[GLP-1]] · [[设定点]] · [[加工食品]] · [[饱腹感]] · [[奖励系统]] · [[减重手术]]
-
-<div class="pd-tldr"><b>一句话</b>减肥药如何对抗加工食品制造的饥饿，以及它将怎样重塑经济。</div>
 
 47% 的美国人想服用新的减肥药——人类历史上第一次，接近一半的人想靠药物阻止自己进食 <button class="pd-ts" data-t="02:57" data-who="Johan Hari" data-en="Well, we're in this incredible position. 47% of Americans want to take these new weight loss drugs because they produce an incredible amount of weight loss that I'm sure we're going to unpack." aria-label="回原文"></button>。这不是因为我们突然集体丧失了意志力，而是因为我们整个食物环境变了。
 

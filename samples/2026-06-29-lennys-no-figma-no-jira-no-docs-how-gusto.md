@@ -1,7 +1,7 @@
 ---
 title: "一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder"
 podcast: "Lenny's Podcast"
-date: 2026-06-29
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto
 duration: "51:49"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#post","headline":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","mainEntityOfPage":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","description":"Gusto 联合创始人 Eddie Kim 讲述他用 4 个工程师加 1 个设计师,靠永久 Zoom 和 Claude Code 砍掉所有文档,10 周造出 Co-Founder 的全过程。","datePublished":"2026-06-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto","about":[{"@type":"Person","name":"Claire Vo"},{"@type":"Person","name":"Eddie Kim"},{"@type":"Organization","name":"Gusto"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"永久 Zoom (perma-zoom)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"垃圾桶法 (trashcan method)"},{"@type":"Thing","name":"Cloudflare Worker"},{"@type":"Thing","name":"Vercel AI SDK"},{"@type":"Thing","name":"Claude Code"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","item":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#post","headline":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","mainEntityOfPage":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto","description":"Gusto 联合创始人 Eddie Kim 讲述他用 4 个工程师加 1 个设计师,靠永久 Zoom 和 Claude Code 砍掉所有文档,10 周造出 Co-Founder 的全过程。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto","about":[{"@type":"Person","name":"Claire Vo"},{"@type":"Person","name":"Eddie Kim"},{"@type":"Organization","name":"Gusto"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"永久 Zoom (perma-zoom)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"垃圾桶法 (trashcan method)"},{"@type":"Thing","name":"Cloudflare Worker"},{"@type":"Thing","name":"Vercel AI SDK"},{"@type":"Thing","name":"Claude Code"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder","item":"https://talk.solomind.cc/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder
 
-<div class="pd-byl"><b>Eddie Kim</b> · Gusto CTO · 2026-06-29</div>
+<div class="pd-byl"><b>Eddie Kim</b> · Gusto CTO · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
-
-<div class="pd-tldr"><b>一句话</b>Gusto 联合创始人 Eddie Kim 讲述他用 4 个工程师加 1 个设计师,靠永久 Zoom 和 Claude Code 砍掉所有文档,10 周造出 Co-Founder 的全过程。</div>
 
 一家一千多人的公司,四名工程师加一名设计师,不用技术规格、不用 Figma、不开站会——十天半个月交付了一条全新的产品线。这事 [[Gusto|Gusto]] 的联合创始人 [[Eddie Kim|Eddie Kim]] 真做出来了,他说靠的是一句指令就能跑起来的 [[Claude Code|Claude Code]],以及一种把好代码直接丢进垃圾桶的底气 <button class="pd-ts" data-t="00:29" data-who="Eddie Kim" data-en="It's really not that scary and complicated. Co-founder was primarily built by five folks over the course of 10 weeks from initial idea, zero code to a tier one launch at Gusto." aria-label="回原文"></button>。
 

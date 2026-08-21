@@ -1,7 +1,7 @@
 ---
 title: 非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品
 podcast: "Lenny's Podcast"
-date: 2026-01-18
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor
 duration: "75:08"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-01-18-lennys-the-non-technical-pms-guide-to-building.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building#post","headline":"非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building","mainEntityOfPage":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building","description":"产品经理 Zevi 分享他零代码基础靠 AI 独立造产品的全套工作流：从建 CTO 聊天项目、自定义六大 /command 指令，到指挥不同模型互相评审代码。","datePublished":"2026-01-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-18-lennys-the-non-technical-pms-guide-to-building.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Zevi Arnovitz"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Bolt"},{"@type":"Organization","name":"Lovable"},{"@type":"Organization","name":"Linear"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Composer"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"斜杠命令 (/commands)"},{"@type":"Thing","name":"同行评审 (peer review)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品","item":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building#post","headline":"非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building","mainEntityOfPage":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building","description":"产品经理 Zevi 分享他零代码基础靠 AI 独立造产品的全套工作流：从建 CTO 聊天项目、自定义六大 /command 指令，到指挥不同模型互相评审代码。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-18-lennys-the-non-technical-pms-guide-to-building.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Zevi Arnovitz"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Bolt"},{"@type":"Organization","name":"Lovable"},{"@type":"Organization","name":"Linear"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Composer"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"斜杠命令 (/commands)"},{"@type":"Thing","name":"同行评审 (peer review)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品","item":"https://talk.solomind.cc/2026-01-18-lennys-the-non-technical-pms-guide-to-building"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品
 
-<div class="pd-byl"><b>Zevi Arnovitz</b> · Meta 产品经理 · 2026-01-18</div>
+<div class="pd-byl"><b>Zevi Arnovitz</b> · Meta 产品经理 · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-01-18-lennys-the-non-technical-pms-guide-to-building.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Claude Code]] · [[Composer]] · [[Codex]] · [[智能体]] · [[斜杠命令]] · [[同行评审]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor)
-
-<div class="pd-tldr"><b>一句话</b>产品经理 Zevi 分享他零代码基础靠 AI 独立造产品的全套工作流：从建 CTO 聊天项目、自定义六大 /command 指令，到指挥不同模型互相评审代码。</div>
 
 一个连代码都怕看的人，完全靠自己把一个能赚钱的产品造了出来——用的是一套普通人就能照抄的 AI 编程工作流。说这话的人是 Zevi，他在 Meta 当产品经理，完全没有技术背景，却靠着 [[Cursor|Cursor]] 和 [[Claude Code|Claude Code]] 独立做出了一个在赚钱的产品 <button class="pd-ts" data-t="01:11" data-who="Zevi Arnovitz" data-en="Yeah, that's true, but also when else in history could you get out of school and just build a startup on your own? Today, my guest is Zevi Arnovitz. Zevi is a PM at Meta." aria-label="回原文"></button>。
 

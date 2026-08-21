@@ -1,7 +1,7 @@
 ---
 title: "Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河"
 podcast: Latent Space
-date: 2026-06-03
+date: 2026-07-19
 source_url: https://www.latent.space/p/satya-2026
 duration: "38:50"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-06-03-latent-space-satya-2026.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026#post","headline":"Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026","mainEntityOfPage":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026","description":"微软 CEO 谈 AI 平台战略:企业真正的资产是私有评估和专才智能体,SaaS 正在被拆解与重组。","datePublished":"2026-06-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-03-latent-space-satya-2026.jpg","isBasedOn":"https://www.latent.space/p/satya-2026","about":[{"@type":"Person","name":"Saragawa"},{"@type":"Person","name":"Satya Nadella"},{"@type":"Organization","name":"Microsoft"},{"@type":"Organization","name":"Azure"},{"@type":"Organization","name":"GitHub"},{"@type":"Organization","name":"Microsoft 365"},{"@type":"Thing","name":"MAI"},{"@type":"Thing","name":"私有评估 (private evals)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"轨迹 (traces)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"数据中心 (data center)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河","item":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026#post","headline":"Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026","mainEntityOfPage":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026","description":"微软 CEO 谈 AI 平台战略:企业真正的资产是私有评估和专才智能体,SaaS 正在被拆解与重组。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-06-03-latent-space-satya-2026.jpg","isBasedOn":"https://www.latent.space/p/satya-2026","about":[{"@type":"Person","name":"Saragawa"},{"@type":"Person","name":"Satya Nadella"},{"@type":"Organization","name":"Microsoft"},{"@type":"Organization","name":"Azure"},{"@type":"Organization","name":"GitHub"},{"@type":"Organization","name":"Microsoft 365"},{"@type":"Thing","name":"MAI"},{"@type":"Thing","name":"私有评估 (private evals)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"轨迹 (traces)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"数据中心 (data center)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河","item":"https://talk.solomind.cc/2026-06-03-latent-space-satya-2026"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河
 
-<div class="pd-byl"><b>Satya Nadella</b> · 微软 CEO · 2026-06-03</div>
+<div class="pd-byl"><b>Satya Nadella</b> · 微软 CEO · 2026-07-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-03-latent-space-satya-2026.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[MAI]] · [[私有评估]] · [[harness]] · [[轨迹]] · [[智能体]] · [[SaaS]] · [[数据中心]]
 >
 > **来源** [Latent Space](https://www.latent.space/p/satya-2026)
-
-<div class="pd-tldr"><b>一句话</b>微软 CEO 谈 AI 平台战略:企业真正的资产是私有评估和专才智能体,SaaS 正在被拆解与重组。</div>
 
 当所有人都在追捧那一个最强的模型时,微软 CEO [[Satya Nadella|Satya Nadella]] 说,没人能靠跪拜在单一模型的祭坛前赢下未来——每家公司都必须构建属于自己的「前沿智能」。在这一集播客对谈里,他讲了几件事:微软怎么看模型训练与生态策略;为什么每个企业最大的资产不再是应用本身,而是私有的评估标准;当工作流从 [[SaaS|SaaS]] 转向[[智能体|智能体]],SaaS 的商业模式将如何被拆解重塑;以及为什么按用户定价等老办法依然会长期存在。
 

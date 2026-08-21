@@ -40,8 +40,6 @@ jsonLd: |
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on)
 
-<div class="pd-tldr"><b>一句话</b>从金门大桥模型到 Opus 4.5,Diane 讲述了 Anthropic 的产品哲学:贴近细节、公开实验、为用户的真实想法写评估。</div>
-
 如果你正在用 AI,最该担心的反而是它对你句句附和——在 [[Anthropic|Anthropic]] 的产品负责人 Diane 看来,真正有用的 AI 不是百依百顺的执行者,而是会在你想法不成熟时果断反驳你的陪练伙伴。
 
 这一集 YC 的对谈里,Diane 讲了五件事:Anthropic 早期是怎么从做聊天助手一步步找到自己独特身份的;身处 AI 飞速进步的指数曲线内部,团队如何靠「[[评估|评估]]」和敏捷适应来跟上变化;她负责的 [[Labs|Labs]](孵化团队)为什么能在核心产品线之外变出 [[Claude Code|Claude Code]] 和 MCP 这种重磅炸弹;AI 时代的产品经理到底该怎么干——连管理者都必须亲自下场写代码;最后她分享了怎么在日常工作中把 [[Claude|Claude]] 当作提升判断力和情商的私人教练。

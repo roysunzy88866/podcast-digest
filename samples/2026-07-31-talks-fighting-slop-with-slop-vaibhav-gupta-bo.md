@@ -1,7 +1,7 @@
 ---
 title: 用 AI 对抗 AI：一种不用读代码的编程语言 BAML
 podcast: 精选演讲
-date: 2026-07-31
+date: 2026-08-08
 source_url: undefined
 duration: "21:22"
 type: episode
@@ -14,14 +14,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#post","headline":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","description":"一家八人团队靠 AI 写出稳定的编程语言 BAML，秘诀是放下审查、拥抱「slop」，并重写编程的底层地基。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vaibhav Gupta"},{"@type":"Thing","name":"BAML"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"代码审查 (code reviews)"},{"@type":"Thing","name":"不变量 (invariants)"},{"@type":"Thing","name":"执行跟踪 (execution trace)"},{"@type":"Thing","name":"类型系统 (type system)"},{"@type":"Thing","name":"工具调用 (tool calls)"},{"@type":"Thing","name":"TypeScript"},{"@type":"Thing","name":"JavaScript"},{"@type":"Thing","name":"架构文件 (architecture.md)"},{"@type":"Thing","name":"依赖图 (dependency graph)"},{"@type":"Thing","name":"CI/CD"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","item":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#post","headline":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo","description":"一家八人团队靠 AI 写出稳定的编程语言 BAML，秘诀是放下审查、拥抱「slop」，并重写编程的底层地基。","datePublished":"2026-08-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vaibhav Gupta"},{"@type":"Thing","name":"BAML"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"代码审查 (code reviews)"},{"@type":"Thing","name":"不变量 (invariants)"},{"@type":"Thing","name":"执行跟踪 (execution trace)"},{"@type":"Thing","name":"类型系统 (type system)"},{"@type":"Thing","name":"工具调用 (tool calls)"},{"@type":"Thing","name":"TypeScript"},{"@type":"Thing","name":"JavaScript"},{"@type":"Thing","name":"架构文件 (architecture.md)"},{"@type":"Thing","name":"依赖图 (dependency graph)"},{"@type":"Thing","name":"CI/CD"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"用 AI 对抗 AI：一种不用读代码的编程语言 BAML","item":"https://talk.solomind.cc/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 对抗 AI：一种不用读代码的编程语言 BAML</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 用 AI 对抗 AI：一种不用读代码的编程语言 BAML
 
-<div class="pd-byl"><b>Vaibhav Gupta</b> · 2026-07-31</div>
+<div class="pd-byl"><b>Vaibhav Gupta</b> · 2026-08-08</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -31,8 +31,6 @@ jsonLd: |
 > **人物** [[Vaibhav Gupta]]
 >
 > **概念** [[BAML]] · [[垃圾话]] · [[智能体]] · [[代码审查]] · [[不变量]] · [[执行跟踪]] · [[类型系统]] · [[工具调用]] · [[TypeScript]] · [[JavaScript]] · [[架构文件]] · [[依赖图]] · [[CI-CD]]
-
-<div class="pd-tldr"><b>一句话</b>一家八人团队靠 AI 写出稳定的编程语言 BAML，秘诀是放下审查、拥抱「slop」，并重写编程的底层地基。</div>
 
 做一门编程语言——而且要做对，通常需要八个人干上两年。但一个团队不仅没花这么久，还干脆废掉了[[代码审查|代码审查]]，允许每个工程师随便用自己喜欢的 AI 工具。
 

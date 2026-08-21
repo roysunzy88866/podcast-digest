@@ -1,7 +1,7 @@
 ---
 title: AI 会改变一切，但也「只和互联网一样大」
 podcast: "Lenny's Podcast"
-date: 2026-05-31
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/a-rational-conversation-on-where
 duration: "79:48"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-05-31-lennys-a-rational-conversation-on-where.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where#post","headline":"AI 会改变一切，但也「只和互联网一样大」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where","mainEntityOfPage":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where","description":"独立分析师 Benedict Evans 谈 AI 争议：它会像互联网一样改变一切，但过程比想象更慢、更复杂，别被末日论吓倒。","datePublished":"2026-05-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-31-lennys-a-rational-conversation-on-where.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-rational-conversation-on-where","about":[{"@type":"Person","name":"Benedict Evans"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"McKinsey"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"基础模型 (foundation models)"},{"@type":"Thing","name":"定价权 (pricing power)"},{"@type":"Thing","name":"劳动总量谬误 (lump of labor fallacy)"},{"@type":"Thing","name":"杰文斯悖论 (Jevons paradox)"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"赢家通吃 (winner takes all)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 会改变一切，但也「只和互联网一样大」","item":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where#post","headline":"AI 会改变一切，但也「只和互联网一样大」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where","mainEntityOfPage":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where","description":"独立分析师 Benedict Evans 谈 AI 争议：它会像互联网一样改变一切，但过程比想象更慢、更复杂，别被末日论吓倒。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-31-lennys-a-rational-conversation-on-where.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-rational-conversation-on-where","about":[{"@type":"Person","name":"Benedict Evans"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Google"},{"@type":"Organization","name":"Meta"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"McKinsey"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"基础模型 (foundation models)"},{"@type":"Thing","name":"定价权 (pricing power)"},{"@type":"Thing","name":"劳动总量谬误 (lump of labor fallacy)"},{"@type":"Thing","name":"杰文斯悖论 (Jevons paradox)"},{"@type":"Thing","name":"分发 (distribution)"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"赢家通吃 (winner takes all)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 会改变一切，但也「只和互联网一样大」","item":"https://talk.solomind.cc/2026-05-31-lennys-a-rational-conversation-on-where"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 会改变一切，但也「只和互联网一样大」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 会改变一切，但也「只和互联网一样大」
 
-<div class="pd-byl"><b>Benedict Evans</b> · 独立分析师 · 2026-05-31</div>
+<div class="pd-byl"><b>Benedict Evans</b> · 独立分析师 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-31-lennys-a-rational-conversation-on-where.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[Claude Code]] · [[Gemini]] · [[基础模型]] · [[定价权]] · [[劳动总量谬误]] · [[杰文斯悖论]] · [[分发]] · [[任务]] · [[赢家通吃]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/a-rational-conversation-on-where)
-
-<div class="pd-tldr"><b>一句话</b>独立分析师 Benedict Evans 谈 AI 争议：它会像互联网一样改变一切，但过程比想象更慢、更复杂，别被末日论吓倒。</div>
 
 把 AI 跟「工业革命」相提并论太夸张了——它和互联网、智能手机一样大，但也只和它们一样大。说这话的人是 [[Benedict Evans|Benedict Evans]]，他做了六年独立科技分析师，专盯最重要的大趋势；而在他看来，我们正处在这场变革的「1997 年」：一切都会变，但大多数东西还不靠谱，未来会长什么样谁也说不准。
 

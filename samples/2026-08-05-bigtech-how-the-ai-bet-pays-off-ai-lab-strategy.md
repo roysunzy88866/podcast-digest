@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[AGI]] · [[资本支出]] · [[AI ROI]] · [[垂直整合]] · [[认知劳动]] · [[TPU]]
 
-<div class="pd-tldr"><b>一句话</b>红杉合伙人 David Cahn 逐家拆解科技巨头博弈，指出 AI 投资回报只有通向 AGI 或面临清算两条路。</div>
-
 AI 行业需要赚回 4 万亿美元才够回本，但红杉资本的合伙人 [[David Cahn|David Cahn]] 说，只有 [[AGI|AGI]]（通用人工智能，能像人一样完成绝大多数[[认知劳动|认知劳动]]的 AI）能填这个窟窿。如果等不来 AGI，市场会迎来一次大清算 <button class="pd-ts" data-t="13:13" data-who="" data-en="is everybody in the game but everyone is massively accelerating and um there's no you know i think we were at some point there was some question of like are people going to try to rationalize things are people going to look at the math i think reached a point where people just don't care about the math anymore at all it's all in all the way let's see what happens and that's how i view 2026 and i think there was a real catalyst for that earlier this year" aria-label="回原文"></button>。
 
 这是 Big Technology 播客的一期对谈。David Cahn 一直追踪 AI 投资回报率，是提出「2000 亿美元问题」和「6000 亿美元问题」的人。这一集里，他和主持人 [[Alex|Alex]] Kantrowitz 一起理清了三件事：这笔账到底有多大体量、目前市场预期是否脱离现实，以及——全场最精彩的部分——他把八大科技公司比作战略游戏中的玩家，逐一点评各自的资源和招数，看谁在为赢下 AGI 这场终极赌局布阵，谁又留下了致命破绽。

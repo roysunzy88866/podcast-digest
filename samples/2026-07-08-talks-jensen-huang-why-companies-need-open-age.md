@@ -1,7 +1,7 @@
 ---
 title: "黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体"
 podcast: 精选演讲
-date: 2026-07-08
+date: 2026-08-07
 source_url: undefined
 duration: "26:29"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age#post","headline":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","description":"黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。","datePublished":"2026-07-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"Nemotron"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"后训练 (post-training)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","item":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age#post","headline":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age","description":"黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Huang"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"LangChain"},{"@type":"Organization","name":"Nemotron"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"前沿模型 (frontier models)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"后训练 (post-training)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体","item":"https://talk.solomind.cc/2026-07-08-talks-jensen-huang-why-companies-need-open-age"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体
 
-<div class="pd-byl"><b>Jensen Huang</b> · NVIDIA 创始人兼 CEO · 2026-07-08</div>
+<div class="pd-byl"><b>Jensen Huang</b> · NVIDIA 创始人兼 CEO · 2026-08-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-08-talks-jensen-huang-why-companies-need-open-age.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[NVIDIA]] · [[LangChain]] · [[Nemotron]]
 >
 > **概念** [[智能体]] · [[harness]] · [[前沿模型]] · [[开放权重模型]] · [[护栏]] · [[沙箱]] · [[后训练]]
-
-<div class="pd-tldr"><b>一句话</b>黄仁勋与 LangChain 探讨企业如何用开放堆栈、专用模型和飞轮构建核心智能体资产。</div>
 
 AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立在[[智能体|智能体]]之上。这些智能体不是通用的大模型,而是属于公司自己的、带着核心专有知识、能跑在安全[[沙箱|沙箱]]里的「超级员工」。它们不仅懂业务,而且只花[[前沿模型|前沿模型]]十分之一的成本,就能把困难任务做到 86 分。
 

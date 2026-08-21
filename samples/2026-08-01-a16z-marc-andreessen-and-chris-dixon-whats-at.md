@@ -33,8 +33,6 @@ jsonLd: |
 >
 > **概念** [[清晰法案]] · [[稳定币]] · [[加密货币]] · [[区块链]] · [[代币化]] · [[开源]]
 
-<div class="pd-tldr"><b>一句话</b>a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。</div>
-
 美国一届政府花了五年时间试图把加密行业弄死,结果这个行业不仅没死,还长到了每季度数万亿美元的规模。说这话的人是 Mark Andreessen,他和另一位 a16z 合伙人 Chris Dixon 坐在一起,聊的是国会正在推进的一项名为《[[清晰法案|清晰法案]]》的市场结构立法——这可能是决定[[区块链|区块链]]技术在美国到底是长大还是出走的关键一步 <button class="pd-ts" data-t="13:19" data-who="Mark Andreessen" data-en="Yeah, so, you know, we've been in this just kind of bizarre twilight state for the last several years, you know, where sort of crypto was developing, you know, largely without rules, you know, for better or for worse, in kind of, you know, what I would describe as sort of experimental ways, you know, between sort of inception through 2020." aria-label="回原文"></button>。
 
 这一集里,主持人 [[Robert Hackett|Robert Hackett]] 和两位嘉宾梳理了三件事:为什么这个已经大到交易量媲美 Visa 网络的行业不能再在没有联邦规则的状态下裸奔;这项长达数百页的《清晰法案》具体想解决什么问题,又是怎么回应外界对非法金融、官员道德风险、银行业游说和开发者责任那一连串激烈质疑的;以及如果规则定不下来,美国会不会把下一代金融基础设施的领导权拱手让人。

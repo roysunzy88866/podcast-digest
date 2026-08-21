@@ -1,7 +1,7 @@
 ---
 title: "把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude"
 podcast: 精选演讲
-date: 2026-07-15
+date: 2026-08-01
 source_url: undefined
 duration: "51:15"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s#post","headline":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","mainEntityOfPage":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","description":"深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。","datePublished":"2026-07-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Simon Willison"},{"@type":"Person","name":"Cat Wu"},{"@type":"Person","name":"Thariq Shihipar"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Datadog"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"ClaudeTag"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Slack"},{"@type":"Thing","name":"Bun"},{"@type":"Thing","name":"Rust"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"代码审查 (code review)"},{"@type":"Thing","name":"自动模式 (auto mode)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"重写 (rewrite)"},{"@type":"Thing","name":"工作流 (Workflows)"},{"@type":"Thing","name":"团队记忆 (team memory)"},{"@type":"Thing","name":"红队 (red team)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"GitHub"},{"@type":"Thing","name":"凭证注入 (credential injection)"},{"@type":"Thing","name":"远程控制 (remote control)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","item":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s#post","headline":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","mainEntityOfPage":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s","description":"深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Simon Willison"},{"@type":"Person","name":"Cat Wu"},{"@type":"Person","name":"Thariq Shihipar"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"Datadog"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"ClaudeTag"},{"@type":"Thing","name":"Fable"},{"@type":"Thing","name":"Slack"},{"@type":"Thing","name":"Bun"},{"@type":"Thing","name":"Rust"},{"@type":"Thing","name":"Gemini"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"代码审查 (code review)"},{"@type":"Thing","name":"自动模式 (auto mode)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"重写 (rewrite)"},{"@type":"Thing","name":"工作流 (Workflows)"},{"@type":"Thing","name":"团队记忆 (team memory)"},{"@type":"Thing","name":"红队 (red team)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"GitHub"},{"@type":"Thing","name":"凭证注入 (credential injection)"},{"@type":"Thing","name":"远程控制 (remote control)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude","item":"https://talk.solomind.cc/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude
 
-<div class="pd-byl">2026-07-15</div>
+<div class="pd-byl">2026-08-01</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **公司** [[Anthropic]] · [[Datadog]]
 >
 > **概念** [[Claude Code]] · [[ClaudeTag]] · [[Fable]] · [[Slack]] · [[Bun]] · [[Rust]] · [[Gemini]] · [[智能体]] · [[系统提示词]] · [[提示词]] · [[提示词注入]] · [[代码审查]] · [[自动模式]] · [[沙箱]] · [[重写]] · [[工作流]] · [[团队记忆]] · [[红队]] · [[评估]] · [[GitHub]] · [[凭证注入]] · [[远程控制]]
-
-<div class="pd-tldr"><b>一句话</b>深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。</div>
 
 把 [[Claude Code|Claude Code]] [[系统提示词|系统提示词]]删掉八成,反而是让模型表现更好了——说这话的人是 Thariq 和 Kat,他们在 [[Anthropic|Anthropic]] 负责 Claude Code 产品,团队内部的[[智能体|智能体]]目前靠自己处理了超过一半的 PR。
 

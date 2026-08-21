@@ -1,7 +1,7 @@
 ---
 title: "eval 会取代 PRD 吗?AI 产品经理的新工作法门"
 podcast: Product Growth Podcast
-date: 2026-07-28
+date: 2026-07-29
 source_url: https://www.news.aakashg.com/p/how-to-build-your-first-eval
 duration: "56:47"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval#post","headline":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","description":"前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg","isBasedOn":"https://www.news.aakashg.com/p/how-to-build-your-first-eval","about":[{"@type":"Person","name":"Daniel McKinnon"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Gamoff Labs"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"全基因组测序 (whole genome sequencing)"},{"@type":"Thing","name":"离线评估 (offline eval)"},{"@type":"Thing","name":"金发姑娘 (Goldilocks)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","item":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval#post","headline":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval","description":"前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。","datePublished":"2026-07-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg","isBasedOn":"https://www.news.aakashg.com/p/how-to-build-your-first-eval","about":[{"@type":"Person","name":"Daniel McKinnon"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Gamoff Labs"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"PRD"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"全基因组测序 (whole genome sequencing)"},{"@type":"Thing","name":"离线评估 (offline eval)"},{"@type":"Thing","name":"金发姑娘 (Goldilocks)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"eval 会取代 PRD 吗?AI 产品经理的新工作法门","item":"https://talk.solomind.cc/2026-07-28-pg-how-to-build-your-first-eval"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>eval 会取代 PRD 吗?AI 产品经理的新工作法门</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # eval 会取代 PRD 吗?AI 产品经理的新工作法门
 
-<div class="pd-byl"><b>Daniel McKinnon</b> · 前 Meta/Google PM · 2026-07-28</div>
+<div class="pd-byl"><b>Daniel McKinnon</b> · 前 Meta/Google PM · 2026-07-29</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-pg-how-to-build-your-first-eval.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[评估]] · [[PRD]] · [[智能体]] · [[harness]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/how-to-build-your-first-eval)
-
-<div class="pd-tldr"><b>一句话</b>前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。</div>
 
 在 AI 时代,产品经理(PM)过去最核心的产出物——产品需求文档([[PRD|PRD]])可能要被淘汰了。取而代之的是一种叫 eval([[评估|评估]])的东西。这话听起来有点火辣,但说这话的人是 [[Daniel McKinnon|Daniel McKinnon]],他曾先后在 Google 和 Meta 担任产品经理,参与过 Gemini 和 Llama 的研发。<button class="pd-ts" data-t="00:00" data-who="Daniel McKinnon" data-en="The Metas and the Googles and all the other large companies have to reinvent themselves right now in the age of AI. Every single PM is going to start building AI features." aria-label="回原文"></button>
 

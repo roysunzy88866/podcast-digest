@@ -1,7 +1,7 @@
 ---
 title: "AI 定价的黄金象限：别把 20% 的价值白送"
 podcast: "Lenny's Podcast"
-date: 2025-07-27
+date: 2026-08-18
 source_url: https://www.lennysnewsletter.com/p/pricing-and-scaling-your-ai-product-madhavan-ramanujam
 duration: "71:39"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh#post","headline":"AI 定价的黄金象限：别把 20% 的价值白送","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh","mainEntityOfPage":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh","description":"AI 公司必须从第一天就搞定变现，选错定价模式就是训练客户花更少钱","datePublished":"2025-07-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/pricing-and-scaling-your-ai-product-madhavan-ramanujam","about":[{"@type":"Person","name":"Madhavan Ramanujam"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Intercom"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Charge Flow"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"基于结果的定价 (outcome-based pricing)"},{"@type":"Thing","name":"混合定价 (hybrid pricing)"},{"@type":"Thing","name":"归因 (attribution)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"POC"},{"@type":"Thing","name":"价值审计 (value audit)"},{"@type":"Thing","name":"变现 (monetization)"},{"@type":"Thing","name":"钱包份额 (wallet share)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"AI 定价的黄金象限：别把 20% 的价值白送","item":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh#post","headline":"AI 定价的黄金象限：别把 20% 的价值白送","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh","mainEntityOfPage":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh","description":"AI 公司必须从第一天就搞定变现，选错定价模式就是训练客户花更少钱","datePublished":"2026-08-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/pricing-and-scaling-your-ai-product-madhavan-ramanujam","about":[{"@type":"Person","name":"Madhavan Ramanujam"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Intercom"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Charge Flow"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"基于结果的定价 (outcome-based pricing)"},{"@type":"Thing","name":"混合定价 (hybrid pricing)"},{"@type":"Thing","name":"归因 (attribution)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"POC"},{"@type":"Thing","name":"价值审计 (value audit)"},{"@type":"Thing","name":"变现 (monetization)"},{"@type":"Thing","name":"钱包份额 (wallet share)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"AI 定价的黄金象限：别把 20% 的价值白送","item":"https://talk.solomind.cc/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 定价的黄金象限：别把 20% 的价值白送</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 定价的黄金象限：别把 20% 的价值白送
 
-<div class="pd-byl"><b>Madhavan Ramanujam</b> · 2025-07-27</div>
+<div class="pd-byl"><b>Madhavan Ramanujam</b> · 2026-08-18</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[基于结果的定价]] · [[混合定价]] · [[归因]] · [[自主性]] · [[POC]] · [[价值审计]] · [[变现]] · [[钱包份额]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/pricing-and-scaling-your-ai-product-madhavan-ramanujam)
-
-<div class="pd-tldr"><b>一句话</b>AI 公司必须从第一天就搞定变现，选错定价模式就是训练客户花更少钱</div>
 
 你构建的产品里，20% 驱动了 80% 的支付意愿——但讽刺的是，那 20% 往往是最容易构建的东西。创始人把这 20% 做出来，几乎免费扔到市场上，然后花大力气去搞那 80% 只驱动 20% 支付意愿的功能，等于无意中把农场送人了 <button class="pd-ts" data-t="55:07" data-who="Madhavan Ramanujam" data-en="One of my first favorite axioms, what I call is the 20-80 axiom. Especially in tech companies, 20% of what you build drives 80% of the willingness to pay. But the irony is that the 20% is the easiest thing to build often." aria-label="回原文"></button>。
 

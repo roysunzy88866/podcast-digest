@@ -36,8 +36,6 @@ jsonLd: |
 >
 > **概念** [[Lighthouse]] · [[LandGrab]] · [[ACV]] · [[PLG]]
 
-<div class="pd-tldr"><b>一句话</b>拆解企业 AI 创业的两条销售路线，核心是先认清自己在卖什么、再停止空想去执行。</div>
-
 卖给摩根大通听起来性感，但绝大多数早期创始人最大的错误，是花太多时间在战略上空想，却没有拿起电话、坐上飞机去见真正会掏钱的客户。<button class="pd-ts" data-t="37:41" data-who="Joe Schmidt" data-en="I mean, it sounds way more sexy to sell the JPMorgan Chase than to, you know, shmay shmeesh morfin. I think the biggest mistake that I see founders make at an early stage, honestly, is just spending too much time trying to figure it out." aria-label="回原文"></button>
 
 a16z 合伙人 [[Joe Schmidt|Joe Schmidt]] 观察到一个现象：旧金山 101 号公路两旁，两家卖同一款软件的 AI 创业公司都把目标死死锁定在大都市里的知名 Logo 上——买巨型广告牌、追逐能给自己背书的「明星客户」。<button class="pd-ts" data-t="02:08" data-who="Joe Schmidt" data-en="What are the Lighthouse and Landgrab sales playbooks? Yeah, and this piece actually all stemmed back from an observation that I had actually driving up the 101 freeway." aria-label="回原文"></button> 但现实是，许多好生意恰恰藏在别处。他和曾在 [[Samsara|Samsara]]、[[Meraki|Meraki]] 搭建销售铁军的 [[Andy McCall|Andy McCall]] 一起，给出了一个评估销售路线的二乘二矩阵 <button class="pd-ts" data-t="03:36" data-who="Joe Schmidt" data-en="When does it make sense for you to kind of do a more targeted sales activity or emotion elsewhere? Yeah, and I think the way that we tried to make this make sense, of course, we did very consulting style with a two by two matrix." aria-label="回原文"></button>：

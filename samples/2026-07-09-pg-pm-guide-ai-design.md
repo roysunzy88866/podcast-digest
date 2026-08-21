@@ -1,7 +1,7 @@
 ---
 title: OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流
 podcast: Product Growth Podcast
-date: 2026-07-09
+date: 2026-07-25
 source_url: https://www.news.aakashg.com/p/pm-guide-ai-design
 duration: "74:34"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-07-09-pg-pm-guide-ai-design.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design#post","headline":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","description":"资深设计师 Meng To 展示如何用 OpenAI Codex 及配套工具编排一支智能体舰队，把产品经理的工作流提速 10 倍。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-pg-pm-guide-ai-design.jpg","isBasedOn":"https://www.news.aakashg.com/p/pm-guide-ai-design","about":[{"@type":"Person","name":"Meng To"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"obsidian"},{"@type":"Organization","name":"hey gen"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"playwright"},{"@type":"Thing","name":"计划模式 (plan mode)"},{"@type":"Thing","name":"数字分身 (digital twin)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","item":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design#post","headline":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design","description":"资深设计师 Meng To 展示如何用 OpenAI Codex 及配套工具编排一支智能体舰队，把产品经理的工作流提速 10 倍。","datePublished":"2026-07-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-09-pg-pm-guide-ai-design.jpg","isBasedOn":"https://www.news.aakashg.com/p/pm-guide-ai-design","about":[{"@type":"Person","name":"Meng To"},{"@type":"Person","name":"Akash"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"obsidian"},{"@type":"Organization","name":"hey gen"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"Codex"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"playwright"},{"@type":"Thing","name":"计划模式 (plan mode)"},{"@type":"Thing","name":"数字分身 (digital twin)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流","item":"https://talk.solomind.cc/2026-07-09-pg-pm-guide-ai-design"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流
 
-<div class="pd-byl"><b>Meng To</b> · 设计师 · 2026-07-09</div>
+<div class="pd-byl"><b>Meng To</b> · 设计师 · 2026-07-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Codex]] · [[智能体]] · [[上下文]] · [[护栏]] · [[playwright]] · [[计划模式]] · [[数字分身]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/pm-guide-ai-design)
-
-<div class="pd-tldr"><b>一句话</b>资深设计师 Meng To 展示如何用 OpenAI Codex 及配套工具编排一支智能体舰队，把产品经理的工作流提速 10 倍。</div>
 
 一个过去半年没写过一行代码的人，自己造了视频编辑器、Mac 应用和一整套 SaaS 产品，并且年收入远超 100 万美元——他靠的不是「写代码」，而是指挥一支 AI [[智能体|智能体]]（agent，能自主感知环境并调用工具完成任务的程序）舰队。说这话的人是 [[Meng To|Meng To]]，他不是传统意义上的程序员，而是一个靠设计教程起家、如今全面 All in AI 的创作者 <button class="pd-ts" data-t="00:09" data-who="Akash" data-en="what are the things that a pm needs to know if they're going to go from pm to founder just really succeed when we say that pm are getting fired i think it's" aria-label="回原文"></button>。
 

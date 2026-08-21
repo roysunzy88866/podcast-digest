@@ -1,7 +1,7 @@
 ---
 title: "Merge的\"二次创业\"：从SaaS集成到AI连接基础设施"
 podcast: The Peel
-date: 2026-08-14
+date: 2026-08-15
 source_url: undefined
 duration: "81:21"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#post","headline":"Merge的\"二次创业\"：从SaaS集成到AI连接基础设施","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh","description":"Merge如何从SaaS集成公司转型为AI智能体的连接层，以及创始人对销售、招聘和\"尴尬框架\"的实战心得。","datePublished":"2026-08-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh.jpg","about":[{"@type":"Person","name":"Shensi Ding"},{"@type":"Organization","name":"Merge"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"连接器 (connector)"},{"@type":"Thing","name":"智能 LLM 路由器 (smart LLM router)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Merge的\"二次创业\"：从SaaS集成到AI连接基础设施","item":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh#post","headline":"Merge的\"二次创业\"：从SaaS集成到AI连接基础设施","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh","description":"Merge如何从SaaS集成公司转型为AI智能体的连接层，以及创始人对销售、招聘和\"尴尬框架\"的实战心得。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh.jpg","about":[{"@type":"Person","name":"Shensi Ding"},{"@type":"Organization","name":"Merge"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"连接器 (connector)"},{"@type":"Thing","name":"智能 LLM 路由器 (smart LLM router)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Merge的\"二次创业\"：从SaaS集成到AI连接基础设施","item":"https://talk.solomind.cc/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Merge的"二次创业"：从SaaS集成到AI连接基础设施</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Merge的"二次创业"：从SaaS集成到AI连接基础设施
 
-<div class="pd-byl"><b>Shensi Ding</b> · Merge 创始人 · 2026-08-14</div>
+<div class="pd-byl"><b>Shensi Ding</b> · Merge 创始人 · 2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Merge]]
 >
 > **概念** [[智能体]] · [[MCP]] · [[沙箱]] · [[连接器]] · [[智能 LLM 路由器]]
-
-<div class="pd-tldr"><b>一句话</b>Merge如何从SaaS集成公司转型为AI智能体的连接层，以及创始人对销售、招聘和"尴尬框架"的实战心得。</div>
 
 [[Merge|Merge]] 做的是 AI 的连接基础设施——帮产品和[[智能体|智能体]]对接 G Suite、Linear、Slack 这些工具，不用自己一个个建集成。听起来简单，但实际难到什么程度？大量边缘情况没写在 API 文档里，很多[[沙箱|沙箱]]环境只有签了合作伙伴协议才能拿到访问权限，智能体自己根本搞不定这些 <button class="pd-ts" data-t="09:02" data-who="Shenzi" data-en="So if you want to connect to G Suite, Microsoft Suite, Linear, all productivity tools, instead of having to build these integrations one by one, we have synced connectors." aria-label="回原文"></button>。
 

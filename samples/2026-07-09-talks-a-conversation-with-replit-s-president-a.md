@@ -1,7 +1,7 @@
 ---
 title: "从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌"
 podcast: 精选演讲
-date: 2026-07-09
+date: 2026-07-31
 source_url: undefined
 duration: "45:32"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a#post","headline":"从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a","description":"Replit用孤注一掷的全员大押注换来非开发者也能用的编程智能体,并靠按用量收费和让用户赚钱杀出重围。","datePublished":"2026-07-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Michele Catasta"},{"@type":"Organization","name":"Replit"},{"@type":"Thing","name":"Replit Agent"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"云开发环境 (cloud development environment)"},{"@type":"Thing","name":"基于使用量的计费 (usage-based billing)"},{"@type":"Thing","name":"基于结果的定价 (outcome-based pricing)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"一人独角兽 (one-person unicorn)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌","item":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a#post","headline":"从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a","mainEntityOfPage":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a","description":"Replit用孤注一掷的全员大押注换来非开发者也能用的编程智能体,并靠按用量收费和让用户赚钱杀出重围。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Michele Catasta"},{"@type":"Organization","name":"Replit"},{"@type":"Thing","name":"Replit Agent"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"云开发环境 (cloud development environment)"},{"@type":"Thing","name":"基于使用量的计费 (usage-based billing)"},{"@type":"Thing","name":"基于结果的定价 (outcome-based pricing)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"一人独角兽 (one-person unicorn)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌","item":"https://talk.solomind.cc/2026-07-09-talks-a-conversation-with-replit-s-president-a"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌
 
-<div class="pd-byl"><b>Michele Catasta</b> · Replit 总裁兼 AI 负责人 · 2026-07-09</div>
+<div class="pd-byl"><b>Michele Catasta</b> · Replit 总裁兼 AI 负责人 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-talks-a-conversation-with-replit-s-president-a.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Replit]]
 >
 > **概念** [[Replit Agent]] · [[智能体]] · [[vibe coding]] · [[云开发环境]] · [[基于使用量的计费]] · [[基于结果的定价]] · [[自主性]] · [[一人独角兽]]
-
-<div class="pd-tldr"><b>一句话</b>Replit用孤注一掷的全员大押注换来非开发者也能用的编程智能体,并靠按用量收费和让用户赚钱杀出重围。</div>
 
 距离史诗级翻盘的发布只剩 36 小时,产品居然全线崩溃,核心团队只能靠再熬一个通宵死磕。这不是什么菜鸟团队的失误,而是 [[Replit|Replit]] 绝境求生的一场豪赌——他们把超过八成的人手全砸进了这个项目,退无可退。说这话的人是 Michele,他是这家公司的总裁兼 AI 负责人。
 

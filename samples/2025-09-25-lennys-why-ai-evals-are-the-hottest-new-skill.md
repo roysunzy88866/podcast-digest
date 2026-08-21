@@ -1,7 +1,7 @@
 ---
 title: 做 evals 不是写单元测试，是从看数据开始的错误分析
 podcast: "Lenny's Podcast"
-date: 2025-09-25
+date: 2026-08-15
 source_url: https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill
 duration: "106:28"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#post","headline":"做 evals 不是写单元测试，是从看数据开始的错误分析","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","mainEntityOfPage":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","description":"evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。","datePublished":"2025-09-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Hamel Husain"},{"@type":"Person","name":"Shreya Shankar"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"错误分析 (error analysis)"},{"@type":"Thing","name":"开放式编码 (open coding)"},{"@type":"Thing","name":"轴向编码 (axial coding)"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"trace"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"做 evals 不是写单元测试，是从看数据开始的错误分析","item":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#post","headline":"做 evals 不是写单元测试，是从看数据开始的错误分析","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","mainEntityOfPage":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","description":"evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Hamel Husain"},{"@type":"Person","name":"Shreya Shankar"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"错误分析 (error analysis)"},{"@type":"Thing","name":"开放式编码 (open coding)"},{"@type":"Thing","name":"轴向编码 (axial coding)"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"trace"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"做 evals 不是写单元测试，是从看数据开始的错误分析","item":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>做 evals 不是写单元测试，是从看数据开始的错误分析</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 做 evals 不是写单元测试，是从看数据开始的错误分析
 
-<div class="pd-byl">2025-09-25</div>
+<div class="pd-byl">2026-08-15</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **概念** [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 判别器]] · [[智能体]] · [[trace]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill)
-
-<div class="pd-tldr"><b>一句话</b>evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。</div>
 
 做 [[评估|evals]] 最常见的失败方式，就是直接跳进去写测试。Hamel 和 Shreya 反复强调，evals 的核心不是测试，是对你的 LLM 应用做数据分析 <button class="pd-ts" data-t="06:00" data-who="Hamel Husain" data-en="Evals is a way to systematically measure and improve an AI application, and it really doesn't have to be scary or unapproachable at all. It really is, at its core, data analytics on your LLM application and a systematic way of looking at that data, and where necessary, creating metrics around things so you can measure what's happening, and then so you can iterate and do experiments and improve." aria-label="回原文"></button>。跳过数据看什么就写什么，是大多数人"做 evals 然后觉得没用"的根本原因 <button class="pd-ts" data-t="47:13" data-who="Hamel Husain" data-en="And so the reason I'm kind of spending so much time on this is this is where people get lost. They go straight into evals like, &quot;Let me just write some tests,&quot; and that is where things go off the rails." aria-label="回原文"></button>。
 

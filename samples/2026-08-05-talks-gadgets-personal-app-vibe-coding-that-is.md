@@ -1,7 +1,7 @@
 ---
 title: "AI 想给每个人定制 App,但云架构 25 年前就走错了路"
 podcast: 精选演讲
-date: 2026-08-05
+date: 2026-08-09
 source_url: undefined
 duration: "18:32"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is#post","headline":"AI 想给每个人定制 App,但云架构 25 年前就走错了路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is","description":"Cloudflare Workers 之父指出,想要实现每人一个专属 App 的 AI 未来,必须抛弃为单一版本设计的传统云架构。","datePublished":"2026-08-05","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Kenton Varda"},{"@type":"Organization","name":"Cloudflare Workers"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"无服务器 (serverless)"},{"@type":"Thing","name":"云基础设施 (cloud infrastructure)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"蓝图 (blueprint)"},{"@type":"Thing","name":"小玩意 (gadget)"},{"@type":"Thing","name":"WorkerD"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 想给每个人定制 App,但云架构 25 年前就走错了路","item":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is#post","headline":"AI 想给每个人定制 App,但云架构 25 年前就走错了路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is","mainEntityOfPage":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is","description":"Cloudflare Workers 之父指出,想要实现每人一个专属 App 的 AI 未来,必须抛弃为单一版本设计的传统云架构。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Kenton Varda"},{"@type":"Organization","name":"Cloudflare Workers"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"无服务器 (serverless)"},{"@type":"Thing","name":"云基础设施 (cloud infrastructure)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"蓝图 (blueprint)"},{"@type":"Thing","name":"小玩意 (gadget)"},{"@type":"Thing","name":"WorkerD"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 想给每个人定制 App,但云架构 25 年前就走错了路","item":"https://talk.solomind.cc/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 想给每个人定制 App,但云架构 25 年前就走错了路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 想给每个人定制 App,但云架构 25 年前就走错了路
 
-<div class="pd-byl"><b>Kenton Varda</b> · Cloudflare Workers 创始人 · 2026-08-05</div>
+<div class="pd-byl"><b>Kenton Varda</b> · Cloudflare Workers 创始人 · 2026-08-09</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Cloudflare Workers]]
 >
 > **概念** [[智能体]] · [[沙箱]] · [[无服务器]] · [[云基础设施]] · [[vibe coding]] · [[蓝图]] · [[小玩意]] · [[WorkerD]]
-
-<div class="pd-tldr"><b>一句话</b>Cloudflare Workers 之父指出,想要实现每人一个专属 App 的 AI 未来,必须抛弃为单一版本设计的传统云架构。</div>
 
 如果每个人都想让 AI 给自己定制 App,今天整个云架构的底子都得掀掉——这是我们过去 25 年跑错方向的结果。说这话的人是 [[Kenton Varda|Kenton Varda]],他造了 [[Cloudflare Workers|Cloudflare Workers]] <button class="pd-ts" data-t="07:18" data-who="Kenton Varda" data-en="Anyway, so you might be wondering at this point, who is this guy who hasn't introduced himself up on stage giving a Richard Stallman-esque rant about how we should have the freedom to modify our own software, and what does he know about cloud infrastructure?" aria-label="回原文"></button>。
 

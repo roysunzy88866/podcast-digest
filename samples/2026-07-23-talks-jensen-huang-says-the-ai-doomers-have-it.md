@@ -1,7 +1,7 @@
 ---
 title: 黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢
 podcast: 精选演讲
-date: 2026-07-23
+date: 2026-07-31
 source_url: undefined
 duration: "70:15"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it#post","headline":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","description":"黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。","datePublished":"2026-07-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Wong"},{"@type":"Person","name":"Mike Allen"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"开放模型 (open models)"},{"@type":"Thing","name":"封闭模型 (closed models)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"},{"@type":"Thing","name":"半导体 (semiconductor)"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"Nemotron"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","item":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it#post","headline":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","description":"黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Wong"},{"@type":"Person","name":"Mike Allen"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"开放模型 (open models)"},{"@type":"Thing","name":"封闭模型 (closed models)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"},{"@type":"Thing","name":"半导体 (semiconductor)"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"Nemotron"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","item":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢
 
-<div class="pd-byl"><b>Jensen Wong</b> · NVIDIA 掌舵人 · 2026-07-23</div>
+<div class="pd-byl"><b>Jensen Wong</b> · NVIDIA 掌舵人 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[NVIDIA]] · [[OpenAI]] · [[Anthropic]]
 >
 > **概念** [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]] · [[护栏]] · [[AI 基础设施]] · [[半导体]] · [[数据中心]] · [[Nemotron]]
-
-<div class="pd-tldr"><b>一句话</b>黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。</div>
 
 一家市值数万亿美元的公司，目前在一个大国市场的销售额约等于零——但它的 CEO 却说：「我希望双方都保持开放，绝对不应该禁用对手的 AI 模型。」说这话的人是黄仁勋，世界上最有价值的公司 [[NVIDIA|NVIDIA]] 的掌舵人。
 

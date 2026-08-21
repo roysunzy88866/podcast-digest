@@ -1,7 +1,7 @@
 ---
 title: Chamath 谈 AI：别信末日论，打破寡头垄断
 podcast: 精选演讲
-date: 2026-07-07
+date: 2026-08-02
 source_url: undefined
 duration: "52:50"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#post","headline":"Chamath 谈 AI：别信末日论，打破寡头垄断","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and","mainEntityOfPage":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and","description":"Chamath 驳斥 AI 末日论，视其为博取眼球的公关手段，主张用 KYC 式实名认证监管，并批评硅谷资本僵化。","datePublished":"2026-07-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Chamath"},{"@type":"Person","name":"Dan"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"SPAC"},{"@type":"Thing","name":"闭源模型 (closed source models)"},{"@type":"Thing","name":"开放权重模型 (open-weight models)"},{"@type":"Thing","name":"分布式计算 (distributed compute)"},{"@type":"Thing","name":"末日论 (doomerism)"},{"@type":"Thing","name":"KYC"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Chamath 谈 AI：别信末日论，打破寡头垄断","item":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#post","headline":"Chamath 谈 AI：别信末日论，打破寡头垄断","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and","mainEntityOfPage":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and","description":"Chamath 驳斥 AI 末日论，视其为博取眼球的公关手段，主张用 KYC 式实名认证监管，并批评硅谷资本僵化。","datePublished":"2026-08-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Chamath"},{"@type":"Person","name":"Dan"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"SPAC"},{"@type":"Thing","name":"闭源模型 (closed source models)"},{"@type":"Thing","name":"开放权重模型 (open-weight models)"},{"@type":"Thing","name":"分布式计算 (distributed compute)"},{"@type":"Thing","name":"末日论 (doomerism)"},{"@type":"Thing","name":"KYC"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Chamath 谈 AI：别信末日论，打破寡头垄断","item":"https://talk.solomind.cc/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chamath 谈 AI：别信末日论，打破寡头垄断</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Chamath 谈 AI：别信末日论，打破寡头垄断
 
-<div class="pd-byl"><b>Chamath</b> · 前 Facebook 高管 · 2026-07-07</div>
+<div class="pd-byl"><b>Chamath</b> · 前 Facebook 高管 · 2026-08-02</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[OpenAI]] · [[Anthropic]] · [[NVIDIA]]
 >
 > **概念** [[SPAC]] · [[闭源模型]] · [[开放权重模型]] · [[分布式计算]] · [[末日论]] · [[KYC]]
-
-<div class="pd-tldr"><b>一句话</b>Chamath 驳斥 AI 末日论，视其为博取眼球的公关手段，主张用 KYC 式实名认证监管，并批评硅谷资本僵化。</div>
 
 把 AI 的负责人比作「喊狼来了的男孩」，说他们为了融资竞争，故意把这项技术塑造成可能毁灭人类的威胁——但在硅谷摸爬滚打 25 年的 [[Chamath|Chamath]] 看来，这是极其自私且糟糕的策略。说这话的人是 Chamath，前 Facebook 高管，如今的 VC 和 [[SPAC|SPAC]]（特殊目的收购公司，一种让企业借壳上市的金融工具）推手。
 

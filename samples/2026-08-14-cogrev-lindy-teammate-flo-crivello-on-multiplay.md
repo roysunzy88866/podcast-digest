@@ -1,7 +1,7 @@
 ---
 title: "Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\""
 podcast: The Cognitive Revolution
-date: 2026-08-14
+date: 2026-08-21
 source_url: undefined
 duration: "126:07"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay#post","headline":"Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\"","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay","description":"Lindy 推出 Slack 内 AI 员工，用记忆智能体和递归上下文桶管理海量团队记忆，但当前算下来仍比雇人贵。","datePublished":"2026-08-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay.jpg","about":[{"@type":"Person","name":"Flo Crivello"},{"@type":"Person","name":"Nathan"},{"@type":"Organization","name":"Lindy"},{"@type":"Organization","name":"DeepSeek"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"记忆智能体 (memory agent)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"上下文桶 (context bucket)"},{"@type":"Thing","name":"缓存 (caching)"},{"@type":"Thing","name":"验证器 (validator)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\"","item":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay#post","headline":"Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\"","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay","mainEntityOfPage":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay","description":"Lindy 推出 Slack 内 AI 员工，用记忆智能体和递归上下文桶管理海量团队记忆，但当前算下来仍比雇人贵。","datePublished":"2026-08-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay.jpg","about":[{"@type":"Person","name":"Flo Crivello"},{"@type":"Person","name":"Nathan"},{"@type":"Organization","name":"Lindy"},{"@type":"Organization","name":"DeepSeek"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"记忆智能体 (memory agent)"},{"@type":"Thing","name":"RAG"},{"@type":"Thing","name":"上下文桶 (context bucket)"},{"@type":"Thing","name":"缓存 (caching)"},{"@type":"Thing","name":"验证器 (validator)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Lindy 创始人谈 AI 员工的上下文战争：从红黑树到\"走去洗车\"","item":"https://talk.solomind.cc/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"
 
-<div class="pd-byl"><b>Flo Crivello</b> · Lindy 创始人 · 2026-08-14</div>
+<div class="pd-byl"><b>Flo Crivello</b> · Lindy 创始人 · 2026-08-21</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **公司** [[Lindy]] · [[DeepSeek]]
 >
 > **概念** [[智能体]] · [[上下文]] · [[记忆智能体]] · [[RAG]] · [[上下文桶]] · [[缓存]] · [[验证器]]
-
-<div class="pd-tldr"><b>一句话</b>Lindy 推出 Slack 内 AI 员工，用记忆智能体和递归上下文桶管理海量团队记忆，但当前算下来仍比雇人贵。</div>
 
 [[Lindy|Lindy]] 推出了一个住在 Slack 里的 AI 员工，叫 Lindy TeamMate，能接入公司所有工具、积累整个团队的[[上下文|上下文]]。创始人 Flo 把这比作从"互相发邮件传文档"到"Google Docs 共享文档"的跃迁——之前每个人要跟 AI 对话都得离开协作空间，现在 AI 就在 Slack 里跟你一起工作 <button class="pd-ts" data-t="04:07" data-who="Unknown" data-en="Just like all your other teammates, whether they be human or agent, tell us about the new big launch. Yeah, from the get-go, we've always been going after the AI employee." aria-label="回原文"></button>。
 

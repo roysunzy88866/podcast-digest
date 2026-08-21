@@ -1,7 +1,7 @@
 ---
 title: "Jessica Fain:如何影响高管——把高管当用户来研究"
 podcast: "Lenny's Podcast"
-date: 2026-03-22
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain
 duration: "93:30"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain#post","headline":"Jessica Fain:如何影响高管——把高管当用户来研究","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","mainEntityOfPage":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","description":"产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。","datePublished":"2026-03-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain","about":[{"@type":"Person","name":"Jessica Fain"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Webflow"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"Jessica Fain:如何影响高管——把高管当用户来研究","item":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain#post","headline":"Jessica Fain:如何影响高管——把高管当用户来研究","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","mainEntityOfPage":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain","description":"产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain","about":[{"@type":"Person","name":"Jessica Fain"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Webflow"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"产品市场契合 (product market fit)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"Jessica Fain:如何影响高管——把高管当用户来研究","item":"https://talk.solomind.cc/2026-03-22-lennys-the-art-of-influence-jessica-fain"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jessica Fain:如何影响高管——把高管当用户来研究</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Jessica Fain:如何影响高管——把高管当用户来研究
 
-<div class="pd-byl"><b>Jessica Fain</b> · Webflow 产品负责人 · 2026-03-22</div>
+<div class="pd-byl"><b>Jessica Fain</b> · Webflow 产品负责人 · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-03-22-lennys-the-art-of-influence-jessica-fain.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[产品市场契合]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
-
-<div class="pd-tldr"><b>一句话</b>产品经理最大的杠杆技能是向上影响力;把高管当作用户来研究,是掌握这项技能的关键。</div>
 
 如果领导者没有认同你的想法,那是你的错——你不能只是说「他们就是不明白」。说这话的人是 [[Jessica Fain|Jessica Fain]],她曾在 Box、[[Slack|Slack]] 和 Brightwheel 担任产品负责人,现在在 [[Webflow|Webflow]]。她在这期访谈中讲透了一门产品经理最高杠杆率的技能:如何向上影响高管。 <button class="pd-ts" data-t="10:23" data-who="Lenny" data-en="But part of that is literally just setting up the meeting effectively, so that they can have the context, the wherewithal, the sort of breadth at the beginning of the meeting, to dive into it." aria-label="回原文"></button> <button class="pd-ts" data-t="01:17" data-who="Lenny" data-en="You have to act like a CPO. Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow. And she has gotten very, very uniquely good at the art and science of influence, and in particular, influencing executives." aria-label="回原文"></button>
 

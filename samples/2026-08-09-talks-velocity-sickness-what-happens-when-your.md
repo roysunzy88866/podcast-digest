@@ -1,7 +1,7 @@
 ---
 title: 速度病：当团队 10 倍速写代码却推不出产品，怎么治
 podcast: 精选演讲
-date: 2026-08-09
+date: 2026-08-12
 source_url: undefined
 duration: "20:27"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your#post","headline":"速度病：当团队 10 倍速写代码却推不出产品，怎么治","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your","description":"AI 让个别工程师狂飙，团队却产出爆表却毫无成果。解法是把工作重心从聊天移到文档。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Dailey"},{"@type":"Organization","name":"REF"},{"@type":"Thing","name":"速度病 (velocity sickness)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"决策层 (decision layer)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"状态 (state)"},{"@type":"Thing","name":"原型重力 (prototype gravity)"},{"@type":"Thing","name":"智能体破产 (agent bankruptcy)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"速度病：当团队 10 倍速写代码却推不出产品，怎么治","item":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your#post","headline":"速度病：当团队 10 倍速写代码却推不出产品，怎么治","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your","mainEntityOfPage":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your","description":"AI 让个别工程师狂飙，团队却产出爆表却毫无成果。解法是把工作重心从聊天移到文档。","datePublished":"2026-08-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Matt Dailey"},{"@type":"Organization","name":"REF"},{"@type":"Thing","name":"速度病 (velocity sickness)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"决策层 (decision layer)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"状态 (state)"},{"@type":"Thing","name":"原型重力 (prototype gravity)"},{"@type":"Thing","name":"智能体破产 (agent bankruptcy)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"速度病：当团队 10 倍速写代码却推不出产品，怎么治","item":"https://talk.solomind.cc/2026-08-09-talks-velocity-sickness-what-happens-when-your"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>速度病：当团队 10 倍速写代码却推不出产品，怎么治</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 速度病：当团队 10 倍速写代码却推不出产品，怎么治
 
-<div class="pd-byl"><b>Matt Dailey</b> · Ref CEO · 2026-08-09</div>
+<div class="pd-byl"><b>Matt Dailey</b> · Ref CEO · 2026-08-12</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-09-talks-velocity-sickness-what-happens-when-your.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[REF]]
 >
 > **概念** [[速度病]] · [[智能体]] · [[决策层]] · [[上下文工程]] · [[状态]] · [[原型重力]] · [[智能体破产]]
-
-<div class="pd-tldr"><b>一句话</b>AI 让个别工程师狂飙，团队却产出爆表却毫无成果。解法是把工作重心从聊天移到文档。</div>
 
 AI 让个别工程师写得飞快，但很多团队的整体产出却陷入了「写了一堆没人看的东西」的窘境。Matt 是 Ref 的 CEO，他观察到工程师用 AI 变快后，团队反而集体染上了「[[速度病|速度病]]（指因 AI 导致产出突然暴增而引发的压力，结果是有产出却没影响）」<button class="pd-ts" data-t="03:52" data-who="Matt" data-en="These are a bunch of problems you might be experiencing at different degrees at different days. The way I like to bundle it up is into this term velocity sickness." aria-label="回原文"></button>。
 

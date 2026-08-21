@@ -1,7 +1,7 @@
 ---
 title: 52岁入职Airbnb：年长者在科技公司怎么活下来、活得好
 podcast: "Lenny's Podcast"
-date: 2025-08-03
+date: 2026-08-18
 source_url: https://www.lennysnewsletter.com/p/chip-conley
 duration: "79:32"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-08-03-lennys-chip-conley.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley#post","headline":"52岁入职Airbnb：年长者在科技公司怎么活下来、活得好","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley","mainEntityOfPage":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley","description":"Chip Connolly 52岁加入Airbnb，从\"最笨的人\"变成\"现代长者\"，讲透了代际协作和中年转型的实质。","datePublished":"2025-08-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-08-03-lennys-chip-conley.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/chip-conley","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Chip Connolly"},{"@type":"Organization","name":"Airbnb"},{"@type":"Organization","name":"Modern Elder Academy"},{"@type":"Organization","name":"Joie de Vivre"},{"@type":"Thing","name":"创始人模式 (founder mode)"},{"@type":"Thing","name":"流体智力 (fluid intelligence)"},{"@type":"Thing","name":"晶体智力 (crystallized intelligence)"},{"@type":"Thing","name":"隐形生产力 (invisible productivity)"},{"@type":"Thing","name":"文化增项 (culture add)"},{"@type":"Thing","name":"幸福的 U 型曲线 (U-curve of happiness)"},{"@type":"Thing","name":"蛹期 (chrysalis)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"52岁入职Airbnb：年长者在科技公司怎么活下来、活得好","item":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley#post","headline":"52岁入职Airbnb：年长者在科技公司怎么活下来、活得好","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley","mainEntityOfPage":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley","description":"Chip Connolly 52岁加入Airbnb，从\"最笨的人\"变成\"现代长者\"，讲透了代际协作和中年转型的实质。","datePublished":"2026-08-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-08-03-lennys-chip-conley.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/chip-conley","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Chip Connolly"},{"@type":"Organization","name":"Airbnb"},{"@type":"Organization","name":"Modern Elder Academy"},{"@type":"Organization","name":"Joie de Vivre"},{"@type":"Thing","name":"创始人模式 (founder mode)"},{"@type":"Thing","name":"流体智力 (fluid intelligence)"},{"@type":"Thing","name":"晶体智力 (crystallized intelligence)"},{"@type":"Thing","name":"隐形生产力 (invisible productivity)"},{"@type":"Thing","name":"文化增项 (culture add)"},{"@type":"Thing","name":"幸福的 U 型曲线 (U-curve of happiness)"},{"@type":"Thing","name":"蛹期 (chrysalis)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"52岁入职Airbnb：年长者在科技公司怎么活下来、活得好","item":"https://talk.solomind.cc/2025-08-03-lennys-chip-conley"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>52岁入职Airbnb：年长者在科技公司怎么活下来、活得好</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 52岁入职Airbnb：年长者在科技公司怎么活下来、活得好
 
-<div class="pd-byl"><b>Chip Connolly</b> · 2025-08-03</div>
+<div class="pd-byl"><b>Chip Connolly</b> · 2026-08-18</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-08-03-lennys-chip-conley.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[创始人模式]] · [[流体智力]] · [[晶体智力]] · [[隐形生产力]] · [[文化增项]] · [[幸福的 U 型曲线]] · [[蛹期]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/chip-conley)
-
-<div class="pd-tldr"><b>一句话</b>Chip Connolly 52岁加入Airbnb，从"最笨的人"变成"现代长者"，讲透了代际协作和中年转型的实质。</div>
 
 52岁进了家科技公司，平均年龄26岁，你指导的老板比你小21岁——[[Chip Connolly|Chip Connolly]] 做到了，但他第一件事不是摆资历，而是让自己当"房间里最笨的人" <button class="pd-ts" data-t="06:24" data-who="Chip Connolly" data-en="see whether the younger crowd there... I was 52, the average age was 26," aria-label="回原文"></button>。他去 [[Airbnb|Airbnb]] 时不懂任何技术术语，连"产品"这个词的意思都跟团队拧着：他觉得产品就是那些房子和公寓，首席产品官 Jobot 告诉他，科技行业里"产品"是另一回事 <button class="pd-ts" data-t="08:12" data-who="Chip Connolly" data-en="you know, I'm the chief product officer. And I'm like, well, isn't the product the homes and the apartments?" aria-label="回原文"></button>。他能待下去、甚至干出价值，靠的不是经验碾压，是一套具体的生存策略。
 

@@ -1,7 +1,7 @@
 ---
 title: Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源
 podcast: "Lenny's Podcast"
-date: 2025-07-20
+date: 2026-08-18
 source_url: https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann
 duration: "74:55"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2025-07-20-lennys-anthropic-co-founder-benjamin-mann.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann#post","headline":"Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann","mainEntityOfPage":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann","description":"Anthropic 联合创始人谈超级智能时间线、宪法 AI 如何工作，以及为什么安全研究决定了产品的性格。","datePublished":"2025-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-20-lennys-anthropic-co-founder-benjamin-mann.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Benjamin Mann"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"宪法 AI (constitutional AI)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"缩放定律 (scaling laws)"},{"@type":"Thing","name":"对齐 (alignment)"},{"@type":"Thing","name":"超级智能 (superintelligence)"},{"@type":"Thing","name":"RLAIF"},{"@type":"Thing","name":"经济图灵测试 (Economic Turing Test)"},{"@type":"Thing","name":"变革性 AI (transformative AI)"},{"@type":"Thing","name":"ASL"},{"@type":"Thing","name":"X 风险 (X-risk)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源","item":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann#post","headline":"Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann","mainEntityOfPage":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann","description":"Anthropic 联合创始人谈超级智能时间线、宪法 AI 如何工作，以及为什么安全研究决定了产品的性格。","datePublished":"2026-08-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-20-lennys-anthropic-co-founder-benjamin-mann.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Benjamin Mann"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"Claude"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"宪法 AI (constitutional AI)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"缩放定律 (scaling laws)"},{"@type":"Thing","name":"对齐 (alignment)"},{"@type":"Thing","name":"超级智能 (superintelligence)"},{"@type":"Thing","name":"RLAIF"},{"@type":"Thing","name":"经济图灵测试 (Economic Turing Test)"},{"@type":"Thing","name":"变革性 AI (transformative AI)"},{"@type":"Thing","name":"ASL"},{"@type":"Thing","name":"X 风险 (X-risk)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源","item":"https://talk.solomind.cc/2025-07-20-lennys-anthropic-co-founder-benjamin-mann"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源
 
-<div class="pd-byl"><b>Benjamin Mann</b> · Anthropic 联合创始人 · 2025-07-20</div>
+<div class="pd-byl"><b>Benjamin Mann</b> · Anthropic 联合创始人 · 2026-08-18</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-20-lennys-anthropic-co-founder-benjamin-mann.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[Claude]] · [[Claude Code]] · [[宪法 AI]] · [[智能体]] · [[缩放定律]] · [[对齐]] · [[超级智能]] · [[RLAIF]] · [[经济图灵测试]] · [[变革性 AI]] · [[ASL]] · [[X 风险]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann)
-
-<div class="pd-tldr"><b>一句话</b>Anthropic 联合创始人谈超级智能时间线、宪法 AI 如何工作，以及为什么安全研究决定了产品的性格。</div>
 
 Ben 是 [[Anthropic|Anthropic]] 联合创始人，也是 GPT-3 的架构师之一。他把 50% 的概率押在短短几年内出现某种[[超级智能|超级智能]]上——这个预测不是拍脑袋，而是基于[[缩放定律|缩放定律]]在跨越 15 个数量级后依然成立这个事实 <button class="pd-ts" data-t="46:13" data-who="Benjamin Mann" data-en="They already had the SEO. I think 50th percentile chance of hitting some kind of superintelligence in just a small handful of years is probably reasonable. And it does sound crazy, but this is the exponential that we're on." aria-label="回原文"></button>。
 

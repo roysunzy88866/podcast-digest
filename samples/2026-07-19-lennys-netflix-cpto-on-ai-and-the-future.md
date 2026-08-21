@@ -1,7 +1,7 @@
 ---
 title: "Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失"
 podcast: "Lenny's Podcast"
-date: 2026-07-19
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future
 duration: "72:05"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future#post","headline":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","mainEntityOfPage":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","description":"Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Elizabeth Stone"},{"@type":"Organization","name":"Netflix"},{"@type":"Organization","name":"InterPositive"},{"@type":"Thing","name":"GenAI"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"动荡阶段 (storming phase)"},{"@type":"Thing","name":"留任测试 (keeper's test)"},{"@type":"Thing","name":"卓越即操作系统 (excellence as an operating system)"},{"@type":"Thing","name":"铺设路径 (paved paths)"},{"@type":"Thing","name":"人才密度 (talent density)"},{"@type":"Thing","name":"无责复盘 (blameless retro)"},{"@type":"Thing","name":"AI 熟练度 (AI fluency)"},{"@type":"Thing","name":"真相来源数据 (source of truth data)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","item":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future#post","headline":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","mainEntityOfPage":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future","description":"Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Elizabeth Stone"},{"@type":"Organization","name":"Netflix"},{"@type":"Organization","name":"InterPositive"},{"@type":"Thing","name":"GenAI"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"系统思维 (systems thinking)"},{"@type":"Thing","name":"动荡阶段 (storming phase)"},{"@type":"Thing","name":"留任测试 (keeper's test)"},{"@type":"Thing","name":"卓越即操作系统 (excellence as an operating system)"},{"@type":"Thing","name":"铺设路径 (paved paths)"},{"@type":"Thing","name":"人才密度 (talent density)"},{"@type":"Thing","name":"无责复盘 (blameless retro)"},{"@type":"Thing","name":"AI 熟练度 (AI fluency)"},{"@type":"Thing","name":"真相来源数据 (source of truth data)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失","item":"https://talk.solomind.cc/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
 
-<div class="pd-byl"><b>Elizabeth Stone</b> · Netflix 产品负责人 · 2026-07-19</div>
+<div class="pd-byl"><b>Elizabeth Stone</b> · Netflix 产品负责人 · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]] · [[人才密度]] · [[无责复盘]] · [[AI 熟练度]] · [[真相来源数据]] · [[护栏]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
-
-<div class="pd-tldr"><b>一句话</b>Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。</div>
 
 两年半前,[[Elizabeth Stone|Elizabeth Stone]] 第一次做客这档播客时,她还是 [[Netflix|Netflix]] 的 CTO,那时候 AI 远没有如今这么轰动;今天她已经是 Netflix 的产品与技术负责人,而 AI 已经在彻底改变科技公司内部的协作方式。这期对话的核心问题非常贴近每一个职场人:当 PM 能写代码、设计师能做产品、工程师能做分析时,职能边界变得模糊,我们到底该怎么重新理解自己的工作?接下来的内容围绕四个层面展开——先是 AI 如何改变团队角色分工,然后是 Netflix 因此在招什么样的人、如何考核,接着是支撑这一切的「[[卓越即操作系统|卓越即操作系统]]」文化究竟怎么落地,最后聊到 AI 会怎样改变娱乐本身。
 

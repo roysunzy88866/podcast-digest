@@ -1,7 +1,7 @@
 ---
 title: 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 podcast: "Lenny's Podcast"
-date: 2026-02-26
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival
 duration: "87:20"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival#post","headline":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","mainEntityOfPage":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","description":"Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。","datePublished":"2026-02-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival","about":[{"@type":"Person","name":"Jeetu Patel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cisco"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"AI 优先 (AI-first)"},{"@type":"Thing","name":"能力过剩 (capabilities overhang)"},{"@type":"Thing","name":"超级趋势 (megatrend)"},{"@type":"Thing","name":"炒作周期 (hype cycle)"},{"@type":"Thing","name":"丢包 (packet loss)"},{"@type":"Thing","name":"松散耦合 (loosely coupled)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","item":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival#post","headline":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","mainEntityOfPage":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival","description":"Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival","about":[{"@type":"Person","name":"Jeetu Patel"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Cisco"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Thing","name":"AI 优先 (AI-first)"},{"@type":"Thing","name":"能力过剩 (capabilities overhang)"},{"@type":"Thing","name":"超级趋势 (megatrend)"},{"@type":"Thing","name":"炒作周期 (hype cycle)"},{"@type":"Thing","name":"丢包 (packet loss)"},{"@type":"Thing","name":"松散耦合 (loosely coupled)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言","item":"https://talk.solomind.cc/2026-02-26-lennys-ai-is-critical-for-humanitys-survival"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 
-<div class="pd-byl"><b>Jeetu Patel</b> · Cisco CPO · 2026-02-26</div>
+<div class="pd-byl"><b>Jeetu Patel</b> · Cisco CPO · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]] · [[松散耦合]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
-
-<div class="pd-tldr"><b>一句话</b>Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。</div>
 
 管理着 9 万人大厂里的 3 万名员工，他直言：如果没有 AI，自己根本接不下这份工作。说这话的人是 [[Jeetu Patel|Jeetu Patel]]，[[Cisco|Cisco]] 的首席产品官。作为一个没有网络硬件背景的「应用层人」，他在三个月内靠着 AI 工具完成了对庞杂业务领域的恶补，拿下了这个职位 <button class="pd-ts" data-t="80:47" data-who="Jeetu Patel" data-en="It's changed my life in the way that I learn in some ridiculous ways. So I actually feel like when I got this new job to run all product for Cisco, there's zero chance I would've been able to do it if AI wasn't there." aria-label="回原文"></button>。
 

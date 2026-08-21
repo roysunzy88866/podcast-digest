@@ -39,8 +39,6 @@ jsonLd: |
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30)
 
-<div class="pd-tldr"><b>一句话</b>别让 AI 生成的 PR 堵死你的审查队列，用智能体自动评分，低风险直接放行。</div>
-
 既然每个人都能用 AI 写代码，那你的公司大概率正被堆积如山的 PR（拉取请求）淹没——[[Claire|Claire]] 在这一集开场就甩出了最反直觉的结论：**你实际上根本不需要由人类一条条去审查所有这些 PR** <button class="pd-ts" data-t="00:37" data-who="Claire" data-en="And you know what the answer is? You don't have to review all your PRs. Yep." aria-label="回原文"></button>。在 2026 年，完全可以通过把 AI 放进审查流程里，安全地跳过人工把关。
 
 这一集来自她的 How I AI 节目，Claire 是 [[ChatPRD|ChatPRD]] 的创始人，这次她手把手演示了如何构建一个 PR 审查、[[风险评分|风险评分]]和自动批准机器人。你会听到三块内容：首先是 [[Intercom|Intercom]] 是怎么用这套机制把 PR 吞吐量提高两三倍的同时，还能保证合规的；接着是她如何用 [[Vercel|Vercel]] 的 [[Eve|Eve]] 框架，配合 [[Codex|Codex]] 的浏览器操作功能，极其简单地搭出这个[[智能体|智能体]]；最后是具体的落地工作流，以及她对评估和维护这类代码机器人的建议。

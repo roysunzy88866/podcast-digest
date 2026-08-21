@@ -1,7 +1,7 @@
 ---
 title: Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞
 podcast: "Lenny's Podcast"
-date: 2025-07-03
+date: 2026-08-19
 source_url: https://www.lennysnewsletter.com/p/ive-run-75-businesses-andrew-wilkinson
 duration: "88:04"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson#post","headline":"Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson","mainEntityOfPage":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson","description":"从创业选赛道到AI自动化工作流，再到钱买不到快乐的真相。","datePublished":"2025-07-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/ive-run-75-businesses-andrew-wilkinson","about":[{"@type":"Person","name":"Andrew Wilkinson"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Tiny"},{"@type":"Organization","name":"Lindy"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Limitless"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"Letterboxd"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"网络效应 (network effect)"},{"@type":"Thing","name":"自举 (bootstrap)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"SSRI"},{"@type":"Thing","name":"ADHD"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞","item":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson#post","headline":"Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson","mainEntityOfPage":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson","description":"从创业选赛道到AI自动化工作流，再到钱买不到快乐的真相。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/ive-run-75-businesses-andrew-wilkinson","about":[{"@type":"Person","name":"Andrew Wilkinson"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Tiny"},{"@type":"Organization","name":"Lindy"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Limitless"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Organization","name":"Letterboxd"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"网络效应 (network effect)"},{"@type":"Thing","name":"自举 (bootstrap)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"SSRI"},{"@type":"Thing","name":"ADHD"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞","item":"https://talk.solomind.cc/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞
 
-<div class="pd-byl"><b>Andrew Wilkinson</b> · Tiny 联合创始人 · 2025-07-03</div>
+<div class="pd-byl"><b>Andrew Wilkinson</b> · Tiny 联合创始人 · 2026-08-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[vibe coding]] · [[网络效应]] · [[自举]] · [[护城河]] · [[SSRI]] · [[ADHD]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/ive-run-75-businesses-andrew-wilkinson)
-
-<div class="pd-tldr"><b>一句话</b>从创业选赛道到AI自动化工作流，再到钱买不到快乐的真相。</div>
 
 [[Andrew Wilkinson|Andrew Wilkinson]] 创办或参与过 75 个项目，买下超过 40 家公司——他说自己犯过最大的错，就是进入别人反复失败的商业模式，然后想"我能做得更好"。<button class="pd-ts" data-t="26:30" data-who="Andrew Wilkinson" data-en="right so it doesn't there's no and the whole time you know i had been focusing on taking you know starting small businesses small ideas simple ideas often buying" aria-label="回原文"></button>
 

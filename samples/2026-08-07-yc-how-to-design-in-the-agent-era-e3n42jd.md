@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[MCP 服务器]] · [[代码即真相来源]] · [[策展式设计]] · [[HTML]] · [[CSS]] · [[Paper Snapshot]] · [[着色器]] · [[Paper Mono]] · [[React]]
 
-<div class="pd-tldr"><b>一句话</b>Stephen Haney 带着他 12 人的团队打造了 Paper,一款直接以 HTML 和 CSS 为底层的设计工具。</div>
-
 你一眼就能认出那种「AI 味」的网站:超粗体的大标题、铺天盖地的紫色渐变、为了凑数堆砌的卡片和图标——它们看起来像是用 vibe coding(全凭感觉用自然语言让 AI 写代码的做法)随手糊出来的。说这话的人是 [[Stephen Haney|Stephen Haney]],[[Paper|Paper]] 的创始人。
 
 在他看来,如果你直接把模型吐出来的设计上线,你的产品就会沦为百万个平庸项目中的一个。过去 10 年、20 年里所有伟大的公司,几乎都有着卓越的设计 <button class="pd-ts" data-t="00:19" data-who="Stephen Haney" data-en="And so I think design is this great differentiator. And if you look at every great company of the last 10, 20 years, basically all of them have exceptional design." aria-label="回原文"></button>。

@@ -1,7 +1,7 @@
 ---
 title: Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱
 podcast: "Lenny's Podcast"
-date: 2025-11-20
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield
 duration: "90:31"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-11-20-lennys-slack-founder-stewart-butterfield.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield#post","headline":"Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield","mainEntityOfPage":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield","description":"从效用曲线到「超写实工作状活动」，剖析好产品的标准与公司膨胀的顽疾。","datePublished":"2025-11-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-20-lennys-slack-founder-stewart-butterfield.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield","about":[{"@type":"Person","name":"Stewart Butterfield"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Slack"},{"@type":"Organization","name":"Glitch"},{"@type":"Thing","name":"效用曲线 (utility curves)"},{"@type":"Thing","name":"摩擦力 (friction)"},{"@type":"Thing","name":"超逼真的类工作活动 (hyperrealistic work-like activities)"},{"@type":"Thing","name":"帕金森定律 (Parkinson's Law)"},{"@type":"Thing","name":"所有者的错觉 (owner's delusion)"},{"@type":"Thing","name":"我们不卖马鞍 (We Don't Sell Saddles Here)"},{"@type":"Thing","name":"转型 (pivot)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱","item":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield#post","headline":"Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield","mainEntityOfPage":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield","description":"从效用曲线到「超写实工作状活动」，剖析好产品的标准与公司膨胀的顽疾。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-20-lennys-slack-founder-stewart-butterfield.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield","about":[{"@type":"Person","name":"Stewart Butterfield"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Slack"},{"@type":"Organization","name":"Glitch"},{"@type":"Thing","name":"效用曲线 (utility curves)"},{"@type":"Thing","name":"摩擦力 (friction)"},{"@type":"Thing","name":"超逼真的类工作活动 (hyperrealistic work-like activities)"},{"@type":"Thing","name":"帕金森定律 (Parkinson's Law)"},{"@type":"Thing","name":"所有者的错觉 (owner's delusion)"},{"@type":"Thing","name":"我们不卖马鞍 (We Don't Sell Saddles Here)"},{"@type":"Thing","name":"转型 (pivot)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱","item":"https://talk.solomind.cc/2025-11-20-lennys-slack-founder-stewart-butterfield"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱
 
-<div class="pd-byl"><b>Stewart Butterfield</b> · Slack 创始人 · 2025-11-20</div>
+<div class="pd-byl"><b>Stewart Butterfield</b> · Slack 创始人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-20-lennys-slack-founder-stewart-butterfield.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[效用曲线]] · [[摩擦力]] · [[超逼真的类工作活动]] · [[帕金森定律]] · [[所有者的错觉]] · [[我们不卖马鞍]] · [[转型]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield)
-
-<div class="pd-tldr"><b>一句话</b>从效用曲线到「超写实工作状活动」，剖析好产品的标准与公司膨胀的顽疾。</div>
 
 「我觉得我们现在拥有的东西就是一大坨屎，太糟糕了，我们把它提供给公众，应该感到羞耻。」这话不是说给失败者的，而是说给 [[Slack|Slack]] 创始人自己听的——那是 Slack 正式发布的同一年，公司已经广受好评。说这话的人是 [[Stewart Butterfield|Stewart Butterfield]]，他创办的 Flickr 和 Slack 是互联网史上最成功的大[[转型|转型]]产物，也是被竞相研究的「品味型」产品标杆 <button class="pd-ts" data-t="00:08" data-who="Stewart Butterfield" data-en="I was interviewed by MIT Technology Review and asked if we were working to improve Slack. I said, &quot;I feel like what we have right now is just a giant piece of shit." aria-label="回原文"></button>。
 

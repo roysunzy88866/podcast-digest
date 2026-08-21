@@ -1,7 +1,7 @@
 ---
 title: 一个人六个月做出八千万美元公司
 podcast: "Lenny's Podcast"
-date: 2025-07-06
+date: 2026-08-19
 source_url: https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo
 duration: "91:46"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-07-06-lennys-the-base44-bootstrapped-startup-success.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success#post","headline":"一个人六个月做出八千万美元公司","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success","mainEntityOfPage":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success","description":"独立创始人零融资，六个月从零到以八千万美元被 Wix 收购，全靠 AI 写代码。","datePublished":"2025-07-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-06-lennys-the-base44-bootstrapped-startup-success.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Maor Shlomo"},{"@type":"Organization","name":"Base44"},{"@type":"Organization","name":"Wix"},{"@type":"Organization","name":"Render.com"},{"@type":"Organization","name":"MongoDB"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"bootstrapping"},{"@type":"Thing","name":"公开构建 (build in public)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"一个人六个月做出八千万美元公司","item":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success#post","headline":"一个人六个月做出八千万美元公司","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success","mainEntityOfPage":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success","description":"独立创始人零融资，六个月从零到以八千万美元被 Wix 收购，全靠 AI 写代码。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-06-lennys-the-base44-bootstrapped-startup-success.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Maor Shlomo"},{"@type":"Organization","name":"Base44"},{"@type":"Organization","name":"Wix"},{"@type":"Organization","name":"Render.com"},{"@type":"Organization","name":"MongoDB"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"bootstrapping"},{"@type":"Thing","name":"公开构建 (build in public)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"一个人六个月做出八千万美元公司","item":"https://talk.solomind.cc/2025-07-06-lennys-the-base44-bootstrapped-startup-success"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一个人六个月做出八千万美元公司</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 一个人六个月做出八千万美元公司
 
-<div class="pd-byl"><b>Maor Shlomo</b> · 2025-07-06</div>
+<div class="pd-byl"><b>Maor Shlomo</b> · 2026-08-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-06-lennys-the-base44-bootstrapped-startup-success.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[vibe coding]] · [[LLM]] · [[bootstrapping]] · [[公开构建]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-base44-bootstrapped-startup-success-story-maor-shlomo)
-
-<div class="pd-tldr"><b>一句话</b>独立创始人零融资，六个月从零到以八千万美元被 Wix 收购，全靠 AI 写代码。</div>
 
 [[Maor Shlomo|Maor Shlomo]] 做了一个叫 [[Base44|Base44]] 的 AI 应用构建平台——你用自然语言描述想要的东西，AI 帮你写代码把它做出来。六个月后，他以超过 8000 万美元的价格把公司卖给了 [[Wix|Wix]]。
 

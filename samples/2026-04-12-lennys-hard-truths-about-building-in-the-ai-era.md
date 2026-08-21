@@ -1,7 +1,7 @@
 ---
 title: Keith Rabois：别招大厂高管，别做客户调研
 podcast: "Lenny's Podcast"
-date: 2026-04-12
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era
 duration: "82:37"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#post","headline":"Keith Rabois：别招大厂高管，别做客户调研","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","mainEntityOfPage":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","description":"Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。","datePublished":"2026-04-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era","about":[{"@type":"Person","name":"Keith Rabois"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"PayPal"},{"@type":"Organization","name":"Square"},{"@type":"Organization","name":"Faire"},{"@type":"Organization","name":"Ramp"},{"@type":"Organization","name":"Airbnb"},{"@type":"Thing","name":"桶和弹药 (barrels and ammunition)"},{"@type":"Thing","name":"人才密度 (density of talent)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"商业头脑 (business acumen)"},{"@type":"Thing","name":"客户反馈 (customer feedback)"},{"@type":"Thing","name":"心理安全感 (psychological safety)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Keith Rabois：别招大厂高管，别做客户调研","item":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#post","headline":"Keith Rabois：别招大厂高管，别做客户调研","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","mainEntityOfPage":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era","description":"Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era","about":[{"@type":"Person","name":"Keith Rabois"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"PayPal"},{"@type":"Organization","name":"Square"},{"@type":"Organization","name":"Faire"},{"@type":"Organization","name":"Ramp"},{"@type":"Organization","name":"Airbnb"},{"@type":"Thing","name":"桶和弹药 (barrels and ammunition)"},{"@type":"Thing","name":"人才密度 (density of talent)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"商业头脑 (business acumen)"},{"@type":"Thing","name":"客户反馈 (customer feedback)"},{"@type":"Thing","name":"心理安全感 (psychological safety)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Keith Rabois：别招大厂高管，别做客户调研","item":"https://talk.solomind.cc/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois：别招大厂高管，别做客户调研</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Keith Rabois：别招大厂高管，别做客户调研
 
-<div class="pd-byl"><b>Keith Rabois</b> · Khosla Ventures 董事总经理 · 2026-04-12</div>
+<div class="pd-byl"><b>Keith Rabois</b> · Khosla Ventures 董事总经理 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]] · [[客户反馈]] · [[心理安全感]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era)
-
-<div class="pd-tldr"><b>一句话</b>Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。</div>
 
 一家公司里能独立把一件事从头做到尾的人，通常只有 2 到 15 个。你招再多人，只要这批人的数量不增加，公司产出的东西就不会变多——多出来的只是协作成本。说这话的人是 [[Keith Rabois|Keith Rabois]]，他是 [[PayPal|PayPal]] 黑手党的早期成员，投过 Stripe、[[Airbnb|Airbnb]]、DoorDash、YouTube，现在在 Khosla Ventures 做投资。
 

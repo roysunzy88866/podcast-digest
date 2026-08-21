@@ -1,7 +1,7 @@
 ---
 title: "让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包"
 podcast: Product Growth Podcast
-date: 2026-08-06
+date: 2026-08-07
 source_url: https://www.news.aakashg.com/p/oji-udezue-claude-skills
 duration: "64:09"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills#post","headline":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","description":"用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。","datePublished":"2026-08-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg","isBasedOn":"https://www.news.aakashg.com/p/oji-udezue-claude-skills","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Oji Udezue"},{"@type":"Organization","name":"Product Mind"},{"@type":"Organization","name":"GitHub"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"项目脚手架技能 (scaffolding skill)"},{"@type":"Thing","name":"可行性闸门 (viability gate)"},{"@type":"Thing","name":"vibe coder"},{"@type":"Thing","name":"builder PM"},{"@type":"Thing","name":"AI 原生 (AI native)"},{"@type":"Thing","name":"三速问题 (three speed problem)"},{"@type":"Thing","name":"客户发现周 (customer discovery week)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","item":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills#post","headline":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","description":"用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg","isBasedOn":"https://www.news.aakashg.com/p/oji-udezue-claude-skills","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Oji Udezue"},{"@type":"Organization","name":"Product Mind"},{"@type":"Organization","name":"GitHub"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"项目脚手架技能 (scaffolding skill)"},{"@type":"Thing","name":"可行性闸门 (viability gate)"},{"@type":"Thing","name":"vibe coder"},{"@type":"Thing","name":"builder PM"},{"@type":"Thing","name":"AI 原生 (AI native)"},{"@type":"Thing","name":"三速问题 (three speed problem)"},{"@type":"Thing","name":"客户发现周 (customer discovery week)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","item":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包
 
-<div class="pd-byl"><b>Oji Udezue</b> · Typeform 和 Calendly 的 CPO · 2026-08-06</div>
+<div class="pd-byl"><b>Oji Udezue</b> · Typeform 和 Calendly 的 CPO · 2026-08-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-06-pg-oji-udezue-claude-skills.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[AI 原生]] · [[三速问题]] · [[客户发现周]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/oji-udezue-claude-skills)
-
-<div class="pd-tldr"><b>一句话</b>用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。</div>
 
 做了 25 年产品经理、当过 Typeform 和 Calendly 的 CPO,他最近才头一回觉得编程值得自己花时间——因为他发现 AI 现在不只能帮你写代码,还能在写代码之前就替你把关:这个产品到底该不该做。说这话的人是 [[Oji Udezue|Oji Udezue]],这一集 [[Aakash|Aakash]] 请他来现场演示怎么做到的。
 

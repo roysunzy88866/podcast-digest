@@ -1,7 +1,7 @@
 ---
 title: 老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石
 podcast: "Lenny's Podcast"
-date: 2026-03-12
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter
 duration: "66:51"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 增长与销售
 socialImage: "https://talk.solomind.cc/covers/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#post","headline":"老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter","mainEntityOfPage":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter","description":"妻子 Michelle 反客为主，拷问 Lenny 时事通讯的起点、最害怕的时刻与创作心法。","datePublished":"2026-03-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter","about":[{"@type":"Person","name":"Lenny Rachitsky"},{"@type":"Person","name":"Michelle Rial"},{"@type":"Organization","name":"Substack"},{"@type":"Organization","name":"Airbnb"},{"@type":"Organization","name":"Medium"},{"@type":"Thing","name":"简报 (newsletter)"},{"@type":"Thing","name":"播客 (podcast)"},{"@type":"Thing","name":"付费墙 (paywall)"},{"@type":"Thing","name":"林迪效应 (Lindy effect)"},{"@type":"Thing","name":"幸福基线 (baseline level of happiness)"},{"@type":"Thing","name":"产品经理 (product manager)"},{"@type":"Thing","name":"产品管理 (product management)"},{"@type":"Thing","name":"迭代 (iterations)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石","item":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#post","headline":"老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter","mainEntityOfPage":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter","description":"妻子 Michelle 反客为主，拷问 Lenny 时事通讯的起点、最害怕的时刻与创作心法。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter","about":[{"@type":"Person","name":"Lenny Rachitsky"},{"@type":"Person","name":"Michelle Rial"},{"@type":"Organization","name":"Substack"},{"@type":"Organization","name":"Airbnb"},{"@type":"Organization","name":"Medium"},{"@type":"Thing","name":"简报 (newsletter)"},{"@type":"Thing","name":"播客 (podcast)"},{"@type":"Thing","name":"付费墙 (paywall)"},{"@type":"Thing","name":"林迪效应 (Lindy effect)"},{"@type":"Thing","name":"幸福基线 (baseline level of happiness)"},{"@type":"Thing","name":"产品经理 (product manager)"},{"@type":"Thing","name":"产品管理 (product management)"},{"@type":"Thing","name":"迭代 (iterations)"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石","item":"https://talk.solomind.cc/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石
 
-<div class="pd-byl"><b>Lenny Rachitsky</b> · 2026-03-12</div>
+<div class="pd-byl"><b>Lenny Rachitsky</b> · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[简报]] · [[播客]] · [[付费墙]] · [[林迪效应]] · [[幸福基线]] · [[产品经理]] · [[产品管理]] · [[迭代]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter)
-
-<div class="pd-tldr"><b>一句话</b>妻子 Michelle 反客为主，拷问 Lenny 时事通讯的起点、最害怕的时刻与创作心法。</div>
 
 一个以采访顶尖科技人著称的[[播客|播客]]主，把他整集话筒交给了妻子——他最高光的转折点，竟然是在致幻剂作用下看着幻觉里的佛像，反复听到「我有智慧要分享」。这场没有任何提纲的对谈里，他坦白了 120 万订阅背后的孤独、作弊风暴，以及妻子生产时命悬一线的至暗时刻。
 

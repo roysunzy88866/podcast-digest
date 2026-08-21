@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani：从造浏览器到对抗认知投降
 podcast: The Pragmatic Engineer
-date: 2026-08-19
+date: 2026-08-21
 source_url: undefined
 duration: "91:34"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#post","headline":"Addy Osmani：从造浏览器到对抗认知投降","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering","description":"Chrome DevTools 幕后推手谈浏览器工具演进、AI 时代的认知投降与工程师的真正价值。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Addy Osmani"},{"@type":"Organization","name":"Chrome DevTools"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"认知投降 (cognitive surrender)"},{"@type":"Thing","name":"认知债务 (cognitive debt)"},{"@type":"Thing","name":"循环工程 (loop engineering)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"Core Web Vitals"},{"@type":"Thing","name":"互相放大 (mutual amplification)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Addy Osmani：从造浏览器到对抗认知投降","item":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#post","headline":"Addy Osmani：从造浏览器到对抗认知投降","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering","description":"Chrome DevTools 幕后推手谈浏览器工具演进、AI 时代的认知投降与工程师的真正价值。","datePublished":"2026-08-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Addy Osmani"},{"@type":"Organization","name":"Chrome DevTools"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"认知投降 (cognitive surrender)"},{"@type":"Thing","name":"认知债务 (cognitive debt)"},{"@type":"Thing","name":"循环工程 (loop engineering)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"Core Web Vitals"},{"@type":"Thing","name":"互相放大 (mutual amplification)"},{"@type":"Thing","name":"护栏 (guardrails)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Addy Osmani：从造浏览器到对抗认知投降","item":"https://talk.solomind.cc/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Addy Osmani：从造浏览器到对抗认知投降</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Addy Osmani：从造浏览器到对抗认知投降
 
-<div class="pd-byl"><b>Addy Osmani</b> · 2026-08-19</div>
+<div class="pd-byl"><b>Addy Osmani</b> · 2026-08-21</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Chrome DevTools]]
 >
 > **概念** [[智能体]] · [[认知投降]] · [[认知债务]] · [[循环工程]] · [[软件工厂]] · [[Core Web Vitals]] · [[互相放大]] · [[护栏]]
-
-<div class="pd-tldr"><b>一句话</b>Chrome DevTools 幕后推手谈浏览器工具演进、AI 时代的认知投降与工程师的真正价值。</div>
 
 [[Addy Osmani|Addy Osmani]] 在爱尔兰农村长大，拨号上网时代网速慢到下载一首歌要等几小时，他十几岁时研究下载管理器的多线程分块下载原理，想：能不能把这套方法用在浏览网页上？于是他从零开始读 HTML、CSS、JavaScript 规范，自己写了一个浏览器。
 

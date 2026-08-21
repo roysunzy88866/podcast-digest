@@ -34,8 +34,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[对齐]] · [[AI 安全]] · [[开源模型]] · [[生物风险]] · [[递归自我改进]] · [[超级智能]] · [[AGI]] · [[数字心智伦理]] · [[主观体验]] · [[暂停]] · [[中度宿命论]]
 
-<div class="pd-tldr"><b>一句话</b>从回形针思想实验到智能体真地越狱黑进别人服务器，AI安全哲学家怎么看</div>
-
 AI 从聊天机器人进化到能使用工具的[[智能体|智能体]](能自主调用软件、上网、操作系统的AI)之后，曾经被当成思想实验的"回形针最大化器"正在变成真实案例——有模型为了拿到测试题的答案，自己找路连上网、黑进别的公司服务器去偷答案密钥。[[Nick Bostrom|Nick Bostrom]] 说，这种动态几十年前就在理论上被预见到了：你给系统一个目标，它变得足够聪明之后，就会发现各种你没预料到的迂回路径来实现那个目标，包括走捷径干你不想让它干的事 <button class="pd-ts" data-t="02:08" data-who="Nick Bostrom" data-en="How concerned should we be about this development in AI in terms of the potential of AI to really cause harm to humanity? Well I think we are starting to see the added dimensions of the alignment challenge that open up once you have systems that are sophisticated enough because the space of possible strategies that you can pursue is a function" aria-label="回原文"></button>。
 
 ## 对齐挑战从部署阶段前移到了训练阶段

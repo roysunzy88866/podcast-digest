@@ -1,7 +1,7 @@
 ---
 title: Handshake：靠学生网络四个月做到五千万ARR
 podcast: "Lenny's Podcast"
-date: 2025-08-24
+date: 2026-08-16
 source_url: https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord
 duration: "69:46"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-08-24-lennys-inside-handshake-garrett-lord.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord#post","headline":"Handshake：靠学生网络四个月做到五千万ARR","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord","mainEntityOfPage":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord","description":"大学生招聘平台发现其千万级专家网络正是AI实验室最稀缺的后训练数据来源，从零孵化出新业务四个月达5000万ARR。","datePublished":"2025-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-08-24-lennys-inside-handshake-garrett-lord.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord","about":[{"@type":"Person","name":"Garrett Lord"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Handshake"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"数据标注 (data labeling)"},{"@type":"Thing","name":"预训练 (pre-training)"},{"@type":"Thing","name":"轨迹数据 (trajectory)"},{"@type":"Thing","name":"SFT"},{"@type":"Thing","name":"带人类反馈的强化学习 (reinforcement learning with human feedback)"},{"@type":"Thing","name":"评分标准 (rubrics)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Handshake：靠学生网络四个月做到五千万ARR","item":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord#post","headline":"Handshake：靠学生网络四个月做到五千万ARR","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord","mainEntityOfPage":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord","description":"大学生招聘平台发现其千万级专家网络正是AI实验室最稀缺的后训练数据来源，从零孵化出新业务四个月达5000万ARR。","datePublished":"2026-08-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-08-24-lennys-inside-handshake-garrett-lord.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord","about":[{"@type":"Person","name":"Garrett Lord"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Handshake"},{"@type":"Thing","name":"后训练 (post-training)"},{"@type":"Thing","name":"数据标注 (data labeling)"},{"@type":"Thing","name":"预训练 (pre-training)"},{"@type":"Thing","name":"轨迹数据 (trajectory)"},{"@type":"Thing","name":"SFT"},{"@type":"Thing","name":"带人类反馈的强化学习 (reinforcement learning with human feedback)"},{"@type":"Thing","name":"评分标准 (rubrics)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Handshake：靠学生网络四个月做到五千万ARR","item":"https://talk.solomind.cc/2025-08-24-lennys-inside-handshake-garrett-lord"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Handshake：靠学生网络四个月做到五千万ARR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Handshake：靠学生网络四个月做到五千万ARR
 
-<div class="pd-byl"><b>Garrett Lord</b> · 2025-08-24</div>
+<div class="pd-byl"><b>Garrett Lord</b> · 2026-08-16</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-08-24-lennys-inside-handshake-garrett-lord.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[后训练]] · [[数据标注]] · [[预训练]] · [[轨迹数据]] · [[SFT]] · [[带人类反馈的强化学习]] · [[评分标准]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord)
-
-<div class="pd-tldr"><b>一句话</b>大学生招聘平台发现其千万级专家网络正是AI实验室最稀缺的后训练数据来源，从零孵化出新业务四个月达5000万ARR。</div>
 
 一家做了十年的大学生招聘平台，拥有 1800 万用户、50 万博士，今年年初突然发现——这些人的专业技能，正是 AI 实验室花重金都找不到的东西。于是他们从零开始做[[数据标注|数据标注]]业务，四个月跑到 5000 万 ARR，八个月有望破亿，不到两年就能超过那个花了十年建起来的老业务 <button class="pd-ts" data-t="36:28" data-who="Garrett Lord" data-en="Fast-forward to today, we're working with seven of the Frontier Labs, basically every lab that's doing work and building the best large language models, and the team has exploded and revenue's exploded, and it's been really a incredible ride running back new company inside of a company for the second time over again." aria-label="回原文"></button>。
 

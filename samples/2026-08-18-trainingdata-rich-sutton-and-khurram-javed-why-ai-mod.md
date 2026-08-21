@@ -36,8 +36,6 @@ jsonLd: |
 >
 > **概念** [[苦涩的教训]] · [[大世界假说]] · [[持续学习]] · [[合成数据]] · [[灾难性遗忘]] · [[持续反向传播]] · [[大语言模型]] · [[智能体]] · [[强化学习]]
 
-<div class="pd-tldr"><b>一句话</b>强化学习之父认为当前LLM范式只覆盖了智能的一小部分，真正出路是让系统从自身经验中持续学习。</div>
-
 [[大语言模型|大语言模型]]宣称能造出博士水平的专家——但这个东西运行时权重完全不更新，根本不再学习。[[Rich Sutton|Rich Sutton]] 说，这不叫智能，这叫奇怪 <button class="pd-ts" data-t="20:30" data-who="Unknown" data-en="So, you know, I am not the weird one. It's you guys that are the weird one that think that that's possible." aria-label="回原文"></button>。
 
 ## 「苦涩的教训」到底在说什么

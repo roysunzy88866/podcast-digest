@@ -36,8 +36,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[智能体网络]] · [[MCP]] · [[康威定律]]
 
-<div class="pd-tldr"><b>一句话</b>Kevin Scott 系统阐述智能体网络的架构、安全与软件工艺的未来。</div>
-
 微软的 CTO 认为，随着[[智能体|智能体]]数量的爆发，真正的问题已经从模型推理能力，转移到如何为智能体建立一个像互联网一样运作的生态系统。在这个生态里，智能体需要拥有持久的记忆，更要能代替你使用工具、去各大系统里查询信息或做出改动。
 
 为了让这一切真正发生，必须有统一的标准协议来支撑 <button class="pd-ts" data-t="03:53" data-who="Kevin" data-en="We've just discovered as all of these agents have emerged over the past year and so like both the number of agents and like the amount of time that people are spending doing stuff inside of these agents or with these agents is that there's a bunch of other stuff other than reasoning that has to get sorted out in order to make them as useful as they should be so you know the things that i was talking about um" aria-label="回原文"></button>。这正是他在微软内部大力推动底层系统改造的根本原因。

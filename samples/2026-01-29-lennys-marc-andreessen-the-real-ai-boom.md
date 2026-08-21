@@ -1,7 +1,7 @@
 ---
 title: Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵
 podcast: "Lenny's Podcast"
-date: 2026-01-29
+date: 2026-08-20
 source_url: https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom
 duration: "104:31"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 职业与个人成长
 socialImage: "https://talk.solomind.cc/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom#post","headline":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","mainEntityOfPage":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","description":"AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成\"三栖人才\"。","datePublished":"2026-01-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom","about":[{"@type":"Person","name":"Marc Andreessen"},{"@type":"Person","name":"Lenny"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"生产力增长 (productivity growth)"},{"@type":"Thing","name":"一对一辅导 (one-on-one tutoring)"},{"@type":"Thing","name":"超级赋能个体 (super empowered individual)"},{"@type":"Thing","name":"AI 编程 (AI coding)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"AGI"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","item":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom#post","headline":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","mainEntityOfPage":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom","description":"AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成\"三栖人才\"。","datePublished":"2026-08-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom","about":[{"@type":"Person","name":"Marc Andreessen"},{"@type":"Person","name":"Lenny"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"生产力增长 (productivity growth)"},{"@type":"Thing","name":"一对一辅导 (one-on-one tutoring)"},{"@type":"Thing","name":"超级赋能个体 (super empowered individual)"},{"@type":"Thing","name":"AI 编程 (AI coding)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"任务 (task)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"AGI"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵","item":"https://talk.solomind.cc/2026-01-29-lennys-marc-andreessen-the-real-ai-boom"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵
 
-<div class="pd-byl"><b>Marc Andreessen</b> · 2026-01-29</div>
+<div class="pd-byl"><b>Marc Andreessen</b> · 2026-08-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-01-29-lennys-marc-andreessen-the-real-ai-boom.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **概念** [[AI]] · [[生产力增长]] · [[一对一辅导]] · [[超级赋能个体]] · [[AI 编程]] · [[vibe coding]] · [[任务]] · [[LLM]] · [[护城河]] · [[AGI]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom)
-
-<div class="pd-tldr"><b>一句话</b>AI 恰好在人口萎缩时到来，不是抢饭碗，而是救经济；想赢就变成"三栖人才"。</div>
 
 如果我们没有 [[AI|AI]]，我们现在会因经济将要发生的事情而陷入恐慌——因为我们面对的是人口减少、经济萎缩的未来。AI 和机器人恰恰在我们真正需要它们的时候出现了 <button class="pd-ts" data-t="25:24" data-who="Marc Andreessen" data-en="Is the key here that the timing kind of just works out, this population decrease, all these kind of have to line up for there not to be this massive job loss with AI?" aria-label="回原文"></button>。
 

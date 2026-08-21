@@ -1,7 +1,7 @@
 ---
 title: OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑
 podcast: SingjuPost 转录
-date: 2026-07-14
+date: 2026-07-19
 source_url: https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/
 type: episode
 cover: "#64748b"
@@ -16,14 +16,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-singju-openclaw-80apps.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-singju-openclaw-80apps#post","headline":"OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-singju-openclaw-80apps","mainEntityOfPage":"https://talk.solomind.cc/2026-singju-openclaw-80apps","description":"一个跑在本机、能控制鼠标键盘的个人智能体，十天炸出 GitHub 十六万星，创始人亲述顿悟时刻与反向工程哲学。","datePublished":"2026-07-14","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-singju-openclaw-80apps.jpg","isBasedOn":"https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/","about":[{"@type":"Person","name":"Raphael Schaad"},{"@type":"Person","name":"Peter Steinberger"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"提示注入 (prompt inject)"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"护城河 (moat)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑","item":"https://talk.solomind.cc/2026-singju-openclaw-80apps"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-singju-openclaw-80apps#post","headline":"OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-singju-openclaw-80apps","mainEntityOfPage":"https://talk.solomind.cc/2026-singju-openclaw-80apps","description":"一个跑在本机、能控制鼠标键盘的个人智能体，十天炸出 GitHub 十六万星，创始人亲述顿悟时刻与反向工程哲学。","datePublished":"2026-07-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-singju-openclaw-80apps.jpg","isBasedOn":"https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/","about":[{"@type":"Person","name":"Raphael Schaad"},{"@type":"Person","name":"Peter Steinberger"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Thing","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"提示注入 (prompt inject)"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"护城河 (moat)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑","item":"https://talk.solomind.cc/2026-singju-openclaw-80apps"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑
 
-<div class="pd-byl"><b>Peter Steinberger</b> · OpenClaw创始人 · 2026-07-14</div>
+<div class="pd-byl"><b>Peter Steinberger</b> · OpenClaw创始人 · 2026-07-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -37,8 +37,6 @@ jsonLd: |
 > **概念** [[OpenClaw]] · [[智能体]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]]
 >
 > **来源** [SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
-
-<div class="pd-tldr"><b>一句话</b>一个跑在本机、能控制鼠标键盘的个人智能体，十天炸出 GitHub 十六万星，创始人亲述顿悟时刻与反向工程哲学。</div>
 
 十天内炸出十六万颗 GitHub 星、社区衍生出机器人互相对话甚至「雇佣人类去现实世界排队」的项目——做出这一切的，是一个跑在你自己电脑上、而不是云端的个人 AI [[智能体|智能体]]。它叫 [[OpenClaw|OpenClaw]]，作者是 [[Peter Steinberger|Peter Steinberger]]（[[Raphael Schaad|Raphael Schaad]]）。
 

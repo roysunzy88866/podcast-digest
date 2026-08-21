@@ -1,7 +1,7 @@
 ---
 title: "AI 教母李飞飞:从 ImageNet 到空间智能"
 podcast: "Lenny's Podcast"
-date: 2025-11-16
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/the-godmother-of-ai
 duration: "79:30"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-11-16-lennys-the-godmother-of-ai.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai#post","headline":"AI 教母李飞飞:从 ImageNet 到空间智能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","mainEntityOfPage":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","description":"AI 领域真正的破局,靠的是给机器喂海量数据;而下一个前沿不止于语言,而是教机器理解三维世界。","datePublished":"2025-11-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-16-lennys-the-godmother-of-ai.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-godmother-of-ai","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dr. Fei-Fei Li"},{"@type":"Organization","name":"World Labs"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"Marble"},{"@type":"Thing","name":"ImageNet"},{"@type":"Thing","name":"空间智能 (spatial intelligence)"},{"@type":"Thing","name":"世界模型 (world models)"},{"@type":"Thing","name":"具身智能 (embodied AI)"},{"@type":"Thing","name":"苦涩的教训 (bitter lesson)"},{"@type":"Thing","name":"神经网络 (neural network)"},{"@type":"Thing","name":"机器学习 (machine learning)"},{"@type":"Thing","name":"人工智能 (artificial intelligence)"},{"@type":"Thing","name":"GPU"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 教母李飞飞:从 ImageNet 到空间智能","item":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai#post","headline":"AI 教母李飞飞:从 ImageNet 到空间智能","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","mainEntityOfPage":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai","description":"AI 领域真正的破局,靠的是给机器喂海量数据;而下一个前沿不止于语言,而是教机器理解三维世界。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-16-lennys-the-godmother-of-ai.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-godmother-of-ai","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dr. Fei-Fei Li"},{"@type":"Organization","name":"World Labs"},{"@type":"Organization","name":"ChatGPT"},{"@type":"Thing","name":"Marble"},{"@type":"Thing","name":"ImageNet"},{"@type":"Thing","name":"空间智能 (spatial intelligence)"},{"@type":"Thing","name":"世界模型 (world models)"},{"@type":"Thing","name":"具身智能 (embodied AI)"},{"@type":"Thing","name":"苦涩的教训 (bitter lesson)"},{"@type":"Thing","name":"神经网络 (neural network)"},{"@type":"Thing","name":"机器学习 (machine learning)"},{"@type":"Thing","name":"人工智能 (artificial intelligence)"},{"@type":"Thing","name":"GPU"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 教母李飞飞:从 ImageNet 到空间智能","item":"https://talk.solomind.cc/2025-11-16-lennys-the-godmother-of-ai"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # AI 教母李飞飞:从 ImageNet 到空间智能
 
-<div class="pd-byl"><b>Dr. Fei-Fei Li</b> · World Labs 创始人 · 2025-11-16</div>
+<div class="pd-byl"><b>Dr. Fei-Fei Li</b> · World Labs 创始人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[Marble]] · [[ImageNet]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]] · [[人工智能]] · [[GPU]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-godmother-of-ai)
-
-<div class="pd-tldr"><b>一句话</b>AI 领域真正的破局,靠的是给机器喂海量数据;而下一个前沿不止于语言,而是教机器理解三维世界。</div>
 
 仅仅不到十年前,硅谷的科技公司还把「AI」当成一个脏词,生怕挂上这个标签砸了自家品牌。如今每家公司都恨不得把自己改名叫 AI 公司——说这话的人是李飞飞,外界叫她「AI 教母」,她主导创建的 [[ImageNet|ImageNet]] 数据集,正是把我们从 AI 寒冬里拽出来的那把火。
 

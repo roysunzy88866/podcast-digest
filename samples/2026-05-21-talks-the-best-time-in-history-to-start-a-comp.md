@@ -1,7 +1,7 @@
 ---
 title: Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河
 podcast: 精选演讲
-date: 2026-05-21
+date: 2026-07-31
 source_url: undefined
 duration: "35:02"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp#post","headline":"Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp","mainEntityOfPage":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp","description":"两位嘉宾透过 Stripe 与 Replit 的真实数据，指出 AI 正引发空前的创业大爆发，而小人物的垂直领域机会才刚刚开始。","datePublished":"2026-05-21","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Patrick Collison"},{"@type":"Person","name":"Amjad Masad"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Magic School"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"垂直 SaaS (vertical SaaS)"},{"@type":"Thing","name":"护城河 (moat)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河","item":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp#post","headline":"Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp","mainEntityOfPage":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp","description":"两位嘉宾透过 Stripe 与 Replit 的真实数据，指出 AI 正引发空前的创业大爆发，而小人物的垂直领域机会才刚刚开始。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Patrick Collison"},{"@type":"Person","name":"Amjad Masad"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Magic School"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"垂直 SaaS (vertical SaaS)"},{"@type":"Thing","name":"护城河 (moat)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河","item":"https://talk.solomind.cc/2026-05-21-talks-the-best-time-in-history-to-start-a-comp"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河
 
-<div class="pd-byl"><b>Patrick Collison</b> · Stripe 创始人之一 · 2026-05-21</div>
+<div class="pd-byl"><b>Patrick Collison</b> · Stripe 创始人之一 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-21-talks-the-best-time-in-history-to-start-a-comp.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]]
 >
 > **概念** [[智能体]] · [[垂直 SaaS]] · [[护城河]]
-
-<div class="pd-tldr"><b>一句话</b>两位嘉宾透过 Stripe 与 Replit 的真实数据，指出 AI 正引发空前的创业大爆发，而小人物的垂直领域机会才刚刚开始。</div>
 
 在全球经济讨论中，「大停滞」这个词流行了许多年——但 [[Stripe|Stripe]] 上的新企业创建率，今年 3 月同比增长了近 2 倍，这个飙升幅度甚至比疫情封锁时期还要猛烈。说这话的人是 Patrick，支付巨头 Stripe 的创始人之一，他靠着这家公司对全球商业的观察，看到了一个连经济学家都感到震惊的拐点 <button class="pd-ts" data-t="00:36" data-who="Patrick" data-en="What's happening? Yeah, I just had lunch with an economist, this guy, Nick Bloom, who wrote this very interesting paper, actually, about how innovation and productivity growth and so forth, at least on a per-person basis, seemed to be declining." aria-label="回原文"></button>。
 

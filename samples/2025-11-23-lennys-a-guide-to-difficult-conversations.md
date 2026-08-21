@@ -1,7 +1,7 @@
 ---
 title: 别再当「答案机器」：高管教练Rachel Lockett的领导力实操课
 podcast: "Lenny's Podcast"
-date: 2025-11-23
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations
 duration: "105:15"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2025-11-23-lennys-a-guide-to-difficult-conversations.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations#post","headline":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","mainEntityOfPage":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","description":"高管教练拆解领导者的辅导技能、倦怠根源与人际关系处理，附现场演示和实用框架。","datePublished":"2025-11-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-23-lennys-a-guide-to-difficult-conversations.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Rachel Lockett"},{"@type":"Thing","name":"辅导 (coaching)"},{"@type":"Thing","name":"GROW 模型 (GROW model)"},{"@type":"Thing","name":"积极倾听 (active listening)"},{"@type":"Thing","name":"非暴力沟通 (Nonviolent Communication)"},{"@type":"Thing","name":"职业倦怠 (burnout)"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"一页纸计划 (one-page plan)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","item":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations#post","headline":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","mainEntityOfPage":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations","description":"高管教练拆解领导者的辅导技能、倦怠根源与人际关系处理，附现场演示和实用框架。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-11-23-lennys-a-guide-to-difficult-conversations.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Rachel Lockett"},{"@type":"Thing","name":"辅导 (coaching)"},{"@type":"Thing","name":"GROW 模型 (GROW model)"},{"@type":"Thing","name":"积极倾听 (active listening)"},{"@type":"Thing","name":"非暴力沟通 (Nonviolent Communication)"},{"@type":"Thing","name":"职业倦怠 (burnout)"},{"@type":"Thing","name":"联合创始人 (co-founder)"},{"@type":"Thing","name":"一页纸计划 (one-page plan)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"别再当「答案机器」：高管教练Rachel Lockett的领导力实操课","item":"https://talk.solomind.cc/2025-11-23-lennys-a-guide-to-difficult-conversations"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再当「答案机器」：高管教练Rachel Lockett的领导力实操课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 别再当「答案机器」：高管教练Rachel Lockett的领导力实操课
 
-<div class="pd-byl"><b>Rachel Lockett</b> · 高管教练 · 2025-11-23</div>
+<div class="pd-byl"><b>Rachel Lockett</b> · 高管教练 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **概念** [[辅导]] · [[GROW 模型]] · [[积极倾听]] · [[非暴力沟通]] · [[职业倦怠]] · [[联合创始人]] · [[一页纸计划]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations)
-
-<div class="pd-tldr"><b>一句话</b>高管教练拆解领导者的辅导技能、倦怠根源与人际关系处理，附现场演示和实用框架。</div>
 
 科技公司的高管教练 [[Rachel Lockett|Rachel Lockett]] 说，大多数领导者之所以越做越累，是因为他们总觉得必须成为房间里最聪明、能给所有答案的人。但这恰恰是在训练团队把难题全抛给你——越能干，越被淹没。
 

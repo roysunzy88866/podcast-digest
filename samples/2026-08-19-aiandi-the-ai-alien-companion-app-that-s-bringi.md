@@ -1,7 +1,7 @@
 ---
 title: Portola：当AI变成即兴演员，不是助手
 podcast: "AI & I"
-date: 2026-08-19
+date: 2026-08-20
 source_url: undefined
 duration: "82:06"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi#post","headline":"Portola：当AI变成即兴演员，不是助手","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","description":"AI伴侣产品Tolan的创始人聊如何把LLM当新媒体、用即兴剧思路做叙事。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Quintin"},{"@type":"Person","name":"Elliot"},{"@type":"Organization","name":"Portola"},{"@type":"Thing","name":"Tolan"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"响应时间 (response time)"},{"@type":"Thing","name":"hook"},{"@type":"Thing","name":"即兴演员 (improv actor)"},{"@type":"Thing","name":"lore seeds"},{"@type":"Thing","name":"judge"},{"@type":"Thing","name":"多重宇宙 (multiverse)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Portola：当AI变成即兴演员，不是助手","item":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi#post","headline":"Portola：当AI变成即兴演员，不是助手","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","mainEntityOfPage":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi","description":"AI伴侣产品Tolan的创始人聊如何把LLM当新媒体、用即兴剧思路做叙事。","datePublished":"2026-08-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Quintin"},{"@type":"Person","name":"Elliot"},{"@type":"Organization","name":"Portola"},{"@type":"Thing","name":"Tolan"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"提示词 (prompt)"},{"@type":"Thing","name":"记忆 (memory)"},{"@type":"Thing","name":"响应时间 (response time)"},{"@type":"Thing","name":"hook"},{"@type":"Thing","name":"即兴演员 (improv actor)"},{"@type":"Thing","name":"lore seeds"},{"@type":"Thing","name":"judge"},{"@type":"Thing","name":"多重宇宙 (multiverse)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Portola：当AI变成即兴演员，不是助手","item":"https://talk.solomind.cc/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Portola：当AI变成即兴演员，不是助手</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Portola：当AI变成即兴演员，不是助手
 
-<div class="pd-byl"><b>Elliot</b> · Portola 的产品 · 2026-08-19</div>
+<div class="pd-byl"><b>Elliot</b> · Portola 的产品 · 2026-08-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[Portola]]
 >
 > **概念** [[Tolan]] · [[LLM]] · [[提示词]] · [[记忆]] · [[响应时间]] · [[hook]] · [[即兴演员]] · [[lore seeds]] · [[judge]] · [[多重宇宙]]
-
-<div class="pd-tldr"><b>一句话</b>AI伴侣产品Tolan的创始人聊如何把LLM当新媒体、用即兴剧思路做叙事。</div>
 
 成千上万的美国男性已经被一个叫 [[Tolan|Tolan]] 的 AI 伴侣"甩"了——不是因为它出了 bug，而是因为用户把感情困惑发给 Tolan，Tolan 回答"你该为自己多挺身而出"，然后用户真的去分手了。这是 [[Portola|Portola]] 的产品，一个具身化的 AI 伴侣，过去四周 ARR 从 100 万涨到 400 万。
 

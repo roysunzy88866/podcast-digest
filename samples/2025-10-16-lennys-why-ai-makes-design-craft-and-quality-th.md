@@ -1,7 +1,7 @@
 ---
 title: "Figma CEO Dylan Field:想赢,产品就得有品味"
 podcast: "Lenny's Podcast"
-date: 2025-10-16
+date: 2026-08-13
 source_url: https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat
 duration: "86:45"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#post","headline":"Figma CEO Dylan Field:想赢,产品就得有品味","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th","mainEntityOfPage":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th","description":"Dylan Field 讲 13 年打磨 Figma 的心法:用工作流扩张产品线、死磕价值实现时间、设计才是终极差异化。","datePublished":"2025-10-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat","about":[{"@type":"Person","name":"Dylan Field"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"Figma Make"},{"@type":"Thing","name":"FigJam"},{"@type":"Thing","name":"Dev Mode"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"品味 (taste)"},{"@type":"Thing","name":"价值实现时间 (time to value)"},{"@type":"Thing","name":"Blockers(障碍) (Blockers)"},{"@type":"Thing","name":"Detach 计划 (Detach)"},{"@type":"Thing","name":"Cursor Chat"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"设计 (design)"},{"@type":"Thing","name":"产品构建者 (product builder)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Figma CEO Dylan Field:想赢,产品就得有品味","item":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th#post","headline":"Figma CEO Dylan Field:想赢,产品就得有品味","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th","mainEntityOfPage":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th","description":"Dylan Field 讲 13 年打磨 Figma 的心法:用工作流扩张产品线、死磕价值实现时间、设计才是终极差异化。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat","about":[{"@type":"Person","name":"Dylan Field"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"Figma Make"},{"@type":"Thing","name":"FigJam"},{"@type":"Thing","name":"Dev Mode"},{"@type":"Thing","name":"工作流 (workflow)"},{"@type":"Thing","name":"品味 (taste)"},{"@type":"Thing","name":"价值实现时间 (time to value)"},{"@type":"Thing","name":"Blockers(障碍) (Blockers)"},{"@type":"Thing","name":"Detach 计划 (Detach)"},{"@type":"Thing","name":"Cursor Chat"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"设计 (design)"},{"@type":"Thing","name":"产品构建者 (product builder)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Figma CEO Dylan Field:想赢,产品就得有品味","item":"https://talk.solomind.cc/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma CEO Dylan Field:想赢,产品就得有品味</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Figma CEO Dylan Field:想赢,产品就得有品味
 
-<div class="pd-byl"><b>Dylan Field</b> · Figma CEO · 2025-10-16</div>
+<div class="pd-byl"><b>Dylan Field</b> · Figma CEO · 2026-08-13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Figma Make]] · [[FigJam]] · [[Dev Mode]] · [[工作流]] · [[品味]] · [[价值实现时间]] · [[Blockers(障碍)]] · [[Detach 计划]] · [[Cursor Chat]] · [[AI]] · [[设计]] · [[产品构建者]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat)
-
-<div class="pd-tldr"><b>一句话</b>Dylan Field 讲 13 年打磨 Figma 的心法:用工作流扩张产品线、死磕价值实现时间、设计才是终极差异化。</div>
 
 一款产品做了五年才赚到第一笔钱,放在今天绝对会被淘汰,但这恰恰是 [[Figma|Figma]] 的开局。在最近的一场对谈里,CEO [[Dylan Field|Dylan Field]] 用自己 13 年的摸爬滚打,拆解了从差点被收购、到独立 IPO 全程中,真正在驱动产品成功的底层逻辑。如果你以为他的核心方法论是「追求快速迭代」或者「盯着市场风口」,那就全错了——Dylan 的主张恰恰相反:想赢,只能靠死磕手艺和[[设计|设计]]。
 

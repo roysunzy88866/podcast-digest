@@ -1,7 +1,7 @@
 ---
 title: 用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战
 podcast: "Lenny's Podcast"
-date: 2026-01-01
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents
 duration: "102:07"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#post","headline":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","description":"SaaStr 创始人分享如何用智能体取代大半个销售团队，详解选型、训练与避坑方法。","datePublished":"2026-01-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Jason Lemkin"},{"@type":"Organization","name":"SaaStr"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Salesforce"},{"@type":"Organization","name":"Artisan"},{"@type":"Organization","name":"Qualified"},{"@type":"Organization","name":"Delphi"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"剧本 (playbooks)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"CRM"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","item":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#post","headline":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag","description":"SaaStr 创始人分享如何用智能体取代大半个销售团队，详解选型、训练与避坑方法。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Jason Lemkin"},{"@type":"Organization","name":"SaaStr"},{"@type":"Organization","name":"Replit"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Salesforce"},{"@type":"Organization","name":"Artisan"},{"@type":"Organization","name":"Qualified"},{"@type":"Organization","name":"Delphi"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"go-to-market"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"剧本 (playbooks)"},{"@type":"Thing","name":"AI 泡沫 (AI bubble)"},{"@type":"Thing","name":"CRM"}],"articleSection":"增长与销售"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"增长与销售","item":"https://talk.solomind.cc/tags/增长与销售"},{"@type":"ListItem","position":3,"name":"用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战","item":"https://talk.solomind.cc/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战
 
-<div class="pd-byl"><b>Jason Lemkin</b> · SaaStr 创始人 · 2026-01-01</div>
+<div class="pd-byl"><b>Jason Lemkin</b> · SaaStr 创始人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[编排]] · [[go-to-market]] · [[前向部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
-
-<div class="pd-tldr"><b>一句话</b>SaaStr 创始人分享如何用智能体取代大半个销售团队，详解选型、训练与避坑方法。</div>
 
 一个有着千万美元收入的 B2B 社区，把它做销售的全职员工砍到了 1.2 个，换上了 20 个 AI [[智能体|智能体]]——而业绩一点没掉。办公桌还在，只是全贴上了智能体的标签，一到周末就自动开工。做出这个决定的人是 [[Jason Lemkin|Jason Lemkin]]，他办了十几年 [[SaaStr|SaaStr]] 社区，经手过八个销售团队，被逼急了，索性彻底推倒重来 <button class="pd-ts" data-t="08:50" data-who="Jason Lemkin" data-en="But anyhow, so we pushed the limits. And now if you walk into SaaStr's office, it's kind of funny. We have 10 desks that used to be go-to market people." aria-label="回原文"></button>。
 

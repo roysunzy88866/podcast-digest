@@ -1,7 +1,7 @@
 ---
 title: Bret Taylor：智能体是新应用，软件要按结果定价
 podcast: "Lenny's Podcast"
-date: 2025-07-31
+date: 2026-08-18
 source_url: https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor
 duration: "88:53"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-07-31-lennys-he-saved-openai-bret-taylor.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor#post","headline":"Bret Taylor：智能体是新应用，软件要按结果定价","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor","mainEntityOfPage":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor","description":"Google Maps 联合创建者、Sierra CEO 谈智能体为何将重塑软件商业模式与编程方式。","datePublished":"2025-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-31-lennys-he-saved-openai-bret-taylor.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Bret Taylor"},{"@type":"Organization","name":"Sierra"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"基于结果的定价 (outcomes-based pricing)"},{"@type":"Thing","name":"应用 AI (applied AI)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"工具层 (tooling)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"编程系统 (programming system)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Bret Taylor：智能体是新应用，软件要按结果定价","item":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor#post","headline":"Bret Taylor：智能体是新应用，软件要按结果定价","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor","mainEntityOfPage":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor","description":"Google Maps 联合创建者、Sierra CEO 谈智能体为何将重塑软件商业模式与编程方式。","datePublished":"2026-08-18","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-07-31-lennys-he-saved-openai-bret-taylor.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Bret Taylor"},{"@type":"Organization","name":"Sierra"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"基于结果的定价 (outcomes-based pricing)"},{"@type":"Thing","name":"应用 AI (applied AI)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"工具层 (tooling)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"编程系统 (programming system)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Bret Taylor：智能体是新应用，软件要按结果定价","item":"https://talk.solomind.cc/2025-07-31-lennys-he-saved-openai-bret-taylor"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bret Taylor：智能体是新应用，软件要按结果定价</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Bret Taylor：智能体是新应用，软件要按结果定价
 
-<div class="pd-byl"><b>Bret Taylor</b> · Sierra CEO · 2025-07-31</div>
+<div class="pd-byl"><b>Bret Taylor</b> · Sierra CEO · 2026-08-18</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-07-31-lennys-he-saved-openai-bret-taylor.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[基于结果的定价]] · [[应用 AI]] · [[前沿模型]] · [[工具层]] · [[上下文工程]] · [[编程系统]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor)
-
-<div class="pd-tldr"><b>一句话</b>Google Maps 联合创建者、Sierra CEO 谈智能体为何将重塑软件商业模式与编程方式。</div>
 
 销售生产力软件几乎是一件不可能的事——你跟客户说"每个销售多卖 5%"，然后让他们掏一百万美元，但到底是不是你的软件带来的，根本说不清。[[Bret Taylor|Bret Taylor]] 在 Quip 时代就吃过这个亏。他认为[[智能体|智能体]]将彻底改变这一点：软件从"帮人稍微提效"变成"自主完成一项工作"，结果可衡量，价值可归因，所以整个市场会走向按结果付费 <button class="pd-ts" data-t="62:15" data-who="Bret Taylor" data-en="It means they can do something else that's higher leverage and more productive and you can actually... A smaller group of people can accomplish more and truly drive productivity gains in the economy." aria-label="回原文"></button>。
 

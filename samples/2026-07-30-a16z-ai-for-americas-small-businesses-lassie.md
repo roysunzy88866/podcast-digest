@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[回路中的人类]] · [[现有巨头]]
 
-<div class="pd-tldr"><b>一句话</b>a16z 合伙人与 Lassie 创始人对谈:当 AI 能直接干活而不是提供工具,小企业的困境与机遇同时被放大。</div>
-
 Yelp 上排名第一的牙医,每个月要花 200 个小时亲手处理保险理赔和账单——他甚至找不到人来接手,只能自己熬夜。说这话的人是 [[Stein Pella|Stein Pella]],他拉着朋友辞掉硅谷工作,跑去牙医诊所里亲手干了几年杂活,做出了能完全接管这些行政工作的 AI 系统 [[Lassie|Lassie]] <button class="pd-ts" data-t="02:40" data-who="Stein Pella" data-en="And he walked me to the back and I never forgot what I saw there. A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work." aria-label="回原文"></button>。
 
 这一集 a16z 的对谈里,[[Alex Rampell|Alex Rampell]] 和 [[Olivia Moore|Olivia Moore]] 找来了 Lassie 的两位创始人 Stein Pella 和 [[Frederick Rankin|Frederick Rankin]]。他们讲了三件事:为什么传统软件其实没有让世界变高效,而 AI 是怎么把软件从「存数据」变成「直接干活」的;两个人是怎么靠在诊所里打杂起步,硬生生把一个自动化率做到 98% 的[[智能体|智能体]]磨出来的;以及面对全美几十万家分散在各地的小诊所,怎么设计一套完全不同于企业级销售的打法。结尾他们还聊了两个尖锐问题:如果人人都能「凭空」雇到智能体,开小公司会不会反而更难;以及当模型学不会那些没写在网上的行业惯例,下一个真正的技术瓶颈在哪。

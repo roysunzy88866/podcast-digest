@@ -1,7 +1,7 @@
 ---
 title: 别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作
 podcast: 精选演讲
-date: 2026-08-08
+date: 2026-08-09
 source_url: undefined
 duration: "21:30"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you#post","headline":"别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you","mainEntityOfPage":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you","description":"AI 帮你敲代码只占你工作的 5%,GitHub Next 展示了如何用智能体工作流和协作原型解决剩下的 95%。","datePublished":"2026-08-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Idan Gazit"},{"@type":"Organization","name":"GitHub Next"},{"@type":"Organization","name":"Copilot"},{"@type":"Organization","name":"ACE"},{"@type":"Organization","name":"Dependabot"},{"@type":"Thing","name":"GitHub Actions"},{"@type":"Thing","name":"markdown"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作","item":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you#post","headline":"别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you","mainEntityOfPage":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you","description":"AI 帮你敲代码只占你工作的 5%,GitHub Next 展示了如何用智能体工作流和协作原型解决剩下的 95%。","datePublished":"2026-08-09","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Idan Gazit"},{"@type":"Organization","name":"GitHub Next"},{"@type":"Organization","name":"Copilot"},{"@type":"Organization","name":"ACE"},{"@type":"Organization","name":"Dependabot"},{"@type":"Thing","name":"GitHub Actions"},{"@type":"Thing","name":"markdown"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作","item":"https://talk.solomind.cc/2026-08-08-talks-realtime-multiplayer-automation-and-you"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作
 
-<div class="pd-byl"><b>Idan Gazit</b> · 2026-08-08</div>
+<div class="pd-byl"><b>Idan Gazit</b> · 2026-08-09</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-08-talks-realtime-multiplayer-automation-and-you.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[GitHub Next]] · [[Copilot]] · [[ACE]] · [[Dependabot]]
 >
 > **概念** [[GitHub Actions]] · [[markdown]] · [[护栏]] · [[提示词注入]]
-
-<div class="pd-tldr"><b>一句话</b>AI 帮你敲代码只占你工作的 5%,GitHub Next 展示了如何用智能体工作流和协作原型解决剩下的 95%。</div>
 
 一项针对 100 名开发者、长达数千小时的纵向研究发现,双手放在键盘上敲击代码的时间,其实只占程序员全部工作的 5%。说这话的人是 Idan,他负责 [[GitHub Next|GitHub Next]],这是 GitHub 探索未来软件开发方式的实验室团队。既然 AI 已经把打字补全这件事解决得差不多了,那么剩下 95% 的理解、协作和决策工作该怎么提效?
 

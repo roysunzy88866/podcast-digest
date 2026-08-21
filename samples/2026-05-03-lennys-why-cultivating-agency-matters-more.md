@@ -1,7 +1,7 @@
 ---
 title: 别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味
 podcast: "Lenny's Podcast"
-date: 2026-05-03
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more
 duration: "87:20"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-05-03-lennys-why-cultivating-agency-matters-more.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more#post","headline":"别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more","mainEntityOfPage":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more","description":"Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品开发——从工具、流程到人最该有的「主观能动性」。","datePublished":"2026-05-03","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-03-lennys-why-cultivating-agency-matters-more.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more","about":[{"@type":"Person","name":"Max Schoening"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Notion"},{"@type":"Organization","name":"GitHub"},{"@type":"Organization","name":"Heroku"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"可塑软件 (malleable software)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"品味 (taste)"},{"@type":"Thing","name":"SaaS 末日 (SaaS apocalypse)"},{"@type":"Thing","name":"智能体循环 (agent loop)"},{"@type":"Thing","name":"微小核心 (tiny core)"},{"@type":"Thing","name":"知识工作 (knowledge work)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味","item":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more#post","headline":"别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more","mainEntityOfPage":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more","description":"Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品开发——从工具、流程到人最该有的「主观能动性」。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-03-lennys-why-cultivating-agency-matters-more.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more","about":[{"@type":"Person","name":"Max Schoening"},{"@type":"Person","name":"Lenny"},{"@type":"Organization","name":"Notion"},{"@type":"Organization","name":"GitHub"},{"@type":"Organization","name":"Heroku"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"主观能动性 (agency)"},{"@type":"Thing","name":"可塑软件 (malleable software)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"品味 (taste)"},{"@type":"Thing","name":"SaaS 末日 (SaaS apocalypse)"},{"@type":"Thing","name":"智能体循环 (agent loop)"},{"@type":"Thing","name":"微小核心 (tiny core)"},{"@type":"Thing","name":"知识工作 (knowledge work)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味","item":"https://talk.solomind.cc/2026-05-03-lennys-why-cultivating-agency-matters-more"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味
 
-<div class="pd-byl"><b>Max Schoening</b> · Notion 产品负责人 · 2026-05-03</div>
+<div class="pd-byl"><b>Max Schoening</b> · Notion 产品负责人 · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-03-lennys-why-cultivating-agency-matters-more.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[主观能动性]] · [[可塑软件]] · [[智能体]] · [[品味]] · [[SaaS 末日]] · [[智能体循环]] · [[微小核心]] · [[知识工作]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
-
-<div class="pd-tldr"><b>一句话</b>Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品开发——从工具、流程到人最该有的「主观能动性」。</div>
 
 「我们已经有了全民基本收入，它叫[[知识工作|知识工作]]。」说这话的人是 [[Max Schoening|Max Schoening]]，他是 [[Notion|Notion]] 的产品负责人，之前在 Google、[[Heroku|Heroku]] 和 [[GitHub|GitHub]] 都待过，做设计也做工程，还是个连续创业者。
 

@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[无国界创始人]] · [[侨民网络]] · [[偏好依附]] · [[人才飞轮]] · [[设计合作伙伴]]
 
-<div class="pd-tldr"><b>一句话</b>a16z拆解"无国界创始人"的三层原生优势：人才飞轮、品牌背书、客户捷径。</div>
-
 风险投资历史上扎在硅谷，但 [[a16z|a16z]] 的投资组合里，40% 的钱投给了国际创始人——一半在美国，一半在别的国家 <button class="pd-ts" data-t="42:48" data-who="Angela Strange" data-en="I think this trend is just going to continue. We actually ran the stats, and out of our apps, 40% of our investments were in international founders. Half of them were based here, half of them were based in other countries." aria-label="回原文"></button>。
 
 所谓"[[无国界创始人|无国界创始人]]"，定义极其包容：任何有全球野心的国际人士都是，不管你先在本国起步还是直接来美国 <button class="pd-ts" data-t="11:06" data-who="Angela Strange" data-en="And so, you know, like Americans technically could be borderless founders, but they tend to be connected here anyways. And so anyone international, whether you're building primarily in your home country to start, but that you have global ambitions, you're a borderless founder." aria-label="回原文"></button>。但这类创始人身上有一种共同的心态——他们往往有一种"要证明给世界看"的驱动力，不管出生在哪，都要成为基准 <button class="pd-ts" data-t="00:09" data-who="Unknown" data-en="They tend to have a chip on their shoulder. It's the desire that they want to become the benchmark and prove something to the world that regardless of where they were born, they can still achieve greatness." aria-label="回原文"></button>。一位在德国小镇长大的创始人、一位从耶鲁回哥伦比亚的创始人，底层动力都是同一个东西：我不接受被出生地限定天花板。

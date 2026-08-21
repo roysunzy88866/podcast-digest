@@ -1,7 +1,7 @@
 ---
 title: "Claude Code 产品负责人:AI 时代 PM 的生存法则"
 podcast: "Lenny's Podcast"
-date: 2026-04-23
+date: 2026-07-24
 source_url: https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves
 duration: "85:12"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves#post","headline":"Claude Code 产品负责人:AI 时代 PM 的生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","mainEntityOfPage":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","description":"Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。","datePublished":"2026-04-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kat Wu"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Co-work"},{"@type":"Thing","name":"产品品味 (product taste)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"研究预览版 (research preview)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"系统提示词 (system prompt)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Claude Code 产品负责人:AI 时代 PM 的生存法则","item":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves#post","headline":"Claude Code 产品负责人:AI 时代 PM 的生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","mainEntityOfPage":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves","description":"Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。","datePublished":"2026-07-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Kat Wu"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"Co-work"},{"@type":"Thing","name":"产品品味 (product taste)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"研究预览版 (research preview)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"系统提示词 (system prompt)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Claude Code 产品负责人:AI 时代 PM 的生存法则","item":"https://talk.solomind.cc/2026-04-23-lennys-how-anthropics-product-team-moves"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code 产品负责人:AI 时代 PM 的生存法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Claude Code 产品负责人:AI 时代 PM 的生存法则
 
-<div class="pd-byl"><b>Cat Wu</b> · Anthropic 产品负责人 · 2026-04-23</div>
+<div class="pd-byl"><b>Cat Wu</b> · Anthropic 产品负责人 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-23-lennys-how-anthropics-product-team-moves.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[Claude Code]] · [[Co-work]] · [[产品品味]] · [[智能体]] · [[自动化]] · [[研究预览版]] · [[评估]] · [[系统提示词]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves)
-
-<div class="pd-tldr"><b>一句话</b>Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。</div>
 
 为今天的模型做产品,最难的不是幻想未来全能的 AI 有多强,而是想尽办法把当下模型的最大能力挤出来——说这话的人是 [[Kat Wu|Kat Wu]],她在 [[Anthropic|Anthropic]] 负责 [[Claude Code|Claude Code]] 和 Co-Work 两大产品 <button class="pd-ts" data-t="00:08" data-who="Kat Wu" data-en="It's very easy to build the product for the super AGI strong model. The hard thing is figuring out for the current model, how do you elicit the maximum capability?" aria-label="回原文"></button>。她观察到,很多产品经理还在用六年前的慢节奏做计划,而她们团队从六个月的发布周期硬生生压缩到了一个月,甚至一天 <button class="pd-ts" data-t="05:35" data-who="Kat Wu" data-en="quickly the model capabilities are improving, the timelines for a lot of our product features have gone down from six months to one month and sometimes to one week or even one day." aria-label="回原文"></button>。
 

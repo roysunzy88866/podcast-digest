@@ -1,7 +1,7 @@
 ---
 title: Bob Baxley：设计是可见的清晰思考
 podcast: "Lenny's Podcast"
-date: 2025-06-12
+date: 2026-08-19
 source_url: https://www.lennysnewsletter.com/p/35-years-of-product-design-wisdom-bob-baxley
 duration: "101:55"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#post","headline":"Bob Baxley：设计是可见的清晰思考","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba","mainEntityOfPage":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba","description":"Apple前设计主管谈设计的本质、为什么好产品是道德义务、以及为什么你应该尽可能晚地画第一张图。","datePublished":"2025-06-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/35-years-of-product-design-wisdom-bob-baxley","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Bob Baxley"},{"@type":"Organization","name":"Apple"},{"@type":"Organization","name":"ThoughtSpot"},{"@type":"Thing","name":"设计 (design)"},{"@type":"Thing","name":"设计信条 (tenets)"},{"@type":"Thing","name":"软件作为一种媒介 (software as a medium)"},{"@type":"Thing","name":"原始印记 (primal mark)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Bob Baxley：设计是可见的清晰思考","item":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#post","headline":"Bob Baxley：设计是可见的清晰思考","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba","mainEntityOfPage":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba","description":"Apple前设计主管谈设计的本质、为什么好产品是道德义务、以及为什么你应该尽可能晚地画第一张图。","datePublished":"2026-08-19","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/35-years-of-product-design-wisdom-bob-baxley","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Bob Baxley"},{"@type":"Organization","name":"Apple"},{"@type":"Organization","name":"ThoughtSpot"},{"@type":"Thing","name":"设计 (design)"},{"@type":"Thing","name":"设计信条 (tenets)"},{"@type":"Thing","name":"软件作为一种媒介 (software as a medium)"},{"@type":"Thing","name":"原始印记 (primal mark)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Bob Baxley：设计是可见的清晰思考","item":"https://talk.solomind.cc/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bob Baxley：设计是可见的清晰思考</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Bob Baxley：设计是可见的清晰思考
 
-<div class="pd-byl"><b>Bob Baxley</b> · Apple前设计主管 · 2025-06-12</div>
+<div class="pd-byl"><b>Bob Baxley</b> · Apple前设计主管 · 2026-08-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -38,8 +38,6 @@ jsonLd: |
 > **概念** [[设计]] · [[设计信条]] · [[软件作为一种媒介]] · [[原始印记]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/35-years-of-product-design-wisdom-bob-baxley)
-
-<div class="pd-tldr"><b>一句话</b>Apple前设计主管谈设计的本质、为什么好产品是道德义务、以及为什么你应该尽可能晚地画第一张图。</div>
 
 说一家公司是「[[设计|设计]]主导」的，不等于它由设计师主导——设计是一种思维方式，任何角色都可以拥有它 <button class="pd-ts" data-t="23:41" data-who="Bob Baxley" data-en="One of the best lines I ever heard was from my friend Joseph O'Sullivan at dinner one night. He said saying a company is design led does not mean it's designer led." aria-label="回原文"></button>。这是 [[Bob Baxley|Bob Baxley]] 三十多年职业生涯的核心信念，他曾在 [[Apple|Apple]] 主导了线上商店和 App Store 的设计，后来在 Pinterest 和 [[ThoughtSpot|ThoughtSpot]] 领导设计团队。
 

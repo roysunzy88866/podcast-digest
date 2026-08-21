@@ -1,7 +1,7 @@
 ---
 title: "别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖"
 podcast: 精选演讲
-date: 2026-07-08
+date: 2026-07-31
 source_url: undefined
 duration: "15:52"
 type: episode
@@ -16,14 +16,14 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch#post","headline":"别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch","description":"模型变强了,但开发者还在用过时的“拟物化”思维写软件。该放手让模型做大项目。","datePublished":"2026-07-08","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Theo Browne"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"Sonnet 3.5"},{"@type":"Thing","name":"Opus 4.5"},{"@type":"Thing","name":"Mythos"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"拟物化 (skeuomorphic)"},{"@type":"Thing","name":"沉没成本心态 (sunk cost mindset)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖","item":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch#post","headline":"别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch","description":"模型变强了,但开发者还在用过时的“拟物化”思维写软件。该放手让模型做大项目。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Theo Browne"},{"@type":"Organization","name":"AWS"},{"@type":"Organization","name":"Vercel"},{"@type":"Organization","name":"Slack"},{"@type":"Thing","name":"Sonnet 3.5"},{"@type":"Thing","name":"Opus 4.5"},{"@type":"Thing","name":"Mythos"},{"@type":"Thing","name":"编排 (orchestration)"},{"@type":"Thing","name":"拟物化 (skeuomorphic)"},{"@type":"Thing","name":"沉没成本心态 (sunk cost mindset)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖","item":"https://talk.solomind.cc/2026-07-08-talks-everything-we-knew-about-software-has-ch"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖
 
-<div class="pd-byl"><b>Theo Browne</b> · 2026-07-08</div>
+<div class="pd-byl"><b>Theo Browne</b> · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-08-talks-everything-we-knew-about-software-has-ch.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -35,8 +35,6 @@ jsonLd: |
 > **公司** [[AWS]] · [[Vercel]] · [[Slack]]
 >
 > **概念** [[Sonnet 3.5]] · [[Opus 4.5]] · [[Mythos]] · [[编排]] · [[拟物化]] · [[沉没成本心态]]
-
-<div class="pd-tldr"><b>一句话</b>模型变强了,但开发者还在用过时的“拟物化”思维写软件。该放手让模型做大项目。</div>
 
 一个能把所有 PR 分类、用 AI 审查、排好优先级的服务,现在就是一个 markdown 文件——把它喂给 Claude 或 Codex,设个定时任务,每天早上一封汇报邮件就出来了。
 

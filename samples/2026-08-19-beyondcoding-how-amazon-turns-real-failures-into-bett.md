@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[模型路由]] · [[评估]] · [[智能体]] · [[RLGym]] · [[迁移]]
 
-<div class="pd-tldr"><b>一句话</b>新模型没好两倍成本却翻倍，模型路由远未解决，瓶颈已从工程工时转向"做对东西"。</div>
-
 新模型发布了，能力可能没好两倍，但成本却是两倍 <button class="pd-ts" data-t="05:59" data-who="Michael" data-en="Insane right now. A newer model comes out and it is maybe not twice as good, but the costs are twice as much. We're now moving into, I feel like a state, especially at enterprise, where we look at what is the most effective outcome per kind of token slash cost." aria-label="回原文"></button>。这是他的判断。他说企业界正在经历一个转向：从"给我最好的模型"变成"每个 token 花出去，产出到底够不够" <button class="pd-ts" data-t="06:04" data-who="Michael" data-en="A newer model comes out and it is maybe not twice as good, but the costs are twice as much. We're now moving into, I feel like a state, especially at enterprise, where we look at what is the most effective outcome per kind of token slash cost." aria-label="回原文"></button>。
 
 > 【背景】Michael 指 Amazon Nova 产品负责人 Michael Giannangeli。

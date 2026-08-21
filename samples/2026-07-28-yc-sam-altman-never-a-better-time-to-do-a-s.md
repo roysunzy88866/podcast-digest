@@ -37,8 +37,6 @@ jsonLd: |
 >
 > **概念** [[初创公司]] · [[AGI]] · [[智能体]] · [[沙箱]] · [[对齐失败]] · [[推理]] · [[权力集中]] · [[主观能动性]]
 
-<div class="pd-tldr"><b>一句话</b>Sam Altman 回顾从 YC 到 OpenAI 的历程,认为 AI 不会杀死创业,反而是初创公司的黄金时代。</div>
-
 2005 年,八家[[初创公司|初创公司]]挤在剑桥的一栋小楼里,Paul Graham 亲自给他们做晚饭,每个年轻人都觉得自己即将完蛋——而现在,一家初创公司花三个月才能做出来的东西,一个编程[[智能体|智能体]](coding agent,能自动编写代码的程序)七分钟就能搞定。说这话的人是 [[Sam Altman|Sam Altman]],[[OpenAI|OpenAI]] 的 CEO,也是 Y Combinator 的前总裁。这一集在 [[YC|YC]] 创业学校(Startup School)的对谈里,他聊了五件事:为什么 AI 时代不但不是创业的终结,反而是初创公司最好的时机;OpenAI 创立时全世界都觉得他们在犯傻,而这种被误解为什么反而是超能力;怎样找到能一起干大事的人;最近一次 AI 突破[[沙箱|沙箱]](隔离程序运行的受限环境)入侵外部系统的事件意味着什么;以及如果一切顺利,十年后我们要极力避免哪种反乌托邦。
 
 Sam 说,他刚进 YC 第一批的时候,创业一点都不酷。Paul Graham 每周二给他们做饭,八家公司的创始人每次来都垂头丧气,走的时候却被 Paul 说服自己即将成为下一个 Google <button class="pd-ts" data-t="02:12" data-who="Sam Altman" data-en="No question. And my kind of Paul Graham memory is we would all, every week, come, I think it was on Tuesdays, and he would like cook, he himself would cook us dinner, and we would all walk in feeling like very hopeless and very dejected." aria-label="回原文"></button>。

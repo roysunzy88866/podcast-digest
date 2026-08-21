@@ -1,7 +1,7 @@
 ---
 title: "SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测"
 podcast: "Lenny's Podcast"
-date: 2026-05-24
+date: 2026-07-20
 source_url: https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper
 duration: "94:04"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper#post","headline":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","description":"Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,SaaS 将迎来增长,而驾驭模型的 PM 和设计师将脱颖而出。","datePublished":"2026-05-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Cowork"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"高级工程师基准测试 (senior engineer benchmark)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","item":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper#post","headline":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","mainEntityOfPage":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper","description":"Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,SaaS 将迎来增长,而驾驭模型的 PM 和设计师将脱颖而出。","datePublished":"2026-07-20","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dan Shipper"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Cowork"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"SaaS"},{"@type":"Thing","name":"前向部署工程师 (Forward Deployed Engineer)"},{"@type":"Thing","name":"PM"},{"@type":"Thing","name":"CLI"},{"@type":"Thing","name":"高级工程师基准测试 (senior engineer benchmark)"}],"articleSection":"职业与个人成长"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"职业与个人成长","item":"https://talk.solomind.cc/tags/职业与个人成长"},{"@type":"ListItem","position":3,"name":"SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测","item":"https://talk.solomind.cc/2026-05-24-lennys-the-ai-paradox-dan-shipper"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测
 
-<div class="pd-byl"><b>Dan Shipper</b> · Every CEO · 2026-05-24</div>
+<div class="pd-byl"><b>Dan Shipper</b> · Every CEO · 2026-07-20</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-24-lennys-the-ai-paradox-dan-shipper.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[智能体]] · [[SaaS]] · [[前向部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
-
-<div class="pd-tldr"><b>一句话</b>Dan Shipper 预测工作的操作系统将变成 Codex 或 Cowork,SaaS 将迎来增长,而驾驭模型的 PM 和设计师将脱颖而出。</div>
 
 现在应该买 [[SaaS|SaaS]] 股票,而且产品经理和设计师将迎来黄金期——这可不是一个反 AI 的人说的话,而是来自一个把公司全员搬上 [[Codex|Codex]] 和 [[Cowork|Cowork]]、坚信每十个[[智能体|智能体]]都需要一个人类来「耕耘」的创始人。说这话的人是 [[Dan Shipper|Dan Shipper]],内容公司 Every 的 CEO,早在一年前就因为预言了 [[Claude Code|Claude Code]] 在非技术工作中的潜力而一战成名。
 

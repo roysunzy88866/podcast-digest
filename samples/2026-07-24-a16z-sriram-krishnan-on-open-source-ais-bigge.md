@@ -38,8 +38,6 @@ jsonLd: |
 >
 > **概念** [[开源权重]] · [[Frontier Labs]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]]
 
-<div class="pd-tldr"><b>一句话</b>前白宫 AI 顾问解析中国开源模型追平前沿带来的定价、安全与护城河变局。</div>
-
 过去几周开源界井喷,中国的 [[Kimi K3|Kimi K3]](月之暗面的开源模型)性能直逼顶尖闭源模型——而它由于不受安全护栏束缚,反而能胜任许多美国闭源前沿模型拒绝干的安全审计工作。本期做客直播的是刚卸任白宫 AI 高级政策顾问的 [[Sriram Krishnan|Sriram Krishnan]],此前他是 a16z 的合伙人,也曾在 Microsoft、Meta、Snap、Twitter 任高管。在这集对谈里,他聊了三层意思:以 Kimi K3 为代表的新一代开源模型正在哪些层面冲击现有的行业格局;当模型能力变得商品化、又面临「[[蒸馏|蒸馏]]」(用大模型生成的回答当教材去训练小模型)和外国竞争等棘手问题时,政策与产业该怎么应对;以及在这个大背景下,如何用最朴素的商业逻辑来看待 AI 整条供应链的价值分配。
 
 说完这集的大地图,先看 Sriram 眼中正在发生的那场冲击。他把当下称作一个「非常奇怪的时刻」:几个月前,市场上领先的似乎只有 Opus 和 GPT 等少数几个顶尖闭源模型,[[Frontier Labs|前沿实验室]]似乎要一骑绝尘;但短短几周内,Grok、Meta 的模型、Thinking Machines 和 Kimi K3 等纷纷登场,尤其是 Kimi K3 的能力已经逼近前沿 <button class="pd-ts" data-t="03:19" data-who="Sriram Krishnan" data-en="which I think is nearly SOTA on many, many benchmarks. But I think the big news over the last three, four days was obviously Kimi K3 coming out, I think on Thursday or Friday." aria-label="回原文"></button>。

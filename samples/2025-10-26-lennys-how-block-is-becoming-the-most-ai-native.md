@@ -1,7 +1,7 @@
 ---
 title: Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组
 podcast: "Lenny's Podcast"
-date: 2025-10-26
+date: 2026-08-13
 source_url: https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native
 duration: "86:37"
 type: episode
@@ -18,14 +18,14 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native#post","headline":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","mainEntityOfPage":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","description":"Block CTO 分享通过组织重组、全员用 AI 和自研开源智能体 Goose 实现 AI 转型的真实经验与反直觉教训。","datePublished":"2025-10-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dhanji Prasanna"},{"@type":"Organization","name":"Block"},{"@type":"Thing","name":"Goose"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"康威定律 (Conway's Law)"},{"@type":"Thing","name":"职能型架构 (functional structure)"},{"@type":"Thing","name":"LLM"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","item":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native#post","headline":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","mainEntityOfPage":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native","description":"Block CTO 分享通过组织重组、全员用 AI 和自研开源智能体 Goose 实现 AI 转型的真实经验与反直觉教训。","datePublished":"2026-08-13","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Dhanji Prasanna"},{"@type":"Organization","name":"Block"},{"@type":"Thing","name":"Goose"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"康威定律 (Conway's Law)"},{"@type":"Thing","name":"职能型架构 (functional structure)"},{"@type":"Thing","name":"LLM"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组","item":"https://talk.solomind.cc/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组
 
-<div class="pd-byl"><b>Dhanji Prasanna</b> · Block CTO · 2025-10-26</div>
+<div class="pd-byl"><b>Dhanji Prasanna</b> · Block CTO · 2026-08-13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-10-26-lennys-how-block-is-becoming-the-most-ai-native.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -39,8 +39,6 @@ jsonLd: |
 > **概念** [[Goose]] · [[智能体]] · [[MCP]] · [[康威定律]] · [[职能型架构]] · [[LLM]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native)
-
-<div class="pd-tldr"><b>一句话</b>Block CTO 分享通过组织重组、全员用 AI 和自研开源智能体 Goose 实现 AI 转型的真实经验与反直觉教训。</div>
 
 很多工程师认为代码质量对于构建成功的产品很重要，但这两者毫无关系——曾以糟糕代码著称的 YouTube，反而是 Google 内部最成功的产品。说这话的人是 [[Dhanji Prasanna|Dhanji Prasanna]]，[[Block|Block]] 的首席技术官，负责带领这家拥有 3,500 多人的公司完成向 AI 原生转型。
 

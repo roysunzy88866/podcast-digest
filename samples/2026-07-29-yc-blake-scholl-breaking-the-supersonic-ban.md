@@ -1,7 +1,7 @@
 ---
 title: "让超音速飞行重返天空:Boom 用小团队重写硬件制造"
 podcast: Y Combinator Startup Podcast
-date: 2026-07-29
+date: 2026-07-30
 source_url: undefined
 duration: "49:59"
 type: episode
@@ -17,14 +17,14 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#post","headline":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","mainEntityOfPage":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","description":"一家初创公司打破了半个世纪停滞的航空业格局,靠软件化硬件迭代造出超音速飞机,并改写了美国法规。","datePublished":"2026-07-29","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.jpg","about":[{"@type":"Person","name":"Blake Scholl"},{"@type":"Organization","name":"Boom"},{"@type":"Thing","name":"XB-1"},{"@type":"Thing","name":"马赫切断 (Mach Cutoff)"},{"@type":"Thing","name":"Overture"},{"@type":"Thing","name":"MakeBoom"},{"@type":"Thing","name":"Blade Runner"},{"@type":"Thing","name":"superpower"},{"@type":"Thing","name":"超音速飞行 (supersonic flight)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","item":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#post","headline":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","mainEntityOfPage":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban","description":"一家初创公司打破了半个世纪停滞的航空业格局,靠软件化硬件迭代造出超音速飞机,并改写了美国法规。","datePublished":"2026-07-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.jpg","about":[{"@type":"Person","name":"Blake Scholl"},{"@type":"Organization","name":"Boom"},{"@type":"Thing","name":"XB-1"},{"@type":"Thing","name":"马赫切断 (Mach Cutoff)"},{"@type":"Thing","name":"Overture"},{"@type":"Thing","name":"MakeBoom"},{"@type":"Thing","name":"Blade Runner"},{"@type":"Thing","name":"superpower"},{"@type":"Thing","name":"超音速飞行 (supersonic flight)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"让超音速飞行重返天空:Boom 用小团队重写硬件制造","item":"https://talk.solomind.cc/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让超音速飞行重返天空:Boom 用小团队重写硬件制造</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
 # 让超音速飞行重返天空:Boom 用小团队重写硬件制造
 
-<div class="pd-byl"><b>Blake Scholl</b> · Boom Supersonic 的创始人 · 2026-07-29</div>
+<div class="pd-byl"><b>Blake Scholl</b> · Boom Supersonic 的创始人 · 2026-07-30</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -36,8 +36,6 @@ jsonLd: |
 > **公司** [[Boom]]
 >
 > **概念** [[XB-1]] · [[马赫切断]] · [[Overture]] · [[MakeBoom]] · [[Blade Runner]] · [[superpower]] · [[超音速飞行]]
-
-<div class="pd-tldr"><b>一句话</b>一家初创公司打破了半个世纪停滞的航空业格局,靠软件化硬件迭代造出超音速飞机,并改写了美国法规。</div>
 
 人类在 1969 年就登上了月球、飞起了协和号超音速客机——半个世纪后,我们既回不了月球,也造不出能在陆地上空[[超音速飞行|超音速飞行]]的客机。洛克希德造一枚爱国者导弹拦截器要花两年多时间。说这话的人是 [[Blake Scholl|Blake Scholl]],他创办了 [[Boom|Boom]] Supersonic,要把超音速客机带回天空。
 
