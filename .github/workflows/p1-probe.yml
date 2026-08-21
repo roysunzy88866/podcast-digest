@@ -110,6 +110,17 @@ jobs:
           cd ..
           node scripts/gate-all.mjs
 
+      - name: P1c · MiMo(api.xiaomimimo.com)美国 runner 真合成一句(C37 前置核验)
+        if: always()
+        env:
+          PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}
+        run: |
+          [ -n "$PEIYIN_MIMO_KEY" ] || { echo "::warning::MIMO_API_KEY 未配,跳过"; exit 0; }
+          t0=$(date +%s)
+          echo "美国 runner 探针:MiMo 一句合成测试。" | python3 scripts/vendor/peiyin.py --voice mimo_default -f - --no-fallback -o /tmp/mimo-probe.mp3
+          echo "耗时 $(( $(date +%s) - t0 ))s,产物 $(stat -c%s /tmp/mimo-probe.mp3) bytes"
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 /tmp/mimo-probe.mp3
+
       - name: P1 汇总
         if: always()
-        run: echo "P1 探路结束。逐 step 看 ✅/❌:P1a=GLM 可达+速度,P1b1=edge-tts+ffmpeg,P1b2=Quartz build+gate-all。全绿才进真编排器。"
+        run: echo "P1 探路结束。逐 step 看 ✅/❌:P1a=GLM 可达+速度,P1b1=edge-tts+ffmpeg,P1b2=Quartz build+gate-all,P1c=MiMo 美国可达(C37)。全绿才进真编排器。"

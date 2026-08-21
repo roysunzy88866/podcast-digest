@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // C4 Scenario 1 · 精华 → 音频(剥 markdown + 分段 + TTS 合成 + ffmpeg 拼接)。
-// TTS 引擎:edge-tts 免费默认(晓晓声,drift #13)+ Azure F0 fallback。
-// 项目自持、未走全局配音 skill —— 为何不走见 docs/adr/0014(CI 无人值守云 runner 需仓内自包含,
-// 全局 skill 装在本机 ~/.claude/skills 云上没有,vendoring 会破坏 skill 中央厨房初衷)。
+// TTS 引擎(C37/ADR 0014 修订,2026-08-22 用户拍板「MIMO很好」):
+//   主路 = vendored 配音 skill 的 peiyin.py(scripts/vendor/,MiMo mimo_default,自带切块/剪尾/重试),
+//   仅当环境有 PEIYIN_MIMO_KEY(GitHub Secret)才尝试;任何失败回落 ↓
+//   兜底 = edge-tts 分块链路(晓晓,drift #13)+ Azure F0 fallback —— 与 C37 之前逐字一致,MiMo 绝不当单点。
+//   存量不重配(用户拍板):缓存仍只按 source_sha256 判,引擎切换不判陈旧。
 //
 // 本模块只把已过 C2/C3 闸门的中文精华「配音」,不重新生成任何内容。
 // 纯逻辑(剥格式/分段/hash/SSML/args)与副作用(Azure HTTP / ffmpeg / 写文件)分层:
@@ -24,6 +26,36 @@ export const DEFAULT_VOICE = "zh-CN-XiaoxiaoNeural"; // 晓晓(2026-07-18 用户
 // CLI 路径:项目 .venv/bin/edge-tts;可用 EDGE_TTS_BIN 覆盖。
 export const EDGE_TTS_BIN = process.env.EDGE_TTS_BIN || resolve(ROOT, ".venv/bin/edge-tts");
 export const AZURE_MP3_FORMAT = "audio-24khz-48kbitrate-mono-mp3"; // Azure fallback 的 mp3 输出格式
+
+// ── C37 · MiMo 主路(vendored peiyin)────────────────────────────────────────
+export const PEIYIN_BIN = resolve(ROOT, "scripts/vendor/peiyin.py");
+export const MIMO_VOICE = "mimo_default"; // 用户 2026-08-22 听样品拍板的那把嗓
+export const MIMO_TIMEOUT_MS = 40 * 60_000; // 一集串行实测 ~13-15 分;40 分卡死视为失败回落 edge,不吃光预算
+/** 只有拿得到 key 才试 MiMo(本地开发/无 Secret 环境自动全走 edge,行为与 C37 前一致) */
+export const mimoEnabled = (env = process.env) => Boolean(env.PEIYIN_MIMO_KEY);
+/** peiyin CLI 参数(纯函数可单测):stdin 喂全文,内部自行 ≤200 字切块+剪尾+重试+拼接 */
+export function peiyinArgs(outPath) {
+  return [PEIYIN_BIN, "--voice", MIMO_VOICE, "-f", "-", "--chunk", "--no-fallback", "-o", outPath];
+}
+/** 真跑 vendored peiyin(副作用薄壳;fail 就抛,由编排层决定回落) */
+export function runPeiyinMimo(text, outPath, { spawnImpl = spawn, timeoutMs = MIMO_TIMEOUT_MS } = {}) {
+  return new Promise((res, rej) => {
+    const p = spawnImpl("python3", peiyinArgs(outPath), { stdio: ["pipe", "ignore", "pipe"] });
+    let err = "";
+    const timer = setTimeout(() => {
+      rej(new Error(`[tts] MiMo/peiyin 超时 ${Math.round(timeoutMs / 60000)} 分,杀进程回落`));
+      try { p.kill("SIGKILL"); } catch { /* 已退出 */ }
+    }, timeoutMs);
+    p.stderr.on("data", (d) => (err += d));
+    p.on("error", (e) => { clearTimeout(timer); rej(e); });
+    p.on("close", (c) => {
+      clearTimeout(timer);
+      c === 0 ? res(outPath) : rej(new Error(`[tts] peiyin exit ${c}: ${err.slice(-300)}`));
+    });
+    p.stdin.on("error", () => { /* 进程早死时写 stdin 会 EPIPE,主报错走 close/error */ });
+    p.stdin.end(text);
+  });
+}
 
 // ────────────────────────────────────────────────────────────────────────────
 // 1) 剥 markdown → 可朗读的纯中文文本
@@ -334,6 +366,8 @@ const defaultDeps = {
   mkdtemp: (pfx) => mkdtempSync(join(tmpdir(), pfx)),
   rmrf: (d) => rmSync(d, { recursive: true, force: true }),
   synth: (text, o) => synthesizeChunk(text, o),
+  synthMimo: (text, outPath) => runPeiyinMimo(text, outPath),
+  mimoOn: () => mimoEnabled(),
   concat: (parts, out) => runFfmpegConcat(parts, out),
   probe: (p) => ffprobeDuration(p),
   now: () => new Date().toISOString(),
@@ -366,6 +400,29 @@ export async function synthesizeEpisode(
   }
 
   if (!plan.chunks.length) throw new Error(`[tts] ${id}: 精华为空,无可合成(fail-closed)`);
+
+  // ── C37 主路:MiMo(vendored peiyin,整文喂入自行切块剪尾)。任何失败只警告,落回下面 edge 链路 ──
+  if (io.mimoOn()) {
+    try {
+      io.ensureDir(dir);
+      await io.synthMimo(plan.text, audioPath);
+      const duration = await io.probe(audioPath);
+      if (!(duration > 0)) throw new Error(`合成后时长 ${duration}(疑空壳)`);
+      const meta = {
+        id,
+        voice: MIMO_VOICE,
+        engine: "mimo-peiyin",
+        duration_sec: duration,
+        source_sha256: plan.hash,
+        format: "mp3-24khz-48kbps-mono",
+        generated_at: io.now(),
+      };
+      io.writeFile(metaPath, JSON.stringify(meta, null, 2));
+      return { skipped: false, audioPath, metaPath, meta, engine: "mimo-peiyin" };
+    } catch (e) {
+      console.warn(`⚠️ [tts] ${id}: MiMo 主路失败,回落 edge(不断更):${e?.message ?? e}`);
+    }
+  }
 
   const tmp = io.mkdtemp("tts-");
   const parts = [];

@@ -21,6 +21,9 @@ import {
   synthesizeEpisode,
   DEFAULT_VOICE,
   AZURE_MP3_FORMAT,
+  MIMO_VOICE,
+  mimoEnabled,
+  peiyinArgs,
 } from "../scripts/tts.mjs";
 
 const MODAL = "data/episodes/2026-07-08-latent-space-modal";
@@ -405,5 +408,91 @@ describe("部署脚本不许自己判「音频在不在」(会挡住 tts 的陈�
   it("★★ tts 的幂等靠指纹而非文件存在(改了内容必须重念)", () => {
     const tts = readFileSync(new URL("../scripts/tts.mjs", import.meta.url), "utf8");
     expect(tts).toContain("prev.source_sha256 === plan.hash");
+  });
+});
+
+// ── C37 · MiMo 主路(vendored peiyin)+ 回落 edge ──────────────────────────
+describe("C37 · MiMo 主路与回落(注入假 deps,不真跑 python)", () => {
+  function deps(c: { mimo: number; synth: number }, opts: { mimoOn?: boolean; mimoFail?: boolean } = {}) {
+    return {
+      mimoOn: () => opts.mimoOn ?? true,
+      synthMimo: async (_t: string, outPath: string) => {
+        c.mimo++;
+        if (opts.mimoFail) throw new Error("模拟 MiMo 网络挂");
+        writeFileSync(outPath, Buffer.from("MIMO_MP3"));
+        return outPath;
+      },
+      synth: async (_t: string, o: any) => {
+        c.synth++;
+        writeFileSync(o.outPath, Buffer.from("FAKEAUDIO"));
+      },
+      concat: async (_p: string[], out: string) => {
+        writeFileSync(out, Buffer.from("MERGED"));
+        return out;
+      },
+      probe: async () => 99.9,
+      now: () => "2026-08-22T00:00:00.000Z",
+    };
+  }
+
+  it("★★★ 有 key:MiMo 主路一次成,edge 一块不调,meta 记 mimo-peiyin/mimo_default", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "mimo-"));
+    const c = { mimo: 0, synth: 0 };
+    const r = await synthesizeEpisode(modalDigest, { id: "m", outDir: dir, deps: deps(c) });
+    expect(c.mimo).toBe(1);
+    expect(c.synth).toBe(0); // edge 链路完全没走
+    expect(r.engine).toBe("mimo-peiyin");
+    const meta = JSON.parse(readFileSync(join(dir, "audio.meta.json"), "utf8"));
+    expect(meta.engine).toBe("mimo-peiyin");
+    expect(meta.voice).toBe(MIMO_VOICE);
+    expect(meta.source_sha256).toBe(sourceHash(modalDigest));
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("★★★ MiMo 挂了不断更:自动回落 edge 分块链路,meta 记 edge-tts", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "mimo-"));
+    const c = { mimo: 0, synth: 0 };
+    const r = await synthesizeEpisode(modalDigest, { id: "m", outDir: dir, deps: deps(c, { mimoFail: true }) });
+    expect(c.mimo).toBe(1); // 试过
+    expect(c.synth).toBeGreaterThan(0); // 回落真干活
+    expect(r.skipped).toBe(false);
+    const meta = JSON.parse(readFileSync(join(dir, "audio.meta.json"), "utf8"));
+    expect(meta.engine).toBe("edge-tts");
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("★★ 无 key(mimoOn=false):MiMo 提都不提,行为与 C37 前逐字一致", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "mimo-"));
+    const c = { mimo: 0, synth: 0 };
+    await synthesizeEpisode(modalDigest, { id: "m", outDir: dir, deps: deps(c, { mimoOn: false }) });
+    expect(c.mimo).toBe(0);
+    expect(c.synth).toBeGreaterThan(0);
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("★★ 缓存命中时 MiMo 也不重配(存量不重配,用户拍板 2026-08-22)", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "mimo-"));
+    const c1 = { mimo: 0, synth: 0 };
+    await synthesizeEpisode(modalDigest, { id: "m", outDir: dir, deps: deps(c1, { mimoOn: false }) }); // 先用 edge 出一版(模拟存量)
+    const c2 = { mimo: 0, synth: 0 };
+    const r2 = await synthesizeEpisode(modalDigest, { id: "m", outDir: dir, deps: deps(c2, { mimoOn: true }) }); // 引擎切换后重跑
+    expect(r2.skipped).toBe(true); // 源没变 → 照旧缓存命中
+    expect(c2.mimo).toBe(0);
+    expect(c2.synth).toBe(0);
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("★ peiyinArgs:stdin 喂文 + 内部切块 + 不许降级 + 默认嗓(参数一字不差)", () => {
+    const a = peiyinArgs("/tmp/out.mp3");
+    expect(a).toContain("--no-fallback");
+    expect(a).toContain("--chunk");
+    expect(a.join(" ")).toContain("-f -");
+    expect(a[a.indexOf("--voice") + 1]).toBe("mimo_default");
+    expect(a[a.indexOf("-o") + 1]).toBe("/tmp/out.mp3");
+  });
+
+  it("★ mimoEnabled:纯看 env 有没有 PEIYIN_MIMO_KEY", () => {
+    expect(mimoEnabled({ PEIYIN_MIMO_KEY: "sk-x" } as any)).toBe(true);
+    expect(mimoEnabled({} as any)).toBe(false);
   });
 });

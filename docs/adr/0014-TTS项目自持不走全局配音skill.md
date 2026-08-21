@@ -26,3 +26,17 @@
 
 - 若配音 skill 出了**可 pip 安装的包 / 稳定公开 CLI**(装进 CI 无需 vendoring),重新评估迁移。
 - 若项目要**MiMo 克隆的固定嗓**(edge 官方音色不够用),值得为它 vendoring peiyin.py 或走 skill。
+
+---
+
+## 修订(2026-08-22):复审触发,主引擎换 MiMo(vendored peiyin),edge 降为兜底
+
+- **触发**:本 ADR「复审时机」条款命中——用户要 MiMo 的嗓子(听 mimo_default 样品后拍板「MIMO很好」,C37)。
+- **决定**:vendoring 配音 skill 的 `peiyin.py` → `scripts/vendor/peiyin.py`(带出处头注:源路径+日期+原文件 sha,一行逻辑不改);
+  `tts.mjs` 主路调它(--no-fallback 模式,MiMo 切块/剪尾/重试全复用 skill 实现),任何失败回落原 edge 分块链路(原实现一字未动)。
+- **原「不 vendoring」理由的处置**:副本漂移风险仍在,**用户知情接受**;缓解=头注锚定原文件 sha(改 skill 后 grep 得到差异)+
+  skill 侧升级需手动同步进 vendored 副本(记入本修订,不自动)。
+- **key**:MIMO_API_KEY 进 GitHub Secrets → env `PEIYIN_MIMO_KEY`(peiyin 原生支持);上传经用户 2026-08-22 明文同意,管道直传不落明文。
+- **代价重申**:MiMo 限时免费随时可能收费/停(edge 兜底保不断更,但嗓子会突变回晓晓);串行合成 ~13-15 分/集,
+  POST_CHAIN_MIN 30→45([standard-change: 随拍板连带]);美国 runner 可达性由 p1-probe P1c 步核验(境外台北出口已实测通)。
+- **存量**:296 集老音频不重配(用户拍板),缓存仍只按 source_sha256 判陈旧,引擎切换不触发重配潮。

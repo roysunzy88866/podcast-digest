@@ -281,7 +281,7 @@ export const JOB_BUDGET_MIN = 300;   // 自留 5h(平台 6h,workflow timeout 5.5
 //   而它实际要 150+ 分 → 撞 5.5h 上限被杀,整批产出销毁(run 32395346828 实证)。
 //   同一批里那集 whisperX **转写就花了 185 分钟**,是固定估值的近两倍。
 export const TRANSCRIBE_RATIO = 1.9;      // 转写耗时 ÷ 音频时长(whisperX CPU large-v3 实测 185 分/≈100 分音频,留余量)
-export const POST_CHAIN_MIN = 30;         // 转写之后:翻译/浓缩/判官/闸门/配音/集页,实测 ~20-25 分,取 30
+export const POST_CHAIN_MIN = 45;         // 转写之后:翻译/浓缩/判官/闸门/配音/集页。C37 前实测 ~20-25 分取 30;C37 配音换 MiMo 串行 ~13-15 分/集([standard-change: 随用户 2026-08-22 MiMo 拍板连带]),取 45
 export const UNKNOWN_DURATION_MIN = 220;  // feed 不给时长时按最坏算(pragmatic 那集就是「0 分」,实跑 185+ 分)
 
 /** 单集耗时估计(分钟)。needsAsr=false(有官方稿/非 ASR 源)时只算后链 —— 那条便宜通道是秒级拿稿。 */

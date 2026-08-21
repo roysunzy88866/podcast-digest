@@ -62,4 +62,5 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # account id 是标识符非机密(单独无用),与 pipeline.yml 一致直接写死
           CLOUDFLARE_ACCOUNT_ID: ac6b3134d98758210ac27d37bd7d5a2d
+          PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}  # C37:补缺音频时同走 MiMo 主路(缺=edge)
         run: bash scripts/deploy-site.sh

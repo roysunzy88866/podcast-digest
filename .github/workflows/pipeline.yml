@@ -129,6 +129,7 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}   # C9:whisperX pyannote 分离要(a16z ASR 路线)
+          PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}  # C37:配音 MiMo 主路(缺=自动全走 edge,不炸)
           # C30:消费中转站音频后 gh release delete-asset 清 asset(公开仓下载免认证;删除要 token,contents 权限已够)
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # 2026-07-31 保险丝:每班演讲种子上限覆写(空=用代码写死的默认 3)。cron 与人工 talks 批次同受限。

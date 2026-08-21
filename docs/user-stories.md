@@ -2576,3 +2576,33 @@ Scenario: 2026 存量见底要响亮告警
 4. 存量见底 `::warning::` 告警(阈值 = 3 日量)。
 5. 单测覆盖切日边界(北京 00:00/07:59/08:00)、只补 2026、最新优先、有稿优先仍生效、告警触发;变异验证。
 6. **线上验收**:用户在北京时间午夜后与早晨各看一次,「今天/昨天」符合直觉且早晨已有内容;首页无 2025 年集。
+
+---
+
+## C37 · 生产配音换 MiMo 主引擎(2026-08-22 用户听样品拍板「MIMO很好」;ADR 0014 复审修订)
+
+> 背景:ADR 0014(2026-07-20)拍板生产 TTS 自持 edge-tts,理由=CI 云 runner 上没有本机配音 skill。
+> 复审时机条款「若项目要 MiMo 的嗓子,值得 vendoring」于本日触发:用户听 mimo_default 样品后拍板换。
+> 可行性已实测:MiMo 从境外 IP(台北出口)真跑通;美国 runner 由 p1-probe 补验。
+
+Scenario: 新集配音走 MiMo 默认嗓
+  Given 一集过闸待配音,且环境有 PEIYIN_MIMO_KEY(GitHub Secret 注入;本地无 key 则自动跳过 MiMo)
+  When scripts/tts.mjs 合成
+  Then 主路 = vendored peiyin(scripts/vendor/peiyin.py,--voice mimo_default --chunk --tail trim --no-fallback)
+  And 成功则 audio.meta.json 记 engine=mimo-peiyin、voice=mimo_default
+
+Scenario: MiMo 任何失败都不断更
+  Given MiMo 网络不通 / 配额 / key 失效 / vendored 脚本损坏
+  Then 自动回落既有 edge-tts 分块链路(晓晓),行为与现状逐字一致;meta 记 engine=edge-tts
+  And 整集合成绝不因 MiMo 故障而失败(MiMo 是升级不是单点)
+
+Scenario: 存量不重配(用户拍板 2026-08-22)
+  Given 已发布集音频源文本(digest_md)未变
+  Then 缓存照旧按 source_sha256 命中跳过,不因引擎切换判陈旧
+  And 绝不触发全站重配潮;老集保持 edge 嗓与新集 MiMo 嗓共存
+
+Scenario: 时间预算如实加价([standard-change: 用户授权,随 MiMo 拍板连带])
+  Given MiMo 串行合成实测约 13-15 分/集(edge 约半分钟)
+  Then POST_CHAIN_MIN 30 → 45,预算守卫按新价决定一班接几集
+
+**DoD**:①单测:主路选择/回落/无 key 跳过/缓存不失效,全走注入 deps 不真跑 ②vendored 副本带出处头注(源路径+日期+原文件 sha)③p1-probe 美国 runner 真调 MiMo 一次成功 ④云端首集 engine=mimo-peiyin 日志留痕 ⑤GLM 冷审+裁决落账

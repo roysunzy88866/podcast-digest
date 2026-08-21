@@ -60,3 +60,4 @@
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 
 **里程碑规矩(业务级 E2E)**:每个里程碑收口前,真跑一集完整流水线(真 RSS→真转写→真闸门→真发布),用户亲手点验收,不认 mock 绿。
+| C37 | **生产配音换 MiMo 主引擎**(2026-08-22 用户听样品拍板「MIMO很好」;ADR 0014 复审修订):vendored 配音 skill 的 peiyin.py(MiMo mimo_default,自带切块/剪尾/重试),tts.mjs 主路走它、任何失败回落既有 edge 链路不断更;key 走 GitHub Secrets(PEIYIN_MIMO_KEY);存量 296 集不重配(用户拍板,老集 edge 嗓,缓存不因引擎切换失效);POST_CHAIN_MIN 30→45(MiMo 串行 ~13-15 分/集计入预算)| US-5 | 🟡 落码中 |
