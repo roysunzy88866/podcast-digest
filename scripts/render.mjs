@@ -720,7 +720,13 @@ export function linkPrimaryEntities(md, entities) {
 // C5.1 fallback 链:title_zh(云端浓缩生成)→ title_en(RSS 原标题)→ id;date 缺 → id 前缀(YYYY-MM-DD)。
 // Lenny's 存量集 title_zh/date 全空,此前页面渲染出 "# undefined" / "date: undefined"。
 export const displayTitle = (meta) => meta.title_zh ?? meta.title_en ?? meta.id;
-export const displayDate = (meta) => meta.date ?? (String(meta.id).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? "");
+// 显示日期=入库日([standard-change: 用户授权] 2026-08-22「补的内容用补的日期」):
+// added(前 10 位,须真长得像日期)→ meta.date → id 前缀,与 build-list dateKey 同口径;feed pubDate 仍用 meta.date 不走这里。
+export const displayDate = (meta) => {
+  const head = String(meta.added || meta.date || "").slice(0, 10);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(head)) return head;
+  return String(meta.id).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? "";
+};
 
 function renderFrontmatter(meta, digest, entities) {
   const lines = [

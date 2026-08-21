@@ -238,6 +238,26 @@ describe("renderEpisode · C5.1 标题/日期 fallback 链", () => {
   });
 });
 
+// 显示日期=入库日([standard-change: 用户授权] 2026-08-22「补的内容用补的日期」)
+describe("renderEpisode · 显示日期=入库日(added 优先)", () => {
+  it("★★★ 补历史集:added 在,显示 added 而非原集 date(这条就是用户点名的那类)", () => {
+    const meta = { ...META, date: "2026-03-15", added: "2026-08-21" };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("date: 2026-08-21");
+    expect(page).not.toContain("date: 2026-03-15");
+  });
+  it("★★ added 是完整时间戳 → 只取前 10 位日期段", () => {
+    const meta = { ...META, date: "2026-03-15", added: "2026-08-21T16:30:00.000Z" };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("date: 2026-08-21");
+  });
+  it("★ added 缺 → 回落原集 date(存量过渡期不炸)", () => {
+    const meta = { ...META, date: "2026-07-08", added: undefined };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("date: 2026-07-08");
+  });
+});
+
 // ── C10 · 8 大类词表(episodeCategories:人工映射 > 生成端 categories > 未分类兜底)──
 import { episodeCategories } from "../scripts/render.mjs";
 
