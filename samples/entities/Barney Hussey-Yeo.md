@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":102,"LLM":13,"推荐系统":1,"监督学习":2,"强化学习":11,"transformer":2,"创造性破坏":1,"Anthropic":51}</script>
+<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":104,"LLM":13,"推荐系统":1,"监督学习":2,"强化学习":11,"transformer":2,"创造性破坏":1,"Anthropic":51}</script>
 
 <script>
 (function(){

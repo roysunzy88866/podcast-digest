@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"ChatGPT":29,"Claude":24,"Facebook":9,"Google":20,"Apple":12,"HubSpot":3,"Zynga":2,"Cursor":25,"分发平台":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"ChatGPT":30,"Claude":24,"Facebook":9,"Google":21,"Apple":12,"HubSpot":3,"Zynga":2,"Cursor":25,"分发平台":1}</script>
 
 <script>
 (function(){

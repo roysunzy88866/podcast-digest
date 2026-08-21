@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
+[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":51,"Claude Code":27,"ClaudeTag":1,"Fable":4,"Slack":18,"Bun":1,"Rust":2,"Gemini":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":51,"Claude Code":28,"ClaudeTag":1,"Fable":4,"Slack":18,"Bun":1,"Rust":2,"Gemini":4}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jen Abel]] [[Albert Cheng]] [[Ethan Smith]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jen Abel]] [[Albert Cheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Vercel":8,"Stripe":14,"Gong":1,"OpenAI":43,"go-to-market":4,"智能体":102,"GTM 工程师":1,"市场细分":1,"PLG":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Vercel":8,"Stripe":14,"Gong":1,"OpenAI":43,"go-to-market":4,"智能体":104,"GTM 工程师":1,"市场细分":1,"PLG":4}</script>
 
 <script>
 (function(){

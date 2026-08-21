@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]] [[Ethan Smith]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
 
 </div>
 

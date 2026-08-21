@@ -27,7 +27,7 @@ unlisted: true
 
 [[Uber]] · [[Airbnb]] · [[Lenny]] · [[Harry Stebbings]] · [[Nesrine Changuel]] · [[Andrew MacDonald]] · [[delight]] · [[Uber One]] · [[deep delight]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"Uber":4,"Airbnb":8,"Lenny":65,"Harry Stebbings":1,"Nesrine Changuel":1,"Andrew MacDonald":1,"delight":1,"Uber One":1,"deep delight":1,"自主性":3}</script>
+<script type="application/json" class="pd-epn">{"Uber":4,"Airbnb":8,"Lenny":65,"Harry Stebbings":2,"Nesrine Changuel":1,"Andrew MacDonald":1,"delight":1,"Uber One":1,"deep delight":1,"自主性":3}</script>
 
 <script>
 (function(){

@@ -66,11 +66,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
+[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":102,"沙箱":20,"Lenny":65,"Cloud Code":3,"Claude Code":27,"Opus 5":1,"Anthropic":51,"提示词注入":6,"Cowork":3,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":104,"沙箱":20,"Lenny":65,"Cloud Code":3,"Claude Code":28,"Opus 5":1,"Anthropic":51,"提示词注入":6,"Cowork":3,"系统提示词":3}</script>
 
 <script>
 (function(){

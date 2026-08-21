@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[Codex]] · [[Microsoft]] · [[OpenAI]] · [[GitHub]] · [[Bret Taylor]] · [[Jason Cohen]] · [[Dan Shipper]]
 
-<script type="application/json" class="pd-epn">{"智能体":102,"Lenny":65,"Cursor":25,"Codex":23,"Microsoft":11,"OpenAI":43,"GitHub":16,"Bret Taylor":1,"Jason Cohen":1,"Dan Shipper":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":104,"Lenny":65,"Cursor":25,"Codex":23,"Microsoft":11,"OpenAI":43,"GitHub":16,"Bret Taylor":1,"Jason Cohen":1,"Dan Shipper":2}</script>
 
 <script>
 (function(){

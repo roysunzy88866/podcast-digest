@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
+[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":102,"编排器":1,"护栏":19,"循环":3,"规则":1,"police 文件":1,"vibe coding":17,"vibe engineering":1,"技能文件":1,"Codex":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":104,"编排器":1,"护栏":20,"循环":3,"规则":1,"police 文件":1,"vibe coding":18,"vibe engineering":1,"技能文件":1,"Codex":23}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]]
+[[Michael Giannangelli]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":9,"Replit Agent":1,"智能体":102,"vibe coding":17,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":3,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":9,"Replit Agent":1,"智能体":104,"vibe coding":18,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":3,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

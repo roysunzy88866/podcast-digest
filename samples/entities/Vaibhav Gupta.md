@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
+[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":102,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":104,"代码审查":1,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
 
 <script>
 (function(){

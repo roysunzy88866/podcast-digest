@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Madhavan Ramanujam]] · [[Lenny]] · [[Intercom]] · [[Cursor]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]] · [[GitHub]] · [[智能体]]
+[[Madhavan Ramanujam]] · [[Lenny]] · [[Intercom]] · [[Cursor]] · [[Superhuman]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"Madhavan Ramanujam":1,"Lenny":65,"Intercom":3,"Cursor":25,"Sierra":3,"Delphi":3,"Slack":18,"Canva":2,"GitHub":16,"智能体":102}</script>
+<script type="application/json" class="pd-epn">{"Madhavan Ramanujam":1,"Lenny":65,"Intercom":3,"Cursor":25,"Superhuman":4,"Sierra":3,"Delphi":3,"Slack":18,"Canva":2,"GitHub":16}</script>
 
 <script>
 (function(){

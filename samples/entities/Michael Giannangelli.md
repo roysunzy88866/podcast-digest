@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Harry Stebbings]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Shensi Ding]] [[Erik Allebest]] [[Chelsea Finn]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":102,"RLGym":1,"迁移":1,"Claude Code":27,"Codex":23,"Anthropic":51}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":104,"RLGym":1,"迁移":1,"Claude Code":28,"Codex":23,"Anthropic":51}</script>
 
 <script>
 (function(){

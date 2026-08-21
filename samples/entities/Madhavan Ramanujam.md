@@ -55,17 +55,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Intercom]] · [[Cursor]] · [[Charge Flow]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]] · [[GitHub]] · [[智能体]]
+[[Lenny]] · [[Intercom]] · [[Cursor]] · [[Charge Flow]] · [[Superhuman]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]] · [[GitHub]]
 
 ## ④ 也在聊「增长与销售」的人
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Intercom":3,"Cursor":25,"Charge Flow":1,"Sierra":3,"Delphi":3,"Slack":18,"Canva":2,"GitHub":16,"智能体":102}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Intercom":3,"Cursor":25,"Charge Flow":1,"Superhuman":4,"Sierra":3,"Delphi":3,"Slack":18,"Canva":2,"GitHub":16}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Ethan Smith]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Duolingo":3,"Grammarly":1,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1,"主观能动性":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Duolingo":3,"Grammarly":2,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1,"主观能动性":13}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Hilary Gridley]] · [[Lenny]] · [[行为激活]] · [[心智模型]] · [[奖励循环]] · [[ChatGPT]] · [[Claude]] · [[GPT]]
 
-<script type="application/json" class="pd-epn">{"Hilary Gridley":1,"Lenny":65,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":29,"Claude":24,"GPT":1}</script>
+<script type="application/json" class="pd-epn">{"Hilary Gridley":1,"Lenny":65,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":30,"Claude":24,"GPT":1}</script>
 
 <script>
 (function(){

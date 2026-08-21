@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(42:53起):本集把它说成:不仅是凭直觉写代码,还能真正用来经营公司的方式;Replit 招了全职氛围编程团队游走各部门,直接造出取代外部采购的内部系统。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(81:10起):被描述为纯凭直觉用自然语言让 AI 写代码。嘉宾建议别只做一锤子买卖，要把 vibe coding 做出来的小玩意儿当成真正的产品，找真实用户来用并不断迭代。
 - **[[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]]**(05:55起):本集批评市面上绝大多数 vibe coding 平台瞄准的是「开发者管服务器、所有人跑同一版本」的旧云架构,方向全错了;正确的方式是像用办公套件一样 vibe coding 出一个个独立应用。
+- **[[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]]**(77:24起):本集仅在提及 Addy 写过的书名时带过，未展开讨论
 
 ## ① 提到它的金句
 
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -60,14 +61,15 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念(提及)
 - [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]] — 作为概念
+- [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Cursor]] · [[Replit]] · [[OpenAI]] · [[Codex]] · [[Lovable]] · [[Anthropic]]
+[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Cursor]] · [[Replit]] · [[护栏]] · [[Codex]] · [[OpenAI]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"ChatGPT":29,"Claude":24,"Cursor":25,"Replit":9,"OpenAI":43,"Codex":23,"Lovable":8,"Anthropic":51}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":104,"ChatGPT":30,"Claude":24,"Cursor":25,"Replit":9,"护栏":20,"Codex":23,"OpenAI":43,"Lovable":8}</script>
 
 <script>
 (function(){

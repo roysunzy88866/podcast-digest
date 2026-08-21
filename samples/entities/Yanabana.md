@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire Veva]] · [[Yana Welinder]] · [[Codex]] · [[ChatGPT]] · [[Stripe]] · [[GitHub]] · [[Vercel]] · [[智能体]] · [[计算机使用]] · [[浏览器使用]]
+[[Claire Veva]] · [[Yana Welinder]] · [[Codex]] · [[ChatGPT]] · [[Stripe]] · [[GitHub]] · [[Vercel]] · [[Superhuman]] · [[智能体]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yana Welinder":1,"Codex":23,"ChatGPT":29,"Stripe":14,"GitHub":16,"Vercel":8,"智能体":102,"计算机使用":4,"浏览器使用":3}</script>
+<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yana Welinder":1,"Codex":23,"ChatGPT":30,"Stripe":14,"GitHub":16,"Vercel":8,"Superhuman":4,"智能体":104,"计算机使用":4}</script>
 
 <script>
 (function(){

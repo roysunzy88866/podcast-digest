@@ -27,7 +27,7 @@ unlisted: true
 
 [[Sarah Wang]] · [[Elena Berger]] · [[Kimberley Tan]] · [[Joe Schmidt]] · [[Jesse Zhang]] · [[Andy McCall]] · [[Ashwin Srinivas]] · [[Lighthouse]] · [[智能体]] · [[LandGrab]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Elena Berger":3,"Kimberley Tan":1,"Joe Schmidt":1,"Jesse Zhang":1,"Andy McCall":1,"Ashwin Srinivas":1,"Lighthouse":1,"智能体":102,"LandGrab":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Elena Berger":3,"Kimberley Tan":1,"Joe Schmidt":1,"Jesse Zhang":1,"Andy McCall":1,"Ashwin Srinivas":1,"Lighthouse":1,"智能体":104,"LandGrab":1}</script>
 
 <script>
 (function(){

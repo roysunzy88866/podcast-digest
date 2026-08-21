@@ -25,7 +25,7 @@ unlisted: true
 
 [[Brian Halligan]] · [[Lenny]] · [[HubSpot]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":65,"HubSpot":3,"MongoDB":2,"Salesforce":6,"Google":20,"Microsoft":11,"McKinsey":3,"Delphi":3,"智能体":102}</script>
+<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":65,"HubSpot":3,"MongoDB":3,"Salesforce":6,"Google":21,"Microsoft":11,"McKinsey":3,"Delphi":3,"智能体":104}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Albert Cheng]] [[Ethan Smith]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Albert Cheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":3,"ACV":2,"前向部署工程师":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":4,"ACV":2,"前向部署工程师":6}</script>
 
 <script>
 (function(){

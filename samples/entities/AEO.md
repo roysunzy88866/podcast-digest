@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AEO</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AEO">AE</div><div class="pi"><h1 class="pt">AEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AEO">AE</div><div class="pi"><h1 class="pt">AEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:00起):本集说 AEO（Answer Engine Optimization）和 GEO 本质上是一件事，即如何让自己的产品作为答案出现在 LLM 的回复里；它是 SEO 之后的第二大变化，SEO 里有效的东西在 AEO 里依然有效，只是多了引用优化等新杠杆
+- **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(16:05起):本集说 AEO（答案引擎优化）是让智能体搜索时能找到你，核心不光是页面数量（很多是 AI 生成的废料），更重要的是 YouTube 评测、Reddit 讨论和社交舆论
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
+- [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ethan Smith]] · [[SEO]] · [[RAG]] · [[LLM]] · [[citation]] · [[AI 生成内容]] · [[Webflow]] · [[ChatGPT]] · [[Google]]
+[[ChatGPT]] · [[Google]] · [[Lenny]] · [[Matt Swulinski]] · [[Ethan Smith]] · [[Harry Stebbings]] · [[SEO]] · [[Superhuman]] · [[RAG]] · [[Whisper]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Ethan Smith":1,"SEO":2,"RAG":4,"LLM":13,"citation":1,"AI 生成内容":1,"Webflow":2,"ChatGPT":29,"Google":20}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":30,"Google":21,"Lenny":65,"Matt Swulinski":1,"Ethan Smith":1,"Harry Stebbings":2,"SEO":2,"Superhuman":4,"RAG":4,"Whisper":1}</script>
 
 <script>
 (function(){

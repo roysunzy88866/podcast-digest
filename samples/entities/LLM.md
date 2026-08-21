@@ -75,7 +75,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Anthropic]] · [[Replit]] · [[Claude]] · [[ChatGPT]] · [[主观能动性]] · [[Google]] · [[开源模型]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Anthropic":51,"Replit":9,"Claude":24,"ChatGPT":29,"主观能动性":13,"Google":20,"开源模型":7,"Lovable":8}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":104,"Anthropic":51,"Replit":9,"Claude":24,"ChatGPT":30,"主观能动性":13,"Google":21,"开源模型":7,"Lovable":8}</script>
 
 <script>
 (function(){

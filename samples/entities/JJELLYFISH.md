@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jen Abel]] · [[Lenny]] · [[企业销售]] · [[愿景描绘]] · [[超额收益]] · [[第一梯队]] · [[交易设计]] · [[设计合作伙伴]] · [[PLG]] · [[ACV]]
 
-<script type="application/json" class="pd-epn">{"Jen Abel":1,"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":3,"ACV":2}</script>
+<script type="application/json" class="pd-epn">{"Jen Abel":1,"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":4,"ACV":2}</script>
 
 <script>
 (function(){

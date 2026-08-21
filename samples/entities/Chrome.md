@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chrome</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Chrome">CH</div><div class="pi"><h1 class="pt">Chrome</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Chrome">CH</div><div class="pi"><h1 class="pt">Chrome</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(01:16起):本集将 Chrome 作为深层愉悦的案例：iOS 端不活跃标签页功能超过 21 天自动移入单独文件夹，既解决性能问题又消除用户的羞耻感和压力
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(33:45起):本集提到它是一个网页浏览器,主持人通过在 Codex 中输入 `@chrome` 指令,让模型接管它的已登录页面以实现高价值的自动化浏览器操作。
+- **[[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]]**(00:00起):本集说 2012 年加入时前端调试标配还是 Firefox 上的 Firebug，Chrome 团队走了一条以开发者为中心、贴近生态系统的路线
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念(提及)
+- [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Alex Finn]] · [[Nesrine Changuel]] · [[系统提示词]] · [[delight]] · [[gpt 5.6]] · [[deep delight]] · [[Fable]] · [[surface delight]] · [[Anthropic]]
+[[智能体]] · [[Lenny]] · [[Alex Finn]] · [[Addy Osmani]] · [[Nesrine Changuel]] · [[系统提示词]] · [[Chrome DevTools]] · [[delight]] · [[gpt 5.6]] · [[认知投降]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Alex Finn":1,"Nesrine Changuel":1,"系统提示词":3,"delight":1,"gpt 5.6":1,"deep delight":1,"Fable":4,"surface delight":1,"Anthropic":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":104,"Lenny":65,"Alex Finn":1,"Addy Osmani":1,"Nesrine Changuel":1,"系统提示词":3,"Chrome DevTools":1,"delight":1,"gpt 5.6":1,"认知投降":2}</script>
 
 <script>
 (function(){

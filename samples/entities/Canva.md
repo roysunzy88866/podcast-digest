@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Intercom]] · [[Column B]] · [[Cursor]] · [[疯狂大目标]] · [[Charge Flow]] · [[从混乱到清晰]] · [[Sierra]]
+[[Lenny]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Intercom]] · [[Column B]] · [[Cursor]] · [[疯狂大目标]] · [[Charge Flow]] · [[从混乱到清晰]] · [[Superhuman]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Intercom":3,"Column B":1,"Cursor":25,"疯狂大目标":1,"Charge Flow":1,"从混乱到清晰":1,"Sierra":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Intercom":3,"Column B":1,"Cursor":25,"疯狂大目标":1,"Charge Flow":1,"从混乱到清晰":1,"Superhuman":4}</script>
 
 <script>
 (function(){

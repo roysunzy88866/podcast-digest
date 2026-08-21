@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Joe Schmidt]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]] [[Ethan Smith]]
+[[Matt Swulinski]] [[Joe Schmidt]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]] [[Jen Abel]] [[Albert Cheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Joe Schmidt":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":2,"PLG":3,"Decagon":2}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Joe Schmidt":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":2,"PLG":4,"Decagon":2}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Airbnb]] · [[PM]] · [[Kiriti Badam]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Noam Segal]] · [[Aishwarya Reganti]] · [[PayPal]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":102,"Airbnb":8,"PM":3,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2,"Noam Segal":1,"Aishwarya Reganti":1,"PayPal":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":104,"Airbnb":8,"PM":3,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2,"Noam Segal":1,"Aishwarya Reganti":1,"PayPal":1}</script>
 
 <script>
 (function(){

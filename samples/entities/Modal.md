@@ -8,25 +8,27 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Modal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(00:04起):本集主要讨论的公司。被描述为一个为 AI 应用从头构建原语的云平台，不建自己的数据中心，而是在 17 个云提供商上构建了容量池，支持推理、训练、批处理和沙箱工作负载。
+- **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(17:19起):本集顺带提及 Modal 作为推理成本的一部分，说很多人只看 Anthropic 账单而漏掉了 Modal 等成本项
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
+- [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[swyx]] · [[Akshat Bubna]] · [[Vibhu]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]
+[[智能体]] · [[swyx]] · [[Matt Swulinski]] · [[Akshat Bubna]] · [[Harry Stebbings]] · [[Vibhu]] · [[Superhuman]] · [[AX]] · [[Whisper]] · [[DX]]
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Vibhu":1,"智能体":102,"AX":1,"DX":3,"沙箱":20,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":104,"swyx":1,"Matt Swulinski":1,"Akshat Bubna":1,"Harry Stebbings":2,"Vibhu":1,"Superhuman":4,"AX":1,"Whisper":1,"DX":3}</script>
 
 <script>
 (function(){
