@@ -595,12 +595,13 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(scss).toMatch(/body:not\(:has\(\.pd-play\)\) \.pd-mtitle \{/);
   });
 
-  it("★★★ TLDR 是灰底框不是大标题", () => {
+  it("★★★ 集页不再出现「一句话」框([standard-change: 用户授权] 2026-08-22:tldr 上首页卡片,集页删框)", () => {
     const md = renderEpisode(M as any, D as any, null);
-    expect(md).toContain('<div class="pd-tldr"><b>一句话</b>一句话摘要在此。</div>');
-    expect(md).not.toContain("一句话 TLDR"); // 那个大标题不许再出现
-    expect(scss).toMatch(/\.pd-tldr \{[\s\S]*?background/);
-    expect(scss).toMatch(/\.pd-tldr b \{/);
+    expect(md).not.toContain("pd-tldr"); // 灰框整个不再出现
+    expect(md).not.toContain("<b>一句话</b>"); // 红色小标签也没了
+    expect(md).not.toContain("一句话 TLDR"); // 旧旧口径的大标题连带守住
+    expect(scss).not.toMatch(/\.pd-tldr \{/); // 死样式一并清了
+    expect(md).toContain("description: 一句话摘要在此。"); // 但 frontmatter/SEO 层照旧带 tldr
   });
 
   it("★★★ 金句/接着看用灰色小标签,不用 h2(也就不会挤进右栏目录)", () => {

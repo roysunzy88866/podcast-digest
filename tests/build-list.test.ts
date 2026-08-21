@@ -75,8 +75,9 @@ describe("C13a 场景1 · 卡片承载判断所需的信息", () => {
     expect(card).toMatch(/<a class="[^"]*internal[^"]*"[^>]*href="\.\/2026-07-19-x-netflix"/);
   });
 
-  it("★ 一句金句原话上卡(取 digest.quotes[0].zh)", () => {
-    expect(card).toContain("可能是一个智能体编写了代码");
+  it("★ 一句话摘要上卡(取 digest.tldr;[standard-change: 用户授权] 2026-08-22,原为金句)", () => {
+    expect(card).toContain("一句话精华。");
+    expect(card).not.toContain("可能是一个智能体编写了代码"); // 金句不再上卡
   });
 
   it("★ 嘉宾行「人名 · 职位」", () => {
@@ -144,15 +145,15 @@ describe("C13a 场景2 · 金句与嘉宾的呈现规格", () => {
   const md = renderList([ep()], opts);
   const card = cardOf(md, "2026-07-19-x-netflix");
 
-  it("★★ 弯引号由样式生成、不写进内容(内容里一个弯引号都不许有)", () => {
+  it("★★ 摘要行正体无引号([standard-change: 用户授权] 2026-08-22:一句话不是引语,引号/斜体全去)", () => {
     expect(card).not.toContain("“");
     expect(card).not.toContain("”");
-    expect(scss).toMatch(/\.card \.q:before\s*\{\s*content:\s*"\\201C"/);
-    expect(scss).toMatch(/\.card \.q:after\s*\{\s*content:\s*"\\201D"/);
-  });
-
-  it("★ 金句斜体(设计稿 L211/L361)", () => {
-    expect(scss).toMatch(/font-style:\s*italic/);
+    expect(scss).not.toMatch(/\.card \.q:before/); // 样式生成的弯引号已删
+    expect(scss).not.toMatch(/\.card \.q:after/);
+    // .q 块内不许再有斜体(别处的 italic 不管,只钉这一块)
+    const qBlock = scss.match(/\.card \.q \{[\s\S]*?\}/)?.[0] ?? "";
+    expect(qBlock).not.toMatch(/font-style:\s*italic/);
+    expect(qBlock).toBeTruthy();
   });
 
   it("★★ 嘉宾行不显示播客名(卡片范围内不出现 Lenny's Podcast)", () => {
@@ -227,8 +228,8 @@ describe("C13a 场景3 · 字段缺了也不难看(降级)", () => {
     expect(card).toContain("Netflix 产品负责人谈 AI 时代");
   });
 
-  it("★ 无金句 → 金句行不渲染,不留空引号", () => {
-    const md = renderList([ep({ digest: { quotes: [] } })], opts);
+  it("★ 无一句话(tldr 空)→ 摘要行不渲染,不留空 div", () => {
+    const md = renderList([ep({ digest: { tldr: "" } })], opts);
     const card = cardOf(md, "2026-07-19-x-netflix");
     expect(card).not.toContain('class="q"');
   });
@@ -488,14 +489,14 @@ describe("C13f · 日期分组标题说人话(今天 / 昨天 / 日期)", () => 
 describe("C13f · 卡片文字按实际行数长(第十批 #1/#2)", () => {
   it("★★★ 标题与金句都不再锁死最小高度(1 行的稿子下面不许留空一截)", () => {
     const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
-    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .q:before"));
+    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .who"));
     expect(t).not.toMatch(/min-height/);
     expect(q).not.toMatch(/min-height/);
   });
 
   it("★★ 标题 ≤2 行、金句 ≤3 行,超出才截断", () => {
     const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
-    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .q:before"));
+    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .who"));
     expect(t).toMatch(/-webkit-line-clamp:\s*2/);
     expect(q).toMatch(/-webkit-line-clamp:\s*3/);
   });

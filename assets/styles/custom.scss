@@ -623,23 +623,19 @@ body[data-slug^="tags/"] {
      ⚠️ 卡内今后若加别的可点元素(分享/收藏/外链…),必须给它 position:relative + z-index≥2 抬到本层之上,
         否则会被整卡跳转吞掉(现状卡内可点的只有标题 + 标签,标签已在下方抬到 z-index:2)。 */
   .card .t a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
-  /* 金句:斜体 + 引号由样式生成(设计稿 L359-363);内容里不写标点 */
+  /* 摘要行=一句话(2026-08-22 用户拍板:原金句斜体引语改 tldr 正体,引号/斜体一并去掉;设计稿 L359-363 金句样式作废) */
   .card .q {
     font-size: 15px;
     line-height: 1.66;
     margin: 8px 0 0;
     font-weight: 400;
     color: var(--B7);
-    font-style: italic;
-    font-synthesis-style: auto;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 3;
     overflow-wrap: anywhere;
   }
-  .card .q:before { content: "\201C"; }
-  .card .q:after { content: "\201D"; }
   /* C13f 第十二批 #2:公司/职位的视觉重心略高于人名(原来是人名深、职位浅,正好反着) */
   .card .who {
     font-size: 12.5px;
@@ -1414,23 +1410,7 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
 /* ── C13d-2 单集页补完(设计稿 .tldr / .sec / .exit / .mtitle)──
    数值照抄 需求共创/原型/style.css,不自己发明。 */
 
-/* 一句话摘要:灰底框 + 红色小标签(设计稿 .tldr) */
-.pd-tldr {
-  background: #f7f6f3;
-  border-radius: 6px;
-  padding: 13px 17px;
-  margin: 0 0 30px;
-  font-size: 14.5px;
-  color: #3a3a3a;
-  line-height: 1.8;
-}
-.pd-tldr b {
-  display: block;
-  margin-bottom: 3px;
-  font-size: 11.5px;
-  color: #b8443c;
-  letter-spacing: 1px;
-}
+/* 「一句话」灰框已删(2026-08-22 用户拍板:tldr 上首页卡片,集页不再展示),.pd-tldr 样式随之移除 */
 
 /* 分区小标签(设计稿 .sec):12px 灰色字距标签 + 一句灰色说明 */
 .pd-sec {

@@ -72,10 +72,11 @@ describe("renderAudioPlayer · 详情页播放器(US-5)", () => {
     expect(md).toContain('src="/audio/ep1.mp3"');
     expect(md).toContain("不支持音频"); // 加载失败/缺失时浏览器显示降级文案,不卡死页面
   });
-  it("★ renderEpisode 含播放器,在关联区之后、TLDR 之前", () => {
+  it("★ renderEpisode 含播放器,在正文之前(「一句话」框 2026-08-22 已删,锚改正文)", () => {
     const md = renderEpisode(META, DIGEST);
     expect(md).toContain("<audio");
-    expect(md.indexOf("<audio")).toBeLessThan(md.indexOf("pd-tldr")); // C13d-2:TLDR 由大标题改成灰底框
+    expect(md.indexOf("正文。")).toBeGreaterThan(-1); // fixture digest_md 必须真出现,防锚点空转
+    expect(md.indexOf("<audio")).toBeLessThan(md.indexOf("正文。"));
   });
 });
 

@@ -14,7 +14,7 @@
 //   右栏「只放机器自动能算的东西,零人工编辑」(设计稿撤回了「人工手挑」那条 📌)
 //
 // 卡片数据来源(全部已有,本文件不新造):
-//   标题 render.mjs 的 displayTitle(C5.1 fallback 链)/ 金句 digest.quotes[0].zh
+//   标题 render.mjs 的 displayTitle(C5.1 fallback 链)/ 摘要行 digest.tldr(2026-08-22 拍板,原金句)
 //   嘉宾 meta.guest_name / meta.guest_title(C12 产出,缺则按 C13a 场景3 降级)
 //   大类 render.mjs 的 episodeCategories(人工映射>生成端,同源)/ 封面 meta.cover_image(🔒 #20)
 import { writeFileSync, mkdirSync, realpathSync, readFileSync, existsSync } from "node:fs";
@@ -105,7 +105,8 @@ function thumb(meta, primaryCat, hasCover) {
  */
 export function card(episode, cats, hasCover, extraAttrs = "") {
   const { meta, digest } = episode;
-  const quote = digest?.quotes?.[0]?.zh?.trim();
+  // 卡片摘要行=一句话(digest.tldr,正体无引号;2026-08-22 用户拍板,原为金句 quotes[0].zh 斜体引语)
+  const tldr = String(digest?.tldr ?? "").trim();
   const primary = cats[0];
   const chips = cats.length
     ? `<div class="tags">${cats
@@ -117,7 +118,7 @@ export function card(episode, cats, hasCover, extraAttrs = "") {
     `<div class="card" data-slug="${esc(meta.id)}"${primary ? ` data-cat="${esc(primary)}"` : ""}${extraAttrs}>`,
     `<div class="tx">`,
     `<div class="t"><a class="internal"${NEWTAB} href="./${esc(meta.id)}">${esc(displayTitle(meta))}</a></div>`,
-    quote ? `<div class="q">${esc(quote)}</div>` : "",
+    tldr ? `<div class="q">${esc(tldr)}</div>` : "",
     whoRow(meta),
     chips,
     `</div>`,

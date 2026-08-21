@@ -1070,7 +1070,7 @@ Feature: 首页由 Bases 三视图换成真卡片流(C13a)(US-1, US-2)
 Scenario: 卡片承载判断所需的信息
   Given 站里有已发布的集
   When 访客打开首页
-  Then 每张卡显示 标题 / 一句金句原话 / 嘉宾「人名 · 职位」/ 大类标签 / 封面
+  Then 每张卡显示 标题 / 一句话摘要(digest.tldr,正体无引号;[standard-change: 用户授权] 2026-08-22,原为金句斜体引语)/ 嘉宾「人名 · 职位」/ 大类标签 / 封面
   And 卡片按日期分组,组标为日期
   And 页面上不存在任何 base 代码块,也不存在 .bases-* 类名
 
@@ -1266,9 +1266,10 @@ Scenario: 顶栏回来,且能返回
   And 有一个「← 返回」回首页
   And 手机上顶栏合并成「← 本集标题」一行(站名与导航让位)
 
-Scenario: TLDR 是灰底框不是大标题
-  Then 一句话摘要是一个灰底圆角框,左上角一个红色小标签「一句话」
-  And 页面上不再出现「一句话 TLDR」这个大标题
+Scenario: 集页不再展示「一句话」框([standard-change: 用户授权] 2026-08-22;原口径「灰底圆角框+红色小标签」作废)
+  Then 集页不出现「一句话」灰框(tldr 已上首页卡片,集页不重复展示)
+  And tldr 仍进 frontmatter description / SEO datePublished 同层的 JSON-LD / feed 简介
+  And 页面上也不出现「一句话 TLDR」大标题(旧旧口径,连带守住)
 
 Scenario: 小节用灰色小标签,不用大标题
   Then 「全部金句」「接着看」这类分区是 12px 灰色字距标签
@@ -1679,7 +1680,7 @@ Feature: 音频跳过 tldr 前置(C15 刀①)(US-4, US-11)
 Scenario: 音频源文本只读 digest_md
   When 为一集合成音频
   Then 音频源文本 = digest_md(C15 第一段即开场钩子),不再前置干瘪的 tldr
-  And tldr 照旧留在集页「一句话」框与 feed 简介里,只是不进音频
+  And tldr 照旧留在 feed 简介与首页卡片摘要行里,只是不进音频(集页「一句话」框 2026-08-22 已删,见 C13d 处 standard-change)
 
 Scenario: 陈旧音频重合成而非硬红
   Given 口径变更后全库存量音频的 source hash 全部过期(预期)

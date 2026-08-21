@@ -128,11 +128,8 @@ export function secLabel(title, note = null) {
   return `<div class="pd-sec">${title}${note ? ` <span>${note}</span>` : ""}</div>`;
 }
 
-/** 一句话摘要(设计稿 .tldr:灰底圆角框 + 红色小标签「一句话」),不再是「## 一句话 TLDR」大标题 */
-export function renderTldr(digest) {
-  const t = String(digest?.tldr ?? "").trim();
-  return t ? `<div class="pd-tldr"><b>一句话</b>${t}</div>` : "";
-}
+// 「一句话」灰框已从集页删除(2026-08-22 用户拍板:tldr 上首页卡片,集页不再重复展示;
+//  tldr 仍进 frontmatter description / SEO / feed 简介)。原 renderTldr 随之移除。
 
 /**
  * 集页顶栏(设计稿 header.top)。外面那层 `.pd` 是为了直接吃首页那套顶栏样式,不再抄一份。
@@ -934,8 +931,6 @@ ${renderAudioPlayer(meta)}
 ${renderHook(digest, meta)}
 
 ${top}
-
-${renderTldr(digest)}
 
 ${bodySeg.trim()}
 
