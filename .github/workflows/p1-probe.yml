@@ -112,6 +112,7 @@ jobs:
 
       - name: P1c · MiMo(api.xiaomimimo.com)美国 runner 真合成一句(C37 前置核验)
         if: always()
+        timeout-minutes: 10   # GLM 006[5]:API 挂起别拖到 job 上限
         env:
           PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}
         run: |

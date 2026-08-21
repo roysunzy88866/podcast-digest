@@ -42,15 +42,17 @@ export function runPeiyinMimo(text, outPath, { spawnImpl = spawn, timeoutMs = MI
   return new Promise((res, rej) => {
     const p = spawnImpl("python3", peiyinArgs(outPath), { stdio: ["pipe", "ignore", "pipe"] });
     let err = "";
+    let settled = false; // GLM 006[3]:超时 rej 与自然 close 只结算一次,kill 竞态不双结算
+    const settle = (fn, v) => { if (!settled) { settled = true; fn(v); } };
     const timer = setTimeout(() => {
-      rej(new Error(`[tts] MiMo/peiyin 超时 ${Math.round(timeoutMs / 60000)} 分,杀进程回落`));
-      try { p.kill("SIGKILL"); } catch { /* 已退出 */ }
+      settle(rej, new Error(`[tts] MiMo/peiyin 超时 ${Math.round(timeoutMs / 60000)} 分,杀进程回落`));
+      try { if (!p.killed) p.kill("SIGKILL"); } catch { /* 已退出 */ }
     }, timeoutMs);
     p.stderr.on("data", (d) => (err += d));
-    p.on("error", (e) => { clearTimeout(timer); rej(e); });
+    p.on("error", (e) => { clearTimeout(timer); settle(rej, e); });
     p.on("close", (c) => {
       clearTimeout(timer);
-      c === 0 ? res(outPath) : rej(new Error(`[tts] peiyin exit ${c}: ${err.slice(-300)}`));
+      c === 0 ? settle(res, outPath) : settle(rej, new Error(`[tts] peiyin exit ${c}: ${err.slice(-300)}`));
     });
     p.stdin.on("error", () => { /* 进程早死时写 stdin 会 EPIPE,主报错走 close/error */ });
     p.stdin.end(text);
@@ -403,11 +405,15 @@ export async function synthesizeEpisode(
 
   // ── C37 主路:MiMo(vendored peiyin,整文喂入自行切块剪尾)。任何失败只警告,落回下面 edge 链路 ──
   if (io.mimoOn()) {
+    // GLM 006[2]:先合到临时文件、成功才落 audioPath —— 失败/超时的半截产物不覆盖既有好音频、不留残渣
+    const mimoTmp = io.mkdtemp("tts-mimo-");
     try {
-      io.ensureDir(dir);
-      await io.synthMimo(plan.text, audioPath);
-      const duration = await io.probe(audioPath);
+      const tmpOut = io.join(mimoTmp, "audio.mp3");
+      await io.synthMimo(plan.text, tmpOut);
+      const duration = await io.probe(tmpOut);
       if (!(duration > 0)) throw new Error(`合成后时长 ${duration}(疑空壳)`);
+      io.ensureDir(dir);
+      io.writeBytes(audioPath, readFileSync(tmpOut));
       const meta = {
         id,
         voice: MIMO_VOICE,
@@ -421,6 +427,8 @@ export async function synthesizeEpisode(
       return { skipped: false, audioPath, metaPath, meta, engine: "mimo-peiyin" };
     } catch (e) {
       console.warn(`⚠️ [tts] ${id}: MiMo 主路失败,回落 edge(不断更):${e?.message ?? e}`);
+    } finally {
+      io.rmrf(mimoTmp); // 成败都清临时区(GLM 006[2] 连带:不留半截产物)
     }
   }
 
