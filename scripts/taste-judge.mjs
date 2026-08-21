@@ -26,16 +26,23 @@ const TASTE_MAX = 20000; // 活文档失控膨胀会撑爆上下文(同 patrol �
 
 /** GLM 输出 → {verdict, reason};认不出返回 null(交由调用方按「判不出」处理)。 */
 export function parseVerdict(raw) {
-  const m = String(raw ?? "").match(/\{[^{}]*"verdict"[^{}]*\}/);
+  const text = String(raw ?? "").trim();
+  const shape = (o) =>
+    (o?.verdict === "对味" || o?.verdict === "不对味") && typeof o?.reason === "string"
+      ? { verdict: o.verdict, reason: o.reason }
+      : null;
+  // 先整体 parse(reason 含花括号时正则会漏,GLM 038[3]),再退回抠单层 JSON(模型爱加前后解释)
+  try {
+    const whole = shape(JSON.parse(text));
+    if (whole) return whole;
+  } catch { /* fallthrough */ }
+  const m = text.match(/\{[^{}]*"verdict"[^{}]*\}/);
   if (!m) return null;
   try {
-    const o = JSON.parse(m[0]);
-    if ((o.verdict === "对味" || o.verdict === "不对味") && typeof o.reason === "string")
-      return { verdict: o.verdict, reason: o.reason };
+    return shape(JSON.parse(m[0]));
   } catch {
-    /* fallthrough */
+    return null;
   }
-  return null;
 }
 
 /** 只有明确「对味」才放行。判不出(null)按放行处理 —— 见 shouldProcess 的失败策略说明。 */
@@ -91,9 +98,11 @@ export function judgeEpisodeTaste(item, source) {
     "只看题材是否落在档案的收录范围内 —— 不评价内容质量、不猜测未公开信息。",
     '拿不准时判「不对味」,reason 以「拿不准:」开头(少发 ≪ 发离题;漏掉的可人工点名补)。',
   ].join("\n");
+  // timeout 必设(GLM 038[6]):glm-ask 网络挂起时没有它整条流水线同步卡死;
+  // 超时后 status=null ≠ 0 → 自然落进「调不通 → 放行」分支,符合设计。
   const r = spawnSync("python3", [join(ROOT, "tools/glm-ask"), "--model", TASTE_JUDGE_MODEL,
     "--system", system, "--max-tokens", "200", judgeInput(item, source)],
-    { cwd: ROOT, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 });
+    { cwd: ROOT, encoding: "utf8", maxBuffer: 8 * 1024 * 1024, timeout: 90_000 });
   if (r.status !== 0) {
     console.error(`   ⚠️ 品味判官调不通(exit ${r.status}):${(r.stderr || "").slice(-160)}`);
     return { ...shouldProcess(null, true), verdict: null };

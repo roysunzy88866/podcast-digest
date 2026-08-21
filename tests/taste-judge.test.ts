@@ -13,6 +13,10 @@ describe("parseVerdict", () => {
   it("★ 前后有噪音(模型爱加解释)也能抠出来", () => {
     expect(parseVerdict('好的,判断如下:\n{"verdict":"不对味","reason":"公共卫生硬件"}\n希望有帮助')?.verdict).toBe("不对味");
   });
+  it("★ reason 含花括号 / 键序颠倒也认得出(GLM 038[3]:单层正则会漏)", () => {
+    expect(parseVerdict('{"verdict":"不对味","reason":"含{括号}的理由"}')?.verdict).toBe("不对味");
+    expect(parseVerdict('{"reason":"x","verdict":"不对味"}')?.verdict).toBe("不对味");
+  });
   it("坏 JSON / 空 / 非法 verdict → null(交调用方按判不出处理)", () => {
     expect(parseVerdict("{verdict: 对味}")).toBe(null);
     expect(parseVerdict("")).toBe(null);
@@ -60,8 +64,16 @@ describe("judgeInput · 喂给判官的信息不许静默丢", () => {
 
 describe("接线源码锚 · 两条路都要判(删掉任一处都会红)", () => {
   const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-  it("★★★ 新集与补历史都在处理前判题材", () => {
+  it("★★★ 新集与补历史都在处理前判题材 —— 且顺序真的在 processEpisode 之前(GLM 038[9])", () => {
     expect((src.match(/judgeEpisodeTaste\(item, source\)/g) ?? []).length).toBe(2);
+    let from = 0;
+    for (let i = 0; i < 2; i++) {
+      const j = src.indexOf("judgeEpisodeTaste(item, source)", from);
+      const p = src.indexOf("processEpisode(item, id, source, state)", j);
+      expect(j).toBeGreaterThan(0);
+      expect(p).toBeGreaterThan(j); // 判官在前,processEpisode 在后
+      from = p;
+    }
   });
   it("★★★ 新集判掉的记终态 retry:false —— 否则 cutoff 卡住、每班重判重花钱", () => {
     // 定位到「有 skipped 数组」的那处(新集路径);补历史用计数器、不涉及 cutoff,无需 retry 字段
