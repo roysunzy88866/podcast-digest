@@ -256,12 +256,27 @@ export const DAILY_TARGET = 8;
 // **整批已完成的产物随 runner 一起销毁,一集都没留下**;下一班重做同样的集,再超时,再销毁 —— 死循环。
 // 修法:自己在硬上限前收工。每开一集新活前问一句「剩下的时间还够做完一集吗」,
 // 不够就停止接新活、把**已经做完的**集正常回仓部署,剩下的留给下一班(半成品缓存复用,不白烧)。
-export const JOB_BUDGET_MIN = 300;   // 自留 5h(平台 6h);余下 1h 给回仓/建站/部署/告警
-export const PER_EPISODE_MIN = 100;  // 一集的时间估:转写实测 66–87 分 + 后链,取 100 分保守
+export const JOB_BUDGET_MIN = 300;   // 自留 5h(平台 6h,workflow timeout 5.5h);余下给回仓/建站/部署/告警
 
-/** 还能不能再开一集(纯逻辑:已用多久 / 预算 / 单集估时)。够不够做完**一整集**才算够。 */
-export function hasTimeBudget(elapsedMin, { budgetMin = JOB_BUDGET_MIN, perEpisodeMin = PER_EPISODE_MIN } = {}) {
-  return elapsedMin + perEpisodeMin <= budgetMin;
+// ⚠️ 单集估时**必须按音频时长算**,不能拍一个固定值(2026-08-21 血账):
+//   原来写死 100 分 → 守卫在已跑 194 分时放行了一集 85 分钟的播客(194+100=294 ≤ 300「合规」),
+//   而它实际要 150+ 分 → 撞 5.5h 上限被杀,整批产出销毁(run 32395346828 实证)。
+//   同一批里那集 whisperX **转写就花了 185 分钟**,是固定估值的近两倍。
+export const TRANSCRIBE_RATIO = 1.9;      // 转写耗时 ÷ 音频时长(whisperX CPU large-v3 实测 185 分/≈100 分音频,留余量)
+export const POST_CHAIN_MIN = 30;         // 转写之后:翻译/浓缩/判官/闸门/配音/集页,实测 ~20-25 分,取 30
+export const UNKNOWN_DURATION_MIN = 220;  // feed 不给时长时按最坏算(pragmatic 那集就是「0 分」,实跑 185+ 分)
+
+/** 单集耗时估计(分钟)。needsAsr=false(有官方稿/非 ASR 源)时只算后链 —— 那条便宜通道是秒级拿稿。 */
+export function estimateEpisodeMin(durationSec, needsAsr = true) {
+  if (!needsAsr) return POST_CHAIN_MIN;
+  const audioMin = Number(durationSec) / 60;
+  if (!(audioMin > 0)) return UNKNOWN_DURATION_MIN; // 时长未知 → 不敢赌,按最坏算
+  return Math.round(audioMin * TRANSCRIBE_RATIO + POST_CHAIN_MIN);
+}
+
+/** 还能不能再开这一集(纯逻辑):已用时间 + **这一集的**估时,要能落在预算内。 */
+export function hasTimeBudget(elapsedMin, estMin = UNKNOWN_DURATION_MIN, { budgetMin = JOB_BUDGET_MIN } = {}) {
+  return elapsedMin + estMin <= budgetMin;
 }
 
 const JOB_STARTED_AT = Date.now();
@@ -269,10 +284,14 @@ export function elapsedMin(now = Date.now()) {
   return (now - JOB_STARTED_AT) / 60000;
 }
 
-/** 时间不够就别开新活;返回 true=该停手。停手要响亮说明,别让人以为是没内容。 */
-function outOfTimeBudget(what) {
-  if (hasTimeBudget(elapsedMin())) return false;
-  console.log(`⏳ 时间预算用尽(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分)——` +
+/** 这一集还开不开;返回 true=该停手。停手要响亮说明(带上估时依据),别让人以为是没内容。 */
+function outOfTimeBudget(what, item, source) {
+  const needsAsr = !!source?.asr && !pickFeedTranscript(item?.transcripts);
+  const est = estimateEpisodeMin(item?.durationSec, needsAsr);
+  if (hasTimeBudget(elapsedMin(), est)) return false;
+  const dur = Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
+  console.log(`⏳ 时间预算不够开下一集(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分;` +
+    `这集${dur}${needsAsr ? "、要转写" : "、有现成稿"} → 估 ${est} 分)——` +
     `停止接${what},本班把已完成的正常回仓部署,剩下的下班次继续(半成品缓存复用,不白烧)。`);
   return true;
 }
@@ -1051,13 +1070,14 @@ function revivePass(state, { onlyKey, dryRun }) {
   let clean = 0;
   let skipped = 0;
   for (const id of revive) {
-    if (outOfTimeBudget("补活")) break; // C32:别在 6h 红线前开新活
     const source = sourceForId(id);
     if (!source) {
       console.error(`   ⚠️ ${id} 对不上任何已配置源(不猜,跳过;需人工看)`);
       continue;
     }
     const item = reviveItemFromMeta(JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")));
+    // C32:估时要基于这一集的真实时长(读完 meta 才知道),故守卫放在这儿而非循环首行
+    if (outOfTimeBudget("补活", item, source)) break;
     let res;
     try {
       res = processEpisode(item, id, source, state);
@@ -1155,7 +1175,7 @@ function processBackfillPicks(pairs, state) {
   let clean = 0;
   let skipped = 0;
   for (const { item, source } of pairs) {
-    if (outOfTimeBudget("补历史")) break; // C32:别在 6h 红线前开新活
+    if (outOfTimeBudget("补历史", item, source)) break;
     const id = deriveId(item, source);
     let res;
     try {
@@ -1456,7 +1476,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
   for (const [idx, item] of picks.entries()) {
     // C32:新集是耗时主力(单集全链实测 76/93/70 分)。红线前停手,让已完成的集能回仓,
     // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
-    if (outOfTimeBudget("新集")) {
+    if (outOfTimeBudget("新集", item, source)) {
       // ⚠️ 剩下没做的必须登记 retry:true —— 否则收尾处 cutoff 会推进到「本批最新」(含没做的那些),
       // 把它们永久跳过、再也抓不到(我这刀引入的 bug,GLM 035[3] 提示方向后查出)。
       picks.slice(idx).forEach((rest) =>

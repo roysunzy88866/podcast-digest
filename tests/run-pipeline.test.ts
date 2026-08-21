@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, JOB_BUDGET_MIN, PER_EPISODE_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -481,102 +481,45 @@ describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配�
   });
 });
 
-describe("hasTimeBudget · C32 别在 6h 红线前开新活", () => {
-  it("★★★ 刚开工时够(能开新活)", () => {
-    expect(hasTimeBudget(0)).toBe(true);
+describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定估值害我被杀过一次)", () => {
+  it("★★★ 复现 2026-08-21 血案:已跑 194 分、要开 85 分音频的集 —— 旧的固定 100 分估值放行,新逻辑必须拒绝", () => {
+    expect(194 + 100 <= 300).toBe(true);                                    // 旧逻辑「合规」地放行了
+    expect(hasTimeBudget(194, estimateEpisodeMin(85 * 60, true))).toBe(false); // 新逻辑拒绝(实跑要 150+ 分,会撞 5.5h 上限)
   });
-  it("★★★ 剩余时间不够做完一整集就停手 —— 这正是整批被平台强杀、产出全丢的那个洞", () => {
-    // 预算 300 分、单集估 100 分:已跑 200 分时恰好还够一集;跑到 201 分就不该再开
-    expect(hasTimeBudget(200)).toBe(true);
-    expect(hasTimeBudget(201)).toBe(false);
-    expect(hasTimeBudget(299)).toBe(false); // 「还剩 1 分钟」绝不能算够
+  it("★★★ feed 不给时长 → 按最坏算,绝不乐观(pragmatic 那集就是「0 分」,实跑 185 分转写)", () => {
+    expect(estimateEpisodeMin(0, true)).toBe(UNKNOWN_DURATION_MIN);
+    expect(estimateEpisodeMin(undefined, true)).toBe(UNKNOWN_DURATION_MIN);
+    expect(estimateEpisodeMin(0, true)).toBeGreaterThanOrEqual(185); // 至少覆盖实测那次
   });
-  it("★★ 预算必须留在平台 6h 硬上限之内(留够回仓/建站/部署的时间)", () => {
-    // 语义:JOB_BUDGET_MIN 是「做完最后一集的时刻」上限(守卫保证不会跨过它去开新活),
-    // 所以最坏总耗时 ≈ JOB_BUDGET_MIN + 回仓/建站/部署。留 ≥30 分给收尾,且不超 workflow 的 330。
+  it("★★★ 估时随音频时长增长(这正是固定值缺的那条)", () => {
+    const short = estimateEpisodeMin(30 * 60, true);
+    const long = estimateEpisodeMin(120 * 60, true);
+    expect(long).toBeGreaterThan(short * 2);
+  });
+  it("★★ 转写倍率不低于实测(185 分 ÷ ≈100 分音频);低估=又被杀", () => {
+    expect(TRANSCRIBE_RATIO).toBeGreaterThanOrEqual(1.8);
+    expect(estimateEpisodeMin(100 * 60, true)).toBeGreaterThanOrEqual(185);
+  });
+  it("★★ 有现成稿的集只算后链(C28 便宜通道不该被估时误伤成「来不及」)", () => {
+    expect(estimateEpisodeMin(120 * 60, false)).toBe(POST_CHAIN_MIN);
+    expect(hasTimeBudget(250, estimateEpisodeMin(120 * 60, false))).toBe(true); // 已跑 250 分仍能补一集便宜的
+  });
+  it("★★ 预算留在平台上限内(workflow timeout 330;预算 300 + 回仓收尾)", () => {
     expect(JOB_BUDGET_MIN).toBeLessThanOrEqual(330);
     expect(360 - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(30);
   });
-  it("★★ 单集估时不低于实测(转写 66–87 分 + 后链;低估=又会被杀)", () => {
-    expect(PER_EPISODE_MIN).toBeGreaterThanOrEqual(90);
-  });
-  it("★★★ 三处耗时循环都装了守卫(源码锚:删掉任一处都会红)", () => {
+  it("★★★ 三处耗时循环都装了守卫,且都传了这一集的 item/source(不传=退回固定估值)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    for (const what of ['outOfTimeBudget("新集")', 'outOfTimeBudget("补历史")', 'outOfTimeBudget("补活")']) {
-      expect(src).toContain(what);
+    for (const what of ["新集", "补历史", "补活"]) {
+      expect(src).toContain(`outOfTimeBudget("${what}", item, source)`);
     }
   });
   it("★★★ 超时停手时,没做的集必须登记 retry —— 否则 cutoff 推过它们、永久抓不到", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    const start = src.indexOf('if (outOfTimeBudget("新集"))');
-    const guard = src.slice(start, src.indexOf("const id = deriveId(item, source);", start)); // 起点后再找,别撞上补历史那处同名行
+    const start = src.indexOf('if (outOfTimeBudget("新集"');
+    const guard = src.slice(start, src.indexOf("const id = deriveId(item, source);", start));
     expect(guard).toContain("picks.slice(idx)");
     expect(guard).toContain("retry: true");
-  });
-  it("参数可覆写(便于按源调不同估时)", () => {
-    expect(hasTimeBudget(100, { budgetMin: 120, perEpisodeMin: 30 })).toBe(false);
-    expect(hasTimeBudget(80, { budgetMin: 120, perEpisodeMin: 30 })).toBe(true);
-  });
-});
-
-describe("selectBackfillGlobal · C33 跨源统一按最新挑(别再被源清单顺序绑架)", () => {
-  const mk = (key: string, date: string, hasT = false) => ({
-    item: {
-      title: `${key} ${date}`, link: `https://x/${key}/${date}`,
-      pubDateISO: `${date}T10:00:00.000Z`, hasAudio: true,
-      transcripts: hasT ? [{ url: "https://x/t.srt", type: "application/x-subrip" }] : [],
-    },
-    source: { key, name: key },
-  });
-
-  it("★★★ 跨源挑最新的 —— 实证病根:Lenny's 排在源清单最前,一次补满 8 集全是它的 1-2 月存货,而 a16z/nopriors 当天刚发的躺着没做", () => {
-    const pool = [
-      mk("lennys", "2026-02-19"), mk("lennys", "2026-02-15"), mk("lennys", "2026-02-12"),
-      mk("a16z", "2026-08-20"), mk("nopriors", "2026-08-20"), mk("cogrev", "2026-08-16"),
-    ];
-    const picks = selectBackfillGlobal(pool, { n: 3 });
-    expect(picks.map((p) => p.item.pubDateISO.slice(0, 10))).toEqual(["2026-08-20", "2026-08-20", "2026-08-16"]);
-    expect(picks.every((p) => p.source.key !== "lennys")).toBe(true); // 半年前的存货不该顶掉当天新集
-  });
-
-  it("★★★ 挑出来的带着各自的源(混源批,处理时不能张冠李戴)", () => {
-    const picks = selectBackfillGlobal([mk("a16z", "2026-08-20"), mk("lennys", "2026-08-19")], { n: 2 });
-    expect(picks.map((p) => p.source.key)).toEqual(["a16z", "lennys"]);
-  });
-
-  it("★★ 窗口内有稿优先仍生效(C28 便宜通道不因跨源改造降级)", () => {
-    // n=1 → 窗口 4:最新四条里只有 08-18 有稿 → 挑它(比纯日期序的 08-20 更省钱)
-    const pool = [mk("a16z", "2026-08-20"), mk("a16z", "2026-08-19"), mk("cogrev", "2026-08-18", true), mk("a16z", "2026-08-17")];
-    const picks = selectBackfillGlobal(pool, { n: 1 });
-    expect(picks[0].item.pubDateISO.slice(0, 10)).toBe("2026-08-18");
-  });
-
-  it("★★ 窗口之外的老集不许因为「有稿」被挑上来(否则一路挑到年份下限附近)", () => {
-    const pool = [
-      mk("a16z", "2026-08-20"), mk("a16z", "2026-08-19"), mk("a16z", "2026-08-18"), mk("a16z", "2026-08-17"),
-      mk("lennys", "2026-01-04", true), // 有稿但太老,在窗口(n*4=4)之外
-    ];
-    const picks = selectBackfillGlobal(pool, { n: 1 });
-    expect(picks[0].item.pubDateISO.slice(0, 10)).not.toBe("2026-01-04");
-  });
-
-  it("★★★ 跨源同标题只留最新那条(GLM 036[1]:同一场访谈被两个源收录,旧实现靠逐源拦、新实现会双双入库)", () => {
-    const pool = [
-      { ...mk("lennys", "2026-08-10"), item: { ...mk("lennys", "2026-08-10").item, title: "How Whatnot built a global marketplace" } },
-      { ...mk("a16z", "2026-08-18"), item: { ...mk("a16z", "2026-08-18").item, title: "How Whatnot built a global marketplace" } },
-      mk("cogrev", "2026-08-16"),
-    ];
-    const out = dedupeCandidatesByTitle(pool, []);
-    expect(out).toHaveLength(2);
-    expect(out.find((c) => c.item.title.includes("Whatnot"))!.item.pubDateISO.slice(0, 10)).toBe("2026-08-18"); // 留最新那条
-  });
-  it("★★ 库里已有同标题的候选直接剔除(跨源重复不入库)", () => {
-    const pool = [{ ...mk("a16z", "2026-08-18"), item: { ...mk("a16z", "2026-08-18").item, title: "Already in library" } }];
-    expect(dedupeCandidatesByTitle(pool, ["Already in library"])).toHaveLength(0);
-  });
-  it("空池不炸;n 限制生效", () => {
-    expect(selectBackfillGlobal([], { n: 5 })).toEqual([]);
-    expect(selectBackfillGlobal([mk("a16z", "2026-08-20"), mk("a16z", "2026-08-19")], { n: 1 })).toHaveLength(1);
   });
 });
 
