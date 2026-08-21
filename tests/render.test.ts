@@ -256,6 +256,12 @@ describe("renderEpisode · 显示日期=入库日(added 优先)", () => {
     const page = renderEpisode(meta, DIGEST, ENTITIES);
     expect(page).toContain("date: 2026-07-08");
   });
+  it("★ added 是垃圾串(不长得像日期)→ 回落 id 前缀,不把垃圾当日期渲染", () => {
+    const meta = { ...META, id: "2026-07-19-lennys-x", date: undefined, added: "not-a-date" };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("date: 2026-07-19");
+    expect(page).not.toContain("not-a-date");
+  });
 });
 
 // ── C10 · 8 大类词表(episodeCategories:人工映射 > 生成端 categories > 未分类兜底)──
