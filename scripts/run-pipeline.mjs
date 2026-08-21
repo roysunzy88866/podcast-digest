@@ -285,13 +285,16 @@ export function elapsedMin(now = Date.now()) {
 }
 
 /** 这一集还开不开;返回 true=该停手。停手要响亮说明(带上估时依据),别让人以为是没内容。 */
-function outOfTimeBudget(what, item, source) {
-  const needsAsr = !!source?.asr && !pickFeedTranscript(item?.transcripts);
+function outOfTimeBudget(what, item, source, id) {
+  // 本地已有转写稿 → 这一集**不用再转写**,只跑后链(补活/半成品重试的常态:
+  // processEpisode 见 transcript.en.json 就跳过取源)。不看这一条会把补活按 3 小时估、白白拒掉。
+  const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
+  const needsAsr = !cached && !!source?.asr && !pickFeedTranscript(item?.transcripts);
   const est = estimateEpisodeMin(item?.durationSec, needsAsr);
   if (hasTimeBudget(elapsedMin(), est)) return false;
-  const dur = Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
+  const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
   console.log(`⏳ 时间预算不够开下一集(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分;` +
-    `这集${dur}${needsAsr ? "、要转写" : "、有现成稿"} → 估 ${est} 分)——` +
+    `这集${dur}${needsAsr ? "、要转写" : "、无需转写"} → 估 ${est} 分)——` +
     `停止接${what},本班把已完成的正常回仓部署,剩下的下班次继续(半成品缓存复用,不白烧)。`);
   return true;
 }
@@ -1077,7 +1080,7 @@ function revivePass(state, { onlyKey, dryRun }) {
     }
     const item = reviveItemFromMeta(JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")));
     // C32:估时要基于这一集的真实时长(读完 meta 才知道),故守卫放在这儿而非循环首行
-    if (outOfTimeBudget("补活", item, source)) break;
+    if (outOfTimeBudget("补活", item, source, id)) break;
     let res;
     try {
       res = processEpisode(item, id, source, state);
@@ -1175,8 +1178,8 @@ function processBackfillPicks(pairs, state) {
   let clean = 0;
   let skipped = 0;
   for (const { item, source } of pairs) {
-    if (outOfTimeBudget("补历史", item, source)) break;
     const id = deriveId(item, source);
+    if (outOfTimeBudget("补历史", item, source, id)) break;
     let res;
     try {
       res = processEpisode(item, id, source, state);
@@ -1476,7 +1479,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
   for (const [idx, item] of picks.entries()) {
     // C32:新集是耗时主力(单集全链实测 76/93/70 分)。红线前停手,让已完成的集能回仓,
     // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
-    if (outOfTimeBudget("新集", item, source)) {
+    if (outOfTimeBudget("新集", item, source, deriveId(item, source))) {
       // ⚠️ 剩下没做的必须登记 retry:true —— 否则收尾处 cutoff 会推进到「本批最新」(含没做的那些),
       // 把它们永久跳过、再也抓不到(我这刀引入的 bug,GLM 035[3] 提示方向后查出)。
       picks.slice(idx).forEach((rest) =>

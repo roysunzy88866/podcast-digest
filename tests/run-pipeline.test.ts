@@ -508,11 +508,17 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     expect(JOB_BUDGET_MIN).toBeLessThanOrEqual(330);
     expect(360 - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(30);
   });
-  it("★★★ 三处耗时循环都装了守卫,且都传了这一集的 item/source(不传=退回固定估值)", () => {
+  it("★★★ 三处耗时循环都装了守卫,且都传了 item/source/id(id 用来查本地转写缓存)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    for (const what of ["新集", "补历史", "补活"]) {
-      expect(src).toContain(`outOfTimeBudget("${what}", item, source)`);
-    }
+    expect(src).toContain('outOfTimeBudget("新集", item, source, deriveId(item, source))');
+    expect(src).toContain('outOfTimeBudget("补历史", item, source, id)');
+    expect(src).toContain('outOfTimeBudget("补活", item, source, id)');
+  });
+  it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const fn = src.slice(src.indexOf("function outOfTimeBudget("), src.indexOf("\n}", src.indexOf("function outOfTimeBudget(")));
+    expect(fn).toContain('transcript.en.json');
+    expect(fn).toContain("const needsAsr = !cached");
   });
   it("★★★ 超时停手时,没做的集必须登记 retry —— 否则 cutoff 推过它们、永久抓不到", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
