@@ -79,6 +79,19 @@ export const SOURCES = [
   { key: "pragmatic", name: "The Pragmatic Engineer", feedUrl: "https://newsletter.pragmaticengineer.com/feed", asr: "whisperx" },
   // workos:已停更18月(用户「只挖历史」)——向前抓自然0新(死源),靠进补历史池挖它31集封闭档。
   { key: "workos", name: "Crossing the Enterprise Chasm (WorkOS)", feedUrl: "https://feeds.transistor.fm/crossing-the-enterprise-chasm", asr: "whisperx" },
+  // ══ C35 · 2026-08-21 用户拍板扩 10 源(调研:两路 agent + 逐个 feed 实测,见 需求共创/调研-新源候选-2026-08-21.md)══
+  // A 组 · feed 自带官方转写稿(便宜通道):
+  { key: "practicalai", name: "Practical AI", feedUrl: "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm", asr: "whisperx" }, // 实测 8/8 带 vtt/srt/json,秒级
+  { key: "changelog", name: "Changelog Interviews", feedUrl: "https://changelog.com/interviews/feed", asr: "whisperx" }, // 稿是 text/html,格式适配前走 ASR(月更 109 分,估 237 分在预算内)
+  { key: "devtools", name: "Scaling DevTools", feedUrl: "https://feeds.transistor.fm/scaling-devtools", asr: "whisperx" }, // 部分集 vtt 可直用;短集 25 分
+  { key: "rework", name: "REWORK", feedUrl: "https://feeds.transistor.fm/rework", asr: "whisperx" }, // 稿 text/html 待适配;短集 23 分 ASR 也便宜
+  // B 组 · 无稿走 ASR(用户知情:占听写产能):
+  { key: "howiai", name: "How I AI", feedUrl: "https://anchor.fm/s/1035b1568/podcast/rss", asr: "whisperx" }, // Lenny 姊妹台,31 分短集
+  { key: "unsupervised", name: "Unsupervised Learning", feedUrl: "https://feeds.simplecast.com/dOSE_bdP", asr: "whisperx" },
+  { key: "twiml", name: "The TWIML AI Podcast", feedUrl: "https://feeds.megaphone.fm/MLN2155636147", asr: "whisperx" },
+  { key: "eyeonai", name: "Eye On A.I.", feedUrl: "https://rss.libsyn.com/shows/123267/destinations/727317.xml", asr: "whisperx" },
+  { key: "indepth", name: "In Depth", feedUrl: "https://feeds.megaphone.fm/FRCH6787238462", asr: "whisperx" },
+  { key: "uncapped", name: "Uncapped with Jack Altman", feedUrl: "https://anchor.fm/s/1156f1c04/podcast/rss", asr: "whisperx" },
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
@@ -93,6 +106,8 @@ export const BACKFILL_FEED_KEYS = [
   "a16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding", // aia16z 已停(drift #59,与 a16z 同档播客)
   // 2026-08-16 用户确认再进池(drift #58):deepmind/cogrev/twentyvc 题材贴 AI+深 feed;workos 停更但用户「只挖历史」=靠补历史池挖它 31 集封闭档。
   "deepmind", "cogrev", "twentyvc", "workos",
+  // C35(2026-08-21 用户拍板):新 10 源全部进池 —— 品味判官(C34)逐集把关,时间预算(C32)控听写节奏
+  "practicalai", "changelog", "devtools", "rework", "howiai", "unsupervised", "twiml", "eyeonai", "indepth", "uncapped",
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
