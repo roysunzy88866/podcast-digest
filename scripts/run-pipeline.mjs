@@ -17,6 +17,9 @@ import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不�
 import { pickFeedTranscript, isOnTopic } from "./feed-transcript.mjs"; // C28 · ADR 0024(纯函数,无副作用)
 // C30 音频搬运工(有 isMain 守卫,import 无副作用):403 集登记待搬运 → Mac mini 抓音频上中转站 → 这里优先用+用后清
 import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, RELAY_TAG } from "./audio-relay.mjs";
+// C34 品味判官(有 isMain 守卫,import 无副作用):开始处理**之前**按品味档案判一次题材,
+// 偏题的直接不做 —— 省下 2-4 小时转写,也不再让「222 纳米杀菌灯」那类内容做完才被发现。
+import { judgeEpisodeTaste } from "./taste-judge.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -1180,6 +1183,15 @@ function processBackfillPicks(pairs, state) {
   for (const { item, source } of pairs) {
     const id = deriveId(item, source);
     if (outOfTimeBudget("补历史", item, source, id)) break;
+    // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
+    const taste = judgeEpisodeTaste(item, source);
+    if (!taste.ok) {
+      console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
+      appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
+      skipped += 1;
+      continue;
+    }
     let res;
     try {
       res = processEpisode(item, id, source, state);
@@ -1487,6 +1499,15 @@ async function processSource(source, state, { backfillN, dryRun }) {
       break;
     }
     const id = deriveId(item, source);
+    // C34:开工前先过品味判官(标题级,免费档)。偏题 = 终态(retry:false),cutoff 可推进过它、不再重判重烧。
+    const taste = judgeEpisodeTaste(item, source);
+    if (!taste.ok) {
+      console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
+      appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
+      skipped.push({ id, reason: `题材不对味:${taste.why}`, retry: false });
+      continue;
+    }
     let res;
     try {
       res = processEpisode(item, id, source, state);
