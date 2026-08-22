@@ -222,9 +222,10 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
   );
 }
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });
+// 拷 committed 的现切子集当兜底;deploy-site.sh 随后会按当前标题重切覆盖(装了 fonttools 时)。
 copyFileSync(
-  resolve(ROOT, "assets/fonts/AlibabaPuHuiTi-subset.woff2"),
-  resolve(SITE, "quartz/static/fonts/AlibabaPuHuiTi-subset.woff2"),
+  resolve(ROOT, "assets/fonts/AlibabaPuHuiTi-min.woff2"),
+  resolve(SITE, "quartz/static/fonts/AlibabaPuHuiTi-min.woff2"),
 );
-console.log("  ✔ 普惠体子集 → site/quartz/static/fonts/");
+console.log("  ✔ 普惠体子集(min 兜底)→ site/quartz/static/fonts/");
 console.log(`✅ patch-site:C11 视觉定制(主题色/默认浅色/样式/字体)已就位`);

@@ -36,13 +36,14 @@
    ⚠️ 原型用 `.left`/`.right` 当栏名,与 Quartz 侧栏类名撞车 → 一律改前缀 `.pd-`。
    ═══════════════════════════════════════════════════════════════════════ */
 
-/* ── 普惠体:自托管子集(GB2312 常用字,~1.2MB,苹方兜底异步换) ── */
+/* ── 普惠体:按实际用字现切的子集(~130KB,原 1.2MB GB2312 全集手机加载不了→标题退回系统字,2026-08-22)
+   部署时 scripts/subset-font.mjs 按当前所有标题用字重切,新集自动覆盖;苹方兜底异步换 ── */
 @font-face {
   font-family: "AlibabaPuHuiTi";
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
-  src: url("/static/fonts/AlibabaPuHuiTi-subset.woff2") format("woff2");
+  src: url("/static/fonts/AlibabaPuHuiTi-min.woff2") format("woff2");
 }
 
 /* ══ 设计稿 token(浅色 = 实抓 sspai.com,照抄;深色 = 按同层级关系反推)══ */

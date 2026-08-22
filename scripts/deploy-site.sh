@@ -36,6 +36,11 @@ node ./quartz/bootstrap-cli.mjs create -X new -t default -l shortest -b "talk.so
 node ./quartz/bootstrap-cli.mjs plugin install --from-config --latest
 # C10 配置定制补丁(弹框关/站名/Bases 默认视图;C11 主题色/默认浅色/custom.scss/普惠体字体。site/ 每次重建,定制必须走这里)
 node ../scripts/patch-site.mjs
+# 普惠体子集按当前所有标题用字现切(2026-08-22:原 1.2MB 全集手机加载不了、标题退回系统字)。
+# fail-open:装不上 fonttools / 切失败 → 保留 patch-site 拷的 committed min 兜底,绝不阻断部署。
+( pip install --quiet fonttools brotli 2>/dev/null || pip3 install --quiet fonttools brotli 2>/dev/null || .venv/bin/pip install --quiet fonttools brotli 2>/dev/null || true
+  node ../scripts/subset-font.mjs quartz/static/fonts/AlibabaPuHuiTi-min.woff2 ) \
+  || echo "::warning::普惠体子集现切失败 → 用 committed min 兜底(可能略旧,新集生僻字或退回系统字)"
 # 2) 灌内容(集页 + 实体页)+ 列表首页
 cp ../samples/*.md content/ 2>/dev/null || true
 if ls ../samples/entities/*.md >/dev/null 2>&1; then
