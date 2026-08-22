@@ -293,3 +293,4 @@
 {"ts":"2026-08-22T07:51:00.458Z","action":"prefilter-skip","channel":"langchain","videoId":"5cJB7-5Z7ME","title":"LangChain Academy Tutors: Learn LangChain with Your Coding Agent","reason":"时长 359s < 下限 600s"}
 {"ts":"2026-08-22T07:52:07.658Z","action":"seed-failed","channel":"langchain","videoId":"u8Im0l_vwqM","title":"Inside DeepWiki: How Cognition Builds Wikis for Devin at Scale","verdict":"对味","reason":"Cognition 团队拆解 DeepWiki 的 agent 实操与 context engineering 原则,属企业级 agent 案例深挖,符合频道提示要的 Cognition 类内容。","error":"seed-talk exit 1/种子未就绪(可重试)"}
 {"ts":"2026-08-22T07:53:13.865Z","action":"seed-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","verdict":"对味","reason":"agent 实操创始人访谈:CTO 讲真实降本案例与 harness 工程实践,符合企业客户案例口味","error":"seed-talk exit 1/种子未就绪(可重试)"}
+{"ts":"2026-08-22T07:58:37.095Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
