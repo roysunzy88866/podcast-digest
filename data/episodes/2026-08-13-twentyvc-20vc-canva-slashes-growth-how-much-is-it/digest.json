@@ -1,0 +1,195 @@
+{
+  "title_zh": "Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相",
+  "tldr": "Canva 增长从30%降至20%，AI服务成本激增只是表象，真正的问题是整个无代码品类正在被ChatGPT等通用AI界面蚕食。",
+  "digest_md": "Canva 增长从30%降到20%，CEO Melanie Perkins 把部分原因归到AI服务成本上——她们用的是前沿模型，太贵了，没法继续变相补贴用户 [05:36 Jason]。但这个解释背后藏着一个更致命的问题：就算Canva自建了图像模型，把成本砍掉80%到90%，产品本身的存亡危机并不会因此解除。\n\n## 无代码时代正在终结\n\nCanva、Notion、Airtable，这三家公司本质上都是同一个东西：无代码工具。Airtable是伪装成电子表格的无代码数据库，Notion是伪装成文字处理器的无代码数据库，Canva是无代码的设计工具。在AI之前，它们都是极其惊艳的产品——你不需要设计师，不需要会HTML，就能把东西做出来 [12:37 Harry]。\n\n但现在这个时代正在慢慢结束。当每个人都会用ChatGPT，当你在ChatGPT里输入\"帮我生成一个晚餐邀请函\"就能直接拿到成品，你根本不会想到去打开Canva [12:00 Rory]。Jason团队的实际经历很说明问题——他们建了一套自己的广告生成系统，完全跑在智能体上，这个智能体从头到尾就没想过要用Canva [10:13 Jason]。\n\n这跟产品做得好不好没关系。Canva和Notion什么都没做错，Jason团队只是不再需要它们了 [08:09 Jason]。\n\n## \"堡垒之夜化\"：真正的威胁不是功能，是入口\n\nRory把这个现象叫做\"堡垒之夜化\"（fortnitification）——当用户的时间都花在ChatGPT里，所有功能都被打包进一个订阅，独立的工具就被绕过了 [12:16 Harry]。Jason认为甚至\"容易使用\"都不重要了，关键是用户注意力的捆绑——就像Uber总裁最大的恐惧不是竞争对手，而是你对着ChatGPT说\"我要叫车\"，它自动帮你比价路由到Lyft、Uber或者其他平台 [16:22 Jason]。\n\n但要注意区分企业市场和专业消费者市场。Figma虽然也因为AI功能烧钱导致毛利率受损，但它更多是企业产品——大群人协同构建软件，有官僚流程和工作流管理可以赚钱。而Canva面对的是专业消费者，恰恰是AI最容易触达、最容易替代的场景 [11:07 Jason]。\n\n## 基础设施公司 vs 应用公司：完全不同的命运\n\n不要把所有SaaS公司混为一谈。Datadog、Cloudflare、JFrog这些基础设施公司，它们的模式根本没变——只是现在多了一个需要购买量比任何人都大100倍的基础设施客户。它们不需要发明新东西，只需要出现然后卖更多 [23:00 Rory]。\n\n真正的转型成功案例极其稀少。Rory认为Palantir算一个——从18%增长跳到98%，靠的是两个东西：一是真正的基于结果的定价（签20亿美元合同，承诺省80亿或增收60亿，没人敢这么干），二是部署AI的现场团队（FDE）积累了十几年 [23:39 Jason]。Replit算另一个——在荒野里做了六年web IDE，加上模型之后彻底转型成功 [21:37 Harry]。\n\n但大多数公司面临的现实是：经营核心业务已经够难了，根本没力气在AI时代做出那个跨越。Figma加了智能体功能，Canva也加了，但仍然不够，重力在把它们往下拉 [19:18 Jason]。\n\n## 23和24年的犹豫，26和27年要买单\n\nRory认为这是一个\"之前\"和\"之后\"之间出现裂缝的时期，能跳过去就必须快速跳，差距太大就来不及了 [19:41 Rory]。很多公司将在26和27年为23和24年的犹豫付出代价 [00:00 Harry]。\n\n对持有Canva份额的LP来说，现实很残酷：在当前市场环境下，40亿美元ARR、20%增长，如果不存在生存危机，估值大约120亿美元；但如果市场认定存在生存风险，可能比这还低 [26:49 Jason]。Rory的看法更直白——Airtable和Canva的事件应该让LP对旧估值多一分怀疑，不能再因为曾经以某个估值融过资就死守那个数字 [30:32 Rory]。\n\n## 本集带走\n\n- **无代码工具面临结构性替代**：当ChatGPT能直接生成海报、邀请函、网页，用户根本不会想到打开独立工具，这不是功能问题，是入口被绕过\n- **区分你的公司是基础设施还是应用**：基础设施公司（可观测性、云服务）只是多了更大的客户，模式不变；应用公司必须回答\"为什么用户不直接在ChatGPT里做\"\n- **转型窗口极窄**：Palantir靠基于结果定价+十年积累的现场部署团队转型成功，Replit靠小体量快速转向——大公司经营核心业务已经够难，跨越裂缝必须极快\n- **存在性风险会直接压估值**：同样是20%增长，没有生存危机的公司和被质疑\"会不会被ChatGPT替代\"的公司，市场给的倍数完全不同\n- **智能体绕过工具是真实的**：不是理论推演——已经有团队自建了广告生成系统，智能体从头到尾没想过要用Canva，因为\"它没出现在智能体的选项里\"",
+  "quotes": [
+    {
+      "en": "There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24.",
+      "zh": "在26年和27年会有很多人为23年和24年的某种犹豫不决买单。",
+      "timestamp": "00:00",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The only way you prove that you're not dying is by growing.",
+      "zh": "证明你没有消亡的唯一方法就是增长。",
+      "timestamp": "00:07",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Canva and Notion did nothing wrong at all. Nothing. And we didn't need them.",
+      "zh": "Canva和Notion完全没有做错任何事。完全没有。而我们不需要它们。",
+      "timestamp": "08:16",
+      "speaker": "Jason Lamkin"
+    },
+    {
+      "en": "But the era of no code, of things that humans can do without engineering resources, it's slowly winding down.",
+      "zh": "但是无代码的时代，那些人类可以在没有工程资源的情况下做的事情，它正在慢慢结束。",
+      "timestamp": "13:04",
+      "speaker": "Jason Lamkin"
+    },
+    {
+      "en": "It's actually the disaggregation of UI or the removal of UI where you say I want a car and ChatGPT automatically routes you to Lyft, Uber or another provider based on price.",
+      "zh": "实际上是UI的解聚或UI的移除，你说你想要一辆车，ChatGPT根据价格自动将你路由到Lyft、Uber或其他提供商。",
+      "timestamp": "16:32",
+      "speaker": "Harry Stabbings"
+    },
+    {
+      "en": "But there are times when the world opens up and there's a crevice between the before and the after. And if you make that jump, you've got to make it quickly.",
+      "zh": "但有时世界会打开，在\"之前\"和\"之后\"之间会出现一道裂缝。如果你做出那个跨越，你必须快速完成。",
+      "timestamp": "19:41",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "No one puts a $2 billion deal on the line for an outcome-based resolution.",
+      "zh": "没有人会把20亿美元的交易押在基于结果的解决方案上。",
+      "timestamp": "24:39",
+      "speaker": "Jason Lamkin"
+    },
+    {
+      "en": "It's no longer acceptable to say once upon a time we raised at 42, therefore we're holding for 42 billion, right?",
+      "zh": "再说一次我们以那个估值融了资因此我们要持有420亿估值，这不再是可以接受的了，对吧？",
+      "timestamp": "31:34",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The holders compound forever, and the ones you sell don't compound at all from then on.",
+      "zh": "持有者永远复利，而你卖掉的那些从那以后根本不复利。",
+      "timestamp": "33:29",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It must be extraordinarily validating, if you're Jeff Dean, to leave as a non-CEO of a $2 or $3 trillion market cap public company and have the stock go down by a couple of hundred billion dollars.",
+      "zh": "如果你是Jeff Dean，作为一家市值2万亿或3万亿美元的上市公司的非CEO离开，并且股价下跌了几千亿美元，这一定是非常有验证感的。",
+      "timestamp": "35:16",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So the corporate imperative is to get someone who wants to do those things, not someone who wants to save the world.",
+      "zh": "所以企业的当务之急是找到一个想做那些事情的人，而不是一个想拯救世界的人。",
+      "timestamp": "43:21",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "They really only want to work on stuff at the absolute cutting edge that is extremely intellectually interesting to them. They don't want to work on anything else. They just don't want to do it.",
+      "zh": "他们真的只想做对他们来说在绝对前沿且在智力上极其有趣的事情。他们不想做任何其他事情。他们就是不想做。",
+      "timestamp": "43:37",
+      "speaker": "Jason Lamkin"
+    },
+    {
+      "en": "Any investment I've made that is not run by a founder is a zero. It's going to be a zero in this age.",
+      "zh": "我做的任何不是由创始人经营的投资都是零。在这个时代都会归零。",
+      "timestamp": "00:44",
+      "speaker": "Jason Lamkin"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24.",
+      "zh": "在26年和27年会有很多人为23年和24年的某种犹豫不决买单。"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Unknown",
+      "en": "The only way you prove that you're not dying is by growing.",
+      "zh": "证明你没有消亡的唯一方法就是增长。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Unknown",
+      "en": "Canva and Notion did nothing wrong at all. Nothing. And we didn't need them.",
+      "zh": "Canva和Notion完全没有做错任何事。完全没有。而我们不需要它们。"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "Unknown",
+      "en": "It never occurred to the agent to use Canva for this. It never once occurred to it.",
+      "zh": "智能体从未想过为此使用Canva。它一次也没想过。"
+    },
+    {
+      "timestamp": "12:56",
+      "speaker": "Unknown",
+      "en": "Canva was a no-code way to design stuff. It was a breathtakingly disruptive product.",
+      "zh": "Canva是一种设计东西的无代码方式。它是一个令人惊叹的颠覆性产品。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Unknown",
+      "en": "But the era of no code, of things that humans can do without engineering resources, it's slowly winding down.",
+      "zh": "但是无代码的时代，那些人类可以在没有工程资源的情况下做的事情，它正在慢慢结束。"
+    },
+    {
+      "timestamp": "16:32",
+      "speaker": "Unknown",
+      "en": "It's actually the disaggregation of UI or the removal of UI where you say I want a car and ChatGPT automatically routes you to Lyft, Uber or another provider based on price.",
+      "zh": "实际上是UI的解聚或UI的移除，你说你想要一辆车，ChatGPT根据价格自动将你路由到Lyft、Uber或其他提供商。"
+    },
+    {
+      "timestamp": "19:18",
+      "speaker": "Unknown",
+      "en": "I think we're starting to see the outcomes of it being so hard to run your core business in the age of AI.",
+      "zh": "我认为我们开始看到在AI时代经营核心业务如此困难所带来的后果。"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Unknown",
+      "en": "But there are times when the world opens up and there's a crevice between the before and the after. And if you make that jump, you've got to make it quickly.",
+      "zh": "但有时世界会打开，在\"之前\"和\"之后\"之间会出现一道裂缝。如果你做出那个跨越，你必须快速完成。"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Unknown",
+      "en": "So all they had to do was show up and sell more.",
+      "zh": "所以他们所要做的就是出现并销售更多。"
+    },
+    {
+      "timestamp": "24:35",
+      "speaker": "Unknown",
+      "en": "No one puts a $2 billion deal on the line for an outcome-based resolution.",
+      "zh": "没有人会把20亿美元的交易押在基于结果的解决方案上。"
+    },
+    {
+      "timestamp": "27:50",
+      "speaker": "Unknown",
+      "en": "But when every single person on Wall Street uses ChatGPT, why do you think people won't... I think existential risk is both reality and perception.",
+      "zh": "但是当华尔街上的每个人都使用ChatGPT时，为什么你认为人们不会……我认为生存风险既是现实也是认知。"
+    },
+    {
+      "timestamp": "30:32",
+      "speaker": "Unknown",
+      "en": "It's no longer acceptable to say once upon a time we raised at 42, therefore we're holding for 42 billion, right?",
+      "zh": "再说一次我们以那个估值融了资因此我们要持有420亿估值，这不再是可以接受的了，对吧？"
+    },
+    {
+      "timestamp": "33:29",
+      "speaker": "Unknown",
+      "en": "The holders compound forever, and the ones you sell don't compound at all from then on.",
+      "zh": "持有者永远复利，而你卖掉的那些从那以后根本不复利。"
+    },
+    {
+      "timestamp": "35:14",
+      "speaker": "Unknown",
+      "en": "It must be extraordinarily validating, if you're Jeff Dean, to leave as a non-CEO of a $2 or $3 trillion market cap public company and have the stock go down by a couple of hundred billion dollars.",
+      "zh": "如果你是Jeff Dean，作为一家市值2万亿或3万亿美元的上市公司的非CEO离开，并且股价下跌了几千亿美元，这一定是非常有验证感的。"
+    },
+    {
+      "timestamp": "42:56",
+      "speaker": "Unknown",
+      "en": "So the corporate imperative is to get someone who wants to do those things, not someone who wants to save the world.",
+      "zh": "所以企业的当务之急是找到一个想做那些事情的人，而不是一个想拯救世界的人。"
+    },
+    {
+      "timestamp": "43:43",
+      "speaker": "Unknown",
+      "en": "They really only want to work on stuff at the absolute cutting edge that is extremely intellectually interesting to them. They don't want to work on anything else. They just don't want to do it.",
+      "zh": "他们真的只想做对他们来说在绝对前沿且在智力上极其有趣的事情。他们不想做任何其他事情。他们就是不想做。"
+    },
+    {
+      "timestamp": "66:07",
+      "speaker": "Unknown",
+      "en": "Any investment I've made that is not run by a founder is a zero. It's going to be a zero in this age.",
+      "zh": "我做的任何不是由创始人经营的投资都是零。在这个时代都会归零。"
+    }
+  ]
+}

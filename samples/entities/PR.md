@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Codex]] · [[Anthropic]] · [[GitHub]] · [[OpenAI]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":107,"Lenny":65,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Codex":23,"Anthropic":53,"GitHub":16,"OpenAI":44,"Claude":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Codex":23,"Anthropic":54,"GitHub":16,"OpenAI":45,"Claude":25}</script>
 
 <script>
 (function(){

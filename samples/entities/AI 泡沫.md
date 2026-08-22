@@ -259,7 +259,7 @@ unlisted: true
 
 [[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Jason Lemkin":1,"SaaStr":1,"Replit":9,"Vercel":8,"Salesforce":6,"Artisan":1,"Qualified":1,"Delphi":3,"智能体":107}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Jason Lemkin":1,"SaaStr":1,"Replit":10,"Vercel":8,"Salesforce":6,"Artisan":1,"Qualified":1,"Delphi":3,"智能体":108}</script>
 
 <script>
 (function(){

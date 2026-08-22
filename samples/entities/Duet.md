@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sarah Wang]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[Decagon]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":2,"智能体":107,"开源模型":7,"微调":3,"业务逻辑":1,"前向部署工程师":6}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":2,"智能体":108,"开源模型":7,"微调":3,"业务逻辑":1,"前向部署工程师":6}</script>
 
 <script>
 (function(){

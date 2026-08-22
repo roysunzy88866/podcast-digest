@@ -41,7 +41,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[前向部署工程师]] · [[Vercel]] · [[Salesforce]] · [[Delphi]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Brian Halligan]] · [[Adam Ward]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":107,"前向部署工程师":6,"Vercel":8,"Salesforce":6,"Delphi":3,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Brian Halligan":1,"Adam Ward":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":108,"前向部署工程师":6,"Vercel":8,"Salesforce":6,"Delphi":3,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Brian Halligan":1,"Adam Ward":1}</script>
 
 <script>
 (function(){

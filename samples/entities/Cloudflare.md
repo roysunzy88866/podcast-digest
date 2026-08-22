@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloudflare</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloudflare">CL</div><div class="pi"><h1 class="pt">Cloudflare</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]]**(15:27起):本集把它说成:早期为了捍卫「让互联网更美好」的使命，顶住压力重写底层代码以免费提供 SSL 加密，因赢得海量信任而成长为价值数百亿美元的公司。
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(09:18起):本集把它说成:Idan 部署个人网站的平台,支持预览部署,让智能体能直观验证代码升级后网站没有发生破坏。
+- **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(21:57起):本集提到 Cloudflare 作为基础设施供应商之一，和 Datadog、JFrog 一样，赶上历史上最大的基础设施繁荣
 
 ## ① 提到它的金句
 
@@ -24,18 +25,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为被讨论公司
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司(提及)
+- [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Eric Ries]] · [[Idan Gazit]] · [[Lenny]] · [[GitHub Next]] · [[Incorruptible]] · [[Copilot]] · [[Novo Nordisk]] · [[ACE]] · [[Anthropic]] · [[Dependabot]]
+[[Anthropic]] · [[Eric Ries]] · [[Idan Gazit]] · [[Harry Stabbings]] · [[Lenny]] · [[GitHub Next]] · [[Jason Lamkin]] · [[Incorruptible]] · [[Copilot]] · [[Canva]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Idan Gazit":1,"Lenny":65,"GitHub Next":1,"Incorruptible":1,"Copilot":4,"Novo Nordisk":2,"ACE":1,"Anthropic":53,"Dependabot":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":54,"Eric Ries":1,"Idan Gazit":1,"Harry Stabbings":1,"Lenny":65,"GitHub Next":1,"Jason Lamkin":1,"Incorruptible":1,"Copilot":4,"Canva":3}</script>
 
 <script>
 (function(){

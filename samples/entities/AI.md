@@ -273,7 +273,7 @@ unlisted: true
 
 [[Lenny]] · [[Stripe]] · [[LLM]] · [[智能体]] · [[MCP]] · [[Claude]] · [[a16z]] · [[Dylan Field]] · [[Melanie Perkins]] · [[Marc Andreessen]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":14,"LLM":13,"智能体":107,"MCP":14,"Claude":25,"a16z":5,"Dylan Field":2,"Melanie Perkins":1,"Marc Andreessen":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":14,"LLM":13,"智能体":108,"MCP":14,"Claude":25,"a16z":5,"Dylan Field":2,"Melanie Perkins":1,"Marc Andreessen":2}</script>
 
 <script>
 (function(){

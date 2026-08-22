@@ -49,7 +49,7 @@ unlisted: true
 
 [[Lenny]] · [[Cursor]] · [[智能体]] · [[Replit]] · [[Claude]] · [[OpenAI]] · [[vibe coding]] · [[Anthropic]] · [[Base44]] · [[PRD]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Cursor":25,"智能体":107,"Replit":9,"Claude":25,"OpenAI":44,"vibe coding":19,"Anthropic":53,"Base44":2,"PRD":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Cursor":25,"智能体":108,"Replit":10,"Claude":25,"OpenAI":45,"vibe coding":19,"Anthropic":54,"Base44":2,"PRD":6}</script>
 
 <script>
 (function(){

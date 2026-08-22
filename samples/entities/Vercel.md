@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Stripe]] · [[GitHub]] · [[Replit]] · [[OpenAI]] · [[Salesforce]] · [[Slack]] · [[Codex]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":107,"Lenny":65,"Stripe":14,"GitHub":16,"Replit":9,"OpenAI":44,"Salesforce":6,"Slack":19,"Codex":23,"Cursor":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Stripe":14,"GitHub":16,"Replit":10,"OpenAI":45,"Salesforce":6,"Slack":19,"Codex":23,"Cursor":25}</script>
 
 <script>
 (function(){

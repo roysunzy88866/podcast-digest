@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Puccini":1,"Sophia Du":1,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":6,"生存风险":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Puccini":1,"Sophia Du":1,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":6,"生存风险":2}</script>
 
 <script>
 (function(){

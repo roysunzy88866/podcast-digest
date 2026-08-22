@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>HubSpot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="HubSpot">HU</div><div class="pi"><h1 class="pt">HubSpot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="HubSpot">HU</div><div class="pi"><h1 class="pt">HubSpot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(01:18起):本集将其作为已经接入 ChatGPT 深度研究连接器的案例，说明即使知道数据会被吸走也不得不玩这个游戏
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(74:46起):本集将其作为突破渠道饱和的成功案例，指出其著名的增长转折点就是除了直接卖软件，还开始通过「代理机构」渠道去销售，几年后这部分收入就占到了总营收的一半
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(00:56起):本集以 HubSpot 为核心案例，反复讲述其从营销软件公司转型 CRM、从员工中心转向客户中心、C 级高管高频流失、以及通过净推荐值按部门拆分发现管理问题的经历。
+- **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(28:00起):本集说 HubSpot 市值 100 亿美元，面临低端 CRM 竞争对手爆炸式增长的威胁，那些竞争对手的智能体和 LLM 都很好
 
 ## ① 提到它的金句
 
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为被讨论公司(提及)
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司
+- [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Google]] · [[智能体]] · [[Brian Balfour]] · [[Jason Cohen]] · [[Brian Halligan]] · [[ChatGPT]] · [[客户流失率]] · [[MongoDB]] · [[Claude]]
+[[Lenny]] · [[Google]] · [[智能体]] · [[ChatGPT]] · [[Brian Balfour]] · [[Jason Cohen]] · [[Brian Halligan]] · [[Harry Stabbings]] · [[Claude]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Google":21,"智能体":107,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"ChatGPT":30,"客户流失率":1,"MongoDB":3,"Claude":25}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Google":22,"智能体":108,"ChatGPT":31,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"Harry Stabbings":1,"Claude":25,"客户流失率":1}</script>
 
 <script>
 (function(){

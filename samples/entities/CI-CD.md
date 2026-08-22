@@ -38,7 +38,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[Codex]] · [[OpenAI]] · [[Sherwin Wu]] · [[swyx]] · [[Vaibhav Gupta]] · [[Ken]] · [[Lenny]] · [[Akshat Bubna]] · [[BAML]]
 
-<script type="application/json" class="pd-epn">{"智能体":107,"Codex":23,"OpenAI":44,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Ken":1,"Lenny":65,"Akshat Bubna":1,"BAML":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":108,"Codex":23,"OpenAI":45,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Ken":1,"Lenny":65,"Akshat Bubna":1,"BAML":1}</script>
 
 <script>
 (function(){

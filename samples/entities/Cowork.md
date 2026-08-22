@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude Code]] · [[智能体]] · [[Cursor]] · [[Codex]] · [[Marc Andreessen]] · [[Boris Cherny]] · [[Dan Shipper]] · [[AI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Claude Code":28,"智能体":107,"Cursor":25,"Codex":23,"Marc Andreessen":2,"Boris Cherny":2,"Dan Shipper":2,"AI":8,"Anthropic":53}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Claude Code":28,"智能体":108,"Cursor":25,"Codex":23,"Marc Andreessen":2,"Boris Cherny":2,"Dan Shipper":2,"AI":8,"Anthropic":54}</script>
 
 <script>
 (function(){

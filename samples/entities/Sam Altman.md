@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":14,"智能体":107,"沙箱":21,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":13,"OpenAI":44,"YC":5}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":14,"智能体":108,"沙箱":21,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":13,"OpenAI":45,"YC":5}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2516 @@
+{
+  "episode_id": "2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-13",
+  "tags": [
+    "SaaS 估值",
+    "无代码工具",
+    "智能体替代",
+    "AI 转型",
+    "创始人控制权"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stabbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stabbings",
+      "file": "Harry Stabbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            48.777,
+            52.019
+          ],
+          "quote": "This is 20VC with me, Harry Stabbings, and it's my favorite show of the week.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jason-lamkin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason Lamkin",
+      "file": "Jason Lamkin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            52.159,
+            56.783
+          ],
+          "quote": "Rory O'Driscoll, Jason Lamkin, and me shooting this shit on the biggest news in tech.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "type": "company",
+      "role": "company",
+      "name": "Canva",
+      "file": "Canva",
+      "primary": true,
+      "how_described": "本集说 Canva 是一家年收入约 36 亿美元、增长从 30% 降至 20% 的无代码设计工具公司，面临 AI 服务成本激增的压力，且作为专业消费者产品最容易被 ChatGPT 替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            58.705,
+            62.288
+          ],
+          "quote": "Canva cuts 2026 growth by a third?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            317.569,
+            319.39
+          ],
+          "quote": "We're going to start with Canva, baby.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            321.472,
+            327.477
+          ],
+          "quote": "Now, Canva cuts 2026 growth by a third as AI serving costs blow up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            328.158,
+            333.402
+          ],
+          "quote": "So, Roy, for those that maybe missed this story on Canva, what should they know that they need to know here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            336.262,
+            344.024
+          ],
+          "quote": "The facts are that Canva, large privately held company in the kind of creative suite space, discloses its revenue, even though they're private.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            412.382,
+            417.207
+          ],
+          "quote": "And in the middle, there's Canva, still private, around $3.6 billion, growing at 20%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            480.676,
+            483.357
+          ],
+          "quote": "But yet it seems somehow Canva was defying that gravity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            489.999,
+            492.82
+          ],
+          "quote": "Canva and Notion both we churned, not because they're not great apps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            496.421,
+            499.122
+          ],
+          "quote": "Canva and Notion did nothing wrong at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            620.768,
+            622.689
+          ],
+          "quote": "It never occurred to the agent to use Canva for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            686.294,
+            690.621
+          ],
+          "quote": "I really don't think Blackbird and friends are going to beat Canva up if the bottom line is missed slightly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            716.312,
+            717.854
+          ],
+          "quote": "Canva is the prosumer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            747.613,
+            757.161
+          ],
+          "quote": "The nerdier version, Amjad said about Airtable, not about Canva, but he said his quote on the CEO of Replit's quote for Airtable was, no criticism, but the era of no code is over.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            773.153,
+            776.735
+          ],
+          "quote": "And Canva was a no-code way to design stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            875.251,
+            879.633
+          ],
+          "quote": "If I'm an employee at Canva or a founder, and the founders already gave away 90% of their shares.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            927.846,
+            937.273
+          ],
+          "quote": "And if it's rational to say on certain circumstances it's easy to be private, then that just probably weighs into the calculus when you decide, as Canva could have done, should you have gone public in 2021.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1005.325,
+            1006.746
+          ],
+          "quote": "They just routed us around Canva.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1061.005,
+            1064.509
+          ],
+          "quote": "I'm not sure I fully believe it, but it's why Intuit is down, and it's what Canva's wrestling with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1093.965,
+            1100.872
+          ],
+          "quote": "I think the ChatGPT cannibalization of Canva is me and my partner doing a dinner invite with ChatGPT that we would have done in Canva.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1168.374,
+            1169.955
+          ],
+          "quote": "Canva's a little slow, but they've added it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1206.899,
+            1217.544
+          ],
+          "quote": "Can you give me an example of a Figma or a Canva generation company that has gone, hell, I see this coming, I'm going to move fast, and to hell with it, they've done it and done it well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1342.979,
+            1350.025
+          ],
+          "quote": "He was holding the boogie board just right and the Wave came in and he's flying and ChatGPT is just tumbling, poor Canva.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1373.012,
+            1377.294
+          ],
+          "quote": "Facing the CEO of Datadog versus, say, the CEO of Canva or Adobe are very different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1486.269,
+            1493.739
+          ],
+          "quote": "Canva's on the prosumer side, but in the enterprise, it's very hard to change to true outcome-based pricing and to have a suite of FDEs that can deploy AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1552.986,
+            1556.829
+          ],
+          "quote": "Someone like a Canva still has to rethink everything and has a lot of pressure on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1595.089,
+            1604.891
+          ],
+          "quote": "If I just do a quick fire, I don't want to take it back too much, but just a lot of LPs listen to the show and they have Canva in their books and they're going, what do I do with that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1668.714,
+            1670.655
+          ],
+          "quote": "I want Canva to defy gravity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1680.483,
+            1685.047
+          ],
+          "quote": "If Monday and HubSpot do, I don't see why they won't see the exact same thing for Canva.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1716.035,
+            1722.676
+          ],
+          "quote": "So right now, I think there would be a wide variety of perceptions on valuation at something like a prosumer company like Canva.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1757.744,
+            1766.027
+          ],
+          "quote": "I do think that once everyone starts saying that ChatGPT is killing Canva because you can make poster size images for free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1804.149,
+            1806.611
+          ],
+          "quote": "But if I were Canva, I'd be worried that this...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1832.639,
+            1842.007
+          ],
+          "quote": "I guess, obviously, I think after Airtable and this Canva quarter, it's probably time to be a little extra skeptical of marks, just being realistic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            4651.061,
+            4657.284
+          ],
+          "quote": "I mean, yes, Atlassian, but Atlassian also did something, which Canva did too, which I always find a bad sign, a sign of stress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            4663.728,
+            4670.198
+          ],
+          "quote": "Like the other thing that Canva did, because the revenue's down, is they pushed a lot of features into the higher paid editions, okay?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            4839.083,
+            4843.226
+          ],
+          "quote": "Just like if you're Canva, the prosumer folks are threatened by chat.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体会绕过传统工具，比如 Jason 团队自建的广告生成系统完全跑在智能体上，智能体从未想过要用 Canva；智能体正在重新定义用户与工具的交互方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            138.842,
+            144.448
+          ],
+          "quote": "Well, the Vanta agent works like a 24-7 GRC engineer in the background, finding issues, drafting fixes,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            618.928,
+            620.268
+          ],
+          "quote": "It's all built on our agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            620.768,
+            622.689
+          ],
+          "quote": "It never occurred to the agent to use Canva for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1284,
+          "t": [
+            5045.061,
+            5050.683
+          ],
+          "quote": "Well, the Vanta agent works like a 24-7 GRC engineer in the background, finding issues, drafting fixes,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "no-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "无代码 (no code)",
+      "file": "无代码",
+      "primary": true,
+      "how_described": "本集说无代码时代正在慢慢结束——Airtable 是伪装成电子表格的无代码数据库，Notion 是伪装成文字处理器的无代码数据库，Canva 是无代码设计方式，当 AI 能直接生成这些东西时，无代码工具被结构性替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            747.613,
+            757.161
+          ],
+          "quote": "The nerdier version, Amjad said about Airtable, not about Canva, but he said his quote on the CEO of Replit's quote for Airtable was, no criticism, but the era of no code is over.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            757.521,
+            762.185
+          ],
+          "quote": "And no code was a bunch of tools where without developers or AI, we could build stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            762.365,
+            767.129
+          ],
+          "quote": "And Airtable was a no code database disguised as a spreadsheet, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            769.111,
+            770.572
+          ],
+          "quote": "Notion is a no code...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            773.153,
+            776.735
+          ],
+          "quote": "And Canva was a no-code way to design stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 202,
+          "t": [
+            784.198,
+            791.582
+          ],
+          "quote": "But the era of no code, of things that humans can do without engineering resources, it's slowly winding down.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集说 Figma 更多是企业产品，是大群人构建软件、协调工作的工具，即使自动化了创意，仍然有官僚流程和工作流管理可以赚钱，毛利率因智能体产品受损但承受了打击",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            407.136,
+            412.362
+          ],
+          "quote": "There's Figma, which is also public, doing at $1.4 billion, growing at 40%, the fastest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            663.7,
+            667.784
+          ],
+          "quote": "My related concern is if you compare it to Figma, well, Figma missed the quarter in a sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            667.824,
+            671.748
+          ],
+          "quote": "Figma traded down 20%, but they burned the tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            701.886,
+            704.247
+          ],
+          "quote": "Figma is much more an enterprise product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1149.445,
+            1154.288
+          ],
+          "quote": "Just like I firmly believe a big chunk of Replit and Lovable could have been Figma's if they'd done it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1166.133,
+            1168.334
+          ],
+          "quote": "Figma's added great agentic features.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1206.899,
+            1217.544
+          ],
+          "quote": "Can you give me an example of a Figma or a Canva generation company that has gone, hell, I see this coming, I'm going to move fast, and to hell with it, they've done it and done it well?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集说 Notion 是伪装成文字处理器的无代码数据库，与 Canva 一样面临被智能体绕过的风险，Jason 团队已经不再需要它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            489.999,
+            492.82
+          ],
+          "quote": "Canva and Notion both we churned, not because they're not great apps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            496.421,
+            499.122
+          ],
+          "quote": "Canva and Notion did nothing wrong at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            769.111,
+            770.572
+          ],
+          "quote": "Notion is a no code...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1857.339,
+            1864.505
+          ],
+          "quote": "And it's funny because just taking the Airtable account, I used to mentally say to myself, I'm sure you did, Airtable and Notion, you had them in the bucket of being the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1864.925,
+            1870.749
+          ],
+          "quote": "And then, I mean, I don't know if the sacraments are correct, but Notion is apparently 800 million growing at, you know, 70, 80%.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "type": "company",
+      "role": "company",
+      "name": "Airtable",
+      "file": "Airtable",
+      "primary": true,
+      "how_described": "本集说 Airtable 是伪装成电子表格的无代码数据库，Amjad 引用 Replit CEO 的话说'无代码的时代结束了'，其混合退出价格仅约 60 亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            747.613,
+            757.161
+          ],
+          "quote": "The nerdier version, Amjad said about Airtable, not about Canva, but he said his quote on the CEO of Replit's quote for Airtable was, no criticism, but the era of no code is over.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            762.365,
+            767.129
+          ],
+          "quote": "And Airtable was a no code database disguised as a spreadsheet, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1832.639,
+            1842.007
+          ],
+          "quote": "I guess, obviously, I think after Airtable and this Canva quarter, it's probably time to be a little extra skeptical of marks, just being realistic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1857.339,
+            1864.505
+          ],
+          "quote": "And it's funny because just taking the Airtable account, I used to mentally say to myself, I'm sure you did, Airtable and Notion, you had them in the bucket of being the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1908.772,
+            1922.226
+          ],
+          "quote": "For me, I thought actually one of the tweets of the week was Dave Samuels, I think is his name, from Freestyle, who mentioned that that blended exit price from Airtable was actually $6 billion and the importance of selling along the way and being very thoughtful about selling in the good times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1214,
+          "t": [
+            4801.52,
+            4805.442
+          ],
+          "quote": "I think there's so many things in the Airtable story that are scarier than they sounded.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": true,
+      "how_described": "本集说 Palantir 是罕见的转型成功案例，从 18% 增长跳到 98%，靠的是真正的基于结果的定价（签 20 亿美元合同承诺省 80 亿）和积累了十几年的现场部署团队（FDE）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 352,
+          "t": [
+            1419.836,
+            1421.097
+          ],
+          "quote": "Obviously, Palantir did it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1421.337,
+            1424.74
+          ],
+          "quote": "Palantir went from 18% growth to 98% growth, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1447.297,
+            1455.182
+          ],
+          "quote": "Palantir had people who for a decade and a half were out there deploying massive change in the field for their customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1493.92,
+            1501.17
+          ],
+          "quote": "I really wonder if the average SAP SE is as literate in the models as they are at Palantir.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1506.715,
+            1517.424
+          ],
+          "quote": "And in the apps, I think Palantir is an excellent and possibly unique example of someone who's, it's very interesting, because their existing model wasn't that threatened, but it was growing slowly, very government-centric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1517.864,
+            1522.588
+          ],
+          "quote": "And if you read the book, the Palantir, the car biography, huge credit to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1557.249,
+            1563.213
+          ],
+          "quote": "Palantir could have chugged along at 20% and been roughly fine with the government, but instead, they grabbed the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2829.271,
+            2832.333
+          ],
+          "quote": "But you're not going to pull off a Palantir or an Intercom without a god tier.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集说 Replit 是另一个转型成功案例，在荒野里做了六年 web IDE，加上模型之后彻底转型成功，是'做更难事情'的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            747.613,
+            757.161
+          ],
+          "quote": "The nerdier version, Amjad said about Airtable, not about Canva, but he said his quote on the CEO of Replit's quote for Airtable was, no criticism, but the era of no code is over.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1149.445,
+            1154.288
+          ],
+          "quote": "Just like I firmly believe a big chunk of Replit and Lovable could have been Figma's if they'd done it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1297.957,
+            1298.818
+          ],
+          "quote": "Replit's an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1547.943,
+            1551.825
+          ],
+          "quote": "That's an example of someone, someone like a Replit had to rethink everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1586.647,
+            1592.068
+          ],
+          "quote": "And I think Replit's a good example of doing the even harder thing, which is, shit, I got to do something else, but if I do it, I'll win.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 正在成为功能的通用界面，用户可以在里面直接生成晚餐邀请函、传单、网站，从而绕过 Canva 等独立工具，这种'堡垒之夜化'是专业消费者工具的最大威胁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            466.792,
+            469.033
+          ],
+          "quote": "Every ChatGPT release, every...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            474.154,
+            479.376
+          ],
+          "quote": "This is what we fear as investors is that you can do our investments in ChatGPT or Claude, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            604.602,
+            608.964
+          ],
+          "quote": "We talk about AO and GEO, what does Claude and ChatGPT say, but it's worse than that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            633.639,
+            635.28
+          ],
+          "quote": "Everyone is ChatGPT fluent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            635.64,
+            639.922
+          ],
+          "quote": "And if it works in ChatGPT or Claude, you're just going to use it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            658.435,
+            660.958
+          ],
+          "quote": "On the prosumer side, everyone's used ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            736.394,
+            747.288
+          ],
+          "quote": "It goes to the fortnitification that Jason often talks about in terms of the shrink and can when you have a dinner invite that you can do on ChatGPT and bundle it into a consumer subscription versus an additional tool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            975.571,
+            980.215
+          ],
+          "quote": "It has to be as easy to that user base as ChatGPT is to generate the products they generate with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            992.864,
+            1003.913
+          ],
+          "quote": "It's actually the disaggregation of UI or the removal of UI where you say I want a car and ChatGPT automatically routes you to Lyft, Uber or another provider based on price.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1010.848,
+            1023.197
+          ],
+          "quote": "No, no, you're exactly, look, to be very clear, going back to some of the, if the AI models become the universe, well, in ChatGPT, let's say, who is more consumer focused, if that becomes the universal interface for functionality, then you're exactly right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1055.639,
+            1060.985
+          ],
+          "quote": "There is a credible argument in both cases that ChatGPT can suck those revenue up, which is why Intuit was down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1093.965,
+            1100.872
+          ],
+          "quote": "I think the ChatGPT cannibalization of Canva is me and my partner doing a dinner invite with ChatGPT that we would have done in Canva.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1342.979,
+            1350.025
+          ],
+          "quote": "He was holding the boogie board just right and the Wave came in and he's flying and ChatGPT is just tumbling, poor Canva.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1670.936,
+            1677.601
+          ],
+          "quote": "But when every single person on Wall Street uses ChatGPT, why do you think people won't... And I think existential risk is both reality and perception.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1757.744,
+            1766.027
+          ],
+          "quote": "I do think that once everyone starts saying that ChatGPT is killing Canva because you can make poster size images for free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2234.679,
+            2246.029
+          ],
+          "quote": "Every bit of compute that you give to building Gemini might turn into a decent coding model if they get their shit together, and maybe you can get some Anthropic-like revenues or some ChatGPT-like consumer revenues, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2563.379,
+            2576.742
+          ],
+          "quote": "And if you're the CEO there, you need an executive who's willing to drive what it takes to get a comparable chat model out there to compete with ChatGPT and a comparable coding model out there to compete with Anthropic, neither of which you've done now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2667.299,
+            2668.759
+          ],
+          "quote": "You've pulled ahead of ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2670.98,
+            2675.901
+          ],
+          "quote": "You've pulled ahead of ChatGPT comfortably, OpenAI, to a point where it's embarrassing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            4476.113,
+            4482.736
+          ],
+          "quote": "There will be many good opportunities and spaces that aren't going to be destroyed by folks creating a poster in ChatGPT for free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1227,
+          "t": [
+            4843.286,
+            4846.929
+          ],
+          "quote": "If it can be done in ChatGPT, even accidentally, you're hyper threatened.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": true,
+      "how_described": "本集说 Datadog 是基础设施公司的代表，卖可观测性，模式根本没变，只是现在多了一个需要购买量比任何人都大 100 倍的基础设施客户，不需要发明新东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1356.815,
+            1361.2
+          ],
+          "quote": "But I want to make a distinction here because I think the Datadog example is an interesting one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1373.012,
+            1377.294
+          ],
+          "quote": "Facing the CEO of Datadog versus, say, the CEO of Canva or Adobe are very different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1377.574,
+            1380.075
+          ],
+          "quote": "Because if you think about Datadog, they sell observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1382.656,
+            1390.699
+          ],
+          "quote": "Nothing in their model has changed, except there is now an infrastructure vendor who needs to buy 100 times more Datadog than anyone else has ever bought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1396.662,
+            1399.683
+          ],
+          "quote": "Cloudflare, Datadog, all the infra providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1634.688,
+            1637.21
+          ],
+          "quote": "I mean, one of the big things that's happening is like a Datadog or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1153,
+          "t": [
+            4587.14,
+            4594.505
+          ],
+          "quote": "If you look at overall, because some people like Datadog were down a little, and you lumped them together on the agenda, but those are different stories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4594.585,
+            4605.152
+          ],
+          "quote": "Datadog's story was just, everything's amazing, but our biggest customer, and everybody knows it's OpenAI, and no one says it, is suddenly realized they maybe don't need to spend $150 million and are spending less.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1156,
+          "t": [
+            4606.973,
+            4610.836
+          ],
+          "quote": "But that's because Datadog was trading at 18 times forward revenues, and now it's 15.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集提到 Cloudflare 作为基础设施供应商之一，和 Datadog、JFrog 一样，赶上历史上最大的基础设施繁荣",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1317.554,
+            1326.163
+          ],
+          "quote": "The Datadogs, CloudFlare, Palo Alto Networks from last week, these were guys that were already, even, you know, I didn't think Twilio would benefit from this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1396.662,
+            1399.683
+          ],
+          "quote": "Cloudflare, Datadog, all the infra providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1637.63,
+            1645.073
+          ],
+          "quote": "I think at Cloudflare, JFrog, all those guys, they're mid-20s growth, 20% plus operating margins, trading at 15 to 17 times NTM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jfrog",
+      "type": "company",
+      "role": "company",
+      "name": "JFrog",
+      "file": "JFrog",
+      "primary": false,
+      "how_described": "本集提到 JFrog 作为基础设施供应商之一，模式没有改变，只是卖更多基础设施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1394.701,
+            1395.921
+          ],
+          "quote": "We were lucky enough to be in JFrog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1637.63,
+            1645.073
+          ],
+          "quote": "I think at Cloudflare, JFrog, all those guys, they're mid-20s growth, 20% plus operating margins, trading at 15 to 17 times NTM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe",
+      "file": "Adobe",
+      "primary": false,
+      "how_described": "本集提到 Adobe 收入 230 亿美元、增长 12%，作为三大量级创意软件公司之一被简要对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            401.174,
+            406.876
+          ],
+          "quote": "There's Adobe, which does $23 billion, growing at 12%, trading at like three or four times revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1373.012,
+            1377.294
+          ],
+          "quote": "Facing the CEO of Datadog versus, say, the CEO of Canva or Adobe are very different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2295.475,
+            2301.237
+          ],
+          "quote": "I can just tell you, not to go back in time, but when I was an SVP at Adobe at the number three business unit, it sucked.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": false,
+      "how_described": "本集说 Atlassian 上个季度表现出色，自 2015 年以来最大跳跃，但取消大部分免费 Loom 席位是组织压力的迹象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1237.677,
+            1246.947
+          ],
+          "quote": "Because the interesting thing is, to some extent, and we'll talk about, for example, Atlassian in a second, one of the big questions is how much of your business is going to change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1695.335,
+            1696.757
+          ],
+          "quote": "But let's take the example of Atlassian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2054.908,
+            2062.293
+          ],
+          "quote": "We can choose to continue in this vein and discuss Atlassian and HubSpot, or should we talk about Jeff Dean, Google, talent changes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            4544.87,
+            4556.739
+          ],
+          "quote": "Final one, if I want to shepherd us, Shopify, we mentioned blowing out the quarter, Atlassian blowing out the quarter, but biggest jump since 2015 for Atlassian, crushed it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            4577.033,
+            4579.155
+          ],
+          "quote": "And one of them I named was Atlassian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4614.458,
+            4624.906
+          ],
+          "quote": "Which is very different than what Atlassian was going through, which was existential shit, and we're trading it three times, and suddenly, you know, we nail the quarter and it's an easy pop to five times, something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            4628.269,
+            4637.897
+          ],
+          "quote": "What the Atlassian story says is the sale forces, the hub spots, and your canvas if it was public is, if you get it back on track with the fundamentals, the stock will follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1164,
+          "t": [
+            4651.061,
+            4657.284
+          ],
+          "quote": "I mean, yes, Atlassian, but Atlassian also did something, which Canva did too, which I always find a bad sign, a sign of stress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1169,
+          "t": [
+            4671.3,
+            4674.084
+          ],
+          "quote": "Loom is not the breakout success of Atlassian, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            4681.244,
+            4688.092
+          ],
+          "quote": "That's a sign of just how hard, even if you beat the quarter guys like Shopify or Atlassian, man, they're leaving nothing on the table.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            4745.287,
+            4747.407
+          ],
+          "quote": "Now you can say Atlassian is very enterprise, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集说 HubSpot 市值 100 亿美元，面临低端 CRM 竞争对手爆炸式增长的威胁，那些竞争对手的智能体和 LLM 都很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 418,
+          "t": [
+            1680.483,
+            1685.047
+          ],
+          "quote": "If Monday and HubSpot do, I don't see why they won't see the exact same thing for Canva.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2054.908,
+            2062.293
+          ],
+          "quote": "We can choose to continue in this vein and discuss Atlassian and HubSpot, or should we talk about Jeff Dean, Google, talent changes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1196,
+          "t": [
+            4764.454,
+            4766.816
+          ],
+          "quote": "HubSpot today is sitting at $10 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            4767.016,
+            4769.699
+          ],
+          "quote": "How long will it be until HubSpot is bought by bending spoons?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1198,
+          "t": [
+            4770.039,
+            4771.901
+          ],
+          "quote": "I'm not going to dunk on HubSpot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1199,
+          "t": [
+            4772.121,
+            4775.825
+          ],
+          "quote": "Series C investment in HubSpot, we did it at 47 million pre.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1220,
+          "t": [
+            4820.195,
+            4823.677
+          ],
+          "quote": "Like HubSpot, assuming they would sell, let's just assume they would even sell, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            4896.179,
+            4902.383
+          ],
+          "quote": "And so the tough hand HubSpot has is it spent the last five years beating Salesforce at the low end, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 Shopify 超出季度预期，作为不被 AI 摧毁的商务领域的好例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1112,
+          "t": [
+            4456.279,
+            4461.323
+          ],
+          "quote": "Listen, if I'm not an expert on whatnot, I could speak more to Shopify, which blew out its quarter too, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            4544.87,
+            4556.739
+          ],
+          "quote": "Final one, if I want to shepherd us, Shopify, we mentioned blowing out the quarter, Atlassian blowing out the quarter, but biggest jump since 2015 for Atlassian, crushed it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            4681.244,
+            4688.092
+          ],
+          "quote": "That's a sign of just how hard, even if you beat the quarter guys like Shopify or Atlassian, man, they're leaving nothing on the table.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集说 Uber 总裁最大的单一恐惧是 UI 的解聚——用户说'我要叫车'，ChatGPT 自动路由到 Lyft、Uber 或其他提供商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            988.661,
+            990.443
+          ],
+          "quote": "I just interviewed the president of Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            992.864,
+            1003.913
+          ],
+          "quote": "It's actually the disaggregation of UI or the removal of UI where you say I want a car and ChatGPT automatically routes you to Lyft, Uber or another provider based on price.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集多次提到 Anthropic 作为前沿模型提供商，Canva 之前用的是它们的模型导致成本激增；Anthropic 工程师的薪酬信号波及整个招聘生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            35.827,
+            38.409
+          ],
+          "quote": "Oh, poor anthropic engineer only made $35 million.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            313.806,
+            317.549
+          ],
+          "quote": "Boys, we're going to start with something other than OpenAI or Anthropic today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            543.338,
+            551.621
+          ],
+          "quote": "And so the first shoe that's clearly going to drop is they're not going to continue to spend a whole bunch of money with Anthropic or OpenAI, probably OpenAI given its images, of course, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2232.778,
+            2234.159
+          ],
+          "quote": "Because they can sell it to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2234.679,
+            2246.029
+          ],
+          "quote": "Every bit of compute that you give to building Gemini might turn into a decent coding model if they get their shit together, and maybe you can get some Anthropic-like revenues or some ChatGPT-like consumer revenues, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2418.458,
+            2425.705
+          ],
+          "quote": "But if Anthropic really is going to IPO now for real in the next 60 days, it's just going to tangibilize all this once again, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2480.448,
+            2483.571
+          ],
+          "quote": "Google's doing a good job in cloud selling compute to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2483.851,
+            2487.835
+          ],
+          "quote": "They're doing a good job selling the picks and shovels of TPUs to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2488.135,
+            2496.923
+          ],
+          "quote": "They've kind of got a model out there, but they haven't made any impact whatsoever in coding, which is the mother load that's feeding the Anthropic beast right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2563.379,
+            2576.742
+          ],
+          "quote": "And if you're the CEO there, you need an executive who's willing to drive what it takes to get a comparable chat model out there to compete with ChatGPT and a comparable coding model out there to compete with Anthropic, neither of which you've done now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2627.703,
+            2636.347
+          ],
+          "quote": "Which is why you've got to admire the brilliance of the team at Anthropic, that they have simultaneously managed to not convince themselves, because that sounds judgy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2668.779,
+            2670.72
+          ],
+          "quote": "So just put a nail in the anthropic pit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2692.794,
+            2697.942
+          ],
+          "quote": "And I don't mean that denigratively or rudely or horribly, but there are no anthropic and open AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2745.488,
+            2759.559
+          ],
+          "quote": "One tough thing, though, that is happening for sure is that I think when we started this show, there started to be sort of two tracks on compensation, which is I have to break my salary bands for my AI guys because they're worth so much to Anthropic and OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2835.563,
+            2838.965
+          ],
+          "quote": "It's just the siren call of the Anthropic comp is too high.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2850.953,
+            2857.937
+          ],
+          "quote": "And there's no doubt that, you know, I saw the analysis that someone who got a million in stock in Anthropic in 23, it's worth 51 million now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2929.75,
+            2931.791
+          ],
+          "quote": "Did you get an offer at Anthropic or OpenAI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3068.417,
+            3070.338
+          ],
+          "quote": "Oh, a poor anthropic engineer only made $35 million.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            4522.327,
+            4526.411
+          ],
+          "quote": "Pleasingly enough, 50x times 16 billion is roughly Anthropic's market capital.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 作为 Datadog 的最大客户（虽没人公开说），以及其薪酬和二次出售对人才市场的信号效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            313.806,
+            317.549
+          ],
+          "quote": "Boys, we're going to start with something other than OpenAI or Anthropic today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            543.338,
+            551.621
+          ],
+          "quote": "And so the first shoe that's clearly going to drop is they're not going to continue to spend a whole bunch of money with Anthropic or OpenAI, probably OpenAI given its images, of course, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            887.082,
+            893.924
+          ],
+          "quote": "Maybe they're not going to quit and go to OpenAI the next day if you don't go public and make them a million dollars effective a year in stock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2400.831,
+            2406.553
+          ],
+          "quote": "So he's just redoing, he already, granted OpenAI hasn't gone public, but he's already had a little bit of a win here, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2670.98,
+            2675.901
+          ],
+          "quote": "You've pulled ahead of ChatGPT comfortably, OpenAI, to a point where it's embarrassing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2745.488,
+            2759.559
+          ],
+          "quote": "One tough thing, though, that is happening for sure is that I think when we started this show, there started to be sort of two tracks on compensation, which is I have to break my salary bands for my AI guys because they're worth so much to Anthropic and OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2839.045,
+            2842.487
+          ],
+          "quote": "OpenAI just did a secondary of 7 billion, didn't it, this week?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2929.75,
+            2931.791
+          ],
+          "quote": "Did you get an offer at Anthropic or OpenAI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4594.585,
+            4605.152
+          ],
+          "quote": "Datadog's story was just, everything's amazing, but our biggest customer, and everybody knows it's OpenAI, and no one says it, is suddenly realized they maybe don't need to spend $150 million and are spending less.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 Google 的努力是 B+、A-，不是 A+；在向 Anthropic 出售云计算方面做得好，但在编码方面没有任何影响力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.303,
+            33.005
+          ],
+          "quote": "Google's efforts so far are B plus, A minus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            66.291,
+            69.654
+          ],
+          "quote": "Next, Jeff Dean leaves Google after 27 years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            71.236,
+            75.74
+          ],
+          "quote": "Demis Hassabis, the OG of AI, then steps back from Google DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2054.908,
+            2062.293
+          ],
+          "quote": "We can choose to continue in this vein and discuss Atlassian and HubSpot, or should we talk about Jeff Dean, Google, talent changes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2078.967,
+            2080.749
+          ],
+          "quote": "Google had some talent loss.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2107.326,
+            2111.288
+          ],
+          "quote": "That was the big news from Google and obviously shares tanked as a result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2141.268,
+            2143.51
+          ],
+          "quote": "We can analyze what it means for Google, but think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2143.61,
+            2147.233
+          ],
+          "quote": "If you're Jeff Dean, you've done 27 years at Google, you've made gazillions of dollars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2147.534,
+            2155.982
+          ],
+          "quote": "The mission at Google, to a rounding out, like it or not, is allocate a lot of the compute to Google Cloud business to just be a hyperscaler.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2206.995,
+            2215.704
+          ],
+          "quote": "If you look at the resources he had available to him at Google with the data that he had available to him at Google, he could go into Sergey and Larry's office and say, hey, I want",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2223.09,
+            2232.738
+          ],
+          "quote": "I think what's happening is every piece of compute that you give to Google Cloud turns into 30% operating margins in a day, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2452.406,
+            2453.807
+          ],
+          "quote": "How significant is it, honestly, to Google?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2466.157,
+            2471.081
+          ],
+          "quote": "On the other hand, just to put it out there, whatever it was Google was doing wasn't quite working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2471.121,
+            2474.303
+          ],
+          "quote": "And we've gone through the Google is dead phase 12 months ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2474.584,
+            2477.506
+          ],
+          "quote": "Then we went through the Google is amazing phase six months ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2480.448,
+            2483.571
+          ],
+          "quote": "Google's doing a good job in cloud selling compute to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2497.303,
+            2502.027
+          ],
+          "quote": "So you could look at it and say Google's efforts so far are B plus, A minus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2554.717,
+            2558.758
+          ],
+          "quote": "We'll remember the Nobel Prize long after we forget the Google Q2 earnings, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2561.078,
+            2563.319
+          ],
+          "quote": "But unfortunately, Google has to make Q2 earnings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2577.162,
+            2601.587
+          ],
+          "quote": "So if someone comes in and says, I've launched this initiative, and I think in five years' time, we'll bring out a simply amazing drug, and it will cure cancer, cure Alzheimer's, whatever, your brutal comment is, the correct response is, if we do that at the expense of a coding model and a chat competitor, that's a mistake, and our stock will go down by 50%, because the largest drug company in the world is valued at a trillion, and Google's valued at three.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2697.962,
+            2699.725
+          ],
+          "quote": "I mean, Google can't fricking keep them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2919.342,
+            2924.266
+          ],
+          "quote": "That could get it, you know, back when I was a founder, our test was always, did you get an offer at Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2924.426,
+            2928.429
+          ],
+          "quote": "If someone got an offer at Google back in the day, you knew that they were top 5%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": false,
+      "how_described": "本集提到 Demis Hassabis 从 Google DeepMind 退后一步进入董事长角色",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            71.236,
+            75.74
+          ],
+          "quote": "Demis Hassabis, the OG of AI, then steps back from Google DeepMind.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": false,
+      "how_described": "本集说 Intercom 是无聊但成功的转型例子，成功完成了 AI 转型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            199.199,
+            207.483
+          ],
+          "quote": "It's why more than 40,000 fast-growing companies like Airwallex, 11Labs, and Intercom trust Deal to move fast and get back to building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1218.685,
+            1220.966
+          ],
+          "quote": "I mean, look, the boring one is obviously Intercom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2829.271,
+            2832.333
+          ],
+          "quote": "But you're not going to pull off a Palantir or an Intercom without a god tier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1298,
+          "t": [
+            5105.433,
+            5113.724
+          ],
+          "quote": "It's why more than 40,000 fast-growing companies like Airwallex, 11Labs, and Intercom trust Deal to move fast and get back to building.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "type": "company",
+      "role": "company",
+      "name": "Revolut",
+      "file": "Revolut",
+      "primary": false,
+      "how_described": "本集讨论 Revolut CEO 的分级激励方案，从 2000 亿到 5000 亿估值可获得额外 10% 股权，引发关于创始人控制权与薪酬的讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 823,
+          "t": [
+            3423.845,
+            3432.772
+          ],
+          "quote": "Revolut announced an incentive package to the CEO, or it was leaked, whereby it basically ratcheted up with different prices of the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3607.598,
+            3615.622
+          ],
+          "quote": "I also just read a story that the CEO of Revolut just tried to get out of paying a $20 million broker fee and a $400 million Yachty bot, so clearly he enjoys the good life, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 868,
+          "t": [
+            3627.408,
+            3633.972
+          ],
+          "quote": "So if Nick owns 40% of Revolut, he controls, especially with, I'm sure, a super majority board and all that, it's his company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3692.882,
+            3696.363
+          ],
+          "quote": "I would just end the Zoom with Wall Street if they didn't like what I was doing at Revolut.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 949,
+          "t": [
+            3885.491,
+            3890.332
+          ],
+          "quote": "In other words, the way this deal was announced, and to be clear, it's not been put in the Revolut deal, going back to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 963,
+          "t": [
+            3931.172,
+            3936.215
+          ],
+          "quote": "I think that the market, I mean- You think you're working harder for your portfolio than Nick is working for Revolut?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 983,
+          "t": [
+            3991.633,
+            4001.615
+          ],
+          "quote": "I'm going to pay it in a heartbeat because I do not believe Jamie Dimon's lieutenant with his starched shirt and his blue and white collars and his cufflinks can run Revolut.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 997,
+          "t": [
+            4038.917,
+            4045.525
+          ],
+          "quote": "The question is, I think Revolut's doing five billion, I used to know it, five billion in revenue and a billion or two in profit, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            4067.698,
+            4070.88
+          ],
+          "quote": "Because if you take the logic to an extreme, I saw Nick at Revolut made a comment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            4325.244,
+            4328.765
+          ],
+          "quote": "I know it's Captain Obvious, but Revolut's all green, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            4492.122,
+            4494.804
+          ],
+          "quote": "I totally agree, Jason, because look, Revolut's another example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1266,
+          "t": [
+            4981.396,
+            4987.917
+          ],
+          "quote": "And so how are you going to compete with that when Rippling has hoovered up 30 and Owner's hoovered up 20 and Revolut's hoovered up 10?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "whatnot",
+      "type": "company",
+      "role": "company",
+      "name": "Whatnot",
+      "file": "Whatnot",
+      "primary": false,
+      "how_described": "本集说 Whatnot 是直播购物公司、互联网版 QVC，以 200 亿美元估值融资 5.45 亿美元，GMV 从 80 亿增长到 160 亿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1081,
+          "t": [
+            4354.228,
+            4358.792
+          ],
+          "quote": "We have Whatnot, which obviously raised a very large round, $545 million at $20 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1084,
+          "t": [
+            4370.294,
+            4377.041
+          ],
+          "quote": "I think we should talk about WhatNot if for no other reason that it's such a relief that there's more to life than AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            4383.127,
+            4393.297
+          ],
+          "quote": "Background for people, WhatNot raised about half a billion or 20 billion in valuation, and it's a live shopping company and in the internet equivalent of QVC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            4424.978,
+            4427.48
+          ],
+          "quote": "All those people died, and now they're replaced by whatnot people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1112,
+          "t": [
+            4456.279,
+            4461.323
+          ],
+          "quote": "Listen, if I'm not an expert on whatnot, I could speak more to Shopify, which blew out its quarter too, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说 Datadog 卖可观测性给基础设施供应商，作为基础设施公司不需要改变模式的例证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 336,
+          "t": [
+            1377.574,
+            1380.075
+          ],
+          "quote": "Because if you think about Datadog, they sell observability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的定价 (outcome-based)",
+      "file": "基于结果的定价",
+      "primary": false,
+      "how_described": "本集说 Palantir 真正利用了基于结果的交易和定价，签 20 亿美元合同承诺省 80 亿或增收 60 亿，没有别的公司敢这么做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            1432.808,
+            1437.532
+          ],
+          "quote": "The thing was, it really leveraged a combination of outcome-based deals and pricing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1464.347,
+            1466.048
+          ],
+          "quote": "He did outcome-based deals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1475.103,
+            1476.804
+          ],
+          "quote": "No one does that outcome-based.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1479.946,
+            1483.769
+          ],
+          "quote": "No one puts a $2 billion deal on the line for an outcome-based resolution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1486.269,
+            1493.739
+          ],
+          "quote": "Canva's on the prosumer side, but in the enterprise, it's very hard to change to true outcome-based pricing and to have a suite of FDEs that can deploy AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fortnitification",
+      "type": "concept",
+      "role": "concept",
+      "name": "堡垒之夜化 (fortnitification)",
+      "file": "堡垒之夜化",
+      "primary": false,
+      "how_described": "本集说当用户的时间都花在 ChatGPT 里，所有功能被打包进一个订阅，独立工具就被绕过了，这种现象叫'堡垒之夜化'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            736.394,
+            747.288
+          ],
+          "quote": "It goes to the fortnitification that Jason often talks about in terms of the shrink and can when you have a dinner invite that you can do on ChatGPT and bundle it into a consumer subscription versus an additional tool.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "existential-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "存在性风险 (existential risk)",
+      "file": "存在性风险",
+      "primary": false,
+      "how_described": "本集说同样是 20% 增长，没有存在性风险的公司和被质疑'会不会被 ChatGPT 替代'的公司，市场给的倍数完全不同，存在性风险会直接压估值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 411,
+          "t": [
+            1650.996,
+            1657.318
+          ],
+          "quote": "If it's 20% and the existential risk is there, then Jason's right, it could be 12 or even less.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1670.936,
+            1677.601
+          ],
+          "quote": "But when every single person on Wall Street uses ChatGPT, why do you think people won't... And I think existential risk is both reality and perception.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1677.721,
+            1680.383
+          ],
+          "quote": "Why do you think it won't be perceived as having existential risk?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1710.41,
+            1715.675
+          ],
+          "quote": "Right now, it's a very tough time because when the existential risk is posed, the only way out is to prove it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prosumer",
+      "type": "concept",
+      "role": "concept",
+      "name": "专业消费者 (prosumer)",
+      "file": "专业消费者",
+      "primary": false,
+      "how_described": "本集说市场上最暴露的部分是专业消费者市场，每个人都精通 ChatGPT，如果它在 ChatGPT 或 Claude 中有效就会直接使用，没有回头路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            624.496,
+            633.339
+          ],
+          "quote": "And so even some sort of open weight parity at a meta level, I think what's scary is that the most exposed part of the market is the prosumer market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            658.435,
+            660.958
+          ],
+          "quote": "On the prosumer side, everyone's used ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            697.825,
+            701.866
+          ],
+          "quote": "Let's talk about the enterprise versus prosumer distinction, because you're exactly right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            716.312,
+            717.854
+          ],
+          "quote": "Canva is the prosumer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1107.659,
+            1111.644
+          ],
+          "quote": "And so it's a slightly more prosumer professional, I would argue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1258.86,
+            1262.661
+          ],
+          "quote": "Fairly slower moving market than say individual prosumer creative tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1486.269,
+            1493.739
+          ],
+          "quote": "Canva's on the prosumer side, but in the enterprise, it's very hard to change to true outcome-based pricing and to have a suite of FDEs that can deploy AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1716.035,
+            1722.676
+          ],
+          "quote": "So right now, I think there would be a wide variety of perceptions on valuation at something like a prosumer company like Canva.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            4839.083,
+            4843.226
+          ],
+          "quote": "Just like if you're Canva, the prosumer folks are threatened by chat.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "company",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": false,
+      "how_described": "本集说 Twilio 虽然从 hipsters API 变成了'爷爷的工具'，但仍然为智能体浪潮做好了准备，因为智能体需要更多语音和文本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1317.554,
+            1326.163
+          ],
+          "quote": "The Datadogs, CloudFlare, Palo Alto Networks from last week, these were guys that were already, even, you know, I didn't think Twilio would benefit from this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1332.689,
+            1342.758
+          ],
+          "quote": "Twilio, which was the hipsters API for voice and data when we all met, Jeff, it became your granddad's tool, but it was still well-positioned for the Wave.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

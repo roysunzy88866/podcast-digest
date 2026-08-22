@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Laurent]] · [[Edwin Chen]] · [[Charles Gorintin]] · [[Surge AI]] · [[Alan]] · [[Anthropic]] · [[Mistral]] · [[ChatGPT]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Laurent":1,"Edwin Chen":1,"Charles Gorintin":1,"Surge AI":1,"Alan":1,"Anthropic":53,"Mistral":4,"ChatGPT":30,"Stripe":14}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Laurent":1,"Edwin Chen":1,"Charles Gorintin":1,"Surge AI":1,"Alan":1,"Anthropic":54,"Mistral":4,"ChatGPT":31,"Stripe":14}</script>
 
 <script>
 (function(){

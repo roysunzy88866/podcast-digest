@@ -7,31 +7,39 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Uber</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(00:26起):本集说 Uber 是一家运营公司，是其见过的最大的商业模式 hack 之一；在 Uber 学到的反直觉教训是，价格和 ETA 才是产品，屏幕上的像素不一定是最重要的。
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(00:35起):本集将 Uber 作为消除摩擦的案例：司机取消后只需两步点击就能退款，情绪从低谷瞬间翻转
 - **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(28:32起):本集提到：作为受监管行业的反面案例，Travis 无视监管者先发布产品、用庞大的客户群对付监管者，这种做法在航空业行不通但在那儿很有效。
+- **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(16:28起):本集说 Uber 总裁最大的单一恐惧是 UI 的解聚——用户说'我要叫车'，ChatGPT 自动路由到 Lyft、Uber 或其他提供商
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(00:31起):本集以 Uber 为核心案例，讨论其作为年总预订额近 2500 亿美元、月活 2 亿的平台，在会员制、自动驾驶、AI 预算管理和新业务孵化上的运营逻辑
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it#^q5]]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为被讨论公司(提及)
+- [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Revolut]] · [[ChatGPT]] · [[Airbnb]] · [[OpenAI]] · [[Peter Deng]] · [[Nesrine Changuel]] · [[Blake Scholl]] · [[Harry Stebbings]] · [[Brandon Foo]]
+[[ChatGPT]] · [[Revolut]] · [[OpenAI]] · [[Lenny]] · [[Airbnb]] · [[智能体]] · [[Airtable]] · [[Peter Deng]] · [[Nesrine Changuel]] · [[Blake Scholl]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Revolut":2,"ChatGPT":30,"Airbnb":8,"OpenAI":44,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1,"Harry Stebbings":2,"Brandon Foo":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":31,"Revolut":3,"OpenAI":45,"Lenny":65,"Airbnb":8,"智能体":108,"Airtable":2,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1}</script>
 
 <script>
 (function(){

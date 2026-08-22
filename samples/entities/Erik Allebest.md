@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Chelsea Finn]] [[Paul Kedrosky]] [[Peter Steinberger]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Harry Stabbings]] [[Jason Lamkin]] [[Chelsea Finn]]
 
 </div>
 

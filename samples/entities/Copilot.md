@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[vibe coding]] · [[护栏]] · [[ChatGPT]] · [[Claude]] · [[Cursor]] · [[AGI]] · [[Peter Deng]] · [[Marc Andreessen]] · [[Kitsa]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"vibe coding":19,"护栏":23,"ChatGPT":30,"Claude":25,"Cursor":25,"AGI":14,"Peter Deng":1,"Marc Andreessen":2,"Kitsa":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"vibe coding":19,"护栏":23,"ChatGPT":31,"Claude":25,"Cursor":25,"AGI":14,"Peter Deng":1,"Marc Andreessen":2,"Kitsa":1}</script>
 
 <script>
 (function(){

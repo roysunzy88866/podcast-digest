@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Chelsea Finn]] [[Paul Kedrosky]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Stripe":14,"Replit":9,"Magic School":1,"OpenAI":44,"智能体":107,"垂直 SaaS":1,"护城河":6,"开源模型":7,"LLM":13}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Stripe":14,"Replit":10,"Magic School":1,"OpenAI":45,"智能体":108,"垂直 SaaS":1,"护城河":6,"开源模型":7,"LLM":13}</script>
 
 <script>
 (function(){
