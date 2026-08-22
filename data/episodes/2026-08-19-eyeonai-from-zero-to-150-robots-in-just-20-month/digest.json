@@ -1,1 +1,87 @@
-{"title_zh":"人形机器人上战场：公关跑得比机器人快","tldr":"一个创始人宣称20个月从零到万人规模部署，但主持人的实地探访看到的是另一个故事。","digest_md":"一个做室内安保机器人的创业者，卖掉公司后转做军用和工业人形机器人，声称 20 个月就从零做到了机器人实际部署、轮班工作。但采访他的主持人去过他的车间、跟过他去乌克兰交付——机器人根本没过边境，车间每天产一台，推一下就跪。主持人说得很直白：Foundation 的公关远比它的机器人跑得快 [05:03 Unknown]。\n\n不过抛开公关叙事，这一集确实有一些关于人形机器人行业的实质内容值得拆解。\n\n## 为什么选人形而不是四足或轮式\n\nMike 的核心论点不是「世界是为人类建的」那个老生常谈。他说的是：你去任何工厂，里面已经满是工业机器人（ABB、FANUC 这类），但仍然到处都是人。问题变成——这些人在干什么？答案是那些需要同时具备灵巧操作和移动能力的任务：搬不规则零件、适应非标准流程、在狭窄空间里侧身移动。而目前唯一已知能胜任所有这些工作的形态，就是人形，因为人类今天就在干这些活 [08:50 Michael LeBlanc]。\n\n四足机器狗在战场上确实更稳定，但搜查房屋、上楼梯、驾驶车辆、操作武器——这些场景下四足平台做不了 [32:19 Michael LeBlanc]。他们团队早期甚至讨论过要不要装头，后来发现把摄像头放在胸部不够高，还是得有脖子能转动视角，这些细节逼着你回到人形设计 [32:54 Michael LeBlanc]。\n\n## 手和执行器：最贵的部件，也是最难的取舍\n\n机器人手面临一个经典权衡：灵巧度 vs 强度。Mike 提到中国有一款用微型执行器（直接装在手指里的电机，而非埋在手腕通过肌腱拉动）驱动的手，灵巧度极高，但强度只有人手的 40%——他的团队看过后直接否了，因为他们面向国防和重工业，强度是硬要求 [12:31 Michael LeBlanc]。\n\n执行器（控制关节的微型电机）是人形机器人成本的大头，也是速度和可靠性的关键来源。Mike 说 Foundation 选择自研执行器，把它当成核心差异化 [18:14 Michael LeBlanc]。\n\n## 用视频训练「世界行动模型」\n\nFoundation 用的是视觉-语言-行动模型，具体技术路线是「潜在空间变量分析」——通过视频理解物体之间的物理关系，而非死记硬背抓取动作。这样模型能泛化到没见过的场景 [22:33 Michael LeBlanc]。\n\n训练数据来源上，Mike 把行业方法分成三派：仿真（在虚拟环境里训练，但模拟和现实有差距）、远程遥控（人戴 VR 眼镜操作，机器人反复学）、视频（第一人称 GoPro 加第三人称三脚架同时拍）。他说每家都在混用，但 Foundation 偏重视频路线 [24:21 Michael LeBlanc]。目前让一个任务实现完全自主，大约需要 100 小时的视频数据 [20:42 Michael LeBlanc]。\n\nMike 自比特斯拉当年训练的方法：让人开，车收集摄像头画面和驾驶员操作，大量数据喂养出可泛化的模型。他说包括特斯拉自己在内，现在做 Optimus 反而在大量用远程遥控，而 Foundation 走的是「视频采集」路线 [26:32 Michael LeBlanc]。\n\n## 佐治亚工厂部署的实情\n\n他们在一个汽车零部件工厂（做注塑件质检和包装）做了概念验证，最初用的是轮式机器人（腿还没做好），验证通过后签了 150 台的合同 [40:01 Michael LeBlanc]。\n\n一个关键细节：这些机器人不是靠电池，而是插电的——电缆挂在天花板上。Mike 说因为每个机器人只在 15 英尺见方的工位里活动，最多走五步，很多动作直接后退完成，电缆根本不会缠在一起 [41:16 Michael LeBlanc]。这解决了电池续航问题，但也意味着这跟「自主移动的人形机器人」还差很远。\n\n## 战场场景和电池现实\n\n在战场上，Mike 描述的主要用途不是冲锋，而是「据点外的危险任务」：离开坚固据点去卡车取物资、布设地雷、侦察——这些瞬间暴露在无人机威胁下的活，用机器人替代人 [30:36 Michael LeBlanc]。\n\n电池续航目前是 4 小时 [35:57 Michael LeBlanc]。战场不需要 24 小时连续运行，更多是定向任务：开机、执行、回来。长期设想是机器人挂在卡车侧面，卡车当移动充电站，甚至机器人之间互相换电池 [36:52 Michael LeBlanc]。\n\n## 商业模式：租赁而非售卖，每个机器人每年 10 万美元\n\n初始客户（都是 100 台起签）的统一价格是每台机器人每年 10 万美元，全租赁模式，包含维修、OTA 更新，甚至 SLA 里写明：机器人宕机期间，Foundation 要派人类去顶岗 [61:00 Michael LeBlanc]。军方因为预算流程不同，部分采用直接购买加维护服务 [62:11 Michael LeBlanc]。\n\nMike 算了一笔账：工厂三班倒，每班工人年薪 6 万美元，一个机器人替代三个班次就能算出经济账 [35:15 Michael LeBlanc]。他说投资者最震惊的不是机器人能走路，而是它真的在省钱——已经有客户因为部署机器人而减少了三个岗位 [54:03 Michael LeBlanc]。\n\n## 生产目标从 1 万台缩到 6 千台\n\nMike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 万 [34:38 Michael LeBlanc]。但主持人在开头段落提到，最新更新是目标缩减到 6 千台 [04:11 Unknown]。作为对照，特斯拉 2025 年的目标是 5 千台，也没达到 [01:00 Unknown]。\n\n## 本集带走\n\n- **人形 vs 其他形态的真正论据**：不是「世界为人类建」，而是「工厂里已经满是专用机器人，但人还在——说明有大量任务只有人形能干」\n- **手的灵巧-强度不可兼得**：微型执行器手灵巧但只有人手 40% 强度；面向工业/国防的厂商会把执行器放前臂，牺牲灵巧换强度\n- **视频训练路线**：第一人称 + 第三人称视频喂给 VLA 模型，约 100 小时视频可让单一任务完全自主；各家混用仿真/遥控/视频，比例不同\n- **工厂部署靠插电**：150 台合同是真实的，但机器人 tethered 到天花板、在 15 英尺工位内活动——离真正的自主移动还有距离\n- **租赁模式 10 万美元/年/台**：含维修、宕机人工替补；经济账靠替代三班制工人算过来\n- **公关与现实的差距**：1 万台目标缩到 6 千；乌克兰交付机器人没过边境；车间日产能约 1 台——主持人的怀疑有据可依","quotes":[{"en":"But the only form factor that we know fits all of these jobs is the human form factor because humans are doing it today.","zh":"但我们知道唯一适合所有这些工作的形态规格就是人形形态，因为人类今天正在做这些工作。","timestamp":"08:43","speaker":"Mike LeBlanc"},{"en":"Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.","zh":"因为你会意识到，任何拆解人形机器人的人，几乎所有的成本都在执行器上。","timestamp":"18:19","speaker":"Mike LeBlanc"},{"en":"But as you do that throughout the whole team and you don't have these kind of marketing lies that are built up and things that you're hiding behind and trying to make these highly curated videos, you have a team that is actually able to deal with the problem that's happening.","zh":"但当你让整个团队都这样做，并且没有这些建立起来的营销谎言，也没有你在背后隐藏的东西，试图制作这些精心策划的视频时，你就有了一个能够实际解决正在发生的问题的团队。","timestamp":"43:59","speaker":"Mike LeBlanc"},{"en":"As they see it doing that and they talk to our customers and they go, you actually sent three people home because of this.","zh":"当他们看到它这样做时，他们与我们的客户交谈，然后说，你实际上因为这个送走了三个人。","timestamp":"54:03","speaker":"Mike LeBlanc"},{"en":"They were saying, we're gonna replace the fry cook, but they couldn't open the bag of fries, right?","zh":"他们说我们要取代炸薯条的厨师，但他们打不开装薯条的袋子，对吧？","timestamp":"59:06","speaker":"Mike LeBlanc"}],"quotes_candidates":[{"timestamp":"08:50","speaker":"Unknown","en":"But the only form factor that we know fits all of these jobs is the human form factor because humans are doing it today.","zh":"但我们知道唯一适合所有这些工作的形态规格就是人形形态，因为人类今天正在做这些工作。"},{"timestamp":"18:19","speaker":"Unknown","en":"Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.","zh":"因为你会意识到，任何拆解人形机器人的人，几乎所有的成本都在执行器上。"},{"timestamp":"25:48","speaker":"Unknown","en":"But I mean, generalization is the Holy Grail for all of these robot control models.","zh":"但我的意思是，泛化性是所有这些机器人控制模型的圣杯。"},{"timestamp":"35:15","speaker":"Unknown","en":"If you're going to replace three shifts of workers that are each getting paid $60,000, you can make it make economic sense.","zh":"如果你要替换三班工人，每班工人的工资是 60,000 美元，你可以让它具有经济意义。"},{"timestamp":"43:59","speaker":"Unknown","en":"But as you do that throughout the whole team and you don't have these kind of marketing lies that are built up and things that you're hiding behind and trying to make these highly curated videos, you have a team that is actually able to deal with the problem that's happening.","zh":"但当你让整个团队都这样做，并且没有这些建立起来的营销谎言，也没有你在背后隐藏的东西，试图制作这些精心策划的视频时，你就有了一个能够实际解决正在发生的问题的团队。"},{"timestamp":"46:20","speaker":"Unknown","en":"You would already have almost a million years.","zh":"你差不多会有一百万年。"},{"timestamp":"54:03","speaker":"Unknown","en":"As they see it doing that and they talk to our customers and they go, you actually sent three people home because of this.","zh":"当他们看到它这样做时，他们与我们的客户交谈，然后说，你实际上因为这个送走了三个人。"},{"timestamp":"59:10","speaker":"Unknown","en":"They were saying, we're gonna replace the fry cook, but they couldn't open the bag of fries, right?","zh":"他们说我们要取代炸薯条的厨师，但他们打不开装薯条的袋子，对吧？"}]}
+{
+  "title_zh": "人形机器人上战场：公关跑得比机器人快",
+  "tldr": "Mike LeBlanc 解释为什么只有人形机器人能处理工厂里同时需要移动和精细操作的任务，以及他们如何通过视频训练模型。他声称已将机器人部署在工厂并签下大单，但主持人实地探访发现产能有限，质疑其公关远比产品跑得快。",
+  "digest_md": "一个做室内安保机器人的创业者，卖掉公司后转做军用和工业人形机器人，声称 20 个月就从零做到了机器人实际部署、轮班工作。但采访他的主持人去过他的车间、跟过他去乌克兰交付——机器人根本没过边境，车间每天产一台，推一下就跪。主持人说得很直白：Foundation 的公关远比它的机器人跑得快 [05:03 Unknown]。\n\n不过抛开公关叙事，这一集确实有一些关于人形机器人行业的实质内容值得拆解。\n\n## 为什么选人形而不是四足或轮式\n\nMike 的核心论点不是「世界是为人类建的」那个老生常谈。他说的是：你去任何工厂，里面已经满是工业机器人（ABB、FANUC 这类），但仍然到处都是人。问题变成——这些人在干什么？答案是那些需要同时具备灵巧操作和移动能力的任务：搬不规则零件、适应非标准流程、在狭窄空间里侧身移动。而目前唯一已知能胜任所有这些工作的形态，就是人形，因为人类今天就在干这些活 [08:50 Michael LeBlanc]。\n\n四足机器狗在战场上确实更稳定，但搜查房屋、上楼梯、驾驶车辆、操作武器——这些场景下四足平台做不了 [32:19 Michael LeBlanc]。他们团队早期甚至讨论过要不要装头，后来发现把摄像头放在胸部不够高，还是得有脖子能转动视角，这些细节逼着你回到人形设计 [32:54 Michael LeBlanc]。\n\n## 手和执行器：最贵的部件，也是最难的取舍\n\n机器人手面临一个经典权衡：灵巧度 vs 强度。Mike 提到中国有一款用微型执行器（直接装在手指里的电机，而非埋在手腕通过肌腱拉动）驱动的手，灵巧度极高，但强度只有人手的 40%——他的团队看过后直接否了，因为他们面向国防和重工业，强度是硬要求 [12:31 Michael LeBlanc]。\n\n执行器（控制关节的微型电机）是人形机器人成本的大头，也是速度和可靠性的关键来源。Mike 说 Foundation 选择自研执行器，把它当成核心差异化 [18:14 Michael LeBlanc]。\n\n## 用视频训练「世界行动模型」\n\nFoundation 用的是视觉-语言-行动模型，具体技术路线是「潜在空间变量分析」——通过视频理解物体之间的物理关系，而非死记硬背抓取动作。这样模型能泛化到没见过的场景 [22:33 Michael LeBlanc]。\n\n训练数据来源上，Mike 把行业方法分成三派：仿真（在虚拟环境里训练，但模拟和现实有差距）、远程遥控（人戴 VR 眼镜操作，机器人反复学）、视频（第一人称 GoPro 加第三人称三脚架同时拍）。他说每家都在混用，但 Foundation 偏重视频路线 [24:21 Michael LeBlanc]。目前让一个任务实现完全自主，大约需要 100 小时的视频数据 [20:42 Michael LeBlanc]。\n\nMike 自比特斯拉当年训练的方法：让人开，车收集摄像头画面和驾驶员操作，大量数据喂养出可泛化的模型。他说包括特斯拉自己在内，现在做 Optimus 反而在大量用远程遥控，而 Foundation 走的是「视频采集」路线 [26:32 Michael LeBlanc]。\n\n## 佐治亚工厂部署的实情\n\n他们在一个汽车零部件工厂（做注塑件质检和包装）做了概念验证，最初用的是轮式机器人（腿还没做好），验证通过后签了 150 台的合同 [40:01 Michael LeBlanc]。\n\n一个关键细节：这些机器人不是靠电池，而是插电的——电缆挂在天花板上。Mike 说因为每个机器人只在 15 英尺见方的工位里活动，最多走五步，很多动作直接后退完成，电缆根本不会缠在一起 [41:16 Michael LeBlanc]。这解决了电池续航问题，但也意味着这跟「自主移动的人形机器人」还差很远。\n\n## 战场场景和电池现实\n\n在战场上，Mike 描述的主要用途不是冲锋，而是「据点外的危险任务」：离开坚固据点去卡车取物资、布设地雷、侦察——这些瞬间暴露在无人机威胁下的活，用机器人替代人 [30:36 Michael LeBlanc]。\n\n电池续航目前是 4 小时 [35:57 Michael LeBlanc]。战场不需要 24 小时连续运行，更多是定向任务：开机、执行、回来。长期设想是机器人挂在卡车侧面，卡车当移动充电站，甚至机器人之间互相换电池 [36:52 Michael LeBlanc]。\n\n## 商业模式：租赁而非售卖，每个机器人每年 10 万美元\n\n初始客户（都是 100 台起签）的统一价格是每台机器人每年 10 万美元，全租赁模式，包含维修、OTA 更新，甚至 SLA 里写明：机器人宕机期间，Foundation 要派人类去顶岗 [61:00 Michael LeBlanc]。军方因为预算流程不同，部分采用直接购买加维护服务 [62:11 Michael LeBlanc]。\n\nMike 算了一笔账：工厂三班倒，每班工人年薪 6 万美元，一个机器人替代三个班次就能算出经济账 [35:15 Michael LeBlanc]。他说投资者最震惊的不是机器人能走路，而是它真的在省钱——已经有客户因为部署机器人而减少了三个岗位 [54:03 Michael LeBlanc]。\n\n## 生产目标从 1 万台缩到 6 千台\n\nMike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 万 [34:38 Michael LeBlanc]。但主持人在开头段落提到，最新更新是目标缩减到 6 千台 [04:11 Unknown]。作为对照，特斯拉 2025 年的目标是 5 千台，也没达到 [01:00 Unknown]。\n\n## 本集带走\n\n- **人形 vs 其他形态的真正论据**：不是「世界为人类建」，而是「工厂里已经满是专用机器人，但人还在——说明有大量任务只有人形能干」\n- **手的灵巧-强度不可兼得**：微型执行器手灵巧但只有人手 40% 强度；面向工业/国防的厂商会把执行器放前臂，牺牲灵巧换强度\n- **视频训练路线**：第一人称 + 第三人称视频喂给 VLA 模型，约 100 小时视频可让单一任务完全自主；各家混用仿真/遥控/视频，比例不同\n- **工厂部署靠插电**：150 台合同是真实的，但机器人 tethered 到天花板、在 15 英尺工位内活动——离真正的自主移动还有距离\n- **租赁模式 10 万美元/年/台**：含维修、宕机人工替补；经济账靠替代三班制工人算过来\n- **公关与现实的差距**：1 万台目标缩到 6 千；乌克兰交付机器人没过边境；车间日产能约 1 台——主持人的怀疑有据可依",
+  "quotes": [
+    {
+      "en": "But the only form factor that we know fits all of these jobs is the human form factor because humans are doing it today.",
+      "zh": "但我们知道唯一适合所有这些工作的形态规格就是人形形态，因为人类今天正在做这些工作。",
+      "timestamp": "08:43",
+      "speaker": "Mike LeBlanc"
+    },
+    {
+      "en": "Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.",
+      "zh": "因为你会意识到，任何拆解人形机器人的人，几乎所有的成本都在执行器上。",
+      "timestamp": "18:19",
+      "speaker": "Mike LeBlanc"
+    },
+    {
+      "en": "But as you do that throughout the whole team and you don't have these kind of marketing lies that are built up and things that you're hiding behind and trying to make these highly curated videos, you have a team that is actually able to deal with the problem that's happening.",
+      "zh": "但当你让整个团队都这样做，并且没有这些建立起来的营销谎言，也没有你在背后隐藏的东西，试图制作这些精心策划的视频时，你就有了一个能够实际解决正在发生的问题的团队。",
+      "timestamp": "43:59",
+      "speaker": "Mike LeBlanc"
+    },
+    {
+      "en": "As they see it doing that and they talk to our customers and they go, you actually sent three people home because of this.",
+      "zh": "当他们看到它这样做时，他们与我们的客户交谈，然后说，你实际上因为这个送走了三个人。",
+      "timestamp": "54:03",
+      "speaker": "Mike LeBlanc"
+    },
+    {
+      "en": "They were saying, we're gonna replace the fry cook, but they couldn't open the bag of fries, right?",
+      "zh": "他们说我们要取代炸薯条的厨师，但他们打不开装薯条的袋子，对吧？",
+      "timestamp": "59:06",
+      "speaker": "Mike LeBlanc"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:50",
+      "speaker": "Unknown",
+      "en": "But the only form factor that we know fits all of these jobs is the human form factor because humans are doing it today.",
+      "zh": "但我们知道唯一适合所有这些工作的形态规格就是人形形态，因为人类今天正在做这些工作。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Unknown",
+      "en": "Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.",
+      "zh": "因为你会意识到，任何拆解人形机器人的人，几乎所有的成本都在执行器上。"
+    },
+    {
+      "timestamp": "25:48",
+      "speaker": "Unknown",
+      "en": "But I mean, generalization is the Holy Grail for all of these robot control models.",
+      "zh": "但我的意思是，泛化性是所有这些机器人控制模型的圣杯。"
+    },
+    {
+      "timestamp": "35:15",
+      "speaker": "Unknown",
+      "en": "If you're going to replace three shifts of workers that are each getting paid $60,000, you can make it make economic sense.",
+      "zh": "如果你要替换三班工人，每班工人的工资是 60,000 美元，你可以让它具有经济意义。"
+    },
+    {
+      "timestamp": "43:59",
+      "speaker": "Unknown",
+      "en": "But as you do that throughout the whole team and you don't have these kind of marketing lies that are built up and things that you're hiding behind and trying to make these highly curated videos, you have a team that is actually able to deal with the problem that's happening.",
+      "zh": "但当你让整个团队都这样做，并且没有这些建立起来的营销谎言，也没有你在背后隐藏的东西，试图制作这些精心策划的视频时，你就有了一个能够实际解决正在发生的问题的团队。"
+    },
+    {
+      "timestamp": "46:20",
+      "speaker": "Unknown",
+      "en": "You would already have almost a million years.",
+      "zh": "你差不多会有一百万年。"
+    },
+    {
+      "timestamp": "54:03",
+      "speaker": "Unknown",
+      "en": "As they see it doing that and they talk to our customers and they go, you actually sent three people home because of this.",
+      "zh": "当他们看到它这样做时，他们与我们的客户交谈，然后说，你实际上因为这个送走了三个人。"
+    },
+    {
+      "timestamp": "59:10",
+      "speaker": "Unknown",
+      "en": "They were saying, we're gonna replace the fry cook, but they couldn't open the bag of fries, right?",
+      "zh": "他们说我们要取代炸薯条的厨师，但他们打不开装薯条的袋子，对吧？"
+    }
+  ]
+}
