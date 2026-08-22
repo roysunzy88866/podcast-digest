@@ -160,13 +160,12 @@ describe("C13a 场景2 · 金句与嘉宾的呈现规格", () => {
     expect(card).not.toContain("Lenny's Podcast");
   });
 
-  // [standard-change: 用户 2026-07-27 设计稿第十批 #1/#2] 原口径是「标题/金句各锁死 2 行」
-  // (靠 min-height 撑出等高)。用户实际看到 1 行的稿子下面白空一截,明说「空隙应该是自适应的」
-  // → 新口径 = 按实际行数长、只在超上限时截断(标题 ≤2、金句 ≤3),等高改由 .card 的
-  // min-height 保证(缩略图那侧不塌)。等高断言移交 C13f 的用例。
-  it("★★ 标题 ≤2 行、金句 ≤3 行,不再靠锁死高度撑等高(设计稿第十批 #1/#2)", () => {
-    expect((scss.match(/-webkit-line-clamp:\s*2/g) || []).length).toBeGreaterThanOrEqual(1);
-    expect((scss.match(/-webkit-line-clamp:\s*3/g) || []).length).toBeGreaterThanOrEqual(1);
+  // [standard-change: 用户 2026-07-27 设计稿第十批 #1/#2 + 2026-08-22 副标题上限] 原口径「标题/金句各锁死 2 行」
+  // → 标题 ≤2 行截断;副标题(.q)承载一句话精华,桌面 4 行/手机 5 行让 ≤60字基本显示完(用户 2026-08-22「显示不完全」)。
+  // 等高改由 .card 的 min-height 保证。
+  it("★★ 标题 ≤2 行截断;副标题给足行数(桌面 4 行,不再锁死等高)", () => {
+    expect((scss.match(/-webkit-line-clamp:\s*2/g) || []).length).toBeGreaterThanOrEqual(1); // 标题仍 2 行
+    expect((scss.match(/-webkit-line-clamp:\s*4/g) || []).length).toBeGreaterThanOrEqual(1); // 副标题桌面 4 行
     expect(scss).toMatch(/\.card \{[\s\S]*?min-height:\s*calc\(105px \+ 80px\)/);
   });
 
@@ -497,11 +496,11 @@ describe("C13f · 卡片文字按实际行数长(第十批 #1/#2)", () => {
     expect(q).not.toMatch(/min-height/);
   });
 
-  it("★★ 标题 ≤2 行、金句 ≤3 行,超出才截断", () => {
+  it("★★ 标题 ≤2 行截断;副标题桌面 4 行(2026-08-22 上限,让 ≤60字显示完)", () => {
     const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
     const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .who"));
     expect(t).toMatch(/-webkit-line-clamp:\s*2/);
-    expect(q).toMatch(/-webkit-line-clamp:\s*3/);
+    expect(q).toMatch(/-webkit-line-clamp:\s*4/);
   });
 
   it("★★ 卡片自己仍有最小高度(缩略图那侧不塌)", () => {

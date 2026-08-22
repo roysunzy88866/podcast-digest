@@ -633,7 +633,7 @@ body[data-slug^="tags/"] {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4; /* 副标题=一句话精华(≤60字),放到 4 行让它基本显示完(2026-08-22 用户:别截断)*/
     overflow-wrap: anywhere;
   }
   /* C13f 第十二批 #2:公司/职位的视觉重心略高于人名(原来是人名深、职位浅,正好反着) */
@@ -745,8 +745,8 @@ body[data-slug^="tags/"] {
     .dateh:after { display: none; }
     .th { flex: 0 0 108px; width: 108px; height: 81px; }
     .card .t { font-size: 15.5px; }
-    /* 副标题改两句话后手机端字号微缩(13.5→12.5),密度不憋(用户 2026-08-22);仍 2 行截断 */
-    .card .q { font-size: 12.5px; line-height: 1.6; -webkit-line-clamp: 2; min-height: 3.2em; }
+    /* 手机端副标题:字号 12.5 + 放到 5 行(≤60字一句话在窄栏约 4 行,给足行数不截断;用户 2026-08-22「显示不完全」)*/
+    .card .q { font-size: 12.5px; line-height: 1.6; -webkit-line-clamp: 5; min-height: 3.2em; }
     /* #4 用户 2026-08-16 手机:点卡片只保留整卡 active 反馈(.card:active 底色),不要标题单独变色。
        无 .card:hover .t / .card:active .t 变色规则(桌面已删);手机残留的"标题变色"是链接 tap-highlight
        (浏览器默认灰框闪在标题文字上)—— 抹成透明即可。 */
