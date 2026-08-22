@@ -110,7 +110,7 @@ jobs:
       - name: 装环境(ffmpeg + edge-tts + glm-ask + whisperX + node deps)
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
-          python3 -m pip install --user edge-tts
+          python3 -m pip install --user edge-tts fonttools brotli   # fonttools/brotli:普惠体子集现切(subset-font.mjs)
           # C9 · a16z ASR 进料口:whisperX(CPU 版 torch 免 CUDA 大包)。每 run 都装(~3 分钟):
           # 装不装取决于本轮有没有 a16z 新集,但那要跑了编排器才知道 → 无条件装,公开仓 runner 分钟免费。
           pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu

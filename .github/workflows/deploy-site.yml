@@ -54,7 +54,7 @@ jobs:
           set -e
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           python -m venv .venv
-          .venv/bin/pip install --quiet edge-tts
+          .venv/bin/pip install --quiet edge-tts fonttools brotli
           npm install --no-audit --no-fund
 
       - name: 构建 + 部署 talk.solomind.cc
