@@ -487,6 +487,6 @@ if (isMain) {
   console.log(
     r.skipped
       ? `✅ 缓存命中(源未变),跳过合成:${r.audioPath}`
-      : `✅ 已合成 ${r.audioPath}(${r.meta.duration_sec.toFixed(1)}s, ${r.chunkCount} 块)`,
+      : `✅ 已合成 ${r.audioPath}(${r.meta.duration_sec.toFixed(1)}s, engine=${r.meta.engine}${r.chunkCount ? `, ${r.chunkCount} 块` : ""})`,
   );
 }
