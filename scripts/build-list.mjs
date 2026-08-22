@@ -82,8 +82,11 @@ function whoRow(meta) {
 }
 
 /**
- * 缩略图。有封面 → 真图(🔒 #20:近方图 0.9–1.15 打 face 裁到脸,宽图中心裁不加变换);
- * 无封面 → 主题色兜底块(预期行为,不是 bug)。长宽比缺失时不打 face:宁可中心裁,不赌。
+ * 缩略图。有封面 → 真图,所有封面统一等比缩小后裁溢出(CSS object-fit:cover,居中);
+ * 无封面 → 主题色兜底块(预期行为,不是 bug)。
+ * [standard-change: 用户授权 2026-08-22]:废原 🔒 #20「近方图打 face 类 ×1.55 裁到脸」——
+ *   face 放大对无人脸的方形节目 logo(如 Practical AI)会把文字顶出画面,只剩中间放大的字。
+ *   用户明示「都不放大,等比缩小、超出的边裁掉」→ 去掉 face 分流,一律纯 cover。
  */
 function thumb(meta, primaryCat, hasCover) {
   const cover = meta.cover_image;
@@ -91,9 +94,7 @@ function thumb(meta, primaryCat, hasCover) {
   // cover.jpg(配图那条线留下的数据不一致,已记 tech-debt)。只信 meta 会渲染出裂图,
   // 而缺图本来就有设计好的去处 —— 主题色兜底块。
   if (cover && hasCover(meta.id)) {
-    const a = typeof cover.aspect === "number" ? cover.aspect : null;
-    const face = a !== null && a >= 0.9 && a <= 1.15 ? ` class="face"` : "";
-    return `<div class="th fr"><img${face} src="/covers/${esc(meta.id)}.jpg" alt=""></div>`;
+    return `<div class="th fr"><img src="/covers/${esc(meta.id)}.jpg" alt=""></div>`;
   }
   return `<div class="th fb"><span>${esc(primaryCat ?? "")}</span></div>`;
 }

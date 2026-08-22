@@ -685,9 +685,9 @@ body[data-slug^="tags/"] {
     border: 1px solid var(--B3);
     align-self: flex-start;
   }
+  /* 所有封面:等比缩小填满槽、裁掉溢出的边、居中([standard-change: 用户授权 2026-08-22]:
+     废原 🔒 #20 的 .face ×1.55 放大 —— 方形节目 logo 被放大后文字顶出画面。不放大,纯 cover) */
   .th.fr img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
-  /* 🔒 #20 近方图裁到脸(1.55× / 焦点 50% 60%,焦点 48%→60% 用户 2026-08-16「往下再截一点」调);宽图不打 face 走中心裁 */
-  .th.fr img.face { transform: scale(1.55); transform-origin: 50% 60%; }
   .th.fb { display: flex; align-items: center; justify-content: center; padding: 6px; background: var(--B5); }
   .th.fb span { color: #fff; font-size: 11px; font-weight: 700; text-align: center; line-height: 1.3; }
 

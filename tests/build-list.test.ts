@@ -291,20 +291,23 @@ describe("顶栏 · pd-acts 不得被 Markdown 当成缩进代码块(空 mtitle 
   });
 });
 
-describe("C13a · 🔒 #20 卡片配图裁法(数据侧分流,视觉验收归 C13d)", () => {
-  it("★ 近方图(0.9–1.15)打 face 类 → CSS 裁到脸", () => {
+describe("C13a · 卡片配图裁法([standard-change: 用户授权 2026-08-22] 废 🔒 #20 face 放大,一律纯 cover)", () => {
+  it("★★★ 方图不再打 face 类(原会 ×1.55 放大把节目 logo 文字裁没)", () => {
     const md = renderList([ep({ meta: { cover_image: { file: "cover.jpg", aspect: 1.0 } } })], opts);
-    expect(cardOf(md, "2026-07-19-x-netflix")).toContain('class="face"');
-  });
-
-  it("★ 宽图(>1.15)不打 face 类 → 中心裁,不加变换", () => {
-    const md = renderList([ep({ meta: { cover_image: { file: "cover.jpg", aspect: 1.778 } } })], opts);
     expect(cardOf(md, "2026-07-19-x-netflix")).not.toContain('class="face"');
   });
 
-  it("★ 长宽比缺失 → 不打 face(宁可中心裁,不赌)", () => {
-    const md = renderList([ep({ meta: { cover_image: { file: "cover.jpg" } } })], opts);
-    expect(cardOf(md, "2026-07-19-x-netflix")).not.toContain('class="face"');
+  it("★ 任何长宽比都不打 face(宽图/缺 aspect 同款,统一纯 cover)", () => {
+    for (const cover_image of [{ file: "cover.jpg", aspect: 1.778 }, { file: "cover.jpg" }]) {
+      const md = renderList([ep({ meta: { cover_image } })], opts);
+      expect(cardOf(md, "2026-07-19-x-netflix")).not.toContain('class="face"');
+    }
+  });
+
+  it("★★ CSS 侧无残留 face 放大规则(否则删了类还留着变换=白删)", () => {
+    expect(scss).not.toMatch(/\.th\.fr img\.face/);
+    expect(scss).not.toMatch(/scale\(1\.55\)/);
+    expect(scss).toMatch(/\.th\.fr img \{[^}]*object-fit:\s*cover/); // 纯 cover 仍在
   });
 });
 
