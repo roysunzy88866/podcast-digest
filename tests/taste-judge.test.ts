@@ -81,7 +81,8 @@ describe("接线源码锚 · 两条路都要判(删掉任一处都会红)", () =
     expect(i).toBeGreaterThan(0);
     expect(src.slice(i, i + 120)).toContain("retry: false");
   });
-  it("★★ 判官用免费档(判题材这种粗粒度问题不该常驻付费)", () => {
-    expect(TASTE_JUDGE_MODEL).toContain("flash");
+  it("★★ 判官用付费档 glm-4.6([standard-change: 用户授权 2026-08-22]:免费档夜间 1305 整班停摆,把关不能靠运气)", () => {
+    expect(TASTE_JUDGE_MODEL).toBe("glm-4.6");
+    expect(TASTE_JUDGE_MODEL).not.toContain("flash");
   });
 });

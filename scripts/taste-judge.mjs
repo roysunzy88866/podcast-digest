@@ -18,8 +18,10 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const TASTE_FILE = join(ROOT, "需求共创/内容品味档案.md");
-// 免费档足够判「这题材要不要」这种粗粒度问题;判错的代价(漏一集)远小于付费档常驻成本。
-export const TASTE_JUDGE_MODEL = process.env.TASTE_JUDGE_MODEL || "glm-4.7-flash";
+// 判官档位 [standard-change: 用户授权 2026-08-22「用你现在用的 GLM 档位」]:原免费档 glm-4.7-flash
+// 在 00:30 班被 1305「访问量过大」整班顶回(4/4 失败,fail-open 放行=把关裸奔)→ 改用写稿同档付费 glm-4.6
+// (与 translate 同模型;判标题一集几百 token,月费角钱级;过载不再靠运气)。
+export const TASTE_JUDGE_MODEL = process.env.TASTE_JUDGE_MODEL || "glm-4.6";
 const TASTE_MAX = 20000; // 活文档失控膨胀会撑爆上下文(同 patrol 口径)
 
 // ── 纯逻辑(可单测)──────────────────────────────────────
