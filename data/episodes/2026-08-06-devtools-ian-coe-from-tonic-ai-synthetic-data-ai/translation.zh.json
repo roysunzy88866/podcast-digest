@@ -5,7 +5,7 @@
   "end": 2.113,
   "speaker": "Unknown",
   "en": "Hi everyone, you're listening to Scanning DevTools.",
-  "zh": "嗨大家好，你们正在收听 Scanning DevTools。"
+  "zh": "大家好，你们正在收听 Scanning DevTools。"
  },
  {
   "seg": 1,
@@ -13,7 +13,7 @@
   "end": 5.957,
   "speaker": "Unknown",
   "en": "I'm joined today by Ian, the founder of Tonic AI.",
-  "zh": "今天我和 Ian 一起，他是 Tonic AI 的创始人。"
+  "zh": "今天我和 Tonic AI 的创始人 Ian 一起。"
  },
  {
   "seg": 2,
@@ -21,7 +21,7 @@
   "end": 7.539,
   "speaker": "Unknown",
   "en": "Hey, how's it going?",
-  "zh": "嘿，最近怎么样？"
+  "zh": "嘿，怎么样？"
  },
  {
   "seg": 3,
@@ -37,7 +37,7 @@
   "end": 10.282,
   "speaker": "Unknown",
   "en": "Hey, nice to meet you as well.",
-  "zh": "嘿，也很高兴见到你。"
+  "zh": "嘿，我也很高兴见到你。"
  },
  {
   "seg": 5,
@@ -45,7 +45,7 @@
   "end": 16.368,
   "speaker": "Unknown",
   "en": "So we're here at HeavyBits Dev Guild, and could you tell us a bit about what you're working on?",
-  "zh": "那我们现在在 HeavyBits Dev Guild，你能告诉我们一点你正在做什么吗？"
+  "zh": "所以我们现在在 HeavyBits Dev Guild，你能告诉我们一点关于你正在做什么的事情吗？"
  },
  {
   "seg": 6,
@@ -53,7 +53,7 @@
   "end": 17.289,
   "speaker": "Unknown",
   "en": "Sure.",
-  "zh": "没问题。"
+  "zh": "当然。"
  },
  {
   "seg": 7,
@@ -61,7 +61,7 @@
   "end": 27.657,
   "speaker": "Unknown",
   "en": "So we actually started as just sort of a dev tool in the sense that we make data available and usable for technical workflows.",
-  "zh": "所以我们实际上最初只是一种开发工具，意思是让数据可用于技术工作流。"
+  "zh": "所以我们实际上只是作为一种开发工具开始的，就我们为技术工作流使数据可用和可用而言。"
  },
  {
   "seg": 8,
@@ -77,7 +77,7 @@
   "end": 42.884,
   "speaker": "Unknown",
   "en": "Obviously, the world has changed dramatically, and there's all these new data needs, particularly around AI, and so we're serving those as well.",
-  "zh": "显然，世界已经发生了巨大变化，有所有这些新的数据需求，特别是围绕 AI，所以我们也在服务这些需求。"
+  "zh": "显然，世界发生了巨大变化，所有这些新的数据需求，特别是围绕 AI，所以我们也在服务这些领域。"
  },
  {
   "seg": 10,
@@ -85,7 +85,7 @@
   "end": 56.527,
   "speaker": "Unknown",
   "en": "But we started with developers as the first customer, and we've now moved to developers plus folks training models as well.",
-  "zh": "但我们以开发者作为第一个客户，现在已经转向开发者加上训练模型的人员。"
+  "zh": "但我们以开发者作为第一个客户开始，现在我们已经转移到开发者加上训练模型的人。"
  },
  {
   "seg": 11,
@@ -93,7 +93,7 @@
   "end": 61.465,
   "speaker": "Unknown",
   "en": "Yeah, it's an area I don't know very much about.",
-  "zh": "是的，这是我不太了解的一个领域。"
+  "zh": "是的，这是一个我不太了解的领域。"
  },
  {
   "seg": 12,
@@ -109,7 +109,7 @@
   "end": 71.111,
   "speaker": "Unknown",
   "en": "Yeah, so I'll kind of cover both use cases, I guess.",
-  "zh": "是的，所以我大概会涵盖这两种用例。"
+  "zh": "是的，所以我想我会涵盖两个用例。"
  },
  {
   "seg": 14,
@@ -117,7 +117,7 @@
   "end": 75.153,
   "speaker": "Unknown",
   "en": "So for developing software, it's really about the structure of the data.",
-  "zh": "所以对于软件开发，它真的是关于数据的结构。"
+  "zh": "所以对于开发软件，它真的是关于数据的结构。"
  },
  {
   "seg": 15,
@@ -133,7 +133,7 @@
   "end": 82.378,
   "speaker": "Unknown",
   "en": "Mainly, we're creating staging environments, creating development environments.",
-  "zh": "主要是在创建暂存环境，创建开发环境。"
+  "zh": "主要地，我们正在创建临时环境，创建开发环境。"
  },
  {
   "seg": 17,
@@ -141,7 +141,7 @@
   "end": 85.459,
   "speaker": "Unknown",
   "en": "For the AI model training, it's a bit different.",
-  "zh": "对于 AI 模型训练，有点不同。"
+  "zh": "对于 AI 模型训练，它有点不同。"
  },
  {
   "seg": 18,
@@ -149,7 +149,7 @@
   "end": 87.6,
   "speaker": "Unknown",
   "en": "It tends to be more unstructured data.",
-  "zh": "它往往是更多非结构化数据。"
+  "zh": "它往往是更多的非结构化数据。"
  },
  {
   "seg": 19,
@@ -157,7 +157,7 @@
   "end": 99.344,
   "speaker": "Unknown",
   "en": "And we're doing a lot of things where we're redacting a bunch of unstructured text so that you can go train a model on it.",
-  "zh": "我们正在做很多事情，我们要编辑大量非结构化文本，以便你可以用它来训练模型。"
+  "zh": "我们正在做很多我们正在编辑一堆非结构化文本的事情，这样你就可以在上面训练模型。"
  },
  {
   "seg": 20,
@@ -165,7 +165,7 @@
   "end": 100.765,
   "speaker": "Unknown",
   "en": "This comes up especially for like",
-  "zh": "这尤其出现在像"
+  "zh": "这特别出现在像"
  },
  {
   "seg": 21,
@@ -173,7 +173,7 @@
   "end": 102.727,
   "speaker": "Unknown",
   "en": "Healthcare and financial services.",
-  "zh": "医疗保健和金融服务这样的领域。"
+  "zh": "医疗保健和金融服务。"
  },
  {
   "seg": 22,
@@ -181,7 +181,7 @@
   "end": 109.772,
   "speaker": "Unknown",
   "en": "If you're going to go train on a corpus of customer support chats, you may ingest all kinds of sensitive information.",
-  "zh": "如果你要去训练客服聊天语料库，你可能会摄取各种敏感信息。"
+  "zh": "如果你打算在客户支持聊天语料库上训练，你可能会摄入各种敏感信息。"
  },
  {
   "seg": 23,
@@ -189,7 +189,7 @@
   "end": 117.779,
   "speaker": "Unknown",
   "en": "So we're allowing companies to make data usable that would otherwise be not something they could necessarily just train on as is.",
-  "zh": "所以我们正在让公司使用那些否则他们不一定能直接按原样训练的数据。"
+  "zh": "所以我们正在允许公司使数据可用，否则它们不一定可以直接按原样训练。"
  },
  {
   "seg": 24,
@@ -197,7 +197,7 @@
   "end": 122.342,
   "speaker": "Unknown",
   "en": "So it's kind of like not synthetic in the sense it's pulled out of nowhere.",
-  "zh": "所以这有点像不是那种凭空合成的意义上的合成。"
+  "zh": "所以这有点像不是合成的，就它是从无到有拉出来的意义上。"
  },
  {
   "seg": 25,
@@ -205,7 +205,7 @@
   "end": 125.744,
   "speaker": "Unknown",
   "en": "It's more like... Well, we do that too.",
-  "zh": "这更像……嗯，我们也做那个。"
+  "zh": "它更像是……嗯，我们也做那个。"
  },
  {
   "seg": 26,
@@ -213,7 +213,7 @@
   "end": 138.692,
   "speaker": "Unknown",
   "en": "So this is probably our most recent offering, but we do have the ability to create data from nothing or sort of informed by small snippets of data.",
-  "zh": "这可能是我们最新的产品，但我们确实有能力凭空创建数据或由小数据片段告知的数据。"
+  "zh": "所以这可能是我们最新的产品，但我们确实有能力从无到有创建数据或者由一小段数据告知。"
  },
  {
   "seg": 27,
@@ -229,7 +229,7 @@
   "end": 151.359,
   "speaker": "Unknown",
   "en": "And so you can both describe, give snippets, and you can actually connect it to a database as well and have it profile that database.",
-  "zh": "所以你可以既提供描述，提供片段，你也可以实际上把它连接到一个数据库并让它分析该数据库。"
+  "zh": "所以你可以描述，给片段，你也可以把它连接到数据库并让它分析那个数据库。"
  },
  {
   "seg": 29,
@@ -237,7 +237,7 @@
   "end": 157.123,
   "speaker": "Unknown",
   "en": "But what it really is designed for is creating like wholesale from nothing data.",
-  "zh": "但它真正设计用于的是从零开始创建数据。"
+  "zh": "但它真正设计用于的是从无到有地创建数据。"
  },
  {
   "seg": 30,
@@ -253,7 +253,7 @@
   "end": 166.208,
   "speaker": "Unknown",
   "en": "And the way that works is essentially you create the data and then a human kind of like",
-  "zh": "它的工作方式基本上是你创建数据，然后一个人像"
+  "zh": "它的工作方式基本上是你创建数据然后人类有点像"
  },
  {
   "seg": 32,
@@ -269,7 +269,7 @@
   "end": 200.373,
   "speaker": "Unknown",
   "en": "In lieu of that, with really good models and really good tooling, you can create valuable data sets.",
-  "zh": "取而代之的是，凭借非常好的模型和非常好的工具，你可以创建有价值的数据集。"
+  "zh": "代替那个，有了真正好的模型和真正好的工具，你可以创建有价值的数据集。"
  },
  {
   "seg": 34,
@@ -277,7 +277,7 @@
   "end": 208.139,
   "speaker": "Unknown",
   "en": "And we actually have white papers where our data does as well at doing reinforcement learning on models as real data.",
-  "zh": "我们实际上有白皮书，我们的数据在模型上进行强化学习方面与真实数据表现得一样好。"
+  "zh": "我们实际上有白皮书，我们的数据在做模型的强化学习方面与真实数据一样好。"
  },
  {
   "seg": 35,
@@ -309,7 +309,7 @@
   "end": 221.969,
   "speaker": "Unknown",
   "en": "And for the reinforcement learning, is it less important that it's like kind of new, like real world stuff?",
-  "zh": "对于强化学习，它是不是那种新的、像现实世界的东西不那么重要？"
+  "zh": "对于强化学习，它是不是像新的一样，像真实世界的东西，不那么重要？"
  },
  {
   "seg": 39,
@@ -317,7 +317,7 @@
   "end": 224.176,
   "speaker": "Unknown",
   "en": "So it is real-world stuff.",
-  "zh": "所以它是现实世界的东西。"
+  "zh": "所以它是真实世界的东西。"
  },
  {
   "seg": 40,
@@ -325,7 +325,7 @@
   "end": 239.92,
   "speaker": "Unknown",
   "en": "So one of the papers that our AI team just put out was they took a model, and then about a year ago, someone had fine-tuned an open-source model and made it perform.",
-  "zh": "所以我们的 AI 团队刚发表的论文之一是他们拿了一个模型，然后大约一年前，有人微调了一个开源模型并使其表现得"
+  "zh": "所以我们的 AI 团队刚刚发表的论文之一是他们拿了一个模型，然后大约一年前，有人微调了一个开源模型并让它表现。"
  },
  {
   "seg": 41,
@@ -333,7 +333,7 @@
   "end": 246.265,
   "speaker": "Unknown",
   "en": "...better than the foundation models at the time at certain tasks on email retrieval.",
-  "zh": "……比当时的基础模型在邮件检索的某些任务上更好。"
+  "zh": "...在当时的某些邮件检索任务上比基础模型更好。"
  },
  {
   "seg": 42,
@@ -341,7 +341,7 @@
   "end": 257.675,
   "speaker": "Unknown",
   "en": "We were able to do the same reinforcement learning task on those models and get actually better results in a lot of ways.",
-  "zh": "我们能够对这些模型做同样的强化学习任务，并在很多方面实际上获得更好的结果。"
+  "zh": "我们能够对那些模型做同样的强化学习任务，并在很多方面得到实际上更好的结果。"
  },
  {
   "seg": 43,
@@ -357,7 +357,7 @@
   "end": 278.667,
   "speaker": "Unknown",
   "en": "essentially there's like a some there's a set of tasks there's an environment and then there's an evaluation and so the evaluation you know is on usually something that's kind of more ambiguous than like you know um something more uh definable okay",
-  "zh": "本质上像有一些那里有一组任务有一个环境然后是一个评估所以评估你知道通常是在某种更模棱两可的东西上比比如你知道嗯某种更可定义的东西好的"
+  "zh": "基本上有像一些有一组任务有一个环境然后有一个评估所以评估你知道通常在某种更模糊的东西上比像你知道嗯某种更可定义的好的"
  },
  {
   "seg": 45,
@@ -365,7 +365,7 @@
   "end": 295.258,
   "speaker": "Unknown",
   "en": "Yeah, I was reading a heavy bit wrote an article about how Cursor trained kind of like they took a base, I can't remember which one it was, but one of the Chinese open source LLMs.",
-  "zh": "是的，我在读一篇 heavy bit 写的文章关于 Cursor 如何训练，就像他们拿了一个基数，我不记得是哪个了，但是中国的开源 LLM 之一。"
+  "zh": "是的，我正在读一篇 heavy bit 写的文章关于 Cursor 如何训练就像他们拿了一个基础，我不记得是哪一个，但是中国的开源 LLM 之一。"
  },
  {
   "seg": 46,
@@ -373,7 +373,7 @@
   "end": 301.903,
   "speaker": "Unknown",
   "en": "And then they did, I think, reinforcement learning with their data.",
-  "zh": "然后他们做了，我想，用他们的数据进行强化学习。"
+  "zh": "然后他们做了，我想，用他们的数据做强化学习。"
  },
  {
   "seg": 47,
@@ -381,7 +381,7 @@
   "end": 324.378,
   "speaker": "Unknown",
   "en": "and use like release that as the kind of cursors um agent and um they were saying that it's going to become like it could become like a lot more of a thing are you seeing it become more common for people to kind of find yeah",
-  "zh": "并像发布那个作为那种游标 um 智能体和 um 他们说它将变得像它可能变得像更多的东西你看到它变得更常见人们那种发现是的"
+  "zh": "并像将其作为那种光标嗯智能体使用并且嗯他们说它将变得像它可能变得像更多的东西你看到它变得更普遍人们有点找到是的"
  },
  {
   "seg": 48,
@@ -389,7 +389,7 @@
   "end": 328.741,
   "speaker": "Unknown",
   "en": "Yeah, so it's been sort of in and out of favor with our customer base.",
-  "zh": "是的，所以在我们的客户群中它有点儿时兴时不兴。"
+  "zh": "是的，所以它在我们的客户群中有点时兴时衰。"
  },
  {
   "seg": 49,
@@ -397,7 +397,7 @@
   "end": 335.025,
   "speaker": "Unknown",
   "en": "About six months ago, we were having all these conversations with customers where they're like, we're never going to fine tune.",
-  "zh": "大约六个月前，我们与客户进行了所有这些对话，他们就像，我们永远不会微调。"
+  "zh": "大约六个月前，我们与客户进行了所有这些对话，他们说，我们永远不会微调。"
  },
  {
   "seg": 50,
@@ -405,7 +405,7 @@
   "end": 339.889,
   "speaker": "Unknown",
   "en": "We're just going to sit back and wait for the foundation labs to just sort of...",
-  "zh": "我们只是坐下来等待 foundation labs 只是……"
+  "zh": "我们就坐下来等着 foundation labs 只是某种……"
  },
  {
   "seg": 51,
@@ -413,7 +413,7 @@
   "end": 341.89,
   "speaker": "Unknown",
   "en": "Create the functionality we need.",
-  "zh": "创建我们需要的功能。"
+  "zh": "创造我们需要的功能。"
  },
  {
   "seg": 52,
@@ -421,7 +421,7 @@
   "end": 342.89,
   "speaker": "Unknown",
   "en": "There's no point.",
-  "zh": "这毫无意义。"
+  "zh": "没有意义。"
  },
  {
   "seg": 53,
@@ -429,7 +429,7 @@
   "end": 359.698,
   "speaker": "Unknown",
   "en": "And now it's a pretty different conversation, I'd say, where it's sort of like, okay, actually, we expect, you know, sort of the bleeding edge to be jagged for a while, where there's some things that are incredible, like coding is incredible, because like that's been probably like the number one area.",
-  "zh": "我想现在的对话截然不同了，就像这样，好吧，实际上，我们预计，你知道，最前沿在一段时间内会是参差不齐的，有些东西令人难以置信，比如编码令人难以置信，因为这可能是排名第一的领域。"
+  "zh": "现在我想这是一场截然不同的对话，就像是，好吧，实际上，我们期望，你知道，某种最前沿在一段时间内会是参差不齐的，有些事情是不可思议的，比如编程是不可思议的，因为这可能一直是第一名的领域。"
  },
  {
   "seg": 54,
@@ -437,7 +437,7 @@
   "end": 367.822,
   "speaker": "Unknown",
   "en": "But like, how good is a model going to be at authorizing claims?",
-  "zh": "但是，模型在授权理赔方面会有多好？"
+  "zh": "但是，比如说，一个模型在授权索赔方面会有多好？"
  },
  {
   "seg": 55,
@@ -445,7 +445,7 @@
   "end": 375.971,
   "speaker": "Unknown",
   "en": "like you know probably like okay but maybe not at the bar you need and so if you're an insurance company and you want to do some sort of",
-  "zh": "你知道，可能还可以，但可能达不到你要求的门槛，所以如果你是一家保险公司，想要做某种"
+  "zh": "你知道可能大概好吧，但可能达不到你需要的标准，所以如果你是一家保险公司并且你想要做某种"
  },
  {
   "seg": 56,
@@ -453,7 +453,7 @@
   "end": 384.549,
   "speaker": "Unknown",
   "en": "Automation of claims, you might need to train on your own data to get kind of the results you want.",
-  "zh": "理赔自动化，你可能需要在你自己的数据上训练才能得到你想要的那种结果。"
+  "zh": "索赔自动化，你可能需要在你自己的数据上训练以获得你想要的那种结果。"
  },
  {
   "seg": 57,
@@ -461,7 +461,7 @@
   "end": 387.549,
   "speaker": "Unknown",
   "en": "And so we're seeing companies more interested in that.",
-  "zh": "我们看到公司对此更感兴趣。"
+  "zh": "所以我们看到公司对此更感兴趣。"
  },
  {
   "seg": 58,
@@ -469,7 +469,7 @@
   "end": 405.013,
   "speaker": "Unknown",
   "en": "I think also because of things like what Cursor did, people are starting to say, oh, wait, I could sit back and use the foundation models, but they're probably only going to go up in cost as these guys try to IPO and have better cash flows.",
-  "zh": "我认为还因为像 Cursor 所做的事情，人们开始说，哦，等等，我可以坐下来使用基础模型，但随着这些人试图 IPO 并拥有更好的现金流，它们的成本可能只会上升。"
+  "zh": "我认为还因为像 Cursor 所做的事情，人们开始说，哦，等等，我可以坐下来使用基础模型，但随着这些人试图 IPO 并拥有更好的现金流，它们可能只会增加成本。"
  },
  {
   "seg": 59,
@@ -477,7 +477,7 @@
   "end": 411.556,
   "speaker": "Unknown",
   "en": "In addition to that, so it's, you know, so there's going to be inference cost issues.",
-  "zh": "除此之外，你知道的，所以会有推理成本问题。"
+  "zh": "除此之外，所以，你知道，所以会有推理成本问题。"
  },
  {
   "seg": 60,
@@ -485,7 +485,7 @@
   "end": 419.098,
   "speaker": "Unknown",
   "en": "And then also, hey, if these models, like if the open source models are six months behind, I can get much cheaper inference.",
-  "zh": "然后还有，嘿，如果这些模型，如果开源模型落后六个月，我可以获得更便宜的推理。"
+  "zh": "还有，嘿，如果这些模型，如果开源模型落后六个月，我可以获得更便宜的推理。"
  },
  {
   "seg": 61,
@@ -493,7 +493,7 @@
   "end": 421.679,
   "speaker": "Unknown",
   "en": "I can specialize it.",
-  "zh": "我可以对其进行专门的定制。"
+  "zh": "我可以对其进行专门化。"
  },
  {
   "seg": 62,
@@ -501,7 +501,7 @@
   "end": 423.54,
   "speaker": "Unknown",
   "en": "The calculation, I think, is really shifting.",
-  "zh": "我认为算盘真的在变。"
+  "zh": "我认为算计真的正在转变。"
  },
  {
   "seg": 63,
@@ -509,7 +509,7 @@
   "end": 431.783,
   "speaker": "Unknown",
   "en": "And especially as we're seeing more and more areas where you can actually make these models, even though they're sort of the base model six months behind, it gets better at the task you care about.",
-  "zh": "特别是随着我们看到越来越多的领域，你可以真正制作这些模型，即使它们作为基础模型落后六个月，在你关心的任务上它会变得更好。"
+  "zh": "尤其是随着我们看到越来越多的领域，你实际上可以让这些模型，尽管它们是基础模型落后六个月，在你关心的任务上变得更好。"
  },
  {
   "seg": 64,
@@ -517,7 +517,7 @@
   "end": 433.363,
   "speaker": "Unknown",
   "en": "Interesting.",
-  "zh": "有意思。"
+  "zh": "有趣。"
  },
  {
   "seg": 65,
@@ -541,7 +541,7 @@
   "end": 441.705,
   "speaker": "Unknown",
   "en": "Are there any other things that you're really excited about at the moment, especially with the conference?",
-  "zh": "还有什么其他事情是你目前真正兴奋的吗，特别是关于这次会议？"
+  "zh": "目前还有什么其他事情是你真正感到兴奋的吗，特别是关于这次会议？"
  },
  {
   "seg": 68,
@@ -549,7 +549,7 @@
   "end": 442.905,
   "speaker": "Unknown",
   "en": "Are there any topics that like?",
-  "zh": "有什么话题是像？"
+  "zh": "有什么话题是像……"
  },
  {
   "seg": 69,
@@ -557,7 +557,7 @@
   "end": 460.928,
   "speaker": "Unknown",
   "en": "For us, I think reinforcement learning is where we have a lot of our effort right now because we're seeing customers able to create environments much more quickly.",
-  "zh": "对我们来说，我认为强化学习是我们投入大量精力的地方，因为我们看到客户能够更快地创建环境。"
+  "zh": "对我们来说，我认为强化学习是我们目前投入大量精力的地方，因为我们看到客户能够更快速地创建环境。"
  },
  {
   "seg": 70,
@@ -573,7 +573,7 @@
   "end": 471.314,
   "speaker": "Unknown",
   "en": "So one is, as we talked about, sort of the fully synthetic just kind of leverages our Fabricate product.",
-  "zh": "一种就像我们谈过的，那种完全合成的只是利用了我们的 Fabricate 产品。"
+  "zh": "所以一种是，正如我们谈到的，那种完全合成的只是利用了我们的 Fabricate 产品。"
  },
  {
   "seg": 72,
@@ -581,7 +581,7 @@
   "end": 475.297,
   "speaker": "Unknown",
   "en": "The other way is using our Textual product, which is really more about de-identification.",
-  "zh": "另一种方式是使用我们的 Textual 产品，它更多的是关于去标识化。"
+  "zh": "另一种方式是使用我们的 Textual 产品，它实际上更多的是关于去标识化。"
  },
  {
   "seg": 73,
@@ -589,7 +589,7 @@
   "end": 481.801,
   "speaker": "Unknown",
   "en": "It does have synthetic capabilities, but it's really more about identifying all the sensitive information, and that's incredibly valuable.",
-  "zh": "它确实具有合成能力，但它更多的是关于识别所有敏感信息，这非常有价值。"
+  "zh": "它确实具有合成能力，但它确实更多的是关于识别所有敏感信息，那是非常有价值的。"
  },
  {
   "seg": 74,
@@ -597,7 +597,7 @@
   "end": 492.048,
   "speaker": "Unknown",
   "en": "For folks in healthcare and financial services where they do have all this defined sense of information and especially like, for example, if you're a healthcare organization, you're going to train on your data.",
-  "zh": "对于那些在医疗保健和金融服务领域拥有所有这些明确定义的信息的人，特别是，例如，如果你是一家医疗保健机构，你要在你自己的数据上训练。"
+  "zh": "对于那些拥有所有这些定义信息含义的医疗保健和金融服务领域的人来说，特别是，例如，如果你是一家医疗机构，你要在你的数据上进行训练。"
  },
  {
   "seg": 75,
@@ -605,7 +605,7 @@
   "end": 501.715,
   "speaker": "Unknown",
   "en": "You either need to do something called Safe Harbor, which is a HIPAA process that essentially nukes the data, like it's not really that valuable, or you can do this thing called expert determination.",
-  "zh": "你要么需要做一些叫做安全港的事情，这是一个 HIPAA 流程，本质上是销毁数据，就像它真的没有那么有价值，或者你可以做这件事叫做专家判定。"
+  "zh": "你要么需要做一件叫做 Safe Harbor 的事情，这是一个 HIPAA 流程，它基本上会破坏数据，因为它并不是真的那么有价值，或者你可以做这件事叫做专家判定。"
  },
  {
   "seg": 76,
@@ -613,7 +613,7 @@
   "end": 505.198,
   "speaker": "Unknown",
   "en": "And that's what our customers tend to do.",
-  "zh": "这也是我们的客户倾向于做的。"
+  "zh": "这就是我们的客户倾向于做的。"
  },
  {
   "seg": 77,
@@ -621,7 +621,7 @@
   "end": 507.099,
   "speaker": "Unknown",
   "en": "And that gives you the ability to do it.",
-  "zh": "那给了你这样做的能力。"
+  "zh": "这给了你这样做的能力。"
  },
  {
   "seg": 78,
@@ -629,7 +629,7 @@
   "end": 511.983,
   "speaker": "Unknown",
   "en": "And someone, some expert comes in and says, this is statistically safe to do.",
-  "zh": "某个人，某个专家进来说，这在统计上是安全的。"
+  "zh": "有人，某位专家进来说，这在统计上是安全的。"
  },
  {
   "seg": 79,
@@ -645,7 +645,7 @@
   "end": 516.987,
   "speaker": "Unknown",
   "en": "And so that's sort of the big ways.",
-  "zh": "所以这就是主要的方式。"
+  "zh": "所以这就是大致的方式。"
  },
  {
   "seg": 81,
@@ -653,7 +653,7 @@
   "end": 518.888,
   "speaker": "Unknown",
   "en": "So we can sort of help in both ways.",
-  "zh": "所以我们可以通过两种方式提供帮助。"
+  "zh": "所以我们可以在这两方面提供帮助。"
  },
  {
   "seg": 82,
@@ -669,7 +669,7 @@
   "end": 527.855,
   "speaker": "Unknown",
   "en": "If you don't have that corpus, you only have parts of that corpus, we can help you fill in the gaps.",
-  "zh": "如果你没有那个语料库，你只有那个语料库的一部分，我们可以帮你填补空白。"
+  "zh": "如果你没有那个语料库，你只有那个语料库的一部分，我们可以帮助你填补空白。"
  },
  {
   "seg": 84,
@@ -685,7 +685,7 @@
   "end": 530.798,
   "speaker": "Unknown",
   "en": "It's really exciting.",
-  "zh": "真的很令人兴奋。"
+  "zh": "真的令人兴奋。"
  },
  {
   "seg": 86,
@@ -693,7 +693,7 @@
   "end": 536.967,
   "speaker": "Unknown",
   "en": "Yeah, I mean, it's interesting because, you know, we sort of always started with the idea that we would...",
-  "zh": "是的，我的意思是，这很有趣，因为你知道，我们总是从这样的想法开始，我们将……"
+  "zh": "是的，我的意思是，这很有趣，因为，你知道，我们总是从我们要……"
  },
  {
   "seg": 87,
@@ -701,7 +701,7 @@
   "end": 539.082,
   "speaker": "Unknown",
   "en": "Yeah, that's amazing.",
-  "zh": "是的，这太棒了。"
+  "zh": "是的，这很神奇。"
  },
  {
   "seg": 88,
@@ -709,7 +709,7 @@
   "end": 572.863,
   "speaker": "Unknown",
   "en": "Is there anything that you're seeing that you think maybe other people are not seeing at the moment?",
-  "zh": "有没有什么你看到的、你认为其他人目前没有看到的事情？"
+  "zh": "还有什么是你看到的、你认为其他人目前没有看到的吗？"
  },
  {
   "seg": 89,
@@ -717,7 +717,7 @@
   "end": 593.284,
   "speaker": "Unknown",
   "en": "I think what we're seeing is, I mean, where enterprises are and are not succeeding with AI, I think the ambition is 100% there.",
-  "zh": "我认为我们正在看到的是，企业在哪里取得成功、在哪里没有成功，我认为雄心是百分之百存在的。"
+  "zh": "我认为我们看到的是，我的意思是，企业在哪些方面取得成功、哪些方面没有成功，我认为雄心是 100% 存在的。"
  },
  {
   "seg": 90,
@@ -725,7 +725,7 @@
   "end": 598.889,
   "speaker": "Unknown",
   "en": "I think they do get tripped up by some of the compliance things that we're talking about.",
-  "zh": "我认为他们确实会被我们谈论的一些合规问题所绊倒。"
+  "zh": "我认为他们确实会被我们正在谈论的一些合规性事情所绊倒。"
  },
  {
   "seg": 91,
@@ -741,7 +741,7 @@
   "end": 611.467,
   "speaker": "Unknown",
   "en": "And then I think we're seeing sort of, we are seeing some customers really succeed and get that fine-tuned model out there and start giving something operational within the business.",
-  "zh": "然后我认为我们正在看到，我们确实看到一些客户真正成功了，把那个经过微调的模型推向市场，并开始在企业内部提供一些可操作的东西。"
+  "zh": "然后我认为我们正在看到，我们确实看到一些客户真正成功了，把那个微调模型推向市场，并开始在业务内提供某种可操作的东西。"
  },
  {
   "seg": 93,
@@ -749,7 +749,7 @@
   "end": 615.633,
   "speaker": "Unknown",
   "en": "And then we also are seeing other customers who are more mired in the...",
-  "zh": "然后我们也看到其他客户更深陷于……"
+  "zh": "然后我们也看到其他客户更陷入……"
  },
  {
   "seg": 94,
@@ -757,7 +757,7 @@
   "end": 624.406,
   "speaker": "Unknown",
   "en": "You know, the compliance, the painful parts of this and, you know, may not be getting out there, may not be, you know, sort of accelerating in the same way.",
-  "zh": "你知道，合规性，这部分痛苦的事情，并且可能没有走向市场，可能没有，你知道，以同样的方式加速。"
+  "zh": "你知道，合规性，这部分是痛苦的，并且，你知道，可能没有走出去，可能没有，你知道，以同样的方式加速。"
  },
  {
   "seg": 95,
@@ -765,7 +765,7 @@
   "end": 625.628,
   "speaker": "Unknown",
   "en": "And so I think we're seeing both.",
-  "zh": "所以我认为我们两种情况都看到了。"
+  "zh": "所以我认为我们两方面都看到了。"
  },
  {
   "seg": 96,
@@ -773,7 +773,7 @@
   "end": 627.531,
   "speaker": "Unknown",
   "en": "Yeah, super, super cool.",
-  "zh": "是的，超级，超级酷。"
+  "zh": "是的，非常，非常酷。"
  },
  {
   "seg": 97,
@@ -781,7 +781,7 @@
   "end": 632.398,
   "speaker": "Unknown",
   "en": "And if people want to learn more about what you're working on, where can they go?",
-  "zh": "如果人们想了解更多关于你的工作，他们可以去哪里？"
+  "zh": "如果人们想了解更多关于你正在做的事情，他们可以去哪里？"
  },
  {
   "seg": 98,
@@ -813,7 +813,7 @@
   "end": 637.188,
   "speaker": "Unknown",
   "en": "We have it all out there.",
-  "zh": "我们把一切都放在那上面了。"
+  "zh": "我们都把这些发布出去了。"
  },
  {
   "seg": 102,
@@ -821,7 +821,7 @@
   "end": 643.18,
   "speaker": "Unknown",
   "en": "We try to get, you know, most of the stuff out there to sort of, you know, get feedback and contribute.",
-  "zh": "我们试着把，你知道，大部分东西都放在那里，以，你知道，获得反馈并做出贡献。"
+  "zh": "我们试着，你知道，把大部分东西都放出来，以便，你知道，获得反馈并做出贡献。"
  },
  {
   "seg": 103,
@@ -829,7 +829,7 @@
   "end": 645.746,
   "speaker": "Unknown",
   "en": "So, yeah, our blog's pretty rich.",
-  "zh": "所以，是的，我们的博客非常丰富。"
+  "zh": "所以，是的，我们的博客内容很丰富。"
  },
  {
   "seg": 104,

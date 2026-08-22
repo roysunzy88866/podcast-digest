@@ -1,0 +1,377 @@
+{
+  "episode_id": "2026-08-06-devtools-ian-coe-from-tonic-ai-synthetic-data-ai",
+  "podcast": "Scaling DevTools",
+  "date": "2026-08-06",
+  "tags": [
+    "合成数据",
+    "数据合规",
+    "微调",
+    "强化学习",
+    "企业AI落地"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ian",
+      "type": "person",
+      "role": "host",
+      "name": "Ian",
+      "file": "Ian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.434,
+            5.957
+          ],
+          "quote": "I'm joined today by Ian, the founder of Tonic AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            7.839,
+            8.7
+          ],
+          "quote": "Nice to meet you, Ian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            648.131,
+            649.193
+          ],
+          "quote": "Well, thanks so much, Ian.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tonic-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Tonic AI",
+      "file": "Tonic AI",
+      "primary": true,
+      "how_described": "本集说它最初是让数据在技术工作流中可用的开发工具，后来扩展到为 AI 模型训练提供脱敏和合成数据服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.434,
+            5.957
+          ],
+          "quote": "I'm joined today by Ian, the founder of Tonic AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            633.039,
+            634.141
+          ],
+          "quote": "Tonic.ai.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "textual",
+      "type": "concept",
+      "role": "concept",
+      "name": "Textual",
+      "file": "Textual",
+      "primary": true,
+      "how_described": "本集说它是 Tonic 的去标识化产品，能识别文本中的敏感信息并做精准操作，虽然也有合成能力但核心是去标识化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            471.354,
+            475.297
+          ],
+          "quote": "The other way is using our Textual product, which is really more about de-identification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fabricate",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fabricate",
+      "file": "Fabricate",
+      "primary": true,
+      "how_described": "本集说它是 Tonic 从零生成数据的产品，可以连接真实数据库分析结构后批量生成数据，特别擅长为强化学习创建环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            139.152,
+            143.295
+          ],
+          "quote": "It's one of our projects called, we call it Fabricate, and it fabricates your data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            464.27,
+            471.314
+          ],
+          "quote": "So one is, as we talked about, sort of the fully synthetic just kind of leverages our Fabricate product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说它的流程是一组任务、一个环境、一个评估标准，模型在环境里尝试根据反馈调整行为，评估标准通常是较模糊的能力判断",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            157.603,
+            161.665
+          ],
+          "quote": "And it's actually particularly good for creating data for reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            200.633,
+            208.139
+          ],
+          "quote": "And we actually have white papers where our data does as well at doing reinforcement learning on models as real data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            212.182,
+            221.969
+          ],
+          "quote": "And for the reinforcement learning, is it less important that it's like kind of new, like real world stuff?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            247.626,
+            257.675
+          ],
+          "quote": "We were able to do the same reinforcement learning task on those models and get actually better results in a lot of ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            257.935,
+            263.62
+          ],
+          "quote": "So basically, the way reinforcement learning works is you...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            296.119,
+            301.903
+          ],
+          "quote": "And then they did, I think, reinforcement learning with their data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            444.245,
+            460.928
+          ],
+          "quote": "For us, I think reinforcement learning is where we have a lot of our effort right now because we're seeing customers able to create environments much more quickly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说六个月前客户还说永远不会微调、等基础模型实验室做功能，现在风向变了，保险公司等需要在自己数据上训练才能达到上线标准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            329.642,
+            335.025
+          ],
+          "quote": "About six months ago, we were having all these conversations with customers where they're like, we're never going to fine tune.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "de-identification",
+      "type": "concept",
+      "role": "concept",
+      "name": "去标识化 (de-identification)",
+      "file": "去标识化",
+      "primary": true,
+      "how_described": "本集说它是编辑非结构化文本中的敏感信息，让公司能用在客户支持聊天语料库等数据上训练模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            471.354,
+            475.297
+          ],
+          "quote": "The other way is using our Textual product, which is really more about de-identification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集说基础模型的推理成本会随着那些公司走向 IPO 而上升，而开源模型能提供更便宜的推理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            408.494,
+            411.556
+          ],
+          "quote": "In addition to that, so it's, you know, so there's going to be inference cost issues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            411.596,
+            419.098
+          ],
+          "quote": "And then also, hey, if these models, like if the open source models are six months behind, I can get much cheaper inference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source model)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集说开源模型可能落后六个月，但推理成本更低，可以做专门化训练，在特定任务上反而比最新通用模型更强",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            224.196,
+            239.92
+          ],
+          "quote": "So one of the papers that our AI team just put out was they took a model, and then about a year ago, someone had fine-tuned an open-source model and made it perform.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "safe-harbor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Safe Harbor",
+      "file": "Safe Harbor",
+      "primary": false,
+      "how_described": "本集说它是 HIPAA 里的一个流程，基本上会把数据核平，脱敏太狠导致数据价值大幅缩水",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            492.749,
+            501.715
+          ],
+          "quote": "You either need to do something called Safe Harbor, which is a HIPAA process that essentially nukes the data, like it's not really that valuable, or you can do this thing called expert determination.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "expert-determination",
+      "type": "concept",
+      "role": "concept",
+      "name": "专家判定 (expert determination)",
+      "file": "专家判定",
+      "primary": false,
+      "how_described": "本集说它是医疗行业客户普遍走的路，找专家评估认定处理后的数据在统计上是安全的，配合工具在安全和可用性间找平衡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            492.749,
+            501.715
+          ],
+          "quote": "You either need to do something called Safe Harbor, which is a HIPAA process that essentially nukes the data, like it's not really that valuable, or you can do this thing called expert determination.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集仅顺带提到 Cursor 用强化学习训练的数据发布为智能体，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            302.843,
+            324.378
+          ],
+          "quote": "and use like release that as the kind of cursors um agent and um they were saying that it's going to become like it could become like a lot more of a thing are you seeing it become more common for people to kind of find yeah",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "synthetic data",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "foundation model",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

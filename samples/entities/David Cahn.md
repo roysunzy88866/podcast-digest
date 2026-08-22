@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":3,"AGI":14,"资本支出":3,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":56,"OpenAI":47,"Google":22,"TPU":2}</script>
+<script type="application/json" class="pd-epn">{"Alex":3,"AGI":14,"资本支出":3,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":56,"OpenAI":48,"Google":22,"TPU":2}</script>
 
 <script>
 (function(){

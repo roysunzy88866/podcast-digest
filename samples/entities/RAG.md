@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[vibe coding]] · [[ChatGPT]] · [[Ethan Smith]] · [[Chip Huyen]] · [[Garry Tan]] · [[Brendan McManus]] · [[Flo Crivello]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"vibe coding":20,"ChatGPT":31,"Ethan Smith":1,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"Flo Crivello":1,"AEO":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":111,"Lenny":65,"vibe coding":20,"ChatGPT":31,"Ethan Smith":1,"Chip Huyen":1,"Garry Tan":1,"Brendan McManus":1,"Flo Crivello":1,"AEO":2}</script>
 
 <script>
 (function(){

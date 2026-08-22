@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Daniel Whitenack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":3,"OpenAI":47,"Anthropic":56,"Hugging Face":8,"NVIDIA":17,"智能体":109,"对齐":3,"AI 安全":1,"护栏":23,"开源模型":8}</script>
+<script type="application/json" class="pd-epn">{"Alex":3,"OpenAI":48,"Anthropic":56,"Hugging Face":9,"NVIDIA":17,"智能体":111,"对齐":3,"AI 安全":1,"护栏":24,"开源模型":8}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Madhavan Ramanujam]] · [[Bret Taylor]] · [[Sarah Wang]] · [[Intercom]] · [[基于结果的定价]] · [[Kimberley Tan]]
 
-<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"OpenAI":47,"Cursor":27,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":1,"Intercom":4,"基于结果的定价":1,"Kimberley Tan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":111,"Lenny":65,"OpenAI":48,"Cursor":27,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":1,"Intercom":4,"基于结果的定价":1,"Kimberley Tan":1}</script>
 
 <script>
 (function(){

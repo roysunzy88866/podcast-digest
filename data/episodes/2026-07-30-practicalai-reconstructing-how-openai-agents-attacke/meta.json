@@ -1,0 +1,35 @@
+{
+  "id": "2026-07-30-practicalai-reconstructing-how-openai-agents-attacke",
+  "audio_mp3": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/9d74230b/ed549250.mp3",
+  "duration_sec": 2658.693,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 408,
+  "asr": true,
+  "title_en": "Reconstructing how OpenAI agents attacked Hugging Face",
+  "podcast": "Practical AI",
+  "date": "2026-07-30",
+  "cover_official_url": "https://img.transistorcdn.com/Kse6N6gbbYGDeItbkw4gmmoPlyWu-OWofoo2a-dJvls/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNzk2/OWU3MjAyMzU2MTdm/NjgxMDFlMDg0NjE1/ZGViNC5wbmc.jpg",
+  "added": "2026-08-23",
+  "speaker_map": {
+    "SPEAKER_02": "Chris Benson",
+    "SPEAKER_03": "Daniel Whitenack"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Chris Benson",
+  "cohosts": [
+    "Daniel Whitenack"
+  ],
+  "title_zh": "OpenAI 智能体越狱攻入 Hugging Face 全始末",
+  "guest_name": "",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=无;title_match=none",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://img.transistorcdn.com/Kse6N6gbbYGDeItbkw4gmmoPlyWu-OWofoo2a-dJvls/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNzk2/OWU3MjAyMzU2MTdm/NjgxMDFlMDg0NjE1/ZGViNC5wbmc.jpg",
+    "origin_px": "1400x1400",
+    "aspect": 1,
+    "fetched_at": "2026-08-22T19:57:58.463Z"
+  }
+}

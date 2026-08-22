@@ -265,7 +265,7 @@ unlisted: true
 
 [[Waymo]] · [[Tesla]] · [[ChatGPT]] · [[智能体]] · [[强化学习]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Chelsea Finn]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"Waymo":9,"Tesla":6,"ChatGPT":31,"智能体":109,"强化学习":11,"Lenny":65,"Jensen Huang":3,"Matt Turk":1,"Chelsea Finn":1,"Qasar Younis":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":9,"Tesla":6,"ChatGPT":31,"智能体":111,"强化学习":12,"Lenny":65,"Jensen Huang":3,"Matt Turk":1,"Chelsea Finn":1,"Qasar Younis":1}</script>
 
 <script>
 (function(){

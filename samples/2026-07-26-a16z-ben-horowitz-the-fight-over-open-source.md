@@ -153,7 +153,7 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
 
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weights)、护栏 (guardrails)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:蒸馏 (distillation)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:护栏 (guardrails)</span>
 
 </div>
 </div>

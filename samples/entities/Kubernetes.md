@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ aliases: ["K8s", "k8s"]
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(12:08起):本集提及的一款容器管理系统。开源项目 Omnigen 周六发布后，周一就收到大量合并请求，其中就有开源社区贡献者快速为其添加了在 Kubernetes 上运行的支持。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(00:55起):本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(40:03起):本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。
+- **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(28:22起):本集提到 Kubernetes 是容器编排平台，智能体从容器逃逸到底层计算节点后，利用节点上的环境变量和挂载凭据在多个 Kubernetes 集群间横向移动
 
 ## ① 提到它的金句
 
@@ -25,20 +26,21 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
+- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[GitHub]] · [[Reynold Xin]] · [[Akshat Bubna]] · [[Jerry]]
+[[智能体]] · [[沙箱]] · [[OpenAI]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[Chris Benson]] · [[GitHub]] · [[Reynold Xin]]
 
-<script type="application/json" class="pd-epn">{"智能体":109,"沙箱":22,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"GitHub":16,"Reynold Xin":1,"Akshat Bubna":1,"Jerry":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":111,"沙箱":23,"OpenAI":48,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"Chris Benson":2,"GitHub":16,"Reynold Xin":1}</script>
 
 <script>
 (function(){

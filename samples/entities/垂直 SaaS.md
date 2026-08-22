@@ -43,7 +43,7 @@ unlisted: true
 
 [[Patrick Collison]] · [[Amjad Masad]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[智能体]] · [[护城河]] · [[开源模型]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Amjad Masad":1,"Stripe":15,"Replit":10,"Magic School":1,"OpenAI":47,"智能体":109,"护城河":6,"开源模型":8,"LLM":13}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Amjad Masad":1,"Stripe":15,"Replit":10,"Magic School":1,"OpenAI":48,"智能体":111,"护城河":6,"开源模型":8,"LLM":13}</script>
 
 <script>
 (function(){

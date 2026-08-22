@@ -67,7 +67,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[Google]] · [[护栏]] · [[SpaceX]] · [[Apple]] · [[GPU]] · [[Jensen Huang]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":56,"OpenAI":47,"智能体":109,"Microsoft":11,"Google":22,"护栏":23,"SpaceX":7,"Apple":12,"GPU":5,"Jensen Huang":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":56,"OpenAI":48,"智能体":111,"Microsoft":11,"Google":22,"护栏":24,"SpaceX":7,"Apple":12,"GPU":5,"Jensen Huang":3}</script>
 
 <script>
 (function(){

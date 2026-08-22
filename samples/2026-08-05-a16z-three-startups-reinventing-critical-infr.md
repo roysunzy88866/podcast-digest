@@ -142,7 +142,7 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同概念:LLMs</span>
-- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|智能体经济来了：从聊天框到数字劳动力]]<span class="pd-rz">同概念:垂直整合 (vertically integrated)</span>
+- [[2026-08-06-devtools-ian-coe-from-tonic-ai-synthetic-data-ai|合成数据怎么做强化学习：Tonic AI 的方法]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 
 </div>
 </div>

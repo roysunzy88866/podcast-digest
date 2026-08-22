@@ -90,7 +90,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[评估]] · [[Slack]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":109,"Anthropic":56,"Lenny":65,"Codex":23,"Claude":25,"评估":13,"Slack":19,"ChatGPT":31,"OpenAI":47,"Cursor":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":111,"Anthropic":56,"Lenny":65,"Codex":23,"Claude":25,"评估":13,"Slack":19,"ChatGPT":31,"OpenAI":48,"Cursor":27}</script>
 
 <script>
 (function(){

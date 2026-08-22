@@ -33,7 +33,7 @@ unlisted: true
 
 [[NVIDIA]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[OpenRouter]] · [[人工智能]] · [[后训练]] · [[Cursor]] · [[深度学习]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":17,"推理":1,"OpenAI":47,"Anthropic":56,"OpenRouter":4,"人工智能":2,"后训练":12,"Cursor":27,"深度学习":3,"Lenny":65}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":17,"推理":1,"OpenAI":48,"Anthropic":56,"OpenRouter":4,"人工智能":2,"后训练":12,"Cursor":27,"深度学习":3,"Lenny":65}</script>
 
 <script>
 (function(){
