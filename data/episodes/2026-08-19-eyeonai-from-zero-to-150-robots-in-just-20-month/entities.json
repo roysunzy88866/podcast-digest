@@ -1,0 +1,870 @@
+{
+  "episode_id": "2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month",
+  "podcast": "Eye On A.I.",
+  "date": "2026-08-19",
+  "tags": [
+    "人形机器人",
+    "军用机器人",
+    "机器人商业化",
+    "执行器",
+    "视觉-语言-行动模型"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "mike-leblanc",
+      "type": "person",
+      "role": "host",
+      "name": "Mike LeBlanc",
+      "file": "Mike LeBlanc",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Foundation",
+      "file": "Foundation",
+      "primary": true,
+      "how_described": "本集将其描述为一家从室内安保机器人转型做人形机器人的公司，声称20个月从零做到部署，是国防部人形机器人的唯一供应商，但主持人指出其公关远超实际能力，日产能约一台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            48.188,
+            59.675
+          ],
+          "quote": "Co-founder of Foundation Robotics Lab back in January when the company was making a public relations push claiming they were building humanoid robot soldiers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            113.587,
+            122.716
+          ],
+          "quote": "The article talks a lot about robotic warfare, but fudges the question of whether any foundation robots ever made it to Ukraine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            183.847,
+            188.048
+          ],
+          "quote": "Foundation Shop felt like a research lab, not a factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            257.51,
+            262.794
+          ],
+          "quote": "Mike said that Foundation is building its own AI model to control the robot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            276.324,
+            279.387
+          ],
+          "quote": "Mike said Foundation is building its own actuators.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            288.449,
+            290.85
+          ],
+          "quote": "None of this means Foundation won't get there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            297.311,
+            302.873
+          ],
+          "quote": "As I told Mike, Foundation's PR is running far faster than its robots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            305.283,
+            316.733
+          ],
+          "quote": "Why don't we start with having you introduce yourself and talk about your earlier startup, and then we'll get into Foundation and what you guys are doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            388.166,
+            405.78
+          ],
+          "quote": "So, you know, ran that for a number of years, grew it into nine countries, four continents, having robots all over, and then sold it in 2024 and started Foundation Future Industries, which is now the sole provider of humanoids to the Department of Defense.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "本集说工厂里已有ABB、FANUC等工业机器人但到处都是人，说明有大量同时需要灵巧操作和移动能力的任务，而唯一已知能胜任所有这些工作的形态就是人形，因为人类今天就在干这些活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.553,
+            5.415
+          ],
+          "quote": "We had smiles on our faces and the idea of humanoid, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            48.188,
+            59.675
+          ],
+          "quote": "Co-founder of Foundation Robotics Lab back in January when the company was making a public relations push claiming they were building humanoid robot soldiers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            133.495,
+            155.42
+          ],
+          "quote": "But that was enough for news aggregators to pick it up, and pretty soon I was seeing headlines like, robots in real war, Ukraine battlefield tests Phantom Mach 1, Ukraine deploys humanoid robots in battlefield reconnaissance, and robots are heading to war, being tested in Ukraine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            162.542,
+            176.865
+          ],
+          "quote": "Mike's claim that the company went from an idea to building a complete humanoid in under two years left out that he and his founders started by buying an existing humanoid robot company named Boardwalk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            280.107,
+            286.589
+          ],
+          "quote": "The tiny motors that control the robot's joints and are the most critical part in any humanoid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            407.181,
+            413.646
+          ],
+          "quote": "And so we were talking last time we spoke about this humanoid craze that has kind of taken",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            766.466,
+            772.671
+          ],
+          "quote": "Yeah, and so that's where I think right now, as we're seeing that there are so many humanoid companies, it's a horse race for all of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            859.231,
+            868.118
+          ],
+          "quote": "I think that really this is one of those problems where the humanoid is a lot more figured out than I thought before I got into this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            869.451,
+            881.184
+          ],
+          "quote": "And, you know, as I've gone around and seen everybody else's robots and, you know, you go to Germany and DLR, they're kind of NASA over there and looked at their humanoid, you really start to see all of the parts are the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1002.837,
+            1014.663
+          ],
+          "quote": "A world of suppliers to humanoid robotic makers or are these companies like yours building bespoke parts in-house?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1099.182,
+            1106.565
+          ],
+          "quote": "Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1754.27,
+            1758.653
+          ],
+          "quote": "And as I say, we're the first humanoid company to do that for 24-hour shifts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1998.482,
+            2005.454
+          ],
+          "quote": "You could probably find a different form factor for each, but it'd be very hard to find a form factor that can do all unless it's a humanoid.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2021.231,
+            2029.737
+          ],
+          "quote": "I think the, the services have been amazing and not just, not just for us, you know, I see what the other, what the other humanoid companies are doing and it's,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2826.373,
+            2838.481
+          ],
+          "quote": "Hyundai is famously, as they were featured on 60 Minutes, using or at least talking about deploying Boston Atlas, Boston Dynamics humanoid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3288.918,
+            3303.794
+          ],
+          "quote": "figure itself out but you could you know just that you know being able to replace workers with humanoid robots does that concern you or how do you see that uh play no not not in the least you know i i really i look at these tasks",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "actuator",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行器 (actuator)",
+      "file": "执行器",
+      "primary": true,
+      "how_described": "本集说执行器是控制机器人关节的微型电机，是人形机器人成本的大头，也是速度和可靠性的关键来源；Foundation选择自研执行器并把它当成核心差异化优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            629.665,
+            647.293
+          ],
+          "quote": "I wasn't going to go into the weeds right away, but I did a piece for somebody on the Wuji hand, this hand out of China that uses, it has the actuator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vision-language-action",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉-语言-行动模型 (vision language action)",
+      "file": "视觉-语言-行动模型",
+      "primary": true,
+      "how_described": "本集说Foundation用的是视觉-语言-行动模型，具体技术路线是潜在空间变量分析，通过视频理解物体之间的物理关系而非死记硬背抓取动作，使模型能泛化到没见过的场景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1347.734,
+            1350.878
+          ],
+          "quote": "Is that VLA's vision language action?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1404.163,
+            1412.207
+          ],
+          "quote": "And then you use the vision language action, a model to train it using video.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "type": "concept",
+      "role": "concept",
+      "name": "视频训练 (video)",
+      "file": "视频训练",
+      "primary": true,
+      "how_described": "本集把机器人训练数据方法分成三派：仿真、远程遥控和视频；说Foundation偏重视频路线，用第一人称GoPro加第三人称三脚架同时拍，约100小时视频可让单一任务完全自主",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1242.649,
+            1246.231
+          ],
+          "quote": "Right now, what it's looking like is about 100 hours of video data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1404.163,
+            1412.207
+          ],
+          "quote": "And then you use the vision language action, a model to train it using video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1461.097,
+            1472.467
+          ],
+          "quote": "So instead, people have to turn to either doing this in simulation, so they just have to build a robot like a video game and kind of train it there and then see how that comes on there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1495.776,
+            1496.937
+          ],
+          "quote": "And the other way would be video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1497.598,
+            1499.8
+          ],
+          "quote": "And so for us, it is video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1499.82,
+            1501.661
+          ],
+          "quote": "It's first-person video and third-person video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1721.699,
+            1727.484
+          ],
+          "quote": "But it's amazing how many contingencies you can really plan for and how much video data you can collect to make up for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2595.341,
+            2598.023
+          ],
+          "quote": "And, you know, I think everybody saw there was a viral video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2873.646,
+            2886.255
+          ],
+          "quote": "In the video, I saw doing something similar to what you're talking about in Georgia of picking up parts, scanning it for defects, and then moving it to where it needs to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2933.531,
+            2936.454
+          ],
+          "quote": "Some nuances in the video are they're doing it in a replica site.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tele-opping",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程遥控 (tele-opping)",
+      "file": "远程遥控",
+      "primary": true,
+      "how_described": "本集说这是机器人训练的第二种方式，人戴VR护目镜和手套控制机器人反复做动作让它学；提到特斯拉在做Optimus时大量使用远程遥控，而Foundation走的是视频采集路线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1364.151,
+            1379.761
+          ],
+          "quote": "So rather than having to mimic any direct movement or like a tele-opping would remember all of the different ways that you're grasping a cup, this actually understands the relationships between all of these things and then can make decisions about how it should go about interacting in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1480.883,
+            1482.284
+          ],
+          "quote": "The second would be tele-opping.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1598.22,
+            1602.182
+          ],
+          "quote": "On Optimus, Tesla, I think, is brute forcing a lot of tele-opping.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "world-action-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界行动模型 (world action models)",
+      "file": "世界行动模型",
+      "primary": true,
+      "how_described": "本集说Foundation正在构建世界行动模型，将能够泛化到国防和商业的各种任务，目前约100小时视频数据就能让一个任务完全自主",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1237.367,
+            1241.989
+          ],
+          "quote": "But yes, we are building world action models that will be generalizable to all of these tasks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "boston-dynamics",
+      "type": "company",
+      "role": "company",
+      "name": "Boston Dynamics",
+      "file": "Boston Dynamics",
+      "primary": true,
+      "how_described": "本集说Boston Dynamics与DeepMind合作后在《60分钟》展示了与Foundation佐治亚工厂类似的零件拾取任务，但主持人指出他们是在复刻场地而非真实产线演示，且未接近24小时运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 466,
+          "t": [
+            2826.373,
+            2838.481
+          ],
+          "quote": "Hyundai is famously, as they were featured on 60 Minutes, using or at least talking about deploying Boston Atlas, Boston Dynamics humanoid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2840.543,
+            2845.146
+          ],
+          "quote": "When Boston Dynamics is tied up with DeepMind, Google DeepMind, who",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2851.277,
+            2862.661
+          ],
+          "quote": "I mean, first of all, with Boston Dynamics, because they've been at this for such a long time, and the criticism of their robots used to be, yeah, but it's all teleoperated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2895.663,
+            2904.65
+          ],
+          "quote": "There will be many players, or do you feel pressure from people like Boston Dynamics and DeepBrain?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2919.842,
+            2923.044
+          ],
+          "quote": "But when I look at Boston Dynamics, I loved watching that 60 minutes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2960.822,
+            2970.486
+          ],
+          "quote": "And so when I look at that and I think about how long Boston Dynamics has been around and in space, and when I look at us and what we're doing today and how long we've been in space, I don't feel that worried.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3142.391,
+            3155.59
+          ],
+          "quote": "I mean, at a certain point, a lot of these companies are going to run out of venture funding and, you know, get gobbled up, I guess, by people like Boston Dynamics or Optimus or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3158.466,
+            3162.71
+          ],
+          "quote": "Yeah, no, the thought of being bought by Boston Dynamics is absurd to me.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "optimus",
+      "type": "company",
+      "role": "company",
+      "name": "Optimus",
+      "file": "Optimus",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1598.22,
+            1602.182
+          ],
+          "quote": "On Optimus, Tesla, I think, is brute forcing a lot of tele-opping.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2557.17,
+            2571.381
+          ],
+          "quote": "And frankly, what I've seen until fairly recently with Optimus, they don't blow me away and they don't look very robust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3142.391,
+            3155.59
+          ],
+          "quote": "I mean, at a certain point, a lot of these companies are going to run out of venture funding and, you know, get gobbled up, I guess, by people like Boston Dynamics or Optimus or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3514.655,
+            3516.916
+          ],
+          "quote": "I think Figure and Optimus look really good.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cobalt-robotics",
+      "type": "company",
+      "role": "company",
+      "name": "Cobalt Robotics",
+      "file": "Cobalt Robotics",
+      "primary": false,
+      "how_described": "本集提到这是Mike LeBlanc之前联合创办的室内安保机器人公司，业务扩展到九个国家四个大洲，2024年卖掉，其租赁和服务结构被Foundation借鉴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            372.268,
+            386.878
+          ],
+          "quote": "And so got out of the Marine Corps, went to Harvard Business School, and then as I was out of there, co-founded Cobalt Robotics, which was back to, you know, we did our seed through Bloomberg Beta, our A through Sequoia, our B through CO2.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physical-intelligence",
+      "type": "company",
+      "role": "company",
+      "name": "Physical Intelligence",
+      "file": "Physical Intelligence",
+      "primary": false,
+      "how_described": "本集提到这是Sergey Levine创办的公司，只专注于做机器人'大脑'而非硬件，主持人在开头引用Sergey谈到自建AI模型控制机器人有多困难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            263.514,
+            275.724
+          ],
+          "quote": "But see my earlier episode with Sergey Levine, a renowned AI researcher with his own startup, Physical Intelligence, where he talks about how difficult that is to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            847.022,
+            852.086
+          ],
+          "quote": "There's physical intelligence, there's skilled that are both really just working on the brain.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figure",
+      "type": "company",
+      "role": "company",
+      "name": "Figure",
+      "file": "Figure",
+      "primary": false,
+      "how_described": "本集在讨论竞争格局时，Mike说Figure和Optimus看起来真的很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 561,
+          "t": [
+            3288.918,
+            3303.794
+          ],
+          "quote": "figure itself out but you could you know just that you know being able to replace workers with humanoid robots does that concern you or how do you see that uh play no not not in the least you know i i really i look at these tasks",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3514.655,
+            3516.916
+          ],
+          "quote": "I think Figure and Optimus look really good.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agility",
+      "type": "company",
+      "role": "company",
+      "name": "Agility",
+      "file": "Agility",
+      "primary": false,
+      "how_described": "本集说在人形机器人硬件方面，真正形态不同的例外是Agility，其他人形公司的部件都趋于相同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            889.851,
+            892.132
+          ],
+          "quote": "The only one that really is the standout is Agility.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anduril",
+      "type": "company",
+      "role": "company",
+      "name": "Anduril",
+      "file": "Anduril",
+      "primary": false,
+      "how_described": "本集提到Palmer Luckey已经多次通过Foundation的机器人讲话，机器人会穿上夏威夷衬衫和莫霍克假发代替他出席活动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 659,
+          "t": [
+            3774.465,
+            3779.488
+          ],
+          "quote": "I think, did you say that you have a relationship with Anduril?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3779.928,
+            3785.191
+          ],
+          "quote": "Well, so Anduril, we've had, you know, Palmer Luckey has spoken through our robot several times.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "abb",
+      "type": "company",
+      "role": "company",
+      "name": "ABB",
+      "file": "ABB",
+      "primary": false,
+      "how_described": "本集在论证为何需要人形机器人时提到，工厂里已有各种ABB和FANUC工业机器人，但仍然到处都是人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            545.51,
+            550.694
+          ],
+          "quote": "There are all kinds of ABB and FANUC and industrial robots, but there are also human beings everywhere.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fanuc",
+      "type": "company",
+      "role": "company",
+      "name": "FANUC",
+      "file": "FANUC",
+      "primary": false,
+      "how_described": "本集在论证为何需要人形机器人时提到，工厂里已有各种ABB和FANUC工业机器人，但仍然到处都是人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            545.51,
+            550.694
+          ],
+          "quote": "There are all kinds of ABB and FANUC and industrial robots, but there are also human beings everywhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2359.847,
+            2365.033
+          ],
+          "quote": "So, you know, all of these other FANUC robots and things all make all of these parts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3345.008,
+            3347.829
+          ],
+          "quote": "It's just the same as a FANUC robot coming in and doing something.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": false,
+      "how_described": "本集说这是机器人训练的第一种方式，在虚拟环境里构建像电子游戏一样的机器人来训练，但很难克服模拟与现实之间的差距",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1461.097,
+            1472.467
+          ],
+          "quote": "So instead, people have to turn to either doing this in simulation, so they just have to build a robot like a video game and kind of train it there and then see how that comes on there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1472.807,
+            1480.033
+          ],
+          "quote": "That's a very good way to do it, except that it's very tough to overcome the gap between the simulation and reality when the robot actually does it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "boardwalk",
+      "type": "company",
+      "role": "company",
+      "name": "Boardwalk",
+      "file": "Boardwalk",
+      "primary": false,
+      "how_described": "本集说Mike声称公司不到两年从零开始的说法省略了一个事实：他们是通过购买一家名为Boardwalk的现成人形机器人公司起步的，部分军事合同也是从那继承的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            162.542,
+            176.865
+          ],
+          "quote": "Mike's claim that the company went from an idea to building a complete humanoid in under two years left out that he and his founders started by buying an existing humanoid robot company named Boardwalk.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "generalize",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

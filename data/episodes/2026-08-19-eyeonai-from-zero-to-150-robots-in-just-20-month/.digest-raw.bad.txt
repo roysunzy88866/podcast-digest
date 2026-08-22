@@ -1,0 +1,115 @@
+===标题===
+人形机器人上战场：Foundation的承诺与现实
+===导语===
+一位前海军陆战队员创办的人形机器人公司宣称20个月从零到量产，但记者实地调查后发现公关远跑在产品前面。
+===正文===
+一家公司宣称20个月前还没有机器人，今天就已经部署在真实工厂里轮班工作了——这说的是 Foundation Future Industries，一家做双足人形机器人的初创公司。但播客主持人 Craig 亲自去过 Foundation 的车间、跟踪过他们交付机器人去乌克兰测试的全过程，得出的结论是：Foundation 的公关远比它的机器人跑得快 [04:57 Unknown]。
+
+## 从买公司到"20个月造出人形"
+
+Mike 声称公司不到两年从想法变成了完整的人形机器人，但漏掉了一个关键事实：他和联合创始人起步的方式是收购了一家叫 Boardwalk 的现成人形机器人公司，而且他提到的一些军事合同也是从那家公司继承过来的 [02:42 Unknown]。Craig 四月去旧金山看过 Foundation 的车间，感觉像研究实验室而不是工厂，地板上的机器人是相对轻型的机器，工程师推了一下，它就跌跪在地上靠安全带撑着，一天大概产出一台 [03:03 Unknown]。当时的生产目标是一万台，后来下调到了六千台 [04:11 Unknown]。
+
+## 为什么选人形：不是"世界为人设计"那么简单
+
+Mike 对"为什么做人形"给了比"世界是为人类建造的"更有说服力的回答。他的论点是：工厂里已经满是工业机器人——ABB、FANUC 这些——但仍然到处都是人类。每次他走进工厂，第一个问题就是"这些人在这里干什么？" [09:02 Unknown]。人形的优势不只是双足行走省空间，还包括人手的灵巧性——他举了个例子，一手端着咖啡保持平衡、一手提着杂货、胳膊上还抱着孩子，同时还能开门 [09:42 Unknown]。当你要搜查房屋、上楼梯、驾驶车辆、使用武器时，很难找到一个非人形的形态能同时干所有这些事 [32:19 Unknown]。
+
+## 硬件取舍：执行器是核心，手部牺牲灵巧换强度
+
+Mike 说 Foundation 自研执行器（控制关节的微型电机），这是人形机器人成本的大头，也是速度和可靠性的关键来源 [18:19 Unknown]。手部方面，他们看过中国出产的一种手指内置致动器的手，灵巧性很好，但强度只有人手的 40%，团队因此放弃了——因为他们专注国防和工业场景，需要的是能搬重物、操作大型金属夹钳的手，不是叠衣服的手 [12:37 Unknown]。所以他们的驱动器还是放在前臂里，通过类似肌腱的方式控制手指。
+
+## AI 训练：走视频路线，不走远程操作
+
+控制机器人的 AI 走的是视觉语言行动模型（VLA）路线，具体做的是潜在空间变量分析——本质上是让模型通过视频理解物体之间的物理关系，而不是死记硬背抓握动作 [22:33 Unknown]。训练数据来源是第一人称和第三人称视频：让人戴 GoPro、胸挂摄像头或头盔双摄，旁边再架三脚架拍全景 [25:01 Unknown]。Mike 说他们大约需要 100 小时的视频数据就能让机器人对某个任务完全自主 [20:42 Unknown]。他对比了三条主流路线：模拟（难以跨越仿真与现实的差距）、远程操作（戴 VR 眼镜和手套控制）、视频训练，认为所有人都在混着用，但 Foundation 最重视频这条 [24:21 Unknown]。
+
+## 真实部署：佐治亚州工厂的质检工
+
+目前唯一公开的具体部署是在佐治亚州一家汽车零部件工厂，做注塑成型部件的质检和包装：部件从传送带出来，机器人贴标签、用相机做质量检查、合格的放包装、不合格的挪到单独架子 [39:16 Unknown]。关键细节是：这些机器人是插电的，不是靠电池，所以能跑 24 小时轮班 [29:19 Unknown]。150 台机器人部署在一个 15 英尺乘 15 英尺的工位里，每台实际上只走几步，电缆像遛狗绳一样挂着不会缠 [41:24 Unknown]。每个部件处理时间大约 60 秒，有些工位 52 秒 [53:56 Unknown]。
+
+## 乌克兰战场：计划很宏大，现实很骨感
+
+Mike 描述的战场场景是：士兵待在据点里，一旦出来取物资、布雷就会遭遇无人机，所以派机器人去干这些事 [30:45 Unknown]。电池续航目前 4 小时，战场不需要 24 小时运行，所以够用 [35:57 Unknown]。但 Craig 亲自跟着 Mike 二月去了一趟乌克兰，机器人被卡在波兰边境，根本没到 [01:34 Unknown]。然而《时代》周刊还是发了报道，只说"两个 Phantom 被送往乌克兰"，新闻聚合媒体就纷纷炒出"乌克兰部署人形机器人"的标题 [02:03 Unknown]。
+
+## 商业模式：年租十万美元，含人工替补
+
+商业客户的定价是每个机器人每年 10 万美元的全租赁模式，包含维修、软件更新，甚至写进了服务协议：如果机器人停机，Foundation 要派人类去顶上 [61:03 Unknown]。最低起订量 100 台，最大单笔合同 2000 台，目前只服务六个客户 [60:38 Unknown]。军方因为预算机制不同，做的是直接购买加维护费的模式 [62:11 Unknown]。Mike 算了一笔账：替换三班倒、每班年薪 6 万美元的工人，24 小时运行才能让机器人有经济意义 [35:15 Unknown]。
+
+## 竞争观：我们在造皮卡，别人在造普锐斯
+
+面对 Boston Dynamics 加上 DeepMind 的组合，Mike 说他们做的任务跟 Foundation 在佐治亚州做的几乎一样，但是在复刻场地而不是真实产线，也没接近 24 小时运行 [48:46 Unknown]。他的核心判断是：大多数人在造轻量级、低成本的家用机器人（他比作普锐斯），Foundation 在造强健的商用机器人（皮卡） [50:36 Unknown]。他还讲了一个"炸薯条机器人"的故事：几年前有个机器人能把薯条放进油锅又捞出来，宣称要取代炸薯条厨师，但它打不开薯条袋子——"这概括了人们在市场进入策略中做错的一切" [59:06 Unknown]。
+
+## 本集带走
+
+- **"解决整个问题"才能部署**：能做炫酷演示不够，必须从打开原料袋到成品包装全链条闭环，否则只是个视频素材
+- **人形的核心论据不是"世界为人设计"，而是"工厂里已经满是机器人却仍然满是人类"**：人形要替代的是那些非标、需要灵活判断的工位
+- **硬件取舍看场景**：家用机器人要灵巧手，工业/军用要强健手和自研执行器——同一条赛道，设计选择完全不同
+- **插电运行是当前工厂场景的务实解**：电池 4 小时续航，与其死磕电池不如先插电跑 24 小时轮班，经济账才成立
+- **公关跑在产品前面是这行业的通病**：机器人没到乌克兰、车间日产一台，照样能出《时代》周刊报道——听官宣要打折
+===金句===
+00:09 Unknown
+EN | I think all of this is a lot closer than anyone will think.
+ZH | 我认为这一切比任何人想的都要近得多。
+
+04:57 Unknown
+EN | As I told Mike, Foundation's PR is running far faster than its robots.
+ZH | 正如我告诉 Mike 的，Foundation 的公关远比它的机器人跑得快。
+
+08:04 Unknown
+EN | In everything that we do, we have workarounds, we have shortcuts, we have ways that don't really fit the way that we're supposed to do things, but that's how they get done.
+ZH | 在我们所做的一切中，我们都有变通方案，都有捷径，都有一些并不真正符合我们应有做事方式的方法，但事情就是那样完成的。
+
+09:02 Unknown
+EN | I walk into them and they're packed with robots, right? There are all kinds of ABB and FANUC and industrial robots, but there are also human beings everywhere.
+ZH | 我走进去，里面满是机器人，对吧？有各种 ABB 和 FANUC 以及工业机器人，但也到处都是人类。
+
+09:50 Unknown
+EN | The human form factor is pretty amazing for things like that.
+ZH | 人形形态对于这类事情来说相当神奇。
+
+14:19 Unknown
+EN | I think that really this is one of those problems where the humanoid is a lot more figured out than I thought before I got into this.
+ZH | 我真的认为这是其中之一，双足人形比我在进入这一行之前想象的要容易搞懂得多。
+
+18:19 Unknown
+EN | Because you do realize anybody that's breaking down a humanoid robot, almost all the cost is in the actuators.
+ZH | 因为你会意识到，任何拆解人形机器人的人，几乎所有的成本都在执行器上。
+
+22:33 Unknown
+EN | Specifically latent space variable analysis is what we're doing, which is ultimately, you're understanding the relationships between objects.
+ZH | 具体来说，潜在空间变量分析是我们正在做的，也就是归根结底，你是在理解物体之间的关系。
+
+24:21 Unknown
+EN | That's a very good way to do it, except that it's very tough to overcome the gap between the simulation and reality when the robot actually does it.
+ZH | 这是一个非常好的方法，除了当机器人实际操作时，很难克服模拟与现实之间的差距。
+
+29:19 Unknown
+EN | A big reason for that is we plug the robots in right now. Those aren't just on battery.
+ZH | 这么做的一个很大原因是我们现在把机器人插上电源。那些不只是靠电池运行的。
+
+30:45 Unknown
+EN | The huge danger is anytime you're out of one of those strongholds, if you have to go and get supplies from a truck, if you have to go and set a landmine, if you have to anything that you have to do outside of that stronghold, the drones are just coming for you.
+ZH | 巨大的危险在于，每当你走出其中一个据点，如果你必须去从卡车上取物资，如果你必须去设置地雷，如果你必须在那个据点之外做任何你必须做的事情，无人机会直接冲着你来。
+
+35:15 Unknown
+EN | If you're going to replace three shifts of workers that are each getting paid $60,000, you can make it make economic sense.
+ZH | 如果你要替换三班工人，每班工人的工资是 60,000 美元，你可以让它具有经济意义。
+
+38:36 Unknown
+EN | But for robotics especially, I think if you look 20 months ago, we didn't have a robot. We had smiles on our faces and the idea of humanoids, right? And today, we have robots already deployed out in the world working full shifts.
+ZH | 但对于机器人技术尤其如此，我认为如果你看 20 个月前，我们还没有机器人。我们脸上带着微笑和人形机器人的想法，对吧？而今天，我们已经有了部署在世界各地的机器人，在轮班工作。
+
+43:05 Unknown
+EN | To me, this really is one of those cases where the attitude and approach makes a huge difference in how the technology develops.
+ZH | 对我来说，这确实是态度和方法对技术发展方式产生巨大影响的案例之一。
+
+50:36 Unknown
+EN | We always say we're building the pickup truck. Everybody else is building the Prius.
+ZH | 我们总是说我们在造皮卡车。其他所有人都在造普锐斯。
+
+59:06 Unknown
+EN | They were saying, we're gonna replace the fry cook, but they couldn't open the bag of fries, right? That to me is, that just encapsulates everything that people do wrong in their go-to-market strategy.
+ZH | 他们说我们要取代炸薯条的厨师，但他们打不开装薯条的袋子，对吧？对我来说，那概括了人们在他们的市场进入策略中做错的一切。
+
+61:03 Unknown
+EN | For all of these initial customers, we have the same deal, $100,000 per robot per year.
+ZH | 但对于所有这些初始客户，我们有同样的交易，每个机器人每年 100,000 美元。
+===END===

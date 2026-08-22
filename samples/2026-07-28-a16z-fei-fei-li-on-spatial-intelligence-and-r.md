@@ -126,6 +126,13 @@ Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从�
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|人形机器人上战场：公关跑得比机器人快]]<span class="pd-rz">同概念:仿真 (simulation)</span>
+
+</div>
 </div>
 <script>
 (function(){

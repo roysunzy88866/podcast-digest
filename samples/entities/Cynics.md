@@ -25,7 +25,7 @@ unlisted: true
 
 [[Fei-Fei Li]] · [[Martin Cassaro]] · [[Yunzhu Li]] · [[World Labs]] · [[空间智能]] · [[大型世界模型]] · [[模拟]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
 
-<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":2,"空间智能":2,"大型世界模型":1,"模拟":2,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":2,"空间智能":2,"大型世界模型":1,"模拟":3,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
 
 <script>
 (function(){
