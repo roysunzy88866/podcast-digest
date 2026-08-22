@@ -496,11 +496,14 @@ describe("C13f · 卡片文字按实际行数长(第十批 #1/#2)", () => {
     expect(q).not.toMatch(/min-height/);
   });
 
-  it("★★ 标题 ≤2 行截断;副标题桌面 4 行(2026-08-22 上限,让 ≤60字显示完)", () => {
+  it("★★ 标题 ≤2 行截断;副标题桌面 4 行 / 手机 5 行(2026-08-22 上限,让 ≤60字显示完)", () => {
     const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
     const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .who"));
     expect(t).toMatch(/-webkit-line-clamp:\s*2/);
-    expect(q).toMatch(/-webkit-line-clamp:\s*4/);
+    expect(q).toMatch(/-webkit-line-clamp:\s*4/); // 桌面
+    // 手机端(@media 里的 .card .q 单行)必须 clamp=5——否则手机值回退成 2 也测不出(GLM 009[1])
+    const mq = scss.slice(scss.indexOf("@media (max-width: 1023px)"));
+    expect(mq).toMatch(/\.card \.q \{[^}]*-webkit-line-clamp:\s*5[^}]*\}/);
   });
 
   it("★★ 卡片自己仍有最小高度(缩略图那侧不塌)", () => {
