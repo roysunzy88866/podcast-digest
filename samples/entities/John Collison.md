@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":108,"LLM":13,"推荐系统":1,"监督学习":2,"强化学习":11,"transformer":2,"创造性破坏":1,"Anthropic":54}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":109,"LLM":13,"推荐系统":1,"监督学习":2,"强化学习":11,"transformer":2,"创造性破坏":1,"Anthropic":56}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":28,"LangGraph":4,"智能体":108,"子智能体":1,"确定性":1,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
+<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":28,"LangGraph":4,"智能体":109,"子智能体":1,"确定性":1,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
 
 <script>
 (function(){

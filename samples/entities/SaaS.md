@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(11:09起):本集指出传统 SaaS 的打包方式（数据模型+业务逻辑+界面）必须被拆解重组。底层数据模型（如总账）应当保留，但应用孤岛将被打破，通过智能体重组创造新价值。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(01:29起):本集说 SaaS 没死，只是使用者变了——智能体擅长按按钮，所以软件回来了但变成智能体在用
+- **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(42:40起):本集说很多 SaaS 公司只是在给猪涂口红撒点 AI 粉尘加个副驾驶，协同工作时代的自主智能体对没有记录系统和 AI 战略的 SaaS 公司是真正的威胁
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -34,9 +35,11 @@ unlisted: true
 
 ![[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#^q5]]
 
+![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q9]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
@@ -44,14 +47,15 @@ unlisted: true
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为概念(提及)
+- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Cursor]] · [[Codex]] · [[Microsoft]] · [[OpenAI]] · [[GitHub]] · [[Bret Taylor]] · [[Jason Cohen]] · [[Dan Shipper]]
+[[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Codex]] · [[Microsoft]] · [[Anthropic]] · [[GitHub]] · [[Bret Taylor]] · [[Jason Cohen]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Cursor":25,"Codex":23,"Microsoft":11,"OpenAI":45,"GitHub":16,"Bret Taylor":1,"Jason Cohen":1,"Dan Shipper":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"Cursor":27,"OpenAI":47,"Codex":23,"Microsoft":11,"Anthropic":56,"GitHub":16,"Bret Taylor":1,"Jason Cohen":1}</script>
 
 <script>
 (function(){

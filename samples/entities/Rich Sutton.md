@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":1,"大世界假说":1,"持续学习":2,"合成数据":3,"灾难性遗忘":1,"持续反向传播":1,"大语言模型":2,"智能体":108,"强化学习":11}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":1,"大世界假说":1,"持续学习":2,"合成数据":3,"灾难性遗忘":1,"持续反向传播":1,"大语言模型":2,"智能体":109,"强化学习":11}</script>
 
 <script>
 (function(){

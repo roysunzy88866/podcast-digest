@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>47</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -56,10 +56,12 @@ unlisted: true
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 OpenAI 没有像亚马逊那样多的内部使用数据可以挖
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(04:12起):本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体破坏收容的近期案例之一
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(29:51起):本集提到瑞典后起之秀 Gabriel Peterson 成为 OpenAI 最年轻的研究员之一
+- **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(08:45起):本集说 OpenAI 是前沿实验室之一，拥有 95% 的市场份额（按收入加权），筹集资本能力令人难以置信，能直接将资本转化为增长；其模型定价有补贴，存在被套利空间
+- **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 OpenAI 拿了好几年企业数据、被黑过，以及做了世界历史上非同寻常的事情
 
 ## ① 提到它的金句
 
-*4 条*
+*5 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -69,9 +71,11 @@ unlisted: true
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q8]]
 
+![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q4]]
+
 ## ② 出现在这些集
 
-*45 集*
+*47 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -118,14 +122,16 @@ unlisted: true
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
+- [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
+- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[ChatGPT]] · [[AGI]] · [[NVIDIA]] · [[Stripe]] · [[护栏]] · [[Cursor]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[ChatGPT]] · [[NVIDIA]] · [[AGI]] · [[Cursor]] · [[Stripe]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"Anthropic":54,"Lenny":65,"Google":22,"ChatGPT":31,"AGI":14,"NVIDIA":16,"Stripe":14,"护栏":23,"Cursor":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"Anthropic":56,"Lenny":65,"Google":22,"ChatGPT":31,"NVIDIA":17,"AGI":14,"Cursor":27,"Stripe":15,"护栏":23}</script>
 
 <script>
 (function(){

@@ -1,0 +1,219 @@
+{
+  "title_zh": "Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉",
+  "tldr": "管理超 900 亿美元的 Insight 创始人 Jerry Murdock 判断：Neoclouds 至少一半会在 36 个月内消失，持续学习模型将淘汰现有所有模型。",
+  "digest_md": "Neoclouds 现在有一大堆，至少一半会在 36 个月内消失——如果出现经济动荡，很多会立刻消失 [11:04 Unknown]。区分存活者和淘汰者的关键是谁在运营、资本效率多高。推理提供商里，Fireworks 赚的钱比 Base10 多得多，因为资本效率更高、有在业务上盈利的意愿；Base10 拿了 Cursor 的合同，但没什么利润，只有收入和规模 [12:06 Unknown]。没有利润还大量投入，就是站在风险里。\n\n## 为什么可能在 10 月到明年 3 月破裂\n\n信贷市场亮了一整年的红灯，但所有人都自满，觉得「我们没事」[06:25 Unknown]。私人债务市场里真实风险和低风险之间的利差太窄，没人真正把风险算进去 [06:40 Unknown]。2008 年的时候，信用评级机构和大银行的信贷风险部门都在玩忽职守，历史上从没出过大规模抵押贷款违约，所以人们觉得没事——现在同样的问题在重演 [07:27 Unknown]。\n\n日本持有 1 万亿美元美国国债，如果为了救日元卖掉 3000 亿，立刻就是全球性问题 [08:30 Unknown]。加上 Iran 战争如果恶化、通胀卷土重来，这些都是基于战争的破坏因素。当严重依赖债务又出现错位时，资产价值短期内会急剧下跌，然后就是追加保证金通知 [10:06 Unknown]。\n\n但超大规模云服务商（hyperscalers）不一样——如果出现错位，没人比它们更有准备活下来。它们有足够的持续业务，就算出事，其他人都被消灭了，资产对它们来说反而更便宜 [10:31 Unknown]。AI 算力的需求不会消失，问题是短期内有没有钱去支撑它 [11:00 Unknown]。\n\n## 开源不会吞噬前沿模型\n\n前沿模型每个 token 成本是两位数美元，开源模型只要 10、11 美分——虽然不是所有 token 生而平等，但差异大到足以带来大规模采用 [14:06 Unknown]。但「token 就是 token」这个说法是错的：模型越定制，token 的价值就越不一样 [17:09 Unknown]。一个经过定制的开源模型，一个 token 能比前沿模型走得更远。\n\n定制化会催生专业化。写代码可以用开源模型，客户服务、入职培训这种高度专业化任务，开源模型反而更理想——回报更快、成本更低。100 万美元花在定制化开源模型上，比花在前沿模型上效率高得多 [18:20 Unknown]。\n\n但这不构成吞噬。因为智能有不同「风味」——情感智能、视觉智能，人类就有多种风格的智能，模型也会一样 [19:17 Unknown]。而且到目前为止，开源模型在创新上还没赢过前沿模型，它们更擅长专业化，但做不了复杂任务 [20:04 Unknown]。每一波新技术都是先扩张，全球市场收缩时才淘汰，然后从更多创新重新开始——寒武纪大爆发之后是冰河期，然后生态系统再长回来 [19:38 Unknown]。\n\n## 企业数据安全：猫已经出袋了\n\nAlex Karp 说最大企业客户不想跟前沿模型提供商合作，怕对方抢自己生意。但现实是，企业已经把大量数据交出去了——Anthropic 和 OpenAI 拿了好几年数据，Apple 有你所有密码，Microsoft 掌握组织内部沟通方式 [21:05 Unknown]。从安全角度，Apple 明天就能抢你的银行。所以某种程度上猫已经出袋了。\n\n但企业确实需要更谨慎，不能什么数据都往云上塞，需要思考什么留在防火墙后面——这反过来也在推动开源的机会 [22:05 Unknown]。安全比以往任何时候都重要，OpenAI 和 Hugging Face 都被黑过，Anthropic 自己出来说他们的模型黑了三家公司 [22:31 Unknown]。\n\n最大的盲区是沙箱。很多开发者觉得把模型放容器里就安全了——容器不安全，Docker 自己都说容器不安全，你需要沙箱 [23:07 Unknown]。智能体是概率性的，一个智能体可能同时打开 100 个沙箱、用 100 个不同的库来测试哪个最好——理解模型如何看待工具、优化这种行为，是极少数公司才有的能力 [24:45 Unknown]。如果你没把沙箱做对，其他一切都免谈 [25:19 Unknown]。\n\n## 芯片：短期自研合理，长期没必要\n\n大公司短期自研芯片是为了针对自己的模型优化芯片组，这说得通 [29:03 Unknown]。但长期来看，真正的机会在模型和智能体之间的复杂性层——从循环、定制化到安全，从模型向外延伸的那一层才是最有意思的投资方向 [29:28 Unknown]。\n\nASIC 芯片在模型定制化场景下非常理想。如果你要做大量模型专业化，不需要 GPU，太贵了，用 ASIC 就行 [28:07 Unknown]。所以很多人在设计 ASIC 芯片，因为他们看到了这个趋势。\n\n## 利润率：抢地盘是策略，但不能变成文化\n\n周期早期总是抢地盘的游戏——低利润甚至零利润，先拿客户、拿关系、占地盘，以后再建利润率 [25:46 Unknown]。这是策略，但如果你围绕低利润率建立公司文化，我不会投你。贝佐斯说「你的利润率就是我的机会」，他对了，但大多数人不是杰夫·贝佐斯 [27:02 Unknown]。\n\n沙箱就是个例子：大多数沙箱公司在算力上赚钱，这很蠢。更好的模式是「自带算力」，你靠更懂怎么运行沙箱、怎么网络连接、怎么提供追踪来赚钱——创新应该驱动利润率 [27:15 Unknown]。\n\n## SaaS 的威胁才刚开始\n\n现在很多 SaaS 公司只是在「给猪涂口红」——撒点 AI 粉尘，加个 AI 副驾驶就完事了 [42:40 Unknown]。但已经进入了我叫「协同工作时代」的阶段，更偏向智能体、自主智能体。对那些没有记录系统、没有 AI 战略的 SaaS 公司，这是真正的威胁——虽然还早，你有时间转型，但如果现在不做，祝你好运 [43:25 Unknown]。\n\n没有真正深思熟虑的 AI 战略和 AI 产品，两年内你在公司上做不了什么事 [42:40 Unknown]。\n\n## 持续学习模型会淘汰一切\n\n所有现在用的开源模型，10 年后都不会再被用，会被完全不同的东西取代 [48:03 Unknown]。前沿模型公司的核心目标之一就是持续学习——像人一样能持续学习、处理动态事件。这需要维持记忆的能力，跟今天静态训练出来的模型根本不同 [48:43 Unknown]。\n\n我不认为你能把持续学习「加装」到现有前沿模型上。早期会看起来像那样，但最终需要全新的架构 [49:47 Unknown]。然后会演变成终身学习，更接近人类智能的方式。依我看，这些模型会取代今天存在的每一个模型 [49:26 Unknown]。\n\n但什么时候到来？感觉是两三年，也许十年——我们觉得站在解决癌症的临界点上已经 15 年了，需要真正的突破 [53:01 Unknown]。可能让我们进入幻灭低谷的，是全球金融事件加上模型未能继续增长和演变的组合 [54:09 Unknown]。\n\n## 本集带走\n\n- **Neoclouds 的生死线是资本效率**：不是谁融的钱多，是谁在盈利。没有利润还大举投入，经济一动荡就消失。\n- **开源和前沿不矛盾**：开源赢在专业化和成本，前沿赢在复杂任务和创新。全球需求巨大，两者都能涨，但路径不同。\n- **容器不等于安全，沙箱是刚需**：智能体会同时开几十上百个沙箱测试，理解这种行为并优化沙箱的公司极度稀缺。\n- **低利润抢地盘可以是策略，但不能是文化**：创新驱动利润率，如果创始人不想这个问题，不投。\n- **SaaS 的 AI 威胁刚开始**：加个副驾驶不算 AI 战略，协同工作时代（自主智能体）才是真正的颠覆。\n- **所有现有模型都会被持续学习模型取代**：需要全新架构，不是在现有模型上打补丁。但时间线不确定，可能两三年，可能十年。\n- **信贷市场的自满是最大风险信号**：利差太窄、没人计提风险，跟 2008 年前的状态一样。",
+  "quotes": [
+    {
+      "en": "Fireworks is making a lot more money than base 10.",
+      "zh": "Fireworks 赚的钱比 base 10 多得多。",
+      "timestamp": "00:13",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "those guys that are in the private debt market, the spreads are too narrow between real risk and not so much risk.",
+      "zh": "那些在私人债务市场的人，真实风险和不大风险之间的利差太窄了。",
+      "timestamp": "06:41",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "if there is a dislocation, no one is better prepared to survive it than hyperscalers",
+      "zh": "如果出现错位，没有人比超大规模云服务商更有准备去幸存下来",
+      "timestamp": "10:25",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "if you're looking at a frontier model with double dollar digit cost per token, and you're looking at an open source model that's 10, 11 cents per token, while all tokens aren't created equal, it's still enough of a difference that there's going to be a massive adoption.",
+      "zh": "如果你看看一个每个 token 成本为双位数的美元的前沿模型，再看看一个每 token 成本为 10、11 美分的开源模型，虽然不是所有的 token 都生而平等，但这仍然是一个巨大的差异，足以带来大规模的采用。",
+      "timestamp": "14:06",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "Cambrian explosion of innovation followed by these sort of glacial periods when ecosystems collapse and then they grow back again.",
+      "zh": "寒武纪大爆发式的创新之后是这些冰河时期，当生态系统崩溃然后它们再次生长回来。",
+      "timestamp": "19:55",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "Because if you don't get the sandbox right, forget everything else.",
+      "zh": "因为如果你没把沙箱做对，那其他的一切都免谈。",
+      "timestamp": "25:19",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "most sandbox people make money on compute. Frankly, that's a dumb idea in my opinion.",
+      "zh": "大多数做沙箱的人都在计算上赚钱。坦白说，在我看来这是个愚蠢的主意。",
+      "timestamp": "27:19",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "actually owning the chip is going the wrong way long term.",
+      "zh": "实际上拥有芯片从长远来看是走错了方向。",
+      "timestamp": "29:00",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "Are we not seeing most of the SaaS generation put lipstick on the pig, so to speak?",
+      "zh": "我们难道没有看到大多数 SaaS 一代给猪涂口红，可以说是吗？",
+      "timestamp": "42:40",
+      "speaker": "Harry Stebbings"
+    },
+    {
+      "en": "all these models are not going to exist in 10 years. There's going to be completely different ones.",
+      "zh": "所有这些模型都不会在 10 年后还存在。将会有完全不同的模型。",
+      "timestamp": "48:01",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "I don't think you can bolt on continuous learning into an existing frontier model.",
+      "zh": "我不认为你可以把持续学习附加到一个现有的前沿模型上。",
+      "timestamp": "49:47",
+      "speaker": "Jerry Murdock"
+    },
+    {
+      "en": "what could send us into the valley of disillusionment is A combination of a global financial event and a failure for the models to continue to grow and evolve.",
+      "zh": "可能让我们进入幻灭低谷的是全球金融事件与模型未能继续增长和演变的结合。",
+      "timestamp": "54:12",
+      "speaker": "Jerry Murdock"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Unknown",
+      "en": "I think at least half of them go away within 36 months.",
+      "zh": "我认为至少有一半会在 36 个月内消失。"
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "Unknown",
+      "en": "Fireworks is making a lot more money than base 10.",
+      "zh": "Fireworks 赚的钱比 base 10 多得多。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Unknown",
+      "en": "The reason I say this right now is of complacency.",
+      "zh": "我现在这样说的原因是自满。"
+    },
+    {
+      "timestamp": "06:40",
+      "speaker": "Unknown",
+      "en": "those guys that are in the private debt market, the spreads are too narrow between real risk and not so much risk.",
+      "zh": "那些在私人债务市场的人，真实风险和不大风险之间的利差太窄了。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Unknown",
+      "en": "That's because Japan holds a trillion dollars in treasuries.",
+      "zh": "那是因为日本持有一万亿美元的美国国债。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Unknown",
+      "en": "So when you're really heavily dependent on debt and there's a dislocation, the underlying value of the asset declines.",
+      "zh": "所以当你严重依赖债务并且出现错位时，资产的潜在价值就会下降。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Unknown",
+      "en": "if there is a dislocation, no one is better prepared to survive it than hyperscalers",
+      "zh": "如果出现错位，没有人比超大规模云服务商更有准备去幸存下来"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "I think at least half of them go away within 36 months.",
+      "zh": "我认为其中至少有一半会在 36 个月内消失。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Unknown",
+      "en": "Capital efficiency and their willingness to make profits on business.",
+      "zh": "资本效率以及他们在业务上盈利的意愿。"
+    },
+    {
+      "timestamp": "14:06",
+      "speaker": "Unknown",
+      "en": "if you're looking at a frontier model with double dollar digit cost per token, and you're looking at an open source model that's 10, 11 cents per token, while all tokens aren't created equal, it's still enough of a difference that there's going to be a massive adoption.",
+      "zh": "如果你看看一个每个 token 成本为双位数的美元的前沿模型，再看看一个每 token 成本为 10、11 美分的开源模型，虽然不是所有的 token 都生而平等，但这仍然是一个巨大的差异，足以带来大规模的采用。"
+    },
+    {
+      "timestamp": "17:09",
+      "speaker": "Unknown",
+      "en": "I disagree with a token is a token.",
+      "zh": "我不同意\"token 就是 token\"。"
+    },
+    {
+      "timestamp": "17:24",
+      "speaker": "Unknown",
+      "en": "The more you customize the model, the more the token changes its value, right?",
+      "zh": "你越定制模型，token 的价值就越会改变，对吧？"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Unknown",
+      "en": "What I've seen with every new wave of technology in my career, the market initially expands, and then the contraction comes when there's a contraction in global markets, and then you see the fallout, and then you start again with more innovation.",
+      "zh": "在我的职业生涯中，我在每一波新技术浪潮中看到的，市场最初会扩张，然后当全球市场出现收缩时收缩就会到来，然后你看到淘汰，然后你再次从更多的创新开始。"
+    },
+    {
+      "timestamp": "19:55",
+      "speaker": "Unknown",
+      "en": "Cambrian explosion of innovation followed by these sort of glacial periods when ecosystems collapse and then they grow back again.",
+      "zh": "寒武纪大爆发式的创新之后是这些冰河时期，当生态系统崩溃然后它们再次生长回来。"
+    },
+    {
+      "timestamp": "23:12",
+      "speaker": "Unknown",
+      "en": "You need sandboxes.",
+      "zh": "你需要沙箱。"
+    },
+    {
+      "timestamp": "24:45",
+      "speaker": "Unknown",
+      "en": "these agents we forget sometimes are probabilistic.",
+      "zh": "这些智能体，我们有时会忘记它们是概率性的。"
+    },
+    {
+      "timestamp": "25:19",
+      "speaker": "Unknown",
+      "en": "Because if you don't get the sandbox right, forget everything else.",
+      "zh": "因为如果你没把沙箱做对，那其他的一切都免谈。"
+    },
+    {
+      "timestamp": "27:21",
+      "speaker": "Unknown",
+      "en": "most sandbox people make money on compute. Frankly, that's a dumb idea in my opinion.",
+      "zh": "大多数做沙箱的人都在计算上赚钱。坦白说，在我看来这是个愚蠢的主意。"
+    },
+    {
+      "timestamp": "29:00",
+      "speaker": "Unknown",
+      "en": "actually owning the chip is going the wrong way long term.",
+      "zh": "实际上拥有芯片从长远来看是走错了方向。"
+    },
+    {
+      "timestamp": "42:40",
+      "speaker": "Unknown",
+      "en": "Are we not seeing most of the SaaS generation put lipstick on the pig, so to speak?",
+      "zh": "我们难道没有看到大多数 SaaS 一代给猪涂口红，可以说是吗？"
+    },
+    {
+      "timestamp": "48:03",
+      "speaker": "Unknown",
+      "en": "all these models are not going to exist in 10 years. There's going to be completely different ones.",
+      "zh": "所有这些模型都不会在 10 年后还存在。将会有完全不同的模型。"
+    },
+    {
+      "timestamp": "49:47",
+      "speaker": "Unknown",
+      "en": "I don't think you can bolt on continuous learning into an existing frontier model.",
+      "zh": "我不认为你可以把持续学习附加到一个现有的前沿模型上。"
+    },
+    {
+      "timestamp": "54:15",
+      "speaker": "Unknown",
+      "en": "what could send us into the valley of disillusionment is A combination of a global financial event and a failure for the models to continue to grow and evolve.",
+      "zh": "可能让我们进入幻灭低谷的是全球金融事件与模型未能继续增长和演变的结合。"
+    }
+  ]
+}

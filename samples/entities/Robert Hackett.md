@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
+[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":1,"代币化":1,"开源":4,"Stripe":14}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":1,"代币化":1,"开源":5,"Stripe":15}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
+[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":6,"NVIDIA":16,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":7,"NVIDIA":17,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
 
 <script>
 (function(){

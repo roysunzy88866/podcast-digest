@@ -1,0 +1,139 @@
+===标题===
+Martin Casado：AI 时代，资本第一次能直接买到增长
+===导语===
+a16z 合伙人 Martin Casado 认为，AI 创造了一个前所未有的现象：小团队能把巨额资本高效转化为能力和增长，这改变了创办公司的基本经济学。
+===正文===
+人类工程史上从未有过 20 个人能花掉 20 亿美元还干得不错的先例——直到这波 AI 浪潮。Martin Casado 说，如果十年前给你 10 亿美元，你只能去雇人、雇工程师，然后组织膨胀成一团糟。但现在，钱可以直接砸进算力和训练，变成模型能力，变成用户使用量，变成增长 [05:02 Unknown]。这个行业过去是"投 10 块钱，雇工程师，等两年，可能失败"；现在是"投 10 块钱，直接有产出" [26:36 Unknown]。金钱与创新、增长、需求之间的关系，从未如此紧密 [27:44 Unknown]。
+
+这也解释了为什么风投的逻辑在变。过去 VC 圈有个根深蒂固的观念：这个资产类别投不了太多钱。现在这个观念过时了——公司可以长期不上市、在私有市场累积大量价值，同时模型公司能直接把融到的钱变成增长 [07:15 Unknown]。Martin 认为因果关系甚至可能是反过来的：不是技术浪潮允许了更多资本投入，而是更多私人资本投入本身就在扩大市场规模 [07:57 Unknown]。
+
+## 前沿实验室会吞掉一切吗？
+
+Martin 说他们内部认真辩论过这个问题，而且两边的论点都很强 [11:38 Unknown]。
+
+**支持"实验室赢"的论据：** 三年数据看，实验室拿走了 95% 的市场收入 [12:01 Unknown]；它们融资能力惊人——假设 OpenAI 和"Thratbook"（转写稿原文如此）总共融了 2200 亿美元，比整个下游生态加起来还多 [12:15 Unknown]；处于前沿只需比对手好一点点就能维持定价权，因为在竞争均衡中被使用 [12:26 Unknown]；它们还拥有所有供给，而供给是有限的 [15:00 Unknown]。
+
+**反对"实验室赢"的论据：** AI 能覆盖的表面积正在快速扩大，很多领域需要服务团队、需要贴近客户，单一组织做不过来 [15:06 Unknown]；开源模型生态正在成熟，表现很好 [15:30 Unknown]；实验室之所以遥遥领先，很大程度上是因为它们能拿到极便宜的资本，但这几乎一定会回归理性 [15:40 Unknown]。
+
+Martin 个人猜测：供应约束会在 2028 年左右缓解 [16:39 Unknown]。按收入加权，大实验室可能拿下未来 80% 的市场——这跟历史上大型在位者的份额一致；但按 token（模型处理的基本单位）加权，60% 会是长尾和开源 [16:43 Unknown]。另外，应用层正在捕获越来越多的价值，未来几年会开始侵蚀实验室的利润份额 [17:00 Unknown]。
+
+## 模型路由：真价值在哪
+
+OpenRouter 被Stripe 收购，Cursor 被SpaceX 收购——这两笔交易说明了什么？
+
+OpenRouter 的本质是一个双边市场：对开发者来说，它是一个入口，可以访问大量模型、统一做分析和可观测性；对模型提供商来说，它带来了数百万用户 [17:26 Unknown]。Martin 认为它的核心价值就在这个双边市场地位上，而不是很多人炒作的"智能路由" [21:11 Unknown]。
+
+智能路由分两种思路：一种是按质量路由——让最适合的模型回答最适合的问题。Martin 认为这几乎是一个"AI 完全问题"（需要宇宙中最聪明的东西才能回答"谁最适合回答这个问题"），最终你还是会把请求交给最聪明的模型，变成一个成本优化问题 [19:24 Unknown]。另一种是按性价比路由——在保持质量的同时降低成本，这确实是当前应用公司（包括 Cursor）用路由获得的主要收益 [20:40 Unknown]。
+
+但现实是，模型比人们想象的更有粘性 [18:26 Unknown]。很多企业从 OpenAI 买了额度，没有动力换。而且前沿模型正在变得"参差不齐"——不是某个模型全面更强，而是这个在前端好、那个在语言好、另一个在代码好 [20:06 Unknown]。加上定价有补贴、动态变化，下一个大模型出来往往又是帕累托最优的，所以路由的实际收益目前并不确定 [21:53 Unknown]。
+
+还有一个有意思的现象：围绕订阅套利形成了一个复杂市场。有人注册 200 美元的月度套餐，三天内耗尽所有 token，然后取消并拿回 27 天的按比例退款，再用这些 token 以 20 美元的价格提供服务 [25:03 Unknown]。大实验室和套利者之间在玩猫捉老鼠 [25:21 Unknown]。
+
+## Cursor 值 600 亿美元的背后
+
+Martin 确认 Cursor 独立估值就已经在那个量级——"我们本可以很容易地以那个估值帮它融到资" [29:24 Unknown]。这是他在 10 年投资生涯、20 年硅谷经历中见过的增长最快的公司 [29:50 Unknown]。
+
+Cursor 和 SpaceX 的结合逻辑清晰：一个有数据，一个有算力 [28:23 Unknown]。两家文化高度契合——都极度工程导向，都相信代码和通用计算机使用是通向 AGI（通用人工智能）的路径 [30:41 Unknown]。Martin 说这是他在 Elon 公司之外见过的产出最快的团队 [31:00 Unknown]。
+
+Cursor 文化上最关键的差异点：它始终把"改变软件工程"这个产品问题当成主线，而不是去研究新的模型架构 [31:38 Unknown]。在一个人人都在做研究公司或服务公司的时代，Cursor 说"我们是产品公司"——Martin 认为这是这个时代的关键区别点 [32:33 Unknown]。创始人们把 30% 到 40% 的时间花在招聘和建立文化上 [31:56 Unknown]，团队自己就是自己的用户 [32:50 Unknown]。
+
+## 找准战略控制点，别被零和思维困住
+
+社交媒体上对 AI 公司的大量批评，围绕着利润率、流失率、收入质量这些财务指标 [33:40 Unknown]。Martin 认为这完全搞错了重点——如果你只看资产负债表、忽略战略价值，你就没法做早期投资 [10:08 Unknown]。有些公司可能亏钱，但会达到一个能支配巨大价值转移的位置 [10:41 Unknown]。你要问的是：这个公司在新技术栈里是不是一个重要的控制点？ [10:53 Unknown]。
+
+他给出的判断是：价值正在堆栈的每一层同时累积——NVIDIA、模型公司、应用公司、推理公司、服务公司、媒体公司，都在赚钱 [34:39 Unknown]。"这是我在整个职业生涯中见过的最大的财富释放" [34:51 Unknown]。他的建议是：别在近期陷入零和思维、别太纠结护城河和可防御性，去想在这个新世界里什么是战略上重要的 [34:59 Unknown]。
+
+至于怎么看创始人，Martin 是"创始人-市场匹配"派：不是单纯看人强不强，而是看这个人的经历塑造了哪些独特敏感度和习得知识，跟当前市场的实际需求是否对得上 [39:12 Unknown]。为此，他们大部分的工作不是分析具体交易，而是在没有具体公司的时候先分析市场 [39:28 Unknown]。
+
+## 本集带走
+
+- **AI 把"资本→增长"的链条缩短了**：投钱进算力和训练，直接产出能力和使用量，中间不需要大规模扩组织。这是这波浪潮最底层的经济学变化。
+- **实验室不会自动吞掉一切**：它们当前的优势很大程度上建立在廉价资本和供给稀缺上。供应缓解后，按 token 量算，长尾和开源可能拿走 60%。
+- **模型路由的真正价值在双边市场，不在智能调度**：按质量路由近乎是 AI 完全问题，当前实际收益主要来自成本优化。模型粘性比想象中高。
+- **Cursor 的关键差异是"产品公司"定位**：在人人做研究或服务的时代，死磕产品问题、不追模型架构、创始人花 30-40% 时间在招聘和文化上。
+- **早期投资看战略控制点，不看当期财务**：利润率、流失率可以很差，但如果在新栈中占据关键位置，就能在未来支配价值转移。价值目前在堆栈每一层同时涌现。
+===金句===
+06:03 | Unknown
+EN | Like, you know, I'm not going to say the exact model, but one of the very famous models, you know, multimodal model that many people use is probably one of the most popular models was built with a team of about 20 people.
+ZH | 就像，你知道，我不会说出具体的模型名字，但有一个非常著名的模型，你知道，很多人使用的多模态模型，可能是最受欢迎的模型之一，是由大约 20 人的团队构建的。
+
+06:18 | Unknown
+EN | In the history of humanity, in the history of engineering efforts, we've never been able to have 20 people, I don't think, being able to productively use $2 billion.
+ZH | 在人类历史上，在工程尝试的历史上，我们从没能有过 20 个人，我认为，能够高效地使用 20 亿美元。
+
+06:40 | Unknown
+EN | But I actually think like one of the major stories is the fact that we're able to apply large amounts of money productively in short amounts of times to whatever problem that we're trying to solve.
+ZH | 但我实际上认为主要的故事之一是我们能够在短时间内将大量资金高效地应用到我们要解决的任何问题上。
+
+07:15 | Unknown
+EN | And one thing that we're learning is you actually can take large amounts of capital
+ZH | 我们正在学到的一件事是，你实际上可以拿大笔资金
+
+10:41 | Unknown
+EN | Like some value, some companies may lose money, but they'll get to a position where they can command a tremendous transfer of value.
+ZH | 像一些价值，一些公司可能会亏钱，但它们会达到一个可以指挥巨大价值转移的位置。
+
+12:15 | Unknown
+EN | So let's say OpenAI and Thratbook have raised $220 billion.
+ZH | 假设 OpenAI 和 Thratbook 筹集了 2200 亿美元。
+
+12:22 | Unknown
+EN | That's more than the entire downstream ecosystem combined, which is really unbelievable.
+ZH | 这比整个下游生态系统加起来还要多，这真是令人难以置信。
+
+15:40 | Unknown
+EN | I think a lot of the reason the labs are so far ahead is they have very cheap access to capital, which will almost certainly rationalize.
+ZH | 我认为实验室遥遥领先的很多原因是他们有非常廉价的资本准入，这几乎肯定会合理化。
+
+16:43 | Unknown
+EN | I think that the big labs will probably dollar weighted, get 80% of the market going forward because that's historically what we've seen for large incumbents.
+ZH | 我认为大型实验室按美元加权可能会获得未来 80% 的市场份额，因为这是我们历史上看到的大型在位者的情况。
+
+16:52 | Unknown
+EN | But I think token weighted 60% will be long tail and open source.
+ZH | 但我认为按 token 加权，60% 将是长尾和开源。
+
+18:26 | Unknown
+EN | We've actually learned that these models are a lot stickier than people assumed.
+ZH | 我们实际上了解到这些模型比人们假设的要更具有粘性。
+
+19:24 | Unknown
+EN | By AI complete, okay, so let's imagine you're trying to answer the question, what question does the smartest thing in the universe need to answer?
+ZH | 所谓 AI 完全，好的，所以让我们想象一下你正试图回答这个问题，宇宙中最聪明的东西需要回答什么问题？
+
+20:45 | Unknown
+EN | I think the primary gains are actually tend to be keeping the quality bar high while decreasing the cost.
+ZH | 我认为主要的收益实际上是倾向于在保持高质量标准的同时降低成本。
+
+26:36 | Unknown
+EN | But what we've never been able to do in the history of this industry is put in $10 and get anything back.
+ZH | 但我们在该行业历史上从未能够做到的是投入 10 美元并拿回任何东西。
+
+26:52 | Unknown
+EN | But now it really is $10 in and then some amount out pretty directly.
+ZH | 但现在确实是投入 10 美元，然后直接产出一定数量的回报。
+
+27:44 | Unknown
+EN | But the relationship between money and innovation and growth and demand has never been closer.
+ZH | 但是金钱与创新、增长和需求之间的关系从未如此紧密。
+
+29:50 | Unknown
+EN | Like, if you saw the numbers that they talked about, I mean, this is the fastest growth certainly I've ever seen in 10 years of investing and in 20 years in the Valley.
+ZH | 就像，如果你看他们谈到的那些数字，这是我在 10 年投资生涯和 20 年硅谷生涯中肯定见过的最快增长。
+
+31:38 | Unknown
+EN | And they always kept the main thing the main thing, Cursor, which is changing how you write software engineering.
+ZH | 而他们始终让最重要的事情保持最重要，Cursor，也就是改变你编写软件工程的方式。
+
+32:33 | Unknown
+EN | I mean, Neolab is a research company, but they were like, we are a product company.
+ZH | 我是说，Neolab 是一家研究公司，但他们的意思是，我们是一家产品公司。
+
+34:51 | Unknown
+EN | Right now, listen, I think this is the biggest unlock of wealth I've seen in my entire career.
+ZH | 现在听着，我认为这是我在整个职业生涯中见过的最大的财富释放。
+
+34:59 | Unknown
+EN | I would strongly recommend zero-sum thinking or worrying about modes or defensibility too much in the near term and really think about what is strategically important in this new world that's being created.
+ZH | 我会强烈建议在近期不要有零和思维，也不要太担心模式或可防御性，而要真正思考在这个正在创造的新世界中，什么是战略上重要的。
+===END===

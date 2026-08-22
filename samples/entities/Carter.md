@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":2,"智能体":108,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":6,"OpenRouter":2}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":2,"智能体":109,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":6,"OpenRouter":4}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[开源权重]] · [[推理]] · [[Theo Jaffe]] · [[NVIDIA]] · [[AGI]] · [[Joel de la Garza]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"OpenAI":45,"护栏":23,"Anthropic":54,"开源权重":3,"推理":1,"Theo Jaffe":2,"NVIDIA":16,"AGI":14,"Joel de la Garza":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"OpenAI":47,"护栏":23,"Anthropic":56,"开源权重":3,"推理":1,"Theo Jaffe":3,"NVIDIA":17,"AGI":14,"Joel de la Garza":4}</script>
 
 <script>
 (function(){

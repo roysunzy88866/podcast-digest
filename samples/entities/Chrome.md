@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Alex Finn]] · [[Addy Osmani]] · [[Nesrine Changuel]] · [[系统提示词]] · [[Chrome DevTools]] · [[delight]] · [[gpt 5.6]] · [[认知投降]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Alex Finn":1,"Addy Osmani":1,"Nesrine Changuel":1,"系统提示词":3,"Chrome DevTools":1,"delight":1,"gpt 5.6":1,"认知投降":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"Alex Finn":1,"Addy Osmani":1,"Nesrine Changuel":1,"系统提示词":3,"Chrome DevTools":1,"delight":1,"gpt 5.6":1,"认知投降":2}</script>
 
 <script>
 (function(){

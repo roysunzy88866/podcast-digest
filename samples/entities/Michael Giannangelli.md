@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]] [[Erik Allebest]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":108,"RLGym":1,"迁移":1,"Claude Code":28,"Codex":23,"Anthropic":54}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":109,"RLGym":1,"迁移":1,"Claude Code":28,"Codex":23,"Anthropic":56}</script>
 
 <script>
 (function(){

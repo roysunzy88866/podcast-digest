@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[MCP]] · [[Anthropic]] · [[Claude Code]] · [[设计]] · [[Dylan Field]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Notion":6,"GitHub":16,"MCP":14,"Anthropic":54,"Claude Code":28,"设计":2,"Dylan Field":2,"Slack":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"Notion":6,"GitHub":16,"MCP":14,"Anthropic":56,"Claude Code":28,"设计":2,"Dylan Field":2,"Slack":19}</script>
 
 <script>
 (function(){

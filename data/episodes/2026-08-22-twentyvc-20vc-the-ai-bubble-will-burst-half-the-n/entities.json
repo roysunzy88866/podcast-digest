@@ -1,0 +1,1448 @@
+{
+  "episode_id": "2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-22",
+  "tags": [
+    "Neoclouds 生死线",
+    "开源 vs 前沿模型",
+    "AI 安全与沙箱",
+    "SaaS 的 AI 威胁",
+    "持续学习模型"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.818,
+            23.84
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jerry-murdock",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jerry Murdock",
+      "file": "Jerry Murdock",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            36.873,
+            39.015
+          ],
+          "quote": "Jerry Murdock joining me in the hot seat today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neoclouds",
+      "type": "concept",
+      "role": "concept",
+      "name": "Neoclouds",
+      "file": "Neoclouds",
+      "primary": true,
+      "how_described": "本集说 Neoclouds 现在有一大堆，至少一半会在 36 个月内消失；区分存活者和淘汰者的关键是谁在运营、资本效率多高，没有利润还大量投入就站在风险里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.573,
+            6.713
+          ],
+          "quote": "Let's take Neoclouds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            7.093,
+            8.914
+          ],
+          "quote": "Neoclouds right now, there's a whole bunch of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            664.659,
+            665.779
+          ],
+          "quote": "Let's take neoclouds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            666.179,
+            668
+          ],
+          "quote": "Neoclouds right now, there's a whole bunch of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            679.822,
+            686.984
+          ],
+          "quote": "What will separate the neoclouds that go away and become valueless versus those that retain value and become even more valuable?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2118.482,
+            2120.043
+          ],
+          "quote": "Like, for example, neoclouds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2122.224,
+            2128.786
+          ],
+          "quote": "I think some, one or two of those neoclouds are going to end up dominating, and a lot of them, at least half of them, are going to go away.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集说 Fireworks 赚的钱比 Base10 多得多，资本效率更高、有在业务上盈利的意愿，三年半达到 10 亿美元 ARR，是理解 PyTorch 的天才团队向上移动技术栈做微调和定制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.835,
+            16.356
+          ],
+          "quote": "Fireworks is making a lot more money than base 10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            719.725,
+            725.827
+          ],
+          "quote": "I can tell you if you look at inference providers, I think Fireworks is making a lot more money than Base10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            733.831,
+            740.576
+          ],
+          "quote": "I bet on fireworks over base 10, 10 times better business, in my opinion, because they're more capital efficient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            766.156,
+            767.417
+          ],
+          "quote": "You mentioned fireworks there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1032.73,
+            1044.46
+          ],
+          "quote": "That may be true at the moment with pretty much frontier models, but I disagree with it because companies like Fireworks and others are helping companies to customize.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1063.037,
+            1072.567
+          ],
+          "quote": "And so essentially you're saying the efficiency gains that can come when you work with a provider like Fireworks means that one token goes a lot further than another token in a lot of cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1428.837,
+            1434.821
+          ],
+          "quote": "Well, look, if you look at fireworks, I'm lucky I invest in fireworks versus base 10 or...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1523.392,
+            1525.874
+          ],
+          "quote": "I have to ask you, you mentioned fireworks multiple times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1990.405,
+            1994.788
+          ],
+          "quote": "If we look at fireworks, you know, it's three and a half years to a billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2007.537,
+            2012.741
+          ],
+          "quote": "I think in the case of fireworks, look, they're benefiting because of OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2332.575,
+            2337.399
+          ],
+          "quote": "But you look at these other companies that you say, well, Fireworks looks to be like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "base10",
+      "type": "company",
+      "role": "company",
+      "name": "Base10",
+      "file": "Base10",
+      "primary": false,
+      "how_described": "本集说 Base10 拿了 Cursor 的合同，但没什么利润，只有收入和规模，没有赚多少钱却投入很多钱，处于风险之中",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            719.725,
+            725.827
+          ],
+          "quote": "I can tell you if you look at inference providers, I think Fireworks is making a lot more money than Base10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            726.147,
+            731.489
+          ],
+          "quote": "And you look at the efficiency there and you think, oh, well, Base10 is raising money at the same valuation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说前沿模型每个 token 成本是两位数美元，在创新上从未被开源模型赢过，能做复杂任务；但长期会被持续学习模型取代，需要全新架构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            52.421,
+            62.325
+          ],
+          "quote": "And today we debunk whether we are in a bubble or not, whether China will beat the frontier models, whether we are about to have the greatest cybersecurity threats of our lifetime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            825.386,
+            832.248
+          ],
+          "quote": "What's happening is that you can't customize Anthropic models or OpenAI models right now, not the big frontier models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            905.919,
+            909.68
+          ],
+          "quote": "Totally get you on cost efficiency of open source compared to frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            910.02,
+            918.702
+          ],
+          "quote": "But what everyone says is you're seeing the token traffic go towards open models and you're seeing the dollar traffic, the revenue, go towards frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1032.73,
+            1044.46
+          ],
+          "quote": "That may be true at the moment with pretty much frontier models, but I disagree with it because companies like Fireworks and others are helping companies to customize.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1171.737,
+            1178.139
+          ],
+          "quote": "We're going to absolutely see this thing that prohibits the cannibalization of frontier models, at least in the short term.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1204.208,
+            1219.733
+          ],
+          "quote": "And so I think as long as frontier models can continue to innovate because they have the money and they have the ability to do more innovation, there's never been a time yet where the open source model has trumped a frontier model on innovation yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2749.825,
+            2755.907
+          ],
+          "quote": "You said that, like, you know, the 10% drawdown, and you said earlier about FHIR and inventing FHIR with frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2756.447,
+            2760.368
+          ],
+          "quote": "Sam was like, hey, administration, take 5% of frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2978.242,
+            2984.326
+          ],
+          "quote": "Does continuous learning and potential lifelong learning not denigrate the value of frontier models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2984.767,
+            2986.968
+          ],
+          "quote": "Well, they're going to replace frontier models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3095.779,
+            3105.429
+          ],
+          "quote": "And then you'll see the likes of McCaw go from purely selling to frontier models to selling to enterprises and even mid-market who need specialized data that they might not have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3116.478,
+            3123.703
+          ],
+          "quote": "Frontier models are doing some levels of creativity, but we really want it to be deep creativity, like go solve climate change.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3679.611,
+            3684.315
+          ],
+          "quote": "Despite the fact that I'm missing the big frontier models, they have a great portfolio.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型每 token 只要 10-11 美分，更擅长专业化和定制化任务如写代码、客户服务，但 10 年后都会被持续学习模型取代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            833.868,
+            838.909
+          ],
+          "quote": "So that's just giving an opening, I think, for open source models to be tuned.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            839.289,
+            846.09
+          ],
+          "quote": "As I mentioned on our last call, I thought that open source models and ASICs chips were going to kind of be part of a tsunami of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1109.008,
+            1118.258
+          ],
+          "quote": "But for customer service, for onboarding, you can see open source models being really ideal because it's a highly specialized task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2866.323,
+            2873.728
+          ],
+          "quote": "Do you worry about the dominance of Chinese open source models and the ability for backdoors to be introduced into their models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2896.063,
+            2900.646
+          ],
+          "quote": "I mean, all the open source models that we're doing right now we're using, they won't be used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2954.448,
+            2966.355
+          ],
+          "quote": "And so continuous learning models will come in and once they're deployed, there'll be a whole new breed of open source models based on this new capability of continuous learning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说容器不安全、Docker 自己都说容器不安全，你需要沙箱；智能体是概率性的，可能同时打开 100 个沙箱用 100 个不同库测试，如果你没把沙箱做对其他一切都免谈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 300,
+          "t": [
+            1399.238,
+            1400.519
+          ],
+          "quote": "You better put in a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1519.95,
+            1522.952
+          ],
+          "quote": "Because if you don't get the sandbox right, forget everything else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1635.262,
+            1641.209
+          ],
+          "quote": "If I talk about the sandbox example, the newest thing is, you know, most sandbox people make money on compute.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是概率性的，一个智能体可能同时打开 100 个沙箱用 100 个不同库来测试哪个最好；协同工作时代更偏向智能体和自主智能体，对 SaaS 构成真正威胁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1499.455,
+            1506.84
+          ],
+          "quote": "No, an agent could say, I'm going to open up 100 different sandboxes with 100 different libraries and then determine which is the best app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1768.758,
+            1780.46
+          ],
+          "quote": "But the second point that's useful to this conversation is that we should focus on this complexity between the model and the agent and therefore the human being to the degree that they're in the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3400.103,
+            3406.147
+          ],
+          "quote": "I mean, let's face it, all three of them have failed on the coding agent side, but I don't know if they're going to fail forever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3455.362,
+            3458.023
+          ],
+          "quote": "They won't be able to control agent communication.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3713.078,
+            3715.26
+          ],
+          "quote": "Blockchain for agent payments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到推理提供商之间的比较，以及通过交易所直接购买推理而不需要支付 5% 加价的模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            719.725,
+            725.827
+          ],
+          "quote": "I can tell you if you look at inference providers, I think Fireworks is making a lot more money than Base10.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1435.201,
+            1438.602
+          ],
+          "quote": "Core, Weave, or any of the other inference providers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2164.747,
+            2169.231
+          ],
+          "quote": "And this thing is an exchange to go out and buy inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2172.413,
+            2193.997
+          ],
+          "quote": "And so I think you're going to see multiple opportunities to an open router type product where people that are hosting the models themselves will provide, you know, through an exchange, an easy way to acquire the inference and the need for an open router type product and particularly paying the 5% markup for the inference won't matter, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2214.483,
+            2219.784
+          ],
+          "quote": "They could just go to there, go to the API, and they're willing to pay 5% markup to get their inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2236.369,
+            2246.072
+          ],
+          "quote": "And there's two or three other guys that are now in the process of building exchanges that you can go directly, get the inference you need without paying the 5% markup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3762.79,
+            3784.763
+          ],
+          "quote": "Those innovations, whether you're tokenizing stocks or you're going to do payment rails or you're going to use blockchain for buying inference like on Akinaki or Gonca, those things are going to be real innovations and people are going to be blown away that blockchain has found true utility other than some supposed form of utility.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "type": "company",
+      "role": "company",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": false,
+      "how_described": "本集说 Docker 自己说容器不安全，所以他们在 Docker 沙箱方面取得了巨大成功，是理解沙箱行为的最好公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1393.694,
+            1398.958
+          ],
+          "quote": "This is why the big container company, Docker, said, hey, themselves said containers aren't safe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1400.939,
+            1403.741
+          ],
+          "quote": "And that's why they've had a huge success with Docker sandboxes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1512.865,
+            1518.269
+          ],
+          "quote": "And if you look at E2B and you look at Docker, they're probably the two best at understanding all that stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "e2b",
+      "type": "company",
+      "role": "company",
+      "name": "E2B",
+      "file": "E2B",
+      "primary": false,
+      "how_described": "本集说 E2B 凭借云端沙箱取得成功，是与 Docker 并列的理解沙箱行为的最好公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1403.961,
+            1406.623
+          ],
+          "quote": "That's why E2B is successful with cloud sandboxes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1512.865,
+            1518.269
+          ],
+          "quote": "And if you look at E2B and you look at Docker, they're probably the two best at understanding all that stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "asics-chips",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASIC 芯片 (ASICs chips)",
+      "file": "ASIC 芯片",
+      "primary": false,
+      "how_described": "本集说 ASIC 芯片在模型定制化场景下非常理想，做大量模型专业化不需要 GPU 太贵了，用 ASIC 就行，很多人在设计 ASIC 芯片因为看到了这个趋势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            839.289,
+            846.09
+          ],
+          "quote": "As I mentioned on our last call, I thought that open source models and ASICs chips were going to kind of be part of a tsunami of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            901.439,
+            905.519
+          ],
+          "quote": "And this is helping creating the opportunity for open source and ASICs chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1687.464,
+            1694.367
+          ],
+          "quote": "Look, ASICs chips are really ideal if you're thinking about model customization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1707.934,
+            1715.678
+          ],
+          "quote": "And so I think the number of people designing chips with ASICs chips is because they recognize that trend and they want to take advantage of it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集说做大量模型专业化不需要 GPU，太贵了，可以用 ASIC 芯片替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 375,
+          "t": [
+            1703.552,
+            1704.893
+          ],
+          "quote": "You don't need a GPU for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "continuous-learning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习模型 (continuous learning models)",
+      "file": "持续学习模型",
+      "primary": true,
+      "how_described": "本集说持续学习模型是前沿模型公司的核心目标之一，像人一样能持续学习处理动态事件、维持记忆，与今天静态训练的模型根本不同，将演变为终身学习并取代今天存在的每一个模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 650,
+          "t": [
+            2903.468,
+            2913.135
+          ],
+          "quote": "First of all, within 10 years, I believe, and I think some people are thinking two or three years, continuous learning models will come into existence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2954.448,
+            2966.355
+          ],
+          "quote": "And so continuous learning models will come in and once they're deployed, there'll be a whole new breed of open source models based on this new capability of continuous learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3005.979,
+            3010.34
+          ],
+          "quote": "And so continuous learning models, I think, will be architecturally different.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": false,
+      "how_described": "本集说 OpenRouter 有巨大交易量因为人们懒，收取 5% 加价，但这不会长久，未来会被交易所模式颠覆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            2139.182,
+            2145.79
+          ],
+          "quote": "My opinion is OpenRouter has massive amounts of transactions because people are basically lazy, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2148.292,
+            2149.534
+          ],
+          "quote": "I'm just going to use OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2149.894,
+            2154.419
+          ],
+          "quote": "And OpenRouter charges 5% on top of that, which is a crazy amount of money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2197.698,
+            2202.92
+          ],
+          "quote": "So if you're on the board of OpenRouter and the $10 billion acquisition comes through, what do you say?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2209.902,
+            2210.962
+          ],
+          "quote": "Credit to OpenRouter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2393.286,
+            2397.429
+          ],
+          "quote": "If OpenRouter gets a $10 billion bid from Stripe, you take it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 拿了好几年企业数据、被黑过、自己出来说模型黑了三家公司，以及做了世界历史上非同寻常的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            825.386,
+            832.248
+          ],
+          "quote": "What's happening is that you can't customize Anthropic models or OpenAI models right now, not the big frontier models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1140.661,
+            1143.604
+          ],
+          "quote": "I'm not one that wants to see the OpenAI and Anthropic challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1265.698,
+            1271.802
+          ],
+          "quote": "And yes, they've been giving their, I mean, Anthropic's been getting all this data and OpenAI already for years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1305.396,
+            1313.458
+          ],
+          "quote": "I agree with Alex that enterprises need to be smart about just continuously shoving their data up into Anthropic and OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1355.288,
+            1360.353
+          ],
+          "quote": "Anthropic came out saying, hey, mea culpa, our models actually hacked three companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1720.3,
+            1726.162
+          ],
+          "quote": "When you see DeepSeat building their own chips, you see Anthropic now building their own, Jalapeno from OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1952.02,
+            1961.329
+          ],
+          "quote": "And I would argue that it looks like Anthropic and OpenAI, those crazy mega rounds, you know, at $100 billion, $150 billion might actually have been cheap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2007.537,
+            2012.741
+          ],
+          "quote": "I think in the case of fireworks, look, they're benefiting because of OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2067.553,
+            2072.676
+          ],
+          "quote": "If you look at Anthropic and you look at what they've done, Anthropic and OpenAI, it's never been done in the history of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2468.802,
+            2476.968
+          ],
+          "quote": "It seems like IPO markets are open for the rare few, for Anthropic and OpenAI when they want to, for SpaceX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3278.665,
+            3281.526
+          ],
+          "quote": "Who goes out first, OpenAI or Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3282.126,
+            3283.527
+          ],
+          "quote": "It appears like Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3662.567,
+            3669.949
+          ],
+          "quote": "The guys like Menlo that did Anthropic, how do you say early, but early enough, you know, they're gonna do great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3670.449,
+            3678.231
+          ],
+          "quote": "Benchmark, while they missed Anthropic and OpenAI, they've done amazing with Factory and a bunch of other great ones that we've talked about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 拿了好几年企业数据、被黑过，以及做了世界历史上非同寻常的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            825.386,
+            832.248
+          ],
+          "quote": "What's happening is that you can't customize Anthropic models or OpenAI models right now, not the big frontier models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1140.661,
+            1143.604
+          ],
+          "quote": "I'm not one that wants to see the OpenAI and Anthropic challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1265.698,
+            1271.802
+          ],
+          "quote": "And yes, they've been giving their, I mean, Anthropic's been getting all this data and OpenAI already for years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1305.396,
+            1313.458
+          ],
+          "quote": "I agree with Alex that enterprises need to be smart about just continuously shoving their data up into Anthropic and OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1353.406,
+            1355.207
+          ],
+          "quote": "We're seeing OpenAI and Hugging Face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1720.3,
+            1726.162
+          ],
+          "quote": "When you see DeepSeat building their own chips, you see Anthropic now building their own, Jalapeno from OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1952.02,
+            1961.329
+          ],
+          "quote": "And I would argue that it looks like Anthropic and OpenAI, those crazy mega rounds, you know, at $100 billion, $150 billion might actually have been cheap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2007.537,
+            2012.741
+          ],
+          "quote": "I think in the case of fireworks, look, they're benefiting because of OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2067.553,
+            2072.676
+          ],
+          "quote": "If you look at Anthropic and you look at what they've done, Anthropic and OpenAI, it's never been done in the history of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2266.341,
+            2275.745
+          ],
+          "quote": "Play the game on the field, Bill Gurley style, be mindful, don't spunk cash into Neo Labs at a billion dollars pre for one person out of OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2468.802,
+            2476.968
+          ],
+          "quote": "It seems like IPO markets are open for the rare few, for Anthropic and OpenAI when they want to, for SpaceX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3278.665,
+            3281.526
+          ],
+          "quote": "Who goes out first, OpenAI or Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3670.449,
+            3678.231
+          ],
+          "quote": "Benchmark, while they missed Anthropic and OpenAI, they've done amazing with Factory and a bunch of other great ones that we've talked about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hyperscalers",
+      "type": "concept",
+      "role": "concept",
+      "name": "超大规模云服务商 (hyperscalers)",
+      "file": "超大规模云服务商",
+      "primary": false,
+      "how_described": "本集说如果出现错位，没人比超大规模云服务商更有准备活下来，它们有足够持续业务，其他人被消灭后资产对它们更便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.071,
+            5.293
+          ],
+          "quote": "If there is a dislocation, no one is better prepared to survive it than hyperscalers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            346.073,
+            351.297
+          ],
+          "quote": "So much debt, all the hyperscalers have taken on much more debt than they ever have before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            364.428,
+            374.712
+          ],
+          "quote": "Okay, the concern for you here is that we'll have a credit market disruption caused by the global conflict, which will then impact the ability for these hyperscalers to borrow cheaply?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            564.349,
+            574.397
+          ],
+          "quote": "When we look at the hyperscalers today, yes, Facebook is having a bond issuance that's priced higher than expected, but Meta's core business is throwing off hundreds of billions of cash flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            615.001,
+            630.764
+          ],
+          "quote": "what should they do from here they should not take out such levels of debt like how do you expect this well i mean look people are making decisions on the risk that they see to their business if there is a dislocation no one is better prepared to survive it than hyperscalers",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            631.104,
+            636.247
+          ],
+          "quote": "I mean, all the hyperscalers have enough ongoing business and they've been very consistent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3312.778,
+            3323.56
+          ],
+          "quote": "We don't know because right now there's these circular transactions that are obfuscating real growth in the market because the hyperscalers are sort of trying to get ahead of the game.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说很多 SaaS 公司只是在给猪涂口红撒点 AI 粉尘加个副驾驶，协同工作时代的自主智能体对没有记录系统和 AI 战略的 SaaS 公司是真正的威胁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 572,
+          "t": [
+            2560.214,
+            2564.195
+          ],
+          "quote": "Are we not seeing most of the SaaS generation put lipstick on the pig, so to speak?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2590.621,
+            2604.745
+          ],
+          "quote": "And as cowork becomes more successful and more stable and more broadly used, I would be really concerned about SaaS companies that don't have some kind of system of record or some kind of AI strategy in place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2609.188,
+            2614.092
+          ],
+          "quote": "So the threat to the SaaS world is just starting right now, but it's still early days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2615.853,
+            2621.797
+          ],
+          "quote": "If you SaaS company, you got time to do AI and bolt on AI and figure out some other direction.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "customization",
+      "type": "concept",
+      "role": "concept",
+      "name": "定制化 (customization)",
+      "file": "定制化",
+      "primary": false,
+      "how_described": "本集说模型越定制 token 价值越不一样，100 万美元花在定制化开源模型上比花在前沿模型上效率高得多，定制化催生专业化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1126.426,
+            1137.036
+          ],
+          "quote": "If you only have a million dollars to spend, you could spend that million dollars on customization and getting specific tasks done a lot more efficiently than you can on a frontier model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1453.667,
+            1458.408
+          ],
+          "quote": "They're going to move up and do a lot more fine tuning and refinement and customization for people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1687.464,
+            1694.367
+          ],
+          "quote": "Look, ASICs chips are really ideal if you're thinking about model customization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1791.802,
+            1800.273
+          ],
+          "quote": "To customization, multiple things, security, all of that stuff from the model out is where I think it's far more interesting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 与 Base10 的合同、四年扩展到 600 亿销售额、从 IDE 领域转型说服 Elon 后拿到 600 亿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            747.982,
+            753.006
+          ],
+          "quote": "I think Cursor was pretty smart in the base 10 contracts from last year with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2359.796,
+            2363.72
+          ],
+          "quote": "We have Cursor scaling to 60 billion sale in four years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2370.407,
+            2376.194
+          ],
+          "quote": "I think what Cursor did, because the team is really smart, is they pivoted out of the IDE space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2496.541,
+            2501.344
+          ],
+          "quote": "But I would think Cursor, if they had gone out last summer, if they wanted to, they could have gone.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "container",
+      "type": "concept",
+      "role": "concept",
+      "name": "容器 (container)",
+      "file": "容器",
+      "primary": false,
+      "how_described": "本集说很多开发者觉得把模型放容器里就安全了，但容器不安全，Docker 自己都说容器不安全，你需要沙箱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1387.03,
+            1389.011
+          ],
+          "quote": "And they're thinking, oh, I'll put the model in a container.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1389.031,
+            1390.252
+          ],
+          "quote": "I'll put the tools in a container.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1393.694,
+            1398.958
+          ],
+          "quote": "This is why the big container company, Docker, said, hey, themselves said containers aren't safe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主智能体 (autonomous agents)",
+      "file": "自主智能体",
+      "primary": false,
+      "how_described": "本集说已经进入协同工作时代更偏向智能体和自主智能体，少数成功部署自主智能体的公司 cowork 正成为新趋势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            2575.717,
+            2582.699
+          ],
+          "quote": "We've gone to what I call the co-work era, where it's really more agentic, where I mentioned autonomous agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2583.539,
+            2590.181
+          ],
+          "quote": "I think to those few companies that have deployed autonomous agents successfully, a cowork is becoming the new trend.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

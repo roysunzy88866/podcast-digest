@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":3,"智能体":108,"基于结果的定价":1,"应用 AI":1,"前沿模型":3,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":14}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":3,"智能体":109,"基于结果的定价":1,"应用 AI":1,"前沿模型":4,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":14}</script>
 
 <script>
 (function(){

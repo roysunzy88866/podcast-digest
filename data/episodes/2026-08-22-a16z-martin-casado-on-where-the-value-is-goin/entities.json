@@ -1,0 +1,983 @@
+{
+  "episode_id": "2026-08-22-a16z-martin-casado-on-where-the-value-is-goin",
+  "podcast": "The a16z Show",
+  "date": "2026-08-22",
+  "tags": [
+    "AI 投资逻辑",
+    "资本效率",
+    "模型路由",
+    "AI 堆栈价值",
+    "产品公司"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "host",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            103.49,
+            109.734
+          ],
+          "quote": "Today, we are joined by Martin Casado, who's a general partner at Andreessen Horowitz and leads the firm's infrastructure practice.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sophia-du",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sophia Du",
+      "file": "Sophia Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            58.43,
+            64.715
+          ],
+          "quote": "Martine Cassato joins Theo Jaffe and Sophia Du on MTS to explain why AI has created something unusual.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "cohost",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            58.43,
+            64.715
+          ],
+          "quote": "Martine Cassato joins Theo Jaffe and Sophia Du on MTS to explain why AI has created something unusual.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说 OpenRouter 是一个 API 路由器，也是长尾和新模型领域的领导者，拥有一个双边市场——对模型提供商说有百万用户，对开发者说新模型出来第一时间能用上；其真正价值在双边市场而非路由算法本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.114,
+            119.36
+          ],
+          "quote": "In the last week, SpaceX closed its $60 billion acquisition of Cursor, and Stripe agreed to acquire OpenRouter, two major A16Z-backed companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1038.537,
+            1045.26
+          ],
+          "quote": "I mean, OpenRouter is a good example of what the future might actually predict on how we'll be using these models long term.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1046.192,
+            1050.373
+          ],
+          "quote": "Yeah, so listen, so OpenRouter is many things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1050.393,
+            1063.475
+          ],
+          "quote": "I mean, it's an API router, but one thing you can think of it as is, you know, maybe you have your Anthropic key, maybe you have your OpenAI key, maybe you have your Grok key, but for all the other models, you use OpenRouter, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1261.267,
+            1268.553
+          ],
+          "quote": "So what, like, to what extent is like the value of OpenRouter that it will eventually be able to do this kind of like AI complete model routing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1275.524,
+            1279.867
+          ],
+          "quote": "And in many ways, you can view one of the products of OpenRouter as the demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1676.886,
+            1678.727
+          ],
+          "quote": "Yeah, so we talked about OpenRouter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1822.358,
+            1827.16
+          ],
+          "quote": "Listen, I think OpenRouter and Stripe make a lot of sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2014.488,
+            2018.35
+          ],
+          "quote": "What did both the Cursor and OpenRouter deals tell you about where value is accruing in general?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2052.965,
+            2054.866
+          ],
+          "quote": "I mean, OpenRouter is on the token path.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2443.455,
+            2444.835
+          ],
+          "quote": "Congratulations on OpenRouter.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Cursor 是领先的软件开发工具，其独立估值就达 600 亿美元量级；关键区分点是始终认为这是一个产品问题而非模型架构问题，创始团队自己就是开发者，给自己造工具并在自己身上测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.114,
+            119.36
+          ],
+          "quote": "In the last week, SpaceX closed its $60 billion acquisition of Cursor, and Stripe agreed to acquire OpenRouter, two major A16Z-backed companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 40,
+          "t": [
+            153.181,
+            158.983
+          ],
+          "quote": "But these days, a lot of top founders, including the founders of Cursor, will drop out of college at like 20 in order to start companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            554.945,
+            559.849
+          ],
+          "quote": "We're in 11Labs, we're in OpenAI, of course, we're in Cursor, we're in Ideogram, we're in BFL, we're in Mistral.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1245.013,
+            1252.9
+          ],
+          "quote": "You know, as deployed by the application companies, you know, I mentioned Cursor, but, you know, we've got a huge portfolio of application companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1678.767,
+            1687.609
+          ],
+          "quote": "The other big acquisition of the week was Cursor, which was, I believe, I'm getting this right, the biggest acquisition of a venture-backed startup ever?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1697.672,
+            1701.613
+          ],
+          "quote": "So where does the bulk of the value of Cursor to SpaceX come from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1703.202,
+            1705.203
+          ],
+          "quote": "Oh, no, I mean, Cursor is a phenomenal business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1809.089,
+            1811.152
+          ],
+          "quote": "It seems like that would make Cursor more valuable now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1814.175,
+            1815.817
+          ],
+          "quote": "Are you suggesting that Cursor buys SpaceX?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1838.826,
+            1841.387
+          ],
+          "quote": "Very, very similar thing for Cursor and SpaceX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1874.085,
+            1877.87
+          ],
+          "quote": "What are the aspects of Cursor's culture that make them capable of iterating so quickly?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1898.548,
+            1903.951
+          ],
+          "quote": "And they always kept the main thing the main thing, Cursor, which is changing how you write software engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1960.243,
+            1970.166
+          ],
+          "quote": "We had people from the Cursor team actually here on MTS and they're sharing a little bit about their internal culture and they're constantly building products internally for themselves and then testing it on themselves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2014.488,
+            2018.35
+          ],
+          "quote": "What did both the Cursor and OpenRouter deals tell you about where value is accruing in general?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.551,
+            2067.534
+          ],
+          "quote": "Cursor was by far the leading software dev tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 是前沿实验室之一，拥有 95% 的市场份额（按收入加权），筹集资本能力令人难以置信，能直接将资本转化为增长；其模型定价有补贴，存在被套利空间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            525.188,
+            533.213
+          ],
+          "quote": "And so I remember when, you know, when OpenAI was still an experiment and we had very legitimate conversations about should we be going all in on AI then?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            554.945,
+            559.849
+          ],
+          "quote": "We're in 11Labs, we're in OpenAI, of course, we're in Cursor, we're in Ideogram, we're in BFL, we're in Mistral.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            585.959,
+            590.562
+          ],
+          "quote": "It's what's the point of investing in another model when OpenAI is pretty good.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            681.116,
+            683.017
+          ],
+          "quote": "OpenAI and Anthropic are doing biotech now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            735.804,
+            742.207
+          ],
+          "quote": "So let's say OpenAI and Thratbook have raised $220 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1050.393,
+            1063.475
+          ],
+          "quote": "I mean, it's an API router, but one thing you can think of it as is, you know, maybe you have your Anthropic key, maybe you have your OpenAI key, maybe you have your Grok key, but for all the other models, you use OpenRouter, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1115.857,
+            1119.86
+          ],
+          "quote": "Like I bought a bunch of credits from OpenAI, like why would I swap them out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1414.624,
+            1424.406
+          ],
+          "quote": "Yeah, I mean, like, if you use a decent amount of tokens on your $200 a month OpenAI or Anthropic plan, like, they're losing a decent amount of money off of that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 作为前沿实验室之一，正在做生物技术；其 200 美元月度套餐被用于 token 套利",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            681.116,
+            683.017
+          ],
+          "quote": "OpenAI and Anthropic are doing biotech now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1050.393,
+            1063.475
+          ],
+          "quote": "I mean, it's an API router, but one thing you can think of it as is, you know, maybe you have your Anthropic key, maybe you have your OpenAI key, maybe you have your Grok key, but for all the other models, you use OpenRouter, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1414.624,
+            1424.406
+          ],
+          "quote": "Yeah, I mean, like, if you use a decent amount of tokens on your $200 a month OpenAI or Anthropic plan, like, they're losing a decent amount of money off of that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集说 SpaceX 以 600 亿美元收购了 Cursor，拥有算力和工程力量，与 Cursor 在代码路径通向 AGI 的理念上高度一致",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.114,
+            119.36
+          ],
+          "quote": "In the last week, SpaceX closed its $60 billion acquisition of Cursor, and Stripe agreed to acquire OpenRouter, two major A16Z-backed companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1697.672,
+            1701.613
+          ],
+          "quote": "So where does the bulk of the value of Cursor to SpaceX come from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1746.222,
+            1752.185
+          ],
+          "quote": "Do you think their $60 billion value would have been their value independently, or was that mainly because of SpaceX?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1757.449,
+            1762.071
+          ],
+          "quote": "I mean, to SpaceX for sure, but would that have been its value independently outside of SpaceX?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1798.197,
+            1807.888
+          ],
+          "quote": "Yeah, but would it not be even better to be like part of SpaceX with all of their compute and all of their infrastructure and, you know, the entire engineering force of SpaceX behind them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1814.175,
+            1815.817
+          ],
+          "quote": "Are you suggesting that Cursor buys SpaceX?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1838.826,
+            1841.387
+          ],
+          "quote": "Very, very similar thing for Cursor and SpaceX.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集说 Stripe 同意收购 OpenRouter，因为两家公司都将事物视为市场——一个将 token 视为价值，一个将支付视为价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            110.114,
+            119.36
+          ],
+          "quote": "In the last week, SpaceX closed its $60 billion acquisition of Cursor, and Stripe agreed to acquire OpenRouter, two major A16Z-backed companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1822.358,
+            1827.16
+          ],
+          "quote": "Listen, I think OpenRouter and Stripe make a lot of sense.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集在列举 AI 堆栈各层价值积累时，顺带提到 NVIDIA 表现很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2083.283,
+            2084.204
+          ],
+          "quote": "I mean, NVIDIA's doing great.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": false,
+      "how_described": "本集在列举 A16Z 投资的早期基础模型公司时顺带提到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            554.945,
+            559.849
+          ],
+          "quote": "We're in 11Labs, we're in OpenAI, of course, we're in Cursor, we're in Ideogram, we're in BFL, we're in Mistral.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说有大量开源模型做得非常好，围绕它们有成熟的服务生态系统；Martin 猜测供应限制缓解后，按 token 量算 60% 将是长尾和开源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            76.305,
+            85.591
+          ],
+          "quote": "They debate whether frontier labs ultimately eat the rest of the AI stack, where open source and applications fit in, and what model routing tells us about how the market could evolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            930.129,
+            934.333
+          ],
+          "quote": "Second one is, you know, like there is a wealth of open source models that are doing very well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1012.58,
+            1016.163
+          ],
+          "quote": "But I think token weighted 60% will be long tail and open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "smart-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能路由 (smart routing)",
+      "file": "智能路由",
+      "primary": true,
+      "how_described": "本集说智能路由有两种思路：按质量选最优模型近乎是 AI 完全问题（因为判断哪个模型最适合回答这个问题本身就需要最聪明的模型），按成本效益选才是当前主要收益来源——保持质量的同时降成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1094.741,
+            1097.841
+          ],
+          "quote": "But are you seeing smart routing just growing in popularity?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1120.1,
+            1122.902
+          ],
+          "quote": "So you can think about like smart routing in one of two contexts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "two-sided-marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "双边市场 (two-sided marketplace)",
+      "file": "双边市场",
+      "primary": true,
+      "how_described": "本集说 OpenRouter 真正的价值在于它是一个双边市场——对模型提供商说有百万用户可以带来，对开发者说新模型出来第一时间能接入，这比路由算法本身的价值更大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1063.495,
+            1067.416
+          ],
+          "quote": "And it's like, it's basically a two-sided marketplace to give you access to a bunch of models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1271.52,
+            1275.043
+          ],
+          "quote": "Listen, I think that you need a two-sided marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1297.062,
+            1303.828
+          ],
+          "quote": "And so I think there's a tremendous amount of value in the two-sided marketplace independent of all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1345.172,
+            1347.333
+          ],
+          "quote": "And I think it's more of the two sided marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2054.906,
+            2061.911
+          ],
+          "quote": "It is the leader in the long tail of models and new models that has a two-sided marketplace of those.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿实验室 (labs)",
+      "file": "前沿实验室",
+      "primary": true,
+      "how_described": "本集讨论前沿实验室是否会吞噬一切：支持方认为它们有三年数据证明拥有 95% 市场、筹资能力惊人、只需比对手好一点就能维持定价权、掌握全部算力供应；反对方认为 AI 应用表面积在扩大、开源在成熟、资本便宜的优势会回归理性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.206,
+            6.848
+          ],
+          "quote": "One of them is that the labs want everything, and then the other one is the labs don't want everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            76.305,
+            85.591
+          ],
+          "quote": "They debate whether frontier labs ultimately eat the rest of the AI stack, where open source and applications fit in, and what model routing tells us about how the market could evolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            672.609,
+            677.473
+          ],
+          "quote": "So relatedly, there is an argument that some people make where it's like the labs are just going to eat everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            701.867,
+            705.508
+          ],
+          "quote": "One of them is that the labs want everything, and then the other one is the labs don't want everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            896.491,
+            900.273
+          ],
+          "quote": "So what about the arguments against then that the labs will not own everything?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            940.679,
+            948.145
+          ],
+          "quote": "I think a lot of the reason the labs are so far ahead is they have very cheap access to capital, which will almost certainly rationalize.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            973.828,
+            980.534
+          ],
+          "quote": "The landscape right now is very much in favor of the large labs, primarily from funding and supply.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1003.733,
+            1012.28
+          ],
+          "quote": "I think that the big labs will probably dollar weighted, get 80% of the market going forward because that's historically what we've seen for large incumbents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1028.513,
+            1031.714
+          ],
+          "quote": "And you don't view them as like necessarily competitive with the labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1521.74,
+            1523.922
+          ],
+          "quote": "And so we're seeing, like, a lot of cat and mouse between the big labs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集在列举 AI 堆栈各层价值积累时提到推理公司表现得很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 489,
+          "t": [
+            2086.204,
+            2087.665
+          ],
+          "quote": "The inference companies are doing great.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autocatalytic",
+      "type": "concept",
+      "role": "concept",
+      "name": "自催化效应 (autocatalytic)",
+      "file": "自催化效应",
+      "primary": false,
+      "how_described": "本集说用 AI 创建比人类更快的 GPU 内核来提升 AI 运行能力是自催化效应，这与递归自我改进不同——自催化是用工具帮自己做得更快，递归是 wholesale 复制自身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            768.492,
+            770.054
+          ],
+          "quote": "We're starting to see autocatalytic effects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            864.428,
+            875.662
+          ],
+          "quote": "That said, there's definitely focus on recursive self-improvement, and that's great, but it's a subset of the broader phenomenon, which is very important for all of us to understand, which is autocatalytic effects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            886.818,
+            888.86
+          ],
+          "quote": "I would say that's autocatalytic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集说许多做微调、后训练的公司更像是服务导向型公司，而非产品公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            1945.416,
+            1949.738
+          ],
+          "quote": "A lot of the fine-tuning, post-training companies are kind of more service-oriented companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说许多做微调、后训练的公司更像是服务导向型公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            1945.416,
+            1949.738
+          ],
+          "quote": "A lot of the fine-tuning, post-training companies are kind of more service-oriented companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集说 Martin 以一种 VC 方式做 vibe coding 来构建复古电子游戏，把它比作以前车库里搞火车模型的爱好的现代版",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 469,
+          "t": [
+            1994.88,
+            2003.006
+          ],
+          "quote": "I do think it's funny, so I do vibe coding in a silly VC way, and I build retro video games, and I feel like the kind of like, you know...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集说现在工程很多归结为能否筹集资本来购买 GPU 以做想做的事；也提到用 AI 创建更快的 GPU 内核作为自催化效应的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            880.148,
+            886.777
+          ],
+          "quote": "...to create a really good GPU kernel that's faster than a human being can do, and that improves my ability to run or build AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "strategic control point",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

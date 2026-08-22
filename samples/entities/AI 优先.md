@@ -261,7 +261,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Ken]] · [[Lenny]] · [[Dave Fletcher]] · [[Cisco]] · [[Lead Dev]] · [[NVIDIA]] · [[AI 编码工具]] · [[ChatGPT]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":65,"Dave Fletcher":1,"Cisco":2,"Lead Dev":1,"NVIDIA":16,"AI 编码工具":1,"ChatGPT":31,"可观测性":8}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":65,"Dave Fletcher":1,"Cisco":2,"Lead Dev":1,"NVIDIA":17,"AI 编码工具":1,"ChatGPT":31,"可观测性":8}</script>
 
 <script>
 (function(){

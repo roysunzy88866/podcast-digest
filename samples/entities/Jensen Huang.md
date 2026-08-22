@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":16,"深度学习":3,"智能体":108,"沙箱":21,"Condi Rice":1,"harness":12,"Jerry":1,"GPU":3,"前沿模型":3,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":17,"深度学习":3,"智能体":109,"沙箱":22,"Condi Rice":1,"harness":12,"Jerry":1,"GPU":5,"前沿模型":4,"Sega":1}</script>
 
 <script>
 (function(){

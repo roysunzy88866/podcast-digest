@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"开源权重":3,"Frontier Labs":3,"蒸馏":6,"智能体":108,"Kimi K3":1,"Hugging Face":8,"Anthropic":54,"OpenAI":45}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"Sofia Puccini":2,"开源权重":3,"Frontier Labs":3,"蒸馏":6,"智能体":109,"Kimi K3":1,"Hugging Face":8,"Anthropic":56,"OpenAI":47}</script>
 
 <script>
 (function(){

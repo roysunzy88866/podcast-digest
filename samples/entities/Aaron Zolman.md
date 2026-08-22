@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]]
+[[Jerry Murdock]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]] [[Firas]] [[Sam Altman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":9,"智能体":108,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":23,"harness":12,"身份":2}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":9,"智能体":109,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":23,"harness":12,"身份":2}</script>
 
 <script>
 (function(){

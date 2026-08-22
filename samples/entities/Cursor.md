@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,10 +36,12 @@ unlisted: true
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(32:01起):本集顺带提及，作为 A16Z 投资的组合公司中，PLG（产品驱动增长）模式的代表案例。
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(00:10起):本集说它被 SpaceX 以 600 亿美元收购，是 GrokBot 和 Origin 的母公司，一直被认为是最好的 MCP 客户端，正在构建智能体原生的代码工具生态
 - **[[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]]**(39:38起):本集说 Cursor 的权重确实在更新，做法是收集大量用户数据做批量更新，但如果你想教模型某件具体的事还得跟其他用户抢，不是真正的个性化持续学习
+- **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 Cursor 是领先的软件开发工具，其独立估值就达 600 亿美元量级；关键区分点是始终认为这是一个产品问题而非模型架构问题，创始团队自己就是开发者，给自己造工具并在自己身上测试
+- **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(12:27起):本集提到 Cursor 与 Base10 的合同、四年扩展到 600 亿销售额、从 IDE 领域转型说服 Elon 后拿到 600 亿
 
 ## ① 提到它的金句
 
-*3 条*
+*4 条*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -47,9 +49,11 @@ unlisted: true
 
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q1]]
 
+![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q8]]
+
 ## ② 出现在这些集
 
-*25 集*
+*27 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -76,14 +80,16 @@ unlisted: true
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]] — 作为被讨论公司(提及)
+- [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
+- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Codex]] · [[ChatGPT]] · [[Lovable]] · [[OpenAI]] · [[vibe coding]] · [[后训练]] · [[GitHub]] · [[Claude]]
+[[智能体]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[vibe coding]] · [[Anthropic]] · [[ChatGPT]] · [[Lovable]] · [[后训练]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":108,"Lenny":65,"Codex":23,"ChatGPT":31,"Lovable":8,"OpenAI":45,"vibe coding":19,"后训练":11,"GitHub":16,"Claude":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":109,"Lenny":65,"Codex":23,"OpenAI":47,"vibe coding":20,"Anthropic":56,"ChatGPT":31,"Lovable":8,"后训练":12,"GitHub":16}</script>
 
 <script>
 (function(){

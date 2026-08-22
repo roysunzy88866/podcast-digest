@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Firas]] [[Sam Altman]] [[Ben Horowitz]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Firas]] [[Sam Altman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firas":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":8,"NPM":2,"前沿模型":3,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Firas":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":8,"NPM":2,"前沿模型":4,"软件供应链":2,"零日漏洞":1,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

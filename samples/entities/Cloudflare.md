@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[Eric Ries]] · [[Idan Gazit]] · [[Harry Stabbings]] · [[Lenny]] · [[GitHub Next]] · [[Jason Lamkin]] · [[Incorruptible]] · [[Copilot]] · [[Canva]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":54,"Eric Ries":1,"Idan Gazit":1,"Harry Stabbings":1,"Lenny":65,"GitHub Next":1,"Jason Lamkin":1,"Incorruptible":1,"Copilot":4,"Canva":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":56,"Eric Ries":1,"Idan Gazit":1,"Harry Stabbings":1,"Lenny":65,"GitHub Next":1,"Jason Lamkin":1,"Incorruptible":1,"Copilot":4,"Canva":3}</script>
 
 <script>
 (function(){

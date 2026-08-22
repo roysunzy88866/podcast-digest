@@ -1,0 +1,165 @@
+{
+  "title_zh": "Martin Casado：AI 时代，钱比以前好使了",
+  "tldr": "Andreessen Horowitz 合伙人 Martin Casado 认为 AI 从根本上改变了创办公司的经济学——小团队能高效地把巨额资本转化为增长，这是行业史上从未有过的。",
+  "digest_md": "在人类历史上，从来没出现过 20 个人能高效花掉 20 亿美元的情况 [06:18 Martin Casado]。10 年前你给一个团队 10 亿，他们只能去雇人、膨胀、搞砸。但现在，投 10 美元进去，能直接产出回报——这个行业以前从来做不到这一点 [26:36 Martin Casado]。这不是技术能力的故事，是一个资本效率的故事：钱和创新、增长、需求之间的关系，从未如此紧密 [27:44 Martin Casado]。\n\n## 前沿实验室会吞噬一切吗？\n\nMartin 说他们内部认真讨论过这个问题，两条路径都有很强论据 [11:38 Martin Casado]。\n\n**支持「实验室赢」的论据：** 三年数据看，实验室拿走了大部分收入；筹资能力惊人——假设 OpenAI 和另一个实验室筹了 2200 亿美元，比整个下游生态加起来还多 [12:15 Martin Casado]；前沿模型只需比对手好一点点就能维持定价权，因为用户在竞争均衡中使用它们 [12:26 Martin Casado]；此外它们掌握全部算力供应，而供应是有限的 [15:00 Martin Casado]。\n\n**反对「实验室赢」的论据：** AI 可应用的表面积在快速扩大，很多领域需要服务团队和客户关系，单一组织做不到 [15:06 Martin Casado]；开源模型生态在成熟；而实验室领先的一个重要原因是资本太便宜，这几乎肯定会回归理性 [15:40 Martin Casado]。Martin 个人猜测供应限制会在 2028 年左右缓解，届时按金额算大实验室可能拿 80% 市场，但按 token（模型处理的文本单元）量算，60% 会是长尾和开源 [16:32 Martin Casado]。\n\n## 模型路由：被高估的套利，被低估的双边市场\n\nOpenRouter 这类模型路由器，看起来是让应用自动选最合适的模型，但 Martin 认为现实没那么简单。\n\n这些模型比人们以为的更「粘」——大家都在说换模型，但实际很少发生，一部分原因是采购惯性 [18:26 Martin Casado]。智能路由有两种思路：一是按质量选最优模型，Martin 认为这近乎是一个「AI 完全问题」（需要宇宙中最聪明的东西才能回答的问题），因为要判断「哪个模型最适合回答这个问题」，本身就需要最聪明的模型来判，那不如直接交给最聪明的模型 [19:24 Martin Casado]。二是按成本效益选，这是当前路由的主要收益来源——保持质量的同时降成本 [20:40 Martin Casado]。\n\n但 OpenRouter 真正的价值不在于路由算法，在于它是一个双边市场：对模型提供商说「我们有百万用户」，对开发者说「新模型出来你第一时间能用上」 [21:11 Martin Casado]。而且现在模型定价是动态的、有补贴的，下一个大模型出来往往各方面都更好（帕累托最优），你干脆就只用它了 [21:59 Martin Casado]。补贴也有套利空间——有人注册 200 美元的套餐，三天耗尽 token 后取消并拿回 27 天的退款，然后用这些 token 去提供 20 美元的服务 [25:03 Martin Casado]。\n\n## Cursor 为什么值 600 亿\n\nMartin 确认 Cursor 独立估值就达到那个量级 [29:23 Martin Casado]。他强调 Cursor 的关键区分点：在 AI 领域，大多数公司要么做服务，要么做研究，但 Cursor 始终认为这是一个产品问题，不是模型架构问题 [31:38 Martin Casado]。创始人 30-40% 的时间花在招聘和建文化上 [31:56 Martin Casado]。团队自己是开发者，给自己造工具、在自己身上测试 [32:50 Martin Casado]。\n\n## 别用财务指标看早期 AI 公司\n\nMartin 反复强调一个观点：如果你只看资产负债表——利润率、流失率、收入质量——你会得出错误的结论 [10:08 Martin Casado]。早期投资要看的是战略控制点：这家公司在新堆栈里是不是一个关键节点？哪怕现在亏钱，它可能到达一个能指挥巨大价值转移的位置 [10:41 Martin Casado]。现在价值在堆栈每一层都在积累——芯片、模型、应用、推理、服务、媒体，这是他职业生涯见过的最大财富释放 [34:43 Martin Casado]。\n\n> 【背景】「Thratbook」在转写稿中出现，应为语音识别对某公司名的误听，原文语境指代另一家前沿实验室，但无法确定具体指向，故不还原。\n\n## 本集带走\n- **AI 改变了资本效率**：投钱进去能直接产出回报，这是行业史上首次，小团队+大资本成为可行组合。\n- **实验室不会自动吞噬一切**：供应限制缓解后，长尾和开源会夺回 token 量的大头；应用层也在侵蚀利润份额。\n- **模型路由的价值在双边市场，不在算法**：模型比想象中粘，按质量路由近乎无解，当前核心收益是成本优化。\n- **早期 AI 公司看战略控制点，不看利润表**：关键是它在新堆栈里是不是不可绕过的节点，而不是现在赚不赚钱。\n- **产品公司稀缺且值钱**：AI 领域大多数人做研究或服务，专注产品本身就是区分点。",
+  "quotes": [
+    {
+      "en": "I don't know if you get $9 back on the other side of that, but what we've never been able to do in the history of this industry is put in $10 and get anything back.",
+      "zh": "我不知道你是否能在那之后拿回 9 美元，但在本行业的历史上我们从未能做到的是投入 10 美元并能拿回任何东西。",
+      "timestamp": "00:38",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "In the history of humanity, in the history of engineering efforts, we've never been able to have 20 people, I don't think, being able to productively use $2 billion.",
+      "zh": "在人类历史上，在工程尝试的历史上，我们从没能有过 20 个人，我认为，能够高效地使用 20 亿美元。",
+      "timestamp": "06:18",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "Like some value, some companies may lose money, but they'll get to a position where they can command a tremendous transfer of value.",
+      "zh": "像一些价值，一些公司可能会亏钱，但它们会达到一个可以指挥巨大价值转移的位置。",
+      "timestamp": "10:41",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "So let's say OpenAI and Thratbook have raised $220 billion. That's more than the entire downstream ecosystem combined, which is really unbelievable.",
+      "zh": "假设 OpenAI 和 Thratbook 筹集了 2200 亿美元。这比整个下游生态系统加起来还要多，这真是令人难以置信。",
+      "timestamp": "12:15",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "Supply constraints will ease in 2028-ish. I think that the big labs will probably dollar weighted, get 80% of the market going forward because that's historically what we've seen for large incumbents. But I think token weighted 60% will be long tail and open source.",
+      "zh": "供应限制将在 2028 年左右缓解。我认为大型实验室按美元加权可能会获得未来 80% 的市场份额，因为这是我们历史上看到的大型在位者的情况。但我认为按 token 加权，60% 将是长尾和开源。",
+      "timestamp": "16:39",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "We've actually learned that these models are a lot stickier than people assumed. Like everybody talks about just swapping them out, but it actually doesn't happen very often.",
+      "zh": "我们实际上了解到这些模型比人们假设的要更具有粘性。就像每个人都在谈论只是把它们换掉，但这实际上并不经常发生。",
+      "timestamp": "18:26",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "Like, if you saw the numbers that they talked about, I mean, this is the fastest growth certainly I've ever seen in 10 years of investing and in 20 years in the Valley.",
+      "zh": "就像，如果你看他们谈到的那些数字，这是我在 10 年投资生涯和 20 年硅谷生涯中肯定见过的最快增长。",
+      "timestamp": "29:50",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "And they always kept the main thing the main thing, Cursor, which is changing how you write software engineering. And they believed fundamentally it was a product problem, not necessarily a model architecture problem.",
+      "zh": "而他们始终让最重要的事情保持最重要，Cursor，也就是改变你编写软件工程的方式。他们在根本上相信这是一个产品问题，不一定是模型架构问题。",
+      "timestamp": "31:38",
+      "speaker": "Martin Casado"
+    },
+    {
+      "en": "Right now, listen, I think this is the biggest unlock of wealth I've seen in my entire career. I never thought I'd see another one after the 90s.",
+      "zh": "现在听着，我认为这是我在整个职业生涯中见过的最大的财富释放。我没想到在 90 年代之后还会再见到另一个。",
+      "timestamp": "34:51",
+      "speaker": "Martin Casado"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:20",
+      "speaker": "Unknown",
+      "en": "With that much money to work, with that small of a team and that small of a timeline, you can put capital into these things and it tends to turn into usage.",
+      "zh": "有那么多资金可供运作，团队那么小，时间线那么短，你可以把资本投入这些事情，它往往会转化为使用量。"
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Unknown",
+      "en": "I don't know if you get $9 back on the other side of that, but what we've never been able to do in the history of this industry is put in $10 and get anything back.",
+      "zh": "我不知道你是否能在那之后拿回 9 美元，但在本行业的历史上我们从未能做到的是投入 10 美元并能拿回任何东西。"
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Unknown",
+      "en": "And so now we actually know what to do with that money.",
+      "zh": "所以现在我们实际上知道该拿这笔钱做什么。"
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Unknown",
+      "en": "In the history of humanity, in the history of engineering efforts, we've never been able to have 20 people, I don't think, being able to productively use $2 billion.",
+      "zh": "在人类历史上，在工程尝试的历史上，我们从没能有过 20 个人，我认为，能够高效地使用 20 亿美元。"
+    },
+    {
+      "timestamp": "10:41",
+      "speaker": "Unknown",
+      "en": "Like some value, some companies may lose money, but they'll get to a position where they can command a tremendous transfer of value.",
+      "zh": "像一些价值，一些公司可能会亏钱，但它们会达到一个可以指挥巨大价值转移的位置。"
+    },
+    {
+      "timestamp": "10:53",
+      "speaker": "Unknown",
+      "en": "You have to look under the lens of this is a very important part of the new stack. It's a very important control point.",
+      "zh": "你必须透过这个视角来看，这是新堆栈中非常重要的一部分。这是一个非常重要的控制点。"
+    },
+    {
+      "timestamp": "12:15",
+      "speaker": "Unknown",
+      "en": "So let's say OpenAI and Thratbook have raised $220 billion. That's more than the entire downstream ecosystem combined, which is really unbelievable.",
+      "zh": "假设 OpenAI 和 Thratbook 筹集了 2200 亿美元。这比整个下游生态系统加起来还要多，这真是令人难以置信。"
+    },
+    {
+      "timestamp": "16:32",
+      "speaker": "Unknown",
+      "en": "Supply constraints will ease in 2028-ish. I think that the big labs will probably dollar weighted, get 80% of the market going forward because that's historically what we've seen for large incumbents. But I think token weighted 60% will be long tail and open source.",
+      "zh": "供应限制将在 2028 年左右缓解。我认为大型实验室按美元加权可能会获得未来 80% 的市场份额，因为这是我们历史上看到的大型在位者的情况。但我认为按 token 加权，60% 将是长尾和开源。"
+    },
+    {
+      "timestamp": "18:26",
+      "speaker": "Unknown",
+      "en": "We've actually learned that these models are a lot stickier than people assumed. Like everybody talks about just swapping them out, but it actually doesn't happen very often.",
+      "zh": "我们实际上了解到这些模型比人们假设的要更具有粘性。就像每个人都在谈论只是把它们换掉，但这实际上并不经常发生。"
+    },
+    {
+      "timestamp": "19:24",
+      "speaker": "Unknown",
+      "en": "By AI complete, okay, so let's imagine you're trying to answer the question, what question does the smartest thing in the universe need to answer? Like, I think you need the smartest thing in the universe to answer that question.",
+      "zh": "所谓 AI 完全，好的，所以让我们想象一下你正试图回答这个问题，宇宙中最聪明的东西需要回答什么问题？像，我认为你需要宇宙中最聪明的东西来回答那个问题。"
+    },
+    {
+      "timestamp": "22:08",
+      "speaker": "Unknown",
+      "en": "And so like then you only would route to like one model like Opus 4 or 5 anyway.",
+      "zh": "所以就像那样，你只会路由到一个模型，比如 Opus 4 或 5。"
+    },
+    {
+      "timestamp": "26:36",
+      "speaker": "Unknown",
+      "en": "But what we've never been able to do in the history of this industry is put in $10 and get anything back. It was literally put in $10, engineer, engineer, engineer. Wait two years. Probably screw stuff up. It'll probably fail.",
+      "zh": "但我们在该行业历史上从未能够做到的是投入 10 美元并拿回任何东西。字面上就是投入 10 美元，工程、工程、工程。等待两年。可能会把事情搞砸。它可能会失败。"
+    },
+    {
+      "timestamp": "26:52",
+      "speaker": "Unknown",
+      "en": "But now it really is $10 in and then some amount out pretty directly.",
+      "zh": "但现在确实是投入 10 美元，然后直接产出一定数量的回报。"
+    },
+    {
+      "timestamp": "27:44",
+      "speaker": "Unknown",
+      "en": "But the relationship between money and innovation and growth and demand has never been closer.",
+      "zh": "但是金钱与创新、增长和需求之间的关系从未如此紧密。"
+    },
+    {
+      "timestamp": "29:50",
+      "speaker": "Unknown",
+      "en": "Like, if you saw the numbers that they talked about, I mean, this is the fastest growth certainly I've ever seen in 10 years of investing and in 20 years in the Valley.",
+      "zh": "就像，如果你看他们谈到的那些数字，这是我在 10 年投资生涯和 20 年硅谷生涯中肯定见过的最快增长。"
+    },
+    {
+      "timestamp": "31:38",
+      "speaker": "Unknown",
+      "en": "And they always kept the main thing the main thing, Cursor, which is changing how you write software engineering. And they believed fundamentally it was a product problem, not necessarily a model architecture problem.",
+      "zh": "而他们始终让最重要的事情保持最重要，Cursor，也就是改变你编写软件工程的方式。他们在根本上相信这是一个产品问题，不一定是模型架构问题。"
+    },
+    {
+      "timestamp": "34:51",
+      "speaker": "Unknown",
+      "en": "Right now, listen, I think this is the biggest unlock of wealth I've seen in my entire career. I never thought I'd see another one after the 90s.",
+      "zh": "现在听着，我认为这是我在整个职业生涯中见过的最大的财富释放。我没想到在 90 年代之后还会再见到另一个。"
+    }
+  ]
+}

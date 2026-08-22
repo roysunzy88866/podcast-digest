@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
+[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":11,"Azure":1,"GitHub":16,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":12,"轨迹":1,"智能体":108}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":11,"Azure":1,"GitHub":16,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":12,"轨迹":1,"智能体":109}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]] [[Shensi Ding]]
+[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":25,"Claude Code":28,"智能体":108,"对抗性智能体":1,"MCP":14,"知识库":1,"技能":4,"vibe coding":19,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":25,"Claude Code":28,"智能体":109,"对抗性智能体":1,"MCP":14,"知识库":1,"技能":4,"vibe coding":20,"红队测试":2}</script>
 
 <script>
 (function(){
