@@ -609,7 +609,7 @@ const REAL_PROPER_NOUNS = new Set([
   // 语言 / 框架 / 基础设施(通用技术术语)
   "python", "javascript", "typescript", "java", "rust", "golang", "react", "angular", "vue", "svelte",
   "nodejs", "django", "flask", "kubernetes", "docker", "linux", "ubuntu", "postgres", "postgresql", "mongodb",
-  "redis", "kafka", "terraform", "webpack", "nextjs", "tailwind", "graphql", "kotlin", "swift", "typescript",
+  "redis", "kafka", "terraform", "webpack", "nextjs", "tailwind", "graphql", "kotlin", "swift",
   // 云 / 芯片
   "aws", "azure", "cuda",
 ]);

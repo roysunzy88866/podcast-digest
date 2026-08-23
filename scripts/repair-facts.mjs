@@ -325,7 +325,8 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
   {
     const cur = gateFacts(dir, opts);
     const nounFails = cur.failures.filter((f) => f.kind === "D17-专名");
-    if (!cur.pass && nounFails.length && cur.failures.length <= DENSITY_FUSE) {
+    // GLM 001[2]:仅当**剩余失败全是专名**才软化 —— 若还夹着数字/时间戳失败,软化专名也过不了闸,白烧 GLM(照旧隔离)
+    if (!cur.pass && nounFails.length && nounFails.length === cur.failures.length && cur.failures.length <= DENSITY_FUSE) {
       log(`末轮兜底:${nounFails.length} 个专名查不实、常规修救不动 → 定点删除/软化(不指名的自然说法,Scenario 5d-B)`);
       const paras = splitParagraphs(md);
       const byPara = new Map();
@@ -335,6 +336,9 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
         if (!byPara.has(i)) byPara.set(i, []);
         byPara.get(i).push(f);
       }
+      // GLM 001[1]:beforeFailures 用「打本段补丁前」的**当下**态,而非循环前那份陈旧的 cur;
+      // 前段软化被采纳后基准随之刷新(freshBefore=after),否则 judgePatch「不许带新问题」会拿旧基准误判。
+      let freshBefore = cur;
       // 同主循环:倒序改,避免前段改长度后后段偏移失效
       for (const [idx, fs] of [...byPara.entries()].sort((a, b) => b[0] - a[0])) {
         const para = paras[idx];
@@ -346,10 +350,11 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
         const candidate = md.slice(0, para.start) + patch + md.slice(para.end);
         writeTmp(candidate);
         const after = gateFacts(dir, opts);
-        // 复用 judgePatch:目标专名必须真被去掉、不许带新问题、不许靠删整段过关(长度 ≥75%)
-        const verdict = judgePatch({ paraText: para.text, patch, targeted: fs, afterFailures: after.failures, beforeFailures: cur.failures });
+        // 复用 judgePatch:目标名真去掉/不带新问题(对当下基准)/不许靠删整段过关(长度 ≥75%)
+        const verdict = judgePatch({ paraText: para.text, patch, targeted: fs, afterFailures: after.failures, beforeFailures: freshBefore.failures });
         if (!verdict.accept) { log(`  ✗ 段 ${idx} 软化 ${verdict.reason}`); writeTmp(md); continue; }
         md = candidate;
+        freshBefore = after; // 采纳后,下一段基准 = 本段打补丁后的态
         fixed.push({ para: idx, softenedNouns: names });
         log(`  ✂ 段 ${idx} 已软化查不实专名:${names.join("、")}`);
       }
