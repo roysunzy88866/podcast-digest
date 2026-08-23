@@ -1,0 +1,1126 @@
+{
+  "episode_id": "2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-06",
+  "tags": [
+    "个人 AGI",
+    "技能文件",
+    "上下文杠杆",
+    "智能体工作流",
+    "认知所有权"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "garry-tan",
+      "type": "person",
+      "role": "host",
+      "name": "Garry Tan",
+      "file": "Garry Tan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是在你的上下文上运行、做你工作的劳动力，不是自动补全，而是可以用技能文件管理的员工队伍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            360.057,
+            363.44
+          ],
+          "quote": "It's arriving diffused as your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            424.787,
+            432.575
+          ],
+          "quote": "An agent that runs on your infrastructure, reads from a memory you own, executes procedures you wrote, and compounds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            523.233,
+            529.378
+          ],
+          "quote": "Apply the most pathological verbosity penalty you can stomach and assume the agent writes bloated code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            629.63,
+            642.501
+          ],
+          "quote": "In ethics, he defines joy as the feeling of your power of acting increasing, which is why the first time an agent does a week of your work in an afternoon, it doesn't feel like a convenience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            700.415,
+            705.037
+          ],
+          "quote": "Add that up, and that gives you an agent that acts like a very fast version of you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            807.019,
+            810.2
+          ],
+          "quote": "An AI agent, though, holds a million tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            866.263,
+            868.464
+          ],
+          "quote": "The question that determines whether your agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            922.529,
+            933.353
+          ],
+          "quote": "Before I finish reading the email, my agent has already pulled every prior conversation I've had with that founder, three portfolio companies that hit the same wall, and what actually worked for them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            934.453,
+            937.875
+          ],
+          "quote": "When my agent does anything, it does knowing everything I know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            947.248,
+            949.95
+          ],
+          "quote": "While I slept last night, my agent processed my inbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            985.293,
+            992.638
+          ],
+          "quote": "And when something interesting happens in the world, my agent has usually read it, cross-referenced against what I care about, and filed it before I've had coffee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1054.987,
+            1057.751
+          ],
+          "quote": "If a smart intern could follow it, an agent can run it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1086.932,
+            1093.237
+          ],
+          "quote": "One of our finance folks compiled about 100 Excel workbooks into a single app she built with an internal agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1105.287,
+            1111.072
+          ],
+          "quote": "And there are exactly two answers, and confusing them causes every agent failure I've ever seen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1147.824,
+            1150.484
+          ],
+          "quote": "Ask an agent or human to seat five people around a table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1153.045,
+            1162.447
+          ],
+          "quote": "Ask it to make custom schedules for 6,000 people in an arena like we just did for you, and your latent space agent needs to write some code to keep track of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1199.818,
+            1208.242
+          ],
+          "quote": "So my agent went and acquired three of the best biographies about the man, books by Nadler, Goldstein, and Stewart, about 1,500 pages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1283.322,
+            1286.443
+          ],
+          "quote": "When you sit down with an agent tonight, you're not coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1447.223,
+            1453.936
+          ],
+          "quote": "Treat it like a dumping ground and you get a very confident agent that is wrong in ways nobody can trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1468.702,
+            1473.127
+          ],
+          "quote": "Step one tonight, pick a harness and run an agent on your own machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1473.868,
+            1476.77
+          ],
+          "quote": "I use OpenClaw and Hermes Agent with Gbrain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1541.108,
+            1549.571
+          ],
+          "quote": "The first time an agent answers a question using your context instead of the internet's, you'll feel the click and you won't go back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1580.406,
+            1581.907
+          ],
+          "quote": "Explain it to your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1640.669,
+            1644.892
+          ],
+          "quote": "Most people run one operation with one agent and then throw the context away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1648.035,
+            1654.039
+          ],
+          "quote": "At the end of every task, ask the agent to Skillify what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1705.201,
+            1707.541
+          ],
+          "quote": "The agent starts answering with your context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1778.256,
+            1782.12
+          ],
+          "quote": "Every skill you teach an agent is you, externalized.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "personal-agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人 AGI (personal AGI)",
+      "file": "个人 AGI",
+      "primary": true,
+      "how_described": "本集将个人 AGI 定义为在你的基础设施上运行、从你拥有的记忆中读取、执行你写的流程并每天复利增长的智能体，区别于租用的公司 AGI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            368.845,
+            376.913
+          ],
+          "quote": "I call it personal AGI, not artificial general intelligence for everyone all at once, general intelligence for one person, you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            421.321,
+            423.862
+          ],
+          "quote": "Personal AGI is a different animal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            439.562,
+            446.088
+          ],
+          "quote": "Your personal AGI gets better every single day you use it because every day it knows more of your life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            477.833,
+            481.116
+          ],
+          "quote": "You might ask why this personal AGI is happening only now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1970.172,
+            1975.075
+          ],
+          "quote": "Personal AGI is how you stay under your own power in the age of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2345.93,
+            2350.431
+          ],
+          "quote": "That is personal AGI, not a benchmark, not a demo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill-file",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能文件 (skill file)",
+      "file": "技能文件",
+      "primary": true,
+      "how_described": "本集说技能文件是用英文写的描述如何完成一项任务的页面，Markdown 就是代码，编译器就是语言模型，一个技能文件就是一名员工",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1020.28,
+            1025.544
+          ],
+          "quote": "Let me show you what a skill file is because I keep saying this phrase and I want you to see how unmagical it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1291.095,
+            1292.836
+          ],
+          "quote": "A skill file is an employee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1424.644,
+            1427.625
+          ],
+          "quote": "A bad skill file encodes a bad process forever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1564.915,
+            1567.716
+          ],
+          "quote": "Step three, write your first skill file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1768.527,
+            1770.249
+          ],
+          "quote": "A skill file is not a document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1864.576,
+            1867.337
+          ],
+          "quote": "If you don't, your job becomes a skill file.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说杠杆不在模型权重里而在上下文里，同样一个 Claude，2 倍和 100 倍的差别在于你给什么上下文、多相关、是否在正确步骤介入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            364.04,
+            367.263
+          ],
+          "quote": "Running on your context, doing your work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            606.14,
+            614.868
+          ],
+          "quote": "There are 2x people and there are 100x people who are using the same Claude, same weights, same context window size, same API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            617.23,
+            622.875
+          ],
+          "quote": "It's in what context you give it, how relevant it is, and does it happen at the right step.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            679.026,
+            695.993
+          ],
+          "quote": "A frontier model, which is rented, and a commodity, and getting cheaper by the quarter, plus your context, which is owned by you and unique, and ideally nobody else on this earth has it, plus a harness that wires them together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            961.276,
+            972.582
+          ],
+          "quote": "The ones that matter are triaged with context pulled from the library, who this person is, my whole history with them, what they're really asking under what they wrote, and what that might mean for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1541.108,
+            1549.571
+          ],
+          "quote": "The first time an agent answers a question using your context instead of the internet's, you'll feel the click and you won't go back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1640.669,
+            1644.892
+          ],
+          "quote": "Most people run one operation with one agent and then throw the context away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1705.201,
+            1707.541
+          ],
+          "quote": "The agent starts answering with your context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2031.445,
+            2035.546
+          ],
+          "quote": "The better the models get, the more the differentiator moves to context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2120.407,
+            2123.81
+          ],
+          "quote": "I didn't create the risk by consolidating my context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latent-space",
+      "type": "concept",
+      "role": "concept",
+      "name": "Latent Space",
+      "file": "Latent Space",
+      "primary": true,
+      "how_described": "本集说品味、判断、从模糊请求中解读人类真正想要的东西属于潜在空间，存在于模型中，通过 Markdown 文件引导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1112.313,
+            1114.475
+          ],
+          "quote": "Some computation belongs in latent space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1151.485,
+            1152.505
+          ],
+          "quote": "Do it in latent space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1153.045,
+            1162.447
+          ],
+          "quote": "Ask it to make custom schedules for 6,000 people in an arena like we just did for you, and your latent space agent needs to write some code to keep track of it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-space",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性空间 (deterministic space)",
+      "file": "确定性空间",
+      "primary": true,
+      "how_described": "本集说算术、SQL 查询、给 6000 人排座位表等属于确定性空间，必须存到数据库里由代码处理，混淆两种空间是所有智能体失败的根源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1124.991,
+            1128.272
+          ],
+          "quote": "And then some computation belongs in deterministic space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "working-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作记忆 (working memory)",
+      "file": "工作记忆",
+      "primary": true,
+      "how_described": "本集说人类工作记忆一次只能保持大约七件事，而 AI 智能体能容纳一百万个 token 约一千页，这是不同的运行机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            766.092,
+            769.494
+          ],
+          "quote": "Let's start with working memory because it explains everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            787.728,
+            790.99
+          ],
+          "quote": "That is the entire working memory of a human being.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集提到 OpenClaw 作为可以选用的智能体线束/套件之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1473.868,
+            1476.77
+          ],
+          "quote": "I use OpenClaw and Hermes Agent with Gbrain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hermes-agent",
+      "type": "company",
+      "role": "company",
+      "name": "Hermes Agent",
+      "file": "Hermes Agent",
+      "primary": false,
+      "how_described": "本集提到 Hermes Agent 作为可以选用的智能体线束/套件之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1473.868,
+            1476.77
+          ],
+          "quote": "I use OpenClaw and Hermes Agent with Gbrain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到 Claude Code 作为可以选用的智能体线束/套件之一，比喻为'本田'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1488.358,
+            1490.06
+          ],
+          "quote": "Codex, Claude Code, whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到 Codex 作为可以选用的智能体线束/套件之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1488.358,
+            1490.06
+          ],
+          "quote": "Codex, Claude Code, whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说使用相同的 Claude，有人只拿到 2 倍提升有人拿到 100 倍，差别在于上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            606.14,
+            614.868
+          ],
+          "quote": "There are 2x people and there are 100x people who are using the same Claude, same weights, same context window size, same API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1488.358,
+            1490.06
+          ],
+          "quote": "Codex, Claude Code, whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gbrain",
+      "type": "company",
+      "role": "company",
+      "name": "Gbrain",
+      "file": "Gbrain",
+      "primary": false,
+      "how_described": "本集提到 Gbrain 是演讲者公开构建的个人知识系统，有约 22 万个 markdown 页面，免费开源，托管版在 gbrain.io",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            881.43,
+            882.851
+          ],
+          "quote": "That's what Gbrain is meant to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            888.236,
+            890.118
+          ],
+          "quote": "I've been building Gbrain in the open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1473.868,
+            1476.77
+          ],
+          "quote": "I use OpenClaw and Hermes Agent with Gbrain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1477.19,
+            1479.592
+          ],
+          "quote": "A hosted version of this is at gbrain.io.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1481.053,
+            1483.135
+          ],
+          "quote": "Gbrain itself is free and open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1654.979,
+            1657.601
+          ],
+          "quote": "Skillify is a special skill you can find in Gbrain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gstack",
+      "type": "company",
+      "role": "company",
+      "name": "GStack",
+      "file": "GStack",
+      "primary": false,
+      "how_described": "本集提到 GStack 是演讲者的智能编码框架，有 12.3 万 star，位列 GitHub 历史前 100 开源项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            994.038,
+            1003.044
+          ],
+          "quote": "On top of this library sits my agentic coding framework, GStack, 123,000 stars now, which put it in the top 100 open source projects in the history of GitHub.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集多次以 YC 合伙人视角举例，提到 Winter 25 批次四分之一公司代码库 95% AI 生成、媒体和财务团队在构建技能文件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            487.641,
+            492.284
+          ],
+          "quote": "In 2013, I was a YC partner building Bookface, our internal social network, at night.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            500.951,
+            503.072
+          ],
+          "quote": "This year I run YC full time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            568.212,
+            570.915
+          ],
+          "quote": "At YC, we get to watch this at portfolio scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            582.53,
+            588.313
+          ],
+          "quote": "And that batch is on track to becoming one of the fastest growing, most profitable batches in the history of YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1077.61,
+            1086.472
+          ],
+          "quote": "At YC, our media people, events staff, finance team, people who never opened a terminal in their lives are building skill files and scheduled jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1669.608,
+            1671.088
+          ],
+          "quote": "I'll say it the way I say it at YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2146.856,
+            2151.42
+          ],
+          "quote": "Because being at YC for me means I don't have to monetize my own infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "circleback",
+      "type": "company",
+      "role": "company",
+      "name": "Circleback",
+      "file": "Circleback",
+      "primary": false,
+      "how_described": "本集在技能文件示例中提到'当从 Circleback 收到会议录音时'作为触发条件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1028.667,
+            1036.513
+          ],
+          "quote": "It says, when a meeting recording lands from Circleback, transcribe it with speaker labels, pull out the commitment made, who made it, and the deadline.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emergent",
+      "type": "company",
+      "role": "company",
+      "name": "Emergent",
+      "file": "Emergent",
+      "primary": false,
+      "how_described": "本集提到 Emergent 是 YC 24 年夏季批次项目，从公开发布到九位数收入只用了八个月",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1332.362,
+            1337.786
+          ],
+          "quote": "Emergent, out of our summer 24 batch, went from public launch to nine figures of revenue in eight months.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": false,
+      "how_described": "本集在回应'这只是 RAG 吗'的异议时说检索是原语不是产品，困难的部分是周围的一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 444,
+          "t": [
+            2066.89,
+            2068.57
+          ],
+          "quote": "Objection two, is this just RAG?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "corporate-agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "公司 AGI (corporate AGI)",
+      "file": "公司 AGI",
+      "primary": false,
+      "how_described": "本集说公司 AGI 是你不拥有的、每月付钱的聊天机器人，关掉标签页就重置，公司一转型助手就被'脑叶切除'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            407.037,
+            409.277
+          ],
+          "quote": "It's a corporate AGI you don't own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            433.175,
+            439.001
+          ],
+          "quote": "The corporate AGI you don't own gets better only when the company ships something.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "线束 (harness)",
+      "file": "线束",
+      "primary": false,
+      "how_described": "本集说线束是将前沿模型和你的上下文连接在一起的东西，可以是 OpenClaw、Claude Code 等套件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            679.026,
+            695.993
+          ],
+          "quote": "A frontier model, which is rented, and a commodity, and getting cheaper by the quarter, plus your context, which is owned by you and unique, and ideally nobody else on this earth has it, plus a harness that wires them together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            696.153,
+            699.795
+          ],
+          "quote": "That harness might be OpenClaw, Hermes Agent, Claude Code, or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1017.632,
+            1019.214
+          ],
+          "quote": "Fat skills, thin harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1468.702,
+            1473.127
+          ],
+          "quote": "Step one tonight, pick a harness and run an agent on your own machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2019.863,
+            2023.844
+          ],
+          "quote": "Objection one, the models are improving so fast that all this harness stuff will be obsolete.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2135.948,
+            2139.531
+          ],
+          "quote": "The harness, the brain architecture, the skills, the whole personal operating system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2176.551,
+            2181.835
+          ],
+          "quote": "Right now, today, it's this, the harness, the library, the workforce made of Markdown.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "extraction",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知提取 (extraction)",
+      "file": "认知提取",
+      "primary": false,
+      "how_described": "本集说如果技能文件在公司仓库里，员工离开时什么带不走，她没有职业生涯而是经历了一场认知提取",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            1849.442,
+            1851.824
+          ],
+          "quote": "She didn't have a career, she had an extraction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

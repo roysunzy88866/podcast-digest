@@ -1,0 +1,1361 @@
+{
+  "episode_id": "2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an",
+  "podcast": "The Peel",
+  "date": "2026-08-07",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "早期投资",
+    "SaaS 转型",
+    "硬件复兴"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "navin-chaddha",
+      "type": "person",
+      "role": "host",
+      "name": "Navin Chaddha",
+      "file": "Navin Chaddha",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "lumilens",
+      "type": "company",
+      "role": "company",
+      "name": "Lumilens",
+      "file": "Lumilens",
+      "primary": true,
+      "how_described": "本集说 Lumilens 提供横向扩展和纵向扩展的光子技术模块，用于连接 GPU 和数据中心机架，解决铜线无法超过一米的高速互联物理瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            72.325,
+            75.727
+          ],
+          "quote": "So the company I'm proud to announce is Lumilens.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mayfield",
+      "type": "company",
+      "role": "company",
+      "name": "Mayfield",
+      "file": "Mayfield",
+      "primary": true,
+      "how_described": "本集说 Mayfield 是一家有 56 年历史的早期风投公司，70% 的投资在 inception 阶段（纸笔想法），过去五年管理 30 亿美元，专注于 AI 栈上下层投资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            304.489,
+            311.218
+          ],
+          "quote": "And I guess really quick for you who don't know Mayfield, can you give us a quick 30 seconds on what you guys are?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            311.398,
+            314.722
+          ],
+          "quote": "So Mayfield is an early stage venture capital firm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1262.822,
+            1273.23
+          ],
+          "quote": "So since 70% of Mayfield's investments are at the inception stage, we try to back founders who are authentic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1472.127,
+            1483.792
+          ],
+          "quote": "You can't be everything for everybody because to compete with the platforms who have 10x the number of people on Mayfield as investors, but their strategy is different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2607.502,
+            2616.766
+          ],
+          "quote": "And now time has come for me and Mayfield to go invest in other areas at the early stages because we already made the bets, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2851.315,
+            2853.696
+          ],
+          "quote": "There was a lot of discussion even at Mayfield.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            4309.304,
+            4313.286
+          ],
+          "quote": "What does Mayfield do or maybe you specifically when you're investing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4353.426,
+            4360.231
+          ],
+          "quote": "So first and foremost, we need to be aligned that Mayfield can get behind your mission and vision.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4387.319,
+            4391.12
+          ],
+          "quote": "So Mayfield has a team which helps with hiring because it's hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1163,
+          "t": [
+            4413.111,
+            4416.673
+          ],
+          "quote": "It's like being Mayfield believes we're in the service business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1184,
+          "t": [
+            4494.44,
+            4498.282
+          ],
+          "quote": "There are entrepreneurs who want that, but Mayfield doesn't make such a product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1188,
+          "t": [
+            4504.545,
+            4507.447
+          ],
+          "quote": "Mayfield is not going to be an investor in every company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            4655.906,
+            4657.588
+          ],
+          "quote": "Mayfield is not the right one for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1296,
+          "t": [
+            4914.128,
+            4920.032
+          ],
+          "quote": "I have learned playing cricket, being the captain, and as the managing partner of Mayfield, failures are mine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            4927.338,
+            4930.579
+          ],
+          "quote": "Guess what the average tenure of an employee at Mayfield is?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            4954.027,
+            4960.392
+          ],
+          "quote": "We go back 25 years or they were our entrepreneurs for 10 years and now 7 years at Mayfield.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4970.219,
+            4971.6
+          ],
+          "quote": "Mayfield has no product for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1324,
+          "t": [
+            4983.618,
+            4984.861
+          ],
+          "quote": "That's the Mayfield DNA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1481,
+          "t": [
+            5476.343,
+            5481.17
+          ],
+          "quote": "And then I got the opportunity to be the managing partner of Mayfield.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1488,
+          "t": [
+            5498.133,
+            5509.699
+          ],
+          "quote": "Mayfield approached me and said, hey, why don't you come in and help us create our India investment strategy, create a team, and let's see where it goes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1572,
+          "t": [
+            5747.346,
+            5748.967
+          ],
+          "quote": "I'm representing Mayfield.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1629,
+          "t": [
+            5970.815,
+            5978.897
+          ],
+          "quote": "Anthropic and OpenAI wasn't a product for Mayfield, but I was able to invest personally in a few of them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Anthropic 是 2021 年成立的模型公司，正接近万亿美元市值，是有史以来增长最快的公司之一，筹集了数百亿美元且大部分进入 CapEx",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            632.758,
+            640.48
+          ],
+          "quote": "They have to spend money with cloud providers and to go to the scale of an Anthropic or OpenAI, that's the kind of money you need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            649.204,
+            659.192
+          ],
+          "quote": "If you look at it with tens of billions of dollars raised by Anthropic and OpenAI or even more, the bulk of the money went into CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            676.718,
+            679.679
+          ],
+          "quote": "Like it's not like Anthropic is just burning tens of billions of dollars on",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            939.404,
+            944.047
+          ],
+          "quote": "But the anomaly is there are two model companies, Anthropic started in 2021 and is approaching.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1137.627,
+            1142.851
+          ],
+          "quote": "Like once Anthropic is Anthropic, I can understand the 10 billion dollar round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1560.002,
+            1563.084
+          ],
+          "quote": "So how can innovation... Anthropic and OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1629,
+          "t": [
+            5970.815,
+            5978.897
+          ],
+          "quote": "Anthropic and OpenAI wasn't a product for Mayfield, but I was able to invest personally in a few of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1631,
+          "t": [
+            5985.212,
+            6002.5
+          ],
+          "quote": "I actually, there's at least one firm that everyone here right now probably knows of the firm, I won't say, but they actually had to increase their fund size to participate with the minimum check size in one of those Anthropic rounds and significantly changed the size of the fund.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 是需要巨额资本训练模型的万亿美元级公司之一，其规模让年收入千亿的模型公司连小订单的电话都不接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            632.758,
+            640.48
+          ],
+          "quote": "They have to spend money with cloud providers and to go to the scale of an Anthropic or OpenAI, that's the kind of money you need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            649.204,
+            659.192
+          ],
+          "quote": "If you look at it with tens of billions of dollars raised by Anthropic and OpenAI or even more, the bulk of the money went into CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1037.073,
+            1052.399
+          ],
+          "quote": "So you forward and say, man, how many Anthropics, how many OpenAI you need to create to hit that 30 trillion number, which is going to be needed to be able to justify all these private valuations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1249.874,
+            1251.255
+          ],
+          "quote": "OpenAI, Dropbox, and Ramp",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1560.002,
+            1563.084
+          ],
+          "quote": "So how can innovation... Anthropic and OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1629,
+          "t": [
+            5970.815,
+            5978.897
+          ],
+          "quote": "Anthropic and OpenAI wasn't a product for Mayfield, but I was able to invest personally in a few of them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 股价涨了 1000 倍，是公开市场上 AI 的纯代理标的之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 587,
+          "t": [
+            2416.748,
+            2418.33
+          ],
+          "quote": "NVIDIA is a good example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2575.932,
+            2577.253
+          ],
+          "quote": "NVIDIA is up 1000x.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude 被用作搜索和答案工具，且嘉宾个人在过去 12 个月完全投入使用 Claude，思想领导力产出提升了 10 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1201.948,
+            1207.649
+          ],
+          "quote": "Get the answers you need while building directly in the tools you are already in, like Claude, Cursor, Lovable, and more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1716.801,
+            1725.646
+          ],
+          "quote": "The inference models are training and then they get used for search and answers, ChatGPT, Gemini, what Claude does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1810.771,
+            1812.752
+          ],
+          "quote": "Claude is bigger than that Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 976,
+          "t": [
+            3735.118,
+            3740.482
+          ],
+          "quote": "And we'll talk about maybe like how OpenClaude is Linux and Claude is the new browser.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            4069.031,
+            4073.476
+          ],
+          "quote": "If your ticket sizes are lower, why in the right mind Claude is going after that market?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1643,
+          "t": [
+            6041.194,
+            6043.094
+          ],
+          "quote": "I'm just on Claude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1652,
+          "t": [
+            6071.254,
+            6080.482
+          ],
+          "quote": "When I look at these new things, I was like writing once a month before Claude, a lot of research had to be done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1653,
+          "t": [
+            6080.503,
+            6088.25
+          ],
+          "quote": "And we have a lean team, but with Claude, I'm up to two to three a week.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是 AI 栈应用层的发展方向，应用程序正变得无头化，只有智能体在使用；智能体公司需去碎片化市场、用按结果付费模式、做跨软件的开放平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1211.79,
+            1216.591
+          ],
+          "quote": "Measure quality, debug failures, experiment, and measure their ROI with agent analytics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1227.48,
+            1239.227
+          ],
+          "quote": "The hardest part about building an agent is everything around it, connecting to the tools your team and customers rely on, letting agents take action with the right permissions, and keeping everything reliable and cost efficient once you're in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2745.192,
+            2756.036
+          ],
+          "quote": "So they are more seasoned in some layers and they are more inexperienced in certain other areas because, see, you're creating an agent for finance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            2779.956,
+            2786.179
+          ],
+          "quote": "But if I'm building a sales agent and the market doesn't exist, it's the net new thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3642.291,
+            3645.453
+          ],
+          "quote": "Do you have any AI agent portfolio companies?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3775.527,
+            3787.174
+          ],
+          "quote": "So if you are a agent company, first you need to solve domain specific problems and vertical specific problems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3925.132,
+            3929.994
+          ],
+          "quote": "If I'm a SaaS company, I create an agent, man that only works with my software.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理工作负载目前不到 10%，但推理比训练大 10 倍，当推理增长时硬件 CapEx 将继续增长；推理被比喻为跑在训练高速公路上的'车'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            794.092,
+            796.633
+          ],
+          "quote": "And for inference, you need to bring your own data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1716.801,
+            1725.646
+          ],
+          "quote": "The inference models are training and then they get used for search and answers, ChatGPT, Gemini, what Claude does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1738.798,
+            1743.921
+          ],
+          "quote": "That's why so much CapEx is going, but inference workloads are less than 10%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1744.682,
+            1751.287
+          ],
+          "quote": "So when inference grows, the CapEx on hardware is going to keep growing, maybe in the training",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1752.288,
+            1758.031
+          ],
+          "quote": "Innings, maybe we are third or fourth on infrastructure innings, but in inference, it's just the start.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1759.372,
+            1761.834
+          ],
+          "quote": "So you think we're going to need a lot more inference infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1792.601,
+            1798.684
+          ],
+          "quote": "CAPEX is being spent on training and you're building the inference infrastructure, but somebody has to buy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1854.865,
+            1857.086
+          ],
+          "quote": "Like I look at inference as the cars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2049.128,
+            2053.532
+          ],
+          "quote": "To be able to either train or to be able to do inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1566,
+          "t": [
+            5723.614,
+            5728.997
+          ],
+          "quote": "It's like in the edge, inference, GPU, systems market, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1568,
+          "t": [
+            5734.259,
+            5736.981
+          ],
+          "quote": "The growth is like just crazy on inference.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 和 AI 加速器已经存在但连接它们是巨大瓶颈，铜线无法超过一米，需要光通信连接；模型公司大部分资金花在 GPU 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 657,
+          "t": [
+            2632.328,
+            2633.609
+          ],
+          "quote": "Three can build GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2695.653,
+            2701.097
+          ],
+          "quote": "I'm not going to back somebody who's building a GPU who has never built one before, or I'm not going to back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1566,
+          "t": [
+            5723.614,
+            5728.997
+          ],
+          "quote": "It's like in the edge, inference, GPU, systems market, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            994.592,
+            996.413
+          ],
+          "quote": "And we know SaaS, what happened to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1004.916,
+            1006.12
+          ],
+          "quote": "of SaaS Unicons.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1034.509,
+            1035.51
+          ],
+          "quote": "SaaS was only 5.8.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1677.105,
+            1684.851
+          ],
+          "quote": "I think what happened with the software run, whether it was cloud and SaaS, it went for like 15 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2305.22,
+            2306.801
+          ],
+          "quote": "And you say, oh, SaaS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2306.842,
+            2307.442
+          ],
+          "quote": "I love SaaS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2343.874,
+            2345.055
+          ],
+          "quote": "Yeah, it was SaaS, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2345.095,
+            2352.984
+          ],
+          "quote": "Like basically, the forward multiple of private companies was 25 to 30x on revenues, SaaS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2439.282,
+            2440.443
+          ],
+          "quote": "SaaS, there are hundreds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2554.809,
+            2557.172
+          ],
+          "quote": "I don't know, SaaS is the next decade.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3722.93,
+            3726.493
+          ],
+          "quote": "All traditional SaaS companies can come after it, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 997,
+          "t": [
+            3821.877,
+            3823.197
+          ],
+          "quote": "But we saw that in SaaS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            3857.523,
+            3862.727
+          ],
+          "quote": "And that becomes the crux of the problem with the SaaS companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1010,
+          "t": [
+            3863.728,
+            3869.572
+          ],
+          "quote": "So if SaaS companies have 5 billion in revenues, 10 billion in revenues, really?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            3906.904,
+            3909.526
+          ],
+          "quote": "That's not the value proposition of a SaaS company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3925.132,
+            3929.994
+          ],
+          "quote": "If I'm a SaaS company, I create an agent, man that only works with my software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1032,
+          "t": [
+            3955.283,
+            3961.805
+          ],
+          "quote": "And building an agentic business is very different than building a SaaS business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            4042.243,
+            4046.064
+          ],
+          "quote": "And if you're competing with a SaaS company, what are one or two things?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            4065.066,
+            4068.21
+          ],
+          "quote": "Because that's a separate market what SaaS did to enterprise software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            4151.279,
+            4159.422
+          ],
+          "quote": "That's the bet you're making because incumbents like, and you and I talked about it, SaaS companies, their markets didn't exist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4266.222,
+            4270.025
+          ],
+          "quote": "One day it's cloud, next day it's SaaS, next day it is crypto.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练 (training)",
+      "file": "训练",
+      "primary": false,
+      "how_described": "本集说训练基础设施还没完全建好，大量 CapEx 砸进了训练设施，训练被比喻为正在修建的'高速公路'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1712.739,
+            1716.2
+          ],
+          "quote": "So these two plays I'm talking about, one is training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1716.801,
+            1725.646
+          ],
+          "quote": "The inference models are training and then they get used for search and answers, ChatGPT, Gemini, what Claude does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1734.034,
+            1738.337
+          ],
+          "quote": "So still, the training infrastructure is not fully built.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1744.682,
+            1751.287
+          ],
+          "quote": "So when inference grows, the CapEx on hardware is going to keep growing, maybe in the training",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1762.515,
+            1764.776
+          ],
+          "quote": "And that's where it's 10x bigger than training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1775.732,
+            1790.289
+          ],
+          "quote": "If AI adoption doesn't happen at the pace at which the training infrastructure was built, there'll be a slowdown and there'll be a huge market correction and in semiconductors and hardware and even in models, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1792.601,
+            1798.684
+          ],
+          "quote": "CAPEX is being spent on training and you're building the inference infrastructure, but somebody has to buy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2105.599,
+            2111.221
+          ],
+          "quote": "And we're going to know today because of training infrastructure, every hardware company is even sold out next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2140.489,
+            2143.99
+          ],
+          "quote": "And today the highways are equivalent to building training infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2144.591,
+            2157.897
+          ],
+          "quote": "Once the training infrastructure is built, and like what happened, if you go back 100 years, the people who built railroads, the Vanderbilt, people who built the oil,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2259.838,
+            2264.54
+          ],
+          "quote": "That's why they have to keep spending money on training, data labeling,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2278.362,
+            2280.843
+          ],
+          "quote": "So that's where the training infrastructure is going.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 861,
+          "t": [
+            3281.794,
+            3283.095
+          ],
+          "quote": "Let me do training.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semiconductor",
+      "type": "concept",
+      "role": "concept",
+      "name": "半导体 (semiconductor)",
+      "file": "半导体",
+      "primary": false,
+      "how_described": "本集说半导体需要巨额资本——流片一颗芯片要 3 到 4 亿美元，一半花在 IP 授权、EDA 工具和制造上；半导体股票以 S&P 两倍的倍数交易",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            774.639,
+            777.241
+          ],
+          "quote": "It starts with hardware, the semiconductor layer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1614.76,
+            1616.621
+          ],
+          "quote": "They're like 2X semiconductor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1624.874,
+            1626.254
+          ],
+          "quote": "You're saying semiconductor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1626.274,
+            1626.694
+          ],
+          "quote": "Semiconductor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2504.238,
+            2506.56
+          ],
+          "quote": "15-20 semiconductor hardware bets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2577.994,
+            2580.216
+          ],
+          "quote": "The semiconductor stock index is up 40x.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "按结果付费 (outcome based)",
+      "file": "按结果付费",
+      "primary": false,
+      "how_described": "本集说 AI 智能体正在将商业模式从订阅转向按结果付费——企业说'你不干活我不付钱，不付订阅费'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 885,
+          "t": [
+            3381.112,
+            3385.474
+          ],
+          "quote": "They're changing the model from subscription to outcome based.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            4008.46,
+            4014.247
+          ],
+          "quote": "And lower ticket sizes and innovation on business model, outcome-based pricing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inception",
+      "type": "concept",
+      "role": "concept",
+      "name": "inception 阶段 (inception)",
+      "file": "inception 阶段",
+      "primary": false,
+      "how_described": "本集说 inception 阶段是创始人连产品都没有、只有纸笔想法的阶段，Mayfield 70% 的投资在此阶段，且只看人不看想法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            326.868,
+            335.94
+          ],
+          "quote": "And 70% of the investments we have done are at the inception stage, essentially paper and pencil ideas before the entrepreneur even has a product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            378.178,
+            385.24
+          ],
+          "quote": "But pure early stage investing, 70% is inception, paper and pencil ideas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            394.767,
+            401.615
+          ],
+          "quote": "So we do seed, which is inception stage, bigger checks, not one, two million, high conviction, do a few things, do them well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1066.068,
+            1074.749
+          ],
+          "quote": "And so what do you think is the right way to approach it if you are a seed stage, inception stage, series A investor?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1262.822,
+            1273.23
+          ],
+          "quote": "So since 70% of Mayfield's investments are at the inception stage, we try to back founders who are authentic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1372.416,
+            1380.322
+          ],
+          "quote": "So for example, horizontal models, transformer-based models at the inception stage, we don't just have the capital to play.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1418.62,
+            1424.301
+          ],
+          "quote": "Like may feel specialization is inception stage, people first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1512.7,
+            1516.743
+          ],
+          "quote": "Inception stage business, entrepreneurship at paper and pencil is hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2637.671,
+            2640.053
+          ],
+          "quote": "But to go to inception stage is hard work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2845.659,
+            2849.586
+          ],
+          "quote": "When I did Poshmark again at the inception stage,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 954,
+          "t": [
+            3646.874,
+            3649.537
+          ],
+          "quote": "Early stage, at the inception.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1526,
+          "t": [
+            5624.343,
+            5626.845
+          ],
+          "quote": "I've only reached 40, 50 billion from inception.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1633,
+          "t": [
+            6005.841,
+            6009.003
+          ],
+          "quote": "We had inception and early rounds.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fomo",
+      "type": "concept",
+      "role": "concept",
+      "name": "FOMO",
+      "file": "FOMO",
+      "primary": false,
+      "how_described": "本集说 FOMO 是给绵羊准备的，很多人追着明显已经跑出来的项目塞钱不是判断力而是 FOMO，导致某些层级过度资本化 10 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            951.211,
+            960.558
+          ],
+          "quote": "So there is a lot of FOMO among people who missed it and want to fund the next thing, the next thing and next thing, because the price is so big.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1130.102,
+            1131.603
+          ],
+          "quote": "But I think it's driven by FOMO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1152.557,
+            1154.078
+          ],
+          "quote": "But I think FOMO is for sheep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1319.48,
+            1320.661
+          ],
+          "quote": "And not have FOMO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1637,
+          "t": [
+            6018.886,
+            6021.168
+          ],
+          "quote": "We have a core focus, no FOMO.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1",
+  "audio_mp3": "https://anchor.fm/s/8c1524bc/podcast/play/123874113/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-6%2F429363789-44100-2-e2c4dd8914daf.mp3",
+  "duration_sec": 2523.803,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 541,
+  "asr": true,
+  "title_en": "Garry Tan: Own Your Intelligence",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-06",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1786044493780-9c6135490eda.jpg",
+  "added": "2026-08-23",
+  "speaker_map": {
+    "SPEAKER_00": "Garry Tan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Garry Tan",
+  "cohosts": [],
+  "title_zh": "个人 AGI：用 Markdown 组建你自己的劳动力",
+  "guest_name": "Garry Tan",
+  "guest_title": "YC 合伙人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1786044493780-9c6135490eda.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-08-23T01:45:43.720Z"
+  }
+}

@@ -98,7 +98,7 @@ Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目�
 
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、Apple、Microsoft · 同概念:云计算 (cloud)</span>
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|AI 泡沫的数学与早期投资的真实打法]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

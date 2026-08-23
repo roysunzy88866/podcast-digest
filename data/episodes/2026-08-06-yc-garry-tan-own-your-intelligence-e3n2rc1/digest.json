@@ -1,0 +1,225 @@
+{
+  "title_zh": "个人 AGI：用 Markdown 组建你自己的劳动力",
+  "tldr": "一位 YC 合伙人提出\"个人 AGI\"概念——不是等数据中心里的神，而是用你的上下文加上智能体，构建一个属于你自己的、不断复利增长的劳动力。",
+  "digest_md": "AGI 不会作为一个事件降临，不会有某天天空变色。它已经在房间里了，散布在基础设施里，一个终端窗口，一个在你睡觉时完成的任务。它不是数据中心里的神，而是你的智能体，在你的上下文上运行，做你的工作 [05:08 Unknown]。\n\n这里有一个关键区分。每月付钱用的聊天机器人、稍微好点的自动补全、只知道你日历的助手——那只是你租用的订阅，是公司 AGI，你不拥有它，关掉标签页就重置，公司一转型你的助手就被\"脑叶切除\"。个人 AGI 是另一种东西：一个在你自己的基础设施上运行、从你拥有的记忆中读取、执行你写的流程、并且每天复利增长的智能体。公司 AGI 只有在公司发布更新时才变好，你的个人 AGI 每用一天就多知道一点你的生活——一个是消费品，一个是你构建的资产 [06:26 Unknown]。\n\n## 400 倍来自哪里：上下文，不是权重\n\n2013 年做 YC 合伙人时，全职运营 YC 加上晚上写代码，每天大概产出 14 行有用的代码——正好是程序员生产力的中位数。同样的大脑、同样的小时数，现在加上下午 5 点接孩子，算下来产出大约是 2013 年的 400 倍。即使你施加最极端的惩罚——假设一半是脚手架、假设自欺欺人——底线仍然是 8 倍，中间值是 10 倍 [08:07 Unknown]。\n\n杠杆不在模型权重里。用同一个 Claude、同样的上下文窗口，有人只拿到 2 倍提升，有人拿到 100 倍。差别在于你给模型什么上下文、多相关、以及它是否在正确的步骤介入 [10:06 Unknown]。\n\n这不是个别现象。一年半前 YC 的 Winter 25 批次，四分之一的公司代码库 95% 是 AI 生成的，这些公司把智能体用在所有事情上，不只是代码。这个批次正在成为 YC 历史上增长最快、最盈利的批次之一 [09:31 Unknown]。\n\n## 工作记忆的差距：七位数 vs 一千页\n\n人类的工作记忆一次只能保持大约七件事——七加或减二。这就是为什么电话号码是七位、为什么你会忘记清单上的第八件东西。人类建立的每一个机构——检查清单、组织架构图、档案柜、站会——本质上都是对这个限制的义肢 [12:50 Unknown]。\n\n一个 AI 智能体能容纳一百万个 token，大约一千页，相当于三本《哈利·波特》同时在头顶摊开，还能在几秒内跨三本书找到一根针并综合。七位数对三本书——这还不是完全的 AGI，但已经是不同的运行机制了 [13:27 Unknown]。\n\n但一千页同时也很少。你的生活不是三本书，是一座图书馆——每一封邮件、每一次会议、每个决定和背后的原因。决定你的智能体是天才还是金鱼的关键问题是：谁决定桌上打开哪三本书？这就是\"大脑\"的本质——图书馆加上图书管理员 [14:08 Unknown]。\n\n## 技能文件：Markdown 就是代码\n\n整个架构的核心其实非常不神奇。主要是技能文件——用英文写的、描述如何完成一项任务的页面——加上一个智能体可以驱动的浏览器，以及一种作用于世界的方式。Markdown，不是魔法。胖技能，瘦线束 [16:45 Unknown]。\n\n一个真实的技能文件长这样：当收到会议录音时，用说话人标签转录，提取承诺、谁做的、截止日期；对照资料库交叉核对每个提到的人并链接他们的页面；摘要归这里，逐字稿归那里；如果任何内容与已知信息矛盾就标记出来。就这样。一个聪明的实习生能照着做，智能体就能运行 [17:06 Unknown]。\n\n测试标准很简单：如果聪明的实习生能照着做，智能体就能运行。这意味着一件事——Markdown 实际上就是代码。如果你能用英文写出清晰的指令，你就是程序员，编译器就是语言模型。YC 的媒体人员、活动员工、财务团队，这些从没打开过终端的人都在构建技能文件和定时任务 [17:47 Unknown]。\n\n## 两个空间：别让模型做它不擅长的事\n\n所有智能体失败的根源，都来自于混淆了两种计算。品味、判断、从模糊请求中解读人类真正想要的东西——这属于潜在空间，存在于模型中，你用 Markdown 文件引导它。算术、SQL 查询、给 6,000 人排座位表——这属于确定性空间，必须存到数据库里由代码处理 [18:32 Unknown]。\n\n让智能体安排五个人围坐一桌，容易。让它为 6,000 人制定定制时间表，潜在空间的智能体必须写代码来追踪，没有代码做不到。模型在我们失败的地方失败——解决办法是让模型以人类计算的方式计算：潜在空间加确定性空间，Markdown 文件调用数据库和脚本 [19:07 Unknown]。\n\n## 五步实操：从今晚开始\n\n**第一步，今晚**：选一个套件在你自己的机器上跑一个智能体。OpenClaw、Hermes Agent、Claude Code、Codex 都行，重点在概念，不在特定产品 [24:28 Unknown]。\n\n**第二步，这个周末**：开始建你的库。一个 Markdown 文件夹，导出笔记和邮件，为每个项目和每个合作者写一页——你们在做什么、他们关心什么、你欠他们什么、上次说了什么。这些是地球上任何模型都没有的东西，因为它只存在于你脑子里。第一次智能体用你的上下文而不是互联网回答问题时，你会感到那种顿悟 [25:07 Unknown]。\n\n**第三步**：写第一个技能文件。选你每周最讨厌的任务——费用报告、会议记录、每周状态更新——用大白话解释给智能体听，就像给工作第一天的聪明朋友解释。然后让它出错，错了就纠正，把每条规则、每个例外都加进去。那一页现在就是一个员工 [26:04 Unknown]。\n\n**第四步**：把它接成循环任务。每天早上七点做这个，每周五总结那个。第一次你醒来发现工作在你睡觉时已经完成，你脑子里会发生永久性的转变——\"一天\"不再是你的工作单位 [26:41 Unknown]。\n\n**第五步，最关键的纪律**：永远不做一次性工作。每个任务结束时，让智能体把它的行为\"技能化\"——变成一个可以永远重复使用的 Markdown 文件。如果你必须把一件事请求两次，你就失败了。每天早上醒来就失忆的人是在浪费时间，模型变得多好也没用 [27:13 Unknown]。\n\n## 警告：没人整理的大脑是垃圾场\n\n检索会以绝对的自信抛出一个陈旧的事实，一个糟糕的技能文件会把糟糕的流程永远编码下来。原语是记忆加上卫生：每个事实的来源追溯、新旧信息冲突时的矛盾检查、一个实际工作是修剪的图书管理员。把大脑当生产基础设施对待，它就复利；当倾倒场，你得到一个自信但以没人能追踪的方式出错的智能体 [23:33 Unknown]。\n\n## 技能文件的所有权：谁控制它，就是两个相反的未来\n\n同一个支持工程师 Maya，两年教会智能体 40 个技能——凌晨两点分流 P0、安抚即将流失的客户、写真正能防止下次事故的复盘。版本一：文件在 Maya 自己的仓库里，换工作时带走，入职第一天就带着多年积累的判断力，每年都在复利——那是所有权。版本二：文件在公司仓库里，Maya 离开时什么也带不走，公司没有她也在运行她的判断力，40 个文件永远执行，她名字不在提交历史里——她没有职业生涯，她经历了一场认知提取 [29:28 Unknown]。\n\n工匠拥有自己的工具，那是他们自由的原因。工厂打破了这一点，织布机属于磨坊。知识工作者以为自己是安全的，因为工具在脑子里没人能没收。技能文件改变了这一点——历史上第一次，你的认知可以被提取、存储、版本化和拥有。唯一的问题是：由谁拥有？ [31:11 Unknown]\n\n从第一天起就把你的大脑和技能放在你控制的仓库里。\n\n## 回应三个异议\n\n**模型改进太快，这些东西会过时？** 每次模型发布，差异化因素反而更转移到上下文。当每个人的引擎都是 1000 马力，胜负取决于驾驶员和地图。更好的模型让你的库更有价值，因为更聪明的读者从同样的书里提取更多 [33:39 Unknown]。\n\n**这只是 RAG？** 检索是原语，不是产品。困难的部分是周围的一切：写什么、如何丰富和链接、什么提升到热内存什么归为冷参考、两个事实冲突时谁仲裁。检索容易，值得从中检索才是产品 [34:26 Unknown]。\n\n**隐私怎么办？** 把整个生活放一个系统里，泄露了怎么办？答案和整个演讲一样：正因为如此它必须属于你。你的生活已经散布在 10 个云端，那些公司的利益不是你的，除了你之外谁都能搜索。你没有通过整合上下文制造风险，你接管了它。如果你不信任自己持有密钥，答案不是更相信别人的服务条款 [34:50 Unknown]。\n\n## 本集带走\n\n- **个人 AGI 的公式**：租来的前沿模型 + 你独有的上下文 + 连接它们的线束 = 一个非常快速版本的你自己。模型质量是租的，上下文是你拥有的资产。\n- **杠杆在上下文，不在权重**：同样一个 Claude，2 倍和 100 倍的差别在于你给什么上下文、多相关、是否在正确步骤介入。\n- **技能文件就是员工**：用大白话写清楚一项任务怎么做，聪明的实习生能照着做，智能体就能运行。Markdown 就是代码，编译器就是语言模型。\n- **分清两种计算**：品味和判断留给潜在空间（模型），算术和逻辑交给确定性空间（代码+数据库）。混淆两者是所有智能体失败的根源。\n- **五步起步**：今晚选套件跑起来 → 周末建一个 Markdown 文件夹写项目和人的页面 → 选最讨厌的周任务写成技能文件 → 接成循环任务 → 每次任务结束都\"技能化\"，绝不扔掉上下文。\n- **从第一天起把技能文件放在你控制的仓库里**：同样的技能，你控制就是资产在复利，公司控制就是你的认知被提取。不要接受\"一千荷兰盾\"让你闭嘴停止构建的安排。",
+  "quotes": [
+    {
+      "en": "Hear that in founder terms. They've offered him a salary to stop building.",
+      "zh": "用创始人的术语来听听这个。他们给他提供了一份薪水让他停止构建。",
+      "timestamp": "02:42",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "400 years later, we are making a similar mistake about intelligence.",
+      "zh": "400 年后，我们在关于智能方面正在犯一个类似的错误。",
+      "timestamp": "05:08",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "And when the company behind it pivots, your so-called assistant gets a lobotomy on someone else's schedule.",
+      "zh": "而当其背后的公司转型时，你所谓的助手就会按照别人的时间表接受脑叶切除。",
+      "timestamp": "06:54",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "One of these is a product you consume. The other is an asset you build.",
+      "zh": "其中一个是你要消费的产品。另一个是你构建的资产。",
+      "timestamp": "07:26",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "But the leverage is not in the weights. It's in what context you give it, how relevant it is, and does it happen at the right step.",
+      "zh": "但杠杆不在于权重。而在于你给它什么样的上下文，它有多相关，以及它是否发生在正确的步骤。",
+      "timestamp": "10:15",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "You could argue that's not quite AGI yet, but it is already a different operating regime.",
+      "zh": "你可能会认为这还不是完全的 AGI，但它已经是一种不同的运行机制。",
+      "timestamp": "13:49",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "Markdown, not magic. Fat skills, thin harness.",
+      "zh": "Markdown，而不是魔法。胖技能，瘦线束。",
+      "timestamp": "16:56",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "A brain nobody curates is a garbage dump with great search.",
+      "zh": "一个没有人整理的大脑就是一个拥有伟大搜索功能的垃圾场。",
+      "timestamp": "23:37",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "If you have to ask for something twice, you failed.",
+      "zh": "如果你必须把一件事请求两次，你就失败了。",
+      "timestamp": "27:51",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "Every skill you teach an agent is you, externalized.",
+      "zh": "你教给智能体的每一个技能都是外在化的你。",
+      "timestamp": "29:38",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "She didn't have a career, she had an extraction.",
+      "zh": "她没有过职业生涯，她经历了一场提取。",
+      "timestamp": "30:49",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "The better the models get, the more the differentiator moves to context.",
+      "zh": "模型变得越好，差异化因素就越转移到上下文。",
+      "timestamp": "33:51",
+      "speaker": "Garry Tan"
+    },
+    {
+      "en": "Then I look at what the loudest dunkers are actually shipping, and it's agents all the way down.",
+      "zh": "然后我看那些声音最大的嘲讽者实际发布的是什么，那是一路到底的 agents。",
+      "timestamp": "38:01",
+      "speaker": "Garry Tan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:15",
+      "speaker": "Unknown",
+      "en": "So it's only right that I start my talk with a story about one of the most canceled men in history.",
+      "zh": "所以我以一个关于历史上最受抵制的男子的故事来开始我的演讲是再合适不过了。"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Unknown",
+      "en": "Hear that in founder terms. They've offered him a salary to stop building.",
+      "zh": "用创始人的术语来听听这个。他们给他提供了一份薪水让他停止构建。"
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Unknown",
+      "en": "He said, no, not for 10,000, he said. He wanted truth, not comfort.",
+      "zh": "他说，不，不为了 10,000，他说。他想要真理，而不是舒适。"
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Unknown",
+      "en": "400 years later, we are making a similar mistake about intelligence.",
+      "zh": "400 年后，我们在关于智能方面正在犯一个类似的错误。"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Unknown",
+      "en": "And the thing they're watching for is already in the room.",
+      "zh": "而他们注视的东西已经在房间里了。"
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Unknown",
+      "en": "It resets when you close the tab. It knows what everyone else already knows.",
+      "zh": "当你关闭标签页时它就会重置。它只知道其他人已经知道的事情。"
+    },
+    {
+      "timestamp": "06:54",
+      "speaker": "Unknown",
+      "en": "And when the company behind it pivots, your so-called assistant gets a lobotomy on someone else's schedule.",
+      "zh": "而当其背后的公司转型时，你所谓的助手就会按照别人的时间表接受脑叶切除。"
+    },
+    {
+      "timestamp": "07:29",
+      "speaker": "Unknown",
+      "en": "One of these is a product you consume. The other is an asset you build.",
+      "zh": "其中一个是你要消费的产品。另一个是你构建的资产。"
+    },
+    {
+      "timestamp": "09:02",
+      "speaker": "Unknown",
+      "en": "The number is large no matter how you torture it.",
+      "zh": "无论你怎么折腾，这个数字都很大。"
+    },
+    {
+      "timestamp": "10:15",
+      "speaker": "Unknown",
+      "en": "But the leverage is not in the weights. It's in what context you give it, how relevant it is, and does it happen at the right step.",
+      "zh": "但杠杆不在于权重。而在于你给它什么样的上下文，它有多相关，以及它是否发生在正确的步骤。"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Unknown",
+      "en": "You could argue that's not quite AGI yet, but it is already a different operating regime.",
+      "zh": "你可能会认为这还不是完全的 AGI，但它已经是一种不同的运行机制。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Unknown",
+      "en": "Who decides or what decides which three books are open on the desk?",
+      "zh": "谁决定或者什么决定哪三本书在桌子上打开？"
+    },
+    {
+      "timestamp": "16:56",
+      "speaker": "Unknown",
+      "en": "Markdown, not magic. Fat skills, thin harness.",
+      "zh": "Markdown，而不是魔法。胖技能，瘦线束。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Unknown",
+      "en": "Markdown is actually code. If you can write clear instructions in English, you're a programmer. The compiler is a language model.",
+      "zh": "Markdown 实际上就是代码。如果你能用英文写出清晰的指令，你就是程序员。编译器就是语言模型。"
+    },
+    {
+      "timestamp": "23:37",
+      "speaker": "Unknown",
+      "en": "A brain nobody curates is a garbage dump with great search.",
+      "zh": "一个没有人整理的大脑就是一个拥有伟大搜索功能的垃圾场。"
+    },
+    {
+      "timestamp": "24:02",
+      "speaker": "Unknown",
+      "en": "Treat the brain like production infrastructure and it compounds.",
+      "zh": "把大脑当作生产基础设施来对待，它就会复利增长。"
+    },
+    {
+      "timestamp": "27:51",
+      "speaker": "Unknown",
+      "en": "If you have to ask for something twice, you failed.",
+      "zh": "如果你必须把一件事请求两次，你就失败了。"
+    },
+    {
+      "timestamp": "29:38",
+      "speaker": "Unknown",
+      "en": "Every skill you teach an agent is you, externalized.",
+      "zh": "你教给智能体的每一个技能都是外在化的你。"
+    },
+    {
+      "timestamp": "30:49",
+      "speaker": "Unknown",
+      "en": "She didn't have a career, she had an extraction.",
+      "zh": "她没有过职业生涯，她经历了一场提取。"
+    },
+    {
+      "timestamp": "33:51",
+      "speaker": "Unknown",
+      "en": "The better the models get, the more the differentiator moves to context.",
+      "zh": "模型变得越好，差异化因素就越转移到上下文。"
+    },
+    {
+      "timestamp": "34:02",
+      "speaker": "Unknown",
+      "en": "When everyone's engine is 1,000 horsepower, the race is won on the driver and the map.",
+      "zh": "当每个人的引擎都是 1000 马力时，比赛的胜负取决于驾驶员和地图。"
+    },
+    {
+      "timestamp": "38:06",
+      "speaker": "Unknown",
+      "en": "Then I look at what the loudest dunkers are actually shipping, and it's agents all the way down.",
+      "zh": "然后我看那些声音最大的嘲讽者实际发布的是什么，那是一路到底的 agents。"
+    },
+    {
+      "timestamp": "39:47",
+      "speaker": "Unknown",
+      "en": "That fact just expired.",
+      "zh": "那个事实刚刚过期。"
+    }
+  ]
+}

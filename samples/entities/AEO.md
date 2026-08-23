@@ -33,7 +33,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Google]] · [[Lenny]] · [[Matt Swulinski]] · [[Ethan Smith]] · [[Harry Stebbings]] · [[SEO]] · [[Superhuman]] · [[RAG]] · [[Whisper]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":31,"Google":22,"Lenny":65,"Matt Swulinski":1,"Ethan Smith":1,"Harry Stebbings":3,"SEO":2,"Superhuman":4,"RAG":5,"Whisper":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":31,"Google":22,"Lenny":65,"Matt Swulinski":1,"Ethan Smith":1,"Harry Stebbings":3,"SEO":2,"Superhuman":4,"RAG":6,"Whisper":1}</script>
 
 <script>
 (function(){

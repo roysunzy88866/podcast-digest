@@ -29,7 +29,7 @@ unlisted: true
 
 [[Uber]] · [[Airbnb]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Lenny]] · [[Harry Stabbings]] · [[Harry Stebbings]] · [[Nesrine Changuel]] · [[Jason Lamkin]]
 
-<script type="application/json" class="pd-epn">{"Uber":5,"Airbnb":8,"智能体":111,"ChatGPT":31,"OpenAI":48,"Lenny":65,"Harry Stabbings":1,"Harry Stebbings":3,"Nesrine Changuel":1,"Jason Lamkin":1}</script>
+<script type="application/json" class="pd-epn">{"Uber":5,"Airbnb":8,"智能体":113,"ChatGPT":31,"OpenAI":49,"Lenny":65,"Harry Stabbings":1,"Harry Stebbings":3,"Nesrine Changuel":1,"Jason Lamkin":1}</script>
 
 <script>
 (function(){

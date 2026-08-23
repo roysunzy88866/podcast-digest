@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(10:55起):为智能体提供运行环境和工具的外壳;本集指出需要一个聪明的 harness 来决定何时启动核心智能体,并与数据处理引擎共同设计。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(03:10起):本集把它说成:包裹在核心前沿模型外围的代码框架,赋予模型调用工具和推理的能力,使其能够执行多步任务。如果没有极强的 harness,目前模型解决不了困难问题。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(00:27起):本集核心概念。指围绕基础模型搭建的全部代码(包括提示词、记忆、工具、基础设施、钩子与中间件等),旨在让模型在给定任务下表现最好;如果智能体 = 模型 + harness,只要不是模型本身,你写的围绕它的代码就是 harness。
+- **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(11:19起):本集说线束是将前沿模型和你的上下文连接在一起的东西，可以是 OpenClaw、Claude Code 等套件
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(03:29起):本集说它的职责是与模型维持「上下文契约」，确保传入模型的消息列表不触及容量上限或发生上下文腐烂，通过工具按需给模型提供被卸载的数据。
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：围绕模型构建的外部控制框架。当模型进步而安全带不跟着变时,它会变成拖累性能的死重;必须模块化以便随模型演进快速迭代。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(19:36起):本集把它说成：模型上层的编排工具（如 Claude Code、OpenCode），像高功能保姆管住顽童。过去 18 个月的能力提升很大部分来自挽具与后训练，而非动辄十亿美元的预训练。
@@ -26,11 +27,13 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*5 条*
+*6 条*
 
 ![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q4]]
 
 ![[2026-07-31-talks-building-deep-agents-and-deploying-in-pr#^q1]]
+
+![[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1#^q7]]
 
 ![[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil#^q4]]
 
@@ -40,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -50,6 +53,7 @@ unlisted: true
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
+- [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为概念(提及)
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
@@ -59,9 +63,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[OpenAI]] · [[护栏]] · [[Codex]] · [[文件系统]] · [[LangChain]] · [[Deep Agents]]
+[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[上下文]] · [[LangChain]] · [[文件系统]]
 
-<script type="application/json" class="pd-epn">{"智能体":111,"Anthropic":56,"Claude Code":28,"沙箱":23,"OpenAI":48,"护栏":24,"Codex":23,"文件系统":3,"LangChain":3,"Deep Agents":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":113,"Anthropic":57,"Claude Code":29,"沙箱":23,"Codex":24,"OpenAI":49,"护栏":24,"上下文":8,"LangChain":3,"文件系统":3}</script>
 
 <script>
 (function(){

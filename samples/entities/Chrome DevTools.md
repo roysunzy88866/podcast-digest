@@ -25,7 +25,7 @@ unlisted: true
 
 [[Addy Osmani]] · [[智能体]] · [[认知投降]] · [[认知债务]] · [[循环工程]] · [[软件工厂]] · [[Core Web Vitals]] · [[互相放大]] · [[护栏]] · [[Chrome]]
 
-<script type="application/json" class="pd-epn">{"Addy Osmani":1,"智能体":111,"认知投降":2,"认知债务":2,"循环工程":2,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":24,"Chrome":3}</script>
+<script type="application/json" class="pd-epn">{"Addy Osmani":1,"智能体":113,"认知投降":2,"认知债务":2,"循环工程":2,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":24,"Chrome":3}</script>
 
 <script>
 (function(){

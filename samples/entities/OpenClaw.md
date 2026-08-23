@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(45:55起):本集把它说成:攻击面非常大的通用智能体/计算机使用环境。由于它会直接作为用户去操作,Gray Swan 专门为它开发了大量的刹车和护栏。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(31:56起):本集提到的一款需要自行购买硬件(如 Mac mini)并本地部署的开源个人智能体，嘉宾受其切身体验启发，决定把 Co-Founder 做成全云端运行并把短信作为第一交互入口。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(27:05起):一款爆火的智能体应用,它每10分钟向模型发一次心跳检测存活状态,这种奇特机制导致 OpenRouter 的自动路由器迎来了使用量的爆发式增长。
+- **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(11:36起):本集提到 OpenClaw 作为可以选用的智能体线束/套件之一
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(01:07起):本集把它说成:一个让你能通过 WhatsApp 或 Discord 等聊天软件指挥 AI 智能体执行任务的开源工具。八个月内获得超 18,000 人贡献代码,经历过病毒式爆红与 Anthropic 政策变动的生死考验。
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(06:27起):本集说 GrokBot 有点像 OpenClaw Lite，但 OpenClaw 更混乱、技术化、高维护，适合喜欢深度自定义的用户
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(01:04起):本集说它是一个开源 AI 编程工具，首次出现在微软内部时安全团队第一反应是「怎么禁用它」，后来演变成多学科努力使其安全运行，创始人 Peter Steinberger 后来在 Microsoft Build 上谈论如何为其引入安全性
@@ -31,13 +32,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念(提及)
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
+- [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为被讨论公司
@@ -47,9 +49,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Codex]] · [[Lenny]] · [[CLI]] · [[Anthropic]] · [[KV 缓存]] · [[Peter Steinberger]] · [[MCP]] · [[Claire Vo]]
+[[智能体]] · [[Claude Code]] · [[Codex]] · [[Claude]] · [[Lenny]] · [[CLI]] · [[Anthropic]] · [[KV 缓存]] · [[harness]] · [[Peter Steinberger]]
 
-<script type="application/json" class="pd-epn">{"智能体":111,"Claude Code":28,"Codex":23,"Lenny":65,"CLI":2,"Anthropic":56,"KV 缓存":2,"Peter Steinberger":3,"MCP":14,"Claire Vo":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":113,"Claude Code":29,"Codex":24,"Claude":27,"Lenny":65,"CLI":2,"Anthropic":57,"KV 缓存":2,"harness":13,"Peter Steinberger":3}</script>
 
 <script>
 (function(){

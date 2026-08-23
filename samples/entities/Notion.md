@@ -47,7 +47,7 @@ unlisted: true
 
 [[Figma]] · [[智能体]] · [[GitHub]] · [[Anthropic]] · [[Lenny]] · [[OpenAI]] · [[ChatGPT]] · [[Slack]] · [[Matt MacInnis]] · [[Max Schoening]]
 
-<script type="application/json" class="pd-epn">{"Figma":9,"智能体":111,"GitHub":16,"Anthropic":56,"Lenny":65,"OpenAI":48,"ChatGPT":31,"Slack":19,"Matt MacInnis":1,"Max Schoening":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":9,"智能体":113,"GitHub":16,"Anthropic":57,"Lenny":65,"OpenAI":49,"ChatGPT":31,"Slack":19,"Matt MacInnis":1,"Max Schoening":1}</script>
 
 <script>
 (function(){

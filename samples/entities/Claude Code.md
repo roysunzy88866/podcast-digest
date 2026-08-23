@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>29</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:31起):本集将其描述为 Anthropic Labs 团队孵化的前沿产品，它与 Opus 4.5 模型相互成就，作为载体让用户真正感受到了前沿模型的魔力，迎来了爆发式的采用。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(05:42起):本集把它说成:在讨论智能体编码时代新范式时顺带提及的工具之一,代表了两年前到现在的任务复杂度巨变。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:07起):讲者以它为例说明 harness 有多庞大:其源码有约 50 万行代码,全是为了让模型在执行任务时表现最好而构建的;另外提到模型在优化这类编程智能体时接受了大量文件系统数据训练。
+- **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(11:36起):本集提到 Claude Code 作为可以选用的智能体线束/套件之一，比喻为'本田'
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:27起):本集把它说成:直接在终端里写代码的 AI 智能体，它的爆火让原本远离终端的设计师也学起了 GitHub，催生了设计工具向桌面端的进化。
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(03:33起):本集说它是一个系统,涉及如何配置工作流(如使用 ClaudeMD 文件设定分层规则),并且可以被配置在持续集成流水线中运行。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(09:35起):本集把它说成:Anthropic 的编码智能体,在其代码库基准测试中质量虽好但较慢且明显更贵;团队上个月跑了 3300 次该会话,折合 1 万美元 token 价值。
@@ -53,7 +54,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*28 集*
+*29 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
@@ -76,6 +77,7 @@ unlisted: true
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为概念
+- [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
@@ -90,7 +92,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[评估]] · [[Slack]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":111,"Anthropic":56,"Lenny":65,"Codex":23,"Claude":25,"评估":13,"Slack":19,"ChatGPT":31,"OpenAI":48,"Cursor":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":113,"Anthropic":57,"Lenny":65,"Codex":24,"Claude":27,"评估":13,"Slack":19,"ChatGPT":31,"OpenAI":49,"Cursor":27}</script>
 
 <script>
 (function(){

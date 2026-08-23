@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS 末日 (SaaS apocalypse)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS 末日">SA</div><div class="pi"><h1 class="pt">SaaS 末日 (SaaS apocalypse)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS 末日">SA</div><div class="pi"><h1 class="pt">SaaS 末日 (SaaS apocalypse)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*7 条*
+*8 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -26,6 +26,8 @@ unlisted: true
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q2]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q8]]
+
+![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q7]]
 
 ![[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#^q5]]
 
@@ -43,7 +45,7 @@ unlisted: true
 
 [[Max Schoening]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[Heroku]] · [[Anthropic]] · [[OpenAI]] · [[Figma]] · [[主观能动性]] · [[可塑软件]]
 
-<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":65,"Notion":6,"GitHub":16,"Heroku":1,"Anthropic":56,"OpenAI":48,"Figma":9,"主观能动性":13,"可塑软件":1}</script>
+<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":65,"Notion":6,"GitHub":16,"Heroku":1,"Anthropic":57,"OpenAI":49,"Figma":9,"主观能动性":13,"可塑软件":1}</script>
 
 <script>
 (function(){

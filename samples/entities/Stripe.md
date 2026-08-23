@@ -53,7 +53,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Vercel]] · [[ChatGPT]] · [[AI]] · [[PLG]] · [[Replit]] · [[Mistral]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":48,"智能体":111,"Lenny":65,"Anthropic":56,"Vercel":8,"ChatGPT":31,"AI":8,"PLG":4,"Replit":10,"Mistral":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":49,"智能体":113,"Lenny":65,"Anthropic":57,"Vercel":8,"ChatGPT":31,"AI":8,"PLG":4,"Replit":10,"Mistral":5}</script>
 
 <script>
 (function(){

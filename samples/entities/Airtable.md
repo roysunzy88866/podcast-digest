@@ -27,7 +27,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Uber]] · [[OpenAI]] · [[Lenny]] · [[Harry Stabbings]] · [[Peter Deng]] · [[Jason Lamkin]] · [[Brandon Foo]] · [[Canva]] · [[Facebook]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":31,"Uber":5,"OpenAI":48,"Lenny":65,"Harry Stabbings":1,"Peter Deng":1,"Jason Lamkin":1,"Brandon Foo":1,"Canva":3,"Facebook":9}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":31,"Uber":5,"OpenAI":49,"Lenny":65,"Harry Stabbings":1,"Peter Deng":1,"Jason Lamkin":1,"Brandon Foo":1,"Canva":3,"Facebook":9}</script>
 
 <script>
 (function(){

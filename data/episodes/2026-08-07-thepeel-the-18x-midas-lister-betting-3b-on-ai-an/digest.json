@@ -1,0 +1,159 @@
+{
+  "title_zh": "AI 泡沫的数学与早期投资的真实打法",
+  "tldr": "Mayfield 管理合伙人 Navin 聊 AI 资本泡沫的底层数学、智能体公司的竞争策略，以及他做了 30 年早期投资总结出的选人方法。",
+  "digest_md": "今年有五六家公司在基础设施上花了超过 5000 亿美元，但这些钱大量砸进了训练设施——而推理工作负载还不到 10%。如果把训练基础设施比作高速公路，现在路还没修完，跑在上面的\"车\"（AI 应用）只有编码这一个品类真正跑通了，其他领域连 infancy 都算不上。如果 AI 采用的速度跟不上基础设施建设速度，就会出现巨大的市场修正 [29:35 Unknown]。\n\n现在每年投进 AI 的钱是 2500 到 3000 亿美元，以 10 年期算就是 2.5 到 3 万亿。这些私人公司的股权价值要撑住，可能需要达到 25 到 30 万亿——上一波 SaaS 独角兽时代积压的价值也就 5.8 万亿。需要创造多少个 Anthropic 和 OpenAI 才能填上这个数？数学上说不通 [16:53 Unknown]。\n\n但这不意味着所有领域都在泡沫里。模型公司和芯片设计确实需要巨额资本——流片一颗芯片要 3 到 4 亿美元，一半花在 IP 授权、EDA 工具和制造上，不是花在人身上 [14:07 Unknown]。真正过度融资的是那些不该拿大钱的层级：一年新成立的几千家公司里，也许只有 10 到 20 家配得上十亿美元级轮次，但实际拿到的是这个数字的 10 到 20 倍 [14:49 Unknown]。\n\n## 为什么\"错失恐惧\"是给绵羊准备的\n\n在种子轮和 A 轮阶段，你根本不可能判断谁是赢家。现在很多人追着明显已经跑出来的项目塞钱，那不是判断力，那是 FOMO。Navin 的原话：「FOMO 是给绵羊准备的」 [19:12 Unknown]。\n\nMayfield 70% 的投资在 inception 阶段——创始人连产品都没有，只有纸笔上的想法。这个阶段看什么？不看想法，看人。因为在他参与的 120 次 IPO 和 225 次收购里，至少一半公司最终做的不是最初那个想法 [21:24 Unknown]。他们看的东西很具体：真实性（要花 5 到 10 小时跟创始人相处来评估，不谈生意）、穿透任何墙的饥饿感、公司第一团队第二自己第三的排序、成长型思维、以及\"在自己的皮肤里有安全感\"——不是每件事都要证明自己对 [76:46 Unknown]。\n\n不同层级的筛选标准不一样。半导体和模型层，候选人必须有 10,000 小时的领域积累，没造过 GPU 的人不会投 [44:48 Unknown]。但越往应用层走，领域经验反而没那么重要——因为市场本身还不存在，初学者心态反而是优势 [46:26 Unknown]。\n\n## 智能体公司怎么跟模型巨头和 SaaS 巨头抢地盘\n\n智能体公司的竞争对手有两层：上面的模型公司（Anthropic、OpenAI）和旁边的传统 SaaS 公司。Navin 给智能体创业者的建议是三条，不能全做，选一两个发力点：\n\n**第一，去模型公司看不上的碎片化市场。** 模型公司年收入千亿美元级别，你的单子一年几万美金，他们连电话都不接 [63:48 Unknown]。SaaS 当年就是这么赢的——企业软件只服务财富 1000 强，SaaS 把市场扩展到中小企业，把整个蛋糕做大了几十倍 [55:51 Unknown]。\n\n**第二，商业模式从订阅转向按结果付费。** SaaS 卖的是\"让人更高效的工具\"，AI 智能体卖的是\"完成工作本身\"。企业会说：你不干活我不付钱，不付订阅费 [56:51 Unknown]。传统 SaaS 公司很难做这种转换——从可预测的年度经常性收入切成按结果付费，股价先崩一半 [64:30 Unknown]。\n\n**第三，做跨软件的开放智能体。** SaaS 公司做的智能体只能用自己的软件，但企业要的是能操作所有工具的智能体 [65:25 Unknown]。\n\n核心逻辑就一句：「初创公司死于消化不良，不死于饥饿」 [68:09 Unknown]。\n\n## 早期投资的两种赌法\n\n一种是\"在现有市场里做得更快、更好、更便宜\"，把现有的东西 10 倍化。另一种是\"创造全新的市场\"——Navin 投过 Lyft、Poshmark、Airbnb，每个在 inception 阶段都被说\"没有市场\" [48:23 Unknown]。当年有咨询公司告诉 AT&T，蜂窝手机的市场只有 5000 部 [51:18 Unknown]。\n\n两种赌法需要的心态完全不同。现有市场需要\"准备好的心智\"——你有论点、有判断框架。全新市场需要\"开放的心智\"——你会面临几百个\"为什么行不通\"的理由，但如果对了，回报是创造一个原本不存在的市场 [49:11 Unknown]。\n\n风投的幂律决定了 10% 的公司创造所有回报。你不能害怕失败，30% 到 50% 的公司会死掉，这很正常。「如果你失败得不够多，你瞄准的是屋顶，不是月球」 [52:16 Unknown]。\n\n## 本集带走\n\n- **AI 投资的数学账要算清**：每年 2500-3000 亿美元涌入，10 年累计 2.5-3 万亿，需要对应的退出价值来消化。不是所有层级都配得上大额融资，半导体和模型层需要，但很多中间层是过度资本化\n- **inception 阶段只看人不看想法**：因为一半以上的成功公司最终做的不是最初的想法。看真实性、饥饿感、团队优先排序、成长心态\n- **智能体创业避开模型公司的射程**：去碎片化市场、用按结果付费的商业模式、做跨软件的开放平台。三条选一两个，别全做\n- **区分两种赌法用不同心态**：改造现有市场用\"准备好的心智\"（有论点），创造全新市场用\"开放的心智\"（容忍模糊）。当所有人说\"没有市场\"时反而要兴奋\n- **初创公司死于消化不良，不死于饥饿**：专注打一两个点，不要试图同时做所有事",
+  "quotes": [
+    {
+      "en": "But I think FOMO is for sheep.",
+      "zh": "但我认为错失恐惧是给绵羊准备的。",
+      "timestamp": "19:12",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "Startups die of indigestion. They don't die of starvation.",
+      "zh": "初创公司死于消化不良。它们不会死于饥饿。",
+      "timestamp": "68:09",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "So I would say out of 2, 3, 5,000 new companies getting formed a year, maybe 10, 20 deserve those billion-dollar rounds, not 100, not a 200.",
+      "zh": "所以我想说在一年成立的 2000、3000 或 5000 家新公司中，也许 10、20 家配得上那些十亿美元的轮次，不是 100 家，也不是 200 家。",
+      "timestamp": "14:36",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "AI does the work, but I will only pay you if you do something. I won't pay you a salary. I won't pay you overheads for just sitting around. If you do something, I'll pay you.",
+      "zh": "AI 做这项工作，但只有你做了一些事我才会付钱给你。我不会付给你薪水。我不会付给你仅仅坐在那里的开销。如果你做了一些事，我会付钱给你。",
+      "timestamp": "56:51",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "If AI adoption doesn't happen at the pace at which the training infrastructure was built, there'll be a slowdown and there'll be a huge market correction and in semiconductors and hardware and even in models, right?",
+      "zh": "如果 AI 的采用没有以建设训练基础设施的步伐发生，就会出现放缓，并且会出现巨大的市场修正，包括半导体和硬件，甚至模型，对吧？",
+      "timestamp": "29:35",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "So I think venture is mostly about picking and having the sixth sense of imagining what could something become, not today. Over a five, 10 year period.",
+      "zh": "所以我认为风投主要是关于挑选和拥有第六感去想象某事可能变成什么，而不是今天。在一个 5 到 10 年的时期内。",
+      "timestamp": "50:32",
+      "speaker": "Navin Chaddha"
+    },
+    {
+      "en": "If I'm a SaaS company, I create an agent, man that only works with my software. The world needs choice.",
+      "zh": "如果我是一家 SaaS 公司，我创建一个智能体，伙计，那只能与我的软件一起工作。世界需要选择。",
+      "timestamp": "65:25",
+      "speaker": "Navin Chaddha"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "19:12",
+      "speaker": "Unknown",
+      "en": "But I think FOMO is for sheep.",
+      "zh": "但我认为错失恐惧是给绵羊准备的。"
+    },
+    {
+      "timestamp": "16:53",
+      "speaker": "Unknown",
+      "en": "So same thing will happen in AI. Some companies will do it, but the amount of money being invested is 250, 300 billion per year. You take it over a 10 year period, two and a half to three trillion will get invested.",
+      "zh": "所以同样的事情也会在 AI 中发生。有些公司会做到，但投资金额是每年 2500 亿、3000 亿美元。以 10 年为期计算，将会有 2.5 到 3 万亿美元被投资。"
+    },
+    {
+      "timestamp": "68:09",
+      "speaker": "Unknown",
+      "en": "Startups die of indigestion. They don't die of starvation.",
+      "zh": "初创公司死于消化不良。它们不会死于饥饿。"
+    },
+    {
+      "timestamp": "52:16",
+      "speaker": "Unknown",
+      "en": "And as Einstein said, if you're not failing enough, and you're shooting for the roof, not the moon.",
+      "zh": "正如爱因斯坦所说，如果你失败得不够多，那么你瞄准的是屋顶，而不是月球。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Unknown",
+      "en": "So I would say out of 2, 3, 5,000 new companies getting formed a year, maybe 10, 20 deserve those billion-dollar rounds, not 100, not a 200.",
+      "zh": "所以我想说在一年成立的 2000、3000 或 5000 家新公司中，也许 10、20 家配得上那些十亿美元的轮次，不是 100 家，也不是 200 家。"
+    },
+    {
+      "timestamp": "21:24",
+      "speaker": "Unknown",
+      "en": "Having been involved in 120 IPOs and 225 acquisition, at least half of them weren't there on their first idea.",
+      "zh": "参与了 120 次 IPO 和 225 次收购，至少有一半的公司最初的那个想法不是这样的。"
+    },
+    {
+      "timestamp": "51:18",
+      "speaker": "Unknown",
+      "en": "No, not even that, 5,000.",
+      "zh": "不，甚至不到那个数，5000。"
+    },
+    {
+      "timestamp": "64:30",
+      "speaker": "Unknown",
+      "en": "I'm going to like change and dwindle my revenue from 10 billion, which is predictable to a hundred million. And my stock price has probably been shot.",
+      "zh": "我要去改变并缩减我的收入从 100 亿美元，那是可预测的，到 1 亿美元。而我的股价可能已经崩盘了。"
+    },
+    {
+      "timestamp": "56:51",
+      "speaker": "Unknown",
+      "en": "AI does the work, but I will only pay you if you do something. I won't pay you a salary. I won't pay you overheads for just sitting around. If you do something, I'll pay you.",
+      "zh": "AI 做这项工作，但只有你做了一些事我才会付钱给你。我不会付给你薪水。我不会付给你仅仅坐在那里的开销。如果你做了一些事，我会付钱给你。"
+    },
+    {
+      "timestamp": "29:35",
+      "speaker": "Unknown",
+      "en": "If AI adoption doesn't happen at the pace at which the training infrastructure was built, there'll be a slowdown and there'll be a huge market correction and in semiconductors and hardware and even in models, right?",
+      "zh": "如果 AI 的采用没有以建设训练基础设施的步伐发生，就会出现放缓，并且会出现巨大的市场修正，包括半导体和硬件，甚至模型，对吧？"
+    },
+    {
+      "timestamp": "63:48",
+      "speaker": "Unknown",
+      "en": "They're 50, 100 billion in revenue, a 10K deal per year. They don't even respond to calls of our companies which are giving them a million dollar order. It's some rounding error.",
+      "zh": "它们的收入有 500 亿、1000 亿，每年 1 万美元的交易。他们甚至不回应我们这些给他们一百万美元订单的公司的电话。这只是个四舍五入的误差。"
+    },
+    {
+      "timestamp": "49:11",
+      "speaker": "Unknown",
+      "en": "So I always believe to be a good VC, depending upon the area, you need to have a prepared mind and at the same time an open mind for blue ocean opportunities.",
+      "zh": "所以我一直相信要成为一名优秀的 VC，取决于领域，你需要有一个准备好的心智，同时对于蓝海机会有一个开放的心智。"
+    },
+    {
+      "timestamp": "50:32",
+      "speaker": "Unknown",
+      "en": "So I think venture is mostly about picking and having the sixth sense of imagining what could something become, not today. Over a five, 10 year period.",
+      "zh": "所以我认为风投主要是关于挑选和拥有第六感去想象某事可能变成什么，而不是今天。在一个 5 到 10 年的时期内。"
+    },
+    {
+      "timestamp": "55:00",
+      "speaker": "Unknown",
+      "en": "My point is what if it happens? Less companies are funded, big companies are against it.",
+      "zh": "我的观点是如果发生了呢？融资的公司变少了，大公司反对它。"
+    },
+    {
+      "timestamp": "44:48",
+      "speaker": "Unknown",
+      "en": "These people have given their 10,000 hours. What they've done, they've shipped hardware before, they know the exact problems in the industry.",
+      "zh": "这些人已经投入了他们的 10,000 小时。他们做过什么，他们以前出货过硬件，他们知道行业里的确切问题。"
+    },
+    {
+      "timestamp": "35:30",
+      "speaker": "Unknown",
+      "en": "But cars have to be bought by somebody. Enterprises is the first use case. So if they don't buy, you could have empty highways.",
+      "zh": "但汽车必须被某人购买。企业是首个用例。如果他们不购买，你可能会有空荡荡的高速公路。"
+    },
+    {
+      "timestamp": "65:25",
+      "speaker": "Unknown",
+      "en": "If I'm a SaaS company, I create an agent, man that only works with my software. The world needs choice.",
+      "zh": "如果我是一家 SaaS 公司，我创建一个智能体，伙计，那只能与我的软件一起工作。世界需要选择。"
+    },
+    {
+      "timestamp": "81:51",
+      "speaker": "Unknown",
+      "en": "When it works, they praise the team. When it doesn't work, they take all the blame.",
+      "zh": "当成功时，他们赞扬团队。当不成功时，他们承担所有责任。"
+    }
+  ]
+}

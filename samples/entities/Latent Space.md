@@ -8,25 +8,27 @@ aliases: ["Alien Space"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Latent Space</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Latent Space">LA</div><div class="pi"><h1 class="pt">Latent Space</h1><div class="byl">概念 · 又名 Alien Space</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Latent Space">LA</div><div class="pi"><h1 class="pt">Latent Space</h1><div class="byl">概念 · 又名 Alien Space</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(09:04起):本集把它说成:大语言模型内部的概率空间,用来处理品味、判断力,以及理解人类说一些模糊的话时真正想要什么
+- **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(18:32起):本集说品味、判断、从模糊请求中解读人类真正想要的东西属于潜在空间，存在于模型中，通过 Markdown 文件引导
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为概念
+- [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]] · [[技能化]]
+[[Garry Tan]] · [[智能体]] · [[技能文件]] · [[RAG]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]] · [[Codex]] · [[YC]] · [[上下文工程]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":111,"技能文件":1,"上下文工程":6,"公司大脑":1,"RAG":5,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":113,"技能文件":2,"RAG":6,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":24,"YC":6,"上下文工程":6}</script>
 
 <script>
 (function(){
