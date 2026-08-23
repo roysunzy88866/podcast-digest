@@ -4,6 +4,7 @@
 // repairFacts 要调 GLM(非确定性、要花钱),不适合进 vitest 门 —— 但它的判断力已经抽出来了,
 // 这里测的就是「收不收这个补丁」这个真决定。整链真跑的证据在 docs/c3-定点重写回路.md。
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
 import { splitParagraphs, locateFailure, judgePatch } from "../scripts/repair-facts.mjs";
 
 describe("splitParagraphs · 定位要原地替换的段", () => {
@@ -186,5 +187,25 @@ describe("密度熔断 · 失真太密=稿子不可信,不修直接交隔离", (
   it("阈值导出且为合理值(真数据锚:06-14 六处轻失真该修;>阈值该熔断)", () => {
     expect(DENSITY_FUSE).toBeGreaterThanOrEqual(7); // 6 处的 06-14 必须能进修复
     expect(DENSITY_FUSE).toBeLessThanOrEqual(12);   // 别形同虚设
+  });
+});
+
+// B(Scenario 5d-B,2026-08-23 standard-change):生僻专名末轮软化兜底。GLM 部分测不了(e2e 已真跑验证),
+// 这里锚住「兜底逻辑存在」——只对 D17-专名 触发、密度熔断内、复用 judgePatch 验收、允许软化系统提示 —— 防被静默删掉。
+describe("B · 专名末轮软化兜底(源码锚,防静默删除)", () => {
+  const src = readFileSync(new URL("../scripts/repair-facts.mjs", import.meta.url), "utf8");
+  it("★ 有独立的软化系统提示(允许去名,与常规 SYSTEM「别删」区分)", () => {
+    expect(src).toContain("SOFTEN_NOUN_SYSTEM");
+    expect(src).toMatch(/换成不指名的自然说法/);
+  });
+  it("★★ 兜底只对 D17-专名 触发、且在密度熔断阈值内(不给密度熔断的集放水)", () => {
+    expect(src).toMatch(/filter\(\(f\) => f\.kind === "D17-专名"\)/);
+    expect(src).toMatch(/cur\.failures\.length <= DENSITY_FUSE/);
+  });
+  it("★★ 软化补丁仍走 judgePatch 验收(目标名真去掉、不带新问题、不许删整段)", () => {
+    // 兜底段落里必须调 judgePatch —— 否则软化=无验收的裸改,可能删内容蒙混
+    const block = src.slice(src.indexOf("末轮兜底"));
+    expect(block).toContain("judgePatch(");
+    expect(block).toContain("softenedNouns");
   });
 });

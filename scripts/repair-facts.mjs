@@ -130,6 +130,21 @@ const SYSTEM = `你是中文播客精华的**定点校对员**。给你一段正
 ## 输出
 **只输出修好的这一段 markdown 正文**,不要解释、不要前后缀、不要代码围栏。`;
 
+// B(Scenario 5d-B,[standard-change: 用户授权 2026-08-23「剩下实在核不了的才删」]):专名末轮兜底软化。
+// A 扩表 + 常规定点重写都救不动的生僻专名(ASR 把真人名/术语听岔、不值得逐个进白名单)→ 删掉/换不指名说法,
+// 让整集过闸,而不是白烧转写去隔离。与常规 SYSTEM 的区别:这里**允许去掉那个查不实的名字**(常规是"别删")。
+const SOFTEN_NOUN_SYSTEM = `你是中文播客精华的**定点校对员**。下面这一段正文里,有几个专名(人名/公司/术语)在原文里查不到、无法核实 → 判定为不可信,必须处理。
+
+把**指定的这几个专名**从句子里去掉,或换成不指名的自然说法(如「一位研究者」「一家公司」「某个框架」),让句子读起来自然、**其余信息和意思全部保留**。
+
+## 规矩
+- 只处理指定的那几个名字;其它专名、数字、内容**一个字都不许动**。
+- **不要删掉整句**,只去掉那个查不实的名字,句子照说(要你去名,不是要你别说)。
+- 不要新增原文没有的其它专名或数字(别拿另一个编造名替换)。
+
+## 输出
+**只输出改好的这一段 markdown 正文**,不要解释、不要前后缀、不要代码围栏。`;
+
 /**
  * 收不收这个补丁 —— **三条不变量的判据都在这里**(抽成纯函数才测得到;
  * 埋在 GLM 调用里的逻辑没法做变异验证,那正是 C2「防假绿单测自己就是假绿」的翻版)。
@@ -303,6 +318,42 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
       log(`  ✓ 段 ${idx} ${verdict.reason}`);
     }
     if (!anyPatched) { log(`⚠️ 第 ${round} 轮一处也没修成 → 停,交人处理(不无限重试烧钱)`); break; }
+  }
+
+  // ── B(Scenario 5d-B):常规重写救不动的**生僻专名** → 末轮兜底删除/软化(数字侧常规回合已软化;密度熔断的不走)──
+  writeTmp(md);
+  {
+    const cur = gateFacts(dir, opts);
+    const nounFails = cur.failures.filter((f) => f.kind === "D17-专名");
+    if (!cur.pass && nounFails.length && cur.failures.length <= DENSITY_FUSE) {
+      log(`末轮兜底:${nounFails.length} 个专名查不实、常规修救不动 → 定点删除/软化(不指名的自然说法,Scenario 5d-B)`);
+      const paras = splitParagraphs(md);
+      const byPara = new Map();
+      for (const f of nounFails) {
+        const i = locateFailure(f, paras);
+        if (i < 0) continue;
+        if (!byPara.has(i)) byPara.set(i, []);
+        byPara.get(i).push(f);
+      }
+      // 同主循环:倒序改,避免前段改长度后后段偏移失效
+      for (const [idx, fs] of [...byPara.entries()].sort((a, b) => b[0] - a[0])) {
+        const para = paras[idx];
+        const names = [...new Set(fs.map((f) => f.name).filter(Boolean))];
+        if (!names.length) continue;
+        let patch;
+        try { patch = (await glmAsk(SOFTEN_NOUN_SYSTEM, `## 这一段里查不实、要去掉/软化的专名(只处理这些)\n${names.join("、")}\n\n## 待改的正文段落\n${para.text}`)).trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim(); }
+        catch (e) { log(`  ✗ 段 ${idx} 软化调 GLM 失败:${e.message}`); continue; }
+        const candidate = md.slice(0, para.start) + patch + md.slice(para.end);
+        writeTmp(candidate);
+        const after = gateFacts(dir, opts);
+        // 复用 judgePatch:目标专名必须真被去掉、不许带新问题、不许靠删整段过关(长度 ≥75%)
+        const verdict = judgePatch({ paraText: para.text, patch, targeted: fs, afterFailures: after.failures, beforeFailures: cur.failures });
+        if (!verdict.accept) { log(`  ✗ 段 ${idx} 软化 ${verdict.reason}`); writeTmp(md); continue; }
+        md = candidate;
+        fixed.push({ para: idx, softenedNouns: names });
+        log(`  ✂ 段 ${idx} 已软化查不实专名:${names.join("、")}`);
+      }
+    }
   }
 
   writeTmp(md);

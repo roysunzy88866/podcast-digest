@@ -244,6 +244,22 @@ describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数
       expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "NIM")).toBe(false);
       expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Zorptron")).toBe(true);
     });
+    // Scenario 5d-A(2026-08-23 扩表 · standard-change):家喻户晓大厂/模型/术语免检 + 中文侧也认白名单
+    it("★ 扩表:Amazon / Transformer / TypeScript 不在转写稿也免检(实证隔离集 cognition/anj 栽的正是这类)", () => {
+      const src = T.map((s: any) => s.text).join(" ").toLowerCase();
+      for (const w of ["amazon", "transformer", "typescript"]) expect(src).not.toContain(w);
+      const r = checkProse("嘉宾对比了 Amazon 的做法、Transformer 架构与 TypeScript 生态", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && ["Amazon", "Transformer", "TypeScript"].includes(f.name))).toBe(false);
+    });
+    it("★★ 中文侧也免检:「亚马逊」(字典→Amazon)不在转写稿也放行(原来白名单只在拉丁侧、中文侧漏检 = 本次修的洞)", () => {
+      const r = checkProse("他们要和亚马逊竞争云业务", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && /亚马逊|Amazon/.test(f.name))).toBe(false);
+    });
+    it("★ 扩表不越界:未收录的编造名(Zorptron)+ 探针真名(Snowflake,故意不进白名单)仍被拦", () => {
+      const r = checkProse("本集提到 Zorptron 和 Snowflake", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.name === "Zorptron")).toBe(true);
+      expect(r.failures.some((f: any) => f.name === "Snowflake")).toBe(true);
+    });
   });
   // 相邻词拼接容错(standard-change 2026-07-20,D46):转写稿把 OpenAI 记成「open AI」两词 → 单词形式对不上,误报
   describe("★ 拼接容错:OpenAI ⇄ 稿里「open AI」(D46 降误报)", () => {

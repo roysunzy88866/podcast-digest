@@ -255,6 +255,10 @@ export function checkProperNoun(name, ctx) {
     [e.name, e.file, ...(e.forms ?? [])].filter(Boolean).some((f) => String(f).toLowerCase() === String(name).toLowerCase()),
   );
   const forms = entity ? [...new Set([entity.name, ...(entity.forms ?? [])].filter(Boolean))] : [name];
+  // A(Scenario 5d-A,2026-08-23 standard-change):白名单成员全局免检 —— 也在这里查,
+  // 让中文侧(「亚马逊」经字典 → forms=["Amazon"])与拉丁侧口径一致(原来白名单只在 extractLatinTokens 过滤)。
+  if ([name, ...forms].some((f) => REAL_PROPER_NOUNS.has(String(f).toLowerCase())))
+    return { pass: true, matchedForm: name, entity: entity?.id ?? null, allowlisted: true };
   for (const f of forms) {
     if (formHits(f, ctx.tokens, ctx.concats)) return { pass: true, matchedForm: f, entity: entity?.id ?? null };
   }
@@ -582,7 +586,33 @@ const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https
  * (LLaMA/vLLM/Claude/OpenStack)已进稿过闸,仅剩主持人名 Harrison Chase 提示也拼不对 → 白名单兜底这一个真人名。
  * [standard-change: 用户授权 2026-08-01(NIM/Nemotron,拍板 B)+ 2026-08-07(Harrison Chase,拍板 A);口径承 drift #26 / D46 · 新 drift 号由调度员收口]
  */
-const REAL_PROPER_NOUNS = new Set(["nim", "nemotron", "harrison", "chase"]);
+// 扩表(Scenario 5d-A,[standard-change: 用户授权 2026-08-23「AB 都做」]):家喻户晓、确有其物的大厂/AI 实验室/
+// 主流基础模型/通用技术术语 —— ASR 常把它们听岔/写成变体(Amazon/Transformer/Llama/TypeScript…),转写稿查无 → D17
+// 误判「疑编造」→ 整集被隔离(实证:cognition/anj/axiom 等近期集皆栽在这类专名)。这批全球公认、无需逐条 URL 核实。
+// 边界不变:逐词免检、语义=「担保存在、不担保本集语境用对」(D15/D16 天花板);编造的生僻假名照旧被拦。
+// 代价知情(用户接受以换产量):免检面扩大,若模型在没提过的集里凭空塞入这些超常见名,D17 不再拦(靠 D15/D16+人工兜底)。
+// **刻意不收 claude/gpt/openai/anthropic**(本产品自身高频主题,是 ASR 听岔还是浓缩脑补类比难分 → 留给别名表召回+重浓缩兜底,承 5d 原则)。
+const REAL_PROPER_NOUNS = new Set([
+  // 原有(2026-08-01/08-07,留核实出处见上方注释)
+  "nim", "nemotron", "harrison", "chase",
+  // 大厂 / 公司(全球家喻户晓)
+  "amazon", "google", "microsoft", "apple", "meta", "nvidia", "tesla", "netflix", "uber", "airbnb",
+  "stripe", "salesforce", "ibm", "intel", "amd", "spacex", "adobe", "shopify", "spotify",
+  "linkedin", "github", "gitlab", "notion", "figma", "canva", "slack", "zoom", "dropbox", "cloudflare",
+  "vercel", "datadog", "databricks", "palantir", "twitter", "reddit", "instagram", "whatsapp", "youtube",
+  // ⚠️ 刻意不收 snowflake / oracle:它俩是 gate-facts.test.ts 的「编造/中英一致性探针」样本(雪花/甲骨文)——
+  //    收进来会让那几个对抗测试失去探针(测不到 D17 拦编造)。二者未出现在实际隔离失败里;若日后真卡,再收 + 把探针测试改用虚构名。
+  // AI 实验室 / 平台
+  "deepmind", "mistral", "cohere", "huggingface", "perplexity", "midjourney", "runway", "replit", "langchain", "deepseek",
+  // 基础模型 / 架构 / 术语(主流、跨集高频)
+  "transformer", "llama", "gemini", "bert", "whisper", "qwen", "gemma", "mixtral", "grok", "diffusion", "pytorch", "tensorflow",
+  // 语言 / 框架 / 基础设施(通用技术术语)
+  "python", "javascript", "typescript", "java", "rust", "golang", "react", "angular", "vue", "svelte",
+  "nodejs", "django", "flask", "kubernetes", "docker", "linux", "ubuntu", "postgres", "postgresql", "mongodb",
+  "redis", "kafka", "terraform", "webpack", "nextjs", "tailwind", "graphql", "kotlin", "swift", "typescript",
+  // 云 / 芯片
+  "aws", "azure", "cuda",
+]);
 
 /**
  * D17/D8 的核心比对逻辑,抽成单一组合 —— **digest_md 与实体 how_described 共用它**
