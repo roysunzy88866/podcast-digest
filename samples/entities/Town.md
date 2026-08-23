@@ -25,7 +25,7 @@ unlisted: true
 
 [[Justine Moore]] · [[生成式媒体]] · [[微剧]] · [[智能体]] · [[创作者经济]] · [[a16z]] · [[Netflix]] · [[Amazon]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Justine Moore":1,"生成式媒体":1,"微剧":1,"智能体":113,"创作者经济":1,"a16z":5,"Netflix":2,"Amazon":7,"OpenAI":49,"Anthropic":57}</script>
+<script type="application/json" class="pd-epn">{"Justine Moore":1,"生成式媒体":1,"微剧":1,"智能体":114,"创作者经济":1,"a16z":5,"Netflix":2,"Amazon":7,"OpenAI":50,"Anthropic":57}</script>
 
 <script>
 (function(){

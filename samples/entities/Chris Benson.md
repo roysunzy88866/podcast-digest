@@ -36,7 +36,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[护栏]] · [[Daniel Whitenack]] · [[Daniel Widenach]] · [[沙箱]] · [[多智能体架构]] · [[智能体群]] · [[智能体控制框架]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":49,"Hugging Face":9,"智能体":113,"护栏":24,"Daniel Whitenack":1,"Daniel Widenach":1,"沙箱":23,"多智能体架构":1,"智能体群":1,"智能体控制框架":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":50,"Hugging Face":9,"智能体":114,"护栏":24,"Daniel Whitenack":1,"Daniel Widenach":1,"沙箱":23,"多智能体架构":1,"智能体群":1,"智能体控制框架":1}</script>
 
 <script>
 (function(){

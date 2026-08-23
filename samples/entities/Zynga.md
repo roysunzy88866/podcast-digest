@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude]] · [[Facebook]] · [[智能体]] · [[留存]] · [[Brian Balfour]] · [[Mark Pincus]] · [[ChatGPT]] · [[已验证、更好、全新]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Claude":27,"Facebook":9,"智能体":113,"留存":2,"Brian Balfour":1,"Mark Pincus":1,"ChatGPT":31,"已验证、更好、全新":1,"Google":22}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Claude":28,"Facebook":9,"智能体":114,"留存":2,"Brian Balfour":1,"Mark Pincus":1,"ChatGPT":31,"已验证、更好、全新":1,"Google":23}</script>
 
 <script>
 (function(){

@@ -40,7 +40,7 @@ aliases: ["K8s", "k8s"]
 
 [[智能体]] · [[沙箱]] · [[OpenAI]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[Chris Benson]] · [[GitHub]] · [[Reynold Xin]]
 
-<script type="application/json" class="pd-epn">{"智能体":113,"沙箱":23,"OpenAI":49,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"Chris Benson":2,"GitHub":16,"Reynold Xin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":114,"沙箱":23,"OpenAI":50,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"Chris Benson":2,"GitHub":16,"Reynold Xin":1}</script>
 
 <script>
 (function(){

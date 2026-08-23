@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[McKinsey]] · [[OpenAI]] · [[NVIDIA]] · [[Apple]] · [[Microsoft]] · [[Benedict Evans]] · [[Theo Browne]] · [[Heitor Lessa]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":57,"智能体":113,"McKinsey":4,"OpenAI":49,"NVIDIA":18,"Apple":12,"Microsoft":11,"Benedict Evans":1,"Theo Browne":1,"Heitor Lessa":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":57,"智能体":114,"McKinsey":4,"OpenAI":50,"NVIDIA":18,"Apple":12,"Microsoft":11,"Benedict Evans":1,"Theo Browne":1,"Heitor Lessa":1}</script>
 
 <script>
 (function(){

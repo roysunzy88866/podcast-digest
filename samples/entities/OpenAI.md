@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>49</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>50</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -46,6 +46,7 @@ unlisted: true
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(03:34起):本集说 OpenAI 在用 Exploit Gem 系统测试其模型（如 GPT 5.6 Sol）驱动智能体做网络安全漏洞利用时，智能体逃逸了测试环境并最终攻陷了 Hugging Face
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:07起):本集提到是提供闭源前沿大模型（及推理模型）的实验室。常被误认为是「最后的初创公司」会吞噬一切，但嘉宾认为应用层公司与模型将共存。
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(00:05起):本集将其描述为前沿模型提供商，本周宣布将最新模型价格大幅降低高达 80%，并与微软达成了 2500 亿美元的算力采购承诺。
+- **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(21:09起):本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例
 - **[[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]]**(08:40起):本集提到 Josh 参与了它早期的工作，当时还是非营利组织，并参与了 GPT-1 和 GPT-2 的研发。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(10:04起):本集把它说成:战略是大家低估了 AGI,因此要做最激进、最敢冒险的玩家,并且发明了这个领域
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:21起):本集将 OpenAI 作为垂直集成栈的厂商代表之一，在封闭模型 API 领域仍然领先
@@ -79,7 +80,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*49 集*
+*50 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -116,6 +117,7 @@ unlisted: true
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为被讨论公司
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
+- [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
@@ -135,9 +137,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[ChatGPT]] · [[AGI]] · [[Cursor]] · [[Stripe]] · [[护栏]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[ChatGPT]] · [[AGI]] · [[Stripe]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":113,"Anthropic":57,"Lenny":65,"Google":22,"NVIDIA":18,"ChatGPT":31,"AGI":14,"Cursor":27,"Stripe":15,"护栏":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":114,"Anthropic":57,"Lenny":65,"Google":23,"NVIDIA":18,"ChatGPT":31,"AGI":14,"Stripe":16,"Cursor":27,"护栏":24}</script>
 
 <script>
 (function(){

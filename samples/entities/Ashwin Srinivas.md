@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":2,"智能体":113,"开源模型":8,"微调":4,"业务逻辑":1,"前向部署工程师":6,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":2,"智能体":114,"开源模型":8,"微调":4,"业务逻辑":1,"前向部署工程师":6,"Duet":1}</script>
 
 <script>
 (function(){

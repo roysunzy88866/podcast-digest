@@ -1,0 +1,864 @@
+{
+  "episode_id": "2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-03",
+  "tags": [
+    "精益创业",
+    "创业策略",
+    "AI 时代创业",
+    "企业采购",
+    "认知能力"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "harj",
+      "type": "person",
+      "role": "host",
+      "name": "Harj",
+      "file": "Harj",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.185,
+            20.769
+          ],
+          "quote": "Harj and I first met 20 years ago, and we started a company together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.532,
+            32.175
+          ],
+          "quote": "We started a company together many, many years ago, and I learned a huge amount from Harj.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "patrick-collison",
+      "type": "person",
+      "role": "cohost",
+      "name": "Patrick Collison",
+      "file": "Patrick Collison",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 是与世界上最有意思的公司合作的支付平台，其数据显示在 Stripe 上起步的新企业数量同比翻近2倍，是史上最大年度相对增幅；还谈到它从第一行代码到公开发布等了近两年，但几乎从一开始就有生产环境用户驱动开发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            196.013,
+            209.92
+          ],
+          "quote": "And then if you look in revealed preference at what companies themselves are doing, whether they're companies like Stripe or the labs or what have you, there still seems to be an enormous premium on cognitive ability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            221.41,
+            236.821
+          ],
+          "quote": "I mean, are there specific things that maybe you personally, either personally or as CEO of Stripe, you still, you purposefully choose to sort of do yourself and like retrieve from your own cash, even though like the agents would probably do a reasonably good job?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            313.715,
+            318.499
+          ],
+          "quote": "How about if you talk about the Stripe story, the early days in particular a little bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            319.56,
+            322.403
+          ],
+          "quote": "You were at MIT, then you left to start Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            359.534,
+            367.257
+          ],
+          "quote": "And then after a couple years of that, went back, did another year at MIT, and then dropped out again to start Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            596.521,
+            601.264
+          ],
+          "quote": "So going back to the Stripe story, Stripe ostensibly seems like a good idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            606.747,
+            612.351
+          ],
+          "quote": "Presumably, is that how it went when you went and told people you wanted to start Stripe and everyone just say, hey, this is obviously a good idea?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            745.357,
+            755.665
+          ],
+          "quote": "But just a thing that strikes me as I sit here is the reason we decided to start Stripe is because John and I were in college together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            768.074,
+            783.918
+          ],
+          "quote": "And so we went and we got sushi afterwards in Potrero and we were walking back from sushi and we're like, you know, we'd kind of been kicking around this idea for a payments thing or like we've been thinking of the space and it was walking back that evening after startup school that we decided to start Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            796.874,
+            797.934
+          ],
+          "quote": "You might start the next Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            827.863,
+            837.166
+          ],
+          "quote": "Yeah, so we started working on Stripe kind of seriously in the... Well, we started working the week after that startup school, but in college, it wasn't full-time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1143.605,
+            1159.813
+          ],
+          "quote": "Within sort of YC and probably startup world at this point, you're famous for the, at least the Paul Graham term, schlep blindness, the stripe, at least on the surface was not, like, you know, involved a lot of schleps, like things that presumably weren't like the intellectually most interesting things to work on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1170.779,
+            1183.167
+          ],
+          "quote": "As Stripe has grown into this big company, in what ways are there intellectual rewards that you've given up and which ones have you gained?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1204.982,
+            1209.985
+          ],
+          "quote": "I think that I actually feel extremely lucky with Stripe in this respect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1258.708,
+            1260.39
+          ],
+          "quote": "And in the case of Stripe...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1269.296,
+            1286.206
+          ],
+          "quote": "25% of all Delaware corporations are started with Stripe via Atlas, and then we get to partner with them and work with them and hear from them and get their feedback and get their requests and everything through the entirety of the journey up to being the Shopify's and the OpenAI's and all the...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1316.046,
+            1323.894
+          ],
+          "quote": "But yeah, I think PG latched onto something where, yeah, there are all these menial tasks, but in the totality of Stripe, I find it so...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1342.026,
+            1346.269
+          ],
+          "quote": "But yeah, just like it's, I've never met a Stripe customer and thought that's boring.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1489.334,
+            1492.757
+          ],
+          "quote": "Looking at the Stripe data, one thing I will say that I think is germane to people here...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1533.498,
+            1544.847
+          ],
+          "quote": "As I speak, the number of new businesses starting on Stripe is up around, it's a bit under, but around 2x year over year, which again is the largest relative jump we've seen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1604.752,
+            1607.274
+          ],
+          "quote": "The Stripe data would suggest there's never been a better time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1732.596,
+            1740.523
+          ],
+          "quote": "And there's a bit of it I think also, I mean, Stripe is not a consumer company, obviously, but I think there's some version of this on the consumer side where I think consumers are also pretty, I mean...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1759.279,
+            1770.606
+          ],
+          "quote": "Maybe just more broadly, something I'm curious about is, again, with the data you have at Stripe, has anything you've seen in that data changed a belief you have about AI broadly, say, over the last 12 months?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1799.121,
+            1812.548
+          ],
+          "quote": "But basically we can see at Stripe the hunger and the intensity with which other companies are either getting started taking advantage of these new capabilities or existing companies are retooling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1848.526,
+            1855.81
+          ],
+          "quote": "And it would be remiss of me not to say that Stripe would not exist without YC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atlas",
+      "file": "Atlas",
+      "primary": true,
+      "how_described": "本集说 25% 的特拉华州公司通过 Atlas 注册成立，通过 Atlas 注册的新公司产生营收的时间在缩短",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1269.296,
+            1286.206
+          ],
+          "quote": "25% of all Delaware corporations are started with Stripe via Atlas, and then we get to partner with them and work with them and hear from them and get their feedback and get their requests and everything through the entirety of the journey up to being the Shopify's and the OpenAI's and all the...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1290.169,
+            1295.892
+          ],
+          "quote": "Oh, and actually, speaking of Atlas, we're giving free Atlas incorporation to everybody at Startup School.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1582.618,
+            1585.18
+          ],
+          "quote": "For new companies incorporated with Atlas is declining.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lean-startup",
+      "type": "concept",
+      "role": "concept",
+      "name": "精益创业 (lean startup)",
+      "file": "精益创业",
+      "primary": true,
+      "how_described": "本集说传统的精益创业教条是从小缝隙切入、迭代扩展，但在 AI 时代互联网比20年前大得多、小缝隙已被更激烈耕耘，过去十年最成功的公司很多是'反精益创业'的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1055.824,
+            1067.994
+          ],
+          "quote": "But the whole kind of traditional lean startup doctrine of exactly what you say, like start out by buying the Google ads or something and identify this crevice or whatever and iteratively expand out from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1104.198,
+            1112.686
+          ],
+          "quote": "And I think it is interesting to think about many of the companies that are most successful over the last 10 years, so many of them are very anti-lean startup, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1122.153,
+            1138.064
+          ],
+          "quote": "Maybe a better way of saying it is 20 years ago, the whole lean startup thing was almost the only thing to do because of capital available and you didn't have AI that made spinning up an organization with many different potentialities and capabilities so much easier.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说你可以让智能体帮你查或算东西，但那比从自己'认知L1缓存'里提取慢得多；还谈到有了这些智能体，廉价快速构建软件的能力让人们思考是否该对第一版产品更有雄心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            162.707,
+            167.568
+          ],
+          "quote": "Yes, you can ask the agent or something to compute something for you or to look something up for you, whatever.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "本集说 YC 的座右铭是尽早发布、快速迭代，Stripe 如果每周去 YC 开会会被痛骂；还提到 Stripe 不会没有 YC 就存在，以及 YC 批次中公司能比以往更快增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            615.613,
+            626.122
+          ],
+          "quote": "So something we learned from YC was the importance of focusing on very concrete, easy-to-explain customer problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            818.352,
+            824.179
+          ],
+          "quote": "And especially within the YC world, the motto is very much sort of launch early, launch quickly, be out there and iterate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            850.11,
+            856.012
+          ],
+          "quote": "I mean, if we were going to YC meetings every week, I think we'd have been bludgeoned on the head.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            982.786,
+            984.767
+          ],
+          "quote": "I mean, you're an expert YC partner, do you agree?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1052.342,
+            1055.744
+          ],
+          "quote": "And to some extent, YC will be, I think, the expert here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1143.605,
+            1159.813
+          ],
+          "quote": "Within sort of YC and probably startup world at this point, you're famous for the, at least the Paul Graham term, schlep blindness, the stripe, at least on the surface was not, like, you know, involved a lot of schleps, like things that presumably weren't like the intellectually most interesting things to work on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1607.714,
+            1610.016
+          ],
+          "quote": "I mean, we see the exact same thing in the YC batches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1636.817,
+            1652.352
+          ],
+          "quote": "I mean, certainly within the YC part of the lifecycle, like day zero to 90, it's really being driven by, I would say, enterprises willing to buy from startups, which is the new thing, so you can sign these new contracts within the batch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1726.131,
+            1732.576
+          ],
+          "quote": "A lot of YC companies in recent times have demonstrated this, but I think it's a really pervasive dynamic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1848.526,
+            1855.81
+          ],
+          "quote": "And it would be remiss of me not to say that Stripe would not exist without YC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 20 年前每家创业公司都在问'如果 Google 做了怎么办'，Google 看起来全能、有无限人才和资本，但人类组织很难同时积极执行100个不同优先级，Google 并没有做所有事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1055.824,
+            1067.994
+          ],
+          "quote": "But the whole kind of traditional lean startup doctrine of exactly what you say, like start out by buying the Google ads or something and identify this crevice or whatever and iteratively expand out from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1405.535,
+            1410.257
+          ],
+          "quote": "No organization, if we go back 20 years, you know, there's some of the sense with Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1410.297,
+            1415.919
+          ],
+          "quote": "Like, you know, when we were doing Octomatic, the question was always for our company and every other company, you know, what if Google does this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1416.46,
+            1425.923
+          ],
+          "quote": "And Google seemed kind of omnipotent and had this immense number of incredibly talented people and essentially infinite access to capital and server and just all the things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1444.35,
+            1454.032
+          ],
+          "quote": "And so Google has done incredibly well in a bunch of specific places, but it's not like Google has done all the things, even if in some kind of basic material sense, Google maybe had that ability.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集开头提到现在一个多产的16岁少年大概可以直接提示 Claude 去编写他们的 Lisp 方言",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.63,
+            66.313
+          ],
+          "quote": "So what I was going to ask is a prolific 16-year-old today could presumably just prompt Claude to write their Lisp dialect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gmail",
+      "type": "company",
+      "role": "company",
+      "name": "Gmail",
+      "file": "Gmail",
+      "primary": false,
+      "how_described": "本集说 Gmail 等工具都在推预写回复建议，但 Patrick 这辈子发送的数量是零",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            299.641,
+            309.711
+          ],
+          "quote": "Every tool is now trying to prompt me with pre-written suggestions, whether it's Gmail or apparently WhatsApp just rolled this out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "type": "company",
+      "role": "company",
+      "name": "WhatsApp",
+      "file": "WhatsApp",
+      "primary": false,
+      "how_described": "本集说 WhatsApp 刚刚推出了预写回复功能，Patrick 仍从未发送过这类 AI 预写的内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            299.641,
+            309.711
+          ],
+          "quote": "Every tool is now trying to prompt me with pre-written suggestions, whether it's Gmail or apparently WhatsApp just rolled this out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1269.296,
+            1286.206
+          ],
+          "quote": "25% of all Delaware corporations are started with Stripe via Atlas, and then we get to partner with them and work with them and hear from them and get their feedback and get their requests and everything through the entirety of the journey up to being the Shopify's and the OpenAI's and all the...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1269.296,
+            1286.206
+          ],
+          "quote": "25% of all Delaware corporations are started with Stripe via Atlas, and then we get to partner with them and work with them and hear from them and get their feedback and get their requests and everything through the entirety of the journey up to being the Shopify's and the OpenAI's and all the...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anduril",
+      "type": "company",
+      "role": "company",
+      "name": "Anduril",
+      "file": "Anduril",
+      "primary": false,
+      "how_described": "本集在列举过去十年'反精益创业'的成功公司时，提到无论是实验室本身还是 Anduril 都有这个特征",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1113.146,
+            1117.03
+          ],
+          "quote": "Whether it's the labs themselves or Anduril or...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": false,
+      "how_described": "本集说 Oracle 的 Larry Ellison 已经做了快半个世纪，引出'如果成功了你愿不愿意干10年、17年、30年'的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1249.897,
+            1255.564
+          ],
+          "quote": "I mean, Larry Ellison at Oracle is going for, I mean, I guess it'll be a half century soon, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mit",
+      "type": "company",
+      "role": "company",
+      "name": "MIT",
+      "file": "MIT",
+      "primary": false,
+      "how_described": "本集说 Patrick 在 MIT 大一后辍学创办第一家公司，回去读了一年又辍学创办 Stripe",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            319.56,
+            322.403
+          ],
+          "quote": "You were at MIT, then you left to start Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            359.534,
+            367.257
+          ],
+          "quote": "And then after a couple years of that, went back, did another year at MIT, and then dropped out again to start Stripe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "l1-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "L1 缓存 (L1 cache)",
+      "file": "L1 缓存",
+      "primary": true,
+      "how_described": "本集用 Jeff Dean 著名的 L1 缓存、内存、网络带宽和延迟数字做比方，说知识也一样——从自己'认知L1缓存'里提取比让智能体帮你查慢得多，神经元查找在很长时间内会快得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            155.684,
+            158.285
+          ],
+          "quote": "And retrieving something from L1 cache is very different to retrieving from RAM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            167.949,
+            172.25
+          ],
+          "quote": "That's a hell of a lot slower than knowing it in cognitive L1 cache.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大模型 (model)",
+      "file": "大模型",
+      "primary": false,
+      "how_described": "本集说模型能证明雅可比猜想这样的 monumental 壮举，但在人际沟通和现实多维空间推理上以某种难以描述的方式仍然有缺陷",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            123.236,
+            125.257
+          ],
+          "quote": "I mean, my model of this is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            290.999,
+            295.72
+          ],
+          "quote": "And in some kind of indescribable way, I feel like the model is still kind of deficient at that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1325.556,
+            1342.006
+          ],
+          "quote": "Like every business is a kind of applied theory on how some aspect of the world works or how some market works or how some, you know, how if the new company with a new model, it's kind of a contrarian thesis on some counterfactual.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1352.533,
+            1362.855
+          ],
+          "quote": "And you have a particularly unique perspective on this because you work with the big model providers, the big lab companies, and you work with all of the fast-growing AI startups on the ground.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1479.927,
+            1486.192
+          ],
+          "quote": "Hard to say, obviously contingent on one's forecast of the model capabilities themselves, but in certain cases, I'm sure that will happen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fintech",
+      "type": "concept",
+      "role": "concept",
+      "name": "fintech",
+      "file": "fintech",
+      "primary": false,
+      "how_described": "本集说 Stripe 创办时 fintech 这个词作为领域根本不存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            675.277,
+            678.119
+          ],
+          "quote": "And fintech didn't exist as a sector at the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "schlep-blindness",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦差事盲点 (schlep blindness)",
+      "file": "苦差事盲点",
+      "primary": false,
+      "how_described": "本集提到 Paul Graham 的术语'苦差事盲点'，说 Stripe 表面上涉及很多苦差事，但实际整个业务与苦差事盲点本能恰恰相反，每家客户都很有意思",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1143.605,
+            1159.813
+          ],
+          "quote": "Within sort of YC and probably startup world at this point, you're famous for the, at least the Paul Graham term, schlep blindness, the stripe, at least on the surface was not, like, you know, involved a lot of schleps, like things that presumably weren't like the intellectually most interesting things to work on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

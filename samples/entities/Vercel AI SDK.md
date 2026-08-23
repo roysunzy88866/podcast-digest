@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire Vo]] · [[Eddie Kim]] · [[Gusto]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"Gusto":1,"联合创始人":2,"vibe coding":20,"永久 Zoom":1,"智能体":113,"垃圾桶法":1,"Cloudflare Worker":1,"Claude Code":29}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"Gusto":1,"联合创始人":2,"vibe coding":20,"永久 Zoom":1,"智能体":114,"垃圾桶法":1,"Cloudflare Worker":1,"Claude Code":29}</script>
 
 <script>
 (function(){

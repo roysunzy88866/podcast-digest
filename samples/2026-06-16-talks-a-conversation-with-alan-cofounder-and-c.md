@@ -127,7 +127,7 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
 
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|Patrick Collison：AI时代该怎么创业]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

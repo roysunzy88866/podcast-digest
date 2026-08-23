@@ -45,7 +45,6 @@
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {
-    "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": "https://api.substack.com/feed/podcast/209161342/02c450ab5551c19884e7a8587338dc50.mp3",
     "2026-07-27-lennys-from-zero-coding-background-to-hardware": "https://api.substack.com/feed/podcast/208362786/66781207d9aad96ef4324b4c59755f32.mp3"
   },
   "cutoffs": {
@@ -381,6 +380,36 @@
       "reason": "题材不对味:❌ 属于「AI + 传统企业级 IT 运维(传统IT)」题材,与用户指定的「AI 编程/产品/创始人故事/产业格局」不对口;这类企业级运维案例落入「传统软件工程」或「非AI/非目标产业」边界。",
       "title": "AI Agents Fixing Your IT Before You Even Know Something Broke | Erhan Giral & Ryan Manning, BMC Helix",
       "pubDate": "2026-08-03T17:00:00.000Z"
+    },
+    {
+      "id": "2026-08-08-cogrev-thinking-in-silico-goodfire-cto-dan-bals",
+      "reason": "题材不对味:拿不准：涉及 'Concept Manifolds'（概念流形/架构前沿）与 '$1000 ML Research Agent'（研究型Agent），虽含商业应用，但CTO视角易偏向「架构/研究」深水区（命中❌「学术研究/架构前沿」），用户选档时明确撤过「模型架构深水/读论文」类，边界不清按「宁缺毋滥」原则跳过。",
+      "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
+      "pubDate": "2026-08-08T20:48:23.000Z"
+    },
+    {
+      "id": "2026-08-06-mad-how-to-build-long-horizon-ai-agents--mit",
+      "reason": "题材不对味:❌ 落入「AI 编程 / agent 实操」类 →「工具、方法、真实案例」，而非架构深挖或纯思辨;更重要的是标题核心词「Build...Agents」是硬核工程实践，高度对味 → 属于✅要之列。Wait, logic check: \"How to Build...Agents\" falls squarely under \"AI 编程 / agent 实操\" which is explicitly WANTED. So verdict should be \"对味\".",
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "pubDate": "2026-08-06T11:30:01.000Z"
+    },
+    {
+      "id": "2026-08-06-twentyvc-20vc-airtable-sold-for-1-285bn-leo-achen",
+      "reason": "题材不对味:明确排除“聚合/多主题简报”（即便含 Anthropic / Palantir 等对味公司，但标题结构为 5 个独立短讯合集，违反“单主题深挖”原则）",
+      "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
+      "pubDate": "2026-08-06T07:07:00.000Z"
+    },
+    {
+      "id": "2026-08-03-unsupervised-ai-vibe-check-chinese-open-models-distil",
+      "reason": "题材不对味:题材为「中国开源模型/蒸馏/HuggingFace被黑」,偏向行业时事综述,非深度的创始人/公司/商业故事或实操案例",
+      "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+      "pubDate": "2026-08-03T12:55:21.000Z"
+    },
+    {
+      "id": "2026-08-03-twentyvc-20vc-70-of-neolabs-will-die-there-will-b",
+      "reason": "题材不对味:❌ 不要：命中「不要」之「AI 安全 / 对齐 / 政策 / 哲学」。标题涉及 'Governments Cannot Regulate'、'The Cyber Attacks' 及宏观预测（$100BN Model），属思辨与政策讨论，而非商业或实操；源 The Twenty Minute VC 亦不在抓取清单中（现仅 11 源）。",
+      "title": "20VC: 70% of Neolabs Will Die | There Will be a $100BN US Open-Source Model | Data is a Trillion $ Market | Governments Cannot Regulate Models: It is Too Late | The Cyber Attacks to Come Will be Insane with Anastasios Angelopoulos @ Arena",
+      "pubDate": "2026-08-03T07:07:00.000Z"
     }
   ]
 }
