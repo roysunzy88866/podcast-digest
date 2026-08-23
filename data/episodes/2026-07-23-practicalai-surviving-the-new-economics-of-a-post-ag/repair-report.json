@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "08:43",
+      "speaker": "Daniel Whitenack",
+      "trimmed": false,
+      "tsWas": "08:33",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "23:23",
+      "speaker": "Chris Benson",
+      "trimmed": false,
+      "tsWas": "23:14",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "24:44",
+      "speaker": "Chris Benson",
+      "trimmed": false,
+      "tsWas": "24:44",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "we've talked to one company that already has 70,000 agents running, one that has, I think it was like 6,000 or something."
+    }
+  ]
+}

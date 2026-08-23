@@ -1,0 +1,662 @@
+{
+  "episode_id": "2026-07-31-nopriors-building-an-autonomous-enterprise-for-re",
+  "podcast": "No Priors",
+  "date": "2026-07-31",
+  "tags": [
+    "AI 智能体",
+    "基础服务",
+    "私募股权",
+    "创业心态",
+    "企业 AI 落地"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "melisa-tokmak",
+      "type": "person",
+      "role": "host",
+      "name": "Melisa Tokmak",
+      "file": "Melisa Tokmak",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "netic",
+      "type": "company",
+      "role": "company",
+      "name": "NETIC",
+      "file": "NETIC",
+      "primary": true,
+      "how_described": "本集说 NETIC 构建AI来运营维持世界运转的现实世界业务，存在于公司及其客户之间，负责理解客户需求、匹配企业运营规则并部署服务或劳动力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.992,
+            17.099
+          ],
+          "quote": "Melissa is the founder and CEO of Netic, a company that builds AI for different real-world services like HVAC, pet care, a variety of other things like that, roofers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            17.459,
+            26.046
+          ],
+          "quote": "Prior to Netic, Melissa was a director of engineering and worked on various aspects of go-to-market for Scale.ai and also has experiences from Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            159.164,
+            164.765
+          ],
+          "quote": "If they're using NETIC, you can call them or text them or go to their website to do an online scheduler.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            165.265,
+            167.966
+          ],
+          "quote": "It's NETIC agents that talk to the customer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            171.186,
+            174.047
+          ],
+          "quote": "So this could be like a voice call and NETIC is actually providing the voice?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            376.746,
+            378.047
+          ],
+          "quote": "We call it netic first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            380.368,
+            386.11
+          ],
+          "quote": "And over 70%, actually, all of their customers' first interaction with the company is with netic agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            622.613,
+            628.477
+          ],
+          "quote": "Versus what I'm interested in is how every real world business can run on NETIC, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            628.757,
+            638.223
+          ],
+          "quote": "If we didn't have to limit them, if they could focus on what they are good at in that business, which is the labor, which is the differentiation quality of the service, how could NETIC run the rest?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            947.453,
+            951.735
+          ],
+          "quote": "You know, a little bit later, Decagon and ABRIDGE and a lot of those sort of vertical applications, obviously NETIC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1022.711,
+            1029.433
+          ],
+          "quote": "People who are at NETIC, who deeply care about what they are building themselves, customer obsessed for the long term,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1360.84,
+            1375.943
+          ],
+          "quote": "We want every single thing in these companies to be handled autonomously with NETIC, except the actual services and the labor itself, that human component, so that these companies can fully focus on that to deliver and create customer delight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1564.595,
+            1567.896
+          ],
+          "quote": "Or is this, you know, and then you adopted it for the Netic platform?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 NETIC 智能体与客户交谈，负责电话、短信、网站在线调度等所有第一次接触，理解需求后决定派谁、何时去，并优化以创造客户满意和公司收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            165.265,
+            167.966
+          ],
+          "quote": "It's NETIC agents that talk to the customer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            364.041,
+            369.443
+          ],
+          "quote": "So because you're providing like agents, they can overflow, somebody's giving you a lot of phone calls, they can pick up the phone calls for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            380.368,
+            386.11
+          ],
+          "quote": "And over 70%, actually, all of their customers' first interaction with the company is with netic agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            860.646,
+            870.154
+          ],
+          "quote": "Or in Anthropic's case, you know, Silicon Valley converged in the idea that, you know, they pulled ahead in coding agents or like Claude because they had focus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1442.15,
+            1445.814
+          ],
+          "quote": "You know, use new things and you're selling AI solutions and agents to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1548.148,
+            1560.314
+          ],
+          "quote": "Should that be autonomously fed into the context of our agents so that not only you're better equipped to handle that conversation with the customer, but also you can spot who to go after?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "essential-services",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础服务 (essential services)",
+      "file": "基础服务",
+      "primary": true,
+      "how_described": "本集将基础服务定义为暖通空调、管道、电气、消费者健康、酒店业、汽车业、宠物服务等维持生活运转的行业，特点是高度周期性且运营需求极其复杂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            54.241,
+            58.322
+          ],
+          "quote": "That means basically we work with large enterprises in essential services.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            58.462,
+            60.202
+          ],
+          "quote": "We started in essential services.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            180.771,
+            187.656
+          ],
+          "quote": "And it's actually a lot of the businesses we work with, this is why we started with essential services, the operational needs are very complex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            890.042,
+            898.444
+          ],
+          "quote": "So in this case, maybe looking at the problem we're solving, the answer would be, well, when we get the AGI, we'll ask how to solve it for essential services.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "private-equity",
+      "type": "concept",
+      "role": "concept",
+      "name": "私募股权 (private equity)",
+      "file": "私募股权",
+      "primary": true,
+      "how_described": "本集说很多基础服务企业被私募股权持有，它们关注EBITDA和利润率；PE的剧本已从找未被发现的宝石变成如何与手中的企业创造有形价值，但第一反应仍是削减成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            264.41,
+            266.891
+          ],
+          "quote": "Many times they're actually owned by private equity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            403.672,
+            405.694
+          ],
+          "quote": "And you mentioned many of them are owned by private equity already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1608.927,
+            1612.349
+          ],
+          "quote": "And then we talked a little bit about roll-ups and being private equity owned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1612.629,
+            1619.093
+          ],
+          "quote": "Now imagine being a private equity and you own maybe 20, 30 of these businesses in different industries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1645.464,
+            1650.126
+          ],
+          "quote": "How well do you or how do you view private equity firms as responding to this wave of AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1666.451,
+            1669.233
+          ],
+          "quote": "What's your perception of like how private equity is interacting with AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1669.473,
+            1672.454
+          ],
+          "quote": "I think already the private equity playbook has changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1736.721,
+            1749.008
+          ],
+          "quote": "But many, I think, do understand with this new role that private equity companies hire, it's like different operating partners in AI, or they'll have a few engineers that might be AI forward and they'll educate it as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1792.574,
+            1809.193
+          ],
+          "quote": "So I think once you do that, they also get educated and they guide their companies, but still it doesn't, it is not taking away the notion of you have to have a relationship direct to the company because at the end, private equity is more of a guidance for the companies they own.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1820.316,
+            1833.059
+          ],
+          "quote": "Yeah, it seems like a lot of private equity shops as well have kind of shifted from the 80s style, you know, come in, do big layoffs, take apart a conglomerate, and much more to your point, how do you optimize value or increase the value of something?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-enterprise",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主企业 (autonomous enterprise)",
+      "file": "自主企业",
+      "primary": true,
+      "how_described": "本集说NETIC的愿景是建立自主企业，让公司里除实际服务和劳动本身以外的每一件事都由NETIC自主处理，使公司能完全专注于交付和创造客户满意度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1355.979,
+            1360.44
+          ],
+          "quote": "In terms of our vision, we are building an autonomous enterprise.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "roll-ups",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 整合公司 (roll-ups)",
+      "file": "AI 整合公司",
+      "primary": true,
+      "how_described": "本集讨论了为什么不选AI整合路线：整合公司构建的产品只能用于买下的那几家公司无法横向复用，且核心能力是M&A而非产品本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            392.602,
+            399.748
+          ],
+          "quote": "I've also invested in AI roll-ups where people will, you know, a company like LongLake will go and buy a bunch of businesses and then optimize them with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            581.514,
+            585.958
+          ],
+          "quote": "I think in a lot of those roll-ups, the main important thing is the M&A itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            601.788,
+            610.895
+          ],
+          "quote": "What I have seen, there's a lot of successful roll-ups and tech-enabled roll-ups, but at the end, all the products you're building are for the company you just bought.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1608.927,
+            1612.349
+          ],
+          "quote": "And then we talked a little bit about roll-ups and being private equity owned.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说NETIC招人最看重agency，指主动发起行动、掌控局面的能力；筛的不是现在有没有，而是有生以来是否持续展现——当事情变难时是否坚持并改变未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1029.913,
+            1038.835
+          ],
+          "quote": "Have the agency to start things, urgency to solve problems, but at the same time to really rigor and patience to carry it forward, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1149.579,
+            1151.9
+          ],
+          "quote": "You mentioned selecting for people with agency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1151.92,
+            1153.821
+          ],
+          "quote": "How do you screen for agency?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1158.963,
+            1163.745
+          ],
+          "quote": "I think agency, what I look for is not agency now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1164.485,
+            1170.508
+          ],
+          "quote": "If you have agency, you care about agency, you have shown agency continuously in your life.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1208.034,
+            1221.581
+          ],
+          "quote": "But the most important thing I care about, not to have one agency example, is just however long you have been alive and conscious, have you been showing agency in things that you did in life?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1928.958,
+            1935.583
+          ],
+          "quote": "So we made the world a lot more about agency, which I'm excited about.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "last-mile",
+      "type": "concept",
+      "role": "concept",
+      "name": "最后一公里 (last mile)",
+      "file": "最后一公里",
+      "primary": false,
+      "how_described": "本集说面对数百万有不同口音、不同担忧的客户并让他们成为回头客，需要很多最后一公里工作，这不仅仅来自模型，而来自工具、编排和产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            903.145,
+            921.87
+          ],
+          "quote": "And finally, to solve these type of extremely difficult problems with millions in the country that have completely different worries, different accents, how do they want to engage, different contacts, and also even engage them again to make them multi-time customers, there's quite a bit of last mile that you really have to do.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说OpenAI构建产品极快但也极快杀掉产品，企业客户不想要这种节奏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            776.75,
+            783.433
+          ],
+          "quote": "And then I've kind of heard you talk about the big labs, so OpenAI, Anthropic, maybe Google, Meta, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            851.339,
+            855.302
+          ],
+          "quote": "OpenAI builds amazing products really fast, but also it kills them really fast.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说Anthropic在编码智能体上因专注而领先，但在企业场景里大约有20个产品、方向并不清晰",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            776.75,
+            783.433
+          ],
+          "quote": "And then I've kind of heard you talk about the big labs, so OpenAI, Anthropic, maybe Google, Meta, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            860.646,
+            870.154
+          ],
+          "quote": "Or in Anthropic's case, you know, Silicon Valley converged in the idea that, you know, they pulled ahead in coding agents or like Claude because they had focus.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scale-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Scale.ai",
+      "file": "Scale.ai",
+      "primary": false,
+      "how_described": "本集提到Melissa在创立NETIC前在Scale.ai工作了约四年，从政府到大型企业构建了很多现实世界业务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.459,
+            26.046
+          ],
+          "quote": "Prior to Netic, Melissa was a director of engineering and worked on various aspects of go-to-market for Scale.ai and also has experiences from Meta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cyclical-businesses",
+      "type": "concept",
+      "role": "concept",
+      "name": "周期性业务 (cyclical businesses)",
+      "file": "周期性业务",
+      "primary": false,
+      "how_described": "本集说很多基础服务是周期性业务，冬天、夏天、假期季节客户暴增，企业必须确保在这些月份捕捉到大部分价值来维持运营",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            347.837,
+            350.578
+          ],
+          "quote": "So many of these businesses are cyclical businesses.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "overflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "溢出承接 (overflow)",
+      "file": "溢出承接",
+      "primary": false,
+      "how_described": "本集说NETIC很多客户最初用智能体做溢出承接——电话打爆时AI来接，但现在超过70%已转为NETIC first模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            364.041,
+            369.443
+          ],
+          "quote": "So because you're providing like agents, they can overflow, somebody's giving you a lot of phone calls, they can pick up the phone calls for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

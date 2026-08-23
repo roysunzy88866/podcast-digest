@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[推理]] · [[OpenAI]] · [[Matt Swulinski]] · [[Andrew MacDonald]] · [[Jerry Murdock]] · [[Superhuman]] · [[Uber]] · [[Neoclouds]]
 
-<script type="application/json" class="pd-epn">{"智能体":114,"ChatGPT":31,"推理":1,"OpenAI":50,"Matt Swulinski":1,"Andrew MacDonald":1,"Jerry Murdock":1,"Superhuman":4,"Uber":5,"Neoclouds":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":116,"ChatGPT":31,"推理":1,"OpenAI":52,"Matt Swulinski":1,"Andrew MacDonald":1,"Jerry Murdock":1,"Superhuman":4,"Uber":5,"Neoclouds":1}</script>
 
 <script>
 (function(){

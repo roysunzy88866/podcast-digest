@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"客户流失率":1,"定价":1,"NRR":2,"渠道饱和":1,"入职引导":1,"定位":1,"大象曲线":1,"SaaS":8,"营销漏斗":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"客户流失率":1,"定价":1,"NRR":2,"渠道饱和":1,"入职引导":1,"定位":1,"大象曲线":1,"SaaS":9,"营销漏斗":1}</script>
 
 <script>
 (function(){

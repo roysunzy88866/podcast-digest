@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jensen Huang]] · [[Jerry]] · [[NVIDIA]] · [[Sega]] · [[Waymo]] · [[Tesla]] · [[加速计算]] · [[智能体]] · [[物理 AI]] · [[系统思维]]
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"Jerry":1,"NVIDIA":18,"Sega":1,"Waymo":9,"Tesla":6,"加速计算":1,"智能体":114,"物理 AI":4,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"Jerry":1,"NVIDIA":18,"Sega":1,"Waymo":9,"Tesla":6,"加速计算":1,"智能体":116,"物理 AI":4,"系统思维":3}</script>
 
 <script>
 (function(){

@@ -23,7 +23,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Sofia Puccini]] · [[NVIDIA]] · [[蒸馏]] · [[Mistral]] · [[Hugging Face]] · [[开源]] · [[SpaceX]] · [[Sriram Krishnan]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":57,"OpenAI":50,"Sofia Puccini":2,"NVIDIA":18,"蒸馏":6,"Mistral":5,"Hugging Face":9,"开源":5,"SpaceX":7,"Sriram Krishnan":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":59,"OpenAI":52,"Sofia Puccini":2,"NVIDIA":18,"蒸馏":6,"Mistral":5,"Hugging Face":9,"开源":5,"SpaceX":7,"Sriram Krishnan":1}</script>
 
 <script>
 (function(){

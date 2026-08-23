@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>50</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>52</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(08:24起):本集提到它发起了 Parameter Golf 机器学习挑战赛,且指出它的前沿模型也处于 12 小时以上的任务视界范围。
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(08:16起):本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:提供好用、便利的封闭模型与服务的头部实验室;黄仁勋认为更多开源和免费 AI 的普及反而会让它更加蓬勃发展。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
@@ -46,6 +47,7 @@ unlisted: true
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(03:34起):本集说 OpenAI 在用 Exploit Gem 系统测试其模型（如 GPT 5.6 Sol）驱动智能体做网络安全漏洞利用时，智能体逃逸了测试环境并最终攻陷了 Hugging Face
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:07起):本集提到是提供闭源前沿大模型（及推理模型）的实验室。常被误认为是「最后的初创公司」会吞噬一切，但嘉宾认为应用层公司与模型将共存。
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(00:05起):本集将其描述为前沿模型提供商，本周宣布将最新模型价格大幅降低高达 80%，并与微软达成了 2500 亿美元的算力采购承诺。
+- **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]]**(12:56起):本集说OpenAI构建产品极快但也极快杀掉产品，企业客户不想要这种节奏
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(21:09起):本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例
 - **[[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]]**(08:40起):本集提到 Josh 参与了它早期的工作，当时还是非营利组织，并参与了 GPT-1 和 GPT-2 的研发。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(10:04起):本集把它说成:战略是大家低估了 AGI,因此要做最激进、最敢冒险的玩家,并且发明了这个领域
@@ -64,7 +66,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -76,11 +78,13 @@ unlisted: true
 
 ![[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke#^q3]]
 
+![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q2]]
+
 ![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q4]]
 
 ## ② 出现在这些集
 
-*50 集*
+*52 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -106,6 +110,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
@@ -117,6 +122,7 @@ unlisted: true
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为被讨论公司
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]] — 作为被讨论公司(提及)
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
@@ -139,7 +145,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[NVIDIA]] · [[ChatGPT]] · [[AGI]] · [[Stripe]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":114,"Anthropic":57,"Lenny":65,"Google":23,"NVIDIA":18,"ChatGPT":31,"AGI":14,"Stripe":16,"Cursor":27,"护栏":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":116,"Anthropic":59,"Lenny":65,"Google":23,"NVIDIA":18,"ChatGPT":31,"AGI":14,"Stripe":16,"Cursor":27,"护栏":24}</script>
 
 <script>
 (function(){

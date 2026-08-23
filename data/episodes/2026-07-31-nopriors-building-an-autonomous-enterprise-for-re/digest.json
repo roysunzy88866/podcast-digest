@@ -1,0 +1,189 @@
+{
+  "title_zh": "NETIC：让基础服务企业用AI自主运营",
+  "tldr": "NETIC 创始人 Melissa Tokmak 讲她如何用 AI 智能体替代传统客服调度，帮暖通空调、宠物护理等基础服务企业自主处理客户交互。",
+  "digest_md": "零下 20 度暖气坏了，你打电话给维修公司——接电话的不是人，是 AI 智能体。它问你家什么户型、有没有历史记录、该派哪个技师、今天还是明天去。这不是演示，是 NETIC 现在为收入十亿美元级别的基础服务企业跑着的真实流程 [02:09 Melissa Tokmak]。\n\nNETIC 做的事，是插在企业跟客户之间，把\"理解需求→匹配运营规则→派工部署\"这一整条链路全部用 AI 接管。客户可以打电话、发短信、上网站预约，前端全是 NETIC 的智能体在对话 [02:39 Melissa Tokmak]。听起来简单，但这些行业的运营需求极其复杂——不是\"某人暖气坏了派个人去\"就完了。要判断客户终身价值来决定派什么级别的技师、锅炉还是新风系统该派谁、今天能不能排上、怎么在满足客户的同时把公司收入最大化 [03:00 Melissa Tokmak]。\n\n## 这些企业之前的痛点\n\n基础服务（暖通空调、管道、电气、宠物护理、酒店、汽车）有一个共同特征：高度周期性。夏天热浪一来，客户从早上 6 点开始涌入；冬天同理。而这些公司的调度团队本身就不稳定——一个经理早上到公司，可能当天就有三个人辞职、五个人没来上班 [05:11 Melissa Tokmak]。之前全靠成百上千的人堆出来撑住这些时段，但这类企业很多是 EBITDA 业务、被私募股权持有，利润率盯得很紧，最贵的劳动力应该花在上门干活的技师身上，而不是坐在办公室接电话的人 [04:22 Melissa Tokmak]。\n\nNETIC 最初很多客户是用智能体做\"溢出承接\"——电话打爆了 AI 来接。但现在超过 70% 的客户是\"NETIC first\"模式：所有客户跟公司的第一次接触，直接就是 AI [06:13 Melissa Tokmak]。\n\n## 为什么不做整合，选择做平台\n\n主持人提到一个自然的路径问题：这些企业很多被私募股权持有，为什么不直接做个 AI 整合公司（roll-up），买下一堆企业然后用 AI 优化？Melissa 给了三个理由 [06:55 Melissa Tokmak]。\n\n第一，她想做的规模不同——不是为买下的几家公司服务，而是让每个现实世界业务都能跑在 NETIC 上，企业只需要专注劳动力和服务质量本身 [10:22 Melissa Tokmak]。第二，她自认是工程师和产品人，不是做 M&A 的人，不想建一个自己核心能力不是最重要因素的公司 [09:39 Melissa Tokmak]。第三，整合公司做出来的产品通常只能用在买下的那几家公司身上，无法横向复用 [10:01 Melissa Tokmak]。\n\n## 跟机器人是同一本书的不同章节\n\n有人会把\"现实世界 AI\"跟机器人、自动驾驶放在一起问会不会融合。Melissa 的判断是：长期看是的，但不是同一章——机器人离这些行业的实际应用还相当远 [11:02 Melissa Tokmak]。原因很直白：去每栋楼里修东西，房屋不是 3D 打印的、不是标准化的，机器人连不同类型的螺丝都还处理不好，更别说钻进狭小空间、打开墙面找问题 [11:45 Melissa Tokmak]。而且这些场景里有很多\"人\"的因素——客户可能正经历生活中最糟糕的一天（房子被淹了），人为因素短期内无法被替代 [12:28 Melissa Tokmak]。\n\n## 大实验室做不了这个\n\n\"OpenAI 或 Anthropic 能做这个吗？\"——Melissa 觉得这个问题跟十年前\"Google 能做这个吗\"一样 [13:13 Melissa Tokmak]。她不认为大实验室是竞争风险，给了两个理由。\n\n一是专注度。OpenAI 构建产品极快，但也极快地杀掉产品，企业客户不想要这种节奏。Anthropic 在编码智能体上因专注而领先，但在企业场景里你看到的是大约 20 个产品，方向并不清晰 [14:09 Melissa Tokmak]。二是研究方法论。实验室追求最通用的解法——对这类问题的回答会是\"等我们拿到 AGI 再说\"，她认为这在操作和智力上都是懒惰的 [14:50 Melissa Tokmak]。\n\n更重要的是\"最后一公里\"不来自模型本身：数百万客户有不同口音、不同担忧、不同的联系方式，要让他们成为回头客，靠的是在模型之上搭建的工具、编排和产品 [15:03 Melissa Tokmak]。\n\n## 创始人心态：不是 18 个月退出游戏\n\nMelissa 认为现在很多创始人太担心大实验室的路线图，不敢进新垂直领域。她把这归因于一种\"短期退出心态\"——很多人建公司想的是 18 个月内能不能卖掉 [16:06 Melissa Tokmak]。她认为当创始人本来是更长期、更光荣的承诺，不是可以轻率对待的事 [16:20 Melissa Tokmak]。\n\n她特别批评了 Z 世代里一种\"永久底层阶级心态\"：如果 18 个月没赚到钱、6 个月没学到所有东西，就觉得自己永远穷了。这是一种\"AGI 化\"的世界观——觉得 AI 马上会吞噬人的价值。她认为这很危险，因为真正好的东西需要很长时间来建 [17:19 Melissa Tokmak]。\n\n她引用了一句归在马丁·路德名下的话：基督徒鞋匠不是通过在鞋上放小十字架来荣耀上帝，而是通过造最好的鞋——因为上帝关心的是工艺 [18:30 Melissa Tokmak]。对她来说，做创始人就是造最好的产品来解决你关心的人的问题，用更少资源、更聚焦、一小群人征服世界 [18:45 Melissa Tokmak]。\n\n## 怎么筛\"有主观能动性\"的人\n\n她招人最看重的特质是 agency（主观能动性，指主动发起行动、掌控局面的能力），但筛的不是\"现在有没有\"，而是\"有生以来是否持续展现\" [19:18 Melissa Tokmak]。应届生不一定有工作经历，但大学里做过什么、为了进大学做过什么、有没有坚持下来的项目，都是考察点 [19:33 Melissa Tokmak]。\n\n她最爱问的问题是：\"你人生中做过的最难的事是什么？\"不是找工作相关的答案，可以是任何事。关键不是事情本身多宏大，而是：当事情变难的时候，你坚持了吗？你把你可控的部分握在手里、改变了未来吗？ [19:58 Melissa Tokmak]\n\n她举了个刚招的人的例子：那人说他生活很简单，但对健康有极其严格的作息规律，坚持了超过 15 年，每天固定时间起床、每隔一小时做固定的事、晚上为同事出现，从没厌倦过。她觉得这是非常有创意的好答案 [21:17 Melissa Tokmak]。\n\n## 卖给\"老派行业\"其实不慢\n\n外界觉得暖通空调、屋顶维修这些行业技术落后，Melissa 认为这是巨大误解。她见过一些最技术前瞻、最以业务为导向的创始人就在这些行业里 [24:15 Melissa Tokmak]。他们非常注重价值：一笔合同可能五十万美元，决策周期 14 天，不是因为犹豫，是因为在认真验证价值 [24:38 Melissa Tokmak]。\n\n她举了屋顶公司的例子：这类公司本来就有\"敲门人\"挨家挨户跑业务，NETIC 把卫星数据接入平台，让智能体知道飓风怎么影响不同社区、该用什么材料，既能在客户对话中更懂行，也能主动发现该去追哪些客户 [25:17 Melissa Tokmak]。\n\n如果同一个私募股权旗下有 20 到 30 家这类企业在 NETIC 上，还能跨行业联动——比如知道某个客户有狗，推健康会员时就推带宠物护理的那家 [26:52 Melissa Tokmak]。\n\n## 私募股权的 AI 剧本在变\n\n她观察到私募股权的玩法已经变了。以前是找\"未被发现的宝石\"——低倍数买进来、换团队、创造价值、再卖掉。但那种宝石已经不存在了，新剧本变成了\"怎么跟我们手里的企业创造有形价值\" [27:49 Melissa Tokmak]。\n\n不过她指出一个问题：PE 的第一反应还是削减成本。她得主动把对话拉到\"全新收入\"上——不是演示，而是直接拉出现有客户的真实数据看 AI 交互产生了多少收入。NETIC 到目前为止帮客户产生的、真正由 AI 处理的互动收入已超过 6 亿美元 [29:15 Melissa Tokmak]。她说如果 AI 只被用来削减成本，那挺让人难过的 [31:09 Melissa Tokmak]。\n\n> 【背景】NoPriors 是 a16z 合伙人 Sarah Guo 和 Elad Gil 联合主持的 AI 播客；转写稿中未出现主持人姓名，仅在结尾提到 Twitter 账号 @NoPriorsPod。\n\n## 本集带走\n- **基础服务的 AI 不是聊天机器人，是运营链路**：理解需求、匹配规则、派工排期、优化收入，整条链都能用智能体接，但复杂度远超\"接个电话\"。\n- **周期性+人力不稳定是这些企业的核心痛点**：热浪或寒潮一来客户暴增，调度团队本身还在流失人，AI 溢出承接只是起点，全量接管第一次接触才是现在的主模式。\n- **大实验室的劣势在专注度和最后一公里**：实验室追求通用解法、产品节奏快且不稳定；现实行业需要的是长期陪伴、针对具体场景的工具编排和产品打磨。\n- **筛人看\"有生以来是否持续展现主观能动性\"**：不是问一个项目经历，而是深挖人生中做过的最难的事——关键在\"变难的时候你坚持了吗\"，不在于事情多宏大。\n- **跟\"老派行业\"做生意不慢，他们只是认真验值**：五十万美元级别的合同 14 天能关，前提是你能展示真实运行数据而不是 demo。\n- **对 PE 要主动把话题从\"降本\"拉到\"增收\"**：PE 的本能反应还是砍成本，得用真实客户收入数据证明 AI 能带来全新收入。",
+  "quotes": [
+    {
+      "en": "I do chuckle at the question a little bit, though, because I think 10 years ago, that same exact question was, can Google do this? And then now it became, can labs do this?",
+      "zh": "我确实对这个问题有点想笑，因为我认为 10 年前，那个一模一样的问题是，Google 能做这个吗？而现在变成了，实验室能做这个吗？",
+      "timestamp": "13:28",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "OpenAI builds amazing products really fast, but also it kills them really fast.",
+      "zh": "OpenAI 真的很快构建出令人惊叹的产品，但它也真的很快杀死它们。",
+      "timestamp": "14:11",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "And I think that is both operationally and intellectually a bit lazy thinking.",
+      "zh": "我认为这在操作上和智力上都是一种有点懒惰的思维。",
+      "timestamp": "14:58",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "That doesn't only come from models. That has to come from your harnesses and orchestration, the software and the product that you have to build on top.",
+      "zh": "这不仅仅来自模型。这必须来自于你的工具和编排,以及你必须在顶层构建的软件和产品。",
+      "timestamp": "15:22",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "I see, especially Gen Z in these days when I'm, you know, looking at hiring, obsessed with this permanent underclass mentality.",
+      "zh": "我看到,特别是现在的 Z 世代,当我在,你知道,看招聘时,沉迷于这种永久底层阶级的心态。",
+      "timestamp": "17:19",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "I think already the private equity playbook has changed. Before it used to be, right, we're going to find a gem and that has an amazing multiple and we are going to go change the team and create the value and then sell it again. But those gems don't really exist anymore, like undiscovered.",
+      "zh": "我认为私募股权的剧本已经改变了。在这之前，对吧，我们要找到一颗宝石，它有惊人的倍数，然后我们要去更换团队并创造价值，然后再把它卖掉。但那些宝石实际上不再存在了，比如未被发现的。",
+      "timestamp": "27:49",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "We have made so far, I think, over $600 million for our customers that have been really generated from AI-handled interactions.",
+      "zh": "我们到目前为止已经为我们的客户创造了超过 6 亿美元，我认为这是真正由 AI 处理的互动产生的。",
+      "timestamp": "29:39",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "It would be pretty sad if we used AI only for cost-cutting.",
+      "zh": "如果我们仅将 AI 用于削减成本，那将非常令人难过。",
+      "timestamp": "31:09",
+      "speaker": "Melisa Tokmak"
+    },
+    {
+      "en": "We keep making it easy and easier, easier and easier to make that choice, but still, I guarantee you, majority of the world will not be making that choice.",
+      "zh": "我们让做出那个选择变得越来越容易,越来越容易,但我向你保证,世界上的大多数人仍然不会做出那个选择。",
+      "timestamp": "32:48",
+      "speaker": "Melisa Tokmak"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:09",
+      "speaker": "Melissa Tokmak",
+      "en": "Imagine that you are in the middle of nowhere, it's minus 20 degrees and your heat stops working.",
+      "zh": "想象一下你身处荒郊野外，气温零下 20 度，你的暖气停止工作了。"
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Melissa Tokmak",
+      "en": "It's not as simple as, oh, Elon's heat broke and now Melissa goes. Is it that actually, what kind of even units do you have?",
+      "zh": "这并不像，哦，Elon 的暖气坏了然后 Melissa 去了那么简单。实际上是你甚至有什么样的机组？"
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Melissa Tokmak",
+      "en": "If you do not answer me, I'm going to go to the next one, next search result on Google, next result on like now ChatGPT.",
+      "zh": "如果你不回答我，我就要去下一个了，Google 上的下一个搜索结果，就像现在 ChatGPT 上的下一个结果。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Melissa Tokmak",
+      "en": "You might come in as a manager, but there are at least three people that quit that way or that day or five didn't show up.",
+      "zh": "你可能会作为经理进来，但至少有三个人那样辞职了或者那天，或者五个人没有出现。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Melissa Tokmak",
+      "en": "But today, actually, over 70% of our customers are AI first. They go N1. And over 70%, actually, all of their customers' first interaction with the company is with netic agents.",
+      "zh": "但今天，实际上，超过 70% 的客户是 AI first。他们走 N1。超过 70%，实际上，他们所有客户与公司的第一次互动是与 netic 智能体。"
+    },
+    {
+      "timestamp": "09:19",
+      "speaker": "Melissa Tokmak",
+      "en": "But to me, it was missing the product, right? What is the product?",
+      "zh": "但对我来说，它缺少那个产品，对吧？产品是什么？"
+    },
+    {
+      "timestamp": "11:55",
+      "speaker": "Melissa Tokmak",
+      "en": "I don't see that happening.",
+      "zh": "我看不到那会发生。"
+    },
+    {
+      "timestamp": "13:13",
+      "speaker": "Melissa Tokmak",
+      "en": "I do chuckle at the question a little bit, though, because I think 10 years ago, that same exact question was, can Google do this? And then now it became, can labs do this?",
+      "zh": "我确实对这个问题有点想笑，因为我认为 10 年前，那个一模一样的问题是，Google 能做这个吗？而现在变成了，实验室能做这个吗？"
+    },
+    {
+      "timestamp": "14:11",
+      "speaker": "Melissa Tokmak",
+      "en": "OpenAI builds amazing products really fast, but also it kills them really fast.",
+      "zh": "OpenAI 真的很快构建出令人惊叹的产品，但它也真的很快杀死它们。"
+    },
+    {
+      "timestamp": "14:58",
+      "speaker": "Melissa Tokmak",
+      "en": "And I think that is both operationally and intellectually a bit lazy thinking.",
+      "zh": "我认为这在操作上和智力上都是一种有点懒惰的思维。"
+    },
+    {
+      "timestamp": "15:22",
+      "speaker": "Melissa Tokmak",
+      "en": "That doesn't only come from models. That has to come from your harnesses and orchestration, the software and the product that you have to build on top.",
+      "zh": "这不仅仅来自模型。这必须来自于你的工具和编排,以及你必须在顶层构建的软件和产品。"
+    },
+    {
+      "timestamp": "16:06",
+      "speaker": "Melissa Tokmak",
+      "en": "Yeah, I do think that's because there's a lot of building going on currently that's focused on how can I exit immediately.",
+      "zh": "是的,我确实认为这是因为目前正在进行大量的建设,重点在于我如何能立即退出。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "Melissa Tokmak",
+      "en": "I see, especially Gen Z in these days when I'm, you know, looking at hiring, obsessed with this permanent underclass mentality.",
+      "zh": "我看到,特别是现在的 Z 世代,当我在,你知道,看招聘时,沉迷于这种永久底层阶级的心态。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Melissa Tokmak",
+      "en": "In fact, building really good things take a very long time.",
+      "zh": "事实上,构建真正好的东西需要很长的时间。"
+    },
+    {
+      "timestamp": "18:37",
+      "speaker": "Melissa Tokmak",
+      "en": "It does so by building the best shoe, right? The best shoes, because God cares about craftsmanship.",
+      "zh": "而是通过制造最好的鞋子来荣耀,对吧？最好的鞋子,因为上帝关心工艺。"
+    },
+    {
+      "timestamp": "20:23",
+      "speaker": "Melissa Tokmak",
+      "en": "Did you stick through when it got hard? You started something, you did something unique that most people don't do, and then you kept going on it.",
+      "zh": "当事情变得困难时你坚持到底了吗？你开始了一件事，你做了一件大多数人不做的独特的事情，然后你继续做下去。"
+    },
+    {
+      "timestamp": "24:15",
+      "speaker": "Melissa Tokmak",
+      "en": "I think it's a big misconception to think about these industries as old school.",
+      "zh": "我认为将这些行业视为老派是一个巨大的误解。"
+    },
+    {
+      "timestamp": "27:49",
+      "speaker": "Melissa Tokmak",
+      "en": "I think already the private equity playbook has changed. Before it used to be, right, we're going to find a gem and that has an amazing multiple and we are going to go change the team and create the value and then sell it again. But those gems don't really exist anymore, like undiscovered.",
+      "zh": "我认为私募股权的剧本已经改变了。在这之前，对吧，我们要找到一颗宝石，它有惊人的倍数，然后我们要去更换团队并创造价值，然后再把它卖掉。但那些宝石实际上不再存在了，比如未被发现的。"
+    },
+    {
+      "timestamp": "29:39",
+      "speaker": "Melissa Tokmak",
+      "en": "We have made so far, I think, over $600 million for our customers that have been really generated from AI-handled interactions.",
+      "zh": "我们到目前为止已经为我们的客户创造了超过 6 亿美元，我认为这是真正由 AI 处理的互动产生的。"
+    },
+    {
+      "timestamp": "31:09",
+      "speaker": "Melissa Tokmak",
+      "en": "It would be pretty sad if we used AI only for cost-cutting.",
+      "zh": "如果我们仅将 AI 用于削减成本，那将非常令人难过。"
+    },
+    {
+      "timestamp": "32:48",
+      "speaker": "Melissa Tokmak",
+      "en": "We keep making it easy and easier, easier and easier to make that choice, but still, I guarantee you, majority of the world will not be making that choice.",
+      "zh": "我们让做出那个选择变得越来越容易,越来越容易,但我向你保证,世界上的大多数人仍然不会做出那个选择。"
+    }
+  ]
+}

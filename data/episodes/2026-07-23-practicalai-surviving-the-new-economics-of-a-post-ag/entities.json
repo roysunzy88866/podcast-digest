@@ -1,0 +1,787 @@
+{
+  "episode_id": "2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag",
+  "podcast": "Practical AI",
+  "date": "2026-07-23",
+  "tags": [
+    "企业软件危机",
+    "智能体替代",
+    "AI 基础设施",
+    "微调回归",
+    "智能体对智能体交互"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "host",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.787,
+            55.828
+          ],
+          "quote": "I am CEO at PredictionGuard and I'm joined as always by my co-host, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "cohost",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            45.447,
+            46.727
+          ],
+          "quote": "This is Daniel Whitenack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "type": "company",
+      "role": "company",
+      "name": "IBM",
+      "file": "IBM",
+      "primary": true,
+      "how_described": "本集说 IBM 单交易日股价暴跌 25%、抹掉约 700 亿市值，是 50 多年来最惨单日跌幅，导火索是企业把 IT 预算从企业软件和服务抽走向硬件和基础设施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            218.153,
+            227.298
+          ],
+          "quote": "And this morning on those news highlights, it highlighted that IBM had a major hit in their stock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            232.381,
+            234.842
+          ],
+          "quote": "And it talked about, oh, IBM has this 25%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            257.424,
+            259.947
+          ],
+          "quote": "Like, I didn't know that IBM would do this, but so.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            333.045,
+            336.548
+          ],
+          "quote": "And so that's why the IBM thing didn't surprise me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            420.442,
+            424.983
+          ],
+          "quote": "And so the IBM thing is kind of that, I know the New York Times referred to it as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            447.593,
+            460.56
+          ],
+          "quote": "Yeah, I think there's a lot of things tied up into this discussion, some of which were cited in the IBM case, some of which maybe were not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            513.488,
+            530.917
+          ],
+          "quote": "versus kind of the model side so there's so much tied up in to this just to give some stats on the ibm case the kind of canary uh 25 single trading session collapse which is about 70 billion in market value i'm marking it the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            549.672,
+            558.599
+          ],
+          "quote": "The at least the cited dynamics that they're talking about in relation to this on from IBM and other analysts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            745.153,
+            755.261
+          ],
+          "quote": "You know, whether we're talking about IBM's collapse and the shifts that they're making, you're seeing all these influences affect kind of emergency allocation of capital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1082.584,
+            1100.948
+          ],
+          "quote": "But I think that's the kind of thing as we're moving toward and that becomes more common across industries that you're looking at a set of capabilities that, you know, going back to the IBM thing right here, where that level of agentic implementation and agents running agents",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1119.752,
+            1126.06
+          ],
+          "quote": "And I think that goes to the, you know, when we talk about IBM stock today, I think that's the threat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1126.32,
+            1139.436
+          ],
+          "quote": "But, I mean, IBM is just one significant company in multiple industries with lots and lots of companies that are essentially taking that enterprise software approach, and they are all at risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1271.024,
+            1287.46
+          ],
+          "quote": "If you have enterprise software that people have been using for some time, let's say like IBM, or even a smaller midsize or a niche vertical software vendor, because I've talked to a lot of those, vertical SaaS software vendor, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1419.506,
+            1425.99
+          ],
+          "quote": "So if you're one of these companies, I know you mentioned NetSuite and obviously there's the IBM concern and lots of others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1484.375,
+            1492.48
+          ],
+          "quote": "And so if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体描述为能自主执行多步骤任务的 AI 程序，正在替代的不仅仅是人还有传统企业软件本身；已有企业跑了 70,000 个智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            988.443,
+            1002.896
+          ],
+          "quote": "Folks, but as we transition from agents being like my personal assistant on my laptop, which I interact with back and forth, which obviously limits the speed at which and the amount of context that agent can consume.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1002.956,
+            1008.381
+          ],
+          "quote": "And I move that into the cloud as a long living agent that just works for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1224.06,
+            1232.442
+          ],
+          "quote": "So I think there are many people out there that are maybe still on a one-to-one basis with their Claude Code or with their Hermes agent or whatever it might be.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1394.42,
+            1403.692
+          ],
+          "quote": "And collaborating, the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业软件 (enterprise software)",
+      "file": "企业软件",
+      "primary": true,
+      "how_described": "本集说企业软件公司的预算正在被抽走，同日 Workday 跌 10%、Salesforce 跌 9%、ServiceNow 跌 8%、Adobe 跌 6%，全是企业软件公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            567.545,
+            591.562
+          ],
+          "quote": "away from enterprise software and and services so enterprise software and services to some of these other things like the like i was mentioning the panic buying of maybe hardware or infrastructure such that they aren't priced out of maybe what they see as coming as a price hike in the usage of these ai models the agentic future where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            596.927,
+            609.8
+          ],
+          "quote": "And so there's been the shift, I guess, from the capital expenditures on enterprise software and services, at least to some of these hardware and infrastructure expenses as kind of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            864.852,
+            886.886
+          ],
+          "quote": "if you're an enterprise software well i guess if you're an enterprise software consumer or you're an enterprise software uh vendor right what what what is the future i guess yeah that's so like if people are moving away from investment and enterprise software where are we going yeah i mean one of the things that i think is is interesting is that lately",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1126.32,
+            1139.436
+          ],
+          "quote": "But, I mean, IBM is just one significant company in multiple industries with lots and lots of companies that are essentially taking that enterprise software approach, and they are all at risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1271.024,
+            1287.46
+          ],
+          "quote": "If you have enterprise software that people have been using for some time, let's say like IBM, or even a smaller midsize or a niche vertical software vendor, because I've talked to a lot of those, vertical SaaS software vendor, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1624.91,
+            1633.232
+          ],
+          "quote": "And so there's a focus on that rather than kind of the generic SaaS software and enterprise software as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1644.277,
+            1656.442
+          ],
+          "quote": "And I think those are good call-outs in terms of, you know, you're looking at enterprise software companies struggling because people are starting to realize what's happening and not going to happen, happening.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说之前大家觉得模型够好不需要微调，现在被两头挤压（美国模型贵、中国模型可能被限），又开始认真考虑自己训练或微调小模型来降低推理成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            905.806,
+            923.2
+          ],
+          "quote": "But also I'm starting to hear about the recognition that there may be a need, especially as models are now getting, you know, we're getting smaller models that are used for a lot of specific purposes and edge cases to actually go and do training of models or getting back to fine tuning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            925.982,
+            928.364
+          ],
+          "quote": "Remember, we used to talk about fine tuning, you know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            935.288,
+            939.931
+          ],
+          "quote": "And they would just take a model and it was good enough without fine tuning, without the cost of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            1308.295,
+            1331.2
+          ],
+          "quote": "provide a connector into the AI world right which is often MCP right so their value is maybe they're assuming their value is in their data platform how they organize data the the functionality that you're that they provide but surfacing that in an agentic way so that's you know through the MCP side so that's one take that you have you have others then",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1450.469,
+            1455.054
+          ],
+          "quote": "And how the MCP servers are configured for the different parts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说中国意识到其开源模型比美国专有模型便宜得多，可能设限，使企业原来'用不起美国模型就换中国开源模型'的备用策略收窄",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            646.437,
+            658.505
+          ],
+          "quote": "And they're recognizing that while the US has put export controls around that, that these open source models that we've assumed that the world will kind of fall back to because they're leading the way in that,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workday",
+      "type": "company",
+      "role": "company",
+      "name": "Workday",
+      "file": "Workday",
+      "primary": false,
+      "how_described": "本集提到同日 Workday 股价下跌 10%，作为企业软件公司受预算转移冲击的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "servicenow",
+      "type": "company",
+      "role": "company",
+      "name": "ServiceNow",
+      "file": "ServiceNow",
+      "primary": false,
+      "how_described": "本集提到同日 ServiceNow 股价下跌 8%，作为企业软件公司受预算转移冲击的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe",
+      "file": "Adobe",
+      "primary": false,
+      "how_described": "本集提到同日 Adobe 股价下跌 6%，作为企业软件公司受预算转移冲击的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1571.823,
+            1583.491
+          ],
+          "quote": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "netsuite",
+      "type": "company",
+      "role": "company",
+      "name": "NetSuite",
+      "file": "NetSuite",
+      "primary": false,
+      "how_described": "本集提到 NetSuite 作为企业软件公司的例子，说它采取通过 MCP 提供连接器把数据平台以智能体方式开放出去的策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1419.506,
+            1425.99
+          ],
+          "quote": "So if you're one of these companies, I know you mentioned NetSuite and obviously there's the IBM concern and lots of others.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 在实施和服务方面加倍下注，以及发布论文讨论模型内部形成功能上类似人脑工作记忆的'工作空间'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            496.083,
+            511.748
+          ],
+          "quote": "There's the, you know, I saw the, I think it was another article that you had posted to me about, or maybe it was something that I saw elsewhere, but Anthropic really doubling down on kind of implementation and services side, which we've also seen with OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            793.675,
+            820.446
+          ],
+          "quote": "To some of what you're talking about, there's this Chinese token black market, which is kind of a reference to this underground gray market area where brokers are reselling discounted API access to Western artificial intelligence platforms, AI platforms, like OpenAI or Anthropic, because those services are blocked to mainland Chinese",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1781.671,
+            1792.419
+          ],
+          "quote": "Chris, but to your point in terms of how things are advancing, Anthropic did just release a paper, I forget which day, recently, now, whenever it was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1880.986,
+            1901.191
+          ],
+          "quote": "Yeah, I think, you know, one of the things in the paper that you're referencing that was pointed out was that Anthropic had noticed that models are creating what they're calling workspaces where they're essentially, the notion of the workspace is fulfilling the same function as working memory in a human brain.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            496.083,
+            511.748
+          ],
+          "quote": "There's the, you know, I saw the, I think it was another article that you had posted to me about, or maybe it was something that I saw elsewhere, but Anthropic really doubling down on kind of implementation and services side, which we've also seen with OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            793.675,
+            820.446
+          ],
+          "quote": "To some of what you're talking about, there's this Chinese token black market, which is kind of a reference to this underground gray market area where brokers are reselling discounted API access to Western artificial intelligence platforms, AI platforms, like OpenAI or Anthropic, because those services are blocked to mainland Chinese",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "unsloth",
+      "type": "company",
+      "role": "company",
+      "name": "Unsloth",
+      "file": "Unsloth",
+      "primary": false,
+      "how_described": "本集提到 Unsloth 作为允许在 MacBook 上进行微调并更高效运行的平台例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            966.846,
+            978.055
+          ],
+          "quote": "I think that that also becomes, I mean, there's platforms like Unsloth and others that allow you to fine tune, you know, even on your MacBook and, you know, run things a lot more efficiently.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "predictionguard",
+      "type": "company",
+      "role": "company",
+      "name": "PredictionGuard",
+      "file": "PredictionGuard",
+      "primary": false,
+      "how_described": "本集提到 PredictionGuard 正在朝智能体劳动力的未来努力，让成千上万智能体安全运行、治理运行、带着身份运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.787,
+            55.828
+          ],
+          "quote": "I am CEO at PredictionGuard and I'm joined as always by my co-host, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1184.167,
+            1201.16
+          ],
+          "quote": "Our vision and what I'm trying to paint at PredictionGuard, we're working towards that future that you mentioned of the agentic workforce, the thousands, hundreds of thousands of agents that need to run, run securely, run, govern, run with identity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2116.669,
+            2120.451
+          ],
+          "quote": "Thanks to our partner, PredictionGuard, for providing operational support for the show.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            2121.025,
+            2123.029
+          ],
+          "quote": "Check them out at predictionguard.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-to-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体对智能体 (agent to agent)",
+      "file": "智能体对智能体",
+      "primary": true,
+      "how_described": "本集说未来跨系统的绝大多数交互将是智能体对智能体的，不经过任何人类操作的图形界面，企业软件公司必须通过权限设置和 MCP 配置让智能体完成业务交易",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            1394.42,
+            1403.692
+          ],
+          "quote": "And collaborating, the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1271.024,
+            1287.46
+          ],
+          "quote": "If you have enterprise software that people have been using for some time, let's say like IBM, or even a smaller midsize or a niche vertical software vendor, because I've talked to a lot of those, vertical SaaS software vendor, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1624.91,
+            1633.232
+          ],
+          "quote": "And so there's a focus on that rather than kind of the generic SaaS software and enterprise software as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说很多人还停留在跟 Claude Code 一对一交互的阶段，觉得成千上万智能体跑在企业基础设施里很遥远",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            1224.06,
+            1232.442
+          ],
+          "quote": "So I think there are many people out there that are maybe still on a one-to-one basis with their Claude Code or with their Hermes agent or whatever it might be.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "workspaces",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作空间 (workspaces)",
+      "file": "工作空间",
+      "primary": false,
+      "how_described": "本集说 Anthropic 注意到模型在内部创建'工作空间'，功能上类似人脑的工作记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1880.986,
+            1901.191
+          ],
+          "quote": "Yeah, I think, you know, one of the things in the paper that you're referencing that was pointed out was that Anthropic had noticed that models are creating what they're calling workspaces where they're essentially, the notion of the workspace is fulfilling the same function as working memory in a human brain.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "inference",
+      "reason": "专名「inference」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

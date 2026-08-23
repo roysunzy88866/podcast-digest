@@ -2,7 +2,8 @@
   "revive": {
     "2026-07-10-talks-kalshi-founders-on-the-axios-show-full-i": 3,
     "2026-08-06-talks-payments-summit-2026-ai": 3,
-    "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3
+    "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
+    "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 1
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -48,7 +49,7 @@
     "2026-07-27-lennys-from-zero-coding-background-to-hardware": "https://api.substack.com/feed/podcast/208362786/66781207d9aad96ef4324b4c59755f32.mp3"
   },
   "cutoffs": {
-    "lennys": "2026-08-17T12:04:02.000Z",
+    "lennys": "2026-08-23T12:31:43.000Z",
     "pg": "2026-08-06T20:17:48.000Z",
     "a16z": "2026-08-22T10:00:00.000Z",
     "yc": "2026-08-11T19:53:56.000Z",
@@ -60,7 +61,7 @@
     "nopriors": "2026-08-20T10:00:00.000Z",
     "thepeel": "2026-08-14T16:59:05.000Z",
     "beyondcoding": "2026-08-19T12:00:00.000Z",
-    "founders": "2026-08-16T00:19:00.000Z",
+    "founders": "2026-08-23T14:22:00.000Z",
     "dwarkesh": "2026-08-11T16:31:23.000Z",
     "doac": "2026-08-17T05:00:00.000Z",
     "deepmind": "2026-07-10T15:50:06.000Z",
@@ -410,6 +411,30 @@
       "reason": "题材不对味:❌ 不要：命中「不要」之「AI 安全 / 对齐 / 政策 / 哲学」。标题涉及 'Governments Cannot Regulate'、'The Cyber Attacks' 及宏观预测（$100BN Model），属思辨与政策讨论，而非商业或实操；源 The Twenty Minute VC 亦不在抓取清单中（现仅 11 源）。",
       "title": "20VC: 70% of Neolabs Will Die | There Will be a $100BN US Open-Source Model | Data is a Trillion $ Market | Governments Cannot Regulate Models: It is Too Late | The Cyber Attacks to Come Will be Insane with Anastasios Angelopoulos @ Arena",
       "pubDate": "2026-08-03T07:07:00.000Z"
+    },
+    {
+      "id": "2026-08-23-lennys-how-to-close-100k-1m-deals-step-by",
+      "reason": "题材不对味:非AI主题的传统B2B销售实操",
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "pubDate": "2026-08-23T12:31:43.000Z"
+    },
+    {
+      "id": "2026-08-23-founders-430-how-to-write-ads-that-sell",
+      "reason": "题材不对味:❌ 传统营销案例:话题是经典广告文案写作,非 AI、非科技产业、非创始人故事",
+      "title": "#430 How to Write Ads That Sell",
+      "pubDate": "2026-08-23T14:22:00.000Z"
+    },
+    {
+      "id": "2026-07-31-unsupervised-ep-92-xai-co-founder-unpacks-the-future",
+      "reason": "题材不对味:源单在册 Unsupervised Learning 属 ❌ 不抓清单；且标题暗示模型开发走向，大概率触及档案排除的「模型规格/技术深水」而非纯商业故事",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "pubDate": "2026-07-31T15:15:49.000Z"
+    },
+    {
+      "id": "2026-07-29-aiandi-best-of-the-pod-wired-s-kevin-kelly-on-w",
+      "reason": "题材不对味:不要思辨/哲学/历史大势；虽含 Kevin Kelly，但标题定位在「50年成功史」与「成功原因」这种宏观叙事/媒体评论，属「思辨」而非档案要的「商业/产品/实操」。",
+      "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+      "pubDate": "2026-07-29T14:37:14.000Z"
     }
   ]
 }

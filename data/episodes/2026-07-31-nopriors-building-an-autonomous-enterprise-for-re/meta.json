@@ -1,0 +1,32 @@
+{
+  "id": "2026-07-31-nopriors-building-an-autonomous-enterprise-for-re",
+  "audio_mp3": "https://traffic.megaphone.fm/PDP6533459307.mp3",
+  "duration_sec": 2068.095,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 439,
+  "asr": true,
+  "title_en": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+  "podcast": "No Priors",
+  "date": "2026-07-31",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/db17d1d8-8c79-11f1-9e05-6bb27aab1f6f/image/82d8177a07141efa60a0e14fb8b30b2b.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-08-24",
+  "speaker_map": {
+    "SPEAKER_02": "Melisa Tokmak"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Melisa Tokmak",
+  "cohosts": [],
+  "title_zh": "NETIC：让基础服务企业用AI自主运营",
+  "guest_name": "Melisa Tokmak",
+  "guest_title": "NETIC 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/db17d1d8-8c79-11f1-9e05-6bb27aab1f6f/image/82d8177a07141efa60a0e14fb8b30b2b.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1920x1080",
+    "aspect": 1.778,
+    "fetched_at": "2026-08-23T19:23:31.331Z"
+  }
+}
