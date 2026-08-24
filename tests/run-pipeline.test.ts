@@ -533,7 +533,15 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     // 两处都要有「skip → continue」而非只有 break
     expect((src.match(/if \((?:bv|rv) === "skip"\) continue;/g) || []).length).toBe(2);
-    expect((src.match(/if \((?:bv|rv) === "stop"\) break;/g) || []).length).toBe(2);
+    // 两处都要有 stop→break(补活直接 break;补历史 stop 置 budgetFull 后 break,供外层区分"预算见底"vs"这集太长")
+    expect(src).toContain('if (rv === "stop") break;');
+    expect(src).toMatch(/if \(bv === "stop"\) \{ budgetFull = true; break; \}/);
+  });
+  it("★★★ 成本护栏只数真处理数(r.processed),免费长集 skip 不吃 cap;预算真见底(budgetFull)才停外层", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    expect(src).toContain("attempted += r.processed"); // 不是 picks.length —— 否则 11 次空跳撞满 cap(今天实证)
+    expect(src).toContain("if (r.budgetFull) break;"); // 纯长集跳过(budgetFull=false)继续挑更老/更短的
+    expect(src).toContain("return { clean, skipped, processed, budgetFull }");
   });
   it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");

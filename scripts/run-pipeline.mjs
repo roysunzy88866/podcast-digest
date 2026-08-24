@@ -1228,11 +1228,15 @@ function processBackfillPicks(pairs, state) {
   // C32:补历史同受时间预算约束(它和新集抢的是同一个 6h 作业)
   let clean = 0;
   let skipped = 0;
+  let processed = 0; // 真正付费处理(过判官+processEpisode)的数目 —— 只有它计入 attemptCap;
+  //                    2026-08-24:免费的长集 skip / 预算 stop 不该吃成本护栏(否则 11 次空跳撞满 cap、池里还剩几百集也不做)
+  let budgetFull = false; // 预算真见底(stop)才置真;调用方据此停外层,而纯长集 skip(预算还在)则继续挑下一批
   for (const { item, source } of pairs) {
     const id = deriveId(item, source);
     const bv = timeBudgetCheck("补历史", item, source, id);
-    if (bv === "stop") break;
+    if (bv === "stop") { budgetFull = true; break; }
     if (bv === "skip") continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
+    processed += 1; // 到这就要真花钱(判官+可能转写)了,计入成本护栏
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source);
     if (!taste.ok) {
@@ -1283,7 +1287,7 @@ function processBackfillPicks(pairs, state) {
     }
   }
   writeState(state);
-  return { clean, skipped };
+  return { clean, skipped, processed, budgetFull };
 }
 
 /** 每日顶量一轮:当天入库 <target 时,从带 archiveFile 的源倒序补历史(比库内该源最旧一期更旧)。返回 {clean, skipped}。 */
@@ -1350,9 +1354,11 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
       console.log("      （--dry-run:仅列出,不真补)");
       break;
     }
-    attempted += picks.length;
-    picks.forEach((p) => tried.add(deriveId(p.item, p.source)));
+    picks.forEach((p) => tried.add(deriveId(p.item, p.source))); // 本轮不再重挑(含被 skip 的长集)
     const r = processBackfillPicks(picks, state);
+    // 成本护栏只数**真处理**的(过判官+转写),免费的长集 skip 不计 —— 否则空跳撞满 cap、池里几百集不做(2026-08-24)
+    attempted += r.processed;
+    if (r.budgetFull) break; // 预算真见底(不是"这集太长")→ 收工;纯长集跳过时 budgetFull=false,继续挑更老/更短的,tried 保证不重挑、池空则下方 !picks 收口
     clean += r.clean;
     skipped += r.skipped;
     remaining -= r.clean; // 只按成功数扣目标:失真/跳过的继续挑下一批(GLM 20260812-003[1])
