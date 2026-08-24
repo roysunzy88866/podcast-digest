@@ -1236,7 +1236,7 @@ function processBackfillPicks(pairs, state) {
     const bv = timeBudgetCheck("补历史", item, source, id);
     if (bv === "stop") { budgetFull = true; break; }
     if (bv === "skip") continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
-    processed += 1; // 到这就要真花钱(判官+可能转写)了,计入成本护栏
+    processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source);
     if (!taste.ok) {
