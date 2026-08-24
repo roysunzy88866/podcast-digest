@@ -368,3 +368,7 @@
 {"ts":"2026-08-24T07:50:29.782Z","action":"seed-failed","channel":"aie","videoId":"_ehJyfHg1Vk","title":"The Era of Compound Engineering — Kieran Klaassen, Every/Cora","verdict":"对味","reason":"AI 编程/agent 实操与单人建造者真实案例，讲工程方法与瓶颈演进，命中 ✅ 类别","error":"seed-talk exit 1/种子未就绪(可重试)"}
 {"ts":"2026-08-24T07:50:54.235Z","action":"judge-failed","channel":"langchain","videoId":"u8Im0l_vwqM","title":"Inside DeepWiki: How Cognition Builds Wikis for Devin at Scale","error":"判官不可达或输出解析不出(可重试)"}
 {"ts":"2026-08-24T07:52:04.934Z","action":"seed-failed","channel":"langchain","videoId":"6898VdRtKDE","title":"How Unify cut its AI agent costs 95% in two weeks","verdict":"对味","reason":"创始人/CTO 对谈+agent harness 实操与降本工程,正是「商业+人+实操」面,符合频道提示中要的企业客户/创始人案例类。","error":"seed-talk exit 1/种子未就绪(可重试)"}
+{"ts":"2026-08-24T13:40:11.881Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-24T13:40:16.513Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-24T13:40:21.517Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-24T13:40:26.521Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
