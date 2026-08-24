@@ -412,6 +412,12 @@ describe("C36 · changelog 网页稿解析", () => {
     expect(segs.map((s) => s.text).join(" ")).not.toContain("junk");
     expect(segs.length).toBe(2);
   });
+  it("★★★ GLM 011[1]:未闭合的 <script>(截断页)也要连内容剥到文末 —— 否则脚本文本会被段头解析成带伪时间点的假段", () => {
+    const truncated = `<body><p>Kim (00:00):<br>Real words.<br><br>Jay (00:54):<br>Reply words.</p><script>var junk = 1;\nFake (01:30):\ninjected junk line`;
+    const segs = parseTranscriptHtml(truncated)!;
+    expect(segs.length).toBe(2);
+    expect(segs.map((s) => s.text + s.speaker).join(" ")).not.toMatch(/junk|Fake/);
+  });
   it("★★★ buzzsprout 形状(rework):无 <cite>,正文「人名 (00:00):<br>话」→ 转行后复用段头解析,密点直接可用", () => {
     const bz = `<body><p><!--block-->Kim (00:00):<br>Welcome to a fabricated show about nothing real at all.<br><br>Jay (00:54):<br>Sure. This is also made up text for the fixture only.</p></body>`;
     const segs = parseTranscriptHtml(bz)!;

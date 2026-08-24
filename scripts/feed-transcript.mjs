@@ -227,8 +227,10 @@ export function parseTranscriptHtml(html) {
   let src = String(html ?? "");
   const body = src.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   if (body) src = body[1];
-  // <script>/<style> 连内容一起剥 —— 光剥标签会把脚本文本混进正文(GLM 010[2] 加固)
-  src = src.replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, " ");
+  // <script>/<style> 连内容一起剥 —— 光剥标签会把脚本文本混进正文(GLM 010[2] 加固);
+  // 第二刀剥「没闭合的」(截断/畸形 HTML):按 HTML 解析规则,未闭合 script 之后到文末都算脚本,
+  // 不剥的话脚本文本可能被段头解析成带伪时间点的假段(GLM 011[1] 实证)
+  src = src.replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, " ").replace(/<(script|style)[^>]*>[\s\S]*$/i, " ");
   if (!/<cite[\s>]/i.test(src)) {
     const text = decodeEntities(
       src.replace(/<br\s*\/?>/gi, "\n").replace(/<\/?p[^>]*>/gi, "\n").replace(/<[^>]*>/g, " "),
