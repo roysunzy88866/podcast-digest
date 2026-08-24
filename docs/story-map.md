@@ -60,3 +60,4 @@
 
 **里程碑规矩(业务级 E2E)**:每个里程碑收口前,真跑一集完整流水线(真 RSS→真转写→真闸门→真发布),用户亲手点验收,不认 mock 绿。
 | C37 | **生产配音换 MiMo 主引擎**(2026-08-22 用户听样品拍板「MIMO很好」;ADR 0014 复审修订):vendored 配音 skill 的 peiyin.py(MiMo mimo_default,自带切块/剪尾/重试),tts.mjs 主路走它、任何失败回落既有 edge 链路不断更;key 走 GitHub Secrets(PEIYIN_MIMO_KEY);存量 296 集不重配(用户拍板,老集 edge 嗓,缓存不因引擎切换失效);POST_CHAIN_MIN 30→45(MiMo 串行 ~13-15 分/集计入预算)| US-5 | ✅ 用户 2026-08-22 明文通过「翻绿」(原:🟡已上线跑通(DoD③④闭:P1c 4s 达通 + 0600 班 4 集 engine=mimo 零回落),待用户听感验收)|
+| C36 | **text/plain + text/html 官方稿摄取**(2026-08-24 用户二确「对,开工」):transistor 纯文本(`人名 (00:02):`)+ buzzsprout 网页稿(rework)解析成标准稿格式,时间戳/说话人都在→归属闸门/引语硬拦零降级;**时间点覆盖不足一半 → 回落 ASR**(实测 changelog 多数集零时间点、devtools txt 无时间点,均如实回落);预算/有稿优先只认字幕格式防炸预算;挑稿优先级 JSON>SRT>VTT>html>plain;现有三源行为逐字不变。真稿实证:rework drift 4s / workos drift 3s 归属闸过。workos 28 集封闭档=用户裁决放弃(drift #76)。Gherkin 见 user-stories C36 | US-4, US-11 | 🟡 代码全落+1129 单测,待变异验证+GLM 冷审+云端首集实证 |

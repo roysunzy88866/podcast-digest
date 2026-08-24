@@ -1,6 +1,6 @@
 // C28 · 用 feed 自带的官方转写稿取源(ADR 0024)· IO 层
 //
-// 用法: node scripts/fetch-source-feed.mjs <episodeDir> --url <转写稿URL> --kind <json|srt|vtt> [--audio-url <直链>]
+// 用法: node scripts/fetch-source-feed.mjs <episodeDir> --url <转写稿URL> --kind <json|srt|vtt|html|plain> [--audio-url <直链>]
 //
 // 与 fetch-source-whisperx.mjs 平行的一条**便宜通道**:那条要烧 2.8h CPU 听一遍,
 // 这条几秒下载完 —— 前提是播客把稿子挂在 RSS 的 <podcast:transcript> 里。
@@ -79,7 +79,7 @@ if (isMain) {
   const url = flag("--url");
   const kind = flag("--kind");
   if (!dirArg || !url || !kind) {
-    console.error("用法: node scripts/fetch-source-feed.mjs <episodeDir> --url <转写稿URL> --kind <json|srt|vtt> [--audio-url <直链>]");
+    console.error("用法: node scripts/fetch-source-feed.mjs <episodeDir> --url <转写稿URL> --kind <json|srt|vtt|html|plain> [--audio-url <直链>]");
     process.exit(2);
   }
   fetchFeedTranscript(dirArg, { url, kind, audioUrl: flag("--audio-url") }).catch((e) => {

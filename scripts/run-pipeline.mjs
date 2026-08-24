@@ -14,7 +14,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
-import { pickFeedTranscript, isOnTopic } from "./feed-transcript.mjs"; // C28 · ADR 0024(纯函数,无副作用)
+import { pickFeedTranscript, hasTimedFeedTranscript, isOnTopic } from "./feed-transcript.mjs"; // C28/C36 · ADR 0024(纯函数,无副作用)
 // C30 音频搬运工(有 isMain 守卫,import 无副作用):403 集登记待搬运 → Mac mini 抓音频上中转站 → 这里优先用+用后清
 import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, RELAY_TAG } from "./audio-relay.mjs";
 // C34 品味判官(有 isMain 守卫,import 无副作用):开始处理**之前**按品味档案判一次题材,
@@ -82,9 +82,9 @@ export const SOURCES = [
   // ══ C35 · 2026-08-21 用户拍板扩 10 源(调研:两路 agent + 逐个 feed 实测,见 需求共创/调研-新源候选-2026-08-21.md)══
   // A 组 · feed 自带官方转写稿(便宜通道):
   { key: "practicalai", name: "Practical AI", feedUrl: "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm", asr: "whisperx" }, // 实测 8/8 带 vtt/srt/json,秒级
-  { key: "changelog", name: "Changelog Interviews", feedUrl: "https://changelog.com/interviews/feed", asr: "whisperx" }, // 稿是 text/html,格式适配前走 ASR(月更 109 分,估 237 分在预算内)
-  { key: "devtools", name: "Scaling DevTools", feedUrl: "https://feeds.transistor.fm/scaling-devtools", asr: "whisperx" }, // 部分集 vtt 可直用;短集 25 分
-  { key: "rework", name: "REWORK", feedUrl: "https://feeds.transistor.fm/rework", asr: "whisperx" }, // 稿 text/html 待适配;短集 23 分 ASR 也便宜
+  { key: "changelog", name: "Changelog Interviews", feedUrl: "https://changelog.com/interviews/feed", asr: "whisperx" }, // 稿 text/html 但实测多数集零时间点(C36 判无时间轴回落)→ 照旧 ASR(月更 109 分,估 237 分在预算内)
+  { key: "devtools", name: "Scaling DevTools", feedUrl: "https://feeds.transistor.fm/scaling-devtools", asr: "whisperx" }, // 部分集 vtt 可直用;txt 无时间点回落 ASR;短集 25 分
+  { key: "rework", name: "REWORK", feedUrl: "https://feeds.transistor.fm/rework", asr: "whisperx" }, // C36:buzzsprout html 密时间点,秒级直用(实测 drift 4s)
   // B 组 · 无稿走 ASR(用户知情:占听写产能):
   { key: "howiai", name: "How I AI", feedUrl: "https://anchor.fm/s/1035b1568/podcast/rss", asr: "whisperx" }, // Lenny 姊妹台,31 分短集
   { key: "unsupervised", name: "Unsupervised Learning", feedUrl: "https://feeds.simplecast.com/dOSE_bdP", asr: "whisperx" },
@@ -254,8 +254,9 @@ export function selectBackfill(items, { n, existingIds, source }) {
     // 精准挑中 6 集全要 2.8h 转写的,注定撞 6h 上限、几乎颗粒无收(run 32045583875 跑了 4h45m 白费)。
     // 有稿的几秒就下完 → 先把便宜的吃掉,剩下的时间才喂给转写(用户 2026-08-17「让云端不闲着」)。
     .sort((a, b) => {
-      const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
-      const cb = pickFeedTranscript(b.transcripts) ? 0 : 1;
+      // C36:只认字幕格式为「稳有稿」——html/plain 未下载前不知有没有时间点,按 ASR 价保守排(见 hasTimedFeedTranscript 注)
+      const ca = hasTimedFeedTranscript(a.transcripts) ? 0 : 1;
+      const cb = hasTimedFeedTranscript(b.transcripts) ? 0 : 1;
       return ca !== cb ? ca - cb : b.pubDateISO.localeCompare(a.pubDateISO);
     })
     .slice(0, n)
@@ -315,7 +316,8 @@ export function timeBudgetVerdict(elapsedM, est, { budgetMin = JOB_BUDGET_MIN, m
 function timeBudgetCheck(what, item, source, id) {
   // 本地已有转写稿 → 这一集**不用再转写**,只跑后链(补活/半成品重试的常态)。
   const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
-  const needsAsr = !cached && !!source?.asr && !pickFeedTranscript(item?.transcripts);
+  // C36:估价只信字幕格式的稿;html/plain 可能没时间点解析失败回落 ASR → 按 ASR 价估,防炸预算
+  const needsAsr = !cached && !!source?.asr && !hasTimedFeedTranscript(item?.transcripts);
   const est = estimateEpisodeMin(item?.durationSec, needsAsr);
   const v = timeBudgetVerdict(elapsedMin(), est);
   if (v === "ok") return "ok";
@@ -334,7 +336,8 @@ function timeBudgetCheck(what, item, source, id) {
  *  统一登记 retry:true,否则 cutoff 会推进到「本批最新」把没做的永久跳过。故新集保守停手,不学补历史跳读。 */
 function outOfTimeBudget(what, item, source, id) {
   const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
-  const needsAsr = !cached && !!source?.asr && !pickFeedTranscript(item?.transcripts);
+  // C36:同 timeBudgetCheck —— 估价只信字幕格式的稿
+  const needsAsr = !cached && !!source?.asr && !hasTimedFeedTranscript(item?.transcripts);
   const est = estimateEpisodeMin(item?.durationSec, needsAsr);
   if (timeBudgetVerdict(elapsedMin(), est) === "ok") return false;
   const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
@@ -404,8 +407,9 @@ export function selectBackfillGlobal(candidates, { n }) {
     .sort((a, b) => b.item.pubDateISO.localeCompare(a.item.pubDateISO)) // 跨源全局最新优先
     .slice(0, n * 4) // 窗口:只在够新的一段里择优,别为省钱一路挑到年份下限附近
     .sort((a, b) => {
-      const ca = pickFeedTranscript(a.item.transcripts) ? 0 : 1;
-      const cb = pickFeedTranscript(b.item.transcripts) ? 0 : 1;
+      // C36:只认字幕格式为「稳有稿」(同 selectBackfillRecent 注)
+      const ca = hasTimedFeedTranscript(a.item.transcripts) ? 0 : 1;
+      const cb = hasTimedFeedTranscript(b.item.transcripts) ? 0 : 1;
       return ca !== cb ? ca - cb : b.item.pubDateISO.localeCompare(a.item.pubDateISO);
     })
     .slice(0, n);
@@ -427,8 +431,9 @@ export function selectBackfillRecent(items, { n, sinceISO, existingIds, source, 
   return backfillCandidates(items, { sinceISO, existingIds, source, libraryTitles })
     .slice(0, n * 4)
     .sort((a, b) => {
-      const ca = pickFeedTranscript(a.transcripts) ? 0 : 1;
-      const cb = pickFeedTranscript(b.transcripts) ? 0 : 1;
+      // C36:只认字幕格式为「稳有稿」——html/plain 可能没时间点,不许按「便宜」插队(防预算炸穿)
+      const ca = hasTimedFeedTranscript(a.transcripts) ? 0 : 1;
+      const cb = hasTimedFeedTranscript(b.transcripts) ? 0 : 1;
       return ca !== cb ? ca - cb : b.pubDateISO.localeCompare(a.pubDateISO);
     })
     .slice(0, n);

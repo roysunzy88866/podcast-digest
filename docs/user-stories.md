@@ -2638,11 +2638,14 @@ Scenario: transistor 纯文本稿(workos/rework/devtools)秒级入库
   And 跳过 whisperX,该集处理时间从小时级降到秒级
   And 归属闸门照旧硬拦(官方音频时长 vs 稿末段时间)
 
-Scenario: changelog 的 text/html 稿秒级入库
-  Given 某集 <podcast:transcript type="text/html"> 指向 changelog.com 的 transcript 页
-  And 页内形如 <cite>Adam Stacoviak:</cite> + <p>\[00:00\] 正文…</p>
-  Then 去标签、HTML 实体解码(&#39; 等),解析出 {start,end,speaker,text}
-  And 跳过 whisperX;归属闸门照旧硬拦
+Scenario: text/html 稿按形状分流(2026-08-24 实测修正:changelog 稀点稿老实回落)
+  Given 某集 <podcast:transcript type="text/html">
+  When 页内是 buzzsprout 形状(rework:「人名 (00:00):<br>正文」,时间点密)
+  Then 去标签、实体解码后按段头解析,秒级入库;归属闸门照旧硬拦(实测 rework 真集 drift 仅 4s)
+  When 页内是 changelog 形状(<cite>+<p>)但时间点覆盖不足一半
+  Then 回落 ASR —— 实测 changelog 672/671 整篇零时间点、673 仅 10 点/114 块且末点只到时长 82%,
+       稀点稿的稿末怎么估都会被归属闸门误拦;与其给闸门塞估算,不如判「无可用时间轴」
+  So C36 的秒级惠及面如实=rework(+日后任何挂密点稿的源);changelog 照旧走 ASR(C35 时已按 ASR 价核算过在预算内)
 
 Scenario: 挑稿优先级不变,文本格式只当兜底
   Given 某集同时挂多种格式的转写稿
@@ -2650,9 +2653,15 @@ Scenario: 挑稿优先级不变,文本格式只当兜底
   And 现有三源(beyondcoding/doac/practicalai)行为逐字不变
 
 Scenario: 解析不出时间戳 → 回落 ASR(闸门一分不降)
-  Given text/plain 或 text/html 稿下载失败、或解析后拿不出可信时间戳(如非 transistor/changelog 约定的裸文本)
+  Given text/plain 或 text/html 稿下载失败、或解析后拿不出可信时间戳(实测 devtools 的 txt 通篇「Speaker A:」无时间点)
   Then 回落原有 whisperX 路线,理由打印(哪一集、什么原因)
   So 归属闸门永远有末段时间可判,绝不为吃稿放弃防拿错稿的硬拦
+
+Scenario: 预算与「有稿优先」只认字幕格式为「稳有稿」(防炸预算)
+  Given html/plain 稿在下载之前无法确认有没有时间点(devtools 的 txt 就没有)
+  Then 时间预算估价与有稿优先排序只把 JSON/SRT/VTT 算「有稿(便宜)」,html/plain 按 ASR 价保守算
+  And 处理时仍先试 html/plain(秒级),成了省下的预算自然留给后面的候选;失败照旧回落 ASR
+  So 绝不出现「按便宜价选进来、实际烧 2.8h」把单班 300 分预算炸穿的情况
 
 Scenario: workos 封闭档不补(2026-08-24 用户拍板「维持全局口径」)
   Given workos 已停更 18 个月,集全在 2026 之前;C31 的 BACKFILL_SINCE=2026-01-01 是全局口径

@@ -6,6 +6,9 @@ import {
   parseSrt,
   srtTimeToSec,
   parseFeedTranscript,
+  parseStampedText,
+  parseTranscriptHtml,
+  hasTimedFeedTranscript,
   isOnTopic,
 } from "../scripts/feed-transcript.mjs";
 import { transcriptDuration } from "../scripts/fetch-source-feed.mjs";
@@ -25,7 +28,7 @@ import { parseFeed, passesTopicFilter, selectBackfill, selectBackfillRecent, BAC
 
 const fx = (n: string) => readFileSync(new URL(`./fixtures/feed-transcript-sample.${n}`, import.meta.url), "utf8");
 
-describe("C28 · 挑稿子:带时间轴的才要,纯文本一律不要", () => {
+describe("C28 · 挑稿子:按信息量排优先级(C36 起纯文本/网页当兜底,不再一刀拒)", () => {
   it("★★★ JSON 优先于 SRT(信息最全)", () => {
     const got = pickFeedTranscript([
       { url: "https://x/t.srt", type: "application/x-subrip" },
@@ -33,8 +36,11 @@ describe("C28 · 挑稿子:带时间轴的才要,纯文本一律不要", () => {
     ]);
     expect(got).toEqual({ url: "https://x/t.json", kind: "json" });
   });
-  it("★★★ 纯文本(无时间戳)→ 不要,返回 null 让调用方回落 ASR(WorkOS 就是这种)", () => {
-    expect(pickFeedTranscript([{ url: "https://x/transcript.txt", type: "text/plain" }])).toBeNull();
+  it("★★★ 只有纯文本时也要(C36 规格变更,用户 2026-08-24 二确:transistor 系纯文本自带时间点)", () => {
+    expect(pickFeedTranscript([{ url: "https://x/transcript.txt", type: "text/plain" }])).toEqual({
+      url: "https://x/transcript.txt",
+      kind: "plain",
+    });
   });
   it("★★★ 空/缺 url → null,不返回半截对象", () => {
     expect(pickFeedTranscript([])).toBeNull();
@@ -51,11 +57,12 @@ describe("C28 · 挑稿子:带时间轴的才要,纯文本一律不要", () => {
     expect(pickFeedTranscript([{ url: "https://x/a.srt", type: "unknown" }])?.kind).toBe("srt");
     expect(pickFeedTranscript([{ url: "https://x/a.json", type: "binary/octet-stream" }])?.kind).toBe("json");
   });
-  it("★★★ 但认得的 text/plain 仍然要拒 —— 哪怕 URL 挂着 .srt 后缀(才真碰到兜底分支)", () => {
+  it("★★★ 认得的 text/plain 不许冒充字幕格式 —— 哪怕 URL 挂着 .srt 后缀,也只按 plain 收(才真碰到兜底分支)", () => {
     // 独立审计 2026-08-18:原 fixture 用 transcript.txt,扩展名根本不是 srt/json/vtt,
     // 压根走不到「KNOWN 里的 type 不许走扩展名兜底」那条分支 → 破坏 KNOWN 集合测试也不红 = 空转。
-    expect(pickFeedTranscript([{ url: "https://x/a.srt", type: "text/plain" }])).toBeNull();
-    expect(pickFeedTranscript([{ url: "https://x/a.json", type: "text/plain" }])).toBeNull();
+    // C36 起 plain 是合法兜底档,但仍绝不能被扩展名抬进 srt/json 档(会用错解析器)。
+    expect(pickFeedTranscript([{ url: "https://x/a.srt", type: "text/plain" }])?.kind).toBe("plain");
+    expect(pickFeedTranscript([{ url: "https://x/a.json", type: "text/plain" }])?.kind).toBe("plain");
   });
 });
 
@@ -273,5 +280,173 @@ describe("drift #69 · 有稿优先必须限制在最新的一个窗口内(否�
   it("★★ 窗口随 n 放大(n 大时能看得更远,但仍有界)", () => {
     const picks = pick(farAway, 3); // n=3 → 窗口 12 → 有稿那集进得来
     expect(picks.map((p: any) => p.pubDateISO.slice(0, 10))).toContain("2026-06-18");
+  });
+});
+
+// ── C36 · text/plain + text/html 官方稿摄取(Gherkin 见 docs/user-stories.md C36)──
+//
+// 2026-08-24 实抓真稿确认两种格式的形状(fixture 文字全部自撰,同 C28 版权口径):
+// · transistor 系(workos/rework/devtools):段头「人名  (00:02):」,时间点密(41 个/25 分钟集)
+// · changelog:<cite>人名:</cite> + <p>\[00:00\] 正文</p>,时间点稀(10 个/114 个说话块,末点 80:41)
+// 时间点稀 → 段起点用「上一个真时间点」携带;稿末时间 = 最后真时间点 + 其后词数按 2.5 词/秒估
+// (否则归属闸门拿末段时间比官方时长会误拦正确稿;估的是尾巴不是全稿,误差远小于容差 max(120s,5%))。
+
+const TRANSISTOR_FX = `Ada Vendor  (00:02):
+Welcome to a made up show about made up things. I am your host speaking entirely fictional words for this fixture.
+
+This second paragraph has no header line, so it belongs to the same speaker and the same stanza.
+
+Beau Guest (01:15):
+Thanks for having me. This reply is also fabricated for the test.
+
+Ada Vendor  (1:02:03):
+A stamp with hours must parse too. one two three four five six seven eight nine ten
+`;
+
+const CHANGELOG_FX = `<!DOCTYPE html>
+<html>
+<head><title>Transcript for Fixture #1</title></head>
+<body>
+    <cite>Ada Vendor:</cite>
+    <p>\\[00:00\\] It&#39;s a fabricated opening with an entity to decode &amp; strip.</p>
+
+    <cite>Beau Guest:</cite>
+    <p>No stamp on this block, so its start carries the previous stamp.</p>
+
+    <cite>Ada Vendor:</cite>
+    <p>\\[02:30\\] Final block. one two three four five six seven eight nine ten <em>tagged</em> words.</p>
+</body>
+</html>`;
+
+describe("C36 · 挑稿优先级:字幕格式 > html > plain(文本只当兜底)", () => {
+  it("★★★ 有 VTT 就不用 html/plain", () => {
+    const got = pickFeedTranscript([
+      { url: "https://x/t", type: "text/html" },
+      { url: "https://x/t.vtt", type: "text/vtt" },
+      { url: "https://x/t.txt", type: "text/plain" },
+    ]);
+    expect(got?.kind).toBe("vtt");
+  });
+  it("★★★ html 优先于 plain(带说话人结构,信息多一档)", () => {
+    const got = pickFeedTranscript([
+      { url: "https://x/t.txt", type: "text/plain" },
+      { url: "https://x/transcript", type: "text/html" },
+    ]);
+    expect(got).toEqual({ url: "https://x/transcript", kind: "html" });
+  });
+  it("★★ 马虎 type + .txt 扩展名 → 按 plain 兜底(同 GLM 001[4] 的扩展名兜底口径)", () => {
+    expect(pickFeedTranscript([{ url: "https://x/transcript.txt", type: "unknown" }])?.kind).toBe("plain");
+  });
+});
+
+describe("C36 · transistor 纯文本解析(workos/rework/devtools)", () => {
+  it("★★★ 段头「人名 (mm:ss):」→ {start,end,speaker,text};无头段并入上一段", () => {
+    const segs = parseStampedText(TRANSISTOR_FX)!;
+    expect(segs.length).toBe(3);
+    expect(segs[0]).toMatchObject({ start: 2, end: 75, speaker: "Ada Vendor" });
+    expect(segs[0].text).toContain("second paragraph has no header");
+    expect(segs[1]).toMatchObject({ start: 75, speaker: "Beau Guest" });
+    expect(segs[1].end).toBeCloseTo(3723, 0); // = 下一段头 1:02:03
+  });
+  it("★★★ 带小时的段头 (1:02:03) 解析成 3723 秒;末段 end = 末点 + 词数/2.5 估算(归属闸门要用)", () => {
+    const segs = parseStampedText(TRANSISTOR_FX)!;
+    const last = segs[segs.length - 1];
+    expect(last.start).toBe(3723);
+    // 末段 17 词 / 2.5 词秒 = 6.8s
+    expect(last.end).toBeCloseTo(3723 + 17 / 2.5, 1);
+    expect(last.end).toBeGreaterThan(last.start);
+  });
+  it("★★★ 通篇没有时间点 → null(回落 ASR,归属闸门永远有末段时间可判)", () => {
+    expect(parseStampedText("Just prose.\n\nNo stamps anywhere in this text.")).toBeNull();
+    expect(parseStampedText("")).toBeNull();
+  });
+});
+
+describe("C36 · changelog 网页稿解析", () => {
+  it("★★★ <cite>+<p> → 段;实体解码(&#39;→');标签剥掉;\\[mm:ss\\] 时间点从正文摘除", () => {
+    const segs = parseTranscriptHtml(CHANGELOG_FX)!;
+    expect(segs.length).toBe(3);
+    expect(segs[0]).toMatchObject({ start: 0, speaker: "Ada Vendor" });
+    expect(segs[0].text).toContain("It's a fabricated opening");
+    expect(segs[0].text).toContain("decode & strip");
+    expect(segs[0].text).not.toMatch(/\[00:00\]|&#39;|&amp;/);
+    expect(segs[2].text).toContain("tagged words");
+    expect(segs[2].text).not.toContain("<em>");
+  });
+  it("★★★ 时间点稀:无点的块 start 携带上一个真时间点;end = 下一个真时间点", () => {
+    const segs = parseTranscriptHtml(CHANGELOG_FX)!;
+    expect(segs[1].start).toBe(0); // 携带
+    expect(segs[1].end).toBe(150); // 下一个真时间点 02:30
+    expect(segs[2].start).toBe(150);
+  });
+  it("★★★ 末段 end 用词数估(150 词/分),稿末时间不至于停在最后一个稀疏时间点上", () => {
+    const segs = parseTranscriptHtml(CHANGELOG_FX)!;
+    const last = segs[segs.length - 1];
+    // 末段正文 14 词(Final block. one…ten tagged words.)/ 2.5 词秒 = 5.6s
+    expect(last.end).toBeCloseTo(150 + 14 / 2.5, 1);
+  });
+  it("★★★ <head>/<title> 的字不许漏进正文;通篇无时间点 → null", () => {
+    const segs = parseTranscriptHtml(CHANGELOG_FX)!;
+    expect(segs.map((s) => s.text).join(" ")).not.toContain("Transcript for Fixture");
+    expect(parseTranscriptHtml("<body><cite>A:</cite><p>no stamps</p></body>")).toBeNull();
+  });
+  it("★★★ 时间点覆盖不足一半的稿 → null 回落 ASR(2026-08-24 真稿实测:changelog 672/671 零点、673 仅 10点/114块且末点只到时长 82%,估稿末必被归属闸门误拦——与其塞估算给闸门不如老实回落)", () => {
+    const sparse = `<body>
+      <cite>A:</cite><p>\\[00:10\\] only the first block has a stamp.</p>
+      <cite>B:</cite><p>second block, no stamp.</p>
+      <cite>A:</cite><p>third block, no stamp.</p>
+      <cite>B:</cite><p>fourth block, no stamp either.</p>
+    </body>`;
+    expect(parseTranscriptHtml(sparse)).toBeNull();
+  });
+  it("★★★ buzzsprout 形状(rework):无 <cite>,正文「人名 (00:00):<br>话」→ 转行后复用段头解析,密点直接可用", () => {
+    const bz = `<body><p><!--block-->Kim (00:00):<br>Welcome to a fabricated show about nothing real at all.<br><br>Jay (00:54):<br>Sure. This is also made up text for the fixture only.</p></body>`;
+    const segs = parseTranscriptHtml(bz)!;
+    expect(segs.length).toBe(2);
+    expect(segs[0]).toMatchObject({ start: 0, end: 54, speaker: "Kim" });
+    expect(segs[1].speaker).toBe("Jay");
+    expect(segs[1].start).toBe(54);
+    expect(segs[1].text).not.toContain("<br>");
+  });
+});
+
+describe("C36 · parseFeedTranscript 分派 + 现有格式零改动锚", () => {
+  it("★★★ kind=plain/html 走新解析器", () => {
+    expect(parseFeedTranscript("plain", TRANSISTOR_FX)?.length).toBe(3);
+    expect(parseFeedTranscript("html", CHANGELOG_FX)?.length).toBe(3);
+  });
+  it("★★★ 解析不出 → null(调用方回落 ASR,行为与 C28 逐字一致)", () => {
+    expect(parseFeedTranscript("plain", "no stamps")).toBeNull();
+    expect(parseFeedTranscript("html", "<p>no stamps</p>")).toBeNull();
+  });
+  it("★★ 源码锚:srt/vtt/json 分派一行未动(C36 DoD①「现有格式路径零改动」)", () => {
+    const src = readFileSync(new URL("../scripts/feed-transcript.mjs", import.meta.url), "utf8");
+    expect(src).toContain('if (kind === "srt" || kind === "vtt") return parseSrt(raw);');
+  });
+});
+
+describe("C36 · 预算/排序只认字幕格式为「稳有稿」(html/plain 下载前不知有没有时间点,防炸预算)", () => {
+  it("★★★ hasTimedFeedTranscript:json/srt/vtt 算稳,html/plain 不算", () => {
+    expect(hasTimedFeedTranscript([{ url: "https://x/t.srt", type: "application/x-subrip" }])).toBe(true);
+    expect(hasTimedFeedTranscript([{ url: "https://x/t", type: "text/html" }])).toBe(false);
+    expect(hasTimedFeedTranscript([{ url: "https://x/t.txt", type: "text/plain" }])).toBe(false);
+    expect(hasTimedFeedTranscript([])).toBe(false);
+  });
+  it("★★★ 排序:只有 html 稿的集不许按「便宜」插队 —— 与无稿集同档按日期排(devtools 的 txt 若插队会烧 2.8h ASR 炸预算)", () => {
+    const mk = (d: string, transcripts: any[]) => ({
+      title: `Ep ${d}`, link: `https://x/${d}`, pubDateISO: `${d}T00:00:00.000Z`,
+      hasAudio: true, enclosureUrl: `https://x/${d}.mp3`, transcripts, durationSec: 3600,
+    }) as any;
+    const items = [
+      mk("2026-08-20", [{ url: "https://x/a", type: "text/html" }]), // 最新但只有 html 稿
+      mk("2026-08-19", [{ url: "https://x/b.srt", type: "application/x-subrip" }]), // 字幕稿
+      mk("2026-08-18", []),
+    ];
+    const got = selectBackfillRecent(items, {
+      n: 2, sinceISO: BACKFILL_SINCE, existingIds: [], source: { key: "s", asr: "whisperx" } as any, libraryTitles: [],
+    });
+    // 字幕稿排第一(稳便宜);html 稿按日期与无稿同权
+    expect(got[0].pubDateISO.slice(0, 10)).toBe("2026-08-19");
+    expect(got[1].pubDateISO.slice(0, 10)).toBe("2026-08-20");
   });
 });
