@@ -2621,3 +2621,49 @@ Scenario: 时间预算如实加价([standard-change: 用户授权,随 MiMo 拍�
   Then POST_CHAIN_MIN 30 → 45,预算守卫按新价决定一班接几集
 
 **DoD**:①单测:主路选择/回落/无 key 跳过/缓存不失效,全走注入 deps 不真跑 ②vendored 副本带出处头注(源路径+日期+原文件 sha)③p1-probe 美国 runner 真调 MiMo 一次成功 ④云端首集 engine=mimo-peiyin 日志留痕 ⑤GLM 冷审+裁决落账
+
+## C36 · text/plain + text/html 官方稿摄取(便宜通道第二刀)· US-4/US-11 · 2026-08-24 用户拍板「开工」
+
+> C28 只认带时间轴的字幕格式(JSON/SRT/VTT),当时把纯文本一刀拒了(「没时间戳 → 时间戳闸门无从判定」)。
+> 前提已变:ADR 0013/drift #26 把时间戳降为软提醒,硬拦只剩「引语逐字命中转写稿」。
+> 且 2026-08-24 实抓两份真稿:**changelog 的 text/html 带 `<cite>说话人</cite>` + `[00:00]` 时间点;
+> workos/rework/devtools(transistor.fm)的 text/plain 带 `人名 (00:02):` 段头** —— 都解得出时间戳和说话人,
+> 归属闸门(音频时长 vs 稿末时间)不必降级。解锁:changelog(月更109分)/rework(23分)/devtools 全量秒级
+> + workos 封闭档 28 集(见最后一个 Scenario 的前提)。
+
+Scenario: transistor 纯文本稿(workos/rework/devtools)秒级入库
+  Given 某集 <podcast:transcript type="text/plain"> 指向 transistor 的 transcript.txt
+  And 稿内段头形如「Michael Grinich  (00:02):」
+  Then 解析成本项目稿格式 {start,end,speaker,text}(start=段头时间,end=下一段 start)
+  And 跳过 whisperX,该集处理时间从小时级降到秒级
+  And 归属闸门照旧硬拦(官方音频时长 vs 稿末段时间)
+
+Scenario: changelog 的 text/html 稿秒级入库
+  Given 某集 <podcast:transcript type="text/html"> 指向 changelog.com 的 transcript 页
+  And 页内形如 <cite>Adam Stacoviak:</cite> + <p>\[00:00\] 正文…</p>
+  Then 去标签、HTML 实体解码(&#39; 等),解析出 {start,end,speaker,text}
+  And 跳过 whisperX;归属闸门照旧硬拦
+
+Scenario: 挑稿优先级不变,文本格式只当兜底
+  Given 某集同时挂多种格式的转写稿
+  Then 仍按 JSON > SRT > VTT 先挑(信息最全);都没有才用 html/plain
+  And 现有三源(beyondcoding/doac/practicalai)行为逐字不变
+
+Scenario: 解析不出时间戳 → 回落 ASR(闸门一分不降)
+  Given text/plain 或 text/html 稿下载失败、或解析后拿不出可信时间戳(如非 transistor/changelog 约定的裸文本)
+  Then 回落原有 whisperX 路线,理由打印(哪一集、什么原因)
+  So 归属闸门永远有末段时间可判,绝不为吃稿放弃防拿错稿的硬拦
+
+Scenario: workos 封闭档不补(2026-08-24 用户拍板「维持全局口径」)
+  Given workos 已停更 18 个月,集全在 2026 之前;C31 的 BACKFILL_SINCE=2026-01-01 是全局口径
+  And 与 08-16「只挖历史」(drift #58)打架一事已摆给用户
+  Then 用户裁决=维持「只补 2026」,workos 28 集封闭档放弃、该源事实退役(裁决记 drift-log #76)
+  And C36 惠及面=changelog/rework/devtools(+任何日后挂同格式稿的源)
+
+### DoD(C36)
+1. feed-transcript.mjs 新增纯函数:parseTransistorTxt / parseChangelogHtml(或统一 parsePlainStamped),pickFeedTranscript 扩优先级;现有格式路径零改动(测试锚)。
+2. 无时间戳/解析失败一律回落 ASR,与现状逐字一致;归属闸门/引语逐字硬拦零降级。
+3. 单测覆盖两种新格式 + 实体解码 + 回落 + 优先级;变异验证当场红。
+4. 云端真跑实证:changelog 或 rework 一集日志走「feed 官方稿」秒级入库上站。
+5. workos 处置已裁决=不开例外(2026-08-24),本条满足;零代码改动。
+6. GLM 冷审 + 裁决落账。
