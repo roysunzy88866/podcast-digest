@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>121</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>123</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
+- **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(23:13起):本集说旅行领域的信息过载和虚假评论问题 'kind of made for generative AI，which takes in all the information, adds context, adds a little intelligence'
 
 ## ① 提到它的金句
 
-*121 条*
+*123 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -259,19 +260,24 @@ unlisted: true
 
 ![[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer#^q2]]
 
+![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q1]]
+
+![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q3]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
+- [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matt Turk]] · [[Sanjit Biswas]] · [[Samsara]] · [[物理 AI]] · [[护栏]] · [[智能体]] · [[数据网络效应]] · [[Agents Studio]] · [[AI 行车记录仪]] · [[资产标签]]
+[[智能体]] · [[Meta]] · [[Matt Turk]] · [[Ranjan]] · [[Sanjit Biswas]] · [[Ranjan Roy]] · [[Samsara]] · [[Anthropic]] · [[物理 AI]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Matt Turk":1,"Sanjit Biswas":1,"Samsara":2,"物理 AI":4,"护栏":24,"智能体":117,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":118,"Meta":16,"Matt Turk":1,"Ranjan":1,"Sanjit Biswas":1,"Ranjan Roy":2,"Samsara":2,"Anthropic":61,"物理 AI":4,"OpenAI":54}</script>
 
 <script>
 (function(){

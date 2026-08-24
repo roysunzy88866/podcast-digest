@@ -45,7 +45,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[MCP]] · [[Vercel]] · [[Google]] · [[SaaS]] · [[Delphi]] · [[go-to-market]] · [[前向部署工程师]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":117,"OpenAI":53,"MCP":15,"Vercel":8,"Google":23,"SaaS":9,"Delphi":3,"go-to-market":4,"前向部署工程师":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":118,"OpenAI":54,"MCP":15,"Vercel":8,"Google":24,"SaaS":9,"Delphi":3,"go-to-market":4,"前向部署工程师":6}</script>
 
 <script>
 (function(){

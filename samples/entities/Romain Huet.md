@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":53,"智能体":117,"Codex":24,"循环":3,"协作界面":1,"harness":13,"压缩":1,"委托":1,"持久化上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenAI":54,"智能体":118,"Codex":25,"循环":3,"协作界面":1,"harness":13,"压缩":1,"委托":1,"持久化上下文":1}</script>
 
 <script>
 (function(){

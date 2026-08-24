@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ranjan Roy</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ranjan Roy">RA</div><div class="pi"><h1 class="pt">Ranjan Roy</h1><div class="byl">Big Technology Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ranjan Roy">RA</div><div class="pi"><h1 class="pt">Ranjan Roy</h1><div class="byl">Big Technology Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条*
+*6 条*
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q3]]
 
@@ -19,27 +19,26 @@ unlisted: true
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q9]]
 
+![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q3]]
+
+![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q5]]
+
+![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q7]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为主持
+- [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alex]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]] · [[AGI]] · [[次级数据中心危机]] · [[资本支出]] · [[财富效应]]
+[[Google]] · [[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Alex]] · [[Ranjan]] · [[SpaceX]] · [[Meta]] · [[Tesla]] · [[NVIDIA]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Alex":3,"Google":23,"OpenAI":53,"Anthropic":60,"SpaceX":7,"Tesla":6,"AGI":14,"次级数据中心危机":1,"资本支出":3,"财富效应":1}</script>
+<script type="application/json" class="pd-epn">{"Google":24,"OpenAI":54,"Anthropic":61,"AGI":15,"Alex":3,"Ranjan":1,"SpaceX":7,"Meta":16,"Tesla":6,"NVIDIA":19}</script>
 
 <script>
 (function(){

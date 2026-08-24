@@ -30,7 +30,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Joon Sung Park]] · [[Matt Swulinski]] · [[Andrew MacDonald]] · [[Jerry Murdock]] · [[Simile]]
 
-<script type="application/json" class="pd-epn">{"智能体":117,"推理":1,"OpenAI":53,"Anthropic":60,"ChatGPT":31,"Joon Sung Park":1,"Matt Swulinski":1,"Andrew MacDonald":1,"Jerry Murdock":1,"Simile":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":118,"推理":1,"OpenAI":54,"Anthropic":61,"ChatGPT":31,"Joon Sung Park":1,"Matt Swulinski":1,"Andrew MacDonald":1,"Jerry Murdock":1,"Simile":1}</script>
 
 <script>
 (function(){

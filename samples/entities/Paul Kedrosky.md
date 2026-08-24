@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
+[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":2,"token":4,"GPU":6,"推理":1,"商业地产":1,"前沿模型":4,"harness":13,"预训练":4,"后训练":12,"AGI":14}</script>
+<script type="application/json" class="pd-epn">{"数据中心":2,"token":4,"GPU":6,"推理":1,"商业地产":1,"前沿模型":4,"harness":13,"预训练":4,"后训练":12,"AGI":15}</script>
 
 <script>
 (function(){

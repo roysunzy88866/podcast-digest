@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]] [[Jason Lamkin]]
+[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":4,"Uber":5,"Uber One":1,"自主性":3,"智能体":117,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":4,"Uber":5,"Uber One":1,"自主性":3,"智能体":118,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

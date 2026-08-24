@@ -1,0 +1,1438 @@
+{
+  "episode_id": "2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-21",
+  "tags": [
+    "AI 资本支出",
+    "表外融资",
+    "IPO 博弈",
+    "AI 旅行用例",
+    "杠杆赌注"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ranjan",
+      "type": "person",
+      "role": "host",
+      "name": "Ranjan",
+      "file": "Ranjan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.476,
+            21.558
+          ],
+          "quote": "That's coming up on a Big Technology Podcast Friday edition featuring Ranjan Roy's glorious return right after this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            122.035,
+            132.337
+          ],
+          "quote": "Ranjan and I have been at odds on that one, and now I feel strong enough after a couple of weeks of travel to be firmly in the pro camp and we'll see if Ranjan sticks to his guns.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            132.658,
+            133.878
+          ],
+          "quote": "So Ranjan, great to see you again.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            245.779,
+            266.959
+          ],
+          "quote": "So, Ranjan, we're going to get a little bit into the mechanics of this, but I'd love to hear you just sort of break down what an off-balance sheet commitment is and why this has become something that's so in favor among big tech to fund their AI infrastructure investments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1638.525,
+            1647.771
+          ],
+          "quote": "For listeners, Ranjan and I, it happened just as Ranjan went on break, and we did exchange a bunch of texts being like, we knew there was going to need to be an emergency podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1815.645,
+            1817.827
+          ],
+          "quote": "Okay, reckon with the substance, Ranjan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2528.233,
+            2532.618
+          ],
+          "quote": "And we're back here on Big Technology Podcast Friday edition with Ranjan Roy of Margins.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3469.127,
+            3479.63
+          ],
+          "quote": "Ranjan, you and I, I think we've had like this back and forth relationship on talking about travel as like a worthwhile key use case that tells us something about AI's capabilities.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ranjan-roy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ranjan Roy",
+      "file": "Ranjan Roy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.476,
+            21.558
+          ],
+          "quote": "That's coming up on a Big Technology Podcast Friday edition featuring Ranjan Roy's glorious return right after this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2528.233,
+            2532.618
+          ],
+          "quote": "And we're back here on Big Technology Podcast Friday edition with Ranjan Roy of Margins.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集以 Meta 在路易斯安那州的 Hyperion 数据中心为例，说明它既是客户又是担保人，将 3470 亿美元未启动租赁义务推到资产负债表外，手头现金加流动投资仅 910 亿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            215.784,
+            219.966
+          ],
+          "quote": "To which Google Parent, Alphabet, Meta Platforms, Oracle, and many others have committed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            274.023,
+            279.108
+          ],
+          "quote": "Remember Google, Meta, these are cash generating operations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            405.499,
+            416.765
+          ],
+          "quote": "So it says, Meta's gigantic Hyperion data center project in Louisiana, which is the size of about 1,700 football fields, helps explain how obligations wind up off tech companies' balance sheets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            417.145,
+            424.809
+          ],
+          "quote": "Though Meta is the builder, neither Hyperion nor the $27 billion in debt that's financing its construction show up on Meta's balance sheet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            475.618,
+            492.711
+          ],
+          "quote": "they're they're building a data center but the the you know the the risk or the the numbers are being held by this other company these other companies um and meanwhile meta is making the promise here this is the financial commitment meta initially agreed to lease hyperion for a four",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            599.309,
+            603.812
+          ],
+          "quote": "But Google and Meta were supposed to understand if you're",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            604.713,
+            612.499
+          ],
+          "quote": "The public market investor, and you're buying Google stock or Meta stock, you're supposed to know what are the risks and what's the actual state of their business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            667.316,
+            672.52
+          ],
+          "quote": "But if Meta guarantees that it's going to make the bondholders whole if it doesn't stay the entire two decades,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            690.431,
+            711.144
+          ],
+          "quote": "So Meta is guaranteeing to make bondholders whole if it doesn't stay for the entire two decades, but everyone is betting if AI demand explodes and if these data centers start printing cash and then they're able to pay bondholders and then some and generate additional cash, then Meta's not on the hook for anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            711.524,
+            715.165
+          ],
+          "quote": "Then Meta does not have to actually kind of provide that backstop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            715.585,
+            724.649
+          ],
+          "quote": "So it's binary in the sense of if data centers, if the whole story works, they're not spending, Meta's not spending cash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            739.954,
+            751.483
+          ],
+          "quote": "Is that if the data center story works, then it is not a cache outlay because these data centers will actually be so in demand and generating cache and then meta is not on the hook for anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            753.256,
+            760.581
+          ],
+          "quote": "So basically, Meta is giving the guarantee that this company will have a big customer and therefore that gives the company the confidence to go ahead.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            761.042,
+            765.425
+          ],
+          "quote": "But there's no commitment from the company to be the only supplier to Meta.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 113,
+          "t": [
+            765.825,
+            772.61
+          ],
+          "quote": "And if demand for data centers goes up significantly in the next decade, then they could be a big business and Meta will just have a stake in it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 114,
+          "t": [
+            773.13,
+            781.538
+          ],
+          "quote": "No, where it gets even more ridiculous is in many of these cases, like Meta is the customer and the guarantor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            920.389,
+            936.261
+          ],
+          "quote": "And also the numbers are so massive that it is hard to comprehend or actually like, you know, you picture some junior investment banking analyst trying to kind of put together a financial model for Meta and pulling up Claude for Excel and trying to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            937.122,
+            949.415
+          ],
+          "quote": "Put these numbers in and they don't make sense and they don't reflect any kind of past way that Meta has ever operated or any of these companies have ever operated at this kind of scale at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            999.099,
+            1002.183
+          ],
+          "quote": "I don't think Meta has 347 billion in cash.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1030.843,
+            1038.547
+          ],
+          "quote": "Well, so looking, Meta has $91 billion of cash in liquid investments and marketable securities as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1595.234,
+            1597.936
+          ],
+          "quote": "It's another thing if it's like freaking like Meta and Oracle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1603.199,
+            1618.859
+          ],
+          "quote": "we have covered on the show but you and i haven't had a chance to speak about it yet but but yeah the the idea that you're gonna that these are big bets i mean 340 was 347 billion dollars that meta has and obligations for leases that haven't kicked in yet",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1882.264,
+            1884.527
+          ],
+          "quote": "It's no way that Meta has to pay $347 billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1904.507,
+            1910.553
+          ],
+          "quote": "But it's not like Meta's $91 billion of cash evaporates next week.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1950.456,
+            1954.838
+          ],
+          "quote": "Meta is still going to be raking in advertising dollars.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 年化营收运行率在 7 月底达 650 亿美元，截至 6 月 30 日的季度营收 115 亿美元，比去年同期增长七倍多，秋季计划 IPO 领先于 OpenAI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.493,
+            10.774
+          ],
+          "quote": "New OpenAI and Anthropic numbers show one company surging and another sputtering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.872,
+            109.333
+          ],
+          "quote": "We also have new Anthropic and OpenAI revenue numbers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            160.982,
+            169.865
+          ],
+          "quote": "When this IPO season heats up, I think a lot of, and I'm talking specifically about OpenAI and Anthropic,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            592.664,
+            598.208
+          ],
+          "quote": "And again, OpenAI and Anthropic, private companies, we're going to talk about their financials in a bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1276.43,
+            1288.298
+          ],
+          "quote": "But the mania has been so strong, the FOMO of not being in the next whatever, Anthropic or NVIDIA on the public side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1424.894,
+            1436.223
+          ],
+          "quote": "If you missed Anthropic on the private side and OpenAI, if you're the one trying to say this 12 to 18 months ago and managing money, you'd be looked at as a failure by your investors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2031.528,
+            2042.42
+          ],
+          "quote": "I think we're going to be talking a lot about that, especially as it's August 21st and Anthropic is supposedly coming out to the market next month.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2055.517,
+            2061.122
+          ],
+          "quote": "And then we're going to get to the Anthropic and IPO and revenue numbers and OpenAI revenue numbers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2273.691,
+            2280.557
+          ],
+          "quote": "I don't think that tells a story about why Anthropic's IPO should succeed or you should like Anthropic specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2366.69,
+            2375.936
+          ],
+          "quote": "When we come back from the break, we're going to talk about Anthropic and OpenAI's new numbers, where it seems like Anthropic is surging and OpenAI is, well, we'll get to it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2532.638,
+            2542.31
+          ],
+          "quote": "All right, let's talk a little bit about the numbers that we teased before the break, looking at Anthropic and OpenAI's revenue that have started to leak.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2542.57,
+            2546.555
+          ],
+          "quote": "This is from Bloomberg, Anthropic's annualized revenue top 65 billion before IPO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2546.995,
+            2556.243
+          ],
+          "quote": "Anthropic is on track to generalize annual revenue of more than $65 billion based on its current performance, up more than sevenfold from its pace at the end of last year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2561.007,
+            2566.031
+          ],
+          "quote": "The dramatic acceleration in revenue bolsters Anthropic's plans for a public listing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2566.071,
+            2574.698
+          ],
+          "quote": "Anthropic and OpenAI filed confidential paperwork to go public, with Anthropic expected to make its Wall Street debut as soon as this fall ahead of",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2701.544,
+            2710.988
+          ],
+          "quote": "I'm getting in trouble for speculating, but it's like fairly in Anthropic's interest to get the numbers out there to scare OpenAI away from trying to go public before them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2749.139,
+            2762.103
+          ],
+          "quote": "Every, conveniently, at any moment, I mean, we're all just seeing these numbers, like, this is a very, and again, Anthropic, Sandwich in the Park, they're comms masters, like, all this stuff is orchestrated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2776.208,
+            2782.05
+          ],
+          "quote": "There should be hell to pay within Anthropic, within the bankers that are actually working on this IPO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2824.205,
+            2831.167
+          ],
+          "quote": "And now if basically Anthropic is seemingly on track to IPO this fall.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2837.97,
+            2845.214
+          ],
+          "quote": "We're not too far away for the crispy days of fall, and we could be seeing an anthropic IPO with potentially Dario ringing the bell.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2894.191,
+            2899.897
+          ],
+          "quote": "Results that disappointed some shareholders who had hoped that the startup would show more progress catching up to rival Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2988.923,
+            2995.771
+          ],
+          "quote": "Look, I think this is just the consequences of them, you know, really getting their butt kicked by Anthropic on the way to coding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3208.464,
+            3216.627
+          ],
+          "quote": "I mean, just think about the numbers we read from Anthropic, you know, under a billion dollars to 11.5 billion and a quarter and maybe more in a quarter we're currently in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3311.53,
+            3317.816
+          ],
+          "quote": "But the thing with OpenAI and Anthropic, by the way, that gives them the nature of a startup is...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3402.031,
+            3408.718
+          ],
+          "quote": "But I think bottom line from these reports is Anthropic, Juggernaut, Enroot, too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3410.947,
+            3414.009
+          ],
+          "quote": "It seems like Anthropic is putting some distance between itself and OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3414.849,
+            3427.274
+          ],
+          "quote": "And I don't know, it was clear that Anthropic had a small lead basically since the beginning of the year this year, but that gap seems to be growing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3427.314,
+            3435.358
+          ],
+          "quote": "It's not to say OpenAI isn't capable of closing it or surpassing Anthropic again, but at least when you look at the state of play right now,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3437.118,
+            3441.059
+          ],
+          "quote": "Yeah, Anthropic is putting some distance between itself and OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3441.079,
+            3454.943
+          ],
+          "quote": "I think in terms of AI use cases in markets that are mature, I'd like to hear about travel because we're going to be talking about Anthropic and OpenAI for a few months and weeks on end.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 第二季度营收环比仅增长 18%、亏损加深，首席营收官 Denise Dresser 上任不到一年离职，在编码领域被 Anthropic 打了措手不及后被迫转向 Codex，寻求 2 万亿美元估值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.493,
+            10.774
+          ],
+          "quote": "New OpenAI and Anthropic numbers show one company surging and another sputtering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.872,
+            109.333
+          ],
+          "quote": "We also have new Anthropic and OpenAI revenue numbers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            160.982,
+            169.865
+          ],
+          "quote": "When this IPO season heats up, I think a lot of, and I'm talking specifically about OpenAI and Anthropic,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            592.664,
+            598.208
+          ],
+          "quote": "And again, OpenAI and Anthropic, private companies, we're going to talk about their financials in a bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1424.894,
+            1436.223
+          ],
+          "quote": "If you missed Anthropic on the private side and OpenAI, if you're the one trying to say this 12 to 18 months ago and managing money, you'd be looked at as a failure by your investors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1929.542,
+            1933.965
+          ],
+          "quote": "Six to 12 months, OpenAI and Anthropix IPOs are duds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2055.517,
+            2061.122
+          ],
+          "quote": "And then we're going to get to the Anthropic and IPO and revenue numbers and OpenAI revenue numbers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2306.163,
+            2319.666
+          ],
+          "quote": "If you're Dario and you're worried about like where or even Sam, remember, I feel OpenAI has been kind of like talking about this more and more now because like their enterprise story, which we'll get into, is not going great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2366.69,
+            2375.936
+          ],
+          "quote": "When we come back from the break, we're going to talk about Anthropic and OpenAI's new numbers, where it seems like Anthropic is surging and OpenAI is, well, we'll get to it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2532.638,
+            2542.31
+          ],
+          "quote": "All right, let's talk a little bit about the numbers that we teased before the break, looking at Anthropic and OpenAI's revenue that have started to leak.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2566.071,
+            2574.698
+          ],
+          "quote": "Anthropic and OpenAI filed confidential paperwork to go public, with Anthropic expected to make its Wall Street debut as soon as this fall ahead of",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2575.573,
+            2576.113
+          ],
+          "quote": "OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2701.544,
+            2710.988
+          ],
+          "quote": "I'm getting in trouble for speculating, but it's like fairly in Anthropic's interest to get the numbers out there to scare OpenAI away from trying to go public before them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2878.187,
+            2884.908
+          ],
+          "quote": "All right, let's move over to OpenAI because we also have their second quarter numbers, which just so happened to make it out into the public as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2887.309,
+            2893.431
+          ],
+          "quote": "OpenAI told investors its revenue grew by 18% from the first quarter to the second quarter while its losses deepened.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2905.162,
+            2907.444
+          ],
+          "quote": "Doesn't seem like OpenAI decided that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2907.544,
+            2911.008
+          ],
+          "quote": "If OpenAI did put those numbers out, they're probably not happy with how it was framed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2920.148,
+            2924.31
+          ],
+          "quote": "Like OpenAI, okay, we were both off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3191.497,
+            3201.301
+          ],
+          "quote": "OpenAI is, you know, as with everything in this cycle, OpenAI is compacting that thing into the shortest amount of time that it ever has.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3311.53,
+            3317.816
+          ],
+          "quote": "But the thing with OpenAI and Anthropic, by the way, that gives them the nature of a startup is...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3366.947,
+            3372.311
+          ],
+          "quote": "Is personal devices or wearables or household, like, especially in the OpenAI case,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3410.947,
+            3414.009
+          ],
+          "quote": "It seems like Anthropic is putting some distance between itself and OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3427.314,
+            3435.358
+          ],
+          "quote": "It's not to say OpenAI isn't capable of closing it or surpassing Anthropic again, but at least when you look at the state of play right now,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3437.118,
+            3441.059
+          ],
+          "quote": "Yeah, Anthropic is putting some distance between itself and OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3441.079,
+            3454.943
+          ],
+          "quote": "I think in terms of AI use cases in markets that are mature, I'd like to hear about travel because we're going to be talking about Anthropic and OpenAI for a few months and weeks on end.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "blue-owl-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Blue Owl Capital",
+      "file": "Blue Owl Capital",
+      "primary": false,
+      "how_described": "本集提到这家华尔街公司管理的基金为 Meta 的 Hyperion 数据中心项目提供 270 亿美元融资，是表外承诺结构的典型外部资金方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            425.229,
+            428.471
+          ],
+          "quote": "Funds managed by the Wall Street firm Blue Owl Capital, there you go,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到 Google 手头现金加流动投资有 1870 亿，与 Meta 一样通过表外承诺方式为 AI 基础设施融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            215.784,
+            219.966
+          ],
+          "quote": "To which Google Parent, Alphabet, Meta Platforms, Oracle, and many others have committed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            274.023,
+            279.108
+          ],
+          "quote": "Remember Google, Meta, these are cash generating operations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            599.309,
+            603.812
+          ],
+          "quote": "But Google and Meta were supposed to understand if you're",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            604.713,
+            612.499
+          ],
+          "quote": "The public market investor, and you're buying Google stock or Meta stock, you're supposed to know what are the risks and what's the actual state of their business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1040.508,
+            1043.149
+          ],
+          "quote": "Google, $187 billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1956.679,
+            1962.002
+          ],
+          "quote": "Google, between their cloud and consumer businesses, that's not going anywhere either.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3684.946,
+            3693.809
+          ],
+          "quote": "So the Kantrowitz, TripAdvisor, travel booking, combing, Google Flights eval, we should construct.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到在 AI 狂热中错过 NVIDIA 的分析师会被投资者视为失败者，用它来说明为什么华尔街不敢唱空数据中心融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1276.43,
+            1288.298
+          ],
+          "quote": "But the mania has been so strong, the FOMO of not being in the next whatever, Anthropic or NVIDIA on the public side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1416.588,
+            1424.314
+          ],
+          "quote": "Again, if you missed NVIDIA, you do not look good.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "off-balance-sheet-commitments",
+      "type": "concept",
+      "role": "concept",
+      "name": "表外承诺 (off-balance sheet commitments)",
+      "file": "表外承诺",
+      "primary": true,
+      "how_described": "本集说九大科技公司有约 3 万亿美元的 off-balance sheet commitments，主要与 AI 相关，增长速度是传统资本支出的三倍，投资者越来越难评估公司的真实杠杆率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            226.69,
+            233.393
+          ],
+          "quote": "Nine top tech companies had some $3 trillion of off-balance sheet commitments, mostly related to AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1343.846,
+            1354.891
+          ],
+          "quote": "As these off-balance sheet commitments become frequent, larger, and more complex, it's becoming increasingly difficult for investors to assess companies' total potential leverage.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集将所有 AI 支出框架化为「一张 AGI 的看涨期权」——如果 AGI 到了钱花得值，如果没到就会有清算，但问题在于所有人都在下同样的杠杆赌注",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1715.422,
+            1719.546
+          ],
+          "quote": "Basically, the way that it works is it's what all the spending is a call option on AGI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1719.906,
+            1729.234
+          ],
+          "quote": "That if you get something that what people are envisioning to be AGI, like a powerful AI that, I don't know, maybe does people's jobs and cures cancer, money will spend.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1934.545,
+            1941.869
+          ],
+          "quote": "People stop kind of like having this absolutely manic drive towards the story, the AGI call option.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在赞助口播中提到 'agents doing real work'，并在讨论经济未来时说 'the economy is going to get agentified'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 514,
+          "t": [
+            2868.982,
+            2871.464
+          ],
+          "quote": "Robotic arm with an agent attached to it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ipo",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPO",
+      "file": "IPO",
+      "primary": true,
+      "how_described": "本集围绕 Anthropic 秋季 IPO 和 OpenAI 传闻 2027 年 IPO 展开，讨论营收数字以「知情人士」形式泄露给媒体是精心策划的公关战术",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            160.982,
+            169.865
+          ],
+          "quote": "When this IPO season heats up, I think a lot of, and I'm talking specifically about OpenAI and Anthropic,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2055.517,
+            2061.122
+          ],
+          "quote": "And then we're going to get to the Anthropic and IPO and revenue numbers and OpenAI revenue numbers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2273.691,
+            2280.557
+          ],
+          "quote": "I don't think that tells a story about why Anthropic's IPO should succeed or you should like Anthropic specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2542.57,
+            2546.555
+          ],
+          "quote": "This is from Bloomberg, Anthropic's annualized revenue top 65 billion before IPO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2662.126,
+            2672.618
+          ],
+          "quote": "There's part of me that's like, is this IPO so hyped that they could just be like, nope, we're only going to give you vague run rate numbers even as a public company somehow and they get away with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2712.888,
+            2726.333
+          ],
+          "quote": "This is – like whenever this happens, I – when I was at – in my past direct-to-consumer e-commerce experience was part of a potential IPO proceeding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2776.208,
+            2782.05
+          ],
+          "quote": "There should be hell to pay within Anthropic, within the bankers that are actually working on this IPO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2824.205,
+            2831.167
+          ],
+          "quote": "And now if basically Anthropic is seemingly on track to IPO this fall.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2837.97,
+            2845.214
+          ],
+          "quote": "We're not too far away for the crispy days of fall, and we could be seeing an anthropic IPO with potentially Dario ringing the bell.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2913.906,
+            2920.068
+          ],
+          "quote": "And again, there's reporting that Sarah Fryer in an all-hand said that they're not IPO-ing until 2027.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3262.147,
+            3271.101
+          ],
+          "quote": "Pre-IPO startup, as you said, which they are, rather than that series B to C, C to D, kind of like testing the waters.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "call-option",
+      "type": "concept",
+      "role": "concept",
+      "name": "看涨期权 (call option)",
+      "file": "看涨期权",
+      "primary": true,
+      "how_described": "本集引用 Paul Kudrowski 的说法，把所有 AI 支出说成 'a call option on AGI'——以较小溢价获得无限上涨空间，但如果 AI 行不通就会有清算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1715.422,
+            1719.546
+          ],
+          "quote": "Basically, the way that it works is it's what all the spending is a call option on AGI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1845.279,
+            1863.629
+          ],
+          "quote": "In that call option framework, and again, a call option, the right to buy, basically having unlimited upside for kind of like smaller premium, taking that kind of bet, it's, I don't think it's, the question to me is what does an unwind look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1934.545,
+            1941.869
+          ],
+          "quote": "People stop kind of like having this absolutely manic drive towards the story, the AGI call option.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "capital-expenditures",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本支出 (capital expenditures)",
+      "file": "资本支出",
+      "primary": false,
+      "how_described": "本集说九大科技公司过去一年报出的传统 capital expenditures 约 6000 亿美元，远不能反映 3 万亿表外承诺的真实规模",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            203.478,
+            210.822
+          ],
+          "quote": "Each quarter, big tech companies disclose their massive capital expenditures and artificial intelligence infrastructure from data center to chips.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": false,
+      "how_described": "本集说旅行领域的信息过载和虚假评论问题 'kind of made for generative AI，which takes in all the information, adds context, adds a little intelligence'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1393.236,
+            1403.261
+          ],
+          "quote": "I disagree with him a lot on the idea that generative AI and agentic AI is all not a useful technology.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3537.874,
+            3546.464
+          ],
+          "quote": "So I think that this is like something that's kind of made for generative AI, which takes in all the information, adds context, adds a little intelligence, and then provides it to you in a succinct way.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说 OpenAI 在编码领域被 Anthropic 打了措手落后 'turn their ship and focus it on Codex, which is still in the process of being released'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2996.412,
+            3004.762
+          ],
+          "quote": "And they've taken a few months to sort of turn their ship and focus it on Codex, which is still in the process of being released.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3381.697,
+            3388.581
+          ],
+          "quote": "And again, that's in my world, like, is it Codex to developers within enterprises, which has been the current story?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": false,
+      "how_described": "本集反复以 data center 作为表外承诺的具体载体，如 Meta 的 Hyperion data center project，讨论如果 AI 需求爆发数据中心能否赚钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            203.478,
+            210.822
+          ],
+          "quote": "Each quarter, big tech companies disclose their massive capital expenditures and artificial intelligence infrastructure from data center to chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 67,
+          "t": [
+            405.499,
+            416.765
+          ],
+          "quote": "So it says, Meta's gigantic Hyperion data center project in Louisiana, which is the size of about 1,700 football fields, helps explain how obligations wind up off tech companies' balance sheets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            475.618,
+            492.711
+          ],
+          "quote": "they're they're building a data center but the the you know the the risk or the the numbers are being held by this other company these other companies um and meanwhile meta is making the promise here this is the financial commitment meta initially agreed to lease hyperion for a four",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            739.954,
+            751.483
+          ],
+          "quote": "Is that if the data center story works, then it is not a cache outlay because these data centers will actually be so in demand and generating cache and then meta is not on the hook for anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1407.283,
+            1415.808
+          ],
+          "quote": "And I think to be the one saying that the data center financing doesn't make sense when the company's investing in it,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2153.439,
+            2166.969
+          ],
+          "quote": "It could work, but then the actual compute requirements because of innovation dramatically decrease and then actually the data center story fails, but AI is either curing diseases or hacking into all of our bank accounts.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "soft-landing",
+      "type": "concept",
+      "role": "concept",
+      "name": "软着陆 (soft landing)",
+      "file": "软着陆",
+      "primary": false,
+      "how_described": "本集把表外承诺的平稳退出类比为美联储的 soft landing 场景——'you need so many things to go right or you're going to have a problem'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1995.225,
+            2008.45
+          ],
+          "quote": "But with the size of the numbers that we're seeing, some extraordinary things have to happen in order for this, you know, it almost reminds me of like the soft landing scenario or the no landing scenario, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2020.92,
+            2022.161
+          ],
+          "quote": "Is there a soft landing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2093.904,
+            2096.986
+          ],
+          "quote": "Like the idea of this soft landing, I struggle to see it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

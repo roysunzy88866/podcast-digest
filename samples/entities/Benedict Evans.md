@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
+[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":53,"Anthropic":60,"Google":23,"Meta":15,"Apple":12,"Microsoft":11,"AWS":6,"McKinsey":4,"Claude Code":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":54,"Anthropic":61,"Google":24,"Meta":16,"Apple":12,"Microsoft":11,"AWS":6,"McKinsey":4,"Claude Code":30}</script>
 
 <script>
 (function(){

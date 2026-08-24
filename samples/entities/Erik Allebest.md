@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Harry Stabbings]] [[Jason Lamkin]]
+[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Harry Stabbings]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":14,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":15,"ASI":2}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sanjit Biswas":1,"Samsara":2,"物理 AI":4,"护栏":24,"生成式 AI":1,"智能体":117,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Sanjit Biswas":1,"Samsara":2,"物理 AI":4,"护栏":24,"生成式 AI":2,"智能体":118,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

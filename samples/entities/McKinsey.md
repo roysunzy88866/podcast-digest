@@ -36,7 +36,7 @@ unlisted: true
 
 [[AWS]] · [[Lenny]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[Brian Halligan]] · [[Benedict Evans]] · [[Philip Johnston]]
 
-<script type="application/json" class="pd-epn">{"AWS":6,"Lenny":65,"OpenAI":53,"Google":23,"Anthropic":60,"Microsoft":11,"智能体":117,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1}</script>
+<script type="application/json" class="pd-epn">{"AWS":6,"Lenny":65,"OpenAI":54,"Google":24,"Anthropic":61,"Microsoft":11,"智能体":118,"Brian Halligan":1,"Benedict Evans":1,"Philip Johnston":1}</script>
 
 <script>
 (function(){
