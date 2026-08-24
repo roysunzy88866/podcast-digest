@@ -143,6 +143,14 @@ function stanzasToSegments(stanzas) {
   const rows = stanzas.filter((s) => s.text);
   if (!rows.length || !rows.some((s) => s.stamp != null)) return null;
   if (rows.filter((s) => s.stamp != null).length < rows.length / 2) return null;
+  // 时间点必须单调不减 —— 回跳的稿时间轴不可信(会产负时长段、把稿末时长算小让归属闸门误拦),
+  // 宁可回落 ASR(GLM 010[4])
+  let prev = -1;
+  for (const r of rows) {
+    if (r.stamp == null) continue;
+    if (r.stamp < prev) return null;
+    prev = r.stamp;
+  }
   let carry = 0;
   const segs = rows.map((r) => ({
     start: r.stamp != null ? (carry = r.stamp) : carry,
@@ -164,11 +172,13 @@ function stanzasToSegments(stanzas) {
   return segs;
 }
 
-/** "&#39;" 这类 HTML 实体 → 字符(只处理真稿里出现的常见几种,不引依赖) */
+/** "&#39;" 这类 HTML 实体 → 字符(只处理真稿里出现的常见几种,不引依赖)。
+ *  超范围码点(>0x10FFFF)换 �,不许抛(GLM 010[1]:畸形实体曾让 RangeError 炸出纯函数)。 */
+const safeCp = (n) => (Number.isFinite(n) && n >= 0 && n <= 0x10ffff ? String.fromCodePoint(n) : "�");
 function decodeEntities(s) {
   return String(s)
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&#(\d+);/g, (_, n) => safeCp(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => safeCp(parseInt(n, 16)))
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
@@ -217,6 +227,8 @@ export function parseTranscriptHtml(html) {
   let src = String(html ?? "");
   const body = src.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   if (body) src = body[1];
+  // <script>/<style> 连内容一起剥 —— 光剥标签会把脚本文本混进正文(GLM 010[2] 加固)
+  src = src.replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, " ");
   if (!/<cite[\s>]/i.test(src)) {
     const text = decodeEntities(
       src.replace(/<br\s*\/?>/gi, "\n").replace(/<\/?p[^>]*>/gi, "\n").replace(/<[^>]*>/g, " "),

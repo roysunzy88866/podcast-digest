@@ -399,6 +399,19 @@ describe("C36 · changelog 网页稿解析", () => {
     </body>`;
     expect(parseTranscriptHtml(sparse)).toBeNull();
   });
+  it("★★★ GLM 010 采纳三条:①畸形实体不抛 ②时间点回跳 → null 回落 ③<script>/<style> 连内容剥掉", () => {
+    // ① 超范围码点曾让 RangeError 从纯函数炸出去(违反「解析失败返回 null」契约)
+    expect(() =>
+      parseTranscriptHtml("<body><cite>A:</cite><p>[00:10] x &#1114112; y</p><cite>B:</cite><p>[00:20] z</p></body>"),
+    ).not.toThrow();
+    // ② 回跳稿会产负时长段、稿末时长算小 → 归属闸门误拦正确稿,不如老实回落 ASR
+    expect(parseStampedText("A (10:00):\nxx yy\n\nB (00:05):\nzz ww")).toBeNull();
+    // ③ 光剥标签会把脚本文本混进正文
+    const withScript = `<body><p>Kim (00:00):<br>Real words here.<br><br>Jay (00:54):<br>More real words.</p><script>var junk = "evil (99:88):";</script></body>`;
+    const segs = parseTranscriptHtml(withScript)!;
+    expect(segs.map((s) => s.text).join(" ")).not.toContain("junk");
+    expect(segs.length).toBe(2);
+  });
   it("★★★ buzzsprout 形状(rework):无 <cite>,正文「人名 (00:00):<br>话」→ 转行后复用段头解析,密点直接可用", () => {
     const bz = `<body><p><!--block-->Kim (00:00):<br>Welcome to a fabricated show about nothing real at all.<br><br>Jay (00:54):<br>Sure. This is also made up text for the fixture only.</p></body>`;
     const segs = parseTranscriptHtml(bz)!;
