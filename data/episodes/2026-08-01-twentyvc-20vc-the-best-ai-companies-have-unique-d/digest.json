@@ -1,0 +1,207 @@
+{
+  "title_zh": "Simile：用模拟人帮大公司避开五亿美元级失误",
+  "tldr": "Simile 创始人 Joon Sung Park 讲解如何用大模型构建人类行为基础模型，通过因果模拟帮企业在决策前\"试错\"，而非单纯预测未来。",
+  "digest_md": "两三年后，运行一次模拟会话可能花费一两千万美元，但客户愿意为此支付一亿美元——因为那次模拟帮他们避开了一个可能损失五亿美元的决策 [49:20 Joon Sung Park]。这就是 Simile 在做的事：不是预测未来，而是让你在投入真实世界之前，先在模拟环境里试错。\n\n## 从小镇实验到人类行为基础模型\n\nJoon Sung Park 最早因\"Smallville\"项目出名：他们用 GPT-3.5 驱动 25 个 NPC（非玩家角色），让这些角色在一个虚拟小镇里自主醒来、规划日程、建立关系。模拟设定在情人节前一天，结果这些智能体自发组织了聚会、装饰咖啡馆——完全是涌现行为，没人写脚本 [06:36 Joon Sung Park]。\n\n这个实验贡献了两样东西：一是当时最早的智能体（agent，能自主行动的 AI 程序）范例之一；二是首次把\"记忆、规划、反思\"明确作为智能体架构的组成部分 [07:07 Joon Sung Park]。记忆的解法最初很朴素——把所有信息存成 markdown 文本文件。但问题是体验量太大，上下文窗口装不下。所以他们加了\"反思\"机制：每隔一段时间，让智能体回顾自己的记忆碎片，提炼出更高层的认知——比如\"我为什么这周吃了五次蛋卷？我可能在忙\" [08:49 Joon Sung Park]。这样智能体逐渐形成人格和世界观，而不只是一堆行为日志。\n\nSimile 现在做的事，是这个思路的规模化：构建人类行为基础模型，用来模拟个人、亚群体，最终模拟整个生态系统甚至市场 [10:05 Joon Sung Park]。\n\n## 不造更聪明的机器，造\"跟你一样会犯错\"的模型\n\nSimile 和 OpenAI、Anthropic 这类前沿模型公司走的路完全相反。那些公司要造超级理性、擅长编码和数学的机器。Simile 要的是：如果一个人在某个情境下犯了错，模型也应该犯同样的错；人有什么偏见，模型就有什么偏见 [10:29 Joon Sung Park]。他们要的是人类大脑里\"主观的那一半\"——价值观、偏好、品味 [10:55 Joon Sung Park]。\n\n数据策略也完全不同。大模型主要训练在\"人们说了什么\"的网页数据上，但人们说的和做的之间有巨大鸿沟。Simile 收集行为数据、交易数据、观察数据，但 Joon Sung Park 认为观察数据只适合做相关性预测 [11:08 Joon Sung Park]。他更看重的是因果机制——随机对照试验和 A-B 测试数据：让人做了 A 和做了 B 之后行为分别怎么变，拿这些数据来训练模型推理反事实（\"如果当初做了另一个选择会怎样\"）[12:30 Joon Sung Park]。\n\n## 预测没人真正关心，企业要的是\"怎么改\"\n\n一个反直觉的论点：没有人真正关心预测。知道星冰乐销量两个季度后要暴跌，企业不会觉得满足，他们会问\"那我们该怎么办？\" [12:03 Joon Sung Park]。他们要的不是预言，而是因果推理——现在做什么能改变那个未来 [12:23 Joon Sung Park]。\n\n这使得 Simile 的价值主张跟传统市场调研（比如 Qualtrics）有本质区别。调查和访谈只是工具层面的创新，模拟要解决的是：能不能创建一个足够通用的人类模型，大规模代表人的观点，甚至让很多人在模拟里互相交互，看决策的全部下游影响 [15:34 Joon Sung Park]？\n\n## 数据飞轮：世界本身就是验证场\n\n模拟的反馈机制比看起来更好。编程智能体有清晰的奖励函数——用户点\"接受\"或\"拒绝\"，马上知道对错。模拟预测的是未来，验证似乎很难。但 Joon Sung Park 说，世界本身就是基本事实：每天生成数万个假设，每个假设映射到一个可验证的结论，然后观察世界，看哪些成真了 [20:17 Joon Sung Park]。一个月生成 100 万个假设，统计有多少成真——这就是最好的学习方式 [20:45 Joon Sung Park]。\n\n他们在验证上也交出了硬数据：花了一年时间证明模型能以 85% 的准确率预测人的行为和态度，与人们自我复制的行为相当 [24:55 Joon Sung Park]。这项工作在 2024 年底发布，开启了\"合成小组模拟\"这个领域 [25:01 Joon Sung Park]。\n\n## 大企业三个月就买单\n\nJoon Sung Park 本来以为市场需要一到两年才会热起来，计划 2026 年底才激进推进。结果客户行动极快，世界上一些最大的企业在三个月内就完成了交易 [29:42 Joon Sung Park]。原因是他们在日常工作中感受到的痛太真实了——实验太慢、预算不够，大量决策靠直觉，而直觉往往被自己狭隘的经验扭曲 [29:26 Joon Sung Park]。\n\n获取第一批客户的一个关键场景：企业在第一次通话中，把大型咨询公司花三到六个月做的研究结论拿来，在 Simile 系统里重新跑，两分钟就出结果 [30:22 Joon Sung Park]。\n\n## 模拟的伦理边界\n\n模拟是科幻小说里和 AGI 并列的两大技术支柱，滥用潜力是真实的。Joon Sung Park 把 Simile 的北极星定义为\"大规模代表性\"——很多人的观点在做关他们利益的决策房间里根本不被考虑，模拟是让决策者真正大规模听到人的声音的方式 [17:29 Joon Sung Park]。至于跟政治选举、民主制度相关的模拟，原则很重要，但他没有展开具体会跟谁合作、不跟谁合作的边界 [16:53 Joon Sung Park]。\n\n## 模拟是智能的 GPU\n\nJoon Sung Park 把现在的大语言模型比作\"智能的 CPU\"——一个很大的单体，很聪明，做复杂推理。模拟要做的是\"智能的 GPU\"——单个模型不需要特别聪明，跟人一样就行，甚至要一样会犯错；但当大量这样的模型聚集在一起，就能产生涌现现象，像人类社会一样做出惊人的集体成果 [51:37 Joon Sung Park]。\n\n他认为未来每个人都可以有一个可复制的\"数字孪生\"在模拟世界行动，而社会可以基于这种细粒度的人的表征，设计全新的政策形式和组织形式 [52:37 Joon Sung Park]。\n\n## 本集带走\n\n- **别只预测，要因果推理**：企业不缺\"未来会怎样\"的预言，缺的是\"现在做什么能改变那个未来\"。Simile 的核心竞争力在反事实推理，不在预测准确率。\n- **数据策略要有护城河**：Joon Sung Park 认为这代 AI 公司必须有一个独特的、可防御的数据策略。Simile 的不是网页文本，而是行为数据加随机对照试验数据 [13:03 Joon Sung Park]。\n- **\"反思\"机制让智能体有人格**：不是堆记忆，而是定期让智能体回顾记忆碎片、提炼高层认知——\"我为什么总做这件事？\"——这样才能形成稳定的观点和性格 [08:49 Joon Sung Park]。\n- **世界本身就是验证场**：模拟的反馈循环不是封闭的，每天生成的假设可以在真实世界中被检验，形成数据飞轮 [20:17 Joon Sung Park]。\n- **找研究者创业，看他们要\"问题\"还是要\"影响力\"**：迷恋问题本身的人可能做出有趣的科学项目，但成不了好公司；被影响力驱动的人才会去找到能触达用户、能产生收入的问题 [41:33 Joon Sung Park]。\n- **找\"矛盾超能力\"的人**：最稀缺的人才是拥有两种本不该共存的能力——比如既极其数据严谨又极具创意想象力的 CMO [35:30 Joon Sung Park]。\n- **短期偏执 + 长期笃信**：最好的团队成员在日常执行中极度焦虑紧迫，但骨子里相信世界最终会站在自己这边。同时保持这两种状态很难，但正是这种张力驱动了成功 [36:37 Joon Sung Park]。",
+  "quotes": [
+    {
+      "en": "I think there is a world in which, in about two, three years, we're running a single simulation session that people will pay $100 million for it.",
+      "zh": "我认为在两三年后，会有这样一种可能，我们运行一次单一的模拟会话，人们会为此支付 1 亿美元。",
+      "timestamp": "00:07",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "What we care about is if we have a person make a mistake in this context, we want our models to make the same kind of mistake.",
+      "zh": "我们关心的是，如果一个人在这个语境下犯了错，我们要让我们的模型犯同样类型的错误。",
+      "timestamp": "10:43",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "We want our models to be biased in the same way humans are.",
+      "zh": "我们希望我们的模型以和人类相同的方式存在偏见。",
+      "timestamp": "10:51",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "My fundamental thesis here is for AI companies of this generation, you need to have an interesting data strategy that's going to be defensible.",
+      "zh": "我这里的基本论点是对于这一代 AI 公司，你需要有一个有趣的数据战略，并且它是可防御的。",
+      "timestamp": "13:03",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "At the same time, I actually think simulation has even better mechanism, which is the world is our ground truth.",
+      "zh": "与此同时，我实际上认为模拟有更好的机制，那就是世界是我们的基本事实。",
+      "timestamp": "20:17",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "We can basically say, a month goes by, we generated a million hypotheses, x percentage of them came true. This is the best way to learn about the world.",
+      "zh": "我们基本上可以说，一个月过去了，我们生成了 100 万个假设，其中 x% 成真了。这是了解世界的最好方式。",
+      "timestamp": "20:45",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "And we predicted the outcome of studies that took three to six months, but just within two minutes.",
+      "zh": "我们预测了需要三到六个月的研究的结果，但只需两分钟。",
+      "timestamp": "30:36",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "The thing I actually would look for is are they married to a problem or are they married to impact?",
+      "zh": "我实际上会寻找的是他们是致力于一个问题还是致力于影响力？",
+      "timestamp": "41:33",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "I think there's a world in which in about two, three years, we're running a single simulation session that's going to take $10, $20 million to run.",
+      "zh": "我认为在一个大约两三年的世界里，我们要运行一个单一的模拟会话，这将花费 1000 万、2000 万美元来运行。",
+      "timestamp": "49:20",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "A single session, but it's going to be so valuable that people will pay $100 million for it.",
+      "zh": "一个单一的会话，但它将非常有价值，人们会为此支付 1 亿美元。",
+      "timestamp": "49:29",
+      "speaker": "Joon Sung Park"
+    },
+    {
+      "en": "I failed at a lot of things. I want to make sure that the model that represents me fails the same way.",
+      "zh": "我在很多事情上失败了。我想确保代表我的模型以同样的方式失败。",
+      "timestamp": "52:03",
+      "speaker": "Joon Sung Park"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:07",
+      "speaker": "Unknown",
+      "en": "I think there is a world in which, in about two, three years, we're running a single simulation session that people will pay $100 million for it.",
+      "zh": "我认为在两三年后，会有这样一种可能，我们运行一次单一的模拟会话，人们会为此支付 1 亿美元。"
+    },
+    {
+      "timestamp": "00:20",
+      "speaker": "Unknown",
+      "en": "At each stage of their life, were they the reason why that thing was successful?",
+      "zh": "在他们生命的每个阶段，他们是否是该事物成功的缘由？"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Unknown",
+      "en": "If you squint, were they the common denominator?",
+      "zh": "如果你眯起眼睛看，他们是否是那个共同点？"
+    },
+    {
+      "timestamp": "05:58",
+      "speaker": "Unknown",
+      "en": "So if you poke at them sort of at the right angle, you could actually extract a lot of realistic human behaviors out of them.",
+      "zh": "所以如果你以正确的角度去刺激它们，你实际上可以从它们中提取出很多真实的人类行为。"
+    },
+    {
+      "timestamp": "08:49",
+      "speaker": "Unknown",
+      "en": "So imagine you went to get omelet five times in a day. You want to make sense of that aside from, oh, I went to get omelet five times throughout the week or something like that.",
+      "zh": "所以想象一下你一天中去取了五次蛋卷。你想理解这一点，而不是，噢，我这周取了五次蛋卷之类的。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Unknown",
+      "en": "And they will actually start formulating ideas that are more higher level than what happens on the ground truth.",
+      "zh": "他们实际上会开始形成比地面现实更高层次的想法。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Unknown",
+      "en": "What we care about is if we have a person make a mistake in this context, we want our models to make the same kind of mistake.",
+      "zh": "我们关心的是，如果一个人在这个语境下犯了错，我们要让我们的模型犯同样类型的错误。"
+    },
+    {
+      "timestamp": "10:51",
+      "speaker": "Unknown",
+      "en": "We want our models to be biased in the same way humans are.",
+      "zh": "我们希望我们的模型以和人类相同的方式存在偏见。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Unknown",
+      "en": "What people actually care about is they want to shape the future.",
+      "zh": "人们真正关心的是他们想要塑造未来。"
+    },
+    {
+      "timestamp": "12:23",
+      "speaker": "Unknown",
+      "en": "And there, what you really need is causal mechanism.",
+      "zh": "而在那里，你真正需要的是因果机制。"
+    },
+    {
+      "timestamp": "12:25",
+      "speaker": "Unknown",
+      "en": "You need a model that can actually reason about causal mechanisms and counterfactuals.",
+      "zh": "你需要一个能够真正对因果机制和反事实进行推理的模型。"
+    },
+    {
+      "timestamp": "13:03",
+      "speaker": "Unknown",
+      "en": "My fundamental thesis here is for AI companies of this generation, you need to have an interesting data strategy that's going to be defensible.",
+      "zh": "我这里的基本论点是对于这一代 AI 公司，你需要有一个有趣的数据战略，并且它是可防御的。"
+    },
+    {
+      "timestamp": "17:29",
+      "speaker": "Unknown",
+      "en": "And the way we see it, simulation at its best ought to be representation at scale.",
+      "zh": "在我们看来，模拟在最好的情况下应该是大规模的代表性。"
+    },
+    {
+      "timestamp": "20:17",
+      "speaker": "Unknown",
+      "en": "At the same time, I actually think simulation has even better mechanism, which is the world is our ground truth.",
+      "zh": "与此同时，我实际上认为模拟有更好的机制，那就是世界是我们的基本事实。"
+    },
+    {
+      "timestamp": "20:45",
+      "speaker": "Unknown",
+      "en": "We can basically say, a month goes by, we generated a million hypotheses, x percentage of them came true. This is the best way to learn about the world.",
+      "zh": "我们基本上可以说，一个月过去了，我们生成了 100 万个假设，其中 x% 成真了。这是了解世界的最好方式。"
+    },
+    {
+      "timestamp": "25:26",
+      "speaker": "Unknown",
+      "en": "What I see today in the market is actually quite broken.",
+      "zh": "我今天在市场上看到的实际上相当糟糕。"
+    },
+    {
+      "timestamp": "26:04",
+      "speaker": "Unknown",
+      "en": "So a lot of the decisions that we make as a society, we base on our gut instinct.",
+      "zh": "所以作为一个社会，我们所做的许多决定，都是基于我们的直觉。"
+    },
+    {
+      "timestamp": "30:36",
+      "speaker": "Unknown",
+      "en": "And we predicted the outcome of studies that took three to six months, but just within two minutes.",
+      "zh": "我们预测了需要三到六个月的研究的结果，但只需两分钟。"
+    },
+    {
+      "timestamp": "41:33",
+      "speaker": "Unknown",
+      "en": "The thing I actually would look for is are they married to a problem or are they married to impact?",
+      "zh": "我实际上会寻找的是他们是致力于一个问题还是致力于影响力？"
+    },
+    {
+      "timestamp": "49:20",
+      "speaker": "Unknown",
+      "en": "I think there's a world in which in about two, three years, we're running a single simulation session that's going to take $10, $20 million to run.",
+      "zh": "我认为在一个大约两三年的世界里，我们要运行一个单一的模拟会话，这将花费 1000 万、2000 万美元来运行。"
+    },
+    {
+      "timestamp": "49:29",
+      "speaker": "Unknown",
+      "en": "A single session, but it's going to be so valuable that people will pay $100 million for it.",
+      "zh": "一个单一的会话，但它将非常有价值，人们会为此支付 1 亿美元。"
+    },
+    {
+      "timestamp": "52:04",
+      "speaker": "Unknown",
+      "en": "I failed at a lot of things. I want to make sure that the model that represents me fails the same way.",
+      "zh": "我在很多事情上失败了。我想确保代表我的模型以同样的方式失败。"
+    }
+  ]
+}

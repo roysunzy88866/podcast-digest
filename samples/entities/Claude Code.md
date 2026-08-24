@@ -94,7 +94,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[评估]] · [[OpenAI]] · [[Slack]] · [[ChatGPT]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":116,"Anthropic":59,"Lenny":65,"Codex":24,"Claude":28,"评估":13,"OpenAI":52,"Slack":19,"ChatGPT":31,"Meta":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":117,"Anthropic":60,"Lenny":65,"Codex":24,"Claude":28,"评估":13,"OpenAI":53,"Slack":19,"ChatGPT":31,"Meta":15}</script>
 
 <script>
 (function(){

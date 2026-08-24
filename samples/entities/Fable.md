@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude]] · [[Slack]] · [[Codex]] · [[提示词]] · [[Barney Hussey-Yeo]] · [[Kitsa]] · [[Alex Finn]] · [[Simon Willison]]
 
-<script type="application/json" class="pd-epn">{"智能体":116,"Anthropic":59,"Claude":28,"Slack":19,"Codex":24,"提示词":2,"Barney Hussey-Yeo":1,"Kitsa":1,"Alex Finn":1,"Simon Willison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":117,"Anthropic":60,"Claude":28,"Slack":19,"Codex":24,"提示词":2,"Barney Hussey-Yeo":1,"Kitsa":1,"Alex Finn":1,"Simon Willison":1}</script>
 
 <script>
 (function(){

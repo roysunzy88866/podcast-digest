@@ -31,7 +31,7 @@ unlisted: true
 
 [[Chris Benson]] · [[Daniel Whitenack]] · [[智能体]] · [[企业软件]] · [[微调]] · [[MCP]] · [[开源模型]] · [[Salesforce]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":3,"Daniel Whitenack":2,"智能体":116,"企业软件":1,"微调":5,"MCP":15,"开源模型":9,"Salesforce":7,"Anthropic":59,"OpenAI":52}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":3,"Daniel Whitenack":2,"智能体":117,"企业软件":1,"微调":5,"MCP":15,"开源模型":9,"Salesforce":7,"Anthropic":60,"OpenAI":53}</script>
 
 <script>
 (function(){

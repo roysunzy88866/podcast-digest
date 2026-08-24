@@ -1,0 +1,1522 @@
+{
+  "episode_id": "2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-01",
+  "tags": [
+    "模拟与仿真",
+    "智能体",
+    "人类行为建模",
+    "因果推理",
+    "数据策略"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "joon-sung-park",
+      "type": "person",
+      "role": "host",
+      "name": "Joon Sung Park",
+      "file": "Joon Sung Park",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.956,
+            72.858
+          ],
+          "quote": "This is Joon Sung Park, founder and CEO at Simile.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.924,
+            36.966
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and I am too old and bored of standard podcast intros, so let me tell you a story.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simile",
+      "type": "company",
+      "role": "company",
+      "name": "Simile",
+      "file": "Simile",
+      "primary": true,
+      "how_described": "本集说 Simile 是一家创建人类行为基础模型的公司，该模型可用于模拟个人、亚群体，最终模拟整个生态系统甚至市场，核心价值在于反事实推理而非单纯预测",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.956,
+            72.858
+          ],
+          "quote": "This is Joon Sung Park, founder and CEO at Simile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            335.47,
+            339.153
+          ],
+          "quote": "Can you explain what happened and how that potentially led to the early days of Simile?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            600.236,
+            604.698
+          ],
+          "quote": "When we think about then building a simulation model company, would you say Simile is a simulation model company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            764.595,
+            768.318
+          ],
+          "quote": "So this is actually the data collection that goes beyond observational data that Simile collects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            780.513,
+            782.875
+          ],
+          "quote": "Data is an important piece of simile for sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1282.904,
+            1291.373
+          ],
+          "quote": "So some of the things that I've seen within Simile as we built this company over the year is right now we have a model that's been in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1337.014,
+            1339.897
+          ],
+          "quote": "How do you think about the TAM for something like Simile?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1686.419,
+            1687.52
+          ],
+          "quote": "And that's what we're seeing at Simile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2432.293,
+            2442.535
+          ],
+          "quote": "And now when I said, hey, I want to do this thing and build a simile, I was able to somehow convince Michael and Percy who were, they were actually my doctoral advisors, to actually come join me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3227.507,
+            3231.11
+          ],
+          "quote": "And I think right now they're joining that because they actually want to start a quant firm at Simile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3231.37,
+            3237.395
+          ],
+          "quote": "They actually joined because they actually see the vision of Simile very much well aligned with their passion and interest, which is to model the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3239.957,
+            3257.03
+          ],
+          "quote": "Is there a world, again, I'm seeing crazy time machine world, is there a world where you are so efficient and so good that actually stock markets become uninvestable because the world is skewed to Simile's hedge fund or similar providers and actually it is not a fair marketplace?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3307.959,
+            3310.76
+          ],
+          "quote": "It's the future of love, not also simile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3415.367,
+            3423.491
+          ],
+          "quote": "But I'm just thinking it'd be the most phenomenal advert for Simile if you could do the perfect marriage at first sight because of simulations that have been run before.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是能自主行动的 AI 程序，最早范例之一来自 Smallville 项目中的 25 个 NPC，它们会在虚拟小镇里自主醒来、规划日程、建立关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            454.211,
+            460.652
+          ],
+          "quote": "The reason why we actually got that inspiration was if you had more than one agent side by side, you want them to remember each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            529.692,
+            542.636
+          ],
+          "quote": "So we had this concept of reflection, which basically was every certain interval, it's like a shower thought, you ask agent explicitly to get bunch of their memory pieces and basically make sense of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3012.45,
+            3024.478
+          ],
+          "quote": "Interesting thing here is I see the world of simulation going into this world where we are creating that very complex multi-agent simulation, or we're running a very long study with many different steps of simulations along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3024.758,
+            3027.52
+          ],
+          "quote": "But we actually started the field from multi-agent simulation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulation)",
+      "file": "模拟",
+      "primary": true,
+      "how_described": "本集说模拟是创建智能体并生成一系列活动或动作，以展示模拟的未来世界可能是什么样子，被形容为'智能的 GPU'——单个模型不需要特别聪明，但大量聚集能产生涌现现象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.937,
+            16.243
+          ],
+          "quote": "I think there is a world in which, in about two, three years, we're running a single simulation session that people will pay $100 million for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            74.799,
+            79.32
+          ],
+          "quote": "They're a simulation market that try and predict future human behavior.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            329.805,
+            335.129
+          ],
+          "quote": "And it centers around Valentine's Day and a simulation that happened as a result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            413.547,
+            418.871
+          ],
+          "quote": "And some of the surprising things you end up seeing was the simulation itself was set the day before Valentine's Day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            583.989,
+            589.411
+          ],
+          "quote": "And so when we think about a simulation model today, for those that don't know, a simulation model is essentially that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            600.236,
+            604.698
+          ],
+          "quote": "When we think about then building a simulation model company, would you say Simile is a simulation model company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            605.078,
+            618.245
+          ],
+          "quote": "We are a company that is creating foundation model of human behavior that can then be used to create simulations of individuals, simulation of subpopulations, and down the line, the simulation of the entire ecosystem and even the market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            768.663,
+            773.707
+          ],
+          "quote": "Is data collection acquisition the hardest element of building simulation models for you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            934.564,
+            945.094
+          ],
+          "quote": "Simulation is fundamentally about something different, which is how can you create the most generalizable model of people so that we can represent people's viewpoints at scale?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            948.337,
+            956.385
+          ],
+          "quote": "Down the line, I actually see simulation as a field moving into context where, hey, can we actually create simulations of many people?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            976.69,
+            981.377
+          ],
+          "quote": "Simulation I do think can also be a cure for many of what we call quote-unquote wicked problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1009.941,
+            1013.003
+          ],
+          "quote": "These are the kind of questions that simulation ultimately can answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1028.658,
+            1034.843
+          ],
+          "quote": "The way I see it, simulation as a piece of technology is one of the twin pillars of technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1043.11,
+            1044.011
+          ],
+          "quote": "The other is simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1049.715,
+            1055.197
+          ],
+          "quote": "And the way we see it, simulation at its best ought to be representation at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1177.806,
+            1182.669
+          ],
+          "quote": "So how does data flywheel work in simulation and why would it work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1206.28,
+            1210.761
+          ],
+          "quote": "And it might be easy to look at simulation as a field and say, well, where are you going to get the reward?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1217.362,
+            1223.504
+          ],
+          "quote": "At the same time, I actually think simulation has even better mechanism, which is the world is our ground truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1235.609,
+            1240.111
+          ],
+          "quote": "If this happens, we know whether we can validate the simulation to be right or wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1260.6,
+            1263.02
+          ],
+          "quote": "Compute is an important piece of simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1263.421,
+            1267.121
+          ],
+          "quote": "Of course, a lot of the work that we do is to make our simulation be more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1363.104,
+            1366.146
+          ],
+          "quote": "That is how I see simulation as a field as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1381.798,
+            1392.247
+          ],
+          "quote": "It is very important to us that we get the feedback loop to be as tight as possible so we know when our simulation is right, when our simulation is wrong, and we're improving it every single day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1476.082,
+            1482.432
+          ],
+          "quote": "We're actually going to show and validate that our simulation can not just be an interesting demo, but it's going to be accurate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1573.897,
+            1583.323
+          ],
+          "quote": "So what simulation will do is unlock that limitation and us to actually test every single hypothesis that we have about the world before we have to launch into the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1634.934,
+            1646.337
+          ],
+          "quote": "The vision for this particular area is the vision that we can actually create the next paradigm shift in AI and in the way we view technology and impact of the technology in the form of simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1667.51,
+            1671.912
+          ],
+          "quote": "The better the model gets in representing people, the better simulation we can create.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1672.272,
+            1678.215
+          ],
+          "quote": "It immediately means better experience for our users because they'll have much more grounded, much more accurate simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1708.187,
+            1714.995
+          ],
+          "quote": "What's been fascinating to me coming into the field of simulation, especially in this market, was last year when I started the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1719.8,
+            1725.587
+          ],
+          "quote": "I actually thought our market would take about a year or two before they warm up to the idea of simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1913.502,
+            1915.283
+          ],
+          "quote": "We ran simulation and that prevented it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2884.216,
+            2888.599
+          ],
+          "quote": "Does the unit economics vary for you on a per simulation basis?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2911.836,
+            2926.066
+          ],
+          "quote": "Usually when you have simulation that is trying to answer something that's much more complex or something that's, let's say, you want to actually understand all the downstream implication of your decision or you want to do market segmentation study across all of the US, much more expensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2937.473,
+            2939.794
+          ],
+          "quote": "So this is actually interesting for simulation as a field.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2955.222,
+            2958.844
+          ],
+          "quote": "I actually do think simulation could actually be the next frontier of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2960.425,
+            2969.531
+          ],
+          "quote": "I think there's a world in which in about two, three years, we're running a single simulation session that's going to take $10, $20 million to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3012.45,
+            3024.478
+          ],
+          "quote": "Interesting thing here is I see the world of simulation going into this world where we are creating that very complex multi-agent simulation, or we're running a very long study with many different steps of simulations along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3024.758,
+            3027.52
+          ],
+          "quote": "But we actually started the field from multi-agent simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3066.153,
+            3071.275
+          ],
+          "quote": "A huge part of it also is getting models to be better, creating bigger simulation, making the system more scalable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3105.118,
+            3112.286
+          ],
+          "quote": "What I see coming and what I think simulation as a field can offer is the GPU of intelligence unit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3153.532,
+            3155.794
+          ],
+          "quote": "Can we actually replicate that in simulation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3386.913,
+            3390.975
+          ],
+          "quote": "For your users using your simulation, can you actually bring them along in this process?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3469.277,
+            3470.178
+          ],
+          "quote": "Can't say simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3483.827,
+            3489.33
+          ],
+          "quote": "Right now, aside from simulation, robotics is sort of an obvious place where this has become the case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "foundation-model-of-human-behavior",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类行为基础模型 (foundation model of human behavior)",
+      "file": "人类行为基础模型",
+      "primary": true,
+      "how_described": "本集说 Simile 正在构建人类行为基础模型，用来模拟个人、亚群体，最终模拟整个生态系统甚至市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            605.078,
+            618.245
+          ],
+          "quote": "We are a company that is creating foundation model of human behavior that can then be used to create simulations of individuals, simulation of subpopulations, and down the line, the simulation of the entire ecosystem and even the market.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "type": "concept",
+      "role": "concept",
+      "name": "反思 (reflection)",
+      "file": "反思",
+      "primary": true,
+      "how_described": "本集说反思机制是每隔一定时间间隔，明确要求智能体获取一堆记忆片段并理解它们，比如'你这周为什么这么频繁地吃蛋卷？你很忙吗？'，从而让智能体形成比地面现实更高层次的想法和人格",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            442.847,
+            445.989
+          ],
+          "quote": "And then it was paired with memory planning and reflection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            471.375,
+            477.98
+          ],
+          "quote": "So we had them have this concept of memory and planning and reflection to make sense of very long-term landscape.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            529.692,
+            542.636
+          ],
+          "quote": "So we had this concept of reflection, which basically was every certain interval, it's like a shower thought, you ask agent explicitly to get bunch of their memory pieces and basically make sense of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆最初通过把所有信息存成 markdown 文本文件来解决，但上下文窗口装不下大量体验，因此需要配合反思机制来理解大量记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            442.847,
+            445.989
+          ],
+          "quote": "And then it was paired with memory planning and reflection.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            461.113,
+            463.953
+          ],
+          "quote": "Back in the day, language models didn't really have the concept of memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            464.173,
+            470.875
+          ],
+          "quote": "So I thought, okay, you have to give them the memory so that they don't say, hey, nice meeting you every time they meet their roommate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            471.375,
+            477.98
+          ],
+          "quote": "So we had them have this concept of memory and planning and reflection to make sense of very long-term landscape.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            478.14,
+            479.521
+          ],
+          "quote": "How do you solve that memory problem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            479.781,
+            481.823
+          ],
+          "quote": "Because everyone says, oh, we have a memory problem today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            482.003,
+            484.745
+          ],
+          "quote": "How do you solve the memory problem of agents to prevent that from happening?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            510.227,
+            517.269
+          ],
+          "quote": "And imagine now if we were to bring this to real life in a world like the one we live in, the amount of memory that we accumulate is huge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            517.529,
+            521.11
+          ],
+          "quote": "So the problem becomes, how do you make sense of this large quantity of memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            529.692,
+            542.636
+          ],
+          "quote": "So we had this concept of reflection, which basically was every certain interval, it's like a shower thought, you ask agent explicitly to get bunch of their memory pieces and basically make sense of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            565.443,
+            569.444
+          ],
+          "quote": "This might actually have something to do with my childhood or my fundamental memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3378.188,
+            3383.331
+          ],
+          "quote": "Having that shared memory, I actually do think is fundamental to the way we form trust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "causal-mechanism",
+      "type": "concept",
+      "role": "concept",
+      "name": "因果机制 (causal mechanism)",
+      "file": "因果机制",
+      "primary": true,
+      "how_described": "本集说企业不真正关心预测，他们想知道'现在需要做什么来改变未来'，因此真正需要的是因果机制——一个能对因果机制和反事实进行推理的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            743.396,
+            745.878
+          ],
+          "quote": "And there, what you really need is causal mechanism.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "counterfactual",
+      "type": "concept",
+      "role": "concept",
+      "name": "反事实 (counterfactual)",
+      "file": "反事实",
+      "primary": true,
+      "how_described": "本集说 Simile 提供的价值是反事实的——就你的消费者、你的人口会做什么而言，比如让人做了 A 和做了 B 之后行为分别怎么变，拿这些数据来训练模型推理'如果当初做了另一个选择会怎样'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            891.372,
+            896.553
+          ],
+          "quote": "So the value that we provide is counterfactual in terms of what your consumers, what your population would do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "randomized-control-trials",
+      "type": "concept",
+      "role": "concept",
+      "name": "随机对照试验 (randomized control trials)",
+      "file": "随机对照试验",
+      "primary": true,
+      "how_described": "本集说 Simile 非常关心的数据类型是随机对照试验，他们实际上运行了很多 A-B 测试，向模型展示人们做了这个对比那个之后行为会如何改变，这成为训练资产的核心部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            750.542,
+            754.345
+          ],
+          "quote": "So the kind of data that we care deeply about is a lot of randomized control trials.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-panels-simulations",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成小组模拟 (synthetic panels simulations)",
+      "file": "合成小组模拟",
+      "primary": true,
+      "how_described": "本集说 Simile 在 2024 年底发布的工作开启了合成小组模拟这个领域，他们认为合成小组将比目前的人类小组市场更大，因为它能提高所能回答的问题的上限",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 336,
+          "t": [
+            1504.297,
+            1508.258
+          ],
+          "quote": "And that's really what started the field around synthetic panels simulations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据飞轮 (data flywheel)",
+      "file": "数据飞轮",
+      "primary": true,
+      "how_described": "本集说模拟的数据飞轮运作方式是：每天生成数万个假设，每个假设映射到一个可验证的结论，然后观察世界看哪些成真，一个月生成 100 万个假设，统计有多少成真——这就是最好的学习方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1133.367,
+            1136.568
+          ],
+          "quote": "You know, I think that certainly is the case because, right, there is the data flywheel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1177.806,
+            1182.669
+          ],
+          "quote": "So how does data flywheel work in simulation and why would it work?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到 Simile 找到了不同的建模方式，使用相同的奖励模型和哲学，但在推理时效率高得多，使模型运行成本降低了约 100 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1296.738,
+            1306.488
+          ],
+          "quote": "And some of it does happen because we actually found different ways to model, but with the same reward model, with the same philosophy, but just in a way that's much more efficient at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2940.114,
+            2943.836
+          ],
+          "quote": "We've all seen as a community the inference calls going up and up and up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3496.795,
+            3505.541
+          ],
+          "quote": "I also do think, aside from the core sort of robotics or AI space, the inference layer, but also chip layer, the hardware, I do actually think it's quite interesting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体模拟 (multi-agent simulation)",
+      "file": "多智能体模拟",
+      "primary": false,
+      "how_described": "本集说他们实际上是从多智能体模拟开始这个领域的，当创建小镇游戏时那根本上是那个愿景，未来要创建非常复杂的多智能体模拟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 656,
+          "t": [
+            3012.45,
+            3024.478
+          ],
+          "quote": "Interesting thing here is I see the world of simulation going into this world where we are creating that very complex multi-agent simulation, or we're running a very long study with many different steps of simulations along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3024.758,
+            3027.52
+          ],
+          "quote": "But we actually started the field from multi-agent simulation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "smallville",
+      "type": "concept",
+      "role": "concept",
+      "name": "Smallville",
+      "file": "Smallville",
+      "primary": false,
+      "how_described": "本集说 Smallville 是一个用 GPT-3.5 驱动 25 个 NPC 的虚拟小镇实验，模拟设定在情人节前一天，智能体在其中自主醒来、规划日程、建立关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1457.826,
+            1461.207
+          ],
+          "quote": "And they all saw the Smallville demo after it got released.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3046.276,
+            3048.599
+          ],
+          "quote": "That was the motivation for running the Smallville experiment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 是前沿模型提供商之一，任务是创造超级理性的、智能的机器，擅长编码、自然科学和数学，与 Simile 走的路完全相反",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            621.387,
+            627.67
+          ],
+          "quote": "How do you think about the relationship for those listening between an OpenAI Anthropic Frontier Model provider and you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2344.349,
+            2354.472
+          ],
+          "quote": "If this idea truly come to fruition, these are people who have literally seen OpenAI being the laughing stock in Silicon Valley to becoming a nearly trillion dollar business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2866.893,
+            2875.104
+          ],
+          "quote": "One of the most interesting thing about how OpenAI and these companies grew was there were very strong fundamentals they could actually map out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2889.04,
+            2903.19
+          ],
+          "quote": "And what I mean by that is like, you know, if you look at, say, for Anthropic and OpenAI and model routing, some tasks require frontier models, which are much more expensive, much more token heavy versus others, which are much easier and can have a degraded or older model and a much cheaper model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集将 Anthropic 与 OpenAI 并列提及，说它们是前沿模型提供商，要走的是造超级理性机器的路，与 Simile 相反",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            621.387,
+            627.67
+          ],
+          "quote": "How do you think about the relationship for those listening between an OpenAI Anthropic Frontier Model provider and you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2354.832,
+            2359.193
+          ],
+          "quote": "And these are people who have seen Anthropic go to that same state within the past five years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2889.04,
+            2903.19
+          ],
+          "quote": "And what I mean by that is like, you know, if you look at, say, for Anthropic and OpenAI and model routing, some tasks require frontier models, which are much more expensive, much more token heavy versus others, which are much easier and can have a degraded or older model and a much cheaper model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "qualtrics",
+      "type": "company",
+      "role": "company",
+      "name": "Qualtrics",
+      "file": "Qualtrics",
+      "primary": false,
+      "how_described": "本集说 Qualtrics 代表传统市场调研的工具层创新（调查、访谈），而 Simile 要做的模拟从根本上不同——创建最可推广的人的模型来大规模代表人的观点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            909.376,
+            911.816
+          ],
+          "quote": "Do you want to just be a next generation Qualtrics?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": false,
+      "how_described": "本集说 Simile 在 Smallville 演示发布后，许多财富 500 强高管看到后立刻感受到了产品市场契合度，说'天哪，如果我们能像这样模拟一个市场，这将改变我们的运营方式'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1370.79,
+            1377.175
+          ],
+          "quote": "One, obviously, I'll be frank, there is the budget, that there is a clear product market fit that we see today that does excite us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1422.895,
+            1430.939
+          ],
+          "quote": "So enterprise market, market research right now is an wedge that we found that actually have significant budget that have immediate product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1439.782,
+            1445.263
+          ],
+          "quote": "Before we move on to expansions that it could be used for, when did you know you had product market fit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1446.884,
+            1449.304
+          ],
+          "quote": "When were you like, ah, we got product market fit here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1467.608,
+            1469.691
+          ],
+          "quote": "So you could immediately sense the product market fit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observational-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "观察数据 (observational data)",
+      "file": "观察数据",
+      "primary": false,
+      "how_described": "本集说 Simile 收集观察数据，但认为观察行为数据擅长的只是创建观察与未来可能发生的事情之间的相关性，适用于预测任务，但不适用于因果推理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            689.854,
+            691.635
+          ],
+          "quote": "We collect observational data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            764.595,
+            768.318
+          ],
+          "quote": "So this is actually the data collection that goes beyond observational data that Simile collects.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": false,
+      "how_described": "本集说算力是模拟的重要组成部分，最初的很多计算用于创造技术突破，探索不同训练方式和数据集，且建模确实需要算力，是 Simile 需要更多资金的原因之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            773.968,
+            778.211
+          ],
+          "quote": "Like if we think about the kind of core pillars for traditional models, it might be compute algorithms and data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1254.959,
+            1260.22
+          ],
+          "quote": "Does it take a huge amount of compute to run these simulated environments at scale and well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1260.6,
+            1263.02
+          ],
+          "quote": "Compute is an important piece of simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1267.381,
+            1273.142
+          ],
+          "quote": "So a lot of our compute initially actually goes in to create the initial breakthroughs in technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2569.583,
+            2584.47
+          ],
+          "quote": "When that is paired with the technological progress that has been made, and also the amount of compute that we can also leverage to even further accelerate our progress, that sort of prompted our insiders to go, can we actually put in more money now than later?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2668.012,
+            2673.156
+          ],
+          "quote": "There was certainly that consideration where we netted out was the modeling does take compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2686.545,
+            2696.573
+          ],
+          "quote": "And we were sort of at this moment where, yes, we can actually significantly raise the input, both in terms of data, compute spend, to actually meaningfully accelerate this progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2905.512,
+            2910.755
+          ],
+          "quote": "Do different simulations cost different amounts in terms of compute token usage associated?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replicable-twin",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字孪生 (replicable twin)",
+      "file": "数字孪生",
+      "primary": false,
+      "how_described": "本集谈到未来愿景是每个人都将有一个可复制的双胞胎，在模拟世界中像他们一样行动和表现，这是规模化表征的愿景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 687,
+          "t": [
+            3157.695,
+            3166.479
+          ],
+          "quote": "What's the crazy prediction then that every single person will have a replicable twin that acts and behaves like them in a simulated world?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "index-ventures",
+      "type": "company",
+      "role": "company",
+      "name": "Index Ventures",
+      "file": "Index Ventures",
+      "primary": false,
+      "how_described": "本集说 Index Ventures 的 Shardul Shah 领投了 Simile 的上一轮融资，并且 Shardul 说他从未见过这样的销售和增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.306,
+            55.371
+          ],
+          "quote": "Shardul Shah, one of the best investors of the last decade at Index Ventures, emailed me late one night while I was on holiday with my family and said that he had a company that he was leading around in and that he had never seen sales and growth like it before, even though he had been in companies like Wiz and many other incredible decacorns.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "greenoaks",
+      "type": "company",
+      "role": "company",
+      "name": "GreenOaks",
+      "file": "GreenOaks",
+      "primary": false,
+      "how_described": "本集说 Neil Mehta 在 GreenOaks 的团队一直在深入研究模拟市场，并参与了 Simile 的新一轮融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 565,
+          "t": [
+            2597.593,
+            2603.415
+          ],
+          "quote": "And I found out that the team that I had in mind as my top-up list actually was Neil Mehta's team at GreenOaks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cvs",
+      "type": "company",
+      "role": "company",
+      "name": "CVS",
+      "file": "CVS",
+      "primary": false,
+      "how_described": "本集说 CVS 是 Simile 的客户之一，其洞察副总裁 Shree 被描述为极具前瞻性、雄心勃勃且非常努力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            896.833,
+            907.715
+          ],
+          "quote": "When you look at what can be done for some of the biggest brands, you mentioned like a CVS there, incredibly valuable for surveys, for customer feedback, for determining what customers really want moving forwards.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1687.885,
+            1696.114
+          ],
+          "quote": "Can I ask you, when we think about the pursuit of some of the largest companies on earth, we mentioned, I'm not sure which customers were able to save us, not say, but you mentioned CVS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1746.043,
+            1753.955
+          ],
+          "quote": "Our leaders that we work with at, for instance, CVS, I've been working with this particular leader, Shree, who is their VP of Insights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1862.812,
+            1876.562
+          ],
+          "quote": "And what I mean by that is if you work with like a CVS or you name any of your big companies that you work with, these are massive companies where if you're able to do your job efficiently, you can move the needle to the tune of hundreds of millions for them, in some cases, billions of revenues.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tableau",
+      "type": "company",
+      "role": "company",
+      "name": "Tableau",
+      "file": "Tableau",
+      "primary": false,
+      "how_described": "本集提到 Tableau 是因为 Pat Hanrahan 是其创始人之一，他的建议是'获得反馈的最佳方式实际上是让人们付钱给你'，这是 Tableau 的核心哲学",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1402.37,
+            1404.13
+          ],
+          "quote": "He was one of the founders of Tableau.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1417.294,
+            1418.894
+          ],
+          "quote": "That was their core philosophy at Tableau.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alphago",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaGo",
+      "file": "AlphaGo",
+      "primary": false,
+      "how_described": "本集用 AlphaGo 做类比，说世界上每一天的活动和结果都像另一场 AlphaGo 游戏，可以纠正模型的错误、遗漏和未发生的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1155.552,
+            1156.553
+          ],
+          "quote": "It's kind of like AlphaGo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1160.315,
+            1167.74
+          ],
+          "quote": "Every day of activities and outcomes in the world is another game of AlphaGo where you can correct the model on what was wrong and what you missed and what didn't happen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "imagenet",
+      "type": "concept",
+      "role": "concept",
+      "name": "ImageNet",
+      "file": "ImageNet",
+      "primary": false,
+      "how_described": "本集提到联合创始人 Michael Bernstein 是 ImageNet 的合著者之一，ImageNet 真正开启了 AI 革命",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            1625.488,
+            1631.331
+          ],
+          "quote": "Michael was one of the co-authors of the ImageNet that really kickstarted the AI revolution, and he's been a leader in human-centered AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "emergence",
+      "reason": "专名「emergence」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

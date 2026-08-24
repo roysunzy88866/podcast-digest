@@ -36,7 +36,7 @@ aliases: ["cognition"]
 
 [[智能体]] · [[沙箱]] · [[Anthropic]] · [[OpenAI]] · [[Ivan Burazin]] · [[swyx]] · [[Noam Segal]] · [[Anish]] · [[Tane]] · [[Gabriel Vasquez]]
 
-<script type="application/json" class="pd-epn">{"智能体":116,"沙箱":23,"Anthropic":59,"OpenAI":52,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Anish":1,"Tane":1,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":117,"沙箱":23,"Anthropic":60,"OpenAI":53,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Anish":1,"Tane":1,"Gabriel Vasquez":1}</script>
 
 <script>
 (function(){

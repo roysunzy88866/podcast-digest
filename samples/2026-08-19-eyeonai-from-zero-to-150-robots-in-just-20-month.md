@@ -122,6 +122,7 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|Simile：用模拟人帮大公司避开五亿美元级失误]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同公司:Physical Intelligence</span>
 
 </div>

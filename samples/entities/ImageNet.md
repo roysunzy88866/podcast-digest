@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ImageNet</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ImageNet">IM</div><div class="pi"><h1 class="pt">ImageNet</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ImageNet">IM</div><div class="pi"><h1 class="pt">ImageNet</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(01:48起):本集说它是李飞飞团队在 2006 年前后从互联网上整理 1500 万张图片建立的包含 22000 个物体概念的开源数据集,是带 AI 走出寒冬的火花。
+- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]]**(27:05起):本集提到联合创始人 Michael Bernstein 是 ImageNet 的合著者之一，ImageNet 真正开启了 AI 革命
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Dr. Fei-Fei Li]] · [[World Labs]] · [[Marble]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]]
+[[Lenny]] · [[Joon Sung Park]] · [[Dr. Fei-Fei Li]] · [[Harry Stebbings]] · [[World Labs]] · [[Simile]] · [[Marble]] · [[智能体]] · [[空间智能]] · [[模拟]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Dr. Fei-Fei Li":1,"World Labs":2,"Marble":2,"空间智能":2,"世界模型":1,"具身智能":1,"苦涩的教训":1,"神经网络":1,"机器学习":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Joon Sung Park":1,"Dr. Fei-Fei Li":1,"Harry Stebbings":4,"World Labs":2,"Simile":1,"Marble":2,"智能体":117,"空间智能":2,"模拟":4}</script>
 
 <script>
 (function(){

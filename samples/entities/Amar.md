@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":65,"Rippling":1,"Notion":6,"Apple":12,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":6,"熵":1,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":65,"Rippling":1,"Notion":6,"Apple":12,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":7,"熵":1,"幂律分布":1}</script>
 
 <script>
 (function(){

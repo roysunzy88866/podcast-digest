@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Yunzhu Li":1,"World Labs":2,"Cynics":1,"空间智能":2,"大型世界模型":1,"模拟":3,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Yunzhu Li":1,"World Labs":2,"Cynics":1,"空间智能":2,"大型世界模型":1,"模拟":4,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
 
 <script>
 (function(){

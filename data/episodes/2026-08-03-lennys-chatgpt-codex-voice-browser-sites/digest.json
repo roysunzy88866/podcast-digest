@@ -1,97 +1,103 @@
 {
-  "title_zh": "ChatGPT Codex 语音实操：让 AI 替你跑腿",
-  "tldr": "OpenAI 的 Nick Bauman 演示了用 ChatGPT 语音同时指挥多个后台任务、一键建站、以及 AI 剪视频的完整工作流。",
-  "digest_md": "对着电脑说一句「帮我订机票、再帮我报销这笔费用」，AI 就在后台同时跑起两个独立任务，一个查航班酒店，一个翻邮箱找收据填报销单——不用打字，不用开多个窗口，说完就不管了。这不是概念演示，是 ChatGPT Codex 语音功能刚发布就能干的事 [08:05 Nick Bauman]。\n\n## 语音不只是口述，是委派\n\n语音交互大家不陌生，但这次不一样的地方在于：它背后连着一套完整的任务管理系统。你可以用热键唤起一个浮在屏幕上的语音球，无论当前在用什么应用，直接开口就行 [04:14 Nick Bauman]。它能看到你的屏幕，能截取「应用快照」——一种带上下文的智能截图，AI 拿到就能直接在上面操作浏览器或应用 [07:47 Nick Bauman]。\n\n核心能力是「线程管理」。你让它「启动另一个线程处理报销」，它就真会在后台开一个独立对话去执行，和前面订机票的线程互不干扰 [10:31 Nick Bauman]。这些线程之间还能互相通信——你可以让语音把新指令发到已经跑着的任务上，比如「确保这次用我现有的 Chrome 浏览器」[10:01 Nick Bauman]。对你来说体验就是：跟助理说句话，事情在后台处理着，准备好了通知你确认。\n\n这解决了一个真实痛点：很多人面对空白聊天窗口不知道该输入什么。语音把交互变成了「嘿，帮我处理一下这个」，门槛完全不同 [11:13 Nick Bauman]。甚至可以是两个人对着电脑说——Nick 讲了他帮妈妈处理行政任务时，直接让妈妈对着电脑语音口述需求，他按回车就完事了 [19:06 Nick Bauman]。\n\n## 手机端的「心跳」监控\n\nChatGPT Work（工作标签页）在移动端被严重低估了。它本质上是把 Codex 的智能体框架搬到了手机上，连着你已经装好的插件（Gmail、日历等）[06:09 Nick Bauman]。\n\n你可以创建「心跳」——一种持续运行的自动化任务。比如 Nick 设了一个心跳监控邮箱和财务，一天几次收到通知：「有封邮件说你买了这个东西，你确定买了吗？」「这个包裹到了，记得拿」[06:21 Nick Bauman]。他不是在主动查邮件，而是 AI 在帮他盯着。对非技术人员来说，这种「突然收到一条 AI 主动推来的有用通知」的体验，可能是感受到 AI 实用性的敲门砖 [39:04 Nick Bauman]。\n\n## ChatGPT Sites：从对话到上线\n\nChatGPT 现在可以直接部署网站，域名是 ChatGPT.site [16:42 Nick Bauman]。技术层面它支持 SQL 数据库、S3 文件存储、环境变量 [16:58 Nick Bauman]；对普通用户来说，就是一个能分类整理内容、可以控制访问权限的网站——按邮箱过滤，既能完全公开也能完全私密 [17:19 Nick Bauman]。\n\n现场演示中，Nick 用语音描述需求（从 YouTube 视频里提取技巧、按工具和功能分类、匹配品牌配色），几分钟后网站就建好了，可以直接发布或按邮箱分享给特定的人 [17:37 Nick Bauman]。Nick 自己维护的一个聚合网站就是这么运作的：手机上看到好的推文，丢进对话里说「加上去」，AI 就更新部署，全程在手机上完成 [16:05 Nick Bauman]。\n\n## AI 剪视频：把繁琐全扔掉\n\nNick 展示了一个很实用的工作流：拍一堆短视频素材（UGC 风格），全部丢进 ChatGPT Work，让它自己转录、挑好镜头、拼接成片 [24:02 Nick Bauman]。\n\n具体做法：拍的时候不用记哪个镜头好，可以说「这条不行」「这条不错」，AI 会把这些口语判断当作筛选依据 [25:00 Nick Bauman]。它还会处理图像，理解你在镜头前展示了什么，不只看转录文字 [24:51 Nick Bauman]。\n\n最让人意外的是敏感信息处理。Nick 的 Slack 里有机密信息，被 AI 识别出来后，自动在视频里做了模糊处理——而且是在滚动截屏的过程中持续跟踪模糊，做完还会自检，一遍遍验证直到合格 [29:09 Nick Bauman]。这种手动做几乎不可能、想了就头疼的事，直接交给 AI 就行 [30:01 Nick Bauman]。\n\n他把反复做视频积累的经验（格式要求、字幕位置、安全区规则）打包成了一个插件，用 ChatGPT 应用里的插件创建技能就能做 [27:21 Nick Bauman]。这样每次丢素材进去，输出质量更稳定。这个工作流用 Sol Ultra（一种多智能体并行框架）效果更好，因为检查帧、对照转录这些事可以大量并行处理 [32:05 Nick Bauman]。\n\n## 延迟比智能更关键\n\nNick 日常用语音时选高智能模式，但他认为如果 AI 能委派给好用的工具，延迟反而更重要 [13:42 Nick Bauman]。他观察到很多人放弃很好的 AI 工作流，原因就是加载图标和等待 [14:10 Nick Bauman]。延迟缩小后，很多围绕「反正会卡」设计的产品假设可以被丢掉，新产品形态才会出来 [14:22 Nick Bauman]。\n\n## 本集带走\n- **用语音委派，别用语音提问**：不是「帮我查一下」，而是「帮我处理这件事，好了通知我」。利用线程并行，一次开口同时跑多个任务。\n- **手机上设心跳**：把 Gmail、财务等插件连上，创建持续监控任务，让 AI 主动推通知给你，而不是你主动去查。\n- **视频素材全丢进去**：拍的时候随意口头标注好坏，不需要自己筛选。敏感信息的模糊处理也直接交给 AI。\n- **把重复经验沉淀为插件**：如果你反复做同类任务（比如剪视频），让 AI 把你积累的规则打包成插件，后续输出更稳定。\n- **降低输入门槛**：自己不想打字时可以语音，别人不会用 AI 时可以让他们对着电脑说——非结构化的语音输入，AI 能破译就够用了 [20:03 Nick Bauman]。",
+  "title_zh": "Codex 语音实战：用嘴指挥 AI 帮你干活",
+  "tldr": "OpenAI 的 Nick Bauman 演示了如何用 Codex 语音同时调度多个任务、现场建站和批量剪辑视频。",
+  "digest_md": "对着电脑说一句\"帮我处理报销\"，它就在后台自己找收据、填好报告等你点确认——同时还在另一个线程帮你查航班、选酒店。这不是演示脚本，是 Codex 语音功能现在的真实状态。\n\n## 语音不只是转文字，是任务调度器\n\nCodex 语音的真正价值不在于\"说话代替打字\"，而在于它背后能同时管理五六个独立线程，每个线程各自跑不同的任务。你用热键(比如双击 Command)呼出一个悬浮球，无论当前在哪个应用，直接开口说就行 [03:47 Nick Bauman]。\n\n它的核心能力来自几个\"原语\"（基础操作单元）：可以看到你现有的对话线程、创建新线程、给线程发消息，线程之间还能互相通信。语音层把这些原语串起来，加上屏幕视觉能力，就变成了一个能替你操作整个 ChatGPT 应用的调度中心 [04:00 Nick Bauman]。\n\n具体怎么做：你开口说\"帮我报一下这个麦克风的费用，再开一个线程帮我订 offsite 的机票和酒店\"，它会自己拆成两个任务分别执行。订酒店那个任务，你还能在中途追加指令——\"确保用我现有的 Chrome 浏览器来操作\"——它就给那个正在跑的线程补一条消息，不会重新开始 [10:11 Nick Bauman]。\n\n屏幕交互靠的是\"app shot\"（应用快照）：按 Command+Command 截取当前窗口，不是普通截图，而是带上下文的智能快照，模型可以直接在上面执行浏览器操作或计算机操作 [07:47 Nick Bauman]。语音模式下这个能力已经内置了，你不需要手动触发。\n\n## 手机端：随时往网站里丢内容\n\nChatGPT Work 在移动端的能力被严重低估了。它的本质是把 Codex 的工具架（能调用插件、能操作浏览器、有上下文压缩）搬到了手机上 [06:04 Nick Bauman]。\n\nNick 的实际用法：他建了一个聚合网站（用 ChatGPT.site 域名部署），收集社区里分享的 Codex 使用技巧。他在手机上维护一个常驻线程，看到好的推文就把链接丢进去说\"加到网站上\"，它就自己添加。想要加新的 prompt 分类，也直接在手机上口述，编辑和部署全在移动端完成 [15:22 Nick Bauman]。\n\n另一个手机场景是\"心跳\"（heartbeat，一种自动化规则）：连上 Gmail 和日历插件后，它可以主动监控——比如一天几次推通知说\"你买了这个东西，确认一下\"或者\"这个包裹快到了，记得拿\"。你不需要主动去看邮件，它在后台替你盯着 [06:16 Nick Bauman]。\n\n## ChatGPT Sites：几分钟从零上线一个能用的网站\n\nChatGPT.site 不只是一个静态页面托管。对技术人来说，它支持 SQL 数据库、S3 文件存储、环境变量；对非技术人来说，就是一个你可以往里面放东西、还能控制谁能看到的网站 [17:11 Nick Bauman]。\n\n演示中从零建了一个网站：把需求口述给 Codex（从 YouTube 频道提取最佳技巧、按工具和功能分类、匹配特定品牌色），它自己写代码、部署为私有站点，几分钟就能预览。确认没问题后可以一键公开，或者按邮箱地址精确分享给特定的人 [17:34 Nick Bauman]。\n\n## 批量视频剪辑：把 60 个片段丢进去，让它自己挑\n\n这个用例对做短视频的人可能最有实际价值。Nick 的做法是去公园用手机拍一堆片段（50 到 60 个），包括好的和坏的，然后全部拖进 ChatGPT Work，口述一下大概的叙事方向，让模型自己处理 [22:27 Nick Bauman]。\n\n模型的工作流程：先把所有片段转写文字，理解内容；再逐帧看画面，理解你在展示什么；然后根据你录制时说的\"这条不行\"\"这条不错\"来判断哪些镜头该留；最后剪辑组装 [24:17 Nick Bauman]。\n\n他专门做了一个叫\"UGC Video\"的插件，把反复做视频积累的经验（格式要求、哪些区域不能放文字免得被裁掉、字幕怎么做、自然的剪辑断点在哪）都封装进去。做法是在 ChatGPT 里有一个\"插件创建者\"技能，你把积累的线程经验丢给它说\"帮我做成插件\"，微调几次就能稳定复用 [23:01 Nick Bauman]。\n\n一个意外亮点：它做视频时会自动识别敏感信息（比如 Slack 里的内部文件名、屏幕上的地址）并打上模糊，而且会滚动画面时持续跟踪模糊位置，做完还会自检验证。这种手动做极其繁琐的工作，它自动处理了 [29:09 Nick Bauman]。\n\n做这个用例需要用 Sol Ultra（一种多智能体并行框架），因为检查帧、转写、判断镜头质量涉及大量并行微任务，用 Sol Ultra 更快、输出质量也更好 [31:53 Nick Bauman]。\n\n## 延迟比智能更重要\n\n当被逼着二选一时，Nick 选了延迟。理由是：如果有好的工具可以委派，智能够用就行，但响应速度直接决定你愿不愿意用它 [13:28 Nick Bauman]。\n\nClaire 的判断是：下半年产品差异化的核心就是延迟——太多人因为加载圈或等待时间放弃了本来很好的 AI 工作流，把延迟压下去，新的产品形态才会涌现 [14:10 Claire Vo]。\n\n## 本集带走\n\n- **语音是调度器不是打字替代品**：核心价值是同时管五六个线程、跨线程传消息，不是\"说话代替打字\"。用热键呼出，直接开口派活。\n- **手机端不要只用来聊天**：ChatGPT Work 移动端能跑完整的工具链（插件、浏览器、部署），适合做\"丢链接进去让它自己处理\"这种轻量维护。\n- **重复做的东西封装成插件**：ChatGPT 里内置插件创建技能，把你反复纠正出来的经验（格式、规范、偏好）固化成插件，比每次从头说省力得多。\n- **视频剪辑把脏活全丢给模型**：好片段坏片段一起扔进去，口述叙事方向，让它自己转写、看画面、挑镜头、剪出来。敏感信息打码也能自动做。\n- **两个人一起对 AI 说话完全可行**：遇到不擅长打字的人（比如你妈），开免提让 AI 直接听，这是把非结构化需求灌进系统的高带宽方式 [19:03 Nick Bauman]。",
   "quotes": [
     {
-      "timestamp": "04:30",
+      "timestamp": "04:00",
       "speaker": "Nick Bauman",
-      "en": "And because we have those primitives of see your existing threads, create new ones, talk to them, it can basically manage your entire ChatGPT app for you.",
-      "zh": "因为我们有这些原语，比如查看你现有的线程，创建新线程，与它们交谈，它基本上可以为你管理整个 ChatGPT 应用程序。"
+      "en": "So a lot of people don't know that the ChatGPT app, you can ask it to create threads. You could ask it to message your existing threads. And these threads actually talk to each other, too.",
+      "zh": "很多人不知道 ChatGPT 应用程序，你可以要求它创建线程，你可以要求它给你现有的线程发消息，而且这些线程实际上也会互相交谈。"
+    },
+    {
+      "timestamp": "04:14",
+      "speaker": "Nick Bauman",
+      "en": "And now we've added this voice orchestration layer, really, where now you can, with the hotkey, you can trigger this orb that pops on your screen. And no matter where you are on your computer, you can talk to it.",
+      "zh": "现在我们添加了这个语音编排层，真的，现在你可以通过热键触发这个弹出现在你屏幕上的球体，无论你在计算机上的哪个位置，你都可以与它交谈。"
     },
     {
       "timestamp": "05:05",
       "speaker": "Nick Bauman",
       "en": "It's a really good mechanism to let the AI manage context and decide when forking off different tasks makes a lot of sense.",
-      "zh": "这是一个非常好的机制，让 AI 管理上下文并决定什么时候派生不同的任务很有意义。"
+      "zh": "这是一个非常好的机制，让 AI 管理上下文并决定何时分叉不同的任务非常有意义。"
     },
     {
-      "timestamp": "11:13",
+      "timestamp": "07:47",
       "speaker": "Nick Bauman",
-      "en": "What I like about voice is I do think sometimes people with AI really struggle still with blank chat window syndrome, which is they look at it and they're like, what am I going to ask?",
-      "zh": "我喜欢语音的一点是，我确实认为有时人们在使用 AI 时仍然难以应对空白聊天窗口综合症，也就是他们看着它并想，我要问什么？"
+      "en": "And so an app shot is something that you can do. Or whatever window you have open, you just hit Command, Command. And it essentially takes like a smart screenshot loaded with context that can use computer use or browser use on it instantly.",
+      "zh": "应用快照是你可以做的一件事，无论你打开什么窗口，你只需按 Command、Command，它本质上就像截取了一张加载了上下文的智能截图，可以立即在上面使用计算机操作或浏览器操作。"
     },
     {
-      "timestamp": "11:48",
+      "timestamp": "11:22",
       "speaker": "Nick Bauman",
-      "en": "But what I love about this voice-to-voice interaction is if anybody has been lucky enough to have an assistant, this is how it gets done.",
-      "zh": "但我喜欢这种语音对语音交互的是，如果有人有幸拥有过助理，事情就是这样完成的。"
+      "en": "What I love about this voice-to-voice interaction is if anybody has been lucky enough to have an assistant, this is how it gets done.",
+      "zh": "我关于这种语音对语音交互喜欢的是，如果任何人有幸拥有过助理，就是这样完成的。"
     },
     {
       "timestamp": "12:08",
-      "speaker": "Nick Bauman",
+      "speaker": "Claire Vo",
       "en": "I'm guessing the hypothesis here with this voice experience is there's going to be better discovery of use cases and more sprawling use cases because people can delegate in a more natural way as opposed to having to sit there and think through how to instruct and text the models.",
-      "zh": "我猜这个语音体验的假设是，会有更好的用例发现和更广泛的用例，因为人们可以以更自然的方式进行委派，而不必坐在那里思考如何指导并用文本输入模型。"
+      "zh": "我猜关于这种语音体验的假设是，会有更好的用例发现和更蔓延的用例，因为人们可以以更自然的方式委派，而不是必须坐在那里思考如何指示并用文本给模型。"
     },
     {
       "timestamp": "14:10",
-      "speaker": "Nick Bauman",
-      "en": "I see a lot of people abandon great AI workflows because of a spinner or because of a delay.",
-      "zh": "我看到很多人放弃很棒的 AI 工作流，就是因为有加载图标或因为有延迟。"
+      "speaker": "Claire Vo",
+      "en": "I see a lot of people abandon great AI workflows because of a spinner or because of a delay. And so the more you can close that gap, the more I think people can discover cool things and actually pull through and get some stuff done.",
+      "zh": "我看到很多人因为一个加载圈或者因为延迟而放弃了很棒的 AI 工作流，你越能缩小这个差距，我认为人们就越能发现很酷的事情并真正坚持下来完成一些事情。"
     },
     {
       "timestamp": "14:22",
       "speaker": "Nick Bauman",
-      "en": "And the more we shrink that, we can kind of drop those assumptions and new products will emerge.",
-      "zh": "而我们要是能更多地缩小这一点，我们就可以抛弃那些假设，新产品就会出现。"
+      "en": "I feel like so many product assumptions in design and AI tooling is built around this, like, there's going to be latency, there's going to be delay. And the more we shrink that, we can kind of drop those assumptions and new products will emerge.",
+      "zh": "我觉得在设计和 AI 工具领域的很多产品假设都是围绕这样一个前提建立的，就是会有延迟、会有延误，我们越能缩小这一点，我们就可以稍微放弃这些假设，新产品将会涌现。"
     },
     {
-      "timestamp": "25:00",
+      "timestamp": "17:11",
       "speaker": "Nick Bauman",
-      "en": "And when I'm recording, I'll say things like, cut, or that's a bad take, or that's a good take.",
-      "zh": "当我录制时，我会说像，cut，或者那是个坏镜头，或者那是个好镜头。"
+      "en": "For a 10-second description for the technical audience, it supports a SQL database, it has S3 storage for files, and it even has environmental variables you can put there.",
+      "zh": "针对技术受众的 10 秒描述，它支持 SQL 数据库，它有用于文件的 S3 存储，甚至还有你可以放置的环境变量。"
     },
     {
       "timestamp": "25:07",
       "speaker": "Nick Bauman",
-      "en": "And it's able to use that as guidance to know what's actually useful from these.",
-      "zh": "它能够使用它作为指导以知道这些中什么实际上是可用的。"
-    },
-    {
-      "timestamp": "27:08",
-      "speaker": "Nick Bauman",
-      "en": "Literally, I had this massive thread where I did a few of these videos, and there was so much essentially bespoke knowledge in this process built up.",
-      "zh": "简直是，我有这个巨大的对话串，我在里面做了几个这样的视频，在这个过程中积累了很多本质上是专门的知识。"
+      "en": "And when I'm recording, I'll say things like, cut, or that's a bad take, or that's a good take. And it's able to use that as guidance to know what's actually useful from these.",
+      "zh": "当我在录制时，我会说像\"切\"、或者\"那是一条坏镜头\"、或者\"那是一条好镜头\"，它能够利用这一点作为指导，从而知道这些中哪些真正有用。"
     },
     {
       "timestamp": "29:09",
       "speaker": "Nick Bauman",
-      "en": "And it did this insanely granular work of blurring out literally lines and then following it while I'm scrolling.",
-      "zh": "它做了这些极其细致的工作，模糊了字面上的行，然后在我滚动时跟随它。"
-    },
-    {
-      "timestamp": "29:23",
-      "speaker": "Nick Bauman",
-      "en": "And it does all this verification where it adds these blurs, it checks it's own work.",
-      "zh": "它在添加这些模糊时做了所有这些验证，它检查它自己的工作。"
-    },
-    {
-      "timestamp": "30:01",
-      "speaker": "Nick Bauman",
-      "en": "Not only, actually, it's a non-starter that I'm going to make blurs automatically, do that manually, that's not going to happen.",
-      "zh": "其实，不仅仅是，我要自动做模糊处理、手动做这件事，这是不可行的。"
+      "en": "And it did this insanely granular work of blurring out literally lines and then following it while I'm scrolling. And it does all this verification where it adds these blurs, it checks it's own work. And then it does that over and over again until it's good.",
+      "zh": "它做了这种疯狂的细致工作，把字面上的行都模糊了，然后在我滚动时跟随它，它做了所有这些验证，在这些模糊的地方它检查自己的工作，然后它一遍又一遍地这样做直到它变好。"
     },
     {
       "timestamp": "30:21",
       "speaker": "Nick Bauman",
       "en": "I'm gonna give one other benefit for the content creators out there for this like AI editing of content, which is it's real embarrassing to edit your own content.",
-      "zh": "对于那里的内容创作者，我要给这种像 AI 编辑内容再提供一个好处，就是编辑你自己的内容真的很尴尬。"
+      "zh": "我要给那里的内容创作者提供另一个关于这种内容 AI 编辑的好处，那就是编辑你自己的内容真的很尴尬。"
+    },
+    {
+      "timestamp": "31:53",
+      "speaker": "Nick Bauman",
+      "en": "In my experience, there's just so many, as much as anything, just for speed. There's so many little microtasks involved in checking all these frames and checking these transcripts and there's a lot of parallel processing that can happen and a lot of like parallel judgment if you will and what SolUltra is is it's basically this framework for multi-agent and so I find that it's just more efficient and I get better outputs when I use SolUltra.",
+      "zh": "以我的经验，有太多，无论如何，主要是为了速度，涉及检查所有这些帧和检查这些转录的微任务有很多，而且可以发生很多并行处理，如果你愿意的话还有很多并行的判断，而 SolUltra 本质上是这个多智能体框架，所以我发现它只是更高效，当我使用 SolUltra 时我会得到更好的输出。"
+    },
+    {
+      "timestamp": "37:40",
+      "speaker": "Nick Bauman",
+      "en": "We understand this conception of a chatbot that I say things to and it intelligently says things back to me. And then I think with the advent of coding agents and the coding agent harness in particular, I think people in the developer community and AI tinkerers, they felt this AGI moment where, wow, now this AI is going out and reading files and trading files and running commands and this is crazy.",
+      "zh": "我们理解了聊天机器人的概念，我向它说话，它智能地回话给我，然后我想随着编码智能体以及特别是编码智能体工具的出现，开发者社区和 AI 爱好者们感受到了这个 AGI 时刻——哇，现在这个 AI 正在出去读取文件和交换文件并运行命令，这太疯狂了。"
+    },
+    {
+      "timestamp": "38:33",
+      "speaker": "Nick Bauman",
+      "en": "But now, with something like ChatGPT work in the web, I think we're taking a lot of the primitives, like the Coding Engine Harness, like having an always-on agent, and we're making them not only accessible on the web, but they're accessible to your phone.",
+      "zh": "但现在有了像 ChatGPT 网页版工作区这样的东西，我认为我们正在采用许多原语，比如编码引擎工具、比如拥有一个始终在线的智能体，我们正在让它们不仅在网页上可访问，而且你的手机也能访问它们。"
     },
     {
       "timestamp": "39:04",
       "speaker": "Nick Bauman",
-      "en": "I think that small thing, when they first get a notification, letting them know maybe a package has arrived or there's some weird charge, I think those are the small moments that people might, it might be like a foot in the door for a lot of people.",
-      "zh": "我认为那个小东西，当他们第一次收到一个通知，告诉他们也许有一个包裹到了或者有一些奇怪的收费，我认为那些是小时刻，人们可能会，这可能是很多人的敲门砖。"
+      "en": "And I think that small thing, when they first get a notification, letting them know maybe a package has arrived or there's some weird charge, I think those are the small moments that people might, it might be like a foot in the door for a lot of people.",
+      "zh": "我认为这个小事情，当他们第一次收到通知告诉他们也许包裹已经到了或者有一些奇怪的收费，我认为这些是人们可能会拥有的小时刻，这可能是很多人的敲门砖。"
     }
   ]
 }

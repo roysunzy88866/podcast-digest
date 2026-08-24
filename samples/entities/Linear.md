@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Codex]] · [[智能体]] · [[Nesrine Changuel]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[delight]] · [[Cursor]] · [[OpenAI]] · [[deep delight]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Codex":24,"智能体":116,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"delight":1,"Cursor":27,"OpenAI":52,"deep delight":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Codex":24,"智能体":117,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"delight":1,"Cursor":27,"OpenAI":53,"deep delight":1}</script>
 
 <script>
 (function(){

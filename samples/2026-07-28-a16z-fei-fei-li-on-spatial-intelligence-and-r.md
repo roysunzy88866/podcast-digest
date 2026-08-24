@@ -122,8 +122,8 @@ Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从�
 **顺着「创业与行业」挖下去**
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|Simile：用模拟人帮大公司避开五亿美元级失误]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Waymo</span>
-- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 
 </div>
 <div class="pd-ex">

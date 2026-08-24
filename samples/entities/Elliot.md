@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Quintin":1,"Portola":1,"Tolan":1,"LLM":13,"提示词":2,"记忆":3,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Quintin":1,"Portola":1,"Tolan":1,"LLM":13,"提示词":2,"记忆":4,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){
