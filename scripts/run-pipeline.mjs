@@ -302,18 +302,44 @@ export function elapsedMin(now = Date.now()) {
   return (now - JOB_STARTED_AT) / 60000;
 }
 
-/** 这一集还开不开;返回 true=该停手。停手要响亮说明(带上估时依据),别让人以为是没内容。 */
-function outOfTimeBudget(what, item, source, id) {
-  // 本地已有转写稿 → 这一集**不用再转写**,只跑后链(补活/半成品重试的常态:
-  // processEpisode 见 transcript.en.json 就跳过取源)。不看这一条会把补活按 3 小时估、白白拒掉。
+/** 纯逻辑:这一集相对当前已用时间是 "ok"(放得下)| "skip"(这集太长、但预算还够塞更短的 → 试下一条)
+ *  | "stop"(连最短一集[纯后链 POST_CHAIN_MIN]都放不下 → 真收工)。
+ *  2026-08-24 修真凶:原来「放不下就 break 整个补历史循环」——最新那集 154 分(估 337>300)就把整班毙了,
+ *  预算剩 298 分全浪费、同批后面更短能放下的集也被跳过。改成「这集太长跳过、试下一条」,把预算吃满。 */
+export function timeBudgetVerdict(elapsedM, est, { budgetMin = JOB_BUDGET_MIN, minEpisodeMin = POST_CHAIN_MIN } = {}) {
+  if (elapsedM + est <= budgetMin) return "ok";
+  return budgetMin - elapsedM > minEpisodeMin ? "skip" : "stop"; // 还够塞最短一集 = 只是这集长;否则真见底
+}
+
+/** 副作用壳:读缓存/估时 + 打日志,返回 "ok"|"skip"|"stop"。调用方按裁决 continue(skip)/ break(stop)。 */
+function timeBudgetCheck(what, item, source, id) {
+  // 本地已有转写稿 → 这一集**不用再转写**,只跑后链(补活/半成品重试的常态)。
   const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
   const needsAsr = !cached && !!source?.asr && !pickFeedTranscript(item?.transcripts);
   const est = estimateEpisodeMin(item?.durationSec, needsAsr);
-  if (hasTimeBudget(elapsedMin(), est)) return false;
+  const v = timeBudgetVerdict(elapsedMin(), est);
+  if (v === "ok") return "ok";
+  const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
+  const roomLeft = Math.round(JOB_BUDGET_MIN - elapsedMin());
+  if (v === "skip") {
+    console.log(`   ⏭ 这集太长跳过(${dur}${needsAsr ? "、要转写" : ""} → 估 ${est} 分 > 剩余 ${roomLeft} 分),试更短的(${what})`);
+    return "skip";
+  }
+  console.log(`⏳ 时间预算见底(已跑 ${Math.round(elapsedMin())} / ${JOB_BUDGET_MIN} 分,剩 ${roomLeft} 分连最短一集都放不下)——` +
+    `停止接${what},已完成的正常回仓部署,剩下的下班次继续(半成品缓存复用,不白烧)。`);
+  return "stop";
+}
+
+/** 新集路径专用(cutoff 敏感,drift #73 丢集):放不下就停(true),**不 skip 跳过** —— 剩下没做的由调用方
+ *  统一登记 retry:true,否则 cutoff 会推进到「本批最新」把没做的永久跳过。故新集保守停手,不学补历史跳读。 */
+function outOfTimeBudget(what, item, source, id) {
+  const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
+  const needsAsr = !cached && !!source?.asr && !pickFeedTranscript(item?.transcripts);
+  const est = estimateEpisodeMin(item?.durationSec, needsAsr);
+  if (timeBudgetVerdict(elapsedMin(), est) === "ok") return false;
   const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
   console.log(`⏳ 时间预算不够开下一集(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分;` +
-    `这集${dur}${needsAsr ? "、要转写" : "、无需转写"} → 估 ${est} 分)——` +
-    `停止接${what},本班把已完成的正常回仓部署,剩下的下班次继续(半成品缓存复用,不白烧)。`);
+    `这集${dur}${needsAsr ? "、要转写" : ""} → 估 ${est} 分)——停止接${what},剩下的登记重试、下班次继续。`);
   return true;
 }
 
@@ -1098,7 +1124,9 @@ function revivePass(state, { onlyKey, dryRun }) {
     }
     const item = reviveItemFromMeta(JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")));
     // C32:估时要基于这一集的真实时长(读完 meta 才知道),故守卫放在这儿而非循环首行
-    if (outOfTimeBudget("补活", item, source, id)) break;
+    const rv = timeBudgetCheck("补活", item, source, id);
+    if (rv === "stop") break;
+    if (rv === "skip") continue; // 这集太长 → 跳过试下一条,别毙掉整轮(2026-08-24 真凶)
     let res;
     try {
       res = processEpisode(item, id, source, state);
@@ -1197,7 +1225,9 @@ function processBackfillPicks(pairs, state) {
   let skipped = 0;
   for (const { item, source } of pairs) {
     const id = deriveId(item, source);
-    if (outOfTimeBudget("补历史", item, source, id)) break;
+    const bv = timeBudgetCheck("补历史", item, source, id);
+    if (bv === "stop") break;
+    if (bv === "skip") continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source);
     if (!taste.ok) {

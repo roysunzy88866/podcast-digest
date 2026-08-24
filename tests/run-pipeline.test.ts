@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -504,19 +504,40 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     expect(estimateEpisodeMin(120 * 60, false)).toBe(POST_CHAIN_MIN);
     expect(hasTimeBudget(250, estimateEpisodeMin(120 * 60, false))).toBe(true); // 已跑 250 分仍能补一集便宜的
   });
+  describe("timeBudgetVerdict · 长集 skip 而非 break 整批(2026-08-24 真凶)", () => {
+    it("★★★ 复现今天:已跑 2 分、这集估 337 分(154分音频)→ 不是 stop、是 skip(预算剩 298 分还够做更短的)", () => {
+      expect(timeBudgetVerdict(2, 337)).toBe("skip"); // 之前 break 掉整班的正是这种
+    });
+    it("★★ 放得下 → ok", () => {
+      expect(timeBudgetVerdict(2, 159)).toBe("ok"); // 60 分音频的集能塞进 300 预算
+    });
+    it("★★★ 预算真见底(剩不到最短一集 POST_CHAIN_MIN)→ stop", () => {
+      expect(timeBudgetVerdict(JOB_BUDGET_MIN - POST_CHAIN_MIN + 1, 999)).toBe("stop");
+    });
+    it("★★ 边界:剩正好一集最短稿(feed 直出 = POST_CHAIN_MIN)→ 还能塞就不是 skip 徒劳(≤ 界定为 stop,避免空转)", () => {
+      // 剩余 == POST_CHAIN_MIN:够塞一集便宜的,但当前这集长 → skip 去试那集便宜的
+      expect(timeBudgetVerdict(JOB_BUDGET_MIN - POST_CHAIN_MIN - 1, 999)).toBe("skip");
+    });
+  });
   it("★★ 预算留在平台上限内(workflow timeout 330;预算 300 + 回仓收尾)", () => {
     expect(JOB_BUDGET_MIN).toBeLessThanOrEqual(330);
     expect(360 - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(30);
   });
-  it("★★★ 三处耗时循环都装了守卫,且都传了 item/source/id(id 用来查本地转写缓存)", () => {
+  it("★★★ 三处耗时循环都装了守卫(新集=停手 outOfTimeBudget;补历史/补活=skip 跳长集 timeBudgetCheck)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    expect(src).toContain('outOfTimeBudget("新集", item, source, deriveId(item, source))');
-    expect(src).toContain('outOfTimeBudget("补历史", item, source, id)');
-    expect(src).toContain('outOfTimeBudget("补活", item, source, id)');
+    expect(src).toContain('outOfTimeBudget("新集", item, source, deriveId(item, source))'); // 新集保守停手(cutoff 敏感)
+    expect(src).toContain('timeBudgetCheck("补历史", item, source, id)'); // 补历史:太长跳过试下一条
+    expect(src).toContain('timeBudgetCheck("补活", item, source, id)');
+  });
+  it("★★★ 补历史/补活遇长集是 skip(试下一条)不是 break 掉整批(2026-08-24 真凶:154分集把整班毙了)", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    // 两处都要有「skip → continue」而非只有 break
+    expect((src.match(/if \((?:bv|rv) === "skip"\) continue;/g) || []).length).toBe(2);
+    expect((src.match(/if \((?:bv|rv) === "stop"\) break;/g) || []).length).toBe(2);
   });
   it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    const fn = src.slice(src.indexOf("function outOfTimeBudget("), src.indexOf("\n}", src.indexOf("function outOfTimeBudget(")));
+    const fn = src.slice(src.indexOf("function timeBudgetCheck("), src.indexOf("\n}", src.indexOf("function timeBudgetCheck(")));
     expect(fn).toContain('transcript.en.json');
     expect(fn).toContain("const needsAsr = !cached");
   });
