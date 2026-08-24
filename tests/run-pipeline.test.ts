@@ -542,10 +542,11 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     expect(src).toMatch(/^\s*attempted \+= r\.processed;/m); // 不是 picks.length —— 否则 11 次空跳撞满 cap(今天实证);行首无注释
     expect(src).toMatch(/^\s*if \(r\.budgetFull\) break;/m); // 纯长集跳过(budgetFull=false)继续挑;行首无 // (防注释掉也算命中)
     expect(src).toContain("return { clean, skipped, processed, budgetFull }");
-    // GLM 014[1] 终止性:外层 skip 不吃 cap 后,靠「pool 过滤 tried + 池空 break」保证不死循环(每批必往 tried 加、pool 严格缩小)
-    expect(src).toMatch(/const pool = allCandidates\.filter\(\(c\) => !tried\.has/);
-    expect(src).toMatch(/if \(!picks\.length\) break;/);
-    expect(src).toMatch(/picks\.forEach\(\(p\) => tried\.add/);
+    // GLM 014[1] 终止性:外层 skip 不吃 cap 后,靠「pool 过滤 tried + 池空 break」保证不死循环(每批必往 tried 加、pool 严格缩小)。
+    // 三条都用 ^\s*…/m 行首锚(GLM 015[1]:与本文件防御风格一致 —— 注释掉这三行终止性代码也要红,不许子串假绿)。
+    expect(src).toMatch(/^\s*const pool = allCandidates\.filter\(\(c\) => !tried\.has/m);
+    expect(src).toMatch(/^\s*if \(!picks\.length\) break;/m);
+    expect(src).toMatch(/^\s*picks\.forEach\(\(p\) => tried\.add/m);
   });
   it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
