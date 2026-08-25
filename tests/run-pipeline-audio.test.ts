@@ -10,9 +10,17 @@ describe("C15 刀① · ensureAllAudio:陈旧音频→重合成,不许「文件�
   const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
   const fn = src.slice(src.indexOf("function ensureAllAudio"), src.indexOf("\n}", src.indexOf("function ensureAllAudio")));
 
-  it("★★★ ensureAllAudio 不带任何对 audio.mp3 的存在性判断(会挡住 tts 的指纹陈旧检测)", () => {
+  it("★★★ 不许「audio.mp3 在就跳过 tts」(会挡指纹陈旧检测);存在性只能用在**调 tts 之后**复查产物(2026-08-25 韧性:仍每集调 tts,只是补查产物+重试)", () => {
     expect(fn.length).toBeGreaterThan(50); // 函数还在(防重命名后断言空转)
-    expect(fn).not.toContain("audio.mp3");
+    const ttsIdx = fn.indexOf("scripts/tts.mjs");
+    const existsIdx = fn.indexOf("existsSync(audioPath)");
+    expect(ttsIdx).toBeGreaterThan(0);
+    // 存在性判断必须在**调 tts 之后**(复查「音频真产出了吗」),不是之前的 skip 守卫
+    expect(existsIdx).toBeGreaterThan(ttsIdx);
+    // 调 tts 之前那段不许有 continue/return 型的音频存在性跳过(那就是被禁的「文件在就跳过」)
+    const beforeTts = fn.slice(0, ttsIdx);
+    expect(beforeTts).not.toMatch(/existsSync\([^)]*audio\.mp3[^)]*\)\s*\)\s*(continue|return)/);
+    expect(beforeTts).not.toMatch(/existsSync\(audioPath\)\s*\)\s*(continue|return)/);
   });
   it("★ 有 digest 的集仍逐集交给 tts.mjs(由指纹决定跳过/重合成)", () => {
     expect(fn).toContain("digest.json");
