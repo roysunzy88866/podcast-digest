@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude]] · [[LLM]] · [[vibe coding]] · [[提示词]] · [[Claude Code]] · [[Slack]] · [[Codex]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":121,"Anthropic":62,"Claude":29,"LLM":14,"vibe coding":21,"提示词":2,"Claude Code":32,"Slack":19,"Codex":26,"Cursor":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":123,"Anthropic":63,"Claude":30,"LLM":14,"vibe coding":21,"提示词":2,"Claude Code":33,"Slack":19,"Codex":27,"Cursor":31}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":121,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":4,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":123,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":4,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

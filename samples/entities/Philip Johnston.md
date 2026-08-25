@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]]
+[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":8,"NVIDIA":19,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":8,"NVIDIA":20,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Alex]] · [[Theo Jaffe]] · [[强化学习]] · [[Cursor]] · [[Google]] · [[Mistral]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":62,"OpenAI":56,"NVIDIA":19,"Alex":3,"Theo Jaffe":3,"强化学习":12,"Cursor":30,"Google":24,"Mistral":5,"AGI":15}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":63,"OpenAI":56,"NVIDIA":20,"Alex":3,"Theo Jaffe":3,"强化学习":12,"Cursor":31,"Google":24,"Mistral":5,"AGI":16}</script>
 
 <script>
 (function(){

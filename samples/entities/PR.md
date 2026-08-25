@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PR">PR</div><div class="pi"><h1 class="pt">PR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PR">PR</div><div class="pi"><h1 class="pt">PR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(02:48起):本集说 Codex 把代码审查从 10 到 15 分钟压到 2 到 3 分钟，人只需关注 30% 而不是 100%，小的 PR 甚至不需要人审
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(19:45起):本集把它说成：高级领导者亲自下场提交代码补丁（如 Mike Krieger）的机制，这种卷起袖子干脏活的低杠杆举动实则非常高杠杆，能带动团队士气。
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(02:59起):本集反复讨论 PR 的创建方式——标题、提交信息、PR 描述都要对标维护者风格以降低审阅者认知负荷；Bruno 有时在一个 PR 的描述上花两三小时
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(17:55起):本集说 Ryan 现在每天大概提交 40 个 PR，手动追踪根本不现实，因此需要 Watchdog 交叉比对 PR 状态，以及 Merge Mommy 和 Land PR 来自动化 PR 审查流程
 
 ## ① 提到它的金句
 
@@ -25,19 +26,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念(提及)
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为概念
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Codex]] · [[Anthropic]] · [[GitHub]] · [[OpenAI]] · [[Claude]]
+[[智能体]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[设计系统]] · [[Cursor]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Ryan Carson]]
 
-<script type="application/json" class="pd-epn">{"智能体":121,"Lenny":65,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Codex":26,"Anthropic":62,"GitHub":16,"OpenAI":56,"Claude":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":123,"Lenny":65,"Claude Code":33,"Codex":27,"设计系统":3,"Cursor":31,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Ryan Carson":2}</script>
 
 <script>
 (function(){

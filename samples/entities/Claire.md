@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条*
+*6 条*
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
 
@@ -19,24 +19,35 @@ unlisted: true
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q3]]
 
+![[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here#^q5]]
+
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q3]]
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q4]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为主持
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为联合主持
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Codex]] · [[智能体]] · [[Intercom]] · [[Ryan Carson]] · [[ChatPRD]] · [[Devon]] · [[Vercel]] · [[Cognition]] · [[Eve]] · [[Claude Code]]
+[[Codex]] · [[智能体]] · [[Ryan Carson]] · [[Devon]] · [[云端智能体]] · [[Claude Code]] · [[剧本]] · [[后台智能体]] · [[Cursor]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Codex":26,"智能体":121,"Intercom":4,"Ryan Carson":1,"ChatPRD":2,"Devon":3,"Vercel":9,"Cognition":7,"Eve":1,"Claude Code":32}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Manoj Saxena]] [[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Codex":27,"智能体":123,"Ryan Carson":2,"Devon":4,"云端智能体":2,"Claude Code":33,"剧本":4,"后台智能体":3,"Cursor":31,"产品市场契合":9}</script>
 
 <script>
 (function(){

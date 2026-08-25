@@ -28,7 +28,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[智能体]] · [[swyx]] · [[Matt Swulinski]] · [[Akshat Bubna]] · [[Harry Stebbings]] · [[Vibhu]] · [[Superhuman]] · [[AX]] · [[Whisper]] · [[DX]]
 
-<script type="application/json" class="pd-epn">{"智能体":121,"swyx":1,"Matt Swulinski":1,"Akshat Bubna":1,"Harry Stebbings":5,"Vibhu":1,"Superhuman":4,"AX":1,"Whisper":1,"DX":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":123,"swyx":1,"Matt Swulinski":1,"Akshat Bubna":1,"Harry Stebbings":5,"Vibhu":1,"Superhuman":4,"AX":1,"Whisper":1,"DX":3}</script>
 
 <script>
 (function(){

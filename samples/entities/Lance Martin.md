@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":62,"OpenAI":56,"任务视界":1,"Managed Agents":2,"harness":13,"沙箱":23,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":63,"OpenAI":56,"任务视界":1,"Managed Agents":2,"harness":13,"沙箱":23,"验证器":1,"做梦":2,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

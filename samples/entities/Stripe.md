@@ -63,7 +63,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[AI]] · [[Vercel]] · [[ChatGPT]] · [[Claude]] · [[PLG]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":56,"智能体":121,"Lenny":65,"Anthropic":62,"AI":9,"Vercel":9,"ChatGPT":31,"Claude":29,"PLG":4,"Patrick Collison":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":56,"智能体":123,"Lenny":65,"Anthropic":63,"AI":9,"Vercel":9,"ChatGPT":32,"Claude":30,"PLG":4,"Patrick Collison":2}</script>
 
 <script>
 (function(){

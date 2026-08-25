@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,10 +26,11 @@ unlisted: true
 - **[[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]]**(36:51起):本集把它说成:超人类智能,它能用于善也能用于恶,走向取决于掌权者的选择,因此更需要设立护栏和互动规则。
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(37:06起):本集说如果 AGI 指能完成人类所有认知任务的系统，那我们还没到，在物理操作灵巧度、研究品味、持续学习等方面 AI 仍然不如人类
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(28:35起):本集将所有 AI 支出框架化为「一张 AGI 的看涨期权」——如果 AGI 到了钱花得值，如果没到就会有清算，但问题在于所有人都在下同样的杠杆赌注
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(08:05起):本集说实现 AGI 的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里
 
 ## ① 提到它的金句
 
-*12 条*
+*13 条*
 
 ![[2025-06-22-lennys-the-quiet-architect-peter-deng#^q3]]
 
@@ -55,9 +56,11 @@ unlisted: true
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q6]]
 
+![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q11]]
+
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为概念(提及)
@@ -74,14 +77,15 @@ unlisted: true
 - [[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]] — 作为概念
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为概念
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[智能体]] · [[NVIDIA]] · [[后训练]] · [[Claude Code]]
+[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[Claude]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":56,"Anthropic":62,"Google":24,"Lenny":65,"ChatGPT":31,"Meta":17,"智能体":121,"NVIDIA":19,"后训练":12,"Claude Code":32}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":56,"Anthropic":63,"Google":24,"Lenny":65,"ChatGPT":32,"智能体":123,"Meta":17,"NVIDIA":20,"Claude":30,"后训练":12}</script>
 
 <script>
 (function(){

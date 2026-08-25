@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":121,"OpenAI":56,"OpenClaw":10,"Codex":26,"Romain Huet":1,"Anthropic":62,"Raphael Schaad":1,"循环":3,"NVIDIA":19,"Claude Code":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":123,"OpenAI":56,"OpenClaw":12,"Codex":27,"Romain Huet":1,"Anthropic":63,"Raphael Schaad":1,"循环":3,"NVIDIA":20,"Claude Code":33}</script>
 
 <script>
 (function(){

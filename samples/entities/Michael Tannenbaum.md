@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]]
+[[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]]
 
 </div>
 

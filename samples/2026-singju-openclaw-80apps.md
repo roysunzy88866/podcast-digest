@@ -125,9 +125,9 @@ Peter 的逻辑很直接：没有任何一个心智正常的人类会去手动�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从本地编码到管理成群云端智能体]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)、OpenClaw</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code · 同概念:OpenClaw、智能体 (agent)</span>
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同嘉宾:Peter Steinberger · 同公司:Codex · 同概念:智能体 (agent)</span>
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同公司:Claude Code · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

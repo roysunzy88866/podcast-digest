@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Neoclouds":1,"Fireworks":2,"前沿模型":4,"开源模型":9,"沙箱":23,"智能体":121,"推理":1,"GPU":6,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Neoclouds":1,"Fireworks":2,"前沿模型":4,"开源模型":9,"沙箱":23,"智能体":123,"推理":1,"GPU":6,"持续学习模型":1}</script>
 
 <script>
 (function(){

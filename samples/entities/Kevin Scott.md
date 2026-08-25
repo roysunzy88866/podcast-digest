@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":11,"智能体":121,"智能体网络":1,"MCP":15,"缩放定律":3,"康威定律":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":11,"智能体":123,"智能体网络":1,"MCP":15,"缩放定律":3,"康威定律":1}</script>
 
 <script>
 (function(){

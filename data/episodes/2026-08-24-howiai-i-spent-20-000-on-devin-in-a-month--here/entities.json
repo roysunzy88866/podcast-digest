@@ -1,0 +1,1234 @@
+{
+  "episode_id": "2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here",
+  "podcast": "How I AI",
+  "date": "2026-08-24",
+  "tags": [
+    "云端智能体",
+    "编码智能体",
+    "PR 自动化",
+    "智能体管理",
+    "产品市场契合度"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ryan-carson",
+      "type": "person",
+      "role": "host",
+      "name": "Ryan Carson",
+      "file": "Ryan Carson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            70.424,
+            82.449
+          ],
+          "quote": "I have a super special guest, Ryan Carson, one of our earliest How I AI episodes, who is here to show us what has changed in the last 12 months in the age of coding agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            177.565,
+            186.667
+          ],
+          "quote": "Ryan Carson, number one episode of How I AI from our early, early days is back again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            413.201,
+            422.109
+          ],
+          "quote": "And for folks that can't wait for the punchline, the punchline is Ryan Carson and Clairvaux, famous, famous solo founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2587.953,
+            2592.395
+          ],
+          "quote": "So I'm super active on X, so just Ryan Carson, hit me up anytime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claire",
+      "type": "person",
+      "role": "cohost",
+      "name": "Claire",
+      "file": "Claire",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            195.66,
+            204.965
+          ],
+          "quote": "And just everybody listening, I'm not just kissing ass here, everybody that I meet, I say, there's one show, if you're stressed about keeping up on AI, just listen to Claire's show.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devon",
+      "type": "company",
+      "role": "company",
+      "name": "Devon",
+      "file": "Devon",
+      "primary": true,
+      "how_described": "本集说 Devon 是一个云端编码智能体平台，Ryan 全押其上，用它跑十几个并发线程、执行 Watchdog 巡检、录制视频演示等，认为其成熟度远超预期且非常适合做后台业务智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.156,
+            15.878
+          ],
+          "quote": "I went all in, so much so I spent $5,000 on Devon and then I went up to $20,000 one month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            45.818,
+            48.759
+          ],
+          "quote": "And in Devon, what you're seeing is folders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            82.929,
+            93.053
+          ],
+          "quote": "We're going to wax poetic about our favorite little AI intern, Devon, talk about all the ways you're under utilizing your coding agents, and give maybe the most",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            457.731,
+            473.315
+          ],
+          "quote": "And so, I mean, the good part of the story is you were able to get to rapid iteration, lots of prototypes, product market fit with you and our mutual intern, Mr. Devon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            473.675,
+            474.455
+          ],
+          "quote": "Mr. Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            474.835,
+            475.615
+          ],
+          "quote": "Mr. Devon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            554.966,
+            556.007
+          ],
+          "quote": "And I thought, what about Devon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            556.327,
+            559.65
+          ],
+          "quote": "Like, Devon, you know, they've been doing Cloud for like years now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            599.177,
+            603.298
+          ],
+          "quote": "So much so, at one point, I was spending $5,000 on Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            614.041,
+            617.024
+          ],
+          "quote": "So anyway, I, you know, get 20 grand of credits per month in Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            617.524,
+            619.946
+          ],
+          "quote": "But the point is, I live in Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            621.547,
+            626.291
+          ],
+          "quote": "So all of my engineering almost, and it's Devon's right here on my screen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            731.783,
+            735.287
+          ],
+          "quote": "And in Devon, what you're seeing is folders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            840.13,
+            843.352
+          ],
+          "quote": "Another thing I love about Devon is this idea has playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            988.058,
+            995.021
+          ],
+          "quote": "So another practical tip I want to talk about is I have it's a playbook, but it could be a skill if you're not using Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1368.076,
+            1387.65
+          ],
+          "quote": "The other thing I want to touch on, because I think you breezed past it, but it has been a game changer for me in terms of using background agents and in particular Devon, which is I think people have still bucketed these cloud coding agents as coding agents, which is like their only job is to write code for a product or software product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1701.776,
+            1707.761
+          ],
+          "quote": "So I have something called LAN PR, where basically it's a playbook in Devon, but you can think of it as a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1715.706,
+            1723.109
+          ],
+          "quote": "And then what it does is it basically makes sure that, number one, it runs a fresh Devon review on the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1723.509,
+            1729.312
+          ],
+          "quote": "And Devon review is like an actual product inside of Devon, which is another reason why I think people should just pick...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1762.93,
+            1765.772
+          ],
+          "quote": "And this I find Devon is just really good at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1822.831,
+            1827.855
+          ],
+          "quote": "I can't get Devon video verification to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1901.669,
+            1905.072
+          ],
+          "quote": "And we were saying, you know, you're seeing the Devon preview in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1905.212,
+            1912.938
+          ],
+          "quote": "And I have a very kind of perfect experience with the video playback testing of Devon, and that's because they use the web app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1915.119,
+            1925.968
+          ],
+          "quote": "And again, this is probably going to change, but as we hire people, I'm actually going to require like multi-user interaction to happen through Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1990.875,
+            1996.138
+          ],
+          "quote": "It's marginally more fun in Slack to use Devon than in the web app, although they're interchangeable, actually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1998.96,
+            2008.107
+          ],
+          "quote": "The reason why I think I had been so committed to Devon in Slack is actually not because I think it's a better experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2016.133,
+            2027.18
+          ],
+          "quote": "So when I was at LaunchDarkly and we were first deploying background agents, in particular Devon, it was such an effective change agent move to put these background agents in public Slack threads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2047.131,
+            2054.163
+          ],
+          "quote": "And then I do think, you know, in particular, Devon's pretty good at multiplayer chat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2064.035,
+            2071.979
+          ],
+          "quote": "And I think it's just I'm a creature of habit having told everybody to shove their Devon threads in public channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2174.948,
+            2177.33
+          ],
+          "quote": "Devon is terrible at design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2465.273,
+            2474.424
+          ],
+          "quote": "So I've got, you know, a number of people that are probably going to move to phase two, where then what I'm doing is say, okay, give them access to Devon and actually build a real thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复强调现在的工作是管理成群的智能体（manage throngs of agents），人类能同时跟踪的任务上限约四五个，必须学会像管理员工一样管理智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            329.27,
+            333.413
+          ],
+          "quote": "You know, I was in Cursor, you know, like you said, really handholdy on the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            526.309,
+            533.512
+          ],
+          "quote": "I started off, you know, in a more specific agent like a cursor, like an AMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            573.563,
+            576.685
+          ],
+          "quote": "And it was just blown away by how mature the Cloud agent was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            825.001,
+            833.086
+          ],
+          "quote": "By the way, tip, oh my God, if you're not using an agent to help draft your investor updates and help you keep track of the business, clearly do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1314.605,
+            1321.729
+          ],
+          "quote": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1347.378,
+            1352.182
+          ],
+          "quote": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1441.762,
+            1443.904
+          ],
+          "quote": "As a background agent, it was a great one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1645.686,
+            1648.548
+          ],
+          "quote": "It's an EVE agent, so it's deployed on Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1708.381,
+            1711.604
+          ],
+          "quote": "And usually it's when the agent comes back and says, okay, the PR is done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1937.513,
+            1938.294
+          ],
+          "quote": "Is it in your agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2016.133,
+            2027.18
+          ],
+          "quote": "So when I was at LaunchDarkly and we were first deploying background agents, in particular Devon, it was such an effective change agent move to put these background agents in public Slack threads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2136.675,
+            2140.276
+          ],
+          "quote": "And the agent is always going to need the context of whatever you're talking about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2349.312,
+            2354.073
+          ],
+          "quote": "Who's your actual sidekick that does all of your agent work as an executive assistant?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2452.822,
+            2455.825
+          ],
+          "quote": "I just want to see how good of an agent manager you are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2484.462,
+            2486.163
+          ],
+          "quote": "And then I'm just going to watch their agent output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2561.84,
+            2564.783
+          ],
+          "quote": "Everybody's becoming agent managers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2565.144,
+            2568.047
+          ],
+          "quote": "Your coding agent can do more for you than just code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2575.176,
+            2580.924
+          ],
+          "quote": "And also to conclude, the solo founder, AI, agent managers are both hiring.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloud-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "云端智能体 (cloud agent)",
+      "file": "云端智能体",
+      "primary": true,
+      "how_described": "本集说 Ryan 被云端智能体的成熟度震撼，认为未来几乎 100% 是云端智能体，本地工程需要睁眼看看了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            573.563,
+            576.685
+          ],
+          "quote": "And it was just blown away by how mature the Cloud agent was.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 在低延迟配对编程场景下无与伦比，适合需要频繁人工干预的大型前后端功能开发和 UI 调试，配合 Goal 模式和浏览器预览使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 373,
+          "t": [
+            1322.309,
+            1327.633
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude, Cursor, Codex, or Copilot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1474.921,
+            1477.282
+          ],
+          "quote": "So right now, as well, I have Codex running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1510.726,
+            1512.287
+          ],
+          "quote": "I find Codex unmatched for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1518.409,
+            1526.512
+          ],
+          "quote": "So I would say I am personally spending my time in Codex when I'm pair programming or managing a product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1561.103,
+            1565.785
+          ],
+          "quote": "And then I use Codex a lot for, I think it's very good at verification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1592.153,
+            1593.573
+          ],
+          "quote": "Those are kind of what I'm using Codex for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2167.324,
+            2174.788
+          ],
+          "quote": "But I think for carrying forward a design system, it does something magical that Codex is hilariously bad at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2233.152,
+            2243.315
+          ],
+          "quote": "I downloaded that, gave it to Codex and said, take this plus what's in the Figma and actually build me a technical design system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2252.634,
+            2264.203
+          ],
+          "quote": "And then I also tested with Codex using the Figma plugin to then go pull all those design tokens back into Figma into components that I can use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2266.284,
+            2271.406
+          ],
+          "quote": "So once you had the design.md and ported it to Codex, then you were unlocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2319.634,
+            2339.586
+          ],
+          "quote": "Yeah, but I do think the applications in some like very specific deep spikes, cybersecurity design, like kind of unbeatable on the execution side still in Claude, but I am, I just, the harness experience of Codex is just a lot more effective and enjoyable for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2372.929,
+            2379.611
+          ],
+          "quote": "And I actually want to switch to Codex because I just love, love, love the UI of Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2388.795,
+            2396.12
+          ],
+          "quote": "But I do now have my emails constantly open in the browser in Codex and Codex functionally runs my email.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 在延续已有设计系统方面做了神奇的事情，能把示例站点或 Figma 拆解成可复用的设计 token，但读其输出会让人血压升高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 566,
+          "t": [
+            2147.397,
+            2151.998
+          ],
+          "quote": "I do want to talk about the third plane that I have, which is a little bit of Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2368.747,
+            2372.349
+          ],
+          "quote": "I'm just going to run Claude Code on my Mac Mini.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "watchdog",
+      "type": "concept",
+      "role": "concept",
+      "name": "Watchdog",
+      "file": "Watchdog",
+      "primary": true,
+      "how_described": "本集说 Watchdog 是 Ryan 建的一个 playbook，对每个客户账户重复执行：查自上次以来的活动、找错误日志、筛出最严重的三个问题、交叉比对 PR 判断是否已修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            995.341,
+            996.282
+          ],
+          "quote": "It's called Watchdog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1018.174,
+            1022.056
+          ],
+          "quote": "So Watchdog, what it does, and this is multiple iterations, everybody.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1031.243,
+            1033.005
+          ],
+          "quote": "This is when I run Watchdog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1048.775,
+            1051.497
+          ],
+          "quote": "Like, what was the activity since we last did Watchdog?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playbook",
+      "type": "concept",
+      "role": "concept",
+      "name": "playbook",
+      "file": "playbook",
+      "primary": true,
+      "how_described": "本集说 Devon 有 playbooks 的概念，Ryan 用它构建了 Watchdog 巡检和 Land PR 等可重复触发的自动化流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            988.058,
+            995.021
+          ],
+          "quote": "So another practical tip I want to talk about is I have it's a playbook, but it could be a skill if you're not using Devon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1701.776,
+            1707.761
+          ],
+          "quote": "So I have something called LAN PR, where basically it's a playbook in Devon, but you can think of it as a skill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "merge-mommy",
+      "type": "concept",
+      "role": "concept",
+      "name": "Merge Mommy",
+      "file": "Merge Mommy",
+      "primary": true,
+      "how_described": "本集说 Merge Mommy 是 Claire 部署的一个智能体，PR 通过 CI 后触发，从爆炸半径、安全性等五个维度打风险分，低风险自动批准合并，中高风险 ping 人工审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1623.156,
+            1634.458
+          ],
+          "quote": "And then I just built this thing delightfully called Merge Mommy that does risk assessment on my PRs and auto-approves low-risk ones, because I am also shipping a lot of PRs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1637.52,
+            1639.001
+          ],
+          "quote": "Tell me about Merge Mommy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1649.188,
+            1657.734
+          ],
+          "quote": "And whenever a PR is opened and then passes all its CI checks, including BugBot, Merge Mommy gets triggered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1667.538,
+            1675.561
+          ],
+          "quote": "And then if it gets scored as a low, Merge Mommy stamps it with an approval and we can merge without a human approval.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "background-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "后台智能体 (background agent)",
+      "file": "后台智能体",
+      "primary": true,
+      "how_described": "本集说后台智能体不只能写代码，还能跑报价、做自定义报价单、写运营文档、做客户分流等任何懂代码库又能写代码解决业务问题的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            1441.762,
+            1443.904
+          ],
+          "quote": "As a background agent, it was a great one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集说 Ryan 现在每天大概提交 40 个 PR，手动追踪根本不现实，因此需要 Watchdog 交叉比对 PR 状态，以及 Merge Mommy 和 Land PR 来自动化 PR 审查流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1075.525,
+            1081.291
+          ],
+          "quote": "So did it get fixed or is it currently being fixed or is there an open PR that never got merged, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1347.378,
+            1352.182
+          ],
+          "quote": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1620.215,
+            1622.976
+          ],
+          "quote": "So I use BugBot a lot for PR review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1639.081,
+            1642.003
+          ],
+          "quote": "And then I'll tell you about my land PR skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1649.188,
+            1657.734
+          ],
+          "quote": "And whenever a PR is opened and then passes all its CI checks, including BugBot, Merge Mommy gets triggered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1658.415,
+            1662.558
+          ],
+          "quote": "And then what she looks at is she scores the PR on like five aspects of risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1692.449,
+            1695.551
+          ],
+          "quote": "And it just allows us to like get through our PR queue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1701.776,
+            1707.761
+          ],
+          "quote": "So I have something called LAN PR, where basically it's a playbook in Devon, but you can think of it as a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1708.381,
+            1711.604
+          ],
+          "quote": "And usually it's when the agent comes back and says, okay, the PR is done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1715.706,
+            1723.109
+          ],
+          "quote": "And then what it does is it basically makes sure that, number one, it runs a fresh Devon review on the PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1786.657,
+            1790.285
+          ],
+          "quote": "And so the LAN PR, basically, it has to show me that video.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Ryan 一开始在 Cursor 这类本地 IDE 里跟智能体手把手协作，后来转向云端",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            162.622,
+            168.783
+          ],
+          "quote": "OpenAI, Perplexity, and Cursor are already using WorkOS to move faster and meet enterprise demands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            329.27,
+            333.413
+          ],
+          "quote": "You know, I was in Cursor, you know, like you said, really handholdy on the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            526.309,
+            533.512
+          ],
+          "quote": "I started off, you know, in a more specific agent like a cursor, like an AMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1322.309,
+            1327.633
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude, Cursor, Codex, or Copilot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1429.629,
+            1436.416
+          ],
+          "quote": "Cursor just yesterday came out or Cursor or Grok, whoever, whoever they are at these came out with Grokbot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1438.318,
+            1440.22
+          ],
+          "quote": "The Cursor chat experience.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集说 Ryan 找到 PMF 的方法极其传统：发邮件外拓、跟潜在客户开 Google Meet、去人家办公室坐下来聊，而不是靠智能体自动跑循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            337.655,
+            339.796
+          ],
+          "quote": "I basically figured out product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            343.298,
+            345.199
+          ],
+          "quote": "You know, you're trying to find product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            457.731,
+            473.315
+          ],
+          "quote": "And so, I mean, the good part of the story is you were able to get to rapid iteration, lots of prototypes, product market fit with you and our mutual intern, Mr. Devon.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": true,
+      "how_described": "本集说 Claude 在延续一个已有设计系统方面远优于 Codex 和 Devon，能把示例站点或 Figma 拆解成可复用的 design token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 572,
+          "t": [
+            2167.324,
+            2174.788
+          ],
+          "quote": "But I think for carrying forward a design system, it does something magical that Codex is hilariously bad at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2199.976,
+            2203.518
+          ],
+          "quote": "Create a design system is like unmatched right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2233.152,
+            2243.315
+          ],
+          "quote": "I downloaded that, gave it to Codex and said, take this plus what's in the Figma and actually build me a technical design system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "untangle",
+      "type": "company",
+      "role": "company",
+      "name": "Untangle",
+      "file": "Untangle",
+      "primary": false,
+      "how_described": "本集说 Untangle 是 Ryan 做的面向家庭律师事务所的 B2B 产品，从消费者方向转型而来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            350.141,
+            355.144
+          ],
+          "quote": "You know, launched a version of Untangle, which is the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            450.496,
+            454.978
+          ],
+          "quote": "Anyway, so yeah, going to hire some humans and grow the Untangle team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1271.685,
+            1278.548
+          ],
+          "quote": "So the way I figured out PMF for Untangle was I went outbound with an email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1888.42,
+            1893.704
+          ],
+          "quote": "I am trying to cut Slack completely out of Untangle and the way the company is going to exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2600.399,
+            2605.082
+          ],
+          "quote": "Go to untangle.us, check us out, and then just shoot me a DM with a video of you working.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集提到 Claire 的实际 EA 助手是 Polly the OpenClaw，仍然在 OpenClaw 上运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            2354.573,
+            2355.933
+          ],
+          "quote": "Polly, the OpenClaw.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2357.034,
+            2357.974
+          ],
+          "quote": "You're on OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2358.174,
+            2359.274
+          ],
+          "quote": "Still live in OpenClaw.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "local agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

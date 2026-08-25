@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":121,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":26,"YC":7,"上下文工程":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":123,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":27,"YC":7,"上下文工程":6}</script>
 
 <script>
 (function(){

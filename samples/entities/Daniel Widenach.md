@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":121,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":3,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":24}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":123,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":3,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":24}</script>
 
 <script>
 (function(){

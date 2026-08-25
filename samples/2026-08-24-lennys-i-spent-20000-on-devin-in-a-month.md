@@ -118,9 +118,9 @@ Ryan 招第一个工程师的方式：在 Twitter 发帖子，要求候选人录
 
 **换个口味**
 
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从本地编码到管理成群云端智能体]]<span class="pd-rz">同嘉宾:Claire · 同公司:Claude Code、Codex、Devon · 同概念:云端智能体 (cloud agent)、剧本 (playbook)、后台智能体 (background agent)、智能体 (agent)、产品市场契合点 (product market fit)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude Code、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

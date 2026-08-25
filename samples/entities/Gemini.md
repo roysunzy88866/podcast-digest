@@ -31,7 +31,7 @@ unlisted: true
 
 [[Google]] · [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[Robby Stein]] · [[Benedict Evans]] · [[Simon Willison]] · [[Jeff Dean]] · [[AI Mode]]
 
-<script type="application/json" class="pd-epn">{"Google":24,"Lenny":65,"Anthropic":62,"智能体":121,"Claude Code":32,"Robby Stein":1,"Benedict Evans":1,"Simon Willison":1,"Jeff Dean":1,"AI Mode":1}</script>
+<script type="application/json" class="pd-epn">{"Google":24,"Lenny":65,"Anthropic":63,"智能体":123,"Claude Code":33,"Robby Stein":1,"Benedict Evans":1,"Simon Willison":1,"Jeff Dean":1,"AI Mode":1}</script>
 
 <script>
 (function(){

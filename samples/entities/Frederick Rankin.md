@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
+[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":121,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":17}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":123,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":17}</script>
 
 <script>
 (function(){

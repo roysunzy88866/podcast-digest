@@ -3,7 +3,8 @@
     "2026-07-10-talks-kalshi-founders-on-the-axios-show-full-i": 3,
     "2026-08-06-talks-payments-summit-2026-ai": 3,
     "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
-    "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3
+    "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3,
+    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 1
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -72,10 +73,10 @@
     "changelog": "2026-07-21T19:00:00.000Z",
     "devtools": "2026-08-20T05:41:51.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-08-18T21:29:25.000Z",
+    "howiai": "2026-08-24T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-08-12T22:18:00.000Z",
-    "eyeonai": "2026-08-19T13:26:00.000Z",
+    "eyeonai": "2026-08-24T15:07:00.000Z",
     "indepth": "2026-07-30T11:00:00.000Z",
     "uncapped": "2026-07-28T09:00:00.000Z",
     "pmf": "2026-08-24T09:00:00.000Z",
@@ -333,6 +334,36 @@
       "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
       "title": "Ben Horowitz and Travis Kalanick on Building Again",
       "pubDate": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "id": "2026-07-24-lennys-claude-opus-5-review-this-model-is",
+      "reason": "题材不对味:标题暗示跑分/评测(annoing/brilliant通常用于评价模型表现)，撞线❌「大模型发布/跑分评测」，不要参数/规格层面的讨论",
+      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
+      "pubDate": "2026-07-24T17:15:25.000Z"
+    },
+    {
+      "id": "2026-07-22-lennys-computer-and-browser-use-in-codex",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Computer and browser use in Codex (5 real examples)",
+      "pubDate": "2026-07-22T12:03:38.000Z"
+    },
+    {
+      "id": "2026-07-17-practicalai-the-future-of-ai-infrastructure-with-cor",
+      "reason": "题材不对味:属于基础设施的技术深挖(芯片/数据中心底层技术),非产业格局或创始人商业故事",
+      "title": "The Future of AI Infrastructure with CoreWeave",
+      "pubDate": "2026-07-17T09:00:00.000Z"
+    },
+    {
+      "id": "2026-07-15-beyondcoding-vercel-vp-what-senior-engineers-do-diffe",
+      "reason": "题材不对味:❌ 传统软件工程：虽带Vercel标签,但主题是资深工程师行为模式,非AI/商业/产业实操,属传统工程软技能",
+      "title": "Vercel VP: What Senior Engineers do Differently",
+      "pubDate": "2026-07-15T12:00:00.000Z"
+    },
+    {
+      "id": "2026-07-10-devtools-kim-maida",
+      "reason": "题材不对味:核心主题 DevRel(开发者关系) 属传统非 AI 营销职能，触及 AI 仅作背景，不符合当前选型对「AI 商业/工程/产业」的强聚焦",
+      "title": "Kim Maida on the DevRel Flywheel, AI, and Measuring What Matters",
+      "pubDate": "2026-07-10T13:04:15.000Z"
     }
   ]
 }

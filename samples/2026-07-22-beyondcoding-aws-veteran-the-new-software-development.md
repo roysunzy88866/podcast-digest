@@ -138,9 +138,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|智能体需要HR部门：TrustWise的运行时控制塔]]<span class="pd-rz">同概念:智能体 (agent)、token</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

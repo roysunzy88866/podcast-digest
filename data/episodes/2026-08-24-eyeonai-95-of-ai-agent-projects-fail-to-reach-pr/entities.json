@@ -1,0 +1,1716 @@
+{
+  "episode_id": "2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr",
+  "podcast": "Eye On A.I.",
+  "date": "2026-08-24",
+  "tags": [
+    "智能体安全",
+    "运行时控制",
+    "AI 治理",
+    "对齐",
+    "企业 AI"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "manoj-saxena",
+      "type": "person",
+      "role": "host",
+      "name": "Manoj Saxena",
+      "file": "Manoj Saxena",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            72.213,
+            73.054
+          ],
+          "quote": "I'm Manoj Saxena.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trustwise",
+      "type": "company",
+      "role": "company",
+      "name": "TrustWise",
+      "file": "TrustWise",
+      "primary": true,
+      "how_described": "本集说 TrustWise 是一家构建 AI 控制塔（AI control tower）的公司，产品名为 Harmony AI，定位为智能体的 HR 和财务部门，提供运行时治理和控制层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            33.402,
+            36.865
+          ],
+          "quote": "Dashboard got me going with TrustWise about three, a little over three years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            44.778,
+            60.567
+          ],
+          "quote": "Why don't I have you introduce yourself to listeners and give as much of your background as relevant, of course, the IBM Watson thing and how you got to TrustWise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.174,
+            75.797
+          ],
+          "quote": "I'm the CEO and founder of TrustWise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            179.363,
+            183.268
+          ],
+          "quote": "So that's what got me going with TrustWise a little over three years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            406.974,
+            408.776
+          ],
+          "quote": "So we look at what we're doing at TrustWise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1316.763,
+            1318.844
+          ],
+          "quote": "That's what TrustWise does with the control layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2515.121,
+            2522.786
+          ],
+          "quote": "From a regulatory and risk standpoint, how well does TrustWise map its controls and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2921.835,
+            2923.738
+          ],
+          "quote": "That's the problem we are solving at TrustWise.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harmony-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "Harmony AI",
+      "file": "Harmony AI",
+      "primary": true,
+      "how_described": "本集说 Harmony AI 是 TrustWise 的当前产品名称，是一个由 API 和 CLI 组成的平台，作为横跨多供应商智能体的控制塔",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1858.018,
+            1859.539
+          ],
+          "quote": "Now we call it Harmony AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1866.644,
+            1874.208
+          ],
+          "quote": "Now the release we have is called Harmony AI, because now we have to have multiple agents living in Harmony across multiple vendors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1874.228,
+            1880.392
+          ],
+          "quote": "So the current product release name is called Harmony AI, but the product category name is the AI Control Tower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1915.097,
+            1928.926
+          ],
+          "quote": "Control that or surface that because you do talk about a substantial cost reduction when using Harmony AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3508.968,
+            3515.553
+          ],
+          "quote": "Yeah, so basically this is the next release of the Harmony AI Control Tower where we will have two classes of agents in it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是代表你采取行动的数字劳动力，一个输入可能触发 20 到 50 个动作，上个月互联网上智能体流量首次超过人类流量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.413,
+            17.015
+          ],
+          "quote": "Last month, the first time ever, the traffic on the internet, agent traffic exceeded human traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            312.239,
+            319.222
+          ],
+          "quote": "Second, enterprises and enterprise AI is moving from a single model workflow to a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            329.987,
+            340.357
+          ],
+          "quote": "Businesses are now moving towards applying not just single model, but multi-agent system, multi-model workflows that if things break, you could have real chaos on your hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            631.855,
+            636.5
+          ],
+          "quote": "By law, the tone and clarity and helpfulness of your agent has to be different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            637.721,
+            645.269
+          ],
+          "quote": "Today, there are no systems that are able to differentiate and drive, I call it the steering wheel, to align the behavior of the agent at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            678.601,
+            695.417
+          ],
+          "quote": "Yeah, and you have something called modular AI shields to watch agent actions and constrain tool use if necessary and ensure compliance with rules and regulations, as you mentioned.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            699,
+            706.003
+          ],
+          "quote": "This modular AI shield from a guardian agent, are they the same thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            707.863,
+            716.686
+          ],
+          "quote": "So think of guardian agent as the AI that is overseeing and supervising different worker agents or functional agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            717.227,
+            720.288
+          ],
+          "quote": "And that guardian agent can be equipped with one or more shields.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            789.533,
+            791.554
+          ],
+          "quote": "Does it send it to the guardian agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            791.974,
+            796.415
+          ],
+          "quote": "Yeah, the shields are always attached to a guardian agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            804.616,
+            814.6
+          ],
+          "quote": "So a guardian agent will have multiple shields, which will give it the mission as to what it is allowed to do in terms of controlling your AI workforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            928.505,
+            931.646
+          ],
+          "quote": "In a car, you would run the agent through hundreds of thousands of flight paths.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            993.91,
+            1011.056
+          ],
+          "quote": "To be able to say, okay, can you then now take these systems and prove, say, four years from now, if there is a lawsuit where your agent declined a claim and the patient died and you're getting sued, can you go back and say on June 10th, you know, 2026 at 4 or 5 p.m.,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1031.5,
+            1046.592
+          ],
+          "quote": "We assess and evaluate them, we manage the drift, and then we generate this, I call it the system of trust, the longitudinal system of trust, so you can go back and trace every flight path of every agent for both learning as well as for auditing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1112.749,
+            1119.914
+          ],
+          "quote": "We call it a semantic action layer, which is both used to drive the agent behavior as well as record the agent's behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1250.415,
+            1256.778
+          ],
+          "quote": "One of the big things that we see is it's taking people a few hours to build an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1261.921,
+            1268.445
+          ],
+          "quote": "In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1269.185,
+            1278.152
+          ],
+          "quote": "And the reason is that you can write up an agent very soon, but risk and compliance need to make sure that it is following all the internal and external regulations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1297.205,
+            1311.581
+          ],
+          "quote": "of really getting an agent production ready that's what we do we help compress the time almost like a spell checker for trust right you can set up an agent very quick but no one's people are compressing the time to build an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1610.27,
+            1613.853
+          ],
+          "quote": "They need to make sure that that voice ordering agent is behaving properly at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1678.28,
+            1683.385
+          ],
+          "quote": "So we sit above the agent orchestration layer and below the user experience layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1697.14,
+            1703.964
+          ],
+          "quote": "So if you're orchestrating using a Microsoft agent orchestrator or Google or LangGraph, it doesn't matter to us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1703.984,
+            1707.567
+          ],
+          "quote": "We are agnostic to agent frameworks and agent orchestrators.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1746.562,
+            1752.265
+          ],
+          "quote": "And it is agnostic to agents, agnostic to agent frameworks, agnostic to Claude, agnostic to models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1777.47,
+            1780.152
+          ],
+          "quote": "Your teams that have built agent using maybe LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1836.762,
+            1846.61
+          ],
+          "quote": "So as your agent is running with a probe, depending on the type of workload, within 10 to 300 milliseconds, we are able to steer the output of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1880.692,
+            1887.234
+          ],
+          "quote": "You gave an example of an agent that gets stuck in a loop and is burning tokens, which of course is money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1953.242,
+            1960.186
+          ],
+          "quote": "So one agent action can, one input into an agent can trigger between 20 to 50 actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2245.897,
+            2253.603
+          ],
+          "quote": "But I can definitely see for certain agents, the cost of operating that agent is going to equal, if not exceed, the cost of an employee per year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2353.578,
+            2360.403
+          ],
+          "quote": "That to me is the biggest risk, is the issue is not building an agent, the issue is controlling an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2430.837,
+            2434.881
+          ],
+          "quote": "Two cloud and models and agent frameworks makes us very attractive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2720.078,
+            2722.198
+          ],
+          "quote": "Call it model and agent orchestration layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2786.585,
+            2792.568
+          ],
+          "quote": "And there's a whole category there called AX versus UX, agent experience versus user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2845.868,
+            2849.99
+          ],
+          "quote": "Multi-agent, multi-enterprise workflows is truly where it's headed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3053.024,
+            3057.149
+          ],
+          "quote": "Claims processing agent versus customer support agent versus HR travel management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3186.611,
+            3190.853
+          ],
+          "quote": "None of these are enough to help you control a runtime behavior on an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3196.796,
+            3203.767
+          ],
+          "quote": "Which is, what are the allowable action paths for that agent at runtime that aligns to all those seven layers?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3212.463,
+            3214.564
+          ],
+          "quote": "That the agent is allowed to execute on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3408.827,
+            3410.169
+          ],
+          "quote": "I want every agent to follow this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3564.012,
+            3573.037
+          ],
+          "quote": "So the next part that we are going after is once you've got the agent settled down, how can you now unlock the value through a whole new class?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3594.637,
+            3602.464
+          ],
+          "quote": "And the genesis agent is the one that's looking 95 moves deep or a thousand moves deep and it's surfacing hypothesis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runtime-control",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时控制 (runtime control)",
+      "file": "运行时控制",
+      "primary": true,
+      "how_described": "本集说运行时控制意味着控制决策发生在行动的那一刻，不是几周前的策略文档里，也不是几小时后的审计日志中",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            516.079,
+            530.932
+          ],
+          "quote": "So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            539.225,
+            541.288
+          ],
+          "quote": "None of them are able to manage runtime control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            648.484,
+            655.567
+          ],
+          "quote": "So that's an example of runtime control, which means the system checks the action before it happens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            672.881,
+            677.766
+          ],
+          "quote": "All of these things is what the runtime control implements at the time of action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1656.815,
+            1661.418
+          ],
+          "quote": "From a system perspective, how does the runtime control",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1736.037,
+            1745.942
+          ],
+          "quote": "So the actual runtime control has four different operating modes, live mode, sidecar mode, batch mode, and simulation mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2615.391,
+            2629.875
+          ],
+          "quote": "In addition to our evaluation engine for trust, the library of assets that we provide, these 1,100 plus controls, and then providing this runtime control generator and tool is a good part of our value prop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2707.606,
+            2711.649
+          ],
+          "quote": "And that's what we are a key layer in there, the runtime control layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2722.799,
+            2724.859
+          ],
+          "quote": "And then there is the runtime control layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集说对齐问题是 AI 是否做了你意图让它做的事，TrustWise 框架中有六层对齐：全球权利、国家法规、行业法规、公司价值观、业务单元、客户 SLA",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            281.265,
+            283.885
+          ],
+          "quote": "So the alignment problem is not spoken about enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1350.594,
+            1352.996
+          ],
+          "quote": "What is their alignment to my policies?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2858.594,
+            2863.536
+          ],
+          "quote": "The problem with OpenClaw is currently there is no control and there is no policy alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2954.694,
+            2957.755
+          ],
+          "quote": "That was one of my questions on alignment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3004.927,
+            3010.331
+          ],
+          "quote": "The second way I will answer that is alignment exists in our framework, and this is configurable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3010.872,
+            3012.453
+          ],
+          "quote": "We have six layers of alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3033.21,
+            3034.891
+          ],
+          "quote": "Third is industry layer alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3039.174,
+            3041.216
+          ],
+          "quote": "Fourth is company level alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3048.901,
+            3052.344
+          ],
+          "quote": "Fifth is business unit and business workload level alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3057.49,
+            3058.771
+          ],
+          "quote": "They have a different sort of alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3059.192,
+            3063.096
+          ],
+          "quote": "And last but not the least, customer SLA and customer engagement alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3063.717,
+            3068.083
+          ],
+          "quote": "So when we do that evaluation alignment between 10 seconds to 300 milliseconds,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3391.314,
+            3397.979
+          ],
+          "quote": "Now you could distill those values and you can implement that as one of the core alignment pieces in your AI system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-action-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义行动层 (semantic action layer)",
+      "file": "语义行动层",
+      "primary": true,
+      "how_described": "本集说语义行动层是 TrustWise 自研的数据结构，预计算好智能体允许执行的权限路径地图，既用于驱动智能体行为也用于记录行为，让 AI 变得确定性、可证明",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1112.749,
+            1119.914
+          ],
+          "quote": "We call it a semantic action layer, which is both used to drive the agent behavior as well as record the agent's behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1123.28,
+            1125.121
+          ],
+          "quote": "Yeah, semantic action layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3191.353,
+            3196.136
+          ],
+          "quote": "There is a layer beyond that that we have invented and innovated called the semantic action layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardian-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "守护者智能体 (guardian agent)",
+      "file": "守护者智能体",
+      "primary": true,
+      "how_described": "本集说守护者智能体是控制塔中的第一类智能体，负责监督和管控工作智能体，可装备安全和安保、合规和法规、成本和碳管理三种盾牌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            699,
+            706.003
+          ],
+          "quote": "This modular AI shield from a guardian agent, are they the same thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            707.863,
+            716.686
+          ],
+          "quote": "So think of guardian agent as the AI that is overseeing and supervising different worker agents or functional agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            717.227,
+            720.288
+          ],
+          "quote": "And that guardian agent can be equipped with one or more shields.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            789.533,
+            791.554
+          ],
+          "quote": "Does it send it to the guardian agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            791.974,
+            796.415
+          ],
+          "quote": "Yeah, the shields are always attached to a guardian agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            804.616,
+            814.6
+          ],
+          "quote": "So a guardian agent will have multiple shields, which will give it the mission as to what it is allowed to do in terms of controlling your AI workforce.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shield",
+      "type": "concept",
+      "role": "concept",
+      "name": "盾牌 (shield)",
+      "file": "盾牌",
+      "primary": true,
+      "how_described": "本集说盾牌是模块化的能力包，有三种类型：安全和安保盾牌、合规和法规盾牌、成本和碳管理盾牌，必须挂载到守护者智能体上才能生效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            699,
+            706.003
+          ],
+          "quote": "This modular AI shield from a guardian agent, are they the same thing?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trust-posture-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任姿态管理 (trust posture management)",
+      "file": "信任姿态管理",
+      "primary": true,
+      "how_described": "本集说信任姿态管理是将安全、合规、成本和碳效率三者结合在一起的概念，需要在安全合规和效率之间做权衡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            755.857,
+            775.951
+          ],
+          "quote": "All three together is what we define as trust posture management and that's the new space we believe is required is you need to be able to manage trustworthiness of these agents as they are acting at scale and be able to make those trade-offs across safety compliance and efficiency and that's what the shields allow you to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2407.258,
+            2409.019
+          ],
+          "quote": "We call this trust posture management.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说企业 AI 正在从单一模型工作流转向多智能体系统，如果出事可能会造成真正的混乱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            312.239,
+            319.222
+          ],
+          "quote": "Second, enterprises and enterprise AI is moving from a single model workflow to a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            329.987,
+            340.357
+          ],
+          "quote": "Businesses are now moving towards applying not just single model, but multi-agent system, multi-model workflows that if things break, you could have real chaos on your hand.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "drift",
+      "type": "concept",
+      "role": "concept",
+      "name": "漂移 (drift)",
+      "file": "漂移",
+      "primary": true,
+      "how_described": "本集说漂移是智能体行为偏离其应该做的事情，比如陷入看不见的循环消耗 GPU，或智能体之间串通发明自己的语言导致失去可追溯性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            942.029,
+            945.971
+          ],
+          "quote": "Third thing you do is you then put that into production and you start monitoring for drift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            981.646,
+            984.427
+          ],
+          "quote": "So we would then look for drift in those kinds of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1031.5,
+            1046.592
+          ],
+          "quote": "We assess and evaluate them, we manage the drift, and then we generate this, I call it the system of trust, the longitudinal system of trust, so you can go back and trace every flight path of every agent for both learning as well as for auditing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1720.402,
+            1725.454
+          ],
+          "quote": "It could be in a sidecar mode where we are sitting there and we only intervene when we see you drift.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "genesis-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genesis 智能体 (Genesis agent)",
+      "file": "Genesis 智能体",
+      "primary": true,
+      "how_described": "本集说 Genesis 智能体是控制塔中的第二类智能体，负责发现未知的未知，像国际象棋中能看 95 步深的假设生成机器，被称为有益的幻觉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 673,
+          "t": [
+            3594.637,
+            3602.464
+          ],
+          "quote": "And the genesis agent is the one that's looking 95 moves deep or a thousand moves deep and it's surfacing hypothesis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-tower",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 控制塔 (AI control tower)",
+      "file": "AI 控制塔",
+      "primary": true,
+      "how_described": "本集说 AI 控制塔是 TrustWise 产品的品类名称，位于智能体编排层之上、用户体验层之下，作为供应商不可知的元控制平面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            408.796,
+            410.197
+          ],
+          "quote": "We call it the AI control tower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1397.295,
+            1404.582
+          ],
+          "quote": "And then finally, those three different roles can have windows and dials into the system through the AI control tower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1468.036,
+            1477.743
+          ],
+          "quote": "I'm so glad you asked that because one of the things I've been telling boards and CEOs is that there are three things, three motions they have to manage around AI with the AI control tower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1683.526,
+            1686.989
+          ],
+          "quote": "So essentially the AI control tower, the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1874.228,
+            1880.392
+          ],
+          "quote": "So the current product release name is called Harmony AI, but the product category name is the AI Control Tower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2736.142,
+            2742.683
+          ],
+          "quote": "I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3508.968,
+            3515.553
+          ],
+          "quote": "Yeah, so basically this is the next release of the Harmony AI Control Tower where we will have two classes of agents in it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集说从生成式 AI 到智能体 AI，token 消耗量是两年前系统的 20 到 40 倍，一个输入可能触发 50 个动作，智能体可能陷入循环吃掉大量 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            1942.154,
+            1952.561
+          ],
+          "quote": "The core point to this is when we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1969.371,
+            1978.835
+          ],
+          "quote": "So suddenly you have one input driving maybe 50 different actions and driving 20 to 50 times or more token consumption.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说可观测性是企业的第三类软件，它告诉你正在发生什么，但不让你影响和塑造它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            579.377,
+            583.54
+          ],
+          "quote": "And third, observability tells you that's the third class of software that companies have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            873.79,
+            877.592
+          ],
+          "quote": "I want to plug this into security, into governance, into observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2312.524,
+            2320.727
+          ],
+          "quote": "It's a white space that a lot of companies, governance companies, security companies, observability companies, they will all try and get into it to get a piece of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2392.509,
+            2395.251
+          ],
+          "quote": "Third are observability companies who will say, I'll monitor it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "declarative-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "声明式治理 (declarative governance)",
+      "file": "声明式治理",
+      "primary": false,
+      "how_described": "本集说声明式治理只定义策略但不在运行时实施策略，与运行时治理相对",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            575.734,
+            578.696
+          ],
+          "quote": "What I call as declarative governance versus runtime governance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2387.287,
+            2391.989
+          ],
+          "quote": "These are mostly declarative governance companies who are saying, I'll make it into a runtime governance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "company",
+      "role": "company",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": false,
+      "how_described": "本集提到 LangGraph 作为智能体编排框架的例子之一，TrustWise 对其是不可知的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1697.14,
+            1703.964
+          ],
+          "quote": "So if you're orchestrating using a Microsoft agent orchestrator or Google or LangGraph, it doesn't matter to us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1777.47,
+            1780.152
+          ],
+          "quote": "Your teams that have built agent using maybe LangGraph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的 Mythos 模型非常强大以至于无法发布，以及企业需要保护现有资产免受此类强大模型的渗透",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            231.789,
+            237.613
+          ],
+          "quote": "You know, from Anthropic, which is so powerful they can't even release it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1416.789,
+            1428.172
+          ],
+          "quote": "This is a little bit off topic, but I'm sort of obsessed with this mythos thing from Anthropic, which is so powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3666.288,
+            3675.493
+          ],
+          "quote": "The important part is the big players like OpenAI and Anthropic can't get to solving this because much of the context and the policies belong to the company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "watson",
+      "type": "company",
+      "role": "company",
+      "name": "Watson",
+      "file": "Watson",
+      "primary": false,
+      "how_described": "本集说 Watson 是 Manoj 之前商业化的 Jeopardy 游戏 AI 系统，从主卧室大小缩减到披萨盒大小",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            44.778,
+            60.567
+          ],
+          "quote": "Why don't I have you introduce yourself to listeners and give as much of your background as relevant, of course, the IBM Watson thing and how you got to TrustWise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            91.956,
+            105.162
+          ],
+          "quote": "And I've been working on the intersection of enterprise AI, responsible AI, and operationalizing trust in digital systems for a long time, going back to the IBM Watson era about 10 years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            110.945,
+            120.429
+          ],
+          "quote": "And then after that, the IBM board asked me to commercialize the Jeopardy playing game called Watson, which I, yeah, so I had, I spent about three years",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            294.947,
+            299.691
+          ],
+          "quote": "Watson and Deep Learning and ChatGPT is not just giving you a better email or a better picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3532.959,
+            3537.36
+          ],
+          "quote": "So when I was running IBM Watson, I met this chess grandmaster who had lost to Deep Blue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hitachi",
+      "type": "company",
+      "role": "company",
+      "name": "Hitachi",
+      "file": "Hitachi",
+      "primary": false,
+      "how_described": "本集说日立是 TrustWise 的投资者，正将 TrustWise 作为 OEM 组件铺到 650 个业务单元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1629.06,
+            1631.661
+          ],
+          "quote": "And Hitachi actually is an investor in us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1631.701,
+            1645.307
+          ],
+          "quote": "And Hitachi, as OEM does, as part of their AI stack, they have 650 business units that they are looking at OEMing trust-wise now as the control layer across all of Hitachi.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2602.248,
+            2612.951
+          ],
+          "quote": "And we have services partners like Accenture and KPMG and Hitachi Digital Services that can go in and do services work for you to create new policies for it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Claude 作为可能给企业提供智能体的供应商之一，TrustWise 对其是不可知的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1746.562,
+            1752.265
+          ],
+          "quote": "And it is agnostic to agents, agnostic to agent frameworks, agnostic to Claude, agnostic to models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1784.795,
+            1785.936
+          ],
+          "quote": "Claude has given you some.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到 TrustWise 在与 NVIDIA 合作的本地方案 Dell 上进行了部署",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1759.046,
+            1767.748
+          ],
+          "quote": "We have deployed this on Azure, on AWS, on GCP, on Google, and we have also deployed it on on-prem, on Dell, in a partnership with NVIDIA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": false,
+      "how_described": "本集说实现 AGI 的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            485.712,
+            491.035
+          ],
+          "quote": "And Genesys agents convert some of these agents into super workers, what is called as AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3573.077,
+            3574.318
+          ],
+          "quote": "People call this AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3574.958,
+            3586.589
+          ],
+          "quote": "But verticalized AGI where the machine can start selling the CFO things where they are losing revenues, where the deals can be better by answering question that even the best CFO on the planet doesn't know how to answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3641.233,
+            3642.194
+          ],
+          "quote": "This is AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3642.254,
+            3649.521
+          ],
+          "quote": "This is the beginning of, we call it autonomous finance, and this is the beginning of AGI into finance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3676.704,
+            3684.689
+          ],
+          "quote": "So the real data to make that AGI happen actually belongs with enterprises, not the model providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3684.989,
+            3690.292
+          ],
+          "quote": "And that's why I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompting",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompting)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集说提示词正在迅速变得过时，被循环取代，智能体会自己设定实验、执行、审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 550,
+          "t": [
+            2967.46,
+            2970.141
+          ],
+          "quote": "Is that done through prompting?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2978.725,
+            2980.847
+          ],
+          "quote": "Prompting is rapidly becoming passe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2981.788,
+            2983.509
+          ],
+          "quote": "Prompting is being replaced by loops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3099.862,
+            3106.869
+          ],
+          "quote": "You said prompting is becoming passé because of these looping transformer architectures, but still,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": false,
+      "how_described": "本集说知识图谱只告诉你关系，不足以帮助控制智能体的运行时行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            3155,
+            3159.981
+          ],
+          "quote": "That's the heart of our data technology, which is, it's not enough to say I have a knowledge graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3160.421,
+            3162.182
+          ],
+          "quote": "Knowledge graph just tells you relationship.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集说 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍，但当前没有控制和策略对齐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            319.802,
+            328.987
+          ],
+          "quote": "So the rise of things like OpenClaw, I think OpenClaw is going to be a thousand times more impactful than ChatGPT was in terms of its impact on business and society.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2850.41,
+            2858.574
+          ],
+          "quote": "That's why I said in the beginning that OpenClaw is a hundred or maybe thousand times more significant innovation than ChatGPT was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2858.594,
+            2863.536
+          ],
+          "quote": "The problem with OpenClaw is currently there is no control and there is no policy alignment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到 ChatGPT 仅仅是给你更好的电子邮件或图片，而现在的 AI 已经转变为代表你采取行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            144.978,
+            151.06
+          ],
+          "quote": "When ChatGPT got launched and what I realized, I was surprised how fast this technology had moved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            294.947,
+            299.691
+          ],
+          "quote": "Watson and Deep Learning and ChatGPT is not just giving you a better email or a better picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            319.802,
+            328.987
+          ],
+          "quote": "So the rise of things like OpenClaw, I think OpenClaw is going to be a thousand times more impactful than ChatGPT was in terms of its impact on business and society.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2850.41,
+            2858.574
+          ],
+          "quote": "That's why I said in the beginning that OpenClaw is a hundred or maybe thousand times more significant innovation than ChatGPT was.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "at-t",
+      "type": "company",
+      "role": "company",
+      "name": "AT&T",
+      "file": "AT&T",
+      "primary": false,
+      "how_described": "本集用 AT&T 网络上数据流量超过语音流量来类比互联网上智能体流量超过人类流量的里程碑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.055,
+            20.736
+          ],
+          "quote": "Just like when on the AT&T network, data traffic exceeded voice traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2763.561,
+            2765.542
+          ],
+          "quote": "Just like when on the AT&T network.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

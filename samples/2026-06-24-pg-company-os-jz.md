@@ -134,7 +134,7 @@ jsonLd: |
 
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|Ryan Carson：怎么管一群AI智能体干活]]<span class="pd-rz">同公司:Devon · 同概念:剧本 (playbook)、智能体 (agent)、技能 (skill)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub、Slack · 同概念:智能体 (agent)</span>
-- [[2026-08-09-talks-always-on-agents-run-production-without|当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作]]<span class="pd-rz">同公司:Slack、GitHub · 同概念:智能体 (agent)</span>
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从本地编码到管理成群云端智能体]]<span class="pd-rz">同公司:Devon · 同概念:剧本 (playbook)、智能体 (agent)</span>
 
 </div>
 </div>

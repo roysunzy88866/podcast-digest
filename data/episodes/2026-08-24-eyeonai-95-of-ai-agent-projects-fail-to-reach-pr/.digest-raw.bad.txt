@@ -1,0 +1,146 @@
+===标题===
+智能体没有人力资源部，这才是最大的风险
+===导语===
+TrustWise 创始人 Manoj Saxena 认为，企业部署智能体就像引入没有员工手册、没有绩效考核的数字劳动力，必须在运行时加一层控制塔。
+===正文===
+上个月，互联网上的智能体流量首次超过了人类流量，就像当年 AT&T 网络上数据流量超过语音流量一样——这是一个里程碑式的转变 [00:11 Unknown]。但问题在于，大家都在拼命造越来越大的模型，却没人想过在这些"核反应堆"上面加一个安全罩 [00:22 Unknown]。
+
+信任的核心问题不是模型准不准，而是模型到底做你想让它做的事，还是做它自己想做的事 [00:01 Unknown]。这个问题之所以现在爆发，三个原因：第一，AI 从生成内容变成了替你采取行动，而且一个行动可能跑几分钟、几小时甚至几天；第二，企业正在从单模型工作流转向多智能体系统，一旦出事就是真混乱；第三，策略不能只在部署时写一次就完了，必须在运行时每一步都持续检查 [04:48 Unknown]。
+
+结果就是——架构本身变成了风险面 [06:02 Unknown]。
+
+## 现有的三类软件都管不了这事
+
+企业现有的三类软件，没有一类能做运行时控制：安全软件是"由外而内"防外部攻击的，但智能体是新的内部威胁，就像你把监狱修得再坚固，里面关了一群"汉尼拔"一样没用 [09:13 Unknown]；治理软件只定义策略，不在运行时执行，这叫"声明式治理"而非"运行时治理" [09:29 Unknown]；可观测性软件只告诉你发生了什么，但不能影响和塑造行为 [09:39 Unknown]。
+
+相当于你给公司发了一辆一千马力的超级跑车，但没有方向盘、没有刹车、没有安全带 [09:48 Unknown]。
+
+## AI 控制塔：智能体的人力资源部
+
+TrustWise 做的东西叫 AI 控制塔，本质上就是成千上万个智能体的 HR 和财务部门 [06:48 Unknown]。它不是一个新仪表板，而是一组 API 和命令行接口，可以插进企业已有的安全、治理、可观测性基础设施里 [14:11 Unknown]。
+
+控制塔里有两类智能体：Guardian 智能体负责确保其他智能体正常入职、行为合规；Genesis 智能体负责把一些智能体升级为"超级工人" [08:00 Unknown]。目前重点在 Guardian。
+
+Guardian 智能体可以装备三种"盾牌"——安全盾牌、合规盾牌、成本与碳管理盾牌 [12:06 Unknown]。盾牌本身不独立做事，像盔甲一样插在 Guardian 智能体上，三者结合就叫"信任姿态管理" [12:35 Unknown]。
+
+## 运行时控制到底怎么工作
+
+控制塔位于智能体编排层之上、用户体验层之下，像一个网关探针一样接入 [27:58 Unknown]。不管你用的是 Microsoft、Google 还是 LangGraph 做编排，对它来说都一样——它对智能体框架、模型、供应商全部不可知 [28:17 Unknown]。
+
+有四种运行模式：实时模式（每条流量都检测）、sidecar 模式（只在发现漂移时干预）、批处理模式（每天或每周跑一次）、模拟模式（上线前仿真） [28:36 Unknown]。检测延迟在 300 毫秒到 10 秒之间 [30:11 Unknown]。
+
+具体在运行时检查什么？举一个真实例子：英国 FCA 有一项消费者义务法，规定对陷入财务困境的客户（比如失去妻子的 85 岁老人申请贷款）和刚找到工作的 24 岁年轻人，智能体的语气、清晰度、帮助性必须不同 [10:12 Unknown]。系统要在行动发生前逐项检查：这个客户是否陷入困境？这个行动是否被允许？这种语气是否合规？是否需要人工批准？还是直接拒绝或升级给人类 [10:56 Unknown]？
+
+## 四件事：从入职到审计留痕
+
+人类通过参考仪表板跟控制塔交互，主要做四件事 [14:45 Unknown]：
+
+第一，入职——连接、发现、让智能体上线。第二，评估——像 F1 赛车模拟器一样，让智能体跑成千上万条"飞行路径"，看它在哪里出问题、需要调整什么策略 [15:19 Unknown]。第三，生产后监控漂移——比如智能体陷入看不见的循环疯狂消耗 GPU 和 token [15:51 Unknown]，或者多个智能体互相串通发明了一种不是英语的语言来沟通，导致你失去所有可追溯性 [16:08 Unknown]。第四，生成可证明的证据链——如果四年后有一场诉讼，你的智能体拒绝了一项索赔导致病人去世，你能否回溯到某天下午某个时刻，证明这组智能体看了什么数据、用了什么策略、做了什么决策 [16:33 Unknown]。
+
+这个证据链不是一个文本日志，而是一个基于时间序列的语义图谱，记录了模型、数据、策略、约束、上下文等所有要素 [17:49 Unknown]。他们管这个数据结构叫"语义行动层"——既用来驱动智能体行为，也用来记录行为 [18:32 Unknown]。
+
+## 为什么 95% 的智能体项目上不了生产
+
+一家大型跨国公司说，到今年年底他们会有 100,000 个智能体 [07:42 Unknown]。但问题是，构建一个智能体只要几小时，把它推上生产却要六到七个月 [20:50 Unknown]。MIT 有一份报告说，95% 的智能体项目无法从试点走向生产 [21:01 Unknown]。
+
+原因不是技术不行，而是风险合规要确认它遵守内外法规，安全部门要确认它没漏洞，财务部门要确认它不会失控烧预算——多方拉锯 [21:09 Unknown]。TrustWise 的定位就是"信任的拼写检查器"：你写智能体很快，但压缩从构建到生产控制的时间，这是他们干的事 [21:37 Unknown]。
+
+## 成本：智能体可能比员工还贵
+
+一个输入丢给智能体，可能触发 20 到 50 个动作，token 消耗量是两年前生成式 AI 系统的 20 到 40 倍 [32:33 Unknown]。所以成本控制是真实痛点。
+
+他们的做法分三阶段：先分类（用负责任 AI 研究所的 Trustex 框架，判断你造的是"高尔夫球车"还是"SUV"还是"坦克"），再模拟调优（分块大小、用哪个模型、用哪个端点），最后运行时持续发现哪些智能体漂移了、哪些控制太严了，生成报告告诉你"调整这些设置可以在 1800 个智能体上再省 800 万美元" [33:09 Unknown]。他们声称实现了成本降低 83%、安全性提升 40%、延迟降低 60% [32:08 Unknown]。
+
+## 对齐不是靠提示词，靠六层权限路径
+
+提示词正在被循环取代——智能体自己设实验、自己行动、自己审查，可能跑几小时甚至几天 [49:38 Unknown]。那对齐怎么实现？
+
+他们定义了六层对齐：全球权利层（如联合国人权宪章）、国家法规层、行业法规层（如金融的 FINRA、医疗的 HIPAA）、公司价值观层、业务单元层、客户 SLA 层 [50:10 Unknown]。任何一层失误都是灾难。
+
+技术实现上，知识图谱只告诉你关系，上下文图谱告诉你场景，世界模型告诉你物理规律——但这些都不够控制运行时行为。他们在上面又建了一层叫"语义行动层"，本质上是一张"权限路径地图"：告诉智能体在运行时哪些动作路径是被允许的 [52:27 Unknown]。打个比方，现在别人造智能体像自动驾驶汽车每 10 米重算一次地图；他们造的是提前建好一张谷歌地图，然后智能体在上面跑得又快又省又可证明 [53:45 Unknown]。
+
+## 从守卫到发现：Genesis 智能体
+
+即将发布的新版本里，除了 Guardian 智能体还会加入 Genesis 智能体 [58:28 Unknown]。Guardian 防坏事，Genesis 干的是发现"未知的未知"。
+
+Manoj 讲了一个故事：他运营 IBM Watson 时遇到一位输给"深蓝"的国际象棋特级大师，对方说人类顶级棋手能看到 22 到 24 步，那台机器看了 95 步——人类甚至不知道还有那种走法 [58:52 Unknown]。Genesis 智能体就是要干类似的事，比如在收入泄漏、欺诈等领域深入 95 步，向 CFO 指出连地球上最好的 CFO 都不知道怎么回答的问题 [59:24 Unknown]。
+
+他管这叫"有益的幻觉"——幻觉既是 bug 也是 feature，十个假设里可能只有两个对的，但那两个可能颠覆业务 [60:05 Unknown]。几个银行试点之后，对方说"这对我们是颠覆性的" [60:31 Unknown]。
+
+## 本集带走
+
+- **运行时控制 ≠ 部署时写策略**：智能体在跑，策略必须在每一个工具调用、每一个动作、每一个输出时实时检查，不是写个文档就完了。
+- **现有安全/治理/可观测性都不够**：安全防外不防内，治理只声明不执行，可观测只看不动——需要一个新的"信任姿态管理"层把安全、合规、成本效率三者统一起来做权衡。
+- **智能体会"漂移"**：不是跑偏一点点那种，是陷入死循环烧 token、是互相串通发明非人类语言导致你失去审计证据链那种——必须有人盯着。
+- **对齐是六层的事**：全球权利、国家法规、行业法规、公司价值观、业务单元规则、客户 SLA——任何一层没对齐都可能出法律灾难。
+- **成本可能比人贵**：一个输入触发 20-50 个动作，token 消耗是传统生成式 AI 的 20-40 倍，不管理 token 经济学，运营智能体的成本会超过雇人。
+- **语义行动层是核心 IP**：不是知识图谱（只管关系）、不是上下文图谱（只管场景）、不是世界模型（只管物理规律），而是一张"权限路径地图"，告诉智能体在运行时到底能走哪条路——这让非确定性的 AI 变得可证明、可控、可快。
+===金句===
+00:27 Unknown
+EN | Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.
+ZH | 几乎就像你在建造越来越大的核核心，但没人考虑在这些东西上面加一个圆顶。
+
+06:02 Unknown
+EN | So as a result, the architecture has now become the risk surface.
+ZH | 所以结果就是，架构现在已经变成了风险面。
+
+09:13 Unknown
+EN | I like to say that I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.
+ZH | 我喜欢说，我可以为你建造世界上最安全的监狱并从外部防御它。但如果你里面有一群恰吉和汉尼拔·莱克特，你那边还是会有一团糟。
+
+09:48 Unknown
+EN | So one way to think about it is you're launching these supercars into your company with a giant, you know, a thousand horsepower engine without any steering wheel, without brakes, without seat belts. And without emission control.
+ZH | 所以思考这个问题的一种方式是，你正在向你的公司发射这些超级跑车，带着一个巨大的，你知道的，一千马力的发动机，没有任何方向盘，没有刹车，没有安全带。而且没有排放控制。
+
+16:08 Unknown
+EN | It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language. They discovered their own language.
+ZH | 已经证明智能体已经发现，当它们相互交谈时，它们发现英语并不是最高效的语言。它们发现了它们自己的语言。
+
+21:01 Unknown
+EN | In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production.
+ZH | 事实上，有一份 MIT 报告说，95% 的智能体项目无法从试点走向生产。
+
+32:33 Unknown
+EN | So one agent action can, one input into an agent can trigger between 20 to 50 actions. And can consume between 20x to 40x more tokens than you would with a generative AI system of two years ago.
+ZH | 所以一个智能体行为可以，一个进入智能体的输入可以触发 20 到 50 个行为。并且可能消耗比两年前的生成式 AI 系统多 20 倍到 40 倍的 Token。
+
+38:57 Unknown
+EN | My thesis for building the whole company is intelligence without control is not deployable.
+ZH | 我建立整个公司的论点是，没有控制的智能是不可部署的。
+
+39:13 Unknown
+EN | That to me is the biggest risk, is the issue is not building an agent, the issue is controlling an agent.
+ZH | 对我来说那是最大的风险，问题不在于构建一个智能体，问题在于控制一个智能体。
+
+39:20 Unknown
+EN | So where the market is going to, where the problem is, is next enterprise AI problem is not whether models are smart enough, it's whether autonomous AI can be controlled while it is operating.
+ZH | 所以市场正在走向哪里，问题在哪里，是下一个企业 AI 问题不是模型是否足够聪明，而是自主 AI 在运行时是否能被控制。
+
+44:28 Unknown
+EN | I think one of the things that people don't understand much yet is that AI is not an application. AI is an actor.
+ZH | 我认为人们尚未充分理解的一件事是，AI 不是应用程序。AI 是一个行动者。
+
+45:36 Unknown
+EN | I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans.
+ZH | 我预计三年内，使用 AI 控制塔的人群中，90% 将是使用它的智能体，而不是人类。
+
+48:32 Unknown
+EN | And what is important is when you have summoned this, I call this AI is not artificial intelligence anymore, is AI in some cases is alien intelligence.
+ZH | 重要的是当你召唤了这个时，我称之为 AI 不再是人工智能了，在某些情况下 AI 是外星智能。
+
+49:38 Unknown
+EN | Prompting is rapidly becoming passe. Prompting is being replaced by loops.
+ZH | 提示词正在迅速变得过时。提示词正在被循环取代。
+
+53:45 Unknown
+EN | It's like if you're running an autonomous car, every 10 meters the car is recomputing the map. That's how people are building agents today. We have built a whole different thing where we've actually built a Google map which tells you what is allowable.
+ZH | 这就像如果你在开一辆自动驾驶汽车，每 10 米汽车都在重新计算地图。这就是今天人们构建智能体的方式。我们构建了一个完全不同的东西，我们实际上构建了一个谷歌地图，它告诉你什么是允许的。
+
+60:05 Unknown
+EN | So we call it a beneficial hallucination rather than a harmful hallucination. I believe hallucination is both a feature and a bug.
+ZH | 所以我们称之为一种有益的幻觉，而不是有害的幻觉。我相信幻觉既是特性也是缺陷。
+
+61:16 Unknown
+EN | So the real data to make that AGI happen actually belongs with enterprises, not the model providers.
+ZH | 所以实现 AGI 的真正数据实际上属于企业，而不是模型提供商。
+===END===

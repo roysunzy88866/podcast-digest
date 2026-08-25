@@ -39,7 +39,7 @@ unlisted: true
 
 [[Anthropic]] · [[Copilot]] · [[智能体]] · [[OpenAI]] · [[Revolut]] · [[Eric Ries]] · [[Idan Gazit]] · [[Harry Stabbings]] · [[Julien Bek]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":62,"Copilot":5,"智能体":121,"OpenAI":56,"Revolut":4,"Eric Ries":1,"Idan Gazit":1,"Harry Stabbings":1,"Julien Bek":1,"Lenny":65}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":63,"Copilot":5,"智能体":123,"OpenAI":56,"Revolut":4,"Eric Ries":1,"Idan Gazit":1,"Harry Stabbings":1,"Julien Bek":1,"Lenny":65}</script>
 
 <script>
 (function(){
