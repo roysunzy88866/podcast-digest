@@ -69,8 +69,12 @@ export function parseWhisperJson(obj) {
   const segs = Array.isArray(obj) ? obj : (obj?.segments ?? obj?.results ?? null);
   if (!Array.isArray(segs) || !segs.length) return null;
   // buzzsprout 词级稿(AI-Native Dev 等):每元素一个词 {speaker,startTime,endTime,body},
-  // 与 DOAC 的 {start,end,text} 段级形状不同 → 检出后按说话人+句末聚成可读段(C36c 2026-08-25)
-  if (segs.some((s) => s && typeof s === "object" && s.body != null && s.startTime != null)) {
+  // 与 DOAC 的 {start,end,text} 段级形状不同 → 检出后按说话人+句末聚成可读段(C36c 2026-08-25)。
+  // 词级 = 有 body 且无 text(DOAC 反之);用「有 body 无 text」判而非「有 startTime」——
+  //   免漏掉 startTime 恰为 null 的词级元素(检测漏了它,多数派就可能翻盘走错路径)。
+  // 用**多数派**(非 .some)—— 免一个夹杂元素就把整份 DOAC 稿拖去词级、把 {text} 段全 continue 丢掉(GLM 005[2])
+  const wordLevelCnt = segs.filter((s) => s && typeof s === "object" && s.body != null && s.text == null).length;
+  if (wordLevelCnt > segs.length / 2) {
     return groupWordLevelJson(segs);
   }
   const out = [];
@@ -93,9 +97,12 @@ export function parseWhisperJson(obj) {
  * 防失真:body 非空的词一律留(无时间戳的词也进正文,只是不更新段起止),一词不丢。
  */
 function groupWordLevelJson(words) {
+  // null/""/undefined → NaN(不走 Number(null)===0 的坑,免把无戳词洗成 0 秒戳,GLM 005[1])
+  const toNum = (v) => (v == null || v === "" ? NaN : Number(v));
   const out = [];
   let cur = null;
-  let carry = 0; // 上一段末时间,给整段无戳的病态词兜底起点
+  let carry = 0; // 上一段末时间,给整段无戳的病态词兜底起点(承前不减,保持单调)
+  let sawTime = false; // 全稿有没有一个真时间戳 —— 整份都没有则不可信,回落 ASR(GLM 005[4])
   const flush = () => {
     if (cur && cur.words.length) {
       const start = Number.isFinite(cur.start) ? cur.start : carry;
@@ -109,8 +116,9 @@ function groupWordLevelJson(words) {
     if (!w || typeof w !== "object") continue;
     const body = String(w.body ?? "").trim();
     if (!body) continue; // 空词才跳(防失真:有字就不丢)
-    const st = Number(w.startTime);
-    const en = Number(w.endTime);
+    const st = toNum(w.startTime);
+    const en = toNum(w.endTime);
+    if (Number.isFinite(st) || Number.isFinite(en)) sawTime = true;
     const sp = String(w.speaker ?? "").trim();
     if (!cur || cur.speaker !== sp) {
       flush();
@@ -122,7 +130,7 @@ function groupWordLevelJson(words) {
     if (/[.?!]["')\]]?$/.test(body)) flush(); // 句末断句
   }
   flush();
-  return out.length ? out : null;
+  return out.length && sawTime ? out : null;
 }
 
 /** "00:01:02,500" / "00:01:02.500" / "01:02.5" → 秒 */
@@ -259,11 +267,18 @@ export function parseStampedText(text) {
     const isBracketHeader = mb && !looksProse;
     // 行末裸戳头:仅当既非括号头也非方括号头时才试(优先级最低,免抢已有形状)
     const mt = mp || mb ? null : line.match(HEADER_TAIL);
-    if (mp || isBracketHeader || mt) {
+    // 正文防御:名字段非空、且不像散文 —— 按**词首小写**计数(≥2 个小写打头的词=散文,如
+    //   「the session usually runs」)。用词首而非 \b[a-z]{2,}\b 子串,免重音名(González 的 á 断出假小写词
+    //   「lez」)误伤真段头;人名即便带 1 个介词(de/van)也放行。否则以 HH:MM:SS 收尾的正文行会被整句
+    //   吞进 speaker 丢字(GLM 005[3])。
+    const tailName = mt ? mt[1].trim() : "";
+    const tailLcLead = tailName.split(/\s+/).filter((w) => /^[a-z]/.test(w)).length;
+    const isTailHeader = !!tailName && tailLcLead < 2;
+    if (mp || isBracketHeader || isTailHeader) {
       let cand;
       if (mp) cand = { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" };
       else if (isBracketHeader) cand = { speaker: mb[2].trim(), stamp: srtTimeToSec(mb[1]), text: "" };
-      else cand = { speaker: mt[1].split("|")[0].trim(), stamp: srtTimeToSec(mt[2]), text: "" }; // 「姓名 | 公司」取姓名
+      else cand = { speaker: tailName.split("|")[0].trim(), stamp: srtTimeToSec(mt[2]), text: "" }; // 「姓名 | 公司」取姓名
       cur = cand;
       stanzas.push(cur);
       continue;

@@ -646,4 +646,46 @@ describe("C36c · 行末裸戳头(Product Podcast)+ buzzsprout 词级 JSON(AI-Na
     expect(segs.length).toBe(2);
     expect(segs.map((s) => s.text)).toEqual(["Hello world.", "Second here."]);
   });
+  it("★★★ [GLM005-1] startTime=null 的词不被 Number(null)===0 洗成 0 秒戳(走 carry,非假 0)", () => {
+    // 先有一真段把 carry 推到 10,再来个 startTime=null 的段 —— 修好后它的 start=carry=10;
+    //   若中 Number(null)===0 的坑会洗成 0(< 前段,破坏单调、稿末被低估)
+    const segs = parseWhisperJson({
+      segments: [
+        { speaker: "A", startTime: 8, endTime: 10, body: "first." },
+        { speaker: "B", startTime: null, endTime: null, body: "second." },
+      ],
+    })!;
+    expect(segs[1].text).toBe("second.");
+    expect(segs[1].start).toBe(10); // carry(=前段末 10),不是 Number(null) 洗出来的 0
+    expect(segs[1].start).toBeGreaterThanOrEqual(segs[0].start); // 单调不倒
+  });
+  it("★★★ [GLM005-2] 混入个别词级元素不把整份 DOAC 稿拖去词级路径丢正文(多数派判)", () => {
+    const segs = parseWhisperJson({
+      segments: [{ start: 0, end: 5, text: "hello" }, { speaker: "A", startTime: 1, endTime: 2, body: "x" }],
+    })!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("hello"); // DOAC 正文不丢
+  });
+  it("★★★ [GLM005-3] 以 HH:MM:SS 收尾的散文正文行不被行末裸戳头吞进 speaker", () => {
+    const t = [
+      "Alex Chen | Acme 00:00:05",
+      "So today we talk about scaling.",
+      "The whole session usually runs 00:45:00", // 散文以时间戳收尾
+      "Bob Lee | Beta 00:01:30",
+      "Right, makes sense.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("The whole session usually runs 00:45:00"); // 正文留住
+    expect(segs.some((s) => s.speaker.includes("runs"))).toBe(false); // 没被吞进说话人
+    expect(segs.some((s) => s.speaker === "Alex Chen")).toBe(true); // 真段头仍在
+    expect(segs.some((s) => s.speaker === "Bob Lee")).toBe(true);
+  });
+  it("★ [GLM005-3 反向] 重音名段头(González 的 á)不被散文防御误伤,仍当段头", () => {
+    const t = ["Carlos González de Villaumbrosia | Product School 00:00:00", "You're reinventing the company."].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs.some((s) => s.speaker === "Carlos González de Villaumbrosia")).toBe(true);
+  });
+  it("★ [GLM005-4] 整份词级稿一个真时间戳都没有 → null 回落 ASR(不虚构时间轴)", () => {
+    const segs = parseWhisperJson({ segments: [{ speaker: "A", body: "a." }, { speaker: "A", body: "b." }] });
+    expect(segs).toBeNull();
+  });
 });
