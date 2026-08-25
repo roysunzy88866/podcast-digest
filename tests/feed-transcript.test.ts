@@ -561,4 +561,18 @@ describe("C36b · 方括号头(transistor)+ 内联头(buzzsprout)稿解析", () 
     expect(segs.map((s) => s.text).join(" ")).toContain("Yeah exactly right."); // 正文不丢
     expect(segs.some((s) => s.speaker === "Yeah exactly right.")).toBe(false); // 没被吞进说话人
   });
+  it("★ [GLM003-2] 缩写点收尾的合法人名(Bob Jr.)不被句末标点规则误伤,仍当段头", () => {
+    const segs = parseStampedText(
+      ["[00:30] Bob Jr.", "hello this is the body text here.", "[00:45] Patrick Collison", "another body line."].join("\n"),
+    )!;
+    expect(segs.some((s) => s.speaker === "Bob Jr.")).toBe(true);
+    expect(segs.some((s) => s.speaker === "Patrick Collison")).toBe(true);
+  });
+  it("★ [GLM003-4] 前导若只是孤立标点(如「! Alex」的 !)不留成正文碎片", () => {
+    const segs = parseInlineSpeakerStamp(
+      "! Alex (00:05) : hello there now. Bob (00:20) : hi back here. Cy (00:40) : done ok.",
+    )!;
+    expect(segs[0].speaker).toBe("Alex");
+    expect(segs.some((s) => s.text.trim() === "!")).toBe(false); // 无孤立标点段
+  });
 });

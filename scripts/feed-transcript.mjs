@@ -205,9 +205,12 @@ export function parseStampedText(text) {
   for (const line of String(text ?? "").replace(/\r\n?/g, "\n").split("\n")) {
     const mp = line.match(HEADER_PAREN);
     const mb = mp ? null : line.match(HEADER_BRACKET);
-    // 方括号「人名」槽若以句末标点(.?!)收尾,那是正文误命中(如「[00:30] Yeah exactly.」),不当段头 —
-    // 让它落到下面按正文累积,别把整行吞进 speaker 丢字(防失真:宁丢软时间点也不丢正文,GLM 20260825-002[5])
-    const isBracketHeader = mb && !/[.?!]$/.test((mb[2] || "").trim());
+    // 方括号「人名」槽像正文就别当段头(防失真:宁丢软时间点也不吞正文丢字,GLM 20260825-002[5])。
+    // 正文特征 = 句末标点(.?!)收尾 且 含全小写正文词 —— 人名是 Title Case 不含全小写词,
+    // 「Bob Jr.」这种缩写点收尾但无小写词的合法人名不误伤(GLM 003[2])。
+    const bcand = (mb ? mb[2] : "").trim();
+    const looksProse = /[.?!]$/.test(bcand) && /\b[a-z]{2,}\b/.test(bcand);
+    const isBracketHeader = mb && !looksProse;
     if (mp || isBracketHeader) {
       cur = mp
         ? { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" }
@@ -255,12 +258,12 @@ export function parseInlineSpeakerStamp(text) {
   let startName = "";
   if (p0m) {
     const prefix = p0.slice(0, p0m.index + p0m[1].length).trim();
-    if (prefix) stanzas.push({ speaker: "", stamp: null, text: prefix });
+    if (/\w/.test(prefix)) stanzas.push({ speaker: "", stamp: null, text: prefix }); // 含实词才留,免孤立标点碎片(GLM 003[4])
     startName = p0m[2].trim();
   } else {
     const bare = p0.trim();
     if (bare.split(/\s+/).filter(Boolean).length > 3 || bare.length > 30) {
-      if (bare) stanzas.push({ speaker: "", stamp: null, text: bare });
+      if (/\w/.test(bare)) stanzas.push({ speaker: "", stamp: null, text: bare });
       startName = "";
     } else {
       startName = bare;
