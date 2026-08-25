@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Codex]] · [[Nesrine Changuel]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[Rob Willoughby]] · [[delight]] · [[Cursor]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":130,"Codex":27,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Rob Willoughby":1,"delight":1,"Cursor":32,"OpenAI":59}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":132,"Codex":27,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Rob Willoughby":1,"delight":1,"Cursor":34,"OpenAI":59}</script>
 
 <script>
 (function(){

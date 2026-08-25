@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Tannenbaum]] [[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
+[[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":130,"决策层":1,"上下文工程":6,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":3}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":132,"决策层":1,"上下文工程":6,"状态":1,"原型重力":1,"智能体破产":1,"计划模式":3}</script>
 
 <script>
 (function(){

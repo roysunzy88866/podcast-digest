@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":1,"Lindy":2,"智能体":130,"上下文":11,"记忆智能体":1,"RAG":6,"上下文桶":1,"缓存":1,"验证器":1,"DeepSeek":3}</script>
+<script type="application/json" class="pd-epn">{"Nathan":1,"Lindy":2,"智能体":132,"上下文":11,"记忆智能体":1,"RAG":6,"上下文桶":1,"缓存":1,"验证器":1,"DeepSeek":3}</script>
 
 <script>
 (function(){

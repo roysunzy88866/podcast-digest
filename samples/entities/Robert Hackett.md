@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"代币化":2,"开源":5,"Stripe":18}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"代币化":2,"开源":5,"Stripe":19}</script>
 
 <script>
 (function(){

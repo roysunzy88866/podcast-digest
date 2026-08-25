@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Tannenbaum]] [[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
+[[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":16,"Slack":20,"Dust":1,"Devon":4,"智能体":130,"剧本":4,"技能":6,"本体":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":16,"Slack":20,"Dust":1,"Devon":4,"智能体":132,"剧本":4,"技能":6,"本体":1}</script>
 
 <script>
 (function(){

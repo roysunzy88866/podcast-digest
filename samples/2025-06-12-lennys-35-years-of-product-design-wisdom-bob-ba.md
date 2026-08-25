@@ -178,7 +178,7 @@ Bob 在 Pinterest 的一年半并不成功。他星期五离开 Apple，星期�
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同公司:Figma · 同概念:设计 (design)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple</span>
-- [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Apple</span>
+- [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：产品经理、设计师、工程师三个角色正在合并]]<span class="pd-rz">同公司:Figma · 同概念:设计系统 (design system)</span>
 
 </div>
 <div class="pd-ex">

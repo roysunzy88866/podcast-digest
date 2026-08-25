@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：一个使用 bash 和 grep 等终端工具的激动人心的智能体产品,被封装进 Agent SDK 中作为内置循环。
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(09:32起):本集说日常软件开发大概是 Cursor 和 Claude Code 各占一半，一个月后很多手写的循环工程会变成 Claude Code 里挽具的一部分
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(57:00起):本集说 Matt 用 Claude Code 在电脑上搭建营销操作系统，接入邮箱定时检查简报请求、自动询价谈判、写文案发邮件
+- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(32:52起):本集提到 Will 用 Claude Code 试着为侄女生日创作一首歌，作为不需要开月费账户、只需微消费的场景例子。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(01:40起):本集说 Claude Code 是嘉宾的'主力工具'（workhorse），亚马逊员工使用时可以选择加入追踪，团队能识别出模型做错的轨迹来构建评估
 - **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(35:47起):本集说 Claude Code 在延续已有设计系统方面做了神奇的事情，能把示例站点或 Figma 拆解成可复用的设计 token，但读其输出会让人血压升高
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(35:47起):本集说 Claude Code 在创建和延续设计系统方面无可替代，能将 Figma 或示例站点拆成可复用的设计令牌，但输出格式让人血压升高
@@ -59,7 +60,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*34 集*
+*35 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
@@ -91,6 +92,7 @@ unlisted: true
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念(提及)
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为概念(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司
@@ -100,9 +102,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude]] · [[Cursor]] · [[OpenAI]] · [[评估]] · [[Slack]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Cursor]] · [[Claude]] · [[OpenAI]] · [[评估]] · [[Slack]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Anthropic":65,"Lenny":65,"Codex":27,"Claude":32,"Cursor":32,"OpenAI":59,"评估":15,"Slack":20,"Meta":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Anthropic":65,"Lenny":65,"Codex":27,"Cursor":34,"Claude":32,"OpenAI":59,"评估":15,"Slack":20,"Meta":18}</script>
 
 <script>
 (function(){

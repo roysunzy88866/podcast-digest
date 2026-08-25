@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":1,"Samsara":2,"物理 AI":4,"护栏":26,"生成式 AI":2,"智能体":130,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":1,"Samsara":2,"物理 AI":4,"护栏":27,"生成式 AI":2,"智能体":132,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

@@ -99,7 +99,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[AGI]] · [[Claude]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"OpenAI":59,"Anthropic":65,"Lenny":65,"ChatGPT":34,"Meta":18,"AGI":16,"Claude":32,"NVIDIA":20,"Amazon":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"OpenAI":59,"Anthropic":65,"Lenny":65,"ChatGPT":34,"Meta":18,"AGI":16,"Claude":32,"NVIDIA":20,"Amazon":8}</script>
 
 <script>
 (function(){

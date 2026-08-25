@@ -35,7 +35,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Harry Stebbings]] · [[Google]] · [[智能体]] · [[Lenny]] · [[Matt Swulinski]] · [[Julien Bek]] · [[Ethan Smith]] · [[Superhuman]] · [[Sequoia]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":34,"Harry Stebbings":5,"Google":27,"智能体":130,"Lenny":65,"Matt Swulinski":1,"Julien Bek":1,"Ethan Smith":1,"Superhuman":4,"Sequoia":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":34,"Harry Stebbings":5,"Google":27,"智能体":132,"Lenny":65,"Matt Swulinski":1,"Julien Bek":1,"Ethan Smith":1,"Superhuman":4,"Sequoia":2}</script>
 
 <script>
 (function(){

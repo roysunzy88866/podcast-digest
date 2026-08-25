@@ -31,7 +31,7 @@ unlisted: true
 
 [[GPU]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[后训练]] · [[Cursor]] · [[NVIDIA]] · [[开源模型]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"GPU":6,"推理":1,"OpenAI":59,"Anthropic":65,"智能体":130,"后训练":12,"Cursor":32,"NVIDIA":20,"开源模型":9,"前沿模型":4}</script>
+<script type="application/json" class="pd-epn">{"GPU":6,"推理":1,"OpenAI":59,"Anthropic":65,"智能体":132,"后训练":12,"Cursor":34,"NVIDIA":20,"开源模型":9,"前沿模型":4}</script>
 
 <script>
 (function(){

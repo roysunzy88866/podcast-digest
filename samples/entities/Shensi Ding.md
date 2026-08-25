@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":130,"MCP":15,"沙箱":25,"连接器":2,"智能 LLM 路由器":1,"可观测性":11,"后训练":12}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":132,"MCP":16,"沙箱":25,"连接器":2,"智能 LLM 路由器":1,"可观测性":11,"后训练":12}</script>
 
 <script>
 (function(){

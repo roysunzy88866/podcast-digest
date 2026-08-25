@@ -35,7 +35,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Michael Tannenbaum]] [[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
+[[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 

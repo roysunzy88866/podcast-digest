@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny Rachitsky]] · [[Michelle Rial]] · [[Airbnb]] · [[Medium]] · [[Stripe]] · [[简报]] · [[播客]] · [[付费墙]] · [[林迪效应]] · [[幸福基线]]
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Michelle Rial":1,"Airbnb":9,"Medium":1,"Stripe":18,"简报":2,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Michelle Rial":1,"Airbnb":9,"Medium":1,"Stripe":19,"简报":2,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

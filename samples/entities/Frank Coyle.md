@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":65,"Claude 认证架构师考试":1,"智能体":130,"循环":3,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":34}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":65,"Claude 认证架构师考试":1,"智能体":132,"循环":3,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":35}</script>
 
 <script>
 (function(){

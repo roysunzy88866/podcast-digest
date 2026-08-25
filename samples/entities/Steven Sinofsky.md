@@ -33,7 +33,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]]
+[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Will Gabrick]]
 
 </div>
 

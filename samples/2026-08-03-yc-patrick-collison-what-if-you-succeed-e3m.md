@@ -120,7 +120,7 @@ Stripe从写下第一行代码到公开发布等了近两年，在[[YC|YC]]"尽�
 
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同嘉宾:Patrick Collison · 同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:YC、OpenAI、Stripe</span>
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 的选择：用 AI 构建更多，而不是更少]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

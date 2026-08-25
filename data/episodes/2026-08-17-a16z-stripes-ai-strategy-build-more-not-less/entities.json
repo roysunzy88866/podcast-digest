@@ -1,0 +1,1948 @@
+{
+  "episode_id": "2026-08-17-a16z-stripes-ai-strategy-build-more-not-less",
+  "podcast": "The a16z Show",
+  "date": "2026-08-17",
+  "tags": [
+    "智能体编码",
+    "智能体商务",
+    "组织变革",
+    "稳定币",
+    "微交易"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "host",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            74.398,
+            84.5
+          ],
+          "quote": "In this episode, A16z General Partner David George sits down with Stripe's Will Gabrick to unpack how AI is changing the way one of the world's largest technology companies builds.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "will-gabrick",
+      "type": "person",
+      "role": "cohost",
+      "name": "Will Gabrick",
+      "file": "Will Gabrick",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            74.398,
+            84.5
+          ],
+          "quote": "In this episode, A16z General Partner David George sits down with Stripe's Will Gabrick to unpack how AI is changing the way one of the world's largest technology companies builds.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集将 Stripe 描述为从一家支付公司演变为多产品金融基础设施平台，平均一家 AI 公司会使用 11 种不同的 Stripe 产品，且在智能体编码和智能体商务方面走在前沿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            47.009,
+            48.829
+          ],
+          "quote": "So we create something called Stripe Minions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            69.116,
+            71.917
+          ],
+          "quote": "Stripe's response isn't to build the same things with fewer people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            74.398,
+            84.5
+          ],
+          "quote": "In this episode, A16z General Partner David George sits down with Stripe's Will Gabrick to unpack how AI is changing the way one of the world's largest technology companies builds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            85.24,
+            98.723
+          ],
+          "quote": "They discuss Stripe's internal coding agents, which recently generated 7,000 pull requests in a single week, why teams are becoming smaller and flatter, and how Stripe is trying to give engineers the kind of agency traditionally associated with founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            115.887,
+            119.669
+          ],
+          "quote": "I want to start with just a state of Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.249,
+            121.349
+          ],
+          "quote": "So what is Stripe today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            121.469,
+            128.953
+          ],
+          "quote": "And when we originally invested in payment processor, but now I think the average AI company uses 11 different Stripe products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            135.915,
+            139.337
+          ],
+          "quote": "So I want to talk about velocity also, but just to start with just what is the state of Stripe today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            139.657,
+            165.31
+          ],
+          "quote": "So internally, we think about Stripe as having inverted our value proposition from being a payments company with sort of add-ons to now being this multi-product platform where everything sort of focuses on financial infrastructure, helping you grow by reducing the friction and increasing the agency to be more agile with your business model, to operate in more countries, and just",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            211.708,
+            213.45
+          ],
+          "quote": "Most Stripe users are software companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            249.684,
+            260.411
+          ],
+          "quote": "And so we sort of got in the bunker with them and just stood up in a weekend, a pipeline where we were able to use our foundation model, look across the entire Stripe network, use our embeddings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            269.116,
+            278.38
+          ],
+          "quote": "And I think it's today, I think it's 11 labs recently told us that they're blocking 2,000 free trial abusers per day using Stripe signals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            310.177,
+            318.404
+          ],
+          "quote": "They're using this product, Stripe Managed Payments, where in their home markets, the U.S., let's say they have an entity in Europe, they are the seller of record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            318.905,
+            328.713
+          ],
+          "quote": "But in long-tail markets, you know, the Kazakhstan's and all over APAC, where they haven't sort of entities, Stripe stands in as the actual merchant of record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            350.131,
+            358.497
+          ],
+          "quote": "So if you look at the product set today, obviously the origin of Stripe was startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            363.281,
+            374.752
+          ],
+          "quote": "And then famously, part of the beauty of Stripe's growth and business model is that you captured companies like DoorDash and Instacart when they were in YC, and then you grew with them along the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            383.474,
+            391.799
+          ],
+          "quote": "So I think it was actually Colin at Clerk who summarized our strategy nicely on X recently where he said, Stripe strategy is unabashed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            416.235,
+            423.442
+          ],
+          "quote": "I looked recently at the CSAP for Stripe's reporting, and for our very, very large enterprise users, their reporting is great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            562.645,
+            570.81
+          ],
+          "quote": "When you look at the year-on-year increase in usage of Stripe billing, it's actually a lot higher than usage of Stripe overall.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            616.851,
+            625.895
+          ],
+          "quote": "But you look at Stripe and you'd say, okay, well, we have sort of an adaptive version of how we set goals that's quite similar to...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            654.51,
+            657.273
+          ],
+          "quote": "And so we study these companies and we try to bring it all into Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            681.514,
+            691.84
+          ],
+          "quote": "And sort of the theory of mind right now is that Stripe needs to become, more than it ever has been before, a platform for founders internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            697.026,
+            698.748
+          ],
+          "quote": "And founders have always done incredibly well at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            702.753,
+            708.12
+          ],
+          "quote": "We acquired Metronome last year, and Scott Woody, the CEO, is thriving at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            730.801,
+            734.504
+          ],
+          "quote": "J.R. Farr from LemonSqueezy is leading Stripe Treasury at this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            735.105,
+            737.046
+          ],
+          "quote": "And so just founders have always done very well at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            830.033,
+            840.863
+          ],
+          "quote": "Optimize every single phase of, we think of it as sort of the critical path in Stripe from the ideas behind product development the user asks all the way to products being in user's hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            844.907,
+            847.91
+          ],
+          "quote": "It's one, just how do you create that agency for everyone at Stripe?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            848.09,
+            853.215
+          ],
+          "quote": "How do you let everyone at Stripe be an auteur, like a founder, a creative?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            869.804,
+            872.986
+          ],
+          "quote": "So we create something called Stripe Minions, which we've blogged about a little bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            985.136,
+            987.219
+          ],
+          "quote": "Some of the most important product leaders at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            989.301,
+            996.829
+          ],
+          "quote": "Of course, we've built for many personas at this point, but engineers have always been sort of the hero, you know, ICP for Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1037.281,
+            1044.405
+          ],
+          "quote": "I was talking to one of our most senior engineers recently, in fact, the guy who built Stripe Projects, because Stripe Projects was...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1193.847,
+            1200.652
+          ],
+          "quote": "Now, 83% daily actives, or sorry, 83% weekly actives, about 60% daily actives at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1242.704,
+            1248.947
+          ],
+          "quote": "And so I mentioned earlier just making Stripe a platform for founders, an internal platform for founders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1297.931,
+            1300.192
+          ],
+          "quote": "And so Stripe then becomes for...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1382.342,
+            1394.147
+          ],
+          "quote": "I think for companies like Stripe that are run by you guys, there's probably always going to be that next opportunity to create additional revenue opportunities, find the new customer products that are a big hit, and that is never going to go away.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1440.832,
+            1445.894
+          ],
+          "quote": "We've heard from a lot of users that for Stripe tax, they want global filing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1446.374,
+            1455.219
+          ],
+          "quote": "And it took us a long time to get to US filing on Stripe tax, meaning that every state in the US will just automatically file for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1488.865,
+            1490.867
+          ],
+          "quote": "We launched recently a product called Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1501.238,
+            1504.481
+          ],
+          "quote": "And Stripe is not a bank, does not aspire to be a bank.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1513.426,
+            1524.352
+          ],
+          "quote": "And so we built Stripe Treasury to allow our users to hold funds in dozens of currencies across many countries and just build what the banking portal should be able to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1646.161,
+            1650.402
+          ],
+          "quote": "You know, as an investor in Stripe and a large investor in Stripe,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1791.335,
+            1798.039
+          ],
+          "quote": "Like just checkout pages shouldn't exist for humans, you know, with Stripe link and, you know, shop with shop pay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1826.251,
+            1834.013
+          ],
+          "quote": "Okay, so Stripe Link, like you have like 400 million users on Stripe Link and ShopPay probably has some comparatively large number and you can use those and just automate the whole process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1854.142,
+            1855.704
+          ],
+          "quote": "So we launched Stripe Projects.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1856.004,
+            1859.589
+          ],
+          "quote": "Stripe Projects is a way to scaffold apps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1862.933,
+            1868.059
+          ],
+          "quote": "But the most exciting thing that Stripe Projects is, is a way to provision B2B services agentically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1897.665,
+            1909.173
+          ],
+          "quote": "And we actually had a really great demo a while back at Stripe where we used BrowserBase Live via an agent to fill out an NCAA bracket.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2348.297,
+            2354.08
+          ],
+          "quote": "We talked earlier about Stripe Treasury and we decided to make stablecoins native to Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2372.953,
+            2380.859
+          ],
+          "quote": "Right now, you can be a Stripe user in, I can't remember what the exact number is, but around 60 countries in fiat.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2381.439,
+            2385.863
+          ],
+          "quote": "But you can be a Stripe user in stablecoins in I think about 150 countries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2573.01,
+            2584.138
+          ],
+          "quote": "Still in the early stages of building out, getting a lot of great traction, working with companies like DoorDash, making it sort of the default, but not only blockchain in Stripe, and feeling very optimistic about it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2659.813,
+            2665.118
+          ],
+          "quote": "They're very reminiscent of what we see in terms of people trying to steal money from Stripe users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2728.672,
+            2732.753
+          ],
+          "quote": "We're at the beginning of this journey, but we think it's going to be a big part of the future of Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2767.32,
+            2768.36
+          ],
+          "quote": "They're using Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2879.923,
+            2882.746
+          ],
+          "quote": "And then more Stripe products are being adopted than ever before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2882.986,
+            2887.05
+          ],
+          "quote": "And, you know, 11 Labs is using 14 Stripe products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2935.28,
+            2951.764
+          ],
+          "quote": "So in closing, I wanted to just get your take, and I don't want to get too deep into the role of humans versus AI, but one of the things that Stripe has always been universally recognized for and appreciated for, I think, is your taste, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3059.598,
+            3063.721
+          ],
+          "quote": "I think the single thing I would say for scaling tastes at Stripe, well, actually two things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3179.816,
+            3196.045
+          ],
+          "quote": "Will, this is so fun to talk to you about all these topics, you know, obviously covering how you're building so much product inside Stripe, which is super unique and right on the cutting edge, I think, and the future of how we engage in agentic commerce and stablecoins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3196.925,
+            3202.748
+          ],
+          "quote": "You know, one of the things that I think you guys have said is, you know, how do we assure that we build the next Stripe inside of Stripe?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe-minions",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stripe Minions",
+      "file": "Stripe Minions",
+      "primary": true,
+      "how_described": "本集说 Stripe Minions 是一种一次性编码智能体系统，给它一个提示词，它去构建、跑完 CI/CD 和所有测试，然后由人来审查，不迭代、不进入规划模式。内部核心指标是有多少 PR 由 Minions 创建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            47.009,
+            48.829
+          ],
+          "quote": "So we create something called Stripe Minions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            869.804,
+            872.986
+          ],
+          "quote": "So we create something called Stripe Minions, which we've blogged about a little bit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体在编码和商务中的角色：编码方面，单个工程师可编排 16 个智能体，智能体做代码审查甚至比以前的人类更好；商务方面，智能体可以去'采用'B2B 服务，成为未来的购物者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            913.131,
+            919.995
+          ],
+          "quote": "You know, it's the one shot or the glorified Ralph loop where you're just letting the agent be super, super powerful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1834.633,
+            1838.974
+          ],
+          "quote": "Yeah, we launched recently the link agent wallet so that there's now just a link CLI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1839.274,
+            1848.316
+          ],
+          "quote": "So an agent can just sweep up link credentials and go use them with humans in the loop to say how they can use them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1868.74,
+            1877.862
+          ],
+          "quote": "So you can go, an agent can go adopt Vercel for hosting and they can do it without you needing to go to Vercel.com and do anything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1894.144,
+            1897.185
+          ],
+          "quote": "You know, an agent can go adopt Browserbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1897.665,
+            1909.173
+          ],
+          "quote": "And we actually had a really great demo a while back at Stripe where we used BrowserBase Live via an agent to fill out an NCAA bracket.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1918.099,
+            1927.086
+          ],
+          "quote": "And so it was so cool to just watch the agent pick up a BrowserBase session and fire up ESPN.com and do a bit of research and just fill it out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2032.14,
+            2032.74
+          ],
+          "quote": "Agent, do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2190.306,
+            2199.111
+          ],
+          "quote": "But if you just give an agent a budget, they can easily, you know, take dollars, move into stables or, you know, just use a shared, a stored balance.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集说智能体商务目前还没有经历'寒武纪爆发'，缺少大量反复出现的典型用例，原因是缺少原语（primitives）；最令人兴奋的领域其实是 B2B，让智能体去'采用'和配置 SaaS 服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            37.826,
+            39.847
+          ],
+          "quote": "We haven't had that in agentic commerce today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1707.088,
+            1712.61
+          ],
+          "quote": "We haven't had that in agentic commerce today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1778.131,
+            1786.573
+          ],
+          "quote": "And then there's a sociological phase of just in what ways will agentic commerce be better than non-agentic commerce?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1814.867,
+            1819.91
+          ],
+          "quote": "And so that's like a sort of non-speculative, but maybe less ambitious form of agentic commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1849.616,
+            1853.161
+          ],
+          "quote": "I think one of the places we are the most excited about agentic commerce actually is B2B.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2021.975,
+            2028.358
+          ],
+          "quote": "And I think that will really unlock agentic commerce to you because then you won't have to say, well, I need to pay these guys $10 a month, but these guys $10 a month.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3179.816,
+            3196.045
+          ],
+          "quote": "Will, this is so fun to talk to you about all these topics, you know, obviously covering how you're building so much product inside Stripe, which is super unique and right on the cutting edge, I think, and the future of how we engage in agentic commerce and stablecoins.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stablecoins",
+      "type": "concept",
+      "role": "concept",
+      "name": "稳定币 (stablecoins)",
+      "file": "稳定币",
+      "primary": true,
+      "how_described": "本集说稳定币是一个比现有方式更好的全球资金转移平台，对人类来说使用体验还不友好，但给智能体一个预算，它可以自如地在美元和稳定币之间转换，不介意来回操作的摩擦。Stripe 已将稳定币做成 Stripe Treasury 的原生功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            103.367,
+            112.896
+          ],
+          "quote": "From AI agents sparring software from other agents, to micropayments, stablecoins, and why Will believes the checkout page will eventually disappear altogether.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2177.017,
+            2180.82
+          ],
+          "quote": "And then on the flip side, they're now eminently possible because of stablecoins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2181.821,
+            2182.861
+          ],
+          "quote": "And stablecoins are...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2235.538,
+            2242.722
+          ],
+          "quote": "On the topic of stablecoins, so we've covered sort of how you guys build software, how you move so fast in an AI development world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2247.484,
+            2248.265
+          ],
+          "quote": "Talk about stablecoins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2262.014,
+            2267.055
+          ],
+          "quote": "And stablecoins are just a better platform for moving money than exists otherwise.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2348.297,
+            2354.08
+          ],
+          "quote": "We talked earlier about Stripe Treasury and we decided to make stablecoins native to Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2381.439,
+            2385.863
+          ],
+          "quote": "But you can be a Stripe user in stablecoins in I think about 150 countries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2417.215,
+            2423.139
+          ],
+          "quote": "And I like the position that you guys are in as it relates to stablecoins just because, again, talk about meeting the market where it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2424.02,
+            2429.585
+          ],
+          "quote": "Like, people don't want to cut over full wholesale and just, you know, drop all their fiat and move over to stablecoins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3179.816,
+            3196.045
+          ],
+          "quote": "Will, this is so fun to talk to you about all these topics, you know, obviously covering how you're building so much product inside Stripe, which is super unique and right on the cutting edge, I think, and the future of how we engage in agentic commerce and stablecoins.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microtransactions",
+      "type": "concept",
+      "role": "concept",
+      "name": "微交易 (microtransactions)",
+      "file": "微交易",
+      "primary": true,
+      "how_described": "本集说智能体做复杂任务时不想为了一次使用去开月费账户，想要的是微消费；微交易对智能体经济的存在是必要的，而稳定币让微交易变得真正可行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 479,
+          "t": [
+            2057.681,
+            2064.189
+          ],
+          "quote": "So the critical thing, I think, or one of the critical things that you just said is this concept of micropayments or microtransactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2106.617,
+            2112.58
+          ],
+          "quote": "And I think to make that work, you're just going to need to support microtransactions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2114.801,
+            2127.926
+          ],
+          "quote": "I think the case against microtransactions has always been, well, you're trying to consume content and if you're trying to sell an article, you're always going to be squeezed between the subscriber business model and the free business model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2168.952,
+            2176.037
+          ],
+          "quote": "So I think microtransactions will just be necessary for that economy to exist, the sort of agentic economy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tempo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tempo",
+      "file": "Tempo",
+      "primary": true,
+      "how_described": "本集说 Tempo 是 Stripe 创建的机器支付协议，作为智能体商务的缺失原语之一，服务方可以返回 402 响应告诉机器'这是购买我的方式'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1726.553,
+            1731.094
+          ],
+          "quote": "We created with Tempo the machine payments protocol so that services can",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2489.276,
+            2491.657
+          ],
+          "quote": "I'd love to have you talk a little bit about Tempo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "link-agent-wallet",
+      "type": "concept",
+      "role": "concept",
+      "name": "link agent wallet",
+      "file": "link agent wallet",
+      "primary": true,
+      "how_described": "本集说 Stripe 最近推出了 Link agent wallet，现在有一个 Link CLI，智能体可以直接收集 Link 凭证去使用，在人工参与的情况下完成支付。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 412,
+          "t": [
+            1834.633,
+            1838.974
+          ],
+          "quote": "Yeah, we launched recently the link agent wallet so that there's now just a link CLI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说 Stripe 的框架是减少摩擦并增加主观能动性（agency），包括对外帮助客户商业模式更敏捷，对内创造'创始人那样的主观能动性'，让每个工程师成为作者（auteur）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.511,
+            6.597
+          ],
+          "quote": "If you want to ship more and build faster, you have to create founder-like agency inside your company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            85.24,
+            98.723
+          ],
+          "quote": "They discuss Stripe's internal coding agents, which recently generated 7,000 pull requests in a single week, why teams are becoming smaller and flatter, and how Stripe is trying to give engineers the kind of agency traditionally associated with founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            139.657,
+            165.31
+          ],
+          "quote": "So internally, we think about Stripe as having inverted our value proposition from being a payments company with sort of add-ons to now being this multi-product platform where everything sort of focuses on financial infrastructure, helping you grow by reducing the friction and increasing the agency to be more agile with your business model, to operate in more countries, and just",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            197.034,
+            201.238
+          ],
+          "quote": "But again, the framework we think about is really reducing frictions and increasing agency.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            290.326,
+            292.147
+          ],
+          "quote": "And then on the increasing agency side,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            792.566,
+            804.348
+          ],
+          "quote": "And so while we have more and more productivity from those senior engineers, if you want to ship more and build faster, you have to create founder-like agency inside your company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            844.907,
+            847.91
+          ],
+          "quote": "It's one, just how do you create that agency for everyone at Stripe?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1301.112,
+            1309.802
+          ],
+          "quote": "New grads and early career engineers, more of an incubator of come in, figure out a high agency project that can help our users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2073.596,
+            2077.998
+          ],
+          "quote": "Well, agents really increase human agency, I guess.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe-projects",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stripe Projects",
+      "file": "Stripe Projects",
+      "primary": true,
+      "how_described": "本集说 Stripe Projects 狭义上是脚手架应用的方式，但最令人兴奋的是它是一种以智能体方式配置 B2B 服务的方式——智能体可以直接去采用 Vercel 等服务而不需要人去操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1037.281,
+            1044.405
+          ],
+          "quote": "I was talking to one of our most senior engineers recently, in fact, the guy who built Stripe Projects, because Stripe Projects was...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1854.142,
+            1855.704
+          ],
+          "quote": "So we launched Stripe Projects.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1856.004,
+            1859.589
+          ],
+          "quote": "Stripe Projects is a way to scaffold apps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1862.933,
+            1868.059
+          ],
+          "quote": "But the most exciting thing that Stripe Projects is, is a way to provision B2B services agentically.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe-treasury",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stripe Treasury",
+      "file": "Stripe Treasury",
+      "primary": false,
+      "how_described": "本集说 Stripe Treasury 允许用户在许多国家以几十种货币持有资金，并已将稳定币做成其原生功能，法币覆盖约 60 个国家，稳定币覆盖约 150 个国家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            730.801,
+            734.504
+          ],
+          "quote": "J.R. Farr from LemonSqueezy is leading Stripe Treasury at this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1488.865,
+            1490.867
+          ],
+          "quote": "We launched recently a product called Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1513.426,
+            1524.352
+          ],
+          "quote": "And so we built Stripe Treasury to allow our users to hold funds in dozens of currencies across many countries and just build what the banking portal should be able to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2348.297,
+            2354.08
+          ],
+          "quote": "We talked earlier about Stripe Treasury and we decided to make stablecoins native to Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2767.32,
+            2768.36
+          ],
+          "quote": "They're using Stripe Treasury.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chi",
+      "type": "concept",
+      "role": "concept",
+      "name": "CHI",
+      "file": "CHI",
+      "primary": false,
+      "how_described": "本集说 CHI 是 Stripe 内部的知识 AI 工具，两个月由两人建成，现在有 83% 的周活跃率和约 60% 的日活跃率，使销售人员生产力提升了 20%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1181.778,
+            1186.281
+          ],
+          "quote": "We have a tool internally called CHI, which is our knowledge AI tool.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "primitives",
+      "type": "concept",
+      "role": "concept",
+      "name": "原语 (primitives)",
+      "file": "原语",
+      "primary": false,
+      "how_described": "本集说智能体商务尚未爆发的其中一个原因是缺少原语，Stripe 通过 Tempo 机器支付协议来提供这类基础构建块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1719.971,
+            1721.792
+          ],
+          "quote": "One is we're missing primitives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1773.71,
+            1777.531
+          ],
+          "quote": "So we're sort of at the missing primitives phase, and we're sort of figuring that out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2001.645,
+            2009.169
+          ],
+          "quote": "And so, you know, along with the actual commerce primitives, I think there's these micro-consumption APIs that need to start to exist.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "checkout-pages",
+      "type": "concept",
+      "role": "concept",
+      "name": "结账页面 (checkout pages)",
+      "file": "结账页面",
+      "primary": false,
+      "how_described": "本集说结账页面最终会消失，不只对智能体，对人类也是——有了 Stripe Link 和 Shop Pay，可以直接在产品展示页完成购买。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 400,
+          "t": [
+            1791.335,
+            1798.039
+          ],
+          "quote": "Like just checkout pages shouldn't exist for humans, you know, with Stripe link and, you know, shop with shop pay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1810.945,
+            1812.686
+          ],
+          "quote": "I think just checkout pages will go away.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "felix",
+      "type": "concept",
+      "role": "concept",
+      "name": "Felix",
+      "file": "Felix",
+      "primary": false,
+      "how_described": "本集说 Felix 是一家始于美墨汇款的公司，建立在稳定币上，几年内就在全球最大汇款走廊拿到了 5% 到 10% 的份额。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 552,
+          "t": [
+            2442.195,
+            2456.461
+          ],
+          "quote": "You know, when you really lean into it, Felix Pogba, or Felix, I think, as they're called now, which started as a remittance company between the US and Mexico, and now, you know, has other corridors as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": false,
+      "how_described": "本集说品味是 Stripe 文化和身份的核心，规模化品味靠两件事：自上而下反复强调，以及模拟真实用户数据让团队'住进'产品里体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 651,
+          "t": [
+            2935.28,
+            2951.764
+          ],
+          "quote": "So in closing, I wanted to just get your take, and I don't want to get too deep into the role of humans versus AI, but one of the things that Stripe has always been universally recognized for and appreciated for, I think, is your taste, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2965.608,
+            2968.832
+          ],
+          "quote": "Yeah, it's interesting how much the word taste is being used right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2977.021,
+            2983.548
+          ],
+          "quote": "Yeah, that no one actually has taste and it's just we're all reproducing machines of things that we had previously perceived.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2984.189,
+            2994.093
+          ],
+          "quote": "And like my fingers are no longer as useful, but this nebulous notion of taste and models will never have taste and so on, which is probably just not true.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3166.712,
+            3177.055
+          ],
+          "quote": "So Scaling Taste for us is, you know, culture and it is the, you know, shibboleths and then it is the daily rhythms of just using the products and stepping into these issues.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": false,
+      "how_described": "本集提到 Suno 作为四年前无法构建、现在可以构建的新软件例子，也作为微消费场景的例子——用 Claude Code 写歌时不想开月费账户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            530.921,
+            536.426
+          ],
+          "quote": "You couldn't build a Suno four years ago, or you could maybe build a much worse Suno four years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1982.468,
+            1987.214
+          ],
+          "quote": "And in the past, without a Suno, I just definitely wouldn't have done that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1987.614,
+            1988.896
+          ],
+          "quote": "With a Suno, I might do that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集用 Vercel 作为智能体 B2B 采用的例子：智能体可以直接去采用 Vercel 进行托管，不需要人去 Vercel.com 做任何操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            1868.74,
+            1877.862
+          ],
+          "quote": "So you can go, an agent can go adopt Vercel for hosting and they can do it without you needing to go to Vercel.com and do anything.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor 是 Stripe 遇到的第一个经历免费试用滥用的用户，约六分之一的免费试用用户是恶意的，因为 AI 让软件有了成本结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            222.737,
+            226.3
+          ],
+          "quote": "And so actually, I think Cursor was the first user that we...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2648.783,
+            2650.805
+          ],
+          "quote": "You can do just about anything with tokens on Cursor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到 Will 用 Claude Code 试着为侄女生日创作一首歌，作为不需要开月费账户、只需微消费的场景例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            1972.676,
+            1979.444
+          ],
+          "quote": "I was trying the other day, I was using Claude Code to try to compose a song for my niece's birthday.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "browserbase",
+      "type": "company",
+      "role": "company",
+      "name": "Browserbase",
+      "file": "Browserbase",
+      "primary": false,
+      "how_described": "本集说智能体可以去采用 Browserbase，并在 Stripe 做过演示——通过智能体使用 BrowserBase Live 来填写 NCAA 竞猜表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1894.144,
+            1897.185
+          ],
+          "quote": "You know, an agent can go adopt Browserbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1897.665,
+            1909.173
+          ],
+          "quote": "And we actually had a really great demo a while back at Stripe where we used BrowserBase Live via an agent to fill out an NCAA bracket.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1918.099,
+            1927.086
+          ],
+          "quote": "And so it was so cool to just watch the agent pick up a BrowserBase session and fire up ESPN.com and do a bit of research and just fill it out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "higgs-field",
+      "type": "company",
+      "role": "company",
+      "name": "Higgs field",
+      "file": "Higgs field",
+      "primary": false,
+      "how_described": "本集提到 Higgs field 作为四年前无法构建、现在可以构建的新软件例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            537.306,
+            538.868
+          ],
+          "quote": "You couldn't build a Higgs field four years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1989.737,
+            1990.838
+          ],
+          "quote": "You might do it with a Higgs field as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集提到 DoorDash 作为 Stripe 在 YC 早期捕捉到并随其成长的公司例子，也提到 DoorDash 在使用 Tempo。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            363.281,
+            374.752
+          ],
+          "quote": "And then famously, part of the beauty of Stripe's growth and business model is that you captured companies like DoorDash and Instacart when they were in YC, and then you grew with them along the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2573.01,
+            2584.138
+          ],
+          "quote": "Still in the early stages of building out, getting a lot of great traction, working with companies like DoorDash, making it sort of the default, but not only blockchain in Stripe, and feeling very optimistic about it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "metronome",
+      "type": "company",
+      "role": "company",
+      "name": "Metronome",
+      "file": "Metronome",
+      "primary": false,
+      "how_described": "本集说 Metronome 是 Stripe 去年收购的相邻公司，其 CEO Scott Woody 在 Stripe 发展得很好，现在领导 Metronome 和计费工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            698.868,
+            701.712
+          ],
+          "quote": "You know, we actually, it was an adjacent company, Metronome.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            702.753,
+            708.12
+          ],
+          "quote": "We acquired Metronome last year, and Scott Woody, the CEO, is thriving at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            710.343,
+            712.165
+          ],
+          "quote": "Metronome and billing at this point.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "privy",
+      "type": "company",
+      "role": "company",
+      "name": "Privy",
+      "file": "Privy",
+      "primary": false,
+      "how_described": "本集说 Privy 是一家钱包基础设施公司，被 Stripe 收购，其成员 Asta 现在领导加密货币的工程工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            712.885,
+            719.531
+          ],
+          "quote": "We acquired Privy, which is a wallets infrastructure company, and Bridge over the last couple of years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            726.998,
+            729.76
+          ],
+          "quote": "Asta from Privy is leading engineering for crypto.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "type": "company",
+      "role": "company",
+      "name": "Bridge",
+      "file": "Bridge",
+      "primary": false,
+      "how_described": "本集说 Bridge 是 Stripe 过去几年收购的公司之一，Zach 在领导 Bridge 相关工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            712.885,
+            719.531
+          ],
+          "quote": "We acquired Privy, which is a wallets infrastructure company, and Bridge over the last couple of years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            722.053,
+            724.976
+          ],
+          "quote": "Zach is leading OpenUSD and Bridge, of course.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lemonsqueezy",
+      "type": "company",
+      "role": "company",
+      "name": "LemonSqueezy",
+      "file": "LemonSqueezy",
+      "primary": false,
+      "how_described": "本集说来自 LemonSqueezy 的 J.R. Farr 目前在领导 Stripe Treasury。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            730.801,
+            734.504
+          ],
+          "quote": "J.R. Farr from LemonSqueezy is leading Stripe Treasury at this point.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "11-labs",
+      "type": "company",
+      "role": "company",
+      "name": "11 labs",
+      "file": "11 labs",
+      "primary": false,
+      "how_described": "本集说 11 labs 每天使用 Stripe 信号阻止 2000 个免费试用滥用者，并且在使用 14 个 Stripe 产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            269.116,
+            278.38
+          ],
+          "quote": "And I think it's today, I think it's 11 labs recently told us that they're blocking 2,000 free trial abusers per day using Stripe signals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2882.986,
+            2887.05
+          ],
+          "quote": "And, you know, 11 Labs is using 14 Stripe products.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flutter",
+      "file": "Flutter",
+      "primary": false,
+      "how_described": "本集说 Flutter 是让团队更宽、管理层级更少的做法，是 Stripe 赋能工程师的核心组织变革举措之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1018.97,
+            1023.353
+          ],
+          "quote": "Probably, you know, just the shortest answer to your question is Flutter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1023.753,
+            1024.293
+          ],
+          "quote": "Yeah, Flutter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1026.074,
+            1027.195
+          ],
+          "quote": "Smaller teams, Flutter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1085.056,
+            1089.265
+          ],
+          "quote": "In a Flutter org, you both want wider teams, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "代币 (tokens)",
+      "file": "代币",
+      "primary": false,
+      "how_described": "本集说代币听起来像是金钱的近似物，而且越来越确实如此；Stripe 看到代币和美元之间的模糊，感到有使命在代币上保护用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            59.613,
+            63.314
+          ],
+          "quote": "What do you think is sort of the future state of how we all access models and tokens?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2608.563,
+            2612.749
+          ],
+          "quote": "You know, what do you think is kind of the state of play for accessing tokens?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2617.816,
+            2622.202
+          ],
+          "quote": "But, you know, what do you think is sort of the future state of how we all access models and tokens?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2648.783,
+            2650.805
+          ],
+          "quote": "You can do just about anything with tokens on Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2651.085,
+            2654.408
+          ],
+          "quote": "You can do just about anything with tokens on Replit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2666.613,
+            2671.395
+          ],
+          "quote": "And so there's this blurring that you see between tokens and dollars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2680.738,
+            2689.622
+          ],
+          "quote": "And we now feel this mandate to do the same thing on tokens and to protect our users in the same way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2704.286,
+            2706.987
+          ],
+          "quote": "And I used to pay, you know, a human in tokens for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2711.668,
+            2714.749
+          ],
+          "quote": "Now I pay fewer humans or a human in tokens, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2717.63,
+            2728.012
+          ],
+          "quote": "So we just want to make sure that moving between tokens and dollars is as seamless and safe as moving between dollars and euros.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2809.774,
+            2824.049
+          ],
+          "quote": "I mean, certainly in the latter, this sort of, you know, position as an orchestration layer that helps you effectively get the most out of tokens and, you know, also maintain some form of control, I think has like never been more top of mind than it is right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编码 (agentic coding)",
+      "file": "智能体编码",
+      "primary": false,
+      "how_described": "本集说做更多软件的成本下降了很多，因为只需要更少的工程师来构建想构建的东西，这归功于 agentic coding。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            547.455,
+            557.842
+          ],
+          "quote": "On the other side, the sort of cost of doing more software has decreased a lot because you just need many fewer engineers to build the things that you want to build because of agentic coding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Jevons paradox",
+      "reason": "专名「Jevons paradox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

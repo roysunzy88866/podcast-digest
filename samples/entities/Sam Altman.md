@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":16,"智能体":130,"沙箱":25,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":14,"OpenAI":59,"YC":7}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":16,"智能体":132,"沙箱":25,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":15,"OpenAI":59,"YC":7}</script>
 
 <script>
 (function(){

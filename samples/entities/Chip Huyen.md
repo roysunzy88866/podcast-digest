@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 

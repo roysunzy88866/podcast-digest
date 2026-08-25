@@ -4,7 +4,8 @@
     "2026-08-06-talks-payments-summit-2026-ai": 3,
     "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
     "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3,
-    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 3
+    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 3,
+    "2026-08-18-ainativedev-every-repo-is-a-software-factory-now-don": 1
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -50,7 +51,7 @@
   "audioWanted": {},
   "cutoffs": {
     "lennys": "2026-08-24T12:04:02.000Z",
-    "pg": "2026-08-06T20:17:48.000Z",
+    "pg": "2026-08-24T23:16:09.000Z",
     "a16z": "2026-08-25T10:00:00.000Z",
     "yc": "2026-08-11T19:53:56.000Z",
     "mad": "2026-08-07T18:38:32.000Z",
@@ -71,12 +72,12 @@
     "pragmatic": "2026-08-19T16:53:57.000Z",
     "workos": "2025-02-04T15:53:55.000Z",
     "practicalai": "2026-08-25T09:00:00.000Z",
-    "changelog": "2026-07-21T19:00:00.000Z",
+    "changelog": "2026-08-25T19:00:00.000Z",
     "devtools": "2026-08-20T05:41:51.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-08-24T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
-    "twiml": "2026-08-12T22:18:00.000Z",
+    "twiml": "2026-08-25T19:33:00.000Z",
     "eyeonai": "2026-08-24T15:07:00.000Z",
     "indepth": "2026-07-30T11:00:00.000Z",
     "uncapped": "2026-07-28T09:00:00.000Z",
@@ -409,6 +410,18 @@
       "reason": "题材不对味:档案「基础设施」类只要产业格局（如追英伟达），不要技术深水；Agents 主题仅收「商业+人+实操」，Practical AI 风格偏「参数+研究+架构」",
       "title": "Building Durable AI Agents",
       "pubDate": "2026-07-09T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-25-changelog-postgres-at-planetscale",
+      "reason": "题材不对味:主题是传统数据库架构/工程，非 AI 商业或产业面，属❌ 传统软件工程",
+      "title": "Postgres at PlanetScale",
+      "pubDate": "2026-08-25T19:00:00.000Z"
+    },
+    {
+      "id": "2026-08-25-twiml-why-the-next-ai-breakthrough-may-come-fr",
+      "reason": "题材不对味:❌ 档案明确排除「AI+科研应用(物理/生物)」及「学术研究/架构前沿」题材；本集聊 AI 与物理交叉，属学术科研面，非用户要的「商业/产业/实操」。",
+      "title": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
+      "pubDate": "2026-08-25T19:33:00.000Z"
     }
   ]
 }

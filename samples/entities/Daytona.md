@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Ivan Burazin]] · [[Rob Willoughby]] · [[Cognition]] · [[Guy Pajani]] · [[Neon]] · [[Simon Maple]] · [[Parallel]] · [[暗工厂]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"沙箱":25,"Ivan Burazin":1,"Rob Willoughby":1,"Cognition":7,"Guy Pajani":3,"Neon":2,"Simon Maple":4,"Parallel":4,"暗工厂":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"沙箱":25,"Ivan Burazin":1,"Rob Willoughby":1,"Cognition":7,"Guy Pajani":3,"Neon":2,"Simon Maple":4,"Parallel":4,"暗工厂":2}</script>
 
 <script>
 (function(){

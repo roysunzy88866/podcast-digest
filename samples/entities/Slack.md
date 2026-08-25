@@ -69,7 +69,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[护栏]] · [[Cursor]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Lenny":65,"GitHub":16,"Anthropic":65,"Claude Code":34,"沙箱":25,"Claude":32,"护栏":26,"Cursor":32,"提示词注入":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Lenny":65,"GitHub":16,"Anthropic":65,"Claude Code":35,"沙箱":25,"Claude":32,"护栏":27,"Cursor":34,"提示词注入":6}</script>
 
 <script>
 (function(){

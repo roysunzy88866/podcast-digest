@@ -73,7 +73,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Google]] · [[Microsoft]] · [[护栏]] · [[AGI]] · [[GPU]] · [[SpaceX]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":65,"OpenAI":59,"智能体":130,"Google":27,"Microsoft":12,"护栏":26,"AGI":16,"GPU":6,"SpaceX":8,"Apple":12}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":65,"OpenAI":59,"智能体":132,"Google":27,"Microsoft":12,"护栏":27,"AGI":16,"GPU":6,"SpaceX":8,"Apple":12}</script>
 
 <script>
 (function(){

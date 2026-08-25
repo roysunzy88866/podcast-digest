@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(10:16起):本集把它说成:在全栈前端领域拼「深度」的代表,不提供 AWS 的全功能但深耕特定领域,且连智能体都偏好它。
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:17起):本集说它提供 Eve 智能体框架，能用连接器向导简化 Slack/GitHub 配置。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(54:51起):本集顺带提及:设计师们到处构建原型，最终这些原型往往会发布到 Vercel 或导出为 HTML 文件。
+- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(31:08起):本集用 Vercel 作为智能体 B2B 采用的例子：智能体可以直接去采用 Vercel 进行托管，不需要人去 Vercel.com 做任何操作。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(27:01起):本集顺带提到在考虑是否要从 Vercel 迁移到 ChatGPT 站点
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:45起):本集提到 Vercel 的创始人 Guillermo Rauch 作为拉丁美洲裔在硅谷成功的人物，积极参与 a16z 的无国界晚宴、帮助后来的拉美创始人
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(49:33起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
@@ -37,6 +38,7 @@ unlisted: true
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司(提及)
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为被讨论公司(提及)
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
@@ -45,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Stripe]] · [[GitHub]] · [[Cursor]] · [[OpenAI]] · [[Lovable]] · [[go-to-market]] · [[Salesforce]] · [[Slack]]
+[[智能体]] · [[Cursor]] · [[Stripe]] · [[Lenny]] · [[OpenAI]] · [[GitHub]] · [[Lovable]] · [[go-to-market]] · [[Salesforce]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Lenny":65,"Stripe":18,"GitHub":16,"Cursor":32,"OpenAI":59,"Lovable":9,"go-to-market":4,"Salesforce":7,"Slack":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Cursor":34,"Stripe":19,"Lenny":65,"OpenAI":59,"GitHub":16,"Lovable":9,"go-to-market":4,"Salesforce":7,"Slack":20}</script>
 
 <script>
 (function(){

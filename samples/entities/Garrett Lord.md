@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Handshake":1,"后训练":12,"数据标注":2,"智能体":130,"预训练":5,"轨迹数据":1,"SFT":1,"带人类反馈的强化学习":1,"评分标准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Handshake":1,"后训练":12,"数据标注":2,"智能体":132,"预训练":5,"轨迹数据":1,"SFT":1,"带人类反馈的强化学习":1,"评分标准":1}</script>
 
 <script>
 (function(){

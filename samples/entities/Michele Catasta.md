@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":10,"Replit Agent":1,"智能体":130,"vibe coding":23,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":3,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":10,"Replit Agent":1,"智能体":132,"vibe coding":23,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":3,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

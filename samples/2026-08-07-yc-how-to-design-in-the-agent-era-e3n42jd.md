@@ -134,9 +134,9 @@ YC 的设计负责人甚至用它给被录取的创业者做了带名字动画�
 
 **顺着「产品方法」挖下去**
 
+- [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：产品经理、设计师、工程师三个角色正在合并]]<span class="pd-rz">同公司:Cursor、Figma · 同概念:智能体 (agent)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:Figma、GitHub · 同概念:智能体 (agent)</span>
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Claude Code、Figma</span>
 
 </div>
 <div class="pd-ex">

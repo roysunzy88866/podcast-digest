@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]] [[Rich Sutton]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":27,"智能体":130,"Ryan Carson":2,"Devon":4,"云端智能体":2,"Claude Code":34,"剧本":4,"后台智能体":5,"Cursor":32,"产品市场契合":9}</script>
+<script type="application/json" class="pd-epn">{"Codex":27,"智能体":132,"Ryan Carson":2,"Devon":4,"云端智能体":2,"Claude Code":35,"剧本":4,"后台智能体":5,"Cursor":34,"产品市场契合":9}</script>
 
 <script>
 (function(){

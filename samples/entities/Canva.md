@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Intercom]] · [[智能体]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Harry Stabbings]] · [[Cursor]] · [[Column B]] · [[Jason Lamkin]] · [[Charge Flow]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Intercom":4,"智能体":130,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":1,"Cursor":32,"Column B":1,"Jason Lamkin":1,"Charge Flow":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Intercom":4,"智能体":132,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":1,"Cursor":34,"Column B":1,"Jason Lamkin":1,"Charge Flow":1}</script>
 
 <script>
 (function(){

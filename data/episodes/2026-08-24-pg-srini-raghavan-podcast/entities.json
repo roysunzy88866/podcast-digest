@@ -1,0 +1,2000 @@
+{
+  "episode_id": "2026-08-24-pg-srini-raghavan-podcast",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-08-24",
+  "tags": [
+    "AI PDLC",
+    "产品构建者",
+    "MCP",
+    "PRD 自动化",
+    "组织变革"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "aakash",
+      "type": "person",
+      "role": "host",
+      "name": "Aakash",
+      "file": "Aakash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            149.455,
+            150.206
+          ],
+          "quote": "Thank you, Aakash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1146.75,
+            1148.493
+          ],
+          "quote": "What do you think, Aakash, so far?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1250,
+          "t": [
+            3811.779,
+            3816.76
+          ],
+          "quote": "My LinkedIn is linkedin.com slash four slash srinivasan28 and Aakash,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            3833.092,
+            3833.673
+          ],
+          "quote": " Thank you, Aakash.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "srini-raghavan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Srini Raghavan",
+      "file": "Srini Raghavan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.661,
+            16.287
+          ],
+          "quote": "Meet Srini Raghavan, CPO of the $2.8 billion employee experience giant Freshworks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "freshworks",
+      "type": "company",
+      "role": "company",
+      "name": "Freshworks",
+      "file": "Freshworks",
+      "primary": true,
+      "how_described": "本集将其描述为一家拥有 75,000 名客户、收入达十亿美元级别的上市 SaaS 巨头，正在通过 AI PDLC 将六个月的发布周期压缩至两周，并将 PM 与工程师的比例从 1:20 转变为 1:1。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.661,
+            16.287
+          ],
+          "quote": "Meet Srini Raghavan, CPO of the $2.8 billion employee experience giant Freshworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            107.321,
+            109.102
+          ],
+          "quote": "Freshworks went public in 2021.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            127.486,
+            130.319
+          ],
+          "quote": "Freshworks was known for a six-month release cycle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            297.578,
+            302.886
+          ],
+          "quote": "So here's the product development lifecycle ecosystem that we have at Freshworks today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            351.091,
+            355.697
+          ],
+          "quote": "Agents, all these are very specific to Freshworks because we are",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            788.035,
+            792.059
+          ],
+          "quote": "And what you see here is a Freshworks AI PDLC demo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            1632.13,
+            1634.834
+          ],
+          "quote": "where we had a Freshworks init process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2527.157,
+            2530.559
+          ],
+          "quote": "Like Freshworks as a company, we use this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2534.801,
+            2536.102
+          ],
+          "quote": "So we can give them what is Freshworks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1115,
+          "t": [
+            3404.197,
+            3409.859
+          ],
+          "quote": "that Freshworks is changing its ratio of PMs to engineers from when you began",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1212,
+          "t": [
+            3720.335,
+            3725.322
+          ],
+          "quote": "How are you personally hiring people, hiring AI PMs at Freshworks?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1246,
+          "t": [
+            3803.873,
+            3805.0649999999996
+          ],
+          "quote": "And Freshworks is hiring.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说它是一个集成开发环境（IDE），被选作 AI PDLC 的核心运行环境，因为它是无代码 IDE、可以按任务挑选不同模型、且能通过 MCP 插件读取 Figma 原型并生成代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            391.784,
+            394.827
+          ],
+          "quote": "It all sort of starts and ends in cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            429.024,
+            432.075
+          ],
+          "quote": "for spinning up the prototype and it lives inside Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            432.125,
+            436.706
+          ],
+          "quote": "And you can also do the pull request from inside Cursor to actually build the thing",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            596.458,
+            598.0690000000001
+          ],
+          "quote": "And I'm going to show you this in Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            598.119,
+            599.119
+          ],
+          "quote": "And why Cursor?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            600.982,
+            604.224
+          ],
+          "quote": "The Cursor is an integrated development environment,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            604.645,
+            607.807
+          ],
+          "quote": "which to me, I like Cursor for three reasons.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            651.459,
+            656.173
+          ],
+          "quote": "So these are the three reasons why I primarily like cursor as the development environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            784.532,
+            787.735
+          ],
+          "quote": " So this is the cursor environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            834.99,
+            837.152
+          ],
+          "quote": "Or I need to get access to cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            931.844,
+            937.388
+          ],
+          "quote": " So I'm going to say that I'm staging what I was able to do in cursor earlier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1722.257,
+            1729.257
+          ],
+          "quote": "So I'm going to go back to cursor, take the PRD that I had and paste it into Figma make here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 586,
+          "t": [
+            1769.64,
+            1772.914
+          ],
+          "quote": "Remember the eight use cases that I just showed you in cursor?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2019.533,
+            2025.881
+          ],
+          "quote": "And Figma also lets you connect with other external data sources like cursor and other places.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1105,
+          "t": [
+            3373.073,
+            3376.7396666666664
+          ],
+          "quote": "And you have to think about CLI, everything that we did in cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            3378.792,
+            3381.1253333333334
+          ],
+          "quote": "I was literally chatting away with Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3639.236,
+            3642.48
+          ],
+          "quote": "The whole cursor thing that I just showed you One of the guys",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1238,
+          "t": [
+            3786.354,
+            3789.325
+          ],
+          "quote": "tell me about that, but why don't you open a cursor and just show me what you did?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集说团队选择使用 Figma 及其内的 AI 生成工具 Figma Make 来做原型设计，主要是因为团队对其熟悉度最高，在改变软件构建方式时不想同时逼人换工具以减少阻力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            31.5,
+            35.403
+          ],
+          "quote": "builds the prototyping Figma and then creates a wireframe from it and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            637.693,
+            642.257
+          ],
+          "quote": "Number three, it has connections to Figma and other third-party sources.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            642.818,
+            645.733
+          ],
+          "quote": "my favorite thing is to use the Figma MCP plugin,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            646.114,
+            651.038
+          ],
+          "quote": "whereby it can read the Figma mockups that we create and it can create code from it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1529.685,
+            1532.628
+          ],
+          "quote": "It's very easy to use AI or even Figma Make for that matter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            1625.72,
+            1627.222
+          ],
+          "quote": " The Figma make.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 549,
+          "t": [
+            1627.563,
+            1632.069
+          ],
+          "quote": "Well, let me start with the same as how we started with Figma,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1722.257,
+            1729.257
+          ],
+          "quote": "So I'm going to go back to cursor, take the PRD that I had and paste it into Figma make here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1783.171,
+            1787.433
+          ],
+          "quote": "So is Figma Make your preferred prototyping tool because it has access",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            1787.453,
+            1790.4850000000001
+          ],
+          "quote": "to your design system and you can easily bring it into Figma files?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2015.448,
+            2018.952
+          ],
+          "quote": "a lot of our product managers are very familiar with Figma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2019.533,
+            2025.881
+          ],
+          "quote": "And Figma also lets you connect with other external data sources like cursor and other places.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2043.825,
+            2045.548
+          ],
+          "quote": "and Figma, and this evolves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2176.591,
+            2181.134
+          ],
+          "quote": "And this is now a completely built out mock-up that Figma,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2181.234,
+            2185.6679999999997
+          ],
+          "quote": "Figma Make, essentially the agent running within Figma Make, has built it for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3840.122,
+            3844.449
+          ],
+          "quote": "and AI prototyping and Figma Make to vastly accelerate how they build AI agent",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到 Freshworks 内部叫 Baikal 的数据湖是建在 Databricks 上的，PRD Genie 会写 SQL 查询去拉取其中的真实使用数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            1245.513,
+            1250.435
+          ],
+          "quote": "Baikal is our Databricks data lake, which has all the usage data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1419.531,
+            1425.033
+          ],
+          "quote": "It sort of shows, this is what I said by code, which is our data lake built on Databricks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": false,
+      "how_described": "本集在展示 PRD Genie 的竞品分析阶段时，提到它以 Atlassian 作为参照来了解竞争对手是怎么做的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1220.825,
+            1222.426
+          ],
+          "quote": "Like GSM is Atlassian.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体，既指 AI PDLC 中帮助写 PRD、做设计的产品发现智能体和设计智能体，也指 Agent Studio 里企业 IT 管理员搭建的、处理员工 IT 和 HR 请求的 AI 智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            227.539,
+            232.805
+          ],
+          "quote": "the ex-AI agent that they created, and how it interacts with MCPs in Cloud Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            308.895,
+            313.2283333333333
+          ],
+          "quote": "development, We have an AI agent that's helping in every step of this process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            386.959,
+            389.892
+          ],
+          "quote": "Where we have a product discovery agent and a design agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            522.363,
+            525.875
+          ],
+          "quote": "It's an AI agent that reviews the document for strategic alignment,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            531.588,
+            533.5590000000001
+          ],
+          "quote": "but the AI agent does it automatically now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            800.686,
+            803.8526666666667
+          ],
+          "quote": "What I'm trying to solve is we launched a AI agent studio",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            809.924,
+            814.797
+          ],
+          "quote": "And we recently launched our EX AI Agent Studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            831.128,
+            834.29
+          ],
+          "quote": "imagine AI agent is answering questions about, hey, my Zoom is not working.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            840.862,
+            843.244
+          ],
+          "quote": "Like all these things, an AI agent is answering questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            847.087,
+            851.08
+          ],
+          "quote": "Imagine you are the IT admin and you want to see how the AI agent is performing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            851.13,
+            854.923
+          ],
+          "quote": "That's what it's called as performance analysis of how the AI agent is performing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            985.857,
+            988.481
+          ],
+          "quote": "the problem here is EXAI Agent Studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            989.102,
+            992.767
+          ],
+          "quote": "they don't have any unified view of how their AI agent performs across",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            994.169,
+            998.205
+          ],
+          "quote": "We already have that for EXAI Agent Studio, and that's what we want to build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1048.951,
+            1052.734
+          ],
+          "quote": "go build a performance dashboard for an agent studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1059.599,
+            1064.382
+          ],
+          "quote": "which is essentially what the AI agent is thinking and saying, okay,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1127.844,
+            1130.564
+          ],
+          "quote": "Analytics deal-down should be at this level, agent, topic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1308.972,
+            1314.78
+          ],
+          "quote": "all this stuff are the different stages that the AI agent just went through",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1325.936,
+            1327.698
+          ],
+          "quote": "So the agent studio performance dashboard,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1341.392,
+            1346.053
+          ],
+          "quote": "The agent just did this in a matter of seconds, not even minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1377.011,
+            1380.734
+          ],
+          "quote": "This is the PRD for Agent Studio Performance Dashboard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            1962.478,
+            1965.982
+          ],
+          "quote": "The agent builder will ask a few questions to shape it and then",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1966.042,
+            1968.765
+          ],
+          "quote": "the agent connectors plug it into your stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            1970.367,
+            1972.17
+          ],
+          "quote": "The agent reads the PRD,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            1992.192,
+            1994.483
+          ],
+          "quote": "Set up the agent once and it runs the work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2008.021,
+            2010.0320000000002
+          ],
+          "quote": "The agent library is linked right there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2181.234,
+            2185.6679999999997
+          ],
+          "quote": "Figma Make, essentially the agent running within Figma Make, has built it for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2207.511,
+            2208.552
+          ],
+          "quote": "in Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2209.612,
+            2215.317
+          ],
+          "quote": "Okay, now I'm going to show you how the actual Agent Studio itself looks like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2216.378,
+            2220.781
+          ],
+          "quote": "And this is the Agent Studio that we released maybe two months back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2221.622,
+            2223.944
+          ],
+          "quote": "And think of this Agent Studio as clock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2235.478,
+            2239.979
+          ],
+          "quote": "But what the agent studio is meant for is meant for two specific things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2266.14,
+            2268.251111111111
+          ],
+          "quote": "And that's what the Agent Studio does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2268.499,
+            2271.3709999999996
+          ],
+          "quote": " Now let me show you the actual Agent Studio itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2271.421,
+            2273.061
+          ],
+          "quote": "So this is our Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2277.103,
+            2279.625
+          ],
+          "quote": "So this is what we call as Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2284.727,
+            2290.0603333333333
+          ],
+          "quote": "And here is the Agent Studio, which is inbuilt into the interface that they are already used to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2366.822,
+            2371.983
+          ],
+          "quote": "If I go to one of the existing AI agents, let me look at this IT and HR agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 761,
+          "t": [
+            2372.463,
+            2376.304
+          ],
+          "quote": "So think of knowledge as what feeds the AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2439.012,
+            2442.474
+          ],
+          "quote": "So not all the knowledge has to live within the agent studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 813,
+          "t": [
+            2520.653,
+            2524.846
+          ],
+          "quote": " And similarly, there are some instructions that you can give to the AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 830,
+          "t": [
+            2553.313,
+            2556.805
+          ],
+          "quote": "the AI agent is asked questions in English or Spanish or German, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 833,
+          "t": [
+            2562.579,
+            2568.944
+          ],
+          "quote": "So bottom line, you can customize the AI agent to behave and act in the way that you prefer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 834,
+          "t": [
+            2570.512,
+            2575.336
+          ],
+          "quote": " And finally, you can test the agent here once you build the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2576.817,
+            2579.98
+          ],
+          "quote": "all these screens are used by an IT admin to build an AI agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 845,
+          "t": [
+            2599.928,
+            2604.575
+          ],
+          "quote": "So I'm going to show you a demo of Slack and how once an agent is configured,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 848,
+          "t": [
+            2608.96,
+            2613.605
+          ],
+          "quote": "So now let me go to Slack and show you how the agent is actually doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 849,
+          "t": [
+            2613.785,
+            2618.81
+          ],
+          "quote": "So what we call this is what we have done now is created an IT and HR agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 853,
+          "t": [
+            2627.599,
+            2634.599
+          ],
+          "quote": " So this is how AI agent can help them in the different phases where they need help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 892,
+          "t": [
+            2753.999,
+            2760.002
+          ],
+          "quote": "So here, I'm just asking a question to my AI agent saying, hey, can I get a blank W4 tax form?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 940,
+          "t": [
+            2890.097,
+            2891.76
+          ],
+          "quote": "The AI agent is helping.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            2891.8,
+            2893.622
+          ],
+          "quote": "It's not about the power of AI agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 947,
+          "t": [
+            2904.939,
+            2908.284
+          ],
+          "quote": "You can just literally go to this AI agent and AI agent is going to help you",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 958,
+          "t": [
+            2942.626,
+            2945.248
+          ],
+          "quote": "So that's the power of AI Agent Studio for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 960,
+          "t": [
+            2947.21,
+            2951.995
+          ],
+          "quote": "I was able to show you how to set up an agent and how easy it is to set up an agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 961,
+          "t": [
+            2952.636,
+            2956.48
+          ],
+          "quote": "in our Agent Studio and how easy it is to use from inside Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            3204.217,
+            3211.217
+          ],
+          "quote": " See, this is the power of MCP where an IT agent now Remember how I started it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            3212.057,
+            3216.359
+          ],
+          "quote": "If I'm an IT agent, I'm spending all my day just responding to tickets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            3226.124,
+            3231.067
+          ],
+          "quote": " Then in one shot, I say, okay, help me answer these tickets because I may be a new agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            3369.531,
+            3373.0229999999997
+          ],
+          "quote": "It was built for an AI agent that was built for Cloud to be more effective.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1108,
+          "t": [
+            3381.294,
+            3385.247
+          ],
+          "quote": "Everything that I was doing in Slack, I was just chatting with an AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3472.891,
+            3476.104
+          ],
+          "quote": "Now we are seeing that with our agent studio that we just launched.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3840.122,
+            3844.449
+          ],
+          "quote": "and AI prototyping and Figma Make to vastly accelerate how they build AI agent",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是让 AI 工具连接外部数据源的协议（如 Figma MCP 插件、Fresh Service MCP），演示了通过它让 Claude 一条提示词拉取 60 天工单、生成根因分析报告并批量回复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            642.818,
+            645.733
+          ],
+          "quote": "my favorite thing is to use the Figma MCP plugin,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            676.609,
+            679.231
+          ],
+          "quote": "Someone hits a key activation They also have an MCP server,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 976,
+          "t": [
+            2984.693,
+            2987.114
+          ],
+          "quote": "I have connected it to Fresh Service MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1032,
+          "t": [
+            3146.025,
+            3146.726
+          ],
+          "quote": "used the MCP,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1033,
+          "t": [
+            3146.746,
+            3148.186
+          ],
+          "quote": "Fresh Service MCP,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            3204.217,
+            3211.217
+          ],
+          "quote": " See, this is the power of MCP where an IT agent now Remember how I started it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1070,
+          "t": [
+            3266.837,
+            3273.183
+          ],
+          "quote": "And that's where a combination of the Fresh Service MCP plus Cloud is helping",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            3307.904,
+            3309.395
+          ],
+          "quote": "So that's the power of MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3319.007,
+            3322.668
+          ],
+          "quote": "and then how they can connect that with MCP into your agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            3323.188,
+            3328.833
+          ],
+          "quote": "What do PMs need to know who haven't built AI agents and MCP features in order",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            3364.909,
+            3369.471
+          ],
+          "quote": "What we just saw with MCP, that was not a system that was built for humans.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            3844.489,
+            3845.851
+          ],
+          "quote": "and MCP products.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prd-genie",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD Genie",
+      "file": "PRD Genie",
+      "primary": true,
+      "how_described": "本集说它是跑在 Cursor 里的工具，PM 输入问题陈述后走 12 个阶段（创意简报、竞品分析、客户声音、定量指标等）自动出 PRD，并连接数据湖写 SQL 拉真实数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            482.219,
+            486.403
+          ],
+          "quote": " And that's exactly the problem that the PRD Genie has solved.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            3629.269,
+            3632.892
+          ],
+          "quote": "The PRD genie that I showed you earlier was something that one",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1187,
+          "t": [
+            3634.553,
+            3636.8849999999998
+          ],
+          "quote": "hey, I built this PRD genie, I want to show it to everybody.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1261,
+          "t": [
+            3834.895,
+            3839.942
+          ],
+          "quote": "So I hope you enjoyed that deep dive into how they have used PRD Genie",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-pdlc",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI PDLC",
+      "file": "AI PDLC",
+      "primary": true,
+      "how_described": "本集称其为 AI Product Development Lifecycle，是 Freshworks 的产品开发生命周期生态系统，在发现、设计、规划、开发每一步都有 AI 智能体帮助，配有治理框架和评估框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            225.277,
+            227.199
+          ],
+          "quote": "We'll walk through the AI PDLC,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            232.965,
+            235.21099999999998
+          ],
+          "quote": "Srini, can you get us started with the AI PDLC?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            313.541,
+            315.865
+          ],
+          "quote": "And that's what we call as the AI PDLC,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            535.59,
+            540.372
+          ],
+          "quote": "It seamlessly plugs the rest of the AI PDLC process across all the teams.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            788.035,
+            792.059
+          ],
+          "quote": "And what you see here is a Freshworks AI PDLC demo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            878.848,
+            880.749
+          ],
+          "quote": "to initialize the AI PDLC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1559.061,
+            1563.2730000000001
+          ],
+          "quote": "So there are specific instructions that are given as part of the AI PDLC process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2202.327,
+            2207.331
+          ],
+          "quote": "how we use the AI PDLC to build the core functionality of performance dashboard",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3310.065,
+            3313.486
+          ],
+          "quote": "So we just walked through AI PDLC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma-make",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma Make",
+      "file": "Figma Make",
+      "primary": true,
+      "how_described": "本集说它是 Figma 内的 AI 生成工具，把 PRD 喂给它后能在预加载的 Fresh Service 界面框架里构建新模块的原型，本质上是运行在 Figma Make 中的智能体在构建设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            1529.685,
+            1532.628
+          ],
+          "quote": "It's very easy to use AI or even Figma Make for that matter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            1625.72,
+            1627.222
+          ],
+          "quote": " The Figma make.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1722.257,
+            1729.257
+          ],
+          "quote": "So I'm going to go back to cursor, take the PRD that I had and paste it into Figma make here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            1783.171,
+            1787.433
+          ],
+          "quote": "So is Figma Make your preferred prototyping tool because it has access",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2181.234,
+            2185.6679999999997
+          ],
+          "quote": "Figma Make, essentially the agent running within Figma Make, has built it for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3840.122,
+            3844.449
+          ],
+          "quote": "and AI prototyping and Figma Make to vastly accelerate how they build AI agent",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-studio",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent Studio",
+      "file": "Agent Studio",
+      "primary": true,
+      "how_described": "本集说它是 Freshworks 推出的产品，企业 IT 管理员可以用它搭建面向内部员工的 IT 和 HR 智能体，处理密码重置、软件申请、保险咨询等请求，知识来源包括手动录入文章、第三方连接器和服务目录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            800.686,
+            803.8526666666667
+          ],
+          "quote": "What I'm trying to solve is we launched a AI agent studio",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            809.924,
+            814.797
+          ],
+          "quote": "And we recently launched our EX AI Agent Studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            985.857,
+            988.481
+          ],
+          "quote": "the problem here is EXAI Agent Studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            994.169,
+            998.205
+          ],
+          "quote": "We already have that for EXAI Agent Studio, and that's what we want to build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1048.951,
+            1052.734
+          ],
+          "quote": "go build a performance dashboard for an agent studio,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1325.936,
+            1327.698
+          ],
+          "quote": "So the agent studio performance dashboard,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1377.011,
+            1380.734
+          ],
+          "quote": "This is the PRD for Agent Studio Performance Dashboard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2207.511,
+            2208.552
+          ],
+          "quote": "in Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2209.612,
+            2215.317
+          ],
+          "quote": "Okay, now I'm going to show you how the actual Agent Studio itself looks like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2216.378,
+            2220.781
+          ],
+          "quote": "And this is the Agent Studio that we released maybe two months back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2221.622,
+            2223.944
+          ],
+          "quote": "And think of this Agent Studio as clock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2235.478,
+            2239.979
+          ],
+          "quote": "But what the agent studio is meant for is meant for two specific things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2266.14,
+            2268.251111111111
+          ],
+          "quote": "And that's what the Agent Studio does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2268.499,
+            2271.3709999999996
+          ],
+          "quote": " Now let me show you the actual Agent Studio itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2271.421,
+            2273.061
+          ],
+          "quote": "So this is our Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2277.103,
+            2279.625
+          ],
+          "quote": "So this is what we call as Agent Studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2284.727,
+            2290.0603333333333
+          ],
+          "quote": "And here is the Agent Studio, which is inbuilt into the interface that they are already used to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2439.012,
+            2442.474
+          ],
+          "quote": "So not all the knowledge has to live within the agent studio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 958,
+          "t": [
+            2942.626,
+            2945.248
+          ],
+          "quote": "So that's the power of AI Agent Studio for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 961,
+          "t": [
+            2952.636,
+            2956.48
+          ],
+          "quote": "in our Agent Studio and how easy it is to use from inside Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3472.891,
+            3476.104
+          ],
+          "quote": "Now we are seeing that with our agent studio that we just launched.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "product-builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品构建者 (product builder)",
+      "file": "产品构建者",
+      "primary": true,
+      "how_described": "本集说产品经理、设计师、工程师三个角色未来几年会被这个单一角色取代，因为有了 AI，一个人就能同时做调研、设计和开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.32,
+            10.561
+          ],
+          "quote": "a product builder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            194.981,
+            197.25877777777777
+          ],
+          "quote": "by what I call as a product builder role.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            222.074,
+            225.217
+          ],
+          "quote": "of how this product builder rule happens in three steps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1211,
+          "t": [
+            3715.187,
+            3720.094
+          ],
+          "quote": "PMs might have to become PM plus engineer, this new product builder role.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到 Agent Studio 里的 AI 智能体不能产生幻觉，意味着它们需要护栏和治理，通过给它们数据来训练来实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 763,
+          "t": [
+            2378.785,
+            2382.475
+          ],
+          "quote": "which means they need to have guardrails and they need to be governed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集提到在 Cursor 中不是所有任务都需要最新的 LLM 模型，可以按需挑选不同模型来执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            626.263,
+            633.263
+          ],
+          "quote": "unless you pick and choose the models, like not everything needs a latest LLM model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": true,
+      "how_described": "本集说构建 AI 优先软件的基础首先是合适的设计系统（Freshworks 的叫 Due）、编码系统和可复用仓库，AI 生成原型时必须正确引用设计系统组件，否则需要人手动纠正。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            267.419,
+            269.42
+          ],
+          "quote": "an appropriate design system,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 551,
+          "t": [
+            1634.914,
+            1641.914
+          ],
+          "quote": " You see here that we have the fresh service starter and we have due Due is our design system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            1787.453,
+            1790.4850000000001
+          ],
+          "quote": "to your design system and you can easily bring it into Figma files?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1795.017,
+            1797.8503333333333
+          ],
+          "quote": "It has our design system, which is our dual system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 596,
+          "t": [
+            1799.3,
+            1801.791
+          ],
+          "quote": "But we have built our design system into Cloud as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1804.282,
+            1807.934
+          ],
+          "quote": "Cloud has Cloud Design where you can also feed in your design system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaffolding",
+      "type": "concept",
+      "role": "concept",
+      "name": "脚手架 (scaffolding)",
+      "file": "脚手架",
+      "primary": false,
+      "how_described": "本集说把 Fresh Service 的整个界面框架作为脚手架预加载进 Figma Make，这样生成原型时不是从空白画布开始，而是从 75,000 名客户正在使用的画布开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            970.628,
+            973.48
+          ],
+          "quote": "It's creating the scaffolding that's needed to build it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            1643.184,
+            1647.066
+          ],
+          "quote": "And Fresh Service is the, think of it like a scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            1649.388,
+            1653.751
+          ],
+          "quote": "Fresh Service is the scaffolding in which all the functionality that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            1653.791,
+            1656.0030000000002
+          ],
+          "quote": "the users see is inside the scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            1656.053,
+            1660.936
+          ],
+          "quote": "So I'm going to start with this scaffolding of Fresh Service because",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            1663.217,
+            1666.9392222222223
+          ],
+          "quote": "the performance dashboard, is inside the Fresh Service scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            1667.516,
+            1674.078
+          ],
+          "quote": "So I'm preloading the fresh service scaffolding so that when I create",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 563,
+          "t": [
+            1684.6,
+            1686.1555555555556
+          ],
+          "quote": "And this is the scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            1686.601,
+            1687.581
+          ],
+          "quote": "When I say scaffolding,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "service-catalog",
+      "type": "concept",
+      "role": "concept",
+      "name": "服务目录 (service catalog)",
+      "file": "服务目录",
+      "primary": false,
+      "how_described": "本集说它是 IT 部门维护的已批准服务和软件列表，员工只能申请目录里有的东西不能随便提要求，也是 Agent Studio 智能体知识的来源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 364,
+          "t": [
+            1109.171,
+            1112.754
+          ],
+          "quote": "service catalog, all these are things that an IT admin would understand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1388.72,
+            1390.5710000000001
+          ],
+          "quote": "has something called Service Catalog,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 796,
+          "t": [
+            2466.826,
+            2470.575
+          ],
+          "quote": "Then I'm going to show you something very specific, which is a service catalog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 797,
+          "t": [
+            2470.625,
+            2477.625
+          ],
+          "quote": " Think of a service catalog as a list of things that you can have to get information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 811,
+          "t": [
+            2517.772,
+            2519.314
+          ],
+          "quote": "They have to ask within the service catalog.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

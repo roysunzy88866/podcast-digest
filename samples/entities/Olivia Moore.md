@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":130,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":18}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":132,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":19}</script>
 
 <script>
 (function(){

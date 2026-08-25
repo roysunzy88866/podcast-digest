@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[主观能动性]] · [[LLM]] · [[Albert Cheng]] · [[Kiriti Badam]] · [[Jason Cohen]] · [[Grammarly]] · [[Aishwarya Reganti]] · [[客户流失率]] · [[Chess.com]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"主观能动性":14,"LLM":14,"Albert Cheng":1,"Kiriti Badam":1,"Jason Cohen":1,"Grammarly":2,"Aishwarya Reganti":1,"客户流失率":1,"Chess.com":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"主观能动性":15,"LLM":15,"Albert Cheng":1,"Kiriti Badam":1,"Jason Cohen":1,"Grammarly":2,"Aishwarya Reganti":1,"客户流失率":1,"Chess.com":2}</script>
 
 <script>
 (function(){

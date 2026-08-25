@@ -33,7 +33,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Jerry Murdock]] · [[Julien Bek]] · [[Neoclouds]] · [[Sequoia]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"智能体":130,"Anthropic":65,"OpenAI":59,"Cursor":32,"Jerry Murdock":1,"Julien Bek":1,"Neoclouds":1,"Sequoia":2,"前沿模型":4}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"智能体":132,"Anthropic":65,"OpenAI":59,"Cursor":34,"Jerry Murdock":1,"Julien Bek":1,"Neoclouds":1,"Sequoia":2,"前沿模型":4}</script>
 
 <script>
 (function(){

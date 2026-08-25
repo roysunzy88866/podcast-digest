@@ -143,7 +143,7 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相]]<span class="pd-rz">同概念:智能体 (agent)、生存风险 (existential risk)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 的选择：用 AI 构建更多，而不是更少]]<span class="pd-rz">同概念:智能体 (agent)、品味 (taste)</span>
 
 </div>
 </div>

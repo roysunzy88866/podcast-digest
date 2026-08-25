@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Roblox CEO]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Roblox CEO]] [[Will Gabrick]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":1,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":9}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":9}</script>
 
 <script>
 (function(){

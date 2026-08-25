@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]]
+[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":1,"vibe coding":23,"智能体":130,"迭代循环":1,"LLM":14,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":32}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":1,"vibe coding":23,"智能体":132,"迭代循环":1,"LLM":15,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":34}</script>
 
 <script>
 (function(){

@@ -163,7 +163,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[AGI]] · [[Cursor]] · [[推理]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Anthropic":65,"Google":27,"Lenny":65,"ChatGPT":34,"NVIDIA":20,"AGI":16,"Cursor":32,"推理":1,"Claude":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Anthropic":65,"Google":27,"Lenny":65,"ChatGPT":34,"NVIDIA":20,"AGI":16,"Cursor":34,"推理":1,"Claude":32}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[Meta]] · [[Jiaona Zhang]] · [[Meng To]] · [[Daniel McKinnon]] · [[Laurel]] · [[Cursor]] · [[评估]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Codex":27,"Meta":18,"Jiaona Zhang":1,"Meng To":1,"Daniel McKinnon":1,"Laurel":1,"Cursor":32,"评估":15,"GitHub":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Codex":27,"Meta":18,"Jiaona Zhang":1,"Meng To":1,"Daniel McKinnon":1,"Laurel":1,"Cursor":34,"评估":15,"GitHub":16}</script>
 
 <script>
 (function(){

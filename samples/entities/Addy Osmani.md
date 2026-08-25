@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]]
+[[Ryan Carson]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Oji Udezue]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":130,"认知投降":2,"认知债务":2,"循环工程":3,"软件工厂":2,"Core Web Vitals":1,"互相放大":1,"护栏":26,"Chrome":3}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":132,"认知投降":2,"认知债务":2,"循环工程":3,"软件工厂":2,"Core Web Vitals":1,"互相放大":1,"护栏":27,"Chrome":3}</script>
 
 <script>
 (function(){

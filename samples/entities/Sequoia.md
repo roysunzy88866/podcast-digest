@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Brian Halligan]] · [[Julien Bek]] · [[Lenny]] · [[Harry Stebbings]] · [[HubSpot]] · [[Copilot]] · [[MongoDB]] · [[自动驾驶]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":130,"Brian Halligan":1,"Julien Bek":1,"Lenny":65,"Harry Stebbings":5,"HubSpot":4,"Copilot":5,"MongoDB":3,"自动驾驶":1,"Salesforce":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":132,"Brian Halligan":1,"Julien Bek":1,"Lenny":65,"Harry Stebbings":5,"HubSpot":4,"Copilot":5,"MongoDB":3,"自动驾驶":1,"Salesforce":7}</script>
 
 <script>
 (function(){

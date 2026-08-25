@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Aakash</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Aakash">AA</div><div class="pi"><h1 class="pt">Aakash</h1><div class="byl">Product Growth Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Aakash">AA</div><div class="pi"><h1 class="pt">Aakash</h1><div class="byl">Product Growth Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为主持
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Oji Udezue]] · [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[Product Mind]] · [[Typeform]] · [[GitHub]] · [[Notion]]
+[[Figma]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Claude Code]] · [[Freshworks]] · [[项目脚手架技能]] · [[Cursor]] · [[可行性闸门]] · [[Databricks]] · [[vibe coder]]
 
-## ④ 也在聊「AI 编程」的人
-
-<div class="pd-peers">
-
-[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":34,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":16,"Notion":8}</script>
+<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":35,"Freshworks":1,"项目脚手架技能":1,"Cursor":34,"可行性闸门":1,"Databricks":6,"vibe coder":1}</script>
 
 <script>
 (function(){
