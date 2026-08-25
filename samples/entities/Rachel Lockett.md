@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":17}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":18}</script>
 
 <script>
 (function(){

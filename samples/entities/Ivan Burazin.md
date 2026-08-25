@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":7,"Neon":2,"Parallel":3,"智能体":124,"沙箱":23,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":2,"Cognition":7,"Neon":2,"Parallel":4,"智能体":130,"沙箱":25,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":124,"构建者":2,"可观测性":9,"对话分析":1,"评估":13,"维度思维":1,"ChatGPT":33,"Cursor":31,"OpenAI":58}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":130,"构建者":2,"可观测性":11,"对话分析":1,"评估":15,"维度思维":1,"ChatGPT":34,"Cursor":32,"OpenAI":59}</script>
 
 <script>
 (function(){

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Datadog</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Datadog">DA</div><div class="pi"><h1 class="pt">Datadog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Datadog">DA</div><div class="pi"><h1 class="pt">Datadog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(43:35起):本集由主持人提到其 CEO Olivier Pamel 在之前一集中讨论过凌晨三点被叫醒处理事故的问题
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(37:12起):本集把它说成:通过凭证注入,智能体能用 Datadog 的凭证发请求,但本身看不到凭证,实现可用不可见
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(01:48起):本集作为可观测性平台的代表被顺带提及,指出在其上做实时查询获得的数据非常细粒度但搜索量受限。
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(01:06起):本集讨论的云监控公司，嘉宾 Emilio 担任其 CISO；内部高达 98% 的员工都在用各类 AI 工具，团队为管控编程智能体自研了「法官」、沙箱及基于角色的 MCP 服务器。
@@ -18,10 +19,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*6 集*
 
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为被讨论公司(提及)
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为被讨论公司(提及)
+- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为被讨论公司
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 
@@ -29,9 +32,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[可观测性]] · [[沙箱]] · [[评估]] · [[GitHub]] · [[Simon Willison]] · [[Anish]] · [[Joel de la Garza]] · [[Harry Stabbings]]
+[[智能体]] · [[Anthropic]] · [[评估]] · [[沙箱]] · [[harness]] · [[可观测性]] · [[Simon Maple]] · [[代码审查]] · [[上下文]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"Anthropic":64,"可观测性":9,"沙箱":23,"评估":13,"GitHub":16,"Simon Willison":1,"Anish":1,"Joel de la Garza":4,"Harry Stabbings":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"Anthropic":65,"评估":15,"沙箱":25,"harness":16,"可观测性":11,"Simon Maple":4,"代码审查":1,"上下文":11,"Cursor":32}</script>
 
 <script>
 (function(){

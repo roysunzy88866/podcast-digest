@@ -9,14 +9,14 @@ cover: "#64748b"
 description: "把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。"
 guests: ["[[Gagan Bhat]]", "[[Isabella Kai He]]"]
 companies: ["[[Anthropic]]"]
-concepts: ["[[智能体]]", "[[harness]]", "[[沙箱]]", "[[智能体循环]]", "[[上下文工程]]", "[[会话日志追踪]]", "[[泄露的凭证]]", "[[可观测性]]", "[[做梦]]", "[[Claude Managed Agents]]", "[[大脑与双手解耦]]"]
+concepts: ["[[智能体]]", "[[harness]]", "[[沙箱]]", "[[智能体循环]]", "[[上下文工程]]", "[[会话日志追踪]]", "[[泄露的凭证]]", "[[可观测性]]", "[[dreaming]]", "[[Claude Managed Agents]]", "[[大脑与双手解耦]]"]
 category: 智能体
 tags:
   - 智能体
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#post","headline":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","description":"把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。","datePublished":"2026-08-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Gagan Bhat"},{"@type":"Person","name":"Isabella Kai He"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体循环 (agentic loop)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"会话日志追踪 (session log)"},{"@type":"Thing","name":"泄露的凭证 (credentials)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"做梦 (dreaming)"},{"@type":"Thing","name":"Claude Managed Agents"},{"@type":"Thing","name":"大脑与双手解耦 (decouple)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","item":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#post","headline":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","mainEntityOfPage":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat","description":"把智能体的大脑与双手解耦,让基础设施跟上模型演进,是大规摸可靠性的关键。","datePublished":"2026-08-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Gagan Bhat"},{"@type":"Person","name":"Isabella Kai He"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体循环 (agentic loop)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"会话日志追踪 (session log)"},{"@type":"Thing","name":"泄露的凭证 (credentials)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"dreaming"},{"@type":"Thing","name":"Claude Managed Agents"},{"@type":"Thing","name":"大脑与双手解耦 (decouple)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生","item":"https://talk.solomind.cc/2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Anthropic]]
 >
-> **概念** [[智能体]] · [[harness]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志追踪]] · [[泄露的凭证]] · [[可观测性]] · [[做梦]] · [[Claude Managed Agents]] · [[大脑与双手解耦]]
+> **概念** [[智能体]] · [[harness]] · [[沙箱]] · [[智能体循环]] · [[上下文工程]] · [[会话日志追踪]] · [[泄露的凭证]] · [[可观测性]] · [[dreaming]] · [[Claude Managed Agents]] · [[大脑与双手解耦]]
 
 当 Sonnet 4.5 发布时,它表现出一种「上下文焦虑」——还没到上下文窗口极限就提前草草结束任务。于是开发团队给系统的「安全带(harness,指围绕模型构建的外部控制框架,如循环、工具调用逻辑等)」加了上下文重置功能来打补丁。
 
@@ -56,7 +56,7 @@ jsonLd: |
 
 在许多传统的框架实现中,上下文窗口和会话日志是同一个东西。这就导致了一个要命的问题:如果模型为了腾空间而丢弃了某段上下文,一旦它后面发现那段信息还有用,它是找不回来的 <button class="pd-ts" data-t="15:04" data-who="Isabella" data-en="Now, context engineering is something that our team has done a ton of research into because it is one of the things that separates an effective agent from an agent that gets lost in context rot." aria-label="回原文"></button>。
 
-Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、模型响应、工具执行结果)都作为事件持久化写入一个独立的会话日志(也可称为追踪 trace)中 <button class="pd-ts" data-t="24:36" data-who="Gagan" data-en="Turns out the answer to both of these questions lies in something that we call the session log or traces. The session log essentially contains events of everything that happened during an agent execution." aria-label="回原文"></button>。因为所有信息都在这份持久的日志里,模型如果编辑或丢弃了当前窗口里的某段上下文,它随时可以通过重新读取会话日志的切片来恢复它 <button class="pd-ts" data-t="15:25" data-who="Isabella" data-en="Context engineering is also difficult, and with many traditional harness implementations, the context window and the session are one and the same, which means that Claude, if it wants to come in and discard portions of the context that it's in in current session run, it doesn't have a mechanism to be able to recover pieces of that context back into its window if it loses it at one point in its current session run." aria-label="回原文"></button>。这份会话日志同时解决三个问题:在前端展示出来就是**可观测性**;读取过往历史就构成了**记忆**;配合「[[做梦|做梦]](dreaming,一种离线批处理机制)」分析历史日志并提炼洞察,就能自动更新记忆,实现智能体的**自我改进** <button class="pd-ts" data-t="24:56" data-who="Isabella" data-en="Now, if you surface a session log in a UI that users can see, it provides observability. It turns out that the same session log also improves memory and provides self-improvement for the agent." aria-label="回原文"></button>。
+Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、模型响应、工具执行结果)都作为事件持久化写入一个独立的会话日志(也可称为追踪 trace)中 <button class="pd-ts" data-t="24:36" data-who="Gagan" data-en="Turns out the answer to both of these questions lies in something that we call the session log or traces. The session log essentially contains events of everything that happened during an agent execution." aria-label="回原文"></button>。因为所有信息都在这份持久的日志里,模型如果编辑或丢弃了当前窗口里的某段上下文,它随时可以通过重新读取会话日志的切片来恢复它 <button class="pd-ts" data-t="15:25" data-who="Isabella" data-en="Context engineering is also difficult, and with many traditional harness implementations, the context window and the session are one and the same, which means that Claude, if it wants to come in and discard portions of the context that it's in in current session run, it doesn't have a mechanism to be able to recover pieces of that context back into its window if it loses it at one point in its current session run." aria-label="回原文"></button>。这份会话日志同时解决三个问题:在前端展示出来就是**可观测性**;读取过往历史就构成了**记忆**;配合「[[dreaming|做梦]](dreaming,一种离线批处理机制)」分析历史日志并提炼洞察,就能自动更新记忆,实现智能体的**自我改进** <button class="pd-ts" data-t="24:56" data-who="Isabella" data-en="Now, if you surface a session log in a UI that users can see, it provides observability. It turns out that the same session log also improves memory and provides self-improvement for the agent." aria-label="回原文"></button>。
 
 ## 把生产安全握在自己手里
 
@@ -111,18 +111,18 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic · 同概念:做梦 (dreaming)、安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)、Claude Code、可观测性 (observability)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic · 同概念:安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:可观测性 (observability)、安全带/harness (harness)、智能体 (agent)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:凭证隔离 (credentials)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、Claude Code</span>
 
 </div>
 </div>

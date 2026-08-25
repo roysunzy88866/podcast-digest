@@ -85,7 +85,7 @@ jsonLd: |
 
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)</span>
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]]<span class="pd-rz">同概念:AI 优先 (AI-first)</span>
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:可观测性 (observability)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:可观测性 (observability)</span>
 
 </div>
 </div>

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":64,"智能体":124,"harness":13,"沙箱":23,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":9}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":65,"智能体":130,"harness":16,"沙箱":25,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":11}</script>
 
 <script>
 (function(){

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lance Martin]] · [[Anthropic]] · [[OpenAI]] · [[任务视界]] · [[Managed Agents]] · [[harness]] · [[沙箱]] · [[验证器]] · [[做梦]] · [[组织级驾驭系统]]
+[[Lance Martin]] · [[Anthropic]] · [[OpenAI]] · [[任务视界]] · [[Managed Agents]] · [[harness]] · [[沙箱]] · [[验证器]] · [[dreaming]] · [[组织级驾驭系统]]
 
-<script type="application/json" class="pd-epn">{"Lance Martin":1,"Anthropic":64,"OpenAI":58,"任务视界":1,"Managed Agents":2,"harness":13,"沙箱":23,"验证器":1,"做梦":2,"组织级驾驭系统":1}</script>
+<script type="application/json" class="pd-epn">{"Lance Martin":1,"Anthropic":65,"OpenAI":59,"任务视界":1,"Managed Agents":3,"harness":16,"沙箱":25,"验证器":1,"dreaming":3,"组织级驾驭系统":1}</script>
 
 <script>
 (function(){

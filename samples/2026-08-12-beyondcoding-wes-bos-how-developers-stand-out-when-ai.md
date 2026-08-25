@@ -127,8 +127,8 @@ Wes 对用 AI 生成内容的态度很鲜明：「别这么做。」 <button cla
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:Claude Code · 同概念:vibe coding、智能体 (agent)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、上下文 (context)</span>
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Claude Code · 同概念:LLM、智能体 (agent)</span>
-- [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同概念:LLM、vibe coding</span>
 
 </div>
 <div class="pd-ex">

@@ -149,8 +149,8 @@ Ryan Dahl 说"人类写代码的时代结束了"，Addy 不否认写语法这件
 **顺着「AI 编程」挖下去**
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|从看护智能体到认知投降：工程师该守住什么]]<span class="pd-rz">同概念:智能体 (agent)、认知债务 (cognitive debt)、认知投降 (cognitive surrender)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、vibe coding、护栏 (guardrails)</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、vibe coding</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

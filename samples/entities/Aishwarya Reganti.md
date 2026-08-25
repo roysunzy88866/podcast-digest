@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Kiriti Badam":1,"智能体":124,"非确定性":1,"主观能动性":14,"评估":13,"生产监控":1,"持续校准持续开发":1,"飞轮":1,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Kiriti Badam":1,"智能体":130,"非确定性":1,"主观能动性":14,"评估":15,"生产监控":1,"持续校准持续开发":1,"飞轮":1,"行为校准":1}</script>
 
 <script>
 (function(){

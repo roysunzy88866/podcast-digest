@@ -1,31 +1,31 @@
 ---
-title: 差别定价 (differential pricing)
+title: Manager Bot
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>差别定价 (differential pricing)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Manager Bot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="差别定价">差别</div><div class="pi"><h1 class="pt">差别定价 (differential pricing)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Manager Bot">MA</div><div class="pi"><h1 class="pt">Manager Bot</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(35:47起):本集说广告之所以是互联网最高效的变现方案，正因为它在差别定价方面表现出色——Google 大多数查询亏钱靠少数高价值查询赚回来；Parallel 要把这个逻辑延伸到内容定价：独特高质量数据拿更多钱，同样数据被用于高价值工作也拿更多钱
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(14:59起):本集演示了 Manager Bot 作为主屏幕上的 AI 助手，会主动推送建议（如补全缺失商品描述），能生成菜单工程、劳动力预测等完整工件，帮卖家做真活
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andrew]] · [[Sonia]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[智能体搜索]] · [[搜索智能体]] · [[索引]] · [[Shapley 值]] · [[推理]]
+[[Willem Avé]] · [[Square]] · [[Block]] · [[业务单元模式]] · [[职能制]] · [[DRI]] · [[智能体]] · [[聊天机器人]] · [[工件]] · [[TAM]]
 
-<script type="application/json" class="pd-epn">{"Andrew":1,"Sonia":1,"Parag":1,"Parallel":3,"智能体":124,"智能体搜索":1,"搜索智能体":1,"索引":1,"Shapley 值":1,"推理":1}</script>
+<script type="application/json" class="pd-epn">{"Willem Avé":1,"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":130,"聊天机器人":1,"工件":1,"TAM":1}</script>
 
 <script>
 (function(){

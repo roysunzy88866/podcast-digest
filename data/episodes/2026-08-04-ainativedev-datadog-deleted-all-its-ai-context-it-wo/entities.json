@@ -1,0 +1,1716 @@
+{
+  "episode_id": "2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-08-04",
+  "tags": [
+    "智能体赋能",
+    "Eval 驱动治理",
+    "上下文腐烂",
+    "AI 编程",
+    "后台智能体"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            38.96,
+            49.2
+          ],
+          "quote": "Join your hosts, Guy for Germany, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3660,
+            3667.92
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL the package manager for skills and context your hosts are Guy for Germany and me Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guy-for-germany",
+      "type": "person",
+      "role": "cohost",
+      "name": "Guy for Germany",
+      "file": "Guy for Germany",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            38.96,
+            49.2
+          ],
+          "quote": "Join your hosts, Guy for Germany, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3660,
+            3667.92
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL the package manager for skills and context your hosts are Guy for Germany and me Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "simon-boudrien",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Boudrien",
+      "file": "Simon Boudrien",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            126.24,
+            129.12
+          ],
+          "quote": "And to guide us through all of that is Simon Boudrien.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            112.8,
+            126.16
+          ],
+          "quote": "Today we have a really interesting story about how to build out agent enablement and learn from it, uh, looking at Datadog as an organization that really kind of dove in and invested in agent enablement uh and has a bunch of learnings to tell from the journey.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 31,
+          "t": [
+            184.64,
+            199.6
+          ],
+          "quote": "Uh for starters, can you just sort of tell us a little bit about what is it that uh that that you do, kind of the scope of responsibilities, and maybe a couple of words about Datadog and uh you know that the large group of engineers that you're trying to sort of optimize their work for here?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 33,
+          "t": [
+            200.56,
+            202.88
+          ],
+          "quote": "So uh I'm a director at uh Datadog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            210.96,
+            216.72
+          ],
+          "quote": "Um and so uh we are serving about 4,000 uh engineers here at Datadog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            254.24,
+            270.72
+          ],
+          "quote": "So uh walk us through a little bit of the storyline of you know, as you started to to invest in Trulli or in general, like how did uh the kind of engineering organization and datadog kind of approach or start opening up uh the use of agents and a little bit of that timeline of how it evolved it today?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 113,
+          "t": [
+            653.84,
+            659.04
+          ],
+          "quote": "Uh so like uh one of our uh early champions was an EM here at Datadog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            802.8,
+            812.88
+          ],
+          "quote": "Um and so you know, we do track a lot of data around uh incidents here at Datadog in a dataset, and so we had all that data already kind of there for the picking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1264.88,
+            1272.16
+          ],
+          "quote": "And then Datadog has a pretty good metric platform, so like it was easy to just feed the metrics in there and then consume it from Datadog directly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1350.08,
+            1357.6
+          ],
+          "quote": "So on the stack, you built your own because you know you have your sort of Datadog platform, kind of very good at collecting data uh and aggregating it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1631.52,
+            1636.8
+          ],
+          "quote": "And so we're tracking a lot of data today for the use of agent within Datadog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2029.12,
+            2034.4
+          ],
+          "quote": "What is the sort of the state of context typically uh uh within Datadog?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心讨论对象。涵盖编码智能体（coding agent）、代码审查智能体、后台智能体（background agent）等多种形态，贯穿 eval、上下文治理、开源模型差距等所有话题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            112.8,
+            126.16
+          ],
+          "quote": "Today we have a really interesting story about how to build out agent enablement and learn from it, uh, looking at Datadog as an organization that really kind of dove in and invested in agent enablement uh and has a bunch of learnings to tell from the journey.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 122,
+          "t": [
+            699.28,
+            717.44
+          ],
+          "quote": "Uh, and so we created a team or like that team started to work on evals uh and like building kind of a uh agent encoding tool, eval platform, uh to help us make decisions, you know, about like which model, which tool we should onboard uh at DDVOP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            813.04,
+            831.12
+          ],
+          "quote": "And so we were able from there to like devise and like kind of basically build a platform that would replay PRs and then run the whole uh agent tick review, and then with an agent judge being like, well, does that does that review comment point out what is gonna cause an incident later on?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1250.4,
+            1264.72
+          ],
+          "quote": "Um so I don't know, you know, when we started if there was a lot of uh open source option, uh we pretty like looked at a few, you know, but nothing was like really mature, and so like we just went our own way since like it was not like overly complex for a pure use case of like AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1411.84,
+            1421.6
+          ],
+          "quote": "Like technically, just to be able to run an agent and sort of create have a card uh or like some sort of scorecard uh and run that and aggregate the data, you know, those are kind of within core competencies.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1533.2,
+            1545.2
+          ],
+          "quote": "Um and you know, if it's always the same question, then like you only have this like a small slice, but like kind of the creativity aspect, I think is somewhere or like something that's like really hard to gauge with an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1631.52,
+            1636.8
+          ],
+          "quote": "And so we're tracking a lot of data today for the use of agent within Datadog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1637.36,
+            1660
+          ],
+          "quote": "And so what we want to do is like go from that to raw data of like, you know, well, this prompt came in, the agent did that, etc., and like extract from there common scenarios that tend to recur, or like a common type of uh interaction that a user have with a given platform, and then using an agent to turn that into actual ELON.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1902.88,
+            1909.76
+          ],
+          "quote": "Like they're they're cheap enough that they haven't doubled your sort of uh compared to the coding agent hues, uh, yeah, yeah, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2199.12,
+            2206.8
+          ],
+          "quote": "Or we'll refer to it from context document uh where the agent can suggest to install the marketplace and stuff like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2423.68,
+            2432.88
+          ],
+          "quote": "Okay, so this uh I guess it's sort of still primarily either the model improvements or just those context files were created at one point in time and they no longer represent reality for the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2439.12,
+            2449.28
+          ],
+          "quote": "I don't think they were wrong per se, but I think it's early on there was a lot of like basics that like you would try to retrain the agent on yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2481.6,
+            2498.72
+          ],
+          "quote": "And so in term of uh governance, you know, around context, if if you want me to go a bit in there, is what we saw is like actually like I think we have an incline to just go and add something to like an agent's MD, but very often it just has easy as like is the error message from that tool clear?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2502.8,
+            2530.16
+          ],
+          "quote": "And so we've been also moving uh or like pushing people that like you know when they run into it like kind of an issue where the agent doesn't do what you want it to do, uh well where where where like can we provide that context when it's necessary instead of like trying to train the agent ahead of time into how to do everything, especially within a modern repo where like there's so much going on, uh you just cannot provide all of the context up front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2597.6,
+            2612.32
+          ],
+          "quote": "You know, uh I think like as people propose to remove stuff from from like that root agent MD file, like even in like PR review comments, people are like, well, are you sure you you that like you shouldn't be doing this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2696.56,
+            2704.08
+          ],
+          "quote": "And I'm not sure the way we're working today with like local agent only and like everybody set up for their own thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2722.48,
+            2726.4
+          ],
+          "quote": "So let's run this with an agent that has those skills pre-install.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2937.04,
+            2959.12
+          ],
+          "quote": "Yeah uh for code review today we are um we're having the background agents um that for example for code review the first one we release is like if your CI fail uh you know and it's like a linting error a formatting error stuff like that then like that's pretty easy to offset to like an agent to just go fix it for you so you don't need to like come back and like have to deal with it yourself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 495,
+          "t": [
+            3010.32,
+            3021.28
+          ],
+          "quote": "Yeah and this is consistent sounds like the your your view is there's a whole bunch of places in which uh it's inarguable that the agent helped like let's apply the agent in all of those places.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3037.52,
+            3038.8
+          ],
+          "quote": "So can the agent do it?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3265.28,
+            3285.36
+          ],
+          "quote": "Yeah no I love that it uh first of all it's closer to the reality and there's actually like a bit of a hidden question about your sort of agent foo you know like how how manageable are you at kind of navigating the agent and so you're you're sort of testing two things at once you know your your exact your depth in the in the agent usage and your ability to understand those.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "eval",
+      "file": "eval",
+      "primary": true,
+      "how_described": "本集讨论最多、最深入的概念。Datadog 用 Go 自建了 eval 平台，每晚运行一次；第一个应用是重播已知导致事故的 PR 来验证代码审查智能体；正在从真实智能体使用轨迹中自动提取 eval 用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            155.2,
+            165.84
+          ],
+          "quote": "And in a way, uh I don't know if it's dramatic or standard case, but uh a learning about cases where you actually an eval showed you that if you deleted all the context, it actually actually did better uh than before.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 122,
+          "t": [
+            699.28,
+            717.44
+          ],
+          "quote": "Uh, and so we created a team or like that team started to work on evals uh and like building kind of a uh agent encoding tool, eval platform, uh to help us make decisions, you know, about like which model, which tool we should onboard uh at DDVOP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            736.32,
+            743.36
+          ],
+          "quote": "Like you might draw a conclusion from an eval, but it wasn't it's not always easy to think about how would you apply that learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1359.92,
+            1362.32
+          ],
+          "quote": "Do you do you think people should build their own eval system?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1370.32,
+            1377.12
+          ],
+          "quote": "Or do you think that there's sort of aspects of how you do the eval that you feel like they need to be custom, they need to be yours?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1459.6,
+            1461.84
+          ],
+          "quote": "Like who creates the eval scenarios?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1694.24,
+            1708.8
+          ],
+          "quote": "Uh and and so probably the best ease of use aspect to it is instead of asking uh devs to write those tests or write those eval scenarios, you you observe them, you sort of extract them out of the loop and you extract these scenarios.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1723.2,
+            1730.16
+          ],
+          "quote": "You've observed a bunch of PRs, you've created an eval scenario, you're running it, you're still capturing that as some files that's in some repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1869.76,
+            1877.04
+          ],
+          "quote": "Uh if those occurred, you run the eval, even if there's a an apparent regression, you you you point that out to the to the person.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2291.44,
+            2310.24
+          ],
+          "quote": "And what happened for us is actually like the eval started to perform like much better once we deleted the whole context, which was counter uh intuitive, but it's just like, yeah, that file was pretty big and was listing stuff that was not like necessarily useful or you know, that should not go into like a steering document.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2364.96,
+            2374
+          ],
+          "quote": "They wrote eval, they did the folks for the testing there, uh, and like kind of they wrote new guides of like what should you do instead of context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2586.88,
+            2591.36
+          ],
+          "quote": "And maybe this comes back to eval's, is you know, it's it just sort of feels fearful to delete it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2753.68,
+            2760.08
+          ],
+          "quote": "They're actually all just the same evals, just sort of names uh and the idea was the scale eval is a thing you test in isolation.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集重点讨论的治理对象。Datadog 发现一年前写给 Sonnet 3.5 的上下文文件在今天已变成噪音，清空后 eval 表现反而显著提升——即'上下文腐烂'现象。治理原则从往上下文里塞'怎么做'转为确保工具本身的错误信息清晰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            9.68
+          ],
+          "quote": "The punch we had is like maybe actually the context that was written like a year ago, you know, when it was like cursor Sonnet 35, it's still irrelevant today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            12.24,
+            15.68
+          ],
+          "quote": "And then we're like, well, what if we delete the whole context from the repo?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            145.68,
+            148.96
+          ],
+          "quote": "We'll talk a little bit about context, but actually a fair bit about context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 26,
+          "t": [
+            149.04,
+            154.96
+          ],
+          "quote": "You know, where did it work for you when you created it, where did it create kind of context rot uh and exaggeration.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            155.2,
+            165.84
+          ],
+          "quote": "And in a way, uh I don't know if it's dramatic or standard case, but uh a learning about cases where you actually an eval showed you that if you deleted all the context, it actually actually did better uh than before.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 97,
+          "t": [
+            561.92,
+            568.16
+          ],
+          "quote": "It's like like people, uh especially for us, where uh maybe piece of context, like we have huge motorepos.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1815.92,
+            1824.56
+          ],
+          "quote": "Like once you once you agree that you know something is correct, is this is this something you you deem after the fact do you run them on every context change?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2022.48,
+            2024.56
+          ],
+          "quote": "Uh but let's talk a little bit about context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2024.72,
+            2029.04
+          ],
+          "quote": "So in the process of that, you know, you referred here to sort of steering context and all that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2029.12,
+            2034.4
+          ],
+          "quote": "What is the sort of the state of context typically uh uh within Datadog?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2034.64,
+            2037.04
+          ],
+          "quote": "You know, are people like is there a central context?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2041.92,
+            2048.8
+          ],
+          "quote": "Give us a bit of a picture of where is context being used, focus on dev uh uh within uh within the organization.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2199.12,
+            2206.8
+          ],
+          "quote": "Or we'll refer to it from context document uh where the agent can suggest to install the marketplace and stuff like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2208.08,
+            2214.32
+          ],
+          "quote": "So like a group of context so people know where they're approaching uh that and they control that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2258.4,
+            2263.2
+          ],
+          "quote": "And so one thing is like by default, it's not gonna read a lot of the context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2263.52,
+            2280.32
+          ],
+          "quote": "And so and so kind of the hunch we've had is like maybe actually the context that was written like a year ago, you know, when it was like cursor, sonnet 3.5, is it still relevant today in the world of uh of uh Opus for 8 and G of uh GPT-5.5, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2282.8,
+            2289.12
+          ],
+          "quote": "And so we started to look into it, and then we're like, well, what if we delete the whole context from the repo?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2291.44,
+            2310.24
+          ],
+          "quote": "And what happened for us is actually like the eval started to perform like much better once we deleted the whole context, which was counter uh intuitive, but it's just like, yeah, that file was pretty big and was listing stuff that was not like necessarily useful or you know, that should not go into like a steering document.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2315.84,
+            2319.44
+          ],
+          "quote": "It's uh it's kind of a real-world manifestation of how context rots, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2326,
+            2328.8
+          ],
+          "quote": "And for context, we're like, we don't have that muscle memory yet on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2338.96,
+            2344.72
+          ],
+          "quote": "You ran the evals, you found out it's actually outperforming uh having context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2347.12,
+            2349.6
+          ],
+          "quote": "Could you sort of go off and say, cool, let's delete the context?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2364.96,
+            2374
+          ],
+          "quote": "They wrote eval, they did the folks for the testing there, uh, and like kind of they wrote new guides of like what should you do instead of context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2401.44,
+            2409.12
+          ],
+          "quote": "So I think like two two sort of interesting tidbits over here is like one is you removed the context, but it's because you have started forming a harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2423.68,
+            2432.88
+          ],
+          "quote": "Okay, so this uh I guess it's sort of still primarily either the model improvements or just those context files were created at one point in time and they no longer represent reality for the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2463.76,
+            2472.8
+          ],
+          "quote": "And context is a scarce resource, and so over time, like if you accumulate enough of that, uh you uh you you take away uh you know information.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2481.6,
+            2498.72
+          ],
+          "quote": "And so in term of uh governance, you know, around context, if if you want me to go a bit in there, is what we saw is like actually like I think we have an incline to just go and add something to like an agent's MD, but very often it just has easy as like is the error message from that tool clear?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2502.8,
+            2530.16
+          ],
+          "quote": "And so we've been also moving uh or like pushing people that like you know when they run into it like kind of an issue where the agent doesn't do what you want it to do, uh well where where where like can we provide that context when it's necessary instead of like trying to train the agent ahead of time into how to do everything, especially within a modern repo where like there's so much going on, uh you just cannot provide all of the context up front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2536.48,
+            2543.52
+          ],
+          "quote": "One is the importance of evals, you know, so you can make data-driven decisions, you know, two is maybe a reminder around how context does rot over time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2553.36,
+            2564.4
+          ],
+          "quote": "Uh and then, you know, maybe just a little bit more as you write new context, solve problems, don't sort of anticipate them uh as you as you go, which I guess comes back to the observability and the loops, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2564.48,
+            2573.04
+          ],
+          "quote": "Because today probably the best practices don't actually solve problems, like just sort of solve a problem in the spot and create a loop to identify and manage that context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2573.2,
+            2583.92
+          ],
+          "quote": "Um and you, like when we spoke, you talked about how uh you think one of the theories of how the context got accumulated in the repo uh was because of this sort of loss aversion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3238.88,
+            3264.8
+          ],
+          "quote": "Yeah um and so more like kind of real world scenarios and I think this can only happen with larger code base uh and and without the AI it would just not be possible to go through and understand the whole context you know it's like it would be more like kind of left to lock almost and so uh and so I think it it like really allowed us to like step away from lead coding into more actual real-world scenarios in the interviews.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3660,
+            3667.92
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL the package manager for skills and context your hosts are Guy for Germany and me Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "cursor",
+      "file": "cursor",
+      "primary": true,
+      "how_described": "Datadog 内部 AI 编程工具采用的起点。2025 年初发起 POC，原目标 100-200 人，一个月内约 1000 名开发者几乎每天都在用，需求远超预期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            9.68
+          ],
+          "quote": "The punch we had is like maybe actually the context that was written like a year ago, you know, when it was like cursor Sonnet 35, it's still irrelevant today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            290.8,
+            296.24
+          ],
+          "quote": "Uh and so I'd say like for us the big driver there uh has been cursor at the beginning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            296.32,
+            302.8
+          ],
+          "quote": "Uh and so at the beginning of 2025, uh we launched like a POC internally with like Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            302.96,
+            314.16
+          ],
+          "quote": "Initially, we were aiming to you know get like a hundred, maybe two hundred devs to use cursor and just like get some signals of like how that you know, how like it worked for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            320.56,
+            328.24
+          ],
+          "quote": "Uh, we quickly had like a thousand devs using cursor almost day to day uh within like another month of like launching for this PC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            337.76,
+            342.88
+          ],
+          "quote": "Because you opened the door, you said you can use cursor and everybody came running in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 69,
+          "t": [
+            403.04,
+            409.84
+          ],
+          "quote": "There was a like a staff engineer male who like took for the shepherdship uh of that uh of the cursor POC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            410.32,
+            426
+          ],
+          "quote": "And I liked how you sort of told me that at some point this was uh demand was so kind of off the list that you had a product manager that found themselves manually because like you weren't ready for the avalanche, and so someone was like manually adding people's emails uh in to sort of add them to the cursor list of allowed users.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 82,
+          "t": [
+            464.72,
+            470.88
+          ],
+          "quote": "So you had cursor, you decided to hire someone, and then you went on to start flood code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 89,
+          "t": [
+            510.96,
+            520.8
+          ],
+          "quote": "This is uh history at this point, you know, versus present, but would you say cloud code adoption was was you know as uh as fast as uh as the cursor one?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 90,
+          "t": [
+            520.88,
+            528.4
+          ],
+          "quote": "Because cursor they they really nailed the kind of low friction, you're already in the ID, we'll give you superpowers, you know.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 91,
+          "t": [
+            528.56,
+            531.36
+          ],
+          "quote": "So, you know, why wouldn't you want uh cursor?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 92,
+          "t": [
+            531.52,
+            543.76
+          ],
+          "quote": "Well, Cloud Code was more you know, like more of a big change to it, but clearly super compelling, but um still the appeal was the same, or was cursor still adopted faster?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            634.32,
+            638.08
+          ],
+          "quote": "So you've had that, you had a cursor just sort of lumped in, you decided to hire.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2263.52,
+            2280.32
+          ],
+          "quote": "And so and so kind of the hunch we've had is like maybe actually the context that was written like a year ago, you know, when it was like cursor, sonnet 3.5, is it still relevant today in the world of uh of uh Opus for 8 and G of uh GPT-5.5, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型 (open weight model)",
+      "file": "开源权重模型",
+      "primary": true,
+      "how_described": "基于 Datadog 的 eval，开源权重模型要做到完全可用（假设前沿模型不继续进步），还需要在当前基础上提升约 50% 的性能。但对于明确、重复的后台任务（如 CI lint 修复）已经够用且更便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 482,
+          "t": [
+            2871.04,
+            2886.32
+          ],
+          "quote": "Yeah so so yeah based on our evals I think open weight model to be like fully viable assuming the bar does not move as progress happened in the space would be that they would need to perform about 50% better than they are today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2963.36,
+            2972
+          ],
+          "quote": "And unlike a lot of those tasks can be done because uh well by like like an open weight model that is like much cheaper because it doesn't need creative ED.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "Opus 4.5 发布后 PR 数量几乎翻倍，代码审查成为 SDLC 中最大的瓶颈。Datadog 用 AI 做代码审查的定位是'防止事故的最后护栏'，而非吹毛求疵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            748.88,
+            754.4
+          ],
+          "quote": "So I'd say like the first application of evals for us very concretely was for code review.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            755.28,
+            762.32
+          ],
+          "quote": "Um, and we had a bit of back and forth on like you know, what's the value of AI in code review?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            770.88,
+            788.48
+          ],
+          "quote": "Uh and so we saw pretty early on that like really for us, the distinction here would be like uh we wanted to put AI in the loop for code review to really like prevent an incident or like kind of a major bug and like really like focus on that, you know, as like kind of the last uh guardrail before you go to production.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            925.84,
+            931.12
+          ],
+          "quote": "Maybe for us right now, it's like really code review is like pretty like the big bottleneck that we're trying to tackle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2937.04,
+            2959.12
+          ],
+          "quote": "Yeah uh for code review today we are um we're having the background agents um that for example for code review the first one we release is like if your CI fail uh you know and it's like a linting error a formatting error stuff like that then like that's pretty easy to offset to like an agent to just go fix it for you so you don't need to like come back and like have to deal with it yourself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3145.76,
+            3238.64
+          ],
+          "quote": "So I've never thought that it were a nice way to hire people um I've never liked doing them personally and I've personally always felt like it it was kind of low signal basically so um so I think AI opened the door to uh to make a case to actually like review how we do interviewing especially coding interviews um and so um and so what we've done is we is like we've built a few squads to own different questions um and with AI in the interview it allow us to do much more than we could before and so it allows us to basically uh work in a much larger code base and asking like actual tasks that like somebody might be doing in their day to day and like assessing more signal than like yes they could write the code and in like 40 minutes and and like pass all all all of the tests but more like how's their how's their judgment how's their trade-off did they understand the code and so like with AI basically the new flow for most of the uh interview is going to be like here's a code base it's fairly large uh use AI to understand uh what it's doing what is going on what is this code base about uh and then afterward like let's like talk of an engineering problem so like maybe you want to uh extend this code base maybe there's like a diff, like basically kind of a code review that like somebody wants to merge should they what should we bring back in terms of like feedback to the code review.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3285.52,
+            3322.72
+          ],
+          "quote": "And I guess it does imply though that uh this is like an in-person type element you know there's no uh this isn't a kind of take home uh code review uh or like coding exercise it has to be inside and is that uh you just sort of accept I guess that's a uh a slight inefficiency in the sense that you need to talk to more people that you just take these with correct correct yeah and and how uh um I guess on the other side of it like when you think about people uh moving up the ladder and you think about people already in the job and doing it what has changed in terms of what do you uh assess them for for promotion?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context-rot",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文腐烂 (context rot)",
+      "file": "上下文腐烂",
+      "primary": false,
+      "how_described": "本集用 Datadog 前端团队的实验具体演示了这个现象：一年前写的上下文文件在今天变成了噪音甚至有害信息，删除后 eval 表现反而提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            149.04,
+            154.96
+          ],
+          "quote": "You know, where did it work for you when you created it, where did it create kind of context rot uh and exaggeration.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "pi",
+      "type": "company",
+      "role": "company",
+      "name": "Pi",
+      "file": "Pi",
+      "primary": false,
+      "how_described": "一个高度可定制的开源智能体工具框架，本集提到它最近在 Datadog 内部变得流行，且默认不读取大量上下文，这间接促成了上下文腐烂的发现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            2228,
+            2235.28
+          ],
+          "quote": "And then what I'd say we found out at the beginning of the year, uh Pi became like pretty popular recently.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2235.52,
+            2244.16
+          ],
+          "quote": "And so with so many people like starting to hint at like the fact that like Pi somehow was just performing better than the alternative we had.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2245.12,
+            2257.28
+          ],
+          "quote": "And like to clarify for those who don't know that Pi is the uh kind of very highly customizable uh custom hard like harness, but it's open source, but then it can customize uh on top of which OpenClaw is built.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "基于 Pi 构建的智能体工具，本集仅在一处被提及，未展开讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 389,
+          "t": [
+            2245.12,
+            2257.28
+          ],
+          "quote": "And like to clarify for those who don't know that Pi is the uh kind of very highly customizable uh custom hard like harness, but it's open source, but then it can customize uh on top of which OpenClaw is built.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "作为 2025 年初被创造的术语被提及，标志着 AI 写代码开始被广泛认为可行，是 Datadog 内部采用浪潮的背景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            277.28,
+            282.56
+          ],
+          "quote": "Um when you know vibe coding as a term was like coined.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "在成本管理讨论中出现。Datadog 刻意不走配额限制路线，而是从系统角度去压缩输出、减少 token 浪费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            1069.28,
+            1080.64
+          ],
+          "quote": "Um so so like what I'd say maybe like what has been more visible is more like how we think of costs uh and like the amount of like token we're using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1131.2,
+            1138.24
+          ],
+          "quote": "And I guess did you ever get into token maxing uh of it, or has that been because you mentioned cost, like you're sort of aware of how much it cost before.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1143.44,
+            1145.6
+          ],
+          "quote": "No, no, uh, not like token maxing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1148.32,
+            1165.04
+          ],
+          "quote": "Uh, and so and so we're trying to like really not go that route because you know, if you need a lot of token because of what you're working on, you know, we we kind of do want people to have the uh optionality, you know, and be uh intentional about for their for their own use and their own needs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1165.6,
+            1179.76
+          ],
+          "quote": "Um and so you know it's like maybe a bit like breeding hot and cold at the same time, uh, but we're really more looking into like a systematic way that we can um reduce token or like compress output, you know, uh things like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sdlc",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDLC",
+      "file": "SDLC",
+      "primary": false,
+      "how_described": "Simon 的团队负责 SDLC 的前端部分。Opus 4.5 发布后 SDLC 中的瓶颈（尤其是代码审查）变得前所未有地严重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            203.76,
+            210.56
+          ],
+          "quote": "Uh I manage a part of the uh SDLC org uh work called for the language foundations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            217.04,
+            221.28
+          ],
+          "quote": "Uh and the way that I've described our scope is like basically kind of the front end of the uh SDLC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            911.2,
+            921.2
+          ],
+          "quote": "Um and it started to really show you know kind of uh bottlenecks in our flow in the uh SDLC that are way more serious than they were before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            931.6,
+            946.64
+          ],
+          "quote": "Um and at that point we're like, well, we need more people to to work and like really focus on the experience itself of like you know the SDLC with AI and not just more kind of the governance and like signals side of the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1824.64,
+            1833.2
+          ],
+          "quote": "You know, do you run them I guess uh how do how do the how does the execution of the evals integrate into this SDLC?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "skills",
+      "file": "skills",
+      "primary": false,
+      "how_described": "Datadog 内部上下文的主要载体形式，存在两种来源：提交到仓库的文件和中心化云端市场（有数百个插件/skills）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1096.8,
+            1101.6
+          ],
+          "quote": "And so like we just need to be more cognizant of this and just make sure that is the skills reasonable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2058.48,
+            2061.44
+          ],
+          "quote": "Uh I feel like skills is now mainly what there is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2061.6,
+            2067.04
+          ],
+          "quote": "There's not a lot of other stuff that is not skills, skills has been pretty well adopted, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2067.28,
+            2072.96
+          ],
+          "quote": "Um and then we have the cloud marketplace with a lot of uh skills there as well, uh, that is centralized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2328.96,
+            2330.56
+          ],
+          "quote": "So now you're seeing it with the skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2651.2,
+            2675.36
+          ],
+          "quote": "So I guess like in those marketplaces that you have, in the small ones, coming back a little bit to what do you create evals for, I mean this sort of logic will imply that whether now or soon, like are you starting to feel that within each of these teams marketplaces, they need to have evals for how how well these skills, like for the things that are shared, like it goes to reason to say like they also need evals because otherwise they'll have the same problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2679.44,
+            2685.84
+          ],
+          "quote": "I think like maybe one of the challenges also just like the distribution um of those skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2722.48,
+            2726.4
+          ],
+          "quote": "So let's run this with an agent that has those skills pre-install.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2771.6,
+            2778.16
+          ],
+          "quote": "And then and then you get into the problem of like okay that's nice and well but I actually have 30 skills installed when I'm running this not one.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2778.56,
+            2797.44
+          ],
+          "quote": "And so does it work in that environment then that basically gets infinite right like which which skills do you have at what time and how do you and so I think environment management like the the thing that we've sort of seen extend in flexibility but then you it's also in complexity you have to think about how to write that in is just like all these definitions of how do you define the environment within something runs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3660,
+            3667.92
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL the package manager for skills and context your hosts are Guy for Germany and me Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "cloud marketplace",
+      "file": "cloud marketplace",
+      "primary": false,
+      "how_described": "Datadog 中心化的 skills 市场，因插件数量达数百个而变得难以管理，后来转向团队级的市场分治。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            2067.28,
+            2072.96
+          ],
+          "quote": "Um and then we have the cloud marketplace with a lot of uh skills there as well, uh, that is centralized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2162.24,
+            2166
+          ],
+          "quote": "Uh like kind of the cloud marketplace has hundreds of plugins.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "steering-documents",
+      "type": "concept",
+      "role": "concept",
+      "name": "引导文档 (steering documents)",
+      "file": "引导文档",
+      "primary": false,
+      "how_described": "指导智能体行为的文档，其修改会触发 eval 的临时手动运行以验证影响效果。所有权分散到各平台团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1298.72,
+            1310
+          ],
+          "quote": "Uh and on the other side is like how does the uh uh what you know uh things like steering documents um are they uh are they working?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1314.96,
+            1330
+          ],
+          "quote": "Um and so like we more on the on the performance side where like teams that are not Us are gonna own stewing documents or maybe should own the steering documents because we can talk of ownership there sometimes is a bit hard within repositories.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1838.72,
+            1850.4
+          ],
+          "quote": "And then for PR that might specifically target evals, like they're changing steering documents uh in like a heavyweight, really trying to sort of change for the results.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrail",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrail)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "AI 代码审查被定位为'进入生产前的最后护栏'，专注于防止事故和重大 bug，而非吹毛求疵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            770.88,
+            788.48
+          ],
+          "quote": "Uh and so we saw pretty early on that like really for us, the distinction here would be like uh we wanted to put AI in the loop for code review to really like prevent an incident or like kind of a major bug and like really like focus on that, you know, as like kind of the last uh guardrail before you go to production.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "poc",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC",
+      "file": "POC",
+      "primary": false,
+      "how_described": "在本集出现两次语境：一是 Cursor 的内部试用 POC；二是高级工程师晋升期望的变化——现在鼓励先用 AI 快速做多个 POC，带着实际运行结果回来做决策，而非花几周写 RFC。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            296.32,
+            302.8
+          ],
+          "quote": "Uh and so at the beginning of 2025, uh we launched like a POC internally with like Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            399.76,
+            402.88
+          ],
+          "quote": "It was like folks within my my org we ran for the POC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            403.04,
+            409.84
+          ],
+          "quote": "There was a like a staff engineer male who like took for the shepherdship uh of that uh of the cursor POC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3424.96,
+            3452.8
+          ],
+          "quote": "Yeah and then in terms of an architecture based right yeah yeah correct correct and on the POC side of things is uh I think before we would spend a lot of time on like documents and uh RFCs to talk about like is this the right solution for that problem and all this and I think like there's there's like definitely value to those questions but I think uh now we can know more certainty around like is this gonna work or not if we do a POC first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3452.88,
+            3456.88
+          ],
+          "quote": "And so you can validate assertion in practice by doing POC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3457.36,
+            3470.4
+          ],
+          "quote": "And because it's so easy to like POC something with AI is like you can do a few POC and like compare those options before you decide into like which one you want to actually invest in long term and like really make production ready.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3480.08,
+            3486.24
+          ],
+          "quote": "And so that's a bit different from before where like you would need to think of everything because it was costly to create a POC.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "后台智能体的第一个应用场景：当 CI 失败且是 lint 错误或格式问题时，智能体自动修复，开发者无需手动回来处理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1954.88,
+            1971.6
+          ],
+          "quote": "And so maybe you can run that sort of deep seek v4 flash uh as part of your CI test for some sort of selection, and so you find it because it has all the sort of the natural problem of if someone made a change yesterday and you're coming back to them tomorrow, it's annoying, it's rework, it's better if it's in line, you have to weigh that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1979.12,
+            1987.28
+          ],
+          "quote": "Just like we have some tests that we run in the CI and some tests that are too expensive or slow to run in the CI, I think we'll have the same for evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2937.04,
+            2959.12
+          ],
+          "quote": "Yeah uh for code review today we are um we're having the background agents um that for example for code review the first one we release is like if your CI fail uh you know and it's like a linting error a formatting error stuff like that then like that's pretty easy to offset to like an agent to just go fix it for you so you don't need to like come back and like have to deal with it yourself.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": false,
+      "how_described": "指智能体工具框架（如 Pi），eval 平台需要支持多个 harness 和多个模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1498.48,
+            1516.56
+          ],
+          "quote": "Um the downside of that though, uh is that yeah, it is limited in a way of like if as a dev you're using like like a harness or like an agentic tool, like you're probably not only asking them to do very specific things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2245.12,
+            2257.28
+          ],
+          "quote": "And like to clarify for those who don't know that Pi is the uh kind of very highly customizable uh custom hard like harness, but it's open source, but then it can customize uh on top of which OpenClaw is built.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2401.44,
+            2409.12
+          ],
+          "quote": "So I think like two two sort of interesting tidbits over here is like one is you removed the context, but it's because you have started forming a harness.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "loss-aversion",
+      "type": "concept",
+      "role": "concept",
+      "name": "损失厌恶 (loss aversion)",
+      "file": "损失厌恶",
+      "primary": false,
+      "how_described": "被引用来解释为什么上下文文件难以删除：PR 审查中总有人问'你确定删这个没问题吗？万一对某些人有用呢？'没有 eval 数据支撑，这个决定几乎不可能推行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            2573.2,
+            2583.92
+          ],
+          "quote": "Um and you, like when we spoke, you talked about how uh you think one of the theories of how the context got accumulated in the repo uh was because of this sort of loss aversion.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "background agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Claude Code",
+      "reason": "专名「Claude Code」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "monorepo",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Dora metrics",
+      "reason": "专名「Dora metrics」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

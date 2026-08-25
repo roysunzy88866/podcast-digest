@@ -1,0 +1,1586 @@
+{
+  "episode_id": "2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new",
+  "podcast": "Training Data",
+  "date": "2026-08-25",
+  "tags": [
+    "智能体搜索",
+    "互联网经济学",
+    "搜索引擎架构",
+    "Shapley 值",
+    "后台智能体"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "andrew",
+      "type": "person",
+      "role": "host",
+      "name": "Andrew",
+      "file": "Andrew",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            87.313,
+            88.894
+          ],
+          "quote": "Thanks, Andrew, for joining us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            193.412,
+            194.193
+          ],
+          "quote": "No, you cannot, Andrew.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            194.293,
+            194.814
+          ],
+          "quote": "I'm Andrew.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            199.82,
+            202.623
+          ],
+          "quote": "Andrew is making his podcast debut on Training Data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3282.191,
+            3283.451
+          ],
+          "quote": "And thank you for joining us, Andrew.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3285.572,
+            3286.633
+          ],
+          "quote": "Thank you, Andrew, for your debut.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sonia",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sonia",
+      "file": "Sonia",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            85.773,
+            87.273
+          ],
+          "quote": "Thank you, Sonia, for having me.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "parag",
+      "type": "person",
+      "role": "cohost",
+      "name": "Parag",
+      "file": "Parag",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            57.882,
+            59.783
+          ],
+          "quote": "Parag, thank you so much for joining us today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            61.724,
+            72.71
+          ],
+          "quote": "For those who don't know, Parag, of Twitter CEO fame, was the CEO of Twitter before selling it to Elon and is now back on the founder arc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3280.31,
+            3281.91
+          ],
+          "quote": "Thank you so much for joining us today, Parag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3285.172,
+            3285.552
+          ],
+          "quote": "Thanks, Parag.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "company",
+      "role": "company",
+      "name": "Parallel",
+      "file": "Parallel",
+      "primary": true,
+      "how_described": "本集说 Parallel 是为智能体网络构建搜索基础设施的公司，通过搜索智能体产品先获取真实用例并逐步积累索引，后与 Google Cloud 合作成为其企业智能体 API 的搜索和 Grounding 提供商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            12.574
+          ],
+          "quote": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            72.75,
+            78.713
+          ],
+          "quote": "You founded a company called Parallel Web Systems, which is scaling up agentic search for the agentic web.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            84.937,
+            85.477
+          ],
+          "quote": "What's Parallel?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            125.607,
+            126.727
+          ],
+          "quote": "And that's what we're doing at Parallel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            132.492,
+            140.819
+          ],
+          "quote": "But before we get there, you've told us that you're unlearning a lot of the lessons that you learned from running Twitter as you build Parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            188.386,
+            190.328
+          ],
+          "quote": "Okay, let's talk about Parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            387.111,
+            399.774
+          ],
+          "quote": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            829.963,
+            838.948
+          ],
+          "quote": "If you use parallel search, you will, for the most part, use under half the tokens in your agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1016.126,
+            1018.847
+          ],
+          "quote": "Perhaps with parallel, agents have to deal a little bit less with that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1586.979,
+            1595.184
+          ],
+          "quote": "When you attach web search to it, your options are Google search or parallel search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1596.025,
+            1599.048
+          ],
+          "quote": "And parallel search is product integrated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1601.511,
+            1615.207
+          ],
+          "quote": "We've spent time with technical teams and training teams and product teams and commercial teams to make sure that when people use Gemini models with parallel, they get exceptional and great results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1659.592,
+            1662.773
+          ],
+          "quote": "When we talk to a lot of the parallel customers, there's this",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1836.849,
+            1853.127
+          ],
+          "quote": "So I use Notion's agent and you can build custom agents which look into all the internal data that we have at Parallel plus all of the web data using Parallel's APIs to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2088.271,
+            2096.441
+          ],
+          "quote": "Yeah, no, I think this was perhaps part of the thing that totally convinced me that this needed to be done by me and build parallel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2276.984,
+            2295.757
+          ],
+          "quote": "Your one available business model pre-parallel was to be in the head and be able to transact with the lab on some fixed fee contract, which includes some amount of training and liability and then inference time access.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2458.309,
+            2460.03
+          ],
+          "quote": "Yeah, at Parallel, we like to build models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2866.936,
+            2867.837
+          ],
+          "quote": "Why is the company called Parallel?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2930.815,
+            2955.085
+          ],
+          "quote": "will be we end up at parallel in part because it's like one at the time we're doing a lot more in parallel and two we started visualizing this sort of a parallel web built for AIs and how its properties are different and this metaphor that when you publish you're now thinking of as we all are now of two audiences okay i'm gonna create a page",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2969.112,
+            2971.773
+          ],
+          "quote": "And so we had this like this parallel web for agents will emerge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2972.914,
+            2975.195
+          ],
+          "quote": "And so that's why we started liking parallel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3047.645,
+            3048.885
+          ],
+          "quote": "A parallel web for agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3052.067,
+            3055.208
+          ],
+          "quote": "Tell us, just give us a snapshot of where Parallel is today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3055.688,
+            3061.231
+          ],
+          "quote": "And if everything that you hope to build comes true, what does Parallel look like?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3158.8,
+            3168.728
+          ],
+          "quote": "And I think where we will end up in a couple of years is a variety of use cases will be the web parallel",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体不像人类那样懒惰，查询更精确、错别字更少，一次深度研究任务可能发出几百到几千次搜索请求，其搜索量将是人类的一千倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            12.574
+          ],
+          "quote": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            128.149,
+            132.472
+          ],
+          "quote": "Okay, I want to go back into what makes human and agent search so different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            213.232,
+            228.582
+          ],
+          "quote": "The job to be done is getting the answer makes sense, but we all know there's crawling and there's an index and there's ranking, but maybe let's take a big step back and explain what is the problem of web search, be it for a human or an agent, and then we can dive into the differences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            387.111,
+            399.774
+          ],
+          "quote": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            478.671,
+            480.873
+          ],
+          "quote": "We launched a search agent product first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            481.894,
+            487.899
+          ],
+          "quote": "Our search agent could go essentially crawl the web after a query arrived.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            534.317,
+            539.3
+          ],
+          "quote": "So by building a product that was a search agent to do real work on top of web data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            673.503,
+            681.547
+          ],
+          "quote": "In order to give either, you can call it the model gets better or the agent built with the model gets better and has superpowers, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            829.963,
+            838.948
+          ],
+          "quote": "If you use parallel search, you will, for the most part, use under half the tokens in your agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            903.664,
+            911.751
+          ],
+          "quote": "And so a lot of the bet here is intelligent compute allocation across the model layer and the agent layer down to the search layer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            924.028,
+            930.771
+          ],
+          "quote": "With agents, we've had to innovate quite a lot on the what does an agent tell our search engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            934.153,
+            938.095
+          ],
+          "quote": "So humans can only hold a few words in memory, basically, versus an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            968.004,
+            977.088
+          ],
+          "quote": "Fewer typos, better specified queries, perhaps longer queries, less for the search engine to guess what the agent might want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1133.72,
+            1140.526
+          ],
+          "quote": "The good news is with agents, we're not making the agent click around and fumble around and grab a PDF, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1140.966,
+            1148.692
+          ],
+          "quote": "We're taking a excerpt from the most authoritative place on the web and trying to bring it to the agent's context window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1174.333,
+            1178.377
+          ],
+          "quote": "With agents, we get to bring that to the agent's context and then let it figure out what's next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1496.695,
+            1501.857
+          ],
+          "quote": "Now, I do think this is a core part of every agent, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1551.872,
+            1575.832
+          ],
+          "quote": "we want to we will i can't share anything on that we did announce and i don't know how your definitions of model companies uh we announced today actually that we are working with uh google cloud to be a search and grounding provider for their enterprise agent apis so if you think of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1655.751,
+            1658.552
+          ],
+          "quote": "And then that request gets fulfilled by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1663.788,
+            1669.471
+          ],
+          "quote": "You know, background agent, whether the monitor product, these agents that sort of are always watching the world or watching the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1682.959,
+            1685.441
+          ],
+          "quote": "Is it a human initiating the search or is it an agent itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1694.706,
+            1707.417
+          ],
+          "quote": "If you run a typical search agent, and even without doing deep research, it'll do somewhere between five to 20 searches, even if it answers within a few seconds, which is why not, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1805.642,
+            1816.05
+          ],
+          "quote": "So doing a lot of searches when this agent runs every week to create a dashboard on the portfolio and a collection of action items that somebody needs to look at, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1821.394,
+            1828.36
+          ],
+          "quote": "I don't know, do you use something to do meeting prep documents for you all that's an agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1829.741,
+            1830.622
+          ],
+          "quote": "There's a Sequoia agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1836.849,
+            1853.127
+          ],
+          "quote": "So I use Notion's agent and you can build custom agents which look into all the internal data that we have at Parallel plus all of the web data using Parallel's APIs to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1856.088,
+            1859.309
+          ],
+          "quote": "One time I went and created one prompt to build this custom agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1865.271,
+            1869.553
+          ],
+          "quote": "Every time I build a new agent for a new use case, that keeps multiplying.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1941.026,
+            1949.714
+          ],
+          "quote": "So once we achieved the best quality search and search agent products at every price point,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1977.087,
+            1979.289
+          ],
+          "quote": "We are very early in agent adoption.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2208.883,
+            2209.945
+          ],
+          "quote": "To be accessed by an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2219.581,
+            2221.925
+          ],
+          "quote": "But then if their agent shows up, I'm going to cut it off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2226.167,
+            2238.455
+          ],
+          "quote": "Like, okay, ultimately this agent is acting on behalf of a human, but we haven't found business model alignment in a way... You can't monetize that visit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2491.646,
+            2492.947
+          ],
+          "quote": "And then you say, let's run the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2623.799,
+            2634.424
+          ],
+          "quote": "In web search, we can run simulations of if we did not have access to this URL or this domain or this collection of them, how would the agent perform?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2654.36,
+            2660.162
+          ],
+          "quote": "is way more expensive than the amount of dollars we spend on the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2993.205,
+            2998.628
+          ],
+          "quote": "So there are these very high value portions of the web that have flipped already to being agent first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3042.022,
+            3047.204
+          ],
+          "quote": "So, in fact, for us, the primary audience is an agent, and that's how we test our docs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3095.563,
+            3113.766
+          ],
+          "quote": "We have now started seeing some subset of customers who are in this world where they're building more sophisticated multi-agent systems which use sub-agents and have agents wake each other up or orchestrate in interesting ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3115.347,
+            3118.027
+          ],
+          "quote": "Most familiar one is sub-agents with encoding agent harnesses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3144.633,
+            3151.555
+          ],
+          "quote": "So today, by and large, across the first two modalities I described, either an agent is calling a tool or a sub-agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3169.82,
+            3177.487
+          ],
+          "quote": "Call me if this happens so that my agent can do some work or a human can do some work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3204.56,
+            3214.328
+          ],
+          "quote": "We will do tomorrow work in response to something that circles through either another agent's work or something changes in the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3215.641,
+            3225.263
+          ],
+          "quote": "As visible in satellite imagery or some customer commentary that happens, some agent finishing some compute, a human having a new insight to trigger work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3260.002,
+            3261.263
+          ],
+          "quote": "And then I'll run my agent on it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "search-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索智能体 (search agent)",
+      "file": "搜索智能体",
+      "primary": true,
+      "how_described": "本集说 Parallel 最初没有做搜索产品而是先做搜索智能体，查询到达后实时去网上爬取页面，用推理时的算力去换预先建索引的成本，早期用于替代保险承保和金融建模中的外包人工数据收集",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            478.671,
+            480.873
+          ],
+          "quote": "We launched a search agent product first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            481.894,
+            487.899
+          ],
+          "quote": "Our search agent could go essentially crawl the web after a query arrived.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            534.317,
+            539.3
+          ],
+          "quote": "So by building a product that was a search agent to do real work on top of web data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1694.706,
+            1707.417
+          ],
+          "quote": "If you run a typical search agent, and even without doing deep research, it'll do somewhere between five to 20 searches, even if it answers within a few seconds, which is why not, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1941.026,
+            1949.714
+          ],
+          "quote": "So once we achieved the best quality search and search agent products at every price point,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "index",
+      "type": "concept",
+      "role": "concept",
+      "name": "索引 (index)",
+      "file": "索引",
+      "primary": true,
+      "how_described": "本集说索引是搜索引擎预先爬取并整理好的信息库，放在内存中让查询进来时不用再花时间加载页面；Parallel 通过搜索智能体服务客户的同时逐步积累和构建自己的索引",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            213.232,
+            228.582
+          ],
+          "quote": "The job to be done is getting the answer makes sense, but we all know there's crawling and there's an index and there's ranking, but maybe let's take a big step back and explain what is the problem of web search, be it for a human or an agent, and then we can dive into the differences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            257.665,
+            279.378
+          ],
+          "quote": "trying to read it trying to organize that information in what might be called an index so that by having all of this stuff in memory in one location you don't have to once the query comes in you don't have to spend time loading up pages because you already have them you've already done pre-processing to organize them and then when the query does come in",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            369.271,
+            373.156
+          ],
+          "quote": "Now, it is, of course, expensive to crawl the entire web and index it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            448.371,
+            452.394
+          ],
+          "quote": "An increasingly larger and more sophisticated index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            540.037,
+            543.558
+          ],
+          "quote": "We were able to incrementally go build our index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1208.225,
+            1211.007
+          ],
+          "quote": "One of these systems perhaps is our sort of big index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1211.088,
+            1212.889
+          ],
+          "quote": "One of these is perhaps our fresh index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1217.593,
+            1221.015
+          ],
+          "quote": "Some people will describe it like a structured index.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1298.986,
+            1316.9
+          ],
+          "quote": "right how you build those models and optimize them the index itself how you use the the memory hierarchy to store it to be able to hit certain cost quality latency thresholds what's the north star from a quality perspective",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1436.47,
+            1442.435
+          ],
+          "quote": "To build a fresh web index, I don't think that crawl is particularly useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1906.696,
+            1920.441
+          ],
+          "quote": "And so our first set of products were really obsessively focused on these, in part because we were building, growing the index, and we decided that our company was based on three dimensions, quality, cost, latency.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crawl",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬取 (crawl)",
+      "file": "爬取",
+      "primary": true,
+      "how_described": "本集说爬取是搜索引擎找出网络上每一个 URL 并读取它的过程，并指出预训练爬取会跳过加载慢的 JavaScript 页面，而搜索索引爬取必须是完成主义的，哪怕加载慢也要拿到权威内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            369.271,
+            373.156
+          ],
+          "quote": "Now, it is, of course, expensive to crawl the entire web and index it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            481.894,
+            487.899
+          ],
+          "quote": "Our search agent could go essentially crawl the web after a query arrived.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            498.088,
+            504.795
+          ],
+          "quote": "That's a lot of time to be able to crawl a lot of pages if only you have enough of a map to know how to prioritize crawling, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            612.21,
+            616.232
+          ],
+          "quote": "You're trading off the crawl for inference time compute effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1419.776,
+            1429.604
+          ],
+          "quote": "And in part because as they're collecting data for pre-training, that's a very, very expensive infrastructure exercise, that kind of is your source of truth for the crawl.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1436.47,
+            1442.435
+          ],
+          "quote": "To build a fresh web index, I don't think that crawl is particularly useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1451.676,
+            1457.644
+          ],
+          "quote": "We like to crawl things that people don't like to crawl for pre-training.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说智能体搜索是 LLM 推理的毗邻业务，买 LLM 做工作的客户十个用例里有九个需要让模型访问网络，且推理量每年增长 7 倍时固定费用的训练数据协议不具可持续性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            612.21,
+            616.232
+          ],
+          "quote": "You're trading off the crawl for inference time compute effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1522.173,
+            1528.496
+          ],
+          "quote": "So it is a real adjacency for all kinds of LLM inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1576.612,
+            1585.978
+          ],
+          "quote": "Grounding Gemini models or other models available on GCP when you build agents on GCP or chat apps on GCP or do any other inference with LLMs on GCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2276.984,
+            2295.757
+          ],
+          "quote": "Your one available business model pre-parallel was to be in the head and be able to transact with the lab on some fixed fee contract, which includes some amount of training and liability and then inference time access.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2305.683,
+            2320.276
+          ],
+          "quote": "And even for the head, it is a broken business model because when AIs or inference grows, let's say 7x this year and another 7x the next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2335.855,
+            2339.657
+          ],
+          "quote": "And so these are like fixed price constructs in the world of AI inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2415.795,
+            2432.192
+          ],
+          "quote": "is 1. you want fresh data during inference time to be able to display it in products like ChatGPT or Claude 2. you want training data and 3. you want some liability protection for training that you already did",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2791.616,
+            2796.101
+          ],
+          "quote": "Like if you're going to spend a lot of money on inference on LLMs for knowledge work,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shapley-value",
+      "type": "concept",
+      "role": "concept",
+      "name": "Shapley 值 (Shapley value)",
+      "file": "Shapley 值",
+      "primary": true,
+      "how_described": "本集说 Shapley 值是一种博弈论概念，用于公平分配合作创造的价值；Parallel 借鉴它来计算每个内容来源的增量贡献——从语料库移除某来源看输出质量下降多少，再算需要多少额外算力来弥补，那个算力成本就是该来源该得的报酬",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2544.628,
+            2545.569
+          ],
+          "quote": "What's a Shapley value?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2552.035,
+            2552.796
+          ],
+          "quote": "Shapley value is this...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2595.755,
+            2615.951
+          ],
+          "quote": "It's not that useful because in order to compute Shapley value, you need to simulate all words where some subset of the two of us collaborated, but the third one doesn't and play out those realities to then impute back to today in terms of how we should divide the pie, which in practice you can't do most places, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2662.723,
+            2671.786
+          ],
+          "quote": "So to compute a content owner, to compute that a content owner gets a dollar, if I decide to do the full Shapley value computation, that might take several dollars.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "background-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "后台智能体 (background agent)",
+      "file": "后台智能体",
+      "primary": true,
+      "how_described": "本集说后台智能体是总是在监视世界或网络的智能体，当某些事情发生时就采取行动，例如对 10,000 家小企业的信贷组合每周跑风险评估，每次要发大量搜索来生成仪表盘，搜索乘数可达几十万甚至一百万",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1663.788,
+            1669.471
+          ],
+          "quote": "You know, background agent, whether the monitor product, these agents that sort of are always watching the world or watching the web.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent systems)",
+      "file": "多智能体系统",
+      "primary": false,
+      "how_described": "本集将其作为智能体使用网络的第二层演进提及，即使用子智能体并让智能体互相唤醒或以有趣方式编排的系统，如 AI 科学家类系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            3095.563,
+            3113.766
+          ],
+          "quote": "We have now started seeing some subset of customers who are in this world where they're building more sophisticated multi-agent systems which use sub-agents and have agents wake each other up or orchestrate in interesting ways.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "differential-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "差异化定价 (differential pricing)",
+      "file": "差异化定价",
+      "primary": false,
+      "how_described": "本集说广告之所以能支撑免费互联网，核心是它极其擅长差异化定价——大多数查询 Google 是亏钱的，靠少数高价值查询赚回来；Parallel 借鉴此思路为内容方做差异化报酬",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            2147.429,
+            2150.112
+          ],
+          "quote": "Because it is exceptional at differential pricing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2163.623,
+            2179.597
+          ],
+          "quote": "exactly you're welcome i'm subsidizing the free the free information you guys are getting you are subsidizing all of us thank you um but i think ads is extraordinarily efficient at differential pricing and monetization on the web which is why it has been a dominant business model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2366.895,
+            2367.955
+          ],
+          "quote": "Efficient differential pricing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到 Google 是历史上做过全网络规模爬取和索引的巨头之一，其搜索结果中充斥着前 AI 时代迎合人类懒惰的中间页面内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            229.402,
+            244.405
+          ],
+          "quote": "The problem of web search, and we all know it and experience it, when we want to find something and we do not know where it is on the web, we go to a search engine like Google, and the search engine then hopefully surfaces the answer to us in the most convenient of locations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            321.648,
+            330.649
+          ],
+          "quote": "And I think for the longest time, basically only Google and Bing had done full web scale crawls and indices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            798.911,
+            811.32
+          ],
+          "quote": "And when I think deep research, at least in the earlier incarnations, it was effectively like an agentic loop with the model reasoning and then basically just calling a search engine, calling Google or some proxy to Google, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            821.178,
+            829.362
+          ],
+          "quote": "Calling Google for every query in a deep research thing, it gets you somewhere, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            945.676,
+            953.163
+          ],
+          "quote": "But when you start typing, we want to tell Google two incomplete words with a typo in there and hope for the best.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            980.7,
+            997.943
+          ],
+          "quote": "One other thing about humans is I feel like we know how to decipher the pre-AI slop that populates many of the top ranking Google results for best product for X, Y, and Z, and you get all the affiliate advertising things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1049.084,
+            1052.407
+          ],
+          "quote": "Now imagine Google decided, like, I care about authority.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1317.162,
+            1321.625
+          ],
+          "quote": "Like, you know, in Google, there's that, you know, did you get this result you wanted in the first three answers or something?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1551.872,
+            1575.832
+          ],
+          "quote": "we want to we will i can't share anything on that we did announce and i don't know how your definitions of model companies uh we announced today actually that we are working with uh google cloud to be a search and grounding provider for their enterprise agent apis so if you think of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1586.979,
+            1595.184
+          ],
+          "quote": "When you attach web search to it, your options are Google search or parallel search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1630.753,
+            1632.093
+          ],
+          "quote": "Google's the original Neo Lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1632.674,
+            1636.715
+          ],
+          "quote": "I don't know how to frame Google as a model lab versus a hyperscaler.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1998.864,
+            2003.066
+          ],
+          "quote": "How many Google searches a day did you do three years ago before ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2123.682,
+            2125.422
+          ],
+          "quote": "Like Google search wouldn't be free without ads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2151.433,
+            2155.076
+          ],
+          "quote": "So, most queries, Google loses money on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bing",
+      "type": "company",
+      "role": "company",
+      "name": "Bing",
+      "file": "Bing",
+      "primary": false,
+      "how_described": "本集仅一笔带过，称在最长时间里基本上只有 Google 和 Bing 做过全网络规模的爬取和索引",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            321.648,
+            330.649
+          ],
+          "quote": "And I think for the longest time, basically only Google and Bing had done full web scale crawls and indices.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-cloud",
+      "type": "company",
+      "role": "company",
+      "name": "Google Cloud",
+      "file": "Google Cloud",
+      "primary": false,
+      "how_described": "本集说 Parallel 与 Google Cloud 达成合作，作为其企业智能体 API 的搜索和 Grounding 提供商，在 GCP 上使用 Gemini 模型时网络搜索选项可以是 Parallel Search",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1551.872,
+            1575.832
+          ],
+          "quote": "we want to we will i can't share anything on that we did announce and i don't know how your definitions of model companies uh we announced today actually that we are working with uh google cloud to be a search and grounding provider for their enterprise agent apis so if you think of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集仅作为 Parag 个人用例一笔带过，说他使用 Notion 的智能体构建自定义会议准备智能体，每次开会前自动做几十到几百次网络搜索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1836.849,
+            1853.127
+          ],
+          "quote": "So I use Notion's agent and you can build custom agents which look into all the internal data that we have at Parallel plus all of the web data using Parallel's APIs to",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到在 ChatGPT 里调高模式，一次提示词可能触发几百到几千次搜索，作为智能体搜索量乘数效应的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1713.841,
+            1740.79
+          ],
+          "quote": "ChatGPT medium or I don't know all the categories but like somewhere not on the high tier like instant low medium every time you write a prompt to it in ChatGPT it will do five to ten searches as you dial it up it'll do hundreds and thousands of searches so one interesting thing to observe is like a human action to a multiplier on number of searches that happened right so just by",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1998.864,
+            2003.066
+          ],
+          "quote": "How many Google searches a day did you do three years ago before ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2415.795,
+            2432.192
+          ],
+          "quote": "is 1. you want fresh data during inference time to be able to display it in products like ChatGPT or Claude 2. you want training data and 3. you want some liability protection for training that you already did",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集仅在列举模型公司需要新鲜推理时数据以在产品中展示时，与 ChatGPT 一并提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            2415.795,
+            2432.192
+          ],
+          "quote": "is 1. you want fresh data during inference time to be able to display it in products like ChatGPT or Claude 2. you want training data and 3. you want some liability protection for training that you already did",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集仅一笔带过，Parag 提到自己曾把 Twitter 数据卖给 OpenAI，作为在数据交易方面的经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            2345.888,
+            2364.554
+          ],
+          "quote": "Now, our solution is trying to learn all the lessons from my work at ads on having transacted, like I sold Twitter data to OpenAI, having transacted on that side to figure out what actually might work and be incentive aligned.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": false,
+      "how_described": "本集说网络上存在一类迎合懒惰人类并在 SEO 上取得成功的内容，把权威信息提取到加载快的首屏，对人类有用但对智能体是噪音",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1128.096,
+            1133.1
+          ],
+          "quote": "Or you can call it catering to a lazy human and being successful at SEO, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2210.666,
+            2218.82
+          ],
+          "quote": "Because I have a business model for humans, so I actually want to go pay someone to SEO, optimize myself so more humans show up.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,4594 @@
+[
+ {
+  "seg": 0,
+  "start": 0.08,
+  "end": 7.6,
+  "speaker": "Rob Willoughby",
+  "en": "Two weekends ago, um, we had quite a busy Friday, and the Dark Factory ended up shipping 150 PRs for two of us over the course of the weekend.",
+  "zh": "两个周末前，我们有一个相当忙碌的星期五，Dark Factory 最终在这个周末为我们两个人交付了 150 个 PR。"
+ },
+ {
+  "seg": 1,
+  "start": 7.68,
+  "end": 10.88,
+  "speaker": "Rob Willoughby",
+  "en": "And that was just while we were out hanging about, enjoying London in the heatwave.",
+  "zh": "那只是在我们要出去闲逛、享受伦敦热浪的同时发生的。"
+ },
+ {
+  "seg": 2,
+  "start": 11.2,
+  "end": 18.08,
+  "speaker": "Rob Willoughby",
+  "en": "Last time I looked, I think about only 5% of the Dark Factory code base had ever had a human look at the PR and approve it.",
+  "zh": "我上次看的时候，我认为 Dark Factory 代码库中只有大约 5% 曾经由人类查看过 PR 并批准它。"
+ },
+ {
+  "seg": 3,
+  "start": 18.24,
+  "end": 21.68,
+  "speaker": "Rob Willoughby",
+  "en": "I don't think people actually go look at code anymore because they're all just using agents.",
+  "zh": "我认为人们实际上不再去查看代码了，因为他们都在使用智能体。"
+ },
+ {
+  "seg": 4,
+  "start": 21.84,
+  "end": 26.56,
+  "speaker": "Rob Willoughby",
+  "en": "And so that means, by implication, 95% of our code base has never had a human look at it.",
+  "zh": "这意味着，推而论之，我们的代码库中有 95% 从未有人类查看过。"
+ },
+ {
+  "seg": 5,
+  "start": 27.76,
+  "end": 34.4,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "The AI Native Dev 是一个面向开发者和工程负责人的播客，他们处于人工智能和智能体编码的最前沿。"
+ },
+ {
+  "seg": 6,
+  "start": 34.56,
+  "end": 44.72,
+  "speaker": "Simon Maple",
+  "en": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+  "zh": "加入你们的主持人 Guy Pajani 和我，Simon Maple，每周我们都会与 AI 领域最令人兴奋的声音聊天，并解决当今开发者面临的最大问题。"
+ },
+ {
+  "seg": 7,
+  "start": 45.2,
+  "end": 47.52,
+  "speaker": "Simon Maple",
+  "en": "This is the AI Native Dev.",
+  "zh": "这是 The AI Native Dev。"
+ },
+ {
+  "seg": 8,
+  "start": 50.48,
+  "end": 54,
+  "speaker": "Simon Maple",
+  "en": "We just wrapped up two amazing days at AI DevCon in London.",
+  "zh": "我们刚刚在伦敦结束了为期两天的精彩 AI DevCon 大会。"
+ },
+ {
+  "seg": 9,
+  "start": 54.24,
+  "end": 58.72,
+  "speaker": "Guy Pajani",
+  "en": "But the great thing is that we get to do it all over again in New York City this November.",
+  "zh": "但最棒的是，我们今年 11 月将在纽约市把这一切重做一遍。"
+ },
+ {
+  "seg": 10,
+  "start": 59.04,
+  "end": 60.08,
+  "speaker": "Simon Maple",
+  "en": "You're absolutely right.",
+  "zh": "你完全正确。"
+ },
+ {
+  "seg": 11,
+  "start": 60.24,
+  "end": 69.2,
+  "speaker": "Simon Maple",
+  "en": "We're gonna be back in the city that never sleeps on November 3rd and 4th for more amazing sessions, really engaging, hands-on workshops, and much more.",
+  "zh": "我们将于 11 月 3 日和 4 日回到这座不夜城，参加更多精彩的会议、真正引人入胜的动手研讨会以及更多活动。"
+ },
+ {
+  "seg": 12,
+  "start": 69.44,
+  "end": 75.12,
+  "speaker": "Guy Pajani",
+  "en": "Yep, all that great networking, partying, eating and drinking that you've come to expect from AI DevCon.",
+  "zh": "是的，所有那些你们对 AI DevCon 期待的精彩社交、聚会、吃喝活动。"
+ },
+ {
+  "seg": 13,
+  "start": 75.6,
+  "end": 82.48,
+  "speaker": "Guy Pajani",
+  "en": "We think we have one of the best hallway tracks in the business, and it's the perfect compliment to our incredible speakers and presenters.",
+  "zh": "我们认为我们拥有业内最好的会议厅交流，这对我们令人难以置信的演讲者和主持人来说是完美的补充。"
+ },
+ {
+  "seg": 14,
+  "start": 83.04,
+  "end": 88.4,
+  "speaker": "Simon Maple",
+  "en": "We'll both be in person and virtual with live-streamed access to all mainstage keynotes and talks.",
+  "zh": "我们将通过现场直播访问所有主旨演讲和谈话，提供面对面和虚拟两种参与方式。"
+ },
+ {
+  "seg": 15,
+  "start": 88.96,
+  "end": 94.56,
+  "speaker": "Guy Pajani",
+  "en": "Sign up right now for our Super Blind Bird ticket for just $100, only available for a limited time.",
+  "zh": "立即注册我们的 Super Blind Bird 门票，仅需 100 美元，限时供应。"
+ },
+ {
+  "seg": 16,
+  "start": 94.88,
+  "end": 99.6,
+  "speaker": "Simon Maple",
+  "en": "We're really excited to be headed back to the big app, and we hope to see you all there.",
+  "zh": "我们真的很兴奋能回到这个大应用程序，我们希望在那里见到你们所有人。"
+ },
+ {
+  "seg": 17,
+  "start": 118.32,
+  "end": 124.72,
+  "speaker": "Simon Maple",
+  "en": "The week before, we seemed to raise only 608, so only 90 or so more.",
+  "zh": "前一周，我们似乎只筹集了 608 个，所以只多了 90 个左右。"
+ },
+ {
+  "seg": 18,
+  "start": 124.96,
+  "end": 125.92,
+  "speaker": "Simon Maple",
+  "en": "How do we do this?",
+  "zh": "我们是怎么做到这一点的？"
+ },
+ {
+  "seg": 19,
+  "start": 126.08,
+  "end": 130.32,
+  "speaker": "Simon Maple",
+  "en": "It's all about the usage of software factories and the dark factory.",
+  "zh": "这完全是关于软件工厂和 dark factory 的使用。"
+ },
+ {
+  "seg": 20,
+  "start": 130.56,
+  "end": 144.48,
+  "speaker": "Simon Maple",
+  "en": "Joining me is Rob Willoughby, who is the AI engineering lead at Tesla, and Rob's gonna tell us all about how Tesla uses Dart Factories and software factories internally to create such amazing numbers.",
+  "zh": "加入我的是 Rob Willoughby，他是 Tesla 的 AI 工程负责人，Rob 将告诉我们 Tesla 如何在内部使用 Dart Factories 和软件工厂来创造如此惊人的数字。"
+ },
+ {
+  "seg": 21,
+  "start": 144.64,
+  "end": 145.44,
+  "speaker": "Simon Maple",
+  "en": "Rob, welcome.",
+  "zh": "Rob，欢迎。"
+ },
+ {
+  "seg": 22,
+  "start": 145.52,
+  "end": 145.92,
+  "speaker": "Simon Maple",
+  "en": "How are you?",
+  "zh": "你好吗？"
+ },
+ {
+  "seg": 23,
+  "start": 146.16,
+  "end": 146.88,
+  "speaker": "Simon Maple",
+  "en": "Thank you, thank you.",
+  "zh": "谢谢，谢谢。"
+ },
+ {
+  "seg": 24,
+  "start": 147.04,
+  "end": 147.44,
+  "speaker": "Simon Maple",
+  "en": "Doing well.",
+  "zh": "我很好。"
+ },
+ {
+  "seg": 25,
+  "start": 147.68,
+  "end": 149.36,
+  "speaker": "Simon Maple",
+  "en": "And first time on the AR Native Dev Podcast.",
+  "zh": "这是第一次参加 AR Native Dev 播客。"
+ },
+ {
+  "seg": 26,
+  "start": 149.6,
+  "end": 150.72,
+  "speaker": "Rob Willoughby",
+  "en": "It is first time on a podcast.",
+  "zh": "这是第一次参加播客。"
+ },
+ {
+  "seg": 27,
+  "start": 150.88,
+  "end": 153.36,
+  "speaker": "Simon Maple",
+  "en": "Right, we have to do the uh induction, unfortunately.",
+  "zh": "对的，我们要做 uh 介绍，不幸的是。"
+ },
+ {
+  "seg": 28,
+  "start": 153.44,
+  "end": 155.2,
+  "speaker": "Simon Maple",
+  "en": "So um no, no, there's no inductions.",
+  "zh": "所以 um，不，不，没有介绍。"
+ },
+ {
+  "seg": 29,
+  "start": 155.52,
+  "end": 158.4,
+  "speaker": "Simon Maple",
+  "en": "Uh I was thinking of making something up then, but yeah, phew.",
+  "zh": "我当时正想编点什么，不过是的，呼。"
+ },
+ {
+  "seg": 30,
+  "start": 158.56,
+  "end": 159.28,
+  "speaker": "Simon Maple",
+  "en": "Didn't tell you that.",
+  "zh": "没告诉你那个。"
+ },
+ {
+  "seg": 31,
+  "start": 159.44,
+  "end": 163.2,
+  "speaker": "Simon Maple",
+  "en": "Um so Rob, first of all, um tell us a little bit about what you do at TESL.",
+  "zh": "um 所以 Rob，首先，um 告诉我们一点你在 TESL 做什么。"
+ },
+ {
+  "seg": 32,
+  "start": 163.52,
+  "end": 170.56,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah, so I run the A engineering team here, which is part of the team that kind of broadly is looking at agents enablement kind of across TESL.",
+  "zh": "是的，所以我在这里负责 A 工程团队，这是广泛致力于跨 TESL 智能体赋能的团队的一部分。"
+ },
+ {
+  "seg": 33,
+  "start": 170.72,
+  "end": 178.4,
+  "speaker": "Rob Willoughby",
+  "en": "And so what our mandate is is really to build and then drive adoption of a dark software factory internally that we use for kind of two main reasons.",
+  "zh": "所以我们的授权实际上是建立并在内部推动采用暗软件工厂，我们出于两个主要原因使用它。"
+ },
+ {
+  "seg": 34,
+  "start": 178.64,
+  "end": 180.72,
+  "speaker": "Rob Willoughby",
+  "en": "One is to improve our own engineering velocity.",
+  "zh": "一个是提高我们自己的工程速度。"
+ },
+ {
+  "seg": 35,
+  "start": 180.96,
+  "end": 185.2,
+  "speaker": "Rob Willoughby",
+  "en": "We want to ship faster, ship more, ship higher quality stuff, be able to use agents better.",
+  "zh": "我们想更快地交付，交付更多，交付更高质量的东西，能够更好地使用智能体。"
+ },
+ {
+  "seg": 36,
+  "start": 185.36,
+  "end": 193.28,
+  "speaker": "Rob Willoughby",
+  "en": "But then also additionally, we use that as a testing ground for our own uh theses and hypotheses about how to effectively run a factory.",
+  "zh": "但另外此外，我们将其作为我们自己关于如何有效运营工厂的论题和假设的测试场。"
+ },
+ {
+  "seg": 37,
+  "start": 193.44,
+  "end": 203.76,
+  "speaker": "Rob Willoughby",
+  "en": "We want to be able to take the learnings from there and put those into our products that we can then go help other companies bring along on the adoption curve as they start to build um these factories internally for themselves.",
+  "zh": "我们希望能够从那里汲取经验教训，并将其放入我们的产品中，然后我们可以去帮助其他公司随着他们开始在内部为自己建立这些工厂而在采用曲线上跟上。"
+ },
+ {
+  "seg": 38,
+  "start": 204.16,
+  "end": 207.28,
+  "speaker": "Simon Maple",
+  "en": "So let's these numbers are they seem crazy, right?",
+  "zh": "所以这些数字，它们看起来很疯狂，对吧？"
+ },
+ {
+  "seg": 39,
+  "start": 207.44,
+  "end": 218,
+  "speaker": "Simon Maple",
+  "en": "Every every time I take talk to people and say even a few hundred pull requests uh for you know not a huge team, not a small team, but you know, a reasonable sized team, people are surprised.",
+  "zh": "每次我与人们交谈并说即使是几百个 pull requests，你知道，对于一个不是很大也不是很小的团队，而是一个合理规模的团队，人们都很惊讶。"
+ },
+ {
+  "seg": 40,
+  "start": 218.08,
+  "end": 219.44,
+  "speaker": "Simon Maple",
+  "en": "They're like, how do you deal with that?",
+  "zh": "他们会问，你们怎么处理那个？"
+ },
+ {
+  "seg": 41,
+  "start": 219.52,
+  "end": 225.28,
+  "speaker": "Simon Maple",
+  "en": "How do we deal with things like uh you know code reviews and the human interaction and things like that?",
+  "zh": "我们如何处理像代码审查和人类交互之类的事情？"
+ },
+ {
+  "seg": 42,
+  "start": 225.36,
+  "end": 236.32,
+  "speaker": "Simon Maple",
+  "en": "We'll cover a lot of this, and actually during this podcast, we're gonna talk about how uh TESL adopted a Dark Factory, what were the sticking points, what worked, what didn't work, how we overcame them.",
+  "zh": "我们将涵盖其中的很多内容，实际上在这个播客中，我们将讨论 TESL 如何采用 Dark Factory，什么是障碍，什么有效，什么无效，我们如何克服它们。"
+ },
+ {
+  "seg": 43,
+  "start": 236.48,
+  "end": 241.12,
+  "speaker": "Simon Maple",
+  "en": "But for now, let's actually take a look at what a good interaction looks like through the Dark Factory.",
+  "zh": "但现在，让我们来看看通过 Dark Factory 的一次良好交互是什么样的。"
+ },
+ {
+  "seg": 44,
+  "start": 241.36,
+  "end": 245.76,
+  "speaker": "Simon Maple",
+  "en": "Let's now go through a full end-to-end test of two pull requests.",
+  "zh": "现在让我们对两个 pull requests 进行一次完整的端到端测试。"
+ },
+ {
+  "seg": 45,
+  "start": 246,
+  "end": 254.96,
+  "speaker": "Simon Maple",
+  "en": "One which requires human interaction, and the other which will go end-to-end without human interaction, starting from a linear ticket all the way through to a completed pull request.",
+  "zh": "一个需要人类交互，另一个将从头到尾端到端进行无需人类交互，从一个 Jira 票据一直到完成的 pull request。"
+ },
+ {
+  "seg": 46,
+  "start": 255.28,
+  "end": 270.16,
+  "speaker": "Rob Willoughby",
+  "en": "Um so this ticket is one that I prepped beforehand, which has to deal with some uh findings from an audit we did where we can accidentally allow uh data from GitHub repos and uh inject commands into the TESL agent commands that we are showing on the website.",
+  "zh": "um 所以这个票据是我事先准备好的，它涉及我们审计的一些发现，我们可能意外允许来自 GitHub 仓库的数据 uh 注入命令到我们网站上显示的 TESL 智能体命令中。"
+ },
+ {
+  "seg": 47,
+  "start": 270.24,
+  "end": 272.72,
+  "speaker": "Rob Willoughby",
+  "en": "That just has to do with string escaping and all that kind of stuff.",
+  "zh": "这只涉及字符串转义和所有这类事情。"
+ },
+ {
+  "seg": 48,
+  "start": 272.96,
+  "end": 276,
+  "speaker": "Rob Willoughby",
+  "en": "So relatively simple fix, but security uh important.",
+  "zh": "所以相对简单的修复，但安全 uh 很重要。"
+ },
+ {
+  "seg": 49,
+  "start": 276.4,
+  "end": 282.56,
+  "speaker": "Rob Willoughby",
+  "en": "This is gonna be touching what shows on our website, so it will require a human PR review in order to land.",
+  "zh": "这将触及我们在网站上显示的内容，因此它需要人类 PR 审查才能落地。"
+ },
+ {
+  "seg": 50,
+  "start": 282.72,
+  "end": 288.48,
+  "speaker": "Rob Willoughby",
+  "en": "All I've got to do is I've got this ticket prepped saying it's in apps front end, so that's our front end, obviously.",
+  "zh": "我要做的就是我已经准备好这张工单，上面说它在 apps 前端，这显然就是我们的前端。"
+ },
+ {
+  "seg": 51,
+  "start": 288.56,
+  "end": 290.48,
+  "speaker": "Rob Willoughby",
+  "en": "Uh and then I'm gonna flip it into to do.",
+  "zh": "呃然后我要把它翻转为待办。"
+ },
+ {
+  "seg": 52,
+  "start": 290.64,
+  "end": 292.56,
+  "speaker": "Rob Willoughby",
+  "en": "Because it's been delegated to the dark factory.",
+  "zh": "因为它已经被委派给 Dark Factory 了。"
+ },
+ {
+  "seg": 53,
+  "start": 292.64,
+  "end": 296,
+  "speaker": "Rob Willoughby",
+  "en": "That means that the dark factory is gonna pick it up and go do this implementation for me.",
+  "zh": "这意味着 Dark Factory 会接手它并去为我执行这个实现。"
+ },
+ {
+  "seg": 54,
+  "start": 296.24,
+  "end": 297.6,
+  "speaker": "Simon Maple",
+  "en": "So that's kicking off the dark factory.",
+  "zh": "所以这就是启动 Dark Factory。"
+ },
+ {
+  "seg": 55,
+  "start": 297.68,
+  "end": 304.96,
+  "speaker": "Simon Maple",
+  "en": "Just putting that into a to-do, the dark factory recognizes there's a hand over there, and it kicks off uh a new container where it can kind of like do all that.",
+  "zh": "只是把它放到待办里，Dark Factory 意识到那里有一个交接，然后它会启动一个新容器，它可以在那里做所有这些事情。"
+ },
+ {
+  "seg": 56,
+  "start": 305.28,
+  "end": 305.52,
+  "speaker": "Simon Maple",
+  "en": "Exactly.",
+  "zh": "正是这样。"
+ },
+ {
+  "seg": 57,
+  "start": 305.6,
+  "end": 307.2,
+  "speaker": "Rob Willoughby",
+  "en": "And so now I'm hands-off at this point.",
+  "zh": "所以在这个点上我就不用管了。"
+ },
+ {
+  "seg": 58,
+  "start": 307.68,
+  "end": 312.4,
+  "speaker": "Rob Willoughby",
+  "en": "The second ticket is one that is targeting our dark factory itself, Hernis slash Kikimura.",
+  "zh": "第二张工单是针对我们 Dark Factory 本身的，Hernis 斜杠 Kikimura。"
+ },
+ {
+  "seg": 59,
+  "start": 312.56,
+  "end": 314.16,
+  "speaker": "Rob Willoughby",
+  "en": "That's just our own internal name for it.",
+  "zh": "这只是我们给它起的内部名字。"
+ },
+ {
+  "seg": 60,
+  "start": 314.48,
+  "end": 318.4,
+  "speaker": "Rob Willoughby",
+  "en": "This is another uh one that is around uh expanding out our metrics.",
+  "zh": "这是另一个关于扩展我们指标的工单。"
+ },
+ {
+  "seg": 61,
+  "start": 318.48,
+  "end": 333.04,
+  "speaker": "Rob Willoughby",
+  "en": "We aren't actually capturing which inference geo uh where we're running these queries against, which means that we're not able to properly uh analyze the effects of caching because our requests could go across any different geos, which then affects cache uh rates and also cost overall.",
+  "zh": "我们实际上没有捕获推理地理位置，也就是我们针对哪里运行这些查询，这意味着我们无法正确分析缓存的效果，因为我们的请求可能会跨越任何不同的地理区域，这会影响缓存率以及总成本。"
+ },
+ {
+  "seg": 62,
+  "start": 333.28,
+  "end": 338.72,
+  "speaker": "Rob Willoughby",
+  "en": "So because this is uh within our own dark factory, we have a policy of auto-merging everything.",
+  "zh": "所以因为这是在我们自己的 Dark Factory 内部，我们有一个自动合并所有内容的策略。"
+ },
+ {
+  "seg": 63,
+  "start": 338.88,
+  "end": 346.72,
+  "speaker": "Rob Willoughby",
+  "en": "Because if we can't auto-merge it, that means that we don't have the verification in place to have confidence in the process of writing code or building code.",
+  "zh": "因为如果我们无法自动合并它，这意味着我们没有适当的验证来对编写代码或构建代码的过程有信心。"
+ },
+ {
+  "seg": 64,
+  "start": 346.88,
+  "end": 349.84,
+  "speaker": "Rob Willoughby",
+  "en": "So you can see that this auto-merge uh label is down here.",
+  "zh": "所以你可以看到这个自动合并标签在下面。"
+ },
+ {
+  "seg": 65,
+  "start": 350,
+  "end": 355.6,
+  "speaker": "Rob Willoughby",
+  "en": "This means that as soon as the dark factory is done creating it, it will go through PR cycle process using bots, of course.",
+  "zh": "这意味着 Dark Factory 一旦完成创建，它就会经历 PR 周期流程，当然使用的是智能体。"
+ },
+ {
+  "seg": 66,
+  "start": 355.68,
+  "end": 362.96,
+  "speaker": "Rob Willoughby",
+  "en": "Uh no human intervention here, and then it will get auto-merged into the repo once all of CI passes and once our review agents uh approve it.",
+  "zh": "这里没有人工干预，然后一旦所有的 CI 通过并且我们的审查智能体批准它，它就会自动合并到仓库中。"
+ },
+ {
+  "seg": 67,
+  "start": 363.12,
+  "end": 366.96,
+  "speaker": "Rob Willoughby",
+  "en": "So I'm gonna flip that into to do and we'll check back in on this one at the end of the podcast.",
+  "zh": "所以我要把它翻转为待办，我们会在播客结束时回头检查这个。"
+ },
+ {
+  "seg": 68,
+  "start": 367.2,
+  "end": 367.6,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 69,
+  "start": 367.68,
+  "end": 376.64,
+  "speaker": "Simon Maple",
+  "en": "And the fact that that uh is set to auto-merge, if that wasn't there, presumably that then would require a human to go in, maybe review the PR and actually push it themselves.",
+  "zh": "事实上它被设置为自动合并，如果那不在那里，推测那就会需要人工介入，也许审查 PR 并实际自己推送它。"
+ },
+ {
+  "seg": 70,
+  "start": 377.04,
+  "end": 377.52,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah, exactly.",
+  "zh": "是的，完全正确。"
+ },
+ {
+  "seg": 71,
+  "start": 377.6,
+  "end": 377.76,
+  "speaker": "Rob Willoughby",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 72,
+  "start": 377.92,
+  "end": 385.28,
+  "speaker": "Rob Willoughby",
+  "en": "So auto merge is an optional label that just gets the bot to literally select auto merge on the GitHub PR uh so that it will go in once CI is green.",
+  "zh": "所以自动合并是一个可选的标签，只是让机器人真正地在 GitHub PR 上选择自动合并，这样一旦 CI 变绿它就会进入。"
+ },
+ {
+  "seg": 73,
+  "start": 385.6,
+  "end": 386.32,
+  "speaker": "Simon Maple",
+  "en": "Awesome, amazing.",
+  "zh": "太棒了，令人惊叹。"
+ },
+ {
+  "seg": 74,
+  "start": 386.48,
+  "end": 389.2,
+  "speaker": "Simon Maple",
+  "en": "So now we've raised uh two tickets, two linear tickets.",
+  "zh": "所以现在我们已经提交了两张工单，两张 Linear 工单。"
+ },
+ {
+  "seg": 75,
+  "start": 389.36,
+  "end": 399.36,
+  "speaker": "Simon Maple",
+  "en": "Uh one which requires a human review, so the Dart Factory will do all the work and then it will say, This is done, here's the pull request, approve it, and it will be uh it will be merged.",
+  "zh": "一张需要人工审查，所以 Dark Factory 会做所有工作，然后会说，这完成了，这是拉取请求，批准它，然后它就会被合并。"
+ },
+ {
+  "seg": 76,
+  "start": 399.52,
+  "end": 409.68,
+  "speaker": "Simon Maple",
+  "en": "The second one, because it's uh a PR that goes directly to the Dart Factory, it's a PR for the Dart Factory, uh, that will auto-merge, so as soon as it's done, it will it will squash that down and merge that into the code base.",
+  "zh": "第二张，因为它是直接发给 Dark Factory 的 PR，它是给 Dark Factory 的 PR，它会自动合并，所以一旦完成，它就会把它压缩并合并到代码库中。"
+ },
+ {
+  "seg": 77,
+  "start": 409.92,
+  "end": 410.4,
+  "speaker": "Simon Maple",
+  "en": "Yep, correct.",
+  "zh": "是的，正确。"
+ },
+ {
+  "seg": 78,
+  "start": 410.64,
+  "end": 410.96,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 79,
+  "start": 411.04,
+  "end": 413.44,
+  "speaker": "Simon Maple",
+  "en": "We'll come back to that at the end of the podcast.",
+  "zh": "我们会在播客结束时回到那个。"
+ },
+ {
+  "seg": 80,
+  "start": 413.68,
+  "end": 424.4,
+  "speaker": "Simon Maple",
+  "en": "Uh so why don't we talk about how Tesla uses the Dart Factory numbers-wise, first of all, and then we'll maybe look back as to as to what we were doing before the Dart Factory existed.",
+  "zh": "那么我们为什么不先谈谈 Tesla 在数字方面是如何使用 Dark Factory 的，然后我们也许回顾一下在 Dark Factory 存在之前我们在做什么。"
+ },
+ {
+  "seg": 81,
+  "start": 424.56,
+  "end": 431.44,
+  "speaker": "Simon Maple",
+  "en": "So when we think numbers-wise, what percentage of Tesla's pull requests today use the Dart Factory?",
+  "zh": "那么当我们考虑数字方面时，今天 Tesla 的拉取请求中有百分之多少使用 Dark Factory？"
+ },
+ {
+  "seg": 82,
+  "start": 431.68,
+  "end": 433.84,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah, so it varies a little bit week over week.",
+  "zh": "是的，所以每周都会有一点变化。"
+ },
+ {
+  "seg": 83,
+  "start": 433.92,
+  "end": 437.2,
+  "speaker": "Rob Willoughby",
+  "en": "Um, but for the last week, we are between 65 and 70%.",
+  "zh": "呃，但在上周，我们在 65% 到 70% 之间。"
+ },
+ {
+  "seg": 84,
+  "start": 437.6,
+  "end": 442.56,
+  "speaker": "Rob Willoughby",
+  "en": "Uh, mind you, this is including uh pull requests that are building the dark factory using the dark factory.",
+  "zh": "呃，请注意，这包括了正在使用 Dark Factory 构建 Dark Factory 的拉取请求。"
+ },
+ {
+  "seg": 85,
+  "start": 442.72,
+  "end": 445.2,
+  "speaker": "Rob Willoughby",
+  "en": "Um, so there is a lot of those, as you can expect.",
+  "zh": "呃，所以有很多这样的，正如你所期望的那样。"
+ },
+ {
+  "seg": 86,
+  "start": 445.28,
+  "end": 447.52,
+  "speaker": "Rob Willoughby",
+  "en": "We are heavy users of it internally on our team.",
+  "zh": "我们在内部团队大量使用它。"
+ },
+ {
+  "seg": 87,
+  "start": 447.68,
+  "end": 460.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um the last time that I looked for the production part of our code base, so the stuff that is serving the registry, our web UI, um our CLI, all of that kind of stuff, we are at about 40% of production PRs were raised using the Dark Factory.",
+  "zh": "呃我上次查看我们代码库的生产部分时，所以是服务于注册表的东西，我们的 Web UI，我们的 CLI，所有这类东西，我们有大约 40% 的生产 PR 是使用 Dark Factory 提交的。"
+ },
+ {
+  "seg": 88,
+  "start": 460.88,
+  "end": 464,
+  "speaker": "Simon Maple",
+  "en": "And all of those 40% require a human review to some extent.",
+  "zh": "而且所有这 40% 都需要在一定程度上进行人工审查。"
+ },
+ {
+  "seg": 89,
+  "start": 464.64,
+  "end": 477.36,
+  "speaker": "Rob Willoughby",
+  "en": "Because they just our policy is that we only allow auto merge on um stuff that is in our research code base, stuff that is in our dark factory code base, and stuff that um our GTM team is building uh using the Dark Factory to help uh build out their own internal flows too.",
+  "zh": "因为我们的策略是，我们只允许在研究代码库中的东西、Dark Factory 代码库中的东西以及我们的 GTM 团队使用 Dark Factory 构建的东西上自动合并，以帮助他们构建自己的内部流程。"
+ },
+ {
+  "seg": 90,
+  "start": 477.68,
+  "end": 478.56,
+  "speaker": "Rob Willoughby",
+  "en": "And how about weekends?",
+  "zh": "那周末呢？"
+ },
+ {
+  "seg": 91,
+  "start": 478.64,
+  "end": 480.56,
+  "speaker": "Rob Willoughby",
+  "en": "Does the Dark Factory work while we sleep?",
+  "zh": "Dark Factory 在我们睡觉时工作吗？"
+ },
+ {
+  "seg": 92,
+  "start": 480.88,
+  "end": 481.68,
+  "speaker": "Rob Willoughby",
+  "en": "Uh oh yes.",
+  "zh": "呃哦是的。"
+ },
+ {
+  "seg": 93,
+  "start": 481.76,
+  "end": 486.48,
+  "speaker": "Rob Willoughby",
+  "en": "Uh we'll happily work weekends and overnight, and as long as there work is there is work in the queue.",
+  "zh": "呃我们很乐意在周末和通宵工作，只要队列里有工作。"
+ },
+ {
+  "seg": 94,
+  "start": 486.64,
+  "end": 497.44,
+  "speaker": "Rob Willoughby",
+  "en": "It feels like a little bit of the shift in my own thinking about this is less about what is the coding work that I think I can do over the course of the week, but what is the coding work that I can be able to effectively feed the queue over a long enough time?",
+  "zh": "感觉我自己对这种思考方式的转变有点少是关于我认为我在一周内能做的编码工作是什么，而是我在足够长的时间里能有效地喂给队列的编码工作是什么。"
+ },
+ {
+  "seg": 95,
+  "start": 497.6,
+  "end": 512.08,
+  "speaker": "Rob Willoughby",
+  "en": "Because we respect linear blocking relationships and able to handle kind of subtest and all that kind of stuff, I can actually sequence quite a fair amount of work before I go away for the weekend and come back to not a fundamentally different architecture, but a relatively different architecture over the course of the weekend.",
+  "zh": "因为我们尊重 Linear 阻塞关系并且能够处理子测试和所有这类事情，我实际上可以在周末离开之前排列相当多的工作，回来时不是根本不同的架构，而是在周末期间相对不同的架构。"
+ },
+ {
+  "seg": 96,
+  "start": 512.24,
+  "end": 521.28,
+  "speaker": "Rob Willoughby",
+  "en": "I think uh two weekends ago, um, we had quite a busy Friday, and the Dark Factory ended up shipping 150 PRs uh for two of us uh over the course of the weekend.",
+  "zh": "我认为呃两个周末前，呃，我们有一个相当忙碌的星期五，Dark Factory 最终在整个周末为我们两个人提交了 150 个 PR。"
+ },
+ {
+  "seg": 97,
+  "start": 521.44,
+  "end": 525.12,
+  "speaker": "Rob Willoughby",
+  "en": "And that was just while we were out hanging about, enjoying London in the heat wave and some of the sun here.",
+  "zh": "那只是在我们外出闲逛、享受伦敦的热浪和一些阳光的时候。"
+ },
+ {
+  "seg": 98,
+  "start": 525.36,
+  "end": 528.08,
+  "speaker": "Simon Maple",
+  "en": "And was there any interaction that you had over that weekend during those?",
+  "zh": "在那个周末期间你有任何互动吗？"
+ },
+ {
+  "seg": 99,
+  "start": 528.56,
+  "end": 530.24,
+  "speaker": "Simon Maple",
+  "en": "No, so those were all auto-merged in.",
+  "zh": "不，所以那些都是自动合并的。"
+ },
+ {
+  "seg": 100,
+  "start": 530.56,
+  "end": 530.96,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 101,
+  "start": 531.2,
+  "end": 534.56,
+  "speaker": "Simon Maple",
+  "en": "So TESL didn't always use a dark factory, of course.",
+  "zh": "所以 TESL 当然并不总是使用暗工厂的。"
+ },
+ {
+  "seg": 102,
+  "start": 534.64,
+  "end": 540.48,
+  "speaker": "Simon Maple",
+  "en": "Uh what was the uh engineering styles and culture pre-you building the dark factory?",
+  "zh": "嗯在你构建暗工厂之前，工程风格和文化是什么样的？"
+ },
+ {
+  "seg": 103,
+  "start": 540.88,
+  "end": 560.16,
+  "speaker": "Rob Willoughby",
+  "en": "So the way I'd framed it was single-player agentic engineering, um, in terms of you had people have their local agent, um, or maybe a cloud agent like Claud Code on the web or cursor agent in the cloud or anything along those lines, but it was still ultimately being driven by an engineer in the interactive human or the interactive driver seat.",
+  "zh": "所以我描述它的方式是单玩家智能体工程，嗯，就相当于人们有自己的本地智能体，嗯或者也许是像 Web 上的 Claud Code 或云端中的 cursor agent 之类的云智能体，或者类似的任何东西，但它最终仍然由交互式人类或交互式驾驶员座位上的工程师驱动。"
+ },
+ {
+  "seg": 104,
+  "start": 560.64,
+  "end": 571.44,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so you'd figure out with your team what the work you were on to do, you'd then work with an agent to scope that work, do the implementation, test and verify locally, push up and merge the PR.",
+  "zh": "嗯所以你会和你的团队弄清楚你要做的工作，然后你会与智能体合作来确定工作范围，做实施，在本地测试和验证，推送并合并 PR。"
+ },
+ {
+  "seg": 105,
+  "start": 571.6,
+  "end": 579.36,
+  "speaker": "Rob Willoughby",
+  "en": "So very similar to kind of the previous flow uh prior to agents, prior to LLMs, just on an accelerated timescale because the implementation was now getting cheap.",
+  "zh": "所以非常类似于之前的那种流程，嗯在智能体之前，在 LLM 之前，只是在加速的时间表上，因为实施现在变得便宜了。"
+ },
+ {
+  "seg": 106,
+  "start": 579.84,
+  "end": 587.12,
+  "speaker": "Rob Willoughby",
+  "en": "And so, but it was still that very much so I am a human driving a ticket through to completion with many touch points along the way.",
+  "zh": "所以，但它仍然很大程度上是，我是一个人类驱动着一个工单直到完成，沿途有许多接触点。"
+ },
+ {
+  "seg": 107,
+  "start": 587.44,
+  "end": 593.76,
+  "speaker": "Simon Maple",
+  "en": "Yeah, so it wasn't so much a workflow change, it was more uh and it, like you say, it's an acceleration of that code generation, really.",
+  "zh": "是的，所以这并不是太多的工作流改变，更多的是，嗯就像你说的，这确实是代码生成的加速。"
+ },
+ {
+  "seg": 108,
+  "start": 594.16,
+  "end": 597.12,
+  "speaker": "Simon Maple",
+  "en": "Um and and I guess what what what were the tripping points at that stage?",
+  "zh": "嗯我想我想我想知道在那个阶段绊脚点是什么？"
+ },
+ {
+  "seg": 109,
+  "start": 597.2,
+  "end": 598.8,
+  "speaker": "Simon Maple",
+  "en": "What were the things that would slow us down?",
+  "zh": "什么会让我们慢下来？"
+ },
+ {
+  "seg": 110,
+  "start": 598.96,
+  "end": 605.6,
+  "speaker": "Simon Maple",
+  "en": "Because I guess you know, speeding us up with this with the same workflow is gonna cause problems, it's gonna cause a different bottleneck in it in likely in another place.",
+  "zh": "因为我想你知道，用相同的工作流加速我们 gonna 会产生问题，它 gonna 在另一个地方产生不同的瓶颈，很可能是在另一个地方。"
+ },
+ {
+  "seg": 111,
+  "start": 605.68,
+  "end": 606.48,
+  "speaker": "Simon Maple",
+  "en": "What were the problems though?",
+  "zh": "但是问题是什么呢？"
+ },
+ {
+  "seg": 112,
+  "start": 606.72,
+  "end": 606.88,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 113,
+  "start": 607.12,
+  "end": 610.56,
+  "speaker": "Rob Willoughby",
+  "en": "So I think uh verification and testing was a big problem.",
+  "zh": "所以我认为，嗯验证和测试是一个大问题。"
+ },
+ {
+  "seg": 114,
+  "start": 610.96,
+  "end": 620.16,
+  "speaker": "Rob Willoughby",
+  "en": "Um we uh so we run a monorepo um where we have a bunch of build dependencies, and so in order to test it, effectively test everything, you've got to build it locally.",
+  "zh": "嗯我们，嗯我们要运行一个单体仓库，嗯我们有一堆构建依赖，所以为了测试它，有效地测试所有东西，你必须在本地构建它。"
+ },
+ {
+  "seg": 115,
+  "start": 620.24,
+  "end": 627.2,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and then you need to walk kind of through a whole bunch of go hit a bunch of endpoints or go click a bunch of buttons in the UI or something along those lines.",
+  "zh": "嗯，然后你需要有点儿走一遍整个流程，去命中一堆端点，或者去在 UI 中点击一堆按钮，或者类似的事情。"
+ },
+ {
+  "seg": 116,
+  "start": 627.44,
+  "end": 640.96,
+  "speaker": "Rob Willoughby",
+  "en": "And so that meant that any change that you were doing, yes, now your implementation is free or functionally free, um, but you still have to hit pay that verification burden in terms of, hey, I've got to go actually check that this did the thing that I wanted it to do, rather than just looking at the code.",
+  "zh": "所以这意味着你正在做的任何更改，是的，现在你的实施是免费的或功能上免费的，嗯但你仍然必须支付那个验证负担，就像，嘿，我得去实际检查这做了我想让它做的事，而不仅仅是看代码。"
+ },
+ {
+  "seg": 117,
+  "start": 641.2,
+  "end": 643.28,
+  "speaker": "Rob Willoughby",
+  "en": "The other bottleneck is the code review.",
+  "zh": "另一个瓶颈是代码审查。"
+ },
+ {
+  "seg": 118,
+  "start": 643.44,
+  "end": 650.48,
+  "speaker": "Rob Willoughby",
+  "en": "Suddenly you're shifting this, what an engineer is spending the majority of their day doing from writing code to reviewing code.",
+  "zh": "突然间你正在转移这个，工程师一天中花大部分时间做的事情，从写代码变成了审查代码。"
+ },
+ {
+  "seg": 119,
+  "start": 650.72,
+  "end": 657.76,
+  "speaker": "Rob Willoughby",
+  "en": "And there are very few people out there who would have said, I think, in this prior world, that they love code review as the most important part of the job.",
+  "zh": "而且我想在那之前的世界里，很少有有人说他们喜欢代码审查，并且认为这是工作中最重要的部分。"
+ },
+ {
+  "seg": 120,
+  "start": 658,
+  "end": 666.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um, but it is something that is needed and something where we share best practices, share culture through, and now people were just doing it day in and day out.",
+  "zh": "嗯，但这是需要的东西，也是我们分享最佳实践、分享文化的地方，现在人们只是日复一日地做这件事。"
+ },
+ {
+  "seg": 121,
+  "start": 666.64,
+  "end": 676.48,
+  "speaker": "Rob Willoughby",
+  "en": "Because I can churn out 20 PRs in a day using a local agent, but if we have a policy where every PR needs a human review on it, well then my team needs to go review 20 PRs.",
+  "zh": "因为我可以使用本地智能体在一天内 churn out 20 个 PR，但如果我们有政策说每个 PR 都需要人工审查，那么我的团队就需要去审查 20 个 PR。"
+ },
+ {
+  "seg": 122,
+  "start": 676.64,
+  "end": 693.76,
+  "speaker": "Rob Willoughby",
+  "en": "And yes, then they'll also be churning out a bunch of PRs, and then I have to review their PRs, and we just end up in the cycle of we're actually spending more time reviewing and then PRs get stale and then they have merge conflicts, and it's this fun this um this other bottleneck that I think we'd never had to engage with before because we just weren't making enough code before.",
+  "zh": "是的，然后他们也会 churn out 一堆 PR，然后我必须审查他们的 PR，我们最终陷入了一个循环，我们实际上花了更多时间审查，然后 PR 变得陈旧，然后它们有合并冲突，这是一个有趣的，嗯这是我认为我们以前从未不得不处理的另一个瓶颈，因为我们以前只是没有产生足够的代码。"
+ },
+ {
+  "seg": 123,
+  "start": 694.24,
+  "end": 702.96,
+  "speaker": "Simon Maple",
+  "en": "So it's very interesting when we compare that previous approach where Tesla was essentially using those coding agents as as an accelerator to writing code.",
+  "zh": "所以当我们比较之前的方法时，这非常有趣，那时 Tesla 本质上是使用那些编码智能体作为写代码的加速器。"
+ },
+ {
+  "seg": 124,
+  "start": 703.12,
+  "end": 709.2,
+  "speaker": "Simon Maple",
+  "en": "Come the Friday, we're essentially trying to get as much done as we possibly can looking backwards on that week.",
+  "zh": "到了周五，我们本质上是在回顾那一周，试图尽可能多地完成工作。"
+ },
+ {
+  "seg": 125,
+  "start": 709.44,
+  "end": 714.64,
+  "speaker": "Simon Maple",
+  "en": "Whereas today with the Dart Factory, what we're actually doing is it's a bad Friday if we don't prep the weekend.",
+  "zh": "而今天有了 Dart Factory，我们实际在做的是，如果我们不为周末做准备，那就是一个糟糕的周五。"
+ },
+ {
+  "seg": 126,
+  "start": 714.72,
+  "end": 722.72,
+  "speaker": "Simon Maple",
+  "en": "We're actually looking forward to think, can I plan and stack and queue enough for the Dart Factory to have enough work going forward?",
+  "zh": "我们实际上是在向前看，想，我能计划、堆叠和排队足够的工作让 Dart Factory 有足够的工作继续进行吗？"
+ },
+ {
+  "seg": 127,
+  "start": 722.88,
+  "end": 734.4,
+  "speaker": "Simon Maple",
+  "en": "It's a very different mindset in terms of you're essentially managing the agent work versus you know essentially feeding on a minute to minute basis the agent with tasks to do.",
+  "zh": "这是一种非常不同的心态，就你本质上是在管理智能体工作，而不是，你知道，本质上是在一分钟一分钟的基础上喂智能体任务去做。"
+ },
+ {
+  "seg": 128,
+  "start": 734.64,
+  "end": 735.92,
+  "speaker": "Rob Willoughby",
+  "en": "Yep, yeah, definitely.",
+  "zh": "是的，是的，确实。"
+ },
+ {
+  "seg": 129,
+  "start": 736.16,
+  "end": 740.48,
+  "speaker": "Rob Willoughby",
+  "en": "And it it's a little bit of that shift in my mind, like you're shifting up the abstraction stack a bit.",
+  "zh": "在我看来，这有点像那个转变，就像你正在向上转移抽象栈。"
+ },
+ {
+  "seg": 130,
+  "start": 740.72,
+  "end": 744.4,
+  "speaker": "Rob Willoughby",
+  "en": "You're no longer thinking about like what is this ticket that I'm gonna try to get done?",
+  "zh": "你不再想，我想要完成的这个工单是什么？"
+ },
+ {
+  "seg": 131,
+  "start": 744.56,
+  "end": 753.92,
+  "speaker": "Rob Willoughby",
+  "en": "You're thinking about what is this feature that I'm gonna I want to do, what is the sequence of steps that someone needs to do it, just like I divvy up to a junior engineer or an intern or something along those lines.",
+  "zh": "你在想，我想要做的这个功能是什么，有人需要执行的步骤序列是什么，就像我把任务分配给初级工程师或实习生或类似的人一样。"
+ },
+ {
+  "seg": 132,
+  "start": 754.08,
+  "end": 770.8,
+  "speaker": "Rob Willoughby",
+  "en": "And then how do I make sure that the stuff that I care about, either like the correctness or the UI verification or the clicking the buttons or hitting at the endpoints or whatever it is that kind of I is important to me, how do I make sure that's encoded in a way where I trust that it's gonna get done and the the agent is gonna do it?",
+  "zh": "然后我如何确保我关心的东西，无论是正确性还是 UI 验证还是点击按钮或命中端点，或者任何对我很重要的东西，如何确保这些以某种方式编码，使得我信任它 gonna 被完成，并且智能体 gonna 去做它？"
+ },
+ {
+  "seg": 133,
+  "start": 771.04,
+  "end": 775.68,
+  "speaker": "Rob Willoughby",
+  "en": "And so I think it's both for me kind of like that stacking up and that forward-looking aspect of it.",
+  "zh": "所以我认为对我来说，这既像是那个堆叠，也像是那个前瞻性方面。"
+ },
+ {
+  "seg": 134,
+  "start": 775.84,
+  "end": 789.44,
+  "speaker": "Rob Willoughby",
+  "en": "But the other big shift has been kind of what we now have these agents, these models, where we can literally deterministically load context into their context window to enforce the fact that they have read something.",
+  "zh": "但另一个大转变一直是，我们现在有了这些智能体，这些模型，我们可以从字面上确定性地将上下文加载到它们的上下文窗口中，以强制它们已经阅读了某些东西。"
+ },
+ {
+  "seg": 135,
+  "start": 789.68,
+  "end": 794.56,
+  "speaker": "Rob Willoughby",
+  "en": "It's very hard for me to get a human to go read a doc on best practices or principles or something along those lines.",
+  "zh": "对我来说，很难让一个人去阅读关于最佳实践或原则或类似内容的文档。"
+ },
+ {
+  "seg": 136,
+  "start": 794.72,
+  "end": 803.28,
+  "speaker": "Rob Willoughby",
+  "en": "So I have this additional leverage from being able to say, you know that I want to build the code as uh code base in this way, so you're gonna go build it in that way.",
+  "zh": "所以我有了这种额外的杠杆，能够说，你知道我想以这种方式构建代码，代码库，所以你要去以那种方式构建它。"
+ },
+ {
+  "seg": 137,
+  "start": 803.36,
+  "end": 807.36,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and I therefore have a higher level of trust in the code that's gonna be outputted.",
+  "zh": "嗯，因此我对将要输出的代码有更高程度的信任。"
+ },
+ {
+  "seg": 138,
+  "start": 807.6,
+  "end": 815.68,
+  "speaker": "Rob Willoughby",
+  "en": "I can then also start layering in other bits of verification around like coding styles or around testing or around enforcement or stuff along those lines.",
+  "zh": "然后我也可以开始分层叠加其他验证位，围绕编码风格或围绕测试或围绕执行或类似的东西。"
+ },
+ {
+  "seg": 139,
+  "start": 815.84,
+  "end": 818.24,
+  "speaker": "Rob Willoughby",
+  "en": "And this is all about to that feeding the qubit.",
+  "zh": "而这一切都是为了喂养量子位。"
+ },
+ {
+  "seg": 140,
+  "start": 818.4,
+  "end": 836.24,
+  "speaker": "Rob Willoughby",
+  "en": "The only way that I would trust to be able to build a queue that will then sequence and run autonomously, is if I have enough trust that the output of that queue isn't, at a bare minimum, going to break existing functionality, but ideally is going to be something that maybe not proud of writing myself, but I would be okay if I had written it myself.",
+  "zh": "我唯一信任能够构建一个队列然后自主序列化和运行的方式，是我有足够的信任，该队列的输出，至少不会破坏现有功能，但理想情况下，这可能是某种我自己写出来不会自豪的东西，但如果是我自己写的，我会没问题。"
+ },
+ {
+  "seg": 141,
+  "start": 836.64,
+  "end": 837.04,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 142,
+  "start": 837.36,
+  "end": 858.72,
+  "speaker": "Simon Maple",
+  "en": "Let's uh let's jump through what a dark factory is component by component, and to and and I'd love for you to walk us through how we started on this dark factory journey, what we implemented first, and and Yeah, you know, really understanding that path so that others can kind of follow and understand uh what they should do first.",
+  "zh": "让我们，嗯让我们逐个组件深入了解什么是暗工厂，并且，嗯我希望你能带我们走过我们是如何开始这个暗工厂之旅的，我们首先实现了什么，并且，嗯是的，你知道，真正理解那条路径，以便其他人可以跟随并理解，嗯他们应该首先做什么。"
+ },
+ {
+  "seg": 143,
+  "start": 858.88,
+  "end": 863.76,
+  "speaker": "Simon Maple",
+  "en": "So when we first tried to build this dark factory, what were the initial steps that we took?",
+  "zh": "所以当我们第一次尝试构建这个暗工厂时，我们采取了哪些初步步骤？"
+ },
+ {
+  "seg": 144,
+  "start": 864.56,
+  "end": 871.68,
+  "speaker": "Rob Willoughby",
+  "en": "So I think they're just kind of set the lay of the land a bit, there's a couple important concepts here.",
+  "zh": "所以我认为它们只是有点设定了一下局面，这里有几个重要的概念。"
+ },
+ {
+  "seg": 145,
+  "start": 871.84,
+  "end": 883.04,
+  "speaker": "Rob Willoughby",
+  "en": "One is the orchestrator, which is what's actually picking up tickets, um, and then passing it off to coding agents, doing work, and doing the whole babysitting thing in terms of making sure the PR goes through and all that kind of stuff.",
+  "zh": "一个是编排器，它实际上是在拾取工单，嗯然后把它移交给编码智能体，做工作，做整个保姆的事情，确保 PR 通过以及所有这类事情。"
+ },
+ {
+  "seg": 146,
+  "start": 883.2,
+  "end": 893.84,
+  "speaker": "Rob Willoughby",
+  "en": "But then importantly, and I'll touch on this second, is the actual context and environment within our repo that we give to the coding agents, uh, which I personally think is where the higher amount of leverage comes from.",
+  "zh": "但重要的是，我会在第二点谈到这一点，是我们给编码智能体的我们代码仓库中的实际上下文和环境，嗯我个人认为这是更高杠杆的来源。"
+ },
+ {
+  "seg": 147,
+  "start": 894.08,
+  "end": 907.04,
+  "speaker": "Rob Willoughby",
+  "en": "But uh we built the first thing first, uh, the orchestrator first, just because that is the tractable thing, that's kind of what we think of when we think of a dark software factory, is the mechanism to go from linear ticket to actually produce code.",
+  "zh": "但是，嗯我们先构建了第一样东西，嗯先构建了编排器，因为那是可解决的问题，那是当我们想到暗软件工厂时我们想到的东西，是从线性工单到实际生产代码的机制。"
+ },
+ {
+  "seg": 148,
+  "start": 907.2,
+  "end": 913.12,
+  "speaker": "Rob Willoughby",
+  "en": "I think just one of our big learnings previewing this has been that is dead simple and not that uh hard.",
+  "zh": "我认为我们在预览这方面的一大收获是，这非常简单，并不那么，嗯难。"
+ },
+ {
+  "seg": 149,
+  "start": 913.36,
+  "end": 928.24,
+  "speaker": "Rob Willoughby",
+  "en": "It's everything else that surrounds that, where you then because if you don't kind of invest in those other layers, you then end up back in that previous workflow case we were talking about, where you just end up overwhelmed with review, or you end up overwhelmed with code, or you end up doing things that aren't actually driving the whole system forward.",
+  "zh": "围绕它的其他所有事情才是，因为你然后如果你不在那些其他层次投资，你最终会回到我们谈到的之前的工作流情况，你最终会被审查淹没，或者被代码淹没，或者最终做的那些事情实际上并没有推动整个系统向前发展。"
+ },
+ {
+  "seg": 150,
+  "start": 928.32,
+  "end": 932.96,
+  "speaker": "Simon Maple",
+  "en": "Aaron Powell So the orchestrator isn't here an agent orchestrator, it's essentially almost like a workflow orchestrator.",
+  "zh": "Aaron Powell 所以编排器在这里不是一个智能体编排器，它本质上几乎就像一个工作流编排器。"
+ },
+ {
+  "seg": 151,
+  "start": 933.2,
+  "end": 933.36,
+  "speaker": "Simon Maple",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 152,
+  "start": 933.6,
+  "end": 940.72,
+  "speaker": "Simon Maple",
+  "en": "It's trying it's it's it's connecting, it's an integrator between agents and other tools or other things like Linear as as a good example of.",
+  "zh": "它试图它是它是它是连接的，它是智能体与其他工具或其他事物（比如 Linear 是一个很好的例子）之间的集成器。"
+ },
+ {
+  "seg": 153,
+  "start": 941.2,
+  "end": 941.44,
+  "speaker": "Rob Willoughby",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 154,
+  "start": 942,
+  "end": 952.16,
+  "speaker": "Rob Willoughby",
+  "en": "And so our journey started with basically a Python queue that connected to Linear and connected to uh GitHub and ran an agent locally in a Docker's handbox.",
+  "zh": "所以我们的旅程基本上是从一个连接到 Linear 并连接到 uh GitHub 的 Python 队列开始的，并在一个 Docker 沙箱中本地运行一个智能体。"
+ },
+ {
+  "seg": 155,
+  "start": 952.4,
+  "end": 962.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um we literally had one of our ends not allowed to close our laptop for about a week because it was all running locally on our machine and we had much more adoption on that that uh than we had expected internally there.",
+  "zh": "Um 我们实际上让我们的工程师之一大约一周不允许关闭笔记本电脑，因为它全部是在我们的机器上本地运行的，而且我们在内部的采用情况比我们预期的要多得多。"
+ },
+ {
+  "seg": 156,
+  "start": 962.72,
+  "end": 974.48,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so kind of the design decisions that we made around that were trying to keep things as simple as possible and relying on other systems as our source of truth where we could, because we didn't want to have to reinvent the wheel there.",
+  "zh": "Um 所以我们围绕此所做的设计决策是试图让事情尽可能简单，并依赖其他系统作为我们的真实来源，只要我们可以，因为我们不想在那里重新发明轮子。"
+ },
+ {
+  "seg": 157,
+  "start": 974.8,
+  "end": 976.48,
+  "speaker": "Rob Willoughby",
+  "en": "So we've made an opinionated choice.",
+  "zh": "所以我们做了一个有主见的选择。"
+ },
+ {
+  "seg": 158,
+  "start": 976.56,
+  "end": 978.56,
+  "speaker": "Rob Willoughby",
+  "en": "Linear is our source of truth for work to be done.",
+  "zh": "Linear 是我们要做的工作的真实来源。"
+ },
+ {
+  "seg": 159,
+  "start": 978.72,
+  "end": 990.4,
+  "speaker": "Rob Willoughby",
+  "en": "Everything must flow through linear if it's going to result in a durable artifact uh that is oriented that is a PR in our code base, or a Notion Doc, or any of the other artifacts that are produced by the Dark Factory.",
+  "zh": "一切都必须流经 Linear，如果要产生一个持久的工件，即一个面向……那个是我们代码库中的 PR，或者一个 Notion 文档，或者由 Dark Factory 产生的任何其他工件。"
+ },
+ {
+  "seg": 160,
+  "start": 990.56,
+  "end": 995.52,
+  "speaker": "Rob Willoughby",
+  "en": "That just allows us the audit trail, the debugging, the visibility on that.",
+  "zh": "那只是允许我们获得审计跟踪，调试，以及对此的可见性。"
+ },
+ {
+  "seg": 161,
+  "start": 995.6,
+  "end": 1005.68,
+  "speaker": "Rob Willoughby",
+  "en": "And it means that we can then rely on all the work that Linear has done in terms of uh blocking relationships, subtasks, tagging for the reporting and the mechanisms that we need there, and we don't need to build it ourselves.",
+  "zh": "这意味着我们可以依靠 Linear 在阻塞关系、子任务、用于报告的标记以及我们在那里需要的机制方面所做的所有工作，而我们不需要自己构建它。"
+ },
+ {
+  "seg": 162,
+  "start": 1005.84,
+  "end": 1008.32,
+  "speaker": "Rob Willoughby",
+  "en": "Um so we have basically a poll.",
+  "zh": "Um 所以我们基本上有一个轮询。"
+ },
+ {
+  "seg": 163,
+  "start": 1008.4,
+  "end": 1010.32,
+  "speaker": "Rob Willoughby",
+  "en": "Uh we're working to shift this over to Webhooks.",
+  "zh": "Uh 我们正在努力将其转移到 Webhooks。"
+ },
+ {
+  "seg": 164,
+  "start": 1010.48,
+  "end": 1016.08,
+  "speaker": "Rob Willoughby",
+  "en": "It just hasn't been at top of the priority list because we haven't broken linear yet with our polling, other than earner tests, which I'll mention later.",
+  "zh": "这还没有成为优先事项的首位，因为我们还没有用我们的轮询搞挂 Linear，除了 earner 测试，我稍后会提到。"
+ },
+ {
+  "seg": 165,
+  "start": 1016.24,
+  "end": 1021.12,
+  "speaker": "Rob Willoughby",
+  "en": "Um so we have something that pulls linear for new work delegated to our factory and state to do.",
+  "zh": "Um 所以我们有一个东西拉取 Linear 中分配给我们工厂的新工作和要做的事项。"
+ },
+ {
+  "seg": 166,
+  "start": 1021.28,
+  "end": 1023.2,
+  "speaker": "Rob Willoughby",
+  "en": "Picks that up, puts it onto the queue.",
+  "zh": "接取它，把它放到队列上。"
+ },
+ {
+  "seg": 167,
+  "start": 1023.36,
+  "end": 1031.12,
+  "speaker": "Rob Willoughby",
+  "en": "There's a bunch of prioritization logic uh depending on kind of which project it's coming from, what the priority is, whether it's being blocked, stuff along those lines.",
+  "zh": "有一堆优先级逻辑，取决于它来自哪个项目，优先级是什么，它是否被阻塞，这一类的东西。"
+ },
+ {
+  "seg": 168,
+  "start": 1031.28,
+  "end": 1034.8,
+  "speaker": "Rob Willoughby",
+  "en": "Uh that then gets farmed out to a coding agent.",
+  "zh": "Uh 然后它被分发给一个编码智能体。"
+ },
+ {
+  "seg": 169,
+  "start": 1034.88,
+  "end": 1038.88,
+  "speaker": "Rob Willoughby",
+  "en": "Uh as I mentioned originally that was just running in Docker on someone's machine.",
+  "zh": "Uh 我最初提到那只是在一台机器上的 Docker 中运行的。"
+ },
+ {
+  "seg": 170,
+  "start": 1039.04,
+  "end": 1047.76,
+  "speaker": "Rob Willoughby",
+  "en": "We just really want an isolated environment because we don't want these agents to kind of be interacting with each other uh because each one is meant to be kind of a one-shot uh implementation.",
+  "zh": "我们只是真的想要一个隔离的环境，因为我们不希望这些智能体互相影响，因为每一个都被设计为一种一次性实现。"
+ },
+ {
+  "seg": 171,
+  "start": 1048.08,
+  "end": 1056.56,
+  "speaker": "Rob Willoughby",
+  "en": "Mind you, they can technically understand what other agents are going on, and we do see this in the logs because we'll often reference other tickets in the description of a ticket.",
+  "zh": "听着，它们技术上可以理解其他智能体在做什么，而且我们确实在日志中看到了这一点，因为我们经常在工单描述中引用其他工单。"
+ },
+ {
+  "seg": 172,
+  "start": 1056.64,
+  "end": 1061.36,
+  "speaker": "Rob Willoughby",
+  "en": "And so an agent will go check in on how that ticket is going or what the PR was associated with that.",
+  "zh": "所以智能体会去检查那张工单进行得如何，或者与它关联的 PR 是什么。"
+ },
+ {
+  "seg": 173,
+  "start": 1061.44,
+  "end": 1066.64,
+  "speaker": "Rob Willoughby",
+  "en": "But that's just kind of an emergent behavior in terms of building up the context needed to be able to do effective implementation.",
+  "zh": "但这只是为了构建有效实现所需的上下文而出现的一种紧急行为。"
+ },
+ {
+  "seg": 174,
+  "start": 1066.96,
+  "end": 1070.16,
+  "speaker": "Rob Willoughby",
+  "en": "These agents uh currently for us run in a Daytona sandbox.",
+  "zh": "这些智能体对我们来说目前在 Daytona 沙箱中运行。"
+ },
+ {
+  "seg": 175,
+  "start": 1070.24,
+  "end": 1073.68,
+  "speaker": "Rob Willoughby",
+  "en": "Uh, we're using Daytona just because of the isolation and security guarantees there.",
+  "zh": "Uh，我们使用 Daytona 只是因为那里的隔离和安全保证。"
+ },
+ {
+  "seg": 176,
+  "start": 1073.84,
+  "end": 1076.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um, this runs in our own internal Daytona environment.",
+  "zh": "Um，这运行在我们自己的内部 Daytona 环境中。"
+ },
+ {
+  "seg": 177,
+  "start": 1076.48,
+  "end": 1087.68,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and we provision a relatively beefy uh box for that, technically a VM, um, in order to, or technically a container actually, in order to allow it to spin up the entire monorepo testing stack.",
+  "zh": "Um，我们为此配置了一个相当强大的盒子，技术上是一个 VM，um，或者技术上实际上是一个容器，以便能够旋转启动整个 monorepo 测试栈。"
+ },
+ {
+  "seg": 178,
+  "start": 1087.92,
+  "end": 1096.64,
+  "speaker": "Rob Willoughby",
+  "en": "So basically everything that a local engineer can do on their machine, modulo creds that the local engineer has access to that we don't give to the agent, we want the agent to be able to do.",
+  "zh": "所以基本上本地工程师可以在他们的机器上做的所有事情，除了本地工程师有权访问而我们不给智能体的凭证，我们都希望智能体能够做。"
+ },
+ {
+  "seg": 179,
+  "start": 1096.8,
+  "end": 1110.08,
+  "speaker": "Rob Willoughby",
+  "en": "This allows the agent to run our full test suite, including integration tests, uh spin up the monorepo, click around on a UI, click around on basically anything that we could do be doing for validation and testing, all in their own virtual environment.",
+  "zh": "这允许智能体运行我们的完整测试套件，包括集成测试，旋转启动 monorepo，在 UI 上点击，基本上点击我们可以做的任何事情来进行验证和测试，所有这些都在他们自己的虚拟环境中。"
+ },
+ {
+  "seg": 180,
+  "start": 1110.24,
+  "end": 1112.88,
+  "speaker": "Rob Willoughby",
+  "en": "Um that helps us build uh kind of confidence there.",
+  "zh": "Um 这帮助我们建立那种信心。"
+ },
+ {
+  "seg": 181,
+  "start": 1113.04,
+  "end": 1125.92,
+  "speaker": "Rob Willoughby",
+  "en": "One really interesting uh benefit of that is that we've now been able to have the agent post videos and screenshots back onto the PR so that we as humans can go manually verify the work without needing to actually SSH on the box and go click the buttons ourselves.",
+  "zh": "一个真正有趣的好处是，我们现在能够让智能体将视频和截图发布回 PR 上，这样我们作为人类就可以手动验证工作，而无需实际 SSH 到盒子上并自己去点击按钮。"
+ },
+ {
+  "seg": 182,
+  "start": 1126,
+  "end": 1133.52,
+  "speaker": "Rob Willoughby",
+  "en": "We can see what the flow looks like from that video, from that evidence, which helps then build trust and build confidence in that it implemented the right thing.",
+  "zh": "我们可以从那个视频，从那个证据中看到流程是什么样子的，这有助于建立信任并建立它实现了正确的事情的信心。"
+ },
+ {
+  "seg": 183,
+  "start": 1133.76,
+  "end": 1137.52,
+  "speaker": "Rob Willoughby",
+  "en": "Um that is kind of the crux of the orchestration flow.",
+  "zh": "Um 这就是编排流程的关键。"
+ },
+ {
+  "seg": 184,
+  "start": 1137.68,
+  "end": 1141.92,
+  "speaker": "Rob Willoughby",
+  "en": "Um the other bit of the orchestrator is just basically babysitting a PR.",
+  "zh": "Um 编排器的另一部分基本上就是照看 PR。"
+ },
+ {
+  "seg": 185,
+  "start": 1142.16,
+  "end": 1147.52,
+  "speaker": "Rob Willoughby",
+  "en": "So uh once the coding agent is done, pass a couple pre-commit hooks, pushes up a PR.",
+  "zh": "所以 uh 一旦编码智能体完成，通过几个预提交钩子，推上去一个 PR。"
+ },
+ {
+  "seg": 186,
+  "start": 1147.6,
+  "end": 1152,
+  "speaker": "Rob Willoughby",
+  "en": "Uh, we're relatively confident that PR at least like passes lint, builds, passes tests.",
+  "zh": "Uh，我们相对确信那个 PR 至少像通过了 lint，构建，通过了测试。"
+ },
+ {
+  "seg": 187,
+  "start": 1152.16,
+  "end": 1155.44,
+  "speaker": "Rob Willoughby",
+  "en": "Like it's a good agentic uh first shot implementation.",
+  "zh": "像它是一个很好的智能体首次实现。"
+ },
+ {
+  "seg": 188,
+  "start": 1155.68,
+  "end": 1160.72,
+  "speaker": "Rob Willoughby",
+  "en": "Um on the PR surface, so this is now we're in GitHub, uh, we run two different coding agents.",
+  "zh": "Um 在 PR 表面上，所以这是我们在 GitHub 中，uh，我们运行两个不同的编码智能体。"
+ },
+ {
+  "seg": 189,
+  "start": 1160.8,
+  "end": 1163.92,
+  "speaker": "Rob Willoughby",
+  "en": "One is CodeRabbit, one is our own internal code review agent.",
+  "zh": "一个是 CodeRabbit，一个是我们自己的内部代码审查智能体。"
+ },
+ {
+  "seg": 190,
+  "start": 1164.08,
+  "end": 1166.88,
+  "speaker": "Rob Willoughby",
+  "en": "Our internal code review agents kind of is anchored on skills.",
+  "zh": "我们的内部代码审查智能体基本上是锚定在技能上的。"
+ },
+ {
+  "seg": 191,
+  "start": 1167.04,
+  "end": 1170.64,
+  "speaker": "Rob Willoughby",
+  "en": "So we have written three at the moment, uh, other ones coming soon.",
+  "zh": "所以我们目前写了三个，其他的很快就会来。"
+ },
+ {
+  "seg": 192,
+  "start": 1170.88,
+  "end": 1176.24,
+  "speaker": "Rob Willoughby",
+  "en": "Skills that are targeting different bits of kind of the way that we what our code review philosophy is.",
+  "zh": "针对我们的代码审查哲学的不同部分的技能。"
+ },
+ {
+  "seg": 193,
+  "start": 1176.4,
+  "end": 1182.4,
+  "speaker": "Rob Willoughby",
+  "en": "So one around security, one around legibility, which is really is this code easy to maintain in the long term?",
+  "zh": "所以一个围绕安全性，一个围绕可读性，这真的是这段代码在长期内容易维护吗？"
+ },
+ {
+  "seg": 194,
+  "start": 1182.48,
+  "end": 1185.6,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and one around kind of catch-all functional correctness.",
+  "zh": "Um，还有一个围绕一种包罗万象的功能正确性。"
+ },
+ {
+  "seg": 195,
+  "start": 1186,
+  "end": 1189.76,
+  "speaker": "Rob Willoughby",
+  "en": "Um, we then uh so we run our own uh code review tool.",
+  "zh": "Um，然后我们 uh 所以我们运行我们自己的 uh 代码审查工具。"
+ },
+ {
+  "seg": 196,
+  "start": 1189.84,
+  "end": 1192.8,
+  "speaker": "Rob Willoughby",
+  "en": "This is what's exposed via Tesla change uh review.",
+  "zh": "这就是通过 Tesla change uh review 暴露的东西。"
+ },
+ {
+  "seg": 197,
+  "start": 1192.88,
+  "end": 1196.72,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and we are using that as signals on the PR for the agent to go fix.",
+  "zh": "Um，我们将其用作 PR 上的信号，供智能体去修复。"
+ },
+ {
+  "seg": 198,
+  "start": 1197.04,
+  "end": 1211.28,
+  "speaker": "Rob Willoughby",
+  "en": "So Code Rabbit and the and uh our internal Zool posts comments back on the PR, uh, and we have failures in CI when some tests don't pass, or um some we do some uh what's it called, mutation testing, uh property-based testing, a whole bunch of that kind of stuff.",
+  "zh": "所以 Code Rabbit 和 uh 我们的内部 Zool 在 PR 上发回评论，uh，当一些测试不通过时，我们在 CI 中有失败，或者 um 我们做一些 uh 它叫什么，变异测试，uh 基于属性的测试，一大堆这类东西。"
+ },
+ {
+  "seg": 199,
+  "start": 1211.36,
+  "end": 1214.56,
+  "speaker": "Rob Willoughby",
+  "en": "If those don't pass, those all get posted back as signals on the PR.",
+  "zh": "如果那些没有通过，所有这些都会作为信号发回到 PR 上。"
+ },
+ {
+  "seg": 200,
+  "start": 1214.8,
+  "end": 1222.8,
+  "speaker": "Rob Willoughby",
+  "en": "The orchestrator is watching the PR, and so we'll re-wake the agent when those comments are uh passed back, and the agent then goes fixes them.",
+  "zh": "编排器正在关注这个 PR，所以当这些评论被传回时，我们会重新唤醒智能体，然后智能体去修复它们。"
+ },
+ {
+  "seg": 201,
+  "start": 1222.88,
+  "end": 1236.48,
+  "speaker": "Rob Willoughby",
+  "en": "Uh it will take in the comments, it will reason over them, uh, it then responds in line in those comments where appropriate or as a top-level comment, resolving where appropriate um as needed, and also potentially escalating back to human uh for review.",
+  "zh": "它会接收这些评论，会对它们进行推理，然后适当地在这些评论中内联回复，或者作为顶级评论，在适当的地方解决它，或者可能还会升级回人类进行审查。"
+ },
+ {
+  "seg": 202,
+  "start": 1236.72,
+  "end": 1245.76,
+  "speaker": "Rob Willoughby",
+  "en": "So it has the ability to say, hey, I need context, can pause everything and go post that question back on the linear ticket, which then notifies the human.",
+  "zh": "所以它有能力说，嘿，我需要上下文，可以暂停一切，然后把那个问题发回到 linear ticket 上，这会通知到人类。"
+ },
+ {
+  "seg": 203,
+  "start": 1245.92,
+  "end": 1248.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so that is kind of the flow in a nutshell.",
+  "zh": "所以这就是流程的概况。"
+ },
+ {
+  "seg": 204,
+  "start": 1248.72,
+  "end": 1262.08,
+  "speaker": "Rob Willoughby",
+  "en": "Uh going from a linear ticket to orchestrator to coding agent unboxed to PR to a bunch of cycles on the PR review between automated bots and uh CI checks uh back to the agent until it gets to a state that is good.",
+  "zh": "从一个 linear ticket 到编排器再到开箱即用的编码智能体，再到 PR，然后在自动机器人和 CI 检查之间的 PR 审查上循环往复，再回到智能体，直到达到一个良好的状态。"
+ },
+ {
+  "seg": 205,
+  "start": 1262.24,
+  "end": 1271.52,
+  "speaker": "Rob Willoughby",
+  "en": "That's normally when we flip to uh in review and we'll get the human in order to engage with that, uh, because it's kind of like in hopefully the best state that it could possibly be.",
+  "zh": "那通常就是当我们转换为“正在审查”的时候，我们会让人类参与进来，因为那希望是它可能达到的最佳状态。"
+ },
+ {
+  "seg": 206,
+  "start": 1271.84,
+  "end": 1274.72,
+  "speaker": "Rob Willoughby",
+  "en": "And so human, the interaction mode there is twofold.",
+  "zh": "所以人类，那里的交互模式是双重的。"
+ },
+ {
+  "seg": 207,
+  "start": 1274.96,
+  "end": 1280.8,
+  "speaker": "Rob Willoughby",
+  "en": "One, uh we do have the escape hatch of they can uh pull down the branch locally, make changes themselves, and then push it back up.",
+  "zh": "第一，我们确实有一个逃生舱门，他们可以在本地拉下分支，自己进行更改，然后再推回去。"
+ },
+ {
+  "seg": 208,
+  "start": 1280.96,
+  "end": 1285.2,
+  "speaker": "Rob Willoughby",
+  "en": "That's always an option if kind of it's gonna be quicker or they need to do it that way.",
+  "zh": "如果那样更快或者他们需要那样做，这总是一个选项。"
+ },
+ {
+  "seg": 209,
+  "start": 1285.44,
+  "end": 1297.2,
+  "speaker": "Rob Willoughby",
+  "en": "What we're trying to push for though is doing the interaction mode on that PR surface via comments, uh, because that then allows us to kind of track that and also integrate that back into kind of what a review philosophy is.",
+  "zh": "但我们试图推动的是，通过评论在 PR 表面上进行交互模式，因为这让我们能够跟踪它，并将其整合回我们的审查理念中。"
+ },
+ {
+  "seg": 210,
+  "start": 1297.36,
+  "end": 1308.32,
+  "speaker": "Rob Willoughby",
+  "en": "That makes it surfaceable, actionable, so that we can kind of continue to leverage agents uh or continue to leverage those insights into better review flows so that we don't need to get a human to identify that stuff again in the right.",
+  "zh": "这使其变得可见、可执行，这样我们就可以继续利用智能体，或者继续利用这些洞察来改进审查流程，这样我们就不需要让人类再在右侧去识别这些东西。"
+ },
+ {
+  "seg": 211,
+  "start": 1308.48,
+  "end": 1312.72,
+  "speaker": "Simon Maple",
+  "en": "And that's just for those pull requests that do require a human interaction for for a review.",
+  "zh": "这仅适用于那些确实需要人类交互来进行审查的拉取请求。"
+ },
+ {
+  "seg": 212,
+  "start": 1313.12,
+  "end": 1313.28,
+  "speaker": "Simon Maple",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 213,
+  "start": 1313.44,
+  "end": 1313.68,
+  "speaker": "Simon Maple",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 214,
+  "start": 1313.76,
+  "end": 1319.12,
+  "speaker": "Simon Maple",
+  "en": "So the orchestrator in this sense actually does sound like kind of what a human would do today in in that kind of flow.",
+  "zh": "所以从这个意义上说，编排器听起来确实很像人类今天在那个流程中会做的事情。"
+ },
+ {
+  "seg": 215,
+  "start": 1319.2,
+  "end": 1333.76,
+  "speaker": "Simon Maple",
+  "en": "So it's uh And and and let's talk a little bit about each step there because you know if if we were to um you know ask an agent to do various things, whether it's coding, whether it's design, whether it's a bit of architecture work or whatever, at the various stages, it's not always going to get it right.",
+  "zh": "所以它是呃，我们稍微谈谈那里的每一个步骤，因为你知道，如果我们呃让智能体做各种事情，不管是编码、设计，还是一些架构工作或其他什么，在各个阶段，它不总是能做对。"
+ },
+ {
+  "seg": 216,
+  "start": 1351.76,
+  "end": 1354.16,
+  "speaker": "Rob Willoughby",
+  "en": "Um so twofold.",
+  "zh": "双重的。"
+ },
+ {
+  "seg": 217,
+  "start": 1354.48,
+  "end": 1361.2,
+  "speaker": "Rob Willoughby",
+  "en": "One is we intentionally shift task ownership and task decomposition onto the human at the moment.",
+  "zh": "一是我们有意地将任务所有权和任务分解转移给了人类。"
+ },
+ {
+  "seg": 218,
+  "start": 1361.36,
+  "end": 1366.32,
+  "speaker": "Rob Willoughby",
+  "en": "So we're not saying give the dark factory your Q1 plans and it will go do all of that for you.",
+  "zh": "所以我们不是说把你的 Q1 计划给暗工厂，它就会去为你做所有这些。"
+ },
+ {
+  "seg": 219,
+  "start": 1366.48,
+  "end": 1374.32,
+  "speaker": "Rob Willoughby",
+  "en": "We're saying give the dark factory a well-scoped linear ticket like you would to a junior or mid-level engineer, um, and it will go implement that for you.",
+  "zh": "我们是说给暗工厂一个范围明确的 linear ticket，就像你给初级或中级工程师那样，它会去为你实现它。"
+ },
+ {
+  "seg": 220,
+  "start": 1374.48,
+  "end": 1388.08,
+  "speaker": "Rob Willoughby",
+  "en": "And so there is an expectation that there has been a fair amount of design work, design thinking, potentially whiteboarding, potentially uh discussion beforehand, um, which you are then able to encode in the linear ticket, which then kind of guides the agenti implementation after that.",
+  "zh": "所以期望是有相当数量的设计工作、设计思维、可能是白板画、可能是之前的讨论，然后你能够将这些编码在 linear ticket 中，这会在随后指导智能体的实现。"
+ },
+ {
+  "seg": 221,
+  "start": 1388.48,
+  "end": 1393.04,
+  "speaker": "Rob Willoughby",
+  "en": "And so think of it as your job no longer is take ticket and go implement it.",
+  "zh": "所以把它想象成你的工作不再是接取工单并去实现它。"
+ },
+ {
+  "seg": 222,
+  "start": 1393.12,
+  "end": 1406.8,
+  "speaker": "Rob Willoughby",
+  "en": "Your job is have the whiteboarding conversation with your colleagues, capture that either as like a granola transcript or a screenshot or whatever, and then work with an agent to then translate that into a set of tickets that the Dark Factory can then go implement for you.",
+  "zh": "你的工作是和你的同事进行白板对话，将其捕获为 granola transcript 或截图或其他任何东西，然后与智能体合作，将其转化为暗工厂可以为你实现的一组工单。"
+ },
+ {
+  "seg": 223,
+  "start": 1406.96,
+  "end": 1410.48,
+  "speaker": "Rob Willoughby",
+  "en": "Um, so there's a little bit of that shift of prior work up front.",
+  "zh": "所以有一点前期工作的转移。"
+ },
+ {
+  "seg": 224,
+  "start": 1410.64,
+  "end": 1413.92,
+  "speaker": "Rob Willoughby",
+  "en": "In terms of the actual does it follow what you do?",
+  "zh": "关于它是否遵循你所做的？"
+ },
+ {
+  "seg": 225,
+  "start": 1414.08,
+  "end": 1418.64,
+  "speaker": "Rob Willoughby",
+  "en": "There's uh one thing is implementation is now free or functionally free.",
+  "zh": "有一点是，实现现在是免费的，或者功能上是免费的。"
+ },
+ {
+  "seg": 226,
+  "start": 1418.72,
+  "end": 1419.92,
+  "speaker": "Rob Willoughby",
+  "en": "You have to pay token costs.",
+  "zh": "你必须支付 token 成本。"
+ },
+ {
+  "seg": 227,
+  "start": 1420.08,
+  "end": 1422,
+  "speaker": "Rob Willoughby",
+  "en": "So kick off six, kick off seven.",
+  "zh": "所以启动六个，启动七个。"
+ },
+ {
+  "seg": 228,
+  "start": 1422.08,
+  "end": 1426.48,
+  "speaker": "Rob Willoughby",
+  "en": "Like you've got a couple ideas, just go kick them off and don't send them an auto merge and go look at the code.",
+  "zh": "就像你有几个想法，直接去启动它们，不要自动合并它们，去看看代码。"
+ },
+ {
+  "seg": 229,
+  "start": 1426.64,
+  "end": 1452.72,
+  "speaker": "Rob Willoughby",
+  "en": "Like I kind of almost view the fact that there is a potential like wide state space of potential solutions as either you don't care about it, and so you should accept whatever satisfies it, or B, you're unsure, and so you should use the agents to then help explore that state space and you can ground your analysis in a real code artifact, like how it looks and how it feels, rather than just in the theoretical abstract of I think this is gonna feel nicer if the interface is designed this way or that way.",
+  "zh": "我有点几乎把这样一个事实视为，潜在的解决方案的广阔状态空间，要么是你不在乎它，所以你应该接受任何满足它的方案，要么 B，你不确定，所以你应该使用智能体来帮助你探索那个状态空间，你可以将你的分析建立在一个真实的代码工件基础上，比如它的外观和感觉，而不是在理论抽象中，我认为如果界面这样设计或那样设计感觉会更好。"
+ },
+ {
+  "seg": 230,
+  "start": 1453.04,
+  "end": 1464.8,
+  "speaker": "Rob Willoughby",
+  "en": "And so that kind of approach I think is quite powerful because it does it's allowing you to kind of do more experimentation because you do then don't need to run the experiments, Darfactory does it for you, and you're just kind of looking at the outputs of that.",
+  "zh": "所以我认为这种方法非常强大，因为它确实允许你做更多的实验，因为你不需要运行实验，暗工厂会为你做，你只是看着它的输出。"
+ },
+ {
+  "seg": 231,
+  "start": 1465.04,
+  "end": 1478.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um, on the taste and the architecture specifically, our solution to that has been verifiers, which are basically kind of like natural language single statements that can resolve to yes or no to a Boolean about a specific piece of code.",
+  "zh": "关于品味和架构，我们的解决方案是验证器，它们基本上是自然语言的单句陈述，可以解析为是或否，对应于特定代码片段的布尔值。"
+ },
+ {
+  "seg": 232,
+  "start": 1478.56,
+  "end": 1490.08,
+  "speaker": "Rob Willoughby",
+  "en": "And so they're the mechanism that we're giving engineers to kind of instill principles about the code um into their own specific parts of the code base that will then only trigger when those parts of the code base are modified.",
+  "zh": "所以它们是我们给工程师的机制，将代码原则灌输到他们自己的代码库特定部分，这些部分只会在这些代码库部分被修改时触发。"
+ },
+ {
+  "seg": 233,
+  "start": 1490.16,
+  "end": 1498,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so that's a deterministic trigger, or that's it's a deterministic trigger, but it is sent to an LLM as a judge in order for the Boolean evaluation.",
+  "zh": "所以那是一个确定性触发器，或者那是一个确定性触发器，但它被发送给 LLM 作为法官来进行布尔评估。"
+ },
+ {
+  "seg": 234,
+  "start": 1498.32,
+  "end": 1506.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um so think along the lines of something like these files should uh only ever import from other library files.",
+  "zh": "所以想一下这样的事情，比如这些文件应该只从其他库文件导入。"
+ },
+ {
+  "seg": 235,
+  "start": 1506.88,
+  "end": 1525.2,
+  "speaker": "Rob Willoughby",
+  "en": "Yes, you can technically write a very convoluted regex um in order to do that as a deterministic lint rule, or you can encode that principle of like, hey, we want library to be the single source of truth, and so things should only ever be importing from the library and should never be importing from other modules within the code base in order to uh kind of maintain dependency, clean dependencies.",
+  "zh": "是的，你可以在技术上写一个非常复杂的正则表达式，把它作为一个确定性的 lint 规则，或者你可以编码这个原则，嘿，我们要 library 作为唯一的真实来源，所以东西应该只从 library 导入，绝不应该从代码库内的其他模块导入，以为了保持依赖，干净的依赖。"
+ },
+ {
+  "seg": 236,
+  "start": 1525.6,
+  "end": 1532.88,
+  "speaker": "Rob Willoughby",
+  "en": "And so that kind of taste is really hard to write deterministic rules for, and we've historically kind of caught it in code review.",
+  "zh": "所以这种品味真的很难写出确定性规则，我们在历史上是在代码审查中捕捉到它的。"
+ },
+ {
+  "seg": 237,
+  "start": 1533.04,
+  "end": 1535.68,
+  "speaker": "Rob Willoughby",
+  "en": "Agentic code review is uh is expensive and slow.",
+  "zh": "智能体代码审查既昂贵又缓慢。"
+ },
+ {
+  "seg": 238,
+  "start": 1535.84,
+  "end": 1547.84,
+  "speaker": "Rob Willoughby",
+  "en": "Can we shift kind of these discrete chunks into a human legible form that we can then put next to the code so that the agents can go bang their head against the wall in terms of making them pass um as part of the CI flow?",
+  "zh": "我们能把这些离散的块转移成人类可读的形式，然后放在代码旁边，这样智能体就可以在 CI 流程中把它们撞到墙上去让它们通过吗？"
+ },
+ {
+  "seg": 239,
+  "start": 1548,
+  "end": 1550.88,
+  "speaker": "Rob Willoughby",
+  "en": "So I think that's a little bit of the shift in framing as well.",
+  "zh": "所以我认为框架也有点转变。"
+ },
+ {
+  "seg": 240,
+  "start": 1551.36,
+  "end": 1555.44,
+  "speaker": "Simon Maple",
+  "en": "And it does feel like those like I think you've alluded to that, the verifiers are very, very fast to run.",
+  "zh": "这确实感觉像你暗示的那样，验证器运行得非常非常快。"
+ },
+ {
+  "seg": 241,
+  "start": 1555.68,
+  "end": 1555.84,
+  "speaker": "Simon Maple",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 1556.16,
+  "end": 1565.68,
+  "speaker": "Simon Maple",
+  "en": "In terms of the this, you know, the the the task that the agent is trying to do as part of that verifier, um it sounds like the scope is much, much smaller as well.",
+  "zh": "关于智能体试图作为验证器一部分做的任务，听起来范围也小得多。"
+ },
+ {
+  "seg": 243,
+  "start": 1565.84,
+  "end": 1580.88,
+  "speaker": "Simon Maple",
+  "en": "So for example, if that, you know, if that one check was part of a code review, it feels like that's gonna be missed by an LLM because not all the time, but that's gonna be missed by an LLM some of the time because the code review covers a huge number of things.",
+  "zh": "所以举个例子，如果那个检查是代码审查的一部分，感觉 LLM 会漏掉它，虽然不总是，但 LLM 有时会漏掉它，因为代码审查涵盖了非常多的事情。"
+ },
+ {
+  "seg": 244,
+  "start": 1581.12,
+  "end": 1593.36,
+  "speaker": "Simon Maple",
+  "en": "Whereas if it's a small scoped uh piece that an LLM just needs to check on this file or on this set of files, this one thing, it's gonna have a higher chance of actually actually validating whether that's done or not.",
+  "zh": "而如果它是一个小范围的片段，LLM 只需要检查这个文件或这组文件这一件事，它实际上验证是否完成的机会就会更高。"
+ },
+ {
+  "seg": 245,
+  "start": 1593.68,
+  "end": 1594.16,
+  "speaker": "Rob Willoughby",
+  "en": "Correct, yeah.",
+  "zh": "正确，是的。"
+ },
+ {
+  "seg": 246,
+  "start": 1594.32,
+  "end": 1599.44,
+  "speaker": "Rob Willoughby",
+  "en": "And so like a bit of our philosophy is a genetic code review should be the catch-all for things that we miss.",
+  "zh": "所以我们的一些理念是，通用代码审查应该是我们遗漏事物的兜底。"
+ },
+ {
+  "seg": 247,
+  "start": 1599.6,
+  "end": 1606.8,
+  "speaker": "Rob Willoughby",
+  "en": "But once we have identified something that we think is important, we should be shifting them to verifiers if we can, because as you mentioned, they're a lot cheaper to run.",
+  "zh": "但是一旦我们确定了我们认为重要的东西，如果可以的话，我们应该将它们转移到验证器，因为正如你提到的，它们运行起来更便宜。"
+ },
+ {
+  "seg": 248,
+  "start": 1606.96,
+  "end": 1608.4,
+  "speaker": "Rob Willoughby",
+  "en": "It's an LLM call over the diff.",
+  "zh": "这是一个针对差异的 LLM 调用。"
+ },
+ {
+  "seg": 249,
+  "start": 1608.88,
+  "end": 1610.88,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so we can uh assess that.",
+  "zh": "所以我们可以评估那个。"
+ },
+ {
+  "seg": 250,
+  "start": 1610.96,
+  "end": 1613.6,
+  "speaker": "Rob Willoughby",
+  "en": "And we also run one LLM call per verifier.",
+  "zh": "而且我们也对每个验证器运行一次 LLM 调用。"
+ },
+ {
+  "seg": 251,
+  "start": 1613.76,
+  "end": 1620.4,
+  "speaker": "Rob Willoughby",
+  "en": "So that LLM is really just reasoning about this single verification, not about all of the conflicting priorities that it might have in its head.",
+  "zh": "所以那个 LLM 实际上只是在推理这一次验证，而不是关于它脑海中可能拥有的所有相互冲突的优先级。"
+ },
+ {
+  "seg": 252,
+  "start": 1620.56,
+  "end": 1632.88,
+  "speaker": "Rob Willoughby",
+  "en": "So we're trying to kind of sketch out a boundary around the code, around like what is acceptable code from a bunch of different points rather than trying to build like a smooth, a smooth line, basically, in a skill or in an injector review or something along those lines.",
+  "zh": "所以我们试图在代码周围勾勒出一个边界，围绕一堆不同观点中什么是可接受的代码，而不是试图建立一条平滑的，一条平滑的线，基本上，在技能或者注入器评审或类似的事情上。"
+ },
+ {
+  "seg": 253,
+  "start": 1633.2,
+  "end": 1641.28,
+  "speaker": "Rob Willoughby",
+  "en": "The other kind of principle that we have is anything that is a verifier that we can make deterministic, fully deterministic, well then we should make that deterministic.",
+  "zh": "我们拥有的另一个原则是，任何我们可以做成确定性的验证器，完全确定性，那么我们就应该让它变成确定性。"
+ },
+ {
+  "seg": 254,
+  "start": 1641.6,
+  "end": 1648.96,
+  "speaker": "Rob Willoughby",
+  "en": "I think historically a lot of people haven't written really complex link rules because they're annoying and finicky and they slow human engineers down and they're hard to write.",
+  "zh": "我认为历史上很多人没有真正编写复杂的链接规则，因为它们很烦人而且挑剔，并且拖慢人类工程师的速度，而且很难写。"
+ },
+ {
+  "seg": 255,
+  "start": 1649.44,
+  "end": 1651.2,
+  "speaker": "Rob Willoughby",
+  "en": "Well, right now we have no human engineers.",
+  "zh": "嗯，现在我们没有人工程师。"
+ },
+ {
+  "seg": 256,
+  "start": 1651.36,
+  "end": 1656.32,
+  "speaker": "Rob Willoughby",
+  "en": "Agents are fine with annoying Infiniki, they can very happy to go bang their heads against the wall in order to make something work.",
+  "zh": "智能体对烦人的 Infiniki 没问题，它们可以很高兴地去撞墙以让事情运转起来。"
+ },
+ {
+  "seg": 257,
+  "start": 1656.4,
+  "end": 1658.72,
+  "speaker": "Rob Willoughby",
+  "en": "Uh and they're not quick, but like an agent can write it.",
+  "zh": "呃，而且它们不快，但是像智能体可以写它。"
+ },
+ {
+  "seg": 258,
+  "start": 1658.88,
+  "end": 1660.8,
+  "speaker": "Rob Willoughby",
+  "en": "Doesn't matter to me how convoluted it is.",
+  "zh": "它是多么曲折对我并不重要。"
+ },
+ {
+  "seg": 259,
+  "start": 1660.96,
+  "end": 1668.64,
+  "speaker": "Rob Willoughby",
+  "en": "And so that then allows us to not even pay the LLM costs, then we're just playing the CPU cost of kind of uh deterministic uh verification in that regard.",
+  "zh": "因此这让我们甚至不需要支付 LLM 成本，那么我们只是支付 CPU 成本，关于那种呃确定性的呃验证在那个方面。"
+ },
+ {
+  "seg": 260,
+  "start": 1668.8,
+  "end": 1678.96,
+  "speaker": "Rob Willoughby",
+  "en": "And so it's like a sequencing almost for engineers to kind of build their the things that they had in their head around quality or around what good code looked like or how good code smelt.",
+  "zh": "所以这几乎就像是一个排序，为了让工程师围绕质量或者围绕好代码的样子或者好代码闻起来是什么样的去建立他们脑海中的东西。"
+ },
+ {
+  "seg": 261,
+  "start": 1679.28,
+  "end": 1698.16,
+  "speaker": "Rob Willoughby",
+  "en": "We can kind of put that into the code base in that sequence of the very, very quick deterministic verifiers, linting rules, the uh LLM as a judge verifiers that are just over the diff, which are natural language and so probably too fuzzy to express, but easy enough for a good reasoning model to understand, and then the catch-all agentic review.",
+  "zh": "我们大概可以把那个放进代码库，在那个非常、非常快的确定性验证器、链接规则、LLM 作为评判的验证器的序列中，这些只针对 diff，是自然语言的所以可能太模糊而无法表达，但对于一个好的推理模型来说足够容易理解，然后是全能的智能体评审。"
+ },
+ {
+  "seg": 262,
+  "start": 1698.32,
+  "end": 1703.04,
+  "speaker": "Rob Willoughby",
+  "en": "One of the really interesting things about, I think, about that sequence is that we can run automatic promotion.",
+  "zh": "关于那个序列，我认为，真正有趣的事情之一是我们可以运行自动晋升。"
+ },
+ {
+  "seg": 263,
+  "start": 1703.28,
+  "end": 1710.72,
+  "speaker": "Rob Willoughby",
+  "en": "So every night we look at kind of the PR comments that are being posted by agentic review and human review, and we assess whether any of those should be verifiers.",
+  "zh": "所以每天晚上我们查看由智能体评审和人类评审发布的 PR 评论，我们评估其中是否有任何应该成为验证器。"
+ },
+ {
+  "seg": 264,
+  "start": 1710.8,
+  "end": 1720.16,
+  "speaker": "Rob Willoughby",
+  "en": "And so we can kind of continually shift left in that regard to get faster, to get quicker, to get cheaper, but also importantly as well for me, I think, to get more human legible.",
+  "zh": "所以我们可以大概在那个方面不断地左移，以变得更快，变得更迅速，变得更便宜，但对我而言，重要的是也为了变得更人类可读。"
+ },
+ {
+  "seg": 265,
+  "start": 1720.32,
+  "end": 1732.72,
+  "speaker": "Rob Willoughby",
+  "en": "If I look at a verifier, it's much easier for me to reason about that than to read a long skill.md and figure out uh is this thing going to be correctly weighted for something that I think is really important against all of the other compounding trade-offs that it might have.",
+  "zh": "如果我看一个验证器，对我来说推理那个比读一个长的 skill.md 并弄清楚呃这个东西是否会被正确地权衡，针对我认为很重要的东西，相对于它可能拥有的所有其他复合权衡，要容易得多。"
+ },
+ {
+  "seg": 266,
+  "start": 1733.68,
+  "end": 1734.48,
+  "speaker": "Simon Maple",
+  "en": "Super interesting.",
+  "zh": "超级有趣。"
+ },
+ {
+  "seg": 267,
+  "start": 1734.72,
+  "end": 1737.52,
+  "speaker": "Simon Maple",
+  "en": "Let's go into what worked and what didn't work.",
+  "zh": "让我们深入探讨什么有效，什么无效。"
+ },
+ {
+  "seg": 268,
+  "start": 1737.76,
+  "end": 1740.8,
+  "speaker": "Simon Maple",
+  "en": "Obviously, this unlocked, it sounds like a ton.",
+  "zh": "显然，这解锁了，听起来像是很多。"
+ },
+ {
+  "seg": 269,
+  "start": 1740.96,
+  "end": 1741.2,
+  "speaker": "Simon Maple",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 270,
+  "start": 1741.44,
+  "end": 1744.08,
+  "speaker": "Simon Maple",
+  "en": "Um what were the biggest learnings you had early on with this?",
+  "zh": "呃关于这个你早期最大的学习收获是什么？"
+ },
+ {
+  "seg": 271,
+  "start": 1744.32,
+  "end": 1748.88,
+  "speaker": "Rob Willoughby",
+  "en": "Uh coding agents are really good, and if you give them a wide enough scope, they will do some great things.",
+  "zh": "呃编码智能体真的很棒，如果你给它们足够宽的范围，它们会做一些很棒的事情。"
+ },
+ {
+  "seg": 272,
+  "start": 1749.12,
+  "end": 1762.72,
+  "speaker": "Rob Willoughby",
+  "en": "I think there was definitely a bit of a kind of bias internally going from kind of going from a philosophy of I've got to be their babysitting the coding agent to I shoot, I'm I can't even look at the logs for this because it's running on a sandbox in the cloud.",
+  "zh": "我认为内部肯定有一种偏见，从一种我必须做编码智能体的保姆的哲学转变到我天哪，我甚至不能看日志因为它运行在云端的沙箱中。"
+ },
+ {
+  "seg": 273,
+  "start": 1762.88,
+  "end": 1769.52,
+  "speaker": "Rob Willoughby",
+  "en": "Um, I better make sure that my tickets are super well scoped and super small and super tiny, kind of like intern-level tickets.",
+  "zh": "呃，我最好确保我的票据范围非常非常好、非常小、非常小，就像实习生级别的票据。"
+ },
+ {
+  "seg": 274,
+  "start": 1769.92,
+  "end": 1774.96,
+  "speaker": "Rob Willoughby",
+  "en": "And now we've slowly been, and this is cultural, not technical, slowly been relaxing those constraints.",
+  "zh": "现在我们慢慢地在，这是文化的，不是技术的，慢慢地在放松那些约束。"
+ },
+ {
+  "seg": 275,
+  "start": 1775.36,
+  "end": 1776.72,
+  "speaker": "Rob Willoughby",
+  "en": "And people have been like, ah, cool.",
+  "zh": "人们一直说，啊，很酷。"
+ },
+ {
+  "seg": 276,
+  "start": 1776.88,
+  "end": 1782.96,
+  "speaker": "Rob Willoughby",
+  "en": "What is actually the biggest thing that I can give to the dark factory and see it produce something that is relatively valid as a result?",
+  "zh": "实际上我能给黑暗工厂的最大的东西是什么，并看到它产生相对有效的结果？"
+ },
+ {
+  "seg": 277,
+  "start": 1783.28,
+  "end": 1785.52,
+  "speaker": "Rob Willoughby",
+  "en": "And so the tickets, was that a trust issue?",
+  "zh": "所以那些票据，那是信任问题吗？"
+ },
+ {
+  "seg": 278,
+  "start": 1785.68,
+  "end": 1787.04,
+  "speaker": "Rob Willoughby",
+  "en": "It was trust it was pure trust issue.",
+  "zh": "是信任，那是纯粹的信任问题。"
+ },
+ {
+  "seg": 279,
+  "start": 1787.28,
+  "end": 1790,
+  "speaker": "Rob Willoughby",
+  "en": "I think trust comfortability seeing seeing the results.",
+  "zh": "我认为信任舒适度，看到看到结果。"
+ },
+ {
+  "seg": 280,
+  "start": 1790.24,
+  "end": 1790.4,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 281,
+  "start": 1790.56,
+  "end": 1798.4,
+  "speaker": "Rob Willoughby",
+  "en": "We're asking people to trust that something that is kind of hidden, it's called a dark factory because we're not looking at the logs as it's kind of operating.",
+  "zh": "我们要求人们信任某种隐藏的东西，它被称为黑暗工厂因为在它运作的时候我们不看日志。"
+ },
+ {
+  "seg": 282,
+  "start": 1798.56,
+  "end": 1801.36,
+  "speaker": "Rob Willoughby",
+  "en": "We are postdoc, but not kind of in the actual operations.",
+  "zh": "我们是事后博士，但不是在在实际操作中。"
+ },
+ {
+  "seg": 283,
+  "start": 1801.6,
+  "end": 1805.12,
+  "speaker": "Rob Willoughby",
+  "en": "Um, they need to be able to trust that that's going to do something that they would be okay with.",
+  "zh": "呃，他们需要能够信任那会做一些他们会认可的事情。"
+ },
+ {
+  "seg": 284,
+  "start": 1805.2,
+  "end": 1805.36,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 285,
+  "start": 1805.52,
+  "end": 1808.72,
+  "speaker": "Rob Willoughby",
+  "en": "Because ultimately, like we still have an accountability mechanism.",
+  "zh": "因为最终，像我们仍然有一个问责机制。"
+ },
+ {
+  "seg": 286,
+  "start": 1808.88,
+  "end": 1812.32,
+  "speaker": "Rob Willoughby",
+  "en": "The person who filed the ticket is still accountable for the code that got uh produced.",
+  "zh": "提交票据的人仍然对被呃产生的代码负责。"
+ },
+ {
+  "seg": 287,
+  "start": 1812.48,
+  "end": 1815.92,
+  "speaker": "Rob Willoughby",
+  "en": "They still have to, if it's in the production part of the code, base, they still have to review the PR.",
+  "zh": "他们仍然必须，如果它在代码库的生产部分，他们仍然必须评审 PR。"
+ },
+ {
+  "seg": 288,
+  "start": 1816.16,
+  "end": 1820.08,
+  "speaker": "Rob Willoughby",
+  "en": "Like we're not saying ah, you can abjugate all responsibility because the Dark Factory did it.",
+  "zh": "像我们不是在说啊，你可以因为黑暗工厂做了它就 abjugate 所有责任。"
+ },
+ {
+  "seg": 289,
+  "start": 1820.24,
+  "end": 1820.48,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 290,
+  "start": 1820.64,
+  "end": 1826.88,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so we're now asking people to assign their own accountability to something that has been autonomously produced.",
+  "zh": "所以我们现在要求人们把他们自己的问责分配给某种被自主产生的东西。"
+ },
+ {
+  "seg": 291,
+  "start": 1827.04,
+  "end": 1827.2,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 292,
+  "start": 1827.36,
+  "end": 1831.36,
+  "speaker": "Rob Willoughby",
+  "en": "And so there definitely is going to be a gradual kind of trust adoption curve.",
+  "zh": "所以肯定会有一个逐渐的信任采用曲线。"
+ },
+ {
+  "seg": 293,
+  "start": 1831.44,
+  "end": 1833.28,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and we will continue to kind of go through that.",
+  "zh": "呃，我们将继续经历那个。"
+ },
+ {
+  "seg": 294,
+  "start": 1833.36,
+  "end": 1840.64,
+  "speaker": "Rob Willoughby",
+  "en": "And I think it's going to be never-ending because there's always going to be kind of an increased scope or increased verification you can do to build that trust.",
+  "zh": "我认为这将是无止境的，因为总是会有一种增加的范围或增加的验证你可以做来建立那个信任。"
+ },
+ {
+  "seg": 295,
+  "start": 1840.96,
+  "end": 1841.12,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 296,
+  "start": 1841.36,
+  "end": 1844.24,
+  "speaker": "Simon Maple",
+  "en": "I like to think autonomy is earned, not enabled.",
+  "zh": "我喜欢认为自主性是赢得的，不是启用的。"
+ },
+ {
+  "seg": 297,
+  "start": 1844.64,
+  "end": 1847.92,
+  "speaker": "Simon Maple",
+  "en": "You can't just turn something on and say, we can now go at full speed.",
+  "zh": "你不能只是打开某个东西并说，我们现在可以全速前进。"
+ },
+ {
+  "seg": 298,
+  "start": 1848.24,
+  "end": 1854.08,
+  "speaker": "Simon Maple",
+  "en": "It's about building that cultural trust internally in your organization to get to the next to the next stage.",
+  "zh": "这是关于在你的组织内部建立那种文化信任以进入下一个下一个阶段。"
+ },
+ {
+  "seg": 299,
+  "start": 1854.8,
+  "end": 1856.32,
+  "speaker": "Rob Willoughby",
+  "en": "What what problems did you have then?",
+  "zh": "那么你们当时遇到了什么问题？"
+ },
+ {
+  "seg": 300,
+  "start": 1857.04,
+  "end": 1868.72,
+  "speaker": "Rob Willoughby",
+  "en": "So just uh on that trust bit, I think one of the things that we've been trying to do on the team to build that trust is by uh running as far ahead as we can and running into the walls early and uh mucking up, basically.",
+  "zh": "所以就是呃关于那个信任部分，我认为我们团队一直在努力建立信任的一件事就是呃尽可能跑在前面，尽早撞上墙壁，然后呋基本上就是把事情搞砸。"
+ },
+ {
+  "seg": 301,
+  "start": 1869.36,
+  "end": 1870.88,
+  "speaker": "Rob Willoughby",
+  "en": "So we definitely have that.",
+  "zh": "所以我们肯定有这个。"
+ },
+ {
+  "seg": 302,
+  "start": 1871.2,
+  "end": 1871.76,
+  "speaker": "Rob Willoughby",
+  "en": "Let's go deep there.",
+  "zh": "让我们深入谈谈这个。"
+ },
+ {
+  "seg": 303,
+  "start": 1874.56,
+  "end": 1883.6,
+  "speaker": "Rob Willoughby",
+  "en": "So I think um the most interesting there's two kind of classes of ones, one around context and one around um verification.",
+  "zh": "所以我认为呃最有趣的有两类，一类是关于上下文，一类是关于呃验证。"
+ },
+ {
+  "seg": 304,
+  "start": 1883.84,
+  "end": 1892.4,
+  "speaker": "Rob Willoughby",
+  "en": "In terms of context, uh I pull data for the number of slack threads uh sent on our team channel uh versus the other team channels kind of every week.",
+  "zh": "在上下文方面，呃我会拉取数据看我们团队频道里发出的 slack 线程数呃对比其他团队频道，基本上是每周。"
+ },
+ {
+  "seg": 305,
+  "start": 1892.56,
+  "end": 1903.6,
+  "speaker": "Rob Willoughby",
+  "en": "Uh and our team, despite being slightly smaller than one of the other teams of the company, uh is sending about between 10 and 15x as many slack messages per week uh on our team channel.",
+  "zh": "呃而且我们的团队，虽然比公司的另一个团队稍微小一点，呃每周发送的消息量大约是对方的 10 到 15 倍，呃在我们的团队频道里。"
+ },
+ {
+  "seg": 306,
+  "start": 1903.84,
+  "end": 1908.64,
+  "speaker": "Rob Willoughby",
+  "en": "We have had to overcommunicate everything that we're doing because we are doing so much more quicker.",
+  "zh": "我们不得不过度沟通我们所做的一切，因为我们的行动速度快得多。"
+ },
+ {
+  "seg": 307,
+  "start": 1908.8,
+  "end": 1913.36,
+  "speaker": "Rob Willoughby",
+  "en": "And also with auto merge on, everything is changing in ways that we don't really understand.",
+  "zh": "而且随着自动合并开启，一切都在以我们并不真正理解的方式发生变化。"
+ },
+ {
+  "seg": 308,
+  "start": 1913.6,
+  "end": 1921.12,
+  "speaker": "Rob Willoughby",
+  "en": "Last time I looked, I think about only 5% of the uh Dark Factory code base had ever had a human look at the PR and approve it.",
+  "zh": "上次我查看时，我认为只有大约 5% 的 uh Dark Factory 代码库曾经有人类看过那个 PR 并批准它。"
+ },
+ {
+  "seg": 309,
+  "start": 1921.28,
+  "end": 1925.6,
+  "speaker": "Rob Willoughby",
+  "en": "And I'm not, I don't think people actually go look at code anymore because they're all just using agents.",
+  "zh": "而且我不是，我不认为人们还会去查看代码了，因为他们都只是在用智能体。"
+ },
+ {
+  "seg": 310,
+  "start": 1925.76,
+  "end": 1930.08,
+  "speaker": "Rob Willoughby",
+  "en": "And so that means, by implication, 95% of our code base has never had a human look at it.",
+  "zh": "所以这意味着，推而论之，我们 95% 的代码库从未有人类看过它。"
+ },
+ {
+  "seg": 311,
+  "start": 1930.56,
+  "end": 1933.28,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so we don't know what's going on there.",
+  "zh": "呃所以我们不知道那里发生了什么。"
+ },
+ {
+  "seg": 312,
+  "start": 1933.44,
+  "end": 1942.48,
+  "speaker": "Rob Willoughby",
+  "en": "So we need to build the signals and the context on top of that to give us trust that this is working the way that we think it's gonna be working, but then also we know what everyone else is gonna be doing.",
+  "zh": "所以我们需要在此基础上构建信号和上下文，以给予我们信任，让它按我们认为会工作的方式工作，但也要我们知道其他人将会做什么。"
+ },
+ {
+  "seg": 313,
+  "start": 1942.72,
+  "end": 1945.04,
+  "speaker": "Rob Willoughby",
+  "en": "And that and that 95% that is of the dark factory.",
+  "zh": "而且那那 95% 是来自 dark factory 的。"
+ },
+ {
+  "seg": 314,
+  "start": 1945.36,
+  "end": 1946.64,
+  "speaker": "Rob Willoughby",
+  "en": "Yes, of the dark factories, basically.",
+  "zh": "是的，来自 dark factories，基本上。"
+ },
+ {
+  "seg": 315,
+  "start": 1946.8,
+  "end": 1948.72,
+  "speaker": "Rob Willoughby",
+  "en": "Yes, everyone has looked at the project code base.",
+  "zh": "是的，每个人都看过项目代码库。"
+ },
+ {
+  "seg": 316,
+  "start": 1949.2,
+  "end": 1954.16,
+  "speaker": "Rob Willoughby",
+  "en": "Again, we have human review required there, so that has been looked at, but it's for the dark factory itself.",
+  "zh": "再次强调，我们在那里需要人工审查，所以那部分已经被看过了，但这是针对 dark factory 本身的。"
+ },
+ {
+  "seg": 317,
+  "start": 1954.96,
+  "end": 1968.48,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so we needed to figure out mechanisms in order to make sure that everyone knew what they were doing, make sure that everyone was comfortable with their own work getting thrown away, and make sure that we understood how the code base was changing over time.",
+  "zh": "呃，所以我们需要弄清楚机制以确保每个人都知道他们在做什么，确保每个人都对自己的工作被丢弃感到舒服，并确保我们理解代码库是如何随时间变化的。"
+ },
+ {
+  "seg": 318,
+  "start": 1968.64,
+  "end": 1970.8,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so we definitely still haven't figured this out.",
+  "zh": "呃，所以我们肯定还没弄明白这个。"
+ },
+ {
+  "seg": 319,
+  "start": 1970.88,
+  "end": 1974.32,
+  "speaker": "Rob Willoughby",
+  "en": "I still will wake up on some days and be like, uh, I didn't, I don't think that's a good idea.",
+  "zh": "我仍然会在某些天醒来然后想，呃，我没有，我不觉得那是个好主意。"
+ },
+ {
+  "seg": 320,
+  "start": 1974.4,
+  "end": 1975.2,
+  "speaker": "Rob Willoughby",
+  "en": "Why did that land?",
+  "zh": "为什么那个合并了？"
+ },
+ {
+  "seg": 321,
+  "start": 1975.28,
+  "end": 1975.44,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 322,
+  "start": 1975.6,
+  "end": 1980.32,
+  "speaker": "Rob Willoughby",
+  "en": "But the intention, what we're trying to do there is overshare the context so that we're aware, but then also fix forward.",
+  "zh": "但其意图，我们要在那里做的就是过度分享上下文以便我们知晓，但也要向前修复。"
+ },
+ {
+  "seg": 323,
+  "start": 1980.4,
+  "end": 1983.76,
+  "speaker": "Rob Willoughby",
+  "en": "It's not roll back a PR because it wasn't the thing we wanted to do.",
+  "zh": "并不是因为那不是我们想做的事就回滚一个 PR。"
+ },
+ {
+  "seg": 324,
+  "start": 1983.92,
+  "end": 1997.44,
+  "speaker": "Rob Willoughby",
+  "en": "It is, okay, cool, what we missed on the verification side that allowed this to land, either in a verifier if it's a human concept, or on tests if it's something bad, so that we can continually fix forward and build those guardrails, earn that trust on the autonomy side that you mentioned.",
+  "zh": "而是，好吧，酷，我们在验证端漏掉了什么才让这个合并的，如果是一个人类概念的话就是在验证器中，或者如果是什么坏东西的话就是在测试中，这样我们就能持续向前修复并建立那些护栏，赢得你提到的自主端那边的信任。"
+ },
+ {
+  "seg": 325,
+  "start": 1997.6,
+  "end": 2009.36,
+  "speaker": "Rob Willoughby",
+  "en": "In terms of some of the more spectacular failure modes, um as part of this, we changed our core queue a lot uh in the early days because we weren't verifying it strongly enough.",
+  "zh": "关于一些更壮观的失败模式，呃作为这的一部分，我们在早期大量更改了我们的核心队列，因为我们没有足够强地验证它。"
+ },
+ {
+  "seg": 326,
+  "start": 2009.6,
+  "end": 2016.8,
+  "speaker": "Rob Willoughby",
+  "en": "And by what I mean by that is we would have a fix, actually, concretely, we had an issue where uh PR comments were being double counted.",
+  "zh": "我的意思是我们会做一个修复，实际上，具体来说，我们遇到了一个问题，呃 PR 评论被重复计算了。"
+ },
+ {
+  "seg": 327,
+  "start": 2016.88,
+  "end": 2022.4,
+  "speaker": "Rob Willoughby",
+  "en": "And so they would end up on the queue twice, and so you would get a agent in two different sandboxes responding to the queue.",
+  "zh": "所以它们最后会出现在队列里两次，所以你会得到一个智能体在两个不同的沙箱里响应队列。"
+ },
+ {
+  "seg": 328,
+  "start": 2022.48,
+  "end": 2026.64,
+  "speaker": "Rob Willoughby",
+  "en": "You could have race conditions where it might produce two different uh code uh commits as part of that.",
+  "zh": "你可能会有竞态条件，它可能会产生两个不同的呃代码呃提交作为那的一部分。"
+ },
+ {
+  "seg": 329,
+  "start": 2026.8,
+  "end": 2033.36,
+  "speaker": "Rob Willoughby",
+  "en": "Sometimes the second sandbox would start up after the first one I already committed, so it would recognize, hey, the work's being done, but we just it wasn't very effective.",
+  "zh": "有时第二个沙箱会在第一个已经提交之后启动，所以它会识别，嘿，工作正在做，但我们只是它不是很有效。"
+ },
+ {
+  "seg": 330,
+  "start": 2033.76,
+  "end": 2042.4,
+  "speaker": "Simon Maple",
+  "en": "And the queue here, just for context of what the queue is, the queue is the list of tasks that the orchestrator needs to pull to then pass to an agent or do something with or something.",
+  "zh": "这里的队列，只是为了提供一下队列是什么的上下文，队列是编排器需要拉取的任务列表，然后传递给智能体或者用其做点什么或者其他什么。"
+ },
+ {
+  "seg": 331,
+  "start": 2042.72,
+  "end": 2042.96,
+  "speaker": "Rob Willoughby",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 332,
+  "start": 2043.04,
+  "end": 2043.2,
+  "speaker": "Rob Willoughby",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 333,
+  "start": 2043.36,
+  "end": 2043.76,
+  "speaker": "Rob Willoughby",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 334,
+  "start": 2044,
+  "end": 2049.84,
+  "speaker": "Rob Willoughby",
+  "en": "And so we would fix that, it'd be good for a day, then it would regress, then we'd fix it again, then it would regress, then we'd fix it again.",
+  "zh": "所以我们会修复它，它会好一天，然后它会退化，然后我们再次修复，然后它会退化，然后我们再次修复。"
+ },
+ {
+  "seg": 335,
+  "start": 2050,
+  "end": 2057.04,
+  "speaker": "Rob Willoughby",
+  "en": "There was a point where I think we had like 60 PRs over two or three weeks, or sorry, two or three days that were all trying to fix this.",
+  "zh": "有个时候我想我们大概在两三周内，或者对不起，两三天内有 60 个 PR，都试图修复这个。"
+ },
+ {
+  "seg": 336,
+  "start": 2057.6,
+  "end": 2065.44,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so this was just causing constant churn and frustration because we'd say we fixed it and then it would regress, and it was just it was a pain.",
+  "zh": "呃所以这只是造成了不断的动荡和挫败感，因为我们会说我们修好了，然后它会退化，这只是很痛苦。"
+ },
+ {
+  "seg": 337,
+  "start": 2065.6,
+  "end": 2075.04,
+  "speaker": "Rob Willoughby",
+  "en": "And so the way that we wanted to try to fix that because we were still going to continue to let agents do whatever they wanted, was really lean into the verification side on that.",
+  "zh": "所以我们想要尝试修复那个的方式是因为我们仍然要继续让智能体做任何它们想做的事，就是真正深入那一侧的验证。"
+ },
+ {
+  "seg": 338,
+  "start": 2075.2,
+  "end": 2090.96,
+  "speaker": "Rob Willoughby",
+  "en": "And so what we ended up doing was building a quint formal uh model of our Q behavior, um, specifically the uh independency of um being able to kind of add stuff to the queue so that we could uh verify that on every single PR that we hadn't broken that uh formal model.",
+  "zh": "所以我们最终做的是构建了一个 quint formal uh 模型来模拟我们的 Q 行为，呃，具体是那个 uh independency of um 能够把东西加到队列里，这样我们就能呃验证我们在每一个 PR 上都没有破坏那个 uh 形式化模型。"
+ },
+ {
+  "seg": 339,
+  "start": 2091.12,
+  "end": 2094.8,
+  "speaker": "Rob Willoughby",
+  "en": "Um that took I wouldn't have known how to do that in pre-agent world, just flat out.",
+  "zh": "呃那花了我在前智能体世界里不会知道怎么去做那个，坦白说。"
+ },
+ {
+  "seg": 340,
+  "start": 2094.88,
+  "end": 2098.32,
+  "speaker": "Rob Willoughby",
+  "en": "I knew what a formal verification was, wouldn't have known how to actually build it.",
+  "zh": "我知道什么是形式化验证，但不会知道如何实际构建它。"
+ },
+ {
+  "seg": 341,
+  "start": 2098.56,
+  "end": 2106.56,
+  "speaker": "Rob Willoughby",
+  "en": "Uh took me about a day with Fable and then using the Dark Factory to go implement this, and we've had absolutely zero reoccurrences of that after the fact.",
+  "zh": "呃花了大概我和 Fable 一天时间，然后使用 Dark Factory 去实施这个，从那以后我们绝对零次复发。"
+ },
+ {
+  "seg": 342,
+  "start": 2106.72,
+  "end": 2111.04,
+  "speaker": "Rob Willoughby",
+  "en": "And so that for us was very painful in the moment, particularly as we were scaling up.",
+  "zh": "所以这对我们来说在那一刻非常痛苦，特别是当我们正在扩大规模时。"
+ },
+ {
+  "seg": 343,
+  "start": 2111.12,
+  "end": 2125.68,
+  "speaker": "Rob Willoughby",
+  "en": "Um, but then B, a really important insight of like, no, it's not just the kind of verification that we used before of like test and shared human context and like trust that a human has enough context about everything else going on to know that this is a sensitive part of the code base.",
+  "zh": "呃，但然后 B，一个真正重要的洞察，比如，不，这不仅仅是我们要以前用的那种验证，比如测试和共享的人类上下文，以及相信人类对所有其他正在进行的事情有足够的上下文来知道这是代码库的敏感部分。"
+ },
+ {
+  "seg": 344,
+  "start": 2125.92,
+  "end": 2135.68,
+  "speaker": "Rob Willoughby",
+  "en": "No, we actually have to lean in even firmer than we had before because agents don't have that contextual information and we don't want to give it to them because that burns to tokens, which is therefore more expensive and slower.",
+  "zh": "不，我们实际上必须比以前更深入地投入，因为智能体没有那个上下文信息，而且我们不想给它们因为那会烧掉 token，因此更贵也更慢。"
+ },
+ {
+  "seg": 345,
+  "start": 2135.92,
+  "end": 2141.28,
+  "speaker": "Rob Willoughby",
+  "en": "Um so that was kind of one really interesting, annoying, frustrating bit of time.",
+  "zh": "呃所以那是一个真正有趣的、恼人的、令人沮丧的一段时间。"
+ },
+ {
+  "seg": 346,
+  "start": 2141.6,
+  "end": 2150.24,
+  "speaker": "Rob Willoughby",
+  "en": "Um, the other one was an experiment we ran during the offsite, um, which I was really excited for and which really did not work the way I wanted it to, unfortunately.",
+  "zh": "呃，另一个是我们在这个外地期间运行的一个实验，呃，我对此非常兴奋，但遗憾的是真的没有按我希望的方式工作。"
+ },
+ {
+  "seg": 347,
+  "start": 2150.4,
+  "end": 2154.32,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and that was uh explicitly about stress testing this verification layer.",
+  "zh": "呃，那就是 uh 明确地关于压力测试这个验证层。"
+ },
+ {
+  "seg": 348,
+  "start": 2154.56,
+  "end": 2170.96,
+  "speaker": "Rob Willoughby",
+  "en": "My personal belief is that if we get our verification layer strong enough and if we are oriented around specifically the behaviors that we care about as an organization, not the actual implementation of the code, I don't care about if you how when I click a button on the UI, the results appear.",
+  "zh": "我个人的信念是，如果我们让我们的验证层足够强，并且我们是围绕作为一个组织我们关心的具体行为定向的，而不是代码的实际实现，我不在乎如果你当我点击 UI 上的一个按钮时，结果出现了。"
+ },
+ {
+  "seg": 349,
+  "start": 2171.12,
+  "end": 2174,
+  "speaker": "Rob Willoughby",
+  "en": "I care about when I click a button on the UI, the results appear.",
+  "zh": "我关心的是当我点击 UI 上的一个按钮时，结果出现了。"
+ },
+ {
+  "seg": 350,
+  "start": 2174.16,
+  "end": 2181.28,
+  "speaker": "Rob Willoughby",
+  "en": "And so we should be able to, just from that verification layer, be able to rebuild the entire system from scratch in a new language.",
+  "zh": "所以我们应该能够，仅从那个验证层，就能够从零开始在一种新语言中重建整个系统。"
+ },
+ {
+  "seg": 351,
+  "start": 2181.36,
+  "end": 2182.88,
+  "speaker": "Rob Willoughby",
+  "en": "Um so we tried to do that.",
+  "zh": "嗯，所以我们尝试那样做。"
+ },
+ {
+  "seg": 352,
+  "start": 2182.96,
+  "end": 2185.2,
+  "speaker": "Rob Willoughby",
+  "en": "Uh we currently are a Python implementation.",
+  "zh": "呃我们目前是一个 Python 实现。"
+ },
+ {
+  "seg": 353,
+  "start": 2185.28,
+  "end": 2190.88,
+  "speaker": "Rob Willoughby",
+  "en": "Uh Elixir is-ish a good fit for this in terms of having uh kind of the actor model.",
+  "zh": "呃 Elixir 在某种意义上是这方面的一个很好的选择，因为它具有那种 actor model。"
+ },
+ {
+  "seg": 354,
+  "start": 2191.04,
+  "end": 2208.56,
+  "speaker": "Rob Willoughby",
+  "en": "And so we took our verification layer only, so none of our unit tests, nothing um other than kind of our end-to-end tests, our integration tests, this formal uh model that we were talking about, um, and some of the properties that we uh that we verify kind of on the surface boundary rather than on internal dynamics.",
+  "zh": "所以我们只拿出了我们的验证层，所以没有我们的任何单元测试，没有任何东西，除了某种我们的端到端测试、我们的集成测试、我们谈论的那个形式化模型，以及我们验证的一些属性，这些是在表面边界上而不是在内部动态上的。"
+ },
+ {
+  "seg": 355,
+  "start": 2208.72,
+  "end": 2213.92,
+  "speaker": "Rob Willoughby",
+  "en": "And we gave that to a coding agent to then go plan out and uh building that in Elixir from scratch.",
+  "zh": "然后我们把它给了一个智能体，去规划并在 Elixir 中从零开始构建它。"
+ },
+ {
+  "seg": 356,
+  "start": 2214.32,
+  "end": 2216,
+  "speaker": "Rob Willoughby",
+  "en": "Um and then we went into that.",
+  "zh": "呃然后我们深入研究了那个。"
+ },
+ {
+  "seg": 357,
+  "start": 2216.16,
+  "end": 2224.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um that worked, it built something, but we hit kind of two major roadblocks that kind of prevented us from being able to call this a success.",
+  "zh": "呃那行得通，它构建了一些东西，但我们遇到了两个主要障碍，阻碍了我们能够称之为成功。"
+ },
+ {
+  "seg": 358,
+  "start": 2224.8,
+  "end": 2226.56,
+  "speaker": "Rob Willoughby",
+  "en": "One thing I will note, our Q was perfect.",
+  "zh": "我想指出的一件事是，我们的 Q 是完美的。"
+ },
+ {
+  "seg": 359,
+  "start": 2226.8,
+  "end": 2228.24,
+  "speaker": "Rob Willoughby",
+  "en": "Q worked totally fine.",
+  "zh": "Q 运行得完全正常。"
+ },
+ {
+  "seg": 360,
+  "start": 2228.48,
+  "end": 2230.64,
+  "speaker": "Rob Willoughby",
+  "en": "So the formal model held up well there.",
+  "zh": "所以形式化模型在那里经受住了考验。"
+ },
+ {
+  "seg": 361,
+  "start": 2230.8,
+  "end": 2237.92,
+  "speaker": "Rob Willoughby",
+  "en": "But what it ended up identifying was even after kind of all the investments on verification we thought we had made, we had some pretty big blind spots.",
+  "zh": "但它最终指出的是，即使在我们认为我们在验证方面进行了所有投资之后，我们仍然有一些相当大的盲点。"
+ },
+ {
+  "seg": 362,
+  "start": 2238.08,
+  "end": 2244.32,
+  "speaker": "Rob Willoughby",
+  "en": "We weren't actually verifying formally anything to do with the labels on linear, which are a very important routing mechanism.",
+  "zh": "我们实际上并没有在形式上验证任何与 linear 上的标签有关的东西，这是一个非常重要的路由机制。"
+ },
+ {
+  "seg": 363,
+  "start": 2244.48,
+  "end": 2249.36,
+  "speaker": "Rob Willoughby",
+  "en": "That was all just built into unit tests, and our end to end tests were just testing the happy path there.",
+  "zh": "那一切都只是构建在单元测试中，而我们的端到端测试只是在那里测试 happy path。"
+ },
+ {
+  "seg": 364,
+  "start": 2249.52,
+  "end": 2258.64,
+  "speaker": "Rob Willoughby",
+  "en": "And so uh when we ported over the end-to-end test, oh shoot, suddenly our um suddenly the way that we were stacking PR is broke because that wasn't tested in an end-to-end test.",
+  "zh": "所以当我们迁移端到端测试时，哦糟糕，突然我们……突然我们堆叠 PR 的方式坏了，因为这没有在端到端测试中测试过。"
+ },
+ {
+  "seg": 365,
+  "start": 2258.88,
+  "end": 2260.24,
+  "speaker": "Rob Willoughby",
+  "en": "That was just in uh unit test.",
+  "zh": "那只是在……单元测试中。"
+ },
+ {
+  "seg": 366,
+  "start": 2260.32,
+  "end": 2266.8,
+  "speaker": "Rob Willoughby",
+  "en": "So that's core functionality that wasn't verified externally and so was broken in the Elixir implementation.",
+  "zh": "所以那是没有在外部验证的核心功能，所以在 Elixir 实现中坏了。"
+ },
+ {
+  "seg": 367,
+  "start": 2267.04,
+  "end": 2272.88,
+  "speaker": "Rob Willoughby",
+  "en": "We weren't able to kind of push out to production, um, even though we run in a sandbox production environment.",
+  "zh": "我们无法部署到生产环境中，即使我们在一个沙箱生产环境中运行。"
+ },
+ {
+  "seg": 368,
+  "start": 2272.96,
+  "end": 2276.24,
+  "speaker": "Rob Willoughby",
+  "en": "And so then I had to manually babysit an agent to go do that.",
+  "zh": "所以我必须手动看护一个智能体去做那件事。"
+ },
+ {
+  "seg": 369,
+  "start": 2276.4,
+  "end": 2289.12,
+  "speaker": "Rob Willoughby",
+  "en": "And so that's an area where we want to be investing in in terms of getting the dark factory to be able to make non-destructive changes in production environments, um, or at least the sandbox environment first and then eventually production environments to take the human out of the loop there.",
+  "zh": "所以这是我们要投资的一个领域，关于让暗工厂能够在生产环境中进行非破坏性更改，嗯，或者至少先在沙箱环境中，然后最终在生产环境中，以便把人类从那个循环中移除。"
+ },
+ {
+  "seg": 370,
+  "start": 2289.28,
+  "end": 2292.72,
+  "speaker": "Rob Willoughby",
+  "en": "Um and then finally, there was just some other bits of the functionality.",
+  "zh": "呃最后，还有一些其他功能部分。"
+ },
+ {
+  "seg": 371,
+  "start": 2292.8,
+  "end": 2313.12,
+  "speaker": "Rob Willoughby",
+  "en": "I mentioned the stacking of PRs um in terms of a feature branch, I mentioned the labels, um, I mentioned, or rather, there's also uh some of our GitHub functionality, specifically in terms of not just comments, but on CI batching where we try to take in all of the signals on CI failures and send them as a single as a one-off rather than uh sending them as a sequence that isn't captured by an N10 test.",
+  "zh": "我提到了在 feature branch 方面堆叠 PR，我提到了标签，嗯，我提到了，或者说，还有我们的部分 GitHub 功能，特别是不仅在评论方面，而且在 CI batching 方面，我们试图接收 CI 失败上的所有信号，并将它们作为一个一次性发送，而不是作为一个未被 N10 测试捕获的序列发送。"
+ },
+ {
+  "seg": 372,
+  "start": 2313.28,
+  "end": 2318.72,
+  "speaker": "Rob Willoughby",
+  "en": "So there was some pretty core functionality and improvements to the system that weren't being captured by this verification layer.",
+  "zh": "所以有一些相当核心的功能和系统改进没有被这个验证层捕获。"
+ },
+ {
+  "seg": 373,
+  "start": 2318.88,
+  "end": 2330.72,
+  "speaker": "Rob Willoughby",
+  "en": "And so despite really wanting to turn it on, well, I did turn it on and then it immediately broke and then I fixed it, and then it turned on again, and then it broke some people's PRs, and I had to be like, okay, cool, this didn't work.",
+  "zh": "所以尽管非常想开启它，嗯，我确实开启了它然后它立刻坏了然后我修复了它，然后又开启了，然后它搞坏了一些人的 PR，我不得不想说，好吧，酷，这没起作用。"
+ },
+ {
+  "seg": 374,
+  "start": 2330.88,
+  "end": 2335.92,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so I think the real learning from that is this I think is doable.",
+  "zh": "嗯，所以我认为真正的经验教训是，我认为这是可行的。"
+ },
+ {
+  "seg": 375,
+  "start": 2336.08,
+  "end": 2337.52,
+  "speaker": "Rob Willoughby",
+  "en": "We got pretty far with it.",
+  "zh": "我们在这方面走得相当远。"
+ },
+ {
+  "seg": 376,
+  "start": 2337.68,
+  "end": 2346.4,
+  "speaker": "Rob Willoughby",
+  "en": "I think it is an even more ambitious framing though than what Anthropic did with the Rust rewrite, where they had kind of the original Zig source code as an input to that.",
+  "zh": "我认为这是一个比 Anthropic 用 Rust 重写所做的更宏大的框架，在他们的案例中，他们拥有原始的 Zig 源代码作为输入。"
+ },
+ {
+  "seg": 377,
+  "start": 2346.56,
+  "end": 2356.32,
+  "speaker": "Rob Willoughby",
+  "en": "But I think it actually allows you to write idiomatic code better because our Elixir implementation, I'm not Elixir expert, so this is entirely LLM as a judge, agent vibed.",
+  "zh": "但我认为它实际上允许你编写更好的地道的代码，因为我们的 Elixir 实现，我不是 Elixir 专家，所以这完全是 LLM 作为评判者，智能体 vibed。"
+ },
+ {
+  "seg": 378,
+  "start": 2356.4,
+  "end": 2359.76,
+  "speaker": "Rob Willoughby",
+  "en": "Our Elixir implementation evidently was idiomatic elixir.",
+  "zh": "我们的 Elixir 实现显然是地道的 elixir。"
+ },
+ {
+  "seg": 379,
+  "start": 2359.92,
+  "end": 2365.2,
+  "speaker": "Rob Willoughby",
+  "en": "I don't really know how to assess that, but evidently so, uh, rather than being Python 2 Elixir ported.",
+  "zh": "我真的不知道如何评估那个，但显然是这样，而不是 Python 2 Elixir 移植的。"
+ },
+ {
+  "seg": 380,
+  "start": 2365.36,
+  "end": 2368.32,
+  "speaker": "Rob Willoughby",
+  "en": "Um, but we need to make sure that we cover everything.",
+  "zh": "呃，但我们需要确保我们要涵盖一切。"
+ },
+ {
+  "seg": 381,
+  "start": 2368.48,
+  "end": 2388.48,
+  "speaker": "Rob Willoughby",
+  "en": "And I don't know yet exactly how we're going to continually lever up on that, other by than by continuing to do experiments like this to be able to identify where the gaps are, because that's the only way that we can build trust and really let agents rip when we're confident that that boundary, which we do require human review on, is super solid to the extent we can rewrite it.",
+  "zh": "我还不知道确切我们要如何在那个上持续加杠杆，除了通过继续做像这样的实验来找出差距在哪里，因为这是我们要建立信任并真正让智能体发挥的唯一途径，当我们对那个我们确实要求人工审查的边界超级 solid 时，以至于我们可以重写它。"
+ },
+ {
+  "seg": 382,
+  "start": 2388.56,
+  "end": 2401.04,
+  "speaker": "Simon Maple",
+  "en": "So so one of the things I'm getting here from this discussion, from this from this conversation, is that uh you know, in building this Dart Factory, this isn't something that we can n necessarily just turn on and expect everyone to use.",
+  "zh": "所以我从这个讨论中，从这个对话中得到的其中一件事是，嗯你知道，在构建这个暗工厂时，这不是我们可以直接开启并期望每个人都使用的东西。"
+ },
+ {
+  "seg": 383,
+  "start": 2401.28,
+  "end": 2403.36,
+  "speaker": "Simon Maple",
+  "en": "A lot of our learnings have come through usage.",
+  "zh": "我们很多的学习来自于使用。"
+ },
+ {
+  "seg": 384,
+  "start": 2403.44,
+  "end": 2403.52,
+  "speaker": "Simon Maple",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 385,
+  "start": 2404,
+  "end": 2408.8,
+  "speaker": "Simon Maple",
+  "en": "And I I'd love to kind of like switch briefly to adoption um and onboarding.",
+  "zh": "我很想简要切换到采用和入职的话题。"
+ },
+ {
+  "seg": 386,
+  "start": 2409.36,
+  "end": 2432.64,
+  "speaker": "Simon Maple",
+  "en": "Uh so so uh you know, when we would we be able to now with the dark factory that we've got now, if we had a new um team that had never used the dark factory, do you feel like they'll be able to just like on one on you know day zero just switch in directly to a to a scenario where they're using a dark factory, or do you feel like they would need to grow into it like layer by layer, piece by piece?",
+  "zh": "呃所以所以嗯你知道，当我们现在能够通过我们现有的暗工厂，如果我们有一个从未使用过暗工厂的新团队，你觉得他们能够在第一天就直接切换到使用暗工厂的场景吗，还是你觉得他们需要慢慢适应它，像一层一层、一块一块那样？"
+ },
+ {
+  "seg": 387,
+  "start": 2432.96,
+  "end": 2440.72,
+  "speaker": "Rob Willoughby",
+  "en": "Uh so we had a new starter who on day two was adding verifiers to the dark factory, which as I was just saying is one of the most important parts of the dark factory.",
+  "zh": "呃我们有一个新入职者在第二天就在向暗工厂添加验证器，正如我刚才说的，那是暗工厂最重要的部分之一。"
+ },
+ {
+  "seg": 388,
+  "start": 2440.88,
+  "end": 2446.96,
+  "speaker": "Rob Willoughby",
+  "en": "Uh so yes, I think you can get new people uh onboarded to it, but it does require a specific mindset too.",
+  "zh": "呃所以是的，我认为你可以让新人入职使用它，但它确实也需要一种特定的心态。"
+ },
+ {
+  "seg": 389,
+  "start": 2447.36,
+  "end": 2460.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um I think it needs to be folks who are recognizing the fact that agents are not just doing the same thing but faster, but are fundamentally new workflow primitive in how we do software engineering.",
+  "zh": "嗯我认为它需要是这样的人，他们认识到智能体不只是做得更快，而是我们在做软件工程方面的一个根本性的新工作流原语。"
+ },
+ {
+  "seg": 390,
+  "start": 2461.04,
+  "end": 2465.6,
+  "speaker": "Rob Willoughby",
+  "en": "It's this shift in my mind of like what is the role of the engineer?",
+  "zh": "在我看来这是工程师的角色是什么的转变。"
+ },
+ {
+  "seg": 391,
+  "start": 2465.76,
+  "end": 2467.84,
+  "speaker": "Rob Willoughby",
+  "en": "I personally don't think engineers are gonna go away.",
+  "zh": "我个人认为工程师不会消失。"
+ },
+ {
+  "seg": 392,
+  "start": 2468,
+  "end": 2472.72,
+  "speaker": "Rob Willoughby",
+  "en": "Um I think there's always gonna be a need for technical expertise in terms of understanding what the systems are.",
+  "zh": "嗯我认为总是需要技术专长来理解系统是什么。"
+ },
+ {
+  "seg": 393,
+  "start": 2472.88,
+  "end": 2487.92,
+  "speaker": "Rob Willoughby",
+  "en": "But just as your mechanic doesn't build your actual car but can go debug what happened with your car when it breaks, that I think is gonna be more so the role of the engineer in terms of helping build and create the environment for a factory to run in, and then debugging why it broke and then improving that.",
+  "zh": "但就像你的机械师不制造你真正的汽车，但可以在汽车坏了时调试发生了什么，我认为那将是工程师更多的角色，即帮助构建和创建工厂运行的环境，然后调试它为什么坏了，然后改进它。"
+ },
+ {
+  "seg": 394,
+  "start": 2488.16,
+  "end": 2489.76,
+  "speaker": "Rob Willoughby",
+  "en": "So more around the outside.",
+  "zh": "所以更多是在外围。"
+ },
+ {
+  "seg": 395,
+  "start": 2489.84,
+  "end": 2501.92,
+  "speaker": "Rob Willoughby",
+  "en": "And that I think for kind of a new starter or a new person, it's definitely a mindset shift, but it's still engineering, just engineering at the systems level, which is what you were meant to do as a senior staff, principal level engineer, anyways.",
+  "zh": "我认为对于一个新人或新来的人来说，这绝对是一种心态转变，但这仍然是工程，只是在系统层面的工程，这本来就是作为高级职员、首席级工程师你应该做的事情。"
+ },
+ {
+  "seg": 396,
+  "start": 2502.16,
+  "end": 2505.04,
+  "speaker": "Rob Willoughby",
+  "en": "We're just now asking junior candidates to start doing that right away.",
+  "zh": "我们只是现在要求初级候选人立刻开始做那件事。"
+ },
+ {
+  "seg": 397,
+  "start": 2505.52,
+  "end": 2508.24,
+  "speaker": "Simon Maple",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "嘿大家，希望你们到目前为止喜欢这一集。"
+ },
+ {
+  "seg": 398,
+  "start": 2508.48,
+  "end": 2516.56,
+  "speaker": "Simon Maple",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队在幕后非常努力地为大家带来最好的嘉宾，这样我们就可以进行关于智能体开发的最有信息量的对话。"
+ },
+ {
+  "seg": 399,
+  "start": 2516.8,
+  "end": 2522.16,
+  "speaker": "Simon Maple",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具、最高效的工作流，还是定义最佳实践。"
+ },
+ {
+  "seg": 400,
+  "start": 2522.32,
+  "end": 2525.92,
+  "speaker": "Simon Maple",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但无论出于何种原因，你们中许多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 401,
+  "start": 2526.16,
+  "end": 2532.88,
+  "speaker": "Simon Maple",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favour and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并希望我们继续为你带来最好的内容，请帮我们一个忙，点击那个订阅按钮。"
+ },
+ {
+  "seg": 402,
+  "start": 2533.04,
+  "end": 2540.32,
+  "speaker": "Simon Maple",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这确实会有所不同，让我们能够继续提高嘉宾的质量，并为你构建更好的产品。"
+ },
+ {
+  "seg": 403,
+  "start": 2540.72,
+  "end": 2542.08,
+  "speaker": "Simon Maple",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到节目。"
+ },
+ {
+  "seg": 404,
+  "start": 2543.68,
+  "end": 2550.08,
+  "speaker": "Simon Maple",
+  "en": "So an individual uh can join an existing team that has all of this set up for their project.",
+  "zh": "所以一个人呃可以加入一个现有的团队，该团队已经为其项目设置了所有这些。"
+ },
+ {
+  "seg": 405,
+  "start": 2550.32,
+  "end": 2569.92,
+  "speaker": "Simon Maple",
+  "en": "What about an organization that is trying to that is, you know, perhaps where Tesla was a little while back and not using uh not using a Dart Factory or a software factory and and perhaps uh using the Clauds and Claude Code and Codecs and things like that to assist them to accelerate that building of software.",
+  "zh": "那么对于那些试图呃尝试的组织来说，也就是你知道，也许就像特斯拉前段时间那样，不使用呃不使用 Dart Factory 或软件工厂，并且也许呃使用 Clauds 和 Claude Code 以及 Codecs 等工具来帮助他们加速软件的构建。"
+ },
+ {
+  "seg": 406,
+  "start": 2570.24,
+  "end": 2572.24,
+  "speaker": "Simon Maple",
+  "en": "Is that something they can snap to directly?",
+  "zh": "他们可以直接切换到那个吗？"
+ },
+ {
+  "seg": 407,
+  "start": 2572.32,
+  "end": 2577.52,
+  "speaker": "Simon Maple",
+  "en": "Like we're gonna turn on dark factory and start building this way, or is that something that should happen gradually in layers?",
+  "zh": "就像我们要开启 dark factory 并开始以这种方式构建，还是这应该以分层的方式逐渐发生？"
+ },
+ {
+  "seg": 408,
+  "start": 2577.76,
+  "end": 2578,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 409,
+  "start": 2578.24,
+  "end": 2586.24,
+  "speaker": "Rob Willoughby",
+  "en": "So I've been talking a lot about what we're doing with building the dark factory, but as I mentioned, like we intentionally tried to front run a lot of these issues here.",
+  "zh": "所以我一直在谈论很多我们关于构建 dark factory 的工作，但正如我提到的，就像我们有意尝试在这里抢先解决许多这些问题。"
+ },
+ {
+  "seg": 410,
+  "start": 2586.4,
+  "end": 2594.8,
+  "speaker": "Rob Willoughby",
+  "en": "What we've been doing with the rest of the production code base is that kind of incremental adoption because we're not gonna come out and say, hey, everyone at Cecil, you must use the Dark Factory.",
+  "zh": "对于其余的生产代码库，我们所做的那种渐进式采用，因为我们不会出来说，嘿，Cecil 的每个人，你们必须使用 Dark Factory。"
+ },
+ {
+  "seg": 411,
+  "start": 2594.96,
+  "end": 2605.52,
+  "speaker": "Rob Willoughby",
+  "en": "We've gotten to that kind of 65% through or 65% of PRs going through the Dark Factory by convincing people that this is a fun, new, cool way of working that speeds them up.",
+  "zh": "我们通过说服人们这是一种有趣的、新的、很酷的工作方式并且能加快他们的速度，已经达到了那种通过 Dark Factory 处理 65% 或 65% 的 PR 的程度。"
+ },
+ {
+  "seg": 412,
+  "start": 2605.84,
+  "end": 2620.24,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and that is very much so by helping them lever up the parts of the code base they own through all these uh tools and mechanisms that we've identified, specifically around the verification, um, to be able to allow them to build that trust and to build that uh faith and automation.",
+  "zh": "呃，这很大程度上是通过帮助他们利用我们确定的所有这些呃工具和机制，特别是围绕验证呃，以便能够让他们建立这种信任和建立那种呃信心和自动化。"
+ },
+ {
+  "seg": 413,
+  "start": 2620.48,
+  "end": 2624.72,
+  "speaker": "Rob Willoughby",
+  "en": "So, concretely, what that looks like is just start with better context in your repo.",
+  "zh": "所以，具体来说，这看起来就像是从你的仓库中更好的上下文开始。"
+ },
+ {
+  "seg": 414,
+  "start": 2624.88,
+  "end": 2627.44,
+  "speaker": "Rob Willoughby",
+  "en": "Like that already improves your local developer flow.",
+  "zh": "就像这已经改善了你的本地开发流程。"
+ },
+ {
+  "seg": 415,
+  "start": 2627.6,
+  "end": 2639.84,
+  "speaker": "Rob Willoughby",
+  "en": "Like people, companies, organizations, I think really need to be much more intentional about the context in the repo, um, because that is ultimately what goes into the agent, which ultimately, in my mind and part of my kind of belief of where the value is.",
+  "zh": "像人、公司、组织，我认为真的需要更加有意地对待仓库中的上下文，呃，因为这最终会进入到智能体中，这最终，在我看来和我对价值所在的部分信念中。"
+ },
+ {
+  "seg": 416,
+  "start": 2640.24,
+  "end": 2643.52,
+  "speaker": "Rob Willoughby",
+  "en": "Is that we can provide more important than the actual raw underlying model.",
+  "zh": "是我们可以提供比实际原始的底层模型更重要的东西。"
+ },
+ {
+  "seg": 417,
+  "start": 2644.24,
+  "end": 2648.64,
+  "speaker": "Rob Willoughby",
+  "en": "The context that you give will change model results more than swapping a model will.",
+  "zh": "你提供的上下文会比更换模型更能改变模型结果。"
+ },
+ {
+  "seg": 418,
+  "start": 2649.12,
+  "end": 2664.96,
+  "speaker": "Rob Willoughby",
+  "en": "And so if you feel you're at a good place in that regard, then start layering on the verification bit because that then also helps you trust what agents being driven by local engineers are producing because they are verified two ways that kind of go beyond what you might have done historically.",
+  "zh": "所以如果你觉得你在这方面做得很好了，那么开始分层加上验证这一块，因为那也有助于你信任由本地工程师驱动的智能体所产生的产出，因为它们经过了双重验证，这种方式超越了你在历史上可能做过的方式。"
+ },
+ {
+  "seg": 419,
+  "start": 2665.2,
+  "end": 2681.84,
+  "speaker": "Rob Willoughby",
+  "en": "So tests are dead cheap, dead cheap to write, write tests for everything, write end-to-end tests for everything, write integration tests for everything, do behavioral tests for everything, make sure that that kind of layer of the thing that you actually care about, which isn't just what the code does, it's the behavior, it's the product surface, it's the things that is expressed.",
+  "zh": "所以测试非常便宜，写起来非常便宜，为所有东西写测试，为所有东西写端到端测试，为所有东西写集成测试，为所有东西做行为测试，确保你真正关心的那一层东西，不仅仅是代码做了什么，它是行为，它是产品表面，它是被表达出来的东西。"
+ },
+ {
+  "seg": 420,
+  "start": 2682.08,
+  "end": 2683.92,
+  "speaker": "Rob Willoughby",
+  "en": "Make sure that is super solid.",
+  "zh": "确保那是超级稳固的。"
+ },
+ {
+  "seg": 421,
+  "start": 2684,
+  "end": 2697.28,
+  "speaker": "Rob Willoughby",
+  "en": "Um, because that mechanism will both help build in adoption kind of from your internal engine, because hey, your agent now is producing better work without you needing to take kind of the reins and guide it through that, as well as fully producing higher quality uh outputs over time.",
+  "zh": "呃，因为这种机制既有助于从你的内部引擎建立采用，因为嘿，你的智能体现在正在产出更好的工作，而不需要你亲自去呃掌控并引导它通过那个过程，也能随着时间的推移完全产出更高质量的呃产出。"
+ },
+ {
+  "seg": 422,
+  "start": 2697.44,
+  "end": 2700.72,
+  "speaker": "Rob Willoughby",
+  "en": "I think then you start layering on into the more non-deterministic aspects.",
+  "zh": "我认为然后你开始分层进入更多的非确定性方面。"
+ },
+ {
+  "seg": 423,
+  "start": 2700.8,
+  "end": 2713.12,
+  "speaker": "Rob Willoughby",
+  "en": "So adopting verifiers, adopting these kind of discrete units, which are still very human reviewable, very human understandable, um, but are able to encode kind of fuzzier concepts than you would be able to in a deterministic linting rule.",
+  "zh": "所以采用验证器，采用这些所谓的离散单元，它们仍然非常易于人工审查，非常易于人工理解，呃，但能够编码比你在确定性 linting 规则中能够编码的更模糊的概念。"
+ },
+ {
+  "seg": 424,
+  "start": 2713.28,
+  "end": 2725.04,
+  "speaker": "Rob Willoughby",
+  "en": "Again, you can then have something deterministic run that, feed that signal back into a local agent or into a dark factory, and use that to kind of encode preferences in the code base, and then into a gentic review and then kind of levering up in that way.",
+  "zh": "同样，然后你可以运行确定性的东西，将那个信号反馈给本地智能体或 dark factory，并用它来编码代码库中的偏好，然后进入 agentic 审查，然后以那种方式提升。"
+ },
+ {
+  "seg": 425,
+  "start": 2725.2,
+  "end": 2741.52,
+  "speaker": "Rob Willoughby",
+  "en": "And so these pieces that you can adopt, particularly around the verification side, these both do better when you're kind of, or rather allow your engineers to do better uh when running local flows, and give you the building blocks and then f uh move closer and closer to the fully automated factory.",
+  "zh": "所以你可以采用的这些部分，特别是围绕验证方面，当你在呃或者更确切地说允许你的工程师在运行本地流程时做得更好呃时，这些两者都会做得更好，并给你构建块，然后呃越来越接近完全自动化的工厂。"
+ },
+ {
+  "seg": 426,
+  "start": 2741.76,
+  "end": 2763.44,
+  "speaker": "Rob Willoughby",
+  "en": "The last point on my mind just around the cultural adoption bit, I think the most important thing we've been able to give to the engineers here at TESL is the feeling that they still own the taste and the quality in their code base, and they're not just giving that up to an agent, but that we're trying to help them figure out a way to scale out their taste to all of the agents that will be running on their code base.",
+  "zh": "关于文化采用这一点，我脑海中的最后一点，我认为我们能够给予 TESL 工程师最重要的是那种感觉，即他们仍然拥有自己代码库中的品味和质量，而他们不仅仅是把这交给智能体，而是我们正在试图帮助他们找到一种方法，将他们的品味扩展到所有将在他们的代码库上运行的智能体。"
+ },
+ {
+  "seg": 427,
+  "start": 2763.92,
+  "end": 2781.6,
+  "speaker": "Rob Willoughby",
+  "en": "Previously, let's say you were a staff-level engineer who was responsible for a specific part of the codebase, the way that you would enforce kind of quality there is doing all the uh PR reviews or doing presentations or writing docs on what coding standards look like or writing a style guideline or stuff along those lines.",
+  "zh": "以前，假设你是一个负责代码库特定部分的高级工程师，你在那里执行质量的方式就是做所有的呃 PR 审查或做演示或编写关于编码标准看起来像什么的文档或编写风格指南或类似的东西。"
+ },
+ {
+  "seg": 428,
+  "start": 2781.84,
+  "end": 2784.72,
+  "speaker": "Rob Willoughby",
+  "en": "Now you encode that within a set of verifiers.",
+  "zh": "现在你将其编码在一组验证器中。"
+ },
+ {
+  "seg": 429,
+  "start": 2784.88,
+  "end": 2795.52,
+  "speaker": "Rob Willoughby",
+  "en": "Your agents, all the agents, not just your agents, all of the agents of everyone in the company is going to be running that to uh those verifiers for those bits of the code base, and suddenly your impact is now scaled across everyone.",
+  "zh": "你的智能体，所有的智能体，不仅仅是你的智能体，公司里每个人的所有智能体都将运行那些针对代码库部分的验证器，突然你的影响现在扩展到了所有人。"
+ },
+ {
+  "seg": 430,
+  "start": 2795.76,
+  "end": 2806.88,
+  "speaker": "Rob Willoughby",
+  "en": "And so that then forces those agents to engage with it and also allows you the ability to kind of take your learnings over however long you've been in the industry and give them to the agents in a way that makes them better.",
+  "zh": "所以这迫使那些智能体与之互动，也让你能够将你在行业中这么长时间的经验学到的知识以一种使它们变得更好的方式传授给智能体。"
+ },
+ {
+  "seg": 431,
+  "start": 2807.04,
+  "end": 2812.96,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so that I think is where the truly scalable kind of shift in mindset is coming from.",
+  "zh": "呃，所以我认为这就是真正可扩展的思维转变的来源。"
+ },
+ {
+  "seg": 432,
+  "start": 2813.12,
+  "end": 2823.36,
+  "speaker": "Rob Willoughby",
+  "en": "It's not just kind of like what can I do to make my local agent better, but then can I commit that into the repo in a form that makes all of the agents better and also then gives me the base to build up towards a dark factory future?",
+  "zh": "这不仅仅是类似于我能做什么来让我的本地智能体更好，而是我能不能以一种让所有智能体都变得更好的形式将其提交到仓库中，然后也给我基础去构建走向 dark factory 的未来？"
+ },
+ {
+  "seg": 433,
+  "start": 2823.68,
+  "end": 2837.2,
+  "speaker": "Simon Maple",
+  "en": "Now a lot of people using Tesla today are using that to you know as the registry to store their context, to evaluate and improve their context, distribute their context across organizations in private and public uh uh workspaces.",
+  "zh": "现在许多今天使用 Tesla 的人将其用作呃存储上下文的注册中心，来评估和改进他们的上下文，在私人和公共的呃呃工作空间中分发他们的上下文。"
+ },
+ {
+  "seg": 434,
+  "start": 2837.44,
+  "end": 2849.04,
+  "speaker": "Simon Maple",
+  "en": "Um but the Tesla agent, of course, while it can be a great interface to a lot of those uh functionalities and capabilities, the Tesla agent can help here as well in doing a lot of what you just said, right?",
+  "zh": "呃但是 Tesla 智能体，当然虽然它可以成为许多这些呃功能和能力的一个很好的接口，Tesla 智能体也可以在这里帮助做很多你刚才说的事情，对吧？"
+ },
+ {
+  "seg": 435,
+  "start": 2849.6,
+  "end": 2849.84,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 436,
+  "start": 2850.08,
+  "end": 2857.68,
+  "speaker": "Rob Willoughby",
+  "en": "So we think of the Tesla agent kind of as like a natural language interface for being able to build the building blocks of for Dark Factory.",
+  "zh": "所以我们认为 Tesla 智能体就像是能够构建 Dark Factory 构建块的自然语言接口。"
+ },
+ {
+  "seg": 437,
+  "start": 2858.08,
+  "end": 2865.2,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so it has knowledge of all of the bits within the Tesla CLI that we've kind of touched upon here.",
+  "zh": "呃所以它了解我们在刚才提到的 Tesla CLI 中的所有部分。"
+ },
+ {
+  "seg": 438,
+  "start": 2865.36,
+  "end": 2869.6,
+  "speaker": "Rob Willoughby",
+  "en": "So when I was talking about our own internal uh code review, that's Tesla change review.",
+  "zh": "所以当我谈论我们自己的内部呃代码审查时，那就是 Tesla change review。"
+ },
+ {
+  "seg": 439,
+  "start": 2869.68,
+  "end": 2872.32,
+  "speaker": "Rob Willoughby",
+  "en": "When I was talking about verifiers, that's Tesla Change Verify.",
+  "zh": "当我谈论验证器时，那就是 Tesla Change Verify。"
+ },
+ {
+  "seg": 440,
+  "start": 2872.4,
+  "end": 2878.56,
+  "speaker": "Rob Willoughby",
+  "en": "We also have Tesla Change Risk, which is our own internal risk implementation to assess whether a PR needs human review or not.",
+  "zh": "我们还有 Tesla Change Risk，这是我们自己的内部风险实现，用于评估 PR 是否需要人工审查。"
+ },
+ {
+  "seg": 441,
+  "start": 2878.72,
+  "end": 2885.6,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so all of these kind of like core primitives are baked into the Tesla agent and the Tesla agent knows how to set them up in your repo.",
+  "zh": "呃所以所有这些所谓的核心原语都内置在 Tesla 智能体中，而 Tesla 智能体知道如何在你的仓库中设置它们。"
+ },
+ {
+  "seg": 442,
+  "start": 2885.76,
+  "end": 2890.56,
+  "speaker": "Rob Willoughby",
+  "en": "Um we, as I was mentioning earlier, we don't think the orchestration layer is like differentiated.",
+  "zh": "呃我们，正如我早些时候提到的，我们不认为编排层是像差异化的。"
+ },
+ {
+  "seg": 443,
+  "start": 2890.8,
+  "end": 2898.48,
+  "speaker": "Rob Willoughby",
+  "en": "Everyone probably should build their own orchestrator because it's simple and allows you to then integrate against a whole bunch of uh your own internal systems.",
+  "zh": "每个人可能都应该构建自己的编排器，因为它很简单，并允许你然后针对一大堆呃你自己的内部系统进行集成。"
+ },
+ {
+  "seg": 444,
+  "start": 2898.64,
+  "end": 2899.6,
+  "speaker": "Rob Willoughby",
+  "en": "Like, do you use Jira?",
+  "zh": "比如，你用 Jira 吗？"
+ },
+ {
+  "seg": 445,
+  "start": 2899.84,
+  "end": 2904.4,
+  "speaker": "Rob Willoughby",
+  "en": "Do you have your own internal custom uh ticketing system where your sources of knowledge?",
+  "zh": "你有你自己的内部自定义呃工单系统作为你的知识来源吗？"
+ },
+ {
+  "seg": 446,
+  "start": 2904.56,
+  "end": 2914.8,
+  "speaker": "Rob Willoughby",
+  "en": "Like that is important work, but the differentiated work in my mind comes from the loops uh that you're able to build on top of that and also these primitives that you're able to compose.",
+  "zh": "像那是重要的工作，但在我看来，真正产生差异的工作来自于你能够在之上构建的循环呃以及你能够组合的这些原语。"
+ },
+ {
+  "seg": 447,
+  "start": 2914.96,
+  "end": 2922.08,
+  "speaker": "Rob Willoughby",
+  "en": "And so Tesla Agent will then walk you through how do I can set this up in your repo using your context, using your way of doing it.",
+  "zh": "因此，Tesla 智能体将引导你如何使用你的上下文，使用你的做事方式在你的仓库中设置它。"
+ },
+ {
+  "seg": 448,
+  "start": 2922.32,
+  "end": 2926.08,
+  "speaker": "Rob Willoughby",
+  "en": "So for kind of open source repos, we'd recommend using GitHub Actions.",
+  "zh": "所以对于像开源仓库，我们建议使用 GitHub Actions。"
+ },
+ {
+  "seg": 449,
+  "start": 2926.16,
+  "end": 2928.08,
+  "speaker": "Rob Willoughby",
+  "en": "They're easy, they're cheap, they're everywhere.",
+  "zh": "它们简单，便宜，无处不在。"
+ },
+ {
+  "seg": 450,
+  "start": 2928.24,
+  "end": 2940,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so we can then uh Tesla agent can then work with you to be like, cool, I want to do a review of all of the PRs that have landed in this repo every single week and derive verifiers from those.",
+  "zh": "嗯,所以我们随后,Tesla agent 可以随后与你协作,比如,酷,我想对该仓库每周合并的所有 PR 做一个审查,并从中衍生出验证器。"
+ },
+ {
+  "seg": 451,
+  "start": 2940.32,
+  "end": 2942.08,
+  "speaker": "Rob Willoughby",
+  "en": "Tesla Agent can do that with you.",
+  "zh": "Tesla Agent 可以与你一起做这件事。"
+ },
+ {
+  "seg": 452,
+  "start": 2942.24,
+  "end": 2951.6,
+  "speaker": "Rob Willoughby",
+  "en": "Um and I'm being key there to say with you, not for you, um, because that verification bit, just to reiterate, is something that I think where it's the human leverage comes from.",
+  "zh": "嗯,我特意强调要「与你」,而不是「为你」,嗯,因为那个验证环节,重申一下,我认为那是人类杠杆作用的来源。"
+ },
+ {
+  "seg": 453,
+  "start": 2951.76,
+  "end": 2958.24,
+  "speaker": "Rob Willoughby",
+  "en": "That's still very much so part of the core engineering job because that's where you're encoding your taste, your preferences, all of that kind of stuff.",
+  "zh": "那仍然是核心工程工作的重要组成部分,因为那是你在编码你的品味、你的偏好,以及所有这类东西的地方。"
+ },
+ {
+  "seg": 454,
+  "start": 2958.56,
+  "end": 2963.6,
+  "speaker": "Rob Willoughby",
+  "en": "You're still in control, which is but the actual like go write the GitHub action, do it, yeah, I don't want to do that.",
+  "zh": "你仍然掌控全局,也就是,至于实际的去写 GitHub Action,去做这件事,是的,我不想做那个。"
+ },
+ {
+  "seg": 455,
+  "start": 2963.76,
+  "end": 2965.12,
+  "speaker": "Rob Willoughby",
+  "en": "Tesla Agent will do that for you.",
+  "zh": "Tesla Agent 会为你做那件事。"
+ },
+ {
+  "seg": 456,
+  "start": 2965.6,
+  "end": 2977.2,
+  "speaker": "Simon Maple",
+  "en": "And and and if I wanted to get started, I've got a fresh project that I'm building, I'm currently, it's I I'm in a genetic coder, I'm currently building using various agents, I've got various skills and context in that in that repo as well.",
+  "zh": "而,而且,如果我想开始,我有一个我正在构建的新项目,我,我目前,我是个 genetic coder,我正在使用各种 agents 进行构建,我在该仓库中也有各种技能和上下文。"
+ },
+ {
+  "seg": 457,
+  "start": 2977.52,
+  "end": 2978.96,
+  "speaker": "Simon Maple",
+  "en": "I'll start up Tesla Agent.",
+  "zh": "我会启动 Tesla Agent。"
+ },
+ {
+  "seg": 458,
+  "start": 2979.68,
+  "end": 2980.16,
+  "speaker": "Simon Maple",
+  "en": "Where do I start?",
+  "zh": "我该从哪里开始?"
+ },
+ {
+  "seg": 459,
+  "start": 2980.24,
+  "end": 2981.44,
+  "speaker": "Simon Maple",
+  "en": "What do I what's the first command?",
+  "zh": "我该,第一条指令是什么?"
+ },
+ {
+  "seg": 460,
+  "start": 2981.52,
+  "end": 2982.72,
+  "speaker": "Rob Willoughby",
+  "en": "What's the first prompt I should write?",
+  "zh": "我应该写的第一个 prompt 是什么?"
+ },
+ {
+  "seg": 461,
+  "start": 2982.96,
+  "end": 2983.12,
+  "speaker": "Rob Willoughby",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 462,
+  "start": 2983.28,
+  "end": 2985.92,
+  "speaker": "Rob Willoughby",
+  "en": "Uh so I guess two commands come immediately to mind.",
+  "zh": "嗯,所以我猜立刻想到两条指令。"
+ },
+ {
+  "seg": 463,
+  "start": 2986.08,
+  "end": 2987.68,
+  "speaker": "Rob Willoughby",
+  "en": "One is do an audit of your code base.",
+  "zh": "一个是对你的代码库进行审计。"
+ },
+ {
+  "seg": 464,
+  "start": 2988.08,
+  "end": 2992.64,
+  "speaker": "Rob Willoughby",
+  "en": "Um just ask it to help with that in terms of being able to understand like what context do you have?",
+  "zh": "嗯,只是请求它在这方面提供帮助,以便理解你有什么样的上下文?"
+ },
+ {
+  "seg": 465,
+  "start": 2992.8,
+  "end": 2994.64,
+  "speaker": "Rob Willoughby",
+  "en": "What where are agents thrashing?",
+  "zh": "哪里 agents 在反复重试(thrashing)?"
+ },
+ {
+  "seg": 466,
+  "start": 2994.8,
+  "end": 2998.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um, we have the ability in there to also go look at some of your local logs.",
+  "zh": "嗯,我们那里也有能力去查看你的一些本地日志。"
+ },
+ {
+  "seg": 467,
+  "start": 2998.56,
+  "end": 3003.36,
+  "speaker": "Rob Willoughby",
+  "en": "Um, if you are using Clot Code, for example, it knows where to go find your logs for that session.",
+  "zh": "嗯,如果你使用 Clot Code,例如,它知道去哪里找你那个会话的日志。"
+ },
+ {
+  "seg": 468,
+  "start": 3003.44,
+  "end": 3013.6,
+  "speaker": "Rob Willoughby",
+  "en": "This stays all local to your machine, uh, to be clear, but it will help you be able to identify, like, hey, this is something that the agents have done that is constantly thrashing and constantly kind of causing issues.",
+  "zh": "清楚地讲,这些都保留在你的本地机器上,但它会帮助你识别,比如,嘿,这是 agents 做的事情,它在反复重试并一直在导致问题。"
+ },
+ {
+  "seg": 469,
+  "start": 3013.76,
+  "end": 3015.36,
+  "speaker": "Rob Willoughby",
+  "en": "Do you want to write a skill for that?",
+  "zh": "你想为此写一个技能吗?"
+ },
+ {
+  "seg": 470,
+  "start": 3015.76,
+  "end": 3019.04,
+  "speaker": "Rob Willoughby",
+  "en": "And then do you want to kind of be publishing and versioning that skill?",
+  "zh": "然后你想发布和版本化那个技能吗?"
+ },
+ {
+  "seg": 471,
+  "start": 3019.28,
+  "end": 3028,
+  "speaker": "Rob Willoughby",
+  "en": "And so that kind of gives you an initial set of insight into like where current friction points are or where you're already great and you don't really need to do much.",
+  "zh": "所以这给了你一套初始的洞察力,了解当前摩擦点在哪里,或者你已经很擅长哪里而并不需要太费心。"
+ },
+ {
+  "seg": 472,
+  "start": 3028.32,
+  "end": 3030.16,
+  "speaker": "Rob Willoughby",
+  "en": "And then the second one is on those loops.",
+  "zh": "然后第二个是关于那些循环。"
+ },
+ {
+  "seg": 473,
+  "start": 3030.24,
+  "end": 3031.76,
+  "speaker": "Rob Willoughby",
+  "en": "It's like, what is the first loop?",
+  "zh": "就像,第一个循环是什么?"
+ },
+ {
+  "seg": 474,
+  "start": 3031.92,
+  "end": 3033.92,
+  "speaker": "Rob Willoughby",
+  "en": "Like get the agent to suggest you a loop.",
+  "zh": "比如,让 agent 给你建议一个循环。"
+ },
+ {
+  "seg": 475,
+  "start": 3034,
+  "end": 3040.8,
+  "speaker": "Rob Willoughby",
+  "en": "Um, my suggest my um personal bias would be probably something looking at the PR surface or something looking at like docs updates or maintenance.",
+  "zh": "嗯,我的建议,我,嗯,个人偏向可能是关于 PR 表面的事情,或者关于文档更新或维护的事情。"
+ },
+ {
+  "seg": 476,
+  "start": 3040.88,
+  "end": 3045.44,
+  "speaker": "Rob Willoughby",
+  "en": "You know, those kind of tasks that you know you should do, but you never want to do, and so you get still docs.",
+  "zh": "你知道,那些你知道你应该做但永远不想做的任务,所以你让,让文档。"
+ },
+ {
+  "seg": 477,
+  "start": 3045.76,
+  "end": 3047.52,
+  "speaker": "Rob Willoughby",
+  "en": "Agents and loops are great at that.",
+  "zh": "Agents 和循环擅长做那个。"
+ },
+ {
+  "seg": 478,
+  "start": 3048,
+  "end": 3058.88,
+  "speaker": "Rob Willoughby",
+  "en": "Um, and so working with the agent to figure out kind of what the highest either highest value loop is uh for you to still then be human in the loop, or highest value that you're comfortable running autonomously.",
+  "zh": "嗯,所以与 agent 合作弄清楚哪种对你来说价值最高的循环,让你仍然做人在回路,或者你乐于让它自主运行的最高价值。"
+ },
+ {
+  "seg": 479,
+  "start": 3059.04,
+  "end": 3072.16,
+  "speaker": "Rob Willoughby",
+  "en": "Because it's a really interesting and cool feeling to be able to wake up and see, hey, we call them maintenance agents internally, hey, my maintenance agent ran overnight, identified three issues, filed PRs, they're all in auto merge, and they haven't landed.",
+  "zh": "因为能够醒来看到,嘿,我们在内部称之为维护 agents,嘿,我的维护 agent 昨晚运行了,发现了三个问题,提交了 PR,它们都在自动合并中,但它们还没有合并落地,这是一种非常有趣和酷的感觉。"
+ },
+ {
+  "seg": 480,
+  "start": 3072.24,
+  "end": 3072.48,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 481,
+  "start": 3072.64,
+  "end": 3074.4,
+  "speaker": "Rob Willoughby",
+  "en": "Um and so that just is great.",
+  "zh": "嗯,所以这非常棒。"
+ },
+ {
+  "seg": 482,
+  "start": 3074.72,
+  "end": 3075.6,
+  "speaker": "Simon Maple",
+  "en": "Just seeing work done.",
+  "zh": "就是看到工作完成了。"
+ },
+ {
+  "seg": 483,
+  "start": 3075.92,
+  "end": 3076.16,
+  "speaker": "Simon Maple",
+  "en": "Exactly.",
+  "zh": "确切如此。"
+ },
+ {
+  "seg": 484,
+  "start": 3076.24,
+  "end": 3077.36,
+  "speaker": "Rob Willoughby",
+  "en": "And it's not work that I had to think about.",
+  "zh": "而且不是我必须费心的工作。"
+ },
+ {
+  "seg": 485,
+  "start": 3077.76,
+  "end": 3078.8,
+  "speaker": "Simon Maple",
+  "en": "You didn't even have to initiate it.",
+  "zh": "你甚至不必发起它。"
+ },
+ {
+  "seg": 486,
+  "start": 3078.88,
+  "end": 3083.12,
+  "speaker": "Rob Willoughby",
+  "en": "It's uh I found the signal and I want the signal to go up or go down or do something.",
+  "zh": "就是,我发现了信号,我想要信号上升或下降,或者做点什么。"
+ },
+ {
+  "seg": 487,
+  "start": 3083.28,
+  "end": 3083.36,
+  "speaker": "Rob Willoughby",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 488,
+  "start": 3083.6,
+  "end": 3085.28,
+  "speaker": "Rob Willoughby",
+  "en": "And then maintenance agent goes and does that.",
+  "zh": "然后维护 agent 就去做了那件事。"
+ },
+ {
+  "seg": 489,
+  "start": 3085.76,
+  "end": 3086.24,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 490,
+  "start": 3086.48,
+  "end": 3088.48,
+  "speaker": "Simon Maple",
+  "en": "So that's available in Tesla Agent right now.",
+  "zh": "所以这在 Tesla Agent 中现在就可以用。"
+ },
+ {
+  "seg": 491,
+  "start": 3088.56,
+  "end": 3098.4,
+  "speaker": "Simon Maple",
+  "en": "So if you have the Tesla CLI installed, just type Tesla Agent and the CLI on the terminal and you'll uh you'll you'll drop into that uh it'll drop into that environment and you can ask those uh ask those prompts straight away.",
+  "zh": "所以如果你安装了 Tesla CLI,只需在终端上的 CLI 里输入 Tesla Agent,你就会,你就会进入那个,嗯,它会进入那个环境,你可以立即问那些,问那些 prompt。"
+ },
+ {
+  "seg": 492,
+  "start": 3098.72,
+  "end": 3099.52,
+  "speaker": "Simon Maple",
+  "en": "I think it's time.",
+  "zh": "我想是时候了。"
+ },
+ {
+  "seg": 493,
+  "start": 3099.68,
+  "end": 3103.92,
+  "speaker": "Simon Maple",
+  "en": "Let's uh so we go back and have a look at uh some of those uh linear tickets that we raised.",
+  "zh": "让我们,嗯,所以我们回过头去看看我们提出的一些 linear 票据。"
+ },
+ {
+  "seg": 494,
+  "start": 3104.16,
+  "end": 3106.48,
+  "speaker": "Simon Maple",
+  "en": "Let's see if the dark factory's uh done something with them.",
+  "zh": "让我们看看 dark factory 是否对它们做了些什么。"
+ },
+ {
+  "seg": 495,
+  "start": 3106.8,
+  "end": 3107.44,
+  "speaker": "Rob Willoughby",
+  "en": "Definitely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 496,
+  "start": 3107.76,
+  "end": 3114.4,
+  "speaker": "Rob Willoughby",
+  "en": "This one, as a reminder, is about adding the metrics for where we did the inference geo within the dark factory.",
+  "zh": "这一条,提醒一下,是关于为我们在这个 dark factory 中进行推理地理位置的地方添加指标。"
+ },
+ {
+  "seg": 497,
+  "start": 3114.56,
+  "end": 3119.36,
+  "speaker": "Rob Willoughby",
+  "en": "And so we can see that, hey, there's been a PR associated with it, and hey, that PR has been merged.",
+  "zh": "所以我们可以看到,嘿,这里有一个与之相关的 PR,而且嘿,那个 PR 已经被合并了。"
+ },
+ {
+  "seg": 498,
+  "start": 3119.52,
+  "end": 3123.04,
+  "speaker": "Rob Willoughby",
+  "en": "So I'm just gonna click over to the PR here so we can see what happened.",
+  "zh": "所以我只要点击切换到这里的 PR,这样我们就可以看看发生了什么。"
+ },
+ {
+  "seg": 499,
+  "start": 3123.2,
+  "end": 3128.32,
+  "speaker": "Rob Willoughby",
+  "en": "Um so we've got the summary from Kikimura, as I mentioned, that's our internal name for our Dark Factory.",
+  "zh": "嗯,所以我们有来自 Kikimura 的摘要,正如我提到的,那是我们 Dark Factory 的内部名称。"
+ },
+ {
+  "seg": 500,
+  "start": 3128.48,
+  "end": 3131.28,
+  "speaker": "Rob Willoughby",
+  "en": "Uh we have Coderabbit who runs on review.",
+  "zh": "嗯我们有 Coderabbit 运行在审查上。"
+ },
+ {
+  "seg": 501,
+  "start": 3131.36,
+  "end": 3135.2,
+  "speaker": "Rob Willoughby",
+  "en": "Um, this GitHub action here is our own uh individual review harness.",
+  "zh": "嗯，这里的 GitHub action 是我们自己的独立审查套件。"
+ },
+ {
+  "seg": 502,
+  "start": 3135.44,
+  "end": 3141.76,
+  "speaker": "Rob Willoughby",
+  "en": "So these are the uh comments that have been responded to by Kikimura and resolved, uh given by our own uh action.",
+  "zh": "所以这些是 Kikimura 已回应并解决的评论，由我们自己的 action 给出的。"
+ },
+ {
+  "seg": 503,
+  "start": 3141.92,
+  "end": 3146.88,
+  "speaker": "Rob Willoughby",
+  "en": "Uh Codora Rabbit also then provided some harnesses uh some comments as well.",
+  "zh": "Codora Rabbit 也随后提供了一些套件以及一些评论。"
+ },
+ {
+  "seg": 504,
+  "start": 3147.04,
+  "end": 3148.8,
+  "speaker": "Rob Willoughby",
+  "en": "Uh there are some CI failers.",
+  "zh": "嗯有一些 CI 失败项。"
+ },
+ {
+  "seg": 505,
+  "start": 3148.96,
+  "end": 3150.8,
+  "speaker": "Rob Willoughby",
+  "en": "Thank you, Kikimura, for fixing that.",
+  "zh": "谢谢你，Kikimura，修复了那个。"
+ },
+ {
+  "seg": 506,
+  "start": 3150.96,
+  "end": 3154.96,
+  "speaker": "Rob Willoughby",
+  "en": "You can then see that Coderabbit approved it and Kikimura merged it.",
+  "zh": "然后你可以看到 Coderabbit 批准了它，Kikimura 合并了它。"
+ },
+ {
+  "seg": 507,
+  "start": 3155.12,
+  "end": 3159.28,
+  "speaker": "Rob Willoughby",
+  "en": "So this was no human has looked at this up until the point where I'm looking at it now.",
+  "zh": "所以在此之前没有人看过这个，直到我现在看它。"
+ },
+ {
+  "seg": 508,
+  "start": 3159.44,
+  "end": 3160.48,
+  "speaker": "Rob Willoughby",
+  "en": "This was fully autonomous.",
+  "zh": "这是完全自主的。"
+ },
+ {
+  "seg": 509,
+  "start": 3160.88,
+  "end": 3168.88,
+  "speaker": "Simon Maple",
+  "en": "This joins that 95% of uh code that has been merged with no human in our Dart factory implementation.",
+  "zh": "这加入到我们在 Dart factory 实现中无人合并的 95% 代码中。"
+ },
+ {
+  "seg": 510,
+  "start": 3169.2,
+  "end": 3173.6,
+  "speaker": "Rob Willoughby",
+  "en": "And I'm not gonna go look at it because I trust that the test pass, and therefore it at least isn't broken.",
+  "zh": "我不会去查看它，因为我相信测试通过，因此它至少没坏。"
+ },
+ {
+  "seg": 511,
+  "start": 3173.68,
+  "end": 3176.08,
+  "speaker": "Rob Willoughby",
+  "en": "And if it is broken, we will find that out and then we will fix forward.",
+  "zh": "如果它坏了，我们会发现它，然后我们会向前修复。"
+ },
+ {
+  "seg": 512,
+  "start": 3177.76,
+  "end": 3178,
+  "speaker": "Simon Maple",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 513,
+  "start": 3178.08,
+  "end": 3182.56,
+  "speaker": "Simon Maple",
+  "en": "So this was the first linear ticket that uh that didn't require the human interaction.",
+  "zh": "所以这是第一个不需要人类交互的 linear 工单。"
+ },
+ {
+  "seg": 514,
+  "start": 3182.72,
+  "end": 3186.72,
+  "speaker": "Simon Maple",
+  "en": "Perhaps we jumped to the linear ticket that did require that human interaction, which would go into production.",
+  "zh": "也许我们跳到了确实需要人类交互的 linear 工单，它会进入生产环境。"
+ },
+ {
+  "seg": 515,
+  "start": 3187.12,
+  "end": 3196.4,
+  "speaker": "Rob Willoughby",
+  "en": "And so this is uh the ticket um where we were looking at fixing the quote issues uh in terms of what was uh landing on our uh web UI.",
+  "zh": "所以这是那个我们在查看修复引号问题的工单，关于什么是落在我们的 web UI 上的。"
+ },
+ {
+  "seg": 516,
+  "start": 3196.56,
+  "end": 3206.64,
+  "speaker": "Rob Willoughby",
+  "en": "So again, something that was identified in a audit, uh, but probably should be fixed, and something that is fully user visible because this is the code or this is what users see on our website.",
+  "zh": "同样，这是在审计中被识别出来的东西，但可能应该被修复，并且这是完全对用户可见的，因为这是代码或者这是用户在我们网站上看到的东西。"
+ },
+ {
+  "seg": 517,
+  "start": 3206.8,
+  "end": 3212.16,
+  "speaker": "Rob Willoughby",
+  "en": "We can see that uh there has been a PR associated with it, uh, and it is also merged.",
+  "zh": "我们可以看到有一个与之关联的 PR，并且它也被合并了。"
+ },
+ {
+  "seg": 518,
+  "start": 3212.32,
+  "end": 3223.84,
+  "speaker": "Rob Willoughby",
+  "en": "So clicking over to that, we see that 46 minutes ago, so uh 10, 15 minutes after we kick the ticket off, that's when the initial uh PR was opened by Kikimuro, or internal name for the Dark Factory.",
+  "zh": "所以点击那个，我们看到 46 分钟前，也就是在我们踢开工单后 10 到 15 分钟，那是 Kikimuro 打开初始 PR 的时候，也就是 Dark Factory 的内部名称。"
+ },
+ {
+  "seg": 519,
+  "start": 3224,
+  "end": 3228.64,
+  "speaker": "Rob Willoughby",
+  "en": "We see uh CodeRabbit go kick off as well as uh our own internal code tool.",
+  "zh": "我们看到 CodeRabbit 开始启动，以及我们自己的内部代码工具。"
+ },
+ {
+  "seg": 520,
+  "start": 3228.72,
+  "end": 3229.92,
+  "speaker": "Rob Willoughby",
+  "en": "Uh bunch of issues found.",
+  "zh": "嗯发现了一堆问题。"
+ },
+ {
+  "seg": 521,
+  "start": 3230.08,
+  "end": 3231.92,
+  "speaker": "Rob Willoughby",
+  "en": "Kikimuro then responds to it.",
+  "zh": "Kikimuro 然后回应了它。"
+ },
+ {
+  "seg": 522,
+  "start": 3232.08,
+  "end": 3233.68,
+  "speaker": "Rob Willoughby",
+  "en": "Uh Code Rabbit approves it.",
+  "zh": "Code Rabbit 批准了它。"
+ },
+ {
+  "seg": 523,
+  "start": 3233.76,
+  "end": 3239.84,
+  "speaker": "Rob Willoughby",
+  "en": "Then Sahil, who's one of the engineers on our team, as I mentioned, these required human review because they are production touching.",
+  "zh": "然后 Sahil，我们团队的一位工程师，正如我提到的，这些需要人类审查，因为它们涉及生产。"
+ },
+ {
+  "seg": 524,
+  "start": 3240,
+  "end": 3241.84,
+  "speaker": "Rob Willoughby",
+  "en": "He then approved it and merged it.",
+  "zh": "他然后批准了它并合并了它。"
+ },
+ {
+  "seg": 525,
+  "start": 3242,
+  "end": 3251.76,
+  "speaker": "Rob Willoughby",
+  "en": "So the only human touch points on this PR to get something from linear ticket to production is that required human review because it is still production code, and someone clicking the merge button.",
+  "zh": "所以这个 PR 上从 linear 工单到生产环境的唯一人类接触点是那必须的人类审查，因为它仍然是生产代码，以及有人点击合并按钮。"
+ },
+ {
+  "seg": 526,
+  "start": 3252,
+  "end": 3267.84,
+  "speaker": "Simon Maple",
+  "en": "And so that so the fact that Sahil did that was because this was this was flagged or this was marked as something which requires human review because this is a critical system, maybe a production system, or it might not be a production, but it might just be some critical piece of code that we require a human to look at before.",
+  "zh": "所以 Sahil 这样做的事实是因为这是被标记或被标记为需要人类审查的东西，因为这是一个关键系统，也许是一个生产系统，或者它可能不是生产，但它可能只是一段我们需要人类在之前查看的关键代码。"
+ },
+ {
+  "seg": 527,
+  "start": 3268.08,
+  "end": 3271.6,
+  "speaker": "Simon Maple",
+  "en": "Do you feel like there'll be a stage where we'll fully trust this?",
+  "zh": "你觉得会有一个我们完全信任这个的阶段吗？"
+ },
+ {
+  "seg": 528,
+  "start": 3271.84,
+  "end": 3272.08,
+  "speaker": "Rob Willoughby",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 529,
+  "start": 3272.32,
+  "end": 3272.64,
+  "speaker": "Rob Willoughby",
+  "en": "There will.",
+  "zh": "会有。"
+ },
+ {
+  "seg": 530,
+  "start": 3272.88,
+  "end": 3281.36,
+  "speaker": "Rob Willoughby",
+  "en": "Um I think so one of the things that we are looking to invest more in in the near future is how we do risk classification on PRs.",
+  "zh": "嗯我认为我们在不久的将来要投资更多的事情之一是我们如何对 PR 进行风险分类。"
+ },
+ {
+  "seg": 531,
+  "start": 3281.6,
+  "end": 3291.04,
+  "speaker": "Rob Willoughby",
+  "en": "Um I would love us to get to a point where we are able to merge straight to production for low-risk PRs according to that classification.",
+  "zh": "嗯我希望我们能达到一个点，我们能够根据该分类将低风险 PR 直接合并到生产环境。"
+ },
+ {
+  "seg": 532,
+  "start": 3291.28,
+  "end": 3304.88,
+  "speaker": "Rob Willoughby",
+  "en": "And the way that we think about that classification, like a lot of else at TESL, is what is the human visible mechanism for being able to encode that so that we can then reason over it rather than an opaque classifier model that's doing a binary classification?",
+  "zh": "我们考虑那种分类的方式，就像在 TESL 的其他很多事情一样，是能够编码它的人类可见机制是什么，以便我们能够对其进行推理，而不是一个进行二元分类的不透明分类器模型？"
+ },
+ {
+  "seg": 533,
+  "start": 3305.12,
+  "end": 3312.4,
+  "speaker": "Rob Willoughby",
+  "en": "What is the skill we can give to the agent that encodes the things that we think are important so that we can then tune that to that specific risk level?",
+  "zh": "我们可以给智能体什么技能，来编码我们认为重要的东西，以便我们可以将其调整到那个特定的风险水平？"
+ },
+ {
+  "seg": 534,
+  "start": 3312.64,
+  "end": 3320.88,
+  "speaker": "Rob Willoughby",
+  "en": "And so something like this uh probably would be auto-merge at some point in the future because it is a user visible, but it is just a documentation change.",
+  "zh": "所以像这样的东西可能会在未来的某个时候自动合并，因为它是用户可见的，但它只是一个文档更改。"
+ },
+ {
+  "seg": 535,
+  "start": 3321.12,
+  "end": 3327.36,
+  "speaker": "Rob Willoughby",
+  "en": "Doing a full database migration, I still think that one actually might be because that's easy to verify uh mechanicalistically.",
+  "zh": "进行完整的数据库迁移，我仍然认为那实际上可能是因为那很容易通过机械方式验证。"
+ },
+ {
+  "seg": 536,
+  "start": 3327.52,
+  "end": 3333.84,
+  "speaker": "Rob Willoughby",
+  "en": "Uh in terms of switching over what uh infrastructure our pipelines run on, that one might require some human uh in the loop.",
+  "zh": "关于切换我们的管道运行在什么基础设施上，那个可能需要一些人在环。"
+ },
+ {
+  "seg": 537,
+  "start": 3334.32,
+  "end": 3336.64,
+  "speaker": "Rob Willoughby",
+  "en": "But I think we're working towards that goal.",
+  "zh": "但我认为我们正在朝着那个目标努力。"
+ },
+ {
+  "seg": 538,
+  "start": 3337.04,
+  "end": 3349.76,
+  "speaker": "Simon Maple",
+  "en": "So during this podcast, we created two linear tickets that have now had PRs created and have been merged, one into production, one into uh the Dart Factory uh codebase.",
+  "zh": "所以在这个播客期间，我们创建了两个 linear 工单，现在已经创建了 PR 并已被合并，一个进入生产，一个进入 Dart Factory 代码库。"
+ },
+ {
+  "seg": 539,
+  "start": 3350,
+  "end": 3357.52,
+  "speaker": "Simon Maple",
+  "en": "That's two of six to seven hundred pull requests that will be created this uh this week at TESL.",
+  "zh": "这是在 TESL 本周将创建的六到七百个拉取请求中的两个。"
+ },
+ {
+  "seg": 540,
+  "start": 3357.68,
+  "end": 3363.04,
+  "speaker": "Simon Maple",
+  "en": "I think we said we're about 60-70% of all pull requests at TESL being created through the Dart Factory.",
+  "zh": "我想我们说过在 TESL 大约 60-70% 的所有拉取请求是通过 Dart Factory 创建的。"
+ },
+ {
+  "seg": 541,
+  "start": 3363.2,
+  "end": 3364.72,
+  "speaker": "Simon Maple",
+  "en": "What will it take to get that to 100%?",
+  "zh": "要达到 100% 需要什么？"
+ },
+ {
+  "seg": 542,
+  "start": 3365.36,
+  "end": 3369.36,
+  "speaker": "Rob Willoughby",
+  "en": "Uh building trust, um, allowing shifting left.",
+  "zh": "嗯建立信任，嗯，允许左移。"
+ },
+ {
+  "seg": 543,
+  "start": 3369.52,
+  "end": 3373.92,
+  "speaker": "Rob Willoughby",
+  "en": "So actually, stepping back quickly, we think of it in shifting left and shifting right.",
+  "zh": "所以实际上，快速退后一步，我们通过左移和右移来考虑它。"
+ },
+ {
+  "seg": 544,
+  "start": 3374.08,
+  "end": 3382.96,
+  "speaker": "Rob Willoughby",
+  "en": "So from the PR, shifting left is helping engineers create PRs, shifting right is working on the verification of those PRs so that we trust what the output is.",
+  "zh": "所以从 PR 来看，左移是帮助工程师创建 PR，右移是处理这些 PR 的验证，以便我们信任输出是什么。"
+ },
+ {
+  "seg": 545,
+  "start": 3383.44,
+  "end": 3391.76,
+  "speaker": "Rob Willoughby",
+  "en": "Um and we think we have historically focused more on the shifting right to build that initial level of trust of like, hey, the code the agent has done is roughly correct.",
+  "zh": "嗯我们认为我们历史上更专注于右移，以建立那种初步的信任水平，比如，嘿，智能体所做的代码大致是正确的。"
+ },
+ {
+  "seg": 546,
+  "start": 3391.92,
+  "end": 3397.2,
+  "speaker": "Rob Willoughby",
+  "en": "There's always more that we can do, and there's always more that we will do there to kind of improve the quality of the output.",
+  "zh": "我们总是可以做更多，我们在那里也总是可以做更多来提高输出的质量。"
+ },
+ {
+  "seg": 547,
+  "start": 3397.28,
+  "end": 3399.2,
+  "speaker": "Rob Willoughby",
+  "en": "But we think we're in a good enough spot there.",
+  "zh": "但认为我们在那里处于一个足够好的位置。"
+ },
+ {
+  "seg": 548,
+  "start": 3399.44,
+  "end": 3406.24,
+  "speaker": "Rob Willoughby",
+  "en": "Where we really want to be doubling down and investing in is on how do we make this the easiest way to do work at TESIL.",
+  "zh": "我们真正要加倍投资和投入的地方是如何使这成为在 TESIL 工作的最简单方式。"
+ },
+ {
+  "seg": 549,
+  "start": 3406.48,
+  "end": 3414.32,
+  "speaker": "Rob Willoughby",
+  "en": "Um, not just the fastest or the highest throughput or anything along those lines, but where can we bring the Dark Factory into making that even easier than possible?",
+  "zh": "嗯，不仅仅是最快的或最高的吞吐量或类似的任何事情，而是我们在哪里可以把"
+ },
+ {
+  "seg": 550,
+  "start": 3414.48,
+  "end": 3422,
+  "speaker": "Rob Willoughby",
+  "en": "We have our own uh internal Slack bot um that listens ambiently in channels and can file linear tickets for you and all that kind of stuff.",
+  "zh": "我们有自己的 Slack 机器人，它在频道里进行环境监听，并可以为你创建 Linear 工单，以及所有这类事情。"
+ },
+ {
+  "seg": 551,
+  "start": 3422.16,
+  "end": 3428.4,
+  "speaker": "Rob Willoughby",
+  "en": "We want to move or we want to move it into actually being able to propose tickets on linear or being able to do decomposition.",
+  "zh": "我们想要迁移，或者我们想要让它迁移到实际上能够在 Linear 上提出工单，或者能够进行拆解。"
+ },
+ {
+  "seg": 552,
+  "start": 3428.56,
+  "end": 3436.4,
+  "speaker": "Rob Willoughby",
+  "en": "We want to move it into the planning process to be able to help you go from PRD and be there as a coworker to kind of be able to riff ideas off of or something along those lines.",
+  "zh": "我们想要把它迁移到规划流程中，以便能够帮助你从 PRD 开始，作为同事在那里存在，某种程度能够作为即兴构思的对象，或者类似的情况。"
+ },
+ {
+  "seg": 553,
+  "start": 3436.64,
+  "end": 3444.24,
+  "speaker": "Rob Willoughby",
+  "en": "So making it so that the default is the Direct Factory, not because we're enforcing it, but because that's just what people reach to because it's integrated with the tools that they're using every day.",
+  "zh": "所以要让默认情况成为 Direct Factory，不是因为我们要强制执行它，而是因为这只是人们伸手就会用到的，因为它与他们每天使用的工具集成在一起。"
+ },
+ {
+  "seg": 554,
+  "start": 3444.56,
+  "end": 3444.96,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 555,
+  "start": 3445.04,
+  "end": 3454.4,
+  "speaker": "Simon Maple",
+  "en": "Rob, this has been truly, truly fascinating and it's an amazing accomplishment to see how much of an impact this has had on the way we build software at TESL today.",
+  "zh": "Rob，这真的非常非常迷人，看到这对 TESL 如今构建软件的方式产生了多大的影响，这是一个了不起的成就。"
+ },
+ {
+  "seg": 556,
+  "start": 3454.64,
+  "end": 3465.12,
+  "speaker": "Simon Maple",
+  "en": "And for our audience, our listeners, if you wanted to try this out and actually build your own software factory, head to TESL.io for more information about Dart factories and about the TESL agent.",
+  "zh": "对于我们的观众，我们的听众，如果你想尝试一下并实际构建你自己的软件工厂，请访问 TESL.io 以获取关于 Dart factories 和 TESL agent 的更多信息。"
+ },
+ {
+  "seg": 557,
+  "start": 3465.28,
+  "end": 3471.92,
+  "speaker": "Simon Maple",
+  "en": "Load up the Tessel agent just by typing TESL agent at the command line once you've got the TESL CLI installed and just ask it those questions.",
+  "zh": "只要在命令行输入 TESL agent，一旦你安装了 TESL CLI，就可以加载 Tessel agent，并询问它那些问题。"
+ },
+ {
+  "seg": 558,
+  "start": 3472.08,
+  "end": 3473.2,
+  "speaker": "Simon Maple",
+  "en": "Take a look at my environment.",
+  "zh": "看看我的环境。"
+ },
+ {
+  "seg": 559,
+  "start": 3473.28,
+  "end": 3481.84,
+  "speaker": "Simon Maple",
+  "en": "What can I do to improve this and how can I add these verifiers, these these you know, the plug-in reviews, the the pieces into the CI and the code reviews.",
+  "zh": "我能做些什么来改进这个，以及我该如何添加这些验证器，这些，你知道，插件审查，这些组件到 CI 和代码审查中。"
+ },
+ {
+  "seg": 560,
+  "start": 3482.08,
+  "end": 3483.44,
+  "speaker": "Simon Maple",
+  "en": "This is absolutely amazing.",
+  "zh": "这绝对太棒了。"
+ },
+ {
+  "seg": 561,
+  "start": 3483.52,
+  "end": 3486.64,
+  "speaker": "Simon Maple",
+  "en": "It's definitely the the the next level of software development.",
+  "zh": "这绝对是软件开发的一个新台阶。"
+ },
+ {
+  "seg": 562,
+  "start": 3486.8,
+  "end": 3488.16,
+  "speaker": "Simon Maple",
+  "en": "Rob, it's been an absolute pleasure.",
+  "zh": "Rob，这绝对是种享受。"
+ },
+ {
+  "seg": 563,
+  "start": 3488.24,
+  "end": 3488.8,
+  "speaker": "Simon Maple",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 564,
+  "start": 3489.04,
+  "end": 3489.92,
+  "speaker": "Simon Maple",
+  "en": "Thank you, it's been fun.",
+  "zh": "谢谢你，这很有趣。"
+ },
+ {
+  "seg": 565,
+  "start": 3490.16,
+  "end": 3492.48,
+  "speaker": "Simon Maple",
+  "en": "I hope everyone learned something today and thanks for listening.",
+  "zh": "我希望大家今天学到了一些东西，并感谢收听。"
+ },
+ {
+  "seg": 566,
+  "start": 3492.64,
+  "end": 3493.68,
+  "speaker": "Simon Maple",
+  "en": "Tune into the next episode.",
+  "zh": "请收看下一集。"
+ },
+ {
+  "seg": 567,
+  "start": 3493.84,
+  "end": 3494.72,
+  "speaker": "Simon Maple",
+  "en": "Bye for now.",
+  "zh": "再见。"
+ },
+ {
+  "seg": 568,
+  "start": 3495.04,
+  "end": 3499.92,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is brought to you by TESL, the package manager for Skills and Context.",
+  "zh": "The AI Native Dev 由 TESL 为您呈现，TESL 是 Skills 和 Context 的包管理器。"
+ },
+ {
+  "seg": 569,
+  "start": 3500,
+  "end": 3503.04,
+  "speaker": "Simon Maple",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "我们的主持人是 Guy Pajani 和我，Simon Maple。"
+ },
+ {
+  "seg": 570,
+  "start": 3503.12,
+  "end": 3504.8,
+  "speaker": "Simon Maple",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人是 Tom Dowler。"
+ },
+ {
+  "seg": 571,
+  "start": 3504.96,
+  "end": 3508.24,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "The AI Native Dev 不仅仅是一个播客，它是一个社区。"
+ },
+ {
+  "seg": 572,
+  "start": 3508.32,
+  "end": 3511.84,
+  "speaker": "Simon Maple",
+  "en": "And we host monthly meetups at the TESL offices in central London.",
+  "zh": "我们在伦敦市中心的 TESL 办公室举办每月聚会。"
+ },
+ {
+  "seg": 573,
+  "start": 3511.92,
+  "end": 3516.88,
+  "speaker": "Simon Maple",
+  "en": "Visit TESL.io forward slash community to learn more, and I hope to see you there.",
+  "zh": "访问 TESL.io/forward slash community 以了解更多信息，我希望能在那里见到你。"
+ }
+]

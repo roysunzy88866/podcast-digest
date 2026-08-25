@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daytona</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Daytona">DA</div><div class="pi"><h1 class="pt">Daytona</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Daytona">DA</div><div class="pi"><h1 class="pt">Daytona</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(00:04起):本集将其描述为提供「面向智能体的可组合计算机(composable computers for agents)」的公司。它直接运行在裸金属(bare metal)上以提供极快的速度,支持动态调整大小和有状态快照。目前正秘密押注 computer use(计算机使用),以争夺 Windows/macOS 等老旧系统自动化的庞大市场。
+- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]]**(17:46起):本集说编码智能体运行在 Daytona 沙箱中，使用它是为了隔离和安全保证，运行在 TESL 自己的内部 Daytona 环境里
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ivan Burazin]] · [[Cognition]] · [[Neon]] · [[Parallel]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
+[[智能体]] · [[沙箱]] · [[Ivan Burazin]] · [[Rob Willoughby]] · [[Cognition]] · [[Guy Pajani]] · [[Neon]] · [[Simon Maple]] · [[Parallel]] · [[暗工厂]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Cognition":7,"Neon":2,"Parallel":3,"智能体":124,"沙箱":23,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"沙箱":25,"Ivan Burazin":1,"Rob Willoughby":1,"Cognition":7,"Guy Pajani":3,"Neon":2,"Simon Maple":4,"Parallel":4,"暗工厂":2}</script>
 
 <script>
 (function(){

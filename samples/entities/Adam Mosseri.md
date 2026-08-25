@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Instagram":3,"TikTok":1,"Anthropic":64,"Facebook":9,"open ai":2,"Twitter":5,"Reels":2,"Stories":2,"pods":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Instagram":3,"TikTok":1,"Anthropic":65,"Facebook":9,"open ai":2,"Twitter":5,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

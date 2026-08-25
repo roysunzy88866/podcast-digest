@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(00:00起):本集把它说成：占据全美新公司注册 25% 份额的支付巨头，其平台上新企业创建率同比飙升近两倍，揭示了创业大爆发的真实数据。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(06:10起):本集作为主办方多次提及，对比说 Stripe 把复杂的支付变得极其简单、对开发者友好，而伟大的软件公司都需要极深的工艺沉淀。
 - **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(09:31起):本集说它是 Alan 的供应商，提供基础设施；从 Alan 成立第一天起就陪伴其发展，并在这场 Stripe Tour 活动中作为主办方对谈。
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(21:53起):本集提到 Stripe 作为外部采用案例，用智能体编码工具做了整个代码库重写，原本需要几周或几个月的工作在几天或几小时内完成
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(28:36起):本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -47,6 +48,7 @@ unlisted: true
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为被讨论公司(提及)
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
@@ -61,9 +63,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[AI]] · [[Vercel]] · [[ChatGPT]] · [[Claude]] · [[PLG]] · [[Patrick Collison]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[AI]] · [[Vercel]] · [[ChatGPT]] · [[推理]] · [[Claude]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":58,"智能体":124,"Lenny":65,"Anthropic":64,"AI":9,"Vercel":9,"ChatGPT":33,"Claude":31,"PLG":4,"Patrick Collison":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"OpenAI":59,"Anthropic":65,"Lenny":65,"AI":9,"Vercel":9,"ChatGPT":34,"推理":1,"Claude":32,"PLG":4}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Daytona]] · [[Reynold Xin]] · [[Cognition]] · [[Databricks]] · [[Parallel]] · [[Snowflake]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"Ivan Burazin":1,"Matei Zaharia":1,"Daytona":1,"Reynold Xin":1,"Cognition":7,"Databricks":5,"Parallel":3,"Snowflake":4,"沙箱":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"Ivan Burazin":1,"Matei Zaharia":1,"Daytona":2,"Reynold Xin":1,"Cognition":7,"Databricks":5,"Parallel":4,"Snowflake":4,"沙箱":25}</script>
 
 <script>
 (function(){

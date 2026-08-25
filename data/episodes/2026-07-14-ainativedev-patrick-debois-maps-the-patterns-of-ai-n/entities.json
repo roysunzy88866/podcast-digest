@@ -1,0 +1,1005 @@
+{
+  "episode_id": "2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-07-14",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "DevOps",
+    "组织变革",
+    "成本管理"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "guy-pajani",
+      "type": "person",
+      "role": "host",
+      "name": "Guy Pajani",
+      "file": "Guy Pajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            42,
+            52.24
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2840.24,
+            2843.28
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "patrick-debois",
+      "type": "person",
+      "role": "cohost",
+      "name": "Patrick Debois",
+      "file": "Patrick Debois",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            42,
+            52.24
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2840.24,
+            2843.28
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dark-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "暗工厂 (dark factory)",
+      "file": "暗工厂",
+      "primary": true,
+      "how_described": "本集把它说成一种让 AI 全自动写代码的模式，技术上完全行得通，但组织还没跟上，提到这个词就像亵渎",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.16,
+            3.68
+          ],
+          "quote": "When you mention the word dark factory, it's like blasphemy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            666.08,
+            670.88
+          ],
+          "quote": "And I think when you mentioned the word dark factory, it's like blasphemy, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            911.44,
+            930.88
+          ],
+          "quote": "But then the second category is the platform, which I feel the more we're heading into reusable components, whether that's context or harness or the centralized pipeline of the Dark Factory, I have a belief that that will be something provided by a platform team or the developer uh experience team as a central piece.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1897.28,
+            1902.48
+          ],
+          "quote": "So all of a sudden saying you're going to the dark factory, like people are like scrambling, they can't do that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成执行编码任务的主角，讨论了智能体循环（agent loop）、智能体的智能体（agents of agents）以及编码智能体（coding agent）的评估与验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            372.4,
+            379.28
+          ],
+          "quote": "So for me, level zero, technical agent enablement, this is the whole conference, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            501.36,
+            507.2
+          ],
+          "quote": "Where we might now see things is, but um, how do we prove that the agent did the right thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            560.32,
+            571.12
+          ],
+          "quote": "Uh, but you can also see some it's it's not it wasn't unpredictable that we'll reach in kind of the you know an agent loop, agents of agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1056.32,
+            1062.24
+          ],
+          "quote": "And then it has a different way for a proxy, how you do evals, it's not the model, it is the coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1154.8,
+            1171.2
+          ],
+          "quote": "So I believe this will go on its own path, where maybe some of the latest trends are that after your harness has done things, it's the job of the agent to uh uh convince you that it did the right thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1252.88,
+            1280.16
+          ],
+          "quote": "Is that just because you would expect um someone who is reviewing it to want to look through the code and understand well it might not even be the code, but the fact that they can verify certain features of the um API of the website more easily, that there's screenshots, that there's like uh you know recordings of what the agent clicked on, and so there's a lot more visually interaction than you would say, like here's a checklist in my my terminal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2250,
+            2267.68
+          ],
+          "quote": "And the measurement there is how many touches does the human still need to do for an agent to do the right thing, and so kind of measuring that becomes more effective than measuring uh you know, kind of adoption just by having license counts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2302,
+            2316.72
+          ],
+          "quote": "So a lot of the conversations that we've had here, it kind of like reminds me of um some of the work that we're doing on Tesla Agent, which is which is you know really maps nicely to some of the ways that we that you're talking about the growth and the scaling.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2339.12,
+            2359.76
+          ],
+          "quote": "Now, Tesla Agent, of course, uh is is an agent that allows you to uh to really make those changes well, not just um you know you allowing the agent to make those changes with your guidance, but also based on facts from logs and pull requests that have been uh historically done in those projects.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2359.92,
+            2374.56
+          ],
+          "quote": "Um so that that feels like a really strong way to kind of like map Tesla Agent to some of those things, but also the way that Tesla Agent doesn't try and provide you with a software factory out of the box.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2610.64,
+            2616.4
+          ],
+          "quote": "So instead of it saying it the agent got better now, is it actually useful for that?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集把它说成个体开发者在 agentic development 中最初级的阶段，即凭感觉写提示词让 AI 生成代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            883.28,
+            895.92
+          ],
+          "quote": "So I think I I kind of settled into these different groups where you know, agentic development, uh everything maybe more what the solo developer is doing, so from vibe coding, spec coding, all the way up to a dire factory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成一种约束和引导智能体的框架，是 AI 编码技术堆栈中从规范（spec）到循环（loop）之间的关键层，需要回归测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            280.32,
+            298.72
+          ],
+          "quote": "And I feel right now um a little bit of the technology, I'm not saying it's maturing because that's a broad overstatement, but we're we kind of get a sense of direction now within AI coding, how it's going, you know, from context to harness to loop to kind of what is mentioned, loop craft, loops of loops, and and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            338.96,
+            353.68
+          ],
+          "quote": "I can see that already a little bit like happening, maybe more in a shared component, like a platform team who's kind of taking there, like the if the loop of loops evaluates to a harness and that becomes the more of a factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            758.08,
+            768.4
+          ],
+          "quote": "If I had like my own context to it, like my curation, my taste, my harness, it would be say, well, not vendors or kind of like things or like it has to have four voices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            911.44,
+            930.88
+          ],
+          "quote": "But then the second category is the platform, which I feel the more we're heading into reusable components, whether that's context or harness or the centralized pipeline of the Dark Factory, I have a belief that that will be something provided by a platform team or the developer uh experience team as a central piece.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1096.48,
+            1109.44
+          ],
+          "quote": "So I was thorn between putting quality and security in a separate section where on the one hand, it does belong in agentic development in the harness, in the specification as non-functional, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1131.04,
+            1141.2
+          ],
+          "quote": "Now, harness and loop kind of changed that a little bit, but there's still QA testing, there's the code security, so all the kind of non-functionals probably belong in its category.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1154.8,
+            1171.2
+          ],
+          "quote": "So I believe this will go on its own path, where maybe some of the latest trends are that after your harness has done things, it's the job of the agent to uh uh convince you that it did the right thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1400.16,
+            1408.8
+          ],
+          "quote": "So one thing I would say is that a skeptical person get them actually to write the context and have them build a harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1448.4,
+            1456.96
+          ],
+          "quote": "For me, harness engineering and loop engineering maybe click that that requires a technical component to be built.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1457.28,
+            1464.64
+          ],
+          "quote": "So maybe the people who didn't sign up only for kind of the context, they will be working on the harness and the loops and kind of working on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1464.8,
+            1478.16
+          ],
+          "quote": "So that kind of maybe caters for both audiences who were okay to jump, maybe more in requirements and now if you scale this out into an org, the question is how many people will work on the harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1879.68,
+            1890.64
+          ],
+          "quote": "Um you have to have gone through a little bit of the prompt engineering to know, oh, I need more specifications, I need more kind of context, I need more uh harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2426.16,
+            2447.2
+          ],
+          "quote": "So, and and I think part of what you see with the agents, whether that's your your skills optimizer that you can put in the loop that it makes you better, uh, whether that's your harness tool that detects uh things you're doing over and over again that could benefit maybe from better context or becoming a script or a deterministic thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2616.56,
+            2649.36
+          ],
+          "quote": "So I think the way you have to look at air or and and cost management is you know, I need to have a budget for people learning, and I need to have a budget that's useful, but the constraint of a budget should actually drive you in optimizing that loop because a lot of the people are blindly spending tokens, they're using Biggest model out of things, they are doing the same thing over and over where there could have been a context change or a harness change that would save them a lot of tokens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "loop-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环工程 (loop engineering)",
+      "file": "循环工程",
+      "primary": true,
+      "how_described": "本集把它说成智能体自我循环执行的技术方向，是 harness 之上的更高级层，行业已经在聊但大多数人还不知道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            406.4,
+            415.92
+          ],
+          "quote": "Because every single time we try and get used to something, there's something else that changes, whether it's prompts that we need to start looking at, then it's context, then it's harnesses, then it's you know, loop engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            807.68,
+            814.48
+          ],
+          "quote": "Uh, because first of all, imagine you would do a survey now in an organization about loop engineering, everybody's like, uh what?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1448.4,
+            1456.96
+          ],
+          "quote": "For me, harness engineering and loop engineering maybe click that that requires a technical component to be built.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把它说成 AI 编码技术堆栈的基础层之一，一次上下文改进能影响所有团队，是共享组件的核心部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            280.32,
+            298.72
+          ],
+          "quote": "And I feel right now um a little bit of the technology, I'm not saying it's maturing because that's a broad overstatement, but we're we kind of get a sense of direction now within AI coding, how it's going, you know, from context to harness to loop to kind of what is mentioned, loop craft, loops of loops, and and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            406.4,
+            415.92
+          ],
+          "quote": "Because every single time we try and get used to something, there's something else that changes, whether it's prompts that we need to start looking at, then it's context, then it's harnesses, then it's you know, loop engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            462.96,
+            470.72
+          ],
+          "quote": "Um, yes, harnesses and context will make sense, the loops will be so I I don't think this is changing all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            758.08,
+            768.4
+          ],
+          "quote": "If I had like my own context to it, like my curation, my taste, my harness, it would be say, well, not vendors or kind of like things or like it has to have four voices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            911.44,
+            930.88
+          ],
+          "quote": "But then the second category is the platform, which I feel the more we're heading into reusable components, whether that's context or harness or the centralized pipeline of the Dark Factory, I have a belief that that will be something provided by a platform team or the developer uh experience team as a central piece.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1020.96,
+            1026.16
+          ],
+          "quote": "So if one team kind of optimizes it, everybody has an optimization if you add context for those pieces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1392.64,
+            1399.92
+          ],
+          "quote": "I would typically say it is a maturity in a way that you can add more and more rules and context and harnesses to get it in a certain way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1400.16,
+            1408.8
+          ],
+          "quote": "So one thing I would say is that a skeptical person get them actually to write the context and have them build a harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1457.28,
+            1464.64
+          ],
+          "quote": "So maybe the people who didn't sign up only for kind of the context, they will be working on the harness and the loops and kind of working on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1879.68,
+            1890.64
+          ],
+          "quote": "Um you have to have gone through a little bit of the prompt engineering to know, oh, I need more specifications, I need more kind of context, I need more uh harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1928.24,
+            1931.68
+          ],
+          "quote": "Let's move and put all the context and the skills in the repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1934.48,
+            1939.28
+          ],
+          "quote": "All of a sudden, oh, if we do that, we need to have tests, and I don't trust your context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2228.32,
+            2249.92
+          ],
+          "quote": "Because if you that gives the more uh buildup of like people improving the shared context, because one context improvement impacts other teams, and that is a typically another skill from like I can be personally very effective to this is the skill that like helps the whole org, and that's a different measurement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2316.88,
+            2324.16
+          ],
+          "quote": "Um, first of all, if we go back to when you were talking about creating context, sharing that context uh and making that context the best it can be.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2381.68,
+            2398.8
+          ],
+          "quote": "So a big piece of this growing step by step and and and you know, optimizing as much as we can do uh in our context and our skills and things like that, as valuable as that is, we need some level of automation to make sure that this is being done continuously.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2426.16,
+            2447.2
+          ],
+          "quote": "So, and and I think part of what you see with the agents, whether that's your your skills optimizer that you can put in the loop that it makes you better, uh, whether that's your harness tool that detects uh things you're doing over and over again that could benefit maybe from better context or becoming a script or a deterministic thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2616.56,
+            2649.36
+          ],
+          "quote": "So I think the way you have to look at air or and and cost management is you know, I need to have a budget for people learning, and I need to have a budget that's useful, but the constraint of a budget should actually drive you in optimizing that loop because a lot of the people are blindly spending tokens, they're using Biggest model out of things, they are doing the same thing over and over where there could have been a context change or a harness change that would save them a lot of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2835.44,
+            2840.16
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for skills and context.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成验证智能体输出质量的方式，更成熟的做法不只是用 LLM 当裁判，而是建定制化验证工具快速批量确认",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            931.04,
+            944.96
+          ],
+          "quote": "So they have already pieces, maybe the MCP proxy and kind of those parts, but slowly they now have a new uh set of things like you know, centralized evals for everybody, for all the teams, a registry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1056.32,
+            1062.24
+          ],
+          "quote": "And then it has a different way for a proxy, how you do evals, it's not the model, it is the coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1177.68,
+            1182.08
+          ],
+          "quote": "Now, within evals, you have an evolution as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集把它说成大型组织在扩展 AI 编码时需要建立的安全与质量策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            968.24,
+            975.6
+          ],
+          "quote": "Well, we need these guardrails, we need these, we need these policies in place, and and this is all about that kind of like distribution across a large organization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1089.28,
+            1094.64
+          ],
+          "quote": "If you quality and security, it's it's it's painful if you don't know the guardrails and the ways of working.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集把它说成从 DevOps 延伸过来的概念，是自动化的反馈渠道；在 AI 编码中用于成本管理，发现谁在盲目用大模型、谁在重复浪费 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            1041.84,
+            1045.68
+          ],
+          "quote": "They already have the eval system, they already have an observability system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2418,
+            2423.52
+          ],
+          "quote": "But then the whole monitoring became observability, and ultimately that was the feedback channel of the automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2690.96,
+            2697.04
+          ],
+          "quote": "But you need to have like observability for your FinOps, for your coding agents, and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-platform",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体平台 (agentic platform)",
+      "file": "智能体平台",
+      "primary": true,
+      "how_described": "本集把它说成平台团队应提供的共享基础设施，包括集中式上下文、harness、集中评估流程等，让多个团队复用而非各自造轮子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            986.88,
+            998.64
+          ],
+          "quote": "And people who are successful here in the agency development, that that drives the need, the adoption and the usage across an organization, which then mandates, well, we need this agentic platform to be able to support everyone who's doing things in this agency development.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevOps",
+      "file": "DevOps",
+      "primary": true,
+      "how_described": "本集把它说成 AI 编码演进的类比参照：当年说持续交付行不通其实是因为组织没准备好，与现在说暗工厂行不通如出一辙",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            155.92,
+            157.28
+          ],
+          "quote": "Should I mention DevOps?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 40,
+          "t": [
+            157.68,
+            160.96
+          ],
+          "quote": "The uh you're the stepbrother, I think, of DevOps, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            161.12,
+            169.28
+          ],
+          "quote": "Um and AI has really like AI has really gripped you like more than anything else that I've seen since the DevOps days.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            169.36,
+            176.64
+          ],
+          "quote": "Uh and DevOps days I use as a as an uh a pun there on in terms of the the the conference, the set of conferences that you that you built.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            181.04,
+            197.04
+          ],
+          "quote": "So I think I've always taken when there's like a new technology emerging, and so that you know happened actually early on with the internet, with cloud, kind of with kind of the collaboration agile, and then leading to DevOps and then DevSecOps and mobile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            197.12,
+            215.84
+          ],
+          "quote": "So anytime there's something changing, uh, and I would say I I like kind of the this emerging chaotic phase of a new technology, but not just for the technology, but also kind of the impact on the organization and the way we work, like uh, and that's kind of the typical narrative within DevOps is the socio-technical kind of ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            239.6,
+            248.32
+          ],
+          "quote": "Obviously, there were a lot of these changes for cloud, for DevOps, and and and these these types of uh you know motions that that we've experienced.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 103,
+          "t": [
+            646.88,
+            656.88
+          ],
+          "quote": "Um when maybe you know, with the comparison of DevOps, when they said, well, continuous delivery, that doesn't work for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1489.28,
+            1493.6
+          ],
+          "quote": "So there's kind of some things, and it was uh similar to DevOps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1493.76,
+            1502.16
+          ],
+          "quote": "Well, you know, DevOps will automate themselves out of a job, but on the other hand, they could do like things at a scale we didn't imagine before, and then we pull the people back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1742.32,
+            1757.36
+          ],
+          "quote": "So that's why uh it was very similar again with with the DevOps where it were like people in their 30s, 40s that kind of got enough from the scars, learned enough that they were adaptable uh from there that we see here as well, picking it up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            2153.6,
+            2158.8
+          ],
+          "quote": "This is DevOps, this is cloud, this is developer security, it's all the same styles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2409.2,
+            2412.32
+          ],
+          "quote": "Um maybe I'll first say kind of the parallel with DevOps, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "specification",
+      "type": "concept",
+      "role": "concept",
+      "name": "规范 (specification)",
+      "file": "规范",
+      "primary": false,
+      "how_described": "本集把它说成 AI 编码技术堆栈中从提示词进化来的层，是解决输入问题的核心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            1096.48,
+            1109.44
+          ],
+          "quote": "So I was thorn between putting quality and security in a separate section where on the one hand, it does belong in agentic development in the harness, in the specification as non-functional, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1141.36,
+            1151.52
+          ],
+          "quote": "And I think that will lead up to um if we remove kind of the bottleneck from AI coding, we solve the specification problem, which is the input.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1433.6,
+            1439.12
+          ],
+          "quote": "We signed up for the coding, we didn't sign up for a glorified prompter as specification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "continuous-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continuous learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集把它说成知识复利发生的地方，正在成为公司的护城河——你能多快适应新方式（哪怕重写整个代码库）才是核心竞争力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8.4,
+            11.2
+          ],
+          "quote": "The continuous learning is where the knowledge compounds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2485.76,
+            2499.6
+          ],
+          "quote": "Uh, but it's it's crucial because I I I often say if you have continuous delivery and everything's automated, and now with AI, you know, another part is being automated, the continuous learning is where the knowledge compounds.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-patterns",
+      "type": "concept",
+      "role": "concept",
+      "name": "agentic patterns",
+      "file": "agentic patterns",
+      "primary": false,
+      "how_described": "本集把它说成 Patrick 建立的研究网站（tesle.io/patterns），将智能体编码的趋势分为个体开发、平台、质量与安全、角色变化、组织扩展五大类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            679.12,
+            691.12
+          ],
+          "quote": "Now I'd love to talk about um a new um initiative that you that you've built up over the recent months uh called the patterns, agentic patterns.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tesl",
+      "type": "company",
+      "role": "company",
+      "name": "TESL",
+      "file": "TESL",
+      "primary": false,
+      "how_described": "本集把它说成播客的赞助商，是技能和上下文的包管理器，Simon 提到其产品 Tesla Agent 可以基于项目历史日志和 PR 事实来优化上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 407,
+          "t": [
+            2835.44,
+            2840.16
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for skills and context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2848.56,
+            2852
+          ],
+          "quote": "And we host monthly meetups at the TESL offices in central London.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2852.16,
+            2857.36
+          ],
+          "quote": "Visit TESL.io forward slash community to learn more, and I hope to see you there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Casado":2,"Anthropic":64,"OpenAI":58,"Google":26,"Microsoft":12,"Amazon":8,"IBM":2,"计算不可约性":1,"抽象层":1,"命令式编程":1}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":2,"Anthropic":65,"OpenAI":59,"Google":27,"Microsoft":12,"Amazon":8,"IBM":2,"计算不可约性":1,"抽象层":1,"命令式编程":1}</script>
 
 <script>
 (function(){

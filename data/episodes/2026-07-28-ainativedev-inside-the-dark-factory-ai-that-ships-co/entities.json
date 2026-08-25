@@ -1,0 +1,1924 @@
+{
+  "episode_id": "2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-07-28",
+  "tags": [
+    "软件工厂",
+    "Dark Factory",
+    "验证器",
+    "代码审查自动化",
+    "智能体工程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "rob-willoughby",
+      "type": "person",
+      "role": "host",
+      "name": "Rob Willoughby",
+      "file": "Rob Willoughby",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            130.56,
+            144.48
+          ],
+          "quote": "Joining me is Rob Willoughby, who is the AI engineering lead at Tesla, and Rob's gonna tell us all about how Tesla uses Dart Factories and software factories internally to create such amazing numbers.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "guy-pajani",
+      "type": "person",
+      "role": "cohost",
+      "name": "Guy Pajani",
+      "file": "Guy Pajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.56,
+            44.72
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3500,
+            3503.04
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.56,
+            44.72
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3500,
+            3503.04
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dark-factory",
+      "type": "company",
+      "role": "company",
+      "name": "Dark Factory",
+      "file": "Dark Factory",
+      "primary": true,
+      "how_described": "本集说 Dark Factory 是 TESL 内部的暗软件工厂，能从 Linear 工单自动产出 PR 并完成合并，周末可为两人自主交付 150 个 PR，其代码库 95% 从未有人类查看",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            7.6
+          ],
+          "quote": "Two weekends ago, um, we had quite a busy Friday, and the Dark Factory ended up shipping 150 PRs for two of us over the course of the weekend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            11.2,
+            18.08
+          ],
+          "quote": "Last time I looked, I think about only 5% of the Dark Factory code base had ever had a human look at the PR and approve it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            126.08,
+            130.32
+          ],
+          "quote": "It's all about the usage of software factories and the dark factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            225.36,
+            236.32
+          ],
+          "quote": "We'll cover a lot of this, and actually during this podcast, we're gonna talk about how uh TESL adopted a Dark Factory, what were the sticking points, what worked, what didn't work, how we overcame them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            236.48,
+            241.12
+          ],
+          "quote": "But for now, let's actually take a look at what a good interaction looks like through the Dark Factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            290.64,
+            292.56
+          ],
+          "quote": "Because it's been delegated to the dark factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            292.64,
+            296
+          ],
+          "quote": "That means that the dark factory is gonna pick it up and go do this implementation for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            296.24,
+            297.6
+          ],
+          "quote": "So that's kicking off the dark factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            297.68,
+            304.96
+          ],
+          "quote": "Just putting that into a to-do, the dark factory recognizes there's a hand over there, and it kicks off uh a new container where it can kind of like do all that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            307.68,
+            312.4
+          ],
+          "quote": "The second ticket is one that is targeting our dark factory itself, Hernis slash Kikimura.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            333.28,
+            338.72
+          ],
+          "quote": "So because this is uh within our own dark factory, we have a policy of auto-merging everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            350,
+            355.6
+          ],
+          "quote": "This means that as soon as the dark factory is done creating it, it will go through PR cycle process using bots, of course.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            437.6,
+            442.56
+          ],
+          "quote": "Uh, mind you, this is including uh pull requests that are building the dark factory using the dark factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            447.68,
+            460.64
+          ],
+          "quote": "Um the last time that I looked for the production part of our code base, so the stuff that is serving the registry, our web UI, um our CLI, all of that kind of stuff, we are at about 40% of production PRs were raised using the Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            464.64,
+            477.36
+          ],
+          "quote": "Because they just our policy is that we only allow auto merge on um stuff that is in our research code base, stuff that is in our dark factory code base, and stuff that um our GTM team is building uh using the Dark Factory to help uh build out their own internal flows too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            478.64,
+            480.56
+          ],
+          "quote": "Does the Dark Factory work while we sleep?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            512.24,
+            521.28
+          ],
+          "quote": "I think uh two weekends ago, um, we had quite a busy Friday, and the Dark Factory ended up shipping 150 PRs uh for two of us uh over the course of the weekend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.2,
+            534.56
+          ],
+          "quote": "So TESL didn't always use a dark factory, of course.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            534.64,
+            540.48
+          ],
+          "quote": "Uh what was the uh engineering styles and culture pre-you building the dark factory?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            837.36,
+            858.72
+          ],
+          "quote": "Let's uh let's jump through what a dark factory is component by component, and to and and I'd love for you to walk us through how we started on this dark factory journey, what we implemented first, and and Yeah, you know, really understanding that path so that others can kind of follow and understand uh what they should do first.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            858.88,
+            863.76
+          ],
+          "quote": "So when we first tried to build this dark factory, what were the initial steps that we took?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 159,
+          "t": [
+            978.72,
+            990.4
+          ],
+          "quote": "Everything must flow through linear if it's going to result in a durable artifact uh that is oriented that is a PR in our code base, or a Notion Doc, or any of the other artifacts that are produced by the Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1361.36,
+            1366.32
+          ],
+          "quote": "So we're not saying give the dark factory your Q1 plans and it will go do all of that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1366.48,
+            1374.32
+          ],
+          "quote": "We're saying give the dark factory a well-scoped linear ticket like you would to a junior or mid-level engineer, um, and it will go implement that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1393.12,
+            1406.8
+          ],
+          "quote": "Your job is have the whiteboarding conversation with your colleagues, capture that either as like a granola transcript or a screenshot or whatever, and then work with an agent to then translate that into a set of tickets that the Dark Factory can then go implement for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1776.88,
+            1782.96
+          ],
+          "quote": "What is actually the biggest thing that I can give to the dark factory and see it produce something that is relatively valid as a result?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1790.56,
+            1798.4
+          ],
+          "quote": "We're asking people to trust that something that is kind of hidden, it's called a dark factory because we're not looking at the logs as it's kind of operating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1816.16,
+            1820.08
+          ],
+          "quote": "Like we're not saying ah, you can abjugate all responsibility because the Dark Factory did it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1913.6,
+            1921.12
+          ],
+          "quote": "Last time I looked, I think about only 5% of the uh Dark Factory code base had ever had a human look at the PR and approve it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1942.72,
+            1945.04
+          ],
+          "quote": "And that and that 95% that is of the dark factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1949.2,
+            1954.16
+          ],
+          "quote": "Again, we have human review required there, so that has been looked at, but it's for the dark factory itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2098.56,
+            2106.56
+          ],
+          "quote": "Uh took me about a day with Fable and then using the Dark Factory to go implement this, and we've had absolutely zero reoccurrences of that after the fact.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2276.4,
+            2289.12
+          ],
+          "quote": "And so that's an area where we want to be investing in in terms of getting the dark factory to be able to make non-destructive changes in production environments, um, or at least the sandbox environment first and then eventually production environments to take the human out of the loop there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2409.36,
+            2432.64
+          ],
+          "quote": "Uh so so uh you know, when we would we be able to now with the dark factory that we've got now, if we had a new um team that had never used the dark factory, do you feel like they'll be able to just like on one on you know day zero just switch in directly to a to a scenario where they're using a dark factory, or do you feel like they would need to grow into it like layer by layer, piece by piece?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2432.96,
+            2440.72
+          ],
+          "quote": "Uh so we had a new starter who on day two was adding verifiers to the dark factory, which as I was just saying is one of the most important parts of the dark factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2572.32,
+            2577.52
+          ],
+          "quote": "Like we're gonna turn on dark factory and start building this way, or is that something that should happen gradually in layers?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2578.24,
+            2586.24
+          ],
+          "quote": "So I've been talking a lot about what we're doing with building the dark factory, but as I mentioned, like we intentionally tried to front run a lot of these issues here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2586.4,
+            2594.8
+          ],
+          "quote": "What we've been doing with the rest of the production code base is that kind of incremental adoption because we're not gonna come out and say, hey, everyone at Cecil, you must use the Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2594.96,
+            2605.52
+          ],
+          "quote": "We've gotten to that kind of 65% through or 65% of PRs going through the Dark Factory by convincing people that this is a fun, new, cool way of working that speeds them up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2713.28,
+            2725.04
+          ],
+          "quote": "Again, you can then have something deterministic run that, feed that signal back into a local agent or into a dark factory, and use that to kind of encode preferences in the code base, and then into a gentic review and then kind of levering up in that way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2813.12,
+            2823.36
+          ],
+          "quote": "It's not just kind of like what can I do to make my local agent better, but then can I commit that into the repo in a form that makes all of the agents better and also then gives me the base to build up towards a dark factory future?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2850.08,
+            2857.68
+          ],
+          "quote": "So we think of the Tesla agent kind of as like a natural language interface for being able to build the building blocks of for Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3104.16,
+            3106.48
+          ],
+          "quote": "Let's see if the dark factory's uh done something with them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3107.76,
+            3114.4
+          ],
+          "quote": "This one, as a reminder, is about adding the metrics for where we did the inference geo within the dark factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3123.2,
+            3128.32
+          ],
+          "quote": "Um so we've got the summary from Kikimura, as I mentioned, that's our internal name for our Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3212.32,
+            3223.84
+          ],
+          "quote": "So clicking over to that, we see that 46 minutes ago, so uh 10, 15 minutes after we kick the ticket off, that's when the initial uh PR was opened by Kikimuro, or internal name for the Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3406.48,
+            3414.32
+          ],
+          "quote": "Um, not just the fastest or the highest throughput or anything along those lines, but where can we bring the Dark Factory into making that even easier than possible?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesl",
+      "type": "company",
+      "role": "company",
+      "name": "TESL",
+      "file": "TESL",
+      "primary": true,
+      "how_described": "本集说 TESL 是 Skills 和 Context 的包管理器，Dark Factory 的开发团队所在公司，目前约 65-70% 的 PR 由 Dark Factory 创建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            159.44,
+            163.2
+          ],
+          "quote": "Um so Rob, first of all, um tell us a little bit about what you do at TESL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            163.52,
+            170.56
+          ],
+          "quote": "Yeah, so I run the A engineering team here, which is part of the team that kind of broadly is looking at agents enablement kind of across TESL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            225.36,
+            236.32
+          ],
+          "quote": "We'll cover a lot of this, and actually during this podcast, we're gonna talk about how uh TESL adopted a Dark Factory, what were the sticking points, what worked, what didn't work, how we overcame them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            255.28,
+            270.16
+          ],
+          "quote": "Um so this ticket is one that I prepped beforehand, which has to deal with some uh findings from an audit we did where we can accidentally allow uh data from GitHub repos and uh inject commands into the TESL agent commands that we are showing on the website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.2,
+            534.56
+          ],
+          "quote": "So TESL didn't always use a dark factory, of course.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2741.76,
+            2763.44
+          ],
+          "quote": "The last point on my mind just around the cultural adoption bit, I think the most important thing we've been able to give to the engineers here at TESL is the feeling that they still own the taste and the quality in their code base, and they're not just giving that up to an agent, but that we're trying to help them figure out a way to scale out their taste to all of the agents that will be running on their code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3291.28,
+            3304.88
+          ],
+          "quote": "And the way that we think about that classification, like a lot of else at TESL, is what is the human visible mechanism for being able to encode that so that we can then reason over it rather than an opaque classifier model that's doing a binary classification?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3350,
+            3357.52
+          ],
+          "quote": "That's two of six to seven hundred pull requests that will be created this uh this week at TESL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3357.68,
+            3363.04
+          ],
+          "quote": "I think we said we're about 60-70% of all pull requests at TESL being created through the Dart Factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3445.04,
+            3454.4
+          ],
+          "quote": "Rob, this has been truly, truly fascinating and it's an amazing accomplishment to see how much of an impact this has had on the way we build software at TESL today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3454.64,
+            3465.12
+          ],
+          "quote": "And for our audience, our listeners, if you wanted to try this out and actually build your own software factory, head to TESL.io for more information about Dart factories and about the TESL agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3465.28,
+            3471.92
+          ],
+          "quote": "Load up the Tessel agent just by typing TESL agent at the command line once you've got the TESL CLI installed and just ask it those questions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3495.04,
+            3499.92
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for Skills and Context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3508.32,
+            3511.84
+          ],
+          "quote": "And we host monthly meetups at the TESL offices in central London.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3511.92,
+            3516.88
+          ],
+          "quote": "Visit TESL.io forward slash community to learn more, and I hope to see you there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是编码工作的执行者，在沙箱中隔离运行、完成工单实现，没有人类那种'这是敏感代码'的上下文直觉，因此需要更深入的验证投入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            255.28,
+            270.16
+          ],
+          "quote": "Um so this ticket is one that I prepped beforehand, which has to deal with some uh findings from an audit we did where we can accidentally allow uh data from GitHub repos and uh inject commands into the TESL agent commands that we are showing on the website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            540.88,
+            560.16
+          ],
+          "quote": "So the way I'd framed it was single-player agentic engineering, um, in terms of you had people have their local agent, um, or maybe a cloud agent like Claud Code on the web or cursor agent in the cloud or anything along those lines, but it was still ultimately being driven by an engineer in the interactive human or the interactive driver seat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            560.64,
+            571.44
+          ],
+          "quote": "Um and so you'd figure out with your team what the work you were on to do, you'd then work with an agent to scope that work, do the implementation, test and verify locally, push up and merge the PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            666.64,
+            676.48
+          ],
+          "quote": "Because I can churn out 20 PRs in a day using a local agent, but if we have a policy where every PR needs a human review on it, well then my team needs to go review 20 PRs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            722.88,
+            734.4
+          ],
+          "quote": "It's a very different mindset in terms of you're essentially managing the agent work versus you know essentially feeding on a minute to minute basis the agent with tasks to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 132,
+          "t": [
+            754.08,
+            770.8
+          ],
+          "quote": "And then how do I make sure that the stuff that I care about, either like the correctness or the UI verification or the clicking the buttons or hitting at the endpoints or whatever it is that kind of I is important to me, how do I make sure that's encoded in a way where I trust that it's gonna get done and the the agent is gonna do it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            928.32,
+            932.96
+          ],
+          "quote": "Aaron Powell So the orchestrator isn't here an agent orchestrator, it's essentially almost like a workflow orchestrator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            942,
+            952.16
+          ],
+          "quote": "And so our journey started with basically a Python queue that connected to Linear and connected to uh GitHub and ran an agent locally in a Docker's handbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1031.28,
+            1034.8
+          ],
+          "quote": "Uh that then gets farmed out to a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1056.64,
+            1061.36
+          ],
+          "quote": "And so an agent will go check in on how that ticket is going or what the PR was associated with that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1087.92,
+            1096.64
+          ],
+          "quote": "So basically everything that a local engineer can do on their machine, modulo creds that the local engineer has access to that we don't give to the agent, we want the agent to be able to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1096.8,
+            1110.08
+          ],
+          "quote": "This allows the agent to run our full test suite, including integration tests, uh spin up the monorepo, click around on a UI, click around on basically anything that we could do be doing for validation and testing, all in their own virtual environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1113.04,
+            1125.92
+          ],
+          "quote": "One really interesting uh benefit of that is that we've now been able to have the agent post videos and screenshots back onto the PR so that we as humans can go manually verify the work without needing to actually SSH on the box and go click the buttons ourselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1142.16,
+            1147.52
+          ],
+          "quote": "So uh once the coding agent is done, pass a couple pre-commit hooks, pushes up a PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1160.8,
+            1163.92
+          ],
+          "quote": "One is CodeRabbit, one is our own internal code review agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1192.88,
+            1196.72
+          ],
+          "quote": "Um, and we are using that as signals on the PR for the agent to go fix.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1214.8,
+            1222.8
+          ],
+          "quote": "The orchestrator is watching the PR, and so we'll re-wake the agent when those comments are uh passed back, and the agent then goes fixes them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1248.72,
+            1262.08
+          ],
+          "quote": "Uh going from a linear ticket to orchestrator to coding agent unboxed to PR to a bunch of cycles on the PR review between automated bots and uh CI checks uh back to the agent until it gets to a state that is good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1319.2,
+            1333.76
+          ],
+          "quote": "So it's uh And and and let's talk a little bit about each step there because you know if if we were to um you know ask an agent to do various things, whether it's coding, whether it's design, whether it's a bit of architecture work or whatever, at the various stages, it's not always going to get it right.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1393.12,
+            1406.8
+          ],
+          "quote": "Your job is have the whiteboarding conversation with your colleagues, capture that either as like a granola transcript or a screenshot or whatever, and then work with an agent to then translate that into a set of tickets that the Dark Factory can then go implement for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1556.16,
+            1565.68
+          ],
+          "quote": "In terms of the this, you know, the the the task that the agent is trying to do as part of that verifier, um it sounds like the scope is much, much smaller as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1656.4,
+            1658.72
+          ],
+          "quote": "Uh and they're not quick, but like an agent can write it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1749.12,
+            1762.72
+          ],
+          "quote": "I think there was definitely a bit of a kind of bias internally going from kind of going from a philosophy of I've got to be their babysitting the coding agent to I shoot, I'm I can't even look at the logs for this because it's running on a sandbox in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2016.88,
+            2022.4
+          ],
+          "quote": "And so they would end up on the queue twice, and so you would get a agent in two different sandboxes responding to the queue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2033.76,
+            2042.4
+          ],
+          "quote": "And the queue here, just for context of what the queue is, the queue is the list of tasks that the orchestrator needs to pull to then pass to an agent or do something with or something.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2091.12,
+            2094.8
+          ],
+          "quote": "Um that took I wouldn't have known how to do that in pre-agent world, just flat out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2208.72,
+            2213.92
+          ],
+          "quote": "And we gave that to a coding agent to then go plan out and uh building that in Elixir from scratch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2272.96,
+            2276.24
+          ],
+          "quote": "And so then I had to manually babysit an agent to go do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2346.56,
+            2356.32
+          ],
+          "quote": "But I think it actually allows you to write idiomatic code better because our Elixir implementation, I'm not Elixir expert, so this is entirely LLM as a judge, agent vibed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2627.6,
+            2639.84
+          ],
+          "quote": "Like people, companies, organizations, I think really need to be much more intentional about the context in the repo, um, because that is ultimately what goes into the agent, which ultimately, in my mind and part of my kind of belief of where the value is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2684,
+            2697.28
+          ],
+          "quote": "Um, because that mechanism will both help build in adoption kind of from your internal engine, because hey, your agent now is producing better work without you needing to take kind of the reins and guide it through that, as well as fully producing higher quality uh outputs over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2713.28,
+            2725.04
+          ],
+          "quote": "Again, you can then have something deterministic run that, feed that signal back into a local agent or into a dark factory, and use that to kind of encode preferences in the code base, and then into a gentic review and then kind of levering up in that way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2741.76,
+            2763.44
+          ],
+          "quote": "The last point on my mind just around the cultural adoption bit, I think the most important thing we've been able to give to the engineers here at TESL is the feeling that they still own the taste and the quality in their code base, and they're not just giving that up to an agent, but that we're trying to help them figure out a way to scale out their taste to all of the agents that will be running on their code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2813.12,
+            2823.36
+          ],
+          "quote": "It's not just kind of like what can I do to make my local agent better, but then can I commit that into the repo in a form that makes all of the agents better and also then gives me the base to build up towards a dark factory future?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2837.44,
+            2849.04
+          ],
+          "quote": "Um but the Tesla agent, of course, while it can be a great interface to a lot of those uh functionalities and capabilities, the Tesla agent can help here as well in doing a lot of what you just said, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2850.08,
+            2857.68
+          ],
+          "quote": "So we think of the Tesla agent kind of as like a natural language interface for being able to build the building blocks of for Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2878.72,
+            2885.6
+          ],
+          "quote": "Um and so all of these kind of like core primitives are baked into the Tesla agent and the Tesla agent knows how to set them up in your repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2914.96,
+            2922.08
+          ],
+          "quote": "And so Tesla Agent will then walk you through how do I can set this up in your repo using your context, using your way of doing it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2928.24,
+            2940
+          ],
+          "quote": "Um, and so we can then uh Tesla agent can then work with you to be like, cool, I want to do a review of all of the PRs that have landed in this repo every single week and derive verifiers from those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2940.32,
+            2942.08
+          ],
+          "quote": "Tesla Agent can do that with you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2963.76,
+            2965.12
+          ],
+          "quote": "Tesla Agent will do that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2977.52,
+            2978.96
+          ],
+          "quote": "I'll start up Tesla Agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3031.92,
+            3033.92
+          ],
+          "quote": "Like get the agent to suggest you a loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3048,
+            3058.88
+          ],
+          "quote": "Um, and so working with the agent to figure out kind of what the highest either highest value loop is uh for you to still then be human in the loop, or highest value that you're comfortable running autonomously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            3059.04,
+            3072.16
+          ],
+          "quote": "Because it's a really interesting and cool feeling to be able to wake up and see, hey, we call them maintenance agents internally, hey, my maintenance agent ran overnight, identified three issues, filed PRs, they're all in auto merge, and they haven't landed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            3083.6,
+            3085.28
+          ],
+          "quote": "And then maintenance agent goes and does that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            3086.48,
+            3088.48
+          ],
+          "quote": "So that's available in Tesla Agent right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 491,
+          "t": [
+            3088.56,
+            3098.4
+          ],
+          "quote": "So if you have the Tesla CLI installed, just type Tesla Agent and the CLI on the terminal and you'll uh you'll you'll drop into that uh it'll drop into that environment and you can ask those uh ask those prompts straight away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3305.12,
+            3312.4
+          ],
+          "quote": "What is the skill we can give to the agent that encodes the things that we think are important so that we can then tune that to that specific risk level?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3383.44,
+            3391.76
+          ],
+          "quote": "Um and we think we have historically focused more on the shifting right to build that initial level of trust of like, hey, the code the agent has done is roughly correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3454.64,
+            3465.12
+          ],
+          "quote": "And for our audience, our listeners, if you wanted to try this out and actually build your own software factory, head to TESL.io for more information about Dart factories and about the TESL agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3465.28,
+            3471.92
+          ],
+          "quote": "Load up the Tessel agent just by typing TESL agent at the command line once you've got the TESL CLI installed and just ask it those questions.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "verifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (verifier)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "本集说验证器是自然语言单句陈述，能对特定代码片段给出是/否布尔判断，由 LLM 充当裁判；是三层验证塔的中间层，可从代码审查评论中自动晋升生成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1556.16,
+            1565.68
+          ],
+          "quote": "In terms of the this, you know, the the the task that the agent is trying to do as part of that verifier, um it sounds like the scope is much, much smaller as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1610.96,
+            1613.6
+          ],
+          "quote": "And we also run one LLM call per verifier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1633.2,
+            1641.28
+          ],
+          "quote": "The other kind of principle that we have is anything that is a verifier that we can make deterministic, fully deterministic, well then we should make that deterministic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1720.32,
+            1732.72
+          ],
+          "quote": "If I look at a verifier, it's much easier for me to reason about that than to read a long skill.md and figure out uh is this thing going to be correctly weighted for something that I think is really important against all of the other compounding trade-offs that it might have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1983.92,
+            1997.44
+          ],
+          "quote": "It is, okay, cool, what we missed on the verification side that allowed this to land, either in a verifier if it's a human concept, or on tests if it's something bad, so that we can continually fix forward and build those guardrails, earn that trust on the autonomy side that you mentioned.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "orchestrator",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排器 (orchestrator)",
+      "file": "编排器",
+      "primary": true,
+      "how_described": "本集说编排器是工作流编排器而非智能体编排器，从 Linear 轮询工单、按优先级排序后分发给编码智能体，并在 PR 提交后进入'保姆模式'监控审查信号和 CI 结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            871.84,
+            883.04
+          ],
+          "quote": "One is the orchestrator, which is what's actually picking up tickets, um, and then passing it off to coding agents, doing work, and doing the whole babysitting thing in terms of making sure the PR goes through and all that kind of stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            894.08,
+            907.04
+          ],
+          "quote": "But uh we built the first thing first, uh, the orchestrator first, just because that is the tractable thing, that's kind of what we think of when we think of a dark software factory, is the mechanism to go from linear ticket to actually produce code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            928.32,
+            932.96
+          ],
+          "quote": "Aaron Powell So the orchestrator isn't here an agent orchestrator, it's essentially almost like a workflow orchestrator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1137.68,
+            1141.92
+          ],
+          "quote": "Um the other bit of the orchestrator is just basically babysitting a PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1214.8,
+            1222.8
+          ],
+          "quote": "The orchestrator is watching the PR, and so we'll re-wake the agent when those comments are uh passed back, and the agent then goes fixes them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1248.72,
+            1262.08
+          ],
+          "quote": "Uh going from a linear ticket to orchestrator to coding agent unboxed to PR to a bunch of cycles on the PR review between automated bots and uh CI checks uh back to the agent until it gets to a state that is good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1313.76,
+            1319.12
+          ],
+          "quote": "So the orchestrator in this sense actually does sound like kind of what a human would do today in in that kind of flow.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2033.76,
+            2042.4
+          ],
+          "quote": "And the queue here, just for context of what the queue is, the queue is the list of tasks that the orchestrator needs to pull to then pass to an agent or do something with or something.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2890.8,
+            2898.48
+          ],
+          "quote": "Everyone probably should build their own orchestrator because it's simple and allows you to then integrate against a whole bunch of uh your own internal systems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说编码智能体运行在 Daytona 沙箱中（内部部署），每个工单一个隔离容器，能拉起完整的单体仓库测试栈包括集成测试和 UI 点击",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            1066.96,
+            1070.16
+          ],
+          "quote": "These agents uh currently for us run in a Daytona sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1749.12,
+            1762.72
+          ],
+          "quote": "I think there was definitely a bit of a kind of bias internally going from kind of going from a philosophy of I've got to be their babysitting the coding agent to I shoot, I'm I can't even look at the logs for this because it's running on a sandbox in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2026.8,
+            2033.36
+          ],
+          "quote": "Sometimes the second sandbox would start up after the first one I already committed, so it would recognize, hey, the work's being done, but we just it wasn't very effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2267.04,
+            2272.88
+          ],
+          "quote": "We weren't able to kind of push out to production, um, even though we run in a sandbox production environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2276.4,
+            2289.12
+          ],
+          "quote": "And so that's an area where we want to be investing in in terms of getting the dark factory to be able to make non-destructive changes in production environments, um, or at least the sandbox environment first and then eventually production environments to take the human out of the loop there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说软件工厂是用智能体自主执行编码工单的系统，Dark Factory 是其内部实现，核心在于验证层而非编排机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            170.72,
+            178.4
+          ],
+          "quote": "And so what our mandate is is really to build and then drive adoption of a dark software factory internally that we use for kind of two main reasons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            894.08,
+            907.04
+          ],
+          "quote": "But uh we built the first thing first, uh, the orchestrator first, just because that is the tractable thing, that's kind of what we think of when we think of a dark software factory, is the mechanism to go from linear ticket to actually produce code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2550.32,
+            2569.92
+          ],
+          "quote": "What about an organization that is trying to that is, you know, perhaps where Tesla was a little while back and not using uh not using a Dart Factory or a software factory and and perhaps uh using the Clauds and Claude Code and Codecs and things like that to assist them to accelerate that building of software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3454.64,
+            3465.12
+          ],
+          "quote": "And for our audience, our listeners, if you wanted to try this out and actually build your own software factory, head to TESL.io for more information about Dart factories and about the TESL agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "formal-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formal verification)",
+      "file": "形式化验证",
+      "primary": true,
+      "how_described": "本集说团队用 Fable 花一天时间建了队列行为的形式化验证模型，每个 PR 都跑这个验证，之后队列竞态条件问题零复发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            2094.88,
+            2098.32
+          ],
+          "quote": "I knew what a formal verification was, wouldn't have known how to actually build it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集说 Linear 是工单的真实来源，所有产出持久工件的工作必须流经 Linear，利用其阻塞关系、子任务、标签等能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            246,
+            254.96
+          ],
+          "quote": "One which requires human interaction, and the other which will go end-to-end without human interaction, starting from a linear ticket all the way through to a completed pull request.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            386.48,
+            389.2
+          ],
+          "quote": "So now we've raised uh two tickets, two linear tickets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            497.6,
+            512.08
+          ],
+          "quote": "Because we respect linear blocking relationships and able to handle kind of subtest and all that kind of stuff, I can actually sequence quite a fair amount of work before I go away for the weekend and come back to not a fundamentally different architecture, but a relatively different architecture over the course of the weekend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            894.08,
+            907.04
+          ],
+          "quote": "But uh we built the first thing first, uh, the orchestrator first, just because that is the tractable thing, that's kind of what we think of when we think of a dark software factory, is the mechanism to go from linear ticket to actually produce code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            933.6,
+            940.72
+          ],
+          "quote": "It's trying it's it's it's connecting, it's an integrator between agents and other tools or other things like Linear as as a good example of.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            942,
+            952.16
+          ],
+          "quote": "And so our journey started with basically a Python queue that connected to Linear and connected to uh GitHub and ran an agent locally in a Docker's handbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            976.56,
+            978.56
+          ],
+          "quote": "Linear is our source of truth for work to be done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            978.72,
+            990.4
+          ],
+          "quote": "Everything must flow through linear if it's going to result in a durable artifact uh that is oriented that is a PR in our code base, or a Notion Doc, or any of the other artifacts that are produced by the Dark Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            995.6,
+            1005.68
+          ],
+          "quote": "And it means that we can then rely on all the work that Linear has done in terms of uh blocking relationships, subtasks, tagging for the reporting and the mechanisms that we need there, and we don't need to build it ourselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1010.48,
+            1016.08
+          ],
+          "quote": "It just hasn't been at top of the priority list because we haven't broken linear yet with our polling, other than earner tests, which I'll mention later.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1016.24,
+            1021.12
+          ],
+          "quote": "Um so we have something that pulls linear for new work delegated to our factory and state to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1236.72,
+            1245.76
+          ],
+          "quote": "So it has the ability to say, hey, I need context, can pause everything and go post that question back on the linear ticket, which then notifies the human.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1248.72,
+            1262.08
+          ],
+          "quote": "Uh going from a linear ticket to orchestrator to coding agent unboxed to PR to a bunch of cycles on the PR review between automated bots and uh CI checks uh back to the agent until it gets to a state that is good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1366.48,
+            1374.32
+          ],
+          "quote": "We're saying give the dark factory a well-scoped linear ticket like you would to a junior or mid-level engineer, um, and it will go implement that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1374.48,
+            1388.08
+          ],
+          "quote": "And so there is an expectation that there has been a fair amount of design work, design thinking, potentially whiteboarding, potentially uh discussion beforehand, um, which you are then able to encode in the linear ticket, which then kind of guides the agenti implementation after that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2238.08,
+            2244.32
+          ],
+          "quote": "We weren't actually verifying formally anything to do with the labels on linear, which are a very important routing mechanism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            3099.68,
+            3103.92
+          ],
+          "quote": "Let's uh so we go back and have a look at uh some of those uh linear tickets that we raised.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3178.08,
+            3182.56
+          ],
+          "quote": "So this was the first linear ticket that uh that didn't require the human interaction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3182.72,
+            3186.72
+          ],
+          "quote": "Perhaps we jumped to the linear ticket that did require that human interaction, which would go into production.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3242,
+            3251.76
+          ],
+          "quote": "So the only human touch points on this PR to get something from linear ticket to production is that required human review because it is still production code, and someone clicking the merge button.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3337.04,
+            3349.76
+          ],
+          "quote": "So during this podcast, we created two linear tickets that have now had PRs created and have been merged, one into production, one into uh the Dart Factory uh codebase.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3414.48,
+            3422
+          ],
+          "quote": "We have our own uh internal Slack bot um that listens ambiently in channels and can file linear tickets for you and all that kind of stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3422.16,
+            3428.4
+          ],
+          "quote": "We want to move or we want to move it into actually being able to propose tickets on linear or being able to do decomposition.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit",
+      "type": "company",
+      "role": "company",
+      "name": "CodeRabbit",
+      "file": "CodeRabbit",
+      "primary": false,
+      "how_described": "本集说 CodeRabbit 是运行在 PR 上的 AI 代码审查工具，与内部审查智能体一起在 PR 上发布评论作为信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            1160.8,
+            1163.92
+          ],
+          "quote": "One is CodeRabbit, one is our own internal code review agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3128.48,
+            3131.28
+          ],
+          "quote": "Uh we have Coderabbit who runs on review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3150.96,
+            3154.96
+          ],
+          "quote": "You can then see that Coderabbit approved it and Kikimura merged it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3224,
+            3228.64
+          ],
+          "quote": "We see uh CodeRabbit go kick off as well as uh our own internal code tool.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "daytona",
+      "type": "company",
+      "role": "company",
+      "name": "Daytona",
+      "file": "Daytona",
+      "primary": false,
+      "how_described": "本集说编码智能体运行在 Daytona 沙箱中，使用它是为了隔离和安全保证，运行在 TESL 自己的内部 Daytona 环境里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            1066.96,
+            1070.16
+          ],
+          "quote": "These agents uh currently for us run in a Daytona sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1070.24,
+            1073.68
+          ],
+          "quote": "Uh, we're using Daytona just because of the isolation and security guarantees there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1073.84,
+            1076.4
+          ],
+          "quote": "Um, this runs in our own internal Daytona environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "company",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集说用 Fable 花约一天时间构建了队列行为的形式化验证模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            2098.56,
+            2106.56
+          ],
+          "quote": "Uh took me about a day with Fable and then using the Dark Factory to go implement this, and we've had absolutely zero reoccurrences of that after the fact.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "auto-merge",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动合并 (auto-merge)",
+      "file": "自动合并",
+      "primary": false,
+      "how_described": "本集说自动合并是可选标签，让机器人在 CI 通过后自动合并 PR，Dark Factory 内部代码库策略是全部自动合并",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            338.88,
+            346.72
+          ],
+          "quote": "Because if we can't auto-merge it, that means that we don't have the verification in place to have confidence in the process of writing code or building code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            346.88,
+            349.84
+          ],
+          "quote": "So you can see that this auto-merge uh label is down here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            367.68,
+            376.64
+          ],
+          "quote": "And the fact that that uh is set to auto-merge, if that wasn't there, presumably that then would require a human to go in, maybe review the PR and actually push it themselves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 72,
+          "t": [
+            377.92,
+            385.28
+          ],
+          "quote": "So auto merge is an optional label that just gets the bot to literally select auto merge on the GitHub PR uh so that it will go in once CI is green.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            399.52,
+            409.68
+          ],
+          "quote": "The second one, because it's uh a PR that goes directly to the Dart Factory, it's a PR for the Dart Factory, uh, that will auto-merge, so as soon as it's done, it will it will squash that down and merge that into the code base.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            464.64,
+            477.36
+          ],
+          "quote": "Because they just our policy is that we only allow auto merge on um stuff that is in our research code base, stuff that is in our dark factory code base, and stuff that um our GTM team is building uh using the Dark Factory to help uh build out their own internal flows too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1422.08,
+            1426.48
+          ],
+          "quote": "Like you've got a couple ideas, just go kick them off and don't send them an auto merge and go look at the code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1908.8,
+            1913.36
+          ],
+          "quote": "And also with auto merge on, everything is changing in ways that we don't really understand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            3059.04,
+            3072.16
+          ],
+          "quote": "Because it's a really interesting and cool feeling to be able to wake up and see, hey, we call them maintenance agents internally, hey, my maintenance agent ran overnight, identified three issues, filed PRs, they're all in auto merge, and they haven't landed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3312.64,
+            3320.88
+          ],
+          "quote": "And so something like this uh probably would be auto-merge at some point in the future because it is a user visible, but it is just a documentation change.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fix-forward",
+      "type": "concept",
+      "role": "concept",
+      "name": "向前修复 (fix forward)",
+      "file": "向前修复",
+      "primary": false,
+      "how_described": "本集说出问题时不回滚 PR，而是问'验证端漏掉了什么'，然后补验证器或补测试，让同类问题不再发生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 322,
+          "t": [
+            1975.6,
+            1980.32
+          ],
+          "quote": "But the intention, what we're trying to do there is overshare the context so that we're aware, but then also fix forward.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1983.92,
+            1997.44
+          ],
+          "quote": "It is, okay, cool, what we missed on the verification side that allowed this to land, either in a verifier if it's a human concept, or on tests if it's something bad, so that we can continually fix forward and build those guardrails, earn that trust on the autonomy side that you mentioned.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3173.68,
+            3176.08
+          ],
+          "quote": "And if it is broken, we will find that out and then we will fix forward.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automatic-promotion",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动晋升 (automatic promotion)",
+      "file": "自动晋升",
+      "primary": false,
+      "how_described": "本集说每晚扫描智能体审查和人类审查的 PR 评论，评估哪些应该提炼成新的验证器，持续左移使验证更快更便宜更人类可读",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1698.32,
+            1703.04
+          ],
+          "quote": "One of the really interesting things about, I think, about that sequence is that we can run automatic promotion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

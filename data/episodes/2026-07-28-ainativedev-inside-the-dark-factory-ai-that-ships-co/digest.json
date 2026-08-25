@@ -1,0 +1,141 @@
+{
+  "title_zh": "Tesla Dark Factory：95%代码无人看过就合并",
+  "tldr": "Tesla AI工程负责人Rob Willoughby详解Dark Factory——一个从工单到PR全自主的软件工厂，以及如何靠验证器而非人眼来守住代码质量。",
+  "digest_md": "两个周末前，两个工程师在周五往队列里喂了一批工单，然后去享受伦敦的热浪。等他们回来，Dark Factory 已经自主提交并合并了 150 个 PR，全程零人工干预。这不是概念演示——这是 Tesla 内部 AI 工程团队每周都在发生的事。更激进的是，Dark Factory 自身的代码库中，95% 从未有人类看过就合并了 [00:00 Rob Willoughby] [32:01 Rob Willoughby]。\n\n## 从\"加速写代码\"到\"管理工厂\"\n\n在 Dark Factory 之前，团队做的是\"单玩家智能体工程\"——工程师坐在驾驶位上，用本地智能体（如 Claude Code 或 Cursor）加速实现。工作流没变，只是写代码变便宜了。但这直接暴露了两个瓶颈：第一，验证负担没变——实现虽然快了，但你仍然得本地构建整个单体仓库、点 UI、打端点来确认代码做了该做的事；第二，代码审查爆炸——一个人一天能 churn 出 20 个 PR，团队就得审查 20 个 PR，PR 积压、产生合并冲突，形成了一个以前不存在的新瓶颈 [09:00 Rob Willoughby] [10:07 Rob Willoughby] [11:06 Rob Willoughby]。\n\n有了 Dark Factory 后，周五的心态完全变了：糟糕的周五是不为周末准备好队列，好的周五是你能规划、堆叠足够多的工单，让工厂整个周末都在跑 [11:49 Simon Maple]。工程师的抽象层级上移了——不再想\"这个工单我怎么做\"，而是想\"这个功能需要什么步骤序列\"，就像把任务分给初级工程师一样 [12:20 Rob Willoughby]。\n\n## 编排器：简单但不是重点\n\nDark Factory 的核心组件有两个：编排器和代码仓库中的上下文环境。编排器是先建的，因为它最直观——从 Linear 工单到产出代码的机制 [14:54 Rob Willoughby]。\n\n架构并不复杂：一个 Python 队列轮询 Linear（计划迁到 Webhook），拉取标记为\"待办\"的工单，按优先级排序后分发给编码智能体。智能体跑在 Daytona 沙箱里（内部部署），每个工单一个隔离容器，能拉起完整的单体仓库测试栈，包括集成测试、UI 点击——基本上本地工程师能做的它都能做，除了不给敏感凭证 [15:42 Rob Willoughby] [17:46 Rob Willoughby] [18:07 Rob Willoughby]。\n\n一个很实用的设计：智能体会把测试运行的截图和视频发回 PR，人类审查者不用 SSH 进去看，直接在 PR 里看视频就能验证 UI 行为 [18:33 Rob Willoughby]。\n\nPR 提交后，编排器进入\"保姆模式\"：CodeRabbit 和内部审查智能体（锚定在安全、可读性、功能正确性三个技能上）自动评论，CI 失败也作为信号回传。编排器看到信号就重新唤醒智能体去修，修完再提交，循环直到通过 [19:20 Rob Willoughby] [20:14 Rob Willoughby]。智能体还能主动升级——如果缺上下文，会暂停并在 Linear 工单上提问题通知人类 [20:36 Rob Willoughby]。\n\n关键设计决策：Linear 是唯一真实来源，所有要产出持久工件（PR、文档等）的工作必须流经 Linear，直接利用 Linear 自带的阻塞关系、子任务、标签等能力，不重新造轮子 [16:16 Rob Willoughby]。\n\n## 验证器：真正的高杠杆所在\n\nRob 认为，编排器\"死简单，没那么难\"，真正的高杠杆在于你给编码智能体提供的仓库上下文和验证环境 [15:07 Rob Willoughby]。\n\n验证器是这套系统的核心创新。它本质上是一条自然语言陈述，能对特定代码片段给出\"是/否\"的布尔判断，由 LLM 充当裁判 [24:25 Rob Willoughby]。比如：\"这些文件应该只从 library 文件导入\"——这种\"品味\"很难写成确定性 lint 规则（虽然技术上可以写很复杂的正则），但用自然语言写出来，LLM 能理解 [25:06 Rob Willoughby]。\n\n验证器的设计哲学有三个层次，从快到慢、从便宜到贵：\n\n1. **确定性验证**（lint 规则）——能写成确定性规则的绝不交给 LLM。以前人类嫌复杂 lint 规则烦人、拖慢开发，但现在写代码的是智能体，它们不介意\"撞墙\" [27:13 Rob Willoughby] [27:29 Rob Willoughby]。\n2. **LLM 裁判验证器**——针对 diff 的单次 LLM 调用，只推理一件事，不受其他优先级干扰 [26:50 Rob Willoughby]。\n3. **通用智能体代码审查**——兜底，抓前面漏掉的 [26:34 Rob Willoughby]。\n\n每条验证器只在对应代码被修改时触发。而且他们跑了一个\"自动晋升\"机制：每晚扫描智能体审查和人类审查的 PR 评论，评估哪些应该提炼成新的验证器，持续左移 [28:23 Rob Willoughby]。\n\n## 撞墙和修复：信任是赚来的，不是开启的\n\n最大的早期问题是信任。团队一开始只敢给\"实习生级别\"的超小工单，因为不敢看日志、不敢不看过程 [29:09 Rob Willoughby] [29:22 Rob Willoughby]。这是文化问题，不是技术问题——要求一个人对自己没看过过程的自主产出负责，需要一个渐进而无止境的信任曲线 [30:05 Rob Willoughby] [30:27 Rob Willoughby]。\n\n他们选择主动\"撞墙\"来加速建立信任。最痛苦的一次：PR 评论被重复计算，导致同一个任务在两个沙箱里并行跑，产生竞态条件。修了又退化，两三天内产生了 60 个修复 PR [33:29 Rob Willoughby] [34:04 Rob Willoughby]。\n\n解决方案不是加强人工监督，而是加更硬的验证——用 Fable 花一天时间建了一个队列行为的**形式化验证模型**，每个 PR 都跑这个验证。之后零复发 [34:51 Rob Willoughby] [34:58 Rob Willoughby]。核心洞察：智能体没有人类那种\"这是敏感代码\"的上下文直觉，所以你必须比以前**更**深入地投入验证，而不是更少 [35:11 Rob Willoughby]。\n\n更激进的实验：只用验证层（不含单元测试），让智能体从 Python 用 Elixir 从零重写整个系统。队列的形式化模型完美通过，但暴露了巨大盲点——Linear 标签路由机制只在单元测试里验证过，端到端测试只覆盖了 happy path，迁移后直接坏了 [36:22 Rob Willoughby] [37:18 Rob Willoughby] [37:29 Rob Willoughby]。教训：验证层必须覆盖所有核心行为，不只是\"看起来重要\"的部分 [38:33 Rob Willoughby]。\n\n出问题时，策略是\"向前修复\"而不是回滚——问\"验证端漏掉了什么\"，然后补验证器或补测试 [33:00 Rob Willoughby]。\n\n## 给其他团队的落地路径\n\n对于还没用 Dark Factory 的团队，Rob 建议分层渐进 [43:06 Rob Willoughby]：\n\n**第一层：仓库上下文。** 更有意识地管理 repo 里的上下文——你给智能体的上下文比换模型更能改变输出质量 [43:40 Rob Willoughby] [44:04 Rob Willoughby]。这一层即便不建工厂，也能改善本地开发流程。\n\n**第二层：疯狂写测试。** 测试现在写起来几乎免费——端到端测试、集成测试、行为测试全覆盖，确保你真正关心的\"行为\"（而不是代码实现细节）被验证 [44:25 Rob Willoughby]。这一层同时让本地智能体和未来工厂都产出更好的代码。\n\n**第三层：加验证器。** 把代码审查中反复出现的偏好提炼成验证器，确定性优先，模糊的用 LLM 裁判 [45:00 Rob Willoughby]。\n\n**第四层：建编排器。** 自己建，很简单，而且能对接你自己的内部系统（Jira、自定义工单系统等） [48:10 Rob Willoughby]。\n\n最关键的文化要点：让工程师感觉自己仍然\"拥有\"代码的品味和质量——验证器就是把他们多年积累的判断力编码成可扩展的形式，让全公司所有智能体都跑他们的标准 [46:03 Rob Willoughby] [46:35 Rob Willoughby]。\n\n## 本集带走\n\n- **工单粒度决定产出质量**：Dark Factory 接受的是\"给中级工程师的明确工单\"，不是 Q1 计划。前期设计思考、白板讨论仍然由人做，然后编码成工单序列喂给工厂 [22:34 Rob Willoughby] [23:08 Rob Willoughby]。\n- **验证器三层塔**：确定性 lint → LLM 裁判的单条验证器 → 通用智能体审查兜底。能确定性的绝不交给 LLM，发现反复出现的审查意见就提炼成验证器，每晚自动扫描晋升 [27:13 Rob Willoughby] [28:23 Rob Willoughby]。\n- **向前修复，不回滚**：出了问题不回滚 PR，而是问\"验证端漏了什么\"，补验证器或测试，让同类问题不再发生 [33:00 Rob Willoughby]。\n- **用形式化验证守核心**：队列行为这类核心逻辑，用形式化模型验证，不依赖单元测试和人工直觉——智能体没有\"这是敏感代码\"的直觉 [34:51 Rob Willoughby] [35:25 Rob Willoughby]。\n- **分层渐进，不改工作流也能起步**：先改善仓库上下文（立即有用），再补测试，再加验证器，最后建编排器。每层都同时让本地智能体和工厂受益 [43:40 Rob Willoughby] [45:25 Rob Willoughby]。\n- **让工程师拥有品味**：验证器的本质是把资深工程师的判断力编码成全公司智能体都遵守的规则，是影响力的倍增器，而不是放弃控制权 [46:21 Rob Willoughby] [46:35 Rob Willoughby]。\n\n> 【背景】本集来自 The AI Native Dev 播客，由 TESL 赞助。TESL 是一个\"Skills 和 Context 的包管理器\"产品，嘉宾 Rob Willoughby 是 TESL 的 AI 工程负责人。节目中提到的 Dark Factory、Tesla Agent、Tesla Change Review、Tesla Change Verify、Tesla Change Risk 均为 TESL 的内部工具或产品功能。Daytona 是一个开源的开发环境管理平台，Fable 是一个将 F# 编译为 JavaScript/Python 的工具，CodeRabbit 是一个 AI 代码审查产品——这些在转写稿中仅以名称出现，未做解释。",
+  "quotes": [
+    {
+      "en": "And so that means, by implication, 95% of our code base has never had a human look at it.",
+      "zh": "这意味着，推而论之，我们的代码库中有 95% 从未有人类查看过。",
+      "timestamp": "00:21",
+      "speaker": "Rob Willoughby"
+    },
+    {
+      "en": "It feels like a little bit of the shift in my own thinking about this is less about what is the coding work that I think I can do over the course of the week, but what is the coding work that I can be able to effectively feed the queue over a long enough time?",
+      "zh": "感觉我自己对这种思考方式的转变有点少是关于我认为我在一周内能做的编码工作是什么，而是我在足够长的时间里能有效地喂给队列的编码工作是什么。",
+      "timestamp": "08:06",
+      "speaker": "Rob Willoughby"
+    },
+    {
+      "en": "Suddenly you're shifting this, what an engineer is spending the majority of their day doing from writing code to reviewing code.",
+      "zh": "突然间你正在转移这个，工程师一天中花大部分时间做的事情，从写代码变成了审查代码。",
+      "timestamp": "10:43",
+      "speaker": "Rob Willoughby"
+    },
+    {
+      "en": "Because I can churn out 20 PRs in a day using a local agent, but if we have a policy where every PR needs a human review on it, well then my team needs to go review 20 PRs.",
+      "zh": "因为我可以使用本地智能体在一天内 churn out 20 个 PR，但如果我们有政策说每个 PR 都需要人工审查，那么我的团队就需要去审查 20 个 PR。",
+      "timestamp": "11:06",
+      "speaker": "Rob Willoughby"
+    },
+    {
+      "en": "The context that you give will change model results more than swapping a model will.",
+      "zh": "你提供的上下文会比更换模型更能改变模型结果。",
+      "timestamp": "44:04",
+      "speaker": "Rob Willoughby"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Rob Willoughby",
+      "en": "Two weekends ago, um, we had quite a busy Friday, and the Dark Factory ended up shipping 150 PRs for two of us over the course of the weekend.",
+      "zh": "两个周末前，我们有一个相当忙碌的星期五，Dark Factory 最终在整个周末为我们两个人提交了 150 个 PR。"
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Rob Willoughby",
+      "en": "And so that means, by implication, 95% of our code base has never had a human look at it.",
+      "zh": "这意味着，推而论之，我们的代码库中有 95% 从未有人类查看过。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Rob Willoughby",
+      "en": "It feels like a little bit of the shift in my own thinking about this is less about what is the coding work that I think I can do over the course of the week, but what is the coding work that I can be able to effectively feed the queue over a long enough time?",
+      "zh": "感觉我自己对这种思考方式的转变有点少是关于我认为我在一周内能做的编码工作是什么，而是我在足够长的时间里能有效地喂给队列的编码工作是什么。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Rob Willoughby",
+      "en": "Suddenly you're shifting this, what an engineer is spending the majority of their day doing from writing code to reviewing code.",
+      "zh": "突然间你正在转移这个，工程师一天中花大部分时间做的事情，从写代码变成了审查代码。"
+    },
+    {
+      "timestamp": "11:06",
+      "speaker": "Rob Willoughby",
+      "en": "Because I can churn out 20 PRs in a day using a local agent, but if we have a policy where every PR needs a human review on it, well then my team needs to go review 20 PRs.",
+      "zh": "因为我可以使用本地智能体在一天内 churn out 20 个 PR，但如果我们有政策说每个 PR 都需要人工审查，那么我的团队就需要去审查 20 个 PR。"
+    },
+    {
+      "timestamp": "15:07",
+      "speaker": "Rob Willoughby",
+      "en": "I think just one of our big learnings previewing this has been that is dead simple and not that uh hard.",
+      "zh": "我认为我们在预览这方面的一大收获是，这非常简单，并不那么难。"
+    },
+    {
+      "timestamp": "15:13",
+      "speaker": "Rob Willoughby",
+      "en": "It's everything else that surrounds that, where you then because if you don't kind of invest in those other layers, you then end up back in that previous workflow case we were talking about, where you just end up overwhelmed with review, or you end up overwhelmed with code, or you end up doing things that aren't actually driving the whole system forward.",
+      "zh": "围绕它的其他所有事情才是，因为你然后如果你不在那些其他层次投资，你最终会回到我们谈到的之前的工作流情况，你最终会被审查淹没，或者被代码淹没，或者最终做的那些事情实际上并没有推动整个系统向前发展。"
+    },
+    {
+      "timestamp": "24:25",
+      "speaker": "Rob Willoughby",
+      "en": "Um, on the taste and the architecture specifically, our solution to that has been verifiers, which are basically kind of like natural language single statements that can resolve to yes or no to a Boolean about a specific piece of code.",
+      "zh": "关于品味和架构，我们的解决方案是验证器，它们基本上是自然语言的单句陈述，可以解析为是或否，对应于特定代码片段的布尔值。"
+    },
+    {
+      "timestamp": "27:29",
+      "speaker": "Rob Willoughby",
+      "en": "Well, right now we have no human engineers. Agents are fine with annoying Infiniki, they can very happy to go bang their heads against the wall in order to make something work.",
+      "zh": "嗯，现在我们没有人工程师。智能体对烦人的 Infiniki 没问题，它们可以很高兴地去撞墙以让事情运转起来。"
+    },
+    {
+      "timestamp": "29:22",
+      "speaker": "Rob Willoughby",
+      "en": "I think there was definitely a bit of a kind of bias internally going from kind of going from a philosophy of I've got to be their babysitting the coding agent to I shoot, I'm I can't even look at the logs for this because it's running on a sandbox in the cloud.",
+      "zh": "我认为内部肯定有一种偏见，从一种我必须做编码智能体的保姆的哲学转变到我天哪，我甚至不能看日志因为它运行在云端的沙箱中。"
+    },
+    {
+      "timestamp": "33:00",
+      "speaker": "Rob Willoughby",
+      "en": "But the intention, what we're trying to do there is overshare the context so that we're aware, but then also fix forward.",
+      "zh": "但其意图，我们要在那里做的就是过度分享上下文以便我们知晓，但也要向前修复。"
+    },
+    {
+      "timestamp": "35:25",
+      "speaker": "Rob Willoughby",
+      "en": "No, we actually have to lean in even firmer than we had before because agents don't have that contextual information and we don't want to give it to them because that burns to tokens, which is therefore more expensive and slower.",
+      "zh": "不，我们实际上必须比以前更深入地投入，因为智能体没有那个上下文信息，而且我们不想给它们因为那会烧掉 token，因此更贵也更慢。"
+    },
+    {
+      "timestamp": "36:14",
+      "speaker": "Rob Willoughby",
+      "en": "And so we should be able to, just from that verification layer, be able to rebuild the entire system from scratch in a new language.",
+      "zh": "所以我们应该能够，仅从那个验证层，就能够从零开始在一种新语言中重建整个系统。"
+    },
+    {
+      "timestamp": "44:04",
+      "speaker": "Rob Willoughby",
+      "en": "The context that you give will change model results more than swapping a model will.",
+      "zh": "你提供的上下文会比更换模型更能改变模型结果。"
+    },
+    {
+      "timestamp": "44:25",
+      "speaker": "Rob Willoughby",
+      "en": "So tests are dead cheap, dead cheap to write, write tests for everything, write end-to-end tests for everything, write integration tests for everything, do behavioral tests for everything, make sure that that kind of layer of the thing that you actually care about, which isn't just what the code does, it's the behavior, it's the product surface, it's the things that is expressed.",
+      "zh": "所以测试非常便宜，写起来非常便宜，为所有东西写测试，为所有东西写端到端测试，为所有东西写集成测试，为所有东西做行为测试，确保你真正关心的那一层东西，不仅仅是代码做了什么，它是行为，它是产品表面，它是被表达出来的东西。"
+    },
+    {
+      "timestamp": "46:35",
+      "speaker": "Rob Willoughby",
+      "en": "Your agents, all the agents, not just your agents, all of the agents of everyone in the company is going to be running that to uh those verifiers for those bits of the code base, and suddenly your impact is now scaled across everyone.",
+      "zh": "你的智能体，所有的智能体，不仅仅是你的智能体，公司里每个人的所有智能体都将运行那些针对代码库部分的验证器，突然你的影响现在扩展到了所有人。"
+    },
+    {
+      "timestamp": "48:10",
+      "speaker": "Rob Willoughby",
+      "en": "Everyone probably should build their own orchestrator because it's simple and allows you to then integrate against a whole bunch of uh your own internal systems.",
+      "zh": "每个人可能都应该构建自己的编排器，因为它很简单，并允许你然后针对一大堆你自己的内部系统进行集成。"
+    }
+  ]
+}

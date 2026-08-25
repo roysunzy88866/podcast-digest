@@ -1,0 +1,121 @@
+{
+  "title_zh": "Stripe 的回答不是裁员，是构建更多",
+  "tldr": "Stripe 产品负责人 Will Gabrick 讲解 Stripe 如何用智能体编码加速产品发布，以及智能体商业和稳定币的未来。",
+  "digest_md": "Stripe 最近一周内由内部编码智能体生成了 7,000 个拉取请求 [01:25 Unknown]。但他们看到这件事的角度跟大部分公司不一样——很多公司把智能体效率当作优化成本结构的手段，看到裁员、削减运营支出 [12:35 Unknown]。Stripe 的选择是：构建更多 [01:12 Unknown]。\n\n## 把公司变成\"内部创始人\"的平台\n\nStripe 内部管这叫\"让公司成为面向内部创始人的平台\" [11:21 Unknown]。逻辑是：资深工程师现在能力太强了，一个人能干以前两个团队干的活 [11:13 Unknown]。你不应该因此少雇人，而应该让每个人拥有类似创始人的主观能动性——自己发现问题、自己推动解决，不被集中化的流程拖住 [13:12 Unknown]。\n\n实际操作上，他们做了两件事。一是组织扁平化，用更宽的团队、更少的管理层，让每个工程师同时承担工程师、产品经理、设计师的角色 [16:37 Unknown]。二是做了叫 Stripe Minions 的内部工具。Minions 的核心特点是\"一次性\"：你给一个提示词，它直接构建、跑完所有测试，你来审查。不迭代、不进规划模式 [14:51 Unknown]。\n\n构建 Stripe Projects 的那位资深工程师 Alexander，以前需要 PM 加几个工程师几周才能做完的事，现在一个人对着屏幕协调 16 个智能体就完成了 [17:17 Unknown]。\n\n他们还把代码生产比作注塑成型：先做好模具和模板（每个代码仓库里的 agents 文件就是模板），然后让智能体像注塑机一样批量填充，人类主要花时间在后端的代码审查上——而且智能体做代码审查的效果已经比以前人类做得更好 [25:52 Unknown]。\n\n## 不拿 AI 砍成本，拿 AI 做更多\n\nStripe 内部有个知识 AI 工具叫 CHI，两个人花了大概六个月建出来，现在 Stripe 有 83% 的周活跃用户、约 60% 的日活跃用户在使用 [19:41 Unknown]。销售人员生产力提高了 20%——他们的结论不是\"我们不需要这么多销售了\"，而是\"销售回报率变好了，我们应该招更多销售\" [20:01 Unknown]。\n\n这其实就是 Jevons 悖论：一项资产变得更高效，你不会想要更少，你会想要更多 [20:27 Unknown]。他们看到的数据也在印证这一点：2026 年新注册的 SaaS 平台客户群比 2025 年大了 103% [21:15 Unknown]。软件创建在爆发，不是在萎缩。\n\n一个具体例子：Stripe Tax 的全球申报功能，复杂度远高于之前的美国申报，但构建时间只用了美国申报的三分之一 [24:28 Unknown]。还有支出管理这个产品，本来在路线图上排在两年后，结果一个工程师直接接手自己建了 [22:07 Unknown]。\n\n## 智能体商业：缺的不只是模型，是\"原语\"\n\n智能体在互联网上做商业交易，现在还没到\"寒武纪大爆发\"的时刻——没有大量反复出现的规范用例 [28:21 Unknown]。Will 认为原因之一是缺少\"原语\"（primitives，即基础构建块）。\n\nStripe 通过 Tempo 做了一个机器支付协议：当你请求购买一个在线内容，会收到一个 402 响应，直接告诉你怎么买 [28:46 Unknown]。这就是一个原语。但智能体的结账流程该长什么样？是让智能体像人一样爬过结账表单填写（拟物化方案），还是有原生的方案？这还是开放问题 [29:12 Unknown]。\n\n不过有一件事 Will 比较确定：结账页面最终会消失——不只是对智能体，对人类也是 [30:10 Unknown]。Stripe Link 已经有 4 亿用户，他们最近推出了 Link 智能体钱包，智能体可以直接获取 Link 凭证完成支付 [30:26 Unknown]。\n\n最让他兴奋的其实是 B2B 场景。Stripe Projects 的核心不只是搭应用脚手架，而是让智能体去\"采用\"B2B 服务——比如智能体直接帮你把 Vercel 或 Browserbase 配置好，你不需要去它们的网站做任何操作 [31:02 Unknown]。这甚至影响了他们近期的投资判断标准：假设智能体是未来的购物者，这个产品是智能体会想选的那个吗 [31:21 Unknown]？\n\n## 微支付 + 稳定币：智能体经济的支付底座\n\nWill 举了个很具体的场景：他用 Claude Code 给侄女作生日歌，想用 Suno 或 Higgs field 之类的服务，但不想为了一次使用去注册一个月费账户 [32:52 Unknown]。他需要的是一次性、临时的微消费。智能体被派去执行复杂任务时，会在互联网上像蜂鸟一样到处啄一点数据、做一点计算，你不应该让人类去思考每个服务的账户和订阅问题 [35:37 Unknown]。\n\n微交易过去一直没跑通，因为内容消费总被夹在订阅模式和免费模式之间 [35:14 Unknown]。但智能体场景下，微交易变成了刚需。而稳定币让微交易在技术上变得可行——你给智能体一个预算，它可以拿美元转成稳定币或者用存储余额去支付，它不介意背后的来回转换 [36:17 Unknown]。\n\n稳定币本身，Will 从基础设施角度看好，核心原因是：你需要一个全球经济的\"谢林点\"（shelling point，即所有人自然协调到的共同标准）——印度的 UPI 很好但只限印度，你需要一个到处都能用的平台 [38:27 Unknown]。Stripe Treasury 已经把稳定币做成原生功能，可以像持有美元欧元一样持有稳定币余额 [39:08 Unknown]。法币覆盖大约 60 个国家，稳定币覆盖大约 150 个国家 [39:32 Unknown]。\n\n## 本集带走\n\n- **不拿 AI 做减法，做乘法**：智能体让工程师产能暴增，正确的回应不是裁员优化成本，而是加速解决积压的用户需求、构建更多产品。\n- **Minions 模式——一次性生成，不迭代**：给智能体一个明确的提示词，让它一次性跑完构建和测试，人来审查。比反复进规划模式快得多。\n- **注塑成型式代码生产**：在每个代码仓库里写好 agents 模板文件，让智能体批量填充，人类只做代码审查。\n- **智能体商业的瓶颈在\"原语\"不在模型**：机器支付协议（如 Tempo 的 402 响应）、智能体钱包这些基础构建块，比更强的模型更关键。\n- **B2B 是智能体商业最先落地的场景**：让智能体直接去\"采用\"和配置 SaaS 服务，比让智能体替人类网购更现实、更有价值。\n- **微支付 + 稳定币是智能体经济的支付底座**：智能体执行任务时会大量进行一次性、临时的微消费，稳定币让这种跨地域的小额支付在技术上可行。\n- **品味靠两件事规模化**：一是自上而下反复强调，二是模拟真实用户场景来使用产品——让管理者\"住\"进产品体验里，发现问题就直接排进下一个冲刺。",
+  "quotes": [
+    {
+      "timestamp": "00:06",
+      "speaker": "Unknown",
+      "en": "A single engineer can do what two teams of engineers could do two years ago.",
+      "zh": "一名工程师现在可以做两年前两个工程师团队才能做的事。"
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Unknown",
+      "en": "Stripe's response isn't to build the same things with fewer people.",
+      "zh": "Stripe 的回应并不是用更少的人构建同样的东西。"
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Unknown",
+      "en": "It's to build more.",
+      "zh": "而是构建更多。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Unknown",
+      "en": "Suddenly the market opportunity landscape is just much broader and you can do more with software.",
+      "zh": "突然之间，市场机遇版图变得宽泛得多，你可以用软件做更多的事情。"
+    },
+    {
+      "timestamp": "09:18",
+      "speaker": "Unknown",
+      "en": "And so we're just seeing this explosion in new software creation.",
+      "zh": "所以我们只是看到这种新软件创造的爆发。"
+    },
+    {
+      "timestamp": "11:21",
+      "speaker": "Unknown",
+      "en": "And sort of the theory of mind right now is that Stripe needs to become, more than it ever has been before, a platform for founders internally.",
+      "zh": "现在的一种心智理论是，Stripe 需要成为，比以往任何时候都更重要的，一个面向内部创始人的平台。"
+    },
+    {
+      "timestamp": "12:35",
+      "speaker": "Unknown",
+      "en": "I think a lot of companies have skewed in that direction where they've seen this new agentic efficiency and power as a way to optimize cost structure.",
+      "zh": "我认为很多公司已经向那个方向倾斜了，它们看到这种新的智能体效率和能力是优化成本结构的一种方式。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Unknown",
+      "en": "And so while we have more and more productivity from those senior engineers, if you want to ship more and build faster, you have to create founder-like agency inside your company.",
+      "zh": "因此，虽然我们从这些资深工程师那里获得了越来越多的生产力，但如果你想发布更多并更快构建，你就必须在公司内部创造类似创始人的主观能动性。"
+    },
+    {
+      "timestamp": "14:51",
+      "speaker": "Unknown",
+      "en": "And the reason for that is that Minions are one shot.",
+      "zh": "原因在于 Minions 是一次性的。"
+    },
+    {
+      "timestamp": "20:27",
+      "speaker": "Unknown",
+      "en": "And so, you know, it's almost trite in tech circles now, but the Jayvon's paradox, you know, an asset becomes more productive. You don't want less, you want more.",
+      "zh": "所以，你知道，这在技术圈子里现在几乎是老生常谈了，但是 Jevons 悖论，你知道，一项资产变得更有生产力。你不会想要更少，你会想要更多。"
+    },
+    {
+      "timestamp": "21:15",
+      "speaker": "Unknown",
+      "en": "New SaaS platform cohort is 103% larger than in 2026 than it was in 2025.",
+      "zh": "新的 SaaS 平台群体在 2026 年比 2025 年大了 103%。"
+    },
+    {
+      "timestamp": "24:28",
+      "speaker": "Unknown",
+      "en": "And we built that in about a third of the time that it took us to get to U.S. filing.",
+      "zh": "而我们构建它所用的时间大约是我们达到美国申报所用时间的三分之一。"
+    },
+    {
+      "timestamp": "26:56",
+      "speaker": "Unknown",
+      "en": "So just, again, compressing timelines, it just feels like a much bigger opportunity than optimizing cost structure.",
+      "zh": "所以只是，再次强调，压缩时间线，这感觉像是一个比优化成本结构大得多的机会。"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Unknown",
+      "en": "There aren't a ton of canonical use cases that you just see repeated over and over and over again.",
+      "zh": "并没有大量的规范用例让你看到一遍又一遍地重复出现。"
+    },
+    {
+      "timestamp": "30:10",
+      "speaker": "Unknown",
+      "en": "I think just checkout pages will go away.",
+      "zh": "我认为结账页面会消失。"
+    },
+    {
+      "timestamp": "35:37",
+      "speaker": "Unknown",
+      "en": "But as you give agents more complex tasks, you know, you want them to be these little sort of hummingbirds, like going around the internet, just surfing up a little data here, you know, pulling it over here, you know, some very transient ephemeral storage, doing a little compute over here.",
+      "zh": "但当你给智能体更复杂的任务时，你知道，你希望它们成为这些小小的蜂鸟，就像在互联网周围飞来飞去，只是在这里啄一点数据，你知道，把它拉到这里，你知道，一些非常临时的临时存储，在这里做一点计算。"
+    },
+    {
+      "timestamp": "36:17",
+      "speaker": "Unknown",
+      "en": "And then on the flip side, they're now eminently possible because of stablecoins.",
+      "zh": "然后另一方面，它们现在之所以成为可能，是因为稳定币。"
+    },
+    {
+      "timestamp": "39:21",
+      "speaker": "Unknown",
+      "en": "So we believe that the opportunity for stables is just faster money movement, cheaper money movement, and more global money movement.",
+      "zh": "所以我们相信稳定币的机会只是更快的资金流动，更便宜的资金流动，以及更全球化的资金流动。"
+    },
+    {
+      "timestamp": "47:33",
+      "speaker": "Unknown",
+      "en": "But we are seeing the exact opposite right now where, you know, software creation is exploding.",
+      "zh": "但我们现在看到的恰恰相反，你知道，软件创作正在爆发。"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 0,
+  "speaker": "Unknown",
+  "en": "Trailer",
+  "zh": "预告片"
+ },
+ {
+  "seg": 1,
+  "start": 0,
+  "end": 10,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You're reinventing the company to be a mini AGI. Part of the vision was that basically everybody is reporting to the same person, like a super flat organization. So how realistic do you think that is?",
+  "zh": "你正在把公司重塑为一个迷你 AGI。愿景的一部分基本上是每个人都向同一个人汇报,就像一个超级扁平化的组织。所以你认为这有多现实?"
+ },
+ {
+  "seg": 2,
+  "start": 10,
+  "end": 13,
+  "speaker": "Willem Avé",
+  "en": "You have to kind of step back and understand why orgs exist in the first place.",
+  "zh": "你必须退一步,首先理解组织为什么存在。"
+ },
+ {
+  "seg": 3,
+  "start": 13,
+  "end": 15,
+  "speaker": "Willem Avé",
+  "en": "Willem Avé, Global Head of Product at Square.",
+  "zh": "Willem Avé,Square 的全球产品负责人。"
+ },
+ {
+  "seg": 4,
+  "start": 15,
+  "end": 23,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One of the unique things about your product is that you have a hardware component as well as software. So I'm curious to know how you integrate those two worlds as part of the same function.",
+  "zh": "你们产品的独特之处之一是,你既有硬件组件也有软件。所以我很好奇你是如何将这两个世界整合到同一个职能中的。"
+ },
+ {
+  "seg": 5,
+  "start": 23,
+  "end": 29,
+  "speaker": "Willem Avé",
+  "en": "Hardware must be approachable. It must be easy to use. It must be completely delightful, and doing so is not easy.",
+  "zh": "硬件必须平易近人。它必须易于使用。它必须完全令人愉悦,做到这一点并不容易。"
+ },
+ {
+  "seg": 6,
+  "start": 29,
+  "end": 37,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "How do you make sure that someone who's not super tech savvy is able to benefit from some of this new technology that you're building?",
+  "zh": "你如何确保那些不太精通技术的人也能从你正在构建的这项新技术中受益?"
+ },
+ {
+  "seg": 7,
+  "start": 37,
+  "end": 42,
+  "speaker": "Willem Avé",
+  "en": "Running a business is a difficult kind of loneliness, where you don't always know where to go or what decisions to make.",
+  "zh": "经营生意是一种艰难的孤独感,你并不总是知道该去哪里或该做什么决定。"
+ },
+ {
+  "seg": 8,
+  "start": 42,
+  "end": 49,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about the larger TAM?",
+  "zh": "Square 最初是一家支付公司,现在它似乎是一个完整的生态系统。你是如何看待更大的 TAM 的?"
+ },
+ {
+  "seg": 9,
+  "start": 49,
+  "end": 52,
+  "speaker": "Willem Avé",
+  "en": "Well, I actually have a hot take on TAM. My hot take on TAM is that... Introduction",
+  "zh": "事实上,我对 TAM 有一个激进的观点。我对 TAM 的激进观点是……介绍"
+ },
+ {
+  "seg": 10,
+  "start": 52,
+  "end": 89,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+  "zh": "嘿,我是 Carlos,Product School 的首席执行官,也是 The Product Podcast 的主持人。我今天的嘉宾是 Willem Avé,Square 的全球产品负责人。他于 2014 年来到这里,当时 Square 收购了他联合创立并担任首席技术官的预约初创公司 BookFresh。因此,他见证了这一切从一个小白色读卡器发展到 Block 内部多个生态系统的过程。而且他的客户并不是整天挂在 X 上;他们经营着面包店。以下是我们将要涵盖的内容:为什么他们废弃了业务单元模式并全面转向职能型。旨在扼杀沉默否决权的 DRI 模型。当人工智能编码了你的组织架构图以前所掌握的知识时会发生什么。聊天机器人时代已经结束,以及什么将取代它。还有他的激进观点,即 TAM 几乎是无限的。让我们开始吧。"
+ },
+ {
+  "seg": 11,
+  "start": 89,
+  "end": 91,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Welcome to The Product Podcast, Willem.",
+  "zh": "欢迎来到 The Product Podcast,Willem。"
+ },
+ {
+  "seg": 12,
+  "start": 91,
+  "end": 92,
+  "speaker": "Willem Avé",
+  "en": "Thank you. Thank you for having me.",
+  "zh": "谢谢。谢谢你邀请我。"
+ },
+ {
+  "seg": 13,
+  "start": 92,
+  "end": 104,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So you're the Global Head of Product at Square. Square is part of a holding company, and maybe we can start there. Can you explain a little bit more about how the companies, or the teams, are designed?",
+  "zh": "所以你是 Square 的全球产品负责人。Square 是一家控股公司的一部分,也许我们可以从这里开始。你能多解释一下这些公司或团队是如何设计的吗?"
+ },
+ {
+  "seg": 14,
+  "start": 104,
+  "end": 195,
+  "speaker": "Willem Avé",
+  "en": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+  "zh": "当然可以。我在 Square,或者说 Block,已经很多年了。我见证了公司真正的每一次演变,从那个小小的白色读卡器一直到我们要拥有的复杂的多个生态系统。能够身处一家不仅能够在一个产品上进行创新,而且在其整个旅程中创建了多个产品生态系统的公司,这是独一无二的。也许我可以先从我在这里的旅程是如何开始的讲起。我的公司被收购了,我是首席技术官,我是通过这里的工程组织成长起来的。我们多年来采用了一种通用的管理模式,所以这是专注于业务单元的。然后大约两年前,我们重新调整了整个公司的结构,使其更加专注于我们的客户,将所有内容职能化。我们这样做的关键原因之一是,我们相信职能卓越,也就是在你的领域内做到卓越,工程、产品、设计等等,真的很重要,而我们之前采用的一些其他组织模式实际上削弱了我们要在每个职能中看到的工艺和卓越性。所以在过去两年左右的时间里,我们一直处于一个完全职能化的世界,有高层组织:产品、设计、工程。在其中,我们有基于品牌的关注领域,Square、Cash App 等等。从组织设计的角度来看,我们可以通过多种方式进行对话,但关键的一件事是你希望尽可能围绕客户结果来设计组织。你离这个原则越远,你得到的结果就越差。为什么 Square 废除了业务单元模式"
+ },
+ {
+  "seg": 15,
+  "start": 195,
+  "end": 214,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I love this topic around org design, and I've seen so many different variations. Many companies start functional, then at some point they grow and decide to go to a business-unit model, and then at some point they go back to functional or some sort of hybrid in between. So in your case today, what is part of your function?",
+  "zh": "我很喜欢围绕组织设计这个话题,我见过很多不同的变体。许多公司从职能型开始,然后在某个时候它们成长并决定采用业务单元模式,然后在某个时候又回到职能型或某种介于两者之间的混合模式。所以在你今天的案例中,你的职能的一部分是什么?"
+ },
+ {
+  "seg": 16,
+  "start": 214,
+  "end": 286,
+  "speaker": "Willem Avé",
+  "en": "Great. So it's the Square brand, and I lead product for the Square brand. The way we've decided to organize the Square org is leaning into a couple of beliefs I have for building products. One is you want teams as close to customer outcomes as possible, so they can really understand the needs of the customers and build products to serve those needs. That's led us to a couple of broad orgs. First is an audiences org: these are all of our verticals, think services, retail, food and beverage, and so on. Then a core platform org. But the core platform org importantly also has product services it's responsible for. I think it's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs. So it's important to marry product and platform together in certain areas. Then we have a growth team, so the whole acquisition flywheel. And a money team, so money for us is everything from bill pay, payroll, banking, and so on. And then obviously we have our hardware teams, which is a sister org to us. Integrating Hardware and Software",
+  "zh": "很好。所以是 Square 品牌,我负责 Square 品牌的产品。我们决定组织 Square 组织的方式是基于我构建产品的几个信念。一个是你要让团队尽可能接近客户结果,这样他们才能真正理解客户的需求并构建产品来服务这些需求。这导致我们建立了几个广泛的组织。首先是受众组织:这是我们所有的垂直领域,比如服务业、零售业、食品和饮料等等。然后是核心平台组织。但核心平台组织重要的是也负责产品服务。我认为对于平台团队来说,在构建软件时很容易陷入一种“一刀切都不行”的状态,他们考虑的是一个通用的解决方案,但并不解决任何需求。所以将产品和平台在某些领域结合在一起非常重要。然后我们有一个增长团队,所以是整个获取飞轮。还有一个资金团队,对我们来说,资金涵盖了从账单支付、工资单、银行业务等等的一切。然后显然我们有我们的硬件团队,它是我们的姐妹组织。整合硬件和软件"
+ },
+ {
+  "seg": 17,
+  "start": 286,
+  "end": 298,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I was literally going to ask about that, because one of the unique things about your product is that you have a hardware component as well as software. So I'm curious to know how you integrate those two worlds as part of the same function.",
+  "zh": "我正打算问这个问题,因为你产品的独特之处之一是,你既有硬件组件也有软件。所以我很好奇你是如何将这两个世界整合到同一个职能中的。"
+ },
+ {
+  "seg": 18,
+  "start": 298,
+  "end": 356,
+  "speaker": "Willem Avé",
+  "en": "Yeah. Hardware is something very special, and we have one of the best hardware teams on the planet. What I mean by special is that hardware shows up in businesses' real worlds. It's something you put on the counter, something you carry with you during your shift, something you use. So hardware must be approachable. It must be easy to use. It must be completely delightful. And doing so is not easy. The magic really happens when you integrate hardware and software together in a way that builds delightful experiences. Almost everyone's used an iPhone; they set the bar for a lot of that software-hardware integration. The key is making sure that when you're building new hardware products, you marry the software form factor with the hardware form factor. You can't think of them as completely separate, which is why it's difficult for companies to use off-the-shelf, commodity hardware and build truly excellent experiences.",
+  "zh": "是的。硬件是非常特别的东西,我们拥有地球上最好的硬件团队之一。我所说的特别是指,硬件出现在企业真实的世界中。它是你放在柜台上的东西,是你在轮班期间随身携带的东西,是你使用的东西。所以硬件必须平易近人。它必须易于使用。它必须完全令人愉悦。而且做到这一点并不容易。真正的魔力发生在你以一种构建令人愉悦的体验的方式将硬件和软件整合在一起时。几乎每个人都用过 iPhone;他们为很多软件与硬件的整合设定了标准。关键是要确保在构建新硬件产品时,你要将软件形态与硬件形态结合起来。你不能把它们看作是完全分离的,这就是为什么公司很难使用现成的商品硬件来构建真正卓越的体验。"
+ },
+ {
+  "seg": 19,
+  "start": 356,
+  "end": 380,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One of the risks I see with some orgs that have both hardware and software is that they're so different that it's really hard to find a leader who can understand both worlds in depth. Similar to what you were saying about the general manager, sometimes it's hard to find someone who really gets both business and product right. So in your case, how do you actually find the right level of support to ensure that both hardware and software are at the same level of priority?",
+  "zh": "我看到一些同时拥有硬件和软件的组织面临的一个风险是,它们是如此不同,以至于很难找到一位能够深入理解两个世界的领导者。就像你刚才关于总经理所说的那样,有时很难找到一个人真正同时把业务和产品都搞对。所以在你的情况下,你如何找到合适的支持水平,以确保硬件和软件处于相同的优先级?"
+ },
+ {
+  "seg": 20,
+  "start": 380,
+  "end": 445,
+  "speaker": "Willem Avé",
+  "en": "It's a good question. The biggest difference is the timelines are usually just different: building hardware takes longer than building software, and there are different steps you go through. To get really great outcomes, first you need incredible people. Two, you need to make sure the process you go through for building doesn't have a ton of burdensome red tape where decisions get mired in bureaucratic process or slow decision-making, because ultimately both building hardware and software is one of iteration. You have a vision of what you want to build, but the path there takes a bunch of different turns as you figure out what defect rates you're targeting, what reliability rates, battery life, and so on. There's a ton of dimensions to it. And then the best software is also built via an iterative learning loop. So if you combine both of those together, you can have both an org and a process that leads to incredible outcomes. The DRI Model: Killing the Silent Veto",
+  "zh": "这是一个好问题。最大的区别是时间表通常只是不同的:构建硬件比构建软件需要更长的时间,而且你要经历不同的步骤。要获得真正好的结果,首先你需要非凡的人。第二,你需要确保构建过程没有繁重的繁文缛节,决策会陷入官僚程序或决策缓慢,因为最终构建硬件和软件都是迭代。你有你想构建的东西的愿景,但通往那里的路径会经历很多不同的转折,当你确定你的目标缺陷率、可靠性率、电池寿命等等。有很多维度。然后最好的软件也是通过迭代学习循环构建的。所以如果你把这两者结合起来,你就可以有一个组织和过程,从而带来令人难以置信的结果。DRI 模型:扼杀沉默否决权"
+ },
+ {
+  "seg": 21,
+  "start": 445,
+  "end": 457,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Block, or your CEO Jack Dorsey, has been a real pioneer in terms of how to think about org design. You recently came up with this concept of the DRI. I'd love for you to expand on it.",
+  "zh": "Block,或者你的首席执行官 Jack Dorsey,一直是如何思考组织设计的真正先驱。你们最近提出了 DRI 这个概念。我希望你能详细说明一下。"
+ },
+ {
+  "seg": 22,
+  "start": 457,
+  "end": 556,
+  "speaker": "Willem Avé",
+  "en": "Yeah. It's an incredibly interesting concept, and one we've leaned into very hard. What's amazing is that for the best products, you have to have an arc from idea to scaling it, and that arc is a cross-functional effort. It's not just building an incredible product; it's how you go to market with it, and then how you keep iterating and building it. A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going. So the DRI model is really meant to cut through decision-making and effectively empower an individual to see that decision-making through the entire life cycle of building that product or solution. It's a unique position, because you have to be able to synthesize product, technology, and business, and then work very well across the entire arc of building that software. Everything from ideation, and I think the best ideation happens in a design- and engineering-led fashion, where they can explore the entire space, all the way through to go-to-market and scale, where you need to be able to tell the world about what you're building and why. So the DRI really helps shape technical strategy, but also keeps the teams accountable to execution, and breaks down decision-making so they can cut through any roadblocks or challenges the teams may have. Reinventing the Org Around AI",
+  "zh": "好的。这是一个非常有趣的概念,也是我们非常努力推崇的一个概念。令人惊奇的是,对于最好的产品,你必须有一个从构想到扩展它的弧线,而这个弧线是一个跨职能的努力。这不仅仅是构建一个令人难以置信的产品;它是你如何将其推向市场,然后你如何继续迭代和构建它。很多时候,产品因为决策而减速。要么是整个组织中存在沉默否决权,一个团队不想做另一个团队想做的事情,要么是对我们在做什么或我们要去哪里缺乏一致意见。所以 DRI 模型真的旨在穿透决策,有效地赋予个人权力,使其能够看到构建该产品或解决方案的整个生命周期的决策。这是一个独特的职位,因为你必须能够综合产品、技术和业务,然后在构建该软件的整个弧线中很好地工作。从构思开始,我认为最好的构思是以设计和工程为主导的方式发生的,他们可以探索整个空间,一直贯穿到推向市场和扩展,你需要能够向世界讲述你正在构建的东西以及原因。所以 DRI 真的有助于塑造技术战略,但也保持团队对执行的问责,并分解决策,以便他们可以穿透团队可能遇到的任何障碍或挑战。围绕人工智能重塑组织"
+ },
+ {
+  "seg": 23,
+  "start": 556,
+  "end": 573,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I was doing my research on this model, and I found a quote that said you're reinventing the company to be a mini AGI. Part of the vision was that basically everybody is reporting to the same person, like a super flat organization. So how realistic do you think that is?",
+  "zh": "我正在研究这个模型,我发现一句话说你正在把公司重塑为一个迷你 AGI。愿景的一部分基本上是每个人都向同一个人汇报,就像一个超级扁平化的组织。所以你认为这有多现实?"
+ },
+ {
+  "seg": 24,
+  "start": 573,
+  "end": 672,
+  "speaker": "Willem Avé",
+  "en": "It's a good question. You have to step back and understand why orgs exist in the first place. At least historically, orgs existed because of information flow: there needed to be a way to communicate between different orgs and teams and align them on a singular outcome, whatever you're building. Modern technology and AI have actually amplified the communication ability between a lot of the leaf nodes of a tree, so to speak. Whether it's everyone reporting to one person, or there are evolutions of that, the key goal is to have small, autonomous teams that can take ownership of an outcome and build it as quickly as possible. Typically orgs are very good at inventing process and inventing red tape, because it meets the needs of whatever org they've created, or whatever goals that org has. A lot of the time those are for good reasons: you have a problem, and you create some process to stop that from happening again. But I think AI gives us the ability to encode that knowledge at another layer. It doesn't have to be encoded in the org entirely; it can be encoded in data that agents have access to, and that really democratizes decision-making. It allows small teams, and I truly believe the best teams are small, fast-moving, fully autonomous, and enabled, to really happen. You hear a lot right now about enterprise context graphs and things like that for AI.",
+  "zh": "这是一个好问题。你必须退一步,首先理解组织为什么存在。至少在历史上,组织的存在是因为信息流:需要有一种方式在不同的组织和团队之间进行沟通,并在单一结果上保持一致,无论你正在构建什么。现代技术和人工智能实际上放大了树的许多叶节点之间的沟通能力,可以这么说。无论是每个人都向一个人汇报,还是有其演变,关键目标是拥有小型的、自主的团队,它们可以拥有一个结果并尽可能快地构建它。通常组织非常擅长发明流程和繁文缛节,因为它满足了他们创建的任何组织的需求,或者该组织的任何目标。很多时候这些都是有充分理由的:你有一个问题,你创建一些流程来阻止这种情况再次发生。但我认为人工智能给了我们在另一个层面编码知识的能力。它不必完全编码在组织中;它可以编码在智能体可以访问的数据中,这真正使决策民主化。它允许小团队,我真的相信最好的团队是小型的、快速移动的、完全自主的和被赋能的,真正实现。你现在听到了很多关于企业上下文图和类似的东西。"
+ },
+ {
+  "seg": 25,
+  "start": 672,
+  "end": 720,
+  "speaker": "Willem Avé",
+  "en": "I think it's really just another way of saying you have to encode knowledge in tools that individuals and teams can take advantage of. So you don't have to play telephone to get an answer; you can get an answer from an agent, make a decision, and move forward. So the DRI model, combined with smaller, flatter orgs, does allow you to move a lot faster. That doesn't diminish the need for management. People grow in their careers, people have aspirations, so you also need incredible people managers who can help people through their career growth and trajectories. You have to marry both of those together: you need great managers, and then you need great DRIs, people who can cut through decisions so you can deliver great products. Building for the Real Economy",
+  "zh": "我认为这实际上只是另一种说法,即你必须将知识编码在个人和团队可以利用的工具中。所以你不必玩电话游戏来获得答案;你可以从智能体那里获得答案,做出决定,然后继续前进。所以 DRI 模型结合更小、更扁平的组织,确实允许你移动得更快。这并没有减少对管理的需求。人们在职业生涯中成长,人们有抱负,所以你还需要了不起的人员经理,他们可以帮助人们度过他们的职业成长和轨迹。你必须将这两者结合起来:你需要伟大的经理,然后你需要伟大的 DRI,那些能够穿透决策的人,这样你就可以提供伟大的产品。为实体经济构建"
+ },
+ {
+  "seg": 26,
+  "start": 720,
+  "end": 761,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "This is the time I spend the most geeking out on organization, because you're probably the best example of someone pioneering something like this, and I love it. I'm also going to try to shift gears into another unique thing that's embedded into your product, which is that you're building for the real economy. Your users are not always ops managers; it's also the person working at the bakery. So tell me more about how you're thinking about bringing AI capabilities to people who are probably not on X every single day.",
+  "zh": "这是我花最多时间研究组织的时候,因为你可能是这种开创性事情的最佳例子,我喜欢它。我还将尝试转向另一个嵌入在你产品中的独特事物,那就是你正在为实体经济构建。你的用户并不总是运营经理;还有在面包店工作的人。所以多告诉我一些你是如何考虑将人工智能能力带给那些可能不是每天都挂在 X 上的人的。"
+ },
+ {
+  "seg": 27,
+  "start": 761,
+  "end": 881,
+  "speaker": "Willem Avé",
+  "en": "Yeah, the real world is definitely not on X every day, though some are. Small business is fascinating, because they're the most pure instantiation of an entrepreneur. They literally put their livelihood on the line for their passion, and that passion could be anything from candlestick making to bakeries to really anything. I find that endlessly fascinating, and I respect it a lot. Small business, in my opinion, really forms the artery, or the core, of the economy. The main streets of the world are unique. They're really important social areas for different economies and neighborhoods. What Square and Block have always stood for is economic empowerment, and what that means for Square is making sure neighborhoods can thrive. We say we want Main Street to stand as tall as Wall Street. That's really important, because to do so, they need technology. You can't compete today in the business landscape without automating parts of your business with software, and now increasingly with artificial intelligence. I firmly believe that if you take advanced technology and democratize it, give it to as many people, as many small businesses, as possible, that's net good for the economy and net good for society. So those are some of the things I spend a lot of time on. And it's not easy, because each of these businesses is endlessly unique. They need very specific workflows. A bakery is just different from a flower shop, and that's different from a burger joint. They have different people, different teams, different workflows. So it's all different, and that's one of the awesome things we've been able to do at Square. Bringing AI to People Who Aren't Tech Savvy",
+  "zh": "是的,真实世界确实不是每天都挂在 X 上,尽管有些人是这样。小企业令人着迷,因为它们是企业家的最纯粹的体现。他们真的把他们的生计押在了他们的激情上,这种激情可以是任何东西,从制作烛台到面包店再到几乎任何东西。我觉得这非常迷人,我很尊重它。在我看来,小企业真的形成了动脉,或经济的核心。世界上的主要街道是独特的。它们是不同经济体和社区的重要社交区域。Square 和 Block 一直代表的是经济赋权,这对 Square 意味着确保社区能够繁荣。我们说我们要让主街与华尔街一样高大。这非常重要,因为要做到这一点,他们需要技术。你今天无法在不自动化部分业务的情况下,在商业环境中竞争,现在越来越多的是使用人工智能。我坚信,如果你采用先进技术并将其民主化,将其提供给尽可能多的人,尽可能多的小企业,这对经济和社区都有净收益。所以我花了很多时间在这些事情上。这并不容易,因为其中的每一个企业都是无穷无尽的独特。它们需要非常具体的工作流程。面包店与花店不同,这与汉堡店也不同。它们有不同的人员,不同的团队,不同的工作流程。所以一切都不同,这就是我们在 Square 能够做到的一些很棒的事情之一。将人工智能带给不精通技术的人"
+ },
+ {
+  "seg": 28,
+  "start": 881,
+  "end": 899,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Let's try to unpack some of those use cases, because I can imagine the level of AI adoption is different. How do you make sure that someone who's not super tech savvy is able to benefit from some of this new technology you're building for them?",
+  "zh": "让我们试着分解其中一些用例,因为我可以想象人工智能采用的水平是不同的。你如何确保那些不太精通技术的人也能从你为他们构建的这项新技术中受益?"
+ },
+ {
+  "seg": 29,
+  "start": 899,
+  "end": 1043,
+  "speaker": "Willem Avé",
+  "en": "Yeah, it's a good question. Running a business is difficult, and not for the most obvious reason. Yes, obviously you have to hire and do your craft, whether that's food or whatever. But it's also a kind of loneliness, where you don't always know where to go or what decisions to make. For example, what should you price a menu item at? What should you price your burger? Sure, you could calculate how much it costs you to make the burger, but should you mark it up by 10% or 20%? There's an endless set of decisions. Sometimes you hear small business owners start working the second there's another head still on the pillow in their bed, and they keep working all the way through the evening, because there's always some decision they have to make. The advantage, or the attraction, of AI for business is not just a chatbot; it's really to have this intelligent thought partner that lets businesses make better decisions, and then eventually offload and delegate full tasks to parts of their business. A couple of examples could be inventory intake, or spotting sales trends for your business and then suggesting a marketing campaign, or a number of other unique workflows. The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons. First, we've basically already solved that problem, and what people are expecting now is to do real work with AI. Real work is far more than answering questions and getting some answers back in a thread. Real work looks like synthesizing data across all of your data sources. It looks like creating artifacts specifically for your business. That could be something like an inventory workflow for the bakery we're talking about, or a sales leaderboard so you can train and incentivize your staff. There are a bunch of these different artifacts. And that's the challenge: it's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent. That's what we've been working on and really trying to solve. Demo: Manager Bot and Doing \"Real Work\"",
+  "zh": "是的,这是一个好问题。经营生意很困难,而且不是出于最明显的原因。是的,显然你必须雇佣并做你的手艺,无论是食物还是其他什么。但这也是一种孤独感,你并不总是知道该去哪里或该做什么决定。例如,你应该给菜单项定价多少?你应该给你的汉堡定价多少?当然,你可以计算制作汉堡的成本,但你应该加价 10% 还是 20%?有无限的决定。有时你会听到小企业主开始工作,只要他们的床上还有另一个头在枕头上,他们就一直在工作到晚上,因为他们总是有一些决定要做。人工智能对业务的优势或吸引力不仅仅是一个聊天机器人;它实际上是拥有这个智能思维伙伴,让企业做出更好的决定,然后最终卸载和委托完整的任务到业务的各个部分。几个例子可能是库存入库,或者为你的业务发现销售趋势,然后建议营销活动,或许多其他独特的工作流程。有趣的部分是,只是标准问答聊天机器人的日子已经结束了,有几个原因。首先,我们基本上已经解决了那个问题,现在人们期望的是用人工智能做真正的工作。真正的工作远比回答问题并在一个线程中得到一些答案要多。真正的工作看起来像是在你的所有数据源中综合数据。它看起来像是专门为你的业务创建工件。这可能是我们要谈论的面包店的库存工作流程,或者是销售排行榜,这样你可以培训和激励你的员工。有很多不同的工件。这就是挑战:今天构建一个聊天机器人很容易,但构建一个可靠的、可靠的智能体非常困难。这就是我们一直在工作并真正试图解决的问题。演示:Manager Bot 和做“真正的工作”"
+ },
+ {
+  "seg": 30,
+  "start": 1043,
+  "end": 1044,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I would love to see it in action.",
+  "zh": "我很想看到它的实际运行。"
+ },
+ {
+  "seg": 31,
+  "start": 1044,
+  "end": 1219,
+  "speaker": "Willem Avé",
+  "en": "Sure, we can take it for a little spin. So this is Manager Bot, a home screen where you can come in and we AI-generate a bunch of ideas for sellers, either daily or just in time. This is an example of one where it says \"add missing item descriptions.\" Why is this important? Well, if you want to get found online, your online catalog needs to have great descriptions. So Manager Bot can notice these things and suggest descriptions, and you can review it and chat. I'm not going to do that this second, but I'm going to go over to the computer and show what I mean by doing real work. This is an example of, maybe I want to work on some menu engineering. Rather than just a quick answer, what Manager Bot gives you is a full-on artifact. It does a bunch of work, and it looks at your data. It can also use a lot of other tools. It can say, \"Okay, here are all the different items, this is what you should do with each of those, these are the different types of items that are doing well or not doing super well.\" And then you can ask questions about this: \"Okay, great, what are some suggestions based on this menu? Do some research and come back with an opinion.\" And it says, \"This is what I would do, I would make the half-pound burger a hero, not just an item,\" and so on. When someone is thinking through a problem, they don't just want \"here's the answer.\" They want a richer artifact that lets them really dig deep. Similarly, if you look at labor forecasts, this is all a demo account, you can see where the costs are. It can generate very rich artifacts for you. When sellers want to get work done, they need rich, sophisticated artifacts, real things they can go and build themselves. Yes, that interaction might be text-based or voice, but it's much richer than just a simple answer. This is when sellers can see, \"Okay, this is really valuable, I have to put less work into the system to get some very meaningful outcomes.\" And then there's this whole ideas area, things from sales or top customers. \"Two of your top customers haven't visited in 30 days.\" There are staff insights, inventory insights, and so on. So this whole system working together, we feel, really helps sellers understand their business, take action, improve things, and get real work done on their computer.",
+  "zh": "当然,我们可以稍微试一下。这是 Manager Bot,一个主屏幕,你可以进来,我们为卖家人工智能生成一堆想法,无论是每天还是及时的。这是一个例子,上面说“添加缺失的项目描述”。为什么这很重要?好吧,如果你想在网上被发现,你的在线目录需要有很好的描述。所以 Manager Bot 可以注意到这些事情并建议描述,你可以审查它和聊天。我现在不打算那样做,但我要去电脑前,展示我所说的做真正工作的意思。这是一个例子,也许我想做一些菜单工程。不仅仅是一个快速的答案,Manager Bot 给你的是一个完整的工件。它做了一堆工作,它查看你的数据。它还可以使用很多其他工具。它可以说,“好的,这里是所有不同的项目,这是你应该对每个项目做的事情,这些是做得好或不太好的不同类型的项目。”然后你可以对此提出问题:“好的,很棒,基于这个菜单有什么建议吗?做一些研究并回来发表意见。”它说,“这就是我会做的,我会让半磅汉堡成为英雄,不仅仅是一个项目,”等等。当一个人在思考一个问题时,他们不只是想要“这是答案”。他们想要一个更丰富的工件,让他们真正深入挖掘。同样,如果你查看劳动力预测,这都是一个演示账户,你可以看到成本在哪里。它可以为您生成非常丰富的工件。当卖家想要完成工作时,他们需要丰富的、复杂的工件,真实的东西,他们可以去构建自己。是的,这种交互可能是基于文本或语音的,但它比简单的答案丰富得多。这是卖家可以看到的时候,“好的,这真的很有价值,我必须向系统投入更少的工作来获得一些非常有意义的结果。”然后还有这整个想法区域,来自销售或顶级客户的东西。“你最好的两个客户已经 30 天没有访问了。”有员工洞察力、库存洞察力等等。所以整个系统一起工作,我们认为真的有助于卖家理解他们的业务,采取行动,改善事情,并在他们的电脑上完成真正的工作。"
+ },
+ {
+  "seg": 32,
+  "start": 1219,
+  "end": 1255,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Thank you for going for it and showing this in action, because what you mentioned around delegating to AI, or getting stuff done, is critical. Sometimes AI can be more work, especially if you have to switch windows from ChatGPT to a PowerPoint presentation to something else. It seems like here you create that environment for them. They don't have to worry about memory, MD files, skills, or connectors, things that are maybe more common to the AI geeks. They can just continue using what they understand in a more sophisticated way.",
+  "zh": "谢谢你尝试并展示它的实际运行,因为你提到的关于委托给人工智能,或者把事情完成,是至关重要的。有时人工智能可能更多工作,特别是如果你必须从 ChatGPT 切换窗口到 PowerPoint 演示文稿或其他东西。看起来在这里你为他们创造了一个环境。他们不必担心记忆、MD 文件、技能或连接器,这些对人工智能极客来说可能更常见。他们可以只是继续以更复杂的方式使用他们理解的东西。"
+ },
+ {
+  "seg": 33,
+  "start": 1255,
+  "end": 1333,
+  "speaker": "Willem Avé",
+  "en": "Yeah, that's exactly right. A few things are true. One, I love what you said: you don't want sellers or customers to do more work. That's a very important insight. My experience, and a lot of people's experience using AI, is that you just get a bunch of word vomit, effectively. You get a bunch of data and you have to parse it, and that's actually work. Sometimes it's very useful, if you're doing research or whatnot. But other times it's like, \"Please shorten that for me,\" or \"Just create me a little website or something.\" The more you can steer these experiences to very high value, without causing customers to do a lot of work to use it, the more that builds trust with the system, and then it allows you to delegate and take actions. I didn't show this in the demo, but you can do bulk actions, you can create campaigns, all of that great stuff within the same experience. One of the interesting things, at least for small business, is that a lot of the time people don't just wake up and go, \"Oh, I have to change the price of X.\" Usually you have to do some investigation. So you get some questions and detailed analyses, and then you have enough trust in the system to say, \"Okay, now I'll go delegate some work to it to actually execute on inventory counts or price changes.\" A Hot Take on TAM: Almost Infinite",
+  "zh": "是的,这完全正确。有几件事是真的。第一,我喜欢你说的:你不希望卖家或客户做更多的工作。这是一个非常重要的洞察。我的经验,以及很多人使用人工智能的经验,是你只是得到一堆文字呕吐,实际上。你得到一堆数据,你必须解析它,这实际上是工作。有时它非常有用,如果你在做研究或什么。但有时就像是,“请为我缩短那个,”或者“只是为我创建一个小网站或什么。”你越多可以将这些体验引导到非常高的价值,而不导致客户做很多工作来使用它,你就越多与系统建立信任,然后它允许你委托和采取行动。我在演示中没有展示这一点,但你可以做批量操作,你可以在相同的体验中创建活动,所有那些很棒的东西。有趣的事情之一,至少对于小企业来说,是很多时候人们不只是醒来然后去,“哦,我必须改变 X 的价格。”通常你必须做一些调查。所以你得到一些问题和详细的分析,然后你对系统有足够的信任说,“好的,现在我要委托一些工作给它来实际执行库存计数或价格变更。”关于 TAM 的激进观点:几乎无限"
+ },
+ {
+  "seg": 34,
+  "start": 1333,
+  "end": 1345,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So I'm thinking about your overall TAM, because in a way, Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about that, and the larger TAM?",
+  "zh": "所以我正在考虑你的整体 TAM,因为在某种程度上,Square 最初是一家支付公司,现在它似乎是一个完整的生态系统。你是如何看待这个问题的,以及更大的 TAM?"
+ },
+ {
+  "seg": 35,
+  "start": 1345,
+  "end": 1462,
+  "speaker": "Willem Avé",
+  "en": "Yeah, I actually have a hot take on TAM. My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite. What I mean is that you can create markets with incredible products. That's important for Square, in that we have effectively endless TAM, because it's the small, medium, even enterprise economy, which is trillions of dollars. The two important things for building products and software in these very large TAM markets are, one, you need some forcing function to help teams and people make decisions. We at Square believe in local economies and neighborhoods, and our North Star is to build what we call a neighborhood network, which is effectively all the economic action that happens in a neighborhood: small business owners, their staff, and the customers coming into those businesses. The interesting thing about focusing on local neighborhoods is that it refocuses the TAM away from things like internet-only, direct-to-consumer websites; that's not part of a local economy. What you can start to do is look at Main Street, look at your local neighborhoods, and see what kinds of businesses exist there. So you have an ideal customer: these are the sets of customers I want to build for. And then you can help teams make decisions: \"Great, we're going to solve those needs, across commerce tools, both online and offline; financial tools, banking, checking, credit; and then intelligence tools.\" Because intelligence and autonomy is a core part of building software and helping local neighborhoods be better. Consolidating the SMB's Fragmented Tools",
+  "zh": "是的,事实上我对 TAM 有一个激进的观点。我的激进观点是,拥有合适的团队、合适的想法和合适的学习循环,你的 TAM 几乎是无限的。我的意思是你可以用令人难以置信的产品创造市场。这对 Square 很重要,因为我们实际上拥有无限的 TAM,因为它是中小型企业甚至大型企业经济,这是数万亿美元。在这些非常大的 TAM 市场中构建产品和软件的两件重要事情是,第一,你需要一些强制函数来帮助团队和人员做出决策。我们在 Square 相信本地经济和社区,我们的北极星是建立我们所谓的社区网络,这实际上是社区中发生的所有经济活动:小企业主、他们的员工和进入这些企业的客户。专注于本地社区的有趣之处在于,它将 TAM 的重心从仅限互联网、直接面向消费者的网站上转移开;那不是本地经济的一部分。你可以开始做的是看看主街,看看你的本地社区,看看那里存在什么样的企业。所以你有一个理想的客户:这些是我想要构建的客户集。然后你可以帮助团队做出决策:“很好,我们要解决那些需求,跨越商业工具,在线和离线;金融工具,银行、支票、信贷;然后是智能工具。”因为智能和自主性是构建软件和帮助本地社区变得更好的核心部分。整合 SMB 分散的工具"
+ },
+ {
+  "seg": 36,
+  "start": 1462,
+  "end": 1494,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Today I see the current SMB has a lot of fragmented point solutions. They might have their website builder, their Yelp page or something similar where they can see reviews, their reservation or point-of-sale technology, and maybe some others in between. So if I understand correctly, we're talking about a full-on integration that allows the small business owner to have access to technology without having to worry too much about these smaller point solutions.",
+  "zh": "今天我看到当前的 SMB 有很多分散的解决方案。他们可能有他们的网站构建器,他们的 Yelp 页面或类似的东西可以看到评论,他们的预订或销售点技术,也许还有一些其他的东西。所以如果我理解正确的话,我们正在谈论一个完全的整合,允许小企业主获得技术,而不必太担心这些较小的解决方案。"
+ },
+ {
+  "seg": 37,
+  "start": 1494,
+  "end": 1566,
+  "speaker": "Willem Avé",
+  "en": "That's right. The challenge with that is, it used to be very difficult to build software for each of those quadrants. AI software engineering has lowered that bar to a certain degree. The second point is that a lot of customers and sellers have software solutions today that they like. So for us to be successful, we need both great first-party tools, point of sale, staff management tools, and so on, but also a very open platform to allow all of our incredible partners to build alongside us and with us, so we can help reduce a bunch of tabs and copying data between this tool and that tool to answer a question. And then the third is that AI, at least an agentic AI, really allows sellers to interact with a bunch of different software products at the same time, because a lot of software is able to be used very well by agentic tools. You see that today with Claude and Codex. They can just use these tools exceedingly well. So it's helping solve a lot of these multi-software challenges that customers have. Communication Tools and Emerging Markets",
+  "zh": "这是对的。其中的挑战是,以前为这些象限中的每一个构建软件是非常困难的。人工智能软件工程在某种程度上降低了这个门槛。第二点是很多客户和卖家今天有他们喜欢的软件解决方案。所以为了我们要成功,我们需要既有一流的第一方工具,销售点、员工管理工具等等,也有一个非常开放的平台,允许我们所有令人难以置信的合作伙伴与我们并肩构建并与我们一起构建,这样我们可以帮助减少一堆选项卡和在这个工具和那个工具之间复制数据来回答问题。然后第三是人工智能,至少是一个智能体人工智能,真的允许卖家同时与一堆不同的软件产品互动,因为很多软件可以非常好地被智能体工具使用。你今天可以看到这一点,使用 Claude 和 Codex。他们可以只是非常好地使用这些工具。所以它有助于解决客户面临的很多多软件挑战。通信工具和新兴市场"
+ },
+ {
+  "seg": 38,
+  "start": 1566,
+  "end": 1594,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Maybe it's because I'm on vacation this week, I'm in Turkey, and it's crazy. I had to make a hair appointment the other day, and they sent me to WhatsApp; I had to message the hairdresser literally on WhatsApp. And the other day I wanted to make a dinner reservation, and OpenTable and all of those websites are not very popular here, so I had to message them on Instagram. So I'm also very curious about how you're thinking about communication tools, especially for emerging markets.",
+  "zh": "也许是因为我这周在度假,我在土耳其,这太疯狂了。前几天我得预约理发,他们让我去 WhatsApp;我必须字面上在 WhatsApp 上给理发师发信息。前几天我想预订晚餐,OpenTable 和所有那些网站在这里不是很受欢迎,所以我必须在 Instagram 上给他们发信息。所以我也很好奇你是如何考虑通信工具的,特别是对于新兴市场。"
+ },
+ {
+  "seg": 39,
+  "start": 1594,
+  "end": 1674,
+  "speaker": "Willem Avé",
+  "en": "Yeah, it's a great question. Business at its core is a communication, slash team, sport. You want to communicate with your customers, and you need to communicate with your staff. Today, a lot of that communication happens in very segmented, siloed tools, like you just mentioned: WhatsApp, Instagram, email. \"I need a contractor to go fix something,\" and it's usually email, maybe text. When you talk to business owners, they are drowning in these many different communication tools. They'll say, \"My SMS inbox has hundreds of unread.\" It's crazy. Just your example: imagine that business's WhatsApp thread, it's probably crazy. So, one, no one's really solved this yet, to be honest. Two, I'm pretty interested in trying to solve it for small businesses. There are some very cool collaboration platforms we're building. One is Buzz, which I think is pretty unique and interesting: not that exact product, but how that model could help sellers manage both their staff and a lot of communication inbounds across all these different channels they get.",
+  "zh": "是的,这是一个好问题。业务在核心上是一种通信,斜杠团队,运动。你想与你的客户沟通,你需要与你的员工沟通。今天,很多这种沟通发生在非常分割的、孤立的工具中,就像你刚才提到的:WhatsApp、Instagram、电子邮件。“我需要一个承包商去修理东西,”通常是电子邮件,也许是短信。当你与企业主交谈时,他们淹没在这些许多不同的通信工具中。他们会说,“我的短信收件箱有数百条未读。”这很疯狂。只是你的例子:想象一下企业的 WhatsApp 线程,可能很疯狂。所以,第一,说实话,还没有人真正解决这个问题。第二,我很感兴趣为小企业解决这个问题。我们正在构建一些非常酷的协作平台。一个是 Buzz,我认为它非常独特和有趣:不是那个确切的产品,而是该模型如何帮助卖家管理他们的员工以及他们在所有这些不同渠道中获得的大量通信入站。"
+ },
+ {
+  "seg": 40,
+  "start": 1674,
+  "end": 1692,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Yeah, I was very curious to know, because that's a very new product that Block announced, and it seems to be going in so many different directions. One is what you just described. Another could potentially be a replacement of Slack for different types of businesses. But it seems like in a way you're trying to create an unlimited-communication layer.",
+  "zh": "是的,我很好奇,因为那是 Block 宣布的一个非常新的产品,它似乎在向许多不同的方向发展。一个是你刚才描述的。另一个可能是不同类型企业的 Slack 替代品。但似乎在某种程度上你试图创建一个无限通信层。"
+ },
+ {
+  "seg": 41,
+  "start": 1692,
+  "end": 1714,
+  "speaker": "Willem Avé",
+  "en": "Yeah, I'll just go back to the fact that every business and every person has a communication challenge. Not actually talking, but managing all of the different channels. I don't think we have a great solution yet. I'm pretty excited about the Buzz technology for a lot of good reasons. It's something we're excited to work on.",
+  "zh": "是的,我只想回到每个企业和每个人都有通信挑战的事实。不是实际的说话,而是管理所有不同的渠道。我不认为我们有一个很好的解决方案。我对 Buzz 技术非常兴奋,有很多充分的理由。这是我们很兴奋的事情。"
+ },
+ {
+  "seg": 42,
+  "start": 1714,
+  "end": 1718,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "It's been a pleasure to have you on the pod. Thank you so much for your time.",
+  "zh": "很高兴有你来到这个播客。非常感谢你的时间。"
+ },
+ {
+  "seg": 43,
+  "start": 1718,
+  "end": 1721.6,
+  "speaker": "Willem Avé",
+  "en": "Yeah, thank you for having me. It's been great.",
+  "zh": "是的,谢谢你邀请我。这很棒。"
+ }
+]

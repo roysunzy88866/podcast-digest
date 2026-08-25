@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>26</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,11 +36,12 @@ unlisted: true
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:17起):本集说 Google Ads 是 Whisper 最大的获客渠道，有丰富度评分（enrichment score），在非品牌搜索、PMAX、YouTube 广告上都能盈利，且比 Meta 有更精细的控制
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(03:35起):本集提到 Google 手头现金加流动投资有 1870 亿，与 Meta 一样通过表外承诺方式为 AI 基础设施融资
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集说 Google 拥有所有数据和智能，但其模型被 OpenAI 和 Anthropic 击溃——这不是工程问题，而是文化问题。此外，Google 内部在配给 token，内部产品面临「AI 饥饿」，而其竞争对手不受此限制。
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(03:49起):本集提到 Google 是历史上做过全网络规模爬取和索引的巨头之一，其搜索结果中充斥着前 AI 时代迎合人类懒惰的中间页面内容
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(03:49起):本集提到 Google 作为搜索引擎巨头，大多数查询亏钱靠少数高价值查询赚回来；也提到 Google Cloud 与 Parallel 合作，让 Parallel 作为企业智能体 API 的搜索和接地提供商
 
 ## ① 提到它的金句
 
-*8 条*
+*9 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -58,9 +59,11 @@ unlisted: true
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q1]]
 
+![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q6]]
+
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -87,15 +90,16 @@ unlisted: true
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[AGI]] · [[Apple]] · [[NVIDIA]] · [[Amazon]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[AGI]] · [[Claude]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"OpenAI":58,"Anthropic":64,"Lenny":65,"ChatGPT":33,"Meta":17,"AGI":16,"Apple":12,"NVIDIA":20,"Amazon":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"OpenAI":59,"Anthropic":65,"Lenny":65,"ChatGPT":34,"Meta":18,"AGI":16,"Claude":32,"NVIDIA":20,"Amazon":8}</script>
 
 <script>
 (function(){

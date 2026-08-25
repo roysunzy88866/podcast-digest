@@ -7,37 +7,43 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Parallel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Parallel">PA</div><div class="pi"><h1 class="pt">Parallel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Parallel">PA</div><div class="pi"><h1 class="pt">Parallel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(22:24起):本集提到其 CEO 是前 Twitter 的 CTO。这是一家做 GPU 推理的公司,同样需要应对为智能体构建基础设施时产生的高振幅突发负载问题。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(24:00起):本集把它说成：同时处理成千上万个任务的计算方式（区别于像写菜谱那样一步步执行），是对世界和大脑进行模拟所必需的架构。
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(00:00起):本集说 Parallel 是为智能体网络构建搜索基础设施的公司，通过搜索智能体产品先获取真实用例并逐步积累索引，后与 Google Cloud 合作成为其企业智能体 API 的搜索和 Grounding 提供商
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(00:00起):本集说 Parallel 是为智能体构建搜索技术的公司，产出不是模型而是'模型的补充'——在模型之上乘数放大的东西，能帮智能体省一半 token 同时结果更准
 
 ## ① 提到它的金句
 
-*2 条*
+*4 条*
 
 ![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q12]]
+
+![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q1]]
+
+![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q2]]
 
 ![[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#^q1]]
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Ivan Burazin]] · [[Condi Rice]] · [[Andrew]] · [[Daytona]] · [[Jensen Huang]] · [[Sonia]] · [[Cognition]] · [[NVIDIA]] · [[Parag]]
+[[智能体]] · [[Andrew]] · [[Sonia]] · [[Parag]] · [[搜索智能体]] · [[索引]] · [[爬取]] · [[推理]] · [[后台智能体]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"Ivan Burazin":1,"Condi Rice":1,"Andrew":1,"Daytona":1,"Jensen Huang":3,"Sonia":1,"Cognition":7,"NVIDIA":20,"Parag":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"Andrew":2,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":2,"推理":1,"后台智能体":5,"多智能体系统":1}</script>
 
 <script>
 (function(){

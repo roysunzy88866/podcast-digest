@@ -35,7 +35,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 

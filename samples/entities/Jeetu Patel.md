@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Cisco":2,"NVIDIA":20,"ChatGPT":33,"主观能动性":14,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Cisco":2,"NVIDIA":20,"ChatGPT":34,"主观能动性":14,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){

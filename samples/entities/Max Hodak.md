@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]] [[Adam Mosseri]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":8,"Anthropic":64,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":2,"深科技":1,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":8,"Anthropic":65,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":2,"深科技":1,"BCI":1}</script>
 
 <script>
 (function(){

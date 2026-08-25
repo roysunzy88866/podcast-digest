@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":124,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":2,"主观能动性":14}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":130,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":2,"主观能动性":14}</script>
 
 <script>
 (function(){

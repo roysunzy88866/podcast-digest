@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":2,"智能体":124,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":7,"OpenRouter":4}</script>
+<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":2,"智能体":130,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":7,"OpenRouter":4}</script>
 
 <script>
 (function(){

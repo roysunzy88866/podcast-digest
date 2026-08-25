@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":124,"基于结果的定价":1,"应用 AI":1,"前沿模型":4,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":15}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":130,"基于结果的定价":1,"应用 AI":1,"前沿模型":4,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":15}</script>
 
 <script>
 (function(){

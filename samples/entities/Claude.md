@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>31</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>32</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,11 +40,12 @@ unlisted: true
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(04:52起):本集说 Claude 没有实现多账号连接功能，且在设计输出上永远选棕-棕褐-橙配色，一眼就知道是 AI 做的
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(29:06起):本集提到 Claude 作为可能给企业提供智能体的供应商之一，TrustWise 对其是不可知的
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(31:15起):本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(40:15起):本集仅在列举模型公司需要新鲜推理时数据以在产品中展示时，与 ChatGPT 一并提及
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(40:15起):本集顺带提到 Claude，说模型公司希望在推理期间获得新鲜数据以便在 ChatGPT 或 Claude 这类产品中展示
 
 ## ① 提到它的金句
 
-*19 条*
+*20 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q2]]
 
@@ -68,6 +69,8 @@ unlisted: true
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q8]]
 
+![[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang#^q1]]
+
 ![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q2]]
 
 ![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q4]]
@@ -86,7 +89,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -118,15 +121,16 @@ unlisted: true
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司(提及)
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude Code]] · [[OpenAI]] · [[vibe coding]] · [[Codex]] · [[Google]] · [[护栏]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"Lenny":65,"Anthropic":64,"ChatGPT":33,"Claude Code":33,"OpenAI":58,"vibe coding":21,"Codex":27,"Google":26,"护栏":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"Lenny":65,"Anthropic":65,"ChatGPT":34,"OpenAI":59,"Claude Code":34,"vibe coding":23,"Codex":27,"Google":27,"Cursor":32}</script>
 
 <script>
 (function(){

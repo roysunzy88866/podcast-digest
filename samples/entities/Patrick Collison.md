@@ -50,7 +50,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stripe":17,"OpenAI":58,"智能体":124,"Amjad Masad":1,"Harj":1,"Replit":10,"Atlas":1,"Magic School":1,"精益创业":1,"垂直 SaaS":1}</script>
+<script type="application/json" class="pd-epn">{"Stripe":18,"OpenAI":59,"智能体":130,"Amjad Masad":1,"Harj":1,"Replit":10,"Atlas":1,"Magic School":1,"精益创业":1,"垂直 SaaS":1}</script>
 
 <script>
 (function(){

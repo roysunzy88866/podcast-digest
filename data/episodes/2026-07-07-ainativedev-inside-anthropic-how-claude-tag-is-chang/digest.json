@@ -1,0 +1,141 @@
+{
+  "title_zh": "Claude Tag：把智能体从终端搬进 Slack 的多人协作实验",
+  "tldr": "Anthropic 的 Lamus Mukta 介绍 Claude Tag 如何在 Slack 中实现主动式、多人协作的智能体编码，以及 Anthropic 内部 65% 的 PR 已由它发起。",
+  "digest_md": "Anthropic 内部的产品工程团队，65% 的 PR 是由一个叫 Claude Tag 的东西发起的。它不是一个需要你打开终端、盯着每一轮输出的工具——它住在 Slack 里，自己跑完整个流程，完事了才来 ping 你 [10:35 Lamus Mukta]。\n\n## Claude Tag 和 Slack 里的 @Claude 有什么不同\n\n表面上看都是在 Slack 里跟 Claude 聊天，但底层逻辑差别很大。普通的 Slack 里 @Claude 是你主动问它、它被动答，交互是单次、单人的。Claude Tag 有三个本质区别：\n\n**主动性**：它不需要你触发，有时候它会主动来找你，告诉你某件事需要你注意 [04:29 Lamus Mukta]。\n\n**跨会话记忆**：它的上下文窗口不止于当前对话。它的记忆范围在频道级别，能理解整个频道历史上聊过的所有功能请求、流程和决策 [06:05 Lamus Mukta]。如果配置了权限，它还能搜索它所在的其他公共频道——比如从客服频道里找到某个问题的来龙去脉，带到工程频道来，而这可能连你自己都没看到 [06:18 Lamus Mukta]。\n\n**端到端执行能力**：这是最关键的差别。用 @Claude 时，你通常还是在 Slack 里讨论完，然后自己打开 Claude Code 去实现。Claude Tag 可以把整条链路吃下来：接住反馈 → 自动创建工单 → 自己启动沙箱写代码 → 在你仓库里跑 → PR 准备好了来 ping 你 → 甚至验证 PR 是否满足原始工单的要求 [07:10 Lamus Mukta]。\n\n## 从「单人会话」到「多人异步」\n\nClaude Code 的交互模式是单人的、同步的——你开一个会话，盯着智能体每一步的输出，随时纠正方向 [11:11 Lamus Mukta]。Claude Tag 把这个模式彻底打碎了。\n\n**多人协作**：一条工作流可以自然地拉入不同角色。比如客服工单进来，Claude Tag 先标记相关的客户经理让他们知晓，再拉产品人员看实现方案，最后工程师进来做代码审查和部署 [09:15 Lamus Mukta]。而且因为所有工作都在公开频道里发生，任何人随时可以插嘴补充上下文 [12:03 Lamus Mukta]。\n\n**长时间异步运行**：你 ping 它一下，它可能几小时后才回来，端到端地把功能建完了 [12:52 Lamus Mukta]。这背后依赖的是模型能力的提升——Lamus 提到一个 Meta 的研究：智能体能自主成功完成任务的时间跨度，大约每四个月翻一倍，而且这条指数曲线已经持续了接近十年 [15:52 Lamus Mukta]。\n\n## 信任从哪来：模型变强 + 人的行为在变\n\n为什么大家敢把工作交给一个在 Slack 里自己跑几小时的智能体？Lamus 认为是两边同时变化的结果。\n\n模型端：新一代模型自带更强的自验证能力。它们会在交差前自己检查工作，在工具可用时主动跑测试、建评估来验证结果，不再完全靠人盯着 [17:44 Lamus Mukta]。\n\n人这一端：工程师的行为在从「写代码」转向「定义什么是好的」——你能多清楚地描述成功标准、验收条件，就把这些交给模型，让它循环执行或者让另一个智能体来审查，直到满足标准 [18:13 Lamus Mukta]。再加上过去一年大家都在实际使用中摸清了这些工具的边界——什么场景放心放手、哪里还需要盯紧——这种「手感」本身就是信任的基础 [18:54 Lamus Mukta]。\n\nLamus 不认为 Slack 会取代 IDE（一种写代码的集成开发环境），但它让智能体更贴近你日常工作的所有场景，不需要在「跟团队沟通」和「跟智能体协作」之间切换上下文 [19:19 Lamus Mukta]。\n\n## Claude Code 的内部起源：六个赞到全公司一半人用\n\nClaude Code 一开始是 Boris 的副业项目，在内部 Slack 发帖时只得到六个反应 [27:06 Lamus Mukta]。但 Anthropic 内部有很强的实验文化，几个人兴奋起来继续做，很快公司一半的人每周都在用 [27:26 Lamus Mukta]。\n\n真正让采用率腾飞的节点是模型能力的提升——早期迭代感觉还不像智能体，更像返回代码片段；后来模型能调用多种工具、在代码库里高效工作、保持大量上下文且始终目标导向，产品才真正可用 [27:51 Lamus Mukta]。\n\n这引出一个 Lamus 反复强调的原则：**为模型未来的能力构建，不要为今天的** [28:10 Lamus Mukta]。如果你今天围绕模型当前的短板做了很多复杂的架构和提示工程，等模型变强了，那些东西反而成了累赘。\n\n非工程团队也在用。营销团队有个人从「谷歌搜索终端是什么」开始，到当天结束就自动化了一个原来花 30 分钟的工作流，缩短到 30 秒 [29:49 Lamus Mukta]。过去一年，Anthropic 全公司愿意委托给 Claude 的工作量从 30% 翻到了 60% [41:08 Lamus Mukta]。\n\n## 两个踩过的坑\n\n**记忆系统：复杂抽象不如简单文件系统**。他们试过索引记忆存储、专门设计读写记忆的工具，后来发现这些过度主观的设计反而有问题。模型变强之后，它们自己就很擅长用原生文件系统和 bash、grep 等工具来管理记忆。最终托管智能体（一种 Anthropic 帮你管理智能体运行环境和基础设施的产品）里的记忆方案就是一个简单的文件系统 [37:05 Lamus Mukta]。\n\n**工具层（harness）：新模型来了，要做减法**。每次出新模型，他们会重新审视工具层里哪些可以删掉——模型自身能力变强后，很多之前需要工具层来「兜底」的逻辑可以交给模型自己处理。新模型不意味着加更多提示和架构，有时候少即是多 [36:01 Lamus Mukta]。\n\n## 企业级设计：智能体身份和权限\n\n从 Claude Code 到 Claude Tag，有一个关键的架构变化：**智能体身份**。\n\n用 Claude Code 时，智能体借用你的权限——你的 API 密钥、你的访问权限 [34:06 Lamus Mukta]。Claude Tag 给了智能体自己的权限和密钥，它代表团队工作，不代表某个个人 [34:15 Lamus Mukta]。好处是审计清晰——它做的每件事都以它自己的身份留下记录，而不是混在某个人的操作里 [34:27 Lamus Mukta]。\n\n权限控制在频道级别设计：每个频道有自己的工具访问范围、API 密钥、能访问的其他频道 [33:16 Lamus Mukta]。主动性的程度也可以调——从「只有被 @ 才响应」到「按计划定时跑任务」到「主动跳入它认为有相关上下文的对话」 [42:44 Lamus Mukta]。如果它做了不符合你偏好的事，你直接告诉它，它会更新记忆，以后不再犯 [43:22 Lamus Mukta]。\n\n## Dreaming：让智能体的记忆自动进化\n\n这是 Anthropic 托管智能体产品上的一个研究预览功能，解决的问题是：智能体跑久了，记忆里会积累陈旧信息、缺失信息、写得混乱的信息 [49:45 Lamus Mukta]。\n\n做法是：你按自己想要的节奏跑一个「梦境」任务——把记忆存储和智能体的会话记录（就是智能体执行任务的完整痕迹）喂给另一个智能体。它会审查这些记录和记忆，找出不一致的地方：哪些信息缺失导致智能体表现差、哪些误导性信息在拖后腿、有没有更好的信息组织方式 [50:15 Lamus Mukta]。它会给出具体的修改假设，附上证据来源的会话记录，你决定采纳哪些 [50:43 Lamus Mukta]。\n\n这打开了持续学习的路径：今天跑完智能体，用 dreaming 优化记忆，明天再跑就能看到性能提升 [50:58 Lamus Mukta]。\n\n## 事故响应：从「凌晨三点叫醒我」到「凌晨三点给我一个修好的 PR」\n\nLamus 描述了一个 Anthropic 内部在用的模式：事故响应智能体。它需要接入数据仓库、日志指标、代码仓库来诊断问题 [45:12 Lamus Mukta]。\n\n关键设计是**人机交互闸门的位置由团队自己定**。刚开始可以只让 Claude 诊断，同时保留传统流程做对照，看它是否达到了你设定的成功阈值 [45:56 Lamus Mukta]。随着信任建立，逐步放权——从只诊断不行动，到生成草稿 PR 等人审，到最终可能自动修复可逆问题 [46:11 Lamus Mukta]。\n\nLamus 说，哪怕还保留人工审批，被叫醒时的体验也完全不同：不是「请你看一下这个事故想办法」，而是「这是事故、这是修复 PR、这是我跑过的测试、这是影响范围，你要不要批」 [47:38 Lamus Mukta]。\n\n## 本集带走\n\n- **Claude Tag 的核心不是「Slack 里的 Claude」，而是端到端的主动执行**：它能从接需求到提 PR 一条龙跑完，不需要你打开任何其他工具。区别在于主动性、跨会话记忆、以及不借用个人身份而是拥有自己的权限。\n- **为模型未来的能力构建，别为今天的短板做复杂架构**：Claude Code 内部腾飞的节点是模型变强，不是工具层变复杂。每次出新模型，主动做减法——删掉模型已经能自己处理的部分。\n- **记忆系统从简**：Anthropic 试过索引记忆、专用读写工具，最终回归简单文件系统——模型自己用原生工具就能管好记忆，过度抽象反而添乱。\n- **智能体要有独立身份和权限**：不要让它借用户的权限做事。给它自己的密钥和权限范围，审计清晰，才能安全地做多人协作和长时间异步任务。\n- **用 dreaming 做记忆的持续进化**：定期用另一个智能体审查会话记录和记忆存储，找出陈旧、缺失、误导的信息并修正，让智能体越跑越好。\n- **事故响应智能体的闸门可以渐进放权**：从只诊断不行动开始，对比传统流程的结果，逐步过渡到生成草稿 PR 甚至自动修复，把凌晨三点的唤醒体验从「请你想办法」变成「这是修复方案，批不批」。",
+  "quotes": [
+    {
+      "en": "Since we've started using Claude Tag internally, our product teams have 65% of their PRs opened by Claude Tag.",
+      "zh": "自从我们开始在内部使用 Claude Tag 以来，我们的产品团队有 65% 的 PR 是由 Claude Tag 开启的。",
+      "timestamp": "00:15",
+      "speaker": "Lamus Mukta"
+    },
+    {
+      "en": "So the the meter chart always shows us that roughly every four months, the amount of time that agents are able to run for autonomously is like doubling.",
+      "zh": "那个仪表图总是告诉我们，大约每四个月，智能体能够自主运行的时间量大约会翻倍。",
+      "timestamp": "15:52",
+      "speaker": "Lamus Mukta"
+    },
+    {
+      "en": "So, one of the big things that we always say to people when they're developing is like build for where the models are gonna be in the future, don't build for where they are today, because as we've said, these things move so quickly.",
+      "zh": "所以，我们要告诉正在开发的人们的一件大事是，为模型未来的位置而构建，不要为它们今天的位置而构建，因为正如我们所说，这些东西移动得如此之快。",
+      "timestamp": "28:10",
+      "speaker": "Lamus Mukta"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:03",
+      "speaker": "Lamus Mukta",
+      "en": "What's really special about Claude Tag is it has all of the kind of connectors and tools and context that you're used to when you're using Claude Code, but it's got this extra degree of proactivity and the persistence to see pieces of work through for longer periods of time.",
+      "zh": "Claude Tag 真正特别之处在于，它拥有你在使用 Claude Code 时习惯的所有连接器、工具和上下文，但它具有这种额外的主动性程度，以及能够在更长周期内坚持完成工作的持久性。"
+    },
+    {
+      "timestamp": "00:15",
+      "speaker": "Lamus Mukta",
+      "en": "Since we've started using Claude Tag internally, our product teams have 65% of their PRs opened by Claude Tag.",
+      "zh": "自从我们开始在内部使用 Claude Tag 以来，我们的产品团队有 65% 的 PR 是由 Claude Tag 开启的。"
+    },
+    {
+      "timestamp": "04:29",
+      "speaker": "Lamus Mukta",
+      "en": "Claude Tag will actually like sometimes come and find you and tell you that something needs your attention.",
+      "zh": "Claude Tag 实际上会有时来找你并告诉你有些事情需要你的注意。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Lamus Mukta",
+      "en": "And then the final thing is, which I think is the real difference, is you no longer need to open clawed code to go and ask it to execute that.",
+      "zh": "然后最后一件事是，我认为这是真正的区别，是你不再需要打开 clawed code 去要求它执行那个。"
+    },
+    {
+      "timestamp": "09:40",
+      "speaker": "Lamus Mukta",
+      "en": "So I think what we see is this like multiplayer ability, which has been quite difficult to achieve so far with maybe just working through Claude Code or co-work or something like that.",
+      "zh": "所以我认为我们看到的是这种多人协作能力，这是迄今为止仅通过 Claude Code 或 co-work 或类似工具工作时很难实现的。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Lamus Mukta",
+      "en": "What we have with Claude Tag is it all becomes a little bit more amorphous, so it we're starting to like be less session focused and it's less single player focused.",
+      "zh": "我们在 Claude Tag 中拥有的是它变得有点更加无定形，所以我们开始变得不太关注会话，也不太关注单人。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Lamus Mukta",
+      "en": "With clawed tag, we're seeing more of a pattern of these kind of long-running asynchronous tasks.",
+      "zh": "使用 Claude Tag，我们看到更多的是这些长时间运行的异步任务的模式。"
+    },
+    {
+      "timestamp": "15:52",
+      "speaker": "Lamus Mukta",
+      "en": "So the the meter chart always shows us that roughly every four months, the amount of time that agents are able to run for autonomously is like doubling.",
+      "zh": "那个仪表图总是告诉我们，大约每四个月，智能体能够自主运行的时间量大约会翻倍。"
+    },
+    {
+      "timestamp": "17:25",
+      "speaker": "Lamus Mukta",
+      "en": "And it's I mean, if you look at it, it's just like it's quite shocking because every time you think that you're not going to keep up with that that nice log chart on a straight line, like you you just do every time.",
+      "zh": "我是说，如果你看看它，这真的很令人震惊，因为每次你以为你跟不上那条直线上的漂亮对数图，你每次都做到了。"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "Lamus Mukta",
+      "en": "So to make that concrete, models are a lot better at verifying their own work these days.",
+      "zh": "所以具体来说，模型现在在验证它们自己的工作方面要好得多。"
+    },
+    {
+      "timestamp": "18:13",
+      "speaker": "Lamus Mukta",
+      "en": "I think another pattern that we see in development today is that the behavior of the developer or the engineer is shifting much more towards how well can you define what success looks like in your case.",
+      "zh": "我想我们在今天开发中看到的另一个模式是，开发人员或工程师的行为正更多地转向你能在你的案例中多好地定义成功是什么样子的。"
+    },
+    {
+      "timestamp": "28:10",
+      "speaker": "Lamus Mukta",
+      "en": "So, one of the big things that we always say to people when they're developing is like build for where the models are gonna be in the future, don't build for where they are today, because as we've said, these things move so quickly.",
+      "zh": "所以，我们要告诉正在开发的人们的一件大事是，为模型未来的位置而构建，不要为它们今天的位置而构建，因为正如我们所说，这些东西移动得如此之快。"
+    },
+    {
+      "timestamp": "29:49",
+      "speaker": "Lamus Mukta",
+      "en": "Like, there's this crazy story of someone on the marketing team whose day started with like Googling what the terminal was and how to use it.",
+      "zh": "有一个疯狂的故事，营销团队的一个人，他的一天开始于谷歌搜索终端是什么以及如何使用它。"
+    },
+    {
+      "timestamp": "34:15",
+      "speaker": "Lamus Mukta",
+      "en": "Whereas with Claude Tag, we actually give that um agent its own permissions and its own keys, etc., so that it can go off and like work autonomously on these things.",
+      "zh": "而对于 Claude Tag，我们实际上给那个智能体它自己的权限和它自己的密钥等等，以便它可以去自主处理这些事情。"
+    },
+    {
+      "timestamp": "36:28",
+      "speaker": "Lamus Mukta",
+      "en": "Sometimes it means like less is more.",
+      "zh": "有时这意味着少即是多。"
+    },
+    {
+      "timestamp": "37:05",
+      "speaker": "Lamus Mukta",
+      "en": "And the solution we have in our managed agents API is like a very simple memory file system that just leans on agents' abilities like read and write to memory.",
+      "zh": "我们在托管智能体 API 中的解决方案是一个非常简单的记忆文件系统，它只是依赖于智能体读写记忆的能力。"
+    },
+    {
+      "timestamp": "41:08",
+      "speaker": "Lamus Mukta",
+      "en": "Like ultimately, um another another like fun stat is in the last year the amount of work which we as a company are comfortable delegating to Claude across all teams has doubled.",
+      "zh": "归根结底，另一个有趣的统计数据是，在过去一年里，我们作为一家公司愿意委托给 Claude 的工作量在所有团队中都翻了一番。"
+    },
+    {
+      "timestamp": "47:38",
+      "speaker": "Lamus Mukta",
+      "en": "And I think in any case, I would much rather be woken up with a call that's like, hey, there was this incident, I think this is the PR that fixes it.",
+      "zh": "我认为在任何情况下，我都更愿意被一个电话叫醒说，嘿，有这个事故，我认为这是修复它的 PR。"
+    },
+    {
+      "timestamp": "50:58",
+      "speaker": "Lamus Mukta",
+      "en": "And I think what's really important here is like this really opens the path towards continual learning, like this idea that you can run your agents on one day and then based on whatever could have been optimized, you can run them the next day and actually see that they get better.",
+      "zh": "我认为这里真正重要的是，这真正打开了通往持续学习的大门，就像这个想法，你可以在一天运行你的智能体，然后基于任何可以被优化的东西，你可以在第二天运行它们，并真正看到它们变得更好。"
+    }
+  ]
+}

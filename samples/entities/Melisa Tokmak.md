@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":124,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":14,"OpenAI":58,"Anthropic":64}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":130,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":14,"OpenAI":59,"Anthropic":65}</script>
 
 <script>
 (function(){

@@ -11,13 +11,13 @@ description: 前 Twitter CEO Parag 创立的 Parallel，正在为智能体重新
 host: "[[Andrew]]"
 cohosts: ["[[Sonia]]", "[[Parag]]"]
 companies: ["[[Parallel]]"]
-concepts: ["[[智能体]]", "[[智能体搜索]]", "[[搜索智能体]]", "[[索引]]", "[[Shapley 值]]", "[[推理]]", "[[后台智能体]]", "[[差别定价]]", "[[爬取]]"]
+concepts: ["[[智能体]]", "[[智能体搜索]]", "[[搜索智能体]]", "[[索引]]", "[[Shapley 值]]", "[[推理]]", "[[后台智能体]]", "[[差异化定价]]", "[[爬取]]"]
 category: 智能体
 tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#post","headline":"Parag：为什么智能体搜索不该照搬人类那一套","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p","description":"前 Twitter CEO Parag 创立的 Parallel，正在为智能体重新发明搜索引擎——从爬取策略到商业模式，全部推倒重来。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p.jpg","about":[{"@type":"Person","name":"Andrew"},{"@type":"Person","name":"Sonia"},{"@type":"Person","name":"Parag"},{"@type":"Organization","name":"Parallel"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体搜索 (agentic search)"},{"@type":"Thing","name":"搜索智能体 (search agent)"},{"@type":"Thing","name":"索引 (index)"},{"@type":"Thing","name":"Shapley 值 (Shapley values)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"后台智能体 (background agent)"},{"@type":"Thing","name":"差别定价 (differential pricing)"},{"@type":"Thing","name":"爬取 (crawl)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Parag：为什么智能体搜索不该照搬人类那一套","item":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#post","headline":"Parag：为什么智能体搜索不该照搬人类那一套","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p","mainEntityOfPage":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p","description":"前 Twitter CEO Parag 创立的 Parallel，正在为智能体重新发明搜索引擎——从爬取策略到商业模式，全部推倒重来。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p.jpg","about":[{"@type":"Person","name":"Andrew"},{"@type":"Person","name":"Sonia"},{"@type":"Person","name":"Parag"},{"@type":"Organization","name":"Parallel"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体搜索 (agentic search)"},{"@type":"Thing","name":"搜索智能体 (search agent)"},{"@type":"Thing","name":"索引 (index)"},{"@type":"Thing","name":"Shapley 值 (Shapley values)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"后台智能体 (background agent)"},{"@type":"Thing","name":"差异化定价 (differential pricing)"},{"@type":"Thing","name":"爬取 (crawl)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Parag：为什么智能体搜索不该照搬人类那一套","item":"https://talk.solomind.cc/2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Parag：为什么智能体搜索不该照搬人类那一套</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Parallel]]
 >
-> **概念** [[智能体]] · [[智能体搜索]] · [[搜索智能体]] · [[索引]] · [[Shapley 值]] · [[推理]] · [[后台智能体]] · [[差别定价]] · [[爬取]]
+> **概念** [[智能体]] · [[智能体搜索]] · [[搜索智能体]] · [[索引]] · [[Shapley 值]] · [[推理]] · [[后台智能体]] · [[差异化定价]] · [[爬取]]
 
 人类点击数据是一个 bug，[[智能体|智能体]]做搜索应该依赖智能体反馈，不是人类反馈 <button class="pd-ts" data-t="06:27" data-who="Unknown" data-en="The ratings data can be now created by experts way more cheaply. Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback." aria-label="回原文"></button>。这话出自 [[Parag|Parag]]，他在卖掉 Twitter 之后创办了 [[Parallel|Parallel]] Web Systems，赌的就是一件事：[[智能体搜索|智能体搜索]]网络的次数会比人类多一千倍，而现有的搜索技术栈从根上就不适合它们。
 
@@ -85,7 +85,7 @@ Parag 不把 Parallel 定义为「新实验室」（产出是模型），而是�
 
 ## 互联网的商业模型正在断裂
 
-这才是 Parag 创业的核心动力。广告是互联网最高效的变现方案，因为它极其擅长[[差别定价|差别定价]]——Google 大多数查询是亏钱的，靠少数高价值查询赚回来 <button class="pd-ts" data-t="35:51" data-who="Unknown" data-en="Right? So, most queries, Google loses money on. Some of them make it up and it's an extraordinary business with extraordinary margins." aria-label="回原文"></button>。
+这才是 Parag 创业的核心动力。广告是互联网最高效的变现方案，因为它极其擅长[[差异化定价|差别定价]]——Google 大多数查询是亏钱的，靠少数高价值查询赚回来 <button class="pd-ts" data-t="35:51" data-who="Unknown" data-en="Right? So, most queries, Google loses money on. Some of them make it up and it's an extraordinary business with extraordinary margins." aria-label="回原文"></button>。
 
 这套逻辑的前提是「有限的人类注意力」。但如果上网的不是人而是智能体，这个前提就塌了 <button class="pd-ts" data-t="36:29" data-who="Unknown" data-en="Now, the core assumptions, as you noted, going into it around limited human attention to translate into outcomes. If humans don't show up and their agents show up on the web, like what does this mean?" aria-label="回原文"></button>。
 
@@ -164,9 +164,9 @@ Parag 把智能体使用网络的演进分三层。第一层是现在的主流�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|Parag：给智能体用的搜索，为什么不能是给人类用的]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差别定价 (differential pricing)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-07-talks-the-new-primitives-building-ai-native-so|从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

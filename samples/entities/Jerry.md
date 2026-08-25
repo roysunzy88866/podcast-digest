@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":20,"Sega":1,"Waymo":9,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":124,"物理 AI":4,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":20,"Sega":1,"Waymo":9,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":130,"物理 AI":4,"系统思维":3}</script>
 
 <script>
 (function(){

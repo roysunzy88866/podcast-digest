@@ -22,7 +22,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[蒸馏]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[开源权重]] · [[NVIDIA]] · [[Frontier Labs]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"蒸馏":6,"Hugging Face":9,"Anthropic":64,"OpenAI":58,"Sriram Krishnan":1,"Ben Horowitz":1,"开源权重":3,"NVIDIA":20,"Frontier Labs":3}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"蒸馏":6,"Hugging Face":9,"Anthropic":65,"OpenAI":59,"Sriram Krishnan":1,"Ben Horowitz":1,"开源权重":3,"NVIDIA":20,"Frontier Labs":3}</script>
 
 <script>
 (function(){

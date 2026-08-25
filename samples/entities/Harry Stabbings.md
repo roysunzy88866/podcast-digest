@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":124,"无代码":1,"Figma":9,"Notion":7,"Airtable":2,"Palantir":7,"Replit":10,"ChatGPT":33}</script>
+<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":130,"无代码":1,"Figma":9,"Notion":8,"Airtable":2,"Palantir":7,"Replit":10,"ChatGPT":34}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]]
+[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Amar":1,"Rippling":1,"Notion":7,"Apple":12,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":9,"熵":1,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Amar":1,"Rippling":1,"Notion":8,"Apple":12,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":9,"熵":1,"幂律分布":1}</script>
 
 <script>
 (function(){

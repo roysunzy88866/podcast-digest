@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[开源权重]] · [[推理]] · [[Theo Jaffe]] · [[NVIDIA]] · [[AGI]] · [[Chris Benson]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"OpenAI":58,"护栏":24,"Anthropic":64,"开源权重":3,"推理":1,"Theo Jaffe":3,"NVIDIA":20,"AGI":16,"Chris Benson":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"OpenAI":59,"护栏":26,"Anthropic":65,"开源权重":3,"推理":1,"Theo Jaffe":3,"NVIDIA":20,"AGI":16,"Chris Benson":3}</script>
 
 <script>
 (function(){

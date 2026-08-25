@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>POC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="POC">PO</div><div class="pi"><h1 class="pt">POC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="POC">PO</div><div class="pi"><h1 class="pt">POC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(19:06起):本集强调 POC 的唯一目标是跟客户共创商业案例，不是技术功能验证；应该收费以筛掉好奇者，但报价必须与后续商业谈判解耦
+- **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(04:56起):在本集出现两次语境：一是 Cursor 的内部试用 POC；二是高级工程师晋升期望的变化——现在鼓励先用 AI 快速做多个 POC，带着实际运行结果回来做决策，而非花几周写 RFC。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为概念
+- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Madhavan Ramanujam]] · [[Lenny]] · [[Intercom]] · [[Cursor]] · [[Charge Flow]] · [[Superhuman]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]]
+[[Cursor]] · [[智能体]] · [[Madhavan Ramanujam]] · [[Simon Maple]] · [[Lenny]] · [[Guy for Germany]] · [[Intercom]] · [[Simon Boudrien]] · [[Charge Flow]] · [[Datadog]]
 
-<script type="application/json" class="pd-epn">{"Madhavan Ramanujam":1,"Lenny":65,"Intercom":4,"Cursor":31,"Charge Flow":1,"Superhuman":4,"Sierra":4,"Delphi":3,"Slack":19,"Canva":3}</script>
+<script type="application/json" class="pd-epn">{"Cursor":32,"智能体":130,"Madhavan Ramanujam":1,"Simon Maple":4,"Lenny":65,"Guy for Germany":1,"Intercom":4,"Simon Boudrien":1,"Charge Flow":1,"Datadog":6}</script>
 
 <script>
 (function(){

@@ -1,0 +1,4634 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 1.92,
+  "speaker": "Don Syme",
+  "en": "I mean, chief or not, it's the nature of the factory.",
+  "zh": "我的意思是，无论是不是负责人，这都是工厂的本质。"
+ },
+ {
+  "seg": 1,
+  "start": 2,
+  "end": 4,
+  "speaker": "Don Syme",
+  "en": "If it produces rubbish, you throw it away, right?",
+  "zh": "如果它生产的是垃圾，你就会把它扔掉，对吧？"
+ },
+ {
+  "seg": 2,
+  "start": 4.16,
+  "end": 7.2,
+  "speaker": "Don Syme",
+  "en": "I do understand, of course, that human review is a bottleneck.",
+  "zh": "我当然明白，人工审查是一个瓶颈。"
+ },
+ {
+  "seg": 3,
+  "start": 7.44,
+  "end": 10.88,
+  "speaker": "Don Syme",
+  "en": "When you're creating a factory, you know, a lot of the work is on the quality gates.",
+  "zh": "当你创建一个工厂时，你知道，很多工作都在质量关卡上。"
+ },
+ {
+  "seg": 4,
+  "start": 10.96,
+  "end": 16.56,
+  "speaker": "Don Syme",
+  "en": "You know, there's just no point creating a pull request for the human to review when that thing is low quality.",
+  "zh": "你知道，当那个东西质量低劣时，为人工审查创建一个 pull request 是没有意义的。"
+ },
+ {
+  "seg": 5,
+  "start": 16.88,
+  "end": 26.08,
+  "speaker": "Don Syme",
+  "en": "My job as a factory creator is to deliver high-quality pull requests where the reviewer is equipped.",
+  "zh": "我作为工厂创建者的工作，是交付高质量的 pull request，让审查者配备齐全。"
+ },
+ {
+  "seg": 6,
+  "start": 26.16,
+  "end": 27.76,
+  "speaker": "Don Syme",
+  "en": "And I love that word equipped.",
+  "zh": "我喜欢 equipped 这个词。"
+ },
+ {
+  "seg": 7,
+  "start": 27.92,
+  "end": 31.92,
+  "speaker": "Don Syme",
+  "en": "My job is to equip the reviewer with all the information they need.",
+  "zh": "我的工作是为审查者配备他们需要的所有信息。"
+ },
+ {
+  "seg": 8,
+  "start": 33.28,
+  "end": 39.92,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "The AI Native Dev 是一个面向处于 AI 和 agentic coding 最前沿的开发者和工程负责人的播客。"
+ },
+ {
+  "seg": 9,
+  "start": 40.16,
+  "end": 50.32,
+  "speaker": "Simon Maple",
+  "en": "Join your host, Guy Fajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+  "zh": "欢迎加入你们的主持人 Guy Fajani 和我 Simon Maple，我们每周都会与 AI 领域最令人兴奋的声音聊天，并探讨开发者今天面临的最大问题。"
+ },
+ {
+  "seg": 10,
+  "start": 50.8,
+  "end": 53.28,
+  "speaker": "Simon Maple",
+  "en": "This is the AI Native Dev.",
+  "zh": "这就是 The AI Native Dev。"
+ },
+ {
+  "seg": 11,
+  "start": 55.84,
+  "end": 58,
+  "speaker": "Simon Maple",
+  "en": "Yesterday, you were writing code.",
+  "zh": "昨天，你还在写代码。"
+ },
+ {
+  "seg": 12,
+  "start": 58.16,
+  "end": 60,
+  "speaker": "Simon Maple",
+  "en": "Today, you're prompting agents.",
+  "zh": "今天，你在提示 agents。"
+ },
+ {
+  "seg": 13,
+  "start": 60.24,
+  "end": 62.72,
+  "speaker": "Simon Maple",
+  "en": "Tomorrow, you'll be running a software factory.",
+  "zh": "明天，你将运行一个软件工厂。"
+ },
+ {
+  "seg": 14,
+  "start": 63.04,
+  "end": 66.64,
+  "speaker": "Simon Maple",
+  "en": "Agentic coding is moving fast enough to give anyone whitlash.",
+  "zh": "Agentic coding 发展得足够快，足以让任何人产生 whitlash。"
+ },
+ {
+  "seg": 15,
+  "start": 66.8,
+  "end": 69.68,
+  "speaker": "Simon Maple",
+  "en": "This June, AI DevCon London sold out.",
+  "zh": "今年六月，AI DevCon London 售罄了。"
+ },
+ {
+  "seg": 16,
+  "start": 69.84,
+  "end": 80.16,
+  "speaker": "Simon Maple",
+  "en": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netflix, and GitHub cut through the hype and get to what actually works.",
+  "zh": "数百名开发者、工程负责人和 VP 挤进了现场，聆听来自 Anthropic、OpenAI、Netflix 和 GitHub 的演讲者穿透炒作，找到真正有效的东西。"
+ },
+ {
+  "seg": 17,
+  "start": 80.4,
+  "end": 83.12,
+  "speaker": "Simon Maple",
+  "en": "This November, we're bringing it back to New York.",
+  "zh": "今年十一月，我们将把它带回纽约。"
+ },
+ {
+  "seg": 18,
+  "start": 83.28,
+  "end": 87.6,
+  "speaker": "Simon Maple",
+  "en": "Bigger, bolder and full of people actually building the agentic future.",
+  "zh": "规模更大，更大胆，充满了真正在构建 agentic 未来的人们。"
+ },
+ {
+  "seg": 19,
+  "start": 87.84,
+  "end": 97.36,
+  "speaker": "Simon Maple",
+  "en": "Three days of real talk, real tools, real answers, whether you're directing the agent, building the loops themselves, leading the teams, or setting the strategy.",
+  "zh": "三天的真实谈话、真实工具、真实答案，无论你是在指导 agent，构建循环本身，领导团队，还是制定战略。"
+ },
+ {
+  "seg": 20,
+  "start": 97.6,
+  "end": 103.44,
+  "speaker": "Simon Maple",
+  "en": "Our early bird pricing ends on September 30th, so make sure you lock in your place before prices increase.",
+  "zh": "我们的早鸟票价将于 9 月 30 日结束，所以请确保在价格上涨前锁定你的位置。"
+ },
+ {
+  "seg": 21,
+  "start": 103.68,
+  "end": 109.44,
+  "speaker": "Simon Maple",
+  "en": "As a podcast listener, you can get 15% off your ticket using promo code pod50.",
+  "zh": "作为播客听众，您可以使用促销代码 pod50 享受 15% 的门票折扣。"
+ },
+ {
+  "seg": 22,
+  "start": 110.48,
+  "end": 114.64,
+  "speaker": "Simon Maple",
+  "en": "We have so much planned, and we can't wait to have you join us in New York.",
+  "zh": "我们有那么多计划，迫不及待想让你加入我们在纽约的活动。"
+ },
+ {
+  "seg": 23,
+  "start": 119.2,
+  "end": 122.4,
+  "speaker": "Guy Fajani",
+  "en": "Hello everyone, welcome back to the AI Native Dev.",
+  "zh": "大家好，欢迎回到 The AI Native Dev。"
+ },
+ {
+  "seg": 24,
+  "start": 122.72,
+  "end": 132.16,
+  "speaker": "Guy Fajani",
+  "en": "Today we're going to talk about continuous AI and talk about uh repos and you know what is the sort of the container for factories or whatever we call them on that front.",
+  "zh": "今天我们将谈论 continuous AI，并谈论 uh repos 以及你知道什么是工厂的容器或者我们在那个方面称呼它们的东西。"
+ },
+ {
+  "seg": 25,
+  "start": 132.24,
+  "end": 147.44,
+  "speaker": "Guy Fajani",
+  "en": "Uh and to dig into all of that, we have with us Don Syme, uh, who is a long-term kind of industry contributor when it comes to programming languages and how we develop, big open source contributor, worked a lot on F sharp, on various other projects you would have known.",
+  "zh": "Uh 为了深入探讨所有这些，我们请到了 Don Syme，uh，他是一位长期的行业贡献者，涉及编程语言和我们如何开发，大型开源贡献者，在 F sharp 和各种你可能知道的其他项目上做了很多工作。"
+ },
+ {
+  "seg": 26,
+  "start": 147.52,
+  "end": 157.6,
+  "speaker": "Guy Fajani",
+  "en": "Uh, and today a principal researcher at GitHub working on you know many things, AI development, but specifically also uh kind of continuous AI and agentic workflows, uh, which we'll cover more.",
+  "zh": "Uh，今天是 GitHub 的一名首席研究员，从事你知道的许多工作，AI 开发，但具体来说是 uh 类似的 continuous AI 和 agentic 工作流，uh 我们将更多地涵盖。"
+ },
+ {
+  "seg": 27,
+  "start": 157.68,
+  "end": 159.76,
+  "speaker": "Guy Fajani",
+  "en": "So, Don, thanks for coming onto the show.",
+  "zh": "所以，Don，谢谢来到节目。"
+ },
+ {
+  "seg": 28,
+  "start": 159.84,
+  "end": 173.36,
+  "speaker": "Guy Fajani",
+  "en": "Uh, I should also point out you've given uh an amazing talk at our latest AI Native DevCon, and you're a big part here of the London community of uh of uh of development as a whole, but also specifically now as we uh transform into AI.",
+  "zh": "Uh 我还应该指出，你在我们最新的 AI Native DevCon 上发表了一个精彩的演讲，你是伦敦社区的重要组成部分 uh of uh of of 整体开发，但具体来说现在我们 uh 转型进入 AI。"
+ },
+ {
+  "seg": 29,
+  "start": 173.44,
+  "end": 175.28,
+  "speaker": "Guy Fajani",
+  "en": "So love having you as part of the community.",
+  "zh": "所以很高兴你能作为社区的一员。"
+ },
+ {
+  "seg": 30,
+  "start": 175.68,
+  "end": 177.12,
+  "speaker": "Don Syme",
+  "en": "Guy, it's a pleasure to be here.",
+  "zh": "Guy，很高兴来到这里。"
+ },
+ {
+  "seg": 31,
+  "start": 177.2,
+  "end": 187.68,
+  "speaker": "Don Syme",
+  "en": "And uh it's it's been a pleasure to get to know you over the last couple of years as you've uh created TESIL and what a wonderful community here in London and also worldwide AI native dev community.",
+  "zh": "Uh uh 过去几年很高兴认识你，因为你 uh 创建了 TESIL，这里的社区真棒，以及全球的 AI native dev 社区。"
+ },
+ {
+  "seg": 32,
+  "start": 187.76,
+  "end": 192.16,
+  "speaker": "Don Syme",
+  "en": "I've used your resources a lot, I've learned a lot from uh what you've done.",
+  "zh": "我经常使用你的资源，我学到了很多 uh 你所做的事情。"
+ },
+ {
+  "seg": 33,
+  "start": 192.48,
+  "end": 206.08,
+  "speaker": "Don Syme",
+  "en": "And you know, really kudos to uh to kind of create that to take that community ethos that was so strong in the developer world and continue it through the really big shifts that have been happening in the developer world.",
+  "zh": "你知道，真的赞美 uh 去创造那种社区精神，这在开发者世界中如此强大，并通过开发者世界中发生的巨大变化延续它。"
+ },
+ {
+  "seg": 34,
+  "start": 206.32,
+  "end": 208.32,
+  "speaker": "Don Syme",
+  "en": "And yeah, I love what you're doing.",
+  "zh": "是的，我喜欢你在做的事情。"
+ },
+ {
+  "seg": 35,
+  "start": 208.48,
+  "end": 208.64,
+  "speaker": "unknown",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 36,
+  "start": 209.12,
+  "end": 209.76,
+  "speaker": "Guy Fajani",
+  "en": "I appreciate that.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 37,
+  "start": 209.84,
+  "end": 214.72,
+  "speaker": "Guy Fajani",
+  "en": "And uh, you know, it's all about gathering brilliant people and uh giving them a stage to share their learnings.",
+  "zh": "Uh 你知道，这一切都是为了聚集聪明人 uh 给他们一个舞台来分享他们的经验。"
+ },
+ {
+  "seg": 38,
+  "start": 214.88,
+  "end": 217.12,
+  "speaker": "Guy Fajani",
+  "en": "So uh precisely what we're doing here.",
+  "zh": "所以 uh 正是我们在这里做的。"
+ },
+ {
+  "seg": 39,
+  "start": 217.36,
+  "end": 224,
+  "speaker": "Guy Fajani",
+  "en": "So uh we're gonna talk a lot about uh you know how do you sort of systemize, if you will, software development in the sort of new era.",
+  "zh": "所以 uh 我们将谈论很多关于 uh 你如何系统化，如果你愿意的话，软件开发在新时代。"
+ },
+ {
+  "seg": 40,
+  "start": 224.16,
+  "end": 232.48,
+  "speaker": "Guy Fajani",
+  "en": "Uh and uh you use the term you kind of individually and also at GitHub use the term continuous AI when you think about uh that type of development.",
+  "zh": "Uh uh 你使用这个术语，你个人以及在 GitHub 使用术语 continuous AI 当你考虑 uh 那种开发时。"
+ },
+ {
+  "seg": 41,
+  "start": 232.64,
+  "end": 237.12,
+  "speaker": "Guy Fajani",
+  "en": "So maybe for starters, just define for us a little bit what is continuous AI.",
+  "zh": "所以也许首先，为我们稍微定义一下什么是 continuous AI。"
+ },
+ {
+  "seg": 42,
+  "start": 237.52,
+  "end": 250.8,
+  "speaker": "Don Syme",
+  "en": "Yeah, so the the thinking is that there's been a bit of a a blind spot in the uh in the AI industry, a really big focus on the kind of use of AI, basically coming from the chat modality, the individual productivity modality.",
+  "zh": "是的，所以这个想法是，AI 行业中一直有点盲点，非常关注 AI 的使用，基本上来自聊天模式，个人生产力模式。"
+ },
+ {
+  "seg": 43,
+  "start": 251.04,
+  "end": 262.96,
+  "speaker": "Don Syme",
+  "en": "Of course, we see that with Chat GPT uh just exploding in it in its initial uh and then all the kind of productivity enhancements that come around the chat modality.",
+  "zh": "当然，我们在 Chat GPT 上看到了这一点 uh 就在它最初的 uh 爆炸，然后围绕聊天模式的所有生产力提升。"
+ },
+ {
+  "seg": 44,
+  "start": 263.36,
+  "end": 273.52,
+  "speaker": "Don Syme",
+  "en": "But we think there's kind of a a missing point of view, which is about uh collaboration and which is about automation and which is about situated automation.",
+  "zh": "但我们认为有一种缺失的观点，它是关于 uh 协作，关于自动化，关于 situ 的自动化。"
+ },
+ {
+  "seg": 45,
+  "start": 274.24,
+  "end": 286.48,
+  "speaker": "Don Syme",
+  "en": "And we were thinking about this a lot last year at GitHub, and we did some kind of thinking about thinking around about it, then we kind of looked, well, you know, we already do a lot of situated automation in what in CICD.",
+  "zh": "我们去年在 GitHub 思考了很多，然后我们做了一些思考，然后我们看，你知道，我们在 CICD 中已经做了很多 situ 的自动化。"
+ },
+ {
+  "seg": 46,
+  "start": 286.8,
+  "end": 289.76,
+  "speaker": "Don Syme",
+  "en": "We have continuous integration, we have continuous deployment.",
+  "zh": "我们有 continuous integration，我们有 continuous deployment。"
+ },
+ {
+  "seg": 47,
+  "start": 289.92,
+  "end": 296,
+  "speaker": "Don Syme",
+  "en": "And then there are this whole range of activities that people want to do in this continuous modality.",
+  "zh": "然后有一系列活动人们想在这个 continuous 模式中做。"
+ },
+ {
+  "seg": 48,
+  "start": 296.24,
+  "end": 312.24,
+  "speaker": "Don Syme",
+  "en": "And the continuous modality is just so central to how we work in the in the software industry that change is happening in this kind of context, usually the repository, but there can be other kinds of contexts, the organization or multi-repo.",
+  "zh": "而 continuous 模式对我们在软件行业的工作方式如此核心，变化发生在这种上下文中，通常是 repository，但也可以是其他类型的上下文，组织或多 repo。"
+ },
+ {
+  "seg": 49,
+  "start": 312.96,
+  "end": 334.24,
+  "speaker": "Don Syme",
+  "en": "And that means continuous means you're kind of continually folding in that kind of sense of change and eventing and difference and sort of uh incrementality that's kind of happening and always re-establishing this crucial invariance like uh the software actually works, you know, in kind of continuous integration, or the software is correctly deployed uh in continuous deployment.",
+  "zh": "这意味着 continuous 意味着你某种程度不断地融入那种变化和事件和差异的感觉，以及 uh 那种正在发生的增量，并总是重新建立这种关键的不变性，比如 uh 软件确实有效，你知道，在 continuous integration 中，或者软件被正确部署 uh 在 continuous deployment 中。"
+ },
+ {
+  "seg": 50,
+  "start": 334.32,
+  "end": 344.48,
+  "speaker": "Don Syme",
+  "en": "And a lot of these things are very they're they're they're central uh to how we how software collaboration and deployment works.",
+  "zh": "很多这些东西非常它们是它们是它们是中心呃对于我们如何软件协作和部署工作是。"
+ },
+ {
+  "seg": 51,
+  "start": 344.64,
+  "end": 352.16,
+  "speaker": "Don Syme",
+  "en": "But equally we want something new, which is also these subjective activities like continuous documentation.",
+  "zh": "但同样我们也想要一些新的东西，也就是这些主观的活动，比如持续文档。"
+ },
+ {
+  "seg": 52,
+  "start": 352.24,
+  "end": 356.64,
+  "speaker": "Don Syme",
+  "en": "Now, writing documentation is a kind of is a is is a subjective activity.",
+  "zh": "现在，编写文档是一种是一种是是是一种主观的活动。"
+ },
+ {
+  "seg": 53,
+  "start": 356.72,
+  "end": 361.44,
+  "speaker": "Don Syme",
+  "en": "It's not the sort of thing we those CICD kind of concerns are about like determinism.",
+  "zh": "这不是那种我们那些 CICD 类型的关注点是关于像确定性的东西。"
+ },
+ {
+  "seg": 54,
+  "start": 361.52,
+  "end": 364.48,
+  "speaker": "Don Syme",
+  "en": "We want everything to be exactly right and double check absolutely everything.",
+  "zh": "我们希望一切都是完全正确的并绝对复查所有东西。"
+ },
+ {
+  "seg": 55,
+  "start": 365.04,
+  "end": 370.88,
+  "speaker": "Guy Fajani",
+  "en": "Repetition and sort of insistence that it always happens, like a lack of less creativity and more consistency.",
+  "zh": "重复以及那种坚持它总是发生，像是一种更少的创造力和更多的一致性。"
+ },
+ {
+  "seg": 56,
+  "start": 371.12,
+  "end": 372.16,
+  "speaker": "Don Syme",
+  "en": "Yeah, that's right.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 57,
+  "start": 372.32,
+  "end": 388.8,
+  "speaker": "Don Syme",
+  "en": "And but now we have this whole new bucket of things, like we want to continuously improve the performance of our software, we want to uh continuously uh fix bugs in our we want to continually triage bugs or have every issue labelled correctly within cut some kind of schema.",
+  "zh": "但是现在我们有了这一整桶新的事情，像我们要持续提高我们软件的性能，我们要呃持续呃修复我们我们要持续地对错误进行分类或者在某个模式内正确标记每个问题。"
+ },
+ {
+  "seg": 58,
+  "start": 388.96,
+  "end": 404.8,
+  "speaker": "Don Syme",
+  "en": "We want to continuously look for duplicates in our in our in our bugs, and of course you can kind of do this as a these things each as a one-off, but in the end, you're gonna have to put them on some kind of operational permanent kind of basis in the context of change.",
+  "zh": "我们要持续查找我们我们我们错误中的重复项，当然你可以把这些事情每一件都当作一次性的事情来做，但最终，你将不得不把它们放在某种运营的永久的某种基础上在变化的背景下。"
+ },
+ {
+  "seg": 59,
+  "start": 404.96,
+  "end": 412,
+  "speaker": "Don Syme",
+  "en": "And it's so easy for people to kind of blank on that and kind of say, Oh, look, I can I can find the duplicate bugs in my repo.",
+  "zh": "人们很容易对这件事感到空白并说，哦，看，我可以我可以在我的仓库里找到重复的错误。"
+ },
+ {
+  "seg": 60,
+  "start": 412.32,
+  "end": 414.56,
+  "speaker": "Don Syme",
+  "en": "But you've got to make that continuous, right?",
+  "zh": "但你必须让它持续化，对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 414.64,
+  "end": 421.36,
+  "speaker": "Don Syme",
+  "en": "You gotta you gotta get that on an operational, permanently running kind of basis for that to really be a sustained activity.",
+  "zh": "你必须你必须让它处于一种运营的、永久运行的某种基础上，那才能真正成为一种可持续的活动。"
+ },
+ {
+  "seg": 62,
+  "start": 421.6,
+  "end": 429.6,
+  "speaker": "Don Syme",
+  "en": "So we looked at this kind of collection of things and we said, well, what what really characterizes this is they're different to CI, they're different to C D, but they're also similar.",
+  "zh": "所以我们看了这一类事情并说，好吧，什么什么真正表征了它们是它们不同于 CI，它们不同于 C D，但它们也相似。"
+ },
+ {
+  "seg": 63,
+  "start": 429.84,
+  "end": 436.8,
+  "speaker": "Don Syme",
+  "en": "Okay, and it's that con that that and that said, well, let's partner that CI, CD, and continuous AI.",
+  "zh": "好的，就是那个那个那个并且那个说，好吧，让我们配对那个 CI、CD 和持续 AI。"
+ },
+ {
+  "seg": 64,
+  "start": 437.12,
+  "end": 444.56,
+  "speaker": "Don Syme",
+  "en": "And the the the key things is continuous but also kind of subjective and implemented with kind of AI, and that's and that's where we land with that term.",
+  "zh": "那那个那个关键的事情是持续的但也是某种主观的并用某种 AI 实现的，而那就是那就是我们用那个术语落脚的地方。"
+ },
+ {
+  "seg": 65,
+  "start": 445.04,
+  "end": 453.04,
+  "speaker": "Don Syme",
+  "en": "When we put that out there, and it kind of seemed to resonate with people, it kind of captured something that other people weren't talking about, and that that that's that's our conversation.",
+  "zh": "当我们把它发布出去时，它似乎与人们产生了共鸣，它捕捉到了其他人没有谈论的东西，而那那那就是我们的谈话。"
+ },
+ {
+  "seg": 66,
+  "start": 453.44,
+  "end": 457.36,
+  "speaker": "Guy Fajani",
+  "en": "It's sort of uh so I like let me kind of echo back a little bit and the things that resonate with me.",
+  "zh": "它是某种呃所以我喜欢让我稍微回响一点和那些与我产生共鸣的事情。"
+ },
+ {
+  "seg": 67,
+  "start": 457.44,
+  "end": 465.84,
+  "speaker": "Guy Fajani",
+  "en": "So it starts from the sort of the single player to multiplayer move on it, um, and then I guess naturally over there weaves into into automation, right?",
+  "zh": "所以它从那种从单人到多人的转变开始，嗯，然后我想自然地在那里编织成进入自动化，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 465.92,
+  "end": 473.84,
+  "speaker": "Guy Fajani",
+  "en": "Because to one extent, like we talk about continuous, but I think what happens with AI is that it has this jagged edge, and you know, sometimes it works amazing and sometimes not.",
+  "zh": "因为在一定程度上，像我们谈论持续，但我认为 AI 发生的事情是它有这种锯齿状边缘，你知道，有时它工作得惊人有时不。"
+ },
+ {
+  "seg": 69,
+  "start": 473.92,
+  "end": 485.52,
+  "speaker": "Guy Fajani",
+  "en": "And we have this kind of uh hard to uh determine points in time in which we want a human to intervene and apply their judgment, which is really a blocker for scaling.",
+  "zh": "我们有这种很难呃确定的时间点我们希望人类进行干预并应用他们的判断，这真的是规模化的一个阻碍。"
+ },
+ {
+  "seg": 70,
+  "start": 485.68,
+  "end": 496.48,
+  "speaker": "Guy Fajani",
+  "en": "And in that sense, it's similar to uh continuous integration because before continuous integration was non-continuous integration, like you know, someone manually running it and so running the sequences.",
+  "zh": "在那个意义上，它类似于呃持续集成因为在持续集成之前是非持续集成，像你知道某人手动运行它所以运行序列。"
+ },
+ {
+  "seg": 71,
+  "start": 497.04,
+  "end": 511.76,
+  "speaker": "Don Syme",
+  "en": "There was a lot of homebrew uh continuous uh uh automation as well, sort of gauntlet systems or something like your your PR would run the gauntlet of your organization, and and that kind of all came together into things like GitHub Actions and other CI CD kind of systems.",
+  "zh": "有很多自制呃持续呃呃自动化，像跑酷系统或类似的东西你的你的 PR 会跑你们组织的跑酷，而那种那种一切都汇聚到了像 GitHub Actions 和其他 CI CD 类型的系统中。"
+ },
+ {
+  "seg": 72,
+  "start": 512.48,
+  "end": 518.48,
+  "speaker": "Don Syme",
+  "en": "And uh we see plenty of homebrew for people kind of automating uh parts of AI kind of workflows as well.",
+  "zh": "并且呃我们看到很多自制对于人们自动化呃 AI 类工作流的部分。"
+ },
+ {
+  "seg": 73,
+  "start": 518.56,
+  "end": 528.24,
+  "speaker": "Don Syme",
+  "en": "And it's just like, yeah, you know, we we've we should consolidate that into systematic ways of thinking about it and systematic ways of actually kind of doing it in practice as well.",
+  "zh": "这就像，是的，你知道，我们我们应该将其整合成系统化的思考方式以及在实践中实际系统化地做事情的方式。"
+ },
+ {
+  "seg": 74,
+  "start": 528.56,
+  "end": 528.96,
+  "speaker": "Don Syme",
+  "en": "Performing.",
+  "zh": "Performing."
+ },
+ {
+  "seg": 75,
+  "start": 529.36,
+  "end": 576.16,
+  "speaker": "Guy Fajani",
+  "en": "So so so it has these maybe like two different routes, uh one one going from single player to multiplayer and the collaboration element to it, the other is the automation, uh, and sort of do this repeatedly, maybe starts with sort of homebrew automation and uh and doing it and then consolidating those into the sort of infrastructure that is CICD um usage style, but extended and expanded into uh the type of actions that AI can now do are uh naturally less deterministic uh in uh in nature, and so that really leans into not just the automation but also the definition of how would you track this activity, what is a failed build, you know, versus a successful one.",
+  "zh": "所以所以所以它可能有这也许像两条不同的路线，呃一个从单人到多人以及它的协作元素，另一个是自动化，呃，和某种重复做这个，也许开始于某种自制自动化和呃做这个然后整合那些进入是 CICD 呃使用风格的基础设施，但扩展并扩展进入呃 AI 现在能做的动作类型是呃自然地更少确定性呃在呃本质上，所以那真的不仅仅是倾向于自动化而且还有如何跟踪这项活动的定义，什么是失败的构建，你知道，相对于一个成功的。"
+ },
+ {
+  "seg": 76,
+  "start": 576.32,
+  "end": 577.44,
+  "speaker": "Guy Fajani",
+  "en": "How do you continue with that?",
+  "zh": "你如何继续那个？"
+ },
+ {
+  "seg": 77,
+  "start": 577.6,
+  "end": 581.68,
+  "speaker": "Guy Fajani",
+  "en": "Does that so all of those kind of bundle into that term of continuous AI?",
+  "zh": "那是否所以所有那些都捆绑进持续 AI 这个术语中？"
+ },
+ {
+  "seg": 78,
+  "start": 581.92,
+  "end": 582.72,
+  "speaker": "Don Syme",
+  "en": "Yeah, yeah, absolutely.",
+  "zh": "是的，是的，绝对。"
+ },
+ {
+  "seg": 79,
+  "start": 582.8,
+  "end": 585.68,
+  "speaker": "Don Syme",
+  "en": "And there's another key aspect here, which is about bounding the context.",
+  "zh": "这里还有另一个关键方面，是关于限定上下文的。"
+ },
+ {
+  "seg": 80,
+  "start": 585.84,
+  "end": 592.08,
+  "speaker": "Don Syme",
+  "en": "I think we're gonna kind of talk uh bounding the context of automation and bounding the possibilities of what happens in the automation.",
+  "zh": "我想我们要某种谈论呃限定自动化的上下文和限定自动化中发生事情的可能性。"
+ },
+ {
+  "seg": 81,
+  "start": 592.48,
+  "end": 601.2,
+  "speaker": "Don Syme",
+  "en": "People, um, conversations about some kind of automated I often go AI go off the rails unless you're actually situated inside actually some bounded kind of context.",
+  "zh": "人们，嗯，关于某种自动化的对话经常说 AI 会失控除非你实际上确实位于在某种限定的上下文里。"
+ },
+ {
+  "seg": 82,
+  "start": 601.36,
+  "end": 615.84,
+  "speaker": "Don Syme",
+  "en": "But we're gonna do this in the repository with these particular outcomes, uh, like it can create a single pull request, it can create a single issue, uh, that whatever the the job of the automation is on each run, it gets these particular kinds of inputs and doesn't get anything else.",
+  "zh": "但我们要在这个仓库里做这些特定的结果，呃，像它可以创建一个单一的拉取请求，它可以创建一个单一的问题，呠，无论无论自动化的工作是在每次运行时是什么，它得到这些特定的类型的输入并且得不到其他任何东西。"
+ },
+ {
+  "seg": 83,
+  "start": 616,
+  "end": 617.76,
+  "speaker": "Don Syme",
+  "en": "It has a firewall around it and so on.",
+  "zh": "它周围有一个防火墙等等。"
+ },
+ {
+  "seg": 84,
+  "start": 617.92,
+  "end": 628.24,
+  "speaker": "Don Syme",
+  "en": "So to have these kind of bounded, easy to understand, simple, uh kind of simplified view of what are we, what automation are we actually doing here?",
+  "zh": "所以要有这种限定的、容易理解的、简单的，呃某种简化的我们在做什么视图，我们在这里实际做什么自动化？"
+ },
+ {
+  "seg": 85,
+  "start": 628.32,
+  "end": 639.04,
+  "speaker": "Don Syme",
+  "en": "And because people are already really familiar with CI CD automation, yeah, a lot of people use GitHub Actions or some other kind of CID systems, all sorts of people can successfully kind of use those.",
+  "zh": "因为人们已经非常熟悉 CI CD 自动化，是的，很多人使用 GitHub Actions 或其他某种 CICD 系统，各种各样的人都能成功地使用那些。"
+ },
+ {
+  "seg": 86,
+  "start": 639.28,
+  "end": 656.56,
+  "speaker": "Don Syme",
+  "en": "It's really a natural starting point for uh for saying, hey, let's automate, let's like let's do this together uh in the in the because we're all doing it already, and now let's kind of automate some AI-driven subjective uh kind of elements of this as well.",
+  "zh": "这真的说自然的起点，呃用于说，嘿，让我们自动化，让我们像让我们一起做这个在在因为我们已经在做了，现在让我们也自动化一些 AI 驱动的主观呃这类事情。"
+ },
+ {
+  "seg": 87,
+  "start": 656.72,
+  "end": 660.16,
+  "speaker": "Don Syme",
+  "en": "And so yeah, situating it there does make a lot of sense.",
+  "zh": "所以是的，把它放在那里确实很有意义。"
+ },
+ {
+  "seg": 88,
+  "start": 660.24,
+  "end": 662.72,
+  "speaker": "Don Syme",
+  "en": "It's also counterintuitive to a lot of people, I gotta say.",
+  "zh": "我不得不说，这对很多人来说也是反直觉的。"
+ },
+ {
+  "seg": 89,
+  "start": 662.88,
+  "end": 668.96,
+  "speaker": "Don Syme",
+  "en": "A lot of people listening on this might say, CI CD, I don't want AI anywhere near that, right?",
+  "zh": "很多听这个的人可能会说，CI CD，我不希望 AI 靠近它，对吧？"
+ },
+ {
+  "seg": 90,
+  "start": 669.28,
+  "end": 676.8,
+  "speaker": "Don Syme",
+  "en": "That's like that's my determinism, and there's a reason for that, which is it the one of my friends kind of says, it's the place where the grown-ups are, right?",
+  "zh": "这就像那那是我的确定性，这有一个原因，这就像我的一个朋友某种说的，这是成年人在的地方，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 676.96,
+  "end": 681.44,
+  "speaker": "Don Syme",
+  "en": "You know, it's the place that really establishes that your system actually works as it is.",
+  "zh": "你知道，这是真正确立你的系统确实按原样工作的地方。"
+ },
+ {
+  "seg": 92,
+  "start": 681.6,
+  "end": 684.08,
+  "speaker": "Don Syme",
+  "en": "And a lot of people have plenty of problems with their CI CD systems.",
+  "zh": "很多人对他们的 CI CD 系统有很多问题。"
+ },
+ {
+  "seg": 93,
+  "start": 684.16,
+  "end": 697.2,
+  "speaker": "Don Syme",
+  "en": "It's not like it's it's a it it's it's so important uh that's a major focus for team activity, is just kind of get the invariants established there, get get the green ticks and get everything kind of checked there.",
+  "zh": "它不像是它是它是它是如此重要呠那是团队活动的主要焦点，就是某种在那里确立不变量，得到得到绿色勾选并让所有东西都得到检查。"
+ },
+ {
+  "seg": 94,
+  "start": 697.28,
+  "end": 699.44,
+  "speaker": "Don Syme",
+  "en": "They use it for everything because it's so useful.",
+  "zh": "他们把它用于所有事情因为它太有用了。"
+ },
+ {
+  "seg": 95,
+  "start": 699.6,
+  "end": 708.4,
+  "speaker": "Don Syme",
+  "en": "And the thought of adding kind of more subjective activities into that, like uh labeling or issue triage or bug fixing, that that that can be disturbing for people.",
+  "zh": "想到加入更多主观活动到那里，像呠标记或问题分类或修复错误，那那那可能会让人们感到困扰。"
+ },
+ {
+  "seg": 96,
+  "start": 708.48,
+  "end": 712.08,
+  "speaker": "Don Syme",
+  "en": "And it's one reason that we don't say we're putting AI into your CI.",
+  "zh": "这就是我们不说我们要把 AI 放进你的 CI 的原因之一。"
+ },
+ {
+  "seg": 97,
+  "start": 712.24,
+  "end": 714.8,
+  "speaker": "Don Syme",
+  "en": "No, no, no, no, no, no, we don't do that at all.",
+  "zh": "不，不，不，不，不，不，我们根本不那样做。"
+ },
+ {
+  "seg": 98,
+  "start": 714.88,
+  "end": 717.2,
+  "speaker": "Don Syme",
+  "en": "It's CICD, they stay as they are.",
+  "zh": "它是 CICD，它们保持原样。"
+ },
+ {
+  "seg": 99,
+  "start": 717.68,
+  "end": 720,
+  "speaker": "Don Syme",
+  "en": "And continuous AI is a separate bucket of things.",
+  "zh": "持续 AI 是一个独立桶的事情。"
+ },
+ {
+  "seg": 100,
+  "start": 720.08,
+  "end": 722.96,
+  "speaker": "Don Syme",
+  "en": "You can do none of it if you like, you can do a lot of it if you like.",
+  "zh": "如果你愿意，你可以什么都不做，如果你愿意，你可以做很多。"
+ },
+ {
+  "seg": 101,
+  "start": 723.12,
+  "end": 733.28,
+  "speaker": "Don Syme",
+  "en": "You can dial that as you like, and that's really, really important that we're not marking with the core ethos of what CICD does and how crucial that is in the industry.",
+  "zh": "你可以随意调节，这真的非常重要，我们没有标记 CICD 的核心精神以及它在行业中的关键作用。"
+ },
+ {
+  "seg": 102,
+  "start": 733.36,
+  "end": 740,
+  "speaker": "Don Syme",
+  "en": "We want people to double down on that because that's where we really establish software equality in the industry.",
+  "zh": "我们希望人们加倍重视这一点，因为这是我们真正在行业中建立软件平等的地方。"
+ },
+ {
+  "seg": 103,
+  "start": 740.96,
+  "end": 742.64,
+  "speaker": "Guy Fajani",
+  "en": "I think so so I I relate to that.",
+  "zh": "我这么认为，所以我我对此有共鸣。"
+ },
+ {
+  "seg": 104,
+  "start": 742.72,
+  "end": 749.04,
+  "speaker": "Guy Fajani",
+  "en": "I I think uh like on the context of of context, you know, of like defining context and uh defining it.",
+  "zh": "我我想 uh like 在 of of context 的语境下，you know，of like 定义 context 以及 uh 定义它。"
+ },
+ {
+  "seg": 105,
+  "start": 749.2,
+  "end": 758.4,
+  "speaker": "Guy Fajani",
+  "en": "Um I I do think that there's a lot of analogies to the world of CI CD in that environments are actually a core element of CI CD as well, right?",
+  "zh": "Um 我我确实认为有很多与 CI CD 世界的类比，因为环境实际上也是 CI CD 的核心元素，对吧？"
+ },
+ {
+  "seg": 106,
+  "start": 758.48,
+  "end": 762.8,
+  "speaker": "Guy Fajani",
+  "en": "They had us move up from works on my machine to something that is defined.",
+  "zh": "它们让我们从“在我的机器上能跑”上升到某种被定义的东西。"
+ },
+ {
+  "seg": 107,
+  "start": 762.88,
+  "end": 765.84,
+  "speaker": "Guy Fajani",
+  "en": "Continuous deployment is about the environment of the production.",
+  "zh": "持续部署是关于生产环境的环境。"
+ },
+ {
+  "seg": 108,
+  "start": 766,
+  "end": 781.44,
+  "speaker": "Guy Fajani",
+  "en": "And so defining the context uh is just just this probably, I'm saying it in quotes because it might uh um it it's it might actually get fairly complex, uh uh just a new type of environment variable for it.",
+  "zh": "所以定义 context uh 只是只是这可能，我打着手势说这个，因为它可能 uh um it it 它可能实际上变得相当复杂，uh uh 只是为它准备的一种新的环境变量。"
+ },
+ {
+  "seg": 109,
+  "start": 781.76,
+  "end": 787.76,
+  "speaker": "Guy Fajani",
+  "en": "But I it it's a good uh it's a good uh tee-up though to a question I had, which is, you know, you use the term continuous AI.",
+  "zh": "但我它它这是一个很好的 uh tee-up，引出我的一个问题，也就是，you know，你用了 continuous AI 这个术语。"
+ },
+ {
+  "seg": 110,
+  "start": 787.92,
+  "end": 795.44,
+  "speaker": "Guy Fajani",
+  "en": "I feel like there's a lot of analogies in the continuous AI narrative to the world of sort of factories and factory lines.",
+  "zh": "我觉得在 continuous AI 的叙事中有很多与工厂世界和工厂流水线的类比。"
+ },
+ {
+  "seg": 111,
+  "start": 795.6,
+  "end": 812.64,
+  "speaker": "Guy Fajani",
+  "en": "In my uh in my own kind of A native DevCon uh um talk, I talked about sort of the software stack, and in one of those paths, I was a little bit stuck with saying, okay, you have uh models on top of which you have tools, on top of which you have skills, on top of which you have harnesses, they all kind of compose down.",
+  "zh": "在我的 uh 在我自己的 A native DevCon uh um 演讲中，我谈到了软件栈，在其中一个路径中，我有点卡在说，OK，你有 uh models 在其上你有 tools，在其上你有 skills，在其上你有 harnesses，它们都以此向下组合。"
+ },
+ {
+  "seg": 112,
+  "start": 812.8,
+  "end": 816.48,
+  "speaker": "Guy Fajani",
+  "en": "And then the harness, it was hard to know what's above a harness.",
+  "zh": "然后 harness，很难知道 harness 上面是什么。"
+ },
+ {
+  "seg": 113,
+  "start": 816.8,
+  "end": 819.44,
+  "speaker": "Guy Fajani",
+  "en": "Uh and you know, I wrote there a factory line.",
+  "zh": "Uh you know 我在那里写了一个 factory line。"
+ },
+ {
+  "seg": 114,
+  "start": 819.52,
+  "end": 823.92,
+  "speaker": "Guy Fajani",
+  "en": "The term loop became popular like the next week or something, so maybe that's the term on it.",
+  "zh": "loop 这个术语在接下来的一周左右变得流行起来，所以也许就是那个术语。"
+ },
+ {
+  "seg": 115,
+  "start": 824.64,
+  "end": 826.16,
+  "speaker": "Guy Fajani",
+  "en": "Now you have this continuous AI.",
+  "zh": "现在你有了这个 continuous AI。"
+ },
+ {
+  "seg": 116,
+  "start": 826.32,
+  "end": 833.12,
+  "speaker": "Guy Fajani",
+  "en": "But I guess I guess do you feel those are just different words, or is like a system harness or a factory line or even a loop?",
+  "zh": "但我猜我猜你觉得那些只是不同的词，还是像 system harness 或 factory line 甚至 loop 这样的东西？"
+ },
+ {
+  "seg": 117,
+  "start": 833.28,
+  "end": 835.92,
+  "speaker": "Guy Fajani",
+  "en": "A loop has a little bit of that optimization piece to it.",
+  "zh": "loop 有一点那个优化的部分。"
+ },
+ {
+  "seg": 118,
+  "start": 836.08,
+  "end": 844.16,
+  "speaker": "Guy Fajani",
+  "en": "Uh the the same as continuous AI, I guess how much how much is just a different lens to arrive at the same destination versus you're defining something different?",
+  "zh": "Uh the the same as continuous AI，我猜多少多少只是不同的视角来达到相同的目的，还是你在定义不同的东西？"
+ },
+ {
+  "seg": 119,
+  "start": 844.48,
+  "end": 862.48,
+  "speaker": "Don Syme",
+  "en": "I think I some of those conversations like are orthogonal, because the shift that I'm most interested in is this one from the kind of individual productivity point of view to something which is more continuous and kind of team and kind of integrated into some particular kind of context.",
+  "zh": "我我有些那些对话 like 是正交的，因为我最感兴趣的这种转变是从个人生产力的观点到某种更连续的、更像团队的并整合到某种特定 context 中的东西。"
+ },
+ {
+  "seg": 120,
+  "start": 862.96,
+  "end": 872,
+  "speaker": "Don Syme",
+  "en": "And so um a lot of the things that are kind of getting developed, like the notion of kind of loop engineering, you can apply that all in a kind of continuous AI setting.",
+  "zh": "所以 um 很多正在开发的东西，like loop engineering 的概念，你可以在 continuous AI 环境中应用所有这些。"
+ },
+ {
+  "seg": 121,
+  "start": 872.08,
+  "end": 884,
+  "speaker": "Don Syme",
+  "en": "The ledger of record might be different because we typically use the repository and the issues pull requests as the actual kind of ledger of record of what happens and maybe some augmenting kind of things as part of that.",
+  "zh": "record ledger 可能是不同的，因为我们通常使用 repository 和 issues pull requests 作为实际发生的 record ledger，也许还有一些作为其一部分的 augmenting 类型的东西。"
+ },
+ {
+  "seg": 122,
+  "start": 884.24,
+  "end": 893.2,
+  "speaker": "Don Syme",
+  "en": "Uh whereas maybe if you're kind of loop engineering on your local dev machine or something like that, you might be using a different kind of ledger and uh uh so on.",
+  "zh": "Uh whereas maybe if you're 在你的本地 dev machine 上做 kind of loop engineering 或类似的东西，你可能会使用一种不同类型的 ledger 以及 uh uh so on。"
+ },
+ {
+  "seg": 123,
+  "start": 893.44,
+  "end": 899.2,
+  "speaker": "Don Syme",
+  "en": "Uh but the concepts can actually flow very freely between the two, and I really like that.",
+  "zh": "Uh 但这些概念实际上可以在两者之间自由流动，我真的很喜欢这一点。"
+ },
+ {
+  "seg": 124,
+  "start": 899.28,
+  "end": 908.72,
+  "speaker": "Don Syme",
+  "en": "It's like it's you know, there's a lot of conceptual kind of uh competition in that kind of like what comes next kind of space in the individual productivity space.",
+  "zh": "就像 it's you know，在个人生产力领域那种概念性的 uh 竞争很多，in that kind of like what comes next kind of space。"
+ },
+ {
+  "seg": 125,
+  "start": 908.8,
+  "end": 910.96,
+  "speaker": "Don Syme",
+  "en": "And I kind of like saying, hey, that's not what we're doing.",
+  "zh": "我有点喜欢说，嘿，那不是我们在做的。"
+ },
+ {
+  "seg": 126,
+  "start": 911.04,
+  "end": 921.2,
+  "speaker": "Don Syme",
+  "en": "We're we're over here, and yeah, you do all of that and bring it over, like bring over all the good ideas and and rethink them how they kind of work in the like uh have what what the loops kind of mean.",
+  "zh": "We're we're over here，而且 yeah，你做所有那些并把它带过来，like 带来所有的好想法 and and 重新思考它们在 like uh have what what the loops kind of mean 中是如何工作的。"
+ },
+ {
+  "seg": 127,
+  "start": 921.44,
+  "end": 930.24,
+  "speaker": "Don Syme",
+  "en": "It might mean lots of steps of a loop, like you get to see you uh you set the uh continuous AI um uh setup.",
+  "zh": "它可能意味着一个 loop 的很多步骤，like 你看到你 uh 你设置了 uh continuous AI um uh setup。"
+ },
+ {
+  "seg": 128,
+  "start": 930.4,
+  "end": 937.2,
+  "speaker": "Don Syme",
+  "en": "Like we have goal chasers, for example, continuous goal chasers, which once a day try and make progress towards some particular defined goal.",
+  "zh": "就像我们有 goal chasers，例如，continuous goal chasers，它们每天一次尝试朝向某个特定的定义目标取得进展。"
+ },
+ {
+  "seg": 129,
+  "start": 937.28,
+  "end": 944,
+  "speaker": "Don Syme",
+  "en": "And each day you get a pull request towards that goal, and you kind of integrate those, but it maybe it won't work on the next pull request until you've done the previous one.",
+  "zh": "每天你都会收到一个朝向该目标的 pull request，你某种程度整合它们，但它也许在完成前一个之前不会在下一个 pull request 上工作。"
+ },
+ {
+  "seg": 130,
+  "start": 944.08,
+  "end": 947.44,
+  "speaker": "Don Syme",
+  "en": "So it's kind of a it's not really a loop, is that a loop or is it not a loop?",
+  "zh": "所以它有点像它不是一个 loop，那是 loop 还是 loop？"
+ },
+ {
+  "seg": 131,
+  "start": 947.52,
+  "end": 957.12,
+  "speaker": "Don Syme",
+  "en": "It's kind of a loop because it's kind of you know repeating those pull requests towards a goal, but it's it's a cooperative loop that's actually quite slow in its kind of action.",
+  "zh": "它有点像 loop 因为它有点 like you know 重复那些朝向目标的 pull requests，但它它是一个协作 loop，在其行动中实际上相当慢。"
+ },
+ {
+  "seg": 132,
+  "start": 957.28,
+  "end": 967.68,
+  "speaker": "Don Syme",
+  "en": "That might be what an enterprise exactly wants to kind of to kind of chip away at the kind of all the big backlog of accessibility bugs or something like that that uh that a product has.",
+  "zh": "这可能正是企业确切想要用来一点一点解决 kind of 所有大型可访问性错误积压或类似的东西 uh 那一个产品有的。"
+ },
+ {
+  "seg": 133,
+  "start": 967.84,
+  "end": 978.64,
+  "speaker": "Don Syme",
+  "en": "You know, that that those kind of loops are actually really satisfying for teams where they have like this cadence of like daily improvement towards some kind of goal uh that is measurable.",
+  "zh": "You know，that that 那种类型的 loops 对于拥有某种可衡量目标的日常改进节奏的团队来说实际上非常令人满意 uh。"
+ },
+ {
+  "seg": 134,
+  "start": 978.72,
+  "end": 983.2,
+  "speaker": "Don Syme",
+  "en": "You can see you're making progress, and managers can kind of understand what's kind of going on.",
+  "zh": "你可以看到你正在取得进展，managers 可以 kind of 理解 kind of 发生的事情。"
+ },
+ {
+  "seg": 135,
+  "start": 983.36,
+  "end": 992.16,
+  "speaker": "Don Syme",
+  "en": "Whereas, you know, if it's in the kind of loop engineering world where the individual developer is like, yeah, I fixed a thousand kind of accessibility bugs, and here's a thousand pull requests for the team to review.",
+  "zh": "Whereas，you know，如果是在那种 loop engineering 世界中，个人开发者就像，yeah，我修复了一千个 kind of 可访问性 bugs，这里是给团队 review 的一千个 pull requests。"
+ },
+ {
+  "seg": 136,
+  "start": 992.24,
+  "end": 1001.68,
+  "speaker": "Don Syme",
+  "en": "Let's you all have to spend or drop everything you're doing and kind of review those, you know, that that's kind of a little bit like uh a little bit disruptive to how teams work, kind of things.",
+  "zh": "Let's 你们大家都必须花费 or 放下手头的一切工作并 kind of review 那些，you know，that that 对于团队的工作方式有点像 uh 有点破坏性的 kind of things。"
+ },
+ {
+  "seg": 137,
+  "start": 1002.32,
+  "end": 1009.76,
+  "speaker": "Don Syme",
+  "en": "So we kind of get to shape things a bit differently in uh in in when you when you slow things down a bit and kind of move in a different kind of pace.",
+  "zh": "所以当我们当你稍微放慢一点并以不同的 kind of pace 移动时，我们可以有点不同地塑造事物 uh in in in when you。"
+ },
+ {
+  "seg": 138,
+  "start": 1010.16,
+  "end": 1017.2,
+  "speaker": "Guy Fajani",
+  "en": "I feel like I I relate to the the distinction between the single player and the multiplayer.",
+  "zh": "我觉得我我我对单人游戏和多人游戏之间的区别有共鸣。"
+ },
+ {
+  "seg": 139,
+  "start": 1017.28,
+  "end": 1018.64,
+  "speaker": "Guy Fajani",
+  "en": "I think that is very important.",
+  "zh": "我认为这非常重要。"
+ },
+ {
+  "seg": 140,
+  "start": 1018.88,
+  "end": 1021.28,
+  "speaker": "Guy Fajani",
+  "en": "Uh there are still sort of two things here.",
+  "zh": "Uh 这里仍然有两件事。"
+ },
+ {
+  "seg": 141,
+  "start": 1021.44,
+  "end": 1027.76,
+  "speaker": "Guy Fajani",
+  "en": "One is the the the pipeline, uh so the continuous AI element of the pipeline.",
+  "zh": "一个是 the the the pipeline，uh 所以 pipeline 的 continuous AI 元素。"
+ },
+ {
+  "seg": 142,
+  "start": 1027.92,
+  "end": 1050.24,
+  "speaker": "Guy Fajani",
+  "en": "This is a uh uh an aspiration to get to a point in which you can get a a recurring or like a repeatable motion of getting a type of input to come into the pipeline and process it and get a certain caliber output out of it in a repeatable fashion from the maybe it's even two other aspects.",
+  "zh": "这是一个 uh uh 愿望，想要达到一个点，在这个点上你可以获得一种重复的 or like 可重复的动作，让某种类型的输入进入 pipeline 并处理它，并以可重复的方式从可能它甚至还有其他两个方面获得某种水准的输出。"
+ },
+ {
+  "seg": 143,
+  "start": 1050.48,
+  "end": 1058.4,
+  "speaker": "Guy Fajani",
+  "en": "What I would what I would say is a loop, which is more look at how that was done again and again uh for it and improve it.",
+  "zh": "我我会说的是一个 loop，它更多的是看它是如何一次又一次地完成的 uh for it 并改进它。"
+ },
+ {
+  "seg": 144,
+  "start": 1058.48,
+  "end": 1060.48,
+  "speaker": "Guy Fajani",
+  "en": "So so a self-improving pipeline.",
+  "zh": "所以所以一条自我改进的 pipeline。"
+ },
+ {
+  "seg": 145,
+  "start": 1060.8,
+  "end": 1063.52,
+  "speaker": "Guy Fajani",
+  "en": "So because you can apply a loop to CI CD.",
+  "zh": "因为你可以将 loop 应用于 CI CD。"
+ },
+ {
+  "seg": 146,
+  "start": 1063.68,
+  "end": 1070.08,
+  "speaker": "Guy Fajani",
+  "en": "I mean, in fact, we do it, you know, and and we do it for ourselves, we do it with the Tesla agent for others, which is uh fix flaky tests.",
+  "zh": "我是说，实际上，我们就是这样做的，you know，and 我们为自己做，我们用 Tesla agent 为别人做，它是 uh 修复不稳定的测试。"
+ },
+ {
+  "seg": 147,
+  "start": 1070.4,
+  "end": 1079.84,
+  "speaker": "Guy Fajani",
+  "en": "So flaky tests are an example of uh of something that isn't necessarily a pipeline in its own right, maybe it is, but it is about identifying failures in the CI CD and fixing them.",
+  "zh": "所以 flaky tests 是 uh 的一个例子，某种本身不一定是一条 pipeline 的东西，maybe it is，但它是关于识别 CI CD 中的 failures 并修复它们。"
+ },
+ {
+  "seg": 148,
+  "start": 1080.24,
+  "end": 1081.52,
+  "speaker": "Guy Fajani",
+  "en": "Uh but I think that's the loop.",
+  "zh": "Uh 但我认为那就是 loop。"
+ },
+ {
+  "seg": 149,
+  "start": 1081.6,
+  "end": 1097.28,
+  "speaker": "Guy Fajani",
+  "en": "And then I think uh debatable a little bit on the term factory, uh, where there is a proactive initiation of uh of a of a th of a of something that is like an event-driven, uh, you know, a bug was reported.",
+  "zh": "然后我认为 uh 在 factory 这个术语上有点可辩论 uh，那里有一个 uh 的主动发起 of a of a th of a of of something like an event-driven 的，uh，you know，一个 bug 被报告了。"
+ },
+ {
+  "seg": 150,
+  "start": 1097.6,
+  "end": 1098.88,
+  "speaker": "Guy Fajani",
+  "en": "That's probably not its own term.",
+  "zh": "那可能不是它自己的术语。"
+ },
+ {
+  "seg": 151,
+  "start": 1098.96,
+  "end": 1104.24,
+  "speaker": "Guy Fajani",
+  "en": "It's probably like either we're talking about two things, the pipeline and the loop is actually the initiator.",
+  "zh": "这大概就像我们要么在谈论两件事，pipeline 和 loop 实际上是 initiator。"
+ },
+ {
+  "seg": 152,
+  "start": 1104.64,
+  "end": 1107.44,
+  "speaker": "Guy Fajani",
+  "en": "So do you do you agree with that sort of separation?",
+  "zh": "那么你你同意那种分离吗？"
+ },
+ {
+  "seg": 153,
+  "start": 1107.52,
+  "end": 1113.12,
+  "speaker": "Guy Fajani",
+  "en": "We have the pipeline and the uh uh and and maybe the loop and the initiation of it.",
+  "zh": "我们有 pipeline 和 uh uh 和和 maybe the loop 和 initiation of it。"
+ },
+ {
+  "seg": 154,
+  "start": 1113.28,
+  "end": 1121.12,
+  "speaker": "Guy Fajani",
+  "en": "Uh and and and how does that relate to the GitHub agentic workflows, like the sort of the core capability that is from GitHub?",
+  "zh": "Uh 和和和那与 GitHub agentic workflows 有什么关系，like the sort of the core capability that is from GitHub？"
+ },
+ {
+  "seg": 155,
+  "start": 1121.2,
+  "end": 1122.64,
+  "speaker": "Guy Fajani",
+  "en": "I mean, what is the scope of that product?",
+  "zh": "我的意思是，那个产品的 scope 是什么？"
+ },
+ {
+  "seg": 156,
+  "start": 1122.8,
+  "end": 1123.52,
+  "speaker": "Guy Fajani",
+  "en": "Is it both of them?",
+  "zh": "是它们两个吗？"
+ },
+ {
+  "seg": 157,
+  "start": 1123.6,
+  "end": 1124.08,
+  "speaker": "Guy Fajani",
+  "en": "Is it more?",
+  "zh": "更多吗？"
+ },
+ {
+  "seg": 158,
+  "start": 1124.16,
+  "end": 1124.72,
+  "speaker": "Guy Fajani",
+  "en": "Is it others?",
+  "zh": "其他的吗？"
+ },
+ {
+  "seg": 159,
+  "start": 1124.88,
+  "end": 1128.24,
+  "speaker": "Guy Fajani",
+  "en": "Maybe tell us a little bit about the the kind of the product side, you know?",
+  "zh": "Maybe tell us a little bit about the the kind of the product side, you know？"
+ },
+ {
+  "seg": 160,
+  "start": 1128.56,
+  "end": 1132.16,
+  "speaker": "Don Syme",
+  "en": "Yeah, yeah, because we've talked kind of conceptually about kind of continuous AI.",
+  "zh": "Yeah, yeah，因为我们已经概念性地谈论了 kind of continuous AI。"
+ },
+ {
+  "seg": 161,
+  "start": 1132.32,
+  "end": 1143.68,
+  "speaker": "Don Syme",
+  "en": "And I'm very excited to say that GitHub agentic workflows, which is our uh implementation of our kind of continuous AI system for uh for GitHub Actions, uh, is now in public preview.",
+  "zh": "而且我很高兴地说 GitHub agentic workflows，这是我们的 uh implementation of our kind of continuous AI system for uh for GitHub Actions, uh，现已进入 public preview。"
+ },
+ {
+  "seg": 162,
+  "start": 1143.84,
+  "end": 1147.28,
+  "speaker": "Don Syme",
+  "en": "And um, you know, it's gonna be part of the it is part of the GitHub product lineup.",
+  "zh": "And um，you know，它将是 it is part of the GitHub product lineup 的一部分。"
+ },
+ {
+  "seg": 163,
+  "start": 1147.36,
+  "end": 1149.28,
+  "speaker": "Don Syme",
+  "en": "And so, you know, get up there and kind of use that.",
+  "zh": "And so，you know，get up there and kind of use that。"
+ },
+ {
+  "seg": 164,
+  "start": 1149.44,
+  "end": 1151.12,
+  "speaker": "Don Syme",
+  "en": "So, what is GitHub Agentic Workflows?",
+  "zh": "So, what is GitHub Agentic Workflows？"
+ },
+ {
+  "seg": 165,
+  "start": 1151.2,
+  "end": 1156.64,
+  "speaker": "Don Syme",
+  "en": "Uh we think of it as sort of intelligent automation for GitHub at the at the high level.",
+  "zh": "Uh we think of it as sort of intelligent automation for GitHub at the at the high level。"
+ },
+ {
+  "seg": 166,
+  "start": 1156.88,
+  "end": 1169.68,
+  "speaker": "Don Syme",
+  "en": "Uh and uh that concretely means you're running the coding agents you know and love, the ones you're very familiar with, you know, your Claude codes or your um copilot CLIs or your Gemini CLIs and the like.",
+  "zh": "Uh and uh that concretely means you're running the coding agents you know and love, the ones you're very familiar with, you know，your Claude codes 或 your um copilot CLIs 或 your Gemini CLIs and the like。"
+ },
+ {
+  "seg": 167,
+  "start": 1169.84,
+  "end": 1180.4,
+  "speaker": "Don Syme",
+  "en": "And you're running those uh with strong guardrails in GitHub actions uh on uh so that's on an automated kind of basis.",
+  "zh": "And you're running those uh with strong guardrails in GitHub actions uh on uh so that's on an automated kind of basis。"
+ },
+ {
+  "seg": 168,
+  "start": 1180.48,
+  "end": 1183.28,
+  "speaker": "Don Syme",
+  "en": "And all of those elements are kind of crucial to us.",
+  "zh": "And all of those elements are kind of crucial to us。"
+ },
+ {
+  "seg": 169,
+  "start": 1183.52,
+  "end": 1187.44,
+  "speaker": "Don Syme",
+  "en": "First of all, it is intelligent automation, continuous AI, like we've kind of been talking about.",
+  "zh": "First of all，它是智能自动化，continuous AI，like we've kind of been talking about。"
+ },
+ {
+  "seg": 170,
+  "start": 1188.24,
+  "end": 1189.84,
+  "speaker": "Don Syme",
+  "en": "You get a choice of coding agent.",
+  "zh": "你可以选择 coding agent。"
+ },
+ {
+  "seg": 171,
+  "start": 1189.92,
+  "end": 1194.48,
+  "speaker": "Don Syme",
+  "en": "We're not tying you into kind of co-pilot uh, although absolutely that's kind of the default one.",
+  "zh": "我们没有 kind of co-pilot uh tying you into，虽然那绝对是 kind of the default one。"
+ },
+ {
+  "seg": 172,
+  "start": 1194.56,
+  "end": 1196.32,
+  "speaker": "Don Syme",
+  "en": "It's a wonderful, wonderful coding agent.",
+  "zh": "它是一个非常非常好的 coding agent。"
+ },
+ {
+  "seg": 173,
+  "start": 1196.4,
+  "end": 1201.04,
+  "speaker": "Don Syme",
+  "en": "And uh you get the choices of models and you bring your own key and lots of kind of things about that.",
+  "zh": "And uh 你还有模型的选择，你 bring your own key 和 lots of kind of things about that。"
+ },
+ {
+  "seg": 174,
+  "start": 1201.12,
+  "end": 1202.64,
+  "speaker": "Don Syme",
+  "en": "It's all kind of open source as well.",
+  "zh": "It's all kind of open source as well。"
+ },
+ {
+  "seg": 175,
+  "start": 1202.72,
+  "end": 1205.68,
+  "speaker": "Don Syme",
+  "en": "You can kind of look at it, look at it, look at it all, how it works.",
+  "zh": "你可以 kind of look at it，look at it，look at it all，how it works。"
+ },
+ {
+  "seg": 176,
+  "start": 1205.84,
+  "end": 1208.72,
+  "speaker": "Don Syme",
+  "en": "And this with strong guardrails is absolutely key.",
+  "zh": "And this with strong guardrails is absolutely key。"
+ },
+ {
+  "seg": 177,
+  "start": 1208.8,
+  "end": 1212.88,
+  "speaker": "Don Syme",
+  "en": "And I'm kind of we're gonna be talking more about security and guardrails later on, I think.",
+  "zh": "And I'm kind of 我们稍后会更多地谈论安全和护栏，I think。"
+ },
+ {
+  "seg": 178,
+  "start": 1213.12,
+  "end": 1217.52,
+  "speaker": "Don Syme",
+  "en": "But you know, the the better the guardrails are, the faster you can run with automation.",
+  "zh": "But you know，the the better the guardrails are，the the faster you can run with automation。"
+ },
+ {
+  "seg": 179,
+  "start": 1217.68,
+  "end": 1219.12,
+  "speaker": "Don Syme",
+  "en": "It's like train tracks, you know.",
+  "zh": "It's like train tracks，you know。"
+ },
+ {
+  "seg": 180,
+  "start": 1219.2,
+  "end": 1222.08,
+  "speaker": "Don Syme",
+  "en": "The the stronger the train tracks, the the faster you can run.",
+  "zh": "The the stronger the train tracks，the the the faster you can run。"
+ },
+ {
+  "seg": 181,
+  "start": 1222.4,
+  "end": 1232.8,
+  "speaker": "Don Syme",
+  "en": "This is so crucial, and so many people are kind of missing this in that uh in the automated modality, in the continuous AI modality, you've got to be able to sleep at night.",
+  "zh": "这很关键，很多人在 uh 在 automated modality 里，在 continuous AI modality 里 kind of missing this，你必须能够 sleep at night。"
+ },
+ {
+  "seg": 182,
+  "start": 1232.88,
+  "end": 1247.6,
+  "speaker": "Don Syme",
+  "en": "You've got to be able to have those things running when you're not there and responding to things and trusting those kind of things and have making sure the inf that uh making sure all the kind of integrity and information flows are kind of right and reviewable uh to check you're not kind of leaking information.",
+  "zh": "你必须能够让那些 things running when you're not there 并响应 things 和 trusting those kind of things 和 have making sure the inf that uh making sure all the kind of integrity and information flows are kind of right and reviewable uh to check you're not kind of leaking information。"
+ },
+ {
+  "seg": 183,
+  "start": 1248,
+  "end": 1258.32,
+  "speaker": "Guy Fajani",
+  "en": "I had uh Ori from Sara on the podcast here, and he pointed out says like if you if you allow the agent to do something and you run it enough times, it it's almost inevitable that it will eventually do that thing.",
+  "zh": "我这里请到了 Sara 的 Ori，他 pointed out says like if you if you allow the agent to do something and you run it enough times，it it's almost inevitable that it will eventually do that thing。"
+ },
+ {
+  "seg": 184,
+  "start": 1258.4,
+  "end": 1259.12,
+  "speaker": "Guy Fajani",
+  "en": "So you have to do that.",
+  "zh": "So you have to do that。"
+ },
+ {
+  "seg": 185,
+  "start": 1259.36,
+  "end": 1259.6,
+  "speaker": "Guy Fajani",
+  "en": "That's right.",
+  "zh": "That's right。"
+ },
+ {
+  "seg": 186,
+  "start": 1259.68,
+  "end": 1263.76,
+  "speaker": "Don Syme",
+  "en": "You need to you gotta set the guardrails, you've gotta set the constraints really strongly.",
+  "zh": "你需要你 gotta set the guardrails，你've gotta set the constraints really strongly。"
+ },
+ {
+  "seg": 187,
+  "start": 1264.08,
+  "end": 1270.32,
+  "speaker": "Don Syme",
+  "en": "And uh information flow integrity, uh and you you y you you do need to think about what you're doing.",
+  "zh": "And uh information flow integrity, uh and you you y you you do need to think about what you're doing。"
+ },
+ {
+  "seg": 188,
+  "start": 1270.48,
+  "end": 1276,
+  "speaker": "Don Syme",
+  "en": "You you you shouldn't make your private repositories kind of accessible uh to agents running in public repositories.",
+  "zh": "你你你不应该让你的私有仓库 kind of accessible uh to agents running in public repositories。"
+ },
+ {
+  "seg": 189,
+  "start": 1276.16,
+  "end": 1278.64,
+  "speaker": "Don Syme",
+  "en": "That's you know, that's just asking for trouble.",
+  "zh": "That's you know，那简直是在自找麻烦。"
+ },
+ {
+  "seg": 190,
+  "start": 1278.72,
+  "end": 1285.76,
+  "speaker": "Don Syme",
+  "en": "You've got to know your basics of agentic security, uh an agentic uh uh kind of information flow that people bringing in issues.",
+  "zh": "你必须了解你的 agentic security 基础，uh an agentic uh uh kind of information flow that people bringing in issues。"
+ },
+ {
+  "seg": 191,
+  "start": 1285.84,
+  "end": 1291.52,
+  "speaker": "Don Syme",
+  "en": "If you're gonna triage those issues, you've got to think twice about triaging issues from from third parties.",
+  "zh": "如果你打算 triage those issues，你必须三思而后行再去 triage issues from from third parties。"
+ },
+ {
+  "seg": 192,
+  "start": 1291.92,
+  "end": 1301.12,
+  "speaker": "Don Syme",
+  "en": "And uh and we do that mostly through forcing you to opt-in uh when you're due certain actions, like the default is to kind of ignore issues coming from untrusted contributors, for example.",
+  "zh": "And uh and we do that mostly through forcing you to opt-in uh when you're due certain actions，like the default is to kind of ignore issues coming from untrusted contributors, for example。"
+ },
+ {
+  "seg": 193,
+  "start": 1301.36,
+  "end": 1305.84,
+  "speaker": "Don Syme",
+  "en": "You've got to opt in if you write an agentic workflow that's gonna process that kind of information.",
+  "zh": "你必须 opt in 如果你编写 an agentic workflow 来 process that kind of information。"
+ },
+ {
+  "seg": 194,
+  "start": 1306.32,
+  "end": 1316.16,
+  "speaker": "Don Syme",
+  "en": "Uh so that's what GitHub agentic workflows are intelligent automation for GitHub, uh running the coding agents you know and love uh with strong guardrails in GitHub actions.",
+  "zh": "Uh so that's what GitHub agentic workflows are intelligent automation for GitHub, uh running the coding agents you know and love uh with strong guardrails in GitHub actions。"
+ },
+ {
+  "seg": 195,
+  "start": 1316.24,
+  "end": 1317.52,
+  "speaker": "Don Syme",
+  "en": "Uh and it's a starting point.",
+  "zh": "Uh and it's a starting point。"
+ },
+ {
+  "seg": 196,
+  "start": 1317.6,
+  "end": 1319.76,
+  "speaker": "Don Syme",
+  "en": "We're gonna see a lot of different implementations of coding.",
+  "zh": "We're gonna see a lot of different implementations of coding。"
+ },
+ {
+  "seg": 197,
+  "start": 1320.08,
+  "end": 1328.96,
+  "speaker": "Don Syme",
+  "en": "Continuous AI, we're going to see we have a thing called GitHub automations as well, from uh which are more for individual automate automations for individual productivity.",
+  "zh": "Continuous AI，我们将会看到我们有一个叫 GitHub automations 的东西 also，from uh which are more for individual automate automations for individual productivity。"
+ },
+ {
+  "seg": 198,
+  "start": 1329.12,
+  "end": 1332.16,
+  "speaker": "Don Syme",
+  "en": "There's gonna be a lot of different kinds of automated uh kind of systems.",
+  "zh": "There's gonna be a lot of different kinds of automated uh kind of systems。"
+ },
+ {
+  "seg": 199,
+  "start": 1332.24,
+  "end": 1334.24,
+  "speaker": "Don Syme",
+  "en": "There's a whole spectrum of kind of things.",
+  "zh": "There's a whole spectrum of kind of things。"
+ },
+ {
+  "seg": 200,
+  "start": 1334.48,
+  "end": 1344.4,
+  "speaker": "Don Syme",
+  "en": "Uh you know, this is how we're cracking open the space to say, hey, you know, that DevOps mentality of CICD, bring it along to the party.",
+  "zh": "呃你知道，这就是我们要打开这个空间的方式，也就是说，嘿，你知道，把 CICD 的 DevOps 思维方式也带到这个派对中来。"
+ },
+ {
+  "seg": 201,
+  "start": 1344.96,
+  "end": 1352.48,
+  "speaker": "Guy Fajani",
+  "en": "And it sounds like uh uh GitHub genetic workflows are, in my analogy before, maybe more the pipeline than the loop.",
+  "zh": "听起来，呃呃，GitHub generic 工作流在我之前的比喻中，可能更像是管道而不是循环。"
+ },
+ {
+  "seg": 202,
+  "start": 1352.56,
+  "end": 1355.44,
+  "speaker": "Guy Fajani",
+  "en": "So they are the means of interacting it.",
+  "zh": "所以它们是交互的手段。"
+ },
+ {
+  "seg": 203,
+  "start": 1355.6,
+  "end": 1360.64,
+  "speaker": "Guy Fajani",
+  "en": "They are an event-driven system, you know, an issue comes along or something, you might sort of trigger that.",
+  "zh": "它们是一个事件驱动系统，你知道，一个问题出现了或者别的什么，你可能会触发它。"
+ },
+ {
+  "seg": 204,
+  "start": 1360.8,
+  "end": 1367.04,
+  "speaker": "Guy Fajani",
+  "en": "Uh, but they uh they are not, they don't, it doesn't implicitly drive you to create the loop or not.",
+  "zh": "但是它们呃，它们不是，它们不，它不会隐式地驱动你创建或不创建那个循环。"
+ },
+ {
+  "seg": 205,
+  "start": 1367.28,
+  "end": 1368.08,
+  "speaker": "Guy Fajani",
+  "en": "It's sort of your choice.",
+  "zh": "这有点是你的选择。"
+ },
+ {
+  "seg": 206,
+  "start": 1368.16,
+  "end": 1374,
+  "speaker": "Guy Fajani",
+  "en": "Now you can create another time-driven uh schedule that will now do this on a daily basis.",
+  "zh": "现在你可以创建另一个时间驱动的呃，时间表，现在每天都会做这件事。"
+ },
+ {
+  "seg": 207,
+  "start": 1374.08,
+  "end": 1379.68,
+  "speaker": "Guy Fajani",
+  "en": "And so you can do that with a programmable sort of uh system uh on it, but it is about an agentic pipeline.",
+  "zh": "所以你可以通过一个可编程的那种呃系统呃在上面做到这一点，但它是关于一个智能体管道的。"
+ },
+ {
+  "seg": 208,
+  "start": 1380,
+  "end": 1385.84,
+  "speaker": "Don Syme",
+  "en": "Yeah, and you kind of uh think of it as one step of the loop as well, like uh to taking the issue and creating the pull request.",
+  "zh": "是的，你有点呃把它看作循环的一步，比如呃接收 issue 并创建 pull request。"
+ },
+ {
+  "seg": 209,
+  "start": 1385.92,
+  "end": 1395.84,
+  "speaker": "Don Syme",
+  "en": "Uh now taking the goal and doing one step of that, uh taking the backlog and doing a small part of that and and implementing you know one, five, ten kind of fixes in one, five, ten PRs.",
+  "zh": "现在接收目标并做其中的一步，呃接收 backlog 并做其中的一小部分，然后实现你知道一个、五、十个这类修复，在一个、五、十个 PR 中。"
+ },
+ {
+  "seg": 210,
+  "start": 1396.16,
+  "end": 1398.16,
+  "speaker": "Don Syme",
+  "en": "It doesn't have to be one issue to one pull request.",
+  "zh": "不必是一个 issue 对应一个 pull request。"
+ },
+ {
+  "seg": 211,
+  "start": 1398.32,
+  "end": 1407.12,
+  "speaker": "Don Syme",
+  "en": "A single run might create multiple pull requests, it might process multiple issues, it might do other kinds of work, it might work off uh backlog as a source of input.",
+  "zh": "单次运行可能会创建多个 pull request，可能会处理多个 issue，可能会做其他类型的工作，可能会以 backlog 作为输入源工作。"
+ },
+ {
+  "seg": 212,
+  "start": 1407.36,
+  "end": 1421.6,
+  "speaker": "Don Syme",
+  "en": "Uh it um it might also be a planning step, it might sort of decompose that kind of um, it might be a research step that's actually very common where it says, hey, here every day we're gonna do some research and how we can improve performance in this repository.",
+  "zh": "呃，它呃它可能也是一个规划步骤，可能会分解那种呃，它可能是一个实际上非常常见的研究步骤，它说，嘿，这里每天我们要做一些研究，关于我们如何提高这个仓库的性能。"
+ },
+ {
+  "seg": 213,
+  "start": 1421.76,
+  "end": 1424.8,
+  "speaker": "Don Syme",
+  "en": "We're not gonna do the work, we're gonna do a lot of investigation of that.",
+  "zh": "我们不打算做这项工作，我们要对此做大量的调查。"
+ },
+ {
+  "seg": 214,
+  "start": 1424.88,
+  "end": 1428.96,
+  "speaker": "Don Syme",
+  "en": "We're gonna write a report on like what are your top five opportunities for improving performance?",
+  "zh": "我们要写一份报告，比如你提高性能的前五个机会是什么？"
+ },
+ {
+  "seg": 215,
+  "start": 1429.2,
+  "end": 1442.64,
+  "speaker": "Don Syme",
+  "en": "And then the the uh human, the the maintainer or the contributors can say, let's break that down and actually take that to the next step and actually go and implement those, uh, each of those kind of uh opportunities.",
+  "zh": "然后，呃，人类，维护者或贡献者可以说，让我们把它分解并真正把它带到下一步，真正去实现那些，呃，每一个这类机会。"
+ },
+ {
+  "seg": 216,
+  "start": 1442.8,
+  "end": 1444.56,
+  "speaker": "Don Syme",
+  "en": "They're actually just do numbers one and three.",
+  "zh": "它们实际上只做第一和第三项。"
+ },
+ {
+  "seg": 217,
+  "start": 1444.64,
+  "end": 1451.68,
+  "speaker": "Don Syme",
+  "en": "So there's kind of like it's a it allows you to create a lot of different interesting kind of uh back and forth assistive kind of flows.",
+  "zh": "所以有点像它允许你创建许多不同的有趣的这种来回协助类型的流程。"
+ },
+ {
+  "seg": 218,
+  "start": 1451.84,
+  "end": 1456.72,
+  "speaker": "Don Syme",
+  "en": "Uh fairly they're they're not they're not super fast uh kind of flows.",
+  "zh": "呃相当，它们它们不是，它们不是那种超快的呃流程。"
+ },
+ {
+  "seg": 219,
+  "start": 1456.8,
+  "end": 1463.6,
+  "speaker": "Don Syme",
+  "en": "It's like CICD that you know, because you're you really are doing depth research, it that may involve building the product, right?",
+  "zh": "这就像 CICD 那样你知道，因为你真的在做深度研究，这可能涉及构建产品，对吧？"
+ },
+ {
+  "seg": 220,
+  "start": 1463.68,
+  "end": 1466.96,
+  "speaker": "Don Syme",
+  "en": "That may involve uh taking screenshots and doing research on the product.",
+  "zh": "这可能涉及呃截图并对产品进行研究。"
+ },
+ {
+  "seg": 221,
+  "start": 1467.04,
+  "end": 1480.96,
+  "speaker": "Don Syme",
+  "en": "And and that's where these things are can be very different to sort of other kinds of automation you see floating around the industry because we do have the expectation that a lot of the a lot of the time these steps can do real software engineering.",
+  "zh": "而这就是这些东西可以与行业中看到的其他类型的自动化非常不同的地方，因为我们确实抱有这样的期望，很多很多时候这些步骤可以做真正的软件工程。"
+ },
+ {
+  "seg": 222,
+  "start": 1481.04,
+  "end": 1486.88,
+  "speaker": "Don Syme",
+  "en": "They can build the product, they can run, they can take, they they can they can be working off production telemetry data, for example.",
+  "zh": "它们可以构建产品，它们可以运行，它们可以获取，它们它们可以基于生产遥测数据工作，例如。"
+ },
+ {
+  "seg": 223,
+  "start": 1486.96,
+  "end": 1495.84,
+  "speaker": "Don Syme",
+  "en": "They can be kind of getting the latest like 10 failures off your site and and then say, let's prioritize those and write your research report on how's your site reliability going, you know.",
+  "zh": "它们可以获取你的站点上最新的比如 10 个失败，然后说，让我们确定优先级并编写你的研究报告，关于你的站点可靠性如何，你知道。"
+ },
+ {
+  "seg": 224,
+  "start": 1496,
+  "end": 1504.72,
+  "speaker": "Don Syme",
+  "en": "Uh surfacing all this kind of subjective information into useful, synth uh useful reports and actionable kind of work to take things forward.",
+  "zh": "把所有这类主观信息呈现为有用的，综合呃有用的报告和可操作的这类工作，以推动事情向前发展。"
+ },
+ {
+  "seg": 225,
+  "start": 1505.12,
+  "end": 1515.04,
+  "speaker": "Guy Fajani",
+  "en": "So what so uh that makes a lot of sense to me, and agents are amazingly powerful and you can run them, and and cloud agents have also become you know much more sort of useful as we sort of run those.",
+  "zh": "所以这，呃，这对我来说很有道理，智能体是非常强大的，你可以运行它们，云端智能体也变得你知道更加有用，因为我们运行了那些。"
+ },
+ {
+  "seg": 226,
+  "start": 1515.44,
+  "end": 1515.6,
+  "speaker": "Guy Fajani",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 227,
+  "start": 1515.68,
+  "end": 1517.6,
+  "speaker": "Guy Fajani",
+  "en": "So this is sort of situated cloud agents.",
+  "zh": "所以这是一种情境化的云端智能体。"
+ },
+ {
+  "seg": 228,
+  "start": 1517.92,
+  "end": 1523.2,
+  "speaker": "Guy Fajani",
+  "en": "So so that's uh that's kind of where I wanted, so I wanted to maybe shift and talk a little bit about the sort of the repo as the unit.",
+  "zh": "所以，这就是呃，这就是我想要的地方，所以我想要也许转移话题，稍微谈谈以仓库为单元的概念。"
+ },
+ {
+  "seg": 229,
+  "start": 1523.36,
+  "end": 1530.08,
+  "speaker": "Guy Fajani",
+  "en": "So as I think about GitHub Agentic workflows, which granted is sort of a fairly new product on it, so I'm sure it'll expand uh many things.",
+  "zh": "所以当我想到 GitHub Agentic workflows，虽然承认这是一个相当新的产品，所以我确信它会扩展很多东西。"
+ },
+ {
+  "seg": 230,
+  "start": 1530.24,
+  "end": 1543.68,
+  "speaker": "Guy Fajani",
+  "en": "But one of the things that I I feel if I was to explain why is it different, how is it different than any other cloud agent, uh, you know, it it feels like a a lot of the core of it is just that sort of repo centricity.",
+  "zh": "但我觉得如果我要解释它为什么不同，它与其他任何云端智能体有何不同，呃，你知道，感觉好像它的很多核心就在于那种以仓库为中心。"
+ },
+ {
+  "seg": 231,
+  "start": 1543.84,
+  "end": 1552.96,
+  "speaker": "Guy Fajani",
+  "en": "Uh and uh you know, one of the one of the sentences kind of in the uh in the uh in the web pages there talks about turning every repo into a software factory.",
+  "zh": "呃，呃，你知道，其中一句句子在呃，在呃在网页上谈到把每个仓库变成软件工厂。"
+ },
+ {
+  "seg": 232,
+  "start": 1553.12,
+  "end": 1562.32,
+  "speaker": "Guy Fajani",
+  "en": "Um and so i uh I guess it feels to me like GitHub agetic workflows are effectively uh cloud agents that are kind of repo native.",
+  "zh": "呃，所以我呃，我猜对我来说，GitHub agentic workflows 实际上就是那种仓库原生的云端智能体。"
+ },
+ {
+  "seg": 233,
+  "start": 1562.4,
+  "end": 1576.4,
+  "speaker": "Guy Fajani",
+  "en": "So they're they get defined in the repo, they execute with an expectation that all of their activity and all of that, which other agents can potentially also do, uh, but uh but it's just like a core element to it.",
+  "zh": "所以它们在仓库中定义，它们带着对其所有活动和所有这些的期望执行，其他智能体可能也可以做，呃，但是但这只是一个核心元素。"
+ },
+ {
+  "seg": 234,
+  "start": 1576.56,
+  "end": 1577.36,
+  "speaker": "Guy Fajani",
+  "en": "Is that is that right?",
+  "zh": "那是对的吗？"
+ },
+ {
+  "seg": 235,
+  "start": 1577.52,
+  "end": 1580.4,
+  "speaker": "Guy Fajani",
+  "en": "Is there something else that's sort of fundamentally different?",
+  "zh": "还有其他什么根本不同的东西吗？"
+ },
+ {
+  "seg": 236,
+  "start": 1580.88,
+  "end": 1595.28,
+  "speaker": "Don Syme",
+  "en": "That's right, and that's absolutely uh a key core design decision about where we started with the CI C D kind of analogies, which are also highly repocentric kind of uh flows and automations.",
+  "zh": "对的，这绝对是一个关于我们从哪里开始的关键核心设计决策，也就是那种 CI CD 类的类比，它们也是高度以仓库为中心的那种呃流程和自动化。"
+ },
+ {
+  "seg": 237,
+  "start": 1595.68,
+  "end": 1614.16,
+  "speaker": "Don Syme",
+  "en": "Uh and um now and there there's a reason why in that it there's just so much becomes simpler when you answer that question of what is the bound of operation, where is this running, where is the definition, let's pair that kind of definition.",
+  "zh": "呃，嗯，现在，这有原因的，因为当你回答了操作边界是什么，它在哪里运行，定义在哪里，让我们配对那种定义这个问题时，很多事情变得更简单了。"
+ },
+ {
+  "seg": 238,
+  "start": 1614.32,
+  "end": 1620.88,
+  "speaker": "Don Syme",
+  "en": "There are pros and cons to that in this, and in and in the DevOps community, of course, that went back and forth for kind of many years.",
+  "zh": "这在这方面有优缺点，在 DevOps 社区里，当然，这来回争论了很多年。"
+ },
+ {
+  "seg": 239,
+  "start": 1621.04,
+  "end": 1626.24,
+  "speaker": "Don Syme",
+  "en": "Do the definitions of the automation sit sit with the in in the repo or or or not?",
+  "zh": "自动化的定义是否放在仓库里？"
+ },
+ {
+  "seg": 240,
+  "start": 1626.56,
+  "end": 1626.64,
+  "speaker": "Don Syme",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 241,
+  "start": 1626.8,
+  "end": 1628.72,
+  "speaker": "Don Syme",
+  "en": "Yeah, and there's a whole world of GitHub and such things.",
+  "zh": "是的，还有一个关于 GitHub 和这类东西的完整世界。"
+ },
+ {
+  "seg": 242,
+  "start": 1629.04,
+  "end": 1640.96,
+  "speaker": "Don Syme",
+  "en": "And on the on the terminology like the repo as a as a factory, I actually kind of prefer to kind of think of repo as a site of production, a site where things happen, a site where value is kind of produced.",
+  "zh": "关于术语，比如把仓库作为一个工厂，我实际上更喜欢把仓库看作一个生产现场，一个事情发生的地方，一个产生价值的地方。"
+ },
+ {
+  "seg": 243,
+  "start": 1641.12,
+  "end": 1645.28,
+  "speaker": "Don Syme",
+  "en": "And that might turn out to be a factory, but we produce value in all sorts of other kinds of ways.",
+  "zh": "这可能最终是一个工厂，但我们也以所有其他类型的方式产生价值。"
+ },
+ {
+  "seg": 244,
+  "start": 1645.36,
+  "end": 1651.28,
+  "speaker": "Don Syme",
+  "en": "You know, a film studio is not a is not a factory, but it's also a place where value is hopefully kind of produced uh as well.",
+  "zh": "你知道，电影制片厂不是工厂，但它也是一个价值被希望产生的地方。"
+ },
+ {
+  "seg": 245,
+  "start": 1651.44,
+  "end": 1662.08,
+  "speaker": "Don Syme",
+  "en": "So they're all sort uh and the anal the factory analogy is kind of most useful when there's kind of repeating tasks that are the same, that are on the pipelines kind of coming through.",
+  "zh": "所以它们都是那种，工厂的类比在有一些相同的重复任务通过管道进来时最有用。"
+ },
+ {
+  "seg": 246,
+  "start": 1662.24,
+  "end": 1684,
+  "speaker": "Don Syme",
+  "en": "But I think we should think quite broadly about uh since AI has such incredible breadth of use, we should look for other analogies and other kinds of inspiration that uh use a factory sometimes, that's great, but also use you know, you know, people you do use the words like studios or productions or workbench and all sorts of other kinds of things that uh that that kind of make most sense.",
+  "zh": "但我认为我们应该广泛地思考，因为 AI 有如此令人难以置信的广泛用途，我们应该寻找其他类比和其他类型的灵感，呃，有时使用工厂，那很好，但也使用你知道，你确实使用诸如工作室或制作或工作台以及所有其他这类最能说明问题的词。"
+ },
+ {
+  "seg": 247,
+  "start": 1684.4,
+  "end": 1719.84,
+  "speaker": "Don Syme",
+  "en": "So um there's another crucial dynamic that uh um in the context of the repo and the context of CI CD, and I want to kind of bring this out, which is that when an organization adopts CI CD and gives adopts GitHub or some other similar platform, what they're really doing is saying to the developers in that organization, here's a place called the repo, where we as the the organization give you the permission to automate within that bound.",
+  "zh": "所以，在仓库和 CI CD 的背景下，还有一个至关重要的动态，我想把它提出来，那就是当一个组织采用 CI CD 并采用 GitHub 或其他类似平台时，他们真正做的是对该组织的开发者说，这里有一个叫仓库的地方，我们作为组织允许你在这个边界内自动化。"
+ },
+ {
+  "seg": 248,
+  "start": 1720,
+  "end": 1724.64,
+  "speaker": "Don Syme",
+  "en": "Okay, you the developers know best what automation you need for your repositories.",
+  "zh": "好的，你们开发者最清楚你们的仓库需要什么自动化。"
+ },
+ {
+  "seg": 249,
+  "start": 1724.96,
+  "end": 1728,
+  "speaker": "Don Syme",
+  "en": "You know best uh what CICD you need.",
+  "zh": "你们最清楚呃你们需要什么 CICD。"
+ },
+ {
+  "seg": 250,
+  "start": 1728.16,
+  "end": 1736.72,
+  "speaker": "Don Syme",
+  "en": "Therefore, we're going to give you the permission to and you can create these things called workflows which claim some of those capabilities, they claim the ability to create issues.",
+  "zh": "因此，我们将赋予你权限，你可以创建这些被称为工作流 的东西，它们声明其中的一些能力，它们声称创建 issue 的能力。"
+ },
+ {
+  "seg": 251,
+  "start": 1737.12,
+  "end": 1739.92,
+  "speaker": "Guy Fajani",
+  "en": "It's like a security boundary and uh and a decision authority boundary.",
+  "zh": "它就像一个安全边界，以及一个决策权限边界。"
+ },
+ {
+  "seg": 252,
+  "start": 1740.24,
+  "end": 1741.52,
+  "speaker": "Don Syme",
+  "en": "Yeah, and but we give it to you.",
+  "zh": "是的，但我们把它交给你。"
+ },
+ {
+  "seg": 253,
+  "start": 1741.6,
+  "end": 1742.72,
+  "speaker": "Don Syme",
+  "en": "You go for it.",
+  "zh": "你去搞定它。"
+ },
+ {
+  "seg": 254,
+  "start": 1743.36,
+  "end": 1744.56,
+  "speaker": "Don Syme",
+  "en": "Do what you need to do.",
+  "zh": "做你需要做的事。"
+ },
+ {
+  "seg": 255,
+  "start": 1744.64,
+  "end": 1744.88,
+  "speaker": "Don Syme",
+  "en": "Okay?",
+  "zh": "好吗？"
+ },
+ {
+  "seg": 256,
+  "start": 1745.04,
+  "end": 1748.56,
+  "speaker": "Don Syme",
+  "en": "Okay, maybe we have some organizational guidelines, maybe they're reusable actions and so on.",
+  "zh": "好的，也许我们有一些组织指南，也许它们是可重用的操作 等等。"
+ },
+ {
+  "seg": 257,
+  "start": 1748.64,
+  "end": 1753.36,
+  "speaker": "Don Syme",
+  "en": "We kind of tame that a little bit to make sure we're kind of keeping a platform centricity in our organization.",
+  "zh": "我们稍微驯化了一下，以确保我们在组织中保持一种以平台为中心的特质。"
+ },
+ {
+  "seg": 258,
+  "start": 1753.6,
+  "end": 1761.12,
+  "speaker": "Don Syme",
+  "en": "But this is an incredibly powerful decision because suddenly uh developers have access to a limited uh form of cloud resource.",
+  "zh": "但这是一个极其有力的决定，因为突然间，开发者可以获得一种有限形式的云资源。"
+ },
+ {
+  "seg": 259,
+  "start": 1761.28,
+  "end": 1768.88,
+  "speaker": "Don Syme",
+  "en": "They have access to compute, they have access to network, and they have access to limited kinds of storage for kind of caching and whatever else goes on.",
+  "zh": "他们可以访问计算，他们可以访问网络，并且他们可以访问有限类型的存储，用于缓存以及发生的任何事情。"
+ },
+ {
+  "seg": 260,
+  "start": 1769.28,
+  "end": 1772.72,
+  "speaker": "Don Syme",
+  "en": "And that allows developers to be incredibly productive.",
+  "zh": "这使得开发者能够具有极高的生产力。"
+ },
+ {
+  "seg": 261,
+  "start": 1772.8,
+  "end": 1780.16,
+  "speaker": "Don Syme",
+  "en": "And this is why CICD is so successful, okay, because there is a boundary context where they can developers are empowered to claim resources.",
+  "zh": "这就是为什么 CI CD 如此成功，好的，因为存在一个边界上下文，开发者被赋予权限去声明资源。"
+ },
+ {
+  "seg": 262,
+  "start": 1780.32,
+  "end": 1787.92,
+  "speaker": "Don Syme",
+  "en": "They do not have to go and ask the cloud team in the company for a new machine, they do not have to go ask for a budget.",
+  "zh": "他们不必去申请公司云团队的新机器，他们不必去申请预算。"
+ },
+ {
+  "seg": 263,
+  "start": 1788.24,
+  "end": 1798.72,
+  "speaker": "Don Syme",
+  "en": "The budget is somehow it's all ultimately measured, but uh, this is absolutely crucial organizational dynamic for why CICD is so powerful and so successful.",
+  "zh": "预算是某种方式，这一切最终都是被计量的，但是，这绝对是为什么 CI CD 如此强大和如此成功的至关重要的组织动态。"
+ },
+ {
+  "seg": 264,
+  "start": 1798.88,
+  "end": 1804.96,
+  "speaker": "Don Syme",
+  "en": "And we believe that continuous AI or that AI automation uh in bounded in contexts will go the same way.",
+  "zh": "我们相信持续 AI 或者说在限定上下文中的 AI 自动化 将会走同样的路。"
+ },
+ {
+  "seg": 265,
+  "start": 1805.04,
+  "end": 1811.28,
+  "speaker": "Don Syme",
+  "en": "There will be a cost center where those this stuff does cost money, of course, like CI C D there will be a cost center where that kind of flows up to.",
+  "zh": "会存在一个成本中心，这些东西确实是要花钱的，当然，就像 CI CD 一样，会有一个成本中心，那种费用会流向那里。"
+ },
+ {
+  "seg": 266,
+  "start": 1811.36,
+  "end": 1828.72,
+  "speaker": "Don Syme",
+  "en": "There can be accounting controls, there's visibility of where this goes, there's an authorization context that within that context we let you use AI according to we still have guidelines and and and and policies and so on, but that allows incredibly creative aspects.",
+  "zh": "可以有会计控制，有关于去向的可见性，有一个授权上下文，在该上下文中我们允许你根据指南使用 AI，我们仍然有指南和政策等等，但这允许了极具创造性的方面。"
+ },
+ {
+  "seg": 267,
+  "start": 1828.8,
+  "end": 1844.24,
+  "speaker": "Don Syme",
+  "en": "And I think this really matters to me in terms of the kind of the jobs discussion in the industry, because there's evidence that uh if you empower people close to the coalface in a sense to use AI, not the of course, not an actual coalface, yeah, metaphorical coalface.",
+  "zh": "我认为这对我来说真的很重要，就行业内关于工作的讨论而言，因为有证据表明，如果你赋予接近一线（in a sense）的人使用 AI 的权限，当然，不是真正的一线，是的，比喻意义上的一线。"
+ },
+ {
+  "seg": 268,
+  "start": 1845.6,
+  "end": 1849.68,
+  "speaker": "Don Syme",
+  "en": "Yeah, because AI doesn't have non-real coal faces, I get that.",
+  "zh": "是的，因为 AI 没有非真实的一线，我懂了。"
+ },
+ {
+  "seg": 269,
+  "start": 1850,
+  "end": 1858.48,
+  "speaker": "Don Syme",
+  "en": "Uh but uh then they find amazing productive uses for that, uh for for the for these technologies.",
+  "zh": "但是，那么他们会为这些技术找到惊人的生产力用途。"
+ },
+ {
+  "seg": 270,
+  "start": 1858.8,
+  "end": 1872.32,
+  "speaker": "Don Syme",
+  "en": "And so I'm I love uh GitHub workflows because it is an empowering technology that allows the the maintainers of the repos and the people close up close to the software to work out how best to use AI.",
+  "zh": "所以我非常喜欢 GitHub 工作流，因为它是一种赋能技术，它允许仓库的维护者和接近软件的人员找出如何最好地使用 AI。"
+ },
+ {
+  "seg": 271,
+  "start": 1872.48,
+  "end": 1893.84,
+  "speaker": "Don Syme",
+  "en": "And you can have incredible conversations about this with people as you start to unwind, you know, talking to someone working on children software for children, uh, and they say, look, the thing I struggle with is is is that my the the language used is is getting by by you know is getting written for 15-year-olds, but I need it I need it uh suitable for for 10 year olds.",
+  "zh": "当你开始放松，你可以就此与人们进行令人难以置信的对话，你知道，与一个开发儿童软件的人交谈，他们会说，看，我挣扎的地方是，使用的语言是为 15 岁的人写的，但我需要它适合 10 岁的孩子。"
+ },
+ {
+  "seg": 272,
+  "start": 1894.24,
+  "end": 1896.72,
+  "speaker": "Don Syme",
+  "en": "And of course the AI can make those kind of judgments, right?",
+  "zh": "当然 AI 可以做出这种判断，对吧？"
+ },
+ {
+  "seg": 273,
+  "start": 1896.8,
+  "end": 1904.96,
+  "speaker": "Don Syme",
+  "en": "The AI can read all your documentation strings and all your text and kind of simplify the language down and just automate that and do that continuously day in, day out.",
+  "zh": "AI 可以阅读你所有的文档字符串和所有的文本，并将语言简化下来，只是自动化那个并日复一日地持续做下去。"
+ },
+ {
+  "seg": 274,
+  "start": 1905.04,
+  "end": 1907.12,
+  "speaker": "Don Syme",
+  "en": "It's that's like incredibly productive.",
+  "zh": "那就像是非常有生产力。"
+ },
+ {
+  "seg": 275,
+  "start": 1907.52,
+  "end": 1912.24,
+  "speaker": "Guy Fajani",
+  "en": "I think uh so I I agree, but I want to challenge it on sort of the two sides of it.",
+  "zh": "我认为，所以我同意，但我想从它的两个方面来挑战它。"
+ },
+ {
+  "seg": 276,
+  "start": 1912.32,
+  "end": 1918.24,
+  "speaker": "Guy Fajani",
+  "en": "So I think what we're describing here is we're saying uh a repo is uh a highly convenient unit.",
+  "zh": "我认为我们在这里描述的是，我们说仓库 是一个高度便捷的单元。"
+ },
+ {
+  "seg": 277,
+  "start": 1918.32,
+  "end": 1928,
+  "speaker": "Guy Fajani",
+  "en": "You know, it is uh it is a a uh a space, you know, a production site, you know, in which you can say I consolidate a lot of my data on the repo.",
+  "zh": "你知道，它是一个空间，你知道，一个生产现场，你可以在那里说我在仓库上整合了我的大量数据。"
+ },
+ {
+  "seg": 278,
+  "start": 1928.08,
+  "end": 1936.88,
+  "speaker": "Guy Fajani",
+  "en": "Uh and because of that, I can define my automation over here, my code itself sits over there, or my kind of other assets, potentially context can sort of sit over there uh and such.",
+  "zh": "并且因此，我可以在这里定义我的自动化，我的代码本身坐在那里，或者我可能的其他资产，上下文可能坐在那里等等。"
+ },
+ {
+  "seg": 279,
+  "start": 1936.96,
+  "end": 1938.32,
+  "speaker": "Guy Fajani",
+  "en": "And I think there's a lot of merit to it.",
+  "zh": "我认为这有很多优点。"
+ },
+ {
+  "seg": 280,
+  "start": 1938.4,
+  "end": 1952.4,
+  "speaker": "Guy Fajani",
+  "en": "I think also the rise of GitHub Actions, which you know functionally have a lot in common with other sort of CI systems, which you know are successful in their own right, but the sort of the rise of GitHub Actions is probably because of that sort of convenience of sort of being being built into the repo.",
+  "zh": "我认为还有 GitHub Actions 的兴起，你知道在功能上与其他 CI 系统有很多共同之处，那些系统本身也是成功的，但是 GitHub Actions 的兴起可能是因为那种构建到仓库中的便利性。"
+ },
+ {
+  "seg": 281,
+  "start": 1952.48,
+  "end": 1953.6,
+  "speaker": "Guy Fajani",
+  "en": "So a lot of value there.",
+  "zh": "所以那里有很多价值。"
+ },
+ {
+  "seg": 282,
+  "start": 1953.84,
+  "end": 1957.92,
+  "speaker": "Guy Fajani",
+  "en": "However, uh there are sort of two other counterfacts to it.",
+  "zh": "然而，对此还有另外两个反面事实。"
+ },
+ {
+  "seg": 283,
+  "start": 1958.08,
+  "end": 1961.12,
+  "speaker": "Guy Fajani",
+  "en": "One is uh the actions that happen cross-repos.",
+  "zh": "一个是跨仓库 发生的操作。"
+ },
+ {
+  "seg": 284,
+  "start": 1961.44,
+  "end": 1967.36,
+  "speaker": "Guy Fajani",
+  "en": "So we we talk about CI CD as though it's one thing, but actually C D oftentimes is not just sort of one repo.",
+  "zh": "所以我们谈论 CI CD 好像它是一件事，但实际上 CD 通常不仅仅是一个仓库。"
+ },
+ {
+  "seg": 285,
+  "start": 1967.52,
+  "end": 1972.48,
+  "speaker": "Guy Fajani",
+  "en": "Uh and so uh sometimes those things become a little bit tricky and they become another repo.",
+  "zh": "所以有时这些东西变得有点棘手，它们变成了另一个仓库。"
+ },
+ {
+  "seg": 286,
+  "start": 1972.64,
+  "end": 1975.36,
+  "speaker": "Guy Fajani",
+  "en": "So suddenly you have those uh those paths.",
+  "zh": "所以突然间你有了那些路径。"
+ },
+ {
+  "seg": 287,
+  "start": 1975.68,
+  "end": 1983.36,
+  "speaker": "Guy Fajani",
+  "en": "And maybe even more uh that one is maybe more of a side comment, uh, and we can get back to it after when we talk about factories as a whole.",
+  "zh": "也许甚至更多，那一个可能更多的是一个附带的评论，我们可以在稍后讨论工厂作为一个整体时回到这一点。"
+ },
+ {
+  "seg": 288,
+  "start": 1983.6,
+  "end": 1990.24,
+  "speaker": "Guy Fajani",
+  "en": "The other one though is like in the world of AI, there's this there's been kind of this uh resurgence of the monorepo.",
+  "zh": "另一个就像在 AI 世界里，单体仓库 有这种复兴。"
+ },
+ {
+  "seg": 289,
+  "start": 1990.32,
+  "end": 2002.96,
+  "speaker": "Guy Fajani",
+  "en": "It never went away, but I think it's it's fairly clear now that a lot of the agents, a lot of the models have been trained to work in the context of a single repo, but oftentimes they need information that comes from these other repos.",
+  "zh": "它从未消失，但我认为现在相当清楚，很多智能体，很多模型被训练在单个仓库的上下文中工作，但通常它们需要来自其他仓库的信息。"
+ },
+ {
+  "seg": 290,
+  "start": 2003.52,
+  "end": 2010.32,
+  "speaker": "Guy Fajani",
+  "en": "And so the easiest solution to that uh is to consolidate everything into the uh single repo.",
+  "zh": "所以最简单的解决方案是将所有东西整合到单个仓库中。"
+ },
+ {
+  "seg": 291,
+  "start": 2010.48,
+  "end": 2016.32,
+  "speaker": "Guy Fajani",
+  "en": "But that starts breaking this kind of clarity of it's in the same spot, because the monorepos can be beastly.",
+  "zh": "但这开始打破了那种清晰度，即在同一个地点，因为单体仓库可能变得非常庞大。"
+ },
+ {
+  "seg": 292,
+  "start": 2016.4,
+  "end": 2019.68,
+  "speaker": "Guy Fajani",
+  "en": "I mean, they can be enormous uh and they're no longer one thing.",
+  "zh": "我的意思是，它们可能非常巨大，并且它们不再是一件事。"
+ },
+ {
+  "seg": 293,
+  "start": 2019.84,
+  "end": 2033.44,
+  "speaker": "Guy Fajani",
+  "en": "So using a repo now as a unit of access, a unit of security, a unit of uh uh empowerment of who's allowed to do what starts really kind of uh fraying at the edges, especially in what we're seeing.",
+  "zh": "所以现在使用仓库作为访问单元、安全单元、谁被允许做什么的赋能单元，开始在边缘处变得非常磨损，特别是在我们所看到的情况中。"
+ },
+ {
+  "seg": 294,
+  "start": 2033.52,
+  "end": 2051.12,
+  "speaker": "Guy Fajani",
+  "en": "Like we're doing it here at TESL, which is uh field teams have access to sort of uh repos and do that because again, it's so convenient in terms of uh agent access to pull them in, but you're kind of losing a lot of that identity of a repo as a project.",
+  "zh": "就像我们在 TESL 这里做的那样，现场团队 有权访问仓库并那样做，因为同样，就智能体 访问而言，把他们拉进来非常方便，但你有点失去了仓库作为项目的身份。"
+ },
+ {
+  "seg": 295,
+  "start": 2051.44,
+  "end": 2055.84,
+  "speaker": "Don Syme",
+  "en": "Yeah, I think there are you've hit the nail on the head, there are absolutely real tensions here.",
+  "zh": "是的，我认为你确实说到了点子上，这里绝对存在真正的紧张关系。"
+ },
+ {
+  "seg": 296,
+  "start": 2055.92,
+  "end": 2071.76,
+  "speaker": "Don Syme",
+  "en": "There's kind of a sweet spot somewhere in the middle where I like for some kinds of projects where just everything works really, really well in an individual repo, and we we kind of recognize that when we walk up to a repo that's just the right size and it's perfectly set up for deployment, and everything is working really, really smoothly.",
+  "zh": "在中间某处有一个最佳点，对于某些类型的项目，在单独的仓库中一切都非常非常有效，当我们走到一个大小正好、部署配置完美、一切运行非常非常顺畅的仓库时，我们意识到了这一点。"
+ },
+ {
+  "seg": 297,
+  "start": 2071.84,
+  "end": 2074.96,
+  "speaker": "Don Syme",
+  "en": "And then there are these other tensions that are pulling things in various directions.",
+  "zh": "然后还有其他一些张力，正把事情拉向不同的方向。"
+ },
+ {
+  "seg": 298,
+  "start": 2075.04,
+  "end": 2095.84,
+  "speaker": "Don Syme",
+  "en": "I think at at GitHub we have work to do on allowing making sure that the repo is not the only notion of context that actually kind of works effectively, that you could have multi- uh a collection of repos as a kind of collaborative context, like friend repos or whatever kind of features you might kind of add to that.",
+  "zh": "我认为在 GitHub 我们有工作要做，确保仓库不是唯一真正有效运作的上下文概念，你可以有多个仓库的集合作为一种协作上下文，像友好的仓库或者你可能添加到那的任何功能。"
+ },
+ {
+  "seg": 299,
+  "start": 2096.08,
+  "end": 2103.04,
+  "speaker": "Don Syme",
+  "en": "And uh I I would I you know that's one of the things that get discussed at at GitHub for sure.",
+  "zh": "我，我会，你知道那肯定是在 GitHub 被讨论的事情之一。"
+ },
+ {
+  "seg": 300,
+  "start": 2103.12,
+  "end": 2132.08,
+  "speaker": "Don Syme",
+  "en": "Uh and and then there's the the the question of the organization as a kind of context as a whole, so you could but of course organizations can be absolutely enormous, uh, and thousands and thousands of repos and um it's a huge question to kind of scale there, and even then some you have enterprises which have multiple organizations and so on, which which which adds a new kind of uh question, and and there are auth kind of questions um in all of this kind of work.",
+  "zh": "然后还有组织作为一个整体上下文的问题，所以你可以，当然组织可能会非常庞大，成千上万个代码库，这在规模扩展上是一个巨大的问题，甚至有些企业有多个组织等等，这增加了一个新的问题，而且在这类工作中还有权限认证相关的问题。"
+ },
+ {
+  "seg": 301,
+  "start": 2132.24,
+  "end": 2138.96,
+  "speaker": "Don Syme",
+  "en": "Um and you're right, the coalescing effect into the monorefo that was a trend that uh was before AI.",
+  "zh": "你是对的，向单体仓库的凝聚效应那是 AI 之前的一个趋势。"
+ },
+ {
+  "seg": 302,
+  "start": 2139.12,
+  "end": 2142.72,
+  "speaker": "Don Syme",
+  "en": "It is uh that it's it we see it's in some projects I'm working on.",
+  "zh": "嗯，确实在我们正在进行的某些项目中能看到这一点。"
+ },
+ {
+  "seg": 303,
+  "start": 2142.8,
+  "end": 2148.16,
+  "speaker": "Don Syme",
+  "en": "I'm saying, hey, look, that we we should really consolidate these AI, it's gonna work a lot better if we if we bring it together.",
+  "zh": "我是说，嘿，听着，我们确实应该整合这些 AI，如果我们把它们放在一起效果会好得多。"
+ },
+ {
+  "seg": 304,
+  "start": 2148.56,
+  "end": 2151.04,
+  "speaker": "Don Syme",
+  "en": "Bring it together, like it's just no point having these separate.",
+  "zh": "把它们放在一起，就像，把这些分开的保留着毫无意义。"
+ },
+ {
+  "seg": 305,
+  "start": 2151.76,
+  "end": 2161.6,
+  "speaker": "Don Syme",
+  "en": "Um so yeah, the tensions you say are absolutely real, uh, and you always see dynamics where people pull things apart and then they put them back together and they pull things apart.",
+  "zh": "所以是的，你提到的紧张关系绝对是真实的，你总是看到人们把东西拆开然后再把它们拼回去，然后再拆开的动态过程。"
+ },
+ {
+  "seg": 306,
+  "start": 2161.76,
+  "end": 2181.36,
+  "speaker": "Don Syme",
+  "en": "And I um I don't have a lot to kind of I I I think there's absolutely work we can do at GitHub to to tackle to give more effective solutions to stop you being sort of forced to bring everything into one repo, at least give you more kind of choice and control about where that's where how that works.",
+  "zh": "我对此并没有太多我想我们绝对可以在 GitHub 做些工作来提供更有效的解决方案，让你不必被迫把所有东西都放进一个代码库，至少给你关于它在哪里、如何运作的更多选择和控制权。"
+ },
+ {
+  "seg": 307,
+  "start": 2181.6,
+  "end": 2188.72,
+  "speaker": "Don Syme",
+  "en": "And um there would also be the question of like auth within kind of a monorepo.",
+  "zh": "还有单体仓库内部的权限认证问题。"
+ },
+ {
+  "seg": 308,
+  "start": 2188.8,
+  "end": 2190.56,
+  "speaker": "Don Syme",
+  "en": "I'm not really an expert on that kind of thing.",
+  "zh": "我并不是这类事情的专家。"
+ },
+ {
+  "seg": 309,
+  "start": 2190.72,
+  "end": 2193.68,
+  "speaker": "Don Syme",
+  "en": "I'm yeah, but I get I get that that's controls.",
+  "zh": "对，但我理解那是控制机制。"
+ },
+ {
+  "seg": 310,
+  "start": 2194.24,
+  "end": 2196.88,
+  "speaker": "Simon Maple",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "大家好，希望你们到目前为止喜欢这一集。"
+ },
+ {
+  "seg": 311,
+  "start": 2197.12,
+  "end": 2205.28,
+  "speaker": "Simon Maple",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队正在幕后非常努力地工作，为大家带来最好的嘉宾，以便我们就智能体开发进行最有信息量的对话。"
+ },
+ {
+  "seg": 312,
+  "start": 2205.44,
+  "end": 2210.8,
+  "speaker": "Simon Maple",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具、最高效的工作流程，还是定义最佳实践。"
+ },
+ {
+  "seg": 313,
+  "start": 2211.04,
+  "end": 2214.64,
+  "speaker": "Simon Maple",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但出于某种原因，你们中的许多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 314,
+  "start": 2214.88,
+  "end": 2221.6,
+  "speaker": "Simon Maple",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favour and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并希望我们继续为你带来最好的内容，请帮我们一个忙，点击那个订阅按钮。"
+ },
+ {
+  "seg": 315,
+  "start": 2221.76,
+  "end": 2229.12,
+  "speaker": "Simon Maple",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这真的很重要，能让我们继续提高嘉宾的质量，并为你构建更好的产品。"
+ },
+ {
+  "seg": 316,
+  "start": 2229.36,
+  "end": 2231.12,
+  "speaker": "Simon Maple",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到节目。"
+ },
+ {
+  "seg": 317,
+  "start": 2231.52,
+  "end": 2242.16,
+  "speaker": "Guy Fajani",
+  "en": "So I guess maybe concretely when we talk about agentic workflows, what type of automations would you say are uh sort of suitable to run within the context of a repo versus which ones are outside?",
+  "zh": "所以我想具体来说，当我们谈论智能体工作流时，你会认为哪种类型的自动化适合在代码库的上下文中运行，哪种适合在外面？"
+ },
+ {
+  "seg": 318,
+  "start": 2242.32,
+  "end": 2248.48,
+  "speaker": "Guy Fajani",
+  "en": "I mean you gave, for instance, the example of a repo pulling in production data example and running in it.",
+  "zh": "举个例子，你给出了代码库引入生产数据示例并在其中运行的例子。"
+ },
+ {
+  "seg": 319,
+  "start": 2248.72,
+  "end": 2254.72,
+  "speaker": "Guy Fajani",
+  "en": "Clearly the production data is not naturally in the repo, you know, for for I think many good reasons.",
+  "zh": "显然，生产数据天然不在代码库中，你知道，出于很多充分的理由。"
+ },
+ {
+  "seg": 320,
+  "start": 2254.88,
+  "end": 2257.92,
+  "speaker": "Guy Fajani",
+  "en": "Um and that system is elsewhere.",
+  "zh": "而且那个系统在别处。"
+ },
+ {
+  "seg": 321,
+  "start": 2258.24,
+  "end": 2260.16,
+  "speaker": "Guy Fajani",
+  "en": "Like, no, that's so so that's one example.",
+  "zh": "不，所以那是一个例子。"
+ },
+ {
+  "seg": 322,
+  "start": 2260.24,
+  "end": 2263.68,
+  "speaker": "Guy Fajani",
+  "en": "Is like should that really be a repo level automation versus something that's outside?",
+  "zh": "就是说那真的应该是代码库级别的自动化吗，还是外面的东西？"
+ },
+ {
+  "seg": 323,
+  "start": 2263.84,
+  "end": 2278.8,
+  "speaker": "Guy Fajani",
+  "en": "Like, how would you how would you suggest people start thinking about what what automation should be done in repo versus which automations uh I guess maybe you technically can do them in the repo, but the there's there's no uh even shouldn't.",
+  "zh": "你会如何建议人们开始思考什么自动化应该在代码库中完成，哪些自动化我猜也许你技术上可以在代码库中做，但那里甚至不应该。"
+ },
+ {
+  "seg": 324,
+  "start": 2279.28,
+  "end": 2287.92,
+  "speaker": "Don Syme",
+  "en": "I I mean we we we have on the GitHub agent workflows site some really interesting design patterns in this kind of space.",
+  "zh": "我是说我们在 GitHub 智能体工作流网站上在这个领域有一些非常有趣的设计模式。"
+ },
+ {
+  "seg": 325,
+  "start": 2288.16,
+  "end": 2291.28,
+  "speaker": "Don Syme",
+  "en": "And uh it's one of the things I think the team are doing really well.",
+  "zh": "我认为团队在这方面做得很好。"
+ },
+ {
+  "seg": 326,
+  "start": 2291.44,
+  "end": 2293.84,
+  "speaker": "Don Syme",
+  "en": "It's just kind of exploring the design patterns.",
+  "zh": "就是在探索设计模式。"
+ },
+ {
+  "seg": 327,
+  "start": 2293.92,
+  "end": 2304.56,
+  "speaker": "Don Syme",
+  "en": "Um so there are absolutely cases where we kind of uh run a whole zoo of agents in a single repo, and we've written that up as uh Pelly's Agent Factory, Pelly's Agent Zoo.",
+  "zh": "所以绝对有这种情况，我们在单个代码库中运行整个动物园的智能体，我们把它写成了 Pelly 的 Agent Factory，Pelly 的 Agent Zoo。"
+ },
+ {
+  "seg": 328,
+  "start": 2304.64,
+  "end": 2318.16,
+  "speaker": "Don Syme",
+  "en": "Uh and like we've got we've documented like 20, 30, 40 agents there that are just really, really interesting kind of repeated things that you want kind of happening in repositories, some really very unexpected ones.",
+  "zh": "我们记录了那里大约 20、30、40 个智能体，它们只是非常、非常有趣的、你希望在代码库中发生的重复性事情，一些非常出乎意料的东西。"
+ },
+ {
+  "seg": 329,
+  "start": 2318.32,
+  "end": 2323.52,
+  "speaker": "Don Syme",
+  "en": "A lot of them are about code improvement, uh, a lot of them are about like um performance.",
+  "zh": "其中很多是关于代码改进的，很多是关于性能的。"
+ },
+ {
+  "seg": 330,
+  "start": 2323.68,
+  "end": 2340.88,
+  "speaker": "Don Syme",
+  "en": "There are ones about styling, uh, for example, things that are maybe a bit really subjective and are really bit uh unexpected, like uh um GitHub genetic workflows uh includes a uh uh a GitHub CLI extension, G H A W, and it has terminal output, and we want that well styled.",
+  "zh": "有一些是关于样式的，例如，有些事情可能有点非常主观并且真的有点出乎意料，比如 GitHub 遗传工作流包括一个 GitHub CLI 扩展，G H A W，它有终端输出，我们希望那个样式良好。"
+ },
+ {
+  "seg": 331,
+  "start": 2340.96,
+  "end": 2353.6,
+  "speaker": "Don Syme",
+  "en": "And it kind of so the workflow runs in the in the repositor in the repository in this case and kind of runs the with the output and checks it runs the tool and checks its outputs and say, hey, you could kind of make this look better, uh, organize it better.",
+  "zh": "所以工作流在代码库中在这种情况下运行，并处理输出，检查它运行工具并检查其输出并说，嘿，你可以让它看起来更好，组织得更好。"
+ },
+ {
+  "seg": 332,
+  "start": 2353.68,
+  "end": 2355.68,
+  "speaker": "Don Syme",
+  "en": "And uh and and that's actually really, really nice.",
+  "zh": "那实际上真的很好。"
+ },
+ {
+  "seg": 333,
+  "start": 2355.76,
+  "end": 2360.48,
+  "speaker": "Don Syme",
+  "en": "And there's some a lot of them have got like 70, 80 percent kind of PR merge rates.",
+  "zh": "而且其中很多有大约 70、80% 的 PR 合并率。"
+ },
+ {
+  "seg": 334,
+  "start": 2360.72,
+  "end": 2366.32,
+  "speaker": "Don Syme",
+  "en": "You can start to kind of track the causality of like of the repeating kind of action and get kind of statistics on it.",
+  "zh": "你可以开始跟踪这种重复行动的因果关系，并获得相关的统计数据。"
+ },
+ {
+  "seg": 335,
+  "start": 2366.8,
+  "end": 2368.08,
+  "speaker": "Guy Fajani",
+  "en": "Can I pause on that a sec on it?",
+  "zh": "我能暂停一下吗？"
+ },
+ {
+  "seg": 336,
+  "start": 2368.16,
+  "end": 2373.52,
+  "speaker": "Guy Fajani",
+  "en": "So so I love those, and you know, there are many, and I highly recommend people go check out their very, very useful automations on it.",
+  "zh": "所以我真的很喜欢那些，你知道，有很多，我强烈推荐人们去查看上面非常有用的自动化。"
+ },
+ {
+  "seg": 337,
+  "start": 2373.68,
+  "end": 2385.68,
+  "speaker": "Guy Fajani",
+  "en": "But that's a good example, like the styling one, which is you know, the definition of that style, um, I mean, it it could very well be something that you want to apply to multiple repos, is it not?",
+  "zh": "但那是一个很好的例子，像样式那个，你知道，那个样式的定义，我 mean，它很可能是你想要应用到多个代码库的东西，不是吗？"
+ },
+ {
+  "seg": 338,
+  "start": 2386.08,
+  "end": 2387.2,
+  "speaker": "Don Syme",
+  "en": "Oh yeah, absolutely.",
+  "zh": "哦是的，绝对是。"
+ },
+ {
+  "seg": 339,
+  "start": 2387.36,
+  "end": 2395.92,
+  "speaker": "Guy Fajani",
+  "en": "So we would kind of pattern to think about for like where would you then store is that just a reusable action or reusable reusable skills.",
+  "zh": "所以我们会有一种模式来思考，比如你会把它存在哪里，那只是一个可重用的 Action 还是可重用的技能。"
+ },
+ {
+  "seg": 340,
+  "start": 2396.08,
+  "end": 2396.88,
+  "speaker": "Don Syme",
+  "en": "I mean, absolutely.",
+  "zh": "我是说，绝对是。"
+ },
+ {
+  "seg": 341,
+  "start": 2396.96,
+  "end": 2398.48,
+  "speaker": "Don Syme",
+  "en": "So you import skill libraries then.",
+  "zh": "所以你引入技能库。"
+ },
+ {
+  "seg": 342,
+  "start": 2398.72,
+  "end": 2398.8,
+  "speaker": "Don Syme",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 343,
+  "start": 2398.88,
+  "end": 2419.04,
+  "speaker": "Don Syme",
+  "en": "So of course that's again where we a lot of the things that are kind of emerging in the individual productivity kind of world, like whole libraries of skills, and a Tesla has kind of done work on these and um yeah, bring them in to your agentic workflows and you can do that directly and just reference the markdown files and and and and or or check the skills into the repo, is is another thing if you want to go down.",
+  "zh": "所以当然这又回到我们在个人生产力世界中出现的很多东西，比如整个技能库，Tesla 在这方面做了一些工作，嗯，把它们带入你的智能体工作流，你可以直接做到，只需引用 markdown 文件，或者把技能检入代码库，如果你想往那条路走的话，这是另一件事。"
+ },
+ {
+  "seg": 344,
+  "start": 2419.44,
+  "end": 2426,
+  "speaker": "Guy Fajani",
+  "en": "So it's an interesting boundary there of so the execution might be defined in it and the skill that you sort of pull in.",
+  "zh": "所以这里有一个有趣的边界，所以执行可能是在其中定义的，而你引入的技能。"
+ },
+ {
+  "seg": 345,
+  "start": 2426.08,
+  "end": 2430.8,
+  "speaker": "Guy Fajani",
+  "en": "But if you want to create, for instance, shared access to system or such, you might do that through skills.",
+  "zh": "但是如果你想创建，比如，对系统的共享访问或者类似的，你可能会通过技能来做。"
+ },
+ {
+  "seg": 346,
+  "start": 2431.04,
+  "end": 2432.56,
+  "speaker": "Guy Fajani",
+  "en": "The skills might sort of span repos.",
+  "zh": "技能可能会跨越代码库。"
+ },
+ {
+  "seg": 347,
+  "start": 2432.88,
+  "end": 2433.36,
+  "speaker": "Don Syme",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 2433.68,
+  "end": 2439.04,
+  "speaker": "Guy Fajani",
+  "en": "And then there are uh I guess MCPs kind of serve as a similar type of uh uh shared access.",
+  "zh": "然后还有我猜 MCP 充当类似的共享访问类型。"
+ },
+ {
+  "seg": 349,
+  "start": 2439.12,
+  "end": 2441.52,
+  "speaker": "Guy Fajani",
+  "en": "So if you want to access that sort of gets managed in different ways.",
+  "zh": "所以如果你想访问那种以不同方式管理的东西。"
+ },
+ {
+  "seg": 350,
+  "start": 2441.76,
+  "end": 2442,
+  "speaker": "Guy Fajani",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 351,
+  "start": 2442.16,
+  "end": 2446.32,
+  "speaker": "Guy Fajani",
+  "en": "So I guess all of those the tools, the context, and all those are so to bring in production telemetry.",
+  "zh": "所以我猜所有这些工具、上下文以及所有这些都是为了引入生产遥测。"
+ },
+ {
+  "seg": 352,
+  "start": 2447.12,
+  "end": 2450.88,
+  "speaker": "Guy Fajani",
+  "en": "Uh they're all a part of the continuous AI narrative.",
+  "zh": "嗯，它们都是持续 AI 叙事的一部分。"
+ },
+ {
+  "seg": 353,
+  "start": 2451.2,
+  "end": 2456.88,
+  "speaker": "Guy Fajani",
+  "en": "Uh they're just not uh because the continuous AI is broader than the agentic workflows.",
+  "zh": "嗯，它们只是不是嗯，因为持续 AI 比智能体工作流更广泛。"
+ },
+ {
+  "seg": 354,
+  "start": 2456.96,
+  "end": 2458.88,
+  "speaker": "Don Syme",
+  "en": "Uh yeah, yeah, that's right.",
+  "zh": "嗯，是的，没错。"
+ },
+ {
+  "seg": 355,
+  "start": 2458.96,
+  "end": 2467.68,
+  "speaker": "Don Syme",
+  "en": "So the uh GitHub agentic workflows can bring in um uh MCPs, of course, and a lot of those kind of things uh flow flow flow flow across.",
+  "zh": "所以嗯 GitHub 智能体工作流当然可以引入 MCP，很多这类东西嗯流流流流过。"
+ },
+ {
+  "seg": 356,
+  "start": 2467.92,
+  "end": 2476,
+  "speaker": "Don Syme",
+  "en": "Um and you were uh asking like when to run things in repo and when to run things out.",
+  "zh": "嗯，你刚才嗯问比如什么时候在仓库里运行，什么时候在外面运行。"
+ },
+ {
+  "seg": 357,
+  "start": 2476.16,
+  "end": 2478.56,
+  "speaker": "Don Syme",
+  "en": "I mean, GitHub isn't a very open platform.",
+  "zh": "我的意思是，GitHub 不是一个非常开放的平台。"
+ },
+ {
+  "seg": 358,
+  "start": 2478.64,
+  "end": 2483.52,
+  "speaker": "Don Syme",
+  "en": "You can obviously kind of run automations outside thing outside as well.",
+  "zh": "你显然也可以在外面自动运行外面的东西。"
+ },
+ {
+  "seg": 359,
+  "start": 2483.76,
+  "end": 2488.64,
+  "speaker": "Don Syme",
+  "en": "A lot of tools integrate with GitHub, and that's absolutely great.",
+  "zh": "很多工具与 GitHub 集成，这绝对很棒。"
+ },
+ {
+  "seg": 360,
+  "start": 2488.88,
+  "end": 2503.84,
+  "speaker": "Don Syme",
+  "en": "I mean, I I think our uh point of view is to give you know there there are there are for instance um data integrity retention kind of policy kind of reasons why you might sort of convenient because you've got to copy the repo outside the GitHub platform.",
+  "zh": "我的意思是，我我认为我们的嗯观点是给你知道，有有比如嗯数据完整性保留这类政策原因，你可能因为必须把仓库复制到 GitHub 平台之外而觉得方便。"
+ },
+ {
+  "seg": 361,
+  "start": 2504.24,
+  "end": 2506.8,
+  "speaker": "Guy Fajani",
+  "en": "You've already dealt with this, you've already approved it within your org.",
+  "zh": "你已经处理了这个问题，你已经在你的组织内批准了它。"
+ },
+ {
+  "seg": 362,
+  "start": 2507.28,
+  "end": 2516.8,
+  "speaker": "Don Syme",
+  "en": "Yeah, there may be legal or whatever reasons, uh privacy reasons, whatever, you can and can't kind of take all that issue and pull request metadata and kind of take it out and then put it back in.",
+  "zh": "是的，可能有法律或其他原因，嗯隐私原因等等，你可以也可以不能把这所有问题和拉取请求元数据弄出来然后放回去。"
+ },
+ {
+  "seg": 363,
+  "start": 2516.88,
+  "end": 2527.76,
+  "speaker": "Don Syme",
+  "en": "And uh so it's it's it's obviously a kind of we want a credible, set uh powerful default kind of option to have in GitHub for these kind of workloads.",
+  "zh": "所以嗯它它它显然是一种我们想要一个可信的、集嗯强大的默认选项在 GitHub 里用于这类工作负载。"
+ },
+ {
+  "seg": 364,
+  "start": 2527.84,
+  "end": 2540.72,
+  "speaker": "Don Syme",
+  "en": "Uh, we do, of course, recognize you know, lots of kind of depth specialty security agents or penetration testing or all sorts of other kind of things that people do that that will have an out logically happen outside.",
+  "zh": "嗯，我们当然认识到你知道，很多种深度的专业安全智能体或渗透测试或人们做的各种其他事情这将逻辑上在外面发生。"
+ },
+ {
+  "seg": 365,
+  "start": 2540.8,
+  "end": 2542.08,
+  "speaker": "Don Syme",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，完全正确。"
+ },
+ {
+  "seg": 366,
+  "start": 2542.32,
+  "end": 2550.88,
+  "speaker": "Don Syme",
+  "en": "We do see some people kind of doing a mix where they their actual focus uh uh an Israeli startup called HUD is one.",
+  "zh": "我们确实看到一些人做一些混合，他们他们的实际关注点嗯嗯一家叫 HUD 的以色列初创公司就是其中之一。"
+ },
+ {
+  "seg": 367,
+  "start": 2551.04,
+  "end": 2569.12,
+  "speaker": "Don Syme",
+  "en": "Uh uh Mai was talking at AI native DevCon, where their focus is on producing production information and they kind of need a way to kind of surface reports about the what they're finding about bugs and problems and performance results in through production probes.",
+  "zh": "嗯嗯 Mai 在 AI native DevCon 上发言，他们的重点是生成生产信息，他们需要一种方式来展示他们通过生产探针发现的关于 bug、问题和性能结果的报告。"
+ },
+ {
+  "seg": 368,
+  "start": 2569.36,
+  "end": 2579.04,
+  "speaker": "Don Syme",
+  "en": "And for them, GitHub genetic workflows is just an a really easy way to do that kind of reporting, a kind of regular reporting into the repository kind of context.",
+  "zh": "对他们来说，GitHub genetic 工作流只是做那种报告的一种非常简单的方式，一种定期的报告到仓库上下文中。"
+ },
+ {
+  "seg": 369,
+  "start": 2579.12,
+  "end": 2593.12,
+  "speaker": "Don Syme",
+  "en": "And so, in that kind of sense, the the main intelligence, the main yeah, the the the real kind of systems value add is actually over in the production probing that kind of gets done, and maybe some AI processing that happens there.",
+  "zh": "所以，在那个意义上，主要智能，主要嗯，真正的系统增值实际上是在生产探针那边完成的，也许还有那里发生的一些 AI 处理。"
+ },
+ {
+  "seg": 370,
+  "start": 2593.28,
+  "end": 2600.4,
+  "speaker": "Don Syme",
+  "en": "And GitHub genetic workflow is just kind of just a secondary role where it's kind of about surface using some intelligence to kind of surface information that's there.",
+  "zh": "而 GitHub genetic 工作流只是只是一个次要角色，它是关于使用一些智能来展示那里的信息。"
+ },
+ {
+  "seg": 371,
+  "start": 2600.64,
+  "end": 2602.64,
+  "speaker": "Don Syme",
+  "en": "I think we'll see a a lot of that kind of thing.",
+  "zh": "我认为我们会看到很多这类事情。"
+ },
+ {
+  "seg": 372,
+  "start": 2602.8,
+  "end": 2602.96,
+  "speaker": "Don Syme",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 373,
+  "start": 2603.2,
+  "end": 2610.48,
+  "speaker": "Don Syme",
+  "en": "Using it as a kind of uh auxiliary utility in other kind of flows to actually get that information regularly delivered into the repository.",
+  "zh": "将它作为一种嗯辅助工具在其他流程中，以定期将该信息传递到仓库中。"
+ },
+ {
+  "seg": 374,
+  "start": 2610.72,
+  "end": 2619.92,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, it sounds like there's sort of three tiers over there that you've got information that specifically relates to the the code or other content that you know your repo holds.",
+  "zh": "是的，听起来那边大概有三个层级，你有专门与你的仓库持有的代码或其他内容相关的信息。"
+ },
+ {
+  "seg": 375,
+  "start": 2620.08,
+  "end": 2626.96,
+  "speaker": "Guy Fajani",
+  "en": "So those are the sweet spots, like fine, you automate it, you kind of you bring the compute to the data, if you will, yeah uh where it is.",
+  "zh": "所以这些是最佳点，比如很好，你自动化它，你把计算带到数据那里，如果你愿意的话，是的嗯在它所在的地方。"
+ },
+ {
+  "seg": 376,
+  "start": 2627.2,
+  "end": 2633.04,
+  "speaker": "Guy Fajani",
+  "en": "You have another sort of pair of things in which a repo might be a convenient way for you to run recurrence on it.",
+  "zh": "你有另一对事情，仓库可能是你对其运行定期任务的一种方便方式。"
+ },
+ {
+  "seg": 377,
+  "start": 2633.12,
+  "end": 2639.84,
+  "speaker": "Guy Fajani",
+  "en": "And so the repo is is just sort of uh you yeah, and you see that pattern often, which is you create another repo, like the whole world of GitOps.",
+  "zh": "所以仓库只是嗯你，你经常看到这种模式，即你创建另一个仓库，就像整个 GitOps 世界。"
+ },
+ {
+  "seg": 378,
+  "start": 2640.08,
+  "end": 2646.56,
+  "speaker": "Guy Fajani",
+  "en": "And things like that are worlds in which the repo is basically just it's purely a product, it's an automation kind of holder on it.",
+  "zh": "像这样的事情是仓库基本上只是它纯粹是一个产品，一个自动化持有人这样的世界。"
+ },
+ {
+  "seg": 379,
+  "start": 2647.04,
+  "end": 2654.32,
+  "speaker": "Don Syme",
+  "en": "Yeah, that's kind of side repo pattern where you have an automation running in the side repo and the target repo is actually some kind of monitoring or something like that.",
+  "zh": "是的，那是那种侧边仓库模式，你在一个侧边仓库中运行自动化，目标仓库实际上是某种监控或类似的东西。"
+ },
+ {
+  "seg": 380,
+  "start": 2654.48,
+  "end": 2655.84,
+  "speaker": "Don Syme",
+  "en": "And in that case, you use that much.",
+  "zh": "在这种情况下，你会大量使用它。"
+ },
+ {
+  "seg": 381,
+  "start": 2656.16,
+  "end": 2662.24,
+  "speaker": "Guy Fajani",
+  "en": "And you get the benefit of uh the kind of enterprise uh whatever legals and security and such approvals.",
+  "zh": "你会获得嗯那种企业嗯无论什么法律和安全这类批准的好处。"
+ },
+ {
+  "seg": 382,
+  "start": 2662.32,
+  "end": 2664.8,
+  "speaker": "Guy Fajani",
+  "en": "If you're already a GitHub user, it's kind of convenient.",
+  "zh": "如果你已经是 GitHub 用户，这很方便。"
+ },
+ {
+  "seg": 383,
+  "start": 2665.12,
+  "end": 2676.56,
+  "speaker": "Guy Fajani",
+  "en": "Then you might have a third bucket, uh, which are cases in which uh you need other sort of optimizations and specializations, whatever bursting to a lot of compute or things like that, in which you might want sort of slightly different systems.",
+  "zh": "然后你可能会有第三个桶，嗯，这是你需要其他类型的优化和专业化的情况，无论突发到大量计算或类似的事情，你可能想要稍微不同的系统。"
+ },
+ {
+  "seg": 384,
+  "start": 2676.96,
+  "end": 2679.84,
+  "speaker": "Don Syme",
+  "en": "You might be applying some proprietary AI knowledge tools.",
+  "zh": "你可能正在应用一些专有的 AI 知识工具。 [[385] 进入你的仓库，那将生活在侧面。"
+ },
+ {
+  "seg": 385,
+  "start": 2680,
+  "end": 2684,
+  "speaker": "Don Syme",
+  "en": "To do the into your repository, and that's kind of going to live off to the side.",
+  "zh": "要做进入你的仓库，这算是会活在旁边。"
+ },
+ {
+  "seg": 386,
+  "start": 2684.32,
+  "end": 2696.8,
+  "speaker": "Don Syme",
+  "en": "The side repo one is actually really useful for controlling the um uh authorization about about changing the automation as well, like who can write the automation, who can run that, who's the factory runner in a sense.",
+  "zh": "侧边仓库模式实际上对于控制嗯嗯关于更改自动化的授权非常有用，比如谁可以编写自动化，谁可以运行它，谁是工厂运行者。"
+ },
+ {
+  "seg": 387,
+  "start": 2697.04,
+  "end": 2706.8,
+  "speaker": "Don Syme",
+  "en": "And uh so to have that side repo targeting a kind of control, uh a monorepo is um a pretty pretty effective pattern.",
+  "zh": "所以拥有一个针对某种控制的侧边仓库，嗯一个 monorepo 是一种非常非常有效的模式。"
+ },
+ {
+  "seg": 388,
+  "start": 2707.2,
+  "end": 2714.24,
+  "speaker": "Guy Fajani",
+  "en": "So should people uh I want to talk a little bit about doing it right and maybe get into philosophy, but maybe one more tactical question.",
+  "zh": "那么人们应该嗯我想稍微谈谈正确地做这件事，也许进入哲学层面，但也许再问一个战术性问题。"
+ },
+ {
+  "seg": 389,
+  "start": 2714.4,
+  "end": 2729.28,
+  "speaker": "Guy Fajani",
+  "en": "Um when people do the automation, there are sort of these uh two again kind of push almost like monorepo, sort of small repo style debate, which is should you have one workflow that does multiple things uh in it?",
+  "zh": "嗯当人们做自动化时，有这些嗯两种又像是 monorepo，又像是小仓库风格的辩论，即你应该有一个工作流在里面做多件事吗？"
+ },
+ {
+  "seg": 390,
+  "start": 2729.44,
+  "end": 2732.64,
+  "speaker": "Guy Fajani",
+  "en": "Um, because there's still a bunch of things you need to configure pro workflow and all that.",
+  "zh": "嗯，因为仍然有一堆东西你需要配置 pro 工作流和所有这些。"
+ },
+ {
+  "seg": 391,
+  "start": 2732.72,
+  "end": 2734.56,
+  "speaker": "Guy Fajani",
+  "en": "There's a bunch of convenience to it, to it.",
+  "zh": "这里面有很多便利性。"
+ },
+ {
+  "seg": 392,
+  "start": 2734.72,
+  "end": 2745.76,
+  "speaker": "Guy Fajani",
+  "en": "Or should you have uh I think I guess that's how I interpret the agent zoo to be, which is you know, I've got a hundred uh different agentic workflows that are sort of running on it.",
+  "zh": "或者你应该有嗯我想我猜这就是我解释智能体动物园的方式，也就是你知道，我有一百个嗯不同的智能体工作流在上面运行。"
+ },
+ {
+  "seg": 393,
+  "start": 2746,
+  "end": 2748.08,
+  "speaker": "Guy Fajani",
+  "en": "I guess what's your what's your sort of bias over there?",
+  "zh": "我猜你的那边是什么是什么偏好？"
+ },
+ {
+  "seg": 394,
+  "start": 2748.24,
+  "end": 2748.8,
+  "speaker": "Guy Fajani",
+  "en": "What's your guidance?",
+  "zh": "你的指导是什么？"
+ },
+ {
+  "seg": 395,
+  "start": 2749.84,
+  "end": 2757.68,
+  "speaker": "Don Syme",
+  "en": "My my particular bias is more towards one uh workflow, which kind of can do multiple kinds of things, one point of cost control.",
+  "zh": "我的我的个人偏好更多是偏向一个嗯工作流，它可以做多种事情，一个成本控制点。"
+ },
+ {
+  "seg": 396,
+  "start": 2758.08,
+  "end": 2768.88,
+  "speaker": "Don Syme",
+  "en": "Uh like if you have a um so so so one of sorry, I should say my collaborator's bias, uh Pelly de Hallio and is um he is more to have lots and an agent zoo.",
+  "zh": "嗯就像如果你有一个嗯所以所以所以一个对不起，我应该说我合作者的偏好，嗯 Pelly de Hallio 他是嗯他更多的是有很多一个智能体动物园。"
+ },
+ {
+  "seg": 397,
+  "start": 2768.96,
+  "end": 2770.4,
+  "speaker": "Don Syme",
+  "en": "That's why we call it Pelly's agent zoo.",
+  "zh": "这就是我们叫它 Pelly 的智能体动物园的原因。"
+ },
+ {
+  "seg": 398,
+  "start": 2770.56,
+  "end": 2783.44,
+  "speaker": "Don Syme",
+  "en": "And part of that's just exploring space, like regular, you know, we don't, Pelly's amazing guy, and we don't want to kind of constrain what he does, and you know, we just like just go for it, just create as many workflows and and let's let's see what we let's see what comes out.",
+  "zh": "部分原因只是探索空间，比如你知道，我们不，Pelly 是个很棒的人，我们不想限制他做的事，你知道，我们喜欢尽管去，创建尽可能多的工作流，让我们看看让我们看看会出现什么。"
+ },
+ {
+  "seg": 399,
+  "start": 2783.52,
+  "end": 2784.56,
+  "speaker": "Don Syme",
+  "en": "Let's learn, learn, learn.",
+  "zh": "让我们学习，学习，学习。"
+ },
+ {
+  "seg": 400,
+  "start": 2784.72,
+  "end": 2798.08,
+  "speaker": "Don Syme",
+  "en": "That's that part of what we've been doing here, and uh um but when it comes to actually putting automation, say, into I'm a repository maintainer for open source uh technologies.",
+  "zh": "这就是我们这里一直在做的部分，呃，嗯，但是当涉及到真正把自动化，比如说，放到我是开源技术的仓库维护者的位置上时。"
+ },
+ {
+  "seg": 401,
+  "start": 2798.16,
+  "end": 2806.16,
+  "speaker": "Don Syme",
+  "en": "Uh and I I don't, you know, you can create learn agent zoo, but that's that's also a maintenance burden, right?",
+  "zh": "呃，我我，不，你知道，你可以创建学习智能体动物园，但那那也是一种维护负担，对吧？"
+ },
+ {
+  "seg": 402,
+  "start": 2806.32,
+  "end": 2809.6,
+  "speaker": "Don Syme",
+  "en": "You know, that's you've got to maintain that zoo, you've got to attend to that.",
+  "zh": "你知道，那就是你必须维护那个动物园，你必须照料它。"
+ },
+ {
+  "seg": 403,
+  "start": 2809.68,
+  "end": 2812.24,
+  "speaker": "Don Syme",
+  "en": "And my attention like span is limited, right?",
+  "zh": "而我的注意力像跨度是有限的，对吧？"
+ },
+ {
+  "seg": 404,
+  "start": 2812.32,
+  "end": 2815.36,
+  "speaker": "Don Syme",
+  "en": "I don't want this to be sucking all my my my time.",
+  "zh": "我不希望这事儿吸干我我我所有的时间。"
+ },
+ {
+  "seg": 405,
+  "start": 2815.52,
+  "end": 2823.76,
+  "speaker": "Don Syme",
+  "en": "So I prefer to have kind of one point of attention, one point of uh kind of um and I also I maintain multiple repositories.",
+  "zh": "所以我更希望有一个关注点，一个呃那种嗯而且我也维护多个仓库。"
+ },
+ {
+  "seg": 406,
+  "start": 2823.92,
+  "end": 2826,
+  "speaker": "Don Syme",
+  "en": "So I'm gonna have to look at that across multiple repositories.",
+  "zh": "所以我不得不跨多个仓库查看那个。"
+ },
+ {
+  "seg": 407,
+  "start": 2826.08,
+  "end": 2838,
+  "speaker": "Don Syme",
+  "en": "Actually, I've made myself a little IDE to kind of help with that, to kind of attend to multiple automations running across so not across multiple, but in multiple automations in different repositories.",
+  "zh": "实际上，我自己做了个小 IDE 来帮忙，来处理跨多个运行的自动化，不是跨多个，而是在不同仓库中的多个自动化。"
+ },
+ {
+  "seg": 408,
+  "start": 2838.24,
+  "end": 2849.12,
+  "speaker": "Don Syme",
+  "en": "And um so I I so one example is a a workflow I've put together called Repo Assist, which is kind of a sort of broad spectrum kind of repository assistant.",
+  "zh": "呃，所以所以我这样一个例子是是我组装的一个叫 Repo Assist 的工作流，它是一种那种广谱的仓库助手。"
+ },
+ {
+  "seg": 409,
+  "start": 2849.36,
+  "end": 2856.72,
+  "speaker": "Don Syme",
+  "en": "It like treat it labels issues for you, it it does first response to issues, so it sort of researches issues and responds to them.",
+  "zh": "它像为你给议题打标签，它它做对议题的首次响应，所以它有点研究议题并回复它们。"
+ },
+ {
+  "seg": 410,
+  "start": 2856.88,
+  "end": 2862.48,
+  "speaker": "Don Syme",
+  "en": "It it can choose to implement a PR to kind of fix those issues, it won't merge the PR.",
+  "zh": "它它可以选择实现一个 PR 来修复那些议题，它不会合并那个 PR。"
+ },
+ {
+  "seg": 411,
+  "start": 2862.56,
+  "end": 2868,
+  "speaker": "Don Syme",
+  "en": "So my regular daily working with repo assist is to kind of look, well, what PRs did it create last night?",
+  "zh": "所以我日常使用 repo assist 的日常工作是去看，嗯，昨晚它创建了哪些 PR？"
+ },
+ {
+  "seg": 412,
+  "start": 2868.08,
+  "end": 2869.12,
+  "speaker": "Don Syme",
+  "en": "You know, let's take a look at that.",
+  "zh": "你知道，咱们看看那个。"
+ },
+ {
+  "seg": 413,
+  "start": 2869.44,
+  "end": 2871.92,
+  "speaker": "Guy Fajani",
+  "en": "But why why do you why do you prefer that, for instance?",
+  "zh": "但为什么为什么你为什么你更偏爱那个，比如说？"
+ },
+ {
+  "seg": 414,
+  "start": 2872,
+  "end": 2877.92,
+  "speaker": "Guy Fajani",
+  "en": "Like for instance, you you named there like labeling, researching, and uh and opening a PR.",
+  "zh": "比如说，你你那里提到了像打标签、研究，和呃和打开 PR。"
+ },
+ {
+  "seg": 415,
+  "start": 2878,
+  "end": 2880.64,
+  "speaker": "Guy Fajani",
+  "en": "You could have just as well had three different workflows.",
+  "zh": "你完全可以有三个不同的工作流。"
+ },
+ {
+  "seg": 416,
+  "start": 2881.04,
+  "end": 2897.68,
+  "speaker": "Don Syme",
+  "en": "Yeah, so this is in sort of a supervisor orchestrator pattern, and you can have workflows which you know uh uh effectively choose to uh delegate up to more powerful models is uh interesting kind of pattern, uh or weaker models for kind of things that's important for cost control.",
+  "zh": "对，所以这是一种某种监督者编排者模式，你拥有的工作流可以你知道呃呃有效地选择把呃委托给更强大的模型，这是一个有趣的模式，呃或者为成本控制很重要的事情委托给更弱的模型。"
+ },
+ {
+  "seg": 417,
+  "start": 2898.08,
+  "end": 2899.76,
+  "speaker": "Don Syme",
+  "en": "Uh so why do I prefer it?",
+  "zh": "呃所以我为什么偏爱它？"
+ },
+ {
+  "seg": 418,
+  "start": 2899.92,
+  "end": 2908.48,
+  "speaker": "Don Syme",
+  "en": "I think just conceptual simplicity, just um uh I I I just it makes my life simpler and better than I think.",
+  "zh": "我觉得就是概念上的简单性，就是呃呃我我只是这让我的生活更简单，比我认为的更好。"
+ },
+ {
+  "seg": 419,
+  "start": 2908.88,
+  "end": 2912.32,
+  "speaker": "Don Syme",
+  "en": "Think about the one entity that you uh just just just to have that.",
+  "zh": "想想那一个你呃就就就只为了拥有那个的实体。"
+ },
+ {
+  "seg": 420,
+  "start": 2912.48,
+  "end": 2917.52,
+  "speaker": "Don Syme",
+  "en": "I I cost control really does matter in this kind of thing, complex overall complexity.",
+  "zh": "我成本控制在这类事情中确实很重要，复杂的整体复杂性。"
+ },
+ {
+  "seg": 421,
+  "start": 2917.6,
+  "end": 2922.96,
+  "speaker": "Don Syme",
+  "en": "I just find having five workflows considerably more complex than kind of having one.",
+  "zh": "我只是发现拥有五个工作流比拥有一个要复杂得多。"
+ },
+ {
+  "seg": 422,
+  "start": 2923.52,
+  "end": 2925.84,
+  "speaker": "Don Syme",
+  "en": "Uh how does how does cost manifest here?",
+  "zh": "呃成本在这里如何如何体现？"
+ },
+ {
+  "seg": 423,
+  "start": 2926.64,
+  "end": 2931.36,
+  "speaker": "Don Syme",
+  "en": "Oh, so these workflows uh are very often done in a scheduled kind of way.",
+  "zh": "哦，所以这些工作流呃通常是以一种计划的方式完成的。"
+ },
+ {
+  "seg": 424,
+  "start": 2931.6,
+  "end": 2936.08,
+  "speaker": "Don Syme",
+  "en": "So uh the you may not you with issue triage, you have a choice.",
+  "zh": "所以呃你可能不你对议题分类，你有一个选择。"
+ },
+ {
+  "seg": 425,
+  "start": 2936.32,
+  "end": 2956.64,
+  "speaker": "Don Syme",
+  "en": "You um triage each issue as it kind of comes in and and do depth research, or you can do it in batch, or you can say each day we're gonna see what new issues have come in and we're going to kind of catch up in a batch and actually maybe do kind of a batch of them in a in a single run, uh, which can actually kind of give interesting kind of results as well as it kind of collects information across.",
+  "zh": "你呃在每个议题进来时分类它并做深度研究，或者你可以批量做，或者你可以说每天我们要看看有什么新议题进来，我们要批量赶上，实际上也许在单次运行中做一批，呃，这实际上也能产生有趣的结果，因为它跨收集信息。"
+ },
+ {
+  "seg": 426,
+  "start": 2956.88,
+  "end": 2972.08,
+  "speaker": "Don Syme",
+  "en": "Uh there there are things in between that uh uh you could imagine having workflows which kind of have a service uh policy, which says, you know, we're going to triage all issues within half an hour uh and uh and do depth research on on them within half an hour.",
+  "zh": "呃有在那之间的一些事情，呃呃你可以想象拥有具有某种服务呃策略的工作流，它说，你知道，我们要在半小时内分类所有议题，呃并且呃在半小时内对它们做深度研究。"
+ },
+ {
+  "seg": 427,
+  "start": 2972.16,
+  "end": 2979.12,
+  "speaker": "Don Syme",
+  "en": "Um that's kind of our policy, so then that sort of dictates when uh how things kind of match.",
+  "zh": "呃这那是我们的策略，所以那就决定了呃事情如何如何匹配。"
+ },
+ {
+  "seg": 428,
+  "start": 2979.44,
+  "end": 2979.76,
+  "speaker": "Don Syme",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 429,
+  "start": 2980,
+  "end": 2994.16,
+  "speaker": "Don Syme",
+  "en": "Uh so now if you is repo assist is a scheduled workflow, so you choose the cadence that it kind of is triggered at and you hardwire that into the workflow and you have to go and modify the workflow to change that as things currently stand.",
+  "zh": "呃所以现在如果你 repo assist 是一个计划的工作流，所以你选择它触发的节奏，你把它硬编码进工作流，你必须去修改工作流来改变那个，按目前的情况。"
+ },
+ {
+  "seg": 430,
+  "start": 2994.56,
+  "end": 3002.24,
+  "speaker": "Don Syme",
+  "en": "It's uh and that's important because you dial up, you can dial the automation up, you can dial it back down.",
+  "zh": "它呃这很重要，因为你可以调高，你可以把自动化调高，你可以把它调低。"
+ },
+ {
+  "seg": 431,
+  "start": 3002.64,
+  "end": 3012.24,
+  "speaker": "Don Syme",
+  "en": "If your uh um if activity is very high in the repo, you kind of tend to dial it up, and if if nothing is happening, well probably you dial it down.",
+  "zh": "如果你的呃呃如果仓库里的活动非常高，你倾向于把它调高，如果没有发生什么，那你很可能把它调低。"
+ },
+ {
+  "seg": 432,
+  "start": 3013.44,
+  "end": 3017.28,
+  "speaker": "Don Syme",
+  "en": "The software is being maintained and there aren't very many issues that remain to be fixed.",
+  "zh": "软件正在被维护，没有剩下多少需要修复的议题。"
+ },
+ {
+  "seg": 433,
+  "start": 3017.68,
+  "end": 3021.2,
+  "speaker": "Don Syme",
+  "en": "Each of those cases I can roughly estimate how much it's going to cost.",
+  "zh": "在这些情况的每一种中，我可以粗略估计它要花多少钱。"
+ },
+ {
+  "seg": 434,
+  "start": 3021.36,
+  "end": 3025.92,
+  "speaker": "Don Syme",
+  "en": "Like we have an hour, you can see in the histories the average cost per kind of run.",
+  "zh": "像我们有一个小时，你可以在历史记录中看到每次运行的平均成本。"
+ },
+ {
+  "seg": 435,
+  "start": 3026,
+  "end": 3032.72,
+  "speaker": "Don Syme",
+  "en": "Uh it might be in the cents, it might be in the a dollar or something, depending on the models you're using.",
+  "zh": "呃它可能是几分钱，可能是一美元左右，取决于你使用的模型。"
+ },
+ {
+  "seg": 436,
+  "start": 3032.96,
+  "end": 3036.08,
+  "speaker": "Don Syme",
+  "en": "And so, you know, you've got a bound, a pretty good bound there.",
+  "zh": "所以，你知道，你有了一个界限，那里有一个很好的界限。"
+ },
+ {
+  "seg": 437,
+  "start": 3036.32,
+  "end": 3040.96,
+  "speaker": "Don Syme",
+  "en": "And there are, I should add, there are actually very strong cost control features in GitHub agentic workflows.",
+  "zh": "而且我应该补充，GitHub 智能体工作流中实际上有非常强大的成本控制功能。"
+ },
+ {
+  "seg": 438,
+  "start": 3041.04,
+  "end": 3042.32,
+  "speaker": "Don Syme",
+  "en": "I think it's absolutely essential.",
+  "zh": "我认为那是绝对必要的。"
+ },
+ {
+  "seg": 439,
+  "start": 3042.4,
+  "end": 3044.48,
+  "speaker": "Don Syme",
+  "en": "It's the thing that's missing from the harness discussion.",
+  "zh": "这是 harness 讨论中缺失的东西。"
+ },
+ {
+  "seg": 440,
+  "start": 3044.64,
+  "end": 3049.04,
+  "speaker": "Don Syme",
+  "en": "I think harnesses should have cost controls and kind of budgeting as an absolutely crucial kind of thing.",
+  "zh": "我认为 harness 应该有成本控制和呃预算编制，作为一个绝对关键的呃事情。"
+ },
+ {
+  "seg": 441,
+  "start": 3049.12,
+  "end": 3055.04,
+  "speaker": "Don Syme",
+  "en": "And again, it's the kind of thing that becomes natural in the automation world, but it's a little bit uh unnatural in individual productivity.",
+  "zh": "而且，同样，这是在自动化世界中变得自然的事情，但在个人生产力中有点呃不自然。"
+ },
+ {
+  "seg": 442,
+  "start": 3055.84,
+  "end": 3065.6,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, it's also hard to know uh when you do the action again and again, then you can kind of introduce uh an assessment, an eval of whether you can run into a kind of metric.",
+  "zh": "是的，也很难知道呃当你一遍又一遍做那个动作，然后你可以引入呃一种评估，一个关于你是否可以遇到某种指标的 eval。"
+ },
+ {
+  "seg": 443,
+  "start": 3065.76,
+  "end": 3073.84,
+  "speaker": "Don Syme",
+  "en": "You can absolutely you can uh we we've we've added features that it will do exactly the same work at exactly the same time with multiple models.",
+  "zh": "你绝对你可以呃我我们我们添加了功能，它将在完全相同的时间用多个模型做完全相同的工作。"
+ },
+ {
+  "seg": 444,
+  "start": 3074,
+  "end": 3093.44,
+  "speaker": "Don Syme",
+  "en": "It'll only choose the it will choose, say, the first one as its result, but you can use turn that on for a day to get like uh a sort of examination testing, uh is what I call it, where you kind of exact you're doing the models, uh a room full of models is doing exactly the same work at exactly the same time, setting them an exam.",
+  "zh": "它只会选择它将选择，比如说，第一个作为它的结果，但你可以打开那个一天，来得到像呃一种我称为考试测试的东西，你正在精确地你正在做模型，呃一屋子模型正在完全相同的时间做完全相同的工作，给他们一场考试。"
+ },
+ {
+  "seg": 445,
+  "start": 3093.52,
+  "end": 3102.96,
+  "speaker": "Don Syme",
+  "en": "And that really matters when you're using a shared ledger, because if you write anything to that ledger that hints at the answer to that, like a closed issue or something like that, those models will go find it.",
+  "zh": "这在使用共享账本时真的很重要，因为如果你向那个账本写了任何暗示答案的东西，比如一个已关闭的议题或类似的东西，那些模型会去找到它。"
+ },
+ {
+  "seg": 446,
+  "start": 3103.2,
+  "end": 3107.2,
+  "speaker": "Don Syme",
+  "en": "It's like, oh look, I saw another model kind of did it using this closed pull request or something like that.",
+  "zh": "就像，哦看，我看到另一个模型用这个已关闭的 PR 或类似的东西做了它。"
+ },
+ {
+  "seg": 447,
+  "start": 3107.28,
+  "end": 3109.6,
+  "speaker": "Don Syme",
+  "en": "No, you've got to test those models at exactly the same time.",
+  "zh": "不，你必须在完全相同的时间测试这些模型。"
+ },
+ {
+  "seg": 448,
+  "start": 3109.84,
+  "end": 3117.04,
+  "speaker": "Don Syme",
+  "en": "So we've got a feature for exactly that, uh, which you can kind of turn on for a day, and then you kind of get results about like, hey, which models kind of work work better.",
+  "zh": "所以我们有一个专门的功能，呃，你可以打开那个一天，然后你得到结果，关于，嘿，哪些模型工作工作得更好。"
+ },
+ {
+  "seg": 449,
+  "start": 3117.28,
+  "end": 3119.44,
+  "speaker": "Don Syme",
+  "en": "Work better on the in the exams, yeah.",
+  "zh": "在考试中工作得更好，是的。"
+ },
+ {
+  "seg": 450,
+  "start": 3119.84,
+  "end": 3122.32,
+  "speaker": "Guy Fajani",
+  "en": "So um maybe let me Vera us.",
+  "zh": "So um maybe let me Vera us. 所以呃也许让我 Vera 我们一下。"
+ },
+ {
+  "seg": 451,
+  "start": 3122.4,
+  "end": 3126.24,
+  "speaker": "Guy Fajani",
+  "en": "We started talking about costs, which I I would sort of qualify a little bit as like doing it right.",
+  "zh": "We started talking about costs, which I I would sort of qualify a little bit as like doing it right. 我们开始谈论成本，我我有点将其归类为像是在做正确的事。"
+ },
+ {
+  "seg": 452,
+  "start": 3126.32,
+  "end": 3127.52,
+  "speaker": "Guy Fajani",
+  "en": "So you're sort of running it.",
+  "zh": "So you're sort of running it. 所以你在某种意义上运行着它。"
+ },
+ {
+  "seg": 453,
+  "start": 3127.6,
+  "end": 3130,
+  "speaker": "Guy Fajani",
+  "en": "And maybe I want to touch on on two other topics.",
+  "zh": "And maybe I want to touch on on two other topics. 也许我想谈谈另外两个话题。"
+ },
+ {
+  "seg": 454,
+  "start": 3130.08,
+  "end": 3140.96,
+  "speaker": "Guy Fajani",
+  "en": "You know, one is maybe more around autonomy uh and you know, sort of the risk of regressions, and you know, as you as you rely more and more on these sort of continuous AIs uh and improvement.",
+  "zh": "You know, one is maybe more around autonomy uh and you know, sort of the risk of regressions, and you know, as you as you rely more and more on these sort of continuous AIs uh and improvement. 你知道，一个可能更多是关于自主性呃以及你知道，回归的风险，以及你知道，随着你你越来越依赖这些连续的 AI 呃和改进。"
+ },
+ {
+  "seg": 455,
+  "start": 3141.12,
+  "end": 3144.08,
+  "speaker": "Guy Fajani",
+  "en": "And then the second is is uh is is safety.",
+  "zh": "And then the second is is uh is is safety. 然后第二个是呃是安全性。"
+ },
+ {
+  "seg": 456,
+  "start": 3144.24,
+  "end": 3147.76,
+  "speaker": "Guy Fajani",
+  "en": "Safety and and autonomy are related a little bit.",
+  "zh": "Safety and and autonomy are related a little bit. 安全性和自主性有一点关联。"
+ },
+ {
+  "seg": 457,
+  "start": 3147.92,
+  "end": 3149.44,
+  "speaker": "Guy Fajani",
+  "en": "It's like what is it that it's allowed to do?",
+  "zh": "It's like what is it that it's allowed to do? 就像是它被允许做什么？"
+ },
+ {
+  "seg": 458,
+  "start": 3149.68,
+  "end": 3155.76,
+  "speaker": "Guy Fajani",
+  "en": "So I guess I'll ask the sort of the broader question is as I as I lean in, this is sort of like beyond product, right?",
+  "zh": "So I guess I'll ask the sort of the broader question is as I as I lean in, this is sort of like beyond product, right? 所以我猜我会问那个更广泛的问题是，当我当我深入探讨时，这有点像超出产品的范畴，对吧？"
+ },
+ {
+  "seg": 459,
+  "start": 3155.84,
+  "end": 3172.56,
+  "speaker": "Guy Fajani",
+  "en": "But as as one leans into continuous AI and makes changes to the docs, to uh you know production deployments, fixes, um how uh uh how do you know, especially when you think about loops and you think about systems that improve themselves over time, right?",
+  "zh": "But as as one leans into continuous AI and makes changes to the docs, to uh you know production deployments, fixes, um how uh uh how do you know, especially when you think about loops and you think about systems that improve themselves over time, right? 但是当当一个人深入到连续 AI 中并对文档、对呃你知道的生产部署、修复进行更改时，呃你你你怎么知道，尤其是当你考虑循环并且你考虑那些随时间自我改进的系统时，对吧？"
+ },
+ {
+  "seg": 460,
+  "start": 3172.72,
+  "end": 3174.24,
+  "speaker": "Guy Fajani",
+  "en": "Gets better at better on it.",
+  "zh": "Gets better at better on it. 在上面做得更好。"
+ },
+ {
+  "seg": 461,
+  "start": 3174.48,
+  "end": 3181.12,
+  "speaker": "Guy Fajani",
+  "en": "How do you uh how do you sort of see or what do you see as a best practice for avoiding regressions here?",
+  "zh": "How do you uh how do you sort of see or what do you see as a best practice for avoiding regressions here? 你你你怎么看或者你在这里把什么视为避免回归的最佳实践？"
+ },
+ {
+  "seg": 462,
+  "start": 3181.28,
+  "end": 3186.8,
+  "speaker": "Guy Fajani",
+  "en": "Do you do you expect every one of these agentic workflows to generally default to want to have an eval?",
+  "zh": "Do you do you expect every one of these agentic workflows to generally default to want to have an eval? 你你期望这些智能体工作流的每一个通常默认都想要有一个评估吗？"
+ },
+ {
+  "seg": 463,
+  "start": 3187.12,
+  "end": 3191.76,
+  "speaker": "Guy Fajani",
+  "en": "If not, like when should they sort of have evals to sort of know that they're they're not changing?",
+  "zh": "If not, like when should they sort of have evals to sort of know that they're they're not changing? 如果不是，像是什么时候它们应该有评估以以便知道它们它们没有在改变？"
+ },
+ {
+  "seg": 464,
+  "start": 3191.84,
+  "end": 3198.96,
+  "speaker": "Guy Fajani",
+  "en": "You know, when do you even define what's correct and how do you even define beyond vibes what correct behavior is?",
+  "zh": "You know, when do you even define what's correct and how do you even define beyond vibes what correct behavior is? 你知道，你什么时候甚至定义什么是正确的，以及你如何在氛围之外甚至定义什么是正确的行为？"
+ },
+ {
+  "seg": 465,
+  "start": 3199.36,
+  "end": 3204.32,
+  "speaker": "Don Syme",
+  "en": "Just to clarify, we're talking correctness for the software or correctness for the agentic kind of automation?",
+  "zh": "Just to clarify, we're talking correctness for the software or correctness for the agentic kind of automation? 只是为了澄清，我们谈论的是软件的正确性还是智能体类自动化的正确性？"
+ },
+ {
+  "seg": 466,
+  "start": 3204.72,
+  "end": 3205.52,
+  "speaker": "Guy Fajani",
+  "en": "So let me kind of refer.",
+  "zh": "So let me kind of refer. 所以让我稍微指代一下。"
+ },
+ {
+  "seg": 467,
+  "start": 3205.76,
+  "end": 3206.88,
+  "speaker": "Guy Fajani",
+  "en": "So we're talking about automation.",
+  "zh": "So we're talking about automation. 所以我们谈论的是自动化。"
+ },
+ {
+  "seg": 468,
+  "start": 3207.2,
+  "end": 3212.32,
+  "speaker": "Guy Fajani",
+  "en": "We talked a lot about how do you sort of systemize the uh the automation of an AI workflow.",
+  "zh": "We talked a lot about how do you sort of systemize the uh the automation of an AI workflow. 我们谈了很多关于如何你如何系统化呃一个 AI 工作流的自动化。"
+ },
+ {
+  "seg": 469,
+  "start": 3212.64,
+  "end": 3219.6,
+  "speaker": "Guy Fajani",
+  "en": "Uh but what we didn't talk about that much is around uh the fact that those workflows are non-deterministic.",
+  "zh": "Uh but what we didn't talk about that much is around uh the fact that those workflows are non-deterministic. 呃但我们没怎么谈论的是关于呃那些工作流是非确定性的事实。"
+ },
+ {
+  "seg": 470,
+  "start": 3219.76,
+  "end": 3225.76,
+  "speaker": "Guy Fajani",
+  "en": "And so you run them enough times uh and they might make mistakes, they might kind of cause problems.",
+  "zh": "And so you run them enough times uh and they might make mistakes, they might kind of cause problems. 所以你运行它们足够多次呃它们可能会犯错，它们可能会造成问题。"
+ },
+ {
+  "seg": 471,
+  "start": 3225.92,
+  "end": 3231.6,
+  "speaker": "Guy Fajani",
+  "en": "Uh and so I guess what I'm asking around regressions is what when we think about CIs, we have some indications.",
+  "zh": "Uh and so I guess what I'm asking around regressions is what when we think about CIs, we have some indications. 呃所以我猜我关于回归所问的是，当我们考虑 CI 时，我们有一些指示。"
+ },
+ {
+  "seg": 472,
+  "start": 3231.68,
+  "end": 3234.64,
+  "speaker": "Guy Fajani",
+  "en": "We know that you know tests will sort of run.",
+  "zh": "We know that you know tests will sort of run. 我们知道你知道测试会某种程度运行。"
+ },
+ {
+  "seg": 473,
+  "start": 3234.8,
+  "end": 3239.76,
+  "speaker": "Guy Fajani",
+  "en": "The tests eventually could become kind of useless, but if they fail, we see it, we sort of start optimizing them.",
+  "zh": "The tests eventually could become kind of useless, but if they fail, we see it, we sort of start optimizing them. 测试最终可能会变得有点没用，但如果它们失败了，我们看到了，我们某种程度开始优化它们。"
+ },
+ {
+  "seg": 474,
+  "start": 3240,
+  "end": 3242.4,
+  "speaker": "Guy Fajani",
+  "en": "And again, it's also like humans have created them.",
+  "zh": "And again, it's also like humans have created them. 而且同样，这就像是人类创造了它们。"
+ },
+ {
+  "seg": 475,
+  "start": 3242.64,
+  "end": 3253.12,
+  "speaker": "Guy Fajani",
+  "en": "I think in the world of AI, you give much more sort of vague instruction that there's a lot, many more degrees of freedom, and especially if you have a self-optimizing workflow that modifies itself and and improves.",
+  "zh": "I think in the world of AI, you give much more sort of vague instruction that there's a lot, many more degrees of freedom, and especially if you have a self-optimizing workflow that modifies itself and and improves. 我认为在 AI 的世界里，你给出更多模糊的指令，有很多更多的自由度，特别是如果你有一个自我优化的工作流，它修改自己并并改进。"
+ },
+ {
+  "seg": 476,
+  "start": 3253.44,
+  "end": 3258.96,
+  "speaker": "Guy Fajani",
+  "en": "Uh how do you how do you know or like what should you have in place to keep degrading?",
+  "zh": "Uh how do you how do you know or like what should you have in place to keep degrading? 呃你你你怎么知道或者像你应该有什么到位来防止退化？"
+ },
+ {
+  "seg": 477,
+  "start": 3259.52,
+  "end": 3263.68,
+  "speaker": "Don Syme",
+  "en": "To be uh to be clear that in this world the human is always in the loop.",
+  "zh": "To be uh to be clear that in this world the human is always in the loop. 为了呃为了明确在这个世界里人类总是在回路中。"
+ },
+ {
+  "seg": 478,
+  "start": 3263.84,
+  "end": 3277.12,
+  "speaker": "Don Syme",
+  "en": "Okay, the at the at the point of the pull request in particular, or the issue, so an issue gets created or a pull request gets created and uh no pull request gets merged without the human actually approving that.",
+  "zh": "Okay, the at the at the point of the pull request in particular, or the issue, so an issue gets created or a pull request gets created and uh no pull request gets merged without the human actually approving that. 好的，在在在拉取请求这一点上，特别是，或者 issue，所以一个 issue 被创建或者一个拉取请求被创建，并且呃没有拉取请求会在人类实际批准的情况下被合并。"
+ },
+ {
+  "seg": 479,
+  "start": 3277.44,
+  "end": 3290.96,
+  "speaker": "Don Syme",
+  "en": "And that um will um and it's also the case that there are limitations on what pull requests can sort of self-modify the the automation, okay.",
+  "zh": "And that um will um and it's also the case that there are limitations on what pull requests can sort of self-modify the the automation, okay. 那呃将呃而且情况也是，对于拉取请求可以某种程度自我修改呃自动化是有限制的，好的。"
+ },
+ {
+  "seg": 480,
+  "start": 3291.04,
+  "end": 3299.36,
+  "speaker": "Don Syme",
+  "en": "That GitHub Actions has some built-in kind of limitations about uh actions cre creating pull requests which themselves modify the actions.",
+  "zh": "That GitHub Actions has some built-in kind of limitations about uh actions cre creating pull requests which themselves modify the actions. GitHub Actions 有一些内置的关于呃 actions 创建拉取请求的限制，而这些拉取请求本身修改了 actions。"
+ },
+ {
+  "seg": 481,
+  "start": 3299.44,
+  "end": 3311.44,
+  "speaker": "Don Syme",
+  "en": "And th those limitations are in there for good reasons for um you don't want sort of malicious actors or somehow kind of marking with your kind of CICD kind of pipelines.",
+  "zh": "And th those limitations are in there for good reasons for um you don't want sort of malicious actors or somehow kind of marking with your kind of CICD kind of pipelines. 那那些限制在那里是有充分理由的，为了呃你不想要那种恶意行为者或者以某种方式干扰你的那种 CICD 管道。"
+ },
+ {
+  "seg": 482,
+  "start": 3311.76,
+  "end": 3322.96,
+  "speaker": "Don Syme",
+  "en": "And some of that thinking does carry over and we so you can have self-improvement kind of loops, you can have like then they can write new skills or they can update new skills and so on, which are kind of separate to that kind of system.",
+  "zh": "And some of that thinking does carry over and we so you can have self-improvement kind of loops, you can have like then they can write new skills or they can update new skills and so on, which are kind of separate to that kind of system. 而且其中一些思维确实延续过来了，所以我们你可以有自我改进类的循环，你可以有像那样它们可以编写新技能或者它们可以更新新技能等等，这些是与那种系统某种程度分开的。"
+ },
+ {
+  "seg": 483,
+  "start": 3323.04,
+  "end": 3332,
+  "speaker": "Don Syme",
+  "en": "But I do want to kind of say that there are some important kind of controls about how much of that thinking we kind of bring into this world, and some of that is inherited from GitHub Actions.",
+  "zh": "But I do want to kind of say that there are some important kind of controls about how much of that thinking we kind of bring into this world, and some of that is inherited from GitHub Actions. 但我确实想说有一些重要的关于我们多少把那种思维带入这个世界的控制，而其中一些是从 GitHub Actions 继承的。"
+ },
+ {
+  "seg": 484,
+  "start": 3332.64,
+  "end": 3341.92,
+  "speaker": "Guy Fajani",
+  "en": "But if you uh I just want to dive a little into like no pull request gets merged automatically, but that's not a sort of that's an untenable sort of destination, right?",
+  "zh": "But if you uh I just want to dive a little into like no pull request gets merged automatically, but that's not a sort of that's an untenable sort of destination, right? 但是如果你呃我只想稍微深入一点，就像没有拉取请求会自动合并，但这不是一种那是一种不可持续的某种终点，对吧？"
+ },
+ {
+  "seg": 485,
+  "start": 3342,
+  "end": 3346.16,
+  "speaker": "Guy Fajani",
+  "en": "Like as you sort of produce and you make more changes, can humans really review?",
+  "zh": "Like as you sort of produce and you make more changes, can humans really review? 像当你某种程度生产并且你做出更多更改时，人类真的能审查吗？"
+ },
+ {
+  "seg": 486,
+  "start": 3346.24,
+  "end": 3351.28,
+  "speaker": "Guy Fajani",
+  "en": "Like, is there a is there a path for scaling this that doesn't require pull requests to be auto-merged?",
+  "zh": "Like, is there a is there a path for scaling this that doesn't require pull requests to be auto-merged? 像，是否有一条不需要拉取请求自动合并的扩展路径？"
+ },
+ {
+  "seg": 487,
+  "start": 3351.68,
+  "end": 3356.64,
+  "speaker": "Don Syme",
+  "en": "So uh that is in some ways a separate uh discussion.",
+  "zh": "So uh that is in some ways a separate uh discussion. 所以呃这在某种程度上是一个单独的呃讨论。"
+ },
+ {
+  "seg": 488,
+  "start": 3356.8,
+  "end": 3363.28,
+  "speaker": "Don Syme",
+  "en": "I mean in the sense that for Git hypergenic workflows, we have a point of view on that, which is that the human is in the loop.",
+  "zh": "I mean in the sense that for Git hypergenic workflows, we have a point of view on that, which is that the human is in the loop. 我的意思是在某种意义上，对于 Git hypergenic 工作流，我们对此有一个观点，那就是人类是在回路中的。"
+ },
+ {
+  "seg": 489,
+  "start": 3363.36,
+  "end": 3368.8,
+  "speaker": "Don Syme",
+  "en": "Okay, and the human is loop uh de in the loop, definitely at the point of the of the modification of the ledger.",
+  "zh": "Okay, and the human is loop uh de in the loop, definitely at the point of the of the modification of the ledger. 好的，并且人类在回路中呃在回路中，绝对是在在账本修改的这一点上。"
+ },
+ {
+  "seg": 490,
+  "start": 3368.88,
+  "end": 3376.16,
+  "speaker": "Don Syme",
+  "en": "Oh not not the full ledger, the some of the ledger can be modified, the the issues can be written, but the actual code, and it's always been that distinction.",
+  "zh": "Oh not not the full ledger, the some of the ledger can be modified, the the issues can be written, but the actual code, and it's always been that distinction. 哦不不是整个账本，账本的某些部分可以被修改，issue 可以被编写，但是实际代码，而且一直都有那种区别。"
+ },
+ {
+  "seg": 491,
+  "start": 3376.32,
+  "end": 3381.76,
+  "speaker": "Don Syme",
+  "en": "The code is kind of a kind of the golden truth of uh of of what's going on.",
+  "zh": "The code is kind of a kind of the golden truth of uh of of what's going on. 代码是那种关于正在发生什么的呃黄金真理。"
+ },
+ {
+  "seg": 492,
+  "start": 3382.56,
+  "end": 3388.64,
+  "speaker": "Don Syme",
+  "en": "Uh and we I do understand, of course, that human review is a bottleneck.",
+  "zh": "Uh and we I do understand, of course, that human review is a bottleneck. 呃而且我们我当然理解，人工审查是一个瓶颈。"
+ },
+ {
+  "seg": 493,
+  "start": 3388.72,
+  "end": 3400.24,
+  "speaker": "Don Syme",
+  "en": "Uh so of course you can have a genic workflows and other kinds of AI uh genic automation and all sorts of other algorithm algorithmic automation which uh do review, review, review.",
+  "zh": "Uh so of course you can have a genic workflows and other kinds of AI uh genic automation and all sorts of other algorithm algorithmic automation which uh do review, review, review. 呃所以当然你可以有一个 genic 工作流和其他种类的 AI 呵 genic 自动化以及所有其他种类的算法自动化，它们呃做审查，审查，审查。"
+ },
+ {
+  "seg": 494,
+  "start": 3400.32,
+  "end": 3405.04,
+  "speaker": "Don Syme",
+  "en": "And when you're when you're creating a factory, you know, a lot of the work is on the quality gates.",
+  "zh": "And when you're when you're creating a factory, you know, a lot of the work is on the quality gates. 当你当你创建一个工厂时，你知道，很多工作是在质量关卡上。"
+ },
+ {
+  "seg": 495,
+  "start": 3405.12,
+  "end": 3411.36,
+  "speaker": "Don Syme",
+  "en": "You know, there's just no point disturbing uh creating a pull request for the human to review when that thing is low quality.",
+  "zh": "You know, there's just no point disturbing uh creating a pull request for the human to review when that thing is low quality. 你知道，当那个东西是低质量时，打扰呃为人类创建一个拉取请求来审查是毫无意义的。"
+ },
+ {
+  "seg": 496,
+  "start": 3411.6,
+  "end": 3426.16,
+  "speaker": "Don Syme",
+  "en": "You just got to create as many high-quality quality gates uh as possible and automate those to reduce the amount of tension you're sucking from the humans involved.",
+  "zh": "You just got to create as many high-quality quality gates uh as possible and automate those to reduce the amount of tension you're sucking from the humans involved. 你只需创建尽可能多的高质量关卡呃并自动化那些，以减少你从相关人员那里汲取的注意力。"
+ },
+ {
+  "seg": 497,
+  "start": 3426.32,
+  "end": 3433.6,
+  "speaker": "Don Syme",
+  "en": "Uh ultimately, I think you do need uh, you know, on a I mean, some products you could almost like auto-merge kind of things.",
+  "zh": "Uh ultimately, I think you do need uh, you know, on a I mean, some products you could almost like auto-merge kind of things. 呃最终，我认为你确实需要呃，你知道，在某种意义上，我的意思是，有些产品你几乎可以像自动合并这类事情。"
+ },
+ {
+  "seg": 498,
+  "start": 3433.68,
+  "end": 3438,
+  "speaker": "Don Syme",
+  "en": "Uh you can of course use kind of stacked pull requests, or you could just take one long-running pull request.",
+  "zh": "Uh you can of course use kind of stacked pull requests, or you could just take one long-running pull request. 呃你当然可以使用那种堆叠式拉取请求，或者你可以只采用一个长期运行的拉取请求。"
+ },
+ {
+  "seg": 499,
+  "start": 3438.08,
+  "end": 3445.84,
+  "speaker": "Don Syme",
+  "en": "You can push to a pull request branch in an automated way to kind of create a larger and larger and larger feature.",
+  "zh": "You can push to a pull request branch in an automated way to kind of create a larger and larger and larger feature. 你可以以一种自动化的方式推送到拉取请求分支，以创造一个越来越大、越来越大的功能。"
+ },
+ {
+  "seg": 500,
+  "start": 3446,
+  "end": 3448.96,
+  "speaker": "Don Syme",
+  "en": "So that's that is okay, and that is how some loops kind of work.",
+  "zh": "所以这没问题，这也是一些循环运作的方式。"
+ },
+ {
+  "seg": 501,
+  "start": 3449.04,
+  "end": 3453.36,
+  "speaker": "Don Syme",
+  "en": "And of course, we have workflows which you know get the CI green, for example.",
+  "zh": "当然，我们有工作流，你知道比如让 CI 变绿。"
+ },
+ {
+  "seg": 502,
+  "start": 3453.44,
+  "end": 3459.68,
+  "speaker": "Don Syme",
+  "en": "So look at all the pull requests, find the ones that are red, work out what's going wrong, make the extra pull pushes.",
+  "zh": "所以查看所有的拉取请求，找出那些失败的，弄清楚哪里出错了，进行额外的推送。"
+ },
+ {
+  "seg": 503,
+  "start": 3459.84,
+  "end": 3464.64,
+  "speaker": "Don Syme",
+  "en": "Uh no, not propose, actually make the extra push onto the branch because you're only pushing to a branch.",
+  "zh": "呃不，不是提议，实际上是向分支进行额外的推送，因为你只是向分支推送。"
+ },
+ {
+  "seg": 504,
+  "start": 3464.72,
+  "end": 3474.64,
+  "speaker": "Don Syme",
+  "en": "So we do allow automated pushes to pull request uh branches uh for, and you can usually constrain that down to be pull requests that have been created by the automation itself.",
+  "zh": "所以我们确实允许自动推送到拉取请求分支，呃，通常你可以将其限制为仅由自动化本身创建的拉取请求。"
+ },
+ {
+  "seg": 505,
+  "start": 3474.8,
+  "end": 3478.64,
+  "speaker": "Don Syme",
+  "en": "Okay, so you're really kind of carving down to a to a subset.",
+  "zh": "好的，所以你真的是在将其缩小到一个子集。"
+ },
+ {
+  "seg": 506,
+  "start": 3479.28,
+  "end": 3496.8,
+  "speaker": "Don Syme",
+  "en": "Um so where the industry and different projects will land, uh, I mean there's no one answer to that, but I do get that is there is more and more pressure towards sort of kind of automated, kind of full construction of software and automated absolutely everything.",
+  "zh": "呃所以行业和不同的项目会落脚到哪里，呃，我是说这没有唯一的答案，但我确实感觉到有一种越来越多地压力指向某种自动化的、完全的软件构建方向，绝对自动化所有事情。"
+ },
+ {
+  "seg": 507,
+  "start": 3496.96,
+  "end": 3499.12,
+  "speaker": "Don Syme",
+  "en": "And uh we don't go in that direction.",
+  "zh": "而呃我们不朝那个方向走。"
+ },
+ {
+  "seg": 508,
+  "start": 3500.4,
+  "end": 3501.36,
+  "speaker": "Don Syme",
+  "en": "We're being responsible.",
+  "zh": "我们正在保持负责任。"
+ },
+ {
+  "seg": 509,
+  "start": 3501.52,
+  "end": 3508.4,
+  "speaker": "Don Syme",
+  "en": "You know, yeah, there there are you know there are guidelines about how and uh an absolute human in the loop is absolutely a core guideline of what we're doing here.",
+  "zh": "你知道，是的，有有你知道有关于如何操作的指导方针，以及呃绝对的人工在回路绝对是我们要做的核心指导方针。"
+ },
+ {
+  "seg": 510,
+  "start": 3508.64,
+  "end": 3509.04,
+  "speaker": "Don Syme",
+  "en": "Of the path.",
+  "zh": "在路径上。"
+ },
+ {
+  "seg": 511,
+  "start": 3509.28,
+  "end": 3530.56,
+  "speaker": "Guy Fajani",
+  "en": "I mean, I I I think uh I I absolutely understand uh the sort of the driver for it and it's uh safer, but I'm also very conscious of the fact that I guess when I think about a factory, I think about a higher level of control plane, uh, and really everything that is in the current control plane that is includes sort of the modifications to the code, should sort of uh we should aspire to make it agentic.",
+  "zh": "我的意思是，我我我想呃我我绝对理解呃某种驱动它的因素，它呃更安全，但我也非常意识到这样一个事实，我想当我思考一个工厂时，我思考一个更高层面的控制平面，呃，以及当前控制平面里的所有东西，这包括对代码的修改，应该呃我们应该渴望让它具有智能体属性。"
+ },
+ {
+  "seg": 512,
+  "start": 3530.72,
+  "end": 3542.72,
+  "speaker": "Guy Fajani",
+  "en": "And so maybe it is the next batch of questions around uh saying, okay, you have kind of continuous actions that are sort of being done in a collaborative fashion on this sort of shared ledger that is the repo.",
+  "zh": "所以也许这是下一批关于呃说好的问题，你有某种持续的行动，正以协作的方式在这个作为仓库的共享账本上完成。"
+ },
+ {
+  "seg": 513,
+  "start": 3543.04,
+  "end": 3561.6,
+  "speaker": "Guy Fajani",
+  "en": "Uh and uh and you you propose those, and so you've created the the automation uh of uh of these activities uh at some point, and I think that point for many organizations is now, they're they're at a point at which they already have more changes they can accept.",
+  "zh": "呃而且呃你你提出这些，所以你在某一点已经创建了对这些活动的自动化，呃呃，我认为许多组织的那个点就是现在，他们他们已经处于一个他们有更多超出他们所能接受的变更的点上。"
+ },
+ {
+  "seg": 514,
+  "start": 3561.84,
+  "end": 3576.96,
+  "speaker": "Guy Fajani",
+  "en": "It at SNC oftentimes, actually very much sort of today, it's just like hey, the problem is not finding issues, like I have a whole world of issues that I already know of vulnerabilities, the problem is fixing it, hence the sort of the uh you know kind of a uh uh focus from inception on on fixing them.",
+  "zh": "在 SNC，经常，实际上很大程度上就像今天，就像嘿，问题不在于发现问题，就像我已经有一大堆我已知道的漏洞问题，问题在于修复它，因此那种呃你知道从最初就专注于专注于修复它们。"
+ },
+ {
+  "seg": 515,
+  "start": 3577.12,
+  "end": 3589.04,
+  "speaker": "Guy Fajani",
+  "en": "Similarly, over here is like the the the if you've if you just got it to the finish line but you're not able to get it over the finish line and merged, uh then um then you just sort of create a review fatigue.",
+  "zh": "同样，在这里就像是那那那如果你如果你只是到了终点线但你无法让它越过终点线并合并，呃那么呂那么你只是产生了一种审查疲劳。"
+ },
+ {
+  "seg": 516,
+  "start": 3589.12,
+  "end": 3594.88,
+  "speaker": "Guy Fajani",
+  "en": "And you know, to be to be blunt, like people are not necessarily well equipped anyway at that point in time.",
+  "zh": "你知道，坦率地说，人们在那一点也不一定具备相应的能力。"
+ },
+ {
+  "seg": 517,
+  "start": 3594.96,
+  "end": 3595.84,
+  "speaker": "Guy Fajani",
+  "en": "They haven't written a lot of things.",
+  "zh": "他们没写过很多东西。"
+ },
+ {
+  "seg": 518,
+  "start": 3596.08,
+  "end": 3601.12,
+  "speaker": "Don Syme",
+  "en": "Oh, but that's and and this that's exactly they're not really able to make exactly review, right?",
+  "zh": "哦，但这这正是正是他们实际上无法进行确切的审查，对吧？"
+ },
+ {
+  "seg": 519,
+  "start": 3601.44,
+  "end": 3608.32,
+  "speaker": "Don Syme",
+  "en": "So some of my work is applying uh GitHub agentic workflows to factories inside GitHub.",
+  "zh": "所以我的一些工作是将呃 GitHub 智能体工作流应用到 GitHub 内部的工厂中。"
+ },
+ {
+  "seg": 520,
+  "start": 3608.48,
+  "end": 3608.8,
+  "speaker": "Don Syme",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 521,
+  "start": 3609.52,
+  "end": 3613.68,
+  "speaker": "Don Syme",
+  "en": "Uh so we have, for example, a factory for CI performance improvement.",
+  "zh": "呃所以我们有，例如，一个用于 CI 性能改进的工厂。"
+ },
+ {
+  "seg": 522,
+  "start": 3613.76,
+  "end": 3618.16,
+  "speaker": "Don Syme",
+  "en": "Okay, now GitHub's a big product, and we and CI takes quite a while to run.",
+  "zh": "好的，现在 GitHub 是个大型产品，我们我们 CI 运行需要相当长的时间。"
+ },
+ {
+  "seg": 523,
+  "start": 3618.48,
+  "end": 3622.96,
+  "speaker": "Don Syme",
+  "en": "And uh we want to improve that, the the the CI times, okay.",
+  "zh": "而呃我们想要改进它，那那那 CI 时间，好的。"
+ },
+ {
+  "seg": 524,
+  "start": 3623.04,
+  "end": 3633.76,
+  "speaker": "Don Syme",
+  "en": "We want to make incremental steady sort of imp improvement by finding the long-running tests and kind of working out maybe the matrix is a bit big or kind of setups, it can be become a fixer or whatever.",
+  "zh": "我们想要通过找到运行时间长的测试并弄清楚矩阵可能有点大或者设置，可以成为一个修复者或任何东西，来产生渐进的稳步的呃改进。"
+ },
+ {
+  "seg": 525,
+  "start": 3634.24,
+  "end": 3652.48,
+  "speaker": "Don Syme",
+  "en": "And um that that uh my job as a factory creator is to deliver high-quality pull requests where the reviewer is equipped, and I love that word equipped.",
+  "zh": "而呃那那呃我作为工厂创建者的工作是交付高质量的拉取请求，其中审查者是有能力的，我喜欢“装备”这个词。"
+ },
+ {
+  "seg": 526,
+  "start": 3652.64,
+  "end": 3668.24,
+  "speaker": "Don Syme",
+  "en": "My job is to equip the reviewer with all the information they need to understand why this is being done, what are the risks involved, what are the trade-offs involved, is this a minimal thing, as many quality gate checks on this thing as possible.",
+  "zh": "我的工作是为审查者装备理解为什么要这样做、涉及什么风险、涉及什么权衡、这是否是最小化的东西、以及对这个东西进行尽可能多的质量门控检查所需的所有信息。"
+ },
+ {
+  "seg": 527,
+  "start": 3668.4,
+  "end": 3674.88,
+  "speaker": "Don Syme",
+  "en": "Of course, in this context, you get the CI CD quality gates uh kind of uh as a as a number one thing.",
+  "zh": "当然，在这个背景下，你得到 CI CD 质量门控呃某种呃作为第一要务。"
+ },
+ {
+  "seg": 528,
+  "start": 3675.2,
+  "end": 3679.44,
+  "speaker": "Don Syme",
+  "en": "Now, in this in this particular example, we're we're trying to improve CI perf.",
+  "zh": "现在，在这个在这个特定的例子中，我们我们正试图改进 CI 性能。"
+ },
+ {
+  "seg": 529,
+  "start": 3679.76,
+  "end": 3682.4,
+  "speaker": "Don Syme",
+  "en": "And actually, in this setting, you've got the evidence right there in front of you.",
+  "zh": "实际上，在这个设置中，证据就在你面前。"
+ },
+ {
+  "seg": 530,
+  "start": 3682.48,
+  "end": 3694,
+  "speaker": "Don Syme",
+  "en": "You've got a run that was done with the zero changes or the latest run on master or whatever, on main, and then you've got the run that's done here, and you see, look, the test took 120 seconds there, and it took 15 seconds there.",
+  "zh": "你有一个零变更的运行，或者 master 或任何东西上的最新运行，或者 main 上的，然后你得到这里完成的运行，你看，瞧，那里的测试花了 120 秒，而这里花了 15 秒。"
+ },
+ {
+  "seg": 531,
+  "start": 3694.08,
+  "end": 3695.68,
+  "speaker": "Don Syme",
+  "en": "That we can bank that kind of improvement.",
+  "zh": "我们可以指望这种改进。"
+ },
+ {
+  "seg": 532,
+  "start": 3695.76,
+  "end": 3696.56,
+  "speaker": "Don Syme",
+  "en": "We've got the evidence.",
+  "zh": "我们有证据。"
+ },
+ {
+  "seg": 533,
+  "start": 3696.72,
+  "end": 3704.4,
+  "speaker": "Don Syme",
+  "en": "So you s you you you you give the evidence to the to the reviewer, you say, you know, I found it, and maybe you didn't find the evidence.",
+  "zh": "所以你把你把证据给给审查者，你说，你知道，我发现了它，也许你没发现证据。"
+ },
+ {
+  "seg": 534,
+  "start": 3704.48,
+  "end": 3712.16,
+  "speaker": "Don Syme",
+  "en": "You say this thing should be closed, or auto kind of close this kind of get rid of the trash off the off the production line because this was a this is a dodgy one, throw it away.",
+  "zh": "你说这东西应该被关闭，或者自动某种关闭这种把垃圾从从生产线上弄走，因为这是一个这是一个可疑的，扔掉它。"
+ },
+ {
+  "seg": 535,
+  "start": 3712.24,
+  "end": 3715.52,
+  "speaker": "Don Syme",
+  "en": "It's a lot of throwing stuff away in this kind of world, much more than before.",
+  "zh": "在这种世界里扔掉很多东西，比以前多得多。"
+ },
+ {
+  "seg": 536,
+  "start": 3715.6,
+  "end": 3717.28,
+  "speaker": "Don Syme",
+  "en": "Yeah, you get you you get you get trash.",
+  "zh": "是的，你得到你你你得到垃圾。"
+ },
+ {
+  "seg": 537,
+  "start": 3718,
+  "end": 3721.92,
+  "speaker": "Guy Fajani",
+  "en": "The work has been cheap, it's easier to throw it away because it was just a eye that sort of ran along.",
+  "zh": "工作很廉价，扔掉它更容易，因为它只是一个沿着运行的智能体。"
+ },
+ {
+  "seg": 538,
+  "start": 3722.08,
+  "end": 3722.8,
+  "speaker": "Guy Fajani",
+  "en": "Cheap in relative.",
+  "zh": "相对廉价。"
+ },
+ {
+  "seg": 539,
+  "start": 3723.36,
+  "end": 3724.56,
+  "speaker": "Don Syme",
+  "en": "Yeah, or it's just in the nature.",
+  "zh": "是的，或者这只是天性。"
+ },
+ {
+  "seg": 540,
+  "start": 3724.64,
+  "end": 3726.64,
+  "speaker": "Don Syme",
+  "en": "I mean, cheap or not, it's the nature of the factory.",
+  "zh": "我的意思是，廉价与否，这是工厂的天性。"
+ },
+ {
+  "seg": 541,
+  "start": 3726.72,
+  "end": 3728.64,
+  "speaker": "Don Syme",
+  "en": "If it produces rubbish, you throw it away, right?",
+  "zh": "如果它生产垃圾，你就扔掉它，对吧？"
+ },
+ {
+  "seg": 542,
+  "start": 3728.72,
+  "end": 3731.76,
+  "speaker": "Don Syme",
+  "en": "You know, the can has got a crush on it, you know, throw it away.",
+  "zh": "你知道，罐头上有个压痕，你知道，扔掉它。"
+ },
+ {
+  "seg": 543,
+  "start": 3731.92,
+  "end": 3742,
+  "speaker": "Don Syme",
+  "en": "On our next offsite for our uh our our team, I'm uh I want to go visit at some real factories with some real uh maybe maybe film studios or something like that.",
+  "zh": "在我们下次的我们团队的团建活动中，我呃我想去参观一些真正的工厂，有一些真正的呃也许也许电影工作室或类似的东西。"
+ },
+ {
+  "seg": 544,
+  "start": 3742.16,
+  "end": 3743.68,
+  "speaker": "Don Syme",
+  "en": "How do you actually how do people actually make stuff?",
+  "zh": "你到底如何人们实际上如何制造东西？"
+ },
+ {
+  "seg": 545,
+  "start": 3743.76,
+  "end": 3744.72,
+  "speaker": "Don Syme",
+  "en": "How do they organize this?",
+  "zh": "他们如何组织这个？"
+ },
+ {
+  "seg": 546,
+  "start": 3744.8,
+  "end": 3746.4,
+  "speaker": "Don Syme",
+  "en": "How do they tell what's good and what's not?",
+  "zh": "他们如何分辨什么是好的什么是不好的？"
+ },
+ {
+  "seg": 547,
+  "start": 3746.48,
+  "end": 3752.56,
+  "speaker": "Don Syme",
+  "en": "How do they, you know, how many uh uh you know let's let's let's let's think about this differently.",
+  "zh": "他们如何，你知道，多少呃呃你知道让我们让我们让我们让我们换个角度想这个。"
+ },
+ {
+  "seg": 548,
+  "start": 3752.64,
+  "end": 3753.12,
+  "speaker": "Don Syme",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 549,
+  "start": 3753.44,
+  "end": 3761.2,
+  "speaker": "Guy Fajani",
+  "en": "Um I think uh I have a whole world more of questions on it, but I'm afraid we're sort of like uh a little bit uh a little bit uh into some more of these things.",
+  "zh": "呃我想呃我对此有更多的问题，但我恐怕我们有点呃一点呃一点呃深入更多这些事情了。"
+ },
+ {
+  "seg": 550,
+  "start": 3761.68,
+  "end": 3761.84,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 551,
+  "start": 3762.32,
+  "end": 3764.16,
+  "speaker": "Guy Fajani",
+  "en": "A little bit out of time over here on it.",
+  "zh": "这边时间有点超了。"
+ },
+ {
+  "seg": 552,
+  "start": 3764.32,
+  "end": 3768,
+  "speaker": "Guy Fajani",
+  "en": "So uh I love uh first of all, Don, thanks for sort of coming on.",
+  "zh": "所以呃我喜欢呃首先，Don，感谢你来参加。"
+ },
+ {
+  "seg": 553,
+  "start": 3768.08,
+  "end": 3776.24,
+  "speaker": "Guy Fajani",
+  "en": "I love the I I really, really relate to the sort of the term continuous AI, and I think uh you know there's there's there's kind of a world to define around it.",
+  "zh": "我喜欢我我真的，真的很认同持续 AI 这个术语，我认为呃你知道有有有很多定义的空间围绕它。"
+ },
+ {
+  "seg": 554,
+  "start": 3776.32,
+  "end": 3778.24,
+  "speaker": "Guy Fajani",
+  "en": "There's still very much around definitions.",
+  "zh": "仍然非常围绕定义。"
+ },
+ {
+  "seg": 555,
+  "start": 3778.32,
+  "end": 3780.56,
+  "speaker": "Guy Fajani",
+  "en": "Uh and nice and nice and world.",
+  "zh": "呃还有很好的和很好的世界。"
+ },
+ {
+  "seg": 556,
+  "start": 3780.64,
+  "end": 3781.36,
+  "speaker": "Guy Fajani",
+  "en": "I love that I love that.",
+  "zh": "我喜欢那我喜欢那。"
+ },
+ {
+  "seg": 557,
+  "start": 3781.44,
+  "end": 3785.2,
+  "speaker": "Don Syme",
+  "en": "It's always been my my my my joy of working in the in the tech industry.",
+  "zh": "这一直是我的我在科技行业工作的我的乐趣。"
+ },
+ {
+  "seg": 558,
+  "start": 3785.6,
+  "end": 3799.44,
+  "speaker": "Guy Fajani",
+  "en": "So so super fun, very much like you know, powerful, kind of new, repo-centered, uh uh kind of cloud, uh, cloud agent sort of platform uh in the agentic workflows, and sounds like a lot over there that we didn't even sort of scratch the surface over here.",
+  "zh": "所以所以超级有趣，很像你知道，强大的，新的，以仓库为中心的，呃呃一种云，呃，云智能体某种平台呃在智能体工作流中，听起来那里有很多我们甚至没在这里稍微触及皮毛的东西。"
+ },
+ {
+  "seg": 559,
+  "start": 3799.6,
+  "end": 3809.92,
+  "speaker": "Guy Fajani",
+  "en": "And then some sort of forward-looking questions on uh the agentic workflows will kind of get you to the PR, what happens beyond, how does it relate to the loops, and uh you know, lots and lots to still explore.",
+  "zh": "然后一些关于呃智能体工作流的前瞻性问题会让你谈到 PR，之后会发生什么，它如何与循环相关联，以及呃你知道，还有很多很多要去探索。"
+ },
+ {
+  "seg": 560,
+  "start": 3810.4,
+  "end": 3811.2,
+  "speaker": "Don Syme",
+  "en": "Exciting times.",
+  "zh": "令人兴奋的时代。"
+ },
+ {
+  "seg": 561,
+  "start": 3811.28,
+  "end": 3817.84,
+  "speaker": "Don Syme",
+  "en": "And uh yeah, we call it the uh agentic repository automation revolution, is I think the title I used for the talk.",
+  "zh": "以及呃是的，我们称之为呃智能体仓库自动化革命，是我为那次演讲使用的标题。"
+ },
+ {
+  "seg": 562,
+  "start": 3817.92,
+  "end": 3825.6,
+  "speaker": "Don Syme",
+  "en": "And I I do think it's gonna be at the center of a lot of what practical teams are doing, and especially in enterprise, but also open source context.",
+  "zh": "我我确实认为它将成为很多实战团队所做事情的核心，特别是在企业中，但也是在开源语境中。"
+ },
+ {
+  "seg": 563,
+  "start": 3825.76,
+  "end": 3829.12,
+  "speaker": "Don Syme",
+  "en": "And you know, it's a great time to be a GitHub and this kind of work.",
+  "zh": "而且你知道，这对于 GitHub 和这类工作来说是个好时机。"
+ },
+ {
+  "seg": 564,
+  "start": 3829.76,
+  "end": 3830.64,
+  "speaker": "Don Syme",
+  "en": "Thanks for having me on.",
+  "zh": "感谢邀请我。"
+ },
+ {
+  "seg": 565,
+  "start": 3830.88,
+  "end": 3832,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, thanks for joining us.",
+  "zh": "是的，感谢加入我们。"
+ },
+ {
+  "seg": 566,
+  "start": 3832.08,
+  "end": 3833.28,
+  "speaker": "Guy Fajani",
+  "en": "Thanks everybody for listening in.",
+  "zh": "感谢大家的收听。"
+ },
+ {
+  "seg": 567,
+  "start": 3833.36,
+  "end": 3841.04,
+  "speaker": "Guy Fajani",
+  "en": "I do very much encourage you to go watch Don's uh talk, which is on uh on our YouTube channel on the AI Native Dev channels.",
+  "zh": "我非常鼓励你去观看 Don 的呃演讲，它在我们 YouTube 频道上的 AI Native Dev 频道上。"
+ },
+ {
+  "seg": 568,
+  "start": 3841.12,
+  "end": 3842.4,
+  "speaker": "Guy Fajani",
+  "en": "We'll put it in the show notes.",
+  "zh": "我们会把它放在节目备注中。"
+ },
+ {
+  "seg": 569,
+  "start": 3842.48,
+  "end": 3844.24,
+  "speaker": "Guy Fajani",
+  "en": "Uh it's a really excellent talk.",
+  "zh": "呃这是一个非常精彩的演讲。"
+ },
+ {
+  "seg": 570,
+  "start": 3844.32,
+  "end": 3847.84,
+  "speaker": "Guy Fajani",
+  "en": "It actually has a lot more content uh than what we discussed over here.",
+  "zh": "它实际上比我们在这里讨论的内容有更多的内容呃。"
+ },
+ {
+  "seg": 571,
+  "start": 3847.92,
+  "end": 3849.76,
+  "speaker": "Guy Fajani",
+  "en": "Uh it's very practical advice.",
+  "zh": "呃这是非常实用的建议。"
+ },
+ {
+  "seg": 572,
+  "start": 3849.92,
+  "end": 3851.92,
+  "speaker": "Guy Fajani",
+  "en": "And I hope you tune in for the next one.",
+  "zh": "希望你收听下一期。"
+ },
+ {
+  "seg": 573,
+  "start": 3852.16,
+  "end": 3856.96,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for skills and context.",
+  "zh": "AI Native Dev 由 Tesla 带给你，用于技能和上下文的包管理器。"
+ },
+ {
+  "seg": 574,
+  "start": 3857.04,
+  "end": 3860.08,
+  "speaker": "Simon Maple",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "我们的主持人是 Guy Pajani 和我，Simon Maple。"
+ },
+ {
+  "seg": 575,
+  "start": 3860.16,
+  "end": 3861.84,
+  "speaker": "Simon Maple",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人 Tom Dowler。"
+ },
+ {
+  "seg": 576,
+  "start": 3862,
+  "end": 3865.2,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "AI Native Dev 不仅是一个播客，它是一个社区。"
+ },
+ {
+  "seg": 577,
+  "start": 3865.36,
+  "end": 3868.88,
+  "speaker": "Simon Maple",
+  "en": "And we host monthly meetups at the Tesla offices in central London.",
+  "zh": "我们在伦敦市中心的 Tesla 办公室举办每月聚会。"
+ },
+ {
+  "seg": 578,
+  "start": 3869.04,
+  "end": 3873.76,
+  "speaker": "Simon Maple",
+  "en": "Visit Tesla.io forward community to learn more at hostile dev.",
+  "zh": "访问 Tesla.io forward community 了解更多 hostile dev 的信息。"
+ }
+]

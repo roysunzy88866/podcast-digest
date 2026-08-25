@@ -1,0 +1,1830 @@
+{
+  "episode_id": "2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-07-07",
+  "tags": [
+    "智能体",
+    "Claude Tag",
+    "Slack 集成",
+    "记忆系统",
+    "事故响应"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "guy-pajani",
+      "type": "person",
+      "role": "host",
+      "name": "Guy Pajani",
+      "file": "Guy Pajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            38.4,
+            48.56
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3433.52,
+            3436.56
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            38.4,
+            48.56
+          ],
+          "quote": "Join your hosts, Guy Pajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3433.52,
+            3436.56
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lamus-mukta",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lamus Mukta",
+      "file": "Lamus Mukta",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            111.84,
+            117.92
+          ],
+          "quote": "And it's wonderful and my pleasure to introduce Lamus Mukta, member of technical staff from Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集以 Anthropic 内部团队的视角展开，讲述其产品工程团队 65% 的 PR 由 Claude Tag 发起，全公司愿意委托给 Claude 的工作量从 30% 翻到 60%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            111.84,
+            117.92
+          ],
+          "quote": "And it's wonderful and my pleasure to introduce Lamus Mukta, member of technical staff from Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            121.76,
+            138.48
+          ],
+          "quote": "We're gonna have a great conversation about uh agentic coding in general, uh, how Anthropic use uh Claude Code and agentic development in your uh environments, and also a massive congratulations for the very recent uh announcement and release of Claude Tag, which we'll go into in just a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            138.56,
+            143.12
+          ],
+          "quote": "Uh but Lames, tell us first a little bit about yourself, your role in Anthropic, and what you do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            144.32,
+            149.84
+          ],
+          "quote": "Um, I'm Lames, I'm a member of technical staff Anthropic, and I sit in our applied AI team.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1449.2,
+            1453.52
+          ],
+          "quote": "And it's always just like a full room of hands, and the anthropic employees as well, we all have our hands up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1579.6,
+            1587.28
+          ],
+          "quote": "I'd love to talk about internally at Anthropic now and how um Anthropic develops software itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1587.76,
+            1593.6
+          ],
+          "quote": "Um and then I'll love to talk a little bit about how Anthropic uses clawed code generally in the org as well as coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1609.36,
+            1619.36
+          ],
+          "quote": "Um and I think there's first of all, like culturally at Anthropic, there's this real um there's this real experimental culture.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1704.8,
+            1709.68
+          ],
+          "quote": "So I think this was this is a real like dog fooding success story within Anthropic, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1729.12,
+            1739.36
+          ],
+          "quote": "Um talk about talk about how you know when Anthropic knew this was super valuable and and and you know wanting to share this with the with a broader audience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1774.08,
+            1789.12
+          ],
+          "quote": "Um, and I think one of the big patterns there is like what happened with Claude Code is at first it was all of the engineers who were relying on this to ship a ton of code really quickly, and then we saw this pattern where all of the teams at Anthropic were like totally going all in on Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1852.8,
+            1857.68
+          ],
+          "quote": "So like we have this huge culture anthropic where we work really, really publicly in Slack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1958.88,
+            1967.76
+          ],
+          "quote": "Um, we're also aware that like at Anthropic, we're pretty liberal with the way that we like, or we're pretty generous with the way that we like share information with each other.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2114.8,
+            2120.96
+          ],
+          "quote": "And I'm sure anthropic, just like every organization, have of course, you know, areas that they that they tried and and and and didn't get on with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2121.04,
+            2133.76
+          ],
+          "quote": "So I guess from an adoption point of view or from uh ways of working with agentic coding, um, what were some of your or anthropic's greatest learnings, would you say, and the way you were using Claude code, the way you were using maybe even Claude Tag as well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2347.6,
+            2352.24
+          ],
+          "quote": "And that's like it sounds like that's something that's very commonplace then within Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2451.84,
+            2460.4
+          ],
+          "quote": "How has Anthropic um used Clawed code, Claude Tag outside of the traditional engineering uh spaces?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2690.8,
+            2693.04
+          ],
+          "quote": "Is that something you do at Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2923.28,
+            2932.08
+          ],
+          "quote": "So we've we take on a lot of the uh everything from kind of managing the harness of your agent on the anthropic side to some of the infrastructure and the observability, etc.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3409.36,
+            3415.84
+          ],
+          "quote": "And thanks for all the insights as well as to how uh Anthropic are using Claude tag, clawed code, things that you've learned.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-tag",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Tag",
+      "file": "Claude Tag",
+      "primary": true,
+      "how_described": "本集把它说成:住在 Slack 里的主动型队友，拥有跨会话记忆、端到端执行能力和独立权限，能从接反馈到提 PR 一条龙跑完",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.08,
+            3.04
+          ],
+          "quote": "Claude Tag is your proactive teammate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1,
+          "t": [
+            3.28,
+            15.12
+          ],
+          "quote": "What's really special about Claude Tag is it has all of the kind of connectors and tools and context that you're used to when you're using Claude Code, but it's got this extra degree of proactivity and the persistence to see pieces of work through for longer periods of time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 2,
+          "t": [
+            15.28,
+            21.12
+          ],
+          "quote": "Since we've started using Claude Tag internally, our product teams have 65% of their PRs opened by Claude Tag.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            121.76,
+            138.48
+          ],
+          "quote": "We're gonna have a great conversation about uh agentic coding in general, uh, how Anthropic use uh Claude Code and agentic development in your uh environments, and also a massive congratulations for the very recent uh announcement and release of Claude Tag, which we'll go into in just a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            168.16,
+            171.76
+          ],
+          "quote": "Very recently, uh, Claude Tag was announced.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            176,
+            177.68
+          ],
+          "quote": "Tell us a little bit about Claude Tag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            180.72,
+            188.08
+          ],
+          "quote": "So Claude Tag is your proactive teammate, which you which meets you right where you work in Slack for now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            188.4,
+            196.16
+          ],
+          "quote": "And what's really special about pro about Claude Tag is it has all of the kind of connectors and tools and context that you're used to when you're using Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            231.36,
+            233.2
+          ],
+          "quote": "Tagging Claude there and Claude Tag?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            242.88,
+            254.8
+          ],
+          "quote": "But I would say, first of all, um Claude, Claude Tag is incredibly proactive, so it can uh kind of go and execute pieces of work for long periods of time and then come back and let you know when that thing is done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            269.2,
+            273.04
+          ],
+          "quote": "Claude Tag will actually like sometimes come and find you and tell you that something needs your attention.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            286.4,
+            295.52
+          ],
+          "quote": "So rather than you just kind of having these one-off interactions, um Claude Tag is able to kind of uh move out of the scope of kind of sessions and individuals with the code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            353.36,
+            365.28
+          ],
+          "quote": "So I think on that context point, the so we we kind of we have this whole permissioning system with Claude Tag, and you can really control that and tune it to how you want it, but essentially it's kind of scoped to a channel level.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            378.08,
+            382.56
+          ],
+          "quote": "If configured as well, it can also have the ability to search other public channels that Claude Tag is in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            382.72,
+            394.8
+          ],
+          "quote": "So maybe you have like a customer support um channel where there's a bit more context on where this issue arose, and Claude Tag, given the permissions, could also access that information and surface it where maybe you might not even have that kind of visibility.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            419.6,
+            429.68
+          ],
+          "quote": "In the claude tag world, you could have it configured so that claude tag actually picks up the feedback first and tags everybody they think should be um responsible, like should be involved in the response to that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            533.84,
+            541.36
+          ],
+          "quote": "And I think what we've seen is because Claude Tag is able to build up this memory over time, it gets a really good feel for what those workflows look like and it adjusts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 101,
+          "t": [
+            542.72,
+            555.52
+          ],
+          "quote": "And I think just to throw in one last uh difference on that new workflow, what you'll see if you kind of went and implemented this with Claude Tag is just the ability to enable this cross-functional workflow is really cool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            593.6,
+            602.24
+          ],
+          "quote": "And there are gonna be a lot of uh listeners who maybe um don't use uh Claud or Claude Tag in their Slack environments today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            635.04,
+            643.04
+          ],
+          "quote": "Since we've started using Claude Tag internally, our product teams, um, like product engineering teams have 65% of their PRs are opened by Claude Tag.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            693.76,
+            702.56
+          ],
+          "quote": "What we have with Claude Tag is it all becomes a little bit more amorphous, so it we're starting to like be less session focused and it's less single player focused.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            702.8,
+            711.2
+          ],
+          "quote": "So when you're kicking off these agentic coding or just agentic processes with Claude Tag, what you're seeing is that it's so much more multiplayer from the get-go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            778.72,
+            787.36
+          ],
+          "quote": "And so what you see is like you kind of pin claude tag and it comes back to you maybe um a couple of hours later, having like built end-to-end this feature that you talked about.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1236.56,
+            1247.2
+          ],
+          "quote": "Let's um let's step a little bit back and look more broadly because I think people who are the power users will look at something like Claude Tag and think, this is exactly what I need, I want to bring this in immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1526.64,
+            1530.72
+          ],
+          "quote": "Um, it's something we thought a lot about when we were designing Claude Tag, that specific problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1755.76,
+            1757.44
+          ],
+          "quote": "And it's really the same story with Claude Tag.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1757.76,
+            1762.72
+          ],
+          "quote": "Like, like I said, prior to the release, 65% of our PRs are being raised by Claude Tag.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1865.52,
+            1876.08
+          ],
+          "quote": "So sometimes like I was working on I like to the extent where my I talk to Claude Tag in a public channel, like all of my work with Claude Tag, unless it's something that's really private, I do in a public channel.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1912.32,
+            1928.72
+          ],
+          "quote": "Um I'd love to ask the question about you know, when there's so much of a dog fooding culture uh around Claude Tag, around Claude Code in the early days as well, how much is the product direction driven by your internal feedback and the internal dog fooding?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1952.32,
+            1958.56
+          ],
+          "quote": "So, like in terms of the interaction with Claude Tag, like I think we all knew really early that this was something that was working really effectively.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1987.92,
+            1996.16
+          ],
+          "quote": "So one of the design, um one of the design principles that we had with Claude Tag is just like we've really carefully designed how you permission each channel.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2055.12,
+            2063.92
+          ],
+          "quote": "Whereas with Claude Tag, we actually give that um agent its own permissions and its own keys, etc., so that it can go off and like work autonomously on these things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2121.04,
+            2133.76
+          ],
+          "quote": "So I guess from an adoption point of view or from uh ways of working with agentic coding, um, what were some of your or anthropic's greatest learnings, would you say, and the way you were using Claude code, the way you were using maybe even Claude Tag as well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2432.32,
+            2451.52
+          ],
+          "quote": "And I and I think Claude Tag really makes this easier and empowers people because you know folks who are non-technical or rather outside of the engineering team are probably much more comfortable engaging and interacting with uh an agentic coding environment when they're doing it through Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2451.84,
+            2460.4
+          ],
+          "quote": "How has Anthropic um used Clawed code, Claude Tag outside of the traditional engineering uh spaces?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2551.2,
+            2560.24
+          ],
+          "quote": "And I think a lot of this has gone into how we've thought about that development of tag then, which is Claude Tag, which is meant to be um really accessible across the board for all teams.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 481,
+          "t": [
+            3157.68,
+            3164.56
+          ],
+          "quote": "Um and I think just like thinking about you know potentially broad audience here, I would really encourage people to like go and set up Claude Tag and give it a try.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3327.44,
+            3331.44
+          ],
+          "quote": "Yeah, no, definitely give it a go with Claude Tag and I need to switch to Claude Tag and try it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3409.36,
+            3415.84
+          ],
+          "quote": "And thanks for all the insights as well as to how uh Anthropic are using Claude tag, clawed code, things that you've learned.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成:单人、同步的智能体编码工具，你开一个会话盯着它每一步输出；最初是 Boris 的副业项目，内部发帖只得到六个反应，后来公司一半人每周在用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.28,
+            15.12
+          ],
+          "quote": "What's really special about Claude Tag is it has all of the kind of connectors and tools and context that you're used to when you're using Claude Code, but it's got this extra degree of proactivity and the persistence to see pieces of work through for longer periods of time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            121.76,
+            138.48
+          ],
+          "quote": "We're gonna have a great conversation about uh agentic coding in general, uh, how Anthropic use uh Claude Code and agentic development in your uh environments, and also a massive congratulations for the very recent uh announcement and release of Claude Tag, which we'll go into in just a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            188.4,
+            196.16
+          ],
+          "quote": "And what's really special about pro about Claude Tag is it has all of the kind of connectors and tools and context that you're used to when you're using Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            207.36,
+            213.28
+          ],
+          "quote": "And and even internal, internally in TESL, uh, we use Claude Code very, very heavily.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            213.44,
+            223.12
+          ],
+          "quote": "Um, and one of the things that we do, which sounds a little bit similar, so I'd love to kind of ask how it differs, is uh we have an integration uh of Claude and Claude Code within Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            400.4,
+            405.92
+          ],
+          "quote": "I think a second is you mentioned that do you go to Claude Code to implement the tickets afterwards, after they're demo linear?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            580.48,
+            589.12
+          ],
+          "quote": "So I think what we see is this like multiplayer ability, which has been quite difficult to uh achieve so far with maybe just working through Claude Code or co-work or something like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            643.68,
+            654.16
+          ],
+          "quote": "So that's kind of the scale of which like we obviously were the early adopters of Claude Code, and now that's like often the port of call for how we would kick off some of these workflows and how those things originate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            787.52,
+            793.76
+          ],
+          "quote": "And so you're kind of able to just leave the agent to itself and it will come back to you when something's done, which is quite different, I think, uh, to Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            793.84,
+            798.72
+          ],
+          "quote": "I mean, it's inspired by some features that we've released in Claude Code, but that would be how I think things have changed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1709.84,
+            1728.8
+          ],
+          "quote": "Um it was, it was, it was documented how popular Claude Code was internally, yeah, and how it kind of how it was realized all of a sudden that actually this is a this is a huge thing, that if our engineers are using this so so broadly and getting so much value out of this, this is something we absolutely need to productize.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1774.08,
+            1789.12
+          ],
+          "quote": "Um, and I think one of the big patterns there is like what happened with Claude Code is at first it was all of the engineers who were relying on this to ship a ton of code really quickly, and then we saw this pattern where all of the teams at Anthropic were like totally going all in on Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1912.32,
+            1928.72
+          ],
+          "quote": "Um I'd love to ask the question about you know, when there's so much of a dog fooding culture uh around Claude Tag, around Claude Code in the early days as well, how much is the product direction driven by your internal feedback and the internal dog fooding?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2121.04,
+            2133.76
+          ],
+          "quote": "So I guess from an adoption point of view or from uh ways of working with agentic coding, um, what were some of your or anthropic's greatest learnings, would you say, and the way you were using Claude code, the way you were using maybe even Claude Tag as well?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2150.08,
+            2160.88
+          ],
+          "quote": "And one thing that we think about a lot on the Claude Code side is every time that we have a new model, we've discussed kind of how those models themselves become more capable in certain dimensions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2537.76,
+            2548.64
+          ],
+          "quote": "Um, like I, for example, on when I'm developing products, I'll have like interfaces where I can like type feedback into prototypes, and then just like Claude Code will just like work on those in the background.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2575.92,
+            2589.92
+          ],
+          "quote": "Um, and what we've learned from like previous products like Claude Code and also on our managed agents is like what works well in terms of this like scheduling and like knowing how proactive to be, because the worst thing in the world is a bot that responds to everything with kind of annoying context.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能够长时间自主运行、可被赋予独立权限和身份、在 Slack 中进行多人异步协作的执行单元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            513.84,
+            523.36
+          ],
+          "quote": "So I think again, it's really for individual teams and to to think about the degree and to which, like where it is in that workflow that they want to steer the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 132,
+          "t": [
+            750.16,
+            757.04
+          ],
+          "quote": "So I'd say that with clawed code, you're kind of it's great for when you kind of want to be there for every single turn of the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            787.52,
+            793.76
+          ],
+          "quote": "And so you're kind of able to just leave the agent to itself and it will come back to you when something's done, which is quite different, I think, uh, to Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            968.88,
+            983.92
+          ],
+          "quote": "I'd love to just double down on that way you just said every four months, the uh the the time that an agent can do something more autonomously is doubling in terms of the and is that the capability of that model, or is that almost because there's a human aspect to that as well, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            987.84,
+            991.44
+          ],
+          "quote": "Is it pure capability of the model and the agent that's that's unlocking that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1110.8,
+            1119.76
+          ],
+          "quote": "And if so, hand it to the model and it can loop over or have another agent review its work until they both kind of un until the reviewer kind of believes that that thing is complete.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1121.76,
+            1126.96
+          ],
+          "quote": "It's like on the aid on the agent and model side, they're just getting more capable and better at doing these things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1169.28,
+            1173.68
+          ],
+          "quote": "Like anytime you need more context or you want to delegate something, you're able to just loot the agent in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2029.52,
+            2036.88
+          ],
+          "quote": "Um, another thing that we did to make this uh work more effectively is we came up with this concept of agent identities.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2055.12,
+            2063.92
+          ],
+          "quote": "Whereas with Claude Tag, we actually give that um agent its own permissions and its own keys, etc., so that it can go off and like work autonomously on these things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2284.16,
+            2302.96
+          ],
+          "quote": "I'm really curious about the kind of like the context piece because or not sorry, the context piece, but the the uh the agentic model changes and the whether it's the agent change or the model change, it really does uh affect uh what we actually need to provide it, whether that's context or memory, in order for it to uh perform the best it can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2303.44,
+            2322.08
+          ],
+          "quote": "And I think and I think what's most interesting is we don't need to change our code or our context in order for us to need to rerun an eval to see is this actually still valuable in its current state, or because of a model change or because of an agent upgrade, you know, do I actually need to provide it with less context?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2322.16,
+            2326.4
+          ],
+          "quote": "Because the model or the agent has actually got better at doing these things without the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2342.56,
+            2347.04
+          ],
+          "quote": "Uh is it the context, is it my prompts, is it my harness because of an agent change?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2674.64,
+            2684.8
+          ],
+          "quote": "And you almost like have uh you know an agent like Claude Tagg saying, Oh, actually, I am gonna raise an incident here, and then I'm gonna do some make some changes, document what I'm doing, make my change, uh, push that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2693.36,
+            2698
+          ],
+          "quote": "So yeah, the the incident response agent is definitely a pattern that we see working really well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2712.96,
+            2722.64
+          ],
+          "quote": "Like one is how much how much first of all, like for this agent to do a good job, you need to give it good acts good access to different data sources.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2730.56,
+            2733.76
+          ],
+          "quote": "This is like a very good starter kit, I think, for that kind of agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2734.16,
+            2748.16
+          ],
+          "quote": "Um but the other thing that's really important, and actually something which feeds into how we've designed our managed agents uh product is where do you want to design those gates between like human-agent interaction?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2923.28,
+            2932.08
+          ],
+          "quote": "So we've we take on a lot of the uh everything from kind of managing the harness of your agent on the anthropic side to some of the infrastructure and the observability, etc.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2965.68,
+            2979.28
+          ],
+          "quote": "So there's like huge organization level context, which is really important and like can only be read from, um, to like agent scratch pads that allow them to drop context about the work that they're doing, which is just amazing in terms of enabling their work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 460,
+          "t": [
+            3015.12,
+            3028.88
+          ],
+          "quote": "So these are basically uh like basically the traces of how your agents have gone and carried out a couple of tasks, and you push, put, give this all to another agent, and it basically reviews those transcripts and it reviews the memories and it looks for any kinds of discrepancies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3387.52,
+            3391.6
+          ],
+          "quote": "So all I need is an agent to just do my work as well, and then I'm I'm I can just let it go on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:Claude Tag 在端到端工作流中自己启动的隔离编码环境，用来写代码并在你仓库里运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            448.72,
+            455.44
+          ],
+          "quote": "So again, uh it could just understand that the workflow it needs to do is kind of raise its, start coding so it can spin up its own sandbox.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 试过索引记忆存储和专用读写工具，最终回归简单文件系统——模型自己用原生 bash 和 grep 就能管好记忆，过度抽象反而添乱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            275.2,
+            281.76
+          ],
+          "quote": "It also has memory and context, which can kind of span your channels so it can kind of understand what one whole team is working on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            395.04,
+            400
+          ],
+          "quote": "So that's one thing is just this like this context window or the memory scope that it has is larger.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            487.36,
+            489.92
+          ],
+          "quote": "And it has access to all the context and memory to do that job well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            533.84,
+            541.36
+          ],
+          "quote": "And I think what we've seen is because Claude Tag is able to build up this memory over time, it gets a really good feel for what those workflows look like and it adjusts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2198.88,
+            2205.76
+          ],
+          "quote": "Um we especially working with startups, I get a lot of people asking me about memory and context infrastructure in particular.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2209.92,
+            2216.32
+          ],
+          "quote": "And I think that, you know, people come up with really innovative ways to structure their memory databases or memory structures, etc.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2216.72,
+            2225.52
+          ],
+          "quote": "And the solution we have in our managed agents API is like a very simple memory file system that just leans on agents' abilities like read and write to memory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2225.68,
+            2236.08
+          ],
+          "quote": "And something I touched on on in that talk is that we tried a lot of different things in the past, like indexed memory stores or like tools that were very specific about how to read and write to memory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2241.44,
+            2253.36
+          ],
+          "quote": "Like sometimes we were being too opinionated about how the agents should interact with memory and they were better left alone, especially as they became more capable to just manage that themselves, and they were great at just using file systems and the native like bash and grep tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2253.52,
+            2262.08
+          ],
+          "quote": "So one thing we learned was like we could actually just remove some of these abstractions, and even our like being opinionated on the structure of those like memory structures.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2284.16,
+            2302.96
+          ],
+          "quote": "I'm really curious about the kind of like the context piece because or not sorry, the context piece, but the the uh the agentic model changes and the whether it's the agent change or the model change, it really does uh affect uh what we actually need to provide it, whether that's context or memory, in order for it to uh perform the best it can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2602.32,
+            2615.52
+          ],
+          "quote": "Uh, and that's something that you can also steer as a team, like if Claude does something that you think is not aligned with your preferences, you can just tell it and it will update its memory and behave um more similarly to what you want in the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2946.32,
+            2956.48
+          ],
+          "quote": "So that's the managed agents product, and of course, uh given how important context has been as a concept in agentic development, uh, it wouldn't be complete without a memory feature.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2956.72,
+            2962.08
+          ],
+          "quote": "So this allows agents to read and write to different memory stores as they learn things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2979.92,
+            2985.12
+          ],
+          "quote": "And like I said, people often ask about like, well, how what is the best practice for structuring these memory systems?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2996.8,
+            3014.96
+          ],
+          "quote": "And so what we designed and introduced is this concept called dreaming, uh, which is kind of what it sounds like, I suppose, where essentially you are able to run these dreaming jobs at whatever cadence you like, where you input some of your memory stores and some of your session transcripts from managed agents.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dreaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "dreaming",
+      "file": "dreaming",
+      "primary": true,
+      "how_described": "本集把它说成:托管智能体上的研究预览功能，把记忆存储和会话记录喂给另一个智能体审查，找出陈旧、缺失、误导信息并给出修改假设，打开持续学习路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1563.12,
+            1572.72
+          ],
+          "quote": "And you mentioned memories, and I'd also love to chat a little bit about dreaming as well, which is something that you talked about at AI Native DevCon at our our conference in London here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2191.04,
+            2198.64
+          ],
+          "quote": "Um I think another thing is like to reference back to that talk that I did for you guys on dreaming.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2898.48,
+            2902.32
+          ],
+          "quote": "Um now you mentioned a concept called Dreaming, which was super curious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2902.48,
+            2905.6
+          ],
+          "quote": "Um, first of all, why don't you tell us a little bit about uh Dreaming what it is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2906.8,
+            2911.76
+          ],
+          "quote": "Um so Dreaming is a research preview feature that we have on our managed agents offering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2996.8,
+            3014.96
+          ],
+          "quote": "And so what we designed and introduced is this concept called dreaming, uh, which is kind of what it sounds like, I suppose, where essentially you are able to run these dreaming jobs at whatever cadence you like, where you input some of your memory stores and some of your session transcripts from managed agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 464,
+          "t": [
+            3072.8,
+            3081.84
+          ],
+          "quote": "And with dreaming, you can kind of hand over that kind of to a large degree, like allow that process to run in an automated fashion, and then just approve whatever you think is is relevant.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent-identities",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体身份 (agent identities)",
+      "file": "智能体身份",
+      "primary": true,
+      "how_described": "本集把它说成:Claude Tag 相对 Claude Code 的关键架构变化——给智能体自己的权限和密钥，它代表团队工作而非借用个人权限，做的每件事以自己身份留痕",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            2029.52,
+            2036.88
+          ],
+          "quote": "Um, another thing that we did to make this uh work more effectively is we came up with this concept of agent identities.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 在 Slack 工作区中对严格私密信息设有很强的护栏，同时权限系统本身也是很好的护栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1967.92,
+            1976.88
+          ],
+          "quote": "Obviously, there's like some very like strong guardrails there for like what is like strictly private information to a team, but we kind of have all of that set out um in our like Slack workspaces, etc.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1977.04,
+            1979.04
+          ],
+          "quote": "Like we have really good guardrails for the permissioning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2017.04,
+            2026.96
+          ],
+          "quote": "So one of these is like working in public, but at the same time, make sure that our products come with the guardrails baked in so that you can reasonably achieve this behavior in a way that's not like that you can actually scale to an enterprise.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "托管智能体 (managed agents)",
+      "file": "托管智能体",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 的产品，帮你在生产环境中更快构建和部署智能体，承担从管理工具层到基础设施和可观测性的工作，记忆方案采用简单文件系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            2216.72,
+            2225.52
+          ],
+          "quote": "And the solution we have in our managed agents API is like a very simple memory file system that just leans on agents' abilities like read and write to memory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2575.92,
+            2589.92
+          ],
+          "quote": "Um, and what we've learned from like previous products like Claude Code and also on our managed agents is like what works well in terms of this like scheduling and like knowing how proactive to be, because the worst thing in the world is a bot that responds to everything with kind of annoying context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2734.16,
+            2748.16
+          ],
+          "quote": "Um but the other thing that's really important, and actually something which feeds into how we've designed our managed agents uh product is where do you want to design those gates between like human-agent interaction?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2906.8,
+            2911.76
+          ],
+          "quote": "Um so Dreaming is a research preview feature that we have on our managed agents offering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2911.92,
+            2923.04
+          ],
+          "quote": "Um and for those who aren't familiar with managed agents, it's clawed managed agents, um this is a product which essentially allows you to build and deploy agents much faster in production.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2946.32,
+            2956.48
+          ],
+          "quote": "So that's the managed agents product, and of course, uh given how important context has been as a concept in agentic development, uh, it wouldn't be complete without a memory feature.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2996.8,
+            3014.96
+          ],
+          "quote": "And so what we designed and introduced is this concept called dreaming, uh, which is kind of what it sounds like, I suppose, where essentially you are able to run these dreaming jobs at whatever cadence you like, where you input some of your memory stores and some of your session transcripts from managed agents.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具层 (harness)",
+      "file": "工具层",
+      "primary": true,
+      "how_described": "本集把它说成:每次出新模型要重新审视并做减法的部分——模型能力变强后，很多之前需要工具层兜底的逻辑可以删掉交给模型自己处理，少即是多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1056.16,
+            1063.84
+          ],
+          "quote": "But what what we see over time is like a lot of behaviors um which previously we'd kind of put in the harness are getting embedded into the models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2161.04,
+            2172.48
+          ],
+          "quote": "And what that means is that we like very regularly revisit what those harnesses look like, and we're very happy to like delete stuff from that harness over time to make it more simple and more lightweight and just let the model do the heavy lifting.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2172.64,
+            2182.64
+          ],
+          "quote": "So over time we see something like the harness actually gets smaller because like we can trust the model more with certain capabilities, and we just need what's there to like you know give it the tool use and infrastructure that it needs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2342.56,
+            2347.04
+          ],
+          "quote": "Uh is it the context, is it my prompts, is it my harness because of an agent change?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2923.28,
+            2932.08
+          ],
+          "quote": "So we've we take on a lot of the uh everything from kind of managing the harness of your agent on the anthropic side to some of the infrastructure and the observability, etc.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集在列举将模型原始智能转化为实际价值所需的基础设施时，顺带提到如何处理所有的推理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1535.68,
+            1539.36
+          ],
+          "quote": "Um, how are you gonna deal with with yeah, all of the inference essentially?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集在描述托管智能体产品承担的职责时，顺带提到基础设施和可观测性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            2653.44,
+            2674.56
+          ],
+          "quote": "And thinking about what you were saying, I I kind of like envision this space whereby we have observability data, which is maybe even going into Slack, providing information, and then I can see quite something like Claude Tagg looking at something like that, and then when it realizes something is perhaps a little bit off, looking to say, Oh, should I raise the incident?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2923.28,
+            2932.08
+          ],
+          "quote": "So we've we take on a lot of the uh everything from kind of managing the harness of your agent on the anthropic side to some of the infrastructure and the observability, etc.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到 Stripe 作为外部采用案例，用智能体编码工具做了整个代码库重写，原本需要几周或几个月的工作在几天或几小时内完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1313.76,
+            1321.92
+          ],
+          "quote": "Like we've seen organizations um, for example, like Stripe do entire code base rewrites that would have taken Weeks or months in like days or hours.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "META",
+      "file": "META",
+      "primary": false,
+      "how_described": "本集提到 Meta 做了一项研究，显示智能体能自主成功完成任务的时间跨度大约每四个月翻一倍，这条指数曲线已持续近十年",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            993.28,
+            1007.92
+          ],
+          "quote": "And it's um so META produced this research and it covers a couple of different domains, and essentially time horizons, so that's how long agents are able to kind of successfully complete a task of a certain length, is um a measure of capability.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集由主持人提到其 CEO Olivier Pamel 在之前一集中讨论过凌晨三点被叫醒处理事故的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 397,
+          "t": [
+            2615.76,
+            2623.44
+          ],
+          "quote": "Yeah, it kind of reminds me, thinking back to a previous episode that we ran, of something which Olivier Pamel, the CEO of Datadog, was was talking about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集把它说成:Claude Tag 目前驻留的工作表面，让智能体更贴近你日常工作的所有场景，不需要在跟团队沟通和跟智能体协作之间切换上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            180.72,
+            188.08
+          ],
+          "quote": "So Claude Tag is your proactive teammate, which you which meets you right where you work in Slack for now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            213.44,
+            223.12
+          ],
+          "quote": "Um, and one of the things that we do, which sounds a little bit similar, so I'd love to kind of ask how it differs, is uh we have an integration uh of Claude and Claude Code within Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            261.68,
+            268.88
+          ],
+          "quote": "Um the second is like often you would kind of go and trigger your um your agents by asking them questions and kind of Claude and Slack would reply.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            307.36,
+            308.16
+          ],
+          "quote": "You can call it Claude and Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            308.4,
+            309.52
+          ],
+          "quote": "Yeah, the claude in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            309.68,
+            325.2
+          ],
+          "quote": "So the way we tend to use it is um very often we'll start discussing a need or a feature or a bug maybe uh in Slack, and then we'll maybe at linear and say we need a we need a ticket about this, and then we'll pretty soon after that just you know hit hit up Claude and say, Can you just implement this please?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            341.68,
+            350.64
+          ],
+          "quote": "The first one is um obviously the the history there, it sounds like the history it will know about past interactions across the Slack or or beyond.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            408.72,
+            415.52
+          ],
+          "quote": "So I think one thing to surface here is you could achieve that whole end-to-end workflow in just one uh thread in Slack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            593.6,
+            602.24
+          ],
+          "quote": "And there are gonna be a lot of uh listeners who maybe um don't use uh Claud or Claude Tag in their Slack environments today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            613.44,
+            624.72
+          ],
+          "quote": "How does it change the flow whereby we're essentially living more in our chat environments, more in our Slack, uh, versus potentially our more agentic flows or IDE?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            799.04,
+            808.72
+          ],
+          "quote": "And the way the industry is evolving, it's funny, actually, about maybe a year ago or so, I was having a chat with uh one of the VPs of um product, I believe, at Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            808.96,
+            814.96
+          ],
+          "quote": "And I kind of amused like, is Slack becoming the new IDE of a developer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            882.16,
+            891.68
+          ],
+          "quote": "As soon as that then then gets extended beyond and into into Slack or a chat environment, we're almost like abstracting away from the code one stage further.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            891.92,
+            899.04
+          ],
+          "quote": "I think this kind of a tool, like a clawed tag or or anything from within Slack, this wouldn't have been accepted a year ago, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            920.24,
+            923.52
+          ],
+          "quote": "Is Slack and chat the new IDE?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1153.84,
+            1158.88
+          ],
+          "quote": "Uh so to your to finally to your point on like is Slack the new home or is Slack the new IDE?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1626,
+            1632.4
+          ],
+          "quote": "And the the funny thing is that originally I think when he shared uh this in a Slack post, it got like six reactions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1852.8,
+            1857.68
+          ],
+          "quote": "So like we have this huge culture anthropic where we work really, really publicly in Slack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1967.92,
+            1976.88
+          ],
+          "quote": "Obviously, there's like some very like strong guardrails there for like what is like strictly private information to a team, but we kind of have all of that set out um in our like Slack workspaces, etc.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2432.32,
+            2451.52
+          ],
+          "quote": "And I and I think Claude Tag really makes this easier and empowers people because you know folks who are non-technical or rather outside of the engineering team are probably much more comfortable engaging and interacting with uh an agentic coding environment when they're doing it through Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2653.44,
+            2674.56
+          ],
+          "quote": "And thinking about what you were saying, I I kind of like envision this space whereby we have observability data, which is maybe even going into Slack, providing information, and then I can see quite something like Claude Tagg looking at something like that, and then when it realizes something is perhaps a little bit off, looking to say, Oh, should I raise the incident?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            3164.64,
+            3170.16
+          ],
+          "quote": "You just need to get your Slack admin to turn it on and do some of the configuration, but it really doesn't take long.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 485,
+          "t": [
+            3189.36,
+            3195.36
+          ],
+          "quote": "So I don't have to wake up to like a wall of like emails and Slack messages, but I just have a nice curated brief about what needs my attention.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 490,
+          "t": [
+            3219.2,
+            3226.56
+          ],
+          "quote": "And that's great because uh whilst working in public as a company is fantastic, it means there's a lot of things going on on Slack, and I cannot keep on top of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3294.48,
+            3312.4
+          ],
+          "quote": "It looks through my Slack, it looks through my email, uh, it looks through my to-doist uh to-do lists, uh, and it also looks through my granola notes as well for my meetings, and it will add a whole bunch of to-dos that I and extracting that from granola, and it will it'll essentially say, Oh, here are some things that you should be aware of or should add to your calendar.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

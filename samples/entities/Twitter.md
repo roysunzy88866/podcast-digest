@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[Claude]] · [[ChatGPT]] · [[智能体]] · [[Google]] · [[Dr. Fei-Fei Li]] · [[Zico Kolter]] · [[Adam Mosseri]] · [[Tom Verrilli]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":64,"Claude":31,"ChatGPT":33,"智能体":124,"Google":26,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":65,"Claude":32,"ChatGPT":34,"智能体":130,"Google":27,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1,"Tom Verrilli":1}</script>
 
 <script>
 (function(){

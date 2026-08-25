@@ -144,17 +144,17 @@ L0 是纯手动排查；L1 是有固定操作手册，靠规则执行；L2 是 L
 **顺着「智能体」挖下去**
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:上下文 (context)、护栏 (harness)、文件系统 (file system)、智能体 (agent)、Deep Agents</span>
+- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Datadog · 同概念:上下文 (context)、智能体 (agent)、评估 (eval)、护栏 (harness)</span>
 - [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:护栏 (harness)、智能体 (agent)、评估 (eval)</span>
-- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (harness)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:上下文 (context)、可观测性 (observability)、护栏 (harness)、智能体 (agent)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
-- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同公司:Datadog · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

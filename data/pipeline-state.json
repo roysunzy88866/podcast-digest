@@ -4,7 +4,7 @@
     "2026-08-06-talks-payments-summit-2026-ai": 3,
     "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
     "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3,
-    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 2
+    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 3
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -44,7 +44,8 @@
     "aeTb5BdmTTc": "2026-08-11-talks-agents-codebases-and-teams-aditya-khande"
   },
   "blocked": {
-    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
+    "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
+    "2026-08-24-pmf-he-spent-0-on-marketing-for-2-years-then": 1
   },
   "audioWanted": {},
   "cutoffs": {
@@ -61,7 +62,7 @@
     "thepeel": "2026-08-24T14:00:00.000Z",
     "beyondcoding": "2026-08-19T12:00:00.000Z",
     "founders": "2026-08-23T14:22:00.000Z",
-    "dwarkesh": "2026-08-11T16:31:23.000Z",
+    "dwarkesh": "2026-08-25T15:32:57.000Z",
     "doac": "2026-08-17T05:00:00.000Z",
     "deepmind": "2026-07-10T15:50:06.000Z",
     "twentyvc": "2026-08-24T07:07:00.000Z",
@@ -378,6 +379,36 @@
       "reason": "题材不对味:❌ 跳过: 内容聚焦「代码测试/工程质量」(传统软件工程),而非AI Agent/工具实操或公司商业故事,属于边界案例中偏「传统工程」的剔除项。",
       "title": "Lada Kesseler: I Trust AI Tests Less Than AI Code",
       "pubDate": "2026-08-25T12:00:00.000Z"
+    },
+    {
+      "id": "2026-08-25-dwarkesh-dylan-patel-3",
+      "reason": "题材不对味:拿不准:这是资本支出/算力竞赛趋势预判(基本面/逻辑推演),而非档案明确的「公司融资/创始人故事」;且 Dwarkesh Podcast 不在源清单内,优先级最低。",
+      "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+      "pubDate": "2026-08-25T15:32:57.000Z"
+    },
+    {
+      "id": "2026-08-11-ainativedev-the-background-check-you-can-39-t-run-on",
+      "reason": "题材不对味:❌ 命中「AI 安全/对齐/政策」类：选题属于合规、审计与伦理（如如何监控 AI 行为），属于「参数 + 研究 + 思辨」面，非「商业/实操」面。",
+      "title": "The Background Check You Can&#39;t Run on an AI Agent",
+      "pubDate": "2026-08-11T12:00:00.000Z"
+    },
+    {
+      "id": "2026-07-23-ainativedev-bonus-snyk-found-malware-inside-ai-agent",
+      "reason": "题材不对味:❌ 不要(大模型安全/对齐/风险):Snyk 报告 AI Agent 安全漏洞/恶意软件属于「AI 安全/风险」边界案例,非「产业/商业/实操」,且题眼在安全而非 Agent 开发实务,不符合口味。",
+      "title": "BONUS: Snyk Found Malware Inside AI Agent Skills",
+      "pubDate": "2026-07-23T12:00:00.000Z"
+    },
+    {
+      "id": "2026-07-21-ainativedev-from-living-room-hack-to-30-ai-agents-at",
+      "reason": "题材不对味:拿不准：Cyera 是数据安全厂商（非典型 AI Agent 基建/应用公司），标题未明确涉及「实操/商业/架构」细节，恐偏向安全合规或特定行业叙事，不在「AI 编程/通用创业」核心收录范围内",
+      "title": "From Living Room Hack to 30 AI Agents at Cyera",
+      "pubDate": "2026-07-21T12:00:00.000Z"
+    },
+    {
+      "id": "2026-07-09-practicalai-building-durable-ai-agents",
+      "reason": "题材不对味:档案「基础设施」类只要产业格局（如追英伟达），不要技术深水；Agents 主题仅收「商业+人+实操」，Practical AI 风格偏「参数+研究+架构」",
+      "title": "Building Durable AI Agents",
+      "pubDate": "2026-07-09T09:00:00.000Z"
     }
   ]
 }

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[swyx]] · [[Elena Berger]] · [[Akshat Bubna]] · [[Simon Mo]] · [[Vibhu]] · [[Matt Bornstein]] · [[Modal]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"智能体":124,"推理":1,"swyx":1,"Elena Berger":3,"Akshat Bubna":1,"Simon Mo":1,"Vibhu":1,"Matt Bornstein":1,"Modal":2,"开源权重":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"推理":1,"swyx":1,"Elena Berger":3,"Akshat Bubna":1,"Simon Mo":1,"Vibhu":1,"Matt Bornstein":1,"Modal":2,"开源权重":3}</script>
 
 <script>
 (function(){

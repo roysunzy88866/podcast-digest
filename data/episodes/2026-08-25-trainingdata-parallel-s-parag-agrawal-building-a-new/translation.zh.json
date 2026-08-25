@@ -1,0 +1,4434 @@
+[
+ {
+  "seg": 0,
+  "start": 0.131,
+  "end": 12.574,
+  "speaker": "Unknown",
+  "en": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+  "zh": "我们在 Parallel 的观点是，人类点击数据是一个缺陷，进行搜索的智能体做工作应该依赖智能体反馈，而不是人类反馈。"
+ },
+ {
+  "seg": 1,
+  "start": 13.075,
+  "end": 24.958,
+  "speaker": "Unknown",
+  "en": "We believe that these models are really good at compressing information and we can benefit from a lot of the research that have gone into building models and apply it to search indexing and ranking.",
+  "zh": "我们相信这些模型非常擅长压缩信息，我们可以从构建模型的大量研究中受益，并将其应用于搜索索引和排名。"
+ },
+ {
+  "seg": 2,
+  "start": 25.418,
+  "end": 40.49,
+  "speaker": "Unknown",
+  "en": "And so you can now make many many arguments and that's the arguments we made back then that actually now it's way more tractable as a problem because of the existence of agents not just as in technology but as a distinct customer.",
+  "zh": "所以你现在可以提出很多很多论点，这也是我们当时提出的论点，实际上现在这个问题更容易解决，因为智能体的存在不仅仅是作为一种技术，而是作为一个独特的客户。"
+ },
+ {
+  "seg": 3,
+  "start": 57.882,
+  "end": 59.783,
+  "speaker": "Unknown",
+  "en": "Parag, thank you so much for joining us today.",
+  "zh": "Parag，非常感谢你今天加入我们。"
+ },
+ {
+  "seg": 4,
+  "start": 59.803,
+  "end": 61.504,
+  "speaker": "Unknown",
+  "en": "We're delighted to have you on the show.",
+  "zh": "我们很高兴你来到这个节目。"
+ },
+ {
+  "seg": 5,
+  "start": 61.724,
+  "end": 72.71,
+  "speaker": "Unknown",
+  "en": "For those who don't know, Parag, of Twitter CEO fame, was the CEO of Twitter before selling it to Elon and is now back on the founder arc.",
+  "zh": "对于那些不认识 Parag 的人，他以 Twitter CEO 而闻名，在将 Twitter 出售给 Elon 之前担任 CEO，现在又回到了创始人轨道。"
+ },
+ {
+  "seg": 6,
+  "start": 72.75,
+  "end": 78.713,
+  "speaker": "Unknown",
+  "en": "You founded a company called Parallel Web Systems, which is scaling up agentic search for the agentic web.",
+  "zh": "你创立了一家名为 Parallel Web Systems 的公司，该公司正在为智能体网络扩展智能体搜索的规模。"
+ },
+ {
+  "seg": 7,
+  "start": 79.334,
+  "end": 83.356,
+  "speaker": "Unknown",
+  "en": "We're very excited to have you here today to talk about the future of search and the future of the internet.",
+  "zh": "我们今天很高兴你能来到这里，谈论搜索的未来和互联网的未来。"
+ },
+ {
+  "seg": 8,
+  "start": 83.676,
+  "end": 84.877,
+  "speaker": "Unknown",
+  "en": "So let's get started.",
+  "zh": "那么让我们开始吧。"
+ },
+ {
+  "seg": 9,
+  "start": 84.937,
+  "end": 85.477,
+  "speaker": "Unknown",
+  "en": "What's Parallel?",
+  "zh": "什么是 Parallel？"
+ },
+ {
+  "seg": 10,
+  "start": 85.773,
+  "end": 87.273,
+  "speaker": "Unknown",
+  "en": "Thank you, Sonia, for having me.",
+  "zh": "谢谢你，Sonia，邀请了我。"
+ },
+ {
+  "seg": 11,
+  "start": 87.313,
+  "end": 88.894,
+  "speaker": "Unknown",
+  "en": "Thanks, Andrew, for joining us.",
+  "zh": "谢谢你，Andrew，加入我们。"
+ },
+ {
+  "seg": 12,
+  "start": 89.334,
+  "end": 90.994,
+  "speaker": "Unknown",
+  "en": "I'm really excited about this conversation.",
+  "zh": "我对这次谈话真的很兴奋。"
+ },
+ {
+  "seg": 13,
+  "start": 91.554,
+  "end": 99.015,
+  "speaker": "Unknown",
+  "en": "At Parallels, we're building a bunch of technology in order to allow agents to search and use the web.",
+  "zh": "在 Parallels，我们正在构建一系列技术，以便允许智能体搜索并使用网络。"
+ },
+ {
+  "seg": 14,
+  "start": 99.735,
+  "end": 110.097,
+  "speaker": "Unknown",
+  "en": "So just like humans forever have figured out how to use browsers and search engines and clicking and browsing on the web to access information, agents need to do the same things.",
+  "zh": "所以就像人类一直以来都知道如何使用浏览器和搜索引擎，并在网络上点击和浏览以访问信息一样，智能体也需要做同样的事情。"
+ },
+ {
+  "seg": 15,
+  "start": 110.457,
+  "end": 114.018,
+  "speaker": "Unknown",
+  "en": "We started Parallels with the bet that agents would do it a thousand times more than humans ever have.",
+  "zh": "我们创立 Parallels 是基于这样一个假设：智能体执行搜索的次数将比人类多一千倍。"
+ },
+ {
+  "seg": 16,
+  "start": 114.958,
+  "end": 125.126,
+  "speaker": "Unknown",
+  "en": "And as a result, we need to reinvent the technology that can power search for agents, but also the business models that go alongside it.",
+  "zh": "因此，我们需要重新发明能够为智能体提供动力的搜索技术，以及与之配套的商业模式。"
+ },
+ {
+  "seg": 17,
+  "start": 125.607,
+  "end": 126.727,
+  "speaker": "Unknown",
+  "en": "And that's what we're doing at Parallel.",
+  "zh": "这就是我们在 Parallel 正在做的。"
+ },
+ {
+  "seg": 18,
+  "start": 128.149,
+  "end": 132.472,
+  "speaker": "Unknown",
+  "en": "Okay, I want to go back into what makes human and agent search so different.",
+  "zh": "好的，我想回到是什么让人类搜索和智能体搜索如此不同的话题上。"
+ },
+ {
+  "seg": 19,
+  "start": 132.492,
+  "end": 140.819,
+  "speaker": "Unknown",
+  "en": "But before we get there, you've told us that you're unlearning a lot of the lessons that you learned from running Twitter as you build Parallel.",
+  "zh": "但在开始之前，你告诉我们要忘掉你在运营 Twitter 时学到的一课。"
+ },
+ {
+  "seg": 20,
+  "start": 140.839,
+  "end": 141.259,
+  "speaker": "Unknown",
+  "en": "Why is that?",
+  "zh": "为什么是那个？"
+ },
+ {
+  "seg": 21,
+  "start": 141.818,
+  "end": 162.837,
+  "speaker": "Unknown",
+  "en": "Listen, when I was at Twitter in leadership roles, Twitter was a post-product market fit, extraordinarily scaled business where your feedback loops were from the hundreds of millions of customers using the product for 30 plus minutes every day, right?",
+  "zh": "听着，当我在 Twitter 担任领导职务时，Twitter 是一个产品市场契合后的、规模极其巨大的企业，你的反馈来自每天使用产品超过 30 分钟的数亿客户，对吧？"
+ },
+ {
+  "seg": 22,
+  "start": 163.617,
+  "end": 186.608,
+  "speaker": "Unknown",
+  "en": "In that world, you operate differently than a pre-product market fit company based on the premise that in a few years, a new customer is going to show up on the internet and let's go build technology for the not yet here customer that we are all learning every day and every week.",
+  "zh": "在那个世界里，你的运作方式与产品市场契合前的公司不同，其前提是几年后，一个新的客户将出现在互联网上，让我们去为我们尚未到来且我们每天都在学习的客户构建技术。"
+ },
+ {
+  "seg": 23,
+  "start": 187.485,
+  "end": 188.046,
+  "speaker": "Unknown",
+  "en": "Fantastic.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 24,
+  "start": 188.386,
+  "end": 190.328,
+  "speaker": "Unknown",
+  "en": "Okay, let's talk about Parallel.",
+  "zh": "好的，让我们来聊聊 Parallel。"
+ },
+ {
+  "seg": 25,
+  "start": 191.069,
+  "end": 192.391,
+  "speaker": "Unknown",
+  "en": "I have a question, actually.",
+  "zh": "其实我有一个问题。"
+ },
+ {
+  "seg": 26,
+  "start": 192.411,
+  "end": 193.312,
+  "speaker": "Unknown",
+  "en": "Can I jump in?",
+  "zh": "我可以插话吗？"
+ },
+ {
+  "seg": 27,
+  "start": 193.412,
+  "end": 194.193,
+  "speaker": "Unknown",
+  "en": "No, you cannot, Andrew.",
+  "zh": "不，你不能，Andrew。"
+ },
+ {
+  "seg": 28,
+  "start": 194.293,
+  "end": 194.814,
+  "speaker": "Unknown",
+  "en": "I'm Andrew.",
+  "zh": "我是 Andrew。"
+ },
+ {
+  "seg": 29,
+  "start": 194.914,
+  "end": 199.8,
+  "speaker": "Unknown",
+  "en": "I didn't get an introduction, but I'm also happy to be an inaugural guest on the Training Data podcast.",
+  "zh": "我没有获得介绍，但我也很高兴成为 Training Data 播客的首批嘉宾。"
+ },
+ {
+  "seg": 30,
+  "start": 199.82,
+  "end": 202.623,
+  "speaker": "Unknown",
+  "en": "Andrew is making his podcast debut on Training Data.",
+  "zh": "Andrew 正在 Training Data 上进行他的播客首秀。"
+ },
+ {
+  "seg": 31,
+  "start": 202.663,
+  "end": 204.145,
+  "speaker": "Unknown",
+  "en": "We are honored to have you finally here.",
+  "zh": "我们很荣幸你终于来到这里。"
+ },
+ {
+  "seg": 32,
+  "start": 204.185,
+  "end": 204.566,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 33,
+  "start": 206.047,
+  "end": 211.771,
+  "speaker": "Unknown",
+  "en": "I feel like all of us in Silicon Valley have a very surface level idea of search.",
+  "zh": "我觉得我们在硅谷的所有人对搜索都有一个非常肤浅的认知。"
+ },
+ {
+  "seg": 34,
+  "start": 211.811,
+  "end": 213.152,
+  "speaker": "Unknown",
+  "en": "What is search?",
+  "zh": "什么是搜索？ [[35] 待完成的工作是获得答案是有道理的，但大家都知道有爬取、有索引、有排名，但也许让我们退后一大步，解释一下什么是网络搜索的问题，无论是为了人类还是智能体，然后我们可以深入探讨差异。"
+ },
+ {
+  "seg": 35,
+  "start": 213.232,
+  "end": 228.582,
+  "speaker": "Unknown",
+  "en": "The job to be done is getting the answer makes sense, but we all know there's crawling and there's an index and there's ranking, but maybe let's take a big step back and explain what is the problem of web search, be it for a human or an agent, and then we can dive into the differences.",
+  "zh": "待完成的任务是获得有意义的答案，但我们都知道有爬取，有索引，也有排序，但也许让我们退后一大步，解释一下什么是网络搜索的问题，无论是针对人类还是智能体，然后我们可以深入探讨其中的差异。"
+ },
+ {
+  "seg": 36,
+  "start": 229.402,
+  "end": 244.405,
+  "speaker": "Unknown",
+  "en": "The problem of web search, and we all know it and experience it, when we want to find something and we do not know where it is on the web, we go to a search engine like Google, and the search engine then hopefully surfaces the answer to us in the most convenient of locations.",
+  "zh": "网络搜索的问题，我们都知道并经历过，当我们想要找到某样东西而我们不知道它在网络上的哪里时，我们会去像 Google 这样的搜索引擎，然后搜索引擎希望在最方便的位置向我们呈现答案。"
+ },
+ {
+  "seg": 37,
+  "start": 245.085,
+  "end": 246.226,
+  "speaker": "Unknown",
+  "en": "That's the base problem.",
+  "zh": "这就是基本问题。"
+ },
+ {
+  "seg": 38,
+  "start": 246.606,
+  "end": 249.826,
+  "speaker": "Unknown",
+  "en": "Now, in order to do this, what is the search engine doing?",
+  "zh": "现在，为了做到这一点，搜索引擎在做什么？"
+ },
+ {
+  "seg": 39,
+  "start": 250.387,
+  "end": 256.828,
+  "speaker": "Unknown",
+  "en": "The search engine is going and crawling the web, which is finding every URL that's out there.",
+  "zh": "搜索引擎正在爬取网络，也就是找出每一个存在的 URL。"
+ },
+ {
+  "seg": 40,
+  "start": 257.665,
+  "end": 279.378,
+  "speaker": "Unknown",
+  "en": "trying to read it trying to organize that information in what might be called an index so that by having all of this stuff in memory in one location you don't have to once the query comes in you don't have to spend time loading up pages because you already have them you've already done pre-processing to organize them and then when the query does come in",
+  "zh": "试图读取它试图将这些信息组织成所谓的索引，以便通过将所有这些东西放在内存中的一个位置，你不必在查询进来时花费时间加载页面，因为你已经有了它们，你已经做了预处理来组织它们，然后当查询真的进来时"
+ },
+ {
+  "seg": 41,
+  "start": 279.878,
+  "end": 280.999,
+  "speaker": "Unknown",
+  "en": "You quickly understand the query.",
+  "zh": "你快速理解查询。"
+ },
+ {
+  "seg": 42,
+  "start": 281.259,
+  "end": 282.78,
+  "speaker": "Unknown",
+  "en": "You find the most relevant results.",
+  "zh": "你找到最相关的结果。"
+ },
+ {
+  "seg": 43,
+  "start": 282.9,
+  "end": 294.846,
+  "speaker": "Unknown",
+  "en": "And then there are many, many, because you're essentially taking hundreds of billions of pages and narrowing it down to, what, five or 10 or ideally one in terms of what someone is looking for right now.",
+  "zh": "然后有很多很多，因为你本质上是把数千亿个页面缩小到，比如说，5 个或 10 个，或者理想情况下就一个，关于某人现在正在寻找什么，对吧。"
+ },
+ {
+  "seg": 44,
+  "start": 295.226,
+  "end": 299.129,
+  "speaker": "Unknown",
+  "en": "So you go through these multiple stages of retrieval and ranking.",
+  "zh": "所以你要经过这些多个阶段的检索和排名。"
+ },
+ {
+  "seg": 45,
+  "start": 300.069,
+  "end": 303.093,
+  "speaker": "Unknown",
+  "en": "In order to surface the most relevant result.",
+  "zh": "为了呈现最相关的结果。"
+ },
+ {
+  "seg": 46,
+  "start": 303.534,
+  "end": 305.276,
+  "speaker": "Unknown",
+  "en": "So that's the broad problem.",
+  "zh": "所以这就是广泛的问题。"
+ },
+ {
+  "seg": 47,
+  "start": 305.697,
+  "end": 309.862,
+  "speaker": "Unknown",
+  "en": "One way to think about it is it's a billion to billion matching problem, right?",
+  "zh": "思考它的一种方式是，这是一个十亿到十亿的匹配问题，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 310.183,
+  "end": 314.508,
+  "speaker": "Unknown",
+  "en": "So you have hundreds of billions of pages and hundreds of billions of queries over time.",
+  "zh": "所以你有数千亿个页面和随时间推移的数千亿个查询。"
+ },
+ {
+  "seg": 49,
+  "start": 315.189,
+  "end": 317.292,
+  "speaker": "Unknown",
+  "en": "And you need to figure out how to match make across these two.",
+  "zh": "你需要弄清楚如何在这两者之间进行匹配。"
+ },
+ {
+  "seg": 50,
+  "start": 317.807,
+  "end": 321.188,
+  "speaker": "Unknown",
+  "en": "That sounds like an enormously expensive infrastructure challenge.",
+  "zh": "这听起来像是一个极其昂贵的基础设施挑战。"
+ },
+ {
+  "seg": 51,
+  "start": 321.648,
+  "end": 330.649,
+  "speaker": "Unknown",
+  "en": "And I think for the longest time, basically only Google and Bing had done full web scale crawls and indices.",
+  "zh": "我认为在最长时间里，基本上只有 Google 和 Bing 做过全网络规模的爬取和索引。"
+ },
+ {
+  "seg": 52,
+  "start": 331.15,
+  "end": 335.19,
+  "speaker": "Unknown",
+  "en": "Why did you think about you as a young company could go off and tackle that problem?",
+  "zh": "为什么你认为自己作为一家年轻的公司可以去解决那个问题？"
+ },
+ {
+  "seg": 53,
+  "start": 335.23,
+  "end": 336.571,
+  "speaker": "Unknown",
+  "en": "It seems like a problem of the giants.",
+  "zh": "这似乎是一个巨头的问题。"
+ },
+ {
+  "seg": 54,
+  "start": 337.291,
+  "end": 339.331,
+  "speaker": "Unknown",
+  "en": "So it is expensive in the long term.",
+  "zh": "所以从长远来看它是昂贵的。"
+ },
+ {
+  "seg": 55,
+  "start": 339.911,
+  "end": 344.292,
+  "speaker": "Unknown",
+  "en": "So what's actually interesting is that when I was starting the company three years ago,",
+  "zh": "所以实际上有趣的是，当我三年前创办这家公司时，"
+ },
+ {
+  "seg": 56,
+  "start": 345.958,
+  "end": 358.857,
+  "speaker": "Unknown",
+  "en": "You could imagine a world where one, some of the reasons it was difficult for others to compete, which was not having access to great feedback in terms of, is this a better search result than this?",
+  "zh": "你可以想象这样一个世界，其他人难以竞争的一些原因之一是，无法获得良好的反馈，比如，这是否比那是一个更好的搜索结果？"
+ },
+ {
+  "seg": 57,
+  "start": 360.521,
+  "end": 364.446,
+  "speaker": "Unknown",
+  "en": "To collect that feedback at scale, there was a problem around human ratings.",
+  "zh": "为了大规模收集那个反馈，存在一个关于人类评分的问题。"
+ },
+ {
+  "seg": 58,
+  "start": 365.447,
+  "end": 366.828,
+  "speaker": "Unknown",
+  "en": "There's a problem around click data.",
+  "zh": "存在一个关于点击数据的问题。"
+ },
+ {
+  "seg": 59,
+  "start": 367.829,
+  "end": 368.65,
+  "speaker": "Unknown",
+  "en": "You need to access those.",
+  "zh": "你需要访问那些。"
+ },
+ {
+  "seg": 60,
+  "start": 369.271,
+  "end": 373.156,
+  "speaker": "Unknown",
+  "en": "Now, it is, of course, expensive to crawl the entire web and index it.",
+  "zh": "现在，爬取整个网络并对其进行索引当然是昂贵的。"
+ },
+ {
+  "seg": 61,
+  "start": 374.277,
+  "end": 380.925,
+  "speaker": "Unknown",
+  "en": "But as you think about what agents and the large models that we now have access to have enabled, it's",
+  "zh": "但当你考虑到我们现在可以访问的智能体和大模型所实现的功能时，它是"
+ },
+ {
+  "seg": 62,
+  "start": 382.13,
+  "end": 386.731,
+  "speaker": "Unknown",
+  "en": "The ratings data can be now created by experts way more cheaply.",
+  "zh": "评分数据现在可以由专家以更便宜的方式创建。"
+ },
+ {
+  "seg": 63,
+  "start": 387.111,
+  "end": 399.774,
+  "speaker": "Unknown",
+  "en": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
+  "zh": "我们在 Parallel 的观点是，人类点击数据是一个 bug，使用搜索进行工作的智能体应该依赖智能体反馈，而不是人类反馈。"
+ },
+ {
+  "seg": 64,
+  "start": 400.654,
+  "end": 403.815,
+  "speaker": "Unknown",
+  "en": "We believe that these models are really good at",
+  "zh": "我们相信这些模型非常擅长"
+ },
+ {
+  "seg": 65,
+  "start": 405.631,
+  "end": 413.997,
+  "speaker": "Unknown",
+  "en": "Compressing information, and we can benefit from a lot of the research that have gone into building models and apply it to search indexing and ranking.",
+  "zh": "压缩信息，我们可以从大量用于构建模型的研究中受益，并将其应用于搜索索引和排名。"
+ },
+ {
+  "seg": 66,
+  "start": 414.537,
+  "end": 430.228,
+  "speaker": "Unknown",
+  "en": "And so you can now make many, many arguments, and that's the arguments we made back then, that actually now it's way more tractable as a problem because of the existence of agents, not just as in technology, but as a distinct customer.",
+  "zh": "所以你现在可以提出很多论点，这也是我们当时提出的论点，实际上现在这个问题更容易解决，因为智能体的存在，不仅是作为技术，而且是作为一个独特的客户。"
+ },
+ {
+  "seg": 67,
+  "start": 431.335,
+  "end": 443.601,
+  "speaker": "Unknown",
+  "en": "And then we figured out a way to go about building this business, which did not require us to go spend all of the money on infrastructure upfront before we could service a customer, right?",
+  "zh": "然后我们找到了一种方法来开展这项业务，这不需要我们在能够服务客户之前预先花光所有的钱在基础设施上，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 443.921,
+  "end": 447.363,
+  "speaker": "Unknown",
+  "en": "So if you can paint a path of incrementally being able to build",
+  "zh": "所以如果你能描绘出一条渐进式构建的路径"
+ },
+ {
+  "seg": 69,
+  "start": 448.371,
+  "end": 452.394,
+  "speaker": "Unknown",
+  "en": "An increasingly larger and more sophisticated index.",
+  "zh": "一个日益庞大和复杂的索引。"
+ },
+ {
+  "seg": 70,
+  "start": 452.694,
+  "end": 463.941,
+  "speaker": "Unknown",
+  "en": "Over time, as you solve problems for more and more customers, that's the insight that actually convinced me that this was a viable problem for us to take on.",
+  "zh": "随着时间的推移，当你为越来越多的客户解决问题时，这个洞察实际上让我相信这是我们可以承担的一个可行问题。"
+ },
+ {
+  "seg": 71,
+  "start": 464.481,
+  "end": 465.422,
+  "speaker": "Unknown",
+  "en": "And how do you make that happen?",
+  "zh": "你是如何实现这一点的？"
+ },
+ {
+  "seg": 72,
+  "start": 465.442,
+  "end": 470.785,
+  "speaker": "Unknown",
+  "en": "Because I imagine this is one of those things where customers want full coverage day one.",
+  "zh": "因为我想这是客户希望在第一天就获得全面覆盖的那种情况之一。"
+ },
+ {
+  "seg": 73,
+  "start": 470.805,
+  "end": 471.966,
+  "speaker": "Unknown",
+  "en": "So how do you go about making that happen?",
+  "zh": "那么你是如何实现这一点的？"
+ },
+ {
+  "seg": 74,
+  "start": 472.425,
+  "end": 478.05,
+  "speaker": "Unknown",
+  "en": "When we first launched the product, we did not launch a search product first.",
+  "zh": "当我们首次推出该产品时，我们没有首先推出搜索产品。"
+ },
+ {
+  "seg": 75,
+  "start": 478.671,
+  "end": 480.873,
+  "speaker": "Unknown",
+  "en": "We launched a search agent product first.",
+  "zh": "我们首先推出了搜索智能体产品。"
+ },
+ {
+  "seg": 76,
+  "start": 481.894,
+  "end": 487.899,
+  "speaker": "Unknown",
+  "en": "Our search agent could go essentially crawl the web after a query arrived.",
+  "zh": "我们的搜索智能体基本上可以在查询到达后去爬取网络。"
+ },
+ {
+  "seg": 77,
+  "start": 488.159,
+  "end": 493.464,
+  "speaker": "Unknown",
+  "en": "So if you're doing deep research, you have patience to the extent of a minute.",
+  "zh": "所以如果你正在进行深度研究，你有一分钟的耐心。"
+ },
+ {
+  "seg": 78,
+  "start": 493.804,
+  "end": 497.327,
+  "speaker": "Unknown",
+  "en": "And we've had products which sometimes take 10 minutes of research.",
+  "zh": "我们有一些产品有时需要 10 分钟的研究时间。"
+ },
+ {
+  "seg": 79,
+  "start": 498.088,
+  "end": 504.795,
+  "speaker": "Unknown",
+  "en": "That's a lot of time to be able to crawl a lot of pages if only you have enough of a map to know how to prioritize crawling, right?",
+  "zh": "如果你有足够的地图知道如何确定爬取的优先级，这是很多时间来爬取大量页面，对吧？"
+ },
+ {
+  "seg": 80,
+  "start": 504.815,
+  "end": 510.421,
+  "speaker": "Unknown",
+  "en": "So you can make up for shortcomings, like indexes, oftentimes you can think of it as a latency optimization.",
+  "zh": "所以你可以弥补缺陷，比如索引，通常你可以将其视为延迟优化。"
+ },
+ {
+  "seg": 81,
+  "start": 510.441,
+  "end": 517.968,
+  "speaker": "Unknown",
+  "en": "So if you give up on that dimension, if you're competing with humans, that's why our search agents were competing with the alternative being...",
+  "zh": "所以如果你放弃那个维度，如果你与人类竞争，这就是为什么我们的搜索智能体正在与替代方案竞争，也就是……"
+ },
+ {
+  "seg": 82,
+  "start": 518.749,
+  "end": 522.771,
+  "speaker": "Unknown",
+  "en": "Outsourcing to humans to curate amazing data, right?",
+  "zh": "外包给人类来策划惊人的数据，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 523.131,
+  "end": 533.337,
+  "speaker": "Unknown",
+  "en": "So we said, it seems like humans sitting on search engines are far way easier to compete with than a search engine on day zero.",
+  "zh": "所以我们说，与搜索引擎在第一天相比，坐在搜索引擎上的人类似乎更容易竞争。"
+ },
+ {
+  "seg": 84,
+  "start": 534.317,
+  "end": 539.3,
+  "speaker": "Unknown",
+  "en": "So by building a product that was a search agent to do real work on top of web data.",
+  "zh": "因此，通过构建一个基于网络数据之上进行实际工作的搜索智能体产品。"
+ },
+ {
+  "seg": 85,
+  "start": 540.037,
+  "end": 543.558,
+  "speaker": "Unknown",
+  "en": "We were able to incrementally go build our index.",
+  "zh": "我们能够逐步建立我们的索引。"
+ },
+ {
+  "seg": 86,
+  "start": 544.338,
+  "end": 546.978,
+  "speaker": "Unknown",
+  "en": "Well, there's some examples of what people built with your search agents.",
+  "zh": "那么，有一些人们用你的搜索智能体构建的例子。"
+ },
+ {
+  "seg": 87,
+  "start": 547.599,
+  "end": 558.861,
+  "speaker": "Unknown",
+  "en": "In the very early days, there were search agents being built with us for doing some kinds of insurance underwriting workflows and claims processing workflows.",
+  "zh": "在早期，有一些用我们构建的搜索智能体用于做某些类型的保险承保工作流程和理赔处理工作流程。"
+ },
+ {
+  "seg": 88,
+  "start": 559.461,
+  "end": 564.002,
+  "speaker": "Unknown",
+  "en": "People in sales were doing all kinds of sales data enrichment.",
+  "zh": "从事销售的人正在做各种销售数据丰富工作。"
+ },
+ {
+  "seg": 89,
+  "start": 565.283,
+  "end": 585.036,
+  "speaker": "Unknown",
+  "en": "People in finance who would previously and historically go to build a model, collect data by sending it overnight to a set of humans who would curate data that would feed into a modeling exercise they would do, would start using us to do that instead.",
+  "zh": "金融行业的人，以前历史上会去构建一个模型，通过在一夜之间将数据发送给一组人类来收集数据，这些人类会策划数据，然后输入到他们将要做的建模练习中，会开始使用我们来做这件事。"
+ },
+ {
+  "seg": 90,
+  "start": 585.917,
+  "end": 589.379,
+  "speaker": "Unknown",
+  "en": "And so we were going initially after.",
+  "zh": "所以我们最初是在追求。"
+ },
+ {
+  "seg": 91,
+  "start": 590.44,
+  "end": 611.257,
+  "speaker": "Unknown",
+  "en": "Replacing where there was outsourced human work on top of web data in order essentially to collect evals, to run agents, to figure out what search for agents should look like in the first place with empirical use cases instead of theoretical evals.",
+  "zh": "取代基于网络数据的外包人类工作，主要是为了收集评估，运行智能体，通过实际的用例而不是理论评估来弄清楚智能体的搜索应该是什么样的。"
+ },
+ {
+  "seg": 92,
+  "start": 611.83,
+  "end": 612.09,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 93,
+  "start": 612.21,
+  "end": 616.232,
+  "speaker": "Unknown",
+  "en": "You're trading off the crawl for inference time compute effectively.",
+  "zh": "你实际上是用推理时间计算来换取爬取。"
+ },
+ {
+  "seg": 94,
+  "start": 616.452,
+  "end": 616.612,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 95,
+  "start": 617.192,
+  "end": 627.696,
+  "speaker": "Unknown",
+  "en": "You guys were started before the term like Neo Lab came into existence and you have, you know, web systems product, but you also have like a bunch of AI people.",
+  "zh": "你们是在 Neo Lab 这个术语出现之前开始的，你有 Web 系统产品，但也有一群 AI 人员。"
+ },
+ {
+  "seg": 96,
+  "start": 628.077,
+  "end": 635.64,
+  "speaker": "Unknown",
+  "en": "From the outside, before we met for the first time, like it wasn't obvious to me how much of a web systems company or an AI company that you've built.",
+  "zh": "从外部看，在我们第一次见面之前，对我来说，你建立的有多大程度上是一家 Web 系统公司还是一家 AI 公司并不明显。"
+ },
+ {
+  "seg": 97,
+  "start": 636.14,
+  "end": 638.561,
+  "speaker": "Unknown",
+  "en": "The more we spent together, the more time we spent together, the more clear it's like.",
+  "zh": "我们在一起花的时间越多，我们在一起的时间越多，就越清楚。"
+ },
+ {
+  "seg": 98,
+  "start": 639.201,
+  "end": 641.105,
+  "speaker": "Unknown",
+  "en": "By some definitions, this is a neolab.",
+  "zh": "按照某些定义，这是一个 neolab。"
+ },
+ {
+  "seg": 99,
+  "start": 641.125,
+  "end": 648.48,
+  "speaker": "Unknown",
+  "en": "Do you want to talk about where the research side of what you're doing comes in, not just the infrastructure and system side of what you're doing?",
+  "zh": "你想谈谈你所做工作的研究方面从何而来，而不仅仅是你所做的基础设施和系统方面？"
+ },
+ {
+  "seg": 100,
+  "start": 649.081,
+  "end": 650.063,
+  "speaker": "Unknown",
+  "en": "So we don't...",
+  "zh": "所以我们不..."
+ },
+ {
+  "seg": 101,
+  "start": 651.25,
+  "end": 652.832,
+  "speaker": "Unknown",
+  "en": "Categorize ourselves as a Neolab.",
+  "zh": "把自己归类为新实验室。"
+ },
+ {
+  "seg": 102,
+  "start": 653.212,
+  "end": 654.173,
+  "speaker": "Unknown",
+  "en": "Oh, of course you would not.",
+  "zh": "哦,当然你不会。"
+ },
+ {
+  "seg": 103,
+  "start": 654.293,
+  "end": 659.298,
+  "speaker": "Unknown",
+  "en": "We... No, because I think, I don't think our output is a model.",
+  "zh": "我们... 不,因为我认为,我不认为我们的产出是一个模型。"
+ },
+ {
+  "seg": 104,
+  "start": 659.478,
+  "end": 662.921,
+  "speaker": "Unknown",
+  "en": "Like I somehow, maybe my definition is broken.",
+  "zh": "就像我不知怎么的,也许我的定义有缺陷。"
+ },
+ {
+  "seg": 105,
+  "start": 663.001,
+  "end": 665.023,
+  "speaker": "Unknown",
+  "en": "My definition of a Neolab is an output is a model.",
+  "zh": "我对新实验室的定义是产出是一个模型。"
+ },
+ {
+  "seg": 106,
+  "start": 665.984,
+  "end": 668.947,
+  "speaker": "Unknown",
+  "en": "I think our output is a complement to a model.",
+  "zh": "我认为我们的产出是对模型的补充。"
+ },
+ {
+  "seg": 107,
+  "start": 669.427,
+  "end": 672.43,
+  "speaker": "Unknown",
+  "en": "What we build is something that multiplies on top of a model.",
+  "zh": "我们构建的东西是在模型之上倍增的东西。"
+ },
+ {
+  "seg": 108,
+  "start": 673.503,
+  "end": 681.547,
+  "speaker": "Unknown",
+  "en": "In order to give either, you can call it the model gets better or the agent built with the model gets better and has superpowers, right?",
+  "zh": "为了给予无论什么,你可以称之为模型变得更好或者用模型构建的智能体变得更好并拥有超能力,对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 681.588,
+  "end": 690.833,
+  "speaker": "Unknown",
+  "en": "So we've always wanna be in a place where whenever someone ships a better model, a new lab, for example, if somebody else ships a better model, they have a higher hill to climb.",
+  "zh": "所以我们一直想处于这样一个位置,每当有人发布一个更好的模型,一个新的实验室,例如,如果其他人发布了一个更好的模型,他们有一座更高的山要爬。"
+ },
+ {
+  "seg": 110,
+  "start": 691.833,
+  "end": 699.397,
+  "speaker": "Unknown",
+  "en": "For us, somebody ships a better model, they have now unlocked four more use cases where we can be valuable.",
+  "zh": "对我们来说,有人发布了一个更好的模型,他们现在已经解锁了四个我们可以发挥价值的更多用例。"
+ },
+ {
+  "seg": 111,
+  "start": 700.258,
+  "end": 700.458,
+  "speaker": "Unknown",
+  "en": "Now,",
+  "zh": "现在,"
+ },
+ {
+  "seg": 112,
+  "start": 701.682,
+  "end": 716.33,
+  "speaker": "Unknown",
+  "en": "whether we need to do work that might be framed as research that remains so in that sense we do have to do research but we're also not uh pre-training extraordinary large models in fact our job is to",
+  "zh": "无论我们需要做的是否可能被构架为研究,这仍然如此,在这个意义上我们确实必须做研究,但我们也不是 uh 预训练超大型模型,实际上我们的工作是"
+ },
+ {
+  "seg": 113,
+  "start": 717.768,
+  "end": 720.612,
+  "speaker": "Unknown",
+  "en": "Compress things down into tiny ranking models, right?",
+  "zh": "将东西压缩成微小的排序模型,对吧?"
+ },
+ {
+  "seg": 114,
+  "start": 720.652,
+  "end": 731.988,
+  "speaker": "Unknown",
+  "en": "Like I think if you go back to my framing around like this 100 billion to 100 billion matching problem, every query is essentially give me a thousand tokens from...",
+  "zh": "就像我认为如果你回到我关于那个 1000 亿到 1000 亿匹配问题的框架,每个查询本质上是给我一千个 tokens 来自..."
+ },
+ {
+  "seg": 115,
+  "start": 733.681,
+  "end": 758.59,
+  "speaker": "Unknown",
+  "en": "trillion web pages on the web and make sure that the right thousand tokens like that's the query that we are getting effectively from to our search engine and so now what you have to do and until last week we would give ourselves three seconds to throw a bunch of compute at read time to do it this week last week we shipped a product which now does it in 200 milliseconds right so you have now that much time to go figure out how to pick those right so you will do",
+  "zh": "万亿个网页并确保正确的一千个 tokens,就像那是我们从搜索引擎那里有效收到的查询,所以现在你必须做的是,直到上周我们会给自己三秒钟时间在读取时扔出一堆算力来做这件事,上周我们发布了一个产品,现在在 200 毫秒内完成,所以你现在有那么多时间去弄清楚如何选择正确的,所以你会做"
+ },
+ {
+  "seg": 116,
+  "start": 759.627,
+  "end": 766.631,
+  "speaker": "Unknown",
+  "en": "We're trying to organize information in memory across the memory hierarchy in a way that we can access it fast.",
+  "zh": "我们正试图跨越内存层次结构在内存中组织信息,以便我们能够快速访问它。"
+ },
+ {
+  "seg": 117,
+  "start": 767.211,
+  "end": 773.675,
+  "speaker": "Unknown",
+  "en": "We're trying to figure out how to train what model to select the best thousand tokens.",
+  "zh": "我们正试图弄清楚如何训练什么模型来选择最好的一千个 tokens。"
+ },
+ {
+  "seg": 118,
+  "start": 774.175,
+  "end": 787.003,
+  "speaker": "Unknown",
+  "en": "And so there's a large amount of research that goes into figuring out how to take a pre-trained model of some kind, adapt its architecture for this new problem, and allocate effectively compute.",
+  "zh": "因此有大量的研究投入到弄清楚如何采用某种预训练模型,针对这个新问题调整其架构,并有效地分配算力。"
+ },
+ {
+  "seg": 119,
+  "start": 787.873,
+  "end": 794.22,
+  "speaker": "Unknown",
+  "en": "In a way that produces the best output with a limited compute slash latency budget.",
+  "zh": "以一种用有限的算力/延迟预算产生最佳输出的方式。"
+ },
+ {
+  "seg": 120,
+  "start": 795.008,
+  "end": 798.39,
+  "speaker": "Unknown",
+  "en": "So a lot of these use cases seem like the deep research kind of shaped use case.",
+  "zh": "所以很多这些用例看起来像深度研究这种形状的用例。"
+ },
+ {
+  "seg": 121,
+  "start": 798.911,
+  "end": 811.32,
+  "speaker": "Unknown",
+  "en": "And when I think deep research, at least in the earlier incarnations, it was effectively like an agentic loop with the model reasoning and then basically just calling a search engine, calling Google or some proxy to Google, right?",
+  "zh": "当我想到深度研究,至少在早期的版本中,它实际上就像一个智能体循环,模型进行推理,然后基本上只是调用一个搜索引擎,调用谷歌或某个谷歌的代理,对吧?"
+ },
+ {
+  "seg": 122,
+  "start": 811.62,
+  "end": 819.145,
+  "speaker": "Unknown",
+  "en": "Why is that insufficient in your eyes versus what I'm hearing from you is agentic search is kind of a net new capability?",
+  "zh": "为什么那在你眼中是不够的,与我听你说的相比,智能体搜索是一种全新的能力?"
+ },
+ {
+  "seg": 123,
+  "start": 821.178,
+  "end": 829.362,
+  "speaker": "Unknown",
+  "en": "Calling Google for every query in a deep research thing, it gets you somewhere, right?",
+  "zh": "在深度研究的事情中为每个查询调用谷歌,它会让你到达某个地方,对吧?"
+ },
+ {
+  "seg": 124,
+  "start": 829.963,
+  "end": 838.948,
+  "speaker": "Unknown",
+  "en": "If you use parallel search, you will, for the most part, use under half the tokens in your agent.",
+  "zh": "如果你使用并行搜索,你将在很大程度上,少用一半的 tokens 在你的智能体中。"
+ },
+ {
+  "seg": 125,
+  "start": 840.248,
+  "end": 843.39,
+  "speaker": "Unknown",
+  "en": "It will become more accurate and to be faster into it.",
+  "zh": "它会变得更准确并且更快地进入其中。"
+ },
+ {
+  "seg": 126,
+  "start": 845.093,
+  "end": 855.816,
+  "speaker": "Unknown",
+  "en": "And so you can think of it as, but every time, if you use only half the tokens, if your model is context limited or memory limited, you can now do",
+  "zh": "所以你可以把它看作是,但每次,如果你只用一半的 tokens,如果你的模型是上下文受限或内存受限的,你现在可以做"
+ },
+ {
+  "seg": 127,
+  "start": 857.887,
+  "end": 858.587,
+  "speaker": "Unknown",
+  "en": "More problems.",
+  "zh": "更多的问题。"
+ },
+ {
+  "seg": 128,
+  "start": 859.588,
+  "end": 861.809,
+  "speaker": "Unknown",
+  "en": "You can do the same problems cheaper or faster.",
+  "zh": "你可以更便宜或更快地做同样的问题。"
+ },
+ {
+  "seg": 129,
+  "start": 862.41,
+  "end": 878.139,
+  "speaker": "Unknown",
+  "en": "So everything, to me, when you have an infinite appetite for information and relevant information for all kinds of work, it's at its core an optimization problem around quality, cost, and latency.",
+  "zh": "所以一切,对我来说,当你对信息有无限的需求和各种工作的相关信息时,它的核心是一个关于质量、成本和延迟的优化问题。"
+ },
+ {
+  "seg": 130,
+  "start": 878.639,
+  "end": 884.382,
+  "speaker": "Unknown",
+  "en": "Every model advancement is about how do you squeeze out more intelligence and then how do you distill it down",
+  "zh": "每个模型进步都是关于如何挤出更多智能,然后你如何将其蒸馏 [[131] ] 并以十分之一的成本保留大部分,对吧?"
+ },
+ {
+  "seg": 131,
+  "start": 885.463,
+  "end": 889.13,
+  "speaker": "Unknown",
+  "en": "into keep most of it at a tenth of the cost, right?",
+  "zh": "把它大部分保留下来，成本只有十分之一，对吧？"
+ },
+ {
+  "seg": 132,
+  "start": 889.731,
+  "end": 892.315,
+  "speaker": "Unknown",
+  "en": "And that applies to search as well.",
+  "zh": "这也适用于搜索。"
+ },
+ {
+  "seg": 133,
+  "start": 892.876,
+  "end": 898.987,
+  "speaker": "Unknown",
+  "en": "And every time you can produce all of the signal with less noise in your search results to give to a model.",
+  "zh": "每次你可以在你的搜索结果中用更少的噪音产生所有的信号给模型。"
+ },
+ {
+  "seg": 134,
+  "start": 900.541,
+  "end": 902.803,
+  "speaker": "Unknown",
+  "en": "You now give the model the ability to do more.",
+  "zh": "你现在给了模型做更多的能力。"
+ },
+ {
+  "seg": 135,
+  "start": 903.664,
+  "end": 911.751,
+  "speaker": "Unknown",
+  "en": "And so a lot of the bet here is intelligent compute allocation across the model layer and the agent layer down to the search layer.",
+  "zh": "所以这里的很多赌注是在模型层和智能体层下到搜索层之间的智能算力分配。"
+ },
+ {
+  "seg": 136,
+  "start": 912.231,
+  "end": 921.539,
+  "speaker": "Unknown",
+  "en": "The other interesting thing to observe is the interface actually changes when you think about serving agents versus humans.",
+  "zh": "另一个值得观察的有趣事情是,当你考虑服务智能体对比人类时,接口实际上改变了。"
+ },
+ {
+  "seg": 137,
+  "start": 921.639,
+  "end": 922.78,
+  "speaker": "Unknown",
+  "en": "Humans rely on keyword search.",
+  "zh": "人类依赖关键词搜索。"
+ },
+ {
+  "seg": 138,
+  "start": 924.028,
+  "end": 930.771,
+  "speaker": "Unknown",
+  "en": "With agents, we've had to innovate quite a lot on the what does an agent tell our search engine.",
+  "zh": "对于智能体,我们不得不在智能体告诉我们的搜索引擎什么方面进行大量创新。"
+ },
+ {
+  "seg": 139,
+  "start": 931.792,
+  "end": 932.972,
+  "speaker": "Unknown",
+  "en": "The more we know, the better we can do.",
+  "zh": "我们知道的越多,我们能做得越好。"
+ },
+ {
+  "seg": 140,
+  "start": 933.653,
+  "end": 934.113,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有趣。"
+ },
+ {
+  "seg": 141,
+  "start": 934.153,
+  "end": 938.095,
+  "speaker": "Unknown",
+  "en": "So humans can only hold a few words in memory, basically, versus an agent.",
+  "zh": "所以人类基本上只能在记忆中容纳几个词,对比智能体。"
+ },
+ {
+  "seg": 142,
+  "start": 938.709,
+  "end": 939.67,
+  "speaker": "Unknown",
+  "en": "No, I think we can.",
+  "zh": "不,我认为我们可以。"
+ },
+ {
+  "seg": 143,
+  "start": 939.69,
+  "end": 941.692,
+  "speaker": "Unknown",
+  "en": "We're just lazy.",
+  "zh": "我们只是懒惰。"
+ },
+ {
+  "seg": 144,
+  "start": 943.834,
+  "end": 944.695,
+  "speaker": "Unknown",
+  "en": "We can have a conversation.",
+  "zh": "我们可以有一个对话。"
+ },
+ {
+  "seg": 145,
+  "start": 944.715,
+  "end": 945.656,
+  "speaker": "Unknown",
+  "en": "We can hold a lot of words.",
+  "zh": "我们可以容纳很多词。"
+ },
+ {
+  "seg": 146,
+  "start": 945.676,
+  "end": 953.163,
+  "speaker": "Unknown",
+  "en": "But when you start typing, we want to tell Google two incomplete words with a typo in there and hope for the best.",
+  "zh": "但当你开始打字时,我们想告诉谷歌两个不完整的词并在里面有一个错别字,并期盼最好的结果。"
+ },
+ {
+  "seg": 147,
+  "start": 954.004,
+  "end": 957.548,
+  "speaker": "Unknown",
+  "en": "Or rely on some form of a drop-down autocomplete thing.",
+  "zh": "或者依赖某种形式的下拉自动完成的东西。"
+ },
+ {
+  "seg": 148,
+  "start": 958.48,
+  "end": 962.402,
+  "speaker": "Unknown",
+  "en": "To avoid typing those three words in the first place.",
+  "zh": "为了避免首先输入那三个词。"
+ },
+ {
+  "seg": 149,
+  "start": 962.682,
+  "end": 964.422,
+  "speaker": "Unknown",
+  "en": "So we're fundamentally lazy.",
+  "zh": "所以我们根本上是懒惰的。"
+ },
+ {
+  "seg": 150,
+  "start": 965.023,
+  "end": 966.683,
+  "speaker": "Unknown",
+  "en": "Turns out like models less so.",
+  "zh": "事实证明,对于模型来说就不太是这样了。"
+ },
+ {
+  "seg": 151,
+  "start": 968.004,
+  "end": 977.088,
+  "speaker": "Unknown",
+  "en": "Fewer typos, better specified queries, perhaps longer queries, less for the search engine to guess what the agent might want.",
+  "zh": "错别字更少,查询定义得更好,也许查询更长,搜索引擎要猜测智能体可能想要的东西就更少了。"
+ },
+ {
+  "seg": 152,
+  "start": 977.108,
+  "end": 980.009,
+  "speaker": "Unknown",
+  "en": "So you get to solve a different class of problems.",
+  "zh": "所以你解决的是一类不同的问题。"
+ },
+ {
+  "seg": 153,
+  "start": 980.7,
+  "end": 997.943,
+  "speaker": "Unknown",
+  "en": "One other thing about humans is I feel like we know how to decipher the pre-AI slop that populates many of the top ranking Google results for best product for X, Y, and Z, and you get all the affiliate advertising things.",
+  "zh": "关于人类的另一件事是,我觉得我们要知道如何解读许多排名第一的 Google 结果中充斥的前 AI 时代的垃圾内容,关于 X、Y 和 Z 的最佳产品,你会看到所有的联盟广告。"
+ },
+ {
+  "seg": 154,
+  "start": 999.498,
+  "end": 1000.859,
+  "speaker": "Unknown",
+  "en": "And yet, obviously, they rank highly.",
+  "zh": "然而,很明显,它们排名很高。"
+ },
+ {
+  "seg": 155,
+  "start": 1001.139,
+  "end": 1002.3,
+  "speaker": "Unknown",
+  "en": "I'm very susceptible to it.",
+  "zh": "我很容易受其影响。"
+ },
+ {
+  "seg": 156,
+  "start": 1002.46,
+  "end": 1002.78,
+  "speaker": "Unknown",
+  "en": "Are you?",
+  "zh": "是吗?"
+ },
+ {
+  "seg": 157,
+  "start": 1002.8,
+  "end": 1006.742,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm like, I feel like I have this incredible, I can just see coming a mile away.",
+  "zh": "是的,我就像,我觉得我有这种不可思议的,我可以在一英里外就看穿它。"
+ },
+ {
+  "seg": 158,
+  "start": 1007.202,
+  "end": 1008.902,
+  "speaker": "Unknown",
+  "en": "How do agents deal with things like that, right?",
+  "zh": "那么智能体是如何处理这类事情的呢,对吧?"
+ },
+ {
+  "seg": 159,
+  "start": 1008.922,
+  "end": 1015.425,
+  "speaker": "Unknown",
+  "en": "Where these are, you know, well-trafficked pages, they have seemingly good answers, but you just know they're not real.",
+  "zh": "那些是,你知道的,流量很大的页面,它们看起来有很好的答案,但你就是知道它们不是真的。"
+ },
+ {
+  "seg": 160,
+  "start": 1016.126,
+  "end": 1018.847,
+  "speaker": "Unknown",
+  "en": "Perhaps with parallel, agents have to deal a little bit less with that.",
+  "zh": "也许有了并行,智能体需要处理这类情况的次数会少一点。"
+ },
+ {
+  "seg": 161,
+  "start": 1019.987,
+  "end": 1024.909,
+  "speaker": "Unknown",
+  "en": "Let me tell you why those pages exist in the first place, right?",
+  "zh": "让我先告诉你为什么这些页面会首先存在,对吧?"
+ },
+ {
+  "seg": 162,
+  "start": 1024.949,
+  "end": 1026.39,
+  "speaker": "Unknown",
+  "en": "Let's work through a simple example.",
+  "zh": "我们来通过一个简单的例子来看看。"
+ },
+ {
+  "seg": 163,
+  "start": 1027.869,
+  "end": 1045.041,
+  "speaker": "Unknown",
+  "en": "If you ask for a public company's most recent financials, like just the headline revenue number, we can sit here and know that there exists an authoritative filing with the SEC which has that number, perhaps on page 73 of a PDF.",
+  "zh": "如果你问一家上市公司最近的财报,比如只是营收标题数字,我们可以坐在这里知道存在一份提交给 SEC 的权威备案文件有那个数字,也许在 PDF 的第 73 页。"
+ },
+ {
+  "seg": 164,
+  "start": 1046.102,
+  "end": 1048.424,
+  "speaker": "Unknown",
+  "en": "But that is the authoritative number, right?",
+  "zh": "但那是权威数字,对吧?"
+ },
+ {
+  "seg": 165,
+  "start": 1049.084,
+  "end": 1052.407,
+  "speaker": "Unknown",
+  "en": "Now imagine Google decided, like, I care about authority.",
+  "zh": "现在想象 Google 决定,比如,我在乎权威性。"
+ },
+ {
+  "seg": 166,
+  "start": 1053.195,
+  "end": 1057.259,
+  "speaker": "Unknown",
+  "en": "And whenever you ask that query, that's the first result you see, right?",
+  "zh": "每当你问那个查询时,那是你看到的第一个结果,对吧?"
+ },
+ {
+  "seg": 167,
+  "start": 1058.18,
+  "end": 1059.081,
+  "speaker": "Unknown",
+  "en": "And then you click that.",
+  "zh": "然后你点击它。"
+ },
+ {
+  "seg": 168,
+  "start": 1059.441,
+  "end": 1065.707,
+  "speaker": "Unknown",
+  "en": "This PDF takes, what, like three and a half seconds to load instead of the second that another page does.",
+  "zh": "这个 PDF 加载需要,大概,比如三秒半,而不是另一个页面那样的一秒。"
+ },
+ {
+  "seg": 169,
+  "start": 1066.528,
+  "end": 1067.329,
+  "speaker": "Unknown",
+  "en": "You're already frustrated.",
+  "zh": "你已经感到挫败了。"
+ },
+ {
+  "seg": 170,
+  "start": 1068.029,
+  "end": 1070.952,
+  "speaker": "Unknown",
+  "en": "And then you see a earnings page.",
+  "zh": "然后你看到一个收益页面。"
+ },
+ {
+  "seg": 171,
+  "start": 1072.253,
+  "end": 1073.114,
+  "speaker": "Unknown",
+  "en": "That's the alternative.",
+  "zh": "那是替代方案。"
+ },
+ {
+  "seg": 172,
+  "start": 1073.555,
+  "end": 1076.878,
+  "speaker": "Unknown",
+  "en": "But here you have to now grab your way to page 77 to find your answer.",
+  "zh": "但在这里你现在必须翻到第 77 页才能找到你的答案。"
+ },
+ {
+  "seg": 173,
+  "start": 1078.423,
+  "end": 1078.944,
+  "speaker": "Unknown",
+  "en": "We're lazy.",
+  "zh": "我们很懒。"
+ },
+ {
+  "seg": 174,
+  "start": 1079.584,
+  "end": 1081.306,
+  "speaker": "Unknown",
+  "en": "We're not gonna do the work, right?",
+  "zh": "我们不会去做这项工作,对吧?"
+ },
+ {
+  "seg": 175,
+  "start": 1081.746,
+  "end": 1091.295,
+  "speaker": "Unknown",
+  "en": "So now there exists an entire class of content on the web, which is like, okay, this information is needed by a lot of people.",
+  "zh": "所以现在网络上存在整整一类内容,就像,好吧,这条信息是很多人需要的。"
+ },
+ {
+  "seg": 176,
+  "start": 1092.376,
+  "end": 1097.861,
+  "speaker": "Unknown",
+  "en": "It is worth putting it on a page that loads fast, where this information is above the fold,",
+  "zh": "把它放在一个加载快速页面上是值得的,信息就在首屏上方,"
+ },
+ {
+  "seg": 177,
+  "start": 1099.022,
+  "end": 1100.003,
+  "speaker": "Unknown",
+  "en": "All of you can go there.",
+  "zh": "所有人都可以去那里。"
+ },
+ {
+  "seg": 178,
+  "start": 1100.783,
+  "end": 1103.765,
+  "speaker": "Unknown",
+  "en": "It's 99.99% right.",
+  "zh": "它有 99.99% 的正确率。"
+ },
+ {
+  "seg": 179,
+  "start": 1103.845,
+  "end": 1108.869,
+  "speaker": "Unknown",
+  "en": "So you're not like so skeptical when you go there that this is 100% wrong.",
+  "zh": "所以你去那里时不会那么怀疑它是 100% 错误的。"
+ },
+ {
+  "seg": 180,
+  "start": 1109.829,
+  "end": 1122.177,
+  "speaker": "Unknown",
+  "en": "And it's added real value in the process because it identified out of the 300-page earnings report 20 bits of information that should be above the fold.",
+  "zh": "它在这个过程中增加了真正的价值,因为它从 300 页的财报中识别出了 20 条应该放在首屏上方的信息。"
+ },
+ {
+  "seg": 181,
+  "start": 1122.658,
+  "end": 1127,
+  "speaker": "Unknown",
+  "en": "And so you can call it pre-AI human slop.",
+  "zh": "所以你可以称之为前 AI 时代的人类垃圾。"
+ },
+ {
+  "seg": 182,
+  "start": 1128.096,
+  "end": 1133.1,
+  "speaker": "Unknown",
+  "en": "Or you can call it catering to a lazy human and being successful at SEO, right?",
+  "zh": "或者你可以称之为迎合懒惰的人类并且在 SEO 上取得了成功,对吧?"
+ },
+ {
+  "seg": 183,
+  "start": 1133.72,
+  "end": 1140.526,
+  "speaker": "Unknown",
+  "en": "The good news is with agents, we're not making the agent click around and fumble around and grab a PDF, right?",
+  "zh": "好消息是,对于智能体,我们不是让智能体到处点击和摸索并抓取 PDF,对吧?"
+ },
+ {
+  "seg": 184,
+  "start": 1140.966,
+  "end": 1148.692,
+  "speaker": "Unknown",
+  "en": "We're taking a excerpt from the most authoritative place on the web and trying to bring it to the agent's context window.",
+  "zh": "我们是取网络上最权威地方的节选并试图把它带到智能体的上下文窗口。"
+ },
+ {
+  "seg": 185,
+  "start": 1149.652,
+  "end": 1153.435,
+  "speaker": "Unknown",
+  "en": "And so we aren't forced into this...",
+  "zh": "所以我们并不被迫陷入这种..."
+ },
+ {
+  "seg": 186,
+  "start": 1154.636,
+  "end": 1155.337,
+  "speaker": "Unknown",
+  "en": "Weird trade-off.",
+  "zh": "奇怪的权衡。"
+ },
+ {
+  "seg": 187,
+  "start": 1155.817,
+  "end": 1173.653,
+  "speaker": "Unknown",
+  "en": "And this trade-off existed with humans in the first place because like with standard browsers and protocols and everything, we just didn't figure out how to have us point exactly consistently across everywhere on the web to the exact right highlighted tiny paragraph, right?",
+  "zh": "这种权衡一开始就存在于人类身上,因为就像使用标准浏览器和协议以及所有东西一样,我们只是没有弄清楚如何让我们指向整个网络上完全一致的、确切的高亮显示的微小段落,对吧?"
+ },
+ {
+  "seg": 188,
+  "start": 1174.333,
+  "end": 1178.377,
+  "speaker": "Unknown",
+  "en": "With agents, we get to bring that to the agent's context and then let it figure out what's next.",
+  "zh": "对于智能体,我们可以把它带到智能体的上下文中,然后让它弄清楚下一步做什么。"
+ },
+ {
+  "seg": 189,
+  "start": 1178.803,
+  "end": 1184.884,
+  "speaker": "Unknown",
+  "en": "Can you walk us through what actually happens when one of your developers sends a query off to your agentic search API?",
+  "zh": "你能带我们过一遍,当你的一个开发者向你的智能体搜索 API 发送一个查询时实际上发生了什么吗?"
+ },
+ {
+  "seg": 190,
+  "start": 1185.304,
+  "end": 1187.585,
+  "speaker": "Unknown",
+  "en": "It's in some sense pretty standard.",
+  "zh": "在某种意义上它是非常标准的。"
+ },
+ {
+  "seg": 191,
+  "start": 1187.985,
+  "end": 1193.586,
+  "speaker": "Unknown",
+  "en": "So we run some models to figure out what this query is and enrich it to figure out how it will flow into the rest of our system.",
+  "zh": "所以我们运行一些模型来弄清楚这个查询是什么并对其进行丰富,以弄清楚它如何流入我们系统的其余部分。"
+ },
+ {
+  "seg": 192,
+  "start": 1194.806,
+  "end": 1201.368,
+  "speaker": "Unknown",
+  "en": "We have a bunch of indexes which organize different subsets of the web in different ways.",
+  "zh": "我们有一堆索引,它们以不同的方式组织网络的不同子集。"
+ },
+ {
+  "seg": 193,
+  "start": 1202.268,
+  "end": 1206.469,
+  "speaker": "Unknown",
+  "en": "And so the first layer will essentially craft queries for each of these different systems.",
+  "zh": "所以第一层基本上会为这些不同的系统中的每一个制作查询。"
+ },
+ {
+  "seg": 194,
+  "start": 1208.225,
+  "end": 1211.007,
+  "speaker": "Unknown",
+  "en": "One of these systems perhaps is our sort of big index.",
+  "zh": "这些系统之一也许是我们要的那种大索引。"
+ },
+ {
+  "seg": 195,
+  "start": 1211.088,
+  "end": 1212.889,
+  "speaker": "Unknown",
+  "en": "One of these is perhaps our fresh index.",
+  "zh": "这些系统之一也许是我们的新鲜索引。"
+ },
+ {
+  "seg": 196,
+  "start": 1213.609,
+  "end": 1217.573,
+  "speaker": "Unknown",
+  "en": "One of these is perhaps like you can, some people will describe it like a knowledge graph.",
+  "zh": "这些系统之一也许是像,你可以,有些人会把它描述为知识图谱。"
+ },
+ {
+  "seg": 197,
+  "start": 1217.593,
+  "end": 1221.015,
+  "speaker": "Unknown",
+  "en": "Some people will describe it like a structured index.",
+  "zh": "有些人会把它描述为结构化索引。"
+ },
+ {
+  "seg": 198,
+  "start": 1222.136,
+  "end": 1223.137,
+  "speaker": "Unknown",
+  "en": "There are a bunch of these, right?",
+  "zh": "有很多这样的,对吧?"
+ },
+ {
+  "seg": 199,
+  "start": 1224.017,
+  "end": 1227.06,
+  "speaker": "Unknown",
+  "en": "So you're now deciding which ones this query needs to go to.",
+  "zh": "所以你现在正在决定这个查询需要去哪些地方。"
+ },
+ {
+  "seg": 200,
+  "start": 1228.001,
+  "end": 1230.623,
+  "speaker": "Unknown",
+  "en": "You're figuring out what is the query rewrite for each of these.",
+  "zh": "你正在弄清楚这其中每一个的查询重写是什么。"
+ },
+ {
+  "seg": 201,
+  "start": 1231.323,
+  "end": 1233.485,
+  "speaker": "Unknown",
+  "en": "Then each of these has like a big retrieval layer.",
+  "zh": "然后这其中每一个都有一个类似的大型检索层。"
+ },
+ {
+  "seg": 202,
+  "start": 1234.786,
+  "end": 1237.268,
+  "speaker": "Unknown",
+  "en": "And then a ranking layer and then more ranking layers.",
+  "zh": "然后有一个排序层，然后是更多的排序层。"
+ },
+ {
+  "seg": 203,
+  "start": 1237.629,
+  "end": 1252.824,
+  "speaker": "Unknown",
+  "en": "So you're going to try to boil down tens, hundreds of billions of URLs or documents down into thousands, tens of thousands, down into specific excerpts and paragraphs in those tens of thousands.",
+  "zh": "所以你要尝试把数十亿、数千亿的 URL 或文档归结到数千、数万，再到这数万个中的具体摘录和段落。"
+ },
+ {
+  "seg": 204,
+  "start": 1253.204,
+  "end": 1270.031,
+  "speaker": "Unknown",
+  "en": "With more and more bigger models running at each stage with different architectures, pulling more features to ultimately get down to here are the thousand tokens I want to bring back to this AI, which has the highest signal.",
+  "zh": "在每个阶段运行着越来越多更大的模型，使用不同的架构，提取更多特征，最终归结到我想带回给这个 AI 的这里的一千个 token，它具有最高的信号。"
+ },
+ {
+  "seg": 205,
+  "start": 1270.591,
+  "end": 1273.232,
+  "speaker": "Unknown",
+  "en": "And now if you look at our various versions of our search API.",
+  "zh": "现在如果你看看我们的搜索 API 的各个版本。"
+ },
+ {
+  "seg": 206,
+  "start": 1274.525,
+  "end": 1285.494,
+  "speaker": "Unknown",
+  "en": "They just throw for different latency and cost constraints, different amounts of compute at various points in this journey to hit those limits.",
+  "zh": "它们只是针对不同的延迟和成本约束，在这个旅程的各个节点投入不同数量的算力来达到那些限制。"
+ },
+ {
+  "seg": 207,
+  "start": 1287.176,
+  "end": 1290.759,
+  "speaker": "Unknown",
+  "en": "So in the abstract, it's simple, right?",
+  "zh": "所以在抽象层面上，这很简单，对吧？"
+ },
+ {
+  "seg": 208,
+  "start": 1291.56,
+  "end": 1297.905,
+  "speaker": "Unknown",
+  "en": "What's interesting is what each of these models that I described, how you curate and collect the training data for them.",
+  "zh": "有趣的是我描述的这些模型中的每一个，你如何策划和收集它们的训练数据。"
+ },
+ {
+  "seg": 209,
+  "start": 1298.986,
+  "end": 1316.9,
+  "speaker": "Unknown",
+  "en": "right how you build those models and optimize them the index itself how you use the the memory hierarchy to store it to be able to hit certain cost quality latency thresholds what's the north star from a quality perspective",
+  "zh": "对吧你如何构建这些模型并优化它们索引本身你如何使用内存层次结构来存储它以便能够达到某些成本质量延迟阈值从质量角度来看什么是北极星"
+ },
+ {
+  "seg": 210,
+  "start": 1317.162,
+  "end": 1321.625,
+  "speaker": "Unknown",
+  "en": "Like, you know, in Google, there's that, you know, did you get this result you wanted in the first three answers or something?",
+  "zh": "比如，你知道，在 Google，有那个，你知道，你在前三个答案里得到了你想要的结果吗之类的？"
+ },
+ {
+  "seg": 211,
+  "start": 1321.685,
+  "end": 1323.346,
+  "speaker": "Unknown",
+  "en": "What is the equivalent North Star for you?",
+  "zh": "对你来说等同的北极星是什么？"
+ },
+ {
+  "seg": 212,
+  "start": 1323.646,
+  "end": 1331.23,
+  "speaker": "Unknown",
+  "en": "So I think of, I don't know if I'm right on this, but like my take is that a billion to billion matching problem is a forever problem.",
+  "zh": "所以我认为，我不知道我在这个上对不对，但我的看法是十亿到十亿的匹配问题是一个永恒的问题。"
+ },
+ {
+  "seg": 213,
+  "start": 1332.351,
+  "end": 1339.115,
+  "speaker": "Unknown",
+  "en": "And so the real question is at what point incremental optimization isn't worth the squeeze.",
+  "zh": "所以真正的问题是在什么时候增量优化不值得付出努力。"
+ },
+ {
+  "seg": 214,
+  "start": 1340.936,
+  "end": 1346.359,
+  "speaker": "Unknown",
+  "en": "So I don't think there is a thing as like, okay, we're done on improving this thing.",
+  "zh": "所以我不认为有这样的事情，好吧，我们在这个东西的改进上完成了。"
+ },
+ {
+  "seg": 215,
+  "start": 1347.253,
+  "end": 1350.935,
+  "speaker": "Unknown",
+  "en": "The question is, at some point, it's going to get harder and harder to improve this thing.",
+  "zh": "问题在于，在某些时候，改进这个东西会变得越来越难。"
+ },
+ {
+  "seg": 216,
+  "start": 1352.456,
+  "end": 1354.537,
+  "speaker": "Unknown",
+  "en": "And it just won't be worth it.",
+  "zh": "而且它将是不值得的。"
+ },
+ {
+  "seg": 217,
+  "start": 1355.558,
+  "end": 1355.758,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 218,
+  "start": 1356.598,
+  "end": 1360.24,
+  "speaker": "Unknown",
+  "en": "But I'm hoping that we don't get there, actually.",
+  "zh": "但我希望我们实际上不会到那一步。"
+ },
+ {
+  "seg": 219,
+  "start": 1360.28,
+  "end": 1368.005,
+  "speaker": "Unknown",
+  "en": "Because if you think of what we're doing with AI, we will have more intelligence that gets cheaper every few months.",
+  "zh": "因为如果你考虑我们用 AI 在做什么，我们将拥有每几个月就变得更便宜的更多智能。"
+ },
+ {
+  "seg": 220,
+  "start": 1369.705,
+  "end": 1372.207,
+  "speaker": "Unknown",
+  "en": "And as a result of it, it will come down to",
+  "zh": "结果是，这将归结到"
+ },
+ {
+  "seg": 221,
+  "start": 1373.986,
+  "end": 1391.377,
+  "speaker": "Unknown",
+  "en": "Having great models which are cheap, having great information, matchmaking across a need and all of the information available to you, whether it's your own or on the web, and doing something unique and differentiated with it to produce more knowledge, right?",
+  "zh": "拥有便宜的出色模型，拥有出色的信息，在需求和所有可用信息之间进行撮合，无论是你自己的还是在网上的，并用它做一些独特和差异化的事情来产生更多知识，对吧？"
+ },
+ {
+  "seg": 222,
+  "start": 1391.857,
+  "end": 1397.361,
+  "speaker": "Unknown",
+  "en": "And anytime you can do something 20% better than somebody else, that might give you an edge.",
+  "zh": "而且任何时候你都能比别人做得好 20%，这可能会给你一个优势。"
+ },
+ {
+  "seg": 223,
+  "start": 1398.041,
+  "end": 1398.922,
+  "speaker": "Unknown",
+  "en": "So why wouldn't you?",
+  "zh": "那为什么不呢？"
+ },
+ {
+  "seg": 224,
+  "start": 1401.126,
+  "end": 1413.6,
+  "speaker": "Unknown",
+  "en": "So in the super AGI-built worldview, it feels like if you can push on quality across web search and in the model layer, why wouldn't you?",
+  "zh": "所以在超级 AGI 构建的世界观中，感觉是如果你能在网络搜索和模型层上推动质量，为什么不呢？"
+ },
+ {
+  "seg": 225,
+  "start": 1414.351,
+  "end": 1419.195,
+  "speaker": "Unknown",
+  "en": "I've heard a point of view that this is so fundamental to the model companies that they're just going to own it.",
+  "zh": "我听到一个观点，这对模型公司来说如此根本，以至于他们就直接拥有它。"
+ },
+ {
+  "seg": 226,
+  "start": 1419.776,
+  "end": 1429.604,
+  "speaker": "Unknown",
+  "en": "And in part because as they're collecting data for pre-training, that's a very, very expensive infrastructure exercise, that kind of is your source of truth for the crawl.",
+  "zh": "部分原因是当他们在为预训练收集数据时，那是一个非常、非常昂贵的基础设施练习，那算是你抓取的真相来源。"
+ },
+ {
+  "seg": 227,
+  "start": 1430.865,
+  "end": 1431.506,
+  "speaker": "Unknown",
+  "en": "What do you think of that?",
+  "zh": "你怎么看那个？"
+ },
+ {
+  "seg": 228,
+  "start": 1432.166,
+  "end": 1436.01,
+  "speaker": "Unknown",
+  "en": "I don't see empiric data on the ground to support that view.",
+  "zh": "我没有看到地面上的经验数据来支持那个观点。"
+ },
+ {
+  "seg": 229,
+  "start": 1436.47,
+  "end": 1442.435,
+  "speaker": "Unknown",
+  "en": "To build a fresh web index, I don't think that crawl is particularly useful.",
+  "zh": "要构建一个全新的网络索引，我不认为抓取是特别有用的。"
+ },
+ {
+  "seg": 230,
+  "start": 1444.105,
+  "end": 1445.467,
+  "speaker": "Unknown",
+  "en": "And let me frame why.",
+  "zh": "让我解释一下为什么。"
+ },
+ {
+  "seg": 231,
+  "start": 1445.767,
+  "end": 1450.514,
+  "speaker": "Unknown",
+  "en": "So if you think of what we are building, we're building a complement to models.",
+  "zh": "所以如果你考虑我们正在构建什么，我们正在构建模型的补充。"
+ },
+ {
+  "seg": 232,
+  "start": 1451.676,
+  "end": 1457.644,
+  "speaker": "Unknown",
+  "en": "We like to crawl things that people don't like to crawl for pre-training.",
+  "zh": "我们喜欢抓取人们不喜欢为预训练而抓取的东西。"
+ },
+ {
+  "seg": 233,
+  "start": 1458.307,
+  "end": 1462.788,
+  "speaker": "Unknown",
+  "en": "Because like if the model already was trained on it, like it's not useful.",
+  "zh": "因为如果模型已经受过它的训练，它就没用了。"
+ },
+ {
+  "seg": 234,
+  "start": 1463.688,
+  "end": 1474.43,
+  "speaker": "Unknown",
+  "en": "Model companies for the training aren't patient enough to go in a completionist way, try to wait for really slow random JavaScript to load.",
+  "zh": "模型公司为了训练没有足够的耐心去以完成主义的方式，尝试等待真正慢的随机 JavaScript 加载。"
+ },
+ {
+  "seg": 235,
+  "start": 1475.47,
+  "end": 1482.411,
+  "speaker": "Unknown",
+  "en": "Because the number of tokens you get per amount of compute you throw at it is like one order of magnitude.",
+  "zh": "因为你在投入的每单位算力上得到的 token 数量就像是一个数量级。"
+ },
+ {
+  "seg": 236,
+  "start": 1482.431,
+  "end": 1484.692,
+  "speaker": "Unknown",
+  "en": "So two order of magnitude, too bad.",
+  "zh": "所以两个数量级，太糟糕了。"
+ },
+ {
+  "seg": 237,
+  "start": 1485.492,
+  "end": 1489.073,
+  "speaker": "Unknown",
+  "en": "And so like, is it worth the extra effort to get these tokens?",
+  "zh": "那么这额外的努力值得去获取这些 token 吗？"
+ },
+ {
+  "seg": 238,
+  "start": 1489.113,
+  "end": 1491.394,
+  "speaker": "Unknown",
+  "en": "For us, it is because we're completionist, right?",
+  "zh": "对我们来说，值得，因为我们是完成主义者，对吧？"
+ },
+ {
+  "seg": 239,
+  "start": 1491.794,
+  "end": 1494.375,
+  "speaker": "Unknown",
+  "en": "For them, it's like, I'll take X trillion tokens.",
+  "zh": "对他们来说，就像是，我会拿 X 万亿个 token。"
+ },
+ {
+  "seg": 240,
+  "start": 1495.375,
+  "end": 1495.995,
+  "speaker": "Unknown",
+  "en": "So that's one.",
+  "zh": "所以这是其一。"
+ },
+ {
+  "seg": 241,
+  "start": 1496.695,
+  "end": 1501.857,
+  "speaker": "Unknown",
+  "en": "Now, I do think this is a core part of every agent, right?",
+  "zh": "现在，我确实认为这是每个智能体的核心部分，对吧？"
+ },
+ {
+  "seg": 242,
+  "start": 1502.437,
+  "end": 1513.22,
+  "speaker": "Unknown",
+  "en": "My worldview is that if you're buying LLMs for doing work, for nine out of 10 use cases,",
+  "zh": "我的世界观是如果你购买 LLM 来做工作，对于 10 个用例中的 9 个，"
+ },
+ {
+  "seg": 243,
+  "start": 1514.21,
+  "end": 1521.953,
+  "speaker": "Unknown",
+  "en": "You will want them to have access to the web and great search infra optimizing for agents.",
+  "zh": "你会希望它们有权访问网络和针对智能体优化的出色搜索基础设施。"
+ },
+ {
+  "seg": 244,
+  "start": 1522.173,
+  "end": 1528.496,
+  "speaker": "Unknown",
+  "en": "So it is a real adjacency for all kinds of LLM inference.",
+  "zh": "所以这对各种类型的 LLM 推理来说都是一个真正的毗邻业务。"
+ },
+ {
+  "seg": 245,
+  "start": 1529.356,
+  "end": 1537.34,
+  "speaker": "Unknown",
+  "en": "And that supports your view that model companies should have the best in class infra for it.",
+  "zh": "这支持了你的观点，即模型公司应该拥有同类最佳的基础设施。"
+ },
+ {
+  "seg": 246,
+  "start": 1538,
+  "end": 1541.204,
+  "speaker": "Unknown",
+  "en": "So now they can build it or they can buy it.",
+  "zh": "所以现在他们可以构建它或者他们可以购买它。"
+ },
+ {
+  "seg": 247,
+  "start": 1541.965,
+  "end": 1548.694,
+  "speaker": "Unknown",
+  "en": "And that's the conversation and we will see who builds and who buys and who partners and how things evolve.",
+  "zh": "这就是对话，我们将看到谁构建，谁购买，谁合作，以及事情如何演变。"
+ },
+ {
+  "seg": 248,
+  "start": 1549.054,
+  "end": 1551.337,
+  "speaker": "Unknown",
+  "en": "Are you partnering with any of the model companies that you can share?",
+  "zh": "你正在与任何你可以分享的模型公司合作吗？"
+ },
+ {
+  "seg": 249,
+  "start": 1551.872,
+  "end": 1575.832,
+  "speaker": "Unknown",
+  "en": "we want to we will i can't share anything on that we did announce and i don't know how your definitions of model companies uh we announced today actually that we are working with uh google cloud to be a search and grounding provider for their enterprise agent apis so if you think of",
+  "zh": "我们想要我们将我无法在那方面分享任何东西我们确实宣布了我不知道你对模型公司的定义嗯我们今天实际上宣布了我们要与谷歌云合作作为他们的企业智能体 API 的搜索和接地提供商所以如果你考虑"
+ },
+ {
+  "seg": 250,
+  "start": 1576.612,
+  "end": 1585.978,
+  "speaker": "Unknown",
+  "en": "Grounding Gemini models or other models available on GCP when you build agents on GCP or chat apps on GCP or do any other inference with LLMs on GCP.",
+  "zh": "在 GCP 上构建智能体或在 GCP 上构建聊天应用或在 GCP 上使用 LLM 进行任何其他推理时，为 Gemini 模型或 GCP 上提供的其他模型提供 Grounding。"
+ },
+ {
+  "seg": 251,
+  "start": 1586.979,
+  "end": 1595.184,
+  "speaker": "Unknown",
+  "en": "When you attach web search to it, your options are Google search or parallel search.",
+  "zh": "当你为其附加网络搜索时，你的选项是 Google 搜索或 parallel 搜索。"
+ },
+ {
+  "seg": 252,
+  "start": 1596.025,
+  "end": 1599.048,
+  "speaker": "Unknown",
+  "en": "And parallel search is product integrated.",
+  "zh": "而 parallel 搜索是产品集成的。"
+ },
+ {
+  "seg": 253,
+  "start": 1599.148,
+  "end": 1601.491,
+  "speaker": "Unknown",
+  "en": "The integration is optimized.",
+  "zh": "这种集成是经过优化的。"
+ },
+ {
+  "seg": 254,
+  "start": 1601.511,
+  "end": 1615.207,
+  "speaker": "Unknown",
+  "en": "We've spent time with technical teams and training teams and product teams and commercial teams to make sure that when people use Gemini models with parallel, they get exceptional and great results.",
+  "zh": "我们与技术团队、培训团队、产品团队和商业团队花了时间，以确保当人们将 Gemini 模型与 parallel 结合使用时，能获得出色且卓越的结果。"
+ },
+ {
+  "seg": 255,
+  "start": 1615.507,
+  "end": 1620.689,
+  "speaker": "Unknown",
+  "en": "So yes, there are these partnerships now emerging.",
+  "zh": "所以是的，这些合作伙伴关系正在浮现。"
+ },
+ {
+  "seg": 256,
+  "start": 1621.929,
+  "end": 1624.931,
+  "speaker": "Unknown",
+  "en": "I bet that there'll be several of these.",
+  "zh": "我打赌会有好几个这样的。"
+ },
+ {
+  "seg": 257,
+  "start": 1625.631,
+  "end": 1627.672,
+  "speaker": "Unknown",
+  "en": "They will all look somewhat unique.",
+  "zh": "它们看起来都会有些独特。"
+ },
+ {
+  "seg": 258,
+  "start": 1628.112,
+  "end": 1629.692,
+  "speaker": "Unknown",
+  "en": "That's a big deal from the Search King.",
+  "zh": "这可是来自搜索之王的大动作。"
+ },
+ {
+  "seg": 259,
+  "start": 1629.712,
+  "end": 1630.473,
+  "speaker": "Unknown",
+  "en": "Congratulations.",
+  "zh": "恭喜。"
+ },
+ {
+  "seg": 260,
+  "start": 1630.753,
+  "end": 1632.093,
+  "speaker": "Unknown",
+  "en": "Google's the original Neo Lab.",
+  "zh": "Google 是最初的 Neo Lab。"
+ },
+ {
+  "seg": 261,
+  "start": 1632.674,
+  "end": 1636.715,
+  "speaker": "Unknown",
+  "en": "I don't know how to frame Google as a model lab versus a hyperscaler.",
+  "zh": "我不知道该如何将 Google 描述为一个模型实验室还是一个超大规模厂商。"
+ },
+ {
+  "seg": 262,
+  "start": 1637.655,
+  "end": 1643.818,
+  "speaker": "Unknown",
+  "en": "And I don't know what precise lessons to learn from this one, whether it applies to other labs or to...",
+  "zh": "而且我不知道要从这次发布中汲取哪些精确的经验教训，无论是适用于其他实验室还是..."
+ },
+ {
+  "seg": 263,
+  "start": 1644.968,
+  "end": 1645.748,
+  "speaker": "Unknown",
+  "en": "Hyperscalers.",
+  "zh": "超大规模厂商。"
+ },
+ {
+  "seg": 264,
+  "start": 1647.349,
+  "end": 1648.189,
+  "speaker": "Unknown",
+  "en": "And so we will see.",
+  "zh": "所以我们拭目以待。"
+ },
+ {
+  "seg": 265,
+  "start": 1648.829,
+  "end": 1655.591,
+  "speaker": "Unknown",
+  "en": "The way that I use voice agents and I need to get a reservation for dinner at night, what restaurant should I go to?",
+  "zh": "我使用语音智能体的方式是，我需要预订晚上的晚餐，我该去哪家餐厅？"
+ },
+ {
+  "seg": 266,
+  "start": 1655.751,
+  "end": 1658.552,
+  "speaker": "Unknown",
+  "en": "And then that request gets fulfilled by the agent.",
+  "zh": "然后那个请求由智能体完成。"
+ },
+ {
+  "seg": 267,
+  "start": 1659.592,
+  "end": 1662.773,
+  "speaker": "Unknown",
+  "en": "When we talk to a lot of the parallel customers, there's this",
+  "zh": "当我们与许多 parallel 客户交谈时，有一种"
+ },
+ {
+  "seg": 268,
+  "start": 1663.788,
+  "end": 1669.471,
+  "speaker": "Unknown",
+  "en": "You know, background agent, whether the monitor product, these agents that sort of are always watching the world or watching the web.",
+  "zh": "你知道，后台智能体，无论是监控产品，还是那种总是在监视世界或监视网络的智能体。"
+ },
+ {
+  "seg": 269,
+  "start": 1669.491,
+  "end": 1673.294,
+  "speaker": "Unknown",
+  "en": "And when something happens, then they go off and take actions and do something with it.",
+  "zh": "当某些事情发生时，它们就会采取行动并对此做些什么。"
+ },
+ {
+  "seg": 270,
+  "start": 1674.534,
+  "end": 1682.879,
+  "speaker": "Unknown",
+  "en": "It might be worth, because if we think about what does 1000x more mean, there's like the depth of research and then there's just like the, you know, what is actually initiating the tasks?",
+  "zh": "这可能是值得的，因为如果我们思考一下 1000 倍更多意味着什么，这涉及到研究的深度，还有就是，你知道，实际上是什么在发起任务？"
+ },
+ {
+  "seg": 271,
+  "start": 1682.959,
+  "end": 1685.441,
+  "speaker": "Unknown",
+  "en": "Is it a human initiating the search or is it an agent itself?",
+  "zh": "是人类发起搜索，还是智能体本身？"
+ },
+ {
+  "seg": 272,
+  "start": 1685.801,
+  "end": 1687.322,
+  "speaker": "Unknown",
+  "en": "You want to talk about that dynamic a little bit?",
+  "zh": "你想稍微聊聊这种动态关系吗？"
+ },
+ {
+  "seg": 273,
+  "start": 1687.74,
+  "end": 1690.162,
+  "speaker": "Unknown",
+  "en": "Yeah, so there's a bunch of dimensions here.",
+  "zh": "是的，所以这里有几个维度。"
+ },
+ {
+  "seg": 274,
+  "start": 1690.202,
+  "end": 1694.125,
+  "speaker": "Unknown",
+  "en": "Let's go back to for a moment on search agents, right?",
+  "zh": "让我们稍微回到搜索智能体，好吗？"
+ },
+ {
+  "seg": 275,
+  "start": 1694.706,
+  "end": 1707.417,
+  "speaker": "Unknown",
+  "en": "If you run a typical search agent, and even without doing deep research, it'll do somewhere between five to 20 searches, even if it answers within a few seconds, which is why not, right?",
+  "zh": "如果你运行一个典型的搜索智能体，即使不做深度研究，它也会进行大约 5 到 20 次搜索，即使它在几秒钟内回答，这有什么不对呢，对吧？"
+ },
+ {
+  "seg": 276,
+  "start": 1707.797,
+  "end": 1712.02,
+  "speaker": "Unknown",
+  "en": "So already, if you transition from using",
+  "zh": "所以，如果你从使用"
+ },
+ {
+  "seg": 277,
+  "start": 1713.841,
+  "end": 1740.79,
+  "speaker": "Unknown",
+  "en": "ChatGPT medium or I don't know all the categories but like somewhere not on the high tier like instant low medium every time you write a prompt to it in ChatGPT it will do five to ten searches as you dial it up it'll do hundreds and thousands of searches so one interesting thing to observe is like a human action to a multiplier on number of searches that happened right so just by",
+  "zh": "ChatGPT 中等模式转换，或者我不知道所有类别，但就像不在高层的某种模式，比如即时、低、中等，每次你在 ChatGPT 中给它写一个提示词，它会做 5 到 10 次搜索，当你调高它时，它会做几百和几千次搜索，所以观察到一件有趣的事情是，人类行为对发生的搜索次数的一个倍增作用，对吧，所以只要通过"
+ },
+ {
+  "seg": 278,
+  "start": 1742.431,
+  "end": 1750.942,
+  "speaker": "Unknown",
+  "en": "Using an AI app, you're kind of multiplying your way to perhaps one order of magnitude more searches.",
+  "zh": "使用一个 AI 应用，你就在某种程度上把你自己的搜索量增加了一个数量级。"
+ },
+ {
+  "seg": 279,
+  "start": 1752.077,
+  "end": 1762.023,
+  "speaker": "Unknown",
+  "en": "Now, a lot of our initial takes on the product and the market were to go after bigger multipliers than even that.",
+  "zh": "现在，我们对产品和市场的很多初步看法是追求比这更高的倍数。"
+ },
+ {
+  "seg": 280,
+  "start": 1762.784,
+  "end": 1773.25,
+  "speaker": "Unknown",
+  "en": "So we were much more interested when you said, I have a portfolio of 10,000 small businesses where I have given out credit to.",
+  "zh": "所以当你说，我有一个由 10,000 家小企业组成的投资组合，我给他们放贷时，我们要感兴趣得多。"
+ },
+ {
+  "seg": 281,
+  "start": 1774.211,
+  "end": 1779.494,
+  "speaker": "Unknown",
+  "en": "For all of them, every month, I have this human process that runs.",
+  "zh": "对所有这些企业，每个月，我都有这样一个人工流程在运行。 [[282] 来试探我的风险是在上升还是下降。"
+ },
+ {
+  "seg": 282,
+  "start": 1780.92,
+  "end": 1783.663,
+  "speaker": "Unknown",
+  "en": "To feel out how my risk is going up or down.",
+  "zh": "去试探我的风险是在上升还是下降。"
+ },
+ {
+  "seg": 283,
+  "start": 1784.284,
+  "end": 1787.027,
+  "speaker": "Unknown",
+  "en": "Now can we, and it relies on a bunch of web data.",
+  "zh": "现在我们能否，而且它依赖于大量的网络数据。"
+ },
+ {
+  "seg": 284,
+  "start": 1787.407,
+  "end": 1788.828,
+  "speaker": "Unknown",
+  "en": "We're trying to use agents for doing this.",
+  "zh": "我们正在尝试使用智能体来做这件事。"
+ },
+ {
+  "seg": 285,
+  "start": 1789.449,
+  "end": 1802.783,
+  "speaker": "Unknown",
+  "en": "So here a developer is effectively, the multiplier there is hundreds of thousands or a million in terms of the number of web searches that happen because a human goes and programs that instead of now doing this process every month,",
+  "zh": "所以在这里，一个开发者实际上，那里的倍数是几十万或一百万，就发生的网络搜索数量而言，因为一个人去编写程序而不是现在每个月都做这个流程，"
+ },
+ {
+  "seg": 286,
+  "start": 1803.62,
+  "end": 1805.301,
+  "speaker": "Unknown",
+  "en": "We can do it every week, right?",
+  "zh": "我们可以每周做一次，对吧？"
+ },
+ {
+  "seg": 287,
+  "start": 1805.642,
+  "end": 1816.05,
+  "speaker": "Unknown",
+  "en": "So doing a lot of searches when this agent runs every week to create a dashboard on the portfolio and a collection of action items that somebody needs to look at, right?",
+  "zh": "所以当这个智能体每周运行时要做很多搜索，以创建关于投资组合的仪表盘和某人需要查看的行动事项集合，对吧？"
+ },
+ {
+  "seg": 288,
+  "start": 1817.571,
+  "end": 1821.374,
+  "speaker": "Unknown",
+  "en": "Now you can go to another example which is even more interesting.",
+  "zh": "现在你可以看另一个更有趣的例子。"
+ },
+ {
+  "seg": 289,
+  "start": 1821.394,
+  "end": 1828.36,
+  "speaker": "Unknown",
+  "en": "I don't know, do you use something to do meeting prep documents for you all that's an agent?",
+  "zh": "我不知道，你们用什么东西来为你们准备会议文档吗，那是一个智能体吗？"
+ },
+ {
+  "seg": 290,
+  "start": 1828.7,
+  "end": 1829.661,
+  "speaker": "Unknown",
+  "en": "There's a Sequoia one.",
+  "zh": "有一个 Sequoia 的。"
+ },
+ {
+  "seg": 291,
+  "start": 1829.741,
+  "end": 1830.622,
+  "speaker": "Unknown",
+  "en": "There's a Sequoia agent.",
+  "zh": "有一个 Sequoia 智能体。"
+ },
+ {
+  "seg": 292,
+  "start": 1830.843,
+  "end": 1831.243,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 293,
+  "start": 1831.464,
+  "end": 1836.309,
+  "speaker": "Unknown",
+  "en": "I was going to say James Flynn, but he's one of our great young guys.",
+  "zh": "我本来想说 James Flynn，但他是我们优秀的年轻人之一。"
+ },
+ {
+  "seg": 294,
+  "start": 1836.849,
+  "end": 1853.127,
+  "speaker": "Unknown",
+  "en": "So I use Notion's agent and you can build custom agents which look into all the internal data that we have at Parallel plus all of the web data using Parallel's APIs to",
+  "zh": "所以我使用 Notion 的智能体，你可以构建自定义智能体，它们可以查看我们在 Parallel 拥有的所有内部数据，加上所有网络数据，使用 Parallel 的 API 来"
+ },
+ {
+  "seg": 295,
+  "start": 1854.147,
+  "end": 1855.128,
+  "speaker": "Unknown",
+  "en": "Create meeting prep docs.",
+  "zh": "创建会议准备文档。"
+ },
+ {
+  "seg": 296,
+  "start": 1856.088,
+  "end": 1859.309,
+  "speaker": "Unknown",
+  "en": "One time I went and created one prompt to build this custom agent.",
+  "zh": "有一次我去创建了一个提示词来构建这个自定义智能体。"
+ },
+ {
+  "seg": 297,
+  "start": 1860.35,
+  "end": 1864.631,
+  "speaker": "Unknown",
+  "en": "Now it does tens and hundreds of web searches for every meeting I have.",
+  "zh": "现在对于我参加的每个会议，它都会进行几十到几百次网络搜索。"
+ },
+ {
+  "seg": 298,
+  "start": 1865.271,
+  "end": 1869.553,
+  "speaker": "Unknown",
+  "en": "Every time I build a new agent for a new use case, that keeps multiplying.",
+  "zh": "每次我为新用例构建新智能体时，这都会不断倍增。"
+ },
+ {
+  "seg": 299,
+  "start": 1869.693,
+  "end": 1879.777,
+  "speaker": "Unknown",
+  "en": "So I think the path to these background agents doing more and more and more work all the time for us, it's only going to be bounded by",
+  "zh": "所以我认为这些后台智能体为我们做越来越多的工作的路径，只会受到"
+ },
+ {
+  "seg": 300,
+  "start": 1880.87,
+  "end": 1882.831,
+  "speaker": "Unknown",
+  "en": "Value versus spend.",
+  "zh": "价值与支出。"
+ },
+ {
+  "seg": 301,
+  "start": 1883.191,
+  "end": 1884.891,
+  "speaker": "Unknown",
+  "en": "I don't think it's rational right now.",
+  "zh": "我认为现在这还不理性。"
+ },
+ {
+  "seg": 302,
+  "start": 1884.911,
+  "end": 1890.113,
+  "speaker": "Unknown",
+  "en": "I'm probably spending more on it than I should be, but it's not too much, so I don't care yet.",
+  "zh": "我在这上面的支出可能比我应该支出的要多，但这不算太多，所以我还不介意。"
+ },
+ {
+  "seg": 303,
+  "start": 1890.613,
+  "end": 1894.514,
+  "speaker": "Unknown",
+  "en": "So there'll be some rationalization in all of these agents.",
+  "zh": "所以所有这些智能体都会有一些合理化。"
+ },
+ {
+  "seg": 304,
+  "start": 1895.074,
+  "end": 1901.636,
+  "speaker": "Unknown",
+  "en": "But I think we will deploy background agents to the extent that there is incremental value in doing that compute.",
+  "zh": "但我认为我们会部署后台智能体，只要在做这些算力方面有增量价值。"
+ },
+ {
+  "seg": 305,
+  "start": 1902.974,
+  "end": 1904.014,
+  "speaker": "Unknown",
+  "en": "And the same thing applies to searches.",
+  "zh": "这同样适用于搜索。"
+ },
+ {
+  "seg": 306,
+  "start": 1904.114,
+  "end": 1905.815,
+  "speaker": "Unknown",
+  "en": "All of these background agents would do a bunch of searches.",
+  "zh": "所有这些后台智能体都会进行大量搜索。"
+ },
+ {
+  "seg": 307,
+  "start": 1906.696,
+  "end": 1920.441,
+  "speaker": "Unknown",
+  "en": "And so our first set of products were really obsessively focused on these, in part because we were building, growing the index, and we decided that our company was based on three dimensions, quality, cost, latency.",
+  "zh": "所以我们的第一批产品确实非常执着地关注这些，部分是因为我们在构建、在增长索引，我们决定我们的公司基于三个维度，质量、成本、延迟。"
+ },
+ {
+  "seg": 308,
+  "start": 1921.342,
+  "end": 1928.725,
+  "speaker": "Unknown",
+  "en": "And for the first couple of years, we said, let's focus, let's ignore latency, and let's just nail the other two.",
+  "zh": "在最初几年，我们说，让我们专注，让我们忽略延迟，让我们搞定另外两个。"
+ },
+ {
+  "seg": 309,
+  "start": 1929.615,
+  "end": 1940.646,
+  "speaker": "Unknown",
+  "en": "Because optimizing systems, distilling to smaller models is much more known art than unknown research, right?",
+  "zh": "因为优化系统、蒸馏成更小的模型是比未知研究更已知的艺术，对吧？"
+ },
+ {
+  "seg": 310,
+  "start": 1941.026,
+  "end": 1949.714,
+  "speaker": "Unknown",
+  "en": "So once we achieved the best quality search and search agent products at every price point,",
+  "zh": "所以一旦我们在每个价格点实现了最高质量的搜索和搜索智能体产品，"
+ },
+ {
+  "seg": 311,
+  "start": 1950.735,
+  "end": 1955.138,
+  "speaker": "Unknown",
+  "en": "We've started working on latency and that's what we shipped with a product we call TurboNow.",
+  "zh": "我们就开始致力于延迟，这就是我们要通过一个名为 TurboNow 的产品发布的东西。"
+ },
+ {
+  "seg": 312,
+  "start": 1955.658,
+  "end": 1962.063,
+  "speaker": "Unknown",
+  "en": "It is the fastest, highest quality agentic web search on the market by a lot.",
+  "zh": "它是市场上最快、最高质量的智能体网页搜索，而且快很多。"
+ },
+ {
+  "seg": 313,
+  "start": 1962.623,
+  "end": 1966.766,
+  "speaker": "Unknown",
+  "en": "Do you think there are more agentic queries than human queries on the web now?",
+  "zh": "你认为现在网上智能体查询比人类查询多吗？"
+ },
+ {
+  "seg": 314,
+  "start": 1967.362,
+  "end": 1968.102,
+  "speaker": "Unknown",
+  "en": "I don't think yet.",
+  "zh": "我认为还没有。"
+ },
+ {
+  "seg": 315,
+  "start": 1968.122,
+  "end": 1974.246,
+  "speaker": "Unknown",
+  "en": "Just given some of the multipliers you mentioned and given the background agents, it seems...",
+  "zh": "鉴于你提到的一些倍数，鉴于后台智能体，似乎……"
+ },
+ {
+  "seg": 316,
+  "start": 1974.266,
+  "end": 1976.067,
+  "speaker": "Unknown",
+  "en": "I don't have to remind you, but we are early.",
+  "zh": "我不需要提醒你，但我们要很早。"
+ },
+ {
+  "seg": 317,
+  "start": 1977.087,
+  "end": 1979.289,
+  "speaker": "Unknown",
+  "en": "We are very early in agent adoption.",
+  "zh": "我们在智能体采用方面还很早。"
+ },
+ {
+  "seg": 318,
+  "start": 1979.329,
+  "end": 1983.791,
+  "speaker": "Unknown",
+  "en": "You go step outside of our bubble, people haven't heard the word fable.",
+  "zh": "你只要走出我们的泡沫，人们就没听过 fable 这个词。"
+ },
+ {
+  "seg": 319,
+  "start": 1985.732,
+  "end": 1988.133,
+  "speaker": "Unknown",
+  "en": "So we are very, very early.",
+  "zh": "所以我们非常非常早。"
+ },
+ {
+  "seg": 320,
+  "start": 1988.614,
+  "end": 1996.238,
+  "speaker": "Unknown",
+  "en": "I think there are now people like me who are probably operating at the thousand X.",
+  "zh": "我认为现在有像我这样的人，可能以一千倍的速度运作。"
+ },
+ {
+  "seg": 321,
+  "start": 1997.423,
+  "end": 1997.803,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 322,
+  "start": 1998.364,
+  "end": 1998.844,
+  "speaker": "Unknown",
+  "en": "What do you think?",
+  "zh": "你觉得呢？"
+ },
+ {
+  "seg": 323,
+  "start": 1998.864,
+  "end": 2003.066,
+  "speaker": "Unknown",
+  "en": "How many Google searches a day did you do three years ago before ChatGPT?",
+  "zh": "你三年前在 ChatGPT 出现之前每天做多少次谷歌搜索？"
+ },
+ {
+  "seg": 324,
+  "start": 2003.767,
+  "end": 2004.367,
+  "speaker": "Unknown",
+  "en": "20 or 30?",
+  "zh": "20 或 30 次？"
+ },
+ {
+  "seg": 325,
+  "start": 2004.387,
+  "end": 2006.448,
+  "speaker": "Unknown",
+  "en": "Yeah, I would have guessed something like 20, 30.",
+  "zh": "是的，我猜大概是 20、30 次。"
+ },
+ {
+  "seg": 326,
+  "start": 2006.868,
+  "end": 2016.574,
+  "speaker": "Unknown",
+  "en": "I think today, if you just look across at all of my agents, I bet they're doing 1000x more than that.",
+  "zh": "我认为今天，如果你看看我所有的智能体，我敢打赌它们做的比那多 1000 倍。"
+ },
+ {
+  "seg": 327,
+  "start": 2018.772,
+  "end": 2020.933,
+  "speaker": "Unknown",
+  "en": "Maybe 100 to 1,000.",
+  "zh": "也许是 100 到 1000 倍。"
+ },
+ {
+  "seg": 328,
+  "start": 2023.175,
+  "end": 2032.1,
+  "speaker": "Unknown",
+  "en": "If you count some of the things that happen at my company, which isn't assigned to a human, it might easily be more than 1,000x.",
+  "zh": "如果你算上发生在我公司的一些事情，而这些并不是分配给人类做的，那么它可能很容易超过 1000 倍。"
+ },
+ {
+  "seg": 329,
+  "start": 2032.42,
+  "end": 2036.383,
+  "speaker": "Unknown",
+  "en": "But I think we are the outliers rather than the norm.",
+  "zh": "但我认为我们是异常值，而不是常态。"
+ },
+ {
+  "seg": 330,
+  "start": 2037.303,
+  "end": 2040.705,
+  "speaker": "Unknown",
+  "en": "So I think we are very, very early on this journey.",
+  "zh": "所以我认为我们在这段旅程上非常非常早。"
+ },
+ {
+  "seg": 331,
+  "start": 2041.646,
+  "end": 2045.028,
+  "speaker": "Unknown",
+  "en": "I do think I recently saw, I think it was Cloudflare that said that",
+  "zh": "我确实认为我最近看到，我想是 Cloudflare 说"
+ },
+ {
+  "seg": 332,
+  "start": 2045.748,
+  "end": 2063.218,
+  "speaker": "Unknown",
+  "en": "In their monitoring of web traffic, the AI traffic is about the same as human traffic in terms of page reads, which is slightly different from searches because it includes perhaps all crawlers that are out there and a bunch of other stuff.",
+  "zh": "在他们对网络流量的监控中，AI 流量在页面阅读方面与人类流量大致相同，这与搜索略有不同，因为它可能包括外面所有的爬虫和一堆其他东西。"
+ },
+ {
+  "seg": 333,
+  "start": 2064.239,
+  "end": 2067.141,
+  "speaker": "Unknown",
+  "en": "But I think it's going to happen.",
+  "zh": "但我认为这会发生。"
+ },
+ {
+  "seg": 334,
+  "start": 2068.108,
+  "end": 2076.756,
+  "speaker": "Unknown",
+  "en": "So maybe this is a good segue to talk about a topic that I know you are passionate about, which is the economics of the internet as we know them.",
+  "zh": "所以也许这是一个很好的过渡，来谈谈一个我知道你热衷的话题，那就是我们所知的互联网经济学。"
+ },
+ {
+  "seg": 335,
+  "start": 2077.136,
+  "end": 2084.823,
+  "speaker": "Unknown",
+  "en": "Some of the kind of fundamental assumptions there, you know, human eyeballs, scarcity of attention, seem to be falling right in front of us right now.",
+  "zh": "那里的一些基本假设，你知道，人类眼球、注意力的稀缺，似乎就在我们要前目前崩塌了。"
+ },
+ {
+  "seg": 336,
+  "start": 2085.344,
+  "end": 2087.746,
+  "speaker": "Unknown",
+  "en": "Are the economics of the internet broken now and what's going to happen?",
+  "zh": "互联网的经济学现在坏了吗，接下来会发生什么？"
+ },
+ {
+  "seg": 337,
+  "start": 2088.271,
+  "end": 2096.441,
+  "speaker": "Unknown",
+  "en": "Yeah, no, I think this was perhaps part of the thing that totally convinced me that this needed to be done by me and build parallel.",
+  "zh": "是的，不，我认为这也许是那件事的一部分，它完全说服了我，这需要由我来完成并构建 Parallel。"
+ },
+ {
+  "seg": 338,
+  "start": 2097.642,
+  "end": 2098.964,
+  "speaker": "Unknown",
+  "en": "I know most people hate ads.",
+  "zh": "我知道大多数人讨厌广告。"
+ },
+ {
+  "seg": 339,
+  "start": 2099.104,
+  "end": 2101.787,
+  "speaker": "Unknown",
+  "en": "I used to do ads and build systems for ads.",
+  "zh": "我过去常常做广告并构建广告系统。"
+ },
+ {
+  "seg": 340,
+  "start": 2102.348,
+  "end": 2102.889,
+  "speaker": "Unknown",
+  "en": "I love ads.",
+  "zh": "我热爱广告。"
+ },
+ {
+  "seg": 341,
+  "start": 2103.389,
+  "end": 2104.03,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 342,
+  "start": 2104.19,
+  "end": 2104.831,
+  "speaker": "Unknown",
+  "en": "I love shopping.",
+  "zh": "我热爱购物。"
+ },
+ {
+  "seg": 343,
+  "start": 2105.737,
+  "end": 2105.977,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 344,
+  "start": 2106.397,
+  "end": 2106.717,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 345,
+  "start": 2106.737,
+  "end": 2107.518,
+  "speaker": "Unknown",
+  "en": "So you get good ads.",
+  "zh": "所以你会得到好的广告。"
+ },
+ {
+  "seg": 346,
+  "start": 2108.378,
+  "end": 2123.662,
+  "speaker": "Unknown",
+  "en": "I don't know if I love ads, but I intellectually love ads because ads is the reason that so much amazing content and technology is available for free to all of us, right?",
+  "zh": "我不知道我是否热爱广告，但我在理智上热爱广告，因为广告是如此多惊人的内容和技术可以免费提供给所有人的原因，对吧？"
+ },
+ {
+  "seg": 347,
+  "start": 2123.682,
+  "end": 2125.422,
+  "speaker": "Unknown",
+  "en": "Like Google search wouldn't be free without ads.",
+  "zh": "像谷歌搜索没有广告就不会免费。"
+ },
+ {
+  "seg": 348,
+  "start": 2125.562,
+  "end": 2126.863,
+  "speaker": "Unknown",
+  "en": "Twitter wouldn't be free without ads.",
+  "zh": "Twitter 没有广告就不会免费。"
+ },
+ {
+  "seg": 349,
+  "start": 2127.743,
+  "end": 2131.244,
+  "speaker": "Unknown",
+  "en": "And these are truly useful pieces of technology.",
+  "zh": "而这些确实是真正有用的技术片段。"
+ },
+ {
+  "seg": 350,
+  "start": 2132.204,
+  "end": 2140.027,
+  "speaker": "Unknown",
+  "en": "A lot of content on the web out there that we can access for free wouldn't be free if not for ads.",
+  "zh": "网上很多我们可以免费获取的内容，如果没有广告，就不会是免费的。"
+ },
+ {
+  "seg": 351,
+  "start": 2140.567,
+  "end": 2144.508,
+  "speaker": "Unknown",
+  "en": "And so ads is a very efficient monetization scheme.",
+  "zh": "所以广告是一种非常高效的变现方案。"
+ },
+ {
+  "seg": 352,
+  "start": 2144.848,
+  "end": 2146.429,
+  "speaker": "Unknown",
+  "en": "It's a very efficient monetization scheme.",
+  "zh": "这是一种非常高效的变现方案。"
+ },
+ {
+  "seg": 353,
+  "start": 2147.429,
+  "end": 2150.112,
+  "speaker": "Unknown",
+  "en": "Because it is exceptional at differential pricing.",
+  "zh": "因为它在差异化定价方面表现得非常出色。"
+ },
+ {
+  "seg": 354,
+  "start": 2150.732,
+  "end": 2150.952,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 355,
+  "start": 2151.433,
+  "end": 2155.076,
+  "speaker": "Unknown",
+  "en": "So, most queries, Google loses money on.",
+  "zh": "所以，大多数查询，Google 在上面是亏钱的。"
+ },
+ {
+  "seg": 356,
+  "start": 2155.816,
+  "end": 2159.86,
+  "speaker": "Unknown",
+  "en": "Some of them make it up and it's an extraordinary business with extraordinary margins.",
+  "zh": "有些查询能赚回来，这也就造就了一家拥有非凡利润率的非凡企业。"
+ },
+ {
+  "seg": 357,
+  "start": 2160.14,
+  "end": 2160.801,
+  "speaker": "Unknown",
+  "en": "Same with Twitter.",
+  "zh": "Twitter 也一样。"
+ },
+ {
+  "seg": 358,
+  "start": 2161.742,
+  "end": 2162.202,
+  "speaker": "Unknown",
+  "en": "Most users...",
+  "zh": "大多数用户……"
+ },
+ {
+  "seg": 359,
+  "start": 2163.623,
+  "end": 2179.597,
+  "speaker": "Unknown",
+  "en": "exactly you're welcome i'm subsidizing the free the free information you guys are getting you are subsidizing all of us thank you um but i think ads is extraordinarily efficient at differential pricing and monetization on the web which is why it has been a dominant business model",
+  "zh": "没错，不客气，我正在补贴你们获得的免费信息，你们正在补贴我们所有人，谢谢，呃，但我认为广告在网页上的差异化定价和变现方面非常高效，这就是为什么它一直是一种主导的商业模式"
+ },
+ {
+  "seg": 360,
+  "start": 2180.497,
+  "end": 2188.839,
+  "speaker": "Unknown",
+  "en": "Now, the core assumptions, as you noted, going into it around limited human attention to translate into outcomes.",
+  "zh": "现在，正如你所指出的，核心假设是关于有限的人类注意力转化为结果。"
+ },
+ {
+  "seg": 361,
+  "start": 2189.739,
+  "end": 2195.24,
+  "speaker": "Unknown",
+  "en": "If humans don't show up and their agents show up on the web, like what does this mean?",
+  "zh": "如果人类不出现，出现在网上的是他们的智能体，这意味着什么？"
+ },
+ {
+  "seg": 362,
+  "start": 2196.12,
+  "end": 2199.121,
+  "speaker": "Unknown",
+  "en": "How does the business work?",
+  "zh": "这个生意怎么做？"
+ },
+ {
+  "seg": 363,
+  "start": 2199.601,
+  "end": 2205.842,
+  "speaker": "Unknown",
+  "en": "And yeah, I think this was the, if we don't figure out a new business model, we're seeing it already, right?",
+  "zh": "是的，我认为这就是那个，如果我们找不到新的商业模式，我们已经看到了，对吧？"
+ },
+ {
+  "seg": 364,
+  "start": 2205.862,
+  "end": 2208.223,
+  "speaker": "Unknown",
+  "en": "Like people are gonna say, okay, I don't want my content",
+  "zh": "就像人们会说，好吧，我不希望我的内容"
+ },
+ {
+  "seg": 365,
+  "start": 2208.883,
+  "end": 2209.945,
+  "speaker": "Unknown",
+  "en": "To be accessed by an agent.",
+  "zh": "被智能体访问。"
+ },
+ {
+  "seg": 366,
+  "start": 2210.666,
+  "end": 2218.82,
+  "speaker": "Unknown",
+  "en": "Because I have a business model for humans, so I actually want to go pay someone to SEO, optimize myself so more humans show up.",
+  "zh": "因为我有一个针对人类的商业模式，所以我实际上想花钱请人做 SEO，优化我自己，这样更多的人类会出现。"
+ },
+ {
+  "seg": 367,
+  "start": 2219.581,
+  "end": 2221.925,
+  "speaker": "Unknown",
+  "en": "But then if their agent shows up, I'm going to cut it off.",
+  "zh": "但是如果他们的智能体出现了，我就把它切断。"
+ },
+ {
+  "seg": 368,
+  "start": 2223.065,
+  "end": 2223.245,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 369,
+  "start": 2223.265,
+  "end": 2226.147,
+  "speaker": "Unknown",
+  "en": "Which seems confusing and discontinent.",
+  "zh": "这看起来既令人困惑又不连贯。"
+ },
+ {
+  "seg": 370,
+  "start": 2226.167,
+  "end": 2238.455,
+  "speaker": "Unknown",
+  "en": "Like, okay, ultimately this agent is acting on behalf of a human, but we haven't found business model alignment in a way... You can't monetize that visit.",
+  "zh": "比如，好吧，最终这个智能体是代表人类行事的，但我们还没有找到商业模式的一致性……你无法从那次访问中变现。"
+ },
+ {
+  "seg": 371,
+  "start": 2238.735,
+  "end": 2239.976,
+  "speaker": "Unknown",
+  "en": "You can't monetize that visit.",
+  "zh": "你无法从那次访问中变现。"
+ },
+ {
+  "seg": 372,
+  "start": 2240.316,
+  "end": 2243.518,
+  "speaker": "Unknown",
+  "en": "So let's say you are in the business subscriptions, right?",
+  "zh": "所以假设你从事订阅业务，对吧？"
+ },
+ {
+  "seg": 373,
+  "start": 2243.818,
+  "end": 2249.101,
+  "speaker": "Unknown",
+  "en": "So you get a bunch of, you get a thousand humans and you convert 20 of them into monthly subscriptions, right?",
+  "zh": "所以你得到了一群，你得到了一千个人类，你把其中的 20 个转化成了月度订阅，对吧？"
+ },
+ {
+  "seg": 374,
+  "start": 2249.802,
+  "end": 2251.683,
+  "speaker": "Unknown",
+  "en": "You don't know how that loop works.",
+  "zh": "你不知道这个循环是如何运作的。"
+ },
+ {
+  "seg": 375,
+  "start": 2252.123,
+  "end": 2275.123,
+  "speaker": "Unknown",
+  "en": "yet with agents you can't distinguish you don't have statistics you don't know if these will lead to subscriptions or they'll just keep stealing your content as nameless agents and so there are real challenges around the old business models breaking and us not figuring out real scalable new business models right so if you own high quality content and you currently put it on the web",
+  "zh": "对于智能体你尚且无法区分，你没有统计数据，你不知道这些会带来订阅，还是它们只会继续作为无名智能体窃取你的内容，所以围绕旧商业模式的崩塌以及我们尚未找到真正可扩展的新商业模式，确实存在真正的挑战，所以如果你拥有高质量内容并且你目前把它放在网上"
+ },
+ {
+  "seg": 376,
+  "start": 2276.984,
+  "end": 2295.757,
+  "speaker": "Unknown",
+  "en": "Your one available business model pre-parallel was to be in the head and be able to transact with the lab on some fixed fee contract, which includes some amount of training and liability and then inference time access.",
+  "zh": "在并行之前，你唯一可用的商业模式是进入头部，并能够与实验室就某种固定费用合同进行交易，其中包括一定数量的训练和责任，然后是推理时间的访问。"
+ },
+ {
+  "seg": 377,
+  "start": 2295.817,
+  "end": 2297.137,
+  "speaker": "Unknown",
+  "en": "That was your one option.",
+  "zh": "那是你唯一的选择。"
+ },
+ {
+  "seg": 378,
+  "start": 2298.118,
+  "end": 2302.621,
+  "speaker": "Unknown",
+  "en": "That option is not available to most content on the web.",
+  "zh": "网上大多数内容都无法选择这种方案。"
+ },
+ {
+  "seg": 379,
+  "start": 2302.761,
+  "end": 2305.083,
+  "speaker": "Unknown",
+  "en": "It's a very head phenomena.",
+  "zh": "这是一种非常头部现象。"
+ },
+ {
+  "seg": 380,
+  "start": 2305.683,
+  "end": 2320.276,
+  "speaker": "Unknown",
+  "en": "And even for the head, it is a broken business model because when AIs or inference grows, let's say 7x this year and another 7x the next year.",
+  "zh": "即使对于头部内容，这也是一个破碎的商业模式，因为当 AI 或推理增长，比如今年增长 7 倍，明年再增长 7 倍。"
+ },
+ {
+  "seg": 381,
+  "start": 2322.229,
+  "end": 2325.611,
+  "speaker": "Unknown",
+  "en": "On this 50x, their deal size is not growing 50x.",
+  "zh": "在这 50 倍上，他们的交易规模并没有增长 50 倍。"
+ },
+ {
+  "seg": 382,
+  "start": 2325.771,
+  "end": 2334.955,
+  "speaker": "Unknown",
+  "en": "Like none of them after signing a two-year deal believes that their share isn't going to decline materially at Renewal.",
+  "zh": "就像他们中没有一个在签署两年期交易后，相信他们的份额在续约时不会大幅下降。"
+ },
+ {
+  "seg": 383,
+  "start": 2335.855,
+  "end": 2339.657,
+  "speaker": "Unknown",
+  "en": "And so these are like fixed price constructs in the world of AI inference.",
+  "zh": "所以这些就像 AI 推理世界中的固定价格结构。"
+ },
+ {
+  "seg": 384,
+  "start": 2340.557,
+  "end": 2344.959,
+  "speaker": "Unknown",
+  "en": "And so which doesn't drive for sustainability for all of these businesses.",
+  "zh": "因此这对所有这些企业的可持续性没有推动作用。"
+ },
+ {
+  "seg": 385,
+  "start": 2345.888,
+  "end": 2364.554,
+  "speaker": "Unknown",
+  "en": "Now, our solution is trying to learn all the lessons from my work at ads on having transacted, like I sold Twitter data to OpenAI, having transacted on that side to figure out what actually might work and be incentive aligned.",
+  "zh": "现在，我们的解决方案是试图从我在广告方面的工作中吸取所有教训，比如我把 Twitter 数据卖给了 OpenAI，在那方面进行了交易，以弄清楚什么可能真正有效并实现激励一致。"
+ },
+ {
+  "seg": 386,
+  "start": 2365.814,
+  "end": 2366.394,
+  "speaker": "Unknown",
+  "en": "So what might work?",
+  "zh": "那么什么可能有效？"
+ },
+ {
+  "seg": 387,
+  "start": 2366.895,
+  "end": 2367.955,
+  "speaker": "Unknown",
+  "en": "Efficient differential pricing.",
+  "zh": "高效的差异化定价。"
+ },
+ {
+  "seg": 388,
+  "start": 2369.757,
+  "end": 2373.659,
+  "speaker": "Unknown",
+  "en": "Paying for differentially a lot for extraordinarily high value content.",
+  "zh": "为具有非凡高价值的内容差异化地支付很多钱。"
+ },
+ {
+  "seg": 389,
+  "start": 2374.619,
+  "end": 2379.781,
+  "speaker": "Unknown",
+  "en": "Paying a lot for high value work accessing the same content.",
+  "zh": "为访问相同内容的高价值工作支付很多钱。"
+ },
+ {
+  "seg": 390,
+  "start": 2380.601,
+  "end": 2384.503,
+  "speaker": "Unknown",
+  "en": "So it's differential in both dimensions, quality and value of work being done with it.",
+  "zh": "所以它在质量和用它完成的工作价值这两个维度上都是差异化的。"
+ },
+ {
+  "seg": 391,
+  "start": 2386.624,
+  "end": 2391.087,
+  "speaker": "Unknown",
+  "en": "And a way of doing this scalably and not just with bespoke deals.",
+  "zh": "以及一种可扩展地做到这一点的方法，而不仅仅是定制的交易。"
+ },
+ {
+  "seg": 392,
+  "start": 2391.868,
+  "end": 2397.171,
+  "speaker": "Unknown",
+  "en": "So those are the properties needed for any reasonable solution.",
+  "zh": "所以这些是任何合理解决方案所需的属性。"
+ },
+ {
+  "seg": 393,
+  "start": 2397.932,
+  "end": 2401.214,
+  "speaker": "Unknown",
+  "en": "And the biggest property of it all is incentive alignment, right?",
+  "zh": "其中最重要的属性是激励一致性，对吧？"
+ },
+ {
+  "seg": 394,
+  "start": 2401.234,
+  "end": 2406.959,
+  "speaker": "Unknown",
+  "en": "Like at what point do people want to collaborate into this enterprise?",
+  "zh": "就像在什么点上人们想要协作进入这个企业？"
+ },
+ {
+  "seg": 395,
+  "start": 2407.799,
+  "end": 2409.981,
+  "speaker": "Unknown",
+  "en": "Why do the model companies need to pay anything at all?",
+  "zh": "为什么模型公司需要支付任何费用？"
+ },
+ {
+  "seg": 396,
+  "start": 2410.922,
+  "end": 2411.602,
+  "speaker": "Unknown",
+  "en": "You should ask them.",
+  "zh": "你应该问问他们。"
+ },
+ {
+  "seg": 397,
+  "start": 2412.863,
+  "end": 2413.984,
+  "speaker": "Unknown",
+  "en": "My understanding",
+  "zh": "我的理解"
+ },
+ {
+  "seg": 398,
+  "start": 2415.795,
+  "end": 2432.192,
+  "speaker": "Unknown",
+  "en": "is 1. you want fresh data during inference time to be able to display it in products like ChatGPT or Claude 2. you want training data and 3. you want some liability protection for training that you already did",
+  "zh": "是 1. 你想要推理时的实时数据以便能够在像 ChatGPT 或 Claude 这样的产品中展示它 2. 你想要训练数据 3. 你想要针对你已经进行的训练的一些责任保护"
+ },
+ {
+  "seg": 399,
+  "start": 2435.433,
+  "end": 2442.315,
+  "speaker": "Unknown",
+  "en": "So the payments are some combination of these three things.",
+  "zh": "所以支付是这三件事的某种组合。"
+ },
+ {
+  "seg": 400,
+  "start": 2443.555,
+  "end": 2447.776,
+  "speaker": "Unknown",
+  "en": "And I can't be sure of like how they value each of these three.",
+  "zh": "我无法确定他们如何评估这三者中每一个的价值。"
+ },
+ {
+  "seg": 401,
+  "start": 2448.836,
+  "end": 2451.837,
+  "speaker": "Unknown",
+  "en": "You said, you know, even a very simple query will go do 10 searches.",
+  "zh": "你说过，即使是一个非常简单的查询也会去执行 10 次搜索。"
+ },
+ {
+  "seg": 402,
+  "start": 2452.677,
+  "end": 2457.718,
+  "speaker": "Unknown",
+  "en": "And so how do you do attribution between all the different sources that, you know, boil down to one paragraph response?",
+  "zh": "那么你如何在所有不同的来源之间做归因，你知道，这些来源最终归结为一段回复？"
+ },
+ {
+  "seg": 403,
+  "start": 2458.309,
+  "end": 2460.03,
+  "speaker": "Unknown",
+  "en": "Yeah, at Parallel, we like to build models.",
+  "zh": "是的，在 Parallel，我们喜欢构建模型。"
+ },
+ {
+  "seg": 404,
+  "start": 2461.211,
+  "end": 2461.691,
+  "speaker": "Unknown",
+  "en": "I heard.",
+  "zh": "我听说了。"
+ },
+ {
+  "seg": 405,
+  "start": 2462.772,
+  "end": 2468.015,
+  "speaker": "Unknown",
+  "en": "So, no, I think it goes back to my point around incentive alignment.",
+  "zh": "所以，不，我认为这回到了我关于激励一致性的观点。"
+ },
+ {
+  "seg": 406,
+  "start": 2469.116,
+  "end": 2475.44,
+  "speaker": "Unknown",
+  "en": "Before we try to build a model, let's try to figure out if you were going to try to do this intellectually, theoretically, how would you go do it?",
+  "zh": "在我们尝试构建模型之前，让我们试着弄清楚，如果你要在理智上、理论上尝试做这件事，你会怎么去做？"
+ },
+ {
+  "seg": 407,
+  "start": 2476.04,
+  "end": 2483.103,
+  "speaker": "Unknown",
+  "en": "So you have to ask the question of, OK, how much incremental value did somebody's content add?",
+  "zh": "所以你必须提出这个问题，好吧，某人的内容增加了多少增量价值？"
+ },
+ {
+  "seg": 408,
+  "start": 2483.483,
+  "end": 2487.265,
+  "speaker": "Unknown",
+  "en": "So you can run all of these simulation exercises.",
+  "zh": "所以你可以运行所有这些模拟练习。"
+ },
+ {
+  "seg": 409,
+  "start": 2487.285,
+  "end": 2491.526,
+  "speaker": "Unknown",
+  "en": "You take one piece of content out of the corpus.",
+  "zh": "你从语料库中取出一个内容片段。"
+ },
+ {
+  "seg": 410,
+  "start": 2491.646,
+  "end": 2492.947,
+  "speaker": "Unknown",
+  "en": "And then you say, let's run the agent.",
+  "zh": "然后你说，让我们运行智能体。"
+ },
+ {
+  "seg": 411,
+  "start": 2493.127,
+  "end": 2495.508,
+  "speaker": "Unknown",
+  "en": "Let's see if the quality of our output declined.",
+  "zh": "让我们看看我们的输出质量是否下降了。"
+ },
+ {
+  "seg": 412,
+  "start": 2495.668,
+  "end": 2495.988,
+  "speaker": "Unknown",
+  "en": "How much?",
+  "zh": "下降了多少？"
+ },
+ {
+  "seg": 413,
+  "start": 2497.108,
+  "end": 2503.251,
+  "speaker": "Unknown",
+  "en": "To claw back that quality, perhaps if I threw a little bit more compute or a better model in some way,",
+  "zh": "为了挽回那个质量，也许如果我投入更多的算力或者以某种方式使用更好的模型，"
+ },
+ {
+  "seg": 414,
+  "start": 2504.29,
+  "end": 2505.692,
+  "speaker": "Unknown",
+  "en": "Could I claw back that quality?",
+  "zh": "我能挽回那个质量吗？"
+ },
+ {
+  "seg": 415,
+  "start": 2506.373,
+  "end": 2506.854,
+  "speaker": "Unknown",
+  "en": "Oh, I could.",
+  "zh": "哦，我可以。"
+ },
+ {
+  "seg": 416,
+  "start": 2507.355,
+  "end": 2508.397,
+  "speaker": "Unknown",
+  "en": "It cost me a cent.",
+  "zh": "这花了我一分钱。"
+ },
+ {
+  "seg": 417,
+  "start": 2510.26,
+  "end": 2510.46,
+  "speaker": "Unknown",
+  "en": "Huh.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 418,
+  "start": 2511.542,
+  "end": 2515.588,
+  "speaker": "Unknown",
+  "en": "I could get the quality I lost by not having this source.",
+  "zh": "我可以通过不拥有这个来源来获得我失去的质量。"
+ },
+ {
+  "seg": 419,
+  "start": 2516.43,
+  "end": 2518.373,
+  "speaker": "Unknown",
+  "en": "My alternative was to throw more compute.",
+  "zh": "我的替代方案是投入更多算力。"
+ },
+ {
+  "seg": 420,
+  "start": 2520.018,
+  "end": 2522.621,
+  "speaker": "Unknown",
+  "en": "A cent worth of compute to get that same quality.",
+  "zh": "价值一分钱的算力来获得相同的质量。"
+ },
+ {
+  "seg": 421,
+  "start": 2523.402,
+  "end": 2528.747,
+  "speaker": "Unknown",
+  "en": "It might be a different result, but as far as the end customer value is concerned, it's the same quality.",
+  "zh": "结果可能不同，但就最终客户价值而言，它是相同的质量。"
+ },
+ {
+  "seg": 422,
+  "start": 2529.208,
+  "end": 2533.473,
+  "speaker": "Unknown",
+  "en": "And so you're like, okay, this source is worth close to a cent, feels like, right?",
+  "zh": "然后你会想，好吧，这个来源价值接近一分钱，感觉是这样，对吧？"
+ },
+ {
+  "seg": 423,
+  "start": 2533.673,
+  "end": 2534.334,
+  "speaker": "Unknown",
+  "en": "That's intuitive.",
+  "zh": "这很直观。"
+ },
+ {
+  "seg": 424,
+  "start": 2535.178,
+  "end": 2541.184,
+  "speaker": "Unknown",
+  "en": "Now, the formalization of this kind of an intuition is the core framework we use.",
+  "zh": "现在将这种直觉形式化是我们使用的核心框架。"
+ },
+ {
+  "seg": 425,
+  "start": 2541.224,
+  "end": 2542.305,
+  "speaker": "Unknown",
+  "en": "It's called Shapley values.",
+  "zh": "它叫做 Shapley 值。"
+ },
+ {
+  "seg": 426,
+  "start": 2543.427,
+  "end": 2544.608,
+  "speaker": "Unknown",
+  "en": "Yes, let's go.",
+  "zh": "是的，来吧。"
+ },
+ {
+  "seg": 427,
+  "start": 2544.628,
+  "end": 2545.569,
+  "speaker": "Unknown",
+  "en": "What's a Shapley value?",
+  "zh": "什么是 Shapley 值？"
+ },
+ {
+  "seg": 428,
+  "start": 2546.109,
+  "end": 2547.311,
+  "speaker": "Unknown",
+  "en": "Music's my ears.",
+  "zh": "音乐在我的耳朵里。"
+ },
+ {
+  "seg": 429,
+  "start": 2547.551,
+  "end": 2548.692,
+  "speaker": "Unknown",
+  "en": "It's a game theoretic.",
+  "zh": "这是一个博弈论。"
+ },
+ {
+  "seg": 430,
+  "start": 2548.892,
+  "end": 2550.133,
+  "speaker": "Unknown",
+  "en": "You're a game theoretic?",
+  "zh": "你是一个博弈论？"
+ },
+ {
+  "seg": 431,
+  "start": 2550.173,
+  "end": 2551.114,
+  "speaker": "Unknown",
+  "en": "A bunch of game theory, yeah.",
+  "zh": "很多博弈论，是的。"
+ },
+ {
+  "seg": 432,
+  "start": 2551.235,
+  "end": 2551.495,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 433,
+  "start": 2552.035,
+  "end": 2552.796,
+  "speaker": "Unknown",
+  "en": "Shapley value is this...",
+  "zh": "Shapley 值是这个……"
+ },
+ {
+  "seg": 434,
+  "start": 2553.957,
+  "end": 2555.919,
+  "speaker": "Unknown",
+  "en": "Very theoretical mathematical concept.",
+  "zh": "非常理论化的数学概念。"
+ },
+ {
+  "seg": 435,
+  "start": 2556.399,
+  "end": 2561.203,
+  "speaker": "Unknown",
+  "en": "It is used in SHAP values in feature importances for those who are ML folks here.",
+  "zh": "它被用于 SHAP 值和特征重要性中，针对这里的 ML 人士。"
+ },
+ {
+  "seg": 436,
+  "start": 2561.724,
+  "end": 2570.011,
+  "speaker": "Unknown",
+  "en": "Let's say the three of us collaborate on something and the whole is bigger than the sum of parts in that moment.",
+  "zh": "假设我们三个合作做某事，整体大于部分之和在那一刻。"
+ },
+ {
+  "seg": 437,
+  "start": 2570.451,
+  "end": 2573.594,
+  "speaker": "Unknown",
+  "en": "The theoretical question is, okay, how do I divide up this sort of...",
+  "zh": "理论问题是，好吧，我要如何分配这种……"
+ },
+ {
+  "seg": 438,
+  "start": 2574.374,
+  "end": 2591.732,
+  "speaker": "Unknown",
+  "en": "bigger pie that we created by collaboration so all three of us have incentive to collaborate right and Shapley values is a mathematical way of effectively answering this question right now that sounds amazing right like you could if you're co-founders you could figure out how to divide equity",
+  "zh": "我们通过合作创造出的更大的蛋糕，让我们三个都有动力去合作，而 Shapley 值是一种有效回答这个问题的数学方法，现在这听起来很棒，就像如果你是联合创始人，你可以弄清楚如何分配股权"
+ },
+ {
+  "seg": 439,
+  "start": 2593.433,
+  "end": 2595.054,
+  "speaker": "Unknown",
+  "en": "Unfortunately, it's not that useful.",
+  "zh": "不幸的是，它没那么有用。"
+ },
+ {
+  "seg": 440,
+  "start": 2595.755,
+  "end": 2615.951,
+  "speaker": "Unknown",
+  "en": "It's not that useful because in order to compute Shapley value, you need to simulate all words where some subset of the two of us collaborated, but the third one doesn't and play out those realities to then impute back to today in terms of how we should divide the pie, which in practice you can't do most places, right?",
+  "zh": "它没那么有用是因为为了计算 Shapley 值，你需要模拟所有的世界，其中我们两个的某个子集合作了，但第三个没有，并推演那些现实，然后反推到今天，关于我们应该如何分配蛋糕，这在实践中你在大多数地方做不到，对吧？"
+ },
+ {
+  "seg": 441,
+  "start": 2616.451,
+  "end": 2619.433,
+  "speaker": "Unknown",
+  "en": "In ML models, when you do feature importances, you kind of can.",
+  "zh": "在 ML 模型中，当你做特征重要性时，你有点可以。"
+ },
+ {
+  "seg": 442,
+  "start": 2619.453,
+  "end": 2622.516,
+  "speaker": "Unknown",
+  "en": "You can hold a feature back, run your model and see how well it did.",
+  "zh": "你可以保留一个特征，运行你的模型并看看它表现如何。"
+ },
+ {
+  "seg": 443,
+  "start": 2623.799,
+  "end": 2634.424,
+  "speaker": "Unknown",
+  "en": "In web search, we can run simulations of if we did not have access to this URL or this domain or this collection of them, how would the agent perform?",
+  "zh": "在网络搜索中，我们可以模拟如果我们无法访问这个 URL 或这个域名或它们的这个集合，智能体会表现如何？"
+ },
+ {
+  "seg": 444,
+  "start": 2634.745,
+  "end": 2641.848,
+  "speaker": "Unknown",
+  "en": "We can, if you're good at evals, if you're good at assessing quality, you can build that data by running various scenarios.",
+  "zh": "我们可以，如果你擅长评估，如果你擅长评估质量，你可以通过运行各种场景来构建那个数据。"
+ },
+ {
+  "seg": 445,
+  "start": 2642.449,
+  "end": 2647.151,
+  "speaker": "Unknown",
+  "en": "Collect a bunch of this data, and then you can train models to...",
+  "zh": "收集一堆这样的数据，然后你可以训练模型来……"
+ },
+ {
+  "seg": 446,
+  "start": 2647.431,
+  "end": 2648.091,
+  "speaker": "Unknown",
+  "en": "Your favorite thing.",
+  "zh": "你最喜欢的事情。"
+ },
+ {
+  "seg": 447,
+  "start": 2648.792,
+  "end": 2649.212,
+  "speaker": "Unknown",
+  "en": "Favorite thing.",
+  "zh": "最喜欢的事情。"
+ },
+ {
+  "seg": 448,
+  "start": 2649.312,
+  "end": 2652.874,
+  "speaker": "Unknown",
+  "en": "So the challenge with Shapley values is computing Shapley values in our context.",
+  "zh": "所以 Shapley 值的挑战是在我们的语境下计算 Shapley 值。"
+ },
+ {
+  "seg": 449,
+  "start": 2654.36,
+  "end": 2660.162,
+  "speaker": "Unknown",
+  "en": "is way more expensive than the amount of dollars we spend on the agent.",
+  "zh": "比我们在智能体上花费的美元金额要昂贵得多。"
+ },
+ {
+  "seg": 450,
+  "start": 2660.242,
+  "end": 2662.683,
+  "speaker": "Unknown",
+  "en": "Forget the amount of dollars we want to pay a publisher, right?",
+  "zh": "忘掉我们要付给出版商的金额吧，好吗？"
+ },
+ {
+  "seg": 451,
+  "start": 2662.723,
+  "end": 2671.786,
+  "speaker": "Unknown",
+  "en": "So to compute a content owner, to compute that a content owner gets a dollar, if I decide to do the full Shapley value computation, that might take several dollars.",
+  "zh": "所以要计算一个内容所有者，要计算一个内容所有者获得一美元，如果我决定做完整的 Shapley 值计算，那可能要花费几美元。"
+ },
+ {
+  "seg": 452,
+  "start": 2673.372,
+  "end": 2681.957,
+  "speaker": "Unknown",
+  "en": "So it doesn't make any sense, except you can really well estimate them if you build the right kind of data and models around it.",
+  "zh": "所以这没有任何意义，除非如果你围绕它构建了正确的数据类型和模型，你就可以很好地估计它们。"
+ },
+ {
+  "seg": 453,
+  "start": 2682.757,
+  "end": 2696.725,
+  "speaker": "Unknown",
+  "en": "But we have confidence that our estimations are good and that this is sound theoretically that if there was perfect information symmetry, people would want to collaborate.",
+  "zh": "但我们有信心，我们的估算是好的，并且这在理论上是合理的，如果存在完美的信息对称，人们会想要合作。"
+ },
+ {
+  "seg": 454,
+  "start": 2697.445,
+  "end": 2710.073,
+  "speaker": "Unknown",
+  "en": "So the same way in the old ads days, people did second price auctions and believed, for better or worse, that people would reveal their true bids in an ad auction and end up paying less than that.",
+  "zh": "就像在旧时的广告时代一样，人们进行二价拍卖并相信，不管是好是坏，人们会在广告拍卖中揭示他们的真实出价，并最终支付低于该价格的费用。"
+ },
+ {
+  "seg": 455,
+  "start": 2712.534,
+  "end": 2716.056,
+  "speaker": "Unknown",
+  "en": "Once feedback loops get established in the market, like today, everything is like an auto bid, right?",
+  "zh": "一旦反馈回路在市场中建立，就像今天一样，一切都是自动出价，对吧？"
+ },
+ {
+  "seg": 456,
+  "start": 2716.076,
+  "end": 2722.02,
+  "speaker": "Unknown",
+  "en": "Like most people are measuring ROI when they're doing advertising and running on auto bid instead of making up bids.",
+  "zh": "就像大多数人在做广告时都在测量 ROI 并运行在自动出价上，而不是自己制定出价。"
+ },
+ {
+  "seg": 457,
+  "start": 2723.02,
+  "end": 2737.777,
+  "speaker": "Unknown",
+  "en": "I think a solid foundation based on incentive alignment that Chaplimat drives will ultimately maximize participation of content owners into this.",
+  "zh": "我认为一个基于激励对齐的坚实基础，Chaplimat 所驱动的，最终将最大化内容所有者对此的参与。"
+ },
+ {
+  "seg": 458,
+  "start": 2738.618,
+  "end": 2743.784,
+  "speaker": "Unknown",
+  "en": "As well as content seekers via AI in an optimized system.",
+  "zh": "以及通过 AI 寻找内容的人，在一个优化的系统中。"
+ },
+ {
+  "seg": 459,
+  "start": 2744.485,
+  "end": 2747.688,
+  "speaker": "Unknown",
+  "en": "And we have some positive evidence to support it.",
+  "zh": "我们有一些积极的证据来支持它。"
+ },
+ {
+  "seg": 460,
+  "start": 2748.068,
+  "end": 2751.752,
+  "speaker": "Unknown",
+  "en": "We've had some interesting partnerships that we've been able to do and announce.",
+  "zh": "我们已经能够进行并宣布一些有趣的合作伙伴关系。"
+ },
+ {
+  "seg": 461,
+  "start": 2753.654,
+  "end": 2758.139,
+  "speaker": "Unknown",
+  "en": "And yeah, imagine sitting with content owners and explaining Shapley math.",
+  "zh": "是的，想象一下和内容所有者坐在一起，解释 Shapley 数学。"
+ },
+ {
+  "seg": 462,
+  "start": 2758.84,
+  "end": 2759.461,
+  "speaker": "Unknown",
+  "en": "It takes a moment.",
+  "zh": "这需要一点时间。"
+ },
+ {
+  "seg": 463,
+  "start": 2760.722,
+  "end": 2779.954,
+  "speaker": "Unknown",
+  "en": "but ultimately once once you pull out the properties right that you participate in the value if you have unique differentiated data you get paid more if a banker in an expensive job reads your data versus my retired dad reads your data",
+  "zh": "但最终一旦一旦你列出了这些特性，对吧，你参与了价值，如果你有独特的差异化数据，你会得到更多报酬，如果一个从事高薪工作的银行家阅读你的数据，对比我退休的父亲阅读你的数据"
+ },
+ {
+  "seg": 464,
+  "start": 2781.226,
+  "end": 2784.629,
+  "speaker": "Unknown",
+  "en": "The banker ends up paying more for that read, right?",
+  "zh": "银行家最终要为那次阅读支付更多，对吧？"
+ },
+ {
+  "seg": 465,
+  "start": 2784.649,
+  "end": 2786.231,
+  "speaker": "Unknown",
+  "en": "Because it's a part of high value work.",
+  "zh": "因为它是高价值工作的一部分。"
+ },
+ {
+  "seg": 466,
+  "start": 2787.372,
+  "end": 2791.576,
+  "speaker": "Unknown",
+  "en": "And the macro math also seems to work.",
+  "zh": "宏观数学似乎也讲得通。"
+ },
+ {
+  "seg": 467,
+  "start": 2791.616,
+  "end": 2796.101,
+  "speaker": "Unknown",
+  "en": "Like if you're going to spend a lot of money on inference on LLMs for knowledge work,",
+  "zh": "就像如果你要在用于知识工作的 LLM 推理上花很多钱，"
+ },
+ {
+  "seg": 468,
+  "start": 2797.672,
+  "end": 2821.289,
+  "speaker": "Unknown",
+  "en": "if we allocated like what two to ten percent of it to data on the web that's way bigger than all web data business models today outside of like walled gardens like facebook and linkedin like so the macro math supports it",
+  "zh": "如果我们分配比如其百分之二到十给网络上的数据，这比今天除了像 Facebook 和 LinkedIn 这样的围墙花园之外的所有网络数据商业模式都要大得多，所以宏观数学支持它"
+ },
+ {
+  "seg": 469,
+  "start": 2822.367,
+  "end": 2823.568,
+  "speaker": "Unknown",
+  "en": "It is a scalable approach.",
+  "zh": "这是一种可扩展的方法。"
+ },
+ {
+  "seg": 470,
+  "start": 2824.729,
+  "end": 2846.03,
+  "speaker": "Unknown",
+  "en": "And as agents on the web grow in order of magnitude year on year, it's like by my calculations, like we're 12 to 24 months from this math being able to give meaningful dollars for a very wide range of content owners on the web.",
+  "zh": "并且随着网络上的智能体每年按数量级增长，根据我的计算，我们距离这种数学能够为网络上一非常广泛的内容所有者提供有意义的美元还有 12 到 24 个月。"
+ },
+ {
+  "seg": 471,
+  "start": 2847.002,
+  "end": 2854.788,
+  "speaker": "Unknown",
+  "en": "That's very exciting, especially at a time when you see the traffic data, the stack overflow plummeting.",
+  "zh": "这非常令人兴奋，尤其是在一个当你看到流量数据，Stack Overflow 骤降的时候。"
+ },
+ {
+  "seg": 472,
+  "start": 2854.808,
+  "end": 2858.79,
+  "speaker": "Unknown",
+  "en": "You see a lot of the human internet as we know it going away because of incentives.",
+  "zh": "你看到很多我们所熟知的人类互联网因为激励而消失。"
+ },
+ {
+  "seg": 473,
+  "start": 2858.891,
+  "end": 2863.914,
+  "speaker": "Unknown",
+  "en": "That's very exciting to see how you're thinking about incentive alignment for people to keep publishing.",
+  "zh": "看到你如何思考激励对齐以让人们继续发布，这非常令人兴奋。"
+ },
+ {
+  "seg": 474,
+  "start": 2864.535,
+  "end": 2866.416,
+  "speaker": "Unknown",
+  "en": "Yeah, it's why we started the company.",
+  "zh": "是的，这就是我们创办这家公司的原因。"
+ },
+ {
+  "seg": 475,
+  "start": 2866.936,
+  "end": 2867.837,
+  "speaker": "Unknown",
+  "en": "Why is the company called Parallel?",
+  "zh": "为什么这家公司叫 Parallel？"
+ },
+ {
+  "seg": 476,
+  "start": 2870.585,
+  "end": 2875.732,
+  "speaker": "Unknown",
+  "en": "The company's original name was Shapley Inc. Really?",
+  "zh": "这家公司最初的名字叫 Shapley Inc.。真的吗？"
+ },
+ {
+  "seg": 477,
+  "start": 2875.752,
+  "end": 2876.473,
+  "speaker": "Unknown",
+  "en": "It was.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 478,
+  "start": 2876.493,
+  "end": 2877.855,
+  "speaker": "Unknown",
+  "en": "Do you know this?",
+  "zh": "你知道这个吗？"
+ },
+ {
+  "seg": 479,
+  "start": 2878.276,
+  "end": 2879.097,
+  "speaker": "Unknown",
+  "en": "I knew that, yeah.",
+  "zh": "我知道那个，是的。"
+ },
+ {
+  "seg": 480,
+  "start": 2879.497,
+  "end": 2880.639,
+  "speaker": "Unknown",
+  "en": "When I incorporated.",
+  "zh": "在我注册公司时。"
+ },
+ {
+  "seg": 481,
+  "start": 2882.023,
+  "end": 2886.006,
+  "speaker": "Unknown",
+  "en": "I'm telling you, I was obsessing about everything to do with the problem space.",
+  "zh": "我告诉你，我痴迷于与问题空间有关的一切。"
+ },
+ {
+  "seg": 482,
+  "start": 2886.547,
+  "end": 2893.293,
+  "speaker": "Unknown",
+  "en": "So while knowing that the first set of, also, one, Shapley Inc. is a terrible name for a B2B product.",
+  "zh": "所以尽管知道第一批，还有，第一，Shapley Inc. 是一个糟糕的 B2B 产品名称。"
+ },
+ {
+  "seg": 483,
+  "start": 2894.433,
+  "end": 2895.995,
+  "speaker": "Unknown",
+  "en": "It was not going to be the long-term name.",
+  "zh": "它不会是长期名称。"
+ },
+ {
+  "seg": 484,
+  "start": 2896.055,
+  "end": 2905.182,
+  "speaker": "Unknown",
+  "en": "So we, we, but I incorporated it as Shapley Inc. for lack of a better word, and Shapley.ai happened to be available.",
+  "zh": "所以我们，我们，但我把它注册为 Shapley Inc.，因为缺乏更好的词，而 Shapley.ai 恰巧是可用的。"
+ },
+ {
+  "seg": 485,
+  "start": 2905.823,
+  "end": 2910.487,
+  "speaker": "Unknown",
+  "en": "Shapley.com is a parked condominium, so.",
+  "zh": "Shapley.com 是一个停放的公寓页面，所以。"
+ },
+ {
+  "seg": 486,
+  "start": 2912.415,
+  "end": 2913.376,
+  "speaker": "Unknown",
+  "en": "It was not going to be a name.",
+  "zh": "它不会是一个名字。"
+ },
+ {
+  "seg": 487,
+  "start": 2914.117,
+  "end": 2916.74,
+  "speaker": "Unknown",
+  "en": "I went around not talking about my company at Shapley.",
+  "zh": "我四处走动不在 Shapley 谈论我的公司。"
+ },
+ {
+  "seg": 488,
+  "start": 2917.421,
+  "end": 2924.769,
+  "speaker": "Unknown",
+  "en": "And my badges at all events used to call it Nuco or Stealth Company.",
+  "zh": "而且我在所有活动上的徽章过去都叫它 Nuco 或 Stealth Company。"
+ },
+ {
+  "seg": 489,
+  "start": 2925.229,
+  "end": 2930.175,
+  "speaker": "Unknown",
+  "en": "And it took us almost six, eight months to figure out what the real name of the company.",
+  "zh": "我们花了几乎六到八个月才弄清楚公司真正的名字。"
+ },
+ {
+  "seg": 490,
+  "start": 2930.815,
+  "end": 2955.085,
+  "speaker": "Unknown",
+  "en": "will be we end up at parallel in part because it's like one at the time we're doing a lot more in parallel and two we started visualizing this sort of a parallel web built for AIs and how its properties are different and this metaphor that when you publish you're now thinking of as we all are now of two audiences okay i'm gonna create a page",
+  "zh": "将是什么，我们最终选择了 Parallel，部分是因为，一，当时我们在并行做更多的事情，二，我们开始可视化这种为 AI 构建的并行网络，以及它的属性有何不同，以及这个隐喻，当你发布时，你现在像我大家现在一样正在考虑两个受众，好吧，我要创建一个页面"
+ },
+ {
+  "seg": 491,
+  "start": 2956.665,
+  "end": 2958.146,
+  "speaker": "Unknown",
+  "en": "I know humans will read it.",
+  "zh": "我知道人类会读它。"
+ },
+ {
+  "seg": 492,
+  "start": 2959.327,
+  "end": 2960.287,
+  "speaker": "Unknown",
+  "en": "What should it look like to them?",
+  "zh": "对他们来说它应该是什么样子的？"
+ },
+ {
+  "seg": 493,
+  "start": 2961.208,
+  "end": 2964.69,
+  "speaker": "Unknown",
+  "en": "And then how should I make sure that agents can read it too?",
+  "zh": "然后我应该如何确保智能体也能读它？"
+ },
+ {
+  "seg": 494,
+  "start": 2965.35,
+  "end": 2968.131,
+  "speaker": "Unknown",
+  "en": "So it feels like you're dual publishing to two audiences.",
+  "zh": "所以感觉就像你在向两个受众发布。"
+ },
+ {
+  "seg": 495,
+  "start": 2969.112,
+  "end": 2971.773,
+  "speaker": "Unknown",
+  "en": "And so we had this like this parallel web for agents will emerge.",
+  "zh": "所以我们有这个，这个为智能体准备的并行网络将会出现。"
+ },
+ {
+  "seg": 496,
+  "start": 2972.914,
+  "end": 2975.195,
+  "speaker": "Unknown",
+  "en": "And so that's why we started liking parallel.",
+  "zh": "这就是我们开始喜欢 Parallel 的原因。"
+ },
+ {
+  "seg": 497,
+  "start": 2975.756,
+  "end": 2976.016,
+  "speaker": "Unknown",
+  "en": "Love it.",
+  "zh": "很喜欢。"
+ },
+ {
+  "seg": 498,
+  "start": 2976.696,
+  "end": 2980.578,
+  "speaker": "Unknown",
+  "en": "I was just thinking about this recently with the things like earning transcripts, right?",
+  "zh": "我最近只是在想这个，关于像财报会议记录这样的东西，对吧？"
+ },
+ {
+  "seg": 499,
+  "start": 2981.079,
+  "end": 2992.645,
+  "speaker": "Unknown",
+  "en": "I feel very confident that more people are consuming earnings transcripts through agents than are actually certainly listening to the audio and honestly probably been reading the transcript itself.",
+  "zh": "我非常有信心，更多的人通过智能体消费财报会议记录，而不是实际收听音频，说实话，可能也不是阅读会议记录本身。"
+ },
+ {
+  "seg": 500,
+  "start": 2993.205,
+  "end": 2998.628,
+  "speaker": "Unknown",
+  "en": "So there are these very high value portions of the web that have flipped already to being agent first.",
+  "zh": "所以网络上有些非常有价值的部分已经转变为以智能体优先。"
+ },
+ {
+  "seg": 501,
+  "start": 2998.968,
+  "end": 3002.09,
+  "speaker": "Unknown",
+  "en": "And obviously the communication has not yet flipped.",
+  "zh": "显然通信领域还没有转变。"
+ },
+ {
+  "seg": 502,
+  "start": 3003.111,
+  "end": 3005.472,
+  "speaker": "Unknown",
+  "en": "But I think if I were a public company CEO today,",
+  "zh": "但我觉得如果我是今天的上市公司 CEO，"
+ },
+ {
+  "seg": 503,
+  "start": 3006.152,
+  "end": 3007.393,
+  "speaker": "Unknown",
+  "en": "And I was doing an earnings report.",
+  "zh": "正在做财报报告。"
+ },
+ {
+  "seg": 504,
+  "start": 3007.933,
+  "end": 3017.236,
+  "speaker": "Unknown",
+  "en": "I would make very clear that the thing that I'm saying will be transcribed and interpreted correctly by the agents, not just by the people listening, theoretically.",
+  "zh": "我会非常清楚地说，我说的话将被智能体正确转录和解读，而不仅仅是在理论上被听众所解读。"
+ },
+ {
+  "seg": 505,
+  "start": 3017.896,
+  "end": 3021.558,
+  "speaker": "Unknown",
+  "en": "Same for us when we're publishing docs for our APIs.",
+  "zh": "我们为我们的 API 发布文档时也是一样。"
+ },
+ {
+  "seg": 506,
+  "start": 3023.198,
+  "end": 3027.02,
+  "speaker": "Unknown",
+  "en": "It's like our customers are building AI solutions.",
+  "zh": "就像我们的客户正在构建 AI 解决方案。"
+ },
+ {
+  "seg": 507,
+  "start": 3028.26,
+  "end": 3029.48,
+  "speaker": "Unknown",
+  "en": "They are using AI to do it.",
+  "zh": "他们正在使用 AI 来构建这些方案。"
+ },
+ {
+  "seg": 508,
+  "start": 3030.161,
+  "end": 3033.542,
+  "speaker": "Unknown",
+  "en": "It's their agents reading our docs.",
+  "zh": "是他们的智能体在阅读我们的文档。"
+ },
+ {
+  "seg": 509,
+  "start": 3035.299,
+  "end": 3041.702,
+  "speaker": "Unknown",
+  "en": "And code, in our every case, it's not humans fumbling around docs pages for the most part.",
+  "zh": "而且代码，在我们的每个案例中，大部分情况下不是人类在文档页面里瞎摸索。"
+ },
+ {
+  "seg": 510,
+  "start": 3042.022,
+  "end": 3047.204,
+  "speaker": "Unknown",
+  "en": "So, in fact, for us, the primary audience is an agent, and that's how we test our docs.",
+  "zh": "所以实际上对我们来说，主要受众是智能体，这也是我们测试文档的方式。"
+ },
+ {
+  "seg": 511,
+  "start": 3047.645,
+  "end": 3048.885,
+  "speaker": "Unknown",
+  "en": "A parallel web for agents.",
+  "zh": "一个给智能体的平行网络。"
+ },
+ {
+  "seg": 512,
+  "start": 3048.905,
+  "end": 3049.585,
+  "speaker": "Unknown",
+  "en": "That's very cool.",
+  "zh": "那很酷。"
+ },
+ {
+  "seg": 513,
+  "start": 3050.886,
+  "end": 3051.906,
+  "speaker": "Unknown",
+  "en": "Maybe close us out.",
+  "zh": "也许我们可以结束这次对话了。"
+ },
+ {
+  "seg": 514,
+  "start": 3052.067,
+  "end": 3055.208,
+  "speaker": "Unknown",
+  "en": "Tell us, just give us a snapshot of where Parallel is today.",
+  "zh": "告诉我们，给我们 Parallel 今天的现状快照。"
+ },
+ {
+  "seg": 515,
+  "start": 3055.688,
+  "end": 3061.231,
+  "speaker": "Unknown",
+  "en": "And if everything that you hope to build comes true, what does Parallel look like?",
+  "zh": "如果你希望构建的所有东西都成真，Parallel 看起来会是什么样？"
+ },
+ {
+  "seg": 516,
+  "start": 3061.271,
+  "end": 3062.131,
+  "speaker": "Unknown",
+  "en": "What does the world look like?",
+  "zh": "世界看起来会是什么样？"
+ },
+ {
+  "seg": 517,
+  "start": 3062.191,
+  "end": 3062.831,
+  "speaker": "Unknown",
+  "en": "What's your role in it?",
+  "zh": "你在其中扮演什么角色？"
+ },
+ {
+  "seg": 518,
+  "start": 3065.193,
+  "end": 3087.833,
+  "speaker": "Unknown",
+  "en": "three levels in this journey level one is people are building simple agents that use the web more as like a tool like a web search tool because it's familiar because the first set of agents we built to your point was just like model and give it the same tools because these models have been trained to use all the tools human have been humans have been used to and let them do work",
+  "zh": "这个旅程分为三个层次，第一层是人们正在构建简单的智能体，这些智能体更多地使用网络作为工具，比如网络搜索工具，因为它很熟悉，因为正如你所说，我们要构建的第一批智能体就像给模型提供相同的工具，因为这些模型已经被训练使用人类习惯使用的所有工具，并让它们去工作"
+ },
+ {
+  "seg": 519,
+  "start": 3089.462,
+  "end": 3094.552,
+  "speaker": "Unknown",
+  "en": "By and large, if you think of like most work, it's there today, of our influence, it's there today.",
+  "zh": "大体上，如果你想到像大多数工作，它就在今天，在我们的影响范围内，它就在今天。"
+ },
+ {
+  "seg": 520,
+  "start": 3095.563,
+  "end": 3113.766,
+  "speaker": "Unknown",
+  "en": "We have now started seeing some subset of customers who are in this world where they're building more sophisticated multi-agent systems which use sub-agents and have agents wake each other up or orchestrate in interesting ways.",
+  "zh": "我们现在已经看到一部分客户处于这个世界中，他们正在构建更复杂的多智能体系统，使用子智能体，并有智能体互相唤醒或以有趣的方式进行编排。"
+ },
+ {
+  "seg": 521,
+  "start": 3113.806,
+  "end": 3115.327,
+  "speaker": "Unknown",
+  "en": "People are seeing that as sub-agents.",
+  "zh": "人们将其视为子智能体。"
+ },
+ {
+  "seg": 522,
+  "start": 3115.347,
+  "end": 3118.027,
+  "speaker": "Unknown",
+  "en": "Most familiar one is sub-agents with encoding agent harnesses.",
+  "zh": "最熟悉的是带有编码智能体护具的子智能体。"
+ },
+ {
+  "seg": 523,
+  "start": 3118.587,
+  "end": 3121.828,
+  "speaker": "Unknown",
+  "en": "But we see a lot more of that, like if you're building an AI scientist.",
+  "zh": "但我们看到了更多这样的情况，比如如果你正在构建一个 AI 科学家。"
+ },
+ {
+  "seg": 524,
+  "start": 3123.068,
+  "end": 3135.051,
+  "speaker": "Unknown",
+  "en": "Some of those systems are very interesting, very sophisticated, very long-running, and just throw large amounts of compute and data at a really hard problem.",
+  "zh": "其中一些系统非常有趣，非常复杂，运行时间很长，并且向一个非常棘手的问题投入大量的计算和数据。"
+ },
+ {
+  "seg": 525,
+  "start": 3136.951,
+  "end": 3144.333,
+  "speaker": "Unknown",
+  "en": "And I think the third layer for the web specifically is the web goes from pull to push.",
+  "zh": "我认为第三层，特别是针对网络的，是网络从拉取转变为推送。"
+ },
+ {
+  "seg": 526,
+  "start": 3144.633,
+  "end": 3151.555,
+  "speaker": "Unknown",
+  "en": "So today, by and large, across the first two modalities I described, either an agent is calling a tool or a sub-agent.",
+  "zh": "所以今天，大体上，在我描述的前两种模式中，要么是智能体在调用工具，要么是子智能体。"
+ },
+ {
+  "seg": 527,
+  "start": 3152.175,
+  "end": 3158.12,
+  "speaker": "Unknown",
+  "en": "But it is telling it a request, saying, go find this for me right now.",
+  "zh": "但它是向它发出请求，说，现在就为我找到这个。"
+ },
+ {
+  "seg": 528,
+  "start": 3158.8,
+  "end": 3168.728,
+  "speaker": "Unknown",
+  "en": "And I think where we will end up in a couple of years is a variety of use cases will be the web parallel",
+  "zh": "我认为我们在几年后最终会达到的状态是，各种用例将是网络平行"
+ },
+ {
+  "seg": 529,
+  "start": 3169.82,
+  "end": 3177.487,
+  "speaker": "Unknown",
+  "en": "Call me if this happens so that my agent can do some work or a human can do some work.",
+  "zh": "如果发生这种情况就给我打电话，以便我的智能体可以做一些工作或者人类可以做一些工作。"
+ },
+ {
+  "seg": 530,
+  "start": 3178.248,
+  "end": 3185.834,
+  "speaker": "Unknown",
+  "en": "So I use this line with my team all the time, which is like, imagine like agents are everywhere and they can do a lot of things, right?",
+  "zh": "所以我一直对我的团队用这句话，比如，想象一下智能体无处不在，它们可以做很多事情，对吧？"
+ },
+ {
+  "seg": 531,
+  "start": 3187.096,
+  "end": 3194.042,
+  "speaker": "Unknown",
+  "en": "If there is something you can do today and it's worth doing and we still have GPUs available,",
+  "zh": "如果今天有什么你可以做的事情，并且值得做，而且我们还有可用的 GPU，"
+ },
+ {
+  "seg": 532,
+  "start": 3195.093,
+  "end": 3195.754,
+  "speaker": "Unknown",
+  "en": "We'll just go do it.",
+  "zh": "我们就去做。"
+ },
+ {
+  "seg": 533,
+  "start": 3196.754,
+  "end": 3200.117,
+  "speaker": "Unknown",
+  "en": "We won't be like, oh, let's just do this tomorrow for the sake of it.",
+  "zh": "我们不会像，噢，为了省事就等到明天再做。"
+ },
+ {
+  "seg": 534,
+  "start": 3201.058,
+  "end": 3202.138,
+  "speaker": "Unknown",
+  "en": "If it can be done today, do it.",
+  "zh": "如果今天能做，就做。"
+ },
+ {
+  "seg": 535,
+  "start": 3202.659,
+  "end": 3203.66,
+  "speaker": "Unknown",
+  "en": "So what will we do tomorrow?",
+  "zh": "那么我们明天做什么？"
+ },
+ {
+  "seg": 536,
+  "start": 3204.56,
+  "end": 3214.328,
+  "speaker": "Unknown",
+  "en": "We will do tomorrow work in response to something that circles through either another agent's work or something changes in the world.",
+  "zh": "我们将在明天做一些工作，以响应某些循环回来的东西，无论是另一个智能体的工作还是世界上发生了某些变化。"
+ },
+ {
+  "seg": 537,
+  "start": 3215.641,
+  "end": 3225.263,
+  "speaker": "Unknown",
+  "en": "As visible in satellite imagery or some customer commentary that happens, some agent finishing some compute, a human having a new insight to trigger work.",
+  "zh": "如卫星图像中可见的或一些客户评论的发生，一些智能体完成了一些计算，人类有了一个新的洞察来触发工作。"
+ },
+ {
+  "seg": 538,
+  "start": 3225.683,
+  "end": 3232.565,
+  "speaker": "Unknown",
+  "en": "But there are going to be a few feeds like this, which will drive new agentic work tomorrow.",
+  "zh": "但会有一些像这样的信息流，将驱动明天新的智能体工作。"
+ },
+ {
+  "seg": 539,
+  "start": 3233.365,
+  "end": 3244.688,
+  "speaker": "Unknown",
+  "en": "And one of those feeds is going to be everything that changed on the web, which is really exciting for me because then you're framing not a point in time need,",
+  "zh": "其中一个信息流将是网络上所有发生变化的东西，这对我来说真的很令人兴奋，因为那时你构建的不是一个时点的需求，"
+ },
+ {
+  "seg": 540,
+  "start": 3245.808,
+  "end": 3250.153,
+  "speaker": "Unknown",
+  "en": "But a long term, here is what is actionable for me.",
+  "zh": "而是一个长期的，这里是对我来说可执行的东西。"
+ },
+ {
+  "seg": 541,
+  "start": 3251.314,
+  "end": 3258.361,
+  "speaker": "Unknown",
+  "en": "If something like this happens as evidenced by all of the information on the web that is changing all the time, call me.",
+  "zh": "如果发生了这样的事情，由网络上不断变化的所有信息证明，就给我打电话。"
+ },
+ {
+  "seg": 542,
+  "start": 3260.002,
+  "end": 3261.263,
+  "speaker": "Unknown",
+  "en": "And then I'll run my agent on it.",
+  "zh": "然后我会在其上运行我的智能体。"
+ },
+ {
+  "seg": 543,
+  "start": 3262.004,
+  "end": 3265.768,
+  "speaker": "Unknown",
+  "en": "And so we get to then allocate compute onto",
+  "zh": "这样我们就可以把计算资源分配到"
+ },
+ {
+  "seg": 544,
+  "start": 3266.362,
+  "end": 3270.384,
+  "speaker": "Unknown",
+  "en": "The entire web, all the time, on behalf of all the customers.",
+  "zh": "整个网络，一直，代表所有客户。"
+ },
+ {
+  "seg": 545,
+  "start": 3271.285,
+  "end": 3272.365,
+  "speaker": "Unknown",
+  "en": "And that's really exciting.",
+  "zh": "那真的令人兴奋。"
+ },
+ {
+  "seg": 546,
+  "start": 3272.846,
+  "end": 3273.386,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 547,
+  "start": 3274.186,
+  "end": 3275.407,
+  "speaker": "Unknown",
+  "en": "Really ambitious vision.",
+  "zh": "真是雄心勃勃的愿景。"
+ },
+ {
+  "seg": 548,
+  "start": 3276.227,
+  "end": 3280.189,
+  "speaker": "Unknown",
+  "en": "You're clearly extremely passionate about this and exciting to see you building.",
+  "zh": "你显然对此充满激情，看到你在构建它很令人兴奋。"
+ },
+ {
+  "seg": 549,
+  "start": 3280.31,
+  "end": 3281.91,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining us today, Parag.",
+  "zh": "非常感谢你今天加入我们，Parag。"
+ },
+ {
+  "seg": 550,
+  "start": 3282.191,
+  "end": 3283.451,
+  "speaker": "Unknown",
+  "en": "And thank you for joining us, Andrew.",
+  "zh": "谢谢你加入我们，Andrew。"
+ },
+ {
+  "seg": 551,
+  "start": 3283.531,
+  "end": 3284.352,
+  "speaker": "Unknown",
+  "en": "You're very welcome, Sunil.",
+  "zh": "不客气，Sunil。"
+ },
+ {
+  "seg": 552,
+  "start": 3285.172,
+  "end": 3285.552,
+  "speaker": "Unknown",
+  "en": "Thanks, Parag.",
+  "zh": "谢谢，Parag。"
+ },
+ {
+  "seg": 553,
+  "start": 3285.572,
+  "end": 3286.633,
+  "speaker": "Unknown",
+  "en": "Thank you, Andrew, for your debut.",
+  "zh": "谢谢你，Andrew，为了你的首秀。"
+ }
+]

@@ -1,0 +1,789 @@
+{
+  "episode_id": "2026-08-19-productpodcast-square-global-head-of-product-on-how-to",
+  "podcast": "The Product Podcast",
+  "date": "2026-08-19",
+  "tags": [
+    "组织重组",
+    "DRI模型",
+    "智能体",
+    "硬件软件整合",
+    "SMB工具"
+  ],
+  "categories": [
+    "组织与领导力",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "willem-av",
+      "type": "person",
+      "role": "host",
+      "name": "Willem Avé",
+      "file": "Willem Avé",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13,
+            15
+          ],
+          "quote": "Willem Avé, Global Head of Product at Square.",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "square",
+      "type": "company",
+      "role": "company",
+      "name": "Square",
+      "file": "Square",
+      "primary": true,
+      "how_described": "本集说 Square 最初是支付公司，现在是一个完整的生态系统，包含商业工具、金融工具和智能工具，目标是让主街与华尔街一样高大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13,
+            15
+          ],
+          "quote": "Willem Avé, Global Head of Product at Square.",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 8,
+          "t": [
+            42,
+            49
+          ],
+          "quote": "Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about the larger TAM?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 13,
+          "t": [
+            92,
+            104
+          ],
+          "quote": "So you're the Global Head of Product at Square. Square is part of a holding company, and maybe we can start there. Can you explain a little bit more about how the companies, or the teams, are designed?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            104,
+            195
+          ],
+          "quote": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 16,
+          "t": [
+            214,
+            286
+          ],
+          "quote": "Great. So it's the Square brand, and I lead product for the Square brand. The way we've decided to organize the Square org is leaning into a couple of beliefs I have for building products. One is you want teams as close to customer outcomes as possible, so they can really understand the needs of the customers and build products to serve those needs. That's led us to a couple of broad orgs. First is an audiences org: these are all of our verticals, think services, retail, food and beverage, and so on. Then a core platform org. But the core platform org importantly also has product services it's responsible for. I think it's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs. So it's important to marry product and platform together in certain areas. Then we have a growth team, so the whole acquisition flywheel. And a money team, so money for us is everything from bill pay, payroll, banking, and so on. And then obviously we have our hardware teams, which is a sister org to us. Integrating Hardware and Software",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 27,
+          "t": [
+            761,
+            881
+          ],
+          "quote": "Yeah, the real world is definitely not on X every day, though some are. Small business is fascinating, because they're the most pure instantiation of an entrepreneur. They literally put their livelihood on the line for their passion, and that passion could be anything from candlestick making to bakeries to really anything. I find that endlessly fascinating, and I respect it a lot. Small business, in my opinion, really forms the artery, or the core, of the economy. The main streets of the world are unique. They're really important social areas for different economies and neighborhoods. What Square and Block have always stood for is economic empowerment, and what that means for Square is making sure neighborhoods can thrive. We say we want Main Street to stand as tall as Wall Street. That's really important, because to do so, they need technology. You can't compete today in the business landscape without automating parts of your business with software, and now increasingly with artificial intelligence. I firmly believe that if you take advanced technology and democratize it, give it to as many people, as many small businesses, as possible, that's net good for the economy and net good for society. So those are some of the things I spend a lot of time on. And it's not easy, because each of these businesses is endlessly unique. They need very specific workflows. A bakery is just different from a flower shop, and that's different from a burger joint. They have different people, different teams, different workflows. So it's all different, and that's one of the awesome things we've been able to do at Square. Bringing AI to People Who Aren't Tech Savvy",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1333,
+            1345
+          ],
+          "quote": "So I'm thinking about your overall TAM, because in a way, Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about that, and the larger TAM?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1345,
+            1462
+          ],
+          "quote": "Yeah, I actually have a hot take on TAM. My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite. What I mean is that you can create markets with incredible products. That's important for Square, in that we have effectively endless TAM, because it's the small, medium, even enterprise economy, which is trillions of dollars. The two important things for building products and software in these very large TAM markets are, one, you need some forcing function to help teams and people make decisions. We at Square believe in local economies and neighborhoods, and our North Star is to build what we call a neighborhood network, which is effectively all the economic action that happens in a neighborhood: small business owners, their staff, and the customers coming into those businesses. The interesting thing about focusing on local neighborhoods is that it refocuses the TAM away from things like internet-only, direct-to-consumer websites; that's not part of a local economy. What you can start to do is look at Main Street, look at your local neighborhoods, and see what kinds of businesses exist there. So you have an ideal customer: these are the sets of customers I want to build for. And then you can help teams make decisions: \"Great, we're going to solve those needs, across commerce tools, both online and offline; financial tools, banking, checking, credit; and then intelligence tools.\" Because intelligence and autonomy is a core part of building software and helping local neighborhoods be better. Consolidating the SMB's Fragmented Tools",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "type": "company",
+      "role": "company",
+      "name": "Block",
+      "file": "Block",
+      "primary": true,
+      "how_described": "本集说 Block 是 Square 的控股公司，Jack Dorsey 在组织设计方面是真正的先驱，发布了 Buzz 等新产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            104,
+            195
+          ],
+          "quote": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 21,
+          "t": [
+            445,
+            457
+          ],
+          "quote": "Block, or your CEO Jack Dorsey, has been a real pioneer in terms of how to think about org design. You recently came up with this concept of the DRI. I'd love for you to expand on it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 27,
+          "t": [
+            761,
+            881
+          ],
+          "quote": "Yeah, the real world is definitely not on X every day, though some are. Small business is fascinating, because they're the most pure instantiation of an entrepreneur. They literally put their livelihood on the line for their passion, and that passion could be anything from candlestick making to bakeries to really anything. I find that endlessly fascinating, and I respect it a lot. Small business, in my opinion, really forms the artery, or the core, of the economy. The main streets of the world are unique. They're really important social areas for different economies and neighborhoods. What Square and Block have always stood for is economic empowerment, and what that means for Square is making sure neighborhoods can thrive. We say we want Main Street to stand as tall as Wall Street. That's really important, because to do so, they need technology. You can't compete today in the business landscape without automating parts of your business with software, and now increasingly with artificial intelligence. I firmly believe that if you take advanced technology and democratize it, give it to as many people, as many small businesses, as possible, that's net good for the economy and net good for society. So those are some of the things I spend a lot of time on. And it's not easy, because each of these businesses is endlessly unique. They need very specific workflows. A bakery is just different from a flower shop, and that's different from a burger joint. They have different people, different teams, different workflows. So it's all different, and that's one of the awesome things we've been able to do at Square. Bringing AI to People Who Aren't Tech Savvy",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 40,
+          "t": [
+            1674,
+            1692
+          ],
+          "quote": "Yeah, I was very curious to know, because that's a very new product that Block announced, and it seems to be going in so many different directions. One is what you just described. Another could potentially be a replacement of Slack for different types of businesses. But it seems like in a way you're trying to create an unlimited-communication layer.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "cash-app",
+      "type": "company",
+      "role": "company",
+      "name": "Cash App",
+      "file": "Cash App",
+      "primary": false,
+      "how_described": "本集提到 Cash App 是 Block 旗下与 Square 并列的基于品牌的关注领域之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            104,
+            195
+          ],
+          "quote": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "bookfresh",
+      "type": "company",
+      "role": "company",
+      "name": "BookFresh",
+      "file": "BookFresh",
+      "primary": false,
+      "how_described": "本集说 BookFresh 是 Willem 联合创立并担任 CTO 的预约初创公司，2014 年被 Square 收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "business-unit",
+      "type": "concept",
+      "role": "concept",
+      "name": "业务单元模式 (business-unit)",
+      "file": "业务单元模式",
+      "primary": true,
+      "how_described": "本集说 Square 多年来采用业务单元模式，但发现它让每个职能的工艺和卓越性退化了，工程师和产品经理变成了通才但专业深度不够",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            104,
+            195
+          ],
+          "quote": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 15,
+          "t": [
+            195,
+            214
+          ],
+          "quote": "I love this topic around org design, and I've seen so many different variations. Many companies start functional, then at some point they grow and decide to go to a business-unit model, and then at some point they go back to functional or some sort of hybrid in between. So in your case today, what is part of your function?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "functional",
+      "type": "concept",
+      "role": "concept",
+      "name": "职能制 (functional)",
+      "file": "职能制",
+      "primary": true,
+      "how_described": "本集说 Square 两年前将整个公司重组为职能制，设产品、设计、工程等高层组织，以恢复各职能领域的专业深度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            104,
+            195
+          ],
+          "quote": "Yeah, definitely. I've been at Square, slash Block, for many years. I've seen really every evolution of the company, from the little white reader all the way through to the sophisticated multiple ecosystems we have. It's unique to be at a company that has not only been able to innovate on one product, but then create multiple ecosystems of products throughout its journey. Maybe I'll start with how my journey here began. My company was acquired, I was CTO, and I grew up through the engineering org here. We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything. One of the key reasons we did that was we believed functional excellence, i.e. excellence within your domain, engineering, product, design, and so on, was really important, and that some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions. So the past two or so years, we've been in a fully functional world where there are top-line orgs: product, design, engineering. And within that we have brand-based focus areas, Square, Cash App, and so on. From an org-design perspective, there are many ways we could take the conversation, but one of the key things is you want to focus orgs around customer outcomes as much as possible. The farther you go from that principle, the worse outcomes you get. Why Square Killed the Business-Unit Model",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 15,
+          "t": [
+            195,
+            214
+          ],
+          "quote": "I love this topic around org design, and I've seen so many different variations. Many companies start functional, then at some point they grow and decide to go to a business-unit model, and then at some point they go back to functional or some sort of hybrid in between. So in your case today, what is part of your function?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 22,
+          "t": [
+            457,
+            556
+          ],
+          "quote": "Yeah. It's an incredibly interesting concept, and one we've leaned into very hard. What's amazing is that for the best products, you have to have an arc from idea to scaling it, and that arc is a cross-functional effort. It's not just building an incredible product; it's how you go to market with it, and then how you keep iterating and building it. A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going. So the DRI model is really meant to cut through decision-making and effectively empower an individual to see that decision-making through the entire life cycle of building that product or solution. It's a unique position, because you have to be able to synthesize product, technology, and business, and then work very well across the entire arc of building that software. Everything from ideation, and I think the best ideation happens in a design- and engineering-led fashion, where they can explore the entire space, all the way through to go-to-market and scale, where you need to be able to tell the world about what you're building and why. So the DRI really helps shape technical strategy, but also keeps the teams accountable to execution, and breaks down decision-making so they can cut through any roadblocks or challenges the teams may have. Reinventing the Org Around AI",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "dri",
+      "type": "concept",
+      "role": "concept",
+      "name": "DRI",
+      "file": "DRI",
+      "primary": true,
+      "how_described": "本集说 DRI（直接责任人）是让一个人贯穿产品从构思到规模化的完整弧线，能综合产品、技术、商业三个维度做决策，帮团队砍掉路障、扼杀沉默否决权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            380,
+            445
+          ],
+          "quote": "It's a good question. The biggest difference is the timelines are usually just different: building hardware takes longer than building software, and there are different steps you go through. To get really great outcomes, first you need incredible people. Two, you need to make sure the process you go through for building doesn't have a ton of burdensome red tape where decisions get mired in bureaucratic process or slow decision-making, because ultimately both building hardware and software is one of iteration. You have a vision of what you want to build, but the path there takes a bunch of different turns as you figure out what defect rates you're targeting, what reliability rates, battery life, and so on. There's a ton of dimensions to it. And then the best software is also built via an iterative learning loop. So if you combine both of those together, you can have both an org and a process that leads to incredible outcomes. The DRI Model: Killing the Silent Veto",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 21,
+          "t": [
+            445,
+            457
+          ],
+          "quote": "Block, or your CEO Jack Dorsey, has been a real pioneer in terms of how to think about org design. You recently came up with this concept of the DRI. I'd love for you to expand on it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 22,
+          "t": [
+            457,
+            556
+          ],
+          "quote": "Yeah. It's an incredibly interesting concept, and one we've leaned into very hard. What's amazing is that for the best products, you have to have an arc from idea to scaling it, and that arc is a cross-functional effort. It's not just building an incredible product; it's how you go to market with it, and then how you keep iterating and building it. A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going. So the DRI model is really meant to cut through decision-making and effectively empower an individual to see that decision-making through the entire life cycle of building that product or solution. It's a unique position, because you have to be able to synthesize product, technology, and business, and then work very well across the entire arc of building that software. Everything from ideation, and I think the best ideation happens in a design- and engineering-led fashion, where they can explore the entire space, all the way through to go-to-market and scale, where you need to be able to tell the world about what you're building and why. So the DRI really helps shape technical strategy, but also keeps the teams accountable to execution, and breaks down decision-making so they can cut through any roadblocks or challenges the teams may have. Reinventing the Org Around AI",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 25,
+          "t": [
+            672,
+            720
+          ],
+          "quote": "I think it's really just another way of saying you have to encode knowledge in tools that individuals and teams can take advantage of. So you don't have to play telephone to get an answer; you can get an answer from an agent, make a decision, and move forward. So the DRI model, combined with smaller, flatter orgs, does allow you to move a lot faster. That doesn't diminish the need for management. People grow in their careers, people have aspirations, so you also need incredible people managers who can help people through their career growth and trajectories. You have to marry both of those together: you need great managers, and then you need great DRIs, people who can cut through decisions so you can deliver great products. Building for the Real Economy",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "silent-vetoes",
+      "type": "concept",
+      "role": "concept",
+      "name": "沉默否决 (silent vetoes)",
+      "file": "沉默否决",
+      "primary": false,
+      "how_described": "本集说沉默否决是指组织中一个团队不想做另一个团队想做的事，嘴上不说但就是不配合，导致产品决策减速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            457,
+            556
+          ],
+          "quote": "Yeah. It's an incredibly interesting concept, and one we've leaned into very hard. What's amazing is that for the best products, you have to have an arc from idea to scaling it, and that arc is a cross-functional effort. It's not just building an incredible product; it's how you go to market with it, and then how you keep iterating and building it. A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going. So the DRI model is really meant to cut through decision-making and effectively empower an individual to see that decision-making through the entire life cycle of building that product or solution. It's a unique position, because you have to be able to synthesize product, technology, and business, and then work very well across the entire arc of building that software. Everything from ideation, and I think the best ideation happens in a design- and engineering-led fashion, where they can explore the entire space, all the way through to go-to-market and scale, where you need to be able to tell the world about what you're building and why. So the DRI really helps shape technical strategy, but also keeps the teams accountable to execution, and breaks down decision-making so they can cut through any roadblocks or challenges the teams may have. Reinventing the Org Around AI",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说建一个可靠的、可依赖的智能体非常难，智能体可以把原来编码在组织流程里的知识编码到数据层，让小团队不用传话游戏就能拿到答案做决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            672,
+            720
+          ],
+          "quote": "I think it's really just another way of saying you have to encode knowledge in tools that individuals and teams can take advantage of. So you don't have to play telephone to get an answer; you can get an answer from an agent, make a decision, and move forward. So the DRI model, combined with smaller, flatter orgs, does allow you to move a lot faster. That doesn't diminish the need for management. People grow in their careers, people have aspirations, so you also need incredible people managers who can help people through their career growth and trajectories. You have to marry both of those together: you need great managers, and then you need great DRIs, people who can cut through decisions so you can deliver great products. Building for the Real Economy",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 29,
+          "t": [
+            899,
+            1043
+          ],
+          "quote": "Yeah, it's a good question. Running a business is difficult, and not for the most obvious reason. Yes, obviously you have to hire and do your craft, whether that's food or whatever. But it's also a kind of loneliness, where you don't always know where to go or what decisions to make. For example, what should you price a menu item at? What should you price your burger? Sure, you could calculate how much it costs you to make the burger, but should you mark it up by 10% or 20%? There's an endless set of decisions. Sometimes you hear small business owners start working the second there's another head still on the pillow in their bed, and they keep working all the way through the evening, because there's always some decision they have to make. The advantage, or the attraction, of AI for business is not just a chatbot; it's really to have this intelligent thought partner that lets businesses make better decisions, and then eventually offload and delegate full tasks to parts of their business. A couple of examples could be inventory intake, or spotting sales trends for your business and then suggesting a marketing campaign, or a number of other unique workflows. The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons. First, we've basically already solved that problem, and what people are expecting now is to do real work with AI. Real work is far more than answering questions and getting some answers back in a thread. Real work looks like synthesizing data across all of your data sources. It looks like creating artifacts specifically for your business. That could be something like an inventory workflow for the bakery we're talking about, or a sales leaderboard so you can train and incentivize your staff. There are a bunch of these different artifacts. And that's the challenge: it's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent. That's what we've been working on and really trying to solve. Demo: Manager Bot and Doing \"Real Work\"",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "chatbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天机器人 (chatbot)",
+      "file": "聊天机器人",
+      "primary": true,
+      "how_described": "本集说标准问答聊天机器人的时代已经结束了，因为这个问题已经被解决了，现在用户期待的是用 AI 做真正的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 29,
+          "t": [
+            899,
+            1043
+          ],
+          "quote": "Yeah, it's a good question. Running a business is difficult, and not for the most obvious reason. Yes, obviously you have to hire and do your craft, whether that's food or whatever. But it's also a kind of loneliness, where you don't always know where to go or what decisions to make. For example, what should you price a menu item at? What should you price your burger? Sure, you could calculate how much it costs you to make the burger, but should you mark it up by 10% or 20%? There's an endless set of decisions. Sometimes you hear small business owners start working the second there's another head still on the pillow in their bed, and they keep working all the way through the evening, because there's always some decision they have to make. The advantage, or the attraction, of AI for business is not just a chatbot; it's really to have this intelligent thought partner that lets businesses make better decisions, and then eventually offload and delegate full tasks to parts of their business. A couple of examples could be inventory intake, or spotting sales trends for your business and then suggesting a marketing campaign, or a number of other unique workflows. The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons. First, we've basically already solved that problem, and what people are expecting now is to do real work with AI. Real work is far more than answering questions and getting some answers back in a thread. Real work looks like synthesizing data across all of your data sources. It looks like creating artifacts specifically for your business. That could be something like an inventory workflow for the bakery we're talking about, or a sales leaderboard so you can train and incentivize your staff. There are a bunch of these different artifacts. And that's the challenge: it's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent. That's what we've been working on and really trying to solve. Demo: Manager Bot and Doing \"Real Work\"",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "artifacts",
+      "type": "concept",
+      "role": "concept",
+      "name": "工件 (artifacts)",
+      "file": "工件",
+      "primary": true,
+      "how_described": "本集说真正的工作是跨所有数据源综合数据后为业务生成具体的工件，比如面包店的库存工作流、员工销售排行榜，而不是在对话线程里问答",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            899,
+            1043
+          ],
+          "quote": "Yeah, it's a good question. Running a business is difficult, and not for the most obvious reason. Yes, obviously you have to hire and do your craft, whether that's food or whatever. But it's also a kind of loneliness, where you don't always know where to go or what decisions to make. For example, what should you price a menu item at? What should you price your burger? Sure, you could calculate how much it costs you to make the burger, but should you mark it up by 10% or 20%? There's an endless set of decisions. Sometimes you hear small business owners start working the second there's another head still on the pillow in their bed, and they keep working all the way through the evening, because there's always some decision they have to make. The advantage, or the attraction, of AI for business is not just a chatbot; it's really to have this intelligent thought partner that lets businesses make better decisions, and then eventually offload and delegate full tasks to parts of their business. A couple of examples could be inventory intake, or spotting sales trends for your business and then suggesting a marketing campaign, or a number of other unique workflows. The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons. First, we've basically already solved that problem, and what people are expecting now is to do real work with AI. Real work is far more than answering questions and getting some answers back in a thread. Real work looks like synthesizing data across all of your data sources. It looks like creating artifacts specifically for your business. That could be something like an inventory workflow for the bakery we're talking about, or a sales leaderboard so you can train and incentivize your staff. There are a bunch of these different artifacts. And that's the challenge: it's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent. That's what we've been working on and really trying to solve. Demo: Manager Bot and Doing \"Real Work\"",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 31,
+          "t": [
+            1044,
+            1219
+          ],
+          "quote": "Sure, we can take it for a little spin. So this is Manager Bot, a home screen where you can come in and we AI-generate a bunch of ideas for sellers, either daily or just in time. This is an example of one where it says \"add missing item descriptions.\" Why is this important? Well, if you want to get found online, your online catalog needs to have great descriptions. So Manager Bot can notice these things and suggest descriptions, and you can review it and chat. I'm not going to do that this second, but I'm going to go over to the computer and show what I mean by doing real work. This is an example of, maybe I want to work on some menu engineering. Rather than just a quick answer, what Manager Bot gives you is a full-on artifact. It does a bunch of work, and it looks at your data. It can also use a lot of other tools. It can say, \"Okay, here are all the different items, this is what you should do with each of those, these are the different types of items that are doing well or not doing super well.\" And then you can ask questions about this: \"Okay, great, what are some suggestions based on this menu? Do some research and come back with an opinion.\" And it says, \"This is what I would do, I would make the half-pound burger a hero, not just an item,\" and so on. When someone is thinking through a problem, they don't just want \"here's the answer.\" They want a richer artifact that lets them really dig deep. Similarly, if you look at labor forecasts, this is all a demo account, you can see where the costs are. It can generate very rich artifacts for you. When sellers want to get work done, they need rich, sophisticated artifacts, real things they can go and build themselves. Yes, that interaction might be text-based or voice, but it's much richer than just a simple answer. This is when sellers can see, \"Okay, this is really valuable, I have to put less work into the system to get some very meaningful outcomes.\" And then there's this whole ideas area, things from sales or top customers. \"Two of your top customers haven't visited in 30 days.\" There are staff insights, inventory insights, and so on. So this whole system working together, we feel, really helps sellers understand their business, take action, improve things, and get real work done on their computer.",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "manager-bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Manager Bot",
+      "file": "Manager Bot",
+      "primary": true,
+      "how_described": "本集演示了 Manager Bot 作为主屏幕上的 AI 助手，会主动推送建议（如补全缺失商品描述），能生成菜单工程、劳动力预测等完整工件，帮卖家做真活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            899,
+            1043
+          ],
+          "quote": "Yeah, it's a good question. Running a business is difficult, and not for the most obvious reason. Yes, obviously you have to hire and do your craft, whether that's food or whatever. But it's also a kind of loneliness, where you don't always know where to go or what decisions to make. For example, what should you price a menu item at? What should you price your burger? Sure, you could calculate how much it costs you to make the burger, but should you mark it up by 10% or 20%? There's an endless set of decisions. Sometimes you hear small business owners start working the second there's another head still on the pillow in their bed, and they keep working all the way through the evening, because there's always some decision they have to make. The advantage, or the attraction, of AI for business is not just a chatbot; it's really to have this intelligent thought partner that lets businesses make better decisions, and then eventually offload and delegate full tasks to parts of their business. A couple of examples could be inventory intake, or spotting sales trends for your business and then suggesting a marketing campaign, or a number of other unique workflows. The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons. First, we've basically already solved that problem, and what people are expecting now is to do real work with AI. Real work is far more than answering questions and getting some answers back in a thread. Real work looks like synthesizing data across all of your data sources. It looks like creating artifacts specifically for your business. That could be something like an inventory workflow for the bakery we're talking about, or a sales leaderboard so you can train and incentivize your staff. There are a bunch of these different artifacts. And that's the challenge: it's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent. That's what we've been working on and really trying to solve. Demo: Manager Bot and Doing \"Real Work\"",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 31,
+          "t": [
+            1044,
+            1219
+          ],
+          "quote": "Sure, we can take it for a little spin. So this is Manager Bot, a home screen where you can come in and we AI-generate a bunch of ideas for sellers, either daily or just in time. This is an example of one where it says \"add missing item descriptions.\" Why is this important? Well, if you want to get found online, your online catalog needs to have great descriptions. So Manager Bot can notice these things and suggest descriptions, and you can review it and chat. I'm not going to do that this second, but I'm going to go over to the computer and show what I mean by doing real work. This is an example of, maybe I want to work on some menu engineering. Rather than just a quick answer, what Manager Bot gives you is a full-on artifact. It does a bunch of work, and it looks at your data. It can also use a lot of other tools. It can say, \"Okay, here are all the different items, this is what you should do with each of those, these are the different types of items that are doing well or not doing super well.\" And then you can ask questions about this: \"Okay, great, what are some suggestions based on this menu? Do some research and come back with an opinion.\" And it says, \"This is what I would do, I would make the half-pound burger a hero, not just an item,\" and so on. When someone is thinking through a problem, they don't just want \"here's the answer.\" They want a richer artifact that lets them really dig deep. Similarly, if you look at labor forecasts, this is all a demo account, you can see where the costs are. It can generate very rich artifacts for you. When sellers want to get work done, they need rich, sophisticated artifacts, real things they can go and build themselves. Yes, that interaction might be text-based or voice, but it's much richer than just a simple answer. This is when sellers can see, \"Okay, this is really valuable, I have to put less work into the system to get some very meaningful outcomes.\" And then there's this whole ideas area, things from sales or top customers. \"Two of your top customers haven't visited in 30 days.\" There are staff insights, inventory insights, and so on. So this whole system working together, we feel, really helps sellers understand their business, take action, improve things, and get real work done on their computer.",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "menu-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "菜单工程 (menu engineering)",
+      "file": "菜单工程",
+      "primary": false,
+      "how_described": "本集在演示 Manager Bot 时以菜单工程为例，展示它不是给一句话答案，而是生成列出所有菜品及具体建议的完整工件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            1044,
+            1219
+          ],
+          "quote": "Sure, we can take it for a little spin. So this is Manager Bot, a home screen where you can come in and we AI-generate a bunch of ideas for sellers, either daily or just in time. This is an example of one where it says \"add missing item descriptions.\" Why is this important? Well, if you want to get found online, your online catalog needs to have great descriptions. So Manager Bot can notice these things and suggest descriptions, and you can review it and chat. I'm not going to do that this second, but I'm going to go over to the computer and show what I mean by doing real work. This is an example of, maybe I want to work on some menu engineering. Rather than just a quick answer, what Manager Bot gives you is a full-on artifact. It does a bunch of work, and it looks at your data. It can also use a lot of other tools. It can say, \"Okay, here are all the different items, this is what you should do with each of those, these are the different types of items that are doing well or not doing super well.\" And then you can ask questions about this: \"Okay, great, what are some suggestions based on this menu? Do some research and come back with an opinion.\" And it says, \"This is what I would do, I would make the half-pound burger a hero, not just an item,\" and so on. When someone is thinking through a problem, they don't just want \"here's the answer.\" They want a richer artifact that lets them really dig deep. Similarly, if you look at labor forecasts, this is all a demo account, you can see where the costs are. It can generate very rich artifacts for you. When sellers want to get work done, they need rich, sophisticated artifacts, real things they can go and build themselves. Yes, that interaction might be text-based or voice, but it's much richer than just a simple answer. This is when sellers can see, \"Okay, this is really valuable, I have to put less work into the system to get some very meaningful outcomes.\" And then there's this whole ideas area, things from sales or top customers. \"Two of your top customers haven't visited in 30 days.\" There are staff insights, inventory insights, and so on. So this whole system working together, we feel, really helps sellers understand their business, take action, improve things, and get real work done on their computer.",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "tam",
+      "type": "concept",
+      "role": "concept",
+      "name": "TAM",
+      "file": "TAM",
+      "primary": true,
+      "how_described": "本集说 Willem 对 TAM 的激进观点是：有了对的团队、对的想法、对的学习循环，TAM 几乎是无限的，好产品能创造市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            42,
+            49
+          ],
+          "quote": "Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about the larger TAM?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49,
+            52
+          ],
+          "quote": "Well, I actually have a hot take on TAM. My hot take on TAM is that... Introduction",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52,
+            89
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Willem Avé, Global Head of Product at Square. He landed there in 2014 when Square acquired BookFresh, the scheduling startup he co-founded and ran as CTO. So he has watched this thing go from a little white card reader to multiple ecosystems inside Block. And his customers are not on X all day; they run bakeries. Here's what we'll cover: why they tore up the business-unit model and went fully functional. The DRI model built to kill the silent veto. What happens when AI encodes the knowledge your org chart used to hold. The chatbot era is over, and what replaces it. And his hot take that TAM is almost infinite. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1255,
+            1333
+          ],
+          "quote": "Yeah, that's exactly right. A few things are true. One, I love what you said: you don't want sellers or customers to do more work. That's a very important insight. My experience, and a lot of people's experience using AI, is that you just get a bunch of word vomit, effectively. You get a bunch of data and you have to parse it, and that's actually work. Sometimes it's very useful, if you're doing research or whatnot. But other times it's like, \"Please shorten that for me,\" or \"Just create me a little website or something.\" The more you can steer these experiences to very high value, without causing customers to do a lot of work to use it, the more that builds trust with the system, and then it allows you to delegate and take actions. I didn't show this in the demo, but you can do bulk actions, you can create campaigns, all of that great stuff within the same experience. One of the interesting things, at least for small business, is that a lot of the time people don't just wake up and go, \"Oh, I have to change the price of X.\" Usually you have to do some investigation. So you get some questions and detailed analyses, and then you have enough trust in the system to say, \"Okay, now I'll go delegate some work to it to actually execute on inventory counts or price changes.\" A Hot Take on TAM: Almost Infinite",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1333,
+            1345
+          ],
+          "quote": "So I'm thinking about your overall TAM, because in a way, Square started as a payments company, and now it seems like it's an entire ecosystem. How are you thinking about that, and the larger TAM?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1345,
+            1462
+          ],
+          "quote": "Yeah, I actually have a hot take on TAM. My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite. What I mean is that you can create markets with incredible products. That's important for Square, in that we have effectively endless TAM, because it's the small, medium, even enterprise economy, which is trillions of dollars. The two important things for building products and software in these very large TAM markets are, one, you need some forcing function to help teams and people make decisions. We at Square believe in local economies and neighborhoods, and our North Star is to build what we call a neighborhood network, which is effectively all the economic action that happens in a neighborhood: small business owners, their staff, and the customers coming into those businesses. The interesting thing about focusing on local neighborhoods is that it refocuses the TAM away from things like internet-only, direct-to-consumer websites; that's not part of a local economy. What you can start to do is look at Main Street, look at your local neighborhoods, and see what kinds of businesses exist there. So you have an ideal customer: these are the sets of customers I want to build for. And then you can help teams make decisions: \"Great, we're going to solve those needs, across commerce tools, both online and offline; financial tools, banking, checking, credit; and then intelligence tools.\" Because intelligence and autonomy is a core part of building software and helping local neighborhoods be better. Consolidating the SMB's Fragmented Tools",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood-network",
+      "type": "concept",
+      "role": "concept",
+      "name": "社区网络 (neighborhood network)",
+      "file": "社区网络",
+      "primary": true,
+      "how_described": "本集说社区网络是 Square 的北极星，指一个社区里发生的所有经济活动——小企业主、员工、进店的顾客，这把 TAM 聚焦到主街上的实体商业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            1345,
+            1462
+          ],
+          "quote": "Yeah, I actually have a hot take on TAM. My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite. What I mean is that you can create markets with incredible products. That's important for Square, in that we have effectively endless TAM, because it's the small, medium, even enterprise economy, which is trillions of dollars. The two important things for building products and software in these very large TAM markets are, one, you need some forcing function to help teams and people make decisions. We at Square believe in local economies and neighborhoods, and our North Star is to build what we call a neighborhood network, which is effectively all the economic action that happens in a neighborhood: small business owners, their staff, and the customers coming into those businesses. The interesting thing about focusing on local neighborhoods is that it refocuses the TAM away from things like internet-only, direct-to-consumer websites; that's not part of a local economy. What you can start to do is look at Main Street, look at your local neighborhoods, and see what kinds of businesses exist there. So you have an ideal customer: these are the sets of customers I want to build for. And then you can help teams make decisions: \"Great, we're going to solve those needs, across commerce tools, both online and offline; financial tools, banking, checking, credit; and then intelligence tools.\" Because intelligence and autonomy is a core part of building software and helping local neighborhoods be better. Consolidating the SMB's Fragmented Tools",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬件 (hardware)",
+      "file": "硬件",
+      "primary": true,
+      "how_described": "本集说硬件出现在商家的真实物理空间里，必须平易近人、易用、令人愉悦，关键是要将软件形态与硬件形态结合，不能分开想",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15,
+            23
+          ],
+          "quote": "One of the unique things about your product is that you have a hardware component as well as software. So I'm curious to know how you integrate those two worlds as part of the same function.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 5,
+          "t": [
+            23,
+            29
+          ],
+          "quote": "Hardware must be approachable. It must be easy to use. It must be completely delightful, and doing so is not easy.",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 16,
+          "t": [
+            214,
+            286
+          ],
+          "quote": "Great. So it's the Square brand, and I lead product for the Square brand. The way we've decided to organize the Square org is leaning into a couple of beliefs I have for building products. One is you want teams as close to customer outcomes as possible, so they can really understand the needs of the customers and build products to serve those needs. That's led us to a couple of broad orgs. First is an audiences org: these are all of our verticals, think services, retail, food and beverage, and so on. Then a core platform org. But the core platform org importantly also has product services it's responsible for. I think it's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs. So it's important to marry product and platform together in certain areas. Then we have a growth team, so the whole acquisition flywheel. And a money team, so money for us is everything from bill pay, payroll, banking, and so on. And then obviously we have our hardware teams, which is a sister org to us. Integrating Hardware and Software",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 17,
+          "t": [
+            286,
+            298
+          ],
+          "quote": "I was literally going to ask about that, because one of the unique things about your product is that you have a hardware component as well as software. So I'm curious to know how you integrate those two worlds as part of the same function.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 18,
+          "t": [
+            298,
+            356
+          ],
+          "quote": "Yeah. Hardware is something very special, and we have one of the best hardware teams on the planet. What I mean by special is that hardware shows up in businesses' real worlds. It's something you put on the counter, something you carry with you during your shift, something you use. So hardware must be approachable. It must be easy to use. It must be completely delightful. And doing so is not easy. The magic really happens when you integrate hardware and software together in a way that builds delightful experiences. Almost everyone's used an iPhone; they set the bar for a lot of that software-hardware integration. The key is making sure that when you're building new hardware products, you marry the software form factor with the hardware form factor. You can't think of them as completely separate, which is why it's difficult for companies to use off-the-shelf, commodity hardware and build truly excellent experiences.",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 19,
+          "t": [
+            356,
+            380
+          ],
+          "quote": "One of the risks I see with some orgs that have both hardware and software is that they're so different that it's really hard to find a leader who can understand both worlds in depth. Similar to what you were saying about the general manager, sometimes it's hard to find someone who really gets both business and product right. So in your case, how do you actually find the right level of support to ensure that both hardware and software are at the same level of priority?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            380,
+            445
+          ],
+          "quote": "It's a good question. The biggest difference is the timelines are usually just different: building hardware takes longer than building software, and there are different steps you go through. To get really great outcomes, first you need incredible people. Two, you need to make sure the process you go through for building doesn't have a ton of burdensome red tape where decisions get mired in bureaucratic process or slow decision-making, because ultimately both building hardware and software is one of iteration. You have a vision of what you want to build, but the path there takes a bunch of different turns as you figure out what defect rates you're targeting, what reliability rates, battery life, and so on. There's a ton of dimensions to it. And then the best software is also built via an iterative learning loop. So if you combine both of those together, you can have both an org and a process that leads to incredible outcomes. The DRI Model: Killing the Silent Veto",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "buzz",
+      "type": "concept",
+      "role": "concept",
+      "name": "Buzz",
+      "file": "Buzz",
+      "primary": false,
+      "how_described": "本集说 Buzz 是 Block 新发布的产品，不是做某个单一渠道，而是帮卖家统一管理员工协作和所有渠道进来的客户消息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            1594,
+            1674
+          ],
+          "quote": "Yeah, it's a great question. Business at its core is a communication, slash team, sport. You want to communicate with your customers, and you need to communicate with your staff. Today, a lot of that communication happens in very segmented, siloed tools, like you just mentioned: WhatsApp, Instagram, email. \"I need a contractor to go fix something,\" and it's usually email, maybe text. When you talk to business owners, they are drowning in these many different communication tools. They'll say, \"My SMS inbox has hundreds of unread.\" It's crazy. Just your example: imagine that business's WhatsApp thread, it's probably crazy. So, one, no one's really solved this yet, to be honest. Two, I'm pretty interested in trying to solve it for small businesses. There are some very cool collaboration platforms we're building. One is Buzz, which I think is pretty unique and interesting: not that exact product, but how that model could help sellers manage both their staff and a lot of communication inbounds across all these different channels they get.",
+          "speaker": "Willem Avé"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1692,
+            1714
+          ],
+          "quote": "Yeah, I'll just go back to the fact that every business and every person has a communication challenge. Not actually talking, but managing all of the different channels. I don't think we have a great solution yet. I'm pretty excited about the Buzz technology for a lot of good reasons. It's something we're excited to work on.",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体AI (agentic AI)",
+      "file": "智能体AI",
+      "primary": false,
+      "how_described": "本集说智能体 AI 真正允许卖家同时与多个不同软件产品互动，因为很多软件可以非常好地被智能体工具使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            1494,
+            1566
+          ],
+          "quote": "That's right. The challenge with that is, it used to be very difficult to build software for each of those quadrants. AI software engineering has lowered that bar to a certain degree. The second point is that a lot of customers and sellers have software solutions today that they like. So for us to be successful, we need both great first-party tools, point of sale, staff management tools, and so on, but also a very open platform to allow all of our incredible partners to build alongside us and with us, so we can help reduce a bunch of tabs and copying data between this tool and that tool to answer a question. And then the third is that AI, at least an agentic AI, really allows sellers to interact with a bunch of different software products at the same time, because a lot of software is able to be used very well by agentic tools. You see that today with Claude and Codex. They can just use these tools exceedingly well. So it's helping solve a lot of these multi-software challenges that customers have. Communication Tools and Emerging Markets",
+          "speaker": "Willem Avé"
+        }
+      ]
+    },
+    {
+      "id": "mini-agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "迷你AGI (mini AGI)",
+      "file": "迷你AGI",
+      "primary": false,
+      "how_described": "本集提到一种说法是把公司重塑成迷你 AGI，每个人都向同一个人汇报、超级扁平，但 Willem 认为关键目标不是形式上的扁平而是小团队自主",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0,
+            10
+          ],
+          "quote": "You're reinventing the company to be a mini AGI. Part of the vision was that basically everybody is reporting to the same person, like a super flat organization. So how realistic do you think that is?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 23,
+          "t": [
+            556,
+            573
+          ],
+          "quote": "I was doing my research on this model, and I found a quote that said you're reinventing the company to be a mini AGI. Part of the vision was that basically everybody is reporting to the same person, like a super flat organization. So how realistic do you think that is?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

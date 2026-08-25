@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DRI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DRI">DR</div><div class="pi"><h1 class="pt">DRI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DRI">DR</div><div class="pi"><h1 class="pt">DRI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(44:17起):DRI（直接责任人）是本集核心概念之一。Brian 说'想弄死一株植物，就让两个人浇它'，强调公司过了 100 人后，所有重要的事都是跨职能的，必须有一个有权势的人对结果负责，大人桌的每个 CEO 都是 DRI 的狂热信徒。
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(00:52起):本集说 DRI（直接责任人）是让一个人贯穿产品从构思到规模化的完整弧线，能综合产品、技术、商业三个维度做决策，帮团队砍掉路障、扼杀沉默否决权
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为概念
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Brian Halligan]] · [[Lenny]] · [[HubSpot]] · [[Sequoia]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]]
+[[智能体]] · [[Brian Halligan]] · [[Willem Avé]] · [[Lenny]] · [[Square]] · [[HubSpot]] · [[Block]] · [[Sequoia]] · [[业务单元模式]] · [[MongoDB]]
 
-<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":65,"HubSpot":4,"Sequoia":2,"MongoDB":3,"Salesforce":7,"Google":26,"Microsoft":12,"McKinsey":4,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":130,"Brian Halligan":1,"Willem Avé":1,"Lenny":65,"Square":3,"HubSpot":4,"Block":2,"Sequoia":2,"业务单元模式":1,"MongoDB":3}</script>
 
 <script>
 (function(){

@@ -155,9 +155,9 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|Square 为什么废掉业务单元制]]<span class="pd-rz">同公司:Block、Square · 同概念:智能体 (agent)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

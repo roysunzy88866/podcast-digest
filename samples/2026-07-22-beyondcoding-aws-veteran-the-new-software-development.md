@@ -138,18 +138,18 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla Dark Factory：95%代码无人看过就合并]]<span class="pd-rz">同概念:智能体 (agent)、形式化验证 (formal verification)</span>
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|智能体需要HR部门：TrustWise的运行时控制塔]]<span class="pd-rz">同概念:智能体 (agent)、token</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)</span>
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|Addy Osmani：从造浏览器到对抗认知投降]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:智能体 (agent)、token</span>
-- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:智能体 (agent)、技能 (skill)</span>
 
 </div>
 </div>
