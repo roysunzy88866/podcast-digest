@@ -205,7 +205,10 @@ export function parseStampedText(text) {
   for (const line of String(text ?? "").replace(/\r\n?/g, "\n").split("\n")) {
     const mp = line.match(HEADER_PAREN);
     const mb = mp ? null : line.match(HEADER_BRACKET);
-    if (mp || mb) {
+    // 方括号「人名」槽若以句末标点(.?!)收尾,那是正文误命中(如「[00:30] Yeah exactly.」),不当段头 —
+    // 让它落到下面按正文累积,别把整行吞进 speaker 丢字(防失真:宁丢软时间点也不丢正文,GLM 20260825-002[5])
+    const isBracketHeader = mb && !/[.?!]$/.test((mb[2] || "").trim());
+    if (mp || isBracketHeader) {
       cur = mp
         ? { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" }
         : { speaker: mb[2].trim(), stamp: srtTimeToSec(mb[1]), text: "" };
@@ -241,8 +244,28 @@ export function parseInlineSpeakerStamp(text) {
   //   —— 名字留在正文 = 对硬闸门无害的污染(闸门查 digest→转写,转写多一个名字不碍事);
   //   反过来切错会把正文词当名字丢掉,digest 引到的数字/专名就对不上原文 = 误拦。宁污染不丢字(防失真)。
   const NAME_AFTER_END = /([.?!]["')\]]?)\s+([A-Z][A-Za-z.''-]*(?:\s+[A-Z][A-Za-z.''-]*){0,2})\s*$/;
-  const startName = parts[0].match(NAME_AFTER_END)?.[2] ?? parts[0].trim();
   const stanzas = [];
+  // 首个时间戳之前的 parts[0]:典型只是首位说话人名(如「Alex」),但也可能夹着开场白正文。
+  // 别把开场白当名字丢掉(防失真,GLM 20260825-002[1]):
+  //   · 句末标点后接大写名 → 名字前的正文留成无戳前导段,名字当首段说话人;
+  //   · 无句末标点但 >3 词/够长 → 更像正文而非人名,整段留住、首段说话人置空;
+  //   · 短串 → 当人名标签(丢弃无害,它就是个名字)。
+  const p0 = parts[0];
+  const p0m = p0.match(NAME_AFTER_END);
+  let startName = "";
+  if (p0m) {
+    const prefix = p0.slice(0, p0m.index + p0m[1].length).trim();
+    if (prefix) stanzas.push({ speaker: "", stamp: null, text: prefix });
+    startName = p0m[2].trim();
+  } else {
+    const bare = p0.trim();
+    if (bare.split(/\s+/).filter(Boolean).length > 3 || bare.length > 30) {
+      if (bare) stanzas.push({ speaker: "", stamp: null, text: bare });
+      startName = "";
+    } else {
+      startName = bare;
+    }
+  }
   let speaker = String(startName).trim();
   for (let i = 1; i + 1 < parts.length; i += 2) {
     const stamp = srtTimeToSec(parts[i]);
@@ -262,12 +285,17 @@ export function parseInlineSpeakerStamp(text) {
   // ⚠️ 只在尖峰**稀少(≤5% 且非小样本)**时修 —— 真乱轴(如 10:00→00:05 大面积回跳)不修,照旧交 stanzasToSegments
   //    判 null 回落 ASR(时间轴整体不可信的稿不该硬洗上线,承 GLM 010[4])。
   const stampedIdx = stanzas.map((s, i) => (s.stamp != null ? i : -1)).filter((i) => i >= 0);
-  const spikes = [];
+  const spikes = []; // 存「在 stampedIdx 里的位置 k」,便于判是否紧邻稿末
   for (let k = 0; k + 1 < stampedIdx.length; k++) {
-    if (stanzas[stampedIdx[k]].stamp > stanzas[stampedIdx[k + 1]].stamp) spikes.push(stampedIdx[k]);
+    if (stanzas[stampedIdx[k]].stamp > stanzas[stampedIdx[k + 1]].stamp) spikes.push(k);
   }
-  if (spikes.length && spikes.length <= Math.floor(stampedIdx.length * 0.05)) {
-    for (const i of spikes) stanzas[i].stamp = null;
+  // 稿末时间戳是归属闸门的命根子。若尖峰紧邻稿末(它的后继就是最后一个带戳段),无从判定
+  // 到底是「峰错」还是「末段偏小错」——点掉峰会把稿末洗成偏小值(实测能洗成 5 分而真长 19 分),
+  // 污染归属判定。这种就不修,交 stanzasToSegments 撞单调判 null 回落 ASR(GLM 20260825-002[3])。
+  const lastPos = stampedIdx.length - 1;
+  const touchesTail = spikes.some((k) => k + 1 === lastPos);
+  if (spikes.length && !touchesTail && spikes.length <= Math.floor(stampedIdx.length * 0.05)) {
+    for (const k of spikes) stanzas[stampedIdx[k]].stamp = null;
   }
   return stanzasToSegments(stanzas);
 }

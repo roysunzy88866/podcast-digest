@@ -509,4 +509,56 @@ describe("C36b · 方括号头(transistor)+ 内联头(buzzsprout)稿解析", () 
     const t = "A (10:00) : x. B (00:05) : y. A (09:00) : z. B (00:03) : w.";
     expect(parseInlineSpeakerStamp(t)).toBeNull();
   });
+
+  // ── GLM 20260825-002 三条真漏洞的防回归 ──────────────────────────────
+  it("★★★ [GLM002-1] 首个时间戳前的开场白正文不丢(parts[0] 前导·防失真宁污染不丢字)", () => {
+    const t =
+      "Welcome back everyone to the show. Host (00:00) : Hello there friends. " +
+      "Guest (00:20) : Thanks for having me. Host (00:40) : lets dive in now.";
+    const segs = parseInlineSpeakerStamp(t)!;
+    expect(segs).not.toBeNull();
+    // 开场白必须留住(此前被当首位说话人名整段丢弃)
+    expect(segs.map((s) => s.text).join(" ")).toContain("Welcome back everyone to the show.");
+    expect(segs.some((s) => s.speaker === "Host")).toBe(true); // 名字仍正确当首段说话人
+  });
+  it("★★★ [GLM002-3] 稿末偏小坏戳(峰紧邻末段)不点峰洗白稿末 → null 回落 ASR", () => {
+    // 前 20 段全 <5 分,第 21 段异常大峰 19:23,末段偏小 05:00 —— 点掉峰会把稿末洗成 5 分(真 19 分),污染归属闸门
+    const parts: string[] = [];
+    for (let i = 0; i < 20; i++) {
+      const sec = 5 + i * 14; // 00:05 → 04:51,全 <5 分
+      const mm = String(Math.floor(sec / 60)).padStart(2, "0");
+      const ss = String(sec % 60).padStart(2, "0");
+      parts.push(`S${i} (00:${mm}:${ss}) : short line ${i}.`);
+    }
+    parts.push("U (00:19:23) : anomalous big peak here.");
+    parts.push("V (00:05:00) : final small tail stamp here.");
+    expect(parseInlineSpeakerStamp(parts.join(" "))).toBeNull();
+  });
+  it("★ [GLM002-3 反向] 中部孤立大峰(不碰稿末)仍正常内插修复,不误伤", () => {
+    const g: string[] = [];
+    for (let i = 0; i < 22; i++) {
+      const sec = 10 + i * 20;
+      const mm = String(Math.floor(sec / 60)).padStart(2, "0");
+      const ss = String(sec % 60).padStart(2, "0");
+      g.push(`N${i} (00:${mm}:${ss}) : g line ${i}.`);
+    }
+    g[10] = "X (00:59:00) : interior bogus peak."; // 中部孤立大峰,其后仍有递增段
+    const segs = parseInlineSpeakerStamp(g.join(" "))!;
+    expect(segs).not.toBeNull();
+    expect(segs.length).toBe(22); // 正文全留
+  });
+  it("★★★ [GLM002-5] 方括号戳后是句末标点收尾的短正文 → 不当段头吞进 speaker,正文留住", () => {
+    const t = [
+      "[00:00:02] John Collison",
+      "So we started Stripe in 2010.",
+      "[00:00:30] Yeah exactly right.", // 短正文误命中方括号头
+      "Longer content line goes here for the segment body text.",
+      "[00:01:00] Patrick",
+      "Right that makes sense.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs).not.toBeNull();
+    expect(segs.map((s) => s.text).join(" ")).toContain("Yeah exactly right."); // 正文不丢
+    expect(segs.some((s) => s.speaker === "Yeah exactly right.")).toBe(false); // 没被吞进说话人
+  });
 });

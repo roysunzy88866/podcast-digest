@@ -2700,12 +2700,31 @@ Scenario: Cheeky Pint 方括号段头稿([HH:MM:SS.ff] Name)秒级入库
   Then 解析成 {start,end,speaker,text},毫秒/秒都吃得下
   And 与现有 HEADER_PAREN(rework 的「Name (MM:SS):」)路径互不干扰(测试锚)
 
-Scenario: 孤立坏时间戳只点掉自己,不毙整稿(spike-repair 5% 上限)
-  Given 稿内绝大多数段头时间单调递增,仅零星几段时间戳明显跳变(OCR/稿源笔误)
-  When 跳变段数 ≤ 全部带戳段的 5%
+Scenario: 孤立坏时间戳只点掉自己,不毙整稿(spike-repair 5% 上限,仅内联路径)
+  Given 内联头稿(parseInlineSpeakerStamp)绝大多数段头时间单调递增,仅零星几段时间戳明显跳变(自动转写偶发)
+  When 跳变段数 ≤ 全部带戳段的 5% 且尖峰不紧邻稿末
   Then 只把这几段的时间戳置空(交给 stanzasToSegments 内插),其余照用,不整稿回落
   When 跳变超 5%(真乱序,如通篇倒序)
   Then 判「无可用时间轴」,stanzasToSegments 返回 null → 回落 ASR(GLM 010[4] 教训:真乱序不许被「修复」洗白)
+  # 范围诚实(GLM 002[4]):spike-repair 只加在内联路径;方括号/括号段头路径(parseStampedText 逐行)
+  #   遇孤立坏戳照旧整稿判 null 回落 ASR —— 安全(不污染),只是不省这一集,暂不为未证实的需求扩
+
+Scenario: 稿末时间戳是归属闸门命根子,峰紧邻末段就不修(防洗白低估稿末)
+  Given 内联稿前段全偏小、倒数第二段冒出一个异常大峰、末段又偏小(如 …04:51, 19:23, 05:00)
+  When 尖峰的后继就是最后一个带戳段(无从判定是峰错还是末段错)
+  Then 不点峰(点了会把稿末洗成 5 分而真长 19 分,污染归属判定)→ 交 stanzasToSegments 撞单调判 null 回落 ASR(GLM 002[3])
+  When 大峰在稿中部、其后仍有递增段(不碰稿末)
+  Then 照旧点掉内插修复,不误伤(GLM 002[3] 反向)
+
+Scenario: 防失真——首个时间戳前的开场白正文不丢(GLM 002[1])
+  Given 内联稿首个「(时间):」标记之前的 parts[0] 夹着开场白(如「Welcome back everyone. Host (00:00):...」)
+  Then 名字前的正文留成无戳前导段,「Host」当首段说话人 —— 绝不把开场白当人名整段丢弃(宁污染不丢字)
+  And parts[0] 只是个光名字(如「Alex」)时不产生多余段
+
+Scenario: 防失真——方括号戳后的短正文别当段头吞掉(GLM 002[5])
+  Given 方括号头稿里冒出「[00:30] Yeah exactly.」这种以句末标点收尾的短正文行
+  Then 不当段头(不把整行吞进 speaker),让它落成正文累积 —— 宁丢这一行的软时间点,也不丢正文
+  And 正常人名段头「[00:30] John Collison」(不以 .?! 收尾)照旧当段头
 
 Scenario: 后两源格式未做,如实回落 ASR(不硬塞)
   Given The Product Podcast(三行式)/ The AI-Native Dev(<cite>+裸戳)的稿
@@ -2725,3 +2744,6 @@ Scenario: 新源进补历史池,品味判官逐集把关
 4. 云端真跑实证:PMF 或 Cheeky Pint 一集走「feed 官方稿」秒级入库、过品味判官上站。
 5. 后两源(Product Podcast / AI-Native Dev)如实登记未做,不硬塞、不谎报覆盖。
 6. GLM 冷审 + 裁决落账。
+### 已知限制(GLM 002[6],安全但未覆盖)
+- 内联切分正则不认毫秒变体「(00:00:00.5)」,遇到即整份切不开返回 null 回落 ASR(安全,不污染;
+  与 HEADER_BRACKET 支持毫秒不一致)。实测 PMF 首集 110 段无毫秒,暂不为未证实需求扩;日后真遇到再加。
