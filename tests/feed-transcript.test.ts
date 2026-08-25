@@ -742,4 +742,17 @@ describe("C36c · 行末裸戳头(Product Podcast)+ buzzsprout 词级 JSON(AI-Na
     // 但纯小写常词散文(okay)仍被拦
     expect(parseStampedText(["A | Co 00:00:05", "x.", "okay 00:12:00", "y.", "B | Co 00:01:00", "z."].join("\n"))!.some((s) => s.speaker === "okay")).toBe(false);
   });
+  it("★★★ [GLM008-1/3] 单个小写品牌词/纯符号的正文行(eBay/*** 00:00:30)不被当段头吞——段头须含大写打头名字词", () => {
+    const r1 = parseStampedText(
+      ["Alex Chen | Acme 00:00:05", "x.", "eBay 00:00:30", "real content.", "Bob Lee | Beta 00:01:00", "y."].join("\n"),
+    )!;
+    expect(r1.map((s) => s.text).join(" ")).toContain("eBay 00:00:30"); // 单品牌词行留成正文
+    expect(r1.some((s) => s.speaker === "eBay")).toBe(false);
+    expect(r1.some((s) => s.speaker === "Alex Chen")).toBe(true); // 真段头仍在(有人名)
+    const r3 = parseStampedText(
+      ["Al Lee | Co 00:00:05", "x.", "*** 00:00:30", "content.", "Bo Ng | Co 00:01:00", "y."].join("\n"),
+    )!;
+    expect(r3.map((s) => s.text).join(" ")).toContain("*** 00:00:30"); // 纯符号行留成正文
+    expect(r3.some((s) => s.speaker === "***")).toBe(false);
+  });
 });

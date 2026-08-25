@@ -287,7 +287,10 @@ export function parseStampedText(text) {
     const proseWords = tailName
       .split(/\s+/)
       .filter((w) => /^[a-z]/.test(w) && !/[A-Z]/.test(w) && !NAME_PARTICLES.has(w.toLowerCase()));
-    const isTailHeader = !!tailName && proseWords.length < 1;
+    // 段头总得有个人名 —— 要求至少一个「大写打头」的词。免单个小写品牌词/纯符号正文行(「eBay 00:12」「*** 00:12」)
+    //   被当段头吞字(GLM 008[1/3]:危险方向,务必封)。真段头「姓名 | 公司」的姓名必是大写打头,不受影响。
+    const hasNameToken = /(?:^|\s)[A-Z]/.test(tailName);
+    const isTailHeader = !!tailName && hasNameToken && proseWords.length < 1;
     if (mp || isBracketHeader || isTailHeader) {
       let cand;
       if (mp) cand = { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" };
