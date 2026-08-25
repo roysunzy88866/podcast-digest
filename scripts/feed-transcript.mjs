@@ -68,6 +68,11 @@ export function hasTimedFeedTranscript(list) {
 export function parseWhisperJson(obj) {
   const segs = Array.isArray(obj) ? obj : (obj?.segments ?? obj?.results ?? null);
   if (!Array.isArray(segs) || !segs.length) return null;
+  // buzzsprout 词级稿(AI-Native Dev 等):每元素一个词 {speaker,startTime,endTime,body},
+  // 与 DOAC 的 {start,end,text} 段级形状不同 → 检出后按说话人+句末聚成可读段(C36c 2026-08-25)
+  if (segs.some((s) => s && typeof s === "object" && s.body != null && s.startTime != null)) {
+    return groupWordLevelJson(segs);
+  }
   const out = [];
   for (const s of segs) {
     if (!s || typeof s !== "object") continue;
@@ -79,6 +84,44 @@ export function parseWhisperJson(obj) {
     const speaker = String(s.speaker ?? s.speaker_label ?? "").trim();
     out.push({ start, end, speaker, text });
   }
+  return out.length ? out : null;
+}
+
+/**
+ * buzzsprout 词级 JSON({speaker,startTime,endTime,body},每元素一个词)→ 本项目段格式。
+ * 按说话人连续段聚合,遇句末标点(.?!)断句 → 可读的句级段。
+ * 防失真:body 非空的词一律留(无时间戳的词也进正文,只是不更新段起止),一词不丢。
+ */
+function groupWordLevelJson(words) {
+  const out = [];
+  let cur = null;
+  let carry = 0; // 上一段末时间,给整段无戳的病态词兜底起点
+  const flush = () => {
+    if (cur && cur.words.length) {
+      const start = Number.isFinite(cur.start) ? cur.start : carry;
+      const end = Number.isFinite(cur.end) ? cur.end : start;
+      out.push({ start, end, speaker: cur.speaker, text: cur.words.join(" ").replace(/\s+/g, " ").trim() });
+      carry = end;
+    }
+    cur = null;
+  };
+  for (const w of words) {
+    if (!w || typeof w !== "object") continue;
+    const body = String(w.body ?? "").trim();
+    if (!body) continue; // 空词才跳(防失真:有字就不丢)
+    const st = Number(w.startTime);
+    const en = Number(w.endTime);
+    const sp = String(w.speaker ?? "").trim();
+    if (!cur || cur.speaker !== sp) {
+      flush();
+      cur = { start: NaN, end: NaN, speaker: sp, words: [] };
+    }
+    if (!Number.isFinite(cur.start) && Number.isFinite(st)) cur.start = st;
+    if (Number.isFinite(en)) cur.end = en;
+    cur.words.push(body);
+    if (/[.?!]["')\]]?$/.test(body)) flush(); // 句末断句
+  }
+  flush();
   return out.length ? out : null;
 }
 
@@ -195,11 +238,14 @@ const INLINE_STAMP = /\\?\[((?:\d{1,2}:)?\d{1,3}:\d{2})\\?\]/;
  * 段头独占一行:「人名  (00:02):」/「人名 (1:02:03):」;其后各行(含空行隔开的续段)都归这个段头。
  */
 export function parseStampedText(text) {
-  // 段头独占一行,两种真实形状:
+  // 段头独占一行,三种真实形状:
   //   ① transistor/rework:「人名 (00:02):」时间点在括号、行末冒号(HEADER_PAREN)
   //   ② transistor 新版(Cheeky Pint):「[00:00:02.10] 人名」时间点在方括号打头、其后人名(HEADER_BRACKET,C36b 2026-08-25)
+  //   ③ buzzsprout(Product Podcast):「姓名 | 公司 00:00:10」姓名(可带「| 公司」)+ 行末裸 HH:MM:SS(HEADER_TAIL,C36c 2026-08-25)
   const HEADER_PAREN = /^(.{0,80}?)\s*\(((?:\d{1,2}:)?\d{1,3}:\d{2})\)\s*:\s*$/;
   const HEADER_BRACKET = /^\[((?:\d{1,2}:)?\d{1,2}:\d{2})(?:\.\d+)?\]\s*(.{0,60}?)\s*$/;
+  // 行末裸戳只认**完整 3 段 HH:MM:SS**(不认口语里的 2 段「3:30」→ 防把「meet at 3:30」正文当段头吞字);名字段 ≤80 字防吞长段落
+  const HEADER_TAIL = /^(.{0,80}?)\s+(\d{1,2}:\d{2}:\d{2})\s*$/;
   const stanzas = [];
   let cur = null;
   for (const line of String(text ?? "").replace(/\r\n?/g, "\n").split("\n")) {
@@ -211,10 +257,14 @@ export function parseStampedText(text) {
     const bcand = (mb ? mb[2] : "").trim();
     const looksProse = /[.?!]$/.test(bcand) && /\b[a-z]{2,}\b/.test(bcand);
     const isBracketHeader = mb && !looksProse;
-    if (mp || isBracketHeader) {
-      cur = mp
-        ? { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" }
-        : { speaker: mb[2].trim(), stamp: srtTimeToSec(mb[1]), text: "" };
+    // 行末裸戳头:仅当既非括号头也非方括号头时才试(优先级最低,免抢已有形状)
+    const mt = mp || mb ? null : line.match(HEADER_TAIL);
+    if (mp || isBracketHeader || mt) {
+      let cand;
+      if (mp) cand = { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" };
+      else if (isBracketHeader) cand = { speaker: mb[2].trim(), stamp: srtTimeToSec(mb[1]), text: "" };
+      else cand = { speaker: mt[1].split("|")[0].trim(), stamp: srtTimeToSec(mt[2]), text: "" }; // 「姓名 | 公司」取姓名
+      cur = cand;
       stanzas.push(cur);
       continue;
     }

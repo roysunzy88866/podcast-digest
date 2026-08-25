@@ -576,3 +576,74 @@ describe("C36b · 方括号头(transistor)+ 内联头(buzzsprout)稿解析", () 
     expect(segs.some((s) => s.text.trim() === "!")).toBe(false); // 无孤立标点段
   });
 });
+
+// C36c(2026-08-25 用户「再写两套解析器」):后两源 —— Product Podcast 行末裸戳 + AI-Native Dev 词级 JSON。
+describe("C36c · 行末裸戳头(Product Podcast)+ buzzsprout 词级 JSON(AI-Native Dev)", () => {
+  it("★★★ 行末裸戳头「姓名 | 公司 HH:MM:SS」→ 段/戳对,说话人取「|」前姓名", () => {
+    const t = [
+      "Carlos González de Villaumbrosia | Product School 00:00:00",
+      "You're reinventing the company to be a mini AGI.",
+      "Willem Avé | Square 00:00:10",
+      "You have to step back and understand why orgs exist.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs).not.toBeNull();
+    expect(segs.some((s) => s.speaker === "Carlos González de Villaumbrosia")).toBe(true); // 公司「| Product School」被剥
+    expect(segs.some((s) => s.speaker === "Willem Avé" && Math.round(s.start) === 10)).toBe(true);
+    expect(segs.map((s) => s.text).join(" ")).toContain("reinventing the company");
+  });
+  it("★★★ 行末裸戳只认完整 3 段 HH:MM:SS —— 口语 2 段时间「3:30」不误当段头吞正文", () => {
+    const t = [
+      "Alex | Acme 00:00:05",
+      "hello there this is the intro.",
+      "We usually meet at 3:30",
+      "and then we continue talking here.",
+      "Bob | Beta 00:00:20",
+      "second speaker talking now.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("meet at 3:30"); // 口语时间行留成正文,没被吞
+    expect(segs.filter((s) => s.speaker).length).toBe(2); // 只有 Alex/Bob 两个真段头
+  });
+  it("★ 行末裸戳头与现有括号头互不干扰(rework「人名 (00:02):」仍走括号路径)", () => {
+    const t = ["Michael Grinich (00:02):", "hello from workos here.", "Jane (01:00):", "second turn now."].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs.some((s) => s.speaker === "Michael Grinich" && Math.round(s.start) === 2)).toBe(true);
+  });
+  it("★★★ buzzsprout 词级 JSON({speaker,startTime,endTime,body})→ 按说话人+句末聚成可读段", () => {
+    const obj = {
+      version: "1.0.0",
+      segments: [
+        { speaker: "SPEAKER_01", startTime: 0.0, endTime: 0.2, body: "I" },
+        { speaker: "SPEAKER_01", startTime: 0.2, endTime: 0.9, body: "mean," },
+        { speaker: "SPEAKER_01", startTime: 0.9, endTime: 1.9, body: "right?" },
+        { speaker: "SPEAKER_00", startTime: 2.0, endTime: 2.5, body: "Yes." },
+        { speaker: "SPEAKER_00", startTime: 2.6, endTime: 3.0, body: "Exactly." },
+      ],
+    };
+    const segs = parseWhisperJson(obj)!;
+    expect(segs).not.toBeNull();
+    expect(segs[0]).toMatchObject({ speaker: "SPEAKER_01", start: 0 });
+    expect(segs[0].text).toBe("I mean, right?"); // 句末 ? 断句,词以空格拼接
+    expect(segs.some((s) => s.speaker === "SPEAKER_00" && s.text === "Yes.")).toBe(true); // 说话人切换断段
+    expect(segs.every((s) => !s.text.includes("SPEAKER_"))).toBe(true); // 说话人不污染正文
+  });
+  it("★★★ 词级 JSON 里无时间戳的词也不丢字(防失真:有字就留,只是不更新段起止)", () => {
+    const obj = {
+      version: "1",
+      segments: [
+        { speaker: "A", startTime: 0, endTime: 0.5, body: "Hello" },
+        { speaker: "A", body: "world." }, // 无时间戳
+        { speaker: "B", startTime: 1, endTime: 1.5, body: "Next." },
+      ],
+    };
+    const segs = parseWhisperJson(obj)!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("Hello world."); // 无戳词 world. 保留
+  });
+  it("★ 现有 DOAC 段级形状({start,end,text})不被词级分支误判,逐字不变", () => {
+    const obj = { segments: [{ start: 0, end: 2, text: "Hello world." }, { start: 2, end: 4, text: "Second here." }] };
+    const segs = parseWhisperJson(obj)!;
+    expect(segs.length).toBe(2);
+    expect(segs.map((s) => s.text)).toEqual(["Hello world.", "Second here."]);
+  });
+});

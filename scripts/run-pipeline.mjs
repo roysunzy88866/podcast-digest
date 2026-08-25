@@ -96,6 +96,9 @@ export const SOURCES = [
   // 稿格式各异,C36b 扩了解析器:buzzsprout 内联头(pmf)/ transistor 方括号头(cheekypint)秒级直用;解析失败照旧回落 ASR。
   { key: "pmf", name: "The Product Market Fit Show", feedUrl: "https://rss.buzzsprout.com/1889238.rss", asr: "whisperx" }, // 创始人找 PMF 访谈,html 内联头稿(实测 110 段),周更约 50 分
   { key: "cheekypint", name: "Cheeky Pint", feedUrl: "https://feeds.transistor.fm/cheeky-pint-with-john-collison", asr: "whisperx" }, // Stripe 联创访谈顶级创始人,text 方括号头稿(实测 250 段),更新慢
+  // C36c · 2026-08-25 用户「再写两套解析器」:后两源稿格式已扩解析器,秒级直用;解析失败照旧回落 ASR。
+  { key: "productpodcast", name: "The Product Podcast", feedUrl: "https://rss.buzzsprout.com/90361.rss", asr: "whisperx" }, // Product School 产品访谈,html 行末裸戳头(实测 44 段/集),周更约 30 分
+  { key: "ainativedev", name: "The AI-Native Dev", feedUrl: "https://rss.buzzsprout.com/2375985.rss", asr: "whisperx" }, // AI 原生开发,buzzsprout 词级 JSON(实测 579 段/集),周更约 60 分
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
@@ -114,6 +117,8 @@ export const BACKFILL_FEED_KEYS = [
   "practicalai", "changelog", "devtools", "rework", "howiai", "unsupervised", "twiml", "eyeonai", "indepth", "uncapped",
   // C36b(2026-08-25 用户拍板):带稿新源进补历史池,品味判官逐集把关
   "pmf", "cheekypint",
+  // C36c(2026-08-25 用户「再写两套解析器」):后两源接入,进补历史池
+  "productpodcast", "ainativedev",
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)

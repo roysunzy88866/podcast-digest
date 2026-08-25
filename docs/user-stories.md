@@ -2747,3 +2747,46 @@ Scenario: 新源进补历史池,品味判官逐集把关
 ### 已知限制(GLM 002[6],安全但未覆盖)
 - 内联切分正则不认毫秒变体「(00:00:00.5)」,遇到即整份切不开返回 null 回落 ASR(安全,不污染;
   与 HEADER_BRACKET 支持毫秒不一致)。实测 PMF 首集 110 段无毫秒,暂不为未证实需求扩;日后真遇到再加。
+
+## C36c · 后两源接入(Product Podcast 行末裸戳 + AI-Native Dev 词级 JSON)· US-4/US-11 · 2026-08-25 用户拍板「再写两套解析器」
+
+> C36b 接了 PMF/Cheeky Pint,后两源留着。用户拍「再写两套解析器」。实抓两份真稿定格式:
+> - **The Product Podcast**(buzzsprout, feed 90361):只挂 text/html 稿。剥标签后段头形如
+>   「Carlos González de Villaumbrosia | Product School 00:00:00」——**姓名(可带「| 公司」)+ 行末裸 HH:MM:SS**,
+>   无括号无方括号无冒号。现有三种头(括号/方括号/内联)都不命中 → 需第四种:行末裸 3 段时间戳头。
+> - **The AI-Native Dev**(buzzsprout, feed 2375985):同时挂 application/json + SRT + text/html。
+>   JSON 是 **buzzsprout 词级**({version, segments:[{speaker,startTime,endTime,body}]},每元素一个词),
+>   现有 parseWhisperJson 只认 DOAC 的 {start,end,text} → 返 null。SRT 能解但正文带「SPEAKER_01:」前缀污染。
+>   最优 = 扩 parseWhisperJson 认词级 shape,按说话人+句末标点聚成段(说话人进独立字段不污染正文)。
+
+Scenario: Product Podcast 行末裸戳头(姓名 | 公司 HH:MM:SS)秒级入库
+  Given text/html 稿剥标签后段头形如「Willem Avé | Square 00:00:10」(行末裸 3 段时间戳)
+  When parseStampedText 的 HEADER_TAIL 分支命中(要求行末是完整 HH:MM:SS,不认口语里的 2 段时间如「3:30」防误吞)
+  Then 解析成 {start,end,speaker,text};说话人取「|」前的姓名(无「|」就取整串),时间戳=行末裸戳
+  And 归属闸门照旧硬拦(官方音频时长 vs 稿末段时间)
+  And 与现有括号/方括号/内联头路径互不干扰(测试锚)
+
+Scenario: 行末裸戳只认 3 段 HH:MM:SS,口语里的 2 段时间不误当段头(防吞正文)
+  Given 正文行以口语时间收尾,如「We usually meet at 3:30」
+  Then HEADER_TAIL 不命中(只认 (\d{1,2}:)?\d{1,2}:\d{2} 里的完整 3 段 + 行首名字够短),该行落成正文累积,不丢字
+
+Scenario: AI-Native Dev 词级 JSON 聚成段(说话人不污染正文)
+  Given application/json 稿是 buzzsprout 词级 {segments:[{speaker,startTime,endTime,body}]},每元素一个词
+  When parseWhisperJson 检出词级 shape(元素有 body+startTime、无 text/start)
+  Then 按说话人连续段 + 句末标点(.?!)聚成可读段,start=段首词 startTime、end=段末词 endTime、
+       speaker=该段说话人(SPEAKER_01 等)、text=词以空格拼接
+  And 一个词都不丢(防失真:body 为空才跳,无时间戳的词仍留正文只不更新时间)
+  And 现有 DOAC 形状({start,end,text})路径逐字不变(测试锚)
+
+Scenario: JSON 优先但解不出不该埋没 SRT —— 词级识别让 AI-Native Dev 的 JSON 直接可用
+  Given AI-Native Dev feed 同挂 JSON(词级)+ SRT,pickFeedTranscript 优先 JSON
+  Then 扩后 parseWhisperJson 认词级 JSON 直接出段(不再 null 回落 ASR);SRT 作冗余不必动
+  So 归属闸门有稳定时间轴,秒级入库
+
+### DoD(C36c)
+1. parseStampedText 新增 HEADER_TAIL(行末裸 HH:MM:SS 头),只认完整 3 段防口语 2 段时间误吞;现有三种头路径逐字不变(测试锚)。
+2. parseWhisperJson 新增词级 shape 分支(buzzsprout {speaker,startTime,endTime,body}),按说话人+句末聚段,一词不丢;DOAC 形状零改动(测试锚)。
+3. 单测覆盖:Product Podcast 头 + 口语 2 段时间不误吞 + 词级 JSON 聚段 + 无时间词保留 + DOAC 不变;变异当场红。
+4. 云端真跑实证:Product Podcast 或 AI-Native Dev 一集走「feed 官方稿」秒级过品味判官上站。
+5. 两源进 SOURCES + BACKFILL_FEED_KEYS,--seed 设基线(只补缺不顶存量)。
+6. GLM 冷审 + 裁决落账。
