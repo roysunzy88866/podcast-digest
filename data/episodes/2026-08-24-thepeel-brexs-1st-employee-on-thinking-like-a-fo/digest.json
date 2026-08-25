@@ -1,0 +1,135 @@
+{
+  "title_zh": "非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款",
+  "tldr": "Figure CEO Michael Tannenbaum 分享非创始人如何用运营者心态经营公司，以及 Figure 如何用区块链将抵押贷款成本从 12000 美元降至 1000 美元。",
+  "digest_md": "非创始人 CEO 和创始人 CEO 有什么本质区别？Michael 的回答很直接：不是身份问题，是心态问题。他在 SoFi 从财务副总裁做到业务负责人，在 Brex 从厨房里的第一名员工做到 COO，现在是 Figure 的 CEO——三家公司他都不是创始人，但他强调，关键在于你是\"在经营一家公司\"还是\"在管理一段职业生涯\"。这两种心态优化的是完全不同的东西 [00:51 Unknown]。\n\n高管心态的一个典型表现：带着自己的供应商进来。比如管营销的就带自己的公关公司，管法务的就带自己的律所——这些选择是基于\"我的关系\"而不是\"对公司最好\"。运营者心态是基于第一性原理做选择：这家公司现在需要什么，就用什么 [01:36 Unknown]。Michael 在 SoFi 亲历过这种分岔路：当时他是财务副总裁，圈子里的人都劝他别去接手那个一团糟的抵押贷款业务——\"财务副总裁每个公司都需要，你在旧金山有无数选择\"；但他接了，因为他判断这是公司需要的。这不是在优化自己的简历可迁移性，而是在为公司解决问题 [04:42 Unknown]。\n\n从大公司招高管也容易引入这种偏差。他从 Meta 等大公司招来的人，框架往往是自我保护：附着在已经成功的事情上，远离问题。而他的做法相反——事情在运转的，不花时间；专门盯着问题 [06:40 Unknown]。\n\n## 抓客户反馈不是口号，是机制\n\nMichael 用\"大石头\"框架管理公司：Figure 有三个不随季度变化的顶层目标，每个目标有自己的周会和 Slack 频道，所有人跨职能围绕这些目标对齐 [09:33 Unknown]。但更值得注意的是他获取客户反馈的方式——不是偶尔做做用户访谈，而是把反馈管道直接嵌进日常运营：产品里有客户满意度按钮，结果直接流入 Slack 频道，尤其是负面反馈，全员可见 [12:16 Unknown]。此外每季度和最大客户做 QBR（季度业务回顾），他自己参加 [12:33 Unknown]。\n\n他还有一个刻意设计的做法：高管团队每年两次的外出活动，永远包含一次客户拜访。不是去迈阿密海滩，而是去客户密集的城市——匹兹堡、达拉斯、夏洛特。目的是让法务、财务这些不一定直接接触客户的同事，亲眼看到客户长什么样、怎么运作，产生同理心 [12:55 Unknown]。\n\n## Figure 做了什么：把抵押贷款搬上区块链\n\nFigure 是一家用区块链技术做资本市场基础设施的公司，切入点是房屋净值信贷额度（HELOC）。核心数据：行业平均发放一笔贷款成本 12000 美元、耗时 45 天；Figure 做到 1000 美元、最快 5 天（平均 9 天，其中 3 天是监管强制等待期）[22:19 Unknown]。\n\n为什么能快这么多？Michael 举了一个他在 SoFi 做证券化时发现的低效：同一笔贷款的信用评分，SoFi 查一遍，买家查一遍，证券化时查一遍，评级机构再查一遍——每次都要付费。Figure 的做法是在贷款发起第一天就把 FICO 分数等属性上链，后续所有买家和评估者直接引用初始哈希值，不再重复验证，省掉 80% 的成本 [24:23 Unknown]。\n\n区块链的第二个实际价值：防双重出售。在传统贷款买卖中，同一个人可以把同一笔贷款卖给多个买家——他提到今年一个叫 Tricolor 的破产案，某金融机构因此损失了几亿美元。区块链上每笔贷款的权属清晰可追踪，到留置权级别，从根本上杜绝了这类欺诈 [25:17 Unknown]。\n\n有人问\"非得用区块链吗，传统数据库不行吗？\"Michael 的回答很实在：传统数据库也可以，但问题是\"谁来拥有和维护这个数据库\"。区块链的好处是有激励机制让这件事不需要任何单一方来拥有和维护 [27:04 Unknown]。\n\n## 从 DTC 到市场平台：为什么别的公司不这么做\n\nFigure 最初直接面向消费者放贷——因为 B2B 合作伙伴不想当小白鼠，没人想做第一个。但给钱比拿钱容易建立品牌，而且 Figure 和 SoFi 一样瞄准大众富裕阶层（年收入 75000 到 250000 美元的房主），每个客户都有房有净值 [53:05 Unknown]。\n\n关键转折是从 DTC 转型为市场平台：不再自己放贷再卖掉，而是把技术和资本市场开放给银行、信用合作社、金融科技公司，让他们用 Figure 的系统自己放贷，然后卖到 Figure 的市场里。这个转型在两年内从零做到占业务量的 60% 以上 [55:10 Unknown]。这也是 Figure 上市故事的核心——市场平台模式很难被颠覆，也很难用 AI 或写代码抄出来 [56:11 Unknown]。\n\n为什么更多金融科技公司不把自己变成市场？Michael 说两个原因。第一，你必须放弃收入和 EBITDA——Figure 推出市场平台时，把经济回报让给了合作伙伴，自己赚更高利润率但绝对收入少了，类似特许经营模式。人们讨厌主动放弃收入数字，尤其在上市公司眼里这会让业务难以建模 [72:25 Unknown]。第二，大多数人根本没有这个愿景，他们的北极星是客户数或交易量，而不是\"用市场作为区块链改变资本市场的参考案例\" [74:09 Unknown]。\n\n最近 Figure 收购了 Kiavi（投资人贷款领域的市场领导者），收购当天就联合 Sixth Street 把它转型成了市场平台——Kiavi 原本是 DTC 模式，现在用 Figure 的市场来销售贷款 [68:19 Unknown]。\n\n## AI 冲击的是获客渠道，不是承销\n\nFigure 并没有把承销外包——合作伙伴用的是 Figure 的系统，承销和贷款处理仍在 Figure 的平台上完成 [74:49 Unknown]。真正外包的是获客（go-to-market）。这里有一个 AI 带来的真实风险：传统上很多贷款靠 Credit Karma、Lending Tree 这类线索聚合网站获客，这些网站靠写博客、做 SEO 聚集流量再卖线索。但当用户直接问 Claude 或 GPT\"我应该去哪借钱\"时，AI 可能只给一个答案——赢家通吃，长尾网站会被严重挤压 [75:40 Unknown]。\n\nFigure 的应对：一方面保留 DTC 业务作为测试和风险缓冲（虽然体量小），另一方面自己上 AI 贷款专员助手——因为 Figure 的流程已经足够简单便宜，AI 助手更容易介入和自动化 [76:05 Unknown]。\n\n## 上市的体验\n\nMichael 带着上市使命加入 Figure，18 个月完成。他描述上市过程中最折磨人的是时机：金融公司有利率风险，窗口期开了又关，政府停摆、战争都会影响。所有材料必须随时准备就绪，等市场窗口打开就立刻启动 [78:25 Unknown]。\n\n上市后最大的变化：季报节奏。发财报时你其实在讲 45 天甚至 135 天前的事，但你不能透露当前季度的任何情况。更微妙的是心态变化——私企时投资者把你给的信息当礼物，上市后从 X 上的人到晚餐桌上的人都觉得有权对你的薪酬、决策、业绩发表意见 [80:15 Unknown]。\n\n## 本集带走\n\n- **区分两种心态**：运营者心态问\"公司需要什么\"，高管心态问\"这对我的履历/关系有什么好处\"。选人时观察他们带来的是\"自己的供应商\"还是\"第一性原理的选择\"。\n- **客户反馈管道化**：不是靠偶尔的用户访谈，而是把 CSAT 结果直接灌进全员 Slack 频道，负面反馈实时可见；高管务虚会捆绑客户拜访，让不直接接触客户的人也产生同理心。\n- **区块链的实际价值不是\"上链\"本身**：Figure 的案例是，上链解决了两个具体问题——重复验证同一贷款属性浪费的钱（省 80% 成本），以及贷款双重出售的欺诈。如果没人想买你的资产，上链毫无意义 [60:23 Unknown]。\n- **市场平台转型的代价**：要把 DTC 业务变成平台，必须主动放弃收入和 EBITDA 数字，让合作伙伴赚更多——这是大多数人不愿意做的，也是在上市前做比上市后做更合理的原因。\n- **AI 对金融科技获客的真实冲击**：不是 AI 取代承销，而是 AI 搜索（Claude/GPT）可能把线索聚合网站的长尾流量吃掉，变成赢家通吃。有 DTC 业务的公司至少有一层缓冲。\n- **加油站测试**：如果你被扔进一家加油站，你知不知道怎么给汽油定价、怎么运营？能看懂客户反馈在说什么、能判断业务问题在哪，是运营者的基本功，跟头衔无关 [84:14 Unknown]。",
+  "quotes": [
+    {
+      "en": "Like whatever starts to be working, they kind of run there like little kids playing soccer, you know, chase the ball and they're running away from problems.",
+      "zh": "就像不管什么开始起作用了，他们就会像小孩踢足球那样跑到那里，你知道，追逐球，而他们逃离问题。",
+      "timestamp": "07:06",
+      "speaker": "Michael Tannenbaum"
+    },
+    {
+      "en": "we do it in about a thousand dollars versus twelve thousand industry average and we do it for uh in about five days versus industry average of 45.",
+      "zh": "我们的成本大约是 1000 美元，而行业平均水平是 12000 美元，我们的耗时大约是 5 天，而行业平均水平是 45 天。",
+      "timestamp": "22:24",
+      "speaker": "Michael Tannenbaum"
+    },
+    {
+      "en": "So one of the advantages Figure has, and I like this a lot, is that even though we are B2B, we can launch products direct to consumer because partners don't want to be the guinea pig.",
+      "zh": "Figure 的一个优势，而且我非常喜欢这一点，是即使我们是 B2B，我们也可以直接面向消费者推出产品，因为合作伙伴不想做小白鼠。",
+      "timestamp": "53:12",
+      "speaker": "Michael Tannenbaum"
+    },
+    {
+      "en": "Just because you put something on a blockchain or quote tokenize it, doesn't mean people want it.",
+      "zh": "仅仅因为你把某样东西放在区块链上或者引用说是代币化它，并不意味着人们想要它。",
+      "timestamp": "60:29",
+      "speaker": "Michael Tannenbaum"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:51",
+      "speaker": "Unknown",
+      "en": "And I've always had sort of this owner's mentality, act like an owner.",
+      "zh": "我一直有这种所有者的心态，表现得像个所有者。"
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Unknown",
+      "en": "My executive mindset is a lot about people are thinking about what they might do next or how this might look on paper.",
+      "zh": "我的高管心态很大程度上是关于人们在思考他们接下来可能做什么，或者这在纸面上看起来如何。"
+    },
+    {
+      "timestamp": "06:54",
+      "speaker": "Unknown",
+      "en": "It's all about kind of attaching yourselves to things that's working and staying as far away from things that are not working.",
+      "zh": "这全都关于某种程度上把自己附着在运作良好的事物上，并尽可能远离运作不好的事物。"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Unknown",
+      "en": "Like whatever starts to be working, they kind of run there like little kids playing soccer, you know, chase the ball and they're running away from problems.",
+      "zh": "就像不管什么开始起作用了，他们就会像小孩踢足球那样跑到那里，你知道，追逐球，而他们逃离问题。"
+    },
+    {
+      "timestamp": "18:18",
+      "speaker": "Unknown",
+      "en": "If someone is making 120,000 dollars, that became six times easier, right?",
+      "zh": "如果某人赚 120,000 美元，那这就容易了六倍，对吧？"
+    },
+    {
+      "timestamp": "22:19",
+      "speaker": "Unknown",
+      "en": "we do it in about a thousand dollars versus twelve thousand industry average and we do it for uh in about five days versus industry average of 45.",
+      "zh": "我们的成本大约是 1000 美元，而行业平均水平是 12000 美元，我们的耗时大约是 5 天，而行业平均水平是 45 天。"
+    },
+    {
+      "timestamp": "25:07",
+      "speaker": "Unknown",
+      "en": "So for example, we take 80% of the cost.",
+      "zh": "例如，我们节省了 80% 的成本。"
+    },
+    {
+      "timestamp": "25:32",
+      "speaker": "Unknown",
+      "en": "Another clear example of how we are fast and efficient is that we prevent loans from being double sold or double pledged, which is a huge way that fraud happens by tracking a loan and its life on a blockchain.",
+      "zh": "另一个关于我们如何快速和高效的清晰例子是，我们通过在区块链上跟踪贷款及其生命周期，来防止贷款被双重出售或双重质押，这是欺诈发生的一个巨大方式。"
+    },
+    {
+      "timestamp": "27:15",
+      "speaker": "Unknown",
+      "en": "if if you did it by a traditional database you get into the question of well who owns and maintains that database the nice thing about blockchain is that there's incentives that allow that to happen without anyone having to own that or maintain it",
+      "zh": "如果你通过传统数据库来做，你会遇到这个问题，嗯，谁拥有和维护该数据库，区块链的好处是有激励机制允许这种情况发生，而任何人都不必拥有或维护它"
+    },
+    {
+      "timestamp": "30:10",
+      "speaker": "Unknown",
+      "en": "Crypto and blockchain were fundamentally money-oriented technologies.",
+      "zh": "加密货币和区块链从根本上说是以金钱为导向的技术。"
+    },
+    {
+      "timestamp": "53:12",
+      "speaker": "Unknown",
+      "en": "It's very hard to get people to adopt something that's not working.",
+      "zh": "让人们采用某种不起作用的东西是非常困难的。"
+    },
+    {
+      "timestamp": "53:21",
+      "speaker": "Unknown",
+      "en": "So one of the advantages Figure has, and I like this a lot, is that even though we are B2B, we can launch products direct to consumer because partners don't want to be the guinea pig.",
+      "zh": "Figure 的一个优势，而且我非常喜欢这一点，是即使我们是 B2B，我们也可以直接面向消费者推出产品，因为合作伙伴不想做小白鼠。"
+    },
+    {
+      "timestamp": "60:29",
+      "speaker": "Unknown",
+      "en": "Just because you put something on a blockchain or quote tokenize it, doesn't mean people want it.",
+      "zh": "仅仅因为你把某样东西放在区块链上或者引用说是代币化它，并不意味着人们想要它。"
+    },
+    {
+      "timestamp": "72:25",
+      "speaker": "Unknown",
+      "en": "One, you have to give up revenue and EBITDA to do it.",
+      "zh": "第一，你必须放弃收入和 EBITDA 来做这件事。"
+    },
+    {
+      "timestamp": "74:49",
+      "speaker": "Unknown",
+      "en": "so we we maintain the underwrite like our system kind of going back to the Fannie Mae example we are still doing the underwriting and the processing of the loans",
+      "zh": "所以我们我们维持承销，就像我们的系统有点回到房利美的例子，我们仍然在做承销和贷款处理"
+    },
+    {
+      "timestamp": "77:04",
+      "speaker": "Unknown",
+      "en": "And because at the end of the day, if you're asking Claude or you're asking GPT or you're asking Gemini, it may only give you one option.",
+      "zh": "而且因为归根结底，如果你在问 Claude 或者你在问 GPT 或者你在问 Gemini，它可能只给你一个选项。"
+    },
+    {
+      "timestamp": "84:23",
+      "speaker": "Unknown",
+      "en": "None of these people that live in them could run a gas station.",
+      "zh": "住在这里的人没有一个能经营加油站。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-lennys-i-spent-20000-on-devin-in-a-month",
+  "audio_mp3": "https://api.substack.com/feed/podcast/211609191/4ad86218bbaf6202e0f5c6ee68214f7f.mp3",
+  "duration_sec": 2651.105,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 663,
+  "asr": true,
+  "title_en": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-24",
+  "added": "2026-08-25",
+  "speaker_map": {
+    "SPEAKER_00": "Ryan Carson",
+    "SPEAKER_01": "Claire"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Ryan Carson",
+  "cohosts": [
+    "Claire"
+  ],
+  "title_zh": "Ryan Carson：怎么管一群AI智能体干活",
+  "guest_name": "Ryan Carson",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

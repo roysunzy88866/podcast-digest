@@ -1,0 +1,43 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "09:46",
+      "speaker": "Ryan Carson",
+      "trimmed": false,
+      "tsWas": "09:46",
+      "spkWas": "Ryan Carson"
+    },
+    {
+      "i": 2,
+      "timestamp": "20:13",
+      "speaker": "Ryan Carson",
+      "trimmed": false,
+      "tsWas": "20:13",
+      "spkWas": "Ryan Carson"
+    },
+    {
+      "i": 4,
+      "timestamp": "23:25",
+      "speaker": "Claire",
+      "trimmed": false,
+      "tsWas": "23:25",
+      "spkWas": "Ryan Carson"
+    },
+    {
+      "i": 5,
+      "timestamp": "37:59",
+      "speaker": "Claire",
+      "trimmed": false,
+      "tsWas": "37:53",
+      "spkWas": "Ryan Carson"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "命中片段跨说话人(占比0.79/连续他人6词,疑拼接)",
+      "en": "So yeah, I think we all wanted these sort of like automatic improvement loops, and they just don't work with product. They're kind of a joke."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>123</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>124</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,10 +19,11 @@ unlisted: true
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:34起):本集把 AI 定位为「催化剂」而非替代品:用于帮用户优化档案、给挑照片的建议,但绝不允许伪造照片或替用户发消息,目标是让爱与连接更人性化
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(30:07起):本集提到两方面的 AI 应用：一是内部用 AI 检查平台上每个人的年龄、开源语音安全过滤器；二是让「你制作游戏」的口号通过 AI 变得比以往任何时候都更真实——通过说话就能做出游戏。
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(01:15起):本集说 AI 有一种有趣的二分法——它非常民主化，将能力分配到世界任何地方，但同时又把发展最快的震中集中到了湾区，这加速了无国界创始人战略的演变
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(07:51起):本集说 AI 对金融科技的真实冲击不在承销而在获客——当用户直接问 Claude 或 GPT 去哪借钱时，AI 可能只给一个答案，赢家通吃，Credit Karma、Lending Tree 等线索聚合网站的长尾流量会被挤压。
 
 ## ① 提到它的金句
 
-*123 条*
+*124 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -270,9 +271,11 @@ unlisted: true
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q3]]
 
+![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q8]]
+
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -282,14 +285,15 @@ unlisted: true
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为概念(提及)
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Stripe]] · [[LLM]] · [[智能体]] · [[MCP]] · [[Claude]] · [[a16z]] · [[Dylan Field]] · [[Melanie Perkins]] · [[Marc Andreessen]]
+[[Lenny]] · [[Stripe]] · [[Claude]] · [[MCP]] · [[LLM]] · [[智能体]] · [[Brex]] · [[a16z]] · [[Meta]] · [[Dylan Field]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":16,"LLM":13,"智能体":118,"MCP":15,"Claude":28,"a16z":5,"Dylan Field":2,"Melanie Perkins":1,"Marc Andreessen":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":17,"Claude":29,"MCP":15,"LLM":14,"智能体":121,"Brex":3,"a16z":5,"Meta":17,"Dylan Field":2}</script>
 
 <script>
 (function(){

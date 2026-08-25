@@ -1,0 +1,135 @@
+{
+  "title_zh": "Wes Bos 谈 AI 编程时代如何脱颖而出",
+  "tldr": "前端开发者 Wes Bos 认为 AI 编程不会回退，但成本不可持续；开发者应靠个人品牌而非代码本身证明能力。",
+  "digest_md": "当所有人都用智能体写代码，代码就不再能证明你的能力了——你需要另一种方式展示你到底会什么。这是前端社区长期做教学的 Wes Bos 的判断 [21:09 Unknown]。\n\n## 生成式 UI：有上下文，但还没到那一步\n\n生成式 UI 的核心前提是对的：AI 非常擅长根据已有上下文决定该做什么，所以下一步就是让它帮你生成界面。比如智能家居——它已经知道你的灯什么时候开、摄像头什么时候关，理论上它应该能直接为你生成一个控制面板，而不是让你花时间自己设计 [02:09 Unknown]。\n\n但现实中还没产品真正用好这件事。Wes 他们试过让 AI 根据播客文稿自动生成字幕条之类的视觉覆盖层，结果做出来的东西「有点俗气」，不够好 [05:15 Unknown]。更根本的问题是：用户真的能比专门做产品的人设计出更好的界面吗？有些粗制滥造的网站被 AI 炮制出来，体验很差。你仍然需要 UI 设计师去理解人怎么用产品 [03:35 Unknown]。\n\n不过有一个中间地带确实在发生：很多人用 vibe coding（凭感觉描述需求让 AI 写代码）做出自己专属的工具版本——不是给两万用户做的，是给自己做的，解决自己的痛点。这很棒，但这跟「生成式 UI 组件」不是一回事 [04:06 Unknown]。\n\n## 真正有效的智能体用法：迭代循环\n\nWes 日常开发大概是 Cursor 和 Claude Code 各占一半 [09:59 Unknown]。他观察到一种叫 loop engineering 的做法——人不直接写提示词，而是写一个循环，让循环去驱动模型 [05:38 Unknown]。\n\n他自己就干过这事：在 Cursor 里让模型照着一份 API 文档构建界面，模型总是做一半就停下来，因为跑太久太贵了。于是他写了个循环：每次模型说做完了，就让它回头去对照原始 API 文档，逐条检查有没有遗漏。这样循环了七八次，每次都发现新的用例没覆盖到。一次性做完太多，迭代循环反而更好 [06:48 Unknown]。\n\n更广泛的自愈场景也成立——网站报错、用户投诉、日志异常，这些上下文喂给模型让它自动修。但现在的问题是太贵了。认真这么干的人要么在烧几千美元，要么在用月费 200 美元的套餐然后 token 很快用光 [06:20 Unknown]。\n\n## 成本是最大的隐患\n\nWes 反而在关注更便宜的模型。不是因为抠门——很多公司给了他无限 token——而是他好奇一个问题：当钱花完了，软件工程还长什么样？[10:31 Unknown]\n\n他算过账：一个月一千美元的订阅可能都不够，他知道自己能轻松一天花 200 美元在 token 上，还有人比他猛十倍 [13:29 Unknown]。如果一个大型组织有数千名工程师，这笔账会非常惊人 [14:25 Unknown]。\n\n他的希望是四年后能花一万五千美元买一台设备放在家里跑本地模型——就像现在录音棚里摆着三万美元的视频设备一样，不算疯狂 [12:14 Unknown]。但短期内他不觉得本地模型能真正跑起来 [12:10 Unknown]。\n\n有一点他很确定：没人会回到不用 AI 写代码的日子。「这太好了，我们不可能放弃它。」 [13:14 Unknown] 甚至那些进了管理层、没时间写代码的人，现在也能通过编排智能体重新动手构建了 [14:08 Unknown]。\n\n## 教育变了：学「怎么解决问题」而不是语法\n\n教育确实被撼动了。直接问智能体「怎么做」比看 20 小时课程快得多——这话出自一个自己做课程的人之口 [14:55 Unknown]。\n\n但需要学的东西没消失，只是换了个层级。你不再需要记住数组 reduce 的语法，你需要学的是系统设计、是怎么拆解和解决问题 [15:29 Unknown]。Wes 举了自己的例子：他是个 Web 开发者，不懂 C 语言，但他的摄影灯蓝牙 app 太难用，于是他拿一个五美元的微控制器，反编译桌面应用，逆向工程了蓝牙 mesh 协议，用 C 写了个节点接上灯。他懂蓝牙原理、懂密钥交换、懂 mesh 网络怎么通信——这些高层知识让他在不会 C 的情况下也能搞定 [16:31 Unknown]。\n\nLLM 里的解决方案都是已有的方案。遇到全新问题，模型能帮你加速想，但不能完全替你解决 [15:54 Unknown]。\n\n## 个人品牌：代码不说话了，你得自己说\n\n开发者一向对营销过敏，但 Wes 认为个人品牌现在是必要的 [20:42 Unknown]。逻辑很简单：代码不能再替你说话了。你可能正在工作中解决很难的问题，但如果你没有任何方式向外界展示这一点，职业发展就会受阻 [21:09 Unknown]。\n\n具体怎么做？他的建议是别试图全平台铺开——选一个当下最有效的渠道深耕。现在可能是 TikTok，六个月后可能换别的，Twitter 在技术圈一直很大 [22:03 Unknown]。\n\nNewsletter（邮件通讯）仍然是直接触达受众最好的方式之一，因为其他平台全是算法驱动，你得祈祷算法眷顾你 [23:04 Unknown]。但讽刺的是，AI 生成的个性化邮件正在把收件箱变成垃圾场——每封都不一样，垃圾邮件过滤器抓不住，Wes 几乎要放弃邮件了。真正的对话反而转移到了私信里 [23:15 Unknown]。\n\n## AI 生成内容：用在流程上，别用在想法上\n\nWes 对用 AI 生成内容的态度很鲜明：「别这么做。」 [25:20 Unknown] 他收到过一个他很尊重的播客嘉宾发的 AI 写的邮件，两句话，让他去看看新项目。他本来会去看的，但发现是 AI 写的，感觉被糊弄了 [25:22 Unknown]。\n\n但他确实用 AI 做内容流程的自动化：比如把会议信息发到网站、把散落在各个社交平台的短视频链接汇总成一个页面——这些以前很烦的体力活，现在一个智能体就能搞定 [26:04 Unknown]。他还会用 AI 帮忙剪视频里的废话。\n\n但演讲内容和幻灯片？绝对不用 AI 写。「你以为我是来这里总结一些 Claude 梦想出来的要点吗？那是对买了票的人的侮辱。」 [27:05 Unknown] 他现在的做法是语音转文字生成网页，然后用那个网页当幻灯片——内容是自己想的，排版交给工具 [27:20 Unknown]。\n\n## 本集带走\n\n- **代码不再是能力的证明**：人人都能用智能体写代码，你必须通过其他方式（分享、教学、展示解决过程）让别人看到你会什么。\n- **迭代循环比一次性生成更可靠**：复杂任务不要指望模型一次做完，写一个循环让它反复对照原始需求检查遗漏，效果更好。\n- **关注成本**：一天 200 美元的 token 消耗在重度使用中很常见，大组织规模化后这笔账不可忽视——便宜的模型反而值得认真评估。\n- **学高层知识，别学语法**：懂蓝牙协议和 mesh 网络原理，就能在不会 C 的情况下用 C 写微控制器程序。LLM 能帮你补语法，不能帮你做架构决策。\n- **AI 用在流程自动化，别用在创意输出**：汇总链接、发布内容、剪辑静音这些重复劳动交给 AI；邮件、演讲内容、Slides 的观点必须自己写，否则就是在侮辱受众。",
+  "quotes": [
+    {
+      "en": "I think that's great that people can just make their own version of something that makes them happy and does exactly what they want and not what their 20,000 customers need.",
+      "zh": "我认为这很棒，人们可以只制作他们自己的版本，让他们开心，并且完全做他们想做的事，而不是他们的 20,000 个客户需要的事。",
+      "timestamp": "04:17",
+      "speaker": "Wes Bos"
+    },
+    {
+      "en": "Because it's fun to architect these huge systems, but in a month it's just a prompt.",
+      "zh": "因为架构这些庞大的系统很有趣，但一个月后它就只是一个提示词了。",
+      "timestamp": "09:52",
+      "speaker": "Wes Bos"
+    },
+    {
+      "en": "But I'm curious about what does software engineering look like when the money runs out?",
+      "zh": "但我很好奇，当钱用光时，软件工程会是什么样子的？",
+      "timestamp": "10:41",
+      "speaker": "Wes Bos"
+    },
+    {
+      "en": "The code doesn't speak for your ability anymore.",
+      "zh": "代码不再代表你的能力了。",
+      "timestamp": "01:17",
+      "speaker": "Wes Bos"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:35",
+      "speaker": "Unknown",
+      "en": "You see some of these shitty websites that get cranked out, and it's just not a good experience.",
+      "zh": "你看到有些粗制滥造的网站被大量炮制出来，这并不是好的体验。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Unknown",
+      "en": "I think that's great that people can just make their own version of something that makes them happy and does exactly what they want and not what their 20,000 customers need.",
+      "zh": "我认为这很棒，人们可以只制作他们自己的版本，让他们开心，并且完全做他们想做的事，而不是他们的 20,000 个客户需要的事。"
+    },
+    {
+      "timestamp": "05:26",
+      "speaker": "Unknown",
+      "en": "So I don't think we're there quite yet.",
+      "zh": "所以我认为我们还没完全达到那一步。"
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Unknown",
+      "en": "It's just that right now, it's just way too expensive to actually do that.",
+      "zh": "只是现在，实际做那件事的成本太高了。"
+    },
+    {
+      "timestamp": "09:48",
+      "speaker": "Unknown",
+      "en": "That's the fun, good, and depressing part of it.",
+      "zh": "这就是它有趣、美好和令人沮丧的地方。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Unknown",
+      "en": "Because it's fun to architect these huge systems, but in a month it's just a prompt.",
+      "zh": "因为架构这些庞大的系统很有趣，但一个月后它就只是一个提示词了。"
+    },
+    {
+      "timestamp": "10:41",
+      "speaker": "Unknown",
+      "en": "But I'm curious about what does software engineering look like when the money runs out?",
+      "zh": "但我很好奇，当钱用光时，软件工程会是什么样子的？"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Unknown",
+      "en": "I'm not going back to writing it the regular way.",
+      "zh": "我不会回到以常规方式写代码。"
+    },
+    {
+      "timestamp": "13:17",
+      "speaker": "Unknown",
+      "en": "I don't think a lot of people are like, this is way too good.",
+      "zh": "我不认为很多人会，因为这太好了。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "There's no chance we're just going to go back to not using it.",
+      "zh": "我们不可能不再使用它。"
+    },
+    {
+      "timestamp": "14:37",
+      "speaker": "Unknown",
+      "en": "We're in a weird spot right now.",
+      "zh": "我们现在处在一个奇怪的境地。"
+    },
+    {
+      "timestamp": "15:54",
+      "speaker": "Unknown",
+      "en": "And like that to me is the like important knowledge right now is like how do you tackle and figure out new solutions right because there's all of the solutions in these LLMs right now are just solutions that have already been made",
+      "zh": "对我来说，这现在是重要的知识，就是你是如何应对并找出新解决方案的，因为现在这些 LLM 中的所有解决方案都只是已经制造出来的解决方案"
+    },
+    {
+      "timestamp": "20:55",
+      "speaker": "Unknown",
+      "en": "It's necessary if you want to make it in this industry.",
+      "zh": "如果你想在这个行业成功，这是必要的。"
+    },
+    {
+      "timestamp": "21:09",
+      "speaker": "Unknown",
+      "en": "The code doesn't speak for your ability anymore.",
+      "zh": "代码不再代表你的能力了。"
+    },
+    {
+      "timestamp": "23:04",
+      "speaker": "Unknown",
+      "en": "Newsletter is a fantastic way to do that because you it's like the last way you can like actually directly connect with your consumers everything else is algorithm based",
+      "zh": "通讯是一个极好的方式来做那个，因为它是你实际上能够与你的消费者直接连接的最后一种方式，其他一切都是基于算法的"
+    },
+    {
+      "timestamp": "25:20",
+      "speaker": "Unknown",
+      "en": "Awful. Don't.",
+      "zh": "很糟糕。别这么做。"
+    },
+    {
+      "timestamp": "27:13",
+      "speaker": "Unknown",
+      "en": "That's insulting to the people that bought tickets.",
+      "zh": "那是对买了票的人的侮辱。"
+    }
+  ]
+}

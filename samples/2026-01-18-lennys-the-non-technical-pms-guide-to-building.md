@@ -129,7 +129,7 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:Linear · 同概念:Codex、智能体 (agent)</span>
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|Ryan Carson：怎么管一群AI智能体干活]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Max Schoening]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[Anthropic]] · [[OpenAI]] · [[Figma]] · [[主观能动性]] · [[可塑软件]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":65,"Notion":6,"GitHub":16,"Anthropic":61,"OpenAI":54,"Figma":9,"主观能动性":14,"可塑软件":1,"智能体":118}</script>
+<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":65,"Notion":6,"GitHub":16,"Anthropic":62,"OpenAI":56,"Figma":9,"主观能动性":14,"可塑软件":1,"智能体":121}</script>
 
 <script>
 (function(){

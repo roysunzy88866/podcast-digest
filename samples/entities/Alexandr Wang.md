@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]]
+[[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":16,"MuseSpark":1,"开源模型":9,"智能体":118,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":14,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":2,"Meta":17,"MuseSpark":1,"开源模型":9,"智能体":121,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":14,"Spark API":1}</script>
 
 <script>
 (function(){

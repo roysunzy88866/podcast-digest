@@ -1,0 +1,2238 @@
+{
+  "episode_id": "2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo",
+  "podcast": "The Peel",
+  "date": "2026-08-24",
+  "tags": [
+    "非创始人 CEO 心态",
+    "客户反馈机制",
+    "区块链与资本市场",
+    "市场平台转型",
+    "AI 对金融获客的冲击"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "michael-tannenbaum",
+      "type": "person",
+      "role": "host",
+      "name": "Michael Tannenbaum",
+      "file": "Michael Tannenbaum",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "figure",
+      "type": "company",
+      "role": "company",
+      "name": "Figure",
+      "file": "Figure",
+      "primary": true,
+      "how_described": "本集说 Figure 是一家在区块链轨道上建立资本市场未来基础设施的公司，切入点是房屋净值信贷额度（HELOC），将发放成本从行业平均 12000 美元降至 1000 美元，耗时从 45 天缩至最快 5 天，后转型为市场平台模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            114.397,
+            141.073
+          ],
+          "quote": "And I'm someone like when I came to figure any role I'm like I don't have vendors like I don't have law firms I have to use or people I'm trying to pay like that's just not that's not my focus like I want to use the best thing for the company but a lot of times executives come in like you know if it's marketing they bring their PR firm they bring their this they bring and it's like it's kind of about them and like their relationships and they're always thinking through like they might bring these with them wherever they go",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            223.511,
+            225.371
+          ],
+          "quote": "He was the founder of Figure and the founder of SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            581.629,
+            588.096
+          ],
+          "quote": "And essentially it's big rocks can be as many as five, but we really have three at figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            615.787,
+            632.739
+          ],
+          "quote": "and or slack channel so they're just like a way of organizing everyone cross-functionally against this goal so there's three big goals at figure that each have their own recurring meeting and slack channel that everyone participates in kpis and okrs and and exactly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            850.369,
+            861.177
+          ],
+          "quote": "I try to do them either in figure offices where then we have customers nearby or do them in places where we have heavy customer concentration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            927.147,
+            929.668
+          ],
+          "quote": "And then working, jumping over to Figure too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1210.265,
+            1216.468
+          ],
+          "quote": "The credit policy, figure out how to do all that, get the banks to approve us, because you can't issue a credit card without a bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1221.651,
+            1224.672
+          ],
+          "quote": "And then with Figure, when I joined there, here,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1264.142,
+            1266.805
+          ],
+          "quote": "You didn't need to be a genius to figure out that it was working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1272.951,
+            1276.192
+          ],
+          "quote": "You kind of talked maybe a vision for, what was the vision for FIGURE?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1278.673,
+            1285.116
+          ],
+          "quote": "And maybe it might be interesting for people, I don't know, we're like 20 minutes in, what is FIGURE for someone who's never come across it before?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1287.457,
+            1292.26
+          ],
+          "quote": "So FIGURE is a company focused on building the future of the capital markets on blockchain rails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1488.268,
+            1488.948
+          ],
+          "quote": "But with figure,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1540.852,
+            1554.787
+          ],
+          "quote": "Yeah, if you look at this bankruptcy that happened this year called Tricolor, like JP Morgan lost like $200, $300 million because someone was selling the same auto loans to multiple people and they didn't figure it out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1659.807,
+            1672.875
+          ],
+          "quote": "And I think that gets to one of the things about FIGURE and why our IPO was really unique is that we are a example of blockchain technology in a quote, non-crypto use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1683.082,
+            1690.864
+          ],
+          "quote": "Yeah, because I feel like a lot of people would say, they just hear, figure, crypto, not interested, or like blockchain, not interested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1759.861,
+            1770.19
+          ],
+          "quote": "Do you have an idea around what was going on there where we could have been using it for this kind of stuff and figure obviously was, but the rest of the industry was doing other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2250.689,
+            2250.909
+          ],
+          "quote": "No, figure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2252.11,
+            2252.63
+          ],
+          "quote": "Oh, with figure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2721.503,
+            2731.273
+          ],
+          "quote": "My experience at Figure has been, at least for B2B marketing, that just to position yourself as differentiated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2750.983,
+            2754.304
+          ],
+          "quote": "Whereas here, I figure it's been more about the value proposition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3058.335,
+            3076.531
+          ],
+          "quote": "and then you were you joined figure probably about a year later roughly i joined bigger about a year later exactly okay and figure was kind of i think you maybe mentioned it was kind of inspired by sofi in a way two two things one the the insight that the capital markets inside of how often loans are",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3170.706,
+            3172.668
+          ],
+          "quote": "So a lot of figure was born from SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3172.969,
+            3176.534
+          ],
+          "quote": "It was essentially Helox was the very first figure product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3188.788,
+            3189.588
+          ],
+          "quote": "I've learned this at Figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3192.95,
+            3204.036
+          ],
+          "quote": "So one of the advantages Figure has, and I like this a lot, is that even though we are B2B, we can launch products direct to consumer because partners don't want to be the guinea pig.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3231.453,
+            3241.16
+          ],
+          "quote": "And so it was more about, and this is something that both SoFi and Figure had in common, and we touched on it earlier, focusing on a more mass affluent demographic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3300.607,
+            3305.088
+          ],
+          "quote": "They offer financing through a HELOC through figure and they never did mortgage before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3444.062,
+            3445.724
+          ],
+          "quote": "Like what's the difference between like a figure?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3543.082,
+            3549.526
+          ],
+          "quote": "So what Fannie Mae does is they offer underwriting technology and the capital market, just like figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3651.557,
+            3659.961
+          ],
+          "quote": "Like the point is figure has loans that people want and we use the fact that people wanted it to move the capital markets to a blockchain future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3727.424,
+            3736.192
+          ],
+          "quote": "Figure has done is we're basically, as a company, telling those people to outsource that problem, at least in the mortgage space and now other spaces, to us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3748.303,
+            3751.646
+          ],
+          "quote": "That's what Figure does, except we do it in mortgage, and now we do it in a few other asset classes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3752.327,
+            3772.653
+          ],
+          "quote": "Yeah and so but now we're telling those same people who are trusting us with the capital market to that we have investors that are willing to buy the loans even before they're originated because they're so confident in the figure platform and in the standardized approach that we take so it just gives you one more reason to work with figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3838.695,
+            3844.217
+          ],
+          "quote": "Like how did you, how did you know and figure out what was like the next kind of like the order of operations you had to go in?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4020.002,
+            4023.644
+          ],
+          "quote": "...reached profitability wasn't at the scale of figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4137.936,
+            4148.013
+          ],
+          "quote": "So that structure, I think, was really creative and kind of mirrored what Figure did, which was we went from DTC to 60% plus marketplace over the last couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            4265.863,
+            4274.367
+          ],
+          "quote": "And they're using Figure to originate their home equity lines of credit and then selling into our marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 999,
+          "t": [
+            4351.866,
+            4356.669
+          ],
+          "quote": "So when we launched Figure Connect, which is our marketplace, we actually gave away",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4460.954,
+            4471.702
+          ],
+          "quote": "And they're not focused on like this very specific thing that figure is focused on, which is using our marketplace as a reference for how blockchain can change the capital market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            4493.279,
+            4498.324
+          ],
+          "quote": "Is there like figure software that the people punching things in at your customer are using?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            4651.146,
+            4666.08
+          ],
+          "quote": "And it's actually a really big pro for figure because our process is so simple and cheap that it's much easier to have an AI assistant, like a loan officer assistant, reach out and do some of these tasks because our process is so simple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            4942.822,
+            4955.546
+          ],
+          "quote": "So it's much more like when they say you're a public figure, it's not like all of a sudden you walk down the street and people are chasing after me for autographs, but it's more people who know feel very free and comfortable to kind of tell me what they think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            4988.798,
+            4993.919
+          ],
+          "quote": "So I've been through more and figure, excuse me, Brex, we start in the kitchen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            5079.97,
+            5086.391
+          ],
+          "quote": "And you have to be the kind of person that was put in a gas station and would know what to do, how to price the gas and just figure it out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sofi",
+      "type": "company",
+      "role": "company",
+      "name": "SoFi",
+      "file": "SoFi",
+      "primary": true,
+      "how_described": "本集说 SoFi 是 Michael 早期加入的金融科技公司，从 75 人成长到超千人，专注于大众富裕客户的学生贷款再融资，也是 Figure 许多业务洞察的来源地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            26.773,
+            28.033
+          ],
+          "quote": "The first was SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            207.993,
+            214.097
+          ],
+          "quote": "I think a good example of this actually came up when I was at SoFi pretty early on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            223.511,
+            225.371
+          ],
+          "quote": "He was the founder of Figure and the founder of SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            318.351,
+            320.093
+          ],
+          "quote": "And then there, look, I left SoFi, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            817.545,
+            819.506
+          ],
+          "quote": "I ran the mortgage business at SoFi, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            917.239,
+            923.944
+          ],
+          "quote": "How have you like, you've almost made like some interesting calls on like joining SoFi really early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            995.179,
+            1003.562
+          ],
+          "quote": "So I had that framework and then I remember when I was living in San Francisco looking to go to SoFi, I actually met with a bunch of different fintechs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1013.842,
+            1030.088
+          ],
+          "quote": "And so I started meeting with a bunch of these companies and SoFi, and this has then been validated by the time that I spent with Mike Cagney, SoFi was one of the unique financial services companies, fintechs at the time, focused on a mass affluent customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1069.154,
+            1079.301
+          ],
+          "quote": "And here's SoFi saying, you know, I don't know if people are familiar with the SoFi story, but it was all about refinancing the student loans of people that had graduated and were less risky.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1136.08,
+            1138.628
+          ],
+          "quote": "Took me a lot, took me to SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1386.746,
+            1393.032
+          ],
+          "quote": "If you go back to SoFi, and when I first joined SoFi, I was actually on the capital markets team doing securitizations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1463.858,
+            1471.681
+          ],
+          "quote": "When I was doing that at SoFi, we would validate the same attributes of the loans multiple times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1472.521,
+            1483.326
+          ],
+          "quote": "So for example, the credit score of the borrower, we would check it at SoFi, then a buyer, a loan buyer would check it, then the securitization would check it, the rating agencies would check it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1836.07,
+            1839.792
+          ],
+          "quote": "One thing I wanted to ask you about before we get too far away from SoFi stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1853.219,
+            1855.4
+          ],
+          "quote": "So what happened when you talked to Masa about SoFi?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2176.826,
+            2179.048
+          ],
+          "quote": "And so were you at SoFi for a couple more years then?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2202.443,
+            2208.287
+          ],
+          "quote": "Okay, so did you ever think after being the junior guy at SoFi, like the youngest business manager, now you're like the grown up?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2247.287,
+            2248.648
+          ],
+          "quote": "Did you do that at SoFi?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2253.17,
+            2255.171
+          ],
+          "quote": "And so, but my, I know we were talking about SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2400.025,
+            2402.468
+          ],
+          "quote": "And someone was like, well, weren't you the chief revenue officer of SoFi?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2529.335,
+            2530.776
+          ],
+          "quote": "I wasn't going to compete with SoFi, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2663.577,
+            2665.899
+          ],
+          "quote": "And so I needed to, I said, well, I worked at SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2668.482,
+            2671.885
+          ],
+          "quote": "And I basically took a lot of what we had done at SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2672.285,
+            2674.027
+          ],
+          "quote": "SoFi was known for their ads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3058.335,
+            3076.531
+          ],
+          "quote": "and then you were you joined figure probably about a year later roughly i joined bigger about a year later exactly okay and figure was kind of i think you maybe mentioned it was kind of inspired by sofi in a way two two things one the the insight that the capital markets inside of how often loans are",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3143.989,
+            3150.913
+          ],
+          "quote": "And insight two was just more around home equity, which was SoFi has a huge personal loan business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3170.706,
+            3172.668
+          ],
+          "quote": "So a lot of figure was born from SoFi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3231.453,
+            3241.16
+          ],
+          "quote": "And so it was more about, and this is something that both SoFi and Figure had in common, and we touched on it earlier, focusing on a more mass affluent demographic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1112,
+          "t": [
+            4986.377,
+            4988.258
+          ],
+          "quote": "At SoFi, there were times where I thought we were going to run out of money.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": true,
+      "how_described": "本集说 Brex 是 Michael 作为第一名员工在厨房里加入的公司，最初叫 Vyond，定位是第一张面向初创企业的公司卡加费用管理，后经历 SVB 崩溃事件并吸引超十亿美元存款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            38.021,
+            42.504
+          ],
+          "quote": "And then second company, Brex, I joined as the first employee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            44.565,
+            46.645
+          ],
+          "quote": "And wasn't even called Brex, didn't have a product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            477.882,
+            486.345
+          ],
+          "quote": "Numeral supports over 3,000 customers, including companies like Brex and Character AI, and they pride themselves on white-glove, high-touch customer service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1138.709,
+            1140.133
+          ],
+          "quote": "And then similarly with Brex,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1962.809,
+            1968.215
+          ],
+          "quote": "I did go to Japan with Enrique and Pedro at Brex to meet Masa, but this was a virtual.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2258.153,
+            2259.674
+          ],
+          "quote": "I went to Brex because...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2621.816,
+            2626.982
+          ],
+          "quote": "So then, I feel like Brex is pretty, the story is, like, pretty well told of, like, the kind of marketing you did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2681.333,
+            2686.238
+          ],
+          "quote": "And the real thing that we had at Brex is a very crisp,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2993.162,
+            3009.172
+          ],
+          "quote": "And then ultimately that flexibility allowed us to be on the offensive because we were able to then go attract over a billion dollars of deposits from other startups into the Brex banking product, which was called Brex Cash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3019.564,
+            3024.167
+          ],
+          "quote": "Because Brex was basically like a software layer that worked with other banks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3187.867,
+            3188.748
+          ],
+          "quote": "And I learned this at Brex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3695.998,
+            3697.859
+          ],
+          "quote": "Yeah, even for Brex, for Ramp, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 837,
+          "t": [
+            3702.961,
+            3708.884
+          ],
+          "quote": "Ramp and Brex make loans to companies short term.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3709.084,
+            3713.487
+          ],
+          "quote": "They pay their bills in advance and then those companies pay Brex or Ramp back, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 847,
+          "t": [
+            3738.574,
+            3748.283
+          ],
+          "quote": "It would be like as if Brex and Ramp and Airwallex all use the same underwriting program and the same technology for the underwriting part of what they do, and then we took the capital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            4988.798,
+            4993.919
+          ],
+          "quote": "So I've been through more and figure, excuse me, Brex, we start in the kitchen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kiavi",
+      "type": "company",
+      "role": "company",
+      "name": "Kiavi",
+      "file": "Kiavi",
+      "primary": true,
+      "how_described": "本集说 Kiavi 是投资人贷款（fix and flip）领域的市场领导者，被 Figure 收购后当天联合 Sixth Street 从 DTC 模式转型为市场平台模式，占 Figure 约 40% 的交易量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 899,
+          "t": [
+            3994.886,
+            3996.307
+          ],
+          "quote": "It's a company called Kiavi.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "executive-mindset",
+      "type": "concept",
+      "role": "concept",
+      "name": "高管心态 (executive mindset)",
+      "file": "高管心态",
+      "primary": true,
+      "how_described": "本集把高管心态描述为更关注'我接下来可能做什么'或'这在纸面上看起来如何'，典型表现是带着自己的供应商（公关公司、律所）进来，框架是自我保护——附着在成功上、远离问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            61.628,
+            72.93
+          ],
+          "quote": "And I've seen this at the companies that I've been a part of where, quote, like executives come in later in the company and have that more executive mindset, which is more like managing a career.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            87.588,
+            89.888
+          ],
+          "quote": "So what is the executive mindset?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            96.303,
+            105.35
+          ],
+          "quote": "My executive mindset is a lot about people are thinking about what they might do next or how this might look on paper.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "市场平台 (marketplace)",
+      "file": "市场平台",
+      "primary": true,
+      "how_described": "本集说市场平台是 Figure 从 DTC 转型的核心模式——不再自己放贷再卖掉，而是把技术和资本市场开放给银行、信用合作社等合作伙伴，让他们用 Figure 系统自己放贷再卖到 Figure 市场，两年内从零做到占业务量 60% 以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1245.867,
+            1249.309
+          ],
+          "quote": "And we've turned the company into a marketplace, which I think was a big factor in our IPO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1306.706,
+            1318.151
+          ],
+          "quote": "And we did this home equity line of credit all on blockchain rails ourselves and then built a marketplace for those home equity lines of credit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3306.088,
+            3309.73
+          ],
+          "quote": "And then what we did from there is we went full marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3319.456,
+            3330.122
+          ],
+          "quote": "And that was a big part of the marketplace approach and has been a big part of our IPO, which is we moved from us buying the loans from other people and then selling them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3330.642,
+            3350.526
+          ],
+          "quote": "To us just giving people the technology and the capital market such that they can, these like banks or credit unions or fintechs or hows, they can originate the loans themselves with our technology, they fund it, it's their license, and then they sell it and we're just matching and we created a marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3376.045,
+            3378.267
+          ],
+          "quote": "You can't vibe code a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3555.548,
+            3568.874
+          ],
+          "quote": "But Fannie Mae, basically, they give you a widget into your loan origination process that says what you're doing is eligible for our marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3570.954,
+            3572.495
+          ],
+          "quote": "And why do you want to be on their marketplace?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3662.682,
+            3676.558
+          ],
+          "quote": "So it's more about showing the market through a reference marketplace that you can save time and money using blockchain technology by originating loans that people actually want to buy and own on a blockchain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4099.072,
+            4110.144
+          ],
+          "quote": "And I think that's going to... One of the interesting things that we did is we bought it with Sixth Street, which is sort of a private equity firm, private capital, and we turned it into a marketplace day one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 931,
+          "t": [
+            4115.649,
+            4124.199
+          ],
+          "quote": "And also is going to be funding an entity that is kind of going to be funding the loans and then selling them into our marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4135.151,
+            4137.916
+          ],
+          "quote": "And made it a marketplace day one by using Sixth Street.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4137.936,
+            4148.013
+          ],
+          "quote": "So that structure, I think, was really creative and kind of mirrored what Figure did, which was we went from DTC to 60% plus marketplace over the last couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4205.481,
+            4222.975
+          ],
+          "quote": "Two was very tangential space because they're doing a version of mortgage, fast, automated marketplace, not marketplace kind of financing, but they have a very active capital market that wants to buy from them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            4265.863,
+            4274.367
+          ],
+          "quote": "And they're using Figure to originate their home equity lines of credit and then selling into our marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 982,
+          "t": [
+            4307.524,
+            4318.03
+          ],
+          "quote": "The only difference between us and Kiyabi is we have been a marketplace focus, meaning we offer our technology and the capital market as we open that up to everyone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 992,
+          "t": [
+            4339.901,
+            4341.902
+          ],
+          "quote": "Everyone should turn themselves into a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 999,
+          "t": [
+            4351.866,
+            4356.669
+          ],
+          "quote": "So when we launched Figure Connect, which is our marketplace, we actually gave away",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1008,
+          "t": [
+            4426.862,
+            4433.929
+          ],
+          "quote": "So if you're like moving your P&L around because you're franchising or turning into a marketplace, that would be hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4460.954,
+            4471.702
+          ],
+          "quote": "And they're not focused on like this very specific thing that figure is focused on, which is using our marketplace as a reference for how blockchain can change the capital market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "type": "concept",
+      "role": "concept",
+      "name": "区块链 (blockchain)",
+      "file": "区块链",
+      "primary": true,
+      "how_described": "本集说区块链在 Figure 的实际价值不是'上链'本身，而是解决了两个具体问题：一是避免同一贷款属性（如 FICO 分数）被重复验证付费，省 80% 成本；二是防止贷款被双重出售或双重质押的欺诈，权属追踪到留置权级别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1287.457,
+            1292.26
+          ],
+          "quote": "So FIGURE is a company focused on building the future of the capital markets on blockchain rails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1306.706,
+            1318.151
+          ],
+          "quote": "And we did this home equity line of credit all on blockchain rails ourselves and then built a marketplace for those home equity lines of credit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1489.408,
+            1506.994
+          ],
+          "quote": "We take those attributes like the FICO score, put it on a blockchain day one, and then all the people that buy the loan or evaluate the loan or lend against the loan just reference that initial hash of that data rather than checking it each time and paying a huge amount.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1517.632,
+            1532.465
+          ],
+          "quote": "Another clear example of how we are fast and efficient is that we prevent loans from being double sold or double pledged, which is a huge way that fraud happens by tracking a loan and its life on a blockchain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1560.072,
+            1573.906
+          ],
+          "quote": "So you're saying that it's on a publicly available database blockchain that anyone can access and it just says, hey, ABC Financial bought this and this other entity no longer owns it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1604.575,
+            1622.236
+          ],
+          "quote": "There's only going to be one lien holder against that property unless you have another mortgage on top but but for the dollar amount in that loan there could only be one holder and the blockchain is going to connect that to the owner of the loan and if that's transferred that will be tracked on chain do you need blockchain to do this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1624.546,
+            1639.547
+          ],
+          "quote": "you i guess you don't you could use a kind of open source permissionless database i mean that's essentially blockchain though so i mean yes i guess in that way meaning that it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1640.728,
+            1659.387
+          ],
+          "quote": "if if you did it by a traditional database you get into the question of well who owns and maintains that database the nice thing about blockchain is that there's incentives that allow that to happen without anyone having to own that or maintain it it's part of the technology so i think this is a very good use of blockchain",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1659.807,
+            1672.875
+          ],
+          "quote": "And I think that gets to one of the things about FIGURE and why our IPO was really unique is that we are a example of blockchain technology in a quote, non-crypto use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1673.256,
+            1682.842
+          ],
+          "quote": "Like we actually add value in blockchain by preventing double sales and double pledging of loans and by saving time and money in the process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1683.082,
+            1690.864
+          ],
+          "quote": "Yeah, because I feel like a lot of people would say, they just hear, figure, crypto, not interested, or like blockchain, not interested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1729.586,
+            1738.008
+          ],
+          "quote": "Stablecoin is not tokenization, but I think is another example of a blockchain use case that is not crypto, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1741.829,
+            1746.81
+          ],
+          "quote": "So it's using blockchain technology for the transfer of money, but it is not crypto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1810.995,
+            1816.057
+          ],
+          "quote": "Crypto and blockchain were fundamentally money-oriented technologies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3587.616,
+            3593.757
+          ],
+          "quote": "And what's really interesting, and this ties into blockchain, is that they've done it in a way that is relatively homogenous.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3614.623,
+            3623.526
+          ],
+          "quote": "And maybe if I'm like ignorant and don't understand like how blockchain works, like couldn't anyone put it on the blockchain or like figures blockchain or how does that work exactly?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3623.626,
+            3625.347
+          ],
+          "quote": "Anybody could put loans on blockchain, yes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3626.027,
+            3629.188
+          ],
+          "quote": "So do, and this is a common misconception with blockchain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3629.688,
+            3634.79
+          ],
+          "quote": "Just because you put something on a blockchain or quote tokenize it, doesn't mean people want it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3643.934,
+            3647.375
+          ],
+          "quote": "I mean, I hope this guy's not listening, but, and he's like, you know, can we put it on the blockchain?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3647.415,
+            3651.037
+          ],
+          "quote": "I'm like, well, just because we put it on the blockchain doesn't mean that anybody wants it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3651.557,
+            3659.961
+          ],
+          "quote": "Like the point is figure has loans that people want and we use the fact that people wanted it to move the capital markets to a blockchain future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3662.682,
+            3676.558
+          ],
+          "quote": "So it's more about showing the market through a reference marketplace that you can save time and money using blockchain technology by originating loans that people actually want to buy and own on a blockchain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4460.954,
+            4471.702
+          ],
+          "quote": "And they're not focused on like this very specific thing that figure is focused on, which is using our marketplace as a reference for how blockchain can change the capital market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokenization",
+      "type": "concept",
+      "role": "concept",
+      "name": "代币化 (tokenization)",
+      "file": "代币化",
+      "primary": false,
+      "how_described": "本集提到代币化是把贷款、股票等现实世界资产上链的趋势，Figure 广义上处于这个趋势中，它与加密货币不同，有更多发展势头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1710.595,
+            1716.541
+          ],
+          "quote": "But what's not cold, and I think this is where you're seeing a divorce between those two, is tokenization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1717.141,
+            1718.903
+          ],
+          "quote": "And we're broadly in the tokenization",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1729.586,
+            1738.008
+          ],
+          "quote": "Stablecoin is not tokenization, but I think is another example of a blockchain use case that is not crypto, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "big-rock-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "大石头框架 (big rock framework)",
+      "file": "大石头框架",
+      "primary": false,
+      "how_described": "本集说大石头框架是 Michael 管理公司的方式，Figure 有三个不随季度变化的顶层目标，每个目标有自己的周会和 Slack 频道，所有人跨职能围绕这些目标对齐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            573.48,
+            581.028
+          ],
+          "quote": "So I run the company with this big rock framework, which I don't think that's the only way to do it, but it's a way that works for me.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "heloc",
+      "type": "concept",
+      "role": "concept",
+      "name": "HELOC",
+      "file": "HELOC",
+      "primary": false,
+      "how_described": "本集说 HELOC（房屋净值信贷额度）是 Figure 的第一个产品，最初直接面向消费者，后来开放给 380 个银行、信用合作社和金融科技合作伙伴通过 Figure 技术发起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 742,
+          "t": [
+            3280.301,
+            3289.904
+          ],
+          "quote": "Well, the HELOC started direct-to-consumer and then we moved to B2B, which means that we took our technology and offered it to other people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3300.607,
+            3305.088
+          ],
+          "quote": "They offer financing through a HELOC through figure and they never did mortgage before.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "securitization",
+      "type": "concept",
+      "role": "concept",
+      "name": "证券化 (securitization)",
+      "file": "证券化",
+      "primary": false,
+      "how_described": "本集说证券化是把一批贷款打包发行债券以分散风险并使其可交易的过程，Michael 在 SoFi 时做过证券化，发现同一笔贷款的属性被 SoFi、买家、证券化方、评级机构反复验证，每次都付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1472.521,
+            1483.326
+          ],
+          "quote": "So for example, the credit score of the borrower, we would check it at SoFi, then a buyer, a loan buyer would check it, then the securitization would check it, the rating agencies would check it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4223.415,
+            4226.358
+          ],
+          "quote": "They have a securitization as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fannie-mae",
+      "type": "company",
+      "role": "company",
+      "name": "Fannie Mae",
+      "file": "Fannie Mae",
+      "primary": false,
+      "how_described": "本集说 Fannie Mae 是抵押贷款担保机构，提供承销技术和资本市场，Figure 做的事情与之类似但放在了现代区块链轨道上，实现了类似 Fannie Mae 的标准化但更快更便宜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 791,
+          "t": [
+            3510.32,
+            3519.788
+          ],
+          "quote": "So it's really that we have similar credit quality to what Fannie Mae would see, but we're able to do that in $1,000 cost to produce versus $12,000.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3522.41,
+            3525.692
+          ],
+          "quote": "And you are, you have a similar business to Fannie Mae, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3528.434,
+            3531.796
+          ],
+          "quote": "Which is very bold, like, because people think of Fannie Mae, it's almost the government, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3531.816,
+            3533.757
+          ],
+          "quote": "Yeah, I mean, so what is Fannie Mae?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3536.939,
+            3539.38
+          ],
+          "quote": "So like, for somebody who doesn't know what it is, what does Fannie Mae do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 802,
+          "t": [
+            3539.7,
+            3542.582
+          ],
+          "quote": "Fannie Mae is a mortgage guarantor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3543.082,
+            3549.526
+          ],
+          "quote": "So what Fannie Mae does is they offer underwriting technology and the capital market, just like figure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3555.548,
+            3568.874
+          ],
+          "quote": "But Fannie Mae, basically, they give you a widget into your loan origination process that says what you're doing is eligible for our marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3593.997,
+            3600.779
+          ],
+          "quote": "So when you buy a Fannie Mae loan, you don't care if it was done by your uncle, it was done by this bank, that bank, it's all Fannie Mae.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3606.22,
+            3613.743
+          ],
+          "quote": "So it's taken, it's provided that very automated, standardized approach that Fannie Mae does, but just on modern rails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1015,
+          "t": [
+            4472.684,
+            4493.079
+          ],
+          "quote": "is there a risk related to this like outsourcing the lending and underwriting and like it's like the quality of the cash flow that's paying the loan like you're giving it to like someone like there's multiple layers so we we maintain the underwrite like our system kind of going back to the Fannie Mae example we are still doing the underwriting and the processing of the loans",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "softbank",
+      "type": "company",
+      "role": "company",
+      "name": "SoftBank",
+      "file": "SoftBank",
+      "primary": false,
+      "how_described": "本集提到 SoftBank 在 2015 年通过 Masa 向 SoFi 投资十亿美元，Masa 在 IMAX 屏幕上说'如果不拿，我就给你的竞争对手'，这种造王（kingmaking）策略在 Brex 也发生过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            1940.932,
+            1944.274
+          ],
+          "quote": "So this was kind of like SoftBank was just starting to do some deals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1976.404,
+            1980.528
+          ],
+          "quote": "Okay, wait, so you were in the SoftBank office in San Carlo and Masa was on a screen from Japan?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到从 Meta 等大公司招来的人，框架非常关乎自我保护——附着在运作良好的事物上，并尽可能远离运作不好的事物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            400.225,
+            413.274
+          ],
+          "quote": "And I recall in some of the past roles I've been in where we've hired people from large companies, even large tech companies like Meta, their framework is very much about self-preservation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "svb",
+      "type": "company",
+      "role": "company",
+      "name": "SVB",
+      "file": "SVB",
+      "primary": false,
+      "how_described": "本集说 SVB 崩溃时 Brex 内部很混乱，Michael 作为 COO 拍板把资金从 SVB 转出，随后 Brex 的银行产品吸引超十亿美元存款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 571,
+          "t": [
+            2548.311,
+            2550.313
+          ],
+          "quote": "It's not like the SVB card was like so good, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2766.065,
+            2768.267
+          ],
+          "quote": "I think you were still at Brax during SVB.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2769.167,
+            2772.45
+          ],
+          "quote": "What was it like inside Brax at SVB during the SVB collapse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2844.878,
+            2855.869
+          ],
+          "quote": "At the time, this was a big moment because SVB had released some financials that suggested they were insolvent, meaning that their liabilities were greater than their assets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2938.515,
+            2942.837
+          ],
+          "quote": "So I feel like SVB wasn't really facing the reality of what was really happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2955.06,
+            2958.921
+          ],
+          "quote": "We were coincidentally meeting with SVB about a partnership that day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2960.162,
+            2964.403
+          ],
+          "quote": "And it was all this debate about whether to move our money out of SVB.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3010.678,
+            3015.501
+          ],
+          "quote": "And so you held deposits at SVB.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3025.128,
+            3033.473
+          ],
+          "quote": "Well, we were actually a broker dealer that put the money into money market funds, which post SVB has become much more popular now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aaa",
+      "type": "concept",
+      "role": "concept",
+      "name": "AAA",
+      "file": "AAA",
+      "primary": false,
+      "how_described": "本集说 Figure 发起的 HELOC 对应的债券被 S&P 和 Moody's 评为 AAA 级，意味着风险最小，因为底层客户有偿还能力且贷款流程虽然快但信用质量高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 766,
+          "t": [
+            3379.568,
+            3382.79
+          ],
+          "quote": "Or I also say, like, you can't AI your way into AAA, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3382.81,
+            3386.992
+          ],
+          "quote": "We're AAA, S&P, and Moody's, and you can't just, like, AI that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3389.393,
+            3390.794
+          ],
+          "quote": "So what does that mean being AAA for your business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3392.815,
+            3403.601
+          ],
+          "quote": "Yeah, it means the bonds that are against the mortgages that we originate, the HELOCs, those are rated at the top of the stack, meaning the least risky bonds are rated AAA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3405.903,
+            3411.349
+          ],
+          "quote": "And they're not just rated AAA, they're rated AAA by S&P and Moody's, who are the premier rating agencies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3411.709,
+            3413.971
+          ],
+          "quote": "So why are they rated AAA?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gas-station-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "加油站测试 (gas station test)",
+      "file": "加油站测试",
+      "primary": false,
+      "how_described": "本集说加油站测试是 Michael 父亲教他的框架——如果你被扔进一家加油站，你知不知道怎么给汽油定价、怎么运营，能看懂客户反馈在说什么，是运营者的基本功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1128,
+          "t": [
+            5040.56,
+            5051.544
+          ],
+          "quote": "So you, coming from operator, sorry, investor, operator, CEO, kind of run the gamut, you have this framework, this test that you call, it's called the gas station test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            5052.664,
+            5053.764
+          ],
+          "quote": "What's the gas station test?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            5138.436,
+            5141.938
+          ],
+          "quote": "Well, and this also gets to the gas station test, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": false,
+      "how_described": "本集说 AI 对金融科技的真实冲击不在承销而在获客——当用户直接问 Claude 或 GPT 去哪借钱时，AI 可能只给一个答案，赢家通吃，Credit Karma、Lending Tree 等线索聚合网站的长尾流量会被挤压。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            471.4,
+            477.362
+          ],
+          "quote": "Their solution combines AI-driven automation with human expertise to manage global sales tax compliance end-to-end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            477.882,
+            486.345
+          ],
+          "quote": "Numeral supports over 3,000 customers, including companies like Brex and Character AI, and they pride themselves on white-glove, high-touch customer service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            508.292,
+            510.533
+          ],
+          "quote": "It's the AI-native private bank for business owners.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            511.114,
+            517.278
+          ],
+          "quote": "I use Flex personally and I love it because they use AI to underwrite the cash flow of your business, giving you a real credit line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1046.078,
+            1058.807
+          ],
+          "quote": "They were focused on using either machine learning, which was AI at the time, or kind of new neobanking, new UI or new underwriting models to target a generally",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1774.23,
+            1782.214
+          ],
+          "quote": "In some ways it's similar to in how like with AI you got things like character AI and sex bots and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1819.739,
+            1823.881
+          ],
+          "quote": "Whereas in AI, in order to actually profit off this, you have to kind of monetize that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1891.585,
+            1893.945
+          ],
+          "quote": "With AI analytics, all you have to do is ask.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1895.346,
+            1900.107
+          ],
+          "quote": "This episode is brought to you by Merge, the connective infrastructure for production AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1923.057,
+            1927.197
+          ],
+          "quote": "OpenAI, Dropbox, and RAMP all use Merge to move faster and build AI right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2608.971,
+            2611.712
+          ],
+          "quote": "Which by today's AI standards is like slow or nothing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2619.494,
+            2620.355
+          ],
+          "quote": "As an AI company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2788.78,
+            2792.882
+          ],
+          "quote": "Monaco's AI-native platform replaces your legacy CRM and sales point solutions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3379.568,
+            3382.79
+          ],
+          "quote": "Or I also say, like, you can't AI your way into AAA, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3382.81,
+            3386.992
+          ],
+          "quote": "We're AAA, S&P, and Moody's, and you can't just, like, AI that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 915,
+          "t": [
+            4056.867,
+            4065.939
+          ],
+          "quote": "As private equities experience more issues with SaaS kind of being more questionably valued and a lot of private equity leaned into SaaS with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            4499.165,
+            4511.798
+          ],
+          "quote": "But the risk though, to your point is we, I think one of the risks in why we keep a direct-to-consumer business as well, though it's much smaller, is I think there are risks around say something like AI where",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            4513.74,
+            4539.24
+          ],
+          "quote": "i think a really good example is a lot of the lending world not just not just mortgage focuses on these lead generation platforms like your credit karmas your lending trees basically they're called affiliates or you could call them you know like uh personal finance websites that then that send out leads lead generation firms however you want to call it right and if ai disrupts that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            4558.934,
+            4565.18
+          ],
+          "quote": "Which is really efficient from a cost perspective, but if there was a paradigm shift like AI, and that's why...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            4565.86,
+            4584.509
+          ],
+          "quote": "we maintain this direct it's one of the reasons why we maintain direct to consumer another is so we don't test stuff on our customers but that is really important to us and we're making sure that we're leveraging a lot of cutting edge AI technology because we cannot be confident that our partners will do that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4631.93,
+            4637.614
+          ],
+          "quote": "Another thing that we're doing is using an AI loan officer assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            4651.146,
+            4666.08
+          ],
+          "quote": "And it's actually a really big pro for figure because our process is so simple and cheap that it's much easier to have an AI assistant, like a loan officer assistant, reach out and do some of these tasks because our process is so simple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1875.14,
+            1880.862
+          ],
+          "quote": "Get the answers you need while building directly in the tools you are already in, like Claude, Cursor, Lovable, and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            4614.655,
+            4624.663
+          ],
+          "quote": "And because at the end of the day, if you're asking Claude or you're asking GPT or you're asking Gemini, it may only give you one option.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "company",
+      "role": "company",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": false,
+      "how_described": "本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1034,
+          "t": [
+            4614.655,
+            4624.663
+          ],
+          "quote": "And because at the end of the day, if you're asking Claude or you're asking GPT or you're asking Gemini, it may only give you one option.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sixth-street",
+      "type": "company",
+      "role": "company",
+      "name": "Sixth Street",
+      "file": "Sixth Street",
+      "primary": false,
+      "how_described": "本集说 Figure 联合 Sixth Street（一家私募股权/私人资本公司）收购了 Kiavi，Sixth Street 购买贷款并资助放贷实体，使 Kiavi 在收购当天就从 DTC 转型为市场平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 929,
+          "t": [
+            4099.072,
+            4110.144
+          ],
+          "quote": "And I think that's going to... One of the interesting things that we did is we bought it with Sixth Street, which is sort of a private equity firm, private capital, and we turned it into a marketplace day one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            4110.764,
+            4114.248
+          ],
+          "quote": "So we basically Sixth Street bought the loans...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4135.151,
+            4137.916
+          ],
+          "quote": "And made it a marketplace day one by using Sixth Street.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到 Stripe 相当高调地宣扬不上市，但 Michael 认为并非每家公司都能像 Stripe 那样有大量投资者需求而不需要上市，Stripe 的情况是独一无二的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1119,
+          "t": [
+            5013.984,
+            5015.265
+          ],
+          "quote": "Why would you, especially Stripe?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            5019.467,
+            5022.769
+          ],
+          "quote": "And I just would counter that not every company is Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            5032.175,
+            5038.258
+          ],
+          "quote": "So I don't think that your plan, if your business plan is be Stripe and not go public, Stripe is kind of one-to-one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "affirm",
+      "type": "company",
+      "role": "company",
+      "name": "Affirm",
+      "file": "Affirm",
+      "primary": false,
+      "how_described": "本集说 Affirm 不让其他人使用 Affirm 的技术，这是大多数金融科技公司的做法——把技术和资本市场留给自己，不像 Figure 那样开放给合作伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 843,
+          "t": [
+            3720.212,
+            3724.675
+          ],
+          "quote": "And every sort of fintech, for the most part, Klarna, Affirm, they all have this problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 984,
+          "t": [
+            4322.472,
+            4325.714
+          ],
+          "quote": "Like Affirm doesn't let other people use Affirm, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集仅在结尾预告下期嘉宾时提到 Databricks，说 Ron Gabrisco 作为 CRO 加入时 ARR 不足 100 万，后将其扩展到营收运行率超 70 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1163,
+          "t": [
+            5211.577,
+            5229.75
+          ],
+          "quote": "Tune in over the next few weeks for conversations with Chris Olson at Drive Capital, Ryan Neese at NextLegacy, and Ron Gabrisco, who joined Databricks as CRO with less than a million in ARR and takes us inside how they scaled it to an $188 billion company, run rating at over $7 billion in revenue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "operator mindset",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Credit Karma",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Lending Tree",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]] [[Matt Dailey]]
+[[Michael Tannenbaum]] [[David George]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":61,"Claude Code":30,"Co-work":2,"产品品味":1,"智能体":118,"自动化":1,"研究预览版":2,"评估":13,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":62,"Claude Code":32,"Co-work":2,"产品品味":1,"智能体":121,"自动化":1,"研究预览版":2,"评估":13,"系统提示词":3}</script>
 
 <script>
 (function(){

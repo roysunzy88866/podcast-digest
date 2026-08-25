@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Kiriti Badam":1,"智能体":118,"非确定性":1,"主观能动性":14,"评估":13,"生产监控":1,"持续校准持续开发":1,"飞轮":1,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Kiriti Badam":1,"智能体":121,"非确定性":1,"主观能动性":14,"评估":13,"生产监控":1,"持续校准持续开发":1,"飞轮":1,"行为校准":1}</script>
 
 <script>
 (function(){

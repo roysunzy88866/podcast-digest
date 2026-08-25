@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
+[[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grant LaFontaine":1,"Whatnot":3,"直播购物":2,"市场":1,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":9}</script>
+<script type="application/json" class="pd-epn">{"Grant LaFontaine":1,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":9}</script>
 
 <script>
 (function(){

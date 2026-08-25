@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":2,"智能体":118,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":6,"OpenRouter":4}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":2,"智能体":121,"上下文压缩":1,"RL":1,"蒸馏":6,"KV 缓存":2,"Cognition":7,"OpenRouter":4}</script>
 
 <script>
 (function(){

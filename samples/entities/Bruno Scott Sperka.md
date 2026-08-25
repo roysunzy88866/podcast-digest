@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
+[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":16,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":5,"智能体":118,"PR":3,"AI":8,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":16,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":5,"智能体":121,"PR":3,"AI":9,"工匠精神":1}</script>
 
 <script>
 (function(){

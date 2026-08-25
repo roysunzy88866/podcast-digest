@@ -1,0 +1,103 @@
+{
+  "title_zh": "Maddie Reese：用AI把复古硬件变成社交连接器",
+  "tldr": "Maddie Reese 一年前还不会写代码，现在用AI把热敏打印机、寻呼机变成了接收全世界消息的通道。",
+  "digest_md": "一年前 Maddie Reese 还在羡慕会写代码的人，她爸爸给她介绍了 Lovable（一个 AI 写代码工具），她把自己关在房间里几天，从此人生拐了个弯——从\"不会编程\"直接跳到用 AI 黑入硬件。她现在的逻辑是：以前觉得遥不可及的东西，有了 AI 之后都变得触手可及了，硬件就是其中一个。[02:30 Unknown]\n\n## 网页点一下，全世界的人给你桌上的打印机发消息\n\n她的第一个项目是一台巴掌大的热敏收据打印机，连着桌上的 Raspberry Pi（一种迷你电脑），通过蓝牙通信。任何人访问她的网站，填个名字和消息，点\"打印票据\"，几秒后纸条就从她桌上吐出来。[04:04 Unknown]\n\n实现思路不复杂：Raspberry Pi 跑着网站，后面挂一个数据库。每次有人点按钮，不管打印机有没有成功打出，消息都会存进数据库，这样即使打印机坏了也不丢消息——事实上她这台已经从十月底一直开着，几天前刚烧坏，这已经是第二台了。[06:33 Unknown]\n\n她构建这类项目的方式很特别：先把自己脑子里的想法全倒出来，然后让 AI 反过来采访她。她会说\"我想让全世界任何人都能通过网站给我发消息，帮我头脑风暴一下怎么做\"。AI 就会一直问她问题，直到所有细节都厘清——该买什么硬件、怎么连接、什么协议。她会直接让 AI 给出购物清单，一两天到货，然后接上去就完事。[07:16 Unknown]\n\n买硬件时她会让 AI 反复确认三遍，因为实物买错了就闲置了。被误导过几次，但都在三查过程中发现了，都不是大事。[08:51 Unknown]\n\n这台打印机现在收到来自世界各地的消息——有人在山上发，有人在海上的船里发，很多个国家。她做这个的初衷很简单：之前聊 AI 和 vibe coding 的朋友都是网上认识的，她想找个更实体的方式和这些人互动。[06:03 Unknown]\n\n## 给寻呼机接上 Twitter：不实用，但好玩\n\n第二个项目更硬核——她搞了一台寻呼机，把 Twitter 通知实时推到寻呼机上。\n\n寻呼机网络的现状是：基本只剩下一家叫 Spoke 的网络还在运营，寻呼信息通过无线电传输。但 Spoke 不直接卖寻呼机，得走授权经销商——她找的那家主要服务医院和医生，网站看起来像九十年代末没更新过，邮箱地址是 pagers123 at Gmail。[11:57 Unknown]\n\n拿到寻呼机后，它自带一个邮箱地址和电话号码。但这个邮箱非常过时，不接受自定义域名的邮件，所以她搭了一条很绕的链路：Twitter 的每一次互动通过 API 触发一个 Cloudflare worker（一种云端轻量计算函数），worker 把内容通过 Resend（邮件发送服务）发到 Gmail，再从 Gmail 转发到寻呼机自带的邮箱地址，最终显示在寻呼机上。[13:05 Unknown]\n\n这条链路当然不实用。但她觉得这不重要——\"做奇怪的事没关系，因为 AI 在写代码，我不需要手写这些。我只想要最终的那个效果。\"[15:42 Unknown]\n\n寻呼机的信号不太稳定，有时收不到。还有个她没想到的问题：她想别在裤腰上，但发现很多女裤没有裤袢，\"2026 年我没想到会面临的一个问题是：寻呼机夹哪儿。 [17:01 Unknown]\n\n她用 Cursor 的时候偏好\"智能体视图\"——就一个干净的对话界面，不做别的事，先专心把头脑风暴做完、拿到可靠计划，后面再拉终端和浏览器。她不逐行读代码，但比起刚开始已经懂了很多，她自己的比喻是\"就像在圣地亚哥长大，你不会说西班牙语但能听懂一点——足够造成一些破坏了\"。[17:21 Unknown]\n\n## 个人 API：让别人（或智能体）一键查你的咖啡订单\n\n第三个项目叫 Matty API——她给自己做了一个个人 API。\n\n起因是她想给朋友做点好事，但又不想打扰对方问东问西。比如想请人喝咖啡，得问人家喝什么、什么时候在、在哪个城市——\"我想做点好事，但不想打扰你，所以我干脆什么都不做了。\"如果有个 API，调一下就知道对方的咖啡订单、行程、时区，摩擦就没了。[19:17 Unknown]\n\n她的 API 里放了这些：咖啡订单、会在旧金山的日期、宠物信息（三只宠物叫 Mabel、Lola 和 Moon）、最爱的零食（爆米花裹营养酵母）、时区、旧金山最喜欢的两家餐厅。[20:41 Unknown]\n\n主持人提了一个更远的想法：未来调这个 API 的可能不是人，而是智能体——比如播客做完后，智能体自动调她的 API 查下次来旧金山的时间，然后在她最喜欢的餐厅订位。\"既然一切都是 API，为什么你自己不是呢？\"[22:03 Unknown]\n\n## 本集带走\n\n- **让 AI 反向采访你**：不要自己想方案，把大目标丢给 AI（\"我想让全世界的人给我发消息\"），让它问你问题直到细节清晰，它连购物清单都会给你列好。\n- **买硬件前让 AI 三查**：实物买错就废了，每次都让 AI 确认\"你确定这个零件是对的吗\"，被误导过几次但都在复查阶段拦住了。\n- **不追求代码优雅，追求效果到位**：寻呼机那条链路（Twitter → Cloudflare → Resend → Gmail → 寻呼机邮箱）完全不实用，但 AI 写代码不需要你手写，绕就绕了，最终效果才是重点。\n- **个人 API 的本质是降低\"想对你好\"的摩擦**：不是要取代社交，而是把\"我想做点什么但又不想打扰你\"这个心理障碍去掉——朋友或未来的智能体调一下就知道你的偏好和行程。",
+  "quotes": [
+    {
+      "timestamp": "02:30",
+      "speaker": "Unknown",
+      "en": "Kind of my journey was that I always felt jealous of people who could code.",
+      "zh": "我的旅程是这样的，我一直羡慕那些会写代码的人。"
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Unknown",
+      "en": "And hardware was one of those things.",
+      "zh": "硬件就是其中之一。"
+    },
+    {
+      "timestamp": "04:35",
+      "speaker": "Unknown",
+      "en": "Honestly, I just wanted some way to interact with people that was kind of more physical because everyone that I had been talking to about these kinds of things, I knew online",
+      "zh": "老实说，我只是想要某种与人们互动的方式，这种方式更偏向实体，因为我之前谈论这些事情的所有对象，我在网上都认识"
+    },
+    {
+      "timestamp": "07:16",
+      "speaker": "Unknown",
+      "en": "But really what I just kind of did was I went like, okay, I want to create a printer where anyone in the world can send me messages from a website.",
+      "zh": "但实际上我所做的就是，我想，好吧，我想创建一个打印机，世界上任何人都可以从网站给我发送消息。"
+    },
+    {
+      "timestamp": "07:45",
+      "speaker": "Unknown",
+      "en": "Typically, I have it ask me questions and I just have it keep asking me questions until all of my questions are answered about what, how this works, how I can do this.",
+      "zh": "通常，我会让它问我问题，我就让它一直问我问题，直到我所有关于这是如何工作的、我该怎么做的疑问都得到解答。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Unknown",
+      "en": "So, but when you're making, making kind of physical purchases, I don't want to just have something around that like I won't be able to use.",
+      "zh": "所以，但是当你在做这种实物购买时，我不想只是让某个东西闲置在那里，而我却无法使用。"
+    },
+    {
+      "timestamp": "12:53",
+      "speaker": "Unknown",
+      "en": "And it truly was something to behold.",
+      "zh": "那真是值得一看。"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "Unknown",
+      "en": "I may have to do weird things, but it's okay to do weird things because AI is coding it and it's fine.",
+      "zh": "我可能得做些奇怪的事，但做奇怪的事也没关系，因为 AI 正在编写代码，这很好。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Unknown",
+      "en": "And so I think your idea of just throw out the idea that this has to be practical or even reasonable code and just build the thing that you want, especially if it's for fun, I think is really exciting.",
+      "zh": "所以我认为你的想法就是抛开这必须是实用的甚至合理的代码的想法，只建立你想要的东西，特别是如果它是为了好玩，我认为这真的很令人兴奋。"
+    },
+    {
+      "timestamp": "17:15",
+      "speaker": "Unknown",
+      "en": "A problem I never anticipated us girls would have in 2026 is where to clip my pager.",
+      "zh": "我从未预料到我们女孩在 2026 年会面临的一个问题是我把寻呼机夹在哪里。"
+    },
+    {
+      "timestamp": "19:53",
+      "speaker": "Unknown",
+      "en": "I kind of see it as a way to like bring people closer together.",
+      "zh": "我把它看作一种让人们彼此更亲近的方式。"
+    },
+    {
+      "timestamp": "20:03",
+      "speaker": "Unknown",
+      "en": "Like my initial thought was like, oh, that's like too clinical and too, too weird.",
+      "zh": "像我最初的想法是，哦，这太临床了，太奇怪了。"
+    },
+    {
+      "timestamp": "20:11",
+      "speaker": "Unknown",
+      "en": "So I just won't do anything at all.",
+      "zh": "所以我干脆什么都不做。"
+    },
+    {
+      "timestamp": "22:03",
+      "speaker": "Unknown",
+      "en": "But if I'm playing like futurist, I think the reality is, is agents are going to be doing a lot of this like kind of work for us.",
+      "zh": "但如果我扮演未来主义者的角色，我认为现实是，智能体会为我们做很多这种工作。"
+    },
+    {
+      "timestamp": "23:19",
+      "speaker": "Unknown",
+      "en": "And what I love about what you're doing is like it's not disconnecting you from people.",
+      "zh": "关于你正在做的事情，我最喜欢的一点是，它并没有让你与人断联。"
+    },
+    {
+      "timestamp": "23:24",
+      "speaker": "Unknown",
+      "en": "It is actually creating connection points between you and the world in a really human way.",
+      "zh": "它实际上是在以一种非常人性化的方式，在你和世界之间创造连接点。"
+    }
+  ]
+}

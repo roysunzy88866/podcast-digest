@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":118,"构建者":2,"可观测性":8,"对话分析":1,"评估":13,"维度思维":1,"ChatGPT":31,"Cursor":27,"OpenAI":54}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":121,"构建者":2,"可观测性":8,"对话分析":1,"评估":13,"维度思维":1,"ChatGPT":31,"Cursor":30,"OpenAI":56}</script>
 
 <script>
 (function(){

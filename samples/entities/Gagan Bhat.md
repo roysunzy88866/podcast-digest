@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":61,"智能体":118,"harness":13,"沙箱":23,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":8}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":62,"智能体":121,"harness":13,"沙箱":23,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":8}</script>
 
 <script>
 (function(){

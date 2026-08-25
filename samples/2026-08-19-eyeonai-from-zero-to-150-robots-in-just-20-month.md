@@ -131,6 +131,7 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 **换个口味**
 
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同概念:仿真 (simulation)</span>
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款]]<span class="pd-rz">同公司:Figure</span>
 
 </div>
 </div>

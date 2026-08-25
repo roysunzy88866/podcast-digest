@@ -1,0 +1,1810 @@
+{
+  "episode_id": "2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-24",
+  "tags": [
+    "风险投资",
+    "智能体",
+    "创始人评估",
+    "AI 商业模式",
+    "红杉资本"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "julien-bek",
+      "type": "person",
+      "role": "host",
+      "name": "Julien Bek",
+      "file": "Julien Bek",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            46.753,
+            48.634
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": true,
+      "how_described": "本集将其描述为一个由11人组成的、像运动队一样运作的早期投资团队，每个人都是猎人而非等电话的人；内部有严格的IC投票机制，发起人可以决定结果但如果Alfred投了1分硬按绿灯则待不长久",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.554,
+            8.914
+          ],
+          "quote": "Everyone at Sequoia is a hunter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            53.475,
+            60.877
+          ],
+          "quote": "Yeah, he's a partner at Sequoia, which just raised $10 billion in new capital to bet on the next generation of winners in the AI wave.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            63.498,
+            77.923
+          ],
+          "quote": "You'll hear more about why in the show, but this episode is incredible because it is a behind the scenes glimpse into what makes Sequoia so special, how they find great companies, how they win them, how they pick them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            84.726,
+            87.267
+          ],
+          "quote": "This is Sequoia like you've never seen Sequoia before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            262.626,
+            268.069
+          ],
+          "quote": "But I want to start because I think a lot of people will hear you now and think, wow, Sequoia partner and wow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            397.23,
+            399.995
+          ],
+          "quote": "Anyway, I want to dive into Sequoia a little bit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            401.939,
+            409.614
+          ],
+          "quote": "I want to know, what did you not know about Sequoia before joining that you now know having been there for several years now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            414.368,
+            416.81
+          ],
+          "quote": "I think Sequoia operates really like a sports team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            417.19,
+            421.232
+          ],
+          "quote": "Maybe you've heard that story before, but this is my first day ever at Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            475.921,
+            479.564
+          ],
+          "quote": "Do you see everyone else at Sequoia do that and feel you have to do the same?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            502.841,
+            506.844
+          ],
+          "quote": "What does everyone think they know about Sequoia that they actually get wrong?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            515.009,
+            516.31
+          ],
+          "quote": "Everyone at Sequoia is a hunter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            914.88,
+            917.602
+          ],
+          "quote": "There are many different personalities within Sequoia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            973.348,
+            977.433
+          ],
+          "quote": "Luciana Alessandro, my partner who actually brought me into Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            986.904,
+            988.946
+          ],
+          "quote": "Then she joined Sequoia, did Penny Lane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1004.038,
+            1009.502
+          ],
+          "quote": "Does it get really tough when you're at Sequoia because the upside just needs to be bigger than other funds?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1125.133,
+            1132.297
+          ],
+          "quote": "He came to Sequoia and Sequoia led a seed investment that was, I think, one of the highest money-on-money return that we've made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1178.229,
+            1180.25
+          ],
+          "quote": "Sequoia just pays up for deals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1222.799,
+            1229.862
+          ],
+          "quote": "One of my fans that I backed, Brandon from McCore, he went quite viral with this, which I thought was fucking brilliant for Sequoia marketing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1230.322,
+            1245.327
+          ],
+          "quote": "And I don't know why you guys didn't do more with it, where basically he said like, oh, no one talks about, and I'm not dissing Brandon here, it's true, but people don't talk enough about the tranche rounds that Sequoia keep doing, where Sequoia get in at one price, and then there's an inflection, and there's a next round done at the same price.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1279.414,
+            1283.757
+          ],
+          "quote": "I would retweet it with like, yes, the power of brand if I was Sequoia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1450.059,
+            1457.061
+          ],
+          "quote": "And because of my not being Sequoia, rare moment of humility from me, I can sell much more easily than you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1496.375,
+            1499.237
+          ],
+          "quote": "At Sequoia, you have a weekly IC meeting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1708.957,
+            1710.999
+          ],
+          "quote": "It needs to be a Sequoia investment in this case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1905.371,
+            1909.952
+          ],
+          "quote": "They all expect to be pitching Sequoia and they want to tell the story of their company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2231.412,
+            2238.515
+          ],
+          "quote": "And what I mean by that is like Max at Legora, I know you're at Sequoia, so Team Harvey at Sequoia, but Max is like an aggressive Swede.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2263.486,
+            2269.249
+          ],
+          "quote": "I remember the first ever diligence I did at Sequoia was for a company called Tacto in our portfolio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2676.629,
+            2681.433
+          ],
+          "quote": "Again, my first day at Sequoia, we were all asked to write this one sentence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2686.997,
+            2689.739
+          ],
+          "quote": "It was very intimidating to write that the first day at Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            2822.087,
+            2825.471
+          ],
+          "quote": "Listen, we've covered a lot about Sequoia and what makes Sequoia what it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            4105.247,
+            4107.932
+          ],
+          "quote": "The best agent company outside of Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            4108.327,
+            4111.688
+          ],
+          "quote": "So the best agent company outside Sequoia is probably Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            4149.061,
+            4153.482
+          ],
+          "quote": "So we're in business with Trade Republic, but I looked at the seed before I joined Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            4218.075,
+            4223.762
+          ],
+          "quote": "So I never lost a deal, an investment in my time at Sequoia, but I've lost investments before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4445.616,
+            4449.877
+          ],
+          "quote": "What do you believe about venture capital that most of the Sequoia partnership would disagree with?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4450.297,
+            4456.923
+          ],
+          "quote": "Oh, the funny thing is people love to say Sequoia believes X and Y, but we actually have very different opinions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是新客户，进入AI第三年智能体流量已和人类流量持平，预测五年后智能体流量是人类的1000倍；智能体有偏见，会偏向Cloudflare和Vercel等品牌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 763,
+          "t": [
+            2838.5,
+            2844.99
+          ],
+          "quote": "Yeah, we're three years into AI and we're already at parity in terms of agent traffic to human traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2845.19,
+            2853.081
+          ],
+          "quote": "I think it was CloudFlare this morning said that in five years from now, we'll have 1,000 times the amount of agent traffic to human traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2862.265,
+            2870.127
+          ],
+          "quote": "My thesis is that on the demand side, you have a new customer that we're not treating as good as human customers, as the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3024.29,
+            3034.594
+          ],
+          "quote": "And my question to you is, is the AEO Answer Engine Optimization business the same as agent to human in terms of traffic when you compare AEO to SEO?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 808,
+          "t": [
+            3071.913,
+            3077.675
+          ],
+          "quote": "I don't think they're that far away from making an amazing agent experience that could do everything that I would want to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3190.39,
+            3194.693
+          ],
+          "quote": "How do you think about agent willingness to engage in that new buying behavior?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3396.797,
+            3405.465
+          ],
+          "quote": "At some point, your customer support agent does not need a 200 IQ agent to change your plane tickets to Hawaii, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            4105.247,
+            4107.932
+          ],
+          "quote": "The best agent company outside of Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            4108.327,
+            4111.688
+          ],
+          "quote": "So the best agent company outside Sequoia is probably Cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "副驾驶 (copilot)",
+      "file": "副驾驶",
+      "primary": true,
+      "how_described": "本集说AI第一波是副驾驶，即帮助人类工作者把工作做得更好的公司，因为当时模型还不足以完成整个工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 927,
+          "t": [
+            3618.125,
+            3621.786
+          ],
+          "quote": "It's working, so it starts as a copilot, but very quickly it moves to an autopilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 962,
+          "t": [
+            3777.305,
+            3784.232
+          ],
+          "quote": "I think what people didn't understand from the article is that it's not because you go from Copilot to Autopilot that you remove the human completely.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autopilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (autopilot)",
+      "file": "自动驾驶",
+      "primary": true,
+      "how_described": "本集称之为从副驾驶转变而来的阶段，AI端到端运行整个工作流，从它产生的结果中收取费用而不是从销售的工具中收费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 918,
+          "t": [
+            3582.765,
+            3584.466
+          ],
+          "quote": "I call it the autopilot category.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3618.125,
+            3621.786
+          ],
+          "quote": "It's working, so it starts as a copilot, but very quickly it moves to an autopilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 962,
+          "t": [
+            3777.305,
+            3784.232
+          ],
+          "quote": "I think what people didn't understand from the article is that it's not because you go from Copilot to Autopilot that you remove the human completely.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-company-that-masquerades-as-a-service-business",
+      "type": "concept",
+      "role": "concept",
+      "name": "服务伪装成软件 (software company that masquerades as a service business)",
+      "file": "服务伪装成软件",
+      "primary": true,
+      "how_described": "本集预测下一个万亿美元公司将是一家伪装成服务业务的软件公司，不再卖工具而是直接卖结果，去捕获企业花在服务上的那6美元而非只在工具的1美元上竞争",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 897,
+          "t": [
+            3495.06,
+            3502.466
+          ],
+          "quote": "Yeah, so the prediction was that the next trillion-dollar company will be a software company that masquerades as a service business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "IC",
+      "file": "IC",
+      "primary": true,
+      "how_described": "本集详细描述了Sequoia的IC运作：五十年周一IC会议传统，现在试新方法结合异步慢思考和会议快思考；创始人向整个IC推介，先独立打分再讨论再正式投票",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            575.426,
+            582.835
+          ],
+          "quote": "I mean this not superciliously or glibly, but does Constantine come to IC on Monday and be like, I have a new startup for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1496.375,
+            1499.237
+          ],
+          "quote": "At Sequoia, you have a weekly IC meeting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1540.447,
+            1543.728
+          ],
+          "quote": "And everyone can call up an IC if they want to get everyone's opinion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1544.068,
+            1548.95
+          ],
+          "quote": "The reason for that is an IC is a great format for fast thinking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1556.735,
+            1560.137
+          ],
+          "quote": "In an IC format, we're each contributing one after the other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1570.784,
+            1574.527
+          ],
+          "quote": "You can call an IC, but that helps us get the best from the partnership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1574.647,
+            1577.556
+          ],
+          "quote": "Does every entrepreneur pitch the IC?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1585.131,
+            1586.751
+          ],
+          "quote": "So they will still pitch the entire IC?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1596.636,
+            1601.298
+          ],
+          "quote": "So you'll say to an entrepreneur, hi, Nick, your pitch with the IC is at 6 p.m.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1612.098,
+            1617.021
+          ],
+          "quote": "Do you see a really wide variance in what you saw before versus the IC?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1746.286,
+            1749.807
+          ],
+          "quote": "I always try and say to our partners, hey, in the IC, there's no emotions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            1799.012,
+            1805.635
+          ],
+          "quote": "So if you think of an IC where founders just come in and just crushed, what one comes to mind?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aeo",
+      "type": "concept",
+      "role": "concept",
+      "name": "AEO",
+      "file": "AEO",
+      "primary": false,
+      "how_described": "本集提到这是现代营销人员的SEO答案，帮助企业在使用聊天界面的人面前变得可见",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 796,
+          "t": [
+            3016.627,
+            3018.868
+          ],
+          "quote": "It's AEO, Answer Engine Optimization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3024.29,
+            3034.594
+          ],
+          "quote": "And my question to you is, is the AEO Answer Engine Optimization business the same as agent to human in terms of traffic when you compare AEO to SEO?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3034.614,
+            3037.735
+          ],
+          "quote": "Will AEO be a significantly larger market than the SEO market?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3053.403,
+            3054.464
+          ],
+          "quote": "AEO is one of them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parallel-economy-for-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体经济 (parallel economy for agents)",
+      "file": "智能体经济",
+      "primary": false,
+      "how_described": "本集说这不仅仅是新类别而是新经济，会有一个和人类经济平行的智能体经济，其中会创造新的类别",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 801,
+          "t": [
+            3044.459,
+            3049.942
+          ],
+          "quote": "You're just gonna have a parallel economy for agents, just like you have a parallel economy for humans.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": false,
+      "how_described": "本集举其为自动驾驶类别的例子，去做航空公司客户支持，以五分之一价格解决每张50美元的工单，从副驾驶快速切到自动驾驶按结果收费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 920,
+          "t": [
+            3589.292,
+            3591.735
+          ],
+          "quote": "And the way it works is, you know, we have a company called Sierra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3609.096,
+            3614.862
+          ],
+          "quote": "Well, Sierra comes in and they say, well, we will resolve those tickets for, let's say, a fifth of the price.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集作为Sequoia投资信念的例子：Sean带入IC时有人投了1分，但发起人不放弃逼所有人飞过去看，先做小投资后加码，几年后成为公司历史上最好的投资之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.581,
+            32.703
+          ],
+          "quote": "Credits to Sean when he brought in the SpaceX investment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1009.742,
+            1014.766
+          ],
+          "quote": "You know, Sean is bringing SpaceX and you're like, yeah, Niros and like unbelievable companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1029.197,
+            1032.299
+          ],
+          "quote": "Credits to Sean when he brought in the SpaceX investment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2695.763,
+            2699.446
+          ],
+          "quote": "God, you'd be pissed if you're Sean McGuire and you're just being like, I just did SpaceX.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到Sequoia对其早期低估后来重新审视先验并投资25亿美元，也作为'不是等下一个Anthropic打电话来'的举例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            6.073
+          ],
+          "quote": "Everyone thinks that we're just waiting for the phone to ring for the next Anthropic to call us to invest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            507.344,
+            513.448
+          ],
+          "quote": "Everyone thinks that we're just waiting for the phone to ring for the next Anthropic to call us to invest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            590.024,
+            597.746
+          ],
+          "quote": "Yeah, I wasn't there for the Citadel investment, but I've seen it happen with, well, more recently with Anthropic, with special companies like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            650.504,
+            653.925
+          ],
+          "quote": "Like, Anthropic and OpenAI being a trillion dollars as quickly as they have been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 951,
+          "t": [
+            3712.694,
+            3724.188
+          ],
+          "quote": "When we say the one to six dollars spent, Microsoft, OpenAI, Anthropic, every freaking provider is putting a huge amount of money into like the services and implementation side of their business.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在区分异类运营者和异类创始人时，将OpenAI列为镀金简历的例子——在那里做得好不代表能从零创始",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            650.504,
+            653.925
+          ],
+          "quote": "Like, Anthropic and OpenAI being a trillion dollars as quickly as they have been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2729.403,
+            2735.225
+          ],
+          "quote": "Very difficult when the CV is as gold-plated as your OpenAI, your DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 951,
+          "t": [
+            3712.694,
+            3724.188
+          ],
+          "quote": "When we say the one to six dollars spent, Microsoft, OpenAI, Anthropic, every freaking provider is putting a huge amount of money into like the services and implementation side of their business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            3974.027,
+            3976.548
+          ],
+          "quote": "Can you keep Karen at OpenAI just in case?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集作为增长速度极快的例子提到，一年内就到了1亿ARR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1332.381,
+            1337.305
+          ],
+          "quote": "But you have a lovable, a logora, a you name it, and they go to 100 million in a year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2194.53,
+            2203.377
+          ],
+          "quote": "On your question around a founder misread, I had lunch with Anton Ossica from Lovable before he founded the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3370.713,
+            3379.061
+          ],
+          "quote": "Do margins matter less today, given the expansion of outcome sizes, whether we look at Fireworks or Legor or Harvey and putting them together, Lovable, Replit?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel；也提到Cloudflare预测五年后智能体流量是人类流量的1000倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 764,
+          "t": [
+            2845.19,
+            2853.081
+          ],
+          "quote": "I think it was CloudFlare this morning said that in five years from now, we'll have 1,000 times the amount of agent traffic to human traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 790,
+          "t": [
+            2973.402,
+            2977.624
+          ],
+          "quote": "They go to Cloudflare and Vercel when they're looking for a hosting solution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 790,
+          "t": [
+            2973.402,
+            2977.624
+          ],
+          "quote": "They go to Cloudflare and Vercel when they're looking for a hosting solution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": false,
+      "how_described": "本集作为基础设施层投资的例子，说无论谁在应用层获胜都会用Fireworks",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 843,
+          "t": [
+            3232.547,
+            3240.992
+          ],
+          "quote": "It feels so transient, and I feel a lot more certainty when I invest in Fireworks, when I invest in Macaw, when I invest in ClickHouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3246.115,
+            3247.716
+          ],
+          "quote": "But they're going to use Fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3275.324,
+            3277.865
+          ],
+          "quote": "In the case of fireworks, they're ripping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3370.713,
+            3379.061
+          ],
+          "quote": "Do margins matter less today, given the expansion of outcome sizes, whether we look at Fireworks or Legor or Harvey and putting them together, Lovable, Replit?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集称其为Sequoia之外最好的智能体公司，处于最重要市场之一，并且是第一家真正理解可以后训练模型深入堆栈底层的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1053,
+          "t": [
+            4108.327,
+            4111.688
+          ],
+          "quote": "So the best agent company outside Sequoia is probably Cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "type": "company",
+      "role": "company",
+      "name": "Revolut",
+      "file": "Revolut",
+      "primary": false,
+      "how_described": "本集作为嘉宾个人最大的遗憾：早期在Seedcamp见到Nikolai但失去投资机会，后来他母亲在A轮个人投资，从约2亿美元估值涨到超1000亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1064,
+          "t": [
+            4153.722,
+            4160.824
+          ],
+          "quote": "I remember telling the founder question, I don't think you're going to succeed because Revolut is going to smoke you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1094,
+          "t": [
+            4264.666,
+            4266.968
+          ],
+          "quote": "One of them is Nikolai from Revolut.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            4352.957,
+            4361.882
+          ],
+          "quote": "And so I always joke with my partners that they could only hire the second best investor in the Beck family because my mom went all in on Revolut at the Series A.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1140,
+          "t": [
+            4436.354,
+            4438.734
+          ],
+          "quote": "Preseed and Atio, Albert, Revolut.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集在讨论法律AI赛道资金过剩时提到，认为Harvey因拥有最广泛的分发而处于非常有利的地位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 587,
+          "t": [
+            2231.412,
+            2238.515
+          ],
+          "quote": "And what I mean by that is like Max at Legora, I know you're at Sequoia, so Team Harvey at Sequoia, but Max is like an aggressive Swede.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3370.713,
+            3379.061
+          ],
+          "quote": "Do margins matter less today, given the expansion of outcome sizes, whether we look at Fireworks or Legor or Harvey and putting them together, Lovable, Replit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1031,
+          "t": [
+            4032.902,
+            4037.343
+          ],
+          "quote": "I'm obviously biased, but I think Harvey is very well positioned because they have the widest distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            4067.552,
+            4073.493
+          ],
+          "quote": "That is so different to a lot of what Harvey and Agora do to the extent that both Harvey and Agora founders are invested in it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            4078.758,
+            4081.52
+          ],
+          "quote": "Now, will Solve be as big as Harvey or Lacora?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集作为Sequoia高信念投资的经典例子：被大多数基金拒绝、睡充气床垫听起来糟糕，但Sequoia领了种子轮持续加注，成为资金回报率最高的投资之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1116.063,
+            1124.613
+          ],
+          "quote": "I wasn't there, but I heard the Airbnb story multiple times over where I think that Brian Chesky had been turned down by most other firms.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rillet",
+      "type": "company",
+      "role": "company",
+      "name": "Rillet",
+      "file": "Rillet",
+      "primary": false,
+      "how_described": "本集作为嘉宾深度参与被投公司的例子，说自年初以来会见了17位上市公司CFO帮助Rillet获客；也提到其'爱荷华项目'吸引非科技公司客户是增长最快的部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            898.57,
+            904.152
+          ],
+          "quote": "If you look at Rillet, we met with 17 public company CFOs since the start of the year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3156.645,
+            3166.112
+          ],
+          "quote": "When you look at like a Rillet and it sells to large enterprises, some of the biggest in the world, the way that they buy, is that really going to fundamentally change?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集在区分异类运营者和异类创始人时，将DeepMind列为镀金简历的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 729,
+          "t": [
+            2729.403,
+            2735.225
+          ],
+          "quote": "Very difficult when the CV is as gold-plated as your OpenAI, your DeepMind.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "citadel-securities",
+      "type": "company",
+      "role": "company",
+      "name": "Citadel Securities",
+      "file": "Citadel Securities",
+      "primary": false,
+      "how_described": "本集作为合伙人Constantine长期关系的例子，他从Ken还是学生时起建立导师关系，多年不断询问直到Ken同意接受Sequoia投资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            547.208,
+            553.472
+          ],
+          "quote": "Constantine Buehler, my partner, helped us lead the investment in Citadel Securities, Ken Griffin's company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集作为嘉宾误判创始人的例子：Chris不善言辞、没有魅力、想法松散，但推荐信好得离谱，从此嘉宾在种子期更看重推荐信",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 568,
+          "t": [
+            2162.12,
+            2166.224
+          ],
+          "quote": "So like, I got introduced to Chris at Granola, first ever investor that he met.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ineffable",
+      "type": "company",
+      "role": "company",
+      "name": "Ineffable",
+      "file": "Ineffable",
+      "primary": false,
+      "how_described": "本集作为投资真正新颖公司的例子，David Silver的'独一档'研究员追求非常不同的架构，不试图把同样的事情做得更好而是试图与众不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            762.312,
+            765.173
+          ],
+          "quote": "Recently, we backed a company called Ineffable here in the UK.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "profound",
+      "type": "company",
+      "role": "company",
+      "name": "Profound",
+      "file": "Profound",
+      "primary": false,
+      "how_described": "本集称其为现代营销人员的SEO答案，帮助企业在使用聊天界面的人面前变得可见",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 794,
+          "t": [
+            3004.52,
+            3011.365
+          ],
+          "quote": "In the portfolio, we have a company called Profound that's the answer to SEO for the modern marketer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "excel",
+      "type": "company",
+      "role": "company",
+      "name": "Excel",
+      "file": "Excel",
+      "primary": false,
+      "how_described": "本集仅作为嘉宾加入Sequoia之前的供职机构被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            250.721,
+            256.063
+          ],
+          "quote": "Yeah, you were at Excel, and you were over there, very nice officers, and I was at, just joined Atomico, I think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            400.336,
+            401.618
+          ],
+          "quote": "You joined from Excel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            977.794,
+            982.78
+          ],
+          "quote": "We worked together at Excel before, so I've worked with Luciana for most of my career now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "atomico",
+      "type": "company",
+      "role": "company",
+      "name": "Atomico",
+      "file": "Atomico",
+      "primary": false,
+      "how_described": "本集仅作为嘉宾早期职业生涯的供职机构被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            250.721,
+            256.063
+          ],
+          "quote": "Yeah, you were at Excel, and you were over there, very nice officers, and I was at, just joined Atomico, I think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2506.295,
+            2508.556
+          ],
+          "quote": "I think mine would be Niklas at Atomico.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2512.958,
+            2514.639
+          ],
+          "quote": "And I was, by the way, like when I was at Atomico.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dmatrix",
+      "type": "company",
+      "role": "company",
+      "name": "dMatrix",
+      "file": "dMatrix",
+      "primary": false,
+      "how_described": "仅出现在赞助商广告段落中，非本集讨论内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            99.496,
+            108.246
+          ],
+          "quote": "For Sid Shate, co-founder and CEO of dMatrix, JP Morgan delivered the guidance and expertise to help navigate what came next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            108.586,
+            114.793
+          ],
+          "quote": "He credits JP Morgan's high-touch approach with supporting dMatrix as it grew and expanded internationally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            4584.484,
+            4593.233
+          ],
+          "quote": "For Sid Shate, co-founder and CEO of dMatrix, JP Morgan delivered the guidance and expertise to help navigate what came next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1174,
+          "t": [
+            4593.573,
+            4599.78
+          ],
+          "quote": "He credits JP Morgan's high-touch approach with supporting dMatrix as it grew and expanded internationally.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jpmorgan",
+      "type": "company",
+      "role": "company",
+      "name": "JPMorgan",
+      "file": "JPMorgan",
+      "primary": false,
+      "how_described": "仅出现在赞助商广告段落中，非本集讨论内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            114.973,
+            126.758
+          ],
+          "quote": "Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            127.098,
+            133.821
+          ],
+          "quote": "Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            134.061,
+            137.402
+          ],
+          "quote": "JPMorgan is the bank of the innovation economy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            4599.96,
+            4611.745
+          ],
+          "quote": "Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            4612.085,
+            4618.808
+          ],
+          "quote": "Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            4619.048,
+            4622.369
+          ],
+          "quote": "JPMorgan is the bank of the innovation economy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "corgi",
+      "type": "company",
+      "role": "company",
+      "name": "Corgi",
+      "file": "Corgi",
+      "primary": false,
+      "how_described": "仅出现在赞助商广告段落中，非本集讨论内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            137.622,
+            141.044
+          ],
+          "quote": "While JP Morgan supports growth, Corgi protects it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            143.405,
+            147.588
+          ],
+          "quote": "Get your ass covered with Corgi Insurance, and I'll tell you why.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            156.073,
+            158.674
+          ],
+          "quote": "Well, that's exactly why Corgi is here to change the game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            158.834,
+            163.497
+          ],
+          "quote": "Corgi is the first and only insurance carrier designed specifically for tech companies",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            163.657,
+            175.824
+          ],
+          "quote": "Allowing you to get covered in minutes instead of days, Corgi provides essential coverages for all growth stages such as D&O, E&O liability, cyber, commercial, general liability, and more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            175.924,
+            182.008
+          ],
+          "quote": "Get your ass covered, I love the way we say ass, with Corgi Insurance alongside thousands of other startups at Corgi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            182.048,
+            185.091
+          ],
+          "quote": "Visit corgi.com forward slash 20VC today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            185.171,
+            188.374
+          ],
+          "quote": "That's corgi.com forward slash 20VC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            189.836,
+            193.239
+          ],
+          "quote": "While Corgi covers risk, Flex gives you room to move.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1178,
+          "t": [
+            4622.609,
+            4626.031
+          ],
+          "quote": "While JP Morgan supports growth, Corgi protects it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            4628.392,
+            4632.575
+          ],
+          "quote": "Get your ass covered with Corgi insurance, and I'll tell you why.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            4641.06,
+            4643.661
+          ],
+          "quote": "Well, that's exactly why Corgi is here to change the game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1184,
+          "t": [
+            4643.821,
+            4648.504
+          ],
+          "quote": "Corgi is the first and only insurance carrier designed specifically for tech companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            4648.644,
+            4660.819
+          ],
+          "quote": "Allowing you to get covered in minutes instead of days, Corgi provides essential coverages for all growth stages such as D&O, E&O liability, cyber, commercial, general liability, and more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1186,
+          "t": [
+            4660.919,
+            4666.927
+          ],
+          "quote": "Get your ass covered, I love the way we say ass, with Corgi Insurance alongside thousands of other startups at",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1187,
+          "t": [
+            4667.247,
+            4670.068
+          ],
+          "quote": "Visit corgi.com forward slash 20VC today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1188,
+          "t": [
+            4670.148,
+            4673.349
+          ],
+          "quote": "That's corgi.com forward slash 20VC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            4674.83,
+            4678.211
+          ],
+          "quote": "While Corgi covers risk, Flex gives you room to move.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "flex",
+      "type": "company",
+      "role": "company",
+      "name": "Flex",
+      "file": "Flex",
+      "primary": false,
+      "how_described": "仅出现在赞助商广告段落中，非本集讨论内容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            189.836,
+            193.239
+          ],
+          "quote": "While Corgi covers risk, Flex gives you room to move.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            193.559,
+            197.003
+          ],
+          "quote": "Business owners run their whole financial life on Flex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            220.572,
+            226.035
+          ],
+          "quote": "That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            227.215,
+            235.697
+          ],
+          "quote": "Visit flex.one, that's F-L-E-X dot O-N-E, and use the code 20VC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            4674.83,
+            4678.211
+          ],
+          "quote": "While Corgi covers risk, Flex gives you room to move.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            4678.532,
+            4681.973
+          ],
+          "quote": "Business owners run their whole financial life on Flex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            4705.542,
+            4710.945
+          ],
+          "quote": "That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1198,
+          "t": [
+            4712.205,
+            4719.557
+          ],
+          "quote": "Visit flex.one, that's F-L-E-X dot O-N-E, and use the code 20VC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

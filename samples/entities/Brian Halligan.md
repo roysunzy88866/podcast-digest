@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[HubSpot]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]] · [[DRI]] · [[智能体]]
+[[Lenny]] · [[HubSpot]] · [[Sequoia]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]] · [[DRI]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"HubSpot":4,"MongoDB":3,"Salesforce":7,"Google":24,"Microsoft":11,"McKinsey":4,"Delphi":3,"DRI":1,"智能体":118}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"HubSpot":4,"Sequoia":2,"MongoDB":3,"Salesforce":7,"Google":24,"Microsoft":11,"McKinsey":4,"Delphi":3,"DRI":1}</script>
 
 <script>
 (function(){

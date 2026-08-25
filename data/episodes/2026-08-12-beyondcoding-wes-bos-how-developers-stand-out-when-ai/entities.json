@@ -1,0 +1,490 @@
+{
+  "episode_id": "2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai",
+  "podcast": "Beyond Coding",
+  "date": "2026-08-12",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "生成式 UI",
+    "个人品牌",
+    "AI 成本"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "wes-bos",
+      "type": "person",
+      "role": "host",
+      "name": "Wes Bos",
+      "file": "Wes Bos",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集说生成式 UI 是指根据已有上下文自动生成界面或控制面板，比如智能家居应该根据它知道的信息为你生成一个控制面板，但目前还没产品真正用好它，做出来的设计仍显粗糙",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            92.465,
+            99.678
+          ],
+          "quote": "I heard a similar take last year about generative UI and it's only going to be chat or one chat interface.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            235.715,
+            246.723
+          ],
+          "quote": "And I think that's why this like the like middle ground of like generative UI, meaning that like you can give it a whole bunch of components, but you should still be able to like tweak it a little bit to what you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            277.509,
+            282.673
+          ],
+          "quote": "But specifically, these kind of generative UI components, I've seen them in theory, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说 vibe coding 是指凭感觉描述需求让 AI 写代码，很多人用它做出自己专属的工具版本——不是给两万用户做的，是给自己解决痛点的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            246.923,
+            250.686
+          ],
+          "quote": "Because you see a lot of people just like vibe coding their own versions of an app because",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现在大家都通过智能体进行编码，代码不再代表你的能力；进入管理层没时间写代码的人也能通过编排智能体重新动手构建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            335.658,
+            338.3
+          ],
+          "quote": "People work in kind of an augmented way, agent augmented.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            895.014,
+            917.982
+          ],
+          "quote": "Um it education has certainly changed because it is much easier and better to simply just ask an agent to how to do something or like to help you explain things and get into it it's significantly better than having to watch like a 20-hour course or whatever and i'm saying that as guys a guy who makes makes that type of stuff as well so it certainly has has shaken it up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            977.437,
+            987.405
+          ],
+          "quote": "Now, I wonder if I switch teams and they are using a language that I haven't even used yet, do I put in the effort to learn the language or do I just let my agent handle and me focus on solving problems?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1564.447,
+            1588.589
+          ],
+          "quote": "Like extrapolated blog posts but I'll just like I have like a skill to like post something to my website like this conference for example I used to be really bad at posting conferences on my website but now I just have an agent and a skill I say hey I'm doing this conference here's a screenshot of the details put it on my site and it just goes and and does it you know or if I if I have like a short form video",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "iterative-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代循环 (iterative loop)",
+      "file": "迭代循环",
+      "primary": true,
+      "how_described": "本集说迭代循环是指不一次性让模型做完所有事，而是写一个循环让它每次完成后回头对照原始需求检查遗漏，循环七八次后发现新用例，效果比一大口气完成更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            462.163,
+            465.265
+          ],
+          "quote": "And that iterative loop is much better in that case.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 里的解决方案都是已有的方案，当遇到全新问题时模型能帮你加速想但不能完全替你解决",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            207.008,
+            211.05
+          ],
+          "quote": "Or is the LLM better at building this product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            295.683,
+            310.325
+          ],
+          "quote": "generated design or like good design from an llm has not been cracked yet like we cracked it certainly with code but the like a good ui from it like even like one thing we're trying to do with our podcast is like um programmatic overlays",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "local-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地模型 (local models)",
+      "file": "本地模型",
+      "primary": true,
+      "how_described": "本集说短期内不觉得本地模型能真正跑起来，但希望四年后能花一万五千美元买一台设备放在家里跑本地模型，就像录音棚里摆着三万美元视频设备一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            716.166,
+            722.131
+          ],
+          "quote": "Do you see the cheaper models still being centrally hosted or are you bullish on the local models running on the edge?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            722.932,
+            728.456
+          ],
+          "quote": "The open source developer in me wants to see the local models work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personal-branding",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人品牌 (personal branding)",
+      "file": "个人品牌",
+      "primary": true,
+      "how_described": "本集说开发者一向对营销过敏，但个人品牌现在是必要的，因为代码不能再替你说话了，你需要另一种方式向外界展示你真正会什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1219.867,
+            1221.448
+          ],
+          "quote": "Lastly, I want to talk about personal branding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1232.033,
+            1233.934
+          ],
+          "quote": "For me, the answer could be personal branding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1234.455,
+            1236.456
+          ],
+          "quote": "You've been in this space and working on personal branding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "type": "concept",
+      "role": "concept",
+      "name": "通讯 (newsletter)",
+      "file": "通讯",
+      "primary": false,
+      "how_described": "本集说 newsletter 仍然是直接触达受众最好的方式之一，因为其他平台全是算法驱动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1366.32,
+            1369.442
+          ],
+          "quote": "And the newsletter is probably the best way to reach people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1384.933,
+            1410.758
+          ],
+          "quote": "Uh newsletter is a fantastic way to do that because you it's like the last way you can like actually directly connect with your your consumers everything else is algorithm based and you just have to pray that the algorithm like like favors your content and shows it to the people that want to see it so that's good but in the same breath like my email is a disaster since all this AI popped up you know i get like probably 15 20 like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1432.282,
+            1454.372
+          ],
+          "quote": "because they can personalize every single email it doesn't get caught by spam anymore and it's just a dumpster fire in my in my inbox to a point where i've like almost given up on email so like if like the real chats are happening in the dms right now so i don't i don't know what the the solution to that is but i think newsletter probably still is a good move",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": false,
+      "how_described": "本集反复提到上下文——模型在接收上下文方面变好了，AI 非常擅长在给定上下文的情况下决定做什么，网站自愈也需要收集各种上下文片段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            108.676,
+            113.08
+          ],
+          "quote": "The models have gotten way better in terms of taking in context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            166.077,
+            167.358
+          ],
+          "quote": "It has all of the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            167.578,
+            171.202
+          ],
+          "quote": "AI is fantastic at deciding what to do given the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            178.808,
+            184.213
+          ],
+          "quote": "And it will do that based on the context or it will do that based on your interaction with it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            282.693,
+            288.477
+          ],
+          "quote": "You pre-configure some web components, and then based on context, it gets filled, and then it just magically appears.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            369.96,
+            370.981
+          ],
+          "quote": "Again, we're talking about context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            371.001,
+            373.382
+          ],
+          "quote": "You have all of these different pieces of context.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 是日常软件开发工具之一，在 Cursor 里让模型对照 API 文档构建界面时模型会做一半就停下来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            408.945,
+            437.752
+          ],
+          "quote": "It was in Cursor and I told it to do X, Y, and Z and it like keeps like ducking out and doing kind of a half-assed job at it even though I'm using like the latest models and I think it's to do that they don't want to like build too much or they don't want to run for too long because it gets really expensive right but I wanted it to go longer so like I just in that case I coded up a loop where it says like every time you're done go back to the source I was trying to like copy um an API I had like an API set of docs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            619.369,
+            624.13
+          ],
+          "quote": "But my daily software dev is probably 50-50 Cursor, Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            650.911,
+            654.976
+          ],
+          "quote": "You know, the Cursor Composer is way, way cheaper, and it's really good.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说日常软件开发大概是 Cursor 和 Claude Code 各占一半，一个月后很多手写的循环工程会变成 Claude Code 里挽具的一部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            572.944,
+            577.309
+          ],
+          "quote": "And then in a month, it'll be part of the harness in Claude Code or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            619.369,
+            624.13
+          ],
+          "quote": "But my daily software dev is probably 50-50 Cursor, Claude Code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "company",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集仅作为昂贵模型的例子一笔带过——'Fable 刚发布，你打个招呼就要九美元'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            60.362,
+            61.703
+          ],
+          "quote": "Fable just came out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            664.701,
+            676.566
+          ],
+          "quote": "So I almost get more excited about the less powerful, cheaper ones than the like, oh, Fable just came out, Mythos, and you say hi and it's nine bucks to say hi, you know?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grokbuild",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBuild",
+      "file": "GrokBuild",
+      "primary": false,
+      "how_described": "本集说一直在尝试 GrokBuild（xAI 的），那个比很多其他的都要便宜得多，看起来很不错",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            625.23,
+            629.691
+          ],
+          "quote": "I've been dipping into GrokBuild, which is xAI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

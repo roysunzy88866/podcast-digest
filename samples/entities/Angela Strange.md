@@ -25,17 +25,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gabriel Vasquez]] · [[Elena Berger]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[OpenAI]] · [[Salesforce]] · [[Stripe]]
+[[Gabriel Vasquez]] · [[Elena Berger]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[Salesforce]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]] [[Erik Allebest]] [[Harry Stabbings]]
+[[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[David George]] [[Grant LaFontaine]] [[Roblox CEO]] [[Andrew MacDonald]] [[Johan Hari]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":5,"Adi":1,"Eleven Labs":1,"Cognition":6,"Vercel":8,"OpenAI":54,"Salesforce":7,"Stripe":16}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":5,"Adi":1,"Eleven Labs":1,"Cognition":7,"Vercel":9,"Brex":3,"OpenAI":56,"Salesforce":7}</script>
 
 <script>
 (function(){

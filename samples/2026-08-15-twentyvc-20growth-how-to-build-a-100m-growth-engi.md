@@ -158,8 +158,8 @@ Matt 对人才的标准在过去一两年发生了 180 度转变 <button class="
 **换个口味**
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Google、Meta、Claude Code</span>
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|Sequoia 合伙人拆解：如何识人、押注与智能体新经济]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)、AEO</span>
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|Simile：用模拟人帮大公司避开五亿美元级失误]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

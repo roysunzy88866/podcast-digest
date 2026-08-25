@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Airbnb":8,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Airbnb":9,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":2,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
 
 <script>
 (function(){

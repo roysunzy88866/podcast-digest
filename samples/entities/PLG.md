@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[ACV]] · [[Cursor]] · [[Stripe]] · [[OpenAI]] · [[Jen Abel]] · [[Jeanne DeWitt Grosser]] · [[Elena Berger]] · [[Matt Swulinski]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":118,"ACV":2,"Cursor":27,"Stripe":16,"OpenAI":54,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"Elena Berger":3,"Matt Swulinski":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":121,"ACV":2,"Cursor":30,"Stripe":17,"OpenAI":56,"Jen Abel":1,"Jeanne DeWitt Grosser":1,"Elena Berger":3,"Matt Swulinski":1}</script>
 
 <script>
 (function(){

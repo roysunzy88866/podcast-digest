@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Claire]]
+[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Stephen Haney]] [[Aakash]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":4,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":24,"提示词注入":6,"Cloudflare":3,"Slack":19}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":5,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":24,"提示词注入":6,"Cloudflare":4,"Slack":19}</script>
 
 <script>
 (function(){

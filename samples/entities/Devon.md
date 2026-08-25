@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Devon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Devon">DE</div><div class="pi"><h1 class="pt">Devon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Devon">DE</div><div class="pi"><h1 class="pt">Devon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(23:29起):本集把它描述为一款「智能体工程师」工具，目前已达到合格软件工程师的水平。Laurel 团队（包括非技术背景的 PM 和客户成功人员）都使用它来端到端地交付前端和后端代码功能。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(01:06起):Cognition 公司构建的 AI 软件工程师产品,其价值在于发现跨行业的各种厄运循环以及从中恢复的最佳方法。
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(00:11起):本集说 Devon 是一个云端编码智能体平台，Ryan 在其中用文件夹管理 10-15 个并发线程，不仅用来写代码，还用于报价、运营文档、客户分流等业务工作
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Jiaona Zhang]] · [[Tane]] · [[Akash]] · [[Carter]] · [[Laurel]] · [[Walden]] · [[GitHub]] · [[模型路由]] · [[Slack]]
+[[智能体]] · [[剧本]] · [[Cognition]] · [[技能]] · [[Jiaona Zhang]] · [[Tane]] · [[Ryan Carson]] · [[Akash]] · [[Carter]] · [[Claire]]
 
-<script type="application/json" class="pd-epn">{"智能体":118,"Jiaona Zhang":1,"Tane":1,"Akash":3,"Carter":1,"Laurel":1,"Walden":1,"GitHub":16,"模型路由":2,"Slack":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":121,"剧本":3,"Cognition":7,"技能":5,"Jiaona Zhang":1,"Tane":1,"Ryan Carson":1,"Akash":3,"Carter":1,"Claire":2}</script>
 
 <script>
 (function(){

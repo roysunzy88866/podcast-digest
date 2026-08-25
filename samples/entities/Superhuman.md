@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[GitHub]] · [[Stripe]] · [[ChatGPT]] · [[Madhavan Ramanujam]] · [[Olivia Moore]] · [[Matt Swulinski]] · [[Claire Veva]] · [[Lenny]] · [[Frederick Rankin]]
 
-<script type="application/json" class="pd-epn">{"智能体":118,"GitHub":16,"Stripe":16,"ChatGPT":31,"Madhavan Ramanujam":1,"Olivia Moore":1,"Matt Swulinski":1,"Claire Veva":1,"Lenny":65,"Frederick Rankin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":121,"GitHub":16,"Stripe":17,"ChatGPT":31,"Madhavan Ramanujam":1,"Olivia Moore":1,"Matt Swulinski":1,"Claire Veva":1,"Lenny":65,"Frederick Rankin":1}</script>
 
 <script>
 (function(){

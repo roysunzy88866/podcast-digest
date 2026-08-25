@@ -154,9 +154,9 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款]]<span class="pd-rz">同概念:区块链 (blockchain)、代币化 (tokenization)</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同概念:开源软件 (open source)</span>
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|Martin Casado：AI 时代，钱比以前好使了]]<span class="pd-rz">同概念:开源软件 (open source)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 <div class="pd-ex">

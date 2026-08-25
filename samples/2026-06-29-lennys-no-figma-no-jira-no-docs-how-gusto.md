@@ -131,7 +131,7 @@ Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、vibe coding</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|Wes Bos 谈 AI 编程时代如何脱颖而出]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

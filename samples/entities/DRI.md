@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Brian Halligan]] · [[Lenny]] · [[HubSpot]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]] · [[智能体]]
+[[Brian Halligan]] · [[Lenny]] · [[HubSpot]] · [[Sequoia]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]]
 
-<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":65,"HubSpot":4,"MongoDB":3,"Salesforce":7,"Google":24,"Microsoft":11,"McKinsey":4,"Delphi":3,"智能体":118}</script>
+<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":65,"HubSpot":4,"Sequoia":2,"MongoDB":3,"Salesforce":7,"Google":24,"Microsoft":11,"McKinsey":4,"Delphi":3}</script>
 
 <script>
 (function(){

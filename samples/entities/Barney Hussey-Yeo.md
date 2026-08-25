@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Carson]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]] [[Andrew MacDonald]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":118,"LLM":13,"推荐系统":1,"监督学习":2,"强化学习":12,"transformer":2,"创造性破坏":1,"Anthropic":61}</script>
+<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":121,"LLM":14,"推荐系统":1,"监督学习":2,"强化学习":12,"transformer":2,"创造性破坏":1,"Anthropic":62}</script>
 
 <script>
 (function(){

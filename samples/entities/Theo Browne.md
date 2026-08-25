@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Aakash]] [[Oji Udezue]]
+[[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":6,"Vercel":8,"Reddit":3,"Slack":19}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":6,"Vercel":9,"Reddit":3,"Slack":19}</script>
 
 <script>
 (function(){
