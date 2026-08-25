@@ -725,4 +725,21 @@ describe("C36c · 行末裸戳头(Product Podcast)+ buzzsprout 词级 JSON(AI-Na
     })!;
     expect(segs.map((s) => s.text).join(" ")).toContain("three."); // 落单 text 不丢
   });
+  it("★★★ [GLM007-1] 小写打头的品牌名作公司(xAI/iRobot/eBay)不被散文防御误拒,仍当段头", () => {
+    const t = [
+      "Jane Doe | xAI 00:12:00",
+      "talking about models.",
+      "John Smith | iRobot 00:20:00",
+      "robots content.",
+      "Ann Lee | eBay 00:30:00",
+      "commerce content.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    // 品牌名有内部大写(xAI 的 A/I、iRobot 的 R)→ 不算散文常词 → 真段头保住
+    expect(segs.some((s) => s.speaker === "Jane Doe")).toBe(true);
+    expect(segs.some((s) => s.speaker === "John Smith")).toBe(true);
+    expect(segs.some((s) => s.speaker === "Ann Lee")).toBe(true);
+    // 但纯小写常词散文(okay)仍被拦
+    expect(parseStampedText(["A | Co 00:00:05", "x.", "okay 00:12:00", "y.", "B | Co 00:01:00", "z."].join("\n"))!.some((s) => s.speaker === "okay")).toBe(false);
+  });
 });

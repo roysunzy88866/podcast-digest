@@ -276,13 +276,17 @@ export function parseStampedText(text) {
     const isBracketHeader = mb && !looksProse;
     // 行末裸戳头:仅当既非括号头也非方括号头时才试(优先级最低,免抢已有形状)
     const mt = mp || mb ? null : line.match(HEADER_TAIL);
-    // 正文防御:名字段非空、且不像散文 —— 数「小写字母打头**且非人名介词**」的词,≥1 个就判散文
-    //   (不当段头,让正文行落成正文累积)。用词首而非 \b[a-z]{2,}\b 子串,免重音名(González 的 á
-    //   断出假小写词「lez」)误伤真段头;排除介词(de/la/van/den…)让「Maria de la Cruz」这类合法名放行。
-    //   阈值取 ≥1(非 ≥2)是为逮住单小写词散文(「okay 00:45:00」)——防失真宁误拒段头(正文落成 content 不丢字)
-    //   也不误收散文(整句吞进 speaker 丢字)。GLM 005[3] + 006[2/4]。
+    // 正文防御:名字段非空、且不像散文 —— 数「**全小写常词**(小写打头且无内部大写)且非人名介词」的词,
+    //   ≥1 个就判散文(不当段头,让正文行落成正文累积)。
+    //   · 词首而非 \b[a-z]{2,}\b 子串:免重音名(González 的 á 断出假小写词「lez」)误伤(GLM 005[3])。
+    //   · 排除介词(de/la/van…):让「Maria de la Cruz」放行(GLM 006[2])。
+    //   · 阈值 ≥1(非 ≥2):逮住单小写词散文「okay 00:45:00」(GLM 006[4])。
+    //   · 「无内部大写」:小写打头的品牌名(iRobot/xAI/eBay)不算散文——科技播客公司名常这样,不该被误拒(GLM 007[1])。
+    //   防失真取向:宁误拒段头(正文落成 content 不丢字)也不误收散文(整句吞进 speaker 丢字)。
     const tailName = mt ? mt[1].trim() : "";
-    const proseWords = tailName.split(/\s+/).filter((w) => /^[a-z]/.test(w) && !NAME_PARTICLES.has(w.toLowerCase()));
+    const proseWords = tailName
+      .split(/\s+/)
+      .filter((w) => /^[a-z]/.test(w) && !/[A-Z]/.test(w) && !NAME_PARTICLES.has(w.toLowerCase()));
     const isTailHeader = !!tailName && proseWords.length < 1;
     if (mp || isBracketHeader || isTailHeader) {
       let cand;
