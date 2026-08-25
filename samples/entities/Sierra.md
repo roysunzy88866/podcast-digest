@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[Madhavan Ramanujam]] · [[Bret Taylor]] · [[Sarah Wang]] · [[Julien Bek]] · [[Intercom]]
 
-<script type="application/json" class="pd-epn">{"智能体":123,"Cursor":31,"OpenAI":56,"Lenny":65,"Anthropic":63,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":1,"Julien Bek":1,"Intercom":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":124,"Cursor":31,"OpenAI":58,"Lenny":65,"Anthropic":64,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":1,"Julien Bek":1,"Intercom":4}</script>
 
 <script>
 (function(){

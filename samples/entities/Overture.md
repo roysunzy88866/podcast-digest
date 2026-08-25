@@ -25,7 +25,7 @@ unlisted: true
 
 [[Blake Scholl]] · [[Boom]] · [[XB-1]] · [[马赫切断]] · [[MakeBoom]] · [[Blade Runner]] · [[superpower]] · [[超音速飞行]] · [[第一性原理]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Blake Scholl":1,"Boom":1,"XB-1":1,"马赫切断":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":2,"Amazon":7}</script>
+<script type="application/json" class="pd-epn">{"Blake Scholl":1,"Boom":1,"XB-1":1,"马赫切断":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":2,"Amazon":8}</script>
 
 <script>
 (function(){

@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":16,"智能体":123,"沙箱":23,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":14,"OpenAI":56,"YC":7}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":16,"智能体":124,"沙箱":23,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":14,"OpenAI":58,"YC":7}</script>
 
 <script>
 (function(){

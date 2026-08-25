@@ -47,7 +47,7 @@ unlisted: true
 
 [[Claude]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Lenny]] · [[Figure]] · [[Whoop]] · [[SoFi]] · [[行为激活]] · [[Brex]] · [[心智模型]]
 
-<script type="application/json" class="pd-epn">{"Claude":30,"Hilary Gridley":1,"Michael Tannenbaum":1,"Lenny":65,"Figure":2,"Whoop":1,"SoFi":1,"行为激活":1,"Brex":3,"心智模型":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":31,"Hilary Gridley":1,"Michael Tannenbaum":1,"Lenny":65,"Figure":2,"Whoop":1,"SoFi":1,"行为激活":1,"Brex":3,"心智模型":1}</script>
 
 <script>
 (function(){

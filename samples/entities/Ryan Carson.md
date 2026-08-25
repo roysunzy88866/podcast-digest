@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Manoj Saxena]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]]
+[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":123,"云端智能体":2,"Codex":27,"Claude Code":33,"剧本":4,"后台智能体":3,"Cursor":31,"产品市场契合":9}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":124,"云端智能体":2,"Codex":27,"Claude Code":33,"剧本":4,"后台智能体":4,"Cursor":31,"产品市场契合":9}</script>
 
 <script>
 (function(){

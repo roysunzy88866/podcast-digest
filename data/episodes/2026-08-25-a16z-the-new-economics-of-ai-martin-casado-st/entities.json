@@ -1,0 +1,900 @@
+{
+  "episode_id": "2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st",
+  "podcast": "The a16z Show",
+  "date": "2026-08-25",
+  "tags": [
+    "AI 行业范式",
+    "资本与工程逆转",
+    "创新者窘境",
+    "计算抽象层",
+    "缩放定律"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "host",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            65.954,
+            74.64
+          ],
+          "quote": "In this episode, I sit down with Martin Casado and Steven Sinopsky to ask whether AI is changing some of the fundamental assumptions we've built up over decades of computing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "steven-sinofsky",
+      "type": "person",
+      "role": "guest",
+      "name": "Steven Sinofsky",
+      "file": "Steven Sinofsky",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集多次提及 Anthropic：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）作为「元经济机器」的例证——能筹集大量资金并全部投入模型训练，创造出人类历史上从未有过的算力和数据规模的数字制品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 807,
+          "t": [
+            3153.654,
+            3157.438
+          ],
+          "quote": "And like their models are getting trounced by OpenAI and by Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3436.642,
+            3449.587
+          ],
+          "quote": "And if you consider this meta-economic machinery, which means the ability from Anthropic to raise lots of money and then pour all of that money into this thing to create this super powerful thing, I don't think any of us can predict what that means and where that goes.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集多次提及 OpenAI：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）Patrick Collison 采访 Sam Altman 时指出 OpenAI 一开始就筹集了巨额资金，打破了精益创业的范式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 653,
+          "t": [
+            2491.666,
+            2505.443
+          ],
+          "quote": "In a podcast, and Patrick was saying, hey, you know, we've been in this era of lean startup, but for your projects, you know, OpenAI, this sort of energy, being a product who's involved with a few other aging thing, you've raised colossal amounts of money right out the gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3153.654,
+            3157.438
+          ],
+          "quote": "And like their models are getting trounced by OpenAI and by Anthropic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 拥有所有数据和智能，但其模型被 OpenAI 和 Anthropic 击溃——这不是工程问题，而是文化问题。此外，Google 内部在配给 token，内部产品面临「AI 饥饿」，而其竞争对手不受此限制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.162,
+            38.805
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1880.638,
+            1885.242
+          ],
+          "quote": "And again, like, I think maybe you could say, well, Google was kind of like that too, but it was still a very much a social thing and not very much.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3004.287,
+            3009.95
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3145.367,
+            3151.893
+          ],
+          "quote": "So it's a very different laws of physics where like if you can amass a capital, you can do something like, you know, I mean, Google is Google.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3189.112,
+            3193.034
+          ],
+          "quote": "You know, you have Google doing their bond deal to move it off balance sheet basically in some weird way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3275.231,
+            3277.3
+          ],
+          "quote": "And just like with Google, they do hyperscale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说 Microsoft 更担心 Amazon 和 Google 在做什么，而不是创业领域的任何人——巨头只盯着其他巨头，不看创业公司。还提到 Steven 在微软期间曾力推 ARM 芯片但遭到内部文化阻力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.162,
+            38.805
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1578.075,
+            1587.519
+          ],
+          "quote": "So Cain wrote the book, but it's with Catmull at Pixar and with Dana Lewin, who was at Steve's super good friend and was also at Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3004.287,
+            3009.95
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3100.183,
+            3104.266
+          ],
+          "quote": "I actually think, you know, and that's always been the question, will Microsoft write the app, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3284.599,
+            3288.2
+          ],
+          "quote": "And, you know, with Microsoft, they were squeezed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集仅一笔带过，说 Microsoft 更担心 Amazon 和 Google 在做什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.162,
+            38.805
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3004.287,
+            3009.95
+          ],
+          "quote": "Microsoft is worried way more about what Amazon and Google are doing than anyone in a startup space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "type": "company",
+      "role": "company",
+      "name": "Intel",
+      "file": "Intel",
+      "primary": false,
+      "how_described": "作为大公司文化惯性的反面案例：Steven 带第一台 Surface 去见 Intel 领导层展示 ARM 芯片，但 Intel 的文化是做 Moore's Law，认为 ARM 只是打印机用的芯片，最终被移动平台颠覆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 824,
+          "t": [
+            3227.495,
+            3230.076
+          ],
+          "quote": "And Intel just didn't care.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3230.937,
+            3240.783
+          ],
+          "quote": "You know, I came down here, I sat across the table from all the Intel leadership, and I pulled out the first Surface, and I said, here's our new computer, and they got very excited, and then they were like, but what's in here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3269.769,
+            3274.072
+          ],
+          "quote": "And the culture was they do Moore's Law at Intel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 943,
+          "t": [
+            3706.288,
+            3713.85
+          ],
+          "quote": "But I remember just sitting in meeting after meeting, Intel saying, we have five gigahertz, we have this many gigahertz, this many transistors.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "type": "company",
+      "role": "company",
+      "name": "IBM",
+      "file": "IBM",
+      "primary": false,
+      "how_described": "本集展示了 IBM 1953 年的《IBM Light on the Future》宣传册，用以说明当时人们对计算机的认知；还提到 IBM 在国际象棋上的早期 AI 努力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1201.056,
+            1205.679
+          ],
+          "quote": "I found this incredibly cool brochure from IBM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1242.892,
+            1248.256
+          ],
+          "quote": "And so it's a brochure from IBM explaining what a computer might be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1284.609,
+            1286.47
+          ],
+          "quote": "It's just called IBM Light on the Future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1493.076,
+            1494.757
+          ],
+          "quote": "Right, we had the IBM chess thing, whatever it was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1956.729,
+            1961.392
+          ],
+          "quote": "So my freshman engineering class, we had a version of it that ran on the IBM PC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computationally-irreducible",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算不可约性 (computationally irreducible)",
+      "file": "计算不可约性",
+      "primary": true,
+      "how_described": "本集提出物理模拟（如恒星爆炸、建筑受力）本质上是计算不可约的——你实际上必须真的运行模拟，AI 解数学的能力对这类问题是否有帮助并不清楚。并指出「解了所有数学就能预测一切」是一个巨大的逻辑跳跃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            800.586,
+            804.17
+          ],
+          "quote": "Like, is simulation computationally irreducible?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "abstraction",
+      "type": "concept",
+      "role": "concept",
+      "name": "抽象层 (abstraction)",
+      "file": "抽象层",
+      "primary": true,
+      "how_described": "本集用算盘、计算尺、图形计算器的历史说明每一层新抽象都让一整层新问题变得可解。但 AI 这一层不同：以前每层都是确定性的、可往下映射的，AI 是第一层你连最终状态应该是什么都不确定的抽象，可能需要重新思考计算的基本假设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            451.862,
+            456.403
+          ],
+          "quote": "If you work in history, there's basically no abstraction in history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            474.187,
+            480.271
+          ],
+          "quote": "But this idea that why they're so excited is a bunch of math all of a sudden becomes a new level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            714.546,
+            728.496
+          ],
+          "quote": "And I think that that, to me, was just a really good lesson in when you have like a new level of abstraction that says this is a whole class of problems that can be solved, you can then build tools working at that level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            907.298,
+            910.54
+          ],
+          "quote": "But, you know, that became a level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1318.299,
+            1323.801
+          ],
+          "quote": "And so this is the thing that gets to this point about abstraction for us and AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1423.395,
+            1430.24
+          ],
+          "quote": "Because I, listen, I clearly love the framing and we move up in abstraction and every abstraction there's still a set of problems such as a higher level of abstraction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1822.736,
+            1825.777
+          ],
+          "quote": "But the thing is, you can also think of it as a level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1889.585,
+            1899.052
+          ],
+          "quote": "Going up into abstractions, you still tend to have like a deterministic system that's a higher level of abstraction that like you have a computer and like it's the human being that's kind of defining everything about the problem statement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2170.457,
+            2177.44
+          ],
+          "quote": "Like maybe this is like really is the next abstraction, which is more of a human level abstraction, which doesn't map directly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2282.86,
+            2292.066
+          ],
+          "quote": "Like that, but it's also interesting to think about it going forward in terms of is that itself the next layer of abstraction in how we think of computing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2434.556,
+            2436.397
+          ],
+          "quote": "And it's not just one level of abstraction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 693,
+          "t": [
+            2704.704,
+            2706.326
+          ],
+          "quote": "And that's a new level of abstraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2768.978,
+            2774.359
+          ],
+          "quote": "That you're not just building this throwaway code that's hard to do, but also everybody else's abstraction layer is rising.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 710,
+          "t": [
+            2778.16,
+            2781.721
+          ],
+          "quote": "Like, you know, if you're doing it for a phone, well, the phone's abstraction level has risen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3061.205,
+            3063.527
+          ],
+          "quote": "That you needed, again, it's this abstraction layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "imperative-programming",
+      "type": "concept",
+      "role": "concept",
+      "name": "命令式编程 (imperative programming)",
+      "file": "命令式编程",
+      "primary": true,
+      "how_described": "本集将编程范式分为三层：命令式编程是你写好每一步（食谱）让计算机执行；声明式编程是你描述终点让计算机自己找路；而 AI 更进一步——你几乎不知道最终状态应该是什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 565,
+          "t": [
+            2207.711,
+            2219.057
+          ],
+          "quote": "Either side, which is we actually are making the leap from calculating to imperative programming, which is where we've been and which where everybody is that to now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2234.504,
+            2238.045
+          ],
+          "quote": "So in imperative programming, you know all of the steps.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "declarative-programming",
+      "type": "concept",
+      "role": "concept",
+      "name": "声明式编程 (declarative programming)",
+      "file": "声明式编程",
+      "primary": true,
+      "how_described": "本集将其与命令式编程对比：声明式编程（如 SQL、Prolog）是你知道最终状态但让计算机自己找路，而 AI 这一层更进一步，你几乎不知道最终状态应该是什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            2241.406,
+            2242.766
+          ],
+          "quote": "Then there's declarative programming.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2242.826,
+            2244.907
+          ],
+          "quote": "Declarative programming is you know the end state.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "expert-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "专家系统 (expert systems)",
+      "file": "专家系统",
+      "primary": true,
+      "how_described": "本集说 80 年代的专家系统是第一次尝试「把决策交给机器」的浪潮，当时它不工作；而现在 AI 同样在放弃逻辑给第三方，区别在于现在它真的在工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 507,
+          "t": [
+            2056.486,
+            2063.47
+          ],
+          "quote": "In fact, that's the whole era of the 80s and computers were the dawn of what they used to call expert systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2064.211,
+            2067.473
+          ],
+          "quote": "And so expert systems were the first time we got a taste of this debate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2076.279,
+            2077.579
+          ],
+          "quote": "Hundreds of classes on expert systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2077.599,
+            2078.88
+          ],
+          "quote": "I've had to build expert systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "innovator-s-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新者窘境 (innovator's dilemma)",
+      "file": "创新者窘境",
+      "primary": true,
+      "how_described": "本集说传统创新者窘境中，大公司的优势是资本、现金流和分发渠道，劣势是文化惯性——服务 50 万客户就有一堆事做不了。但 AI 时代创业公司不直接瞄准巨头、巨头也不注意创业公司，且 AI 解决了分发问题，让创业公司能和巨头站在同一竞争线上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 717,
+          "t": [
+            2802.809,
+            2804.991
+          ],
+          "quote": "You know, we've talked a lot about the innovator's dilemma.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说真正让一位嘉宾改变想法的不是技术突破，而是没预料到「我们可以一直往里砸钱而且缩放定律持续成立」。这意味着以前很多工程上不可解的问题可以被转译成资本问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 923,
+          "t": [
+            3632.598,
+            3634.119
+          ],
+          "quote": "Like the scaling laws are holding.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "capital-bound",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本受限 (capital-bound)",
+      "file": "资本受限",
+      "primary": true,
+      "how_described": "本集说计算在最初 30-40 年是资本受限的（搞到一台计算机是第一步），后来变成工程受限，现在 AI 又把它变回资本受限——20 人的团队可以有效部署 10 亿美元级别的资本，这在根本上是截然不同的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 640,
+          "t": [
+            2447.623,
+            2451.085
+          ],
+          "quote": "It's also interesting that computing was capital bound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2461.949,
+            2465.251
+          ],
+          "quote": "You were capital-bound, and then you were engineering-bound, and now we're capital-bound.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2465.271,
+            2465.711
+          ],
+          "quote": "Capital-bound again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "engineering-bound",
+      "type": "concept",
+      "role": "concept",
+      "name": "工程受限 (engineering-bound)",
+      "file": "工程受限",
+      "primary": true,
+      "how_described": "本集说现代计算的大部分时间里瓶颈是工程——给小团队再多钱也没法让他们构建得更快。AI 把这个行业从工程受限转变为资本受限，这翻转了几十年的常识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.293,
+            11.596
+          ],
+          "quote": "We've kind of moved the industry from like this engineering bound problem to a capital problem that's fundamentally very different.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2411.445,
+            2419.149
+          ],
+          "quote": "So it's like we've kind of moved the industry from like this engineering-bound problem to a capital problem that's fundamentally very different.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2461.949,
+            2465.251
+          ],
+          "quote": "You were capital-bound, and then you were engineering-bound, and now we're capital-bound.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fast-takeoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "快速起飞 (fast takeoff)",
+      "file": "快速起飞",
+      "primary": false,
+      "how_described": "本集说大家基本同意不存在快速起飞、没有递归自我改进，模型只能做分布内的事情。真正让人改变想法的是缩放定律持续成立而非快速起飞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 869,
+          "t": [
+            3418.968,
+            3424.433
+          ],
+          "quote": "I think everybody kind of, most, many people kind of agree on, like, we're not in fast takeoff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 917,
+          "t": [
+            3599.65,
+            3615.123
+          ],
+          "quote": "So I love the question that you asked, which is how's our thinking evolved on like, you know, whether these things, you know, like their capabilities in generality, which is I was responding to this Bostrom notion of recursive self-improvement, fast takeoff.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "manifold",
+      "type": "concept",
+      "role": "concept",
+      "name": "流形 (manifold)",
+      "file": "流形",
+      "primary": false,
+      "how_described": "本集从机制上描述模型：喂数据后被绑在数据上，只能做分布内的事情，沿着流形以贝叶斯方式移动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 851,
+          "t": [
+            3354.087,
+            3360.789
+          ],
+          "quote": "They can only do in distribution stuff and they can move along that manifold in a perfectly Bayesian way.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "four-color-theorem",
+      "type": "concept",
+      "role": "concept",
+      "name": "四色定理 (four-color theorem)",
+      "file": "四色定理",
+      "primary": false,
+      "how_described": "本集作为历史案例：四色定理通过证明潜在解数量有限然后计算所有解来证明，只有通过计算才成为可能，是「新抽象层次解决一类问题」的早期例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            644.121,
+            650.443
+          ],
+          "quote": "And so it turns out that one of the interesting things was they proved the four-color theorem, but they did it...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            650.763,
+            654.884
+          ],
+          "quote": "Which, by the way, I mean, just the four-color theorem says for any 2D planar map...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alphago",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaGo",
+      "file": "AlphaGo",
+      "primary": false,
+      "how_described": "本集将其作为类比：就像 AlphaGo 解决围棋但人们不清楚其实际经济效用一样，当前 AI 解数学也面临「解决方案的另一边是什么」的疑问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1484.052,
+            1485.173
+          ],
+          "quote": "We had the AlphaGo moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1489.735,
+            1493.036
+          ],
+          "quote": "But even before AlphaGo, we had, like, remember when chess was bitten in chess?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1494.917,
+            1501.019
+          ],
+          "quote": "And Frank, Chad, and I, we did this podcast about AlphaGo, and we had to try to make people understand, like, why it was a good idea.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Cursor",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "axiomatic system",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "token",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

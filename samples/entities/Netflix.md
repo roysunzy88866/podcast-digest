@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Justine Moore]] · [[Elizabeth Stone]] · [[生成式媒体]] · [[InterPositive]] · [[微剧]] · [[GenAI]] · [[创作者经济]] · [[系统思维]]
 
-<script type="application/json" class="pd-epn">{"智能体":123,"Lenny":65,"Justine Moore":1,"Elizabeth Stone":1,"生成式媒体":1,"InterPositive":1,"微剧":1,"GenAI":1,"创作者经济":1,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":124,"Lenny":65,"Justine Moore":1,"Elizabeth Stone":1,"生成式媒体":1,"InterPositive":1,"微剧":1,"GenAI":1,"创作者经济":1,"系统思维":3}</script>
 
 <script>
 (function(){

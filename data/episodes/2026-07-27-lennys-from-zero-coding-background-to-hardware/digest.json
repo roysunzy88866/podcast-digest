@@ -1,13 +1,13 @@
 {
-  "title_zh": "用 AI 和复古硬件给生活造连接点",
-  "tldr": "Maddie Reese 从不会写代码到用 AI 驱动热敏打印机、传呼机和个人 API，把网络互动变成了实体物件。",
-  "digest_md": "一年前 Maddie Reese 还在嫉妒会写代码的人，她爸爸向她介绍了 Lovable(一个用自然语言生成网页应用的工具)，她在房间里锁了几天，疯狂地构建东西——然后就开始想：还有什么以前接触不到、但现在完全能碰到的东西？硬件就是其中之一 [02:30 Unknown]。\n\n## 网页到桌面：热敏收据打印机\n\n她做的第一个项目是一个巴掌大的热敏收据打印机，连着桌上的树莓派(一种小型廉价电脑)，通过蓝牙通信。任何人访问她的网站，填上名字和想说的话，点一下按钮，几秒后内容就打印在她桌上 [04:04 Unknown]。\n\n她收到了来自世界各地的消息——有人在山边上发，有人在海洋中间的船上发 [06:06 Unknown]。打印机从十月底开始连续运转，几天前坏了，这已经是第二个了 [06:45 Unknown]。她还接了一个数据库，即使打印失败也会记录所有发送内容 [06:40 Unknown]。\n\n她构建这套系统的流程是：先把脑子里所有想法倒给 AI，让它反过来采访自己，一直问到所有疑问都解答为止。然后让 AI 列购物清单，她照买，一两天到货后接上 [07:05 Unknown]。买硬件时她会让 AI 反复确认\"你确定这个零件是对的吗\"，因为 AI 推荐的线材有时并不准确，但通过三轮检查她每次都拦住了 [09:25 Unknown]。\n\n## Twitter 到腰间：复古传呼机\n\n第二个项目更折腾：她搞到了一台真正的传呼机，把 Twitter 通知实时推到腰间。\n\n背景是，美国现在基本只剩一个寻呼网络叫 Spoke，但他们不直接卖传呼机，得找授权经销商——她找到的那家主要服务医院，网站看起来自九十年代末就没更新过，邮箱是 pagers123 at Gmail [11:54 Unknown]。\n\n拿到传呼机后，技术链路变成了这样：Twitter 的互动事件通过 API 触发一个 Cloudflare worker(一种在云端跑的小段代码)，worker 通过 Resend(邮件发送服务)把内容发到一个 Gmail 中转，再转到传呼机自带的那个极其古旧、不接受自定义域名的邮箱，最后才显示在传呼机屏幕上 [13:51 Unknown]。服务不太稳定，有时得拿着传呼机到窗边找信号 [14:30 Unknown]。\n\n这套链路显然不实用，但她的态度很明确：做有趣的东西不需要实用，也不需要代码合理，AI 帮你写那些奇怪的跳转逻辑，你只管拿到想要的终端体验 [15:47 Unknown]。\n\n## 你自己就是一个 API\n\n第三个项目叫 Matty API——一个关于她自己的个人 API(一种让程序互相调数据的标准接口)。问题出发点很简单：想给朋友做点好事，但不想打扰对方问东问西，如果能直接调接口拿到对方的信息就好了 [19:17 Unknown]。\n\n她的 API 里放了这些数据：咖啡订单、在旧金山的日期、宠物名字(Mabel、Lola 和 Moon)、最爱的零食(爆米花裹营养酵母)、时区、喜欢的餐厅 [20:41 Unknown]。\n\n> 【背景】主持人提到，未来更可能是智能体之间互相调用这类个人 API——比如你的智能体调她的 API 拿到行程和餐厅偏好，直接帮你预订。这个应用场景在转写稿里是主持人提出的设想，不是嘉宾的原始主张。\n\n她用 Cursor 的智能体视图(一个只显示对话、不暴露代码和终端的简洁界面)来做大部分构建，因为她只需要一个干净的头脑风暴空间，代码和终端等后面再开 [17:21 Unknown]。她现在能看懂一些代码了，但程度就像在圣地亚哥长大的人对西班牙语的感觉——能领悟一点，足够造成一点破坏 [18:23 Unknown]。\n\n碰到 AI 给错方向时，她的做法是先排查\"是我错了还是 AI 错了\"，然后让 AI 复查、确认是否跟目标一致。她不太会生气，因为她知道 AI 还没有意识 [25:31 Unknown]。\n\n她下一个想要的是一台点阵打印机——就是那种能打大横幅、噪音非常令人享受的复古设备 [23:58 Unknown]。\n\n## 本集带走\n\n- **让 AI 反向采访你**：别自己列需求，先把想法全倒出来，让 AI 不断追问直到所有模糊点都被澄清，再进入实施。\n- **买硬件前让 AI 做三轮检查**：AI 推荐的零件(尤其是线材)可能不准确，每次都让它反复确认\"你确定这个能和已买的部件配合吗\"。\n- **不追求实用，追求终端体验**：从 Twitter 到传呼机要经过 Cloudflare、Resend、Gmail 中转——链路荒唐但没关系，AI 写代码不嫌麻烦，你只管拿到想要的物理效果。\n- **个人 API 的核心是降低\"关心别人\"的摩擦**：把朋友爱吃什么、什么时候在哪个城市这些信息暴露成接口，不是为了取代交流，而是让人不用问就能做件贴心的事。",
+  "title_zh": "用 AI 把复古硬件变成你的个人联网设备",
+  "tldr": "不会写代码的 Maddie 用 AI 把热敏打印机、寻呼机接上网，让全世界给她发纸条、推文变蜂鸣。",
+  "digest_md": "一个不会写代码的人，用 AI 把一台手掌大小的热敏收据打印机接上了网——现在全世界任何人打开她网页填一句话，几秒后那张纸条就会从她桌上吐出来。她还在山上的、海上的、各个国家的人那里收到了消息 [06:03 Unknown]。\n\nMaddie 以前一直羡慕会写代码的人，直到她爸爸一年前把她介绍给 Lovable（一个 AI 编程工具），她把自己关在房间里几天几夜地构建东西，然后开始想：还有什么曾经觉得触手不可及、但现在其实可以搞定的？硬件就是答案 [02:30 Unknown]。\n\n## 热敏打印机：从想法到实物消息\n\n她做的第一个项目是一个网页，任何人访问后填名字和内容，点\"打印票据\"，消息就从她桌上的热敏打印机吐出来。\n\n技术链路其实不复杂：桌上放一个树莓派，通过蓝牙连打印机；网页前端收集消息，后端存到一个 Condux 数据库，同时触发打印。她甚至做了容错——就算打印机没打成，消息依然会进数据库留档，因为她第一台打印机从十月底一直开着没关，几天前刚烧了，这是第二台 [06:33 Unknown]。\n\n她的构建方法很有意思：不是自己写代码，而是把脑子里想要的全部倒给 AI，然后让 AI 反过来采访她。\"我让它一直问我问题，直到我关于'这怎么工作、我该怎么做'的所有问题都被解答\" [07:45 Unknown]。因为涉及硬件采购，她还会让 AI 列购物清单，但她有个硬习惯——三重检查。买之前反复问 AI\"你确定这个零件对吗？\"，确实抓到过几次推荐错误 [08:51 Unknown]。\n\n## 寻呼机：推特互动变身上世纪蜂鸣器\n\n第二个项目更野：她搞了一台真正的寻呼机，让所有推特互动都变成寻呼机上的蜂鸣。\n\n难点不在代码，在寻呼机生态本身。现在基本只剩一个叫 Spoke 的寻呼网络，而 Spoke 不直接卖寻呼机，得找授权转售商——她找的那家主要服务医院，网站看起来从九十年代末就没更新过，邮箱是 pagers123 开头的 Gmail [11:57 Unknown]。\n\n拿到寻呼机后自带一个邮箱地址，但这个邮箱极其老旧，不接受自定义域名的邮件。所以她的消息链路变成了一个\"奇怪接力\"：推特互动 → Twitter API → Cloudflare Worker（一种在边缘运行的轻量服务）→ Resend（邮件发送服务）→ 她的 Gmail → 寻呼机邮箱地址 → 寻呼机显示 [13:51 Unknown]。\n\n她完全不在乎这条链路是否\"合理\"。\"当然不切实际，但很有趣\" [16:10 Unknown]。这种态度是她做项目的核心——不管代码是不是 practical，先把你想要的东西做出来。\n\n## 个人 API：把\"我\"变成一个接口\n\n第三个项目叫 Matty API——她把自己的信息做成了一个 API 端点。里面有什么？咖啡订单、宠物名字（Mabel、Lola 和 Moon）、最喜欢的零食、时区、在旧金山喜欢的餐厅 [20:41 Unknown]。\n\n出发点很日常：你想给朋友做点好事，比如买杯咖啡，但又不想打扰人家问。如果有 API，直接调用拿到咖啡订单，见面时咖啡已经对了 [19:17 Unknown]。\n\n主持人指出更有意思的未来场景：不一定是人调用，而是智能体调用——\"我和 Maddie 做了期很棒的播客，去调她的 API 查她下次什么时候来旧金山，在她最喜欢的餐厅订个位\" [22:11 Unknown]。在一切都在变成 API 的世界里，为什么\"你自己\"不能也是一个？\n\n## 她用 AI 写代码的方式\n\n她用 Cursor（AI 编程工具）时有个特别的偏好：只用 agent view（智能体视图），一个干净的对话界面，不开终端、不看点开文件、不看浏览器 [17:21 Unknown]。原因是其他东西会让她分心，她只想先专注完成头脑风暴、拿到一个扎实的计划，后面再按需打开其他面板 [18:01 Unknown]。\n\n她不读代码——至少不全读。\"我不完全理解它，但我比刚开始时懂多了\" [18:20 Unknown]。她的标准是\"够用就行\"——足够理解一点，足够\"造成点破坏\" [18:47 Unknown]。\n\n遇到 AI 给错方向时，她不急。先自己排查\"是我错了还是 AI 错了\"，然后让 AI 复查、确认是否跟目标一致。她不跟 AI 生气，\"因为我意识到它还没有意识\" [26:07 Unknown]。\n\n## 本集带走\n\n- **让 AI 采访你**：不要自己想方案，把大目标丢给 AI 后让它反问你，直到所有细节问题被解答，再进入执行\n- **硬件采购必须三重检查**：AI 推荐的零件不一定对，买之前反复确认\"你确定这个能用吗\"，她靠这招抓到过多次错误推荐\n- **先要端点，再管链路**：寻呼机项目的消息要经过 Twitter API → Cloudflare Worker → Resend → Gmail → 寻呼机邮箱，五步接力完全不\"合理\"，但端点对了就行——好玩的项目不需要优雅的架构\n- **个人 API 不只是概念**：把你的咖啡订单、行程、偏好做成 API 端点，现在人可以调，未来智能体帮你约饭时也会调\n- **不会读代码不影响你造东西**：她的标准是\"够 grok 一点就行\"，理解到能判断方向对不对、能排查问题，不需要看懂每一行",
   "quotes": [
     {
       "timestamp": "02:30",
       "speaker": "Unknown",
       "en": "Kind of my journey was that I always felt jealous of people who could code.",
-      "zh": "我的旅程大致是，我一直嫉妒那些会写代码的人。"
+      "zh": "我的一路历程是这样的，我一直羡慕那些能写代码的人。"
     },
     {
       "timestamp": "02:46",
@@ -16,82 +16,88 @@
       "zh": "硬件就是其中之一。"
     },
     {
-      "timestamp": "04:35",
-      "speaker": "Unknown",
-      "en": "Honestly, I just wanted some way to interact with people that was kind of more physical because everyone that I had been talking to about these kinds of things, I knew online.",
-      "zh": "老实说，我只是想要某种方式与人互动，这种方式要更实体化一点，因为我之前谈论这些事情的对象，都是我在网上认识的。"
-    },
-    {
-      "timestamp": "06:45",
-      "speaker": "Unknown",
-      "en": "I have it set it up so every time someone presses this print ticket button, even if it doesn't go through the printer, it still goes to my database so that I still have a log of like what people tried to send me.",
-      "zh": "我把它设置成每次有人按下这个打印票据按钮，即使它没有通过打印机，它仍然会进入我的数据库，这样我仍然有日志记录人们试图发给我的内容。"
-    },
-    {
       "timestamp": "07:45",
       "speaker": "Unknown",
       "en": "Typically, I have it ask me questions and I just have it keep asking me questions until all of my questions are answered about what, how this works, how I can do this.",
-      "zh": "通常，我会让它问我问题，我就让它一直问我问题，直到关于这是如何工作的、我该如何做这件事，我的所有问题都得到解答。"
+      "zh": "通常，我会让它问我问题，我就让它一直问我问题，直到我关于这是如何工作的、我该如何做这件事的所有问题都得到解答。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "When I'm buying pieces of hardware, I make sure to double or triple check.",
+      "zh": "当我购买硬件部件时，我会确保再三检查。"
     },
     {
       "timestamp": "09:30",
       "speaker": "Unknown",
       "en": "A couple of times, but I always caught it through the triple checking process, which is great.",
-      "zh": "有几次，但我总是通过三次检查过程发现了这一点，这很好。"
+      "zh": "有几次，但我总是通过再三检查过程发现了它，这很棒。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Unknown",
+      "en": "To set the scene, there is kind of one paging network left so pages go over like radio transmission through on specific networks so there is this one paging network and it's called spoke",
+      "zh": "为了铺垫一下背景，只剩一个寻呼网络了，所以寻呼信息通过特定网络上的无线电传输发送，这一个寻呼网络叫 Spoke"
+    },
+    {
+      "timestamp": "12:38",
+      "speaker": "Unknown",
+      "en": "So they weren't quite accustomed to dealing with me.",
+      "zh": "所以他们不太习惯应付我。"
     },
     {
       "timestamp": "12:53",
       "speaker": "Unknown",
       "en": "And it truly was something to behold.",
-      "zh": "那真是一道奇观。"
+      "zh": "那真是值得一看。"
     },
     {
-      "timestamp": "13:37",
+      "timestamp": "13:51",
       "speaker": "Unknown",
-      "en": "It's usasomething.net is the domain for the email address they gave me.",
-      "zh": "电子邮件的域名是 usasomething.net 是他们给我的电子邮件地址的域名。"
+      "en": "So every interaction that anyone has with my Twitter account or my tweets gets sent as an API event to a Cloudflare worker.",
+      "zh": "所以任何人只要与我的 Twitter 账号或我的推文有互动，都会作为 API 事件发送到 Cloudflare worker。"
     },
     {
       "timestamp": "15:47",
       "speaker": "Unknown",
       "en": "I may have to do weird things, but it's okay to do weird things because AI is coding it and it's fine.",
-      "zh": "我可能不得不做些奇怪的事情，但做奇怪的事情是可以的，因为 AI 正在编写代码，这很好。"
+      "zh": "我可能得做些奇怪的事，但做奇怪的事没关系，因为 AI 在写代码，所以没问题。"
     },
     {
-      "timestamp": "15:56",
+      "timestamp": "16:10",
       "speaker": "Unknown",
-      "en": "All I want is the ultimate kind of like endpoint.",
-      "zh": "我只想要那种终极的端点。"
+      "en": "Like, of course that's not practical, but guess what? It's fun.",
+      "zh": "当然，那是不切实际的，但你知道吗？它很有趣。"
     },
     {
       "timestamp": "16:13",
       "speaker": "Unknown",
       "en": "And so I think your idea of just throw out the idea that this has to be practical or even reasonable code and just build the thing that you want, especially if it's for fun, I think is really exciting.",
-      "zh": "所以我认为你的想法是，抛开这必须是实用的甚至合理的代码这样的想法，只构建你想要的东西，特别是如果是为了好玩，我认为这真的很令人兴奋。"
+      "zh": "所以我认为你只是抛出这个想法，即它必须是实用的甚至合理的代码，只是建立你想要的东西，特别是如果它是为了好玩，我认为这真的很令人兴奋。"
     },
     {
-      "timestamp": "19:31",
+      "timestamp": "18:20",
       "speaker": "Unknown",
-      "en": "I was like, well, what if there was a way where you could just hit an API and you get all this information about them?",
-      "zh": "我当时想，要是有一个方法让你只需调用一个 API 就能获得关于他们的所有信息，会怎么样？"
+      "en": "I mean, I don't fully understand it.",
+      "zh": "我的意思是，我不完全理解它。"
+    },
+    {
+      "timestamp": "18:47",
+      "speaker": "Unknown",
+      "en": "I think it's good enough to be able to, for stuff like this, like, just grok it a little bit, you know?",
+      "zh": "我认为能够为了这样的事情，只是稍微 grok 它一下，就足够了，你知道吗？"
     },
     {
       "timestamp": "20:03",
       "speaker": "Unknown",
-      "en": "But then I was like, well, no, this is, this is a way to kind of reduce that friction of like, oh, I want to do something nice, but I don't want to bother them.",
-      "zh": "但后来我想，不，这是减少摩擦的一种方式，就是那种\"我想做点好事，但我不想打扰他们\"的摩擦。"
+      "en": "Like my initial thought was like, oh, that's like too clinical and too, too weird.",
+      "zh": "我最初的想法是，哦，这太临床了，太奇怪了。"
     },
     {
-      "timestamp": "23:24",
+      "timestamp": "22:11",
       "speaker": "Unknown",
-      "en": "It is actually creating connection points between you and the world in a really human way.",
-      "zh": "它实际上是以一种非常人性化的方式在你和世界之间创造了连接点。"
-    },
-    {
-      "timestamp": "25:46",
-      "speaker": "Unknown",
-      "en": "I like to get deep in there and be like, okay, well, is it me that's wrong or is it the AI?",
-      "zh": "我喜欢深入其中，就像，好吧，是我错了还是 AI 错了？"
+      "en": "But if I'm playing like futurist, I think the reality is, is agents are going to be doing a lot of this like kind of work for us.",
+      "zh": "但如果让我扮演未来主义者，我认为现实是，智能体将为我们做很多这样的工作。"
     },
     {
       "timestamp": "26:07",

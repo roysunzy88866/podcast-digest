@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":11,"Azure":1,"GitHub":16,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":13,"轨迹":1,"智能体":123}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":12,"Azure":1,"GitHub":16,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":13,"轨迹":1,"智能体":124}</script>
 
 <script>
 (function(){

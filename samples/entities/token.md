@@ -61,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[后训练]] · [[AGI]] · [[沙箱]] · [[对齐]] · [[Codex]] · [[Claude]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":123,"Anthropic":63,"Lenny":65,"后训练":12,"AGI":16,"沙箱":23,"对齐":4,"Codex":27,"Claude":30,"ChatGPT":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":124,"Anthropic":64,"Lenny":65,"后训练":12,"AGI":16,"沙箱":23,"对齐":4,"Codex":27,"Claude":31,"ChatGPT":33}</script>
 
 <script>
 (function(){

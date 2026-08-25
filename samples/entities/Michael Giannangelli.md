@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]] [[Yana Welinder]]
+[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":123,"RLGym":1,"迁移":1,"Claude Code":33,"Codex":27,"Anthropic":63}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":2,"评估":13,"基准测试":5,"智能体":124,"RLGym":1,"迁移":1,"Claude Code":33,"Codex":27,"Anthropic":64}</script>
 
 <script>
 (function(){

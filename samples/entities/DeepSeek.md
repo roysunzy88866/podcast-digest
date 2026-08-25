@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[vibe coding]] · [[ChatGPT]] · [[Claude]] · [[Marc Andreessen]] · [[Qasar Younis]] · [[Flo Crivello]] · [[AI]] · [[Applied Intuition]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":123,"vibe coding":21,"ChatGPT":32,"Claude":30,"Marc Andreessen":2,"Qasar Younis":1,"Flo Crivello":1,"AI":9,"Applied Intuition":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":124,"vibe coding":21,"ChatGPT":33,"Claude":31,"Marc Andreessen":2,"Qasar Younis":1,"Flo Crivello":1,"AI":9,"Applied Intuition":1}</script>
 
 <script>
 (function(){

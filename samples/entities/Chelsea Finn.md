@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
+[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":32,"物理 AI":4,"强化学习":12,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":4}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":33,"物理 AI":4,"强化学习":12,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":4}</script>
 
 <script>
 (function(){

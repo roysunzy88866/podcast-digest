@@ -1,0 +1,98 @@
+===标题===
+AI 把软件从工程问题变回了资本问题
+===导语===
+Martin Casado 和 Steven Sinofsky 认为，AI 正在把软件行业从一个工程瓶颈问题重新变回资本问题——一个小团队现在能有效地把巨额资本部署到算力上，这在过去是不可能的。
+===正文===
+20 年前，如果你是一个 10 人的创业公司，有人给你 10 亿美元，你根本不知道怎么花。你会招人、买电脑，然后膨胀掉——钱到了百万级别就花完了，再多也用不上。10 年前也一样，你拿钱去招工程师，但软件有个著名的"人月神话"：9 个人干不了比 8 个人更快的事 [39:20 Unknown]。但现在，如果给 20 个人 10 亿美元，他们真的可以有效地把这笔钱全部砸进算力里 [00:00 Unknown]。这个行业从一个工程受限的问题，转变成了一个资本问题——这在根本上是不同的 [00:05 Unknown]。
+
+## 从计算到推理：这次抽象不一样
+
+过去几十年，计算机科学的抽象层级一直在往上走：从晶体管逻辑，到硬件，到操作系统，到应用，到平台。但每往上走一层，底下都是确定性的——你可以把它一路映射回最底层。命令式编程是你写好食谱，机器照着走；声明式编程（像 SQL）是你知道终点状态，机器自己找路，但计算时间你没法限定 [37:12 Unknown]。而现在这一层不一样了：你几乎不知道终点状态应该是什么 [35:05 Unknown]。这不是传统意义上的"更高抽象层"，而是感觉像是技术栈里一个根本不同的层 [36:10 Unknown]。80 年代有过一次类似的尝试——专家系统，想把决策权交给计算机，但当时那东西根本不工作 [34:30 Unknown]。现在它开始工作了，所以我们真的在放弃逻辑控制权，这跟以前每次提升抽象层级都不一样 [34:48 Unknown]。
+
+## 数学突破：兴奋的是数学家，但经济价值在哪？
+
+最近 AI 在数学上取得了一些进展，比如有人让 Claude 去尝试解决黎曼猜想。最有趣的现象是：最兴奋的人恰恰是受影响最大的数学家，这跟"AI 要抢人饭碗"的叙事完全相反 [02:56 Unknown]。原因在于数学这个学科的特点——它有超长的历史弧线，一层抽象叠一层抽象，AI 突然把大量数学变成了一个新的可操作层级 [07:45 Unknown]。但这跟历史上的计算工具突破有一个关键区别。算盘、计算尺、图形计算器——每一次新工具出现，背后都有明确的经济需求驱动：差分机是为了算积分来打导弹和算潮汐 [18:15 Unknown]，ENIAC 比人快大约 5000 倍而且不出错 [18:51 Unknown]，之后解锁了太空竞赛、喷气发动机、工厂自动化 [19:28 Unknown]。而当前 AI 解开的数学问题，很多是拿 3 万美元年薪的博士后琢磨了五年的东西——这些领域周围本来就没有什么市场 [06:03 Unknown]。对那些问题的解决方案的另一边，可能什么都没有 [08:51 Unknown]。而且，解决公理系统和预测物理现象是两码事。物理模拟基于经验方程，模拟在计算上可能是不可约的——你必须真的跑模拟，AI 解数学题对这类问题帮助多大，并不清楚 [13:20 Unknown]。"如果能解决所有数学就能预测任何事情"——这被认为是一个巨大的逻辑跳跃 [14:05 Unknown]。AI 解数学目前更像是有史以来最强的星际争霸玩家：很酷、很强，但很难连到现实经济需求上 [06:42 Unknown]。
+
+## 创业公司 vs 巨头：物理定律变了
+
+按照经典的"创新者窘境"，巨头总是碾压小公司。但硅谷大公司的人后来都发现一个规律：小公司从未真正被碾压过 [00:44 Unknown]。原因很简单——创业公司不直接瞄准巨头，而巨头根本不注意创业公司，他们只盯着其他巨头 [00:28 Unknown]。过去巨头还有一个结构性优势：构建操作系统、分布式集群这类东西是巨大的工程努力，创业公司根本做不了 [52:17 Unknown]。但现在，训练模型这件事变成了纯粹的资本准入问题 [52:21 Unknown]。同时，AI 还解决了创业公司最头疼的分发问题。过去获客很难，你不知道该投多少营销费、投在哪里、回报是什么。现在对 token 和 GPU 的需求几乎是无限的——你直接决定往里砸多少钱来驱动增长就行 [47:44 Unknown]。这两件事加在一起，就是为什么 Cursor、Anthropic、OpenAI 能爆发式增长 [00:46 Unknown]。Google 拥有所有数据和智能，但它的模型被 OpenAI 和 Anthropic 击溃——这不只是工程问题，而是大公司的文化要素在起作用 [52:33 Unknown]。大公司有 50 万客户要服务，有一堆事情你就是不能做——记分卡、销售体系、薪酬结构、组织架构、遗留系统，这些是颠覆的物理定律，改不了 [50:22 Unknown]。
+
+## 元经济机器：无法预测的集中
+
+从机制上讲，我们对这些模型怎么工作的其实很清楚：你把数据放进去，它被粘在那堆数据上，只能做分布内的事情，沿着流形以贝叶斯方式移动。没有快速起飞，没有奇点，大部分人在这点上已经达成共识 [56:00 Unknown]。但真正没人知道的是：当你往一个模型里砸 100 亿美元，那个东西能干什么？[57:10 Unknown] 人类历史上从未创造过拥有那么多浮点运算量和数据的单一数字制品 [56:20 Unknown]。一个模型用 50 亿美元建出来，你我和它交互，我们根本无法理解那意味着什么 [57:41 Unknown]。这不是"AI 突然觉醒"的问题，而是一个更实际的问题：我们从未有过这样一种能力，可以把此前无法用钱解决的问题直接变成钱的问题 [62:06 Unknown]。比如"穷尽所有蛋白质组合"——以前这是不可能的任务，现在你可以把它变成一个资金问题 [61:58 Unknown]。这种集中资源的能力是全新的，如果以错误的方式应用那 1000 亿美元，是可能很危险的 [61:02 Unknown]。
+
+## 本集带走
+- **行业性质变了**：软件从"工程受限"变回"资本受限"。小团队现在能有效部署巨额资本到算力上，这打破了过去几十年的规律。
+- **这次抽象层不同**：以前每层抽象底下都是确定性的，可以一路映射回去。现在你把逻辑控制权交出去，连终点状态都不确定——跟 80 年代专家系统的区别是，这次它真的能用了。
+- **数学突破≠经济突破**：AI 解数学让数学家兴奋，但那些问题很多本来就没有市场。能解公理系统不等于能预测物理现象，"解所有数学就能预测一切"是逻辑跳跃。
+- **创业公司的结构性窗口**：AI 同时削弱了巨头的两个传统护城河——工程壁垒变成了资本准入（谁都能融资买算力），分发壁垒被无限的 token/GPU 需求绕过。
+- **真正该关注的问题变了**：不是"AI 会不会突然觉醒"，而是"当一个模型里砸了 1000 亿美元，我们能预测它干什么吗？"——人类从未创造过这种规模的单一数字制品。
+===金句===
+00:05 Unknown
+EN | We've kind of moved the industry from like this engineering bound problem to a capital problem that's fundamentally very different.
+ZH | 我们已经在某种程度上将这个行业从一个工程受限的问题转变为一个资本问题，这在根本上是截然不同的。
+
+00:00 Unknown
+EN | Right now if I give 20 people a billion dollars they can actually use it usefully.
+ZH | 现在，如果我给 20 个人 10 亿美元，他们实际上可以有效地利用它。
+
+00:44 Unknown
+EN | And then you realize they never get crushed.
+ZH | 然后你意识到它们从未被碾压。
+
+00:28 Unknown
+EN | The startups don't aim straight at the incumbents and the incumbents just don't pay attention.
+ZH | 创业公司不直接瞄准现有巨头，而现有巨头根本不予关注。
+
+02:56 Unknown
+EN | And the most interesting thing about it is the group that's most excited are mostly the mathematicians.
+ZH | 最有趣的是，最兴奋的一群人主要是数学家。
+
+08:51 Unknown
+EN | There's nothing on the other side of the solution.
+ZH | 解决方案的另一边什么都没有。
+
+14:05 Unknown
+EN | And I just think that that's a huge, huge logical leap, which is not clear to me that it is obviously true.
+ZH | 而我认为这是一个巨大的、巨大的逻辑飞跃，对我来说这并不清楚它显然是真的。
+
+06:42 Unknown
+EN | Like, this is the best StarCraft player ever, which is cool and it's very powerful, but, like, I have a hard time connecting that with, A, like, maybe the reason we didn't have them before is because there just was an economic need, and, B, like, how does that actually map?
+ZH | 就像，这是有史以来最好的星际争霸玩家，这很酷，而且它非常强大，但是，我很难把它与 A 连接起来，就像，也许我们要以前没有它们的原因是因为只是有一个经济需求，还有 B，就像，那实际上是如何映射的？
+
+35:05 Unknown
+EN | Where here, like, you're almost asking what the end state should be.
+ZH | 而在这里，比如，你几乎是在问最终状态应该是什么。
+
+36:10 Unknown
+EN | This is the first time it feels like a different layer of the stack.
+ZH | 这是第一次感觉起来像是技术栈的不同一层。
+
+34:30 Unknown
+EN | It just didn't work.
+ZH | 它根本不起作用。
+
+52:21 Unknown
+EN | And now for these models, it really is just capital access.
+ZH | 现在对于这些模型来说，真的仅仅是资本准入。
+
+47:44 Unknown
+EN | But the demand is so unlimited for tokens and for GPUs, like literally you can just decide how much money you're putting into it in order to drive top of funnel and growth.
+ZH | 但是对于 token 和 GPU 的需求是如此无限，像字面上你可以决定投入多少钱来驱动漏斗顶部和增长。
+
+50:22 Unknown
+EN | You can't change scorecards, you can't change field sales and go-to-market and compensation and org structures and legacy and customers.
+ZH | 你不能改变记分卡，不能改变实地销售和进入市场和薪酬和组织结构以及遗留和客户。
+
+57:10 Unknown
+EN | What I don't think anybody knows is, okay, but you're still putting 10 billions of dollars in that thing. What's it capable of now?
+ZH | 我认为没人知道的是，好吧，但你还是要把 100 亿美元投入那个东西。它现在能做什么？
+
+57:41 Unknown
+EN | I don't think we can comprehend what that even means.
+ZH | 我认为我们无法理解那意味着什么。
+
+61:58 Unknown
+EN | I'm saying in this case, if you're like, I want to exhaustively explore every protein combination, we can just turn that into a money problem.
+ZH | 我是说在这种情况下，如果你像，我想详尽无遗地探索每一种蛋白质组合，我们可以直接把它变成一个金钱问题。
+===END===

@@ -4,7 +4,7 @@
     "2026-08-06-talks-payments-summit-2026-ai": 3,
     "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
     "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3,
-    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 1
+    "2026-07-27-lennys-from-zero-coding-background-to-hardware": 2
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -50,10 +50,10 @@
   "cutoffs": {
     "lennys": "2026-08-24T12:04:02.000Z",
     "pg": "2026-08-06T20:17:48.000Z",
-    "a16z": "2026-08-24T10:00:00.000Z",
+    "a16z": "2026-08-25T10:00:00.000Z",
     "yc": "2026-08-11T19:53:56.000Z",
     "mad": "2026-08-07T18:38:32.000Z",
-    "trainingdata": "2026-08-18T09:00:00.000Z",
+    "trainingdata": "2026-08-25T09:00:00.000Z",
     "bigtech": "2026-08-19T10:00:00.000Z",
     "aia16z": "2026-08-07T16:32:00.000Z",
     "aiandi": "2026-08-19T15:17:01.000Z",
@@ -69,7 +69,7 @@
     "knowledge": "2026-08-18T10:00:00.000Z",
     "pragmatic": "2026-08-19T16:53:57.000Z",
     "workos": "2025-02-04T15:53:55.000Z",
-    "practicalai": "2026-08-06T09:00:00.000Z",
+    "practicalai": "2026-08-25T09:00:00.000Z",
     "changelog": "2026-07-21T19:00:00.000Z",
     "devtools": "2026-08-20T05:41:51.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
@@ -82,7 +82,7 @@
     "pmf": "2026-08-24T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-08-19T18:00:00.000Z",
-    "ainativedev": "2026-08-18T12:00:00.000Z"
+    "ainativedev": "2026-08-25T12:00:00.000Z"
   },
   "skipped": [
     {
@@ -366,6 +366,18 @@
       "reason": "题材不对味:核心主题 DevRel(开发者关系) 属传统非 AI 营销职能，触及 AI 仅作背景，不符合当前选型对「AI 商业/工程/产业」的强聚焦",
       "title": "Kim Maida on the DevRel Flywheel, AI, and Measuring What Matters",
       "pubDate": "2026-07-10T13:04:15.000Z"
+    },
+    {
+      "id": "2026-08-25-practicalai-ai-proficiency-from-users-to-builders",
+      "reason": "题材不对味:拿不准：标题偏向通识教育/教学而非「商业+产业+实操」具体案例，不在当前白名单源，按宁缺毋滥原则跳过",
+      "title": "AI Proficiency: From Users to Builders",
+      "pubDate": "2026-08-25T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than",
+      "reason": "题材不对味:❌ 跳过: 内容聚焦「代码测试/工程质量」(传统软件工程),而非AI Agent/工具实操或公司商业故事,属于边界案例中偏「传统工程」的剔除项。",
+      "title": "Lada Kesseler: I Trust AI Tests Less Than AI Code",
+      "pubDate": "2026-08-25T12:00:00.000Z"
     }
   ]
 }

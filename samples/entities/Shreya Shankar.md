@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Rich Sutton]] [[Claire Veva]]
+[[Steven Sinofsky]] [[Andrew]] [[Sonia]] [[Parag]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Hamel Husain":1,"评估":13,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":123,"trace":1,"Anthropic":63}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Hamel Husain":1,"评估":13,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":124,"trace":1,"Anthropic":64}</script>
 
 <script>
 (function(){

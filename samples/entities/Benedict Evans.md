@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Martin Casado]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
+[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[David George]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":56,"Anthropic":63,"Google":24,"Meta":17,"Apple":12,"Microsoft":11,"AWS":6,"McKinsey":4,"Claude Code":33}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":58,"Anthropic":64,"Google":26,"Meta":17,"Apple":12,"Microsoft":12,"AWS":6,"McKinsey":4,"Claude Code":33}</script>
 
 <script>
 (function(){
