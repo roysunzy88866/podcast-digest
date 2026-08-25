@@ -914,15 +914,21 @@ function ensureAllAudio() {
     // 缺了就重试一次(瞬时的 MiMo/edge 抖动自愈);两次仍缺 → 响亮报错,交 gate-audio fail-closed(持久失败不放行)。
     const audioPath = join(ROOT, dir, "audio.mp3");
     let ok = false;
+    let lastThrew = false;
     for (let attempt = 1; attempt <= 2 && !ok; attempt++) {
+      lastThrew = false;
       try {
         run("node", ["scripts/tts.mjs", dir]); // 音频真缺时 tts 不会缓存跳过(它自查 audioPath 在不在)→ 这就是重试合成
       } catch (e) {
+        lastThrew = true;
         console.warn(`⚠️ [ensure-audio] ${d.name} 第 ${attempt}/2 次合成抛错:${String(e.message).slice(0, 180)}`);
       }
       ok = existsSync(audioPath);
       if (!ok && attempt < 2) console.warn(`   ↻ ${d.name} 合成后音频仍缺 → 重试(瞬时失败自愈)`);
     }
+    // GLM 001[1]:合成抛错但目录有旧 audio.mp3 → ok 会因旧文件为真。不静默沿用:响亮说明「用了旧的、新鲜度交 gate-audio」
+    // (gate-audio 按 source_sha256 校验陈旧,变了会拦;这行只是别让"合成其实挂了"藏在旧文件后面)。
+    if (ok && lastThrew) console.warn(`⚠️ [ensure-audio] ${d.name} 合成抛错但目录有旧 audio.mp3 → 沿用旧的;新鲜度交 gate-audio 指纹校验(陈旧会被拦)`);
     if (!ok) console.error(`❌ [ensure-audio] ${d.name} 两次合成后仍无 audio.mp3 —— 交 gate-audio 拦(不静默放缺音频集进部署)`);
   }
 }
