@@ -7,6 +7,7 @@ import {
   srtTimeToSec,
   parseFeedTranscript,
   parseStampedText,
+  parseInlineSpeakerStamp,
   parseTranscriptHtml,
   hasTimedFeedTranscript,
   isOnTopic,
@@ -467,5 +468,45 @@ describe("C36 · 预算/排序只认字幕格式为「稳有稿」(html/plain �
     // 字幕稿排第一(稳便宜);html 稿按日期与无稿同权
     expect(got[0].pubDateISO.slice(0, 10)).toBe("2026-08-19");
     expect(got[1].pubDateISO.slice(0, 10)).toBe("2026-08-20");
+  });
+});
+
+// C36b(2026-08-25 用户「找带稿新源」):再扩两种真实稿格式 —— transistor 方括号头 + buzzsprout 内联头。
+// 每个断言配一小段真实形状的 fixture(文字自撰、格式照抄 Cheeky Pint / Product Market Fit Show 真样本)。
+describe("C36b · 方括号头(transistor)+ 内联头(buzzsprout)稿解析", () => {
+  it("★★★ 方括号头「[HH:MM:SS.ff] 人名」逐行(Cheeky Pint 形状)→ 段/戳/说话人/正文都对", () => {
+    const txt = "[00:00:02.10] Evan Spiegel\nThis is funny playing chess.\n\n[00:00:09.14] John Collison\nGive me the update.";
+    const segs = parseStampedText(txt)!;
+    expect(segs.length).toBe(2);
+    expect(segs[0]).toMatchObject({ start: 2, speaker: "Evan Spiegel" });
+    expect(segs[0].text).toContain("chess");
+    expect(segs[1].speaker).toBe("John Collison");
+  });
+  it("★★★ 内联头「人名 (HH:MM:SS) : 正文」全在一行(Product Market Fit Show 形状)→ 按句末标点切说话人,正文不丢字", () => {
+    const t = "Pablo Srugo (00:00:00) : How fast did it grow? Andrew Antos (00:00:01) : We did 350k ARR. Pablo Srugo (00:00:05) : Amazing. Andrew Antos (00:00:09) : Then we scaled.";
+    const segs = parseInlineSpeakerStamp(t)!;
+    expect(segs.length).toBe(4);
+    expect(segs.map((s) => s.speaker)).toEqual(["Pablo Srugo", "Andrew Antos", "Pablo Srugo", "Andrew Antos"]);
+    // 防失真:句末大写词「Amazing.」不许被当成名字切走(正文完整保留)
+    expect(segs[2].text).toBe("Amazing.");
+    expect(segs.map((s) => s.text).join(" ")).toContain("350k ARR");
+  });
+  it("★★ 孤立坏戳(源转写偶发,如 19:23、19:27 间蹦出 20:06)→ 置 null 保住全稿,不整份回落 ASR", () => {
+    // 稀少尖峰只在长稿(阈值 ≤5%)才修 —— 真实稿都上百段;这里造 21 段带 1 个尖峰(floor(21*0.05)=1)
+    const stamp = (i: number) => `00:19:${String(20 + i).padStart(2, "0")}`; // 19:20,19:21,…递增
+    const lines: string[] = [];
+    for (let i = 0; i < 21; i++) {
+      const ts = i === 3 ? "00:20:06" : stamp(i); // 第 4 段插个 20:06 尖峰(> 邻居)
+      lines.push(`${i % 2 ? "B" : "A"} (${ts}) : sentence number ${i}.`);
+    }
+    const segs = parseInlineSpeakerStamp(lines.join(" "))!;
+    expect(segs).not.toBeNull();
+    expect(segs.length).toBe(21); // 全 21 段都在,正文没丢
+    expect(segs.map((s) => s.text).join(" ")).toContain("sentence number 3."); // 尖峰段的正文也留着
+  });
+  it("★★★ 真乱轴(大面积回跳,>5%)不硬洗 → null 回落 ASR(承 GLM 010[4])", () => {
+    // 4 段里 2 个回跳(50%)→ 时间轴整体不可信,不修
+    const t = "A (10:00) : x. B (00:05) : y. A (09:00) : z. B (00:03) : w.";
+    expect(parseInlineSpeakerStamp(t)).toBeNull();
   });
 });

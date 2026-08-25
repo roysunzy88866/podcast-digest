@@ -2676,3 +2676,52 @@ Scenario: workos 封闭档不补(2026-08-24 用户拍板「维持全局口径」
 4. 云端真跑实证:changelog 或 rework 一集日志走「feed 官方稿」秒级入库上站。
 5. workos 处置已裁决=不开例外(2026-08-24),本条满足;零代码改动。
 6. GLM 冷审 + 裁决落账。
+
+## C36b · 带稿新源接入 + 逐集稿头适配(便宜通道第三刀)· US-4/US-11 · 2026-08-25 用户拍板「接前3个品味正的 + AI-Native Dev,按 SOP 好好做」
+
+> 内容太少的根因=免费 CPU-ASR 单班只跑得动几集,长音频还会被时间预算跳过(D66)。用户否掉付费 ASR,
+> 唯一剩下的免费增产杠杆=**再挖带官方稿的新源**(秒级入库,不占 ASR 预算)。
+> 2026-08-25 实抓四个候选源的真稿,发现它们各用一种稿头:
+> - **The Product Market Fit Show**(buzzsprout):行内一体式「Name (HH:MM:SS) : 正文」——整段稿一行,说话人+时间戳+正文混排。
+> - **Cheeky Pint**(transistor):行首方括号「[HH:MM:SS.ff] Name」独立段头。
+> - The Product Podcast:「Name | Company / 换行 / HH:MM:SS / 换行 / 正文」三行式(**本刀未做,留后**)。
+> - The AI-Native Dev:`<cite>SPEAKER_01</cite>` + 无括号裸时间戳(**本刀未做,留后**)。
+> 本刀只吃能秒级落地的前两种(PMF + Cheeky Pint),后两种如实回落 ASR、不硬塞。
+
+Scenario: PMF 行内一体式稿(Name (HH:MM:SS) : 正文)秒级入库
+  Given PMF 某集 <podcast:transcript> 指向 buzzsprout 稿,整段形如「Alex (00:00:12) : 正文...」
+  When parseInlineSpeakerStamp 按「(时间):」切段,说话人取上一句末标点后的首字母大写词组(0~2 词)
+  Then 解析成 {start,end,speaker,text},说话人歧义时**宁可把名字留在正文也不误删正文**(防失真:污染比丢失安全)
+  And 归属闸门照旧硬拦(官方音频时长 vs 稿末段时间)
+
+Scenario: Cheeky Pint 方括号段头稿([HH:MM:SS.ff] Name)秒级入库
+  Given Cheeky Pint 某集稿行首形如「[00:03:21.40] John Collison」独立段头
+  When parseStampedText 的 HEADER_BRACKET 分支命中
+  Then 解析成 {start,end,speaker,text},毫秒/秒都吃得下
+  And 与现有 HEADER_PAREN(rework 的「Name (MM:SS):」)路径互不干扰(测试锚)
+
+Scenario: 孤立坏时间戳只点掉自己,不毙整稿(spike-repair 5% 上限)
+  Given 稿内绝大多数段头时间单调递增,仅零星几段时间戳明显跳变(OCR/稿源笔误)
+  When 跳变段数 ≤ 全部带戳段的 5%
+  Then 只把这几段的时间戳置空(交给 stanzasToSegments 内插),其余照用,不整稿回落
+  When 跳变超 5%(真乱序,如通篇倒序)
+  Then 判「无可用时间轴」,stanzasToSegments 返回 null → 回落 ASR(GLM 010[4] 教训:真乱序不许被「修复」洗白)
+
+Scenario: 后两源格式未做,如实回落 ASR(不硬塞)
+  Given The Product Podcast(三行式)/ The AI-Native Dev(<cite>+裸戳)的稿
+  When 现有解析器都不命中
+  Then parseFeedTranscript 返回 null → 回落原有 ASR 路线,理由打印
+  So 本刀秒级惠及面如实=PMF + Cheeky Pint;后两源要么日后补解析、要么走 ASR,归属闸门永不降级
+
+Scenario: 新源进补历史池,品味判官逐集把关
+  Given pmf/cheekypint 已进 SOURCES + BACKFILL_FEED_KEYS
+  Then 补历史轮询按 BACKFILL_SINCE=2026-01-01 只补 2026 集(全局口径不破)
+  And 每集仍过品味判官(glm-4.6 付费档),不对味的照拒——接源≠降低品味门槛
+
+### DoD(C36b)
+1. feed-transcript.mjs 新增 parseInlineSpeakerStamp + parseStampedText 的 HEADER_BRACKET 分支;现有格式(rework/changelog/beyondcoding/doac)路径逐字不变(测试锚)。
+2. spike-repair 5% 上限:孤立坏戳内插、真乱序回落 ASR;归属闸门/引语逐字硬拦零降级。
+3. 单测覆盖两种新格式 + spike-repair 两侧(修复/回落)+ 后两源回落;变异验证当场红。
+4. 云端真跑实证:PMF 或 Cheeky Pint 一集走「feed 官方稿」秒级入库、过品味判官上站。
+5. 后两源(Product Podcast / AI-Native Dev)如实登记未做,不硬塞、不谎报覆盖。
+6. GLM 冷审 + 裁决落账。

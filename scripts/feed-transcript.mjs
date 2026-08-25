@@ -195,13 +195,20 @@ const INLINE_STAMP = /\\?\[((?:\d{1,2}:)?\d{1,3}:\d{2})\\?\]/;
  * 段头独占一行:「人名  (00:02):」/「人名 (1:02:03):」;其后各行(含空行隔开的续段)都归这个段头。
  */
 export function parseStampedText(text) {
-  const HEADER = /^(.{0,80}?)\s*\(((?:\d{1,2}:)?\d{1,3}:\d{2})\)\s*:\s*$/;
+  // 段头独占一行,两种真实形状:
+  //   ① transistor/rework:「人名 (00:02):」时间点在括号、行末冒号(HEADER_PAREN)
+  //   ② transistor 新版(Cheeky Pint):「[00:00:02.10] 人名」时间点在方括号打头、其后人名(HEADER_BRACKET,C36b 2026-08-25)
+  const HEADER_PAREN = /^(.{0,80}?)\s*\(((?:\d{1,2}:)?\d{1,3}:\d{2})\)\s*:\s*$/;
+  const HEADER_BRACKET = /^\[((?:\d{1,2}:)?\d{1,2}:\d{2})(?:\.\d+)?\]\s*(.{0,60}?)\s*$/;
   const stanzas = [];
   let cur = null;
   for (const line of String(text ?? "").replace(/\r\n?/g, "\n").split("\n")) {
-    const m = line.match(HEADER);
-    if (m) {
-      cur = { speaker: m[1].trim(), stamp: srtTimeToSec(m[2]), text: "" };
+    const mp = line.match(HEADER_PAREN);
+    const mb = mp ? null : line.match(HEADER_BRACKET);
+    if (mp || mb) {
+      cur = mp
+        ? { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" }
+        : { speaker: mb[2].trim(), stamp: srtTimeToSec(mb[1]), text: "" };
       stanzas.push(cur);
       continue;
     }
@@ -212,6 +219,55 @@ export function parseStampedText(text) {
       stanzas.push(cur);
     }
     cur.text = cur.text ? `${cur.text} ${t}` : t;
+  }
+  const lineSegs = stanzasToSegments(stanzas);
+  // 逐行都拿不出带时间点的段(如 buzzsprout「人名 (00:00) : 正文」全内联在一行)→ 试内联切分(C36b)
+  if (!lineSegs) return parseInlineSpeakerStamp(text);
+  return lineSegs;
+}
+
+/**
+ * 内联段头稿(buzzsprout 单 <p> 常见):「人名 (00:00:00) : 正文  人名 (00:00:05) : 正文 …」全在一行,无换行分段。
+ * 按段头标记 `(时:分[:秒]) :` 全局切开:标记前的尾部大写词=下一段说话人,其余=上一段正文。
+ * 防失真要害在**正文+时间点**(硬闸门取它),说话人是软提醒(drift #26)→ 说话人抽取即便偶有毛边也不上硬闸门。
+ * C36b(2026-08-25):不满 3 个标记不像这种格式 → 返回 null 让调用方回落 ASR(不硬套)。
+ */
+export function parseInlineSpeakerStamp(text) {
+  const t = String(text ?? "").replace(/\s+/g, " ").trim();
+  // 切分保留时间点(捕获组);形如 … (HH:MM:SS) : …
+  const parts = t.split(/\s*\((\d{1,2}:\d{2}(?::\d{2})?)\)\s*:\s*/);
+  if (parts.length < 5) return null; // parts = [头, ts1, 块1, ts2, 块2, …];<5 = 不足 2 段标记
+  // 下一说话人 = **最后一个句末标点(.?!)之后**的大写人名(1-3 词)。稳妥优先:匹配不到就不切
+  //   —— 名字留在正文 = 对硬闸门无害的污染(闸门查 digest→转写,转写多一个名字不碍事);
+  //   反过来切错会把正文词当名字丢掉,digest 引到的数字/专名就对不上原文 = 误拦。宁污染不丢字(防失真)。
+  const NAME_AFTER_END = /([.?!]["')\]]?)\s+([A-Z][A-Za-z.''-]*(?:\s+[A-Z][A-Za-z.''-]*){0,2})\s*$/;
+  const startName = parts[0].match(NAME_AFTER_END)?.[2] ?? parts[0].trim();
+  const stanzas = [];
+  let speaker = String(startName).trim();
+  for (let i = 1; i + 1 < parts.length; i += 2) {
+    const stamp = srtTimeToSec(parts[i]);
+    let chunk = parts[i + 1] ?? "";
+    let nextSpeaker = "";
+    const isLast = i + 3 >= parts.length; // 后面还有没有标记
+    if (!isLast) {
+      const nm = chunk.match(NAME_AFTER_END);
+      if (nm) { nextSpeaker = nm[2].trim(); chunk = chunk.slice(0, nm.index + nm[1].length); } // 标点留在正文
+    }
+    stanzas.push({ speaker, stamp, text: chunk.replace(/\s+/g, " ").trim() });
+    speaker = nextSpeaker;
+  }
+  // 源自动转写偶有单个戳错位(实证 PMF:19:23、19:27 之间蹦出个孤立 20:06)。stanzasToSegments 严格单调,
+  // 一个坏戳会整份判 null → 回落 2.8h ASR。稳妥修:把「比下一个有戳段还大」的**孤立尖峰**戳置 null(正文全留,
+  // 时间点是软提醒可容忍——防失真硬闸门只认正文/引语)。
+  // ⚠️ 只在尖峰**稀少(≤5% 且非小样本)**时修 —— 真乱轴(如 10:00→00:05 大面积回跳)不修,照旧交 stanzasToSegments
+  //    判 null 回落 ASR(时间轴整体不可信的稿不该硬洗上线,承 GLM 010[4])。
+  const stampedIdx = stanzas.map((s, i) => (s.stamp != null ? i : -1)).filter((i) => i >= 0);
+  const spikes = [];
+  for (let k = 0; k + 1 < stampedIdx.length; k++) {
+    if (stanzas[stampedIdx[k]].stamp > stanzas[stampedIdx[k + 1]].stamp) spikes.push(stampedIdx[k]);
+  }
+  if (spikes.length && spikes.length <= Math.floor(stampedIdx.length * 0.05)) {
+    for (const i of spikes) stanzas[i].stamp = null;
   }
   return stanzasToSegments(stanzas);
 }
