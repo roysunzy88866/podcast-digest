@@ -102,7 +102,8 @@ function groupWordLevelJson(words) {
   const out = [];
   let cur = null;
   let carry = 0; // 上一段末时间,给整段无戳的病态词兜底起点(承前不减,保持单调)
-  let sawTime = false; // 全稿有没有一个真时间戳 —— 整份都没有则不可信,回落 ASR(GLM 005[4])
+  let timed = 0; // 有真时间戳的词数
+  let total = 0; // 有字的词数 —— 时间戳覆盖不足一半则时间轴不可信,回落 ASR(GLM 006[3],与 stanzasToSegments 同 policy)
   const flush = () => {
     if (cur && cur.words.length) {
       const start = Number.isFinite(cur.start) ? cur.start : carry;
@@ -114,11 +115,12 @@ function groupWordLevelJson(words) {
   };
   for (const w of words) {
     if (!w || typeof w !== "object") continue;
-    const body = String(w.body ?? "").trim();
+    const body = String(w.body ?? w.text ?? "").trim(); // DOAC 落单元素(有 text 无 body)也读 text,不丢正文(GLM 006[1])
     if (!body) continue; // 空词才跳(防失真:有字就不丢)
+    total++;
     const st = toNum(w.startTime);
     const en = toNum(w.endTime);
-    if (Number.isFinite(st) || Number.isFinite(en)) sawTime = true;
+    if (Number.isFinite(st) || Number.isFinite(en)) timed++;
     const sp = String(w.speaker ?? "").trim();
     if (!cur || cur.speaker !== sp) {
       flush();
@@ -130,7 +132,9 @@ function groupWordLevelJson(words) {
     if (/[.?!]["')\]]?$/.test(body)) flush(); // 句末断句
   }
   flush();
-  return out.length && sawTime ? out : null;
+  // 时间戳覆盖不足一半 = 时间轴不可信(大面积靠 carry 兜底虚构),回落 ASR
+  if (!out.length || timed * 2 < total) return null;
+  return out;
 }
 
 /** "00:01:02,500" / "00:01:02.500" / "01:02.5" → 秒 */
@@ -241,6 +245,11 @@ function decodeEntities(s) {
 // 正文里的时间点标记:changelog 写作 \[80:41\](markdown 转义漏出来的),也兼容不带反斜杠的
 const INLINE_STAMP = /\\?\[((?:\d{1,2}:)?\d{1,3}:\d{2})\\?\]/;
 
+// 人名里合法的小写介词(荷/西/德/意/法…):散文防御计数时排除,免「Maria de la Cruz」这类真名被误判散文
+const NAME_PARTICLES = new Set([
+  "de", "la", "le", "van", "den", "der", "von", "del", "di", "da", "dos", "das", "du", "el", "al", "bin", "ter", "ten", "of",
+]);
+
 /**
  * transistor 系纯文本稿 → 本项目稿格式。
  * 段头独占一行:「人名  (00:02):」/「人名 (1:02:03):」;其后各行(含空行隔开的续段)都归这个段头。
@@ -267,13 +276,14 @@ export function parseStampedText(text) {
     const isBracketHeader = mb && !looksProse;
     // 行末裸戳头:仅当既非括号头也非方括号头时才试(优先级最低,免抢已有形状)
     const mt = mp || mb ? null : line.match(HEADER_TAIL);
-    // 正文防御:名字段非空、且不像散文 —— 按**词首小写**计数(≥2 个小写打头的词=散文,如
-    //   「the session usually runs」)。用词首而非 \b[a-z]{2,}\b 子串,免重音名(González 的 á 断出假小写词
-    //   「lez」)误伤真段头;人名即便带 1 个介词(de/van)也放行。否则以 HH:MM:SS 收尾的正文行会被整句
-    //   吞进 speaker 丢字(GLM 005[3])。
+    // 正文防御:名字段非空、且不像散文 —— 数「小写字母打头**且非人名介词**」的词,≥1 个就判散文
+    //   (不当段头,让正文行落成正文累积)。用词首而非 \b[a-z]{2,}\b 子串,免重音名(González 的 á
+    //   断出假小写词「lez」)误伤真段头;排除介词(de/la/van/den…)让「Maria de la Cruz」这类合法名放行。
+    //   阈值取 ≥1(非 ≥2)是为逮住单小写词散文(「okay 00:45:00」)——防失真宁误拒段头(正文落成 content 不丢字)
+    //   也不误收散文(整句吞进 speaker 丢字)。GLM 005[3] + 006[2/4]。
     const tailName = mt ? mt[1].trim() : "";
-    const tailLcLead = tailName.split(/\s+/).filter((w) => /^[a-z]/.test(w)).length;
-    const isTailHeader = !!tailName && tailLcLead < 2;
+    const proseWords = tailName.split(/\s+/).filter((w) => /^[a-z]/.test(w) && !NAME_PARTICLES.has(w.toLowerCase()));
+    const isTailHeader = !!tailName && proseWords.length < 1;
     if (mp || isBracketHeader || isTailHeader) {
       let cand;
       if (mp) cand = { speaker: mp[1].trim(), stamp: srtTimeToSec(mp[2]), text: "" };

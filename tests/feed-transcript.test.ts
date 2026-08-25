@@ -688,4 +688,41 @@ describe("C36c · 行末裸戳头(Product Podcast)+ buzzsprout 词级 JSON(AI-Na
     const segs = parseWhisperJson({ segments: [{ speaker: "A", body: "a." }, { speaker: "A", body: "b." }] });
     expect(segs).toBeNull();
   });
+  it("★★★ [GLM006-2] 双介词合法人名(Maria de la Cruz / Lars van den Berg)不被散文防御误伤,仍当段头", () => {
+    const segs = parseStampedText(
+      ["Maria de la Cruz 00:12:00", "content here.", "Lars van den Berg 00:20:00", "more content."].join("\n"),
+    )!;
+    expect(segs.some((s) => s.speaker === "Maria de la Cruz")).toBe(true);
+    expect(segs.some((s) => s.speaker === "Lars van den Berg")).toBe(true);
+  });
+  it("★★★ [GLM006-4] 单个小写词的散文行(okay 00:12:00)也不被行末裸戳头吞,留成正文", () => {
+    const t = [
+      "Alex Chen | Acme 00:00:05",
+      "first content.",
+      "okay 00:12:00", // 单小写词散文
+      "second content.",
+      "Bob Lee | Beta 00:01:00",
+      "third.",
+    ].join("\n");
+    const segs = parseStampedText(t)!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("okay 00:12:00"); // 正文留住
+    expect(segs.some((s) => s.speaker === "okay")).toBe(false); // 没被吞进说话人
+    expect(segs.some((s) => s.speaker === "Alex Chen")).toBe(true); // 真段头仍在
+  });
+  it("★★★ [GLM006-3] 词级稿时间戳覆盖不足一半 → null 回落 ASR(不靠 carry 大面积虚构)", () => {
+    const words: Array<Record<string, unknown>> = [];
+    for (let i = 0; i < 10; i++) words.push({ speaker: "A", body: `w${i}.` }); // 10 个无戳
+    words.push({ speaker: "A", startTime: 600, endTime: 601, body: "end." }); // 仅 1 个有戳
+    expect(parseWhisperJson({ segments: words })).toBeNull();
+  });
+  it("★ [GLM006-1] 词级路径遇落单 DOAC 元素(有 text 无 body)也读 text,不丢正文", () => {
+    const segs = parseWhisperJson({
+      segments: [
+        { speaker: "A", startTime: 0, endTime: 1, body: "one." },
+        { speaker: "A", startTime: 1, endTime: 2, body: "two." },
+        { start: 2, end: 3, text: "three." }, // DOAC 落单
+      ],
+    })!;
+    expect(segs.map((s) => s.text).join(" ")).toContain("three."); // 落单 text 不丢
+  });
 });
