@@ -825,3 +825,18 @@ describe("drift #61 · 官方稿失败的兜底必须是「能真跑」的那条
     expect(tail).toMatch(/if \(!item\.enclosureUrl\) throw new Error/);
   });
 });
+
+// 韧性:一集音频合成静默失败(exit 0 却无 audio.mp3)不该毙整批部署(2026-08-25 用户「一集音频挂不能毙整班」)。
+// ensureAllAudio 内嵌 run()/fs,GLM 部分测不了;锚住「不信退出码只认文件在 + 缺则重试 + 仍缺响亮报错」防静默删。
+describe("ensureAllAudio · 韧性:只认音频文件在,缺则重试(bigtech exit 0 却无音频)", () => {
+  const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+  const fn = src.slice(src.indexOf("function ensureAllAudio("), src.indexOf("\n}", src.indexOf("function ensureAllAudio(")));
+  it("★★★ 用『audio.mp3 真在』判成败,不信 tts 退出码(实证 bigtech:exit 0 却无音频)", () => {
+    expect(fn).toMatch(/ok = existsSync\(audioPath\)/);
+    expect(fn).toMatch(/attempt <= 2/); // 缺了重试一次
+  });
+  it("★★★ tts 抛错要 catch 不能崩整轮(一集挂不毙整班),两次仍缺才响亮报错交 gate", () => {
+    expect(fn).toContain("catch (e)");
+    expect(fn).toMatch(/两次合成后仍无 audio\.mp3/);
+  });
+});

@@ -908,9 +908,22 @@ function ensureAllAudio() {
   for (const d of readdirSync(EPISODES_DIR, { withFileTypes: true })) {
     if (!d.isDirectory()) continue;
     const dir = join("data/episodes", d.name);
-    if (existsSync(join(ROOT, dir, "digest.json"))) {
-      run("node", ["scripts/tts.mjs", dir]); // 缓存命中时它自己打「跳过」,不重复计费
+    if (!existsSync(join(ROOT, dir, "digest.json"))) continue;
+    // 韧性(2026-08-25 用户「一集音频挂不能毙整班」):不信 tts 的退出码 —— 实证 bigtech 那集 tts exit 0
+    // 却没产 audio.mp3(合成静默失败),gate-audio 拦住整批好集的部署。改为**只认「音频文件真在」**,
+    // 缺了就重试一次(瞬时的 MiMo/edge 抖动自愈);两次仍缺 → 响亮报错,交 gate-audio fail-closed(持久失败不放行)。
+    const audioPath = join(ROOT, dir, "audio.mp3");
+    let ok = false;
+    for (let attempt = 1; attempt <= 2 && !ok; attempt++) {
+      try {
+        run("node", ["scripts/tts.mjs", dir]); // 音频真缺时 tts 不会缓存跳过(它自查 audioPath 在不在)→ 这就是重试合成
+      } catch (e) {
+        console.warn(`⚠️ [ensure-audio] ${d.name} 第 ${attempt}/2 次合成抛错:${String(e.message).slice(0, 180)}`);
+      }
+      ok = existsSync(audioPath);
+      if (!ok && attempt < 2) console.warn(`   ↻ ${d.name} 合成后音频仍缺 → 重试(瞬时失败自愈)`);
     }
+    if (!ok) console.error(`❌ [ensure-audio] ${d.name} 两次合成后仍无 audio.mp3 —— 交 gate-audio 拦(不静默放缺音频集进部署)`);
   }
 }
 
